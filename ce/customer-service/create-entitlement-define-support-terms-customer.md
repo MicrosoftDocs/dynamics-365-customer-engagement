@@ -1,14 +1,15 @@
 ---
 title: Create entitlements to define the support terms for a customer (Dynamics 365 Customer Service) | MicrosoftDocs
 description: See how to create entitlements to define the support terms for a customer in Dynamics 365 Customer Service
-author: anjgupta
-ms.author: anjgup
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 10/01/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: dyn365-customerservice
-ms.assetid: 9384cb0a-64ec-424d-bf73-7010997c4d4e
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -156,7 +157,7 @@ As you save the entitlement, additional sections are added for a new entitlement
 ## Associate entitlements to cases  
  In a case record, in the **Entitlement** field, select the **Lookup** button,and select an entitlement. The inline lookup shows only the active entitlement for the customer of the case.  
   
- The Entitlements section in the case record lists all the active entitlements for the customer. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]: [See recent cases and entitlements](customer-service-hub-user-guide-case-sla.md#see-recent-cases-and-entitlements)
+ The Entitlements section in the case record lists all the active entitlements for the customer. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]: [See recent cases and entitlements](customer-service-hub-user-guide-basics.md#related-section)
 
   
 ## Cancel an entitlement  

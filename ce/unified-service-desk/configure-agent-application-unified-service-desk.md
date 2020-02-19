@@ -1,10 +1,12 @@
 ---
 title: "Configure your agent application using Unified Service Desk | MicrosoftDocs"
-ms.custom: dyn365-USD
+description: 
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 305f27d0-a53c-49be-a6d9-7ddf7ebbf2a3
 author: kabala123
 ms.author: kabala
 manager: shujoshi

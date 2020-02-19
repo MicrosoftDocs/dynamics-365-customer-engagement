@@ -1,20 +1,16 @@
 ---
-title: "Get started with building a simple communication widget | MicrosoftDocs"
-description: "Read how to develop and host a simple communication widget in Microsoft Dynamics 365 Channel Integration Framework."
-keywords: ""
-ms.date: 03/14/2019
-ms.service:
-  - "dynamics-365-cross-app"
-ms.custom:
-  - "dyn365-a11y"
-  - "dyn365-developer"
-ms.topic: reference
-applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-ms.assetid: 1BDBDB0C-8DEA-454E-97B2-884F97C7596D
+title: "Get started with building a simple communication widget with Dynamics 365 Channel Integration Framework version 1.0 | MicrosoftDocs"
+description: "Read how to develop and host a simple communication widget in Microsoft Dynamics 365 Channel Integration Framework version 1.0."
 author: susikka
 ms.author: susikka
 manager: shujoshi
+ms.date: 12/31/2019
+ms.topic: reference
+ms.service: 
+  - "dynamics-365-customerservice"
+ms.custom: 
+  - "dyn365-a11y"
+  - "dyn365-developer"
 ---
 # Walkthrough: Get started with building a simple communication widget
 
@@ -84,11 +80,11 @@ In this tutorial, we demonstrate how to build a simple *Hello World!* communicat
 
 Now, proceed to the next section of this walkthrough that shows how you can search and open a record in Dynamics 365  on an incoming call.<br />
 
-> [!div class="nextstepaction"]
-> [Search and open records on an incoming conversation](search-open-records-incoming-conversations.md)
-
 ### See also
+[Search and open records on an incoming conversation](search-open-records-incoming-conversations.md)
 
-[Sample code for softphone integration](sample-softphone-integration.md)<br />
-[Create an ASP.NET Framework web app in Azure](https://docs.microsoft.com/azure/app-service/app-service-web-get-started-dotnet-framework)<br />
+[Sample code for softphone integration](sample-softphone-integration.md)
+
+[Create an ASP.NET Framework web app in Azure](https://docs.microsoft.com/azure/app-service/app-service-web-get-started-dotnet-framework)
+
 [Frequently asked questions](faq-channel-integration-framework.md)

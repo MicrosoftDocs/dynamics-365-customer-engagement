@@ -1,22 +1,24 @@
 ---
-title: "Performance enhancement for Common Data Service platform entity page loads | MicrosoftDocs"
-description: "Learn about Internet Explorer pooling feature, which creates a dynamic pool of Internet Explorer process instances. The hosted control that you open uses an Internet Explorer instance from the pool to perform faster inline navigation."
+title: "Performance enhancement for model-driven page loads | MicrosoftDocs"
+description: "Learn about the Internet Explorer pooling feature, which creates a dynamic pool of Internet Explorer process instances. The hosted control that you open uses an Internet Explorer instance from the pool to perform faster inline navigation."
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
 ms.date: 07/24/2018
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: FA8D5702-C698-42B0-89BF-CD444BF3FB73
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-search.audienceType: admin
+search.audienceType: 
+  - admin
 search.app: 
   - D365CE
   - D365USD
 ---
-# Performance enhancement for loading Customer Engagement app pages
+
+# Performance enhancement for loading the model-driven app pages
 
 ::: moniker range="<=dynamics-usd-4"
 
@@ -63,7 +65,7 @@ By default, Internet Explorer pooling is disabled. To enable pooling, a System A
 
 7. Type **InternetExplorerPooling** for the **Name** field.
 
-8. Set **True** for the **Value** field.
+8. Set **False** for the **Value** field.
 
 9. Select **Save**.
 

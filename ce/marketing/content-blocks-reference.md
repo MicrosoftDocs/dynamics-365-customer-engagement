@@ -7,8 +7,8 @@ ms.custom:
   - dyn365-marketing
 ms.topic: reference
 ms.assetid: d1975d36-2383-4b88-ab84-e66930ec2dd0
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -41,12 +41,17 @@ To add a section element, open the **Toolbox** panel, choose the section element
 When you first add a section element, it will have the number of columns that matches the choice you made when you added it. You can change this and other properties afterwards by selecting the section from the canvas and opening the **Properties** tab, where you can set the following options:
 
 - **Section layout**: Select a button here to change the column layout to the one indicated by the graphic on each button. If you remove a column, all of its content will be moved into one of the remaining columns. If you add a column, the new column will initially be empty.
-- **Section styles**: Choose a background color for the section here. This color appears inside the border (including the padding area, but not the margin area).
+- **Section styles**: Choose a **Background color** and/or image (**Background src**) for the section. This color or image appears inside the border (including the padding area, but not the margin area). If you  use a **Background src**, note the following:
+    - Select the **Image gallery** button ![The Image gallery button](media/email-browse-button.png "The Image gallery button") to select an image from the Dynamics 365 Marketing file library (you can also upload new images here).
+    - You can instead enter a custom image URL as text. For email messages, your URL can include dynamic expressions to show different images to different recipients. Select the **[Assist edit](dynamic-email-content.md#assist-edit)** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button") to get help constructing a dynamic expression.
+    - If you've specified an image, the **Background size** setting is also shown. Select **Initial** to use the original image size. Select  **Fill (cover)** to fit the image to the section (the image will zoom to fill the entire area, as needed, but the original aspect ratio will be maintained, so clipping may occur but warping won't).
+    - When your image is set with a **Background size** of **Initial**, you'll also be able to choose the horizontal and vertical alignments, which affect the image position. You can chose center, left, or right alignment for each axis.
+    - If your image doesn't cover the full section area, then the **Background color** will be shown in areas not covered by the image.
 - **Section border styles**: Use these settings to set the style (none, solid, dotted, dashed, or double), line width, line color, and corner radius for the border that goes around the entire section (but not between columns).
 - **Section padding**: Specify how much padding (in pixels) you'd like to place between the columns and the colored border. You can enter separate values for top, bottom, left, and right.
 - **Section margin**: Specify how much margin (in pixels) you'd like to place between the colored border and the outside edge of the section element. You can enter separate values for top, bottom, left, and right.
 
-![Add a section element to your design](media/email-layout-edit.png "Add a section element to your design")
+![Section element properties](media/email-layout-edit.png "Section element properties")
 
 > [!NOTE]
 > Microsoft Windows Outlook clients don't support all border-style and border-radius settings.
@@ -65,7 +70,7 @@ You can edit the text of any new or existing text element by working directly in
 
 Select a text element and use the settings provided on the **Properties** tabs to stylize the element itself by using colors, fonts, margins, borders, and backgrounds. Many of the settings on the **Style** tab (which apply to the overall page, form, or message design) also affect the styling of text-element content unless overruled locally.
 
-For email messages, the text toolbar includes an **Assist-edit** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button"). Use this to place dynamic text, including field values such as the recipient's name. More information: [Add dynamic content to email messages](dynamic-email-content.md)
+For email messages, the text toolbar includes an **[Assist edit](dynamic-email-content.md#assist-edit)** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button"). Use this to place dynamic text, including field values such as the recipient's name. More information: [Add dynamic content to email messages](dynamic-email-content.md)
 
 ### Image elements
 
@@ -76,7 +81,7 @@ When you first add an image element, an image placeholder appears at the locatio
 - **Source**: Specify the image you want to display using a combination of the following:
   - Enter a URL directly in the field.
   - Select the **Image Gallery** button ![The image gallery button](media/button-image-gallery.png "The image gallery button") next to this field to select an existing image from the gallery, or to upload a new one. When an image is selected, its URL is shown here.
-  - If you are using the image in an email message, then you can use the **Assist-edit** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button") to place dynamic text as part of the URL. For example, you could include the recipient's contact ID or company name to select an image that is relevant for each individual recipient. More information: [Add dynamic content to email messages](dynamic-email-content.md)
+  - If you are using the image in an email message, then you can use the **[Assist edit](dynamic-email-content.md#assist-edit)** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button") to place dynamic text as part of the URL. For example, you could include the recipient's contact ID or company name to select an image that is relevant for each individual recipient. More information: [Use dynamic values to choose an image source or link](dynamic-email-content.md#image-source)
 - **Alt text**: Enter a short description of the image. This text will be read aloud to contacts that are using a screen reader, and will also be shown to contacts that have images disabled in their browser or email client. 
 - **Link**: Enter a URL here if you'd like the image to function as a link.
 - **Alignment**: Choose how the image should be aligned relative to its column (left, right, or center).

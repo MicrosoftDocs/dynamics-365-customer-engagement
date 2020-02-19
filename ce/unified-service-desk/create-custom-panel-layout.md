@@ -1,18 +1,19 @@
 ---
 title: "Create a custom panel layout | MicrosoftDocs"
 description: "Panel layouts in Unified Service Desk are hosted controls, which provide the ability to load all sorts of different layouts in the system. Unified Service Desk provides some predefined panel layouts for you to use in your agent application."
-ms.custom: dyn365-USD
-ms.date: 01/25/2019
-ms.service: dynamics-365-customerservice
+ms.custom: 
+  - dyn365-USD
+ms.date: 12/31/2019
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 6b57c966-00ab-4ebe-9d91-07ae9fa100ba
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-search.audienceType:
+search.audienceType: 
   - customizer
   - developer
-search.app:
+search.app: 
   - D365CE
   - D365USD
 ---
@@ -32,9 +33,9 @@ Panel layouts in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-servi
   
 - [!INCLUDE[pn_microsoft_visual_studio_2012](../includes/pn-microsoft-visual-studio-2012.md)], [!INCLUDE[pn_visual_studio_2013](../includes/pn-visual-studio-2013.md)], or [!INCLUDE[pn_visual_studio_2015](../includes/pn-visual-studio-2015.md)]  
   
-- [!INCLUDE[tn_nuget](../includes/tn-nuget.md)] Package Manager for [Visual Studio 2012](http://visualstudiogallery.msdn.microsoft.com/27077b70-9dad-4c64-adcf-c7cf6bc9970c), [Visual Studio 2013](http://visualstudiogallery.msdn.microsoft.com/4ec1526c-4a8c-4a84-b702-b21a8f5293ca), or [Visual Studio 2015](https://visualstudiogallery.msdn.microsoft.com/5d345edc-2e2d-4a9c-b73b-d53956dc458d)  
+- [!INCLUDE[tn_nuget](../includes/tn-nuget.md)] Package Manager for [Visual Studio 2012](https://visualstudiogallery.msdn.microsoft.com/27077b70-9dad-4c64-adcf-c7cf6bc9970c), [Visual Studio 2013](https://visualstudiogallery.msdn.microsoft.com/4ec1526c-4a8c-4a84-b702-b21a8f5293ca), or [Visual Studio 2015](https://visualstudiogallery.msdn.microsoft.com/5d345edc-2e2d-4a9c-b73b-d53956dc458d)  
   
-- **CRM SDK Templates** for [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] that contains the custom panel layout project template. [Download](http://go.microsoft.com/fwlink/p/?LinkId=400925) the **CRM SDK Templates** from the Visual Studio gallery, and double-click the CRMSDKTemplates.vsix file to install the template in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].  
+- **CRM SDK Templates** for [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] that contains the custom panel layout project template. [Download](https://go.microsoft.com/fwlink/p/?LinkId=400925) the **CRM SDK Templates** from the Visual Studio gallery, and double-click the CRMSDKTemplates.vsix file to install the template in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].  
   
 <a name="HowTo"></a>   
 ## Create a custom panel layout  
@@ -48,7 +49,7 @@ Panel layouts in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-servi
   
    2. Ensure that **[!INCLUDE[pn_NET_Framework](../includes/pn-net-framework.md)] 4.6.2** is selected.  
   
-   3. Specify the name and location of the project, and click **OK**.  
+   3. Specify the name and location of the project, and select **OK**.  
   
    ![Create a custom panel layout](../unified-service-desk/media/usd-custom-panel-type-1.png "Create a custom panel layout")  
   
@@ -61,10 +62,10 @@ Panel layouts in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-servi
    ```  
    <USD:PanelLayoutBase             
            x:Class="MyUSDCustomPanelLayout.CustomLayout"  
-           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
-           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
-           xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"  
-           xmlns:d="http://schemas.microsoft.com/expression/blend/2008"  
+           xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation"  
+           xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml"  
+           xmlns:mc="https://schemas.openxmlformats.org/markup-compatibility/2006"  
+           xmlns:d="https://schemas.microsoft.com/expression/blend/2008"  
            mc:Ignorable="d"   
            xmlns:local="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics"  
            xmlns:USD="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics.PanelLayouts;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics"  
@@ -193,20 +194,34 @@ Panel layouts in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-servi
   
 ### Define the custom panel layout hosted control on server  
   
-1. Sign in to the Common Data Service platform.  
+1. Sign in to Unified Service Desk Administrator.  
   
-2. On the nav bar, choose **Dynamics 365**.  
+2. Select **Hosted Controls** under **Basic Settings**.
   
-3. Choose **Settings** > **Unified Service Desk** > **Hosted Controls**.  
+3. Select **+ New**.  
   
-4. Choose **NEW**, and then specify values in the **New Hosted Control** screen as shown here.  
+4. On the hosted control page, specify the following. 
   
-   ![Custom panel hosted control definition](../unified-service-desk/media/usd-custom-panel-type-2.png "Custom panel hosted control definition")  
+  | Field | Value |
+  |-------------------------|-------------------------------|
+  | Name | My custom panel layout |
+  | Display Name | My Custom Panel Layout | 
+  | Unified Service Desk Component Type | Panel Layout |
+  | PanelType | User Defined | 
+  | Application is Global | Checked |
+  | Display Group | MainWorkArea |
+
+5. Select the **Hosting** tab, and specify the following:
+
+  | Field | Value |
+  |-------------------------|-------------------------------|
+  | Assembly Uri | MyUSDCustomPanelLayout|
+  | Assembly Type | MyUSDCustomPanelLayout.CustomLayout| 
   
    > [!NOTE]
    > **Assembly URI** is the name of your assembly and the **Assembly Type** is the name of your assembly file (dll) followed by a dot (.) and then the class name in your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project. In this example, the name of the assembly is **MyUSDCustomPanelLayout** and name of the class is **CustomLayout**, which is the default class name when you create a custom panel layout.  
   
-5. Save the hosted control.  
+6. Select **Save**.  
   
 ### Run the Unified Service Desk client to work with the custom panel layout  
   

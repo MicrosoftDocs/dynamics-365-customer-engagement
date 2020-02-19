@@ -1,11 +1,12 @@
 ---
 title: "Session Timer (Custom Hosted Control) in Unified Service Desk  | MicrosoftDocs"
 description: "Learn about Session Timer type of hosted control in Unified Service Desk."
-ms.custom: dyn365-USD
-ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.custom: 
+  - dyn365-USD
+ms.date: 12/31/2019
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 044cd615-691e-454d-9877-31095940b226
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -59,15 +60,15 @@ In [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], 
 </thresholds>  
 ```  
   
- To configure threshold limits and colors for the `Timer` hosted control:  
+ To configure threshold limits and colors for the Timer hosted control:  
   
-1. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
+1. Sign in to Unified Service Desk Administrator. 
   
-2. Click **Hosted Controls**.  
+2. Select **Hosted Controls** under **Basic Settings**.  
   
-3. Search for the `Timer` hosted control, and click the hosted control name to open its definition.  
+3. Search for the **Timer** hosted control to open its definition.  
   
-4. In the `Timer` hosted control definition form, update the XML in the **Extensions XML** field to specify the threshold limit and corresponding colors.  
+4. In the **Timer** hosted control definition form, update the XML in the **Extensions XML** field to specify the threshold limit and corresponding colors.  
   
 5. Save the hosted control definition.  
   

@@ -1,43 +1,45 @@
 ---
 title: "Project accurate revenue with sales forecasting (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Accurately project sales for your team and estimate the revenue by using sales forecasting in Dynamics 365 Sales."
-ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.date: 02/03/2020
+ms.service: 
+  - dynamics-365-sales
+ms.custom: 
+  - dyn365-sales
 ms.topic: article
-ms.assetid: 3f06063b-900d-40dd-a20b-d48e216a9444
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 ---
 
 # Project accurate revenue with sales forecasting
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+A forecast helps your organization predict how much revenue your sales team will generate in a given timeframe. When done correctly, it can play a significant role in your company's success. By using a forecast:
 
-> [!IMPORTANT]
-> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
-> - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
-> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-> - To learn how to enable a preview feature, see [What are Preview features and how do I enable them?](/power-platform/admin/what-are-preview-features-how-do-i-enable-them#how-do-i-enable-a-preview-feature)
+- Sellers can track their performance against targets and identify pipeline risks that might jeopardize their ability to hit the targets.
+
+- Managers can track individual sales performance against quotas, to proactively provide coaching.
+
+- Directors can use forecast trends to anticipate departmental sales and reallocate resources if necessary.
+
+- Organization leaders can use projected estimates to change product strategy or convey updated projections to investors.
+
+## Review prerequisites
+<!--note from editor: Is the edit to the first bullet item okay? I didn't know what "At least a forecast is created" meant. Also, in line 39 is "must" accurate? It didn't seem definite enough to say you "should" have read privileges.-->
+Review the following prerequisites before using forecasts:
+
+ -  The forecast was created with at least one of the following options:
+
+    -  A hierarchy that you're part of.
+
+    -  A security role that you're part of has been granted access.
+
+    To learn more, see [Configure a forecast](configure-forecast.md).
+
+-  You must have read privileges for User and Territory entities. To learn more, see [Security roles and privileges](/power-platform/admin/security-roles-privileges).
 
 
-Forecasting helps organizations create sales projections and estimate revenue–insights, which can help them manage their resources and cash flow.
+### See also
 
-Salespeople can use forecasting to spot pipeline risks that jeopardize their deals, or to track performance against their targets.
-
-A new forecast starts with defining parameters, such as the forecasting time period, and which data will be used. To learn more, see [Configure a forecast](configure-forecast.md).
-
-An option set must be chosen, and columns configured to determine the confidence level of an opportunity as it moves along the path to conversion. For example, when you select the entity as **opportunities** and the option set as **forecast categories**, the forecast grid displays the stages that are defined in the option set. You can also manually configure your columns for a fully customized forecast. To learn more about the different stages of the Forecast categories option set, see [Capture forecast category for opportunity](capture-forecast-category-opportunity.md).  
-
-
-## See also
-
-[Configure a forecast](configure-forecast.md) 
-
-[Capture forecast category for opportunity](capture-forecast-category-opportunity.md)  
-
-[View forecasts](view-forecasts.md)
+[Configure a forecast](configure-forecast.md)<br>
+[View a forecast](view-forecasts.md)

@@ -1,18 +1,13 @@
 ---
 title: "Try channels in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how you can try channels in Omnichannel for Customer Service to connect and engage with your customers in real time."
-ms.date: 11/06/2019
-ms.service:
-  - "dynamics-365-customerservice"
-ms.custom:
-  - ""
-ms.topic: article
-applies_to:
-  - ""
-ms.assetid: ebd41ac5-dd35-4451-9bd3-476e8d440246
-author: sbmjais
-ms.author: shjais
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
+ms.date: 12/13/2019
+ms.service: 
+  - "dynamics-365-customerservice"
+ms.topic: article
 ---
 
 # Try channels in Omnichannel for Customer Service
@@ -28,15 +23,14 @@ There are two options to sign-up for a free 30-day trial of channels:
 
 ## Option 1: Channels trial through trials.dynamics.com
 
-With this option, you can get a free 30-day trial of Chat, SMS, and Facebook Messenger (preview) channels through [https://trials.dynamics.com](https://trials.dynamics.com). 
+With this option, you can get a free 30-day trial of Chat, SMS, and Facebook Messenger channels through [https://trials.dynamics.com](https://trials.dynamics.com). 
 
 **Prerequisites**:
 - You must have an existing tenant.
 - You must have an existing organizational account with the global administrator role to enable the trial.
 
 > [!NOTE]
-> - This option is currently available only in North America, Europe, Canada, United Kingdom, Australia, Asia Pacific, and South America. Your tenant must be located in one of these regions. 
-> - The 30-day trial period does not apply to the Facebook Messenger channel as it is in preview.
+> This option is currently available only in North America, Europe, Canada, United Kingdom, Australia, Asia Pacific, and South America. Your tenant must be located in one of these regions. 
 
 ### Step 1: Get a Dynamics 365 trial instance
 
@@ -83,7 +77,7 @@ If you already have a subscription of Dynamics 365 Customer Service Enterprise o
     > [!div class=mx-imgBorder]
     > ![Power BI (free) subscription](media/powerbi-free.png "Power BI (free) subscription")
 
-### Step 3: Enable Chat, SMS, and Facebook (preview) channels in your organization
+### Step 3: Enable Chat, SMS, and Facebook channels in your organization
 
 In Dynamics 365 Administration Center, go to the **Applications** tab, select the **Omnichannel for Customer Service** application and select **Manage**. This will guide you to enable the required channels on one or more instances that you may have. You can enable a channel or multiple channels on any instance type in this step. For more information on provisioning channels through the Dynamics 365 admin center, see [Provision Omnichannel for Customer Service](administrator/omnichannel-provision-license.md).
 
@@ -94,16 +88,13 @@ Once a channel is enabled in your organization, you can sign in to Dynamics 365 
 
 ## Option 2: Channels trial through Microsoft 365 admin center
 
-With this option, you can sign-up for a free 30-day trial of Chat, SMS, and Facebook Messenger (preview) channels from the Microsoft 365 admin center only if you have a paid subscription of Dynamics 365 Customer Service Enterprise that has been purchased directly through the Microsoft 365 admin center (that is, Web Direct). If you do not have the pre-requisite subscription, or if you have purchased the pre-requisite subscription other than Web Direct, then the option to try channels will not be available in the Microsoft 365 admin center.
-
-> [!NOTE]
-> The 30-day trial period does not apply to the Facebook Messenger channel as it is in preview.
+With this option, you can sign-up for a free 30-day trial of Chat, SMS, and Facebook Messenger channels from the Microsoft 365 admin center only if you have a paid subscription of Dynamics 365 Customer Service Enterprise that has been purchased directly through the Microsoft 365 admin center (that is, Web Direct). If you do not have the pre-requisite subscription, or if you have purchased the pre-requisite subscription other than Web Direct, then the option to try channels will not be available in the Microsoft 365 admin center.
 
 The channel you can try depends on the add-on you purchase from the Microsoft 365 admin center. The following add-ons are available for purchase:
 
 - **Dynamics 365 for Customer Service Chat Trial**: Allows you to try Chat.
 
-- **Dynamics 365 for Customer Service Digital Messaging add-on Trial**: Allows you to try Chat, SMS, and Facebook (preview) channels.
+- **Dynamics 365 for Customer Service Digital Messaging add-on Trial**: Allows you to try Chat, SMS, and Facebook channels.
 
 > [!NOTE]
 > For more information on the Chat and Digital Messaging licenses, pricing, and prerequisites, please refer to the Dynamics 365 licensing guide [here](https://go.microsoft.com/fwlink/p/?LinkId=866544).
@@ -145,10 +136,18 @@ In Dynamics 365 Administration Center, go to the **Applications** tab, select th
 
 Once a channel is enabled in your organization, you can sign in to Dynamics 365 organization, and select the Omnichannel Administration application to start configuring the channel. More information on configuring channels in Omnichannel for Customer Service: [Configure a chat channel](administrator/set-up-chat-widget.md), [Configure an SMS channel](administrator/configure-sms-channel.md), and [Configure a Facebook channel](administrator/configure-facebook-channel.md).
 
+## Videos
+
+[Try channels in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114715)
+
+To view more videos on Omnichannel for Customer Service, see [Videos](videos.md).
+
 ### See also
 
-[Provision Omnichannel for Customer Service](administrator/omnichannel-provision-license.md)  
-[Configure a chat channel](administrator/set-up-chat-widget.md)
-[Configure an SMS channel](administrator/configure-sms-channel.md)
-[Configure a Facebook channel](administrator/configure-facebook-channel.md) 
+[Provision Omnichannel for Customer Service](administrator/omnichannel-provision-license.md)
 
+[Configure a chat channel](administrator/set-up-chat-widget.md)
+
+[Configure an SMS channel](administrator/configure-sms-channel.md)
+
+[Configure a Facebook channel](administrator/configure-facebook-channel.md)

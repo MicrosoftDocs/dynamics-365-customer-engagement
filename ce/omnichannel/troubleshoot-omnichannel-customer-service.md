@@ -1,16 +1,13 @@
 ---
 title: "Troubleshoot Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how to troubleshoot the issues you may face while working on Omnichannel for Customer Service."
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 09/11/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 2507DF5E-99CF-4AF9-BAEF-5B9C7B43ECF7
-ms.custom: 
 ---
 
 # Troubleshoot Omnichannel for Customer Service
@@ -19,11 +16,33 @@ ms.custom:
 
 Use the following list of troubleshooting topics to quickly find information to solve your issue.
 
-## Unable to create new entity record channel
+## Entity routing configuration fails
 
-### Issue:
+### Issue 1:
 
-The Flow doesn't update automatically. Due to this issue, you can't create an entity records channel and the system shows a business process error. In Power Automate, you might see either **Cases Work Distribution Flow** or **Entity Records Distribution Flow**.
+One of issues is that **Entity Records Distribution Flow** connection is not authorized. Due to this issue, you can see a business process error.
+
+**Unable to complete the operation due to an error. Try again later. If the issue persists, contact Microsoft support.**
+
+   > [!div class=mx-imgBorder]
+   > ![Business Process Error](media/business-process-error1.PNG "Business Process Error")
+
+### Resolution:
+
+Go to Entity Records Distribution Flow and authenticate the connection.
+
+To resolve the issue, perform steps 1 through 9 in the [Update entity records work distribution flow](administrator/multiple-ws-entity-record-routing.md#step-2-update-entity-records-distribution-flow) topic.
+
+### Issue 2:
+
+**Entity Records Distribution Flow** is not updated automatically. Due to this issue, you can't create an entity records channel and the system shows a business process error.
+
+**The operation failed due to an incorrect configuration in Entity Records Distribution Flow. Ensure the Entity Records Distribution Flow isn't deleted or renamed.**.
+
+   > [!div class=mx-imgBorder]
+   > ![Business Process Error](media/business-process-error2.PNG "Business Process Error")
+
+In Power Automate, you might see either **Cases Work Distribution Flow** or **Entity Records Distribution Flow**.
 
 ### Resolution:
 
@@ -71,9 +90,19 @@ Even though the Flow is reset, it doesn't update the name if it is **Case Work D
 
 To rename the Flow, select **Edit**, type the name of the flow as **Entity Record Distribution Flow** in the **Flow name** field, and select **Save**.
 
-## Entity Records Distribution Flow is not triggered
+### Issue 3:
 
-Entity Records Distribution Flow may not be triggered due to certain reasons. See the following issue  and resolution in the same order.
+There may be an issue with customizations in the **Entity Records Distribution Flow**.
+
+### Resolution:
+
+Go to **Entity Records Distribution Flow** and review your customization made to the flow. 
+
+Review and resolve the error that is due to your customizations. For more information, see [Update entity records work distribution flow](administrator/multiple-ws-entity-record-routing.md#update-entity-records-work-distribution-flow).
+
+## Entity Records are not routed and distributed to agents
+
+Entity Records routing and distribution may not work due to certain reasons. Validate the following issues and resolutions in the order given below.
 
 ### Issue 1:
 
@@ -81,61 +110,35 @@ The routing rule is configured incorrectly or not activated.
 
 ### Resolution:
 
-Verify the routing rule and ensure to activate it. To learn more, see [Create routing rules](administrator/entity-channel.md#step-4-create-routing-rules).
+Verify the routing rule set is configured correctly and ensure to activate it. To learn more, see [Create routing rules](administrator/entity-channel.md#step-4-create-routing-rules).
 
 ### Issue 2:
 
-The Entity Records Distribution Flow is not displaying the latest or updated workstream.
+The Entity Records Distribution Flow is not updated with latest workstream information.
 
 ### Resolution:
 
 If you create or edit (update the name of the workstream) an entity record workstream, you must update Entity records Distribution Flow. To learn more, see [Update entity records distribution flow](administrator/multiple-ws-entity-record-routing.md#step-2-update-entity-records-distribution-flow).
 
-After you update the flow, run the flow.
-
 ### Issue 3:
 
-There is an error and due to which the flow was not triggered.
+There is an error and due to which Entity Records Distribution Flow was not triggered.
 
 ### Resolution:
 
 Check if the flow has triggered or if there was any error in the trigger of the Flow. You can get this information from the Power Automate home page or Entity Records Distribution Flow's run history.
 
-To work around the issue, reset the flow. To learn more, see [Unable to create new entity record channel](#unable-to-create-new-entity-record-channel).
+To work around the issue, reset the flow. To learn more, see [Reset the flow](#resolution-1).
 
 If resetting the flow doesn't resolve the issue, contact Microsoft support.
 
 ### Issue 4:
 
-The flow executed successfully but the action was not executed successfully.
+The flow triggered successfully but the action was not executed successfully.
 
 ### Resolution:
 
 Reach out to Microsoft support for further investigation.
-
-## Entity routing configuration fails
-
-### Issue 1:
-
-There may be an issue in the **Entity Records Distribution Flow**.
-
-### Resolution:
-
-Go to **Entity Records Distribution Flow** and review your customization made to the flow.
-
-To resolve the issue, perform steps 1 through 8 in the [Update entity records work distribution flow](administrator/multiple-ws-entity-record-routing.md#step-2-update-entity-records-distribution-flow) topic. Review and resolve the error that is due to your customizations.
-
-### Issue 2:
-
-One of issues is that **Entity Records Distribution Flow** connection is not authorized. Due to this issue, you can see the following error message.
-
-**Unable to complete the operation due to an error. Try again later. If the issue persists, contact Microsoft support.**
-
-### Resolution:
-
-Go to Entity Records Distribution Flow and authenticate the connection.
-
-To resolve the issue, perform steps 1 through 9 in the [Update entity records work distribution flow](administrator/multiple-ws-entity-record-routing.md#step-2-update-entity-records-distribution-flow) topic.
 
 ## Omnichannel provisioning fails due to expired Teams Service Principal
 
@@ -360,7 +363,7 @@ When you enter different credentials, this issue occurs.
 
 ### Resolution:
 
-If you use **IE process** to host applications, open Internet Explorer browser, and go to http://login.microsoftonline.com/logout.srf. The URL signs you from office.com. Now, sign in to Unified Service Des client application and try again. 
+If you use **IE process** to host applications, open Internet Explorer browser, and go to https://login.microsoftonline.com/logout.srf. The URL signs you from office.com. Now, sign in to Unified Service Des client application and try again. 
 
 If you use **Chrome process** to host applications, go to `C:\Users\<USER_NAME>\AppData\Roaming\Microsoft\USD` and delete the **CEF** folder. Now, sign in to Unified Service Des client application and try again. 
 
@@ -453,3 +456,25 @@ Perform the following:
 - Contact your administrator to verify Azure Active Directory consent is given to the Omnichannel for Customer Service application on your tenant. Go to [Authorize access](https://go.microsoft.com/fwlink/?linkid=2070932) to get access. To learn more, see [Provide data access consent](administrator/omnichannel-provision-license.md#provide-data-access-consent).
 - Ensure the agent account has the role **Omnichannel Agent**. For more information about the relevant roles, see [Understand roles and their privileges](administrator/add-users-assign-roles.md#understand-roles-and-their-privileges). 
 - Ensure the agent account is assigned to at least one queue in the Omnichannel Administration app. To learn more, see [Manage users in Omnichannel for Customer Service](administrator/users-user-profiles.md).
+
+## The instance is not available to select on the provisioning application
+
+## Issue:
+
+For security, reliability, and performance reasons, Omnichannel is separated by geographical locations known as regions. The provisioning web page only displays instances in the same region, so you might experience issues that you don’t see all the instances from the Organization selector if you have instances in more than one region and provision Omnichannel without selecting the correct region.
+
+### Resolution:
+
+Perform the following:
+
+From the admin portal, select the desired region from the drop-down menu. 
+
+   > [!div class=mx-imgBorder]
+   > ![Region drop-down menu screenshot](media/oceh/oc-region-menu.png "Region drop-down menu")
+
+Changing the region causes the portal to reload. When it has finished reloading, proceed to **Applications** > **Omnichannel for Customer Service**, and then proceed with the usual provisioning steps.
+
+The provisioning application you are directed to is associated with the region you chose, and all instances located in that region are displayed as options for provisioning.
+
+   > [!div class=mx-imgBorder]
+   > ![Provisioning application screenshot](media/oceh/oc-region-provision.png "Provisioning application screenshot")

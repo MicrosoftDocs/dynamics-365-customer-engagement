@@ -1,16 +1,13 @@
 ---
 title: "Configure file attachment capability for a chat widget | MicrosoftDocs"
 description: "Instructions to configure file attachment capability for a chat widget in Omnichannel for Customer Service."
-keywords: ""
-author: sbmjais
-ms.author: shjais
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
-applies_to: 
 ms.date: 08/29/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 99A3E127-7A41-4B35-A66B-83E0A0EA845D
-ms.custom: 
 ---
 
 # Configure file attachment capability 
@@ -78,4 +75,4 @@ The file size limit for attachments and unsupported file types are defined in th
 [Create quick replies](create-quick-replies.md) <br>
 [Create and manage operating hours](create-operating-hours.md) <br>
 [Create chat authentication settings](create-chat-auth-settings.md) <br>
-[Embed chat widget in Dynamics 365 Portals](embed-chat-widget-portal.md)
+[Embed chat widget in Power Apps portals](embed-chat-widget-portal.md)

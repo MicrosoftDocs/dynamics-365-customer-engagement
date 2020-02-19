@@ -27,7 +27,7 @@ search.app:
 This topic describes the actions you can perform on dialogs.
 
 > [!IMPORTANT]
-> [Dialogs are deprecated](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#dialogs-are-deprecated), and should be replaced by business process flows or canvas apps in PowerApps. More information: [Replace dialogs with business process flows or canvas apps](https://docs.microsoft.com/flow/replace-dialogs).
+> [Dialogs are deprecated](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#dialogs-are-deprecated), and should be replaced by business process flows or canvas apps in Power Apps. More information: [Replace dialogs with business process flows or canvas apps](https://docs.microsoft.com/flow/replace-dialogs).
 
 <a name="DialogRelated"></a>   
 
@@ -83,12 +83,12 @@ information about custom workflow activities, see [Custom Workflow Activities](c
  You can start an activated dialog by specifying the URL of the dialog. To do so, you must specify the URL in the following format:  
 
 ```
-http://CRMServer_Name/Org_Name/cs/dialog/rundialog.aspx?DialogId=DialogID&EntityName=EntityLogicalName&ObjectId=EntityObjectId  
+https://CRMServer_Name/Org_Name/cs/dialog/rundialog.aspx?DialogId=DialogID&EntityName=EntityLogicalName&ObjectId=EntityObjectId  
 ```
 
  Where,  
 
-- *CRMServer_Name* is the name of your Dynamics 365 Customer Engagement (on-premises) server.  
+- *CRMServer_Name* is the name of your Dynamics 365 Server.  
 
 - _Org_Name_ is the organization name.  
 
@@ -98,7 +98,7 @@ http://CRMServer_Name/Org_Name/cs/dialog/rundialog.aspx?DialogId=DialogID&Entity
 
 - _EntityObjectId_ is the GUID of the primary entity record.  
   A sample URL to start a dialog:  
-  `http://crmserver/AdventureWorksCycle/cs/dialog/rundialog.aspx?DialogId=9F53D2D8-AC54-46A6-A190-F23DE6677C65&EntityName=contact&ObjectId=41D1884E-B4B6-DF11-BF5E-00155DB05986`  
+  `https://crmserver/AdventureWorksCycle/cs/dialog/rundialog.aspx?DialogId=9F53D2D8-AC54-46A6-A190-F23DE6677C65&EntityName=contact&ObjectId=41D1884E-B4B6-DF11-BF5E-00155DB05986`  
      
 
 ### See also

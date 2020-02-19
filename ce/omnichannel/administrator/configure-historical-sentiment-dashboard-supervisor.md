@@ -1,19 +1,17 @@
 ---
 title: "Configure Omnichannel Insights dashboards | MicrosoftDocs"
 description: "How to configure the Intraday insights dashboard for Unified Service Desk and Omnichannel for Dynamics 365 Customer Service."
-keywords: ""
-ms.date: 10/29/2019
-ms.service:
-  - "dynamics-365-customerservice"
-ms.custom:
-  - ""
-ms.topic: article
-applies_to:
-  - ""
-ms.assetid: e8d3d8ae-3e5a-46a7-aed9-b7ad6f42a98f
 author: lerobbin
 ms.author: lerobbin
 manager: autumna
+applies_to: 
+  - ""
+ms.date: 12/27/2019
+ms.service: 
+  - "dynamics-365-customerservice"
+ms.topic: article
+ms.custom: 
+  - ""
 ---
 
 # Configure Omnichannel Insights dashboards
@@ -63,7 +61,7 @@ Review the following prerequisites before configuring the dashboard:
 
 1.	Sign in to the [Power BI](https://app.powerbi.com/) app as an administrator.
 
-2.	As a Power BI administrator, open the [Omnichannel Insights for Dynamics 365](http://aka.ms/d365-oc-insights) app page.
+2.	As a Power BI administrator, open the [Omnichannel Insights for Dynamics 365](https://aka.ms/d365-oc-insights) app page.
 
 3.  Select **GET IT NOW** to install the app.
 
@@ -206,21 +204,23 @@ Each supervisor must configure their Dynamics 365 Customer Service environment t
 
 You must add users to the supervisor configuration to access any supervisor dashboard in Unified Service Desk. To add users to the supervisor configuration, follow these steps:
 
-1.  Sign in to Dynamics 365 Customer Service.
+1.  Sign in to Unified Service Desk.
 
-2.  Go to **Settings** > **Unified Service Desk** and then select **Configuration**.
+2.  Go to **Configuration** under **Advanced Settings**.
 
-3.  On the configuration page, select **Supervisor Configuration**.
+3.  Select **Supervisor Configuration**.
 
     > [!div class=mx-imgBorder]
     > ![Select Supervisor Configuration](../media/supervisor-admin-select-supervisor-configuration-add-user.png "Select Supervisor Configuration")
 
-4.  On the **Users** section, select **+ Add User record** and enter the user name you want to add.
+4.  On the **Users** section, select **...** and select **Add Existing User**. The **Lookup Records** pane is displayed.
 
     > [!div class=mx-imgBorder]
     > ![Add user to supervisor configuration](../media/oc-config16.PNG "Add user to supervisor configuration")
 
-5.  Save and close the configuration.
+5. Type the name of the user you want to add, and select **Add**.
+
+6.  Save and close the configuration.
 
     Users are added to the supervisor dashboard. Now when they sign in to Omnichannel on Unified Service Desk, the supervisor dashboard tabs are available.
 
@@ -241,7 +241,7 @@ Before customizing the template app, read the following information and perform 
 ## Requirements
 
 1. [Power BI service registration.](https://app.powerbi.com/)
-2. [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) application for editing Power BI reports.
+2. [Power BI Desktop](https://powerbi.microsoft.com/desktop/) application for editing Power BI reports.
 3. Power BI report for Omnichannel Insights template app that you want to customize. [Download the Omnichannel Insights report.](https://aka.ms/OC-Insights-pbix)
 
 ## Prepare PBIX for customization

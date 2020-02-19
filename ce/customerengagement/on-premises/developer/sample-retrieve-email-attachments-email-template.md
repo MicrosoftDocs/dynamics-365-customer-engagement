@@ -16,8 +16,8 @@ helpviewer_keywords:
 ms.assetid: 4efd5301-9f7b-426d-b2f8-54c71ed04585
 caps.latest.revision: 26
 author: JimDaly
-ms.author: jdaly
-manager: amyla
+ms.author: nabuthuk
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
@@ -25,24 +25,28 @@ search.app:
 ---
 # Sample: Retrieve email attachments for an email template
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample from [Sample: Work with Templates](https://code.msdn.microsoft.com/Templates-Samples-1759ff39).    
- 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
-   
-## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
-  
-## Demonstrates  
- This sample shows how to retrieve email attachments associated with an email template by using the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*> method.  
-  
-## Example  
- [!code-csharp[Templates#GetEmailTemplateAttachments](../snippets/csharp/CRMV8/templates/cs/getemailtemplateattachments.cs#getemailtemplateattachments)]  
-  
-### See also  
- [E-Mail Attachments](email-activity-entities.md#E-MailAttachments)   
- [Template Entity](entities/template.md)   
- [Sample: CrmServiceHelper Class](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa/sourcecode?fileId=182557&pathId=222952671)   
- [Sample Code for Recurring Appointments](sample-code-schedule-appointment-entities.md)   
- [Sample: Convert a Fax to a Task](sample-convert-fax-task.md)   
-<xref:Microsoft.Xrm.Sdk.IOrganizationService>
+This sample shows how to retrieve email attachments associated with an email template by using the [IOrganizationService.RetrieveMultiple](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iorganizationservice.retrievemultiple?view=dynamics-general-ce-9) method. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/RetrieveEmailAttach).
+
+[!include[cc-sample-note](includes/cc-sample-note.md)]
+
+## How to run this sample
+
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-PA-samples.md)]
+
+## What this sample does
+
+The `IOrganizationService.RetrieveMultiple` method is intended to be used in a scenario where it retrieves a collection of records.
+
+
+## How this sample works
+
+In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+
+### Setup
+
+1. Checks for the current version of the org.
+2. Creates a sample email template using the `Template` method.
+
+### Demonstrate
+
+The `QueryExpression` retrieves all the attachments.

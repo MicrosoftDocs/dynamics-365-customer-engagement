@@ -1,13 +1,13 @@
 ---
 title: "msdyn_chatquestionnaireresponse Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_chatquestionnaireresponse entity."
-ms.date: 08/29/2019
-ms.service: "crm-online"
-ms.topic: "reference"
-ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
+ms.date: 08/29/2019
+ms.service: 
+  - crm-online
+ms.topic: "reference"
 ---
 # msdyn_chatquestionnaireresponse Entity Reference
 
@@ -718,7 +718,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_msdyn_msdyn_livechatconfig_msdyn_chatquestionnaireresponse"></a> msdyn_msdyn_livechatconfig_msdyn_chatquestionnaireresponse
 
-See msdyn_livechatconfig Entity [msdyn_msdyn_livechatconfig_msdyn_chatquestionnaireresponse](msdyn_livechatconfig.md#BKMK_msdyn_msdyn_livechatconfig_msdyn_chatquestionnaireresponse) One-To-Many relationship.
+See msdyn_livechatconfig Entity [msdyn_msdyn_livechatconfig_msdyn_chatquestionnaireresponse](msdyn_livechatconfig.md) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_msdyn_ocliveworkitem_msdyn_chatquestionnaireresponse"></a> msdyn_msdyn_ocliveworkitem_msdyn_chatquestionnaireresponse
 

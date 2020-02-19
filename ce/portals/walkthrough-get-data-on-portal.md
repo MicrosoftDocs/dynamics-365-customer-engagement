@@ -26,7 +26,7 @@ search.app:
 One of the most distinguishing features surrounding the Dynamics 365 Portals 2016 Update 1 is the ability to render&mdash;and allow the manipulation of&mdash; data on an internally facing or externally facing portal website. In this section, we will profile the entities that provide the foundation of this functionality and discuss the steps necessary to achieve it.
 
 ## Entity forms
-An entity form record allows an administrator to render a PowerApps form on a portal to edit, display, or capture a customizable set of data from its users. This is a relatively easy and straightforward process, and it eliminates the need for any code customizations that would have otherwise been required to achieve such a result before deploying a portal.
+An entity form record allows an administrator to render a Power Apps form on a portal to edit, display, or capture a customizable set of data from its users. This is a relatively easy and straightforward process, and it eliminates the need for any code customizations that would have otherwise been required to achieve such a result before deploying a portal.
 
 This functionality can be taken advantage of for many reasons and use cases, but a common example of how this can be leveraged would be to build a new form under the Lead entity within the **Customize the System** interface, then create an entity form record that can be surfaced on the portal to capture lead data through a contact page or some type of information request page. In fact, this specific example is used for the default **Contact Us** page within the portals available in the December 2016 Update. Other examples include using an entity form for profile management or a single page survey.
 
@@ -36,7 +36,7 @@ Entity forms contain relationships to webpages and additional properties to cont
 
 When you create a new entity form, the first step is to decide which entity and form name that you will be rendering and the mode: Insert, Edit, or Read Only. The mode you select will determine if you are creating a new record from the portal, editing an existing record, or just displaying information about a record on the portal.
 
-For this demonstration, let’s consider a scenario in which Contoso, Inc. would like to create a custom entity in PowerApps linked to a form rendered on their Customer Self-Service Portal that will allow users to submit suggestions for improvement that they would like to see the company introduce. The steps that the administrator at Contoso, Inc. would take to achieve this include the following:
+For this demonstration, let’s consider a scenario in which Contoso, Inc. would like to create a custom entity in Power Apps linked to a form rendered on their Customer Self-Service Portal that will allow users to submit suggestions for improvement that they would like to see the company introduce. The steps that the administrator at Contoso, Inc. would take to achieve this include the following:
 
 1. In Dynamics 365 Portals, create the custom entity through **Settings** > **Customizations** > **Customize the System** > **Entities**.  In this example, we’ll call the entity “Suggestion.” Set the entity to appear in the **Portals** navigation area, then save it.
 
@@ -81,7 +81,7 @@ Entity form metadata records can be used for a variety of scenarios, including c
 
 ## Entity lists
 
-While an Entity form record allows a portal administrator to expose a PowerApps form to portal users, entity lists provide administrators with the ability to add a webpage to their portal that will render a list of records without the need for a developer to surface the view on the portal by using custom code.
+While an Entity form record allows a portal administrator to expose a Power Apps form to portal users, entity lists provide administrators with the ability to add a webpage to their portal that will render a list of records without the need for a developer to surface the view on the portal by using custom code.
 
 Entity lists support sorting and filtering and will be paginated if the number of records is larger than the **Page Size** value specified on the Entity List record. If a **Web Page for Details View** has also been specified, each record will contain a link to the page and the ID of the record will be appended to the query string along with the ID Query String Parameter Name.
 

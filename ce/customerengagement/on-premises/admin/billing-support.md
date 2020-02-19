@@ -146,7 +146,7 @@ Submitting support requests online allows us to deliver fast and deep technical 
 
 ### Is there a phone number I can call to contact Dynamics 365 Support? 
 
-Contacting Dynamics 365 Support over the phone will not speed up the processing of your request, and you will get a much better and faster experience by contacting support via the correct support portals listed earlier in this topic. If you cannot submit a request online, you can find a local support number from our list of regional [Global Customer Service Centers](http://go.microsoft.com/fwlink/p/?LinkID=616794).
+Contacting Dynamics 365 Support over the phone will not speed up the processing of your request, and you will get a much better and faster experience by contacting support via the correct support portals listed earlier in this topic. If you cannot submit a request online, you can find a local support number from our list of regional [Global Customer Service Centers](https://go.microsoft.com/fwlink/p/?LinkID=616794).
 
 ### How do I submit a support request? 
 
@@ -159,7 +159,7 @@ Contacting Dynamics 365 Support over the phone will not speed up the processing 
 
 ### How do I submit a support request if I cannot sign in to the Dynamics 365 support portal for my product or service? 
  
-If you cannot submit a support request online, you can find a local support phone number from our list of regional [Global Customer Service Centers](http://go.microsoft.com/fwlink/p/?LinkID=616794).
+If you cannot submit a support request online, you can find a local support phone number from our list of regional [Global Customer Service Centers](https://go.microsoft.com/fwlink/p/?LinkID=616794).
 
 ### How do I get support if I don’t have a Dynamics 365 subscription yet, and I get an error message while creating one? 
 
@@ -286,7 +286,7 @@ Yes, Partners with Premier Support for Partners (PSfP) contracts are able to use
 
 ### I have a Microsoft plan (such as MSDN, BizSpark or TechNet) that includes as a benefit a number of technical support requests. Can I use those for Dynamics 365 on-premises technical support? 
 
-Yes, if you are eligible for these benefits and have activated your support access on the [Visual Studio subscription](https://my.visualstudio.com/) portal. If you have these benefits, then from [New support request](https://support.microsoft.com/en-us/supportforbusiness/productselection), select **Add contract** under the **Support Plan – Add or purchase a support plan** step, and enter your access ID and contract ID information to proceed.
+Yes, if you are eligible for these benefits and have activated your support access on the [Visual Studio subscription](https://my.visualstudio.com/) portal. If you have these benefits, then from [New support request](https://support.microsoft.com/supportforbusiness/productselection), select **Add contract** under the **Support Plan – Add or purchase a support plan** step, and enter your access ID and contract ID information to proceed.
 
 
 

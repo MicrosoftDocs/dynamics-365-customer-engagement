@@ -1,14 +1,15 @@
 ---
 title: Knowledge base search mechanisms in Dynamics 365 Customer Service| MicrosoftDocs
 description: Know how the Knowledge base search mechanisms and methods works in Microsoft Dynamics 365 Customer Service
-author: anjgupta
-ms.author: anjgup
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ms.date: 10/01/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: dyn365-customerservice
-ms.assetid: 16e57ec7-e14e-4ffa-9ca7-54a4fa63b4a9
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -55,16 +56,14 @@ You can search the knowledge base from the following areas in the Customer Servi
    > [!NOTE]
    > Knowledge base search control is available out of the box in a case entity. The previous procedure describes how the control can be accessed in the Customer Service Hub app.
 
+
+- **Global search**. Select the **Search** icon on the navigation bar to do a global search for knowledge base articles. Global search lets you use **Categorized search** or **Relevance search**.
+
 - **Quick find in Grids**. In the app, go to **Service** > **Knowledge Articles**, and select the search box to search the knowledge base using keywords. 
 
    ![Quick find search](media/quick-find-search.png)
 
-
-- **Global search**. Select the **Search** icon on the navigation bar to do a global search for knowledge base articles. Global search lets you use **Categorized search** or **Relevance search**.
-
-  ![Global search](media/global-search.png)
-
-
+  
 > [!NOTE]
 > You can also search the knowledge base using Portals. See [Use faceted search to improve portal search](../portals/improve-portal-search-faceted-search.md).
 

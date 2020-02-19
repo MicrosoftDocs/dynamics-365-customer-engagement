@@ -8,8 +8,8 @@ ms.custom:
   - dyn365-marketing
 ms.topic: article
 ms.assetid: bce3292e-81d3-495b-bc88-9bec29c07177
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -46,7 +46,7 @@ Dynamics 365 Marketing lets you create segments based on queries against your cu
 
 For example, to set up a segment that finds all the leads collected at a recent conference, you could do the following:
 
-1. Go to **Marketing** > **Customers** > **Segments** and select **New** on the command bar. Then select **Demographic** on the **Let's create your segment** screen.
+1. Go to **Marketing** > **Customers** > **Segments** and select **New** on the command bar. The **Segment templates** dialog box opens; select **Cancel** to close it, and then select **Demographic** on the **Let's create your segment** screen.
 
 1. A new demographic segment opens. Check the view setting near the upper corner of the **Definition** tab and make sure it's set to **Tree view**. (You could use either view, but in this procedure we show and describe the tree view, so it's a good idea to use it for now.)
 

@@ -6,10 +6,10 @@ ms.date: 10/04/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
-ms.topic: get-started-article
+ms.topic: article
 ms.assetid: 901bf6af-5884-46ae-9852-1acb2bb19cd9
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting

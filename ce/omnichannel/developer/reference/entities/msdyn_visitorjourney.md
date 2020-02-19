@@ -1,16 +1,17 @@
 ---
-title: "msdyn_visitorjourney Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_visitorjourney Entity Reference (Developer Guide for Omnichannel for Customer Service)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_visitorjourney entity."
-ms.date: 09/26/2019
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: 
-  - "Dynamics 365 (online)"
-ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "susikka"
 ms.author: "susikka"
 manager: "susikka"
+applies_to: 
+  - "Dynamics 365 (online)"
+ms.date: 09/26/2019
+ms.service: 
+  - crm-online
+ms.topic: "reference"
 ---
+
 # msdyn_visitorjourney Entity Reference
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]

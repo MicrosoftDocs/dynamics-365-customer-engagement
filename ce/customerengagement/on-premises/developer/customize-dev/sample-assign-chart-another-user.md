@@ -10,8 +10,8 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 0225d979-0e34-44b5-814c-a5dcb14d6fd9
 author: JimDaly
-ms.author: jdaly
-manager: jdaly
+ms.author: nabuthuk
+manager: kvivek
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -25,22 +25,39 @@ search.app:
 
 # Sample: Assign a chart to another user
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)]. Download the sample: [Work with visualizations and dashboards](https://code.msdn.microsoft.com/Samples-of-visualizations-027f7480). 
+This sample shows how to assign a user-owned visualization to another using the [AssignRequest](https://docs.microsoft.com/dotnet/api/microsoft.crm.sdk.messages.assignrequest?view=dynamics-general-ce-9) message. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/AssignChartToAnotherUser).
 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]
-  
-## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../../includes/sdk-seeconnectionhelper.md)]
-  
-## Demonstrates  
- This sample shows how to assign a user-owned visualization to another user using the <xref:Microsoft.Crm.Sdk.Messages.AssignRequest> message.  
-  
-## Example  
- [!code-csharp[VisualizationsAndDashboards#AssignVisualizationToUser](../../snippets/csharp/CRMV8/visualizationsanddashboards/cs/assignvisualizationtouser.cs#assignvisualizationtouser)]  
-  
-### See also  
- [Sample: CrmServiceHelper Class](../https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa/sourcecode?fileId=182557&pathId=222952671)   
- [Working with Visualizations](view-data-with-visualizations-charts.md)   
- [Sample Code for Visualization](sample-code-charts-visualizations.md)   
- <xref:Microsoft.Crm.Sdk.Messages.AssignRequest>
+This sample requires an additional user that isn't available in your system. Create the required user manually in **Office 365** in order to run the sample without any errors. For this sample create a user profile **as is** shown below. 
+
+**First Name**: Kevin<br/>
+**Last Name**: Cook<br/>
+**Security Role**: Sales Manager<br/>
+**UserName**: kcook@yourorg.onmicrosoft.com<br/>
+
+[!include[cc-sample-note](../includes/cc-sample-note.md)]
+
+## How to run this sample
+
+[!include[cc-how-to-run-samples](../includes/cc-how-to-run-PA-samples.md)]
+
+## What this sample does
+
+The [AssignRequest](https://docs.microsoft.com/dotnet/api/microsoft.crm.sdk.messages.assignrequest?view=dynamics-general-ce-9) message is intended to be used in a scenario where it contains the data that is needed to assign the specified record to a new owner (user or team) by changing the OwnerId attribute of the record.
+
+## How this sample works
+
+In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+
+### Setup
+
+1. Checks for the current version of the org.
+2. The `CreateRequiredRecords` method creates a sample account and some opportunity records for the visualization.
+3. The `newUserOwnedVisualization` method creates the visualization entity instance.
+
+### Demonstrate
+
+The `AssignRequest` method assigns the visualization or chart to the newly created user.
+
+### Clean up
+
+Display an option to delete the sample data in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.

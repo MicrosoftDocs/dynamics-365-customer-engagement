@@ -1,16 +1,13 @@
 ---
 title: "Omnichannel Insights dashboards for supervisors | MicrosoftDocs"
 description: "Learn about Omnichannel Insights dashboards for supervisors"
-keywords: ""
-author: lerobbin
-ms.author: lerobbin
-manager: autumna
-applies_to: 
-ms.date: 10/29/2019
-ms.service: dynamics-365-customerservice
+author: neeranelli
+ms.author: nenellim
+manager: shujoshi
+ms.date: 02/10/2020
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: f7b39a03-6e47-43bd-9c9b-f33170124a78
-ms.custom: 
 ---
 
 # View and understand Omnichannel Insights dashboards
@@ -131,7 +128,7 @@ Reporting structure consists of five sections:
    |Highest session volumes       |This visual provides the top agents handling the most sessions  |
    |Longest average handle time   |This visual provides a list of agents who have high average handle times per session. This helps supervisors to focus on these agents to help drive the cost down.  |
    |Highest transfer rates        |This visual provides the list of agents who had the highest transfer rates. This helps supervisors to dig deeper into the reasons behind the transfers and make corrective actions.  |
-   |Top sentiment pulse           |This visual helps supervisors know which agents had high customer sentiments.  |
+   |Top sentiment pulse           |This visual helps supervisors know which agents had high customer sentiments for the sessions engaged.  |
    |Sessions engaged by channel  |This visual provides the split of sessions engaged by an agent across channels.  |
    |Session metrics by agent     |Grid provides the top metrics across all agents. This helps to compare agents across each metrics.|
    |Session metrics by date      |Grid provides list of metrics by dates. |
@@ -174,7 +171,7 @@ This illustration of the Omnichannel Sentiment Analysis report provides 
     
    |KPI             |Description                |
    |-----------------|---------------------------|
-   |Average Sentiment Pulse              |The predicted customer sentiment in a given timeframe for a set queue/agent, which indicates the degree of positive sentiment expressed by customers at the end of their interactions.  |
+   |Average Sentiment Pulse              |The predicted customer sentiment in a given timeframe for a set queue/agent that indicates the degree of positive sentiment expressed by customers at the end of their interactions. For channel and queue, it provides the overall customer sentiment of the conversation. For agent, it provides the customer sentiment specific to the sessions handled by the agent in the conversation.  |
    |% Positive Sentiment                 |Count of positive sentiment zone conversations divided by total sessions.  |
    |% Neutral Sentiment                  |Count of neutral sentiment zone conversations divided by total sessions.  |
    |% Negative Sentiment                 |Count of negative sentiment zone conversations divided by total sessions.  |

@@ -1,32 +1,27 @@
 ---
 title: "Agent scripts in the Omnichannel for Customer Service app | MicrosoftDocs"
-description: "Learn how to use agent scripts in the Omnichannel for Customer Service app." 
-keywords: ""
+description: "Learn how to use agent scripts in the Omnichannel for Customer Service app."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
-ms.date: 10/25/2019
-ms.service: dynamics-365-customerservice
+ms.date: 01/31/2020
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 90361CFB-001A-4EFF-8BCF-5505CF14D052
-ms.custom: 
 ---
 
-# Preview: Guide customer interaction with agent scripts
+# Guide customer interaction with agent scripts
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
-> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided “as-is,” “with all faults,” “as available,” and without warranty.​
-> - This preview features does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
-> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../../../legal/dynamics-insider-agreement.md).
-
 ## Overview of agent scripts
 
-Agent scripts in Omnichannel for Customer Service provide guidance about what you (an agent) should do when you get a customer issue. They ensure that you share only accurate and company-endorsed information. Agent scripts help you to be accurate and effective while also being faster and more efficient in terms of customer handling.
+Agent scripts in Omnichannel for Customer Service provide guidance about what you (an agent) should do when you get a customer issue and ensure that you share only accurate and company-endorsed information. Agent scripts help you to be accurate and effective while also being faster and more efficient in terms of customer handling.
+
+> [!div class='mx-imgBorder']
+> ![Productivity pane](../../media/productivity-pane-agent-script.PNG "Productivity pane")
+
+## Components in agent script
 
 > [!div class='mx-imgBorder']
 > ![Agent script](../../media/agent-script-section.PNG "Agent script")
@@ -36,13 +31,17 @@ Agent scripts in Omnichannel for Customer Service provide guidance about what yo
 3. Macro
 4. Agent script
 
-The agent script section consists of a set of steps. Based on the type of agent script the administrator has configured, you might follow these types of steps:
+The agent script section consists of a set of steps. Based on the type of agent script the administrator has configured, you might see the following types:
 
 - Text instructions
 - Macro
 - Agent script
 
 Each of the steps can be identified with the actionable icon. When you expand a step, the section displays a short description of what the step entails and the action you need to perform using the icons next to it. The step that is executed successfully is indicated with a green Tick icon, and the step that has an error is indicated with a red Cross icon. You can execute the steps again as needed, and the final state of the step, green Tick or red Cross, is based on the last run.
+
+## Prerequisite 
+
+Ensure you (agent and supervisor) have the **Productivity tools user** security role. To learn more, see [Assign roles and enable users](../../administrator/add-users-assign-roles.md).
 
 ## Text instructions
 

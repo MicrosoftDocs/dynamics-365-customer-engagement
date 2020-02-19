@@ -1,11 +1,12 @@
 ---
 title: "Integrate with external applications and web applications in Unified Service Desk | MicrosoftDocs"
 description: "Learn about integrating with external application and web application n Unified Service Desk."
-ms.custom: dyn365-USD
-ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.custom: 
+  - dyn365-USD
+ms.date: 12/31/2019
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 3050ba0b-9269-4b6d-adc3-d312ba0ef038
 author: kabala123
 ms.author: kabala
 manager: shujoshi

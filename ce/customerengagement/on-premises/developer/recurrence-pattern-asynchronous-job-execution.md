@@ -33,7 +33,7 @@ You can execute asynchronous system operations one time or on a recurring basis 
 |"FREQ=HOURLY;"|Once an hour|  
   
 > [!NOTE]
->  A complete format for a recurrence rule is described in the [RFC2445](http://go.microsoft.com/fwlink/p/?LinkId=262221) Internet standard (Internet Calendaring and Scheduling Core Object Specification).  
+>  A complete format for a recurrence rule is described in the [RFC2445](https://go.microsoft.com/fwlink/p/?LinkId=262221) Internet standard (Internet Calendaring and Scheduling Core Object Specification).  
   
  You can specify how frequently you want to repeat the recurrence rule by using an INTERVAL part of the rule. For example, to execute a job every three days, use the following format: "FREQ=DAILY;INTERVAL=3;". The INTERVAL is an optional part of the recurrence rule. If you do not specify INTERVAL, it is set to 1.  
   

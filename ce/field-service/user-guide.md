@@ -36,8 +36,15 @@ Before we begin, here are the top places for information about Field Service:
 
 - [YouTube Channel](https://www.youtube.com/playlist?list=PLcakwueIHoT_AQBxkQQ7zePzd7fzZYP7X): This includes concept videos for Field Service.
 
-- [Video tutorials](https://aka.ms/fs-videos): Step by step video tutorials for work orders, scheduling, and more.
-
+- [Video tutorials](https://aka.ms/fs-videos): Step-by-step video tutorials for work orders, scheduling, and more.
+  - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 1: Using Field Service work orders, scheduling, mobile app, reporting, and more](https://youtu.be/h5X1z0pTtSA)
+  - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 2: Field Service installation and setup](https://youtu.be/hvcqAbe4g4E)
+  - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 3: Set up bookable resources](https://youtu.be/g118F_LnxyE)
+  - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 4: Work orders](https://youtu.be/lblmqd7qFwg)
+  - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 5: Schedule board](https://youtu.be/-noHEU7wgiQ)
+  - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 6a: Automated scheduling scenarios with Field Service](https://youtu.be/fcQwIXgmnqk)
+  - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 6b: Set up automatic scheduling for work orders](https://youtu.be/oJ-3HTJWRMo)
+  - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 7: Set up Connected Field Service with Azure IoTCentral](https://youtu.be/Sp7_JoXjHDk)
 - [Ideas](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20for%20Field%20Service): This is the portal where you can contribute product feedback and ideas.
 
 - [Forum](https://community.dynamics.com/365/fieldservice): Go here to ask questions, find answers, and see upcoming events.
@@ -58,6 +65,8 @@ The purpose of this section is to understand what Dynamics 365 Field Service is,
 
 - [![Video symbol](../field-service/media/video-icon.png "Video symbol")](https://youtu.be/A1qpoi0EYWU) [Provide proactive maintenance with Dynamics 365 Field Service](https://youtu.be/A1qpoi0EYWU)
 
+- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Using Field Service work orders, scheduling, mobile app, reporting, and more](https://youtu.be/h5X1z0pTtSA)
+
 ### Customer Stories
 - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Sodexo – Facilities Management](https://youtu.be/awSwCtgZvXE)
 
@@ -76,6 +85,8 @@ The purpose of this section is to help you set up a Field Service environment an
 ### Set up an environment
 This includes deploying an environment, setting up users, and performing initial administrative actions.
 
+- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Field Service installation and setup](https://youtu.be/hvcqAbe4g4E)
+
 - [Install Field Service (web + mobile)](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/install-field-service)
 
 - [Setup Users and Security roles](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/view-user-accounts-security-roles)
@@ -89,9 +100,10 @@ This includes creating a work order, scheduling it to a resource, and viewing it
 
 Additionally, configuring the core Field Service scenario involves understanding resources, work orders, scheduling, and the mobile app.
 
-#### Resources
+#### Bookable Resources
 
-- [Set up Bookable Resources](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/set-up-bookable-resources)
+- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Set up Bookable Resources](https://youtu.be/g118F_LnxyE)
+- [Set up bookable resources](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/set-up-bookable-resources)
 
 #### Work orders
 - [Create a Work Order](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/create-work-order)
@@ -140,7 +152,7 @@ Similarly, the pinnacle of work order creation is Connected Field Service (CFS) 
 
 First, get an [Overview](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/connected-field-service) of CFS and learn about the [CFS with IoTHub architecture](../field-service/developer/connected-field-service-architecture.md) to better understand how Azure and Dynamics 365 work together.
 
-Next, learn the difference between CFS with [IoTCentral](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/cfs-iot-overview) and CFS with [IoTHub](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/developer/connected-field-service-developer-guide). In short, think of **IoTCentral** as the software-as-a-service option, an easy way to create and demonstrate a protoype, perform a proof-of-concept, test the IoT process with dynamics to outline structure and objectives, and implement CFS for organizations starting from scratch with no IoT infrastructure. Think of **IoTHub** as the platform offering and what will most likely be implemented because it is more customizable and is especially helpful for organizations with existing IoT infrastructure.
+Next, learn the difference between CFS with [IoTCentral](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/cfs-iot-overview) and CFS with [IoTHub](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/developer/connected-field-service-developer-guide). In short, think of **IoTCentral** as the software-as-a-service option, an easy way to create and demonstrate a prototype, perform a proof-of-concept, test the IoT process with dynamics to outline structure and objectives, and implement CFS for organizations starting from scratch with no IoT infrastructure. Think of **IoTHub** as the platform offering and what will most likely be implemented because it is more customizable and is especially helpful for organizations with existing IoT infrastructure.
 
 Next, set up a Connected Field Service environment to create work orders from simulated IoT telemetry. See the following video tutorial for detailed instructions: ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Set up Connected Field Service with Azure IoTCentral](https://youtu.be/Sp7_JoXjHDk)
 
@@ -155,7 +167,7 @@ The purpose of this section is to provide implementation guidance and best pract
 
 When working through implementation scenarios, it is important to know org level details that can be found in [Field Service Settings](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/configure-default-settings).
 
-- [General Field Service implementation best practices (YouTube)](https://youtu.be/LQXpjMMrJIo)
+- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [General Field Service implementation best practices](https://youtu.be/LQXpjMMrJIo)
 
 ### Scheduling best practices
 - [Types of Scheduling](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/scheduling-capabilities)

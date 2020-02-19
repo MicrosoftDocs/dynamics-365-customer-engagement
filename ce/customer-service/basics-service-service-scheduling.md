@@ -1,14 +1,15 @@
 ---
 title: Overview of Service Scheduling (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know the basics of service and service scheduling in Dynamics 365 Customer Service
-author: anjgupta
-ms.author: anjgup
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ms.date: 06/17/2019
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: dyn365-customerservice
-ms.assetid: 7904d0f0-6295-4fec-a843-f1ee5267536b
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -220,9 +221,6 @@ Make sure that you have the correct security role or equivalent permissions. Kno
 
 > [!NOTE]
 > If you have been using the legacy scheduling, you would still need to configure entity records in the new experience. </br> All entity records can be configured from the user interface except Service Activity.
-
-### Migrate Service Activity
-To know how to migrate your service activity entity records from legacy to new experience by running SDK code samples, see [Migrate Service Activity entity](migrate-service-activity-entity.md).
 
 ## Understand scheduling entities
 

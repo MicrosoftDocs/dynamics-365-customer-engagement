@@ -1,10 +1,10 @@
 ---
 title: "Walkthrough 3  Display records in your agent application | MicrosoftDocs"
 description: "Demonstrates how to display Unified Interface apps records in Unified Service Desk."
-ms.date: 05/07/2018
-ms.service: usd
+ms.date: 12/31/2019
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: FD393D95-FBB9-434B-86B1-23747FBB5B70
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -53,102 +53,92 @@ This walkthrough demonstrates how to display model-driven app records in your ag
 ## Step 1: Create Unified Interface Page type of hosted controls to display account and contact records  
  In this step, you’ll create two hosted controls of **Unified Interface Page** type to display the account and contact records respectively.  
 
-1. Sign in to the Common Data Service platform.  
+1. Sign in to Unified Service Desk Administrator.  
 
-2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
+2. Select **Hosted Controls** under **Basic Settings**.  
 
-3. Click **Hosted Controls**.  
+3. Select **+ New**.  
 
-4. Click **New**.  
-
-5. On the **New Hosted Control** page, specify the following values:  
+4. On the **New Hosted Control** page, specify the following values:  
 
    |Field|Value|  
    |-----------|-----------|  
    |Name|Contoso Accounts Search|  
    |Display Name|Contoso: Accounts|  
-   |USD Component Type|Unified Interface Page|  
+   |Unified Service Desk Component Type|Unified Interface Page|  
    |Allow Multiple Pages|No|
    |Pre-Fetch Data|Checked|
    |Application is Global|Checked|  
    |Display Group|MainPanel|  
 
-   ![Create a hosted control for displaying accounts](../unified-service-desk/media/crm-itpro-usd-wt03-01-unified-interface.png "Create a hosted control for displaying accounts")  
+5. Select **Save**.  
 
-6. Click **Save**.  
+6. Select **+ New** to create another hosted control for displaying contact records.  
 
-7. Click **New** to create another hosted control for displaying contact records.  
-
-8. On the **New Hosted Control** page, specify the following values:  
+7. On the **New Hosted Control** page, specify the following values:  
 
    |Field|Value|  
    |-----------|-----------|  
    |Name|Contoso Contacts Search|  
    |Display Name|Contoso: Contacts|  
-   |USD Component Type|Unified Interface Page|  
+   |Unified Service Desk Component Type|Unified Interface Page|  
    |Allow Multiple Pages|No|
    |Pre-Fetch Data|Checked|
    |Application is Global|Checked|  
-   |Display Group|MainPanel|  
+   |Display Group|MainPanel| 
 
-   ![Create hosted control for displaying contacts](../unified-service-desk/media/crm-itpro-usd-wt03-02-unified-interface.png "Create hosted control for displaying contacts")  
-
-9. Click **Save**.  
+8. Select **Save**.  
 
 <a name="Step2"></a>   
 ## Step 2: Create a toolbar container type of hosted control  
  Toolbar Container type of hosted controls are used to hold and display the toolbars in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. In this section, you’ll create a **Toolbar Container** hosted control that will appear at the top of the client application.  
 
-1. Sign in to the Common Data Service platform.  
+1. Sign in to Unified Service Desk Administrator.  
 
-2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
+2. Select **Hosted Controls** under **Basic Settings**.   
 
-3. Click **Hosted Controls**.  
+3. Select **+ New**.  
 
-4. Click **New**.  
-
-5. On the **New Hosted Control** page, specify the following values  
+4. On the **New Hosted Control** page, specify the following values  
 
    |Field|Value|  
    |-----------|-----------|  
    |Name|Contoso Main Toolbar Container|  
-   |USD Component Type|Toolbar Container|  
+   |Unified Service Desk Component Type|Toolbar Container|  
    |Display Group|ToolbarPanel|  
 
-   ![Toolbar Container hosted control](../unified-service-desk/media/crm-itpro-usd-wt03-03-unified-interface.png "Toolbar Container hosted control")
-
-6. Click **Save**.  
+5. Select **Save**.  
 
 <a name="Step3"></a>   
 ## Step 3: Add a toolbar and attach it to the toolbar container  
  In this step, you’ll create a toolbar, and attach the toolbar to the toolbar container hosted control created in step 2. This is done to display the toolbar in your agent application.  
 
-1. Sign in to the Common Data Service platform.  
+1. Sign in to Unified Service Desk Administrator.  
 
-2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
+2. Select **Toolbars** under **Basic Settings**.  
 
-3. Click **Toolbars**.  
+3. Select **+ New**.  
 
-4. Click **New**.  
+4. On the **New Toolbar** page, type **Contoso Main Toolbar** in the **Name** box, and then select **Save**.  
 
-5. On the **New Toolbar** page, type **Contoso Main Toolbar** in the **Name** box, and then click **Save**.  
+5. Attach the toolbar to the toolbar container hosted control created in step 2. Select the **Related** tab, and then select **Hosted Controls**.
 
-6. Attach the toolbar to the toolbar container hosted control created in step 2. On the nav bar, click the down arrow next to **Contoso Main Toolbar**, and click **Hosted Controls**.  
+6. Select **Add Existing Hosted Control**. The **Lookup Records** pane is displayed.
 
-7. On the next page, click **Add Existing Hosted Control**, type `Contoso Main Toolbar Container` in the search bar, and then press ENTER or click the search icon.  
+7. Type **Contoso Main Toolbar Container** in the search box. Select the record from the list, and then select **Add**.  
 
-8. From the search result, click **Contoso Main Toolbar Container** to add.  
-
-9. Click **Save**.  
+8. Select **Save**.  
 
 <a name="Step4"></a>   
 ## Step 4: Add toolbar buttons and action calls to display records from Unified Interface Apps
 
- In this step, you’ll add buttons on the toolbar and attach action calls to the buttons so that when the button is clicked, appropriate records are displayed in the hosted controls that were created in step 1. You’ll configure the search button so that clicking the button displays the account and contact submenu items, and clicking a button displays the respective records.  
+ In this step, you’ll add buttons on the toolbar and attach action calls to the buttons so that when the button is selected, appropriate records are displayed in the hosted controls that were created in step 1. You’ll configure the search button so that selecting the button displays the account and contact submenu items, and selecting a button displays the respective records.  
 
-1. After you save the toolbar in step 3, the **Buttons** area becomes available. In the **Buttons** area, click **+** on the right corner to add a button.  
+1. After you save the toolbar in step 3, Select the **General** tab.
 
-2. On the **New Toolbar Button** page, specify the following values:  
+2. In the **Buttons** area, select **+ New Toolbar Button**.  
+
+3. On the **New Toolbar Button** page, specify the following values:  
 
 
    |    Field    |                                          Value                                           |
@@ -158,38 +148,30 @@ This walkthrough demonstrates how to display model-driven app records in your ag
    |   Tooltip   | Search accounts and contacts |
    |    Order    |                                            1                                             |
 
-   ![Create the Search toolbar button](../unified-service-desk/media/crm-itpro-usd-wt03-04.png "Create the Search toolbar button")
+4. Select **Save**.
 
-3. Click **Save**.
-
-4. On the nav bar, click the down arrow next to Contoso Search Button, and click Toolbar Buttons.
+5. Select the **Related** tab and select **Toolbar Buttons**.
 
    > [!NOTE]
    >  You are now adding child toolbar buttons to an existing toolbar button to create a submenu structure.
 
-5. On the next page, click **Add New Toolbar Button**.
+6. On the next page, select **+ New Toolbar Button**.
 
-6. On the **New Toolbar Button** page, specify the following values.
+7. On the **New Toolbar Button** page, specify the following values.
 
    |Field|Value|  
    |-----------|-----------|  
    |Name|Contoso Search Account Button|  
    |Button Text|Account|  
-   |Order|1<br /><br /> The **Order** field defines the position of buttons in the toolbar. Buttons are arranged from left to right or top to bottom in an ascending order.|  
+   |Order|1<br /><br /> The **Order** field defines the position of buttons in the toolbar. Buttons are arranged from left to right or top to bottom in an ascending order.| 
 
-   ![Create a tooolbar button for Account submenu](../unified-service-desk/media/crm-itpro-usd-wt03-05.png "Create a tooolbar button for Account submenu")  
+8. Select **Save**.  
 
-7. Click **Save**.  
+9. You’ll now add two action calls: first to display the account records in the hosted control created in step 1 and the second one on the Contoso Global Manager hosted control to display the account hosted control. 
 
-8. You’ll now add two action calls: first to display the account records in the hosted control created in step 1 and the second one on the Contoso Global Manager hosted control to display the account hosted control.  
+    In the **Actions** area, select **Add Existing Action Call**. The **Lookup Records** pane is displayed.  
 
-    In the **Actions** area, click **+** on the right corner to add an action call.  
-
-9. In the search box in the **Actions** area, press ENTER or click the search icon.  
-
-10. In the search results box, click **New** in the lower right corner to create an action call for this toolbar button.  
-
-    ![Choose New to create an action call](../unified-service-desk/media/crm-itpro-usd-wt03-06.png "Choose New to create an action call")  
+10. Select the search icon and then select **+ New Action Call**.
 
 11. On the **New Action Call** page, specify the following values:  
 
@@ -199,17 +181,15 @@ This walkthrough demonstrates how to display model-driven app records in your ag
     |Order|1|  
     |Hosted Control|Contoso Accounts Search|  
     |Action|Find|  
-    |Data|account|  
+    |Data|account|
 
-    ![Create an action call in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-wt03-07.png "Create an action call in Unified Service Desk")  
+12. Select **Save**. The new action call gets added to the **Contoso Search Account Button** button.
 
-12. Click **Save**. The new action call gets added to the **Contoso Search Account Button** button.  
+13. Select the back button on the browser to go back to the **Contoso Search Account Button** page.
 
-13. You’ll add another action call to the button to set the focus on the hosted control that displays the account records in the client application. In the **Actions** area, click **+** on the right corner to add an action call.  
+14. You’ll add another action call to the button to set the focus on the hosted control that displays the account records in the client application. 
 
-14. In the search results box, click **New** in the lower right corner to create an action call for this toolbar button.  
-
-15. On the **New Action Call** page, specify the following values.  
+    Repeat Steps 9 to 11 and specify the following values.  
 
     |Field|Value|  
     |-----------|-----------|  
@@ -219,33 +199,33 @@ This walkthrough demonstrates how to display model-driven app records in your ag
     |Action|ShowTab|  
     |Data|Contoso Accounts Search|  
 
-    ![Create an action call in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-wt03-08.png "Create an action call in Unified Service Desk")  
+15. Select **Save**. 
 
-16. Click **Save**. The new action call gets added to the **Contoso Search Account Button** button.  
+16. Repeat Step 13, and then select **Add Existing Action Call**. The **Lookup Records** pane is displayed.
 
-17. Navigate to **Contoso Search Button** toolbar button to add a child button for searching and displaying contacts. On the nav bar, click the down arrow next to **Contoso Search Button**, and select **Toolbar Buttons**.  
+17. Type **Contoso Action Call** in the search box. Select the action that you created in the Step 11 and 14, and then select **Add**.
 
-18. On the next page, click **Add New Toolbar Button**.  
+    The new action call gets added to the **Contoso Search Account Button** button.  
 
-19. On the **New Toolbar Button** page, specify the following values:  
+18. Navigate to **Contoso Search Button** toolbar button to add a child button for searching and displaying contacts. Select the **Toolbar Buttons** tab.  
+
+19. Select **Add New Toolbar Button**.  
+
+20. On the **New Toolbar Button** page, specify the following values:  
 
     |Field|Value|  
     |-----------|-----------|  
     |Name|Contoso Search Contact Button|  
     |Button Text|Contact|  
-    |Order|2<br /><br /> The **Order** field defines the position of buttons in the toolbar. Buttons are arranged from left to right or top to bottom in an ascending order.|  
+    |Order|2<br /><br /> The **Order** field defines the position of buttons in the toolbar. Buttons are arranged from left to right or top to bottom in an ascending order.|
 
-    ![Create a toolbar button for contacts search](../unified-service-desk/media/crm-itpro-usd-wt03-09.png "Create a toolbar button for contacts search")  
+21. Select **Save**.  
 
-20. Click **Save**.  
+22. You’ll now add two action calls: first to display the contact records in the hosted control that were created in step 1 and the second one on the Contoso Global Manager hosted control to display the contacts hosted control.  
 
-21. You’ll now add two action calls: first to display the contact records in the hosted control that were created in step 1 and the second one on the Contoso Global Manager hosted control to display the contacts hosted control.  
+     In the **Actions** area, select **Add Existing Action Call**. The **Lookup Records** pane is displayed.   
 
-     In the **Actions** area, click **+** on the right corner to add an action call.  
-
-22. In the search box in the **Actions** area, press ENTER or click the search icon.  
-
-23. In the search results box, click **New** in the lower right corner to create an action call for this toolbar button.  
+23. Select the search icon and then select **+ New Action Call**.
 
 24. On the **New Action Call** page, specify the following values:  
 
@@ -255,17 +235,15 @@ This walkthrough demonstrates how to display model-driven app records in your ag
     |Order|1|  
     |Hosted Control|Contoso Contacts Search|  
     |Action|Find|  
-    |Data|contact|  
+    |Data|contact|
 
-    ![Create an action call in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-wt03-10.png "Create an action call in Unified Service Desk")  
+25. Select **Save**.
 
-25. Click **Save**. The new action call gets added to the **Contoso Search Contact Button** toolbar button.  
+26. Select the back button on the browser to go back to the **Contoso Search Button**.
 
-26. You’ll add another action call to the button to set the focus on the hosted control that displays the contact records in the client application. In the **Actions** area, click **+** on the right corner to add an action call.  
+27. You’ll add another action call to the button to set the focus on the hosted control that displays the contact records in the client application. 
 
-27. In the search results box, click **New** in the lower right corner to create an action call for this toolbar button.  
-
-28. On the **New Action Call** page, specify the following values.  
+    Repeat Steps 22 to 23, and specify the following values.  
 
     |Field|Value|  
     |-----------|-----------|  
@@ -273,11 +251,19 @@ This walkthrough demonstrates how to display model-driven app records in your ag
     |Order|2|  
     |Hosted Control|Contoso Global Manager|  
     |Action|ShowTab|  
-    |Data|Contoso Contacts Search|  
+    |Data|Contoso Contacts Search|
 
-    ![Create an action call in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-wt03-11.png "Create an action call in Unified Service Desk")  
+28. Select **Save**. 
 
-29. Click **Save**. The new action call gets added to the **Contoso Search Contact Button** toolbar button.  
+29. Select the back button on the browser to go back to the **Contoso Search Button**.
+
+30. Select **Add Existing Action Call**. The **Lookup Records** pane is displayed.
+
+31. The action calls that you created are displayed. Select the action calls, and then select **Add**. 
+
+    The new action call gets added to the **Contoso Search Contact Button** toolbar button.
+
+31. Select **Save**.
 
 <a name="Step5"></a>   
 ## Step 5: Add the controls to the configuration  
@@ -298,33 +284,39 @@ This walkthrough demonstrates how to display model-driven app records in your ag
 
  To add a control to the configuration:  
 
-1. Sign in to the Common Data Service platform.  
+1. Sign in to Unified Service Desk Administrator. 
 
-2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
+2. Select **Configuration** under **Advanced Settings**.  
 
-3. Click **Configuration**.  
+3. Select **Contoso Configuration** to open the definition.  
 
-4. Click **Contoso Configuration** to open the definition.  
+4. Select the **Hosted Controls, Events and Action Calls** tab.  
 
-5. On the nav bar, click the down arrow next to **Contoso Configuration**, and select **Action Calls**.  
+5. Select the ellipsis (...) in the **Action Calls** section, and then select **Add Existing Action Call**. The **Lookup Records** pane is displayed.
 
-6. On the next page, click **Add Existing Action Call**, type “`Contoso Action Call`” in the search bar, and then press ENTER or click the search icon.  
+6. Type he name of the action call mentioned in the above table in the search box. The action calls are displayed in the search results. Select the record from the list, and then select **Add**.  
 
-7. The action calls listed earlier are displayed in the search results. Add these action calls.  
+7. Select the ellipsis (...) in the **Hosted Controls** section, and then select **Add Existing Hosted Control**. The **Lookup Records** pane is displayed.  
 
-8. Similarly, add the hosted controls and the toolbar by clicking the down arrow next to **Contoso Configuration**, and clicking **Hosted Controls** and **Toolbars** respectively.  
+8. Type the name of the hosted control mentioned in the above table in the search box. The hosted controls are displayed in the search results. Select the record from the list, and then select **Add**.
 
-9. Click **Save**.  
+9. Select the **Toolbars, Window Navigation Rules and Entity Searches** tab.
+
+10. Select the ellipsis (...) in the **Toolbars** section, and then select **Add Existing Toolbar**. The **Lookup Records** pane is displayed.
+
+11. Type **Contoso Main Toolbar** in the search box. Select the record from the list, and then select **Add**.
+
+12. Select **Save**.  
 
 <a name="Step6"></a>   
 ## Step 6: Test the application  
  Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the Common Data Service platform instance where you configured [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using the same user credentials that you assigned to the **Contoso Configuration** in [Walkthrough 1: Build a simple agent application for Unified Interface Apps](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md). For information about connecting to the Common Data Service platform instance using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, see [Connect to a model-driven instance using the Unified Service Desk client](../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md).  
 
- Your agent application will now have a **SEARCH** button in the toolbar area with two child buttons (**Account** and **Contact**) that are displayed on clicking the down arrow.  
+ Your agent application will now have a **SEARCH** button in the toolbar area with two child buttons (**Account** and **Contact**) that are displayed on selecting the down arrow.  
 
  ![Display account and contact records](../unified-service-desk/media/crm-itpro-usd-wt03-12.png "Display account and contact records")  
 
- Click **Account** or **Contact** under the **SEARCH** button to display the respective records from your instance in separate tabs in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application.  
+ Select **Account** or **Contact** under the **SEARCH** button to display the respective records from your instance in separate tabs in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application.  
 
  ![Contact records displayed](../unified-service-desk/media/crm-itpro-usd-wt03-13-unified-interface.png "Contact records displayed")  
 

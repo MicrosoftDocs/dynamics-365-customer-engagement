@@ -59,19 +59,19 @@ Before you configure Customer Engagement (on-premises) and SharePoint Online for
 
 The following software features are required to run the Windows PowerShell cmdlets described in this topic.
 
-  - [Microsoft Online Services Sign-In Assistant for IT Professionals Beta](http://www.microsoft.com/download/details.aspx?id=39267)
+  - [Microsoft Online Services Sign-In Assistant for IT Professionals Beta](https://www.microsoft.com/download/details.aspx?id=39267)
 
   - [Azure Active Directory Module for Windows PowerShell (64-bit version)](https://docs.microsoft.com/powershell/azure/active-directory/install-msonlinev1?view=azureadps-1.0)
 
 
 > [!IMPORTANT]
-> <P>At the time of this writing, there is an issue with the RTW version of Microsoft Online Services Sign-In Assistant for IT Professionals. Until the issue is resolved, we recommend that you use the Beta version. More information: <A href="https://social.msdn.microsoft.com/forums/azure/en-us/46a38822-28a4-4abb-b747-96f7db2a2676/cannot-install-azure-active-directory-module-for-windows-powershell-mossia-is-not-installed?forum=windowsazuread">Microsoft Azure Forums: Cannot install Azure Active Directory Module for Windows PowerShell. MOSSIA is not installed</A>.</P>
+> <P>At the time of this writing, there is an issue with the RTW version of Microsoft Online Services Sign-In Assistant for IT Professionals. Until the issue is resolved, we recommend that you use the Beta version. More information: <A href="https://social.msdn.microsoft.com/forums/azure/46a38822-28a4-4abb-b747-96f7db2a2676/cannot-install-azure-active-directory-module-for-windows-powershell-mossia-is-not-installed?forum=windowsazuread">Microsoft Azure Forums: Cannot install Azure Active Directory Module for Windows PowerShell. MOSSIA is not installed</A>.</P>
 
 
 
 #### Set up server-based authentication
 
-1.  On the Customer Engagement (on-premises) Server where the deployment tools server role is running, start the Azure Active Directory Module for Windows PowerShell.
+1.  On the Dynamics 365 Server where the deployment tools server role is running, start the Azure Active Directory Module for Windows PowerShell.
     
 
     > [!IMPORTANT]

@@ -1,8 +1,8 @@
 ---
-title: "Sample: Add a record to a queue (early bound) (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-decription: The sample code demonstrates how to add a record to a queue, and creates source and destination queues.
+title: "Sample: Add a record to a queue (early bound) | MicrosoftDocs"
+description: The sample code demonstrates how to add a record to a queue, and creates source and destination queues.
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 01/08/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
 ms.assetid: 250690a7-854d-4a69-adb9-d621834344fa
 caps.latest.revision: 17
 author: JimDaly
-ms.author: jdaly
-manager: amyla
+ms.author: nabuthuk
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
@@ -25,22 +25,42 @@ search.app:
 ---
 # Sample: Add a record to a queue (early bound)
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. [Download the Business management samples](https://code.msdn.microsoft.com/Business-Management-Samples-6a482e62).  
+This sample shows how to add a record to a queue. It creates source and destination queues. It adds a letter activity to the source queue and then moves it to the destination queue. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/RecordToQueue).
 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
-   
-## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
-  
-## Demonstrates  
- This sample shows how to add a record to a queue. It creates source and destination queues. It adds a letter activity to the source queue and then moves it to the destination queue.  
-  
-## Example  
- [!code-csharp[BusinessManagement#AddToQueue](../snippets/csharp/CRMV8/businessmanagement/cs/addtoqueue.cs#addtoqueue)]  
-  
-### See also  
- [Sample Code for Queue Entities](sample-code-queue-entities.md)   
- [Queue Entities](queue-entities.md)   
- [Sample: Clean Up History for a Queue (Early Bound)](sample-clean-up-history-queue-early-bound.md)   
- <xref:Microsoft.Crm.Sdk.Messages.AddToQueueRequest>
+This sample requires additional users that are not in your system. Create the users manually in **Office 365** in order to run the sample without any errors. For this sample create a user profile **as is** shown below. 
+
+**First Name**: Kevin<br/>
+**Last Name**: Cook<br/>
+**Security Role**: Sales Manager<br/>
+**UserName**: kcook@yourorg.onmicrosoft.com<br/>
+
+[!include[cc-sample-note](includes/cc-sample-note.md)]
+
+## How to run this sample
+
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-PA-samples.md)]
+
+## What this sample does
+
+The `AddToQueueRequest` message is intended to be used in a scenario where it contains data that is needed to move an entity record from a source queue to destination queue.
+
+## How this sample works
+
+In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+
+### Setup
+
+1. Checks for the current version of the org.
+2. The `Queue` method creates source and destination queues and store their returned GUIDs in variable.
+3. Creates a Letter entity.
+4. The `AddToQueueRequest` method adds an entity record into a queue, in this sample it associates the letter with first queue.
+5. Retrieves the user created manually in **Office 365** for assigning the queue items to the user's queue.
+
+### Demonstrate
+
+1. The `RetrieveUserQueueRequest` message retrieves the known private queues for the user.
+2. The `AddToQueueRequest` message adds the record from a source queue to destination queue.
+
+### Clean up
+
+Display an option to delete the sample data that is created in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.

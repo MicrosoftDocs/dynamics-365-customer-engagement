@@ -1,18 +1,15 @@
 ---
 title: "Qualify or convert leads (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Qualify the lead after you've identified the timeframe, budget, and purchase process of the lead."
-keywords: "lead, budget, purchase process, decision maker, opportunity"
 ms.date: 10/01/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: 476a1284-61e5-4eb2-9bd4-b95d111cf82e
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-caps.latest.revision: 29
 ---
 
 # Qualify or convert leads (Sales and Sales Hub)

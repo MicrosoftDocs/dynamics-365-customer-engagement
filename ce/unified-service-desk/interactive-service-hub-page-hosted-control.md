@@ -1,11 +1,12 @@
 ---
 title: "Interactive Service Hub Page (Hosted Control) in Unified Service Desk | MicrosoftDocs"
 description: "The topic explains using the Interactive Service Hub Page hosted control type to host interactive service hub forms within Unified Service Desk to integrate the capabilities of both the applications. Interactive Service Hub provides an intuitive interface and displays all the vital information related to customers in one place that lets customer support agents focus on things that require attention."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: b318a432-a6ad-48d8-a8e0-e766b62dfe6f
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -27,14 +28,15 @@ Use the **Interactive Service Hub Page** hosted control type to host  interactiv
 >  You can convert your existing **CRM Page** type of hosted controls to the **Interactive Service Hub Page** type to display [interactive experience](https://go.microsoft.com/fwlink/?linkid=857057) forms used by the Interactive Service Hub application instead of the model-driven apps forms. However, there are some considerations in doing so. For more information, see [Blog: Support for Interaction Centric Forms within Unified Service Desk](https://blogs.msdn.microsoft.com/usd/2016/05/24/support-for-interaction-centric-forms-within-unified-service-desk/)  
 
 <a name="Create"></a>   
-## Create an Interactive Service Hub Page hosted control  
+## Create an Interactive Service Hub Page hosted control
+  
  While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **Interactive Service Hub Page** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
 
  ![Interactive Service Hub Page hosted control](../unified-service-desk/media/interactive-service-hub-page-hosted-control.png "Interactive Service Hub Page hosted control")  
 
  In the **New Hosted Control** screen:  
 
-- Under **Unified Service Desk** area, select **Interactive Service Hub Page** from the **USD Component Type** drop-down list.  
+- Under **Unified Service Desk** area, select **Interactive Service Hub Page** from the **Unified Service Desk Component Type** drop-down list.  
 
 - From the **Allow Multiple Pages** drop-down list, select **No** (default) to replace the interactive service hub page that is currently displayed, and update the browser history when [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] receives a navigate action call or a page is routed to the tab. Select **Yes** to automatically create a drop-down list when a second URL is called or a window navigation rule directs a page to the tab. This will allow the user to quickly search between the interactive service hub pages that are attached to this control. Also, when you select **Yes**, an additional field, **Maximum Browsers**, becomes available where you can specify the maximum number of pages to be displayed in the drop-down list.  
 
@@ -137,7 +139,7 @@ Use the **Interactive Service Hub Page** hosted control type to host  interactiv
 |      Noscan       |                                                                                                                                                                                           If this parameter is supplied and **True**, the data parameters will not be captured from the page.                                                                                                                                                                                            |
 |  HideCommandBar   |                                                                                                                                                                         If this parameter is supplied and **True**, the inner frame will be displayed without loading the interactive service hub  command bar.                                                                                                                                                                          |
 | HideNavigationBar |                                                                                                                                                                            If this parameter is supplied and **True**, the form will be displayed without loading the interactive service hub navigation bar.                                                                                                                                                                            |
-|     postdata      |                Data that is sent to the server as part of an HTTPPOST transaction. A POST transaction is typically used to send data gathered by an HTML page. In [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], this data can be received from any event triggered using "<http://event/?>". Example: `[[postdata]+]`<br /><br /> Alternatively, the data can be passed as an encoded string with its header type in the intended format.                 |
+|     postdata      |                Data that is sent to the server as part of an HTTPPOST transaction. A POST transaction is typically used to send data gathered by an HTML page. In [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], this data can be received from any event triggered using "<https://event/?>". Example: `[[postdata]+]`<br /><br /> Alternatively, the data can be passed as an encoded string with its header type in the intended format.                 |
 |      header       | A string value that contains additional HTTP headers to send to the server. When the `postdata` parameter is used in the `Navigate` action, you should also specify an appropriate value for the `header` parameter. Example: `Content-Type:application/x-www-form-urlencoded`<br /><br /> If a [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]POST event triggers the `Navigate` action, the default value of this parameter should be `header=[[header]+]` |
 
 ### New_CRM_Page  

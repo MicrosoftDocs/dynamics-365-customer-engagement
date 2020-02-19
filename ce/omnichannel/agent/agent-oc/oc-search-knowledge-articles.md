@@ -1,16 +1,13 @@
 ---
 title: "Search for and share knowledge articles in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how to set your presence status in Omnichannel for Customer Service."
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
-ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.date: 12/27/2019
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: F1FD8DCC-A808-4875-B1C9-BFF51632BD1E
-ms.custom: 
 ---
 
 # Search for and share knowledge articles

@@ -1,11 +1,12 @@
 ---
 title: "FindIEFrame in Unified Service Desk | MicrosoftDocs"
 description: "The topic describes the attributes of <FindIEFrame> that searches for an application by its caption and selects a DOM of the window or a specific frame within a window."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: fc973cc7-d4af-4bdb-813a-4204ac46f939
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -42,7 +43,7 @@ text to match against window caption
   
 ```xml  
 <HtmlElement name="PopupWindowText" type="HtmlElement">  
-<FindIEFrame>http://uiiserver1/Microsoft.Cti.Samples.DemoWebApplication/popup1.htm - Windows Internet Explorer</FindIEFrame>  
+<FindIEFrame>https://uiiserver1/Microsoft.Cti.Samples.DemoWebApplication/popup1.htm - Windows Internet Explorer</FindIEFrame>  
 <ElementMatchPath>/HTML/BODY/P/FONT</ElementMatchPath>  
 </HtmlElement>  
   

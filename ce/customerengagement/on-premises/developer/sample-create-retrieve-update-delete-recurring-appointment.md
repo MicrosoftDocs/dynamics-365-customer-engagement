@@ -1,5 +1,5 @@
 ---
-title: "Sample: Create, retrieve, update, and delete a recurring appointment (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Create, retrieve, update, and delete a recurring appointment | MicrosoftDocs"
 description: "Sample demonstrates how to create, retrieve, update, and delete a recurring appointment series using four common methods."
 ms.custom: 
 ms.date: 10/31/2017
@@ -17,8 +17,8 @@ helpviewer_keywords:
 ms.assetid: e8ec9b76-e219-4c2f-9816-c6fdf6ed8b0b
 caps.latest.revision: 27
 author: JimDaly
-ms.author: jdaly
-manager: amyla
+ms.author: nabuthuk
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
@@ -26,36 +26,43 @@ search.app:
 ---
 # Sample: Create, retrieve, update, and delete a recurring appointment
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample from [Sample: Work with Schedules and Appointments](https://code.msdn.microsoft.com/Schedule-and-Appointment-93ed80c0).
+This sample shows how to create, retrieve, update, and delete a recurring appointment series. This sample uses the following common methods:
 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
-  
-## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
-  
-## Demonstrates  
- This sample shows how to create, retrieve, update, and delete a recurring appointment series. This sample uses the following common methods:  
-  
--   <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>  
-  
--   <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>  
-  
--   <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>  
-  
--   <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>  
-  
-## Example  
- [!code-csharp[ScheduleAndAppointment#CRUDRecurringAppointment](../snippets/csharp/CRMV8/scheduleandappointment/cs/crudrecurringappointment.cs#crudrecurringappointment)]  
-  
-### See also  
- [Sample: CrmServiceHelper Class](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa/sourcecode?fileId=182557&pathId=222952671)   
- [Create a Recurring Appointment](create-recurring-appointment-series-instance-exception.md)   
- [Update a Recurring Appointment](update-recurring-appointment.md)   
- [Delete a Recurring Appointment](delete-or-end-a-recurring-appointment-series-or-instance.md)   
- [Sample Code for Recurring Appointments](sample-code-schedule-appointment-entities.md)   
-<xref:Microsoft.Xrm.Sdk.IOrganizationService>   
- <xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>   
- <xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>   
- <xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>   
- <xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>
+- [IOrganizationService.Create](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iorganizationservice.create?view=dynamics-general-ce-9)
+- [IOrganizationService.Retrieve](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iorganizationservice.retrieve?view=dynamics-general-ce-9)
+- [IOrganizationService.Update](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iorganizationservice.update?view=dynamics-general-ce-9)
+- [IOrganizationService.Delete](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iorganizationservice.delete?view=dynamics-general-ce-9)
+
+You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/CRUDRecurringAppointment).
+
+[!include[cc-sample-note](includes/cc-sample-note.md)]
+
+## How to run this sample
+
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-PA-samples.md)]
+
+## What this sample does
+
+The `IOrganizationService` message is intended to be used in a scenario where it contains data that provides programmatic access to the metadata and data for an organization.
+
+## How this sample works
+
+In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+
+### Setup
+
+Checks for the current version of the org.
+
+### Demonstrate
+
+1. Define anonymous types to define the possible recurrence pattern values, possible values for days of the week and possible values for the recurrence rule pattern end type. 
+1. The `RecurringAppointmentMaster` method creates a recurring appointment.
+1. The `QueryExpression` method retrieves the newly created recurring appointment.
+1. The `Update` method updates the subject, number of occurences to 5, appointment interval to 2 for the retrieved recurring appointment.
+
+
+### Clean up
+
+Display an option to delete the records created in the [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
+
+

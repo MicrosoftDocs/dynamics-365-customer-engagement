@@ -20,7 +20,6 @@ search.app:
 ---
 # Preview feature: Import bulk data with the Data Loader 
 
-*This content also applies to the on-premises version.*
 
 The Data Loader service has been retired. Thanks for participating in the preview.
   

@@ -9,8 +9,8 @@ ms.custom:
   - dyn365-marketing
 ms.topic: article
 ms.assetid: a615251f-ce0e-45cf-8e73-3dc74657982a
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -38,11 +38,16 @@ To access the customization settings in the advanced-settings area:
 1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
 1. Navigate to **Settings** > **Customizations** > **Customizations**.
 
-For complete details about how to customize model-driven apps in Dynamics 365, see the [PowerApps documentation](https://docs.microsoft.com/powerapps/#pivot=home&panel=getstarted).
+For complete details about how to customize model-driven apps in Dynamics 365, see the [Power Apps documentation](https://docs.microsoft.com/powerapps/#pivot=home&panel=getstarted).
 
-For details about customizations that apply only to the Marketing app (but not other Dynamics 365 apps), see the following topic:
+For details about customizations that apply only to the Marketing app (but not other Dynamics 365 apps), see the following topics:
 
 - [Create and customize marketing calendars](customize-marketing-calendars.md)
+- [Create and customize template labels](customize-template-labels.md)
+
+## Don't remove status-reason values used by go-live functionality
+
+Entities that include [go-live functionality](go-live.md) provide a **Status reason** field that tracks the go-live status of each record. The field is an option set that must include the following values: **Draft**, **Live**, **Stopped**, "**Live, editable**", **Error**, **Going live**, and "**Stopping...**". Be sure not to delete any of these standard values. If you do, the entity will no longer be able to go live.
 
 ## Create a custom app that includes Marketing solutions
 
@@ -53,4 +58,4 @@ More information: [Design model-driven apps by using the app designer](https://d
 
 ## Advanced customization through coding
 
-Advanced customization and integration with external systems is possible through code-based interactions with the system's various APIs. For details about writing code and developing for Dynamics 365 Marketing and other model-driven apps in Dynamics 365, see the [developer documentation for PowerApps](https://docs.microsoft.com/powerapps/#pivot=home&panel=developer).
+Advanced customization and integration with external systems is possible through code-based interactions with the system's various APIs. For details about writing code and developing for Dynamics 365 Marketing and other model-driven apps in Dynamics 365, see the [developer documentation for Power Apps](https://docs.microsoft.com/powerapps/#pivot=home&panel=developer).

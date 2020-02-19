@@ -2,10 +2,9 @@
 title: "Manage tasks, appointments, email, or phone calls in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Track all your customer communications with activities in Dynamics 365 Sales Professional."
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service:
+  - "dynamics-365-sales"
 ms.topic: article
-ms.assetid: 95388471-8414-4ac9-b990-36f038ca4919
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
@@ -24,7 +23,8 @@ every email, phone call, task, or appointment. That way, a customer’s history 
 
 1. In the site map, select **Activities**. 
 
-    ![Select activities in site map](media/task-activity-in-menu.png "Select activities in site map")
+    > [!div class="mx-imgBorder"]
+    > ![Select activities in site map](media/task-activity-in-menu.png "Select activities in site map")
 
 2. From the view list, select a view to see activities for one of the following activity types:
 
@@ -36,17 +36,75 @@ every email, phone call, task, or appointment. That way, a customer’s history 
 
     -   Phone Call
 
-     ![Select a view from the View list](media/view-list-activity.png "Select a view from the View list")
+      > [!div class="mx-imgBorder"]
+      > ![Select a view from the View list](media/view-list-activity.png "Select a view from the View list")
+
+## See activities in List, Calendar, or Kanban view
+
+You can see the activities in three different views:
+-  **List.** Shows a list of all activities. 
+
+    > [!div class="mx-imgBorder"] 
+    > ![Activity List view](../sales-enterprise/media/activity-list-view.png "Activity List view")
+
+-  **Calendar.** Shows a calendar with a list of the day’s scheduled activities and the associated deals. 
+
+    > [!div class="mx-imgBorder"] 
+    > ![Activity Calendar view](../sales-enterprise/media/activity-calendar-view.png "Activity Calendar view")
+
+-  **Kanban.** Shows a visual representation of your sales activities in their different states. This lets you see the status of every activity in your pipeline and drag them to move from one status to another (for example, Open, Completed, Canceled, Scheduled). More information: [Work with activities in the Kanban view](activity-kanban-view-sp.md)
+
+    > [!div class="mx-imgBorder"]  
+    > ![Activities in the Kanban view](../sales-enterprise/media/activities-kanban-view.png "Activities in the Kanban view") 
+
+> [!IMPORTANT]
+> The Kanban view and Calendar view are early access features. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. 
+For information about how to enable these features, see [Opt in to 2020 release wave 1 updates](https://aka.ms/EarlyAccessOpt-in).
+ 
+To switch to a different view:
+
+1.	In the site map, select **Activities**.
+
+2.	On the command bar, select the **More commands** icon ![More commands icon](../sales-enterprise/media/more-commands-icon.png "More commands icon"), and then select **Show As**, and then the view type such as, **Kanban**, **Calendar Control**, or **Read Only Grid**.
+
+    > [!div class="mx-imgBorder"]  
+    > ![Show activities in the Kanban view](../sales-enterprise/media/activity-show-as-kanban-view.png "Show activities in the Kanban view") 
+
+
+## Change your activities view
+
+You can use views to see the activities you want. For example, you can use the **My Activities** view to see activities assigned to you and **My Team Members’ Activities** view to see your team’s activities. 
+
+> [!div class="mx-imgBorder"] 
+> ![Activity view drop-down list](../sales-enterprise/media/activity-view-drop-down.png "Activity view drop-down list")
 
 ## Filter the list of activities
 
-You can filter the list of activities to see only the ones you’re interested in. For example, filter the list to see closed tasks, or to see emails that you've sent.
+You can filter the list of activities to see only the ones you’re interested in. For example, you can further limit the activities you are seeing in a view by using the activity type filter. The activity type filter allows you to filter activities based on the type, such as email, task, phone call, and so on.
 
-1.  Go to the activity list. For example, to see the emails that you've sent, in the site map, select **Activities**, and then in the **View** list, select **My Sent Email**.
+> [!div class="mx-imgBorder"] 
+> ![Activity type filter](../sales-enterprise/media/activity-type-filter.png "Activity type filter")
 
-2.  Select the arrow next to the view name at the top of the page, and select the **My Sent Emails** view.
+> [!IMPORTANT]
+> The Activity Type filter is an early access feature. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. 
+For information about how to enable these features, see [Opt in to 2020 release wave 1 updates](https://aka.ms/EarlyAccessOpt-in).
 
-   ![Drop-down list to select a view](media/drop-down-list-select-a-view.png "Drop-down list to select a view")
+You can also use the **Due** filter to see the activities that are due in a specified time, such as activities that are due today or earlier or activities that are due in the next seven days or earlier.
+
+> [!div class="mx-imgBorder"] 
+> ![Due filter](../sales-enterprise/media/due-filter-activity.png "Due filter")
+
+## Create or edit a new activity
+
+You can create independent activities that aren’t associated with any customer or sales record. To do so, in the site map, select **Activities** and then on the command bar, select **Email** or **Phone Call** or **Task**, depending on which activity you want to create.
+
+Or, to edit an existing activity record, open the activity by selecting its title.
+
+
+> [!NOTE]
+> - With the February 2020 release of Dynamics 365 Sales, when you create or edit a new activity, the record opens in a Main form dialog. A Main form dialog is a Main form opening in a dialog (a pop-up window). Main form dialogs allow you to stay in context while working on one record with the ability to open a second or third record in dialog experience. This makes it easier to edit the records.
+> - The Main form dialog is an early access feature. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. 
+For information about how to enable these features, see [Opt in to 2020 release wave 1 updates](/power-platform/admin/opt-in-early-access-updates).
 
 
 ## Add a new activity for a customer
@@ -70,7 +128,8 @@ Otherwise, to keep a history of your interactions with a customer, you should ad
 
 2.  On the command bar, select an activity type—for example, **Task**.
 
-    ![Command bar button for creating a new activity type Task](media/create-task.png "Command bar button for creating a new activity type Task")
+    > [!div class="mx-imgBorder"]
+    > ![Command bar button for creating a new activity type Task](media/create-task.png "Command bar button for creating a new activity type Task")
     
 3.  Fill in the fields, and then select **Save**.
 
@@ -84,10 +143,12 @@ you can mark the activity for that action as completed.
 
 2.  On the command bar, select **Mark Complete**.
 
-    ![Command bar button to mark an activity complete](media/command-bar-button-mark-activity-complete.png "Command bar button to mark an activity complete")
+    > [!div class="mx-imgBorder"]
+    > ![Command bar button to mark an activity complete](media/command-bar-button-mark-activity-complete.png "Command bar button to mark an activity complete")
 
 
 ### See also
 
 [Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)<br/>
-[Manage your customers](manage-accounts-contacts.md)
+[Manage your customers](manage-accounts-contacts.md)  
+[Work with activities in the Kanban view](activity-kanban-view-sp.md)  

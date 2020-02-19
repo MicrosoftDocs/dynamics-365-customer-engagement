@@ -1,7 +1,7 @@
 ---
 title: "Work offline on your mobile device (Dynamics 365 apps)| MicrosoftDocs"
 ms.custom: 
-ms.date: 10/28/2019
+ms.date: 1/13/2020
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
@@ -145,10 +145,12 @@ These entities and corresponding commands are available in offline mode.
 |Opportunity Product|Create, Read, Update, Delete	|
 |Phone Call|Create, Read, Update, Delete	|
 |Position|Create, Read, Update, Delete	|
-|Product|Create, Read, Update, Delete|
+|Product|Read|
 |Task |Create, Read, Update, Delete|
 |Team |Read only	|
 |User |Read only	|
+
+**Add Existing on subgrids**: **Add Existing** is not supported for mobile offline for certain types of relationships. When you are offline, certain relationships such as relationships that are N:N are read only, and the **Add Existing** command will be hidden on subgrids for those relationships. Even if the button is unhidden via customization, the command will not work in offline.
 
 **Business rules**: Business rules are supported in mobile offline. For more information, see [Create business rules and recommendations to apply logic in a model-driven app form](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-business-rules-recommendations-apply-logic-form).
 
@@ -156,7 +158,13 @@ These entities and corresponding commands are available in offline mode.
 
 **Offline views**: Only system views are supported in mobile offline. 
 
+**Quick views**: Quick views are available in offline mode.
+
 **Offline search**: Available only for offline entities. User can only search one entity at a time. Only categorized search is supported in offline mode and not relevant search.
+
+**Notes on the Timeline control**: Notes on the Timeline control is available in offline mode. You can take pictures, read notes, and add attachments in offline mode.
+
+
 
 > [!NOTE]
 > The **Date** field is not available for mobile offline search.
@@ -178,18 +186,13 @@ If a user was working on a record and lost network connection, any updates made 
 
 **Qualify a lead**: When a lead created in mobile offline is qualified and when the user goes online, the business process stage will still show the  qualify stage. The user will have to manually click **Next stage** to move to the next stage.
 
-
 **Views** are not supported for the following entities in offline mode: 
 
 - Email
 
 - Task
 
-- Appointment
-
 - Fax
-
-- Phonecall
 
 - Letter
 

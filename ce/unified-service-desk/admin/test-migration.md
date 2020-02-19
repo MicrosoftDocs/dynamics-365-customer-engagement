@@ -5,13 +5,14 @@ ms.custom:
   - dyn365-USD
   - dyn365-admin
 ms.date: 11/04/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: CAAF7C38-026A-4945-90F1-433766649A9E
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-search.audienceType: admin
+search.audienceType: 
+  - admin
 search.app: 
   - D365CE
   - D365USD
@@ -113,7 +114,7 @@ All the data parameters are passed as strings in quotes. For example, `‘[[inci
 
 ### Update Hosting Type to Chrome
 
-It is recommended to update your Hosting Type to Chomre. To learn more, see [Update Unified Service Desk Component type to Chrome](../chrome-process.md).
+It is recommended to update your Hosting Type to Chrome. To learn more, see [Update Unified Service Desk Component type to Chrome](../chrome-process.md).
 
 ### Set unified interface theme
 
@@ -135,13 +136,13 @@ To learn more, see [Customize themes in Unified Service Desk](../customize-theme
 #### Update custom panel layout XML
 
 ```XML
-<Grid xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+<Grid xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation" 
 
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml" 
 
-    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:mc="https://schemas.openxmlformats.org/markup-compatibility/2006" 
 
-    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+    xmlns:d="https://schemas.microsoft.com/expression/blend/2008" 
 
     mc:Ignorable="d" xmlns:local="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics" 
 
@@ -365,17 +366,17 @@ To learn more, see [Create custom panel layout](../create-custom-panel-layout.md
 #### Update Custom Styles field in the Main toolbar
 
 ```XML
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+<ResourceDictionary xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation" 
 
-xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"> 
+xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml"> 
 
  <ResourceDictionary.MergedDictionaries> 
 
   <ResourceDictionary Source="/UnifiedServiceDesk;component/Styles/UnifiedInterface/Style.xaml"/> 
 
-  <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+  <ResourceDictionary xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation" 
 
-xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"> 
+xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml"> 
 
    <SolidColorBrush x:Key="ToolBarFontColor" Color="{Binding Color, Source={StaticResource TopToolbarTextColorBrush}}"/> 
 
@@ -399,17 +400,17 @@ To learn more, see [Configure toolbars in your application](../configure-toolbar
 #### Update Custom Styles field in the About toolbar
 
 ```XML
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+<ResourceDictionary xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation" 
 
-xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"> 
+xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml"> 
 
  <ResourceDictionary.MergedDictionaries> 
 
   <ResourceDictionary Source="/UnifiedServiceDesk;component/Styles/UnifiedInterface/Style.xaml"/> 
 
-  <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+  <ResourceDictionary xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation" 
 
-xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"> 
+xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml"> 
 
    <SolidColorBrush x:Key="ToolBarFontColor" Color="{Binding Color, Source={StaticResource TopToolbarTextColorBrush}}"/> 
 
@@ -433,7 +434,7 @@ To learn more, see [Configure toolbars in your application](../configure-toolbar
 #### Update session overview lines XML in Session Lines
 
 ```XML
-<Grid xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+<Grid xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml" 
 
           xmlns:CCA="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics" 
 
@@ -541,7 +542,7 @@ To learn more, see [Configure toolbars in your application](../configure-toolbar
 
       <TextBlock  Margin="14,7,0,0" Grid.Row="1" Grid.Column="0" TextWrapping="Wrap" > 
 
-       <Hyperlink Command="CCA:ActionCommands.DoActionCommand" CommandParameter="http://uii/CRM Global Manager/LaunchURL?callto:tel:[[Incident Account.telephone1]u+x]"  FontWeight="Regular" Foreground="#FF3B79B7" FontSize="14" AutomationProperties.Name="Telephone Number [[Incident Account.telephone1]+x]">[[Incident Account.telephone1]+x]</Hyperlink> 
+       <Hyperlink Command="CCA:ActionCommands.DoActionCommand" CommandParameter="https://uii/CRM Global Manager/LaunchURL?callto:tel:[[Incident Account.telephone1]u+x]"  FontWeight="Regular" Foreground="#FF3B79B7" FontSize="14" AutomationProperties.Name="Telephone Number [[Incident Account.telephone1]+x]">[[Incident Account.telephone1]+x]</Hyperlink> 
 
        </TextBlock> 
 
@@ -549,7 +550,7 @@ To learn more, see [Configure toolbars in your application](../configure-toolbar
 
       <TextBlock Margin="14,7,0,0" Grid.Row="2" Grid.Column="0" TextWrapping="Wrap" AutomationProperties.Name="Facebook:"> 
 
-     <Hyperlink Command="CCA:ActionCommands.DoActionCommand" CommandParameter="http://uii/Facebook/Navigate?url=about:blank" FontWeight="Regular" Foreground="#FF3B79B7" FontSize="14" AutomationProperties.Name="Link to the Facebook page">[[Incident Account.msdyusd_facebook]x+]</Hyperlink> 
+     <Hyperlink Command="CCA:ActionCommands.DoActionCommand" CommandParameter="https://uii/Facebook/Navigate?url=about:blank" FontWeight="Regular" Foreground="#FF3B79B7" FontSize="14" AutomationProperties.Name="Link to the Facebook page">[[Incident Account.msdyusd_facebook]x+]</Hyperlink> 
 
       </TextBlock> 
 
@@ -557,7 +558,7 @@ To learn more, see [Configure toolbars in your application](../configure-toolbar
 
       <TextBlock Margin="14,7,0,14" Grid.Row="3" Grid.Column="0" AutomationProperties.Name="Twitter:" > 
 
-     <Hyperlink Command="CCA:ActionCommands.DoActionCommand" CommandParameter="http://uii/Twitter/Navigate?url=about:blank"  FontWeight="Regular" Foreground="#FF3B79B7" FontSize="14" AutomationProperties.Name="Link to the Twitter page">[[Incident Account.msdyusd_twitter]x+]</Hyperlink> 
+     <Hyperlink Command="CCA:ActionCommands.DoActionCommand" CommandParameter="https://uii/Twitter/Navigate?url=about:blank"  FontWeight="Regular" Foreground="#FF3B79B7" FontSize="14" AutomationProperties.Name="Link to the Twitter page">[[Incident Account.msdyusd_twitter]x+]</Hyperlink> 
 
       </TextBlock> 
 

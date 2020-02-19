@@ -1,16 +1,14 @@
----	
-title: "Understand Omnichannel for Customer Service with Customer Service Hub app | MicrosoftDocs"	
-description: "Understand how Omnichannel for Customer Service can be used with Dynamics 365 Customer Service Hub application."		
-author: kabala123	
-ms.author: kabala	
-manager: shujoshi	
-applies_to: 	
+---
+title: "Understand Omnichannel for Customer Service with Customer Service Hub app | MicrosoftDocs"
+description: "Understand how Omnichannel for Customer Service can be used with Dynamics 365 Customer Service Hub application."
+author: kabala123
+ms.author: kabala
+manager: shujoshi
 ms.date: 11/11/2019
-ms.service: dynamics-365-customerservice	
-ms.topic: article	
-ms.assetid:	92CCEF95-D24F-46C9-82E1-E1ECDDDEA44B
-ms.custom: 	
----	
+ms.service: 
+  - "dynamics-365-customerservice"
+ms.topic: article
+---
 # Understand Omnichannel for Customer Service with Customer Service Hub
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
@@ -24,6 +22,26 @@ To learn more, see [Unified routing](#unified-queues) and [Unified routing for c
 ## Unified queues
 
 Similar to the Customer Service Hub app, Omnichannel for Customer Service uses the existing Common Data Service queues for routing and distributing the conversations (work item). You can use the existing queues for Customer Service Hub and enable them for Omnichannel for Customer Service, to perform an automatic work-distribution, thus reducing the effort you require to configure new queues for your support organization.
+
+### Enable automatic work distribution
+
+1. Sign in to the Customer Service Hub app.
+
+2. Select **Service Management**.
+
+    > [!div class=mx-imgBorder]
+    > ![Select service management](../media/service-management.png "Select service management")
+
+3. Select **Queues** under **Case Settings**.
+
+4. Select an existing queue from the list or select **+ New** to create a new queue and fill the required details. To learn more, [Create and manage queues](../../customer-service/set-up-queues-manage-activities-cases.md).
+
+5. Select the checkbox to enable the queue for automatic distribution of work items.
+
+    > [!div class=mx-imgBorder]
+    > ![Enable automatic work distribution](../media/automatic-work-distribution.png "Enable automatic work distribution")
+
+6. Select **Save**.
  
 ## Unified routing for cases
 

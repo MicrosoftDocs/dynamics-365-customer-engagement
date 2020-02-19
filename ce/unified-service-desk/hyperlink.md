@@ -1,10 +1,12 @@
 ---
 title: "HyperLink in Unified Service Desk | MicrosoftDocs"
-ms.custom: dyn365-USD
+description: 
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 9fcb4f35-b9ef-412d-a62e-c4dc3f2e65cb
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -23,7 +25,7 @@ The `<HyperLink>` element does not define an element on the web application's us
   
 ```xml  
 <HyperLink name="control name">  
-<Url>http://www.urlgoeshere.org</Url>  
+<Url>https://www.urlgoeshere.org</Url>  
 </HyperLink>  
   
 ```  

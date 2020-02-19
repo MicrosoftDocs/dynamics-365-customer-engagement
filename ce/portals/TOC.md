@@ -17,7 +17,7 @@
 ## [Restrict portal access by IP address](ip-address-restrict.md)
 ## [Use portal checker](portal-checker.md)
 ## [Enable maintenance mode](enable-maintenance-mode.md)
-## [Update to PowerApps Portals domain](update-portal-domain.md)
+## [Update to Power Apps Portals domain](update-portal-domain.md)
 
 # [Configure a portal](configure-portal.md)
 ## [Enable multiple-language support](enable-multiple-language-support.md)

@@ -2,13 +2,12 @@
 title: "msdyn_playbooktempate EntityType | MicrosoftDocs"
 description: "Entity reference for msdyn_playbooktemplate EntityType"
 ms.date: 04/08/2019
-ms.service: crm-online
+ms.service: 
+  - crm-online
 ms.topic: article
-ms.assetid: 383A8F5F-9505-4326-BEBB-5D7D5FD41BDC
 author: susikka
 ms.author: susikka
 manager: shujoshi
-caps.latest.revision: 22
 ---
 # msdyn_playbooktemplate EntityType
 

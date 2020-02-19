@@ -30,7 +30,7 @@ You can use a Postman environment to save a set of variables that you use to con
 > [!NOTE]
 > [!INCLUDE[](../includes/cc-cdsnote-2-topic.md)]
 >
-> The documentation that is applicable to Dynamics 365 Customer Engagement app (online) users is now available in the PowerApps documentation at: [Set up a Postman environment](/powerapps/developer/common-data-service/webapi/setup-postman-environment).
+> The documentation that is applicable to Dynamics 365 Customer Engagement app (online) users is now available in the Power Apps documentation at: [Set up a Postman environment](/powerapps/developer/common-data-service/webapi/setup-postman-environment).
 
 ## Prerequisites
 
@@ -46,7 +46,7 @@ Select the connection option that works for your environment:
 
 ## Connect with an online environment
 
-To connect with an online environment, see the information provided in this PowerApps Common Data Service topic: [Connect with an online environment](/powerapps/developer/common-data-service/webapi/setup-postman-environment#connect-with-your-common-data-service-environment).
+To connect with an online environment, see the information provided in this Power Apps Common Data Service topic: [Connect with an online environment](/powerapps/developer/common-data-service/webapi/setup-postman-environment#connect-with-your-common-data-service-environment).
 
 <a name="bkmk_connectonpremise"></a>
 
@@ -59,7 +59,7 @@ To connect with an online environment, see the information provided in this Powe
 
   | Variable Name | Value |
   |----|---|
-  |`url`|`http://yourservername/yourorgname`|
+  |`url`|`https://yourservername/yourorgname`|
   |`version`|`9.0`|
   |`webapiurl`|`{{url}}/api/data/v{{version}}/`|
 

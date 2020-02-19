@@ -1,5 +1,5 @@
 ---
-title: "Sample: Query connection roles by entity type code (early bound) (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Query connection roles by entity type code (early bound) | MicrosoftDocs"
 description: "The sample demonstrates how to use a query to find a connection role for an account entity by specifying an entity type code."
 ms.custom: 
 ms.date: 10/31/2017
@@ -16,8 +16,8 @@ helpviewer_keywords:
 ms.assetid: 84e4e68d-2e43-4fb8-843e-b878504edec5
 caps.latest.revision: 18
 author: JimDaly
-ms.author: jdaly
-manager: amyla
+ms.author: nabuthuk
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
@@ -25,21 +25,33 @@ search.app:
 ---
 # Sample: Query connection roles by entity type code (early bound)
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. [Download the Business Management samples](https://code.msdn.microsoft.com/Business-Management-Samples-6a482e62).
+This sample shows how to use a query to find a connection role for an account entity by specifying an entity type code. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/QueryRoleByEntityType).
 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
-  
-## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
-  
-## Demonstrates  
- This sample shows how to use a query to find a connection role for an account entity by specifying an entity type code.  
-  
-## Example  
- [!code-csharp[BusinessManagement#QueryConnectionRolesByEntityTypeCode](../snippets/csharp/CRMV8/businessmanagement/cs/queryconnectionrolesbyentitytypecode.cs#queryconnectionrolesbyentitytypecode)]  
-  
-### See also  
- [Sample Code for Connection Entities](sample-code-connection-entities.md)   
- [Connection Entities](connection-entities.md)   
- [Sample: Query Connections by Reciprocal Roles (Early Bound)](sample-query-connections-reciprocal-roles-early-bound.md)
+[!include[cc-sample-note](includes/cc-sample-note.md)]
+
+## How to run this sample
+
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-PA-samples.md)]
+
+## What this sample does
+
+This sample shows how to use a query to find a connection role for an account entity by specifying an entity type code.
+
+## How this sample works
+
+In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+
+### Setup
+
+Checks for the current version of the org.
+
+### Demonstrate
+
+1. Defines some anonymous types to define the range of possible connection property values.
+2. The `ConnectionRole` creates a connection role.
+3. The `QueryExpression` queries all the connection roles.
+4. The `ConnectionRoleObjectTypeCode` creates a connection role object type code record for account entity. 
+
+### Clean up
+
+Display an option to delete the records in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.

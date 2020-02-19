@@ -1,7 +1,7 @@
 ---
 title: "Manage Sandbox instances | MicrosoftDocs"
 ms.custom: 
-ms.date: 10/01/2019
+ms.date: 01/17/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite:
@@ -21,14 +21,18 @@ search.app:
 ---
 # Manage Sandbox instances
 
-A Sandbox instance is any non-production instance of Common Data Service apps. Isolated from production, a Sandbox instance is the place to safely develop and test application changes with low risk.  
+Sandbox management is now done in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). See [Manage sandbox environments](https://docs.microsoft.com/power-platform/admin/sandbox-environments).
+
+<!-- 
+
+[!INCLUDE[applies-to](../includes/cc_applies_to_ce.md)]
+
+A Sandbox instance is any non-production instance of Common Data Service. Isolated from production, a Sandbox instance is the place to safely develop and test application changes with low risk.  
   
 > [!NOTE]
-> With [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)], we no longer require a minimum purchase amount to receive a free Sandbox instance. If you've purchased a subscription and have not received a free Sandbox instance, you will be provided one when you purchase full Dynamics 365 Enterprise licenses. There is a limit of one free Sandbox instance per tenant. You can also purchase additional Sandbox instances. For more information, see [Pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=321102).  
->
-> Check out [Switch an instance](switch-instance.md) for information on how to switch an instance to or from Sandbox and for licensing considerations.
->
-> Consider using the less privileged service admin role instead of the global admin role. See [Use the service admin role to manage your tenant](use-service-admin-role-manage-tenant.md).
+> - With [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)], we no longer require a minimum purchase amount to receive a free Sandbox instance. If you've purchased a subscription and have not received a free Sandbox instance, you will be provided one when you purchase full Dynamics 365 Enterprise licenses. There is a limit of one free Sandbox instance per tenant. You can also purchase additional Sandbox instances. For more information, see [Pricing and licensing](https://go.microsoft.com/fwlink/p/?LinkID=321102).  
+> - Check out [Switch an instance](switch-instance.md) for information on how to switch an instance to or from Sandbox and for licensing considerations.
+> - Consider using the less privileged service admin role instead of the global admin role. See [Use the service admin role to manage your tenant](use-service-admin-role-manage-tenant.md).
   
 <a name="BKMK_View"></a>   
 
@@ -110,4 +114,4 @@ A Sandbox instance is any non-production instance of Common Data Service apps. I
 4. Select a Sandbox instance, and then click **Admin**.  
   
 5. Select **Enable administration mode** to enable it, and then click **Save**.  
-  
+-->

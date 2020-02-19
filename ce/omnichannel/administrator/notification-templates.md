@@ -1,28 +1,18 @@
 ---
 title: "Manage notification templates in Omnichannel Administration app | MicrosoftDocs"
 description: "Learn about managing notification templates in Omnichannel Administration app"
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
-ms.date: 10/25/2019
-ms.service: dynamics-365-customerservice
+ms.date: 01/31/2020
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: E098ABE0-E5FD-4C65-BF3E-56ACC7F9E416
-ms.custom: 
 ---
 
-# Preview: Manage notification templates
+# Manage notification templates
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
-> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided “as-is,” “with all faults,” “as available,” and without warranty.​
-> - This preview features does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
-> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../../legal/dynamics-insider-agreement.md).
 
 ## Overview
 
@@ -66,7 +56,7 @@ Omnichannel system supports the following slugs.
 
 1.	Sign in to the Omnichannel Administration app.
 
-2.	Select **Notifications** under **Templates** in the sitemap.
+2.	Select **Notifications** under **Agent Experience** in the sitemap.
 
 3.	Select **+ New** in the **Active Notifications** page.
 
@@ -77,6 +67,7 @@ Omnichannel system supports the following slugs.
     | General | Name | Specify the name for the notification. This name wouldn't be visible for the agents at the run-time. | Authenticated chat notification |
     | General | Title | Provide a title to the notification that you want the agents to see at the run-time. | Incoming chat conversation |
     | General | Icon | Select web resource path to add an icon. | /webresources/msdyn_chat_icon_zfp.svg <br><br> **Note:** This is the default value. You can change the icon as your requirement. |
+    | General |Show timeout| Yes |Set **Yes** to show the timer in the notification, or **No** to hide the timer in the notification for the agents. <br><br> **Note:** <br> - Irrespective of whether you set **Yes** or **No** to show or to hide the timeout value for the agent, the timer runs, and after the timeout duration, the notification disappears. <br> - **Yes** is the default value for the templates when you get the latest release  of Omnichannel for Customer Service freshly. <br> - When you upgrade from previous to the latest release of Omnichannel for Customer Service, then already existing notification templates will show no value for this field in the user interface. However, the notification templates considers the values as **Yes**, and displays the timer to the users at the runtime. |
     | General | Timeout (seconds) | Provide a duration in seconds; after this duration, the notification disappears. | 120. <br><br> **Note:** This is the default value. You can change the duration as per your requirement.
     | General | Accept Button | Specify a text for the accept button. This text appears for the agents to accept a conversation request. | Accept <br><br> **Note:** This is the default value. You can change the text as per your requirement. |
     | General | Reject Button | Set the toggle to yes if you want to show the reject button to agents. <br> After you set the toggle to Yes, the button text box appears. Specify a text for the accept button. This text appears for the agents to reject a conversation request. | Reject <br><br> **Note:** This is the default value. You can change the text as per your requirement. |
@@ -119,7 +110,7 @@ As an administrator, you can edit the value of a notification field header in th
 
 1.	Sign in to the Omnichannel Administration app.
 
-2.	Select **Notifications** under **Templates** in the sitemap.
+2.	Select **Notifications** under **Agent Experience** in the sitemap.
 
 3.	Select the notification you want to edit on the **Active Notifications** page.
 
@@ -149,6 +140,7 @@ As an administrator, you need to customize the notification template to show the
 | General | Name | Customized case notification template |
 | General | Title | A new case is assigned |
 | General | Icon |/webresources/msdyn_chat_icon_zfp.svg <br><br> **Note:** This is the default value. |
+| General |Show timeout| No |
 | General | Timeout (seconds) | 120. <br><br> **Note:** This is the default value. |
 | General | Accept Button | Accept <br><br> **Note:** This is the default value.|
 | General | Reject Button | Reject <br><br> Set the toggle to yes to show the reject button to agents. <br> After you set the toggle to **Yes**, the button text box appears. <br><br> **Note:** This is the default value.|

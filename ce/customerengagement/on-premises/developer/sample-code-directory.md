@@ -27,7 +27,7 @@ search.app:
 
 # Sample code directory for Dynamics 365 Customer Engagement (on-premises)
 
-The following sample code is included for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)].  
+The following sample code is included for Dynamics 365 Customer Engagement (on-premises).  
   
 <a name="BKMK_Activities"></a>
 ## Activities  
@@ -100,8 +100,8 @@ The following sample code is included for [!INCLUDE[pn_dynamics_crm_online](../i
 ## Business process flows  
 
 
-[Sample: Xrm.Page.data.process.getEnabledProcesses](https://msdn.microsoft.com/en-in/library/dn817865.aspx)<br />
-[Sample: Xrm.Page.data.process.getActivePath](https://msdn.microsoft.com/en-us/library/dn817884.aspx)<br />
+[Sample: getEnabledProcesses](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formcontext-data-process/getenabledprocesses)<br />
+[Sample: getActivePath](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formcontext-data-process/activepath/getactivepath)<br />
   
 <a name="BKMK_Charts"></a>   
 ## Charts and dashboards  
@@ -252,7 +252,6 @@ The following sample code is included for [!INCLUDE[pn_dynamics_crm_online](../i
 [Sample: Authenticate Users with Dynamics 365 Customer Engagement Web Services](sample-authenticate-users-web-services.md)<br />
 [Sample: Execute Multiple Requests](org-service/sample-execute-multiple-requests.md)<br />
 [Sample: Execute multiple requests in transaction](org-service/sample-execute-multiple-requests-transaction.md)<br />
-[Helper Code: ServerConnection Class](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa/sourcecode?fileId=182557&pathId=222952671)<br />
 [Helper Code: SystemUserProvider class](org-service/helper-code-systemuserprovider-class.md)<br />
 [Sample: Impersonation using the ActOnBehalfOf privilege](org-service/sample-impersonate-actonbehalfof-privilege.md)<br />
 [Sample: Quick Start for Dynamics 365 Customer Engagement (on-premises)](sample-quick-start.md)<br />
@@ -325,10 +324,10 @@ The following sample code is included for [!INCLUDE[pn_dynamics_crm_online](../i
 ## Reports  
 
 
-[Sample: Download Report Definition](https://msdn.microsoft.com/library/gg328306.aspx)<br />
-[Sample: Get Report History Limit](Shttps://msdn.microsoft.com/library/gg328398.aspx)<br />
-[Sample: Make a Report Available or Unavailable to Organization](https://msdn.microsoft.com/library/hh210211.aspx)<br />
-[Sample: Publish a Report](https://msdn.microsoft.com/library/gg309505.aspx)<br />
+[Sample: Download Report Definition](sample-download-report-definition.md)<br />
+[Sample: Get Report History Limit](sample-get-report-history-limit.md)<br />
+[Sample: Make a Report Available or Unavailable to Organization](sample-make-report-available-unavailable-organization.md)<br />
+[Sample: Publish a Report](sample-publish-report.md)<br />
   
 ## Sales: Leads, opportunities, quotes, orders, invoices, connections  
 

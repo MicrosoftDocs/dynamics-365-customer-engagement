@@ -1,9 +1,9 @@
 ---
-title: "Work with solutions | MicrosoftDocs"
+title: "Work with solutions (Dynamics 365 Customer Engagement on-premises)| MicrosoftDocs"
 description: "Learn how solutions are distributed"
 ms.custom: 
   - dyn365-deflc
-ms.date: 10/03/2019
+ms.date: 12/04/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -19,21 +19,21 @@ ms.author: "matp"
 manager: "kvivek"
 ---
 
-
 # Solutions overview  
-
- Solutions exist so that a Dynamics 365 Customer Engagement (on-premises) can be purchased, shared, or otherwise transported from one organization to another. You can get solutions from [AppSource](https://appsource.microsoft.com/) or from an independent software vendor (ISV). A solution is a file that you can import in to an environment as an app or to apply a set of customizations to an existing app.  
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Solutions overview](/powerapps/maker/common-data-service/solutions-overview)
+ 
+In Dynamics 365 Customer Engagement (on-premises), solutions are leveraged to transport apps and components from one organization to another or to apply a set of customizations to existing apps. A solution can contain one or more apps as well as other components such as site maps, entities, processes, web resources, option sets, and more. You can get solutions from [AppSource](https://appsource.microsoft.com/) or from an independent software vendor (ISV). A solution is a file that you can import in to an environment as an app or to apply a set of customizations to an existing app.  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Whitepaper: Patterns and Principles for Solution Builders](http://go.microsoft.com/fwlink/p/?LinkID=533946)  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Whitepaper: Patterns and Principles for Solution Builders](https://go.microsoft.com/fwlink/p/?LinkID=533946)  
   
-
-
 If you’re an ISV creating an app that you will distribute, you’ll need to use solutions. For more information about using solutions, see [Package and distribute extensions using solutions](../developer/package-distribute-extensions-use-solutions.md).  
   
 
 <a name="BKMK_SolutionComponents"></a>   
 ### Solution components  
- A solution component represents something that you can potentially customize. Anything that can be included in a solution is a solution component. The following is a list of solution components that you can view in a solution:  
+ A solution component represents something that you can potentially customize. Anything that can be included in a solution is a solution component. To view the components included in a solution, in solution explorer go to **Settings** > **Solutions** and then open the solution you want. The components are listed in the **Components** list. 
+
+<!-- The following is a list of solution components that you can view in a solution:  
   
 - Application Ribbon  
 
@@ -87,7 +87,7 @@ If you’re an ISV creating an app that you will distribute, you’ll need to us
 
 - Virtual Entity Data Source
   
-- Web Resource  
+- Web Resource  -->
   
   Most solution components are nested within other solution components. For example, an entity contains forms, views, charts, fields, entity relationships, messages, and business rules. Each of those solution components requires an entity to exist. A field can’t exist outside of an entity. We say that the field is dependent on the entity. There are actually twice as many types of solution components as shown in the preceding list, but most of them are not visible in the application.  
   

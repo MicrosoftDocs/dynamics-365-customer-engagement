@@ -3,7 +3,7 @@ title: "Frequently asked questions for Field Service Mobile | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 10/28/2019
-ms.reviewer: ""
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
@@ -13,10 +13,10 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
 caps.latest.revision: 42
-ms.author: FieldServiceDave
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin
@@ -151,3 +151,14 @@ Yes, on Android only. Field Service Mobile v11.3+ can use a bluetooth RFID reade
 See this [blog post](https://www.resco.net/woodford-user-guide/#__RefHeading__5907_1627906509) for more details.
 
 
+## Why am I getting the error "UNSUPPORTED CUSTOMIZATION VERSION: App:23 Srv:25" in the Field Service Mobile app? 
+
+If you're receiving this error, it means that you published the mobile project to a version that is higher than your app supports.
+Try publishing the mobile project again to match the version of the app. For instance, for Field Service Mobile v11.2, publish to 11.2.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the mobile configurator, showing the publish version](./media/mobile-faq-configurator-version.png)
+
+## Can I use the Dynamics 365 mobile application to access Field Service? 
+
+We strongly recommend using the Field Service Mobile app to access Field Service, rather than the Dynamics 365 mobile app with the Unified Interface. While the native Dyanmics 365 app does work in offline mode, it doesn't fully support offline mode for Field Service-specific scenarios. For more information, visit our topic on Field Service Mobile.

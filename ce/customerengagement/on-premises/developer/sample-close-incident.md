@@ -24,7 +24,7 @@ search.app:
 ---
 # Sample: Close an incident
 
-This sample code is for Dynamics 365 Customer Engagement (on-premises). [Download the Service samples](https://code.msdn.microsoft.com/Service-Samples-f42adf82).   
+This sample code is for Dynamics 365 Customer Engagement (on-premises). [Download the Service samples](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/Service).   
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]

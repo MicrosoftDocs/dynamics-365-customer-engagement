@@ -1,27 +1,17 @@
 ---
 title: "Start chat proactively | Microsoft Docs"
 description: "Read how you can start chat proactively to see if customers need help and thereby improve customer experience"
-keywords: ""
-ms.date: 10/24/2019
-ms.service: dynamics-365-customerservice
-ms.custom:
-ms.topic: reference
-applies_to:
-ms.assetid: B8E99BB8-302D-4197-96FA-C8963A9560AB
 author: susikka
 ms.author: susikka
 manager: shujoshi
+ms.date: 01/24/2020
+ms.service: 
+  - "dynamics-365-customerservice"
+ms.topic: reference
 ---
-# Preview: Start chat proactively
+# Start chat proactively
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
-
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
-> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided “as-is,” “with all faults,” “as available,” and without warranty.
-> - This preview features does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
-> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../../../legal/dynamics-insider-agreement.md).
 
 Anticipating areas where customers need help and then engaging them through chat when they have been browsing your website for some time can help improve customer satisfaction.
 
@@ -310,7 +300,7 @@ Hi! Just checking in to see if I can help answer any questions you may have.
 
 ### Sample code
 
-This sample code shows how you can use Bing's Geolocation APIs to know the geographic region of the customer and offer chat request based on that. More information about Bing's location APIs: [Bing Maps Locations API](https://docs.microsoft.com/en-us/bingmaps/rest-services/locations/).
+This sample code shows how you can use Bing's Geolocation APIs to know the geographic region of the customer and offer chat request based on that. More information about Bing's location APIs: [Bing Maps Locations API](https://docs.microsoft.com/bingmaps/rest-services/locations/).
 
 ```javascript
 <!-- Code to show proactive chat invite if visitor is visiting the page in a particular country or region -->
@@ -346,7 +336,7 @@ This sample code shows how you can use Bing's Geolocation APIs to know the geogr
 					console.log("Bing Geolocation API call has failed and returned error: " + this.statusText);
 				}
 			};
-			xhttp.open("GET", 'http://dev.virtualearth.net/REST/v1/Locations/'+ latitude +','+ longitude +'?key='+ bingMapApiKey, true);
+			xhttp.open("GET", 'https://dev.virtualearth.net/REST/v1/Locations/'+ latitude +','+ longitude +'?key='+ bingMapApiKey, true);
 			xhttp.setRequestHeader("Content-type", "application/json");
 			xhttp.send();
 		}
@@ -357,7 +347,7 @@ This sample code shows how you can use Bing's Geolocation APIs to know the geogr
 			var longitude = position.coords.longitude;
 			console.log('Your latitude is :'+latitude+' and longitude is '+longitude);
 			//convert current loaction to a country/ region via Bing Geolocation APIs
-			var bingMapApiKey = 'Enter your Bing Map API key';// Get Bing Map API key here : https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key
+			var bingMapApiKey = 'Enter your Bing Map API key';// Get Bing Map API key here : https://docs.microsoft.com/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key
 			GetCountryUsingBingGeoLocationAPIAndOfferProactiveChatIfVisitorCountryMatchesWithGivenCountry( latitude, longitude, bingMapApiKey, countryNameWhereProactiveChatInviteShouldBeOffered);// get Country name using Bing Geolocation API and offer proctiveChat if visitor's country matches with Country name where proactive chat invite should be offered
 		}
 		
