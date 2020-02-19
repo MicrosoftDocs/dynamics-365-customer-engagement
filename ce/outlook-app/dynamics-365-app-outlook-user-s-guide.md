@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 App for Outlook User Guide (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
-ms.date: 02/07/2020
+ms.date: 02/21/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
