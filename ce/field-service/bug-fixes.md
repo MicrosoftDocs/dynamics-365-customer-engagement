@@ -32,7 +32,9 @@ In this article, you'll find an ongoing list of bug fixes for Dynamics 365 Field
 
 ## Dynamics 365 Field Service
 
-### Version 8.8.14.328 (2020 Wave 1 Early Access - [opt-in instructions](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates))
+### Version 8.8.14.328 (2020 Wave 1 Early Access)
+
+For more information about early access features, visit the [opt-in instructions](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates).
 
 - Before a Work Order Product or Work Order Service is set to Used, the Total Amount is not calculated.
   - Previously, under some circumstances, a Work Order Service line in Estimated status could have a Total Amount value despite not being set to used. This could result in challenges when looking at the Work Order’s total amount and potential downstream invoice discrepancies.
