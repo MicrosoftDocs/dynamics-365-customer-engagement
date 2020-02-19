@@ -53,6 +53,8 @@
 #### [Track a marketing campaign response](track-marketing-campaign-response-using-app-marketing-sp.md)
 ### [Use Sales Professional on the mobile app](use-sales-professional-on-dynamics-365-mobile.md)
 
+## Troubleshooting
+### [Dynamics 365 Sales Professional troubleshooting guide](troubleshooting-sp.md)
 
 ## Administrator and sales manager guide
 ### [Help resources for admins and sales managers](admin-guide.md)

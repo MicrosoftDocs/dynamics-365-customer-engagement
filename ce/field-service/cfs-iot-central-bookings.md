@@ -2,7 +2,6 @@
 title: "Send booking updates to IoT Central | MicrosoftDocs"
 ms.custom: dyn365-fieldservice
 ms.date: 09/24/2018
-ms.reviewer: 
 ms.suite: 
 ms.technology: 
   - field-service

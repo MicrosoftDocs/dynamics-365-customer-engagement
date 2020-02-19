@@ -32,6 +32,7 @@ When you extract the .zip file, you find three projects in it:
    - Creating a customer journey from an existing template record.
    - Creating a sample customer journey with a segment and email.
    - Validating and publishing the existing customer journey record.
+   - Creating [custom channel activity interaction](create-custom-channel-activity-interaction.md) from customer journey custom channel activity record.
 
 > [!NOTE]
 > You need to have access to Microsoft Dynamics 365 Marketing instance. More information: [Install Dynamics 365 Marketing](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/trial-signup).
@@ -54,6 +55,7 @@ The customer journey SDK sample shows how to:
 3. Create a new customer journey with a specific workflow design.
 4. Validate an existing customer journey record for any errors.  
 5. Publish an existing customer journey record. 
+6. Creates [custom channel activity interaction](create-custom-channel-activity-interaction.md) from customer journey custom channel activity record.
 
 ## Examples
 

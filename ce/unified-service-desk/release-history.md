@@ -3,7 +3,7 @@ title: "Release history (Unified Service Desk )| MicrosoftDocs"
 description: "This topic provides release history information for the Unified Service Desk Guide."
 ms.custom: 
   - dyn365-USD
-ms.date: 07/15/2019
+ms.date: 02/17/2020
 ms.service: 
   - dynamics-365-customerservice
 ms.topic: article
@@ -23,6 +23,26 @@ This is the release history page for the [!INCLUDE[pn_unified_service_desk](../i
 
 ::: moniker range="dynamics-usd-4.1"
 
+<a name="Release_4_1_2"></a>
+
+## Release history for Unified Service Desk 4.1.1.1397, February 2020
+
+The list provides an overview of documentation updates made in Unified Service Desk 4.1.1.1397
+
+> [!NOTE]
+> - If your organization is using any version of the Unified Service Desk 4.1 client application, then you need to uninstall that version and install the Unified Service Desk 4.1.1.1397 client application freshly, instead of upgrading to 4.1.1.1397 version.
+> - If your organization is using any version other than Unified Service Desk 4.1 client application, you can upgrade to the 4.1.1.1397 version of client application.
+
+| Topic | Updates |
+|--------------|----------------|
+| [Single sign on for Unified Service Desk](admin/connect-dynamics-365-instance-using-unified-service-desk-client.md#single-sign-on-for-unified-service-desk) | Added a new note under the single sign on support. |
+| [BrowserWindowReady](unified-interface-page-hosted-control.md#browserwindowready)| Added a new event in the Unified Interface page hosted control. |
+| [PageReady](unified-interface-page-hosted-control.md#pageready) | Added a note for the PageReady event in the Unified Interface page hosted control. |
+| [DataReady](unified-interface-page-hosted-control.md#dataready) | Added a note for the DataReady event in the Unified Interface page hosted control. |
+| [DataReady](unified-interface-page-hosted-control.md#dataready) | Added a note for the DataReady event in the Unified Interface page hosted control. |
+| [Find](unified-interface-page-hosted-control.md#find) | Added new parameters for the Find event in the Unified Interface page hosted control. |
+| [CreateSession](global-manager-hosted-control.md#createsession) | Added new parameters for the CreateSession event in the global manager hosted control. |
+
 <a name="Release_4_1_1"></a>
 
 ## Release history for Unified Service Desk 4.1.1, July 2019
@@ -31,7 +51,7 @@ The list provides an overview of documentation updates made in Unified Service D
 
 | Topic | Updates |
 |--------------|----------------|
-| [KillUSDIEProcessesOnExit](admin/manage-options-unified-service-desk.md) | Added new UII option to kill the IE Process on exit of Unified Service Desk client application. <br><br> New option in the [Mange Options in Unified Service Desk](admin/manage-options-unified-service-desk.md).|
+| [KillUSDIEProcessesOnExit](admin/manage-options-unified-service-desk.md) | Added new UII option to kill the IE Process on exit of Unified Service Desk client application. <br><br> New option in the [Manage Options in Unified Service Desk](admin/manage-options-unified-service-desk.md).|
 | [Generate Chrome Process crash report](chrome-process.md#generate-chrome-process-crash-report) | Added information about generating Chrome Process crash report. <br><br> New section in [Use Chrome process to host web applications in Unified Service Desk](chrome-process.md).  |
 | [Use window.IsUSD property to invoke Unified Service Desk event](chrome-process.md#use-windowisusd-property-to-invoke-unified-service-desk-event) | Updated information about window.IsUSD property <br><br> New section in [Use Chrome process to host web applications in Unified Service Desk](chrome-process.md).  |
 | [Download attachments in Chrome Process](chrome-process.md#download-attachments-in-chrome-process) | Added information about downloading file attachments in Chrome Process <br><br> New section in [Use Chrome process to host web applications in Unified Service Desk](chrome-process.md).  |

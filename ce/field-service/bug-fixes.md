@@ -32,6 +32,21 @@ In this article, you'll find an ongoing list of bug fixes for Dynamics 365 Field
 
 ## Dynamics 365 Field Service
 
+### Version 8.8.10.44
+
+- Agreement Booking Service Task's Name is overwritten when the related task type changes.
+- Cannot complete booking that has travel time if the Travel Charge Type on the related Work Order's Account is null.
+
+### Version 8.8.9.84
+
+- Script error when Account field is removed from the Opportunity Quick Create form.
+- On create of Account record based on Postal Code functionality, Service Territory is repeated auto-populated, even after the customer removes the initial auto-populated value.
+- Consistency issue in Field Service's Solution Health Hub rule naming when referring to SDK Message Processing Steps.
+
+### Version 8.8.8.135
+
+- Work Order plugin error for SLA KPI Instance.
+
 ### Version 8.8.8.50
 
 - Improve error messages when the user attempting an action is missing "Field Service Setting" read privilege.
@@ -70,6 +85,19 @@ To see older bug fixes, see the following links to blog posts:
 
  
 ## Field Service Mobile
+
+### Version 12.1.20
+-	App crashes when wrong url is entered on sign in screen
+-	FSM app crashes when sending logs if networkLog.txt does not exit
+-	FSM app crashes when connecting to an org without woodford
+-	FSM app crashes when click on 'password manager' from login screen
+-	App crashing on certain older Android devices (misc)
+-	MobileReport - formatting issue on Word/HTML
+-	MobileReport - contents of Word document is removed if user saves Work Order without closing active doc.
+-	Unit Amount and Unit Cost are not calculated when the offline Work Order Product created and sync backed to server
+-	Certain actions don't work under work profile on Android
+-	Conditionally displaying a URL via a shared-variable linked field does not update icon
+
 
 ### Version 12.1
 
