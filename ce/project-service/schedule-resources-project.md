@@ -28,9 +28,9 @@ You can check resource availability to get an overall view of how booked your re
   
 The schedule board shows list of resources and their availability. Select a view mode to show availability by **Hours**, **Day**, **Week**, or **Month**.  
   
-Before you use the schedule board, it’s important to set it up. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure the schedule board (Field Service or Project Service Automation)](../field-service/configure-schedule-board.md)  
+Before you use the schedule board, it’s important to set it up. For more information, see [Configure the schedule board (Field Service or Project Service Automation)](../field-service/configure-schedule-board.md).
   
-If you are using an older version, for resource availability see, [View resource availability](../project-service/view-resource-availability.md).  
+If you are using an older version, for resource availability, see [View resource availability](../project-service/view-resource-availability.md).  
 
 > [!IMPORTANT]
 >  To use the schedule board booking functionality, geocoding, and location services, you need to turn on maps.  
@@ -42,7 +42,7 @@ If you are using an older version, for resource availability see, [View resource
 > 5. Accept terms and save the record.  
 > 6. On the main menu, select **Project Service** > **Schedule board**. From here, there are several ways to manually schedule a booking requirement. Choose the method that works for you.
   
-## Right-click an unscheduled booking to find available resources
+## Find available resources
 
 1.  From the **Booking Requirement** list, right-click an unscheduled booking and choose one of the following:  
   
@@ -66,7 +66,7 @@ If you are using an older version, for resource availability see, [View resource
   
 4.  When you’re done, select **Book**.  
   
-## Drag an unscheduled booking requirement from the list view to the schedule board
+## View to the schedule board
   
 1.  Select an unscheduled booking requirement from the list at the bottom.  
   
@@ -75,4 +75,4 @@ If you are using an older version, for resource availability see, [View resource
 3.  When you're done, select **Book**.  
   
 ### Additional resources  
- [Resource manager gGuide](../project-service/resource-manager-guide.md)
+ [Resource manager guide](../project-service/resource-manager-guide.md)
