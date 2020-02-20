@@ -1,7 +1,7 @@
 ---
 title: "Connect Dynamics 365 Customer Engagement (on-premises) to Exchange Online | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/01/2018"
+ms.date: "2/20/2020"
 ms.prod: "crm-2016"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,6 +27,7 @@ This topic describes how to configure server-based authentication between Dynami
 Microsoft Dynamics 365
 - System Administrator security role.
 - If you are using a self-signed certificate for evaluation purposes, you must have local Administrators group membership on the computer where Microsoft Dynamics 365 Server is running.
+- The account that you use to sign in to the CRM deployment servers must have full local administrator rights.
 
 Exchange Online
 - Office 365 Global Administrators membership. This is required for administrative-level access to the Office 365 subscription and to run the Microsoft AzurePowerShell cmdlets.
@@ -45,7 +46,9 @@ Follow the steps in the order provided to set up Dynamics 365 (on-premises) with
 Before you configure Dynamics 365 (on-premises) and Exchange Online for server-based authentication, the following prerequisites must be met:
 - The Dynamics 365 (on-premises) deployment must already be configured and available through the Internet. More information: [Configure IFD for Microsoft Dynamics 365](configure-ifd-for-dynamics-365.md)
 - Microsoft Dynamics 365 Hybrid Connector. The Microsoft Dynamics 365 Hybrid Connector is a free connector that lets you use server-based authentication with Microsoft Dynamics 365 (on-premises) and Exchange Online. More information: [Microsoft Dynamics 365 Hybrid Connector](https://admin.microsoft.com/Signup/Signup.aspx?OfferId=2d11d538-945d-48c6-b609-a5ce54ce7b18&pc=76ac7a4d-8346-4419-959c-d3896e89b3c9)
-- An x509 digital certificate issued by a trusted certificate authority that will be used to authenticate between Dynamics 365 (on-premises) and Exchange Online. If you are evaluating server-based authentication, you can use a self-signed certificate. 
+- An x509 digital certificate issued by a trusted certificate authority that will be used to authenticate between Dynamics 365 (on-premises) and Exchange Online. If you are evaluating server-based authentication, you can use a self-signed certificate.
+- Verify that all servers that run the Asynchronous processing service have the certificate that is used for Server-to-Server authentication.
+- Verify that the account that runs the asynchronous processing service has read access for the certificate.
 
 The following software features are required to run the Windows PowerShell cmdlets described in this topic:
 - [Microsoft Online Services Sign-In Assistant for IT Professionals Beta](https://www.microsoft.com/download/details.aspx?id=39267)
@@ -54,6 +57,8 @@ The following software features are required to run the Windows PowerShell cmdle
 ### Configure server-based authentication
 1. On the Microsoft Dynamics 365 Server where the deployment tools server role is running, start the Azure Active Directory Module for Windows PowerShell.
 2. Prepare the certificate.
+
+   Change the directory to the location of the CertificateReconfiguration.ps1 file (by default it is C:\Program Files\Microsoft Dynamics CRM\Tool).
 
 ```powershell
 $CertificateScriptWithCommand = “.\CertificateReconfiguration.ps1 -certificateFile c:\Personalcertfile.pfx -password personal_certfile_password -updateCrm -certificateType S2STokenIssuer -serviceAccount contoso\CRMAsyncService -storeFindType FindBySubjectDistinguishedName”
@@ -67,8 +72,10 @@ Invoke-Expression -command $CertificateScriptWithCommand
 ```powershell
 Enable-PSRemoting -force
 New-PSSession
+Install-Module MSOnline
+Install-Module MSOnlineExt
 Import-Module MSOnline -force
-Import-Module MSOnlineExtended -force
+Import-Module MSOnlineExt -force
 ```
 
 4. Connect to Office 365.
