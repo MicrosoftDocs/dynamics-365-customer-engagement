@@ -48,7 +48,7 @@ When the customer accepts the quote, and you are ready to ship the products, you
 After you activate the quote, you can create an invoice from it. More information: [Create and manage invoices in Dynamics 365 Sales Professional](create-invoices.md)
 
 > [!NOTE]
-> In Sales Professional, the Quote-Order-Invoice functionality is simplified to generate an invoice directly from a quote. Therefore, the **Create Order** button isn't available on the Quote form. However, you can create an order by selecting **Orders** in the site map.
+> In Sales Professional, the Quote-Order-Invoice functionality is simplified to generate an invoice directly from a quote. Therefore, the **Create Order** button isn't available on the Quote form. 
 
 
 ## Create a new quote
