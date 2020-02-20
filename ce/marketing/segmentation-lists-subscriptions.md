@@ -117,12 +117,7 @@ After you have created a new segment and selected its initial type (as Described
 
 ### The Definition tab
 
-Use the **Definition** tab to establish membership of the segment. For dynamic segments, you'll get a query builder here. For static segments, you'll select specific contacts one at a time. For compound segments, you'll create logic for combining existing segments here. For more information about how to build your segment definition using this tab, see the following topics:
-
-- [Design dynamic demographic or firmographic segments](segments-profile.md)
-- [Design behavioral segments](segments-interaction.md)
-- [Define a static segment](segments-static.md)
-- [Combine segments into a compound segment](segments-compound.md)
+Use the **Definition** tab to establish membership of the segment. For dynamic segments, you'll get a query builder here. For static segments, you'll select specific contacts one at a time.
 
 ### The General tab
 
