@@ -18,6 +18,7 @@ Sales Professional trials are fully functional, but limited to 30 days. Each Sal
 
 <div class="embeddedvideo"><iframe src="https://go.microsoft.com/fwlink/?linkid=2118842" frameborder="0" allowfullscreen=""></iframe></div>
 
+
 Dynamics 365 Sales Professional is a cloud-based application that runs on a Microsoft 365 tenant*. Your tenant hosts your cloud applications (including Office 365 and Dynamics 365), provides user and license management, and more. The procedure for setting up your trial depends on whether you already have a *managed* tenant (a tenant where Azure Active Directory is available), an unmanaged tenant, or no tenant at all.
 
 - If you already have a managed tenant, you can sign up for the Dynamics 365 Sales Professional trial by following the instructions in the section [Installation steps when you belong to an existing Microsoft 365 tenant](#installation-steps-when-you-belong-to-an-existing-microsoft-365-tenant).
@@ -34,7 +35,7 @@ Dynamics 365 Sales Professional is a cloud-based application that runs on a Micr
 2. To sign up for a 30-day free trial, select **Try free**.
 
     > [!div class="mx-imgBorder"]
-    > ![Choose Free trial option on the Pricing page](media/free-trial.png "Choose Free trial option on the Pricing page")
+    > ![Choose Try free option](media/free-trial.png "Choose Try free option")
 
 3.  In the **Step up to Sales Professional** page, enter your work email address and then select **Sign up**.
 
@@ -80,7 +81,7 @@ Dynamics 365 Sales Professional is a cloud-based application that runs on a Micr
 2. To sign up for a 30-day free trial, select **Try free**.
 
     > [!div class="mx-imgBorder"]
-    > ![Choose Free trial option on the Pricing page](media/free-trial.png "Choose Free trial option on the Pricing page")
+    > ![Choose Try free option](media/free-trial.png "Choose Try free option")
 
 3.  In the **Step up to Sales Professional** page, enter your work email address and then select **Sign up**.
 
