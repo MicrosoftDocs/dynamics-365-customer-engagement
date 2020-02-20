@@ -43,10 +43,6 @@ The Dynamics 365 Marketing March 2020 update includes several feature enhancemen
 > [!Tip]
 > To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](https://docs.microsoft.com/dynamics365/marketing/apply-updates#find-out-which-version-of-dynamics-365-marketing-you-are-running).
 
-### Preview features
-
-- **Redesigned getting started page**
-
 ### General availability enhancements
 
 - **Customer journeys**
@@ -105,14 +101,14 @@ The Dynamics 365 Marketing February 2020 update includes an improved segment exp
 ### General availability enhancements
 
 - **Customer journeys**
-    - Improved handling of [publishable entities](https://docs.microsoft.com/dynamics365/marketing/go-live) in live customer journeys.
+    - Improved handling of publishable entities in live customer journeys.
 - **Marketing forms**
-    - [Lookup support](https://docs.microsoft.com/dynamics365/marketing/marketing-forms) in marketing page-hosted and externally hosted forms.
-    - [Multi-option list](https://docs.microsoft.com/dynamics365/marketing/marketing-forms) support in marketing page-hosted and externally hosted forms.
+    - Lookup support in marketing page-hosted and externally hosted forms.
+    - Multi-option list support in marketing page-hosted and externally hosted forms.
 - **Recurring events**
-    - Recurring event instances [now show a list](https://docs.microsoft.com/dynamics365/marketing/event-recurring) of other recurring events in the same series in a sub grid, simplifying navigation. Recurring event series records show a list of all events in the series. There is also a new calendar view for recurring event series records.
-    - Custom fields and publish statuses now [copy over](https://docs.microsoft.com/dynamics365/marketing/event-recurring) from recurring event series records to each recurring event instance record.
-    - Recurring events are [no longer locked down](https://docs.microsoft.com/dynamics365/marketing/event-recurring) when in the "going live" state. Now, if you would like to immediately publish your recurring series to your website, you can do so. Additionally, you can change the recurrence pattern for already created events.
+    - Recurring event instances now show a list of other recurring events in the same series in a sub grid, simplifying navigation. Recurring event series records show a list of all events in the series. There is also a new calendar view for recurring event series records.
+    - Custom fields and publish statuses now copy over from recurring event series records to each recurring event instance record.
+    - Recurring events are no longer locked down when in the "going live" state. Now, if you would like to immediately publish your recurring series to your website, you can do so. Additionally, you can change the recurrence pattern for already created events.
 - **Segment management**
     - You no longer need to create compound dynamic segments to combine behavioral and demographic data. Segments are now categorized as dynamic or static.
     - Static segments are redesigned. Static segments now handle an unlimited number of total contacts (up to 10,000 at a time) and allow rule-based addition to list members.
