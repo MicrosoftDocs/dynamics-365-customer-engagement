@@ -30,10 +30,7 @@ Some of the scenarios where you can receive notifications:
 
 - Conversation escalation from Bot
 
-## Preview: Receive notification when app is in background
-
-> [!Note]
-> This section of the topic is in pre-release documentation and subject to change.
+### Receive notification when app is in background
 
 You'll receive desktop notifications when the Omnichannel for Customer Service app is not in focus. The desktop notification helps you not to miss any conversation notification requests. Some of the scenarios, where the app is not focus are: 
 
@@ -44,13 +41,15 @@ You'll receive desktop notifications when the Omnichannel for Customer Service a
  > [!div class=mx-imgBorder]
  > ![Desktop notification](../../media/oceh/desktop-notification.png "Desktop notification")
 
-You can accept or reject by selecting a button on the desktop notification. When you accept the conversation by selecting a button on the desktop notification, then the Omnichannel for Customer Service app is made active, displayed to you, and a session is started.
+You can accept or reject by selecting a button on the desktop notification. When you accept the conversation by selecting a button on the desktop notification, the Omnichannel for Customer Service app is made active, displayed to you, and a session is started.
 
-If you select the notification message/body and not the button, then the Omnichannel for Customer Service app is made active and the notification is displayed to you in the app. Now, you can choose to accept or reject the conversation using the appropriate buttons.
+If you select the notification message/body and not the button, then the Omnichannel for Customer Service app is made active, and the notification is displayed to you in the app. Now, you can choose to accept or reject the conversation using appropriate buttons.
 
 The wait time that is configured by your administrator applies to the desktop notification, but doesn't display the wait time on the desktop notification. The desktop notification theme is based on Windows operating system theme and settings.
 
-To get the desktop notification, you need to allow browser (Microsoft Edge and Google Chrome) notification.
+#### Allow browser to show notification
+
+To get the desktop notification, you need to allow the browser (Microsoft Edge and Google Chrome) to shown notification. When agent get the browser notification, they need to select the **Allow** button.
 
  > [!div class=mx-imgBorder]
  > ![Allow desktop notification](../../media/oceh/allow-desktop-notification.png "Allow desktop notification")
