@@ -16,8 +16,9 @@ With Microsoft Dynamics 365 Sales Professional, you can streamline your sales pr
 
 Sales Professional trials are fully functional, but limited to 30 days. Each Sales Professional trial comes preinstalled on a dedicated trial instance. You can't install a Sales Professional trial on an existing instance.
 
+<br>
 <div class="embeddedvideo"><iframe src="https://go.microsoft.com/fwlink/?linkid=2118842" frameborder="0" allowfullscreen=""></iframe></div>
-
+<br>
 
 Dynamics 365 Sales Professional is a cloud-based application that runs on a Microsoft 365 tenant*. Your tenant hosts your cloud applications (including Office 365 and Dynamics 365), provides user and license management, and more. The procedure for setting up your trial depends on whether you already have a *managed* tenant (a tenant where Azure Active Directory is available), an unmanaged tenant, or no tenant at all.
 
