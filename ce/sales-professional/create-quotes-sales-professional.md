@@ -73,6 +73,8 @@ When the customer accepts the quote, and you are ready to ship the products, you
 
 9.  When your quote is ready to send to your customer, select **Activate Quote** at the top of the screen.
 
+In Sales Professional, the Quote-Order-Invoice functionality is simplified to generate an invoice directly from a quote. Therefore, the **Create Order** button isn't available on the Quote form. However, you can create an order by selecting **Orders** in the site map.
+
 ## Email a quote
 
 When you’ve added all the details to the quote, you can send it to the customer. To directly send an email to a customer with a quote attached, open the quote, and on the command bar, select **Email as PDF**. [!INCLUDE[proc-more-information-md](../includes/proc-more-information-md.md)] [Email a quote PDF](create-quote-pdf-sales-professional.md#email-as-a-pdf-document)
