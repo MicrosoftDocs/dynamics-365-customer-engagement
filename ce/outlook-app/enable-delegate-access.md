@@ -30,10 +30,9 @@ Set up delegate access in Outlook to give someone permission to act on your beha
 Prerequisites
 
 - Exchange Online and Microsoft Outlook builds 16.0.12130.20272 or later. You can check the [update page for Office](https://docs.microsoft.com/en-us/officeupdates/update-history-office365-proplus-by-date) to identify which channel you need to be on for this version.
-- Configure delegate access in Microsoft Outlook. For more information, see [Allow someone else to manage your mail and calendar](https://support.office.com/article/allow-someone-else-to-manage-your-mail-and-calendar-41c40c04-3bd1-4d22-963a-28eafec25926).  
-- Both manager and delegate user need to be set up to use Dynamics 365 App for Outlook. For more information, see [Deploy Dynamics 365 App for Outlook](deploy-dynamics-365-app-for-outlook.md). At the minimum, the delegated user is provided 'Editor' permissions.
+- Configure delegate access in Microsoft Outlook. For more information, see [Allow someone else to manage your mail and calendar](https://support.office.com/article/allow-someone-else-to-manage-your-mail-and-calendar-41c40c04-3bd1-4d22-963a-28eafec25926). At the minimum, the delegated user is provided 'Editor' permissions.
+- Both manager and delegate user need to be set up to use Dynamics 365 App for Outlook. For more information, see [Deploy Dynamics 365 App for Outlook](deploy-dynamics-365-app-for-outlook.md). 
 - Skype Url (https://config.edge.skype.com/) is whitelisted. For more information, see [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams). This allows feature flighting from Outlook C2R to function with shared calendars.
-- Dynamics 365 App for Outlook is configured for both the primary user and the delegated user.
 
 To enable this capability, you need to enable the **OrgDBOrgSetting** in your organization. Common Data Service apps provides the **OrgDBOrgSettings** tool that gives administrators the ability to implement specific updates that were previously reserved for registry implementations.
 
