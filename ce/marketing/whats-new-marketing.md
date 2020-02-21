@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features in Dynamics 365 Marketing | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 02/03/2020
+ms.date: 03/02/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -38,30 +38,44 @@ The Dynamics 365 Marketing March 2020 update includes several feature enhancemen
 
 | App              | GA release      |
 |------------------|-----------------|
-| Marketing        | 1.35.10058.1075 |
+| Marketing        | 1.35.10058.XXXX |
 
 > [!Tip]
 > To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](https://docs.microsoft.com/dynamics365/marketing/apply-updates#find-out-which-version-of-dynamics-365-marketing-you-are-running).
 
+### Preview feature
+
+- **Redesigned Get started page**
+    - Updated cards and tiles with a more intuitive layout.
+
 ### General availability enhancements
 
 - **Customer journeys**
-    - Custom channel name in interaction timeline
-    - Warning when stopping records (emails, forms, segments) used by customer journeys
+    - Added custom channel names in the interaction timeline.
+    - Warning dialog when stopping records (emails, forms, segments) used by customer journeys.
 - **Event management**
-    - Stop event registration
-    - Improved recurrent event behavior
+    - Added the ability to set a stop event registration date.
+    - Improved recurrent event behavior.
 - **Marketing forms**
-    - External form hosting and form capture setup UX improvements
+    - You can now whitelist allowed domains instead of whitelisting individual forms pages.
 - **Segment management**
-    - Improved date operations
+    - Improved date operations.
+    - Improved visibility for Export to Excel feature.
+    - Added drag and drop capability to the segment query builder.
 
 ### Bug fixes
 
-- **GDPR**
-    - Disable behavior tracking for consent confirmation
 - **Digital assets**
-    - Upload any file using the provided access token
+    - Disabled ability to upload file types with mismatched file extension.
+- **Entitlement**
+    - Resolved issue where users were sometimes unable to re-install a new Marketing instance even after an entitlement was freed.
+- **GDPR**
+    - Disabled behavior tracking for consent confirmation.
+- **Marketing list**
+    - Resolved issue where the delete button was sometimes not functional in the web client.
+- **Segment management**
+    - Resolved issues where members of static segments did not import correctly from Customer Insights.
+    - Fixed an issue where a "Business process error" could result after a successful first run experience in a disconnected org.
 
 ## February 2020 update
 
