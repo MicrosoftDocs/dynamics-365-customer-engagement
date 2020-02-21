@@ -74,9 +74,11 @@ You can also use [this tool](https://github.com/seanmcne/OrgDbOrgSettings/releas
 
 # Frequently asked questions
 **Are shared folders supported as part of this feature?**
+
 Shared folders are not supported as part of this feature. To understand the difference between shared folders and delegate access, “add link here” 
  
 **Is this supported on MSI version of Outlook?**
+
 We do not have plans to roll out the feature to MSI version of Outlook. It is only available for listed supported version of Outlook C2R 
 
 For more information on how to use delegate access see, [Use delegate access](dynamics-365-app-outlook-user-s-guide.md#use-delegate-access).
