@@ -194,7 +194,6 @@
 #### [Marketing on LinkedIn with Dynamics 365](linkedin-overview.md)
 #### [LinkedIn Lead Gen integration](LinkedIn-Lead-Gen-integration.md)
 #### [Schedule and post messages on social media](social-posting.md)
-#### [Get social-listening insights](social-listening.md)
 
 ### [Register link clicks and website visits](register-engagement.md)
 ### [Work with marketing calendars](marketing-calendar.md)
