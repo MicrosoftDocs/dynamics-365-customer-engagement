@@ -45,6 +45,11 @@ The Dynamics 365 Marketing March 2020 update includes several feature enhancemen
 
 ### Preview feature
 
+> [!IMPORTANT]
+> This is a preview feature. A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
+>
+> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate supplemental terms of use.
+
 - **Redesigned Get started page**
     - Updated cards and tiles with a more intuitive layout.
 
