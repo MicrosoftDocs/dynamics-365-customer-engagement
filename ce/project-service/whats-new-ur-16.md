@@ -67,7 +67,7 @@ update. For more information, see [Install, Update a Preferred Solution](https:/
     -   Fixed: Additional validation has been added to an estimate line’s
         **Amount** field to ensure that null values are not persisted.
 
-    -   Fixed: [PSA 3.x] When actuals have been updated on a project, a
+    -   Fixed: When actuals have been updated on a project, a
         refresh button has been added to the project main form to allow users to
         re-sync the actuals.
 
