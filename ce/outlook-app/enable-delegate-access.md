@@ -36,9 +36,9 @@ Prerequisites
 
 To enable this capability, you need to enable the **OrgDBOrgSetting** in your organization. Common Data Service apps provides the **OrgDBOrgSettings** tool that gives administrators the ability to implement specific updates that were previously reserved for registry implementations.
 
-Follow the instructions in [this article](https://support.microsoft.com/en-us/help/2691237/orgdborgsettings-tool-for-microsoft-dynamics-crm) for steps to extract the tool. After extracting the tool, enable the **OrgDBOrgSettin TrackAppointmentsFromNonOrganizer**.
+Follow the instructions in [this article](https://support.microsoft.com/en-us/help/2691237/orgdborgsettings-tool-for-microsoft-dynamics-crm) for steps to extract the tool. After extracting the tool, enable the **OrgDBOrgSettings TrackAppointmentsFromNonOrganizer** and **DelegateAccessEnabled**.
 
-You can also use [this tool](https://github.com/seanmcne/OrgDbOrgSettings/releases/) to edit the **OrgDBOrgSetting TrackAppointmentsFromNonOrganizer**.
+You can also use [this tool](https://github.com/seanmcne/OrgDbOrgSettings/releases/) to edit the **OrgDBOrgSettings TrackAppointmentsFromNonOrganizer** and **DelegateAccessEnabled**.
 
 1.	Sign in as an admin to Dynamics 365 at [https://home.dynamics.com](https://home.dynamics.com).
 2.	On the home page, go to **Settings** > **Advanced Settings**.
