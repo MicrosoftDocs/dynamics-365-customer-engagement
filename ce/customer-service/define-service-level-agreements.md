@@ -457,7 +457,7 @@ When the SLA is applied again, all the SLA items are evaluated based on the upda
 > [!NOTE]
 >  You can only have one SLA running on one record. When an entity record is updated by using a different SLA, the previously applied SLA is canceled.  
 
-## Apply SLAs on demand
+## Apply SLAs on demand<a name="apply-sla-on-demand"></a>
 
 With the enhancements made to SLAs<!--note from editor: Is this applicable now, or should it be labeled "pre-release" or "coming soon"? Sorry if this is an ignorant question; I'm kind of hazy on which features are available/going to be available, and when.-->, you can now apply SLAs to records manually. You can also automatically apply SLAs to records based on your business logic by using workflows or custom plug-ins<!--from editor: As noted above, maybe this should this be "add-ins"? Style Guide defines a plug-in as "a component that permits a specific browser to recognize and support the file format of an object embedded in an HTML document."-->.  
 
