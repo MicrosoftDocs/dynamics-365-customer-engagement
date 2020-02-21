@@ -43,7 +43,7 @@ The Dynamics 365 Marketing March 2020 update includes several feature enhancemen
 > [!Tip]
 > To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](https://docs.microsoft.com/dynamics365/marketing/apply-updates#find-out-which-version-of-dynamics-365-marketing-you-are-running).
 
-### Preview feature
+### Preview features
 
 > [!IMPORTANT]
 > This is a preview feature. A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
