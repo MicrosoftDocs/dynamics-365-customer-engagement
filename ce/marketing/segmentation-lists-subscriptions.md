@@ -1,7 +1,7 @@
 ---
 title: "Create segments and lists to establish target markets (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to create segments and lists that you can use to target customer journeys and manage subscriptions in Dynamics 365 Marketing"
-ms.date: 10/04/2019
+ms.date: 02/21/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -11,7 +11,7 @@ author: alfergus
 ms.author: alfergus
 manager: shellyha
 ms.reviewer:
-topic-status: Drafting
+topic-status:
 search.audienceType: 
   - admin
   - customizer
@@ -23,16 +23,16 @@ search.app:
 
 # Working with segments
 
-Use segments to establish groups of related contacts that you can target with your customer journeys. You'll create them using the segmentation designer, which enables you to query across multiple related entities, including contacts, leads, accounts, events, marketing lists, and more. It also enables you to query the marketing-insights service to find contacts that have shown engagement with your marketing initiatives, or contacts that you may be failing to reach (due to issues such as email bounces).
+Segments let you create groups of related contacts that you can target with customer journeys. Segments are created using the segment designer. You can build segments by querying across related entities including contacts, leads, accounts, events, marketing lists, and more. You can also query the marketing-insights service to find contacts that have shown engagement with your marketing initiatives, or contacts that you may be failing to reach (due to issues such as email bounces).
 
-The segment designer resembles other querying tools found in Dynamics 365 (such as the advanced-find feature), but is often more flexible and more powerful. It's also the only tool that lets you query interaction records from the marketing-insights service.
+The segment designer resembles other querying tools found in Dynamics 365 (such as the advanced-find feature), but is more flexible and powerful. The segment designer is the only tool that lets you query interaction records from the marketing-insights service.
 
 > [!NOTE]
-> *Marketing segments* are different than *marketing lists*. More information: [Marketing segments vs. marketing lists](segments-vs-lists.md)
+> Marketing *segments* are different than marketing *lists*. More information: [Marketing segments vs. marketing lists](segments-vs-lists.md)
 
 ## Segments in Dynamics 365 Marketing
 
-A market segment is the collection of contacts that you target with a customer journey. In some cases, you'll simply target all the contacts you have, but in most cases, you'll choose who you want to target based on demographic, firmographic or behavioral data and other considerations. For example, if you're opening a new store in San Francisco, you'll probably promote the opening-day event at that store only to contacts who live near San Francisco. Or if you're running a sale on dresses, you might only send related marketing email messages to your contacts who are female. If you would like to target the contacts who have shown interest in the dresses in the past, you can narrow down segment by only targetting contacts who have opened emails related to dresses in the past. Decisions like these will typically also affect the way you communicate with the segment in terms of which channels you'll choose, what kind of graphics you'll pick, which kinds of arguments you make, and more.
+A market segment is a collection of contacts that you target with a customer journey. In some cases, you'll simply target all the contacts you have. But in most cases, you'll choose who you want to target based on demographic, firmographic, behavioral data, and other considerations. For example, if you're opening a new store in San Francisco, you'll probably promote the opening-day event at that store only to contacts who live near San Francisco. Or if you're running a sale on dresses, you might only send related marketing email messages to your contacts who are female. If you would like to target the contacts who have shown interest in the dresses in the past, you can narrow down segment by only targetting contacts who have opened emails related to dresses in the past. Decisions like these will typically also affect the way you communicate with the segment in terms of which channels you'll choose, what kind of graphics you'll pick, which kinds of arguments you make, and more.
 
 Dynamics 365 Marketing uses segments to target customer journeys. Most customer journeys start with a segment tile, which establishes the collection of contacts who will experience that journey. You can combine multiple segments here.
 
