@@ -162,11 +162,6 @@ This document provides important, late-breaking information about known issues a
 
 - Videos added to Marketing pages or emails will show up as their thumbnails on the **Preview** tab of the designer.<br><del>When you add a video to a marketing page or email, its thumbnail isn't shown on the **Preview** tab of the designer. However, the video is embedded correctly and will be shown in delivered emails and live marketing pages.</del> <!-- 1277775 -->
 
-## Social listening for campaigns
-
-- The social listening feature relies on a product called Microsoft Social Engagement, which has been discontinued. Organizations that are already using the feature can continue to do so until Jan 16, 2020, but it is no longer available to new customers. Twitter will stop being provided as a data source on Oct 1, 2019. More information: [Set up social listening and add it to any record](social-listening.md)
-- The social listening control may not show data on some Dynamics 365 instances. If you experience this issue, please [contact Microsoft Support](setup-troubleshooting.md#contact-support). <!--- This is for the UCI FCB that's required to be switched on, and requires a platform upgrade. We can also manually flip this FCB on an org by org basis by updating a DB value -->
-
 ## Designer feature protection
 
 - Designer feature protection enables admins to limit access to the HTML tab and/or Litmus previews for content designers. However, the protection only applies to users who have read access to the *Designer Feature Access* entity. Users without this read access will always be able to see the HTML and Litmus features, even if you use designer feature protection to block them. To solve this, make sure all security roles provide read access to the *Designer Feature Access* entity. If you are using the out-of-box security roles supplied with the product, then these should automatically update to include this access when you apply the October 2018 (or later) update, but if you use custom security roles you need to add this access explicitly after updating. More information: [Security roles and privileges](https://docs.microsoft.com/power-platform/admin/security-roles-privileges)
