@@ -61,3 +61,9 @@ On receiving a call, customer on the portal can the accept voice call with audio
 > ![Chat to Voice Call](../../media/call-accept.png "Chat to Voice Call")
 
 After accepting the call , customer can turn on or off the video, mute or unmute, and end the call.
+
+## Use co-browse and screen share in live chat
+
+The co-browsing and screen sharing features help you quickly and easily understand the customer's issue while communicating with the customer via chat channel. These visual engagement channels allow agents to interact with customers within their browsers for a concrete and effective support experience. This integration capability allows agents to initiate a third-party co-browse or screen sharing session from the chat conversation. 
+
+Note: Third-party providers of co-browse or screen share capabilities may have separate pricing and licensing requirements. Before enabling and using remote assistance features through third-party applications, ensure you understand the terms of using these applications. 
