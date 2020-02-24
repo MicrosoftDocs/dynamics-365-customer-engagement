@@ -90,6 +90,7 @@
 #### [Create or edit leads](../sales-enterprise/create-edit-lead-sales.md)
 #### [Qualify or convert leads](../sales-enterprise/qualify-lead-convert-opportunity-sales.md)
 #### [Create or edit opportunities](../sales-enterprise/create-edit-opportunity-sales.md)  
+#### [Work with opportunities in the Kanban view](opportunity-kanban-view.md)
 #### [Reopen leads](../sales-enterprise/re-open-lead-sales.md)
 #### [Add products to an opportunity](add-products-opportunity.md)  
 #### [Add products to an opportunity by using the enhanced experience](add-products-enhanced-experience.md)
