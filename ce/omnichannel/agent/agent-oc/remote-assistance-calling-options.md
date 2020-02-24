@@ -14,11 +14,11 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-## Make voice and video calls in live chat
+## Calling Options in live chat
 
-Make voice and video call in chat conversation feature helps you to initiate a voice or video call while communicating with the customer via chat channel. 
+Calling Options in live chat conversation feature allows you to initiate a voice or video call while communicating with the customer over a live chat.
 
-As an agent, when you communicate with a customer via chat, there is a huge exchange of information, which might increase the time you spend on resolving the customer issue. Or, the customer prefers to show and explain the issue with a physical product​. In these scenarios, you want to initiate a voice or video call while still the chat conversation is active, and resolve the issue quickly. The voice and video call option in the communication panel helps you to make a voice and video call during the chat conversation.
+As an agent, when you communicate with a customer via chat, a lot of information is exchanged. This might increase the time you spend on resolving the customer's issue. Or, the customer may prefer to show and explain the issue with a physical product​. In these scenarios, you may want to initiate a voice or video call during the chat conversation to resolve the issue quickly. The calling options in the communication panel helps you to make a voice and video call during the chat conversation.
 
 ### Advantages of voice and video call in live chat
 
@@ -47,20 +47,36 @@ When you initiate a voice call, you can view the call fly-out with buttons.
 
 ### Capacity of the agent
 
-When you initiate a voice or video call, your capacity is consumed, and you can't get any conversation request until you hang up.
+When you initiate a voice or video call, your capacity is consumed, and you can't get any conversation request until you hang up. However, your supervisor can assign conversations to you.
 
 ### Site permissions
 
-As an agent, you need to provide the camera and microphone access in the browser to make an video and audio call respectively.
+As an agent, you need to provide the camera and microphone access in the browser to make a video and audio call respectively.
 
 ## Customer experience
+
 
 On receiving a call, customer on the portal can the accept voice call with audio, accept voice with video, or reject the call.
 
 > [!div class=mx-imgBorder]
 > ![Chat to Voice Call](../../media/call-accept.png "Chat to Voice Call")
 
-After accepting the call , customer can turn on or off the video, mute or unmute, and end the call.
+After accepting the call, the customers can view and use the following options accordingly.
+
+|Button | Name | Description |
+|----------------------|-------------------------|-----------------------------|
+|![Turn on or off video](../../media/turn-on-off-video-c2.png "Turn on or off video")| Turn on video / Turn off video |  Use the button to turn on or off the video while in a call with the customer.|
+|![Mute and unmute](../../media/mute-unmute-c2.png "Mute and unmute")| Mute / Unmute | Use the button to mute or unmute the call while communicating with the customer. |
+|![End call](../../media/end-call-c2.png "End call")| End call | Use this button to end the call. |
+
+After accepting the call, customer can turn on or off the video, mute or unmute, and end the call.
+
+> [!div class=mx-imgBorder]
+> ![Chat to Voice Call](../../media/calling2.png "Chat to Voice Call")
+
+### Site permissions
+
+Customers need to provide the camera and microphone access in the browser.
 
 ## Use co-browse and screen share in live chat
 
