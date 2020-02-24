@@ -73,7 +73,7 @@ The Dynamics 365 Marketing March 2020 update includes several feature enhancemen
 - **Digital assets**
     - Disabled ability to upload file types with mismatched file extension.
 - **Entitlement**
-    - Resolved issue where users were sometimes unable to re-install a new Marketing instance even after an entitlement was freed.
+    - Resolved issue where some users were unable to re-install a Marketing instance after an entitlement was freed.
 - **GDPR**
     - Disabled behavior tracking for consent confirmation.
 - **Marketing list**
