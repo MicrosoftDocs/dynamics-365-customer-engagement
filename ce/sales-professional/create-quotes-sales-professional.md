@@ -2,10 +2,8 @@
 title: "Create and manage quotes in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Use quotes in Dynamics 365 Sales Professional to make formal offers for products with proposed prices to customers."
 ms.date: 12/12/2019
-ms.service: 
+ms.service:
   - "dynamics-365-sales"
-ms.custom: 
-  - "dyn365-sales"
 ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
@@ -47,6 +45,11 @@ When the customer accepts the quote, and you are ready to ship the products, you
 
 9.  When your quote is ready to send to your customer, select **Activate Quote** at the top of the screen.
 
+After you activate the quote, you can create an invoice from it. More information: [Create and manage invoices in Dynamics 365 Sales Professional](create-invoices.md)
+
+> [!NOTE]
+> In Sales Professional, the Quote-Order-Invoice functionality is simplified to generate an invoice directly from a quote. Therefore, the **Create Order** button isn't available on the Quote form. 
+
 
 ## Create a new quote
 
@@ -72,6 +75,7 @@ When the customer accepts the quote, and you are ready to ship the products, you
 8.  Select the **Save** button in the lower-right corner of the screen.
 
 9.  When your quote is ready to send to your customer, select **Activate Quote** at the top of the screen.
+
 
 ## Email a quote
 

@@ -2,14 +2,14 @@
 title: "Perform initial configurations (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: dyn365-fieldservice
 ms.date: 10/31/2018
-ms.reviewer: 
+ms.reviewer: krbjoran
 ms.suite: 
 ms.technology: 
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: activate-fs-mobile-app-license
-author: krbjoran
-ms.author: FieldServiceDave
+author: FieldServiceDave
+ms.author: daclar
 ms.manager: shellyhaverkamp
 search.audienceType: 
   - admin

@@ -4,8 +4,8 @@ ms.date: 06/07/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 ms.assetid: 78dc5157-cf1d-4e32-ace7-9e71763e7510
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: annbe
 search.audienceType: 
   - admin
@@ -161,11 +161,6 @@ This document provides important, late-breaking information about known issues a
 ### Fixed issues
 
 - Videos added to Marketing pages or emails will show up as their thumbnails on the **Preview** tab of the designer.<br><del>When you add a video to a marketing page or email, its thumbnail isn't shown on the **Preview** tab of the designer. However, the video is embedded correctly and will be shown in delivered emails and live marketing pages.</del> <!-- 1277775 -->
-
-## Social listening for campaigns
-
-- The social listening feature relies on a product called Microsoft Social Engagement, which has been discontinued. Organizations that are already using the feature can continue to do so until Jan 16, 2020, but it is no longer available to new customers. Twitter will stop being provided as a data source on Oct 1, 2019. More information: [Set up social listening and add it to any record](social-listening.md)
-- The social listening control may not show data on some Dynamics 365 instances. If you experience this issue, please [contact Microsoft Support](setup-troubleshooting.md#contact-support). <!--- This is for the UCI FCB that's required to be switched on, and requires a platform upgrade. We can also manually flip this FCB on an org by org basis by updating a DB value -->
 
 ## Designer feature protection
 
