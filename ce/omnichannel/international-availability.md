@@ -1,6 +1,6 @@
 ---
 title: "International availability of Omnichannel for Customer Service | MicrosoftDocs"
-description: 
+description: "Learn about the international availability of Omnichannel for Customer Service. This topic explains the language and geographic availability."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -38,8 +38,6 @@ Omnichannel for Customer Service January 2020 update is available in the followi
 
 
 ## Language availability
-
-### January 2020 update
 
 | | |
 |----------------|------------------|
