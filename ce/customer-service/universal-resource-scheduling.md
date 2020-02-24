@@ -240,8 +240,9 @@ Other possible scenarios that could leverage these APIs are:  
 
 - The post [How to use Resource Scheduling’s Search Resource Availability API](https://cloudblogs.microsoft.com/dynamics365/it/2019/07/15/how-to-use-resource-schedulings-search-resource-availability-api/) appeared first on [Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365).   
 
-### Sample C# code snippet
-   
+### Sample code snippet
+
+```csharp
 void Main()<BR>  
 {<BR>   
 // Authentication<BR>   
@@ -297,6 +298,7 @@ req["ResourceAssignment"] = resourceAssignment;<BR>  
 
 var response = osm.GetProxy().Execute(req);<BR> 
 }<BR>  
+```
 
 ## How to migrate from legacy API to URS API 
 
@@ -356,6 +358,7 @@ This section adds more details on API mapping from legacy to the new URS API exp
 
 ### URS API Code for the above scenario. 
 
+```csharp
 void searchRequirementgroup(Microsoft.Pfe.Xrm.OrganizationServiceManager osm)<BR>
 { <BR>
 var req = new Microsoft.Xrm.Sdk.OrganizationRequest() <BR>
@@ -384,6 +387,7 @@ RequestName = "msdyn_SearchResourceAvailabilityForRequirementGroup"<BR>
   response.ToString();<BR> 
   response.Dump();<BR>
 } 	 
+```
 
 ## Scenario 2: Legacy setup screen shot for reference 
 
@@ -405,6 +409,8 @@ RequestName = "msdyn_SearchResourceAvailabilityForRequirementGroup"<BR>
 5. Verify that search results are return as per the site selected in the search criteria. 
 
 ### New URS API Code for the above scenario
+
+```csharp
 void searchRequirementgroup(Microsoft.Pfe.Xrm.OrganizationServiceManager osm)<BR>
 {<BR>
   var req = new Microsoft.Xrm.Sdk.OrganizationRequest()<BR>
@@ -433,6 +439,7 @@ response.ToString();<BR>
 response.Dump();<BR>
 <BR>
 }<BR>
+```
 
 ## Scenario 3: Legacy setup screen shot for reference
 
@@ -452,6 +459,7 @@ response.Dump();<BR>
 
 ### New URS API Code for the above scenario
 
+```csharp
 void searchRequirementgroup(Microsoft.Pfe.Xrm.OrganizationServiceManager osm)<BR>
 {<BR>
 var req = new Microsoft.Xrm.Sdk.OrganizationRequest()<BR> 
@@ -477,8 +485,9 @@ var response = osm.GetProxy().Execute(req); <BR>
 response.ToString(); <BR>
 response.Dump(); <BR>
 } <BR>
+```
 
 ## See Also
-[Service Scheduling Guide](basics-service-service-scheduling.md)
 
-[Service Scheduling FAQ](service-scheduling-faq.md)
+[Service Scheduling Guide](basics-service-service-scheduling.md)<br />
+[Frequently asked questions for Service Scheduling](service-scheduling-faq.md)<br />
