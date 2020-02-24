@@ -200,7 +200,7 @@ Use the same app ID while [creating a bot user](https://docs.microsoft.com/dynam
 
 For more information, see the code sample [README](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/smart-assist-bot/README.md) file.
 
-> [!NOTE]
+> [!NEXT STEP]
 > See this administrator guide topic on how to enable smart assist: [Smart assist for agents](../../administrator/smart-assist.md). It provides instructions on how to create a bot user, how to add a smart assist bot to a workstream and how to enable a productivity pane.
 
 ## See also
