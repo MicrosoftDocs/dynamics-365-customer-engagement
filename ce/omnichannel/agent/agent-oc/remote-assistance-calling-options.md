@@ -55,7 +55,6 @@ As an agent, you need to provide the camera and microphone access in the browser
 
 ## Customer experience
 
-
 On receiving a call, customer on the portal can the accept voice call with audio, accept voice with video, or reject the call.
 
 > [!div class=mx-imgBorder]
