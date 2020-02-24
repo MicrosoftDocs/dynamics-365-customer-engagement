@@ -9,8 +9,8 @@ ms.custom:
   - dyn365-marketing
 ms.topic: article
 ms.assetid: bbe53dc0-8d10-15f0-b970-8f6f252da6e4
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -81,7 +81,9 @@ To find and apply available updates to all core Marketing solutions, including t
 2. Select the **Applications** tab to see a list of applications you have installed.  
     ![Open the Applications tab](media/update-app-tab.png "Open the Applications tab")
 
-    The list shows a row marked **Dynamics 365 Marketing Application** for each entitlement (license) you have for Dynamics 365 Marketing. Free entitlements (which can't be updated) show a **Status** of **Not configured**. Installed entitlements show a **Status** of **Configured** and include the name of the instance where they are installed as part of their application name.
+    The list shows a row for each entitlement (license) you have for Dynamics 365 Marketing and other apps. Unused Marketing entitlements (which can't be updated) show a **Status** of **Not configured**. Used Marketing entitlements show a **Status** of **Configured** and include the name of the instance where they are installed as part of their application name. You may have more than one type of application available, so be sure to pick the type that matches the instance your are updating. Both types of applications present the same setup wizard, as described in this procedure. They are identified as follows:
+    - **Dynamics 365 Marketing Application**: This is a full Dynamics 35 Marketing application, including both solutions and services. It is intended for production use, but can also be used during development and testing.
+    - **Dynamics 365 Marketing - Solution Only**: This application provides the Dynamics 365 Marketing solutions, including all database entities, but not the services, which means that marketing capabilities aren't available. It provides limited functionality but can be installed on as many test or development instances as needed for no additional charge. More information: [How Marketing is licensed](purchase-setup.md#how-licensed).
 
 3. Select the configured Marketing entitlement that you want to update and then select the **Manage** button ![The Manage button](media/update-manage-button.png "The Manage button") in the side panel. 
 

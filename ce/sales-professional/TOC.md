@@ -2,13 +2,24 @@
 ## [Help resources for Dynamics 365 Sales Professional](help-hub.md)
 
 ## [What's new](whats-new.md)
+## [Sign up for free trial of Dynamics 365 Sales Professional](try-dynamics365-sales-professional.md) 
 ## Get started
 ### [Overview](sales-professional-overview.md)
-### [Learn the basics](learn-basics-sales-professional.md)
+### [Get started with the basics](learn-basics-sales-professional.md)
 ### [Use lookup fields on forms](use-lookup-fields-forms.md)
 ### [Work with views (lists)](work-with-views.md)
 ### [Manage your customers](manage-accounts-contacts.md)
 ### [Manage tasks, appointments, email, or phone calls](manage-activities.md)
+### [Send email using the enhanced email experience](enhanced-email-sp.md)
+### [Work with activities in the Kanban view](activity-kanban-view-sp.md)
+### [Learning Catalog](learning-catalog.md)
+#### [Business Decision Maker](learning-bdm.md)
+#### [Business User](learning-bus-user.md)
+#### [Implementation Project Manager](learning-project-manager.md)
+#### [Administrator](learning-administrator.md)
+#### [Developer](learning-developer.md)
+#### [Functional Consultant](learning-functional-consultant.md)
+#### [Partner Sales and Marketing](learning-sales.md)
 
 ## User guide
 ### [Help resources for sales people](user-guide.md)
@@ -16,6 +27,7 @@
 #### [Create and manage leads](manage-leads-sales-professional.md)
 #### [Create or edit opportunities](manage-opportunities-sales-professional.md)
 #### [Add products to an opportunity](add-products-opportunity-sp.md)
+#### [Work with opportunities in the Kanban view](opportunity-kanban-view-sp.md)
 ### Understand sales transactions
 #### [Understand sales transactions](understanding-sales-transactions-sales-professional.md)
 #### [Create and manage quotes](create-quotes-sales-professional.md)
@@ -39,6 +51,10 @@
 #### [Create or edit a campaign](create-edit-campaign-using-app-marketing-sp.md)
 #### [Add an activity to a campaign](add-activity-campaign-using-app-marketing-sp.md)
 #### [Track a marketing campaign response](track-marketing-campaign-response-using-app-marketing-sp.md)
+### [Use Sales Professional on the mobile app](use-sales-professional-on-dynamics-365-mobile.md)
+
+## Troubleshooting
+### [Dynamics 365 Sales Professional troubleshooting guide](troubleshooting-sp.md)
 
 ## Administrator and sales manager guide
 ### [Help resources for admins and sales managers](admin-guide.md)
@@ -59,9 +75,14 @@
 #### [Enable automatic generation of quotes and invoices](enable-automatic-generation-quotes-invoices.md)
 #### [Export data or template](export-data.md)
 #### [Enable or disable PDF generation from sales records](enable-pdf-generation-quote-sales-professional.md)
-### [Enable customization of the Opportunity Close form](enable-opportunity-close-customization-sales-professional.md)
-### [Make price list optional](make-price-list-optional-sp.md)
-### [Define lead qualification experience](define-lead-qualification-experience-sp.md)
+
+
+### Other settings
+#### [Enable customization of the Opportunity Close form](enable-opportunity-close-customization-sales-professional.md)
+#### [Make price list optional](make-price-list-optional-sp.md)
+#### [Define lead qualification experience](define-lead-qualification-experience-sp.md)
+#### [Set up enhanced email](set-up-enhanced-email-sp.md)
+#### [Add the Kanban control to Opportunity or Activity entities](add-kanban-control-sp.md)
 
 ## Customizer guide
 ### [Customize forms](customize-forms.md)
@@ -77,3 +98,4 @@
 
 # Dynamics 365 Sales (Enterprise)
 ## [Help resources for Dynamics 365 Sales (Enterprise)](../sales-enterprise/help-hub.md)
+

@@ -1,14 +1,12 @@
 ---
 title: "Close opportunities as won or lost (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Close the opportunity to indicate whether it was won or lost."
-keywords: ""
 ms.date: 10/01/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: 4819339f-0a85-eb39-d246-01a5af35d949
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
@@ -56,6 +54,7 @@ If your customer has accepted your proposal, congratulations! However, whether y
     > [!IMPORTANT]
     > If your system administrator has enabled custom fields on the Opportunity Close form, you may be required to fill in data in other fields as defined by your organization. 
 
+When you close an opportunity record, all the information that you enter is available in the associated Opportunity Close record. To see the associated Opportunity Close records, on the **Related** tab, select **Activities**. Then, on the **Activities** tab, open the **Closed Activity Associated View**. 
 
 For information on how to resolve the common errors that you may see while closing an opportunity, see the [troubleshooting guide](troubleshooting.md).
 

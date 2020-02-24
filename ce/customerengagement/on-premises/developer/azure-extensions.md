@@ -56,4 +56,4 @@ search.app:
   
  [Microsoft Azure Platform Developer Center](https://msdn.microsoft.com/azure/default.aspx)  
   
- [Microsoft Azure Service Bus](http://www.windowsazure.com/develop/net/fundamentals/hybrid-solutions/)
+ [Microsoft Azure Service Bus](https://www.windowsazure.com/develop/net/fundamentals/hybrid-solutions/)

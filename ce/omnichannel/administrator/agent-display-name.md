@@ -1,8 +1,8 @@
 ---
 title: "Configure agent display name for a chat widget | MicrosoftDocs"
 description: "Instructions to configure agent display name for a chat widget in Omnichannel for Customer Service."
-author: sbmjais
-ms.author: shjais
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ms.date: 10/01/2019
 ms.service: 

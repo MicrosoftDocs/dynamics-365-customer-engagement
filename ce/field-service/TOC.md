@@ -3,7 +3,9 @@
 # [New and upcoming features](new-upcoming.md)
 # [Getting started with Field Service](user-guide.md)
 
-# [Field Service installation (web + mobile)](install-field-service.md)
+# Installation + upgrade
+## [Field Service installation (web + mobile)](install-field-service.md)
+## [Upgrade Field Service](upgrade-field-service.md)
 
 # Administration
 ## [Work order process architecture](field-service-architecture.md)
@@ -39,6 +41,7 @@
 ## [Characteristics](set-up-characteristics.md)
 ## [Resource pay types](set-up-resource-pay-types.md)
 ## [Submit and approve time-off requests](submit-approve-time-off-requests.md)
+## [Time entry](field-service-time-entry.md)
 
 # Scheduling
 ## [Universal Resource Scheduling for Field Service](universal-resource-scheduling-for-field-service.md)
@@ -50,18 +53,22 @@
 ### [Enable an entity for scheduling](schedule-new-entity.md)
 ### [Geocoding for travel time](turn-on-auto-geocoding.md)
 ### [Booking statuses](set-up-booking-statuses.md)
+### [Timestamps](booking-timestamps.md)
 ### [Fulfillment preferences](set-up-time-groups.md)
 ### [Booking rules](set-up-booking-rules.md)
+### [Analytics dashboard](scheduling-analytics-reports.md)
 
 ## Scheduling
 ### [Travel time and distance](schedule-with-travel-time.md)
+### [Time constraints](schedule-time-constraints.md)
+### [Resource preferences](resource-preferences.md)
 ### [Quick scheduling](quick-scheduling.md)
 ### [Multi-resource scheduling](multi-resource-scheduling-requirement-groups.md)
 ### [Multi-day scheduling](schedule-multi-day-work.md)
 ### [Resource crew scheduling](resource-crews.md)
 ### [Resource pools](resource-pools.md)
 ### [Facility scheduling](facility-scheduling.md)
-### [Time constraints](schedule-time-constraints.md)
+
 
 
 ## Schedule board 
@@ -81,7 +88,9 @@
 ## [Activate mobile configurator](activate-fs-mobile-app-license.md)
 ## [Upgrade the mobile project template](mobile-upgrade-project.md)
 ## [Push notifications](mobile-push-notifications.md)
+## [Device and app management with Microsoft Intune](field-service-mobile-intune.md)
 ## [Geofencing](geofencing.md)
+## [Deep linking](mobile-deeplink.md)
 ## FAQs + troubleshooting
 ### [Frequently asked questions](mobile-faq.md)
 ### Troubleshooting topics
@@ -99,38 +108,33 @@
 ## [Entitlements](work-order-entitlements.md)
 
 # Assets, inventory, and purchasing
-## Customer assets
-### [Asset management](configure-set-up-customer-assets.md)
-### [3D models](3D-viewer.md)
-## Inventory
-### [Warehouse](create-warehouse.md)
-###  [View product inventory](view-product-inventory.md)
-###  [Create an inventory transfer](create-inventory-transfer.md)
-###  [Create an inventory adjustment](create-inventory-adjustment.md)
-###  [Manual inventory journals](manual-inventory-journals.md)
-###  [Process a return](process-return.md)
-###  [Return product to vendor](create-return-vendor.md)
-### [RMA sub-status](create-rma-sub-status.md)
-### [RTV sub-statuses](set-up-rtv-sub-statuses.md)
-### [Ship via](create-ship-via.md)
-## Purchasing
-### [Create a purchase order](create-purchase-order.md)
-### [Purchase order sub-statuses](set-up-purchase-order-sub-statuses.md)
-### [Payment terms](set-up-payment-terms.md)
+## [Overview](inventory-purchasing-returns-overview.md)
+## [Customer assets](configure-set-up-customer-assets.md)
+## [3D asset models](3D-viewer.md)
+## [Warehouses](create-warehouse.md)
+## [Create a purchase order](create-purchase-order.md)
+## [Process a return](process-return.md)
+## [Manual inventory journals](manual-inventory-journals.md)
 
-# Resource Scheduling Optimization (RSO) add-in
+# Resource scheduling optimization add-in
 ## [Overview](rso-overview.md)
-## [Get RSO](rso-get-install.md)
+## [Get resource scheduling optimization](rso-get-install.md)
 ## [Quickstart](rso-quickstart.md)
 ## [Deployment](rso-deployment.md)
-## [Configuration](rso-configuration.md)
+## [Configuration and setup](rso-configuration.md)
+## [Scopes](rso-optimization-scope.md)
+## [Goals](rso-optimization-goal.md)
+## [Schedules](rso-optimization-schedule.md)
+## [Publishing](rso-schedule-optimization.md)
+## [Lock options for bookings](booking-lock-options.md)
+## [Resolving conflicts for bookings](rso-handling-resolving-booking-conflicts.md)
 ## [Set up a proof of concept](rso-proof-concept.md)
-## Running RSO
+## [Schedule in sequence](rso-requirement-dependency.md)
+## Running resource scheduling optimization
 ### [Publishing + monitoring](rso-schedule-optimization.md)
 ### [Overnight scheduling](rso-overnight-scheduling.md)
 ### [Single resource optimization](single-resource-optimization.md)
-### [Booking lock options](booking-lock-options.md)
-### [Resolving booking conflicts](rso-handling-resolving-booking-conflicts.md)
+## [Analytics dashboard](scheduling-analytics-reports.md)
 ## [FAQs + troubleshooting](rso-faq.md)
 
 # Connected Field Service (IoT) add-in
@@ -154,7 +158,9 @@
 ### [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
 ### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
 ## [Security roles for Connected Field Service](cfs-security-roles.md)
+
 # Integrations
+## [Dynamics 365 Supply Chain Management](supply-chain-field-service-integration.md)
 ## [Dynamics 365 Remote Assist and HoloLens](remote-assist-hololens.md)
 ## [Dynamics 365 Guides on HoloLens](mixed-reality-guides-integration.md)
 ## [SAP integration](field-service-sap-integration.md)
@@ -166,4 +172,3 @@
 
 # [Troubleshoot with Solution Health Hub](troubleshoot-field-service-solution-health.md)
 # [General FAQs](troubleshoot-faq.md)
-

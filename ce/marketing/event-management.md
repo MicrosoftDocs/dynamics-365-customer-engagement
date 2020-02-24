@@ -8,8 +8,8 @@ ms.custom:
   - dyn365-marketing
 ms.topic: article
 ms.assetid: 30bb10ad-0dc4-4fce-ae5a-8c1917c7da0c
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 search.audienceType: 
@@ -46,4 +46,4 @@ To create, view, and edit your events and all event-related records, go to the *
 
 Use other parts of the **Events** work area to work with specific record types that relate to event planning, such as logistics, sessions, attendees, sponsors, and more. Depending on what you are doing at the time, you might access these types of records when working in the parent event record, or you could go to the area dedicated to a specific record type to work with that type of record only, or work across events.
 
-After your event, session, track, speaker, and pass records are all in place for an event, you are ready to publish it on the event website, where attendees can read about the event and register for it. Open an event record and change its **Publish status** to **Live** to publish it on the event website.
+After your event, session, track, speaker, and pass records are all in place for an event, you are ready to publish it on the event website, where attendees can read about the event and register for it. You must also publish each related session and track that you want to show on the website for each event. More information: [Publish events, sessions, tracks, and related records to the website](set-up-event-portal.md#publish-event)

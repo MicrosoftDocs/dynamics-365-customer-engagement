@@ -102,7 +102,7 @@ To set up [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-f
 > 
 >  If the wizard doesn’t start automatically, you can start it as follows: On the Start screen, click **Configuration Wizard** or on earlier versions of Windows click **Start** > **All Programs** > **Microsoft Dynamics 365 apps**, and then click **Configuration Wizard**. Alternatively, click **Configure Microsoft Dynamics 365 for Outlook** on the **Dynamics 365 apps** tab in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)].  
 > 
->  If you encounter an issue configuring [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] with your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] organization, use the [Microsoft Dynamics CRM for Outlook Configuration Diagnostic](http://aka.ms/crmocpub) to fix the issue. You’ll need to sign in to the diagnostics tool with your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] credentials.  
+>  If you encounter an issue configuring [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] with your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] organization, use the [Microsoft Dynamics CRM for Outlook Configuration Diagnostic](https://aka.ms/crmocpub) to fix the issue. You’ll need to sign in to the diagnostics tool with your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] credentials.  
 
 1. To add an organization, choose one of the following:
 
@@ -120,7 +120,7 @@ To set up [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-f
 
 <a name="BKMK_OAuth"></a>   
 ## Enable multi-factor authentication through OAuth  
- In the [!INCLUDE[pn_Outlook_Config_Wiz_long](../../includes/pn-outlook-config-wiz-long.md)], System Administrators can enable multi-factor authentication through the OAuth 2.0 Framework. [OAuth 2.0](http://oauth.net/) is an open framework for authorization that lets users provide access tokens, instead of credentials, to access data hosted by a given service provider (such as Dynamics 365 apps). Using MFA can help make client authentication more secure, especially for mobile users. Dynamics 365 apps  versions of [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] can take advantage of MFA.. [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] automatically uses OAuth.  
+ In the [!INCLUDE[pn_Outlook_Config_Wiz_long](../../includes/pn-outlook-config-wiz-long.md)], System Administrators can enable multi-factor authentication through the OAuth 2.0 Framework. [OAuth 2.0](https://oauth.net/) is an open framework for authorization that lets users provide access tokens, instead of credentials, to access data hosted by a given service provider (such as Dynamics 365 apps). Using MFA can help make client authentication more secure, especially for mobile users. Dynamics 365 apps  versions of [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] can take advantage of MFA.. [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] automatically uses OAuth.  
 
  If you have upgraded your authentication server to use OAuth **prior** to installing Dynamics 365 for Outlook, Dynamics 365 for Outlook will automatically check for and use OAuth for MFA. Users will see the OAuth sign-in form the first time they use Dynamics 365 for Outlook.
 

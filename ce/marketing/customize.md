@@ -9,8 +9,8 @@ ms.custom:
   - dyn365-marketing
 ms.topic: article
 ms.assetid: a615251f-ce0e-45cf-8e73-3dc74657982a
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -44,6 +44,10 @@ For details about customizations that apply only to the Marketing app (but not o
 
 - [Create and customize marketing calendars](customize-marketing-calendars.md)
 - [Create and customize template labels](customize-template-labels.md)
+
+## Don't remove status-reason values used by go-live functionality
+
+Entities that include [go-live functionality](go-live.md) provide a **Status reason** field that tracks the go-live status of each record. The field is an option set that must include the following values: **Draft**, **Live**, **Stopped**, "**Live, editable**", **Error**, **Going live**, and "**Stopping...**". Be sure not to delete any of these standard values. If you do, the entity will no longer be able to go live.
 
 ## Create a custom app that includes Marketing solutions
 

@@ -1,14 +1,12 @@
 ---
 title: "Set up product bundles to sell multiple items together (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Combine products in a bundle in Dynamics 365 Sales to sell multiple items together."
-keywords: ""
 ms.date: 10/01/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: get-started-article
-ms.assetid: 16c9fe42-db96-8e29-d0c1-8808f74ede11
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
@@ -16,22 +14,19 @@ manager: annbe
 
 # Set up product bundles to sell multiple items together (Sales and Sales Hub)
 
-Encourage customers to buy more products instead of a single product by combining products in a bundle.   
-  
-These are the differences between kits and bundles:  
-  
-- You can't sell the products in a kit individually or separately, but you can mark certain products in a bundle as optional and sell them individually.  
-  
-- You can't see individual products added in a kit when you create an opportunity or order, but you can see the products in a bundle.  
-  
-- You can create nested kits (kits within a kit), but you can only add products to a bundle; you cannot add product families, kits, or other bundles to a bundle.  
+Encourage customers to buy more products instead of a single product by combining products in a bundle.  
 
-Similar to a kit, a bundle is a collection of products that is sold as single unit. Product bundling is useful in cases like:  
+A bundle is a collection of products that is sold as single unit. Product bundling is useful in cases like:  
   
 - Pairing a top-selling product with a less popular product  
   
-- Grouping products in a way that customers get more benefit from the full line of products, for example, Microsoft Office Suite or a digital camera with lenses)
+- Grouping products in a way that customers get more benefit from the full line of products, for example, Microsoft Office Suite or a digital camera with lenses
 
+Here are some things to know about bundles:  
+  
+- You can mark certain products in a bundle as optional and sell them individually.  
+  
+- You can't add product families, kits, or other bundles to a bundle.  
 
 ## Create a product bundle (Sales Hub)
 
@@ -153,7 +148,7 @@ Typically, the pricing of products in bundles is different than the individual p
   
 10. To change properties of an individual product in the bundle, select **Customize** corresponding to the product, and change the values, as required.  
 
-    If you've added this bundle to a family, the bundle will inherit the properites from its parent family. 
+    If you've added this bundle to a family, the bundle will inherit the properties from its parent family. 
 
 11. To change the bundle's property, open the property, and select **Override**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
   

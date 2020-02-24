@@ -25,12 +25,22 @@ A crew consists of a crew resource. The crew resource serves as a container for 
 
 To create a crew resource, navigate to **Universal Resource Scheduling > Resources > +New** and set the resource type to **Crew**.
 
-Assign a **Name**.
+On the **General** tab, assign a **Name**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Bookable Resource with Resource Type set to Crew](../../common-scheduler/media/scheduling-crew-header.png)
 
-Set the **Start and End Locations**.
+You can also assign a **Crew Strategy.** Crew strategy determines how the crew manages its work. There are 3 options:
+
+- **Cascade and Accept Cascade Completely**: All resources on a crew can manage all the work. This is useful when a crew is made up of one user and the rest of the crew is equipment.
+- **Crew Leader Management**: A designated person (or persons) can manage the work of a crew. This is useful when a crew is made up of multiple users. You can designate more than one person to be a leader and manage the work.
+- **Crew Member Self-Management**: Resources can manage their own work. This is useful when a crew is made up of users who regularly work together, but may not always work together at the same place or time. Self-management also means better time capturing, which is good for organizations who bill for time spent on work. 
+
+> [!Note]
+> Crew strategies affect if and how a crew booking is rescheduled. For instance, if a crew leader's bookings are moved, then all bookings are moved.
+
+
+On the **Common** tab, set the **Start and End Locations**.
 
 Note that start and end location must be the same and can be set to either:
 
@@ -39,6 +49,7 @@ Note that start and end location must be the same and can be set to either:
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Crew Bookable Resource with Start and End Location set to Organizational Unit](../../common-scheduler/media/scheduling-crew-organizational-unit.png)
+
  
 ### 2. Add resource children to the crew
 
@@ -214,6 +225,15 @@ Additionally, the newly created requirement group is tagged with an **Auto Group
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing field "Auto Group Type" exposed on the requirement group and set to "crew" on the form. The field is hidden by default](../../common-scheduler/media/scheduling-crew-auto-grou-type.png)
+
+
+### Rescheduling crews
+
+Consider the crew strategy when rescheduling or editing crew bookings:
+
+- **Cascade and Accept Cascade Completely**: any change to the booking affects everyone's bookings.
+- **Crew Leader Management**: only the designated leader or leaders can make changes on bookings. If a leader changes a booking, everyone's booking changes. Individual team members cannot change bookings.
+- **Crew Member Self-Management**: All crew bookings are independent of one another, and bookings are not kept in sync across the crew. When the crew is scheduled, each crew member gets scheduled, but can change their own bookings regardless of others' work.
 
 
 ## Additional notes

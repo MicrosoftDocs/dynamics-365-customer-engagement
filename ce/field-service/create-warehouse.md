@@ -3,17 +3,17 @@ title: "Create a warehouse (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
-ms.reviewer: 
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.technology: 
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: 14811327-a740-4d02-815f-fc908421fbc2
 caps.latest.revision: 12
-ms.author: krbjoran
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin
@@ -64,7 +64,5 @@ Track your product inventory using a warehouse record in [!INCLUDE[pn_crm_shorte
 3.  You can specify the **Bin** and **Row** where the product resides in the warehouse. You can also render a reorder point.  
   
 ### See also  
- [View product inventory](../field-service/view-product-inventory.md)   
- [Create an inventory adjustment](../field-service/create-inventory-adjustment.md)   
- [Create an inventory transfer](../field-service/create-inventory-transfer.md)   
- [Create a product or service](../field-service/create-product-or-service.md)
+
+- [Create a product or service](../field-service/create-product-or-service.md)

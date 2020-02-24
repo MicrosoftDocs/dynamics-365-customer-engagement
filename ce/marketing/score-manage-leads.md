@@ -8,8 +8,8 @@ ms.custom:
   - dyn365-marketing
 ms.topic: article
 ms.assetid: d9a600e6-0c1c-48ac-b5dc-8b80c74e9755
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -141,7 +141,7 @@ The canvas provides an easy, graphical way to assemble your scoring rules, but i
 
 The main reason for scoring leads is to provide a way to identify your best leads and to decide when a lead should be forwarded to a salesperson for more attention. Therefore, you'll nearly always set a sales-ready threshold for each lead-scoring model. You can also set up a schedule of grades as a way to offer an interpretation of the score (such as cold, warm, or hot) as it progresses toward sales-ready.
 
-When a score reaches the sales-ready threshold, a plug-in automatically sets the sales-ready flag on the lead to *True. If a lead is scored by multiple models, the flag is set as soon as any model reaches the threshold. This triggers a workflow that automatically moves the lead to the sales-acceptance stage of the lead lifecycle. You can customize this workflow as needed.
+When a score reaches the sales-ready threshold, a plug-in automatically sets the sales-ready flag on the lead to **True**. If a lead is scored by multiple models, the flag is set as soon as any model reaches the threshold. This triggers a workflow called "Lead to Opportunity Stage Transition", which automatically moves the lead to the sales-acceptance stage of the lead lifecycle. You can customize this workflow as needed.
 
 The grades and sales-ready score apply to the entire model, regardless of how many conditions it contains. To set them, open the **Grades** tab next to the canvas.
 

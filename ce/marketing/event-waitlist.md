@@ -2,14 +2,14 @@
 title: "Set and use waitlists for events (Dynamics 365 Marketing) | Microsoft Docs "
 description: "Describes how event waitlists work, how to set them up, and how to invite waiting people when capacity becomes available in  Dynamics 365 Marketing"
 keywords: events; waitlist
-ms.date: 02/01/2019
+ms.date: 01/24/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 ms.assetid: 4aa6d5c3-1b29-46b1-bbf3-9bf260853b20
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 search.audienceType: 
@@ -65,7 +65,7 @@ To enable or disable the waitlist for any event (for both event-level and sessio
     - **Maximum event capacity** (event-level registration only): Enter the maximum number of people who can attend your event. The waitlist will only take effect after this number of contacts have registered. This setting isn't shown if you are using [session-level registration](session-level-registration.md); in this case, set the capacity for each session individually. 
     - **Waitlist this event**: Set to **Yes** to enable the waitlist feature and reveal the **Waitlist** section, which contains the other settings described here.
     - **Number of invitations per slot**: When an extra space becomes available, the system will invite this many contacts from the waitlist, in the same order they joined. Often you will set this to one, but if you are using manual waitlist registration, then you might choose a higher number to increase the chance that at least one contact will follow through with the registration. When a slot opens, the system changes this many waitlist records' **Invited** field from **No** to **Yes**.
-    - **Automatically register waitlisted contacts**: Automatic registration is only available for free events, so if you have or more passes set up for your event, this setting is never shown because passes imply a paid event. When shown, set this to **Yes** to automatically register the next contact in line when space becomes available. When this is set to **Yes**, all waitlist records for this event will therefore have their **Automatically register** fields set to **Yes**. When this is set to **No**, then you can choose whether or not to allow contacts to choose this option for themselves while joining the waitlist.
+    - **Automatically register waitlisted contacts**: Automatic registration is only available for free events, so if you have one or more passes set up for your event, this setting is never shown because passes imply a paid event. When shown, set this to **Yes** to automatically register the next contact in line when space becomes available. When this is set to **Yes**, all waitlist records for this event will therefore have their **Automatically register** fields set to **Yes**. When this is set to **No**, then you can choose whether or not to allow contacts to choose this option for themselves while joining the waitlist.
     - **Contact can choose to be registered automatically**: This option is only shown for free events where you aren't using automatic registration. If you have or more passes set up for your event, this setting is never shown because passes imply a paid event.  When shown, set this to **Yes** to provide a check box on the registration form where contacts can choose to be registered automatically. Choose **No** to use manual registration for all contacts. The **Automatically register** field for each waitlist record will be assigned to match either this option or the choice made by contacts when they join the waitlist.
 
 ## View the waitlist

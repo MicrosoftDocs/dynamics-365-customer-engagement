@@ -86,10 +86,10 @@ search.app:
  The standard panel layout provides the traditional layout including a series of panels on the left, collapsible area and a main work area on the right. The following is the XAML used to define the panel layout. You can also find this XAML in the [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] SDK. [Download](https://go.microsoft.com/fwlink/p/?LinkId=395257) the package, and extract it to view the `SamplePanelLayout.xaml`  file under the "UII\USD Developer Assets\USD Layout and Style Sheet" directory.
 
 ```xaml
-<USD:PanelLayoutBase xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+<USD:PanelLayoutBase xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:mc="https://schemas.openxmlformats.org/markup-compatibility/2006"
+  xmlns:d="https://schemas.microsoft.com/expression/blend/2008"
   mc:Ignorable="d"
   xmlns:local="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics"
   xmlns:USD="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics.PanelLayouts;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics"
@@ -354,10 +354,10 @@ search.app:
  Here is an example of a XAML layout.
 
 ```xaml
-<Grid xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+<Grid xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="https://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:d="https://schemas.microsoft.com/expression/blend/2008"
     mc:Ignorable="d" xmlns: USD="clr-namespace:Dynamics.PanelLayouts;assembly=Dynamics">
  <Grid.RowDefinitions>
  <RowDefinition Height="*" x:Name="TopPanelRow" />

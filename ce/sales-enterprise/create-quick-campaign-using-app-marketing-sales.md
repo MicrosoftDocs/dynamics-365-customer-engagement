@@ -1,14 +1,12 @@
 ---
 title: "Create a quick campaign using in-app marketing (Dynamics 365 Sales) | MicrosoftDocs"
 description: ""
-keywords: ""
 ms.date: 10/01/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: 924e9df4-9448-7ba9-90df-b2aa48585594
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe

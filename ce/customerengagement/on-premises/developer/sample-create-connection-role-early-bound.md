@@ -1,6 +1,6 @@
 ---
-title: "Sample: Create a connection role (early bound) (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "The sample code demonstrates how to create a connection role that are used for accouunts and contacts."
+title: "Sample: Create a connection role (early bound)| MicrosoftDocs"
+description: "The sample code demonstrates how to create a connection role that are used for accounts and contacts."
 ms.custom: 
 ms.date: 01/02/2020
 ms.reviewer: 
@@ -24,21 +24,32 @@ search.app:
 ---
 # Sample: Create a connection role (early bound)
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. [Download the Business Management samples](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/sales/CreateConnectionRoleEarlyBound).  
+This sample shows how to create a connection role that can be used for accounts and contacts. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/ConnectionRole).
 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
-  
-## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
-  
-## Demonstrates  
- This sample shows how to create a connection role that can be used for accounts and contacts.  
-  
-## Example  
- [!code-csharp[BusinessManagement#CreateConnectionRole](../snippets/csharp/CRMV8/businessmanagement/cs/createconnectionrole.cs#createconnectionrole)]  
-  
-### See also  
- [Sample Code for Connection Entities](sample-code-connection-entities.md)   
- [Connection Entities](connection-entities.md)   
- [Sample: Create a Reciprocal Connection Role (Early Bound)](sample-create-reciprocal-connection-role-early-bound.md)
+[!include[cc-sample-note](includes/cc-sample-note.md)]
+
+## How to run this sample
+
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-PA-samples.md)]
+
+## What this sample does
+
+This sample shows how to create a connection role that can be used for accounts and contacts.
+
+## How this sample works
+
+In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+
+### Setup
+
+Checks for the current version of the org.
+
+### Demonstrate
+
+1. Defines some anonymous types to define the range of possible connection property values.
+2. Creates a connection role for account and contact entity.
+3. Creates a connection role object type code record for account and contact entity.
+
+### Clean up
+
+Display an option to delete the records in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.

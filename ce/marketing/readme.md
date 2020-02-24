@@ -4,8 +4,8 @@ ms.date: 06/07/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 ms.assetid: 78dc5157-cf1d-4e32-ace7-9e71763e7510
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: annbe
 search.audienceType: 
   - admin
@@ -32,7 +32,7 @@ This document provides important, late-breaking information about known issues a
 
 - Some types of system customizations can interfere with the Dynamics 365 Marketing setup, resulting in no default contact being created or assigned for your instance. In this case, you must assign one manually. More information: [Configure default marketing settings](mkt-settings-default-marketing.md) <!--1248465-->
 - The setup process can take up to two hours. The process might restart automatically during this time, which can result in multiple success (or failure) notifications being sent to you by email.
-- A known issue currently prevents you from running the setup wizard unless you have a Dynamics 365 license assigned to you on your tenant. However, although most of our customers do have this license, it's not actually required by the terms of the Dynamics 365 Marketing license agreement. As a temporary workaround, you can set up a trial Dynamics 365 instance (which will work for 30 days) and then install Marketing. You'll still need to convert your trial into a production instance before the 30 days are up, but this way you can start working in Marketing right away. More information: [Try Power Apps and model-driven apps in Dynamics 365 apps](https://docs.microsoft.com/power-platform/admin/try-powerapps-dynamics-365). <!--- 1183223 -->
+- Although the licensing agreement doesn't require it, a known technical issue currently prevents you from running the setup wizard unless you have a Dynamics 365 license with the _System Administrator_ security role assigned on your target Dynamics 365 instance. <!--- 1183223 -->
 
 ### Fixed issues
 
@@ -161,11 +161,6 @@ This document provides important, late-breaking information about known issues a
 ### Fixed issues
 
 - Videos added to Marketing pages or emails will show up as their thumbnails on the **Preview** tab of the designer.<br><del>When you add a video to a marketing page or email, its thumbnail isn't shown on the **Preview** tab of the designer. However, the video is embedded correctly and will be shown in delivered emails and live marketing pages.</del> <!-- 1277775 -->
-
-## Social listening for campaigns
-
-- The social listening feature relies on a product called Microsoft Social Engagement, which has been discontinued. Organizations that are already using the feature can continue to do so until Jan 16, 2020, but it is no longer available to new customers. Twitter will stop being provided as a data source on Oct 1, 2019. More information: [Set up social listening and add it to any record](social-listening.md)
-- The social listening control may not show data on some Dynamics 365 instances. If you experience this issue, please [contact Microsoft Support](setup-troubleshooting.md#contact-support). <!--- This is for the UCI FCB that's required to be switched on, and requires a platform upgrade. We can also manually flip this FCB on an org by org basis by updating a DB value -->
 
 ## Designer feature protection
 

@@ -1,5 +1,8 @@
 # [Overview](overview.md)
 
+# What's new
+## [What's new in Update Release 16](whats-new-ur-16.md)
+
 # Plan your implementation (app version 3.x)
 ## [Sample data installation](install-sample-data-3-x.md)
 ## [Project planning and tracking guide](implementation-guides/project-planning-tracking.md)
@@ -10,6 +13,12 @@
 
 # [Project Service upgrade (app version 3.x)](upgrade-psa-home-page.md)
 ## [What's new or changed in Project Service Automation version 3](whats-new-changed-v3.md)
+## [What's new or changed in Project Service Automation version 3.x wave 1 2020](whats-new-v3-2020-wave1.md)
+## [What's new in Project Service Automation Update Release 15, V3](whats-new-ur-15.md)
+## [What's new in Project Service Automation Update Release 14, V3](whats-new-ur-14.md)
+## [What's new in Project Service Automation Update Release 13, V3](whats-new-ur-13.md)
+## [What's new in Project Service Automation Update Release 12, V3](whats-new-ur-12.md)
+
 ## [Upgrade considerations - Project Service Automation version 2.x or 1.x to version 3](upgrade-v3.md)
 ## [Development (app version 3.x)](../project-service/developer-guides/overview-dev-notes-v3.x.md)
 ### [Entity changes](../project-service/developer-guides/entity-changes-v3.x.md)  

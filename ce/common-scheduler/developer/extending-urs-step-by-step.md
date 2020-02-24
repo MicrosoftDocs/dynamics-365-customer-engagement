@@ -299,7 +299,7 @@ Name | Description
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
-<bag xmlns:ufx="http://schemas.microsoft.com/dynamics/2017/universalfetchxml">
+<bag xmlns:ufx="https://schemas.microsoft.com/dynamics/2017/universalfetchxml">
   <Resources ufx:source="fetch">
     <fetch mapping="logical" aggregate="true">
       <entity name="bookableresource">
@@ -485,7 +485,7 @@ Retrieve Constraints Query:
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
-<bag xmlns:ufx="http://schemas.microsoft.com/dynamics/2017/universalfetchxml">
+<bag xmlns:ufx="https://schemas.microsoft.com/dynamics/2017/universalfetchxml">
   <Requirement ufx:source="fetch" ufx:select="bag[1]">
     <fetch top="1">
       <entity name="msdyn_resourcerequirement">

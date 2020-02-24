@@ -27,7 +27,11 @@ By default, the location is set to Documents on Default Site 1.
 
 ### Lead Entity
 
-When the "Based on entity" option is not set, the documents are stored inside the entity folder. On creation of a lead entity, the documents will be stored inside the `Root -> Lead -> Lead <LeadTitle>_<LeadId>` path
+When a lead is qualified and converted into an opportunity, the document location is available as follows:
+
+-	If a document location is already created for the lead, the same document location is will be used for the qualified opportunity.
+
+-	If there is no document location available for the original Lead, a new document location is will be created for the opportunity (if integration is configured as Based on Contact then the folder is will be created under Contact folder).
 
 ### Opportunity - Quote documents sharing
 

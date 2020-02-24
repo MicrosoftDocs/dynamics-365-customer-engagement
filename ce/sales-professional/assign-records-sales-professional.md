@@ -1,14 +1,12 @@
 ---
 title: "Assign records to a user or team in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Assign a record to a user or a team in Dynamics 365 Sales Professional to enable them to work on the record"
-keywords: ""
 ms.date: 10/01/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: f546d9e0-84f0-3574-308b-9efb9bd378bb
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe

@@ -718,7 +718,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_msdyn_msdyn_livechatconfig_msdyn_chatquestionnaireresponse"></a> msdyn_msdyn_livechatconfig_msdyn_chatquestionnaireresponse
 
-See msdyn_livechatconfig Entity [msdyn_msdyn_livechatconfig_msdyn_chatquestionnaireresponse](msdyn_livechatconfig.md#BKMK_msdyn_msdyn_livechatconfig_msdyn_chatquestionnaireresponse) One-To-Many relationship.
+See msdyn_livechatconfig Entity [msdyn_msdyn_livechatconfig_msdyn_chatquestionnaireresponse](msdyn_livechatconfig.md) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_msdyn_ocliveworkitem_msdyn_chatquestionnaireresponse"></a> msdyn_msdyn_ocliveworkitem_msdyn_chatquestionnaireresponse
 
