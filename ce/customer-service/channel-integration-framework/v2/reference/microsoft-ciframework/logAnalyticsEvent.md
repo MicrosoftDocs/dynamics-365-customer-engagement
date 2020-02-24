@@ -15,7 +15,7 @@ ms.custom:
 
 # logAnalyticsEvent
 
-[!include[cc-beta-prerelease-disclaimer](../../../../../includes/cc-beta-prerelease-disclaimer.md)]
+ 
 
 Invoke this method to log analytics for custom events.
 

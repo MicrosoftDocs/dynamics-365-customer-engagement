@@ -1,5 +1,8 @@
 # [Overview](overview.md)
 
+# What's new
+## [What's new in Update Release 16](whats-new-ur-16.md)
+
 # Plan your implementation (app version 3.x)
 ## [Sample data installation](install-sample-data-3-x.md)
 ## [Project planning and tracking guide](implementation-guides/project-planning-tracking.md)
