@@ -75,6 +75,7 @@ Currently, **Chat for Dynamics 365 Customer Service** and **Dynamics 365 for Dig
 - Australia
 - Asia Pacific
 - South America
+- Japan
 
 For the service to work, your tenant and organization have to be co-located in one of these countries or regions.
 
