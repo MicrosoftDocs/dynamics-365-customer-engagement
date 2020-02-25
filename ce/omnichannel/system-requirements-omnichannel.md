@@ -6,7 +6,7 @@ ms.author: kabala
 manager: shujoshi
 applies_to: 
   - ""
-ms.date: 01/30/2020
+ms.date: 02/24/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -32,9 +32,9 @@ This section explains the prerequisites for using Omnichannel for Customer Servi
 
 ### Licensing
 
-- You must have an active subscription to Microsoft Dynamics 365 Customer Service Enterprise in your tenant for each Chat user.
+- You must have an active subscription to Microsoft Dynamics 365 Customer Service Enterprise in your tenant for each Digital Messaging or Chat user.
 
-- You must have an active subscription to Chat for Dynamics 365 Customer Service.
+- You must have an active subscription to the Dynamics 365 Customer Service Digital Messaging add-on for each Digital Messaging user or Dynamics 365 Customer Service Chat for each Chat user.
 
 - Use of historical Supervisor reporting through **Omnichannel Intraday Insights**, **Omnichannel Chat Insights**, and **Omnichannel Sentiment Insights Dashboards** also requires Power BI Pro license or higher for each individual in a Supervisor role.
 
