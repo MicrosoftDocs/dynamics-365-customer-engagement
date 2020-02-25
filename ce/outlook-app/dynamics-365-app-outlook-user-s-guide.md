@@ -192,6 +192,10 @@ For more information on how to turn on delegate access, see [Enable delegate acc
 
    > [!div class="mx-imgBorder"] 
    > ![](media/Pic6.png)
+   
+4. The status on the meeting invitation changes to **Track pending** for both the user and the delegated user. 
+   
+5. Once the meeting invitation has finished synchronizing in Common Data Service, status of the meeting invitation changes to **Tracked regarding** for both the user and the delegated user.
 
 
 ## Experience App for Outlook as a pinnable taskpane
