@@ -51,7 +51,7 @@ The Sales dashboard is a multi-stream dashboard, where each stream shows a view 
 
 #### Take quick action on a record in the stream
 
-You can take entity-specific actions right from the stream. For example, in the **Open Leads** stream, select **More options**. From the **More options** menu, you can quickly qualify a lead or assign it to other users.<!--from editor: The alt text uses "the dashboard," "the interactive dashboard," and "an interactive dashboard." I couldn't deduce any pattern for these phrases, so I went with "the dashboard" because it's the shortest.-->
+You can take entity-specific actions right from the stream. For example, in the **Open Leads** stream, select **More options**. From the **More options** menu, you can quickly qualify a lead or assign it to other users.
 
 > [!div class="mx-imgBorder"]
 > ![Take quick action on records from the dashboard](media/quick-action-dashboard.png "Take quick action on records from the dashboard")
@@ -82,7 +82,7 @@ You'll see the filter applied at the top of the charts.
 > [!div class="mx-imgBorder"]
 > ![Chart with filters applied](media/chart-with-visual-filters-applied.png "Chart with filters applied")
 
-To remove a specific filter, select the **Close** icon <!--from editor: Via the Style Guide, you use the pattern "the **NameOfIcon** icon" only if you don't have an image for the icon. If you do have an image, you just say "**NameOfIcon** [image]".-->for the applied filter.
+To remove a specific filter, select the **Close** icon for the applied filter.
 
 > [!div class="mx-imgBorder"]
 > ![Remove a visual filter](media/remove-visual-filters.png "Remove a visual filter")
@@ -108,7 +108,7 @@ You can easily switch the sort order in the stream by selecting the field on whi
 
 ## Open a different dashboard
 
-You can use the view selector to select the dashboard of your choice. Select the view selector<!--from editor: Edit okay? I didn't know which dashboard name you'd select before you select a name from the drop-down list.-->, and then select the dashboard you want to open from the drop-down list.
+You can use the view selector to select the dashboard of your choice. Select the view selector, and then select the dashboard you want to open from the drop-down list.
 
 ![Dashboard drop-down list](media/dashboard-drop-down-list.png "Dashboard drop-down list")
 
@@ -124,7 +124,7 @@ To see an entity dashboard, go to the list of records for the entity, and then s
 
 ![Entity dashboard for opportunities](media/opportunity-entity-dashboard.png "Entity dashboard for opportunities")
 
-As with other dashboards<!--from editor: Suggested, just to tie this idea in with previous mentions.-->, you can use the global or visual filters to show only the data that's important to you.
+You can use the global or visual filters to show only the data that's important to you.
 
 ### See also
 
