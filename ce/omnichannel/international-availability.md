@@ -59,3 +59,7 @@ Omnichannel for Customer Service January 2020 update is available in the followi
 | Greek | Hind |
 | Hungarian​ |
 || |
+
+### See also
+
+[Prerequisites and system requirements of Omnichannel for Customer Service](system-requirements-omnichannel.md)
