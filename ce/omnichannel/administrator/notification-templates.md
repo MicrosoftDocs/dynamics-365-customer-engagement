@@ -24,7 +24,7 @@ As an administrator, system integrator, or partner, you can use the templates or
 
 You must associate the notification templates to a session template.
 
-### Desktop notification when app is in background.
+### Desktop notification when app is in background
 
 Agents can receive desktop notifications when the Omnichannel for Customer Service app is not in focus. The desktop notification helps agents not to miss any conversation notification requests. Some of the scenarios, where the app is not focus are: 
 
