@@ -103,6 +103,9 @@ Use the **Registration and attendance** tab to see who registered for the event,
 - **Waitlist**: See who's on the [waitlist](event-waitlist.md) for this event.
 - **Contacts who canceled**: Lists contacts who were registered for the event but who have now cancelled their registration. The list includes cancellations made by contacts using the event website and by users using the Marketing app. If you'd like to communicate with contacts who cancelled from one or more events, you can set up an behavioral segment based on `EventRegistrationCancelled` interactions and then use that segment to target a customer journey.
 
+    > [!NOTE]
+    > For the latest marketing release <!--- Alex please link to the "how to check your version or upgrade section here --> - cancelled event registrations would no longer be deleted. Instead, cancelled event registrations would be deactivated. Users can now also cancel an event registration from within marketing by simply deactivating the record. 
+
 ### The Additional information tab
 
 Use the **Additional information** tab to set up your event team and record general information, goals, and financial details. The following sections are provided here:
