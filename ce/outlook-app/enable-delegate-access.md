@@ -29,7 +29,7 @@ Set up delegate access in Outlook to give someone permission to act on your beha
 
 Prerequisites
 
-- Exchange Online and Microsoft Outlook builds 16.0.12130.20272 or later. You can check the [update page for Office](https://docs.microsoft.com/en-us/officeupdates/update-history-office365-proplus-by-date) to identify which channel you need to be on for this version.
+- Exchange Online and Microsoft Outlook C2R builds 16.0.12130.20272 or later. You can check the [update page for Office](https://docs.microsoft.com/en-us/officeupdates/update-history-office365-proplus-by-date) to identify which channel you need to be on for this version.
 - Configure delegate access in Microsoft Outlook. For more information, see [Allow someone else to manage your mail and calendar](https://support.office.com/article/allow-someone-else-to-manage-your-mail-and-calendar-41c40c04-3bd1-4d22-963a-28eafec25926). At the minimum, the delegated user is provided 'Editor' permissions.
 - Both manager and delegate user need to be set up to use Dynamics 365 App for Outlook. For more information, see [Deploy Dynamics 365 App for Outlook](deploy-dynamics-365-app-for-outlook.md). 
 - Skype Url (https://config.edge.skype.com/) is whitelisted. For more information, see [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams). This allows feature flighting from Outlook C2R to function with shared calendars.
@@ -41,7 +41,7 @@ Follow the instructions in [this article](https://support.microsoft.com/en-us/he
 You can also use [this tool](https://github.com/seanmcne/OrgDbOrgSettings/releases/) to edit the **OrgDBOrgSettings TrackAppointmentsFromNonOrganizer** and **DelegateAccessEnabled**.
 
 1.	Sign in as an admin to Dynamics 365 at [https://home.dynamics.com](https://home.dynamics.com).
-2.	On the home page, go to **Settings** > **Advanced Settings**.
+2.	On the home page, go to [**Settings** > **Advanced Settings**](https://docs.microsoft.com/en-us/power-platform/admin/admin-settings#app-settings).
 
     > [!div class="mx-imgBorder"] 
     > ![](media/step1.png) 
@@ -57,7 +57,7 @@ You can also use [this tool](https://github.com/seanmcne/OrgDbOrgSettings/releas
     > ![](media/step3.png) 
     
 5. On the **Solution Organization Settings Editor** screen, find
- 	**TrackAppointmentsFromNonOrganizer** and **DelegateAccessEnabled** setting and set both to **True** and then select **Update**.
+ 	**TrackAppointmentsFromNonOrganizer** and **DelegateAccessEnabled** setting and set both to **True** (if not already set to True) and then select **Update**.
   
     > [!div class="mx-imgBorder"] 
     > ![](media/step4.png) 
@@ -70,7 +70,7 @@ You can also use [this tool](https://github.com/seanmcne/OrgDbOrgSettings/releas
 >- Skype URL (https://config.edge.skype.com/) is whitelisted
 >- Delegated user has the correct Outlook version.
 >- Organization Settings are configured properly
->- After the Organization settings are configured, App for Outlook is redeployed for all the delegated users
+>- After the Organization settings are configured, App for Outlook is redeployed for all the users
 
 # Frequently asked questions
 **Are shared folders supported as part of this feature?**
