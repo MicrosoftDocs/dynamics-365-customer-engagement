@@ -1,5 +1,5 @@
 ---
-title: "Enable delegate access for Dynamics 365 App for Outlook  (Dynamics 365 apps) | MicrosoftDocs"
+title: "Set up delegate access for Dynamics 365 App for Outlook  (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
 ms.date: 02/19/2020
 ms.reviewer: 
@@ -21,9 +21,9 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Enable delegate access 
+# Set up delegate access 
 
-Enable delegate access to allow someone to track Common Data Service information using the Dynamic 365 Outlook App.
+Set up delegate access to allow someone to track Common Data Service information using the Dynamic 365 Outlook App.
 
 Set up delegate access in Outlook to give someone permission to act on your behalf. For example, you might have an assistant that you want to create and respond to email or meeting requests for you and then track the information in Common Data service using the Dynamic 365 Outlook App.
 
