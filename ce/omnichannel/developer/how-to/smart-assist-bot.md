@@ -4,7 +4,7 @@ description: "Read how you can build a smart assist bot to help agents resolve c
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 02/24/2020
+ms.date: 02/25/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
