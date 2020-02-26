@@ -37,13 +37,11 @@ Omnichannel for Customer Service January 2020 update is available in the followi
 | North America | February 17, 2020  |
 
 > [!Note]
-> In Europe, Omnichannel for Customer Service is not available in the following geographic locations:
+> In Europe, Omnichannel for Customer Service for the following geographic locations is currently not available and is planned to be introduced in the future:
 > - Norway
 > - Switzerland
 > - Germany
 > - France
->
-> The availability of Omnichannel for Customer Service for the above mentioned geographic locations are planned for future. 
  
 
 ## Language availability
@@ -65,7 +63,7 @@ Omnichannel for Customer Service January 2020 update is available in the followi
 | Catalan | Chinese (Hong Kong SAR) |
 | Chinese (Simplified) | Croatian | 
 | Estonian | Galician | 
-| Greek | Hind |
+| Greek | Hindi |
 | Hungarian​ |
 || |
 
