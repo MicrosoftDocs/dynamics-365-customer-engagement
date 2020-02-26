@@ -22,17 +22,19 @@ search.app:
 
 The Search Resource Availability API for requirement groups, and Create Requirement Group Bookings API creates the booking records for requirement groups. 
 
-- Use the **Search Resource Availability for Requirement Group** API to return available resources slots when searched with requirement groups.
-- Use the **Create Requirement Group Bookings** API to generate booking records for these requirement groups using the available resources slots.
+- Use the [Search Resource Availability for Requirement Group](#bkmk_sra_rg) API to return available resources slots when searched with requirement groups.
+- Use the [Create Requirement Group Bookings](#bkmk_crgb) API to generate booking records for these requirement groups using the available resources slots.
 
 At a high level, you pass the details of a requirement group to the API and retrieve a list of available resources and timeslots. This is helpful for self-scheduling scenarios where a user wants to query availability, or for portal scheduling scenarios where a customer wants to view availability of desired resources from a web site or app.   
 
 ### Prerequisites
 - Dynamics 365 Organization 9.0+ with Universal Resource Scheduling 3.12.x.x version.
 
-## Search Resource Availability for Requirement Group API input / output parameters
+<a name="bkmk_sra_rg"></a>
 
-Use the following input and output parameters below for the Search Resource Availability For Requirement Group (** msdyn_SearchResourceAvailabilityForRequirementGroup**) API:
+## Search Resource Availability for Requirement Group API
+
+Use the following input and output parameters below for the Search Resource Availability For Requirement Group (**msdyn_SearchResourceAvailabilityForRequirementGroup**) API:
 
 ### Input parameters
 |   |   |
@@ -83,9 +85,11 @@ Use the following input and output parameters below for the Search Resource Avai
 |            |PagingCookie (String)|
 
 
-## Create Requirement Group Bookings API input / output parameters
+<a name="bkmk_crgb"></a>
 
-Use the following input and output parameters below for the Create Requirement Group Bookings (** msdyn_CreateRequirementGroupBookings**) API:
+## Create Requirement Group Bookings API
+
+Use the following input and output parameters below for the Create Requirement Group Bookings (**msdyn_CreateRequirementGroupBookings**) API:
 
 ### Input parameters
 |                                  |   |         |
