@@ -30,9 +30,7 @@ Set up delegate access in Outlook to give someone permission to act on your beha
 ## Prerequisites
 
 - Exchange Online and Microsoft Outlook C2R (Click-to-Run) build 16.0.12130.20272 or later. To check which channel you need to be on for this version, see [Update history for Office 365 ProPlus](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date). 
-- Configure delegate access in Microsoft Outlook. For more information, see [Allow someone else to manage your mail and calendar](https://support.office.com/article/allow-someone-else-to-manage-your-mail-and-calendar-41c40c04-3bd1-4d22-963a-28eafec25926).
-
-     - Minimum permission required: Delegated user must have at least **Editor** permission on the delegated mailbox.
+- Configure delegate access in Microsoft Outlook. For more information, see [Allow someone else to manage your mail and calendar](https://support.office.com/article/allow-someone-else-to-manage-your-mail-and-calendar-41c40c04-3bd1-4d22-963a-28eafec25926). At a minimum delegated user must have at least **Editor** permission on the delegated mailbox.
 - Both manager and delegate user need to be set up to use Dynamics 365 App for Outlook. For more information, see [Deploy Dynamics 365 App for Outlook](deploy-dynamics-365-app-for-outlook.md). 
 - Skype URL (https://config.edge.skype.com/) is whitelisted. For more information, see [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams). This allows feature flighting from Outlook C2R to function with shared calendars.
 
