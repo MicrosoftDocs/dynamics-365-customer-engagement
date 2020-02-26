@@ -102,7 +102,7 @@ Use the **Registration and attendance** tab to see who registered for the event,
 - **Contacts who canceled**: Lists contacts who were registered for the event but who have now cancelled their registration. The list includes cancellations made by contacts using the event website and by users using the Marketing app. If you'd like to communicate with contacts who cancelled from one or more events, you can set up an behavioral segment based on `EventRegistrationCancelled` interactions and then use that segment to target a customer journey.
 
     > [!NOTE]
-    > Starting in the February 2020 Marketing release, canceled event registrations are deactivated, not deleted. To cancel an event registration from within Marketing, simply deactivate the record.
+    > With the February 2020 Marketing release, canceled event registrations are deactivated, not deleted. To cancel an event registration from within Marketing, simply deactivate the record.
     >
     >To determine your current Marketing version, refer to [Find out which version of Dynamics 365 Marketing you are running](apply-updates.md#find-out-which-version-of-dynamics-365-marketing-you-are-running).
 
