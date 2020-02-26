@@ -109,7 +109,7 @@ Next, we'll use the following scenario to walk through how to schedule a Require
 
 ### Service Configuration 
 
-![Service Configuration ](media\ur-scheduling-1-new.png)
+![Service Configuration ](media/ur-scheduling-1-new.png)
 
   1. In site map, under Scheduling, select **Service**.
   2. Go to **Resource Requirements**.
@@ -117,7 +117,7 @@ Next, we'll use the following scenario to walk through how to schedule a Require
 
 ### Service Activity Configuration  
 
-![Service Activity Configuration](media\ur-scheduling-2-new.png)
+![Service Activity Configuration](media/ur-scheduling-2-new.png)
 
   4. In site map, under Scheduling, select **Service Activities**.
   5. Go to **Service Activities**.
@@ -133,7 +133,7 @@ Now you have a requirement group automatically created which has one technicians
 
 Below is an example configuration of the Resource Requirement Group page: 
 
-![Resource Requirement Group Grid](media\ur-scheduling-3-new.png)
+![Resource Requirement Group Grid](media/ur-scheduling-3-new.png)
 
 1. Active Requirements Group
 
@@ -145,7 +145,7 @@ Below is an example configuration of the Resource Requirement Group page:
 
 2. Test Requirements Group
 
-![Resource Requirement Group Grid](media\ur-scheduling-4-new.png)
+![Resource Requirement Group Grid](media/ur-scheduling-4-new.png)
 
 3. Go to **General**.
 4. Name field **Test Requirement Group**.
@@ -161,8 +161,7 @@ In this next scenario, we show how to pass values for a specific Requirement Gro
 > - To run API, you need GUIDs for:
 >   - requirement group
 >   - bookable resources
->   - organizational unit (which can be retrieve 
-> using the [Web API](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/webapi/query-metadata-web-api))
+>   - organizational unit (which can be retrieve using the [Web API](/powerapps/developer/common-data-service/webapi/query-metadata-web-api))
 > - If the API is called from a client (browser or canvas app) based on JavaScript, you need to have the extended SOAP SDK which is provided in the sample files for download. The extended SOAP SDK is not a Microsoft official release, but is provided in the sample for guidance. 
 > - We recommend you test in your development or test environments to validate your scenario(s) and results before running in production environments.
 
@@ -170,23 +169,23 @@ To execute this search against your organization, you need to download the [samp
 
 1. Modify the hard-coded input parameters in the msdyn_SearchResourceAvailabilityForRequirementGroupSample.js file to reflect the GUIDs of records in your org. (Example: requirement group, resources, Organizational unit).    
 
-![Modify the hard-coded input parameters](media\ur-scheduling-5.PNG)
+![Modify the hard-coded input parameters](media/ur-scheduling-5.PNG)
 
 [Sample Search Requirement Group](https://go.microsoft.com/fwlink/?linkid=2117045)
 
 2. Add the files in the sample folder as web resources in your organization 
 
-![Modify the hard-coded input parameters](media\ur-scheduling-6-new.png)
+![Modify the hard-coded input parameters](media/ur-scheduling-6-new.png)
 
-![Modify the hard-coded input parameters](media\ur-scheduling-7-new.PNG)
+![Modify the hard-coded input parameters](media/ur-scheduling-7-new.PNG)
 
 3. Navigate to the newly added new_msdyn_SearchResourceAvailabilityForRequirementGroupSample.htm page. Example: <<YourOrgURL>>//WebResources/new_msdyn_SearchResourceAvailabilityForRequirementGroupSample.htm   
 
-![Modify the hard-coded input parameters](media\ur-scheduling-8.PNG)
+![Modify the hard-coded input parameters](media/ur-scheduling-8.PNG)
 
 4. Open the browser’s developer tools using the F12 function key. Set breakpoints as needed and inspect the request/responses in the developer tool’s console.  
 
-![Modify the hard-coded input parameters](media\ur-scheduling-9.PNG)
+![Modify the hard-coded input parameters](media/ur-scheduling-9.PNG)
 
   We can see there are multiple sets of time slots that are returned with each Set corresponding to a matching available Resource mapped to the underlying Requirement of the Requirement Group.   
 
@@ -194,25 +193,25 @@ To execute this search against your organization, you need to download the [samp
 
 5. Once you choose a specific timeslot set, (example: we chose Set number 1), update your new_msdyn_CreateRequirementGroupBookingsSample.js web resource in your org to pass the Resource Assignments (Requirement guid, Resource guid) and the Requirement Group per the example below:    
 
-![Modify the hard-coded input parameters](media\ur-scheduling-10-new.PNG)
+![Modify the hard-coded input parameters](media/ur-scheduling-10-new.PNG)
 
 [Code Sample Create Requirement Group](https://go.microsoft.com/fwlink/?linkid=2117045)  
 
-![Modify the hard-coded input parameters](media\ur-scheduling-11-new.png)
+![Modify the hard-coded input parameters](media/ur-scheduling-11-new.png)
 
 6. Navigate to the newly added new_ msdyn_CreateRequirementGroupBookingsSample.htm page. (Example: <<YourOrgURL>>//WebResources/new_msdyn_CreateRequirementGroupBookingsSample.htm) to invoke a call the Booking API and create the Booking   
 
-![Modify the hard-coded input parameters](media\ur-scheduling-12.png)
+![Modify the hard-coded input parameters](media/ur-scheduling-12.png)
 
 7. Open the browser’s developer tools using F12 function key. Here you will see the Handler executed value is set to True indicating that the Bookings are created successfully.    
 
-![Modify the hard-coded input parameters](media\ur-scheduling-13.png)
+![Modify the hard-coded input parameters](media/ur-scheduling-13.png)
 
   We can also verify this by going back into the organization and checking the Associated bookings of the Service/Requirement group we created as shown below.    
 
-![Modify the hard-coded input parameters](media\ur-scheduling-14-new.png)
+![Modify the hard-coded input parameters](media/ur-scheduling-14-new.png)
 
-![Modify the hard-coded input parameters](media\ur-scheduling-15-new.png)
+![Modify the hard-coded input parameters](media/ur-scheduling-15-new.png)
 
 Other possible scenarios that could leverage these APIs are:   
 - Build a custom web app or a Dynamics 365 portal to provide appointment scheduling for end users to show available time slots for the service/product being offered using multi-resource requirements (requirement groups).
@@ -220,15 +219,15 @@ Other possible scenarios that could leverage these APIs are:  
 
 ## Additional Resources  
 
-- Multiresource scheduling with [Requirement Groups](https://docs.microsoft.com/en-us/dynamics365/common-scheduler/multi-resource-scheduling-requirement-groups)
+- Multiresource scheduling with [Requirement Groups](https://docs.microsoft.com/dynamics365/common-scheduler/multi-resource-scheduling-requirement-groups)
    
 - Search Resource Availability API for [Single requirements](https://cloudblogs.microsoft.com/dynamics365/it/2019/07/15/how-to-use-resource-schedulings-search-resource-availability-api/)   
 
 - [Docs](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fdynamics365%2Fcustomer-engagement%2Ffield-service%2Foverview&data=04%7C01%7Csampatn%40microsoft.com%7Ce1790d48561843c259a208d6f0eed4a5%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636961305974176099%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C-1&sdata=WXpIMdyYkg4P0Niy1NKOi%2FjM%2F3fKqI2m4Ika6N5R0HA%3D&reserved=0): The primary documentation for Dynamics 365 for Field Service.   
 
-- [Scheduling Docs](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/common-scheduler/schedule-anything-with-universal-resource-scheduling): Documentation for Resource Scheduling.   
+- [Scheduling Docs](https://docs.microsoft.com/dynamics365/customer-engagement/common-scheduler/schedule-anything-with-universal-resource-scheduling): Documentation for Resource Scheduling.   
 
-- [Learn](https://docs.microsoft.com/en-us/learn/paths/universal-resource-scheduling/): Learning path for Resource Scheduling.   
+- [Learn](https://docs.microsoft.com/learn/paths/universal-resource-scheduling/): Learning path for Resource Scheduling.   
 
 - [Field Service YouTube Channel](https://www.youtube.com/playlist?list=PLcakwueIHoT_AQBxkQQ7zePzd7fzZYP7X): Includes concept videos for Field Service.   
 
@@ -342,7 +341,7 @@ This section adds more details on API mapping from legacy to the new URS API exp
 
 ## Scenario 1: Legacy setup screen shot for reference.  
 
-![Legacy setup screen shot for reference](media\ur-scheduling-16-new.png)
+![Legacy setup screen shot for reference](media/ur-scheduling-16-new.png)
 
 1. Create one Site (Site1) and one User (User1) and one equipment (facility/ equipment) (Eq1) with a site as Site1. 
 
@@ -350,7 +349,7 @@ This section adds more details on API mapping from legacy to the new URS API exp
 
 3. Create a new service (Service1)with add required resources as "Choose 2” from User1, Eq1. Save and close the service. 
 
-![Service Activity](media\ur-scheduling-17-new.png)
+![Service Activity](media/ur-scheduling-17-new.png)
 
 4. Go to homepage -> Service Activity -> select the service and click on Schedule -> Now click on find available slots. 
 
@@ -393,7 +392,7 @@ RequestName = "msdyn_SearchResourceAvailabilityForRequirementGroup"
 
 ## Scenario 2: Legacy setup screen shot for reference 
 
-![Legacy setup screen shot for reference](media\ur-scheduling-18-new.png)
+![Legacy setup screen shot for reference](media/ur-scheduling-18-new.png)
 
 1. Create the following: 
 - two Site (Micr0s0ftSite1, Site2)
@@ -404,9 +403,9 @@ RequestName = "msdyn_SearchResourceAvailabilityForRequirementGroup"
 
 3. Create a new service with status "reserved" and required resources as "Choose 2” from “same site “ from User1, User2, Eq1, Eq2. Save and close the service. 
 
-![Service Activity](media\ur-scheduling-19-new.png)
+![Service Activity](media/ur-scheduling-19-new.png)
 
-4. Go to the homepage -> Service Activity -> Schedule -> select service created above -> and select the site as Site1 and click Search for a specific start and end time. 
+4. Go to the **Homepage** -> **Service Activity** -> **Schedule** -> Select service created above -> and select the site as Site1 and click Search for a specific start and end time. 
 
 5. Verify that search results are return as per the site selected in the search criteria. 
 
@@ -445,7 +444,7 @@ response.Dump();
 
 ## Scenario 3: Legacy setup screen shot for reference
 
-![Legacy setup screen shot for reference](media\ur-scheduling-20-new.png)
+![Legacy setup screen shot for reference](media/ur-scheduling-20-new.png)
 
 1. Create two Site(Site1, Site2) and then create 3 equipment (eq1, eq2, eq3) 
 
@@ -453,7 +452,7 @@ response.Dump();
 
 3. Create a new service (Service1)Choose 1 from (Random) eq1, eq2, eq3 
 
-![Service Activity](media\ur-scheduling-21-new.png)
+![Service Activity](media/ur-scheduling-21-new.png)
 
 4. On the Schedule Service Activity dialog (scheduling dialog) search for proposals for Service1 by adding a required resource as "eq1" for a specific date range. 
 
