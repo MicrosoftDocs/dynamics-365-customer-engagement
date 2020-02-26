@@ -2,7 +2,7 @@
 title: "Initial and ongoing event planning (Dynamics 365 Marketing) | Microsoft Docs "
 description: "How to plan an event, register basic info, set up your team, manage sessions and speakers, set the event schedule, issue passes,  and manage venues in Dynamics 365 Marketing."
 keywords: events; event management
-ms.date: 02/25/2020
+ms.date: 03/02/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
