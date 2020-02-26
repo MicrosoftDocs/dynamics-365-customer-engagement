@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 App for Outlook User Guide (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
-ms.date: 02/21/2020
+ms.date: 02/26/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -151,16 +151,16 @@ Let's go over the individual elements in the menu bar.
 Delegate access is granted to users who manage certain aspects of Outlook and Common Data Service information for another person.
 Once delegate access in turned on, you can use the Dynamics 365 Outlook App to track emails and calendar appointments for someone else.
 
-For more information on how to turn on delegate access, see [Enable delegate access](enable-delegate-access.md).
+For more information on how to set up delegate access, see [Set up delegate access](enable-delegate-access.md).
 
 > [!IMPORTANT]
 > - Track status may not update immediately until the sync cycles complete for both the user and the delegated user. This might take few minutes. 
 > - Delegated user should be able to access and interact with the primary user's mailbox.
 > - Delegated user cannot track contacts on the delegated mailbox.
-> - Delegated user cannot set regarding to a new contact. Emails & appointments can only be tracked for existing contacts.
+> - Delegated user cannot set **Regarding to** a new contact. Emails and appointments can only be tracked for existing contacts.
 
 ### Track email from a known contact
-1. Go to the person email folder that you are a delegate for and open an email from a contact that you want to track.
+1. Go to the person's email folder that you are a delegate for and open an email from a contact that you want to track.
 2. In the Dynamics 365 pane, select **Contact** > **Set Regarding**.
 
    > [!div class="mx-imgBorder"] 
