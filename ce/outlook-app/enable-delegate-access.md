@@ -29,12 +29,12 @@ Set up delegate access in Outlook to give someone permission to act on your beha
 
 Prerequisites
 
-- Exchange Online and Microsoft Outlook C2R builds 16.0.12130.20272 or later. You can check the [update page for Office](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date) to identify which channel you need to be on for this version.
-- Configure delegate access in Microsoft Outlook. For more information, see [Allow someone else to manage your mail and calendar](https://support.office.com/article/allow-someone-else-to-manage-your-mail-and-calendar-41c40c04-3bd1-4d22-963a-28eafec25926). At the minimum, the delegated user is provided 'Editor' permissions.
+- Exchange Online and Microsoft Outlook C2R (Click-to-Ruz0 builds 16.0.12130.20272 or later. To check which channel you need to be on for this version, see [Update history for Office 365 ProPlus](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date) 
+- Configure delegate access in Microsoft Outlook. For more information, see [Allow someone else to manage your mail and calendar](https://support.office.com/article/allow-someone-else-to-manage-your-mail-and-calendar-41c40c04-3bd1-4d22-963a-28eafec25926). The minimum permissions required for the delegate user is **Editor** permission.
 - Both manager and delegate user need to be set up to use Dynamics 365 App for Outlook. For more information, see [Deploy Dynamics 365 App for Outlook](deploy-dynamics-365-app-for-outlook.md). 
-- Skype Url (https://config.edge.skype.com/) is whitelisted. For more information, see [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams). This allows feature flighting from Outlook C2R to function with shared calendars.
+- Skype URL (https://config.edge.skype.com/) is whitelisted. For more information, see [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams). This allows feature flighting from Outlook C2R to function with shared calendars.
 
-To enable this capability, you need to enable the **OrgDBOrgSetting** in your organization. Common Data Service apps provides the **OrgDBOrgSettings** tool that gives administrators the ability to implement specific updates that were previously reserved for registry implementations.
+To enable delegate access, you need to enable the **OrgDBOrgSetting** in your organization. Common Data Service apps provides the **OrgDBOrgSettings** tool that gives administrators the ability to implement specific updates that were previously reserved for registry implementations.
 
 Follow the instructions in [this article](https://support.microsoft.com/en-us/help/2691237/orgdborgsettings-tool-for-microsoft-dynamics-crm) for steps to extract the tool. After extracting the tool, enable the **OrgDBOrgSettings TrackAppointmentsFromNonOrganizer** and **DelegateAccessEnabled**.
 
@@ -66,21 +66,22 @@ You can also use [this tool](https://github.com/seanmcne/OrgDbOrgSettings/releas
 > [!IMPORTANT]
 >Things to verify before enabling delegate access in App for Outlook
 >- Verify delegate access is setup correctly in Outlook.
->- Delegated user should have at least 'Editor' permissions on the delegated mailbox
->- Skype URL (https://config.edge.skype.com/) is whitelisted
+>- Delegated user should have at least **Editor** permissions on the delegated mailbox.
+>- Skype URL (https://config.edge.skype.com/) is whitelisted.
 >- Delegated user has the correct Outlook version.
->- Organization Settings are configured properly
->- After the Organization settings are configured, App for Outlook is redeployed for all the users
+>- Organization settings are configured properly
+>- After the Organization settings are configured, App for Outlook is redeployed for all the users.
 
-## Frequently asked questions
+### Frequently asked questions
 
-**Are shared folders supported as part of this feature?**
+#### Are shared folders supported as part of the delegate access feature?
 
 Shared folders are not supported as part of this feature. To understand the difference between shared folders and delegate access, “add link here” 
  
-**Is this supported on MSI version of Outlook?**
+#### Is delegate access supported using the MSI version of Outlook?
 
-We do not have plans to roll out the feature to MSI version of Outlook. It is only available for listed supported version of Outlook C2R 
+No, it is only available for the supported version of Outlook C2R. For more information, see  [Update history for Office 365 ProPlus](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date).
 
-For more information on how to use delegate access see, [Use delegate access](dynamics-365-app-outlook-user-s-guide.md#use-delegate-access).
 
+### See also  
+[Use delegate access][Use delegate access](dynamics-365-app-outlook-user-s-guide.md#use-delegate-access)<br/>
