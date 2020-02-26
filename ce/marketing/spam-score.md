@@ -41,7 +41,7 @@ To manually view and interpret the spam risk for a message:
 
 1. Design your email content as usual using the email designer.
 
-1. Before you go live, open the **Designer** > **Email checker** tab for your message and select **Spam checker** to run the check on your current content. [The check may take a couple of minutes but is usually faster than that].
+1. Before you go live, open the **Designer** > **Email checker** tab for your message and select **Spam checker** to run the check on your current content. The check may take a couple of minutes but is usually faster than that.
     
     ![The path to getting spam risk result](media/spam-checker-april2020.png)
 
