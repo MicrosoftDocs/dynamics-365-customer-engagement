@@ -2,7 +2,7 @@
 title: "Use AI to check your message-content spam score (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to check the content of your email messages to see whether they might get flagged as spam by recipient systems in Dynamics 365 Marketing"
 keywords:
-ms.date: 06/12/2019
+ms.date: 04/01/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -13,7 +13,7 @@ author: alfergus
 ms.author: alfergus
 manager: shellyha
 ms.reviewer:
-topic-status: Drafting
+topic-status:
 search.audienceType: 
   - admin
   - customizer
@@ -33,7 +33,7 @@ The spam checker feature applies artificial intelligence to analyze the content 
 There are two ways to view your spam risk:
 
 - **Automatically** : A spam check is always made as part of the standard **Check for errors** and **Go live** processes, and spam risk results are shown together with other results of the error check. Spam risk results are classified as high, medium, or low (lower is better). If you get a high or medium spam risk level, you should consider revising your content.
-- **Manually** : As you are designing your email, you can check your spam risk at any time by going to the **Preview** tab of the designer. Unlike the automatic error-check results, this display also provides information about which types of issues are most likely responsible for increasing your risk level.
+- **Manually** : As you are designing your email, you can check your spam risk at any time by going to the **Designer** tab. Unlike the automatic error-check results, this display also provides information about which types of issues are most likely responsible for increasing your risk level.
 
 To manually view and interpret the spam risk for a message:
 
@@ -43,14 +43,14 @@ To manually view and interpret the spam risk for a message:
 
 1. Before you go live, open the **Designer** > **Email checker** tab for your message and select **Spam checker** to run the check on your current content. [The check may take a couple of minutes but is usually faster than that].
     
-    [include screenshot of current UI ]
+    ![The path to getting spam risk result](media/spam-checker-april2020.png)
 
 1. When the analysis is finished, you get a low, medium or high-risk result. If
-    you click the Details panel, you are given recommendations on how to
+    you click the **Details** panel, you are given recommendations on how to
     decrease your spam risk. A low risk is encouraged however due to the nature
     of marketing content, some errors are to be expected.
     
-    [include screenshot of spam checker]
+    ![The calculated spam risk](media/spam-checker-score-april2020.png)
 
     Though exact thresholds may vary based on your topic and audience, here are a few guidelines for interpreting the score:
 
@@ -59,6 +59,8 @@ To manually view and interpret the spam risk for a message:
       - 80 – 100 (red): This is a very high score. Your message is likely to be blocked by spam filters, and messages that are delivered are likely to be badly received and may even be reported as spam by recipients.
 
     When you're revising your content, look to remove high-pressure words and phrases, plus any other content that you would consider spammy if you received this message yourself. Consider also the issues listed as the top factors affecting your risk results.
+    
+    If you would like to know more about how the scores are generated, you can visit this [website](https://spamassassin.apache.org/index.html). 
 
 1. When you are satisfied with your spam risk level, go live with your message as usual.
 
