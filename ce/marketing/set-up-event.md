@@ -2,7 +2,7 @@
 title: "Initial and ongoing event planning (Dynamics 365 Marketing) | Microsoft Docs "
 description: "How to plan an event (including: register basic info; set up your team; manage sessions and speakers; set the event schedule; issue passes;  and manage venues) in Dynamics 365 Marketing"
 keywords: events; event management
-ms.date: 03/08/2019
+ms.date: 02/25/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -12,7 +12,7 @@ author: alfergus
 ms.author: alfergus
 manager: shellyha
 ms.reviewer:
-topic-status: Drafting
+topic-status:
 search.audienceType: 
   - admin
   - customizer
@@ -77,8 +77,6 @@ Here you can see and edit your basic event information, including
 - **Waitlist**: This section only appears if you enable the waitlist in the **Venue constraints** section. Use it to configure options for how to [invite waiting contacts](event-waitlist.md) when space becomes available.
 - **Webinar setup**: This section only appears for webinar and hybrid events. Use the settings here to [set up your webinar configuration](set-up-webinar.md) and find the URLs for viewing and presenting the webinar.
 
-<a name="agenda-tab"></a>
-
 ### The Agenda tab
 
 The **Agenda** tab includes details about the schedule of sessions happening during your event. Here you can find, create, and edit each of the following for the current event:
@@ -104,7 +102,11 @@ Use the **Registration and attendance** tab to see who registered for the event,
 - **Contacts who canceled**: Lists contacts who were registered for the event but who have now cancelled their registration. The list includes cancellations made by contacts using the event website and by users using the Marketing app. If you'd like to communicate with contacts who cancelled from one or more events, you can set up an behavioral segment based on `EventRegistrationCancelled` interactions and then use that segment to target a customer journey.
 
     > [!NOTE]
-    > For the latest marketing release <!--- Alex please link to the "how to check your version or upgrade section here --> - cancelled event registrations would no longer be deleted. Instead, cancelled event registrations would be deactivated. Users can now also cancel an event registration from within marketing by simply deactivating the record. 
+    > Starting in the February 2020 Marketing release, canceled event registrations are deactivated, not deleted. To cancel an event registration from within Marketing, simply deactivate the record.
+    >
+    >To determine your current Marketing version, refer to [Find out which version of Dynamics 365 Marketing you are running](apply-updates.md#find-out-which-version-of-dynamics-365-marketing-you-are-running).
+
+
 
 ### The Additional information tab
 
