@@ -80,7 +80,7 @@ You can also use [this tool](https://github.com/seanmcne/OrgDbOrgSettings/releas
 
 ### Are shared folders supported as part of the delegate access feature?
 
-Shared folders are not supported as part of this feature. To understand the difference between shared folders and delegate access, “add link here” 
+Shared folders are not supported as part of this feature. To understand the difference between shared folders and delegate access, see [Manage another person's mail and calendar items](https://support.office.com/article/Manage-another-person-s-mail-and-calendar-items-AFB79D6B-2967-43B9-A944-A6B953190AF5).
  
 ### Is delegate access supported using the MSI version of Outlook?
 
