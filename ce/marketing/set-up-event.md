@@ -24,11 +24,11 @@ search.app:
 
 # Set up an event
 
-To plan an event in Dynamics 365 Marketing, you start by creating an event record. The event record collects all of your planning details, gives links to related records, and provides a business-process timeline that guides you through each step of the event-planning process. After you create the event record, you set up your event team, manage speakers and sessions, set up event passes, and set up a venue.
+The event planning process in Dynamics 365 Marketing starts with creating an event record. The event record guides you through each step of event planning. The record collects all of your planning details, gives links to related records, and provides a business-process timeline. After you create the event record, you can set up your event team, manage speakers and sessions, set up event passes, and set up a venue.
 
 ## Create the root event record
 
-Creating an event record is the first step when setting up your event in Dynamics 365 Marketing. Everything that you do related to a given event will either be stored directly in the event record itself, or stored in other records that are linked to that event.
+Creating an event record is the first step when setting up your event in Dynamics 365 Marketing. Everything related to a given event will be stored either directly in the event record or in other records that are linked to that event.
 
 Though Marketing offers many views into other record types, you'll probably do most of your work directly in the relevant event record. When working in the event record, you'll be able to view and create most types of related records and everything that you do will automatically be related to that event.
 
@@ -46,7 +46,7 @@ After you enter values for all the required fields, you can save the record. You
 
 The main body of the page repeats all the important information requested by, and shown in, the workflow, plus much more. The main body is organized into tabs, which you can navigate by using the links near the top of the page body. You can enter your planning details in the main body of the page whenever you want to&mdash;you don't have to wait until you get to a specific part of the workflow. The following subsections give a summary of how to use each available tab.
 
-Only live events, sessions, and tracks are shown on the event website. When you're ready to go live with an event, session, or track, open the relevant record and go live as described in [Publish events, sessions, tracks, and related records to the website](set-up-event-portal.md#publish-event).
+Only live events, sessions, and tracks are shown on the event website. When you're ready to take an event, session, or track live, open the relevant record and go live as described in [Publish events, sessions, tracks, and related records to the website](set-up-event-portal.md#publish-event).
 
 ### The General tab
 
@@ -54,10 +54,10 @@ Here you can see and edit your basic event information, including:
 
 - **Key information**: Includes the name of your event and other basic details. The following settings are provided:
   - **Event name**: Enter a name for the event.
-  - **Event type**: Choose which type of event this is. This is for information only and won't affect any features. Use it to make your event easier to find and identify.
+  - **Event type**: Choose the type of event. The event type is for information only and won't affect any features. Use it to make your event easier to find and identify.
   - **Format** Set up your event as a [webinar](set-up-webinar.md),  webinar simulcast, or on-site only.
-  - **Registration count**: Shows the number of people who registered for the event. The maximum value that can be shown here is 50,000, but you can still store more registrations than this in the system.
-  - **Check-in count**: Shows the number of attendees that checked in during the event. The maximum value that can be shown here is 50,000, but you can still store more check-ins than this in the system.
+  - **Registration count**: Shows the number of people who registered for the event. The maximum value that can be shown here is 50,000, but you can still store more registrations in the system.
+  - **Check-in count**: Shows the number of attendees that checked in during the event. The maximum value that can be shown here is 50,000, but you can still store more check-ins in the system.
   - **Event URL**: Shows the address of your [event website](set-up-event-portal.md). If you're using the default location on your Dynamics 365 Portals solution, then this value is read-only and provided automatically. If you are hosting your website at a custom location, then select the **Custom event URL** check box and edit the value here. Select the globe button next this field to open the site. More information: [Open the event website](set-up-event-portal.md#open-site)
 - **Schedule**: Provides settings for specifying the time zone, start, and end dates for your event. You can also set up a [recurring event](event-recurring.md) here. Note that if you change the start date for an event that's already been saved, you'll be asked whether you want to change the end date and the session schedule to match it.
 - **Timeline**: As with most types of entities in Dynamics 365, you can use this section to build a record of the activities (such as calls, emails, and appointments) that you and others do in relation to the current record. You can also share notes here. Use the links, buttons, and menus at the top of this area to create new items and to search and sort the list.
