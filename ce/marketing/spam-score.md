@@ -43,14 +43,14 @@ To manually view and interpret the spam risk for a message:
 
 1. Before you go live, open the **Designer** > **Email checker** tab for your message and select **Spam checker** to run the check on your current content. The check may take a couple of minutes but is usually faster than that.
     
-    ![The path to getting spam risk result](media/spam-checker-april2020.png)
+    ![The path to getting spam risk result](media/spam-checker-april2020.png 'The path to getting spam risk result')
 
 1. When the analysis is finished, you get a low, medium or high-risk result. If
     you click the **Details** panel, you are given recommendations on how to
     decrease your spam risk. A low risk is encouraged however due to the nature
     of marketing content, some errors are to be expected.
     
-    ![The calculated spam risk](media/spam-checker-score-april2020.png)
+    ![The calculated spam risk](media/spam-checker-score-april2020.png 'The calculated spam risk')
 
     Though exact thresholds may vary based on your topic and audience, here are a few guidelines for interpreting the score:
 
