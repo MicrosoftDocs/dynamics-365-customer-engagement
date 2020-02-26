@@ -2,7 +2,7 @@
 title: "Initial and ongoing event planning (Dynamics 365 Marketing) | Microsoft Docs "
 description: "How to plan an event, register basic info, set up your team, manage sessions and speakers, set the event schedule, issue passes,  and manage venues in Dynamics 365 Marketing."
 keywords: events; event management
-ms.date: 02/24/2020
+ms.date: 02/25/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -107,6 +107,11 @@ Use the **Registration and attendance** tab to see who registered for the event,
 - **Waitlist**: See who's on the [waitlist](event-waitlist.md) for this event.
 - **Contacts who canceled**: Lists contacts who were registered for the event but who have now cancelled their registration. The list includes cancellations made by contacts using the event website and by users using the Marketing app. If you'd like to communicate with contacts who cancelled from one or more events, you can set up an behavioral segment based on `EventRegistrationCancelled` interactions and then use that segment to target a customer journey.
 
+    > [!NOTE]
+    > With the February 2020 Marketing release, canceled event registrations are deactivated, not deleted. To cancel an event registration from within Marketing, simply deactivate the record.
+    >
+    >To determine your current Marketing version, refer to [Find out which version of Dynamics 365 Marketing you are running](apply-updates.md#find-out-which-version-of-dynamics-365-marketing-you-are-running).
+
 ### The Additional information tab
 
 Use the **Additional information** tab to set up your event team and record general information, goals, and financial details. The following sections are provided here:
@@ -165,8 +170,6 @@ Use the **Agenda** tab of an event record to view and set up sessions and sessio
 - Only live sessions and tracks are shown on the event website. When you're ready to go live with a session or track, open the relevant record and go live as described in [Publish events, sessions, tracks, and related records to the website](set-up-event-portal.md#publish-event).
 - For each track, you can assign an audience and a few other descriptive details and then add member sessions, one at a time. All sessions in a track must be from the same event.
 
-<a name="speakers"></a>
-
 ### Set up and assign session speakers
 
 Use the following pages to manage your speakers and speaker engagements:
@@ -180,8 +183,6 @@ When setting up a speaker engagement, you map a speaker to a specific session fo
 
 - A speaker record must exist.
 - If you're assigning a session, a session record must exist. (For single-session events, you might not have a session record and instead will treat the event itself as a session.)
-
-<a name="event-passes"></a>
 
 ## Set up event passes
 
@@ -197,8 +198,6 @@ To view and create passes for an event, open the appropriate event record and go
 > You can add sessions to a pass individually or add an entire track at once. If you choose to add a track, all of the sessions that currently belong to that track will be added to your pass. However, when you add by track, you won't create a link to the track itself; instead, you just add all the sessions that currently belong to that track to the current pass. Future edits to the track won't affect the pass, so you must edit each existing pass specifically if you need to change the sessions that belong to it.
 
 When setting up a pass, pay attention to the **Passes Allocated** field, where you set the number of passes available, and its related fields: **Passes Sold** and **Passes Remaining**. Each time a pass is granted to an attendee, the **Passes Sold** number automatically increases and the **Passes Remaining** number decreases. When **Passes Remaining** reaches zero, that pass will be shown on the event website as "sold out" and will no longer be available for purchase by further attendees. If you set **Passes Allocated** to zero, that pass won't be shown on the website at all; you might do this for VIP passes, or to keep a pass as a draft until you're ready to publish it by setting **Passes Allocated** to a positive value.
-
-<a name="venues"></a>
 
 ## Set up the event venue
 
