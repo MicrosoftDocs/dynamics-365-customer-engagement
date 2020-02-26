@@ -4,7 +4,7 @@ description: See how you can effectively search resource availability and create
 author: lerobbin
 ms.author: lerobbin
 manager: shujoshi
-ms.date: 02/12/2020
+ms.date: 02/26/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -22,8 +22,8 @@ search.app:
 
 The Search Resource Availability API for requirement groups, and Create Requirement Group Bookings API creates the booking records for requirement groups. 
 
-- Use the <b>Search Resource Availability for Requirement Group</b> API to return available resources slots when searched with requirement groups.
-- Use the <b>Create Requirement Group Bookings</b> API to generate booking records for these requirement groups using the available resources slots.
+- Use the **Search Resource Availability for Requirement Group** API to return available resources slots when searched with requirement groups.
+- Use the **Create Requirement Group Bookings** API to generate booking records for these requirement groups using the available resources slots.
 
 At a high level, you pass the details of a requirement group to the API and retrieve a list of available resources and timeslots. This is helpful for self-scheduling scenarios where a user wants to query availability, or for portal scheduling scenarios where a customer wants to view availability of desired resources from a web site or app.   
 
@@ -32,7 +32,7 @@ At a high level, you pass the details of a requirement group to the API and retr
 
 ## Search Resource Availability for Requirement Group API input / output parameters
 
-Use the following input and output parameters below for the Search Resource Availability For Requirement Group (<b> msdyn_SearchResourceAvailabilityForRequirementGroup</b>) API:
+Use the following input and output parameters below for the Search Resource Availability For Requirement Group (** msdyn_SearchResourceAvailabilityForRequirementGroup**) API:
 
 ### Input parameters
 |   |   |
@@ -85,7 +85,7 @@ Use the following input and output parameters below for the Search Resource Avai
 
 ## Create Requirement Group Bookings API input / output parameters
 
-Use the following input and output parameters below for the Create Requirement Group Bookings (<b> msdyn_CreateRequirementGroupBookings</b>) API:
+Use the following input and output parameters below for the Create Requirement Group Bookings (** msdyn_CreateRequirementGroupBookings**) API:
 
 ### Input parameters
 |                                  |   |         |
@@ -111,18 +111,18 @@ Next, we'll use the following scenario to walk through how to schedule a Require
 
 ![Service Configuration ](media\ur-scheduling-1-new.png)
 
-  1. In site map, under Scheduling, select <b>Service</b>
-  2. Go to <b>Resource Requirements</b>
-  3. Create a service activity, for this example we've created <b>Test Requirement Group</b>
+  1. In site map, under Scheduling, select **Service**.
+  2. Go to **Resource Requirements**.
+  3. Create a service activity, for this example we've created **Test Requirement Group**.
 
 ### Service Activity Configuration  
 
 ![Service Activity Configuration](media\ur-scheduling-2-new.png)
 
-  4. In site map, under Scheduling, select <b>Service Activities</b>
-  5. Go to <b>Service Activities</b>
-  6. Subject <b>Test Requirement Group</b>
-  7. Service <b>Test Requirement Group</b>
+  4. In site map, under Scheduling, select **Service Activities**.
+  5. Go to **Service Activities**.
+  6. Subject **Test Requirement Group**.
+  7. Service **Test Requirement Group**.
 
 > [!NOTE]
 > This will  auto create a resource requirement group which will have the same name as service activity. 
@@ -138,29 +138,29 @@ Below is an example configuration of the Resource Requirement Group page:
 1. Active Requirements Group
 
  > [!NOTE] 
- > To access the <b>Requirement Group</b> page from the Customer Service Hub (CSH) app, you will need to navigate there via a URL. 
+ > To access the **Requirement Group** page from the Customer Service Hub (CSH) app, you will need to navigate there via a URL. 
 
 > [!IMPORTANT]
-> Use the following URL to reach the <b>Resource Requirements Group</b> page: <<YourOrgURL>YourOrgURL>?appid=guid&pagetype=entitylist&etn=msdyn_requirementgroupr.
+> Use the following URL to reach the **Resource Requirements Group** page: <<YourOrgURL>YourOrgURL>?appid=guid&pagetype=entitylist&etn=msdyn_requirementgroupr.
 
 2. Test Requirements Group
 
 ![Resource Requirement Group Grid](media\ur-scheduling-4-new.png)
 
-3. Go to <b>General</b>
-4. Name field <b>Test Requirement Group </b>
-5. Enter name in <b>Owner</b> field 
-6. Template field
-7. Template Required, select <b>No </b>
+3. Go to **General**.
+4. Name field **Test Requirement Group**.
+5. Enter name in **Owner** field.
+6. Template field.
+7. Template Required, select **No**.
 
 ### Search against your organization
 
 In this next scenario, we show how to pass values for a specific Requirement Group (Entity Reference - GUID), Required Resources to complete work and match the Resource to the Organizational Unit.      
 
 > [!IMPORTANT] 
-> - To run API, you need GUIDs for:<BR>
->   - requirement group<BR>
->   - bookable resources<BR>
+> - To run API, you need GUIDs for:
+>   - requirement group
+>   - bookable resources
 >   - organizational unit (which can be retrieve 
 > using the [Web API](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/webapi/query-metadata-web-api))
 > - If the API is called from a client (browser or canvas app) based on JavaScript, you need to have the extended SOAP SDK which is provided in the sample files for download. The extended SOAP SDK is not a Microsoft official release, but is provided in the sample for guidance. 
@@ -243,61 +243,61 @@ Other possible scenarios that could leverage these APIs are:  
 ### Sample code snippet
 
 ```csharp
-void Main()<BR>  
-{<BR>   
-// Authentication<BR>   
-String machineName = "aurorav?????";<BR>   
+void Main()  
+{   
+// Authentication   
+String machineName = "aurorav?????";   
 String orgName = "CITTest";   
-String domain = $"{machineName}dom.extest.microsoft.com";<BR>   
-String uri = $"http://{machineName}.{domain}/{orgName}/XRMServices/2011/Organization.svc";<BR>   
-String username = "administrator";<BR>   
-String password = "";<BR>
+String domain = $"{machineName}dom.extest.microsoft.com";   
+String uri = $"http://{machineName}.{domain}/{orgName}/XRMServices/2011/Organization.svc";   
+String username = "administrator";   
+String password = "";
 
-// Connect to organization<BR>
-Microsoft.Pfe.Xrm.OrganizationServiceManager osm = new<BR>
-Microsoft.Pfe.Xrm.OrganizationServiceManager(new Uri(@uri), username, password, domain);<BR>
+// Connect to organization
+Microsoft.Pfe.Xrm.OrganizationServiceManager osm = new
+Microsoft.Pfe.Xrm.OrganizationServiceManager(new Uri(@uri), username, password, domain);
 
-searchResourceAvailabilityForRequirementGroup(osm);<BR>  
-createRequirementGroupBookings(osm);<BR>  
-}<BR>   
-
-void searchResourceAvailabilityForRequirementGroup(OrganizationServiceManager osm)<BR> 
-{<BR>
-var req = new OrganizationRequest()<BR>
-{<BR>
-RequestName = "msdyn_SearchResourceAvailabilityForRequirementGroup"<BR>
-};<BR>  
-
-//Version<BR>  
-req["Version"] = "1.0.0";<BR>
-req["RequirementGroup"] = new EntityReference("msdyn_requirementgroup", Guid.Parse(""));<BR>
-
-var response = osm.GetProxy().Execute(req);<BR>
+searchResourceAvailabilityForRequirementGroup(osm);  
+createRequirementGroupBookings(osm);  
 }   
-<BR>
-void createRequirementGroupBookings(OrganizationServiceManager osm)<BR>
-{<BR>
-var req = new OrganizationRequest()<BR>
-{<BR>   
-RequestName = "msdyn_createRequirementGroupBookings"<BR>
-};   
-<BR> 
-//Version<BR>
-req["Version"] = "1.0.0";<BR>
-req["RequirementGroup"] = new EntityReference<BR>("msdyn_requirementgroup",<BR> 
-Guid.Parse("d723dd8f-f4f4-e911-a81d-000d3af9eba2"));<BR>
-req["Start"] = DateTime.Today.AddDays(1);<BR>
-req["Duration"] = 60;<BR>
-EntityCollection resourceAssignment = new EntityCollection();<BR>
-var entity = new Entity();<BR>
-entity["RequirementId"] = "";<BR>
-entity["ResourceId"] = "";<BR>
-entity["BookingStatusId"] = "";<BR>
-resourceAssignment.Add(entity);<BR> 
-req["ResourceAssignment"] = resourceAssignment;<BR>   
 
-var response = osm.GetProxy().Execute(req);<BR> 
-}<BR>  
+void searchResourceAvailabilityForRequirementGroup(OrganizationServiceManager osm) 
+{
+var req = new OrganizationRequest()
+{
+RequestName = "msdyn_SearchResourceAvailabilityForRequirementGroup"
+};  
+
+//Version  
+req["Version"] = "1.0.0";
+req["RequirementGroup"] = new EntityReference("msdyn_requirementgroup", Guid.Parse(""));
+
+var response = osm.GetProxy().Execute(req);
+}   
+
+void createRequirementGroupBookings(OrganizationServiceManager osm)
+{
+var req = new OrganizationRequest()
+{   
+RequestName = "msdyn_createRequirementGroupBookings"
+};   
+ 
+//Version
+req["Version"] = "1.0.0";
+req["RequirementGroup"] = new EntityReference("msdyn_requirementgroup", 
+Guid.Parse("d723dd8f-f4f4-e911-a81d-000d3af9eba2"));
+req["Start"] = DateTime.Today.AddDays(1);
+req["Duration"] = 60;
+EntityCollection resourceAssignment = new EntityCollection();
+var entity = new Entity();
+entity["RequirementId"] = "";
+entity["ResourceId"] = "";
+entity["BookingStatusId"] = "";
+resourceAssignment.Add(entity); 
+req["ResourceAssignment"] = resourceAssignment;   
+
+var response = osm.GetProxy().Execute(req); 
+}  
 ```
 
 ## How to migrate from legacy API to URS API 
@@ -359,21 +359,23 @@ This section adds more details on API mapping from legacy to the new URS API exp
 ### URS API Code for the above scenario. 
 
 ```csharp
-void searchRequirementgroup(Microsoft.Pfe.Xrm.OrganizationServiceManager osm)<BR>
-{ <BR>
-var req = new Microsoft.Xrm.Sdk.OrganizationRequest() <BR>
-{ <BR>
-RequestName = "msdyn_SearchResourceAvailabilityForRequirementGroup"<BR>
-};<BR>
+void searchRequirementgroup(Microsoft.Pfe.Xrm.OrganizationServiceManager osm)
+{ 
+var req = new Microsoft.Xrm.Sdk.OrganizationRequest() 
+{ 
+RequestName = "msdyn_SearchResourceAvailabilityForRequirementGroup"
+};
 
-  req["Version"] = "1.0.0"; <BR>
+  req["Version"] = "1.0.0"; 
   Entity requirementSpecification = new Entity();
 
   //Setting from date 
+
   requirementSpecification.Attributes.Add("msdyn_fromdate", DateTime.Parse("2019-12-  
   26T18:30:00.000Z"));
 
   //Setting to date 
+
   requirementSpecification.Attributes.Add("msdyn_todate", DateTime.Parse("2019-12- 
   27T18:29:00.000Z"));
 
@@ -382,10 +384,10 @@ RequestName = "msdyn_SearchResourceAvailabilityForRequirementGroup"<BR>
   req["RequirementGroup"] = new   
   Microsoft.Xrm.Sdk.EntityReference("msdyn_requirementgroup", Guid.Parse("XXXXXXXX"));
 
-  //Executing the request and getting response<BR>
-  var response = osm.GetProxy().Execute(req);<BR> 
-  response.ToString();<BR> 
-  response.Dump();<BR>
+  //Executing the request and getting response
+  var response = osm.GetProxy().Execute(req); 
+  response.ToString(); 
+  response.Dump();
 } 	 
 ```
 
@@ -411,34 +413,34 @@ RequestName = "msdyn_SearchResourceAvailabilityForRequirementGroup"<BR>
 ### New URS API Code for the above scenario
 
 ```csharp
-void searchRequirementgroup(Microsoft.Pfe.Xrm.OrganizationServiceManager osm)<BR>
-{<BR>
-  var req = new Microsoft.Xrm.Sdk.OrganizationRequest()<BR>
-  {<BR>
-  RequestName = "msdyn_SearchResourceAvailabilityForRequirementGroup"<BR>
-  };<BR>
-req["Version"] = "1.0.0";<BR> 
-Entity requirementSpecification = new Entity();<BR>
+void searchRequirementgroup(Microsoft.Pfe.Xrm.OrganizationServiceManager osm)
+{
+  var req = new Microsoft.Xrm.Sdk.OrganizationRequest()
+  {
+  RequestName = "msdyn_SearchResourceAvailabilityForRequirementGroup"
+  };
+req["Version"] = "1.0.0"; 
+Entity requirementSpecification = new Entity();
 
-//Setting from date<BR>
-requirementSpecification.Attributes.Add("msdyn_fromdate", DateTime.Parse("2019-12-26T18:30:00.000Z"));<BR>
+//Setting from date
+requirementSpecification.Attributes.Add("msdyn_fromdate", DateTime.Parse("2019-12-26T18:30:00.000Z"));
 
-//Setting to date<BR>
-requirementSpecification.Attributes.Add("msdyn_todate", DateTime.Parse("2019-12-27T18:29:00.000Z")); <BR>
+//Setting to date
+requirementSpecification.Attributes.Add("msdyn_todate", DateTime.Parse("2019-12-27T18:29:00.000Z")); 
 
-//Setting up the Site as filter criteria for search.<BR>	      
-requirementSpecification.Attributes.Add("msdyn_organizationalunit",Guid.Parse("XXXXXXXXXXXX")); <BR>
+//Setting up the Site as filter criteria for search.	      
+requirementSpecification.Attributes.Add("msdyn_organizationalunit",Guid.Parse("XXXXXXXXXXXX")); 
 
-req["RequirementSpecification"] = requirementSpecification;<BR>
+req["RequirementSpecification"] = requirementSpecification;
 
-//Requirement group GUID <BR>     
-req["RequirementGroup"] = new EntityReference("msdyn_requirementgroup", Guid.Parse("XXXXXX"));<BR>
+//Requirement group GUID      
+req["RequirementGroup"] = new EntityReference("msdyn_requirementgroup", Guid.Parse("XXXXXX"));
 
-var response = osm.GetProxy().Execute(req);<BR>
-response.ToString();<BR>
-response.Dump();<BR>
-<BR>
-}<BR>
+var response = osm.GetProxy().Execute(req);
+response.ToString();
+response.Dump();
+
+}
 ```
 
 ## Scenario 3: Legacy setup screen shot for reference
@@ -460,31 +462,33 @@ response.Dump();<BR>
 ### New URS API Code for the above scenario
 
 ```csharp
-void searchRequirementgroup(Microsoft.Pfe.Xrm.OrganizationServiceManager osm)<BR>
-{<BR>
-var req = new Microsoft.Xrm.Sdk.OrganizationRequest()<BR> 
-{<BR>
-RequestName = "msdyn_SearchResourceAvailabilityForRequirementGroup"<BR>
-};<BR>
-req["Version"] = "1.0.0";<BR> 
-Entity requirementSpecification = new Entity();<BR>
+void searchRequirementgroup(Microsoft.Pfe.Xrm.OrganizationServiceManager osm)
+{
+var req = new Microsoft.Xrm.Sdk.OrganizationRequest() 
+{
+RequestName = "msdyn_SearchResourceAvailabilityForRequirementGroup"
+};
+req["Version"] = "1.0.0"; 
+Entity requirementSpecification = new Entity();
 
-//Setting start date<BR>          
-requirementSpecification.Attributes.Add("msdyn_fromdate", DateTime.Parse("2019-12-26T18:30:00.000Z"));<BR>
-//Setting end date<BR>
-requirementSpecification.Attributes.Add("msdyn_todate", DateTime.Parse("2019-12-27T18:29:00.000Z"));<BR>
+//Setting start date          
+requirementSpecification.Attributes.Add("msdyn_fromdate", DateTime.Parse("2019-12-26T18:30:00.000Z"));
+//Setting end date
+requirementSpecification.Attributes.Add("msdyn_todate", DateTime.Parse("2019-12-27T18:29:00.000Z"));
 
-//Setting the eq1 as required resource<BR>	 	 requirementSpecification.Attributes.Add("msdyn_resourcerequirementid",Guid.Parse("XXXXXX")); <BR>
-req["RequirementSpecification"] = requirementSpecification; <BR>
+//Setting the eq1 as required resource	 	
 
-//Setting the requirement group GUID<BR>
-req["RequirementGroup"] = new EntityReference("msdyn_requirementgroup", Guid.Parse("XXXXX"));<BR>
+requirementSpecification.Attributes.Add("msdyn_resourcerequirementid",Guid.Parse("XXXXXX")); 
+req["RequirementSpecification"] = requirementSpecification; 
 
-//Executing the request and getting response.<BR> 
-var response = osm.GetProxy().Execute(req); <BR>
-response.ToString(); <BR>
-response.Dump(); <BR>
-} <BR>
+//Setting the requirement group GUID
+req["RequirementGroup"] = new EntityReference("msdyn_requirementgroup", Guid.Parse("XXXXX"));
+
+//Executing the request and getting response. 
+var response = osm.GetProxy().Execute(req); 
+response.ToString(); 
+response.Dump(); 
+} 
 ```
 
 ## See Also
