@@ -154,7 +154,7 @@ Once delegate access in turned on, you can use the Dynamics 365 Outlook App to t
 For more information on how to set up delegate access, see [Set up delegate access](enable-delegate-access.md).
 
 > [!IMPORTANT]
-> - Track status may not update immediately until the sync cycles complete for both the user and the delegated user. This might take few minutes. 
+> - Track status may not update immediately until the sync cycle is complete for both the user and the delegated user. This might take few minutes. 
 > - Delegated user should be able to access and interact with the primary user's mailbox.
 > - Delegated user cannot track contacts on the delegated mailbox.
 > - Delegated user cannot set **Regarding to** a new contact. Emails and appointments can only be tracked for existing contacts.
