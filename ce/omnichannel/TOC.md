@@ -235,7 +235,7 @@
 #### [Start chat proactively](developer/how-to/start-proactive-chat.md)
 #### [Enable a bot to escalate and end conversation](developer/bot-escalate-end-conversation.md)
 #### [Auto-close a conversation](developer/auto-close-conversation.md)
-#### [Custom smart assist bot]
+#### Custom smart assist bot
 ##### [Build a custom smart assist bot](developer/how-to/smart-assist-bot.md)
 ##### [Implement custom scenario for smart assist bot](developer/how-to/smart-assist-scenario.md)
 ### Entity reference
