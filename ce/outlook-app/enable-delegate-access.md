@@ -1,7 +1,7 @@
 ---
 title: "Set up delegate access for Dynamics 365 App for Outlook  (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
-ms.date: 02/19/2020
+ms.date: 02/26/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -67,7 +67,7 @@ You can also use [this tool](https://github.com/seanmcne/OrgDbOrgSettings/releas
 
 > [!IMPORTANT]
 >Things to verify before enabling delegate access in App for Outlook
->- Verify delegate access is setup correctly in Outlook.
+>- Verify that delegate access is set up correctly in Outlook.
 >- Delegated user should have at least **Editor** permissions on the delegated mailbox.
 >- Skype URL (https://config.edge.skype.com/) is whitelisted.
 >- Delegated user has the correct Outlook version.

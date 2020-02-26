@@ -50,7 +50,7 @@ For more information on FAQ's, see [Frequently Asked Questions about Dynamics 36
 ## Add the app to Outlook  
  After the prerequisites have been met, you can add the app directly from Dynamics 365 app.  
 
-1. Click the **Settings** button ![Dynamics 365 apps web client Settings button](../outlook-app/media/mp-ua-r16-settings.png "Dynamics 365 apps web client Settings button"), and then click **Apps for Dynamics 365**.  
+1. Select the **Settings** button ![Dynamics 365 apps web client Settings button](../outlook-app/media/mp-ua-r16-settings.png "Dynamics 365 apps web client Settings button"), and then click **Apps for Dynamics 365**.  
 
 2. On the **Apps for Dynamics 365** page, under **[!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]**, click **[!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]**.  
 
