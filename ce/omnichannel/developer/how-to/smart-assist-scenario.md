@@ -40,6 +40,8 @@ The customer service agent is presented with a list of similar cases as a recomm
 
 ## Implement similar case suggestion
 
+Macros and custom actions can help you implement custom functionalities in your smart assist bot. More information: [Calling macros and custom actions using adaptive cards](smart-assist-bot.md#bkmk_macro_customaction).
+
 Similar cases can be fetched using the `GetSimilarRecords` function. But before you execute the Web API query with this function, make sure that you have set up similarity rules. More information: [Use advanced similarity rules to view similar case suggestions](../../../customer-service/suggest-similar-cases-for-a-case). Also, make sure to enable **Relevance Search** in the administrator section to ensure that similarity rules work in the expected manner. Also, in the **Match Field** section add a few criteria such as case title and case type.
 
 **Request**
