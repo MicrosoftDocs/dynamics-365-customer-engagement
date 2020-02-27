@@ -133,6 +133,62 @@ For information on how to create a knowledge article using template, see [Create
 
 You can also implement functionalities like suggesting similar cases, providing cross sell recommendations and creating appointments. These are out-of-the-box features and the [sample code](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/smart-assist-bot) does not implement these scenarios. To implement these functionalities, you will need to update the `actions` field in the adaptive cards JSON provided above and develop web resources. The `actions` field instructs the bot on the actions it needs to perform. More information: [Implement a custom smart assist scenario](smart-assist-scenario.md).
 
+<a name="bkmk_macro_customaction"></a>
+
+## Calling macros and custom actions using adaptive cards
+
+Macros and custom actions can help you implement custom functionalities in your smart assist bot.
+
+### Macros
+
+Macros are a compilations of sequential actions that are reusable for different sessions. These can be used to automate repetitive and monotonous actions that in turn reduce human errors and improve agent productivity. For information on how to build a macro, see [Create macro](../../administrator/macros.md#create-macro).
+
+You can use the `actions` key in adaptive cards JSON and mention the macro or custom action that you want to call, as shown in the example below.
+
+The type is always `Action.Submit` and title can be anything the user wants to name the action.
+
+```json
+"actions": [
+		{
+			"type": "Action.Submit",
+			"title": "Accepted",
+			"data": {
+				"MacroName": "SendEmail",
+				"MacroParameters": {
+					"subject": "Upgrade offer"
+				}
+			},
+			"iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAANCAYAAACZ3F9/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAE8SURBVHgBnVLBUQJBEOxd1z8BALWgAWAEagSQAfLw5CdEIBkIP+UeEoIZyGUAAchtnVT55cXDu5txDrkqQKHUeexu7Uz3dO8OrBc18I/QWul6xYtC682bfwGq6nV0xazqSqkFg63sE9LxwD1U3MGOdJSOoVCY+cUWx6YFpqmm45fqTfRk26Hd2zFbqt48pI/4zI0qizyxUqJVU1NWxYPXYfl5q+MaPoYxtc3EzC+PwsfSZWrQY/7+Dipnl+M9xOc+aWAuZJYYmDCha7766nMibrhhMditt52woJemI6RNqekjSQaZJbNmqyFOppuA0/bbhTDf0lJyjD7F229gbPvdcpogv1wBGHdpKnxAz/nl4Cfl6kQmhxXqIDUROR35jjFBjZxfCnAgDMvkQPwRw2FHzkEgiAKK0+5vAXl8ArWLn19rFeLfAAAAAElFTkSuQmCC"
+		}
+	]
+```
+
+See also: [Automate tasks with macros](../../administrator/macros.md).
+
+### Custom actions
+
+You will have to create a web resource if you want to use embed a custom action within a suggestion. See the Power Apps topic on [Create your own actions](/powerapps/developer/common-data-service/custom-actions) for information on how to build a custom action. See the topic [Web resources in model-driven apps](/powerapps/maker/model-driven-apps/create-edit-web-resources) for information on how to create web resources. These web resources will have to be uploaded under the **Customer Summary Form**, as shown in the screenshot below.
+
+![Customer summary form](../../media/conversation-entity-customer-summary.png "Customer summary form")
+
+To use a custom action, replace `MacroName` and `MacroParameters` with `CustomAction` and `CustomParameters` respectively in the adaptive card JSON. The value provided for `CustomAction` key should be the same as the name of the method that is to be called.
+
+```json
+"actions": [
+		{
+			"type": "Action.Submit",
+			"title": "Accepted",
+			"data": {
+				"CustomAction": "SendEmail",
+				"CustomParameters": {
+					"subject": "Upgrade offer"
+				}
+			},
+			"iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAANCAYAAACZ3F9/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAE8SURBVHgBnVLBUQJBEOxd1z8BALWgAWAEagSQAfLw5CdEIBkIP+UeEoIZyGUAAchtnVT55cXDu5txDrkqQKHUeexu7Uz3dO8OrBc18I/QWul6xYtC682bfwGq6nV0xazqSqkFg63sE9LxwD1U3MGOdJSOoVCY+cUWx6YFpqmm45fqTfRk26Hd2zFbqt48pI/4zI0qizyxUqJVU1NWxYPXYfl5q+MaPoYxtc3EzC+PwsfSZWrQY/7+Dipnl+M9xOc+aWAuZJYYmDCha7766nMibrhhMditt52woJemI6RNqekjSQaZJbNmqyFOppuA0/bbhTDf0lJyjD7F229gbPvdcpogv1wBGHdpKnxAz/nl4Cfl6kQmhxXqIDUROR35jjFBjZxfCnAgDMvkQPwRw2FHzkEgiAKK0+5vAXl8ArWLn19rFeLfAAAAAElFTkSuQmCC"
+		}
+	]
+```
+
 <a name="bkmk_samplecode"></a>
 
 ## Sample code
