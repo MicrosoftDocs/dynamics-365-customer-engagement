@@ -272,7 +272,7 @@ There might be several reasons related to the failure of recalculation of the fo
 
 4. Take necessary actions to resolve the error and recalculate forecast. 
 
-## Issues related to Unified interface
+## Issues related to the Unified interface
 
 ### Out-of-the-box or custom entities appear as read-only in the Unified interface apps
 
