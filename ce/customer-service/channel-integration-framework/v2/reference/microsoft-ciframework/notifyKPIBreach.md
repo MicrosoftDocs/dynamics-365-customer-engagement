@@ -15,8 +15,6 @@ ms.custom:
 
 # notifyKPIBreach
 
-[!include[cc-beta-prerelease-disclaimer](../../../../../includes/cc-beta-prerelease-disclaimer.md)]
-
 This method is used to indicate a KPI breach. When this KPI is used, a red circle appears on the display image of the contact when a KPI breach has occurred.
 
 ![Notify KPI Breach](../../../media/notifyKPIBreach.PNG "Notify KPI Breach")
