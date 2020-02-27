@@ -1,3 +1,25 @@
+### Version 3.12.5.13
+- Resource location can be displayed on the Map view of the Schedule Board’s Daily view, using the custom entity using the Custom Geo Data settings in the Scheduling Parameters. 
+- Fixed the issue with the action msdyn_SearchResourceAvailability was not taking the ConsiderTravelTime parameter into consideration, while providing the available timeslots.
+- Fixed upgrade errors while generating the Booking Setup Metadata records and a few other upgrade improvements. 
+- Fixed the issue where Filters were not saved on the Resource Utilization View. 
+- **Booking created Successfully** notification on the Schedule Assistant is only shown when the booking is created successfully. 
+- Fixed the incorrect booking time offset on DST dates for GMT + 1 timezone on the Booking and Resource Requirement forms. 
+- Fixed null reference issues on the Requirement Group form. 
+- Improved error handling on the Copy function of the Resource Requirement form. 
+- Resource name handling is improved in the Search Resources lookup on the Days view of the Schedule Board. 
+-  Resource and Grid alignment issues are fixed in the Hourly view of the Schedule Board. 
+- Calendar performance improvements are made for the generation of Resource Requirements from the Project form. 
+- Improved error handling on the Booking rules. 
+-  Schedule board scrolling issues are fixed, when moving the Bookings of the Resources at the bottom of the list. 
+- Fixed the issue with the Booking tooltip, when there are only 2 resources displayed on the Schedule Board, the tooltip is masking the Booking itself. 
+- Fixed the issue of the visual duplication of the Bookings on the Days, Weeks and Months views of the Schedule Board. 
+- Improved error handling when creating bookings on the Schedule Board, by adding additional null checks. 
+- Performance on the Schedule Board improved by just loading the Requirements that are not Location agnostic on the Map view. 
+- Fixed the Filter panel crash when using the Fetch-based filter value and saved as default value. 
+- Fixed the issue with the Schedule Assistant Filter layout when a filter is changed from multi combo field to non-multi combo filter. 
+- When **Double book if needed** option is checked on the Schedule Assistant booking panel, even though the resource does not have enough availability for the requested hours, the resource can be double booked up to 24 hours in one day. 
+
 ### Version 3.12.9.76 - April 2020 Wave 1 Early Access 
 
 - Fixed a performance issue when upgrading from Field Service version 7.x to version 8.x.  
