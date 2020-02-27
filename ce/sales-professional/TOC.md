@@ -3,7 +3,6 @@
 
 ## [What's new](whats-new.md)
 ## [Sign up for free trial of Dynamics 365 Sales Professional](try-dynamics365-sales-professional.md) 
-## [Sales Team Member app](../sales-enterprise/sales-team-member.md)
 ## Get started
 ### [Overview](sales-professional-overview.md)
 ### [Get started with the basics](learn-basics-sales-professional.md)
@@ -97,6 +96,6 @@
 ### [Microsoft Teams integration](../teams-integration/teams-integration.md)
 ### [Integrate sample softphone with Dynamics 365 Sales](sample-softphone-integration-sp.md)
 
-# Dynamics 365 Sales (Enterprise)
+# Resources for other Sales apps
 ## [Help resources for Dynamics 365 Sales (Enterprise)](../sales-enterprise/help-hub.md)
-
+## [Sales Team Member app for users with Team Member license](../sales-enterprise/sales-team-member.md)
