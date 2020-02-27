@@ -79,11 +79,12 @@ Define the level of service or support that your organization agrees to offer to
 The SLA feature in Customer Service Hub supports the following salient features:
 
 - Option to use the out-of-the-box actions in Microsoft Power Automate.
+
 - Option to define work hours, pause, and resume SLAs at SLA item level that helps track SLA items for different work hours based on priority and criteria.
   
-The following illustration depicts how you can define an overall resolution time, and also specify nested SLA items of shorter duration.
+- In a case lifecycle, multiple SLA KPIs can be triggered at different start points. The following illustration depicts how you can define an overall resolution time, and also specify nested SLA KPIs at different start points.
 
-![SLA pause and resume](../customer-service/media/SLA-pause-resume.png "SLA pause and resume")
+   ![SLA pause and resume](../customer-service/media/SLA-pause-resume.png "SLA pause and resume")
 
 Perform the following steps to configure SLAs in Customer Service Hub:
 
