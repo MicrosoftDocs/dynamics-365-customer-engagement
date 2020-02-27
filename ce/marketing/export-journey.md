@@ -1,7 +1,7 @@
 ---
 title: "Export customer journey insights to Excel (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to export Dynamics 365 Marketing customer journey data to Excel for further analysis or reporting."
-ms.date: 02/03/2020
+ms.date: 02/25/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -39,6 +39,8 @@ You can now export all customer journey interactions into a .CSV file for furthe
 2. Select the **Export to CSV** button in the right top corner of a selected table.
 
 3. That’s it! The .CSV file is automatically downloaded with the same columns and data as the table you selected to export.
+
+    ![Export a category to CSV](media/customer-journey-export.png "Export a category to CSV")
 
 > [!IMPORTANT]
 > You cannot download different categories of interactions (e.g., **Sent** + **Delivered** + **Blocked** + **Delivery failed**) all at once into one file.
