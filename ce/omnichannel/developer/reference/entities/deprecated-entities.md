@@ -17,6 +17,7 @@ The following entities have been deprecated. These entities will still be visibl
 - msdyn_omnichannelqueue
 - msdyn_localizedsurveyquestion
 - msdyn_routingruleinstance
+- msdyn_systemuser_msdyn_omnichannelqueue
 
 ### See also
 
