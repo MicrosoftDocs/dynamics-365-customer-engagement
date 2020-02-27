@@ -25,7 +25,7 @@ search.app:
 
 We're excited to announce our newest updates! To see the latest upcoming features, take a look at the [Dynamics 365 and Power Platform release plans](https://docs.microsoft.com/dynamics365/release-plans/). This topic summarizes early access features, preview features, monthly general availability enhancements, and bug fixes.
 
-Microsoft rolls out each monthly and biannual update on a region-by-region basis. Updates are available to all regions by the end of the month. You must manually update each of your Marketing instances. As soon as an update is available in your region, you can apply it to your instances as described in [Keep Marketing up to date](apply-updates.md). We recommend updating all Marketing instances as soon as an update is available.
+Microsoft rolls out each monthly and biannual update on a region-by-region basis. Updates are available to all regions by the end of the month. We recommend updating all Marketing instances as soon as an update is available.  You can apply updates to your instances as described in [Keep Marketing up to date](apply-updates.md). Each of your Marketing instances must be manually updated.
 
 > [!Note]
 > To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20Marketing).
@@ -73,13 +73,13 @@ The Dynamics 365 Marketing March 2020 update includes several feature enhancemen
 - **Digital assets**
     - Disabled ability to upload file types with mismatched file extension.
 - **Entitlement**
-    - Resolved issue where some users were unable to re-install a Marketing instance after an entitlement was freed.
+    - Resolved issue where some users were unable to reinstall a Marketing instance after an entitlement was freed.
 - **GDPR**
     - Disabled behavior tracking for consent confirmation.
 - **Marketing list**
     - Resolved issue where the delete button was sometimes not functional in the web client.
 - **Segment management**
-    - Resolved issues where members of static segments did not import correctly from Customer Insights.
+    - Resolved issue where members of static segments did not import correctly from Customer Insights.
     - Fixed an issue where a "Business process error" could result after a successful first run experience in a disconnected org.
 
 ## February 2020 update
@@ -167,7 +167,7 @@ The Dynamics 365 Marketing February 2020 update includes an improved segment exp
 
 The Dynamics 365 Marketing December 2019 update includes the previously announced send-now feature, plus several improvements for existing features, performance improvements, and bug fixes.
 
-### Significantly improved segmentation performance
+### Improved segmentation performance
 
 Dynamics 365 Marketing now evaluates segment membership much more quickly than before. For simple segments, we now offer near-real-time evaluation. Complex segments, such as those that use relations or the TRAVERSE operator, are now processed up to four times faster. You'll now be able to see the full contact list on the **Members** tab much sooner than previously after going live with the segment.
 
@@ -195,7 +195,7 @@ More information: [Work with segment templates](segments-templates.md)
 
 When you design a new marketing email, page, form, or segment you are first presented with a gallery of templates to choose from. Now, you can add an eye-catching visual label to any template to make it easier to find and identify when browsing the gallery and other displays. For displays that use the tile view, each label appears as a colorful overlay for each relevant template. For displays using the grid view (list view), the labels can be displayed as column values, where they also show their configured colored background.
 
-System customizers can create as many labels as you need, and define the display text and background color for each of them. In the following screenshot, you can see a tile view of marketing-page templates labelled with "New", "Old", and "VIP".
+System customizers can create as many labels as you need, and define the display text and background color for each of them. In the following screenshot, you can see a tile view of marketing-page templates labeled with "New", "Old", and "VIP".
 
 ![Template gallery with labels in tile view](media/template-label-example.png "Template gallery with labels in tile view")
 
@@ -297,7 +297,7 @@ For more information about this feature, see:
 
 ### Customer journey insights improvements
 
-Customer journeys provide detailed information about what occurred during the journey. Among the results presented on the **Insights** tab is the **Incomplete journey** panel, where you can see information about contacts who were stopped during the journey and emails that we blocked from being sent. Emails might be blocked for any of several reasons, which are listed here. For the November release, we've added an entry for **Other reasons** , where blocked emails that don't fall into any of the other available categories will be listed together with information about what happened.
+Customer journeys provide detailed information about what occurred during the journey. Among the results presented on the **Insights** tab is the **Incomplete journey** panel, where you can see information about contacts who were stopped during the journey and emails that we blocked from being sent. Emails might be blocked for any of several reasons, which are listed here. For the November release, we've added an entry for **Other reasons**, where blocked emails that don't fall into any of the other available categories will be listed together with information about what happened.
 
 For more information about this feature, see:
 
