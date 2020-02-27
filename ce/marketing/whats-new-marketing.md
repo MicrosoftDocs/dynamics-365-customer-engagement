@@ -38,7 +38,7 @@ The Dynamics 365 Marketing March 2020 update includes several feature enhancemen
 
 | App              | GA release      |
 |------------------|-----------------|
-| Marketing        | 1.35.10058.XXXX |
+| Marketing        | 1.35.10059.1034 |
 
 > [!Tip]
 > To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](https://docs.microsoft.com/dynamics365/marketing/apply-updates#find-out-which-version-of-dynamics-365-marketing-you-are-running).
@@ -59,14 +59,13 @@ The Dynamics 365 Marketing March 2020 update includes several feature enhancemen
     - Added custom channel names in the interaction timeline.
     - Warning dialog when stopping records (emails, forms, segments) used by customer journeys.
 - **Event management**
-    - Added option to set a stop event registration date.
     - Improved recurrent event behavior.
 - **Marketing forms**
     - You can now whitelist allowed domains instead of whitelisting individual forms pages.
 - **Segment management**
     - Improved date operations.
     - Improved visibility for Export to Excel feature.
-    - Added drag and drop capability to the segment query builder.
+    - Decimal input support in floating number fields.
 
 ### Bug fixes
 
