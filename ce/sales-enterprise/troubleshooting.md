@@ -1,6 +1,6 @@
 ---
 title: "Dynamics 365 Sales troubleshooting guide for sales people | MicrosoftDocs"
-description: "Follow the instructions in this topic to troubleshoot the issues you may face while working on Dynamics 365 Sales."
+description: "Follow the instructions in this topic to troubleshoot the issues you might face while working with Dynamics 365 Sales."
 ms.date: 10/01/2019
 ms.service:
   - "dynamics-365-sales"
@@ -10,6 +10,13 @@ ms.author: shujoshi
 manager: annbe
 ---
 
+
+<!--from editor: I recommend changing "sales people" to one word, "salespeople" in the title. 
+Also, be sure to update the metadata date to the new publication date.
+In the Unified Interface section, I changed the organization a little to make it more consistent with how other issues are set up in this topic. 
+-->
+
+
 # Dynamics 365 Sales troubleshooting guide for sales people
 
 Use the following list of troubleshooting topics to quickly find information to solve your issue.
@@ -18,8 +25,8 @@ Use the following list of troubleshooting topics to quickly find information to 
 
 ### How do I convert or qualify my leads?
 
-You qualify a lead when you determine that the lead you've nurtured has a potential to turn into business. 
-When you qualify a lead, it becomes an opportunity.
+You qualify a lead when you determine that the lead you've nurtured has a potential to turn into business. When you qualify a lead, it becomes an opportunity.
+
 To qualify a lead, select **Qualify** on the command bar of the lead record.
 
 > [!div class="mx-imgBorder"]  
@@ -28,8 +35,8 @@ To qualify a lead, select **Qualify** on the command bar of the lead record.
 You can also qualify a lead from the list of leads. Go to **Sales** > **Leads**. Select the lead you want to qualify and on the command bar, select **Qualify**.
 
 ### Why am I not able to qualify a lead?
-There could be multiple errors you may get while you qualify a lead. 
-1.  [Duplicate warning - There might already be a match for this account or contact. If so, please select it](troubleshooting.md#duplicate)
+There are multiple errors you could get while qualifying a lead. 
+1.  [Duplicate warning – There might already be a match for this account or contact. If so, please select it.](troubleshooting.md#duplicate)
 2.  [To move to the next stage, complete the required steps](troubleshooting.md#CompleteSteps)
 3.  [Active stage is not on 'lead' entity](troubleshooting.md#NoActiveStage)
 4.  [Access denied or Insufficient permissions](troubleshooting.md#AccessDenied)
@@ -37,19 +44,19 @@ There could be multiple errors you may get while you qualify a lead.
 The following sections describe each of these errors and how you can resolve them.
 
 <a name="duplicate"> </a>
-#### 1. Duplicate warning - There might already be a match for this account or contact. If so, please select it.
+#### 1. Duplicate warning – There might already be a match for this account or contact. If so, please select it.
 
 > [!div class="mx-imgBorder"]  
-> ![Duplicate warning while qualifying lead](media/duplicate-warning.png "Duplicate warning while qualifying lead")
+> ![Duplicate warning while qualifying a lead](media/duplicate-warning.png "Duplicate warning while qualifying a lead")
 
 
 **Reason:**
 
-When the lead is qualified to an opportunity, a corresponding account or contact is created. There may already be a match for this account or contact.
+When the lead is qualified to an opportunity, a corresponding account or contact is created. There might already be a match for this account or contact.
 
 **Resolution:**
 
-On the **Duplicate warning** dialog box, select the existing account or contact to avoid creating duplicates. To create a new record instead, click **Continue**.
+On the **Duplicate warning** dialog box, select the existing account or contact to avoid creating duplicates. To create a new record instead, select **Continue**.
 
 > [!NOTE]
 > When you qualify a lead through the Leads grid, the system creates an account or contact even though a duplicate record exists. By design, the rule that detects the duplicate records gets disabled. However, when you qualify a lead through the lead record form, the duplicate detection rule works. The rule prompts you with a warning to resolve the conflict if any duplicate records for account or contact are found.
@@ -70,12 +77,12 @@ Fill in data in all the mandatory fields in the current stage, save the record, 
 
 **Reason:**
 
-The lead that you're trying to qualify isn’t in the Active state. This may happen when an already-qualified lead has been reactivated.
+The lead that you're trying to qualify isn’t in the Active state. This might happen when an already qualified lead has been reactivated.
 
 **Resolution:**
 
 1.	Open the lead record.
-2.	On the process stage, select the Set **Active** button.
+2.	On the process stage, select the **Set Active** button.
 
     > [!div class="mx-imgBorder"]  
     > ![Set Active button in the Qualify stage of lead form](media/set-active-button-qualify-stage.png "Set Active button in the Qualify stage of lead form")
@@ -100,8 +107,8 @@ If there’s no error, and you're still not able to qualify a lead, contact the 
 ### How do I close an opportunity?
       
 Whether your customer has accepted or rejected your proposal, it's a good practice to close the opportunity as won or lost. 
-When you close an opportunity, the opportunity is marked as complete, and can’t be changed. 
-To make further changes to an opportunity, you can reopen it. 
+
+When you close an opportunity, the opportunity is marked as complete, and can’t be changed. To make further changes to an opportunity, you can reopen it. 
 
 
 > [!NOTE]
@@ -114,7 +121,7 @@ To close an opportunity, open the opportunity record, and on the command bar, se
 
 ### Why am I not able to close an opportunity?
 
-Here are some errors that you may see when you close an opportunity. 
+Here are some errors you might see when you close an opportunity: 
 1.  [The opportunity cannot be closed](troubleshooting.md#CannotBeClosed)
 2.  [Access denied or Insufficient permissions](troubleshooting.md#AccessDeniedOpportunity)
 3.  [The opportunity has already been closed](troubleshooting.md#AlreadyClosed)
@@ -126,12 +133,12 @@ The following sections describe each of these errors and how you can resolve the
 
 **Reason:**
 
-There may be active or draft quotes associated with the opportunity.
+There might be active or draft quotes associated with the opportunity.
 
 **Resolution:**
 
 1.	In the Opportunity record, go to the **Quotes** tab (or **Quotes line item** tab).
-2.	Make sure none of the quotes are in the Draft or Active status.
+2.	Make sure none of the quotes is in the Draft or Active status.
 
     > [!div class="mx-imgBorder"]  
     > ![Quotes in the Draft status](media/quotes-in-draft-state.png "Quotes in the Draft status")
@@ -157,7 +164,7 @@ The opportunity that you're trying to close is already marked as Won or Lost.
 
 **Resolution:**
 
-If you want to make changes to the already-closed opportunity, reopen the opportunity, make changes, and close it again.
+If you want to make changes to the already closed opportunity, reopen the opportunity, make changes, and close it again.
 
 ### Why am I not able to edit an opportunity?
 
@@ -168,17 +175,17 @@ To reopen, open the opportunity, and on the command bar, select **Reopen Opportu
 > [!div class="mx-imgBorder"]
 > ![Reopen opportunity](media/reopen-opportunity.png "Reopen opportunity")
 
-### Why am I not able to add products to opportunity? 
+### Why am I not able to add products to an opportunity? 
 
-Here are some errors that you may see while you add products to an opportunity. 
+Here are some errors you might see when you add products to an opportunity: 
 1.  [You must select a price list before attempting to add a product](troubleshooting.md#SelectPriceList)
 2.  [You must provide a value for product description](troubleshooting.md#ProductName)
 3.  [You can only add active products](troubleshooting.md#ActiveProducts)
 
 <a name="SelectPriceList"></a>
-#### 1. You must select a price list before attempting to add a product.
+#### 1. You must select a price list before attempting to add a product
 
-**Reason**: 
+**Reason:** 
 
 You haven't selected a price list for the opportunity. Selecting a price list is required to add products to an opportunity. 
 
@@ -190,9 +197,9 @@ You haven't selected a price list for the opportunity. Selecting a price list is
 <a name="ProductName"></a>
 #### 2. You must provide a value for product description.
 
-**Reason**: 
+**Reason:** 
 
-While creating a write-in product, you've not entered the product name.  
+When creating a write-in product, you haven't entered the product name.  
 
 **Resolution:**
 
@@ -201,9 +208,9 @@ Enter the product name.
 <a name="ActiveProducts"></a>
 #### 3. You can only add active products.
 
-**Reason**: 
+**Reason:** 
 
-While adding an existing product, you selected a product in the **Draft** status.  
+When adding an existing product, you selected a product in the **Draft** status.  
 
 **Resolution:**
 
@@ -212,15 +219,15 @@ Make sure the product you want to add is in the Active state, and then add the p
 
 ## Forecast definition issues and resolution
 
-### Why am I unable to publish forecast definition? 
+### Why am I unable to publish the forecast definition? 
 
-**Reason**
+**Reason:**
 
-There might be several reasons related to publishing failure. The following are some examples that might have caused the failure: 
-- Some users under the selected hierarchy may not be assigned the forecast manager or forecast user role. 
+There might be several reasons related to publishing failure. The following are examples that might cause a failure: 
+- Some users under the selected hierarchy might not be assigned the forecast manager or forecast user role. 
 - Some users are disabled under the selected hierarchy when you publish the forecast definition.  
 
-**Resolution**
+**Resolution:**
 
 1. Go to **Settings** > **System Jobs**.
 
@@ -229,34 +236,34 @@ There might be several reasons related to publishing failure. The following are 
     
     The system jobs page opens.
 
-2. Identify the forecast definition publishing job that is failed. If it's difficult to identify the job in the list of system jobs, use the **Regarding** column to find the failed job with forecast definition's title. In this example, the failed forecast definition title is **Bert FY'19**.
+2. Identify the forecast definition publishing job that failed. If it's difficult to identify the job in the list of system jobs, use the **Regarding** column to find the failed job with the forecast definition's title. In this example, the failed forecast definition title is **Bert FY'19**.
 
     > [!div class="mx-imgBorder"]
     > ![System jobs page](media/troubleshooting-forecast-system-jobs.png "System jobs page")
     
-3. Select the System Job Name to view the error details. In this example, the system job name that's corresponding to **Bert FY'19** is selected.
+3. Select the System Job Name to view the error details. In this example, the system job name that corresponds to **Bert FY'19** is selected.
 
     > [!div class="mx-imgBorder"]
     > ![Select failed system job](media/troubleshooting-forecast-system-job-select.png "Select failed system job")
 
-4. In the **information** page, you can see the error message highlighted in **Yellow** with the reason why the forecast definition publishing is failed. Select **Details** section to see more details about the error. In this example, you can see that the error has occurred because of insufficient user privileges in Bert's hierarchy. 
+4. In the **information** page, you can see the error message highlighted in **Yellow** with the reason why the forecast definition publishing failed. Select the **Details** section to see more details about the error. In this example, you can see that the error occurred because of insufficient user privileges in Bert's hierarchy. 
 
     > [!div class="mx-imgBorder"]
     > ![Failed reason in information page](media/troubleshooting-forecast-system-job-failed-reason.png "Failed reason in information page")
 
 5. Take the necessary actions to resolve the error and republish the forecast definition. 
     
-    To resolve the error in this example, assign Forecast manager or Forecast user roles to all the user under Bert's hierarchy as required, and republish the forecast definition.
+    To resolve the error in this example, assign Forecast manager or Forecast user roles to all the users under Bert's hierarchy as required, and republish the forecast definition.
 
-### Why am I unable to recalculate forecast?
+### Why am I unable to recalculate the forecast?
 
-**Reason**
+**Reason:**
 
-There might be several reasons related to the failure of recalculation of the forecast. The following are some examples that might have caused the failure: 
+There might be several reasons related to the failure of recalculation of the forecast. The following are some examples that might cause a failure: 
 - User roles (forecast manager or forecast user) might have been removed under the selected hierarchy after the forecast was created. 
-- In the **Forecast metric** value, for **Revenue** field, the **Rollup Fields** value is changed.
+- In the **Forecast metric** value, for the **Revenue** field, the **Rollup Fields** value has changed.
 
-**Resolution**
+**Resolution:**
 
 1. Go to **Change area** and select **Sales** > **Forecasts**. 
 
@@ -265,38 +272,42 @@ There might be several reasons related to the failure of recalculation of the fo
 
     A list of published forecasts is displayed.
 
-2. In **Last recalculated on** column displays an error icon corresponding to recalculation failed forecast. Place cursor over the icon and a message/reason for the error is displayed.
+2. The **Last recalculated on** column displays an error icon corresponding to the recalculation failed forecast. Place your cursor over the icon and a message or reason for the error is displayed.
  
     > [!div class="mx-imgBorder"]
     > ![View recalculation failed icon](media/troubleshooting-forecast-recalculation-failed-error-message.png "View recalculation failed icon")
 
-4. Take necessary actions to resolve the error and recalculate forecast. 
+4. Take the necessary actions to resolve the error and recalculate the forecast. 
 
-## Issues related to the Unified interface
+## Issues related to Unified Interface
 
-### Out-of-the-box or custom entities appear as read-only in the Unified interface apps
+### Out-of-the-box or custom entities appear as read-only in Unified Interface apps
 
-Some out-of-the-box and custom entities are appearing as read-only in the Sales Hub app (Unified interface). However, these entities are editable in the legacy web client. Some out-of-the-box buttons are also unavailable on the forms in the Unified interface.
+Some out-of-the-box and custom entities are appearing as read-only in the Sales Hub app (Unified Interface). However, these entities are editable in the legacy web client. Some out-of-the-box buttons are also unavailable on the forms in Unified Interface.
 
-### Resolution
+**Reason:**
 
-This could happen when an entity is set to be read-only in mobile. To resolve this: 
+This could happen when an entity is set to be read-only in mobile. 
 
-1.	In your app, on the navigation bar, select the **Settings** icon, and then select **Advanced Settings**.
+**Resolution:**
+
+To resolve this: 
+
+1.	On the navigation bar in your app, select the **Settings** icon and then select **Advanced Settings**.
 
     ![Advanced Settings option on the Settings menu](media/advanced-settings-option.png "Advanced Settings option on the Settings menu")
 
     The **Business Management** page opens in a new browser tab.
 
-2.	On the navigation bar, select **Settings**, and then select **Customization**.
+2.	On the navigation bar, select **Settings** and then select **Customizations**.
 
-    ![Select Customization](media/customization-in-sitemap.png "Select Customization")
+    ![Select Customizations](media/customization-in-sitemap.png "Select Customizations")
  
 3.	On the **Customization** page, select **Customize the System**.
 
-4.	In the solution explorer, under **Components**, expand **Entities**, and then select the specific entity that’s appearing as read-only.
+4.	In the solution explorer, under **Components**, expand **Entities** and then select the specific entity that’s appearing as read-only.
 
-5.	On the **General** tab, under the **Outlook & Mobile** section, clear the **Read-only in mobile** check box.
+5.	On the **General** tab, under **Outlook & Mobile**, clear the **Read-only in mobile** check box.
 
     ![Setting to make an entity read-only in mobile](media/read-only-in-mobile-setting.png "Setting to make an entity read-only in mobile")
  
@@ -307,6 +318,6 @@ This could happen when an entity is set to be read-only in mobile. To resolve th
 All the out-of-the-box actions will be available and entities will be editable. 
 
 
-### See Also
+### See also
 
 [Dynamics 365 Sales troubleshooting guide for administrators](troubleshooting-admin.md)
