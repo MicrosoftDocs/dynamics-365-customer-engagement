@@ -4,7 +4,7 @@ description: "Read how you can build a smart assist bot to help agents resolve c
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 02/25/2020
+ms.date: 02/27/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -151,7 +151,7 @@ For more information, see the code sample [README](https://github.com/microsoft/
 > See this administrator guide topic on how to enable smart assist: [Smart assist for agents](../../administrator/smart-assist.md). It provides instructions on how to create a bot user, how to add a smart assist bot to a workstream and how to enable a productivity pane.
 
 > [!div class="nextstepaction"]
-> [Implement a custom scenario for smart assist bot](smart-assist-scenario.md)
+> [See Next: Implement a custom scenario for smart assist bot](smart-assist-scenario.md)
 
 ## See also
 

@@ -237,7 +237,7 @@
 #### [Auto-close a conversation](developer/auto-close-conversation.md)
 #### Custom smart assist bot
 ##### [Build a custom smart assist bot](developer/how-to/smart-assist-bot.md)
-##### [Implement custom scenario for smart assist bot](developer/how-to/smart-assist-scenario.md)
+##### [Implement custom scenario](developer/how-to/smart-assist-scenario.md)
 ### Entity reference
 #### [Overview](developer/reference/entities/overview.md)
 #### [Deprecated entities](developer/reference/entities/deprecated-entities.md)

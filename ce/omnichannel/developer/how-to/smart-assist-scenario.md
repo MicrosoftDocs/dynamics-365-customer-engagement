@@ -13,6 +13,13 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
+> [!NOTE]
+> See the entire code sample for building a smart assist bot here: [Smart Assist for Bots](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/smart-assist-bot). You will find information on how to setup and run the sample in the sample [README](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/smart-assist-bot/README.md) file. You can make changes to this sample code to implement your custom scenario.
+
+## Prerequisites
+
+Read the topic [Build a custom smart assist bot](smart-assist-bot.md) for information on how to get started with building a custom smart assist bot. 
+
 ## Scenario: Similar case suggestion
 
 Consider the scenario where a customer who is trying to troubleshoot his printer reaches out to customer support through chat channel. The chat request is accepted by an agent. The customer before initiating the chat browsed through the printer website and the customer support agent can see the articles that the customer has read.
@@ -30,7 +37,6 @@ Yes, that is right. My printer is making loud noise. I tried restarting it but t
 ```
 
 The customer service agent is presented with a list of similar cases as a recommendation. The agent clicks on the case that he finds most similar and relevant, and then goes to the case note and looks ar the resolution in note. The agent suggests the same resolution to the customer over chat.
-
 
 ## Calling macros and custom actions using adaptive cards
 
