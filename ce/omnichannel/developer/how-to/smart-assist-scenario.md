@@ -42,6 +42,8 @@ The customer service agent is presented with a list of similar cases as a recomm
 
 Similar cases can be fetched using the `GetSimilarRecords` function. But before you execute the Web API query with this function, make sure that you have set up similarity rules. More information: [Use advanced similarity rules to view similar case suggestions](../../../customer-service/suggest-similar-cases-for-a-case). Also, make sure to enable **Relevance Search** in the administrator section to ensure that similarity rules work in the expected manner. Also, in the **Match Field** section add a few criteria such as case title and case type.
 
+**Request**
+
 ```http
 GET [Organization URI]/api/data/v9.1/GetSimilarRecords(Id=@Id,Filter=@Filter,ReturnFields=@ReturnFields)?@Id={"@odata.id":"incidents(<incident id>)"}&@Filter=null&@ReturnFields={"AllColumns":false,"Columns":["title","description"]}
 Accept: application/json  
@@ -50,6 +52,30 @@ OData-Version: 4.0
 ```
 
 Replace the `incident id` in the Web API request above with the unique identifier of the case for which you want to find similar cases.
+
+**Response**
+
+```json
+{
+    "@odata.context": "[Organization URI]/api/data/v9.1/$metadata#incidents",
+    "value": [
+        {
+            "@odata.type": "#Microsoft.Dynamics.CRM.incident",
+            "@odata.etag": "W/\"1571835\"",
+            "title": "Product question re warranty",
+            "modifiedon": "2019-03-03T12:58:25Z",
+            "incidentid": "f69e62a8-90df-e311-9565-a45d36fc5fe8"
+        },
+        {
+            "@odata.type": "#Microsoft.Dynamics.CRM.incident",
+            "@odata.etag": "W/\"1572750\"",
+            "title": "Shipment question re order",
+            "modifiedon": "2019-03-03T12:58:27Z",
+            "incidentid": "129f62a8-90df-e311-9565-a45d36fc5fe8"
+        }
+    ]
+}
+```
 
 ## See also
 
