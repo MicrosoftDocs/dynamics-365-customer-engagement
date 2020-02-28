@@ -1,10 +1,10 @@
 ---
-title: "notifyKPIBreach (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) version 2.0 | MicrosoftDocs"
+title: "notifyKpiBreach (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) version 2.0 | MicrosoftDocs"
 description: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 01/20/2019
+ms.date: 02/28/2019
 ms.topic: reference
 ms.service: 
   - dynamics-365-customerservice
@@ -13,7 +13,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# notifyKPIBreach
+# notifyKpiBreach
 
 This method is used to indicate a KPI breach. When this KPI is used, a red circle appears on the display image of the contact when a KPI breach has occurred.
 
@@ -22,7 +22,7 @@ This method is used to indicate a KPI breach. When this KPI is used, a red circl
 
 ## Syntax
 
-`Microsoft.CIFramework.notifyKPIBreach(sessionId, shouldReset, details).then(successCallback, errorCallback);`
+`Microsoft.CIFramework.notifyKpiBreach(sessionId, shouldReset, details).then(successCallback, errorCallback);`
 
 ## Parameters
 
@@ -41,7 +41,7 @@ None
 ## Example
 
 ```javascript
-Microsoft.CIFramework.notifyKPIBreach(sessionId, shouldReset, details).then(
+Microsoft.CIFramework.notifyKpiBreach(sessionId, shouldReset, details).then(
 	function success(result) {
 		console.log(result);
 		// Perform operations

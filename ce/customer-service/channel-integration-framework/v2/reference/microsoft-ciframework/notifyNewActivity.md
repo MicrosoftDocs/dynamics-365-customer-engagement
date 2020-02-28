@@ -29,7 +29,7 @@ This method is used to update the number of new activities in a particular sessi
 | **Name**        | **Type** | **Required** | **Description**                                                                                                  |
 |-----------------|----------|--------------|------------------------------------------------------------------------------------------------------------------|
 | sessionId           | String   | Yes    | Unique identifier of the session.                            |
-| count | Number | Yes     | A number indicating the count of new activities in the session since the last time the session was in focus. |
+| count | Number | Yes     | A number indicating the count of new activities in the session since the last time the session was in focus.<br />The API call fails if negative numbers are passed in this parameter. |
 | successCallback| Function | No | A function to call when the request is successful. |
 | errorCallback | Function | No | A function to call when the request fails. |
 
@@ -54,4 +54,4 @@ Microsoft.CIFramework.notifyNewActivity(sessionId, count).then(
 
 ### See also
 
-[notifyKPIBreach API](notifyKPIBreach.md)
+[notifyKpiBreach API](notifyKPIBreach.md)
