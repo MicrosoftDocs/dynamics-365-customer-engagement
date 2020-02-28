@@ -36,7 +36,7 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-o
 
 ## FAQs
 
-For more information on FAQ's, see [Frequently Asked Questions about Dynamics 365 App for Outlook](faq.md).
+For more information on FAQs, see [Frequently Asked Questions about Dynamics 365 App for Outlook](faq.md).
 
 ## Prerequisites  
  Your system administrator can make [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] available to your organization or you can add it yourself if:  
@@ -48,7 +48,7 @@ For more information on FAQ's, see [Frequently Asked Questions about Dynamics 36
   For more information, and for information on supported devices, browsers, and [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] versions, see [Deploy Dynamics 365 App for Outlook](deploy-dynamics-365-app-for-outlook.md).  
 
 ## Add the app to Outlook  
- After the prerequisites have been met, you can add the app directly from Dynamics 365 app.  
+ After the prerequisites have been met, you can add the app directly from   Dynamics 365 app.  
 
 1. Select the **Settings** button ![Dynamics 365 apps web client Settings button](../outlook-app/media/mp-ua-r16-settings.png "Dynamics 365 apps web client Settings button"), and then click **Apps for Dynamics 365**.  
 
@@ -149,18 +149,24 @@ Let's go over the individual elements in the menu bar.
 ## Use delegate access 
 
 Delegate access is granted to users who manage certain aspects of Outlook and Common Data Service information for another person.
-Once delegate access in turned on, you can use the Dynamics 365 Outlook App to track emails and calendar appointments for someone else.
+
+Once delegate access is turned on, you can use Dynamics 365 App for Outlook to track emails and calendar appointments for someone else.
 
 For more information on how to set up delegate access, see [Set up delegate access](enable-delegate-access.md).
 
+
+<!--from editor: In the fourth line under Important, should "to" not be in bold? -->
+
+
+
 > [!IMPORTANT]
-> - Track status may not update immediately until the sync cycle is complete for both the user and the delegated user. This might take few minutes. 
-> - Delegated user should be able to access and interact with the primary user's mailbox.
-> - Delegated user cannot track contacts on the delegated mailbox.
-> - Delegated user cannot set **Regarding to** a new contact. Emails and appointments can only be tracked for existing contacts.
+> - Track status might not update until the sync cycle is complete for both the user and the delegated user. This might take a few minutes. 
+> - The delegated user should be able to access and interact with the primary user's mailbox.
+> - The delegated user cannot track contacts on the delegated mailbox.
+> - The delegated user cannot set **Regarding to** a new contact. Emails and appointments can only be tracked for existing contacts.
 
 ### Track email from a known contact
-1. Go to the person's email folder that you are a delegate for and open an email from a contact that you want to track.
+1. Go to the email folder of the person that you are a delegate for and open an email from a contact that you want to track.
 2. In the Dynamics 365 pane, select **Contact** > **Set Regarding**.
 
    > [!div class="mx-imgBorder"] 
@@ -171,14 +177,14 @@ For more information on how to set up delegate access, see [Set up delegate acce
    > [!div class="mx-imgBorder"] 
    > ![](media/Pic2.png)
    
-4. Once the email has finished synchronizing in Common Data Service, status of the email changes to **Tracked regarding** for both the user and the delegated user.
+4. Once the email has finished synchronizing in Common Data Service, the status of the email changes to **Tracked regarding** for both the user and the delegated user.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/Pic3.png)
 
 ### Track appointment or meeting invitation for a known contact
 
-1. Go to calendar of the person that you are a delegate for and open the invitation where you want to track in Common Data service.
+1. Go to the calendar of the person that you are a delegate for and open the invitation that you want to track in Common Data Service.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/Pic4.png)
@@ -193,9 +199,9 @@ For more information on how to set up delegate access, see [Set up delegate acce
    > [!div class="mx-imgBorder"] 
    > ![](media/Pic6.png)
    
-4. The status on the meeting invitation changes to **Track pending** for both the user and the delegated user. 
+4. The status of the meeting invitation changes to **Track pending** for both the user and the delegated user. 
    
-5. Once the meeting invitation has finished synchronizing in Common Data Service, status of the meeting invitation changes to **Tracked regarding** for both the user and the delegated user.
+5. Once the meeting invitation has finished synchronizing in Common Data Service, the status of the meeting invitation changes to **Tracked regarding** for both the user and the delegated user.
 
 
 ## Experience App for Outlook as a pinnable taskpane
@@ -517,7 +523,7 @@ You can track appointments from another person in your Dynamics 365 apps organiz
 
 You can also use [this tool](https://github.com/seanmcne/OrgDbOrgSettings/releases/) to edit the *OrgDBOrgSetting TrackAppointmentsFromNonOrganizer*.
 
-After the *OrgDBOrgSettin*g is enabled, when you open Dynamics 365 App for Outlook on an appointment created by another user in your organization, you can track the appointment. You will no longer see the banner blocking you from tracking the calendar item.
+After the *OrgDBOrgSetting* is enabled, when you open Dynamics 365 App for Outlook on an appointment created by another user in your organization, you can track the appointment. You will no longer see the banner blocking you from tracking the calendar item.
 
  ![Track appointments](media/Trackappointments.png "Track appointments ")
 
@@ -525,7 +531,7 @@ After the *OrgDBOrgSettin*g is enabled, when you open Dynamics 365 App for Outlo
 
 The Dynamics 365 App for Outlook tracks and synchronizes your mail and calendar data between Outlook (Exchange) and Dynamics 365 apps. Server Side Synchronization is an asynchronous service that runs in the background approximately every 15 minutes to synchronize items between Exchange and Dynamics 365 apps. In most scenarios, the Outlook item is immediately created in Dynamics 365 apps. However, in some cases, Server Side Synchronization service is used to promote the item to Dynamics 365 apps and keep it synchronized, which may take up to 15 minutes. The below table provides a brief explainer of the behavior.
 
-In most cases items are immediately tracked aside from, when an email is in compose mode and recurring appointments.
+In most cases items are immediately tracked, aside from when an email is in compose mode and recurring appointments.
 
    > [!NOTE]
    > Server Side Synchronization is used to promote emails when Microsoft Outlook includes images in email signatures as attachments.
