@@ -83,6 +83,13 @@ Channel Analytics APIs enable you to track event analytics.
 | [initLogAnalytics](microsoft-ciframework/initLogAnalytics.md) | Invoke this method on an incoming conversation to log analytics.|
 | [logAnalyticsEvent](microsoft-ciframework/logAnalyticsEvent.md) | Invoke this method to log analytics for custom events.|
 
+## Session Indicator APIs
+
+| Methods | Description |
+|---------|-------------|
+| [notifyKpiBreach](microsoft-ciframework/notifyKPIBreach.md) | This method is used to indicate a KPI breach. When this KPI is used, a red circle appears on the display image of the contact when a KPI breach has occurred.|
+| [notifyNewActivity](microsoft-ciframework/notifyNewActivity.md) | This method is used to update the number of new activities in a particular session.|
+
 ## Miscellaneous Methods
 
 | Methods | Description |
@@ -97,13 +104,6 @@ Channel Analytics APIs enable you to track event analytics.
 | [addHandler](microsoft-ciframework/addHandler.md) | [!INCLUDE[addHandler-description](microsoft-ciframework/includes/addHandler-description.md)] |
 | [removeHandler](microsoft-ciframework/removeHandler.md) | [!INCLUDE[removeHandler-description](microsoft-ciframework/includes/removeHandler-description.md)] |
 | [updateContext](microsoft-ciframework/updateContext.md) | This method allows you to set automation dictionary. |
-
-## Session Indicator Methods
-
-| Methods | Description |
-|---------|-------------|
-| [notifyKpiBreach](microsoft-ciframework/notifyKPIBreach.md) | This method is used to indicate a KPI breach. When this KPI is used, a red circle appears on the display image of the contact when a KPI breach has occurred.|
-| [notifyNewActivity](microsoft-ciframework/notifyNewActivity.md) | This method is used to update the number of new activities in a particular session.|
 
 ## See also
 
