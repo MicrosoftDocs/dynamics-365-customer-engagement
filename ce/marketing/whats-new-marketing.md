@@ -56,7 +56,7 @@ The Dynamics 365 Marketing March 2020 update includes several feature enhancemen
 ### General availability enhancements
 
 - **Customer journeys**
-    - Custom channel names are now visible in the interaction timeline.
+    - Custom channel names are now shown in the interaction timeline control.
     - Warning dialog when stopping records (emails, forms, segments) used by customer journeys.
 - **Event management**
     - Added the ability to set a registration cutoff date for events.
@@ -65,7 +65,6 @@ The Dynamics 365 Marketing March 2020 update includes several feature enhancemen
     - You can now whitelist allowed domains instead of whitelisting individual forms pages.
 - **Segment management**
     - Improved date operations.
-    - Custom channel names are now shown in the interaction timeline.
     - Improved visibility for Export to Excel feature.
     - Decimal input support in floating number fields.
     - Improved segment template builder functionality.
