@@ -48,7 +48,7 @@ For more information on FAQs, see [Frequently Asked Questions about Dynamics 365
   For more information, and for information on supported devices, browsers, and [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] versions, see [Deploy Dynamics 365 App for Outlook](deploy-dynamics-365-app-for-outlook.md).  
 
 ## Add the app to Outlook  
- After the prerequisites have been met, you can add the app directly from   Dynamics 365 app.  
+ After the prerequisites have been met, you can add the app directly from Dynamics 365 app.  
 
 1. Select the **Settings** button ![Dynamics 365 apps web client Settings button](../outlook-app/media/mp-ua-r16-settings.png "Dynamics 365 apps web client Settings button"), and then click **Apps for Dynamics 365**.  
 
