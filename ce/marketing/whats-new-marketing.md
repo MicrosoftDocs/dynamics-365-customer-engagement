@@ -59,6 +59,7 @@ The Dynamics 365 Marketing March 2020 update includes several feature enhancemen
     - Added custom channel names in the interaction timeline.
     - Warning dialog when stopping records (emails, forms, segments) used by customer journeys.
 - **Event management**
+    - afa
     - Improved recurrent event behavior.
 - **Marketing forms**
     - You can now whitelist allowed domains instead of whitelisting individual forms pages.
