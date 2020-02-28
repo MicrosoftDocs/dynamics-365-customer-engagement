@@ -25,7 +25,7 @@ search.app:
 
 We're excited to announce our newest updates! To see the latest upcoming features, take a look at the [Dynamics 365 and Power Platform release plans](https://docs.microsoft.com/dynamics365/release-plans/). This topic summarizes early access features, preview features, monthly general availability enhancements, and bug fixes.
 
-Microsoft rolls out each monthly and biannual update on a region-by-region basis. Updates are available to all regions by the end of the month. We recommend updating all Marketing instances as soon as an update is available.  You can apply updates to your instances as described in [Keep Marketing up to date](apply-updates.md). Each of your Marketing instances must be manually updated.
+Microsoft rolls out each update on a region-by-region basis. Updates are available to all regions by the end of the month. We recommend updating all Marketing instances as soon as an update is available.  You can apply updates to your instances as described in [Keep Marketing up to date](apply-updates.md). Each of your Marketing instances must be manually updated.
 
 > [!Note]
 > To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20Marketing).
@@ -56,17 +56,19 @@ The Dynamics 365 Marketing March 2020 update includes several feature enhancemen
 ### General availability enhancements
 
 - **Customer journeys**
-    - Added custom channel names in the interaction timeline.
+    - Custom channel names are now visible in the interaction timeline.
     - Warning dialog when stopping records (emails, forms, segments) used by customer journeys.
 - **Event management**
-    - afa
+    - Added the ability to set a registration cutoff date for events.
     - Improved recurrent event behavior.
 - **Marketing forms**
     - You can now whitelist allowed domains instead of whitelisting individual forms pages.
 - **Segment management**
     - Improved date operations.
+    - Custom channel names are now shown in the interaction timeline.
     - Improved visibility for Export to Excel feature.
     - Decimal input support in floating number fields.
+    - Improved segment template builder functionality.
 
 ### Bug fixes
 
