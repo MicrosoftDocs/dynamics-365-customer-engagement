@@ -155,9 +155,6 @@ Once delegate access is turned on, you can use Dynamics 365 App for Outlook to t
 For more information on how to set up delegate access, see [Set up delegate access](enable-delegate-access.md).
 
 
-<!--from editor: In the fourth line under Important, should "to" not be in bold? -->
-
-
 
 > [!IMPORTANT]
 > - Track status might not update until the sync cycle is complete for both the user and the delegated user. This might take a few minutes. 
