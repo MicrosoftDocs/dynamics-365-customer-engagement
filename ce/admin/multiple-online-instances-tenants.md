@@ -1,7 +1,7 @@
 ---
 title: "Multiple instances or tenants | MicrosoftDocs"
 ms.custom: 
-ms.date: 02/10/2020
+ms.date: 02/27/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite:
@@ -21,6 +21,8 @@ search.app:
 ---
 # About multiple online instances or tenants
 
+This content has moved to the Admin Power Platform documentation: [About multiple online environments or tenants](https://docs.microsoft.com/power-platform/admin/multiple-online-environments-tenants). 
+<!-- 
 [!INCLUDE[applies-to](../includes/cc_applies_to_ce.md)]
 
 Model-driven apps in Dynamics 365, such as Dynamics 365 Sales and Customer Service, gives you options for segregating your data and user access. For most companies, adding and using multiple instances in your subscription provides the right mix of functionality and ease of management. Enterprises with separate geographic locations might consider using multiple tenants to separate licenses. Multiple instances can share users among instances; multiple tenants cannot.  
@@ -166,3 +168,4 @@ Model-driven apps in Dynamics 365, such as Dynamics 365 Sales and Customer Servi
   
 - There can be no duplicate accounts across the tenants or partitions in the on-premises [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)].  
   
+-->
