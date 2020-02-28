@@ -85,6 +85,8 @@ Channel Analytics APIs enable you to track event analytics.
 
 ## Session Indicator APIs
 
+Session indicator APIs indicate a KPI breach and can be used to update the number of new activities in a particular session.
+
 | Methods | Description |
 |---------|-------------|
 | [notifyKpiBreach](microsoft-ciframework/notifyKPIBreach.md) | This method is used to indicate a KPI breach. When this KPI is used, a red circle appears on the display image of the contact when a KPI breach has occurred.|
