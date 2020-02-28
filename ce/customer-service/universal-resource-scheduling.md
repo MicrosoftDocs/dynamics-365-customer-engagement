@@ -4,7 +4,7 @@ description: See how you can effectively search resource availability and create
 author: lerobbin
 ms.author: lerobbin
 manager: shujoshi
-ms.date: 02/26/2020
+ms.date: 02/28/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -26,11 +26,11 @@ Use the Search Resource Availability for Requirement Group API and the Create Re
 - The [Search Resource Availability for Requirement Group](#bkmk_sra_rg) API returns available time slots for resources when you search by using requirement groups.
 - The [Create Requirement Group Bookings](#bkmk_crgb) API uses the available time slots for resources to generate booking records for your requirement groups.
 
-You pass the details of a requirement group to the APIs <!--edit okay? --> and retrieve a list of available resources and their open time slots. This is helpful for self-scheduling scenarios, where a user wants to view the availability of resources, or for portal scheduling scenarios where a customer wants to view resource availability from a website or app.
+You pass the details of a requirement group in your API calls and retrieve a list of available resources and their open time slots. This is helpful for self-scheduling scenarios, where a user wants to view the availability of resources, or for portal scheduling scenarios where a customer wants to view resource availability from a website or app.
 
 ### Prerequisites
-<!--I assume "version 9.0 or later" applies to Dynamics 365? I don't find "Organization 9.0" anywhere as an actual product with a version. -->
-- Dynamics 365 version 9.0 or later organization with Universal Resource Scheduling version 3.12.x.x
+
+- Dynamics 365 version 9.0 or above with Universal Resource Scheduling version 3.12.x.x
 
 <a name="bkmk_sra_rg"></a>
 
