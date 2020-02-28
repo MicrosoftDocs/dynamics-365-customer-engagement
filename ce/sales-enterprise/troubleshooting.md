@@ -219,7 +219,7 @@ Make sure the product you want to add is in the Active state, and then add the p
 
 ## Forecast definition issues and resolution
 
-### Why am I unable to publish the forecast definition? 
+### Why am I unable to publish forecast definition? 
 
 **Reason:**
 
