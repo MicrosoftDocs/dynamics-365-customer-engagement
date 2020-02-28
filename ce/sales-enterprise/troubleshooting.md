@@ -1,7 +1,7 @@
 ---
-title: "Dynamics 365 Sales troubleshooting guide for sales people | MicrosoftDocs"
+title: "Dynamics 365 Sales troubleshooting guide for salespeople | MicrosoftDocs"
 description: "Follow the instructions in this topic to troubleshoot the issues you might face while working with Dynamics 365 Sales."
-ms.date: 10/01/2019
+ms.date: 02/28/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -11,13 +11,7 @@ manager: annbe
 ---
 
 
-<!--from editor: I recommend changing "sales people" to one word, "salespeople" in the title. 
-Also, be sure to update the metadata date to the new publication date.
-In the Unified Interface section, I changed the organization a little to make it more consistent with how other issues are set up in this topic. 
--->
-
-
-# Dynamics 365 Sales troubleshooting guide for sales people
+# Dynamics 365 Sales troubleshooting guide for salespeople
 
 Use the following list of troubleshooting topics to quickly find information to solve your issue.
 
