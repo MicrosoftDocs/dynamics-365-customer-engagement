@@ -64,7 +64,7 @@ The Dynamics 365 Marketing March 2020 update includes several feature enhancemen
 - **Marketing forms**
     - You can now whitelist allowed domains instead of whitelisting individual forms pages.
 - **Segment management**
-    - Improved date operations.
+    - Improved date operations for anniversaries and relative dates.
     - Improved visibility for Export to Excel feature.
     - Improved segment template builder functionality.
 
