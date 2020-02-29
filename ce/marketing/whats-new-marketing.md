@@ -66,7 +66,6 @@ The Dynamics 365 Marketing March 2020 update includes several feature enhancemen
 - **Segment management**
     - Improved date operations.
     - Improved visibility for Export to Excel feature.
-    - Decimal input support in floating number fields.
     - Improved segment template builder functionality.
 
 ### Bug fixes
@@ -82,6 +81,7 @@ The Dynamics 365 Marketing March 2020 update includes several feature enhancemen
 - **Segment management**
     - Resolved issue where members of static segments did not import correctly from Customer Insights.
     - Fixed an issue where a "Business process error" could result after a successful first run experience in a disconnected org.
+    - Decimal input is now supported in floating number fields.
 
 ## February 2020 update
 
