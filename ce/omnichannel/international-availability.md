@@ -13,7 +13,7 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-The purpose of this document is to provide comprehensive information about availability of Omnichannel for Customer Service with respect to the following:
+The purpose of this document is to provide information about availability of **Omnichannel for Customer Service** with respect to the following:
 
 - [Geographic location availability](#geographic-location-availability)
 

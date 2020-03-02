@@ -49,9 +49,9 @@
 #### [Work with queues](administrator/queues-omnichannel.md)
 #### [Manage users](administrator/users-user-profiles.md)
 #### [Show customers their position in queue](administrator/show-queue.md)
-#### Skill based routing
+#### Skill-based routing
 ##### [Overview](administrator/overview-skill-work-distribution.md)
-##### [Skill based routing and rating model](administrator/enable-skill-routing-create-rating-model.md)
+##### [Skill-based routing and rating model](administrator/enable-skill-routing-create-rating-model.md)
 ##### [Set up skills and assign agents](administrator/setup-skills-assign-agents.md)
 ##### [Attach skills to conversation](administrator/attach-skills.md)
 
@@ -208,7 +208,7 @@
 ###### [Step 2: Create Omnichannel Toast Notification hosted controls](customizer/toastnotification-step2-create-hosted-controls.md)
 ###### [Step 3: Create Omnichannel Toast Notification-related action calls](customizer/toastnotification-step3-create-action-call-display-notification.md)
 ###### [Step 4: Attach Omnichannel Toast Notification-related action calls to events](customizer/toastnotification-step4-add-action-calls-events.md)
-###### [Step 5: Add the hosted control, events, forms and action calls to configurations](customizer/toastnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
+###### [Step 5: Add the hosted control, events, forms, and action calls to configurations](customizer/toastnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
 
 #### Configure search
 ##### [Overview](customizer/configure-search.md)
