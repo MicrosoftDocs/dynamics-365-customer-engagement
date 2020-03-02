@@ -4,7 +4,7 @@ description: See how you can effectively search resource availability and create
 author: lerobbin
 ms.author: lerobbin
 manager: shujoshi
-ms.date: 02/28/2020
+ms.date: 03/02/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -177,13 +177,13 @@ In this next scenario, we show how to pass values for a specific requirement gro
 > - If the API is called from a client (browser or canvas app) based on JavaScript, you need to have the extended SOAP SDK. The extended SOAP SDK is not an official Microsoft release, but you can is provided in the downloadable sample files for guidance. 
 > - We recommend that you test this search in your development or test environments to validate your scenarios and results before running it in your production environment.
 
-To execute this search against your organization, you need to download the [sample files](https://go.microsoft.com/fwlink/?linkid=2117045), and then follow the steps below:   
+To execute this search against your organization, you need to download the [sample files](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/service-scheduling/search-resource-availability-create-bookings), and then follow the steps below:   
 
 1. Modify the hard-coded input parameters in the msdyn_SearchResourceAvailabilityForRequirementGroupSample.js file to reflect the GUIDs of records in your org. (Example: requirement group, resources, organizational unit).    
 <!--Can you rewrite the alt text for the following graphics? It shouldn't all be the same. It should describe what's unique and useful about the graphic.-->
 ![Modify the hard-coded input parameters](media/ur-scheduling-5.PNG)
 
-[Sample Search Requirement Group](https://go.microsoft.com/fwlink/?linkid=2117045)
+[Sample Search Requirement Group](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/sushant-service-scheduling/customer-service/master/search-resource-availability-create-bookings)
 
 2. Add the files in the sample folder as web resources in your organization 
 
@@ -207,7 +207,8 @@ To execute this search against your organization, you need to download the [samp
 
 ![Modify the hard-coded input parameters](media/ur-scheduling-10-new.PNG)
 
-[Code Sample Create Requirement Group](https://go.microsoft.com/fwlink/?linkid=2117045)  
+> [!IMPORTANT]
+> Find the complete sample code here: [Create Requirement Group](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/service-scheduling/search-resource-availability-create-bookings).
 
 ![Modify the hard-coded input parameters](media/ur-scheduling-11-new.png)
 
