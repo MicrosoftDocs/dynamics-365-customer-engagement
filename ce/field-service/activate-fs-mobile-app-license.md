@@ -1,7 +1,7 @@
 ---
 title: "Activate Field Service mobile configurator | MicrosoftDocs"
 ms.custom: dyn365-fieldservice
-ms.date: 06/21/2019
+ms.date: 03/02/2020
 ms.reviewer: krbjoran
 ms.suite: 
 ms.technology: 
@@ -22,13 +22,13 @@ search.app:
 
 # Activate Field Service mobile configurator
    
-The mobile configurator allows your organization to use, administer, and customize the Field Service Mobile app for your field workers.
+The mobile configurator (Woodford) allows your organization to use, administer, and customize the Field Service Mobile app for your field workers.
 
 ## Fill out an activation form
 
 A 30-day trial automatically starts when you install the mobile configuration tool for your Dynamics 365 instance. You need to submit a request to activate the trial before the trial period ends. You must activate the configurator to continue using and customizing the Field Service Mobile app.
 
-Complete the [activation request form for the mobile configurator](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_qdDvPY821Ojv3lrQCnA7JUNEVaR01JNFNIMDNOME8xNlBWMEVFSUhEQS4u) for **1 license**. Note that you need the Dynamics 365 organization ID to complete the request form.
+Complete the [activation request form for the mobile configurator (Woodford)](http://aka.ms/fsmlicense). Note that you need the Dynamics 365 organization ID to complete the request form.
 
 
 ## Additional notes
@@ -49,7 +49,7 @@ Complete the [activation request form for the mobile configurator](https://forms
 
 ## Previous app versions
 
-For Field Service Mobile (2016) and Field Service Mobile (2017), you need to [fill out a form](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_qdDvPY821Ojv3lrQCnA7JUNEVaR01JNFNIMDNOME8xNlBWMEVFSUhEQS4u) to request access for your users.
+For the **Field Service Mobile (2017)** mobile app, you need to [fill out a form](http://aka.ms/fsmlicense) to request access for your users. To understand past Field Service Mobile app versions, see the topic on [Field Service Mobile app version history](https://docs.microsoft.com/en-us/dynamics365/field-service/version-history#field-service-mobile-app-version-history).
 
 Each Dynamics 365 Field Service license you purchase from Microsoft allows you to activate mobile access for one user, with the total number of mobile users allocated across all your production, sandbox, and trial organizations not to exceed the total number of licenses you purchased. For example, if you purchase 100 field service licenses and you manage one production organization and one sandbox, you could activate mobile access for 50 users at both organizations for a maximum total of 100 mobile users (not 100 mobile users at each organization for a total of 200).
 
