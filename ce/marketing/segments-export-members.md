@@ -28,7 +28,6 @@ Export members from a dynamic segment straight to an Excel file, no matter how l
 1. [Open or create a dynamic segment](segmentation-lists-subscriptions.md).
 1. If the segment isn't live, select **Go live** on the command bar. Only live segments are fully resolved to include all relevant contacts.
 1. Select **Export members** from the top ribbon on the page.
-    ![The Export members button on the top ribbon](media/segment-export-excel.png "The Export members button on the top ribbon")
 1. Your Excel file is generated and automatically downloaded.
 
 > [!Note]
