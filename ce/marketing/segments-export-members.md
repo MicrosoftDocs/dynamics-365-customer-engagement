@@ -1,5 +1,5 @@
 ---
-title: "Export members of dynamics segments to Excel (Dynamics 365 Marketing) | Microsoft Docs "
+title: "Export members of dynamic segments to Excel (Dynamics 365 Marketing) | Microsoft Docs "
 description: "Learn how to export the members of a dynamic segment to an Excel file from Dynamics 365 Marketing"
 ms.date: 03/02/2020
 ms.service: dynamics-365-marketing
