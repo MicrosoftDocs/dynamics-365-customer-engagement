@@ -2,7 +2,7 @@
 title: "Bug fixes for Dynamics 365 Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 02/19/2020
+ms.date: 03/02/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -119,7 +119,7 @@ To see older bug fixes, see the following links to blog posts:
  
 ## Field Service Mobile
 
-### Version 12.1.20
+### Version 12.1.211
 -	App crashes when wrong url is entered on sign in screen
 -	FSM app crashes when sending logs if networkLog.txt does not exit
 -	FSM app crashes when connecting to an org without woodford
@@ -132,7 +132,7 @@ To see older bug fixes, see the following links to blog posts:
 -	Conditionally displaying a URL via a shared-variable linked field does not update icon
 
 
-### Version 12.1
+### Version 12.1.203
 
 - Win10: Use standard fileIO methods (except open & delete) 
 - When copying DynamicEntity, copy the partylist not just the pointer 
@@ -179,7 +179,7 @@ To see older bug fixes, see the following links to blog posts:
 - Server error appearss when users with FS Dispatcher privileges try to create Customer Asset in online mode
 
 
-### Version 11.3
+### Version 11.3.107
 
 - Fixed saving of offline Booking Signatures
 - Fixed update address button error message
