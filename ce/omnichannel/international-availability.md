@@ -37,12 +37,13 @@ Omnichannel for Customer Service January 2020 update is available in the followi
 | North America | February 17, 2020  |
 
 > [!Note]
-> In Europe, Omnichannel for Customer Service for the following geographic locations is currently not available and is planned to be introduced in the future:
-> - Norway
-> - Switzerland
-> - Germany
-> - France
- 
+> - For the service to work, your tenant and organization have to be co-located in one of the geographic locations.
+>
+> - In Europe, Omnichannel for Customer Service for the following geographic locations is currently not available and is planned to be introduced in the future:
+>   - Norway
+>   - Switzerland
+>   - Germany
+>   - France
 
 ## Language availability
 
