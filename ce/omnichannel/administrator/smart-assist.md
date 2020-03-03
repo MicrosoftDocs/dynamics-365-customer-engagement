@@ -4,7 +4,7 @@ description: "Learn about how to smartly assist agents with the next-best steps 
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 02/06/2020
+ms.date: 03/03/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -40,19 +40,9 @@ The smart assist feature can be enabled across all channels like Chat for Dynami
 
 - Install Dynamics 365 Productivity Tools solution.
 
-- Develop a custom bot and integrate it with Omnichannel for Customer Service to use smart assist.
+- Develop a custom bot and integrate it with Omnichannel for Customer Service to use smart assist. To learn more, see [Develop a custom smart-assist bot](#develop-a-custom-smart-assist-bot).
 
-## Walk-through to enable smart assist
-
-[Step 1: Develop a smart assist bot](#step-1-develop-a-custom-smart-assist-bot)
-
-[Step 2: Create a bot user](#step-2-create-a-bot-user)
-
-[Step 3: Add smart assist bot to a workstream](#step-3-add-smart-assist-bot-to-a-workstream)
-
-[Step 4: Enable the productivity pane](#step-4-enable-the-productivity-pane)
-
-## Step 1: Develop a custom smart-assist bot<a name="step-1-develop-a-custom-smart-assist-bot"></a>
+## Develop a custom smart-assist bot
 
 Develop a custom bot and integrate it with Omnichannel for Customer Service to use the smart assist feature. 
 
@@ -68,13 +58,21 @@ You can embed macros and custom actions within a suggestion by using web resourc
 
 To learn more, see [Smart assist bot](../developer/how-to/smart-assist-bot.md).
 
-## Step 2: Create a bot user
+## Walk-through to enable smart assist
+
+[Step 1: Create a bot user](#step-1-create-a-bot-user)
+
+[Step 2: Add smart assist bot to a workstream](#step-2-add-a-smart-assist-bot-to-a-workstream)
+
+[Step 3: Enable the productivity pane](#step-3-enable-the-productivity-pane)
+
+## Step 1: Create a bot user
 
 After you create a bot, you must create a bot user to work as a smart assistant to the agent. A bot user is created as an application user and assigned the **Omnichannel agent** role. If your bot needs to search for knowledge base articles, then you need to provide either the **Customer Service Manager** or **Customer Service Representative** role.
 
 Creating an application user is supported in the web client only. For information about creating a bot user, see [Create a bot user](configure-bot.md#step-1-create-a-bot-user).
 
-## Step 3: Add a smart assist bot to a workstream<a name="step-3-add-smart-assist-bot-to-a-workstream"></a>
+## Step 2: Add a smart assist bot to a workstream
 
 After you create a bot user, you need to add the bot to the workstream so that agents who are part of this workstream can see the suggestions.
 
@@ -92,10 +90,8 @@ After you create a bot user, you need to add the bot to the workstream so that a
 You can add multiple bots to a workstream based on your business requirements.
 
 7. Select **Save**.
- 
-<a name="step-4-enable-productivity-pane"></a>
 
-## Step 4: Enable the productivity pane
+## Step 3: Enable the productivity pane
 
 After you've created the agent script, you need to enable the productivity pane to display the smart-assist card to agents in Omnichannel for Customer Service.
 
