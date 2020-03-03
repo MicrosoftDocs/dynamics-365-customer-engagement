@@ -23,9 +23,9 @@ search.app:
 
 Define the level of service or support that your organization agrees to offer to a customer by using service-level agreements (SLAs) in Dynamics 365 Customer Service. Include detailed items to define metrics or key performance indicators (KPIs) to attain that service level. KPIs help you get timely warnings about any issues your customer support team might be having. 
 
- You can associate an SLA with an entitlement so that when an entitlement is added to a case, the associated SLA is also applied. You can only associate SLAs that are created for the Case entity with entitlements. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create an entitlement to define the support terms for a customer](create-entitlement-define-support-terms-customer.md)
+You can associate an SLA with an entitlement so that when an entitlement is added to a case, the associated SLA is also applied. You can only associate SLAs that are created for the Case entity with entitlements. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create an entitlement to define the support terms for a customer](create-entitlement-define-support-terms-customer.md)
 
- Alternatively, you can set up a default SLA for the organization.  
+Alternatively, you can set up a default SLA for the organization.  
 
 > [!NOTE]
 > With the latest release of Customer Service, you can access and manage all service management tasks from the Customer Service Hub site map except **Routing Rule Sets**, **Automatic Record Creation**, and **Service Level Agreements**. To access and manage these three settings, use **Service Management** under **Settings** in the Customer Service app.
@@ -85,10 +85,10 @@ With the SLA feature in Customer Service Hub, you can:
 
 Perform the following steps to configure SLAs in Customer Service Hub:
 
--	[Review prerequisites](#prerequisites).
--	[Create SLA KPIs](#create-sla-kpis). 
--	[Create SLAs](#create-slas).
--	Learn [how the SLA is applied](#how-is-the-sla-applied).
+-    [Review prerequisites](#prerequisites).
+-    [Create SLA KPIs](#create-sla-kpis). 
+-    [Create SLAs](#create-slas).
+-    Learn [how the SLA is applied](#how-is-the-sla-applied).
 
 ## Prerequisites
 
@@ -96,19 +96,19 @@ Perform the following steps to configure SLAs in Customer Service Hub:
 
 Review the following requirements before configuring SLAs for your organization:
 
-- System Administrator, System Customizer, or Customer Service Manager role is assigned to you.
+- The System Administrator, System Customizer, or Customer Service Manager role is assigned to you.
 
 - Identify target entities and add customizations. To add customizations in target entities to track SLAs, follow these steps:
 
-    a. Create a lookup field on the entity for which an SLA has to be configured, and relate it to an SLA KPI instance.
+   1. Create a lookup field on the entity for which an SLA has to be configured, and relate it to an SLA KPI instance.
   
-    Lookup fields are created so that you can view the SLA in the timer on the entity form and track your SLAs. To learn more, see [Create and edit fields](/on-premises/customize/create-edit-fields#create-and-edit-fields).
+      Lookup fields are created so that you can view the SLA in the timer on the entity form and track your SLAs. To learn more, see [Create and edit fields](../customerengagement/on-premises/customize/create-edit-fields#create-and-edit-fields).
   
-    For example, to track an SLA on case for escalated by KPI, you need to create a field as *EscalatedByByKPI* on the Case entity and provide the respective Target Record Type as Service Level Agreement Instances and Data Type as *Lookup*.
+      For example, to track an SLA on a case for escalated by KPI, you need to create a field as **EscalatedByByKPI** on the Case entity, and provide the respective **Target Record Type** as **Service Level Agreement Instances** and **Data Type** as **Lookup**.
 
-    b. Use the lookup field to configure a timer to help users estimate the amount of time they have to complete a task—typically as specified in an SLA.
-  
-    To configure a timer, add the timer control to an entity form. The timer control initially displays a countdown timer to show the time remaining to complete the task. To learn more, see [Add a timer control to the Case form to track time against an SLA](add-timer-control-case-form-track-time-against-sla.md).
+    2. Use the lookup field to configure a timer to help users estimate the amount of time they have to complete a task—typically as specified in an SLA.
+
+      To configure a timer, add the timer control to an entity form. The timer control initially displays a countdown timer to show the time remaining to complete the task. To learn more, see [Add a timer control to the Case form to track time against an SLA](add-timer-control-case-form-track-time-against-sla.md).
 
 
 ## Create SLA KPIs in Customer Service Hub<a name="create-sla-kpis"></a>
@@ -121,7 +121,7 @@ SLA KPIs are performance indicators, such as First Response or Resolve by, that 
 
 2. Select **Change area** > **Service Management** > **SLA KPIs**. A list of active SLA KPIs is displayed.
 
-3. Select New. The **New SLA KPI** page appears.
+3. Select **New**. The **New SLA KPI** page appears.
 
 4. Enter the following details on the **General** tab:
 
@@ -131,9 +131,9 @@ SLA KPIs are performance indicators, such as First Response or Resolve by, that 
 
    - **Entity Name:** Select the entity for which the KPI must be measured.
 
-   - **KPI Field:** Select the respective KPI field. For example, if you are creating an SLA KPI to define the time within which a first response should be sent to the customer, select **FirstResponseByKPI** in the list.
+   - **KPI Field:** Select the respective KPI field. For example, if you're creating an SLA KPI to define the time within which a first response should be sent to the customer, select **FirstResponseByKPI** in the list.
 
-   - **Applicable From:** Select a value based on which the warning and failure time will be measured. For example, if you select Created On, the warning and failure start time for an SLA is calculated from the date and time when the entity was created.
+   - **Applicable From:** Select a value based on which the warning and failure time will be measured. For example, if you select **Created On**, the warning and failure start time for an SLA is calculated from the date and time when the entity was created.
 
 5. Select **Save**, and then select **Activate**. The SLA KPI is saved and activated.
 
@@ -143,10 +143,10 @@ SLA KPIs are performance indicators, such as First Response or Resolve by, that 
 
 Create SLAs to define conditions and actions that are applicable when an SLA is applied to an entity. The following steps are involved in creating the SLA:
 
-1. Create an SLA
-2. Create an SLA item
-3. Configure actions for the SLA item
-4. Activate the SLA
+1. Create an SLA.
+2. Create an SLA item.
+3. Configure actions for the SLA item.
+4. Activate the SLA.
 
 ### Create an SLA
 
@@ -370,7 +370,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
    - **Name**. Type a meaningful name.  
 
-   - **SLA KPI**. Select the key performance indicator the SLA item is about. For example, if you're creating a KPI for sending the first response within a specified time, select the **First Response By KPI** option from the drop-down list.  
+   - **SLA KPI**. Select the KPI the SLA item is about. For example, if you're creating a KPI for sending the first response within a specified time, select the **First Response By KPI** option from the drop-down list.  
 
         For example, select **First Response By KPI** in the **SLA KPI** field, and set **Failure After** to two hours from the time the record was created. If the record was created at 09:00, the **Failure Time** field of the SLA KPI Instance record is set to 11:00, assuming business hours are all day, every day.  
 
@@ -484,11 +484,11 @@ The service rep who is working on a case can see the SLA details right on the ca
 
 We recommend that you perform the following steps to upgrade a solution:
 
-1.	Deactivate the SLAs that have been brought through the previous version of the solution. The status of these SLAs will change to Draft.
+1.    Deactivate the SLAs that have been brought through the previous version of the solution. The status of these SLAs will change to Draft.
 
-2.	Upgrade your solution. 
+2.    Upgrade your solution. 
 
-3.	After the solution has been successfully upgraded, activate the SLAs as required.
+3.    After the solution has been successfully upgraded, activate the SLAs as required.
 
 ### See also  
 
