@@ -51,8 +51,6 @@ Benefit:
 
 Connected Field Service with Azure IoTHub and Azure IoTCentral 
 
-> [!Note]
->
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/.png)
@@ -72,9 +70,11 @@ First agree to the terms of service and select **Next**.
 Select how your organization primarily uses IoT alerts in relatioon to devices and customer assets. As a reminder, there is a 1:Many relationship, where many devices can be related to one customer asset.
 
 - Select **Device ID** if your organization primarily manages the IoT alerts from individual devices. Example: you have internet-connected thermometers that send temperature readings.
-- Select **Customer Asset** if your organization primarily manages the IoT alerts from devices related to customer assets. Example: you have customer assets that represent rooms 
-device or customer asset
-leave as device by default
+- Select **Customer Asset** if your organization primarily manages the IoT alerts from devices related to customer assets. Example: you have customer assets that represent rooms in a building and each room can have multiple devices sending telemetry.
+
+> [!Note]
+> If you are unsure of which option to choose or if your organization manages IoT alerts at both the device level and customer asset level equally, then leave this as the default: **Device ID**.
+
 
 ### Enter rule identifier
 
