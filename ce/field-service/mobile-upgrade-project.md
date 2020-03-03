@@ -2,7 +2,7 @@
 title: "Upgrade the Field Service Mobile project template | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 10/22/2019
+ms.date: 03/02/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -103,6 +103,7 @@ If you make changes to a mobile entity, it will show as **Overridden**.
 
 ### See also
 
+- [GitHub integration into Mobile Configurator Woodford](https://www.resco.net/github-integration-into-woodford/)
 - [Version history](https://docs.microsoft.com/dynamics365/field-service/version-history#mobile-project-file-library)
 - [Set up Field Service Mobile](https://docs.microsoft.com/dynamics365/field-service/install-field-service#download-the-field-service-mobile-app-on-a-phone-or-tablet)
 - [Common Field Service Mobile customizations](./mobile-app-configuration-customization.md)
