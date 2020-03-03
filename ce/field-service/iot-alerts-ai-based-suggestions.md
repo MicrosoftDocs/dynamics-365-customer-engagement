@@ -38,10 +38,11 @@ As a reminder:
 Businesses continue to leverage IoT capabilities to further delivery of proactive service to customers. Understanding and taking quick action on IoT alerts improves service delivery. This feature helps businesses assess the importance of alerts and when to take action to improve proactive service delivery.
 
 - learning model that will change with more data. looks at how many of similar alerts were converted to cases or work orders
-
+- suggestions 
 Benefit:
 - better allocation of limited resources to issues
 - too many alerts
+- dont always have to rely on expertise can scale better work order creation
 
 
 
@@ -76,7 +77,19 @@ leave as device by default
 - OOB - reading type and telemetry value
 - custom - cost savings
 
-## Configuration considerations
+### Finish
+- takes 24 hours to apply, looks at historical data 
 
-- 
+can reconfigure at any time 
+
+youll know its working when it returns priority and incident types
+
+## Configuration considerations
+- can use other metrics and models to calculate other variables such as comfort index
+- updated every 24 hours
+- should have at least 50 cases or work orders created from IoT alerts
+- will still work whether converting to case or work order
+
+
 ## Additional Notes
+- only seeing suggestions in dynamics but can use FLow to send back to IoTHub or IotCentral
