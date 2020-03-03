@@ -59,6 +59,9 @@ This procedure shows an example of how to add a [!INCLUDE[pn-linkedin](../includ
 
 5. To add a reference to a custom control, begin by opening a field on the form, which will be bound to the primary attribute of the control (“Last Name” field for the member profile control and “Company Name” for the company profile control). In this example, we already have the **Last Name** field to the form.
 
+    > [!IMPORTANT]
+    > Member profile and company profile controls are read-only controls. We recommend that you create a copy of the two fields ("Last Name" and "Company Name") that you're binding these controls to, so that you can continue to edit the fields.
+
 6. Select the **Last Name** field and then select **Change Properties** in the ribbon.
     > [!TIP]
     > By default, controls on the Unified Interface show in two columns with the label and value side by side. To maximize the control so that it takes the full horizontal space available on the column, clear the **Display label** on the form check box on the **Display** tab.    
