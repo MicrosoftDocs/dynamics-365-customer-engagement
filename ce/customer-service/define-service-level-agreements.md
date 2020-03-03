@@ -319,7 +319,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 10. [!INCLUDE[proc_click_or_tap_save_and_close](../includes/proc-click-or-tap-save-and-close.md)]  
 
     > [!IMPORTANT]
-    > - Failure and warning actions run asynchronously, and might not get triggered exactly at the failure or warning time.
+    > - Failure and warning actions run asynchronously, and might not be triggered exactly at the failure or warning time.
     > - If failure or warning times are set to less than one hour, processing of the failure or warning actions might be delayed.
     > - Make sure you author SLAs in a way that best suits your company's needs. For example, in the SLA **Applicable When** conditions, avoid using case fields that are updated too frequently, because that might lead to the SLA being computed so frequently that performance is negatively affected.
 
@@ -354,7 +354,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
        > [!NOTE]
        >  You can have multiple SLA KPIs within one SLA. The start time for different SLA KPIs within an SLA is set at the SLA level and can't be different across SLA KPIs. The start time is determined by the Applicable From field value.  
 
-   - **Business Hours**. Select a customer service schedule record that defines your support organization's business hours. This is useful for SLA time-tracking calculations. If a business hours record (customer service schedule) isn't selected, work hours are considered to be all day, every day.<!--note from editor: Via the Style Guide.-->.  
+   - **Business Hours**. Select a customer service schedule record that defines your support organization's business hours. This is useful for SLA time-tracking calculations. If a business hours record (customer service schedule) isn't selected, work hours are considered to be all day, every day. 
 
    - **SLA Type**. Select **Enhanced**.  
 
@@ -469,7 +469,7 @@ To manually apply SLAs on demand, choose the SLA in the SLA field. This field is
 
 ## Track SLA status and details on the case record
 
-The service rep who's working on a case can see the SLA details right on the case form. The following table explains what happens when a standard or enhanced SLA is applied to a case form.
+The service rep who is working on a case can see the SLA details right on the case form. The following table explains what happens when a standard or enhanced SLA is applied to a case form.
 
 
 | Case form with a standard SLA applied |  Case form with an enhanced SLA applied |
