@@ -1,0 +1,58 @@
+---
+title: "IoT alert AI-based suggestions | MicrosoftDocs"
+ms.custom: 
+  - dyn365-fieldservice
+ms.date: 03/02/2020
+ms.reviewer: ""
+ms.service: dynamics-365-customerservice
+ms.suite: ""
+ms.technology: 
+  - "field-service"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+author: krbjoran
+ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
+caps.latest.revision: 42
+ms.author: FieldServiceDave
+manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+search.app: 
+  - D365CE
+  - D365FS
+---
+
+# IoT alert AI-based suggestions
+
+As IoT device alerts are received, it helps to have smart suggestions about how to treat the alert, like suggesting priority or incident type. New IoT alert suggestions add AI-based suggestions for the priority and incident type from the alert, based on past service history and actions. For example, an alert suggestion might show that a temperature-based alert is a high priority, and needs an incident type for recalibrating the equipment.
+
+As a reminder:
+
+- An **incident type** is the main issue of a work order and can dictate related details like work order type, products, services, and service tasks. 
+- **Priority** in this feature represents the priority to the business. As an example, imagine an IoT alerts notifies the organization that the heating of a room is down, and this could have a large impact on an event and customer satisfaction. This would represent a _high_ priority because of the large business impact.
+
+Businesses continue to leverage IoT capabilities to further delivery of proactive service to customers. Understanding and taking quick action on IoT alerts improves service delivery. This feature helps businesses assess the importance of alerts and when to take action to improve proactive service delivery.
+
+Benefit:
+- better allocation of limited resources to issues
+- too many alerts
+
+
+
+
+## Prerequisites
+
+Connected Field Service with Azure IoTHub and Azure IoTCentral 
+
+> [!Note]
+>
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+## Configuration considerations
+## Additional Notes
