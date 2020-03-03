@@ -28,7 +28,8 @@
 ### [Integrate a Power Virtual Agents bot](administrator/configure-bot-virtual-agent.md)
 
 ### Channels
-#### [Configure a chat channel](administrator/set-up-chat-widget.md)
+#### Chat
+##### [Configure a chat channel](administrator/set-up-chat-widget.md)
 ##### [Add a chat widget](administrator/add-chat-widget.md)
 ##### [Configure download and email of chat transcripts](administrator/download-email-chat-transcripts.md)
 ##### [Configure agent display name](administrator/agent-display-name.md)
@@ -37,8 +38,11 @@
 ##### [Configure file attachment capability](administrator/configure-file-attachment.md)
 ##### [Embed chat widget in Power Apps portals](administrator/embed-chat-widget-portal.md)
 ##### [Configure proactive chat](administrator/proactive-chat.md)
-#### [Configure an SMS channel](administrator/configure-sms-channel.md)
-#### [Configure a Facebook channel](administrator/configure-facebook-channel.md)
+#### SMS
+##### [Configure an SMS channel](administrator/configure-sms-channel.md)
+#### Social channels
+##### [Configure a Facebook channel](administrator/configure-facebook-channel.md)
+##### [Configure a custom channel](administrator/configure-custom-channel.md)
 #### Entity records
 ##### [Entity records routing](administrator/entity-channel.md)
 ##### [Route trigger for entity records](administrator/routing-trigger.md)
