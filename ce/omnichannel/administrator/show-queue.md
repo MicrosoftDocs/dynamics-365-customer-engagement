@@ -25,7 +25,7 @@ The number of customers waiting to chat counts down each time a customer in line
 
 > [!NOTE]
 >  - In a scenario where a customer is waiting in the queue and another customer who has been waiting longer is transferred over by an agent, the customer who has been waiting longer is served first, and the other customer does not see a position change in the queue. 
-> - If skill-based routing is configured with exact skill match, the queue position that is displayed to the customer is not deterministic and it may take longer than expected for the customer to be assigned to an agent.
+> - If skill-based routing is configured with exact skill match, the queue position that is displayed to the customer on the chat portal widget might not be accurate; therefore, the assignment of the agent to the customer might take longer than expected.
 
 ## Enable queue position
 
