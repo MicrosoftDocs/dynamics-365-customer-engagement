@@ -4,7 +4,7 @@ description: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 02/28/2019
+ms.date: 03/03/2020
 ms.topic: reference
 ms.service: 
   - dynamics-365-customerservice
@@ -15,7 +15,7 @@ ms.custom:
 
 # notifyKpiBreach
 
-This method is used to indicate a KPI breach. When this KPI is used, a red circle appears on the display image of the contact when a KPI breach has occurred.
+This method is used to indicate a KPI breach. When this API is invoked, an exclamation sign appears on the icon of the session whose unique identifier is passed, indicating that a KPI breach has occurred. To reset the KPI breach indication, invoke this API with the value of `shouldReset` parameter set as `false`.
 
 ![Notify KPI Breach](../../../media/notifyKPIBreach.PNG "Notify KPI Breach")
 <br>

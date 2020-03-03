@@ -4,7 +4,7 @@ description: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 01/20/2019
+ms.date: 03/03/2020
 ms.topic: reference
 ms.service: 
   - dynamics-365-customerservice
@@ -15,10 +15,13 @@ ms.custom:
 
 # notifyNewActivity
 
-This method is used to update the number of new activities in a particular session.
+This method is used to indicate the number of new activities in a session that is currently not in focus. The indicator is automatically removed when the user switches to the session. 
 
 ![Notify new activity](../../../media/notifyNewActivity.PNG "Notify new activity")
 <br>
+
+> [!NOTE]
+> This API is not compatible with [requestFocusSession](requestfocussession.md) API and should not be used together with it.
 
 ## Syntax
 
