@@ -107,13 +107,10 @@ You'll know the AI based suggestions are working when there is a suggested prior
 
 
 ## Configuration considerations
-can reconfigure at any time 
+- If the model needs to be reconfigured based on changes to the system or evolving business needs, you can go through the set up again by going to **Settings > Settings (in IoT section) > IoT Suggestions section** and selecting **Reconfigure IoT suggestions** in the top ribbon. 
+- When applicable the model will return "No suggestion" if there is no recommendation. 
+- Suggestions are updated every 24 hours.
+- It is recommended to have at least 50 IoT alerts converted to cases or work orders to give the model enough data to make suggestions. 
+- Suggestions work whether IoT alerts are converted in to cases or work orders because both have incident types. 
+- Suggestions are only displayed in Dynamics 365 Field Service but a simple Power Automate Flow could be used to send and display the suggestions in IoTCentral or IoTHub. 
 
-no siggestions 
-- can use other metrics and models to calculate other variables such as comfort index
-- updated every 24 hours
-- should have at least 50 cases or work orders created from IoT alerts
-- will still work whether converting to case or work order
-- only seeing suggestions in dynamics but can use FLow to send back to IoTHub or IotCentral
-
-## Additional Notes
