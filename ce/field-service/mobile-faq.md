@@ -162,3 +162,89 @@ Try publishing the mobile project again to match the version of the app. For ins
 ## Can I use the Dynamics 365 mobile application to access Field Service? 
 
 We strongly recommend using the Field Service Mobile app to access Field Service, rather than the Dynamics 365 mobile app with the Unified Interface. While the native Dyanmics 365 app does work in offline mode, it doesn't fully support offline mode for Field Service-specific scenarios. For more information, visit our topic on Field Service Mobile.
+
+## Why am I getting the error "Your Server customization requires new version of the Application."
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/fsm-error-your-server-customization.png)
+
+This error is corrected by updating your Woodford project version to match the version of your Field Service Mobile application currently in use. 
+ 
+To solve:
+1.	Access Woodford: Advanced Settings > Settings > mobileCRM > Woodford
+2.	Enter Woodford Solution and Edit your active project.
+3.	Set Version to mirror your mobile app version (should not be "Latest").
+4.	Publish Woodford.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/fsm-error-version.png)
+
+## Why am I getting the error "Your organization needs to configure Field Service Mobile. There may not be a published mobile project or the mile project is not configured for a security role assigned to you."
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/fsm-error-your-organization-needs-to-configure.png)
+
+This error is a signal that Woodford Project has not been published or a role assigned to your user either in Woodford or CRM user security settings. 
+ 
+To check if Woodford is published:
+1.	Access Woodford: Advanced Settings > Settings > mobileCRM > Woodford
+2.	Enter Woodford Solution
+3.	Observe symbol next to your Woodford project; if it is a red /, click "Activate" in command bar.
+
+
+Unpublished Project
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/fsm-error-unpublished-project.png)
+
+Published Project
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/fsm-error-published-project.png)
+
+If still unable to login to the app with the same error, please confirm your resource has the correct roles applied. 
+1.	Click on Properties in top navigation.
+2.	Click Field Service roles for this project.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/fsm-error-security-roles.png)
+
+You can then click "Check Users" and type in desired users name to check their role level/access.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/fsm-check-users.png)
+
+If you are still not able to find the user/setup their role, the user may not have the required Dynamics 365 Security Roles in place. In Dynamics 365, go to Settings > Security > Users > [User] > Manage Roles; select all security roles user should be part of for Field Service.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/fsm-error-security-roles-in-app.png)
+
+## Why am I getting the error "Your organization has not set your account's Bookable Resource to be 'Enabled for Field Service Mobile'"
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/fsm-error-your-organization-has-not-set-bookable-resource.png)
+
+This error notes that the resource trying to access the mobile application is not set as a bookable resources.
+ 
+To correct:
+1.	Enter Field Service CRM
+2.	Click on Resources
+3.	Click on desired user
+4.	Click on "Field Service" tab
+5.	Set "Yes" for Enable for Field Service Mobile.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/fsm-error-enable-for-mobile.png)
+
+## Why am I getting the error "One or more errors occurred. AADSTS50097: Device Authentication Required…."
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/fsm-error-one-or-more-errors-occured.png)
+
+This error notes that your AAD security settings have a conditional access block which disallows Field Service Mobile from reaching authentication servers. 
+ 
+To correct you will need to discuss with your network security team and evaluate Conditional Access policies which may be blocking Dynamics 365. For more information see Troubleshoot Conditional Access 
