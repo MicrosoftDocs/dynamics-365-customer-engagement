@@ -100,21 +100,20 @@ By default, the **Telemetry** field in IoTCentral and the **Reading Type** and *
 
 ### Finish
 
-After entering the initial information you are finished and the model will take 24 hours to begin making recommendations. It will look at historical information
+After entering the initial information you are finished and the model will take 24 hours to begin making recommendations. It will look at historical data as well as data going forward.
 
-- takes 24 hours to apply, looks at historical data 
+You'll know the AI based suggestions are working when there is a suggested priority and incident type in the IoT Alert view and form.
 
 
-
-youll know its working when it returns priority and incident types
 
 ## Configuration considerations
 can reconfigure at any time 
+
+no siggestions 
 - can use other metrics and models to calculate other variables such as comfort index
 - updated every 24 hours
 - should have at least 50 cases or work orders created from IoT alerts
 - will still work whether converting to case or work order
-
+- only seeing suggestions in dynamics but can use FLow to send back to IoTHub or IotCentral
 
 ## Additional Notes
-- only seeing suggestions in dynamics but can use FLow to send back to IoTHub or IotCentral
