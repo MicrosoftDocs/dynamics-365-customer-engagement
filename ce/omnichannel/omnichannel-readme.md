@@ -19,6 +19,12 @@ The topic explains the known issues and limitations of Omnichannel for Customer 
 > [!Important]
 > We recommend updating Omnichannel for Customer Service to the latest versions for the best experience. More information: [Upgrade Omnichannel for Customer Service](administrator/upgrade-omnichannel.md)
 
+## Loss of agent script state
+
+When you refresh the browser or close the session, agent script changes to initial state rather retaining the states. 
+
+For example, you've completed executing two agent scripts and three steps in the third agent script. Now, when you refresh the browser or close and open the session again, you will lose existing state and the agent script state is reset to first script or default script.
+
 ## Third-party application tab refreshes when focus is changed
 
 When you host first- or third-party URLs in Omnichannel for Customer Service using the application tab, and when an agent switches from the current application tab to another application tab within the session or switches to another session, the application that is hosted in the tab will be refreshed to the initial state. 
