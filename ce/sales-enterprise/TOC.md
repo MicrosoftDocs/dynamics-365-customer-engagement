@@ -1,6 +1,5 @@
 # [Help resources for Dynamics 365 Sales](help-hub.md)
 ## [Overview of Sales and Sales Hub](../sales-enterprise/overview.md)
-## [Sales Team Member app](sales-team-member.md)
 ## [What's new](../sales-enterprise/whats-new.md)
 ## [Connect and share feedback](../sales-enterprise/connect-share-feedback.md)
 ## Administrator & Sales Manager Guide
@@ -161,6 +160,7 @@
 ### Action Reference
 #### [RecalculatePrice Action](../sales-enterprise/developer/reference/recalculateprice-action.md)
 
-# Dynamics 365 Sales (Professional)
+# Resources for other Sales apps
 ## [Help resources for Dynamics 365 Sales (Professional)](../sales-professional/help-hub.md)
-# [Dynamics 365 Sales Insights](/dynamics365/ai/sales/overview)
+## [Dynamics 365 Sales Insights](/dynamics365/ai/sales/overview)
+## [Sales Team Member app for users with Team Member license](sales-team-member.md)
