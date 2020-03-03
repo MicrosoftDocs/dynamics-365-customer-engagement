@@ -1,6 +1,6 @@
 ---
-title: "Microsoft Dynamics Insider Program Agreement | MicrosoftDocs"
-description: "Microsoft Dynamics Insider Program Agreement"
+title: "Supplemental Terms for Microsoft Dynamics 365 Connector to Third-Party Messaging Service | MicrosoftDocs"
+description: "Supplemental Terms for Microsoft Dynamics 365 Connector to Third-Party Messaging Service"
 keywords: ""
 author: sbmjais
 ms.author: shjais

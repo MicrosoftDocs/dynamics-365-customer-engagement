@@ -96,6 +96,6 @@
 ### [Microsoft Teams integration](../teams-integration/teams-integration.md)
 ### [Integrate sample softphone with Dynamics 365 Sales](sample-softphone-integration-sp.md)
 
-# Dynamics 365 Sales (Enterprise)
+# Resources for other Sales apps
 ## [Help resources for Dynamics 365 Sales (Enterprise)](../sales-enterprise/help-hub.md)
-
+## [Sales Team Member app for users with Team Member license](../sales-enterprise/sales-team-member.md)
