@@ -39,12 +39,12 @@ In addition, to help you monitor and control costs for your project-based work, 
 easily enter and track project time and expenses either on mobile or using a web browser.
 
 ## What's new in PSA
-The team is excited to announce our newest updates! Ranging from improvements to the user interface, fixing bugs and adding important new features and capabilties more. You asked; we listened.
+The team is excited to announce our newest updates! Ranging from improvements to the user interface, fixing bugs, and adding important new features and capabilties. You asked; we listened.
 
-Take a look at the [October '19 Release Notes](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/index) to see our newest enhancements and additions.
+Take a look at the [October '19 Release Notes](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index) to see our newest enhancements and additions.
 
 ### In development
-To see what we have planned in the near future, head over to the [Dynamics 365: 2020 release wave 1 plan](https://docs.microsoft.com/en-us/dynamics365-release-plan/2020wave1/index).
+To see what we have planned in the near future, head over to the [Dynamics 365: 2020 release wave 1 plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).
 
 ## Get help with PSA version 3.x
 Looking for resources to help plan your implementation? Check out these downloadable guides.
