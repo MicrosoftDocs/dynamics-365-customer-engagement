@@ -15,7 +15,9 @@ ms.custom:
 
 # notifyKpiBreach
 
-This method is used to indicate a KPI breach. When this API is invoked, an exclamation sign appears on the icon of the session whose unique identifier is passed, indicating that a KPI breach has occurred. To reset the KPI breach indication, invoke this API with the value of `shouldReset` parameter set as `false`.
+This method is used to indicate a KPI breach. When this API is invoked, an exclamation sign appears on the icon of the session whose unique identifier is passed, indicating that a KPI breach has occurred.
+
+To reset the KPI breach indication, invoke this API with the value of `shouldReset` parameter set as `false`.
 
 ![Notify KPI Breach](../../../media/notifyKPIBreach.PNG "Notify KPI Breach")
 <br>
