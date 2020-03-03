@@ -34,7 +34,7 @@ System administrators or customizers can use the **Opportunity Close** quick cre
 
 -   Customization of views
 
-Any custom attribute added to the **Opportunity Close** form should be added to the **Opportunity Close** entity. If the attribute added to the **Opportunity Close** form belongs to a different entity, it must be maintained in both the entities with a mapping of the attributes between the entities. After an **Opportunity Close** record is created, mapped attributes must be updated in the other entity records. Example: If **Opportunity Close** form needs to capture the ‘Purchase process’, which belongs to the Opportunity entity, the attribute ‘Purchase process’ must be maintained in both **Opportunity Close** and **Opportunity** entities with a custom logic to keep the data synchronized between both the entities.  
+Any custom attribute added to the **Opportunity Close** form should be added to the **Opportunity Close** entity. If the attribute added to the **Opportunity Close** form belongs to a different entity, it must be maintained in both the entities with a mapping of the attributes between the entities. After an **Opportunity Close** record is created, mapped attributes must be updated in the other entity records. Example: If **Opportunity Close** form needs to capture the ‘Purchase process’, which belongs to the Opportunity entity, the attribute ‘Purchase process’ must be maintained in both **Opportunity Close** and **Opportunity** entities, and the data between the two entities must be synchronized. You can write a client-side code (form scripting or web resources) or server-side plugin to keep the data in sync between the two entities. 
 
 
 > [!NOTE]
