@@ -58,16 +58,22 @@ Connected Field Service with Azure IoTHub and Azure IoTCentral
 > ![Screenshot of ](./media/.png)
 
 ## Instructions
+
 From the Field Service app go to **Settings > Settings (in IoT section) > IoT Suggestions section**
 
 Set the IoT suggestions setting to **Enabled**. 
 
-### Enable suggestions
-
 ### Agree to terms of use
 
+First agree to the terms of service and select **Next**.
+
 ### Select device identifier
-- device or customer asset
+
+Select how your organization primarily uses IoT alerts in relatioon to devices and customer assets. As a reminder, there is a 1:Many relationship, where many devices can be related to one customer asset.
+
+- Select **Device ID** if your organization primarily manages the IoT alerts from individual devices. Example: you have internet-connected thermometers that send temperature readings.
+- Select **Customer Asset** if your organization primarily manages the IoT alerts from devices related to customer assets. Example: you have customer assets that represent rooms 
+device or customer asset
 leave as device by default
 
 ### Enter rule identifier
