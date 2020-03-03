@@ -33,9 +33,11 @@ As IoT device alerts are received, it helps to have smart suggestions about how 
 As a reminder:
 
 - An **incident type** is the main issue of a work order and can dictate related details like work order type, products, services, and service tasks. 
-- **Priority** in this feature represents the priority to the business. As an example, imagine an IoT alerts notifies the organization that the heating of a room is down, and this could have a large impact on an event and customer satisfaction. This would represent a _high_ priority because of the large business impact.
+- **Priority** in this feature represents the priority to the business generally measured by financial impact or customer satisfaction. As an example, imagine an IoT alerts notifies the organization that the heating of a room is down, and this could have a large impact on an event and customer satisfaction. This would represent a _high_ priority because of the large business impact.
 
 Businesses continue to leverage IoT capabilities to further delivery of proactive service to customers. Understanding and taking quick action on IoT alerts improves service delivery. This feature helps businesses assess the importance of alerts and when to take action to improve proactive service delivery.
+
+- learning model that will change with more data. looks at how many of similar alerts were converted to cases or work orders
 
 Benefit:
 - better allocation of limited resources to issues
@@ -54,5 +56,27 @@ Connected Field Service with Azure IoTHub and Azure IoTCentral
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/.png)
 
+## Instructions
+From the Field Service app go to **Settings > Settings (in IoT section) > IoT Suggestions section**
+
+Set the IoT suggestions setting to **Enabled**. 
+
+### Enable suggestions
+
+### Agree to terms of use
+
+### Select device identifier
+- device or customer asset
+leave as device by default
+
+### Enter rule identifier
+
+### Enter device properties
+
+- OOB - reading type and telemetry value
+- custom - cost savings
+
 ## Configuration considerations
+
+- 
 ## Additional Notes
