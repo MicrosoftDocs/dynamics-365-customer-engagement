@@ -4,7 +4,7 @@ description: "Instructions to configure a Facebook channel in Omnichannel for Cu
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 12/13/2019
+ms.date: 04/01/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -43,7 +43,7 @@ After completing the prerequisites, you can add the Facebook channel for your or
     > [!div class=mx-imgBorder]
     > ![Create a Facebook work stream](../media/fb-workstream.png "Create a Facebook work stream")
 
-5.	Specify other details as required.
+5.	Specify other details as required. To learn more, see [Understand and create work streams](work-streams-introduction.md).
 
 6.	Select **Save**.
 
