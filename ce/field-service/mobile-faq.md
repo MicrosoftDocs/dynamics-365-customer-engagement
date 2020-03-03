@@ -2,7 +2,7 @@
 title: "Frequently asked questions for Field Service Mobile | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 10/28/2019
+ms.date: 03/02/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -162,3 +162,59 @@ Try publishing the mobile project again to match the version of the app. For ins
 ## Can I use the Dynamics 365 mobile application to access Field Service? 
 
 We strongly recommend using the Field Service Mobile app to access Field Service, rather than the Dynamics 365 mobile app with the Unified Interface. While the native Dyanmics 365 app does work in offline mode, it doesn't fully support offline mode for Field Service-specific scenarios. For more information, visit our topic on Field Service Mobile.
+
+## Why am I getting the error "Your Server customization requires new version of the Application."
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/fsm-error-your-server-customization.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/fsm-error-version.png)
+
+## Why am I getting the error "Your organization needs to configure Field Service Mobile. There may not be a published mobile project or the mile project is not configured for a security role assigned to you."
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/fsm-error-your-organization-needs-to-configure.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/fsm-error-unpublished-project.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/fsm-error-published-project.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/fsm-error-security-roles.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/fsm-check-users.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/fsm-error-security-roles-in-app.png)
+
+## Why am I getting the error "Your organization has not set your account's Bookable Resource to be 'Enabled for Field Service Mobile'"
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/fsm-error-your-organization-has-not-set-bookable-resource.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/fsm-error-enable-for-mobile.png)
+
+## Why am I getting the error "One or more errors occurred. AADSTS50097: Device Authentication Required…."
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/fsm-error-one-or-more-errors-occured.png)
+
+This error notes that your AAD security settings have a conditional access block which disallows Field Service Mobile from reaching authentication servers. 
+ 
+To correct you will need to discuss with your network security team and evaluate Conditional Access policies which may be blocking Dynamics 365. For more information see Troubleshoot Conditional Access 
