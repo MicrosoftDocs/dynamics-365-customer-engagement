@@ -70,7 +70,7 @@ First agree to the terms of service and select **Next**.
 Select how your organization primarily uses IoT alerts in relatioon to devices and customer assets. As a reminder, there is a 1:Many relationship, where many devices can be related to one customer asset.
 
 - Select **Device ID** if your organization primarily manages the IoT alerts from individual devices. Example: you have internet-connected thermometers that send temperature readings.
-- Select **Customer Asset** if your organization primarily manages the IoT alerts from devices related to customer assets. Example: you have customer assets that represent rooms in a building and each room can have multiple devices sending telemetry.
+- Select **Customer Asset** if your organization primarily manages the IoT alerts from devices related to customer assets. Example: you have customer assets that represent rooms in a building and each room has multiple devices sending telemetry. When work orders are created from these IoT alerts, they are related to a customer asset.
 
 > [!Note]
 > If you are unsure of which option to choose or if your organization manages IoT alerts at both the device level and customer asset level equally, then leave this as the default: **Device ID**.
@@ -78,19 +78,38 @@ Select how your organization primarily uses IoT alerts in relatioon to devices a
 
 ### Enter rule identifier
 
+Choose the rules that you defined in IoTCentral or IoTHub that trigger IoT Alerts. The rule paths can be found in the IoT Alert JSON.
+
+An example of the rule path for IoTCentral is **rule/id**.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-ai-iotc-rule-path.png)
+
+An example of the rule path for IoTHub is **ruleoutput**.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-ai-ioth-rule-path.png)
+
 ### Enter device properties
 
-- OOB - reading type and telemetry value
-- custom - cost savings
+Choose the device properties that should be considered by the AI model to make suggestions. This the telemetry and signals coming from the devices is typicallyreading along with other device variables and characteristics. As an example, an internet-connected thermometer may give a temperature reading of 72 degrees and this temperature output should be considered. 
+
+By default, the **Telemetry** field in IoTCentral and the **Reading Type** and **Reading** fields in IoTHub are used as device properties. However you can add custom fields that you may have added. As an example, you may have a model that associates a financial cost to each temperature reading and this can be added here as a device property to be considered by the AI model.
 
 ### Finish
+
+After entering the initial information you are finished and the model will take 24 hours to begin making recommendations. It will look at historical information
+
 - takes 24 hours to apply, looks at historical data 
 
-can reconfigure at any time 
+
 
 youll know its working when it returns priority and incident types
 
 ## Configuration considerations
+can reconfigure at any time 
 - can use other metrics and models to calculate other variables such as comfort index
 - updated every 24 hours
 - should have at least 50 cases or work orders created from IoT alerts
