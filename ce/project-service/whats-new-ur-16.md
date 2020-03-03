@@ -25,13 +25,9 @@ search.app:
 
 
 # Project Service Automation V3, Update Release 16
-We’re pleased to announce the latest update for the Project Service Automation
-application for Dynamics 365. This release includes some important improvements
-to quality, performance, and usability.
+We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365. This release includes some important improvements to quality, performance, and usability.
 
-This release is compatible with Dynamics 365 9.x. To update to this release,
-visit the Admin Center for Dynamics 365 online, solutions page to install the
-update. For more information, see [Install, Update a Preferred Solution](https://docs.microsoft.com/dynamics365/project-service/upgrade-psa-home-page).
+This release is compatible with Dynamics 365 9.x. To update to this release, visit the Admin Center for Dynamics 365 online, solutions page to install the update. For more information, see [Install, Update a Preferred Solution](https://docs.microsoft.com/dynamics365/project-service/upgrade-psa-home-page). This topic lists the features and fixes that are new or changed for PSA V3, Update Release 16. This version has a build number of V3.10.6.34 and is generally available through a self-update in January 2020
 
 ## Update Release 16
 
@@ -67,7 +63,7 @@ update. For more information, see [Install, Update a Preferred Solution](https:/
     -   Fixed: Additional validation has been added to an estimate line’s
         **Amount** field to ensure that null values are not persisted.
 
-    -   Fixed: [PSA 3.x] When actuals have been updated on a project, a
+    -   Fixed: When actuals have been updated on a project, a
         refresh button has been added to the project main form to allow users to
         re-sync the actuals.
 
