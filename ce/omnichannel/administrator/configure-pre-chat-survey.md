@@ -45,7 +45,7 @@ You can configure your chat widget to show users a survey that they must respond
     > [!div class=mx-imgBorder]
     > ![Add a question to the pre-chat survey](../media/oc-add-chat-question.png "Add a question to the pre-chat survey")
 
-7. Select **Save and Close**. The questions are added in the **Pre-chat unathenticated questions** area.
+7. Select **Save and Close**. The questions are added in the **Pre-chat unauthenticated questions** area.
   
     > [!div class=mx-imgBorder]
     > ![Configure a pre-chat survey in a chat widget](../media/oc-chat-widget-survey-tab.png "Configure a pre-chat survey in a chat widget")
