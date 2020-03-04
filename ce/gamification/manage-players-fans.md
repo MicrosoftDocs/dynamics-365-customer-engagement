@@ -1,8 +1,8 @@
 ---
 title: "Manage users from Dynamics 365 apps and their security roles in Dynamics 365 – Gamification | Microsoft Docs"
 description: "Learn how to manage users and how to assign them the appropriate security roles for the games."
-keywords: gamification, player, fan, import, importing, azure active directory, user, license
-ms.date: 08/11/2018
+keywords: gamification, player, fan, user, license
+ms.date: 03/04/2020
 ms.service: dynamics-365-sales
 ms.topic: article
 ms.assetid: 4df5e61b-0d7b-4cef-b741-14bed0637756
