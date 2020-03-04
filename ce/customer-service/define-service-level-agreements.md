@@ -98,11 +98,11 @@ Review the following requirements before configuring SLAs for your organization:
 
 - The System Administrator, System Customizer, or Customer Service Manager role is assigned to you.
 
-- Identify target entities and add customizations. To add customizations in target entities to track SLAs, follow these steps:<!--note from editor: The steps weren't being formatted correctly on docs, so I tweaked the markdown a little.-->
+- Identify target entities and add customizations. To add customizations in target entities to track SLAs, follow these steps:<!--note from editor: The steps weren't being formatted correctly on docs, so I tweaked the markdown a little. I've seen this behavior quite often lately;-->
+   1. Create a lookup field on the entity for which an SLA has to be configured, and relate it to an SLA KPI instance. Lookup fields are created so that you can view the SLA in the timer on the entity form and track your SLAs. To learn more, see [Create and edit fields](../customerengagement/on-premises/customize/create-edit-fields.md#create-and-edit-fields).
+   For example, to track an SLA on a case for "escalated by KPI,"<!--note from editor: I don't know what "escalated by KPI" means here. Is it the name of the SLA? So it might be "...to track an 'escalated by KPI' SLA on a case.."?--> you need to create a field as **EscalatedByByKPI** on the Case entity, and provide the respective **Target Record Type** as **Service Level Agreement Instances** and **Data Type** as **Lookup**.
 
-   1. Create a lookup field on the entity for which an SLA has to be configured, and relate it to an SLA KPI instance. Lookup fields are created so that you can view the SLA in the timer on the entity form and track your SLAs. To learn more, see [Create and edit fields](../customerengagement/on-premises/customize/create-edit-fields.md#create-and-edit-fields).<br><br>For example, to track an SLA on a case for "escalated by KPI,"<!--note from editor: I don't know what "escalated by KPI" means here. Is it the name of the SLA? So it might be "...to track an 'escalated by KPI' SLA on a case.."?--> you need to create a field as **EscalatedByByKPI** on the Case entity, and provide the respective **Target Record Type** as **Service Level Agreement Instances** and **Data Type** as **Lookup**.
-
-    2. Use the lookup field to configure a timer to help users estimate the amount of time they have to complete a task—typically as specified in an SLA.<br><br>
+    2. Use the lookup field to configure a timer to help users estimate the amount of time they have to complete a task—typically as specified in an SLA.<br>
       To configure a timer, add the timer control to an entity form. The timer control initially displays a countdown timer to show the time remaining to complete the task. To learn more, see [Add a timer control to the Case form to track time against an SLA](add-timer-control-case-form-track-time-against-sla.md).
 
 
@@ -120,7 +120,7 @@ SLA KPIs are performance indicators, such as First Response or Resolve by, that 
 
 4. Enter the following details on the **General** tab:
 
-   - **Name:** Name of the SLA KPI.
+   - **Name:** The name of the SLA KPI.
 
    - **Owner:** The user creating the SLA is populated by default. You can specify a different owner.
 
@@ -128,7 +128,7 @@ SLA KPIs are performance indicators, such as First Response or Resolve by, that 
 
    - **KPI Field:** Select the respective KPI field. For example, if you're creating an SLA KPI to define the time within which a first response should be sent to the customer, select **FirstResponseByKPI** in the list.
 
-   - **Applicable From:** Select a value based on which the warning and failure time will be measured. For example, if you select **Created On**, the warning and failure start time for an SLA is calculated from the date and time when the entity was created.
+   - **Applicable From:** Select a value based on which the warning and failure time will be measured. For example, if you select **Created On**, the warning and failure start time for an SLA will be calculated from the date and time when the entity was created.
 
 5. Select **Save**, and then select **Activate**. The SLA KPI is saved and activated.
 
@@ -155,7 +155,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
    -  **Primary Entity:** Select a value in the box.
    -  **Description:** Enter a description for the SLA.
 
-4. Select **Save**. The **SLA Items** section appears on the page, and the SLA is saved. You can perform the steps to create SLA items as mentioned in the subsequent section.
+4. Select **Save**. The **SLA Items** section appears on the page, and the SLA is saved. You can perform the steps to create SLA items as described in the following section.
 
 ### Create an SLA item
 
@@ -185,33 +185,33 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
    
 3. Perform the following steps in Power Automate:
     
-   a. Accept the default settings or select the ellipses to configure a connection.
+   a. Accept the default settings or select the ellipsis to configure a connection.
 
-   b. Select **Continue**. The predefined flow that is specific to the SLA appears.
+   b. Select **Continue**. The predefined flow that's specific to the SLA appears.
        
      > [!NOTE] 
-     > We recommend that you don't edit the predefined flow. This can cause breaks in the flow and the SLA might not work as defined.
+     > We recommend that you don't edit the predefined flow. Doing so can cause breaks in the flow, and the SLA might not work as defined.
     
    c. Select **Switch**. The following condition steps are displayed:
 
-     - **Is Nearing Non-Compliance:** Will run when the warning time is reached for the SLA.
-     - **Is Succeeded:** Will run when SLA succeeds.
-     - **Is Non-Compliant:** Will run when SLA fails.
+     - **Is Nearing Non-Compliance**: Will run when the warning time is reached for the SLA.
+     - **Is Succeeded**: Will run when the SLA succeeds.
+     - **Is Non-compliant**: Will run when the SLA fails.
       ![SLA flow in Power Automate](media/sla-default-flow.png "SLA fLow in Power Automate")
     
-   d. Select **[Do not delete or update] Is Nearing Non-Compliance** > **Add an action**. The **Choose an action** area appears in which you can configure the action that must be performed when the warning time has been reached for the SLA.
+    d. Select **[Do not delete or update] Is Nearing Non-Compliance** > **Add an action**. The **Choose an action** area appears, in which you can configure the action that must be performed when the warning time has been reached for the SLA.
 
       i. Search for an action to add or go to the existing entities, such as **Mail**.
     
       ii. Select **Send an email notification**. Update the options to define the information in the mail.
 
-   e. Configure the actions for "Is Succeeded" and "Is Non-compliant" as required.
+   e. Configure the actions for **Is Succeeded** and **Is Non-compliant**, as required.
 
    f. Save and exit Power Automate.
 
 4. Select **Save & Close** on the SLA item dialog box.
 
-5. Define as many SLA items as required.
+5. Define as many SLA items as you need.
 
 6. Select **Activate**. The SLA is activated.
 
@@ -231,7 +231,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
 3. Go to **Service Level Agreements**.  
 
-4. To create a new SLA, on the command bar, select **New**.  
+4. To create a new SLA, select **New** on the command bar.  
 
     -Or-  
 
@@ -246,7 +246,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
    - **Applicable From**. Select the case field that specifies the date and time from which the SLA items will be calculated. For example, if you select the **Created On** field, calculations will start from the time the case was created.  
 
        > [!NOTE]
-       >  You can have multiple SLA KPIs within one SLA. The start time for different SLA KPIs within an SLA is set at the SLA level and can't be different across SLA KPIs. The start time is determined by the Applicable From field value.  
+       >  You can have multiple SLA KPIs within one SLA. The start time for different SLA KPIs within an SLA is set at the SLA level and can't be different across SLA KPIs. The start time is determined by the **Applicable From** field value.  
 
    - **Business Hours**. Select a customer service schedule record that defines your support organization's business hours. This is useful in the SLA time-tracking calculations. If a business hours record (customer service schedule) isn't selected, work hours are considered to be all day, every day.  
 
@@ -260,7 +260,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
 8. To add SLA details, in the **SLA Details** section, select the **Add** button ![Add button](media/crm-itpro-cust-subgridadd.PNG "Add button").  
 
-    You add SLA details to define the key performance indicators (KPIs) or metrics for the SLA. You can define any KPI your organization needs. For example, a KPI might be that all cases for standard customers must be resolved within five days from when the case was created.  
+    You add SLA details to define the KPIs or metrics for the SLA. You can define any KPI your organization needs. For example, a KPI might be that all cases for standard customers must be resolved within five days from when the case was created.  
 
     Define success criteria and the failure and warning actions that need to be taken when an SLA metric isn't met for a customer case.  
 
@@ -269,7 +269,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
    > [!NOTE]
    >  In Customer Service, SLA and SLA KPIs (SLA details) use the process (workflow) functionality. Although SLA KPIs use workflows, not all of the actions available in workflows are available for defining failure and warning actions. The available actions are currently limited to **Send Email**, **Create Record**, **Update Record**, **Assign Record**, and **Change Status**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and edit workflow processes](../customerengagement/on-premises/customize/workflow-processes.md)  
 
-9. Enter the following information in the New SLA Item form:  
+9. Enter the following information in the **New SLA Item** form:  
 
    - **Name**. Type a meaningful name.  
 
@@ -289,7 +289,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
      > [!NOTE]
      >  If there are multiple clauses, and you don't use AND or OR grouping, by default the clauses will use the AND grouping.  
 
-   - In the **Success Criteria** section, specify the conditions to define when the KPI will be considered as met. For example, the condition might be as shown in the following image.   
+   - In the **Success Criteria** section, specify the conditions to define when the KPI will be considered as met. For example, the condition might be as shown in the following image.
 
        ![Success criteria for an SLA is Case First Response Sent equals Yes](media/crm-ua-sla-details-success-criteria.png "Success criteria for an SLA is 'Case First Response Sent equals Yes'")  
   
@@ -297,19 +297,19 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
      > [!NOTE]
      >  Before you specify the failure and warning actions for the SLA, save the SLA item record.  </br> </br> If the conditions configured in the SLA fields conflict with each other, the SLA is canceled before it meets the success or failure criteria. For example, if the **Case Status** field is set as **Active** in the **Applicable When** section and is set as **not equal to Active** in the **Success Criteria** section, the SLA will be canceled when implemented.
 
-   - Under **SLA Item Failure**, in the **Failure After** drop-down list, select when the SLA items will be considered as failed. For example, if you select **1 hour**, the KPI will be considered as failed if the first response isn't done within one hour of case creation. One hour is calculated based on the value in the date/time field that you select in the **Applicable From** field of the SLA record.  
+   - Under **SLA Item Failure**, in the **Failure After** drop-down list, select when the SLA items will be considered as failed. For example, if you select **1 hour**, the KPI will be considered as failed if the first response isn't completed within one hour of the time the case was created. One hour is calculated based on the value in the date-time field that you select in the **Applicable From** field of the SLA record.  
 
    - In the **Failure Actions** section, select **Add Step**, and then specify the actions to be taken if the success criteria aren't met and the case exceeds the specified failure time. For example, to mark a case for escalation when the KPI has failed, select **Add Step** > **Update Record** > **Case** > **Set Properties**. In the case record, change the value of the **Is Escalated** field, and then close the case form.  
 
    - Under **SLA Item Warning**, in the **Warn After** drop-down list, select the time when a warning is to be raised that the KPI is nearing violation.  
 
-   - In the **Warning Actions** section, select **Add Step**, and then specify the actions to be taken when the KPI reaches the warning time. For example, to warn the case owner that the KPI is nearing violation, select **Add Step** > **Send Email** > **Create New Message** > **Set Properties**. In the email record, type the email details, and then close the email form.  
+   - In the **Warning Actions** section, select **Add Step**, and then specify the actions to be taken when the KPI reaches the time when a warning is to be raised. For example, to warn the case owner that the KPI is nearing violation, select **Add Step** > **Send Email** > **Create New Message** > **Set Properties**. In the email record, type the email details, and then close the email form.  
 
      > [!NOTE]
      >  The time for failure and warning is calculated after considering the business hours selected in the SLA record. If a business hours record (customer service schedule) isn't selected, the work hours are considered to be all day, every day.
 
      > [!IMPORTANT]
-     >  Make sure that you don't have too many SLA Items in an SLA, because that might negatively affect the create and update operations on the record on which the SLA is applied or reevaluated. We recommend that you have no more than 15 SLA items in an SLA record, for performance reasons.  
+     >  Make sure that you don't have too many SLA items in an SLA, because that might negatively affect the create and update operations on the record on which the SLA is applied or reevaluated. We recommend that you have no more than 15 SLA items in an SLA record, for performance reasons.  
 
 10. [!INCLUDE[proc_click_or_tap_save_and_close](../includes/proc-click-or-tap-save-and-close.md)]  
 
@@ -347,7 +347,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
    - **Applicable From**. Select the field that specifies the date and time from which the SLA items will be calculated. For example, if you select the **Created On** field, calculations will start from the time the record was created.  
 
        > [!NOTE]
-       >  You can have multiple SLA KPIs within one SLA. The start time for different SLA KPIs within an SLA is set at the SLA level and can't be different across SLA KPIs. The start time is determined by the Applicable From field value.  
+       >  You can have multiple SLA KPIs within one SLA. The start time for different SLA KPIs within an SLA is set at the SLA level and can't be different across SLA KPIs. The start time is determined by the **Applicable From** field value.  
 
    - **Business Hours**. Select a customer service schedule record that defines your support organization's business hours. This is useful for SLA time-tracking calculations. If a business hours record (customer service schedule) isn't selected, work hours are considered to be all day, every day. 
 
@@ -390,7 +390,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
    - In the **Success Action** section, select **Add Step**, and then specify the actions that you want the application to take when the success criteria is met before the violation time. For example, select **Add Step** > **Change Status**, and then in the first drop-down list, select **Case**, and in the next drop-down list, select **Information Provided**.
 
-   - Under **SLA Item Failure**, in the **Failure After** drop-down list, select when the SLA items will be considered as failed. For example, if you select **1 hour**, the KPI will be considered as failed if the first response isn't completed within one hour of case creation. One hour is calculated based on the value in the date/time field that you select in the **Applicable From** field of the SLA record.  
+   - Under **SLA Item Failure**, in the **Failure After** drop-down list, select when the SLA items will be considered as failed. For example, if you select **1 hour**, the KPI will be considered as failed if the first response isn't completed within one hour of the time the case was created. One hour is calculated based on the value in the DateTime field that you select in the **Applicable From** field of the SLA record.  
 
    - In the **Failure Actions** section, select **Add Step**, and then specify the actions to be taken if the success criteria aren't met and the record exceeds the specified failure time. For example, to mark a case for escalation when the KPI has failed, select **Add Step** > **Update Record** > **Case** > **Set Properties**. Now in the case record, change the value of the **Is Escalated** field, and then close the case form.  
 
@@ -403,7 +403,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
 ### Samples for creating enhanced SLA KPIs
 
-The following sample SLA KPIs for the Lead entity can help you get familiar with creating SLAs for other entities, 
+The following sample SLA KPIs for the Lead entity can help you get familiar with creating SLAs for other entities. 
 
 #### Sample 1: Contact the customer
 
@@ -428,7 +428,7 @@ This sample SLA KPI tracks whether the salesperson has taken necessary action on
 > [!IMPORTANT]
 > - We recommend that you not create or update SLAs by using [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]. Use the Customer Service app for this purpose.  
 > - Make sure you don't have too many SLA items in an SLA, because that might negatively affect the create and update operations on the record on which the SLA is applied or reevaluated. We recommend that you have no more than 15 SLA items in an SLA, for performance reasons. 
-> - The SLA business logic relies on SLA KPI Instance record values, so to avoid any conflict we recommend that you not create plug-ins or processes to directly update the SLA KPI Instance record values.
+> - The SLA business logic relies on **SLA KPI Instance** record values, so to avoid any conflict we recommend that you not create plug-ins or processes to directly update the **SLA KPI Instance** record values.
 
 ## Set an SLA as the default
 
