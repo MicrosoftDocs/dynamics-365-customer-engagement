@@ -16,42 +16,40 @@ ms.topic: article
 
 ## Overview
 
-When an agent gets a notification, it displays certain information such as which customer the conversation request is coming from, the timeout period after which the notification will disappear, and some buttons such as accept and reject. Each organization has varied business requirements and wants the notifications to show relevant information to the agents in the notification.
+When a notification is sent to an agent<!--note from editor: To fix misplaced modifier.-->, it displays certain information such as which customer the conversation request is coming from, the timeout period after which the notification will disappear, and some buttons such as accept and reject. Each organization has varied business requirements and wants the notifications to show relevant information to the agents.
 
-The notification templates are introduced to show relevant information to agents. A notification template in Omnichannel Administration app is a combination of notification related information that is reusable. The template is used to configure what information is displayed to the agents and supervisors for an incoming conversation, escalation, transfer, consult, and so on.
+The notification templates are introduced to show relevant information to agents. A notification template in Omnichannel for Dynamics 365 Customer Service<!--note from editor: Edit okay?--> is a combination of notification-related, reusable information. The template is used to configure what information is displayed to the agents and supervisors for an incoming conversation, escalation, transfer, consult, and so on. As an administrator, system integrator, or partner, you can use the templates or create new ones to show information that matters most to your business.
 
-As an administrator, system integrator, or partner, you can use the templates or create new ones to show information that matter most to your business.
+<!--note from editor: It looks like this sentence should be a Note if it's an important point, otherwise it's a bit of a non sequitur.-->You must associate the notification templates to a session template.
 
-You must associate the notification templates to a session template.
+### Desktop notifications when the app is in the background
 
-### Desktop notification when app is in background
+Agents can receive desktop notifications when the Omnichannel for Customer Service app is not in focus. These notifications help ensure that agents won't miss any conversation requests. Some scenarios where the app isn't in focus might include: 
 
-Agents can receive desktop notifications when the Omnichannel for Customer Service app is not in focus. The desktop notification helps agents not to miss any conversation notification requests. Some of the scenarios, where the app is not focus are: 
-
-- When the agent has minimized the app.
-- When the agent is working on another browser window.
-- When the agent is working on a another browser tab.
+- The agent has minimized the app.
+- The agent is working in another browser window.
+- The agent is working on another tab of the browser.
 
  > [!div class=mx-imgBorder]
  > ![Desktop notification](../media/oceh/desktop-notification.png "Desktop notification")
 
-Agent can accept or reject by selecting a button on the desktop notification. When the agent accepts the conversation by selecting a button on the desktop notification, the Omnichannel for Customer Service app is made active, displayed to the agent, and a session is started.
+Agents can accept or reject the conversation request by selecting a button on the desktop notification. When the agent accepts the conversation, the Omnichannel for Customer Service app is made active and displayed to the agent, and a session is started.
 
-If agents select the notification message/body and not the button, then the Omnichannel for Customer Service app is made active, and the notification is displayed to the agent in the app. Now, agent can choose to accept or reject the conversation using appropriate buttons.
+If an agent selects the notification message body and not a button, the Omnichannel for Customer Service app is made active and the notification is displayed to the agent in the app. Then the agent can choose to accept or reject the conversation by selecting the appropriate button.
 
-You can configure the wait time and this time applies to the desktop notification, but doesn't display the wait time on the desktop notification. The desktop notification theme is based on Windows operating system theme and settings.
+You can configure the wait time<!--note from editor: What does it mean to have the wait time applied to the notification? This seems incomplete. Also, the mention of the theme seems kind of random. --> and this time applies to the desktop notification, but doesn't display the wait time on the desktop notification. The desktop notification theme is based on the Windows operating system theme and settings.
 
 > [!Note]
-> If browser native notification option is disabled, then the notification will be shown in a different user interface.
+> If the native browser notification option<!--note from editor: What does this mean? --> is disabled, the notification will be shown in a different user interface.
 
-#### Allow browser to show notification
+#### Allow a browser to show notifications
 
-To get the desktop notification, agents need to allow the browser (Microsoft Edge and Google Chrome) to shown notification. When agent get the browser notification, they need to select the **Allow** button.
+To get desktop notifications, agents need to allow their browser (Microsoft&nbsp;Edge or Google Chrome) to show them. When an agent gets a browser notification, they need to select **Allow**.
 
-Also, you (administrator) can set the browser notification permission through group policy.
+Also, as an administrator, you can set the browser notification permission by using group policy.
 
  > [!div class=mx-imgBorder]
- > ![Allow desktop notification](../media/oceh/allow-desktop-notification.png "Allow desktop notification") 
+ > ![Allow desktop notifications](../media/oceh/allow-desktop-notification.png "Allow desktop notifications") 
 
 #### Notification fields
 
@@ -59,7 +57,7 @@ The fields that are shown in the notification are based on the notification temp
 
 ## Slug for notification field header
 
-Slug is the replacement parameter that omnichannel system populates at runtime based on the context variables.
+Slug is the replacement parameter that omnichannel system<!--note from editor: This section needs to use "Omnichannel for Customer Service" throughout. At times, the article doesn't seem to have been edited at all (see the table in line 94, for example).--> populates at runtime based on the context variables.
 
 The notification shows certain fields and values, called **Field header** and **Value** respectively.
 
@@ -87,13 +85,13 @@ Omnichannel system supports the following slugs.
 
 ## Create a notification template
 
-1.	Sign in to the Omnichannel Administration app.
+1.    Sign in to the Omnichannel Administration app.
 
-2.	Select **Notifications** under **Agent Experience** in the sitemap.
+2.    Select **Notifications** under **Agent Experience** in the sitemap.
 
-3.	Select **+ New** in the **Active Notifications** page.
+3.    Select **+ New** in the **Active Notifications** page.
 
-4.	Specify the following in the **New Notification** page.
+4.    Specify the following in the **New Notification** page.
 
     | Tab | Name | Value description | Example |
     |---------|--------------------|-----------------------------------------------|--------------------|
@@ -109,15 +107,15 @@ Omnichannel system supports the following slugs.
      > [!div class=mx-imgBorder] 
      > ![Create notification template](../media/notification-template1.png "Create notification template")
 
-5.	Select **Save** to save the notification template. After you save, the **Notification Fields** section appears on the page.
+5.    Select **Save** to save the notification template. After you save, the **Notification Fields** section appears on the page.
 
-6.	Select **Add Existing Notification Field** in the **Notification Fields** section. The **Lookup Records** pane appears.
+6.    Select **Add Existing Notification Field** in the **Notification Fields** section. The **Lookup Records** pane appears.
 
-7.	Select the search icon in the **Look for Records** box. If there are no records, you see a message: **No records found. Create a new record.**.
+7.    Select the search icon in the **Look for Records** box. If there are no records, you see a message: **No records found. Create a new record.**.
 
-8.	Select **+ New** to create a new notification field. A confirm dialog box appears, asking whether you want to leave the page. Select **OK**.
+8.    Select **+ New** to create a new notification field. A confirm dialog box appears, asking whether you want to leave the page. Select **OK**.
 
-9.	Specify the following in the **New Notification Field** page.
+9.    Specify the following in the **New Notification Field** page.
 
     | Tab | Name | Value description | Example |
     |---------|--------------------|-----------------------------------------------|--------------------|    
@@ -128,15 +126,15 @@ Omnichannel system supports the following slugs.
     > [!div class=mx-imgBorder]
     > ![Create notification field](../media/notification-field.png "Create notification field")
 
-10.	Select the back arrow on the browser to go to the notification template you created. Alternatively, you can select **Notifications** in the sitemap and then select the template you created.
+10.    Select the back arrow on the browser to go to the notification template you created. Alternatively, you can select **Notifications** in the sitemap and then select the template you created.
 
-11.	Select **Add Existing Notification Field** in the **Notification Fields** section. The **Lookup Records** pane appears.
+11.    Select **Add Existing Notification Field** in the **Notification Fields** section. The **Lookup Records** pane appears.
 
-12.	Select the name of the notification field you created, and then select **Add**. For example, **Name of the customer**.
+12.    Select the name of the notification field you created, and then select **Add**. For example, **Name of the customer**.
 
-13.	Repeat steps 6 through 12 to add more notification fields.
+13.    Repeat steps 6 through 12 to add more notification fields.
 
-14.	Select **Save** to save the notification template changes.
+14.    Select **Save** to save the notification template changes.
 
 After saving the notification, sign in to the Omnichannel for Customer Service app and you can view the notification as per your configuration.
 
@@ -146,15 +144,15 @@ To learn more, see [View notification](../agent/agent-oc/oc-notifications.md).
 
 As an administrator, you can edit the value of a notification field header in the grid.
 
-1.	Sign in to the Omnichannel Administration app.
+1.    Sign in to the Omnichannel Administration app.
 
-2.	Select **Notifications** under **Agent Experience** in the sitemap.
+2.    Select **Notifications** under **Agent Experience** in the sitemap.
 
-3.	Select the notification you want to edit on the **Active Notifications** page.
+3.    Select the notification you want to edit on the **Active Notifications** page.
 
-4.	Select a notification field you want to edit and then select the record to edit it.
+4.    Select a notification field you want to edit and then select the record to edit it.
 
-5.	Select the save icon in thr grid.
+5.    Select the save icon in thr grid.
 
 ## Customize notification
 
