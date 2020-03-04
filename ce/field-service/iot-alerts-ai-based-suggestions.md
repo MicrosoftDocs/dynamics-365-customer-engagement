@@ -28,32 +28,22 @@ search.app:
 
 # IoT alert AI-based suggestions
 
-Any situation where there is data followed by actions, is a situation where AI can be applied to benefit an organization. This is especially true for Connected Field Service that "makes IoT data actionable" by allowing an organization to convert IoT alerts into cases and work orders. One way AI is leveraged in Connected Field Service is with a feature called **IoT alert AI-based suggestions** that tages IoT alerts with a suggested priority or incident type based on past service history and actions. For example, an alert suggestion might show that a temperature-based alert is a high priority, and needs an incident type for recalibrating the equipment.
+Any situation where there is data followed by actions, is a situation where AI can be applied to benefit an organization. This is especially true for Connected Field Service that "makes IoT data actionable" by allowing an organization to convert IoT alerts into cases and work orders to be inverstigated by the appropriate people. 
+
+One way AI is leveraged in Connected Field Service is with a feature called **IoT alert AI-based suggestions** that tages IoT alerts with a suggested priority or incident type based on past service history and actions. For example, an alert suggestion might show that a temperature-based alert is a "high priority", and needs an incident type for "recalibrating the equipment".
 
 As a reminder:
 
 - An **incident type** is the main issue of a work order and can dictate related details like work order type, products, services, and service tasks. 
-- **Priority** in this feature represents the priority to the business generally measured by financial impact or customer satisfaction. As an example, imagine an IoT alerts notifies the organization that the heating of a room is down, and this could have a large impact on an event and customer satisfaction. This would represent a _high_ priority because of the large business impact.
+- **Priority** in this feature represents the priority to the business generally measured by financial impact or customer satisfaction. As an example, imagine an IoT alerts notifies the organization that a building's heating is broken, and this could have a large impact on an event and customer satisfaction. This would represent a _high_ priority because of the large business impact.
 
-The AI-based suggestions are made possible by a machine learning model that is continuously learning based as more data enters the system in the form of IoT Alert records and as more actions are executed such as when a dispatcher converts an alert into a case or work order. 
+The AI-based suggestions are made possible by a machine learning model that is continuously learning as more data enters the system in the form of IoT Alert records and as more actions are executed by dispatchers that converts an alert into a case or work order. 
 
-Data
-
-Action
-
-Here's how it works. Internet-connected devices create telemetry that is stored in Azure IotHub or Azure IotCentral. If the telemetry breaks predefined rules, then an IoT alert is created in Dynamics 365. SOmetimes, the alerts are converted into cases and work orders After AI-based suggestions are enabled, the system will recommend   
-
-- learning model that will change with more data. looks at how many of similar alerts were converted to cases or work orders
-- suggestions 
-
-Benefit:
-- more proactive
-- assess importance of alerts 
-- better allocation of limited resources to issues
-- too many alerts
-- dont always have to rely on expertise can scale better work order creation
-
-
+Here are the top benefits to enabling AI for IoT Alerts:  
+- Understand which IoT alerts are higher priority 
+- Become more proactive at handling issues that are potentially high impact 
+- Better allocate limited resources to IoT alerts that become cases and work orders
+- Use AI to scale out and learn from the experienced personnel who know how to respond to issues surfaced by IoT telemetry.
 
 
 ## Prerequisites
