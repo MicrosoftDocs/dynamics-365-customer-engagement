@@ -24,7 +24,7 @@ You can deploy Omnichannel for Customer Service over a Customer Service applicat
 
 - Unified Service Desk client application
 
-- Omnichannel for Customer Service app - Web experience on Unified Interface application
+- Omnichannel for Customer Service app - Web experience on the Unified Interface application
 
 ## Prerequisites
 
@@ -53,15 +53,15 @@ You will need the following to use Omnichannel for Customer Service with Unified
 
 | Area | Requirements | 
 |----------|----------|
-| Desktop application | Unified Service Desk 4.1.1.1253 and higher version <br><br>More information: [Download Unified Service Desk](administrator/omnichannel-customer-service-unified-service-desk.md#download-unified-service-desk-client-application)|
-| Model-driven app |Dynamics 365 Customer Service app version 9.1.0000.3653 and a higher version<br><br> **Note:** We recommend you use a new production Dynamics 365 Customer Service instance to use Omnichannel for Customer Service on Unified Service Desk. |
-| Hosting Types | Supported hosting types are: <li>Chrome Process</li> <li>IE Process</li> <br> To learn more about the hosting types, see [Configure recommended settings for Unified Service Desk](administrator/configure-settings-unified-service-desk.md). |
-| Operating system |<li>For Microsoft Edge - Windows 10 (October 2018 release and a higher version)</li><li>For Internet Explorer - Windows 10, Windows 8.1, Windows 8, or Windows 7 Service Pack 1 (SP1)</li>|
+| Desktop application | Unified Service Desk 4.1.1.1253 or higher <br><br>More information: [Download Unified Service Desk](administrator/omnichannel-customer-service-unified-service-desk.md#download-unified-service-desk-client-application)|
+| Model-driven app |Dynamics 365 Customer Service app version 9.1.0000.3653 or higher <br><br> **Note:** We recommend you use a new production Dynamics 365 Customer Service instance to use Omnichannel for Customer Service on Unified Service Desk. |
+| Hosting Types | Supported hosting types: <li>Chrome Process</li> <li>IE Process</li> <br> To learn more about hosting types, see [Configure recommended settings for Unified Service Desk](administrator/configure-settings-unified-service-desk.md). |
+| Operating system |<li>For Microsoft Edge - Windows 10 (October 2018 release and higher version)</li><li>For Internet Explorer - Windows 10, Windows 8.1, Windows 8, or Windows 7 Service Pack 1 (SP1)</li>|
 | Memory (Hardware) | ^8-GB RAM or more |
 
 ^The memory requirement is for out-of-the-box solutions. Evaluate the requirements when creating complex configurations to the Unified Service Desk - Omnichannel for Customer Service solution or when using other line-of-business applications with Unified Service Desk.
 
-For other hardware requirements of Unified Service Desk client application, see [Unified Service Desk system requirements](/dynamics365/unified-service-desk/admin/unified-service-desk-system-requirements).
+For other hardware requirements of the Unified Service Desk client application, see [Unified Service Desk system requirements](/dynamics365/unified-service-desk/admin/unified-service-desk-system-requirements).
 
 ## International availability
 
