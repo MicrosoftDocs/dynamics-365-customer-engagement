@@ -1,11 +1,11 @@
 # [Overview](overview.md)
 
 # What's new
-## [What's new in Update Release 16, V3](whats-new-ur-16.md)
-## [What's new in Update Release 15, V3](whats-new-ur-15.md)
-## [What's new in Update Release 14, V3](whats-new-ur-14.md)
-## [What's new in Update Release 13, V3](whats-new-ur-13.md)
-## [What's new in Update Release 12, V3](whats-new-ur-12.md)
+## [What's new or changed in Update Release 16, V3](whats-new-ur-16.md)
+## [What's new or changed in Update Release 15, V3](whats-new-ur-15.md)
+## [What's new or changed in Update Release 14, V3](whats-new-ur-14.md)
+## [What's new or changed in Update Release 13, V3](whats-new-ur-13.md)
+## [What's new or changed in Update Release 12, V3](whats-new-ur-12.md)
 ## [What's new or changed in Project Service Automation V3.x wave 1 2020](whats-new-v3-2020-wave1.md)
 ## [What's new or changed in Project Service Automation V3](whats-new-changed-v3.md)
 
