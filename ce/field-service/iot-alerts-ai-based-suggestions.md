@@ -48,11 +48,9 @@ Here are the top benefits to enabling AI for IoT Alerts:
 
 ## Prerequisites
 
-Connected Field Service with Azure IoTHub and Azure IoTCentral 
+Public preview April 2020
 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+Connected Field Service with Azure IoTHub or Azure IoTCentral 
 
 ## Instructions
 
