@@ -4,7 +4,7 @@ description: "Instructions to configure a pre-chat survey in Omnichannel for Cus
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 12/13/2019
+ms.date: 03/04/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
