@@ -10,7 +10,7 @@ ms.service:
 ms.topic: article
 ---
 
-# Configure a custom channel
+# Preview: Configure a custom channel
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -27,9 +27,9 @@ The custom channel feature lets you integrate a social messaging channel of your
 
 [Step 1: Register your social channel](#step-1-register-your-social-channel)
 
-[Step 2: Create a work stream](step-2-create-a-work-stream)
+[Step 2: Create a work stream](#step-2-create-a-work-stream)
 
-Step 3: Create a custom channel
+[Step 3: Create a custom channel](#step-3-create-a-custom-channel)
 
 ### Step 1: Register your social channel
 
@@ -46,7 +46,7 @@ You need to use it as follows:
 
 ## Step 2: Create a work stream
 
-After registering your social channel, you need to create a work stream for the custom channel. Follow these steps:
+After registering your social channel, you need to create a work stream for the custom channel. To create a custom channel work stream, follow the steps:
 
 1. Sign in to Omnichannel Administrator.
 
@@ -58,6 +58,22 @@ After registering your social channel, you need to create a work stream for the 
 
 5. Select the **Custom** option for the **Channel** field.
 
-6. Save the changes.
+6. Select **Save** to save the changes.
 
+You've created a work stream for custom channel.
 
+To learn more, see [Create work streams](work-streams-introduction.md).
+
+## Step 3: Create a custom channel
+
+After you create a work stream for custom channel, you need to create a custom channel with the details of the **Microsoft App ID** and **Password** that you retrieved while registering your social channel in Azure Bot Service.
+
+To create a custom channel, follow the steps:
+
+1. Sign in to Omnichannel Administrator.
+
+2. Select **Custom (Preview)** under **Channels**.
+
+3. Select **+ New** in the **Active Custom Messaging Application** view.
+
+4. 
