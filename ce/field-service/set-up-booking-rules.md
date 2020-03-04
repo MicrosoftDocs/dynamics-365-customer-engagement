@@ -30,6 +30,8 @@ Booking rules in Field Service allow a System Administrator to create warning or
 Booking rules are custom JavaScript methods that will be executed prior to the Bookable Resource Booking record being created or edited.  The JavaScript method can accept a parameter that will contain information for the Bookable Resource Booking record being created and must return a JavaScript object with the required properties.
   
  Set up booking rules to validate a booking when it is created or modified.  
+ 
+Booking rules are only available for the hourly view and not daily, weekly and monthly.
 
 ## Create a solution
 
