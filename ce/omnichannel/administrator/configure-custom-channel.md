@@ -1,8 +1,8 @@
 ---
-title: "Configure a custom channel | MicrosoftDocs"
-description: "Learn what is a custom channel and how to configure the channel in Omnichannel for Customer Service."
-author: lalexms
-ms.author: laalexan
+title: "Configure a Custom channel | MicrosoftDocs"
+description: "Learn what is a Custom channel and how to configure the channel in Omnichannel for Customer Service."
+author: kabala123
+ms.author: kabala
 manager: shujoshi
 ms.date: 04/01/2020
 ms.service: 
@@ -10,7 +10,7 @@ ms.service:
 ms.topic: article
 ---
 
-# Preview: Configure a custom channel
+# Preview: Configure a Custom channel
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -53,7 +53,7 @@ The following social channels integration are supported:
 
 To integrate your social channel with Omnichannel for Customer Service, register your channel in **Azure Bot Service**. To learn how to register, see [Register a bot with Azure Bot Service](https://docs.microsoft.com/azure/bot-service/bot-service-quickstart-registration).
 
-After you register, save the **Microsoft App ID** and **Password** values safely for future use. These two values are required to create a custom channel in the Omnichannel Administration app.  To learn more, see [Get registration password](https://docs.microsoft.com/azure/bot-service/bot-service-quickstart-registration#get-registration-password).
+After you register, save the **Microsoft App ID** and **Password** values safely for future use. These two values are required to create a custom channel configuration in the Omnichannel Administration app.  To learn more, see [Get registration password](https://docs.microsoft.com/azure/bot-service/bot-service-quickstart-registration#get-registration-password).
 
 You need to use it as follows:
 
@@ -79,7 +79,7 @@ After you add the social channel to the Bot Channel registration in Azure Bot Se
 
 4. Specify the values for the fields.
 
-5. Select the **Custom** option for the **Channel** field.
+5. Select the **Custom (preview)** option for the **Channel** field.
 
 6. Select **Save** to save the changes.
 
@@ -100,7 +100,7 @@ To create a custom channel, follow the steps:
 
 1. Sign in to Omnichannel Administrator.
 
-2. Select **Custom (Preview)** under **Channels**.
+2. Select **Custom (preview)** under **Channels**.
 
 3. Select **+ New** in the **Active Custom Messaging Application** view.
 
@@ -129,7 +129,7 @@ To create a custom channel, follow the steps:
 
     After you create a **Custom Messaging Application**, you need to create custom messaging channel, which is the actual channel from which Omnichannel for Customer Service agents will receive messages from the customer.
 
-9. Specify the values for the following fields.
+9. In the **New Custom Messaging Application** page, specify the values for the following fields.
 
     | Section | Field | Description | Example  value |
     |-------------|-------------------|---------------------------|--------------------------------------|  
@@ -137,17 +137,19 @@ To create a custom channel, follow the steps:
     | Details | Description | Provide a description for your reference | This channel is used for Contoso customers with Skype. |
     | Details | Custom Messaging Application | The **Custom Messaging Application** field is populated. However, you can change the value using the lookup. | Contoso custom channel |
     | Details | Channel ID | Select a channel from the list. The options are: <br> - GroupMe <br> - Kik <br> - Skype <br> - Telegram <br> - Web Chat <br> - Direct Line |
-    | Work Distribution | Work Stream | Select a work stream from the lookup. | Contos custom channel work stream |
+    | Work Distribution | Work Stream | Select a work stream from the lookup. | Contoso custom channel work stream |
 
     > [!Note]
     > A **Custom Messaging Application** can have multiple unique channel IDs. We recommend you not to add two or more same Channel IDs to a **Custom Messaging Application**. For example, for **Contoso custom channel**, you can't add two or more **Skype** Channel ID.
 
     > [!div class=mx-imgBorder]
-    > ![Create a custom channel](../media/custom-channel-3.png "Create a custom channel")    
+    > ![Create a custom channel](../media/custom-channel-3.png "Create a custom channel") 
 
-10. Select the browser back button to go to the **Custom Messaging Application** page. You can see the custom messaging channel is added in the **Channels** section. 
+10. Select **Save** to save the custom messaging application channel.       
 
-11. Select **Save** to save the configurations.
+11. Select the browser back button to go to the custom messaging application page. You can see that the custom messaging channel is added in the **Channels** section. 
+
+12. Select **Save** to save the configurations.
 
 
     > [!div class=mx-imgBorder]

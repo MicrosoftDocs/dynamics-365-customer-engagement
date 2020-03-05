@@ -42,6 +42,7 @@
 ##### [Configure an SMS channel](administrator/configure-sms-channel.md)
 #### Social channels
 ##### [Configure a Facebook channel](administrator/configure-facebook-channel.md)
+##### [Configure a WhatsApp channel](administrator/configure-whatsapp-channel.md)
 ##### [Configure a Custom channel](administrator/configure-custom-channel.md)
 #### Entity records
 ##### [Entity records routing](administrator/entity-channel.md)
