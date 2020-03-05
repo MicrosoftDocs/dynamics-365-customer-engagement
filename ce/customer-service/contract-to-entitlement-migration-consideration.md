@@ -45,7 +45,7 @@ Depending on how your contract is set up, choose from the following options to p
 
 If you are currently using the Contract templates, use the following steps to map to the Entitlement template. 
 
-> [!NOTE:] 
+> [!NOTE] 
 > The Contract template 'allocation type' is equal  to the 'coverage dates' on the Entitlment template, and allows you to create a number of cases between the start-date and end-date of a contract.  
 
  <need screenshot/graphic to display here>
@@ -58,7 +58,7 @@ To switch from the Contract template and map to the Entitlement template:
 - Created cases will now display warning notices when they exeed allocated terms and conditions.  
 - Customer usage can be monitored with the option to set and apply restrictions.
 
-> [!NOTE:] 
+> [!NOTE] 
 > The following items have beeen deprecated on the Contract template and are not be available on the Entitlment template:
 > - Calendar  
 > - Required fields. However, custom fields with attributes can be created on Entitlement template. 
@@ -83,7 +83,7 @@ If you have a contract tied to a single product, use the following steps:
 
 <Provide sdk sample code reference (Arvind)> 
 
-> [!NOTE:]
+> [!NOTE]
 > The following Contract items have been deprecated and are not available on Entitlement: 
 > - Contracts groups contract lines. (Entitlement does not provide concept grouping).  
 
