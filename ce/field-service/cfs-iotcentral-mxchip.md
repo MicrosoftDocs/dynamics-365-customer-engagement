@@ -223,25 +223,82 @@ cfs-mxchip-20
 Navigate to IoT Central Solution and loginhttps://YOURORG.azureiotcentral.com 
 
 cfs-mxchip-21
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
 
 Select Device and MXChip(1.0.0) TemplateSelect Real to Create and New Device 
 
 cfs-mxchip-22
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
 
 Create Device ID and Device Name
 Create something unique but not too crazy  
 
 cfs-mxchip-23
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
 
 Select Connect 
 You will need to copy and paste to Notepad the Scope and Device ID and Primary Key below for MXChip Setup In the next step
 
 cfs-mxchip-24
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
 
 
 ## Plugin and connect MXChip
 
+Connect AZ3166 to Power and press Reset button
+Wait until the searching for Wi-Fi screen goes away – Normally 45-60 seconds
+Hold down A+B Button AZ3166 will hard reset (Usually takes 15-20 seconds)
+Press Reset when directed to by the LCD Screen
+When device Reboots, it should be in AP Mode with the SSID Starting with AZ3166
+Repeat Steps As Necessary –Should look like this
+
+cfs-mxchip-25
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+
+After device reboots, you need to configure the Wi-Fi on the Device and should look like the below image 
+You should see a device name starting with AZ3166_ in your Wi-Fi trayconnect to that. Once connected, go to below IP address. 
+**THIS STEP WILL KICK YOU OFF INTERNET AND HOOK TO MXCHIP**
+Go to this http://192.168.0.1/start 
+
+cfs-mxchip-26
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+You will need to ask for the Wi-Fi and password to the network you are hooking your device to from proctor. 
+Get device pin from your device
+Add in Device, Scope, and Primary Key you copied from IoT Central.
+Select Configure Device 
+
+cfs-mxchip-27
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+
+After the Confirmation Page is shown on your PC, press the Reset Button on the Device
+
+cfs-mxchip-28
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+
 ## See Telemetry Data in IoT Central
+
+Navigate to IoT Central 
+Select Devices
+Select your device
+
+cfs-mxchip-29
+
+
+You can control what telemetry you see on the chart by selecting the eyes
+
+cfs-mxchip-30
 
 ## See IoT Alerts in Dynamics 365 Field Service 
 
