@@ -32,45 +32,79 @@ The following migration support information has been provided to assist customer
 
 <Question: Are there any customer system prerequisites?>
 
-## Plan your migration 
+## Migration planning 
 
-Depending on how your contract is set up, use one of the following options to prepare for migration:
+Depending on how your contract is set up, choose from the following options to prepare your migration:
   
-  A. Mapping: Contract template to Entitlement template <BR>
+  A. Mapping: Contract template to entitlement template <BR>
   B. Mapping: Contract to entitlements<BR> 
-  C. Entitlement cancellation 
+    - Single Product Contract<BR>
+  C. Contract and Entitlement Cancellation 
 
 ### A. Mapping: Contract template to entitlement template 
 
-  Allocation type equal to 'Coverage Dates', allow n number of cases created between start  date and end date of contract.  
+If you are currently using the Contract templates, use the following steps to map to the Entitlement template. 
 
-  This can be achieved in entitlement by picking the allocation type and settings 'Restriction based on entitlement terms' to No, this would allow creation of case with warning in case allocated terms have exceeded.  
+> [!NOTE:] 
+> The Contract template 'allocation type' is equal  to the 'coverage dates' on the Entitlment template, and allows you to create a number of cases between the start-date and end-date of a contract.  
 
-  Additional advantage monitor the usage, and later can restrict if required. 
+ <need screenshot/graphic to display here>
 
-  Calendar on contract template is deprecate and not available on entitlement.  
+To switch from the Contract template and map to the Entitlement template: 
+  1. Select <b>allocation type</b>
+  2. Set <b>Restriction based on entitlement terms</b> to <b> No</b>
+  
+### Benefits
+- Created cases will now display warning notices when they exeed allocated terms and conditions.  
+- Customer usage can be monitored with the option to set and apply restrictions.
 
-  For any other fields required on contract template and not available on Entitlement template, create custom attributes on entitlement template. 
+> [!NOTE:] 
+> The following items have beeen deprecated on the Contract template and are not be available on the Entitlment template:
+> - Calendar  
+> - Required fields. However, custom fields with attributes can be created on Entitlement template. 
 
-  B. Mapping: Contract to entitlements 
+### B. Mapping: Contract to entitlements 
 
-  Contracts groups contract lines. Entitlement doesn’t have concept of grouping.  
+If you are currently using Contract you can map to Entitlements via the steps provided below.
 
-  Create separate entitlement for each contract lines 
+<need screenshot/graphic to display here>
 
-  Create custom attributes on entitlement for missing contract lines attributes. 
+1. Create a separate entitlement for each contract line.
+2. Create custom attributes on entitlement for missing contract lines attributes. 
 
-  Scenario where contract is tied to single product. Create entitlement and add only one product in Product grid. 
+### Single Product Contract
 
-  When entitlement is created from entitlement template. Add Custom code to copy the custom fields added on entitlement for parity with contract lines. - provide the sdk reference (Talk to Arvind) 
+If you have a contract tied to a single product, use the following steps:
 
-## Entitlement cancellation 
+<need screenshot/graphic to display here>
 
-Contract can be cancelled immediately or in future by setting the future date when clicked on cancel 
+1. Create entitlement and add only one product in Product grid. 
+2. Once entitlement is created from entitlement template, add Custom code to copy the custom fields added on entitlement for parity with contract lines.
 
-Entitlement can be cancelled immediately. Entitlement doesn’t have capability to be cancelled in future. 
+<Provide sdk sample code reference (Arvind)> 
 
-### State Mapping 
+> [!NOTE:]
+> The following Contract items have been deprecated and are not available on Entitlement: 
+> - Contracts groups contract lines. (Entitlement does not provide concept grouping).  
+
+### Contract and Entitlement Cancellation 
+
+Canceling a Contract or Entitlement can be cancled using the following steps:
+
+#### Cancel Contract
+
+Contracts can be cancelled immediately or in the future by: 
+
+<need screenshot/graphic to display here>
+
+1. Selecting a <b>date</b> 
+2. Clicking <b>cancel</b> 
+
+#### Cancel Entitlment 
+
+Entitlement can be cancelled immediately, but can not be cancelled in future. 
+
+## State Mapping 
 |Contract  |Contract lines   |Entitlements |
 |----------|-----------------|-------------|
 |Draft     |Existing/Renewed |Draft        |
@@ -80,7 +114,7 @@ Entitlement can be cancelled immediately. Entitlement doesn’t have capability 
 |Canceled  |Canceled         |Canceled     |
 |Expired   |Expired          |Expired      |
 
-### Command on Contract 
+## Command on Contract 
 |Copy           |Nothing OOB for this <BR> If this feature is required on entitlement please reach out to us via ideas |
 |---------------|---------------------------|
 |Recalculate    |This is related to Billing unit. Not available with entitlement|
@@ -89,16 +123,35 @@ Entitlement can be cancelled immediately. Entitlement doesn’t have capability 
 |Renew    |   |
 |Cancel   |   | 
 
-### Billing unit 
-- Wait for data – Arvind is working on this 
+## Billing unit 
 
-### API calls mapping 
-- Search in docs – Deepa to work on it 
+what is the 'Billing unit'?  Need content to support this section. 
 
-### Runtime impact 
-- Move the contract and contract lines to entitlements 
-- Run update script to update entitlement on case instead of contracts  
+<need screenshot/graphic to display here>
+
+<waiting on content (Arvind)> 
+
+## API calls mapping 
+
+How do we support API call mapping?  Need content and information to support this section. 
+
+<need screenshot/graphic to display here>
+
+<waiting on content (Deepa)> 
+
+## Runtime impact 
+
+What is runtime impact?  Need more content and information to support this section.
+
+<need screenshot/graphic to display here>
+
+1. Move the contract and contract lines to entitlements 
+2. Run update script to update entitlement on case instead of contracts  
   - New records use entitlement 
   - Check via SDK – Deepa to validate this 
     - Number of terms will be impacted. 
     - Check via grid if bulk edit works  
+
+## See Also
+- 
+
