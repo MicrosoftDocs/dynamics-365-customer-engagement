@@ -34,6 +34,9 @@ Field Service v8.2+
 Azure account
 
 Azure IotCentral
+
+![Video symbol](../field-service/media/video-icon.png "Video symbol") [Set up Connected Field Service with Azure IoTCentral](https://youtu.be/Sp7_JoXjHDk)
+
 > [!Note]
 >
 
@@ -294,20 +297,74 @@ Select Devices
 Select your device
 
 cfs-mxchip-29
-
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
 
 You can control what telemetry you see on the chart by selecting the eyes
 
 cfs-mxchip-30
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
 
 ## See IoT Alerts in Dynamics 365 Field Service 
 
+Press the B Button on the MXChip
+Navigate to CFS
+Select IoT Alerts 
+You should see the two alerts flowing in
+Select a Temperature Alert
+
+cfs-mxchip-31
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+
+Look at Alert Data
+Gives all information about the anomaly detected
+You can switch to a JSON view if needed
+This Temperature alert starts the Work Order Scheduling Process at the top
+
+cfs-mxchip-32
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
 ## Create Customer Asset and Connect Device
+
+Navigate to Customer Assets
+Select New
+
+cfs-mxchip-33
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+Name Asset: Master MXChip
+Select Save
+Select Connect Device
+
+cfs-mxchip-34
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+Look up Device and press ok
+
+cfs-mxchip-35
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+
+You should see the device added 
+
+cfs-mxchip-36
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
 
 ## Configuration considerations
 ## Additional Notes
 
 ## See also
+
+![Video symbol](../field-service/media/video-icon.png "Video symbol") [Set up Connected Field Service with Azure IoTCentral](https://youtu.be/Sp7_JoXjHDk)
 
 [What is MXChip](https://aka.ms/iot-devkit)
 
