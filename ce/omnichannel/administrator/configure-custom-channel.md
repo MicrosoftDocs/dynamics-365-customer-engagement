@@ -111,7 +111,7 @@ To create a custom channel, follow the steps:
     > [!div class=mx-imgBorder]
     > ![Create a custom channel](../media/custom-channel-1.png "Create a custom channel")
 
-6. Select **Save** to save the changes. After you save, in the **Callback Information** section, the **Message Endpoint (URL)** field is generated with a URL. Copy the URL from the field. Select **Save** to save the changes.
+6. Select **Save** to save the changes. After you save, in the **Callback Information** section, the **Message Endpoint (URL)** field is generated with a URL. Copy the URL from the field.
 
     > [!div class=mx-imgBorder]
     > ![Create a custom channel](../media/custom-channel-2.png "Create a custom channel")
@@ -129,7 +129,7 @@ To create a custom channel, follow the steps:
     | Details | Name | Specify a name for the custom channel | Contoso Skype |
     | Details | Description | Provide a description for your reference | This channel is used for Contoso customers with Skype. |
     | Details | Custom Messaging Application | The **Custom Messaging Application** field is populated. However, you can change the value using the lookup. | Contoso custom channel |
-    | Details | Channel ID | Select a channel from the list. The options are: <br> - GroupMe <br> - Kik <br> - Skype <br> - Telegram <br> - Web Chat |
+    | Details | Channel ID | Select a channel from the list. The options are: <br> - GroupMe <br> - Kik <br> - Skype <br> - Telegram <br> - Web Chat <br> - Direct Line |
     | Work Distribution | Work Stream | Select a work stream from the lookup. | Contos custom channel work stream |
 
     > [!Note]
