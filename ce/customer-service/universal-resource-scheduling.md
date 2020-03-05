@@ -1,10 +1,10 @@
 ---
-title: Search Resource Availability and Create Bookings for Requirement Groups in Universal Resource Scheduling in Dynamics 365 Customer Service | Microsoft Docs
-description: See how you can effectively search resource availability and create bookings for requirement groups in universal resource scheduling in the Customer Service Hub.
+title: Search resource availability and create bookings for requirement groups in Universal Resource Scheduling in Dynamics 365 Customer Service | Microsoft Docs
+description: See how you can effectively search resource availability and create bookings for requirement groups in Universal Resource Scheduling in Customer Service Hub.
 author: lerobbin
 ms.author: lerobbin
 manager: shujoshi
-ms.date: 02/12/2020
+ms.date: 03/02/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -18,45 +18,53 @@ search.app:
   - D365CE
   - D365CS
 ---
-# Search Resource Availability and Create Bookings   
 
-The Search Resource Availability API for requirement groups, and Create Requirement Group Bookings API creates the booking records for requirement groups. 
+# Search resource availability and create bookings for requirement groups
 
-- Use the <b>Search Resource Availability for Requirement Group</b> API to return available resources slots when searched with requirement groups.
-- Use the <b>Create Requirement Group Bookings</b> API to generate booking records for these requirement groups using the available resources slots.
+Use the Search Resource Availability for Requirement Group API and the Create Requirement Group Bookings API to book the resources that meet the needs you identify in your requirement groups. 
 
-At a high level, you pass the details of a requirement group to the API and retrieve a list of available resources and timeslots. This is helpful for self-scheduling scenarios where a user wants to query availability, or for portal scheduling scenarios where a customer wants to view availability of desired resources from a web site or app.   
+- The [Search Resource Availability for Requirement Group](#bkmk_sra_rg) API returns available time slots for resources when you search by using requirement groups.
+- The [Create Requirement Group Bookings](#bkmk_crgb) API uses the available time slots for resources to generate booking records for your requirement groups.
+
+You pass the details of a requirement group in your API calls and retrieve a list of available resources and their open time slots. This is helpful for self-scheduling scenarios, where a user wants to view the availability of resources, or for portal scheduling scenarios where a customer wants to view resource availability from a website or app.
 
 ### Prerequisites
-- Dynamics 365 Organization 9.0+ with Universal Resource Scheduling 3.12.x.x version.
 
-## Search Resource Availability for Requirement Group API input / output parameters
+- Dynamics 365 version 9.0 or above with Universal Resource Scheduling version 3.12.x.x
 
-Use the following input and output parameters below for the Search Resource Availability For Requirement Group (<b> msdyn_SearchResourceAvailabilityForRequirementGroup</b>) API:
+<a name="bkmk_sra_rg"></a>
 
+## Search Resource Availability for Requirement Group API
+
+Use the following input and output parameters for the Search Resource Availability for Requirement Group (**msdyn_SearchResourceAvailabilityForRequirementGroup**) API.
+<!--In this table, like many in the topic, it's confusing to have rows with blank columns with no explanation. In a case like the row for RequirementSpecification, if Duration, Start, End, and Fulfillment Preference all pertain to RequirementsSpecification, there should be no row dividers between them. this can be accomplished with HTML table markup -->
 ### Input parameters
-|   |   |
+
+|   |   |   |
 |-----------------|--|--|
 |Version (String) |  |Required|
-|RequirementGroup(EntityReference)| |Required|
-|RequirementSpecification (ResourceRequirement)|Duration (Intger)| Optional, if left null will respect targeting RequirementGroup Duration/start/End by default|
-|  |Start (DateTime)|Optional, if left null will respect targeting RequirementGroup Duration/start/End by default |
-|  |End (DateTime)  |Optional, if left null will respect targeting RequirementGroup Duration/start/End by default |
-|  |Fullfillment Preference (Entity Refrence)|Optional, respect interval/ResultsPerintervals fields only, if left null will respect targeting Requirement Groups's interval/ResultPerinterval|
+|RequirementGroup (Entity Reference)| |Required|
+|RequirementSpecification (ResourceRequirement)|Duration (Integer)| Optional; if left null, respects the targeting<!--What does "targeting" mean here?--> requirement group duration by default|
+|  |Start (DateTime)|Optional; if left null, respects the targeting requirement group start by default |
+|  |End (DateTime)  |Optional; if left null, respects the targeting requirement group end by default |
+|  |Fulfillment Preference (Entity Reference)|Optional; respects interval and ResultsPerIntervals fields only. If left null, respects the interval and ResultPerInterval fields of the targeting requirement group.|
 |Settings (Settings)|SortOption (Integer)| Optional|
-| |ConsiderSlotsWithOverlappingBooking (Boolean)|Optional, False by default|
-| |ConsiderSlotsWithProposedBooking (Boolean)|Optional, False by default|
-| |ConsiderSlotsWithLessThanRequiredDuration (Boolean)|Optional, False by default|
-| |PageSize (Intger)|Optional|
-| |PageNumber (Intger)|Optional|
+| |ConsiderSlotsWithOverlappingBooking (Boolean)|Optional; false by default|
+| |ConsiderSlotsWithProposedBooking (Boolean)|Optional; false by default|
+| |ConsiderSlotsWithLessThanRequiredDuration (Boolean)|Optional; false by default|
+| |PageSize (Integer)|Optional|
+| |PageNumber (Integer)|Optional|
 | |PageCookie (String)|Optional|
-| |OrganizationUnits (List<<Guide>Guide>)|Optional|
+| |OrganizationUnits (List<<Guide>Guide>)<!--What does this pattern "List<Guide>Guide" mean? -->|Optional|
 | |RequiredSources (List<<Guide>Guide>)|Optional|
+
+
+INSERT TABLE MARKUP HERE%%%
 
 ### Output parameters
 | |  |
 |-|--|
-|Timeslot |StartTime (DateTime)                  |
+|Time slot |StartTime (DateTime)                 |
 |         |EndTime (DateTime)                    |
 |         |ArrivalTime (DateTime)                |
 |         |Effort (Double)                       |
@@ -65,7 +73,7 @@ Use the following input and output parameters below for the Search Resource Avai
 |         |Location (TimeSlotLocation)           |
 |         |TimeGroup (TimeSlotTimeGroup)         |
 |         |AvailableIntervals (List<<Guide>OutputTimeSlot>)|
-|Resource |Resource (EntityReferece)|
+|Resource |Resource (EntityReference)|
 |         |BusinessUnit (EntityReference) |
 |         |OrganizationUnit (EntityReference) |
 |         |ResourceType (Int)                 |
@@ -83,12 +91,15 @@ Use the following input and output parameters below for the Search Resource Avai
 |            |PagingCookie (String)|
 
 
-## Create Requirement Group Bookings API input / output parameters
+<a name="bkmk_crgb"></a>
 
-Use the following input and output parameters below for the Create Requirement Group Bookings (<b> msdyn_CreateRequirementGroupBookings</b>) API:
+## Create Requirement Group Bookings API
+
+Use the following input and output parameters for the Create Requirement Group Bookings (**msdyn_CreateRequirementGroupBookings**) API.
 
 ### Input parameters
-|                                  |   |         |
+<!--I don't understand the following table. What is the middle column supposed to represent here? The last four rows look like they're items in a nested list, but I don't know what to nest the list under. -->
+|            |   |         |
 |----------------------------------|---|---------|
 |Version (String)                  |   |Required |
 |RequirementGroup (EntityReference)|   |Required |
@@ -101,276 +112,285 @@ Use the following input and output parameters below for the Create Requirement G
 |<li> TravelTime (double)              | |Required|
 
 ### Output parameters
+
 HandlerExecuted (Boolean)
 
-## Using Requirement Group API
+## Using the Requirement Group API
+<!--I'm afraid I don't understand what the goal of this entire section is.-->
+In the following scenario, you schedule a requirement group via API. You'll need a service created with resources before you can schedule a booking. Follow these steps to create a service activity.
 
-Next, we'll use the following scenario to walk through how to schedule a Requirement Group via API.  You will need a service created with resources before you can schedule a booking. Use following steps to create a service activity.   
+### Service configuration 
 
-### Service Configuration 
+![Service configuration ](media/ur-scheduling-1-new.png "Service configuration")
 
-![Service Configuration ](media\ur-scheduling-1-new.png)
+  1. In the site map, under **Scheduling**, select **Service**.
+  2. Go to **Resource Requirements**.
+  3. Create a service activity. For this example, we've created **Test Requirement Group**.
 
-  1. In site map, under Scheduling, select <b>Service</b>
-  2. Go to <b>Resource Requirements</b>
-  3. Create a service activity, for this example we've created <b>Test Requirement Group</b>
+### Service Activity configuration  
 
-### Service Activity Configuration  
+![Service Activity configuration](media/ur-scheduling-2-new.png "Service Activity configuration")
 
-![Service Activity Configuration](media\ur-scheduling-2-new.png)
-
-  4. In site map, under Scheduling, select <b>Service Activities</b>
-  5. Go to <b>Service Activities</b>
-  6. Subject <b>Test Requirement Group</b>
-  7. Service <b>Test Requirement Group</b>
+  1. In the site map, under **Scheduling**, select **Service Activities**.
+  5. Go to **Service Activities**.
+  6. For **Subject**, select **Test Requirement Group**.
+  7. For **Service**, select **Test Requirement Group**.
 
 > [!NOTE]
-> This will  auto create a resource requirement group which will have the same name as service activity. 
+> This automatically creates a resource requirement group that has the same name as the service activity. 
 
-Now you have a requirement group automatically created which has one technicians(resources) to be scheduled to perform service at your customer’s location. 
+Now you have a requirement group automatically created that has one technician (resource) to be scheduled to perform service at your customer's location. 
 
-### Resource Requirement Group Grid 
+### Resource Requirement Group grid 
+<!--Steps 1 and 2 seem to be captions or alt text for the graphics, rather than steps. If they are actually steps, can you rewrite them so the goal is clear?-->
+The following image is an example configuration of the Resource Requirement Group page. 
 
-Below is an example configuration of the Resource Requirement Group page: 
+![Active Requirements Group](media/ur-scheduling-3-new.png "Active Requirements Group")
 
-![Resource Requirement Group Grid](media\ur-scheduling-3-new.png)
-
-1. Active Requirements Group
+<!--1. Active Requirements Group-->
 
  > [!NOTE] 
- > To access the <b>Requirement Group</b> page from the Customer Service Hub (CSH) app, you will need to navigate there via a URL. 
+ > To access the **Requirement Group** page from the Customer Service Hub app, you need to navigate there via a URL. 
 
 > [!IMPORTANT]
-> Use the following URL to reach the <b>Resource Requirements Group</b> page: <<YourOrgURL>YourOrgURL>?appid=guid&pagetype=entitylist&etn=msdyn_requirementgroupr.
+> Use the following URL to reach the **Resource Requirements Group** page: <<YourOrgURL>YourOrgURL>?appid=guid&pagetype=entitylist&etn=msdyn_requirementgroupr.
 
-2. Test Requirements Group
+<!--2. Test Requirements Group-->
 
-![Resource Requirement Group Grid](media\ur-scheduling-4-new.png)
-
-3. Go to <b>General</b>
-4. Name field <b>Test Requirement Group </b>
-5. Enter name in <b>Owner</b> field 
-6. Template field
-7. Template Required, select <b>No </b>
+![Test Requirements Group](media/ur-scheduling-4-new.png "Test Requirements Group")
+<!--I don't know the UI well enough to edit this procedure. Can you rewrite it so it follows our style guide? -->
+3. Go to **General**.
+4. Name field **Test Requirement Group**.
+5. Enter name in **Owner** field.
+6. Template field.
+7. Template Required, select **No**.
 
 ### Search against your organization
 
-In this next scenario, we show how to pass values for a specific Requirement Group (Entity Reference - GUID), Required Resources to complete work and match the Resource to the Organizational Unit.      
+In this next scenario, we show how to pass values for a specific requirement group (Entity Reference - GUID), Required Resources<!--what is this?--> to complete work and match the resource to the organizational unit.      
 
 > [!IMPORTANT] 
-> - To run API, you need GUIDs for:<BR>
->   - requirement group<BR>
->   - bookable resources<BR>
->   - organizational unit (which can be retrieve 
-> using the [Web API](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/webapi/query-metadata-web-api))
-> - If the API is called from a client (browser or canvas app) based on JavaScript, you need to have the extended SOAP SDK which is provided in the sample files for download. The extended SOAP SDK is not a Microsoft official release, but is provided in the sample for guidance. 
-> - We recommend you test in your development or test environments to validate your scenario(s) and results before running in production environments.
+> - To run the API<!--are we still talking about the Requirement Group API?-->, you need GUIDs for:
+>   - Requirement group
+>   - Bookable resources
+>   - Organizational unit (which can be retrieved by using the [Web API](/powerapps/developer/common-data-service/webapi/query-metadata-web-api))
+> - If the API is called from a client (browser or canvas app) based on JavaScript, you need to have the extended SOAP SDK. The extended SOAP SDK is not an official Microsoft release, but you can is provided in the downloadable sample files for guidance. 
+> - We recommend that you test this search in your development or test environments to validate your scenarios and results before running it in your production environment.
 
-To execute this search against your organization, you need to download the [sample files](https://go.microsoft.com/fwlink/?linkid=2117045). Once sample code is downloaded, follow the steps below:   
+To execute this search against your organization, you need to download the [sample files](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/service-scheduling/search-resource-availability-create-bookings), and then follow the steps below:   
 
-1. Modify the hard-coded input parameters in the msdyn_SearchResourceAvailabilityForRequirementGroupSample.js file to reflect the GUIDs of records in your org. (Example: requirement group, resources, Organizational unit).    
+1. Modify the hard-coded input parameters in the msdyn_SearchResourceAvailabilityForRequirementGroupSample.js file to reflect the GUIDs of records in your org. (Example: requirement group, resources, organizational unit).    
+<!--Can you rewrite the alt text for the following graphics? It shouldn't all be the same. It should describe what's unique and useful about the graphic.-->
+![Modify the hard-coded input parameters](media/ur-scheduling-5.PNG)
 
-![Modify the hard-coded input parameters](media\ur-scheduling-5.PNG)
-
-[Sample Search Requirement Group](https://go.microsoft.com/fwlink/?linkid=2117045)
+[Sample Search Requirement Group](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/sushant-service-scheduling/customer-service/master/search-resource-availability-create-bookings)
 
 2. Add the files in the sample folder as web resources in your organization 
 
-![Modify the hard-coded input parameters](media\ur-scheduling-6-new.png)
+![Modify the hard-coded input parameters](media/ur-scheduling-6-new.png)
 
-![Modify the hard-coded input parameters](media\ur-scheduling-7-new.PNG)
+![Modify the hard-coded input parameters](media/ur-scheduling-7-new.PNG)
 
 3. Navigate to the newly added new_msdyn_SearchResourceAvailabilityForRequirementGroupSample.htm page. Example: <<YourOrgURL>>//WebResources/new_msdyn_SearchResourceAvailabilityForRequirementGroupSample.htm   
 
-![Modify the hard-coded input parameters](media\ur-scheduling-8.PNG)
+![Modify the hard-coded input parameters](media/ur-scheduling-8.PNG)
 
-4. Open the browser’s developer tools using the F12 function key. Set breakpoints as needed and inspect the request/responses in the developer tool’s console.  
+4. Open the browser's developer tools by using the F12 function key. Set breakpoints as needed, and inspect the request/responses in the developer tool's console.  
 
-![Modify the hard-coded input parameters](media\ur-scheduling-9.PNG)
+![Modify the hard-coded input parameters](media/ur-scheduling-9.PNG)
 
   We can see there are multiple sets of time slots that are returned with each Set corresponding to a matching available Resource mapped to the underlying Requirement of the Requirement Group.   
 
-  Once the timeslot Sets are returned by the API, you can display them on your custom web portal, app or a Power app (model/canvas).    
+  After the time slot Sets are returned by the API, you can display them on your custom web portal, app, or a Power App (model/canvas).    
 
-5. Once you choose a specific timeslot set, (example: we chose Set number 1), update your new_msdyn_CreateRequirementGroupBookingsSample.js web resource in your org to pass the Resource Assignments (Requirement guid, Resource guid) and the Requirement Group per the example below:    
+5. After you choose a specific time slot set (Set number 1 in this example), update your new_msdyn_CreateRequirementGroupBookingsSample.js web resource in your org to pass the Resource Assignments (Requirement guid, Resource guid) and the Requirement Group as shown in the example below:    
 
-![Modify the hard-coded input parameters](media\ur-scheduling-10-new.PNG)
+![Modify the hard-coded input parameters](media/ur-scheduling-10-new.PNG)
 
-[Code Sample Create Requirement Group](https://go.microsoft.com/fwlink/?linkid=2117045)  
+> [!IMPORTANT]
+> Find the complete sample code here: [Create Requirement Group](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/service-scheduling/search-resource-availability-create-bookings).
 
-![Modify the hard-coded input parameters](media\ur-scheduling-11-new.png)
+![Modify the hard-coded input parameters](media/ur-scheduling-11-new.png)
 
-6. Navigate to the newly added new_ msdyn_CreateRequirementGroupBookingsSample.htm page. (Example: <<YourOrgURL>>//WebResources/new_msdyn_CreateRequirementGroupBookingsSample.htm) to invoke a call the Booking API and create the Booking   
+6. Navigate to the newly added new_ msdyn_CreateRequirementGroupBookingsSample.htm page. (Example: <<YourOrgURL>>//WebResources/new_msdyn_CreateRequirementGroupBookingsSample.htm) to invoke a call to the Booking API and create the booking.
 
-![Modify the hard-coded input parameters](media\ur-scheduling-12.png)
+![Modify the hard-coded input parameters](media/ur-scheduling-12.png)
 
-7. Open the browser’s developer tools using F12 function key. Here you will see the Handler executed value is set to True indicating that the Bookings are created successfully.    
+7. Open the browser's developer tools by using the F12 function key. Here you'll see that the Handler executed value is set to True, indicating that the bookings were created successfully.    
 
-![Modify the hard-coded input parameters](media\ur-scheduling-13.png)
+![Modify the hard-coded input parameters](media/ur-scheduling-13.png)
 
-  We can also verify this by going back into the organization and checking the Associated bookings of the Service/Requirement group we created as shown below.    
+  We can also verify this by going back into the organization and checking the associated bookings of the Service/Requirement group we created, as shown in the following illustrations.    
 
-![Modify the hard-coded input parameters](media\ur-scheduling-14-new.png)
+![Modify the hard-coded input parameters](media/ur-scheduling-14-new.png)
 
-![Modify the hard-coded input parameters](media\ur-scheduling-15-new.png)
+![Modify the hard-coded input parameters](media/ur-scheduling-15-new.png)
 
-Other possible scenarios that could leverage these APIs are:   
-- Build a custom web app or a Dynamics 365 portal to provide appointment scheduling for end users to show available time slots for the service/product being offered using multi-resource requirements (requirement groups).
-- Build a PowerApp canvas app to support self-scheduling scenarios for their line-of-business apps.    
+Other possible scenarios that might leverage these APIs are:   
+- Build a custom web app or a Dynamics 365 portal to provide appointment scheduling for users. The app will show available time slots for the service or product being offered by using multiresource requirements (requirement groups).
+- Build a Power App canvas app to support self-scheduling scenarios for line-of-business apps.    
 
-## Additional Resources  
+## Additional resources  
 
-- Multiresource scheduling with [Requirement Groups](https://docs.microsoft.com/en-us/dynamics365/common-scheduler/multi-resource-scheduling-requirement-groups)
+- Multiresource scheduling with [requirement groups](https://docs.microsoft.com/dynamics365/common-scheduler/multi-resource-scheduling-requirement-groups)
    
-- Search Resource Availability API for [Single requirements](https://cloudblogs.microsoft.com/dynamics365/it/2019/07/15/how-to-use-resource-schedulings-search-resource-availability-api/)   
+- Search Resource Availability API for [single resource requirements](https://cloudblogs.microsoft.com/dynamics365/it/2019/07/15/how-to-use-resource-schedulings-search-resource-availability-api/)   
 
-- [Docs](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fdynamics365%2Fcustomer-engagement%2Ffield-service%2Foverview&data=04%7C01%7Csampatn%40microsoft.com%7Ce1790d48561843c259a208d6f0eed4a5%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636961305974176099%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C-1&sdata=WXpIMdyYkg4P0Niy1NKOi%2FjM%2F3fKqI2m4Ika6N5R0HA%3D&reserved=0): The primary documentation for Dynamics 365 for Field Service.   
+- Overview of [Dynamics 365 for Field Service](https://docs.microsoft.com/dynamics365/field-service/overview) <!--Edit to the URL okay?-->
 
-- [Scheduling Docs](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/common-scheduler/schedule-anything-with-universal-resource-scheduling): Documentation for Resource Scheduling.   
+- Documentation for [resource scheduling](https://docs.microsoft.com/dynamics365/customer-engagement/common-scheduler/schedule-anything-with-universal-resource-scheduling)  
 
-- [Learn](https://docs.microsoft.com/en-us/learn/paths/universal-resource-scheduling/): Learning path for Resource Scheduling.   
+- [Learning path](https://docs.microsoft.com/learn/paths/universal-resource-scheduling/) for resource scheduling
 
-- [Field Service YouTube Channel](https://www.youtube.com/playlist?list=PLcakwueIHoT_AQBxkQQ7zePzd7fzZYP7X): Includes concept videos for Field Service.   
+- [Field Service YouTube Channel](https://www.youtube.com/playlist?list=PLcakwueIHoT_AQBxkQQ7zePzd7fzZYP7X)
 
-- [Ideas](https://experience.dynamics.com/ideas/categories/list/?category=a2fa5aca-3f2d-e811-813c-e0071b6ad011&forum=bee3d862-df65-e811-a95d-000d3a1be7ad): The portal where you can contribute product feedback and ideas for Resource Scheduling.   
+- [Dynamics 365 application ideas](https://experience.dynamics.com/ideas/categories/list/?category=a2fa5aca-3f2d-e811-813c-e0071b6ad011&forum=bee3d862-df65-e811-a95d-000d3a1be7ad) portal where you can contribute product feedback and ideas for resource scheduling 
 
-- [Forum](https://community.dynamics.com/365/fieldservice): Go here to ask questions, find answers, and see upcoming events.   
+- [Forum](https://community.dynamics.com/365/fieldservice) where you can ask questions, find answers, and see upcoming events 
 
-- [Blog](https://cloudblogs.microsoft.com/dynamics365/?s=Resource+Scheduling): On the blog, you’ll find ongoing release notes and posts from the product team.   
+- The [Dynamics 365 blog](https://cloudblogs.microsoft.com/dynamics365/?s=Resource+Scheduling), which has ongoing release notes and posts from the product team   
+<!--The following information is redundant:
+- The post [How to use Resource Scheduling’s Search Resource Availability API](https://cloudblogs.microsoft.com/dynamics365/it/2019/07/15/how-to-use-resource-schedulings-search-resource-availability-api/) appeared first on [Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365).-->   
 
-- The post [How to use Resource Scheduling’s Search Resource Availability API](https://cloudblogs.microsoft.com/dynamics365/it/2019/07/15/how-to-use-resource-schedulings-search-resource-availability-api/) appeared first on [Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365).   
+<!--Can you say what the following sample code snippet can be used for? It's kind of just floating here.-->
+### Sample code snippet
 
-### Sample C# code snippet
-   
-void Main()<BR>  
-{<BR>   
-// Authentication<BR>   
-String machineName = "aurorav?????";<BR>   
+```csharp
+void Main()  
+{   
+// Authentication   
+String machineName = "aurorav?????";   
 String orgName = "CITTest";   
-String domain = $"{machineName}dom.extest.microsoft.com";<BR>   
-String uri = $"http://{machineName}.{domain}/{orgName}/XRMServices/2011/Organization.svc";<BR>   
-String username = "administrator";<BR>   
-String password = "";<BR>
+String domain = $"{machineName}dom.extest.microsoft.com";   
+String uri = $"http://{machineName}.{domain}/{orgName}/XRMServices/2011/Organization.svc";   
+String username = "administrator";   
+String password = "";
 
-// Connect to organization<BR>
-Microsoft.Pfe.Xrm.OrganizationServiceManager osm = new<BR>
-Microsoft.Pfe.Xrm.OrganizationServiceManager(new Uri(@uri), username, password, domain);<BR>
+// Connect to organization
+Microsoft.Pfe.Xrm.OrganizationServiceManager osm = new
+Microsoft.Pfe.Xrm.OrganizationServiceManager(new Uri(@uri), username, password, domain);
 
-searchResourceAvailabilityForRequirementGroup(osm);<BR>  
-createRequirementGroupBookings(osm);<BR>  
-}<BR>   
-
-void searchResourceAvailabilityForRequirementGroup(OrganizationServiceManager osm)<BR> 
-{<BR>
-var req = new OrganizationRequest()<BR>
-{<BR>
-RequestName = "msdyn_SearchResourceAvailabilityForRequirementGroup"<BR>
-};<BR>  
-
-//Version<BR>  
-req["Version"] = "1.0.0";<BR>
-req["RequirementGroup"] = new EntityReference("msdyn_requirementgroup", Guid.Parse(""));<BR>
-
-var response = osm.GetProxy().Execute(req);<BR>
+searchResourceAvailabilityForRequirementGroup(osm);  
+createRequirementGroupBookings(osm);  
 }   
-<BR>
-void createRequirementGroupBookings(OrganizationServiceManager osm)<BR>
-{<BR>
-var req = new OrganizationRequest()<BR>
-{<BR>   
-RequestName = "msdyn_createRequirementGroupBookings"<BR>
+
+void searchResourceAvailabilityForRequirementGroup(OrganizationServiceManager osm) 
+{
+var req = new OrganizationRequest()
+{
+RequestName = "msdyn_SearchResourceAvailabilityForRequirementGroup"
+};  
+
+//Version  
+req["Version"] = "1.0.0";
+req["RequirementGroup"] = new EntityReference("msdyn_requirementgroup", Guid.Parse(""));
+
+var response = osm.GetProxy().Execute(req);
+}   
+
+void createRequirementGroupBookings(OrganizationServiceManager osm)
+{
+var req = new OrganizationRequest()
+{   
+RequestName = "msdyn_createRequirementGroupBookings"
 };   
-<BR> 
-//Version<BR>
-req["Version"] = "1.0.0";<BR>
-req["RequirementGroup"] = new EntityReference<BR>("msdyn_requirementgroup",<BR> 
-Guid.Parse("d723dd8f-f4f4-e911-a81d-000d3af9eba2"));<BR>
-req["Start"] = DateTime.Today.AddDays(1);<BR>
-req["Duration"] = 60;<BR>
-EntityCollection resourceAssignment = new EntityCollection();<BR>
-var entity = new Entity();<BR>
-entity["RequirementId"] = "";<BR>
-entity["ResourceId"] = "";<BR>
-entity["BookingStatusId"] = "";<BR>
-resourceAssignment.Add(entity);<BR> 
-req["ResourceAssignment"] = resourceAssignment;<BR>   
+ 
+//Version
+req["Version"] = "1.0.0";
+req["RequirementGroup"] = new EntityReference("msdyn_requirementgroup", 
+Guid.Parse("d723dd8f-f4f4-e911-a81d-000d3af9eba2"));
+req["Start"] = DateTime.Today.AddDays(1);
+req["Duration"] = 60;
+EntityCollection resourceAssignment = new EntityCollection();
+var entity = new Entity();
+entity["RequirementId"] = "";
+entity["ResourceId"] = "";
+entity["BookingStatusId"] = "";
+resourceAssignment.Add(entity); 
+req["ResourceAssignment"] = resourceAssignment;   
 
-var response = osm.GetProxy().Execute(req);<BR> 
-}<BR>  
+var response = osm.GetProxy().Execute(req); 
+}  
+```
 
-## How to migrate from legacy API to URS API 
+## How to migrate from the legacy API to Universal Resource Scheduling 
 
-Migration can be done for legacy Search and Book API to URS API. Use the following required input and output fields to map API: 
+To migrate from the legacy Search API and Book API to the Universal Resource Scheduling API, use the following required input and output fields to map the APIs. 
 
-### Input Mapping data for Search API 
-
-|Legacy Input |URS Input |Description| 
+### Input mapping data for the Search API 
+<!--I assume the blank cells in this table indicate that there is no equivalent API input in legacy or URS? Can you put something like "None" in the table cells that are currently blank? Then it would look like they're blank intentionally. -->
+|Legacy input |Universal Resource Scheduling input |Description| 
 |-------------|----------|-----------|
-|ServiceId    |Requirement group  |Service/Requirement group GUID|
+|ServiceId    |Requirement group  |Service/requirement group GUID|
 |SearchWindowStart|Start date  |Start date for the appointment search |
 |SearchWindowEnd   |End date |End date for the appointment search |
 |Duration  |Duration  |Appointment duration |
-|No of results  |Page size |Total no of proposals / No. of appointment in a page |
+|No of results  |Page size |Total number of proposals or number of appointments on a page |
 |Sites  |OrganizationUnits  |Site/OU GUID |
-|RequiredResource  |Preferred Resources|Resources which customer prefers to schedule. |
-|Constraints |Constraints |Customer entity(ufx) |
-|RecurrenceDuration     |                     |In case of recurrence appointment search, duration for appointment |
-|RecurrenceTimeZoneCode |                     |Time Zone for a recurring request.        |
-|SearchDirection        |                     |Forward or backward search for slots based on dates given. |
+|RequiredResource  |Preferred Resources|Resources the customer prefers to schedule |
+|Constraints |Constraints |Customer entity(ufx)<!--what is "ufx"? --> |
+|RecurrenceDuration     |                     |In a recurrence appointment search, the duration of the appointment |
+|RecurrenceTimeZoneCode |                     |Time zone for a recurring request        |
+|SearchDirection        |                     |Forward or backward search for slots, based on the dates given |
 |AnchorOffSet           |                     |Offset in hours from midnight             |
-|UserTimeZoneCode       |                     |Time zone for user which is set           | 
-|SearchRecurrenceRule   |                     |Frequency and interval and count etc      | 
+|UserTimeZoneCode       |                     |Time zone that's been set for the user    | 
+|SearchRecurrenceRule   |                     |Frequency, interval, count and so on      | 
 |                       |Resource Types       |Type of resource                          |
 |                       |Restricted Resources |Restricted for scheduling the appointment |
 
-###  Output Mapping for Search API 
+###  Output mapping for the Search API 
 
-|Legacy Output |URS Output |
+|Legacy output |Universal Resource Scheduling output |
 |--------------|-----------|
 |Appointment proposals |ProposalsResourceAssignmentSet |
-|Traceinfo | |
-|ExtenstionDataObject | | 
+|TraceInfo | |
+|ExtensionDataObject | | 
 |   |Time Slots|
-|   |Requirements(contraintbag) |
-|   |Paginginfos |
+|   |Requirements(contraintbag)<!--what is this?--> |
+|   |PagingInfos |
 
-## How to migrate from legacy API to URS API Example Scenarios 
+## Example scenarios for migrating from the legacy API to Universal Resource Scheduling
 
-This section adds more details on API mapping from legacy to the new URS API explained with the example. Below are scenario-based explanations and elaboration of new API adaption.  
+The scenario-based examples in this section add more details about mapping from the legacy API to the new Universal Resource Scheduling API.   
+<!--It won't work for these scenario headings to mention the legacy screenshot. I suggest giving the scenarios meaningful names (please double-check the names I've given) and just introduce the screenshot as part of the introduction to each scenario.-->
+### Scenario 1: Get two resources for each schedule proposal  
 
-## Scenario 1: Legacy setup screen shot for reference.  
+*The following screenshot from the legacy API is provided for reference in this scenario.*
 
-![Legacy setup screen shot for reference](media\ur-scheduling-16-new.png)
+![Legacy setup screenshot for reference for scenario 1](media/ur-scheduling-16-new.png "Legacy screenshot for reference for scenario 1")
 
-1. Create one Site (Site1) and one User (User1) and one equipment (facility/ equipment) (Eq1) with a site as Site1. 
+1. Create one site (**Site1**), one user (**User1**), and one equipment resource (**Facility/Equipment** tab)<!--is this what "facility/equipment" means? --> (**Eq1**) with the site set to Site1. 
 
-2. Create the business closure and work hours for User(8.00AM-6.00PM) and equipment(8.00AM-6.00PM). 
+2. Create the business closure and work hours for the user (8:00 AM to 6:00 PM) and the equipment (8:00 AM to 6:00 PM). 
 
-3. Create a new service (Service1)with add required resources as "Choose 2” from User1, Eq1. Save and close the service. 
+3. Create a new service (**Service1**), and then add **required resources** as **Choose 2** from User1, Eq1.<!--I'm confused about what's going on in this sentence. Please check that these are actually UI strings (and if they aren't, please supply the UI in bold.--> Save and close the service. <!--Should the following alt text say "Schedule Service Activity"? That seems to be the name of the page. -->
 
-![Service Activity](media\ur-scheduling-17-new.png)
+![Service Activity screenshot for scenario 1](media/ur-scheduling-17-new.png "Service Activity screenshot for scenario 1")
 
-4. Go to homepage -> Service Activity -> select the service and click on Schedule -> Now click on find available slots. 
+4. Go to the homepage<!--it doesn't actually say "homepage" on the homepage, does it? If it does, then it does call for bold formatting. --> > **Service Activity**<!--or **Schedule Service Activity**?-->, select **Service1** <!--edit okay? I assume you select the service you just created and named Service1?-->, and then select **Schedule** > **Find available slots**. 
 
-5. Verify 2 resources are returned for each proposal as per the set criteria.  
+5. Verify that two resources are returned for each proposal in accordance with the criteria you set.  
 
-### URS API Code for the above scenario. 
+#### Universal Resource Scheduling API code for scenario 1 
 
-void searchRequirementgroup(Microsoft.Pfe.Xrm.OrganizationServiceManager osm)<BR>
-{ <BR>
-var req = new Microsoft.Xrm.Sdk.OrganizationRequest() <BR>
-{ <BR>
-RequestName = "msdyn_SearchResourceAvailabilityForRequirementGroup"<BR>
-};<BR>
+```csharp
+void searchRequirementgroup(Microsoft.Pfe.Xrm.OrganizationServiceManager osm)
+{ 
+var req = new Microsoft.Xrm.Sdk.OrganizationRequest() 
+{ 
+RequestName = "msdyn_SearchResourceAvailabilityForRequirementGroup"
+};
 
-  req["Version"] = "1.0.0"; <BR>
+  req["Version"] = "1.0.0"; 
   Entity requirementSpecification = new Entity();
 
   //Setting from date 
+
   requirementSpecification.Attributes.Add("msdyn_fromdate", DateTime.Parse("2019-12-  
   26T18:30:00.000Z"));
 
   //Setting to date 
+
   requirementSpecification.Attributes.Add("msdyn_todate", DateTime.Parse("2019-12- 
   27T18:29:00.000Z"));
 
@@ -379,106 +399,116 @@ RequestName = "msdyn_SearchResourceAvailabilityForRequirementGroup"<BR>
   req["RequirementGroup"] = new   
   Microsoft.Xrm.Sdk.EntityReference("msdyn_requirementgroup", Guid.Parse("XXXXXXXX"));
 
-  //Executing the request and getting response<BR>
-  var response = osm.GetProxy().Execute(req);<BR> 
-  response.ToString();<BR> 
-  response.Dump();<BR>
+  //Executing the request and getting response
+  var response = osm.GetProxy().Execute(req); 
+  response.ToString(); 
+  response.Dump();
 } 	 
+```
 
-## Scenario 2: Legacy setup screen shot for reference 
+### Scenario 2: Verify that search results are correct for scheduling 
 
-![Legacy setup screen shot for reference](media\ur-scheduling-18-new.png)
+*The following screenshot from the legacy API is provided for reference in this scenario.* 
 
+![Legacy setup screenshot for reference for scenario 2](media/ur-scheduling-18-new.png "Legacy setup screenshot for reference for scenario 2")
+<!--In step 4, please check that the correct formatting is applied to UI strings. (Specifically, is "Search for a specific start and end time" the name of the command? If so, the whole string should be bold.) -->
 1. Create the following: 
-- two Site (Micr0s0ftSite1, Site2)
-- two Users (User1 and User2 (Site2))
-- two equipment(facility/equipment) (Eq1, Eq2),  where Eq1 belongs to Site1 and Eq2 belongs to Site2.
+  - Two sites: Micr0s0ftSite1 and Site2
+  - Two users: User1 and User2 (Site2)
+  - Two equipment resources on the **Facility/Equipment** tab<!--Is this correct for the UI string? --> (Eq1, Eq2), where Eq1 belongs to Site1 and Eq2 belongs to Site2
  
-2. Create the business closure and work hours for User(8.00AM-6.00PM) and equipment(8.00AM-6.00PM). 
+2. Create the business closure and work hours for the user (8:00 AM to 6:00 PM) and the equipment (8:00 AM to 6:00 PM). 
 
-3. Create a new service with status "reserved" and required resources as "Choose 2” from “same site “ from User1, User2, Eq1, Eq2. Save and close the service. 
+3. Create a new service with status **Reserved** and required resources as **Choose 2** from **same site** from User1, User2, Eq1, Eq2. Save and close the service. 
 
-![Service Activity](media\ur-scheduling-19-new.png)
+![Service Activity screenshot for scenario 2](media/ur-scheduling-19-new.png "Service Activity screenshot for scenario 2")
 
-4. Go to the homepage -> Service Activity -> Schedule -> select service created above -> and select the site as Site1 and click Search for a specific start and end time. 
+4. Go to the homepage > **Service Activity** > **Schedule**, and then select the service you created in step 3. Select the site as **Site1**, and then select **Search for a specific start and end time**<!--is this the UI string? If not, please adjust the formatting. -->. 
 
-5. Verify that search results are return as per the site selected in the search criteria. 
+5. Verify that the search results that are returned are correct for the site selected in the search criteria.<!--is this what "per the site" means? --> 
 
-### New URS API Code for the above scenario
-void searchRequirementgroup(Microsoft.Pfe.Xrm.OrganizationServiceManager osm)<BR>
-{<BR>
-  var req = new Microsoft.Xrm.Sdk.OrganizationRequest()<BR>
-  {<BR>
-  RequestName = "msdyn_SearchResourceAvailabilityForRequirementGroup"<BR>
-  };<BR>
-req["Version"] = "1.0.0";<BR> 
-Entity requirementSpecification = new Entity();<BR>
+#### Universal Resource Scheduling API code for scenario 2
 
-//Setting from date<BR>
-requirementSpecification.Attributes.Add("msdyn_fromdate", DateTime.Parse("2019-12-26T18:30:00.000Z"));<BR>
+```csharp
+void searchRequirementgroup(Microsoft.Pfe.Xrm.OrganizationServiceManager osm)
+{
+  var req = new Microsoft.Xrm.Sdk.OrganizationRequest()
+  {
+  RequestName = "msdyn_SearchResourceAvailabilityForRequirementGroup"
+  };
+req["Version"] = "1.0.0"; 
+Entity requirementSpecification = new Entity();
 
-//Setting to date<BR>
-requirementSpecification.Attributes.Add("msdyn_todate", DateTime.Parse("2019-12-27T18:29:00.000Z")); <BR>
+//Setting from date
+requirementSpecification.Attributes.Add("msdyn_fromdate", DateTime.Parse("2019-12-26T18:30:00.000Z"));
 
-//Setting up the Site as filter criteria for search.<BR>	      
-requirementSpecification.Attributes.Add("msdyn_organizationalunit",Guid.Parse("XXXXXXXXXXXX")); <BR>
+//Setting to date
+requirementSpecification.Attributes.Add("msdyn_todate", DateTime.Parse("2019-12-27T18:29:00.000Z")); 
 
-req["RequirementSpecification"] = requirementSpecification;<BR>
+//Setting up the Site as filter criteria for search.	      
+requirementSpecification.Attributes.Add("msdyn_organizationalunit",Guid.Parse("XXXXXXXXXXXX")); 
 
-//Requirement group GUID <BR>     
-req["RequirementGroup"] = new EntityReference("msdyn_requirementgroup", Guid.Parse("XXXXXX"));<BR>
+req["RequirementSpecification"] = requirementSpecification;
 
-var response = osm.GetProxy().Execute(req);<BR>
-response.ToString();<BR>
-response.Dump();<BR>
-<BR>
-}<BR>
+//Requirement group GUID      
+req["RequirementGroup"] = new EntityReference("msdyn_requirementgroup", Guid.Parse("XXXXXX"));
 
-## Scenario 3: Legacy setup screen shot for reference
+var response = osm.GetProxy().Execute(req);
+response.ToString();
+response.Dump();
 
-![Legacy setup screen shot for reference](media\ur-scheduling-20-new.png)
+}
+```
 
-1. Create two Site(Site1, Site2) and then create 3 equipment (eq1, eq2, eq3) 
+### Scenario 3: Get proposed schedules that occur within the working hours for an equipment resource
 
-2. Create the business closure and work hours for all equipment(3.00PM-6.00PM). 
+![Legacy setup screenshot for reference for scenario 3](media/ur-scheduling-20-new.png "Legacy setup screenshot for reference for scenario 3")
 
-3. Create a new service (Service1)Choose 1 from (Random) eq1, eq2, eq3 
+1. Create two sites (Site1, Site2), and then create three equipment resources (Eq1, Eq2, Eq3). 
 
-![Service Activity](media\ur-scheduling-21-new.png)
+2. Create the business closure and work hours for all equipment (3:00 PM to 6:00 PM). 
 
-4. On the Schedule Service Activity dialog (scheduling dialog) search for proposals for Service1 by adding a required resource as "eq1" for a specific date range. 
+3. Create a new service (**Service1**) Choose 1 from (Random) Eq1, Eq2, #q3 <!--I don't know what the UI says, so I can't suggest the correct formatting for "Choose 1 from (Random)." -->
 
-5. Verify the proposals are returned are in the working hours of the equipment for that date. 
+![Service Activity screenshot for scenario 3](media/ur-scheduling-21-new.png "Service Activity screenshot for scenario 3")
 
-### New URS API Code for the above scenario
+4. In the **Schedule Service Activity** dialog box, search for proposals for Service1 by adding a required resource as **Eq1** for a specific date range. 
 
-void searchRequirementgroup(Microsoft.Pfe.Xrm.OrganizationServiceManager osm)<BR>
-{<BR>
-var req = new Microsoft.Xrm.Sdk.OrganizationRequest()<BR> 
-{<BR>
-RequestName = "msdyn_SearchResourceAvailabilityForRequirementGroup"<BR>
-};<BR>
-req["Version"] = "1.0.0";<BR> 
-Entity requirementSpecification = new Entity();<BR>
+5. Verify that the proposed schedules that are returned occur within the working hours of the equipment for that date. 
 
-//Setting start date<BR>          
-requirementSpecification.Attributes.Add("msdyn_fromdate", DateTime.Parse("2019-12-26T18:30:00.000Z"));<BR>
-//Setting end date<BR>
-requirementSpecification.Attributes.Add("msdyn_todate", DateTime.Parse("2019-12-27T18:29:00.000Z"));<BR>
+#### Universal Resource Scheduling API code for scenario 3
 
-//Setting the eq1 as required resource<BR>	 	 requirementSpecification.Attributes.Add("msdyn_resourcerequirementid",Guid.Parse("XXXXXX")); <BR>
-req["RequirementSpecification"] = requirementSpecification; <BR>
+```csharp
+void searchRequirementgroup(Microsoft.Pfe.Xrm.OrganizationServiceManager osm)
+{
+var req = new Microsoft.Xrm.Sdk.OrganizationRequest() 
+{
+RequestName = "msdyn_SearchResourceAvailabilityForRequirementGroup"
+};
+req["Version"] = "1.0.0"; 
+Entity requirementSpecification = new Entity();
 
-//Setting the requirement group GUID<BR>
-req["RequirementGroup"] = new EntityReference("msdyn_requirementgroup", Guid.Parse("XXXXX"));<BR>
+//Setting start date          
+requirementSpecification.Attributes.Add("msdyn_fromdate", DateTime.Parse("2019-12-26T18:30:00.000Z"));
+//Setting end date
+requirementSpecification.Attributes.Add("msdyn_todate", DateTime.Parse("2019-12-27T18:29:00.000Z"));
 
-//Executing the request and getting response.<BR> 
-var response = osm.GetProxy().Execute(req); <BR>
-response.ToString(); <BR>
-response.Dump(); <BR>
-} <BR>
+//Setting the eq1 as required resource	 	
 
-## See Also
-[Service Scheduling Guide](basics-service-service-scheduling.md)
+requirementSpecification.Attributes.Add("msdyn_resourcerequirementid",Guid.Parse("XXXXXX")); 
+req["RequirementSpecification"] = requirementSpecification; 
 
-[Service Scheduling FAQ](service-scheduling-faq.md)
+//Setting the requirement group GUID
+req["RequirementGroup"] = new EntityReference("msdyn_requirementgroup", Guid.Parse("XXXXX"));
+
+//Executing the request and getting response. 
+var response = osm.GetProxy().Execute(req); 
+response.ToString(); 
+response.Dump(); 
+} 
+```
+
+### See also
+
+[Service Scheduling Guide](basics-service-service-scheduling.md)  
+[Service scheduling FAQ](service-scheduling-faq.md)
