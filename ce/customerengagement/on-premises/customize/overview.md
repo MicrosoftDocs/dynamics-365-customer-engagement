@@ -44,7 +44,7 @@ These components determine what data the app will be based upon.
 |Relationship     | Entity relationships define how entities can be related to each other. There are 1:N (one-to-many), N:1 (many-to-one), and N:N (many-to-many) types of relationships . For example, adding a lookup field to an entity creates a new 1:N relationship between the two entities and lets you put that lookup field on a form.        | Entity designer        |
 |Option set field     |  This is a special type of field, which provides the user a set of predetermined options. Each option has a number value and label. When added to a form, this field displays a control for the user to select an option. There are two kinds of option sets; option sets, where the user can only select one option, and multi-select options sets, which allow more than one selection.       |  Option set designer       |
 
-More infomation: [Create or edit entities (record types)](create-edit-entities.md)
+More information: [Create or edit entities (record types)](create-edit-entities.md)
 
 ### UI
 These components determine how users interact with the app.
