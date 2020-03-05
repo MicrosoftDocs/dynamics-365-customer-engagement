@@ -21,9 +21,9 @@ Many customers use social messaging channels for their personal communication ne
 
 The success of social media customer service, like all other customer service, depends on the quality of care provided. Communications from agents should be timely, accurate, sensitive, brief, and friendly, which ultimately improves the customer satisfaction and brand loyalty.
 
-The custom channel feature lets you integrate a social messaging channel of your social channel with Omnichannel for Customer Service so as to engage with customers who prefer these social channels.
+The custom channel feature lets you integrate a social messaging channel with Omnichannel for Customer Service so as to engage with customers who prefer these social channels.
 
-The following social channels are supported:
+The following social channels integration are supported:
 
 - Skype
 - Kik
@@ -78,6 +78,13 @@ After you add the social channel to the Bot Channel registration in Azure Bot Se
 
 You've created a work stream for custom channel. To learn more, see [Create work streams](work-streams-introduction.md).
 
+To configure other options in the work stream, see the following:
+
+- [Skill based routing](overview-skill-work-distribution.md)
+- [Productivity tools](productivity-tools.md)
+- [Smart assist](smart-assist.md)
+- [Templates](administrator/templates-overview.md)
+
 ## Step 4: Create a custom channel
 
 After you create a work stream for custom channel, you need to create a custom channel with the details of the **Microsoft App ID** and **Password** that you retrieved while registering your social channel in Azure Bot Service.
@@ -120,7 +127,7 @@ To create a custom channel, follow the steps:
     | Section | Field | Description | Example  value |
     |-------------|-------------------|---------------------------|--------------------------------------|  
     | Details | Name | Specify a name for the custom channel | Contoso Skype |
-    | Details | Description | Provide a description for your reference | Skype channel is used for the Contoso Ltd customers. |
+    | Details | Description | Provide a description for your reference | This channel is used for Contoso customers with Skype. |
     | Details | Custom Messaging Application | The **Custom Messaging Application** field is populated. However, you can change the value using the lookup. | Contoso custom channel |
     | Details | Channel ID | Select a channel from the list. The options are: <br> - GroupMe <br> - Kik <br> - Skype <br> - Telegram <br> - Web Chat |
     | Work Distribution | Work Stream | Select a work stream from the lookup. | Contos custom channel work stream |
@@ -138,3 +145,12 @@ To create a custom channel, follow the steps:
 
     > [!div class=mx-imgBorder]
     > ![Create a custom channel](../media/custom-channel-4.png "Create a custom channel")
+
+
+## See also
+
+[Skill based routing](overview-skill-work-distribution.md)<br>
+[Productivity tools](administrator/productivity-tools.md)<br>
+[Smart assist](smart-assist.md)<br>
+Templates
+[Templates](administrator/templates-overview.md)
