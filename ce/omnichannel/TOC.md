@@ -42,7 +42,7 @@
 ##### [Configure an SMS channel](administrator/configure-sms-channel.md)
 #### Social channels
 ##### [Configure a Facebook channel](administrator/configure-facebook-channel.md)
-##### [Configure a custom channel](administrator/configure-custom-channel.md)
+##### [Configure a Custom channel](administrator/configure-custom-channel.md)
 #### Entity records
 ##### [Entity records routing](administrator/entity-channel.md)
 ##### [Route trigger for entity records](administrator/routing-trigger.md)
