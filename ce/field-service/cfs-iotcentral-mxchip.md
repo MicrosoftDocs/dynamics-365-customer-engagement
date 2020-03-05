@@ -172,19 +172,34 @@ cfs-mxchip-14
 
 Navigate to CFS IoT Alerts under My Work and select Create IoT Flows 
 
+cfs-mxchip-15
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
 
 Select Create CFS alerts from IoT Central 
 Make sure you select the CDS Version 
 
+cfs-mxchip-16
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
 **You might need to login to Power Automate with credentials if haven’t already**
 In flow, you will want to make sure you are connected to your CFS org and your IoT Central 
 Select continue 
+
+cfs-mxchip-17
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
 
 Application: Select IoT central application name 
 Rule: Select Button B Press
 Organization Name: Select Dynamics CFS Org 
 Entity Name: Select IoT Alerts
 Select Save
+
+cfs-mxchip-18
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
 
 Add Temp Alert to Power Automate Name
 Application: Select IoT central application name 
@@ -193,11 +208,36 @@ Organization Name: Select Dynamics CFS Org 
 Entity Name: Select IoT Alerts
 Select Save
 
+cfs-mxchip-19
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
 Navigate to My Flows and see newly created Alert Flows
 
-
+cfs-mxchip-20
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
 
 ## Add MXChip as connected device in IoTCentral 
+
+Navigate to IoT Central Solution and loginhttps://YOURORG.azureiotcentral.com 
+
+cfs-mxchip-21
+
+Select Device and MXChip(1.0.0) TemplateSelect Real to Create and New Device 
+
+cfs-mxchip-22
+
+Create Device ID and Device Name
+Create something unique but not too crazy  
+
+cfs-mxchip-23
+
+Select Connect 
+You will need to copy and paste to Notepad the Scope and Device ID and Primary Key below for MXChip Setup In the next step
+
+cfs-mxchip-24
+
 
 ## Plugin and connect MXChip
 
