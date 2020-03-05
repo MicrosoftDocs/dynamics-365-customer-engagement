@@ -27,26 +27,33 @@ The custom channel feature lets you integrate a social messaging channel of your
 
 [Step 1: Register your social channel](#step-1-register-your-social-channel)
 
-[Step 2: Create a work stream](#step-2-create-a-work-stream)
+[Step 2: Add your social channel bot channel registration](#step-2-add-the-social-channel-to-bot-channel-registration)
 
-[Step 3: Create a custom channel](#step-3-create-a-custom-channel)
+[Step 3: Create a work stream](#step-3-create-a-work-stream)
 
-### Step 1: Register your social channel
+[Step 4: Create a custom channel](#step-4-create-a-custom-channel)
+
+## Step 1: Register your social channel
 
 To integrate your social channel with Omnichannel for Customer Service, you need to register your channel in **Azure Bot Service**. To learn how to register, see [Register a bot with Azure Bot Service](https://docs.microsoft.com/azure/bot-service/bot-service-quickstart-registration).
 
-After you register, save the **Microsoft App ID** and **Password** values safely for future use. These two values are required to create a custom channel in the Omnichannel Administration app. 
+After you register, save the **Microsoft App ID** and **Password** values safely for future use. These two values are required to create a custom channel in the Omnichannel Administration app.  To learn more, see [Get registration password](https://docs.microsoft.com/azure/bot-service/bot-service-quickstart-registration#get-registration-password).
 
 You need to use it as follows:
 
-| Azure Bot Service field name | Omnichannel Administrator custom channel field name |
+| Azure Bot Channel Registration field | Omnichannel Administrator custom channel field |
 |------------------------------|------------------------------------------------------|
 | Microsoft App ID | MS App ID |
 | Password | MS App Secret |
 
-## Step 2: Create a work stream
 
-After registering your social channel, you need to create a work stream for the custom channel. To create a custom channel work stream, follow the steps:
+## Step 2: Add the social channel to bot channel registration
+
+After registering your social channel
+
+## Step 3: Create a work stream
+
+After you add the social channel to the Bot Channel registration in Azure Bot Service, you need to create a work stream for the custom channel. To create a custom channel work stream, follow the steps:
 
 1. Sign in to Omnichannel Administrator.
 
@@ -64,7 +71,7 @@ You've created a work stream for custom channel.
 
 To learn more, see [Create work streams](work-streams-introduction.md).
 
-## Step 3: Create a custom channel
+## Step 4: Create a custom channel
 
 After you create a work stream for custom channel, you need to create a custom channel with the details of the **Microsoft App ID** and **Password** that you retrieved while registering your social channel in Azure Bot Service.
 
@@ -76,4 +83,36 @@ To create a custom channel, follow the steps:
 
 3. Select **+ New** in the **Active Custom Messaging Application** view.
 
-4. 
+4. In the New **Custom Messaging Application** page, specify the values for the following fields.
+
+  | Section | Field | Description | Example  value |
+  |-------------|-------------------|---------------------------|--------------------------------------|
+  | Account Details |Name| Specify a name for the custom channel.| Contoso custom channel |
+  | Account Details |Description| Specify the description for your reference. | The Contoso custom channel is for only Contoso Ltd customers.|
+  | Account Details |MS App ID| Copy and paste the **Microsoft App ID** that saved earlier from the Azure Bot Channel Registration page. <br> To learn more, see [Get registration password](https://docs.microsoft.com/azure/bot-service/bot-service-quickstart-registration#get-registration-password). | cae1d83e-8b07-4fca-8072-c2eb3444vxyz |
+  | Account Details |MS App Secret| Copy and paste the **Password** that saved earlier from the Azure Bot Channel Registration page.| |
+
+5. Select **Validate App ID & Secret**  to validate the **MS App ID** and **MS App Secret** values. After the validation, a toast notification is displayed. Also, the **Last Validated** field shows time and date. 
+
+6. Select **Save** to save the changes. After you save, in the **Callback Information** section, the **Message Endpoint (URL)** field is generated with a URL. Copy the URL from the field. Select **Save** to save the changes.
+
+7. Go to Azure Portal > Bot Channel Registration page, and update the URL in the **Message endpoint** field, and save the changes.
+
+8. In the **Channels** section, select **+ Add Custom Messaging Channel**. The **New Custom Messaging Channel** page is displayed to you.
+
+  After you create a **Custom Messaging Application**, you need to create custom messaging channel, which is the actual channel from which Omnichannel for Customer Service agents will receive messages from the customer.
+
+9. Specify the values for the following fields.
+
+  | Section | Field | Description | Example  value |
+  |-------------|-------------------|---------------------------|--------------------------------------|  
+  | Details | Name | Specify a name for the custom channel | Contoso Skype |
+  | Details | Description | Provide a description for your reference | Skype channel is used for the Contoso Ltd customers. |
+  | Details | Custom Messaging Application | The **Custom Messaging Application** field is populated. However, you can change the value using the lookup. | Contoso custom channel |
+  | Details | Channel ID | Select a channel from the list. The options are: <br> - GroupMe <br> - Kik <br> - Skype <br> - Telegram <br> - Web Chat |
+  | Work Distribution | Work Stream | Select a work stream from the lookup. | Contos custom channel work stream |
+
+  >  [!Note]
+  > A **Custom Messaging Application** can have multiple unique channel IDs. We recommend you not to add two or more same Channel IDs to a **Custom Messaging Application**. For example, for **Contoso Custom Channel**, you can't add two or more **Skype** Channel ID.
+
+  10. Select the browser back button to go to the **Custom Messaging Application** page, and then select **Save** the changes.
