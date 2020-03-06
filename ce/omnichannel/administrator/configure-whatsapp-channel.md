@@ -103,7 +103,7 @@ To create a WhatsApp channel, follow the steps:
     > [!div class=mx-imgBorder]
     > ![Create a WhatsApp channel](../media/whatsapp-channel-1.png "Create a WhatsApp channel")     
 
-4. Select **Save**. After you save, in the **Callback Information** section, the **Twilio inbound URL** field is generated with a URL. Copy the URL from the field. 
+4. Select **Save**. After you save, in the **Callback information** section, the **Twilio inbound URL** field is generated with a URL. Copy the URL from the field. 
 
     > [!div class=mx-imgBorder]
     > ![Copy the Twilio inbound URL](../media/whatsapp-channel-2.png "Copy the Twilio inbound URL") 
