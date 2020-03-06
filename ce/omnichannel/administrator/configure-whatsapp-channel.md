@@ -28,9 +28,7 @@ Many customers use social messaging channels like WhatsApp for their personal co
 
 The success of social media customer service, like all other customer service, depends on the quality of care provided. Communications from agents should be timely, accurate, sensitive, brief, and friendly, which ultimately improves the customer satisfaction and brand loyalty.
 
-The WhatsChannel channel feature lets you integrate a WhatsApp through Twilio with Omnichannel for Customer Service so as to engage with customers who prefer the WhatsApp channel.
-
-
+The WhatsChannel channel feature lets you integrate WhatsApp through Twilio with Omnichannel for Customer Service so as to engage with customers who prefer the WhatsApp channel.
 
 ## Prerequisites
 
@@ -39,6 +37,24 @@ The WhatsChannel channel feature lets you integrate a WhatsApp through Twilio wi
 - Connected Twilio Number to your WhatsApp Business Profile. To learn more, see [Connect your Twilio Number to your WhatsApp Business Profile](https://www.twilio.com/docs/sms/whatsapp/tutorial/connect-number-business-profile).
 
 - Approved message templates from WhatsApp. To learn more, see [Creating Message Templates](https://developers.facebook.com/docs/whatsapp/message-templates/creation/). 
+
+## WhatsApp 24 hours session rule
+
+WhatsApp divides messages into two different types: **Template messages** and **Session messages**.
+
+### Template messages 
+
+Outbound messages sent via Twilio that use one of the pre-approved templates. These are generally unsolicited transactional messages (delivery alerts, appointment reminders, etc.) sent to users who have opted in to receive messages from you.
+
+### Session messages
+
+All incoming messages, or outgoing replies to these messages within 24-hours. A messaging session starts when a user sends your application a message, and lasts for 24 hours from the most recently received message. Session messages do not need to follow a template, and can include media attachments.
+
+WhatsApp messages through Twilio have the following capabilities:
+
+Templates and Session messages: Outbound messages to WhatsApp users must be sent using one of the pre-approved templates. These are generally transactional messages (delivery alerts, appointment reminders, etc.) sent to users who have opted in to receive messages from you. To see the approved templates for the WhatsApp Sandbox, visit Console. Once approved by WhatsApp, you'll be able to submit your own templates for approval for use in production.
+
+All incoming messages, or outgoing replies to these messages within 24-hours, are considered Session messages, and don't need to follow a template. A messaging session starts when a user sends your application a message, and lasts for 24 hours from the most recently received message.
 
 ## End-to-end walk-through
 
