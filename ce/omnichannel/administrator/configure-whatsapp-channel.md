@@ -46,7 +46,7 @@ According to WhatsApp, session messages is a type of message that are incoming m
 
 **24 hours session rule:**
 
-A messaging session is starts when an agent receives a message from a customer or replies to the incoming message from the customer. When the customer sends a message, from the time agent received it, agent has 24 hours to reply to the customer. However, after 24 hours, if agent tries to send a message to the customer, an error is displayed..  
+A messaging session is starts when an agent receives a message from a customer or replies to the incoming message from the customer. When the customer sends a message, from the time agent received it, agent has 24 hours to reply to the customer. However, after 24 hours, if agent tries to send a message to the customer, an error is displayed - **This conversation has exceeded the 24 hour limit to respond to the customer.**.
 
 ## End-to-end walk-through
 
@@ -55,6 +55,8 @@ A messaging session is starts when an agent receives a message from a customer o
 [Step 2: Create a work stream](#step-2-create-a-work-stream)
 
 [Step 3: Create a WhatsApp channel](#step-3-create-a-whatsapp-channel)
+
+[Step 4: Validate account SID, auth token, and phone number](#step-4-validate-account-sid-auth-token-and-phone-number)
 
 ## Step 1: Fetch Twilio account details
 
@@ -77,7 +79,6 @@ Go to your Twilio Console Dashboard > Settings > General to fetch the details.
 6. Select **Save** to save the changes.
 
 You've created a work stream for WhatsApp channel. To learn more, see [Create work streams](work-streams-introduction.md).
-
 To configure other options in the work stream, see the following:
 
 - [Skill based routing](overview-skill-work-distribution.md)
@@ -86,6 +87,8 @@ To configure other options in the work stream, see the following:
 - [Templates](templates-overview.md)
 
 ## Step 3: Create a WhatsApp channel
+
+After you create a work stream for WhatsApp channel through Twilio, you need to create a WhatsApo channel in Omnichannel Administrator app.
 
 To create a WhatsApp channel, follow the steps:
 
@@ -101,9 +104,15 @@ To create a WhatsApp channel, follow the steps:
     | Twilio account Details |Account SID | Fetch the value from your Twilio account and paste it here. | AC9a805fb460119c9baabb9b726ce8fc90 |
     | Twilio account Details |Auth Token | Fetch the value from your Twilio account and paste it here. | dd40ed7df8376b1fa959be99c45fbfce |
 
+    > [!div class=mx-imgBorder]
+    > ![Create a WhatsApp channel](../media/whatsapp-channel-1.png "Create a WhatsApp channel")     
+
 4. Select **Save**. After you save, in the **Callback Information** section, the **Twilio inbound URL** field is generated with a URL. Copy the URL from the field. 
 
-5. Information is needed for this step as to where the URL need to be pasted in the Twilio account.
+    > [!div class=mx-imgBorder]
+    > ![Copy the Twilio inbound URL](../media/whatsapp-channel-2.png "Copy the Twilio inbound URL") 
+
+5. <<\<Information is needed for this step as to where the URL need to be pasted in the Twilio account.>>>
 
 6. In the **WhatsApp phone numbers** section, select **+ Add New WhatsApp Number**. The **New Custom Messaging Channel** page is displayed to you.
 
@@ -116,11 +125,19 @@ To create a WhatsApp channel, follow the steps:
     | Phone number details | WhatsApp Number | Specify the WhatsApp number. | 123456989 |
     | Work Distribution | Work Stream | Select a work stream from the lookup. | WhatsApp channel work stream |
 
+    > [!div class=mx-imgBorder]
+    > ![Create a WhatsApp channel phone number](../media/whatsapp-channel-3.png "Create a WhatsApp channel phone number")
+
 8. Select **Save** to save the WhatsApp phone number.
 
 9. Select the browser back button to go to the WhatsApp channel page. You can see that the WhatsApp phone number is added in the **WhatsApp phone numbers** section.
 
 10. Select **Save** to save the configurations.
+
+11. In the **Validate** section, select **Validate** to the Account SID, Auth token, and Phone numbers.  After you validate, a toast notification displays with the success or error.
+
+    > [!div class=mx-imgBorder]
+    > ![Validate account sif, auth toke, and phone number](../media/whatsapp-channel-5.png "Validate account sif, auth toke, and phone number")
 
 ## See also
 
