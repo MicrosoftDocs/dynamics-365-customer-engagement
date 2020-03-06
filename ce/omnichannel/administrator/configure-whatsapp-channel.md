@@ -34,9 +34,7 @@ The WhatsChannel channel feature lets you integrate WhatsApp through Twilio with
 
 - A Twilio account with appropriate subscription.
 
-- Connected Twilio Number to your WhatsApp Business Profile. To learn more, see [Connect your Twilio Number to your WhatsApp Business Profile](https://www.twilio.com/docs/sms/whatsapp/tutorial/connect-number-business-profile).
-
-- Approved message templates from WhatsApp. To learn more, see [Creating Message Templates](https://developers.facebook.com/docs/whatsapp/message-templates/creation/). 
+- Connected Twilio Number to your WhatsApp Business Profile. To learn more, see [Connect your Twilio Number to your WhatsApp Business Profile](https://www.twilio.com/docs/sms/whatsapp/tutorial/connect-number-business-profile). 
 
 ## WhatsApp message type and 24 hours session rule
 
