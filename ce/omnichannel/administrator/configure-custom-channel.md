@@ -161,5 +161,4 @@ To create a custom channel, follow the steps:
 [Skill based routing](overview-skill-work-distribution.md)<br>
 [Productivity tools](administrator/productivity-tools.md)<br>
 [Smart assist](smart-assist.md)<br>
-Templates
 [Templates](administrator/templates-overview.md)

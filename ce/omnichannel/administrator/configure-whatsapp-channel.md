@@ -73,7 +73,7 @@ To configure other options in the work stream, see the following:
 
 ## Step 3: Create a WhatsApp channel
 
-To create a WhastApp channel, follow the steps:
+To create a WhatsApp channel, follow the steps:
 
 1. Sign in to Omnichannel Administrator.
 
@@ -107,3 +107,10 @@ To create a WhastApp channel, follow the steps:
 9. Select the browser back button to go to the WhatsApp channel page. You can see that the WhatsApp phone number is added in the **WhatsApp phone numbers** section.
 
 10. Select **Save** to save the configurations.
+
+## See also
+
+[Skill based routing](overview-skill-work-distribution.md)<br>
+[Productivity tools](administrator/productivity-tools.md)<br>
+[Smart assist](smart-assist.md)<br>
+[Templates](administrator/templates-overview.md)
