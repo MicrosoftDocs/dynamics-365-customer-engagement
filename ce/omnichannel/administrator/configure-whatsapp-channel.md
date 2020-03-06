@@ -30,9 +30,15 @@ The success of social media customer service, like all other customer service, d
 
 The WhatsChannel channel feature lets you integrate a WhatsApp through Twilio with Omnichannel for Customer Service so as to engage with customers who prefer the WhatsApp channel.
 
+
+
 ## Prerequisites
 
-A Twilio account with appropriate subscription.
+- A Twilio account with appropriate subscription.
+
+- Connected Twilio Number to your WhatsApp Business Profile. To learn more, see [Connect your Twilio Number to your WhatsApp Business Profile](https://www.twilio.com/docs/sms/whatsapp/tutorial/connect-number-business-profile).
+
+- Approved message templates from WhatsApp. To learn more, see [Creating Message Templates](https://developers.facebook.com/docs/whatsapp/message-templates/creation/). 
 
 ## End-to-end walk-through
 
@@ -41,6 +47,8 @@ A Twilio account with appropriate subscription.
 [Step 2: Create a work stream](#step-2-create-a-work-stream)
 
 [Step 3: Create a WhatsApp channel](#step-3-create-a-whatsapp-channel)
+
+[Step 4: Create approved templates as quick replies](#step-4-create-approved-templates-as-quick-replies)
 
 ## Step 1: Fetch Twilio account details
 
@@ -107,6 +115,8 @@ To create a WhatsApp channel, follow the steps:
 9. Select the browser back button to go to the WhatsApp channel page. You can see that the WhatsApp phone number is added in the **WhatsApp phone numbers** section.
 
 10. Select **Save** to save the configurations.
+
+## Step 4: Create approved templates as quick replies
 
 ## See also
 
