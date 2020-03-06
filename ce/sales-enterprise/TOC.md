@@ -129,6 +129,11 @@
 #### [Track a marketing campaign response](../sales-enterprise/track-marketing-campaign-response-using-app-marketing-sales.md)
 ### [Use Sales Hub on the mobile app](../sales-enterprise/use-sales-hub-on-dynamics-365-mobile.md)
 
+## Sales Analytics for Dynamics 365 Sales
+### [Introduction to Sales Analytics for Dynamics 365 Sales](introduction-sales-analytics.md)
+### [View and understand Sales Analytics for Dynamics 365 Sales](view-sales-analytics.md)
+### [Configure Sales Analytics for Dynamics 365 Sales](configure-sales-analytics.md)
+
 ## Troubleshooting and FAQs
 ### [Troubleshooting guide for sales people](troubleshooting.md)
 ### [Troubleshooting guide for administrators](troubleshooting-admin.md)
