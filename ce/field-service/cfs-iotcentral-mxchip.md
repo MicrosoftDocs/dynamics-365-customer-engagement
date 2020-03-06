@@ -27,13 +27,15 @@ search.app:
 ---
 
 # Set up and test IoT alerts from a real device (MXChip) 
+
 ## Prerequisites
 
-Field Service v8.2+
+To successfully complete this tutorial and receive IoT telemetry from a real MXChip device, you need the following:
 
-Azure account
+1. A Dynamics 365 Field Service environment v8.2+. "Connected Field Service" capabilities are included with Field Service. See the topics on [installing](./install-field-service.md) or [installing](./upgrade-field-service.md) Field Service for more details.
+2. An Azure account. Use your existing account or create a new free account at [https://azure.microsoft.com/en-us/free/](https://azure.microsoft.com/en-us/free/). Your Azure account can be different from your Dynamics 365 Field Service account.
+3. Using your Azure account and credentials, create an [Azure IoTCentral custom application](https://apps.azureiotcentral.com/build/new/custom). Hint: For **Application template** select **Custom application (legacy)**.
 
-Azure IotCentral
 
 ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Set up Connected Field Service with Azure IoTCentral](https://youtu.be/Sp7_JoXjHDk)
 
