@@ -38,21 +38,15 @@ The WhatsChannel channel feature lets you integrate WhatsApp through Twilio with
 
 - Approved message templates from WhatsApp. To learn more, see [Creating Message Templates](https://developers.facebook.com/docs/whatsapp/message-templates/creation/). 
 
-## WhatsApp message types and 24 hours session rule
+## WhatsApp message type and 24 hours session rule
 
-WhatsApp classifies messages into two types: **Session messages** and **Template messages**.
+**Session messages:** 
 
-**Template messages:**
-
-Templates messages are the outbound messages that agents send through Twilio using one of the pre-approved templates. These are generally transactional messages such as delivery alerts, appointment reminders, etc. sent to users who have opted in to receive messages from your organization.
-
-**Session messages:**
-
-Session messages are incoming messages from a customer, or outgoing replies sent by an agent to the incoming messages, within 24-hours. A messaging session starts when you receive a message from a customer, and lasts for 24 hours from the most recently received message. Session messages do not need to follow a template, and can include media attachments.
+According to WhatsApp, session messages is a type of message that are incoming messages from a customer, or outgoing replies sent by an agent to the incoming messages, within 24-hours. A messaging session starts when you receive a message from a customer, and lasts for 24 hours from the most recently received message. Session messages do not need to follow a template, and can include media attachments.
 
 **24 hours session rule:**
 
-A messaging session is starts when an agent receives a message from a customer or replies to the incoming message from the customer. When the customer sends a message, from the time agent received it, agent has 24 hours to reply to the customer with or without using a template. However, after 24 hours, agent can send a message to customer only by using an predefined and approved template.  
+A messaging session is starts when an agent receives a message from a customer or replies to the incoming message from the customer. When the customer sends a message, from the time agent received it, agent has 24 hours to reply to the customer. However, after 24 hours, if agent tries to send a message to the customer, an error is displayed..  
 
 ## End-to-end walk-through
 
@@ -61,8 +55,6 @@ A messaging session is starts when an agent receives a message from a customer o
 [Step 2: Create a work stream](#step-2-create-a-work-stream)
 
 [Step 3: Create a WhatsApp channel](#step-3-create-a-whatsapp-channel)
-
-[Step 4: Create approved templates as quick replies](#step-4-create-approved-templates-as-quick-replies)
 
 ## Step 1: Fetch Twilio account details
 
@@ -129,8 +121,6 @@ To create a WhatsApp channel, follow the steps:
 9. Select the browser back button to go to the WhatsApp channel page. You can see that the WhatsApp phone number is added in the **WhatsApp phone numbers** section.
 
 10. Select **Save** to save the configurations.
-
-## Step 4: Create approved templates as quick replies
 
 ## See also
 

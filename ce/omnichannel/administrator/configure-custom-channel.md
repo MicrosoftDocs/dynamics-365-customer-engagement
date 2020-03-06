@@ -32,11 +32,8 @@ The custom channel feature lets you integrate a social messaging channel with Om
 
 The following social channels integration are supported:
 
-- Skype
 - Kik
-- Group Me
 - Telegram
-- Web Chat
 - Direct Line
 
 ## End-to-end walk-through
@@ -132,14 +129,14 @@ To create a custom channel, follow the steps:
 
     | Section | Field | Description | Example  value |
     |-------------|-------------------|---------------------------|--------------------------------------|  
-    | Details | Name | Specify a name for the custom channel | Contoso Skype |
-    | Details | Description | Provide a description for your reference | This channel is used for Contoso customers with Skype. |
+    | Details | Name | Specify a name for the custom channel | Contoso Kik |
+    | Details | Description | Provide a description for your reference | This channel is used for Contoso customers with Kik. |
     | Details | Custom Messaging Application | The **Custom Messaging Application** field is populated. However, you can change the value using the lookup. | Contoso custom channel |
-    | Details | Channel ID | Select a channel from the list. The options are: <br> - GroupMe <br> - Kik <br> - Skype <br> - Telegram <br> - Web Chat <br> - Direct Line |
+    | Details | Channel ID | Select a channel from the list. The options are: <br> - Kik <br> - Telegram <br> - Direct Line |
     | Work Distribution | Work Stream | Select a work stream from the lookup. | Contoso custom channel work stream |
 
     > [!Note]
-    > A **Custom Messaging Application** can have multiple unique channel IDs. We recommend you not to add two or more same Channel IDs to a **Custom Messaging Application**. For example, for **Contoso custom channel**, you can't add two or more **Skype** Channel ID.
+    > A **Custom Messaging Application** can have multiple unique channel IDs. We recommend you not to add two or more same Channel IDs to a **Custom Messaging Application**. For example, for **Contoso custom channel**, you can't add two or more **Kik** Channel ID.
 
     > [!div class=mx-imgBorder]
     > ![Create a custom channel](../media/custom-channel-3.png "Create a custom channel") 
