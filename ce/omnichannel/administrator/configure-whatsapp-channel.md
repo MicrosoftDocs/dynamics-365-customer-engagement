@@ -69,7 +69,7 @@ To configure other options in the work stream, see the following:
 - [Skill based routing](overview-skill-work-distribution.md)
 - [Productivity tools](productivity-tools.md)
 - [Smart assist](smart-assist.md)
-- [Templates](administrator/templates-overview.md)
+- [Templates](templates-overview.md)
 
 ## Step 3: Create a WhatsApp channel
 
@@ -111,6 +111,6 @@ To create a WhatsApp channel, follow the steps:
 ## See also
 
 [Skill based routing](overview-skill-work-distribution.md)<br>
-[Productivity tools](administrator/productivity-tools.md)<br>
+[Productivity tools](productivity-tools.md)<br>
 [Smart assist](smart-assist.md)<br>
-[Templates](administrator/templates-overview.md)
+[Templates](templates-overview.md)

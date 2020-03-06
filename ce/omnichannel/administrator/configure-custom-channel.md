@@ -53,15 +53,14 @@ The following social channels integration are supported:
 
 To integrate your social channel with Omnichannel for Customer Service, register your channel in **Azure Bot Service**. To learn how to register, see [Register a bot with Azure Bot Service](https://docs.microsoft.com/azure/bot-service/bot-service-quickstart-registration).
 
-After you register, save the **Microsoft App ID** and **Password** values safely for future use. These two values are required to create a custom channel configuration in the Omnichannel Administration app.  To learn more, see [Get registration password](https://docs.microsoft.com/azure/bot-service/bot-service-quickstart-registration#get-registration-password).
+After you register, save the **Microsoft App ID** and **Client secret** values safely for future use. These two values are required to create a custom channel configuration in the Omnichannel Administration app.  To learn more, see [Get registration password](https://docs.microsoft.com/azure/bot-service/bot-service-quickstart-registration#get-registration-password).
 
 You need to use it as follows:
 
 | Azure Bot Channel Registration field | Omnichannel Administrator custom channel field |
 |------------------------------|------------------------------------------------------|
 | Microsoft App ID | MS App ID |
-| Password | MS App Secret |
-
+| Client secret | MS App Secret |
 
 ## Step 2: Add the social channel to bot channel registration
 
@@ -111,7 +110,7 @@ To create a custom channel, follow the steps:
     | Account Details |Name| Specify a name for the custom channel.| Contoso custom channel |
     | Account Details |Description| Specify the description for your reference. | The custom channel is used for the Contoso Ltd customers.|
     | Account Details |MS App ID| Copy and paste the **Microsoft App ID** that saved earlier from the Azure Bot Channel Registration page. <br> To learn more, see [Get registration password](https://docs.microsoft.com/azure/bot-service/bot-service-quickstart-registration#get-registration-password). | cae1d83e-8b07-4fca-8072-c2eb3444vxyz |
-    | Account Details |MS App Secret| Copy and paste the **Password** that saved earlier from the Azure Bot Channel Registration page.| |
+    | Account Details |MS App Secret| Copy and paste the **Client secret** that saved earlier from the Azure Bot Channel Registration page.  <br> To learn more, see [Get registration password](https://docs.microsoft.com/azure/bot-service/bot-service-quickstart-registration#get-registration-password).| |
 
 5. Select **Validate App ID & Secret**  to validate the **MS App ID** and **MS App Secret** values. After the validation, a toast notification is displayed. Also, the **Last Validated** field shows time and date. 
 
@@ -159,6 +158,6 @@ To create a custom channel, follow the steps:
 ## See also
 
 [Skill based routing](overview-skill-work-distribution.md)<br>
-[Productivity tools](administrator/productivity-tools.md)<br>
+[Productivity tools](productivity-tools.md)<br>
 [Smart assist](smart-assist.md)<br>
-[Templates](administrator/templates-overview.md)
+[Templates](templates-overview.md)
