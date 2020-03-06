@@ -38,23 +38,21 @@ The WhatsChannel channel feature lets you integrate WhatsApp through Twilio with
 
 - Approved message templates from WhatsApp. To learn more, see [Creating Message Templates](https://developers.facebook.com/docs/whatsapp/message-templates/creation/). 
 
-## WhatsApp 24 hours session rule
+## WhatsApp message types and 24 hours session rule
 
-WhatsApp divides messages into two different types: **Template messages** and **Session messages**.
+WhatsApp classifies messages into two types: **Session messages** and **Template messages**.
 
-### Template messages 
+**Template messages:**
 
-Outbound messages sent via Twilio that use one of the pre-approved templates. These are generally unsolicited transactional messages (delivery alerts, appointment reminders, etc.) sent to users who have opted in to receive messages from you.
+Templates messages are the outbound messages that agents send through Twilio using one of the pre-approved templates. These are generally transactional messages such as delivery alerts, appointment reminders, etc. sent to users who have opted in to receive messages from your organization.
 
-### Session messages
+**Session messages:**
 
-All incoming messages, or outgoing replies to these messages within 24-hours. A messaging session starts when a user sends your application a message, and lasts for 24 hours from the most recently received message. Session messages do not need to follow a template, and can include media attachments.
+Session messages are incoming messages from a customer, or outgoing replies sent by an agent to the incoming messages, within 24-hours. A messaging session starts when you receive a message from a customer, and lasts for 24 hours from the most recently received message. Session messages do not need to follow a template, and can include media attachments.
 
-WhatsApp messages through Twilio have the following capabilities:
+**24 hours session rule:**
 
-Templates and Session messages: Outbound messages to WhatsApp users must be sent using one of the pre-approved templates. These are generally transactional messages (delivery alerts, appointment reminders, etc.) sent to users who have opted in to receive messages from you. To see the approved templates for the WhatsApp Sandbox, visit Console. Once approved by WhatsApp, you'll be able to submit your own templates for approval for use in production.
-
-All incoming messages, or outgoing replies to these messages within 24-hours, are considered Session messages, and don't need to follow a template. A messaging session starts when a user sends your application a message, and lasts for 24 hours from the most recently received message.
+A messaging session is starts when an agent receives a message from a customer or replies to the incoming message from the customer. When the customer sends a message, from the time agent received it, agent has 24 hours to reply to the customer with or without using a template. However, after 24 hours, agent can send a message to customer only by using an predefined and approved template.  
 
 ## End-to-end walk-through
 
