@@ -6,7 +6,7 @@ ms.author: kabala
 manager: shujoshi
 applies_to: 
   - ""
-ms.date: 02/24/2020
+ms.date: 03/03/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -62,21 +62,6 @@ You will need the following to use Omnichannel for Customer Service with Unified
 ^The memory requirement is for out-of-the-box solutions. Evaluate the requirements when creating complex configurations to the Unified Service Desk - Omnichannel for Customer Service solution or when using other line-of-business applications with Unified Service Desk.
 
 For other hardware requirements of the Unified Service Desk client application, see [Unified Service Desk system requirements](/dynamics365/unified-service-desk/admin/unified-service-desk-system-requirements).
-
-## International availability
-
-Currently, **Chat for Dynamics 365 Customer Service** and **Dynamics 365 for Digital Messaging** are available in the following countries or regions:
-
-- North America 
-- Europe
-- Canada
-- United Kingdom
-- Government Cloud Computing (GCC)
-- Australia
-- Asia Pacific
-- South America
-
-For the service to work, your tenant and organization have to be co-located in one of these countries or regions.
 
 ## Provision Omnichannel
 

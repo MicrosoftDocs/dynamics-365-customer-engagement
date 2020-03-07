@@ -129,7 +129,7 @@
 
 # [Work with solutions](solutions-overview.md)
 ## [Change prefix for solution publisher](change-solution-publisher-prefix.md)
-## [Use the default solution](use-solutions-for-your-customizations.md)
+## [Use a solution to customize](use-solutions-for-your-customizations.md)
 ## [Navigate to a specific solution](navigate-specific-solution.md)
 ## [Use the solution explorer](use-solution-explorer.md)
 ## [Create a solution](create-solution.md)
