@@ -28,8 +28,9 @@ search.app:
 
 # Set up and test IoT alerts from a real device (MXChip) 
 
-Using a real, physical device is a great way to test and develop your Connected Field Service solution. An [MXChip](https://en.mxchip.com/az3166) is a Microsoft-approved development kit you can connect to the internet and is equipped with multiple sensors for temperature and humidity re
+Using an actual physical device is a great way to test and develop your Connected Field Service solution. An [MXChip](https://en.mxchip.com/az3166) is a Microsoft-approved development kit you can connect to the internet and is equipped with multiple sensors for temperature, humidity, motion and more.
 
+By connecting the MXChip to the internet you can send telemetry to AzureIoT and Dynamics 365 to monitor and respond and then create workflows to create IoT alerts, cases, and work orders in Dynamics 365 Field Service. 
 
 and send real IoT telemetry from an MXChip in to Dynamics 365 Field Service as IoT alerts,
 
