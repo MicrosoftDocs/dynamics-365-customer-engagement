@@ -28,19 +28,30 @@ search.app:
 
 # Set up and test IoT alerts from a real device (MXChip) 
 
+Using a real, physical device is a great way to test and develop your Connected Field Service solution. An [MXChip](https://en.mxchip.com/az3166) is a Microsoft-approved development kit you can connect to the internet and is equipped with multiple sensors for temperature and humidity re
+
+
+and send real IoT telemetry from an MXChip in to Dynamics 365 Field Service as IoT alerts,
+
+1. Perform initial MXChip device setup
+2. Create Device Alert Rules in IoTCentral
+3. Set up Power Automate flows to create IoT Alerts
+4. Add MXChip as connected device in IoTCentral
+5. Plugin and connect MXChip
+6. See Telemetry Data in IoT Central
+7. See IoT Alerts in Dynamics 365 Field Service
+8. Create Customer Asset and Connect Device
+
 ## Prerequisites
 
-To successfully complete this tutorial and receive IoT telemetry from a real MXChip device, you need the following:
+Before completing this tutorial you need the following enviornments, accounts, and credentials:
 
 1. A Dynamics 365 Field Service environment v8.2+. "Connected Field Service" capabilities are included with Field Service. See the topics on [installing](./install-field-service.md) or [installing](./upgrade-field-service.md) Field Service for more details.
 2. An Azure account. Use your existing account or create a new free account at [https://azure.microsoft.com/en-us/free/](https://azure.microsoft.com/en-us/free/). Your Azure account can be different from your Dynamics 365 Field Service account.
 3. Using your Azure account and credentials, create an [Azure IoTCentral custom application](https://apps.azureiotcentral.com/build/new/custom). Hint: For **Application template** select **Custom application (legacy)**.
 
 
-![Video symbol](../field-service/media/video-icon.png "Video symbol") [Set up Connected Field Service with Azure IoTCentral](https://youtu.be/Sp7_JoXjHDk)
-
-> [!Note]
->
+Referencing the following video that walks through setting up a simulated device may be helpful: ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Set up Connected Field Service with Azure IoTCentral](https://youtu.be/Sp7_JoXjHDk)
 
 
 
@@ -368,7 +379,7 @@ You should see the device added 
 
 ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Set up Connected Field Service with Azure IoTCentral](https://youtu.be/Sp7_JoXjHDk)
 
-[What is MXChip](https://aka.ms/iot-devkit)
+[MXChip developer site](https://aka.ms/iot-devkit)
 
 [Connect an MXChip IoT DevKit device to IoTC](https://docs.microsoft.com/en-us/azure/iot-central/howto-connect-devkit)
 
