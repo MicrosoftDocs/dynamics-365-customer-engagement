@@ -28,11 +28,11 @@ search.app:
 
 # Set up and test IoT alerts from a real device (MXChip) 
 
-Using an actual physical device is a great way to test and develop your Connected Field Service solution. An [MXChip](https://en.mxchip.com/az3166) is a Microsoft-approved development kit you can connect to the internet and is equipped with multiple sensors for temperature, humidity, motion and more.
+Using a physical IoT device that generates real telemetry readings is a great way to test and develop your Connected Field Service solution. It helps IT architects understand how sensor readings are stored in AzureIoT and generate Work Orders in Dynamics 365 Field Service. Furthermore it helps service managers understand the business processes, workflows, and personnel needed to resolve the cases and work orders surfaced by IoT devices. 
 
-By connecting the MXChip to the internet you can send telemetry to AzureIoT and Dynamics 365 to monitor and respond and then create workflows to create IoT alerts, cases, and work orders in Dynamics 365 Field Service. 
+One such physical device is a Microsoft-approved IoT development kit called an [MXChip device](https://en.mxchip.com/az3166) that is equipped with multiple sensors for temperature, humidity, motion and more. By connecting the MXChip to the internet and then sending the real device readings to AzureIoT and Field Service, we can develop a Connected Field Service solution with no code. After successful testing and development your organization can plan to substitute the MXChip with an industrial sensor or connected machine.
 
-and send real IoT telemetry from an MXChip in to Dynamics 365 Field Service as IoT alerts,
+In order to connect the MXChip device to Connected Field Service we will walk through the following steps in this article:
 
 1. Perform initial MXChip device setup
 2. Create Device Alert Rules in IoTCentral
@@ -43,24 +43,31 @@ and send real IoT telemetry from an MXChip in to Dynamics 365 Field Service as I
 7. See IoT Alerts in Dynamics 365 Field Service
 8. Create Customer Asset and Connect Device
 
+
 ## Prerequisites
 
-Before completing this tutorial you need the following enviornments, accounts, and credentials:
+Before completing this tutorial you need the following:
 
-1. A Dynamics 365 Field Service environment v8.2+. "Connected Field Service" capabilities are included with Field Service. See the topics on [installing](./install-field-service.md) or [installing](./upgrade-field-service.md) Field Service for more details.
-2. An Azure account. Use your existing account or create a new free account at [https://azure.microsoft.com/en-us/free/](https://azure.microsoft.com/en-us/free/). Your Azure account can be different from your Dynamics 365 Field Service account.
-3. Using your Azure account and credentials, create an [Azure IoTCentral custom application](https://apps.azureiotcentral.com/build/new/custom). Hint: For **Application template** select **Custom application (legacy)**.
+1. An MXChip. You can buy one at [https://en.mxchip.com/az3166](https://en.mxchip.com/az3166).
+2. A Dynamics 365 Field Service environment v8.2+. "Connected Field Service" capabilities are included with Field Service. See the topics on [installing](./install-field-service.md) or [installing](./upgrade-field-service.md) Field Service for more details.
+3. An Azure account. Use your existing account or create a new free account at [https://azure.microsoft.com/en-us/free/](https://azure.microsoft.com/en-us/free/). Your Azure account can be different from your Dynamics 365 Field Service account.
+4. Using your Azure account and credentials, create an [Azure IoTCentral custom application](https://apps.azureiotcentral.com/build/new/custom). Hint: For **Application template** select **Custom application (legacy)**.
 
+In this article we will use the terms "devices" and "sensors" to refer to internet-connected things that generate telemetry such as the MXChip.
 
-Referencing the following video that walks through setting up a simulated device may be helpful: ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Set up Connected Field Service with Azure IoTCentral](https://youtu.be/Sp7_JoXjHDk)
+> [!Note]
+> Referencing the following video that walks through setting up a simulated device may be helpful: ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Set up Connected Field Service with Azure IoTCentral](https://youtu.be/Sp7_JoXjHDk)
 
 
 
 ## Perform initial MXChip device setup
 
+First we need to perform an initial set up of the MXChip device.
+
 ### Connect Physical Device to PC
 
 Connect the DevKit device to your development machine using provided USB cable
+
 In Windows, a file explorer window opens on a drive mapped to the storage on the DevKit device. For example, the drive might be called AZ3166 (D:)
 
 
@@ -89,6 +96,8 @@ Drag and Drop .bin to your AZ3166 (D:)
 > ![Screenshot of ](./media/cfs-mxchip-3.png)
 
 ## Create Device Alert Rules in IoTCentral
+
+Next we need to set up rules in Azure IoTCentral
 
 In the next steps, we will create 2 device rules that will allow the passing of telemetry data from the MXChip  > IoT Central > CFS 
 
