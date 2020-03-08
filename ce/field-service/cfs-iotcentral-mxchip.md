@@ -97,7 +97,7 @@ Drag and Drop .bin to your AZ3166 (D:)
 
 ## Create Device Alert Rules in IoTCentral
 
-Next we need to set up rules in Azure IoTCentral
+Next we need to set up rules in Azure IoTCentral that will identify when a device reading needs attention like when a button is pushed on the MXChip or when the temperature exceeds a defined threshold.
 
 In the next steps, we will create 2 device rules that will allow the passing of telemetry data from the MXChip  > IoT Central > CFS 
 
@@ -196,6 +196,8 @@ Then Save
 
 ## Set up Power Automate flows to create IoT Alerts
 
+Next we need to set up workflows to create IoT Alerts in Dynamics 365 Field Service based on telemetry and rules in Azure IoTCentral.
+
 Navigate to CFS IoT Alerts under My Work and select Create IoT Flows 
 
 
@@ -246,6 +248,8 @@ Navigate to My Flows and see newly created Alert Flows
 
 ## Add MXChip as connected device in IoTCentral 
 
+Next we need to set up the MXChip as an IoT device. This can be one of many IoT devices that you will monitor.
+
 Navigate to IoT Central Solution and loginhttps://YOURORG.azureiotcentral.com 
 
 
@@ -275,6 +279,8 @@ You will need to copy and paste to Notepad the Scope and Device ID and Primary K
 
 ## Plugin and connect MXChip
 
+Next connect the MXChip to your computer and network.
+
 Connect AZ3166 to Power and press Reset button
 Wait until the searching for Wi-Fi screen goes away – Normally 45-60 seconds
 Hold down A+B Button AZ3166 will hard reset (Usually takes 15-20 seconds)
@@ -289,7 +295,8 @@ Repeat Steps As Necessary –Should look like this
 
 After device reboots, you need to configure the Wi-Fi on the Device and should look like the below image 
 You should see a device name starting with AZ3166_ in your Wi-Fi trayconnect to that. Once connected, go to below IP address. 
-**THIS STEP WILL KICK YOU OFF INTERNET AND HOOK TO MXCHIP**
+**THIS STEP WILL KICK YOU OFF INTERNET AND HOOK TO MXCHIP**
+
 Go to this http://192.168.0.1/start 
 
 
@@ -315,6 +322,8 @@ After the Confirmation Page is shown on your PC, press the Reset Button on the D
 
 ## See Telemetry Data in IoT Central
 
+Next we want to identify where in IoTCentral the MXChip's telemetry will display.
+
 Navigate to IoT Central 
 Select Devices
 Select your device
@@ -330,6 +339,8 @@ You can control what telemetry you see on the chart by selecting the eyes
 > ![Screenshot of ](./media/cfs-mxchip-30.png)
 
 ## See IoT Alerts in Dynamics 365 Field Service 
+
+Next create real IoT telemetry with the MXChip. To trigger the rules we identified earlier, you can 1) press the B button on the front of the device and 2) increase the temperature of the surrounding area.
 
 Press the B Button on the MXChip
 Navigate to CFS
@@ -352,6 +363,8 @@ This Temperature alert starts the Work Order Scheduling Process at the top
 > ![Screenshot of ](./media/cfs-mxchip-32.png)
 
 ## Create Customer Asset and Connect Device
+
+Relate your MXChip device to a customer asset to relate work orders and enable asset management.
 
 Navigate to Customer Assets
 Select New
@@ -381,9 +394,6 @@ You should see the device added 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-mxchip-36.png)
 
-
-## Configuration considerations
-## Additional Notes
 
 ## See also
 
