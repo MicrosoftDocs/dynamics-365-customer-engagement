@@ -44,7 +44,7 @@ Creating and using Inspections is simple and involves the following steps:
 4. Technician completes the inspection
 5. View inspection results
 
-In this article we will walk through an example of setting up an inspection for the scenario of an inspection checklist for maintenance on a customer asset.
+In this article we will walk through an example of setting up an inspection using an maintenance checklist on a customer asset as an example.
 
 ## Prerequisites
 Public preview April 2020
@@ -62,6 +62,8 @@ submit request on insider form
 > ![Screenshot of ](./media/.png)
 
 ## Create inspection template
+
+inspections-navigate
 
 
 > [!Note]
