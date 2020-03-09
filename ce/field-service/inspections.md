@@ -28,6 +28,8 @@ search.app:
 
 # Add inspections to Work Orders
 
+Field Service inspections are a digital form that technicians use to quickly and easily answer a list of questions for a check list, protocol, process, or assessment.  
+
 Benefits
 - esay to create - dont need to create entities and fields for each inspection
 - easy to fill out - dont need to open and save and close a bunch of records, only one
@@ -63,12 +65,7 @@ Work orders set up with data
 ## Associate inspection to service task type
 ## Add inspection to work order
 ## Perform inspection 
-		a. OR D365 app
-			i. Inspections will be on D365 mobile 
-		b. OR Field Service mobile 
-			i. Coming soon
-			ii. Special woodford project? no
-		Mobile
+		
 ## View responses
 
 ## Configuration considerations
