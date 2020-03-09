@@ -72,8 +72,17 @@ submit request on insider form
 
 
 > [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inspections-create2.png)
+
+
+> [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-create-advanced-number.png)
 
+
+
+
+> [!Note]
+> Once you publish you cannot edit
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-create-preview-publish.png)
