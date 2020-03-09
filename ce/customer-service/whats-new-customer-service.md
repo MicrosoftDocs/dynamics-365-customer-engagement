@@ -1,10 +1,10 @@
 ---
 title: What's new in Dynamics 365 Customer Service | MicrosoftDocs
 description: Visit this page to see what's recently updated or added in Dynamics 365 Customer Service
-author: kabala123
-ms.author: kabala
+author: lerobbin
+ms.author: lerobbin
 manager: shujoshi
-ms.date: 11/14/2019
+ms.date: 02/01/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -23,20 +23,132 @@ search.app:
 
 Welcome to Dynamics 365 Customer Service. Visit this page to learn about new or updated features for Customer Service.
 
-## What's new in August 2019 update
+## What's new in February 2020 update
 
-### Preview: Timeline section
+Preview: Visualizing device readings
 
-The Customer Service Hub comes with an enhanced timeline that shows you all customer interactions arranged in a single stream. 
-Managing activities in the timeline wall will be faster and more responsive with improvements to data viewability and usability.
+This feature helps you understand the current state of a device, its repair history, and the effect of performed work orders, the Connected Customer Service add-in displays near realtime device readings and historical sensor measurements in a chart alongside work order details.
 
-To learn more, see [Timeline](customer-service-hub-user-guide-basics.md#timeline).
+The device readings chart is available on the IoT alert, work order, case, device, and asset forms.
 
-### Preview: Knowledge base search control
+To learn more, see [Time series insights on IoT devices](cs-iot-visualize-device-readings.md)
 
-The Customer Service Hub comes with an enhanced Knowledge search that shows you the articles arranged in a single stream. Searching, sorting, and filtering the articles in the search control will be faster and more responsive with improvements to article viewability and usability.
+### Early Access
+- <b>Connected Customer Service (IoT + Customer Service)</b>
 
-To learn more, see [Knowledge Base Search control](search-knowledge-articles-csh.md#knowledge-base-search-control).
+  Connected Customer Service helps organizations evolve a proactive and predictive service model by fully integrating IoT diagnostics, IoT device updates, and case management. Key capabilities in this release include:
+  - Convert IoT Alert to a support case.
+  - View all devices registered to the customer.
+  - View all IoT Alerts from devices registered to the customer.
+  - Send command to the customer’s device.
+  - View IoT activity in the case timeline.
+  
+  To learn more, see [Connected Customer Service - Overview](cs-iot-overview.md)
+
+- <b>Agent productivity enhancements to knowledge capabilities</b>
+
+  In this release, we're enhancing agent access to and usability of knowledge articles so that agents can:
+  - Use an improved layout of knowledge search results to simplify scanning, reading, and action.
+  - Review knowledge articles in a separate, full screen.
+  - Search the knowledge base outside the context of a customer case. (Knowledge search is now available in the Customer Service Hub app navigation for anytime access.)
+
+  To learn more, see [Search for knowledge articles in the Customer Service Hub](search-knowledge-articles-csh.md)
+
+- <b>Configurable case resolution page</b>
+
+  With this release, administrators can:
+  - Add fields such as resolution type in the form/dialog box for case resolution.
+  - Introduce new client-side business validations or remove existing ones.
+  - Customize the case resolution entity.
+  - Choose between the non-customizable modal dialog experience (default setting) and the customizable form experience.
+
+  To learn more, see [Modify Case Resolution Dialog](customer-service-hub-user-guide-modify-case-resolution-dialog.md)
+
+- <B>Customer Service app available for users with Team Member license</b>
+
+  Customer Service Team Member is a new app module that will be available to users with the Dynamics 365 Team Member license. In the customer service context, this app module enables the following limited set of use cases provided by the Team Member license for employee self-service:
+  - Create cases.
+  - Read and update the cases that they created.
+  - Search and view knowledge articles.
+
+  To learn more, see [Customer Service Team Member app](customer-service-team-member.md)
+
+- <B>Customer Service Hub app is now available by default</b>
+
+  As previously announced, customers will need to migrate to the Unified Interface experience by October 1, 2020. The Customer Service Hub solution that is built on the Unified Interface framework will be automatically installed in all the environments in this release. Existing customers will have access to the Customer Service Hub app, and users with the Customer service app access security role will be able to view and use the app.
+
+  To learn more, see [Availability of Customer Service Hub](availability-customer-service-hub.md)
+
+- <B>Enhancements in case routing rules</b>
+  Case routing rules help trigger automatic or manual routing of cases to the right support resources. This release provides a new experience built on the Unified Interface that enables easy configuration of routing rules and brings feature parity with the legacy web client.
+
+  To learn more, see [Automatically route cases using routing rule sets](create-rules-automatically-route-cases.md)
+
+- <B>Enhancements in the queue page</b>
+
+  In this release, the user experience has been enhanced for agents to manage their queues. The agents can now select an item in the queue and view its details on the same page without having to switch contexts. They can also go through the list of items in the queue without the need to navigate away from the page.
+
+  To learn more, see [Learn the basics of the Customer Service Hub
+](customer-service-hub-user-guide-basics.md)
+
+- <B>Familiar, modern email experience for agents</b>
+
+  Agents spend a significant amount of time using email to communicate with customers. Simple and intuitive email experiences help improve agent productivity and quality of service to customers. In this release, we are bringing the following modern email capabilities to the agent experience:
+  - Author emails using a complete rich text experience, including the ability to send, receive, and manage images inline.
+  - Use a modern toolbar and have the ability to cut and paste formatted content from Office documents such as Word and Excel, while maintaining formatting.
+  - Preview email templates prior to applying them to email.
+  - Compose email in a pop-up, non-blocking window, with the ability to write an email with context of the current record, navigate between records, and have multiple active draft emails open simultaneously.
+
+  To learn more, see [Set up timeline section (control)](powerapps/maker/model-driven-apps/set-up-timeline-control.md) and [Learn the basics of the Customer Service Hub](customer-service-hub-user-guide-basics.md)
+
+- <b>License enforcement - users with new Team Member licenses</b>
+
+  For Team Member licenses purchased during or after October 2018, the license-based access feature will restrict users to the following set of designated app modules:
+  - Customer Service Team Member
+  - Sales Team Member
+  - Project Resource Hub
+
+  During the early access phase, users with the Team Member licenses will be able to use the designated app modules alongside all existing apps. After the licenses are enforced (starting April 1, 2020), restricted apps, such as Customer Service Hub, Sales Hub, and custom apps, will not be accessible to users with the Team Member licenses. 
+  
+  Customers can also proactively preview full enforcement before general availability. We recommend that the Team Member scenarios be tested and customizations migrated to the designated app modules, as needed.
+
+  To learn more, see Customer Service Team Member app](customer-service-team-member.md)
+
+- <B>New work hour calendar in Service Scheduling</b>
+
+  Administrators currently navigate several screens to access a resource's calendar and update work hours and time off. With this release, we are delivering a new experience using an accessible Power Control Framework (PCF) calendar control in the Unified Interface. 
+  
+  Organizations will have flexibility to design new experiences (for example, using canvas apps) that modify resources' working hours from outside entity forms and views.
+
+  To learn more, see [Learn the basics of the Customer Service Hub](customer-service-hub-user-guide-basics.md)
+
+- <b>Rich text notes and keyword search in the timeline</b>
+
+  Enhancements to the Dynamics 365 timeline control include:
+  - Create rich text notes that provide detail about the case and enable formatting for emphasis and readability.
+  - Perform keyword search filter to quickly display matching records.
+  - Identify closed or completed activities visually.
+Show only User or System records with the additional filter.
+
+  To learn more, see [Set up timeline section (control)](powerapps/maker/model-driven-apps/set-up-timeline-control.md)
+
+- <b>Support for Site entity in the Unified Interface</b>
+ 
+  To provide business continuity during transition to the Unified Interface, this release delivers support for administrator configuration and interaction with the Site entity used to define customer service locations.
+
+  To learn more, see [Learn the basics of the Customer Service Hub](customer-service-hub-user-guide-basics.md)
+
+- <b>Enhancements in service level agreements</b>
+
+  In this release, a new SLA administration experience has been enabled on the Unified Interface that brings feature parity with the legacy web client. Administrators can now leverage the various out-of-the-box actions available with Microsoft Power Automate to easily configure actions, such as success, failure, and warning actions for SLAs. For example, the administrator can post a Microsoft Teams message to an agent when an SLA is violated.
+
+  To learn more, see [Define Service Level Agreements (SLAs)](define-service-level-agreements.md)
+
+- <b> Automatically create and update records</b>
+
+  This feature enables a new record creation administration experience on the Unified Interface and brings feature parity with the legacy web client. The new experience uses Microsoft Power Automate and provides an easy-to-use interface to create or update conditions and actions.
+
+  To learn more, see [Automatically create or update records in Customer Service Hub](automatically-create-update-records.md)
 
 ## Dynamics 365 Customer Service app
 
