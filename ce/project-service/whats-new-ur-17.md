@@ -51,4 +51,6 @@ This topic lists the features and fixes that are new or changed for PSA V3, Upda
 **Sales**
 
 - Fixed: **Invoice.PreValidateInvoiceUpdate** now handles the scenario of reassigning record owners properly.
-- Fixed: On **QuoteLineDetail**, **QuickCreate** validation always ensures when a transaction class is time, **Unitgroup** and **Unit** should always be non-editable with values based on **TransactionType**.
+- Fixed: When the transaction class is **Time**, **UnitGroup** is non-editable for all entities including, **QuoteLineDetails**, **JournalLine**, **InvoiceLineDetail**, and **ContractLineDetails**. However, **Unit** is non-editable only for **JournalLine** and **InvoiceLineDetails**.
+
+
