@@ -28,7 +28,13 @@ search.app:
 
 # Add inspections to Work Orders
 
-Field Service inspections are a digital form that technicians use to quickly and easily answer a list of questions as part of a work order.  for a check list, protocol, audits process, or assessment.  
+Field Service inspections are a digital form that technicians use to quickly and easily answer a list of questions as part of a work order. The list of questions are often a safety protocol, pass and fail tests for a customer asset, an interview with a customer, or other various audits and assessments that are performed before, during, or after a work order.
+
+Compared to using Work Order Incident Types and Service Tasks, using Inspections has the added benefits of:
+
+- **Easy to create** - administrators can quickly create inspection questions with a drag and drop interface without the need to create new entities and fields.
+- **Easy to fill out** - technicians can quickly enter answers for each inspection question and save all of them with one click rather than having to open and close multiple records.
+- **More felxible and robust** - Field Service Inspections have many options for 
 
 Benefits
 - esay to create - dont need to create entities and fields for each inspection
@@ -74,6 +80,7 @@ Work orders set up with data
 - reporting on responses
 - FS Mobile
 - PDF capability for reporting
+- inspecting X assets at a location
 
 ## Additional Notes
 vs. powerapps? - ok if have small handful, this inspections is better for more than 10
