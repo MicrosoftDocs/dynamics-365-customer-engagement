@@ -30,7 +30,8 @@ search.app:
 
 Benefits
 - esay to create - dont need to create entities and fields for each inspection
-- easy to fill out
+- easy to fill out - dont need to open and save and close a bunch of records, only one
+- powerful; - Questions, images, attachments, mandatory fields
 - report on answers
 
 Process
@@ -41,17 +42,45 @@ Process
 
 
 ## Prerequisites
+Public preview April 2020
+
+Minimum supported CRM version for Inspections to work is 9.1.0000.15015
+
+Work orders set up with data
+
 > [!Note]
 >
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/.png)
 
+## Create inspection template
+
+
+> [!Note]
+> Cannot create inspection on mobile
+
+## Associate inspection to service task type
+## Add inspection to work order
+## Perform inspection 
+		a. OR D365 app
+			i. Inspections will be on D365 mobile 
+		b. OR Field Service mobile 
+			i. Coming soon
+			ii. Special woodford project? no
+		Mobile
+## View responses
+
 ## Configuration considerations
 - is each question in CDS?
 - branching logic
-- reports
+- reporting on responses
 - FS Mobile
+- PDF capability for reporting
 
 ## Additional Notes
 vs. powerapps? - ok if have small handful, this inspections is better for more than 10
+	- Difference between inspections and incidents and service tasks
+	- Limits?
+	- Known limitations 
+Only single response , need to add multiple incidents
