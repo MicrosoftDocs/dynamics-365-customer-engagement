@@ -28,7 +28,7 @@ search.app:
 
 # Add inspections to Work Orders
 
-Field Service inspections are a digital form that technicians use to quickly and easily answer a list of questions for a check list, protocol, process, or assessment.  
+Field Service inspections are a digital form that technicians use to quickly and easily answer a list of questions as part of a work order.  for a check list, protocol, audits process, or assessment.  
 
 Benefits
 - esay to create - dont need to create entities and fields for each inspection
