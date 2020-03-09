@@ -38,11 +38,11 @@ Compared to using Work Order Incident Types and Service Tasks, using Inspections
 
 Creating and using Inspections is simple and involves the following steps: 
 
-1. Create an inspection template
-2. Associate an inspection template to a Service Task Type
-3. Add the Service Task Type to a Work Order
+1. Administrator creates an inspection template
+2. Administrator associates the inspection template to a Service Task Type
+3. Dispatcher adds the Service Task Type to a Work Order
 4. Technician completes the inspection
-5. Manager View and analyze results
+5. View inspection results
 
 
 ## Prerequisites
