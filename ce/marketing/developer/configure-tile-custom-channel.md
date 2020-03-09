@@ -52,8 +52,6 @@ The following is a sample Tile XML file. Description of the elements in the XML 
     <!-- optional -->
     <!-- Lookup view id for your entity-->
     <LookupViewId>4112769C-F12D-4F63-B8C3-9068FECBB4E9</LookupViewId>
-    <!--Insights form id for your entity -->
-    <InsightsMainFormId>6370c410-6dd5-43f5-b1d1-7b757992d2de</InsightsMainFormId>
     <!--Quick view form id for your entity -->
     <QuickViewFormId>404BA31B-2C12-4233-8711-804B78DE1267</QuickViewFormId>
   </ChannelProperties>
@@ -159,10 +157,6 @@ The XML file has the following elements:
     <tr>
     <td>LookupViewId</td>
     <td>Lookup view ID for the custom entity. Optional.</td>
-    </tr>
-    <tr>
-    <td>InsightsMainFormId</td>
-    <td>The marketing-insights service form ID for the custom entity. Optional.</td>
     </tr>
     <tr>
     <td>QuickViewFormId</td>
