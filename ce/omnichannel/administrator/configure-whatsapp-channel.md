@@ -56,7 +56,7 @@ A messaging session is starts when an agent receives a message from a customer o
 
 ## Step 1: Fetch Twilio account details
 
-TO integrate a WhatsApp channel through Twilio with Omnichannel for Customer Service, you need to go to your Twilio account and fetch the **ACCOUNT SID** and **AUTH TOKEN** values. Save it safely. These two values are required to create a WhatsApp channel configuration in the Omnichannel Administration app.
+To integrate a WhatsApp channel through Twilio with Omnichannel for Customer Service, you need to go to your Twilio account and fetch the **ACCOUNT SID** and **AUTH TOKEN** values. Save it safely. These two values are required to create a WhatsApp channel configuration in the Omnichannel Administration app.
 
 Go to your Twilio Console Dashboard > Settings > General to fetch the details.
 
