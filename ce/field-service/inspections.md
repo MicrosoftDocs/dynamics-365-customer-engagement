@@ -44,6 +44,7 @@ Creating and using Inspections is simple and involves the following steps:
 4. Technician completes the inspection
 5. View inspection results
 
+In this article we will walk through an example of setting up an inspection for the scenario of an inspection checklist for maintenance on a customer asset.
 
 ## Prerequisites
 Public preview April 2020
@@ -51,6 +52,8 @@ Public preview April 2020
 Minimum supported CRM version for Inspections to work is 9.1.0000.15015
 
 Work orders set up with data
+
+submit request on insider form
 
 > [!Note]
 >
@@ -66,7 +69,10 @@ Work orders set up with data
 
 ## Associate inspection to service task type
 ## Add inspection to work order
-## Perform inspection 		
+## Perform inspection 	
+
+
+Validations 
 ## View responses
 
 ## Configuration considerations
