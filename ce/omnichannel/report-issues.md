@@ -46,7 +46,7 @@ When you reach to Microsoft support, share the diagnostic report. The report hel
 
 > [!Note]
 > - The keyboard shortcut doesn't work in the Knowledge article search page.
-> - The keyboard shortcut works only on Channel Integration Framework iframe and widget iframe. The shortcut doesn't work on other iframe and any web resource that embeds another iframe.
+> - The shortcut doesn't work on any web resource that embeds another iframe.
 
 ## Diagnostic report information
 
