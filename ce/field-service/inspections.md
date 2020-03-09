@@ -32,21 +32,17 @@ Field Service inspections are a digital form that technicians use to quickly and
 
 Compared to using Work Order Incident Types and Service Tasks, using Inspections has the added benefits of:
 
-- **Easy to create** - administrators can quickly create inspection questions with a drag and drop interface without the need to create new entities and fields.
-- **Easy to fill out** - technicians can quickly enter answers for each inspection question and save all of them with one click rather than having to open and close multiple records.
-- **More felxible and robust** - Field Service Inspections have many options for 
+- **Easier to create** - administrators can quickly create inspection questions with a drag and drop interface without the need to create new entities and fields.
+- **Easier to fill out** - technicians can quickly enter answers for each inspection question and save all of them with one click rather than having to open and close multiple records.
+- **More felxible and robust** - Field Service Inspections have many options for question formats and validations such as multi-option select, mandatory fields, images, attachments, etc. 
 
-Benefits
-- esay to create - dont need to create entities and fields for each inspection
-- easy to fill out - dont need to open and save and close a bunch of records, only one
-- powerful; - Questions, images, attachments, mandatory fields
-- report on answers
+Creating and using Inspections is simple and involves the following steps: 
 
-Process
-- create template
-- Add to work order
-- complete inspection
-- View and analyze results
+1. Create an inspection template
+2. Associate an inspection template to a Service Task Type
+3. Add the Service Task Type to a Work Order
+4. Technician completes the inspection
+5. Manager View and analyze results
 
 
 ## Prerequisites
@@ -70,8 +66,7 @@ Work orders set up with data
 
 ## Associate inspection to service task type
 ## Add inspection to work order
-## Perform inspection 
-		
+## Perform inspection 		
 ## View responses
 
 ## Configuration considerations
@@ -83,6 +78,7 @@ Work orders set up with data
 - inspecting X assets at a location
 
 ## Additional Notes
+secuirty roles?
 vs. powerapps? - ok if have small handful, this inspections is better for more than 10
 	- Difference between inspections and incidents and service tasks
 	- Limits?
