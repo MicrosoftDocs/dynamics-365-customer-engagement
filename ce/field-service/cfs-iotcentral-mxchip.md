@@ -48,7 +48,7 @@ In order to connect the MXChip device to Connected Field Service we will walk th
 
 Before completing this tutorial you need the following:
 
-1. An MXChip. You can buy one at [https://en.mxchip.com/az3166](https://en.mxchip.com/az3166).
+1. An MXChip. You can buy one at [https://microsoft.github.io/azure-iot-developer-kit/](https://microsoft.github.io/azure-iot-developer-kit/) then choose **Get a Kit**.
 2. A Dynamics 365 Field Service environment v8.2+. "Connected Field Service" capabilities are included with Field Service. See the topics on [installing](./install-field-service.md) or [installing](./upgrade-field-service.md) Field Service for more details.
 3. An Azure account. Use your existing account or create a new free account at [https://azure.microsoft.com/en-us/free/](https://azure.microsoft.com/en-us/free/). Your Azure account can be different from your Dynamics 365 Field Service account.
 4. Using your Azure account and credentials, create an [Azure IoTCentral custom application](https://apps.azureiotcentral.com/build/new/custom). Hint: For **Application template** select **Custom application (legacy)**.
