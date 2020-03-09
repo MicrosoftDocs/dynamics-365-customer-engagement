@@ -92,6 +92,15 @@ submit request on insider form
 > Cannot create inspection on mobile
 
 ## Associate inspection to service task type
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inspections-service-task.png)
+
+> [!Note]
+> Can add the service task type to an incident type as needed
+
+
 ## Add inspection to work order
 ## Perform inspection 	
 
