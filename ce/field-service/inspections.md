@@ -1,0 +1,57 @@
+---
+title: "Field Service Inspections | MicrosoftDocs"
+ms.custom: 
+  - dyn365-fieldservice
+ms.date: 03/09/2020
+ms.reviewer: ""
+ms.service: dynamics-365-customerservice
+ms.suite: ""
+ms.technology: 
+  - "field-service"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+author: krbjoran
+ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
+caps.latest.revision: 42
+ms.author: FieldServiceDave
+manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+search.app: 
+  - D365CE
+  - D365FS
+---
+
+# Add inspections to Work Orders
+
+Benefits
+- esay to create - dont need to create entities and fields for each inspection
+- easy to fill out
+- report on answers
+
+Process
+- create template
+- Add to work order
+- complete inspection
+- View and analyze results
+
+
+## Prerequisites
+> [!Note]
+>
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+## Configuration considerations
+- is each question in CDS?
+- branching logic
+- reports
+- FS Mobile
+
+## Additional Notes
+vs. powerapps? - ok if have small handful, this inspections is better for more than 10
