@@ -86,7 +86,7 @@ To configure other options in the work stream, see the following:
 - [Skill based routing](overview-skill-work-distribution.md)
 - [Productivity tools](productivity-tools.md)
 - [Smart assist](smart-assist.md)
-- [Templates](administrator/templates-overview.md)
+- [Templates](templates-overview.md)
 
 ## Step 4: Create a custom channel
 
