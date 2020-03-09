@@ -8,6 +8,7 @@
 ### [Assign roles and enable users](administrator/add-users-assign-roles.md)
 ### [Quickly configure a chat widget](administrator/configure-live-chat.md)
 ### [Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)
+### [Report issues in Omnichannel for Customer Service](report-issues.md)
 ### [Best practices to use Omnichannel for Customer Service](best-practices.md)
 
 ## [What's new](omnichannel-whats-new.md)
