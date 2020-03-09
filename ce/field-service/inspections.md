@@ -58,12 +58,25 @@ submit request on insider form
 > [!Note]
 >
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+
 
 ## Create inspection template
 
-inspections-navigate
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inspections-navigate.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inspections-create.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inspections-create-advanced-number.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inspections-create-preview-publish.png)
 
 
 > [!Note]
