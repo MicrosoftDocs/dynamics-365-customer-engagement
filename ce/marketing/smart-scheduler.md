@@ -48,7 +48,7 @@ To create a journey that uses optimized delivery times:
 
 1. Go to **Marketing** > **Marketing execution** > **Customer journeys**, and then either create or open a journey.
 
-1. Design your journey as usual but add a scheduler tile in front of each email tile where you want to use smart scheduling.
+1. Design your journey as usual but add a scheduler tile in front of each email tile where you want to use automated scheduling.
 
     ![Place a scheduler before your email tile](media/smart-scheduler-cj-tiles.png "Place a scheduler before your email tile")
 
