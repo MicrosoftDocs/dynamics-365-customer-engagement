@@ -496,7 +496,7 @@ Follow these steps:
 
     > [!div class=mx-imgBorder]
     > ![Select Check Condition](media/workflows-check-condition.png "Select Check Condition from the Add Step drop-down list")
-
+  
 6. In the step, select **<condition> (click to configure)**. The **Specify condition** page opens in a new browser window.
 
     > [!div class=mx-imgBorder]
