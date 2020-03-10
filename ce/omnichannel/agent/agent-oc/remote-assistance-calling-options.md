@@ -14,64 +14,67 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-## Calling Options in live chat
+## Calling options in live chat
 
-Calling Options in live chat conversation feature allows you to initiate a voice or video call while communicating with the customer over a live chat.
+With calling options in a live chat conversation, you can initiate a voice or video call while you're communicating with the customer over chat.
 
-As an agent, when you communicate with a customer via chat, a lot of information is exchanged. This might increase the time you spend on resolving the customer's issue. Or, the customer may prefer to show and explain the issue with a physical product​. In these scenarios, you may want to initiate a voice or video call during the chat conversation to resolve the issue quickly. The calling options in the communication panel helps you to make a voice and video call during the chat conversation.
+As an agent, you exchange a lot of information when you communicate with a customer via chat. This can slow down your effort to resolve the customer's issue. The customer might prefer to show you the problem and explain the issue by using a physical product. In these scenarios, you might want to initiate a voice or video call during the chat conversation to resolve the issue quickly. The calling options in the communication panel help you to easily make these calls.
 
 ### Advantages of voice and video call in live chat
 
-- Resolve the customer issue quickly
-- Reduces average handle time and improves productivity
-- Enhanced customer satisfaction
-- Positive relationship with the customers
+With calling options in live chat, you can:
+
+- Resolve customer issues quickly.
+- Reduce your average call-handling time<!--note from editor: Is this the correct phrase?--> and improve your productivity.
+- Improve customer satisfaction.
+- Develop a positive relationship with customers.
 
 ### Initiate voice and video call
 
-When you are chatting with the customer, you can initiate the voice or video call. In the communication panel, beside the **End** button, an ellipsis (...) is present. Select the ellipsis and the **Voice Call** and **Video Call** options are displayed to you. Based on your administrator configuration, you might see **Voice Call** and **Video Call** or just **Voice call** option.
+When you're chatting with the customer, you can initiate the voice or video call. In the communication panel, beside the **End** button, select the ellipsis button ![Ellipsis](../../media/ellipsis.png "Ellipsis"). The **Voice Call** and **Video Call** options are displayed. (Depending on your system configuration, you might see **Voice Call** and **Video Call**, or just **Voice call**.)
 
 > [!div class=mx-imgBorder]
 > ![Voice and video call](../../media/chat-voice-video-call.png "Voice and video call")
 
-When you initiate a voice call, you can view the call fly-out with buttons.
+When you initiate a voice call, you can view the flyout call control, which includes the following buttons.
 
 |Button | Name | Description |
 |----------------------|-------------------------|-----------------------------|
-|![Turn on or off video](../../media/turn-on-off-video.png "Turn on or off video")| Turn on video / Turn off video |  Use the button to turn on or off the video while in a call with the customer.|
-|![Mute and unmute](../../media/mute-unmute.png "Mute and unmute")| Mute / Unmute | Use the button to mute or unmute the call while communicating with the customer. |
+|![Turn on or off video](../../media/turn-on-off-video.png "Turn on or off video")| Turn on video / Turn off video |  Use this button to turn on or off the video while in a call with the customer.|
+|![Mute and unmute](../../media/mute-unmute.png "Mute and unmute")| Mute / Unmute | Use this button to mute or unmute the call while in a call with the customer. |
 |![End call](../../media/end-call.png "End call")| End call | Use this button to end the call. |
 
 > [!div class=mx-imgBorder]
-> ![Chat to Voice Call](../../media/chat-voice-call.png "Chat to Voice Call")
+> ![Agent experience of a voice call during live chat](../../media/chat-voice-call.png "Agent experience of a voice call during live chat")
 
 ### Capacity of the agent
 
-When you initiate a voice or video call, your capacity is consumed, and you can't get any conversation request until you hang up. However, your supervisor can assign conversations to you.
+When you initiate a voice or video call, your capacity is consumed, and you can't take any conversation requests until you hang up. However, your supervisor can still assign conversations to you.
 
 ### Site permissions
 
-As an agent, you need to provide the camera and microphone access in the browser to make a video and audio call respectively.
+As an agent, you need to enable camera and microphone access in the browser to make a video and audio call, respectively.
 
 ## Customer experience
 
-On receiving a call, customer on the portal can the accept voice call with audio, accept voice with video, or reject the call.
+When a customer on the portal receives a call, they can accept the voice call with audio, accept the voice call with video, or reject the call.
 
 > [!div class=mx-imgBorder]
-> ![Chat to Voice Call](../../media/call-accept.png "Chat to Voice Call")
+> ![Customer experience of a voice call during live chat](../../media/call-accept.png "Customer experience of a voice call during live chat")
 
-After accepting the call, the customers can view and use the following options accordingly.
+After accepting the call, the customers can view and use the following options.
 
-|Button | Name | Description |
-|----------------------|-------------------------|-----------------------------|
-|![Turn on or off video](../../media/turn-on-off-video-c2.png "Turn on or off video")| Turn on video / Turn off video |  Use the button to turn on or off the video while in a call with the customer.|
-|![Mute and unmute](../../media/mute-unmute-c2.png "Mute and unmute")| Mute / Unmute | Use the button to mute or unmute the call while communicating with the customer. |
-|![End call](../../media/end-call-c2.png "End call")| End call | Use this button to end the call. |
+|Button | Name | 
+|----------------------|-------------------------|
+|![Turn on or off video](../../media/turn-on-off-video-c2.png "Turn on or off video")| Turn on video / Turn off video | 
+|![Mute and unmute](../../media/mute-unmute-c2.png "Mute and unmute")| Mute / Unmute | 
+|![End call](../../media/end-call-c2.png "End call")| End call | 
 
-After accepting the call, customer can turn on or off the video, mute or unmute, and end the call.
+
+After accepting the call, the customer can turn on or off the video, mute or unmute the conversation, and end the call.
 
 > [!div class=mx-imgBorder]
-> ![Chat to Voice Call](../../media/calling2.png "Chat to Voice Call")
+> ![Customer experience of a video call during live chat](../../media/calling2.png "Customer experience of a video call during live chat")
 
 ### Site permissions
 
