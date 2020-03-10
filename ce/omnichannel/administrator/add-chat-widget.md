@@ -18,40 +18,40 @@ ms.topic: article
 
 2. Go to **Channels** > **Chat**.
 
-3. Select **New**. The **New Chat Widget**<!--note from editor: Edit assumes this is the name of the page. If it's simply a new Chat Widget page, it should be "A new **Chat Widget** page is displayed."--> page is displayed.
+3. Select **New**. The **New Chat Widget** page is displayed.
 
-4. On the <!--note from editor: Via Style Guide, you can say "Go to the ___ tab" or "On the ____ tab" if the instruction is brief. But you don't select a tab.-->**Basic details** tab, specify the information for the following fields.
+4. On the **Basic details** tab, specify the information for the following fields.
 
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|
     | General information | Name | Specify the name of the widget. | Contoso chat |
     | General information | Language | Select the language of the chat widget from the list. | English - United States |
-    | General information | Agent display name | Select an agent display name type from the list: **Full name**, **First name**, **Last name**, and **Nick name**<!--note from editor: Are you sure this isn't "Nickname"? It's actually one word.-->. <br> More information: [Configure agent display name](agent-display-name.md) | Full name |
+    | General information | Agent display name | Select an agent display name type from the list: **Full name**, **First name**, **Last name**, and **Nick name**. <br> More information: [Configure agent display name](agent-display-name.md) | Full name |
     | General information | Authentication settings |Select an authentication setting from the list. This is an optional field. More information: [Create chat authentication settings](create-chat-auth-settings.md) | Chat authentication |
     | Work distribution | Work stream | Select a work stream from the list. Initially, a default a work stream is selected. <br>More information: [Understand and create work streams](work-streams-introduction.md) <br> **Note:** <br> If you save the chat widget, you can't edit the **Work stream** field. If you want to edit the field, you must delete the chat widget and create a new one. | Live work stream |
-    | Proactive chat | Enable Proactive Chat | Select whether<!--note from editor: Suggested.--> to enable proactive chat. <br>More information: [Configure proactive chat](proactive-chat.md) | Yes |
-    | File attachments | Enable file attachments for customers |Select whether to allow customers <!--note from editor: Suggested. Adding the phrase "or deny" means you have to change the sentence so you're not saying "select whether... to deny customers to attach and send files as attachments" --> to attach and send files as attachments. <br> More information: [Configure file attachment capability](configure-file-attachment.md) | Yes |
+    | Proactive chat | Enable Proactive Chat | Select whether to enable proactive chat. <br>More information: [Configure proactive chat](proactive-chat.md) | Yes |
+    | File attachments | Enable file attachments for customers |Select whether to allow customers to attach and send files as attachments. <br> More information: [Configure file attachment capability](configure-file-attachment.md) | Yes |
     | File attachments | Enable file attachments for agents | Select whether to allow agents to attach and send files as attachments. <br> More information: [Configure file attachment capability](configure-file-attachment.md) | Yes |
     | Chat Transcripts | Allow download of transcript |  Select whether to allow chat transcripts to be downloaded. <br> More information: [Configure download and email of chat transcripts](download-email-chat-transcripts.md) | Yes |
     | Chat Transcripts | Allow email of transcript |Select whether to allow chat transcripts to be emailed. <br> More information: [Configure download and email of chat transcripts](download-email-chat-transcripts.md) | Yes |
-    | Chat Transcripts | Email Template |If you selected **Yes** for the **Allow email of transcript** field, the **Email Template**<!--edit okay?--> field is displayed. Select the email template you want to use to send the chat transcript as an email to the customer. | Conversation transcript email template |
-    | Chat Transcripts | From mailbox | If you selected **Yes** for the **Allow email of transcript** field, the **"From" mailbox** <!--edit okay?-->field is displayed. Select the mailbox from which you want to send the chat transcript email to the customer. | William Contoso<!--note from editor: This is not an approved name, sorry to say. You'd think it would be okay, but we haven't cleared it as a person's name, we've only cleared "Contoso" as a fictitious company.--> |
+    | Chat Transcripts | Email Template |If you selected **Yes** for the **Allow email of transcript** field, the **Email Template** field is displayed. Select the email template you want to use to send the chat transcript as an email to the customer. | Conversation transcript email template |
+    | Chat Transcripts | From mailbox | If you selected **Yes** for the **Allow email of transcript** field, the **"From" mailbox** field is displayed. Select the mailbox from which you want to send the chat transcript email to the customer. | Contoso |
     | Queue position | Show position in queue | Select whether to show customers their position in the queue when they're waiting to interact with an agent. <br> More information: [Show customers their position in a queue](show-queue.md) | Yes |
-    | Code snippet | Widget snippet | Copy the snippet and embed it in the HTML source of your website where you need to display the chat widget. | ?<!--note from editor: What goes in this cell?--> |
+    | Code snippet | Widget snippet | Copy the snippet and embed it in the HTML source of your website where you need to display the chat widget. |  |
 
     > [!div class=mx-imgBorder]
-    > ![Configure the basic details of a chat widget](../media/oc-chat-widget-basic-details-tab.png "Configure the basic details of a chat widget")<!--note from editor: Please change the fictitious name to match the one you decide on in line 38 of the table. Also, unless you're sure that the code in the "Widget snippet" section has been sanitized and approved for publication, can you please smear out the URLs? I'm a bit nervous about sharing them.-->
+    > ![Configure the basic details of a chat widget](../media/oc-chat-widget-basic-details-tab.png "Configure the basic details of a chat widget")
 
 5. On the **Design** tab, specify the information for the following fields.
 
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|
     | Online | Theme color | Select a color from the list for the chat widget. | Blue |
-    | Online | Logo | Logo for the chat widget. | <!--note from editor: Is this site really where you want to send readers? If not, can you use contoso.com as the domain?-->https://oc-cdn-ocprod.azureedge.net/livechatwidget/images/chat.svg |
-    | Online | Title | Specify the name for the widget <!--note from editor: Where is the title displayed, as opposed to the subtitle?-->that's displayed for customers. | Let's Chat! |        
-    | Online | Subtitle | Specify the name for the widget<!--note from editor: Same question as previous row. Where is this displayed, and how is it different from the Title?--> that's displayed for customers. | We're Online |
+    | Online | Logo | Logo for the chat widget. | https://oc-cdn-ocprod.azureedge.net/livechatwidget/images/chat.svg |
+    | Online | Title | Specify the name for the widget that's displayed for customers in the chat widget. | Let's Chat! |        
+    | Online | Subtitle | Specify the name for the widget that's displayed for customers in the chat widget. | We're Online |
     | Online | Position | Specify the position of the widget. | Bottom right |
-    | Online | Operating hours | Select an operating hour window for the chat widget from the list. <br> More information: [Create and manage operating hours](create-operating-hours.md) | Regular shift<!--note from editor: The graphic (or the UI) can't be correct; the hours should be "Regular shift (0800 to 1700)". --> |
+    | Online | Operating hours | Select an operating hour window for the chat widget from the list. <br> More information: [Create and manage operating hours](create-operating-hours.md) | Regular shift |
 
     > [!div class=mx-imgBorder]
     > ![Configure the design of a chat widget](../media/oc-chat-widget-design-tab.png "Configure the design of a chat widget")
