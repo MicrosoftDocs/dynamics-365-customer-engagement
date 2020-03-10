@@ -4,7 +4,7 @@ description: "Learn about macros and how to configure in the Omnichannel Adminis
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 01/31/2020
+ms.date: 04/01/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -44,7 +44,14 @@ Macros are like reusable components where you can use the same macro with differ
 
 - Ensure that agents and supervisors are assigned the **Productivity tools user** security role. To learn more, see [Assign roles and enable users](add-users-assign-roles.md).
 
-## Built-in actions
+## Predefined automation actions and built-in
+
+The Macros in Omnichannel for Customer Service has the following:
+
+- [Predefined automation actions](#predefined-automation-actions)
+- [Built-in](#built-in)
+
+### Predefined automation actions
 
 In Omnichannel for Customer Service, macros provide three connectors:
 
@@ -54,16 +61,16 @@ In Omnichannel for Customer Service, macros provide three connectors:
 
 - [Omnichannel connector](#omnichannel-connector): Provides actions to perform Omnichannel for Customer Service&ndash;related operations.
 
-### Productivity automation
+#### Productivity automation
 
-As an administrator, you can use the built-in actions any number of times across different macros to automate and perform model-driven app operations.
+As an administrator, you can use the actions any number of times across different macros to automate and perform model-driven app operations.
 
-The following illustration shows the built-in actions.
+The following illustration shows the actions.
 
    > [!div class=mx-imgBorder] 
    > ![Macro actions](../media/macro-actions.png "Macro actions")
 
-#### Open a new form to create a record
+##### Open a new form to create a record
 
 This action is used to open a new form to create a record. This action contains the following fields.
 
@@ -74,7 +81,7 @@ This action is used to open a new form to create a record. This action contains 
    | Attribute Name | Specify the attribute logical name. You need to provide the attribute name to prepopulate the field with a value.| |
    | Attribute Value | Specify the attribute value. You need to provide the attribute value to prepopulate the attribute field. | |
    
-#### Open an existing form
+##### Open an existing form
 
 This action is used to open an existing record form. This action contains the following fields.
 
@@ -84,7 +91,7 @@ This action is used to open an existing record form. This action contains the fo
    | Entity record id| Specify the entity record ID. <br>This is a mandatory field.| |
    | Entity Form Id | Specify the form ID. <br>This is an optional field. | |
 
-#### Open a record grid
+##### Open a record grid
 
 This action is used to open a record grid. This action contains the following fields.
 
@@ -94,7 +101,7 @@ This action is used to open a record grid. This action contains the following fi
    | View Id| Specify the ID of the view that you want to open.<br> This is a mandatory field. | |
    | View Type | Specify the view type. <br>This is a mandatory field. | |
 
-#### Search knowledge base for the populated phrase
+##### Search knowledge base for the populated phrase
 
 This action is used for searching knowledge articles based on the populated phrase. This action contains the following field.
 
@@ -102,7 +109,7 @@ This action is used for searching knowledge articles based on the populated phra
    |-----------------|-----------------------------|--------------------------|
    | Search string |  Provide the phrase based on which you want to search for knowledge articles. You can provide the context data. For example, the context data parameter can be a case title. |  |
 
-#### Search for a phrase
+##### Search for a phrase
 
 This action is used for searching knowledge articles based on the populated phrase. This action contains the following field.
 
@@ -110,11 +117,11 @@ This action is used for searching knowledge articles based on the populated phra
    |-----------------|-----------------------------|--------------------------|
    | Search string |  Provide the phrase based on which you want to do a relevance search. You can provide the context data. For example, the context data parameter can be a case title. <br> This is a mandatory field.  |  |
 
-#### Save the record
+##### Save the record
 
 This action is used for saving the record after you've entered data in all the mandatory fields. The action fails if the mandatory fields aren't entered or left blank.
 
-#### Update an existing record
+##### Update an existing record
 
 This action is used to update an existing record. This action contains the following fields.
 
@@ -125,7 +132,7 @@ This action is used to update an existing record. This action contains the follo
    | Attribute Name | Specify the attribute logical name you want to update.| |
    | Attribute Value | Specify the attribute value that will be updated for the above-mentioned attribute. | |
 
-#### Open an email form with predefined template
+##### Open an email form with predefined template
 
 This action is used to open an email with a predefined template. This action contains the following fields.
 
@@ -136,7 +143,7 @@ This action is used to open an email with a predefined template. This action con
    | Email Recipients | Specify the recipients to whom you want the mail to be sent. <br> This is a mandatory field. | |
    | Template Id | Specify the ID of the template that must displayed in the email. <br> This is a mandatory field. | |
 
-#### Resolve a case
+##### Resolve a case
 
 This action is used to resolve a case. This action contains the following fields.
 
@@ -146,14 +153,14 @@ This action is used to resolve a case. This action contains the following fields
    | Incidentid| Specify the ID of the case that you want to close. <br>This is a mandatory field.| |
    | Resolution | Specify the reason to resolve the case. <br> This is a mandatory field. | |
 
-### Session connector
+#### Session connector
 
-As an administrator, you can use the built-in actions any number of times across different macros to automate and perform operations related to a session in Omnichannel for Customer Service.
+As an administrator, you can use the actions any number of times across different macros to automate and perform operations related to a session in Omnichannel for Customer Service.
 
    > [!div class=mx-imgBorder] 
    > ![Macro actions](../media/macro-session-connector.png "Macro actions") 
 
-#### Refresh tab
+##### Refresh tab
 
 This action is used to refresh a tab in the Omnichannel for Customer Service session. This action contains the following field.
 
@@ -161,7 +168,7 @@ This action is used to refresh a tab in the Omnichannel for Customer Service ses
    |-----------------|-----------------------------|--------------------------|
    | Tab Id | Specify the ID of the tab that you want to refresh. <br> This is a mandatory field.| 
 
-#### Focus tab
+##### Focus tab
 
 This action is used to focus on a tab in the Omnichannel for Customer Service session. This action contains the following field.
 
@@ -169,18 +176,18 @@ This action is used to focus on a tab in the Omnichannel for Customer Service se
    |-----------------|-----------------------------|--------------------------|
    | Tab Id | Specify the ID of the tab that you want to give focus to. <br> This is a mandatory field.| 
 
-#### Get current tab
+##### Get current tab
 
 This action is used to get the details of the current tab in Omnichannel for Customer Service. The get current tab action retrieves the Tab Id that could be used in the **Refresh tab** and **Focus tab** actions.
 
-### Omnichannel connector
+#### Omnichannel connector
 
-As an administrator, you can use the built-in actions any number of times across different macros to automate and perform operations related to Omnichannel for Customer Service.
+As an administrator, you can use the actions any number of times across different macros to automate and perform operations related to Omnichannel for Customer Service.
 
    > [!div class=mx-imgBorder] 
    > ![Macro actions](../media/macro-omnichannel-connector.png "Macro actions") 
 
-#### Link a record to the conversation
+##### Link a record to the conversation
 
 This action is used to link a record to the conversation when the customer is communicating with the agent in the Omnichannel for Customer Service session. This action contains the following fields.
 
@@ -190,7 +197,7 @@ This action is used to link a record to the conversation when the customer is co
    | Entity record id| Specify the entity record ID of the entity that you want to link. <br>This is a mandatory field.| |
    | Entity primary Name | Specify the primary name of the entity that you want to link. <br>This is a mandatory field.| |
 
-#### Unlink a record from the conversation
+##### Unlink a record from the conversation
 
 This action is used to unlink a record from the conversation when the customer is communicating with the agent in the Omnichannel for Customer Service session. This action contains the following fields.
 
@@ -208,7 +215,21 @@ To learn about the slugs for productivity tools, see [Slugs](automation-dictiona
 
 To learn more, see [Use automation dictionary to pass data parameter keys](automation-dictionary-keys.md#pass-data-parameter-in-macros-and-agent-scripts).
 
-<a name="create-macro"></a>
+## Built-in
+
+The built-in control allows you to execute a macro action step based on the conditions. The control has **Condition**. 
+
+   > [!div class=mx-imgBorder] 
+   > ![Built-in condition control](../media/built-in.png "Built-in condition control")
+
+To use the control, you need to first have a trigger (Predefined automation actions). That is, select a predefined automation action first, and before or after a step, you can define the condition. You can also create nested conditions as per your requirements.
+
+For example,
+
+You want to open a new form and save it after entering the fields. If the **Product** field in the form has **Surface** as the value, then evaluate it as true and then perform the knowledge base article search with the search phrase as **Surface**. If it is evaluated as false, then don't perform any action further.
+
+   > [!div class=mx-imgBorder] 
+   > ![Macro conditional builder](../media/macro-condition.png "Macro conditional builder")
 
 ## Create a macro
 
@@ -236,7 +257,7 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
    - [Session Connector](#session-connector)
    - [Omnichannel Connector](#omnichannel-connector)
 
-7. Select an action from the list of built-in actions. You can add as many actions as you need, based on your business requirements.
+7. Select an action from the list of actions. You can add as many actions as you need, based on your business requirements.
 
    If you select **Productivity Automation**, you'll see the following actions.
 
@@ -288,7 +309,13 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
    > [!div class=mx-imgBorder] 
    > ![Attributes for Open a new form to create a record](../media/macro-fields.png "Attributes for Open a new form to create a record") 
 
-9. Select **Save and close**.
+9. After you add a action step, to define conditions, select the **Built-in** tab, and select **Control**.
+
+10. Select **Condition** to define the conditions. The condition has **If true** or **If false**. Define the condition as per your requirement.
+
+11. To add another action step, repeat step 7 and optionally step 8.
+
+12. Select **Save and close**.
 
 Now, when the agent executes the macro, the actions will be executed by fetching the data parameter keys according to the context available from the sources. To learn more, see [Use automation dictionary to pass data parameters keys](automation-dictionary-keys.md).
 
