@@ -14,13 +14,13 @@ manager: shujoshi
 
 You must perform the following steps to configure Sales Analytics for Dynamics 365 Sales or Process Analytics for Dynamics 365:
 
-1. Review the prerequisites
-2. Install the Power BI template app
-3. Connect Dynamics 365 Sales to the Power BI template app
-4. Configure refresh frequency on Power BI dataset
-5. Publish application within your organization
-6. Enable Power BI reporting in the Common Data Service platform (optional)
-7. Add Power BI Dashboard to the Sales Hub app (optional)
+1. [Review the prerequisites](#step-1-prerequisites)
+2. [Install the Power BI template app](#step-2-install-the-power-bi-template-app)
+3. [Connect Dynamics 365 Sales to the Power BI template app](#step-3-connect-dynamics-365-sales-organization-the-power-bi-template-app)
+4. [Configure refresh frequency on Power BI dataset](#step-4-configure-refresh-frequency-on-power-bi-dataset)
+5. [Publish application within your organization](#step-5-publish-application-within-your-organization)
+6. [Enable Power BI reporting in the Common Data Service platform (optional)](#step-6-enable-power-bi-reporting-in-the-common-data-service-platform)
+7. [Add Power BI Dashboard to the Sales Hub app (optional)](#step-7-add-power-bi-dashboards-to-the-sales-hub-app)
 
 ### Step 1: Prerequisites
 
@@ -42,7 +42,8 @@ Review the following prerequisites before configuring the Power BI template apps
 
 4.	After the Power BI template app is installed, the app configuration options page is displayed.
 
-    `<<image>>`
+    > [!div class="mx-imgBorder"]
+    > ![App configuration options page](media/app-config-page.png "App configuration options page")
 
     Now proceed to configure the app by connecting your Dynamics 365 organization.
 
@@ -50,9 +51,18 @@ Review the following prerequisites before configuring the Power BI template apps
 
 1.	On the Power BI template app configuration options page, select **Connect**.
 
+    > [!div class="mx-imgBorder"]
+    > ![Connect to data](media/app-config-page-connect.png "Connect to data")
+
 2.	On the connect data page, enter your organization's Dynamics 365 URL and select **Next**.
 
+    > [!div class="mx-imgBorder"]
+    > ![Connect data page](media/connect-data-page.png "Connect data page")
+
 3.	Select **Authentication method** as **OAuth2** and **Privacy level** as **Organizational**. Select **Sign in**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Select authentication method and privacy level](media/select-auth-method.png "Select authentication method and privacy level")
 
 4.	Enter your Dynamics 365 Sales credentials and select **Enter**.
 
@@ -67,8 +77,14 @@ After you connect the Power BI template app with Dynamics 365 Sales, you need to
 2.	Go to the Power BI template app workspace.
  
 3.	Go to the **Datasets** tab and select **Settings**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Dataset settings](media/dataset-settings.png "Dataset settings")
  
 4.	Turn **Scheduled refresh** to On.
+
+    > [!div class="mx-imgBorder"]
+    > ![Scheduled refresh](media/scheduled-refresh-setting.png "Scheduled refresh")
 
     Now, publish the application in your organization.
 
@@ -81,9 +97,15 @@ You must share the configured application with your entire organization for user
 
 1.	On the app workspace, select **Update app**.
 
-2.	In the Update app wizard, go to the **Access** tab.
+    > [!div class="mx-imgBorder"]
+    > ![Update app](media/update-app.png "Update app")
+
+2.	In the Update app wizard, go to the **Permissions** tab.
 
 3.	Choose **Entire organization** and select **Update app**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Permissions tab](media/permission-settings.png "Permissions tab")
  
     The app is now available to install for all individuals in your organization.
 
@@ -96,6 +118,9 @@ As an administrator, you must enable Power BI reporting in the Common Data Servi
 2.	Select **Administration** > **System Settings**.
 
 3.	Go to the **Reporting** tab and enable **Allow Power BI visualization embedding**.
+
+    > [!div class="mx-imgBorder"]
+    > ![System settings](media/system-settings.png "System settings")
  
     Sales managers can now configure dashboards.
 
@@ -108,12 +133,21 @@ Each sales manager must configure their environment to integrate the Sales Analy
 2.	Select **Dashboards** under **My Work**.
 
 3.	Select **New** > **Power BI Dashboard**.
+
+    > [!div class="mx-imgBorder"]
+    > ![New Power BI Dashboard](media/new-pbi-dashboard.png "New Power BI Dashboard")
  
-4.	For **Workspace**, select **Sales Analytics for Dynamics 365 Sales**. For **Dashboard**, select **Sales Analytics for Dynamics 365 Sales**.
+4.	For **Workspace**, select **Sales Analytics for Dynamics 365 Sales**. For **Dashboard**, select **Sales Pipeline**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Power BI Dashboard properties](media/pbi-dashboard-props.png "Power BI Dashboard properties")
  
 5.	Save and close.
 
     The Sales Analytics for Dynamics 365 Sales dashboard is now available in Dynamics 365.
+
+    > [!div class="mx-imgBorder"]
+    > ![Power BI Dashboard properties](media/pbi-dashboard.png "Power BI Dashboard properties")
 
 ## Customize Sales Analytics for Dynamics 365 Sales
 
