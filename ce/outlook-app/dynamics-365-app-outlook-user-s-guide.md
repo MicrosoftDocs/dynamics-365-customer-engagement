@@ -214,7 +214,7 @@ One of the first things you might want to do when you receive a customer email, 
 > If the sender of the email is unknown to Dynamics 365, when you add the contact or lead, the email is automatically tracked in Dynamics 365 and set regarding this contact or lead. To stop tracking, you can manually untrack the regarding email. 
 
 ## Link an email message or meeting to a specific Dynamics 365 apps record  
-You can link an email message or meeting to a specific [Dynamics 365 record, such as an account, opportunity, or case. This also tracks the email or meeting in Dynamics 365.
+You can link an email message or meeting to a specific Dynamics 365 record, such as an account, opportunity, or case. This also tracks the email or meeting in Dynamics 365.
 
 1. Create or select an email or meeting.
 

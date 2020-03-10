@@ -43,7 +43,7 @@ If you have a new Field Service environment and want to set up the mobile app, f
 
 If you are using and customizing a Field Service Mobile project template when Microsoft releases a new template, you can use the new template while keeping your customizations.
 
-This applies to customers using any version of Field Service Mobile. For example, you may have Field Service Mobile version 9 and want to upgrade to version 11+, which requires a new project template, or you may have Field Service Mobile 11.1 and want to upgrade to 11.3 and utulize a new mobiel project. 
+This applies to customers using any version of Field Service Mobile. For example, you may have Field Service Mobile version 9 and want to upgrade to version 11+, which requires a new project template, or you may have Field Service Mobile 11.1 and want to upgrade to 11.3 and utilize a new mobile project. 
 
 Here is an example:
 
