@@ -48,7 +48,7 @@ When your admin has [enabled mobile offline](setup-mobile-offline-for-admin.md
    > [!div class="mx-imgBorder"] 
    > ![Download updates complete](media/mobile_offline_download_updates_complete.png "Download updates complete")
    
-When you open the app, the offline data is automatically updated and you can use the app in offline mode.
+When you open the app, offline data is automatically updated and you can start using the app in offline mode.
 
 ### Manually download updates
 
@@ -67,7 +67,7 @@ When you open the app, the offline data is automatically updated and you can use
    > [!div class="mx-imgBorder"] 
    > ![Download updates complete](media/mobile_offline_download_updates_complete.png "Download updates complete")
    
-When you open the app, the offline data is automatically updated and you can use the app in offline mode.
+When you open the app, offline data is automatically updated and you can start using the app in offline mode.
 
 ## See if offline mode is available
 
