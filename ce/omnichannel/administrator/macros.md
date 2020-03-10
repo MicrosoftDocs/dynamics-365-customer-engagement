@@ -117,6 +117,16 @@ This action is used for searching knowledge articles based on the populated phra
    |-----------------|-----------------------------|--------------------------|
    | Search string |  Provide the phrase based on which you want to do a relevance search. You can provide the context data. For example, the context data parameter can be a case title. <br> This is a mandatory field.  |  |
 
+##### Update form attribute
+
+This action is used for updating the form attribute (field). The action updates the attribute of a form if that form is currently in focus and has the same entity type as mentioned in action. If the action is executed for any other entity, then the action will fail. Also, the action only updates the field and doesn't save the record. The action contains the following field.
+
+   | Field | Description | Parameter |
+   |-----------------|-----------------------------|--------------------------|
+   | Entity logical name | Specify the logical name of the entity that you want to update. <br> This is a mandatory field. | incident |
+
+All the input parameter are of type string.
+
 ##### Save the record
 
 This action is used for saving the record after you've entered data in all the mandatory fields. The action fails if the mandatory fields aren't entered or left blank.
