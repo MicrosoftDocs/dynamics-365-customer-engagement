@@ -1,7 +1,7 @@
 ---
 title: "Tenant to tenant migration  | MicrosoftDocs"
 ms.custom: 
-ms.date: 10/01/2019
+ms.date: 03/05/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite:
@@ -32,6 +32,8 @@ There are no user-interface changes or version changes as part of this move. You
 > [!IMPORTANT]
 > When moving individual instances from one tenant to another, if that requires a geographical region change, your tenant becomes a multiregional tenant. Regional features are enabled in the Dynamics 365 admin center.
 > 
+> Geo migrations are not supported into or out of US GCC, US GCC High, or China.
+>
 > You might need to reconfigure some applications and settings after tenant to tenant migration such as Microsoft Dynamics 365 for Outlook, server-side sync, SharePoint integration, etc.
 >
 
@@ -55,7 +57,7 @@ The destination tenant needs an equal or higher number of active user licenses, 
 
 ## How the move works
 
-You’ll be provided with a list of prerequisites and post-requisites for your migration as part of the support request raised. The following table describes what Microsoft does before, during, and after your move.
+You'll be provided with a list of prerequisites and post-requisites for your migration as part of the support request raised. The following table describes what Microsoft does before, during, and after your move.
 
 
 | |Before the move<br/>Notification   |During the move<br/>Cut-over  |After the move<br/>Notification and support |
