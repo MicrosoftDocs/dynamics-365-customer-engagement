@@ -16,9 +16,9 @@ ms.topic: article
 
 ## Calling options in live chat
 
-With calling options in a live chat conversation, you can<!--note from editor: Suggested.--> initiate a voice or video call while you're<!--note from editor: Suggested.--> communicating with the customer over chat.
+With calling options in a live chat conversation, you can initiate a voice or video call while you're communicating with the customer over chat.
 
-As an agent, you exchange a lot of information when you communicate with a customer via chat<!--note from editor: Suggested.-->. This can slow down your effort to resolve the customer's issue. The customer might prefer to show you the problem and explain the issue by using a physical product. In these scenarios, you might want to initiate a voice or video call during the chat conversation to resolve the issue quickly. The calling options in the communication panel help you to easily <!--note from editor: Suggested.-->make these calls.
+As an agent, you exchange a lot of information when you communicate with a customer via chat. This can slow down your effort to resolve the customer's issue. The customer might prefer to show you the problem and explain the issue by using a physical product. In these scenarios, you might want to initiate a voice or video call during the chat conversation to resolve the issue quickly. The calling options in the communication panel help you to easily make these calls.
 
 ### Advantages of voice and video call in live chat
 
@@ -31,13 +31,13 @@ With calling options in live chat, you can:
 
 ### Initiate voice and video call
 
-When you're chatting with the customer, you can initiate the voice or video call. In the communication panel, beside the **End** button, select the ellipsis button ![](../../media/ellipsis.png)<!--note from editor: Is it okay to add this graphic? Style Guide encourages us to use it. If the ellipsis has a tooltip in the UI, please add it to the alt text field.-->. The **Voice Call** and **Video Call** options are displayed. (Depending on your system configuration, you might see **Voice Call** and **Video Call**, or just **Voice call**.)
+When you're chatting with the customer, you can initiate the voice or video call. In the communication panel, beside the **End** button, select the ellipsis button ![Ellipsis](../../media/ellipsis.png "Ellipsis"). The **Voice Call** and **Video Call** options are displayed. (Depending on your system configuration, you might see **Voice Call** and **Video Call**, or just **Voice call**.)
 
 > [!div class=mx-imgBorder]
 > ![Voice and video call](../../media/chat-voice-video-call.png "Voice and video call")
 
-When you initiate a voice call, you can view the flyout call control<!--note from editor: Via Style Guide, "flyout" isn't a noun but is okay as an adjective.-->, which includes the following buttons.
-<!--note from editor: You definitely don't need the "Description" column in the following table; suggest deleting it. -->
+When you initiate a voice call, you can view the flyout call control, which includes the following buttons.
+
 |Button | Name | Description |
 |----------------------|-------------------------|-----------------------------|
 |![Turn on or off video](../../media/turn-on-off-video.png "Turn on or off video")| Turn on video / Turn off video |  Use this button to turn on or off the video while in a call with the customer.|
@@ -45,15 +45,15 @@ When you initiate a voice call, you can view the flyout call control<!--note fro
 |![End call](../../media/end-call.png "End call")| End call | Use this button to end the call. |
 
 > [!div class=mx-imgBorder]
-> ![Agent experience of a voice call during live chat](../../media/chat-voice-call.png "Agent experience of a voice call during live chat")<!--note from editor: Please double-check alt text for this and the following two graphics. They were all the same. -->
+> ![Agent experience of a voice call during live chat](../../media/chat-voice-call.png "Agent experience of a voice call during live chat")
 
 ### Capacity of the agent
 
-When you initiate a voice or video call, your capacity is consumed<!--note from editor: Will the reader know what this means?-->, and you can't take any conversation requests until you hang up. However, your supervisor can still assign conversations to you.
+When you initiate a voice or video call, your capacity is consumed, and you can't take any conversation requests until you hang up. However, your supervisor can still assign conversations to you.
 
 ### Site permissions
 
-As an agent, you need to enable camera and microphone access<!--note from editor: Suggested.--> in the browser to make a video and audio call, respectively.
+As an agent, you need to enable camera and microphone access in the browser to make a video and audio call, respectively.
 
 ## Customer experience
 
@@ -61,8 +61,7 @@ When a customer on the portal receives a call, they can accept the voice call wi
 
 > [!div class=mx-imgBorder]
 > ![Customer experience of a voice call during live chat](../../media/call-accept.png "Customer experience of a voice call during live chat")
-<!--note from editor: You truly don't need the following table, not only because you've (extensively) covered these buttons above, but because the customer isn't reading this article. It's just noise at this point. -->
-<!--
+
 After accepting the call, the customers can view and use the following options.
 
 |Button | Name | 
@@ -71,7 +70,7 @@ After accepting the call, the customers can view and use the following options.
 |![Mute and unmute](../../media/mute-unmute-c2.png "Mute and unmute")| Mute / Unmute | 
 |![End call](../../media/end-call-c2.png "End call")| End call | 
 
--->
+
 After accepting the call, the customer can turn on or off the video, mute or unmute the conversation, and end the call.
 
 > [!div class=mx-imgBorder]
