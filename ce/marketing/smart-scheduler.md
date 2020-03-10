@@ -1,5 +1,5 @@
 ---
-title: "Improve email engagement with a smart scheduler (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Improve email engagement with a automated scheduling (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to use smart scheduling to let the AI find the best times and days to deliver email messages to each contact in Dynamics 365 Marketing"
 keywords:
 ms.date: 06/12/2019
@@ -23,13 +23,13 @@ search.app:
   - D365Mktg
 ---
 
-# Preview: Use smart scheduler to help improve email engagement
+# Preview: Use automated scheduling to help improve email engagement
 
 > [!IMPORTANT]
 > This is a preview feature. [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
 > [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
 
-The smart scheduler feature applies artificial intelligence to identify the days and times when each contact is most likely to be actively reading their email. The feature has two main components:
+The automated scheduling feature applies artificial intelligence to identify the days and times when each contact is most likely to be actively reading their email. The feature has two main components:
 
 - **Auto scheduler for customer journeys**: enables customer journeys to schedule message deliveries to each individual contact automatically based on the _best time to email_ calculated by the AI for that contact.
 - **Detailed email interaction results**: provide informative heat-map graphs that summarize the email-interaction trends for each individual contact. The following insights are provided here:
@@ -38,11 +38,11 @@ The smart scheduler feature applies artificial intelligence to identify the days
   - **Best time to email** : displays a matrix that indicates which times on which days of the week are probably best for sending a message to the current contact. For each contact, the AI analyzes their reaction-time and open-time results and combines them with data collected for similar contacts to generate the overall recommendations.
 
 > [!NOTE]
-> Before you can use smart scheduling, your admin must enable and configure it. If you don't see the features described in this topic, then please ask your admin to enable smart scheduling for your site. More information: [Enable and configure artificial intelligence features](admin-machine-learning.md)
+> Before you can use automated scheduling, your admin must enable and configure it. If you don't see the features described in this topic, then please ask your admin to enable automated scheduling for your site. More information: [Enable and configure artificial intelligence features](admin-machine-learning.md)
 
 ## Create a customer journey that automatically sends messages at the optimal time
 
-When you use manual scheduling, the customer journey processes all the contacts in its target segment at once and delivers messages according to its run schedule without regard to each contact's interaction history. However, with smart scheduling, you can now leverage the AI to apply delivery times optimized for each individual recipient. This can often help improve your open rates.
+When you use manual scheduling, the customer journey processes all the contacts in its target segment at once and delivers messages according to its run schedule without regard to each contact's interaction history. However, with automated scheduling, you can now leverage the AI to apply delivery times optimized for each individual recipient. This can often help improve your open rates.
 
 To create a journey that uses optimized delivery times:
 
@@ -58,17 +58,19 @@ To create a journey that uses optimized delivery times:
 
     Make the following settings:
 
-    - Set the **Smart scheduling** slider to "on" to enable the smart scheduler.
+    - Set the **Automate the scheduling** slider to "on" to enable the automated scheduler.
     - To use a date-and-time schedule (in which all contacts will be forwarded by the scheduler on the same day(s), regardless of when they arrive (such as on October 12, 2019, &plusmn;3 days)) do the following:
         - Set the **Scheduler type** to **Date and time**.
         - Set the **Date and time** to the approximate date and time you'd like to send messages to these contacts.
-        - Set the start and end sliders of the **Optimize sending window** to establish a date range during which to forward the contacts waiting here. The AI will check the email interaction record for each individual contact and use that information to choose the best date and time within this defined time window.
+        - The AI will check the email interaction record for each individual contact and use that information to choose the best date and time within this defined time window.
     - To use a duration schedule (in which each contact waits here for an amount of time related to the day they entered the tile (such as 7 &plusmn;3 days)) do the following:
         - Set the **Scheduler type** to **Duration**.
         - Set the **Duration** to the approximate time that contacts should wait here. Specify both an integer and a unit (hours, days, weeks, or months).
-        - Set the start and end sliders of the **Optimize sending window** to establish a date range during which to forward the contacts waiting here. The AI will check the email interaction record for each individual contact and use that information to choose the best date and time within this defined time window.
-
+        - The AI will check the email interaction record for each individual contact and use that information to choose the best date and time within this defined time window.
+        
 1. Repeat the previous step for each scheduler in your journey.
+
+Note: When selecting more than 24 hours (or 1 day), the model will default to -12h/+12h optimization window rather than 0-12 hours. Similarly when selecting days that are greater than 1 week (7 days or more), the model will default to the -1d/+1d optimzation window rather than the -12/+12h window associated with days. 
 
 ## View email interaction details and delivery recommendations for a contact
 
