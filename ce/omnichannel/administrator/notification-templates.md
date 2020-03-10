@@ -4,7 +4,7 @@ description: "Learn about managing notification templates in Omnichannel Adminis
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 02/07/2020
+ms.date: 04/01/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -16,11 +16,12 @@ ms.topic: article
 
 ## Overview
 
-When a notification is sent to an agent<!--note from editor: To fix misplaced modifier.-->, it displays certain information such as which customer the conversation request is coming from, the timeout period after which the notification will disappear, and some buttons such as accept and reject. Each organization has varied business requirements and wants the notifications to show relevant information to the agents.
+When a notification is sent to an agent, it displays certain information such as which customer the conversation request is coming from, the timeout period after which the notification will disappear, and some buttons such as accept and reject. Each organization has varied business requirements and wants the notifications to show relevant information to the agents.
 
-The notification templates are introduced to show relevant information to agents. A notification template in Omnichannel for Dynamics 365 Customer Service<!--note from editor: Edit okay?--> is a combination of notification-related, reusable information. The template is used to configure what information is displayed to the agents and supervisors for an incoming conversation, escalation, transfer, consult, and so on. As an administrator, system integrator, or partner, you can use the templates or create new ones to show information that matters most to your business.
+The notification templates are introduced to show relevant information to agents. A notification template is a combination of notification-related, reusable information. The template is used to configure what information is displayed to the agents and supervisors for an incoming conversation, escalation, transfer, consult, and so on. As an administrator, system integrator, or partner, you can use the templates or create new ones to show information that matters most to your business.
 
-<!--note from editor: It looks like this sentence should be a Note if it's an important point, otherwise it's a bit of a non sequitur.-->You must associate the notification templates to a session template.
+> [!Note]
+> You must associate the notification templates to a session template.
 
 ### Desktop notifications when the app is in the background
 
@@ -37,10 +38,10 @@ Agents can accept or reject the conversation request by selecting a button on th
 
 If an agent selects the notification message body and not a button, the Omnichannel for Customer Service app is made active and the notification is displayed to the agent in the app. Then the agent can choose to accept or reject the conversation by selecting the appropriate button.
 
-You can configure the wait time<!--note from editor: What does it mean to have the wait time applied to the notification? This seems incomplete. Also, the mention of the theme seems kind of random. --> and this time applies to the desktop notification, but doesn't display the wait time on the desktop notification. The desktop notification theme is based on the Windows operating system theme and settings.
+You can configure the wait time and the notification is displayed for the agent according to this time, but wait time isn't displayed on the notification. The desktop notification theme is based on the Windows operating system theme and settings.
 
 > [!Note]
-> If the native browser notification option<!--note from editor: What does this mean? --> is disabled, the notification will be shown in a different user interface.
+> If the native browser notification option is disabled, the notification will be shown in a different user interface.
 
 #### Allow a browser to show notifications
 
@@ -57,7 +58,7 @@ The fields that are shown in the notification are based on the notification temp
 
 ## Slug for notification field header
 
-Slug is the replacement parameter that omnichannel system<!--note from editor: This section needs to use "Omnichannel for Customer Service" throughout. At times, the article doesn't seem to have been edited at all (see the table in line 94, for example).--> populates at runtime based on the context variables.
+Slug is the replacement parameter that omnichannel system populates at runtime based on the context variables.
 
 The notification shows certain fields and values, called **Field header** and **Value** respectively.
 
