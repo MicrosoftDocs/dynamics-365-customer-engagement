@@ -102,7 +102,7 @@ Review the following requirements before configuring SLAs for your organization:
 
     a. Create a lookup field on the entity for which an SLA has to be configured, and relate it to an SLA KPI instance.
   
-    Lookup fields are created so that you can view the SLA in the timer on the entity form and track your SLAs. To learn more, see [Create and edit fields](/on-premises/customize/create-edit-fields#create-and-edit-fields).
+    Lookup fields are created so that you can view the SLA in the timer on the entity form and track your SLAs. To learn more, see [Create and edit fields](../customerengagement/on-premises/customize/create-edit-fields.md#create-and-edit-fields).
   
     For example, to track an SLA on case for escalated by KPI, you need to create a field as *EscalatedByByKPI* on the Case entity and provide the respective Target Record Type as Service Level Agreement Instances and Data Type as *Lookup*.
 
