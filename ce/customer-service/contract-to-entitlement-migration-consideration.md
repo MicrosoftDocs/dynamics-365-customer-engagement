@@ -21,7 +21,7 @@ search.app:
 
 # Contract to entitlement migration
 
-Dynamics 365 Customer Service will be completing debrecation of contracts, contract line items, and contract template entities by the October 2020 release.  These items will be removed and replaced by entitlements, and will not be included in future  releases.
+Dynamics 365 Customer Service will be completing deprecation of contracts, contract line items, and contract template entities by the October 2020 release.  These items will be removed and replaced by entitlements, and will not be included in future  releases.
 
 The following migration support information has been provided to assist customers and prepare for the deprecation of the following:   
   - contracts
@@ -55,7 +55,7 @@ To switch from the Contract template and map to the Entitlement template:
   2. Set <b>Restriction based on entitlement terms</b> to <b> No</b>
   
 ### Benefits
-- Created cases will now display warning notices when they exeed allocated terms and conditions.  
+- Created cases will now display warning notices when they exceed allocated terms and conditions.  
 - Customer usage can be monitored with the option to set and apply restrictions.
 
 > [!NOTE] 
@@ -89,20 +89,20 @@ If you have a contract tied to a single product, use the following steps:
 
 ### Contract and Entitlement Cancellation 
 
-Canceling a Contract or Entitlement can be cancled using the following steps:
+Canceling a Contract or Entitlement can be canceled using the following steps:
 
 #### Cancel Contract
 
-Contracts can be cancelled immediately or in the future by: 
+Contracts can be canceled immediately or in the future by: 
 
 <need screenshot/graphic to display here>
 
 1. Selecting a <b>date</b> 
 2. Clicking <b>cancel</b> 
 
-#### Cancel Entitlment 
+#### Cancel Entitlement 
 
-Entitlement can be cancelled immediately, but can not be cancelled in future. 
+Entitlement can be canceled immediately, but can not be canceled in future. 
 
 ## State Mapping 
 |Contract  |Contract lines   |Entitlements |
