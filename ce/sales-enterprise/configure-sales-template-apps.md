@@ -35,8 +35,8 @@ Review the following prerequisites before configuring the Power BI template apps
 
 2.	As a Power BI BI administrator, open the link of the Power BI Template App you want to install:
 
-    - `<<link to Sales Analytics template app>>`
-    - `<<link to Process Analytics template app>>`
+    - [Sales Analytics template app](https://go.microsoft.com/fwlink/p/?linkid=2121603)
+    - [Process Analytics template app](https://go.microsoft.com/fwlink/p/?linkid=2121604)
 
 3.	Install the Power BI template app.
 
@@ -165,8 +165,8 @@ Before you customize the template app, read the information here and perform eac
 - [Power BI service registration](https://powerbi.com/)
 - [Power BI Desktop](https://powerbi.microsoft.com/desktop/) application for editing Power BI reports
 - Power BI report for the Customer Service template app that you want to customize
-    - `link to Sales Analytics for Dynamics 365 Sales Power BI template app  pbix file`
-    - `link to Process Analytics for Dynamics 365 Power BI Template pbix file`
+    - [Download the Power BI report for Sales Analytics for Dynamics 365 Sales](https://go.microsoft.com/fwlink/p/?linkid=2121605)
+    - [Download the Power BI report for Process Analytics for Dynamics 365 Sales](https://go.microsoft.com/fwlink/p/?linkid=2121504)
 
 ### Prepare a PBIX for customization
 

@@ -129,7 +129,7 @@
 #### [Track a marketing campaign response](../sales-enterprise/track-marketing-campaign-response-using-app-marketing-sales.md)
 ### [Use Sales Hub on the mobile app](../sales-enterprise/use-sales-hub-on-dynamics-365-mobile.md)
 
-### Sales Analytics for Dynamics 365 Sales
+### Power BI template apps for Dynamics 365 Sales
 #### [Analyze your sales data using Power BI template apps](introduction-sales-template-apps.md)
 #### [Configure Power BI template apps to work with Dynamics 365 Sales](configure-sales-template-apps.md)
 
