@@ -491,7 +491,7 @@ Follow these steps:
 3. In the navigation bar, select **Settings** > **Processes**.
 
 4. Select the knowledge article flow you created. The workflow process opens in a new browser window.
-
+  
 5. In the **General** tab, select the **Add Step** drop-down list, and then select **Check Condition**. A new step will be added.
 
     > [!div class=mx-imgBorder]
