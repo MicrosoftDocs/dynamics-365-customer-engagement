@@ -1,10 +1,10 @@
 ---
 title: "Configure a Facebook channel | MicrosoftDocs"
-description: "Instructions to configure a a Facebook channel in Omnichannel for Customer Service."
+description: "Instructions to configure a Facebook channel in Omnichannel for Customer Service."
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 12/13/2019
+ms.date: 04/01/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -24,7 +24,7 @@ The Facebook channel gives you an incredible opportunity to capitalize on the so
 2.	Create a Facebook application. More information: [App Development](https://developers.facebook.com/docs/apps/)
 3.	Add Messenger and Webhooks to the Facebook application. More information: [Setting Up Your Facebook App](https://developers.facebook.com/docs/messenger-platform/getting-started/app-setup/)
 
-After completing the prerequisites, you can add the Facebook channel for your organization. To do this:
+After completing the prerequisites, you can add the Facebook channel for your organization by following these steps:
 
 1.	[Create a Facebook work stream](#step-1-create-a-facebook-work-stream)
 2.	[Create a Facebook channel](#step-2-create-a-facebook-channel)
@@ -43,7 +43,7 @@ After completing the prerequisites, you can add the Facebook channel for your or
     > [!div class=mx-imgBorder]
     > ![Create a Facebook work stream](../media/fb-workstream.png "Create a Facebook work stream")
 
-5.	Specify other details as required.
+5.	Specify other details as required. To learn more, see [Understand and create work streams](work-streams-introduction.md).
 
 6.	Select **Save**.
 
@@ -92,6 +92,9 @@ After completing the prerequisites, you can add the Facebook channel for your or
 
 After you add a Facebook page, values for **Callback Uri** and **Verify Token** are generated automatically. These values are used to configure webhooks in the Facebook application.
 
+   > [!Note]
+   > You can add multiple Facebook **Page Id** (pages) to a **Facebook Application** channel. However, a Facebook **Page Id** can be linked to one **Facebook Application** only. If you link the same Facebook **Page Id** to multiple **Facebook Application** channels, then **Callback Uri** and **Verify Token** won't be generated automatically.
+
 > [!div class=mx-imgBorder]
 > ![Facebook application created](../media/fb-app-created.png "Facebook application created")
 
@@ -101,7 +104,7 @@ After you add a Facebook page, values for **Callback Uri** and **Verify Token** 
 
 2.	Open the work stream you created in Step 1.
 
-3.	On the **Routing rules items** tab, create a routing rule to transfer the message to an appropriate agent. You must select the entity as **Facebook Engagement Context**.
+3.	On the **Routing rules items** tab, create a routing rule to transfer the message to an appropriate agent. Select the entity as **Facebook Engagement Context**.
 
     For example, you can create a rule to transfer Facebook chat from a customer named Gilda to the default queue. 
 
@@ -117,7 +120,7 @@ A customer can initiate a conversation in any of the following ways:
 - Messenger app on a mobile device
 - Messenger widget on a custom website
 
-If a customer initiates a conversation from the Facebook page and then later switches to the mobile device, the previous conversation is persisted, and the customer can continue the conversation.
+If a customer initiates a conversation from the Facebook page and then later switches to the mobile device, the previous conversation persists, and the customer can continue the conversation.
 
 The agent receives the notification of the incoming chat request along with the customer details. More information: [View notifications](../agent/agent-oc/oc-notifications.md)
 
@@ -138,4 +141,3 @@ Customers are solely responsible for using Dynamics 365, this feature, and any a
 
 [Understand and create work streams](work-streams-introduction.md)<br>
 [Create and manage routing rules](routing-rules.md)
-

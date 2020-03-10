@@ -146,7 +146,7 @@ Here is the code snippet that was used in our example:
         function ToPowerApps(entityForm) {
             var WONumber = entityForm.entity.primaryName;
             var WOqueryString = "&WONumber=" + WONumber;
-            var url = "ms-apps:///providers/Microsoft.PowerApps/apps/c2fe056f-f576-4c41-9b69-c2435689e80c?deeplink=requestparts" + WOqueryString ;
+            var url = "ms-apps:///providers/Microsoft.PowerApps/apps/c2fe056f-f576-4c41-9b69-c2435689e80c?Deeplink=requestparts" + WOqueryString ;
             //MobileCRM.bridge.alert(url);
             MobileCRM.Platform.openUrl(url);
         }

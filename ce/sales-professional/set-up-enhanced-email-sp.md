@@ -17,7 +17,7 @@ manager: annbe
 Before sales reps can use enhanced email, you must enable it.
 
 > [!IMPORTANT]
-> - The enhanced email experience is only available in the Sales Hub app.
+> - The enhanced email experience is available only for email activities created from the **Timeline** section of any model-driven app. 
 > - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
 > - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
@@ -30,22 +30,15 @@ To enable enhanced email:
     > [!div class="mx-imgBorder"]  
     > ![Advanced Settings link in the site map](../sales-enterprise/media/advanced-settings-option.png "Advanced Settings link in the site map")
 
-    The **Settings** page opens in Power Platform Admin center.
+    The **Business Management settings** page opens in a new browser tab.
 
-2.  Expand the **Resources** section, and select **All legacy settings**. 
+2. On the navigation bar, select **Settings** > **Administration**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Option to open legacy settings](../sales-enterprise/media/legacy-settings-power-platform-admin-center.png "Option to open legacy settings")
-    
-    The Business Management page opens.
+3. Select **System Settings**.
 
-3. On the navigation bar, select **Settings** > **Administration**.
+4. On the **Email** tab of **System Settings** dialog box, select the **Multitask, compose, and save drafts, using email pop-up windows, when creating email from timeline** check box. 
 
-4. Select **System Settings**.
-
-5. On the **Email** tab of **System Settings** dialog box, select the **Multitask, compose, and save drafts, using email pop-up windows, when creating email from timeline** check box. 
-
-5. Select **OK**.
+4. Select **OK**.
 
 ### See also
 

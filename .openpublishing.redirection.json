@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/marketing/social-listening.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customerengagement/on-premises/admin/control-social-data.md",
       "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition",
       "redirect_document_id": "false"
@@ -8933,7 +8938,7 @@
     },
     {
       "source_path": "ce/admin/onboard-your-organization-and-users-to-dynamics-365-online.md",
-      "redirect_url": "https://docs.microsoft.com/power-platform/admin/try-dynamics-365-online",
+      "redirect_url": "https://docs.microsoft.com/power-platform/admin/try-powerapps-dynamics-365",
       "redirect_document_id": "false"
     },
     {
@@ -17820,6 +17825,21 @@
       "source_path": "ce/customer-service/migrate-service-activity-org-service.md",
       "redirect_url": "introduction-migration-entity-records.md",
       "redirect_document_id": false
-    }
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/v2/reference/microsoft-ciframework/notifyNewActivity.md",
+      "redirect_url": "../microsoft-ciframework-v2",
+      "redirect_document_id": false
+    },
+    {  
+      "source_path": "ce/customer-service/channel-integration-framework/v2/reference/microsoft-ciframework/notifyKPIBreach.md",
+      "redirect_url": "../microsoft-ciframework-v2",
+      "redirect_document_id": false
+    },
+    {  
+      "source_path": "ce/customer-service/channel-integration-framework/v2/onboard-org-flight.md",
+      "redirect_url": "get-channel-integration-framework",
+      "redirect_document_id": false
+    }    
   ]
 }

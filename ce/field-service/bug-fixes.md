@@ -2,7 +2,7 @@
 title: "Bug fixes for Dynamics 365 Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 01/13/2020
+ms.date: 02/19/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -31,6 +31,54 @@ search.app:
 In this article, you'll find an ongoing list of bug fixes for Dynamics 365 Field Service, Universal Resource Scheduling (URS), Field Service Mobile, resource scheduling optimization, and Connected Field Service (CFS). For information about other updates to Field Service, visit the [Dynamics 365 Release Plans](https://docs.microsoft.com/dynamics365/release-plans/). 
 
 ## Dynamics 365 Field Service
+
+### Version 8.8.14.328 (2020 Wave 1 Early Access)
+
+For more information about early access features, visit the [opt-in instructions](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates).
+
+- Before a Work Order Product or Work Order Service is set to Used, the Total Amount is not calculated.
+  - Previously, under some circumstances, a Work Order Service line in Estimated status could have a Total Amount value despite not being set to used. This could result in challenges when looking at the Work Order’s total amount and potential downstream invoice discrepancies.
+  - This also required an improvement to the Work Order Product and Work Order Service views to ensure we show both the Estimated Total Amount and the Total Amount so users could understand the value in context of the line’s current status.
+- On the Agreement Booking/Invoice Setup, booking and invoice generation time (respectively) could be incorrect if the user who own's the agreement is in a time zone +1 or higher from UTC.
+  - Going forward, the system will consider the Agreement Booking/Invoice Setup owner’s time zone when generating date records.
+  - This will now mean that Agreement Booking Date and Agreement Invoice Dates will be generated correctly and consistently, relative to the owner’s time zone.
+  - Note: Be sure to validate that all existing Agreement Booking Setups and Agreement Invoice Setups owned by users +1 or greater than UTC are correctly configured to generate Invoices and Work Orders per organizational expectations.
+- On Tax Codes, when 'Act As Tax Group' is set to Yes, Tax Rate % and Items Taxable should be hidden.
+  - When a Tax Code is configured to act as a tax group, the tax rate and items taxable should be hidden from the user as these values come from the applicable related Tax Code Details for a tax group.
+  - Further, on the Tax Code, when the “Act as Tax Group” flag is set to Yes, a form notification will now show on the form to highlight that Tax Code Details must be created for taxes to be applied when the Tax Code is used.
+- On the Opportunity entity’s main Form, Account shouldn't be mandatory if Order Type is not Service-Maintenance Based.
+  - When creating an Opportunity, the Account field should only be mandatory if the Order Type is “Service-Maintenance Based.”
+- On the Agreement Booking/Invoice Setup, if a user’s time zone was set to a GMT +1 or higher, the default range of recurrence was auto-calculated to one day before Agreement Start/End.
+  - When defining an Agreement Booking/Invoice Setup as a user in a time zone +1 or higher from UTC, then the range of recurrence on the record’s recurrence string was always calculated one day before the start/end date of the related Agreement’s start/end date.
+  - This will now calculate the default recurrence range appropriately based on the user creating the record’s time zone.
+- Deprecated Quote Booking Setup’s Margin tab and calculation logic
+  - Formerly, on the Quote Booking Setup form, there was a tab that attempted to calculate the margin of the proposed booking setup.
+  - Under certain circumstances, this margin calculation could be incorrect.
+  - Due to the limited usage of the feature and the complexity involved in supporting every permutation of possible configuration with corrected calculations, the tab and related calculation logic was removed.
+- Introduced better validation messaging if a user tries to increase the quantity on a Quote Line for Service-Based lines.
+- Prevent Agreement Booking Service Task from being saved when Task Type lookup field is null.
+  - If an organization customized the Agreement Booking Service Task entity to make the Task Type optional, this would result in downstream errors when trying to generate Work Order Service Tasks.
+  - As such, a synchronous plugin was registered that will prevent the creation of an Agreement Booking Service Task if Task Type is null.
+- Fixed typo in error message when Incident Type Requirement Groups is related to an empty Requirement Group Template.
+- Prevent Work Order Service from being saved when the Service lookup field is null.
+  - If an organization customized the Work Order Service entity to make the Service optional, this could result in downstream errors.
+  - As such, a synchronous plugin was registered that will prevent the creation of a Work Order Service if Service is null.
+- Improved the warning notification message on the "Geo Code Address” button when Bing maps is disabled.
+
+### Version 8.8.10.44
+
+- Agreement Booking Service Task's Name is overwritten when the related task type changes.
+- Cannot complete booking that has travel time if the Travel Charge Type on the related Work Order's Account is null.
+
+### Version 8.8.9.84
+
+- Script error when Account field is removed from the Opportunity Quick Create form.
+- On create of Account record based on Postal Code functionality, Service Territory is repeated auto-populated, even after the customer removes the initial auto-populated value.
+- Consistency issue in Field Service's Solution Health Hub rule naming when referring to SDK Message Processing Steps.
+
+### Version 8.8.8.135
+
+- Work Order plugin error for SLA KPI Instance.
 
 ### Version 8.8.8.50
 
@@ -70,6 +118,19 @@ To see older bug fixes, see the following links to blog posts:
 
  
 ## Field Service Mobile
+
+### Version 12.1.20
+-	App crashes when wrong url is entered on sign in screen
+-	FSM app crashes when sending logs if networkLog.txt does not exit
+-	FSM app crashes when connecting to an org without woodford
+-	FSM app crashes when click on 'password manager' from login screen
+-	App crashing on certain older Android devices (misc)
+-	MobileReport - formatting issue on Word/HTML
+-	MobileReport - contents of Word document is removed if user saves Work Order without closing active doc.
+-	Unit Amount and Unit Cost are not calculated when the offline Work Order Product created and sync backed to server
+-	Certain actions don't work under work profile on Android
+-	Conditionally displaying a URL via a shared-variable linked field does not update icon
+
 
 ### Version 12.1
 
