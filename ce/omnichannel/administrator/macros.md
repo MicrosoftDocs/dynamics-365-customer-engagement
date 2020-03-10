@@ -217,15 +217,7 @@ This action is used to unlink a record from the conversation when the customer i
    | Entity record id| Specify the entity record ID of the entity that you want to unlink. <br>This is a mandatory field.| |
    | Entity primary Name | Specify the primary name of the entity that you want to unlink. <br>This is a mandatory field.| |
 
-## Use the automation dictionary to pass macro context data parameters
-
-Macros are a set of configured actions that are executed on demand by users. As an administrator, you need to configure the actions that a macro must perform. To configure the actions, you need to provide certain data parameters keys. When an agent runs the macro, these data parameters keys are replaced by contextual values.
-
-To learn about the slugs for productivity tools, see [Slugs](automation-dictionary-keys.md#slugs-for-productivity-tools-macros-and-agent-scripts).
-
-To learn more, see [Use automation dictionary to pass data parameter keys](automation-dictionary-keys.md#pass-data-parameter-in-macros-and-agent-scripts).
-
-## Built-in
+### Built-in
 
 The built-in control allows you to execute a macro action step based on the conditions. The control has **Condition**. 
 
@@ -242,6 +234,14 @@ You want to open a new form and save it after entering the fields. If the **Prod
 
    > [!div class=mx-imgBorder] 
    > ![Macro conditional builder](../media/macro-condition.png "Macro conditional builder")
+
+## Use the automation dictionary to pass macro context data parameters
+
+Macros are a set of configured actions that are executed on demand by users. As an administrator, you need to configure the actions that a macro must perform. To configure the actions, you need to provide certain data parameters keys. When an agent runs the macro, these data parameters keys are replaced by contextual values.
+
+To learn about the slugs for productivity tools, see [Slugs](automation-dictionary-keys.md#slugs-for-productivity-tools-macros-and-agent-scripts).
+
+To learn more, see [Use automation dictionary to pass data parameter keys](automation-dictionary-keys.md#pass-data-parameter-in-macros-and-agent-scripts).
 
 ## Create a macro
 
