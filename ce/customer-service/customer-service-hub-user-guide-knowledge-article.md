@@ -494,7 +494,13 @@ Follow these steps:
 
 5. In the **General** tab, select the **Add Step** drop-down list, and then select **Check Condition**. A new step will be added.
 
+    > [!div class=mx-imgBorder]
+    > ![Select Check Condition](media/workflows-check-condition.png "Select Check Condition from the Add Step drop-down list")
+
 6. In the step, select **<condition> (click to configure)**. The **Specify condition** page opens in a new browser window.
+
+    > [!div class=mx-imgBorder]
+    > ![Select the condition to configure](media/workflows-configure-condition.png "Select the condition to configure")
   
 7. From the entity drop-down, select **Knowledge Article**.
 
@@ -502,9 +508,12 @@ Follow these steps:
 
 9. From the condition drop-down, select **Equals**.
 
-10. From the value drop-down, select a value.
+10. From the value drop-down, select a value:
 - **Yes** for the create operation.
 - **No** for the update operation.
+
+    > [!div class=mx-imgBorder]
+    > ![Set workflow condition](media/workflows-set-condition.png "Select the applicable value for the workflow condition from the drop-down list")
 
 11.	Select **Save and Close** to save the condition and close the window.
 
