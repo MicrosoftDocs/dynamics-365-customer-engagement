@@ -2,7 +2,7 @@
 title: "Field Service Version History | MicrosoftDocs"
 ms.custom:
   - dyn365-fieldservice
-ms.date: 01/13/2020
+ms.date: 03/10/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
