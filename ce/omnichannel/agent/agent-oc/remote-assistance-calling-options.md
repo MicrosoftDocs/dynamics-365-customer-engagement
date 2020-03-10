@@ -25,9 +25,13 @@ As an agent, you exchange a lot of information when you communicate with a custo
 With calling options in live chat, you can:
 
 - Resolve customer issues quickly.
-- Reduce your average call-handling time<!--note from editor: Is this the correct phrase?--> and improve your productivity.
+- Reduce your average handling time (AHT) and improve your productivity.
 - Improve customer satisfaction.
 - Develop a positive relationship with customers.
+
+## Prerequisite
+
+Latest version of Microsoft Edge and Google Chrome desktop browsers.
 
 ### Initiate voice and video call
 
@@ -46,6 +50,9 @@ When you initiate a voice call, you can view the flyout call control, which incl
 
 > [!div class=mx-imgBorder]
 > ![Agent experience of a voice call during live chat](../../media/chat-voice-call.png "Agent experience of a voice call during live chat")
+
+> [!Note]
+> If your environment is in Government Community Cloud (GCC), then only the audio and video calls will be routed via North America region. 
 
 ### Capacity of the agent
 
