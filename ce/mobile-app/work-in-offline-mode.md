@@ -40,10 +40,9 @@ When your admin has [enabled mobile offline](setup-mobile-offline-for-admin.md
     > [!div class="mx-imgBorder"] 
     > ![Download updates on your mobile device for mobile offline](media/DownloadUpdates.png "Download updates on your mobile device for mobile offline")
 
-If you choose **Skip for now**, you will not be able to use the app in offline mode until you manually download the updates. 
+If you choose **Skip for now**, you will not be able to use the app in offline mode until you [manually download the updates](https://docs.microsoft.com/dynamics365/mobile-app/work-in-offline-mode#manually-download-updates). 
 
 2. Offline data automatically starts to download in the background. Once it's complete, you will get a notification letting you know the download is complete.
-
 
    > [!div class="mx-imgBorder"] 
    > ![Download updates complete](media/mobile_offline_download_updates_complete.png "Download updates complete")
@@ -63,7 +62,6 @@ When you open the app, the offline data is automatically updated and you can use
     > ![Download Customization](media/DownloadCustomization.png "Download Customization")
 
 3. Offline data automatically starts to download in the background. Once it's complete, you will get a notification letting you know the download is complete.
-
 
    > [!div class="mx-imgBorder"] 
    > ![Download updates complete](media/mobile_offline_download_updates_complete.png "Download updates complete")
