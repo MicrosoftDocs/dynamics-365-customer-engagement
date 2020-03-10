@@ -55,6 +55,8 @@ Work orders set up with data
 
 submit request on insider form
 
+Preview will be available shortly for selected participants. Reaching out since you had expressed interest in providing feedback. If you would be interested in joining the insider preview program then please register at the Insider portal here and respond back to me. We will then enroll you into the preview program. Once added, you will be notified via email and will be able to see Private Preview for D365 Field Service Inspections under 'my programs' on your Insider Programs Page. Please use “Forums” and “Program Feedback” to give us your inputs and feedback. As the preview for Field Service Inspections becomes available there will be detailed instructions available on how to install. We sincerely appreciate your interest and help in making the Field Service inspections better. 
+
 > [!Note]
 >
 
@@ -101,7 +103,20 @@ submit request on insider form
 > Can add the service task type to an incident type as needed
 
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inspections-service-task-incident-type.png)
+
+
 ## Add inspection to work order
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inspections-service-task-work-order.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inspections-service-task-work-order-drill-down.png)
+
 ## Perform inspection 	
 
 
