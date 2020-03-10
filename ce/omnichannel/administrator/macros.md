@@ -234,6 +234,8 @@ The built-in control allows you to execute a macro action step based on the cond
 
 To use the control, you need to first have a trigger (Predefined automation actions). That is, select a predefined automation action first, and before or after a step, you can define the condition. You can also create nested conditions as per your requirements.
 
+Using the **View run history** option for a particular macro, you can see the condition which was executed and whether it succeeded or failed.
+
 For example,
 
 You want to open a new form and save it after entering the fields. If the **Product** field in the form has **Surface** as the value, then evaluate it as true and then perform the knowledge base article search with the search phrase as **Surface**. If it is evaluated as false, then don't perform any action further.
