@@ -458,7 +458,7 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
 If you are creating an alternate key for Knowledge article entity, include the major or minor version in the key to maintain uniqueness. Also, if you are using translations, include the language code along with the version in the key to ensure a seamless translation experience. To know more about alternate keys, see [Define alternate keys for an entity](../developer/define-alternate-keys-entity.md).
 
 ## Prevent duplicate workflows with knowledge article operations   
-If you use [workflow processes](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/customize/workflow-processes) to perform knowledge article operations, such as:
+If you use [workflow processes](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/workflow-processes) to perform knowledge article operations, such as:
 - Create a knowledge article
 -	Update a knowledge article
 
@@ -480,7 +480,7 @@ When you use a workflow process to perform the following update operations, the 
    > [!NOTE]
    >  Other update operations, such as updating a field or approve/publish do not trigger the second workflow.
 
-To avoid triggering the workflow twice, in the workflow itself, set the trigger condition for the knowledge article as follows: For a “create” operation, set the root article to Yes. For an “update” operation, set the root article to No. 
+To avoid triggering the workflow twice, in the workflow itself, set the trigger condition for the knowledge article as follows: For a create operation, set the root article to Yes. For an update operation, set the root article to No. 
 
 Follow these steps:
   
@@ -509,8 +509,8 @@ Follow these steps:
 9. From the condition drop-down, select **Equals**.
 
 10. From the value drop-down, select a value:
-- **Yes** for the create operation.
-- **No** for the update operation.
+    - **Yes** for the create operation.
+    - **No** for the update operation.
 
     > [!div class=mx-imgBorder]
     > ![Set workflow condition](media/workflows-set-condition.png "Select the applicable value for the workflow condition from the drop-down list")
@@ -529,4 +529,4 @@ Now, when you perform a create or update operation, the workflow process will tr
 
 [Set up knowledge management using embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)
 
-[Use Workflow processes to automate processes that don't require user interaction](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/customize/workflow-processes)
+[Use Workflow processes to automate processes that don't require user interaction](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/workflow-processes)
