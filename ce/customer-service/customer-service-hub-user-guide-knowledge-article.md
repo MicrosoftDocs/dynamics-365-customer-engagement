@@ -528,3 +528,5 @@ Now, when you perform a create or update operation, the workflow process will tr
 [Create knowledge article template](create-templates-knowledge-article.md)
 
 [Set up knowledge management using embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)
+
+[Use Workflow processes to automate processes that don't require user interaction](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/customize/workflow-processes)
