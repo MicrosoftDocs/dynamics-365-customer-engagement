@@ -1,7 +1,7 @@
 ---
 title: "Work offline on your mobile device (Dynamics 365 apps)| MicrosoftDocs"
 ms.custom: 
-ms.date: 1/13/2020
+ms.date: 3/10/2020
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
@@ -35,12 +35,20 @@ Work with your data in offline mode even when you don't have internet access. Th
 When your admin has [enabled mobile offline](setup-mobile-offline-for-admin.md
 ), the next time you access the mobile app, you will be prompted to download offline updates. Once you download the updates, you can start using the mobile app in offline mode.
 
-- When you see the the dialog box that asks you to download updates to work offline, choose **Update**. 
+1. When you see the the dialog box that asks you to download updates to work offline, choose **Update**. 
 
     > [!div class="mx-imgBorder"] 
     > ![Download updates on your mobile device for mobile offline](media/DownloadUpdates.png "Download updates on your mobile device for mobile offline")
 
 If you choose **Skip for now**, you will not be able to use the app in offline mode until you manually download the updates. 
+
+2. Offline data automatically starts to download in the background. Once it's complete, you will get a notification letting you know the download is complete.
+
+
+   > [!div class="mx-imgBorder"] 
+   > ![Download updates complete](media/mobile_offline_download_updates_complete.png "Download updates complete")
+   
+When you open the app, the offline data is automatically updated and you can use the app in offline mode.
 
 ### Manually download updates
 
@@ -54,10 +62,13 @@ If you choose **Skip for now**, you will not be able to use the app in offline m
     > [!div class="mx-imgBorder"] 
     > ![Download Customization](media/DownloadCustomization.png "Download Customization")
 
-3. Once the update process starts you will see a progress indicator while the updates are being downloaded. When the download is complete, it's a good idea to verify offline mode is available.
+3. Offline data automatically starts to download in the background. Once it's complete, you will get a notification letting you know the download is complete.
 
-    > [!div class="mx-imgBorder"] 
-    > ![Download updates progress bar](media/downloadingupdatesprogress.png "Download updates progress bar")
+
+   > [!div class="mx-imgBorder"] 
+   > ![Download updates complete](media/mobile_offline_download_updates_complete.png "Download updates complete")
+   
+When you open the app, the offline data is automatically updated and you can use the app in offline mode.
 
 ## See if offline mode is available
 
