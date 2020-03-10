@@ -99,7 +99,7 @@ To learn more, see [Time series insights on IoT devices](cs-iot-visualize-device
   - Preview email templates prior to applying them to email.
   - Compose email in a pop-up, non-blocking window, with the ability to write an email with context of the current record, navigate between records, and have multiple active draft emails open simultaneously.
 
-  To learn more, see [Set up timeline section (control)](powerapps/maker/model-driven-apps/set-up-timeline-control.md) and [Learn the basics of the Customer Service Hub](customer-service-hub-user-guide-basics.md)
+  To learn more, see [Set up timeline section (control)](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control) and [Learn the basics of the Customer Service Hub](customer-service-hub-user-guide-basics.md)
 
 - <b>License enforcement - users with new Team Member licenses</b>
 
@@ -130,7 +130,7 @@ To learn more, see [Time series insights on IoT devices](cs-iot-visualize-device
   - Identify closed or completed activities visually.
 Show only User or System records with the additional filter.
 
-  To learn more, see [Set up timeline section (control)](powerapps/maker/model-driven-apps/set-up-timeline-control.md)
+  To learn more, see [Set up timeline section (control)](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control)
 
 - <b>Support for Site entity in the Unified Interface</b>
  
