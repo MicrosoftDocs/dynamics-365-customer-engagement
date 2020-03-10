@@ -4,7 +4,7 @@ description: Understand Knowledge Management in Customer Service Hub for Custome
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
-ms.date: 10/25/2019
+ms.date: 03/09/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -456,6 +456,61 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
 
 #### Manage versions in alternate keys for knowledge article entity
 If you are creating an alternate key for Knowledge article entity, include the major or minor version in the key to maintain uniqueness. Also, if you are using translations, include the language code along with the version in the key to ensure a seamless translation experience. To know more about alternate keys, see [Define alternate keys for an entity](../developer/define-alternate-keys-entity.md).
+
+## Prevent duplicate workflows with knowledge article operations   
+If you use [workflow processes](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/customize/workflow-processes) to perform knowledge article operations, such as:
+- Create a knowledge article
+-	Update a knowledge article
+
+The update operation is further classified into sub-operations, such as:
+-	Update a knowledge article version
+-	Manage a knowledge article version
+-	Translate a knowledge article
+
+For the create and update operations, be aware of the following when using the workflow process:
+Whenever you create a new knowledge article manually, the system creates two articles: a root article and a base article, which means:
+
+If you use a workflow process that is triggered on a create operation, the workflow is triggered twice—once each for the creation of base article and root article.
+
+When you use a workflow process to perform the following update operations, the workflow is triggered twice—once each for the base article and the root article:
+-	Create major version
+-	Create minor version
+-	Translate
+  
+   > [!NOTE]
+   >  Other update operations, such as updating a field or approve/publish do not trigger the second workflow.
+
+To avoid triggering the workflow twice, in the workflow itself, set the trigger condition for the knowledge article as follows: For a “create” operation, set the root article to Yes. For an “update” operation, set the root article to No. 
+
+Follow these steps:
+  
+1. Sign in to Customer Service Hub.  
+  
+2. Select **Settings** > **Advanced Settings**. Advanced Settings opens in a new browser tab.
+  
+3. In the navigation bar, select **Settings** > **Processes**.
+
+4. Select the knowledge article flow you created. The workflow process opens in a new browser window.
+
+5. In the **General** tab, select the **Add Step** drop-down list, and then select **Check Condition**. A new step will be added.
+
+6. In the step, select **<condition> (click to configure)**. The **Specify condition** page opens in a new browser window.
+  
+7. From the entity drop-down, select **Knowledge Article**.
+
+8. From the field drop-down, select **Root Article**.
+
+9. From the condition drop-down, select **Equals**.
+
+10. From the value drop-down, select a value.
+- **Yes** for the create operation.
+- **No** for the update operation.
+
+11.	Select **Save and Close** to save the condition and close the window.
+
+12.	In the workflow process window, select **Save and Close** to save the condition and close the window.
+
+Now, when you perform a create or update operation, the workflow process will trigger only once. 
 
 ### See also
 
