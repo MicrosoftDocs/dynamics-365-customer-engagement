@@ -4,7 +4,7 @@ description: "Learn about notifications and their types. Agents will see notific
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 01/31/2020
+ms.date: 04/01/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -14,9 +14,9 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-A notification is a visual alert you see as a dialog box each time you get a chat, or SMS conversation request from a customer. When you get a notification, you see the details of the customer with whom you are going to interact. When you accept the request, a session is started, and you can view the contextual information of the customer and case in the customer summary page.
+A notification is a visual alert that appears each time you get a chat or SMS conversation request from a customer. When you get a notification, you see the details about the customer with whom you're going to interact. When you accept the request, a session is started, and you can view the contextual information of the customer and case in the customer summary page.
 
-Some of the scenarios where you can receive notifications:
+Some of the scenarios where you might receive notifications:
 
 - Incoming chat conversation
 
@@ -28,28 +28,28 @@ Some of the scenarios where you can receive notifications:
 
 - Conversation escalation
 
-- Conversation escalation from Bot
+- Conversation escalation from a bot
 
-### Receive notification when app is in background
+### Receive notification when the app is in the background
 
-You'll receive desktop notifications when the Omnichannel for Customer Service app is not in focus. The desktop notification helps you not to miss any conversation notification requests. Some of the scenarios, where the app is not focus are: 
+You'll receive desktop notifications when the Omnichannel for Dynamics 365 Customer Service app isn't in focus. The desktop notification helps ensure that you won't miss any conversation requests. Some scenarios where the app isn't in focus might include: 
 
-- When you've minimized the app.
-- When you are working on another browser window.
-- When you are working on a another browser tab.
+- You've minimized the app.
+- You're working in another browser window.
+- You're working on another tab of the browser.
 
  > [!div class=mx-imgBorder]
  > ![Desktop notification](../../media/oceh/desktop-notification.png "Desktop notification")
 
-You can accept or reject by selecting a button on the desktop notification. When you accept the conversation by selecting a button on the desktop notification, the Omnichannel for Customer Service app is made active, displayed to you, and a session is started.
+You can accept or reject the conversation request by selecting a button on the desktop notification. When you accept the conversation request, the Omnichannel for Customer Service app is made active and displayed to you, and a session is started.
 
-If you select the notification message/body and not the button, then the Omnichannel for Customer Service app is made active, and the notification is displayed to you in the app. Now, you can choose to accept or reject the conversation using appropriate buttons.
+If you select the notification message body and not a button, the Omnichannel for Customer Service app is made active and the notification is displayed to you in the app. Then you can choose to accept or reject the conversation by selecting the appropriate button.
 
-The wait time that is configured by your administrator applies to the desktop notification, but doesn't display the wait time on the desktop notification. The desktop notification theme is based on Windows operating system theme and settings.
+The wait time that's configured by your administrator applies to the desktop notification, but doesn't display the wait time on the desktop notification<!--note from editor: What does this mean? Will the reader know?-->. The desktop notification theme is based on the Windows operating system theme and settings.
 
-#### Allow browser to show notification
+#### Allow your browser to show notifications
 
-To get the desktop notification, you need to allow the browser (Microsoft Edge and Google Chrome) to shown notification. When agent get the browser notification, they need to select the **Allow** button.
+To get desktop notifications, you need to allow your browser (Microsoft&nbsp;Edge or Google Chrome) to show notifications. When you get a browser notification, you need to select **Allow**.
 
  > [!div class=mx-imgBorder]
  > ![Allow desktop notification](../../media/oceh/allow-desktop-notification.png "Allow desktop notification")
@@ -65,12 +65,12 @@ There are two types of notifications:
 
 ## Incoming chat notification
 
-You receive a notification for an incoming chat request. When you accept the chat request, you’ll see a details about the customer in the Customer summary page. A simultaneous session starts, and a chat window expands so you can exchange messages with the customer.
+You receive a notification for an incoming chat request. When you accept the chat request, you'll see a details about the customer in the Customer summary page. A simultaneous session starts, and a chat window expands so you can exchange messages with the customer.
 
  > [!div class=mx-imgBorder]
  > ![Incoming chat notification](../../media/oceh/chat-notification-request.png "Incoming chat notification")  
 
-The details you’ll see for a chat channel are as configured by your administrator.
+The details you'll see for a chat channel are as configured by your administrator.
 
 ## Incoming SMS notification
 
@@ -81,7 +81,7 @@ Identification of a customer happens based on the **Mobile Phone** field present
  > [!div class=mx-imgBorder]
  > ![Incoming SMS notification](../../media/oceh/sms-notification-request.png "Incoming SMS notification") 
 
-The details you’ll see for a SMS channel are as configured by your administrator
+The details you'll see for a SMS channel are as configured by your administrator
 
 ## Incoming Facebook notification
 
