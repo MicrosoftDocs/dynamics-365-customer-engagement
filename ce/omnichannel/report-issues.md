@@ -44,10 +44,6 @@ The feature uses a keyboard shortcut to capture the information from the Omnicha
 
 When you reach to Microsoft support, share the diagnostic report. The report helps us to fasten the diagnosis process.
 
-> [!Note]
-> - The keyboard shortcut doesn't work in the Knowledge article search page.
-> - The shortcut doesn't work on any web resource that embeds another iframe.
-
 ## Diagnostic report information
 
 The diagnostic report contains information specific to Omnichannel but doesn't contain any of your personal information.
