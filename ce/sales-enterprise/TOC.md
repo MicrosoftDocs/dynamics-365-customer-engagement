@@ -63,6 +63,10 @@
 #### [Manage playbook templates](manage-playbook-templates.md) 
 #### [Associate documents with playbook activities](associate-documents-playbook-activities.md)
 
+### Power BI template apps for Dynamics 365 Sales
+#### [Analyze your sales data using Power BI template apps](introduction-sales-template-apps.md)
+#### [Configure Power BI template apps to work with Dynamics 365 Sales](configure-sales-template-apps.md)
+
 ### General Data Protection Regulation (GDPR)
 #### [Dynamics 365 Sales & GDPR](../sales-enterprise/dynamics-365-sales-gdpr.md)
 ### Upgrade or downgrade
@@ -128,10 +132,6 @@
 #### [Add an activity to a campaign](../sales-enterprise/add-activity-campaign-using-app-marketing-sales.md)
 #### [Track a marketing campaign response](../sales-enterprise/track-marketing-campaign-response-using-app-marketing-sales.md)
 ### [Use Sales Hub on the mobile app](../sales-enterprise/use-sales-hub-on-dynamics-365-mobile.md)
-
-### Power BI template apps for Dynamics 365 Sales
-#### [Analyze your sales data using Power BI template apps](introduction-sales-template-apps.md)
-#### [Configure Power BI template apps to work with Dynamics 365 Sales](configure-sales-template-apps.md)
 
 ## Troubleshooting and FAQs
 ### [Troubleshooting guide for sales people](troubleshooting.md)

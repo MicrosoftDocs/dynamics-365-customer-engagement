@@ -164,7 +164,7 @@ Before you customize the template app, read the information here and perform eac
 
 - [Power BI service registration](https://powerbi.com/)
 - [Power BI Desktop](https://powerbi.microsoft.com/desktop/) application for editing Power BI reports
-- Power BI report for the Customer Service template app that you want to customize
+- Power BI report for the template app that you want to customize:
     - [Download the Power BI report for Sales Analytics for Dynamics 365 Sales](https://go.microsoft.com/fwlink/p/?linkid=2121605)
     - [Download the Power BI report for Process Analytics for Dynamics 365 Sales](https://go.microsoft.com/fwlink/p/?linkid=2121504)
 
