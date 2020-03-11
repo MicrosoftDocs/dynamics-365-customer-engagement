@@ -9,7 +9,7 @@
                         "TERMINOLOGY_VALID"
                         "VOICE_GUIDANCE"
                         ]
-  "termSetNames" ["BAG"]
+  "termSetNames" ["BAG" "Microsoft" "Products"]
  }
 }
 
