@@ -125,8 +125,6 @@ This action is used for updating the form attribute (field). The action updates 
    |-----------------|-----------------------------|--------------------------|
    | Entity logical name | Specify the logical name of the entity that you want to update. <br> This is a mandatory field. | incident |
 
-All the input parameter are of type string.
-
 ##### Save the record
 
 This action is used for saving the record after you've entered data in all the mandatory fields. The action fails if the mandatory fields aren't entered or left blank.
