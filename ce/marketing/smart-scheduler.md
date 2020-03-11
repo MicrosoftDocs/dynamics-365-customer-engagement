@@ -50,11 +50,11 @@ To create a journey that uses optimized delivery times:
 
 1. Design your journey as usual but add a scheduler tile in front of each email tile where you want to use automated scheduling.
 
-    ![Place a scheduler before your email tile](media/smart-scheduler-cj-tiles.png "Place a scheduler before your email tile")
+    ![Place a scheduler before your email tile](media/Smart_scheduler_April2020.PNG "Place a scheduler before your email tile")
 
 1. Select a scheduler tile and open the **Properties** tab.
 
-    ![Set scheduler properties](media/smart-scheduler-cj-properties.png "Set scheduler properties")
+    ![Set scheduler properties](media/Smart_scheduler_April2020_2.PNG "Set scheduler properties")
 
     Make the following settings:
 
