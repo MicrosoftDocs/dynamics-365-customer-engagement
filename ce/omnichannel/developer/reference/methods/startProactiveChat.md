@@ -15,7 +15,7 @@ ms.topic: article
 
 ## Syntax
 
-`Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat(notificationUIConfig, showPrechat);`
+`Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat(notificationUIConfig, showPrechat, inNewWindow, windowObject);`
 
 ## Parameters
 
@@ -23,7 +23,7 @@ ms.topic: article
 | ---- | ---- | ---- | ---- |
 | notificationUIConfig | Object | Yes | Allows you to pass UI configurations for proactive chat notification. This object lets you customize the notification, including the message to be displayed. |
 | showPrechat | Boolean | No | Boolean flag to indicate whether prechat is shown if configured for the widget. The default value is `true`. |
-| inNewWindows | Boolean | No | Set to `true` if you want to open chat in a new window. |
+| inNewWindow | Boolean | No | Set to `true` if you want to open chat in a new window. |
 | windowObject | Object | Optional | JSON object to provide dimensions of the window. |
 
 > [!IMPORTANT]

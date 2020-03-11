@@ -18,7 +18,7 @@ ms.topic: article
 
 ## Syntax
 
-`Microsoft.Omnichannel.LiveChatWidget.SDK.startChat();`
+`Microsoft.Omnichannel.LiveChatWidget.SDK.startChat(inNewWindow, windowObject);`
 
 ## Parameters
 
