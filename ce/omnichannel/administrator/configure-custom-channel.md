@@ -158,9 +158,9 @@ To create a custom channel, follow the steps:
 
 ## Bring channels using Direct Line
 
-The Bot Framework **Direct Line** channel is a way to integrate your social channels into the Omnichannel for Customer app.
+The Bot Framework **Direct Line** channel is another way to integrate your social channels into the Omnichannel for Customer app.
 
-For more information, see []()
+For more information, see []().
 
 ## See also
 
