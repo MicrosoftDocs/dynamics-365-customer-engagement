@@ -1,2 +1,15 @@
 {:allowed-branchname-matches ["^master$" "^master-omnichannel$"]
- :allowed-filename-matches ["ce"]}
+ :allowed-filename-matches ["ce"]
+ :acrolinx-check-settings
+ {
+  "languageId" "en"
+  "ruleSetName" "Standard"
+  "requestedFlagTypes" ["SPELLING" "GRAMMAR" "STYLE"
+                        "TERMINOLOGY_DEPRECATED"
+                        "TERMINOLOGY_VALID"
+                        "VOICE_GUIDANCE"
+                        ]
+  "termSetNames" ["BAG"]
+ }
+}
+
