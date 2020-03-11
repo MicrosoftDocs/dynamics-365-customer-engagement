@@ -36,6 +36,10 @@ The following social channels integration are supported:
 - Telegram
 - Direct Line
 
+## Prerequisites
+
+- Make sure channels are provisioned in your environment.
+
 ## End-to-end walk-through
 
 [Step 1: Register your social channel](#step-1-register-your-social-channel)
