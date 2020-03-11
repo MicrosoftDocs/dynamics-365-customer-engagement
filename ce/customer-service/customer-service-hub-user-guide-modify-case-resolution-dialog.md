@@ -102,7 +102,7 @@ You’ve successfully added a duplicate status to the status code field, now you
 
 Now that we've added the duplicate status to the case entity, we need to add it to the case resolution entity. 
 
-Admins can this enable customizable dialog on a form through advanced setting in the Customer Service Hub (CSH) screen using the following steps:  
+The admin can enable customizable dialog on a form through accessing the advanced setting in the Customer Service Hub (CSH) screen and using the following steps:  
 
 **Step 1:** Select **Service Management**
 
