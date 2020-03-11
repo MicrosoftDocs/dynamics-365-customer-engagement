@@ -98,11 +98,12 @@ Review the following requirements before configuring SLAs for your organization:
 
 - The System Administrator, System Customizer, or Customer Service Manager role is assigned to you.
 
-- Identify target entities and add customizations. To add customizations in target entities to track SLAs, follow these steps:<!--note from editor: The steps weren't being formatted correctly on docs, so I tweaked the markdown a little. I've seen this behavior quite often lately;-->
-   1. Create a lookup field on the entity for which an SLA has to be configured, and relate it to an SLA KPI instance. Lookup fields are created so that you can view the SLA in the timer on the entity form and track your SLAs. To learn more, see [Create and edit fields](../customerengagement/on-premises/customize/create-edit-fields.md#create-and-edit-fields).
-   For example, to track an SLA on a case for "escalated by KPI,"<!--note from editor: I don't know what "escalated by KPI" means here. Is it the name of the SLA? So it might be "...to track an 'escalated by KPI' SLA on a case.."?--> you need to create a field as **EscalatedByByKPI** on the Case entity, and provide the respective **Target Record Type** as **Service Level Agreement Instances** and **Data Type** as **Lookup**.
+- Identify target entities and add customizations. To add customizations in target entities to track SLAs, follow these steps:
+   
+   a. Create a lookup field on the entity for which an SLA has to be configured, and relate it to an SLA KPI instance. Lookup fields are created so that you can view the SLA in the timer on the entity form and track your SLAs. To learn more, see [Create and edit fields](../customerengagement/on-premises/customize/create-edit-fields.md#create-and-edit-fields).
+   For example, to track an SLA on a case for "escalated by KPI, you need to create a field as **EscalatedByByKPI** on the Case entity, and provide the respective **Target Record Type** as **Service Level Agreement Instances** and **Data Type** as **Lookup**.
 
-    2. Use the lookup field to configure a timer to help users estimate the amount of time they have to complete a task—typically as specified in an SLA.<br>
+    b. Use the lookup field to configure a timer to help users estimate the amount of time they have to complete a task—typically as specified in an SLA.<br>
       To configure a timer, add the timer control to an entity form. The timer control initially displays a countdown timer to show the time remaining to complete the task. To learn more, see [Add a timer control to the Case form to track time against an SLA](add-timer-control-case-form-track-time-against-sla.md).
 
 
@@ -189,7 +190,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
    b. Select **Continue**. The predefined flow that's specific to the SLA appears.
        
-     > [!NOTE] 
+     > [!NOTE]
      > We recommend that you don't edit the predefined flow. Doing so can cause breaks in the flow, and the SLA might not work as defined.
     
    c. Select **Switch**. The following condition steps are displayed:
@@ -221,7 +222,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
      When you activate an SLA, a corresponding workflow is also created. For every action you perform on the SLA, you must have permissions to perform the same action on workflows. The SLA is applied in the context of the permissions that the owner of the SLA has.  
 
-    #### Check your security role  
+    **Check your security role**  
 
    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
 
@@ -324,7 +325,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
      When you activate an SLA, a corresponding workflow is also created. For every action you perform on the SLA, you must have permissions to perform the same action on workflows. The SLA is applied in the context of the permissions that the owner of the SLA has.  
 
-    #### Check your security role  
+    **Check your security role**  
 
    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
 
