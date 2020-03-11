@@ -42,7 +42,7 @@ The feature uses a keyboard shortcut to capture the information from the Omnicha
 
 5. Paste the diagnostic report that you copied into the notepad, and save the notepad.
 
-When you reach to Microsoft support, share the diagnostic report. The report helps us to fasten the diagnosis process.
+When you reach to [Microsoft support](https://docs.microsoft.com/power-platform/admin/get-help-support), share the diagnostic report. The report helps us to fasten the diagnosis process.
 
 ## Diagnostic report information
 
