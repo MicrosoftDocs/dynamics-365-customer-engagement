@@ -4,7 +4,7 @@ description: Understand Cases in Customer Service Hub for Dynamics 365 Customer 
 author: neeranelli
 ms.author: lrobbin
 manager: shujoshi
-ms.date: 2/3/2019
+ms.date: 3/10/2019
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -25,7 +25,35 @@ Updates to the case resolution main form dialog (MFD) provides customers with ad
 
 The new MFD experience is similar to the old experience, but behind the scenes this is a form which customers can freely edit.  Customers have the ability to go into the form designer and edit and modify fields as desired based on business needs.
 
-## Set Resolution Type
+## Status Values 
+
+When adding custom status values, you will need to add them in two locations:
+
+- <b>Location 1: Case Resolution Entity:</b> Here is where you set the resolution type of the incident entity (status code).
+
+- <b>Location 2: Enable Customizable Dialog:</b> Here is where you set the incident resolution entity (resolution type code).
+
+Use the following steps to access Location 1 and 2 to edit the entities:
+
+**Step 1:** Go to **Settings**
+
+   > [!div class=mx-imgBorder]
+   > ![Status Values - Select Settings](media/status-values-step-1.PNG)
+
+**Step 2:** Click on **All legacy settings**
+    
+   > [!div class=mx-imgBorder]
+   > ![Status Values - Select All Legacy settings](media/status-values-step-2.PNG)
+
+**Step 3:** Click on **Customize the System**
+    
+   > [!div class=mx-imgBorder]
+   > ![Status Values - Customize the system](media/status-values-step-3.PNG)
+
+## Case Resolution Entity
+
+### Location 1: Set Resolution Type
+
 One example of how case resolution can be used, is by resolving situations where you receive duplicate cases. You now can set the resolution type to display which cases have duplicate status.  
 
 The following steps provide walk you through how to set the resolution type for duplicate cases:
@@ -67,6 +95,56 @@ Once you select Add, the **Add List Value** window will appear.
   > ![Enter Duplicate](media/case_resolution_6.png "Enter Duplicate")
 
 You’ve successfully added a duplicate status to the status code field, now you can edit the form to add the field you just created.  
+
+## Enable Customizable Dialog
+
+### Location 2: Set Incident Resolution Entity
+
+Admin can enable customizable dialog on a form through advanced setting in the Customer Service Hub (CSH) screen using the following steps:  
+
+<B>Step 1:</b>  Select <b> Service Management</b>
+
+<b>Step 2:</b>  Select <b>Service Configuration</b>
+
+<b>Step 3:</b>	Use the drop down and select <b>Customizable Dialog</b>
+
+<b>Step 4:</b>	Click <b>Save</b>
+
+  > [!div class=mx-imgBorder]
+  > ![Enable Customizable Dialog](media\case-resolution-entity.png)
+
+> [!NOTE]: 
+> The system default is set to <b>Standard Dialogue</b>. Admin must select <b>Customizable Dialog</b> otherwise any changes made will be saved to the form, but will not be displayed for use. 
+
+## Case Resolution Entity
+
+  > [!div class=mx-imgBorder]
+  > ![Case Resolution Entity](media\enable-customizable-dialog-1.png)
+
+<b>Step 1:</b> Select <b>Case Resolution</b> entity
+
+<b>Step 2:</b> Select <b>Fields</b>
+
+<b>Step 3:</b> Select <b>Resolution Type Code</b>
+
+  > [!div class=mx-imgBorder]
+  > ![Case Resolution Entity](media\enable-customizable-dialog-2.png)
+
+<b>Step 4:</b>Under Options section, click on plus symbol. This will enable the <b>Label</b> and <b> Value</b> fields to be populated.
+
+<b>Step 5: </b> In the <b>Label</b> field, enter a value name, for this example we used <b>Duplicate</b>
+
+<b>Step 6: </b> In the <b>Value</b> field, you want to confirm that the variable listed matches the value listed in the case entity.  
+
+<b>Step 7:</b> Click <b>Save</b>
+
+Now the a case resolution entity will appear in the dialog field as an option you can select.
+
+> [!IMPORTANT] 
+> - The system default for the <B>Value</b> variable is set at <b>10,000,000</b>. Values for both options need to be the same. 
+> - If you change the value in the Case Entity, you need to update the value in the Case Resolution Entity to match.
+> - If the values in the Case Entity do not match the values in the Case Resolution Entity, an error message will display when you try to resolve the case.  
+
 
 ## Edit Form
 Case resolution allows you to tailor form fields to support the needs of your business.  You now can add or remove fields that don’t apply to your business model without using code.  
@@ -134,28 +212,6 @@ You will know if a case has been successfully resolved per the status bar at the
 > [!IMPORTANT] 
 > If you have created your own security roles, you'll need to update your roles before you can use the modified case resolution dialog.
 
-## Status Values 
-
-If you want to add custom status values, they need to be added in two places:
-1. Incident entity - status code.
-2. Incident resolution entity - resolution type code.
-
-To edit the entities use the following steps:
-
-**Step 1:** Go to **Settings**
-
-   > [!div class=mx-imgBorder]
-   > ![Status Values - Select Settings](media/status-values-step-1.PNG)
-
-**Step 2:** Click on **All legacy settings**
-    
-   > [!div class=mx-imgBorder]
-   > ![Status Values - Select All Legacy settings](media/status-values-step-2.PNG)
-
-**Step 3:** Click on **Customize the System**
-    
-   > [!div class=mx-imgBorder]
-   > ![Status Values - Customize the system](media/status-values-step-3.PNG)
 
  
 
