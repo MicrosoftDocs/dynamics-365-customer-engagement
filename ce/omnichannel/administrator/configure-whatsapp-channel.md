@@ -103,12 +103,15 @@ To create a WhatsApp channel, follow the steps:
     > [!div class=mx-imgBorder]
     > ![Create a WhatsApp channel](../media/whatsapp-channel-1.png "Create a WhatsApp channel")     
 
-4. Select **Save**. After you save, in the **Callback information** section, the **Twilio inbound URL** field is generated with a URL. Copy the URL from the field. 
+4. Select **Save**. After you save, in the **Callback information** section, the **Twilio inbound URL** field is generated with a URL. Copy the URL from the field, and paste in your Twilio console. 
 
     > [!div class=mx-imgBorder]
     > ![Copy the Twilio inbound URL](../media/whatsapp-channel-2.png "Copy the Twilio inbound URL") 
 
-5. <<\<Information is needed for this step as to where the URL need to be pasted in the Twilio account.>>>
+5. Go to your Twlilo console > **Phone Numbers**, and select the WhatsApp phone number. Under **Messaging** section, paste the **Twilio inbound URL**.
+
+    > [!div class=mx-imgBorder]
+    > ![Paste the Twilio inbound URL](../media/whatsapp-channel-6.png "Paste the Twilio inbound URL") 
 
 6. In the **WhatsApp phone numbers** section, select **+ Add New WhatsApp Number**. The **New Custom Messaging Channel** page is displayed to you.
 
