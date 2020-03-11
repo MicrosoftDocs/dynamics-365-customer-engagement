@@ -12,7 +12,7 @@ manager: shujoshi
 
 # Configure Power BI template apps to work with Dynamics 365 Sales
 
-You must perform the following steps to configure Sales Analytics for Dynamics 365 Sales or Process Analytics for Dynamics 365:
+You must perform the following steps to configure Sales Analytics for Dynamics 365 Sales or Process Analytics for Dynamics 365 Sales:
 
 1. [Review the prerequisites](#step-1-prerequisites)
 2. [Install the Power BI template app](#step-2-install-the-power-bi-template-app)
@@ -154,7 +154,7 @@ Each sales manager must configure their environment to integrate the Sales Analy
 > [!IMPORTANT]
 > Microsoft does not support customizations made to the Power BI template app and does not provide updates once modifications are made.
 
-Power BI is a comprehensive collection of services and tools that you use to visualize your business data. Power BI Template apps make it easy to visualize and analyze the sales data with Power BI based on a standard data model. The Sales Analytics for Dynamics 365 Sales and Process Analytics for Dynamics 365 Power BI template apps are built with a set of entities and fields that are useful for most reporting scenarios.
+Power BI is a comprehensive collection of services and tools that you use to visualize your business data. Power BI Template apps make it easy to visualize and analyze the sales data with Power BI based on a standard data model. The Sales Analytics for Dynamics 365 Sales and Process Analytics for Dynamics 365 Sales Power BI template apps are built with a set of entities and fields that are useful for most reporting scenarios.
 
 Dynamics 365 apps are often extended with custom fields. These custom fields don't automatically show up in the Power BI model. This topic describes how you can edit and extend the report included in the template app to include custom fields in the Power BI model.
 
