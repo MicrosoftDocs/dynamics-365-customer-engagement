@@ -115,7 +115,7 @@ The admin can enable customizable dialog on a form through accessing the advance
   > [!div class=mx-imgBorder]
   > ![Enable Customizable Dialog](media\case-resolution-entity.png "Enable Customizable Dialog")
 
-> [!NOTE]: 
+> [!NOTE]
 > The setting default is set to **Standard Dialogue**. Admin must select **Customizable Dialog** otherwise any changes made will be saved to the form, but will not be displayed for use. 
 
 ## Case Resolution Entity
