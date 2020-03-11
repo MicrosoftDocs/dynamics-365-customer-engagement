@@ -21,19 +21,19 @@ search.app:
 
 # Modify Case Resolution Dialog
 
-Updates to the case resolution main form dialog (MFD) provides customers with additional functionality to support case resolution entities and edit dialog without code knowledge or experience.  The new functionality provides a powerful construct to expand the case resolution entity to support business needs that enable users to add and remove fields instantly without writing a single line of code. 
+Updates to the case resolution main form dialog (MFD) provides customers with additional functionality to support case resolution entities and edit dialog without code knowledge or experience.  This new functionality provides a powerful construct to expand the case resolution entity to support business needs that enable users to add and remove fields instantly without writing a single line of code. 
 
 The new MFD experience is similar to the old experience, but behind the scenes this is a form which customers can freely edit.  Customers have the ability to go into the form designer and edit and modify fields as desired based on business needs.
 
 ## Status Values 
 
-When adding custom status values, you will need to add them in two locations:
+It is important to note, that when adding custom status values, you must update them in two locations:
 
 - <b>Location 1: Case Resolution Entity:</b> Here is where you set the resolution type of the incident entity (status code).
 
 - <b>Location 2: Enable Customizable Dialog:</b> Here is where you set the incident resolution entity (resolution type code).
 
-Use the following steps to access Location 1 and 2 to edit the entities:
+Before you update Locations 1 and 2, use the following steps to access entities:
 
 **Step 1:** Go to **Settings**
 
@@ -54,9 +54,9 @@ Use the following steps to access Location 1 and 2 to edit the entities:
 
 ### Location 1: Set Resolution Type
 
-One example of how case resolution can be used, is by resolving situations where you receive duplicate cases. You now can set the resolution type to display which cases have duplicate status.  
+One example of how you can use case resolution is by resolving situations where you receive duplicate cases. In this example, we will show you how to set the resolution type to display which cases have duplicate status.  
 
-The following steps provide walk you through how to set the resolution type for duplicate cases:
+The following steps walk you through how to set the resolution type for duplicate cases:
 
 **Step 1:** Select on **Customize the System**
 
@@ -100,50 +100,52 @@ You’ve successfully added a duplicate status to the status code field, now you
 
 ### Location 2: Set Incident Resolution Entity
 
-Admin can enable customizable dialog on a form through advanced setting in the Customer Service Hub (CSH) screen using the following steps:  
+Now that we've added the duplicate status to the case entity, we need to add it to the case resolution entity. 
 
-<B>Step 1:</b>  Select <b> Service Management</b>
+Admins can this enable customizable dialog on a form through advanced setting in the Customer Service Hub (CSH) screen using the following steps:  
 
-<b>Step 2:</b>  Select <b>Service Configuration</b>
+**Step 1:** Select **Service Management**
 
-<b>Step 3:</b>	Use the drop down and select <b>Customizable Dialog</b>
+**Step 2:** Select **Service Configuration**
 
-<b>Step 4:</b>	Click <b>Save</b>
+**Step 3:**	Use the drop down and select **Customizable Dialog**
+
+**Step 4:**	Click **Save**
 
   > [!div class=mx-imgBorder]
-  > ![Enable Customizable Dialog](media\case-resolution-entity.png)
+  > ![Enable Customizable Dialog](media\case-resolution-entity.png "Enable Customizable Dialog")
 
 > [!NOTE]: 
-> The system default is set to <b>Standard Dialogue</b>. Admin must select <b>Customizable Dialog</b> otherwise any changes made will be saved to the form, but will not be displayed for use. 
+> The setting default is set to **Standard Dialogue**. Admin must select **Customizable Dialog** otherwise any changes made will be saved to the form, but will not be displayed for use. 
 
 ## Case Resolution Entity
 
   > [!div class=mx-imgBorder]
-  > ![Case Resolution Entity](media\enable-customizable-dialog-1.png)
+  > ![Case Resolution Entity](media\enable-customizable-dialog-1.png "Case Resolution Entity")
 
-<b>Step 1:</b> Select <b>Case Resolution</b> entity
+**Step 1:** Select **Case Resolution** entity
 
-<b>Step 2:</b> Select <b>Fields</b>
+**Step 2:** Select **Fields**
 
-<b>Step 3:</b> Select <b>Resolution Type Code</b>
+**Step 3:** Select **Resolution Type Code**
 
   > [!div class=mx-imgBorder]
-  > ![Case Resolution Entity](media\enable-customizable-dialog-2.png)
+  > ![Case Resolution Entity](media\enable-customizable-dialog-2.png "Case Resolution Entity")
 
-<b>Step 4:</b>Under Options section, click on plus symbol. This will enable the <b>Label</b> and <b> Value</b> fields to be populated.
+**Step 4:** Under Options section, click on plus symbol. This will enable the **Label** and **Value** fields to be populated.
 
-<b>Step 5: </b> In the <b>Label</b> field, enter a value name, for this example we used <b>Duplicate</b>
+**Step 5:** In the **Label** field, enter a value name, for this example we used **Duplicate**
 
-<b>Step 6: </b> In the <b>Value</b> field, you want to confirm that the variable listed matches the value listed in the case entity.  
+**Step 6:** In the **Value** field, you want to confirm that the variable listed matches the value listed in the case entity.  
 
-<b>Step 7:</b> Click <b>Save</b>
+**Step 7:** Click **Save**
 
 Now the a case resolution entity will appear in the dialog field as an option you can select.
 
 > [!IMPORTANT] 
-> - The system default for the <B>Value</b> variable is set at <b>10,000,000</b>. Values for both options need to be the same. 
-> - If you change the value in the Case Entity, you need to update the value in the Case Resolution Entity to match.
-> - If the values in the Case Entity do not match the values in the Case Resolution Entity, an error message will display when you try to resolve the case.  
+> - The system default for the **Value** variable is set at **10,000,000**. Values for both options must be the same. 
+> - If you change the value in the **Case Entity**, you must update the value in the **Case Resolution Entity** to match.
+> - If the values in the **Case Entity** do not match the values in the **Case Resolution Entity**, an error message will display when you try to resolve the case.  
 
 
 ## Edit Form
