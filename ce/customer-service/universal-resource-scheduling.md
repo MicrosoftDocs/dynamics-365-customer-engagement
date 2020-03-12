@@ -280,7 +280,7 @@ Other possible scenarios that might leverage these APIs are:  
 - Build a custom web app or a Dynamics 365 portal to provide appointment scheduling for users. The app will show available time slots for the service or product being offered by using multiresource requirements (requirement groups).
 - Build a Power Apps canvas app to support self-scheduling scenarios for line-of-business apps.    
 
-See the [See also](#bkmk_seealso) section for links to additional help resources.
+See the [Additional resources](#bkmk_seealso) section for links to additional help resources.
 
 ### Sample code
 
@@ -540,7 +540,7 @@ response.Dump();
 ```
 <a href="bkmk_seealso"></a>
 
-### See also
+### Additional resources
 
 |||
 |----|---|
