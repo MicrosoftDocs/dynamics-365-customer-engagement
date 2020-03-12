@@ -278,32 +278,13 @@ To execute this search against your organization, you need to download the [samp
 
 Other possible scenarios that might leverage these APIs are:   
 - Build a custom web app or a Dynamics 365 portal to provide appointment scheduling for users. The app will show available time slots for the service or product being offered by using multiresource requirements (requirement groups).
-- Build a Power App canvas app to support self-scheduling scenarios for line-of-business apps.    
+- Build a Power Apps canvas app to support self-scheduling scenarios for line-of-business apps.    
 
-## Additional resources  
+See the [See also](#bkmk_seealso) section for links to additional help resources.
 
-- Multiresource scheduling with [requirement groups](https://docs.microsoft.com/dynamics365/common-scheduler/multi-resource-scheduling-requirement-groups)
-   
-- Search Resource Availability API for [single resource requirements](https://cloudblogs.microsoft.com/dynamics365/it/2019/07/15/how-to-use-resource-schedulings-search-resource-availability-api/)   
+### Sample code
 
-- Overview of [Dynamics 365 for Field Service](https://docs.microsoft.com/dynamics365/field-service/overview) <!--Edit to the URL okay?-->
-
-- Documentation for [resource scheduling](https://docs.microsoft.com/dynamics365/customer-engagement/common-scheduler/schedule-anything-with-universal-resource-scheduling)  
-
-- [Learning path](https://docs.microsoft.com/learn/paths/universal-resource-scheduling/) for resource scheduling
-
-- [Field Service YouTube Channel](https://www.youtube.com/playlist?list=PLcakwueIHoT_AQBxkQQ7zePzd7fzZYP7X)
-
-- [Dynamics 365 application ideas](https://experience.dynamics.com/ideas/categories/list/?category=a2fa5aca-3f2d-e811-813c-e0071b6ad011&forum=bee3d862-df65-e811-a95d-000d3a1be7ad) portal where you can contribute product feedback and ideas for resource scheduling 
-
-- [Forum](https://community.dynamics.com/365/fieldservice) where you can ask questions, find answers, and see upcoming events 
-
-- The [Dynamics 365 blog](https://cloudblogs.microsoft.com/dynamics365/?s=Resource+Scheduling), which has ongoing release notes and posts from the product team   
-<!--The following information is redundant:
-- The post [How to use Resource Scheduling’s Search Resource Availability API](https://cloudblogs.microsoft.com/dynamics365/it/2019/07/15/how-to-use-resource-schedulings-search-resource-availability-api/) appeared first on [Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365).-->   
-
-<!--Can you say what the following sample code snippet can be used for? It's kind of just floating here.-->
-### Sample code snippet
+The sample code given below shows how to implement `msdyn_SearchResourceAvailabilityForRequirementGroup` message.
 
 ```csharp
 void Main()  
@@ -518,7 +499,7 @@ response.Dump();
 
 2. Create the business closure and work hours for all equipment (3:00 PM to 6:00 PM). 
 
-3. Create a new service (**Service1**) Choose 1 from (Random) Eq1, Eq2, #q3 <!--I don't know what the UI says, so I can't suggest the correct formatting for "Choose 1 from (Random)." -->
+3. Create a new service (**Service1**) Choose 1 from (Random) Eq1, Eq2, #q3.
 
 ![Service Activity screenshot for scenario 3](media/ur-scheduling-21-new.png "Service Activity screenshot for scenario 3")
 
@@ -557,8 +538,18 @@ response.ToString();
 response.Dump(); 
 } 
 ```
+<a href="bkmk_seealso"></a>
 
 ### See also
 
-[Service Scheduling Guide](basics-service-service-scheduling.md)  
-[Service scheduling FAQ](service-scheduling-faq.md)
+[Service Scheduling Guide](basics-service-service-scheduling.md)<br />
+[Service scheduling FAQ](service-scheduling-faq.md)<br />
+[Multiresource scheduling with requirement groups](https://docs.microsoft.com/dynamics365/common-scheduler/multi-resource-scheduling-requirement-groups)<br />
+[Search Resource Availability API for single resource requirements](https://cloudblogs.microsoft.com/dynamics365/it/2019/07/15/how-to-use-resource-schedulings-search-resource-availability-api/)<br />
+[Overview of Dynamics 365 for Field Service](https://docs.microsoft.com/dynamics365/field-service/overview) <br />
+[Documentation for resource scheduling](https://docs.microsoft.com/dynamics365/customer-engagement/common-scheduler/schedule-anything-with-universal-resource-scheduling)<br /> 
+[Learning path for resource scheduling](https://docs.microsoft.com/learn/paths/universal-resource-scheduling/)<br />
+[Field Service YouTube Channel](https://www.youtube.com/playlist?list=PLcakwueIHoT_AQBxkQQ7zePzd7fzZYP7X)<br />
+[Dynamics 365 application ideas](https://experience.dynamics.com/ideas/categories/list/?category=a2fa5aca-3f2d-e811-813c-e0071b6ad011&forum=bee3d862-df65-e811-a95d-000d3a1be7ad)<br />
+[Community forum](https://community.dynamics.com/365/fieldservice)<br />
+[Dynamics 365 blog](https://cloudblogs.microsoft.com/dynamics365/?s=Resource+Scheduling)
