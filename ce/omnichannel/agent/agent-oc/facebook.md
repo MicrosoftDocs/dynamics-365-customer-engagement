@@ -57,6 +57,8 @@ You can see the files that you receive from a customer on the communication pane
    > [!div class=mx-imgBorder]
    > ![Facebook attachment](../../media/fb-receive-file1.png "Facebook attachment")
 
+### Send a file
+
 To send a file, follow the steps:
 
 1. Select the ellipsis (...) in the communication panel.
