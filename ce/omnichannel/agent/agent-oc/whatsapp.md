@@ -23,7 +23,7 @@ ms.topic: article
 
 ## WhatsApp channel overview
 
-When you sign in to Omnichannel for Customer Service, you can see your work items in Omnichannel Agent Dashboard. To learn more see [View agent dashboard and agent conversations (work items)](oc-agent-dashboard).
+When you sign in to Omnichannel for Customer Service, you can see your work items in Omnichannel Agent Dashboard. To learn more see [View agent dashboard and agent conversations (work items)](oc-agent-dashboard.md).
 
 ## Prerequisite
 
@@ -38,26 +38,26 @@ You receive a notification for a WhatsApp conversation request. When you accept 
 
 In Omnichannel for Customer Service, you can:
 
-- [View customer summary](agent/agent-oc/oc-customer-summary.md)
-- [View communication panel](agent/agent-oc/oc-conversation-control.md)
-- [Use call options and visual engagement in live chat](agent/agent-oc/call-options-visual-engagement.md)
-- [Monitor real-time customer sentiment](agent/agent-oc/oc-monitor-real-time-customer-sentiment-sessions.md)
-- [Manage sessions](agent/agent-oc/oc-manage-sessions.md)
-- [Manage applications](agent/agent-oc/oc-manage-applications.md)
+- [View customer summary](oc-customer-summary.md)
+- [View communication panel](oc-conversation-control.md)
+- [Use call options and visual engagement in live chat](call-options-visual-engagement.md)
+- [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)
+- [Manage sessions](oc-manage-sessions.md)
+- [Manage applications](oc-manage-applications.md)
 - Use productivity tools
-    - [Use agent scripts](agent/agent-oc/oc-agent-scripts.md)
-    - [View Smart assist](agent/agent-oc/oc-smart-assist.md)
-    - [Use productivity pane](agent/agent-oc/oc-productivity-pane.md)
-- [Create a record](agent/agent-oc/oc-create-record.md)
-- [Search, link, and unlink a record](agent/agent-oc/oc-search-link-unlink-record.md)
-- [Search for and share knowledge articles](agent/agent-oc/oc-search-knowledge-articles.md)
-- [Take notes specific to conversation](agent/agent-oc/oc-take-notes.md)
-- [Understand conversation states](agent/agent-oc/oc-conversation-state.md)
-- [Manage presence status](agent/agent-oc/oc-manage-presence-status.md)
-- [Search for transcripts](agent/agent-oc/oc-search-transcipts.md)
-- [View conversation and session forms](agent/agent-oc/oc-view-activity-types.md)
-- [View customer summary for an incoming conversation request](agent/agent-oc/oc-view-customer-summary-incoming-conversation-request.md)
-- [Search for transcripts](agent/agent-oc/oc-search-transcipts.md)
+    - [Use agent scripts](oc-agent-scripts.md)
+    - [View Smart assist](oc-smart-assist.md)
+    - [Use productivity pane](oc-productivity-pane.md)
+- [Create a record](oc-create-record.md)
+- [Search, link, and unlink a record](oc-search-link-unlink-record.md)
+- [Search for and share knowledge articles](oc-search-knowledge-articles.md)
+- [Take notes specific to conversation](oc-take-notes.md)
+- [Understand conversation states](oc-conversation-state.md)
+- [Manage presence status](oc-manage-presence-status.md)
+- [Search for transcripts](oc-search-transcipts.md)
+- [View conversation and session forms](oc-view-activity-types.md)
+- [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
+- [Search for transcripts](oc-search-transcipts.md)
 
 ## WhatsApp message type and 24 hours session rule
 

@@ -135,7 +135,7 @@ If the customer is identified based on name, the conversation is automatically l
 
 If the customer is not identified based on name, a new contact record can be created.
 
-Also, customer can send attachments if you enable. To learn more, see [File attachments](#file-attachments).
+Also, customer can send attachments if you enable.  If you don't enable the option for the customers, they can send the file. However, agents won't receive the file and will see an error. To learn more, see [File attachments](#file-attachments).
 
 > [!div class=mx-imgBorder]
 > ![Customer sending file](../media/fb-customer1.png "Customer sending file")
