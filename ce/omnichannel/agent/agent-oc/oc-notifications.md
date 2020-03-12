@@ -81,14 +81,7 @@ Identification of a customer happens based on the **Mobile Phone** field present
  > [!div class=mx-imgBorder]
  > ![Incoming SMS notification](../../media/oceh/sms-notification-request.png "Incoming SMS notification") 
 
-The details you'll see for a SMS channel are as configured by your administrator
-
-## Incoming Facebook notification
-
-You receive a notification for a Facebook conversation request. When you accept the Facebook request, a session is started, and the communication panel appears where you can exchange messages with the customer.
-
-> [!div class=mx-imgBorder]
-> ![Facebook chat agent notification](../../media/fb-agent-notif.png "Facebook chat agent notification")
+The details you'll see for a SMS channel are as configured by your administrator.
 
 > [!div class="nextstepaction"]
 > [Next topic: View customer summary and know everything about customers](oc-customer-summary.md)
