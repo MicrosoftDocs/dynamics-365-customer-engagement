@@ -113,7 +113,7 @@ The admin can enable customizable dialog on a form through accessing the advance
 **Step 4:**	Click **Save**
 
   > [!div class=mx-imgBorder]
-  > ![Enable Customizable Dialog](media\case-resolution-entity.png "Enable Customizable Dialog")
+  > ![Enable Customizable Dialog](media/case-resolution-entity.png "Enable Customizable Dialog")
 
 > [!NOTE]
 > The setting default is set to **Standard Dialogue**. Admin must select **Customizable Dialog** otherwise any changes made will be saved to the form, but will not be displayed for use. 
@@ -121,7 +121,7 @@ The admin can enable customizable dialog on a form through accessing the advance
 ## Case Resolution Entity
 
   > [!div class=mx-imgBorder]
-  > ![Case Resolution Entity](media\enable-customizable-dialog-1.png "Case Resolution Entity")
+  > ![Case Resolution Entity](media/enable-customizable-dialog-1.png "Case Resolution Entity")
 
 **Step 1:** Select **Case Resolution** entity
 
@@ -130,7 +130,7 @@ The admin can enable customizable dialog on a form through accessing the advance
 **Step 3:** Select **Resolution Type Code**
 
   > [!div class=mx-imgBorder]
-  > ![Case Resolution Entity](media\enable-customizable-dialog-2.png "Case Resolution Entity")
+  > ![Case Resolution Entity](media/enable-customizable-dialog-2.png "Case Resolution Entity")
 
 **Step 4:** Under Options section, click on plus symbol. This will enable the **Label** and **Value** fields to be populated.
 
