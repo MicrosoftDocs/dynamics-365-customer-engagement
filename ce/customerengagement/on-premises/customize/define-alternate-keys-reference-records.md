@@ -34,6 +34,9 @@ With *alternate keys*, you can assure an efficient and accurate way of integrati
 -   More robust bulk data operations.  
   
 -   Simplified programming with data imported from external systems without record IDs.  
+
+> [!IMPORTANT]
+>  You cannot use a field that is in use by existing records as an alternate key. This will result in a duplicate records error.
   
 To learn more about alternate keys programmability, see:   
 [Define alternate keys for an entity](../developer/define-alternate-keys-entity.md)  
