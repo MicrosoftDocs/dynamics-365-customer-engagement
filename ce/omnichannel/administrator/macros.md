@@ -217,12 +217,12 @@ This action is used to unlink a record from the conversation when the customer i
 
 ### Built-in
 
-The built-in control allows you to execute a macro action step based on the conditions. The control has **Condition**. 
+The built-in control allows you to execute a macro action step based on the conditions. The **Built-in** category connector, which has a action as **Condition**. 
 
    > [!div class=mx-imgBorder] 
-   > ![Built-in condition control](../media/built-in.png "Built-in condition control")
+   > ![Condition connector](../media/built-in.png "Condition connector")
 
-To use the control, you need to first have a trigger (Predefined automation actions). That is, select a predefined automation action first, and before or after a step, you can define the condition. You can also create nested conditions as per your requirements.
+To use the **Built-in** category, you need to first have a trigger (Predefined automation actions). That is, select a predefined automation action first, and before or after a step, you can define the condition. You can also create nested conditions as per your requirements.
 
 Using the **View run history** option for a particular macro, you can see the condition which was executed and whether it succeeded or failed.
 
