@@ -68,7 +68,7 @@ To send a file, follow the steps:
     > [!div class=mx-imgBorder]
     > ![Facebook attachment](../../media/fb-attach.png "Facebook attachment")
 
-To learn more about the Facebook channel setup, see [Configure a Facebook channel](../../administrator/configure-facebook-channel.md)
+To learn more about the Facebook channel setup, see [Configure a Facebook channel](../../administrator/configure-facebook-channel.md).
 
 ## Privacy notice
 
