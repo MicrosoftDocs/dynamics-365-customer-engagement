@@ -40,23 +40,23 @@ Use the following input and output parameters for the Search Resource Availabili
 <!--In this table, like many in the topic, it's confusing to have rows with blank columns with no explanation. In a case like the row for RequirementSpecification, if Duration, Start, End, and Fulfillment Preference all pertain to RequirementsSpecification, there should be no row dividers between them. this can be accomplished with HTML table markup -->
 ### Input parameters
 
-|   |   |   |
-|-----------------|--|--|
-|Version (String) |  |Required|
-|RequirementGroup (Entity Reference)| |Required|
-|RequirementSpecification (ResourceRequirement)|Duration (Integer)| Optional; if left null, respects the targeting<!--What does "targeting" mean here?--> requirement group duration by default|
-|  |Start (DateTime)|Optional; if left null, respects the targeting requirement group start by default |
-|  |End (DateTime)  |Optional; if left null, respects the targeting requirement group end by default |
-|  |Fulfillment Preference (Entity Reference)|Optional; respects interval and ResultsPerIntervals fields only. If left null, respects the interval and ResultPerInterval fields of the targeting requirement group.|
-|Settings (Settings)|SortOption (Integer)| Optional|
-| |ConsiderSlotsWithOverlappingBooking (Boolean)|Optional; false by default|
-| |ConsiderSlotsWithProposedBooking (Boolean)|Optional; false by default|
-| |ConsiderSlotsWithLessThanRequiredDuration (Boolean)|Optional; false by default|
-| |PageSize (Integer)|Optional|
-| |PageNumber (Integer)|Optional|
-| |PageCookie (String)|Optional|
-| |OrganizationUnits (List<<Guide>Guide>)<!--What does this pattern "List<Guide>Guide" mean? -->|Optional|
-| |RequiredSources (List<<Guide>Guide>)|Optional|
+| Name  | Type | Required  | Description  |
+|-----------------|---|---|---|
+|Version | String | Yes | |
+|RequirementGroup | | Yes | |
+|RequirementSpecification |Integer| No | If left null, respects the targeting requirement group duration by default|
+| Start | DateTime | No | If left null, respects the targeting requirement group start by default|
+| End |DateTime| No | If left null, respects the targeting requirement group end by default |
+| Fulfillment Preference | No | respects interval and ResultsPerIntervals fields only. If left null, respects the interval and `ResultPerInterval` fields of the targeting requirement group.|
+|Settings |Integer| No | |
+| ConsiderSlotsWithOverlappingBooking | Boolean | No | `false` by default|
+| ConsiderSlotsWithProposedBooking | Boolean | No | `false` by default|
+| ConsiderSlotsWithLessThanRequiredDuration | Boolean | No | `false` by default|
+| PageSize |Integer| No | |
+| PageNumber |Integer| No | |
+| PageCookie | String | No | |
+| OrganizationUnits ||No| |
+| RequiredSources ||No| |
 
 
 INSERT TABLE MARKUP HERE%%%
