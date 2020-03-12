@@ -18,6 +18,10 @@ ms.topic: article
 
 When you sign in to Omnichannel for Customer Service, you can see your work items in Omnichannel Agent Dashboard. To learn more see [View agent dashboard and agent conversations (work items)](oc-agent-dashboard).
 
+## Prerequisite
+
+Make sure your administrator has configured a Facebook channel.
+
 ### Incoming Facebook notification
 
 You receive a notification for a Facebook conversation request. When you accept the Facebook request, a session is started, and the communication panel appears where you can exchange messages with the customer.
