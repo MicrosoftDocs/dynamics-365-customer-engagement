@@ -38,7 +38,8 @@ You pass the details of a requirement group in your API calls and retrieve a lis
 
 Use the following input and output parameters for the Search Resource Availability for Requirement Group (**msdyn_SearchResourceAvailabilityForRequirementGroup**) API.
 <!--In this table, like many in the topic, it's confusing to have rows with blank columns with no explanation. In a case like the row for RequirementSpecification, if Duration, Start, End, and Fulfillment Preference all pertain to RequirementsSpecification, there should be no row dividers between them. this can be accomplished with HTML table markup -->
-### Input parameters
+
+### Parameters
 
 | Name  | Type | Required  | Description  |
 |-----------------|---|---|---|
@@ -59,9 +60,8 @@ Use the following input and output parameters for the Search Resource Availabili
 | RequiredSources ||No| |
 
 
-INSERT TABLE MARKUP HERE%%%
+## Output
 
-### Output parameters
 | |  |
 |-|--|
 |Time slot |StartTime (DateTime)                 |
@@ -147,26 +147,26 @@ INSERT TABLE MARKUP HERE%%%
 
 Use the following input and output parameters for the Create Requirement Group Bookings (**msdyn_CreateRequirementGroupBookings**) API.
 
-### Input parameters
-<!--I don't understand the following table. What is the middle column supposed to represent here? The last four rows look like they're items in a nested list, but I don't know what to nest the list under. -->
-|            |   |         |
+### Parameters
+
+|  Name   | Type  | Required | Description   |
 |----------------------------------|---|---------|
-|Version (String)                  |   |Required |
-|RequirementGroup (EntityReference)|   |Required |
-|Start (DateTime)                  |   |Required |
-|Duration (Int)                    |   |Required |
-|ResourceAssignments (EntityCollection)|Requirement (Guid)|Required|
-|<li> Resource (Guid)                  | |Required|
-|<li> BookingStatusID (Guid)           | |Required|
-|<li> Effort (Int)                     | |Required|
-|<li> TravelTime (double)              | |Required|
+|Version | String | Yes | |
+|RequirementGroup |   |Yes | |
+|Start |DateTime | Yes | |
+|Duration | Integer | Yes  | |
+|ResourceAssignments | GUID | Yes| |
+|Resource | GUID    | Yes | |
+| BookingStatusID | GUID  | Yes | |
+| Effort | Integer  |  Yes| |
+| TravelTime | Integer  | Yes| |
 
-### Output parameters
+### Output 
 
-HandlerExecuted (Boolean)
+Returns `HandlerExecuted` value which is of Boolean type.
 
 ## Using the Requirement Group API
-<!--I'm afraid I don't understand what the goal of this entire section is.-->
+
 In the following scenario, you schedule a requirement group via API. You'll need a service created with resources before you can schedule a booking. Follow these steps to create a service activity.
 
 ### Service configuration 
@@ -192,7 +192,7 @@ In the following scenario, you schedule a requirement group via API. You'll need
 Now you have a requirement group automatically created that has one technician (resource) to be scheduled to perform service at your customer's location. 
 
 ### Resource Requirement Group grid 
-<!--Steps 1 and 2 seem to be captions or alt text for the graphics, rather than steps. If they are actually steps, can you rewrite them so the goal is clear?-->
+
 The following image is an example configuration of the Resource Requirement Group page. 
 
 ![Active Requirements Group](media/ur-scheduling-3-new.png "Active Requirements Group")
@@ -208,7 +208,7 @@ The following image is an example configuration of the Resource Requirement Grou
 <!--2. Test Requirements Group-->
 
 ![Test Requirements Group](media/ur-scheduling-4-new.png "Test Requirements Group")
-<!--I don't know the UI well enough to edit this procedure. Can you rewrite it so it follows our style guide? -->
+
 3. Go to **General**.
 4. Name field **Test Requirement Group**.
 5. Enter name in **Owner** field.
