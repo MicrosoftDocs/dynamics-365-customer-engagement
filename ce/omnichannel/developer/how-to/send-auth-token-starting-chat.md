@@ -1,23 +1,19 @@
 ---
 title: "Send authentication token | Microsoft Docs"
 description: "Read how you can pass an authentication token to Omnichannel for Customer Service"
-keywords: ""
-ms.date: 07/09/2019
-ms.service: dynamics-365-customerservice
-ms.custom:
-ms.topic: reference
-applies_to:
-ms.assetid: 51737308-BFD6-4C66-96D6-F11EDCB71E33
 author: susikka
 ms.author: susikka
 manager: shujoshi
-
+ms.date: 12/13/2019
+ms.service: 
+  - "dynamics-365-customerservice"
+ms.topic: reference
 ---
 # Send authentication token
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-To authenticate a customer when they initiate a chat, pass an authentication token to Omnichannel for Customer Service. This token is used to validate a signed-in customer from a domain, and to extract information based on the context variables that are defined. Custom authentication is optional and is relevant only when hosting the chat widget outside Dynamics 365 for Customer Engagement Portal.
+To authenticate a customer when they initiate a chat, pass an authentication token to Omnichannel for Customer Service. This token is used to validate a signed-in customer from a domain, and to extract information based on the context variables that are defined. Custom authentication is optional and is relevant only when hosting the chat widget outside Power Apps portals.
 
 > [!IMPORTANT]
 > In the payload of the JSON Web Token (JWT) token, the value provided for `lwicontexts` key should be the serialized custom context.<br />
@@ -28,8 +24,6 @@ To authenticate a customer when they initiate a chat, pass an authentication tok
 The SDKs related to authentication token provider are applicable only if authentication is enabled for the widget. To enable authentication for your widget, see [Create chat authentication settings](../../administrator/create-chat-auth-settings.md).
 
 Follow these steps to send authentication token when starting a chat:
-
-<!--note from editor: In Step 1, are the "live chat SDK methods" the same thing as the methods under "JavaScript API Reference" in this developer guide? If so, make that connection clear.   -->
 
 1. Generate a valid JWT token from the JSON payload. More information: [setAuthTokenProvider](../reference/methods/setAuthTokenProvider.md).
 2. Listen to the **lcw:ready** event raised by a live chat before calling the live chat SDK methods. The live chat methods should be invoked after the **lcw:ready** event is raised. You can listen for this event by adding your own event listener on the window object.

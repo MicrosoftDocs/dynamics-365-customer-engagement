@@ -1,18 +1,10 @@
 ---
-title: "Internet Explorer settings (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Internet Explorer settings | MicrosoftDocs"
 description: "Learn about the Internet Explorer settings that best practices outlines and against which Best Practices Analyzer performs analysis."
-keywords: 
 ms.date: 05/07/2018
-ms.service:
-  - usd
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: 104DE14D-F43E-4414-AC83-5C1157E79831
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -176,7 +168,7 @@ To enable the option using Internet options:
 5. Select **Apply**, and then select **OK**.
 
 > [!TIP]
-> An alternative mitigation is retaining the default settings in the **Security** zones, and adding the Dynamics 365 for Customer Engagement apps instance and authentication URLs to the **Trusted sites**. For more information, see the [blog](https://blogs.msdn.microsoft.com/usd/2016/01/26/ie-process-mode-gives-httpevent-popup/).
+> An alternative mitigation is retaining the default settings in the **Security** zones, and adding the instance and authentication URLs to the **Trusted sites**. For more information, see the [blog](https://blogs.msdn.microsoft.com/usd/2016/01/26/ie-process-mode-gives-httpevent-popup/).
 
 ## Cleanup HTCs
 
@@ -207,7 +199,7 @@ Use the latest version of [!include[pn-internet-explorer](../../includes/pn-inte
 
 If you're running [!include[pn-windows-7](../../includes/pn-windows-7.md)] or earlier, download [!include[pn-ie-11](../../includes/pn-ie-11.md)].
 
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Internet Explorer Downloads](https://support.microsoft.com/en-us/help/17621/internet-explorer-downloads)
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Internet Explorer Downloads](https://support.microsoft.com/help/17621/internet-explorer-downloads)
 
 ## See also
 

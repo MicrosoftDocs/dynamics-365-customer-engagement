@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-The following table defines key concepts that are used in the Microsoft Dynamics 365 for Project Service Automation app.
+The following table defines key concepts that are used in the Dynamics 365 Project Service Automation app.
 
 | Concept                    | Definition |
 |----------------------------|------------|

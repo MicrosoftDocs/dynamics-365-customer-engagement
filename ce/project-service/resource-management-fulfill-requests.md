@@ -1,6 +1,6 @@
 ---
 title: Fulfilling resource requirements 
-description: This topic provides information about how to fulfill resource requirements in Dynamics 365 for Project Service Automation.
+description: This topic provides information about how to fulfill resource requirements.
 author: ruhercul
 manager: kfend
 ms.service: dynamics-365-customerservice

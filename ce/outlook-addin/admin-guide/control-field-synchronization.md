@@ -1,5 +1,5 @@
 ---
-title: "Control field synchronization between Dynamics 365 for Customer Engagement apps and Dynamics 365 for Outlook | MicrosoftDocs"
+title: "Control field synchronization between Dynamics 365 apps and Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: 
 ms.date: 11/28/2016
 ms.reviewer: 
@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps 
+  - Dynamics 365 apps 
 ms.assetid: d570e1f0-d319-46c6-a247-00c32c78df3b
 caps.latest.revision: 20
 author: mduelae
@@ -22,17 +22,17 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Control field synchronization between Dynamics 365 for Customer Engagement apps and Dynamics 365 for Outlook
-With field synchronization, admins can set the sync direction between [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] fields. You can control synchronization when using either [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] synchronization or server-side synchronization ([!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)]).  
+# Control field synchronization between Dynamics 365 apps and Dynamics 365 for Outlook
+With field synchronization, admins can set the sync direction between Dynamics 365 and [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] fields. You can control synchronization when using either [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] synchronization or server-side synchronization ([!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)]).  
   
  For example, a salesperson may want to take personal notes about a contact and not want the notes to synchronize with [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data available to all users. You can set the Personal Notes field for contacts in Outlook to not [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] with [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] so the salesperson’s notes will remain private.  
   
 > [!TIP]
->  ![Video symbol](../media/video-thumbnail-4-crm.png "Video symbol") Check out the following video: [Configurability in Synchronizing Data with Outlook or Exchange in Microsoft Dynamics CRM 2015](http://youtu.be/BMZsVUuaklo?list=PLC3591A8FE4ADBE07)  
+>  ![Video symbol](../media/video-thumbnail-4-crm.png "Video symbol") Check out the following video: [Configurability in Synchronizing Data with Outlook or Exchange in Microsoft Dynamics CRM 2015](https://youtu.be/BMZsVUuaklo?list=PLC3591A8FE4ADBE07)  
   
-## Set field synchronization between Dynamics 365 for Customer Engagement apps and Dynamics 365 for Outlook  
+## Set field synchronization between Dynamics 365 apps and Dynamics 365 for Outlook  
   
-1. In Dynamics 365 for Customer Engagement apps,  [!INCLUDE[proc_settings_email_config](../../includes/proc-settings-email-config.md)]  
+1. In Dynamics 365 apps,  [!INCLUDE[proc_settings_email_config](../../includes/proc-settings-email-config.md)]  
   
 2. Choose **Email Configuration Settings**.  
   
@@ -47,7 +47,7 @@ With field synchronization, admins can set the sync direction between [!INCLUDE[
   
 5. Choose **OK** > **OK** to close the open dialog boxes.  
   
-   Let your users know they can view (not change) the synchronization settings. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Which fields can be synchronized between Dynamics 365 for Customer Engagement apps and Outlook?](which-fields-synchronized.md)  
+   Let your users know they can view (not change) the synchronization settings. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Which fields can be synchronized between Dynamics 365 apps and Outlook?](which-fields-synchronized.md)  
   
 ## Performance and synchronization  
  Configuring synchronization might have an impact on the time it takes to sync between [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] and [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. You should test your configuration before deploying to ensure satisfactory sync times.  

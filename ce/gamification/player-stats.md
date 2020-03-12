@@ -1,12 +1,10 @@
 ---
-title: "Player stats in Dynamics 365 for Customer Engagement - Gamification | Microsoft Docs"
+title: "Player stats in Dynamics 365 - Gamification | Microsoft Docs"
 description: "Learn about the stats of players and teams in Gamification."
 keywords: player stats, team stats, statistics
 ms.date: 01/11/2018
 ms.service: dynamics-365-sales
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: f4169614-f6d8-11e7-8c3f-9a214cf093ae
 author: m-hartmann
 ms.author: mhart

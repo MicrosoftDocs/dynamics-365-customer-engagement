@@ -1,20 +1,10 @@
 ---
-title: Comply with the General Data Protection Regulation (GDPR) (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs
+title: Comply with the General Data Protection Regulation (GDPR) | MicrosoftDocs
 description: Learn about General Data Protection Regulation (GDPR) and how Unified Service Desk complies with GDPR.
-ms.custom: 
 ms.date: 04/24/2018
-ms.reviewer: 
-ms.service: usd
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement (on-premises)
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: FA8D5702-C698-42B0-89BF-CD444BF3FB73
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -33,7 +23,7 @@ Fundamentally, the GDPR is about protecting and enabling the privacy rights of i
 
 ## Shared responsibility model
 Your compliance with the GDPR is an ongoing process and involves your role as a **controller** and, in some cases, Microsoft as a **processor**. 
-Depending on which [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps your organization uses, you may find that you are both controller and processor or that you have a shared responsibility with Microsoft.
+Depending on which model-driven app your organization uses, you may find that you are both controller and processor or that you have a shared responsibility with Microsoft.
 
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application runs on-premises, so you hold both the controller and processor roles:
 

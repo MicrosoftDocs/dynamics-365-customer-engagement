@@ -1,19 +1,12 @@
 ---
-title: "Use Edge Process hosting method for your controls in Unified Service Desk for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Use Edge Process hosting method for your controls in Unified Service Desk  | MicrosoftDocs"
 description: "Learn about the Edge Process hosting methods for your controls in Unified Service Desk."
 ms.custom: 
   - dyn365-USD
 ms.date: 12/19/2018
-ms.service: dynamics-365-customerservice
-ms.tgt_pltfrm: ""
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-ms.assetid: D9E7AED8-1D3A-4E62-BD15-7C5CF153EB4E
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -38,7 +31,7 @@ The advantages of using the Edge process hosting method are as follows:
 
 ![Advantages of Edge Process](media/advantages-edge-process.PNG "Advantages of Edge Process")
 
-- Webpages, including Dynamics 365 pages, render faster in Microsoft Edge.
+- Webpages, including model-driven app pages, render faster in Microsoft Edge.
 - Microsoft Edge is a modern browser with better process and memory management.
 - Microsoft Edge is the default browser for the Windows 10 operating system.
 - It provides easy configurations to host the applications in Unified Service Desk.
@@ -130,7 +123,7 @@ With Edge process, you can use the **Microsoft Edge DevTools Preview** tool as a
 
 In the panel, you can see all the active Edge process. Select the desired webpage from the active list to open a new instance.
 
-More information: [Microsoft Edge DevTools Preview](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide)
+More information: [Microsoft Edge DevTools Preview](https://docs.microsoft.com/microsoft-edge/devtools-guide)
 
 ## RunScript action is asynchronous in Edge Process
 
@@ -256,7 +249,7 @@ To use the `EdgeSingleProcess`, you must add the UII option and set the value to
 
 ### Add the UII option
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].
+1. Sign in to the Common Data Service platform.
 
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]
 
@@ -278,7 +271,7 @@ To use the `EdgeSingleProcess`, you must add the UII option and set the value to
 
 ## Sign out from sessions when using the Edge Process
 
-To sign out from sessions when using the Edge process, you must configure the sign-out URL using the **Navigate** action on the hosted control. For example, the sign-out URL of Dynamics 365 for Customer Engagement apps is `url=/main.aspx?signout=1`.
+To sign out from sessions when using the Edge process, you must configure the sign-out URL using the **Navigate** action on the hosted control. For example, the sign-out URL the model-driven app is `url=/main.aspx?signout=1`.
 
 ## Limitations
 

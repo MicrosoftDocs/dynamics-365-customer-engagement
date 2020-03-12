@@ -1,16 +1,13 @@
 ---
 title: "Agents using Omnichannel for Customer Service app | MicrosoftDocs"
 description: "Learn about the Omnichannel for Customer Service app"
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 264E80DF-CC3D-46F7-8739-D21DDB045953
-ms.custom: 
 ---
 
 # Agents using Omnichannel for Customer Service app
@@ -41,7 +38,7 @@ Use the resources in the following sections to learn how to use Omnichannel for 
 - [View notifications](oc-notifications.md)
 - [View customer summary](oc-customer-summary.md)
 - [Search for and share knowledge articles](oc-search-knowledge-articles.md)
-- [View conversation and session activity types in the Customer Engagement apps](oc-view-activity-types.md)
+- [View conversation and session activity types in the model-driven apps](oc-view-activity-types.md)
 
 
 ## How-tos

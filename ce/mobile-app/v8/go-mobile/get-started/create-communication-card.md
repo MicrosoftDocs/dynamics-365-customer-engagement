@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 apps
   - Dynamics CRM Online
 ms.assetid: 632e9436-a0ed-4986-b30a-9f67b7e7072d
 caps.latest.revision: 6
@@ -31,7 +31,7 @@ search.app:
   
  Press and hold a contact tile that’s pinned to the dashboard, and then tap **Larger** on the command bar.  
   
- ![Dynamics 365 for Customer Engagement apps for mobile create communication card](../../../media/mobile-create-comm-card.png "Dynamics 365 for Customer Engagement apps for mobile create communication card")  
+ ![Dynamics 365 apps for mobile create communication card](../../../media/mobile-create-comm-card.png "Dynamics 365 apps for mobile create communication card")  
   
 ### See also  
  [Dynamics 365 for phones and tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)

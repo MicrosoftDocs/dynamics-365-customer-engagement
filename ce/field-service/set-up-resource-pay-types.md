@@ -1,21 +1,19 @@
 ---
-title: "Set up resource pay types (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Set up resource pay types (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
-ms.reviewer: 
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.technology: 
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: 239b3f54-69dc-44c1-95be-154fc90df2e4
 caps.latest.revision: 14
-ms.author: krbjoran
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin
@@ -66,7 +64,7 @@ Resource pay types can be used to track your company's costs associated with a r
     - **Business Closure:** Any time recorded by a resource when the company is closed.  
   
 ### See also    
- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
+ [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
  [Set when your business is closed](../field-service/set-when-business-closed.md)   
  [Set up bookable resources](../field-service/set-up-bookable-resources.md)   
  [Set up bookable resource categories](../field-service/set-up-bookable-resource-categories.md)   

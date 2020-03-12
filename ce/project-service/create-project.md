@@ -1,5 +1,5 @@
 ---
-title: Create a project (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: Create a project 
 description: How to create a project in Project Service
 author: ruhercul
 manager: kfend

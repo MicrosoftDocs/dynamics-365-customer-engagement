@@ -1,17 +1,15 @@
 ---
-title: Enable entities for service level agreements (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: See how to enable entities for service level agreements in Dynamics 365 for Customer Service
-keywords: Enable entities for service level agreements; Dynamics 365 for Customer Engagement; Customer Service
-author: anjgupta
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-ms.author: anjgup
+title: Enable entities for service level agreements (Dynamics 365 Customer Service) | MicrosoftDocs
+description: See how to enable entities for service level agreements in Dynamics 365 Customer Service
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 06/01/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.assetid: 8e93491c-4321-4816-ad4c-4e095015b10e
-ms.custom: dyn365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -25,9 +23,11 @@ search.app:
 
 Service level agreements are not just important in the customer service space, but also for sales and marketing to ensure efficient handling of leads from start to finish.  
   
-Previously, you could only create SLAs for case records. With Dynamics CRM Onlin 2016 Update 1, you can now enable any of these entities for SLA:  
+Previously, you could only create SLAs for the following entities:  
   
-- Account  
+- Account
+
+- Case
   
 - Contact  
   

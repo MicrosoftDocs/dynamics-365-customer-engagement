@@ -1,16 +1,13 @@
 ---
 title: "Add the Omnichannel Alert Notification-related action calls to the events | MicrosoftDocs"
 description: "Learn how to add action calls to the events"
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 90690d1d-906e-48a0-b6c8-1ba8d491f2b0
-ms.custom: 
 ---
 # Step 4: Attach Omnichannel Alert Notification-related action calls to the events
 
@@ -18,7 +15,7 @@ ms.custom:
 
 ## Prerequisites 
 
-- You must have required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps permissions to configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and access the required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Access management in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/security-unified-service-desk)
+- You must have required Dynamics 365 Customer Service permissions to configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and access the required Dynamics 365 Customer Service entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Access management in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/security-unified-service-desk)
 
 - You must have completed [Create agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md) [Step 1: Create forms to define layout and behavior of the notification](alertnotification-step1-create-forms-define-layout-behavior-notification.md), [Step 2: Create Omnichannel Alert Notification hosted controls](alertnotification-step2-create-hosted-controls.md), and [Step 3: Create Omnichannel Alert Notification-related action call](alertnotification-step3-create-action-call-display-notification.md). The configurations that you completed are required for this topic.
  
@@ -32,7 +29,7 @@ ms.custom:
 
 ## Attach the action calls to events
 
-1. Sign in to a Microsoft Dynamics 365 for Customer Engagement instance.
+1. Sign in to Common Data Service platform.
 
 2. Select the Down arrow next to Dynamics 365.
 

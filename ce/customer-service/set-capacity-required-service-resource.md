@@ -1,17 +1,15 @@
 ---
-title: Set the capacity required for a service or resource (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: View how to set the capacity required for a service or resource in Dynamics 365 for Customer Service
-keywords: Set the required capacity; Dynamics 365 for Customer Engagement; Customer Service
-author: anjgupta
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-ms.author: anjgup
+title: Set the capacity required for a service or resource (Dynamics 365 Customer Service) | MicrosoftDocs
+description: View how to set the capacity required for a service or resource in Dynamics 365 Customer Service
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ms.date: 10/01/2018
-ms.service: dynamics-365-customerservice
-ms.custom: dyn365-customerservice
 ms.topic: article
-ms.assetid: 6a67450b-dccc-471c-9e09-13a169f497cf
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -23,14 +21,14 @@ search.app:
 
 # Set the capacity for a service or resource (Customer Service app)
 
-Define a limit to the number of activities a resource can perform in a stipulated time by setting the capacity of the resource and services in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] for Customer Service. 
+Define a limit to the number of activities a resource can perform in a stipulated time by setting the capacity of the resource and services in Dynamics 365 Customer Service. 
   
 You must set both the capacity of the service and the resources required for the service.  
   
 When you set capacity of a resource and service, the service calendar doesn’t allow booking the resources once they reach their capacity.  
 
 > [!IMPORTANT]
-> With the Customer Engagement apps version 9.1 release, the new Service Scheduling is now available in the Customer Service Hub sitemap. We recommend that you set capacity using the new experience. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a service in Service Scheduling](create-edit-service-csh.md)
+> With the latest release of Dynamics 365 Customer Service app, the new Service Scheduling is now available in the Customer Service Hub sitemap. We recommend that you set capacity using the new experience. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a service in Service Scheduling](create-edit-service-csh.md)
   
 ## Set the capacity of a service  
   

@@ -8,8 +8,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps 
-  - Dynamics 365 for Customer Engagement apps (on-premises)
+  - Dynamics 365 apps 
+  - Dynamics 365 apps (on-premises)
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -60,9 +60,9 @@ To get the most out of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm
   
      When you click the **Track** button or the **Set Regarding** button, a [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] pane (also known as the “tracking pane”) appears at the bottom of the email record. This pane shows that the record is tracked and provides links to related records. If you set a “regarding” record, the tracking pane also provides a link to that record. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)  
   
-     You can also tell that a record is tracked by looking in the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] folder. You’ll see the **Tracked in Dynamics 365 for Customer Engagement apps** symbol ![Tracked in Dynamics 365 for Customer Engagement apps icon](../media/priv-biz-unit.gif "Tracked in Dynamics 365 for Customer Engagement apps icon") next to any tracked records.  
+     You can also tell that a record is tracked by looking in the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] folder. You’ll see the **Tracked in Dynamics 365 apps** symbol ![Tracked in Dynamics 365 apps icon](../media/priv-biz-unit.gif "Tracked in Dynamics 365 apps icon") next to any tracked records.  
   
-3. To modify the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] activity record (for example, to change the regarding record), open the email message in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], and then, in the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** group, click **View in Dynamics 365 for Customer Engagement apps**.  
+3. To modify the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] activity record (for example, to change the regarding record), open the email message in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], and then, in the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** group, click **View in Dynamics 365 apps**.  
   
 <a name="WhatElse"></a>   
 ## What else to I need to know about tracking email records?  
@@ -71,7 +71,7 @@ To get the most out of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm
   
 - **Working offline**. Email messages you track when you’re offline are saved as activities when you go back online. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Work offline with Dynamics 365 for Outlook](work-offline-dynamics-365-outlook.md)  
   
-- **Replies to tracked messages**. You can set whether replies to tracked messages are also tracked. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set personal options that affect tracking and synchronization between Dynamics 365 for Customer Engagement apps and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)  
+- **Replies to tracked messages**. You can set whether replies to tracked messages are also tracked. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set personal options that affect tracking and synchronization between Dynamics 365 apps and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)  
   
 - **Editing tracked email messages**. After an email message has been sent, you can’t edit it, but you can set or change a regarding record for it.  
   
@@ -82,6 +82,6 @@ To get the most out of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm
 ### See also  
  [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
  [Deleting records that have been tracked with Dynamics 365 for Outlook](delete-records-that-have-been-tracked.md)   
- [Set personal options that affect tracking and synchronization between Dynamics 365 for Customer Engagement apps and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)   
+ [Set personal options that affect tracking and synchronization between Dynamics 365 apps and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)   
  [Create templates for email](../../admin/create-templates-email.md) 
- [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 for Customer Engagement apps and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)
+ [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 apps and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)

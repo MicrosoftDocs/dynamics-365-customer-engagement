@@ -1,31 +1,26 @@
 ---
-title: "Accessibility in Unified Service Desk for Microsoft Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
-description: "Learn about accessiblity features such as keyboard access and screen reader support."
+title: "Accessibility in Unified Service Desk | MicrosoftDocs"
+description: "Learn about accessibility features such as keyboard access and screen reader support."
 ms.custom: 
   - dyn365-a11y
-  - dyn365-USD, dyn365-admin
+  - dyn365-USD
+  - dyn365-admin
 ms.date: 08/23/2017
-ms.reviewer: 
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-applies_to: 
-  - Unified Service Desk 3.x
-ms.assetid: f43d9d0d-50fa-4ffa-908a-e592b40371b4
 author: kabala123
 ms.author: kabala
-tags: 
-  - MigrationHO
 manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+tags: MigrationHO
 ---
 # Accessibility features in Unified Service Desk
-Microsoft is committed to making its products and services easier for everyone. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Microsoft accessibility](http://www.microsoft.com/enable/default.aspx)  
+Microsoft is committed to making its products and services easier for everyone. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Microsoft accessibility](https://www.microsoft.com/enable/default.aspx)  
   
   
 <a name="KeyboardAccess"></a>   
@@ -57,6 +52,6 @@ Microsoft is committed to making its products and services easier for everyone. 
   
 <a name="ScreenReader"></a>   
 ## Screen  reader support  
- All out-of-box [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] hosted controls and custom controls that are included in the Dynamics 365 for Customer Engagement apps Web Client sample application package work with JAWS version 18 to provide speech output.  
+ All out-of-box [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] hosted controls and custom controls that are included in the Web Client sample application package work with JAWS version 18 to provide speech output.  
   
  For information about how developers can extend custom hosted controls or hosted controls in the other [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample application packages to support the JAWS screen reader, see [Configure JAWS Screen Reader in Unified Service Desk](../configure-jaws-screen-reader-support.md).  

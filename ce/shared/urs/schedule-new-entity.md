@@ -1,4 +1,4 @@
-Dynamics 365 for Field Service uses [Universal Resource Scheduling](../../field-service/universal-resource-scheduling-for-field-service.md) to schedule work orders to the most appropriate resources by enabling the work order entity for scheduling by default. Considering your business processes, other entities may also be enabled for scheduling, including custom entities. 
+Dynamics 365 Field Service uses [Universal Resource Scheduling](../../field-service/universal-resource-scheduling-for-field-service.md) to schedule work orders to the most appropriate resources by enabling the work order entity for scheduling by default. Considering your business processes, other entities may also be enabled for scheduling, including custom entities. 
 
 Enabling an entity for scheduling allows dispatchers to schedule that entity through the schedule board, the schedule assistant, and even resource scheduling optimization (RSO). 
 
@@ -21,7 +21,7 @@ To enable an entity for scheduling, go to **Resource Scheduling** > **Administra
 > [!div class="mx-imgBorder"]
 > ![Screenshot of scheduling settings showing the "Enable Resource Scheduling for Entities" option](../../field-service/media/enablescheduling.png)
  
-You will see a list of entities that have been enabled for scheduling. **Appointments**, **Projects**, and **Work Orders** are enabled for scheduling by default if you have Dynamics 365 for Field Service or Project Service Automation solutions installed.
+You will see a list of entities that have been enabled for scheduling. **Appointments**, **Projects**, and **Work Orders** are enabled for scheduling by default if you have Dynamics 365 Field Service or Project Service Automation solutions installed.
 
 You will see a section called **Setup Wizard - Enable Scheduling** that lets you set up a new entity for scheduling. For the following fields: 
 

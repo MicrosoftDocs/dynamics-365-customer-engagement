@@ -4,19 +4,9 @@ description: "Learn about the AccControl tag that uses the IAccessible interface
 ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: 
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: e4d9d212-1709-4983-8d57-9359cda932fd
-caps.latest.revision: 8
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -69,11 +59,11 @@ The `AccControl` tag uses the [IAccessible](https://msdn.microsoft.com/library/a
   
  The [String)](https://docs.microsoft.com/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.datadrivenadapterbase.setcontrolvalue\(system.string,system.string,system.string\)) method on an `AccControl` tag is always mapped to the `set_accValue` method on the subject `IAccessible` node, with the exception of nodes that have `role="radio button"` or `role="check box"`. In the case of a radio button, an `UnsupportedControlOperation` exception is raised because a radio button can’t be assigned a `True` or `False` value.  
   
- The following example displays the [RELAX NG](http://relaxng.org/compact-tutorial-20030326.html) XML code for the \<Path> tag.  
+ The following example displays the [RELAX NG](https://relaxng.org/compact-tutorial-20030326.html) XML code for the \<Path> tag.  
   
 ```xml  
 # RELAX NG XML grammar for Path  
-# http://relaxng.org/compact-tutorial-20030326.html  
+# https://relaxng.org/compact-tutorial-20030326.html  
 #  
 grammar   
 {  

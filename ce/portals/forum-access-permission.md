@@ -1,12 +1,12 @@
 ---
-title: "Manage forum access permissions in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Manage forum access permissions | MicrosoftDocs"
 description: "Learn about control flow tags available in portal"
 keywords: "forum access permissions"
 ms.date: 12/03/2018
 ms.service: crm-online
 ms.topic: article
-applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+ 
+  
 ms.assetid: F09DA8FB-BF40-4D50-ADBD-A259BC67CDBC
 author: sbmjais
 ms.author: shjais
@@ -22,11 +22,11 @@ search.app:
   - D365Portals
 ---
 
-# Manage forum access permissions in Dynamics 365 for Customer Engagement
+# Manage forum access permissions 
 
-Forum Access Permission is a security rule that can be assigned to a particular forum and web role that can restrict particular users from viewing the forum or granting particular users the ability to moderate a forum within the webpages. To create, edit, or delete forum access permissions from within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]:
+Forum Access Permission is a security rule that can be assigned to a particular forum and web role that can restrict particular users from viewing the forum or granting particular users the ability to moderate a forum within the webpages. To create, edit, or delete forum access permissions:
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to Dynamics 365 Portals.
 
 2. Go to **Community** > **Forum Access Permissions**.
 
@@ -50,7 +50,7 @@ The table below explains many of the Forum Access Permission attributes used by 
 
 | Name  |                                                                                                                                                           Description                                                                                                                                                           |
 |-------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Name  |                                                                                                                  A name used for reference within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].                                                                                                                  |
+| Name  |                                                                                                                  A name used for reference within Common Data Service.                                                                                                                  |
 | Forum |                                                                                                                       The [Manage forum threads](manage-forum-threads.md) associated with the permission.                                                                                                                       |
 | Right | The permission setting can be one of the following:<ul><li>**Restrict Read**: Prevents viewing of the forum for users in a web role associated with the rule.</li><li>**Grant Change**: Allows a user in a web role associated with the rule to moderate the forum. Grant Change takes precedence over Restrict Read.</li></ul> |
 |       |                                                                                                                                                                                                                                                                                                                                 |

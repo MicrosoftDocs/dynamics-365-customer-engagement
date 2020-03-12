@@ -1,6 +1,6 @@
 ---
-title: "Create and deploy Excel templates (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "Create Excel templates that you can use to export, format, and share data from multiple records in Dynamics 365 for Marketing"
+title: "Create and deploy Excel templates (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Create Excel templates that you can use to export, format, and share data from multiple records in Dynamics 365 Marketing"
 keywords: administration; organization settings; Excel; templates; export
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
@@ -8,11 +8,9 @@ ms.custom:
   - dyn365-admin
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 2ab960e0-95ae-44bf-938c-a357a1982c4e
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -25,11 +23,11 @@ search.app:
   - D365Mktg
 ---
 
-# Manage [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates
+# Manage Excel templates
 
-[!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] provides powerful ways to analyze and present your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] data. With [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates, you can easily create and share your customized analysis with others in your organization.
+Microsoft Excel provides powerful ways to analyze and present your Dynamics 365 data. With Excel templates, you can easily create and share your customized analysis with others in your organization.
 
-You can use [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates for:
+You can use Excel templates for:
 
 - Sales forecasting
 - Pipeline management
@@ -37,21 +35,21 @@ You can use [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates 
 - Territory planning
 - And much more…
 
-Try out the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates included with [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] to get a quick view of what kind of analysis is possible. The Pipeline Management template is shown here:
+Try out the Excel templates included with Dynamics 365 to get a quick view of what kind of analysis is possible. The Pipeline Management template is shown here:
 
 ![An example of an Excel template](media/excel-template.png "An example of an Excel template")
 
-Templates display information from the view defined for a record type (entity). There are four steps for creating an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template.
+Templates display information from the view defined for a record type (entity). There are four steps for creating an Excel template.
 
 ![The process for creating an Excel template](media/excel-template-process-ill.png "The process for creating an Excel template")
 
 ## Step 1: Create a new template from existing data
 
-1. Sign in to [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] as a user with the System Administrator role.
+1. Sign in to Dynamics 365 as a user with the System Administrator role.
 
-2. Go to **Settings** > **Advanced Settings** > **Organization** > **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] & [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] Templates** and choose **+ New Template**.
+2. Go to **Settings** > **Advanced Settings** > **Organization** > **Excel & Word Templates** and choose **+ New Template**.
 
-3. Select **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] Template**, and then select **Next**.
+3. Select **Excel Template**, and then select **Next**.
 
     ![Choose which type of template to create](media/create-template-type.png "Choose which type of template to create")
 
@@ -65,17 +63,17 @@ Templates display information from the view defined for a record type (entity). 
 
 7. To upload the template later, select the **Upload the template later** check box, and then select **Next**.
 
-8. To upload the template after you customize the data, go to the list of templates, and then select **Upload Template**. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Step 3: Upload the template and share with others](#step-3-upload-the-template-and-share-with-others)
+8. To upload the template after you customize the data, go to the list of templates, and then select **Upload Template**. More information: [Step 3: Upload the template and share with others](#step-3-upload-the-template-and-share-with-others)
 
-## Step 2: Customize the data in [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)]
+## Step 2: Customize the data in Excel
 
-Open the newly created template in [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] to customize the data.
+Open the newly created template in Excel to customize the data.
 
 ![A newly created Excel template](media/excel-new-template.png "A newly created Excel template")
 
-Let's walk through a simple example of customizing an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template by using [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] sample data:
+Let's walk through a simple example of customizing an Excel template by using Dynamics 365 sample data:
 
-1. Select **Enable Editing** to allow customization of the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] workbook.
+1. Select **Enable Editing** to allow customization of the Excel workbook.
 
 2. Add a new column, and name it "Expected Revenue".
 
@@ -87,24 +85,24 @@ Let's walk through a simple example of customizing an [!INCLUDE[pn-excel-short](
 
 4. Create a pivot table and chart.
 
-5. Place user-added content above or to the right of the existing data table. This prevents the content from being overwritten if you add new data in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] later and you create a new [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Best practices and considerations for using Excel templates](#best-practices-and-considerations-for-using-excel-templates)
+5. Place user-added content above or to the right of the existing data table. This prevents the content from being overwritten if you add new data in Dynamics 365 later and you create a new Excel template. More information: [Best practices and considerations for using Excel templates](#best-practices-and-considerations-for-using-excel-templates)
 
     ![A customized Excel template](media/excel-graph.png "A customized Excel template")
 
 6. Save the workbook.
 
-You're now ready to upload the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template into [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
+You're now ready to upload the Excel template into Dynamics 365.
 
 ## Step 3: Upload the template and share with others
 
-When you have your [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template customized the way you want, you can upload it into [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
+When you have your Excel template customized the way you want, you can upload it into Dynamics 365.
 
 > [!NOTE]
-> Users in your organization can see the templates available to them by selecting **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] Templates** on the command bar in the list of records.
+> Users in your organization can see the templates available to them by selecting **Excel Templates** on the command bar in the list of records.
 
-To upload the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template into [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]:
+To upload the Excel template into Dynamics 365:
 
-1. In [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], go to **Settings** > **Advanced Settings** > **Organization** > **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] & [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] Templates** and choose **Upload Template**.
+1. In Dynamics 365 Marketing, go to **Settings** > **Advanced Settings** > **Organization** > **Excel & Word Templates** and choose **Upload Template**.
 
 2. Find and upload the file.
 
@@ -118,35 +116,35 @@ To upload the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template
 
 <a name="best-practices-and-considerations-for-using-excel-templates"></a>
 
-## Best practices and considerations for using [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates
+## Best practices and considerations for using Excel templates
 
-Here are some things you need to be aware of to create and make the best use of [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]:
+Here are some things you need to be aware of to create and make the best use of Excel templates in Dynamics 365:
 
-- **Test your [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates**  
-  [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] has lots of features. It's a good idea to test your customizations to see that all [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] features work as expected in your templates.
+- **Test your Excel templates**  
+  Excel has lots of features. It's a good idea to test your customizations to see that all Excel features work as expected in your templates.
 - **Data in templates and privacy concerns**  
   By default, pivot chart data is not updated when a workbook is opened. This can create a security issue if certain pivot chart data should not be seen by users who have insufficient permissions. Consider the following scenario:
-  - A [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] administrator creates a template where the view contains sensitive data in a pivot chart, which is uploaded into [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
-  - A salesperson who should not have access to the sensitive data in the pivot charts uses the template to create an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] file to do data analysis.
+  - A Dynamics 365 Marketing administrator creates a template where the view contains sensitive data in a pivot chart, which is uploaded into Dynamics 365 Marketing.
+  - A salesperson who should not have access to the sensitive data in the pivot charts uses the template to create an Excel file to do data analysis.
 
-  As a result, the salesperson might be able to see the pivot chart data as uploaded by the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] administrator, including access to views for which the salesperson does not have permissions.
+  As a result, the salesperson might be able to see the pivot chart data as uploaded by the Dynamics 365 Marketing administrator, including access to views for which the salesperson does not have permissions.
   > [!IMPORTANT]
   > Sensitive data should not be included in pivot tables and pivot charts.
   > 
   > [!NOTE]
-  > iOS does not support updating pivot data and pivot charts when using the [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] app on iOS devices.
+  > iOS does not support updating pivot data and pivot charts when using the Microsoft Excel app on iOS devices.
 - **Set pivot chart data to automatically refresh**  
-  By default, pivot chart data is not automatically refreshed when you open the workbook. Other types of charts are updated automatically. In [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)], right-click the pivot chart, and then select **PivotChart Options** &gt; **Refresh data** when opening the file.
+  By default, pivot chart data is not automatically refreshed when you open the workbook. Other types of charts are updated automatically. In Excel, right-click the pivot chart, and then select **PivotChart Options** > **Refresh data** when opening the file.
   ![Pivot table options in Excel](media/excel-pivot-options-ill.png "Set pivot chart data to be automatically refreshed")
 - **Placing new data**  
-  If you want to add content to the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template, place your data above or to the right side of the existing data. A second option is to place your new content on a second sheet.
-- **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates with images might cause an error**  
+  If you want to add content to the Excel template, place your data above or to the right side of the existing data. A second option is to place your new content on a second sheet.
+- **Excel templates with images might cause an error**  
 
-If you attempt to view [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] data by using an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template that has an image saved in it, you might see the following message: "An error occurred while attempting to save your workbook. As a result, the workbook was not saved." Try removing the image from the template and reloading the template into [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
-- **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates and [!INCLUDE[pn-office-shortest](../includes/pn-office-shortest.md)] Mobile app in [!INCLUDE[pn-windows-8-1](../includes/pn-windows-8-1.md)]**  
-  [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates will not open in [!INCLUDE[pn-windows-8-1](../includes/pn-windows-8-1.md)] devices with the [!INCLUDE[pn-office-shortest](../includes/pn-office-shortest.md)] Mobile app. You'll get the following error message: "We've recovered as much of your document as we could, but you can't edit it. Try to open and repair the document on your PC to fix the problem." This is a known issue.
+If you attempt to view Dynamics 365 Marketing data by using an Excel template that has an image saved in it, you might see the following message: "An error occurred while attempting to save your workbook. As a result, the workbook was not saved." Try removing the image from the template and reloading the template into Dynamics 365 Marketing.
+- **Excel templates and Office Mobile app in Windows 8.1**  
+  Excel templates will not open on Windows 8.1 devices with the Windows 8.1 Mobile app. You'll get the following error message: "We've recovered as much of your document as we could, but you can't edit it. Try to open and repair the document on your PC to fix the problem." This is a known issue.
 - **Use table column names and range names in formulas**  
-  When you create [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] formulas, don't use column titles or cell numbers. Instead, use the table column names, and define names for cells or cell ranges.
+  When you create Excel formulas, don't use column titles or cell numbers. Instead, use the table column names, and define names for cells or cell ranges.
 
 ### See also
 

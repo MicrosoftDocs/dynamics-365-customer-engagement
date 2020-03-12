@@ -1,27 +1,23 @@
 ---
-title: "Add or manage teams in Dynamics 365 for Sales Professional | MicrosoftDocs"
-description: "Create a team with a group of users so they can share and collaborate on business records in Dynamics 365 for Sales Professional."
-keywords: ""
-ms.date: 04/05/2019
-ms.service: dynamics-365-sales
+title: "Add or manage teams in Dynamics 365 Sales Professional | MicrosoftDocs"
+description: "Create a team with a group of users so they can share and collaborate on business records in Dynamics 365 Sales Professional."
+ms.date: 10/01/2019
+ms.service: 
+  - "dynamics-365-sales"
+ms.custom: 
+  - "dyn365-sales"
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
-ms.assetid: 429afe92-a0b6-425b-a62f-0e0f07117f4b
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.custom: dyn365-sales
 ---
 
-# Add or manage teams in Dynamics 365 for Sales Professional
+# Add or manage teams in Dynamics 365 Sales Professional
 
 > [!IMPORTANT]
-> This capability is introduced in the Dynamics 365 for Sales Professional app version 9.1.0.0.
+> This capability is introduced in the Dynamics 365 Sales Professional app version 9.1.0.0.
 
-In Dynamics 365 for Sales Professional, a team is a group of users who share and collaborate on business records. A user can be associated with multiple teams.
+In Dynamics 365 Sales Professional, a team is a group of users who share and collaborate on business records. A user can be associated with multiple teams.
 
 1.  In the site map, select **Sales Settings**.
 
@@ -39,7 +35,8 @@ In Dynamics 365 for Sales Professional, a team is a group of users who share and
 
     -   **Select Team Administrator**: Select the person who will do the team administration, such as adding members to or removing members from the team.
 
-    ![Add New Team dialog box](media/add-new-team-dialog-box.png "Add New Team dialog box")
+      > [!div class="mx-imgBorder"]
+      > ![Add New Team dialog box](media/add-new-team-dialog-box.png "Add New Team dialog box")
 
 ## Add members to the team
 
@@ -66,5 +63,5 @@ privileges associated with that role.
 
 ### See also
 
-[Add or manage users in Dynamics 365 for Sales Professional](manage-users.md)  
+[Add or manage users in Dynamics 365 Sales Professional](manage-users.md)  
 [Admin settings overview](admin-settings-overview.md)

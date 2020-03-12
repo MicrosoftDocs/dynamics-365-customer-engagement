@@ -1,16 +1,14 @@
 ---
-title: "Import contacts from a spreadsheet and then send email to them (Dynamics 365 for Marketing) | Microsoft Docs "
-description: "Learn how to send marketing email messages to all of the contacts listed in a Microsoft Excel spreadsheet using Dynamics 365 for Marketing"
+title: "Import contacts from a spreadsheet and then send email to them (Dynamics 365 Marketing) | Microsoft Docs "
+description: "Learn how to send marketing email messages to all of the contacts listed in a Microsoft Excel spreadsheet using Dynamics 365 Marketing"
 ms.date: 08/15/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: a1fe8201-fd38-44a8-bdd6-6d81ab54f83c
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -31,7 +29,7 @@ This tutorial provides an example of how to send marketing email messages to all
 > The scenario described here will import contacts from an Excel sheet into Dynamics 365, create a segment that finds those imported contacts, and then create a customer journey to email that segment. This scenario will only work when the incoming contacts aren't already present in your database. If you are using duplicate detection on import (which most people do), then any incoming contact that is found to match an existing contact will be dropped from the import and therefore not included in the segment of imported contacts. Please consider whether this scenario will meet your needs before trying to implement it.
 
 > [!IMPORTANT]
-> Never rent or buy mailing lists of contacts that haven't opted in to receive marketing emails from your organization. Using purchased or rented lists will likely produce a high number of hard bounces, spam complaints, spam-trap hits, and other issues that will reduce your sender reputation and with it your [email deliverability rates](get-ready-email-marketing.md). In many jurisdictions, sending unsolicited email without the recipient's consent will violate local regulations (such as the [GDPR](gdpr.md) in the European Union). If your email marketing campaigns generate too many bounces and spam complaints, you also risk losing your ability to send email with Dynamics 365 for Marketing. It's your organization's responsibility to ensure that it complies with all relevant laws in the countries/regions targeted by your marketing campaigns.
+> Never rent or buy mailing lists of contacts that haven't opted in to receive marketing emails from your organization. Using purchased or rented lists will likely produce a high number of hard bounces, spam complaints, spam-trap hits, and other issues that will reduce your sender reputation and with it your [email deliverability rates](get-ready-email-marketing.md). In many jurisdictions, sending unsolicited email without the recipient's consent will violate local regulations (such as the [GDPR](gdpr.md) in the European Union). If your email marketing campaigns generate too many bounces and spam complaints, you also risk losing your ability to send email with Dynamics 365 Marketing. It's your organization's responsibility to ensure that it complies with all relevant laws in the countries/regions targeted by your marketing campaigns.
 
 ## Step 1: Customize your contact entity
 
@@ -39,7 +37,7 @@ This tutorial provides an example of how to send marketing email messages to all
 > [!NOTE]
 > This step requires admin privileges, but only needs to be done once per instance. If you're not an admin, then please contact your admin for help with this step if it's not already been done on your instance.
 
-If you don't already have one, then add a custom field to the contact entity to hold a value that identifies each contact that is part of a given spreadsheet. For instructions, see [Create and edit fields](../customize/create-edit-fields.md). Later, you'll be able to create a segment that looks for a specific value in this field and thereby finds all contacts that were listed in the original spreadsheet.
+If you don't already have one, then add a custom field to the contact entity to hold a value that identifies each contact that is part of a given spreadsheet. For instructions, see [How to create and edit fields](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-fields). Later, you'll be able to create a segment that looks for a specific value in this field and thereby finds all contacts that were listed in the original spreadsheet.
 
 For this example, we'll assume you created a text field called "ImportSegment" for this purpose. Configure the field as follows (these are probably your default settings) and then publish the changes:
 
@@ -69,16 +67,16 @@ When you're done, export the excel spreadsheet to a comma-separated values (CSV)
 
 ## Step 3: Import the CSV file
 
-Import the CSV file that you created in Step 2 into Dynamics 365 for Marketing as described in [Import records from a CSV file](import-data.md#import-records-from-a-csv-file). As usual, take care when mapping the incoming columns to the correct data fields.
+Import the CSV file that you created in Step 2 into Dynamics 365 Marketing as described in [Import records from a CSV file](import-data.md#import-records-from-a-csv-file). As usual, take care when mapping the incoming columns to the correct data fields.
 
 ![Map spreadsheet columns to database fields](media/excel-email-import.png "Map spreadsheet columns to database fields")
 
 > [!NOTE]
-> On import, Dynamics 365 will match the incoming contacts against existing contacts using the duplicate-detection rules established for your instance. If a match is found, then the incoming contact will be dropped and the existing contact will remain unchanged. This means that when a match is found, the matching contact won't be included in the segment that you will create later to email contacts from the imported file.
+> On import, Dynamics 365 Marketing will match the incoming contacts against existing contacts using the duplicate-detection rules established for your instance. If a match is found, then the incoming contact will be dropped and the existing contact will remain unchanged. This means that when a match is found, the matching contact won't be included in the segment that you will create later to email contacts from the imported file.
 
 ## Step 4: Create a segment that finds all contacts included in the spreadsheet
 
-Now [create a profile-based dynamic segment](segmentation-lists-subscriptions.md) in Dynamics 365 for Marketing that finds all of the contacts you just imported by querying the custom contact field you set up in step 1 to identify the import based on the value you established in step 2. Using the example values established so far, the query should look like this:
+Now [create a profile-based dynamic segment](segmentation-lists-subscriptions.md) in Dynamics 365 Marketing that finds all of the contacts you just imported by querying the custom contact field you set up in step 1 to identify the import based on the value you established in step 2. Using the example values established so far, the query should look like this:
 
 **Contact | ImportSegment | is | Summer2019EventImport**
 
@@ -98,10 +96,10 @@ Finish designing your journey as needed. When you're done, set the start date an
 
 ### See also
 
-[Create and edit fields](../customize/create-edit-fields.md)  
+[How to create and edit fields](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-fields)
 [Best practices for email marketing](get-ready-email-marketing.md)  
 [Import data](import-data.md)  
 [Email marketing overview](prepare-marketing-emails.md)  
 [Working with segments](segmentation-lists-subscriptions.md)  
-[Design profile-based dynamic segments](segments-profile.md)  
+[Design dynamic demographic or firmographic segments](segments-profile.md)  
 [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)

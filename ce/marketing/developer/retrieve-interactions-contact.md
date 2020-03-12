@@ -1,5 +1,5 @@
 ---
-title: "Retrieve interactions for a contact using code (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
+title: "Retrieve interactions for a contact using code (Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
 description: "Know how to programmatically retrieve interactions for a contact using an action; GDPR compliance."
 ms.custom: 
 ms.date: 08/07/2018
@@ -7,8 +7,6 @@ ms.service: crm-online
 ms.technology: 
   - marketing
 ms.topic: conceptual
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: f0a910ca-fd62-4190-b75f-d61d2db76ca2
 author: KumarVivek
 ms.author: kvivek
@@ -24,7 +22,7 @@ search.app:
 Use the **msdyncrm_LoadInteractionsPublic** action to programmatically retrieve interactions for a contact. This action is useful for responding to [get-my-data requests](../gdpr.md#respond-to-get-my-data-requests) in order to fulfill the General Data Protection Regulation (GDPR) compliance.
 
 > [!TIP]
-> You can also generate request and response classes for this action to include in your application code. More information: [Generate early-bound types for an action](../../developer/create-own-actions.md#generate-early-bound-types-for-an-action)
+> You can also generate request and response classes for this action to include in your application code. More information: [Generate early-bound types for an action](/powerapps/developer/common-data-service/custom-actions#generate-early-bound-types-for-an-action)
 
 ## Action parameters
 

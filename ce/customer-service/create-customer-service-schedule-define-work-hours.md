@@ -1,17 +1,15 @@
 ---
-title: Create a customer service schedule and define the work hours (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: See how to create a customer service schedule and define the work hours for Dynamics 365 for Customer Service
-keywords: Create customer service schedule; Dynamics 365 for Customer Engagement; Customer Service Hub; Define the work hours for the schedule
-author: anjgupta
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-ms.author: anjgup
+title: Create a customer service schedule and define the work hours (Dynamics 365 Customer Service) | MicrosoftDocs
+description: See how to create a customer service schedule and define the work hours for Dynamics 365 Customer Service
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ms.date: 10/01/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.assetid: ee605a89-4bd5-4b93-8d45-2ec9ca0a9b8a
-ms.custom: dyn365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -23,12 +21,12 @@ search.app:
 
 # Create customer service schedule and define the work hours
 
-To define when your service or support team is available for providing support to customers, create a customer service schedule in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. A customer service schedule determines the business hours for each day in a week and also the weekly off. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] uses these details for time tracking of service level agreements (SLAs).  
+To define when your service or support team is available for providing support to customers, create a customer service schedule in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. A customer service schedule determines the business hours for each day in a week and also the weekly off. Dynamics 365 Customer Service uses these details for time tracking of service level agreements (SLAs).  
   
  For SLA time tracking, make sure you add a holiday schedule to the customer service schedule, and associate this customer service schedule to the SLA record.  
 
 > [!NOTE]
-> With the Customer Engagement apps version 9.1 release, customer service schedule in service management is available in the Customer Service Hub. We recommend that you create and manage customer service schedule using the new experience.
+> With the latest release of Dynamics 365 Customer Service app, customer service schedule in service management is available in the Customer Service Hub. We recommend that you create and manage customer service schedule using the new experience.
   
 ## Create a customer service schedule  
   

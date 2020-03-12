@@ -1,30 +1,27 @@
 ---
-title: "View omnichannel conversation and session activity types in the Customer Engagement apps | MicrosoftDocs"
-description: "Learn about the omnichannel conversation and session activity types that users (agents and supervisors) can see under the Activities in Dynamics 365 for Customer Engagement apps."
-keywords: ""
+title: "View omnichannel conversation and session activity types in the Model-driven apps | MicrosoftDocs"
+description: "Learn about the omnichannel conversation and session activity types that users (agents and supervisors) can see under the Activities in the Model-driven apps."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
-ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.date: 12/27/2019
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: BAC4B607-59A4-4FD2-B121-9799081D5EB1
-ms.custom: 
 ---
 
-# View conversation and session activity types in the Customer Engagement apps
+# View conversation and session activity types in the model-driven apps
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-Your organization might have a classification where certain agents work in the contact center, which uses Omnichannel for Customer Service on the web and certain agents work in another contact center, which uses Dynamics 365 for Customer Engagement apps. In this case, if you are an agent who works on Dynamics 365 for Customer Engagement apps and you need to analyze the conversation request from Omnichannel for Customer Service on the web, you can find the information through **Activities** in Dynamics 365 for Customer Engagement apps.
+Your organization might have a classification where certain agents work in the contact center, which uses Omnichannel for Customer Service on the web and certain agents work in another contact center, which uses model-driven apps. In this case, if you are an agent who works on model-driven apps and you need to analyze the conversation request from Omnichannel for Customer Service on the web, you can find the information through **Activities** in model-driven apps.
 
 Select the plus icon in the application tab to view the sitemap and select **Activities**.
 
 > [!div class=mx-imgBorder]
 > ![Select activities in the sitemap to view the list of activity types](../../media/oceh-oc-activities.png "Select activities in the sitemap")
 
-You can find the following activity types in Dynamics 365 for Customer Engagement apps:
+You can find the following activity types in model-driven apps:
 
 - Conversation
 

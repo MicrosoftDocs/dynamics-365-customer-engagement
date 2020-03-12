@@ -8,8 +8,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement apps (on-premises)
+  - Dynamics 365 apps
+  - Dynamics 365 apps (on-premises)
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -33,7 +33,7 @@ search.app:
   
  Press and hold the item you want to pin, or display the command bar while viewing a record, and then tap **Pin to Home**.  
   
- ![Dynamics 365 for Customer Engagement apps for mobile pin tile](../../../media/mobile-pin-tile.png "Dynamics 365 for Customer Engagement apps for mobile pin tile")  
+ ![Dynamics 365 apps for mobile pin tile](../../../media/mobile-pin-tile.png "Dynamics 365 apps for mobile pin tile")  
   
 <a name="bkmk4"></a>   
 #### Create a communication card  
@@ -41,7 +41,7 @@ search.app:
   
  Press and hold a contact tile that’s pinned to the dashboard, and then tap **Larger** on the command bar.  
   
- ![Dynamics 365 for Customer Engagement apps for mobile create communication card](../../../media/mobile-create-comm-card.png "Dynamics 365 for Customer Engagement apps for mobile create communication card")  
+ ![Dynamics 365 apps for mobile create communication card](../../../media/mobile-create-comm-card.png "Dynamics 365 apps for mobile create communication card")  
   
 ### See also  
  [Dynamics 365 for phones and tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)

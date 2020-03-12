@@ -1,16 +1,13 @@
 ---
 title: "Create Omnichannel Toast Notification-related action call | MicrosoftDocs"
 description: "Learn how to create action calls that can be used to show notifications in Omnichannel for Customer Service."
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 72569407-76f3-4d44-b598-68c75c4ba64f
-ms.custom: 
 ---
 # Step 3: Create an action call to display the notification 
 
@@ -18,7 +15,7 @@ ms.custom:
 
 ## Prerequisites
 
-- You must have required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps permissions to configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and access the required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Access management in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/security-unified-service-desk)
+- You must have required Dynamics 365 Customer Service permissions to configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and access the required Dynamics 365 Customer Service entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Access management in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/security-unified-service-desk)
 
 - You must have completed [Create agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md), [Step 1: Create forms to define notification layout](toastnotification-step1-create-forms-define-layout-behavior-notification.md), and [Step 2: Create Omnichannel Toast Notification hosted control](toastnotification-step2-create-hosted-controls.md). The configurations that you completed are required for this topic.
 
@@ -32,7 +29,7 @@ ms.custom:
 
 ## Create action calls
 
-1. Sign in to a Microsoft Dynamics 365 for Customer Engagement instance.
+1. Sign in to Common Data Service platform.
 
 2. Select the Down arrow next to Dynamics 365.
 

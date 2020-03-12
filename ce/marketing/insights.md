@@ -1,17 +1,15 @@
 ---
-title: "Analyze marketing results and gain insights (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "How to find and interpret marketing results, KPIs, and analytics in Dynamics 365 for Marketing"
+title: "Analyze marketing results and gain insights (Dynamics 365 Marketing) | Microsoft Docs"
+description: "How to find and interpret marketing results, KPIs, and analytics in Dynamics 365 Marketing"
 keywords: insights;results;KPIs;analytics
 ms.date: 03/08/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 2f5016aa-540a-4366-94a3-205d985c8da9
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -26,7 +24,7 @@ search.app:
 
 # Analyze results to gain insights from your marketing activities
 
-[!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] keeps track of the way your contacts react to your various marketing initiatives and provides detailed analytical views to help you understand your impact and learn what works best. For example, each of the following entities provides statistics, analytics, and key performance indicators (KPIs) based on your marketing results:
+Dynamics 365 Marketing keeps track of the way your contacts react to your various marketing initiatives and provides detailed analytical views to help you understand your impact and learn what works best. For example, each of the following entities provides statistics, analytics, and key performance indicators (KPIs) based on your marketing results:
 
 - Contacts
 - Leads
@@ -83,7 +81,7 @@ Contacts provide the following [insights categories](#categories):
 - **Email interactions**: View complete details of email results for the selected contact, including a list of all messages sent to them, plus lists of all opens, clicks, bounces, and more.
 - **Web interactions**: See which pages and links from your websites and marketing pages the contact has opened, and which links they selected. Also lists each redirect URL this contact has clicked on.
     > [!NOTE]
-    >- Only pages that include a [Dynamics 365 for Marketing tracking script](register-engagement.md#monitor-visitors) are counted here.
+    >- Only pages that include a [Dynamics 365 Marketing tracking script](register-engagement.md#monitor-visitors) are counted here.
     > - The **Websites visited** list shows all tracked pages that were visited by this known contact.
     > - The **Websites clicked** list shows all of the links this user clicked on when viewing a tracked page. Each visited link is show as a full URL, and repeat visits are listed just once, with a counter.
     > - If you [embed a marketing form](embed-forms.md) into an external webpage, then a tracking tag is included and visits to that page are therefore shown here.
@@ -91,6 +89,7 @@ Contacts provide the following [insights categories](#categories):
 - **Event interactions**: See a timeline of event interactions, and event registration, check-in and cancellation records for the current contact.
 - **Marketing form interactions**: See which marketing forms the contact has submitted and the content of each submission.
 - **Subscription list interactions**: See which subscription lists the contact joined or left, and when.
+- **Email open times**: See the days and times when the contact usually opens your emails and how long they usually wait before opening them. This information also informs the [smart scheduling feature](smart-scheduler.md), which adds a **Predicted best send times** chart here when enabled.
 
 ## Lead insights
 
@@ -101,7 +100,7 @@ Most of the insights displayed for a lead are the same as those shown for contac
 For leads associated with an account rather than a single contact, the insights combine interactions made by all contacts that belong to that account.
 
 > [!NOTE]
-> Because interaction records relate only to contact records, not lead records, most insights are only available for leads that are associated with a contact record (or with an account record, which itself relates back to contact records). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use leads to register and track expressions of interest](manage-customer-information.md#leads-in-marketing)
+> Because interaction records relate only to contact records, not lead records, most insights are only available for leads that are associated with a contact record (or with an account record, which itself relates back to contact records). More information: [Use leads to register and track expressions of interest](manage-customer-information.md#leads-in-marketing)
 
 ## Account insights
 
@@ -141,9 +140,9 @@ All types of tiles provide a **Volume** section on the **Data** panel with the f
 
 - **Volume** > **Inflow**: Counts how many contacts entered the tile. 
 - **Volume** > **Processing**: Counts how many contacts are still waiting for that tile to finish processing them. For trigger tiles, for example, this value indicates the number of contacts that are waiting for the trigger condition to be met or for the timeout to arrive.
-- **Volume** > **Stopped** (only shown when stopped contacts exist): Counts the number of contacts that were stopped from continuing the journey at this tile. There are three main reasons that a contact might get stopped at a tile during a journey: they [unsubscribed](customer-journeys-create-automated-campaigns.md#target-subscription-list) from the mailing list targeted by the journey, they got added to the journey's [suppression segment](customer-journeys-create-automated-campaigns.md#general-options), or they lowered their [consent level](gdpr.md#view-and-set-the-consent-level-for-each-contact) below the [minimum threshold](gdpr.md#journey-consent-level) set for the journey. This value is also displayed as the second value shown above the tile in the pipeline. Some tile types provide a floppy-disk button here; select this button to [generate a segment](generate-segment-from-journey.md) that includes all contacts that were stopped at exactly this tile of this journey. You can see a detailed breakdown of which contacts stopped here and why by going to the [Incomplete journeys](#incomplete) view.
-- **Volume** > **Failed** (only shown when failed contacts exist): Counts the number of contacts that failed to be processed by the tile, typically because of an internal error. This value is also displayed as the third value shown above the tile in the pipeline. Some tile types provide a floppy-disk button here; select this button to [generate a segment](generate-segment-from-journey.md) that includes all contacts that failed at exactly this tile of this journey.
-- **Volume** > **Processed**: Counts the number of contacts that were successfully processed by this tile and passed on to the appropriate next tile. Some tile types provide a floppy-disk button here; select this button to [generate a segment](generate-segment-from-journey.md) that includes all contacts that were successfully processed by exactly this tile of this journey. This value is also displayed as the first value shown above the tile in the pipeline.
+- **Volume** > **Stopped** (only shown when stopped contacts exist): Counts the number of contacts that were stopped from continuing the journey at this tile. There are three main reasons that a contact might get stopped at a tile during a journey: they [unsubscribed](customer-journeys-create-automated-campaigns.md#target-subscription-list) from the mailing list targeted by the journey, they got added to the journey's [suppression segment](customer-journeys-create-automated-campaigns.md#general-options), or they lowered their [consent level](gdpr.md#view-and-set-the-consent-level-for-each-contact) below the [minimum threshold](gdpr.md#journey-consent-level) set for the journey. This value is also displayed as the second value shown above the tile in the pipeline. Some tile types provide a **Save as segment** button ![save-as-segment button](media/Save-as-segment-button.png "Save-as-segment button") here; select this button to [generate a segment](generate-segment-from-journey.md) that includes all contacts that were stopped at exactly this tile of this journey. You can see a detailed breakdown of which contacts stopped here and why by going to the [Incomplete journeys](#incomplete) view.
+- **Volume** > **Failed** (only shown when failed contacts exist): Counts the number of contacts that failed to be processed by the tile, typically because of an internal error. This value is also displayed as the third value shown above the tile in the pipeline. Some tile types provide a **Save as segment** button ![save-as-segment button](media/Save-as-segment-button.png "Save-as-segment button") here; select this button to [generate a segment](generate-segment-from-journey.md) that includes all contacts that failed at exactly this tile of this journey.
+- **Volume** > **Processed**: Counts the number of contacts that were successfully processed by this tile and passed on to the appropriate next tile. Some tile types provide a **Save as segment** button ![save-as-segment button](media/Save-as-segment-button.png "Save-as-segment button") here; select this button to [generate a segment](generate-segment-from-journey.md) that includes all contacts that were successfully processed by exactly this tile of this journey. This value is also displayed as the first value shown above the tile in the pipeline.
 
 In addition to the **Volume** section, some tiles also show additional sections and links in the **Data** panel, depending on the tile type. These can include the following:
 
@@ -169,7 +168,7 @@ Open the **Insights** tab and select **Incomplete journeys** to view each reason
 
 - **Contact joined the suppression segment**: The contact joined the suppression segment for the customer journey.
 - **Contact lowered consent below threshold**: These are contacts that lowered their data-protection consent level , and are now below the minimum level of consent for this journey. This is an important part of GDPR compliance. More information: Data protection and the GDPR.
-- **Contact lowered external consent below threshold**: This is the same a Contact content not given but applies when consent is being managed by an external system rather than the internal one provided with Dynamics 365 for Marketing.
+- **Contact lowered external consent below threshold**: This is the same a Contact content not given but applies when consent is being managed by an external system rather than the internal one provided with Dynamics 365 Marketing.
 
 Select a reason in the left column of the table to see a list (in the right column) of contacts that were stopped for that reason.
 
@@ -182,11 +181,11 @@ A *blocked email* is a messages that the system didn't attempt to send even thou
 - **Recipient address isn't valid**: There is something obviously wrong with the recipient address (such as no "@"), which means that the message can't be delivered.
 - **Sender address isn't valid**: The email is designed with a sender address that is blank or malformed. This may affect your entire send (if you are using an invalid static address or expression), or it may affect just a few messages if you are using a dynamic expression that only fails for some contacts for which data is invalid or missing.
 - **Reply-to address isn't valid**: Same as for the invalid sender address, but this applies to the reply-to field.
-- **Email contains blacklisted links**: Dynamics 365 for Marketing analyzes the content of outgoing messages to make sure they don't contain any blacklisted links. If one is found, the message is blocked. The system keeps an internal list of blacklisted sites that are known to be used for phishing, hosting malware, and other issues. This feature helps make sure that you don't accidentally include a link to one of those sites in your marketing messages.
+- **Email contains blacklisted links**: Dynamics 365 Marketing analyzes the content of outgoing messages to make sure they don't contain any blacklisted links. If one is found, the message is blocked. The system keeps an internal list of blacklisted sites that are known to be used for phishing, hosting malware, and other issues. This feature helps make sure that you don't accidentally include a link to one of those sites in your marketing messages.
 - **Email is missing required fields**: A required field (such as the subject) contains no value. Usually, this type of error would be found when you error-check the message, but if you are using a dynamic expression on a required filed, then the expression could fail to evaluate for some or all recipients.
 - **Contact deleted**: The target segment included a contact that has since been deleted.
 - **Contact is inactive**: The target segment included a contact that has been set to inactive.
-- **Insufficient email credits**: Your organization has used up your email credits for the month. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Quota limits](quota-management.md)
+- **Insufficient email credits**: Your organization has used up your email credits for the month. More information: [Quota limits](quota-management.md)
 
 Select a reason in the left column of the table to see a list (in the right column) of contacts that weren't sent a message for that reason.
 
@@ -211,7 +210,7 @@ For more information about the carious types of email results and KPIs listed on
 
 ## Lead scoring model insights
 
-To view lead scoring model insights, go to **Marketing** > **Lead management** > **Lead scoring models**, select a model, and then open its **Insights** tab. Insights are only available for models that are (or have been) live.
+To view lead scoring model insights, go to **Marketing** > **Lead management** > **Scoring models**, select a model, and then open its **Insights** tab. Insights are only available for models that are (or have been) live.
 
 Here you can find a timeline showing the number of leads processed by the model over time.
 
@@ -242,12 +241,14 @@ Marketing forms provide the following [categories](#categories) on the **Insight
 
 ## Website insights
 
-To view website insights, go to **Marketing** > **Internet marketing** > **Websites**, select a website record, and then open its **Insights** tab.
+To view website insights, go to **Marketing** > **Internet marketing** > **Marketing websites**, select a website record, and then open its **Insights** tab.
 
 Marketing pages provide the following [categories](#categories) on the **Insights** tab:
 
 - **Overview**: Provides a list of the most popular website pages that include the script created and tracked by this website record, and a map that shows where people were when opening those pages.
-- **Timeline**: Shows a table that provides details about each time a page that includes the script created and tracked by this website record was loaded.
+- **Visits**: Shows a table that provides details about each time a page that includes the script created and tracked by this website record was loaded.
+- **Form visits**: Shows a table that lists each time an anonymous or known contact opened a page on this website that included an embedded or captured marketing form.
+- **Form submissions**: Shows a table that lists each time a contact submitted an embedded or captured marketing form from this website. Hover your mouse pointer over a value in the **Form submissions** column to view the values sent with any listed submission.
 
 ## Redirect URL insights
 

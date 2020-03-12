@@ -1,29 +1,25 @@
 ---
-title: "Import data into Dynamics 365 for Sales Professional | MicrosoftDocs"
-description: "Get your data in bulk into Dynamics 365 for Sales Professional by importing it."
-keywords: ""
-ms.date: 04/05/2019
-ms.service: dynamics-365-sales
+title: "Import data into Dynamics 365 Sales Professional | MicrosoftDocs"
+description: "Get your data in bulk into Dynamics 365 Sales Professional by importing it."
+ms.date: 10/01/2019
+ms.service: 
+  - dynamics-365-sales
+ms.custom: 
+  - dyn365-sales
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
-ms.assetid: 7914b026-8e46-4dda-9134-f86bd8ae5db8
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.custom: dyn365-sales
 ---
 
-# Import data into Dynamics 365 for Sales Professional
+# Import data into Dynamics 365 Sales Professional
 
 > [!IMPORTANT]
-> This capability is introduced in the Dynamics 365 for Sales Professional app version 9.1.0.0.
+> This capability is introduced in the Dynamics 365 Sales Professional app version 9.1.0.0.
 
 Bring customer and sales data quickly into your app by importing it. The Sales Professional app can be used for importing data into most record types.
 
-Dynamics 365 for Sales Professional processes import in the background. After an import completes, you can review which records succeeded, failed to import,
+Dynamics 365 Sales Professional processes import in the background. After an import completes, you can review which records succeeded, failed to import,
 or were partially imported. To fix the records that failed to import, export them into a separate file, fix them, and then try to import them again. You can
 delete all records associated with an import.
 
@@ -33,7 +29,7 @@ You can import data from the following file types:
 
 -   Comma-separated value (CSV) files.
 
--   Microsoft Excel templates available in Dynamics 365 for Sales. More information: [Export data or template](export-data.md).
+-   Microsoft Excel templates available in Dynamics 365 Sales. More information: [Export data or template](export-data.md).
 
 ## Prepare your file for import
 
@@ -59,15 +55,15 @@ successfully:
         >[!NOTE]
         >Make sure that the CSV file does not contain:
          >- Multiple lines in the first line (header row).
-         >- Quotation marks in the first line. In Dynamics 365 for Sales Professional, quotation marks are used as data delimiters.
-         >- Data separated with a semicolon (;) or comma (,). In Dynamics 365 for Sales Professional, semicolons and commas are used as field delimiters.
+         >- Quotation marks in the first line. In Dynamics 365 Sales Professional, quotation marks are used as data delimiters.
+         >- Data separated with a semicolon (;) or comma (,). In Dynamics 365 Sales Professional, semicolons and commas are used as field delimiters.
 
         >[!IMPORTANT]
-        >To import files quickly, it helps to have your column headings match the display name of the fields in Dynamics 365 for Sales Professional. This will help in the automatic mapping of data while you import. (The display name is a label that is used by default when an attribute is displayed on a form, in a list, or in a report. The **Display Name** field for each attribute can be changed in the **Customization** area by a user with an appropriate security role.)
+        >To import files quickly, it helps to have your column headings match the display name of the fields in Dynamics 365 Sales Professional. This will help in the automatic mapping of data while you import. (The display name is a label that is used by default when an attribute is displayed on a form, in a list, or in a report. The **Display Name** field for each attribute can be changed in the **Customization** area by a user with an appropriate security role.)
 
 4.  Make sure data exists for all business-required fields.
 
-A record will import only if all Dynamics 365 for Sales Professional business-required fields are mapped and if the data exists in each of the source columns that are mapped to the required fields. (Business-required fields are attributes that are required before a record can be saved.
+A record will import only if all Dynamics 365 Sales Professional business-required fields are mapped and if the data exists in each of the source columns that are mapped to the required fields. (Business-required fields are attributes that are required before a record can be saved.
 Required fields are marked with an asterisk.) You
 can either determine the required fields in advance or identify missing required mappings during the import. In either case, make sure you include the required
 data in each record. 
@@ -131,7 +127,7 @@ remaining lines are imported as data.
 
 7.  Select **Review Mapping**.
 
-    1.  In the **Review Mapping** page, review how your column headings are mapped to the fields in Dynamics 365 for Sales Professional.
+    1.  In the **Review Mapping** page, review how your column headings are mapped to the fields in Dynamics 365 Sales Professional.
 
         By default, the **Primary Fields** section of the wizard shows all the required fields for the entity that must be mapped for the data to
         import successfully on the left side.
@@ -158,8 +154,8 @@ remaining lines are imported as data.
 
         If the column headings don’t match, the unmapped fields will be shown with a red exclamation mark.
 
-    3.  Select a Dynamics 365 for Sales Professional field to map to the unmapped column heading of your file. You can also select **Ignore**
-        from the drop-down list. If you select **Ignore** for a column, the data in that column won’t be imported into Dynamics 365 for Sales
+    3.  Select a Dynamics 365 Sales Professional field to map to the unmapped column heading of your file. You can also select **Ignore**
+        from the drop-down list. If you select **Ignore** for a column, the data in that column won’t be imported into Dynamics 365 Sales
         Professional.
 
         ![Optional Fields section in Review Mapping Page](media/review-mapping-page-optional-fields.png "Optional Fields section in Review Mapping Page")
@@ -170,11 +166,11 @@ remaining lines are imported as data.
     
         For each **Source Option Values** item, select an item from the **Dynamics 365 Option Values** list to map it, and then select **OK**.
 
-         When you are mapping the source values to items in the **Dynamics 365 Option Values** list, the Import Data wizard temporarily adds the items from the source values to the **Dynamics 365 Option Values** list. You can map the source list values to the existing options in Dynamics 365 or to the added values. If you map to one of the added values, these new values are created in Dynamics 365 for Sales Professional.
+         When you are mapping the source values to items in the **Dynamics 365 Option Values** list, the Import Data wizard temporarily adds the items from the source values to the **Dynamics 365 Option Values** list. You can map the source list values to the existing options in Dynamics 365 or to the added values. If you map to one of the added values, these new values are created in Dynamics 365 Sales Professional.
 
         For example, your source values and the Dynamics 365 target values could have the following values before the import starts:
 
-        | **Source values** | **Dynamics 365 for Sales Professional target values** |
+        | **Source values** | **Dynamics 365 Sales Professional target values** |
         |-------------------|-------------------------------------------------------|
         | Low               | Cold                                                  |
         | High              | Warm                                                  |
@@ -182,7 +178,7 @@ remaining lines are imported as data.
 
         During the import, the Import Data Wizard adds the source values to the Dynamics 365 target values:
 
-        | **Source values** | **Dynamics 365 for Sales Professional target values** |
+        | **Source values** | **Dynamics 365 Sales Professional target values** |
         |-------------------|-------------------------------------------------------|
         | Low               | Cold                                                  |
         | High              | Warm                                                  |
@@ -197,9 +193,9 @@ remaining lines are imported as data.
 
         > [!NOTE] 
 
-        > You can also map a column in your source file to a field of type **Two Options** and **Multiselect Option Set** (where a field can have multiple values). You must map each **Source Option Values** to the items in the **Dynamics 365 Option Values** list. When mapping to a field of type **Multiselect Option Set**, if your source file includes values that aren’t available in Dynamics 365 for Sales Professional, new values won’t be created.
+        > You can also map a column in your source file to a field of type **Two Options** and **Multiselect Option Set** (where a field can have multiple values). You must map each **Source Option Values** to the items in the **Dynamics 365 Option Values** list. When mapping to a field of type **Multiselect Option Set**, if your source file includes values that aren’t available in Dynamics 365 Sales Professional, new values won’t be created.
 
-    5.  If some data in your source file references other existing records in Dynamics 365 for Sales Professional, you must map the column in the source file to a lookup field of Dynamics 365 for Sales Professional.
+    5.  If some data in your source file references other existing records in Dynamics 365 Sales Professional, you must map the column in the source file to a lookup field of Dynamics 365 Sales Professional.
 
         For example, say you want to import the file Leads.csv that contains customer records. The **Customer** column in the Leads.csv contains the
         associated account or contact data.
@@ -213,7 +209,7 @@ remaining lines are imported as data.
         You can just select this data map when you want to import similar data in the future. The data map maps data based on the mappings you’ve
         defined earlier.
 
-8.  Select **Finish Import** when you have mapped each column from the source file to a Dynamics 365 for Sales Professional field or have selected **Ignore** in the list under **Dynamics 365 Entity Fields**.
+8.  Select **Finish Import** when you have mapped each column from the source file to a Dynamics 365 Sales Professional field or have selected **Ignore** in the list under **Dynamics 365 Entity Fields**.
 
 ## View the results of an import, and correct errors
 
@@ -261,9 +257,9 @@ You must wait for an import job to complete before you can repair failures.
 
     -   **Delete All**. This deletes the import file along with the records that were imported from the import file.
 
-## Import data from Exchange in Dynamics 365 for Sales Professional
+## Import data from Exchange in Dynamics 365 Sales Professional
 
-If you’ve been keeping track of all your contacts in Microsoft Exchange, you can quickly get all your contacts in Dynamics 365 for Sales Professional so you have
+If you’ve been keeping track of all your contacts in Microsoft Exchange, you can quickly get all your contacts in Dynamics 365 Sales Professional so you have
 all your data in one place.
 
 ### Prerequisites
@@ -291,10 +287,10 @@ To be able to import from Exchange:
 
 4. Select **Track**.
 
-    All the contacts from Exchange will start importing to Dynamics 365 for Sales Professional. Any changes that you make to contacts in your Exchange mailbox are automatically updated in the contact records in Dynamics 365 for Sales Professional.
+    All the contacts from Exchange will start importing to Dynamics 365 Sales Professional. Any changes that you make to contacts in your Exchange mailbox are automatically updated in the contact records in Dynamics 365 Sales Professional.
 
 >[!IMPORTANT]
->You won’t be able to remove or untrack a contact from Dynamics 365 for Sales Professional. Use the Dynamics 365 App for Outlook to do this.
+>You won’t be able to remove or untrack a contact from Dynamics 365 Sales Professional. Use the Dynamics 365 App for Outlook to do this.
 
 
 ### See also

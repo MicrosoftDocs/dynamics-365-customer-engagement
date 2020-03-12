@@ -1,6 +1,6 @@
 ---
 title: "Segment Query definition| Microsoft Docs" # Intent and product brand in a unique string of 43-59 chars including spaces
-description: The Segmentation API enables programmatic interaction with certain segmentation features of Dynamics 365 for Marketing app."" # 115-145 characters including spaces. This abstract displays in the search result.
+description: The Segmentation API enables programmatic interaction with certain segmentation features of Dynamics 365 Marketing app."" # 115-145 characters including spaces. This abstract displays in the search result.
 ms.custom: ""
 ms.date: 08/12/2019
 ms.reviewer: ""
@@ -42,7 +42,7 @@ Expression to access all the profiles that belong to a segment.
 
 ## TRAVERSE
 
-Expression to move in the graph using the relationship type provided as a parameter. Optionally an expression can be applied for the current edges to filter the ones that doesn't meet the conditions. 
+Expression to move in the graph using the relationship type provided as a parameter. Optionally an expression can be applied for the current edges to filter the ones that don't meet the conditions. 
 
 **Syntax**
 `TRAVERSE(relationship_type_name, FILTER(condition))`
@@ -63,7 +63,7 @@ A conditional expression that is used on aggregated interactions. Calculation wi
 
 ## FILTER
 
-Expression applied for the current node to filter the ones that doesn't meet the conditions. More information [Usage Limitations](#usage-limitations). 
+Expression applied for the current node to filter the ones that don't meet the conditions. More information: [Usage Limitations](#usage-limitations) 
 
 **Syntax**
 `FILTER(condition)` 

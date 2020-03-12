@@ -8,8 +8,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps 
-  - Dynamics 365 for Customer Engagement apps (on-premises)
+  - Dynamics 365 apps 
+  - Dynamics 365 apps (on-premises)
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -44,7 +44,7 @@ You can track your [!INCLUDE[pn_MS_Outlook_Full](../../includes/pn-ms-outlook-fu
   
 ## Step 2: Run the wizard  
   
-1. Choose **File** > **Dynamics 365 for Customer Engagement apps** > **Import Contacts** > **Add Contacts**.  
+1. Choose **File** > **Dynamics 365 apps** > **Import Contacts** > **Add Contacts**.  
   
 2. Choose **Next**.  
   
@@ -94,4 +94,4 @@ You can track your [!INCLUDE[pn_MS_Outlook_Full](../../includes/pn-ms-outlook-fu
   
 ### See also  
  [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
- [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 for Customer Engagement apps and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)
+ [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 apps and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)

@@ -1,17 +1,15 @@
 ---
-title: "Set up double opt-in (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "How to set up the double opt-in system to let contacts confirm their new subscriptions and consent changes in Dynamics 365 for Marketing"
+title: "Set up double opt-in (Dynamics 365 Marketing) | Microsoft Docs"
+description: "How to set up the double opt-in system to let contacts confirm their new subscriptions and consent changes in Dynamics 365 Marketing"
 keywords: double opt-in;gdpr;subscriptions;consent
 ms.date: 10/16/2018
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: dacfc72e-978c-41d1-b4c6-8c5b66042770
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -25,9 +23,9 @@ The double opt-in process works as follows:
 
 1. A new or existing contact uses a [subscription form](set-up-subscription-center.md) or landing page to subscribe to a newsletter or adjust their consent level.
 2. On submitting the form, the contact is shown a page that tells them to check their email for a confirmation message that includes a link the contact must click on to confirm their request.
-3. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] sends a confirmation email of the appropriate type (subscribe or consent) to the address registered for the contact.
-4. The contact opens the confirmation email, reads the text, and clicks the link. This opens a web browser, which submits a coded URL that identifies the contact and request message to [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)].
-5. [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] registers the click, applies the requested subscription or consent change, logs the change, and immediately redirects to a thank-you page that is shown to the contact.
+3. Dynamics 365 Marketing sends a confirmation email of the appropriate type (subscribe or consent) to the address registered for the contact.
+4. The contact opens the confirmation email, reads the text, and clicks the link. This opens a web browser, which submits a coded URL that identifies the contact and request message to Dynamics 365 Marketing.
+5. Dynamics 365 Marketing registers the click, applies the requested subscription or consent change, logs the change, and immediately redirects to a thank-you page that is shown to the contact.
 
 Double opt-in is a good idea in all countries/regions, and in many countries/regions (especially in Europe), it's required by law.
 
@@ -38,7 +36,7 @@ Read this topic to learn how to set up each element required for the double opt-
 A subscription confirmation-request message is sent to contacts each time they register for a new newsletter subscription while double opt-in is enabled for your instance. This applies both to known contacts using a subscription center, and for new contacts registering for the first time.
 
 > [!NOTE]
-> [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] sends a separate confirmation-request message for each subscription list a contact chooses to join, even if they enable several lists at once.
+> Dynamics 365 Marketing sends a separate confirmation-request message for each subscription list a contact chooses to join, even if they enable several lists at once.
 
 To create a subscription confirmation-request message:
 
@@ -74,13 +72,13 @@ The previous illustration highlights important elements provided by the **diaman
 - **{{Message.ConfirmationRequestType}}**: Resolves to show the type of confirmation message this is (as established in the [Default marketing settings](#set-up-doi) when the message is sent). For subscription confirmations, this is "Marketing list subscribe" by default.
 - **{{Message.ConfirmationObjectName}}**: Resolves to the **Name** field of the [subscription list](set-up-subscription-center.md#create-subscription-list) the contact has asked to join.
 - **{{Message.ConfirmationObjectDescription}}**: Resolves to the **Description** field of the [subscription list](set-up-subscription-center.md#create-subscription-list) the contact has asked to join.
-- **{{Message.ConfirmationRedirectURL}}**: Resolves to a URL that targets the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] server and includes a code that uniquely identifies the contact the message was sent to and the message itself. All confirmation-request messages must include a button (or link) that targets this Handlebars expression (otherwise, contacts will not be able to confirm).
+- **{{Message.ConfirmationRedirectURL}}**: Resolves to a URL that targets the Dynamics 365 Marketing server and includes a code that uniquely identifies the contact the message was sent to and the message itself. All confirmation-request messages must include a button (or link) that targets this Handlebars expression (otherwise, contacts will not be able to confirm).
 
-The following screenshot shows a [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] subscription-list record with the **Name** and **Description** fields highlighted. These are the values that you can include in your subscription confirmation-request message.
+The following screenshot shows a Dynamics 365 Marketing subscription-list record with the **Name** and **Description** fields highlighted. These are the values that you can include in your subscription confirmation-request message.
 
 ![Subscription list settings available to confirmation-request messages](media/doi-sub-list-settings.png "Subscription list settings available to confirmation-request messages")
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Email marketing overview](prepare-marketing-emails.md), [Set up subscription lists and subscription centers](set-up-subscription-center.md)
+More information: [Email marketing overview](prepare-marketing-emails.md), [Set up subscription lists and subscription centers](set-up-subscription-center.md)
 
 ## Create an increase consent confirmation-request message
 
@@ -122,13 +120,13 @@ The previous illustration highlights important elements provided by the **custon
 - **{{Message.ConfirmationObjectName}}**: Resolves to the name of the consent-level field as defined on the contact entity (by default, "Consent given").
 - **{{Message.ConfirmationObjectValue}}**: Resolves to the **Options** value for the new consent level the contact has chosen (e.g., "(2) Transactional").
 - **{{Message.ConfirmationObjectDescription}}**: Resolves to the **Description** field for the new consent level the contact has chosen.
-- **{{Message.ConfirmationRedirectURL}}**: Resolves to a URL that targets the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] server and includes a code that uniquely identifies the contact the message was sent to and the message itself. All confirmation-request messages must include a button (or link) that targets this Handlebars expression (otherwise, contacts will not be able to confirm).
+- **{{Message.ConfirmationRedirectURL}}**: Resolves to a URL that targets the Dynamics 365 Marketing server and includes a code that uniquely identifies the contact the message was sent to and the message itself. All confirmation-request messages must include a button (or link) that targets this Handlebars expression (otherwise, contacts will not be able to confirm).
 
-The following screenshot shows a [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] **Option Set** setup with the **Options** and **Description** fields highlighted. These are the values that you can include in your consent confirmation-request message. Note that each entry in the **Options** list has its own **Description**. You must use the [Dynamics 365 – custom](navigation.md#move-between-apps) app to read and edit these values (see also [Create and edit global option sets](../customize/create-edit-global-option-sets.md)).
+The following screenshot shows an **Option Set** setup with the **Options** and **Description** fields highlighted. These are the values that you can include in your consent confirmation-request message. Note that each entry in the **Options** list has its own **Description**. More information: [Create and edit global option sets](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-global-option-sets)
 
 ![Consent option-set values available to confirmation-request messages](media/doi-consent-level-options.png "Consent option-set values available to confirmation-request messages")
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Data protection and the GDPR](gdpr.md)
+More information: [Data protection and the GDPR](gdpr.md)
 
 ## Create a content-settings record for confirmation-request messages
 
@@ -140,17 +138,17 @@ Review your content-settings records and decide which to use (or create a new on
 
 You will choose the content-settings record to use for all confirmation-request messages when you set up double opt-in for your instance, as described later in this topic.
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use content settings to set up repositories of standard and required values for email messages](dynamic-email-content.md#content-settings)
+More information: [Use content settings to set up repositories of standard and required values for email messages](dynamic-email-content.md#content-settings)
 
 ## Create a thank-you page for each type of confirmation
 
-When a contact clicks the confirmation link in a confirmation email, [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] registers the confirmation, applies the requested action, and redirects the contact's browser to a thank-you page. You must create your thank-you pages as [marketing pages](create-deploy-marketing-pages.md) in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]. Thank-you page templates are provided out-of-the-box to help get you started.
+When a contact clicks the confirmation link in a confirmation email, Dynamics 365 Marketing registers the confirmation, applies the requested action, and redirects the contact's browser to a thank-you page. You must create your thank-you pages as [marketing pages](create-deploy-marketing-pages.md) in Dynamics 365 Marketing. Thank-you page templates are provided out-of-the-box to help get you started.
 
 <a name="set-up-doi"></a>
 
 ## Set up and enable double opt-in on your instance
 
-The double opt-in feature is global for your [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] instance. When it's enabled, all new-subscription and increase-consent requests will require double opt-in and the same settings will apply everywhere.
+The double opt-in feature is global for your Dynamics 365 Marketing instance. When it's enabled, all new-subscription and increase-consent requests will require double opt-in and the same settings will apply everywhere.
 
 Before you start to set up and enable double opt-in, make sure you have all the other elements described previously in this topic available to your system, including:
 

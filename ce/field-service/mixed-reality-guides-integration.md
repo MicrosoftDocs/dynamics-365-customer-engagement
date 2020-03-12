@@ -34,7 +34,7 @@ Intergration with Dynamics 365 Guides lets Field Service customers attach mixed 
 ![Select guide](media/select-guide.PNG "Select guide")   
 
 > [!IMPORTANT]
-> To attach guides to service tasks in Field Service, you'll need Dynamics 365 for Field Service version 8.6.0.183 or later.
+> To attach guides to service tasks in Field Service, you'll need Dynamics 365 Field Service version 8.6.0.183 or later.
 
 ## Using Dynamics 365 Guides with work orders
 
@@ -89,7 +89,7 @@ Intergration with Dynamics 365 Guides lets Field Service customers attach mixed 
 
 ### See also
 
-- [Overview of Dynamics 365 for Field Service](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/overview)
+- [Overview of Dynamics 365 Field Service](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/overview)
       
       
    

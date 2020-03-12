@@ -1,16 +1,13 @@
 ---
 title: "Notification ans screen pops for agents working in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn about the notifications and its types. Agents will see the nofications and screen pop in Omnichannel for Customer Service."
-keywords: ""
+description: "Learn about the notifications and its types. Agents will see the notifications and screen pop in Omnichannel for Customer Service."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
-ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.date: 01/31/2020
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 04017981-2d10-496b-a6b8-5ad0ea99fa4f
-ms.custom: 
 ---
 # View alert and toast notifications
 
@@ -59,7 +56,7 @@ The details you’ll see for a chat channel are:
 
 You receive a notification for a SMS conversation request. When you accept the SMS request, a session is starts, and the communication panel appears where you can exchange messages with the customer.
 
-Identification of a customer happens based on the **Mobile Phone** field present in the Contact record in Dynamics 365 for Customer Engagement. That is, if the incoming SMS conversation is from a phone whose number is present in the mobile phone field of a Contact record, the conversation automatically links to the contact record.
+Identification of a customer happens based on the **Mobile Phone** field present in the Contact record in Dynamics 365 Customer Service. That is, if the incoming SMS conversation is from a phone whose number is present in the mobile phone field of a Contact record, the conversation automatically links to the contact record.
 
  > [!div class=mx-imgBorder]
  > ![Incoming SMS notification](../../media/oceh/sms-notification-request.png "Incoming SMS notification") 
@@ -72,8 +69,25 @@ The details you’ll see for a SMS channel are:
 
  - Wait time
 
+
+ ## Incoming Facebook notification
+
+You receive a notification for a Facebook conversation request. When you accept the Facebook request, a session is started, and the communication panel appears where you can exchange messages with the customer.
+
+> [!div class=mx-imgBorder]
+> ![Facebook chat agent notification](../../media/fb-agent-notif.png "Facebook chat agent notification")
+
 > [!div class="nextstepaction"]
 > [Next topic: View customer summary and know everything about customers](customer-summary.md)
+
+## Theme of the notification
+
+There are two themes for the notification - Dark and Light. You'll see the theme as configured by your administrator.
+
+**Dark** and **Light** theme 
+
+![Dark theme](../../media/oceh/chat-notification-request.png "Dark theme") ![Light theme](../../media/oceh/chat-notification-request-light.png "Light theme")
+
 
 ## See also
 

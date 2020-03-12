@@ -1,46 +1,38 @@
 ---
-title: "Set up product bundles to sell multiple items together (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "Combine products in a bundle in Dynamics 365 for Sales to sell multiple items together."
-keywords: "Bundle, Product Bundle"
-ms.date: 08/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+title: "Set up product bundles to sell multiple items together (Dynamics 365 Sales) | MicrosoftDocs"
+description: "Combine products in a bundle in Dynamics 365 Sales to sell multiple items together."
+ms.date: 10/01/2019
+ms.service: 
+  - "dynamics-365-sales"
+ms.custom: 
+  - "dyn365-sales"
 ms.topic: get-started-article
-applies_to: Dynamics 365 for Customer Engagement
-ms.assetid: 1b15ac3d-9cce-4ad8-8014-5e89e0a709f4
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 28
 ---
 
 # Set up product bundles to sell multiple items together (Sales and Sales Hub)
 
-Encourage customers to buy more products instead of a single product by combining products in a bundle.   
-  
-These are the differences between kits and bundles:  
-  
-- You can't sell the products in a kit individually or separately, but you can mark certain products in a bundle as optional and sell them individually.  
-  
-- You can't see individual products added in a kit when you create an opportunity or order, but you can see the products in a bundle.  
-  
-- You can create nested kits (kits within a kit), but you can only add products to a bundle; you cannot add product families, kits, or other bundles to a bundle.  
+Encourage customers to buy more products instead of a single product by combining products in a bundle.  
 
-Similar to a kit, a bundle is a collection of products that is sold as single unit. Product bundling is useful in cases like:  
+A bundle is a collection of products that is sold as single unit. Product bundling is useful in cases like:  
   
 - Pairing a top-selling product with a less popular product  
   
-- Grouping products in a way that customers get more benefit from the full line of products, for example, Microsoft Office Suite or a digital camera with lenses)
+- Grouping products in a way that customers get more benefit from the full line of products, for example, Microsoft Office Suite or a digital camera with lenses
 
+Here are some things to know about bundles:  
+  
+- You can mark certain products in a bundle as optional and sell them individually.  
+  
+- You can't add product families, kits, or other bundles to a bundle.  
 
 ## Create a product bundle (Sales Hub)
 
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
   
-2. Select the site map ![Site map icon](media/site-map-icon.png "Site map icon"), and then select **Products**.  
+2. Select the site map ![Site Map icon](media/site-map-icon.png "Site map icon"), then select **App Settings**, and then select **Families and Products**.  
   
 3. To add a standalone product bundle, select **Add Bundle**.  
   
@@ -48,7 +40,8 @@ Similar to a kit, a bundle is a collection of products that is sold as single un
   
     To add product bundle to an existing family, select the family in the list, and then select **Add Bundle**.  
 
-    ![Add Bundle button on the Products grid](media/add-bundle.png "Add Bundle button on the Products grid")
+    > [!div class="mx-imgBorder"]
+    > ![Add Bundle button on the Products grid](media/add-bundle.png "Add Bundle button on the Products grid")
   
 4. Fill in the information:
 
@@ -57,9 +50,6 @@ Similar to a kit, a bundle is a collection of products that is sold as single un
    - **Product ID**
 
    - **Parent**: Select a parent product family for the product bundle. If you're creating a child product bundle in a product family, the name of the parent product family is populated here. More information: [Change the parent of a product (reparenting)](change-product-parent.md)
-
-      > [!NOTE]
-      > The capability to choose a new parent (reparenting) is a Preview feature and is introduced in the August 2019 release of Dynamics 365 for Sales. [What are Preview features, and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md)
 
    - **Valid From**/**Valid To**: Define the period the product bundle is valid for by selecting a **Valid From** and **Valid To** date.
     
@@ -158,7 +148,7 @@ Typically, the pricing of products in bundles is different than the individual p
   
 10. To change properties of an individual product in the bundle, select **Customize** corresponding to the product, and change the values, as required.  
 
-    If you've added this bundle to a family, the bundle will inherit the properites from its parent family. 
+    If you've added this bundle to a family, the bundle will inherit the properties from its parent family. 
 
 11. To change the bundle's property, open the property, and select **Override**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
   

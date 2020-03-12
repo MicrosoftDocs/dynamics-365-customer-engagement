@@ -1,6 +1,6 @@
 ---
 title: Project settings
-description: This topic provides information about project management settings in Dynamics 365 for Project Service Automation.
+description: This topic provides information about project management settings.
 author: ruhercul
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Use the following settings to access the project planning features in Microsoft Dynamics 365 for Project Service Automation (PSA).
+Use the following settings to access the project planning features.
 
 ## Work template
 

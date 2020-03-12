@@ -4,19 +4,9 @@ description: "Learn about the integration with CTI systems using CTI adapters."
 ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: 
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: 88430e53-36e8-47ee-9e12-34b4d2e98362
-caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
 manager: shujoshi

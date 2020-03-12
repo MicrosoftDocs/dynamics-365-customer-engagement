@@ -1,24 +1,24 @@
 ---
 title: "Upgrade Microsoft Dynamics CRM for Outlook | MicrosoftDocs"
-ms.custom: 
+ms.custom:
 ms.date: 01/06/2017
-ms.reviewer: 
+ms.reviewer:
 ms.service: crm-online
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.suite:
+ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps 
+  - Dynamics 365 apps 
 ms.assetid: 65f15bc1-3295-4b62-8cf2-1b3ff65b7064
 caps.latest.revision: 64
 author: mduelae
 ms.author: mkaur
 manager: kvivek
-search.audienceType: 
+search.audienceType:
   - admin
   - customizer
   - enduser
-search.app: 
+search.app:
   - D365CE
   - D365Outlook
 ---
@@ -29,7 +29,7 @@ Follow these steps for a smooth upgrade to [!INCLUDE[pn_crm_2016_outlook](../../
   
 2. Upgrade [!INCLUDE[pn_crm_2015_outlook_shortest](../../includes/pn-crm-2015-outlook-shortest.md)] to Dynamics CRM 2016 for Outlook.  
   
-3. Upgrade Dynamics CRM 2016 for Outlook to December 2016 Update for Dynamics 365 for Customer Engagement apps (Dynamics 365 for Outlook).  
+3. Upgrade Dynamics CRM 2016 for Outlook to December 2016 Update for Dynamics 365 apps (Dynamics 365 for Outlook).  
   
 > [!TIP]
 >  With all the changes going on with [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] terminology and versions, the following table could  add some clarity.  
@@ -38,7 +38,7 @@ Follow these steps for a smooth upgrade to [!INCLUDE[pn_crm_2016_outlook](../../
 |----------|-------------------|  
 |CRM 2015 for Outlook|Version: 07.00.0000.3543.<br /><br /> Published: 11/20/2014.<br /><br /> [Download](https://www.microsoft.com/download/details.aspx?id=45015).<br /><br /> This is a full installation of CRM for Outlook.|  
 |CRM 2016 for Outlook|Version: 08.00.0000.1088.<br /><br /> Published: 11/26/2015.<br /><br /> [Download](https://www.microsoft.com/download/details.aspx?id=50370).<br /><br /> This is a full installation of CRM for Outlook.|  
-|December 2016 Update for Dynamics 365 for Customer Engagement apps|Version: 08.02.0000.0749.<br /><br /> Published: 12/16/2016.<br /><br /> [Download](https://www.microsoft.com/download/details.aspx?id=54515).<br /><br /> This is an update for CRM 2016 for Outlook and not a full installation.|  
+|December 2016 Update for Dynamics 365 apps|Version: 08.02.0000.0749.<br /><br /> Published: 12/16/2016.<br /><br /> [Download](https://www.microsoft.com/download/details.aspx?id=54515).<br /><br /> This is an update for CRM 2016 for Outlook and not a full installation.|  
 |Dynamics 365 for Outlook|This is the new name for Dynamics CRM for Outlook.|  
   
 <a name="BKMK_Requirements"></a>  
@@ -58,7 +58,7 @@ Follow these steps for a smooth upgrade to [!INCLUDE[pn_crm_2016_outlook](../../
   
 1. Log on to the computer as a user who has local Administrators group permissions.  
   
-2. Best practice: Make sure that all Microsoft Office security updates are installed. To verify, visit [Microsoft Update](http://go.microsoft.com/fwlink/p/?LinkId=165705).  
+2. Best practice: Make sure that all Microsoft Office security updates are installed. To verify, visit [Microsoft Update](https://go.microsoft.com/fwlink/p/?LinkId=165705).  
   
 3. Locate and run the appropriate installation file:  
   
@@ -68,7 +68,7 @@ Follow these steps for a smooth upgrade to [!INCLUDE[pn_crm_2016_outlook](../../
   
      -   ... \Client\i386 for 32-bit  
   
-   - To install from the web, open the [Microsoft Dynamics CRM 2016 for Outlook (Outlook Client)](http://go.microsoft.com/fwlink/p/?LinkID=690396) download page and then download and run the installation package.  
+   - To install from the web, open the [Microsoft Dynamics CRM 2016 for Outlook (Outlook Client)](https://go.microsoft.com/fwlink/p/?LinkID=690396) download page and then download and run the installation package.  
   
    - To install from the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] user interface, click **Get Dynamics 365 for Outlook** on the message bar. If you see any dialog boxes titled **Security Warning**, click **Run** in each.  
   
@@ -86,7 +86,7 @@ Follow these steps for a smooth upgrade to [!INCLUDE[pn_crm_2016_outlook](../../
 ## Task 2: Update Dynamics 2016 for Outlook  
  Follow this procedure to upgrade [!INCLUDE[pn_crm_2016_outlook_shortest](../../includes/pn-crm-2016-outlook-shortest.md)] on a computer that has it installed.  
   
-1.  Browse to [December 2016 Update for Dynamics 365 for Customer Engagement apps](https://www.microsoft.com/download/details.aspx?id=54515) and run either the 32-bit (CRM2016-Client-KB3205084-ENU-I386.exe) or 64-bit  (CRM2016-Client-KB3205084-ENU-Amd64.exe) package.  
+1.  Browse to [December 2016 Update for Dynamics 365 apps](https://www.microsoft.com/download/details.aspx?id=54515) and run either the 32-bit (CRM2016-Client-KB3205084-ENU-I386.exe) or 64-bit  (CRM2016-Client-KB3205084-ENU-Amd64.exe) package.  
   
 2.  Complete the installation steps and close the program.  
   
@@ -102,13 +102,13 @@ Follow these steps for a smooth upgrade to [!INCLUDE[pn_crm_2016_outlook](../../
   
 ### To configure Microsoft Dynamics 365 for Outlook  
   
-1. Start the [!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)]: On the Start screen, click **Configuration Wizard** or on earlier versions of Windows click **Start** > **All Programs** > **Microsoft Dynamics 365 for Customer Engagement apps** > **Configuration Wizard**. Alternatively, click **Configure [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]** on the **Dynamics 365 for Customer Engagement apps** tab in Outlook.  
+1. Start the [!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)]: On the Start screen, click **Configuration Wizard** or on earlier versions of Windows click **Start** > **All Programs** > **Microsoft Dynamics 365 apps** > **Configuration Wizard**. Alternatively, click **Configure [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]** on the **Dynamics 365 apps** tab in Outlook.  
   
 2. Click **Delete** or **Add** to remove or add a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] organization.  
   
 3. To add an organization, choose the option appropriate for you.  
   
-   - To connect to a [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] organization, choose **Dynamics 365 for Customer Engagement apps ** from the drop-down menu.  
+   - To connect to a [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] organization, choose **Dynamics 365 apps ** from the drop-down menu.  
   
 4. Click **Connect**.  
   
@@ -132,7 +132,7 @@ Follow these steps for a smooth upgrade to [!INCLUDE[pn_crm_2016_outlook](../../
   
 - **Cross-architecture upgrade requires uninstalling and reinstalling**. If you have a 64-bit PC running a 64-bit version of [!INCLUDE[pn_ms_Windows_long](../../includes/pn-ms-windows-long.md)], you can change from 32-bit to 64-bit [!INCLUDE[pn_crm_2016_outlook_shortest](../../includes/pn-crm-2016-outlook-shortest.md)] by performing the following steps in the order listed.  
   
-  1. Make sure that your PC has a 64-bit version of Windows. [How to determine whether a computer is running a 32-bit version or 64-bit version of the Windows operating system](http://support.microsoft.com/kb/827218).  
+  1. Make sure that your PC has a 64-bit version of Windows. [How to determine whether a computer is running a 32-bit version or 64-bit version of the Windows operating system](https://support.microsoft.com/kb/827218).  
   
   2. Uninstall [!INCLUDE[pn_crm_2015_outlook_shortest](../../includes/pn-crm-2015-outlook-shortest.md)].  
   

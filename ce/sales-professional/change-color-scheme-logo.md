@@ -1,28 +1,24 @@
 ---
-title: "Change the color scheme or logo for your organization in Dynamics 365 for Sales Professional | MicrosoftDocs"
-description: "Use themes in Dynamics 365 for Sales Professional to change the color scheme of your app to match your organization's branding guidelines."
-keywords: ""
-ms.date: 04/05/2019
-ms.service: dynamics-365-sales
+title: "Set up branding and theming in Dynamics 365 Sales Professional | MicrosoftDocs"
+description: "Use themes in Dynamics 365 Sales Professional to change the color scheme of your app to match your organization's branding guidelines."
+ms.date: 10/01/2019
+ms.service: 
+  - "dynamics-365-sales"
+ms.custom: 
+  - "dyn365-sales"
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
-ms.assetid: 41aa9b5c-aaa6-4639-825c-d8a600677875
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.custom: dyn365-sales
 ---
 
-# Change the color scheme or logo for your organization
+# Set up branding and theming for your organization
 
 > [!IMPORTANT]
-> This capability is introduced in the Dynamics 365 for Sales Professional app version 9.1.0.0.
+> This capability is introduced in the Dynamics 365 Sales Professional app version 9.1.0.0.
 
-Change the color scheme of the user interface based on your preference or create your own branding by changing the color scheme or logo in Dynamics 365 for Sales
-Professional. You can create a custom look and feel (a theme) for Sales Professional apps and Dynamics 365 for phones apps by using new colors and visual elements.
+Change the color scheme of the user interface based on your preference or create your own branding by changing the color scheme or logo in Dynamics 365 Sales
+Professional. You can create a custom look and feel (a theme) for Sales Professional app and Dynamics 365 for Phones app by using new colors and visual elements.
 
 The theme colors are applied globally throughout the application. For example, you can enhance the following visual elements in the UI:
 
@@ -65,4 +61,4 @@ The theme that you are currently using is shown with the text “currently appli
 ### See also
 
 [Admin settings overview](admin-settings-overview.md)  
-[Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md)
+[Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)

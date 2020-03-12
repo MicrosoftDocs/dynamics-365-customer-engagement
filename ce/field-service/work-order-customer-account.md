@@ -30,7 +30,7 @@ search.app:
 
 Locations are very important in field service scenarios where field technicians may need to travel to multiple customer locations each day.
 
-Dynamics 365 for Field Service uses accounts and contacts throughout the work order process. Accounts represent who is receiving the site service (driven by work orders), and which customer account should be billed for invoices generated from the work order.
+Dynamics 365 Field Service uses accounts and contacts throughout the work order process. Accounts represent who is receiving the site service (driven by work orders), and which customer account should be billed for invoices generated from the work order.
 
 **Service accounts** represent **who** is the receiving account of the on-site service (work order), and **where** the field technician will be dispatched.
 
@@ -47,9 +47,9 @@ In this topic, we'll explore creating and using accounts on work orders.
 
 ## Prerequisites
 
-- Any version of Dynamics 365 for Field Service
-- Connect to Bing maps and enable map visualizations. For more information, [check out this topic.](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) 
-- Enable and test geocoding. For more information, [check out this topic.](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings)
+- Any version of Dynamics 365 Field Service
+- Connect to Bing maps and enable map visualizations. For more information, [check out this topic.](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) 
+- Enable and test geocoding. For more information, [check out this topic.](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings)
  
 
 ## Create a service account

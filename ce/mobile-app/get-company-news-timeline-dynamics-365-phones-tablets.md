@@ -7,7 +7,7 @@ ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement apps
+applies_to: Dynamics 365 apps
 ms.assetid: 8acc32c3-9948-403d-9fe0-df7589a32149
 caps.latest.revision: 8
 ms.author: mkaur
@@ -31,13 +31,13 @@ Gain valuable insights from the latest news about your customers on your phone o
 > [!IMPORTANT]
 >  This feature was introduced in [!INCLUDE[pn_crm_8_1_0_online](../includes/pn-crm-8-1-0-online.md)].  
   
-## Install the solution for Dynamics 365 for Customer Engagement apps  
+## Install the solution for Dynamics 365 apps  
   
-1. Sign in to [https://admin.microsoft.com](https://admin.microsoft.com) with your Global Administrator or Dynamics 365 for Customer Engagement apps System Administrator credentials.  
+1. Sign in to [https://admin.microsoft.com](https://admin.microsoft.com) with your Global Administrator or Dynamics 365 apps System Administrator credentials.  
   
-2. Click **Admin > Dynamics 365 for Customer Engagement apps**.  
+2. Click **Admin > Dynamics 365 apps**.  
   
-3. On the **Manage all Dynamics 365 for Customer Engagement apps instances** page, select the instance to add the solution to.  
+3. On the **Manage all Dynamics 365 apps instances** page, select the instance to add the solution to.  
   
 4. Click **Solutions**.  
   

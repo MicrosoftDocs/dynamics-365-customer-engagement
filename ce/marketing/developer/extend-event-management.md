@@ -9,10 +9,8 @@ ms.service: dynamics-365-marketing
 ms.technology: 
   - marketing
 ms.topic: get-started-article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 2b1cdbc5-0815-47b1-8a4e-0291cde6f40c
-author: Nkrb 
+author: Nkrb
 ms.author: nabuthuk
 manager: kvivek
 ---
@@ -21,9 +19,9 @@ manager: kvivek
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-[On24](https://www.on24.com/) is the only webinar provider currently supported out-of-the-box for use with Dynamics 365 for Customer Engagement to plan and manage events. More information: [Event settings](../events-settings.md)
+[On24](https://www.on24.com/) is the only webinar provider currently supported out-of-the-box for use with Dynamics 365 Marketing to plan and manage events. More information: [Event settings](../events-settings.md)
 
-Other webinar providers can implement the new Webinar Extension API to become a supported webinar provider for Dynamics 365 for Customer Engagement, just like On24. Once a webinar provider implements the API on their webinar service, the webinar provider can be configured in Dynamics 365 for Customer Engagement to use their webinar service for event management.
+Other webinar providers can implement the new Webinar Extension API to become a supported webinar provider for Dynamics 365 Marketing, just like On24. Once a webinar provider implements the API on their webinar service, the webinar provider can be configured in Dynamics 365 Marketing to use their webinar service for event management.
 
 > [!IMPORTANT]
 > - [!INCLUDE[cc_preview_features_definition](../../includes/cc-preview-features-definition.md)]
@@ -32,11 +30,11 @@ Other webinar providers can implement the new Webinar Extension API to become a 
 
 ## Prerequisites
 
-The webinar provider must create a service that implements the Webinar Extension API so that it can be used as webinar provider in Dynamics 365 for Customer Engagement. More information: [Webinar Extension API Reference](#webinar-extension-api-reference)
+The webinar provider must create a service that implements the Webinar Extension API so that it can be used as webinar provider in Dynamics 365 Marketing. More information: [Webinar Extension API Reference](#webinar-extension-api-reference)
 
 ## Add a webinar provider
 
-When adding a new webinar provider in Dynamics 365 for Customer Engagement, you will need to have **Client ID** and **Client secret** values. This information is provided when you sign up for a webinar provider. The authorization of the webinar service to Dynamics 365 for Customer Engagement uses OAuth 2.0 standard protocol. More information: [OAuth, Client ID and Client secret](https://www.oauth.com/oauth2-servers/client-registration/client-id-secret/).
+When adding a new webinar provider in Dynamics 365 Marketing, you will need to have **Client ID** and **Client secret** values. This information is provided when you sign up for a webinar provider. The authorization of the webinar service to Dynamics 365 Marketing uses OAuth 2.0 standard protocol. More information: [OAuth, Client ID and Client secret](https://www.oauth.com/oauth2-servers/client-registration/client-id-secret/).
 
 To add a new webinar provider:
 
@@ -69,7 +67,7 @@ This section provides additional details about what happens when a user selects 
 
 1. On clicking the ***/auth/authorize*** endpoint on the webinar configuration form, your provider implementation should be called.
 
-1. You should return authorization-form HTML from that call. That HTML will be loaded into the pop-up on the Dynamics 365 side. One of the parameters passed to the ***/auth/authorize*** endpoint is ***redirect_uri***. You should either embed it in the form HTML that you return or temporarily store it on your side, depending on your implementation. Another parameter is ***state***, you should keep track of that too.
+1. You should return authorization-form HTML from that call. That HTML will be loaded into the pop-up on the Dynamics 365 Marketing side. One of the parameters passed to the ***/auth/authorize*** endpoint is ***redirect_uri***. You should either embed it in the form HTML that you return or temporarily store it on your side, depending on your implementation. Another parameter is ***state***, you should keep track of that too.
 
 1. After authentication has been done on your side, you should generate one-time code and call the ***redirect_uri*** together with the ***code*** parameter and **state** parameter that you already have. It will look like this:<br>`{redirect_uri}?code={code_you_generated}&state={state_you_got_before}`
 

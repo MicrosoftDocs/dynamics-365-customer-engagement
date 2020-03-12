@@ -1,16 +1,13 @@
 ---
-title: "Known issues and limitations   | MicrosoftDocs"
+title: "Known issues and limitations | MicrosoftDocs"
 description: "Learn about the known issues and limitations in Omnichannel for Customer Service."
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 07/10/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: BC3D3C77-982D-4F8F-B9DB-86854A1634F8
-ms.custom: 
 ---
 
 # Omnichannel for Customer Service readme (known issues and limitations)
@@ -22,18 +19,37 @@ The topic explains the known issues and limitations of Omnichannel for Customer 
 > [!Important]
 > We recommend updating Omnichannel for Customer Service to the latest versions for the best experience. More information: [Upgrade Omnichannel for Customer Service](administrator/upgrade-omnichannel.md)
 
+## Loss of agent script state
+
+When you refresh the browser or close the session, agent script changes to initial state rather retaining the states. 
+
+For example, you've completed executing two agent scripts and three steps in the third agent script. Now, when you refresh the browser or close and open the session again, you will lose existing state and the agent script state is reset to first script or default script.
+
+## Third-party application tab refreshes when focus is changed
+
+When you host first- or third-party URLs in Omnichannel for Customer Service using the application tab, and when an agent switches from the current application tab to another application tab within the session or switches to another session, the application that is hosted in the tab will be refreshed to the initial state. 
+
+For example, your session has two application tabs, **Knowledge Search** and **Bing Search** (`https://www.bing.com`. You select the **Bing Search** tab and see the Bing search page. Now, you'll search for a keyword - **Latest Surface laptop**, and the search results are displayed.  When you switch from  **Bing Search** to **Knowledge Search**, and again switch to **Bing Search**, the search page is refreshed, and you'll see the Bing search page.
+
+## Install routing rules solution to use entity records routing
+
+In your entity records channel, if you see an error that states: **You must install routing rule solution to use entity records routing. To learn more see aka.ms/routingrules.**, then perform the following:
+
+- If you use Omnichannel for Customer Service in a production environment, go to your Omnichannel for Customer Service provisioning page and install the latest version. If there are no upgrade available, contact Microsoft support.
+
+- If you use Omnichannel for Customer Service preview or trial version, contact Microsoft support.
 
 ## Closed conversations don't appear in the Closed work items stream and Closed conversations view
 
 After you upgrade Omnichannel for Customer Service to the latest version in the sandbox or trial environment, conversations that agent closes may not appear in the **Closed work items** stream of the agent dashboard and closed conversations view.
 
-### Workaround
+### Work around
 
 As an administrator, you must activate the **SDK Message Processing Steps** associated to Omnichannel solution.
 
-To workaround the issue, follow these steps:
+To work-around the issue, follow these steps:
 
-1. Sign in to Dynamics 365 for Customer Engagement apps.
+1. Sign in to the Common Data Service platform.
 
 2. Go to **Settings** > **Customizations**.
 
@@ -52,21 +68,20 @@ To workaround the issue, follow these steps:
 
 When you open the quick replies menu in the communication panel (Chat and SMS), you see the messages are repeated multiple times.
 
-### Workaround
+### Work around
 
-To workaround the issue, follow these steps:
+To work-around the issue, follow these steps:
 
-1. Sign in to Omnichannel for Customer Engagement apps.
-2. Select the **Omnichannel Administration** app.
-3. Select **Quick Replies** in the site map.
-4. Select the messages that are repeated several times from the **Active Quick Replies** view.
-5. Select **Delete**. A confirmation dialog appears asking you to confirm.
-6. Select **Delete** to delete the records.
+1. Sign in to Omnichannel Administration app.
+2. Select **Quick Replies** in the site map.
+3. Select the messages that are repeated several times from the **Active Quick Replies** view.
+4. Select **Delete**. A confirmation dialog appears asking you to confirm.
+5. Select **Delete** to delete the records.
 
     > [!div class=mx-imgBorder]
     > ![Delete repeated messages](media/oceh/delete-quick-replies.png "Delete repeated messages")
 
-7. Select **Save** to save the changes.
+6. Select **Save** to save the changes.
 
 > [!Note]
 > The changes you make might take up to 15 mins to reflect in the system. 
@@ -75,53 +90,7 @@ Now, sign in to Omnichannel for Customer Service app and verify if the messages 
 
 ## Customer Summary page shows default icons
 
-If your organization is using earlier releases of chat for Dynamics 365, and after you upgrade to the latest version, the Customer summary page shows the default icon instead of the conversation icon instead of the conversation icon.
-
-## CDS entity routing is not available in Omnichannel for Customer Service
-
-The CDS entity routing is disabled in the latest version of Omnichannel for Customer Service. You can't route CDS entities using omnichannel routing and work-distribution.
-
-Hence, after your upgrade:
-
-- You can't create any new CDS entity work stream. 
-- You might see existing CDS entity work stream configuration records, but these configurations are disabled and don't have any run-time impact.
-
-## Omnichannel queue records are not available after upgrade
-
-After you upgrade to the latest version of Omnichannel for Customer Service, your existing queue records will not be available. This is due to removal of omnichannel queue entity. The Common Data Service (CDS) queue entity will be used for omnichannel routing and work distribution.
-
-After you upgrade, you will experience the following:
-
-- All your existing omnichannel queue configurations will be removed. 
-- All your existing active conversations will be closed and moved to CDS Transactional database.
-
-### Workaround
-
-You must manually configure the queues again.
-
-To configure the queues, perform the following steps.
-
-> [!Note]
-> - If you haven't upgraded your organization to the latest version, take a note of your existing omnichannel queue record configurations before the upgrade.  
->
-> - If you've already upgraded your organization to the latest version, then you can still access previous omnichannel queue records from a URL by replacing `etn=queue` with `etn=msdyn_omnichannelqueue` from queue grid page. <br>
-    For example, the URL is `https://<ORG_URL>/main.aspx?appid=<APP_ID>&pagetype=entitylistetn=queue`, now replace `etn=queue` with `etn=msdyn_omnichannelqueue` in the URL. <br><br>
-    `https://<ORG_URL>/main.aspx?appid=<APP_ID>&pagetype=entitylist&etn=msdyn_omnichannelqueue`.
-
-Step 1. Create a queue. Select **Queues** and select **New** to create a new queue. Specify a value for the fields, and then select **Save**. To learn more, see [Create a new queue](administrator/queues-omnichannel.md#create-a-new-queue).
-
-Step 2. Add users to queues. Select **Add Existing User** to add agents to the queue in the **Users (Agents)** section of the queue form. To learn more, see [Create a new queue](administrator/queues-omnichannel.md#create-a-new-queue).
-
-Step 3: Update the routing rules. After you upgrade, the old queue records will be removed from the **Queue** field in routing rules.  Update the **Queue** field with the newly created CDS queue records. To learn more, see: [Create a routing rule](administrator/routing-rules.md#create-a-routing-rule)
-
-   > [!Note]
-   > - Repeat steps 1 to 3 for all your existing queue configurations.
-   >
-   > - Default queue is created automatically, and you need not reconfigure it manually.
-   >
-   > - After you save the configurations, it may take up to 15 mins to reflect.
-
-Step 4: Ask supervisors to update the dashboard filters. After the upgrade, the existing queue filters on the dashboards will be removed. A a supervisors, you should reconfigure and validate your dashboard filters.
+If your organization is using earlier releases of chat for Dynamics 365 Customer Service, and after you upgrade to the latest version, the Customer summary page shows the default icon instead of the conversation icon instead of the conversation icon.
 
 ## Send Link button in the KB Search Page is not localized 
 
@@ -134,9 +103,9 @@ If you change the organization name, the upgrade process doesn’t start, and an
 ## Conversation does not open as session or as a form 
 When you use Omnichannel for Customer Service with Unified Service Desk and use **IE Process** to host web applications, a conversation (work item) from the Omnichannel agent dashboard doesn't open as a session or as a form in the application management toolbar.
 
-### Workaround
+### Work around
 
-To work around the issue, follow these steps:
+To work-around the issue, follow these steps:
 
 1. Go to `https://<orgURL>.dynamics.com/apps` and select the **Unified Service Desk Administrator** app.
 2. In the sitemap, under **Basic Settings**, select **Action Calls**.
@@ -173,26 +142,55 @@ Default work streams shipped out of the box for all channels do not have allowab
 ## Refresh queue configuration to reflect the addition of new user
 When you add a user to a queue, the sub grid doesn’t reflect the new member automatically. You are required to refresh the sub grid by selecting the **Refresh** button to see the new user in the list of queue members.
 
-## Support for thrid-party channel providers with Omnichannel for Customer Service
+## Support for third-party channel providers with Omnichannel for Customer Service
 
-If your organization has deployed a third-party channel provider using the Dynamics 365 Channel Integration Framework, and then you want to use Omnichannel for Customer Service in the same organization, this will result in the upgrade of the Channel Integration Framework solution.
+If your organization has deployed a third-party channel provider using the Dynamics 365 Channel Integration Framework, and when you use Omnichannel for Customer Service in the same environment, the Channel Integration Framework solution upgrades to version 2.0. With Channel Integration Framework version 2.0, you can integrate only third-party telephony channel providers.
 
 You can continue to use the third-party channel provider in the unified interface apps such as Customer Service Hub, Sales Hub and so on. However, you can't use the third-party channel provider in the Omnichannel for Customer Service app. That is, you should not add the **Omnichannel for Customer Service** app while configuring the app list for in the channel provider.
  
 ## Support for automatic record linking to conversation 
-While working on a session, after an agent creates a customer (contact/account) or case record using the quick create (+) option in the nav bar, it is not auto-linked to the conversation. As a workaround, the agent can perform an inline search for the newly created record and link it to the conversation.
+While working on a session, after an agent creates a customer (contact/account) or case record using the quick create (+) option in the nav bar, it is not auto-linked to the conversation. As a work-around, the agent can perform an inline search for the newly created record and link it to the conversation.
 
 ## Authentication error for different agent credentials
-If an agent is signed in to Office 365 or Dynamics 365 through a different username in the browser (Internet Explorer or Edge) than the one used for USD sign-in, an authentication error is shown and the user is not allowed to sign in. As a workaround, the user should sign out from all other accounts on the browser and try signing back in.
+If an agent is signed in to Office 365 or Common Data Service through a different username in the browser (Internet Explorer or Edge) than the one used for USD sign in, an authentication error is shown and the user is not allowed to sign in. As a work-around, the user should sign out from all other accounts on the browser and try signing back in.
 
 ## Transfer to queue does not show a message for the initiating agent 
 When an agent initiates a transfer, the initiating agent becomes a consulting agent without any user interface message. However, the session tab name shows the **Consult** tag because the initiating agent is added to the same conversation as a consulting agent to enable smooth transition.
 
 ## Support for Notes when customer is not linked to a conversation
-You as an agent, cannot launch and capture notes for a session where customer is not linked to the conversation. As a workaround, link the conversation to a customer (contact) and then try launching the notes control for capturing the notes.
-
-## Wait time count down in notification
-When you receive notification, the wait time in the notification doesn't show the time lapse. However, the notification will timeout after the default wait time period. The default wait time is 120 seconds.
+You as an agent, cannot launch and capture notes for a session where customer is not linked to the conversation. As a work-around, link the conversation to a customer (contact) and then try launching the notes control for capturing the notes.
 
 ## Queue support for notifications
 The agents are shown one notification at a time. If a new notification arrives before the agents either accepts or rejects the conversation (work item), the incoming conversation will not be assigned to the agent.
+
+## Cases Work Distribution Flow is not saved successfully
+The updates you do to the out-of-the-box **Cases Work Distribution Flow** for unified routing of case entity records might fail due to authentication issues.
+
+### Work around
+Authorize Common Data Service native connector in the flow before you save it.
+
+More information: [Update cases work distribution flow](administrator/multiple-ws-entity-record-routing.md#update-entity-records-work-distribution-flow)
+
+## Entity records aren't distributed to agents
+
+Entity records routing doesn't route and distribute case records to the agents. 
+
+The case entity record won't be automatically distributed to the agents when the option - **Automatically move records to the owner's default queue when a record is created or assigned** is enabled in the case entity customization page.
+
+### Work around
+Clear the checkbox to automatically distribute the case records.
+
+> [!div class=mx-imgBorder]
+> ![Automatic record movement to the agent's default queue](media/route-owner-queue.png "Automatic record movement to the agent's default queue")
+
+## Sitemap entry for Entity Records is not localized for other languages
+
+In the Omnichannel Administration app, in the sitemap, **Entity Records** under the **Channels** area is not localized for other languages. The string appears only in English language for all language environments.
+
+## Routing rules sub grid in entity records shows an error
+
+You might see the routing rules sub grid under an entity records channel displays error intermittently. The error is **You do not have permission to access these records. Contact your administrator for help.**
+
+### Work around
+
+To load the page without the error, refresh the page to load the routing rules sub grid, and proceed with routing rules configuration.

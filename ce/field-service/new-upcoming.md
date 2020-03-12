@@ -1,5 +1,5 @@
 ---
-title: New and upcoming features in Field Service | Dynamics 365 for Customer Engagement
+title: New and upcoming features in Field Service | Dynamics 365
 description: New and planned features for Field Service
 author: FieldServiceDave
 ms.reviewer: krbjoran

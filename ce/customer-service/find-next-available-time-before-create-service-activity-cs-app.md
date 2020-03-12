@@ -1,17 +1,15 @@
 ---
-title: Find the next available time before creating a service activity (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Find the next available time before creating a service activity in Dynamics 365 for Customer Service
-keywords: Find the next available time before creating a service activity; Dynamics 365 for Customer Engagement; Customer Service
-author: anjgupta
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-ms.author: anjgup
+title: Find the next available time before creating a service activity (Dynamics 365 Customer Service) | MicrosoftDocs
+description: Find the next available time before creating a service activity in Dynamics 365 Customer Service
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ms.date: 06/01/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.assetid: e23ae2ff-620a-4498-97dc-6d3a93813166
-ms.custom: dyn365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -57,7 +55,7 @@ Avoid conflicts while scheduling services by finding the time the resources are 
   
 6. Under **Available Times**, select the time for which you want to schedule the service activity, and then select **Schedule**.  
   
-    The Schedule Service Activity form closes, and [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] fills in the information from the selected time in the Service Activity form.  
+    The Schedule Service Activity form closes, and the application fills in the information from the selected time in the Service Activity form.  
   
 7. Type or modify information in other text boxes, as required.  
   

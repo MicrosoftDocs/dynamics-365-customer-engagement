@@ -1,20 +1,15 @@
 ---
-title: "Create a product (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "Use products in Dynamics 365 for Sales to define the products or services that your organization offers."
-keywords: "product, service, create, sales, catalog"
-ms.date: 08/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+title: "Create a product (Dynamics 365 Sales) | MicrosoftDocs"
+description: "Use products in Dynamics 365 Sales to define the products or services that your organization offers."
+ms.date: 10/01/2019
+ms.service: 
+  - "dynamics-365-sales"
+ms.custom: 
+  - "dyn365-sales"
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
-ms.assetid: 8847977e-3768-4859-bce4-821c259aa79a
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 22
 ---
 
 # Set up products (Sales and Sales Hub)
@@ -25,7 +20,7 @@ Products are the backbone of your business. They can be physical products or ser
 
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]
 
-2. Select the site map ![Site Map icon](media/site-map-icon.png "Site map icon"), and then select **Products**.  
+2. Select the site map ![Site Map icon](media/site-map-icon.png "Site map icon"), then select **App Settings**, and then select **Families and Products**.  
   
 3. To create a child product to an existing product family, select the family in the list, and then on the command bar, select **Add Product**. The selected family becomes the parent family of the new product you're creating. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a product family](../sales-enterprise/create-product-family.md)  
   
@@ -33,7 +28,8 @@ Products are the backbone of your business. They can be physical products or ser
   
    If you want to create an independent product, select **Add Product**. 
 
-   ![List of products](media/products-grid.png "Products grid") 
+    > [!div class="mx-imgBorder"]
+    > ![List of products](media/products-grid.png "Products grid") 
   
 4. Fill in your information:  
   
@@ -42,10 +38,6 @@ Products are the backbone of your business. They can be physical products or ser
    - **Product ID**
 
    -	**Parent**: Select a new parent for this product. More information: [Change the parent of a product (reparenting)](change-product-parent.md)
-
-      > [!NOTE]
-      > - The capability to choose a new parent (reparenting) is a Preview feature and is introduced in the August 2019 release of Dynamics 365 for Sales. [What are Preview features, and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md)
-      > - To learn about enabling preview features in the 2019 release wave 2, see [How do I enable the 2019 release wave 2 updates](/power-platform/admin/preview-october-2019-updates#when-will-the-2019-release-wave-2-features-be-enabled)
 
    - **Valid From**/**Valid To**: Define the period the product is valid for by selecting a **Valid From** and **Valid To** date.
     
@@ -106,9 +98,6 @@ Products are the backbone of your business. They can be physical products or ser
    
    - **Parent**: Select a new parent for this product. More information: [Change the parent of a product (reparenting)](change-product-parent.md)
 
-      > [!NOTE]
-      > The capability to choose a new parent (reparenting) and family hierarchy is a preview feature and is introduced in the August 2019 release of Dynamics 365 for Sales. [What are Preview features, and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md)
-  
    - **Unit Group**: Select a unit group. A unit group is a collection of various units a product is sold in and defines how individual items are grouped into larger quantities. For example, if you're adding seeds as a product, you may have created a unit group called "Seeds" and defined its primary unit as "packet."  
   
    - **Unit**: Select the most common unit in which the product will be sold. Units are the quantities or measurements that you sell your products in. For example, if you're adding seeds as a product, you can sell it in packets, boxes, or pallets. Each of these becomes a unit of the product. If seeds are mostly sold in packets, select that as the unit.  

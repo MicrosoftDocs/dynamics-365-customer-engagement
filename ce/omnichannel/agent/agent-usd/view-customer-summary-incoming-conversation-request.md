@@ -1,16 +1,13 @@
 ---
 title: "View Customer summary form for an incoming conversation request | MicrosoftDocs"
 description: "Learn about the Customer summary and its behavior when the agent gets and incoming conversation request."
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: f12fd958-15d2-480b-b9d4-fb1314784f74
-ms.custom: 
 ---
 # View customer summary for an incoming conversation request
 
@@ -30,6 +27,6 @@ When you get an incoming conversation request, you see a notification and accept
 - [View customer summary and know everything about customers](customer-summary.md)
 - [View communication panel](left-control-panel.md)
 - [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
-- [View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omnichannel-conversation-session.md)
+- [View conversation and session forms in the model-driven apps](view-omnichannel-conversation-session.md)
 - [Search for records](search-record.md)
 - [Link and unlink a record](link-unlink-record.md)

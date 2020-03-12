@@ -1,6 +1,6 @@
 ---
 title: Sales processes 
-description: This topic provides information about the basic sales processes for Dynamics 365 for Project Service Automation (PSA).  
+description: This topic provides information about the basic sales processes.  
 author: rumant
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-The sales processes that are used in a project-based organization differ from the sales processes that are used in a product-based organization. This difference occurs because the sales cycles for project-based organizations are longer and require customized estimation techniques to analyze and create quotes for each deal. Microsoft Dynamics 365 for Project Service Automation (PSA) uses some of the same functionality that is used in the sales process for Microsoft Dynamics 365 for Sales. Here are some examples:
+The sales processes that are used in a project-based organization differ from the sales processes that are used in a product-based organization. This difference occurs because the sales cycles for project-based organizations are longer and require customized estimation techniques to analyze and create quotes for each deal. Dynamics 365 Project Service Automation uses some of the same functionality that is used in the sales process for Dynamics 365 Sales. Here are some examples:
 
 - A Lead entity is used to track the sales process.
 - Qualifying leads are tracked as opportunities. The sales process can also start with opportunity.
@@ -75,10 +75,10 @@ As you move deals through the stages, you're prompted to create the appropriate 
 
 > ![Project information for a new order](media/basic-guide-4.png)
  
-## Differences between PSA and Dynamics 365 for Sales
+## Differences between Project Service Automation and Sales
 Although the sales process in PSA uses the basic capabilities of the sales process in Sales, it does have some key differences because of variations in the business practices of project-based organizations. Here are some examples:
 
-- **Project quotes** – In PSA, a quote is closed after a project contract is created from a quote. In Sales, you can keep a quote open after you've won it. The reason for this difference is that a match between a quote and a project contract is better for project-based organizations. 
+- **Project quotes** – In Project Service Automation, a quote is closed after a project contract is created from a quote. In Sales, you can keep a quote open after you've won it. The reason for this difference is that a match between a quote and a project contract is better for project-based organizations. 
 - **Activation and revisions** – In PSA, activation and revisions aren't supported for project quotes. In Sales, a quote can be locked to prevent additional edits.
 - **Closing a quote as lost or won** – In PSA, when a project quote is closed as won or lost, the opportunity remains open. All other quotes on the opportunity are closed as lost. In Sales, when a quote is closed as won or lost, the user is prompted to take an action on the opportunity. Depending on the user input, the underlying opportunity might be closed or left open.
 
@@ -86,4 +86,4 @@ Although the sales process in PSA uses the basic capabilities of the sales proce
 In PSA, you can't track revisions that are made to a quote. Instead, you must mark the existing quote **Closed as Lost** and then create a new quote. You can copy a quote or clone a project-based quote by using PSA.
 
 ## Tracking comments and approvals of quotes and project contracts
-You can manage the review and approval of quotes and project contracts by using the record wall and posts in Dynamics 365. Your organization can create custom workflows and plug-ins to assign, redirect, escalate, and manage notifications of review and approval work items.
+You can manage the review and approval of quotes and project contracts by using the record wall and posts. Your organization can create custom workflows and plug-ins to assign, redirect, escalate, and manage notifications of review and approval work items.

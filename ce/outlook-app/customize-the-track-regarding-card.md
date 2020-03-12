@@ -1,5 +1,5 @@
 ---
-title: "Customize the track regarding card in Dynamics 365 App for Outlook (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Customize the track regarding card in Dynamics 365 App for Outlook (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
 ms.date: 01/09/2018
 ms.reviewer: 
@@ -7,7 +7,7 @@ ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement apps
+applies_to: Dynamics 365 apps
 ms.assetid: 0dfd6100-b4ed-4959-9acb-cc0a1dbbb6d6
 caps.latest.revision: 99
 author: mduelae
@@ -30,7 +30,7 @@ The admin can change what's displayed in the card that appears when you track th
 
 To change the fields that appear, follow these steps:
 
-1. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], go to **Settings** > **Customizations** > **Customize the System**.
+1. In your app, go to **Settings** > **Customizations** > **Customize the System**.
 2. Expand **Entities** and choose an entity such as **Contact**.
 3. Expand the entity and select **Forms**, then select the **App for Outlook Contact Card** form.
 

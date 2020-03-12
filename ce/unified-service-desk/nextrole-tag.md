@@ -1,22 +1,12 @@
 ---
-title: "NextRole Tag Unified Service Desk for Dynamics 365 for Customer Engagement apps Customer Enagagement| MicrosoftDocs"
-description: " The following sample finds a control one position after the second control with a push button role. "
+title: "NextRole Tag Unified Service Desk  Customer Enagagement| MicrosoftDocs"
+description: "The following sample finds a control one position after the second control with a push button role."
 ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: 
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: a76c84f2-fee6-4fd8-bbd2-0720b50b46ad
-caps.latest.revision: 5
 author: kabala123
 ms.author: kabala
 manager: shujoshi

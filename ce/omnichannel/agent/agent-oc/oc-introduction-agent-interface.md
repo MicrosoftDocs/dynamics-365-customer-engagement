@@ -1,23 +1,20 @@
 ---
 title: "Introduction to the agent interface of Omnichannel for Customer Service app | MicrosoftDocs"
 description: "Learn about agent interface of Omnichannel for Customer Service app"
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
-ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.date: 12/27/2019
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 891E5572-F1D6-413C-8F2E-299AF3CC34F9
-ms.custom: 
 ---
 
 # Introduction to the agent interface of Omnichannel for Customer Service
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-The Omnichannel for Customer Service app for Dynamics enables organizations to instantly connect and engage with their customers via channels like Chat for Dynamics 365 and SMS. The app provides context rich multi-tasking experience across different customer sessions.
+The Omnichannel for Customer Service app for Dynamics enables organizations to instantly connect and engage with their customers via channels like Chat for Dynamics 365 Customer Service and SMS. The app provides context rich multi-tasking experience across different customer sessions.
 
 ## Value propositions of Omnichannel for Customer Service app:
 
@@ -83,7 +80,7 @@ The communication panel is where you, as an agent, interact with your customer. 
 
 ## 3. Application tab panel
 
-The horizontal bar below the Dynamics 365 navigation bar is called the application tab panel. Every customer session has at least one that is not closable; it is called a Anchor tab. The Application tab has a **+** icon. If you select the icon, the menu that has options that are made available by your administrator. The menu shows the out-of-box and custom entities. Also, you can access any third-party Line-of-Business applications that is extended within Omnichannel for Customer Service app. Select the option from the list to open it in the application tab.
+The horizontal bar below the navigation bar is called the application tab panel. Every customer session has at least one that is not closable; it is called a Anchor tab. The Application tab has a **+** icon. If you select the icon, the menu that has options that are made available by your administrator. The menu shows the out-of-box and custom entities. Also, you can access any third-party Line-of-Business applications that is extended within Omnichannel for Customer Service app. Select the option from the list to open it in the application tab.
 
 > [!div class=mx-imgBorder]
 > ![Omnichannel for Customer Service sitemap appears when you select + icon in the application tab](../../media/oceh/oceh-agent-interface-sitemap.png "Omnichannel for Customer Service sitemap in the application tab")

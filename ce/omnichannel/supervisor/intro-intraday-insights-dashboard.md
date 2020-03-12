@@ -1,16 +1,13 @@
 ---
 title: "Introduction to Intraday insights dashboard for supervisor | MicrosoftDocs"
 description: "Introduction to Intraday insights dashboard for supervisor"
-keywords: ""
-author: udaykirang
-ms.author: udag
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-applies_to: 
 ms.date: 06/22/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: b7ddb6d7-fc46-4541-aaa8-2411198ed856
-ms.custom: 
 ---
 
 # Introduction to intraday supervisor experiences
@@ -22,7 +19,7 @@ ms.custom:
 
 Customer service managers or supervisors are responsible for managing the agents who work with customers to resolve queries every day through various service channels.
 
-Omnichannel for Customer Service provides dashboards that help supervisors keep track of the work that their agents do. As a supervisor, you can use these dashboards to perform these tasks:
+Omnichannel for Dynamics 365 Customer Service provides dashboards that help supervisors keep track of the work that their agents do. As a supervisor, you can use these dashboards to perform these tasks:
 
 -	Monitor key performance indicators (KPIs)
 
@@ -49,12 +46,12 @@ Verify the following prerequisites before you use the supervisor dashboards:
 
 -  Omnichannel supervisor role is assigned. To learn more, see [Enable users for Omnichannel Customer Service](../administrator/add-users-assign-roles.md).
 
--  **Power BI Pro** or **Power BI Premium** license is assigned to you.  
+-  **Power BI Pro** or **Power BI Premium** license is assigned to you.
 
--  User is added in supervisor configuration when using intraday insights dashboard for USD. To learn more, see [Add users to supervisor configuration](../administrator/configure-intraday-dashboard-supervisor.md#add-users-to-supervisor-configuration).
+## Videos
+[Overview of supervisor experience in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2099487)
 
-- While using the **Omnichannel for Customer Service** app on web, intraday insights dashboard must be shared with supervisors. To learn more, see [Add users to supervisor configuration](../administrator/configure-intraday-dashboard-supervisor.md#share-dashboard-in-omnichannel-for-customer-service-app-on-web).
-
+To view more videos on Omnichannel for Customer Service, see [Videos](../videos.md).
 
 ### See also
 

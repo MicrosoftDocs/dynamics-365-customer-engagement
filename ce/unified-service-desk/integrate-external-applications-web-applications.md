@@ -1,22 +1,12 @@
 ---
-title: "Integrate with external applications and web applications in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
+title: "Integrate with external applications and web applications in Unified Service Desk | MicrosoftDocs"
 description: "Learn about integrating with external application and web application n Unified Service Desk."
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
-ms.reviewer: 
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.date: 12/31/2019
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: 3050ba0b-9269-4b6d-adc3-d312ba0ef038
-caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
 manager: shujoshi

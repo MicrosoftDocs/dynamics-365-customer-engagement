@@ -1,17 +1,15 @@
 ---
-title: "Work with images and other files (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "How to upload, tag, and find images and other files for use in emails and marketing pages in Dynamics 365 for Marketing"
+title: "Work with images and other files (Dynamics 365 Marketing) | Microsoft Docs"
+description: "How to upload, tag, and find images and other files for use in emails and marketing pages in Dynamics 365 Marketing"
 keywords: image, file, keyword
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 162d17d7-bdd4-4a44-b84f-8ab94e7267f3
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -26,7 +24,7 @@ search.app:
 
 # Upload and use images and files in online content
 
-Images are an important part of most marketing-page and marketing-email designs. To use images in your designs, you must upload them to [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], which also hosts the images and delivers them when contacts open an email or marketing page.
+Images are an important part of most marketing-page and marketing-email designs. The images you use must be available publicly on the internet so your emails and pages can access and display them. Though you could host your images anywhere, one convenient place to keep them is in the Dynamics 365 Marketing image library, which stores the images, hosts them publicly, and provides an image browser that helps you find and place them while working in Dynamics 365 Marketing.
 
 > [!NOTE]
 > For security purposes, this feature only allows you to upload image files. The following image formats are supported:
@@ -41,9 +39,9 @@ Images are an important part of most marketing-page and marketing-email designs.
 > [!NOTE]
 > The maximum file size for uploaded images is 5 MB.
 
-## Upload files to [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]
+## Upload files to Dynamics 365
 
-Whenever you add an image element to a marketing page or email, you can choose to add an image that already exists in your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] database or upload a new one. After you've uploaded a file in this way, the file will also be available for use in other designs.
+Whenever you add an image element to a marketing page or email, you can choose to add an image that already exists in your Dynamics 365 Marketing library or upload a new one. After you've uploaded a file in this way, the file will also be available for use in other designs.
 
 ![Upload a picture dialog](media/upload-picture.png "Upload a picture by dragging it to the upload dialog box")
 
@@ -55,7 +53,7 @@ Note that you can apply keywords each time you upload a file. Keywords can make 
 
 Keywords make it easier to find your images later when you want to use them in content. Each time you upload a new image, you're offered a chance to apply a keyword to it. You can also add or remove keywords from existing images by going to **Marketing** > **Marketing content** > **Files**.
 
-To help keep your keywords under control, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] requires you to establish a list of specific keywords that users can apply to their files. Users must therefore select keywords from a list rather than enter free text. This helps prevent users from applying competing ontologies and also helps prevent typos.
+To help keep your keywords under control, Dynamics 365 Marketing requires you to establish a list of specific keywords that users can apply to their files. Users must therefore select keywords from a list rather than enter free text. This helps prevent users from applying competing ontologies and also helps prevent typos.
 
 To view and edit the keywords available to your organization, go to **Marketing** > **Marketing content** > **Keywords**. All existing keywords are listed here. Select any listed keyword to edit it, or select **New** to create a new one. You can also delete keywords here.
 
@@ -63,7 +61,7 @@ Be careful when editing or deleting keywords. If you edit an existing keyword, a
 
 ## Use images in your content
 
-To add an image to a marketing page or email, start by dragging an image element onto your design, which positions a placeholder. Then select the element with the placeholder image and open the **Properties** tab, where you can define the source, alt text, and link for the image. Select the browse button ![Browse for picture button](media/browse-button.png "Browse for picture button") for **Source** to open an image browser where you can find any image already uploaded to [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
+To add an image to a marketing page or email, start by dragging an image element onto your design, which positions a placeholder. Then select the element with the placeholder image and open the **Properties** tab, where you can define the source, alt text, and link for the image. Select the browse button ![Browse for picture button](media/browse-button.png "Browse for picture button") for **Source** to open an image browser where you can find any image already uploaded to Dynamics 365 Marketing.
 
 ![The picture library](media/select-picture.png "Select a picture from the library")
 

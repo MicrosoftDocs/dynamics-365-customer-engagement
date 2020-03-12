@@ -1,17 +1,15 @@
 ---
-title: Define settings for parent and child cases (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Learn to define settings for parent and child cases in Dynamics 365 for Customer Service
-keywords: Parent child cases; Dynamics 365 for Customer Engagement; Customer Service; Set parent and child case attributes ;
-author: anjgupta
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-ms.author: anjgup
+title: Define settings for parent and child cases (Dynamics 365 Customer Service) | MicrosoftDocs
+description: Learn to define settings for parent and child cases in Dynamics 365 Customer Service
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 10/01/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.assetid: c919d10e-8881-4ba9-a609-40b11b555648
-ms.custom: dyn365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -23,10 +21,10 @@ search.app:
 
 # Define parent and child case settings
 
-In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)],  you can track multiple issues for a customer, or track the same issue that's affecting multiple customers, using parent and child cases. For example, you could track a case where work needs to be done by other departments. The primary case or issue is called the **Parent** case. Any related cases are called **Child** cases. Before your service team can start using this feature, you need to go to service management and set up a few rules about how information is inherited. 
+In Dynamics 365 Customer Service,  you can track multiple issues for a customer, or track the same issue that's affecting multiple customers, using parent and child cases. For example, you could track a case where work needs to be done by other departments. The primary case or issue is called the **Parent** case. Any related cases are called **Child** cases. Before your service team can start using this feature, you need to go to service management and set up a few rules about how information is inherited. 
 
 > [!NOTE]
-> With the Customer Engagement apps version 9.1 release, parent child case settings in service management are available in the Customer Service Hub. We recommend that you create and manage parent child case settings using the new experience.
+> With the latest release of Dynamics 365 Customer Service app, parent child case settings in service management are available in the Customer Service Hub. We recommend that you create and manage parent child case settings using the new experience.
   
 ## Set parent and child case attributes  (Customer Service Hub)
   
@@ -73,6 +71,4 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)],  you can track m
   
 ### See also
 
-[Create and manage parent and child cases](customer-service-hub-user-guide-case-sla.md#create-and-manage-parent-and-child-cases)</br>
-
-  
+[Create and manage parent and child cases](customer-service-hub-user-guide-create-and-manage-parent-and-child-cases.md)

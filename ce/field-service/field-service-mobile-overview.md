@@ -92,7 +92,7 @@ Installing Field Service Mobile involves downloading the "Field Service Mobile" 
 
 ## Upgrade
 
-New versions of the Field Service Mobile app are released in a cadence similar to Dynamics 365 for Field Service. They can be downloaded and applied through your relevant app store. In some cases - like with Windows 10 - downloading the app from the Windows Store allows for automatic upgrades as new versions are released.
+New versions of the Field Service Mobile app are released in a cadence similar to Dynamics 365 Field Service. They can be downloaded and applied through your relevant app store. In some cases - like with Windows 10 - downloading the app from the Windows Store allows for automatic upgrades as new versions are released.
 
 The mobile configuration tool is also upgraded periodically, but not always on the same cadence as the app.
 
@@ -162,7 +162,7 @@ You can keep an audit record of when specific entities are edited, as well as ap
 
 #### Dynamics security
 
-For accessing Dynamics 365 for Field Service entities and fields, the Field Service Mobile app uses the Dynamics 365 security role and field security profile framework. Additionally, entities and fields can be further restricted at the mobile app level, but a user cannot access any entity or field that could not be accessed in Dynamics 365.
+For accessing Dynamics 365 Field Service entities and fields, the Field Service Mobile app uses the Dynamics 365 security role and field security profile framework. Additionally, entities and fields can be further restricted at the mobile app level, but a user cannot access any entity or field that could not be accessed in Dynamics 365.
 
 
 ### See also

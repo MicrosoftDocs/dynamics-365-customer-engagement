@@ -1,16 +1,11 @@
 ---
-title: "lcw:ready | MicrosoftDocs"
+title: "lcw ready | MicrosoftDocs"
 description: 
-keywords: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
-ms.service: 
 ms.topic: article
-ms.assetid: CA32BB06-B8AA-4A81-B3A8-8999E5E84C03
-ms.custom: 
 ---
 # lcw:ready (Omnichannel for Customer Service JavaScript API reference)
 

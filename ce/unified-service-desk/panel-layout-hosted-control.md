@@ -1,22 +1,12 @@
 ---
-title: "Panel Layout (Hosted Control) in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
+title: "Panel Layout (Hosted Control) in Unified Service Desk | MicrosoftDocs"
 description: "Learn about using the Panel Layout hosted control to define the arrangement of panels in Unified Service Desk. Panels hold various hosted controls, and a panel layout defines the arrangement of various hosted controls on the main screen of the Unified Service Desk client application."
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
-ms.reviewer: 
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.date: 12/31/2019
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: bbc0cc8e-b45c-4ad6-a7e8-616dc1a00f53
-caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -47,7 +37,7 @@ Use **Panel Layout** hosted control to define the arrangement of panels in [!INC
   
  In the **New Hosted Control** screen:  
   
-- From the **USD Component Type** drop-down list, select **Panel Layout**.  
+- From the **Unified Service Desk Component Type** drop-down list, select **Panel Layout**.  
   
 - From the **PanelType** drop-down list, select a panel layout type to create. You can select one from the following: **Standard Main Panel**, **Ribbon Main Panel**, **Vertical Split**, **Horizontal Split**, **XAML**, and **User Defined**. The XAML and User Defined panel layouts are the custom panels that you define. For detailed information about each of the panel layouts, see [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md). The fields in this page change based on the selected panel type.  
   
@@ -90,7 +80,7 @@ Use **Panel Layout** hosted control to define the arrangement of panels in [!INC
 |panel|Target panel for the hosted control.|  
   
 ### New_CRM_Page  
- Creates a page for creating a new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps record of the entity specified, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the page to create the entity record is displayed.  
+ Creates a page for creating a new record of the entity specified, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the page to create the entity record is displayed.  
   
 |Parameter|Description|  
 |---------------|-----------------|  

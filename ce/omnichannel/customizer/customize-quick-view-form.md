@@ -1,16 +1,13 @@
 ---
 title: "Customize quick view forms | MicrosoftDocs"
 description: "Learn how to customize the quick view forms present in the Customer Summary page."
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: ab116bdb-a31f-48d3-a8e6-9f4790276a63
-ms.custom: 
 ---
 # Customize quick view forms
 
@@ -21,7 +18,7 @@ You customize the quick view form in the section by navigating to the respective
 > [!NOTE]
 > This procedure shows how to modify the **Customer Profile** section in the Customer summary form of the **Conversation** entity. However, the process is similar for other forms in the sections.
 
-1.  Sign in to Microsoft Dynamics 365.
+1.  Sign in to the Common Data Service platform.
 
 2.  Go to **Settings** > **Customization** > **Customize the system**.
 
@@ -37,7 +34,7 @@ You customize the quick view form in the section by navigating to the respective
 6.  Select **Save** and then select **Publish**.
 
 > [!TIP]
-> To edit a quick view form, see [Edit a quick view form](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/create-edit-quick-view-forms#edit-a-quick-view-form)  
+> To edit a quick view form, see [Edit a quick view form](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-quick-view-forms#edit-a-quick-view-form)  
 
 You can also use the previous procedure to add or remove fields in other sections. In step 3, select the entity that is shown in the following table, and then, in step 4, select the quick view form that is shown. Then follow steps 5 through 6.
 

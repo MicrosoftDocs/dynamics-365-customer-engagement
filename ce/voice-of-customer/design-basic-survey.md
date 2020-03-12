@@ -5,8 +5,6 @@ keywords: survey design;  survey theme; share survey; clone survey
 ms.date: 07/01/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 51d4aad8-b33f-4e29-b4ec-d767598eb8f7
 author: sbmjais
 ms.author: shjais
@@ -33,7 +31,7 @@ You can create a theme for your survey to match your company's style. Themes def
 
 **Web client**
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to the Voice of the Customer legacy web client.
 
 2. Go to **Voice of the Customer** &gt; **Themes**.
 
@@ -76,14 +74,14 @@ Voice of the Customer app provides a WYSIWYG theme designer. This allows you to 
 
 ## Upload image
 
-You can upload images to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and add them to your surveys later. After an image is uploaded, you can reuse it in multiple surveys.
+You can upload images to Dynamics 365 and add them to your surveys later. After an image is uploaded, you can reuse it in multiple surveys.
 
 > [!NOTE]
 > The maximum size of an uploaded image can be 102.4 KB.
 
 **Web client**
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to the Voice of the Customer legacy web client.
 
 2. Go to **Voice of the Customer** &gt; **Images**.
 
@@ -121,9 +119,9 @@ You can upload images to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.
 
 ## Create or edit a survey
 
-After creating a theme for your survey and uploading the images to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], you can start creating your Voice of the Customer survey.
+After creating a theme for your survey and uploading the images to Dynamics 365, you can start creating your Voice of the Customer survey.
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+1. Sign in to the Voice of the Customer legacy web client or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
 
 2. Go to **Voice of the Customer** &gt; **Surveys**.
 
@@ -160,7 +158,7 @@ You can add more pages as required by your survey.
 
 **Web client**
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to the Voice of the Customer legacy web client.
 
 2. Go to **Voice of the Customer** &gt; **Surveys**.
 
@@ -199,7 +197,7 @@ You can add more pages as required by your survey.
 
 **Web client**
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to the Voice of the Customer legacy web client.
 
 2. Go to **Voice of the Customer** &gt; **Surveys**.
 
@@ -260,7 +258,7 @@ You can add more pages as required by your survey.
 
 You can import a section (along with its questions) from another survey into your survey. In this way, you can reuse existing questions without having to re-create them. You can drag the section to a new position on the page.
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to the Voice of the Customer legacy web client.
 
 2. Go to **Voice of the Customer** &gt; **Surveys**.
 
@@ -289,7 +287,7 @@ To create a linked question:
 
 **Web client**
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to the Voice of the Customer legacy web client.
 
 2. Go to **Voice of the Customer** &gt; **Surveys**.
 
@@ -327,7 +325,7 @@ To create a linked question:
 
 ## Personalize a survey
 
-Use placeholders to automatically insert [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] information into your survey. Piped data is used as placeholders to include personalized [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] data in your survey. For example, you can use piped data to automatically insert a customer's first name into the text on your survey's Welcome screen.
+Use placeholders to automatically insert Dynamics 365 information into your survey. Piped data is used as placeholders to include personalized Dynamics 365 data in your survey. For example, you can use piped data to automatically insert a customer's first name into the text on your survey's Welcome screen.
 
 You can add the following data as placeholders:
 
@@ -345,14 +343,14 @@ You can add the following data as placeholders:
 
 > [!NOTE]
 > - Piped data can be used in personalizing survey invitations. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Personalize survey invitations](distribute-survey.md#personalize-survey-invitations)  
-> - Don't use piped data if you plan to distribute a survey anonymously. Piped data will not be replaced with actual [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] data in an anonymous survey.
+> - Don't use piped data if you plan to distribute a survey anonymously. Piped data will not be replaced with actual Dynamics 365 data in an anonymous survey.
 > - Piped data placeholders are replaced with the values specified in appropriate fields in a survey activity or invitation, or survey email.
 
 ### Insert personalized data in a survey
 
 **Web client**
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to the Voice of the Customer legacy web client.
 
 2. Go to **Voice of the Customer** &gt; **Surveys**.
 
@@ -424,7 +422,7 @@ The **Preview**, **Publish**, and **Test** commands are available on the toolbar
 For example, if you add two questions to a published survey, preview it first to see if the survey is working. After previewing the survey, you publish it to the cloud and then you can test the survey to see how it will look to respondents. If you test the survey before you publish it, you will not see your recent changes.
 
 > [!NOTE]
-> Survey responses are not stored in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] when you preview or test a survey.
+> Survey responses are not stored in Dynamics 365 when you preview or test a survey.
 
 ## Clone or import an existing survey
 
@@ -446,7 +444,7 @@ Cloning a survey means creating an exact duplicate survey where only the name is
 > [!NOTE]
 > To clone a survey, it must be in Published status. You cannot clone a survey that is in Draft status.
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+1. Sign in to the Voice of the Customer legacy web client or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
 
 2. Go to **Voice of the Customer** &gt; **Surveys**.
 
@@ -460,7 +458,7 @@ You can create a survey in one environment, test it, and then move it to the pro
 
 **Web client**
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to the Voice of the Customer legacy web client.
 
 2. Go to **Voice of the Customer** &gt; **Surveys**.
 
@@ -470,7 +468,7 @@ You can create a survey in one environment, test it, and then move it to the pro
 
    ![Download XML file of a survey](media/import-survey.png "Download the XML file of a survey")  
 
-5. Sign in to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] environment to which you want to move the survey.
+5. Sign in to the Dynamics 365 environment to which you want to move the survey.
 
 6. Go to **Settings** &gt; **Voice of the Customer Imports**.
 
@@ -496,7 +494,7 @@ You can create a survey in one environment, test it, and then move it to the pro
 
     ![Download XML file of a survey](media/import-survey-uci.png "Download the XML file of a survey")
 
-5. Sign in to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] environment to which you want to move the survey.
+5. Sign in to the Dynamics 365 environment to which you want to move the survey.
 
 6. Go to **Settings** &gt; **Imports**.
 
@@ -514,7 +512,7 @@ You can create a survey in one environment, test it, and then move it to the pro
 
 After creating a survey, you can translate it into other languages as required by your respondents.
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+1. Sign in to the Voice of the Customer legacy web client or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
 
 2. Go to **Voice of the Customer** &gt; **Surveys**.
 
@@ -538,7 +536,7 @@ After creating a survey, you can translate it into other languages as required b
 6. Add a column to the right of the base language (for example, **en** for English), and specify the locale for the language in the column heading (for example, **es** for Spanish). You can also specify a locale in the heading (for example, **en-uk** for English in the United Kingdom). Add columns for each language or locale you need.
 
    > [!NOTE]
-   > - You must only use the language codes supported by [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] for the system-provided strings to be translated into, otherwise they will be displayed in the base language.
+   > - You must only use the language codes supported by Dynamics 365 for the system-provided strings to be translated into, otherwise they will be displayed in the base language.
    > - You must be sure to mention specific locales where multiple dialects are supported.
 
 7. Add translations to each language or locale column. You can retrieve translations from [[!INCLUDE[pn-bing](../includes/pn-bing.md)] translations](https://www.bing.com/translator/). If your text strings have HTML in them, you'll need to encode them. For example, you need to encode:  
@@ -551,7 +549,7 @@ After creating a survey, you can translate it into other languages as required b
 
    You can use any HTML encoder.
 
-8. After completing your translations, save the file, go back to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], and then delete the Translations.xml file by selecting the delete icon next to the file.
+8. After completing your translations, save the file, go back to Dynamics 365, and then delete the Translations.xml file by selecting the delete icon next to the file.
 
    > [!NOTE]
    > - In web client, point to the file name, and then select **Delete**.
@@ -565,7 +563,7 @@ After creating a survey, you can translate it into other languages as required b
 > - A survey can be translated into multiple languages if the translations file consists of the translations with the correct country codes in each column.
 > - If you add or change a question after adding your edited translations file, you need to add the translation for that question. To get an updated version of the translation file, select **Export translations** on the survey page and repeat the steps to add your new translations.
 > - We recommend that you preview the survey with the latest translation file to detect any translation errors.
-> - [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] automatically detects the language at runtime based on the respondent's browser preferences. If no translation exists for that language, the survey will use the base language strings instead. Users can change the language of the survey by selecting the language they want from the drop-down list.
+> - Dynamics 365 automatically detects the language at runtime based on the respondent's browser preferences. If no translation exists for that language, the survey will use the base language strings instead. Users can change the language of the survey by selecting the language they want from the drop-down list.
 > - When you preview or publish a survey, the translation file is validated for missing string translations and incorrect HTML format. The appropriate error message is displayed with a link to download the log file to view details.
 
 ## Close or stop a survey
@@ -581,7 +579,7 @@ We recommend that when you create a survey you specify a redirect URL to display
 You can delete a survey if it is not required anymore. When a survey is deleted, all its dependent entities are also deleted.
 
 To delete a survey:
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+1. Sign in to the Voice of the Customer legacy web client or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
 
 2. Go to **Voice of the Customer** > **Surveys**.
 
@@ -592,7 +590,7 @@ To delete a survey:
 > [!Note]
 > The associated survey responses must be deleted before deleting the survey.
 > To delete survey responses:
-> 1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+> 1. Sign in to the Voice of the Customer legacy web client.
 > 2. Go to **Voice of the Customer** > **Surveys**.
 > 3. Select the name of the survey for which you want to delete survey responses.
 > 4. Select the down arrow next to your survey name at the top of the screen, and then select **Survey Responses**.

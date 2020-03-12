@@ -1,5 +1,5 @@
 ---
-title: Create a work hours template (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: Create a work hours template 
 description: How to create a work hours template in Project Service
 author: ruhercul
 manager: kfend

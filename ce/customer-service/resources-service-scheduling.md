@@ -1,17 +1,15 @@
 ---
-title: Set up resources for Service Scheduling (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Know how to create and set up resources for service scheduling in Dynamics 365 for Customer Service
-keywords: Resources; Service scheduling; Dynamics 365 for Customer Engagement; Customer Service; Universal Resource Scheduling (URS)
-author: anjgupta
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-ms.author: anjgup
+title: Set up resources for Service Scheduling (Dynamics 365 Customer Service) | MicrosoftDocs
+description: Know how to create and set up resources for service scheduling in Dynamics 365 Customer Service
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ms.date: 11/20/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: dyn365-customerservice
-ms.assetid: 4353cb1d-fc4e-474f-9524-9b5add34246a
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer

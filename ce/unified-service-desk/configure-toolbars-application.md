@@ -3,19 +3,10 @@ title: "Configure toolbars in your application | MicrosoftDocs"
 description: "Learn about configuring toolbars in your application."
 ms.custom: 
   - dyn365-USD
-ms.date: 04/24/2018
-ms.reviewer: 
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.date: 12/31/2019
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: 61cf4cb9-71ed-40c8-bbfa-c846c45cfb74
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -34,25 +25,23 @@ You can configure toolbars in [!INCLUDE[pn_unified_service_desk](../includes/pn-
 ## Create a toolbar  
  Before creating a toolbar, ensure that there is a toolbar container hosted control already configured. For more information, see [Toolbar Container (Hosted Control)](../unified-service-desk/toolbar-container-hosted-control.md).  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to Unified Service Desk Administrator.  
   
-2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
+2. Select **Toolbars** under **Basic Settings**.  
   
-3. Click **Toolbars**.  
+3. Select **+ New**.  
   
-4. On the toolbars page, click **New** on the command bar.  
-  
-5. On the **New Toolbar** page, and.  
+4. On the **New Toolbar** page, and.  
   
    1.  Type a name for the new toolbar.  
   
    2.  Type a title for the toolbar, which is displayed on the left edge of the toolbar strip.  
   
-   3.  Click **Save** to enable the **Buttons** area.  
+   3.  Select **Save** to enable the **Buttons** area.  
   
-6. Under the **Buttons** area, click **+** to create a button to be placed on the toolbar.  
+5. Under the **Buttons** area, select **+ New Toolbar Button** to create a button to be placed on the toolbar.
   
-7. On the **New Toolbar Button** page:  
+6. On the **New Toolbar Button** page:  
   
    1.  Specify the name of the button.  
   
@@ -62,45 +51,45 @@ You can configure toolbars in [!INCLUDE[pn_unified_service_desk](../includes/pn-
   
    4.  To control the left to right order in which the buttons are displayed on the toolbar, specify an integer value in the **Order** field. The buttons are arranged from left to right in the ascending order.  
   
-   5.  Click **Save** to enable the **Actions** area.  
+   5.  Select **Save** to enable the **Actions** area.  
   
-8. Under the **Actions** area, click **+** to add an action call to the button.  
+7. Under the **Actions** area, select **Add Existing Action Call** to add an action call to the button. The **Lookup Records** pane is displayed.
   
-9. In the search box in Under the **Actions** area, type the name of the action call that you want to attach to the button. If you want to attach the button to a new action call, click **New**, and then add create an action call and then add it to the UII action. For more information, see [Create an action call for a UII action](../unified-service-desk/create-action-call-uii-action.md).  
-  
-10. For additional button on the toolbar, follow steps 6-9.  
-  
-11. After adding buttons and action calls to a toolbar, attach the toolbar to a toolbar container. This is done to specify the location of the new toolbar on the desktop of in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. With the toolbar definition open, click the down arrow next to the toolbar name, and then select **Hosted Controls**.  
-  
-12. On the next page, click **Add Existing Hosted Application**.  
-  
-13. In the search box, type the name of the toolbar container hosted control, click search, and then select the hosted control.  
-  
-14. Click **Save**. 
+8. In the search box in Under the **Actions** area, type the name of the action call that you want to attach to the button. Select the action call from the list and then select **Add**. 
 
-15. Under the **Styles** area, in the **Custom Styles** text box, write the XAML string to customize the toolbar and buttons. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Styles in toolbar](#styles-in-toolbar)
+    If you want to attach the button to a new action call, select **New**, and then add create an action call and then add it to the UII action. For more information, see [Create an action call for a UII action](../unified-service-desk/create-action-call-uii-action.md).  
+  
+9. For additional button on the toolbar, follow steps 5-8.  
+  
+10. After adding buttons and action calls to a toolbar, attach the toolbar to a toolbar container. This is done to specify the location of the new toolbar on the desktop of in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. With the toolbar definition open, select the **Related** tab, and then select **Hosted Controls**.  
+  
+11. On the next page, select **Add Existing Hosted Control**.  The **Lookup Records** pane is displayed.
+  
+12. In the search box, type the name of the toolbar container hosted control, select search, and then select the hosted control from the list, and then select **Add**.  
+  
+13. Select **Save**. 
 
-16. Click **Save**. 
+14. Under the **Styles** area, in the **Custom Styles** text box, write the XAML string to customize the toolbar and buttons. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Styles in toolbar](#styles-in-toolbar)
+
+15. Select **Save**. 
   
 <a name="EditToolbar"></a> 
 
 ## Add/remove button from existing toolbar  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to Unified Service Desk Administrator.  
   
-2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
+2. Select **Toolbars** under **Basic Settings**.  
   
-3. Click **Toolbars**.  
-  
-4. On the toolbars page, click the name of the toolbar that you want to modify.  
+4. On the toolbars page, select the name of the toolbar that you want to modify.  
   
 5. The next page displays the toolbar definition.  
   
    1.  Add more buttons using the **Buttons** area. For more information, see steps 6-10 as in the previous section.  
   
-   2.  Modify an existing button by clicking the button name under the **Buttons**, This opens the button definition page where you can change information about the button, such as bname, button text (label), order, and action call.  
+   2.  Modify an existing button by selecting the button name under the **Buttons**. This opens the button definition page where you can change information about the button, such as name, button text (label), order, and action call.  
   
-   3.  Click **Save** to save the changes.
+   3.  select **Save** to save the changes.
 
 <a name="StylesToolbar"></a>  
  
@@ -117,8 +106,8 @@ The resources in the dictionary refers to other resources that are available on 
 > You can find this sample XAML styles in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] - Unified Interface sample package.
 
   ```XAML
-  <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
-  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+  <ResourceDictionary xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+  xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml" 
   xmlns:usd="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics" 
   xmlns:controlStyles="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics.Controls.Styles;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics" 
   xmlns:usdPanelLayouts="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics.PanelLayouts;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics" 
@@ -458,8 +447,8 @@ The sample XAML that defines defines <xref:System.Windows.ResourceDictionary> of
 > You can find this sample XAML styles in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] - Unified Interface sample package.
 
   ```XAML
-  <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  <ResourceDictionary xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml"
   xmlns:usd="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics"
   xmlns:controlStyles="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics.Controls.Styles;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics"
   xmlns:usdPanelLayouts="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics.PanelLayouts;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics"

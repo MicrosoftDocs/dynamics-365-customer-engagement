@@ -1,5 +1,5 @@
 ---
-title: "User authentication using Events API (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
+title: "User authentication using Events API (Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
 description: "Read about the Events API that lets you access data of events, sessions, session tracks, and passes"
 ms.custom: 
   - dyn365-developer
@@ -9,8 +9,6 @@ ms.service: dynamics-365-marketing
 ms.technology: 
   - marketing
 ms.topic: conceptual
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: D1E49395-2FF9-4F5D-BA7A-F9E68EDAFA22
 author: susikka
 ms.author: susikka
@@ -35,27 +33,23 @@ This `token_id` can be retrieved by authenticating the user against Azure Active
 curl -X GET \ 
   'https:// b7c1ad1ab7fa4a7482b16315d94a26af.svc-tip.dynamics.com/EvtMgmt/api/v2.0/events/published?emApplicationtoken=VZsLZhx251OM9uJa..' \ 
   -H 'Authorization: Bearer eyJ0eXAiOiJK…\ 
-  -H 'Origin: http://localhost:4200' 
+  -H 'Origin: https://localhost:4200' 
 ``` 
 
+## Contact matching strategy
 
-<!--from editor: You have no Level 2 heading, so I suggest changing the following heading to ##. Probably the same for the heading that comes after that, too. -->
-
-
-### Contact matching strategy
-
-The Events API will automatically try to link contacts from Azure Active Directory B2C to the contacts in Dynamics 365.  
+The Events API will automatically try to link contacts from Azure Active Directory B2C to the contacts in Dynamics 365 Marketing.  
 
 To do so, it uses a contact matching strategy that can be configured in the event administration settings. By default, first name, last name, and email are used as the contact matching strategy. More information: [Event administration](../events-settings.md#event-administration)
 
-In case no matching contact is found, a new contact will be created automatically in Dynamics 365. 
+In case no matching contact is found, a new contact will be created automatically. 
 
 > [!NOTE]
 > Linked contact entities contain an attribute called `msevtmgt_aadobjectid` that stores the object ID of the user in Azure Active Directory B2C.
 
 ### Retrieving information of authenticated user 
 
-The Events API provides an endpoint that returns the information of the authenticated user. Starting with the June 2019 release, it also includes the Dynamics 365 contact ID of the authenticated user. 
+The Events API provides an endpoint that returns the information of the authenticated user. Starting with the June 2019 release, it also includes the Dynamics 365 Marketing contact ID of the authenticated user. 
 
 **Request** 
 
@@ -63,7 +57,7 @@ The Events API provides an endpoint that returns the information of the authenti
 curl -X GET \
   'https:// b7c1ad1ab7fa4a7482b16315d94a26af.svc-tip.dynamics.com/EvtMgmt/api/v2.0/users/authenticated?emApplicationtoken=VZsLZhx251OM9uJa..' \
   -H 'Authorization: Bearer eyJ0eXAiOiJK…\ 
-  -H 'Origin: http://localhost:4200'
+  -H 'Origin: https://localhost:4200'
 ```
 
 **Response** 

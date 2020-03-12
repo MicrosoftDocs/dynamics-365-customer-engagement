@@ -1,6 +1,6 @@
 ---
-title: "Open administration settings (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "Explains how to access admin settings in Dynamics 365 for Marketing"
+title: "Open administration settings (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Explains how to access admin settings in Dynamics 365 Marketing"
 keywords: administration
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
@@ -8,11 +8,9 @@ ms.custom:
   - dyn365-admin
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: c49c627d-2094-4495-b39d-a4dc9f3f5702
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -27,9 +25,9 @@ search.app:
 
 # Open the advanced settings
 
-Administrators use advanced settings to fine-tune application behavior, set defaults, manage users, enable webinars, check quotas, and more. If you also use [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], many of the settings you find here also apply to that app, though some settings are unique to Sales or [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)].
+Administrators use advanced settings to fine-tune application behavior, set defaults, manage users, enable webinars, check quotas, and more. If you also use Dynamics 365 Sales, many of the settings you find here also apply to that app, though some settings are unique to Sales or Marketing.
 
-1. If you haven't already done so, sign in to [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] as a user with [administrator privileges](admin-users-licenses-roles.md). Then use the app-selector menu to open the **Marketing** app.
+1. If you haven't already done so, sign in to Dynamics 365 Marketing as a user with [administrator privileges](admin-users-licenses-roles.md). Then use the app-selector menu to open the **Marketing** app.
 
     ![The app-selector menu](media/nav-apps-ill.png "The app-selector menu")
 

@@ -5,8 +5,6 @@ keywords: advanced survey design; interactive survey; response routing
 ms.date: 07/01/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 0ca65ffc-df3d-4fbb-9c53-d46ac1ce785d
 author: sbmjais
 ms.author: shjais
@@ -32,7 +30,7 @@ For example, for the question **How likely is it that you would recommend us to 
 
 **Web client**
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to the Voice of the Customer legacy web client.
 
 2. Go to **Voice of the Customer** &gt; **Surveys**.
 
@@ -205,7 +203,7 @@ To add an answer tag:
 
 **Web client**
 
-1.	Sign in to Dynamics 365 for Customer Engagement.
+1.	Sign in to the Voice of the Customer legacy web client.
 
 2.	Go to **Voice of the Customer** > **Surveys**.
 
@@ -238,10 +236,10 @@ To add an answer tag:
 
 ## Add the unsubscribe option to a survey
 
-You can configure your survey to include a link that allows a respondent to unsubscribe from the survey. If this option is configured, the respondent is redirected to another survey to capture reasons for unsubscribing. When the response is received in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], the respondent's contact preferences can be updated to prevent further surveys being sent.
+You can configure your survey to include a link that allows a respondent to unsubscribe from the survey. If this option is configured, the respondent is redirected to another survey to capture reasons for unsubscribing. When the response is received in Dynamics 365, the respondent's contact preferences can be updated to prevent further surveys being sent.
 
 > [!NOTE]
-> Unsubscribe actions work only for customer records stored in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and not for anonymous surveys.
+> Unsubscribe actions work only for customer records stored in Dynamics 365 and not for anonymous surveys.
 
 
 1.  [Create a survey that contains the questions to capture reasons for unsubscribing.](design-basic-survey.md#create-or-edit-a-survey)  
@@ -262,7 +260,7 @@ You can configure your survey to create a lead automatically from a survey respo
 
 **Web client**
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to the Voice of the Customer legacy web client.
 
 2. Go to **Voice of the Customer** &gt; **Surveys**.
 
@@ -328,14 +326,14 @@ After a lead is created, the **Respondent** field in the survey response is upda
 
 ## Automatically send an email response
 
-You can configure your survey to automatically send an email response to the customer (account, contact, or lead) after the survey is completed. The email is sent by using a Global email template type. More information about how to create a new email template of type Global: [Create templates for email ](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-templates-email)
+You can configure your survey to automatically send an email response to the customer (account, contact, or lead) after the survey is completed. The email is sent by using a Global email template type. More information about how to create a new email template of type Global: [Create templates for email ](https://docs.microsoft.com/dynamics365/customer-engagement/admin/create-templates-email)
 
 > [!NOTE]
 > The email is sent only for a non-anonymous response.
 
 **Web client**
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to the Voice of the Customer legacy web client.
 
 2. Go to **Voice of the Customer** &gt; **Surveys**.
 
@@ -375,7 +373,7 @@ To configure scoring:
 
 **Web client**
 
-1.	Sign-in to Dynamics 365 for Customer Engagement.
+1.	Sign in to Voice of the Customer legacy web client.
 
 2.	Go to **Voice of the Customer** > **Surveys**.
 

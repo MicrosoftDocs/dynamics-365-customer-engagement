@@ -1,16 +1,13 @@
 ---
 title: "Create forms to define the layout and behavior of the notification | MicrosoftDocs"
 description: "Learn how to create forms to define layout and behavior of the alert notification in Omnichannel for Customer Service."
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 5ea71717-26e0-4e30-b2f8-629626132341
-ms.custom: 
 ---
 # Step 1: Create forms to define the layout and behavior of the notification
 
@@ -20,7 +17,7 @@ The topic describes how to define the layout and behavior of the alert notificat
 
 ## Prerequisites 
 
-- You must have the required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps permissions to configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and access the required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Access management in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/security-unified-service-desk)
+- You must have the required Dynamics 365 Customer Service permissions to configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and access the required Dynamics 365 Customer Service entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Access management in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/security-unified-service-desk)
 
 - You must be familiar with the following concepts in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]:  
   
@@ -32,7 +29,7 @@ The topic describes how to define the layout and behavior of the alert notificat
 
 ## Create forms
 
-1. Sign in to a Microsoft Dynamics 365 for Customer Engagement instance.
+1. Sign in to Common Data Service platform.
 
 2. Select the Down arrow next to Dynamics 365.
 
@@ -49,7 +46,7 @@ The topic describes how to define the layout and behavior of the alert notificat
     | Markup    | Copy and paste the XML content as shown below |
 
  ```XML
-   <Border xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   <Border xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml"
 xmlns:CCA="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics"
 xmlns:Converters="clr-namespace:USDConverters;assembly=USDConverters" xmlns:local="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics"  xmlns:System="clr-namespace:System;assembly=mscorlib" BorderThickness="1,1,1,1"
 >
@@ -635,7 +632,7 @@ xmlns:Converters="clr-namespace:USDConverters;assembly=USDConverters" xmlns:loca
 | Markup    | Copy and paste the XML content as shown below |
   
 ```XML
-<Border xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+<Border xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml"
 xmlns:CCA="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics"
 xmlns:Converters="clr-namespace:USDConverters;assembly=USDConverters" xmlns:local="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics"  xmlns:System="clr-namespace:System;assembly=mscorlib" BorderThickness="1,1,1,1"
 >
@@ -1222,7 +1219,7 @@ xmlns:Converters="clr-namespace:USDConverters;assembly=USDConverters" xmlns:loca
 | Markup    | Copy and paste the XML content as shown below |
   
 ```XML
-<Border xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+<Border xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml"
 xmlns:CCA="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics"
 xmlns:Converters="clr-namespace:USDConverters;assembly=USDConverters" xmlns:local="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics"  xmlns:System="clr-namespace:System;assembly=mscorlib" BorderThickness="1,1,1,1"
 >

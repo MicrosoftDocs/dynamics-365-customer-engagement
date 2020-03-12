@@ -1,23 +1,18 @@
 ---
-title: "Recalculate an opportunity (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "Recalculate the opportunity in Dynamics 365 for Sales to change the estimated revenue of an opportunity based on any changes you've made to the associated products or product quantities."
-keywords: "opportunity, deal, develop, propose, nurture sales"
-ms.date: 04/10/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+title: "Recalculate an opportunity (Dynamics 365 Sales) | MicrosoftDocs"
+description: "Recalculate the opportunity in Dynamics 365 Sales to change the estimated revenue of an opportunity based on any changes you've made to the associated products or product quantities."
+ms.date: 10/01/2019
+ms.service: 
+  - dynamics-365-sales
+ms.custom: 
+  - dyn365-sales
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
-ms.assetid: 36b834d9-7b37-49f7-a110-efcaee8dea04
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 58
 ---
 
-## Recalculate an opportunity (Sales Hub)
+# Recalculate an opportunity (Sales Hub)
 
 To change the estimated revenue of an opportunity based on any changes you've made to the associated products or product quantities, recalculate the opportunity.
 
@@ -31,11 +26,15 @@ To change the estimated revenue of an opportunity based on any changes you've ma
 
 5.	On the command bar, select **Recalculate Opportunity**.
 
+> [!IMPORTANT]
+> If there are any changes to existing opportunity products associated with closed opportunities, the prices aren't recalculated.
+
+
 ### See also  
 
 [Create or edit an opportunity](../sales-enterprise/create-edit-opportunity-sales.md)  
 [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)   
 [Print leads, quotes, and other records](../basics/print-leads-quotes-other-records.md)  
-[Dynamics 365 for Sales troubleshooting guide for administrators](troubleshooting-admin.md)  
+[Dynamics 365 Sales troubleshooting guide for administrators](troubleshooting-admin.md)  
 
 

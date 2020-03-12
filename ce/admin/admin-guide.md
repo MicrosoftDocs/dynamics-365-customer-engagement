@@ -1,104 +1,41 @@
 ---
-title: "Administrator Guide (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Administer Dynamics 365 apps (model-driven apps)  | MicrosoftDocs"
 ms.custom: 
-ms.date: 11/08/2018
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
 applies_to: 
-  - Dynamics 365 for Customer Engagement  (online)
-  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 83200632-a36b-4401-ba41-952e5b43f939
 caps.latest.revision: 31
 author: jimholtz
 ms.author: jimholtz
-manager: amyla
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
-  - Powerplatform
 ---
-# Administrator Guide for Dynamics 365 for Customer Engagement apps 
+# Administer model-driven apps in Dynamics 365
 
-*This content also applies to the on-premises version.*
+Effective October 2019, the *Dynamics 365 for Customer Engagement* SKU/license plan is no longer available for online customers. More information: [Dynamics 365 Licensing Update](https://docs.microsoft.com/dynamics365/licensing/update)
 
-[!INCLUDE[cc-customer-engagement-apps-note](../includes/cc-customer-engagement-apps-note.md)] 
+With this change for online customers, we are no longer using the term "Dynamics 365 for Customer Engagement apps" to refer to the following collection of Dynamics 365 apps and their related services:
+- Dynamics 365 Sales
+- Dynamics 365 Customer Service
+- Dynamics 365 Marketing 
+- Dynamics 365 Field Service
+- Dynamics 365 Project Service Automation
 
-[!INCLUDE[cc-see-nonv-subscription-guide](../includes/cc-see-nonv-subscription-guide.md)]
+For online customers, these apps are **model-driven apps** running on [Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro). You can build model-driven apps using Power Apps. More information: [What are model-driven apps?](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)
 
-Implementers and administrators for [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] will find the resources and topics provided in this guide to help you manage and configure Customer Engagement applications and services.
-
-<table>
-<tr>
-<td>
-
-<h2> Get started </h2>
-
-<li><a href="getting-started.md" data-raw-source="[Getting started](getting-started.md)">Getting started</a></li>
-<li><a href="onboard-your-organization-and-users-to-dynamics-365-online.md" data-raw-source="[Onboard your organization and users](onboard-your-organization-and-users-to-dynamics-365-online.md)">Onboard your organization and users</a></li>
-<li><a href="onboarding-cheat-sheet-admins.md" data-raw-source="[Onboarding cheat sheet for admins](onboarding-cheat-sheet-admins.md)">Onboarding cheat sheet for admins</a></li>
-<li><a href="create-users-assign-online-security-roles.md" data-raw-source="[Create users and assign security roles](create-users-assign-online-security-roles.md)">Create users and assign security roles</a></li>
-<li><a href="manage-your-data.md" data-raw-source="[Manage your data](manage-your-data.md)">Manage your data</a></li>
-<li><a href="extend.md" data-raw-source="[Extend Dynamics 365 for Customer Engagement](extend.md)">Extend Dynamics 365 for Customer Engagement</a></li>
-</td>
-<td>
-
-<h2> Manage subscriptions </h2>
-
-<li><a href="manage-subscriptions-licenses-user-accounts.md" data-raw-source="[Manage subscriptions, licenses, and user accounts](manage-subscriptions-licenses-user-accounts.md)">Manage subscriptions, licenses, and user accounts</a></li>
-<li><a href="purchase-assign-online-licenses.md" data-raw-source="[Purchase and assign licenses](purchase-assign-online-licenses.md)">Purchase and assign licenses</a></li>
-<li><a href="grant-users-access.md" data-raw-source="[Grant users access](grant-users-access.md)">Grant users access</a></li>
-<li><a href="switch-dynamics-crm-online-dynamics-365.md" data-raw-source="[Switch from Dynamics CRM Online](switch-dynamics-crm-online-dynamics-365.md)">Switch from Dynamics CRM Online</a></li>
-<li><a href="billing-support.md" data-raw-source="[Support and billing](billing-support.md)">Support and billing</a></li>
-</td>
-</tr>
-<tr>
-<td>
-
-<h2> Extend </h2>
-
-<li><a href="integrate-synchronize-your-email-system.md" data-raw-source="[Integrate your email system](integrate-synchronize-your-email-system.md)">Integrate your email system</a></li>
-<li><a href="manage-documents-using-sharepoint.md" data-raw-source="[Manage your documents using SharePoint](manage-documents-using-sharepoint.md)">Manage your documents using SharePoint</a></li>
-<li><a href="add-office-365-online-services.md" data-raw-source="[Add Office 365 Online services](add-office-365-online-services.md)">Add Office 365 Online services</a></li>
-<li><a href="install-remove-preferred-solution.md" data-raw-source="[Install or remove a preferred solution](install-remove-preferred-solution.md)">Install or remove a preferred solution</a></li>
-</td>
-<td>
-
-<h2> Manage instances </h2>
-
-<li><a href="manage-online-instances.md" data-raw-source="[Manage instances](manage-online-instances.md)">Manage instances</a></li>
-<li><a href="manage-sandbox-instances.md" data-raw-source="[Sandbox instances](manage-sandbox-instances.md)">Sandbox instances</a></li>
-<li><a href="add-instance-subscription.md" data-raw-source="[Add an instance](add-instance-subscription.md)">Add an instance</a></li>
-<li><a href="switch-instance.md" data-raw-source="[Switch an instance](switch-instance.md)">Switch an instance</a></li>
-</td>
-</tr>
-<tr>
-<td>
-
-<h2> Additional resources </h2>
-
-<li><a href="https://www.youtube.com/playlist?list=PLcakwueIHoT90l9YCf0IGddsp0xVMpTVw" data-raw-source="[YouTube playlist](https://www.youtube.com/playlist?list=PLcakwueIHoT90l9YCf0IGddsp0xVMpTVw)">YouTube playlist</a></li>
-<li><a href="https://community.dynamics.com/crm/f/117" data-raw-source="[Community forum](https://community.dynamics.com/crm/f/117)">Community forum</a></li>
-<li><a href="http://go.microsoft.com/fwlink/p/?LinkId=394391" data-raw-source="[Contact support](http://go.microsoft.com/fwlink/p/?LinkId=394391)">Contact support</a></li>
-
-</td>
-<td>
-
-<h2> Product updates </h2>
-
-<li><a href="https://docs.microsoft.com/dynamics365/get-started/whats-new/" data-raw-source="[What&#39;s new in Dynamics 365 for Customer Engagement](https://docs.microsoft.com/dynamics365/get-started/whats-new/)">What&#39;s new in Dynamics 365 for Customer Engagement</a></li>
-<li><a href="release-history.md" data-raw-source="[Release history](release-history.md)">Release history</a></li>
-<li><a href="readme-9.md" data-raw-source="[Dynamics 365 for Customer Engagement apps Readme](readme-9.md)">Dynamics 365 for Customer Engagement apps Readme</a></li>
-</td>
-</tr>
-</table>
+> [!IMPORTANT]
+> The content in this guide is for existing subscribers still using the Dynamics 365 admin center, which was used to manage Dynamics 365 for Customer Engagement instances. We are transitioning instance (now called environment) management to the [Power Platform admin center](https://admin.powerplatform.microsoft.com). For the latest documentation, see the [Power Platform admin guide](https://docs.microsoft.com/power-platform/admin/admin-documentation).
+>
+> The content in this guide applies only to model-driven apps in Dynamics 365; it does not apply to other Dynamics 365 apps such as Finance, Supply Chain Management, Business Central, and so on.
 
 ### See also
-
-[Customization Guide](../customize/overview.md)<br />
-[Developer Guide](../developer/developer-guide.md)<br />
-[Reporting and Analytics Guide](../analytics/reporting-analytics-with-dynamics-365.md) <br />
-[Deploy and operate (on-premises)](../on-premises/deploy-and-operate-dynamics-365-on-premises.md)
+[Power Apps documentation](https://docs.microsoft.com/powerapps/)<br/>
+[Dynamics 365 Customer Engagement (on-premises) documentation](../customerengagement/on-premises/overview.md)

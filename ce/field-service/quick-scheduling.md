@@ -1,5 +1,5 @@
 ---
-title: "Quick scheduling with Dynamics 365 for Field Service| MicrosoftDocs"
+title: "Quick scheduling with Dynamics 365 Field Service| MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 06/25/2019
@@ -26,6 +26,6 @@ search.app:
   - D365FS
 ---
 
-# Quick scheduling in Dynamics 365 for Field Service
+# Quick scheduling in Dynamics 365 Field Service
 
 [!INCLUDE[topic-urs-quick-scheduling.md](../shared/urs/quick-scheduling.md)]

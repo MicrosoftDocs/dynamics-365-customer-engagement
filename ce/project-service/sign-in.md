@@ -1,9 +1,9 @@
 ---
-title: Sign in (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: Sign in to Project Service Automation
 description: How to sign in to Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-projectservice
 ms.custom: 
   - dyn365-projectservice
 ms.date: 8/03/2018
@@ -20,19 +20,21 @@ search.app:
   - D365CE
   - D365PS
 ---
-# Sign in (Project Service)
+
+
+# Sign in to Project Service Automation
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-When you sign in to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement apps, you need to have the following information from your Dynamics 365 for Customer Engagement administrator:  
+When you sign in to Dynamics 365 apps, you need to have the following information from your administrator:  
   
-- URL for your organization’s [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system  
+- URL for your organization’s system  
   
 - Your user name  
   
 - Your password  
   
-  You probably received this information in an email from your admin. If you don’t have all this info, or if you have issues signing in, [Find your Dynamics 365 for Customer Engagement administrator or support person](../basics/find-administrator-support.md).  
+  You probably received this information in an email from your admin. If you don’t have all this info, or if you have issues signing in, [Find your administrator or support person](../basics/find-administrator-support.md).  
   
 ## Set your personal options to allow email  
  You need to configure your email settings to allow others to send email on your behalf, so [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] can send email notifications for you when you have time and expenses to approve or sign up for projects.  
@@ -43,7 +45,7 @@ When you sign in to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] 
   
 3.  Click the **Email** tab.  
   
-4.  Select **Allow other Microsoft Dynamics 365 for Customer Engagement users to send email on your behalf**.  
+4.  Select **Allow other Microsoft Dynamics 365 users to send email on your behalf**.  
   
 5.  Click **OK**.  
   

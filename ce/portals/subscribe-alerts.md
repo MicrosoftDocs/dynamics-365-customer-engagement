@@ -1,5 +1,5 @@
 ---
-title: "Subscribe to alerts on a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Subscribe to alerts on a portal | MicrosoftDocs"
 description: "Instructions to create and manage alerts in a portal."
 ms.custom: 
   - dyn365-portal
@@ -47,11 +47,11 @@ Users can indicate that they do not wish to receive notification when new posts 
 
 ![Unsubscribe from alerts](media/unsubscribe-alerts.png "Unsubscribe from alerts")  
 
-## Manage forum alerts in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]
+## Manage forum alerts
 
-Although the portal is the primary source for creating or removing alerts. Forum alerts can be created, edited or deleted within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+Although the portal is the primary source for creating or removing alerts. Forum alerts can be created, edited or deleted within Dynamics 365 Portals.
 
-1. Sign in to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**.
+1. Sign in to Dynamics 365 Portals.
 2. Navigate to **Community**.
 3. Select **Forum Threads**.
 4. Select an existing **Forum Thread** listed in the grid. 
@@ -74,7 +74,7 @@ The table below explains many of the Forum Alert attributes used by portals.
 
 |      Name       |                                                                                     Description                                                                                      |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   Subscriber    | The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Contact record of the portal user that is to receive a notification when posts are created in the associated thread. |
+|   Subscriber    | The Contact record of the portal user that is to receive a notification when posts are created in the associated thread. |
 |     Thread      |                                                  The forum thread that is being subscribed to notification of newly created posts.                                                   |
 | Expiration Date |                                                                  The date and time when notifications should stop.                                                                   |
 |                 |                                                                                                                                                                                      |

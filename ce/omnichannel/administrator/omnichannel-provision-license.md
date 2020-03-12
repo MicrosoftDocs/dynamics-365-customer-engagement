@@ -1,19 +1,13 @@
 ---
 title: "Provision Omnichannel for Customer Service | MicrosoftDocs"
 description: "See how you can provision Omnichannel for Customer Service"
-keywords: "Provision Omnichannel for Customer Service"
-ms.date: 07/22/2019
-ms.service:
-  - "dynamics-365-customerservice"
-ms.custom:
-  - ""
-ms.topic: article
-applies_to:
-  - ""
-ms.assetid: dcb07f11-106d-4368-87e9-015da0999f06
-author: anjgupta
-ms.author: anjgup
+author: lalexms
+ms.author: lalexms
 manager: shujoshi
+ms.date: 12/19/2019
+ms.service: 
+  - "dynamics-365-customerservice"
+ms.topic: article
 ---
 
 # Provision Omnichannel for Customer Service
@@ -23,7 +17,8 @@ manager: shujoshi
 Omnichannel for Customer Service provides a modern, customizable, high-productivity app that lets agents help customers across different channels via a unified interface. It lets organizations choose the channel that suits their business needs. It also ensures that a high level of responsive, quality service is received across channels.
 
 > [!NOTE]
-> Before you can provision Omnichannel for Customer Service in your organization, a **Global Tenant Admin** must [Provide data access consent](#provide-data-access-consent). </br> </br> Ensure that all the prerequisites are set up before the app is provisioned. More information, see [Prerequisites](../system-requirements-omnichannel.md#prerequisites). 
+> - Before you can provision Omnichannel for Customer Service in your organization, a **Global Tenant Admin** must [Provide data access consent](#provide-data-access-consent).
+> - Ensure that all the prerequisites are set up before the app is provisioned. More information, see [Prerequisites](../system-requirements-omnichannel.md#prerequisites). 
 
 Looking for an upgrade? See [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md) for more information.
 
@@ -43,125 +38,115 @@ To allow Omnichannel for Customer Service to read and write data on behalf of us
 ## Provision Omnichannel for Customer Service application
 
 > [!IMPORTANT]
-> Ensure that you are either a **Global Tenant Admin** or **Dynamics 365 Service Admin** of your Dynamics 365 org to be able to provision the Omnichannel for Customer Service application.
+> To be able to provision the Omnichannel for Customer Service application, you must have both **Global Tenant Admin** and **Dynamics 365 System Admin** permissions for your organization.
 
 ### Set up Omnichannel for Customer Service
 
 > [!NOTE]
 > Ensure that you have provided data access consent before you proceed with the setup. For more information, see [Provide data access consent](#provide-data-access-consent).
 
-   1. In the **Dynamics 365 Administration Center**, got to the **Applications** tab, select **Omnichannel for Customer Service**, and then select **Manage**.
+1. In **Dynamics 365 Administration Center**, go to the **Applications** tab, select **Omnichannel for Customer Service**, and then select **Manage**.
       
-        > [!div class=mx-imgBorder]
-        > ![Manage omnichannel](../media/manage-oc.png)
-
-        The **Manage Omnichannel Instances** page is displayed.
-
-        > [!NOTE]
-        > The Omnichannel for Customer Service option will appear only if you have an active subscription of Dynamics 365 for Customer Service Chat. For more information on pricing, click [here](https://dynamics.microsoft.com/en-us/customer-service/overview/#pricing). You can also get a free 30-day trial if you have the required perquisites, see [Try Chat for Dynamics 365](../try-chat-for-dynamics365.md) for more information.
-
-   3. On the **Manage Omnichannel Instances** page, select **Add Org** to add an organization. Omnichannel is set up on the organization instance that you add here.
-   
-        > [!div class=mx-imgBorder]
-        > ![manage instances](../media/manage-instances.png)
-
-       > [!IMPORTANT]
-       > As an admin, you can configure Omnichannel on multiple environment (instances). You can view the status of all organization instances where the Omnichannel app has been configured in the **Manage Instances** view.
-
-   3. Select the organization in the **Organization Selector** drop-down list. 
-
-        > [!div class=mx-imgBorder]
-        > ![select org](../media/select-org.png)
-
-        > [!IMPORTANT]
-        > You must select the check box for **Privacy terms**, and proceed with the set up.
-      
-      Select the continue arrow ![Continue terms](../media/continue-arrow.png) to proceed.
-
-     4. On the **Enable Chat with Omnichannel** page, select the check box to enable the Chat channel for your organization. To proceed with the setup, select the Continue arrow.
-
-          > [!div class=mx-imgBorder]
-          > ![Enable chat](../media/enable-chat.png)
-
-    5. On the **Enable SMS with Omnichannel** page, select the **Select to enable SMS in your organization** check box to enable the SMS channel, and to proceed with the setup, select the continue arrow.
-
-        > [!div class=mx-imgBorder]
-        > ![Enable SMS with Omnichannel](../media/enable-sms-with-omnichannel.png "Image hover textEnable SMS with Omnichannel")
-
-
-        > [!NOTE]
-        > If you haven't signed up for preview through the Insider Portal, the option to enable the SMS channel will be disabled here. For information on signing up for preview of features in Omnichannel for Customer Service, see [Preview features in Omnichannel for Customer Service](../preview-features.md). You can skip this step, and enable SMS at a later time. For steps on enabling SMS at a later time, see [Enable SMS channel](#enable-sms-channel).
-
-
-        > [!IMPORTANT]
-        > You must select the check boxes for **SMS Preview terms** and **Microsoft Dynamics Insider Program Agreement** to enable SMS and proceed with the setup.
-    
-    6. On the **Summary** page, select the check mark icon to provision Omnichannel in your organization.
-
-         The setup can take few mins. You may close the window and check after some time, or refresh to check if it's complete. Once the setup is complete, the selected channels are enabled in your environment.
-
-        ![Summary tab on Manage Omnichannel instances page](../media/manage-omnichannel-summary.png "Summary tab on Manage Omnichannel instances page")
-    
-        The organization and the enabled channels are also available in the **Manage Instances** view.
-
-        > [!div class=mx-imgBorder]
-        > ![Set up complete](../media/install-complete.png)
-
-### Enable SMS channel
-
-You can enable SMS channel in your organization after signing up for preview through the Insider Portal. For information on signing up for preview of features in Omnichannel for Customer Service, see [Preview features in Omnichannel for Customer Service](../preview-features.md). You can enable an SMS channel can only if you have an active subscription of Chat for Dynamics 365.
-
-To enable SMS in an organization where Chat isn't enabled, see the steps in the earlier section [Set up Omnichannel for Customer Service](#set-up-omnichannel-for-customer-service).
-
-To enable SMS in an organization where Chat is enabled, 
-
-1. In the **Dynamics 365 Administration Center**, navigate to the **Applications** tab, select **Omnichannel for Customer Service**, and then select **Manage**.
- 
-    The **Manage Omnichannel Instances** page will be displayed.
-
-2. On the **Manage Omnichannel Instances** page, select the instance where you want to enable SMS. 
-
-3. Select the **SMS** tab.
-
-4. Select the check box to enable SMS channel and click on Save.
-
     > [!div class=mx-imgBorder]
-    > ![SMS tab on Manage instances page](../media/manage-instance-enable-sms.png "SMS tab on Manage instances page") 
+    > ![Manage omnichannel](../media/manage-oc.png)
 
+    The **Manage Omnichannel Instances** page is displayed.
+
+    > [!NOTE]
+    > The Omnichannel for Customer Service option will appear only if you have an active subscription of Chat for Dynamics 365 Customer Service or Dynamics 365 Digital Messaging. For more information on pricing, click [here](https://dynamics.microsoft.com/customer-service/overview/#pricing). You can also get a free 30-day trial if you have the required prerequisites, see [Try channels for Dynamics 365 Customer Service](../try-channels.md) for more information.
+
+2. On the **Manage Omnichannel Instances** page, select **Add Org** to add an organization. Omnichannel is set up on the organization instance that you add here.
+   
+    > [!div class=mx-imgBorder]
+    > ![manage instances](../media/manage-instances.png)
 
     > [!IMPORTANT]
-    > You must select the check boxes for **SMS Preview Terms** and **Microsoft Dynamics Insider Program Agreement** to enable SMS.
+    > As an admin, you can configure Omnichannel on multiple environment (instances). You can view the status of all organization instances where the Omnichannel app has been configured in the **Manage Instances** view.
 
-    Post upgrade, go to **Manage Omnichannel instances** page and enable SMS channel by selecting the checkbox in **SMS** tab.
-
-    > [!div class=mx-imgBorder]
-    > ![enable SMS](../media/enable-sms.png)
-
-> [!IMPORTANT]
-> You must select the checkbox for **SMS Preview Terms** to enable the channel. Either Chat or SMS channel must be selected to continue with the setup.
-
-The setup can take a few mins to complete. Once the setup is complete, the SMS channels is enabled in your organization.
-
-
-## Locate your Org ID
-
-Follow these steps to locate your Org ID in your Dynamics 365 instance.
-
-1. In Dynamics 365, go to **Settings** > **Customizations**.
-    > [!NOTE]
-    > Ensure that you have System Administrator or System Customizer security role or equivalent permissions.
-
-2. Select **Developer Resources**.
-
-    You can find your Org ID in the **Instant Reference Information** section.
+3. Select the organization in the **Organization Selector** drop-down list. 
 
     > [!div class=mx-imgBorder]
-    > ![Locate og id](../media/locate-org-id.png)
+    > ![select org](../media/select-org.png)
+
+    > [!IMPORTANT]
+    > You must select the check box for **Privacy terms**, and proceed with the set up.
+      
+    Select the continue arrow ![Continue terms](../media/continue-arrow.png) to proceed.
+
+4. On the **Enable chat with Omnichannel** page, select the check box to enable the Chat channel for your organization. To proceed with the setup, select the continue arrow.
+
+    > [!div class=mx-imgBorder]
+    > ![Enable chat](../media/enable-chat.png)
+
+5. On the **Enable SMS with Omnichannel** page, select the **Select to enable SMS in your organization** check box to enable the SMS channel, and to proceed with the setup, select the continue arrow.
+
+    > [!div class=mx-imgBorder]
+    > ![Enable SMS with Omnichannel](../media/enable-sms-with-omnichannel.png "Enable SMS with Omnichannel")
+
+    > [!IMPORTANT]
+    > You must select the check box for **SMS Terms** to enable SMS and proceed with the setup.
+
+6. On the **Enable Facebook Messenger with Omnichannel** page, select the **Select to enable Facebook Messenger in your organization** check box to enable the Facebook Messenger channel, and to proceed with the setup, select the continue arrow.
+
+    > [!div class=mx-imgBorder]
+    > ![Enable Facebook Messenger with Omnichannel](../media/enable-facebook.png "Enable Facebook Messenger with Omnichannel")
+
+7. On the **Summary** page, select the check mark icon to provision Omnichannel for Customer Service in your organization.
+
+    The setup can take few mins. You may close the window and check after some time, or refresh to check if it's complete. Once the setup is complete, the selected channels are enabled in your environment.
+
+    > [!div class=mx-imgBorder]
+    > ![Summary tab on Manage Omnichannel instances page](../media/manage-omnichannel-summary.png "Summary tab on Manage Omnichannel instances page")
+    
+    The organization and the enabled channels are also available in the **Manage Instances** view.
+
+    > [!div class=mx-imgBorder]
+    > ![Set up complete](../media/install-complete.png)
+
+
+## Update Omnichannel for Customer Service application
+
+After Omnichannel for Customer Service application is successfully provisioned, you can update the instance by enabling or disabling the required channels.
+
+1.	In **Dynamics 365 Administration Center**, go to the **Applications** tab, select **Omnichannel for Customer Service**, and then select **Manage**.
+ 
+    > [!div class=mx-imgBorder]
+    > ![Select Manage for Omnichannel for Customer Service](../media/update-oc.png "Select Manage for Omnichannel for Customer Service")
+
+    The **Manage Omnichannel instances** page is displayed.
+
+2.	On the **Manage Omnichannel instances** page, choose the instance you want to update. The summary of configured channels is displayed.
+
+    > [!div class=mx-imgBorder]
+    > ![Select the Omnichannel for Customer Service instance](../media/select-oc-instance.png "Select the Omnichannel for Customer Service instance")
+
+3. Select the channel to be enabled. For example, in this procedure, we will enable the Facebook Messenger channel.
+
+4. On the **Facebook** tab, select **Select to enable Facebook Messenger in your organization**.
+
+    > [!div class=mx-imgBorder]
+    > ![Enable Facebook Messenger channel](../media/enable-fb-channel.png "Enable Facebook Messenger channel")
+
+5. If required, you can also disable the previously enabled channel. For example, in this procedure, we will disable the SMS channel. 
+
+6. On the **SMS** tab, clear the **Select to enable SMS in your organization** and **SMS Terms** check boxes to disable the SMS channel. When you clear the **Select to enable SMS in your organization** check box, a confirmation message is displayed to remove the channel. Select **Remove**.
+
+    > [!div class=mx-imgBorder]
+    > ![Disable SMS channel](../media/disable-sms-channel.png "Disable SMS channel")
+
+7. Select **Save** on the toolbar at the top of the page to start updating the instance.
+
+8. Once the update is complete, the status is displayed on the **Summary** tab.
+
+    > [!div class=mx-imgBorder]
+    > ![Update status](../media/update-oc-complete.png "Update status")
+
+> [!NOTE]
+> If you disable all channels, Omnichannel for Customer Service will be removed from your organization.
+
 
 ### See also
 
-[Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)
-
-[Understand and create work streams](work-streams-introduction.md)
-
+[Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)<br>
+[Understand and create work streams](work-streams-introduction.md)<br>
 [Manage users](users-user-profiles.md)

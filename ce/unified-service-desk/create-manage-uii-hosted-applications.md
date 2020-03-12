@@ -3,19 +3,10 @@ title: "Create and manage UII hosted applications | MicrosoftDocs"
 description: "Learn about using the User Interface Integration (UII) hosted application to host your external application or a web application in Unified Service Desk. To host an external or web application in Unified Service Desk, you configure a hosted control of type CCA Hosted Application, and then select Web Hosted Application or External Hosted Application from the Hosted Application list."
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
-ms.reviewer: 
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.date: 12/31/2019
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: ba20bfa3-6a1d-4e87-9faa-40317c839be4
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -33,30 +24,23 @@ A [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-inte
   
 ## Create a hosted application  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Unified Service Desk Administrator.  
   
-2. On the navigation bar, click or tap **Microsoft Dynamics 365 for Customer Engagement apps**, and then select **Settings**.  
+2. Select **Hosted Controls** under **Basic Settings**.  
   
-3. Choose **Settings** > **Unified Service Desk** > **Hosted Controls**.  
-  
-4. Choose **New**.  
+4. Select **+ New**.
   
 5. On the **New Hosted Control** page, under the **General** area, specify a name, sort order and display name for the hosted application. Each hosted application should have a unique name. Sort order specifies the order in which the hosted applications are retrieved and displayed in **Unified Service Desk**. Select the owner in the **Owner** box.  
   
-6. Under the **Unified Service Desk** area, select **CCA Hosted Application** from the **USD Component Type** list. The fields in the New Hosted Control page change based on the type of hosted control you choose. For more information on the various hosted control types, see [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)  
+6. Under the **Unified Service Desk** area, select **CCA Hosted Application** from the **Unified Service Desk Component Type** list. The fields in the New Hosted Control page change based on the type of hosted control you choose. For more information on the various hosted control types, see [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)  
   
-7. Under the **Hosted App Type** area, select the type of the hosted application. The fields in the **Hosting** area change based on the type of hosted application type selected.  
-  
-   ![Hosted application types](../unified-service-desk/media/usd-hostedapptypes.PNG "Hosted application types")  
+7. Under the **Hosted App Type** area, select the type of the hosted application. The fields in the **Hosting** area change based on the type of hosted application type selected.
   
    1.  For a hosted control, select **Hosted Control** type. Under **Hosting** area, specify the assembly URI and Type.  
   
-   **URI** is the name of your assembly and the **Type** is the name of your assembly (dll) followed by a dot (.) and then the class name in your Visual Studio project.  
+   **URI** is the name of your assembly and the **Type** is the name of your assembly (dll) followed by a dot (.) and then the class name in your Visual Studio project.
   
-   ![Hosted control type assembly information](../unified-service-desk/media/usd-hostedcontroltype.PNG "Hosted control type assembly information")  
-  
-   2.  For hosting a web application, select **Web Hosted Application** type. Under **Hosting** area,  
-  
+   2.  For hosting a web application, select **Web Hosted Application** type. Select the **Hosting** tab.  
        1. **Application Hosting** is used to specify the mode of hosting the application. There are three modes of hosting an application, namely,  
   
            1. **Host Outside** – allows the application to be started outside of **Unified Service Desk**  
@@ -77,7 +61,7 @@ A [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-inte
   
    ![Web hosted application type](../unified-service-desk/media/usd-webhostedapp.PNG "Web hosted application type")  
   
-        For more information about how to build and host a web application in **Unified Service Desk**, see steps 1 to 3 of [Walkthrough: Create a UII Web Application Adapter](../unified-service-desk/walkthrough-create-uii-web-application-adapter.md)  
+      For more information about how to build and host a web application in **Unified Service Desk**, see steps 1 to 3 of [Walkthrough: Create a UII Web Application Adapter](../unified-service-desk/walkthrough-create-uii-web-application-adapter.md)  
   
    3.  For hosting an external application, select **External Hosted Application** type. Under **Hosting** area,  
   
@@ -103,7 +87,7 @@ A [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-inte
   
    ![External hosted appllication](../unified-service-desk/media/usd-exthostedapp.PNG "External hosted appllication")  
   
-        For more information about how to build and host an external application in **Unified Service Desk**, see steps 1 to 3 of [Walkthrough: Create a UII Application Adapter](../unified-service-desk/walkthrough-create-uii-application-adapter.md)  
+      For more information about how to build and host an external application in **Unified Service Desk**, see steps 1 to 3 of [Walkthrough: Create a UII Application Adapter](../unified-service-desk/walkthrough-create-uii-application-adapter.md)  
   
    4. For hosting a Citrix application, select **Remote Hosted Application** type. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Integrate with Citrix applications](../unified-service-desk/integrate-citrix-applications.md)  
   
@@ -143,7 +127,7 @@ A [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-inte
   
 12. In the **Extensions** section, specify additional configuration information for your hosted control. For an example of the Extentions XML configuration, see the definition of the Kpi hosted control. Kpi hosted control is one of the sample applications that is shipped with **Unified Service Desk**.  
   
-13. Click **Save** to create the hosted application.  
+13. Select **Save** to create the hosted application.  
   
 ### See also  
  [Integrate with external applications and web applications](../unified-service-desk/integrate-external-applications-web-applications.md)   

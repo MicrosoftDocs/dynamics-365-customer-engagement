@@ -1,17 +1,15 @@
 ---
-title: Overview of Service Scheduling (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Know the basics of service and service scheduling in Dynamics 365 for Customer Service
-keywords: Service scheduling; Dynamics 365 for Customer Engagement; Customer Service; Universal Resource Scheduling (URS)
-author: anjgupta
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-ms.author: anjgup
+title: Overview of Service Scheduling (Dynamics 365 Customer Service) | MicrosoftDocs
+description: Know the basics of service and service scheduling in Dynamics 365 Customer Service
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ms.date: 06/17/2019
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: dyn365-customerservice
-ms.assetid: 7904d0f0-6295-4fec-a843-f1ee5267536b
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -29,7 +27,7 @@ Avoid disruptions in service by making sure that your resources are scheduled op
 
 Scheduling, now built atop **Universal Resource Scheduling (URS)**, provides an efficient way to schedule resources for service activity. It considers the availability of employees, facilities, and equipment to plan schedules accordingly. It also helps customer service organizations with improved service quality by preventing over-scheduling.
 
-With the Customer Engagement apps version 9.1 release, the new scheduling experience can be enabled from the Customer Service Hub sitemap.
+With the latest release of Dynamics 365 Customer Service app, the new scheduling experience can be enabled from the Customer Service Hub sitemap.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up the new scheduling experience](#set-up-the-new-service-scheduling-experience)
 
@@ -153,9 +151,9 @@ Let's see how Contoso accomplishes the task:
 
 The set up experience is different based on the following scenarios:
 
-- For a new Dynamics 365 for Customer Engagement organization, by default, the **Core Service Scheduling** solutions will be installed in your organization. You can access scheduling from Customer service hub app site map. To learn more, see [Access scheduling in the Customer Service Hub](#access-scheduling-in-the-customer-service-hub).
+- For a new Dynamics 365 Customer Service environment, by default, the **Core Service Scheduling** solutions will be installed. You can access scheduling from Customer service hub app site map. To learn more, see [Access scheduling in the Customer Service Hub](#access-scheduling-in-the-customer-service-hub).
 
-- For existing Dynamics 365 for Customer Engagement organization, you must install the service scheduling solutions from the Microsoft 365 admin center. To learn more, see [Install the Scheduling solutions](#install-the-scheduling-solutions).
+- For an existing Dynamics 365 Customer Service organization, you must install the service scheduling solutions from the Microsoft 365 admin center. To learn more, see [Install the Scheduling solutions](#install-the-scheduling-solutions).
 
 > [!IMPORTANT]
 > Once you have the new service scheduling available in your org, the legacy scheduling experience in Customer Service app (based on web application) and the new scheduling experience (built atop URS) in Customer Service Hub co-exist. However, the following limitations apply: </br> - Bookings data and configurations in these experiences do not sync with each other. For example, a service created in legacy experience can be scheduled in legacy scheduling experience only while a service created in the new experience can be scheduled in URS based scheduling experience only.  </br> - You can edit bookings data and configurations in the experience it is originally created in. </br> </br> Bookings created in the legacy experience don’t reflect in the new experience and vice versa is also true.
@@ -205,7 +203,7 @@ The set up experience is different based on the following scenarios:
 After successful installation, you can access scheduling in the Customer Service Hub sitemap.
 
 ## Access scheduling in the Customer Service Hub
-With the Customer Engagement apps version 9.1 release, Scheduling is powered by Universal Resource Scheduling (URS), and is available from the Customer Service Hub sitemap.
+With the latest release of Dynamics 365 Customer Service app, Scheduling is powered by Universal Resource Scheduling (URS), and is available from the Customer Service Hub sitemap.
 
 - Select ![change area](media/change-area-icon.png) to go to **Scheduling** and access the entity record types.
 
@@ -223,9 +221,6 @@ Make sure that you have the correct security role or equivalent permissions. Kno
 
 > [!NOTE]
 > If you have been using the legacy scheduling, you would still need to configure entity records in the new experience. </br> All entity records can be configured from the user interface except Service Activity.
-
-### Migrate Service Activity
-To know how to migrate your service activity entity records from legacy to new experience by running SDK code samples, see [Migrate Service Activity entity](migrate-service-activity-entity.md).
 
 ## Understand scheduling entities
 
@@ -266,7 +261,7 @@ Scheduling entities are grouped under the following logical groups:
 **Tools**
 
 - **Schedule Board** </br>
-   The Dynamics 365 for Customer Engagement schedule board provides an overview of resource availability and bookings you can make. 
+   The Dynamics 365 Customer Service schedule board provides an overview of resource availability and bookings you can make. 
 
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the schedule board to configure service activity](use-schedule-board-configure-service-activity.md)
 

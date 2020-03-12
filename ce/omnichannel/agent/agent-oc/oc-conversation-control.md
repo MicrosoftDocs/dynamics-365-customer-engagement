@@ -1,16 +1,13 @@
 ---
 title: "Omnichannel communication panel (Conversation control) | MicrosoftDocs"
 description: "Conversation control is a communication panel in Omnichannel where you interact with the customer."
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
-ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.date: 12/27/2019
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 6172303E-4BB8-4E54-BC23-71AC2514A248
-ms.custom: 
 ---
 
 # View communication panel
@@ -118,6 +115,8 @@ Use the keyboard command to see the list of agents and/or the supervisor who is 
 Use the keyboard command to see the list of queues to transfer the conversation request. Press the forward slash (/) key and the letters T and Q (**/tq**).
 
 **/t** (forward slash, letter t) launches the **Agent** and **Queue** tabs. Select either tab and then select the agent or the queue from the list to transfer the conversation. The **/t** command keeps the focus on the Agent tab whereas the **/tq** command keeps the focus on the Queue tab.
+
+When skill-based routing is enabled, then during transfer, the **Transfer** flyout shows users sorted in order of matching skills.
 
 ![Transfer agent list](../../media/oceh-cc-transfer-agent-list.png "transfer agent list") ![Transfer queue list](../../media/oceh-cc-transfer-queue-list.png "Transfer queue list")
 

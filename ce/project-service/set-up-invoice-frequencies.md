@@ -1,5 +1,5 @@
 ---
-title: Set up invoice frequencies (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: Set up invoice frequencies
 description: How to set up invoice frequencies in Project Service
 author: rumant
 manager: kfend

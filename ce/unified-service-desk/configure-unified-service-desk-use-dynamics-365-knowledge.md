@@ -1,26 +1,15 @@
 ---
-title: "Configure Unified Service Desk to use Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
-description: "Learn about the knowledge management solution in Microsoft Dynamics 365 for Customer Engagement apps that guides you through the process of creating and publishing rich knowledge articles with multimedia data like pictures and videos."
-keywords: 
-ms.date: 08/17/2018
-ms.service: 
-  - dynamics-365-customerservice
+title: "Configure Unified Service Desk to use model-driven apps | MicrosoftDocs"
+description: "Learn how to configure Unified Service Desk to use model-driven apps."
 ms.custom: 
   - dyn365-USD
+ms.date: 12/31/2019
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: c2e0f4b1-c09a-413c-b703-03ff851ffb9d
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 search.audienceType: 
   - customizer
   - developer
@@ -29,11 +18,11 @@ search.app:
   - D365USD
 ---
 
-# Configure Unified Service Desk to use Dynamics 365 for Customer Engagement apps
-The **KM Control** and **Unified Interface KM Control** type of hosted controls expose a bunch of events and action calls to configure an integrated experience for your agents to easily search for knowledge base articles in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps from within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], and then perform various actions on the search result items.  
+# Configure Unified Service Desk to use model-driven apps
+The **KM Control** and **Unified Interface KM Control** types of hosted controls expose a bunch of events and action calls to configure an integrated experience for your agents to easily search for knowledge base articles in the Common Data Service platform from within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], and then perform various actions on the search result items.  
   
 ::: moniker range="dynamics-usd-3"
- Create an instance of the **KM Control** type of hosted control to begin with your configuration. After you have created an instance of the hosted control, you can configure things mentioned later in this topic.  
+ Create an instance of the **KM Control** type of hosted control to begin with your configuration. After you have created an instance of the hosted control, you can configure things mentioned later in this topic.
 ::: moniker-end
 
 ::: moniker range=">=dynamics-usd-4"
@@ -42,7 +31,7 @@ The **KM Control** and **Unified Interface KM Control** type of hosted controls 
   
 <a name="Search"></a>   
 ## Configure knowledge base search options  
- Use the `Search` action on the hosted control to define how you want the search results to be performed and displayed. For example, you can specify the number of results to be returned, the knowledge base article type to be displayed in the search result, or the sorting option for the search results. You can also use the replacement parameters to specify the query string for the search. For example, here is the data parameter for the `Search` action to configure an action call to automatically search knowledge bases based on the case (incident) title, display five results, and return only published knowledge bases from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps or [!INCLUDE[pn_parature](../includes/pn-parature.md)] when your agent performs a search in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]:  
+ Use the `Search` action on the hosted control to define how you want the search results to be performed and displayed. For example, you can specify the number of results to be returned, the knowledge base article type to be displayed in the search result, or the sorting option for the search results. You can also use the replacement parameters to specify the query string for the search. For example, here is the data parameter for the `Search` action to configure an action call to automatically search knowledge bases based on the case (incident) title, display five results, and return only published knowledge bases from the Common Data Service platform when your agent performs a search in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]:
   
 ```  
 query=[[incident.title]+]  
@@ -77,7 +66,7 @@ articlepublicurl=[[KB Search.publicUrl]]
 ```  
   
 > [!NOTE]
->  If you are using the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps knowledge base, the `articleprivateurl` parameter isn’t applicable, and therefore the respective replacement parameter (in this case, `[[KB Search.serviceDeskUri]]` will always be null. So, you should use `articleprivateurl=[[KB Search.serviceDeskUri]+]` instead of `articleprivateurl=[[KB Search.serviceDeskUri]]` to ensure that a null or non-existent key is replaced with a blank string, or use conditions if you plan to use both [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps and Parature knowledge. Also, the replacement parameter for `articlepubliceurl` (in this case `[[KB Search.publicUrl]]`) will contain data only if the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps knowledge article is already published to an external portal (**Use an external portal** option is selected in the **Knowledge Base management Settings** dialog box in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps).  
+>  If you are using the knowledge base, the `articleprivateurl` parameter isn’t applicable, and therefore the respective replacement parameter (in this case, `[[KB Search.serviceDeskUri]]`) will always be null. So, you should use `articleprivateurl=[[KB Search.serviceDeskUri]+]` instead of `articleprivateurl=[[KB Search.serviceDeskUri]]` to ensure that a null or non-existent key is replaced with a blank string, or use conditions if you plan to use the Common Data Service platform . Also, the replacement parameter for `articlepublicurl` (in this case `[[KB Search.publicUrl]]`) will contain data only if the knowledge article is already published to an external portal (**Use an external portal** option is selected in the **Knowledge Base management Settings** dialog box in the Common Data Service platform).  
   
  The following syntax shows the data parameter you can use with the `Disassociate` action on the `KM Control` (say `KB Search`) to disassociate an article from an incident record.  
   
@@ -97,39 +86,47 @@ entitytypename=incident
  ![Action call for configuring the pop&#45;out feature](../unified-service-desk/media/usd-action-call-pop-out.png "Action call for configuring the pop-out feature")  
   
 > [!NOTE]
->  In these examples, the name of the hosted control that displays the article is `KB Article`. You must use the appropriate hosted control name as per your configuration.  
-  
- To configure the pop-in feature, again use the `MoveToPanel` action, but set the data parameter to `MainPanel`. This moves the hosted control that displays the article from `FloatingPanel` to `MainPanel`.  
-  
- ![Action call for the pop&#45;in feature](../unified-service-desk/media/usd-action-call-pop-in.png "Action call for the pop-in feature")  
-  
- You can call this action from a toolbar button on the hosted control. However, you must configure the pop-in toolbar button to be visible only when the hosted control is in `FloatingPanel`. You can do so by specifying the following condition in the **Visible Condition** field of the pop-in toolbar button definition.  
-  
-```  
-"[[$Panel.KB Article]+]"=="FloatingPanel"  
-```  
-  
-<a name="Events"></a>   
-## Use the events to configure various tasks  
- Use the following three events specific to the knowledge hosted control to configure various tasks related to the knowledge base articles.  
-  
-- Use the `SearchComplete` event to add action calls that you want to be executed when the search for knowledge base articles is complete and the results get loaded in the KM Control hosted control (KB search pane).  
-  
-- Use the `ResultOpen` event to add action calls that you want to be executed when the title of a knowledge base article is clicked in the search results in the KM Control hosted control (KB search pane) to open the article.  
-  
-- Use the `SelectionChange` event to add action calls that you want to be executed when a knowledge base article is selected in the search results in the KM Control hosted control (KB search pane).  
-  
+>  In these examples, the name of the hosted control that displays the article is `KB Article`. You must use the appropriate hosted control name as per your configuration.
+
+ To configure the pop-in feature, again use the `MoveToPanel` action, but set the data parameter to `MainPanel`. This moves the hosted control that displays the article from `FloatingPanel` to `MainPanel`.
+
+ ![Action call for the pop&#45;in feature](../unified-service-desk/media/usd-action-call-pop-in.png "Action call for the pop-in feature")
+
+ You can call this action from a toolbar button on the hosted control. However, you must configure the pop-in toolbar button to be visible only when the hosted control is in `FloatingPanel`. You can do so by specifying the following condition in the **Visible Condition** field of the pop-in toolbar button definition.
+
+```
+"[[$Panel.KB Article]+]"=="FloatingPanel"
+```
+
+<a name="Events"></a>
+## Use the events to configure various tasks
+ Use the following three events specific to the knowledge hosted control to configure various tasks related to the knowledge base articles.
+
+- Use the `SearchComplete` event to add action calls that you want to be executed when the search for knowledge base articles is complete and the results get loaded in the KM Control hosted control (KB search pane).
+
+- Use the `ResultOpen` event to add action calls that you want to be executed when the title of a knowledge base article is clicked in the search results in the KM Control hosted control (KB search pane) to open the article.
+
+- Use the `SelectionChange` event to add action calls that you want to be executed when a knowledge base article is selected in the search results in the KM Control hosted control (KB search pane).
+
   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Predefined events for KM Control](../unified-service-desk/km-control-hosted-control.md#events)  and [Predefined events for Unified Interface KM Control (Hosted Control)](../unified-service-desk/unified-interface-km-control-hosted-control.md#events)
   
 <a name="Other"></a>   
-## Configure other tasks for knowledge base articles  
- You can configure other tasks for the knowledge base articles such as copy the link of an article or send an email with pre-populated values as the case title in the email subject and knowledge base article link in the email body. These tasks are available when you deploy the **Knowledge Management** sample application, and you can view the configuration for these tasks in your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps instance under **Settings** > **Unified Service Desk** ([How do I get there?](http://go.microsoft.com/fwlink/p/?LinkId=525636)).  
+## Configure other tasks for knowledge base articles
+
+ You can configure other tasks for the knowledge base articles such as copy the link of an article or send an email with pre-populated values as the case title in the email subject and knowledge base article link in the email body. These tasks are available when you deploy the **Knowledge Management** sample application, and you can view the configuration for these tasks in your Common Data Service platform instance under **Settings** > **Unified Service Desk** ([How do I get there?](https://go.microsoft.com/fwlink/p/?LinkId=525636)).  
   
 ### See also  
- [Use Dynamics 365 for Customer Engagement apps knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md) 
+ [Use knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md) 
 
- [KM Control (Hosted Control)](../unified-service-desk/km-control-hosted-control.md)  
+<a name="Other"></a>
+## Configure other tasks for knowledge base articles
+ You can configure other tasks for the knowledge base articles such as copy the link of an article or send an email with pre-populated values as the case title in the email subject and knowledge base article link in the email body. These tasks are available when you deploy the **Knowledge Management** sample application, and you can view the configuration for these tasks in your environment in **Unified Service Desk Administrator**.
 
- [Unified Interface KM Control (Hosted Control)](../unified-service-desk/unified-interface-km-control-hosted-control.md) 
+### See also
+ [Use knowledge management for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md)
 
- [Walkthrough 8: Use Dynamics 365 for Customer Engagement apps knowledge within your agent application](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md)
+ [KM Control (Hosted Control)](../unified-service-desk/km-control-hosted-control.md)
+
+ [Unified Interface KM Control (Hosted Control)](../unified-service-desk/unified-interface-km-control-hosted-control.md)
+
+ [Walkthrough 8: Use knowledge within your agent application](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md)

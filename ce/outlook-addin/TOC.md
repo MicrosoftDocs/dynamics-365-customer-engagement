@@ -29,10 +29,10 @@
 ### [Set up](user-guide/set-up.md)
 ### [Configure another organization](user-guide/configure-another-organization.md)
 ### [Set up and configure Dynamics 365 for Outlook from Office 365](user-guide/set-up-configure-dynamics-365-outlook-office-365.md)
-### [The Outlook email address should be the same as the Dynamics 365 for Customer Engagement apps email address](user-guide/outlook-email-address-should-same.md)
+### [The Outlook email address should be the same as the Dynamics 365 apps email address](user-guide/outlook-email-address-should-same.md)
 
 ## Get started
-### [Do your Dynamics 365 for Customer Engagement apps work in Outlook](user-guide/dynamics-365-work-outlook.md)
+### [Do your Dynamics 365 apps work in Outlook](user-guide/dynamics-365-work-outlook.md)
 ### [Overview of tracking records](user-guide/overview-tracking-records.md)
 ### [Customize the Reading Pane](user-guide/customize-reading-pane.md)
 ### [Create a Microsoft Word mail-merge document](user-guide/create-word-mail-merge-document.md)

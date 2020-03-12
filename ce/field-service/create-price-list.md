@@ -1,21 +1,19 @@
 ---
-title: "Create a price list (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Using price lists in Dynamics 365 Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/30/2017
-ms.reviewer: 
+ms.date: 11/18/2019
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.technology: 
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: e8ecd5c3-002a-4482-b265-72e061d12132
 caps.latest.revision: 16
-ms.author: krbjoran
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin
@@ -25,108 +23,160 @@ search.app:
   - D365CE
   - D365FS
 ---
-# Create a price list (Field Service)
+# Using price lists in Dynamics 365 Field Service
 
-Price lists in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] define pricing levels. When you use a price list, you can specify how much a customer is charged for your product and services. The price list is noted on the account, work order, agreement, or the individual product or service. 
+Dynamics 365 Field Service uses and extends Dynamics 365 price lists and product catalog. This means products and services are added to work orders with appropriate pricing.  
+
+For work order products that represent parts used during on-site service, use price lists and price list items, just like you would for Dynamics 365 Sales.
+
+For work order services that represent labor performed during on-site service, you can use price lists with price list items to define an hourly rate. You can also use price lists with **Field Service Price List Items** for additional pricing options.
+
+In this article, we'll explore creating products, services, and price lists to use on work orders.
+
+## Prerequisites 
+
+- Any version of Dynamics 365 Field Service
+- Basic knowledge of Dynamics 365 [product catalogs](https://docs.microsoft.com/dynamics365/sales-enterprise/set-up-product-catalog-walkthrough) and [price lists](https://docs.microsoft.com/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products). 
+
+## Create products and services
+
+First, we'll need to create the Field Service products and services. We can do this by associating a **Field Service Product Type** on the product entity.
+
+For more detailed instructions, see the article on [creating Field Service products and services](./create-product-or-service.md); 
+
+Go to **Field Service app** > **Settings** > **Products** > **+New** and use the tooltips to add basic details about the product or service.
+
+Since we are using **Field Service Price List** items to extend price lists, we'll start by creating a service.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a product](./media/price-list-service-create.png)
+
+In the **Field Service** section, enter a **Field Service Product Type** of **Service**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the Field Service section of a product](./media/work-order-product-create-service.png)
+
+- **Inventory**: This option is used for high value products or inventoried products that have tracked quantities.  
   
-<a name="BKMK_CreateNewPriceList"></a>   
-## Create a new price list  
+- **Non-inventory**: This option is used for low-value items that are typically not inventoried. Examples include consumables like stickers or zip ties.  
   
-1.  From the top menu, click **Field Service** > **Administration**, and then choose **Price Lists**.  
+- **Service**: The service option is used to create service products, which represent the labor that you sell to your customers. The quantity of service products is measured with a time duration. Only service products can be associated with a work order as a service. 
+
+The following screenshots show examples of inventory and non-inventory products.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a Field Service inventory product](./media/work-order-product-create-field-service.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a Field Service non-inventory product](./media/work-order-product-create-non-inventory.png)
+
+> [!Note]
+> It's important to add a **List Price** to the product. This comes in handy when a product is used on a work order but does not belong to the work order's price list.
+
+After saving, enter a **Default Price List** in the product details section, then **Save** again.
+
+
+## Create price list  
   
-2.  On the **Active Price Lists** screen, click **+New** in the upper left corner.  
+Go to **Field Service** > **Settings** > **Price Lists** > **+New**.  
   
-3.  Use the tooltips to help fill in your information, and then click **Save**.  
-  
-<a name="BKMK_AddFieldSvcPriceListItems"></a>   
-## Add [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] price list items  
- [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] price list items let you associate service (or labor) type productsfrom the product catalogwith a price list, with properties that are relevant to labor products.  
-  
-1.  From the top menu, click the drop-down arrow next to the price list name that you created, and then click **Field Service Price List Item**.  
-  
-2.  Click **Add New Field Service Price List Item**.  
-  
-3.  Use the tooltips to help fill in your information:  
-  
-    -   Name the price list  
-  
-    -   Select the Product/Service this applies to from the drop-down list.  
-  
-         If this price list item is a service you can:  
-  
-        -   Select **Duration Round To**  
-  
-        -   Select **Duration Rounding Policy**  
-  
-        -   Choose **Yes** or **No** for **Flat Fee**  
-  
-        -   Choose **Minimum Charge Amount**  
-  
-        -   Choose **Minimum Charge Duration**  
-  
-4.  Click **Save & Close**.  
-  
-<a name="BKMK_AddPriceListItems"></a>   
+Use the tooltips to help fill in your information, and then select **Save**.  
+
+For more information, see the article on [creating a price list (Project Service Automation)](../project-service/create-price-list.md). 
+
+
 ## Add price list items  
- Create a price list item for each unit in which the product is available. For example, if the product is available as a single item (each), in a dozen, and in a gross, create three price list items. This lets you order the product in any quantity you want, using the same price list. You can add price list items from the product form also.  
+
+Next, add the products and services as price list items to the price lists of your choice.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a price list showing price list items](./media/work-order-products-price-list-items.png)
+
+Enter the following information:
+
+- **Pricing Amount**: enter **Currency Amount**.
+
+- **Amount**: enter the price of the product or service. Note this represents an hourly rate for services.
+
+To understand the other standard pricing options with Dynamics 365 price lists, see the article on [adding price list items](https://docs.microsoft.com/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products#add-items-to-the-price-list-sales)
+
+
+## Add Field Service price list items
+
+You can add additional pricing options for services by creating Field Service price list items. A service is defined as a product record where **Field Service Product Type** is **Service**.
+
+From the **Price List**, go to **Related** > **Field Service Price List Items**.
+
+Select **Add New Field Service Price List Item**.  
+
+Configure the following fields: 
   
-1. In the price list record, in the **Price List Items** section, click the **Add Price List Item record**.  
+### Flat Fee
+
+Makes a service a fixed price regardless of duration. The fixed price will be derived first from the price list item amount, and then the list price on the product record.
+
+### Minimum Charge Duration
+
+First X amount of time free. 
+
+### Minimum Charge Amount
+
+Sets minimum amount for a visit. Value will be added on to final price regardless of amount charged.
+
+### Duration Rounding Policy & Duration Rounding To
+
+Allows you to round service duration and choose the granularity. For example, if a service duration is 94 minutes, you can automatically round it to 90 minutes, 95 minutes, remain as 94 minutes, or other options.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a Field Service price list item](./media/price-list-field-service-price-list-item.png)
+
+
+> [!Note]
+> By leaving the **Product / Service** lookup blank, the previous options will apply to all services added to the work order with the chosen price list. This is helpful if, for example, you want to add a minimum charge amount to all services in the price list, you don't need to add all services as Field Service price list items, saving time.
+ 
+
+Finally, select **Save & Close**.  
+
+## Add price list to work orders
+
+When creating a work order, you must enter a price list. The price list can be entered manually, or can be automatically populated based on the price list of the billing account or work order type when chosen.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a work order, with attention to the price list field](./media/price-list-work-order.png)
+
+When a price list is added to a work order, it's automatically propagated to all work order products and services; however, the price list of an individual work order product or service can be manually overridden as needed or via entitlements.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a work order service in the duration and sale amount section](./media/price-list-service-used.png)
+
+In our example, the field technician set the work order service **Line Status** to **Used** from his or her mobile app, and the dispatcher can see the pricing in the **Duration & Sale Amount** section.
+
+With a **Duration to Bill** of 1 hour, the subtotal is $460, because of a $580 hourly rate as derived from the price list item **Amount**, and factoring 15 free minutes from the **Minimum Charge Duration** and a $25 surcharge from the **Minimum Charge Amount**.
+
+## Configuration considerations
+
+- Consider using [Entitlements](./work-order-entitlements.md) to dynamically adjust the price of work order products and services based on a number of factors (such as account, incident type, and customer asset).
+
+## Additional notes
+
+- You can add a Field Service price list item even if the product or service is not a price list item. In this case, the list price on the product record will be used for calculations.
+
+### Add territory relationships 
+
+Add default price lists for territories or customer segments. This makes it easier for your Field Service team to see the default price list for the area they are working in. You can have one price list as the default for multiple territories.  
   
-2. Use the tooltips to help fill in your information:  
+1. In the price list record, in the **Territory Relationships** section, select **+Add Connection record**.  
   
-   - In the **Product** and **Unit** field, select the product and unit for which you're creating this price list item.  
+2. In the **Connections** form, in **Name**, select the **Lookup** button, and then select a territory.  
   
-   - To offer a discount on the combination of the product and unit, select a **Discount List**.  
+3.  Select **Save & Close**.  
   
-   - In the **Quantity Selling Option** drop-down list, select whether the product or service can be ordered in whole, partial, or both types of quantities. This information is used in the Quantity field of **Quote Product**, **Order Product**, and **Invoice Product** records.  
-  
-     - **No Control**. [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] doesn't enforce a quantity selling option.  
-  
-     - **Whole**. Selling a partial product isn't allowed. For example, digital cameras cannot be sold in fractions.  
-  
-     - **Whole and Fractional**. The product can be sold in both whole and fractional units. For example, wood chips can be sold in cubic yards, or in fractions of a cubic yard.  
-  
-   - In the **Pricing Method** drop-down list, select an option that determines how the pricing will be calculated. It could be a certain amount, or a percentage of the current or standard cost.  
-  
-   - If you selected **Currency Amount** as the pricing method, in the Amount field, type the amount at which the product will be sold.  
-  
-   - -OR-  
-  
-      If you selected any value other than **Currency Amount**, you can set up a rounding policy. For example, if you want per-unit prices to be in the form of $0.99, you can select a rounding policy where all prices per unit automatically have a price that ends in 99 cents. To do this, select the rounding policy to round the price up, and then set the price to end in a certain amount, like 99 cents.  
-  
-     - **None**. Prices are not rounded.  
-  
-     - **Up**. Prices are roundedup to the nearest rounding amount.  
-  
-     - **Down**. Prices are roundeddown to the nearest rounding amount.  
-  
-     - **To Nearest**. Prices are rounded to the nearest rounding amount.  
-  
-   - In the **Rounding Options** drop-down list, select **Ends In** or **Multiple of** if you want the price to end in a certain amount or multiples of a certain amount.  
-  
-   - In the **Rounding Amount**field, enter the amount.  
-  
-3. Click **Save**.  
-  
-<a name="BKMK_AddTerritoryRelationships"></a>   
-## Add territory relationships  
- Add default price lists for territories or customer segments. This makes it easier for your [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] team to see the default price list for the area they are working in. You can have one price list as the default for multiple territories.  
-  
-1.  In the price list record, in the **Territory Relationships** section, click **+Add Connection record**.  
-  
-2.  In the **Connections** form, in **Name**, click the **Lookup** button, and then select a territory.  
-  
-3.  Click **Save & Close**.  
-  
-4.  In the price list form, click the **Auto Save** button.  
+4.  In the price list form, select the **Auto Save** button.  
   
 ### See also    
- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
- [Create a product or service](../field-service/create-product-or-service.md)   
- [Set up purchase order sub-statuses](../field-service/set-up-purchase-order-sub-statuses.md)   
- [Create a warehouse](../field-service/create-warehouse.md)   
- [Create ship via](../field-service/create-ship-via.md)   
- [Create an RMA sub-status](../field-service/create-rma-sub-status.md)   
- [Set up RTV sub-statuses](../field-service/set-up-rtv-sub-statuses.md)   
- [Process a return](../field-service/process-return.md)<br>
- [User's Guide](../field-service/user-guide.md)
+  
+ - [Create a product or service](../field-service/create-product-or-service.md)   
+ - [Getting started with Field Service](../field-service/user-guide.md)
+ - [Create work order templates with incident types](../field-service/configure-incident-types.md)
+ - [Entitlements](./work-order-entitlements.md)

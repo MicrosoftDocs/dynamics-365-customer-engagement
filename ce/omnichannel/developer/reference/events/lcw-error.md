@@ -1,16 +1,10 @@
 ---
-title: "lcw:error | MicrosoftDocs"
+title: "lcw error | MicrosoftDocs"
 description: 
-keywords: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
-applies_to: 
-ms.date: 07/09/2019
-ms.service: 
 ms.topic: article
-ms.assetid: 1C8C2D34-541C-468E-A73C-AB5EE40706C4
-ms.custom: 
 ---
 # lcw:error (Omnichannel for Customer Service JavaScript API reference)
 

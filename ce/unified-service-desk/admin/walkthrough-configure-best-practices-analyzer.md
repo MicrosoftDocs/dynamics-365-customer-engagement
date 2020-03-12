@@ -1,17 +1,10 @@
 ---
-title: "Walkthrough: Configure Best Practices Analyzer in Unified Service Desk (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Walkthrough  Configure Best Practices Analyzer in Unified Service Desk | MicrosoftDocs"
 description: Learn about downloading and installing the Best Practices Analyzer.
-ms.custom: 
 ms.date: 05/15/2018
-ms.service: usd
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: C1F329C3-2E00-40A5-8BA3-1B6BC16444EA
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -32,36 +25,40 @@ This walkthrough demonstrates how to configure and setup [!INCLUDE[pn-best-pract
 
 In this step, you will create a [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] and toolbar container hosted control.
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to the Common Data Service platform.
 
-2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
+2. Select the down arrow next to Dynamics 365.
 
-3. Click **Hosted Controls**.  
+3. Select **Unified Service Desk Administrator**.
 
-4. Click **New**.  
+4. Select **Hosted Controls** under **Basic Settings**.
 
-5. On the **New Hosted Control** page, specify the following values:  
+5. Select **New** in the **Active Hosted Controls** page.  
+
+6. Specify the following values on the **New Hosted Control** page:
 
 
-   |         Field          |                                         Value                                         |
-   |------------------------|---------------------------------------------------------------------------------------|
-   |          Name          | [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]  |
-   |      Display Name      | [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]  |
-   |   USD Component Type   |                                  USD Hosted Control                                   |
-   | Application is Global  |                                        Checked                                        |
-   |     Display Group      |                                       MainPanel                                       |
-   | Application is Dynamic |                                        Checked                                        |
-   |     User Can Close     |                                        Checked                                        |
-   |      Assembly URI      |               `Microsoft.Crm.UnifiedServiceDesk.BestPracticesAnalyser`                |
-   |     Assembly Type      | `Microsoft.Crm.UnifiedServiceDesk.BestPracticesAnalyser.BestPracticesAnalyserControl` |
+   | Tab |         Field          |                                         Value                                         |
+   |----------------------------|------------------------|---------------------------------------------------------------------------------------|
+   | General |          Name          | Best Practices Analyzer  |
+   | General |      Display Name      | Best Practices Analyzer  |
+   | General |   USD Component Type   |                                  USD Hosted Control                                   |
+   | General | Application is Global  |                                        Checked                                        |
+   | General |     Display Group      |                                       MainPanel                                       |
+   | General | Application is Dynamic |                                        Checked                                        |
+   | General |     User Can Close     |                                        Checked                                        |
+   | Hosting |      Assembly URI      |               `Microsoft.Crm.UnifiedServiceDesk.BestPracticesAnalyser`                |
+   | Hosting |     Assembly Type      | `Microsoft.Crm.UnifiedServiceDesk.BestPracticesAnalyser.BestPracticesAnalyserControl` |
 
-    ![Create Best Practices Analyzer hosted control](../media/usd-create-bpa-hosted-control.PNG "Create Best Practices Analyzer hosted control")
+    ![Create Best Practices Analyzer hosted control](../unified-interface/media/usd-create-bpa-hosted-control-1.PNG "Create Best Practices Analyzer hosted control")
 
-6. Click **Save**.
+    ![Create Best Practices Analyzer hosted control](../unified-interface/media/usd-create-bpa-hosted-control-2.PNG "Create Best Practices Analyzer hosted control")
 
-7. Click **New**.  
+7. Select **Save**.
 
-8. On the **New Hosted Control** page, specify the following values  
+8. Select **+ New**.  
+
+9. Specify the following values on the **New Hosted Control** page: 
 
    |Field|Value|  
    |-----------|-----------|
@@ -69,43 +66,47 @@ In this step, you will create a [!INCLUDE[pn-best-practices-analyzer](../../incl
    |USD Component Type|Toolbar Container|
    |Display Group|AboutPanel|
 
-    ![Create Toolbar Container hosted control](../media/usd-create-about-toolbar-container-hosted-control.PNG "Create Toolbar Container hosted control")
+    ![Create Toolbar Container hosted control](../unified-interface/media/usd-create-about-toolbar-container-hosted-control.PNG "Create Toolbar Container hosted control")
 
-9. Click **Save**.
+10. Select **Save**.
 
 <a name="Step2"></a>   
 ## Step 2: Add a toolbar and attach it to the toolbar container
 
  In this step, you’ll create a toolbar, and attach the toolbar to the toolbar container hosted control created in step 1.
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.
 
-2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
+2. Select the down arrow next to Dynamics 365.
 
-3. Click **Toolbars**.  
+3. Select **Unified Service Desk Administrator**.
 
-4. Click **New**.
+4. Select **Toolbars** under **Basic Settings**.
 
-5. On the **New Toolbar** page, type **About Toolbar** in the **Name** box, and then click **Save**.  
+5. Select **New** in the **Active Toolbars** page.  
 
-6. Attach the toolbar to the toolbar container hosted control created in step 1. On the nav bar, click the down arrow next to **About Toolbar**, and click **Hosted Controls**.  
+6. Type **About Toolbar** in the **Name** box, and then select **Save**. 
 
-7. On the next page, click **Add Existing Hosted Control**, type `About Toolbar Container` in the search bar, and then press **ENTER** or click the search icon.
+7. Attach the toolbar to the toolbar container hosted control created in step 1. Select the **Related** tab and select **Hosted Controls**. The **Hosted Controls** tab appears.
 
-8. From the search result, click **About Toolbar Container** to add.
+8. Select **Add Existing Hosted Control**. The **Lookup Records** pane appears.
 
-     ![Create toolbar and attach it to Toolbar Container hosted control](../media/usd-create-toolbar-attach-toolbar-container-hosted-control.PNG "Create toolbar and attach it to Toolbar Container hosted control")
+9. Type **About Toolbar Container** in the search box, and select the search icon. The record appears, choose the hosted control and select **Add**.
 
-9. Click **Save**.
+     ![Create toolbar and attach it to Toolbar Container hosted control](../unified-interface/media/usd-create-toolbar-attach-toolbar-container-hosted-control.PNG "Create toolbar and attach it to Toolbar Container hosted control")
+
+10. Select **Save**.
 
 <a name="Step3"></a>   
 ## Step 3: Add toolbar button
 
  In this step, you’ll create two buttons - **Settings** and **[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]**, and **[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]** button under **Settings** button.
 
-1. After you save the toolbar in step 2, the **Buttons** area becomes available. In the **Buttons** area, click **+** on the right corner to add a button.  
+1. After you save the toolbar in step 2, select the **Related** tab and select **Buttons**. The **Buttons** tab appears. 
 
-2. On the **New Toolbar Button** page, specify the following values:  
+2. Select **+ Add New Toolbar Button**. A new toolbar button page appears.
+
+3. Specify the following values on the **New Toolbar Button** page:  
 
     |Field|Value|  
     |-----------|-----------|  
@@ -114,85 +115,84 @@ In this step, you will create a [!INCLUDE[pn-best-practices-analyzer](../../incl
     |Tooltip|Settings|  
     |Order|100|
 
-     ![Create Settings toolbar button](../media/usd-create-settings-toolbar-button.PNG "Create Settings toolbar button")
+     ![Create Settings toolbar button](../unified-interface/media/usd-create-settings-toolbar-button.PNG "Create Settings toolbar button")
 
-3. Click **Save**.
+4. Select **Save**.
 
-4. After you save the **Settings** toolbar button, Click **New** to create another button called **[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]**.
+5. After you save the **Settings** toolbar button, select **+ New** to create another button called **Best Practices Analyzer**.
 
-5. On the **New Toolbar Button** page, specify the following values:  
+6. Specify the following values on the **New Toolbar Button** page: 
 
 
    |    Field    |                                        Value                                         |
    |-------------|--------------------------------------------------------------------------------------|
-   |    Name     | [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] |
+   |    Name     | Best Practices Analyzer |
    | Button Text |                         [[$Resources.BestPracticesAnalyzer]]                         |
-   |   Tooltip   | [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] |
+   |   Tooltip   | Best Practices Analyzer |
    |    Order    |                                          4                                           |
 
-    ![Create Best Practices Analyzer toolbar button](../media/usd-create-best-practices-analyzer-button.PNG "Create Best Practices Analyzer toolbar button")
+    ![Create Best Practices Analyzer toolbar button](../unified-interface/media/usd-create-best-practices-analyzer-button.PNG "Create Best Practices Analyzer toolbar button")
 
-6. Attach the  **[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]** button under **Settings** button. On the nav bar, click the down arrow next to **Settings**, and click **Toolbar Buttons**.  
+7. Attach the  **Best Practices Analyzer** button under **Settings** button. Select the **Settings** button, select the **Related** tab, and then select **Toolbar Buttons**. The **Toolbar Buttons** tab appears.
 
-7. On the next page, click **Add Existing Toolbar Button**, type `Best Practices Analyzer` in the search bar, and then press **ENTER** or click the search icon.
+8. Select **Add Existing Toolbar Button**. The **Lookup Records** pane appears. 
 
-Click **Save**.
+9. Type **Best Practices Analyzer** in the search box, and select the search icon. The record appears. Select the record and then select **Add**.
+
+10. Select **Save**.
 
 <a name="Step4"></a>   
 ## Step 4: Add action calls to display the [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]
 
 In this step, you'll add actions calls the to **[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]** toolbar button so that when you click on it, **[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]** tab is displayed in the hosted control that you created in step 1.
 
-1. In the **Settings** toolbar button page, on the nav bar, click the down arrow next to **Settings**, and click **Toolbar Buttons**.
+1. Select **Action Calls** in the site map.
 
-2. Select **Best Practices Analyzer** toolbar button from the list.
+2. Select **+ New** in the **Active Action Calls** page.
 
-3. In the **Actions** area, click **+** on the right corner to add a button, and press **ENTER** or click the search icon.  
-
-4. In the search results box, click **New** in the lower right corner to create an action call for this toolbar button.
-
-5. On the **New Action Call** page, specify the following values:
-
+3. Specify the following values on the **New Action Call** page.
 
    |     Field      |                                               Value                                               |
    |----------------|---------------------------------------------------------------------------------------------------|
-   |      Name      | Action Call: [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] |
+   |      Name      | Action Call: Best Practices Analyzer |
    |     Order      |                                                 1                                                 |
-   | Hosted Control |       [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]        |
+   | Hosted Control |       Best Practices Analyzer        |
    |     Action     |                                              default                                              |
 
-    ![Create action call for Best Practices Analyzer](../media/usd-create-action-call-best-practices-analyzer.PNG "Create action call for Best Practices Analyzer")
+    ![Create action call for Best Practices Analyzer](../unified-interface/media/usd-create-action-call-best-practices-analyzer.PNG "Create action call for Best Practices Analyzer")
 
-6. Click **Save**.
+6. Select **Save**.
 
-7. In the **Actions** area, click **+** on the right corner and type **Action Call: [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]** in the text box and Press **ENTER** or click on the search icon.
+7. Create another action call. Select **+ New**.
 
-8. Select the **Action Call: [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]**. <br>
-   The new action call is added to the **[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]** button.
-
-9. You’ll add another action call to the button to set the focus on the hosted control that show the [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] in the client application. In the **Actions** area, click **+** on the right corner to add an action call.
-
-10. In the search results box, click **New** in the lower right corner to create an action call for this toolbar button.  
-
-11. On the **New Action Call** page, specify the following values.
+8. Specify the following values on the **New Action Call** page.
 
 
     |     Field      |                                            Value                                            |
     |----------------|---------------------------------------------------------------------------------------------|
-    |      Name      | Focus: [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] |
+    |      Name      | Focus: Best Practices Analyzer |
     |     Order      |                                              4                                              |
     | Hosted Control |                                     CRM Global Manager                                      |
     |     Action     |                                           ShowTab                                           |
-    |      Data      |    [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]     |
+    |      Data      |    Best Practices Analyzer     |
 
-    ![Create action call to focus on Best Practices Analyzer](../media/usd-create-action-call-focus-best-practices-analyzer.PNG "Create action call to focus on Best Practices Analyzer")    
+    ![Create action call to focus on Best Practices Analyzer](../unified-interface/media/usd-create-action-call-focus-best-practices-analyzer.PNG "Create action call to focus on Best Practices Analyzer")
 
-12. Click **Save**.
+9. Select **Save**. 
 
-13. In the **Actions** area, click **+** on the right corner and type **Focus: [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]** in the text box and Press **ENTER** or click on the search icon.
+10. Select **Toolbars** in the site map.
 
-14. Select the **Focus: [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]**.<br>
-    The new action call is added to the **[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]** button.
+11. Select **About Tool Bar** in the **Active Action Calls** page, and then select **Settings** under the buttons section.
+
+12. Select **Add Existing Action Call** in the **Actions** section. The **Lookup Records** pane appears.
+
+13. Type **Action Call: Best Practices Analyzer** in the search box and select the search icon. The record appears. Select the action call and select **Add**. The new action call is added to the  button.
+
+14. You’ll add another action call to the button to set the focus on the hosted control that show the Best Practices Analyzer in the client application. Select **Add Existing Action Call** in the **Actions** section. The **Lookup Records** pane appears.
+
+15. Type the **Focus: Best Practices Analyzer** action call in the search box and select the search icon. The record appears. Select the action call and select **Add**. The new action call is added to the  button. 
+
+16. Select **Save**.
 
 <a name="Step5"></a>   
 ## Step 5: Add the controls to the configuration  
@@ -211,23 +211,43 @@ In this step, you'll add actions calls the to **[!INCLUDE[pn-best-practices-anal
 
  To add a control to the configuration:  
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.
 
-2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
+2. Select the down arrow next to Dynamics 365.
 
-3. Click **Configuration**.  
+3. Select **Unified Service Desk Administrator**.
 
-4. Click **Contoso Configuration** to open the definition.  
+4. Select **Configuration** under **Advanced Settings**. 
 
-5. On the nav bar, click the down arrow next to **Contoso Configuration**, and select **Action Calls**.  
+5. Select **Contoso Configuration** to open the definition.
 
-6. On the next page, click **Add Existing Action Call**, type **Action Call: [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]** in the search bar, and then press **ENTER** or click the search icon.  
+6. Select the **Hosted Controls, Events and Action Calls** tab.  
 
-7. The action call listed earlier are displayed in the search results. Add these action call.
+7. Select the ellipsis **...** (more commands option) in the **Action Calls** section.
 
-8. Similarly, add the hosted control and the toolbar by clicking the down arrow next to **Contoso Configuration**, and clicking **Hosted Controls** and **Toolbars** respectively.
+8. Select **Add Existing Action Call**. The **Lookup Records** pane appears. 
 
-9. Click **Save**.
+9. Type **Action Call: Best Practices Analyzer** in the search box, and then select the search icon. The action call listed earlier are displayed in the search results. Select the action and then select **Add**.
+
+10. Follow the steps  7 to 9 to add the **Focus: Best Practices Analyzer** action call.
+
+11. Select the ellipsis **...** (more commands option) in the **Hosted Controls** section.
+
+12. Select **Add Existing Hosted Control**. The **Lookup Records** pane appears. 
+
+13. Type **Best Practices Analyzer** in the search box, and then select the search icon. The hosted control listed earlier are displayed in the search results. Select the action and then select **Add**.
+
+14. Follow the steps 11 to 13 to add the **About Toolbar Container** hosted control.
+
+15. Select the **Toolbars, Window Navigation Rules and Entity Searches** tab.
+
+16. Select the ellipsis **...** (more commands option) in the **Toolbars** section.
+
+17. Select **Add Existing Toolbar**. The **Lookup Records** pane appears. 
+
+18. Type **About Toolbar** in the search box, and then select the search icon. The hosted control listed earlier are displayed in the search results. Select the action and then select **Add**.
+
+19. Select **Save** to save the changes.
 
 <a name="Step6"></a>   
 ## Step 6: Test [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] in your agent application
@@ -241,17 +261,17 @@ To analyze parameters on your computer, [!INCLUDE[pn_unified_service_desk](../..
 
 1. Sign in to the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application.
 
-2. On the toolbar, select the **Settings** list.
+2. Select the **Settings** list On the toolbar.
 
-3. Select **[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]**.
+3. Select **Best Practices Analyzer**.
 
     ![Create action call to focus on Best Practices Analyzer](../media/best-practices-analyzer-button.PNG "Create action call to focus on Best Practices Analyzer")
 
 4. Select **Start Analysis**.<br>
-   [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] displays the report—it can help you determine your next steps.
+   Best Practices Analyzer displays the report—it can help you determine your next steps.
 
 > [!Note]
-> When you relaunch [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and select **[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]**, the last report that was generated appears in the report area.
+> When you relaunch [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and select **Best Practices Analyzer**, the last report that was generated appears in the report area.
 
 ## See also
 

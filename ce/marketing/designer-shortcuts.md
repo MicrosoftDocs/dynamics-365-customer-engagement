@@ -1,6 +1,6 @@
 ---
-title: "Accessibility features and keyboard shortcuts (Dynamics 365 for Marketing) | Microsoft Docs "
-description: "Provides an overview of accessibility features and keyboard shortcuts in Dynamics 365 for Marketing"
+title: "Accessibility features and keyboard shortcuts (Dynamics 365 Marketing) | Microsoft Docs "
+description: "Provides an overview of accessibility features and keyboard shortcuts in Dynamics 365 Marketing"
 keywords: accessibility; keyboard shortcuts
 ms.date: 08/16/2019
 ms.service: dynamics-365-marketing
@@ -8,11 +8,9 @@ ms.custom:
   - dyn365-a11y
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: f0dec7ab-009f-432a-8618-53708615aa6a
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -25,25 +23,25 @@ search.app:
   - D365Mktg
 ---
 
-# Accessibility and keyboard shortcuts for [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]
+# Accessibility and keyboard shortcuts for Marketing
 
-## General accessibility for Customer Engagement applications
+## General accessibility for Dynamics 365 applications
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] supports most (but not all) of the same keyboard shortcuts and accessibility features provided for other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] applications. For details, see the following help topics:
+Dynamics 365 Marketing supports most (but not all) of the same keyboard shortcuts and accessibility features provided for other model-driven apps in Dynamics 365. For details, see the following help topics:
 
 - [Accessibility for people with disabilities](../basics/accessibility-people-with-disabilities.md)
-- [Keyboard shortcuts in Dynamics 365 Customer Engagement applications](../basics/keyboard-shortcuts.md)
+- [Keyboard shortcuts in Dynamics 365 applications](../basics/keyboard-shortcuts.md)
 
 > [!IMPORTANT]
-> If you're working on an iOS device and using an attached keyboard, then use option+tab to move between user-interface elements (such as links, buttons, tabs, etc.). The standard keyboard navigation technique for this is to use tab alone, but because [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] sometimes uses specialized HTML constructs to create its feature (especially for the content and pipeline designers), some buttons and links will be skipped if you use tab alone. But if you use option+tab, you'll be able to navigate to everything.
+> If you're working on an iOS device and using an attached keyboard, then use option+tab to move between user-interface elements (such as links, buttons, and tabs). The standard keyboard navigation technique for this is to use tab alone, but because Dynamics 365 Marketing sometimes uses specialized HTML constructs to create its feature (especially for the content and pipeline designers), some buttons and links will be skipped if you use tab alone. But if you use option+tab, you'll be able to navigate to everything.
 
 ## Accessibility and keyboard shortcuts for content designers
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] provides advanced digital-content designers for creating, styling, and previewing the various types of digital content that you can produce and manage with the system. This section lists keyboard shortcuts and accessibility features are available for working with the designers for marketing email messages, marketing pages, and marketing forms.
+Dynamics 365 Marketing provides advanced digital-content designers for creating, styling, and previewing the various types of digital content that you can produce and manage with the system. This section lists keyboard shortcuts and accessibility features that are available for working with the designers for marketing email messages, marketing pages, and marketing forms.
 
 ![The designer toolbar and content area](media/designer-tools-ill.png "The designer toolbar and content area")
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Design your digital content](design-digital-content.md)
+More information: [Design your digital content](design-digital-content.md)
 
 > [!IMPORTANT]
 > For keyboard shortcuts that include a number, you usually need to use the standard number keys, not the number pad.

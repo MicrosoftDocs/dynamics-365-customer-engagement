@@ -1,27 +1,23 @@
 ---
-title: "Customize views (Dynamics 365 for Sales Professional) | MicrosoftDocs"
-description: "Use views in Dynamics 365 for Sales Professional to define how a list of records for a specific entity is displayed."
-keywords: ""
-ms.date: 04/05/2019
-ms.service: dynamics-365-sales
+title: "Customize views (Dynamics 365 Sales Professional) | MicrosoftDocs"
+description: "Use views in Dynamics 365 Sales Professional to define how a list of records for a specific entity is displayed."
+ms.date: 10/01/2019
+ms.service: 
+  - dynamics-365-sales
+ms.custom: 
+  - dyn365-sales
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
-ms.assetid: 582aaeed-7b3d-451d-ada7-c5671126fc58
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.custom: dyn365-sales
 ---
 
 # Customize views (Sales Professional)
 
 > [!IMPORTANT]
-> This capability is introduced in the Dynamics 365 for Sales Professional app version 9.1.0.0.
+> This capability is introduced in the Dynamics 365 Sales Professional app version 9.1.0.0.
 
-In Dynamics 365 for Sales Professional, use views to define how a list of records for a specific entity is displayed. A view defines: 
+In Dynamics 365 Sales Professional, use views to define how a list of records for a specific entity is displayed. A view defines: 
 
 -   The columns to be displayed.
 
@@ -37,7 +33,7 @@ are used in the application. 
 
 ## Types of views 
 
-There are two types of views in Dynamics 365 for Sales Professional: System views and personal views. System views are views that are included with the app
+There are two types of views in Dynamics 365 Sales Professional: System views and personal views. System views are views that are included with the app
 or that are created by customizers and made available to some or all users. As a system administrator or system customizer, you can edit system views. System views are
 special views the application depends on, which exist for system entities or are automatically created when you create custom entities. These views have specific
 purposes and some additional capabilities.

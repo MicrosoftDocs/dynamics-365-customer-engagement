@@ -1,35 +1,18 @@
 ---
-title: "Create templates for knowledge article for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
-ms.custom: 
-ms.date: 07/31/2019
-ms.reviewer: 
-ms.service: crm-online
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement  (online)
-  - Dynamics 365 for Customer Engagement  Version 9.x
-ms.assetid: b47eec74-e83c-4cfe-b7a0-a9195a3ac4da
-caps.latest.revision: 35
+title: "Create templates for knowledge article for Dynamics 365 Customer Service | MicrosoftDocs"
+description: 
 author: udaykirang
 ms.author: udag
 manager: shujoshi
+ms.date: 07/31/2019
+ms.topic: article
+ms.service: 
+  - crm-online
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
 ---
 
 # Create knowledge article template
-
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
-> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided “as-is,” “with all faults,” “as available,” and without warranty.​
-> - This preview features does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
-> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../legal/dynamics-insider-agreement.md).
 
 Knowledge article templates help knowledge authors by simplifying the process of creating knowledge articles. Templates also help knowledge managers and authors in maintaining consistency in branding, language, and structure. 
 

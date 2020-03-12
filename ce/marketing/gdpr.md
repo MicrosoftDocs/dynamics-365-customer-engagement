@@ -1,17 +1,15 @@
 ---
-title: "Work with data protection and GDPR (Dynamics 365 for Marketing) | Microsoft Docs  "
-description: "Protect customer privacy and remain compliant with GDPR regulations with Dynamics 365 for Marketing"
+title: "Work with data protection and GDPR (Dynamics 365 Marketing) | Microsoft Docs  "
+description: "Protect customer privacy and remain compliant with GDPR regulations with Dynamics 365 Marketing"
 keywords: GDPR; data protection; privacy
 ms.date: 08/16/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: dbc6f586-d4ba-4cdb-aa93-c1f92d61b262
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -28,47 +26,47 @@ search.app:
 
 The [General Data Protection Regulation (GDPR)](https://ec.europa.eu/justice/data-protection/reform/index_en.htm) is a European Union (EU) directive that imposes new rules on companies, government agencies, non-profits, and other organizations that offer goods and services to people in the EU, or that collect and analyze data tied to EU residents. The GDPR applies no matter where you are located.
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is prepared to help organizations work in compliance with the GDPR when using the system, but some development work, consultancy assistance, or both, is still necessary. As part of a comprehensive, organization-wide effort, most organizations need to review and update all their information systems to come into complete compliance.
+Dynamics 365 Marketing is prepared to help organizations work in compliance with the GDPR when using the system, but some development work, consultancy assistance, or both, is still necessary. As part of a comprehensive, organization-wide effort, most organizations need to review and update all their information systems to come into complete compliance.
 
 ## Learn more about the GDPR
 
-Here are some resources where you can learn more about how to bring your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] systems into compliance with the GDPR:
+Here are some resources where you can learn more about how to bring your Dynamics 365 systems into compliance with the GDPR:
 
-- [Microsoft Dynamics 365 and GDPR](https://docs.microsoft.com/dynamics365/get-started/gdpr/index). This webpage includes links to resources, white papers, blogs, and other information related to various [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] applications and the GDPR.
-- [Supporting Your EU GDPR Compliance Journey with Dynamics 365 for Marketing](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=b26973bd-68c3-4507-b446-61a7f1b1f1f2&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers). This white paper (downloadable PDF) will help you build a basic understanding of the GDPR and relate that to Dynamics 365 for Marketing.
+- [Microsoft Dynamics 365 and GDPR](https://docs.microsoft.com/dynamics365/get-started/gdpr/index). This webpage includes links to resources, white papers, blogs, and other information related to various Dynamics 365 applications and the GDPR.
+- [Supporting Your EU GDPR Compliance Journey with Dynamics 365 Marketing](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=b26973bd-68c3-4507-b446-61a7f1b1f1f2&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers). This white paper (downloadable PDF) will help you build a basic understanding of the GDPR and relate that to Dynamics 365 Marketing.
 - [Data Protection Resources](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ%20and%20White%20Papers). This webpage includes links to compliance guides, white papers, FAQs, security reports, penetration tests, risk assessment tools, and other resources that apply to a wide range of Microsoft products.
 - [Microsoft Trust Center](https://www.microsoft.com/trustcenter). This webpage includes links to information about how new features in Microsoft 365 help you secure personal data and meet strict GDPR privacy requirements.
 - [Microsoft Compliance Manager](https://aka.ms/compliancemanager). This webpage includes links to information about control management, integrated task assignment, evidence collection, and audit-ready reporting tools to streamline your compliance workflow.
 
-## Prepare [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] for GDPR compliance
+## Prepare Dynamics 365 Marketing for GDPR compliance
 
-Most [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] installations are customized to meet the specific needs of each organization that uses it. Some organizations have in-house developers, and some organizations work with external partners or consultants to implement their customizations. Either way, you must customize your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] system to enable its built-in GDPR compliance tools to function correctly.
+Most Dynamics 365 installations are customized to meet the specific needs of each organization that uses it. Some organizations have in-house developers, and some organizations work with external partners or consultants to implement their customizations. Either way, you must customize your Dynamics 365 Marketing system to enable its built-in GDPR compliance tools to function correctly.
 
 Among other things, you must be able to identify all data structures (including tables, entities, and fields) that contain personal information. You should establish mechanics that allow you to easily discover, deliver, update, and/or delete this data when requested by your customer.
 
-- For more information on how [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] helps you with essential data tasks like discovering, managing, protecting, and reporting for your GDPR compliance see the guide [Microsoft Dynamics 365 helps enable data privacy for GDPR compliance](https://www.microsoft.com/en-us/TrustCenter/CloudServices/dynamics365/GDPR) in the [Microsoft Trust Center](https://www.microsoft.com/trustcenter).
-- For details about how to use the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] API to implement custom GDPR-related functionality for your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] system, see the [Developer Guide (Marketing)](developer/marketing-developer-guide.md).
+- For more information on how Dynamics 365 helps you with essential data tasks like discovering, managing, protecting, and reporting for your GDPR compliance see the guide [Microsoft Dynamics 365 helps enable data privacy for GDPR compliance](https://www.microsoft.com/TrustCenter/CloudServices/dynamics365/GDPR) in the [Microsoft Trust Center](https://www.microsoft.com/trustcenter).
+- For details about how to use the Dynamics 365 API to implement custom GDPR-related functionality for your Dynamics 365 Marketing system, see the [Developer Guide (Marketing)](developer/marketing-developer-guide.md).
 - If you're looking for a partner to help you come into compliance, try searching in our [Microsoft Solution Providers database](https://www.microsoft.com/solution-providers/search).
 
-The rest of this topic describes how to work with the GDPR compliance tools in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. The instructions assume that the system has already been customized as required.
+The rest of this topic describes how to work with the GDPR compliance tools in Dynamics 365 Marketing. The instructions assume that the system has already been customized as required.
 
-## Overview of GDPR features in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
+## Overview of GDPR features in Dynamics 365 Marketing
 
 Under the GDPR, the topic of consent has become a core tenet and is included in the data protection law. Consent is understood as "any freely given, specific, informed and unambiguous indication of the data subject's wishes by which he or she, by a statement or by a clear affirmative action, signifies agreement to the processing of personal data relating to him or her."
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] allows you to request, capture, and store consent. It lets you design your marketing activities to respect the consent given by your audience. It is important that you include relevant information in your marketing objects (like landing pages and email marketing message) that unambiguously informs your audience about the data you collect and the purpose of your processing. Your audience must have the option to give consent freely, make an informed decision, and be able to review, update, or revoke consent at any time.
+Dynamics 365 Marketing allows you to request, capture, and store consent. It lets you design your marketing activities to respect the consent given by your audience. It is important that you include relevant information in your marketing objects (like landing pages and email marketing message) that unambiguously informs your audience about the data you collect and the purpose of your processing. Your audience must have the option to give consent freely, make an informed decision, and be able to review, update, or revoke consent at any time.
 
-To help you with consent management and other GDPR related workloads, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] has the following capabilities:
+To help you with consent management and other GDPR related workloads, Dynamics 365 Marketing has the following capabilities:
 
 - A default collection of hierarchical consent levels is provided out of the box, where higher levels of consent include lower levels.
 - Contact records include a field that stores the level of consent each contact has granted your organization.
 - You can configure each customer journey to only process contacts that have given a minimum-required level of consent.
 - You can configure each lead-scoring model to only compute scores for leads associated with contacts that have given a minimum-required level of consent.
 - You can create marketing pages with marketing forms that encourage contacts to grant a level of consent while being unambiguously informed. The consent is stored in each contact's record.
-- You’ll be able to use various mechanics in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] to extract all information related to a specific contact and share relevant information with that contact when requested.
-- You'll be able to use mechanics to have [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] "forget" (delete) all information about a specific contact when requested.
+- You’ll be able to use various mechanics in Dynamics 365 Marketing to extract all information related to a specific contact and share relevant information with that contact when requested.
+- You'll be able to use mechanics to have Dynamics 365 Marketing "forget" (delete) all information about a specific contact when requested.
 - You'll be able to find and update information about a specific contact when requested.
-- You'll be able to provide means for your contacts to ask to view, retrieve, update, and delete their consent and data, and to use [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] to model the fulfillment on your side.
+- You'll be able to provide means for your contacts to ask to view, retrieve, update, and delete their consent and data, and to use Dynamics 365 Marketing to model the fulfillment on your side.
 
 The consent levels provided out of the box are just recommendations. It is up to you to decide the relevance of each level, and how you would like to use it in your marketing activities. The following table summarizes each supplied consent level and how it is typically used. Consent levels are hierarchical, so higher levels include all lower levels.
 
@@ -84,11 +82,11 @@ The consent levels provided out of the box are just recommendations. It is up to
 In addition, special privacy protection is required for minors (children), requiring additional consent by a parent or guardian.
 
 > [!IMPORTANT]
-> The accounts entity does not store any GDPR consent information&mdash;only contact entities include it. Lead-scoring models that operate on the account level aren't able to respect the consent of the contacts that belong to that account, but they can still score account leads based on interactions generated by all of those contacts. That means that you must be careful not to use automatic lead scoring for automated decision making (profiling) related to account-based leads if those decisions affect individuals. You can still use the feature to score account leads, but you must not use it for indirect contact scoring if the score is used for automated decision making. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Account-based marketing](account-based-marketing.md)
+> The accounts entity does not store any GDPR consent information&mdash;only contact entities include it. Lead-scoring models that operate on the account level aren't able to respect the consent of the contacts that belong to that account, but they can still score account leads based on interactions generated by all of those contacts. That means that you must be careful not to use automatic lead scoring for automated decision making (profiling) related to account-based leads if those decisions affect individuals. You can still use the feature to score account leads, but you must not use it for indirect contact scoring if the score is used for automated decision making. More information: [Account-based marketing](account-based-marketing.md)
 
-## Enable GDPR features in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
+## Enable GDPR features in Dynamics 365 Marketing
 
-By default, GDPR features such as consent management are disabled on new [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] installations. To enable or disable the features:
+By default, GDPR features such as consent management are disabled on new Dynamics 365 Marketing installations. To enable or disable the features:
 
 1. Go to **Settings** > **Advanced settings** > **Marketing settings** > **Data protection tools**.
 
@@ -153,15 +151,15 @@ You can now create a marketing email message that includes a link to your subscr
 
 To fully comply with the GDPR (and other common regulations), you must set up the double opt-in system. Double opt-in uses email messaging to ensure that all requests to change a contact's consent level or add a subscription were made on purpose by a person who can read that contact's email.
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up double opt-in for new subscriptions and consent changes](double-opt-in.md) 
+More information: [Set up double opt-in for new subscriptions and consent changes](double-opt-in.md) 
 
 ## An example of how to support data requests from your marketing audience
 
-Under GDPR, individuals have the right to submit several types of data requests to your organization. These include requests to access, correct, erase, and transmit (in a readable format) their personal data. [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] is a very flexible and versatile system, so there are many ways to build GDPR-compliance features into it. This section provides a few examples of how to do this, but the methods you choose will depend on how your organization is structured, how it uses [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)], and which types of customizations are in place.
+Under GDPR, individuals have the right to submit several types of data requests to your organization. These include requests to access, correct, erase, and transmit (in a readable format) their personal data. Dynamics 365 Marketing is a very flexible and versatile system, so there are many ways to build GDPR-compliance features into it. This section provides a few examples of how to do this, but the methods you choose will depend on how your organization is structured, how it uses Dynamics 365 Marketing, and which types of customizations are in place.
 
 ### Set up a customer journey for accepting GDPR requests
 
-One way to make it easy for individuals to submit GDPR requests to your organization could be to publish a page on your website that provides relevant details to your customer and includes links for each type of request (send me my data, update my data, and delete my data). Each of those links would bring the customer to a different [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] marketing page, which provides:
+One way to make it easy for individuals to submit GDPR requests to your organization could be to publish a page on your website that provides relevant details to your customer and includes links for each type of request (send me my data, update my data, and delete my data). Each of those links would bring the customer to a different marketing page, which provides:
 
 - Further information about the specific type of request and what the customer can expect upon submitting the form.
 - All the input fields required to uniquely identify the contact in your database. This is typically their email address and last name, but the actual requirements will depend on your de-duplication settings.
@@ -182,16 +180,16 @@ The remaining subsections offer more details about how this example solution cou
 The following list provides a few ideas for how your organization could set up a system for responding to get-my-data requests. The solution you choose will depend on how your system is set up and which types of customizations are in place.
 
 - Instruct your privacy officer to use the standard search functionality to identify relevant data and then use the built-in export capabilities to generate an Office document. No custom development is required to allow this, but for a heavily customized system it could prove to be impractical.
-- Create a custom solution based on the dedicated API in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] that loads all the relevant information from the back-end system and assembles it into a single, portable document. This would require some custom development, but the result could provide a faster and easier solution for your privacy officer to use. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Retrieve interactions for a contact using code](developer/retrieve-interactions-contact.md)
-- Set up a custom reporting solution in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)].
-- Create a new Power BI report that loads the relevant data from your [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] organization database.
+- Create a custom solution based on the dedicated API in Dynamics 365 that loads all the relevant information from the back-end system and assembles it into a single, portable document. This would require some custom development, but the result could provide a faster and easier solution for your privacy officer to use. More information: [Retrieve interactions for a contact using code](developer/retrieve-interactions-contact.md)
+- Set up a custom reporting solution in Dynamics 365 Marketing.
+- Create a new Power BI report that loads the relevant data from your Dynamics 365 Marketing organization database.
 
 ### Respond to forget-me requests
 
 Ideally, you should prepare your system to make it easy for your privacy officer to completely delete a contact and all their related data on request. 
 
-- For a non-customized system, your privacy officer can just use the standard search function to find the contact and then hard-delete the contact. The system will automatically unlink and remove all related interaction data stored in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] back-end systems (including from all marketing services).
-- If you have custom fields or entities, then you must further customize your system to make sure it deletes all related personal data from related records and/or unlinks them from the contact record so that all personal information is removed. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Developer Guide (Marketing)](developer/marketing-developer-guide.md)
+- For a non-customized system, your privacy officer can just use the standard search function to find the contact and then hard-delete the contact. The system will automatically unlink and remove all related interaction data stored in Dynamics 365 Marketing back-end systems (including from all marketing services).
+- If you have custom fields or entities, then you must further customize your system to make sure it deletes all related personal data from related records and/or unlinks them from the contact record so that all personal information is removed. More information: [Developer Guide (Marketing)](developer/marketing-developer-guide.md)
 
 > [!NOTE]
 > All data entered into a forward-to-a-friend form is automatically deleted after 30 days, so no new contact or lead records are created unless a recipient of the forward chooses to register with your organization using a landing page.
@@ -210,21 +208,21 @@ As mentioned earlier, when a privacy officer receives the task generated by the 
  
 ### Secure and control access to personal information
 
-Part of the GDP regulations is a requirement that your organization take steps to secure and control access to personal information that is stored in your database. You can use the standard field-level, form-level, and entity-level security controls in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] to make sure that only authorized users, who know how to handle it legally, will be able to access it. Here are some examples of data that you may need to protect:
+Part of the GDPR regulations is a requirement that your organization take steps to secure and control access to personal information that is stored in your database. You can use the standard field-level, form-level, and entity-level security controls to make sure that only authorized users, who know how to handle it legally, will be able to access it. Here are some examples of data that you may need to protect:
 
 - **Contact records:** Contact records contain many types of basic, personal data, such as names, addresses, email, phone numbers, and more. You can control access to these records by assigning entity permissions as part of each security role definition.
 - **Marketing insights:** Marketing insights can include details such as website browsing records, form submissions, event attendance, and more.  Some, but not necessarily all, users that have access to contact records may be granted access to view this information. You can control this access by assigning security groups at the form level.
 - **Fields with especially sensitive information:** Your contact records may include data fields with especially sensitive information, such as financial, medical, or political affiliation details. Some, but not necessarily all, users that have access to contact records may be granted access to view this information. You can control this access by assigning security groups at the field level.
 
-For more information about how to work with the security groups and other security features in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)], see [Manage security, users, and teams](../admin/manage-security-users-and-teams.md).
+For more information about how to work with the security groups and other security features in Dynamics 365, see [Security in Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).
 
 ## Demonstrate GDPR compliance
 
-From time to time, you may be asked to demonstrate that your organization complies with the GDPR regulations. [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] provides several tools to help you do this.
+From time to time, you may be asked to demonstrate that your organization complies with the GDPR regulations. Dynamics 365 Marketing provides several tools to help you do this.
 
 ### Record and view justifications for consent-level changes made by users
 
-Usually you should allow contacts to set their own consent level using a marketing page or subscription center. However, Dynamics 365 for Marketing users can also  change the consent level for any contact by editing the contact record directly. You might typically do this following a telephone conversation during which the contact provided or withdrew consent. When you do manually change the consent level for any contact, it's good practice to add a comment about what you've done and why.
+Usually you should allow contacts to set their own consent level using a marketing page or subscription center. However, Dynamics 365 Marketing users can also  change the consent level for any contact by editing the contact record directly. You might typically do this following a telephone conversation during which the contact provided or withdrew consent. When you do manually change the consent level for any contact, it's good practice to add a comment about what you've done and why.
 
 To add a comment about why you changed the consent level of a contact, or to review the existing comments:
 
@@ -240,14 +238,14 @@ To add a comment about why you changed the consent level of a contact, or to rev
 
 ### Enable auditing to log all record changes
 
-[!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] can keep a record of all database changes, who made them, and when. You can use this to show when GDPR consent was changed for each contact and by whom. The auditing system is usually disabled by default, so you'll need to set it up if you want to use it log your GDPR consent changes (and other information). When setting up the system, you'll be able to choose which types of events you want to audit on which type of records.
+Dynamics 365 can keep a record of all database changes, who made them, and when. You can use this to show when GDPR consent was changed for each contact and by whom. The auditing system is usually disabled by default, so you'll need to set it up if you want to use it log your GDPR consent changes (and other information). When setting up the system, you'll be able to choose which types of events you want to audit on which type of records.
 
 To access the auditing features:
 
-1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
+1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
 1. Navigate to **Settings** > **System** > **Auditing** to open the **Audit** page. From there, you can access the auditing settings and review the audit record.
 
-This feature is part of the standard functionality of [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]. For information about how auditing works, how to set it up, and how to review the log, see [Audit data and user activity for security and compliance](../admin/audit-data-user-activity.md).
+This feature is part of the standard functionality of Dynamics 365. For information about how auditing works, how to set it up, and how to review the log, see [Audit data and user activity for security and compliance](https://docs.microsoft.com/power-platform/admin/audit-data-user-activity).
 
 ### View the audit history to find consent-level changes for a contact
 

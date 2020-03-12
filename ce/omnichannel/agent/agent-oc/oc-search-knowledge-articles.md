@@ -1,16 +1,13 @@
 ---
 title: "Search for and share knowledge articles in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how to set your presence status in Omnichannel for Customer Service."
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
-ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.date: 12/27/2019
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: F1FD8DCC-A808-4875-B1C9-BFF51632BD1E
-ms.custom: 
 ---
 
 # Search for and share knowledge articles
@@ -21,7 +18,7 @@ ms.custom:
 
 Knowledge management plays an important part in the customer service process, and access to accurate and up-to-date information can help you reduce the average handling time to provide quick and accurate answers to your customers.
 
-Omnichannel for Customer Service enables you to use the rich knowledge base (KB) in Dynamics 365 so that you can quickly search for relevant information while working on a case and provide accurate answers to customers without having to switch applications.
+Omnichannel for Customer Service enables you to use the rich knowledge base (KB) so you can quickly search for relevant information while working on a case and provide accurate answers to customers without having to switch applications.
 
 ## Launch KB Search Page
 
@@ -59,5 +56,5 @@ When you interact with a customer in the conversation control, you can use the *
 
 - [View communication panel](oc-conversation-control.md)
 - [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)
-- [View conversation and session activity types in the Customer Engagement apps](oc-view-activity-types.md)
+- [View conversation and session activity types in the model-driven apps](oc-view-activity-types.md)
 - [View customer summary](oc-customer-summary.md)

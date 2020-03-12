@@ -1,17 +1,15 @@
 ---
-title: "Generate activities from a customer journey (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "A tutorial for how to set up a customer journey to generate and assign contact-related activities to staff in Dynamics 365 for Marketing"
+title: "Generate activities from a customer journey (Dynamics 365 Marketing) | Microsoft Docs"
+description: "A tutorial for how to set up a customer journey to generate and assign contact-related activities to staff in Dynamics 365 Marketing"
 keywords: tutorial; customer journey; activities
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: get-started-article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: e44cf736-a3d5-4f33-b561-1b47c6b093ed
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -26,7 +24,7 @@ search.app:
 
 # Generate activities from a customer journey
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/d73cc179-5984-4a32-ad84-0755f56b0399" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/d73cc179-5984-4a32-ad84-0755f56b0399" frameborder="0" allowfullscreen=""></iframe></div>
 
 Use activities to plan and record customer interactions such as phone calls, tasks, or appointments. Your customer journeys can also generate these for you—usually for planning purposes. For example, you might create a journey like the one you made in [Create an interactive customer journey with triggers and signup](create-interactive-customer-journey.md), and then add an **Activity** tile behind the trigger that creates a phone-call task associated with each contact who submits the registration form.  
 
@@ -36,7 +34,7 @@ When you add an **Activity** tile to a customer journey, you'll choose an activi
 
 For this exercise, you'll set up a template to create task activities, and then set up a simple customer journey that generates a task associated with each member of a selected segment.
 
-1. Go to **Marketing** &gt; **Templates** &gt; **Task Activity Marketing Templates**.
+1. Go to **Marketing** > **Marketing templates** > **Task templates**.
 
 2. On the command bar, select **+New**. The **New Task Activity Marketing Template** page opens.  
     ![Activity template settings](media/journey-activity-template.png "Activity template settings")  
@@ -47,7 +45,7 @@ For this exercise, you'll set up a template to create task activities, and then 
 
 4. On the command bar, select **Save** to save your template.
 
-5. Go to **Marketing** &gt; **Marketing Execution** &gt; **Customer Journeys**.
+5. Go to **Marketing** > **Marketing Execution** > **Customer Journeys**.
 
 6. On the command bar, select **+New** to create a new journey.
 
@@ -60,7 +58,7 @@ For this exercise, you'll set up a template to create task activities, and then 
 9. Expand the **Segment Group** tile to expose its nested **Segment** tile. Then select the nested tile, open the **Properties** tab, and configure the tile to reference the segment you want to target.  
     ![Assign a segment to the segment tile](media/journey-assign-segment.png "Assign a segment to the segment tile")
 
-    [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a simple customer journey with email messaging](create-simple-customer-journey.md)
+    More information: [Create a simple customer journey with email messaging](create-simple-customer-journey.md)
 
 10. Select the **Activity** tile, and then open the **Properties** tab.  
      ![Set up the activity tile](media/journey-activity-properties.png "Set up the activity tile")  
@@ -82,7 +80,7 @@ For this exercise, you'll set up a template to create task activities, and then 
 
 14. On the command bar, select **Go Live** to activate the journey.
 
-15. Go to **Marketing** &gt; **My Work** &gt; **Tasks**. From the view menu, select **All Tasks** to make sure you can see all tasks in the system.  
+15. Go to **Marketing** > **My Work** > **Tasks**. From the view menu, select **All Tasks** to make sure you can see all tasks in the system.  
      ![Set the tasks view to show all](media/tasks-view-all.png "Set the tasks view to show all")
 
 16. You should now see a list of tasks. After your journey has had time to run, you'll start to see your generated tasks here, with the **Subject** you specified for the template shown as the **Subject** and the **Regarding** value set to a contact from the segment you targeted with your journey.  

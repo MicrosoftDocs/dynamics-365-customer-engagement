@@ -1,17 +1,15 @@
 ---
-title: Set when your business is closed (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: View how to set when your business is closed in Dynamics 365 for Customer Service
-keywords: Set when business closed; Dynamics 365 for Customer Engagement; Customer Service
-author: anjgupta
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-ms.author: anjgup
+title: Set when your business is closed (Dynamics 365 Customer Service) | MicrosoftDocs
+description: View how to set when your business is closed in Dynamics 365 Customer Service
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ms.date: 09/15/2017
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: dyn365-customerservice
-ms.assetid: 0b050a02-7654-4c0d-803b-1c2c74711230
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -23,10 +21,10 @@ search.app:
 
 # Set when your business is closed (Customer Service app)
 
-Prevent scheduling resources on holidays and other nonworking days by defining business closures in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. You can set both the days and times that your organization will be closed. 
+Prevent scheduling resources on holidays and other nonworking days by defining business closures in Dynamics 365 Customer Service. You can set both the days and times that your organization will be closed. 
 
 > [!IMPORTANT]
-> With the Customer Engagement apps version 9.1 release, the new Service Scheduling is now available in the Customer Service Hub sitemap. We recommend that you set business closures using the new experience. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set when your business is closed](set-when-business-closed-csh.md)
+> With the latest release of Dynamics 365 Customer Service app, the new Service Scheduling is now available in the Customer Service Hub sitemap. We recommend that you set business closures using the new experience. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set when your business is closed](set-when-business-closed-csh.md)
   
 1.  Make sure you have the Schedule Manager Security role or equivalent permissions to update the business closures.  
   
@@ -54,9 +52,9 @@ Prevent scheduling resources on holidays and other nonworking days by defining b
   
     2.  In the **Start Time** and **End Time** boxes, enter the start and end date for the closure.  
   
-    3.  If you want to enter duration instead of an end time, select the length of the closure in the **Duration** box. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] automatically calculates the end time for you.  
+    3.  If you want to enter duration instead of an end time, select the length of the closure in the **Duration** box. The application automatically calculates the end time for you.  
   
-    4.  If the closure is an all-day event, select the **All Day Event** check box. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] automatically enters the duration of *1 day*.  
+    4.  If the closure is an all-day event, select the **All Day Event** check box. The application automatically enters the duration of *1 day*.  
   
          If you want to enter a specific time period, clear the **All Day Event** check box. You can then specify the hours during which your organization will be closed.  
   

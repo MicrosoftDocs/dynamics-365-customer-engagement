@@ -23,7 +23,7 @@ When quick scheduling is not enabled, the **Book** button defaults to the full s
 
 ## Prerequisites
 
-- Dynamics 365 for Field Service version 8.7 or later. See the “Additional notes” section at the end of this article for more details.
+- Dynamics 365 Field Service version 8.7 or later. See the “Additional notes” section at the end of this article for more details.
 
 - Quick scheduling must be enabled: 
   - Go to **Resource Scheduling** > **Settings** > **Administration** > **Enable Resource Scheduling for Entities**.
@@ -144,13 +144,15 @@ Lastly, as discussed in the [requirement groups topic](../../field-service/multi
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the requirement group settings, showing different resource options](../../field-service/media/scheduling-quick-book-rg-option.png)
 
-To use requirement groups as part of the work order process, associate a requirement group template to an incident type. See more details in the [requirement groups for work orders](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/multi-resource-scheduling-requirement-groups#requirement-groups-for-work-orders) section of the requirement groups topic. Additionally, you can use requirement groups for customer service scenarios. Visit the [customer service scheduling topic](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customer-service/basics-service-service-scheduling) to learn more.
+To use requirement groups as part of the work order process, associate a requirement group template to an incident type. See more details in the [requirement groups for work orders](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/multi-resource-scheduling-requirement-groups#requirement-groups-for-work-orders) section of the requirement groups topic. Additionally, you can use requirement groups for customer service scenarios. Visit the [customer service scheduling topic](https://docs.microsoft.com/dynamics365/customer-engagement/customer-service/basics-service-service-scheduling) to learn more.
 
 ## Configuration considerations
 
 - After quick booking a *single requirement*, selecting **Book** again for the same requirement creates an additional booking and will not rebook the previous one. Selecting **Book** again for a *requirement group* will trigger the rebook process, which cancels previous bookings.
   
 - If you have enabled quick book, you enable it for your entire organization; it can't be enabled only for specific users or security roles. 
+
+- Quick Scheduling does not support fulfillment preferences with time groups.
 
 ### Consider using fulfillment preferences with quick scheduling
 
@@ -173,5 +175,5 @@ See our [topic on fulfillment preferences](../../field-service/set-up-time-group
 ## Additional notes
 - The confirmation message shown after quick book is currently not configurable. 
 - When quick book is enabled and applicable to the schedulable entity, it triggers wherever the **Book** button is displayed.
-- Quick book is **disabled** by default in Dynamics 365 for Field Service version 8.7 (Universal Resource Scheduling version 3.7) but is **enabled** by default in Field Service versions 8.8 and later (Universal Resource Scheduling versions 3.8 and later).
+- Quick book is **disabled** by default in Dynamics 365 Field Service version 8.7 (Universal Resource Scheduling version 3.7) but is **enabled** by default in Field Service versions 8.8 and later (Universal Resource Scheduling versions 3.8 and later).
 - With Field Service version 8.7 (Universal Resource Scheduling version 3.7), quick book is not applicable to onsite requirements. With Field Service version 8.8 and later and Universal Resource Scheduling version 3.8 and later, quick book is applicable to onsite, facility, and location-agnostic requirements.

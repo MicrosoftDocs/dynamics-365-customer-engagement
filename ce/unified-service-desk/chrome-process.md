@@ -1,19 +1,12 @@
 ---
-title: "Use Chrome Process hosting method for your controls in Unified Service Desk for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Use Chrome Process hosting method for your controls in Unified Service Desk  | MicrosoftDocs"
 description: "Learn about the Chrome Process hosting method for your controls in Unified Service Desk."
 ms.custom: 
   - dyn365-USD
 ms.date: 07/12/2019
-ms.service: dynamics-365-customerservice
-ms.tgt_pltfrm: ""
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-ms.assetid: CDB80F22-D45C-492C-92E8-B00A1CF94F31
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -247,7 +240,7 @@ Let us see what configurations you need to create for the above-mentioned scenar
 
 ## Sign out from sessions when using the Chrome Process
 
-To sign out from sessions when using the Chrome process, you must configure the sign-out URL using the **Navigate** action on the hosted control. For example, the sign-out URL of Dynamics 365 for Customer Engagement apps is `url=/main.aspx?signout=1`.
+To sign out from sessions when using the Chrome process, you must configure the sign-out URL using the **Navigate** action on the hosted control. For example, the sign-out URL is `url=/main.aspx?signout=1`.
 
 ## Support for webcam and microphone access with Chrome Process
 
@@ -255,7 +248,7 @@ Agents in your organization require webcam and microphone access according to yo
 
 ### Add the ChromeEnableMediaStream UII option
 
- 1. Sign in to Dynamics 365 for Customer Engagement apps.
+ 1. Sign in to the Common Data Service platform.
 
  2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
@@ -293,7 +286,7 @@ Also, within Unified Service Desk client application, you can debug a Chrome Pro
 
 ### Add the ChromeRemoteDebuggingPort UII option
 
-1. Sign in to Dynamics 365 for Customer Engagement apps.
+1. Sign in to the Common Data Service platform.
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
@@ -318,7 +311,7 @@ To enable close confirmation dialog, you must add the **OnBeforeCloseHandler** U
 
 ### Add the OnBeforeCloseHandler UII option
 
-1. Sign in to Dynamics 365 for Customer Engagement apps.
+1. Sign in to the Common Data Service platform.
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
@@ -340,7 +333,7 @@ By default, the keyboard shortcuts for zoom in, zoom out, and zoom reset are as 
 | Zoom out |`Ctrl` + `OemMinus`| `Ctrl -`|
 | Zoom reset |`Ctrl` + `0`| `Ctrl 0`|
 
-To update additional the keyboard shortcuts, you must add the UII options and provide the character as the value. To learn about the allowed set of character values, see [Keys](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields)
+To update additional the keyboard shortcuts, you must add the UII options and provide the character as the value. To learn about the allowed set of character values, see [Keys](https://docs.microsoft.com/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields)
 
 ### List of zoom control UII options
 
@@ -359,7 +352,7 @@ To update additional the keyboard shortcuts, you must add the UII options and pr
 
 ### Add the Zoom control UII option
 
-1. Sign in to Dynamics 365 for Customer Engagement apps.
+1. Sign in to the Common Data Service platform.
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
@@ -367,7 +360,7 @@ To update additional the keyboard shortcuts, you must add the UII options and pr
 
 4. Choose **Others** for the **Global Option** field.
 
-5. Type the name of the UII option for the **Name** field and type value for the **Value** field.<br> See the list of [zoom control UII options](#list-of-zoom-control-uii-options).<br> See the list of [value keys](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields).
+5. Type the name of the UII option for the **Name** field and type value for the **Value** field.<br> See the list of [zoom control UII options](#list-of-zoom-control-uii-options).<br> See the list of [value keys](https://docs.microsoft.com/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields).
 
 6. Select **Save**.
 
@@ -395,7 +388,7 @@ Example path: `C:\Program Files\Microsoft Dynamics CRM USD\USD`
 
 ### Set default zoom value for entire organization
 
-1. Sign in to Dynamics 365 for Customer Engagement apps.
+1. Sign in to the Common Data Service platform.
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
@@ -421,7 +414,7 @@ If you leave the value blank or set the value as **False**, then Chrome Process 
 
 ### Add the AllowWebpageNavigationCertificateError UII option
 
-1. Sign in to Dynamics 365 for Customer Engagement apps.
+1. Sign in to the Common Data Service platform.
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
@@ -441,7 +434,7 @@ After adding the UII option, if you set to false or leave the value empty, the U
 
 ### Add the AllowWebpageNavigationCertificateError UII option
 
-1. Sign in to Dynamics 365 for Customer Engagement apps.
+1. Sign in to the Common Data Service platform.
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
@@ -467,7 +460,7 @@ For example, you've integrated a softphone with Unified Service Desk and using t
 
 To create a Window Navigation Rule, follow the steps:
 
-1. Sign to Dynamics 365 for Customer Engagement apps.
+1. Sign to the Common Data Service platform.
 
 2. Select down arrow next to Dynamics 365.
 
@@ -498,7 +491,7 @@ You must generate the reports when you want to investigate the Chrome Process cr
 
 ### Add the ChromeEnableLogging UII option
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to the Common Data Service platform.
 
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]
 

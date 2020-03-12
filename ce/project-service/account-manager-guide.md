@@ -1,5 +1,5 @@
 ---
-title: Account Manager Guide (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: Account Manager Guide
 description: An account manager's guide for Project Service that walks through the sales and contracts process for project-based accounts
 author: JohnPBurrows
 manager: kfend

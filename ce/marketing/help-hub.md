@@ -1,17 +1,15 @@
 ---
-title: "Documentation resources for Dynamics 365 for Marketing | Microsoft Docs"
-description: "A starting point for browsing help content for Dynamics 365 for Marketing."
+title: "Help resources for Dynamics 365 Marketing | Microsoft Docs"
+description: "A starting point for browsing help content for Dynamics 365 Marketing."
 keywords: marketing;help
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 0736ed6b-7931-1899-28a2-9f84a03fc568
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 topic-status: Drafting
 search.audienceType: 
@@ -23,7 +21,7 @@ search.app:
   - D365Mktg
 ---
 
-# Marketing help and training
+# Help resources for Dynamics 365 Marketing
 
 <table>
 
@@ -32,7 +30,7 @@ search.app:
 <h2>Administer the system</h2>
 <li><a href="readme.md" data-raw-source="[Readme)](readme.md)">Readme</a></li>
 <li><a href="trial-signup.md" data-raw-source="[Sign up for a free trial](trial-signup.md)">Sign up for a free trial</a></li>
-<li><a href="purchase-setup.md" data-raw-source="[Purchase and set up Dynamics 365 for Marketing](purchase-setup.md)">Purchase and set up Dynamics 365 for Marketing</a></li>
+<li><a href="purchase-setup.md" data-raw-source="[Purchase and set up Dynamics 365 Marketing](purchase-setup.md)">Purchase and set up Dynamics 365 Marketing</a></li>
 <li><a href="manage-marketing-instances.md" data-raw-source="[Manage Marketing instances](manage-marketing-instances.md)">Manage Marketing instances</a></li>
 <li><a href="apply-updates.md" data-raw-source="[Keep Marketing up to date](apply-updates.md)">Keep Marketing up to date</a></li>
 <li><a href="open-advanced-settings.md" data-raw-source="[Open the Settings work area](open-advanced-settings.md)">Open the Settings work area</a></li>
@@ -42,14 +40,14 @@ search.app:
 <li><a href="events-settings.md" data-raw-source="[Event management settings](events-settings.md)">Event management settings</a></li>
 <li><a href="additional-settings.md" data-raw-source="[Additional settings](additional-settings.md)">Additional settings</a></li>
 <li><a href="quota-management.md" data-raw-source="[Manage your quotas](quota-management.md)">Manage your quotas</a></li>
-<li><a href="customize.md" data-raw-source="[Customize Dynamics 365 for Marketing](customize.md)">Customize Dynamics 365 for Marketing</a></li>
+<li><a href="customize.md" data-raw-source="[Customize Dynamics 365 Marketing](customize.md)">Customize Dynamics 365 Marketing</a></li>
 <li><a href="gdpr.md" data-raw-source="[Data protection and GDPR](gdpr.md)">Data protection and GDPR</a></li>
 <li><a href="setup-troubleshooting.md" data-raw-source="[Administration and setup FAQ](setup-troubleshooting.md)">Administration and setup FAQ</a></li>
 
 </td><td>
 
 <h2>Learn the basics</h2>
-<li><a href="overview.md" data-raw-source="[Dynamics 365 for Marketing overview](overview.md)">Dynamics 365 for Marketing overview</a></li>
+<li><a href="overview.md" data-raw-source="[Dynamics 365 Marketing overview](overview.md)">Dynamics 365 Marketing overview</a></li>
 <li><a href="browser-requirements.md" data-raw-source="[Browser and system requirements](browser-requirements.md)">Browser and system requirements</a></li>
 <li><a href="navigation.md" data-raw-source="[Find your way around](navigation.md)">Find your way around</a></li>
 <li><a href="designer-shortcuts.md" data-raw-source="[Accessibility and keyboard shortcuts](designer-shortcuts.md)">Accessibility and keyboard shortcuts</a></li>

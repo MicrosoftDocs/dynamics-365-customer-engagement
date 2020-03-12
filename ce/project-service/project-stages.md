@@ -1,6 +1,6 @@
 ---
 title: Project stages 
-description: This topic provides information about the project stages in Dynamics 365 for Project Service Automation.
+description: This topic provides information about project stages.
 author: ruhercul
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-AProject stages are updated to reflect the state of the project as it progresses. The default business process flow automatically updates some stages the stages of project while others are manually updated by the project manager. 
+Project stages are updated to reflect the state of the project as it progresses. The default business process flow automatically updates some stages of the project while others are manually updated by the project manager. 
 
 The following stages are defined in the default BPF:
 

@@ -1,15 +1,13 @@
 ---
-title: "AppSource for Field Service (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "AppSource for Field Service (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: dyn365-fieldservice
 ms.date: 9/20/2018
-ms.reviewer: 
+ms.author: daclar 
 ms.suite: 
 ms.technology: 
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: activate-fs-mobile-app-license
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 author: FieldServiceDave
 ms.reviewer: krbjoran
 ms.manager: shellyhaverkamp

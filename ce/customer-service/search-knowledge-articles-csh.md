@@ -1,16 +1,15 @@
 ---
-title: Search knowledge articles in the Customer Service Hub in Dynamics 365 for Customer Engagement | Microsoft Docs
-description: See how you can effectively search knowledge articles in the Customer Service Hub for Customer Service in Microsoft Dynamics 365 for Customer Engagement
-keywords: Knowledge articles; Customer Service Hub; Customer Service; Microsoft Dynamics 365 for Customer Engagement
-author: anjgupta
-applies_to: Dynamics 365 for Customer Engagement (online)
-ms.author: anjgup
+title: Search knowledge articles in the Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
+description: See how you can effectively search knowledge articles in the Customer Service Hub.
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ms.date: 08/01/2019
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.assetid: 1268c4ce-9ffa-4da9-aa92-998a327734c2
-ms.custom: dyn365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -31,15 +30,15 @@ For more information, see [Knowledge Base Search control](#knowledge-base-search
 
 Knowledge base search in the Customer Service Hub now comes with an improved search functionality. The knowledge base search is now enabled to use Relevance search mechanism in the knowledge base search control area, in addition to the global search area where the Relevance search mechanism was already enabled.
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How Relevance Search works](../admin/configure-relevance-search-organization.md#how-relevance-search-works)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How Relevance Search works](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization)
 
 Relevance search mechanism uses Azure search service to index and search records.  Relevance search provides improved search functionality like better relevance, highlighted search keyword text, and search within attachments and notes. With Relevance search, you can also configure searchable fields in the knowledge article entity. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure searchable fields for Relevance Search](../admin/configure-relevance-search-organization.md#configure-searchable-fields-for-relevance-search)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure searchable fields for Relevance Search](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization)
 
 
 > [!NOTE]
-> To enable Relevance search for knowledge article entity, see [Enable Relevance Search](../admin/configure-relevance-search-organization.md#enable-relevance-search) and [Select entities for Relevance Search](../admin/configure-relevance-search-organization.md#select-entities-for-relevance-search).</br>
+> To enable Relevance search for knowledge article entity, see [Enable Relevance Search](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization) and [Select entities for Relevance Search](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization).</br>
 If Relevance search is not enabled for the entity, standard Full-text search is used. 
 
 For more information, see [Understand knowledge base search mechanisms](knowledge-base-search-methods.md).
@@ -68,22 +67,26 @@ Here are the required view columns:
 
 ## Knowledge Base Search control
 
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 The Customer Service Hub comes with an enhanced Knowledge Base Search that shows you the articles arranged in a single stream. Searching, sorting, and filtering the articles in the search control will be faster and more responsive with improvements to article viewability and usability.
 
-When you select the Knowledge Base Search option in the RELATED section, the Knowledge Base Search control loads, and you can view the following:
+When you select the **Knowledge Base Search** option in the **RELATED** section, the **Knowledge Base Search** control loads, and you can view the following:
 
-  ![Knowledge-article-search](media/case-form-kb-search.png "Knowledge article search")
+  > [!div class=mx-imgBorder]
+  > ![Knowledge-article-search](media/Knowledge-base-search-1.png "Knowledge article search")
 
   1. Knowledge Base Search
   2. Open filter pane
   3. Sort search results by
   4. Search knowledge articles
   5. Link this article to the current record (unlink will be displayed when the article is already linked to a record)
-  6. Link this article to a record and send via Email
-  7. Views
-  8. Rating
+  6. Copy
+  7. Displays Popout and Email link this article to a record and send via Email 
+  8. Link this article to a record and send via Email
+  9. Rating
+  10. Link to case
+  11. Views
+  12. Confirmation that record is linked to case
+  13. Article date
 
 
 In the knowledge base search control, you perform the following:
@@ -94,17 +97,72 @@ In the knowledge base search control, you perform the following:
 - Email the knowledge article
 - View the knowledge article inline in the search control
 
+### Display knowledge article pop outs 
+
+1. In the top right corner, select the ellipsis (...) 
+2. A display window will appear with the Pop out option
+3. Select on **Pop out** option
+4. This will opened and the article will be expanded into a new window.
+
+  > [!div class=mx-imgBorder]
+  > ![Pop out](media/Knowledge-base-search-3.PNG)
+
 ### Search for knowledge articles
 
 Type a keyword in the search box to search for knowledge articles.
 
-  ![Knowledge-article-search](media/search-kb-article.png "Knowledge article search")
+  > [!div class=mx-imgBorder]
+  > ![Knowledge-article-search](media/search-kb-article.PNG "Knowledge article search")
 
 - If Relevance search is not enabled, the keywords that you enter will initiate  a search (using Full-text search mechanism) in the following fields of a knowledge article: **Title**, **Content**, **Keywords**, **Description**, and **Article Public Number**.
 
-- If Relevance search is enabled, you can configure the fields based that you want to be searched upon. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure searchable fields for Relevance Search](../admin/configure-relevance-search-organization.md#configure-searchable-fields-for-relevance-search)
+- If Relevance search is enabled, you can configure the fields based that you want to be searched upon. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure searchable fields for Relevance Search](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization) 
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add the Knowledge Base Search control to Main forms](add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-main-forms)
+
+## Independent knowledge base search
+
+Agents can do knowledge base searches outside of cases using the **Knowledge Search** option in the sitemap under **Knowledge**.  This functionality performs like a knowledge search hub. 
+
+Agents can perform the following:
+
+- View a article 
+- Send an article pop out 
+- Copy and send article URLs when configured. 
+
+To configure, see [Configure knowledge base article URLs](#configure-knowledge-base-article-url).
+
+  > [!div class=mx-imgBorder]
+  > ![Independent KB search](media/kb-independent-search.png)
+
+  1. In the sitemap, select **Knowledge Search**.
+  2. In search box, type keywords of an article.  
+  3. Select copy URL icon to copy the article URL.
+  4. Select to pop out icon to open an article in a new window action.
+  5. Select the button **Copy URL** button to copy the article URL.
+  6. Select the button **Pop out** to open the article in a new window.  
+
+### Configure knowledge base article URL
+
+Knowledge articles can be configured to their own URLs, which agents can copy and share.  To configure a knowledge based article URL, use the following steps:
+
+1. In the sitemap, under **Knowledge Base Management** select **Embedded Knowledge URL**.
+
+2. Select the URL format.
+
+   > [!div class=mx-imgBorder]
+   > ![Independent KB search](media/kb-independent-search-url-1.png)
+
+3. Under **Support Portal Connection**, select **Yes**
+
+4. Under URL Format, enter URL name.
+
+5. Select **Save**.
+
+    > [!div class=mx-imgBorder]
+    > ![Independent KB search](media/kb-independent-search-url-2.png)
+
+Knowledge based (KB) article URL is now active and can be copied and shared.
 
 ### Filter knowledge articles
 
@@ -118,7 +176,8 @@ When you select the filter icon, you can see the **Filter by** menu where you ca
   | Date | <ul> <li> Last 7 days </li> <li> Last 30 days </li> <li> Last 6 months </li> <li> Last year </li> <li> All </li> </ul> |
   | Language | <ul> <li> List of languages </li> </ul> **Note:** The language list is based on the articles that are present in the those languages. For example, there are a total of 50 articles in five different languages such as French, English, Japanese, Spanish, and Danish. The language filter will show only these five languages. |
 
-  ![Knowledge article filter](media/km-filter1.png "Knowledge article filter")  
+  > [!div class=mx-imgBorder]
+  > ![Knowledge article filter](media/km-filter1.png "Knowledge article filter")  
 
 ### Sort knowledge articles
 
@@ -129,28 +188,37 @@ The knowledge base search control provides sort the knowledge articles interacti
 - Last modified date (newest first) 
 - Last modified date (oldest first)
 
-  ![Knowledge article sort](media/km-sort.png "Knowledge article sort")
+  > [!div class=mx-imgBorder]
+  > ![Knowledge article sort](media/km-sort.png "Knowledge article sort")
 
 ### Link and unlink the knowledge article to a record
 
-You can associate and dissociate the knowledge article with a record by using the **Link** and **Unlink** buttons.
+When configured, you can link an article to case. You can associate and dissociate the knowledge article with a record.
 
-  ![Knowledge article link and unlink buttons](media/km-link-unlink.png "Knowledge article link and unlink buttons") 
+  > [!div class=mx-imgBorder]
+  > ![Link to case](media/Knowledge-base-search-2.PNG)
+
+  
+1. From the navigation in the top right of the article there is a link icon. 
+2. When configured, you can select the link icon and this will link the article to a case.
+3. Articles that are linked to a case will display  **Linked to Case** in blue in the bottom left and the link icon will update and display as: ![Linked to case](media/km-linked-icon.png)
 
 ### Email the knowledge article
 
 Use the **Email** button to send the knowledge article via mail. When you select the **Email** button, first, the knowledge article is linked to the current case record. Simultaneously, an email form opens with the link to the article. The article content is populated in the email body. The fields are automatically populated based on the case and customer details. Add other information as needed, and then on the command bar, select **Send**.
 
-  ![Email knowledge article](media/km-email.png "Email knowledge article")
+  > [!div class=mx-imgBorder]
+  > ![Email knowledge article](media/km-email.png "Email knowledge article")
 
 ### View the knowledge article inline in the search control
 
 Select a article title to see its full content rendered in the same control. The article opens inline and you can scroll to read the complete article. In this view mode, you can perform the actions such as linking the knowledge article to a record and emailing the knowledge article to a customer. To learn more about send the knowledge articles via email, see [Email the knowledge article](#email-the-knowledge-article).
 
-  ![Knowledge article inline view](media/km-inline-article-view.png "Knowledge article inline view")
+  > [!div class=mx-imgBorder]
+  > ![Knowledge article inline view](media/km-inline-article-view.png "Knowledge article inline view")
 
 > [!Note]
-> - Select the **Copy Link** button ![Copy knowledge article link button Dynamics 365 for Customer Engagement](../customer-service/media/copy-link-button.png "Copy knowledge article link button Dynamics 365 for Customer Engagement") to copy the external URL of the article so you can share it with your customers over channels like chat or email.  If you use a browser other than [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)], this option isn’t available. 
+> - Select the **Copy Link** button ![Copy knowledge article link button Dynamics 365 Customer Service](../customer-service/media/copy-link-button.png "Copy knowledge article link button Dynamics 365 Customer Service") to copy the external URL of the article so you can share it with your customers over channels like chat or email.  If you use a browser other than [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)], this option isn’t available. 
 >
 > - Copy Link and Email Link options are available only if your organization is using an external portal to publish the knowledge articles and your administrator has selected the **Use an external portal** check box in the **Embedded Knowledge search** setup.  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use embedded knowledge search to set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md).
 >

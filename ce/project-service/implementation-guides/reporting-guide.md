@@ -1,6 +1,6 @@
 ---
 title: Reporting guide
-description: This topic provides links to information about reporting in Project Service Automation (PSA).
+description: This topic provides links to information about reporting.
 author: kfend
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-Project Service Automation (PSA) uses Dynamics 365 for Customer Engagement reporting methods and technologies to help you determine the health of your projects and identify when you need to take corrective action. 
+The reporting methods and technologies in this app can to help you determine the health of your projects and identify when you need to take corrective action. 
 
 The PDF link that was previously in this topic has been removed and the content has been moved to the following topics:
 

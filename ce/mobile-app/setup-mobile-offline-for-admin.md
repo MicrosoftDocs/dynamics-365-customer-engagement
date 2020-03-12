@@ -7,7 +7,7 @@ ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement apps
+applies_to: Dynamics 365 apps
 ms.assetid: 7f992770-8c7b-48ba-806a-63a3634d209c
 caps.latest.revision: 7
 ms.author: mkaur
@@ -32,7 +32,7 @@ Mobile offline allows your users to use the Dynamics 365 for phones app in offli
 
 To allows users to use this feature, a Dynamics 365 administrator will need to set up mobile offline for their organization. 
   
-This offline experience uses [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] services to periodically synchronize entities with the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] for phones and tablets apps so synchronized records are available when users’ mobile devices are disconnected. To enable mobile offline synchronization, follow the steps below.
+This offline experience uses [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] services to periodically synchronize entities with the Dynamics 365 for phones and tablets apps so synchronized records are available when users’ mobile devices are disconnected. To enable mobile offline synchronization, follow the steps below.
  
  
 ## Step 1: Enable entities for mobile offline synchronization 
@@ -346,7 +346,7 @@ Here are a few things to keep in mind about mobile offline synchronization:
   
 - Ensure that any view that you want to work in offline doesn’t reference the entities that are not offline-enabled. For example, assuming Account is in the offline profile, then an Account view that references the primary contact when Contact is not in the profile will not be available.
 
-- Changes to a user’s security privileges are updated during the next synchronization cycle. Until that time, users can continue to access data according to their previous security privileges, but any changes they make will be validated during the synchronization to the Customer Engagement server. If they no longer have privileges to make changes for a record, they will receive an error and the record won’t be created, updated, or deleted.
+- Changes to a user’s security privileges are updated during the next synchronization cycle. Until that time, users can continue to access data according to their previous security privileges, but any changes they make will be validated during the synchronization to the Dynamics 365 server. If they no longer have privileges to make changes for a record, they will receive an error and the record won’t be created, updated, or deleted.
 
 - Any changes to a user’s privilege to view a record won’t take effect on the mobile device until the next synchronization cycle.
   
@@ -366,7 +366,7 @@ It is recommended that you have at least one rule defined for all mobile offline
 
 |Profile details |Limitation|  
 |-------------|---------|  
-|User in profile|	1,000|
+|User in profile|	2,000|
 |Relationship defined for each entity|Maximum of 10 relationships. And maximum of one many to many (M:M) or one to many (1:M) relationships within those 10 relationships. If any custom entities demand this scenario, then revisit the data model. No circular references or self-references are supported.|
 
 
@@ -385,43 +385,42 @@ Ensure that you have configured at least one of the Profile rules for each entit
 ### Data volume recommendation 
 
 
-<!--Does 10k mean 10,000? If so, please change.-->
-
-
-The recommended data volume should be <= 10k records per user subscription.
+The recommended data volume should be <=  10,000 records per user subscription.
 
 ## Known issues
 
-**Business Process Flows**: Business process flows are not supported for mobile offline. When you are offline, business process flows grids and views will not be available and business process flows will not be rendered on records that are opened in offline mode. If a record containing a business process flow was loaded prior to going offline, business process flow functions, such as move next or move previous will not work. Business process flows support the ability to branch to a different set of stages, based on conditions defined on fields of the record. In offline mode, these conditions to determine the next set of stages in the business process flows will not be evaluated.
+- When you change the business unit of a user, then the user is removed from the mobile offline profile.
 
-**Qualify a lead**: When a lead created in mobile offline is qualified and when the user goes online, the business process stage will still show the  qualify stage. The user will have to manually click **Next stage** to move to the next stage.
+- **Business Process Flows**: Business process flows are not supported for mobile offline. When you are offline, business process flows grids and views will not be available and business process flows will not be rendered on records that are opened in offline mode. If a record containing a business process flow was loaded prior to going offline, business process flow functions, such as move next or move previous will not work. Business process flows support the ability to branch to a different set of stages, based on conditions defined on fields of the record. In offline mode, these conditions to determine the next set of stages in the business process flows will not be evaluated.
+
+- **Qualify a lead**: When a lead created in mobile offline is qualified and when the user goes online, the business process stage will still show the  qualify stage. The user will have to manually click **Next stage** to move to the next stage.
 
 
-**Views** are not supported for the following entities in offline mode: 
+- **Views** are not supported for the following entities in offline mode: 
 
-- Email
+  - Email
 
-- Task
+  - Task
 
-- Appointment
+  - Appointment
 
-- Fax
+  - Fax
 
-- Phonecall
+  - Phonecall
 
-- Letter
+  - Letter
 
-- Serviceappointment
+  - Serviceappointment
 
-- Campaignresponse
+  - Campaignresponse
 
-- Campaignactivity
+  - Campaignactivity
 
-- Recurringappointmentmaster
+  - Recurringappointmentmaster
 
-- Socialactivity
+  - Socialactivity
 
-Any views that have linked entities (related entity) that are not available offline are also not supported. 
+  Any views that have linked entities (related entity) that are not available offline are also not supported. 
 
 
 

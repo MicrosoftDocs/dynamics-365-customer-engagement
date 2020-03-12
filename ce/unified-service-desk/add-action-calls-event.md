@@ -3,20 +3,10 @@ title: "Add action calls to an event | MicrosoftDocs"
 description: "Learn about adding action calls to an event."
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
-ms.reviewer: 
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.date: 12/31/2018
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: 78b6080d-dfe4-43ee-a3b0-0653ce58bacd
-caps.latest.revision: 5
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -30,27 +20,23 @@ search.app:
 # Add action calls to an event
 You can add multiple action calls to an event, and the action calls will be executed in the order that is defined in the **Order** field of the event definition. To do so:  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to Unified Service Desk Administrator.  
   
-2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
+2. Select **Events** under **Basic Settings**.  
   
-3. Click **Events**.  
+3. Select an event from the list for which you want to add the action call. This opens the event page.
+
+4. Select the **Related** tab and select **Action Calls**.
+
+5. Select **Add Existing Action Call**. The **Lookup Records** pane is displayed.
+
+6. Type the name of the action call in the search box, and then select the action call that you want to add from the list. You can select as many action calls from the **Look Records** pane. After selecting the action calls, choose **Add**. 
   
-4. On the events list page, click the name of the event in the **Name** column that you want to add the action call to. This opens the event page.  
+   ![Add action call to an event](../unified-service-desk/media/usd-add-action-call-event.png "Add action call to an event") 
   
-5. On the event page, under the **Active Actions** area, click **+** to add action calls.  
+7. If you have added multiple action calls, double-click on each of the added action call record, specify the **Order** value, and then save the action call record. The order values are updated in the **Active Actions** area.   
   
-   ![Add action call to an event](../unified-service-desk/media/usd-add-action-call-event.png "Add action call to an event")  
-  
-6. A search box appears where you can search for the action call that you want to add to the event, if you want to create a new action call. After you search and select the required action call, it appears under the **Active Actions** area.  
-  
-7. Perform steps 5 and 6 for each action call you want to add.  
-  
-8. If you have added multiple action calls, double-click on each of the added action call record, specify the **Order** value, and then save the action call record. The order values are updated in the **Active Actions** area.  
-  
-   ![Action calls added to the event](../unified-service-desk/media/usd-event-action-list.png "Action calls added to the event")  
-  
-9. Click **Save**.  
+8. Select **Save**.  
   
 ### See also  
  [Action calls](../unified-service-desk/action-calls.md)   

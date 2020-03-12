@@ -1,6 +1,6 @@
 ---
 title: Upgrade home page
-description: This topic shows where to find important information about the new and changed features in Microsoft Dynamics 365 for Project Service Automation (PSA), and the process for upgrading to the newest version.
+description: This topic shows where to find important information about the new and changed features in Dynamics 365 Project Service Automation, and the process for upgrading to the newest version.
 manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom:
@@ -31,18 +31,18 @@ search.app:
 
 ### New instances
 
-As of May 17, 2019, when Microsoft Dynamics PSA is selected during the provisioning of a new instance, Project Service Automation (PSA) version 3.x is installed by default.
+As of May 17, 2019, when Project Service Automation is selected during the provisioning of a new instance, version 3.x is installed by default.
 
 ### Existing instances
 
-As of May 17, 2019, customers who have an instance of PSA version 2.x and need to upgrade to version 3.x, which is the Unified client interface-based (UCI) version of PSA, must contact support and provide the details of thier instance, so that support can enable the instance for upgrade to version 3.x.
+Previously, customers who have an instance of PSA version 2.x and needed to upgrade to version 3.x, which is the Unified client interface-based (UCI) version of PSA , had to contact Microsoft Support and provide the details of thier instance so that support could enable the instance for upgrade to version 3.x. As of March 1st, 2020, customers who have an instance of PSA version 2.x and need to upgrade to version 3.x, will able to upgrade their instances directly from the Admin portal without having to contact Microsoft Support.  
 
 > [!NOTE]
 > PSA version 3.x includes significant changes. It has been built on the Unified Interface framework to help provide an improved user experience. The redesigned app delivers a consistent, uniform user interface (UI), and it follows responsive design principles for optimal viewing on any screen size or device. There have been other changes throughout the application. Some of the areas that have been changed include pricing, booking and assigning resources, time, expenses, and approvals.
 
 Before you begin the upgrade process, we recommend that you complete the following tasks:
 
-- Verify whether both Microsoft Dynamics 365 for Field Service and PSA are installed on the identified instance. If both solutions are installed, you should plan to upgrade both before you resume regular use of the instance.
+- Verify whether both Dynamics 365 Field Service and Project Service Automation are installed on the identified instance. If both solutions are installed, you should plan to upgrade both before you resume regular use of the instance.
 - Carefully review the following topics. Awareness and understanding of the changes between versions will help you with the upgrade process. These topics provide information about the major changes in PSA, together with considerations and recommendations for planning your upgrade to version 3.x.
 
     - [What's new or changed in Project Service Automation version 3](whats-new-changed-v3.md)
@@ -56,7 +56,7 @@ After you've reviewed the topics that were mentioned earlier and are ready to up
 
 As of May 17, 2019, all new instances will have UCI as the default client. For alignment with this change, PSA version 3.x and Field Service version 8.x will be provisioned by default, because these versions are designed to work with the UCI client.
 
-If you're creating a new instance and want it to have older versions of Field Service and PSA (Field Service version 7.x and PSA version 2.x), make sure that you don't select Field Service or PSA during the instance provisioning process. Instead, after the instance is provisioned, log a support ticket that includes the details of your instance, so that support can enable your instance for older versions of Field Service and PSA.
+Starting March 1st 2020, customers of Dynamics PSA will no longer be able to create a new environments with older versions of PSA, for example PSA version 2.x or lower. Any new environment will be to get only version 3.x of PSA.
 
 > [!NOTE]
 > For the best experience when you use older versions of the Field Service and PSA applications, go to the **System settings** page and for the field, **Use the new Unified Interface only (recommended)** field, select **No** as these versions aren't designed to be correctly loaded in UCI. After you have turned off UCI, you can open and run these versions of Field Service and PSA by using the old web client. For instructions about how to turn off the UCI client, see [Enable unified interface only](../admin/enable-unified-interface-only.md).

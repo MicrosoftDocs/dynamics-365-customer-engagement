@@ -1,24 +1,13 @@
 ---
-title: "Walkthrough 7: Configure agent scripting in your agent application | MicrosoftDocs"
-description: ""
-keywords: 
-ms.date: 05/07/2018
+title: "Walkthrough 7  Configure agent scripting in your agent application | MicrosoftDocs"
+description: 
+ms.date: 12/31/2019
 ms.service: 
-  - usd
+  - "dynamics-365-customerservice"
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: E85F8E08-2C2C-4CC1-90B3-1E9656836B37
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 search.audienceType: 
   - customizer
   - developer
@@ -38,7 +27,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
 
 ## Prerequisites  
 
-- You must have completed [Walkthrough 1: Build a simple agent application for Unified Interface Apps](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md) and [Walkthrough 4: Display a Microsoft Dynamics 365 for Customer Engagement apps (Unified Interface apps) record in a session in your agent application](../unified-service-desk/walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md). The configurations that you completed in those walkthroughs are required in this walkthrough.  
+- You must have completed [Walkthrough 1: Build a simple agent application for Unified Interface Apps](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md) and [Walkthrough 4: Display a model-driven app (Unified Interface apps) record in a session in your agent application](../unified-service-desk/walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md). The configurations that you completed in those walkthroughs are required in this walkthrough.  
 
 - This walkthrough assumes that you’ll be using the same user credential that you used in walkthrough 1 to sign in to the agent application. If a different user will be testing the application, you must assign the user to **Contoso Configuration**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Walkthrough 1: Build a simple agent application for Unified Interface Apps](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md)  
 
@@ -79,31 +68,27 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
 ## Step 1: Create an Agent Scripting type of hosted control  
  An instance of the **Agent Scripting** type of hosted control must be available in your agent application to display agent scripts.  
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
-
-2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
-
-3. Click **Hosted Controls**.  
-
-4. Click **New**.  
-
-5. On the **New Hosted Control** page, specify the following values.  
+1. Sign in to Unified Service Desk Administrator.  
+  
+2. Select **Hosted Controls** under **Basic Settings**.  
+  
+3. Select **+ New**.  
+  
+4. On the **New Hosted Control** page, specify the following values:  
 
    |Field|Value|  
    |-----------|-----------|  
    |Name|Contoso Agent Scripting|  
    |USD Component Type|Agent Scripting|  
-   |Display Group|WorkflowPanel|  
+   |Display Group|WorkflowPanel|
 
-   ![Create an Agent Scripting hosted control](../unified-service-desk/media/usd-create-agent-scripting-hosted-control-unified-interface.png "Create an Agent Scripting hosted control") 
-
-6. Click **Save**.  
+5. Select **Save**.  
 
 <a name="Step2"></a>   
 ## Step 2: Create hosted controls to display the new case form and existing cases  
  In this step, you’ll create two hosted controls of Unified Interface Page type to display the new case creation form and existing cases for the current account.  
 
-1. On the hosted controls page, click **New**.  
+1. On the hosted controls page, select **+ New**.  
 
 2. On the **New Hosted Control** page, specify the following values:  
 
@@ -114,13 +99,11 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
    |USD Component Type|Unified Interface Page|  
    |Allow Multiple Pages|No|
    |Application is Global|Not checked|  
-   |Display Group|MainPanel|  
+   |Display Group|MainPanel|
 
-   ![Create a Unified Interface Page hosted control](../unified-service-desk/media/usd-create-page-hosted-control-2-case-form-unified-interface.png "Create a Unified Interface Page hosted control") 
+3. Select **Save**.  
 
-3. Click **Save**.  
-
-4. On the hosted controls page, click **New** to create another hosted control.  
+4. On the hosted controls page, select **+ New** to create another hosted control.  
 
 5. On the **New Hosted Control** page, specify the following values:  
 
@@ -133,21 +116,17 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
    |Application is Global|Not checked|  
    |Display Group|MainPanel|  
 
-   ![Create a Unified Interface Page hosted control](../unified-service-desk/media/usd-create-agent-script-task-existing-case-form-account-unified-interface.png "Create a Unified Interface Page hosted control")  
-
-6. Click **Save**.  
+6. Select **Save**.  
 
 <a name="Step3"></a>   
 ## Step 3: Create an agent script task  
  Create an agent script task to display when an account record is displayed in a session.  
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to Unified Service Desk Administrator.  
+  
+2. Select **Agent Scripts** under **Basic Settings**.
 
-2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
-
-3. Click **Agent Scripts**.  
-
-4. Click **New**.  
+3. Select **+ New**.  
 
 5. On the **New Agent Script Task** page, specify the following values:  
 
@@ -156,21 +135,17 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
    |Name|Contoso: Welcome to Account Session|  
    |Start Task|No|  
    |ScriptText|Welcome [[$Context.name]]. My name is [[$User.firstname]]. Is this call regarding a new or an existing service request?<br>**Note:**  We are using replacement parameters to dynamically display the account name and the current agent’s name to the agent at runtime.|  
-   |Instructions|Based on the customer response, click one of the tasks below.|  
+   |Instructions|Based on the customer response, select one of the tasks below.|
 
-   ![Create an agent script task](../unified-service-desk/media/usd-create-new-agent-script-task-2-unified-interface.png "Create an agent script task")
-
-6. Click **Save** to create the agent script.  
+6. Select **Save** to create the agent script.  
 
 <a name="Step4"></a>   
 ## Step 4: Add the answer, action call, and window navigation rule for creating a case from the agent script  
  In this step, you’ll create answer, action call, and window navigation rule for displaying a new case form with some prepopulated values from the currently active account record.  
 
-1. In the **Answers** area of the agent script task that you created in step 4, click **+** to create answer.  
+1. In the **Answers** area of the agent script task that you created in step 4, select **Add Existing Agent Script Answer** to create answer.  The **Lookup Records** pane is displayed.
 
-2. In the search box, press ENTER or click the search icon, and then click **New** in the search results box.  
-
-   ![Create an answer for an agent script task](../unified-service-desk/media/usd-create-answer-agent-script-task-unified-interface.png "Create an answer for an agent script task")
+2. Select the search icon, and then select **+ New Agent Script Answer**.
 
 3. On the **New Agent Script Answer** page, specify the following values:  
 
@@ -179,19 +154,15 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
    |Name|Contoso: New case|  
    |Answer Text|Create a case|  
    |Linked Task|Contoso: Welcome to Account Session|  
-   |Order|1|  
+   |Order|1|
 
-   ![Create an answer in Unified Service Desk](../unified-service-desk/media/usd-create-new-case-agent-script-answer-unified-interface.png "Create an answer in Unified Service Desk")
+4. Select **Save**.  
 
-4. Click **Save**.  
+5. Next, add an action call to this answer to display a new case form for the account when the agent selects this answer. Select the **Related** tab, and then select **Actions**.
 
-5. Next, add an action call to this answer to display a new case form for the account when the agent clicks this answer. On the nav bar, click the down arrow next to **Contoso: New case**, and select **Actions**.  
+6. On the next page, select **Add Existing Action Call**. The **Lookup records** pane is displayed. 
 
-   ![Create an action call for the answer](../unified-service-desk/media/usd-create-action-call-answer.png "Create an action call for the answer")  
-
-6. On the next page, click **Add Existing Action Call**.  
-
-7. In the search box, press ENTER or click the search icon, and then click **New** to create an action call.  
+7. Select the search icon in the search box, and then select **+ New Action Call** to create an action call.  
 
 8. On the **New Action Call** page, specify the following values:  
 
@@ -201,19 +172,23 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
    |Order|1|  
    |Hosted Control|Contoso new case form|  
    |Action|New_CRM_Page|  
-   |Data|LogicalName=incident<br /> customerid=EntityReference([[$Context.InitialEntity]],[[$Context.Id]])  <br /> customeridname=[[$Context.name]] <br /> primarycontactid=[[$Context.primarycontactid.id]+]  <br /> primarycontactidname=[[$Context.primarycontactid.name]+]<br>**Note:**  The new case form will be populated with the current account record data to help the agent quickly create a case for the customer.|  
+   |Data|LogicalName=incident<br /> customerid=EntityReference([[$Context.InitialEntity]],[[$Context.Id]])  <br /> customeridname=[[$Context.name]] <br /> primarycontactid=[[$Context.primarycontactid.id]+]  <br /> primarycontactidname=[[$Context.primarycontactid.name]+]<br>**Note:**  The new case form will be populated with the current account record data to help the agent quickly create a case for the customer.|
 
-   ![Create an action call in Unified Service Desk](../unified-service-desk/media/usd-new-agent-script-answer-create-case-new-action-call-unified-interface.png "Create an action call in Unified Service Desk") 
+9. Select **Save**.
 
-9. Click **Save**.  
+10. Select the back button on the browser to go back to the **Contoso: New case** page.
 
-10. Next, create a window navigation rule to display the new case form. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)] 
+11. Select **Add Existing Action Call**. The **Lookup records** pane is displayed.
 
-11. Click **Window Navigation Rules**.  
+12. Type the name of the action call. Select the record from the search results, and then select **Add**.
 
-12. Click **New**.  
+13. Next, create a window navigation rule to display the new case form. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)] 
 
-13. On the **New Window Navigation Rule** page, specify the following values.  
+  Select **Window Navigation Rules**.  
+
+14. Select **+ New**.  
+
+15. On the **New Window Navigation Rule** page, specify the following values.  
 
     |Field|Value|  
     |-----------|-----------|  
@@ -227,17 +202,15 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
     |Hide Command Bar|No|  
     |Hide Navigation Bar|Yes|
 
-    ![Create a window navigation rule](../unified-service-desk/media/usd-new-navigation-rule-case-account-session-rule.png "Create a window navigation rule")  
-
-14. Click **Save**.  
+16. Select **Save**.  
 
 <a name="Step5"></a>   
 ## Step 5: Add the answer and action calls for displaying existing cases  
  In this step, add answer and action calls for displaying existing cases for the current account.  
 
-1. In the **Answers** area of the **Contoso: Welcome to Account Session** agent script, click **+** to create an answer.  
+1. In the **Answers** area of the **Contoso: Welcome to Account Session** agent script, select **+ Add Existing Agent Script Answer** to create an answer.  
 
-2. In the search box, press ENTER or click the search icon, and then click **New** in the search results box.  
+2. Select the search icon, and then select **+ New Agent Script Answer**.  
 
 3. On the **New Agent Script Answer** page, specify the following values.  
 
@@ -250,13 +223,13 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
    |    Order    |                  2                  |
 
 
-4. Click **Save**.  
+4. Select **Save**.  
 
-5. Next, add an action call to this answer to display the existing cases for the current account. On the nav bar, click the down arrow next to **Contoso: Existing Cases**, and select **Actions**.  
+5. Next, add an action call to this answer to display the existing cases for the current account. Select the **Related** tab, and then select **Actions**.  
 
-6. On the next page, click **Add Existing Action Call**.  
+6. On the next page, select **Add Existing Action Call**.  
 
-7. In the search box, press ENTER or click the search icon, and then click **New** to create an action call.  
+7. Select the search icon in the search box, and then select **+ New Action Call** to create an action call.   
 
 8. On the **New Action Call** page, specify the following values:  
 
@@ -270,9 +243,9 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
    |      Data      | etn=[[$Context.InitialEntity]]<br/>id=[[$Context.Id]] <br/>navitemid=navService |
 
 
-9. Click **Save**.  
+9. Select **Save**.  
 
-10. Add another action call to set the focus on the new case form. On the **New Action Call** page, specify the following values:  
+10. Add another action call to set the focus on the new case form. Repeat Steps 6 and 7, and specify the following values:  
 
     |Field|Value|  
     |-----------|-----------|  
@@ -280,21 +253,29 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
     |Order|2|  
     |Hosted Control|Contoso Global Manager|  
     |Action|ShowTab|  
-    |Data|Contoso existing cases for an account|  
+    |Data|Contoso existing cases for an account|
 
-    ![Create an action call in Unified Service Desk](../unified-service-desk/media/usd-create-action-call-set-focus-existing-cases.png "Create an action call in Unified Service Desk") 
+11. Select **Save**.
 
-11. Click **Save**.  
+12. Select the back button on the browser to go back to the **Contoso: New case** page.
+
+13. Select **Add Existing Action Call**. The **Lookup records** pane is displayed.
+
+14. Type the name of the action call. Select the record from the search results, and then select **Add**.
+
+15. Select **Save**.
 
 <a name="Step6"></a>   
 ## Step 6: Add the answer and action calls for closing the session  
  In this step, add answer and action calls for closing the current session.  
 
-1. In the **Answers** area of the **Contoso: Welcome to Account Session** agent script, click **+** to create an answer.  
+1. In the **Answers** area of the **Contoso: Welcome to Account Session** agent script, select **+ Add Existing Agent Script Answer** to create an answer.  
 
-2. In the search box, press ENTER or click the search icon, and then click **New** in the search results box.  
+2. Select the search icon, and then select **+ New Agent Script Answer**.  
 
-3. On the **New Agent Script Answer** page, specify the following values:  
+3. On the **New Agent Script Answer** page, specify the following values.   
+
+4. On the **New Agent Script Answer** page, specify the following values:  
 
 
    |    Field    |                Value                |
@@ -305,77 +286,75 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
    |    Order    |                  3                  |
 
 
-4. Click **Save**.  
+5. Select **Save**.  
 
-5. Next, add an action call to this answer to close the session. On the nav bar, click the down arrow next to **Contoso: Close session**, and select Actions.  
+6. Next, add an action call to this answer to close the session. Select the **Related** tab, and then select **Actions**.  
 
-6. On the next page, click **Add Existing Action Call**.  
+7. On the next page, select **Add Existing Action Call**.  
 
-7. In the search box, press ENTER or click the search icon, and then click **New** to create an action call.  
+8. Select the search icon in the search box, and then select **+ New Action Call** to create an action call.   
 
-8. On the **New Action Call** page, specify the following values.  
+9. On the **New Action Call** page, specify the following values:    
 
    |Field|Value|  
    |-----------|-----------|  
    |Name|Contoso Action Call: Close Session|  
-   |Hosted Control|Contoso Session Tab <br> **Note:**  The Contoso Session Tab hosted control was created in [Walkthrough 4: Display a Microsoft Dynamics 365 for Customer Engagement apps (Unified Interface apps) record in a session in your agent application](../unified-service-desk/walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md).|  
+   |Hosted Control|Contoso Session Tab <br> **Note:**  The Contoso Session Tab hosted control was created in [Walkthrough 4: Display a model-driven app (Unified Interface apps) record in a session in your agent application](../unified-service-desk/walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md).|  
    |Action|CloseSession|  
-   |Data|sessionid=[[$Context.SessionId]]|  
+   |Data|sessionid=[[$Context.SessionId]]|
 
-   ![Create an action call in Unified Service Desk](../unified-service-desk/media/usd-create-close-session-action-call.png "Create an action call in Unified Service Desk") 
+10. Select **Save**. 
 
-9. Click **Save**.  
+11. Select the back button on the browser to go back to the **Contoso: New case** page.
+
+12. Select **Add Existing Action Call**. The **Lookup records** pane is displayed.
+
+13. Type the name of the action call. Select the record from the search results, and then select **Add**.
+
+14. Select **Save**.
 
 <a name="Step7"></a>   
 ## Step 7: Create an action call to display the agent script  
  In this step, create an action call to display the agent script.  
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to Unified Service Desk Administrator.    
 
-2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
+2. Select **Action Calls** under **Basic Settings**.  
 
-3. Click **Action Calls**.  
+3. Select **+ New**.  
 
-4. Click **New**.  
-
-5. On the **New Action Call** page, specify the following values.  
+4. On the **New Action Call** page, specify the following values.  
 
    |Field|Value|  
    |-----------|-----------|  
    |Name|Contoso Action Call: Load Agent Script|  
    |Hosted Control|Contoso Agent Scripting|  
    |Action|GoToTask|  
-   |Data|Contoso: Welcome to Account Session|  
+   |Data|Contoso: Welcome to Account Session|
 
-   ![Create an action call in Unified Service Desk](../unified-service-desk/media/usd-create-add-load-agent-script-action-call.png "Create an action call in Unified Service Desk")  
-
-6. Click **Save**.  
+5. Select **Save**.  
 
 <a name="Step8"></a>   
 ## Step 8: Display the agent script when the account record is displayed in a session  
- In this step, add the action call created in the previous step to the **PageReady** event on the **Contoso Account Session** hosted control so that after it’s loaded, the action call is executed to load the agent script. The **Contoso Account Session** hosted control was created in [Walkthrough 4: Display a Microsoft Dynamics 365 for Customer Engagement apps (Unified Interface apps) record in a session in your agent application](../unified-service-desk/walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md).  
+ In this step, add the action call created in the previous step to the **PageReady** event on the **Contoso Account Session** hosted control so that after it’s loaded, the action call is executed to load the agent script. The **Contoso Account Session** hosted control was created in [Walkthrough 4: Display a model-driven app (Unified Interface apps) record in a session in your agent application](../unified-service-desk/walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md).  
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to Unified Service Desk Administrator.  
 
-2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
+2. Select **Hosted Controls** under **Basic Settings**.  
 
-3. Click **Hosted Controls**.  
+3. Search for the **Contoso Account Session** hosted control, and select it to open the hosted control definition. 
 
-4. Search for the **Contoso Account Session** hosted control, and click it to open the hosted control definition. 
-
-5. On the nav bar, click the down arrow next to **Contoso Account Session**, and then click **Events**.  
+4. Select the **Related** tab, and then select **Events**.  
 
    ![Configure events for a hosted control](../unified-service-desk/media/usd-configure-events-hosted-control.png "Configure events for a hosted control")  
 
-6. On the events page, click **PageReady**.  
+5. On the events page, select **PageReady**.  
 
-7. On the **PageReady** page, click **+** in the **Active Actions** area to add an action call to the event.  
+6. On the **PageReady** page, select **+ Add Existing Action Calls**.  
 
-8. In the search box, type “`Contoso Action Call: Load Agent Script`”, and press ENTER or click the search icon.  
+7. Type **Contoso Action Call: Load Agent Script** in the search box.Select action call from the list, and then select **Add**.
 
-9. In the search results, click **Contoso Action Call: Load Agent Script** to add it.  
-
-10. Click **Save**.  
+8. Select **Save**.  
 
 <a name="Step9"></a>   
 ## Step 9: Add the controls to the configuration  
@@ -398,50 +377,62 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
 
  To add a control to the configuration:  
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to Unified Service Desk Administrator. 
 
-2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
+2. Select **Configuration** under **Advanced Settings**.  
 
-3. Click **Configuration**.  
+3. Select **Contoso Configuration** to open the definition.  
 
-4. Click **Contoso Configuration** to open the definition.  
+4. Select the **Hosted Controls, Events and Action Calls** tab.  
 
-5. On the nav bar, click the down arrow next to **Contoso Configuration**, and select **Action Calls**.  
+5. Select the ellipsis (...) in the **Action Calls** section, and then select **Add Existing Action Call**. The **Lookup Records** pane is displayed.
 
-6. On the next page, click **Add Existing Action Call**, type “Contoso Action Call” in the search bar, and then press ENTER or click the search icon.  
+6. Type he name of the action call mentioned in the above table in the search box. The action calls are displayed in the search results. Select the record from the list, and then select **Add**.
 
-7. Select the five action calls from the search results box to add them to **Contoso Configuration**.  
+7. Select the ellipsis (...) in the **Hosted Controls** section, and then select **Add Existing Hosted Control**. The **Lookup Records** pane is displayed.  
 
-8. Similarly, add the agent script, hosted controls, and window navigation rule by clicking the down arrow next to **Contoso Configuration**, and clicking **Agent Scripts** **Hosted Controls** and **Window navigation Rules** respectively.  
+8. Type the name of the hosted control mentioned in the above table in the search box. The hosted controls are displayed in the search results. Select the record from the list, and then select **Add**. 
 
-9. Click **Save**. 
+9. Select the **Toolbars, Window Navigation Rules and Entity Searches** tab. 
+
+10. Select the ellipsis (...) in the **Window Navigation Rules** section, and then select **Add Existing Window Navigation Rule**. The **Lookup Records** pane is displayed. 
+
+11. Type the name of the Window Navigation Rule mentioned in the above table in the search box. The rule is displayed in the search results. Select the record from the list, and then select **Add**.
+
+12. Select the **Session Lines, Agent Scripts and Scriptlets** tab.  
+
+13. Select the ellipsis (...) in the **Agent Scripts** section, and then select **Add Existing Agent Script**. The **Lookup Records** pane is displayed.
+
+14. Type he name of the agent scrit mentioned in the above table in the search box. The agent scripts are displayed in the search results. Select the record from the list, and then select **Add**.  
+  
+15. Select **Save**.
 
 <a name="Step10"></a>   
 ## Step 10: Test the application  
 
-1. Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instance where you configured [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] by using the same user credentials that is assigned to Contoso Configuration in [Walkthrough 1: Build a simple agent application for Unified Interface Apps](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md). For information about connecting to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instance using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, see [Connect to CRM instance using the Unified Service Desk client](../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md)  
+1. Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the Common Data Service platform instance where you configured [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] by using the same user credentials that is assigned to Contoso Configuration in [Walkthrough 1: Build a simple agent application for Unified Interface Apps](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md). For information about connecting to the Common Data Service platform instance using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, see [Connect to CRM instance using the Unified Service Desk client](../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md)  
 
-2. Click the down arrow next to the **SEARCH** button in the toolbar, and then click **Account** to display the account records from your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instance.  
+2. Select the down arrow next to the **SEARCH** button in the toolbar, and then select **Account** to display the account records from your model-driven app.  
 
-3. Click the expander to display the left pane.  
+3. Select the expander to display the left pane.  
 
    ![Choose the expander in Unified Service Desk](../unified-service-desk/media/usd-choose-expander.png "Choose the expander in Unified Service Desk")  
 
-4. Click on any of the account records to display the respective account information in a session. In the left pane, the **Contoso: Welcome to Account Session** agent script appears.  
+4. Select on any of the account records to display the respective account information in a session. In the left pane, the **Contoso: Welcome to Account Session** agent script appears.  
 
    ![Agent script in Unified Service Desk](../unified-service-desk/media/usd-agent-script.png "Agent script in Unified Service Desk")  
 
 5. In the agent script:  
 
-   1.  Click **New case** to open a new case form with pre-populated values (in the red box) from the current account record.  
+   1.  Select **New case** to open a new case form with pre-populated values (in the red box) from the current account record.  
 
    ![New case form using the agent script](../unified-service-desk/media/usd-new-case-form-agent-script.png "New case form using the agent script")  
 
-   2.  Click **Display existing cases** to display the associated cases for the current account record.  
+   2.  Select **Display existing cases** to display the associated cases for the current account record.  
 
    ![Display existing cases for an account](../unified-service-desk/media/usd-show-cases-account.png "Display existing cases for an account")  
 
-   3.  Click **Close session** to close the current session.  
+   3.  Select **Close session** to close the current session.  
 
 <a name="Conclusion"></a>   
 ## Conclusion  
@@ -459,9 +450,9 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
 
  [Walkthrough 2: Display an external webpage in your agent application](../unified-service-desk/walkthrough2-unified-interface-display-an-external-webpage-in-your-agent-application.md)
 
- [Walkthrough 3: Display Microsoft Dynamics 365 for Customer Engagement apps (Unified Interface apps) records in your agent application](../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md)
+ [Walkthrough 3: Display model-driven app (Unified Interface apps) records in your agent application](../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md)
 
- [Walkthrough 4: Display a Microsoft Dynamics 365 for Customer Engagement apps (Unified Interface apps) record in a session in your agent application](../unified-service-desk/walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md)
+ [Walkthrough 4: Display model-driven app (Unified Interface apps) record in a session in your agent application](../unified-service-desk/walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md)
 
  [Walkthrough 5: Display enhanced session information by displaying session name and overview data](../unified-service-desk/walkthrough5-unified-interface-display-enhanced-session-information-displaying-session-name-overview-data.md)
 

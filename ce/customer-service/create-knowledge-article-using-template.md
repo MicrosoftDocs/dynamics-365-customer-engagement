@@ -1,17 +1,15 @@
 ---
-title: Create a knowledge article using a template (Dynamics 365 for Customer Service) | MicrosoftDocs
+title: Create a knowledge article using a template (Developer Guide for Dynamics 365 Customer Service) | MicrosoftDocs
 description: "Read how you can create a knowledge article from an existing template using msdyn_GetKAObjectFromTemplate action"
-keywords: Customer Service Hub; Customer Service;  Microsoft Dynamics 365 for Customer Engagement;
 author: susikka
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.author: susikka
 manager: shujoshi
 ms.date: 07/30/2019
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.assetid: 14948307-A824-4DA6-BE20-6B323182FCDF
-ms.custom: dyn365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - developer
 search.app: 

@@ -39,9 +39,9 @@ For example, Contoso US sold 100 t-shirts to a customer in the UK for 15 ounds s
 The **Currency** column shows the transaction currency, which is the currency that the sale occurred in. The **Exchange rate** column is the exchange rate between the transaction currency and the base currency. The base currency is US dollar (USD). This base currency was set up when the Dynamics 365 instance was provisioned.
 As the table shows, every transaction is recorded in both the transaction currency and the base currency. Dynamics 365 uses the currency exchange rate to calculate the base currency amounts.
 
-## PSA extensions
+## Project Service Automation extensions
 
-Microsoft Dynamics 365 for Project Service Automation (PSA) influences the transaction currency, because business transactions usually have two aspects: cost and sales.
+Dynamics 365 Project Service Automation influences the transaction currency, because business transactions usually have two aspects: cost and sales.
 
 The following entities are considered business transactions:
 

@@ -1,5 +1,5 @@
 ---
-title: Schedule time off (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: Schedule time off 
 description: How to schedule time off in Project Service
 author: revathimuthiah
 manager: kfend

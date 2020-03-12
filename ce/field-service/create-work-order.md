@@ -1,21 +1,19 @@
 ---
-title: "Create a work order (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Create a work order (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 05/16/2019
-ms.reviewer: 
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.technology: 
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: 9279d5ba-505c-4cf3-9e3f-1436ab7f52a4
 caps.latest.revision: 24
-ms.author: krbjoran
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin
@@ -31,9 +29,12 @@ A work order in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
   
  A work order is usually created from a case or opportunity. It is then scheduled either manually or using the schedule assistant and then dispatched. Once the work is complete, it is reviewed and approved by a manager.  
   
-> [!NOTE]
+> [!Note]
 >  Products, service tasks, and characteristics are added automatically when you create a work order from an incident. Otherwise you can add them manually when you create a work order.   
   
+> [!Note]
+> Along with this article, see [this video on work orders](https://youtu.be/lblmqd7qFwg).
+
 <a name="BKMK_workorderlifecycle"></a>   
 ## Work order lifecycle  
   
@@ -49,7 +50,7 @@ A work order in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
   
 - **Invoice and inventory adjustment**: Inventory adjustments are made and an invoice is generated for the corresponding account.  
   
-  ![Work order lifecycle in Dynamics 365 for Customer Engagement field service](../field-service/media/field-service-work-order-lifecycle.png "Work order lifecycle in Dynamics 365 for Customer Engagement field service")  
+  ![Work order lifecycle in Dynamics 365 field service](../field-service/media/field-service-work-order-lifecycle.png "Work order lifecycle in Dynamics 365 field service")  
   
 ||||||||  
 |-|-|-|-|-|-|-|  
@@ -108,7 +109,7 @@ A work order in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
   
 ### See also  
     
- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
+ [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
  [Submit and approve time-off requests](../field-service/submit-approve-time-off-requests.md)   
  [Schedule a work order](../field-service/schedule-work-order.md)   
  [Configure the schedule board](../field-service/configure-schedule-board.md)<br>

@@ -1,6 +1,6 @@
 Field service organizations often perform preventative maintenance, inspections, repairs, and other types of services by sending field technicians to multiple customer sites, and they must actively manage locations and routes. This makes understanding and minimizing travel time critical for a field service organization's success.
 
-Using Bing Maps API by default, Dynamics 365 for Field Service calculates the driving travel time and distance as field technicians travel:
+Using Bing Maps API by default, Dynamics 365 Field Service calculates the driving travel time and distance as field technicians travel:
 
 - From their personal address to a work order location.
 - From a company address to a work order location.
@@ -63,7 +63,7 @@ For example, a work order requirement that is manually scheduled to a resource a
 Organizations that operate in small contained geographic areas can add a generic 30 minutes to the work order durations either manually or by inflating the incident durations to roughly estimate travel but still utilize manual scheduling.
 
 > [!NOTE]
-> As of Dynamics 365 for Field Service version 8.6, travel time and distance calculations can be added to bookings that are **manually scheduled**. 
+> As of Dynamics 365 Field Service version 8.6, travel time and distance calculations can be added to bookings that are **manually scheduled**. 
 
 In addition to completing the tasks mentioned earlier in this topic, you need to go to **Resource Scheduling > Settings > Administration > Scheduling Parameters** and set **Auto Update Booking Travel** to **Enabled**.
 
@@ -180,7 +180,7 @@ To help with scheduling decisions, current traffic patterns and accidents can be
 
 Scheduling based on real-time traffic is generally not applicable because most organizations schedule days or weeks in advance, and you can't predict real-time traffic ahead of time. 
 
-Bing Maps and other mapping providers can provide real-time and historical travel-time calculations, and this information can be called with [Microsoft Flow](https://flow.microsoft.com/galleries/public/templates/71e9c3773102499fafba51edf94ebbd7/get-travel-time-and-distance-in-current-traffic-to-reach-the-destination/) to calculate whether the current travel time is greater than the estimated travel time and automatically update the booking status accordingly.
+Bing Maps and other mapping providers can provide real-time and historical travel-time calculations, and this information can be called with [Power Automate](https://flow.microsoft.com/galleries/public/templates/71e9c3773102499fafba51edf94ebbd7/get-travel-time-and-distance-in-current-traffic-to-reach-the-destination/) to calculate whether the current travel time is greater than the estimated travel time and automatically update the booking status accordingly.
 
 If a field technician begins travel to their next work order and sees that the travel time is much longer than estimated by the system, they should indicate this with a custom booking status of "running late," so dispatchers can plan accordingly. 
 

@@ -1,20 +1,12 @@
 ---
-title: "Hosted control types, actions, and events in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
+title: "Hosted control types, actions, and events in Unified Service Desk | MicrosoftDocs"
+description: 
 ms.custom: 
   - dyn365-USD
 ms.date: 04/24/2018
-ms.reviewer: 
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: 17eec4a8-03a4-467b-af3e-de99fcab4e22
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -26,7 +18,7 @@ search.app:
   - D365USD
 ---
 # Hosted control types, actions, and events in Unified Service Desk
-There are various types of predefined hosted controls available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to let you build different controls and user experiences in your agent application. For example, to manage all the connections from your agent application to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps, you create a hosted control of the **Connection Manager** type. To display data from a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps page, you create a hosted control of the **CRM Page** type.  
+There are various types of predefined hosted controls available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to let you build different controls and user experiences in your agent application. For example, to manage all the connections from your agent application to the Common Data Service platform, you create a hosted control of the **Connection Manager** type. To display data from a model-driven apps page, you create a hosted control of the **CRM Page** type.  
   
 > [!NOTE]
 >  The **Ribbon Hosted Control** type is for internal use only. You must not use this hosted control type in your agent applications.  

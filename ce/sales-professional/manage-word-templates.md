@@ -1,35 +1,31 @@
 ---
-title: "Create and manage Word templates in Dynamics 365 for Sales Professional | MicrosoftDocs"
-description: "Create templates in Dynamics 365 for Sales Professional so all documents that go out to your customers have a consistent look per your organization’s branding guidelines."
-keywords: ""
-ms.date: 04/05/2019
-ms.service: dynamics-365-sales
+title: "Create and manage Word templates in Dynamics 365 Sales Professional | MicrosoftDocs"
+description: "Create templates in Dynamics 365 Sales Professional so all documents that go out to your customers have a consistent look per your organization’s branding guidelines."
+ms.date: 10/01/2019
+ms.service: 
+  - dynamics-365-sales
+ms.custom: 
+  - dyn365-sales
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
-ms.assetid: b429d592-627b-485e-9183-f7922e769de8
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.custom: dyn365-sales
 ---
 
-# Create and manage Word templates in Dynamics 365 for Sales Professional
+# Create and manage Word templates in Dynamics 365 Sales Professional
 
 > [!IMPORTANT]
-> This capability is introduced in the Dynamics 365 for Sales Professional app version 9.1.0.0.
+> This capability is introduced in the Dynamics 365 Sales Professional app version 9.1.0.0.
 
-Microsoft Word provides powerful ways to present your Dynamics 365 for Sales Professional data in a standardized and well-formatted document. Use Word templates to ensure that all the documents that go out to your customers have a consistent look per your organization’s branding. You can easily create and share your template with others.
+Microsoft Word provides powerful ways to present your Dynamics 365 Sales Professional data in a standardized and well-formatted document. Use Word templates to ensure that all the documents that go out to your customers have a consistent look per your organization’s branding. You can easily create and share your template with others.
 
-Once templates are created, users can generate standardized documents automatically populated with Dynamics 365 for Sales Professional data with just a click.
+Once templates are created, users can generate standardized documents automatically populated with Dynamics 365 Sales Professional data with just a click.
 
-Follow the steps in this topic to successfully create Word templates in Dynamics 365 for Sales Professional.
+Follow the steps in this topic to successfully create Word templates in Dynamics 365 Sales Professional.
 
 ## Step 1: Create a Word template
 
-1.  Make sure you have the System Administrator role in Dynamics 365 for Sales Professional.
+1.  Make sure you have the System Administrator role in Dynamics 365 Sales Professional.
 
 2.  In the site map, select **Sales Settings**.
 
@@ -47,7 +43,7 @@ Follow the steps in this topic to successfully create Word templates in Dynamics
 
 7.  To add the fields that you want to be included in the Word template, select **Choose Related Entities**. The **Choose Related Entity** dialog box opens.
 
-    The relationships you select on this screen determine which entities and fields are available later, when you define the Word template. Select only the relationships you need to add Dynamics 365 for Sales Professional data to the Word template. When you’re done,  select **Done**.
+    The relationships you select on this screen determine which entities and fields are available later, when you define the Word template. Select only the relationships you need to add Dynamics 365 Sales Professional data to the Word template. When you’re done,  select **Done**.
 
     Here are some example relationships for the Account entity:
 
@@ -76,7 +72,7 @@ Open the Word template file. At this point, the document appears to be blank.
 
 ![Blank Word template](media/blank-word-template.png "Blank Word template")
 
-To see and add Dynamics 365 for Sales Professional XML data, you need to enable the Word Developer tab.
+To see and add Dynamics 365 Sales Professional XML data, you need to enable the Word Developer tab.
 
 1.  Go to **File** \> **Options** \> **Customize Ribbon**, and then select the **Developer** check box.
 
@@ -91,7 +87,7 @@ To see and add Dynamics 365 for Sales Professional XML data, you need to enable 
 
 ## Step 3: Define the Word template
 
-Use the XML Mapping Pane to define the Word template with Dynamics 365 for Sales Professional entity fields.
+Use the XML Mapping Pane to define the Word template with Dynamics 365 Sales Professional entity fields.
 
 1.  In your Word template, select **Developer** \> **XML Mapping Pane**.
 
@@ -101,9 +97,9 @@ Use the XML Mapping Pane to define the Word template with Dynamics 365 for Sales
 
     ![Default XML schema selected in XML Mapping Pane](media/default-xml-schema-selected.png "Default XML schema selected in XML Mapping Pane")
 
-2.  Select the Dynamics 365 for Sales Professional XML schema. It will begin with “urn:microsoft-crm/document-template/”.
+2.  Select the Dynamics 365 Sales Professional XML schema. It will begin with “urn:microsoft-crm/document-template/”.
 
-    ![Select the schema for Dynamics 365 for Sales Professional](media/select-schema-sales-professional.png "Select the schema for Dynamics 365 for Sales")
+    ![Select the schema for Dynamics 365 Sales Professional](media/select-schema-sales-professional.png "Select the schema for Dynamics 365 Sales")
 
       >[!IMPORTANT]
       >If you have frequent accidental edits that cause Word to freeze or have performance degradation, be sure to turn off the AutoCorrect options according to the section: “A known issue and how to avoid it”.
@@ -112,7 +108,7 @@ Use the XML Mapping Pane to define the Word template with Dynamics 365 for Sales
 
     ![Insert content as Plain Text](media/insert-content-as-plain-text.png "Insert content as Plain Text")
 
-    The field from Dynamics 365 for Sales Professional is added to the Word template.
+    The field from Dynamics 365 Sales Professional is added to the Word template.
 
     ![Field added to Word doc](media/field-added-to-word-doc.png "Field added to Word doc")
 
@@ -136,15 +132,15 @@ Use the XML Mapping Pane to define the Word template with Dynamics 365 for Sales
 
     ![Set the content control fields to repeat in Word template](media/set-content-control-fields.png "Set the content control fields to repeat in Word template")
 
-When you use the Word template in Dynamics 365 for Sales Professional to create a document, the table populates with multiple rows of data.
+When you use the Word template in Dynamics 365 Sales Professional to create a document, the table populates with multiple rows of data.
 
-When the template has the fields and formatting you want, save it, and upload it into Dynamics 365 for Sales Professional.
+When the template has the fields and formatting you want, save it, and upload it into Dynamics 365 Sales Professional.
 
 ## Step 4: Upload the Word template back into the Sales app
 
-When you have your Word template built the way you want, save it so you can upload it into Dynamics 365 for Sales Professional.
+When you have your Word template built the way you want, save it so you can upload it into Dynamics 365 Sales Professional.
 
-An administrator can use the **Advanced Settings** page to upload the Word template into Dynamics 365 for Sales Professional.
+An administrator can use the **Advanced Settings** page to upload the Word template into Dynamics 365 Sales Professional.
 
 > [!NOTE]
 > Users in your organization can see the templates available to them by selecting the **Word Templates** button on the command bar in the list of records.

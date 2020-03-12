@@ -8,8 +8,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps 
-  - Dynamics 365 for Customer Engagement apps (on-premises)
+  - Dynamics 365 apps 
+  - Dynamics 365 apps (on-premises)
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -28,7 +28,7 @@ search.app:
   - D365Outlook
 ---
 # Work offline with Dynamics 365 for Outlook
-You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] to access your [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] data when you’re on the go. For example, if you travel to a customer’s site, you can look up your Dynamics 365 for Customer Engagement apps contacts, review and add new notes, and more without connecting to the Internet.  
+You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] to access your [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] data when you’re on the go. For example, if you travel to a customer’s site, you can look up your Dynamics 365 apps contacts, review and add new notes, and more without connecting to the Internet.  
   
  When you go offline with [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], the software copies a subset of [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data to your computer’s hard drive. Changes you make while you’re offline are stored locally. When you connect to the server again, the changes are automatically synchronized with the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] server.  
  
@@ -138,7 +138,7 @@ The following operating systems are supported for offline mode.
   
 - **Workflows.** When you work offline, [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] disables workflow notifications. If the changes you make offline are set to trigger an automated workflow process or a system job, the process is automatically triggered when you go back online.  
   
-- **Duplicate detection.** [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] disables duplicate detection when you’re offline. Duplicate detection is automatically re-enabled when you go back online. You can set a personal option to determine how duplicate records are handled during synchronization. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set personal options that affect tracking and synchronization between Dynamics 365 for Customer Engagement apps and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)  
+- **Duplicate detection.** [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] disables duplicate detection when you’re offline. Duplicate detection is automatically re-enabled when you go back online. You can set a personal option to determine how duplicate records are handled during synchronization. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set personal options that affect tracking and synchronization between Dynamics 365 apps and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)  
   
 - **Undelivered messages.** Email messages can fail to be delivered if the mail server is down, or can be blocked if the recipient doesn’t want to receive the email. If this happens, [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] saves the email message to your **Drafts** folder, but [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] creates a closed activity. In [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)], use the **Pending E-mail** view to see unsent messages.  
   

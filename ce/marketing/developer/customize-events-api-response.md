@@ -1,5 +1,5 @@
 ---
-title: "Customize the response from Events API (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
+title: "Customize the response from Events API (Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
 description: ""
 ms.custom: 
   - dyn365-developer
@@ -9,8 +9,6 @@ ms.service: dynamics-365-marketing
 ms.technology: 
   - marketing
 ms.topic: conceptual
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: E4C8E854-A635-435D-9385-492D79A65877
 author: susikka
 ms.author: susikka
@@ -31,7 +29,7 @@ However, it is possible to expose the new field in the Events API by creating a 
 
 To create a new website entity configuration: 
 
-1. Open your Dynamics 365 instance. 
+1. Open your Dynamics 365 Marketing instance. 
 2. Go to **Dynamics 365** > **Marketing** > **Settings** > **Website Entity Configurations**. 
 3. Enter a name of your choice in the `Name` field. 
 4. Select the entity for which you would like to expose an extra field in the `Selected Entity` field. 

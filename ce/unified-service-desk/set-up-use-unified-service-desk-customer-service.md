@@ -1,37 +1,25 @@
 ---
-title: "Set up and use Unified Service Desk for Dynamics 365 for Customer Engagement apps for customer service | MicrosoftDocs"
+title: "Set up and use Unified Service Desk for customer service | MicrosoftDocs"
 description: "Learn about using Unified Service Desk-related entities to configure an agent application."
 ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: 
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-  - Dynamics CRM Online
-ms.assetid: 1a05c3e7-ec83-452b-be48-102d7354f849
-caps.latest.revision: 24
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-tags: 
-  - MigrationHO
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+tags: MigrationHO
 ---
 # Set up and use Unified Service Desk for customer service
-Give your customer service reps immediate access to business critical information so they can quickly engage with customers and address questions and issues using [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps. [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] gives you a configurable framework to quickly build applications for call centers so agents get a unified view of the customer data stored in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps . You can aggregate customer information from different areas in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps into one integrated desktop that provides a 360° view of customer interactions. For more information, see [Overview of Unified Service Desk](../unified-service-desk/admin/overview-unified-service-desk.md).  
+Give your customer service reps immediate access to business critical information so they can quickly engage with customers and address questions and issues using [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] gives you a configurable framework to quickly build applications for call centers so agents get a unified view of the customer data stored in the Common Data Service platform . You can aggregate customer information from different areas in the Common Data Service platform into one integrated desktop that provides a 360° view of customer interactions. For more information, see [Overview of Unified Service Desk](../unified-service-desk/admin/overview-unified-service-desk.md).  
   
 ## Hosted controls  
   

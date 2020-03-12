@@ -1,23 +1,18 @@
 ---
-title: "Qualify a lead (Dynamics 365 for Sales) | MicrosoftDocs"
+title: "Qualify or convert leads (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Qualify the lead after you've identified the timeframe, budget, and purchase process of the lead."
-keywords: "lead, budget, purchase process, decision maker, opportunity"
-ms.date: 08/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.date: 10/01/2019
+ms.service: 
+  - "dynamics-365-sales"
+ms.custom: 
+  - "dyn365-sales"
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
-ms.assetid: 476a1284-61e5-4eb2-9bd4-b95d111cf82e
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 29
 ---
 
-# Qualify a lead (Sales and Sales Hub)
+# Qualify or convert leads (Sales and Sales Hub)
 
 Does your lead have what you're looking for and vice versa? After you've identified the timeframe, budget, purchase process, and decision makers for the sale, it's time to qualify your lead. 
 
@@ -25,11 +20,6 @@ Your system administrator defines what happens to a lead when it is qualified:
 -  If your system administrator has set **Create Account, Contact, and Opportunity records by default upon qualifying a lead** to **No**, you’ll be prompted to choose what records to create when the lead is qualified (account, contact, or opportunity). 
 -  If they’ve set **Create Account, Contact, and Opportunity records by default upon qualifying a lead** to Yes, an account, contact, and opportunity record is created when the lead is qualified.
 
-
-> [!IMPORTANT]
-> - The capability to choose which records to create when a lead is qualified is a preview feature. [What are Preview features and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md)
-> - To learn about enabling preview features in the 2019 release wave 2, see [How do I enable the 2019 release wave 2 updates](/power-platform/admin/preview-october-2019-updates#when-will-the-2019-release-wave-2-features-be-enabled)
-  
 
 ## Qualify a lead (Sales Hub)
 
@@ -104,8 +94,6 @@ When salespeople work on a lead, they use notes to store key information on the 
   
 - Increase your marketing and sales effectiveness.  [Boost sales with Versium Predict](../versium-predict/versium-predict.md)  
 
-- Research leads through social media channels like LinkedIn and Twitter. [Qualify leads faster with Insights, powered by InsideView](https://www.microsoft.com/en-us/dynamics/crm-customer-center/insights-for-microsoft-dynamics-crm-powered-by-insideview.aspx)  
-
 - Nurture your leads through a  marketing campaign. [Get started with in-app marketing](../sales-enterprise/get-started-app-marketing-sales.md)  (applies to the Sales app only)
 
   
@@ -117,6 +105,6 @@ When salespeople work on a lead, they use notes to store key information on the 
 ### See also  
 [Define lead qualification experience](define-lead-qualification-experience.md)  
 [Print leads, quotes, and other records](../basics/print-leads-quotes-other-records.md)          
-[Dynamics 365 for Sales troubleshooting guide for administrators](troubleshooting-admin.md)  
+[Dynamics 365 Sales troubleshooting guide for administrators](troubleshooting-admin.md)  
 [Boost sales with Versium Predict](../versium-predict/versium-predict.md)  
 [Get sales Insights, powered by InsideView](../insights-insideview/insights-powered-by-insideview.md)  

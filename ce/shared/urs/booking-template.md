@@ -12,7 +12,7 @@ In this topic, we'll discuss how to edit the booking template.
 
 ## Edit work order booking template
 
-Each schedule board and each scheduleable entity (such as work orders, projects, cases, or custom entities) can have a different booking template. When a work order requirement is scheduled, the booking template shows the **Bookable Resource Booking** record's **Name** and **Duration** values as seen in the following screenshot.
+Each schedule board and each scheduling-enabled entity (such as work orders, projects, cases, or custom entities) can have a different booking template. When a work order requirement is scheduled, the booking template shows the **Bookable Resource Booking** record's **Name** and **Duration** values as seen in the following screenshot.
  
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Standard booking visualization](../../field-service/media/standard-booking-visualization.png)   
@@ -101,7 +101,7 @@ Next, add the following HTML and CSS text to **Booking Template** field in **Sch
         <i class="fa fa-star" aria-hidden="true"></i>
         <i class="fa fa-star" aria-hidden="true"></i>
         <i class="fa fa-star" aria-hidden="true"></i>
-    <div class="customerrating" style="width:{msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder.new_customerrating}0%; color: #FFBC0B; position: absolute; top: 0; left:0; overflow: hidden; display:-webkit-box">
+    <div class="customerrating" style="width:{msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder.msdyn_account_msdyn_workorder_ServiceAccount.new_customerrating}0%; color: #FFBC0B; position: absolute; top: 0; left:0; overflow: hidden; display:-webkit-box">
         <i class="fa fa-star" aria-hidden="true"></i>
         <i class="fa fa-star" aria-hidden="true"></i>
         <i class="fa fa-star" aria-hidden="true"></i>
@@ -110,7 +110,7 @@ Next, add the following HTML and CSS text to **Booking Template** field in **Sch
     </div>
     </div>
     <div class="repair-back" style="color: #AAAAAA; position: relative; display:inline-block; padding-left:10px; vertical-align:text-top;">
-        <i class="fa fa-wrench aria-hidden="true""></i>
+        <i class="fa fa-wrench" aria-hidden="true"></i>
     <div class="repair" style="width:{msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder.new_isservicecall}00%; color: #FFBC0B; position: absolute; top: 0; left:0; padding-left:10px; overflow: hidden; display:-webkit-box">
         <i class="fa fa-wrench" aria-hidden="true"></i>
     </div>

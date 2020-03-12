@@ -1,25 +1,22 @@
 ---
-title: Automatically identify customers using pre-chat responses | MicrosoftDocs
+title: Automatically identify customers using pre-chat responses and setContext API method | MicrosoftDocs
 description: See how you can Automatically identify customers using pre-chat responses in the Omnichannel for Customer Service
-keywords: Automatically identify customers using pre-chat responses; Omnichannel for Customer Service; pre-chat questions
-author: anjgupta
-ms.author: anjgup
+author: kabala
+ms.author: kabala123
 manager: shujoshi
-applies_to: 
-ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.date: 02/14/2020
 ms.topic: article
-ms.assetid: 6da7ee5c-9e34-4f01-920c-6c381d2f4157
-ms.custom: 
+ms.service: 
+  - "dynamics-365-customerservice"
 ---
 
-# Automatically identify customers using pre-chat responses
+# Automatically identify customers
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-Identify and assist customers better by showing their details on the **Customer summary** page. To automatically identify and load customer and case details for an incoming conversation, you need to set up pre-chat questions in the relevant chat widgets. Customer responses are used to search for details in the Dynamics 365 records and display the results. For an Account or Contact, the search is performed on **Name**, **Email**, or **Phone Number** field. For Cases, the search is performed on **Case Number** field.
+Identify and assist customers better by showing their details on the **Customer summary** page. To automatically identify and load customer and case details for an incoming conversation, you need to set up pre-chat questions in the relevant chat widgets. Customer responses are used to search for details in the records and display the results. For an Account or Contact, the search is performed on the **Name**, **Email**, or **Phone Number** field. For Cases, the search is performed on the **Case Number** field.
 
-When an incoming conversation request is received, a notification appears that includes contextual information for the request, including customer details  if available. When an agent accepts the incoming notification, the **Customer summary** page opens, and shows the details of the identified customer and case. 
+For every incoming conversation request agent receives a notification appears that includes contextual information for the request, including customer details if available. After the agent accepts the incoming notification, the **Customer summary** page opens, and shows the details of the identified customer and case. 
 
 For more information, see [View Customer summary for an incoming engagement request](../agent/agent-oc/oc-view-customer-summary-incoming-conversation-request.md).
 
@@ -28,22 +25,25 @@ For more information, see [View Customer summary for an incoming engagement requ
 
 Use the below question names to create pre-chat questions for an **Unauthenticated chat**.
 
-|Question name   |Answer type |
-|---------|---------|---------|
-|CaseNumber     |    Single line |  
-|Name      | Single line         |   
-|Email      |    Single line      |  
-|Phone      |  Single line       |   
-|    |         |         |
+|Entity   |     Mapping    | Answer type |
+|---------|----------------|-------------|
+| Account |	Question context key: **Name** <br> Attribute Logical Name: **name** <br><br> Question context key: **Email** <br> Attribute logical name: **emailaddress1** <br><br> Question context key: Phone <br> Attribute logical name: **telephone1** | Single line | 
+| Contact | Question context key: **Name** <br> Attribute logical name: **fullname** <br><br> Question context key: Email <br> Attribute logical name: **emailaddress1** <br><br> Question context key: Phone <br> Attribute logical name: **telephone1** |Single line | 
+| Incident | 	Question context key: **CaseNumber** <br> Attribute logical name: **ticketnumber** |Single line | 
 
 For **Authenticated chat**, the logged in user details will be used to search and load contact information in the **Customer summary** page. You can add pre-chat question for **Case Number** to allow identification of the relevant case for the current conversation.
 
-|Question name  |Answer type  |
-|---------|---------|---------|
-|CaseNumber    |     Single line    |  |    
-|         |         |
+|Entity   |     Mapping    | Answer type |
+|---------|----------------|-------------|
+| Incident | 	Question context key: **CaseNumber** <br> Attribute logical name: **ticketnumber** |Single line | 
+
+## Use the setContextProvider API method
+
+You can automatically identify records using custom context set using setContext API apart from pre-chat answers. To programmatically set these values, see [setContextProvider](../developer/reference/methods/setcontextprovider.md).
 
 
 ### See also
 
 [Understand and create work streams](work-streams-introduction.md)
+
+[setContextProvider](../developer/reference/methods/setcontextprovider.md)

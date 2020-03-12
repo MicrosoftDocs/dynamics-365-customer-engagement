@@ -1,36 +1,31 @@
 ---
-title: "Configure email in Dynamics 365 for Sales Professional by integrating with Exchange | MicrosoftDocs"
-description: "Enable users to send and receive emails by configuring email in Dynamics 365 for Sales Professional."
-keywords: ""
-ms.date: 04/05/2019
-ms.service: dynamics-365-sales
+title: "Set up email in Dynamics 365 Sales Professional by integrating with Exchange | MicrosoftDocs"
+description: "Enable users to send and receive emails by configuring email in Dynamics 365 Sales Professional."
+ms.date: 10/01/2019
+ms.service: 
+  - "dynamics-365-sales"
+ms.custom: 
+  - "dyn365-sales"
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
-ms.assetid: c0fd21e7-c669-46bb-9db2-347a45197483
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.custom: dyn365-sales
 ---
 
-# Configure email in Dynamics 365 for Sales Professional by integrating with Exchange
+# Set up email in Dynamics 365 Sales Professional by integrating with Exchange
 
 > [!IMPORTANT]
-> This capability is introduced in the Dynamics 365 for Sales Professional app version 9.1.0.0.
+> This capability is introduced in the Dynamics 365 Sales Professional app version 9.1.0.0.
 
-To store email and other messaging records in Dynamics 365 for Sales Professional, you need to synchronize it with your email system.
+To store email and other messaging records in Dynamics 365 Sales Professional, you need to synchronize it with your email system.
 
-Dynamics 365 for Sales Professional uses server-side synchronization to synchronize your email system with Dynamics 365 for Sales.
+Dynamics 365 Sales Professional uses server-side synchronization to synchronize your email system with Dynamics 365 Sales.
 
 ## What is server-side synchronization?
 
-Using server-side synchronization makes messaging data available to a web browser, tablet, or smartphone that is running Dynamics 365 for Sales Professional.
+Using server-side synchronization makes messaging data available to a web browser, tablet, or smartphone that is running Dynamics 365 Sales Professional.
 
-Server-side synchronization provides direct Dynamics 365 for Sales Professional-to-email server synchronization. When you use Microsoft Exchange, you can
-synchronize email, contacts, tasks, and appointments.
+Server-side synchronization provides direct Dynamics 365 Sales Professional-to-email server synchronization. When you use Microsoft Exchange, you can synchronize email, contacts, tasks, and appointments.
 
 Some features offered by server-side synchronization include the following: 
 
@@ -58,7 +53,8 @@ instances](https://go.microsoft.com/fwlink/?linkid=730725).
 
 3.  If you don’t have an Office 365 subscription, you’ll be prompted to purchase one. Select the link to purchase an Office 365 subscription.
 
-    ![Link to sign up for Microsoft Exchange](media/get-microsoft-exchange.png "Link to sign up for Microsoft Exchange")
+    > [!div class="mx-imgBorder"]
+    > ![Link to sign up for Microsoft Exchange](media/get-microsoft-exchange.png "Link to sign up for Microsoft Exchange")
 
 4.  After you purchase a subscription, go to **Set up email**. This time, Exchange is automatically detected and configured in the background.
 
@@ -81,7 +77,8 @@ instances](https://go.microsoft.com/fwlink/?linkid=730725).
 
 6. The mailboxes will be in the **Not Run** state initially. Select **Approve and Test mailboxes** to test the mailboxes and approve them.  
 
-    ![Button to configure Exchange](media/button-configure-exchange.png "Button to configure Exchange")
+    > [!div class="mx-imgBorder"]
+    > ![Button to configure Exchange](media/button-configure-exchange.png "Button to configure Exchange")
 
     > [!Note]
     > If an error occurs in a mailbox, an alert is sent to the user of the mailbox. You can also see the alert when you open the mailbox record. The **Test Run Status** column is set to **Failure** for the mailbox. Select the **Approve and test mailboxes** button to test and approve the mailboxes.
@@ -89,5 +86,5 @@ instances](https://go.microsoft.com/fwlink/?linkid=730725).
 
 ### See also
 
-[Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md)  
+[Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)  
 [Admin settings overview](admin-settings-overview.md)

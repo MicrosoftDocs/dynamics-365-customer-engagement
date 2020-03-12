@@ -1,17 +1,15 @@
 ---
-title: "Work with reusable content blocks (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "How to create reusable content blocks and use them in your page and email designs in in Dynamics 365 for Marketing"
+title: "Work with reusable content blocks (Dynamics 365 Marketing) | Microsoft Docs"
+description: "How to create reusable content blocks and use them in your page and email designs in in Dynamics 365 Marketing"
 keywords: content block;design element
 ms.date: 02/01/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: b174b3c8-3b64-4802-b9cf-38e1c3531dc9
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -33,10 +31,10 @@ Content blocks work like templates. They include a fixed collection of content t
 You can lock the content of a content block to prevent it from being changed in any design where it is used. Use this to gain improved control over common content and/or design choices.
 
 > [!IMPORTANT]
-> Even if you choose to lock a content block, users that have access to the designer's **HTML** tab will still be able to edit it by modifying the code directly. To prevent this, administrators can use designer feature protection to limit access to the **HTML** tab by some or all users. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Control access to designer features](designer-feature-protection.md)
+> Even if you choose to lock a content block, users that have access to the designer's **HTML** tab will still be able to edit it by modifying the code directly. To prevent this, administrators can use designer feature protection to limit access to the **HTML** tab by some or all users. More information: [Control access to designer features](designer-feature-protection.md)
 
 > [!NOTE]
-> When you first create a content block, it's considered to be in a draft state and therefore isn't available for use in your designs until you select **Go live** for that block on the command bar. This helps make sure that other users don't use your content block until you're finished designing it. However, unlike most go-live entities, content blocks aren't published to an external service when they go live, they just become available for use with other entities in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. More information: [Go live with publishable entities and track their status](go-live.md).
+> When you first create a content block, it's considered to be in a draft state and therefore isn't available for use in your designs until you select **Go live** for that block on the command bar. This helps make sure that other users don't use your content block until you're finished designing it. However, unlike most go-live entities, content blocks aren't published to an external service when they go live, they just become available for use with other entities in Dynamics 365 Marketing. More information: [Go live with publishable entities and track their status](go-live.md).
 
 <a name="create-block"></a>
 
@@ -48,7 +46,7 @@ To create and publish a content block:
 
 1. Select a listed content block to edit it or select **New** on the command bar to create a new one.
 
-1. A [content designer](design-digital-content.md) opens. It works just like other content designers in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
+1. A [content designer](design-digital-content.md) opens. It works just like other content designers in Dynamics 365 Marketing.
 
 1. Design your content by doing one of the following:
 
@@ -69,7 +67,7 @@ To create and publish a content block:
     - **Availability**: Choose the types of designs where you'd like to make this content block available (emails, forms, and/or pages).
     - **Protected**: Choose whether you and other users will be able to apply in-line edits to the block's content (in the **Designer** view) after the block is placed into a design.
 
-1. When you are done designing your content, select **Go live** from the command bar to make it available to other entities in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
+1. When you are done designing your content, select **Go live** from the command bar to make it available to other entities in Dynamics 365 Marketing.
 
 ## View, delete, or edit your content blocks
 

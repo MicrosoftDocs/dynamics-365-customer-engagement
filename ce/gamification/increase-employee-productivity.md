@@ -1,5 +1,5 @@
 ---
-title: "Increase employee productivity with Dynamics 365 for Customer Engagement - Gamification | Microsoft Docs"
+title: "Increase employee productivity with Dynamics 365 - Gamification | Microsoft Docs"
 description: "Learn how to drive results and keep your employees engaged while having fun."
 keywords: 
 ms.date: 03/27/2018
@@ -7,8 +7,6 @@ ms.service: dynamics-365-sales
 ms.custom: 
   - dyn365-gamification
 ms.topic: home-page
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 6a70c280-4e08-4382-bb53-af82d0bfa9fb
 author: m-hartmann
 ms.author: mhart
@@ -31,7 +29,7 @@ search.app:
 
 Driving results is a key factor for a successful business. [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] helps you to keep your employees engaged and motivated to deliver their best performance.
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/2ab672e9-e374-4c76-b662-003fa68dfa59" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/2ab672e9-e374-4c76-b662-003fa68dfa59" frameborder="0" allowfullscreen=""></iframe></div>
 
 Everyone can participate in contests, regardless of their role in the company. Participants can win awards, prizes, and bragging rights, which are helpful external motivators to drive their impact on business results. When you make teams, you create healthy competition among colleagues and foster team spirit.  
 
@@ -78,13 +76,13 @@ Gamification refers to the use of game mechanics and experience design to engage
 
  We're sure you'll want to get started immediately using [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)]. Follow these steps to start your first game:  
   
-1. Install [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)].  
+1. Install [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)].  
   
-    [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Install and configure the Gamification solution in Dynamics 365 for Customer Engagement (online)](manage-gamification-in-dynamics-365-online.md)  
+    [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Install and configure the Gamification solution](manage-gamification-in-dynamics-365-online.md)  
   
 2. Configure players and level the playing field by using positions.  
   
-   [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Import players and fans from Dynamics 365 for Customer Engagement (online) and manage their security roles](manage-players-fans.md)  
+   [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Import players and fans from Dynamics 365 apps and manage their security roles](manage-players-fans.md)  
   
 3. Set up the game, KPIs, awards, and prizes, and kick off the contest.  
   

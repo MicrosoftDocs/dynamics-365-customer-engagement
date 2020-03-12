@@ -1,17 +1,15 @@
 ---
-title: "Record and publicize sponsorship details (Dynamics 365 for Marketing) | Microsoft Docs  "
-description: "How to register sponsors and sponsorable articles in Dynamics 365 for Marketing"
+title: "Record and publicize sponsorship details (Dynamics 365 Marketing) | Microsoft Docs  "
+description: "How to register sponsors and sponsorable articles in Dynamics 365 Marketing"
 keywords: events; event management; sponsor; sponsorship; tchotchke
 ms.date: 06/04/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: d90b2ee7-0b5b-48c7-a0f4-ae718af3e958
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 search.audienceType: 
@@ -27,7 +25,7 @@ search.app:
 
 *Sponsors* are people or organizations who contribute funds, equipment, or services in return for having their logos and messages placed in your event materials (including the event website) or at the event itself.
 
-[Open the Events work area](open-events.md) and go to **Events** > **Sponsorship Management** > **Sponsorships** to view, edit, and create sponsorship records. Each record here must be associated with an event record, and the sponsoring company (account record) must also be stored in Dynamics 365 for Marketing. Each record can also include information about the sponsorship deal itself, including the sponsorship type (money, services, or equipment), sponsorship value, and other details. If any sponsored articles are associated with this sponsorship, they are also listed here.
+[Open the Events work area](open-events.md) and go to **Events** > **Sponsorship Management** > **Sponsorships** to view, edit, and create sponsorship records. Each record here must be associated with an event record, and the sponsoring company (account record) must also be stored in Dynamics 365 Marketing. Each record can also include information about the sponsorship deal itself, including the sponsorship type (money, services, or equipment), sponsorship value, and other details. If any sponsored articles are associated with this sponsorship, they are also listed here.
 
 > [!TIP]
 > The event website typically lists the sponsors of each event, where they are shown using a name and logo. For details about how to add logos to your event sponsors, see [Configure website graphics and registration options](set-up-event-portal.md#website-graphics-options).

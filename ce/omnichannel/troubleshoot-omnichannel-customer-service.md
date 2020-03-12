@@ -1,16 +1,13 @@
 ---
 title: "Troubleshoot Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how to troubleshoot the issues you may face while working on Omnichannel for Customer Service."
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
-ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.date: 09/11/2019
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 2507DF5E-99CF-4AF9-BAEF-5B9C7B43ECF7
-ms.custom: 
 ---
 
 # Troubleshoot Omnichannel for Customer Service
@@ -18,6 +15,177 @@ ms.custom:
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 Use the following list of troubleshooting topics to quickly find information to solve your issue.
+
+## Entity routing configuration fails
+
+### Issue 1:
+
+One of issues is that **Entity Records Distribution Flow** connection is not authorized. Due to this issue, you can see a business process error.
+
+**Unable to complete the operation due to an error. Try again later. If the issue persists, contact Microsoft support.**
+
+   > [!div class=mx-imgBorder]
+   > ![Business Process Error](media/business-process-error1.PNG "Business Process Error")
+
+### Resolution:
+
+Go to Entity Records Distribution Flow and authenticate the connection.
+
+To resolve the issue, perform steps 1 through 9 in the [Update entity records work distribution flow](administrator/multiple-ws-entity-record-routing.md#step-2-update-entity-records-distribution-flow) topic.
+
+### Issue 2:
+
+**Entity Records Distribution Flow** is not updated automatically. Due to this issue, you can't create an entity records channel and the system shows a business process error.
+
+**The operation failed due to an incorrect configuration in Entity Records Distribution Flow. Ensure the Entity Records Distribution Flow isn't deleted or renamed.**.
+
+   > [!div class=mx-imgBorder]
+   > ![Business Process Error](media/business-process-error2.PNG "Business Process Error")
+
+In Power Automate, you might see either **Cases Work Distribution Flow** or **Entity Records Distribution Flow**.
+
+### Resolution:
+
+To workaround the issue, you need to reset the Flow. To reset the Flow, follow these steps.
+
+1. Sign in to the Omnichannel Administration app.
+
+2. Select **Entity Records** under **Channels**.
+
+3. Select the **+ New** to create a new entity record channel.
+
+4. Select **Flow** menu in the command bar, and then select **See your flows**. Power Automate opens in a new browser window.
+
+5. Select **Solutions** in the sitemap, and then select **Default Solution** from the list.
+
+6. Select **+ New**. and then select **Flow**. A new **Flow** is displayed.
+
+7. Type **Manually trigger a flow** in the search box, and then select the option. The flow component is added.
+
+8. Select **+ New step**. The **Choose an action** flow component is added.
+
+9. Type **Common Data Service (current environment)** in the search box, and then select the option. The flow component is added.
+
+10. Select **Perform an unbound action** from the **Actions** tab. The action is added in the component.
+
+11. Type **msdyn_ResetWorkDistributionFlow** in the **Action Name** field.
+
+    > [!Note]
+    > Don't change the **ShouldMaintainCustomizations** value from **No**.
+
+12. Select **Save**.
+
+13. Select back arrow button in the Flow page.
+
+    > [!Note]
+    > Do not select browser window back button.
+
+14. Select **Run** from the command bar. The **Run flow** pane is displayed.
+
+15. Select **Run Flow** and then select **Done**. You can see the flow will run and succeeds.
+
+After you reset the flow, go to Omnichannel Administration, where you saw the error message. Select **OK**, and then save the record. The entity record channel is saved.
+
+Even though the Flow is reset, it doesn't update the name if it is **Case Work Distribution Flow**.
+
+To rename the Flow, select **Edit**, type the name of the flow as **Entity Record Distribution Flow** in the **Flow name** field, and select **Save**.
+
+### Issue 3:
+
+There may be an issue with customizations in the **Entity Records Distribution Flow**.
+
+### Resolution:
+
+Go to **Entity Records Distribution Flow** and review your customization made to the flow. 
+
+Review and resolve the error that is due to your customizations. For more information, see [Update entity records work distribution flow](administrator/multiple-ws-entity-record-routing.md#update-entity-records-work-distribution-flow).
+
+## Entity Records are not routed and distributed to agents
+
+Entity Records routing and distribution may not work due to certain reasons. Validate the following issues and resolutions in the order given below.
+
+### Issue 1:
+
+The routing rule is configured incorrectly or not activated.
+
+### Resolution:
+
+Verify the routing rule set is configured correctly and ensure to activate it. To learn more, see [Create routing rules](administrator/entity-channel.md#step-4-create-routing-rules).
+
+### Issue 2:
+
+The Entity Records Distribution Flow is not updated with latest workstream information.
+
+### Resolution:
+
+If you create or edit (update the name of the workstream) an entity record workstream, you must update Entity records Distribution Flow. To learn more, see [Update entity records distribution flow](administrator/multiple-ws-entity-record-routing.md#step-2-update-entity-records-distribution-flow).
+
+### Issue 3:
+
+There is an error and due to which Entity Records Distribution Flow was not triggered.
+
+### Resolution:
+
+Check if the flow has triggered or if there was any error in the trigger of the Flow. You can get this information from the Power Automate home page or Entity Records Distribution Flow's run history.
+
+To work around the issue, reset the flow. To learn more, see [Reset the flow](#resolution-1).
+
+If resetting the flow doesn't resolve the issue, contact Microsoft support.
+
+### Issue 4:
+
+The flow triggered successfully but the action was not executed successfully.
+
+### Resolution:
+
+Reach out to Microsoft support for further investigation.
+
+## Omnichannel provisioning fails due to expired Teams Service Principal
+
+### Issue:
+
+If your tenant has an expired Office 365 license, then the Omnichannel for Customer Service provisioning fails in your organization.
+
+### Resolution:
+
+To avoid the provisioning failure, you must remove the **Teams Service Principal** in **Azure Active Directory**. Follow the steps to remove **Teams Service Principal**.
+
+[Step 1: Identify Teams Service Principal in Azure Active Directory](#step-1-identify-teams-service-principal-in-azure-active-directory)
+
+[Step 2: Use PowerShell to remove Microsoft Teams Service Principal](#step-2-use-powershell-to-remove-microsoft-teams-service-principal)
+
+#### Step 1: Identify Teams Service Principal in Azure Active Directory
+
+1.	Sign in to the [Azure portal](https://portal.azure.com/).
+2.	Select **Active Directory** in the left pane.
+3.	Select **Enterprise Applications**.
+4.	Type **Microsoft Teams** in the search box.
+5.	Copy the **Object ID** and **Application ID** against **Microsoft Teams** and save it for future use. Ensure that the Application Id is  `cc15fd57-2c6c-4117-a88c-83b1d56b4bbe` as this Id is same for every tenant.
+
+   > [!div class=mx-imgBorder]
+   > ![Microsoft Teams object and app Id](media/teams-object-appid.png "Microsoft Teams object and app Id")
+
+#### Step 2: Use PowerShell to remove Microsoft Teams Service Principal
+1.	Select **Start**, type **PowerShell**, and right-click **Windows PowerShell** and select **Run as administrator**.  <br>
+![Run PowerShell as an administrator](media/powershell.png "Run PowerShell as an administrator")
+
+2.	Select **Yes** on the **User Control** dialog to allow the application to make changes.
+3.	Type the `Install-Module AzureAD` command in the Powershell window, and press **Enter**. This command installs the PowerShell commands for interacting with Azure Active Directory. <br>
+![Execute command](media/powershell2.png "Execute command")
+
+4.	PowerShell prompts whether to trust the repository. Type **Y** for yes and press **Enter**.  <br>
+![Execute command](media/powershell3.png "Execute command")
+
+5.	Type the `Connect-AzureAD` command in the PowerShell window, and press **Enter**.
+This establishes a connection with the tenant's Azure Active Directory, so you can manage it using Powershell.
+6.	Sign in to your organization as a tenant admin.
+7.	Type the `Remove-AzureADServicePrincipal -ObjectID <ObjectID>` command in the PowerShell window. Replace **<ObjectID>** with the object ID you had stored earlier. This command deletes the expired Teams service principal from Azure Active Directory.
+
+   > [!Note]
+   > Right click in the PowerShell window to paste the Object ID.
+
+The Microsoft Teams Service Principal has been removed from your organization. You can try to provision Omnichannel for Customer Service again.
+
 
 ## Chat widget icon does not load on the portal
 
@@ -29,13 +197,12 @@ Chat icon doesn't load on the portal. The chat icon URL which was configured as 
 
 Open Chat Settings, navigate to Design tab and change **Logo** field and use an icon URL of your choice.
 
-1. Sign in to Omnichannel for Customer Engagement.
-2. Select the **Omnichannel Administration** app.
-3. Go to **Administration** > **Chat**.
-4. Select a chat widget from the list.
-5. Select the **Design** tab.
-6. Specify the URL of the icon you want to use in the **Logo** field.
-7. Select **Save** to save the record.
+1. Sign in to the **Omnichannel Administration** app.
+2. Go to **Administration** > **Chat**.
+3. Select a chat widget from the list.
+4. Select the **Design** tab.
+5. Specify the URL of the icon you want to use in the **Logo** field.
+6. Select **Save** to save the record.
 
 ## Chat not getting initiated on starting a new chat from portal 
 
@@ -52,23 +219,21 @@ A message stating **Sorry, we're not able to serve you at the moment** is shown 
 
  To configure agents in the queue, follow these steps:
 
- 1. Sign in to Omnichannel for Customer Engagement.
- 2. Select the **Omnichannel Administration** app.
- 3. Go to **Queues & Users** > **Queues**
- 4. Select the queue from the list.
- 5. In the **Users (Agents)** section, select **Add Existing User** to add existing agents to the queue.
- 6. On the **Lookup Records** pane, select the agents to add, and then select **Add**.
- 7. Select **Save** to save the record.
+ 1. Sign in to the **Omnichannel Administration** app.
+ 2. Go to **Queues & Users** > **Queues**
+ 3. Select the queue from the list.
+ 4. In the **Users (Agents)** section, select **Add Existing User** to add existing agents to the queue.
+ 5. On the **Lookup Records** pane, select the agents to add, and then select **Add**.
+ 6. Select **Save** to save the record.
 
 
 To Update default **Allowed Presence** in the Live Work Stream, follow these steps:
 
-1. Sign in to Omnichannel for Customer Engagement.
-2. Select the **Omnichannel Administration** app.
-3. Go to **Work Distribution Management** > **Work Streams**.
-4. Select a record from the list.
-5. In the Work Distribution tab, under the Work Distribution section, type **Available**. Select the check box to add it. Similarly, type **Busy** and then select the check box to add it.
-6. Select **Save** to save the record.
+1. Sign in to the **Omnichannel Administration** app.
+2. Go to **Work Distribution Management** > **Work Streams**.
+3. Select a record from the list.
+4. In the Work Distribution tab, under the Work Distribution section, type **Available**. Select the check box to add it. Similarly, type **Busy** and then select the check box to add it.
+5. Select **Save** to save the record.
 
 ## Chat widget does not load on the portal
 
@@ -82,15 +247,14 @@ Delete the **Widget location** location of the chat widget and again create it.
 
 To delete and add **Widget location** for the chat widget, follow these steps:
 
-1. Sign in to Omnichannel for Customer Engagement.
-2. Select the **Omnichannel Administration** app.
-3. Go to **Administration** > **Chat**.
-4. Select a chat widget from the list.
-5. Select the **Location** tab.
-6. Select a record in the **Widget Location** section, and select **Delete**.
-7. Select **Save**.
-8. Select **+ Add** in the **Widget Location** section to add a record. Quick create pane of the chat widget location appears.
-9. Specify the following.
+1. Sign in to the **Omnichannel Administration** app.
+2. Go to **Administration** > **Chat**.
+3. Select a chat widget from the list.
+4. Select the **Location** tab.
+5. Select a record in the **Widget Location** section, and select **Delete**.
+6. Select **Save**.
+7. Select **+ Add** in the **Widget Location** section to add a record. Quick create pane of the chat widget location appears.
+8. Specify the following.
 
    | Field | Value |
    |---------------------------|-----------------------------------------|
@@ -124,13 +288,13 @@ To add the dashboards using app designer, follow these steps:
     ![Add dashboards in the app designer canvas area](media/oceh-app-designer-add-dashboard.png "Add dashboards")
 6. Select **Save** and then select **Publish**.
 
-## Pre-imported Unified Service Desk configurations in Customer Engagement organization
+## Pre-imported Unified Service Desk configurations in Customer Service organization
 
 ### Issue:
 
-Dynamics 365 for Customer Engagement organization that you create from **demos.microsoft.com** have pre-imported sample Unified Service Desk configuration.
+Dynamics 365 Customer Service organization that you create from **demos.microsoft.com** have pre-imported sample Unified Service Desk configuration.
 
-If you import the Unified Service Desk - Omnichannel for Customer Service package without deleting the existing configuration in the new demo org, you see an error after signing in to Unified Service Desk client application. The reason for the issue is multiple sample Unified Service Desk configurations cannot exist in an Customer Engagement instance.
+If you import the Unified Service Desk - Omnichannel for Customer Service package without deleting the existing configuration in the new demo org, you see an error after signing in to Unified Service Desk client application. The reason for the issue is multiple sample Unified Service Desk configurations cannot exist in a Customer Service instance.
 
    > [!div class=mx-imgBorder]
    > ![The hosted application couldn't be created](media/oceh/usd-client-error.png "The hosted application couldn't be created")
@@ -149,7 +313,7 @@ After you delete the solutions, import the Unified Service Desk - Omnichannel fo
 
 To delete the solutions, follow these steps:
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to the Common Data Service platform.
 2. Choose **Settings** > **Solutions** on the nav bar.
 4. Select one of the solutions on the **Solutions** page by selecting the check box, and then choose **Delete**. You are prompted to confirm uninstalling a managed solution. Choose **OK** to proceed. <br>
    - USDISHCustomization or USDWebClientCustomization (one of these solutions would be present depending on the org template)
@@ -194,12 +358,12 @@ After you sign in to the Unified Service Desk client application, you see the fo
    > [!div class=mx-imgBorder]
    > ![Unified Service Desk application error](media/oceh/usd-communication-panel-error.png "Unified Service Desk application error")
 
-While signing in to Unified Service Desk you must enter the Customer Engagement apps credentials and sign in, and again, you are shown a dialog to enter credentials to connect to Customer Engagement server. 
+While signing in to Unified Service Desk you must enter the Customer Service app credentials and sign in, and again, you are shown a dialog to enter credentials to connect to Common Data Service platform server.
 When you enter different credentials, this issue occurs. 
 
 ### Resolution:
 
-If you use **IE process** to host applications, open Internet Explorer browser, and go to http://login.microsoftonline.com/logout.srf. The URL signs you from office.com. Now, sign in to Unified Service Des client application and try again. 
+If you use **IE process** to host applications, open Internet Explorer browser, and go to https://login.microsoftonline.com/logout.srf. The URL signs you from office.com. Now, sign in to Unified Service Des client application and try again. 
 
 If you use **Chrome process** to host applications, go to `C:\Users\<USER_NAME>\AppData\Roaming\Microsoft\USD` and delete the **CEF** folder. Now, sign in to Unified Service Des client application and try again. 
 
@@ -231,7 +395,7 @@ Communication panel doesn't load in Omnichannel for Customer Service app:
 
 - To sync the configurations, remove the channel and roles, add it again and save the record.
 
-   1. Sign in to Dynamics 365 for Customer Engagement apps.
+   1. Sign in to the Dyanmics 365 apps.
    2. Select the drop-down button on Dynamics 365 and select **Channel Integration Framework**.
    3. Select the **Omnichannel** record from the list.
    4. Remove **Omnichannel for Customer Service** from the **Select Unified Interface Apps for the Channel** section.
@@ -252,11 +416,10 @@ As an agent, you aren't receiving chat in the Omnichannel for Customer Service a
 
 You must remove the Customer Service Hub app from the channel provider configuration in the Channel Integration Framework app.
 
-1. Sign in to Dynamics 365 for Customer Engagement apps.
-2. Select the drop-down button on Dynamics 365 and select **Channel Integration Framework**.
-3. Select the record that is related to omnichannel.
-4. Remove **Customer Service Hub** from the **Select Unified Interface Apps for the Channel** section.
-5. Select **Save** to save the record.
+1. Sign in to **Channel Integration Framework**.
+2. Select the record that is related to omnichannel.
+3. Remove **Customer Service Hub** from the **Select Unified Interface Apps for the Channel** section.
+4. Select **Save** to save the record.
 
 ## User presence isn’t loading or it’s showing Unknown
 
@@ -273,7 +436,7 @@ The issue might happen due to the following reasons:
 Perform the following:
 
 - Contact your administrator to verify Azure Active Directory consent is given to the Omnichannel for Customer Service application on your tenant. Go to [Authorize access](https://go.microsoft.com/fwlink/?linkid=2070932) to get access. For more information, see [Provision for Omnichannel for Customer Service](administrator/omnichannel-provision-license.md). 
-- Ensure the agent account has **Omnichannel Agent**. For more information, see [Assign roles and enable users for Omnichannel Engagement Hub](administrator/add-users-assign-roles.md).
+- Ensure the agent account has **Omnichannel Agent**. For more information, see [Assign roles and enable users for Omnichannel](administrator/add-users-assign-roles.md).
 - Ensure the agent account has values set for **Capacity** and **Default presence** within the Omnichannel Administration app. To learn more, see [Create and manage users and user profiles](administrator/users-user-profiles.md).
 
 ## Agent dashboard isn’t loading or is giving an authorization error
@@ -293,3 +456,25 @@ Perform the following:
 - Contact your administrator to verify Azure Active Directory consent is given to the Omnichannel for Customer Service application on your tenant. Go to [Authorize access](https://go.microsoft.com/fwlink/?linkid=2070932) to get access. To learn more, see [Provide data access consent](administrator/omnichannel-provision-license.md#provide-data-access-consent).
 - Ensure the agent account has the role **Omnichannel Agent**. For more information about the relevant roles, see [Understand roles and their privileges](administrator/add-users-assign-roles.md#understand-roles-and-their-privileges). 
 - Ensure the agent account is assigned to at least one queue in the Omnichannel Administration app. To learn more, see [Manage users in Omnichannel for Customer Service](administrator/users-user-profiles.md).
+
+## The instance is not available to select on the provisioning application
+
+## Issue:
+
+For security, reliability, and performance reasons, Omnichannel is separated by geographical locations known as regions. The provisioning web page only displays instances in the same region, so you might experience issues that you don’t see all the instances from the Organization selector if you have instances in more than one region and provision Omnichannel without selecting the correct region.
+
+### Resolution:
+
+Perform the following:
+
+From the admin portal, select the desired region from the drop-down menu. 
+
+   > [!div class=mx-imgBorder]
+   > ![Region drop-down menu screenshot](media/oceh/oc-region-menu.png "Region drop-down menu")
+
+Changing the region causes the portal to reload. When it has finished reloading, proceed to **Applications** > **Omnichannel for Customer Service**, and then proceed with the usual provisioning steps.
+
+The provisioning application you are directed to is associated with the region you chose, and all instances located in that region are displayed as options for provisioning.
+
+   > [!div class=mx-imgBorder]
+   > ![Provisioning application screenshot](media/oceh/oc-region-provision.png "Provisioning application screenshot")

@@ -1,22 +1,22 @@
 ---
 title: Create and manage routing rules in Omnichannel for Customer Service | MicrosoftDocs
 description: Understand how to create and manage routing rules in Omnichannel for Customer Service
-keywords: routing rules; Omnichannel for Customer Service
-author: anjgupta
-ms.author: anjgup
+author: kabala
+ms.author: kabala123
 manager: shujoshi
-applies_to: 
-ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.date: 12/27/2019
 ms.topic: article
-ms.assetid: ae408147-bb2c-4016-8ae7-cf06eb12ceb0
-ms.custom: 
+ms.service: 
+  - "dynamics-365-customerservice"
 ---
 # Create and manage routing rules
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 Routing rules define how conversations are routed to different queues. Each routing rule has a condition and a destination queue. If the rule condition is evaluated as **True**, then the conversation is routed to the destination queue.
+
+ > [!Important]
+ > Routing rules for entity records are defined at the entity record channel level. To learn more, see [Entity records routing](entity-channel.md).
 
 A single work stream can have multiple routing rules, and these are evaluated in the order of definition. For example, if a work stream called **Chat** contains 5 routing rules, an incoming chat conversation will be evaluated against all the 5 routing rules in the defined order. 
 
@@ -51,7 +51,7 @@ To create a routing rule, select a work stream by navigating to **Work Distribut
        > [!div class=mx-imgBorder]
        > ![Configured rule](../media/configured-rule.png)
 
-2. Select **Save** to save the rule.
+2. Select **Save** to save the rule. 
 
 ### See also
 

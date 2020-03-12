@@ -1,19 +1,15 @@
 ---
-title: "Track a marketing campaign response using in-app marketing (Dynamics 365 for Sales) | MicrosoftDocs"
-keywords: ""
-ms.date: 01/30/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+title: "Track a marketing campaign response using in-app marketing (Dynamics 365 Sales) | MicrosoftDocs"
+description: ""
+ms.date: 10/01/2019
+ms.service: 
+  - "dynamics-365-sales"
+ms.custom: 
+  - "dyn365-sales"
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
-ms.assetid: 1bf875ef-5d83-44f6-8b5c-67f7e3286e7c
 author: shubhadaj
 ms.author: shujoshi
 manager: sakudes
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 46
 ---
 
 # Track a marketing campaign response using in-app marketing (Sales)
@@ -22,29 +18,27 @@ Record the replies you get from potential customers in response to a specific ma
   
 ## Create campaign responses manually  
   
-1. [!INCLUDE[proc_marketing_campaigns](../includes/proc-marketing-campaigns.md)]  
+1. In the site map, select **Marketing Lists**.
   
-2. Select the campaign that you want to add campaign responses to, and under **Responses**, click **Add**![Add button](../sales-enterprise/media/add-button.PNG "Add button").  
+2.  Open a marketing list record, and then in the **Campaigns** area, open the campaign to which you want to add campaign responses, and on the **Related** tab, select **Campaign Responses**.
+
+3. Select **New Campaign Response**.
   
-3. Add information in the **Campaign Response** form.  
+4. Add information in the **Campaign Response** form.  
   
-4. Click **Save**.  
+5. Select **Save**.  
   
 ## Create campaign responses automatically  
   
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
   
-    #### Check your security role  
-  
-   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
-  
-   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
-  
-2. [!INCLUDE[proc_settings_administration](../includes/proc-settings-administration.md)]  
-  
-3. Click the **System Settings** > **Marketing** tab.  
-  
-4. Set the **Create campaign responses for incoming email** option to **Yes**.  
+2. In your app, on the navigation bar, select the **Settings** icon ![Settings icon on the navigation bar](../sales-enterprise/media/settings-icon.png "Settings icon on the navigation bar"), and then select **Advanced Settings**.
+
+3. On the navigation bar, select **Settings**, and then select **Administration**.
+
+4. Select **System Settings**, and then select the **Marketing** tab.  
+
+5. Set the **Create campaign responses for incoming email** option to **Yes**.  
 
 > [!NOTE]
 

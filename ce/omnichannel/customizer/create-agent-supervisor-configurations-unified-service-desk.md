@@ -1,16 +1,13 @@
 ---
 title: "Create agent and supervisor configurations in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to create and manage agent and supervisor configurations in Unified Service Desk."
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 1bfd9c9b-1825-4369-9699-7add3e190e44
-ms.custom: 
 ---
 # Create agent and supervisor configurations in Unified Service Desk
 
@@ -18,7 +15,7 @@ ms.custom:
 
 A configuration in Unified Service Desk helps you filter access to components that are shown to users in the Omnichannel for Customer Service application. Follow these steps to create an agent configuration and a supervisor configuration.
 
-1.  Sign in to Dynamics 365.
+1.  Sign in to the Common Data Service platform.
 
 2.  Go to **Settings** > **Unified Service Desk**.
 

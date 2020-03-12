@@ -1,5 +1,5 @@
 ---
-title: View dashboards and reports (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: View dashboards and reports 
 description: How to view dashboards and reports in Project Service
 author: JohnPBurrows
 manager: kfend

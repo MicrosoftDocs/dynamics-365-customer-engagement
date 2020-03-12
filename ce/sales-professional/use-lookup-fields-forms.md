@@ -1,19 +1,15 @@
 ---
-title: "Use the lookup field on forms in Dynamics 365 for Sales Professional | MicrosoftDocs"
-description: "Choose records from a related entity (recordset) quickly by using lookups in Dynamics 365 for Sales Professional."
-keywords: ""
-ms.date: 06/18/2019
-ms.service: dynamics-365-sales
+title: "Use the lookup field on forms in Dynamics 365 Sales Professional | MicrosoftDocs"
+description: "Choose records from a related entity (recordset) quickly by using lookups in Dynamics 365 Sales Professional."
+ms.date: 10/01/2019
+ms.service: 
+  - dynamics-365-sales
+ms.custom: 
+  - dyn365-sales
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
-ms.assetid: 157b98bd-adb4-4e77-b8fb-3fc862b11ef6
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.custom: dyn365-sales
 ---
 
 # Use the lookup field on forms
@@ -41,11 +37,24 @@ Lookups are classified into the following:
 
 - **Simple lookup:** Select a single record in a field from a single entity. 
 
-- **PartyList-type fields:** Use to select multiple records from multiple entities in a lookup. Use partylist-type fields to select multiple records. This allows you to add each record by performing a new search, multiple times. Every time you select a record, you will be able to perform a new search for another record.
+- **Complex lookup:** Select a single record or multiple records in a field from multiple entities:
+
+  - **PartyList-type fields:** Use to select multiple records from multiple entities in a lookup. Use partylist-type fields to select multiple records. This allows you to add each record by performing a new search, multiple times. Every time you select a record, you will be able to perform a new search for another record.
   
-- **Regarding-type fields:** Use to select a single record from multiple entities in a lookup. 
+  - **Regarding-type fields:** Use to select a single record from multiple entities in a lookup. 
+
+>[!NOTE] 
+>Users can't create complex lookups. 
 
 [More information on fields and field data types](../customize/types-of-fields.md)
+
+### Browsing lookup
+
+To browse a lookup, select the **Lookup icon** ![Lookup icon](media/lookup-icon.png "Lookup icon"). The full list of items will be presented within the drop-down list.
+
+### Searching a lookup
+
+To search a lookup, select the lookup textbox and type your search criteria. If recent records are enabled for your lookup, they will be displayed before typing.
 
 ### Create a new record if you don’t find an existing record
 
@@ -83,4 +92,4 @@ When lookup has more records in a field than can fit in the available display ar
 
 ### See also
 
-[Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md)
+[Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)

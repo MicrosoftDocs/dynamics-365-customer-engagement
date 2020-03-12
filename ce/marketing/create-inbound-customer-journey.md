@@ -1,17 +1,14 @@
 ---
-title: "Inbound marketing with Dynamics 365 for Marketing | Microsoft Docs"
-description: "How to set up a customer journey to implement inbound marketing that attracts new contacts to register with your organization in Dynamics 365 for Marketing"
-keywords: tutorial; inbound marketing; landing page; page
+title: "Inbound marketing with Dynamics 365 Marketing | Microsoft Docs"
+description: "How to set up a customer journey to implement inbound marketing that attracts new contacts to register with your organization in Dynamics 365 Marketing"
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
-ms.topic: get-started-article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.topic: article
 ms.assetid: 5b3164e5-3a2a-4254-9085-c3e512c14867
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -26,13 +23,13 @@ search.app:
 
 # Create an inbound customer journey
 
-*Inbound customer journeys* seek to attract new, unknown contacts, so they typically start with a landing page that new contacts use to register for a newsletter, download, or some other perk. You'd typically promote your inbound campaign by running ads and posting links on social media. (In comparison, an *outbound* customer journey is one that starts with a segment made up of contacts that are already included in your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] database, so an outbound journey usually starts by sending out marketing emails to the members of a segment.)
+*Inbound customer journeys* seek to attract new, unknown contacts, so they typically start with a landing page that new contacts use to register for a newsletter, download, or some other perk. You'd typically promote your inbound campaign by running ads and posting links on social media. (In comparison, an *outbound* customer journey is one that starts with a segment made up of contacts that are already included in your Dynamics 365 Marketing database, so an outbound journey usually starts by sending out marketing emails to the members of a segment.)
 
-Though messaging and promotion strategies are typically quite different for an inbound campaign compared to an outbound one, you design inbound customer journeys in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] by using the same basic tools as you would to create an outbound customer journey. The most important difference is that you typically start an inbound customer journey with a landing page or marketing form instead of a segment, though you could also set up a segment that finds contacts who submitted a specific form. In this configuration, all contacts (both new and existing) who submit the form immediately start down that journey.
+Though messaging and promotion strategies are typically quite different for an inbound campaign compared to an outbound one, you design inbound customer journeys in Dynamics 365 Marketing by using the same basic tools as you would to create an outbound customer journey. The most important difference is that you typically start an inbound customer journey with a landing page or marketing form instead of a segment, though you could also set up a segment that finds contacts who submitted a specific form. In this configuration, all contacts (both new and existing) who submit the form immediately start down that journey.
 
 ## Use a marketing page to launch an inbound campaign
 
-If you are using a native [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] marketing page (hosted by a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portal) as the starting point of your inbound campaign, then start your journey with a marketing page tile, and configure the tile to link it to the page.
+If you are using a native Dynamics 365 Marketing marketing page (hosted by a Dynamics 365 Portal) as the starting point of your inbound campaign, then start your journey with a marketing page tile, and configure the tile to link it to the page.
 
 ![An example of a simple inbound journey](media/journey-inbound-example.png "An example of a simple inbound journey")
 
@@ -42,9 +39,9 @@ You can create an inbound campaign by placing a **Marketing form** tile at the s
 
 ![Inbound campaign from a hosted form](media/journey-host-form-trigger5.png "Inbound campaign from a hosted form")
 
-## Use an interaction segment to find contacts who submitted a form
+## Use an behavioral segment to find contacts who submitted a form
 
-Another way to create an inbound journey is to start with an [interaction segment](segments-interaction.md) that is based on form-submit or event-registration interactions, and filtered for a specific form or event ID. This technique will work with both native and externally hosted forms, and with event registrations.
+Another way to create an inbound journey is to start with an [behavioral segment](segments-interaction.md) that is based on form-submit or event-registration interactions, and filtered for a specific form or event ID. This technique will work with both native and externally hosted forms, and with event registrations.
 
 ### See also
 

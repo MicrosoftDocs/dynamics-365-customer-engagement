@@ -1,20 +1,13 @@
 ---
 title: "msdyn_forecastrecurrence EntityType | MicrosoftDocs"
 description: "Entity reference for msdyn_forecastrecurrence EntityType"
-keywords: 
 ms.date: 04/08/2019
-ms.service: crm-online
-ms.custom: 
+ms.service: 
+  - crm-online
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement (online)
-ms.assetid: CACB6A49-432D-4022-9392-F2939530B665
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 22
 ---
 # msdyn_forecastrecurrence EntityType
 

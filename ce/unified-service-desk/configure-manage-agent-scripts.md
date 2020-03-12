@@ -4,19 +4,9 @@ description: "Learn about configuring and managing agent scripts."
 ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: 
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: c4b63840-4613-46d9-a843-23233c259b60
-caps.latest.revision: 6
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -28,22 +18,18 @@ search.app:
   - D365USD
 ---
 # Configure and manage agent scripts
-Each step in an agent script is represented as an agent script task. An agent script task can have one or more answers (choices) for the next steps; the answers are represented as a stack of buttons in the agent script area in your application. An action can be performed on clicking one of the answers or when you go to the next task. This topic provides information on how you can create an agent script task, and then configure it by adding answers, actions, and triggers.  
+Each step in an agent script is represented as an agent script task. An agent script task can have one or more answers (choices) for the next steps; the answers are represented as a stack of buttons in the agent script area in your application. An action can be performed on selecting one of the answers or when you go to the next task. This topic provides information on how you can create an agent script task, and then configure it by adding answers, actions, and triggers.  
 
  For more information about how agent scripts work in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Guide customer interactions with agent scripts](../unified-service-desk/guide-customer-interactions-agent-scripts.md). For a walkthrough that demonstrates the agent scripting functionality, see [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md).  
 
 <a name="create"></a>   
 ## Create an agent script task  
 
-1. Sign in to Microsoft Dynamics 365 for Customer Engagement apps.  
+1. Sign in to Unified Service Desk Administrator.  
 
-2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
+2. Select **Agent Scripts** under **Basic Settings**. The page displays available agent script tasks. 
 
-3. Click **Agent Scripts**. The page displays available agent script tasks.  
-
-   ![Active agent script tasks](../unified-service-desk/media/usd-agent-scripts.png "Active agent script tasks")  
-
-4. Click **NEW** on the command bar, and then specify the following information in the **New Agent Script Task** page:  
+3. Select **+ New** on the command bar, and then specify the following information in the **New Agent Script Task** page:  
 
 
    |      Field       |                                                                                                                                                                                                                                                                                                                                                                                       Description                                                                                                                                                                                                                                                                                                                                                                                       |
@@ -51,12 +37,12 @@ Each step in an agent script is represented as an agent script task. An agent sc
    |     **Name**     |                                                                                                                                                                                                                                                                                                                                                              A name that will appear in the current step and history area.                                                                                                                                                                                                                                                                                                                                                              |
    |  **StartTask**   | Select **Yes** or **No**:<br /><br /> - **Yes**: This task will be displayed at the start of a session.  Typically, a user’s security will provide them only one start task.  Start tasks may represent functional areas or skills of the agent.  As agents get more experienced, they may get more start tasks (cross training).  If two or more start tasks are assigned to an agent, a special **[Main Menu]** will be displayed as the first task to the agent.  The buttons will then become the start tasks that the user may access.<br />- **No**: These may be accessed from answers of other tasks or you may call [GoToTask](../unified-service-desk/agent-scripting-hosted-control.md#GoToTask) action on the **Agent Scripting** hosted control to access a specific task. |
    |   **Show Tab**   |                                                                                                                                                                                                                                        Select the hosted control (tab) that should be set to focus when this task is reached by the user.  This may be used to place the user on the control that will help to perform the actions that are needed for this task step.  If this field is left blank, no change will be made to the focused tab.                                                                                                                                                                                                                                        |
-   |   **Category**   |                                                                                                                                                                                                                                                                                     Specify a category name to group, filter, or sort agent script tasks Microsoft Dynamics 365 for Customer Engagement apps while managing agent script tasks.<br /><br /> The category value is not used by agents in the client application.                                                                                                                                                                                                                                                                                      |
+   |   **Category**   |                                                                                                                                                                                                                                                                                     Specify a category name to group, filter, or sort agent script tasks while managing agent script tasks.<br /><br /> The category value is not used by agents in the client application.                                                                                                                                                                                                                                                                                      |
    |  **ScriptText**  |                                                                                                                                                                                                                        This is the script that the agent should read to the caller at this stage.  This field supports replacement parameters.  To insert the context variable, **fullname** into the script, type **[[fullname]]** into the flow of the script.  At runtime, it will replace this text with the value from the context for the current session.                                                                                                                                                                                                                        |
    | **Instructions** |                                                                                                                                                                                                                                                                                                   These are instructions to the user for what they should do to complete their work.  This is displayed in a slightly different font than the **Script Text** to help distinguish it.                                                                                                                                                                                                                                                                                                   |
 
 
-5. Click **Save** to save the record, and activate the **Answers** area.  
+4. Select **Save** to save the record, and activate the **Answers** area.  
 
    The following image shows a typical agent script task definition.  
 
@@ -68,30 +54,26 @@ Each step in an agent script is represented as an agent script task. An agent sc
 
  To add answers to an agent script task:  
 
-1. Open an agent script task definition by clicking its name on the agent scripts page (**Settings** > **Unified Service Desk** > **Agent Scripts**).  
+1. Open an agent script task definition by selecting its name on the agent scripts page.  
 
-2. You can add answers in either of the following two ways:  
+2. In the **Answers** area of the agent script task definition page, select **Add Existing Agent script Answer**. The **Lookup Records** pane is displayed.
 
-   -   In the **Answers** area of the agent script task definition page, click **+**.  
+3. Type the name of script answer in the search box. Select the answers from the list. If you want to create a new script answer, select **+ New Agent Script Answer**. The new agent script answer page is displayed.  
 
-   -   On the nav bar, click the down arrow next to the agent script task name, click **Answers**, and then click **Add Existing Agent Script Answer**.  
+4. On the **New Agent Script Answer** page, specify the following details:
+    
+    |      Field      |                                                                              Description                                                                              |
+    |-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    |    **Name**     | This is a descriptive name for the answer.  This name will not be seen by the agent.  It is useful for administrative purposes in distinguishing it from other tasks. |
+    | **AnswerText**  |                                                    This is the label shown on the button in the agent application.                                                    |
+    | **Linked Task** |                               When the user selects this answer (the button in the client application), they will go to the linked task.                               |
+    |    **Order**    |         Defines the order of the appearance of the answer (button) in the client application if there are multiple answers attached to an agent script task.          |
 
-   ![Add answer, action, or script task triggers](../unified-service-desk/media/usd-agent-script-answer.png "Add answer, action, or script task triggers")  
+5. Select **Save** to save the record.  
 
-3. In the search box for existing answers, either click the search icon or press ENTER. From the search results, click **New** at the bottom of the search results pane.  
+6. Repeat the Steps 1 to 3 to add the newly created script answer.
 
-4. On the **New Agent Script Answer** page, specify the following details:  
-
-
-   |      Field      |                                                                              Description                                                                              |
-   |-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   |    **Name**     | This is a descriptive name for the answer.  This name will not be seen by the agent.  It is useful for administrative purposes in distinguishing it from other tasks. |
-   | **AnswerText**  |                                                    This is the label shown on the button in the agent application.                                                    |
-   | **Linked Task** |                               When the user clicks this answer (the button in the client application), they will go to the linked task.                               |
-   |    **Order**    |         Defines the order of the appearance of the answer (button) in the client application if there are multiple answers attached to an agent script task.          |
-
-
-5. Click **Save** to save the record.  
+7. Select **Save**.
 
    The following image shows a typical answer definition.  
 
@@ -99,23 +81,23 @@ Each step in an agent script is represented as an agent script task. An agent sc
 
 <a name="ActionCallsAnswers"></a>   
 ## Add action calls to an answer  
- After adding answers to an agent script task, you must attach the action calls to your answers, which define the list of actions to be performed in the agent application when the agent clicks the answer. These action calls occur before the transition to the next task.  Action calls are the mechanism in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to call a UII action defined for a hosted control. For more information, see [Action calls](../unified-service-desk/action-calls.md).  
+ After adding answers to an agent script task, you must attach the action calls to your answers, which define the list of actions to be performed in the agent application when the agent selects the answer. These action calls occur before the transition to the next task.  Action calls are the mechanism in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to call a UII action defined for a hosted control. For more information, see [Action calls](../unified-service-desk/action-calls.md).  
 
  To add action calls to an answer:  
 
 1. Open an existing agent script answer.  
 
-2. On the nav bar, click the down arrow next to the answer name, and click **Actions**.  
+2. Select **Related** tab, and then select **Actions**.
 
-   ![Menu navigation to add an action call to an answer](../unified-service-desk/media/usd-action-call-answer.png "Menu navigation to add an action call to an answer")  
+3. On the next page, select **Add Existing Action Call**. The **Lookup Records** pane is displayed.
 
-3. On the next page, Click **Add Existing Action Call** to search for an action call to add it to the answer. Type a name for the action call that you want to add, and press ENTER or click the search icon. To do a wildcard search, type a part of the action call name within asterisks (*); for example **\*account\\***. This will display all the action calls in the search results pane that have “account” in their name.  
+4. Type the name of an action call, and select the action call from the list and then select **Add**. To do a wildcard search, type a part of the action call name within asterisks (*); for example **\*account\\**. This will display all the action calls in the search results pane that have “account” in their name.  
 
-    You can also create a new action call by clicking **New** at the bottom of the search results pane. For information about creating a new action call, see [Create an action call for a UII action](../unified-service-desk/create-action-call-uii-action.md).  
+    You can also create a new action call by selecting **+ New Action Call** at the bottom of the search results pane. For information about creating a new action call, see [Create an action call for a UII action](../unified-service-desk/create-action-call-uii-action.md).  
 
-4. You can add multiple action calls to an answer. After adding multiple action calls, double click each action call in the list, and specify the **Order** in which you want an action call to be executed when the agent clicks the answer.  
+5. You can add multiple action calls to an answer. After adding multiple action calls, double-click each action call in the list, and specify the **Order** in which you want an action call to be executed when the agent selects the answer.  
 
-5. Click **Save** to save the record.  
+6. Select **Save** to save the record.  
 
    These actions are often used when a general task is the next step.  That way different answers can perform different actions but end at the same task, thus reducing the number of tasks needed to satisfy the business process.  
 
@@ -125,31 +107,29 @@ Each step in an agent script is represented as an agent script task. An agent sc
 
  To add an action call for to an agent script task:  
 
-1. Open an agent script task definition by clicking its name on the agent scripts page (**Settings** > **Unified Service Desk** > **Agent Scripts**).  
+1. Open an agent script task definition by select its name on the agent scripts page. 
 
-2. On the nav bar, click the down arrow next to the agent script task name, and then click **Actions**.  
+2. Select **Related** tab, and then select **Actions**. 
 
-   ![Add answer, action, or script task triggers](../unified-service-desk/media/usd-agent-script-answer.png "Add answer, action, or script task triggers")  
+3. On the next page, select **Add Existing Action Call**. The **Lookup Records** pane is displayed.
 
-3. On the next page, Click **Add Existing Action Call** to search for an action call to add it to the agent script task. Type a name for the action call that you want to add, and press ENTER or click the search icon. To do a wildcard search, type a part of the action call name within asterisks (*); for example **\*account\\***. This will display all the action calls in the search results pane that have “account” in their name.  
+4. Type the name of an action call, and select the action call from the list and then select **Add**. To do a wildcard search, type a part of the action call name within asterisks (*); for example **\*account\\**. This will display all the action calls in the search results pane that have “account” in their name.  
 
-    You can also create a new action call by clicking **New** at the bottom of the search results pane. For information about creating a new action call, see [Create an action call for a UII action](../unified-service-desk/create-action-call-uii-action.md).  
+    You can also create a new action call by selecting **+ New Action Call** at the bottom of the search results pane. For information about creating a new action call, see [Create an action call for a UII action](../unified-service-desk/create-action-call-uii-action.md).  
 
-4. You can add multiple action calls to an answer. After adding multiple action calls, double click each action call in the list, and specify the **Order** in which you want an action call to be executed when the agent reaches the task.  
+5. You can add multiple action calls to an answer. After adding multiple action calls, double-click each action call in the list, and specify the **Order** in which you want an action call to be executed when the agent selects the answer.  
 
-5. Click **Save** to save the record.  
+6. Select **Save** to save the record.    
 
 <a name="AgentScriptTriggers"></a>   
 ## Add triggers to an agent script task  
  These are variables used to refer to a specific task. To add an agent script task trigger:  
 
-1. Open an agent script task definition by clicking its name on the agent scripts page (**Settings** > **Unified Service Desk** > **Agent Scripts**).  
+1. Open an agent script task definition by clicking its name on the agent scripts page.
 
-2. On the nav bar, click the down arrow next to the agent script task name, and then click **Script Task Triggers**.  
+2. Select the **Related** tab, and then select**Script Task Triggers**. 
 
-   ![Add answer, action, or script task triggers](../unified-service-desk/media/usd-agent-script-answer.png "Add answer, action, or script task triggers")  
-
-3. On the next page, Click **Add New Script Task Trigger**.  
+3. On the next page, select **+ New Script Task Trigger**.  
 
 4. On the **New Script Task Trigger** page, specify the following information:  
 
@@ -161,7 +141,7 @@ Each step in an agent script is represented as an agent script task. An agent sc
    | **Data** |                                                                                                                                                                                                                                                                                                                            Specify the data to be passed.                                                                                                                                                                                                                                                                                                                            |
 
 
-5. Click **Save** to save the record.  
+5. Select **Save** to save the record.  
 
 <a name="Tips"></a>   
 ## Tips on configuring agent scripts  

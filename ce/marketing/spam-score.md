@@ -1,18 +1,16 @@
 ---
-title: "Use AI to check your message-content spam score (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "How to check the content of your email messages to see whether they might get flagged as spam by recipient systems in Dynamics 365 for Marketing"
+title: "Use AI to check your message-content spam score (Dynamics 365 Marketing) | Microsoft Docs"
+description: "How to check the content of your email messages to see whether they might get flagged as spam by recipient systems in Dynamics 365 Marketing"
 keywords:
 ms.date: 06/12/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
-ms.topic: get-started-article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.topic: article
 ms.assetid: 361dea50-9093-4668-910c-50f715fdd572
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -34,7 +32,7 @@ search.app:
 The spam score feature applies artificial intelligence to analyze the content of each marketing email message, and then generates a score that predicts how likely the message is to be flagged by content-based spam filters.
 
 > [!NOTE]
-> Before you can use spam score, your admin must enable and configure it. If you don't see the features described in this topic, then please ask your admin to enable spam score for your site. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Enable and configure artificial intelligence features](admin-machine-learning.md)
+> Before you can use spam score, your admin must enable and configure it. If you don't see the features described in this topic, then please ask your admin to enable spam score for your site. More information: [Enable and configure artificial intelligence features](admin-machine-learning.md)
 
 There are two ways to view your spam score:
 

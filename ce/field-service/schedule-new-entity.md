@@ -1,5 +1,5 @@
 ---
-title: "Enable an entity for scheduling in Dynamics 365 for Field Service| MicrosoftDocs"
+title: "Enable an entity for scheduling in Dynamics 365 Field Service| MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 06/10/2019
@@ -26,7 +26,7 @@ search.app:
   - D365FS
 ---
 
-# Enable an entity for scheduling in Dynamics 365 for Field Service
+# Enable an entity for scheduling in Dynamics 365 Field Service
 
 [!INCLUDE[topic-urs-schedule-new-entity.md](../shared/urs/schedule-new-entity.md)]
 

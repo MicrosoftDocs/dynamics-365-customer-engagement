@@ -7,7 +7,7 @@ ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement apps
+applies_to: Dynamics 365 apps
 ms.assetid: 19eb9378-3eb0-4964-98d8-5c674a0c746b
 caps.latest.revision: 7
 ms.author: mkaur

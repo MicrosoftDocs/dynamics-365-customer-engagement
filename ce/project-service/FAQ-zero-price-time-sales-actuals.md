@@ -1,6 +1,6 @@
 ---
 
-title: Why is the price defaulting to zero on time sales actuals? (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: Why is the price defaulting to zero on time sales actuals? 
 description: Troubleshooting why a price is defaulting to 0 on time sales actuals.
 author: rumant
 manager: kfend

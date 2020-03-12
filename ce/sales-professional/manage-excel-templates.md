@@ -1,27 +1,23 @@
 ---
-title: "Create and manage Microsoft Excel templates in Dynamics 365 for Sales Professional | MicrosoftDocs"
-description: "Analyze and present your sales data in a standard format with Excel templates in Dynamics 365 for Sales Professional."
-keywords: ""
-ms.date: 04/05/2019
-ms.service: dynamics-365-sales
+title: "Create and manage Microsoft Excel templates in Dynamics 365 Sales Professional | MicrosoftDocs"
+description: "Analyze and present your sales data in a standard format with Excel templates in Dynamics 365 Sales Professional."
+ms.date: 10/01/2019
+ms.service: 
+  - dynamics-365-sales
+ms.custom: 
+  - dyn365-sales
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
-ms.assetid: 9de3ddbc-8460-465f-85df-bf5ae81ebe2c
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.custom: dyn365-sales
 ---
 
-# Create and manage Excel templates in Dynamics 365 for Sales Professional
+# Create and manage Excel templates in Dynamics 365 Sales Professional
 
 > [!IMPORTANT]
-> This capability is introduced in the Dynamics 365 for Sales Professional app version 9.1.0.0.
+> This capability is introduced in the Dynamics 365 Sales Professional app version 9.1.0.0.
 
-Microsoft Excel provides powerful ways to analyze and present your Dynamics 365 for Sales Professional data. With Excel templates, you can easily create and share your customized analysis with others in your organization.
+Microsoft Excel provides powerful ways to analyze and present your Dynamics 365 Sales Professional data. With Excel templates, you can easily create and share your customized analysis with others in your organization.
 
 You can use Excel templates for:
 
@@ -43,7 +39,7 @@ Templates display information from the view defined for a record type (entity). 
 
 ## Step 1: Create a new template from existing data
 
-1.  Make sure you have the System Administrator role in Dynamics 365 for Sales Professional.
+1.  Make sure you have the System Administrator role in Dynamics 365 Sales Professional.
 
 2.  In the site map, select **Sales Settings**.
 
@@ -74,7 +70,7 @@ Open the newly created template in Excel to customize the data.
 
 ![Excel template with data](media/excel-template-with-data.png "Excel template with data")
 
-Let’s walk through a simple example of customizing an Excel template using Dynamics 365 for Sales Professional sample data.
+Let’s walk through a simple example of customizing an Excel template using Dynamics 365 Sales Professional sample data.
 
 ### Example customization of Opportunities data
 
@@ -90,7 +86,7 @@ Let’s walk through a simple example of customizing an Excel template using Dyn
 
 4.  Create a pivot table and chart.
 
-    Place user-added content above or to the right of the existing data table. This prevents the content from being overwritten if you add new data in Dynamics 365 for Sales Professional later and you create a new Excel template.
+    Place user-added content above or to the right of the existing data table. This prevents the content from being overwritten if you add new data in Dynamics 365 Sales Professional later and you create a new Excel template.
     
     More information: [Best practices and considerations for using Excel templates](#best-practices-and-considerations-for-using-excel-templates).
 
@@ -98,15 +94,15 @@ Let’s walk through a simple example of customizing an Excel template using Dyn
 
 5.  Save the spreadsheet.
 
-You’re now ready to upload the Excel template into Dynamics 365 for Sales
+You’re now ready to upload the Excel template into Dynamics 365 Sales
 Professional.
 
 ## Step 3: Upload the template and share with others
 
-When you have your Excel template customized the way you want, you can upload it into Dynamics 365 for Sales Professional.
+When you have your Excel template customized the way you want, you can upload it into Dynamics 365 Sales Professional.
 
 Administrators can use the **Advanced Settings** page to upload the Excel
-template into Dynamics 365 for Sales Professional.
+template into Dynamics 365 Sales Professional.
 
 >  [!NOTE] 
 
@@ -127,7 +123,7 @@ template into Dynamics 365 for Sales Professional.
 
 ## Best practices and considerations for using Excel templates
 
-Here are some things you need to be aware of to create and make the best use of Excel templates in Dynamics 365 for Sales Professional.
+Here are some things you need to be aware of to create and make the best use of Excel templates in Dynamics 365 Sales Professional.
 
 -   **Test your Excel templates.**
 
@@ -139,11 +135,11 @@ Here are some things you need to be aware of to create and make the best use of 
 
     Consider the following scenario:
 
-    -   A Dynamics 365 for Sales Professional administrator creates a template where the view contains sensitive data in a pivot chart which is uploaded into Dynamics 365 for Sales Professional.
+    -   A Dynamics 365 Sales Professional administrator creates a template where the view contains sensitive data in a pivot chart which is uploaded into Dynamics 365 Sales Professional.
 
     -   A salesperson who should not have access to the sensitive data in the pivot charts uses the template to create an Excel file to do data analysis.
 
-    The outcome of this scenario is that the salesperson might be able to see the pivot chart data as it is uploaded by the Dynamics 365 for Sales Professional administrator, including access to views for which the salesperson does not have permissions.
+    The outcome of this scenario is that the salesperson might be able to see the pivot chart data as it is uploaded by the Dynamics 365 Sales Professional administrator, including access to views for which the salesperson does not have permissions.
 
     In addition, iOS does not support updating pivot data and pivot charts when using the Microsoft Excel app on iOS devices.
 
@@ -164,7 +160,7 @@ Here are some things you need to be aware of to create and make the best use of 
 
 -   **Excel templates with images can cause an error**
 
-    If you attempt to view Dynamics 365 for Sales Professional data with an Excel template that has an image saved in it, you might see the following error: “An error occurred while attempting to save your workbook. As a result, the workbook was not saved.” Try removing the image from the template and reloading it into Dynamics 365 for Sales Professional.
+    If you attempt to view Dynamics 365 Sales Professional data with an Excel template that has an image saved in it, you might see the following error: “An error occurred while attempting to save your workbook. As a result, the workbook was not saved.” Try removing the image from the template and reloading it into Dynamics 365 Sales Professional.
 
 -   **Excel templates and Office Mobile app in Windows 8.1**
 
@@ -174,5 +170,5 @@ Here are some things you need to be aware of to create and make the best use of 
 
 ### See also
 
-[Use document templates in Dynamics 365 for Sales Professional](use-document-templates-sales-professional.md)  
+[Use document templates in Dynamics 365 Sales Professional](use-document-templates-sales-professional.md)  
 [Admin settings overview](admin-settings-overview.md)

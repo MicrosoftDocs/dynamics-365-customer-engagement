@@ -1,27 +1,23 @@
 ---
-title: "Customize the Dynamics 365 for Sales Professional app"
-description: "Learn how to customize the Dynamics 365 for Sales Professional app."
-keywords: ""
-ms.date: 04/05/2019
-ms.service: dynamics-365-sales
+title: "Customize the Dynamics 365 Sales Professional app"
+description: "Learn how to customize the Dynamics 365 Sales Professional app."
+ms.date: 10/01/2019
+ms.service: 
+  - dynamics-365-sales
+ms.custom: 
+  - dyn365-sales
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
-ms.assetid: a4b27f55-9fb6-4a3f-a133-8213165eb018
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.custom: dyn365-sales
 ---
 
-# Customize the Dynamics 365 for Sales Professional app
+# Customize the Dynamics 365 Sales Professional app
 
 > [!IMPORTANT]
-> This capability is introduced in the Dynamics 365 for Sales Professional app version 9.1.0.0.
+> This capability is introduced in the Dynamics 365 Sales Professional app version 9.1.0.0.
 
-The Dynamics 365 for Sales Professional application is a modular app built to provide capabilities tailored for sales professionals and sales managers. As and administrator or customizer, you can easily customize the entities, dashboards, forms, views, charts, and business processes included in the Sales Professional application using the app designer, without having to write any code.
+The Dynamics 365 Sales Professional application is a modular app built to provide capabilities tailored for sales professionals and sales managers. As and administrator or customizer, you can easily customize the entities, dashboards, forms, views, charts, and business processes included in the Sales Professional application using the app designer, without having to write any code.
 
 1.	In the site map, select **Sales Settings**.
 
@@ -44,4 +40,4 @@ You can now edit the app using the app designer. To learn about how to use the a
 ### See also
 
 [Admin settings overview](admin-settings-overview.md)    
-[Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md)
+[Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)

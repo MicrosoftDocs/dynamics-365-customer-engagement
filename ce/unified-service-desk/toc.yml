@@ -44,7 +44,7 @@
     href: admin/upgrade-unified-service-desk-solution.md
   - name: Update Unified Service Desk solution
     href: admin/update-unified-service-desk-solution.md
-- name: Connect to a Dynamics 365 instance using the Unified Service Desk client
+- name: Connect to a Common Data Service platform instance using the Unified Service Desk client
   href: admin/connect-dynamics-365-instance-using-unified-service-desk-client.md
 - name: Understand Unified Service Desk concepts
   items:
@@ -64,7 +64,7 @@
       href: action-calls.md
     - name: Replacement parameters
       href: replacement-parameters.md
-  - name: User Interface Integration (UII) framework  
+  - name: User Interface Integration (UII) framework
     items:
     - name: Unified Service Desk and the UII framework
       href: unified-service-desk-uii-framework.md
@@ -130,6 +130,8 @@
       href: admin/download-migration-assistant.md      
     - name: Migration steps
       href: admin/migration-steps-web-client-unified-interface-configuration.md
+    - name: Post-requisites steps
+      href: admin/test-migration.md
   - name: Migrate Unified Service Desk configuration to another Customer Engagement instance 
     items:    
     - name: Migration of a Unified Service Desk configuration
@@ -176,7 +178,7 @@
       href: execute-scripts-using-scriptlets-unified-service-desk.md
     - name: Search data using entity searches in Unified Service Desk
       href: search-data-entity-searches.md
-    - name: Use Dynamics 365 knowledge for effective customer engagement
+    - name: Use knowledge for effective customer engagement
       href: use-dynamics-365-knowledge-effective-customer-engagement.md
   - name: Get started with the configurations
     items:
@@ -230,7 +232,7 @@
         href: customize-themes-in-unified-service-desk.md
     - name: Add multilanguage support for your agent applications
       href: add-multilanguage-support-agent-applications.md
-    - name: Configure Unified Service Desk to use Dynamics 365 knowledge
+    - name: Configure Unified Service Desk to use knowledge
       href: configure-unified-service-desk-use-dynamics-365-knowledge.md
     - name: Configure notifications in Unified Service Desk
       href: configure-notifications-unified-service-desk.md
@@ -242,11 +244,11 @@
         href: unified-service-desk-unified-interface-configuration-walkthroughs.md
       - name: 'Walkthrough 1: Build a simple agent application for Unified Interface Apps'
         href: walkthrough1-unified-interface-build-a-simple-agent-application.md
-      - name: 'Walkthrough 2: Display an external webpage in your agent application'
+      - name: 'Walkthrough 2: Display an external webpage in your agent application' 
         href: walkthrough2-unified-interface-display-an-external-webpage-in-your-agent-application.md
-      - name: 'Walkthrough 3: Display Microsoft Dynamics 365 Unified Interface app records in your agent application'
+      - name: 'Walkthrough 3: Display records in your agent application'
         href: walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md
-      - name: 'Walkthrough 4: Display a Microsoft Dynamics 365 Unified Interface app record in a session in your agent application'
+      - name: 'Walkthrough 4: Display a record in a session in your agent application'
         href: walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md
       - name: 'Walkthrough 5: Display enhanced session information by displaying session name and overview data'
         href: walkthrough5-unified-interface-display-enhanced-session-information-displaying-session-name-overview-data.md
@@ -262,9 +264,9 @@
         href: walkthrough-1-build-a-simple-agent-application.md
       - name: 'Walkthrough 2: Display an external webpage in your agent application'
         href: walkthrough-2-display-an-external-webpage-in-your-agent-application.md
-      - name: 'Walkthrough 3: Display Microsoft Dynamics 365 records in your agent application'
+      - name: 'Walkthrough 3: Display records in your agent application'
         href: walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md
-      - name: 'Walkthrough 4: Display a Microsoft Dynamics 365 record in a session in your agent application'
+      - name: 'Walkthrough 4: Display a record in a session in your agent application'
         href: walkthrough-display-dynamics-365-record-session-agent-application.md
       - name: 'Walkthrough 5: Display enhanced session information by displaying session name and overview data'
         href: walkthrough-5-display-enhanced-session-information-displaying-session-name-overview-data.md
@@ -272,7 +274,7 @@
         href: walkthrough-configure-debugger-hosted-control-agent-application.md
       - name: 'Walkthrough 7: Configure agent scripting in your agent application'
         href: walkthrough-configure-agent-scripting-agent-application.md
-      - name: 'Walkthrough 8: Use Dynamics 365 knowledge base within your agent application'
+      - name: 'Walkthrough 8: Use knowledge base within your agent application'
         href: walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md    
 - name: Analyze performance of Unified Service Desk (Preview)
   items:
@@ -575,7 +577,14 @@
     href: cca-hosted-application-hosted-control.md
   - name: Session Timer (Custom Hosted Control)
     href: session-timer-custom-hosted-control.md
-- name: Accessibility in Unified Service Desk for Microsoft Dynamics 365
+- name: Accessibility in Unified Service Desk
   href: admin/accessibility-unified-service-desk-microsoft-dynamics-365.md
 - name: Known issues and limitations of Unified Service Desk
   href: release-notes.md
+
+- name: Dynamics 365 Customer Service
+  href: https://docs.microsoft.com/dynamics365/customer-service/help-hub
+- name: Omnichannel for Customer Service Guide
+  href: https://docs.microsoft.com/dynamics365/omnichannel/omnichannel-customer-service-guide
+- name: Dynamics 365 Channel Integration Framework Guide
+  href: https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework

@@ -1,6 +1,6 @@
 ---
 title: Resource management changes (Project Service Automation 3.x)
-description: This topic provides information about the changes to the Resource management area in Microsoft Dynamics 365 for Project Service Automation (PSA) 3.x.
+description: This topic provides information about the changes to the Resource management area.
 author: makk
 manager: kfend
 ms.custom:
@@ -20,7 +20,7 @@ search.app:
 
 # Resource management changes (Project Service Automation 3.x)
 
-The sections of this topic provide information about the changes that have been made to the Resource management area of Microsoft Dynamics 365 for Project Service Automation (PSA) version 3.x.
+The sections of this topic provide information about the changes that have been made to the Resource management area of Dynamics 365 Project Service Automation version 3.x.
 
 ## Project estimates
 
@@ -86,7 +86,7 @@ The new structure of the schedule contour consists of flexible time slices that 
 
 This example uses a project calendar where the workday is from 9 AM to 5 PM in the UTC-8 time zone.
 
-```
+```json
 [{"End":"\/Date(1543885200000)\/","Start":"\/Date(1543856400000)\/","Hours":8},{"End":"\/Date(1543971600000)\/","Start":"\/Date(1543942800000)\/","Hours":8},{"End":"\/Date(1544058000000)\/","Start":"\/Date(1544029200000)\/","Hours":2}]
 ```
 
@@ -98,7 +98,7 @@ If a task is auto-scheduled, the hours are front-loaded, and the task duration m
 
 The following task is auto-scheduled for 18 hours over three days (December 3, 2018, to December 5, 2018).
 
-```
+```json
 [{"End":"\/Date(1543885200000)\/","Start":"\/Date(1543856400000)\/","Hours":8},{"End":"\/Date(1543971600000)\/","Start":"\/Date(1543942800000)\/","Hours":8},{"End":"\/Date(1544058000000)\/","Start":"\/Date(1544029200000)\/","Hours":2}]
 ```
 
@@ -108,7 +108,7 @@ If a task is manually scheduled, the hours are evenly distributed to all the dat
 
 The following task is manually scheduled for 18 hours over three days (December 3, 2018, to December 5, 2018).
 
-```
+```json
 [{"End":"\/Date(1543885200000)\/","Start":"\/Date(1543856400000)\/","Hours":6},{"End":"\/Date(1543971600000)\/","Start":"\/Date(1543942800000)\/","Hours":6},{"End":"\/Date(1544058000000)\/","Start":"\/Date(1544029200000)\/","Hours":6}]
 ```
 
@@ -122,13 +122,13 @@ In this example, the task is is assigned to two resources and is auto-scheduled 
 
 - Assignment 1:
 
-    ```
+    ```json
     [{"End":"\/Date(1543885200000)\/","Start":"\/Date(1543856400000)\/","Hours":8},{"End":"\/Date(1543971600000)\/","Start":"\/Date(1543942800000)\/","Hours":8},{"End":"\/Date(1544058000000)\/","Start":"\/Date(1544029200000)\/","Hours":2}]
     ```
 
 - Assignment 2:
 
-    ```
+    ```json
     [{"End":"\/Date(1543885200000)\/","Start":"\/Date(1543856400000)\/","Hours":8},{"End":"\/Date(1543971600000)\/","Start":"\/Date(1543942800000)\/","Hours":8},{"End":"\/Date(1544058000000)\/","Start":"\/Date(1544029200000)\/","Hours":2}]
     ```
 

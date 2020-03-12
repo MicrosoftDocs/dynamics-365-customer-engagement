@@ -44,7 +44,7 @@ The following image shows an example setup for the **Day** unit, where the **Qua
 
 ## Using units and unit groups
 
-Microsoft Dynamics 365 for Project Service Automation (PSA) uses units and unit groups to process estimates and entries for both expenses and time. 
+Dynamics 365 Project Service Automation uses units and unit groups to process estimates and entries for both expenses and time. 
 
 For expenses, each expense category has a default unit group and unit. These values are entered as default values on price list entries for expense categories. 
 

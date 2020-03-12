@@ -1,17 +1,15 @@
 ---
-title: "Guide your prospects through an interactive customer journey (Dynamics 365 for Marketing) | Microsoft Docs "
-description: "How to create a customer journey by assembling a pipeline of automated communications, activities, and conditional pathways in Dynamics 365 for Marketing"
+title: "Guide your prospects through an interactive customer journey (Dynamics 365 Marketing) | Microsoft Docs "
+description: "How to create a customer journey by assembling a pipeline of automated communications, activities, and conditional pathways in Dynamics 365 Marketing"
 keywords: customer journey; campaign; email; segment; go live; pipeline
-ms.date: 04/01/2018
+ms.date: 01/23/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: dd5579ea-7fea-41fa-81ab-a83d67943c7e
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -26,35 +24,37 @@ search.app:
 
 # Use customer journeys to create automated campaigns
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/d73cc179-5984-4a32-ad84-0755f56b0399" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/d73cc179-5984-4a32-ad84-0755f56b0399" frameborder="0" allowfullscreen=""></iframe></div>
 
-Use [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] to visualize and automate the journey that customers will take while interacting with your marketing initiatives on their way to making a purchase. A simple customer journey might include just a short interaction, such as a single email campaign. A complex journey could include the full process from discovery, through nurturing, and on to marketing-qualified leads. Customer journeys can also generate and assign [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] tasks (such as a scheduled follow-up phone call), and trigger business workflows.
+Use Dynamics 365 Marketing to visualize and automate the journey that customers will take while interacting with your marketing initiatives on their way to making a purchase. A simple customer journey might include just a short interaction, such as a single email campaign. A complex journey could include the full process from discovery, through nurturing, and on to marketing-qualified leads. Customer journeys can also generate and assign tasks (such as a scheduled follow-up phone call), and trigger business workflows.
 
-[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] provides a graphical, drag-and-drop, journey modeler that works something like a simple board game. Each contact starts on the first square (by becoming part of a target segment), and then progresses through one square at a time, with each square representing a marketing initiative, decision point, or internal action item.
+Dynamics 365 Marketing provides a graphical, drag-and-drop, journey modeler that works something like a simple board game. Each contact starts on the first square (by becoming part of a target segment), and then progresses through one square at a time, with each square representing a marketing initiative, decision point, or internal action item.
 
 ![An example of a customer journey](media/customer-journey.png "An example of a customer journey")
 
-The previous figure shows how a simple customer journey might look in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. A somewhat more complex example could work like this:
+The previous figure shows how a simple customer journey might look. A somewhat more complex example could work like this:
 
 1. A new contact from New York wants to subscribe to your newsletter, and fills out a marketing page. This results in a new contact record in your database.
 
 2. You have a dynamic segment that finds all newsletter subscribers from New York, so the new contact automatically joins that list.
 
-3. You've created a customer journey in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] that starts with the New York subscribers' segment as tile one, so the contact starts there and moves directly to the next tile.
+3. You've created a customer journey that starts with the New York subscribers' segment as tile one, so the contact starts there and moves directly to the next tile.
 
 4. The next tile in the journey is an email tile, so the system automatically sends a marketing email to the new contact, and the contact moves on to the next tile. The email message offers a free white paper for download.
 
 5. The next tile is a trigger (set to trigger on the email). It keeps the contact here until either a week goes by, or they click the download link. The trigger branches the path, so if the contact clicks to download the paper, they'll take the "true" path immediately; but if a week goes by without a click, they'll go down the "false" path.
 
-6. The top ("true") path continues with more tiles designed to nurture the lead further. Because the contact clicked the link, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] generated a lead for that contact, which represents their expression of interest in the product promoted in that white paper. Some tiles along this path might initiate or evaluate lead interactions (such as event invitations), while others might generate internal events (like assigning a task or launching a workflow in the CRM system). As the contact interacts with your initiatives, the lead builds up its score until it's ready to forward to sales.
+6. The top ("true") path continues with more tiles designed to nurture the lead further. Because the contact clicked the link, Dynamics 365 Marketing generated a lead for that contact, which represents their expression of interest in the product promoted in that white paper. Some tiles along this path might initiate or evaluate lead interactions (such as event invitations), while others might generate internal events (like assigning a task or launching a workflow in the CRM system). As the contact interacts with your initiatives, the lead builds up its score until it's ready to forward to sales.
 
 7. The bottom ("false") path starts with another email tile, which sends a reminder with a second chance to get the download, after which the contact might continue down the same type of nurturing path if they respond, or get dropped for now if they don't.
 
 ## Set up a customer journey
 
-To view and create your customer journeys, go to **Marketing** &gt; **Marketing Execution** &gt; **Customer Journeys**. This brings you to a standard list view, where you can search, sort, and filter the list to find an existing journey—or create a new one by using the commands in the command bar.
+To view and create your customer journeys, go to **Marketing** > **Marketing Execution** > **Customer Journeys**. This brings you to a standard list view, where you can search, sort, and filter the list to find an existing journey.
 
-When you create a new customer journey, you'll first be presented with a list of customer-journey templates, which can help you get started quickly. The **Select a Journey Template** dialog box provides a categorized overview of templates and a search form to help you find the one you're looking for. Each template represents a particular type of campaign, and includes a preconfigured pipeline and a few related settings that will help you create a customer journey of the selected type.
+To create a new journey, select **New** on the command bar.
+
+When you create a new customer journey, you'll first be presented with a list of customer-journey templates, which can help you get started quickly. The **Journey templates** dialog box provides a categorized overview of templates and a search form to help you find the one you're looking for. Each template represents a particular type of campaign, and includes a preconfigured pipeline and a few related settings that will help you create a customer journey of the selected type.
 
 ![Select a Journey Template dialog](media/customer-journey-template.png "Select a journey template")
 
@@ -104,15 +104,15 @@ Though most people add and arrange tiles by dragging them to the canvas, you can
 
     ![Choose where to add the new tile](media/cj-add-location-ill.png "Choose where to add the new tile")
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Accessibility and keyboard shortcuts](designer-shortcuts.md)
+More information: [Accessibility and keyboard shortcuts](designer-shortcuts.md)
 
 ### Configure tile settings
 
-Each tile represents a step in the customer journey, and you'll make configuration settings to establish what happens at each of these steps. Most types of tiles interact with some other type of record in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], such as a target segment, marketing email message, landing page, event, or action. Other types of tiles&mdash;like schedulers, triggers, and splitters&mdash;react to things that happen during the journey itself and control the path that each contact takes when these things happen.
+Each tile represents a step in the customer journey, and you'll make configuration settings to establish what happens at each of these steps. Most types of tiles interact with some other type of record in Dynamics 365 Marketing, such as a target segment, marketing email message, landing page, event, or action. Other types of tiles&mdash;like schedulers, triggers, and splitters&mdash;react to things that happen during the journey itself and control the path that each contact takes when these things happen.
 
 To configure a tile, select it in the pipeline, and then go to the **Properties** tab to the right of the canvas, where you'll find all the settings that apply to the type of tile you've selected. When you add a new tile, its **Properties** tab is automatically activated so you can start configuring that tile right away.
 
-For tiles that must refer to some other record in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], like emails or events, you can choose to leave the record unspecified, choose an existing record, or create a new record to use with that tile. All tiles of this type include the **Properties** settings highlighted in the following figure.
+For tiles that must refer to some other record in Dynamics 365 Marketing, like emails or events, you can choose to leave the record unspecified, choose an existing record, or create a new record to use with that tile. All tiles of this type include the **Properties** settings highlighted in the following figure.
 
 ![An example of common tile settings](media/cj-tile-details-ill.png "An example of common tile settings")
 
@@ -123,7 +123,7 @@ Legend:
 1. **Current record**: If the tile is already configured, this shows the name of the record associated with the current tile. As mentioned, you can also use this as a search field, together with the search button, to look for other existing records.
 1. **Edit**: If the tile is already associated with a record, select to open the full form for that record. From there, you'll have full access to all that record's information and settings.
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Customer journey tiles reference](customer-journey-tiles-reference.md)
+More information: [Customer journey tiles reference](customer-journey-tiles-reference.md)
 
 ## Choose the journey's target segment
 
@@ -140,7 +140,7 @@ The most common way to target a customer journey is to start with a segment tile
 
 ### Target a subscription list
 
-All [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] instances must provide a subscription center, which enables contacts to sign up for various mailing lists. You'll probably want to set up customer journeys to send messages to each of these mailing lists from time to time. To target a mailing list with a customer journey, place a segment tile configured to load a subscription list as the first tile in the journey. For more information about subscription lists and the subscription center, see [Set up subscription lists and subscription centers](set-up-subscription-center.md).
+All Dynamics 365 Marketing instances must provide a subscription center, which enables contacts to sign up for various mailing lists. You'll probably want to set up customer journeys to send messages to each of these mailing lists from time to time. To target a mailing list with a customer journey, place a segment tile configured to load a subscription list as the first tile in the journey. For more information about subscription lists and the subscription center, see [Set up subscription lists and subscription centers](set-up-subscription-center.md).
 
 To set up a segment tile to target a subscription list:
 
@@ -152,11 +152,11 @@ To set up a segment tile to target a subscription list:
     ![Set a segment tile to load a subscription list](media/cj-target-subscription-list.png "Set a segment tile to load a subscription list")
 
 > [!IMPORTANT]
-> When a customer journey targets a subscription list, then any contact that unsubscribes from that list using a subscription center will automatically be removed from that journey within about 24 hours, even if they are already partway through it. However, if a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] users removes a contact from the list manually using the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] interface, that contact will continue to be processed by any journeys they already are on, and may continue to receive messages until all active journeys are complete. For this reason, it is usually best to request all contacts to manage their own subscriptions using the subscription center.
+> When a customer journey targets a subscription list, then any contact that unsubscribes from that list using a subscription center will automatically be removed from that journey within about 24 hours, even if they are already partway through it. However, if a user removes a contact from the list manually using the Dynamics 365 Marketing interface, that contact will continue to be processed by any journeys they already are on, and may continue to receive messages until all active journeys are complete. For this reason, it is usually best to request all contacts to manage their own subscriptions using the subscription center.
 
 ### Create an inbound customer journey
 
-An inbound customer journey is one that a contacts join by filling out an online form rather than being part of a target segment. To create an inbound journey, start with a marketing page or marketing form tile instead of a segment (or with a segment configured to find contacts who submitted a particular form). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create an inbound customer journey](create-inbound-customer-journey.md)
+An inbound customer journey is one that contacts join by filling out an online form rather than being part of a target segment. To create an inbound journey, start with a marketing page or marketing form tile instead of a segment (or with a segment configured to find contacts who submitted a particular form). More information: [Create an inbound customer journey](create-inbound-customer-journey.md)
 
 <a name="general-options"></a>
 
@@ -176,15 +176,33 @@ You must set each customer journey to target _either_ contacts _or_ accounts. Us
   - Create-lead tiles can generate leads associated with accounts rather than contacts.
   - Journey insights shown in the **Data** panel can be filtered by account.
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Account-based marketing](account-based-marketing.md)
+More information: [Account-based marketing](account-based-marketing.md)
 
 ### Set the minimum consent level
 
 If data protection is enabled for your instance (for example, because you need to comply with the GDPR), then use the **Minimum consent** setting to control the minimum level of consent that each contact must have provided to be included on this journey. The level you choose should depend on the types of operations your journey will execute.
 
-It is your organization's responsibility to ensure that it is operating in full compliance with all relevant data-privacy regulations when you use customer journeys and all other features of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
+It is your organization's responsibility to ensure that it is operating in full compliance with all relevant data-privacy regulations when you use customer journeys and all other features of Dynamics 365 Marketing.
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Data protection and the GDPR](gdpr.md)
+More information: [Data protection and the GDPR](gdpr.md)
+
+### Set the business-unit scope
+
+Business-unit scopes are an optional feature. When they are enabled for your instance, then the **General** tab includes a **Scope** setting, which controls which contacts will be permitted to join the journey based on business-unit ownership.
+
+When business-unit scopes are enabled:
+
+- The **Scope** setting is available and can have a value of **Organization** or **Business unit**. 
+- **Business unit** scoped journeys will only process contacts that belong to the same business unit as the journey owner&mdash;even if the journey targets segments, lists, and/or pages that include contacts belonging to other business units.
+- **Organization** scoped journeys will process all targeted contacts, regardless of which business unit owns the journey.
+- Only users with organization-level create/update permissions can choose the **Organization** scope setting. Less privileged users are limited to creating journeys scoped at the **Business unit** level.
+
+When business-unit scopes are disabled:
+
+- The **Scope** setting isn't shown.
+- All journeys are scoped at the organization level, which means that they will process all contacts in the targeted segments, lists, and/or pages, regardless of which business unit owns the journey and each contact.
+
+More information: [Use business units to control access to Marketing records](business-units.md)
 
 ### Set the execution schedule
 
@@ -198,13 +216,11 @@ To choose the content settings used by a journey, go to its **General** tab and 
 
 For more information about how to create and configure content-settings records, see [Use content settings to set up repositories of standard and required values for email messages](dynamic-email-content.md#content-settings)
 
-If you have more than one set of content settings, exactly one of them will be the default and will be applied automatically to each new customer journey that you create. For more information about how to establish the default content-settings record for new journeys, see [Default marketing settings](marketing-settings.md#default-marketing-settings).
+If you have more than one set of content settings, exactly one of them will be the default and will be applied automatically to each new customer journey that you create. For more information about how to establish the default content-settings record for new journeys, see [Configure default marketing settings](mkt-settings-default-marketing.md).
 
 ### Set up a recurring journey
 
-Usually, a journey takes each contact through its pipeline exactly once. Even if you use several segments, and a given contact appears in more than one of them, each contact is processed at most once. However, you can also set up a recurring journey in which all contacts are reprocessed at regular intervals during the active period. 
-
-All segment membership criteria are re-evaluated at the start of each recurrence, so contacts can be added or removed between cycles.
+Usually, a journey takes each contact through its pipeline exactly once. Even if you use several segments, and a given contact appears in more than one of them, each contact is processed at most once. However, you can also set up a recurring journey in which all contacts are reprocessed at regular intervals during the active period.
 
 To set up a recurring journey:
 
@@ -226,7 +242,7 @@ A journey's suppression segment contains a list of contacts that the journey won
 You can use any existing segment as a suppression segment. To choose a suppression segment for your journey, open its **General** tab and then choose a segment in the **Suppression segment** lookup field.
 
 > [!IMPORTANT]
-> The marketing insights service processes changes to segment membership asynchronously, which means you can't predict the order in which changes are processed. In some cases, such as when processing very large databases, it can take up to six hours for a given segment to get updated. You therefore can't rely on any one segment being processed before or after a specific other segment, so be careful when orchestrating related campaigns and/or using  suppression segments.
+> The marketing-insights service processes changes to segment membership asynchronously, which means you can't predict the order in which changes are processed. In some cases, such as when processing very large databases, it can take up to six hours for a given segment to get updated. You therefore can't rely on any one segment being processed before or after a specific other segment, so be careful when orchestrating related campaigns and/or using  suppression segments.
 
 ## Go live to start running the journey and processing contacts
 
@@ -238,13 +254,19 @@ When you've finished designing your customer journey, do the following to verify
 
 2. Select **Check for Errors** in the command bar to verify your campaign setup and check it for errors. This step makes sure that all required marketing emails and pages are assigned and published, and also checks for other prerequisites and common errors. If problems are found, you'll see an error message with advice for how to fix it. Continue to check, fix reported errors, and check again until your journey passes the test.
 
-3. Now you're ready to publish, so select **Go Live** in the command bar. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] runs the error check one last time. If your journey passes, it is published to the marketing services, which also host your published marketing email messages and marketing pages.
+3. Now you're ready to publish, so select **Go Live** in the command bar. Dynamics 365 Marketing runs the error check one last time. If your journey passes, it is published to the marketing services, which also host your published marketing email messages and marketing pages.
 
 [!INCLUDE [cc-marketing-email-size](../includes/cc-marketing-email-size.md)]
 
 ## Gain insights by monitoring journey progress and results
 
-As soon as your journey starts running, it will be begin to generate and collect information about where your contacts are in their journey and how they've interacted with its various elements such as emails, pages, and events. Dynamics 365 for Marketing provides a wealth of information, including analyitics, KPIs, graphs, and more, to help you gain insights from your marketing results. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Analyze results to gain insights from your marketing activities](insights.md)
+As soon as your journey starts running, it will begin to generate and collect information about where your contacts are in their journey and how they've interacted with its various elements such as emails, pages, and events. Dynamics 365 Marketing provides a wealth of information, including analytics, KPIs, graphs, and more, to help you gain insights from your marketing results. More information: [Analyze results to gain insights from your marketing activities](insights.md)
+
+## View milestones in the customer journey life cycle
+
+Customer journeys pass through many states while you create, edit, and run them. You can now view a full history of these milestones for any customer journey. To see them, open any live or previously live journey, go to its Designer tab, make sure no tile is selected, and then view the Data panel.
+ 
+![Journey events list](media/journey-events.png "Journey events list")
 
 ### See also
 

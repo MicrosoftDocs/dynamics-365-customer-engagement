@@ -1,17 +1,15 @@
 ---
-title: Set up rules to automatically create or update records (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Know how to set up rules to automatically create or update records in Dynamics 365 for Customer Service
-keywords: Set up rules automatically; Dynamics 365 for Customer Engagement; Customer Service; Activities and entities supported by record creation and update rules  ; Activate or deactivate a rule  ; Set up a rule to create and update records automatically  ;
-author: anjgupta
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-ms.author: anjgup
+title: Set up rules to automatically create or update records (Dynamics 365 Customer Service) | MicrosoftDocs
+description: Know how to set up rules to automatically create or update records in Dynamics 365 Customer Service
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 06/01/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.assetid: 1cbbf33b-e194-4ff3-b840-64e60b094dc9
-ms.custom: dyn365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -23,21 +21,21 @@ search.app:
 
 # Set up rules to automatically create or update records
 
+Every organization has multiple applications to capture customer interactions. The ability to channel external data into the Common Data Service platform records can significantly improve the efficiency of your sales, marketing, and service teams, and increase the quality of your data. You can now direct this data from various applications and external sources into the Common Data Service platform with the help of *record creation and update rules*.  
 
-Every organization has multiple applications to capture customer interactions. The ability to channel external data into [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] records can significantly improve the efficiency of your sales, marketing, and service teams, and increase the quality of your data. You can now direct this data from various applications and external sources into [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] with the help of *record creation and update rules*.  
-
-By using record creation and update rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can automatically create or update system or custom records from incoming [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] activities, such as emails, social activities, or custom activities, without writing any code. Not just that, you can set up the rule to convert the incoming activity into multiple [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records. For example, you can create a case and a lead from a single social activity.  
+By using record creation and update rules in Dynamics 365 Customer Service, you can automatically create or update system or custom records from incoming activities, such as emails, social activities, or custom activities, without writing any code. Not just that, you can set up the rule to convert the incoming activity into multiple records. For example, you can create a case and a lead from a single social activity.  
 
  A record creation and update rule consists of rule items that define the conditions for creating or updating records, and also defines what actions or steps to take on the newly-created records. The rule also contains channel properties that are used to define conditions for rules, and also for setting properties of the record you’re creating or updating.  
 
  To enable the rule to update records, you must add an **Update** step to the rule. Only the entity that you select in the **Update** step is updated based on the properties you set.   
 
 > [!NOTE]
-> With the Customer Engagement apps version 9.1 release, you can access and manage all service management tasks from the Customer Service Hub sitemap except **Routing Rule Sets**, **Automatic Record Creation**, and **Service Level Agreements**. To access and manage these three admin settings, use **Service Management** under **Settings** in the web application. </br>
+> With the latest release of Dynamics 365 Customer Service app, you can access and manage all service management tasks from the Customer Service Hub sitemap except **Routing Rule Sets**, **Automatic Record Creation**, and **Service Level Agreements**. To access and manage these three admin settings, use **Service Management** under **Settings** in the web application. </br>
 
 
-## Activities and entities supported by record creation and update rules  
- By default, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] supports creating records from the following activities, also called source types in the context of record creation and update rules:  
+## Activities and entities supported by record creation and update rules
+
+ By default, Dynamics 365 Customer Service supports creating records from the following activities, also called source types in the context of record creation and update rules:  
 
 -   Email  
 -   Social activity  
@@ -49,37 +47,40 @@ By using record creation and update rules in [!INCLUDE[pn_dynamics_crm](../inclu
 
 These activities can be converted to any default (system) entity records or custom entity records. For example, you could create a lead, opportunity (system record), or incident (custom record) from an incoming email.  
 
-## Capture data from external sources  
+## Capture data from external sources
+
  You can also capture additional valuable customer information provided by an external application in the form of JSON (a collection of name-value pairs), and use it to enhance the quality of the target records and set various conditions in the record creation and update rules.  
 
  Every default (out-of-the-box) activity or custom activity has an Additional Parameters attribute. This attribute stores the JSON payload received from an external application.  
 
- To capture this information in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], you can define channel properties and associate them with a particular rule or share them across multiple rules of the same source type. For example, along with a social post, you can capture important information about the post, such as sentiment value. Sentiment value is the property of social activity, so you can use this property in any other record creation and update rule of type Social Activity.  
+ To capture this information in the Common Data Service platform, you can define channel properties and associate them with a particular rule or share them across multiple rules of the same source type. For example, along with a social post, you can capture important information about the post, such as sentiment value. Sentiment value is the property of social activity, so you can use this property in any other record creation and update rule of type Social Activity.  
 
- Here’s the correct format in which [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] should receive the JSON payload (data received as a name-value pair in JSON format) from the external application:  
+ Here’s the correct format in which the Common Data Service platform should receive the JSON payload (data received as a name-value pair in JSON format) from the external application:  
 
 {“PropertyName1”:”Propertyvalue1”; “PropertyName2”:”Propertyvalue2”}  
 
 > [!NOTE]
 >  Any configuration done in the channel properties is only valid if those name-value pairs exist in the JSON payload. Also, you must only use parameters received from the external application in the rule item conditions and as record properties.
 
-## Activate or deactivate a rule  
- For any record creation and update rule to apply to a matching incoming activity, after you add the rule items, you must activate the rule.  
+## Activate or deactivate a rule
+
+ For any record creation and update rule to apply to a matching incoming activity, after you add the rule items, you must activate the rule.
 
  When a record creation and update rule is activated, a corresponding workflow is created automatically. You can use channel properties to define a workflow’s conditions and operators in mapping the target entity attribute values. For complex scenarios, you may configure child workflows.  
 
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure workflow steps](../customize/configure-workflow-steps.md)  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure workflow steps](../customerengagement/on-premises/customize/configure-workflow-steps.md)  
 
-## How do record creation and update rules work with queues?  
+## How do record creation and update rules work with queues?
+
  In a record creation and update rule, when you specify a queue for a source type, any incoming activity from that source is added as a queue item for that specified queue. That is, if a rule for a particular source activity and queue combination is active, the rule processes the incoming activity on that queue to create or update records.  
 
- For an email source type, specifying a queue is mandatory. For all other source types including custom activities, it is optional.  
+ For an email source type, specifying a queue is mandatory. For all other source types including custom activities, it is optional. 
 
 > [!NOTE]
 > When an automatic record creation (ARC) rule is applied to an Email queue item, it gets deactivated.
   
 ## Rules in solutions  
- The record creation and update rules can be packaged as a part of a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] solution. Customizers and developers distribute solutions so organizations can use [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to install and uninstall the business functionality defined by the solution.  
+ The record creation and update rules can be packaged as a part of the Common Data Service platform solution. Customizers and developers distribute solutions so organizations can use the Common Data Service platformto install and uninstall the business functionality defined by the solution.  
 
  Keep the following things in mind about using rules in solutions:  
 
@@ -89,9 +90,9 @@ These activities can be converted to any default (system) entity records or cust
 
 ## Prerequisites 
 
-Before you can use automatic record creation rules, be sure your external application/social engagement system is already integrated with your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.  
+Before you can use automatic record creation rules, be sure your external application/social engagement system is already integrated with your Common Data Service platform instance.  
 
-If your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance meets the prerequisites, all you need to do is set up rules in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] that will automatically create or update a support case, lead, opportunity, appointment, task, and more from incoming activities.  
+If your instance meets the prerequisites, all you need to do is set up rules in the Common Data Service platform that will automatically create or update a support case, lead, opportunity, appointment, task, and more from incoming activities.
 
 ## Set up a rule to create and update records automatically  
   
@@ -148,22 +149,22 @@ To learn more about creating channel property groups and adding properties to th
 ## Set Email conditions
 If the source type for the rule is set to **Email**, specify the conditions for converting the email to the target record.  
 
-1. **Create records for email from unknown senders**. If you select this check box, all email messages from unknown senders (a sender whose email address isn’t present in any [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records) are converted to new records (based on the conditions you define). A contact record is also created for this unknown sender.  
+1. **Create records for email from unknown senders**. If you select this check box, all email messages from unknown senders (a sender whose email address isn’t present in any records) are converted to new records (based on the conditions you define). A contact record is also created for this unknown sender.  
 
    > [!NOTE]
-   > [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] determines what record to create based on the entity you select in the **Create Record** step under **Actions**.  
+   > The Common Data Service platform determines what record to create based on the entity you select in the **Create Record** step under **Actions**.  
 
-    If you don’t select this check box, records are created only for email messages that have a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] contact or account as the senders.  
+    If you don’t select this check box, records are created only for email messages that have a contact or account as the senders.  
 
     This option, in conjunction with the **Automatically create records in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]** option in the rule owner's Personal Options, determines whether a case and contact record is created (see [Set personal options](../basics/set-personal-options.md)).  
 
-2. **Create case if a valid entitlement exists for the customer**. If you select this check box, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] creates a case only if an active entitlement exists for the customer.  
+2. **Create case if a valid entitlement exists for the customer**. If you select this check box, the Common Data Service platform creates a case only if an active entitlement exists for the customer.  
 
-    If the sender of the email is a contact with a parent account, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] creates a record if the contact’s parent account has a valid entitlement, and the contact is listed in the **Contacts** section of the entitlement or if the **Contacts** section is empty (which means the entitlement is applicable to all contacts for the customer).  
+    If the sender of the email is a contact with a parent account, the Common Data Service platform creates a record if the contact’s parent account has a valid entitlement, and the contact is listed in the **Contacts** section of the entitlement or if the **Contacts** section is empty (which means the entitlement is applicable to all contacts for the customer).  
 
-3. **Create cases for activities associated with a resolved case**. If you select this check box, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] creates a case if the email is related to a resolved case. If the email is related to an active case, a new case won’t be created.  
+3. **Create cases for activities associated with a resolved case**. If you select this check box, the Common Data Service platform creates a case if the email is related to a resolved case. If the email is related to an active case, a new case won’t be created.  
 
-4. **Create case when the case associated with the activity is resolved since**. If you select the **Create cases for activities associated with a resolved case** check box, select the duration here. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] creates a case only if the case is resolved earlier than the duration you specify. If the incoming email is related to a case resolved later than the specified duration, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] only associates the incoming email with the existing resolved case; a new case won’t be created.  
+4. **Create case when the case associated with the activity is resolved since**. If you select the **Create cases for activities associated with a resolved case** check box, select the duration here. the Common Data Service platform creates a case only if the case is resolved earlier than the duration you specify. If the incoming email is related to a case resolved later than the specified duration, the Common Data Service platform only associates the incoming email with the existing resolved case; a new case won’t be created.  
 
 5. **Send automatic email response to customer on record creation**. Select this check box if you want to automatically send email responses to the sender of the email after a target record for the email is created.  
 
@@ -175,15 +176,15 @@ If the source type for the rule is set to **Email**, specify the conditions for 
 ## Set Social Activity conditions
 If the source type for the rule is set to Social Activity, specify the conditions for converting the social activity to the target record.  
 
-1. **Create records for blocked social profile**. If you select this check box, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] creates or updates a target record for the social posts (social activities) from social profiles that are blocked by you.  
+1. **Create records for blocked social profile**. If you select this check box, the Common Data Service platform creates or updates a target record for the social posts (social activities) from social profiles that are blocked by you.  
 
    > [!NOTE]
-   >  Social posts appear in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] as social activities.  
+   >  Social posts appear in the application as social activities.  
 
-2. **Create records for direct messages only**. If you select this check box, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] creates the target record only when the social posts are sent as direct or private messages. If you clear the check box, records are created for all social posts including public messages (timeline).  
+2. **Create records for direct messages only**. If you select this check box, the Common Data Service platform creates the target record only when the social posts are sent as direct or private messages. If you clear the check box, records are created for all social posts including public messages (timeline).  
 
    > [!NOTE]
-   > [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] determines what record to create based on the entity you select in the **Create Record** step under **Actions**.  
+   > The Common Data Service platform determines what record to create based on the entity you select in the **Create Record** step under **Actions**.  
 
 ## Set record creation details
 In the **Specify Record Creation and Update Details** section, select ![Add a record button](../customer-service/media/crm-ua-add-record.gif "Add a record button") to define the conditions for creating or updating a record and specify the properties of the record.  
@@ -224,7 +225,7 @@ In the **Specify Record Creation and Update Details** section, select ![Add a re
 
     d.  To add more actions, under **Specify Other Actions**, select **Add Step** > \<Action>. The available actions are: Create Record, Update Record, Send Email, or Start Child Workflow.  
 
-       Learn more about each of these actions in [Configure workflow steps](../customize/configure-workflow-steps.md).  
+       Learn more about each of these actions in [Configure workflow steps](../customerengagement/on-premises/customize/configure-workflow-steps.md).  
 
 4.  Select **Save and Close**.  
 
@@ -233,10 +234,10 @@ In the **Specify Record Creation and Update Details** section, select ![Add a re
     > - The property items for each of the supported data types need to have a default value. This requirement is important in scenarios where the configured property line items have a blank incoming web request. In such cases, the property line item will take the default value when referred to in a workflow.  
 
 ## Turn on the rule
-Turn on the rule so that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] can start creating or updating records for incoming activities based on the defined conditions. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Activate or deactivate a rule](#activate-or-deactivate-a-rule).  
+Turn on the rule so that the Common Data Service platform can start creating or updating records for incoming activities based on the defined conditions. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Activate or deactivate a rule](#activate-or-deactivate-a-rule).  
 
 > [!TIP]
->  Developers can also apply rules retroactively to the incoming [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records that might have been skipped while a rule was edited. 
+>  Developers can also apply rules retroactively to the incoming records that might have been skipped while a rule was edited. 
 
 
 ## Set up channel properties  
@@ -244,7 +245,7 @@ Turn on the rule so that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.
 
  You can find these parameters in the **Additional Parameters** field of any incoming activity.  
 
- To capture this information in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and associate it with the record creation or update rule, you can define channel properties in a channel property group and associate them with a rule or share them across multiple rules. For example, along with a social post, you can capture important information about the post, such as rating or influencer score. Rating and influencer score are the properties of social channel.  
+ To capture this information in the Common Data Service platform and associate it with the record creation or update rule, you can define channel properties in a channel property group and associate them with a rule or share them across multiple rules. For example, along with a social post, you can capture important information about the post, such as rating or influencer score. Rating and influencer score are the properties of social channel.  
 
 ### Create channel property groups and add channel properties  
 
@@ -283,20 +284,20 @@ Turn on the rule so that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.
 
    > [!IMPORTANT]
    > - Create a channel property for each name from the name-value pair that you want to use in your record creation and update rule. For example, you could use `influenceScore` as a property name.  
-   > - The information in the JSON payload isn’t very easy to read. To make it more readable, you can use [online JSON parser](http://json.parser.online.fr/) that will provide a better output.  
+   > - The information in the JSON payload isn’t very easy to read. To make it more readable, you can use [online JSON parser](https://json.parser.online.fr/) that will provide a better output.  
    > - The property group doesn’t support adding nested values in a JSON payload as channel properties. The following sample shows the "FollowersCount" under the user node as a nested JSON key-value pair.  
    > 
    > ![Nested value in JSON payload](../customer-service/media/crm-ua-json-payload-nested-values.png "Nested value in JSON payload")  
 
    b. **Data Type**. Select a data type for the channel property. For example, if the property is influence score, use the data type as Whole Number because its value can’t be in decimals.  
 
-      The selected data type will determine the relational query operators when you use the property to define conditions in the record creation and update rule items. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] supports creating properties only of the following data types: Floating Point Number, Single Line of Text, and Whole Number.  
+      The selected data type will determine the relational query operators when you use the property to define conditions in the record creation and update rule items. The Common Data Service platform supports creating properties only of the following data types: Floating Point Number, Single Line of Text, and Whole Number.  
 
    > [!NOTE]
    > - Option Set and Two option data types are supported in conditions of type string. You’ll have to type out the option set value in the conditions.  
-   > - [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] sets a default value for property items for each of the supported data types. This is for scenarios when a channel property is used in a workflow but the incoming payload has no value provided from the external channel; the workflow conditions in which the property is referred use a least the following default value: String: “”, Whole Number: -2,147,483,648, Float: -1e+011.  
+   > - The Common Data Service platform sets a default value for property items for each of the supported data types. This is for scenarios when a channel property is used in a workflow but the incoming payload has no value provided from the external channel; the workflow conditions in which the property is referred use a least the following default value: String: “”, Whole Number: -2,147,483,648, Float: -1e+011.  
 
-   c. **Application Source**. Type the name of the application that this property is related to, for example, [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)].  
+   c. **Application Source**. Type the name of the application that this property is related to.  
 
    d. **Description**. Type details to further explain what the property is for.  
 
@@ -329,7 +330,7 @@ Turn on the rule so that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.
 
 
 ## Upgrade considerations  
- Here are a few things you should know if you’re upgrading to [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online-2015-update-1.md)] or later from an earlier release, and have existing case creation rules for email and social activity.  
+ Here are a few things you should know if you’re upgrading to the latest release, and have existing case creation rules for email and social activity.  
 
 
 |                             Existing rules prior to upgrade                              |                                                                                                                                                                       What happens to the rules after upgrade?                                                                                                                                                                       |

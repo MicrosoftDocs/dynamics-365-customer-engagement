@@ -1,20 +1,13 @@
 ---
 title: "msdyn_playbookinstance EntityType | MicrosoftDocs"
 description: "Entity reference for msdyn_playbookinstance EntityType"
-keywords: 
 ms.date: 04/08/2019
-ms.service: crm-online
-ms.custom: 
+ms.service: 
+  - crm-online
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement (online)
-ms.assetid: 61CB2FAA-7808-491B-92C1-82BA0213762A
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 22
 ---
 # msdyn_playbookinstance EntityType
 

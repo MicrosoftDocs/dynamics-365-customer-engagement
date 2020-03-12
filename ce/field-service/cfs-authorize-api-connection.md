@@ -38,7 +38,7 @@ Without completing this step, you will not be able to:
 
 ## Prerequisites
 - Azure account and subscription
-- Dynamics 365 for Field Service 
+- Dynamics 365 Field Service 
 - CFS with IoTHub deployed though [https://cfsdeployment.crm.dynamics.com](https://cfsdeployment.crm.dynamics.com/)
 
 

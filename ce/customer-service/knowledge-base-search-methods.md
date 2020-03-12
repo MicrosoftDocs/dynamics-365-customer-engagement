@@ -1,18 +1,15 @@
 ---
-title: Knowledge base search mechanisms in Dynamics 365 for Customer Engagement| MicrosoftDocs
-description: Know how the Knowledge base search mechanisms and methods works in Microsoft Dynamics 365 for Customer Engagement
-keywords: Search the knowledge base; Dynamics 365 for Customer Engagement; Full-text search; Relevance search; Categorized search; Customer Service Hub; Knowledge Article; Knowledge Management; Knowledge Base; Knowledge base search mechanisms and methods
-author: anjgupta
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 8.2
-ms.author: anjgup
+title: Knowledge base search mechanisms in Dynamics 365 Customer Service| MicrosoftDocs
+description: Know how the Knowledge base search mechanisms and methods works in Microsoft Dynamics 365 Customer Service
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ms.date: 10/01/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.assetid: 16e57ec7-e14e-4ffa-9ca7-54a4fa63b4a9
-ms.custom: dyn365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -35,16 +32,16 @@ See the following section to learn the types of search mechanisms available:
 
 - **Full-text search**: Lets you run full-text queries against character-based data in SQL Server tables. 
  
-   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Full-text search](https://docs.microsoft.com/en-us/sql/relational-databases/search/full-text-search)
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Full-text search](https://docs.microsoft.com/sql/relational-databases/search/full-text-search)
 
 - **Relevance search**:  Lets you search across multiple pre-defined entities and returns result sorted by relevance.  
 
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Relevance search](../basics/relevance-search-results.md)
    <br> 
 
-   See [Configure Relevance search](../admin/configure-relevance-search-organization.md) to learn how to configure Relevance search to improve search results and performance.
+   See [Configure Relevance search](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization) to learn how to configure Relevance search to improve search results and performance.
 
-   To better understand the various searches used in Dynamics 365 for Customer Engagement and how they can be compared, see [Compare Dynamics 365 for Customer Engagement searches](../admin/configure-relevance-search-organization.md#compare-dynamics-365-for-customer-engagement-apps-searches).
+   To better understand the various searches used in Dynamics 365 Customer Service and how they can be compared, see [Compare Dynamics 365 apps searches](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization).
 
 ## Search the knowledge base
 
@@ -59,16 +56,14 @@ You can search the knowledge base from the following areas in the Customer Servi
    > [!NOTE]
    > Knowledge base search control is available out of the box in a case entity. The previous procedure describes how the control can be accessed in the Customer Service Hub app.
 
+
+- **Global search**. Select the **Search** icon on the navigation bar to do a global search for knowledge base articles. Global search lets you use **Categorized search** or **Relevance search**.
+
 - **Quick find in Grids**. In the app, go to **Service** > **Knowledge Articles**, and select the search box to search the knowledge base using keywords. 
 
    ![Quick find search](media/quick-find-search.png)
 
-
-- **Global search**. Select the **Search** icon on the navigation bar to do a global search for knowledge base articles. Global search lets you use **Categorized search** or **Relevance search**.
-
-  ![Global search](media/global-search.png)
-
-
+  
 > [!NOTE]
 > You can also search the knowledge base using Portals. See [Use faceted search to improve portal search](../portals/improve-portal-search-faceted-search.md).
 
@@ -77,9 +72,9 @@ With each of the previous search areas, the search results might vary based on t
 
 |Version  |  |Search areas| Search mechanism  |
 |---------|---------|---------|---------|
-| December 2016 Update for Dynamics 365 for Customer Engagement (online) </br> & </br> December 2016 Service Pack for Dynamics 365 for Customer Engagement (on-premises)  |      |     - KB search control <br>  - Quick find in Grids   |   Full-text search    |
+| December 2016 Update for Dynamics 365 Customer Service </br> & </br> December 2016 Service Pack for Customer Engagement (on-premises) platform  |      |     - KB search control <br>  - Quick find in Grids   |   Full-text search    |
 |   |     |      - Global search  |   Categorized search     |
-|Dynamics 365 for Customer Engagement apps version 9.0   |     |  - KB search control      |   Relevance search/ Full-text search (based on what you configure)     |
+|Dynamics 365 Customer Service apps version 9.0   |     |  - KB search control      |   Relevance search/ Full-text search (based on what you configure)     |
 |  |      |   - Quick find in Grids     |   Full-text search |
 |  |      |   - Global search     |   Relevance search or Categorized search (based on what you configure)    |
 
@@ -88,7 +83,3 @@ With each of the previous search areas, the search results might vary based on t
 [Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)
 
 [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
-
-
-
-

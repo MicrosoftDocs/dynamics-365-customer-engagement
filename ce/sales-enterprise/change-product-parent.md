@@ -1,32 +1,20 @@
 ---
-title: "Change the parent of a product (reparenting) (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "Create a product hierarchy by associating products and product families in a parent-child relationship in Dynamics 365 for Sales."
-keywords: "product, parent, reparent"
-ms.date: 08/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+title: "Change the parent of a product (reparenting) (Dynamics 365 Sales) | MicrosoftDocs"
+description: "Create a product hierarchy by associating products and product families in a parent-child relationship in Dynamics 365 Sales."
+ms.date: 10/01/2019
+ms.service: 
+  - "dynamics-365-sales"
+ms.custom: 
+  - "dyn365-sales"
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
-ms.assetid: af0848d3-6b44-4669-91ee-115e122853f2
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 ---
 
 # Change the parent of a product (reparenting)
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 To organize your company's product catalog better, you may want to change the parent of an existing product record so the child products inherit the appropriate product properties. You can change the parent of an existing product, bundle, or family to a new parent or delete an existing parent.
-
-> [!IMPORTANT]
-> - [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-> - To learn about enabling preview features in the 2019 release wave 2, see [How do I enable the 2019 release wave 2 updates](/power-platform/admin/preview-october-2019-updates#when-will-the-2019-release-wave-2-features-be-enabled)
-
 
 To change the parent of a product, bundle, or family, open the respective record, and in the **Parent** field, select the new parent record. To delete the parent, just remove the parent record from the **Parent** field.
 

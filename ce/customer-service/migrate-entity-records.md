@@ -1,16 +1,15 @@
 ---
-title: "Migrate data from legacy Service Scheduling using migration tool (Dynamics 365 for Customer Service) | MicrosoftDocs"
-description: "Learn how to migrate entity records from the legacy Service Scheduling to the Unified Interface Service Scheduling in Dynamics 365 for Customer Service"
+title: "Migrate data from legacy Service Scheduling using migration tool (Dynamics 365 Customer Service) | MicrosoftDocs"
+description: "Learn how to migrate entity records from the legacy Service Scheduling to the Unified Interface Service Scheduling in Dynamics 365 Customer Service"
 author: kabala123
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.author: kabala
 manager: shujoshi
-ms.date: 08/07/2019
+ms.date: 10/11/2019
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: dyn365-customerservice
-ms.assetid: FB1D8DDE-AADD-4249-A011-1BA02CEE7B0D
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -20,105 +19,109 @@ search.app:
   - D365CS
 ---
 
-# Migrate entity records data from legacy Service scheduling using migration tool
-
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)
+# Migrate data from legacy Service scheduling using migration tool
 
 Follow these steps to migrate entity records from legacy scheduling experience to the new scheduling experience.
 
-1. Sign in to Dynamics 365 for Customer Engagement apps with Administrator or System Customizer role privileges.
+1. Sign in to the Customer Service Hub app with Administrator or System Customizer role privileges.
 
-2. Select the **Customer Service Hub** app.
+2. Select **Scheduling** from **Change area**.
 
-3. Select **Scheduling** from **Change area**.
-
-4. Select **Data Migration** under the Tools section.
+3. Select **Data migration** under **Tools**. The **Migrate to Service scheduling on Unified Interface** page displays the **Last run status**. If you've never run the tool, then the **Date** and **Status** field will be blank.
 
     ![Data Migration](media/data-migration.png "Data Migration")
 
-5. Select a date for the **Start Date** and **End Date** fields. The data migration tool migrates all configuration and service activities data that falls in the specified date range.
+4. Review the details and select **Next** in the **Migrate to Service scheduling on Unified Interface** page. The **Step 1/3: Configuration data** page appears that displays the name of the entity records and the total number of records that will be migrated.
 
-6. View the number of records for each entity available for the migration and select **Start Migration**.
+5. Specify the following in the **Step 2/3: Service Activities** page and select **Migrate**.
 
-    ![Migrate data](media/migrate-data.png "Migrate data")
+    | Field | Description | Value |
+    |----------------------------|-------------------------------|---------------------------------------|
+    | Migrate Service Activities | Set the toggle to **On** to migrate the service activities. | On |
+    | Start date | Select a start date from the date picker. | 6/20/2019. <br> **Note:** This is an example value. |
+    | End date | Select a end date from the date picker. | 9/23/2019. <br> **Note:** This is an example value. |
+
+    The tool considers all the Service activities that are scheduled to start and be completed within the date range.
 
     > [!Note]
-    > - The migration tool doesn’t consider the records whose status is marked as Ignore. To learn more, see [Understand migration status](#understand-migration-status).
+    > - The migration tool doesn’t consider the records whose status is marked as Ignore. To learn more, see [Understand migration status](#understand-migration-summary-and-troubleshoot).
     >
-    > - If you create any records after you start the migration, the newly created entity records will not be reflected and migrated.
+    > - If you create any records after you start the migration, the newly created entity records will not be fetched and migrated.
 
-7. View the migration status.
+6. Review the information in the confirmation dialog and select **Migrate**. Once you migrate, the action cannot be undone.
 
-    As you begin migration, you can view the number of entity records migrated in the grid. Select the **Refresh** button to refresh the grid and view the updated status of the migration. If the migration is successful, you see a message stating, **Migration is Successful**.
-
-    ![Migration is successful](media/migration-successful.png "Migration is successful")
-
-    > [!Note]
-    > - After you’ve migrated an entity record, if you update the record in the legacy service scheduling, the difference of update can’t be migrated using the tool. You must manually update the changes in the new service scheduling experience.
-    >
-    > - After you successfully migrate all the entity records, you can’t use the tool again on the environment.
-
-    The page shows the number of records that are migrated and failed.
-
-    ![Migration in progress](media/migration-inprogress.png "Migration in progress")
-
-    If the migration of certain entity records fails, then the Migration status is displayed with a message stating the migration for one or more records or entities has failed.
-
-    Select **Retry Migration** to try again the migration for the failed entity records.
+7. Review the status of the migration. If the migration is successful, select **Done**, and the migration status page is displayed.
+ 
+    ![Migration in progress](media/migration-step3.png "Migration in progress")
 
     > [!Note]
-    > In case of retry scenario, the migration tool shows the number of records that need to be migrated in that retry scenario of migration. <br><br> ![Migration retry scenario](media/migration-partial-success.png "Migration retry scenario")
+    > After you’ve migrated an entity record, if you update the record in the legacy service scheduling, the difference of update can’t be migrated using the tool. You must manually update the changes in the new service scheduling experience.
 
-## Understand migration status
+## Understand migration summary and troubleshoot
 
-Understand what happens when the migration has failed and how you can successfully migrate the entity records after resolving errors.
+The status column displays two types migration status for the entity records:
 
-### Failed migration
+- **Done:** When the migration of the entity records is completed successfully, the tool displays the status as Done. 
+- **View Errors:** When the migration of the entity records is failed, the tool displays the status as View Errors.
 
-If the migration of one or more entity records has failed, a failure message is displayed, and you can view for which entity records the failure has occurred.
+### View errors
 
-One of the reasons for the failure of entity record migration is a dependency between the entity records. That is, an entity record **B** has a dependency on entity record **A**. If the migration of entity record **A** fails, then migration of entity record **B** also fails due to its dependency on the entity record **A**.
+If the migration of one or more entity records has failed, the status column displays for which entity records the error has occurred.
 
-For example, In the **Services** entity, you might have defined some selection rules which are dependent on **Resources Group**, **Team**, or **User** records for the service activities. Now, when any of the dependent record migration fails, the corresponding records in the **Service** entity also fails the migration.
+   ![Migration with errors](media/migration-step4.png "Migration with errors")
 
-You can troubleshoot to find the reasons of failure and then take an action resolve the failed migration. Use the **Advanced Find** section to see the details of migration failure.
+Select the **View Errors** in the status column to view the details in a new browser tab. The tool navigates to the associated entity view that shows the record name, status (which will be failed all the time), and migration failure reason.
 
-To learn more, see [Troubleshoot using migration information](#troubleshoot-using-migration-information)
+For example, when you select the View Errors option against the **Service Activity**, a new browser tab opens, and the tool displays **Service Activities - Migration Status** page.
 
-## Troubleshoot using migration information
+To learn more, see [Troubleshoot using migration information](#troubleshoot-to-resolve-migration-errors).
 
-Follow the steps to view the migration information.
+### Troubleshoot to resolve migration errors
 
-1. Select the **Advanced Find** icon in the command bar. Advanced Find opens in a new window.
+One of the reasons for the failure of entity record migration is a dependency between the entity records. That is, a **Service Activity** entity record has a dependency on the **Service** entity record, which in turn has a dependency on the **Resource Group** entity record. If the migration of **Resource Group** fails, then migration of **Service** and **Service Activity** also fails.
 
-2. Select an entity in the **Look For** field. For example, select **Sites**.
+   ![Migration record failure](media/migration-record-failure.png "Migration record failure")
 
-3. Select **\<entity\>MigrationStatus** from the list. For example, **SiteMigrationStatus**.
+> [!TIP]
+> Resolve the errors in the order in which the entity records are migrated. To learn about the order of migration, see [Considerations for migration](plan-migration.md#considerations-for-migration).
 
-4. Select **Enter value: SiteMigrationStatus** and select the ellipsis. The **Select Values** dialog opens.
+For example, 
 
-5. Select a status from the **Available Values** list and add it and select **OK**.
+Kenny Smith, a customer, has scheduled a service activity with Contoso Bike Center. To do this service activity, the **Bike technicians** resource group and **Bike overhaul** service  are required. 
 
-    | Status | Description |
-    |-------------------|----------------------------------------------|
-    | Failed | Select this value when you want information about the entity records that failed in the migration process. |
-    | Ignore | Select this value when you want information about the entity records that are ignored in the migration process. |
-    | In Progress | Select this value when you want information about the entity records that are in progress in the migration process. |
-    | Migrated | Select this value when you want information about the entity records that are migrated in the migration process. |
-    | Not Started | Select this value when you want information about the entity records that are not yet started for migration. |
+See the matrix for the dependency.
 
-6. Select **Results** from the **Advanced Find** menu. The list appears.
+   | Entity name |Record name|
+   |------------------|--------------------|
+   | Resource Group | Bike technicians |
+   | Service | Bike overhaul |
+   | Service Activity | Kenny Smith (customer) |
 
-7. Select Edit Columns from the **Advanced Find** menu. The **Edit Columns** dialog opens.
+The **Service Activity** for Kenny Smith has a dependency on the **Service**, Bike overhaul and **Resource Group**, Bike technicians.
 
-8. Select **Add Columns** from the **Common Tasks** list. The **Add Columns** dialog opens.
+Let us take the above mentioned example to learn how to resolve the error.
 
-9. Select **\<entity\> Migration Info** from the list. For example, **Site Migration Info**. Select **OK**.
+1. Select **View Errors** against the **Service Activities** record in the **Data Migration Wizard** tab. 
 
-10. Select **Results** from the **Advanced Find** menu. The **Site Migration Info** column appears.
+   The **Service Activities - Migration Status** page opens in a new browser tab. <br> You can view the migration error message for the **Kenny Smith** customer stating service has failed due to the **Dependent ResourceGroup is not migrated**, which has the GUID as `3979D7DB-F5DA-E911-A81F-000D3A6D4947`.
 
-11. Review the information for migration failure and take appropriate action.
+2. Open a new browser window and go to `https://<dynamics org url>api/data/v9.0/services(<Guid>)`. For example, `https://<dynamics org url>api/data/v9.0/services(3979D7DB-F5DA-E911-A81F-000D3A6D4947)`.
+
+   Now, you find the record name. In our case, it is **Bike technicians**, which is a **Resource Categories** entity in the new service scheduling experience.
+
+3. Select **View Errors** against the **Resource Categories** record in the **Data Migration Wizard** tab. 
+
+   The **Resource Categories - Migration Status** page opens in a new browser tab. <br> You can view the error the caused the Site entity record failure.
+
+4. Resolve the error that caused the migration failure, and then you can go to the migration step, and select **Retry Migration** to start the migration for the failed entity records.
+
+   > [!Note]
+   > In case of retry scenario, the migration tool shows the number of records that need to be migrated in that retry scenario of migration.
+
+5. Review the migration status, if there are any errors, investigate in a similar way as explained in this example.
 
 ## See also
 
 [Introduction to migration of entity records](introduction-migration-entity-records.md)
+
+[Plan your migration](plan-migration.md)

@@ -1,22 +1,12 @@
 ---
-title: "TextAreaElement in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
+title: "TextAreaElement in Unified Service Desk | MicrosoftDocs"
 description: "Learn about using TextAreaElement in Unified Service Desk used to associate a named control with a text area element on the HTML page."
 ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: 
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: eccf015f-836a-4f4d-8fe7-01ff2405d6c5
-caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
 manager: shujoshi

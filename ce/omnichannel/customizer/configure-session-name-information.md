@@ -1,16 +1,13 @@
 ---
 title: "Configure session name information | MicrosoftDocs"
 description: "Learn how to configure session name information when using Omnichannel for Customer Service in Unified Service Desk."
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 10610694-53A1-425D-9393-9C48FE6942A1
-ms.custom: 
 ---
 
 # Configure session name information using session lines
@@ -21,7 +18,7 @@ The topic describes how to dynamically display the session tab name, you'll conf
 
 ## Prerequisites
 
-- You must have required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps permissions to configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and access the required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Access management in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/security-unified-service-desk)
+- You must have required Dynamics 365 Customer Service permissions to configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and access the required Dynamics 365 Customer Service entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Access management in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/security-unified-service-desk)
 
 - You must have completed [Create agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md). The configurations that you completed are required for this topic.
 
@@ -35,7 +32,7 @@ The topic describes how to dynamically display the session tab name, you'll conf
 
 ## Configure session name
 
-1. Sign in to a Microsoft Dynamics 365 for Customer Engagement instance.
+1. Sign in to Common Data Service platform.
 
 2. Select the Down arrow next to Dynamics 365.
 
@@ -55,7 +52,7 @@ The topic describes how to dynamically display the session tab name, you'll conf
 
 ## Add the session name information to configuration
 
-1. Sign in to a Microsoft Dynamics 365 for Customer Engagement instance.
+1. Sign in to Common Data Service platform.
 
 2. Select the Down arrow next to Dynamics 365.
 

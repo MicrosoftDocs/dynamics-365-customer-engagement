@@ -1,26 +1,23 @@
 ---
 title: "Customize the session forms | MicrosoftDocs"
 description: 
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 67e8fcc4-1797-4a3e-aea0-63f941afeaa5
-ms.custom: 
 ---
 # Customize the session forms
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-As a system customizer, you might want to Customize the session forms to suit your business requirements for the agents who use Omnichannel for Customer Service and other Customer Engagement apps. You can customize the Omnichannel session form.
+As a system customizer, you might want to Customize the session forms to suit your business requirements for the agents who use Omnichannel for Customer Service and other model-driven apps. You can customize the Omnichannel session form.
 
 ## Modify the position of sections in Session Form
 
-1.  Sign in to Microsoft Dynamics 365.
+1.  Sign in to the Common Data Service platform.
 
 2.  Go to **Settings** > **Customization** > **Customize the system**.
 

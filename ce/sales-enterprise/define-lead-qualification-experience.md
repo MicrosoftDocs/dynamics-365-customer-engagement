@@ -1,37 +1,27 @@
 ---
-title: "Define lead qualification experience (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "Give your salespeople the flexibility to choose which records to create on lead qualification in Dynamics 365 for Sales."
-keywords: "lead, qualify, business process, sales process, contact, account, opportunity"
-ms.date: 08/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+title: "Define lead qualification experience (Dynamics 365 Sales) | MicrosoftDocs"
+description: "Give your salespeople the flexibility to choose which records to create on lead qualification in Dynamics 365 Sales."
+ms.date: 02/03/2020
+ms.service:
+  - "dynamics-365-sales"
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
-ms.assetid: 30df1a79-615a-4d6c-98df-30041b7faa68
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 69
 ---
 
 # Define lead qualification experience
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 Give your salespeople the flexibility to choose which records to create—account, contact, or opportunity—when a lead is qualified. 
-
-
-> [!IMPORTANT]
-> - [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-> - To learn about enabling preview features in the 2019 release wave 2, see [How do I enable the 2019 release wave 2 updates](/power-platform/admin/preview-october-2019-updates#when-will-the-2019-release-wave-2-features-be-enabled)
 
 To define the experience: 
 
-1.	In the Sales app, select the **Settings** icon, and then select **Advanced Settings**.
+1.  In your app, select the **Settings** icon, and then select **Advanced Settings**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Advanced Settings option on the Settings menu](media/advanced-settings-option.png "Advanced Settings option on the Settings menu")
+
+    The **Business Management** page opens.
 
 2.	Select **Settings**, then **Administration**, and then **System Settings**.
 
@@ -45,6 +35,11 @@ If you set **Create Account, Contact, and Opportunity records by default upon qu
 
 This behavior is applicable on all the leads that are qualified after this setting is updated.
 
+> [!IMPORTANT]
+> With the February 2020 early access release, you can find this setting in the Sales Hub App Settings area itself. To go to this setting:
+> 1. At the bottom of the site map, select **Change area** ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**. 
+> 2. In the site map, select **Overview**, and on the **Overview** page, select **Manage** for **Auto-create records for newly qualified leads**.
+
 ### See also
-[Qualify a lead](qualify-lead-convert-opportunity-sales.md)  
-[Create or edit a lead](create-edit-lead-sales.md)  
+[Qualify or convert leads](qualify-lead-convert-opportunity-sales.md)  
+[Create or edit leads](create-edit-lead-sales.md)  

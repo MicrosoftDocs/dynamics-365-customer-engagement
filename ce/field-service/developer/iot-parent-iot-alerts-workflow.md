@@ -1,5 +1,5 @@
 ---
-title: "IoT - Parent IoT Alerts workflow (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "IoT - Parent IoT Alerts workflow (Developer Guide for Dynamics 365) | MicrosoftDocs"
 description: "Links potential redundant IoT alerts to an existing parent alert."
 ms.custom: 
   - dyn365-developer
@@ -12,8 +12,6 @@ ms.technology:
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 66ed4cef-33f3-4a15-b865-f8b9e8934b68
 caps.latest.revision: 7
 author: FieldServiceDave

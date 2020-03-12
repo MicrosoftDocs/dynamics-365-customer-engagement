@@ -1,21 +1,12 @@
 ---
-title: "Walkthrough: Create a UII WPF Hosted Control | MicrosoftDocs"
+title: "Walkthrough  Create a UII WPF Hosted Control | MicrosoftDocs"
 description: "Demonstrates how you can build a WPF-based User Interface Integration (UII) hosted control that interacts with Unified Service Desk and external applications (standalone and web)."
 ms.custom: 
   - dyn365-USD
-ms.date: 01/25/2019
-ms.reviewer: 
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.date: 12/31/2019
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: 4a6e9113-3956-448c-9953-ec7ee6f22d9e
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -46,9 +37,9 @@ This walkthrough demonstrates how you can build a [Windows Presentation Foundati
   
 - [!INCLUDE[pn_microsoft_visual_studio_2012](../includes/pn-microsoft-visual-studio-2012.md)], [!INCLUDE[pn_visual_studio_2013](../includes/pn-visual-studio-2013.md)], or [!INCLUDE[pn_visual_studio_2015](../includes/pn-visual-studio-2015.md)]  
   
-- [!INCLUDE[tn_nuget_package_manager](../includes/tn-nuget-package-manager.md)] for [Visual Studio 2012](http://visualstudiogallery.msdn.microsoft.com/27077b70-9dad-4c64-adcf-c7cf6bc9970c), [Visual Studio 2013](http://visualstudiogallery.msdn.microsoft.com/4ec1526c-4a8c-4a84-b702-b21a8f5293ca), or [Visual Studio 2015](https://visualstudiogallery.msdn.microsoft.com/5d345edc-2e2d-4a9c-b73b-d53956dc458d)  
+- [!INCLUDE[tn_nuget_package_manager](../includes/tn-nuget-package-manager.md)] for [Visual Studio 2012](https://visualstudiogallery.msdn.microsoft.com/27077b70-9dad-4c64-adcf-c7cf6bc9970c), [Visual Studio 2013](https://visualstudiogallery.msdn.microsoft.com/4ec1526c-4a8c-4a84-b702-b21a8f5293ca), or [Visual Studio 2015](https://visualstudiogallery.msdn.microsoft.com/5d345edc-2e2d-4a9c-b73b-d53956dc458d)  
   
-- **CRM SDK Templates** for [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] that contain the [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)][!INCLUDE[pn_wpf_acronym](../includes/pn-wpf-acronym.md)] hosted control project template. [Download](http://go.microsoft.com/fwlink/p/?LinkId=400925) the **CRM SDK Templates** from the Visual Studio gallery, and double-click the CRMSDKTemplates.vsix file to install the template in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].  
+- **CRM SDK Templates** for [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] that contain the [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)][!INCLUDE[pn_wpf_acronym](../includes/pn-wpf-acronym.md)] hosted control project template. [Download](https://go.microsoft.com/fwlink/p/?LinkId=400925) the **CRM SDK Templates** from the Visual Studio gallery, and double-click the CRMSDKTemplates.vsix file to install the template in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].  
   
 - You should have completed the [Walkthrough: Create a UII Application Adapter](../unified-service-desk/walkthrough-create-uii-application-adapter.md) and [Walkthrough: Create a UII Web Application Adapter](../unified-service-desk/walkthrough-create-uii-web-application-adapter.md) to ensure that you have the external and web applications set up with the adapters to facilitate interaction with those applications.  
   
@@ -60,7 +51,7 @@ This walkthrough demonstrates how you can build a [Windows Presentation Foundati
   
 2. In the **New Project** dialog box:  
   
-   1.  From the list of installed templates, expand **Visual C#**, and select **Dynamics 365 for Customer Engagement apps SDK Templates** > **Unified Service Desk** > **UII WPF Hosted Control**.  
+   1.  From the list of installed templates, expand **Visual C#**, and select **CRM SDK Templates** > **Unified Service Desk** > **UII WPF Hosted Control**.  
   
    2.  Specify the name and location of the project, and choose **OK** to create a new project.  
   
@@ -153,13 +144,11 @@ This walkthrough demonstrates how you can build a [Windows Presentation Foundati
 ## Step 2: Define the hosted control in Unified Service Desk  
  To host the [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] WPF hosted control in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], you’ll have to define and configure it.  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to Unified Service Desk Administrator.  
   
-2. On the nav bar, choose **Microsoft Dynamics 365 for Customer Engagement** > **Settings** > **Unified Service Desk**.  
+2. Select **Hosted Controls** under **Basic Settings**. 
   
-3. On the **Unified Service Desk** page, choose **Hosted Controls**.  
-  
-4. On the **Hosted Controls** page, choose **New**.  
+3. Select **+ New**.  
   
 5. On the **New Hosted Control** page, specify the following values.  
   
@@ -176,46 +165,42 @@ This walkthrough demonstrates how you can build a [Windows Presentation Foundati
    |Assembly Type|UIIWPFHostedControl1.UiiWpfControl|  
   
    > [!NOTE]
-   > **Assembly URI** is the name of your assembly and the **Assembly Type** is the name of your assembly followed by a dot (.) and then the class name in your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project. In this example, the name of the assembly is `UIIWPFHostedControl1` and name of the class is `UiiWpfControl`, which is the default class name when you create a [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] WPF hosted control.  
-  
-   ![Define a new hosted control](../unified-service-desk/media/usd-new-hosted-control-uii-wpf.png "Define a new hosted control")  
-  
-6. Choose **Save** to create the hosted control.  
-  
-<a name="step3"></a>   
-## Step 3: Define UII actions for the external application and web application hosted controls in Unified Service Desk  
- The adapters for the external standalone and web applications expose the following three actions: `UpdateFirstName`, `UpdateLastName`, and `UpdateAddress`. These adapters and the hosted controls for the external standalone and web applications were created in the earlier walkthroughs ([Walkthrough: Create a UII Application Adapter](../unified-service-desk/walkthrough-create-uii-application-adapter.md) and [Walkthrough: Create a UII Web Application Adapter](../unified-service-desk/walkthrough-create-uii-web-application-adapter.md)).  
-  
- To update information in the external applications from within the [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] WPF hosted control, you’ll have to define three [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] actions with the same name as defined earlier in the adapters for each of the external applications. In the earlier adapter walkthroughs ([Walkthrough: Create a UII Application Adapter](../unified-service-desk/walkthrough-create-uii-application-adapter.md) and [Walkthrough: Create a UII Web Application  Adapter](../unified-service-desk/walkthrough-create-uii-web-application-adapter.md)), we defined the following two hosted controls in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to display the external applications within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]:  `QsExternalApp` and `QsExternalWebApplication`. In this step, we will add three [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] actions for each hosted control.  
-  
+   > **Assembly URI** is the name of your assembly and the **Assembly Type** is the name of your assembly followed by a dot (.) and then the class name in your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project. In this example, the name of the assembly is `UIIWPFHostedControl1` and name of the class is `UiiWpfControl`, which is the default class name when you create a [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] WPF hosted control.
+
+6. Select **Save** to create the hosted control.
+
+<a name="step3"></a>
+## Step 3: Define UII actions for the external application and web application hosted controls in Unified Service Desk
+ The adapters for the external standalone and web applications expose the following three actions: `UpdateFirstName`, `UpdateLastName`, and `UpdateAddress`. These adapters and the hosted controls for the external standalone and web applications were created in the earlier walkthroughs ([Walkthrough: Create a UII Application Adapter](../unified-service-desk/walkthrough-create-uii-application-adapter.md) and [Walkthrough: Create a UII Web Application Adapter](../unified-service-desk/walkthrough-create-uii-web-application-adapter.md)).
+
+ To update information in the external applications from within the [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] WPF hosted control, you’ll have to define three [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] actions with the same name as defined earlier in the adapters for each of the external applications. In the earlier adapter walkthroughs ([Walkthrough: Create a UII Application Adapter](../unified-service-desk/walkthrough-create-uii-application-adapter.md) and [Walkthrough: Create a UII Web Application  Adapter](../unified-service-desk/walkthrough-create-uii-web-application-adapter.md)), we defined the following two hosted controls in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to display the external applications within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]:  `QsExternalApp` and `QsExternalWebApplication`. In this step, we will add three [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] actions for each hosted control.
+
 > [!IMPORTANT]
 >  If you have already added the [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] actions as part of step 3 in [Walkthrough: Create a UII Windows Forms Hosted Control](../unified-service-desk/walkthrough-create-uii-windows-forms-hosted-control.md), you don’t have to perform this step again. You can proceed to the next section for testing your hosted control.  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to Unified Service Desk Administrator.  
   
-2. On the nav bar, choose **Microsoft Dynamics 365 for Customer Engagement** > **Settings** > **Unified Service Desk**.  
+2. Select **Hosted Controls** under **Basic Settings**.  
   
-3. On the **Unified Service Desk** page, choose **Hosted Controls**.  
+3. Select the **QSExternalApp** from the the list.  
   
-4. On the **Hosted Controls** page, search for the `QSExternalApp`, and open it for editing.  
+4. Select the **Related** tab, and then select **UII Actions**.  
   
-5. On the `QSExternalApp` page, choose the down arrow next to the hosted control name, and then choose **UII Actions**.  
+5. Select **+ New UII Action**.  
   
-6. On the next page, choose **Add New UII Action**.  
+6. On the **New UII Action** page, type the name as `UpdateFirstName`, and choose **Save & Close**. This adds the action in the previous page.  
   
-7. On the **New UII Action** page, type the name as `UpdateFirstName`, and choose **Save & Close**. This adds the action in the previous page.  
-  
-8. Similarly, add the following two actions:  `UpdateLastName` and `UpdateAddress`. All the three actions become available for the `QSExternalApp` hosted control.  
+7. Similarly, add the following two actions:  `UpdateLastName` and `UpdateAddress`. All the three actions become available for the `QSExternalApp` hosted control.  
   
    ![Available UII actions for a hosted control](../unified-service-desk/media/usd-available-uii-actions-hosted-control.png "Available UII actions for a hosted control")  
   
-9. Follow steps 4 through 8 to create three [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] actions with the same names for the **QSExternalWebApp**.  
+8. Follow Steps 5 and 6  to create three [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] actions with the same names for the **QSExternalWebApp**.  
   
 <a name="test"></a>   
 ## Test the hosted control  
  Before you test the [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)][!INCLUDE[pn_wpf_acronym](../includes/pn-wpf-acronym.md)] hosted control, ensure that your sample web application is running so that it renders within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
   
-1. Run [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to connect to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps server.  
+1. Run [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to connect to your Common Data Service platform server.  
   
 2. On successful sign in, you’ll see three hosted controls: **Sample UII WPF Hosted Control**, **Sample External Web Application**, and **Sample External Application**.  
   
@@ -225,7 +210,7 @@ This walkthrough demonstrates how you can build a [Windows Presentation Foundati
   
    ![Data displayed from USD context in the 3 controls](../unified-service-desk/media/usd-sample-controls-uii-wpf.png "Data displayed from USD context in the 3 controls")  
   
-4. Change the values in **Sample UII WPF Hosted Control**, and click **Update values in hosted apps** to update the values in the other two external applications.  
+4. Change the values in **Sample UII WPF Hosted Control**, and select **Update values in hosted apps** to update the values in the other two external applications.  
   
    ![Updated values in external apps](../unified-service-desk/media/usd-sample-controls-updated-values-uii-wpf.png "Updated values in external apps")  
   

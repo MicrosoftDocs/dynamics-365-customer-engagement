@@ -4,16 +4,9 @@ description: "Learn about the behavior differences in the Chrome Process and IE 
 ms.custom: 
   - dyn365-USD
 ms.date: 07/15/2019
-ms.service: dynamics-365-customerservice
-ms.tgt_pltfrm: ""
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-ms.assetid: 008D1C74-1558-4172-8D5C-26F82F659F5F
 author: kabala123
 ms.author: kabala
 manager: shujoshi

@@ -1,16 +1,13 @@
 ---
 title: "Search for records in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn on how to Search for records in Omnichannel for Customer Service and link the record to a conversation."
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 9DE991EA-5B54-4D31-89EE-9CE05E73AF3C
-ms.custom: 
 ---
 
 # Search for records in Omnichannel for Customer Service
@@ -120,6 +117,6 @@ You can search for Omnichannel records by using the search functionality. When y
 ## See also
 
 - [View customer summary and know everything about customers](customer-summary.md)
-- [View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omnichannel-conversation-session.md)
+- [View conversation and session forms in the model-driven apps](view-omnichannel-conversation-session.md)
 - [View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)
 - [Create a record](create-record.md)

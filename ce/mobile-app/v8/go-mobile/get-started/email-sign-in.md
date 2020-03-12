@@ -8,8 +8,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement apps (on-premises)
+  - Dynamics 365 apps
+  - Dynamics 365 apps (on-premises)
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -30,11 +30,11 @@ search.app:
 
 # Signing in and signing out (for iOS users)
 
-Sign in to the Dynamics 365 mobile app quickly using your work email address or Customer Engagement app web address. 
+Sign in to the Dynamics 365 mobile app quickly using your work email address or web address for the Dynamics 365 app that you use. 
 
 > [!IMPORTANT]
 > - This feature is supported for both version 8.x (Online and on-premises) when signing in using the mobile app on an iOS device.
-> - If you are a [Dynamics 365 US Government](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/government/microsoft-dynamics-365-government)(GCC and GCC High)user, you are required to sign in using the web address option.
+> - If you are a [Dynamics 365 US Government](https://docs.microsoft.com/dynamics365/customer-engagement/admin/government/microsoft-dynamics-365-government)(GCC and GCC High)user, you are required to sign in using the web address option.
 
 ### Required services (for admins)
 This list identifies all services to which Dynamics 365 for Phones and Tablets talks and their usages. Your network must **not** block these services.
@@ -59,7 +59,7 @@ To sign in using your work email address, enter your email address, and then sel
 
 
 
-1. If you selected the app for version 8.x from the app list above, go to the Home page, tap ![Dynamics 365 for Customer Engagement apps ellipsis](../../../media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis").  
+1. If you selected the app for version 8.x from the app list above, go to the Home page, tap ![Dynamics 365 apps ellipsis](../../../media/mobile-ellipsis.png "Dynamics 365 apps ellipsis").  
   
 2. Select **Settings**.  
   
@@ -67,7 +67,7 @@ To sign in using your work email address, enter your email address, and then sel
 
 ## Sign in with your web address
 
-You can also sign in using your Dynamics 365 Customer Engagement app web address and user name and password. 
+You can also sign in using your web address for the Dynamics 365 app and user name and password. 
 
 1. On the sign-in screen, select **Sign in with a web address instead**.
 
@@ -76,7 +76,7 @@ You can also sign in using your Dynamics 365 Customer Engagement app web address
     > [!NOTE]
     > If you need help with your sign-in information, contact your Dynamics 365 administrator.
 
-2. Enter the URL for your Dynamics 365 Customer Engagement app, and select ![Sign in](../../../media/signinarrow.png "Dynamics 365  for phones and tablets sign-in"). 
+2. Enter the web address for the Dynamics 365 app that you use, and select ![Sign in](../../../media/signinarrow.png "Dynamics 365  for phones and tablets sign-in"). 
 
 3. On the next screen, enter your user name and password, and select **Sign in**.  
   
@@ -84,7 +84,7 @@ You can also sign in using your Dynamics 365 Customer Engagement app web address
   
    Here's how to sign out in case someone else needs to use your device.  
   
-4. From your Home page, select ![Dynamics 365 for Customer Engagement apps ellipsis](../../../media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis").  
+4. From your Home page, select ![Dynamics 365 apps ellipsis](../../../media/mobile-ellipsis.png "Dynamics 365 apps ellipsis").  
   
 5. Select **Settings**.  
   

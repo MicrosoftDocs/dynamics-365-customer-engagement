@@ -12,7 +12,7 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: shellyhaverkamp
+author: FieldServiceDave
 ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
 ms.author: daclar
 ms.reviewer: krbjoran
@@ -110,7 +110,7 @@ Account information is helpful when dealing with work orders, since **Service Ac
 
 ### Addresses
 
-Addresses should be geocoded on import. To make sure this happens, go to **Resource Scheduling Optimization** > **Resource Scheduling Parameters**. Make sure that **Connect to Maps** is set to **Yes** and there is a valid **Map API Key*.* 
+Addresses should be geocoded on import. To make sure this happens, go to **Resource Scheduling Optimization** > **Resource Scheduling Parameters**. Make sure that **Connect to Maps** is set to **Yes** and there is a valid **Map API Key**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the connect to maps and map api key settings](./media/rso-poc-address1.png) 

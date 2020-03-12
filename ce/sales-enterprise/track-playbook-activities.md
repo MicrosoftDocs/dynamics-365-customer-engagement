@@ -1,19 +1,15 @@
 ---
-title: "Track playbook activities (Dynamics 365 for Sales) | MicrosoftDocs"
+title: "Track playbook activities (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Carry out the playbook activities to ensure every event or scenario is dealt with consistently."
-keywords: "playbook, activities, track, progress"
-ms.date: 02/20/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.date: 10/01/2019
+ms.service: 
+  - "dynamics-365-sales"
+ms.custom: 
+  - "dyn365-sales"
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
-ms.assetid: 7727c370-1c75-40e9-9319-250994f61bec
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 ---
 
 # Track playbook activities
@@ -29,17 +25,20 @@ To see the activities created by the playbook when the **Track progress** field 
 
 2.  Select the **Related** tab, and then select **Playbooks**.
 
-     ![playbooks option in related tab on opportunity record](media/playbooks-option-related-tab-opportunity-record.png "Playbooks option in Related tab on opportunity record")  
+     > [!div class="mx-imgBorder"]
+     > ![playbooks option in related tab on opportunity record](media/playbooks-option-related-tab-opportunity-record.png "Playbooks option in Related tab on opportunity record")  
 
 3.  In **Playbook Associated View**, the playbook launched from the record is listed.
 
-    ![playbooks tab on opportunity record](media/playbooks-tab-opportunity-record.png "Playbooks tab on opportunity record")  
+     > [!div class="mx-imgBorder"]
+     > ![playbooks tab on opportunity record](media/playbooks-tab-opportunity-record.png "Playbooks tab on opportunity record")  
 
 4.  Select the playbook.
 
     The playbook record shows all the details about the playbook and its associated activities.
 
-    ![playbook record with associated playbook activities](media/playbook-record-with-associated-activities.png "Playbook record with associated playbook activities")  
+     > [!div class="mx-imgBorder"]
+     > ![playbook record with associated playbook activities](media/playbook-record-with-associated-activities.png "Playbook record with associated playbook activities")  
 
     For example, it shows when the playbook was launched, how many total activities it has, how many of the activities are completed, and the estimated close date. It also shows all the related playbook activities in the **Playbook activities** section. After you are done working on these activities, mark them as completed.
 
@@ -47,7 +46,8 @@ To see the activities created by the playbook when the **Track progress** field 
 
     Alternately, in the calling record, select the **Related** tab, and then select **Activities**.
 
-    ![activities tab on the opportunity record](media/activities-tab-opportunity-record.png "Activities tab on the Opportunity record")  
+     > [!div class="mx-imgBorder"]
+     > ![activities tab on the opportunity record](media/activities-tab-opportunity-record.png "Activities tab on the Opportunity record")  
  
    The Open Activity Associated View lists all the activities for the calling record along with the playbook activities created since the playbook was launched. However, this view doesn't show the total number of activities that have been created in the context of a playbook. 
 

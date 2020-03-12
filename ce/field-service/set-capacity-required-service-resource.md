@@ -1,17 +1,15 @@
 ---
-title: Set the capacity required for a service or resource (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: View how to set the capacity required for a service or resource in Dynamics 365 for Customer Service
-keywords: Set the required capacity; Dynamics 365 for Customer Engagement; Customer Service
-author: anjgupta
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-ms.author: anjgup
+title: Set the capacity required for a service or resource (Dynamics 365 Customer Service) | MicrosoftDocs
+description: View how to set the capacity required for a service or resource in Dynamics 365 Customer Service
+author: lalexms
+ms.author: laalexan
 manager: shellyha
 ms.date: 09/15/2017
-ms.service: dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 6a67450b-dccc-471c-9e09-13a169f497cf
-ms.custom: dyn365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -19,6 +17,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365FS
+ms.assetid: 6a67450b-dccc-471c-9e09-13a169f497cf
 ---
 
 # Set the capacity (number of activities in stipulated time) for a service or resource (Customer Service)
@@ -26,7 +25,7 @@ search.app:
 Define a limit to the number of activities a resource can perform in a stipulated time by setting the capacity of the resource and services in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] for Customer Service. 
 
 > [!IMPORTANT]
-> Service scheduling has been deprecated. For more information, see [Important changes coming](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
+> Service scheduling has been deprecated. For more information, see [Important changes coming](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
   
 You must set both the capacity of the service and the resources required for the service.  
   

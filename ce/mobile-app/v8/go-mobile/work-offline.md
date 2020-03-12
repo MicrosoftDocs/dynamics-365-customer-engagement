@@ -7,7 +7,7 @@ ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement apps
+applies_to: Dynamics 365 apps
 ms.assetid: cabed885-f3ab-459c-b33f-da31d2f14194
 caps.latest.revision: 7
 ms.author: mkaur
@@ -38,7 +38,7 @@ Your [!INCLUDE[pn-microsoftcrm](../../../includes/pn-microsoftcrm.md)] for phone
     Note: if no rules are set on a mobile enabled entity data, users will not have any data available  offline for that entity.
   - Profile definition with filter. Admins can create a profile which will define the data available on user in mobile offline. These filters will be applied on the middleware data set available for your org based on the mobile offline entity filter. Admins must assign the profile to users and publish it, for the profile to become active.
     Note: only the mobile offline enabled entity can be part of the profile.  
-    For more information, see [Filter your data for mobile offline usage on Microsoft Dynamics 365 for Customer Engagement apps](https://blogs.msdn.microsoft.com/crm/2017/07/07/filter-your-data-for-mobile-offline-usage-on-microsoft-dynamics-365/).
+    For more information, see [Filter your data for mobile offline usage on Microsoft Dynamics 365 apps](https://blogs.msdn.microsoft.com/crm/2017/07/07/filter-your-data-for-mobile-offline-usage-on-microsoft-dynamics-365/).
 - All the data will be downloaded to the mobile client based on user security access.
 - If a user is following a record in [!INCLUDE [pn-crm-2016](../../../includes/pn-crm-2016.md)] and the corresponding entity is part of the profile, then the record will be available to the user when offline. If the user stops following the record, it will be removed from offline in the mobile client.
 
@@ -77,33 +77,33 @@ For a list of entities supported in mobile offline, see [Entities displayed in D
 - Automatic replay for offline actions. All the data created or modified by user in offline are replayed to [!INCLUDE[pn-microsoftcrm](../../../includes/pn-microsoftcrm.md)]  automatically without user intervention. 
 - Actions are replayed from the offline synchronization in queue. The changes are played back in the same sequence as they were created/modified/ deleted. This ensure that the data state is maintained and there are no data mismatch on [!INCLUDE[pn-microsoftcrm](../../../includes/pn-microsoftcrm.md)]. 
 - Mobile offline supports conflict detection and error resolution. Conflict error for any update and delete will be detected and users can resolve the error in the  [!INCLUDE[pn-microsoftcrm](../../../includes/pn-microsoftcrm.md)] web client and on the mobile client. Any other errors created in offline will also be available for users to edit and resubmit. 
-- The org can enhance business functionality available in mobile offline using Xrm.Mobile.offline. For more information, see [Xrm.Mobile.offline (client-side reference)](https://msdn.microsoft.com/en-us/library/mt787123.aspx).
+- The org can enhance business functionality available in mobile offline using Xrm.Mobile.offline. For more information, see [Xrm.Mobile.offline (client-side reference)](https://msdn.microsoft.com/library/mt787123.aspx).
 
 ### Mobile offline blogs
 
 - Feature overview: [The new full offline experience with mobile Dynamics CRM apps](https://blogs.technet.microsoft.com/lystavlen/2016/04/21/the-new-full-offline-experience-with-mobile-dynamics-crm-apps/)
-- Filtering in mobile offline: [Filter your data for mobile offline usage on Microsoft Dynamics 365 for Customer Engagement apps](https://blogs.msdn.microsoft.com/crm/2017/07/07/filter-your-data-for-mobile-offline-usage-on-microsoft-dynamics-365/)
+- Filtering in mobile offline: [Filter your data for mobile offline usage on Microsoft Dynamics 365 apps](https://blogs.msdn.microsoft.com/crm/2017/07/07/filter-your-data-for-mobile-offline-usage-on-microsoft-dynamics-365/)
 
 ### Mobile offline videos
 
-- [Working offline with Dynamics 365 for Customer Engagement apps](https://youtu.be/V-eIlZ04zQE)
+- [Working offline with Dynamics 365 apps](https://youtu.be/V-eIlZ04zQE)
 - [Microsoft Dynamics CRM Online 2016 Update 1 New Features- Mobile Offline](https://youtu.be/GMlm3pnr-Z0)
 
 ## Work in disconnected mode with Dynamics 365 for phones and tablets 
 
 You can continue to work in the mobile apps when the device is disconnected from the internet when you've enabled mobile offline synchronization.
 
-With mobile offline synchronization enabled, the app provides a rich offline experience. You can work with all the basic commands like create, read, update, delete in addition to certain business processes. Upon reconnecting, these offline changes will be automatically synchronize to Dynamics 365 for Customer Engagement apps. The data is periodically synchronized from Dynamics 365 for Customer Engagement apps to your device for offline usage based on the sync profile configured by administrator.  
+With mobile offline synchronization enabled, the app provides a rich offline experience. You can work with all the basic commands like create, read, update, delete in addition to certain business processes. Upon reconnecting, these offline changes will be automatically synchronize to Dynamics 365 apps. The data is periodically synchronized from Dynamics 365 apps to your device for offline usage based on the sync profile configured by administrator.  
 
 ### Download app updates for offline 
 
-When you log onto the Dynamics 365 for Customer Engagement apps mobile app, you will see the list of app modules that you have access to. When you navigate to any app module that your admin has configured for offline, you'll receive a prompt to download these config updates to setup your app to work in offline mode.  
+When you log onto the Dynamics 365 apps mobile app, you will see the list of app modules that you have access to. When you navigate to any app module that your admin has configured for offline, you'll receive a prompt to download these config updates to setup your app to work in offline mode.  
 
 ### Offline synchronization status 
 
 #### Status on footer
 
-To verify offline synchronization is enabled on your app look at the offline synchronization status in the footer of the app. The status also lets you know the entities that are available in offline and, for each of these available entities, when the data is last synchronized with Dynamics 365 for Customer Engagement apps.  
+To verify offline synchronization is enabled on your app look at the offline synchronization status in the footer of the app. The status also lets you know the entities that are available in offline and, for each of these available entities, when the data is last synchronized with Dynamics 365 apps.  
 
 ![Status on footer](../../media/offline-status.png "Status on footer")
 
@@ -112,7 +112,7 @@ The following table lists the various status icons and what they mean.
 |Mobile offline synchronization status icon |Status |Description  |
 |---------|---------|---------|
 |![Available](../../media/green-icon.png "Available")     |Available         |Offline synchronization is available as the device database is available.         |
-|![Available warning ](../../media/green-icon-exclamation.png "Available warning")     |Available          |Warning due to metadata mismatch. You can tap on the link in the status to download the metadata if it's pending from Dynamics 365 for Customer Engagement apps.|
+|![Available warning ](../../media/green-icon-exclamation.png "Available warning")     |Available          |Warning due to metadata mismatch. You can tap on the link in the status to download the metadata if it's pending from Dynamics 365 apps.|
 |![Not available](../../media/red-icon.png "Not available")     |Initializing         |Offline database is being setup.         |
 |![Not available](../../media/red-icon.png "Not available")      |Not available         |Offline synchronization is not available as the database is not created on your mobile device.        |
 |![Not available warning](../../media/red-icon-exclamation.png)     |Not available         |Offline synchronization is not available. A background fix is in process.          |
@@ -131,7 +131,7 @@ You can check the reason for the offline synchronization status by clicking on t
 
 #### Last Sync Time 
 
-For offline available entities, when you navigate to the entities grid or form, you can check in the footer when data is last synchronized with Dynamics 365 for Customer Engagement apps.
+For offline available entities, when you navigate to the entities grid or form, you can check in the footer when data is last synchronized with Dynamics 365 apps.
 
 ![Last sync time](../../media/last-sync-time.png "Last sync time")
 
@@ -149,12 +149,12 @@ You can also check the status of entities enabled for offline on the sitemap. A 
 
 Users will have the following data in offline mode:
 - Data of all available entities as per the filters defined by admin in the profile. 
-- Any records of offline available entities that you follow on Dynamics 365 for Customer Engagement apps will be available in when offline. 
-- Any records of offline available entities that you are working on when you lose the connectivity will be available when offline, and you can continue working on these records. The changes in these records will be synchronized to Dynamics 365 for Customer Engagement apps when you reconnect and will be available when offline again as per your filters.    
+- Any records of offline available entities that you follow on Dynamics 365 apps will be available in when offline. 
+- Any records of offline available entities that you are working on when you lose the connectivity will be available when offline, and you can continue working on these records. The changes in these records will be synchronized to Dynamics 365 apps when you reconnect and will be available when offline again as per your filters.    
 
 ### Offline indicator
 
-As soon as the application is disconnected from the server you will see an indication on the application that it is offline. Once you have reconnected to your phone service or internet, tap this offline indicator to reconnect to Dynamics 365 for Customer Engagement apps.
+As soon as the application is disconnected from the server you will see an indication on the application that it is offline. Once you have reconnected to your phone service or internet, tap this offline indicator to reconnect to Dynamics 365 apps.
 
 | |  |
 |---------|---------|
@@ -179,20 +179,18 @@ You can seamlessly work in offline mode with all available entities. In offline 
 - Search 
 - Lookup for offline records 
 
-> [!NOTE]
-> See [Dynamics 365 for Customer Engagement apps Readme / Known Issues](../../../admin/readme-9.md#mobile-offline) to understand limitations in offline mode.
 
-Watch a short [video](https://go.microsoft.com/fwlink/p/?linkid=837630) (3:06) about working offline with Dynamics 365 for Customer Engagement apps. 
+Watch a short [video](https://go.microsoft.com/fwlink/p/?linkid=837630) (3:06) about working offline with Dynamics 365 apps. 
 
 ### Automatic playback
 
-On reconnecting to the Dynamics 365 for Customer Engagement apps, all offline actions are automatically played back to the Dynamics 365 for Customer Engagement apps. Any errors during this automatic play back are captured and stored in the Sync Error entity.  
+On reconnecting to the Dynamics 365 apps, all offline actions are automatically played back to the Dynamics 365 apps. Any errors during this automatic play back are captured and stored in the Sync Error entity.  
 
 ### Sync conflict resolution
 
-Changes done in offline mode on your device that create conflicts with Dynamics 365 for Customer Engagement apps are detected and captured in the Sync Error entity. You can view and resolve these errors either in Dynamics 365 for Customer Engagement apps or on the device. Sync Error conflict resolution gives you an option to either keep the offline changes on the device or reject them for the changes in Dynamics 365 for Customer Engagement apps. 
+Changes done in offline mode on your device that create conflicts with Dynamics 365 apps are detected and captured in the Sync Error entity. You can view and resolve these errors either in Dynamics 365 apps or on the device. Sync Error conflict resolution gives you an option to either keep the offline changes on the device or reject them for the changes in Dynamics 365 apps. 
 
-When resolving a sync error, an exclamation mark (!) highlights the conflict fields before you update them. If a record has changed Dynamics 365 for Customer Engagement apps between the time your device retrieved the record and when it tries to update or delete that record, you'll see an exclamation mark (!) by the relevant field and you'll need to resubmit your updated changes. 
+When resolving a sync error, an exclamation mark (!) highlights the conflict fields before you update them. If a record has changed Dynamics 365 apps between the time your device retrieved the record and when it tries to update or delete that record, you'll see an exclamation mark (!) by the relevant field and you'll need to resubmit your updated changes. 
 
 ![Exclamation shows conflict field](../../media/exclamation-conflict-field.png "Exclamation shows conflict field")
 
@@ -232,7 +230,7 @@ Background sync will be disabled if:
 
    Your offline experience might look a little different than your online experience, because charts and some images aren’t available offline.  
 
-  [Watch a short video (3:06) about working offline with Dynamics 365 for Customer Engagement apps](https://go.microsoft.com/fwlink/p/?linkid=837630).  
+  [Watch a short video (3:06) about working offline with Dynamics 365 apps](https://go.microsoft.com/fwlink/p/?linkid=837630).  
 
 ### Working with offline drafts  
  You can view and create records offline and save them as drafts. Once you’re reconnected, save them as soon as you can. Unsaved drafts are available only on your mobile device.  
@@ -261,7 +259,7 @@ Background sync will be disabled if:
  If you’re prompted to sign in while you’re offline, tap the **Back** button on the sign-in page and you’ll still be able to work in offline mode on [!INCLUDE [tn-ipad](../../../includes/tn-ipad.md)] and [!INCLUDE [pn-windows8](../../../includes/pn-windows8.md)] tablets until you can reconnect. On all other phones and [!INCLUDE [tn-android](../../../includes/tn-android.md)] tablets, however, you can no longer work in offline mode and will be redirected to the **Let’s get started** page until you can reconnect and sign in again.  
 
 ## Working offline with on-premises deployments  
- If you’re using the mobile app with [!INCLUDE [pn-crm-2015](../../../includes/pn-crm-2015.md)] (on-premises) or later, you can continue to use [!INCLUDE [pn-moca-short](../../../includes/pn-moca-short.md)] while disconnected. However, with the [!INCLUDE [pn-windows8](../../../includes/pn-windows8.md)] app, once you close the app (like when you start another app), you can’t use it until you can connect to the internet. With the [!INCLUDE [pn-windows-8-1](../../../includes/pn-windows-8-1.md)] app, you can continue to access your data even if you close the app. If you’re not sure whether your organization has an on-premises deployment, contact your Dynamics 365 for Customer Engagement apps admin to find out.  
+ If you’re using the mobile app with [!INCLUDE [pn-crm-2015](../../../includes/pn-crm-2015.md)] (on-premises) or later, you can continue to use [!INCLUDE [pn-moca-short](../../../includes/pn-moca-short.md)] while disconnected. However, with the [!INCLUDE [pn-windows8](../../../includes/pn-windows8.md)] app, once you close the app (like when you start another app), you can’t use it until you can connect to the internet. With the [!INCLUDE [pn-windows-8-1](../../../includes/pn-windows-8-1.md)] app, you can continue to access your data even if you close the app. If you’re not sure whether your organization has an on-premises deployment, contact your Dynamics 365 apps admin to find out.  
 
  Note that offline synchronization is not supported by on-premises deployments.  
 

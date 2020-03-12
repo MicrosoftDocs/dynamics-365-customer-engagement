@@ -1,15 +1,13 @@
 ---
-title: "Manage Dynamics 365 for Customer Engagement apps (online) Support instances | MicrosoftDocs"
+title: "Manage Support instances | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 12/04/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement  (online)
-  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 2e4db92a-515b-4976-875a-d97d88af081f
 caps.latest.revision: 4
 author: jimholtz
@@ -23,7 +21,9 @@ search.app:
 ---
 # Manage Support instances
 
-A Support instance is any non-Production instance of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps used by Microsoft Support to reproduce and resolve customer issues. When there is an issue affecting the operation of your online service, Microsoft can create a Support instance in your tenant to troubleshoot and repair the issue.  It is isolated from your Production instance so it does not impact your business operations. Dynamics 365 for Customer Engagement apps System admins have full control of managing and providing organization data by [copying it](copy-instance.md) to a Support instance. 
+[!INCLUDE[applies-to](../includes/cc_applies_to_ce.md)]
+
+A Support instance is any non-Production instance of Common Data Service used by Microsoft Support to reproduce and resolve customer issues. When there is an issue affecting the operation of your online service, Microsoft can create a Support instance in your tenant to troubleshoot and repair the issue.  It is isolated from your Production instance so it does not impact your business operations. System admins have full control of managing and providing organization data by [copying it](copy-instance.md) to a Support instance. 
 
 **What is a Support instance?**
 
@@ -36,7 +36,7 @@ A Support instance is any non-Production instance of [!INCLUDE[pn_CRM_Online](..
 
 - When a Support instance is initially created by Microsoft, it contains no customer data or customizations.
 - System admins [manage Support instances](manage-online-instances.md) in the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)].
-- System admins can [copy an instance](copy-instance.md) to a Support instance, and then choose whether to provide a [Minimal](copy-instance.md#minimal-copy-instance) or a [Full](copy-instance.md#full-copy-instance) copy of their instance.
+- System admins can [copy an instance](copy-instance.md) to a Support instance, and then choose whether to provide a minimal or full copy of their instance.
 - System admins must consent to providing a copy of their data to Microsoft.
 
 **Who has access to a Support instance?**
@@ -63,7 +63,7 @@ Database (via SQL query tools):
 
 **How long does a Support instance stay in your tenant?**
 
-1. 14 days or upon resolution of the problem.
+1. Seven days or upon resolution of the problem.
 2. System admins can [delete](delete-instance.md) the Support instance at any time.
 
 **Is access and usage of Support instance audited?** 

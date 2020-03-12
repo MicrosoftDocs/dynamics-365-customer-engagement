@@ -1,16 +1,13 @@
 ---
 title: "Introduction to the agent interface in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the Omnichannel for Customer Service agent interface in Unified Service Desk. The agent interface contains Omnichannel toolbar, session tab management toolbar, and application tab management toolbar."
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 7369f1e2-e536-4585-a69a-eee434a87af1
-ms.custom: 
 ---
 
 # Introduction to the agent interface in Omnichannel for Customer Service
@@ -77,11 +74,11 @@ Use the **Debugger** option to gain insight into the process and code runs in th
 
 #### About
 
-Use the **About** option to view information about the user (agent), the agent's email ID, the Microsoft Dynamics 365 server and organization, Shell Version, and much more.
+Use the **About** option to view information about the user (agent), the agent's email ID, the Common Data Service, Shell Version, and much more.
 
 #### Best Practices Analyzer
 
-Best practices are the guidelines about system configurations, Unified Service Desk, Internet Explorer settings, and Unified Service Desk configurations in Microsoft Dynamics 365 for Customer Engagement. Consider these guidelines our recommended way to use Unified Service Desk and serve your customers.
+Best practices are the guidelines about system configurations, Unified Service Desk, Internet Explorer settings, and Unified Service Desk configurations in the Common Data Service platform. Consider these guidelines our recommended way to use Unified Service Desk and serve your customers.
 
 ### Presence
 

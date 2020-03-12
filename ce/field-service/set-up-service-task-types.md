@@ -1,21 +1,19 @@
 ---
-title: "Set up service task types (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Set up service task types (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
-ms.reviewer: 
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.technology: 
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: 73ac0ad2-b22d-41fa-8871-2feb5beb4953
 caps.latest.revision: 13
-ms.author: krbjoran
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin
@@ -46,7 +44,7 @@ Service task types in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365
 5.  In the **Notes** section, enter any additional notes regarding the task.  
   
 ### See also   
- [Oveview of Dynamics 365 for Field Service](../field-service/overview.md)   
+ [Oveview of Dynamics 365 Field Service](../field-service/overview.md)   
  [Configure incident types](../field-service/configure-incident-types.md)   
  [Create work order types](../field-service/create-work-order-types.md)   
  [Create a work order](../field-service/create-work-order.md)   

@@ -1,6 +1,6 @@
 ---
-title: "Administer teams of users (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "Organize users into teams and apply roles to teams in Dynamics 365 for Marketing"
+title: "Administer teams of users (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Organize users into teams and apply roles to teams in Dynamics 365 Marketing"
 keywords: administration; organization settings; user; team; role; permission; fiscal year
 ms.date: 08/16/2019
 ms.service: dynamics-365-marketing
@@ -8,11 +8,9 @@ ms.custom:
   - dyn365-admin
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: edc9a748-f08f-484c-ae86-0c20d20c1f6c
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -39,7 +37,7 @@ To create a new team:
     - **Team name**: Give the team a name
     - **Business unit**: Select the business unit that members of this team belong to.
     - **Administrator**: Select the person who will perform administrative tasks for the team, such as adding or removing members. The team admin has access to team-owned records, just like team members do, but the admin isn't shown elsewhere as a member of the team unless you also add them as a member.
-    - **Team type**: Select the type of team you are creating. For details about the various types, see [Manage security, users, and teams](../admin/manage-security-users-and-teams.md).
+    - **Team type**: Select the type of team you are creating. For details about the various types, see [Manage teams](https://docs.microsoft.com/power-platform/admin/manage-teams).
     - **Azure AD object ID for a group**: If you are using an AAD-related **Team type**, then specify the relevant Azure AD object ID here.
     - **Description**: Describe the team.
 1. Select **Save** on the command bar.
@@ -60,15 +58,12 @@ You can assign any number of security roles to each team. When a team is assigne
 
 To apply security roles to teams, and to customize each role:
 
-1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
+1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
 1. Navigate to **Settings** > **System** > **Security**.
 1. Work with the **Users**, **Security roles**, and **Teams** items here as needed.
 
-For more information about managing teams and working with security roles, see [Manage security, users, and team](../admin/manage-security-users-and-teams.md) and [Create or edit a security role](../admin/create-edit-security-role.md).
+For more information about managing teams and working with security roles, see [Manage teams](https://docs.microsoft.com/power-platform/admin/manage-teams) and [Security roles and privileges](https://docs.microsoft.com/power-platform/admin/security-roles-privileges).
 
-For more information about the security roles included with the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], see [Manage user accounts, licenses, and roles](admin-users-licenses-roles.md).
+For more information about the security roles included with the Dynamics 365 Marketing, see [Manage user accounts, licenses, and roles](admin-users-licenses-roles.md).
 
-### See also
 
-[Manage security, users, and teams](../admin/manage-security-users-and-teams.md)  
-[Manage users](manage-users.md)

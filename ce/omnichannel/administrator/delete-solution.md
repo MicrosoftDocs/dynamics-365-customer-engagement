@@ -1,53 +1,88 @@
 ---
 title: "Delete Omnichannel solutions | MicrosoftDocs"
-description: "Learn how to delete a Omnichannel solution from the Microsoft Dynamics 365 for Customer Engagement organization."
-keywords: ""
+description: "Learn how to delete an Omnichannel solution from an organization."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
-ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.date: 01/31/2020
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 9DD734AE-8137-427C-A4BE-F4B2A0E58C00
-ms.custom: 
 ---
 
-# Delete Omnichannel solutions
+# Delete solutions
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-When you upgrade Omnichannel for Customer Service to the latest release, certain managed solutions appear in the **Solutions** page of your Customer Engagement organization. After the upgrade is complete, you must delete the solution from the previous release if the upgrade does not delete. In addition, if your organization is using **Customer Service Hub** app, then you must delete the app from the channel configuration in the **Channel Integration Framework** app.
+## Delete Omnichannel for Customer Service solutions
+
+When you remove Omnichannel for Customer Service from your organization, the Omnichannel solutions are not deleted. If you want to delete Omnichannel solutions from your organization, you must use the following sequence. 
+
+1. Sign in to your https://<YourOrgURL>.dynamics.com/apps environment.
+
+2. Select **Settings** > **Advanced Settings** on the command bar. The **Settings** page is displayed in a new browser tab.
+
+3.	Go to Dynamics 365 **Settings** > **Solutions**.
+
+2.	On the **Solutions** page, select each solution from the list below, one at a time, in sequence, and then select Delete.
+
+    1. `OmnichannelPrimeChatAnchor`
+    2. `OmnichannelPrimeSMSAnchor`
+    3. `OmnichannelPrimeFacebookAnchor`
+    4. `msdyn_OmnichannelSBRPatch_managed`
+    5. `OmnichannelSBR`
+    6. `msdyn_CIFrameworkPatch`
+    7. `msdyn_OmnichannelEngagementHubPatch`
+    8. `msdyn_OmnichannelBotEnablerPatch`
+    9. `msdyn_OmnichannelPrimePatch`
+    10. `msdyn_OmnichannelSMSPatch`
+    11. `msdyn_OmnichannelChatPatch`
+    12. `msdyn_OmnichannelFacebookPatch`
+    13. `OmnichannelEngagementHubPreview`
+    14. `msdyn_OmnichannelBasePatch`
+    15. `OmnichannelPrime`
+    16. `OmnichannelSMS`
+    17. `OmnichannelChat`
+    18. `OmnichannelFacebook`
+    19. `OmnichannelBotEnabler`
+    20. `OmnichannelBase`
+    21. `ScenariosAndChannels`
+    22. `ChannelAPIIntegrationFramework`
+    
+3.	A confirmation message appears, prompting you to uninstall the managed solution. Select **OK**.
+
+Once all the above solutions are deleted, Omnichannel for Customer Service solutions are completely deleted from your organization.
 
 ## Delete OmnichannelCustomerServiceHub solution
 
-The steps describe how to delete the solution from your Customer Engagement organization.
+When you upgrade Omnichannel for Customer Service to the latest release, certain managed solutions appear in the **Solutions** page of your Common Data Service platform. After the upgrade is complete, you must delete the solution from the previous release if the upgrade does not delete. In addition, if your organization is using **Customer Service Hub** app, then you must delete the app from the channel configuration in the **Channel Integration Framework** app.
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
+The following steps describe how to delete the solution from your organization.
 
-    > [!Note]
-    > When you sign in to a different app in the Customer Engagement organization, then select the default Customer Engagement app and perform the steps 2 and 3.
+1. Sign in to your https://<YourOrgURL>.dynamics.com/apps environment.
 
-2. On the nav bar select the down arrow button, and choose **Settings** > **Solutions**.
+2. Select **Settings** > **Advanced Settings** on the command bar. The **Settings** page is displayed in a new browser tab.
 
-3. On the **Solutions** page, select the **OmnichannelCustomerServiceHub** solution and then choose **Delete**. 
+3.	Go to Dynamics 365 **Settings** > **Solutions**.
 
-4. A confirmation message appears prompting you to uninstall the managed solution. Choose **OK**. 
+4. On the **Solutions** page, select the **OmnichannelCustomerServiceHub** solution and then choose **Delete**. 
+
+5. A confirmation message appears prompting you to uninstall the managed solution. Choose **OK**. 
 
     > [!div class=mx-imgBorder]
     > ![Delete Omnichannel Solution](../media/oceh-admin-delete-solution.png "Delete Omnichannel Solution")  
 
-You have deleted the **OmnichannelCustomerServiceHub** solution from your Customer Engagement organization.
+You have deleted the **OmnichannelCustomerServiceHub** solution from your organization.
 
 ## Remove Customer Service Hub from channel provider configuration
 
-The steps describe how to delete the solution from your Customer Engagement organization.
+The steps describe how to delete the solution from your organization.
 
-1. Sign in to Dynamics 365 for Customer Engagement apps.
+1. Sign in to the Common Data Service platform.
 
 2. Select the drop-down button on Dynamics 365 and select **Channel Integration Framework**.
    
-3. Select the record that is related to omnichannel.
+3. Select the record that is related to Omnichannel.
    
 4. Remove **Customer Service Hub** from the **Select Unified Interface Apps for the Channel** section.
    

@@ -1,19 +1,13 @@
 ---
-title: "Define a goal metric (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "Define how you want to measure your goals by using goal metrics in Dynamics 365 for Sales."
-keywords: "goal, metric"
-ms.date: 04/12/2019
-ms.service: dynamics-365-sales
-ms.custom: 
+title: "Define a goal metric (Dynamics 365 Sales) | MicrosoftDocs"
+description: "Define how you want to measure your goals by using goal metrics in Dynamics 365 Sales."
+ms.date: 10/01/2019
+ms.service: 
+  - "dynamics-365-sales"
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
-ms.assetid: 2251e5a0-fb76-48fb-82ec-73fe6263e3bd
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 ---
 
 # Define a goal metric (Sales & Sales Hub)
@@ -26,11 +20,13 @@ Goal metrics let you clearly define how a goal will be measured. For example, a 
 
 2.	In the site map, at the bottom, select the Change area icon ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area"), and then select **App Settings**.  
 
-    ![Select the Change area icon and then select App Settings](media/change-area-app-settings.png "Select the Change area icon and then select App Settings")
+    > [!div class="mx-imgBorder"]
+    > ![Select the Change area icon and then select App Settings](media/change-area-app-settings.png "Select the Change area icon and then select App Settings")
 
 3. Select **Goal Metrics**.
 
-    ![Goal Metrics in the site map](media/site-map-goal-management.png "Goal Metrics in the site map")
+    > [!div class="mx-imgBorder"]
+    > ![Goal Metrics in the site map](media/site-map-goal-management.png "Goal Metrics in the site map")
  
 4.	To create a new goal metric, on the command bar, select **New**.
 
@@ -38,22 +34,21 @@ Goal metrics let you clearly define how a goal will be measured. For example, a 
 
     a.	**Name**. Required. Enter a name between 1 and 100 characters.
     
-    b.	**Metric Type**. Required. To track a monetary amount, select Amount. To track another type of amount, such as how many new contacts are added, select Count.
+    b.	**Metric Type**. Required. To track a monetary amount, select **Amount**. To track another type of amount, such as how many new contacts are added, select **Count**.
 
     
     > [!NOTE]
-
     > After you save the goal metric, you will no longer be able to edit this field.
     
     c.	**Amount Data Type**. Required. This option is not available if the you chose is **Count** as the **Metric Type** because [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] automatically sets the data type to integer.
     
     > [!NOTE]
-
     > After you save the goal metric, you will no longer be able to edit this field.
     
     d.	**Track Stretch Target**. Select this check box if you want this metric to track an additional target beyond the primary goal.
 
-    ![Goal metric form](media/goal-metric-form.png "Goal metric form")
+    > [!div class="mx-imgBorder"]
+    > ![Goal metric form](media/goal-metric-form.png "Goal metric form")
  
 6.	Select **Save**.
 
@@ -65,21 +60,22 @@ Goal metrics let you clearly define how a goal will be measured. For example, a 
 
       -  **Rollup Field**. Select a rollup field where the metric rollup data will be displayed in the goal. You can display an integer or money, depending on the Metric Type you chose. You can't select a field you already added to the metric.
 
-          ![Rollup fields tab on goal metric form](media/rollup-fields-tab-goal-metric-form.png "Rollup fields tab on goal metric form")
+          > [!div class="mx-imgBorder"]
+          > ![Rollup fields tab on goal metric form](media/rollup-fields-tab-goal-metric-form.png "Rollup fields tab on goal metric form")
  
     c. Under **Step 2: Specify the details about the source data that rolls up**, fill in the information:
 
       - **Source Record Type**. Required. Select the record type to use as the source of the rollup data for the metric.
 
         > [!NOTE]
-
         > A custom record type (entity) that is organization-owned isn't available in the Source Record Type drop-down list for selection. For more information about entity ownership, see Types of entities.
 
       - **Source Record Type State**. Required. Select the record state you want to use as the source of the rollup data for the metric.
 
       - **Source Record Type Status**. Required. Select the status of the records you want to use as the source of the rollup data for the metric. State and status may be identical, depending on the record type you selected.
- 
-          ![Rollup fields tab](media/rollup-fields-tab-source-data-goal-metric-form.png "Rollup fields tab")
+
+          > [!div class="mx-imgBorder"] 
+          > ![Rollup fields tab](media/rollup-fields-tab-source-data-goal-metric-form.png "Rollup fields tab")
 
     d. Under **Step 3: Specify the date field that determines the goal period that the records will roll up into**, fill in the information:
 
@@ -87,7 +83,8 @@ Goal metrics let you clearly define how a goal will be measured. For example, a 
 
       - **Date Field**. Select a date field. The options available in the list are from the entity you selected in the Record Type field.
 
-         ![Specify a date field that determines the goal period](media/rollup-fields-tab-goal-period-goal-metric-form.png "Specify a date field that determines the goal period")
+         > [!div class="mx-imgBorder"]
+         > ![Specify a date field that determines the goal period](media/rollup-fields-tab-goal-period-goal-metric-form.png "Specify a date field that determines the goal period")
  
     e. Select **Save & Close**.
 
@@ -176,5 +173,6 @@ Goal metrics let you clearly define how a goal will be measured. For example, a 
   
   
 ### See also  
- [Create or edit a goal](../sales-enterprise/create-edit-goal-sales.md)   
- [Progress Against Goals report](../basics/sales-insights-reports.md#BKMK_ProgressGoals)
+
+[Create or edit goals](../sales-enterprise/create-edit-goal-sales.md)   
+[Define a goal rollup queries](create-edit-goal-rollup-query-sales.md)

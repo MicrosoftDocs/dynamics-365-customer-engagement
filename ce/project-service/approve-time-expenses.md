@@ -1,5 +1,5 @@
 ---
-title: Approve time and expenses (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: Approve time and expenses
 description: How to approve time and expenses in Project Service
 author: revathiMuthiah
 manager: kfend

@@ -1,16 +1,13 @@
 ---
-title: "Keyboard shortcuts for panels in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
+title: "Keyboard shortcuts for panels in Unified Service Desk | MicrosoftDocs"
 description: "Learn about the keyboard shortcuts for panels in Unified Service Desk"
 ms.custom: 
   - dyn365-a11y
   - dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: 
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 539aa1c3-faa3-4e54-ad14-f7da96529e91
 author: kabala123
 ms.author: kabala
 manager: shujoshi

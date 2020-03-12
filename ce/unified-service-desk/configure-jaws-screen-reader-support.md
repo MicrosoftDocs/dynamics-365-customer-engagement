@@ -1,23 +1,13 @@
 ---
 title: "Configure JAWS screen reader for Unified Service Desk | MicrosoftDocs"
-description: "Learn about JAWS screen reader for Windows screen reader for speech output in the Unified Service Desk client. All the Unified Service Desk controls and custom controls that are part of the Microsoft Dynamics 365 for Customer Engagement apps Web Client package  are JAWS compliant."
+description: "Learn about JAWS screen reader for Windows screen reader for speech output in the Unified Service Desk client. All the Unified Service Desk controls and custom controls that are part of the Web Client package  are JAWS compliant."
 ms.custom: 
   - dyn365-a11y
   - dyn365-USD
-keywords: Dynamics 365 for Customer Engagement apps Unified Service Desk; Unified Service Desk; JAWS Screen Reader; Windows Screen Reader
 ms.date: 08/23/2017
-ms.reviewer: 
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: D9FE67A6-2E02-48DF-B9C2-4250433D72BE
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -32,12 +22,12 @@ search.app:
 
 [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] (Job Access With Speech) is a computer screen reader program for Microsoft Windows that allows blind and visually impaired users to read the screen either with a text-to-speech output or by a refreshable Braille display.
 
-[!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] supports [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] version 18 for Windows screen reader for speech output in the [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] client. All the [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] controls and custom controls that are part of the Microsoft Dynamics 365 for Customer Engagement apps Web Client package  are JAWS compliant. For the custom controls that you develop as part of the solution package, you need to define the necessary properties to make the controls JAWS compliant.
+[!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] supports [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] version 18 for Windows screen reader for speech output in the [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] client. All the [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] controls and custom controls that are part of the Web Client package  are JAWS compliant. For the custom controls that you develop as part of the solution package, you need to define the necessary properties to make the controls JAWS compliant.
 
 ## JAWS support for focusable controls (Interactive controls)
 You can configure [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] screen reader support for controls that are focusable (Interactive controls), such as buttons, list box, menu, radio button, and check box.
 
-For [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] screen reader to read a focusable control, you must specify a value for the [AutomationProperties.Name Attached Property](https://msdn.microsoft.com/en-us/library/system.windows.automation.automationproperties.name(v=vs.110).aspx). 
+For [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] screen reader to read a focusable control, you must specify a value for the [AutomationProperties.Name Attached Property](https://msdn.microsoft.com/library/system.windows.automation.automationproperties.name(v=vs.110).aspx). 
 
 For example:
 
@@ -73,9 +63,9 @@ In the example image, the **REMINDER** button name is different than the tooltip
 
 ![Unified Service Desk button with differnt tootip](media/usd-reminder-button-setreminder-tootip.png "Unified Service Desk button with differnt tootip")
 
-You can write script for your application in [!INCLUDE[pn-jaws](../includes/pn-jaws.md)]. For more information about writing scripts, see [Basics of Scripting Manual](http://www.freedomscientific.com/Content/Documents/Other/ScriptManual/01-0_Introduction.htm).
+You can write script for your application in [!INCLUDE[pn-jaws](../includes/pn-jaws.md)]. For more information about writing scripts, see [Basics of Scripting Manual](https://www.freedomscientific.com/Content/Documents/Other/ScriptManual/01-0_Introduction.htm).
 
-After you write the script, name the file as per the product name (example: UnifiedServiceDesk.jss). These are called application script file, and must be saved in either the [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] shared or user settings folder in order to be loaded with the application at run-time. More information: [JAWS Scripts and Script Files](http://www.freedomscientific.com/Content/Documents/Other/ScriptManual/03-1_JAWSScriptsAndScriptFiles.htm).
+After you write the script, name the file as per the product name (example: UnifiedServiceDesk.jss). These are called application script file, and must be saved in either the [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] shared or user settings folder in order to be loaded with the application at run-time. More information: [JAWS Scripts and Script Files](https://www.freedomscientific.com/Content/Documents/Other/ScriptManual/03-1_JAWSScriptsAndScriptFiles.htm).
 
 ## JAWS support for non-focusable controls (Non-Interactive controls)
 
@@ -96,7 +86,7 @@ The XAML example for Session Overview control displays you the **UserControl** w
     <controlStyles:USDTab Header="General">
 <UserControl>
         <Grid Margin="0"
-          xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+          xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml"
           xmlns:CCA="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics">
 <Grid.Resources>
 <CCA:CRMImageConverter x:Key="CRMImageLoader" />
@@ -121,7 +111,7 @@ The XAML example for Session Overview control displays you the **UserControl** w
 <Image Style="{DynamicResource ImageLogo}" Source="{Binding Source=msdyusd_Phone16, Converter={StaticResource CRMImageLoader}}" />
      <TextBlock  TextWrapping="Wrap" Padding="5,0,0,5" Text="Phone: " VerticalAlignment="Center"   Foreground="#262626" />
      <TextBlock  Padding="5,0,0,5" VerticalAlignment="Center">
-     <Hyperlink Command="CCA:ActionCommands.DoActionCommand" CommandParameter="http://uii/CRM Global Manager/LaunchURL?callto:tel:[[account.telephone1]u+]" FontFamily="Tohoma" FontSize="12">[[account.telephone1]+]</Hyperlink>
+     <Hyperlink Command="CCA:ActionCommands.DoActionCommand" CommandParameter="https://uii/CRM Global Manager/LaunchURL?callto:tel:[[account.telephone1]u+]" FontFamily="Tohoma" FontSize="12">[[account.telephone1]+]</Hyperlink>
        </TextBlock>
    </StackPanel >
 <StackPanel  Orientation="Horizontal"  Grid.Row="1" Margin="5,0,0,0">
@@ -136,7 +126,7 @@ The XAML example for Session Overview control displays you the **UserControl** w
 </controlStyles:USDTab>
 <controlStyles:USDTab Header="Social Info">
     <Grid Margin="1"
-       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+       xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml"
        xmlns:CCA="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics">
      <Grid.RowDefinitions>
         <RowDefinition Height="auto" />
@@ -144,12 +134,12 @@ The XAML example for Session Overview control displays you the **UserControl** w
         <RowDefinition Height="auto" />
      </Grid.RowDefinitions>
       <TextBlock Margin="5,6,0,0" FontSize="12" Height="20" Grid.Row="0" Text="Twitter:     "   Foreground="#262626" >
-       <Hyperlink Command="CCA:ActionCommands.DoActionCommand" CommandParameter="http://uii/Twitter/Navigate?about:blank">
+       <Hyperlink Command="CCA:ActionCommands.DoActionCommand" CommandParameter="https://uii/Twitter/Navigate?about:blank">
                [[Account.msdyusd_twitter]x+]
        </Hyperlink>
      </TextBlock>
      <TextBlock Margin="5,0,0,0" FontSize="12" Height="50" Grid.Row="2"  Text="Facebook: "   Foreground="#262626">
-        <Hyperlink Command="CCA:ActionCommands.DoActionCommand" CommandParameter="http://uii/Facebook/Navigate?about:blank">
+        <Hyperlink Command="CCA:ActionCommands.DoActionCommand" CommandParameter="https://uii/Facebook/Navigate?about:blank">
                     [[Account.msdyusd_facebook]x+]
         </Hyperlink>
        </TextBlock>

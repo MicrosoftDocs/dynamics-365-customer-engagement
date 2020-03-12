@@ -1,17 +1,15 @@
 ---
-title: "Add custom event-registration fields (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "Add custom fields to the registration form on your event website, and read the submitted values in Dynamics 365 for Marketing"
+title: "Add custom event-registration fields (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Add custom fields to the registration form on your event website, and read the submitted values in Dynamics 365 Marketing"
 keywords: custom fields;event website;portal;registration;events
 ms.date: 12/17/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 1972c4d0-e335-4a0a-9747-47a020b33132
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -41,7 +39,7 @@ Go to the **Custom registration fields** page to view and create all the custom 
 
    - **Owner**: The name of the user who owns this record.
    - **Text**: The field label, exactly as it will be shown on the form.
-   - **Is Required**: Sets whether [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] should require registrants to specify a value for this field. Set this to **Yes** to mark the field as required.
+   - **Is Required**: Sets whether Dynamics 365 Marketing should require registrants to specify a value for this field. Set this to **Yes** to mark the field as required.
    - **Type**: Sets the type of input field created on the form. **Simple text** creates a text field where registrants can type a value. **Boolean** creates a check box (yes or no option); **Single choice** creates a drop-down list, where registrants can choose just one value; and **Multiple choice** creates a set of check boxes, where registrants can enable as many options as they want.
    - **Choices**: This setting is only shown when the **Type** is set to **Single choice** or **Multiple choice**. Enter each available option here, with options separated by a carriage return.
 

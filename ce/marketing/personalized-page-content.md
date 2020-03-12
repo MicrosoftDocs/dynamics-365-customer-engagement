@@ -1,17 +1,15 @@
 ---
-title: "Personalized marketing page content (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "How to create web pages that provide content personalized for visitors that are known contacts in Dynamics 365 for Marketing"
+title: "Personalized marketing page content (Dynamics 365 Marketing) | Microsoft Docs"
+description: "How to create web pages that provide content personalized for visitors that are known contacts in Dynamics 365 Marketing"
 keywords: preview
 ms.date: 08/16/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 71fabecc-0581-46e8-9ee7-24995ce1f981
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -29,11 +27,11 @@ search.app:
 As with marketing emails, you can create landing pages, and other types of web pages that display content that's personalized for known contacts. The solution makes use of the following techniques:
 
 - **Known contacts are identified by a cookie set on their browser**  
-The required cookie is set in a user's browser when they open any [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] landing page, embedded form, or subscription center. The cookie might initially be anonymous but gets linked to a contact record when the contact submits a landing page with valid contact details or opens a subscription center using a personalized link sent to them in email.
+The required cookie is set in a user's browser when they open any Dynamics 365 Marketing landing page, embedded form, or subscription center. The cookie might initially be anonymous but gets linked to a contact record when the contact submits a landing page with valid contact details or opens a subscription center using a personalized link sent to them in email.
 - **JavaScript is used to fetch values from the relevant contact record to the marketing page**  
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] generates the code you must add to your page to connect to the database and fetch the field values, but you must modify this with the specific field names you want to use, and also write your own JavaScript to make use of those values on the page. You might display contact values directly, or use them programmatically to modify page content, layout, and more.
-- **Personalized pages must run either on an authenticated domain or the Dynamics 365 portal, and use HTTPS**  
-For security purposes, personalized pages are only supported on domains that are authenticated with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] (including native marketing pages running on the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]portal, which are always authenticated). Personalized pages must furthermore be accessed using HTTPS (not HTTP).
+Dynamics 365 Marketing generates the code you must add to your page to connect to the database and fetch the field values, but you must modify this with the specific field names you want to use, and also write your own JavaScript to make use of those values on the page. You might display contact values directly, or use them programmatically to modify page content, layout, and more.
+- **Personalized pages must run either on an authenticated domain or the Dynamics 365 Portal, and use HTTPS**  
+For security purposes, personalized pages are only supported on domains that are authenticated with Dynamics 365 Marketing (including native marketing pages running on a Dynamics 365 Portal, which are always authenticated). Personalized pages must furthermore be accessed using HTTPS (not HTTP).
 - **Data access is restricted to explicitly white-listed fields from the contact entity**  
 For security, the solution will only provide those field values that you specifically configure to make available to personalized landing pages.
 - **Contacts must accept form prefilling to see personalized marketing page content**  
@@ -59,9 +57,9 @@ You can use fields of the following types on personalized pages:
 
 ## Authenticate your external domains
 
-Domain authentication helps ensure that your organization's websites (external domains) really do belong to your organization, and that your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] instance is authorized to interact with those domains and send marketing emails associated with them. It requires your system administrator to prove ownership of each domain by submitting signed certificates through the DNS system. Before you start developing a personalized page for your website, be sure to ask your system administrator whether your domain is authenticated for use with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. For instructions, see [Authenticate your domains](marketing-settings.md#authenticate).
+Domain authentication helps ensure that your organization's websites (external domains) really do belong to your organization, and that your Dynamics 365 Marketing instance is authorized to interact with those domains and send marketing emails associated with them. It requires your system administrator to prove ownership of each domain by submitting signed certificates through the DNS system. Before you start developing a personalized page for your website, be sure to ask your system administrator whether your domain is authenticated for use with Dynamics 365 Marketing. For instructions, see [Authenticate your domains](mkt-settings-authenticate-domains.md).
 
-For native marketing pages, which are designed in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and run on your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portal, authentication is automatic, so you don't need to set up an authenticated domain for these.
+For native marketing pages, which are designed in Dynamics 365 Marketing and run on your Dynamics 365 Portal, authentication is automatic, so you don't need to set up an authenticated domain for these.
 
 ## Set up page personalization
 
@@ -105,7 +103,7 @@ After you've set up a personalized-pages record to whitelist all the fields you 
 1. Select all the text in the **JavaScript code** field and copy it to your clipboard.
 
 1. Do one of the following:
-    - To personalize a marketing page published by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], go to **Marketing** > **Internet marketing** > **Marketing pages** and open (or create) the page where you want to add personalization. Then go to the **Content** > **HTML** tab for your selected marketing page.
+    - To personalize a marketing page published by Dynamics 365 Marketing, go to **Marketing** > **Internet marketing** > **Marketing pages** and open (or create) the page where you want to add personalization. Then go to the **Content** > **HTML** tab for your selected marketing page.
     - To personalize a page from your own website, edit the page in your CMS system or any text or code editor.
 
 1. Paste the JavaScript code into the `<head>` section of the HTML. Your pasted code should look something like this:
@@ -132,7 +130,7 @@ After you've set up a personalized-pages record to whitelist all the fields you 
 
     Where:
     - *&lt;LocalFieldName&gt;* is the name you'll use to refer to the field using JavaScript on the marketing page. You can choose any name you like, but usually you'll pick one that matches the read field name.
-    - *&lt;RealFieldName&gt;* is the name of the field as defined in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. This must match one of the fields you white listed earlier, as listed in the Fields table of the page-personalization record.
+    - *&lt;RealFieldName&gt;* is the name of the field as defined in Dynamics 365. This must match one of the fields you white listed earlier, as listed in the Fields table of the page-personalization record.
 
     For example:
 
@@ -143,7 +141,7 @@ After you've set up a personalized-pages record to whitelist all the fields you 
 1. Each contact field that you enabled in the `<head>` is now available to JavaScript on the page. Use standard JavaScript techniques to reference and use the values.
 
 > [!IMPORTANT]
-> If you're running your personalized page on an external website, make sure it always communicates with visitors using HTTPS, not HTTP. Also, as already mentioned, make sure that your external domain is authenticated for use with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
+> If you're running your personalized page on an external website, make sure it always communicates with visitors using HTTPS, not HTTP. Also, as already mentioned, make sure that your external domain is authenticated for use with Dynamics 365 Marketing
 
 ## Test your page personalization
 
@@ -153,6 +151,6 @@ As mentioned in the introduction to this topic, page personalization requires th
 1. Open ([or create](create-deploy-marketing-pages.md)) a marketing page that's live and running on your instance and that includes a [marketing form](marketing-forms.md) with the following:
     - A [field design element](content-blocks-reference.md#form-content-elements) for each of the values you want to test on your personalized page.
     - A [remember-me design element](content-blocks-reference.md#form-content-elements) (which creates a checkbox that enables/disables prefilling and page personalization for the submitting contact)
-1. Fill out all the fields on the registration form and be sure to mark the "remember me" check box. When you submit the form, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] will set a cookie in your browser, which enables the system to identify you the next time you open a marketing page.
+1. Fill out all the fields on the registration form and be sure to mark the "remember me" check box. When you submit the form, Dynamics 365 Marketing will set a cookie in your browser, which enables the system to identify you the next time you open a marketing page.
 1. Allow about 30 seconds for the system to process the submission and create a new contact record.
 1. Open your personalized marketing page and confirm the personalization features work as expected.

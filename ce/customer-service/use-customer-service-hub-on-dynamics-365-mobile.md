@@ -1,16 +1,15 @@
 ---
 title: Use Customer Service Hub on mobile | Microsoft Docs
-description: Use Dynamics 365 for Customer Engagement Customer Service Hub app on mobile devices like phones and tablets
-keywords: Customer Service Hub on mobile; Customer Service;  Microsoft Dynamics 365 for Customer Engagement;
-author: anjgupta
-applies_to: Dynamics 365 for Customer Engagement (online)
-ms.author: anjgup
+description: Use Customer Service Hub app on mobile devices like phones and tablets
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 06/01/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.assetid: a7f5cc83-80cc-1aad-aab5-fdd52a6891fe
-ms.custom: dyn365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -26,7 +25,7 @@ Access your Customer Service Hub data while you’re on the go using Dynamics 36
 
 The Customer Service Hub app works the same whether you’re using it on your mobile device or using it on a web browser on your computer.
 
-Before you can start using the app, you need to install the Dynamics 365 for Customer Engagement mobile app on your device.
+Before you can start using the app, you need to install the Dynamics 365 Customer Service mobile app on your device.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md).
 
@@ -55,7 +54,7 @@ The **Favorites and Recently Used** sections provide quick access to your record
   
 ## Guide to use the mobile app 
 
-For more information on how to use the Dynamics 365 for Customer Engagement mobile app, see [Mobile Basics Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md).
+For more information on how to use the Dynamics 365 Customer Service mobile app, see [Mobile Basics Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md).
 
 ### See also  
  [Customer Service Hub user's guide](../customer-service/user-guide-customer-service-hub.md)

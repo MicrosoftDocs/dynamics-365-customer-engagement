@@ -9,8 +9,6 @@ ms.service: dynamics-365-marketing
 ms.technology: 
   - "marketing"
 ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
 author: Nkrb
 ms.author: nabuthuk
 manager: kvivek
@@ -28,7 +26,7 @@ You need to name the label and apply the directive. If you name the label as `Ne
 
 `<p [appTranslate]="'NewLabel'">this is my new paragraph</p>`
 
-After you add the directive in the code, you need to add the label in your localization files located under `/Localization` folder. This directory contain a JSON file for each language that is supported. The localization files use the [Windows Language Code Identifier (LCID)](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-lcid/70feba9f-294e-491e-b6eb-56532684c37f) as naming schema (e.g. `1033.json`). 
+After you add the directive in the code, you need to add the label in your localization files located under `/Localization` folder. This directory contain a JSON file for each language that is supported. The localization files use the [Windows Language Code Identifier (LCID)](https://docs.microsoft.com/openspecs/windows_protocols/ms-lcid/70feba9f-294e-491e-b6eb-56532684c37f) as naming schema (e.g. `1033.json`). 
 
 To add the translated label, modify the `1033.json` file (this file contains all english translations). It contains the labels in the JSON format, so to add the new label you can append the following to the JSON object:
 

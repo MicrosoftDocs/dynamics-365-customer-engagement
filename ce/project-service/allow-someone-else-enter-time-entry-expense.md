@@ -1,5 +1,5 @@
 ---
-title: Allow someone else to enter your time entry or expense (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: Allow someone else to enter your time entry or expense 
 description: How to allow others to enter your time entry or expense in Project Service
 author: revathiMuthiah
 manager: kfend

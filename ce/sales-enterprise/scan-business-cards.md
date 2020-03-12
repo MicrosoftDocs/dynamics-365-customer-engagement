@@ -1,40 +1,34 @@
 ---
-title: "Scan business cards (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "Use the business card scanner in Dynamics 365 for Sales to quickly scan business cards of the prospective customers you've met with."
-keywords: "business card, scan, scanner, lead, contact, populate, data"
-ms.date: 08/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+title: "Scan business cards (Dynamics 365 Sales) | MicrosoftDocs"
+description: "Use the business card scanner in Dynamics 365 Sales to quickly scan business cards of the prospective customers you've met with."
+ms.date: 10/01/2019
+ms.service:
+  - "dynamics-365-sales"
 ms.topic: article
-applies_to: 
-ms.assetid: b1798d84-617a-4284-8cc8-bf146d8a5578
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 ---
 
 # Scan business cards
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-The integrated business card scanner in Dynamics 365 for Sales helps salespeople to quickly scan business cards of the prospective customers they’ve met in the fields. It reads basic information from the card and populates data in fields of **lead** or **contact** records in Dynamics 365 for Sales, so sales people don’t spend time on entering the data manually and can focus on more important tasks.
+The integrated business card scanner in Dynamics 365 Sales helps salespeople to quickly scan business cards of the prospective customers they’ve met in the fields. It reads basic information from the card and populates data in fields of **lead** or **contact** records in Dynamics 365 Sales, so sales people don’t spend time on entering the data manually and can focus on more important tasks.
 
 > [!IMPORTANT]
-> - [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-> - This feature is available only in the EMEA and North America regions.
-> - To learn about enabling preview features in the 2019 release wave 2, see [How do I enable the 2019 release wave 2 updates](/power-platform/admin/preview-october-2019-updates#when-will-the-2019-release-wave-2-features-be-enabled)
+> - To learn about the availability of the business card feature in a region, see [Feature availability by region](https://docs.microsoft.com/ai-builder/availability-region#availability-and-release-status-of-features-by-region).
+> - To know about the business card scan limits with your user license, see the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 
-To scan a business card,
 
-1.  On the Quick Create form of a **Contact** or **Lead** form, select **Scan business card**.
+To scan a business card:
 
-    ![Option to scan business card in the Contact Quick Create form](media/scan-business-card-option-in-contact-quick-create-form.png "Option to scan business card in the Contact Quick Create form")
+1. Make sure you have the Common Data Service User role assigned.
 
-2.  If you’re using the Dynamics 365 for Sales app on a desktop, browse to the folder where the business card picture is stored, select the business card picture, and then select **Insert**.
+2.  On the Quick Create form of a **Contact** or **Lead** form, select **Scan business card**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Option to scan business card in the Contact Quick Create form](media/scan-business-card-option-in-contact-quick-create-form.png "Option to scan business card in the Contact Quick Create form")
+
+3.  If you’re using the Dynamics 365 Sales app on a desktop, browse to the folder where the business card picture is stored, select the business card picture, and then select **Insert**.
 
     -OR-
 
@@ -42,16 +36,18 @@ To scan a business card,
 
     The details like first name, last name, account name, job title, and email will be automatically populated from the business card.
 
-    ![Contact form showing scanned card with automatically populated fields](media/scanned-card-with-populated-fields.jpg "Contact form showing scanned card with automatically populated fields")
+    > [!div class="mx-imgBorder"]
+    > ![Contact form showing scanned card with automatically populated fields](media/scanned-card-with-populated-fields.jpg "Contact form showing scanned card with automatically populated fields")
 
-3. Select **Save**.
+4. Select **Save**.
 
     
     > [!NOTE]
     > - When you save the **Contact** or **Lead** records, a **Duplicate Records detected** dialog box is shown if duplicate records are found based on the available duplicate detection rules. You can choose whether you want to create a duplicate record or not.
     > - When you save the **Contact** or **Lead** record, the business card is also associated and stored in the records, so you can refer to it later. If your system administrator has set the **Always retain business card images after scanning option** option to **No**, the business card image won't be saved. 
 
-    ![Saved business card on the Business card tab of a Contact form](media/saved-business-card-on-business-card-tab.jpg "Saved business card on the Business card tab of a Contact form")
+    > [!div class="mx-imgBorder"]
+    > ![Saved business card on the Business card tab of a Contact form](media/saved-business-card-on-business-card-tab.jpg "Saved business card on the Business card tab of a Contact form")
 
 ### See also
 

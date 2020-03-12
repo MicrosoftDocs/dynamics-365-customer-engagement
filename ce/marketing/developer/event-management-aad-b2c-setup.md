@@ -9,8 +9,6 @@ ms.service: dynamics-365-marketing
 ms.technology: 
   - "marketing"
 ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
 author: tohomanms
 ms.author: tohoman
 manager: kvivek
@@ -24,15 +22,15 @@ The event portal is capable of integrating the **Azure Active Directory B2C**. T
 
 1. If you don't have one already, create a Azure AD B2C tenant.
 1. Add a web application to your Azure AD B2C tenant.
-1. Register the application with your Dynamics 365 instance.
+1. Register the application with your Dynamics 365 Marketing instance.
 1. Configure event management application to work with your Azure AD B2C tenant
 
 ## Creating Azure AD B2C tenant and adding a web application to the tenant
 
-The quick start tutorial explains how to create a new Azure AD B2C tenant here: [Create an Azure AD B2C tenant](https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-tenant)
+The quick start tutorial explains how to create a new Azure AD B2C tenant here: [Create an Azure AD B2C tenant](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-create-tenant)
 
 After you have successfully created **Azure AD B2C** tenant, follow the tutorial to add a web application to the newly created tenant:
-[Register a web application with AAD B2C](https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-register-applications)
+[Register a web application with AAD B2C](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-register-applications)
 
 ### Grant API access to the registered web application
 
@@ -61,7 +59,7 @@ To do so, follow the steps below:
 8. Click on **Create**.
 
 > [!NOTE]
-> To use a name-based contact matching strategy, you must configure the sign-up policy to include the `Given Name` and `Surname` attributes and also selecting them in the `Application claim` section. More information: [How to configure and set it up in the Azure AD B2C](https://docs.microsoft.com/en-us/azure/active-directory-b2c/)
+> To use a name-based contact matching strategy, you must configure the sign-up policy to include the `Given Name` and `Surname` attributes and also selecting them in the `Application claim` section. More information: [How to configure and set it up in the Azure AD B2C](https://docs.microsoft.com/azure/active-directory-b2c/)
 
 ## Naming
 
@@ -76,12 +74,12 @@ To reduce the clutter while navigating Azure portal we will use the following na
 * Settings > User Flows (policies): **Policy** (e.g. `B2C_1_default-sign-up`)
 * Application > Published scopes > Full scope value textbox: **Scope** (e.g. https://contosoeventmanagementtest.onmicrosoft.com/events/registration)
 
-## Registering the application with Dynamics 365 instance
+## Registering the application with Dynamics 365 Marketing instance
 
-Follow those steps to register the application with Dynamics 365.
+Follow those steps to register the application with Dynamics 365 Marketing.
 
-1. Open your Dynamics 365 instance
-1. Navigate to **Dynamics 365 > Marketing > Settings > Web applications** and select your **Web application** record. If you haven't created a **Web application** record yet, then please follow the steps to [register your web application](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/developer/self-hosted#register-your-web-application).
+1. Open your Dynamics 365 Marketing instance
+1. Navigate to **Dynamics 365 > Marketing > Settings > Web applications** and select your **Web application** record. If you haven't created a **Web application** record yet, then please follow the steps to [register your web application](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/developer/self-hosted#register-your-web-application).
 1. Insert your **Application id** in the **AAD Client ID** field.
 1. Insert your metadata endpoint in the **AAD Metadata Endpoint** field.
   According to the defined naming assembly, the AAD metadata endpoint looks in this pattern `https://{tenant id}.b2clogin.com/{tenant id}.onmicrosoft.com/v2.0/.well-known/openid-configuration?p={policy}`
@@ -104,7 +102,7 @@ Use following mapping while entering the values:
 * clientID: Application id 
 * signUpSignInPolicy: Policy (e.g. `B2C_1_default-sign-up`)
 * b2cScopes: ['Scope'] (e.g. https://contosoeventmanagementtest.onmicrosoft.com/events/registration)
-* redirectUri: Application > Reply URL > Pick your application uri (e.g. for localhost `http://localhost:4200`)
+* redirectUri: Application > Reply URL > Pick your application uri (e.g. for localhost `https://localhost:4200`)
 
 An example of the full aadB2cConfig object would be:
 
@@ -115,6 +113,6 @@ aadB2CConfig: {
     clientID: '7e67b9fe-d976-4db0-be90-05d797332658',
     signUpSignInPolicy: 'B2C_1_default-sign-up',
     b2cScopes: ['https://contoso.onmicrosoft.com/events/registration'],
-    redirectUri: 'http://localhost:4200'
+    redirectUri: 'https://localhost:4200'
 }
 ```

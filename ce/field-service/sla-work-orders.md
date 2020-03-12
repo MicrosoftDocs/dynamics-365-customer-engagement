@@ -28,7 +28,7 @@ search.app:
 
 # Service level agreements (SLAs) for work orders
 
-Dynamics 365 for Field Service is designed to use the broader Dynamics 365 Service Level Agreement (SLA) functionality.
+Dynamics 365 Field Service is designed to use the broader Dynamics 365 Service Level Agreement (SLA) functionality.
 
 SLAs for Field Service help you ensure work orders are getting attention and completed in a timely manner.
 

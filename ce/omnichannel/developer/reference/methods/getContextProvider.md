@@ -1,16 +1,11 @@
 ---
 title: "getContextProvider (Omnichannel for Customer Service JavaScript API reference) | MicrosoftDocs"
 description: 
-keywords: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
-applies_to: 
 ms.date: 07/09/2019
-ms.service: 
 ms.topic: article
-ms.assetid: 1C92A31B-70DF-4CE7-9C7A-BE398F34C6F6
-ms.custom: 
 ---
 
 # getContextProvider

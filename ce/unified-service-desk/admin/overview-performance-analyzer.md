@@ -1,19 +1,13 @@
 ---
 title: "Overview of Unified Service Desk Performance Analyzer | MicrosoftDocs"
 description: "Learn about the introduction and overview of Unified Service Desk Analyzer. What are the value propositions, support matrix, and download link of Unified Service Desk Performance Analyzer."
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 ms.date: 10/31/2018
 ms.service: 
   - dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD, dyn365-admin
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: F6948C0F-E77A-45A0-8BE1-0091F2EBFF91
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -22,7 +16,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
-monikerRange : '>= dynamics-usd-3'
+monikerRange: '>= dynamics-usd-3'
 ---
 
 # Public Preview: Overview of Unified Service Desk Performance Analyzer
@@ -40,7 +34,7 @@ Unified Service Desk provides a configurable framework for quickly building the 
 application. You configure various elements like hosted controls, events, action calls, custom scripts to
 define the user experience in the client application. However, if you encounter performance issues with
 Unified Service Desk, it is hard to identify due to which elements the issue occurred. The issues may
-have occurred due network, Dynamics 365 for Customer Engagement, Unified Service Desk configuration elements like hosted
+have occurred due network, Common Data Service platform, Unified Service Desk configuration elements like hosted
 controls, custom scripts, action calls and so on.
 
 ## Advantages or value proposition of the performance analyzer

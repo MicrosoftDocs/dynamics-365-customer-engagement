@@ -1,19 +1,15 @@
 ---
 title: "Frequently asked questions (FAQs) about Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the frequently asked questions (FAQs) for Omnichannel for Customer Service."
-keywords: ""
-ms.date: 07/01/2019
-ms.service:
-  - "dynamics-365-customerservice"
-ms.custom:
-  - ""
-ms.topic: article
-applies_to:
-  - ""
-ms.assetid: BC3D3C77-982D-4F8F-B9DB-86854A1634F8
 author: kabala123
 ms.author: kabala
 manager: shujoshi
+ms.date: 10/25/2019
+ms.service: 
+  - "dynamics-365-customerservice"
+ms.topic: article
+ms.custom: 
+  - ""
 ---
 
 # Frequently asked questions (FAQs) about Omnichannel for Customer Service
@@ -23,7 +19,7 @@ manager: shujoshi
 ## General
 
 ### What regions are supported?
-See the list of supported regions at [International availability of Microsoft Dynamics 365](system-requirements-omnichannel.md#international-availability). 
+See the list of supported regions at [International availability of Microsoft Dynamics 365](international-availability.md). 
 
 ### What platforms are supported?
 You can find information about supported platforms and other prerequisites in [Prerequisites and system requirements of Omnichannel for Customer Service](system-requirements-omnichannel.md).
@@ -35,13 +31,13 @@ Submit your ideas and feedback on our [Ideas forum](https://experience.dynamics.
 Yes, our [Community Forum](https://community.dynamics.com/365/customerservice/f/763) is the place where you can engage with the community at large.
 
 ### How do I get help with the issues I face?
-Contact [Dynamics support](https://dynamics.microsoft.com/en-us/contact-us/) to get help with your issues.
+Contact [Dynamics support](https://dynamics.microsoft.com/contact-us/) to get help with your issues.
 
 ### What additional channels are supported with Omnichannel for Customer Service in this release?
-This release provides support for Chat for Dynamics 365 and SMS (preview). For upcoming channels and capabilities, see the [2019 release wave 2 plan](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/dynamics365-customer-service/planned-features).
+This release provides support for Chat for Dynamics 365 and SMS (preview). For upcoming channels and capabilities, see the [2019 release wave 2 plan](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-customer-service/planned-features).
 
-### Are Chat and the associated Omnichannel for Customer Service capabilities available as part of my Dynamics 365 for Customer Service or Dynamics 365 for Customer Engagement license?
-No, Chat and related Omnichannel for Customer Service capabilities require a separate add-in. For additional details on pricing, see [Customer Service overview](https://dynamics.microsoft.com/en-us/customer-service/overview/).
+### Are Chat and the associated Omnichannel for Customer Service capabilities available as part of my Dynamics 365 Customer Service license?
+No, Chat and related Omnichannel for Customer Service capabilities require a separate add-in. For additional details on pricing, see [Customer Service overview](https://dynamics.microsoft.com/customer-service/overview/).
 
 ### How do I get started?
 If you would like to try out Chat for Dynamics 365 for free, sign up for a trial using these [Instructions](https://go.microsoft.com/fwlink/p/?linkid=2097211). Find [Get started](introduction-omnichannel.md) and [Prerequisites](system-requirements-omnichannel.md#prerequisites) for setting up Omnichannel in your organization.
@@ -55,13 +51,13 @@ No. You can only use Chat in the **Omnichannel for Customer Service** app. The a
 Yes. You can work on cases alongside customer conversations in different sessions. You can open case sessions from the dashboards and grids using gestures. For more information on starting a session, see [Manage sessions in Omnichannel for Customer Service](agent/agent-oc/oc-manage-sessions.md#start-a-session).
 
 ### Can I work on third-party communication widgets built using Dynamics 365 Channel Integration Framework in the Omnichannel for Customer Service app module? 
-Omnichannel for Customer Service supports Chat for Dynamics 365 and SMS (in preview) channels. You should continue to use the third-party communication widgets in the single-session Unified Interface apps like Customer Service Hub. Support for integrating third-party channels will come with [Dynamics 365 Channel Integration Framework v2](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/dynamics365-customer-service/channel-integration-framework-v2).
+Omnichannel for Customer Service supports Chat for Dynamics 365 and SMS (in preview) channels. You should continue to use the third-party communication widgets in the single-session Unified Interface apps like Customer Service Hub. Support for integrating third-party channels will come with [Dynamics 365 Channel Integration Framework v2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-customer-service/channel-integration-framework-v2).
 
 ### Can I open Omnichannel for Customer Service in multiple browser tabs and windows? 
 It is not recommended to open Omnichannel for Customer Service in multiple browser tabs or windows. The app is inherently designed to help agents work in a multisession environment wherein each session has contextual application tabs. The sessions are not synced across browser tabs. 
 
 ### What happens if I accidentally close the browser, refresh the entire page, or the browser crashes ?
-If you accidentally close your browsers, your currently open sessions and tabs opened inside them are lost; however, if you have entered some data on the Dynamics 365 forms where autosave has been enabled, they will be saved into Dynamics 365. 
+If you accidentally close your browsers, your currently open sessions and tabs opened inside them are lost; however, if you have entered some data on the model-driven forms where autosave has been enabled, they will be saved into model-driven apps. 
 
 Ongoing chat conversations appear on your Omnichannel Agent Dashboard. You can pick the chat from that dashboard and resume the conversation. The chat conversation is preserved, and you will be able to see the previous messages. If you were working on case sessions, you can reopen them using the gestures. For more information on starting a session, see [Manage sessions in Omnichannel for Customer Service](agent/agent-oc/oc-manage-sessions.md#start-a-session).
 
@@ -81,7 +77,7 @@ New conversation (chat) requests will be assigned to an agent when:
 
 If more than one agent meets the above conditions, they will be assigned chats in this order:
 -	The agent with the most remaining capacity will receive the chat first.
--	If multiple agents have the same remaining capacity, the agent with the most recent capacity change, such as a newly assigned chat or a newly closed chat, will receive the chat.
+-	If multiple agents have the same remaining capacity, the agent who has not been assigned work item for a longer duration will receive the new conversation request.
 
 ### Who can see internal messages?
 Agents and supervisors can see internal messages. The customer can’t see internal messages.
@@ -93,7 +89,7 @@ The timer in the communication panel represents how long the current session tab
 For information about managing work items from your dashboard, see [View agent dashboard and agent work items](agent/agent-oc/oc-agent-dashboard.md).
 
 ### Where are conversations stored and how can I access them?
-Conversations and sessions are stored as activity types within Dynamics 365 for Customer Engagement apps. For more information, see [View conversation and session activity types in the Customer Engagement apps](agent/agent-oc/oc-view-activity-types.md).
+Conversations and sessions are stored as activity types within the Model-driven apps. For more information, see [View conversation and session activity types in the Model-driven apps](agent/agent-oc/oc-view-activity-types.md).
 
 ## Administration
 
@@ -115,10 +111,10 @@ This is currently not supported. Enabling customizations for the Conversation Su
 
 ### Why am I not able to see the IntradayMonitoring report and datasets in Power BI service while configuring intraday insights dashboard for supervisors.
 
-Creation of the IntradayMonitoring report may take up to 15 mins to appear in your configured Power BI workspace. While configuring the Power BI workspace in Omnichannel Administration app, ensure that you have saved the configurations before you exit the configuration form. When you select Save, the creation of the report and dataset is initiated. If you missed to save the configuration, initiate the configuration for Supervisor Experience again. To learn more, see [Configure Power BI workspace](administrator/configure-intraday-dashboard-supervisor.md#configure-power-bi-workspace).
+Creation of the IntradayMonitoring report may take up to 15 mins to appear in your configured Power BI workspace. While configuring the Power BI workspace in Omnichannel Administration app, ensure that you have saved the configurations before you exit the configuration form. When you select Save, the creation of the report and dataset is initiated. If you missed to save the configuration, initiate the configuration for Supervisor Experience again. To learn more, see [Configure Intraday insights for Omnichannel for Customer Service app on web](administrator/configure-intraday-dashboard-supervisor.md#configure-intraday-insights-for-omnichannel-for-customer-service-app-on-web).
 
 ### What is the application ID field on the application user form?
-The application ID is a mandatory field for creating application users in Dynamics 365. You can copy any application ID for any valid (non-expired) application created in Azure Active Directory for the same tenant into this field. 
+The application ID is a mandatory field for creating application users in the Common Data Service platform. You can copy any application ID for any valid (non-expired) application created in Azure Active Directory for the same tenant into this field. 
 
 ## Supervisor experience
 
@@ -158,7 +154,7 @@ These controls are in place for exposing the data in reports:
 ## Chat widgets
 
 ### Can we have the widget show on different pages or different websites? 
-The widget can show on any portal you want. You can copy the HTML script tag anywhere to make it appear on specific pages, a different Dynamics 365 portal, or a custom portal as well. 
+The widget can show on any portal you want. You can copy the HTML script tag anywhere to make it appear on specific pages, a different Power Apps portals, or a custom portal as well. 
 
 ### If I have the widget on multiple pages or websites, what happens when I navigate across the pages with an ongoing chat?
 The same widget will persist the chat as you cross different pages or websites.
@@ -176,15 +172,10 @@ No. Omnichannel routing can be used to route chat or SMS requests (in preview) o
 
 ## SMS
 
-Please note that the SMS channel is currently in preview and is not a part of the Generally Available product. You can sign up for the Omnichannel for Customer Service - Preview on the [Dynamics Insider Portal](https://experience.dynamics.com/insider/).
+### What information from a TeleSign account do I need to enter in the Omnichannel Administrator app?
+You will need the customer ID, API key, and the phone number from your TeleSign account. This information needs to be provided in the Omnichannel Administrator app when you create or set up an SMS workstream.
 
-### How can I sign up to use the SMS channel preview?
-You can sign up for the Omnichannel for Customer Service – Preview program on the [Dynamics Insider portal](https://experience.dynamics.com/insider/). The product team will get back to you once preview is enabled for your organization. You will need an account with TeleSign (with two-way SMS). Preview of the SMS channel will work only if you have an active subscription for Chat for Dynamics 365 in your tenant.
-
-### What information from a TeleSign account do I need to enter in Dynamics 365?
-You will need the customer ID, API key, and the phone number from your TeleSign account. This information needs to be provided in Dynamics 365 when you create or set up an SMS workstream.
-
-### I get an error when I try to use the Validate API Key to validate the TeleSign account information entered in Dynamics 365. What should I do?
+### I get an error when I try to use the Validate API Key to validate the TeleSign account information entered in the Omnichannel Administration app. What should I do?
 The Validate API Key functionality will validate the customer ID and the API key by trying to send a test SMS message to one of the numbers provided in the SMS Numbers tab. Ensure that the customer ID and API key are entered correctly, and the numbers provided in the SMS Numbers tab can receive the text messages that are sent for validation. The phone number should have the country code with no plus sign (+), spaces or special characters; for example, this would be correct: 14251234567
 
 ### How can I know if I can get a phone number from TeleSign in a specific country?
@@ -200,18 +191,15 @@ Support for this scenario by TeleSign can vary based on geography. We recommend 
 You can send messages to a customer only after the customer has initiated the conversation by sending a text message to the support number. If the conversation is not closed, you can send messages to the customer by opening the conversation.
 
 ### Does the SMS channel automatically identify the customer?
-Yes, Dynamics 365 will automatically identify the customer based on the incoming phone number. It will look for phone numbers in the Mobile Phone field of Contact records or the Phone field of Account records. Ensure that the phone number in these field has the country code along with the plus sign (+) without any spaces or special characters; for example: +14251234567
+Yes, Omnichannel system will automatically identify the customer based on the incoming phone number. It will look for phone numbers in the Mobile Phone field of Contact records or the Phone field of Account records. Ensure that the phone number in these field has the country code along with the plus sign (+) without any spaces or special characters; for example: +14251234567
 
 ### Can we send automated SMS responses?
-There are Microsoft Flow connectors from SMS providers that can be used for automated SMS responses. For example, [TeleSign](https://preview.flow.microsoft.com/en-us/connectors/shared_telesignsms/telesign-sms/) has a connector for these scenarios.
+There are Power Automate connectors from SMS providers that can be used for automated SMS responses. For example, [TeleSign](https://preview.flow.microsoft.com/connectors/shared_telesignsms/telesign-sms/) has a connector for these scenarios.
 
 ### Is there anything unique about the way SMS messages are routed to agents?
 All channels integrated into Omnichannel have the same routing capabilities, including SMS. You can create Routing rule items with conditions based on Account or Contact entities. Other entities (Case, Context variable, and SMS Engagement Context) are not supported at this time and should not be used for creating conditions in Routing rules items in an SMS workstream.
 
 ## Bot
-
-### Integrating a bot
-Bot integration is currently in preview and not a part of the Generally Available product. You can sign up for the Omnichannel preview on the [Dynamics Insider Portal](https://experience.dynamics.com/insider/).
 
 ### Can a third-party bot be integrated with Omnichannel through this feature?
 Only bots created through [Microsoft Bot Framework](https://dev.botframework.com/) can be integrated at this time.

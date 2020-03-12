@@ -1,16 +1,13 @@
 ---
 title: "Communication panel (conversation control) | MicrosoftDocs"
 description: "The left control panel is a communication panel or conversation control. The communication panel hosts the messages that you exchange with the customers. The communication panel provides various options like quick replies, consult, transfer, internal and public message modes."
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: b3ae342f-fabd-424e-8086-8f51500575bf
-ms.custom: 
 ---
 # View communication panel
 
@@ -122,6 +119,8 @@ You can transfer a request only to agents who are configured in the same work st
 Use a keyboard command to see the list of agents and/or the supervisor who is available for transfer. Press the Slash (/) key and the letters t (**/t**).
 
 Use a keyboard command to see the list of queues to transfer the conversation request. Press the Slash (/) key and the letters T and Q (**/tq**).
+
+When skill-based routing is enabled, then during transfer, the **Transfer** flyout shows users sorted in order of matching skills.
 
 ### Search for agents or queues
 

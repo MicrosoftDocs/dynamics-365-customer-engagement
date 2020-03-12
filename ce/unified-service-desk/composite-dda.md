@@ -4,19 +4,9 @@ description: "The composite data-driven adapter is an extension of the DDA archi
 ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: 
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: dee27756-e74c-465f-a6b0-383b581e693e
-caps.latest.revision: 5
 author: kabala123
 ms.author: kabala
 manager: shujoshi

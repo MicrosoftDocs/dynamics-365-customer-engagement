@@ -1,16 +1,15 @@
 ---
-title: Understanding Knowledge Management in Customer Service Hub in Dynamics 365 for Customer Engagement | Microsoft Docs
-description: Understand Knowledge Management in Customer Service Hub for Customer Service in Microsoft Dynamics 365 for Customer Engagement
-keywords: Knowledge management; knowledge articles; Customer Service Hub; Customer Service;  Microsoft Dynamics 365 for Customer Engagement; create a knowledge article, send a knowledge article for review; knowledge manager dashboard; Create and manage knpwledge article versions
-author: anjgupta
-applies_to: Dynamics 365 for Customer Engagement (online)
-ms.author: anjgup
+title: Understanding Knowledge Management in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
+description: Understand Knowledge Management in Customer Service Hub for Customer Service Dynamics 365 Customer Service
+author: lalexms
+ms.author: lalexms
 manager: shujoshi
-ms.date: 06/01/2018
+ms.date: 03/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.assetid: ae39f0a0-1909-44b0-8625-ccee22f3ccd4
-ms.custom: dyn365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -24,18 +23,18 @@ search.app:
 
 Reduce call handling times with Knowledge articles in the Customer Service Hub application.
   
-With the new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] knowledge management module, you can create and manage knowledge articles that your users may be looking for. 
+With the new knowledge management module, you can create and manage knowledge articles that your users may be looking for. 
 
 Knowledge articles can address any number of issues your customers encounter while using your organization's product or services. Types of Knowledge articles can include solutions to common issues, product or feature documentation, answers to frequently asked questions (FAQs), product briefs, and more. Use the rich text editor to create knowledge articles, format your content or embed videos and images.  
   
 > [!IMPORTANT]
-> Knowledge management is available out-of-the-box through the Customer Service Hub app module, and it can work with other customer apps as well. The articles that are created in the Customer Service Hub will be available in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application as read-only records.  
+> Knowledge management is available out-of-the-box through the Customer Service Hub app module, and it can work with other customer apps as well. The articles that are created in the Customer Service Hub will be available in the Dynamics 365 Customer Service app as read-only records.  
 
 
 ## Knowledge management process  
  The following diagram describes the default process for creating and using knowledge articles in the Customer Service Hub. Create an article and mark it for review. The reviewer can approve or reject the article. If the article is rejected, it is sent back for edits or updates. If the article is approved, it is published on the portal. It is also available in search and can also be translated.
   
- ![Knowledge management process in Dynamics 365 for Customer Engagement](../customer-service/media/v8-km-walkthrough.png "Knowledge management process in Dynamics 365 for Customer Engagement")  
+ ![Knowledge management process in Dynamics 365 Customer Service](../customer-service/media/v8-km-walkthrough.png "Knowledge management process in Dynamics 365 Customer Service")  
   
   
 ## Create a knowledge article  
@@ -47,9 +46,7 @@ Turn your customer questions, issues, and feedback into knowledge articles, so o
   
 3. On the command bar, select **New**.  
   
-    You’ll be on the **Content** tab of the knowledge article.  
-  
-    ![Content tab in the new knowledge article](../customer-service/media/v9-new-article-content-tab.png "Content tab in the new knowledge article")  
+    You’ll be on the **Content** tab of the knowledge article.
   
 4. In the **Article Content** section, fill in the following details:  
   
@@ -87,28 +84,15 @@ Posts about knowledge article-related activities will begin appearing in the **T
 
 ## Create knowledge articles using templates
 
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
-> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided “as-is,” “with all faults,” “as available,” and without warranty.​
-> - This preview features does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
-> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../legal/dynamics-insider-agreement.md).
-
 Knowledge Authors can use the templates to create knowledge articles quickly and the fields for the knowledge article are pre-populated according to the selected template. To create knowledge articles using templates:
  
 1. Make sure that you have Create and Read permissions on the Knowledge Article entity. By default, these permissions are added to the Knowledge Manager, Customer Service Manager, or Customer Service Representative role.  
   
 2. In the Customer Service Hub sitemap, go to **Service** > **Knowledge Articles**.  
 
-    > [!div class=mx-imgBorder]
-    > ![Select knowledge article](media/ka-select-knowledge-article.png "Select knowledge article")
- 
     A list of available articles is displayed. 
 
 3.	To create an article from a template, select **+ New From Template**.
-
-    > [!div class=mx-imgBorder]
-    > ![Select new from template](media/ka-new-article-from-template.png "Select new from template")
   
 4.	On the **Select Knowledge Article Template** dialog box, select the template to use as a base on which you author the article and select **OK**. In this example, we are selecting the template as **Getting Started With Template**.
 
@@ -170,10 +154,10 @@ You can choose a specific format or style for the content you’re writing.
 |     **18**. Paste as Plain Text     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Paste the clipboard data as plain text, without the source formatting and styling.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 |       **19**. Paste From Word       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               Paste content from [!INCLUDE[pn_MS_Word_Full](../includes/pn-ms-word-full.md)] with the original content formatting.  This will retain:<br /><br /> -   Spacing and line breaks<br />-   Ordered and unordered lists<br />-   Tables<br />-   Font styles and colors **Note:**  Images won’t be copied from [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] [!INCLUDE[pn_MS_Word_Full](../includes/pn-ms-word-full.md)].                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |        **20**. Insert Table         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          Insert a table, and specify the table properties.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-|            **21**. Image            | Insert an image.<br /><br /> <ol><li>Choose Insert Image.</li><li>In the **Image Info** tab, specify the web address of the image, and also specify properties to define how the image will appear in the email or article. **Note:**      If the image is located on the external server, use the full absolute path. If the image is located on a local server, you can use a relative path.</li><li>If you want the image to be a selectable link, in the **Link** tab, add a URL for the image. You can also specify if you want the targeted page to open in a new window, topmost window, same window, or parent window.</li><li>To configure additional image options, use the **Advanced** tab. This is meant for advanced users with knowledge of HTML and CSS, and lets you change the presentation of the image.<br /><br /> <ul><li>**ID**. Type a unique identifier for an image element in the document (`id` attribute).</li><li>**Language Direction**. Choose the direction of the text.</li><li>**Language Code.** Type the language of the image element specified.</li><li>**Long Description URL**. Type the web address of an HTML page containing a longer description of the image.</li><li>**Stylesheet Classes**. Enter the class of the image element (class attribute). Note that an image element might be assigned more than one class. If this is the case, separate class names with spaces.</li><li>**Advisory Title**. Enter the text of the tooltip that is shown when the mouse cursor hovers over the image.</li><li>**Style**. Enter the CSS style definitions. Note that each value must end with a semicolon and individual properties should be separated with spaces.</li></ul></li></ol> |
+|            **21**. Image            | Insert an image.<br /><br /> You can insert an image by directly copying and pasting it inline in the editor, dragging and dropping it from your desktop or local folder directly into the editor, or by typing a URL. The following formats are supported: .PNG, .JPG., or .GIF.<br />To insert an image inline in your article:<ol><li>Drag and drop the image or or copy and paste it directly into the article.</li><li>Drag any corner of the image to resize it.</li></ol>To insert an image using a URL or navigating to the local image:<ol><li>Choose Insert Image.</li><li>In the **Image** property dialog, choose from the following options:</li></ol><ul><li>Specify the web address of the image, and also specify properties to define how the image will appear in the email or article. **Note:**      If the image is located on the external server, use the full absolute path. If the image is located on a local server, you can use a relative path. If you want the image to be a selectable link, add a URL for the image. You can also specify if you want the targeted page to open in a new window, topmost window, same window, or parent window.</li><li>Select **Browse** to navigate to the image on your computer.</li></ul> |
 |            **22**. Link             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               Add selectable hyperlinks or email addresses to your documents. In the **Link** dialog box choose the type of link you’d like to insert.<br /><br /> The **Link Info** tab allows you to choose the link type as well as set the link protocol and URL.<br /><br /> The **Target** tab is only available for the URL link type. It specifies the location where the link will open after you select it.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |           **23**. Unlink            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       When you place the cursor on a link, the **Unlink** button on the toolbar becomes active. Select the button to remove the link and make it plain text.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-|           **24**. Anchor            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             You can add anchors in document text. After you add anchors, you can link to these anchors for easier navigation.<br /><br /> To add an anchor:<br /><br /> 1.  Place the cursor where you want to insert an anchor, and then on the toolbar, select the **Anchor** button.<br />     The **Anchor Properties** dialog box opens.<br />2.  Ente a name for the anchor, and then select **OK**.<br />     The **Anchor** button ![Anchor tool on the rich text editor toolbar](../customer-service/media/v8-rte-anchor--button.png "Anchor tool on the rich text editor toolbar") appears in the area where you created the anchor.<br /><br /> You can now use the **Link** button to link to your anchor.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|           **24**. Anchor            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             You can add anchors in document text. After you add anchors, you can link to these anchors for easier navigation.<br /><br /> To add an anchor:<br /><br /> 1.  Place the cursor where you want to insert an anchor, and then on the toolbar, select the **Anchor** button.<br />     The **Anchor Properties** dialog box opens.<br />2.  Enter a name for the anchor, and then select **OK**.<br />     The **Anchor** button ![Anchor tool on the rich text editor toolbar](../customer-service/media/v8-rte-anchor--button.png "Anchor tool on the rich text editor toolbar") appears in the area where you created the anchor.<br /><br /> You can now use the **Link** button to link to your anchor.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |         **25.** Embed Media         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   To embed videos into your content:<br /><br /> 1.  Place the cursor where you want to insert the video, and then on the toolbar, select the **Embed Media** button.<br />     The **Embed Video** dialog box opens.<br />2.  Enter the embed link of the video provided by the video hosting provider, and then select **OK**.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |    **26**. Create Div Container     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Create a `div` container to apply formatting to a larger document fragment that extends beyond one block.<br /><br /> The **General** tab lets you manually add a stylesheet class that is applied to the div element.<br /><br /> The **Advanced** tab lets you configure additional `div` element options such as assigning it an ID, a language code, a text direction, an advisory title, or CSS style properties. **Note:**  This option is available in the expanded mode only.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
   
@@ -304,7 +288,7 @@ If the article has information that complements an existing knowledge article, a
      Deleting an article version is permanent and can’t be undone. You won’t be able to go back to that version of the article, so make sure that you don’t need any of the information. It’s a good idea to create a local backup of any versions you delete.  
   
 ## Translate a knowledge article in multiple languages  
- Your knowledge content needs to reach all of your customers, no matter what market or region they are from. The knowledge management capability in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] helps you translate your articles so that you can provide the same self-help content in multiple languages without having to manage multiple copies of the same article. By using the translation feature, you can quickly and efficiently provide 24-hour service to all of your customers.  
+ Your knowledge content needs to reach all of your customers, no matter what market or region they are from. The knowledge management capability in Dynamics 365 Customer Service helps you translate your articles so that you can provide the same self-help content in multiple languages without having to manage multiple copies of the same article. By using the translation feature, you can quickly and efficiently provide 24-hour service to all of your customers.  
   
 1. Open the article you want to translate, and on the command bar, select **Translate**.  
   
@@ -436,7 +420,7 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
   
         The **Created By** and **Closed By** fields are automatically populated with the user who creates or deactivates the feedback record.  
   
-   - [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] automatically calculates the **Normalized Rating** based on the following formula: **(Rating - Minimum Rating)/ (Maximum Rating - Minimum Rating)**.  
+   - Dynamics 365 Customer Service automatically calculates the **Normalized Rating** based on the following formula: **(Rating - Minimum Rating)/ (Maximum Rating - Minimum Rating)**.  
   
 3. Select **Save**.
 
@@ -455,7 +439,7 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
 ### My knowledge Dashboard  
  This dashboard is designed for authors to give them a visual snapshot of the number and status of knowledge articles they’re working on. It helps them quickly know things like article expiring in the month and articles in review.  
   
- ![My Knowledge Dashboard for authors](../customer-service/media/v9-my-knowledge-dashboard.png "My Knowledge Dashboard for authors")  
+ ![My Knowledge Dashboard for authors](../customer-service/media/v9-my-knowledge-dashboard.PNG "My Knowledge Dashboard for authors")  
   
 -   **Streams** show data from views or queues. In the My Knowledge Dashboard, the stream shows the active articles assigned to the author.  
   
@@ -466,12 +450,76 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
 ### Knowledge Manager  
  This dashboard is designed specifically for knowledge managers. As a knowledge manager, you can quickly know the most popular articles, articles that need review, highest-rated articles, or articles that are about to expire, and take necessary actions on the articles from here.  
   
- ![Dashboard for knowledge managers](../customer-service/media/v9-knowledge-manager-dashboard.png "Dashboard for knowledge managers")  
+ ![Dashboard for knowledge managers](../customer-service/media/v9-knowledge-manager-dashboard.PNG "Dashboard for knowledge managers")  
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use interactive dashboards to effectively manage service cases](customer-service-hub-user-guide-dashboard.md)
 
 #### Manage versions in alternate keys for knowledge article entity
 If you are creating an alternate key for Knowledge article entity, include the major or minor version in the key to maintain uniqueness. Also, if you are using translations, include the language code along with the version in the key to ensure a seamless translation experience. To know more about alternate keys, see [Define alternate keys for an entity](../developer/define-alternate-keys-entity.md).
+
+## Prevent duplicate workflows with knowledge article operations   
+If you use [workflow processes](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/workflow-processes) to perform knowledge article operations, such as:
+- Create a knowledge article
+-	Update a knowledge article
+
+The update operation is further classified into sub-operations, such as:
+-	Update a knowledge article version
+-	Manage a knowledge article version
+-	Translate a knowledge article
+
+For the create and update operations, be aware of the following when using the workflow process:
+Whenever you create a new knowledge article manually, the system creates two articles: a root article and a base article, which means:
+
+If you use a workflow process that is triggered on a create operation, the workflow is triggered twice—once each for the creation of base article and root article.
+
+When you use a workflow process to perform the following update operations, the workflow is triggered twice—once each for the base article and the root article:
+-	Create major version
+-	Create minor version
+-	Translate
+  
+   > [!NOTE]
+   >  Other update operations, such as updating a field or approve/publish do not trigger the second workflow.
+
+To avoid triggering the workflow twice, in the workflow itself, set the trigger condition for the knowledge article as follows: For a create operation, set the root article to Yes. For an update operation, set the root article to No. 
+
+Follow these steps:
+  
+1. Sign in to Customer Service Hub.  
+  
+2. Select **Settings** > **Advanced Settings**. Advanced Settings opens in a new browser tab.
+  
+3. In the navigation bar, select **Settings** > **Processes**.
+
+4. Select the knowledge article flow you created. The workflow process opens in a new browser window.
+  
+5. In the **General** tab, select the **Add Step** drop-down list, and then select **Check Condition**. A new step will be added.
+
+    > [!div class=mx-imgBorder]
+    > ![Select Check Condition](media/workflows-check-condition.png "Select Check Condition from the Add Step drop-down list")
+  
+6. In the step, select **<condition> (click to configure)**. The **Specify condition** page opens in a new browser window.
+
+    > [!div class=mx-imgBorder]
+    > ![Select the condition to configure](media/workflows-configure-condition.png "Select the condition to configure")
+  
+7. From the entity drop-down, select **Knowledge Article**.
+
+8. From the field drop-down, select **Root Article**.
+
+9. From the condition drop-down, select **Equals**.
+
+10. From the value drop-down, select a value:
+    - **Yes** for the create operation.
+    - **No** for the update operation.
+
+    > [!div class=mx-imgBorder]
+    > ![Set workflow condition](media/workflows-set-condition.png "Select the applicable value for the workflow condition from the drop-down list")
+
+11.	Select **Save and Close** to save the condition and close the window.
+
+12.	In the workflow process window, select **Save and Close** to save the condition and close the window.
+
+Now, when you perform a create or update operation, the workflow process will trigger only once. 
 
 ### See also
 
@@ -480,3 +528,5 @@ If you are creating an alternate key for Knowledge article entity, include the m
 [Create knowledge article template](create-templates-knowledge-article.md)
 
 [Set up knowledge management using embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)
+
+[Use Workflow processes to automate processes that don't require user interaction](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/workflow-processes)

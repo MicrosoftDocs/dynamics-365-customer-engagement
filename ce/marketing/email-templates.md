@@ -1,16 +1,14 @@
 ---
-title: "Work with email, page, and form templates (Dynamics 365 for Marketing) | Microsoft Docs "
-description: "Describes how to work with email, page, and form templates and gives details about client support and known issues related to email designs in Dynamics 365 for Marketing"
-ms.date: 05/07/2018
+title: "Work with email, page, and form templates (Dynamics 365 Marketing) | Microsoft Docs "
+description: "Describes how to work with email, page, and form templates and gives details about client support and known issues related to email designs in Dynamics 365 Marketing"
+ms.date: 12/10/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 0f661fed-315f-4932-9a06-a8de363ea42c
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -25,9 +23,11 @@ search.app:
 
 # Work with email, page, and form templates
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] comes with a wide variety of professionally designed templates. Most templates include a column layout, color scheme, sample content, and sample images, whereas others provide just a basic column layout without sample content. There is also a blank template, which provides no sample content or structure.
+Dynamics 365 Marketing comes with a wide variety of professionally designed templates. Most templates include a column layout, color scheme, sample content, and sample images, whereas others provide just a basic column layout without sample content. There are also blank templates, which provide no sample content or structure.
 
-The templates included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] provide:
+## Templates in Dynamics 365 Marketing
+
+The templates included with Dynamics 365 Marketing provide:
 
 - A starting point to help you work more quickly
 - Advanced layouts based on responsive design techniques that help make content look good at any screen size
@@ -43,11 +43,11 @@ When you create a new design, the selected template's content is copied into it.
 You can easily create custom templates to match your organization's communication needs and visual identity. You can save any existing email or customer journey as a template by selecting **Save as template** while the email or journey is open, or work directly in the relevant templates area to create them from scratch. You can also create page and form templates, but you can only do so by creating them in the templates area&mdash;no **Save as template** buttons are provided for these, but you could copy/paste the HTML from an existing page or form into a new template. When setting up a template, you can add various types of metadata (such as purpose, style, market type, and optimized for) which make each template easier to identify and easier to find by using filters in the **Select a template** dialog box shown to users each time they create a new email, page, or form design.
 
 > [!IMPORTANT]
-> The default templates are maintained as part of the solution and might be overwritten when [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is updated. Therefore, if you want to customize a default template then you should always save the result using a new name rather than saving it under its default name&mdash;otherwise your customizations could be overwritten during the next update.
+> The default templates are maintained as part of the solution and might be overwritten when Dynamics 365 Marketing is updated. Therefore, if you want to customize a default template then you should always save the result using a new name rather than saving it under its default name&mdash;otherwise your customizations could be overwritten during the next update.
 
 ## Style a template
 
-All email and page templates included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] provide style controls to help you quickly adapt them to the colors used by your organization or campaign. The style settings vary according to which template you choose. Designs based on a blank template don't provide styling controls unless you (or your system customizer) have programmed them to do so by using the right HTML markup.
+All email and page templates included with Dynamics 365 Marketing provide style controls to help you quickly adapt them to the colors used by your organization or campaign. The style settings vary according to which template you choose. Designs based on a blank template don't provide styling controls unless you (or your system customizer) have programmed them to do so by using the right HTML markup.
 
 ![Style settings for email templates](media/email-template-styles.png "Style settings for email templates")
 
@@ -55,7 +55,7 @@ Here are some common style settings provided by the out-of-the-box templates:
 
 - **Outer background**: The color shown outside of your message content (behind the "paper")
 - **Inner background**: The color shown behind your message content (the "paper color")
-- **Hero image settings**: The hero image, when present, is usually the largest image on the page, generally located at or near the top of the message. These settings control the source URL of the image and the style settings that affect it. Use the browse button for the **Hero image** setting to choose an image from your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] image library.
+- **Hero image settings**: The hero image, when present, is usually the largest image on the page, generally located at or near the top of the message. These settings control the source URL of the image and the style settings that affect it. Use the browse button for the **Hero image** setting to choose an image from your Dynamics 365 Marketing image library.
 - **Font and body text settings**: These set typographical options that apply to most of the text in your message, but usually not headings.
 - **Colors**: A good graphic design shouldn't include too many colors, and the colors should harmonize with each other. Templates typically use two to four colors that you can set individually to match your preferred color palette. These colors typically map to heading text, call-to-action buttons, text-box backgrounds, and borders used in the design. The following naming conventions are used most typically (additional colors are sometimes provided):
   - **Color 1**: Primary buttons
@@ -63,13 +63,49 @@ Here are some common style settings provided by the out-of-the-box templates:
   - **Color 3**: Footer
 - **Direction**: Depending on which language you're using, you'll choose either LTR (left-to-right) or RTL (right-to-left).
 
-The settings provided for each template are set up using custom attributes in the template's HTML. You can edit and create these as needed when customizing or creating your own templates. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use custom attributes to enable designer features in emails, pages, and forms](custom-template-attributes.md).
+The settings provided for each template are set up using custom attributes in the template's HTML. You can edit and create these as needed when customizing or creating your own templates. More information: [Use custom attributes to enable designer features in emails, pages, and forms](custom-template-attributes.md).
+
+## Add visual labels for templates
+
+When you design a new marketing email, page, form, or segment, you are first presented with a gallery of templates to choose from. You can add an eye-catching visual label to any template to make it easier to other users to find and identify it when browsing the gallery and other displays.
+
+### View template labels
+
+For template galleries and lists using the tile view, each label appears as a colorful overlay for each relevant template. For displays using the grid view (list view), the labels are displayed as column values, where they also show their configured colored background.
+
+In the following screenshot, you can see a tile view of marketing-page templates labelled with &quot;New&quot; (green), &quot;Old&quot; (red), and &quot;VIP&quot; (gold). Use the **Show as** drop-down list to switch views between **Grid** (list) and **Tiles**.
+
+![Template gallery with labels in tile view](media/template-label-example.png "Template gallery with labels in tile view")
+
+The following screenshot shows the same collection of marketing-page templates, but with **Show as** set to **Grid**. In this example, the labels are shown in the **Tag** column.
+
+![Template gallery with labels in tile view](media/template-label-list.png "Template gallery with labels in tile view")
+
+### Set the label for each template
+
+To assign a label to a template, open the relevant template under the **Marketing** > **Marketing template** heading, open the appropriate tab and then make a selection from the relevant drop-down list. See the following table for details about how to make this setting for various types of templates on a default instance.
+
+| Template type | Navigation | Tab | Field name (drop-down list) |
+| --- | --- | --- | --- |
+| Customer journeys | Marketing templates > Journey templates | General | Tag |
+| Marketing emails | Marketing templates > Email templates | General info | Tag |
+| Marketing pages | Marketing templates > Page templates | Summary | Tag |
+| Marketing forms | Marketing templates > Form templates | Summary | Tag |
+| Segments | Marketing templates > Segment templates | General | Category |
+
+### Customize your label selection, text, and colors
+
+System customizers can create as many labels as you need for each type of template and define the display text and background color for each label. For instructions about how to make these customizations, see [Create and customize template labels](customize-template-labels.md).
+
+## Email template compatibility and previews
+
+Designing and using HTML templates that look good in each of the wide variety of email clients in use today can be a challenge. Read this section for details about which clients we support with the out-of-box templates, how you can preview and test them, and other special notes.
 
 <a name="tested-clients"></a>
 
-## Tested email clients
+### Tested email clients
 
-All email templates included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] have been tested against a wide range of available email clients, as listed in the following tables. The templates should work flawlessly on most modern clients, but some design elements might degrade on older, less-used clients.
+All email templates included with Dynamics 365 Marketing have been tested against a wide range of available email clients, as listed in the following tables. The templates should work flawlessly on most modern clients, but some design elements might degrade on older, less-used clients.
 
 <table>
   <tr>
@@ -86,7 +122,7 @@ All email templates included with [!INCLUDE[pn-marketing-business-app-module-nam
   </tr>
 </table>
 
-## Known issues with specific email clients
+### Known issues with specific email clients
 
 The following known issues apply to the out-of-the-box email templates and custom messages when shown on specific email clients:
 
@@ -101,9 +137,9 @@ The following known issues apply to the out-of-the-box email templates and custo
 - **SFR.fr email clients** display a background color for some links.
 - **Lotus Notes email clients** have general rendering issues with the templates.
 
-## Litmus issues for email-design previews
+### Litmus issues for email-design previews
 
-[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] provides both a simulated preview and an inbox preview for email messages. Inbox previews are more accurate because they're rendered for specific email clients. Inbox previews are provided by a Microsoft partner called Litmus Software, Inc. Litmus previews are created by rending your message on actual email clients and then returning a screenshot of the result to you. The following known issues can occur with inbox previews.
+Dynamics 365 Marketing provides both a simulated preview and an inbox preview for email messages. Inbox previews are more accurate because they're rendered for specific email clients. Inbox previews are provided by a Microsoft partner called Litmus Software, Inc. Litmus previews are created by rending your message on actual email clients and then returning a screenshot of the result to you. The following known issues can occur with inbox previews.
 
 - **Missing footer**: Litmus screenshots sometimes fail to capture the entire message height.
 - **Unable to scroll**: The returned preview is a static screenshot, which might include scrollbars for messages that are higher than the screen. You can't actually scroll the image using these.

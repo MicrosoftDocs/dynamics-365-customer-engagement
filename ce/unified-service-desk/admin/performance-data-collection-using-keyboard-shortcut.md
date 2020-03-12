@@ -1,21 +1,14 @@
 ---
 title: "Generate performance data log files Performance data collection using keyboard shortcuts | MicrosoftDocs"
 description: "Learn about Unified Service Desk performance data collection to collect data about the operational events, errors, and performance in a client application and to create log files using keyboard shortcuts"
-keywords: 
-ms.date: 10/31/2018
-ms.service:
-  - dynamics-365-customerservice
-ms.custom:
+ms.custom: 
   - dyn365-a11y
-  - dyn365-USD, dyn365-admin
+  - dyn365-USD
+  - dyn365-admin
+ms.date: 10/31/2018
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: E838A9E7-4ED6-44DF-B2E9-0A3E3A82EA4B
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -24,7 +17,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
-monikerRange : '>= dynamics-usd-3'
+monikerRange: '<= dynamics-usd-4'
 ---
 
 # Generate performance data logs (Performance data collection)
@@ -130,21 +123,24 @@ To change the default keyboard shortcut, a System Administrator needs to configu
 
 To configure a new performance data collection keyboard shortcut:
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to the Common Data Service platform.
 
-2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
- 
-3. Open the Audit & Diagnostics Setting record in the **Audit & Diagnostics Settings** section.
+2. Select the down arrow next to Dynamics 365.
+
+3. Select **Unified Service Desk Administrator**.
+
+4. Select **Audit & Diagnostics Setting** under **Advance Settings** in the sitemap. 
+
+5. Select a record in the **Active Audit & Diagnostics Settings** page.
+
    > [!Note]
    > If there is no existing record, create a new Audit & Diagnostics Setting record. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Create an Audit & Diagnostics record to use for diagnostics](../admin/configure-auditing-diagnostics-unified-service-desk.md).
 
-4. Expand the **Diagnostics Settings** area to see **Performance Data Collection**.
+6. Select the **Diagnostics Settings** tab to see the **Performance Data Collection** section.
 
-5. Type the keyboard shortcut in the format _key1+key2+key3_ for the **On-Demand Begin Shortcut** field.
+7. Type the keyboard shortcut in the format _key1+key2+key3_ for the **On-Demand Begin Shortcut** and **On-Demand End Shortcut** fields. For example, **Ctrl+Alt+Q** for On-Demand Begin Shortcut and **Ctrl+Alt+P** for On-Demand End Shortcut.
 
-6. Type the keyboard shortcut in the format _key1+key2+key3_ for the **On-Demand End Shortcut** field.
-
-7. Click **Save & Close**.
+8. Select **Save** to save the changes.
 
 > [!div class="nextstepaction"]
 > [Generate performance report](generate-performance-report.md)

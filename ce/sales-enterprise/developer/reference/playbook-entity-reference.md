@@ -1,21 +1,19 @@
 ---
-title: "Entity reference for playbooks (Developer Guide for Dynamics 365 for Sales)| MicrosoftDocs"
+title: "Entity reference for playbooks (Developer Guide for Dynamics 365 Sales)| MicrosoftDocs"
 description: "Reference documentation for the playbooks entities"
-keywords: 
 ms.date: 04/08/2019
-ms.service: "dynamics-365-sales"
-ms.custom: dyn365-sales
+ms.service: 
+  - dynamics-365-sales
+ms.custom: 
+  - dyn365-sales
 ms.topic: reference
-applies_to: Dynamics 365 for Customer Engagement (online)
-ms.assetid: 736FA4E6-CD5B-430B-8F34-6C8B0CC1B582
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-search.audienceType: developer
-search.app: D365CE
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Entity reference for playbooks
 

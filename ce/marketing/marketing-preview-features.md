@@ -1,17 +1,15 @@
 ---
-title: "Preview features (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "Learn what preview features are, and how to activate and use them in Dynamics 365 for Marketing"
+title: "Preview features (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Learn what preview features are, and how to activate and use them in Dynamics 365 Marketing"
 keywords: preview
 ms.date: 03/08/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: d27cf07f-3cef-4fdb-8d12-ffea28ed6f50
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -26,7 +24,7 @@ search.app:
 
 # Activate and use preview features
 
-From time to time, [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] makes new [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] features available as *preview features*, which you can enable and use if you want to get familiar with upcoming features before they're officially released and fully supported. Read this topic to learn about which preview features are currently available, how to activate them, and how to use them.
+From time to time, Microsoft makes new Dynamics 365 Marketing features available as *preview features*, which you can enable and use if you want to get familiar with upcoming features before they're officially released and fully supported. Read this topic to learn about which preview features are currently available, how to activate them, and how to use them.
 
 > [!IMPORTANT]
 > [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
@@ -40,11 +38,11 @@ Most preview features aren't installed or enabled by default. A system administr
 > If you already enabled the preview features that were available for the February 2019 update and would now like to try the new preview features released in March 2019, then all you need to do is [update your instance](apply-updates.md). You don't need to opt-in again as described in this section.
 
 > [!NOTE]
-> If you already have a [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] environment (including a trial), but don't yet have [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] installed on it, and you'd like to install [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] with the preview features already enabled, then you can do both at once by first enabling the preview on your instance (as described here) and then installing  [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)].
+> If you already have a Dynamics 365 environment (including a trial), but don't yet have Dynamics 365 Marketing installed on it, and you'd like to install Marketing with the preview features already enabled, then you can do both at once by first enabling the preview on your instance (as described here) and then installing  Marketing.
 
 To enable the preview features:
 
-1. Sign in to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] (or any app on your tenant) as an administrator.
+1. Sign in to Dynamics 365 Marketing (or any app on your tenant) as an administrator.
 
 1. Go to your [Power platform admin center](https://admin.powerplatform.microsoft.com/) (this link will bring you there).
 
@@ -72,13 +70,13 @@ To enable the preview features:
 1. Go to the **Applications** tab of the admin center to see a list of applications you have installed.  
     ![Open the Applications tab](media/update-app-tab.png "Open the Applications tab")
 
-    The list shows a row marked **Dynamics 365 Marketing Application** for each entitlement (license) you have for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. Free entitlements show a **Status** of **Not configured**. Installed entitlements show a **Status** of **Configured** and include the name of the environment where they are installed at the end of their application name.
+    The list shows a row marked **Dynamics 365 Marketing Application** for each entitlement (license) you have for Dynamics 365 Marketing. Free entitlements show a **Status** of **Not configured**. Installed entitlements show a **Status** of **Configured** and include the name of the environment where they are installed at the end of their application name.
 
 1. From the list on the **Applications** tab, select the **Dynamics 365 Marketing Application** where you want to enable the preview, and then choose **Manage** from the side panel.
-    - If you're adding the preview to an existing [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] installation, then choose the configured application that includes the name of the environment you just enabled for the preview.
-    - If you're installing [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] for the first time, then choose an unconfigured entitlement. Later, when asked by the setup wizard, choose the environment you just enabled for the preview.
+    - If you're adding the preview to an existing Dynamics 365 Marketing installation, then choose the configured application that includes the name of the environment you just enabled for the preview.
+    - If you're installing Dynamics 365 Marketing for the first time, then choose an unconfigured entitlement. Later, when asked by the setup wizard, choose the environment you just enabled for the preview.
 
-1. The setup wizard launches. Follow the instructions on your screen to update or install on your selected environment. For more information about the setup wizard, see [Purchase and set up Dynamics 365 for Marketing](purchase-setup.md).
+1. The setup wizard launches. Follow the instructions on your screen to update or install on your selected environment. For more information about the setup wizard, see [Purchase and set up Dynamics 365 Marketing](purchase-setup.md).
 
 ## Preview support and feedback
 
