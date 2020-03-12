@@ -126,7 +126,7 @@ A customer can initiate a conversation in any of the following ways:
 
 If a customer initiates a conversation from the Facebook page and then later switches to the mobile device, the previous conversation persists, and the customer can continue the conversation.
 
-The agent receives the notification of the incoming chat request along with the customer details. More information: [View notifications](../agent/agent-oc/oc-notifications.md)
+The agent receives the notification of the incoming conversation request. More information: [Use Facebook channel](../agent/agent-oc/facebook.md)
 
 > [!div class=mx-imgBorder]
 > ![Facebook chat agent notification](../media/fb-agent-notif.png "Facebook chat agent notification")
@@ -134,6 +134,11 @@ The agent receives the notification of the incoming chat request along with the 
 If the customer is identified based on name, the conversation is automatically linked to the contact record and the customer summary is populated. More information: [View customer summary](../agent/agent-oc/oc-customer-summary.md)
 
 If the customer is not identified based on name, a new contact record can be created.
+
+Also, customer can send attachments if you enable. To learn more, see [File attachments](#file-attachments).
+
+> [!div class=mx-imgBorder]
+> ![Customer sending file](../media/fb-customer1.png "Customer sending file")
 
 ## File attachments
 

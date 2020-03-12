@@ -61,6 +61,8 @@ You can see the files that you receive from a customer on the communication pane
    > [!div class=mx-imgBorder]
    > ![Facebook attachment](../../media/fb-receive-file1.png "Facebook attachment")
 
+Also, when a customer sends an unsupported file extension type, then you can see an error message in the communication panel stating the message - **Error: Customer sent an unsupported message type**.
+
 ### Send a file
 
 To send a file, follow the steps:
