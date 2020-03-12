@@ -38,14 +38,14 @@
 ##### [Configure file attachment capability](administrator/configure-file-attachment.md)
 ##### [Embed chat widget in Power Apps portals](administrator/embed-chat-widget-portal.md)
 ##### [Configure proactive chat](administrator/proactive-chat.md)
-#### SMS
+#### SMS channels
 ##### [Configure an SMS channel](administrator/configure-sms-channel.md)
 #### Social channels
 ##### [Configure a Facebook channel](administrator/configure-facebook-channel.md)
 ##### [Configure a WhatsApp channel](administrator/configure-whatsapp-channel.md)
-#### Custom channel
+#### Custom messaging channel
 ##### [Configure a Custom channel](administrator/configure-custom-channel.md)
-#### Entity records
+#### Entity records channel
 ##### [Entity records routing](administrator/entity-channel.md)
 ##### [Route trigger for entity records](administrator/routing-trigger.md)
 ##### [Understand Omnichannel for Customer Service with Customer Service Hub](administrator/understand-omnichannel-customer-service-hub.md)
@@ -105,7 +105,7 @@
 
 ### [Overview](agent/omnichannel-agent-overview.md)
 ### Agents using Omnichannel for Customer Service app
-#### [Overview](agent/agent-oc/omnichannel-customer-service-app-agent.md)
+#### [Overview of Omnichannel for Customer Service app](agent/agent-oc/omnichannel-customer-service-app-agent.md)
 #### [Sign in to Omnichannel for Customer Service app](agent/agent-oc/oc-sign-in-omnichannel.md)
 #### [Introduction to the agent interface](agent/agent-oc/oc-introduction-agent-interface.md)
 #### [Manage sessions](agent/agent-oc/oc-manage-sessions.md)
@@ -129,10 +129,19 @@
 #### [Search for transcripts](agent/agent-oc/oc-search-transcipts.md)
 #### [View conversation and session forms](agent/agent-oc/oc-view-activity-types.md)
 #### [View customer summary for an incoming conversation request](agent/agent-oc/oc-view-customer-summary-incoming-conversation-request.md)
-
+#### Channels
+##### Use chat channel
+##### Use SMS channel
+##### [Use Facebook channel](agent/agent-oc/facebook.md)
+##### [Use WhatsApp channel](agent/agent-oc/whatsapp.md)
+##### Use Twitter channel
+##### Use Line channel
+##### Use WeChat channel
+##### Use Teams channel
+##### Use entity routing channel
 
 ### Agents using Unified Service Desk
-#### [Overview](agent/agent-usd/omnichannel-agent.md)
+#### [Overview of Unified Service Desk](agent/agent-usd/omnichannel-agent.md)
 #### [Sign in to Omnichannel for Customer Service](agent/agent-usd/signin-unified-service-desk-omnichannel.md)
 #### [Introduction to the agent interface](agent/agent-usd/introduction-agent-interface.md)
 #### [View agent dashboard and agent work items](agent/agent-usd/introduction-agent-dashboard.md)
