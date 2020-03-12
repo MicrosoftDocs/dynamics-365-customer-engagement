@@ -115,31 +115,6 @@ After you add a Facebook page, values for **Callback Uri** and **Verify Token** 
     > [!div class=mx-imgBorder]
     > ![Facebook channel routing rule](../media/fb-routing-rule.png "Facebook channel routing rule")
 
-## Customer and agent experiences
-
-A customer can initiate a conversation in any of the following ways:
-
-- Messenger on the Facebook page
-- [www.messenger.com](https://www.messenger.com/)
-- Messenger app on a mobile device
-- Messenger widget on a custom website
-
-If a customer initiates a conversation from the Facebook page and then later switches to the mobile device, the previous conversation persists, and the customer can continue the conversation.
-
-The agent receives the notification of the incoming conversation request. More information: [Use Facebook channel](../agent/agent-oc/facebook.md)
-
-> [!div class=mx-imgBorder]
-> ![Facebook chat agent notification](../media/fb-agent-notif.png "Facebook chat agent notification")
-
-If the customer is identified based on name, the conversation is automatically linked to the contact record and the customer summary is populated. More information: [View customer summary](../agent/agent-oc/oc-customer-summary.md)
-
-If the customer is not identified based on name, a new contact record can be created.
-
-Also, customer can send attachments if you enable.  If you don't enable the option for the customers, they can send the file. However, agents won't receive the file and will see an error. To learn more, see [File attachments](#file-attachments).
-
-> [!div class=mx-imgBorder]
-> ![Customer sending file](../media/fb-customer1.png "Customer sending file")
-
 ## File attachments
 
 You can enable or disable the capability for your agents and customers to send file attachments during a Facebook channel conversation. 
@@ -184,6 +159,28 @@ To configure the file size limit and file extensions, follow the steps:
 6. Select **OK**.
 
 Now, agents and customers can share file attachments during their conversation.
+
+## Customer experiences
+
+A customer can initiate a conversation in any of the following ways:
+
+- Messenger on the Facebook page
+- [www.messenger.com](https://www.messenger.com/)
+- Messenger app on a mobile device
+- Messenger widget on a custom website
+
+If a customer initiates a conversation from the Facebook page and then later switches to the mobile device, the previous conversation persists, and the customer can continue the conversation.
+
+The agent receives the notification of the incoming conversation request. More information: [Use Facebook channel](../agent/agent-oc/facebook.md)
+
+If the customer is identified based on name, the conversation is automatically linked to the contact record and the customer summary is populated. More information: [View customer summary](../agent/agent-oc/oc-customer-summary.md)
+
+If the customer is not identified based on name, a new contact record can be created.
+
+Customer can send attachments only if you enable.  If you don't enable the option for the customers, they can send the file. However, agents won't receive the file and will see an error. To learn more, see [File attachments](#file-attachments).
+
+> [!div class=mx-imgBorder]
+> ![Customer sending file](../media/fb-customer1.png "Customer sending file")
 
 ## Privacy notice
 
