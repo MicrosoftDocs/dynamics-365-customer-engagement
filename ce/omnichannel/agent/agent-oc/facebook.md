@@ -16,7 +16,7 @@ ms.topic: article
 
 ## Facebook channel overview
 
-When you sign in to Omnichannel for Customer Service, you can see your work items in Omnichannel Agent Dashboard. To learn more see [View agent dashboard and agent conversations (work items)](oc-agent-dashboard).
+When you sign in to Omnichannel for Customer Service, you can see your work items in Omnichannel Agent Dashboard. To learn more see [View agent dashboard and agent conversations (work items)](oc-agent-dashboard.md).
 
 ## Prerequisite
 
