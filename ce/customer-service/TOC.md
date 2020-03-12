@@ -127,8 +127,8 @@
 #### [Plan your migration](plan-migration.md)
 #### [Migrate entity records data using migration tool](migrate-entity-records.md)
 
-### Service Scheduling Developer Guide
-### [Search Resource Availability and Create Bookings](universal-resource-scheduling.md)
+### Developer Guide
+#### [Search Resource Availability and Create Bookings](universal-resource-scheduling.md)
 
 ### Legacy Service Scheduling (Customer Service app)
 #### [Set up business closure](set-when-business-closed-cs-app.md)
