@@ -1,6 +1,6 @@
 ---
-title: "Remote assistance and calling options in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn how to use remote assistance, such as co-browse and screen sharing, and elevating a chat conversation to voice and video call in Omnichannel for Customer Service."
+title: "Call options and visual engagement in live chat in Omnichannel for Customer Service | MicrosoftDocs"
+description: "Learn how to use visual engagement, such as co-browse and screen sharing, and elevating a chat conversation to voice and video call in Omnichannel for Customer Service."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -10,11 +10,11 @@ ms.service:
 ms.topic: article
 ---
 
-# Remote assistance and calling options in live chat
+# Call options and visual engagement in live chat
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-## Calling options in live chat
+## Call options in live chat
 
 With calling options in a live chat conversation, you can initiate a voice or video call while you're communicating with the customer over chat.
 
@@ -52,7 +52,7 @@ When you initiate a voice call, you can view the flyout call control, which incl
 > ![Agent experience of a voice call during live chat](../../media/chat-voice-call.png "Agent experience of a voice call during live chat")
 
 > [!Note]
-> If your environment is in Government Community Cloud (GCC), then only the audio and video calls will be routed via North America region. 
+> If your organization is in the Government Community Cloud (GCC) region, the audio and video calls will be transmitted via a North American data center. 
 
 ### Capacity of the agent
 
@@ -92,3 +92,7 @@ Customers need to provide the camera and microphone access in the browser.
 The co-browsing and screen sharing features help you quickly and easily understand the customer's issue while communicating with the customer via chat channel. These visual engagement channels allow agents to interact with customers within their browsers for a concrete and effective support experience. This integration capability allows agents to initiate a third-party co-browse or screen sharing session from the chat conversation. 
 
 Note: Third-party providers of co-browse or screen share capabilities may have separate pricing and licensing requirements. Before enabling and using remote assistance features through third-party applications, ensure you understand the terms of using these applications. 
+
+## See also
+
+[Add a chat widget](../../administrator/add-chat-widget.md)

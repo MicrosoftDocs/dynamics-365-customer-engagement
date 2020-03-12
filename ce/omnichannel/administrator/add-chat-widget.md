@@ -80,11 +80,11 @@ ms.topic: article
 
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|
-    | Remote assistance | Co-browse | Select whether to enable third-party co-browse. You must install a third-party provider from AppSource to use the feature. | Enabled |
-    | Remote assistance | Co-browse provider | Select the provider from the list. | Co-browse_provider |
-    | Remote assistance | Screen sharing | Select whether to enable third-party screen sharing. You must install a third-party provider from AppSource to use the feature. | Enabled |
-    | Remote assistance | Screen sharing provider | Select the provider from the list.| Screen_sharing_provider|
-    |Calling | Calling options | Select a calling option from the list: <ul>**No calling**: <br>Agents can't make voice or video calls. </ul><br> <ul>**Video and voice calling**:<br> Agents can make both voice and video calls. </ul><br><ul>**Voice only**:<br> Agents can make only voice calls.  </ul>| Video and voice calling |
+    |Voice and video calls | Call options | Select a call option from the list: <ul>**No calling**: <br>Agents can't make voice or video calls. </ul><br> <ul>**Video and voice calling**:<br> Agents can make both voice and video calls. </ul><br><ul>**Voice only**:<br> Agents can make only voice calls.  </ul>| Video and voice calling |
+    | Visual engagement | Screen sharing | Select whether to enable third-party screen sharing. You must install a third-party provider from AppSource to use the feature. | Enabled |
+    | Visual engagement | Screen sharing provider | Select the provider from the list.| Screen sharing_provider|
+    | Visual engagement | Co-browse | Select whether to enable third-party co-browse. You must install a third-party provider from AppSource to use the feature. | Enabled |
+    | Visual engagement | Co-browse provider | Select the provider from the list. | Co-browse_provider |
 
    > [!div class=mx-imgBorder]
    > ![Enable third-party co-browse and screen sharing through conversation options in a chat widget](../media/chat-widget-conversation-options.png "Enable third-party co-browse and screen sharing through conversation options in a chat widget")
@@ -92,7 +92,9 @@ ms.topic: article
    > [!NOTE]
    > You can select one co-browse provider and/or one screen-sharing provider for each chat widget. 
 
-10. Select **Save** to save the configurations.   
+10. Select **Save** to save the configurations.
+
+After you configure, agents can get the capabilities while they are in a conversation with the communication. To learn more, see [Call options and visual engagement in live chat](../agent/agent-oc/call-options-visual-engagement.md).
 
 ### See also
 
