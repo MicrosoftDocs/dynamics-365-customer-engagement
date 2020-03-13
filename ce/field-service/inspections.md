@@ -120,6 +120,24 @@ Preview will be available shortly for selected participants. Reaching out since 
 ## Perform inspection 	
 
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inspections-mobile-download-app.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inspections-mobile-nav.png)
+
+Click on the Work Order Service Task (and not the Service Task Type).
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inspections-mobile-inspection-form.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inspections-mobile-mark-complete.png)
+
+
 Validations 
 ## View responses
 
