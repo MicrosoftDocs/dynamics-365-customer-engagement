@@ -146,10 +146,11 @@ You’ve successfully added a duplicate status to the status code field.
 
 ### Case Resolution Entity
 
-<<<<<<< HEAD
 Now that we've added the duplicate status to the case entity, we need to add it to the case resolution entity using the following steps:
-=======
-**Step 2:** Select **Service Configuration**
+
+**Step 1:** Go to **Service Manager**
+
+**Step 2:** Select **Service Configuration Settings**
 
 **Step 3:**	Use the drop down and select **Customizable Dialog**
 
@@ -165,7 +166,6 @@ Now that we've added the duplicate status to the case entity, we need to add it 
 
   > [!div class=mx-imgBorder]
   > ![Case Resolution Entity](media/enable-customizable-dialog-1.png "Case Resolution Entity")
->>>>>>> ee792264fe747f371af180d748704c116431ca60
 
 **Step 1:** Select **Case Resolution** entity
 
@@ -174,11 +174,11 @@ Now that we've added the duplicate status to the case entity, we need to add it 
 **Step 3:** Select **Resolution Type Code**
 
   > [!div class=mx-imgBorder]
-<<<<<<< HEAD
+
   > ![Case Resolution Entity](media\enable-customizable-dialog-1.png "Case Resolution Entity")
-=======
+
   > ![Case Resolution Entity](media/enable-customizable-dialog-2.png "Case Resolution Entity")
->>>>>>> ee792264fe747f371af180d748704c116431ca60
+
 
 **Step 4:** Under Options section, click on plus symbol. This will enable the **Label** and **Value** fields to be populated.
 
@@ -224,14 +224,14 @@ This will open up the form in the form designer.
 **Step 4b:** Select **publish**
 
   > [!div class=mx-imgBorder]
-  > ![save and publish](media/case_resolution_13.png "save and publish")
+  > ![save and publish](media/case_resolution_13a.png "save and publish")
 
 Now when you open your case, the case resolution dialog should now display the fields you’ve added:
 
 **Step 5:** Under Resolution Type use dropdown to select ""Duplicate**
 
   > [!div class=mx-imgBorder]
-  > ![save and publish](media/case_resolution_14.png "save and publish")
+  > ![save and publish](media/case_resolution_14a.png "save and publish")
 
 You will know if a case has been successfully resolved per the status bar at the top of the form. 
 
@@ -241,7 +241,7 @@ You will know if a case has been successfully resolved per the status bar at the
 
  
 
-### See also
+## See also
 
 [Work with cases](customer-service-hub-user-guide-create-a-case.md) 
 
