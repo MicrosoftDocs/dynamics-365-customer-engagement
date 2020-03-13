@@ -141,12 +141,20 @@ Click on the Work Order Service Task (and not the Service Task Type).
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-mobile-mark-complete.png)
 
+inspections-mobile-validation
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-mobile-wost-clear-responses.png)
 
-Validations 
+
 ## View responses
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inspections-complete-web.png)
+
+
 
 ## Configuration considerations
 - is each question in CDS?
