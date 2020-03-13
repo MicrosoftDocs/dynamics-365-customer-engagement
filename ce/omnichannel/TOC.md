@@ -40,6 +40,7 @@
 ##### [Configure proactive chat](administrator/proactive-chat.md)
 #### [Configure an SMS channel](administrator/configure-sms-channel.md)
 #### [Configure a Facebook channel](administrator/configure-facebook-channel.md)
+#### [Configure a WeChat channel](administrator/configure-wechat-channel.md)
 #### Entity records
 ##### [Entity records routing](administrator/entity-channel.md)
 ##### [Route trigger for entity records](administrator/routing-trigger.md)
