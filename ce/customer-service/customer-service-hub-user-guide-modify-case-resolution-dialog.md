@@ -146,7 +146,26 @@ You’ve successfully added a duplicate status to the status code field.
 
 ### Case Resolution Entity
 
+<<<<<<< HEAD
 Now that we've added the duplicate status to the case entity, we need to add it to the case resolution entity using the following steps:
+=======
+**Step 2:** Select **Service Configuration**
+
+**Step 3:**	Use the drop down and select **Customizable Dialog**
+
+**Step 4:**	Click **Save**
+
+  > [!div class=mx-imgBorder]
+  > ![Enable Customizable Dialog](media/case-resolution-entity.png "Enable Customizable Dialog")
+
+> [!NOTE]
+> The setting default is set to **Standard Dialogue**. Admin must select **Customizable Dialog** otherwise any changes made will be saved to the form, but will not be displayed for use. 
+
+## Case Resolution Entity
+
+  > [!div class=mx-imgBorder]
+  > ![Case Resolution Entity](media/enable-customizable-dialog-1.png "Case Resolution Entity")
+>>>>>>> ee792264fe747f371af180d748704c116431ca60
 
 **Step 1:** Select **Case Resolution** entity
 
@@ -155,7 +174,11 @@ Now that we've added the duplicate status to the case entity, we need to add it 
 **Step 3:** Select **Resolution Type Code**
 
   > [!div class=mx-imgBorder]
+<<<<<<< HEAD
   > ![Case Resolution Entity](media\enable-customizable-dialog-1.png "Case Resolution Entity")
+=======
+  > ![Case Resolution Entity](media/enable-customizable-dialog-2.png "Case Resolution Entity")
+>>>>>>> ee792264fe747f371af180d748704c116431ca60
 
 **Step 4:** Under Options section, click on plus symbol. This will enable the **Label** and **Value** fields to be populated.
 
