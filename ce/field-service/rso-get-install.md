@@ -56,7 +56,7 @@ In order to get access to RSO, you must first have access to Field Service. If y
 
 ## Option 2: Request trial
 
-Microsoft employees can request RSO trial environmentsfor themselves or for customers and partners by filling out the [RSO trial environment form](http://aka.ms/rsotrial). If you are a customer or partner, simply contact your local Microsoft representative.
+Microsoft employees can request RSO trial environments for themselves or for customers and partners by filling out the [RSO trial environment form](http://aka.ms/rsotrial). If you are a customer or partner, simply contact your local Microsoft representative.
 
 ## Next steps
 
