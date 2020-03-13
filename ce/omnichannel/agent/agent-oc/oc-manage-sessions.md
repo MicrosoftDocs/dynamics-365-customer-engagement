@@ -107,7 +107,7 @@ At all times, the **Home** session is anchored and you can't close it. The Home 
 
     When you are working on multiple customer sessions, there may be a scenario where a customer may not be happy. Since, you are working simultaneously on multiple sessions, and if that session is not focus, you need a way to identify the sentiment of that session. 
 
-    Session sentiment displays an alert to you when the sentiment reaches the threshold value as set by your administrator. For example, your administrator has set the threshold as **Slightly negative**. So, when the sentiment reaches **Slightly negative**, you can see alert in the session panel on the session icon. An exclamation icon is displayed on top of the session icon to indicate that the requires your attention. when you hover your cursor on the session icon, you can a tooltip, which displays a message in the following format 
+    Session sentiment displays an alert to you when the sentiment reaches the threshold value as set by your administrator. For example, your administrator has set the threshold as **Slightly negative**. So, when the sentiment reaches **Slightly negative**, you can see alert in the session panel on the session icon. An exclamation icon is displayed on top of the session icon to indicate that the requires your attention. When you hover your cursor on the session icon, you can a tooltip, which displays a message in the following format: 
     
     **\<session title>. Urgent attention is needed in your conversation.**
 
@@ -123,6 +123,20 @@ At all times, the **Home** session is anchored and you can't close it. The Home 
     When you are working on multiple customer sessions, there may be a scenario where a you may receive many messages across different sessions. Since, you are working simultaneously on multiple sessions, and if that session is not focus, you need a way to identify the number of messages you received for a particular session. 
 
     A count of unread messages are displayed on the session icon in the session panel. If the number of messages are 10 or more, then a plus icon (+) is displayed.
+
+    When you hover your cursor on the session icon, you can a tooltip, which displays a message in the following format: 
+    
+    **\<session title>. \<X> new updates in your conversation**
+    
+    **X** - count of unread messages
+
+    Example 1: **Visitor 7. 5 new updates in your conversation.**
+
+    Example 2: **Kenny Smith. 5 new updates in your conversation.**
+
+    when you hover your cursor on the session icon, you can a tooltip, which displays a message in the following format: “Session Title. X new updates in your conversation” where x is the count of unread messages.
+
+    When you select a session with unread messages,the session will be focused and the unread message count will disappear from the session icon.
 
     > [!div class=mx-imgBorder]
     > ![Unread message count](../../media/oceh/unread-message.png "Session icon")
