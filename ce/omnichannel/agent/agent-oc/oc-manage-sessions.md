@@ -122,7 +122,10 @@ At all times, the **Home** session is anchored and you can't close it. The Home 
 
     When you are working on multiple customer sessions, there may be a scenario where a you may receive many messages across different sessions. Since, you are working simultaneously on multiple sessions, and if that session is not focus, you need a way to identify the number of messages you received for a particular session. 
 
+    A count of unread messages are displayed on the session icon in the session panel. If the number of messages are 10 or more, then a plus icon (+) is displayed.
 
+    > [!div class=mx-imgBorder]
+    > ![Unread message count](../../media/oceh/unread-message.png "Session icon")
 
 ## See also
 
