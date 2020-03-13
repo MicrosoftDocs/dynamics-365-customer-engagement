@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/admin/use-organization-insights-solution-view-instance-metrics.md",
+      "redirect_url": "https://docs.microsoft.com/power-platform/admin/analytics-common-data-service",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/marketing/social-listening.md",
       "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition",
       "redirect_document_id": "false"
