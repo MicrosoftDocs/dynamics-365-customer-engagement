@@ -81,7 +81,7 @@ Replace the `incident id` in the Web API request above with the unique identifie
 
 The custom actions required for implementing similar case suggestions include the following:
 
-1. Open any entity form, for example `OpenFrom`.
+1. Open any entity form using the [openForm](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-navigation/openform) client API.
 2. Copy to Conversation Control.
 3. Open th URL in App tab.
 

@@ -201,9 +201,11 @@ Consider the scenario wherein you want the smart assist bot to be able to search
 
 The custom actions required for implementing knowledge base search in the smart assist bot include the following:
 
-1. Open any entity form, for example `OpenFrom`.
+1. Open any entity form using the [openForm](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-navigation/openform) client API.
 2. Copy to Conversation Control.
 3. Open th URL in App tab.
+
+You can use the client-side APIs to open knowledge base articles. See [Client API reference for model driven apps](/powerapps/developer/model-driven-apps/clientapi/reference) for more information.
 
 <a name="bkmk_samplecode"></a>
 
@@ -231,4 +233,5 @@ For more information, see the code sample [README](https://github.com/microsoft/
 [Create a bot with Azure bot service](/azure/bot-service/abs-quickstart)<br />
 [Automate tasks with macros](../../administrator/macros.md)<br />
 [Integrate an Azure bot](../../administrator/configure-bot.md)<br />
-[Create knowledge article template](../../../customer-service/create-templates-knowledge-article.md)
+[Create knowledge article template](../../../customer-service/create-templates-knowledge-article.md)<br />
+[Client API reference for model driven apps](/powerapps/developer/model-driven-apps/clientapi/reference)
