@@ -46,7 +46,7 @@ In Omnichannel for Customer Service, you can:
 - [Manage applications](oc-manage-applications.md)
 - Use productivity tools
     - [Use agent scripts](oc-agent-scripts.md)
-    - [View Smart assist](oc-smart-assist.md)
+    - [View Smart assist cards](oc-smart-assist.md)
     - [Use productivity pane](oc-productivity-pane.md)
 - [Create a record](oc-create-record.md)
 - [Search, link, and unlink a record](oc-search-link-unlink-record.md)

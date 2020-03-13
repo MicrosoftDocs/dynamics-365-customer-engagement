@@ -160,7 +160,7 @@ To configure the file size limit and file extensions, follow the steps:
 
 Now, agents and customers can share file attachments during their conversation.
 
-## Customer experiences
+## Customer experience
 
 A customer can initiate a conversation in any of the following ways:
 
