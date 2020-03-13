@@ -31,7 +31,7 @@ Use the following steps to get started:
 - **Step 2:** Enable Customizable Dialog (required)
 - **Step 3:** Create Status Values
   - Case Entity (status code)
-  - Case Resolution Entity (resolution status code)
+  - Case Resolution Entity (Resolution Type Code)
 - **Step 4:** Edit Form 
 
 
@@ -143,26 +143,9 @@ Once you select Add, the **Add List Value** window will appear.
 
 You’ve successfully added a duplicate status to the status code field.  
 
-
 ### Case Resolution Entity
 
 Now that we've added the duplicate status to the case entity, we need to add it to the case resolution entity using the following steps:
-
-**Step 1:** Go to **Service Manager**
-
-**Step 2:** Select **Service Configuration Settings**
-
-**Step 3:**	Use the drop down and select **Customizable Dialog**
-
-**Step 4:**	Click **Save**
-
-  > [!div class=mx-imgBorder]
-  > ![Enable Customizable Dialog](media/case-resolution-entity.png "Enable Customizable Dialog")
-
-> [!NOTE]
-> The setting default is set to **Standard Dialogue**. Admin must select **Customizable Dialog** otherwise any changes made will be saved to the form, but will not be displayed for use. 
-
-## Case Resolution Entity
 
   > [!div class=mx-imgBorder]
   > ![Case Resolution Entity](media/enable-customizable-dialog-1.png "Case Resolution Entity")
@@ -196,9 +179,9 @@ Now the a case resolution entity will appear in the dialog field as an option yo
 ## Edit Form
 Case resolution allows you to tailor form fields to support the needs of your business.  This feature allows you to add or remove fields that don’t apply to your business model without using code.  
 
-For example, your business model does not require a **Billable Time** field because your case resolutions do not track billable hours, therefore you would like to remove that field from the form.  Also, your business process needs the ability to specify the date when a case was resolved, because your agents enter the resolution on a different date from when the case was actually resolved.
+For example, your business model does not require a **Billable Time** field because your case resolutions do not track billable hours, therefore you would like to remove that field from the form.  
 
-The following will walk you through how to remove the **Billable Time** field and add a new **Resolution Date** field in the Form Editor.
+The following will walk you through how to remove the **Billable Time** field in the Form Editor.
 
 **Step 1:**  Go to the **Case Resolution** entity and select on **Forms**.  
 
@@ -228,7 +211,7 @@ This will open up the form in the form designer.
 
 Now when you open your case, the case resolution dialog should now display the fields you’ve added:
 
-**Step 5:** Under Resolution Type use dropdown to select ""Duplicate**
+**Step 5:** Under Resolution Type use dropdown to select **Duplicate**
 
   > [!div class=mx-imgBorder]
   > ![save and publish](media/case_resolution_14a.png "save and publish")
