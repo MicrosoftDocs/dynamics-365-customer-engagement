@@ -131,12 +131,19 @@ Click on the Work Order Service Task (and not the Service Task Type).
 
 
 > [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inspections-mobile-wost.png)
+
+
+> [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-mobile-inspection-form.png)
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-mobile-mark-complete.png)
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inspections-mobile-wost-clear-responses.png)
 
 Validations 
 ## View responses
@@ -148,6 +155,8 @@ Validations
 - FS Mobile
 - PDF capability for reporting
 - inspecting X assets at a location
+
+## FAQs
 
 ## Additional Notes
 secuirty roles?
