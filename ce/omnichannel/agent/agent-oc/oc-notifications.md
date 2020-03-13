@@ -83,11 +83,9 @@ Identification of a customer happens based on the **Mobile Phone** field present
 
 The details you'll see for a SMS channel are as configured by your administrator.
 
-> [!div class="nextstepaction"]
-> [Next topic: View customer summary and know everything about customers](oc-customer-summary.md)
-
 ## See also
 
+- [View customer summary and know everything about customers](oc-customer-summary.md)
 - [View communication panel](oc-conversation-control.md)
 - [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)
 - [Manage presence status](oc-manage-presence-status.md)

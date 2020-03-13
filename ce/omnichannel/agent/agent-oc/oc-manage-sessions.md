@@ -4,7 +4,7 @@ description: "Learn how to manage sessions using the session panel in Omnichanne
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 12/27/2019
+ms.date: 04/01/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -101,11 +101,9 @@ At all times, the **Home** session is anchored and you can't close it. The Home 
     > [!div class=mx-imgBorder]
     > ![Session title](../../media/oceh/oceh-session-title.png "Session title")
 
-> [!div class="nextstepaction"]
-> [Next topic: Manage applications](oc-manage-applications.md)
-
 ## See also
 
+- [Manage applications](oc-manage-applications.md)
 - [Understand conversation states](oc-conversation-state.md)
 - [View communication panel](oc-conversation-control.md)
 - [View agent dashboard and conversations (work items)](oc-agent-dashboard.md)
