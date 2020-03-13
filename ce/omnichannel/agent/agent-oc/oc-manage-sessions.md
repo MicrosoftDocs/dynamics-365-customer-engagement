@@ -101,6 +101,29 @@ At all times, the **Home** session is anchored and you can't close it. The Home 
     > [!div class=mx-imgBorder]
     > ![Session title](../../media/oceh/oceh-session-title.png "Session title")
 
+## Session sentiment alert and unread message count
+
+- **Sentiment alert**
+
+    When you are working on multiple customer sessions, there may be a scenario where a customer may not be happy. Since, you are working simultaneously on multiple sessions, and if that session is not focus, you need a way to identify the sentiment of that session. 
+
+    Session sentiment displays an alert to you when the sentiment reaches the threshold value as set by your administrator. For example, your administrator has set the threshold as **Slightly negative**. So, when the sentiment reaches **Slightly negative**, you can see alert in the session panel on the session icon. An exclamation icon is displayed on top of the session icon to indicate that the requires your attention. when you hover your cursor on the session icon, you can a tooltip, which displays a message in the following format 
+    
+    **\<session title>. Urgent attention is needed in your conversation.**
+
+    Example 1: **Visitor 7. Urgent attention is needed in your conversation.**
+
+    Example 2: **Kenny Smith. Urgent attention is needed in your conversation.**
+
+    > [!div class=mx-imgBorder]
+    > ![Session icon](../../media/oceh/sentiment-agent1.png "Session icon")
+
+- **Unread message count**
+
+    When you are working on multiple customer sessions, there may be a scenario where a you may receive many messages across different sessions. Since, you are working simultaneously on multiple sessions, and if that session is not focus, you need a way to identify the number of messages you received for a particular session. 
+
+
+
 ## See also
 
 - [Manage applications](oc-manage-applications.md)

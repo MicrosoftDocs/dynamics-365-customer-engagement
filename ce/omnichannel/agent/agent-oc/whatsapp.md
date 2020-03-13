@@ -34,7 +34,7 @@ Make sure your administrator has configured a WhatsApp channel through Twilio.
 You receive a notification for a WhatsApp conversation request. When you accept the WhatsApp request, a session is started, and the communication panel appears where you can exchange messages with the customer.
 
 > [!div class=mx-imgBorder]
-> ![WhatsApp chat agent notification](../../media/fb-agent-notif.png "WhatsApp chat agent notification")
+> ![WhatsApp chat agent notification](../../media/whatsapp-agent-notif.png "WhatsApp chat agent notification")
 
 In Omnichannel for Customer Service, you can:
 
