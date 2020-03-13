@@ -22,7 +22,7 @@ Read the topic [Build a custom smart assist bot](smart-assist-bot.md) for inform
 
 ## Scenario: Similar case suggestion
 
-Consider the scenario where a customer who is trying to troubleshoot his printer reaches out to customer support through chat channel. The chat request is accepted by an agent. The customer before initiating the chat browsed through the printer website and the customer support agent can see the articles that the customer has read.
+Consider the scenario where a customer who is trying to troubleshoot his printer reaches out to customer support through chat channel. The chat request is accepted by an agent. The customer before initiating the chat browsed through the printer website and the customer support agent can see the articles that the customer has read. The smart assist bot should be able to suggest similar cases with open and close case action buttons. 
 
 The customer service agent greets the customer with the following message. 
 
@@ -78,6 +78,12 @@ Replace the `incident id` in the Web API request above with the unique identifie
     ]
 }
 ```
+
+The custom actions required for implementing similar case suggestions include the following:
+
+1. Open any entity form, for example `OpenFrom`.
+2. Copy to Conversation Control.
+3. Open th URL in App tab.
 
 ## See also
 

@@ -4,7 +4,7 @@ description: "Read how you can build a smart assist bot to help agents resolve c
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 02/27/2020
+ms.date: 03/13/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -188,6 +188,22 @@ To use a custom action, replace `MacroName` and `MacroParameters` with `CustomAc
 		}
 	]
 ```
+Consider the scenario wherein you want the smart assist bot to be able to search and recommend knowledge base articles. The actions required are given below.
+
+**Open knowledge base article**
+
+- Open knowledge base in a app tab.
+- Open up a knowledge base form. This opens the knowledge base article in edit mode.
+
+**Send knowledge base article**
+
+-	Copies knowledge base article URL to Conversation Control, which is then sent to the customer when the agent clicks on send button.
+
+The custom actions required for implementing knowledge base search in the smart assist bot include the following:
+
+1. Open any entity form, for example `OpenFrom`.
+2. Copy to Conversation Control.
+3. Open th URL in App tab.
 
 <a name="bkmk_samplecode"></a>
 
