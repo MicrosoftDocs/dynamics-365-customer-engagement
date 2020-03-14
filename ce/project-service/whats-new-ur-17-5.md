@@ -37,8 +37,8 @@ This topic lists the features and fixes that are new or changed for PSA V3, Upda
 
 **Project Management**
 
-- Fixed: Addressed server side synchronaztion issues with long duraiton tasks.
-- Fixed: Addressed 24 hour work hour templates inaccurately adding an additional day to tasks.
+- Fixed: Addressed server side synchronization issues that occur with long duration tasks.
+- Fixed: Addressed 24-hour work hour templates inaccurately adding an additional day to tasks.
 - Fixed: Addressed +13 GMT work hour templates inaccurately shifting tasks one day ahead.
 
 
