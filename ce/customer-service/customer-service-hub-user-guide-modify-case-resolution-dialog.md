@@ -64,7 +64,7 @@ Now that you have set your permissions, the admin must  enable customizable dial
   > ![Enable Customizable Dialog](media\case-resolution-entity.png "Enable Customizable Dialog")
 
 > [!NOTE]
-> The default setting is **Standard Dialogue**. Admin must select the **Customizable Dialog** option, otherwise changes made to the form will be saved, but will not be displayed. 
+> The default setting is **Standard Dialog**. Admin must select the **Customizable Dialog** option, otherwise changes made to the form will be saved, but will not be displayed. 
 
 
 ## Status Values 
@@ -222,7 +222,6 @@ You will know if a case has been successfully resolved per the status bar at the
   > ![status bar](media/case_resolution_15.png "status bar")
 
 
- 
 
 ## See also
 
