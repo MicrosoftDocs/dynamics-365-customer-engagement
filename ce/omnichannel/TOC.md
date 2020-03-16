@@ -44,7 +44,7 @@
 ##### [Configure a Facebook channel](administrator/configure-facebook-channel.md)
 ##### [Configure a WhatsApp channel](administrator/configure-whatsapp-channel.md)
 #### Custom messaging channel
-##### [Configure a Custom channel](administrator/configure-custom-channel.md)
+##### [Configure a Custom messaging channel](administrator/configure-custom-channel.md)
 #### Entity records channel
 ##### [Entity records routing](administrator/entity-channel.md)
 ##### [Route trigger for entity records](administrator/routing-trigger.md)
