@@ -38,7 +38,8 @@
 ##### [Configure file attachment capability](administrator/configure-file-attachment.md)
 ##### [Embed chat widget in Power Apps portals](administrator/embed-chat-widget-portal.md)
 ##### [Configure proactive chat](administrator/proactive-chat.md)
-#### [Configure an SMS channel](administrator/configure-sms-channel.md)
+#### [Configure SMS channel for TeleSign](administrator/configure-sms-channel.md)
+#### [Configure SMS channel for Twilio](administrator/Configure-sms-channel-twilio.md)
 #### [Configure a Facebook channel](administrator/configure-facebook-channel.md)
 #### Entity records
 ##### [Entity records routing](administrator/entity-channel.md)
