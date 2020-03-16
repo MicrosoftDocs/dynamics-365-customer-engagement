@@ -4,7 +4,7 @@ description: "Learn about the omnichannel conversation and session activity type
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 12/27/2019
+ms.date: 04/01/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -35,7 +35,7 @@ The Conversation activity type displays information about an conversation reques
 | **Tab** | **Section**     | **Fields**        |
 |---------|-----------------|-------------------|
 | Details | Details         | <ul> <li>Title</li> <li>Customer</li> <li>Work stream </li> <li>Active agent</li> <li>Activity status</li> <li>Status reason</li> <li>Status updated on</li> <li>Regarding</li> <li>Queue</li> </ul>|
-| Details | History         |<ul> Create on</li> <li>Closed on</li> <li>Modified on</li> <li>Transfer count</li>  <li>Escalation count</li> <ul>
+| Details | History         |<ul> <li>Created on</li> <li>Closed on</li> <li>Modified on</li> <li>Transfer count</li>  <li>Escalation count</li> <ul>
 | Details | Session Details |<ul> <li> Channel </li> <li>Date created</li> <li>Subject</li> <li>Date created</li> <ul>|
 | Details | Chat Transcript |<ul> <li>Download</li> <ul>|
 
@@ -53,11 +53,9 @@ The session activity type displays information about a individual session in a c
 
 The Session Participants section lets you add a participant related to the session or add a session participant that already exists for the record you are working with.
 
-> [!div class="nextstepaction"]
-> [Next topic: View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
-
 ## See also
 
+- [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
 - [View customer summary](oc-customer-summary.md)
 - [Create a record](oc-create-record.md)
 - [Search, link, and unlink a record](oc-search-link-unlink-record.md)
