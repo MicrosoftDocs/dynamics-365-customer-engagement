@@ -14,11 +14,11 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-The Omnichannel for Customer Service app is where you (agent and supervisor) work respectively, and when you encounter an issue, you want to report the issue with Microsoft. 
+The Omnichannel for Customer Service app is where users work, and when they encounter an issue, users want to report the issue with Microsoft. 
 
-Report issues in Omnichannel for Customer Service is feature where anyone like administrator, agent, and supervisor using Omnichannel for Customer Service can capture diagnostic report  and share it with Microsoft.
+The Report issues feature in Omnichannel for Customer Service is feature where anyone like administrator, agent, and supervisor using Omnichannel for Customer Service can capture diagnostic report and share it with Microsoft.
 
-The feature uses a keyboard shortcut to capture the information from the Omnichannel for Customer Service app. You can capture the information when you are in dashboard or while communicating with a customer.
+The feature uses a keyboard shortcut to capture the information from the Omnichannel for Customer Service app. Users can capture the information when they are in dashboard or while communicating with a customer.
 
 | Keyboard shortcut |
 |-------------------------|
@@ -40,9 +40,9 @@ The feature uses a keyboard shortcut to capture the information from the Omnicha
 
 4. Open a Notepad in your computer.
 
-5. Paste the diagnostic report that you copied into the notepad, and save the notepad.
+5. Paste the diagnostic report that was copied into the notepad, and save the notepad.
 
-When you reach to [Microsoft support](https://docs.microsoft.com/power-platform/admin/get-help-support), share the diagnostic report. The report helps us to fasten the diagnosis process.
+When your organization reach out to [Microsoft support](https://docs.microsoft.com/power-platform/admin/get-help-support), share the diagnostic report. The report helps us to fasten the diagnosis process.
 
 ## Diagnostic report information
 
