@@ -16,7 +16,7 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-Sentiment analysis settings in Omnichannel for Customer Service provides agents and supervisors with real-time insight regarding how customers are interacting with agents during chat sessions.
+Sentiment analysis settings in Omnichannel for Customer Service provide agents and supervisors with real-time insight regarding how customers are interacting with agents during chat sessions.
 
 The Sentiment Analysis Settings page contains three sections:
 
@@ -46,7 +46,7 @@ After you enable real-time customer sentiment, you can view scores in the [Omnic
 
 ## Agent settings
 
-Agents can view the customer sentiment in the communication panel for an conversation session that is active and in focus. For session that is not in focus, the alert is shown on the session panel.
+Agents can view the customer sentiment in the communication panel for a conversation session that is active and in focus. For session that is not in focus, the alert is shown on the session panel.
 
 You can show alerts to the agents when a customer's sentiment decreases to or below a particular value. You can set the customer's sentiment to any of the following values:
 
@@ -55,7 +55,7 @@ You can show alerts to the agents when a customer's sentiment decreases to or be
 - Negative
 - Very negative
 
-For example: You the set the threshold value as **Slightly negative**. When the customer's sentiment reaches **Slightly negative** or any other sentiment value below this, an alert is displayed to agent.
+For example: You set the threshold value as **Slightly negative**. When the customer's sentiment reaches **Slightly negative** or any other sentiment value below this, an alert is displayed to agent.
 
 1. Sign in to **Omnichannel Administration**.
 

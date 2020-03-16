@@ -16,11 +16,11 @@ ms.topic: article
 
 ## Overview of macros
 
-In the customer service industry, agents have to click too often to do simple tasks (open a form, fill out the form, save the form, and so on) and perform a lot of repetitive and monotonous actions (greet a customer, verify a customer, send acknowledgment mail, take notes, and so on). These clicks and repetitive tasks can lead to human errors while agents copy and paste the data across different operations.
+In the customer service industry, agents have to click too often to do simple tasks (open a form, fill out the form, save the form, and so on) and perform many repetitive and monotonous actions (greet a customer, verify a customer, send acknowledgment mail, take notes, and so on). These clicks and repetitive tasks can lead to human errors while agents copy and paste the data across different operations.
 
-Macros helps address these challenges by helping users perform day-to-day operations in a faster, more efficient, and process-compliant manner. Macros are a set of sequential actions that are executed by a user. You can use macros to automate repetitive and monotonous actions, which in turn reduces human errors (copying and pasting data) and improves agent productivity. Ultimately, improved agent productivity leads to lower average handling time and, hence, improved customer satisfaction.
+Macros help address these challenges by helping users perform day-to-day operations in a faster, more efficient, and process-compliant manner. Macros are a set of sequential actions that are executed by a user. You can use macros to automate repetitive and monotonous actions, which in turn reduces human errors (copying and pasting data) and improves agent productivity. Ultimately, improved agent productivity leads to lower average handling time and, hence, improved customer satisfaction.
 
-Macros are like reusable components where you can use the same macro with different sessions based on your organizational requirements. These session are executed based on the context parameters that are specific to a session.
+Macros are like reusable components where you can use the same macro with different sessions based on your organizational requirements. These sessions are executed based on the context parameters that are specific to a session.
 
 ## Value propositions
 
@@ -46,7 +46,7 @@ Macros are like reusable components where you can use the same macro with differ
 
 ## Predefined automation actions and built-in
 
-The Macros in Omnichannel for Customer Service has the following:
+The Macros in Omnichannel for Customer Service have the following:
 
 - [Predefined automation actions](#predefined-automation-actions)
 - [Built-in](#built-in)
@@ -217,7 +217,7 @@ This action is used to unlink a record from the conversation when the customer i
 
 ### Built-in
 
-The built-in control allows you to execute a macro action step based on the conditions. The **Built-in** category connector, which has a action as **Condition**. 
+The built-in control allows you to execute a macro action step based on the conditions. The **Built-in** category connector, which has an action as **Condition**. 
 
    > [!div class=mx-imgBorder] 
    > ![Condition connector](../media/built-in.png "Condition connector")
@@ -319,7 +319,7 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
    > [!div class=mx-imgBorder] 
    > ![Attributes for Open a new form to create a record](../media/macro-fields.png "Attributes for Open a new form to create a record") 
 
-9. After you add a action step, to define conditions, select the **Built-in** tab, and select **Control**.
+9. After you add an action step, to define conditions, select the **Built-in** tab, and select **Control**.
 
 10. Select **Condition** to define the conditions. The condition has **If true** or **If false**. Define the condition as per your requirement.
 
@@ -354,7 +354,7 @@ As an administrator, you can view the macro run history, which shows how many ti
    > [!div class=mx-imgBorder] 
    > ![Review the macro action steps](../media/macro-run-history-fail.png "Review the macro action steps")
 
-   For example, when you select on the **Open a new form to create a record** step, select **Show more**, and you can view that the mandatory fields doesn't have values, which is mandatory to save the record. Due to this reason, the macro execution failed at the **Save the record** step.
+   For example, when you select on the **Open a new form to create a record** step, select **Show more**, and you can view that the mandatory fields don't have values, which are mandatory to save the record. Due to this reason, the macro execution failed at the **Save the record** step.
 
    > [!div class=mx-imgBorder] 
    > ![Review the macro action steps](../media/macro-run-history-fail-reason.png "Review the macro action steps")
