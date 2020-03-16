@@ -108,15 +108,15 @@ Omnichannel system supports the following slugs.
    > [!div class=mx-imgBorder] 
    > ![Create notification template](../media/notification-template1.png "Create notification template")
 
-5.    Select **Save** to save the notification template. After you save, the **Notification Fields** section appears on the page.
+5. Select **Save** to save the notification template. After you save, the **Notification Fields** section appears on the page.
 
-6.    Select **Add Existing Notification Field** in the **Notification Fields** section. The **Lookup Records** pane appears.
+6. Select **Add Existing Notification Field** in the **Notification Fields** section. The **Lookup Records** pane appears.
 
-7.    Select the search icon in the **Look for Records** box. If there are no records, you see a message: **No records found. Create a new record.**.
+7. Select the search icon in the **Look for Records** box. If there are no records, you see a message: **No records found. Create a new record.**.
 
-8.    Select **+ New** to create a new notification field. A confirm dialog box appears, asking whether you want to leave the page. Select **OK**.
+8. Select **+ New** to create a new notification field. A confirm dialog box appears, asking whether you want to leave the page. Select **OK**.
 
-9.    Specify the following in the **New Notification Field** page.
+9. Specify the following in the **New Notification Field** page.
 
    | Tab | Name | Value description | Example |
    |---------|--------------------|-----------------------------------------------|--------------------|    
@@ -124,18 +124,18 @@ Omnichannel system supports the following slugs.
    | General | Field header | Provide a name to the field header. This appears in the notification that agents see at the runtime. | Name |
    | General | Value | Provide a slug value that appears against **Field header** in the notification. <br><br> To learn more, see [Slug for notification field header](#slug-for-notification-field-header). |{customerName} |
 
-   > [!div class=mx-imgBorder]
-   > ![Create notification field](../media/notification-field.png "Create notification field")
+  > [!div class=mx-imgBorder]
+  > ![Create notification field](../media/notification-field.png "Create notification field")
 
-10.    Select the back arrow on the browser to go to the notification template you created. Alternatively, you can select **Notifications** in the sitemap and then select the template you created.
+10. Select the back arrow on the browser to go to the notification template you created. Alternatively, you can select **Notifications** in the sitemap and then select the template you created.
 
-11.    Select **Add Existing Notification Field** in the **Notification Fields** section. The **Lookup Records** pane appears.
+11. Select **Add Existing Notification Field** in the **Notification Fields** section. The **Lookup Records** pane appears.
 
-12.    Select the name of the notification field you created, and then select **Add**. For example, **Name of the customer**.
+12. Select the name of the notification field you created, and then select **Add**. For example, **Name of the customer**.
 
-13.    Repeat steps 6 through 12 to add more notification fields.
+13. Repeat steps 6 through 12 to add more notification fields.
 
-14.    Select **Save** to save the notification template changes.
+14. Select **Save** to save the notification template changes.
 
 After saving the notification, sign in to the Omnichannel for Customer Service app and you can view the notification as per your configuration.
 
