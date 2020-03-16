@@ -14,6 +14,7 @@ manager: annbe
 
 This topic helps you troubleshoot and resolve issues related to the Order entity.
 
+<a name="order_processing_integration"> </a>
 ## Sales order processing integration is enabled for me. How do I disable it?
 
 Sales order processing integration connects Dynamics 365 Sales with an external back-office order processing application. It allows a sales order created in Dynamics 365 Sales to be submitted, after which the order can be synchronized with an external order processing application, where the lifecycle of the order continues. When the integration is enabled, users don't see the **Create Invoice** button on the Order records. If the integration is enabled unintentionally, you can disable it.  
@@ -26,13 +27,15 @@ To disable:
 
     When Sales order processing is already enabled, users with the System Administrator role or equivalent permissions will see the **Back office order processing integration** setting on the **Overview** page.
 
-    ![Setting to disable back office order processing integration](media/order-processing-integration-setting.png "Setting to disable back office order processing integration")
+    > [!div class="mx-imgBorder"]  
+    > ![Setting to disable back office order processing integration](media/order-processing-integration-setting.png "Setting to disable back office order processing integration")
  
 3. Select **Manage**. 
 
 4. To disable the integration, change the **Sales order processing** setting to **No**, and select **Save**.
 
-    ![Sales order processing setting](media/sales-order-processing-setting.png "Sales order processing setting")
+    > [!div class="mx-imgBorder"]  
+    > ![Sales order processing setting](media/sales-order-processing-setting.png "Sales order processing setting")
 
     > [!IMPORTANT]
     > - Back office order processing integration setting is visible only when Sales order processing is already enabled. 
