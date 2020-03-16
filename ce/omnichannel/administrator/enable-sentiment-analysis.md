@@ -22,7 +22,7 @@ The Sentiment Analysis Settings page contains three sections:
 
 - [Sentiment analysis](#sentiment-analysis)
 - [Agent settings](#agent-settings)
-- [Supervisor settings](#superviosr-settings)
+- [Supervisor settings](#supervisor-settings)
 
 ## Sentiment analysis
 
