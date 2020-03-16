@@ -20,9 +20,10 @@ By leveraging social messaging channels such as WeChat that has a large user bas
 
 Make sure that the following prerequisites are met:
 
-- WeChat is provisioned in your environment. More information:
+- WeChat is provisioned in your environment. For more information, see [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
 - Active subscription to the WeChat account exists.
 - Connection 
+
 ## Configure a WeChat channel in Omnichannel
 
 ### Step 1: Get WeChat account details
@@ -62,5 +63,6 @@ Perform the following steps to create a WeChat channel in Omnichannel:
     - **Developer password (AppSecret):**
     - **Token:**
     - **Message encryption key (EncodingAESKey):**
+  
 4. In **Step 2: Work distribution** > **Work Stream**, select the work stream that you created for WeChat.
-5. In **Step 3: Callback information**
+5. In **Step 3: Callback information**, copy the information that is displayed in the IP whitelist and Server address (URL) boxes.
