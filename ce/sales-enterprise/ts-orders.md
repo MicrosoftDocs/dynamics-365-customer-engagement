@@ -12,7 +12,7 @@ manager: annbe
 
 # Troubleshooting related to the Order entity 
 
-This topic helps you troubleshoot and resolve issues related to the Order entity.
+This article helps you troubleshoot and resolve issues related to the Order entity.
 
 <a name="order_processing_integration"> </a>
 ## Sales order processing integration is enabled for me. How do I disable it?
