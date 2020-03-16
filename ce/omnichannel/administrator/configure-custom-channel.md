@@ -110,9 +110,8 @@ To create a custom channel, follow the steps:
     | Section | Field | Description | Example  value |
     |-------------|-------------------|---------------------------|--------------------------------------|
     | Account Details |Name| Specify a name for the custom channel.| Contoso custom channel |
-    | Account Details |Description| Specify the description for your reference. | The custom channel is used for the Contoso Ltd customers.|
     | Account Details |Microsoft App ID| Copy and paste the **Microsoft App ID** that saved earlier from the Azure Bot Channel Registration page. <br> To learn more, see [Get registration password](https://docs.microsoft.com/azure/bot-service/bot-service-quickstart-registration#get-registration-password). | cae1d83e-8b07-4fca-8072-c2eb3444vxyz |
-    | Account Details |Microsoft App Secret| Copy and paste the **Client Secret** that you saved earlier from the Azure Bot Channel Registration page.  <br> To learn more, see [Get registration password](https://docs.microsoft.com/azure/bot-service/bot-service-quickstart-registration#get-registration-password).| |
+    | Account Details |Client Secret| Copy and paste the **Client Secret** that you saved earlier from the Azure Bot Channel Registration page.  <br> To learn more, see [Get registration password](https://docs.microsoft.com/azure/bot-service/bot-service-quickstart-registration#get-registration-password).| |
 
 5. Select **Validate App ID & Secret**  to validate the **Microsoft App ID** and **Client Secret** values. After the validation, a toast notification is displayed. Also, the **Last Validated** field shows time and date. This ensures that bots are active and client secret refreshes are consumed. 
 
@@ -135,13 +134,12 @@ To create a custom channel, follow the steps:
     | Section | Field | Description | Example  value |
     |-------------|-------------------|---------------------------|--------------------------------------|  
     | Details | Name | Specify a name for the custom channel | Contoso channel |
-    | Details | Description | Provide a description for your reference | This channel is used for Contoso customers. |
     | Details | Custom Messaging Account | The **Custom Messaging Account** field is populated. However, you can change the value using the lookup. | Contoso custom channel |
     | Details | Channel ID | Select a channel from the list. The list might contain Line of business (in-house) messaging, social, or any other messaging channel. A few social channel options are: <br> - Kik <br> - Telegram <br> - Direct Line | Kik |
     | Work Distribution | Work Stream | Select a work stream from the lookup. | Contoso custom channel work stream |
 
     > [!Note]
-    > A **Custom Messaging Account** can have multiple unique channel IDs. We recommend you not to add two or more same Channel IDs to a **Custom Messaging Account**. For example, for **Contoso custom channel**, you can't add two or more **Kik** Channel ID.
+    > A **Custom Messaging Account** can have multiple unique channel IDs. Don't add two or more same Channel IDs to a **Custom Messaging Account** as the Azure Bot Framework only supports one messaging account per App ID. For example, for **Contoso custom channel**, you can't add two or more **Kik** Channel ID.
 
     > [!div class=mx-imgBorder]
     > ![Create a custom channel](../media/custom-channel-3.png "Create a custom channel") 
