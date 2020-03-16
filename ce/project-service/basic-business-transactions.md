@@ -72,9 +72,7 @@ The **Milestone** value is typically used by the business logic for fixed-price 
 
 ### Transaction origin
 
-Transaction connection is an entity that stores the relation between two similar business transactions, such as cost and related sales actuals, or transaction reversals that are triggered by billing activities such as invoice confirmation or invoice correction.
-
-Together, the Transaction origin and Transaction connection entities help you track relationships between business transactions and actions that cause the creation of a specific business transaction.
+Transaction origin is an entity that stores the origin of each business transaction. As project execution gets underway, each business transaction will give rise to another business transaction which in turn will create another and so on. Transaction origin entity was designed to store data about each transaction’s origin to help reporting and traceability. 
 
 ### Transaction connection
 

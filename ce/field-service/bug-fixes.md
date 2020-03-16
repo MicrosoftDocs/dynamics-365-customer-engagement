@@ -2,7 +2,7 @@
 title: "Bug fixes for Dynamics 365 Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 02/19/2020
+ms.date: 03/10/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -31,6 +31,17 @@ search.app:
 In this article, you'll find an ongoing list of bug fixes for Dynamics 365 Field Service, Universal Resource Scheduling (URS), Field Service Mobile, resource scheduling optimization, and Connected Field Service (CFS). For information about other updates to Field Service, visit the [Dynamics 365 Release Plans](https://docs.microsoft.com/dynamics365/release-plans/). 
 
 ## Dynamics 365 Field Service
+
+### Version 8.8.11.19
+
+- Fixed an issue where Agreement Booking Date generation fails when Agreement is owned by a team.
+- Resolved an issue where Field Service client side logic fails when using contact form while in offline.
+- Resolved PO Product form customization issues where
+  - If an organization removed the 'Quantity Received' field from the Purchase Order Product, they would be unable to create a new Purchase Order Product record.
+  - Work Order and Warehouse values do not auto-populate if the fields are removed from the form.
+- When using Quick Create form for WO from an Account, fixed an issue where some of the fields that were expected to auto-populate were not being populated.
+- If the map control is removed from the work order form, it cannot be added back. The control has been locked to the form so that it cannot be removed from the form.
+- Issue where the primary incident type record of a deactivated WO could not be deactivated; added a validation check to only allow the Work Order Incident record to be deactivated when Work Order is deactivated.
 
 ### Version 8.8.14.328 (2020 Wave 1 Early Access)
 
@@ -102,24 +113,21 @@ To see older bug fixes, see the following links to blog posts:
 
 | **Version 8**                                                                                                                               | **Version 7**                                                                                                                                                 | **Version 6**                                                                                                                                               |
 |-----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [8.8.3.533](https://cloudblogs.microsoft.com/dynamics365/it/2019/09/10/enhancements-and-bug-fixes-for-field-service-version-8-8-3-533/) | [7.5.13.73](https://cloudblogs.microsoft.com/dynamics365/it/2019/09/10/enhancements-and-bug-fixes-for-field-service-version-7-5-13-73/)                   | [6.2.3.24](https://cloudblogs.microsoft.com/dynamics365/it/2018/01/26/release-notes-for-field-service-and-project-service-automation-update-5/)         |
-| [8.8.2.160](https://cloudblogs.microsoft.com/dynamics365/it/2019/08/11/enhancements-and-bug-fixes-for-field-service-version-8-8-2-160/) | [7.5.12.53](https://cloudblogs.microsoft.com/dynamics365/it/2019/08/06/enhancements-and-bug-fixes-for-field-service-version-7-5-12-53/)                   | [6.2.2.13](https://cloudblogs.microsoft.com/dynamics365/it/2017/10/31/dynamics-365-for-field-service-and-project-service-automation-update-4/)          |
-| [8.8.1.45](https://cloudblogs.microsoft.com/dynamics365/it/2019/07/07/enhancements-and-bug-fixes-for-field-service-version-8-8-1-45/)   | [7.5.11.102](https://cloudblogs.microsoft.com/dynamics365/it/2019/07/07/enhancements-and-bug-fixes-for-field-service-version-7-5-11-102/)                 | [6.2.1.38](https://cloudblogs.microsoft.com/dynamics365/it/2017/07/14/dynamics-365-for-field-service-and-project-services-automation-update-3/)         |
-| [8.8.0.88](https://cloudblogs.microsoft.com/dynamics365/it/2019/06/10/release-notes-for-field-service-version-8-8-0-88/)                | [7.5.10.235](https://cloudblogs.microsoft.com/dynamics365/it/2019/06/10/release-notes-for-field-service-version-7-5-10-235/)                              | [6.2](https://cloudblogs.microsoft.com/dynamics365/it/2017/05/19/dynamics-365-for-field-service-and-project-services-automation-february-2017-updates/) |
-| [8.7.0.105](https://cloudblogs.microsoft.com/dynamics365/it/2019/05/06/release-notes-for-field-service-version-8-7-0-105/)              | [7.5.9.91](https://cloudblogs.microsoft.com/dynamics365/it/2019/05/06/release-notes-for-field-service-version-7-5-9-91/)                                  |                                                                                                                                                         |
-| [8.6.0.274](https://cloudblogs.microsoft.com/dynamics365/it/2019/04/06/release-notes-for-field-service-version-8-6-0-274/)              | [7.5.8.93](https://cloudblogs.microsoft.com/dynamics365/it/2019/04/06/release-notes-for-field-service-version-7-5-8-93/)                                  |                                                                                                                                                         |
-| [8.5.0.345](https://cloudblogs.microsoft.com/dynamics365/it/2019/03/07/release-notes-for-field-service-version-8-5-0-345/)              | [7.5.7.87](https://cloudblogs.microsoft.com/dynamics365/it/2019/03/07/release-notes-for-field-service-version-7-5-7-87/)                                  |                                                                                                                                                         |
-| [8.4.0.338](https://cloudblogs.microsoft.com/dynamics365/it/2019/02/11/release-notes-for-field-service-version-8-4-0-338/)              | [7.5.6.97](https://cloudblogs.microsoft.com/dynamics365/it/2019/02/04/release-notes-for-field-service-version-7-5-6-97/)                                  |                                                                                                                                                         |
-| [8.3.0.255](https://cloudblogs.microsoft.com/dynamics365/it/2018/12/21/release-notes-for-field-service-version-8-update-release-3/)     | [7.5.5.48](https://cloudblogs.microsoft.com/dynamics365/it/2018/12/05/release-notes-for-field-service-version-7-update-release-11/)                       |                                                                                                                                                         |
-| [8.2.0.286](https://cloudblogs.microsoft.com/dynamics365/it/2018/11/08/release-notes-for-field-service-version-8-update-release-2/)     | [7.5.4.51](https://cloudblogs.microsoft.com/dynamics365/it/2018/11/08/release-notes-for-field-service-version-7-update-release-10/)                       |                                                                                                                                                         |
-|                                                                                                                                         | [7.5.0.60](https://cloudblogs.microsoft.com/dynamics365/it/2018/05/08/release-notes-for-field-service-and-project-service-automation-update-release-5-2/) |                                                                                                                                                         |
-|                                                                                                                                         | [7.4.1.31](https://cloudblogs.microsoft.com/dynamics365/it/2018/04/03/release-notes-for-field-service-and-project-service-automation-update-release-5/)   |                                                                                                                                                         |
-|                                                                                                                                         | [7.4.0.74](https://cloudblogs.microsoft.com/dynamics365/it/2018/02/22/release-notes-for-field-service-and-project-service-automation-update-release-4/)   |                                                                                                                                                         |
+| [8.8.3.533](https://cloudblogs.microsoft.com/dynamics365/it/2019/09/10/enhancements-and-bug-fixes-for-field-service-version-8-8-3-533/) | Not supported. | Not supported. |
+| [8.8.2.160](https://cloudblogs.microsoft.com/dynamics365/it/2019/08/11/enhancements-and-bug-fixes-for-field-service-version-8-8-2-160/) | ||
+| [8.8.1.45](https://cloudblogs.microsoft.com/dynamics365/it/2019/07/07/enhancements-and-bug-fixes-for-field-service-version-8-8-1-45/)   |||
+| [8.8.0.88](https://cloudblogs.microsoft.com/dynamics365/it/2019/06/10/release-notes-for-field-service-version-8-8-0-88/)                | ||
+| [8.7.0.105](https://cloudblogs.microsoft.com/dynamics365/it/2019/05/06/release-notes-for-field-service-version-8-7-0-105/)              | ||
+| [8.6.0.274](https://cloudblogs.microsoft.com/dynamics365/it/2019/04/06/release-notes-for-field-service-version-8-6-0-274/)              |||
+| [8.5.0.345](https://cloudblogs.microsoft.com/dynamics365/it/2019/03/07/release-notes-for-field-service-version-8-5-0-345/)              |||
+| [8.4.0.338](https://cloudblogs.microsoft.com/dynamics365/it/2019/02/11/release-notes-for-field-service-version-8-4-0-338/)              |||
+| [8.3.0.255](https://cloudblogs.microsoft.com/dynamics365/it/2018/12/21/release-notes-for-field-service-version-8-update-release-3/)     |||
+| [8.2.0.286](https://cloudblogs.microsoft.com/dynamics365/it/2018/11/08/release-notes-for-field-service-version-8-update-release-2/)     |||
 
  
 ## Field Service Mobile
 
-### Version 12.1.20
+### Version 12.1.211
 -	App crashes when wrong url is entered on sign in screen
 -	FSM app crashes when sending logs if networkLog.txt does not exit
 -	FSM app crashes when connecting to an org without woodford
@@ -132,7 +140,7 @@ To see older bug fixes, see the following links to blog posts:
 -	Conditionally displaying a URL via a shared-variable linked field does not update icon
 
 
-### Version 12.1
+### Version 12.1.203
 
 - Win10: Use standard fileIO methods (except open & delete) 
 - When copying DynamicEntity, copy the partylist not just the pointer 
@@ -179,7 +187,7 @@ To see older bug fixes, see the following links to blog posts:
 - Server error appearss when users with FS Dispatcher privileges try to create Customer Asset in online mode
 
 
-### Version 11.3
+### Version 11.3.107
 
 - Fixed saving of offline Booking Signatures
 - Fixed update address button error message
