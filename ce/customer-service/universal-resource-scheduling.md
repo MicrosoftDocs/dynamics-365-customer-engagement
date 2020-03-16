@@ -47,7 +47,7 @@ Use the following input and output parameters for the Search Resource Availabili
 |RequirementSpecification |Integer| No | If left null, respects the targeting requirement group duration by default|
 | Start | DateTime | No | If left null, respects the targeting requirement group start by default|
 | End |DateTime| No | If left null, respects the targeting requirement group end by default |
-| Fulfillment Preference | No | respects interval and ResultsPerIntervals fields only. If left null, respects the interval and `ResultPerInterval` fields of the targeting requirement group.|
+| Fulfillment Preference| | No | respects interval and ResultsPerIntervals fields only. If left null, respects the interval and `ResultPerInterval` fields of the targeting requirement group.|
 |Settings |Integer| No | Settings for the request. Beyond the solution version and requirement details, you can pass along Settings for more filtered results such as retrieving available resources within a specific distance radius. Settings are specified as attributes in an entity bag|
 | ConsiderSlotsWithOverlappingBooking | Boolean | No | Specifies if time slots with overlapping bookings should be considered when computing potential time slots. It is `false` by default|
 | ConsiderSlotsWithProposedBooking | Boolean | No | Specifies if time slots with proposed bookings should be considered when computing potential time slots.It is `false` by default|
@@ -61,33 +61,33 @@ Use the following input and output parameters for the Search Resource Availabili
 
 ## Output
 
-| |  |
-|-|--|
-|Time slot |StartTime (DateTime)                 |
-|         |EndTime (DateTime)                    |
-|         |ArrivalTime (DateTime)                |
-|         |Effort (Double)                       |
-|         |IsDuplicate (Boolean)                 |
-|         |Resource (Resource)                   |
-|         |Location (TimeSlotLocation)           |
-|         |TimeGroup (TimeSlotTimeGroup)         |
-|         |AvailableIntervals (List<<Guide>OutputTimeSlot>)|
-|Resource |Resource (EntityReference)|
-|         |BusinessUnit (EntityReference) |
-|         |OrganizationUnit (EntityReference) |
-|         |ResourceType (Int)                 |
-|         |PoolID (Guid)                      |
-|         |CrewID (Guid)                      |
-|         |Email (String)                     |
-|         |Phone (String)                     |
-|         |ImagePath (String)                 |
-|Requirements|Requirement (EntityReference)   |
-|            |ConstrainBag (String)           |
-|            |Resource (List<<EntityReference>EntityReference>)   |
-|ProposalResourceAssignmentSet|IntervalStart (DateTime)|
-|   |ProposalResourceAssignment (List<<OutputProposalResourceGroup>OutputProposalResourceGroup>)|
-|Paginginfos |MoreResults (Boolean)|
-|            |PagingCookie (String)|
+|Returns | Name(Type)  | Description |
+|---|---|---|
+|Time slot(Entity collection) |StartTime (DateTime) | The start time.|
+|         |EndTime (DateTime)                    |The end time.|
+|         |ArrivalTime (DateTime)                |The arrival time.|
+|         |Effort (Double)                       |The effort/capacity.|
+|         |IsDuplicate (Boolean)                 |A Boolean value indicating if the time slot is a duplicate.|
+|         |Resource (Resource)                   |The Resource entity as explained below |
+|         |Location (TimeSlotLocation)           |The entity contains details about the location of a time slot. See the below TimeSlotLocation for more details |
+|         |TimeGroup (TimeSlotTimeGroup)         |The entity contains details about a time group. See the below TimeSlotTimeGroup for more details |
+|         |AvailableIntervals (List<<Guide>OutputTimeSlot>)|A collection of available intervals.|
+|Resource |Resource (EntityReference)|An entity reference to the bookable resource.|
+|         |BusinessUnit (EntityReference) |An entity reference to the bookable resource group.|
+|         |OrganizationUnit (EntityReference) |An entity reference to the organizational unit.|
+|         |ResourceType (Int)                 |The resource type. See the resourcetype attribute on the BookableResource entity for possible values.|
+|         |PoolID (Guid)                      |The Id of the pool that the resource is a member of for the duration of the time slot.|
+|         |CrewID (Guid)                      |The Id of the crew that the resource is a member of for the duration of the time slot.|
+|         |Email (String)                     |The resource’s email address.|
+|         |Phone (String)                     |The resource’s phone number.|
+|         |ImagePath (String)                 |The path to the resource’s image.|
+|Requirements|Requirement (EntityReference)   |An entity reference to the Resource Requirement record|
+|            |ConstrainBag (String)           |Requirement constraint in ufx bag(internal)|
+|            |Resource (List<<EntityReference>EntityReference>)   |Entity reference list of resource that is available to the requirements|
+|ProposalResourceAssignmentSet|IntervalStart (DateTime)|Start Time for each proposal resource assginement set|
+|   |ProposalResourceAssignment (List<<OutputProposalResourceGroup>OutputProposalResourceGroup>)|List of Resource assign to Requirement|
+|Paginginfos |MoreResults (Boolean)|If there are more results or not.|
+|            |PagingCookie (String)|Paging cookie that can be used in the future search.|
 
 
 ### Example
