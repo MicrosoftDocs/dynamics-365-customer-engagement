@@ -44,7 +44,7 @@ You can configure the wait time and the notification is displayed for the agent 
 
 #### Allow a browser to show notifications
 
-To get desktop notifications, agents need to allow their browser (Microsoft&nbsp;Edge or Google Chrome) to show them. When an agent gets a browser notification, they need to select **Allow**.
+To get desktop notifications, agents need to allow their browser (Microsoft Edge or Google Chrome) to show them. When an agent gets a browser notification, they need to select **Allow**.
 
 Also, as an administrator, you can set the browser notification permission by using group policy.
 
@@ -70,7 +70,7 @@ Also, as an administrator, you can set the browser notification permission by us
     | General | Timeout (seconds) | Provide a duration in seconds; after this duration, the notification disappears. | 120 <br><br> **Note:** This is the default value. You can change the duration as per your requirement.
     | General | Accept Button | Specify a text for the Accept button. This text appears for the agents to accept a conversation request. | Accept <br><br> **Note:** This is the default value. You can change the text as per your requirement. |
     | General | Reject Button | Set the toggle to **Yes** if you want to show the Reject button to agents. <br> After you set the toggle to Yes, the button text box appears. Specify a text for the Reject button. This text appears for the agents to reject a conversation request. | Reject <br><br> **Note:** This is the default value. You can change the text as per your requirement. |
-    | General | Show desktop notifications | Specify whether you want to show notifications to the agents when the model-driven app not in focus. | When app is in background <br><br> **Note:** <br>- **Never** is the default value. <br> - Currently, this option is on Preview. To learn more, see [Desktop notification when app is in background](#desktop-notification-when-app-is-in-background) and [Receive notification when app is in background](../agent/agent-oc/oc-notifications.md#receive-notification-when-app-is-in-background). |
+    | General | Show desktop notifications | Specify whether you want to show notifications to the agents when the model-driven app not in focus. | When app is in background <br><br> **Note:** <br>- **Never** is the default value. <br> - Currently, this option is on Preview. To learn more, see [Desktop notification when app is in background](#desktop-notifications-when-the-app-is-in-the-background). |
 
 ![Create a notification template](../media/create-notification-template.png "Create a notification template")
 
