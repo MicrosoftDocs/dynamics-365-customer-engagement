@@ -1,7 +1,7 @@
 ---
-title: "Disable back office order processing integration (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Learn how to disable the back office order processing integration to stop the order from synching with external systems."
-ms.date: 02/03/2020
+title: "Troubleshooting related to the Order entity (Dynamics 365 Sales) | MicrosoftDocs"
+description: "Learn how to troubleshoot issues with the Order entity in Dynamics 365 Sales."
+ms.date: 03/31/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -10,7 +10,11 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Sales order processing integration is enabled for me. How do I disable it?
+# Troubleshooting related to the Order entity 
+
+This topic helps you troubleshoot and resolve issues related to the Order entity.
+
+## Sales order processing integration is enabled for me. How do I disable it?
 
 Sales order processing integration connects Dynamics 365 Sales with an external back-office order processing application. It allows a sales order created in Dynamics 365 Sales to be submitted, after which the order can be synchronized with an external order processing application, where the lifecycle of the order continues. When the integration is enabled, users don't see the **Create Invoice** button on the Order records. If the integration is enabled unintentionally, you can disable it.  
 
