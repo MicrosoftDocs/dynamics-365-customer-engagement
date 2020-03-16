@@ -72,7 +72,7 @@ Also, as an administrator, you can set the browser notification permission by us
     | General | Reject Button | Set the toggle to **Yes** if you want to show the Reject button to agents. <br> After you set the toggle to Yes, the button text box appears. Specify a text for the Reject button. This text appears for the agents to reject a conversation request. | Reject <br><br> **Note:** This is the default value. You can change the text as per your requirement. |
     | General | Show desktop notifications | Specify whether you want to show notifications to the agents when the model-driven app not in focus. | When app is in background <br><br> **Note:** <br>- **Never** is the default value. <br> - Currently, this option is on Preview. To learn more, see [Desktop notification when app is in background](#desktop-notifications-when-the-app-is-in-the-background). |
 
-![Create a notification template](../media/create-notification-template.png "Create a notification template")
+    ![Create a notification template](../media/create-notification-template.png "Create a notification template")
 
 5.	Select **Save** to save the notification template. After you save, the **Notification Fields** section appears in the page.
 
