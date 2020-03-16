@@ -28,7 +28,7 @@ Many organizations have Line of business (in-house) messaging channels that they
 
 So as an organization, you want an ability to integrate your Line of business (in-house), social, or any other messaging channels with Omnichannel for Customer Service. 
 
-The custom channel feature lets you integrate your Line of business (in-house), social, or any other messaging channels with Omnichannel for Customer Service so as to engage with customers. A few social messaging channel integration that are supported are as follows:
+The custom channel feature lets you integrate your Line of business (in-house), social, or any other messaging channels with Omnichannel for Customer Service so as to engage with customers. A few messaging channel integration that are supported are as follows:
 
 - Kik
 - Telegram
@@ -157,9 +157,11 @@ To create a custom channel, follow the steps:
     > ![Create a custom channel](../media/custom-channel-4.png "Create a custom channel")
 
 
-## Bring channels using Direct Line
+## Bring channels using Direct Line 
 
-The Bot Framework **Direct Line** channel is another way to integrate your messaging channels into the Omnichannel for Customer app.
+If you want to help your customers using your Line of Business (in-house) messaging channels, you can use the Direct Line channel (Bot Framework method).
+
+The Bot Framework **Direct Line** channel helps you to integrate your Line of Business (in-house) messaging channels into the Omnichannel for Customer app.
 
 For more information, see [Here, link will updated for the dev topic (Sushant sikka is the owner of dev docs)]().
 

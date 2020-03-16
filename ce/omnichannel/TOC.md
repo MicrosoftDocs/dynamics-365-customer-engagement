@@ -28,6 +28,7 @@
 ### [Integrate a Power Virtual Agents bot](administrator/configure-bot-virtual-agent.md)
 
 ### Channels
+#### [Overview of channels](administrator/channels.md)
 #### Chat
 ##### [Configure a chat channel](administrator/set-up-chat-widget.md)
 ##### [Add a chat widget](administrator/add-chat-widget.md)
