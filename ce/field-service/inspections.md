@@ -47,82 +47,111 @@ Creating and using Inspections is simple and involves the following steps:
 In this article we will walk through an example of setting up an inspection using an maintenance checklist on a customer asset as an example.
 
 ## Prerequisites
-Public preview April 2020
 
-Minimum supported CRM version for Inspections to work is 9.1.0000.15015
+Inspection capabilities are released in April 2020 as part of a Public preview. Register at the [Insider portal](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.dynamics.com%2Finsider%2F&data=02%7C01%7Cdaclar%40microsoft.com%7Cf2fcec37b6da46c81e4d08d7c48437ad%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637193944500083444&sdata=5HYsnA1J3S%2BkkL%2BDFb%2F0L4jzbeQERtKO1GNRQu5Yj60%3D&reserved=0) for access. Once added, you will be notified via email and will see "Private Preview for D365 Field Service Inspections" under 'my programs' on your Insider Programs Page. Please use “Forums” and “Program Feedback” to give us your inputs and feedback.
 
-Work orders set up with data
+Dynamics 365 version 9.1.0000.15015+
 
-submit request on insider form
-
-Preview will be available shortly for selected participants. Reaching out since you had expressed interest in providing feedback. If you would be interested in joining the insider preview program then please register at the Insider portal here and respond back to me. We will then enroll you into the preview program. Once added, you will be notified via email and will be able to see Private Preview for D365 Field Service Inspections under 'my programs' on your Insider Programs Page. Please use “Forums” and “Program Feedback” to give us your inputs and feedback. As the preview for Field Service Inspections becomes available there will be detailed instructions available on how to install. We sincerely appreciate your interest and help in making the Field Service inspections better. 
-
-> [!Note]
->
-
+Knowledge of work order [incident types and service tasks](.configure-incident-types.md) is encouraged.
 
 
 ## Create inspection template
+
+First create an inspection template that can be reused and added to multiple work orders.
+
+From the Field Service app go to **Settings > Inspections > +New**.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-navigate.png)
 
+Name your inspection and drag and drop question types from the right side.
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-create.png)
+
+Use the **Required** toggle to make the inspection quesiton mandatory in order for the technician to sae the inspection later on.
+
+Question types Checkbox, Radiogroup, and Dropdown are similar except the Checkbox question type is multi-select whereas Radiogroup and Dropdown allow for a single answer. The difference between Radiogroup and Dropdown is a cosmetic and user experience difference.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-create2.png)
 
+By selecting the Gear icon you can add more details for an inspection question. As an example, we specified the Pressure gauge reading (PSI) question must be a number format.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-create-advanced-number.png)
 
 
-
+Use the Preview section to view the inspection from a technician's perspective.
 
 > [!Note]
-> Once you publish you cannot edit
+> Once you publish the inspection you cannot edit it. 
+
+When finished creating the inspection, select Publish at the top. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-create-preview-publish.png)
 
 
-> [!Note]
-> Cannot create inspection on mobile
-
 ## Associate inspection to service task type
 
+Next associate the inspection template to a Service Task Type. This has to be done because inspections are not added directly to work orders, they are added as part of Work Order Service Tasks.
+
+In the same Settings section, go to Service Task Types.
+
+Select an existing Service Task Type or create a new one.
+
+Set **Inspection **to **Yes**.
+
+In the **Inspection Form** field, select the Inspection template you just created.
+
+The inspection form will appear below.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-service-task.png)
 
-> [!Note]
-> Can add the service task type to an incident type as needed
+
+It is common to add service task types to incident types to bundle work together. However this is not required because you can add individual service tasks to work orders as we'll see later on. In the image below, the "Fire extinguisher inspection" service task was associated to the "Fire system maintenance" incident type.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-service-task-incident-type.png)
 
+You only need to create an inspection and associate it to a service task once for each inspection template.
 
 ## Add inspection to work order
 
+After creating a work order, go to the Service Tasks section and add the Service Task Type to your work order.
+
+Alternatively, your inspection service task can be added to the work order via a work order incident type. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-service-task-work-order.png)
+
+The inspection form that will be completed by technicians will be visible on the bottom of the work order service task form.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-service-task-work-order-drill-down.png)
 
-## Perform inspection 	
+## Perform inspection 
+
+After the work order is scheduled to the appropriate technician, he or she can view and complete the inspection two ways:
+
+1. On his or her mobile phone or tablet using the **Microsoft Dynamics 365** mobile app. This is different than Field Service Mobile.
+2. Logging in to Field Service in a web browser on a mobile device or PC.
+
+
+For the first option, go to your devices app store and download the **Microsoft Dynamics 365** mobile app
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-mobile-download-app.png)
 
+Then log in with your Dynamics 365 URL, username and password and go to the assigned work order.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-mobile-nav.png)
@@ -133,16 +162,25 @@ Click on the Work Order Service Task (and not the Service Task Type).
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-mobile-wost.png)
 
+Find the inspection form and enter answers.
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-mobile-inspection-form.png)
+
+When finished, the technician can enter a **Complete %**, **Result**, and an **Actual Duration**.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-mobile-mark-complete.png)
 
-inspections-mobile-validation
 
+If an inspection question is required, the technician will not be able to Mark Complete until it is answered.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inspections-mobile-validation.png)
+
+If needed a technician can select Clear Responses to start over. This will permanently delete all responses.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-mobile-wost-clear-responses.png)
@@ -150,26 +188,44 @@ inspections-mobile-validation
 
 ## View responses
 
+Back in Dynamics 365, a dispatcher will see inspection responses.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-complete-web.png)
 
+## Inspections for Customer Assets
 
+To relate the inspection to a customer asset to build service history, enter the customer asset in the  Service Task Relates To section of the 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inspections-wost-customer-asset.png)
 
 ## Configuration considerations
-- is each question in CDS?
-- branching logic
-- reporting on responses
-- FS Mobile
-- PDF capability for reporting
-- inspecting X assets at a location
 
-## FAQs
+- Only single responses are supported and a technician cannot fill out the same inspection twice for a single work order service task. If the responses are cleared or answered again, the original responses are deleted ad only the latest responses are saved.
+
+### Security roles needed to use inspections
+
+- **Field Service-Administrators** can create inspection templates and associate them to Service Task Types. 
+- **Field Service-Dispatchers** can add Service Tasks with Inspections to Work Orders.
+- **Field Service-Resources** can view work orders they are asigned and work order service tasks and the related inspections.
+
+### Using inspections vs. Service Tasks vs. PowerApp
+
+The main advantage of inspections is they are easier to create and easier to fill out compared to work order service tasks or a custom powerapp, as both may require creating additional fields and entities; and in the case of work order service tasks, the technician must open and save each one. If you find yourself adding more than 10 service tasks to a work order, or creating a powerapp with more than 10 questions, it is worth considering using inspections instead. 
+
+### Inspecting X number of assets at a location
+
+Let's say a technician needs to inspect 10 customer assets at a customer's location. To accommodate this scenario, administrators can create one inspection with 10 questions, one for each asset and associate the single inspection to a single service task; or create 10 work order service tasks each with one inspection. When deciding, keep in mind work order service tasks can be associated to customer assets to build service history that is viewable on the customer asset record. This means creating 10 service tasks each related to a different customer asset has the advantage of helping you build service history. The advantage of utilizing a single service task with multiple questions has the benefit of being easier to add to a work order and quicker to fill out. 
 
 ## Additional Notes
-secuirty roles?
-vs. powerapps? - ok if have small handful, this inspections is better for more than 10
-	- Difference between inspections and incidents and service tasks
-	- Limits?
-	- Known limitations 
-Only single response , need to add multiple incidents
+
+- Support for Field Service Mobile is not part of the April 2020 public preview and is **planned**.
+- The ability to **create reports based on specific inspections responses** is not part of the April 2020 public preview and is **planned**.
+- The ability to create **branching logic** where inspection questions hide and appear based on other inspections responses is not part of the April 2020 public preview and is **planned**.
+- Each inspection template and inspection question is stored in the Common Data Model, storing and retreiving each inspection response in the Common Data Model is not part of the April 2020 public preview and is **planned**.
+- The ability to have an inspection approved before being published is not part of the April 2020 public preview and is **planned**.
+
+
+## Questions for neha:
+
+If you are an admin, can you create an inspection from the mobile app?
