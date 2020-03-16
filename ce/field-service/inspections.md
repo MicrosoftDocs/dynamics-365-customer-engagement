@@ -195,9 +195,19 @@ Back in Dynamics 365, a dispatcher will see inspection responses.
 
 ## Inspections for Customer Assets
 
-To relate the inspection to a customer asset to build service history, enter the customer asset in the  Service Task Relates To section of the 
+To relate the inspection to a customer asset to build service history, enter the customer asset in the **Service Task Relates To** section of the Work Order Service Task that holds the inspection.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-wost-customer-asset.png)
+
+Doing so will allow the technician to see which customer asset to perform the inspection for and from the customer asset can see all related inspection history.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inspections-custoiner-asset-service-history.png)
+
+> [!Note]
+> If you relate a work order incident type to a customer asset, the related work order service tasks will be related to the customer asset automatically.
 
 ## Configuration considerations
 
