@@ -55,7 +55,7 @@ To add the Parent field through customization:
 To add the Parent field through solution import/export wizard:
 
 In the custom solution, add the following row in Product main form –
- ```
+ ```XML
 <row>
 <cell id="{faaa2942-4737-4721-9a19-7dcbf4eb2911}" showlabel="true" locklevel="0" colspan="2">
 <control id="editableParentControl" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="parentproductid" disabled="false">
