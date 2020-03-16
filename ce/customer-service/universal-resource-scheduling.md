@@ -220,7 +220,7 @@ The following image is an example configuration of the Resource Requirement Grou
 In this next scenario, we show how to pass values for a specific requirement group (Entity Reference - GUID), Required Resources<!--what is this?--> to complete work and match the resource to the organizational unit.      
 
 > [!IMPORTANT] 
-> - To run the API<!--are we still talking about the Requirement Group API?-->, you need GUIDs for:
+> - To run the Requirement Group API, you need GUIDs for:
 >   - Requirement group
 >   - Bookable resources
 >   - Organizational unit (which can be retrieved by using the [Web API](/powerapps/developer/common-data-service/webapi/query-metadata-web-api))
@@ -230,7 +230,7 @@ In this next scenario, we show how to pass values for a specific requirement gro
 To execute this search against your organization, you need to download the [sample files](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/service-scheduling/search-resource-availability-create-bookings), and then follow the steps below:   
 
 1. Modify the hard-coded input parameters in the msdyn_SearchResourceAvailabilityForRequirementGroupSample.js file to reflect the GUIDs of records in your org. (Example: requirement group, resources, organizational unit).    
-<!--Can you rewrite the alt text for the following graphics? It shouldn't all be the same. It should describe what's unique and useful about the graphic.-->
+
 ![Modify the hard-coded input parameters](media/ur-scheduling-5.PNG)
 
 [Sample Search Requirement Group](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/sushant-service-scheduling/customer-service/master/search-resource-availability-create-bookings)
@@ -377,7 +377,7 @@ To migrate from the legacy Search API and Book API to the Universal Resource Sch
 |TraceInfo | |
 |ExtensionDataObject | | 
 |   |Time Slots|
-|   |Requirements(contraintbag)<!--what is this?--> |
+|   |Requirements(contraintbag) |
 |   |PagingInfos |
 
 ## Example scenarios for migrating from the legacy scheduling API to Universal Resource Scheduling
@@ -390,11 +390,11 @@ The scenario-based examples in this section add more details about mapping from 
 
 ![Legacy setup screenshot for reference for scenario 1](media/ur-scheduling-16-new.png "Legacy screenshot for reference for scenario 1")
 
-1. Create one site (**Site1**), one user (**User1**), and one equipment resource (**Facility/Equipment** tab)<!--is this what "facility/equipment" means? --> (**Eq1**) with the site set to Site1. 
+1. Create one site (**Site1**), one user (**User1**), and one equipment resource (**Facility/Equipment** tab), with the name **Eq1**, with the site set to **Site1**. 
 
 2. Create the business closure and work hours for the user (8:00 AM to 6:00 PM) and the equipment (8:00 AM to 6:00 PM). 
 
-3. Create a new service (**Service1**), and then add **required resources** as **Choose 2** from User1, Eq1.<!--I'm confused about what's going on in this sentence. Please check that these are actually UI strings (and if they aren't, please supply the UI in bold.--> Save and close the service.
+3. Create a new service (**Service1**), and then add **required resources** as **Choose 2** from User1, Eq1. Save and close the service.
 
 ![Schedule Service Activity screenshot for scenario 1](media/ur-scheduling-17-new.png "Service Activity screenshot for scenario 1")
 
@@ -446,7 +446,7 @@ RequestName = "msdyn_SearchResourceAvailabilityForRequirementGroup"
 1. Create the following: 
   - Two sites: Micr0s0ftSite1 and Site2
   - Two users: User1 and User2 (Site2)
-  - Two equipment resources on the **Facility/Equipment** tab<!--Is this correct for the UI string? --> (Eq1, Eq2), where Eq1 belongs to Site1 and Eq2 belongs to Site2
+  - Go to **Settings**> **Service management** tab and create a site(with the name `Site1`), two resources on the **Facility/Equipment** tab (namely, Eq1 and Eq2) and go to setting> Security and create a user(User1). Two equipment resources on the **Facility/Equipment** tab<!--Is this correct for the UI string? --> (Eq1, Eq2), where Eq1 belongs to Site1 and Eq2 belongs to Site2
  
 2. Create the business closure and work hours for the user (8:00 AM to 6:00 PM) and the equipment (8:00 AM to 6:00 PM). 
 
@@ -454,7 +454,7 @@ RequestName = "msdyn_SearchResourceAvailabilityForRequirementGroup"
 
 ![Service Activity screenshot for scenario 2](media/ur-scheduling-19-new.png "Service Activity screenshot for scenario 2")
 
-4. Go to the homepage > **Service Activity** > **Schedule**, and then select the service you created in step 3. Select the site as **Site1**, and then select **Search for a specific start and end time**. 
+4. Go to the homepage > **Service Activity** > **Schedule**, and then select the service you created in step 3. Select the site as **Site1**, and then click on **Find available time**. 
 
 5. Verify that the search results that are returned are correct for the site selected in the search criteria.
 
