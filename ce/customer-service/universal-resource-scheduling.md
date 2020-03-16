@@ -4,7 +4,7 @@ description: See how you can effectively search resource availability and create
 author: lerobbin
 ms.author: lerobbin
 manager: shujoshi
-ms.date: 03/10/2020
+ms.date: 03/16/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -454,7 +454,7 @@ RequestName = "msdyn_SearchResourceAvailabilityForRequirementGroup"
 
 ![Service Activity screenshot for scenario 2](media/ur-scheduling-19-new.png "Service Activity screenshot for scenario 2")
 
-4. Go to the homepage > **Service Activity** > **Schedule**, and then select the service you created in step 3. Select the site as **Site1**, and then select **Search for a specific start and end time**<!--is this the UI string? If not, please adjust the formatting. -->. 
+4. Go to the homepage > **Service Activity** > **Schedule**, and then select the service you created in step 3. Select the site as **Site1**, and then select **Find Available Time** button. 
 
 5. Verify that the search results that are returned are correct for the site selected in the search criteria.<!--is this what "per the site" means? --> 
 
