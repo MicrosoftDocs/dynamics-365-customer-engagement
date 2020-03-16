@@ -143,8 +143,9 @@ To learn more, see [Create a work stream](../../administrator/work-streams-intro
 Programmatically, you can change the default time and set it as per your organization's requirements using the Web APIs. To learn more, see [Automatic closure of a conversation](../../developer/auto-close-conversation.md).
 
 > [!div class="nextstepaction"]
-> [View communication panel](oc-conversation-control.md)
+> 
 
 ## See also
 
-[Automatic closure of a conversation](../../developer/auto-close-conversation.md)
+- [View communication panel](oc-conversation-control.md)
+- [Automatic closure of a conversation](../../developer/auto-close-conversation.md)
