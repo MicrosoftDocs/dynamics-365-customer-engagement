@@ -86,27 +86,27 @@ Omnichannel system supports the following slugs.
 
 ## Create a notification template
 
-1.    Sign in to the Omnichannel Administration app.
+1. Sign in to the Omnichannel Administration app.
 
-2.    Select **Notifications** under **Agent Experience** in the sitemap.
+2. Select **Notifications** under **Agent Experience** in the sitemap.
 
-3.    Select **+ New** in the **Active Notifications** page.
+3. Select **+ New** in the **Active Notifications** page.
 
-4.    Specify the following in the **New Notification** page.
+4. Specify the following in the **New Notification** page.
 
-   | Tab | Name | Value description | Example |
-   |---------|--------------------|-----------------------------------------------|--------------------|
-   | General | Name | Specify the name for the notification. This name wouldn't be visible for the agents at the run-time. | Authenticated chat notification |
-   | General | Title | Provide a title to the notification that you want the agents to see at the run-time. | Incoming chat conversation |
-   | General | Icon | Select web resource path to add an icon. | /webresources/msdyn_chat_icon_zfp.svg <br><br> **Note:** <br>- This is the default value. You can change the icon as your requirement. <br> - If you enable the **Show desktop notifications** option, and if you use svg icon format, then the svg icon won't be shown in the desktop notifications.  |
-   | General |Show timeout| Yes |Set **Yes** to show the timer in the notification, or **No** to hide the timer in the notification for the agents. <br><br> **Note:** <br> - Irrespective of whether you set **Yes** or **No** to show or to hide the timeout value for the agent, the timer runs, and after the timeout duration, the notification disappears. <br> - **Yes** is the default value for the templates when you get the latest release  of Omnichannel for Customer Service freshly. <br> - When you upgrade from previous to the latest release of Omnichannel for Customer Service, then already existing notification templates will show no value for this field in the user interface. However, the notification templates considers the values as **Yes**, and displays the timer to the users at the runtime.<br> - If you enable the **Show desktop notifications** option, then the timer won't be shown in the desktop notifications. |
+    | Tab | Name | Value description | Example |
+    |---------|--------------------|-----------------------------------------------|--------------------|
+    | General | Name | Specify the name for the notification. This name wouldn't be visible for the agents at the run-time. | Authenticated chat notification |
+    | General | Title | Provide a title to the notification that you want the agents to see at the run-time. | Incoming chat  conversation |
+    | General | Icon | Select web resource path to add an icon. | /webresources/msdyn_chat_icon_zfp.svg <br><br> **Note:** <br>- This is the default value. You can change the icon as your requirement. <br> - If you enable the **Show desktop notifications** option, and if you use svg icon format, then the svg icon won't be shown in the desktop notifications.  |
+    | General |Show timeout| Yes |Set **Yes** to show the timer in the notification, or **No** to hide the timer in the notification for the agents. <br><br> **Note:** <br> - Irrespective of whether you set **Yes** or **No** to show or to hide the timeout value for the agent, the timer runs, and after the timeout duration, the notification disappears. <br> - **Yes** is the default value for the templates when you get the latest release  of Omnichannel for Customer Service freshly. <br> - When you upgrade from previous to the latest release of Omnichannel for Customer Service, then already existing notification templates will show no value for this field in the user interface. However, the notification templates considers the values as **Yes**, and displays the timer to the users at the runtime.<br> - If you enable the **Show desktop notifications** option, then the timer won't be shown in the desktop notifications. |
    | General | Timeout (seconds) | Provide a duration in seconds; after this duration, the notification disappears. | 120. <br><br> **Note:** This is the default value. You can change the duration as per your requirement.
    | General | Accept Button | Specify a text for the accept button. This text appears for the agents to accept a conversation request. | Accept <br><br> **Note:** This is the default value. You can change the text as per your requirement. |
    | General | Reject Button | Set the toggle to yes if you want to show the reject button to agents. <br> After you set the toggle to Yes, the button text box appears. Specify a text for the accept button. This text appears for the agents to reject a conversation request. | Reject <br><br> **Note:** This is the default value. You can change the text as per your requirement. |
    | General | Show desktop notifications | Specify whether you want to show notifications to the agents when the Omnichannel for Customer Service app not in focus. | When app is in background <br><br> **Note:** <br>- **Never** is the default value. <br> - Currently, this option is on Preview. To learn more, see [Desktop notification when app is in background](#desktop-notifications-when-the-app-is-in-the-background) and [Receive notification when app is in background](../agent/agent-oc/oc-notifications.md#receive-notification-when-the-app-is-in-the-background). |
 
-   > [!div class=mx-imgBorder] 
-   > ![Create notification template](../media/notification-template1.png "Create notification template")
+    > [!div class=mx-imgBorder] 
+    > ![Create notification template](../media/notification-template1.png "Create notification template")
 
 5. Select **Save** to save the notification template. After you save, the **Notification Fields** section appears on the page.
 
@@ -118,14 +118,14 @@ Omnichannel system supports the following slugs.
 
 9. Specify the following in the **New Notification Field** page.
 
-   | Tab | Name | Value description | Example |
-   |---------|--------------------|-----------------------------------------------|--------------------|    
-   | General | Name | Specify the name for the notification. This name won't be visible to the agents at the runtime. | Name of the customer |
-   | General | Field header | Provide a name to the field header. This appears in the notification that agents see at the runtime. | Name |
-   | General | Value | Provide a slug value that appears against **Field header** in the notification. <br><br> To learn more, see [Slug for notification field header](#slug-for-notification-field-header). |{customerName} |
+    | Tab | Name | Value description | Example |
+    |---------|--------------------|-----------------------------------------------|--------------------|    
+    | General | Name | Specify the name for the notification. This name won't be visible to the agents at the runtime. | Name of the customer |
+    | General | Field header | Provide a name to the field header. This appears in the notification that agents see at the runtime. | Name |
+    | General | Value | Provide a slug value that appears against **Field header** in the notification. <br><br> To learn more, see [Slug for notification field header](#slug-for-notification-field-header). |{customerName} |
 
-  > [!div class=mx-imgBorder]
-  > ![Create notification field](../media/notification-field.png "Create notification field")
+    > [!div class=mx-imgBorder]
+    > ![Create notification field](../media/notification-field.png "Create notification field")
 
 10. Select the back arrow on the browser to go to the notification template you created. Alternatively, you can select **Notifications** in the sitemap and then select the template you created.
 
