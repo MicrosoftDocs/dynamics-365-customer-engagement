@@ -1,6 +1,6 @@
 ---
 title: "Configure a Facebook channel | MicrosoftDocs"
-description: "Instructions to configure a Facebook channel in Omnichannel for Customer Service."
+description: "Instructions on how to configure a Facebook channel in Omnichannel for Customer Service."
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
@@ -119,22 +119,22 @@ After you add a Facebook page, values for **Callback Uri** and **Verify Token** 
 
 You can enable or disable the capability for your agents and customers to send file attachments during a Facebook channel conversation. 
 
-When you enable the option for customers in the Facebook page configuration, customers can send attachments from their messenger. Similarly, When you enable the option for agents in the Facebook page configuration, agents can send the attachments from the communication panel to the customers. To know how to enable the option, see step 6 in [Create a Facebook channel](#step-2-create-a-facebook-channel).
+When you enable the option for customers in the Facebook page configuration, customers can send attachments from their messenger. Similarly, when you enable the option for agents in the Facebook page configuration, agents can send the attachments from the communication panel to the customers. To learn how to enable the option, see step 6 in [Create a Facebook channel](#step-2-create-a-facebook-channel).
 
 If an agent transfers the conversation to another agent, the agent who receives the chat can also access the files attached in the conversation.
 
 ### File size limit and unsupported extensions (types) for attachments
 
-By default, Omnichannel for Customer Service has a file size limit of 5 Megabytes (5120 Kilobytes). However, you can configure the file as your organization requirements. 
+By default, Omnichannel for Customer Service has a file size limit of 5 megabytes (MB) (5,120 kilobytes). However, you can configure the file as per your organization's requirements. 
 
 > [!Tip]
-> We recommend you to configure a maximum limit of 25 Megabytes (25600 Kilobytes) as Facebook messenger's file size limit is 25 Megabytes.
+> We recommend that you configure a maximum limit of 25 MB (25,600 kilobytes) because the Facebook messenger file size limit is 25 MB.
 
 You can set the file extension types that customers and agents can share. 
 
 #### Configure file size limit and file extensions
 
-To configure the file size limit and file extensions, follow the steps:
+To configure the file size limit and file extensions, follow these steps:
 
 1. Sign in to Omnichannel Administrator.
 
