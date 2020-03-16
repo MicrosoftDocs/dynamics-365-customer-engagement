@@ -37,27 +37,26 @@ You pass the details of a requirement group in your API calls and retrieve a lis
 ## Search Resource Availability for Requirement Group API
 
 Use the following input and output parameters for the Search Resource Availability for Requirement Group (**msdyn_SearchResourceAvailabilityForRequirementGroup**) API.
-<!--In this table, like many in the topic, it's confusing to have rows with blank columns with no explanation. In a case like the row for RequirementSpecification, if Duration, Start, End, and Fulfillment Preference all pertain to RequirementsSpecification, there should be no row dividers between them. this can be accomplished with HTML table markup -->
 
 ### Parameters
 
 | Name  | Type | Required  | Description  |
 |-----------------|---|---|---|
-|Version | String | Yes | |
-|RequirementGroup | | Yes | |
+|Version | String | Yes |The version number of the API. The version number identifies the version of the API that should be invoked. The version number is a semantic version number of the format major.minor.patch. The request does not have to contain the complete version number. |
+|RequirementGroup | | Yes | An entity reference to the requirement group entity, usually is a GUID, as shown in the below sample|
 |RequirementSpecification |Integer| No | If left null, respects the targeting requirement group duration by default|
 | Start | DateTime | No | If left null, respects the targeting requirement group start by default|
 | End |DateTime| No | If left null, respects the targeting requirement group end by default |
 | Fulfillment Preference | No | respects interval and ResultsPerIntervals fields only. If left null, respects the interval and `ResultPerInterval` fields of the targeting requirement group.|
-|Settings |Integer| No | |
-| ConsiderSlotsWithOverlappingBooking | Boolean | No | `false` by default|
-| ConsiderSlotsWithProposedBooking | Boolean | No | `false` by default|
-| ConsiderSlotsWithLessThanRequiredDuration | Boolean | No | `false` by default|
-| PageSize |Integer| No | |
-| PageNumber |Integer| No | |
-| PageCookie | String | No | |
-| OrganizationUnits ||No| |
-| RequiredSources ||No| |
+|Settings |Integer| No | Settings for the request. Beyond the solution version and requirement details, you can pass along Settings for more filtered results such as retrieving available resources within a specific distance radius. Settings are specified as attributes in an entity bag|
+| ConsiderSlotsWithOverlappingBooking | Boolean | No | Specifies if time slots with overlapping bookings should be considered when computing potential time slots. It is `false` by default|
+| ConsiderSlotsWithProposedBooking | Boolean | No | Specifies if time slots with proposed bookings should be considered when computing potential time slots.It is `false` by default|
+| ConsiderSlotsWithLessThanRequiredDuration | Boolean | No | Specifies if a time slot with less than the required remaining duration should be considered when computing potential time slots.It is `false` by default|
+| PageSize |Integer| No | Numbers of item returned in a page. It is 20 by default|
+| PageNumber |Integer| No | Number of page. It is `-1` by default(-1 means using full paging cookie mode, hence return all results).|
+| PageCookie | String | No | Paging cookie retrieved from previous searching result.|
+| OrganizationUnits |EntityCollection|No| A collection of organization unit Ids. A qualified resource must be a member of one of the specified organization units.|
+| RequiredSources |List<EntityReference>|No| Only the timeslots of these passed list of resources will show in the resulted timeslots. |
 
 
 ## Output
@@ -151,15 +150,15 @@ Use the following input and output parameters for the Create Requirement Group B
 
 |  Name   | Type  | Required | Description   |
 |----------------------------------|---|---------|
-|Version | String | Yes | |
-|RequirementGroup |   |Yes | |
-|Start |DateTime | Yes | |
-|Duration | Integer | Yes  | |
-|ResourceAssignments | GUID | Yes| |
-|Resource | GUID    | Yes | |
-| BookingStatusID | GUID  | Yes | |
-| Effort | Integer  |  Yes| |
-| TravelTime | Integer  | Yes| |
+|Version | String | Yes | The version number of the API. The version number identifies the version of the API that should be invoked. The version number is a semantic version number of the format major.minor.patch. The request does not have to contain the complete version number.|
+|RequirementGroup |   |Yes | An entity reference to the requirement group entity, usually is a GUID, as shown in the below sample.|
+|Start |DateTime | Yes | Start time of the Timeslot. |
+|Duration | Integer | Yes  | The Duration of the Booking to be created.|
+|ResourceAssignments | GUID | Yes| It is an entity collection of the Resource Assisgnments that are to be made for the Bookings to be created. Look at the Resource Assignment entity table for more details |
+|Resource | GUID    | Yes | The bookable resource Id of the Resource to create the booking for. |
+| BookingStatusID | GUID  | Yes | The booking status id of the booking to be created. |
+| Effort | Integer  |  Yes| The capacity of the Bookable Resource that is consumed by this Booking.|
+| TravelTime | Integer  | Yes| The Travel time in minutes.|
 
 ### Output 
 
@@ -197,15 +196,12 @@ The following image is an example configuration of the Resource Requirement Grou
 
 ![Active Requirements Group](media/ur-scheduling-3-new.png "Active Requirements Group")
 
-<!--1. Active Requirements Group-->
-
- > [!NOTE] 
- > To access the **Requirement Group** page from the Customer Service Hub app, you need to navigate there via a URL. 
+> [!NOTE] 
+> To access the **Requirement Group** page from the Customer Service Hub app, you need to navigate there via a URL. 
 
 > [!IMPORTANT]
 > Use the following URL to reach the **Resource Requirements Group** page: <<YourOrgURL>YourOrgURL>?appid=guid&pagetype=entitylist&etn=msdyn_requirementgroupr.
 
-<!--2. Test Requirements Group-->
 
 ![Test Requirements Group](media/ur-scheduling-4-new.png "Test Requirements Group")
 
