@@ -4,7 +4,7 @@ description: "Instructions to configure a Facebook channel in Omnichannel for Cu
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 12/13/2019
+ms.date: 04/01/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -43,7 +43,7 @@ After completing the prerequisites, you can add the Facebook channel for your or
     > [!div class=mx-imgBorder]
     > ![Create a Facebook work stream](../media/fb-workstream.png "Create a Facebook work stream")
 
-5.	Specify other details as required.
+5.	Specify other details as required. To learn more, see [Understand and create work streams](work-streams-introduction.md).
 
 6.	Select **Save**.
 
@@ -85,6 +85,10 @@ After completing the prerequisites, you can add the Facebook channel for your or
     
     - **Work Stream**: Browse and select the work stream you created for the Facebook channel.
 
+    - **Enable file attachments for customers**: Set **Yes** to allow customers to send file attachments to agents. Otherwise, set **No**. To learn more about attachments, see [File attachments](#file-attachments). 
+
+    - **Enable file attachments for agents**: Set **Yes** to allow agents to send file attachments to customers. Otherwise, set **No**. To learn more about attachments, see [File attachments](#file-attachments). 
+
     > [!div class=mx-imgBorder]
     > ![Register a Facebook page](../media/fb-new-page.png "Register a Facebook page")
 
@@ -111,7 +115,52 @@ After you add a Facebook page, values for **Callback Uri** and **Verify Token** 
     > [!div class=mx-imgBorder]
     > ![Facebook channel routing rule](../media/fb-routing-rule.png "Facebook channel routing rule")
 
-## Customer and agent experiences
+## File attachments
+
+You can enable or disable the capability for your agents and customers to send file attachments during a Facebook channel conversation. 
+
+When you enable the option for customers in the Facebook page configuration, customers can send attachments from their messenger. Similarly, When you enable the option for agents in the Facebook page configuration, agents can send the attachments from the communication panel to the customers. To know how to enable the option, see step 6 in [Create a Facebook channel](#step-2-create-a-facebook-channel).
+
+If an agent transfers the conversation to another agent, the agent who receives the chat can also access the files attached in the conversation.
+
+### File size limit and unsupported extensions (types) for attachments
+
+By default, Omnichannel for Customer Service has a file size limit of 5 Megabytes (5120 Kilobytes). However, you can configure the file as your organization requirements. 
+
+> [!Tip]
+> We recommend you to configure a maximum limit of 25 Megabytes (25600 Kilobytes) as Facebook messenger's file size limit is 25 Megabytes.
+
+You can set the file extension types that customers and agents can share. 
+
+#### Configure file size limit and file extensions
+
+To configure the file size limit and file extensions, follow the steps:
+
+1. Sign in to Omnichannel Administrator.
+
+2. Select the settings icon in the nav bar, and then select **Advanced Settings**.
+
+3. Go to **Settings** > **Administration** > **System Settings**.
+
+2. In the **System Settings** window, go to the **Email** tab.
+
+3. Go to the **Set file size limit for attachments** section, and in the **Maximum file size (in kilobytes)** field, enter the value in kilobytes.
+
+    > [!div class=mx-imgBorder]
+    > ![Set file size limit for attachment](../media/file-size-limit.png "Set file size limit for attachment")
+
+4. To specify unsupported file types, go to the **General** tab.
+
+5. In the **Set blocked file extensions for attachments** field, add or edit the file types.
+
+    > [!div class=mx-imgBorder]
+    > ![Specify unsupported file types](../media/unsupported-file-types.png "Specify unsupported file types")
+
+6. Select **OK**.
+
+Now, agents and customers can share file attachments during their conversation.
+
+## Customer experience
 
 A customer can initiate a conversation in any of the following ways:
 
@@ -122,18 +171,20 @@ A customer can initiate a conversation in any of the following ways:
 
 If a customer initiates a conversation from the Facebook page and then later switches to the mobile device, the previous conversation persists, and the customer can continue the conversation.
 
-The agent receives the notification of the incoming chat request along with the customer details. More information: [View notifications](../agent/agent-oc/oc-notifications.md)
-
-> [!div class=mx-imgBorder]
-> ![Facebook chat agent notification](../media/fb-agent-notif.png "Facebook chat agent notification")
+The agent receives the notification of the incoming conversation request. More information: [Use Facebook channel](../agent/agent-oc/facebook.md)
 
 If the customer is identified based on name, the conversation is automatically linked to the contact record and the customer summary is populated. More information: [View customer summary](../agent/agent-oc/oc-customer-summary.md)
 
 If the customer is not identified based on name, a new contact record can be created.
 
+Customer can send attachments only if you enable.  If you don't enable the option for the customers, they can send the file. However, agents won't receive the file and will see an error. To learn more, see [File attachments](#file-attachments).
+
+> [!div class=mx-imgBorder]
+> ![Customer sending file](../media/fb-customer1.png "Customer sending file")
+
 ## Privacy notice
 
-By enabling this feature, your data will be shared with Facebook and flow outside of your organization's compliance and geo boundaries (even if your organization is in a Government Cloud environment. Please consult the feature technical documentation for more information [here](https://docs.microsoft.com/azure/bot-service/bot-service-channel-connect-facebook?view=azure-bot-service-4.0).
+By enabling this feature, your data will be shared with Facebook and flow outside of your organization's compliance and geo boundaries (even if your organization is in a Government Cloud Community region). Consult the feature technical documentation for more information [here](https://docs.microsoft.com/azure/bot-service/bot-service-channel-connect-facebook?view=azure-bot-service-4.0).
 
 Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws relating to monitoring, recording, and storing communications with their end users. This includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
