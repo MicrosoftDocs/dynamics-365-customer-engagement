@@ -157,8 +157,8 @@ Use the following input and output parameters for the Create Requirement Group B
 |ResourceAssignments | GUID | Yes| It is an entity collection of the Resource Assisgnments that are to be made for the Bookings to be created. Look at the Resource Assignment entity table for more details |
 |Resource | GUID    | Yes | The bookable resource Id of the Resource to create the booking for. |
 | BookingStatusID | GUID  | Yes | The booking status id of the booking to be created. |
-| Effort | Integer  |  Yes| The capacity of the Bookable Resource that is consumed by this Booking.|
-| TravelTime | Integer  | Yes| The Travel time in minutes.|
+| Effort | Integer  |  No| The capacity of the Bookable Resource that is consumed by this Booking.|
+| TravelTime | Integer  | No| The Travel time in minutes.|
 
 ### Output 
 
