@@ -4,7 +4,7 @@ description: See how you can effectively search resource availability and create
 author: lerobbin
 ms.author: lerobbin
 manager: shujoshi
-ms.date: 03/16/2020
+ms.date: 03/10/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -349,7 +349,7 @@ var response = osm.GetProxy().Execute(req);
 To migrate from the legacy Search API and Book API to the Universal Resource Scheduling API, use the following required input and output fields to map the APIs. 
 
 ### Input mapping data for the Search API 
-<!--I assume the blank cells in this table indicate that there is no equivalent API input in legacy or URS? Can you put something like "None" in the table cells that are currently blank? Then it would look like they're blank intentionally. -->
+
 |Legacy input |Universal Resource Scheduling input |Description| 
 |-------------|----------|-----------|
 |ServiceId    |Requirement group  |Service/requirement group GUID|
@@ -380,10 +380,10 @@ To migrate from the legacy Search API and Book API to the Universal Resource Sch
 |   |Requirements(contraintbag)<!--what is this?--> |
 |   |PagingInfos |
 
-## Example scenarios for migrating from the legacy API to Universal Resource Scheduling
+## Example scenarios for migrating from the legacy scheduling API to Universal Resource Scheduling
 
 The scenario-based examples in this section add more details about mapping from the legacy API to the new Universal Resource Scheduling API.   
-<!--It won't work for these scenario headings to mention the legacy screenshot. I suggest giving the scenarios meaningful names (please double-check the names I've given) and just introduce the screenshot as part of the introduction to each scenario.-->
+
 ### Scenario 1: Get two resources for each schedule proposal  
 
 *The following screenshot from the legacy API is provided for reference in this scenario.*
@@ -394,11 +394,11 @@ The scenario-based examples in this section add more details about mapping from 
 
 2. Create the business closure and work hours for the user (8:00 AM to 6:00 PM) and the equipment (8:00 AM to 6:00 PM). 
 
-3. Create a new service (**Service1**), and then add **required resources** as **Choose 2** from User1, Eq1.<!--I'm confused about what's going on in this sentence. Please check that these are actually UI strings (and if they aren't, please supply the UI in bold.--> Save and close the service. <!--Should the following alt text say "Schedule Service Activity"? That seems to be the name of the page. -->
+3. Create a new service (**Service1**), and then add **required resources** as **Choose 2** from User1, Eq1.<!--I'm confused about what's going on in this sentence. Please check that these are actually UI strings (and if they aren't, please supply the UI in bold.--> Save and close the service.
 
-![Service Activity screenshot for scenario 1](media/ur-scheduling-17-new.png "Service Activity screenshot for scenario 1")
+![Schedule Service Activity screenshot for scenario 1](media/ur-scheduling-17-new.png "Service Activity screenshot for scenario 1")
 
-4. Go to the homepage<!--it doesn't actually say "homepage" on the homepage, does it? If it does, then it does call for bold formatting. --> > **Service Activity**<!--or **Schedule Service Activity**?-->, select **Service1** <!--edit okay? I assume you select the service you just created and named Service1?-->, and then select **Schedule** > **Find available slots**. 
+4. Go to the homepage and schedule a service activity and then, select **Service1**, and then select **Schedule** > **Find available slots**. 
 
 5. Verify that two resources are returned for each proposal in accordance with the criteria you set.  
 
@@ -442,7 +442,7 @@ RequestName = "msdyn_SearchResourceAvailabilityForRequirementGroup"
 *The following screenshot from the legacy API is provided for reference in this scenario.* 
 
 ![Legacy setup screenshot for reference for scenario 2](media/ur-scheduling-18-new.png "Legacy setup screenshot for reference for scenario 2")
-<!--In step 4, please check that the correct formatting is applied to UI strings. (Specifically, is "Search for a specific start and end time" the name of the command? If so, the whole string should be bold.) -->
+
 1. Create the following: 
   - Two sites: Micr0s0ftSite1 and Site2
   - Two users: User1 and User2 (Site2)
@@ -454,9 +454,9 @@ RequestName = "msdyn_SearchResourceAvailabilityForRequirementGroup"
 
 ![Service Activity screenshot for scenario 2](media/ur-scheduling-19-new.png "Service Activity screenshot for scenario 2")
 
-4. Go to the homepage > **Service Activity** > **Schedule**, and then select the service you created in step 3. Select the site as **Site1**, and then select **Find Available Time** button. 
+4. Go to the homepage > **Service Activity** > **Schedule**, and then select the service you created in step 3. Select the site as **Site1**, and then select **Search for a specific start and end time**. 
 
-5. Verify that the search results that are returned are correct for the site selected in the search criteria.<!--is this what "per the site" means? --> 
+5. Verify that the search results that are returned are correct for the site selected in the search criteria.
 
 #### Universal Resource Scheduling API code for scenario 2
 
