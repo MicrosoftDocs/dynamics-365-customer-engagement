@@ -45,6 +45,10 @@ You can accept or reject the conversation request by selecting a button on the d
 
 If you select the notification message body and not a button, the Omnichannel for Customer Service app is made active and the notification is displayed to you in the app. Then you can choose to accept or reject the conversation by selecting the appropriate button.
 
+
+<!--from editor: There's a message below from a previous edit. The sentence is still confusing. It isn't clear **what** doesn't display the wait time on the desktop notification. -->
+
+
 The wait time that's configured by your administrator applies to the desktop notification, but doesn't display the wait time on the desktop notification<!--note from editor: What does this mean? Will the reader know?-->. The desktop notification theme is based on the Windows operating system theme and settings.
 
 #### Allow your browser to show notifications
