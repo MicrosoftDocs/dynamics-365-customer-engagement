@@ -39,7 +39,7 @@ Follow these steps to create a new work stream in Omnichannel for Customer Servi
 
 3. In the **Work Distribution** tab of the new work stream, follow these steps:
 
-   1. In the **General information** section, provide the following information: </br>
+   a. In the **General information** section, provide the following information: </br>
       - **Name**: Enter a name for the work stream.
       - **Channel**: Channel is defined as a medium through which a customer reaches out for support. For example, a customer can contact an agent through chat. 
        
@@ -55,17 +55,17 @@ Follow these steps to create a new work stream in Omnichannel for Customer Servi
       
       - **Auto-close after inactivity**: Enter the unit of time after which a conversation is moved from the **Waiting** state to the **Closed** state because of inactivity. 
 
-    1. Select **Save** to save the work stream.
+    b. Select **Save**. The work stream is saved.
 
-    1. In the **Work distribution** section, follow these steps: 
+    c. In the **Work distribution** section, follow these steps: 
 
-       1. Select whether the **Work distribution mode** should be **Push** or **Pick**. 
+      1. Select whether the **Work distribution mode** should be **Push** or **Pick** for agents to take up a conversation. 
 
-          The work distribution mode defines the experience of how agents can take up a conversation: via **Push** or **Pick** mode. 
-          - In **Push** mode, a conversation is dispatched to agents automatically via a screen-pop. 
-          - In **Pick** mode, a conversation is dispatched to agents when they explicitly pick a conversation from the **Open work items** in the agent dashboard.
+         In **Push** mode, a conversation is dispatched to agents automatically via a screen-pop. 
+      
+         In **Pick** mode, a conversation is dispatched to agents when they explicitly pick a conversation from the **Open work items** in the agent dashboard.
 
-       2. In the **Notification** field, select the type of notification setting from the drop-down list:
+      2. In the **Notification** field, select the type of notification setting from the drop-down list:
           - Directly open session
           - Screen pop with timeout
           - Screen pop with decline
@@ -73,20 +73,17 @@ Follow these steps to create a new work stream in Omnichannel for Customer Servi
           > [!NOTE]
           > In this release, only the **Screen pop with decline** option is supported with a default timeout value of 120 seconds. An agent has the option either to accept or reject the screen pop.
 
-       3. Select **Allowed Presences** from the drop-down list. For more information, see [Configure and manage custom presence](presence-custom-presence.md).
+      3. Select **Allowed Presences** from the drop-down list. For more information, see [Configure and manage custom presence](presence-custom-presence.md).
 
           > [!div class=mx-imgBorder] 
           > ![New work stream](../media/omni-channel-new-work-stream.png)
 
+      4. If you have selected Push in **Work distribution mode**, set the toggle to **Yes** for **Enable selecting from push-based work streams**. The agents can explicitly select work items even if their capacity is full.
 4. View and create context variables in the **Context variables** tab. Context variables enrich conversations with pre-chat data, channel data, and custom context data. These attributes can then be used to define routing rules to route conversations into different queues. 
 
    1. Select **New** to create a new context variable in the **Quick Create** window. 
-   1. Enter **Display Name** for the new variable. The **Name** field is populated accordingly.
-   1. Select the **Type** of variable from the drop-down list. You can choose from **Text** or **Number**.
-
-
-      <!--Please check to ensure that the name Alicia Thomber in the following image is an approved fictitious name. -->
-
+   2. Enter **Display Name** for the new variable. The **Name** field is populated accordingly.
+   3. Select the **Type** of variable from the drop-down list. You can choose from **Text** or **Number**.
 
 
       > [!div class=mx-imgBorder] 
