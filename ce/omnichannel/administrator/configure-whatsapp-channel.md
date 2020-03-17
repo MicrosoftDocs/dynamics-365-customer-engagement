@@ -48,6 +48,7 @@ The WhatsChannel channel feature lets you integrate WhatsApp through Twilio with
 
 - **24 hours session rule**: A messaging session starts when an agent receives a message from a customer or replies to the incoming message from the customer. When a customer sends a message, the agent has 24 hours to reply from the time the agent received it. However, after 24 hours, if the agent tries to send a message to the customer, an error is displayed, saying **This conversation has exceeded the 24 hour limit to respond to the customer.**
 
+
 ## End-to-end walk-through
 
 [Step 1: Fetch Twilio account details](#step-1-fetch-twilio-account-details)

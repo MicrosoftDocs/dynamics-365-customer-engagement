@@ -54,13 +54,13 @@ As an organization, you want the ability to integrate your line-of-business (in-
 
 [Step 3: Create a work stream](#step-3-create-a-work-stream)
 
-[Step 4: Create a custom channel](#step-4-create-a-custom-channel)
+[Step 4: Create a custom messaging account](#step-4-create-a-custom-messaging-account)
 
 ## Step 1: Register your messaging channel
 
 To integrate your messaging channel with Omnichannel for Customer Service, register your channel in **Azure Bot Service**. To learn how to register, see [Register a bot with Azure Bot Service](https://docs.microsoft.com/azure/bot-service/bot-service-quickstart-registration).
 
-After you register, save the **Microsoft App ID** and **Client Secret** values safely for future use. These two values are required to create a custom channel configuration in the Omnichannel Administrator app.  To learn more, see [Get registration password](https://docs.microsoft.com/azure/bot-service/bot-service-quickstart-registration#get-registration-password).
+After you register, save the **Microsoft app ID** and **Client secret** values safely for future use. These two values are required to create a custom channel configuration in the Omnichannel Administrator app.  To learn more, see [Get registration password](https://docs.microsoft.com/azure/bot-service/bot-service-quickstart-registration#get-registration-password).
 
 ## Step 2: Add the messaging channel to bot channel registration
 
@@ -91,9 +91,11 @@ To configure other options in the work stream, see the following:
 - [Smart assist](smart-assist.md)
 - [Templates](templates-overview.md)
 
-## Step 4: Create a custom channel
+## Step 4: Create a custom messaging account
+
 
 After you create a work stream for a custom channel, you need to create a custom channel with the details of the **Microsoft App ID** and **Client Secret** that you retrieved while registering your messaging channel in Azure Bot Service.
+
 
 To create a custom channel, follow these steps:
 
@@ -101,7 +103,7 @@ To create a custom channel, follow these steps:
 
 2. Select **Custom (preview)** under **Channels**.
 
-3. Select **+ New** in the **Active Custom Messaging Account** view.
+3. Select **+ New** in the **Active Custom messaging account** view.
 
 4. In the new **Custom Messaging Account** page, specify the values for the following fields:
 
@@ -111,12 +113,13 @@ To create a custom channel, follow these steps:
     | Account Details |Microsoft App ID| Copy and paste the **Microsoft App ID** that you saved earlier from the Azure Bot Channel Registration page. <br> To learn more, see [Get registration password](https://docs.microsoft.com/azure/bot-service/bot-service-quickstart-registration#get-registration-password). | cae1d83e-8b07-4fca-8072-c2eb3444vxyz |
     | Account Details |Client Secret| Copy and paste the **Client Secret** that you saved earlier from the Azure Bot Channel Registration page.  <br> To learn more, see [Get registration password](https://docs.microsoft.com/azure/bot-service/bot-service-quickstart-registration#get-registration-password).| |
 
-5. Select **Validate App ID & Secret**  to validate the **Microsoft App ID** and **Client Secret** values. After the validation, a toast notification is displayed. Also, the **Last Validated** field shows time and date. This ensures that bots are active and client secret refreshes are consumed. 
+
+5. Select **Validate app ID + secret**  to validate the **Microsoft app ID** and **Client secret** values. After the validation, a toast notification is displayed. Also, the **Last Validated** field shows time and date. This ensures that bots are active and client secret refreshes are consumed. 
 
     > [!div class=mx-imgBorder]
     > ![Create a custom channel](../media/custom-channel-1.png "Create a custom channel")
 
-6. Select **Save** to save the changes. After you save, in the **Callback Information** section, the **Message Endpoint (URL)** field is generated with a URL. Copy the URL from the field.
+6. Select **Save** to save the changes. After you save, in the **Callback information** section, the **Message endpoint (URL)** field is generated with a URL. Copy the URL from the field.
 
     > [!div class=mx-imgBorder]
     > ![Create a custom channel](../media/custom-channel-2.png "Create a custom channel")
@@ -126,6 +129,7 @@ To create a custom channel, follow these steps:
 8. In the **Channels** section, select **+ Add Custom Messaging Channel**. The **New Custom Messaging Channel** page is displayed.
 
    After you create a **Custom Messaging Account**, you need to create a custom messaging channel, which is the actual channel from which Omnichannel for Customer Service agents will receive messages from the customer.
+
 
 9. In the **New Custom Messaging Account** page, specify the values for the following fields:
 
@@ -139,10 +143,11 @@ To create a custom channel, follow these steps:
     > [!Note]
     > A **Custom Messaging Account** can have multiple unique channel IDs. Don't add two or more same Channel IDs to a **Custom Messaging Account** because the Azure Bot Framework supports only one messaging account per App ID. For example, for **Contoso custom channel**, you can't add two or more **Kik** Channel IDs.
 
+
     > [!div class=mx-imgBorder]
     > ![Create a custom channel](../media/custom-channel-3.png "Create a custom channel") 
 
-10. Select **Save** to save the custom messaging application channel.       
+10. Select **Save** to save the custom messaging channel.       
 
 11. Select the back button on the browser to go to the custom messaging application page. You can see that the custom messaging channel is added in the **Channels** section. 
 
@@ -155,10 +160,9 @@ To create a custom channel, follow these steps:
 
 ## Bring channels using Direct Line 
 
-If you want to help your customers using your line-of-business (in-house) messaging channels, you can use the Direct Line channel (Bot Framework method).
+If you wnt to help your customers using your line-of-business (in-house) messaging channels, you can use the Direct Line channel (Bot Framework method).
 
 The Bot Framework **Direct Line** channel helps you to integrate your line-of-business (in-house) messaging channels into the Omnichannel for Customer Service app.
-
 
 <!--I'm commenting this out for now until it is updated.
 <

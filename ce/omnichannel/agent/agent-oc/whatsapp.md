@@ -72,6 +72,7 @@ In Omnichannel for Customer Service, you can:
 
 - **24 hours session rule**: A messaging session starts when you receive a message from a customer or reply to an incoming message from a customer. When the customer sends a message, you have 24 hours to reply to the customer from the time you received it. However, after 24 hours, if you try to send a message to the customer, an error is displayed: **This conversation has exceeded the 24 hour limit to respond to the customer.**
 
+
 ## See also
 
 [Configure a WhatsApp channel](../../administrator/configure-whatsapp-channel.md)
