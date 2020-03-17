@@ -210,12 +210,12 @@ This will open up the form in the form designer.
   > [!div class=mx-imgBorder]
   > ![save and publish](media/case_resolution_13a.png "save and publish")
 
-Now when you open your case, the case resolution dialog should now display the fields you’ve added:
+Now when you open your case, the case resolution dialog should display the fields you’ve added:
 
-**Step 5:** Under Resolution Type use dropdown to select **Duplicate**
+**Step 5:** Under **Resolution Type**, use dropdown to select **Duplicate**.
 
   > [!div class=mx-imgBorder]
-  > ![save and publish](media/case_resolution_14a.png "save and publish")
+  > ![save and publish](media/case_resolution_14a.PNG "save and publish")
 
 You will know if a case has been successfully resolved per the status bar at the top of the form. 
 
