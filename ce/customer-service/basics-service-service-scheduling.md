@@ -98,7 +98,7 @@ Let's see how Contoso accomplishes the task:
    |---------|
    |   ![set-work-hours](media/set-work-hours-csh-1a.png)     |
    | [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set work hours for the resources](resources-service-scheduling.md#set-work-hours-for-the-resources)|
-   |----------|  
+   
   
 **Step 4: Create resource groups** </br>
    The resources are aligned in resource groups. 
