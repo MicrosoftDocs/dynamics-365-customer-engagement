@@ -72,6 +72,11 @@ log in as a system administrator
 
 Go to **Resource Scheduling app > Settings > Administration > Customize Schedule Board settings**
 
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/schedule-board-new-admin.png)
+
 Go to Controls tab
 
 Choose add control and add **Schedule Board Preview** control.
@@ -79,6 +84,11 @@ Choose add control and add **Schedule Board Preview** control.
 Enable it for web experience
 
 Select the edit button then enable preview
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/schedule-board-new-enable-preview-pcf-control.png)
 
 
 **Optional:** choose a default schedule board either the current or new preview one.
