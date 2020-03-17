@@ -1,22 +1,13 @@
 ---
-title: Modify case resolution dialog in Customer Service Hub | Microsoft Docs
-description: Understand Cases in Customer Service Hub for Dynamics 365 Customer Service.
+title: "Modify case resolution dialog in Customer Service Hub | Microsoft Docs"
+description: "Understand Cases in Customer Service Hub for Dynamics 365 Customer Service."
+ms.date: 3/13/2019
+ms.service:
+  - "dynamics-365-customerservice"
+ms.topic: article
 author: neeranelli
 ms.author: lrobbin
 manager: shujoshi
-ms.date: 3/13/2019
-ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ---
 
 # Modify Case Resolution Dialog
@@ -56,9 +47,9 @@ Now that you have set your permissions, the admin must enable customizable dialo
 
 **Step 2:** Select **Service Configuration**. 
 
-**Step 3:**	In the **Resolve case dialog** drop-down list, select **Customizable Dialog**.
+**Step 3:**    In the **Resolve case dialog** drop-down list, select **Customizable Dialog**.
 
-**Step 4:**	Select **Save**. 
+**Step 4:**    Select **Save**. 
 
   > [!div class=mx-imgBorder]
   > ![Enable Customizable Dialog](media/case-resolution-entity.png "Enable Customizable Dialog")
@@ -141,7 +132,7 @@ When you select **Add**, the **Add List Value** dialog box will appear.
   > [!div class=mx-imgBorder]
   > ![Enter Duplicate](media/case_resolution_6.png "Enter Duplicate")
 
-You’ve successfully added a duplicate status to the status code field.  
+You've successfully added a duplicate status to the status code field.  
 
 ### Case Resolution Entity
 
@@ -174,7 +165,7 @@ Now that we've added the duplicate status to the case entity, we need to add it 
 Now the a case resolution entity will appear in the dialog field as an option you can select. 
 
 ## Edit Form
-Case resolution form allows you to add or remove fields that don’t apply to your business model without using code.  
+Case resolution form allows you to add or remove fields that don't apply to your business model without using code.  
 
 For example, your business model does not require a **Billable Time** field because your case resolutions do not track billable hours, therefore you would like to remove that field from the form.  
 
@@ -206,7 +197,7 @@ This will open up the form in the form designer.
   > [!div class=mx-imgBorder]
   > ![save and publish](media/case_resolution_13a.PNG "save and publish")
 
-Now, when the customer service reps try to resolve a case, the case resolution dialog should display the fields you’ve added:
+Now, when the customer service reps try to resolve a case, the case resolution dialog should display the fields you've added:
 
 **Step 5:** In the **Resolution Type** drop-down list, select **Duplicate**.
 
