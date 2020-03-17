@@ -51,6 +51,7 @@
 
 ## Service Manager Guide
 ### [Understand Service Management](service-manager-guide.md)
+
 ### Case Settings
 #### [Create and manage queues](set-up-queues-manage-activities-cases.md)
 #### [Define parent and child case settings](define-settings-parent-child-cases.md)
@@ -59,6 +60,7 @@
 #### [Automatically create and update records](set-up-rules-to-automatically-create-or-update-records.md)
 #### [Automatically create a case from an email](automatically-create-case-from-email.md)
 #### [Define subjects to categorize cases](../admin/define-subjects-categorize-cases-products-articles.md)
+
 ### Service Terms
 #### [Define Service Level Agreements (SLAs)](define-service-level-agreements.md)
 #### [Enable entities for service level agreements](enable-entities-service-level-agreements.md)
@@ -82,8 +84,10 @@
 
 ## Connected Customer Service (IoT) add-in
 ### [Overview](cs-iot-overview.md)
+
 ### Connected Customer Service for Azure IoT Central
 #### [Overview](cs-iot-azure-overview.md)
+
 #### Tutorials
 ##### [Prerequisites](cs-iot-prerequisites.md)
 ##### [Receive IoT Alerts from Azure IoT Central](cs-iot-receive-alerts.md)
@@ -104,6 +108,7 @@
 ### [Understand Service Scheduling](basics-service-service-scheduling.md)
 ### [Set up the new scheduling experience](basics-service-service-scheduling.md#set-up-the-new-service-scheduling-experience)
 ### [Manage security roles](manage-security-roles.md)
+
 ### Schedule entities
 #### [Create bookable resources](resources-service-scheduling.md)  
 #### [Add facilities and equipment to schedule service](add-facilities-equipment-ss-csh.md)
@@ -113,6 +118,7 @@
 #### [Manage fulfillment preferences](../common-scheduler/fulfillment-preferences.md)
 ### Configure using tools
 #### [Configure service activity using schedule board](use-schedule-board-configure-service-activity.md) 
+
 ### Work with settings
 #### [Create and manage organizational units](create-org-units-cs-scheduling.md)
 #### [Schedule business closure](set-when-business-closed-csh.md)
@@ -120,6 +126,9 @@
 #### [Introduction](introduction-migration-entity-records.md)
 #### [Plan your migration](plan-migration.md)
 #### [Migrate entity records data using migration tool](migrate-entity-records.md)
+
+### Service Scheduling Developer Guide
+#### [Search Resource Availability and Create Bookings](universal-resource-scheduling.md)
 
 ### Legacy Service Scheduling (Customer Service app)
 #### [Set up business closure](set-when-business-closed-cs-app.md)
