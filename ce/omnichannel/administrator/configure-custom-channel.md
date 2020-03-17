@@ -1,6 +1,6 @@
 ---
-title: "Configure a Custom channel | MicrosoftDocs"
-description: "Learn what is a Custom channel and how to configure the channel in Omnichannel for Customer Service."
+title: "Configure a custom channel | MicrosoftDocs"
+description: "Learn what a custom channel is and how to configure the channel in Omnichannel for Customer Service."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -10,7 +10,7 @@ ms.service:
 ms.topic: article
 ---
 
-# Preview: Configure a Custom messaging channel
+# Preview: Configure a custom messaging channel
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -18,17 +18,15 @@ ms.topic: article
 
 > [!IMPORTANT]
 > - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided “as-is,” “with all faults,” “as available,” and without warranty.​
-> - This preview features does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
+> - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
 > - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../../legal/dynamics-insider-agreement.md).
 
 
 ## Overview of custom channel
 
-Many organizations have Line of business (in-house) messaging channels that they use to interact with their customers. Also, many customers use social messaging channels for their personal communication needs, and these customers prefer using the messaging channels to engage with businesses. Expectations of customer service via social channels are rising to the point that customers now expect the same level of service they’re used to from call and live chat to those on social channels. 
+Many organizations have line-of-business (in-house) messaging channels that they use to interact with their customers. Also, many customers use social messaging channels for their personal communication needs, and these customers prefer using the messaging channels to engage with businesses. Expectations of customer service via social channels are rising to the point that customers now expect the same level of service on social channels that they’re used to from call and live chat. 
 
-So as an organization, you want an ability to integrate your Line of business (in-house), social, or any other messaging channels with Omnichannel for Customer Service. 
-
-The custom channel feature lets you integrate your Line of business (in-house), social, or any other messaging channels with Omnichannel for Customer Service so as to engage with customers. A few messaging channel integration that are supported are as follows:
+As an organization, you want the ability to integrate your line-of-business (in-house), social, or any other messaging channels with Omnichannel for Customer Service. The custom channel feature lets you do this so you can engage with customers. Here are some of the messaging channel integrations that are supported:
 
 - Kik
 - Telegram
@@ -36,7 +34,7 @@ The custom channel feature lets you integrate your Line of business (in-house), 
 
 ### Value proposition
 
-- Integrate Line of business (in-house) messaging channels that are specific to your organization.
+- Integrate line-of-business (in-house) messaging channels that are specific to your organization.
 
 - Integrate social media messaging channels as per the requirement of your customers and organization.
 
@@ -70,7 +68,7 @@ After registering your messaging channel, add the messaging channel to the bot c
 
 ## Step 3: Create a work stream
 
-After you add the messaging channel to the Bot Channel registration in Azure Bot Service, create a work stream for the custom channel. To create a custom channel work stream, follow the steps:
+After you add the messaging channel to the Bot Channel registration in Azure Bot Service, create a work stream for the custom channel. To create a custom channel work stream, follow these steps:
 
 1. Sign in to Omnichannel Administrator.
 
@@ -84,20 +82,20 @@ After you add the messaging channel to the Bot Channel registration in Azure Bot
 
 6. Select **Save** to save the changes.
 
-You've created a work stream for custom channel. To learn more, see [Create work streams](work-streams-introduction.md).
+You've created a work stream for a custom channel. To learn more, see [Create work streams](work-streams-introduction.md).
 
 To configure other options in the work stream, see the following:
 
-- [Skill based routing](overview-skill-work-distribution.md)
+- [Skill-based routing](overview-skill-work-distribution.md)
 - [Productivity tools](productivity-tools.md)
 - [Smart assist](smart-assist.md)
 - [Templates](templates-overview.md)
 
 ## Step 4: Create a custom channel
 
-After you create a work stream for custom channel, you need to create a custom channel with the details of the **Microsoft App ID** and **Client Secret** that you retrieved while registering your messaging channel in Azure Bot Service.
+After you create a work stream for a custom channel, you need to create a custom channel with the details of the **Microsoft App ID** and **Client Secret** that you retrieved while registering your messaging channel in Azure Bot Service.
 
-To create a custom channel, follow the steps:
+To create a custom channel, follow these steps:
 
 1. Sign in to Omnichannel Administrator.
 
@@ -105,12 +103,12 @@ To create a custom channel, follow the steps:
 
 3. Select **+ New** in the **Active Custom Messaging Account** view.
 
-4. In the New **Custom Messaging Account** page, specify the values for the following fields.
+4. In the new **Custom Messaging Account** page, specify the values for the following fields:
 
     | Section | Field | Description | Example  value |
     |-------------|-------------------|---------------------------|--------------------------------------|
     | Account Details |Name| Specify a name for the custom channel.| Contoso custom channel |
-    | Account Details |Microsoft App ID| Copy and paste the **Microsoft App ID** that saved earlier from the Azure Bot Channel Registration page. <br> To learn more, see [Get registration password](https://docs.microsoft.com/azure/bot-service/bot-service-quickstart-registration#get-registration-password). | cae1d83e-8b07-4fca-8072-c2eb3444vxyz |
+    | Account Details |Microsoft App ID| Copy and paste the **Microsoft App ID** that you saved earlier from the Azure Bot Channel Registration page. <br> To learn more, see [Get registration password](https://docs.microsoft.com/azure/bot-service/bot-service-quickstart-registration#get-registration-password). | cae1d83e-8b07-4fca-8072-c2eb3444vxyz |
     | Account Details |Client Secret| Copy and paste the **Client Secret** that you saved earlier from the Azure Bot Channel Registration page.  <br> To learn more, see [Get registration password](https://docs.microsoft.com/azure/bot-service/bot-service-quickstart-registration#get-registration-password).| |
 
 5. Select **Validate App ID & Secret**  to validate the **Microsoft App ID** and **Client Secret** values. After the validation, a toast notification is displayed. Also, the **Last Validated** field shows time and date. This ensures that bots are active and client secret refreshes are consumed. 
@@ -123,30 +121,30 @@ To create a custom channel, follow the steps:
     > [!div class=mx-imgBorder]
     > ![Create a custom channel](../media/custom-channel-2.png "Create a custom channel")
 
-7. Go to **Azure Portal** > **Bot Channel Registration** page, and paste the URL in the **Message endpoint** field, and save the changes.
+7. Go to the **Azure Portal** > **Bot Channel Registration** page, paste the URL into the **Message endpoint** field, and save the changes.
 
-8. In the **Channels** section, select **+ Add Custom Messaging Channel**. The **New Custom Messaging Channel** page is displayed to you.
+8. In the **Channels** section, select **+ Add Custom Messaging Channel**. The **New Custom Messaging Channel** page is displayed.
 
-    After you create a **Custom Messaging Account**, you need to create custom messaging channel, which is the actual channel from which Omnichannel for Customer Service agents will receive messages from the customer.
+   After you create a **Custom Messaging Account**, you need to create a custom messaging channel, which is the actual channel from which Omnichannel for Customer Service agents will receive messages from the customer.
 
-9. In the **New Custom Messaging Account** page, specify the values for the following fields.
+9. In the **New Custom Messaging Account** page, specify the values for the following fields:
 
     | Section | Field | Description | Example  value |
     |-------------|-------------------|---------------------------|--------------------------------------|  
     | Details | Name | Specify a name for the custom channel | Contoso channel |
     | Details | Custom Messaging Account | The **Custom Messaging Account** field is populated. However, you can change the value using the lookup. | Contoso custom channel |
-    | Details | Channel ID | Select a channel from the list. The list might contain Line of business (in-house) messaging, social, or any other messaging channel. A few social channel options are: <br> - Kik <br> - Telegram <br> - Direct Line | Kik |
+    | Details | Channel ID | Select a channel from the list. The list might contain line-of-business (in-house) messaging, social, or any other messaging channel. A few social channel options are: <br> - Kik <br> - Telegram <br> - Direct Line | Kik |
     | Work Distribution | Work Stream | Select a work stream from the lookup. | Contoso custom channel work stream |
 
     > [!Note]
-    > A **Custom Messaging Account** can have multiple unique channel IDs. Don't add two or more same Channel IDs to a **Custom Messaging Account** as the Azure Bot Framework only supports one messaging account per App ID. For example, for **Contoso custom channel**, you can't add two or more **Kik** Channel ID.
+    > A **Custom Messaging Account** can have multiple unique channel IDs. Don't add two or more same Channel IDs to a **Custom Messaging Account** because the Azure Bot Framework supports only one messaging account per App ID. For example, for **Contoso custom channel**, you can't add two or more **Kik** Channel IDs.
 
     > [!div class=mx-imgBorder]
     > ![Create a custom channel](../media/custom-channel-3.png "Create a custom channel") 
 
 10. Select **Save** to save the custom messaging application channel.       
 
-11. Select the browser back button to go to the custom messaging application page. You can see that the custom messaging channel is added in the **Channels** section. 
+11. Select the back button on the browser to go to the custom messaging application page. You can see that the custom messaging channel is added in the **Channels** section. 
 
 12. Select **Save** to save the configurations.
 
@@ -157,15 +155,19 @@ To create a custom channel, follow the steps:
 
 ## Bring channels using Direct Line 
 
-If you want to help your customers using your Line of Business (in-house) messaging channels, you can use the Direct Line channel (Bot Framework method).
+If you want to help your customers using your line-of-business (in-house) messaging channels, you can use the Direct Line channel (Bot Framework method).
 
-The Bot Framework **Direct Line** channel helps you to integrate your Line of Business (in-house) messaging channels into the Omnichannel for Customer app.
+The Bot Framework **Direct Line** channel helps you to integrate your line-of-business (in-house) messaging channels into the Omnichannel for Customer Service app.
 
+
+<!--I'm commenting this out for now until it is updated.
+<
 For more information, see [Here, link will updated for the dev topic (Sushant sikka is the owner of dev docs)]().
+-->
 
 ## See also
 
-[Skill based routing](overview-skill-work-distribution.md)<br>
+[Skill-based routing](overview-skill-work-distribution.md)<br>
 [Productivity tools](productivity-tools.md)<br>
 [Smart assist](smart-assist.md)<br>
 [Templates](templates-overview.md)
