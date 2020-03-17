@@ -84,7 +84,7 @@ Use the following input and output parameters for the Search Resource Availabili
 |Requirements|Requirement (EntityReference)   |An entity reference to the Resource Requirement record|
 |            |ConstrainBag (String)           |Requirement constraint in ufx bag(internal)|
 |            |Resource (List<<EntityReference>EntityReference>)   |Entity reference list of resource that is available to the requirements|
-|ProposalResourceAssignmentSet|IntervalStart (DateTime)|Start Time for each proposal resource assginement set|
+|ProposalResourceAssignmentSet|IntervalStart (DateTime)|Start Time for each proposal resource assignment set|
 |   |ProposalResourceAssignment (List<<OutputProposalResourceGroup>OutputProposalResourceGroup>)|List of Resource assign to Requirement|
 |Paginginfos |MoreResults (Boolean)|If there are more results or not.|
 |            |PagingCookie (String)|Paging cookie that can be used in the future search.|
@@ -160,7 +160,7 @@ Use the following input and output parameters for the Create Requirement Group B
 |RequirementGroup |   |Yes | An entity reference to the requirement group entity, usually is a GUID, as shown in the below sample.|
 |Start |DateTime | Yes | Start time of the Timeslot. |
 |Duration | Integer | Yes  | The Duration of the Booking to be created.|
-|ResourceAssignments | GUID | Yes| It is an entity collection of the Resource Assisgnments that are to be made for the Bookings to be created. Look at the Resource Assignment entity table for more details |
+|ResourceAssignments | GUID | Yes| It is an entity collection of the Resource Assignments that are to be made for the Bookings to be created. Look at the Resource Assignment entity table for more details |
 
 **Resource Assignments**
 
