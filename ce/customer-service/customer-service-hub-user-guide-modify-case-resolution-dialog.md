@@ -156,7 +156,7 @@ Now that we've added the duplicate status to the case entity, we need to add it 
 
 **Step 5:** In the **Label** field, enter a value name. For this example, type **Duplicate**.
 
-**Step 6:** In the **Value** field, you want to confirm that the variable listed matches the value listed in the Case entity.  
+**Step 6:** In the **Value** field, confirm that the variable listed matches the value in the Case entity.  
 
 **Step 7:** Select **Save**.
 
