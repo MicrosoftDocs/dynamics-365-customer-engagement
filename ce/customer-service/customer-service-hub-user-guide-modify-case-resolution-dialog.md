@@ -212,7 +212,7 @@ This will open up the form in the form designer.
 
 Now when you open your case, the case resolution dialog should display the fields you’ve added:
 
-**Step 5:** Under **Resolution Type**, use dropdown to select **Duplicate**.
+**Step 5:** In the **Resolution Type** drop-down list, select **Duplicate**.
 
   > [!div class=mx-imgBorder]
   > ![save and publish](media/case_resolution_14a.PNG "save and publish")
