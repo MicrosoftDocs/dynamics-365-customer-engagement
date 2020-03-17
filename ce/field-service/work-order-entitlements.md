@@ -250,3 +250,5 @@ Even if multiple entitlements apply and 1 is chosen by default, the user can man
 
 - Entitlements for work orders currently doesn't support quantity-based and limit-based entitlements (for example: a customer is entitled to 10 work orders or the first hour of a service is free).
 
+- Entitlement application and price adjustment only happen online. If a Work Order Product or Work Order Service is created or edited when offline, the Entitlement logic will only apply once that record syncs to the server.
+
