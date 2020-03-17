@@ -208,7 +208,7 @@ This will open up the form in the form designer.
 **Step 4b:** Select **publish**
 
   > [!div class=mx-imgBorder]
-  > ![save and publish](media/case_resolution_13a.png "save and publish")
+  > ![save and publish](media/case_resolution_13a.PNG "save and publish")
 
 Now when you open your case, the case resolution dialog should display the fields you’ve added:
 
