@@ -30,7 +30,7 @@ search.app:
 
 // Use podcast video for details: https://msit.microsoftstream.com/video/e2244efa-a845-4351-8acd-52ca80497789?channelId=0bf6f71a-b361-4d7b-9668-62ff5207b60d
 
-Will exist alongside current schedule board until feature parity is reached in which case it will replace
+Will exist alongside current schedule board until feature parity is reached in which case it will replace it.
 
 
 Benefits:
@@ -44,7 +44,8 @@ Benefits:
 
 ### Usability and accessiblity
 
-- (new color scheme )
+- better support for different sized form factors
+- new color scheme, booking and travel representation
 - ghost booking - know if fit before scheduling
 
 ### Foundation for new capabilities
@@ -59,15 +60,32 @@ Public preview April 2020
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/.png)
 
-## Enable new Schedule Board
+## Enable new Schedule Board preview
+
+log in as a system administrator
+
+Go to **Resource Scheduling app > Settings > Administration > Customize Schedule Board settings**
+
+Go to Controls tab
+
+Choose add control and add **Schedule Board Preview** control.
+
+Enable it for web experience
+
+Select the edit button then enable preview
 
 
+**Optional:** choose a default schedule board either the current or new preview one.
 
+Publish changes
+
+Use the toggle button in the top right of the schedule board to switch between the current and preview schedule boards. 
 
 ## Configuration considerations
 Continue to use the current schedule board for common functions like:
 - schedule board tab settings
-- 
+- Map visualization
+- days weeks and months view
 
 ## Additional Notes
 
