@@ -18,6 +18,10 @@ You can remove Omnichannel for Customer Service and disable all channels on a Dy
 
 
 > [!NOTE]
+> Omnichannel for Customer Service will be automatically removed if you do any of the following:
+> - Delete the Dynamics 365 CRM instance from the Dynamics 365 admin center.
+> - Reset the Dynamics 365 CRM instance from the Dynamics 365 admin center.
+> - Modify or change the Dynamics 365 CRM instance to a different organization ID.
 > Removing Omnichannel for Customer Service will not delete Omnichannel solutions. To delete Omnichannel solutions, see [Delete Omnichannel solutions](delete-solution.md).  
 
 To remove the Omnichannel for Customer Service from the organization,
