@@ -157,7 +157,7 @@ Use the following input and output parameters for the Create Requirement Group B
 |  Name   | Type  | Required | Description   |
 |-----------------|-----------------|---|---------|
 |Version | String | Yes | The version number of the API. The version number identifies the version of the API that should be invoked. The version number is a semantic version number of the format major.minor.patch. The request does not have to contain the complete version number.|
-|RequirementGroup |   |Yes | An entity reference to the requirement group entity, usually is a GUID, as shown in the below sample.|
+|RequirementGroup | EntityReference  |Yes | An entity reference to the requirement group entity, usually is a GUID, as shown in the below sample.|
 |Start |DateTime | Yes | Start time of the Timeslot. |
 |Duration | Integer | Yes  | The Duration of the Booking to be created.|
 |ResourceAssignments | GUID | Yes| It is an entity collection of the Resource Assignments that are to be made for the Bookings to be created. Look at the Resource Assignment entity table for more details |
