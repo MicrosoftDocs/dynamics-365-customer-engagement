@@ -33,6 +33,9 @@ search.app:
 Will exist alongside current schedule board until feature parity is reached in which case it will replace it.
 
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/schedule-board-new.png)
+
 Benefits:
 - performance 
 - usability and accessability 
@@ -42,11 +45,15 @@ Benefits:
 
 (load times, drag and drop)
 
+eventing
+
 ### Usability and accessiblity
 
 - better support for different sized form factors
 - new color scheme, booking and travel representation
 - ghost booking - know if fit before scheduling
+
+unified interface
 
 ### Foundation for new capabilities
 
@@ -57,8 +64,7 @@ Public preview April 2020
 > [!Note]
 > More 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+
 
 ## Enable new Schedule Board preview
 
@@ -81,6 +87,10 @@ Publish changes
 
 Use the toggle button in the top right of the schedule board to switch between the current and preview schedule boards. 
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/schedule-board-new-enable-preview.png)
+
 ## Configuration considerations
 Continue to use the current schedule board for common functions like:
 - schedule board tab settings
@@ -88,6 +98,10 @@ Continue to use the current schedule board for common functions like:
 - days weeks and months view
 
 ## Additional Notes
+
+pcf Control
+
+react fabric office fabric components
 
 ### Implementing new schedule board
 - use for simple scheduling
