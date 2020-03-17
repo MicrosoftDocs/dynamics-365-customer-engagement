@@ -30,19 +30,46 @@ search.app:
 
 // Use podcast video for details: https://msit.microsoftstream.com/video/e2244efa-a845-4351-8acd-52ca80497789?channelId=0bf6f71a-b361-4d7b-9668-62ff5207b60d
 
+Will exist alongside current schedule board until feature parity is reached in which case it will replace
+
 
 Benefits:
-- performance
-- usability and accessability
-- Foundation for new capabilities and scenarios
+- performance 
+- usability and accessability 
+- Foundation for new capabilities for multi-day scheduling and intelligent interactions
 
+### Performance
+
+(load times, drag and drop)
+
+### Usability and accessiblity
+
+- (new color scheme )
+- ghost booking - know if fit before scheduling
+
+### Foundation for new capabilities
 
 ## Prerequisites
+
+Public preview April 2020
+
 > [!Note]
->
+> More 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/.png)
 
+## Enable new Schedule Board
+
+
+
+
 ## Configuration considerations
+Continue to use the current schedule board for common functions like:
+- schedule board tab settings
+- 
+
 ## Additional Notes
+
+### Implementing new schedule board
+- use for simple scheduling
