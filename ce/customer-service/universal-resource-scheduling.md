@@ -4,7 +4,7 @@ description: See how you can effectively search resource availability and create
 author: lerobbin
 ms.author: lerobbin
 manager: shujoshi
-ms.date: 03/10/2020
+ms.date: 03/17/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -88,7 +88,13 @@ Use the following input and output parameters for the Search Resource Availabili
 |   |ProposalResourceAssignment (List<<OutputProposalResourceGroup>OutputProposalResourceGroup>)|List of Resource assign to Requirement|
 |Paginginfos |MoreResults (Boolean)|If there are more results or not.|
 |            |PagingCookie (String)|Paging cookie that can be used in the future search.|
-
+|Location	|Entity|	The location has two attributes, Latitude and Longitude|
+|WorkLocation|Integer|The work location<br />- Onsite (0)<br />- Facility (1)<br />Location agnostic (2)|
+|LocationSourceSlot|Integer|The source of the location information<br />- Common (1)<br />- Custom GPS entity (2)<br />Mobile audit (3)|
+|TimeGroupId|	Guid|	The time group Id.|
+|TimeGroupDetail|	EntityReference	|	An entity reference to the time group detail.|
+|TimeGroupDetailStartTime|	Date and Time	|	The time group detail start time.|
+|TimeGroupDetailEndTime|Date and Time	|	The time group detail end time.|
 
 ### Example
 
@@ -149,12 +155,18 @@ Use the following input and output parameters for the Create Requirement Group B
 ### Parameters
 
 |  Name   | Type  | Required | Description   |
-|----------------------------------|---|---------|
+|-----------------|-----------------|---|---------|
 |Version | String | Yes | The version number of the API. The version number identifies the version of the API that should be invoked. The version number is a semantic version number of the format major.minor.patch. The request does not have to contain the complete version number.|
 |RequirementGroup |   |Yes | An entity reference to the requirement group entity, usually is a GUID, as shown in the below sample.|
 |Start |DateTime | Yes | Start time of the Timeslot. |
 |Duration | Integer | Yes  | The Duration of the Booking to be created.|
 |ResourceAssignments | GUID | Yes| It is an entity collection of the Resource Assisgnments that are to be made for the Bookings to be created. Look at the Resource Assignment entity table for more details |
+
+**Resource Assignments**
+
+|  Name   | Type  | Required | Description   |
+|---------------------|-------------|---|---------|
+|Requirement| 	GUID|	Yes|	The resource requirement id of the Requirement for which the booking record is to be created. |
 |Resource | GUID    | Yes | The bookable resource Id of the Resource to create the booking for. |
 | BookingStatusID | GUID  | Yes | The booking status id of the booking to be created. |
 | Effort | Integer  |  No| The capacity of the Bookable Resource that is consumed by this booking.|
