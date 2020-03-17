@@ -2,7 +2,7 @@
 title: "Bug fixes for Dynamics 365 Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 01/13/2020
+ms.date: 03/10/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -32,6 +32,65 @@ In this article, you'll find an ongoing list of bug fixes for Dynamics 365 Field
 
 ## Dynamics 365 Field Service
 
+### Version 8.8.11.19
+
+- Fixed an issue where Agreement Booking Date generation fails when Agreement is owned by a team.
+- Resolved an issue where Field Service client side logic fails when using contact form while in offline.
+- Resolved PO Product form customization issues where
+  - If an organization removed the 'Quantity Received' field from the Purchase Order Product, they would be unable to create a new Purchase Order Product record.
+  - Work Order and Warehouse values do not auto-populate if the fields are removed from the form.
+- When using Quick Create form for WO from an Account, fixed an issue where some of the fields that were expected to auto-populate were not being populated.
+- If the map control is removed from the work order form, it cannot be added back. The control has been locked to the form so that it cannot be removed from the form.
+- Issue where the primary incident type record of a deactivated WO could not be deactivated; added a validation check to only allow the Work Order Incident record to be deactivated when Work Order is deactivated.
+
+### Version 8.8.14.328 (2020 Wave 1 Early Access)
+
+For more information about early access features, visit the [opt-in instructions](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates).
+
+- Before a Work Order Product or Work Order Service is set to Used, the Total Amount is not calculated.
+  - Previously, under some circumstances, a Work Order Service line in Estimated status could have a Total Amount value despite not being set to used. This could result in challenges when looking at the Work Order’s total amount and potential downstream invoice discrepancies.
+  - This also required an improvement to the Work Order Product and Work Order Service views to ensure we show both the Estimated Total Amount and the Total Amount so users could understand the value in context of the line’s current status.
+- On the Agreement Booking/Invoice Setup, booking and invoice generation time (respectively) could be incorrect if the user who own's the agreement is in a time zone +1 or higher from UTC.
+  - Going forward, the system will consider the Agreement Booking/Invoice Setup owner’s time zone when generating date records.
+  - This will now mean that Agreement Booking Date and Agreement Invoice Dates will be generated correctly and consistently, relative to the owner’s time zone.
+  - Note: Be sure to validate that all existing Agreement Booking Setups and Agreement Invoice Setups owned by users +1 or greater than UTC are correctly configured to generate Invoices and Work Orders per organizational expectations.
+- On Tax Codes, when 'Act As Tax Group' is set to Yes, Tax Rate % and Items Taxable should be hidden.
+  - When a Tax Code is configured to act as a tax group, the tax rate and items taxable should be hidden from the user as these values come from the applicable related Tax Code Details for a tax group.
+  - Further, on the Tax Code, when the “Act as Tax Group” flag is set to Yes, a form notification will now show on the form to highlight that Tax Code Details must be created for taxes to be applied when the Tax Code is used.
+- On the Opportunity entity’s main Form, Account shouldn't be mandatory if Order Type is not Service-Maintenance Based.
+  - When creating an Opportunity, the Account field should only be mandatory if the Order Type is “Service-Maintenance Based.”
+- On the Agreement Booking/Invoice Setup, if a user’s time zone was set to a GMT +1 or higher, the default range of recurrence was auto-calculated to one day before Agreement Start/End.
+  - When defining an Agreement Booking/Invoice Setup as a user in a time zone +1 or higher from UTC, then the range of recurrence on the record’s recurrence string was always calculated one day before the start/end date of the related Agreement’s start/end date.
+  - This will now calculate the default recurrence range appropriately based on the user creating the record’s time zone.
+- Deprecated Quote Booking Setup’s Margin tab and calculation logic
+  - Formerly, on the Quote Booking Setup form, there was a tab that attempted to calculate the margin of the proposed booking setup.
+  - Under certain circumstances, this margin calculation could be incorrect.
+  - Due to the limited usage of the feature and the complexity involved in supporting every permutation of possible configuration with corrected calculations, the tab and related calculation logic was removed.
+- Introduced better validation messaging if a user tries to increase the quantity on a Quote Line for Service-Based lines.
+- Prevent Agreement Booking Service Task from being saved when Task Type lookup field is null.
+  - If an organization customized the Agreement Booking Service Task entity to make the Task Type optional, this would result in downstream errors when trying to generate Work Order Service Tasks.
+  - As such, a synchronous plugin was registered that will prevent the creation of an Agreement Booking Service Task if Task Type is null.
+- Fixed typo in error message when Incident Type Requirement Groups is related to an empty Requirement Group Template.
+- Prevent Work Order Service from being saved when the Service lookup field is null.
+  - If an organization customized the Work Order Service entity to make the Service optional, this could result in downstream errors.
+  - As such, a synchronous plugin was registered that will prevent the creation of a Work Order Service if Service is null.
+- Improved the warning notification message on the "Geo Code Address” button when Bing maps is disabled.
+
+### Version 8.8.10.44
+
+- Agreement Booking Service Task's Name is overwritten when the related task type changes.
+- Cannot complete booking that has travel time if the Travel Charge Type on the related Work Order's Account is null.
+
+### Version 8.8.9.84
+
+- Script error when Account field is removed from the Opportunity Quick Create form.
+- On create of Account record based on Postal Code functionality, Service Territory is repeated auto-populated, even after the customer removes the initial auto-populated value.
+- Consistency issue in Field Service's Solution Health Hub rule naming when referring to SDK Message Processing Steps.
+
+### Version 8.8.8.135
+
+- Work Order plugin error for SLA KPI Instance.
+
 ### Version 8.8.8.50
 
 - Improve error messages when the user attempting an action is missing "Field Service Setting" read privilege.
@@ -54,24 +113,34 @@ To see older bug fixes, see the following links to blog posts:
 
 | **Version 8**                                                                                                                               | **Version 7**                                                                                                                                                 | **Version 6**                                                                                                                                               |
 |-----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [8.8.3.533](https://cloudblogs.microsoft.com/dynamics365/it/2019/09/10/enhancements-and-bug-fixes-for-field-service-version-8-8-3-533/) | [7.5.13.73](https://cloudblogs.microsoft.com/dynamics365/it/2019/09/10/enhancements-and-bug-fixes-for-field-service-version-7-5-13-73/)                   | [6.2.3.24](https://cloudblogs.microsoft.com/dynamics365/it/2018/01/26/release-notes-for-field-service-and-project-service-automation-update-5/)         |
-| [8.8.2.160](https://cloudblogs.microsoft.com/dynamics365/it/2019/08/11/enhancements-and-bug-fixes-for-field-service-version-8-8-2-160/) | [7.5.12.53](https://cloudblogs.microsoft.com/dynamics365/it/2019/08/06/enhancements-and-bug-fixes-for-field-service-version-7-5-12-53/)                   | [6.2.2.13](https://cloudblogs.microsoft.com/dynamics365/it/2017/10/31/dynamics-365-for-field-service-and-project-service-automation-update-4/)          |
-| [8.8.1.45](https://cloudblogs.microsoft.com/dynamics365/it/2019/07/07/enhancements-and-bug-fixes-for-field-service-version-8-8-1-45/)   | [7.5.11.102](https://cloudblogs.microsoft.com/dynamics365/it/2019/07/07/enhancements-and-bug-fixes-for-field-service-version-7-5-11-102/)                 | [6.2.1.38](https://cloudblogs.microsoft.com/dynamics365/it/2017/07/14/dynamics-365-for-field-service-and-project-services-automation-update-3/)         |
-| [8.8.0.88](https://cloudblogs.microsoft.com/dynamics365/it/2019/06/10/release-notes-for-field-service-version-8-8-0-88/)                | [7.5.10.235](https://cloudblogs.microsoft.com/dynamics365/it/2019/06/10/release-notes-for-field-service-version-7-5-10-235/)                              | [6.2](https://cloudblogs.microsoft.com/dynamics365/it/2017/05/19/dynamics-365-for-field-service-and-project-services-automation-february-2017-updates/) |
-| [8.7.0.105](https://cloudblogs.microsoft.com/dynamics365/it/2019/05/06/release-notes-for-field-service-version-8-7-0-105/)              | [7.5.9.91](https://cloudblogs.microsoft.com/dynamics365/it/2019/05/06/release-notes-for-field-service-version-7-5-9-91/)                                  |                                                                                                                                                         |
-| [8.6.0.274](https://cloudblogs.microsoft.com/dynamics365/it/2019/04/06/release-notes-for-field-service-version-8-6-0-274/)              | [7.5.8.93](https://cloudblogs.microsoft.com/dynamics365/it/2019/04/06/release-notes-for-field-service-version-7-5-8-93/)                                  |                                                                                                                                                         |
-| [8.5.0.345](https://cloudblogs.microsoft.com/dynamics365/it/2019/03/07/release-notes-for-field-service-version-8-5-0-345/)              | [7.5.7.87](https://cloudblogs.microsoft.com/dynamics365/it/2019/03/07/release-notes-for-field-service-version-7-5-7-87/)                                  |                                                                                                                                                         |
-| [8.4.0.338](https://cloudblogs.microsoft.com/dynamics365/it/2019/02/11/release-notes-for-field-service-version-8-4-0-338/)              | [7.5.6.97](https://cloudblogs.microsoft.com/dynamics365/it/2019/02/04/release-notes-for-field-service-version-7-5-6-97/)                                  |                                                                                                                                                         |
-| [8.3.0.255](https://cloudblogs.microsoft.com/dynamics365/it/2018/12/21/release-notes-for-field-service-version-8-update-release-3/)     | [7.5.5.48](https://cloudblogs.microsoft.com/dynamics365/it/2018/12/05/release-notes-for-field-service-version-7-update-release-11/)                       |                                                                                                                                                         |
-| [8.2.0.286](https://cloudblogs.microsoft.com/dynamics365/it/2018/11/08/release-notes-for-field-service-version-8-update-release-2/)     | [7.5.4.51](https://cloudblogs.microsoft.com/dynamics365/it/2018/11/08/release-notes-for-field-service-version-7-update-release-10/)                       |                                                                                                                                                         |
-|                                                                                                                                         | [7.5.0.60](https://cloudblogs.microsoft.com/dynamics365/it/2018/05/08/release-notes-for-field-service-and-project-service-automation-update-release-5-2/) |                                                                                                                                                         |
-|                                                                                                                                         | [7.4.1.31](https://cloudblogs.microsoft.com/dynamics365/it/2018/04/03/release-notes-for-field-service-and-project-service-automation-update-release-5/)   |                                                                                                                                                         |
-|                                                                                                                                         | [7.4.0.74](https://cloudblogs.microsoft.com/dynamics365/it/2018/02/22/release-notes-for-field-service-and-project-service-automation-update-release-4/)   |                                                                                                                                                         |
+| [8.8.3.533](https://cloudblogs.microsoft.com/dynamics365/it/2019/09/10/enhancements-and-bug-fixes-for-field-service-version-8-8-3-533/) | Not supported. | Not supported. |
+| [8.8.2.160](https://cloudblogs.microsoft.com/dynamics365/it/2019/08/11/enhancements-and-bug-fixes-for-field-service-version-8-8-2-160/) | ||
+| [8.8.1.45](https://cloudblogs.microsoft.com/dynamics365/it/2019/07/07/enhancements-and-bug-fixes-for-field-service-version-8-8-1-45/)   |||
+| [8.8.0.88](https://cloudblogs.microsoft.com/dynamics365/it/2019/06/10/release-notes-for-field-service-version-8-8-0-88/)                | ||
+| [8.7.0.105](https://cloudblogs.microsoft.com/dynamics365/it/2019/05/06/release-notes-for-field-service-version-8-7-0-105/)              | ||
+| [8.6.0.274](https://cloudblogs.microsoft.com/dynamics365/it/2019/04/06/release-notes-for-field-service-version-8-6-0-274/)              |||
+| [8.5.0.345](https://cloudblogs.microsoft.com/dynamics365/it/2019/03/07/release-notes-for-field-service-version-8-5-0-345/)              |||
+| [8.4.0.338](https://cloudblogs.microsoft.com/dynamics365/it/2019/02/11/release-notes-for-field-service-version-8-4-0-338/)              |||
+| [8.3.0.255](https://cloudblogs.microsoft.com/dynamics365/it/2018/12/21/release-notes-for-field-service-version-8-update-release-3/)     |||
+| [8.2.0.286](https://cloudblogs.microsoft.com/dynamics365/it/2018/11/08/release-notes-for-field-service-version-8-update-release-2/)     |||
 
  
 ## Field Service Mobile
 
-### Version 12.1
+### Version 12.1.211
+-	App crashes when wrong url is entered on sign in screen
+-	FSM app crashes when sending logs if networkLog.txt does not exit
+-	FSM app crashes when connecting to an org without woodford
+-	FSM app crashes when click on 'password manager' from login screen
+-	App crashing on certain older Android devices (misc)
+-	MobileReport - formatting issue on Word/HTML
+-	MobileReport - contents of Word document is removed if user saves Work Order without closing active doc.
+-	Unit Amount and Unit Cost are not calculated when the offline Work Order Product created and sync backed to server
+-	Certain actions don't work under work profile on Android
+-	Conditionally displaying a URL via a shared-variable linked field does not update icon
+
+
+### Version 12.1.203
 
 - Win10: Use standard fileIO methods (except open & delete) 
 - When copying DynamicEntity, copy the partylist not just the pointer 
@@ -118,7 +187,7 @@ To see older bug fixes, see the following links to blog posts:
 - Server error appearss when users with FS Dispatcher privileges try to create Customer Asset in online mode
 
 
-### Version 11.3
+### Version 11.3.107
 
 - Fixed saving of offline Booking Signatures
 - Fixed update address button error message

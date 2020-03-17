@@ -18,20 +18,16 @@ manager: annbe
 
 Kanban views help salespeople to manage their opportunities and activities effectively. Add the Kanban control to the Opportunity and Activity entity so salespeople can use the Kanban views.
 
+> [!IMPORTANT]
+> The Kanban control works only on the Opportunity and Activity entity.
+
 To add the control:
 1.	In your app, select the **Settings** icon, and then select **Advanced Settings**.
 
     > [!div class="mx-imgBorder"]  
     > ![Advanced Settings link in the site map](../sales-enterprise/media/advanced-settings-option.png "Advanced Settings link in the site map")
 
-    The **Settings** page opens in Power Platform Admin center.
-
-2.  Expand the **Resources** section, and select **All legacy settings**. 
-
-    > [!div class="mx-imgBorder"]
-    > ![Option to open legacy settings](../sales-enterprise/media/legacy-settings-power-platform-admin-center.png "Option to open legacy settings")
-    
-    The Business Management page opens.
+    The **Business Management settings** page opens in a new browser tab.
 
 2.	On the navigation bar, select **Settings** and then under **Customization**, select **Customizations**.
 

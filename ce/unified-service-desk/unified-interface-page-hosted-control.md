@@ -1,7 +1,7 @@
 ---
 title: "Unified Interface Page (Hosted Control) | MicrosoftDocs"
 description: "Learn about the Unified Interface Page hosted control type to load a URL or page from the model-driven app. When a model-driven apps page is loaded within a hosted control of this type, it will automatically scan the page for data from the entity, and automatically populate the replacement parameters."
-ms.date: 04/24/2018
+ms.date: 02/17/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -71,22 +71,11 @@ This action closes the hosted control, but prompts the user to save or abandon t
 
 Navigate to the quick find list view of the specified entity.
 
-<table>
-<thead>
-<tr class="header">
-<th><strong>Parameter</strong></th>
-<th><strong>Description</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td></td>
-<td>The data parameter should specify the entity logical name of the quick find list view to display. There are some special case values:<br />
-- Use <strong>case</strong> or <strong>incident</strong> to display the quick find list view for cases.<br />
-- Use <strong>activities</strong> or <strong>activity</strong> to display the quick find list view for activities.</td>
-</tr>
-</tbody>
-</table>
+| Parameter|Description|
+|-----------------------------------|------------------------------------------|
+| |The data parameter should specify the entity logical name of the quick find list view to display. There are some special case values:<br/>- Use **case** or **incident** to display the quick find list view for cases.<br /> - Use **activities** or **activity** to display the quick find list view for activities.|
+| hideNavigationBar | Set true to hide the navigation bar, otherwise false.|
+| hideCommandBar | Set true to hide the command bar, otherwise false.|
 
 ### FireEvent
 
@@ -309,7 +298,10 @@ Occurs when the active hosted control is closed using the [CloseActive](https://
 
 ### DataReady
 
-Occurs as soon as the related information for an entity record is loaded in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] context. This event occurs before the **PageReadyFor** event. If the **Pre-Fetch Data** option is selected for the control instance then this event occurs as soon as the entity data is fetched in a separate parallel call to the server and will not wait for the full page to finish loading. The entity data is pre-fetched and the **DataReady** event is fired for inline navigations as well.
+Occurs as soon as the related information for an entity record is loaded in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] context. This event occurs before the **PageReadyFor** event. If the **Pre-Fetch Data** option is selected for the control instance then this event occurs as soon as the entity data is fetched in a separate parallel call to the server and will not wait for the full page to finish loading. The entity data is pre-fetched and the **DataReady** event is fired for inline navigation as well.
+
+> [!Note]
+> For dashboards, web resources, and search pages, the DataReady event isn't fired.
 
 ### RefreshRequested
 
@@ -343,6 +335,13 @@ Occurs when the page has finished loading. On a Unified Interface Page type of h
 |-----------|------------------------------------------------|
 | url       | The URL of the page that has finished loading. |
 
+> [!Note]
+> For dashboards, web resources, and search pages, the DataReady event isn't fired.
+
+### BrowserWindowReady
+
+The `BrowserWindowReady` event is invoked when the browser window is ready within Unified Service Desk client application. Use `BrowserWindowReady` for dashboards and web resources.
+
 ### OnClickToAct
 
 The `OnClickToAct` event invoked when user selects the outbound communication (ClickToAct) field in a form.
@@ -356,6 +355,9 @@ To learn more, see [onclicktoact](/dynamics365/customer-engagement/developer/cha
 The `OnSendKbArticle` event is invoked when the user selects the **Send** button in the Knowledge Base control. The eventData are the URL and the title of KB article that you need to pass.
 
 To learn more, see [onsendkbarticle](/dynamics365/customer-engagement/developer/channel-integration-framework/reference/events/onsendkbarticle)
+
+> [!Note]
+> We recommend not to use `window.IsUSD` in the model-driven app forms, and instead use the [PageReady](#pageready) event or other events as listed in this topic.
 
 ## See also
 

@@ -8,8 +8,8 @@ ms.custom:
   - dyn365-marketing
 ms.topic: article
 ms.assetid: 0736ed6b-7931-1899-28a2-9f84a03fc568
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 topic-status: Drafting
 search.audienceType: 

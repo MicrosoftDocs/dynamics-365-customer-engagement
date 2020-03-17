@@ -30,7 +30,7 @@ With this option, you can get a free 30-day trial of Chat, SMS, and Facebook Mes
 - You must have an existing organizational account with the global administrator role to enable the trial.
 
 > [!NOTE]
-> This option is currently available only in North America, Europe, Canada, United Kingdom, Australia, Asia Pacific, and South America. Your tenant must be located in one of these regions. 
+> To know the geographic location availability, see [International availability](international-availability.md).
 
 ### Step 1: Get a Dynamics 365 trial instance
 

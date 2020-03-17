@@ -4,161 +4,112 @@ description: "Learn about how to smartly assist agents with the next-best steps 
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 10/25/2019
+ms.date: 02/06/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
 ---
 
-# Preview: Smart assist for agents
+# Smart assist for agents
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
-> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided “as-is,” “with all faults,” “as available,” and without warranty.​
-> - This preview features does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
-> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../../legal/dynamics-insider-agreement.md).
-
 ## Overview of smart assist
 
-The new-age customer service industry is moving towards the vision of being an intelligent versus process-driven while interacting with customers. Pivoting on intelligence capabilities, helps unleash the productivity of agents to perform better on Key Performance Indicators and at the same time, deliver better customer experience.
+The new-age customer service industry is moving toward the vision of being intelligent rather than process-driven while interacting with customers. Pivoting on intelligence capabilities helps unleash the productivity of agents to perform better on key performance indicators and&mdash;at the same time&mdash;deliver better customer experience.
 
-As the agents are more efficient and productive, there is a reduction in the cost of operation of the call center. Now, the smart assist feature helps organizations realize the vision of being more intelligent.
+As agents become more efficient and productive, the cost of operating the call center falls. Now, the smart assist feature helps organizations realize the vision of being more intelligent.
 
-Smart assist is an intelligent assistant that provides real-time recommendations to the agents, helping them to take actions while interacting with the customers. It allows organizations to build a custom bot and plug-in to their environment. These custom bot interprets the conversations in real-time and provides relevant recommendations such as knowledge articles, similar cases, and next-best steps to the agent's user interface. The recommendations are shown to the agents using Microsoft Adaptive cards.
+Smart assist is an intelligent assistant that provides real-time recommendations to agents, helping them to take actions while interacting with customers. It allows organizations to build a custom bot and plug-in to their environment. These custom bots interpret conversations in real time and provide relevant recommendations such as knowledge articles, similar cases, and next-best steps to the agent's user interface. The recommendations are shown to the agents by using Microsoft Adaptive cards.
 
-The smart assist feature can be enabled across all channels like Chat for Dynamics 365 Customer Service, SMS, and Facebook except entity records making it a consistent experience for agents.
+The smart assist feature can be enabled across all channels like Chat for Dynamics 365 Customer Service, SMS, and Facebook (excluding Entity Records Channel), making it a consistent experience for agents.
 
 ## Value proposition
 
-- Contextual recommendations are generated based on the real-time conversations.
+- Contextual recommendations are generated based on real-time conversations.
 
-- Plug-in organization-specific recommendations and display it to agents in real-time.
+- Plug-in organization-specific recommendations are displayed to agents in real time.
  
-- Action-oriented recommendations for agents to send responses or execute the automated actions.
+- Action-oriented recommendations are given for agents to send responses or execute automated actions.
 
-- Intelligence powered using Microsoft Azure or third-party capabilities.
+- Intelligence is powered by using Microsoft Azure or third-party capabilities.
 
-- Improved Average Handling Time (AHT) and First Call Resolution (FCR).
+- Agents can achieve improved average handling time and first call resolution.
 
-## Pre-requisites
+## Prerequisites
 
 - Install Dynamics 365 Productivity Tools solution.
 
-- Develop a custom bot and integrate with Omnichannel for Customer Service app to use the Smart Assist feature.
+- Develop a custom bot and integrate it with Omnichannel for Customer Service to use smart assist.
 
-## Walkthrough to enable smart assist
+## Walk-through to enable smart assist
 
 [Step 1: Develop a smart assist bot](#step-1-develop-a-custom-smart-assist-bot)
 
 [Step 2: Create a bot user](#step-2-create-a-bot-user)
 
-[Step 3: Add smart assist bot to workstream](#step-3-add-smart-assist-bot-to-a-workstream)
+[Step 3: Add smart assist bot to a workstream](#step-3-add-smart-assist-bot-to-a-workstream)
 
-[Step 4: Add smart assist control to form](#step-4-add-smart-assist-control-to-a-form)
+[Step 4: Enable the productivity pane](#step-4-enable-the-productivity-pane)
 
-## Step 1: Develop a custom smart assist bot
+## Step 1: Develop a custom smart-assist bot<a name="step-1-develop-a-custom-smart-assist-bot"></a>
 
-Develop a custom bot and integrate with Omnichannel for Customer Service app to use the Smart Assist feature. 
+Develop a custom bot and integrate it with Omnichannel for Customer Service to use the smart assist feature. 
 
-### Purpose of smart assist bot
+### Purpose of the smart-assist bot
 
-The smart assist bot interprets the conversation context in real-time and provides suggestions to the agents. The smart assist bot sends the suggestions using the [Microsoft Adaptive cards](https://docs.microsoft.com/adaptive-cards/). 
+The smart-assist bot interprets the conversation context in real time and provides suggestions to agents. The smart-assist bot sends suggestions by using [Microsoft Adaptive Cards](https://docs.microsoft.com/adaptive-cards/). 
 
-You can embed macros and custom actions within a suggestion with the of use web resources.
+You can embed macros and custom actions within a suggestion by using web resources. For example:
 
-For example:
+*  **Custom action:** An agent is displayed with a knowledge article card that includes a **Send Link** button. You can implement a custom action to copy and paste the link in the communication panel when the agent selects the **Send Link** button.
 
-**Custom action:** An agent is displayed with a Knowledge article card with a **Send Link** button. You can implement a custom action to copy and paste the link in the communication panel when agent selects the **Send Link** button.
-
-**Macro:**: An agent is displayed with a Create Case card. You can implement a macro with the card to open a new form to create a case when an agent selects the **Create case** button on the card. While developing the Adaptive cards, you need to specify the name of the macro.
+*  **Macro:**: An agent is displayed with a Create Case card. You can implement a macro with the card to open a new form to create a case when the agent selects the **Create case** button on the card. While developing the Adaptive Cards, you need to specify the name of the macro.
 
 To learn more, see [Smart assist bot](../developer/how-to/smart-assist-bot.md).
 
 ## Step 2: Create a bot user
 
-After you create a bot, you must create a bot user to work as a smart assistant to the agent. A bot user is created as an application user and assigned with the **Omnichannel agent** role. Creating an application user is supported in the Web Client only. For information on creating a bot user, see [Create a bot user](configure-bot.md#step-1-create-a-bot-user).
+After you create a bot, you must create a bot user to work as a smart assistant to the agent. A bot user is created as an application user and assigned the **Omnichannel agent** role. If your bot needs to search for knowledge base articles, then you need to provide either the **Customer Service Manager** or **Customer Service Representative** role.
 
-## Step 3: Add smart assist bot to a workstream
+Creating an application user is supported in the web client only. For information about creating a bot user, see [Create a bot user](configure-bot.md#step-1-create-a-bot-user).
 
-After you create a bot user, you need to add the bot to the workstream so that the agents who are part of this workstream can see the suggestions.
+## Step 3: Add a smart assist bot to a workstream<a name="step-3-add-smart-assist-bot-to-a-workstream"></a>
 
-1. Sign in to Omnichannel Administration app
+After you create a bot user, you need to add the bot to the workstream so that agents who are part of this workstream can see the suggestions.
 
-2. Select **Work Streams** under **Work Distribution Management**.
+1. Sign in to the Omnichannel Administration app.
 
-3. Select a workstream for which you want to add the smart assist bot.
+2. Under **Work Distribution Management**, select **Work Streams**.
+
+3. Select the workstream for which you want to add the smart-assist bot.
 
 4. Select the **Smart Assist** tab.
 
-5. Select **+ Add Existing** in the **Smart Assist** section. The **Lookup Records** pane appears.
+5. In the **Smart Assist** section, select **+ Add Existing**. The **Lookup Records** pane appears.
 
-6. Select the search icon to see the list of available smart assist bots, and select a bot from the list, and then select **Add**. <br> You can multiple bots to a workstream based on your business requirement.
+6. Select the search icon to see the list of available smart-assist bots, select a bot from the list, and then select **Add**. 
+You can add multiple bots to a workstream based on your business requirements.
 
-7. Select **Save** the workstream changes.
+7. Select **Save**.
  
-## Step 4: Add smart assist control to a form
+<a name="step-4-enable-productivity-pane"></a>
 
-After you add the smart assist bot to a workstream, you must add the smart assist field to the form where you want to show it for the agents.
+## Step 4: Enable the productivity pane
 
-1. Sign in to the Omnichannel Administration app, and then on the command bar select **Settings** ![Settings](../media/settings-gear.png "Settings") > **Advanced  Settings**.
+After you've created the agent script, you need to enable the productivity pane to display the smart-assist card to agents in Omnichannel for Customer Service.
 
-2. Select **Settings** > **Customizations** > **Customize the System**. **Solution Explorer** opens in a new window.
+To enable the productivity pane, see [Enable the productivity pane to provide guidance to agents](productivity-pane.md).
 
-3. Expand **Entities** and select the entity for which you want to add the field. In this procedure, let us add to the **Customer Summary** form in the **Conversation** entity.
+After you've enabled the productivity pane, users can see the smart-assist cards on the productivity pane in Omnichannel for Customer Service.
 
-4. Expand **Conversation** > **Forms** > **Customer Summary**. The **Customer Summary** form opens in a new window.
+> [!Note]
+> - If you don't create smart-assist cards and enable the productivity pane, users won't see the pane in Omnichannel for Customer Service. 
+>
+> - We recommend that you remove the smart-assist control if you've customized a form to add smart-assist. If you don't remove the smart-assist control, agents won't be able to see the smart-assist control in the form and also in the productivity pane.
 
-5. Select **INSERT** tab from the command bar, and then select **Section** > **One Column** in the command bar.
+### See also
 
-    > [!div class=mx-imgBorder] 
-    > ![Add section](../media/agent-script-control5.png "Add section")
-
-6. Select the section, and then select **Change Properties** from the command bar. The **Section Properties** dialog appears.
-
-7. Specify **Smart Assist** as the value for both **Name** and **Label** field.
-
-8. Select the **Show the label of this section on the Form**  check box, and then select **OK**.
-
-    > [!div class=mx-imgBorder] 
-    > ![Add name and show label](../media/smart-assist-control8.png "Add name and show label")
-
-9. Select a field of type **Text** from **Field Explorer**. For example, the **Title** field is of type **Text**. If you hover the cursor on a field, you can view the type.
-
-    > [!div class=mx-imgBorder] 
-    > ![Add field of type Text](../media/agent-script-control9.png "Add field of type Text")
-
-10. Drag and drop the **Title** field to the section you added in earlier step.
-
-11. Select the **Title** field in the **Smart Assist** section, and then select **Change Properties** from the command bar. The **Field Properties** dialog appears.
-
-12. Clear the **Display the label on the form** check box in the **Display** tab.
-
-    > [!div class=mx-imgBorder] 
-    > ![Clear display label](../media/agent-script-control12.png "Clear display label")
-
-13. Select the **Controls** tab in the **Field Properties** dialog, and then select **Add Control**.
-
-    > [!div class=mx-imgBorder] 
-    > ![Add smart assist control](../media/agent-script-control13.png "Add smart assist control")
-
-14. Select **Smart Assist control** in the **Add Control** dialog, and then select **Add**.
-
-15. Choose the **Web** radio button for the **Smart Assist control** option, and then select **OK**.
-
-    > [!div class=mx-imgBorder] 
-    > ![Choose web option](../media/smart-assist-control15.png "Choose web option")
-
-16. Select **Save** to save the changes.
-
-17. Select **Publish** to publish the customizations.
-
-## See also
-
-[Smart assist for agents](../agent/agent-oc/oc-smart-assist.md)
- 
-[Macros](macros.md)
-
+[Smart assist for agents](../agent/agent-oc/oc-smart-assist.md)<br>
+[Macros](macros.md)<br>
 [Agent scripts](agent-scripts.md)

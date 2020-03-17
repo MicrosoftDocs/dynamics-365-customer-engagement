@@ -129,6 +129,7 @@
 ## [Lock options for bookings](booking-lock-options.md)
 ## [Resolving conflicts for bookings](rso-handling-resolving-booking-conflicts.md)
 ## [Set up a proof of concept](rso-proof-concept.md)
+## [Schedule in sequence](rso-requirement-dependency.md)
 ## Running resource scheduling optimization
 ### [Publishing + monitoring](rso-schedule-optimization.md)
 ### [Overnight scheduling](rso-overnight-scheduling.md)
@@ -164,7 +165,7 @@
 ## [Dynamics 365 Guides on HoloLens](mixed-reality-guides-integration.md)
 ## [SAP integration](field-service-sap-integration.md)
 
-# Resources
+# Additional resources
 ## [Version history (web + mobile)](version-history.md)
 ## [Bug fixes](bug-fixes.md)
 ## [AppSource add-ins for Field Service](appsource-addins.md)
