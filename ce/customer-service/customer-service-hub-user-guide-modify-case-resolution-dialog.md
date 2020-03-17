@@ -61,7 +61,7 @@ Now that you have set your permissions, the admin must  enable customizable dial
 **Step 4:**	Click **Save**
 
   > [!div class=mx-imgBorder]
-  > ![Enable Customizable Dialog](media\case-resolution-entity.png "Enable Customizable Dialog")
+  > ![Enable Customizable Dialog](media/case-resolution-entity.png "Enable Customizable Dialog")
 
 > [!NOTE]
 > The default setting is **Standard Dialog**. Admin must select the **Customizable Dialog** option, otherwise changes made to the form will be saved, but will not be displayed. 
@@ -158,7 +158,7 @@ Now that we've added the duplicate status to the case entity, we need to add it 
 
   > [!div class=mx-imgBorder]
 
-  > ![Case Resolution Entity](media\enable-customizable-dialog-1.png "Case Resolution Entity")
+  > ![Case Resolution Entity](media/enable-customizable-dialog-1.png "Case Resolution Entity")
 
   > ![Case Resolution Entity](media/enable-customizable-dialog-2.png "Case Resolution Entity")
 
@@ -172,7 +172,7 @@ Now that we've added the duplicate status to the case entity, we need to add it 
 **Step 7:** Click **Save**
 
   > [!div class=mx-imgBorder]
-  > ![Case Resolution Entity](media\enable-customizable-dialog-2.png "Case Resolution Entity")
+  > ![Case Resolution Entity](media/enable-customizable-dialog-2.png "Case Resolution Entity")
 
 Now the a case resolution entity will appear in the dialog field as an option you can select. 
 
