@@ -18,13 +18,13 @@ ms.topic: article
 
 > [!IMPORTANT]
 > - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided “as-is,” “with all faults,” “as available,” and without warranty.​
-> - This preview features does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
+> - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
 > - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../../legal/dynamics-insider-agreement.md).
 
 
 ## Overview of WhatsApp channel through Twilio
 
-Many customers use social messaging channels like WhatsApp for their personal communication needs. Customer expectations are rising, and many prefer using the WhatsApp channel to engage with businesses. Expectations of customer service via social channels such as WhatsApp are rising to the point that customers now expect the same level of service they’re used to from call and live chat to those on WhatsApp. 
+Many customers use social messaging channels like WhatsApp for their personal communication needs. Customer expectations are rising, and many prefer using the WhatsApp channel to engage with businesses. Expectations of customer service via social channels such as WhatsApp are rising to the point that customers now expect the same level of service from WhatsApp that they’re used to from call and live chat. 
 
 The success of social media customer service, like all other customer service, depends on the quality of care provided. Communications from agents should be timely, accurate, sensitive, brief, and friendly, which ultimately improves the customer satisfaction and brand loyalty.
 
@@ -83,6 +83,9 @@ Go to your **Twilio Console Dashboard** > **Settings** > **General** to fetch th
 You've created a work stream for the WhatsApp channel. To learn more, see [Create work streams](work-streams-introduction.md).
 
 To configure other options in the work stream, see the following:
+
+
+<!--Is it correct that these links open GitHub pages? -->
 
 - [Skill-based routing](overview-skill-work-distribution.md)
 - [Productivity tools](productivity-tools.md)
@@ -158,6 +161,10 @@ To create a WhatsApp channel, follow these steps:
     > ![Validate Account SID, Auth token, and phone number](../media/whatsapp-channel-5.png "Validate Account SID, Auth token, and phone number")
 
 ## See also
+
+
+<!--Is it correct that these links open GitHub pages? -->
+
 
 [Skill-based routing](overview-skill-work-distribution.md)<br>
 [Productivity tools](productivity-tools.md)<br>
