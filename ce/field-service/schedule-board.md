@@ -2,7 +2,7 @@
 title: "New Schedule Board (Preview) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/30/2020
+ms.date: 03/17/2020
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -28,44 +28,44 @@ search.app:
 
 # New Schedule Board (Preview)
 
-// Use podcast video for details: https://msit.microsoftstream.com/video/e2244efa-a845-4351-8acd-52ca80497789?channelId=0bf6f71a-b361-4d7b-9668-62ff5207b60d
+A new and redesigned schedule board is available as a public preview in the April 2020 release of Dynamics 365 Field Service. Learn how to [enable the new schedule board in your environment](https://docs.microsoft.com/dynamics365/field-service/schedule-board#Enable-new-Schedule-Board-preview) below.
 
-Will exist alongside current schedule board until feature parity is reached in which case it will replace it.
-
+The new schedule board has faster performance, improvements to usability, and lays the foundation for new capabilities for multi-day scheduling and intelligent interactions.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/schedule-board-new.png)
 
-Benefits:
-- performance 
-- usability and accessability 
-- Foundation for new capabilities for multi-day scheduling and intelligent interactions
 
 ### Performance
 
-(load times, drag and drop)
-
-eventing
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/schedule-board-new-drag.png)
-
-### Usability and accessiblity
-
-- better support for different sized form factors
-- new color scheme, booking and travel representation
-- ghost booking - know if fit before scheduling
-
-unified interface
-
+Dispatchers will find loading the schedule board and common actions like selecting schedule board tabs, dragging and dropping work orders, and rescheduling bookings is much faster and more repsonsive.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/schedule-board-new-accessability.png)
 
+
+
+### Usability and accessiblity
+
+The new schedule board is also a PowerApps Component Framework (PCF) control built on the Unified Client Interface making it more flexible, supportable, and accessable. The new schedule board will work better on different sized screens and form factors. New color schemes and ways of depicting travel time make it easierfor dispatchers to see statuses and details.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/schedule-board-new-drag.png)
+
+The image above shows a new "ghost booking" feature that helps dispacthers know if a booking will fit into a schedule before it is even scheduled.
+
 ### Foundation for new capabilities
 
+Updates to the new schedule board lay the foundation for future releases that will provide dispatchers insights and recommended actions to improve schedules.
+
 ## Prerequisites
+
+> [!Note]
+> The new schedule board is released as a public preview in April 2020. It has limited capabilities during the preview period. 
+
+After enabling, it will appear in your envornment alongside the current schedule board. Once the new shcedule board functionality matches the current schedule board, it will replace it. 
+
+Users who perform simple drag and drop scheduling or users who only need to view the schedule board can use the new schedule board during preview. Other users should continue to use the current schedule board.
 
 Public preview April 2020
 
