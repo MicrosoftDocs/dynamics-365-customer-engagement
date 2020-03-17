@@ -42,7 +42,7 @@ The WhatsChannel channel feature lets you integrate WhatsApp through Twilio with
 
 - **Session messages:** According to WhatsApp, session messages is a type of message that are incoming messages from a customer, or outgoing replies sent by an agent to the incoming messages, within 24-hours. A messaging session starts when agents receive a message from a customer, and lasts for 24 hours from the most recently received message. Session messages do not need to follow a template, and can include media attachments.
 
-- **24 hours session rule:** A messaging session is starts when an agent receives a message from a customer or replies to the incoming message from the customer. When the customer sends a message, from the time agent received it, agent has 24 hours to reply to the customer. However, after 24 hours, if agent tries to send a message to the customer, an error is displayed - **This conversation has exceeded the 24 hour limit to respond to the customer.**.
+- **24 hours session rule:** A messaging session starts when an agent receives a message from a customer or replies to the incoming message from the customer. When the customer sends a message, from the time agent received it, agent has 24 hours to reply to the customer. However, after 24 hours, if agent tries to send a message to the customer, an error is displayed - **This conversation has exceeded the 24 hour limit to respond to the customer.**.
 
 ## End-to-end walk-through
 
