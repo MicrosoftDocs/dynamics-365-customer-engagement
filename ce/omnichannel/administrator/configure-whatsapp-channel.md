@@ -137,7 +137,7 @@ To create a WhatsApp channel, follow these steps:
     | Phone number details | Name | Specify a name for the WhatsApp channel. | WhatsApp phone number |
     | Phone number details | WhatsApp Account | The **WhatsApp Account** field is populated. However, you can change the value using the lookup. | WhatsApp channel |
     | Phone number details | WhatsApp Number | Specify the WhatsApp number. | 123456989 |
-    | Work Distribution | Work Stream | Select a work stream from the lookup. | WhatsApp channel work stream |
+    | Work distribution | Work Stream | Select a work stream from the lookup. | WhatsApp channel work stream |
 
     > [!div class=mx-imgBorder]
     > ![Create a WhatsApp channel phone number](../media/whatsapp-channel-3.png "Create a WhatsApp channel phone number")
