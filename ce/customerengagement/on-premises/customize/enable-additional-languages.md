@@ -20,7 +20,6 @@ search.app:
   - D365CE
 ---
 
-<a name="BKMK_Localization"></a>   
 # Enable additional languages 
 
 
