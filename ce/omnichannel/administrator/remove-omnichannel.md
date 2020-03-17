@@ -4,7 +4,7 @@ description: "Learn how to remove Omnichannel for Customer Service and disable a
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 10/30/2019
+ms.date: 03/17/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
