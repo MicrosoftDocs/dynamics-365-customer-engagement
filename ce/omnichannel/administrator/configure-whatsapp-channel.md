@@ -84,9 +84,6 @@ You've created a work stream for the WhatsApp channel. To learn more, see [Creat
 
 To configure other options in the work stream, see the following:
 
-
-<!--Is it correct that these links open GitHub pages? -->
-
 - [Skill-based routing](overview-skill-work-distribution.md)
 - [Productivity tools](productivity-tools.md)
 - [Smart assist](smart-assist.md)
@@ -161,10 +158,6 @@ To create a WhatsApp channel, follow these steps:
     > ![Validate Account SID, Auth token, and phone number](../media/whatsapp-channel-5.png "Validate Account SID, Auth token, and phone number")
 
 ## See also
-
-
-<!--Is it correct that these links open GitHub pages? -->
-
 
 [Skill-based routing](overview-skill-work-distribution.md)<br>
 [Productivity tools](productivity-tools.md)<br>
