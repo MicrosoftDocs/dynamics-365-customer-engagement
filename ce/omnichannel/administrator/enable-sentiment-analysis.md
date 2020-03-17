@@ -46,7 +46,7 @@ After you enable real-time customer sentiment, you can view scores in the [Omnic
 
 ## Agent settings
 
-Agents can view the customer sentiment in the communication panel for a conversation session that is active and in focus. For session that is not in focus, the alert is shown on the session panel.
+Agents can view the customer sentiment in the communication panel for a conversation session that is active and in focus. For a session that is not in focus, the alert is shown on the session panel.
 
 You can show alerts to the agents when a customer's sentiment decreases to or below a particular value. You can set the customer's sentiment to any of the following values:
 
@@ -55,7 +55,12 @@ You can show alerts to the agents when a customer's sentiment decreases to or be
 - Negative
 - Very negative
 
-For example: You set the threshold value as **Slightly negative**. When the customer's sentiment reaches **Slightly negative** or any other sentiment value below this, an alert is displayed to agent.
+For example, you set the threshold value as **Slightly negative**. When the customer's sentiment reaches **Slightly negative** or any other sentiment value below this, an alert is displayed to the agent.
+
+
+<!--from editor: Steps 2 and 3 below don't look right. They look copied from the previous steps. So does the alt text. -->
+
+
 
 1. Sign in to **Omnichannel Administration**.
 
@@ -79,7 +84,11 @@ You can show notifications to the supervisors when a customer's sentiment decrea
 - Negative
 - Very negative
 
-For example: You the set the threshold value as **Slightly negative**. When the customer's sentiment reaches **Slightly negative** or any other sentiment value below this, a notification is displayed to the supervisor.
+For example, you set the threshold value as **Slightly negative**. When the customer's sentiment reaches **Slightly negative** or any other sentiment value below this, a notification is displayed to the supervisor.
+
+
+<!--from editor: Are steps 2 and 3 correct for this section? Also, the alt text? -->
+
 
 1. Sign in to **Omnichannel Administration**.
 
@@ -90,7 +99,7 @@ For example: You the set the threshold value as **Slightly negative**. When the 
   > [!div class=mx-imgBorder]
   > ![Enable sentiment analysis](../media/monitor-real-time-supervisor.png "Enable sentiment analysis")
 
-To turn off supervisor notification, select **Don't send notifications**.
+To turn off supervisor notifications, select **Don't send notifications**.
 
 
 ## Multi-language sentiment
