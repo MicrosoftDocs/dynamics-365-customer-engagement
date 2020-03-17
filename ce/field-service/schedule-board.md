@@ -28,7 +28,7 @@ search.app:
 
 # New Schedule Board (Preview)
 
-A new and redesigned schedule board is available as a public preview in the April 2020 release of Dynamics 365 Field Service. Learn how to [enable the new schedule board in your environment](https://docs.microsoft.com/dynamics365/field-service/schedule-board#Enable-new-Schedule-Board-preview) below.
+A new and redesigned schedule board is available as a public preview in the April 2020 release of Dynamics 365 Field Service. Learn how to [enable the new schedule board in your environment](https://docs.microsoft.com/dynamics365/field-service/schedule-board#Enable-preview-of-new-Schedule-Board) below.
 
 The new schedule board has faster performance, improvements to usability, and lays the foundation for new capabilities for multi-day scheduling and intelligent interactions.
 
@@ -42,8 +42,6 @@ Dispatchers will find loading the schedule board and common actions like selecti
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/schedule-board-new-accessability.png)
-
-
 
 ### Usability and accessiblity
 
@@ -63,18 +61,11 @@ Updates to the new schedule board lay the foundation for future releases that wi
 > [!Note]
 > The new schedule board is released as a public preview in April 2020. It has limited capabilities during the preview period. 
 
-After enabling, it will appear in your envornment alongside the current schedule board. Once the new shcedule board functionality matches the current schedule board, it will replace it. 
+ 
 
-Users who perform simple drag and drop scheduling or users who only need to view the schedule board can use the new schedule board during preview. Other users should continue to use the current schedule board.
+## Enable preview of new Schedule Board
 
-Public preview April 2020
-
-> [!Note]
-> More 
-
-
-
-## Enable new Schedule Board preview
+After enabling the new schedule board, it will appear in your envornment alongside the current schedule board. Once the new schedule board functionality matches the current schedule board, it will replace it.
 
 log in as a system administrator
 
@@ -84,35 +75,30 @@ Go to **Resource Scheduling app > Settings > Administration > Customize Schedule
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/schedule-board-new-admin.png)
 
-Go to Controls tab
-
-Choose add control and add **Schedule Board Preview** control.
-
-Enable it for web experience
-
-Select the edit button then enable preview
-
-
+1. Go to Controls tab
+2. Choose add control and add **Schedule Board Preview** control.
+3. Enable it for web experience
+4. Select the edit button then enable preview. **Optional:** choose a default schedule board.
+5. Publish changes
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/schedule-board-new-enable-preview-pcf-control.png)
 
-
-**Optional:** choose a default schedule board either the current or new preview one.
-
-Publish changes
-
-Use the toggle button in the top right of the schedule board to switch between the current and preview schedule boards. 
+Go to the Schedule Board and use the toggle button in the top right of the schedule board to switch between the current and preview schedule boards. 
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/schedule-board-new-enable-preview.png)
 
 ## Configuration considerations
-Continue to use the current schedule board for common functions like:
-- schedule board tab settings
-- Map visualization
-- days weeks and months view
 
 ### Implementing new schedule board
-- use for simple scheduling
+
+Users who perform simple drag and drop scheduling or users who only need to view the schedule board can use the new schedule board during preview. Other users should continue to use the current schedule board.
+
+Continue to use the current schedule board for common functions like:
+- Creating and deleting schedule board tabs 
+- Schedule board tab settings
+- Schedule board configurations like number of days in a view or applying filter territories.
+- Map view and scheduling
+- Days, weeks, and months view
