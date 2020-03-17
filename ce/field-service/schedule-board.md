@@ -47,6 +47,10 @@ Benefits:
 
 eventing
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/schedule-board-new-drag.png)
+
 ### Usability and accessiblity
 
 - better support for different sized form factors
@@ -54,6 +58,10 @@ eventing
 - ghost booking - know if fit before scheduling
 
 unified interface
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/schedule-board-new-accessability.png)
 
 ### Foundation for new capabilities
 
@@ -71,7 +79,6 @@ Public preview April 2020
 log in as a system administrator
 
 Go to **Resource Scheduling app > Settings > Administration > Customize Schedule Board settings**
-
 
 
 > [!div class="mx-imgBorder"]
@@ -106,12 +113,6 @@ Continue to use the current schedule board for common functions like:
 - schedule board tab settings
 - Map visualization
 - days weeks and months view
-
-## Additional Notes
-
-pcf Control
-
-react fabric office fabric components
 
 ### Implementing new schedule board
 - use for simple scheduling
