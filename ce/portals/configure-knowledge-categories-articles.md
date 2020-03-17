@@ -89,6 +89,26 @@ This section helps you understand how to create a new category for knowledge art
 
 3. On the **Options** tab, select **Enable Ratings**.
 
+## Expand and collapse sections
+
+You can add sections that can be expanded and collapsed by adding a **collabsible section** using the *collapsible command button*:
+
+![Collapsible button control](media/collapsible-button.png)
+
+You can see the following example with one section expanded and the rest in collapsed positions:
+
+![Example expandable and collapsible sections](media/collapsible-example.png)
+
+Following considerations apply when using collapsible sections:
+
+- Default state of a collapsible section is collapsed.
+- Existing web page and web templates can work with collapsible sections without any additional changes.
+- If you select **Print**, the state of the sections from current selections persist for print preview.
+- The collapsible sections, when added to your articles, have additional JS function and CSS style for the expand/collapse button.
+
+>[!IMPORTANT]
+> To use the collapsible section feature, you must enable the feature control bits (FCB) named **KMExpandCollapseEnabled** first. By default, the FCB for this feature is disabled and you will not see the collapsible button in edit mode unless the feature is enabled.
+
 ### See also
 [Get started with the portal content editor](get-started-portal-content-editor.md)  
 [Add dynamic content and create custom templates](custom-templates-dynamic-content.md)  
