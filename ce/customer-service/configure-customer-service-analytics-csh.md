@@ -34,7 +34,11 @@ Perform the following steps to configure the dashboards:
 4. Select **Share reports**. The **Data Analytics Reports** page displays the list of available reports.
 5. Select a report. The report opens on a new page.
 6. Select **Share**.
-7. On the page that appears, select the users and permissions that you want to grant on the report, and select **Share**. The report is shared with the selected users.   
-   
-   
+7. On the page that appears, select the users and permissions that you want to grant on the report, and select **Share**. The report is shared with the selected users.
+
+### See also
+
+[Introduction to Customer Service Analytics](introduction-customer-service-analytics.md)
+
+[View and understand Customer Service Analytics](customer-service-analytics.md)
 
