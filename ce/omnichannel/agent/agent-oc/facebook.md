@@ -16,7 +16,7 @@ ms.topic: article
 
 ## Facebook channel overview
 
-When you sign in to Omnichannel for Customer Service, you can see your work items in Omnichannel Agent Dashboard. To learn more see [View agent dashboard and agent conversations (work items)](oc-agent-dashboard.md).
+When you sign in to Omnichannel for Customer Service, you can see your work items in Omnichannel Agent Dashboard. To learn more, see [View agent dashboard and agent conversations (work items)](oc-agent-dashboard.md).
 
 ## Prerequisite
 
@@ -24,7 +24,7 @@ Make sure your administrator has configured a Facebook channel.
 
 ### Incoming Facebook notification
 
-You receive a notification for a Facebook conversation request. When you accept the Facebook request, a session is started, and the communication panel appears where you can exchange messages with the customer.
+You'll receive a notification when a customer requests a Facebook conversation. Accepting the Facebook request starts a session and you'll see the communication panel in which you can exchange messages with the customer.
 
 > [!div class=mx-imgBorder]
 > ![Facebook chat agent notification](../../media/fb-agent-notif.png "Facebook chat agent notification")
@@ -54,18 +54,18 @@ In Omnichannel for Customer Service, you can:
 
 ## Send and receive file attachments
 
-You can send file attachments to customers during a Facebook channel conversation. Before you send a file, make sure to understand about the file size limit and file extensions type supported from your administrator. 
+You can send file attachments to customers during a Facebook channel conversation. Before you send a file, make sure you understand the file size limit and file extension types set by your administrator. 
 
-You can see the files that you receive from a customer on the communication panel. To view the file, you need select on the file and save them to your computer. The file name you see on an image that was sent by a customer might not reflect the actual file name, but a randomly generated number.
+You can see the files that you receive from a customer on the communication panel. To view the file, select it and save it to your computer. The file name you see on an image that was sent by a customer might not reflect the actual file name, but a randomly generated number.
 
    > [!div class=mx-imgBorder]
    > ![Facebook attachment](../../media/fb-receive-file1.png "Facebook attachment")
 
-Also, when a customer sends an unsupported file extension type, then you can see an error message in the communication panel stating the message - **Error: Customer sent an unsupported message type**.
+If a customer sends an unsupported file extension type, you will see an error message in the communication panel: **Error: Customer sent an unsupported message type**.
 
 ### Send a file
 
-To send a file, follow the steps:
+To send a file, follow these steps:
 
 1. Select the ellipsis (...) in the communication panel.
 
@@ -74,7 +74,7 @@ To send a file, follow the steps:
 3. Browse and select the file to send it.
 
     > [!div class=mx-imgBorder]
-    > ![Facebook attachment](../../media/fb-attach.png "Facebook attachment")
+    > ![Send a file](../../media/fb-attach.png "Send a file")
 
 To learn more about the Facebook channel setup, see [Configure a Facebook channel](../../administrator/configure-facebook-channel.md).
 

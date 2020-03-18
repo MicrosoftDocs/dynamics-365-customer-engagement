@@ -45,11 +45,15 @@ You can accept or reject the conversation request by selecting a button on the d
 
 If you select the notification message body and not a button, the Omnichannel for Customer Service app is made active and the notification is displayed to you in the app. Then you can choose to accept or reject the conversation by selecting the appropriate button.
 
-The wait time that's configured by your administrator applies to the desktop notification, but doesn't display the wait time on the desktop notification<!--note from editor: What does this mean? Will the reader know?-->. The desktop notification theme is based on the Windows operating system theme and settings.
+The wait time that's configured by your administrator applies to the desktop notification, but doesn't display the wait time on the desktop notification. 
+
+That is, your administrator has configured the wait time as 90 seconds and set the **Show Timeout** field to **No**. Now, when you get a notification, the wait time won't be displayed on the notification. However, you've 90 seconds to take action.
+
+The desktop notification theme is based on the Windows operating system theme and settings.
 
 #### Allow your browser to show notifications
 
-To get desktop notifications, you need to allow your browser (Microsoft&nbsp;Edge or Google Chrome) to show notifications. When you get a browser notification, you need to select **Allow**.
+To get desktop notifications, you need to allow your browser (Microsoft Edge or Google Chrome) to show notifications. When you get a browser notification, you need to select **Allow**.
 
  > [!div class=mx-imgBorder]
  > ![Allow desktop notification](../../media/oceh/allow-desktop-notification.png "Allow desktop notification")
