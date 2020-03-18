@@ -26,10 +26,6 @@ Make sure your administrator has configured a Facebook channel.
 
 You'll receive a notification when a customer requests a Facebook conversation. Accepting the Facebook request starts a session and you'll see the communication panel in which you can exchange messages with the customer.
 
-
-<!--from editor: The name in the following image is Samuel "Storm". However, the name on our fictitious names list is Samuel "Strom". Can you make that update? -->
-
-
 > [!div class=mx-imgBorder]
 > ![Facebook chat agent notification](../../media/fb-agent-notif.png "Facebook chat agent notification")
 

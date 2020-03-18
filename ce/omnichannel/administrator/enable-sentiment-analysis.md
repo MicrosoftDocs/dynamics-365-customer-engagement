@@ -57,19 +57,19 @@ You can show alerts to the agents when a customer's sentiment decreases to or be
 
 For example, you set the threshold value as **Slightly negative**. When the customer's sentiment reaches **Slightly negative** or any other sentiment value below this, an alert is displayed to the agent.
 
-
-<!--from editor: Steps 2 and 3 below don't look right. They look copied from the previous steps. So does the alt text. -->
-
-
-
 1. Sign in to **Omnichannel Administration**.
 
 2. Under **Settings**, select **Sentiment Analysis**, and then select **Real-Time Sentiment Analysis**.
 
-3. In the **Sentiment analysis** section, set the **Monitor real-time customer sentiment** toggle to **Yes**, and then select **Save**.
+3. In the **Agent settings** section, select a value from the **Show alerts when a customer's sentiment decreases to or below** list. The options are:
+
+    - Don't show alerts
+    - Slightly negative
+    - Negative
+    - Very negative
 
   > [!div class=mx-imgBorder]
-  > ![Enable sentiment analysis](../media/monitor-real-time-agent.png "Enable sentiment analysis")
+  > ![Show alerts when a customer's sentiment decreases to or below](../media/monitor-real-time-agent.png "Show alerts when a customer's sentiment decreases to or below")
 
 To turn off agent alerts, select **Don't show alerts**.
 
@@ -87,17 +87,19 @@ You can show notifications to the supervisors when a customer's sentiment decrea
 For example, you set the threshold value as **Slightly negative**. When the customer's sentiment reaches **Slightly negative** or any other sentiment value below this, a notification is displayed to the supervisor.
 
 
-<!--from editor: Are steps 2 and 3 correct for this section? Also, the alt text? -->
-
-
 1. Sign in to **Omnichannel Administration**.
 
 2. Under **Settings**, select **Sentiment Analysis**, and then select **Real-Time Sentiment Analysis**.
 
-3. In the **Sentiment analysis** section, set the **Monitor real-time customer sentiment** toggle to **Yes**, and then select **Save**.
+3. In the **Supervisor settings** section, select a value from the **Send notifications when a customer's sentiment decreases to or below** list. The options are:
+
+    - Don't send notifications
+    - Slightly negative
+    - Negative
+    - Very negative
 
   > [!div class=mx-imgBorder]
-  > ![Enable sentiment analysis](../media/monitor-real-time-supervisor.png "Enable sentiment analysis")
+  > ![Send notifications when a customer's sentiment decreases to or below](../media/monitor-real-time-supervisor.png "Send notifications when a customer's sentiment decreases to or below")
 
 To turn off supervisor notifications, select **Don't send notifications**.
 

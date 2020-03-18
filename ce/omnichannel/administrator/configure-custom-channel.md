@@ -94,7 +94,7 @@ To configure other options in the work stream, see the following:
 ## Step 4: Create a custom messaging account
 
 
-After you create a work stream for a custom channel, you need to create a custom channel with the details of the **Microsoft App ID** and **Client Secret** that you retrieved while registering your messaging channel in Azure Bot Service.
+After you create a work stream for a custom channel, you need to create a custom channel with the details of the **Microsoft app ID** and **Client secret** that you retrieved while registering your messaging channel in Azure Bot Service.
 
 
 To create a custom channel, follow these steps:
@@ -105,16 +105,16 @@ To create a custom channel, follow these steps:
 
 3. Select **+ New** in the **Active Custom messaging account** view.
 
-4. In the new **Custom Messaging Account** page, specify the values for the following fields:
+4. In the new **Custom messaging account** page, specify the values for the following fields:
 
     | Section | Field | Description | Example  value |
     |-------------|-------------------|---------------------------|--------------------------------------|
-    | Account Details |Name| Specify a name for the custom channel.| Contoso custom channel |
-    | Account Details |Microsoft App ID| Copy and paste the **Microsoft App ID** that you saved earlier from the Azure Bot Channel Registration page. <br> To learn more, see [Get registration password](https://docs.microsoft.com/azure/bot-service/bot-service-quickstart-registration#get-registration-password). | cae1d83e-8b07-4fca-8072-c2eb3444vxyz |
-    | Account Details |Client Secret| Copy and paste the **Client Secret** that you saved earlier from the Azure Bot Channel Registration page.  <br> To learn more, see [Get registration password](https://docs.microsoft.com/azure/bot-service/bot-service-quickstart-registration#get-registration-password).| |
+    | Account details |Name| Specify a name for the custom channel.| Contoso custom channel |
+    | Account details |Microsoft app ID| Copy and paste the **Microsoft app ID** that you saved earlier from the Azure Bot Channel Registration page. <br> To learn more, see [Get registration password](https://docs.microsoft.com/azure/bot-service/bot-service-quickstart-registration#get-registration-password). | cae1d83e-8b07-4fca-8072-c2eb3444vxyz |
+    | Account details |Client secret| Copy and paste the **Client secret** that you saved earlier from the Azure Bot Channel Registration page.  <br> To learn more, see [Get registration password](https://docs.microsoft.com/azure/bot-service/bot-service-quickstart-registration#get-registration-password).| |
 
 
-5. Select **Validate app ID + secret**  to validate the **Microsoft app ID** and **Client secret** values. After the validation, a toast notification is displayed. Also, the **Last Validated** field shows time and date. This ensures that bots are active and client secret refreshes are consumed. 
+5. Select **Validate app ID + secret**  to validate the **Microsoft app ID** and **Client secret** values. After the validation, a toast notification is displayed. Also, the **Last validated** field shows time and date. This ensures that bots are active and client secret refreshes are consumed. 
 
     > [!div class=mx-imgBorder]
     > ![Create a custom channel](../media/custom-channel-1.png "Create a custom channel")
@@ -126,22 +126,22 @@ To create a custom channel, follow these steps:
 
 7. Go to the **Azure Portal** > **Bot Channel Registration** page, paste the URL into the **Message endpoint** field, and save the changes.
 
-8. In the **Channels** section, select **+ Add Custom Messaging Channel**. The **New Custom Messaging Channel** page is displayed.
+8. In the **Channels** section, select **+ Add Custom messaging channel**. The **New Custom messaging channel** page is displayed.
 
-   After you create a **Custom Messaging Account**, you need to create a custom messaging channel, which is the actual channel from which Omnichannel for Customer Service agents will receive messages from the customer.
+   After you create a **Custom messaging account**, you need to create a custom messaging channel, which is the actual channel from which Omnichannel for Customer Service agents will receive messages from the customer.
 
 
-9. In the **New Custom Messaging Account** page, specify the values for the following fields:
+9. In the **New Custom messaging account** page, specify the values for the following fields:
 
     | Section | Field | Description | Example  value |
     |-------------|-------------------|---------------------------|--------------------------------------|  
     | Details | Name | Specify a name for the custom channel | Contoso channel |
-    | Details | Custom Messaging Account | The **Custom Messaging Account** field is populated. However, you can change the value using the lookup. | Contoso custom channel |
+    | Details | Custom Messaging Account | The **Custom messaging account** field is populated. However, you can change the value using the lookup. | Contoso custom channel |
     | Details | Channel ID | Select a channel from the list. The list might contain line-of-business (in-house) messaging, social, or any other messaging channel. A few social channel options are: <br> - Kik <br> - Telegram <br> - Direct Line | Kik |
-    | Work Distribution | Work Stream | Select a work stream from the lookup. | Contoso custom channel work stream |
+    | Work distribution | Work stream | Select a work stream from the lookup. | Contoso custom channel work stream |
 
     > [!Note]
-    > A **Custom Messaging Account** can have multiple unique channel IDs. Don't add two or more same Channel IDs to a **Custom Messaging Account** because the Azure Bot Framework supports only one messaging account per App ID. For example, for **Contoso custom channel**, you can't add two or more **Kik** Channel IDs.
+    > A **Custom messaging account** can have multiple unique channel IDs. Don't add two or more same Channel IDs to a **Custom messaging account** because the Azure Bot Framework supports only one messaging account per App ID. For example, for **Contoso custom account**, you can't add two or more **Kik** Channel IDs.
 
 
     > [!div class=mx-imgBorder]
@@ -149,7 +149,7 @@ To create a custom channel, follow these steps:
 
 10. Select **Save** to save the custom messaging channel.       
 
-11. Select the back button on the browser to go to the custom messaging application page. You can see that the custom messaging channel is added in the **Channels** section. 
+11. Select the back button on the browser to go to the custom messaging account page. You can see that the custom messaging channel is added in the **Channels** section. 
 
 12. Select **Save** to save the configurations.
 
@@ -160,14 +160,11 @@ To create a custom channel, follow these steps:
 
 ## Bring channels using Direct Line 
 
-If you wnt to help your customers using your line-of-business (in-house) messaging channels, you can use the Direct Line channel (Bot Framework method).
+If you want to help your customers using your line-of-business (in-house) messaging channels, you can use the Direct Line channel (Bot Framework method).
 
 The Bot Framework **Direct Line** channel helps you to integrate your line-of-business (in-house) messaging channels into the Omnichannel for Customer Service app.
 
-<!--I'm commenting this out for now until it is updated.
-<
 For more information, see [Here, link will updated for the dev topic (Sushant sikka is the owner of dev docs)]().
--->
 
 ## See also
 

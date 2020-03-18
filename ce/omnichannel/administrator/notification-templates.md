@@ -45,7 +45,7 @@ You can configure the wait time and the notification is displayed for the agent 
 
 #### Allow a browser to show notifications
 
-To get desktop notifications, agents need to allow their browser (Microsoft&nbsp;Edge or Google Chrome) to show them. When an agent gets a browser notification, they need to select **Allow**.
+To get desktop notifications, agents need to allow their browser (Microsoft Edge or Google Chrome) to show them. When an agent gets a browser notification, they need to select **Allow**.
 
 Also, as an administrator, you can set the browser notification permission by using group policy.
 

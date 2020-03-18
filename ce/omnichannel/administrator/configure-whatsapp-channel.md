@@ -28,11 +28,7 @@ Many customers use social messaging channels like WhatsApp for their personal co
 
 The success of social media customer service, like all other customer service, depends on the quality of care provided. Communications from agents should be timely, accurate, sensitive, brief, and friendly, which ultimately improves the customer satisfaction and brand loyalty.
 
-
-<!--from editor: Is "WhatsChannel" correct? -->
-
-
-The WhatsChannel channel feature lets you integrate WhatsApp through Twilio with Omnichannel for Customer Service so as to engage with customers who prefer the WhatsApp channel.
+The WhatsApp channel feature lets you integrate WhatsApp through Twilio with Omnichannel for Customer Service so as to engage with customers who prefer the WhatsApp channel.
 
 ## Prerequisites
 
@@ -66,9 +62,6 @@ Go to your **Twilio Console Dashboard** > **Settings** > **General** to fetch th
 ## Step 2: Create a work stream
 
 
-<!--from editor: Is Omnichannel Administrator (below) the same as Omnichannel Administration (line 61)? -->
-
-
 1. Sign in to Omnichannel Administrator.
 
 2. Select **Work Streams** under **Work Distribution Management**.
@@ -100,11 +93,7 @@ To create a WhatsApp channel, follow these steps:
 
 2. Select **WhatsApp (preview)** under **Channels**.
 
-
-<!--from editor: Below, is "New New WhatsApp page" correct? --> 
-
-
-3. In the New **New WhatsApp** page, specify the values for the following fields:
+3. In the **New WhatsApp** page, specify the values for the following fields:
 
     | Section | Field | Description | Example  value |
     |-------------|-------------------|---------------------------|--------------------------------------|
@@ -117,14 +106,10 @@ To create a WhatsApp channel, follow these steps:
 
 4. Select **Save**. After you save, in the **Callback information** section, the **Twilio inbound URL** field is generated with a URL. Copy the URL from the field, and paste it in your Twilio console. 
 
+   > [!div class=mx-imgBorder]
+   > ![Copy the Twilio inbound URL](../media/whatsapp-channel-2.png "Copy the Twilio inbound URL") 
 
-<!--from editor: Above, it says "paste it in your Twilio console." Does step 5 explain how to do this, or should they have done this by step 5? -->
-
-
-    > [!div class=mx-imgBorder]
-    > ![Copy the Twilio inbound URL](../media/whatsapp-channel-2.png "Copy the Twilio inbound URL") 
-
-5. Go to **Phone Numbers** in your Twilio console and select the WhatsApp phone number. Under **Messaging**, paste in the **Twilio inbound URL**.
+5. Go to your Twilio console, and select **Phone Numbers** and then select the WhatsApp phone number. Under **Messaging**, paste the URL you copied from step 4 in the **Twilio inbound URL** field.
 
     > [!div class=mx-imgBorder]
     > ![Paste the Twilio inbound URL](../media/whatsapp-channel-6.png "Paste the Twilio inbound URL") 
@@ -138,7 +123,7 @@ To create a WhatsApp channel, follow these steps:
     | Phone number details | Name | Specify a name for the WhatsApp channel. | WhatsApp phone number |
     | Phone number details | WhatsApp Account | The **WhatsApp Account** field is populated. However, you can change the value using the lookup. | WhatsApp channel |
     | Phone number details | WhatsApp Number | Specify the WhatsApp number. | 123456989 |
-    | Work distribution | Work Stream | Select a work stream from the lookup. | WhatsApp channel work stream |
+    | Work distribution | Work stream | Select a work stream from the lookup. | WhatsApp channel work stream |
 
     > [!div class=mx-imgBorder]
     > ![Create a WhatsApp channel phone number](../media/whatsapp-channel-3.png "Create a WhatsApp channel phone number")
@@ -149,11 +134,7 @@ To create a WhatsApp channel, follow these steps:
 
 10. Select **Save** to save the configurations.
 
-
-<!--from editor: Below, do you mean the "Validation" section? -->
-
-
-11. In the **Validate** section, select **Validate** to validate the Account SID, Auth token, and phone numbers.  After you validate, a toast notification displays with the success or error.
+11. In the **Validation** section, select **Validate** to validate the Account SID, Auth token, and phone numbers.  After you validate, a toast notification displays with the success or error.
 
     > [!div class=mx-imgBorder]
     > ![Validate Account SID, Auth token, and phone number](../media/whatsapp-channel-5.png "Validate Account SID, Auth token, and phone number")
