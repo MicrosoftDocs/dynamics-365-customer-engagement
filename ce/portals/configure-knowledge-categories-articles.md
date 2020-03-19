@@ -78,7 +78,7 @@ This section helps you understand how to create a new category for knowledge art
 
 4. Choose the category from the list view, and then select **Delete** on the command bar.
 
->[!Note] 
+>[!NOTE] 
 > Knowledge articles associated with the category will be disassociated after the category is deleted.
 
 ## Enable ratings for a knowledge article
@@ -108,6 +108,14 @@ Following considerations apply when using collapsible sections:
 
 >[!IMPORTANT]
 > To use the collapsible section feature, you must enable the feature control bits (FCB) named **KMExpandCollapseEnabled** first. By default, the FCB for this feature is disabled and you will not see the collapsible button in edit mode unless the feature is enabled.
+
+### Customize expand and collapse behavior
+
+You can customize the default CSS and JS files and create additional customization. The default CSS file name is `collapsible.css` and JavaScript file name is `collapsible.js`.
+
+The following example shows a [web template](https://docs.microsoft.com/powerapps/maker/portals/liquid/store-content-web-templates) using default JavaScript and CSS files. You need to update the file name and location for the web template to your customized JavaScript and CSS files:
+
+![Web template](media/web-template.png)
 
 ### See also
 [Get started with the portal content editor](get-started-portal-content-editor.md)  
