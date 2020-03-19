@@ -34,7 +34,7 @@ Connected Field Service "makes IoT data actionable" by allowing an organization 
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-iot-suggestions-alerts-drill-down.png)
+> ![Screenshot of ](./media/cfs-iot-suggestions-alerts-drill-down2.png)
 
 As a reminder:
 
