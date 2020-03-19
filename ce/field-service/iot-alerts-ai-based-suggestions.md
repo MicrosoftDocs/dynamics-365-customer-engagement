@@ -30,7 +30,10 @@ search.app:
 
 Any situation where there is data followed by actions, is a situation where AI can be applied to benefit an organization. This is especially true for Connected Field Service that "makes IoT data actionable" by allowing an organization to convert IoT alerts into cases and work orders to be inverstigated by the appropriate people. 
 
-One way AI is leveraged in Connected Field Service is with a feature called **IoT alert AI-based suggestions** that tages IoT alerts with a suggested priority or incident type based on past service history and actions. For example, an alert suggestion might show that a temperature-based alert is a "high priority", and needs an incident type for "recalibrating the equipment".
+One way AI is leveraged in Connected Field Service is with a feature called **IoT alert AI suggestions** that tages IoT alerts with a suggested priority or incident type based on past service history and actions. For example, an alert suggestion might show that a temperature-based alert is a "high priority", and needs an incident type for "recalibrating the equipment".
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-iot-suggestions-alerts-drill-down.png)
 
 As a reminder:
 
@@ -50,13 +53,21 @@ Here are the top benefits to enabling AI for IoT Alerts:
 
 Public preview April 2020
 
-Connected Field Service with Azure IoTHub or Azure IoTCentral 
+Connected Field Service with either
+-	Azure IoTHub 
+-	Azure IoTCentral 
+-	Custom IoT provider (requires configuration)
+
 
 ## Instructions
 
 From the Field Service app go to **Settings > Settings (in IoT section) > IoT Suggestions section**
 
 Set the IoT suggestions setting to **Enabled**. 
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-iot-suggestions-enable.png)
 
 ### Agree to terms of use
 
@@ -65,6 +76,9 @@ First agree to the terms of service and select **Next**.
 ### Select device identifier
 
 Select how your organization primarily uses IoT alerts in relatioon to devices and customer assets. As a reminder, there is a 1:Many relationship, where many devices can be related to one customer asset.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-iot-suggestions-identifier.png)
 
 - Select **Device ID** if your organization primarily manages the IoT alerts from individual devices. Example: you have internet-connected thermometers that send temperature readings.
 - Select **Customer Asset** if your organization primarily manages the IoT alerts from devices related to customer assets. Example: you have customer assets that represent rooms in a building and each room has multiple devices sending telemetry. When work orders are created from these IoT alerts, they are related to a customer asset.
@@ -76,6 +90,12 @@ Select how your organization primarily uses IoT alerts in relatioon to devices a
 ### Enter rule identifier
 
 Choose the rules that you defined in IoTCentral or IoTHub that trigger IoT Alerts. The rule paths can be found in the IoT Alert JSON.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-iot-suggestions-identifier-rule.png)
+
+
+
 
 An example of the rule path for IoTCentral is **rule/id**.
 
@@ -93,6 +113,9 @@ An example of the rule path for IoTHub is **ruleoutput**.
 
 Choose the device properties that should be considered by the AI model to make suggestions. This the telemetry and signals coming from the devices is typicallyreading along with other device variables and characteristics. As an example, an internet-connected thermometer may give a temperature reading of 72 degrees and this temperature output should be considered. 
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-iot-suggestions-properties.png)
+
 By default, the **Telemetry** field in IoTCentral and the **Reading Type** and **Reading** fields in IoTHub are used as device properties. However you can add custom fields that you may have added. As an example, you may have a model that associates a financial cost to each temperature reading and this can be added here as a device property to be considered by the AI model.
 
 ### Finish
@@ -100,6 +123,13 @@ By default, the **Telemetry** field in IoTCentral and the **Reading Type** and *
 After entering the initial information you are finished and the model will take 24 hours to begin making recommendations. It will look at historical data as well as data going forward.
 
 You'll know the AI based suggestions are working when there is a suggested priority and incident type in the IoT Alert view and form.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-iot-suggestions-alerts.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-iot-suggestions-alerts-drill-down.png)
 
 
 
