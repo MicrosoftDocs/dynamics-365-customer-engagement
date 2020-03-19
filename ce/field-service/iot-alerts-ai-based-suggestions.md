@@ -112,7 +112,7 @@ An example of the rule path for IoTHub is **ruleoutput**.
 
 ### Enter device properties
 
-Choose the device properties that should be considered by the AI model to make suggestions. This the telemetry and signals coming from the devices is typicallyreading along with other device variables and characteristics. As an example, an internet-connected thermometer may give a temperature reading of 72 degrees and this temperature output should be considered. 
+Choose the device properties that should be considered by the AI model to make suggestions. This is the signals coming from connected devices along with other device variables and characteristics. As an example, an internet-connected thermometer may give a temperature reading of 72 degrees and this temperature output should be considered. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-iot-suggestions-properties.png)
