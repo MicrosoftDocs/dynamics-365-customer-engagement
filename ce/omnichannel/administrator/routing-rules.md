@@ -31,27 +31,32 @@ Routing rule conditions could be based on channel context, pre-chat context, and
 > If all the rule conditions are evaluated as False for a conversation, it goes to the **Default** queue. For more information, see [Default queue](queues-omnichannel.md#default-queue).
 
 ## Create a routing rule
+
 To create a routing rule, select a work stream by navigating to **Work Distribution Management** > **Work Streams**, and define a new rule in the **Routing Rule Items** tab.
 
-1. Select **Add** to add a new routing rule item.  
-    - In the **General information** section of the **General** tab, provide the following information: </br>
-    a. **Name**. Name of the rule item </br>
-    b. **Work Stream** is auto populated </br>
-    c. **Queue**. Look up a queue or select **New** to add a new queue. For more information, see [Create a new Omnichannel queue](queues-omnichannel.md#create-a-new-queue) </br>
-    d. **Description**. A brief description of the rule item.
-              
-    - In the **Condition** section, provide the conditions for Omnichannel rule. Based on the conditions defined, the conversations are routed to the correct queues. When you define conditions for the Omnichannel routing rules, you can choose from:
-        - Entity
-        - Attribute
-        - Operator
-        - Value
+1. Select **Add**. The **New Rule Item** page appears.  
+    1. In the **General information** section of the **General** tab, provide the following information: </br>
+      1. **Name**. Name of the rule item </br>
+      1. **Work Stream** is auto populated </br>
+      2. **Queue**. Look up a queue or select **New** to add a new queue. For more information, see [Create a new Omnichannel queue](queues-omnichannel.md#create-a-new-queue) </br>
+      3. **Description**. A brief description of the rule item.
 
-       So, for an entity, you can choose from a set of attributes, operators, and values related to the entity. 
+    2. In the **Condition** section, provide the conditions for the rule. Based on the conditions defined, the conversations are routed to the correct queues. You can define the conditions based on the following:
+       - Entity
+       - Attribute or related entity
+       - Attribute
+       - Operator
+       - Value
+
+       For an entity, you can choose from a set of attributes or related entities, operators, and values. If you select a related entity for an entity, you can select the attribute, an operator, and then select or specify a value.
+
+       > [!div class=mx-imgBorder]
+       > ![related entity](../media/related-entity-rule-condition.png)
+
+2. Select **Save**.
 
        > [!div class=mx-imgBorder]
        > ![Configured rule](../media/configured-rule.png)
-
-2. Select **Save** to save the rule. 
 
 ### See also
 
