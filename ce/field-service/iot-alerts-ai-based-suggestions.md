@@ -1,5 +1,5 @@
 ---
-title: "IoT alert AI-based suggestions | MicrosoftDocs"
+title: "IoT alert AI suggestions | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 03/02/2020
@@ -26,18 +26,19 @@ search.app:
   - D365FS
 ---
 
-# IoT alert AI-based suggestions
+# IoT alert AI suggestions
 
-Any situation where there is data followed by actions, is a situation where AI can be applied to benefit an organization. This is especially true for Connected Field Service that "makes IoT data actionable" by allowing an organization to convert IoT alerts into cases and work orders to be inverstigated by the appropriate people. 
+Connected Field Service "makes IoT data actionable" by allowing an organization to convert IoT alerts into cases and work orders to be inverstigated by the appropriate people. Over time, AI can learn from actions taken on IoT alerts and begin to make recommendations of which IoT alerts are most important and what should be done.
+ 
+**IoT alert AI suggestions** tag IoT alerts with a suggested priority or incident type by learning from previous service history. For example, imagine it is common for your organization to receive an IoT alert when the tmeperature of a machine exceeds the acceptable threshold by 10 degrees and your organization frequently converts these IoT alerts into work orders. The AI model will learn from these actions and the next time a new temperature alert arrives that is 15 degrees over the threshold, the AI will suggest it as high priority and suggest recalibration as the incident type.
 
-One way AI is leveraged in Connected Field Service is with a feature called **IoT alert AI suggestions** that tages IoT alerts with a suggested priority or incident type based on past service history and actions. For example, an alert suggestion might show that a temperature-based alert is a "high priority", and needs an incident type for "recalibrating the equipment".
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-iot-suggestions-alerts-drill-down.png)
 
 As a reminder:
 
-- An **incident type** is the main issue of a work order and can dictate related details like work order type, products, services, and service tasks. 
+- An [incident type](../configure-incident-types.md) is the main issue of a work order and can dictate related details like work order type, products, services, and service tasks. 
 - **Priority** in this feature represents the priority to the business generally measured by financial impact or customer satisfaction. As an example, imagine an IoT alerts notifies the organization that a building's heating is broken, and this could have a large impact on an event and customer satisfaction. This would represent a _high_ priority because of the large business impact.
 
 The AI-based suggestions are made possible by a machine learning model that is continuously learning as more data enters the system in the form of IoT Alert records and as more actions are executed by dispatchers that converts an alert into a case or work order. 
@@ -56,7 +57,7 @@ Public preview April 2020
 Connected Field Service with either
 -	Azure IoTHub 
 -	Azure IoTCentral 
--	Custom IoT provider (requires configuration)
+-	Custom IoT provider (requires additional configuration)
 
 
 ## Instructions
@@ -122,11 +123,12 @@ By default, the **Telemetry** field in IoTCentral and the **Reading Type** and *
 
 After entering the initial information you are finished and the model will take 24 hours to begin making recommendations. It will look at historical data as well as data going forward.
 
-You'll know the AI based suggestions are working when there is a suggested priority and incident type in the IoT Alert view and form.
+You'll know the AI based suggestions are working when there is a suggested priority and incident type in the "Prioritized IoT Alerts" view. ii.	You can add the Suggested Priority and other AI fields to the default ‘Primary IoT alerts’ view or any of your custom views.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-iot-suggestions-alerts.png)
 
+The priority and suggested incident type is also displayed on the IoT alert form.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-iot-suggestions-alerts-drill-down.png)
@@ -135,9 +137,11 @@ You'll know the AI based suggestions are working when there is a suggested prior
 
 ## Configuration considerations
 - If the model needs to be reconfigured based on changes to the system or evolving business needs, you can go through the set up again by going to **Settings > Settings (in IoT section) > IoT Suggestions section** and selecting **Reconfigure IoT suggestions** in the top ribbon. 
-- When applicable the model will return "No suggestion" if there is no recommendation. 
+- When applicable the model will return "No suggestions" if there is no recommendation. 
 - Suggestions are updated every 24 hours.
 - It is recommended to have at least 50 IoT alerts converted to cases or work orders to give the model enough data to make suggestions. 
 - Suggestions work whether IoT alerts are converted in to cases or work orders because both have incident types. 
-- Suggestions are only displayed in Dynamics 365 Field Service but a simple Power Automate Flow could be used to send and display the suggestions in IoTCentral or IoTHub. 
+### Use Power Automate flows to:
+1. Convert IoT Alerts with suggested high priority to a new case or work order with the recommended incident type.
+2. Send and display the AI suggestions in Azure IoTCentral or Azure IoTHub.
 
