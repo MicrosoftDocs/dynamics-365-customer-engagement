@@ -46,7 +46,7 @@ After you enable real-time customer sentiment, you can view scores in the [Omnic
 
 ## Agent settings
 
-Agents can view the customer sentiment in the communication panel for a conversation session that is active and in focus. For session that is not in focus, the alert is shown on the session panel.
+Agents can view the customer sentiment in the communication panel for a conversation session that is active and in focus. For a session that is not in focus, the alert is shown on the session panel.
 
 You can show alerts to the agents when a customer's sentiment decreases to or below a particular value. You can set the customer's sentiment to any of the following values:
 
@@ -55,16 +55,21 @@ You can show alerts to the agents when a customer's sentiment decreases to or be
 - Negative
 - Very negative
 
-For example: You set the threshold value as **Slightly negative**. When the customer's sentiment reaches **Slightly negative** or any other sentiment value below this, an alert is displayed to agent.
+For example, you set the threshold value as **Slightly negative**. When the customer's sentiment reaches **Slightly negative** or any other sentiment value below this, an alert is displayed to the agent.
 
 1. Sign in to **Omnichannel Administration**.
 
 2. Under **Settings**, select **Sentiment Analysis**, and then select **Real-Time Sentiment Analysis**.
 
-3. In the **Sentiment analysis** section, set the **Monitor real-time customer sentiment** toggle to **Yes**, and then select **Save**.
+3. In the **Agent settings** section, select a value from the **Show alerts when a customer's sentiment decreases to or below** list. The options are:
+
+    - Don't show alerts
+    - Slightly negative
+    - Negative
+    - Very negative
 
   > [!div class=mx-imgBorder]
-  > ![Enable sentiment analysis](../media/monitor-real-time-agent.png "Enable sentiment analysis")
+  > ![Show alerts when a customer's sentiment decreases to or below](../media/monitor-real-time-agent.png "Show alerts when a customer's sentiment decreases to or below")
 
 To turn off agent alerts, select **Don't show alerts**.
 
@@ -79,18 +84,24 @@ You can show notifications to the supervisors when a customer's sentiment decrea
 - Negative
 - Very negative
 
-For example: You the set the threshold value as **Slightly negative**. When the customer's sentiment reaches **Slightly negative** or any other sentiment value below this, a notification is displayed to the supervisor.
+For example, you set the threshold value as **Slightly negative**. When the customer's sentiment reaches **Slightly negative** or any other sentiment value below this, a notification is displayed to the supervisor.
+
 
 1. Sign in to **Omnichannel Administration**.
 
 2. Under **Settings**, select **Sentiment Analysis**, and then select **Real-Time Sentiment Analysis**.
 
-3. In the **Sentiment analysis** section, set the **Monitor real-time customer sentiment** toggle to **Yes**, and then select **Save**.
+3. In the **Supervisor settings** section, select a value from the **Send notifications when a customer's sentiment decreases to or below** list. The options are:
+
+    - Don't send notifications
+    - Slightly negative
+    - Negative
+    - Very negative
 
   > [!div class=mx-imgBorder]
-  > ![Enable sentiment analysis](../media/monitor-real-time-supervisor.png "Enable sentiment analysis")
+  > ![Send notifications when a customer's sentiment decreases to or below](../media/monitor-real-time-supervisor.png "Send notifications when a customer's sentiment decreases to or below")
 
-To turn off supervisor notification, select **Don't send notifications**.
+To turn off supervisor notifications, select **Don't send notifications**.
 
 
 ## Multi-language sentiment

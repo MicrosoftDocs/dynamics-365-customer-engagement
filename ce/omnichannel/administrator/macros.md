@@ -119,7 +119,7 @@ This action is used for searching knowledge articles based on the populated phra
 
 ##### Update form attribute
 
-This action is used for updating the form attribute (field). The action updates the attribute of a form if that form is currently in focus and has the same entity type as mentioned in action. If the action is executed for any other entity, then the action will fail. Also, the action only updates the field and doesn't save the record. The action contains the following field.
+This action is used for updating the form attribute (field). The action updates the attribute of a form if that form is currently in focus and has the same entity type as mentioned in action. If the action is executed for any other entity, then the action will fail. Also, the action only updates the field and doesn't save the record. The action contains the following field:
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
@@ -217,18 +217,16 @@ This action is used to unlink a record from the conversation when the customer i
 
 ### Built-in
 
-The built-in control allows you to execute a macro action step based on the conditions. The **Built-in** category connector, which has an action as **Condition**. 
+The Built-in control allows you to execute a macro action step based on the conditions. The **Built-in** category connector has a **Condition** action. 
 
    > [!div class=mx-imgBorder] 
    > ![Condition connector](../media/built-in.png "Condition connector")
 
-To use the **Built-in** category, you need to first have a trigger (Predefined automation actions). That is, select a predefined automation action first, and before or after a step, you can define the condition. You can also create nested conditions as per your requirements.
+To use the **Built-in** category, you first need to have a trigger (predefined automation actions). That is, select a predefined automation action first, and before or after a step, you can define the condition. You can also create nested conditions as per your requirements.
 
-Using the **View run history** option for a particular macro, you can see the condition which was executed and whether it succeeded or failed.
+Using the **View run history** option for a particular macro, you can see the condition that was executed and whether it succeeded.
 
-For example,
-
-You want to open a new form and save it after entering the fields. If the **Product** field in the form has **Surface** as the value, then evaluate it as true and then perform the knowledge base article search with the search phrase as **Surface**. If it is evaluated as false, then don't perform any action further.
+For example, you want to open a new form and save it after entering the fields. If the **Product** field in the form has **Surface** as the value, evaluate it as true and then perform the knowledge base article search with the search phrase as **Surface**. If it is evaluated as false, don't perform any further actions.
 
    > [!div class=mx-imgBorder] 
    > ![Macro conditional builder](../media/macro-condition.png "Macro conditional builder")
