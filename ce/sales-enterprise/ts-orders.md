@@ -10,14 +10,17 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Troubleshooting related to the Order entity 
-<!--I'm a bit mystified by this article. Can it be integrated into a more general troubleshooting topic? If not, will other issues likely be added to it eventually? The sole issue it addresses isn't really described in the title, so it doesn't seem very discoverable. -->
+# Troubleshooting order forms 
+<!--Would it be possible to have a less formal title, something like this? If not, maybe this could be the title in the TOC. My concern is that this content needs to be easily discovered, so what would be the likeliest title that would help a user find the answers they need?-->
 This article helps you troubleshoot and resolve issues related to the Order entity.
 
 <a name="order_processing_integration"> </a>
-## Sales order processing integration is enabled for me. How do I disable it?
+<!--What do you think of the following heading? The "Issue: xxx" pattern would help these sections stand out in the future, when there might be several of them in this article. I tried to deduce what the problem would be that has driven the user to this page; I might have misunderstood. I don't really see that your original heading expresses a problem though. -->
+## Issue: I don't see the Create invoice button on my order forms
 
-Sales order processing integration connects Dynamics 365 Sales with an external back-office order processing application. It allows a sales order created in Dynamics 365 Sales to be submitted, after which the order can be synchronized with an external order processing application, where the lifecycle of the order continues. When the integration is enabled, users don't see the **Create Invoice** button on order records. If the integration is enabled unintentionally, you can disable it.  
+<!--Sales order processing integration is enabled for me. How do I disable it?-->
+
+Sales order processing integration connects Dynamics 365 Sales with an external, back-office order-processing application. When enabled, it allows a sales order created in Dynamics 365 Sales to be submitted and then synchronized with an external order processing application, where the lifecycle of the order continues. When the integration is enabled, users don't see the **Create Invoice** button on order records. If the integration is enabled unintentionally, you can disable it.  
 
 **To disable sales order processing integration**
 
@@ -28,11 +31,11 @@ Sales order processing integration connects Dynamics 365 Sales with an external 
     When sales order processing is already enabled, users with the System Administrator role or equivalent permissions will see the **Back office order processing integration** setting on the **Overview** page.
 
     > [!div class="mx-imgBorder"]  
-    > ![Setting to disable back office order processing integration](media/order-processing-integration-setting.png "Setting to disable back office order processing integration")
+    > ![Setting to disable back-office order-processing integration](media/order-processing-integration-setting.png "Setting to disable back-office order-processing integration")
  
 3. Select **Manage**. 
 
-4. To disable the integration, turn off **Sales order processing**<!--This is how the Style Guide recommends handling a toggle. It's a bit of a conundrum  because the values aren't On and Off. So, I think another option might be to say "In the **Sales order processing** area, select **Yes**, and then select **Save**.-->, and then select **Save**.
+4. To disable the integration, switch **Sales order processing** to **Off**, and then select **Save**.
 
     > [!div class="mx-imgBorder"]  
     > ![Sales order processing setting](media/sales-order-processing-setting.png "Sales order processing setting")
@@ -40,9 +43,10 @@ Sales order processing integration connects Dynamics 365 Sales with an external 
     > [!IMPORTANT]
     > - The **Back office order processing integration** setting is visible only when sales order processing is already enabled. 
     > - After the setting is disabled, users will no longer see this setting. 
-    > - This setting can be used only to disable sales order processing in case it was turned on unintentionally through some<!--SELF--> solution installations. This setting can't be used to turn _on_ sales order processing.<!--This seems like a good place for a cross-reference to information about how to turn it on.-->
+    > - This setting can be used only to disable sales order processing in case it was turned on unintentionally through some solution installation. This setting can't be used to turn _on_ sales order processing.<!--Can you give a cross-reference to information about how to turn it on?-->
 
-<!--I don't think a "See also" section makes sense for a specific section in a troubleshooting topic. As discussed earlier, I think this topic needs to declare itself as either a one-off troubleshooting issue or an umbrella topic that will be added to over time. In either case, it doesn't make sense to supply people with a link for them to go learn more about a feature when they've come to a troubleshooting topic to solve a problem with that feature. It's different if an umbrella troubleshooting topic gives a "See also" to an FAQ or a related troubleshooting umbrella topic (for example, a user troubleshooting topic might "See also" an admin troubleshooting guide). If the topic below will help the user solve their current problem, can you integrate the cross-reference in the text above?-->
+<!--These "See also" links should relate to the whole article rather than this one issue. Classically for troubleshooting topics, if there are "see also" links they go to a FAQ or related troubleshooting topics. If the topic below will help the user solve their current problem, the cross-reference should be integrated into text above. If it's just truly a "see this article also if you feel like learning more", you don't need it in a troubleshooting topic at all.
 ### See also
 
 [Create or edit orders](create-edit-order-sales.md)  
+-->
