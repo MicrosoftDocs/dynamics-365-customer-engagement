@@ -57,7 +57,7 @@ Knowledge of work order [incident types and service tasks](.configure-incident-t
 
 ## Create inspection template
 
-First create an inspection template that can be reused and added to multiple work orders.
+First create an inspection that can be reused and added to multiple work orders.
 
 From the Field Service app go to **Settings > Inspections > +New**.
 
@@ -120,7 +120,8 @@ It is common to add service task types to incident types to bundle work together
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-service-task-incident-type.png)
 
-
+> [!Note]
+> In April Preview, an Inspection cannot be added or removed from a service task type which already has work order service tasks or incident type service tasks associated to it. So if you try to change 'Has Inspection' and 'Inspection' fields in the service task type you will receive an error.
 
 ## Add inspection to work order
 
@@ -228,10 +229,18 @@ The main advantage of inspections is they are easier to create and easier to fil
 ### Inspecting X number of assets at a location
 
 Let's say a technician needs to inspect 10 customer assets at a customer's location. To accommodate this scenario, administrators can create one inspection with 10 questions, one for each asset and associate the single inspection to a single service task; or create 10 work order service tasks each with one inspection. When deciding, keep in mind work order service tasks can be associated to customer assets to build service history that is viewable on the customer asset record. This means creating 10 service tasks each related to a different customer asset has the advantage of helping you build service history. The advantage of utilizing a single service task with multiple questions has the benefit of being easier to add to a work order and quicker to fill out. 
+### Inspections in the Common Data Model (CDM)
+
+There are 3 entities that are stored in CDM:
+1. Inspection - the set of questions
+2. Inspection question - each individual question entry in the inspection
+​3. inspection response - overall answer containing answers to all the questions in the overall inspection
+
+Storing and retreiving each inspection response in the Common Data Model is not part of the April 2020 public preview.
 
 ## Additional Notes
 
 - Support for Field Service Mobile is not part of the April 2020 public preview and is **planned**.
 - The ability to create **branching logic** where inspection questions hide and appear based on other inspections responses is not part of the April 2020 public preview and is **planned**.
-- Each inspection and inspection question is stored in the Common Data Model, storing and retreiving each inspection response in the Common Data Model is not part of the April 2020 public preview.
+
 - The ability to add version numbering to inspections is not part of the April 2020 public preview and is **planned**.
