@@ -149,37 +149,36 @@ The optimization summary analyzes the automatically scheduled bookings and the e
 
 ## Share reports
 
-By default, the Tenant administrator will be able to view all the reports, but by following the below steps, he/she can share the reports to the users.
+By default, the tenant administrator will be able to view all the reports. With the following steps, the reports can be shared with other users.
 
-1.	As a Tenant administrator, you can share the RSO Admin and Optimization Summary reports by following the below steps:
-2.	Click the Share button on the top right corner of the report
+1.	Select **Share** in the top right corner of the report.
  
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/scheduling-analytics-share1.png)
+> ![Screenshot of the share option in the report.](./media/scheduling-analytics-share1.png)
 
-3.	Select the reports
+2.	Select the reports.
  
  > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/scheduling-analytics-share2.png)
+> ![Screenshot of the report selection list.](./media/scheduling-analytics-share2.png)
  
-4.	Click the Share button 
+3.	Select **Share**.
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the share option in the menu.](./media/scheduling-analytics-share3.png)
+
+4.	Select **Add User/Team** and select the user you want to give access to.
  
  > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/scheduling-analytics-share3.png)
+> ![Screenshot of the share data analytics report window with attention to the add user/team option.](./media/scheduling-analytics-share4.png)
 
-5.	Click Add User/Team and select the user you want to give access to.
- 
- > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/scheduling-analytics-share4.png)
-
-6.	Make sure the Read access is selected and click the Share button.
+5.	Make sure the **Read** access is selected and select **Share**.
   
   > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/scheduling-analytics-share5.png)
+> ![Screenshot of the share data analytics report window with the read box checked.](./media/scheduling-analytics-share5.png)
 
-7.	In order to share the Resource and Utilization reports, follow steps 2 to steps 6 in Field Service. Please note that you need to select Resource and Utilization report in Field Service.
-8.	The selected user should be able to view the Reports.
+The user will now be able to access the report.
+
+In order to share the resource and utilization reports, follow steps 1 through 5 in Field Service. Please note that you need to select resource and utilization reports in Field Service.
 
 
 ## Configuration considerations
@@ -190,15 +189,14 @@ By default, the Tenant administrator will be able to view all the reports, but b
 ## Additional notes
 
 - The reports explored in this article are all built on Microsoft Power BI.
-v
-- **Travel Calculation:** All travel calculation is based on the miles. 
-- **SLA:** Data refreshed every 24 hours. Reports will continue to be available during the refresh. If the reports are not refreshed within 24 hours, you can contact Microsoft Support. Please note that currently, we do not support the custom refresh schedule.
-- **Data Refresh for Inactive environments:** In an Organization, if there are no active usage of the reports for continuous 2 weeks, the data refresh will get paused. When the user opens the reports, the data will get refreshed in the next refresh cycle.
+- **Travel Calculation**: All travel calculation is based on the miles. 
+- **SLA**: Data is refreshed every 24 hours. Reports will continue to be available during the refresh. If the reports are not refreshed within 24 hours, you can contact Microsoft Support. Please note that currently, we do not support the custom refresh schedule.
+- **Data Refresh for Inactive environments**: If an organization has no active usage of the reports for continuous two weeks, the data refresh will be paused. When the user opens the reports, the data will get refreshed in the next refresh cycle.
 - Data is retained for 24 months. 
 - All travel calculation is based on the miles.
 - We do not support environment minimal copy operations that are available for a Sandbox environment. If you perform any of these operations, you may encounter unexpected results. 
 
-**Data Availability for Entities:** We are consuming the following list of entities to generate these reports. If there is no data for any of the below entities, then the report may show blank. If you have customized these entities or not using the out of box entities, then the reports will show blank too. 
+**Data Availability for Entities**: We are consuming the following list of entities to generate these reports. If there is no data for any of the below entities, then the report may show blank. If you have customized these entities or not using the out of box entities, then the reports will show blank too. 
 
   Field Service entities:  
   - Bookableresource 
