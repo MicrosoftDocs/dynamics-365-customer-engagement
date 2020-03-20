@@ -4,7 +4,7 @@ description: "Includes schema information and supported messages for the msdyn_e
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
-ms.date: 08/29/2019
+ms.date: 03/20/2020
 ms.service: 
   - crm-online
 ms.topic: "reference"
@@ -12,6 +12,11 @@ ms.topic: "reference"
 # msdyn_entityconfig Entity Reference
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
+
+> [!IMPORTANT]
+> **This entity is for internal use only**.
+>
+> You will find this entity in the [$metadata](/powerapps/developer/common-data-service/webapi/web-api-types-operations#csdl-metadata-document) of your organization but programmatically using this entity in your code to access data is not supported.
 
 Stores entity routing configuration per workstream
 
