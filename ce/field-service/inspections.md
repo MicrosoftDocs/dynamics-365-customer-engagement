@@ -233,5 +233,5 @@ Let's say a technician needs to inspect 10 customer assets at a customer's locat
 
 - Support for Field Service Mobile is not part of the April 2020 public preview and is **planned**.
 - The ability to create **branching logic** where inspection questions hide and appear based on other inspections responses is not part of the April 2020 public preview and is **planned**.
-- Each inspection and inspection question is stored in the Common Data Model, storing and retreiving each inspection response in the Common Data Model is not part of the April 2020 public preview and is **planned**.
+- Each inspection and inspection question is stored in the Common Data Model, storing and retreiving each inspection response in the Common Data Model is not part of the April 2020 public preview.
 - The ability to add version numbering to inspections is not part of the April 2020 public preview and is **planned**.
