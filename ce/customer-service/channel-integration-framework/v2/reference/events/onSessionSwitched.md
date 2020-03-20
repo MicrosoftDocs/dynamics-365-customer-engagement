@@ -4,7 +4,7 @@ description: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 03/13/2020
+ms.date: 03/20/2020
 ms.topic: reference
 ms.service: 
   - dynamics-365-customerservice
