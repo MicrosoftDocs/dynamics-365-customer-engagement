@@ -128,11 +128,9 @@ The **Linked records** field shows the record that's linked to the conversation.
 > [!div class='mx-imgBorder']
 > ![View only the linked records in the drop-down](../../media/oceh/customer-summary-linked-records.PNG "View only the linked records in the drop-down list")
 
-> [!div class="nextstepaction"]
-> [Next topic: Search for and share knowledge articles](oc-search-knowledge-articles.md)
-
 ### See also
 
+- [Search for and share knowledge articles](oc-search-knowledge-articles.md)
 - [View communication panel](oc-conversation-control.md)
 - [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)
 - [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)

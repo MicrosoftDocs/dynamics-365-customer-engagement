@@ -347,7 +347,7 @@ Given below is the adaptive card JSON for creating an appointment with the custo
 
 ### Macros
 
-Macros are a compilations of sequential actions that are reusable for different sessions. These can be used to automate repetitive and monotonous actions that in turn reduce human errors and improve agent productivity. For information on how to build a macro, see [Create macro](../../administrator/macros.md#create-macro).
+Macros are a compilations of sequential actions that are reusable for different sessions. These can be used to automate repetitive and monotonous actions that in turn reduce human errors and improve agent productivity. For information on how to build a macro, see [Create macro](../../administrator/macros.md#create-a-macro).
 
 You can use the `actions` key in adaptive cards JSON and mention the macro or custom action that you want to call, as shown in the example below.
 

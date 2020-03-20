@@ -130,11 +130,9 @@ The horizontal bar below the navigation bar is called the application tab panel.
 
    c. **Presence.** Set presence as per your availability. Select the icon to launch the presence dialog and use the drop-down list to select a status. To learn more, see [Manage presence status](oc-manage-presence-status.md).
 
-> [!div class="nextstepaction"]
-> [Next topic: Manage sessions](oc-manage-sessions.md)
-
 ## See also
 
+- [Manage sessions](oc-manage-sessions.md)
 - [Manage applications](oc-manage-applications.md)
 - [Understand conversation states](oc-conversation-state.md)
 - [Sign in to Omnichannel for Customer Service](oc-sign-in-omnichannel.md)

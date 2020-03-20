@@ -38,11 +38,8 @@ The work item that you picked is moved from the **Open work items** stream to th
 
 In the **Closed work items** stream, you see all the conversations that you've closed in the past 24 hours. To view a closed work item, select the ellipsis button (**...**) for it, and then select **Open** to view the details.
 
-> [!div class="nextstepaction"]
-> [Next topic: Create a record](oc-create-record.md)
-
-
 ## See also
 
+- [Create a record](oc-create-record.md)
 - [Introduction to the agent interface](oc-introduction-agent-interface.md)
 - [View communication panel](oc-conversation-control.md)

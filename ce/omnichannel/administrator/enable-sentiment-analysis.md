@@ -6,31 +6,105 @@ ms.author: lalexms
 manager: shujoshi
 applies_to: 
   - ""
-ms.date: 12/27/2019
+ms.date: 04/01/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
 ---
 
-# Enable sentiment analysis
+# Analyze real-time customer sentiment
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-Enable sentiment analysis so supervisors can use the **Omnichannel Ongoing Conversation** dashboard to view customer sentiment in real time during conversations between customers and agents. You can enable or disable real-time sentiment through **Sentiment Analysis Settings** in **Omnichannel Administration**.
+Sentiment analysis settings in Omnichannel for Customer Service provide agents and supervisors with real-time insight regarding how customers are interacting with agents during chat sessions.
+
+The Sentiment Analysis Settings page contains three sections:
+
+- [Sentiment analysis](#sentiment-analysis)
+- [Agent settings](#agent-settings)
+- [Supervisor settings](#supervisor-settings)
+
+## Sentiment analysis
+
+To let agents and supervisors see the customer's satisfaction levels instantly while communicating with the customer, you need to enable the sentiment analysis.
 
 > [!NOTE]
 > Sentiment analysis is enabled by default.
 
 1. Sign in to **Omnichannel Administration**.
 
-2. Go to **Settings** > **Sentiment Analysis**, and then select **Real-Time Sentiment Analysis**.
+2. Under **Settings**, select **Sentiment Analysis**, and then select **Real-Time Sentiment Analysis**.
 
-3. On the **General** tab, set **Monitor real-time customer sentiment** to **Enabled**, and then select **Save**.
+3. In the **Sentiment analysis** section, set the **Monitor real-time customer sentiment** toggle to **Yes**, and then select **Save**.
+
+4. Set the **Sentiment drivers reporting** toggle to **Yes**.
 
   > [!div class=mx-imgBorder]
   > ![Enable sentiment analysis](../media/monitor-real-time.png "Enable sentiment analysis")
 
 After you enable real-time customer sentiment, you can view scores in the [Omnichannel Insights dashboards](configure-historical-sentiment-dashboard-supervisor.md).
+
+## Agent settings
+
+Agents can view the customer sentiment in the communication panel for a conversation session that is active and in focus. For a session that is not in focus, the alert is shown on the session panel.
+
+You can show alerts to the agents when a customer's sentiment decreases to or below a particular value. You can set the customer's sentiment to any of the following values:
+
+- Don't show alerts
+- Slightly negative
+- Negative
+- Very negative
+
+For example, you set the threshold value as **Slightly negative**. When the customer's sentiment reaches **Slightly negative** or any other sentiment value below this, an alert is displayed to the agent.
+
+1. Sign in to **Omnichannel Administration**.
+
+2. Under **Settings**, select **Sentiment Analysis**, and then select **Real-Time Sentiment Analysis**.
+
+3. In the **Agent settings** section, select a value from the **Show alerts when a customer's sentiment decreases to or below** list. The options are:
+
+    - Don't show alerts
+    - Slightly negative
+    - Negative
+    - Very negative
+
+  > [!div class=mx-imgBorder]
+  > ![Show alerts when a customer's sentiment decreases to or below](../media/monitor-real-time-agent.png "Show alerts when a customer's sentiment decreases to or below")
+
+To turn off agent alerts, select **Don't show alerts**.
+
+## Supervisor settings
+
+Supervisors can use the **Omnichannel Ongoing Conversation** dashboard to view customer sentiment in real time during conversations between customers and agents.
+
+You can show notifications to the supervisors when a customer's sentiment decreases to or below a particular value. You can set the customer's sentiment to any of the following values:
+
+- Don't show notifications
+- Slightly negative
+- Negative
+- Very negative
+
+For example, you set the threshold value as **Slightly negative**. When the customer's sentiment reaches **Slightly negative** or any other sentiment value below this, a notification is displayed to the supervisor.
+
+
+1. Sign in to **Omnichannel Administration**.
+
+2. Under **Settings**, select **Sentiment Analysis**, and then select **Real-Time Sentiment Analysis**.
+
+3. In the **Supervisor settings** section, select a value from the **Send notifications when a customer's sentiment decreases to or below** list. The options are:
+
+    - Don't send notifications
+    - Slightly negative
+    - Negative
+    - Very negative
+
+  > [!div class=mx-imgBorder]
+  > ![Send notifications when a customer's sentiment decreases to or below](../media/monitor-real-time-supervisor.png "Send notifications when a customer's sentiment decreases to or below")
+
+To turn off supervisor notifications, select **Don't send notifications**.
+
+
+## Multi-language sentiment
 
 Multi-language sentiment scoring is enabled by default. Conversations in more than 40 languages are scored. The languages are listed in the following table.
 
