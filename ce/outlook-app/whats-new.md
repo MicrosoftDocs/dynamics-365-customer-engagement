@@ -24,6 +24,16 @@ description: "Updates to Dynamics 365 App for Outlook."
 ---
 # What's new with Dynamics 365 App for Outlook
 
+## Mar 2020
+1. Delegate support. [See more](https://docs.microsoft.com/en-us/dynamics365/outlook-app/enable-delegate-access).
+2. Reliability improvements
+
+## Oct 2019
+1. Performance and reliability improvements to App for Outlook and Server-Side Synchronization
+
+## Apr 2019
+1. Performance and reliability improvements to App for Outlook and Server-Side Synchronization
+
 ## Dec 2018 
 1. Fixed issue with emails losing track status when categories is enabled. 
 
