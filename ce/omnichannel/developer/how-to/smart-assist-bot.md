@@ -1,15 +1,15 @@
 ---
-title: "Build a custom smart assist bot | MicrosoftDocs"
+title: "Build a smart assist bot | MicrosoftDocs"
 description: "Read how you can build a smart assist bot to help agents resolve customer queries faster and more effectively"
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 03/13/2020
+ms.date: 03/20/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
 ---
-# Build a custom smart assist bot
+# Build a smart assist bot
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
@@ -28,9 +28,9 @@ To setup a smart assist bot, you need to create a custom bot that can interpret 
 
 Refer to the sample code [README](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/smart-assist-bot/README.md) file for information on how and where to update the values obtained from the above steps.
 
-## Interpret the conversation
+## Generate intent to interpret the context of the conversation
 
-It is essential to analyze the conversation and understand its context before you can suggest an action to the agent. Use [Language Understanding (LUIS)](https://luis.ai) to find the intent of the ongoing conversation. You can use the extracted intent to perform actions such as suggesting a knowledge base article, scheduling an appointment or suggesting similar cases. Here is an example on how you can create a LUIS app to find intent from a given text: [Quickstart: Use prebuilt Home automation app](/azure/cognitive-services/luis/luis-get-started-create-app).
+You need to analyze the conversation and understand its context before recommending an action to the agent. Use [Language Understanding (LUIS)](https://luis.ai) to find the intent of the ongoing conversation. Here is an example on how you can create a LUIS app to find intent from a given text: [Quickstart: Use prebuilt Home automation app](/azure/cognitive-services/luis/luis-get-started-create-app).
 
 ## Send adaptive card suggestions
 
