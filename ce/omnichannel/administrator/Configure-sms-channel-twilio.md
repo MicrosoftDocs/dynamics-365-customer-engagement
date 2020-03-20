@@ -69,7 +69,7 @@ Perform the following steps to create a work stream for the SMS channel for Twil
     >
     > You can configure only one phone number per work stream.
 9. Select **Save**.
-10. On the command bar, select **Validate API Key**. the Twilio account and phone number are validated.
+10. On the command bar, select **Validate API Key**. The Twilio account and phone number are validated.
 11. Configure the routing rules on the **Routing rule items** tab. The routing rule for SMS works on **Mobile Phone** of the **Contact** entity. The customer is identified based on **Mobile Phone**, and the conversation is automatically linked to the contact record.
     > [!NOTE]
     >
