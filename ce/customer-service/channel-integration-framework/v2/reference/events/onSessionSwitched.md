@@ -24,8 +24,8 @@ The `onSessionSwitched` event takes following eventData:
 | eventData | Description |
 |-----------|---------|
 | `sessionId` | Unique identifier of the session. |
-| `focussed` | |
-| `context`| |
+| `focussed` | Indicates whether the session is in focus or not.<br />If the value is `true` it indicates that the session id returned in the payload is in focus and value `false` indicates that the particular session is not in focus.|
+| `context`| Indicates additional context. |
 
 ## See also
 
