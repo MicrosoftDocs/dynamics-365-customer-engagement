@@ -75,7 +75,7 @@ Resource managers can use the resource and utilization report to perform the fol
   - What's the estimated travel time versus the actual travel time?  
 - Understand how an individual resource is using their time to react and resolve, and whether an individual resource is under- or over-utilized compared to others.  
 
-Go to **Field Service** > **Resources** area and find "Reports" under the Analytics section. 
+Go to **Field Service** > **Resources** and find **Reports** under the **Analytics** section. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a resource and utilization report.](./media/scheduling-analytics1.png)
@@ -91,7 +91,7 @@ Let's take a look at what each of these metrics are reporting.
 | Utilization rate |The percentage of time a resource spends on work and travel in the given period from slicer. (Work duration plus travel duration) per available time on the calendar rule. Note: if the user does not set up the available time on the calendar then the default available time is 24 hours |
 | Late arrival rate |	For all in-progress or completed bookings, the percentage of bookings where technician arrives later than the “Time to Promise” or “Estimated arrival time,” if “Time to Promise” is not enabled in the implementation.  |
 |Booking cancellation rate |	For all in-progress or completed bookings, the percentage of bookings that have been canceled in the given time range. |
-| Resource utilization breakdown  |	The visual shows the percentage of time on work, travel, break and idle time over a period.  It can break via booking status slicer such as in progress job or completed job. Each bar in the chart shows the relative percentage of duration types in stacked columns, where the total of stacked columns always equals 100 percent. It does not show overtime values of any duration types. |
+| Resource utilization breakdown  |	The visual shows the percentage of time on work, travel, break, and idle time over a period. It can break via booking status slicer, such as in progress job or completed job. Each bar in the chart shows the relative percentage of duration types in stacked columns, where the total of stacked columns always equals 100 percent. It doesn't show overtime values of any duration types. |
 | Duration breakdown |	The graph shows the trend of total work time, travel time, break time, and idle time. You can also drill in to the information to see specific information for in-progress jobs or completed jobs. |
 
 
