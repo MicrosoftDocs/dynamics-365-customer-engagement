@@ -14,13 +14,15 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-## What is SMS channel for Twilio?
+## Overview
+
+The SMS channel through Twilio in Omnichannel for Customer Service allows your organization to connect to customers by using text messages. Your customers can send text messages through Twilio and connect with an appropriate customer service agent. Agents can view the incoming SMS requests on their dashboard and respond accordingly.
 
 ## Prerequisites
 
 Make sure that the following prerequisites are met:
 
-- SMS for Twilio is provisioned in Omnichannel for Customer Service and - SMS channel is installed in your environment.
+- SMS for Twilio is provisioned in Omnichannel for Customer Service. For information, see [Provision Omnichannel for Customer Service](omnichannel-provision-license.md).
 - A Twilio account with phone number and subscription is available.
 
 ## Configure an SMS channel for Twilio in Omnichannel
@@ -35,7 +37,7 @@ An SMS channel is enabled within Omnichannel for Customer Service by integrating
 > [!NOTE]
 >
 > In this release, only long code type US phone numbers are supported.
->
+
 ### Step 2: Create a work stream
 
 Perform the following steps to create a work stream for the SMS channel for Twilio:
@@ -102,4 +104,5 @@ When you validate the SMS settings while setting up the SMS channel, a call is m
 ### See also
 
 [SMS FAQ](../faqs.md#sms)
+<br>
 [Channels in Omnichannel](channels.md)
