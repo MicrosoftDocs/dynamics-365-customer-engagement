@@ -41,7 +41,8 @@
 ##### [Embed chat widget in Power Apps portals](administrator/embed-chat-widget-portal.md)
 ##### [Configure proactive chat](administrator/proactive-chat.md)
 #### SMS channels
-##### [Configure an SMS channel](administrator/configure-sms-channel.md)
+##### [Configure an SMS channel for TeleSign](administrator/configure-sms-channel.md)
+#### [Configure an SMS channel for Twilio](administrator/Configure-sms-channel-twilio.md)
 #### Social channels
 ##### [Configure a Facebook channel](administrator/configure-facebook-channel.md)
 ##### [Configure a WhatsApp channel](administrator/configure-whatsapp-channel.md)

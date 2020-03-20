@@ -29,7 +29,7 @@ If you want to help your customers using SMS, you can use the SMS channel.
 There are two options:
 
    - [SMS through Telesign](configure-sms-channel.md)
-   - [SMS through Twilio topic link will be updated here]()
+   - [SMS through Twilio](configure-sms-channel-twilio.md)
 
 ## Social channels 
 
