@@ -18,9 +18,9 @@ Follow the instructions in this article to troubleshoot the issues you might fac
 
 _Product re-parenting_ allows you to change the parent of an existing product record so the child products will inherit the appropriate product properties. More information: [Change the parent of a product](change-product-parent.md)
 
-If you don't see the **Parent** field on the Product form, it could be because you've customized the Product Main form by using the unmanaged mode<!--Will the reader know what this means? If not, maybe you could have "unmanaged mode" link to more information.-->. In some cases, Product forms aren't merged properly and because of this, the required Parent field isn't added to the form.
+If you don't see the **Parent** field on the Product form, it could be because you've customized the **Product Main** form by using the unmanaged mode<!--Will the reader know what this means? If not, maybe you could have "unmanaged mode" link to more information.-->. In some cases, **Product** forms aren't merged properly and because of this, the required **Parent** field isn't added to the form.
 
-To resolve this, you must add the Parent field back to the form. You can do this through customization or by using the solution import/export wizard.<!--I don't know what this is. Will the reader know?--> 
+To resolve this, you must add the **Parent** field back to the form. You can do this through customization or by using the solution import/export wizard.<!--I don't know what this is. Will the reader know?--> 
 
 **To add the Parent field through customization**
 
@@ -39,7 +39,7 @@ To resolve this, you must add the Parent field back to the form. You can do this
 
 5. Select **Forms**, and then open the **Product** form of type **Main** that's in the **Active**<!--edits assume these are all UI strings.--> state.
 
-6. In the form editor, select the **Parent** field from the Field Explorer and drag it to the **Summary** section on the left side of the form editor.
+6. In the form editor, select the **Parent** field from Field Explorer and drag it to the **Summary** section on the left side of the form editor.
 
     > [!div class="mx-imgBorder"]
     > ![Add the Parent field to the Product form](media/add-parent-field-product-form.png "Add the Parent field to the Product form")
