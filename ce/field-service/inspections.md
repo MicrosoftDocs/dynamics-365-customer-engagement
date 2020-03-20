@@ -210,6 +210,8 @@ Doing so will allow the technician to see which customer asset to perform the in
 > If you relate a work order incident type to a customer asset, the related work order service tasks will be related to the customer asset automatically.
 
 ## Configuration considerations
+> [!Note]
+> During preview Microsoft may make schema changes that might render inspections and related records to go into a state where they can no longer be used.
 
 - Only single responses are supported and a technician cannot fill out the same inspection twice for a single work order service task. If the responses are cleared or answered again, the original responses are deleted and only the latest responses are saved.
 
