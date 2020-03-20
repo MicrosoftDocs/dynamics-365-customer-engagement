@@ -2,7 +2,7 @@
 title: "Field Service Inspections | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 03/09/2020
+ms.date: 03/20/2020
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -32,23 +32,23 @@ Field Service inspections are a digital form that technicians use to quickly and
 
 Compared to using Work Order Incident Types and Service Tasks, using Inspections has the added benefits of:
 
-- **Easier to create** - administrators can quickly create inspection questions with a drag and drop interface without the need to create new entities and fields.
-- **Easier to fill out** - technicians can quickly enter answers for each inspection question and save all of them with one click rather than having to open and close multiple records.
-- **More felxible and robust** - Field Service Inspections have many options for question formats and validations such as multi-option select, mandatory fields, images, attachments, etc. 
+- **Easier to create** - administrators can quickly create inspection with a drag and drop interface without the need to create new entities and fields.
+- **Easier to fill out** - technicians can quickly enter responses for each inspection question and save all of them with one click rather than having to open and close multiple records.
+- **More flexible and robust** - Field Service Inspections have many options for question formats and validations such as multi-option select, mandatory fields, images, attachments, etc. 
 
 Creating and using Inspections is simple and involves the following steps: 
 
 1. Administrator creates an inspection template
-2. Administrator associates the inspection template to a Service Task Type
+2. Administrator associates the published inspection to a Service Task Type
 3. Dispatcher adds the Service Task Type to a Work Order
 4. Technician completes the inspection
 5. View inspection results
 
-In this article we will walk through an example of setting up an inspection using an maintenance checklist on a customer asset as an example.
+In this article we will walk through an example of setting up an inspection using a maintenance checklist on a customer asset as an example.
 
 ## Prerequisites
 
-Inspection capabilities are released in April 2020 as part of a Public preview. Register at the [Insider portal](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.dynamics.com%2Finsider%2F&data=02%7C01%7Cdaclar%40microsoft.com%7Cf2fcec37b6da46c81e4d08d7c48437ad%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637193944500083444&sdata=5HYsnA1J3S%2BkkL%2BDFb%2F0L4jzbeQERtKO1GNRQu5Yj60%3D&reserved=0) for access. Once added, you will be notified via email and will see "Private Preview for D365 Field Service Inspections" under 'my programs' on your Insider Programs Page. Please use “Forums” and “Program Feedback” to give us your inputs and feedback.
+Inspection capabilities are released in April 2020 as part of a Public preview. Request preview access by [submitting a support request](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-lifecycle/CRMSupport)
 
 Dynamics 365 version 9.1.0000.15015+
 
@@ -88,7 +88,7 @@ By selecting the Gear icon you can add more details for an inspection question. 
 Use the Preview section to view the inspection from a technician's perspective.
 
 > [!Note]
-> Once you publish the inspection you cannot edit it. 
+> Once you publish the inspection you cannot edit it in the preview version. 
 
 When finished creating the inspection, select Publish at the top. 
 
@@ -104,9 +104,9 @@ In the same Settings section, go to Service Task Types.
 
 Select an existing Service Task Type or create a new one.
 
-Set **Inspection **to **Yes**.
+Set **Has Inspection **to **Yes**.
 
-In the **Inspection Form** field, select the Inspection template you just created.
+In the **Inspection** field, select the Inspection template you just created.
 
 The inspection form will appear below.
 
@@ -120,18 +120,18 @@ It is common to add service task types to incident types to bundle work together
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-service-task-incident-type.png)
 
-You only need to create an inspection and associate it to a service task once for each inspection template.
+
 
 ## Add inspection to work order
 
-After creating a work order, go to the Service Tasks section and add the Service Task Type to your work order.
+After creating a work order, go to the Service Tasks section and add a new Work Order Service Task.
 
 Alternatively, your inspection service task can be added to the work order via a work order incident type. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-service-task-work-order.png)
 
-The inspection form that will be completed by technicians will be visible on the bottom of the work order service task form.
+The inspection that will be completed by technicians will be visible on the bottom of the work order service task form.
 
 
 > [!div class="mx-imgBorder"]
@@ -175,12 +175,12 @@ When finished, the technician can enter a **Complete %**, **Result**, and an **A
 > ![Screenshot of ](./media/inspections-mobile-mark-complete.png)
 
 
-If an inspection question is required, the technician will not be able to Mark Complete until it is answered.
+If an inspection question is required, the technician will not be able to Mark Complete or set % Completed to 100, until it is answered.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-mobile-validation.png)
 
-If needed a technician can select Clear Responses to start over. This will permanently delete all responses.
+If needed a technician can select Clear Responses to start over. This will permanently delete all responses for this service task inspection..
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-mobile-wost-clear-responses.png)
@@ -211,7 +211,7 @@ Doing so will allow the technician to see which customer asset to perform the in
 
 ## Configuration considerations
 
-- Only single responses are supported and a technician cannot fill out the same inspection twice for a single work order service task. If the responses are cleared or answered again, the original responses are deleted ad only the latest responses are saved.
+- Only single responses are supported and a technician cannot fill out the same inspection twice for a single work order service task. If the responses are cleared or answered again, the original responses are deleted and only the latest responses are saved.
 
 ### Security roles needed to use inspections
 
@@ -230,7 +230,6 @@ Let's say a technician needs to inspect 10 customer assets at a customer's locat
 ## Additional Notes
 
 - Support for Field Service Mobile is not part of the April 2020 public preview and is **planned**.
-- The ability to **create reports based on specific inspections responses** is not part of the April 2020 public preview and is **planned**.
 - The ability to create **branching logic** where inspection questions hide and appear based on other inspections responses is not part of the April 2020 public preview and is **planned**.
-- Each inspection template and inspection question is stored in the Common Data Model, storing and retreiving each inspection response in the Common Data Model is not part of the April 2020 public preview and is **planned**.
-- The ability to have an inspection approved before being published is not part of the April 2020 public preview and is **planned**.
+- Each inspection and inspection question is stored in the Common Data Model, storing and retreiving each inspection response in the Common Data Model is not part of the April 2020 public preview and is **planned**.
+- The ability to add version numbering to inspections is not part of the April 2020 public preview and is **planned**.
