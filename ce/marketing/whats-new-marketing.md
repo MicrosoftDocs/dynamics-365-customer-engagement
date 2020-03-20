@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features in Dynamics 365 Marketing | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 03/02/2020
+ms.date: 04/01/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -25,10 +25,65 @@ search.app:
 
 We're excited to announce our newest updates! To see the latest upcoming features, take a look at the [Dynamics 365 and Power Platform release plans](https://docs.microsoft.com/dynamics365/release-plans/). This topic summarizes early access features, preview features, monthly general availability enhancements, and bug fixes.
 
-Microsoft rolls out each update on a region-by-region basis. Updates are available to all regions by the end of the month. We recommend updating all Marketing instances as soon as an update is available.  You can apply updates to your instances as described in [Keep Marketing up to date](apply-updates.md). Each of your Marketing instances must be manually updated.
+Microsoft rolls out updates on a region-by-region basis. Updates are available to all regions by the end of the month. We recommend updating all Marketing instances as soon as an update is available.  You can apply updates to your instances by following the steps in [Keep Marketing up to date](apply-updates.md). You must manually update each of your Marketing instances.
 
 > [!Note]
 > To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20Marketing).
+
+## April 2020 update
+
+The Dynamics 365 Marketing April 2020 update includes several feature enhancements, performance upgrades, and bug fixes. The March release also includes a preview of the redesigned getting started page.
+
+### Version numbers
+
+| App              | GA release      | Early access    |
+|------------------|-----------------|-----------------|
+| Marketing        | 1.35.10059.1039 | 1.35.10059.2039 |
+
+> [!Tip]
+> To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](https://docs.microsoft.com/dynamics365/marketing/apply-updates#find-out-which-version-of-dynamics-365-marketing-you-are-running).
+
+### Preview features
+
+> [!IMPORTANT]
+> This is a preview feature. A preview feature is a feature that is not complete, but is made available before it's officially in a release so customers can get early access and provide feedback. Preview features aren't meant for production use and may have limited or restricted functionality.
+>
+> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate supplemental terms of use.
+
+- **Redesigned Get started page**
+    - Updated cards and tiles with a more intuitive layout.
+
+### General availability enhancements
+
+- **Customer journeys**
+    - Export data to Excel for further analysis.
+    - Improved customer journey experience.
+    - Set email expiration date in journeys.
+- **Forms**
+    - Forms Pro integration.
+- **Marketing emails**
+    - Improved email content designer.
+- **Event management**
+    - Improved event management experience.
+- **Marketing forms**
+    -- 
+- **Segment management**
+    - Unify all segment types.
+
+### Bug fixes
+
+- **Digital assets**
+    - Disabled ability to upload file types with mismatched file extension.
+- **Entitlement**
+    - Resolved issue where some users were unable to reinstall a Marketing instance after an entitlement was freed.
+- **GDPR**
+    - Disabled behavior tracking for consent confirmation.
+- **Marketing list**
+    - Resolved issue where the delete button was sometimes not functional in the web client.
+- **Segment management**
+    - Resolved issue where members of static segments did not import correctly from Customer Insights.
+    - Fixed an issue where a "Business process error" could result after a successful first run experience in a disconnected org.
+    - Decimal input is now supported in floating number fields.
 
 ## March 2020 update
 
@@ -46,9 +101,9 @@ The Dynamics 365 Marketing March 2020 update includes several feature enhancemen
 ### Preview features
 
 > [!IMPORTANT]
-> This is a preview feature. A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
+> This is a preview feature. A preview feature is a feature that is not complete, but is made available before it's officially in a release so customers can get early access and provide feedback. Preview features aren't meant for production use and may have limited or restricted functionality.
 >
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate supplemental terms of use.
+> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate supplemental terms of use.
 
 - **Redesigned Get started page**
     - Updated cards and tiles with a more intuitive layout.
@@ -134,7 +189,7 @@ The Dynamics 365 Marketing February 2020 update includes an improved segment exp
     - Static segments are redesigned. Static segments now handle an unlimited number of total contacts (up to 10,000 at a time) and allow rule-based addition to list members.
     - You can select static segment contacts based on query and segment data.
     - Segments are time zone-aware, mirroring the time zone functionality in customer journeys.
-    - This release also incorporates a new partial date operator. Partial dates allow you to create segments for events such as “today” or people doing an action on the first day of the month, rather than specifying exact dates.
+    - This release also incorporates a new partial date operator. Partial dates allow you to create segments for events such as "today" or people doing an action on the first day of the month, rather than specifying exact dates.
 
 ### Bug fixes
 
