@@ -215,7 +215,16 @@ You can use the client-side APIs to open knowledge base articles. See [Client AP
 
 ## Sample code
 
-You can find the entire code sample here: [Smart Assist for Bots](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/smart-assist-bot). You will find information on how to setup and run the sample in the sample [README](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/smart-assist-bot/README.md) file.
+You can find the entire code sample here: [Smart Assist for Bots](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/smart-assist-bot).
+
+You will find information on how to setup and run the sample in the sample [README](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/smart-assist-bot/README.md) file. This setup broadly contains the following steps. 
+
+1. Download the Github based sample code.
+2. Update the values in `appsettings.json` file.
+3. Publish the web application to Azure.
+4. Update the Messaging endpoint in Bot channels registration. 
+5. Enable Teams channel.
+6. Test your Bot online.
 
 The sample code implements two functionalities, one that is Common Data Service specific and other is generic functionality.
 
