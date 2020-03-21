@@ -1,20 +1,10 @@
 ---
-title: Unified Service Desk data compliance under GDPR (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs
+title: Unified Service Desk data compliance under GDPR | MicrosoftDocs
 description: Learn about data in Unified Service Desk that comes under General Data Protection Regulation (GDPR)
-ms.custom: 
 ms.date: 04/24/2018
-ms.reviewer: 
-ms.service: usd
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement (on-premises)
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: FA8D5702-C698-42B0-89BF-CD444BF3FB73
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -52,7 +42,7 @@ events and logs are present in the **UII_auditBase** table in the organization d
 
 To delete audit logging that you configure using standard auditing by adding an audit flag:
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to the Common Data Service platform.
 2. From a productivity area, select **Advanced Find**.</br>
    ![Click Advanced Find](../../unified-service-desk/media/advance-find-usd-gdpr-crm-server.PNG "Click Advanced Find")
 3. In the **Look for** list, select **UII Audit**.</br>
@@ -79,7 +69,7 @@ The default folder path is: </br>
 
 ## Telemetry data
 
-[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application collects telemetry data ([!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] application-specific information) that is maintained in Microsoft Dynamics 365 for Customer Engagement apps. In these cases, the natural or legal person, public authority, agency, or other body which, alone or jointly with others, becomes the controller, and the processor is Microsoft, which processes the data on behalf of the controller.
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application collects telemetry data ([!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] application-specific information) that is maintained in the Common Data Service platform. In these cases, the natural or legal person, public authority, agency, or other body which, alone or jointly with others, becomes the controller, and the processor is Microsoft, which processes the data on behalf of the controller.
 
 The category of telemetry that [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] collects are:
 
@@ -90,7 +80,7 @@ The category of telemetry that [!INCLUDE[pn_unified_service_desk](../../includes
 - Freeze or performance data
 - Session start and end data
 
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Microsoft Dynamics 365 for Customer Engagement apps and GDPR](https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/index)
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Microsoft Dynamics 365 and GDPR](https://docs.microsoft.com/dynamics365/get-started/gdpr/index)
 
 ## See also
 

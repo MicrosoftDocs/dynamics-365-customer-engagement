@@ -1,38 +1,35 @@
 ---
-title: "Learn the basics of Dynamics 365 for Sales Professional | MicrosoftDocs"
+title: "Get started using Dynamics 365 Sales Professional"
 description: "Get started with the Sales Professional app quickly by learning about the user interface and its components."
-keywords: ""
-ms.date: 04/05/2019
-ms.service:
+ms.date: 12/09/2019
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
-ms.assetid: 95278663-cbc1-4c6b-b694-ac345bd7283b
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
 ---
 
-# Learn the basics of Dynamics 365 for Sales Professional
+# Get started using Dynamics 365 Sales Professional
 
-Start here to onboard quickly and learn about the Sales app and its user interface.
+Start here to onboard quickly and learn about the Sales Professional app and its user interface.
 
 ## Go to the Sales Professional app
 
 1.  Sign in to Office 365, select the Office 365 app launcher, and then select **Dynamics 365**.
 
-    ![Office 365 App Launcher pane](media/office365-app-launcher-pane.png "Office 365 App Launcher pane")
+    > [!div class="mx-imgBorder"]
+    > ![Office 365 App Launcher pane](media/office365-app-launcher-pane.png "Office 365 App Launcher pane")
 
     >[!NOTE]
     >The selection of apps available to you in the app launcher will depend on your subscription.
 
 2.  On the Dynamics 365 home page, select **Sales Professional**.
 
-    ![Tile for Dynamics 365 for Sales Professional](media/sales-professional-app-tile.png "Tile for Dynamics 365 for Sales Professional")
+    > [!div class="mx-imgBorder"]
+    > ![Tile for Dynamics 365 Sales Professional](media/sales-professional-app-tile-updated.png "Tile for Dynamics 365 Sales Professional")
 
 ## Find your way around the app
 
@@ -45,6 +42,14 @@ access to tools that help you manage your deals, such as a guided task flow that
 
 ![Search, task flow, Quick create, Advanced Find, Personal options, and Help menu on the nav bar](media/options-on-nav-bar.png "Search, task flow, Quick create, Advanced Find, Personal options, and Help menu on the nav bar")
 
+> [!div class="mx-imgBorder"]
+> ![Command bar item 1](../sales-enterprise/media/number-1.png "Command bar item 1") **Search** customer data.  
+![Command bar item 2](../sales-enterprise/media/number-2.png "Command bar item 2") Run a **task flow** for step-by-step walkthroughs of common tasks, such as updating customers' contact info or managing appointments.  
+![Command bar item 3](../sales-enterprise/media/number-3.png "Command bar item 3") **Quickly create** customer data by filling in a minimum number of fields.  
+![Command bar item 4](../sales-enterprise/media/number-4.png "Command bar item 4") With **Advanced Find**, find the records that you need ot export them to Excel to analyze, summarize or aggregate data.  
+![Command bar item 5](media/number-5.png "Command bar item 5") **Set personal preferences** and access privacy statement.  
+![Command bar item 6](media/number-6.png "Command bar item 6") Get **help**.  
+
 
 ### Site map on the side
 
@@ -52,6 +57,12 @@ Select the Site map icon to see a list of all your options in one place, includi
 calendar, and settings. You’ll also find quick access to any favorite customers you’ve pinned and to your recent work, so you don’t have to waste time backtracking.
 
 ![Site map showing links to the recent and pinned items, sales records, sales settings, and area switcher](media/items-on-menu.png "Site map showing links to the recent and pinned items, sales records, sales settings, and area switcher")
+
+![Menu item 1](../sales-enterprise/media/number-1.png "Menu item 1") Open or collapse the site map.  
+![Menu item 2](../sales-enterprise/media/number-2.png "Menu item 2") Access the recent items you've worked on or the customers you've pinned.  
+![Menu item 3](../sales-enterprise/media/number-3.png "Menu item 3") Access everything that you need to communicate with customers, manage your sales-related records, and so on..  
+![Menu item 4](../sales-enterprise/media/number-4.png "Menu item 4") Go to **Sales Settings**.  
+![Menu item 5](media/number-5.png "Menu item 5") Switch between **Sales** and **Training** area.  
 
 ## Understand the data in the app
 
@@ -73,7 +84,7 @@ With Quick Create, you need to complete only a few fields. Later, when you have 
 2.  Fill in the fields, and then select **Save**.
 
 
-## Business processes in Dynamics 365 for Sales Professional
+## Business processes in Dynamics 365 Sales Professional
 
 Business processes help everyone follow best practices, even when handling situations that don’t occur very often. You complete a step by entering data or
 marking the step completed in the process bar at the top of the screen. When all the steps are done, you can move on to the next stage.
@@ -89,5 +100,5 @@ The following ready-to-use business processes are available that you can use as 
 
 ### See also
 
-[Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md)
+[Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)
 

@@ -2,7 +2,7 @@
 title: "3D models for Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 06/12/2019
+ms.date: 07/17/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -27,7 +27,7 @@ search.app:
 
 # 3D models for Field Service
 
-Dynamics 365 for Field Service allows organizations to upload 3D models for field technicians to reference in the field. Typically a 3d model relates to a specific product or customer asset and helps field technicians with equipment repair and other tasks. As opposed to recording videos or writing long manuals, field service organizations can leverage pre-existing 3D models to generate what are effectively 3D knowledge articles.
+Dynamics 365 Field Service allows organizations to upload 3D models for field technicians to reference in the field. Typically a 3d model relates to a specific product or customer asset and helps field technicians with equipment repair and other tasks. As opposed to recording videos or writing long manuals, field service organizations can leverage pre-existing 3D models to generate what are effectively 3D knowledge articles.
 
 You can configure 3D models by using an N:N relationship between the 3D model and customer asset entities, which enables 3D models to be associated with customer assets.
 
@@ -35,7 +35,7 @@ In this topic, we'll walk through how to associate a 3D model record with a cust
 
 ## Prerequisites
 
-- Dynamics 365 for Customer Engagement v9.0+ 
+- Dynamics 365 v9.0+ 
 - Field Service v8.0+
 - Ensure the **3D Viewer** solution is installed in **Settings** > **Customizations**
 - Increased storage for large 3D file sizes. You can do this by increasing attachment file size limit in Dynamics 365 administration, or by using Azure Blob storage.
@@ -135,7 +135,7 @@ Now that the 3D model is associated to a customer asset and viewable from the we
 > [!div class="mx-imgBorder"]
 > ![Screenshot of three dimensional model entity](media/mobile-3d-entity.png)
  
-5.	Check the **File Type**, **File URL**, and **Storage Type** boxes.
+5.	Check the **File Type**, **File URL**, and **Storage Type** boxes to enable those fields for mobile.
 6.	Select **Save**.
 
 > [!div class="mx-imgBorder"]
@@ -162,7 +162,7 @@ Now that the 3D model is associated to a customer asset and viewable from the we
 > ![Screenshot of adding iframe](media/mobile-3d-add-iframe.png)
 
 
-14.	Give the Iframe a name and select **Browse**.
+14.	Name the Iframe. The name will appear at the top of the 3D Model. Then select **Browse**.
 15.	Select **viewer.html** and then **Ok**.
 
 > [!div class="mx-imgBorder"]
@@ -173,7 +173,26 @@ Now that the 3D model is associated to a customer asset and viewable from the we
 > [!div class="mx-imgBorder"]
 > ![Screenshot of iframe settings](media/mobile-3d-add-iframe-defaults.png)
 
-17.	**Save** and **Close** the form, then **Publish**.
+17.	**Save** and **Close** the form
+
+At this point the three-dimensional model is set up for mobile. Next, we'll need to make it viewable from the mobile customer asset form.
+
+18. Go to the customer asset entity and then the related form.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the mobile views, forms, and charts list.](media/3D-customer-asset-mobile-form-list.png)
+
+19.  Select **Add List** at the top, then choose **Unrelated Entity List**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the Unrelated Entity List option selected in the Add List menu](media/3D-customer-asset-mobile-form-add-models.png)
+
+20. Find the **Three-Dimensional Model** entity and select **OK**. This will ensure three-dimensional model records are accessible from the customer asset mobile form.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the 3D customer asset mobile form](media/3D-customer-asset-mobile-form-add-models-OK.png)
+
+21. **Save & Close** the from, then **Publish** the mobile project.
 
 The 3D model will now be viewable on the Field Service Mobile App by going to **Customer Assets** > **Three Dimensional Models**.
 
@@ -181,3 +200,4 @@ The 3D model will now be viewable on the Field Service Mobile App by going to **
 
 ## Additional notes
 - You can view 3D files on Field Service Mobile for Windows, iOS, and Android devices.
+- 3D models are viewable on Field Service Mobile in online and offline modes.

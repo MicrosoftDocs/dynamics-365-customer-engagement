@@ -1,18 +1,15 @@
 ---
-title: Navigate the service calendar (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Understand how to navigate the service calendar in Dynamics 365 for Customer Service
-keywords: Navigate the service calendar, service activity;
-ms.custom: dyn365-customerservice
-ms.date: 09/15/2017
-ms.service: dynamics-365-customerservice
-ms.topic: article
-ms.author: anjgup
+title: Navigate the service calendar (Dynamics 365 Customer Service) | MicrosoftDocs
+description: Understand how to navigate the service calendar in Dynamics 365 Customer Service
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
-author: anjgupta
-ms.assetid: 9b3b8279-47b2-47c6-b390-4af0289ceca1
+ms.date: 09/15/2017
+ms.topic: article
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -23,8 +20,6 @@ search.app:
 ---
 
 # Navigate the service calendar (Customer Service app)
-
-[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 In the Service calendar, you can do the following tasks and activities:  
   

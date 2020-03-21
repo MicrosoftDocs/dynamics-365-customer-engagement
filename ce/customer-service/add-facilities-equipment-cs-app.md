@@ -1,18 +1,15 @@
 ---
-title: Add facilities and equipment for service scheduling (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Know how to add facilities and equipment for service scheduling in Dynamics 365 for Customer Service
-keywords: Dynamics 365 for Customer Engagement; Customer Service; Service scheduling
-author: anjgupta
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
-ms.author: anjgup
+title: Add facilities and equipment for service scheduling (Dynamics 365 Customer Service) | MicrosoftDocs
+description: Know how to add facilities and equipment for service scheduling in Dynamics 365 Customer Service
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ms.date: 09/15/2017
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: dyn365-customerservice
-ms.assetid: f50d894b-1d7f-4305-9924-5957e78eed6c
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -24,12 +21,10 @@ search.app:
 
 # Add facilities and equipment for service scheduling (Customer Service app)
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
-
-Facilities and equipment are resources you’d use to perform services for your customers. Facilities can be physical spaces like service bays or conference rooms and equipment could be tools or other assets. Add these resources to [!INCLUDE[pn_dynamics-crm](../includes/pn-dynamics-crm.md)] to ensure optimal services to your customers.  
+Facilities and equipment are resources you’d use to perform services for your customers. Facilities can be physical spaces like service bays or conference rooms and equipment could be tools or other assets. Add these resources to Dynamics 365 Customer Service to ensure optimal services to your customers.  
 
 > [!IMPORTANT]
-> With the Customer Engagement apps version 9.1 release, the new Service Scheduling is now available in the Customer Service Hub sitemap. We recommend that you create facilities and equipments using the new experience. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add facilities and equipments to schedule service](add-facilities-equipment-ss-csh.md)
+> With the latest version of Dynamics 365 Customer Service app release, the new Service Scheduling is now available in the Customer Service Hub sitemap. We recommend that you create facilities and equipments using the new experience. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add facilities and equipments to schedule service](add-facilities-equipment-ss-csh.md)
   
 ## Add a facility or equipment  
   
@@ -55,7 +50,7 @@ Facilities and equipment are resources you’d use to perform services for your 
   
     - **Name**. Enter the name of the facility or equipment you want to add for service scheduling.  
   
-    - **Business Unit**. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] enters the business unit automatically. To select a different business unit, select the **Lookup** button ![Lookup button](../customer-service/media/crm-ua-lookup-v4.gif "Lookup button") and then select from the list.  
+    - **Business Unit**. Dynamics 365 Customer Service enters the business unit automatically. To select a different business unit, select the **Lookup** button ![Lookup button](../customer-service/media/crm-ua-lookup-v4.gif "Lookup button") and then select from the list.  
   
     - **Site**. Select the location where the facility or equipment is located.  
   

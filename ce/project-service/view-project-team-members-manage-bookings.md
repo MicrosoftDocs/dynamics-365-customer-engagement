@@ -1,5 +1,5 @@
 ---
-title: View project team members and manage bookings (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: View project team members and manage bookings 
 description: How to view project team members and manage bookings in Project Service
 author: JohnPBurrows
 manager: kfend

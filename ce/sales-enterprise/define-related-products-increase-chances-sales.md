@@ -1,30 +1,18 @@
 ---
-title: "Define related products to increase sales (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "Improve your opportunities to increase sales by adding related products as suggestions for up-sell, cross-sell, accessories, or substitutes in Dynamics 365 for Sales."
-keywords: Related product
-ms.date: 04/01/2018
-ms.service:
-  - dynamics-365-sales
-ms.custom:
-  - dyn365-sales
+title: "Define related products to increase sales (Dynamics 365 Sales) | MicrosoftDocs"
+description: "Improve your opportunities to increase sales by adding related products as suggestions for up-sell, cross-sell, accessories, or substitutes in Dynamics 365 Sales."
+ms.date: 10/01/2019
+ms.service: 
+  - "dynamics-365-sales"
+ms.custom: 
+  - "dyn365-sales"
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
-ms.assetid: feff6902-ef54-47ff-a13f-e5edc213adb0
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 18
-topic-status: Drafting
 ---
 
-# Define related products to increase sales (Sales)
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+# Define related products to increase sales
 
 Improve your opportunities to increase sales by adding related products as suggestions for up-sell, cross-sell, accessories, or substitutes. Defining related products will help your sales agents with their recommendations to customers. You can add related products to a product or product bundle, but not to product families.  
   
@@ -34,19 +22,21 @@ Improve your opportunities to increase sales by adding related products as sugge
 
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
   
-2. Select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Products**. 
+2. Select the site map ![Site Map icon](media/site-map-icon.png "Site map icon"), then select **App Settings**, and then select **Families and Products**.
 
 3. Open a product you want to define related products for. The product must be in the **Draft**, **Active** or **Under Revision** state. 
 
-4. Select the **Related** tab, and then select **Relationships**.
+4. Select the **Related** tab, and then select **Product Relationships**.
 
-    ![Relationships option on the Related tab](media/relationships-option-in-related-tab.png "Relationships option on the Related tab")
+    > [!div class="mx-imgBorder"]
+    > ![Relationships option on the Related tab](media/relationships-option-in-related-tab.png "Relationships option on the Related tab")
 
-    On the **Relationships** tab, you’ll see the list of products if the product has existing related products.
+    On the **Product Relationships** tab, you’ll see the list of products if the product has existing related products.
 
-5. Select **Add New Product Relationship**. 
+5. Select **New Product Relationship**. 
  
-    ![Add New Product Relationship button on the Relationships tab](media/relationships-tab.png "Add New Product Relationship button on the Relationships tab")
+    > [!div class="mx-imgBorder"]
+    > ![Add New Product Relationship button on the Relationships tab](media/relationships-tab.png "Add New Product Relationship button on the Relationships tab")
 
 6. In the **New Product Relationship** form, enter the following details: 
 
@@ -86,7 +76,7 @@ Improve your opportunities to increase sales by adding related products as sugge
   
    When you add a product to an opportunity, the sales agents can see the related product as suggestions for an opportunity. The **Suggestions** dialog box on the opportunity record suggests only those products that are related to the main product and have the same price list as the one associated with the opportunity.  
   
-   ![Product suggestions an opportunity in Dynamics 365 for Sales](../sales-enterprise/media/v7-product-suggestions.png "Product suggestions an opportunity in Dynamics 365 for Sales")  
+   ![Product suggestions an opportunity in Dynamics 365 Sales](../sales-enterprise/media/v7-product-suggestions.png "Product suggestions an opportunity in Dynamics 365 Sales")  
   
 ## Typical next steps  
  ![Right arrow button](../sales-enterprise/media/walkthrough-orange-right-arrow.png "Right arrow button") [Publish a product or bundle to make it available for selling](../sales-enterprise/publish-product-bundle-make-available-selling.md)  

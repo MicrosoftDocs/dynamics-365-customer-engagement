@@ -1,30 +1,20 @@
 ---
-title: "Unified Service Desk for Dynamics 365 for Customer Engagement apps system requirements | MicrosoftDocs"
-description: "Describes the supported dependent and optional components you need to install and use Unified Service Desk for Dynamics 365 for Customer Engagement apps. "
-keywords: 
+title: "Unified Service Desk  system requirements | MicrosoftDocs"
+description: "Describes the supported dependent and optional components you need to install and use Unified Service Desk."
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 ms.date: 01/25/2019
-ms.service:
+ms.service: 
   - dynamics-365-customerservice
-ms.custom:
-  - dyn365-USD, dyn365-admin
 ms.topic: get-started-article
-applies_to:
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: 8a0e7dc4-5d32-412a-ae72-b6ce010c1c85
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 ---
 
 # Requirements
-This topic provides information about the system requirements for installing the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application and deploying the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample applications on a [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps instance.  
+This topic provides information about the system requirements for installing the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application and deploying the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample applications on the Common Data Service platform instance.  
 
 <a name="hardware"></a>   
 ## Hardware requirements for the Unified Service Desk client  
@@ -71,7 +61,7 @@ Supported Unified Service Desk versions are:
 
 
 > [!Note]
-> If you are using older versions, we recommend upgrading to the latest version of Unified Service Desk and Microsoft Dynamics 365 for Customer Engagement.
+> If you are using older versions, we recommend upgrading to the latest version of Unified Service Desk and Dynamics 365 Customer Service.
 
 
 <a name="packdeploy"></a>   
@@ -88,7 +78,7 @@ Supported Unified Service Desk versions are:
 
 ## Impact of Unified Interface Only availability with Unified Service Desk
 
-You have deployed Unified Service Desk in a Customer Engagement Sandbox environment and when you reset the sandbox environment, you will have only the Unified Interface experience. To enable the Web Client experience, set **No** for the **Use the new Unified Interface Only** option in the system settings. More information: [How to enable/disable Unified Interface Only mode](/dynamics365/customer-engagement/admin/enable-unified-interface-only#how-to-enable-unified-interface-only-mode).
+You have deployed Unified Service Desk in a sandbox environment and when you reset the sandbox environment, you will have only the Unified Interface experience. To enable the Web Client experience, see [How to enable/disable Unified Interface Only mode](/dynamics365/customer-engagement/admin/enable-unified-interface-only#how-to-enable-unified-interface-only-mode).
 
 After you enable the Web Client experience, go to the Window Navigation Rules and update the navigation URLs for the all the rules.
 
@@ -100,5 +90,5 @@ After you enable the Web Client experience, go to the Window Navigation Rules an
 
 ## See also  
  [Install Unified Service Desk Client](../../unified-service-desk/admin/install-upgrade-unified-service-desk-client.md)   
- [Deploy Unified Service Desk packages to Dynamics 365 for Customer Engagement server using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)   
+ [Deploy Unified Service Desk packages to a Common Data Service platform using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)   
  [Install and Deploy Unified Service Desk](../../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)

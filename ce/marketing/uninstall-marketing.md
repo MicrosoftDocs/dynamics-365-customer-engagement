@@ -1,21 +1,18 @@
 ---
-title: "Uninstall Dynamics 365 for Marketing (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "How to remove Dynamics 365 for Marketing from a Dynamics 365 instance"
+title: "Uninstall Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
+description: "How to remove Dynamics 365 Marketing from a Dynamics 365 instance"
 keywords: uninstall;solutions;administration;instances
-ms.date: 06/11/2019
+ms.date: 02/10/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 76871891-d62c-4496-81f6-60b31bf5e3e6
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
-topic-status: Drafting
+topic-status:
 search.audienceType: 
   - admin
   - customizer
@@ -25,146 +22,48 @@ search.app:
   - D365Mktg
 ---
 
-# Uninstall Marketing
+# Uninstall Dynamics 365 Marketing
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
-You can remove [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] from any [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] instance where you have installed it. After removing it, you'll end up with a free [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] entitlement (license) that you can install on another [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] instance if needed.
-
-The uninstall process has two steps:
-
-1. Uninstall the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] services by running the uninstall wizard.
-1. Clean up the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] solutions in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)].
-
-> [!IMPORTANT]
-> Before uninstalling Dynamics 365 for Marketing from an instance, you should be sure that you won't want to reinstall it on that instance again because problems can occur on reinstall. Before you can reinstall Marketing onto an instance where it was previously uninstalled, you must do one of the following:
-> 
-> - [Reset the instance](../admin/manage-sandbox-instances.md#BKMK_Reset) before starting to reinstall Marketing (sandbox instances only).
-> - If a reset isn't possible, then please [contact Microsoft Support](setup-troubleshooting.md#contact-support) before attempting to reinstall Marketing.
+You can remove the Marketing application from any Dynamics 365 instance where it's installed. After removing it, you'll end up with a Marketing license that you can use on another Dynamics 365 instance, if desired.
 
 
-## Uninstall the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] services
-The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] uninstall wizard manages most of the uninstall process. It:
+## Uninstall Dynamics 365 Marketing services
 
-- Removes all [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)], event management, and [!INCLUDE[cc-linkedin-solution](../includes/cc-linkedin-solution.md)] services from your [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] application server.
-- Removes your marketing insights service and its data.
-- Turns off user syncing from [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] for [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]-only users.
-- Frees your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] entitlement (license) for use with another [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] instance if needed.
+
+The Marketing uninstall wizard handles most of the uninstall process. The uninstall wizard:
+
+- Removes all services for Marketing, event management, and Dynamics 365 Connector for LinkedIn Lead Gen Forms 
+- Removes the marketing insights service and its data
+- Turns off user syncing from Office 365 for Dynamics 365 Marketing users
+- Frees your Dynamics 365 Marketing license for use with another Dynamics 365 instance
+
+> [!NOTE]
+> If you want to release your Marketing entitlement to use on a different instance, you do not need to uninstall any of the Marketing solutions.
 
 To run the uninstall wizard:
 
-1. If you have sample data installed, remove it. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Manage sample data](additional-settings.md).
+1. If you have sample data installed, remove it. More information: [Manage sample data](additional-settings.md).
 
-1. [Launch the Marketing setup wizard](re-run-setup.md) for the instance you want to uninstall Marketing from. Make sure the correct instance (organization) is shown.
+1. [Run the Marketing setup wizard](re-run-setup.md) for the instance where you want to uninstall the Marketing application. Make sure the correct instance is listed.
 
     ![Setup wizard for an existing instance with portal integration](media/fre-re-run.png "Setup wizard for an existing instance with portal integration")
 
 1. From the **Other actions** panel, choose **Uninstall Marketing from this org**.
 
+1. Follow the on-screen instructions to confirm and complete the uninstall.
 
+<a name="reset-portal"></a>
 
-1. Follow the instructions on your screen to confirm and complete the uninstall.
+## Reset any Dynamics 365 Portals connected to the uninstalled Marketing app
 
-## Remove [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] solutions in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]
-The uninstall wizard removes the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] services from your [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] server, but it leaves several solutions on your instance. You should clean these up to help keep your instance lean and running smoothly.
+If the Dynamics 365 Marketing instance that you are uninstalling was connected to a Dynamics 365 Portal (for example to run marketing pages or the events website), then you need to reset the portal to release its license. After the reset, the portal still shows as configured in the Dynamics 365 admin center, but you'll be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored instance.
 
-### Step 1: Stop all live entities and remove data dependencies
+Portals are optional, so you might not have one connected to your Marketing instance. More information: [Integrate Marketing with a CMS system or Dynamics 365 Portal](portal-optional.md)
 
-Before you remove any solutions, start by stopping all live entities, including:
+To reset a portal:
 
-- Customer journeys
-- Marketing email messages
-- Marketing pages
-- Content settings
-- Lead-scoring models
-- Segments
-
-Customer journeys can introduce data dependencies if they include launch-workflow and/or updated-record tiles. These dependencies may prevent you from uninstalling one or more solutions. To remove these:
-
-- Delete all customer journeys that you can (you may be prevent from deleting journeys in any state other than **Draft**)
-- If you have any customer journeys that you can't delete, do one of the following:
-  - Wait for the journeys to transition into the **Expired** state (this will happen automatically 30 days after your stop them) and then delete them.
-  - If you don't have any updated-record tiles left in any of your journeys, then you can proceed without deleting the rest of your journeys provided you do delete all workflows that are referenced by launch-workflow tiles in your remaining journeys.
-- If you've customized your instance by adding any of the custom controls provided by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] (such as the marketing calendar) to other entities, then remove these cusomizations.
-
-### Step 2: Remove the solutions
-
-> [!NOTE]
-> The following procedure lists the uninstall order for solutions that are included in the latest version of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. If you are uninstalling an earlier version, then just skip over any solution listed here that you don't see on your installation.
-
-To remove the solutions:
-
-1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
-
-1. Navigate to **Settings** > **Customization** > **Solutions** to manage your installed solutions.
-
-1. Find each of the following solutions and remove them, one at a time, in the order listed here. (Some of the items listed may not be present on your instance, so just skip these.) To remove a solution, select its check box, and then select **Delete** on the command bar. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Install, update, or remove a preferred solution](../admin/install-remove-preferred-solution.md)
-
-    - PackageUpgradeSolution_managed
-    - PersonalizedPagesSolutionManagedPatch
-    - PersonalizedPagesSolutionManaged
-    - SocialPostingManagedPatch
-    - SocialPostingManaged
-    - MarketableContactsManagedPatch
-    - MarketableContactsManaged
-    - VocIntegrationSolutionManagedPatch
-    - VocIntegrationSolutionManaged
-    - EventMgmtVOCLinkSolution_managedPatch
-    - EventMgmtVOCLinkSolution_managed
-    - MktVoCLinkSolutionManagedPatch
-    - MktVoCLinkSolutionManaged
-    - MktPortalsLinkManagedPatch
-    - MktPortalsLinkManaged
-    - EventPortalLinkSolution_managedPatch
-    - EventPortalLinkSolution_managed
-    - GwennolSegmentBoosterSolutionManaged
-    - GwennolFeatureConfigurationSolutionManagedPatch
-    - GwennolFeatureConfigurationSolutionManaged
-    - GwennolSpamScoreSolutionManagedPatch
-    - GwennolSpamScoreSolutionManaged
-    - GwennolOESTPredictionSolutionManagedPatch
-    - GwennolOESTPredictionSolutionManaged
-    - GwennolOptimalEmailSendingTimeSolutionManagedPatch
-    - GwennolOptimalEmailSendingTimeSolutionManaged
-    - SMBMarketingIntegrationSolutionManagedPatch
-    - SMBMarketingIntegrationSolutionManaged
-    - SocialEngagementSolutionManagedPatch
-    - SocialEngagementSolutionManaged
-    - LinkedInMatchedAudiences_managedPatch
-    - LinkedInMatchedAudiences_managed
-    - LinkedInLGLink_managedPatch
-    - LinkedInLGLink_managed
-    - GdprConsentManagementManagedPatch
-    - GdprConsentManagementManaged
-    - QuotaInfoSolutionManagedPatch
-    - QuotaInfoSolutionManaged
-    - MarketingPageTemplatesSolutionManagedPatch
-    - MarketingPageTemplatesSolutionManaged
-    - MktEvtMgmtLinkSolutionManagedPatch
-    - MktEvtMgmtLinkSolutionManaged
-    - LinkedInLeadGen_managedPatch
-    - LinkedInLeadGen_managed
-    - LeadManagementSolutionManagedPatch
-    - LeadManagementSolutionManaged
-    - EmailTemplatesSolutionManagedPatch
-    - EmailTemplatesSolutionManaged
-    - DynamicsMarketingSolutionManagedPatch
-    - DynamicsMarketingSolutionManaged
-    - DynamicsEventManagementSolution_managedPatch
-    - DynamicsEventManagementSolution_managed
-    - ContentBlocksSolutionManagedPatch
-    - ContentBlocksSolutionManaged
-    - DigitalAssetsSolutionManagedPatch
-    - DigitalAssetsSolutionManaged
-    - CalendarSolutionManagedPatch
-    - CalendarSolutionManaged
-    - MktCompleteAnchorSolutionManaged
-
-1. If you see any other "anchor" solutions that start with "MicrosoftDynamics_", then you can delete these too. They are probably left over from an earlier version that you upgraded.
-
-1. If you're no longer using the [!include[](../includes/cc-linkedin-solution.md)], then also remove the LinkedInLeadGenIntegration solution.
-
-1. If you're no longer using portal or [!INCLUDE[pn-voice-of-the-customer](../includes/pn-voice-of-the-customer.md)] functionality, you can also delete their related solutions.
+1. Follow the instructions provided in [Reset a portal](../portals/reset-portal.md).
+1. Portal reset leaves behind its website bindings, which may prevent you from reusing your portal name. Therefore, you should always delete all website bindings that are related to the portals used by your uninstalled Marketing instance. More informatation: [Create and manage website bindings](../portals/website-bindings.md)
 
 ### See also
 

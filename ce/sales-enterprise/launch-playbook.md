@@ -1,30 +1,19 @@
 ---
-title: "Launch a playbook to carry out activities consistently (Dynamics 365 for Sales) | MicrosoftDocs"
+title: "Launch a playbook to carry out activities consistently (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Playbooks lets you consistently perform recurrent business processes such as a sales process."
-keywords: "playbook, launch, run, report"
 ms.date: 02/20/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
-ms.assetid: 7af39c5d-fc85-4dcd-9744-15baa3e8cdf8
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-topic-status: Tech Reviewing
 ---
 
 
 # Launch a playbook to carry out activities consistently
-
-Applies to Dynamics 365 for Customer Engagement apps version 9.x
 
 To ensure consistency in your business process or to know what steps to follow in certain scenarios or events, rely on the playbooks prepared by your managers that guide you with the actions you can take. Playbooks can also contain best practices based on practices that have worked in similar situations before.
 
@@ -34,7 +23,8 @@ To ensure consistency in your business process or to know what steps to follow i
 
 3.  On the command bar, select **Launch playbook**.
 
-     ![launch playbook button on opportunity record](media/launch-playbook-button-opportunity.png "Launch playbook button on opportunity record")  
+     > [!div class="mx-imgBorder"]
+     > ![launch playbook button on opportunity record](media/launch-playbook-button-opportunity.png "Launch playbook button on opportunity record")  
 
     > [!NOTE]
     > The **Launch playbook** button appears on an entity form only when there’s at least one published playbook template for that entity. If you do not see this button, talk to your playbook manager.

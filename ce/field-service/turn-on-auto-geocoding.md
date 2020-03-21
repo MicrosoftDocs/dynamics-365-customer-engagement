@@ -1,22 +1,19 @@
 ---
-title: "Turn on auto geocoding (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Turn on auto geocoding (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
-ms.reviewer: 
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.technology: 
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: 74e7dc26-094a-45fe-8da8-eae407978bfa
 caps.latest.revision: 18
-ms.author: krbjoran
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin
@@ -28,9 +25,7 @@ search.app:
 ---
 # Turn on auto geocoding to calculate estimated travel time (Field Service)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
-With Dynamics 365 for Customer Engagement for [!INCLUDE[pn_field_service](../includes/pn-field-service.md)], it's important to geocode each service account record with latitude and longitude values so that when you generate work orders for that service location, the work order inherits the coordinates and the system can calculate estimated travel time when attempting to schedule the work order to a resource.  
+With Dynamics 365 for [!INCLUDE[pn_field_service](../includes/pn-field-service.md)], it's important to geocode each service account record with latitude and longitude values so that when you generate work orders for that service location, the work order inherits the coordinates and the system can calculate estimated travel time when attempting to schedule the work order to a resource.  
   
  When you turn on the auto geocode system setting, the system will attempt to automatically add the appropriate latitude and longitude values based on the account's address.  
   
@@ -75,7 +70,7 @@ With Dynamics 365 for Customer Engagement for [!INCLUDE[pn_field_service](../inc
 4. On the map dialog box, make sure you have the correct address, and then click **Change**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with accounts and contacts](../basics/accounts-contacts.md)  
   
 ### See also   
- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
+ [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
  [Install](../field-service/install-field-service.md)   
  [Configure default settings](../field-service/configure-default-settings.md)   
  [View user accounts and security roles](../field-service/view-user-accounts-security-roles.md)<br>

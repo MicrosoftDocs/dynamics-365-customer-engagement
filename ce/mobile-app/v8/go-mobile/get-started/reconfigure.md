@@ -1,15 +1,15 @@
 ---
 title: "Reconfigure Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: 
-ms.date: 2016-11-01
+ms.date: 10/07/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement apps (on-premises)
+  - Dynamics 365 apps
+  - Dynamics 365 apps (on-premises)
   - Dynamics CRM 2016
   - Dynamics CRM Online
 author: mduelae
@@ -27,8 +27,6 @@ search.app:
 ---
 # Reconfigure Dynamics 365 for phones and tablets
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
-
 ## Reconfigure the Dynamics 365 for tablets app  
  Reconfiguring deletes all data and metadata from the cache, though you shouldn't rely on this as a security measure.  
   
@@ -36,7 +34,7 @@ search.app:
   
  Here's how to do it:  
   
-1. Tap ![Dynamics 365 for Customer Engagement apps ellipsis](../../../media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis").  
+1. Tap ![Dynamics 365 apps ellipsis](../../../media/mobile-ellipsis.png "Dynamics 365 apps ellipsis").  
   
 2. Tap **Settings**.  
   

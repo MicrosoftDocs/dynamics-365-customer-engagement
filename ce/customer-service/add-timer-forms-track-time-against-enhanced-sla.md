@@ -1,18 +1,15 @@
 ---
-title: Add a timer in forms to track time against enhanced SLAs (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Understand the procedure to add a timer in forms to track time against enhanced SLAs in Dynamics 365 for Customer Service
-keywords: Timer; Forms; Dynamics 365 for Customer Engagement; Customer Service; Enable an entity for SLA; Create an SLA; Add a timer in forms to track time against enhanced SLAs
-author: anjgupta
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
-ms.author: anjgup
+title: Add a timer in forms to track time against enhanced SLAs (Dynamics 365 Customer Service) | MicrosoftDocs
+description: Understand the procedure to add a timer in forms to track time against enhanced SLAs in Dynamics 365 Customer Service
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 06/01/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.assetid: a120e3f0-ee22-4d16-8029-0362447bbbd9
-ms.custom: dyn365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -23,8 +20,6 @@ search.app:
 ---
 
 # Add a timer in forms to track time against enhanced SLAs
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 A timer helps users gauge the amount of time they have to complete a key performance indicator (KPI) that is typically associated with a service level agreement (SLA). If your organization uses enhanced SLAs, you must use quick view forms to add a timer to track time against such SLAs.  
   
@@ -147,13 +142,13 @@ There are a few steps to follow to add a timer to track time against enhanced SL
   
 4. In the solution explorer, in the left nav pane, expand **Entities**, expand the entity you want to add the quick view form to, and then click **Forms**.  
   
-5. To add the timer to use in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], open the form of type **Main**.  
+5. To add the timer to use in the Dynamics 365 Customer Service app, open the form of type **Main**.  
   
     -OR-  
   
     To add the timer to the interactive experience form so users can use it in the interactive service hub, open the form of type **Main – Interactive experience**  
   
-6. Add a section to insert the quick view control. On  the **Insert** tab, in the **Section** group, click **Section**, and then click **One Column**.   Double-click the section to specify the section properties. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Section properties](../customize/section-properties-legacy.md).  
+6. Add a section to insert the quick view control. On  the **Insert** tab, in the **Section** group, click **Section**, and then click **One Column**.   Double-click the section to specify the section properties. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Section properties](../customerengagement/on-premises/customize/section-properties-legacy.md).  
   
    > [!NOTE]
    >  You can't add an SLA timer to the reference panel section of the Main - Interactive experience form.  

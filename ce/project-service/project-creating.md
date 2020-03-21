@@ -1,6 +1,6 @@
 ---
 title: Project schedules 
-description: This topic provides information about how to create a schedule in Dynamics 365 for Project Service Automation.
+description: This topic provides information about how to create a schedule.
 author: ruhercul
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-A project schedule communicates what work must be completed, which resources will do the work, and the timeframe that the work must be finished in. It reflects all the work that is associated with delivering the project on time. In Microsoft Dynamics 365 for Project Service Automation, you create a project schedule by breaking the work down into manageable tasks, estimating the time that is required to do each task, setting task dependencies, setting task durations, and estimating the generic resources that will do the tasks. The project schedule is created on the **Schedule** tab of the project page.
+A project schedule communicates what work must be completed, which resources will do the work, and the timeframe that the work must be finished in. It reflects all the work that is associated with delivering the project on time. In Dynamics 365 Project Service Automation, you create a project schedule by breaking the work down into manageable tasks, estimating the time that is required to do each task, setting task dependencies, setting task durations, and estimating the generic resources that will do the tasks. The project schedule is created on the **Schedule** tab of the project page.
  
 ## Tasks
 

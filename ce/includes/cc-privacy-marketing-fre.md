@@ -1,60 +1,33 @@
-By enabling [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] you agree to allow flow of the data from [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] to certain [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] services to perform some of the marketing processes. These services are collectively referred to as "[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] services" and "customer-insights services," respectively.
+For information about how Microsoft processes personal data, please refer to the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
 
-To implement customer journeys, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] must send customer journey, email, submission-form, and marketing-page definitions to the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] services running on [!INCLUDE[pn_azure_service_fabric](../includes/pn_azure_service_fabric.md)]. Marketing pages are further sent to a customer's own instance of Portal capabilities for [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)].
+For information about where your Microsoft Dynamics 365 Marketing data is stored, please refer to the [Trust Center](https://www.microsoft.com/TrustCenter/Privacy/dynamics365-marketing).
 
-To personalize sent emails [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] must enable data flow to and from the customer-insights services. Please see below for more information about the customer-insights services. Data flow to customer-insights services includes synchronization of contacts, accounts, and possibly other entities enabled by the customer. [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] services uses this data to personalize email content. The data that is included depends exclusively on the email definition.
+### Microsoft Azure services
+Microsoft Dynamics 365 Marketing leverages certain Microsoft Azure services.  Enabling Dynamics 365 Marketing allows your data to flow to the Azure services to perform some of the marketing processes.
 
-To calculate lead score models and marketing segments, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] must send lead score model definitions and segment definitions to the customer-insights services and to leverage profiles and interactions stored in the customer-insights services within these calculations.
+For more information about Azure service offerings, see the [Azure Trust Center](https://azure.microsoft.com/overview/trusted-cloud/).
 
-To provide insights into the email and Internet interactions captured by [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] services, the collected data flows from [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] services to both [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and  the customer-insights services.
+### Custom schema and display names
 
-If the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] Event Management integration is also enabled, then the customer-insights services synchronize events (directly), and event registrations and check-ins (via [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] services, as interactions).
+Custom schema and display names for fields, entities, relations, attributes, and other elements in Dynamics 365 Marketing may be referenced by other object definitions, and can also get shared through various other channels that are outside your designated geographic location (geo) as described in the [Trust Center](https://www.microsoft.com/TrustCenter/Privacy/dynamics365-marketing) and the [Microsoft Online Services Terms](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46&ShowArchived=true).  However, the data entered for these elements will not be transferred outside your geo.
 
-Data flows involving the customer-insights services include the following:
+For example, you could use the customization capabilities of Dynamics 365 Marketing to create a new entity that includes a new field, as shown in the following table.  In this case, the texts shown in the **Schema name** and **Display name** columns could be referenced by other object definitions and could also be shared through various other channels that are outside your geo.  However, field values for specific records (as shown in the **Value** column) will remain within your geo.
 
-- Entity data from [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to the customer-insights services ( using the regular inbound connector for customer-insights services) to provide content for email personalization, lead scoring, and segmentation (mainly contacts and accounts, but eventually also leads and events)
-- Entity data from [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] via [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] services to the customer-insights services, to provide identifiers for interactions and insights (customer journey, marketing emails, marketing pages)
-- Interactions from [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] services to the customer-insights services  (email tracking, website tracking, customer journey progress)
-- Interactions from [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] via [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] services to  the customer-insights services (event registrations and check-ins)
-- Insights (interactions and KPIs) from the customer-insights services to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] (mainly customer journey and email send progress, and lead scoring results)
-- Customer-insights apps (segmentation and widgets) from the customer-insights services directly into dedicated and sandboxed UI elements in forms of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
+|  | Schema name | Display name | Value |
+|---|---|---|---|
+| New entity | Solution1_promotion | Promotion | (n/a) |
+| New field | Solution1_Promtion.name | Name | Spring 2019 Promotion |
 
-### Marketing services
+> [!IMPORTANT]
+> Do not enter information for your custom schema and/or display name that you do not want stored outside your geo.
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses these Azure services:
+### Other examples of when you take responsibility for data flows
 
-- Azure Data Lake Store
-- Azure Data Lake Analytics
-- Azure Key Vault
-- Azure Service Fabric
-- Azure DocumentDB
-- Azure Active Directory
-- Azure Storage
+On your command, the following actions take customer content out of Dynamics 365 Marketing and you are responsible for where the data is directed and stored (including outside your geo location):
 
-> [!NOTE]
-> For more information about additional Azure service offerings, see the [!INCLUDE[cc_privacy_note_azure_trust_center](../includes/cc_privacy_note_azure_trust_center.md)] (<https://azure.microsoft.com/support/trust-center/>).
+- When you send email with customer content
+- When you use submissions forms and allow prefilling with customer content that will be displayed in the forms
+- When you configure marketing analytics connectors to copy interaction data to your own Azure storage
+- When you configure additional extension mechanics
 
-### Customer-insights services for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
-
-By using [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], you are activating the transfer of customer data into the customer-insights services for further processing. Your use of the customer-insights services might require compliance with specific privacy laws. Please direct any questions to the appropriate representative in your organization.
-
-The customer-insights services are natively built on Azure services, and respective compliance and security standards for each applicable Azure service apply. For more information, go to the [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] Trust Center: [https://azure.microsoft.com/support/trust-center/](https://azure.microsoft.com/support/trust-center/)
-
-The customer-insights services use these Azure services:
-
-- Azure Data Lake Store
-- Azure Data Lake Analytics
-- Azure HDInsight (Spark, Phoenix, HBase)
-- Azure SQL Database
-- Azure Key Vault
-- Azure Secret Store
-- Azure Event Hub
-- Azure Stream Analytics
-- Azure Redis Cache
-- Azure Service Fabric
-- Azure Active Directory
-- Azure Monitoring
-- Azure Metrics
-- Azure Websites
-- Azure Service Bus
-- Azure Storage
+For more information on data that will flow out of the Dynamics 365 Marketing system and your geo, please refer to the [Trust Center](https://www.microsoft.com/TrustCenter/Privacy/dynamics365-marketing) as well as the product documentation for the specific Dynamics 365 Marketing offering.

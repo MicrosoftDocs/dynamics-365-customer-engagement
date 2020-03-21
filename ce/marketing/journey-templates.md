@@ -1,17 +1,14 @@
 ---
-title: "Work with customer journey templates (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "How to save a customer journey as a template; create, edit, disable, enable, and delete new templates; and use templates to copy a customer journey in Dynamics 365 for Marketing"
+title: "Work with customer journey templates (Dynamics 365 Marketing) | Microsoft Docs"
+description: "How to save a customer journey as a template; create, edit, disable, enable, and delete new templates; and use templates to copy a customer journey in Dynamics 365 Marketing"
 ms.date: 03/08/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 33fddaa3-d345-4aa0-8d1d-a8a9bc3ce7dc
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -72,7 +69,7 @@ If you are planning for future, not yet existing, customer journeys, then you ca
 
 To create a template from scratch:
 
-1. Go to **Marketing** > **Templates** > **Customer journey templates**.
+1. Go to **Marketing** > **Marketing templates** > **Journey templates**.
 
 1. Select **New** on the command bar.
 
@@ -86,7 +83,7 @@ If you've got a template that you don't use anymore, then you can remove it from
 
 To edit or delete an existing template:
 
-1. Go to **Marketing** > **Templates** > **Customer journey templates**.
+1. Go to **Marketing** > **Marketing templates** > **Journey templates**.
 2. Find the template in the list that you want to delete or edit
       - To _delete_ a template, mark it in the list by selecting any part of the row other than the template name. Then select **Delete** on the command bar. The template is permanently deleted.
       - To _deactivate_ a template, mark it in the list by selecting any part of the row other than the template name. Then select **Deactivate** on the command bar. The template will no longer be shown in the gallery but can still be reactivated if you need it again.
@@ -94,7 +91,7 @@ To edit or delete an existing template:
 
 To reactivate an inactive template:
 
-1. Go to **Marketing** > **Templates** > **Customer journey templates**.
+1. Go to **Marketing** > **Marketing templates** > **Journey templates**.
 
 1. Open the system-view selector and switch to the **Inactive customer journey templates** view.
 

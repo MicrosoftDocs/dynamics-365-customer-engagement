@@ -1,6 +1,6 @@
 ---
 title: Product-based quote lines 
-description: This topic provides information about product-based quote lines in Dynamics 365 for Project Service Automation (PSA).
+description: This topic provides information about product-based quote lines.
 author: rumant
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -26,7 +26,7 @@ search.app:
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 
-Microsoft Dynamics 365 for Project Service Automation (PSA) uses the capabilities of the Microsoft Dynamics 365 product catalog to create product-based quote lines. Product-based quote lines can be "write-in" lines, or they can be items from the product catalog.
+You can create product-based quote lines in Dynamics 365 Project Service Automation. Product-based quote lines can be "write-in" lines, or they can be items from the product catalog.
 
 ## Product catalog
 
@@ -37,7 +37,7 @@ For example, a company sells subscription licenses for a variety of software. Al
 - Number of users 
 - Subscription duration (in months)
 
-A good way to maintain this type of catalog is to create a product family that is named **Subscription Software**, and that has **Number of users** and **Subscription duration** as attributes. You can then add individual products, such as **Dynamics 365 for Sales** or **Dynamics 365 for Field Service** to the **Subscription Software** product family.
+A good way to maintain this type of catalog is to create a product family that is named **Subscription Software**, and that has **Number of users** and **Subscription duration** as attributes. You can then add individual products, such as **Dynamics 365 Sales** or **Dynamics 365 Field Service** to the **Subscription Software** product family.
 
 ## Adding product catalog items to a project quote
 

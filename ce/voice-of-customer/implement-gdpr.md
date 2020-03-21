@@ -1,13 +1,10 @@
 ---
-title: "Implement General Data Protection Regulations in Voice of the Customer for Dynamics 365 for Customer Engagement | MicrosoftDocs"
-description: "Learn how to implement General Data Protection Regulations in Voice of the Customer for Dynamics 365 for Customer Engagement."
+title: "Implement General Data Protection Regulations in Voice of the Customer for Dynamics 365 | MicrosoftDocs"
+description: "Learn how to implement General Data Protection Regulations in Voice of the Customer for Dynamics 365."
 keywords: implement GDPR in Voice of the Customer,Voice of the Customer GDPR 
-ms.date: 11/30/2018
+ms.date: 07/01/2019
 ms.service: crm-online
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 689D3272-D2E5-4815-B723-6AE65BAA4838
 author: sbmjais
 ms.author: shjais
@@ -18,16 +15,19 @@ topic-status: Drafting
 
 # Implementing General Data Protection Regulations in Voice of the Customer
 
-The General Data Protection Regulation (GDPR) is a legal act of the European Union (EU), which protects data for all individuals within the EU. With GDPR, customers can control the use of their personal data in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+> [!IMPORTANT]
+> Voice of the Customer (VoC) is being deprecated and replaced with Microsoft Forms Pro. [Learn more](https://go.microsoft.com/fwlink/p/?linkid=2097704)
+
+The General Data Protection Regulation (GDPR) is a legal act of the European Union (EU), which protects data for all individuals within the EU. With GDPR, customers can control the use of their personal data in Dynamics 365.
 
 > [!NOTE]
 > - The Voice of the Customer solution will be GDPR compliant if:
   >   - Your organization's Dynamics 365 for Customer Engagement version is 8.2.x or higher and you have installed Voice of the Customer version 9.0.1113.10 and higher.
   >   - Your organization's Dynamics 365 for Customer Engagement version is 8.1.x and you have installed Voice of the Customer version 8.3.1140.2 and higher.
 > - Installing GDPR compliant Voice of Customer solution does not guarantee GDPR compliance. Dynamics 365 for Customer Engagement should also be GDPR compliant.
-> - Customers can enable auditing on Voice of the Customer entities to allow administrators to periodically review audit logs for Voice of the Customer records. For information on enabling auditing on entities, see [here](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/configure-entities-attributes-auditing).
+> - Customers can enable auditing on Voice of the Customer entities to allow administrators to periodically review audit logs for Voice of the Customer records. For information on enabling auditing on entities, see [here](https://docs.microsoft.com/dynamics365/customer-engagement/developer/configure-entities-attributes-auditing).
 
-As an administrator, your customers can contact you with the following requests regarding their data stored in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]:
+As an administrator, your customers can contact you with the following requests regarding their data stored in Dynamics 365:
 
 - View
 - Export
@@ -42,9 +42,9 @@ The following entities in Voice of the Customer are related to account, contact 
 
 If the customer has submitted the response to a survey activity/invite, you can view the related survey response in the related contact record.
 
-However, if the customer has submitted the response anonymously, you must use an appropriate [Advanced Find](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/save-advanced-find-search) query to search the customer record. For example, if you have collected email address of a customer as part of a survey, you must search all survey responses where the question response matches the customer’s email address.
+However, if the customer has submitted the response anonymously, you must use an appropriate [Advanced Find](https://docs.microsoft.com/dynamics365/customer-engagement/basics/save-advanced-find-search) query to search the customer record. For example, if you have collected email address of a customer as part of a survey, you must search all survey responses where the question response matches the customer’s email address.
 
-If the customer requests to export the records, [export it to Excel](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/export-data-excel) and share with the customer.
+If the customer requests to export the records, [export it to Excel](https://docs.microsoft.com/dynamics365/customer-engagement/basics/export-data-excel) and share with the customer.
 
 **Scenario 2**: Customer requests to update their record
 
@@ -61,7 +61,7 @@ For example, if you have created a workflow to send a personalized invite to cus
 
 If the customer has submitted the response to a survey activity/invite, you can view the related survey response in the contact record and update it (only **Respondent** field in survey response).
 
-However, if the customer has submitted the response anonymously, you must use [Advanced Find](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/save-advanced-find-search) to search the survey response by using the personal information, and then update it.
+However, if the customer has submitted the response anonymously, you must use [Advanced Find](https://docs.microsoft.com/dynamics365/customer-engagement/basics/save-advanced-find-search) to search the survey response by using the personal information, and then update it.
 
 **Scenario 3**: Customer requests to delete their record
 
@@ -82,7 +82,7 @@ When you delete a customer record, and the customer record is not included in th
 
 **Take this action**: If the customer has submitted the response to a survey activity/invite, you can view the related survey responses in the contact record, and then delete the required survey response.
 
-However, if the customer has submitted the response anonymously, use must use [Advanced Find](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/save-advanced-find-search) to search the survey response by using the personal information, and then delete the survey response.
+However, if the customer has submitted the response anonymously, use must use [Advanced Find](https://docs.microsoft.com/dynamics365/customer-engagement/basics/save-advanced-find-search) to search the survey response by using the personal information, and then delete the survey response.
 
 ## Feedback entity
 

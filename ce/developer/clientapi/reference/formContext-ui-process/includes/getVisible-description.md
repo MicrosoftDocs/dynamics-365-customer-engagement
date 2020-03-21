@@ -1,1 +1,0 @@
-Returns a value indicating whether the business process control is visible.

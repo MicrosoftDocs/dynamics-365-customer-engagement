@@ -1,6 +1,6 @@
 ---
 
-title: Why is the price defaulting to zero on expense sales actuals? (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: Why is the price defaulting to zero on expense sales actuals?
 description: The following three checks will help you troubleshoot why price is defaulting to 0 on expense sales actuals.
 author: rumant
 manager: kfend

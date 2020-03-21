@@ -1,6 +1,6 @@
 ---
-title: Experiment with demo data (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
-description: How to download and experiment with demo data for Project Service
+title: Experiment with demo data 
+description: How to download and experiment with demo data for Project Service Automation.
 author: JohnPBurrows
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -22,9 +22,7 @@ search.app:
 ---
 # Experiment with demo data (Project Service)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
-To become familiar with Dynamics 365 for Customer Engagement for Project Service, it’s useful to have a pre-configured environment to explore. For this purpose, we’ve created a separate sample data installation package (English-language only at this time) that makes it easier to learn about these solutions. 
+To become familiar with Dynamics 365 Project Service Automation, it’s useful to have a pre-configured environment to explore. For this purpose, we’ve created a separate sample data installation package (English-language only at this time) that makes it easier to learn about these solutions. 
 
 The installation package is available on the [Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=859966).  
 

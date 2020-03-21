@@ -8,12 +8,12 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 apps
   - Dynamics CRM Online
-author: jimholtz
 ms.assetid: 70afbe24-617d-428f-8067-da3a6f3fbd5c
 caps.latest.revision: 7
 ms.author: mkaur
+author: jimholtz
 search.audienceType: 
   - admin
   - customizer
@@ -23,8 +23,6 @@ search.app:
   - D365Sales
 ---
 # Dashboard views in Dynamics 365 for phones and tablets
-
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
 
 ## Work with records on the dashboard  
  Where [The workspace, your personalized action hub in Dynamics 365 for phones and tablets](workspace-personalized-action-hub.md) shows you common tasks and daily priorities, dashboards give you an overview of important information. Click the home icon any time to get your dashboards. Here are some of the  ways you can work with them.  

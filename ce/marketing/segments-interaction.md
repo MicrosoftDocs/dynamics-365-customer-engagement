@@ -1,18 +1,15 @@
 ---
-title: "Create segments based on interactions (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "How to create segments based on contact interaction records in Dynamics 365 for Marketing"
-keywords: segments; interaction segment
-ms.date: 09/17/2018
+title: "Create segments based on interactions (Dynamics 365 Marketing) | Microsoft Docs"
+description: "How to create segments based on contact interaction records in Dynamics 365 Marketing"
+keywords: segments; behavioral segment
+ms.date: 10/04/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 332e95b3-82fa-4fdd-834c-3fda05caa3bd
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -25,64 +22,36 @@ search.app:
   - D365Mktg
 ---
 
-# Design interaction-based dynamic segments
+# Design behavioral segments
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+_Behavioral segments_ query the _interaction_ records stored in the marketing insights database. Each of these records is generated automatically in response to something a contact did (such as open an email or visit a web page), and is related to the specific contact record associated with that action (if known). Interaction records are used to generate various insights displays in the Dynamics 365 Marketing UI, but they aren't synced to the Dynamics 365 Marketing organizational database.
 
-The segmentation tool always works in one of two modes, which enable it to create either of the following two types of segments:
+The result of a behavioral segment query is always a set of contacts who performed the relevant type of interaction according to the conditions established by the query.
 
-- **Profile segments** query the _profile_ records stored in the customer-interaction database. Profile records are synced between your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] database and the customer-interaction database and include the entities you normally work with in the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] UI, such as contacts, accounts, leads, and any other entities that you [choose to sync](marketing-settings.md#matching-strategy).
+This type of segment is _dynamic_ because its membership is defined as a query, whose results can change from moment to moment in response to new interactions being added to the database.
 
-- **Interaction segments** query the _interaction_ records stored in the customer-interaction database. Each of these records is generated automatically and related to a specific contact record. Interaction records are accessed to generate various insight displays in the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] UI, but they _aren't_ synced to the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] database. They are generated in response to contact interactions, such as opening an email, clicking an email link, submitting a form, or registering for an event.
+To create a behavioral segment, create a segment and then select the **Behavioral** option, as described in [Create and go live with a new segment](segmentation-lists-subscriptions.md#create-segment).
 
-Unlike profile segments, interaction segments allow for only a single query group, which means that the **Flow** tab isn't available, and your entire query must contain just a single group. However, you can combine interaction segments with other interaction or profile segments by [creating a compound segment](segments-compound.md).
+The following image shows an example of typical behavioral segment query and outlines key features of the designer user interface.
 
-This topic describes how to work with interaction segments. For more about profile segments, see [Profile-based dynamic segments](segments-profile.md).
-
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Working with segments](segmentation-lists-subscriptions.md)
-
-## Create an interaction segment
-
-To create a segment based on interaction records:
-
-1. Go to **Marketing** > **Customers** > **Segments**.
-
-1. Select **New** on the command bar to create a new segment.
-
-1. Enter a suitable **Name** for the new segment using the field at the top of the form.
-
-1. Your new segment already has a query group set to the **Contact** entity. Select the combo box next to this (currently showing a value of **All\*)** and start to type the name of the interaction you want to look for; a drop-down list will open and quickly shrink to show contact fields and interaction types with names that match your text. For example, type "email" to list all available email interactions, "event" to list event interactions, or "form" to list form interactions. If you're not sure what to look for, you can just scroll through the list to find a likely match under the **Interactions** heading near the bottom of the menu.
-
-    ![Select an interaction for the contact entity](media/segment-interaction-select.png "Select an interaction for the contact entity")
-
-    Here are some of the interaction types that are used most often (but there are many more):
-    - EmailClicked
-    - EmailHardBounced
-    - EmailOpened
-    - EventCheckIn
-    - EventRegistration
-    - EventRegistrationCanceled
-    - FormSubmitted
-    - FormVisited
-    - SegmentSubscribed
-    - SegmentUnsubscribed
-    - WebsiteVisited
-1. When you select an interaction, the layout of the **Designer** forms changes to _interaction mode_, which provides the features called out in the illustration provided after this procedure. Use these features to design your query.
-
-1. When you're done designing your segment, select **Save** and **[Go live](go-live.md)**.
-
-![Features for creating an interaction segment](media/segment-interaction-callouts.png "Features for creating an interaction segment")
+![Segment designer UI elements for behavioral segments](media/segment-interaction-callouts2.png "Segment designer UI elements for behavioral segments")
 
 Legend:
 
-1. **Interaction name** : This is the type of interaction the segment will look for.
-1. **Relation to contacts** : This is how your selected interaction relates to the contact entity. All segments must resolve to a collection of contact entities, and this value shows how the two entities are connected. For the most common interactions, there is only one choice here so you don't need to worry about it, but some types of interactions have multiple connections to the contact entity through different field values on either the interaction record or the contact record.
-1. **Having count** : Use these settings to limit results to include contacts that have some minimum or exact value of interactions, such as "at least 3 email opens" or "exactly 1 event registration". If you leave these blank, then your segment will find contacts with at least one of the selected interaction type.
-1. **Sliding window** : Use these settings to consider interactions that occurred only recently, such as in the last two weeks, last three months, or last year. The date is always calculated based on the current date, so if you apply a limit here, then some contacts may slip out of the segment with each passing day.
-1. **Additional restrictions** : These settings work just like they do for profile segments, but here they enable you to filter results based on values for the selected type of interaction records. For example, you might want to find clicks on a specific email message, or registrations for a specific event. You can add as many additional clauses as you want using the **And** and **Or** buttons.
+1. **Interaction name**: Use this drop-down list to select the type of interaction the behavioral segment will look for.
+2. **Full-screen editor**: Select this button to open the segment designer in full-screen mode, which provides more screen real estate for viewing and editing your query.
+3. **Show/hide interaction filters**: Select this button to show or hide filters for setting limits on the total number of interactions and/or a moving-window time period.
+4. **Interaction filters**: Use these to set a minimum or exact number of interactions that a contact must have performed to be included in this segment. You can also set a moving-window filter to only consider interactions that occurred recently, such as in the last two weeks. To enable the moving-window filter, change the third drop-down list from **interactions** to **interactions in the last**. The date of the moving window is always calculated based on the current date, so if you enable this, then some contacts may slip out of the segment with each passing day unless they remain engaged. In this example, the filter will find contacts who clicked on a message at least once in the past 45 days.
+5. **Additional restrictions**: These settings work just like they do for demographic and firmographic segments, but here they enable you to filter results based on values for the selected type of interaction records. For example, you might want to find clicks on email messages sent by a particular customer journey (as shown here). As with [demographic and firmographic segments](segments-profile.md), you can add as many clauses and clause groups as you need here.
 
 > [!NOTE]
-> Interaction segments can include only a single group, so don't use the **Add Group** button (your settings in any additional groups will be ignored). However, you can combine interaction segments with other interaction or profile segments using logical operators by [creating a compound segment](segments-compound.md).
+> Unlike profile segments, behavioral segments allow for only a single query block, which means that the **Flow view** tab isn't available, and your entire query must contain just a single block. However, you can combine behavioral segments with other interaction or profile segments by [creating a compound segment](segments-compound.md).
+
+## View and edit the raw query
+
+The segment designer provides a graphical interface for creating the logic for a dynamic segment. As  you work with the settings, you are actually creating a text-based query in the background. This is the query that the system will actually run against your database. Usually you don't need to use the query for anything, but sometimes it can help in troubleshooting. You can also copy/paste queries into the designer, which you might use to create a copy of an existing segment or to share a query design through email.
+
+To find, view, and edit the query, scroll to the bottom of the page and open the **Query view** tab here.
 
 ## Find record IDs
 

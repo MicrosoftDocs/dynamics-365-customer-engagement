@@ -28,6 +28,4 @@ search.app:
 
 # Resource pools
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
-[!INCLUDE[topic-urs-resource-pools.md](../includes/topic-urs-resource-pools.md)]
+[!INCLUDE[topic-urs-resource-pools.md](../shared/urs/resource-pools.md)]

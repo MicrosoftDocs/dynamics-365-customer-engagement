@@ -1,23 +1,13 @@
 ---
 title: "msdyn_playbookactivity EntityType | MicrosoftDocs"
 description: "Entity reference for msdyn_playbookactivity EntityType"
-keywords: 
 ms.date: 04/08/2019
-ms.service: crm-online
-ms.custom: 
+ms.service: 
+  - crm-online
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
-ms.assetid: AAF5B63C-876E-4A56-93F4-D4E027997C05
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 22
-topic-status: Drafting
 ---
 # msdyn_playbookactivity EntityType
 

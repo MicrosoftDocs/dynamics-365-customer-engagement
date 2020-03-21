@@ -1,1 +1,0 @@
-Returns a **Process** object representing the active process.

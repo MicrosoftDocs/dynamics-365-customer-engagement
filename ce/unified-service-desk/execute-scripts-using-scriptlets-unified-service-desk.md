@@ -1,22 +1,12 @@
 ---
-title: "Execute scripts using scriptlets in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
+title: "Execute scripts using scriptlets in Unified Service Desk | MicrosoftDocs"
 description: "Scriptlets are snippets of JavaScript that are executed when using a special syntax for your replacement parameter."
 ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: 
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: 43bc1881-1db2-44ea-b52f-ed79717f5120
-caps.latest.revision: 6
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -28,11 +18,11 @@ search.app:
   - D365USD
 ---
 # Execute scripts using scriptlets in Unified Service Desk
-Scriptlets are snippets of JavaScript that are executed when using a special syntax for your replacement parameter. Sometimes the system generated replacement parameters contain the proper data needed for these functions, but might not contain the data in the desired format. For example, in Computer Telephone Integration (CTI), phone numbers typically arrive from phone system as a string of digits such as “3035551212”, without any formatting. However, Microsoft Dynamics 365 for Customer Engagement apps stores phone numbers as a string that typically includes formatting characters such as dashes as in (303) 555-1212. If you were to search your Dynamics 365 for Customer Engagement apps entity using the data supplied directly by the phone system, changes are slim that a match would ever be found. You address this using scriptlets in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
+Scriptlets are snippets of JavaScript that are executed when using a special syntax for your replacement parameter. Sometimes the system generated replacement parameters contain the proper data needed for these functions, but might not contain the data in the desired format. For example, in Computer Telephone Integration (CTI), phone numbers typically arrive from phone system as a string of digits such as “3035551212”, without any formatting. However, the Common Data Service platform stores phone numbers as a string that typically includes formatting characters such as dashes as in (303) 555-1212. If you were to search your entity using the data supplied directly by the phone system, changes are slim that a match would ever be found. You address this using scriptlets in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
   
 <a name="HowTo"></a>   
 ## How to use scriptlets?  
- You define a scriptlet in the **Scriptlets** area (**Settings** > **Scriptlets**) in Microsoft Dynamics 365 for Customer Engagement apps. After you have defined a scriptlet, you use the scriptlet in the following format as a replacement parameter in your queries or parameters to the action calls.  
+ You define a scriptlet in the **Scriptlets** area (**Settings** > **Scriptlets**) in the Common Data Service platform. After you have defined a scriptlet, you use the scriptlet in the following format as a replacement parameter in your queries or parameters to the action calls.  
   
 ```  
 [[script.<Scriptlet_Name>]]  
@@ -58,7 +48,7 @@ Connection_Manager.ConfigurationReader.ReadAppSettings(“maxNumberOfSessions”
 > [!NOTE]
 >  Only public functions are accessible via this method.  
   
- Consider a situation where you want to display session overview information in your Session Lines component but the information actually resides in an external system that is accessible via web services rather than being available in your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps server. You may create a hosted control that exposes a public function, which calls the external web service. You then configure this hosted control as a global hosted control and place it on the HiddenPanel. This function and web service call is now usable from a scriptlet. You could then create the following scriptlet to call your new function.  
+ Consider a situation where you want to display session overview information in your Session Lines component but the information actually resides in an external system that is accessible via web services rather than being available in your Common Data Service platform server. You may create a hosted control that exposes a public function, which calls the external web service. You then configure this hosted control as a global hosted control and place it on the HiddenPanel. This function and web service call is now usable from a scriptlet. You could then create the following scriptlet to call your new function.  
   
 ```  
 My_Global_Application.CallExternalWebService(“[[account.accountnumber]$]”);  
@@ -68,7 +58,7 @@ My_Global_Application.CallExternalWebService(“[[account.accountnumber]$]”);
   
 ```  
 <Grid Margin="0"  
-  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
+  xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml"  
   xmlns:CCA="clr-namespace:Dynamics;assembly=Dynamics">  
 <Grid.RowDefinitions>  
  <RowDefinition Height="auto" />  

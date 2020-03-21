@@ -1,7 +1,7 @@
 ---
 
 title: Create time entries
-description: This topic provides information about how to create time entries in Microsoft Dynamics 365 for Project Service Automation (PSA).
+description: This topic provides information about how to create time entries.
 author: rumant
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -26,7 +26,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-In previous versions of Microsoft Dynamics 365 for Project Service Automation (PSA), time entries were entered on a weekly basis. In version 3 and later of PSA, time entries are entered on a daily basis. However, after a few time entries have been created, you can bulk create or copy them.
+In previous versions of Dynamics 365 Project Service Automation, time entries were entered on a weekly basis. In version 3 of Project Service Automation, time entries are entered on a daily basis. However, after a few time entries have been created, you can bulk create or copy them.
 
 ## Create a time entry
 

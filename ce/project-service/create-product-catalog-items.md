@@ -1,5 +1,5 @@
 ---
-title: Create product catalog items (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: Create product catalog items 
 description: How to create product catalog items in Project Service
 author: ruhercul
 manager: kfend
@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-If you want to include products, such as software licenses, on your project quotes and estimates, you need to add each product to the product catalog in Dynamics 365 for Customer Engagement.  
+If you want to include products, such as software licenses, on your project quotes and estimates, you need to add each product to the product catalog.  
   
  For more information about adding products to the product catalog, see [Create a product (Sales)](../sales-enterprise/create-product-sales.md).  
   

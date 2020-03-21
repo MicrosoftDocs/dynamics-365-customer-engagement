@@ -1,22 +1,19 @@
 ---
-title: "Create a warehouse (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Create a warehouse (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
-ms.reviewer: 
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.technology: 
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: 14811327-a740-4d02-815f-fc908421fbc2
 caps.latest.revision: 12
-ms.author: krbjoran
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin
@@ -27,8 +24,6 @@ search.app:
   - D365FS
 ---
 # Create a warehouse to track inventory (Field Service)
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Track your product inventory using a warehouse record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   
@@ -69,7 +64,5 @@ Track your product inventory using a warehouse record in [!INCLUDE[pn_crm_shorte
 3.  You can specify the **Bin** and **Row** where the product resides in the warehouse. You can also render a reorder point.  
   
 ### See also  
- [View product inventory](../field-service/view-product-inventory.md)   
- [Create an inventory adjustment](../field-service/create-inventory-adjustment.md)   
- [Create an inventory transfer](../field-service/create-inventory-transfer.md)   
- [Create a product or service](../field-service/create-product-or-service.md)
+
+- [Create a product or service](../field-service/create-product-or-service.md)

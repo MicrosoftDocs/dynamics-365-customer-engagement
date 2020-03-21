@@ -1,18 +1,15 @@
 ---
-title: Set up resources for Service Scheduling (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Know how to create and set up resources for service scheduling in Dynamics 365 for Customer Service
-keywords: Resources; Service scheduling; Dynamics 365 for Customer Engagement; Customer Service; Universal Resource Scheduling (URS)
-author: anjgupta
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
-ms.author: anjgup
+title: Set up resources for Service Scheduling (Dynamics 365 Customer Service) | MicrosoftDocs
+description: Know how to create and set up resources for service scheduling in Dynamics 365 Customer Service
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ms.date: 11/20/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: dyn365-customerservice
-ms.assetid: 4353cb1d-fc4e-474f-9524-9b5add34246a
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -23,8 +20,6 @@ search.app:
 ---
 
 # Create and set up bookable resources
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 A resource in Service Scheduling is anything that needs to be scheduled. You can set up Generic, Contact, User, Equipment, Account, Crew, Facility, or Pool as bookable resource.
 
@@ -170,7 +165,7 @@ You can set work hours for the bookable resources where you can define when the 
   
 14. To close the **Weekly Schedule** dialog box, select **Save and Close**.
 
-    ![set-work-hours](media/set-work-hours-csh.png) 
+    ![set-work-hours](media/set-work-hours-csh-1a.png) 
 
 > [!NOTE]
 > To define a time when a service won’t be available, on the **Service Restrictions** tab, select **New**. In the **Edit a Service Restriction** dialog box, select the service, and select the start and end time between which the service will be unavailable, and then select **OK**.  

@@ -1,5 +1,5 @@
 ---
-title: Create a project contract (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: Create a project contract 
 description: How to create a project contract in Project Service
 author: ruhercul
 manager: kfend

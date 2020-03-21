@@ -1,18 +1,15 @@
 ---
-title: "Manage image files (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "A tutorial for how to manage keywords and upload images to the file library in Dynamics 365 for Marketing"
+title: "Manage image files (Dynamics 365 Marketing) | Microsoft Docs"
+description: "A tutorial for how to manage keywords and upload images to the file library in Dynamics 365 Marketing"
 keywords: tutorial; keywords; images; files; upload; library
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: get-started-article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 2a762cef-1caa-45e2-9b7f-8721cbac10aa
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -27,20 +24,18 @@ search.app:
 
 # Manage images for landing pages and email messages
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
-In [Create a marketing email and go live](create-marketing-email.md), you saw how to upload an image while adding it to an email message, and you can use similar techniques to add images to your marketing page designs. Another way to make images (and other files) available in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is to upload them directly to the file library, which is shared by all users. Your library will typically include brand-identity graphics such as logos, product images, and clip art.
+In [Create a marketing email and go live](create-marketing-email.md), you saw how to upload an image while adding it to an email message, and you can use similar techniques to add images to your marketing page designs. Another way to make images (and other files) available in Dynamics 365 Marketing is to upload them directly to the file library, which is shared by all users. Your library will typically include brand-identity graphics such as logos, product images, and clip art.
 
 Here are some best practices for working with images for your marketing materials:
 
-- Sketch out your email messages and marketing pages in an image-editing program before you start trying to design them in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. This will make it easier to experiment, enable you to get your image sizes right, and should speed your work in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
+- Sketch out your email messages and marketing pages in an image-editing program before you start trying to design them in Dynamics 365 Marketing. This will make it easier to experiment, enable you to get your image sizes right, and should speed your work in Dynamics 365 Marketing.
 - Always crop and size your images before you upload them.
 - When sizing your images, use the dimensions that will apply when viewed on the largest expected customer display.
 - Choose your keywords carefully, and remember to apply them to images. As your library grows, this will become increasingly important.
 
 ## Manage keywords
 
-To help you organize your images, and to help other users find them, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] also supports a system of keywords that you can use to tag each image. You manage the keywords centrally to ensure that the number of keywords remains manageable and the spelling consistent. When uploading an image, users can choose a keyword, but they can't create new one on the fly.
+To help you organize your images, and to help other users find them, Dynamics 365 Marketing also supports a system of keywords that you can use to tag each image. You manage the keywords centrally to ensure that the number of keywords remains manageable and the spelling consistent. When uploading an image, users can choose a keyword, but they can't create new one on the fly.
 
 To manage keywords:
 
@@ -68,7 +63,7 @@ To view and edit your image library:
     - Remove a keyword from an image by selecting the close button **(X)** for the keyword.
     - Remove an image by selecting its close button **(X)** on the right (also an X).
 
-5. Select **Save** to upload your images to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
+5. Select **Save** to upload your images to Dynamics 365 Marketing.
 
 6. If you want to edit the display name for an image, go back to **Marketing** > **Marketing content** > **Files**.
 

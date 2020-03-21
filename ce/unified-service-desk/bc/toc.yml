@@ -2,10 +2,6 @@
   tocHref: /dynamics365/
   topicHref: /dynamics365/
   items:
-  - name: "Customer Engagement"
-    tocHref: /dynamics365/customer-engagement/
-    topicHref: /dynamics365/customer-engagement/
-    items:
-      - name: Unified Service Desk
-        tocHref: /dynamics365/customer-engagement/unified-service-desk/
-        topicHref: /dynamics365/customer-engagement/unified-service-desk/unified-service-desk
+    - name: Unified Service Desk
+      tocHref: /dynamics365/unified-service-desk/
+      topicHref: /dynamics365/unified-service-desk/unified-service-desk

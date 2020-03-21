@@ -1,16 +1,15 @@
 ---
-title: Understanding dashboards in Customer Service Hub in Dynamics 365 for Customer Engagement | Microsoft Docs
-description: Understand dashboards in Customer Service Hub for Customer Service in Microsoft Dynamics 365 for Customer Engagement
-keywords: Interactive dashboards; Customer Service Hub; Customer Service;  Microsoft Dynamics 365 for Customer Engagement; Global Filter; Interactive tiles; Visual Filter ; Timeframe filter; Apply Bulk Select
-author: anjgupta
-applies_to: Dynamics 365 for Customer Engagement (online)
-ms.author: anjgup
+title: Understanding dashboards in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
+description: Understand dashboards in Customer Service Hub for Dynamics 365 Customer Service.
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 06/01/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.assetid: df25e314-069c-4361-abbc-e7d0dde2a596
-ms.custom: dyn365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -22,16 +21,14 @@ search.app:
 
 # Manage service cases using interactive dashboards
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Use interactive dashboards to effectively manage service cases in the Customer Service Hub application.
 
-[!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] interactive experience dashboards are a one-stop workplace where you review your workload and take actions. The information in the interactive dashboard is shown in real time, coming from views and queues. The interactive dashboards with their modern and intuitive interface are optimized for the customer service experience. For example, instead of paging through the application looking for a case, you’ll be able to open and update the case right from the dashboard. This will save you time, help to focus on tasks at hand, and get more work done. You’ll need sufficient permissions to use the interactive dashboards. The permissions will be assigned to you by an administrator.
+Dynamics 365 Customer Service interactive experience dashboards are a one-stop workplace where you review your workload and take actions. The information in the interactive dashboard is shown in real time, coming from views and queues. The interactive dashboards with their modern and intuitive interface are optimized for the customer service experience. For example, instead of paging through the application looking for a case, you’ll be able to open and update the case right from the dashboard. This will save you time, help to focus on tasks at hand, and get more work done. You’ll need sufficient permissions to use the interactive dashboards. The permissions will be assigned to you by an administrator.
 
   
 Watch this video to learn more about dashboards in the Customer Service Hub:
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/2a9199d6-67b8-486d-a915-1ed2fb33c80c" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/2a9199d6-67b8-486d-a915-1ed2fb33c80c" frameborder="0" allowfullscreen=""></iframe></div>
 
 
 ## Interactive experience dashboards overview  

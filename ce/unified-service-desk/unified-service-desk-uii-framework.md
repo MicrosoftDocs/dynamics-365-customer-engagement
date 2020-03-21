@@ -4,19 +4,9 @@ description: "Learn about the basic concepts related to User Interface Integrati
 ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: 
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: get-started-article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: c59fba14-bcd4-4936-b36f-81f5ef9d6ffa
-caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
 manager: shujoshi

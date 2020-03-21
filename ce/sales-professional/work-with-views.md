@@ -1,17 +1,12 @@
 ---
-title: "Work with views (lists) in Dynamics 365 for Sales Professional | MicrosoftDocs"
-description: "Use views to browse through and manage data in Dynamics 365 for Sales Professional to improve your productivity."
-keywords: ""
-ms.date: 04/05/2019
-ms.service:
+title: "Work with views (lists) in Dynamics 365 Sales Professional | MicrosoftDocs"
+description: "Use views to browse through and manage data in Dynamics 365 Sales Professional to improve your productivity."
+ms.date: 10/01/2019
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
-ms.assetid: 93ee704c-3d36-40d6-be4e-ca3566729aba
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
@@ -19,7 +14,7 @@ manager: annbe
 
 # Work with views (lists)
 
-Use grids (views) and lists to browse and manage various data sets in Dynamics 365 for Sales Professional to improve your productivity.
+Use grids (views) and lists to browse and manage various data sets in Dynamics 365 Sales Professional to improve your productivity.
 
 You can perform some common interactions in a view, such as: 
 
@@ -83,4 +78,4 @@ You can perform different actions such as sort, delete, and refresh on items in 
 
 ### See also
 
-[Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md)
+[Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)

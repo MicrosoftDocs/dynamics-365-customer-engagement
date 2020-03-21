@@ -1,46 +1,37 @@
 ---
-title: "Export Unified Service Desk for Dynamics 365 for Customer Engagement apps configuration data | MicrosoftDocs"
+title: "Export Unified Service Desk configuration data | MicrosoftDocs"
 description: "Learn how to prepare a file for use with another instance using the Configuration Migration Tool and configuration data schema file."
 ms.custom: 
-  - dyn365-USD, dyn365-admin
+  - dyn365-USD
+  - dyn365-admin
 ms.date: 08/23/2017
-ms.reviewer: 
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: f3d3b348-ddf7-4174-af34-9583a9f2b7e6
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-tags: 
-  - MigrationHO
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+tags: MigrationHO
 ---
 # Export Unified Service Desk configuration data
 You can export your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data from your source system by using the default [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data schema file.  
   
-1. Download the [!INCLUDE[pn_configuration_migration_tool](../../includes/pn-configuration-migration-tool.md)] and the default [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data schema file (USDDefaultSchema.xml). The tool and the configuration data schema file are available in the [CRM SDK download package](http://go.microsoft.com/fwlink/?LinkID=627298).  
+1. Download the [!INCLUDE[pn_configuration_migration_tool](../../includes/pn-configuration-migration-tool.md)] and the default [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data schema file (USDDefaultSchema.xml). The tool and the configuration data schema file are available in the [Common Data Service SDK download package](https://go.microsoft.com/fwlink/?LinkID=627298).  
   
-   1. Download the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps package (.exe), and extract it to find the tool in the SDK\Tools\ConfigurationMigration folder.  
+   1. Download the package (.exe), and extract it to find the tool in the SDK\Tools\ConfigurationMigration folder.  
   
    2. Download the UII SDK package (.exe), and extract it to find the USDDefaultSchema.xml file in the UII\USD Developer Assets\USD Configuration Tool Schema folder.  
   
 2. Double-click the DataMigrationUtility.exe file in the SDK\Tools\ConfigurationMigration folder to run the [!INCLUDE[pn_configuration_migration_tool](../../includes/pn-configuration-migration-tool.md)], and choose **Export data** in the main screen.  
   
-3. On the **Login** screen, provide authentication details to connect to your [!INCLUDE[pn_microsoftcrm_server](../../includes/pn-microsoftcrm-server.md)] from where you want to export data. If you have multiple organizations on the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] server, and want to select the organization from where to export the data, select the **Always display list of available orgs** check box. Select **Login**.  
+3. On the **Login** screen, provide authentication details to connect to your [!INCLUDE[pn_microsoftcrm_server](../../includes/pn-microsoftcrm-server.md)] from where you want to export data. If you have multiple organizations on the Common Data Service platform server, and want to select the organization from where to export the data, select the **Always display list of available orgs** check box. Select **Login**.  
   
-4. If you have multiple organizations, and you selected the **Always display list of available orgs** check box, the next screen lets you choose the organization that you want to connect to. Select a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] organization to connect to.  
+4. If you have multiple organizations, and you selected the **Always display list of available orgs** check box, the next screen lets you choose the organization that you want to connect to. Select the Common Data Service platform organization to connect to.  
   
 5. On the next screen, select the default [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data schema file (USDDefaultSchema.xml) to be used for the data export.  
   
@@ -54,4 +45,4 @@ You can export your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified
  [Import Unified Service Desk configuration data](../../unified-service-desk/admin/import-unified-service-desk-configuration-data.md)  
   
 ## See also  
- [Migrate your Unified Service Desk configuration to another Dynamics 365 for Customer Engagement server](../../unified-service-desk/admin/migrate-unified-service-desk-configuration-dynamics-365-server.md)
+ [Migrate your Unified Service Desk configuration to another server](../../unified-service-desk/admin/migrate-unified-service-desk-configuration-dynamics-365-server.md)

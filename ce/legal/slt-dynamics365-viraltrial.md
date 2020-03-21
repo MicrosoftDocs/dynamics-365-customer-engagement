@@ -1,10 +1,11 @@
 ---
 title: MICROSOFT ONLINE SERVICES TRIAL AGREEMENT
-author: brycho
+author: ReneeW-CPub
 ---
 
-MICROSOFT ONLINE SERVICES TRIAL AGREEMENT<br>Last Revised: November 2017
+# MICROSOFT ONLINE SERVICES TRIAL AGREEMENT
 ========================================================================
+**Last Revised: November 2017**
 
 This Microsoft Online Service Trial Agreement (this “**Agreement**”) applies
 when:
@@ -509,7 +510,7 @@ arbitrator will decide. **Class action lawsuits, class-wide arbitrations,
 private attorney-general actions,** and any other proceeding where someone acts
 in a representative capacity **are not allowed**; nor is combining individual
 proceedings without the consent of all parties. The complete Arbitration
-Agreement contains more terms and is at <http://aka.ms/arb-agreement-1>.
+Agreement contains more terms and is at <https://aka.ms/arb-agreement-1>.
 Customer and Microsoft agree to these terms.
 
 **11. CUSTOMER’S DUTY TO PROTECT MICROSOFT**
@@ -638,7 +639,7 @@ the earlier of the date the applicable Trial Period or this Agreement ends.
 international export laws and regulations that apply to any software or the
 Trial Service, which include restrictions on destinations, end users, and end
 use. For further information on export restrictions, visit
-<http://aka.ms/exporting>.
+<https://aka.ms/exporting>.
 
 **12.12. Reservation of Rights.** Microsoft or its suppliers own any and all
 right, title, and interest in any copyright and other intellectual property
@@ -797,12 +798,12 @@ expiration of the applicable Trial Period for that Trial Service; and **(C)**
 Microsoft will make commercially reasonable efforts to work with Customer to
 export such Customer Data.
 
-**Trial Service Specific Terms for Microsoft Dynamics 365 for Sales, Marketing,
+**Trial Service Specific Terms for Microsoft Dynamics 365 Sales, Marketing,
 Customer Service, Field Service, and Project Service Automation**
 
 These terms supplement the applicable terms in Part I above.
 
-**1. Trial Period.** Except for Dynamics 365 for Marketing, which only allows
+**1. Trial Period.** Except for Dynamics 365 Marketing, which only allows
 one trial per Customer Organization, there may be up to five concurrent trials
 of the Trial Service at any given time for Customer’s Organization (each, a
 “**Trial Instance**”), and each such Trial Instance will remain accessible for a
@@ -856,7 +857,7 @@ without regard to which user input such Customer Data.
 
 **5. Exporting Customer Data.** If Customer has included “live” or production
 Customer Data in any Trial Instance of this Trial Service, and Customer elects
-not to purchase a subscription to the Microsoft Dynamics 365 for Sales service,
+not to purchase a subscription to the Microsoft Dynamics 365 Sales service,
 Customer Service, Field Service, or Project Service Automation service before
 expiration of the Trial Period for that Trial Instance: **(A)** Microsoft has no
 obligation to return Customer Data to Customer; **(B)** Microsoft will retain
@@ -866,9 +867,9 @@ commercially reasonable efforts to work with Customer to export such Customer
 Data.
 
 **6. Compliance with Applicable Laws.** Customer shall, as a condition of using
-the “Dynamics 365 for Marketing” online service, comply with all applicable laws
+the “Dynamics 365 Marketing” online service, comply with all applicable laws
 and regulations governing Customer’s dissemination of any promotional materials
-through its use of the “Dynamics 365 for Marketing” online service. Microsoft
+through its use of the “Dynamics 365 Marketing” online service. Microsoft
 bears no responsibility for Customer’s compliance with any such applicable laws
 or regulations.
 

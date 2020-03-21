@@ -1,18 +1,15 @@
 ---
-title: Set up queues to manage activities and cases (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Learn how to set up queues to manage activities and cases in Dynamics 365 for Customer Service
-keywords: Dynamics 365 for Customer Engagement; Customer Service; Create queues; Route items to queues ; Assign items in the queue to work
-author: anjgupta
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
-ms.author: anjgup
+title: Set up queues to manage activities and cases (Dynamics 365 Customer Service) | MicrosoftDocs
+description: Learn how to set up queues to manage activities and cases in Dynamics 365 Customer Service
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 10/01/2018
+ms.date: 11/27/2019
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.assetid: deef5606-bbd9-452a-bc0c-63abdd658a81
-ms.custom: dyn365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -24,9 +21,7 @@ search.app:
 
 # Create and manage queues
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
-
-Queues help you to organize, prioritize, and monitor the progress of your work. In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], queues are containers used to store anything that needs to be completed or requires an action, for example completing a task or closing a case. 
+Queues help you to organize, prioritize, and monitor the progress of your work. In Dynamics 365 Customer Service, queues are containers used to store anything that needs to be completed or requires an action, for example completing a task or closing a case. 
 
  Queues can be useful in:  
   
@@ -44,11 +39,11 @@ Use queues to categorize and prioritize your activities and cases. You can categ
   
 -   Different geography  
 
- By default, a queue is created for each user and team in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. You can use this default queue to track all your work items, or you can set up queues to reflect your organization's structure, business processes, or both. How you set up queues depends on how your business works. 
+ By default, a queue is created for each user and team in Dynamics 365 Customer Service. You can use this default queue to track all your work items, or you can set up queues to reflect your organization's structure, business processes, or both. How you set up queues depends on how your business works. 
 
 For example, you could create separate queues for first tier and second tier product support teams that reflect their differing levels of expertise, or Gold and Silver queues to reflect differing priorities based on service contracts that customers have with your organization.  
   
- [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] lets you create two types of queues:
+ Dynamics 365 Customer Service lets you create two types of queues:
 
 - **Private queues:** Create private queues with limited set of members to help those members easily view the queue items in that queue. Private queues streamline queue items for the members of that queue only and help to remove clutter from other user’s views.
 - **Public queues:** Create public queues to let everyone in the organization view the queue and all the items it contains.
@@ -57,7 +52,7 @@ For example, you could create separate queues for first tier and second tier pro
 > Private queues are a great way to organize cases, but do not restrict access to the records they contain. If your organization handles sensitive data and needs to restrict access to queue items or fields, explore the different options given in [Dynamics 365 security model](../developer/security-dev/security-model.md).
 
 > [!NOTE]
-> With the Customer Engagement apps version 9.1 release, queues in service management are available in the Customer Service Hub. We recommend that you create and manage queues using the new experience.
+> With the latest release of Dynamics 365 Customer Service app, queues in service management are available in the Customer Service Hub. We recommend that you create and manage queues using the new experience.
   
 ## Create a queue (Customer Service Hub) 
   
@@ -144,7 +139,7 @@ Follow the steps given below to create or edit a queue:
   
    - In the **Mailbox** field, a mailbox record for the queue is automatically created and selected as soon as you save the queue record. To update the mailbox details, select the mailbox name. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create forward mailboxes or edit mailboxes](../admin/create-forward-mailboxes-edit-mailboxes.md)  
   
-   - In the **Record creation and update rules** section, add a **Record Creation and Update Rule** record. By using these rules, you can automatically create or update system or custom records from incoming [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] activities, such as emails, social activities, or custom activities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up rules to automatically create or update records](../customer-service/set-up-rules-to-automatically-create-or-update-records.md)  
+   - In the **Record creation and update rules** section, add a **Record Creation and Update Rule** record. By using these rules, you can automatically create or update system or custom records from incoming activities, such as emails, social activities, or custom activities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up rules to automatically create or update records](../customer-service/set-up-rules-to-automatically-create-or-update-records.md)  
   
    > [!IMPORTANT]
    >  This is a central place to manage rules across all supported activities including out-of-the-box and custom activities associated with the queue.  
@@ -163,13 +158,17 @@ Follow the steps given below to create or edit a queue:
 
 Alternatively, you can manually add cases and activities to queues.  
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a case to a queue](customer-service-hub-user-guide-case-sla.md#add-a-case-to-a-queue)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a case to a queue](customer-service-hub-user-guide-case-queues-and-routing.md#add-a-case-to-a-queue)
   
 ## Assign items to agents
  Queues share cases or activities as a group until these are taken out of the queue, or accepted, by a customer service agent who assumes responsibility for handling them. Agents can pick the items for themselves, or a customer service manager can manually route these cases to the agents or to other queues, users, or teams.  
 
 To assign items in the queue to agents, select **Assign** after selecting one or multiple items in the queues grid. In the **Assign Queue** box, you can choose to assign to other users or teams.
-  
+
+> [!Note]
+> - When two agents simultaneously add cases to the queue, then the system creates two queue items instead of a single queue item.
+> - If you've created workflows or used custom API to assign cases to agents and if a same case is assigned to two agents at the same time, then the system creates two queue items instead of a single queue item. 
+
 ### See also  
 
 [Work with Queues in the Customer Service Hub](customer-service-hub-user-guide-basics.md#work-with-queues)

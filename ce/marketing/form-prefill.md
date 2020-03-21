@@ -1,18 +1,15 @@
 ---
-title: "Enable prefilling for marketing forms (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "How to set up your marketing forms to support prefilling of form fields for returning contacts in Dynamics 365 for Marketing"
+title: "Enable prefilling for marketing forms (Dynamics 365 Marketing) | Microsoft Docs"
+description: "How to set up your marketing forms to support prefilling of form fields for returning contacts in Dynamics 365 Marketing"
 keywords: marketing form, prefill
 ms.date: 03/08/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: bb712806-d9a2-4eb6-8082-27d13668d1f5
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -27,15 +24,13 @@ search.app:
 
 # Enable prefilling for forms
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 The prefill feature for marketing-page forms provides returning contacts with a form that already shows their previously entered information, like their name and email address. Contacts will usually find prefilled forms to be more convenient, which is likely to improve the submission rate. Prefilled forms can also help lower data-entry errors, thereby improving the quality of your data. However, you must also consider your contacts' privacy, so you'll be able to control precisely which fields on which forms will allow prefilling, and each contact can choose for themselves whether or not to allow prefilled landing-page forms. Subscription center forms, however, always support prefilling due to the role they play in the system.
 
 For general information about how to create, design, and work with marketing pages, see [Create and deploy marketing pages](create-deploy-marketing-pages.md).
 
 ## How prefilling works for different types of forms
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] supports three marketing form types: landing pages, subscription centers, and forward-to-a-friend. Because each form is very different, each of them treats prefilling differently.
+Dynamics 365 Marketing supports three marketing form types: landing pages, subscription centers, and forward-to-a-friend. Because each form is very different, each of them treats prefilling differently.
 
 ### Landing-page forms
 
@@ -43,10 +38,10 @@ The following rules apply for prefilling landing-page forms:
 
 - Landing-page forms manage prefilling at three levels: field, form, and contact. Only fields explicitly configured to allow prefilling can provide prefilled values, and only on forms where prefilling is enabled, and only for contacts that enabled the "remember me" feature the last time they submitted a form.
 - All landing-page forms that have prefilling enabled must include a "remember me" check box, which enables contacts to manage the feature.
-- When a contact submits a landing-page form with the "remember me" check box selected, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] creates or updates the contact record with information from the incoming form, sets the **Prefill marketing form** field to **Allow** for that record,  and stores a cookie in the contact's browser. The cookie contains a public hash code, which [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] can use to find a contact record and returned a form prefilled with values from that record the next time that contact requests the form using the same browser (not in private-browsing mode).
-- When a contact submits a landing-page form with the "remember me" check box cleared, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] creates or updates the contact record with information from the incoming form and sets **Prefill marketing form** to **Disallow** for that record.
-- When a contact with **Prefill marketing form** set to **Disallow** opens a landing page, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] won't return any contact-record values even if the cookie is present, and regardless of the prefill settings for the form and its fields.
-- When a contact with **Prefill marketing form** set to **Allow** opens a landing page, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] requests the cookie, finds the matching contact record (if any), and returns a form where all fields enabled for prefilling show matching values from that contact's contact record.
+- When a contact submits a landing-page form with the "remember me" check box selected, Dynamics 365 Marketing creates or updates the contact record with information from the incoming form, sets the **Prefill marketing form** field to **Allow** for that record,  and stores a cookie in the contact's browser. The cookie contains a public hash code, which Dynamics 365 Marketing can use to find a contact record and returned a form prefilled with values from that record the next time that contact requests the form using the same browser (not in private-browsing mode).
+- When a contact submits a landing-page form with the "remember me" check box cleared, Dynamics 365 Marketing creates or updates the contact record with information from the incoming form and sets **Prefill marketing form** to **Disallow** for that record.
+- When a contact with **Prefill marketing form** set to **Disallow** opens a landing page, Dynamics 365 Marketing won't return any contact-record values even if the cookie is present, and regardless of the prefill settings for the form and its fields.
+- When a contact with **Prefill marketing form** set to **Allow** opens a landing page, Dynamics 365 Marketing requests the cookie, finds the matching contact record (if any), and returns a form where all fields enabled for prefilling show matching values from that contact's contact record.
 
 > [!NOTE]
 > You can view the allow-prefill and other contact preferences for any contact. To see it, open the contact record, go to the **Details** tab, and review the **Contact preferences** section. More information: [Manage information about your current and prospective customers](manage-customer-information.md)
@@ -56,12 +51,13 @@ The following rules apply for prefilling landing-page forms:
 The following rules apply for prefilling subscription-center forms:
 
 - Subscription forms always allow prefilling, and all fields in the form will allow prefilling regardless of their **Prefill** setting.
-- All marketing email messages must include a link to a subscription center. The link always includes an ID that [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] uses to identify both the recipient and the message. When a contact selects this link, [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] uses the submitted ID to find the contact record and return a form prefilled with contact values and the current state of each included subscription list. [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] also sets a cookie just like the one it sets for landing pages.
-- If a contact opens a subscription center page directly, rather than selecting a link from an email, then the ID won't be present in the URL. Instead, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] requests the cookie as backup to identify the contact. If the cookie isn't found, then the subscription center won't work because it won't know who it's talking to.
+- All marketing email messages must include a link to a subscription center. The link always includes an ID that Dynamics 365 Marketing uses to identify both the recipient and the message. When a contact selects this link, Dynamics 365 Marketing uses the submitted ID to find the contact record and return a form prefilled with contact values and the current state of each included subscription list. Dynamics 365 Marketing also sets a cookie just like the one it sets for landing pages.
+- If a contact opens a subscription center page directly, rather than selecting a link from an email, then the ID won't be present in the URL. Instead, Dynamics 365 Marketing requests the cookie as backup to identify the contact. If the cookie isn't found, then the subscription center won't work because it won't know who it's talking to.
+- Links in email test sends also don't include a recipient ID, which means that when you open a subscription center link in a test-send email, the subscription center probably won't work. To test a subscription center, create and run a simple customer journey with a segment that only targets your own email address and a test message that includes the subscription-center link.
 
 ### Forward-to-a-friend forms
 
-Prefilling isn't supported for forward-to-a-friend forms because these forms don't display information from the database. The email addresses that contacts enter here aren't checked against addresses already in the database, and the values entered aren't connected to the submitting contact in any way. These addresses are only stored temporarily&mdash;they aren't used to create new contact records, nor are they visible to [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] users.
+Prefilling isn't supported for forward-to-a-friend forms because these forms don't display information from the database. The email addresses that contacts enter here aren't checked against addresses already in the database, and the values entered aren't connected to the submitting contact in any way. These addresses are only stored temporarily&mdash;they aren't used to create new contact records, nor are they visible to Dynamics 365 Marketing users.
 
 ## Create a landing-page form with prefill enabled
 
@@ -96,4 +92,4 @@ More information: [Set up subscription lists and subscription centers](set-up-su
 
 ## Enable prefill for an embedded form
 
-If you have embedded a marketing form on an external website (such as your own organization's website), rather than publishing it on a marketing page published on a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portal, you must authenticate the domain where you have embedded the form and also configure the form to enable prefill. For instructions, see [Integrate with forms published on an external website](embed-forms.md).
+If you have embedded a marketing form on an external website (such as your own organization's website), rather than publishing it on a marketing page published on a Dynamics 365 Portal, you must authenticate the domain where you have embedded the form and also configure the form to enable prefill. For instructions, see [Integrate with forms published on an external website](embed-forms.md).

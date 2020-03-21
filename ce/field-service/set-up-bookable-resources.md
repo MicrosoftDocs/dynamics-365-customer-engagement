@@ -1,8 +1,8 @@
 ---
-title: "Set up bookable resources (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Set up bookable resources (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 03/20/2019
+ms.date: 01/13/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
@@ -10,9 +10,6 @@ ms.technology:
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.assetid: 7ed1712e-acd6-433b-bb78-22f8d58c5c61
 caps.latest.revision: 14
@@ -29,8 +26,6 @@ search.app:
 
 # Set up bookable resources (Field Service)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 A bookable resource in Field Service is anything that needs to be scheduled. This most commonly includes people, equipment, and physical spaces (facilities).   
 
 Each resource can have different attributes that distinguish it from others, including but not limited to:
@@ -43,6 +38,8 @@ Each resource can have different attributes that distinguish it from others, inc
 - Resource Type (for example: User)
 
 In this topic, we will walk through how to create a bookable resource and add details to distinguish it from other resources. We will also explore some common details for setting up field technician resources for Field Service organizations.
+
+Along with this article, see the video: ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Set up bookable resources](https://youtu.be/g118F_LnxyE)
 
 ## Prerequisites
 
@@ -84,7 +81,7 @@ In this topic, we will walk through how to create a bookable resource and add de
 
 6. **Start/End Location**: Decide where the resource starts and ends his or her working day for scheduling and routing purposes.
    - **Location agnostic** - select this option if the location of this resource is not required for the business need and does not need to be considered during the scheduling process. If the work location of a requirement is set to **On site**, location agnostic resources will not return in results. 
-   - **Resource Address** - select this option if the resource starts and ends his or her day at a unique location. The exact location is derived from the latitude and longitude values on the related user, account, or contact records depending on the resource type. See the configuration considerations section in this article for an example of how resource type and start/end location work together. Be sure that you [connect to maps and turn on geo coding](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) in your environment. 
+   - **Resource Address** - select this option if the resource starts and ends his or her day at a unique location. The exact location is derived from the latitude and longitude values on the related user, account, or contact records depending on the resource type. See the configuration considerations section in this article for an example of how resource type and start/end location work together. Be sure that you [connect to maps and turn on geo coding](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) in your environment. 
    - **Organizational Unit** - select this option if the resource starts and ends the day at an organizational unit, typically representing a company location. The exact location is derived from the latitude and longitude values on the selected organizational unit for which there is a lookup field on the bookable resource form. If the resource is of type facility, the organizational unit acts as the location of the facility.
 7. **Organizational Unit**: Select the organizational unit the resource belongs to. This can represent a team the resource belongs to, an office the resource reports to, or the location where the resource starts and ends his or her day. 
 8. **Display On Schedule Board**: This determines if the resource is eligible to be added to the schedule board. If set to **yes**, then the resource can be added to the schedule board or manually selected.
@@ -113,27 +110,45 @@ After saving the bookable resource, it's time to set the working hours of the re
 
 Let's walk through how to set up working hours.
 
-1.  To set working hours:
-  - In the web interface (Field Service v7.x or earlier), select the arrow next to the resource name, and choose **Work Hours**.
-  - In the unified client interface (Field Service v8.x or later), select **Show Working Hours** at the top of the form. 
-  
- 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of setting working hours](media/resource-show-work-hours.png)
+In the web interface (Field Service v7.x or earlier), select the arrow next to the resource name, and choose **Work Hours**.
 
-2.  Select the **Set-Up** drop-down list and choose one of the following:  
+In the unified client interface (Field Service v8.x or later), select **Show Working Hours** at the top of the form. 
+
+ > [!div class="mx-imgBorder"]
+> ![Screenshot of work hours tab on a bookable resource](./media/resource-work-hours-new-navigate.png)
+
+In Field Service **v8.8.14** or later the work hours are displayed directly in the form.
+
+
+Select **+New** > **Working hours**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the new work hours dropdown](./media/resource-work-hours-new-working-hours.png)
+
+Choosing the beginning and end time of working hours, along with a repeat option such as "every day."
+
+Then **Save**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the working hours, with emphasis on the repeat feature](./media/resource-work-hours-new-hours.png)
+
+This will update the working hours calendar.
+
+You can edit or delete the working hours bu double-clicking the time slot on the calendar. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of work hours on a bookable resource](./media/resource-work-hours-new-edit.png) 
+
+> [!Note]
+> Whether setting the working hours for a day or longer, make sure the time zone reflects where the resource is located, which is configured on the resource form.
+
+In Field Service versions earlier than **8.8.14**, select the **Set-Up** drop-down list and choose one of the following as seen in the following screenshot:  
   
   - **New Weekly Schedule**: Set an ongoing weekly schedule for the resource.  
   
   - **Work Schedule for One Day**: Set the hours the resource can be scheduled for on a particular day.  
   
   - **Time Off**: Set the dates and times the resources can't work. 
-
-  Alternatively, double-click a day to set the working hours. 
-
-> [!Note]
-> Whether setting the working hours for a day or longer, ensure the time zone reflects where the resource is located, which is configured on the resource form.
-
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of setting working hours and timezone](media/resource-working-hours-timezone.png)
@@ -156,7 +171,7 @@ Other fields important for field technicians in field service scenarios are:
 - **Enable for Availability Search**: the schedule assistant is a dispatcher's best way to assign field technicians to work orders. 
 - **Warehouse**: this connects a field technician to a warehouse (typically the truck) to consume inventory on work orders. 
 
-In Field Service v8.2+, latitude and longitude fields exist on the bookable resource entity and are populated with the latest location coordinates from the Field Service Mobile app. Note that fields may need to be added to the bookable resource form. See our topic on [enabling location tracking](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/geofencing#step-3-enable-location-auditing-for-the-field-service-mobile-app) for more details. 
+In Field Service v8.2+, latitude and longitude fields exist on the bookable resource entity and are populated with the latest location coordinates from the Field Service Mobile app. Note that fields may need to be added to the bookable resource form. See our topic on [enabling location tracking](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/geofencing#step-3-enable-location-auditing-for-the-field-service-mobile-app) for more details. 
 
 
 ## Add characteristics, territories, and categories 

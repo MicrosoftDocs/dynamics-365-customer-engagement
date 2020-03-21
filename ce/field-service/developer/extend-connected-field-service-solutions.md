@@ -1,24 +1,21 @@
 ---
-title: "Extend Connected Field Service solutions (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Extend Connected Field Service solutions (Developer Guide for Dynamics 365) | MicrosoftDocs"
 description: "Connected Field Service supports the customization of each standard component or service and the easy addition of custom Azure-based components and services."
 ms.custom: 
   - dyn365-developer
   - dyn365-fieldservice
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.technology: 
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: d29a9353-73cf-4b49-b74f-d9050dc96bd7
 caps.latest.revision: 7
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: FieldServiceDave
+ms.author: daclar
 search.audienceType: 
   - developer
 search.app: 
@@ -27,8 +24,6 @@ search.app:
 ---
 
 # Extend Connected Field Service solutions
-
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 [!INCLUDE[pn_connected_field_service_msdyn365](../../includes/pn-connected-field-service-msdyn365.md)] supports the customization of each standard component or service and the easy addition of custom Azure-based components and services. This flexible architecture is required to support the wide range of current and future IoT devices and the envisioned supporting services for these devices.  
   
@@ -42,7 +37,7 @@ search.app:
   
  Although extending these Azure services (or adding additional ones) is beyond the scope of this topic, there are ample resources available to the developer, including the following from Microsoft:  
   
--   The [Microsoft Azure](https://azure.microsoft.com/) site for product descriptions, pricing and trial offers, documentation, downloads, blogs, and related resources, including the [Azure Documentation Center](https://azure.microsoft.com/documentation/) for developers and administrators. Most developers will want to download one or more [Azure SDKs](https://azure.microsoft.com/en-us/downloads/) and tools such as the [Azure Storage Explorer](http://storageexplorer.com/) and the [Azure Device Explorer](https://github.com/Azure/azure-iot-sdks/blob/master/tools/DeviceExplorer/doc/how_to_use_device_explorer.md).  
+-   The [Microsoft Azure](https://azure.microsoft.com/) site for product descriptions, pricing and trial offers, documentation, downloads, blogs, and related resources, including the [Azure Documentation Center](https://azure.microsoft.com/documentation/) for developers and administrators. Most developers will want to download one or more [Azure SDKs](https://azure.microsoft.com/downloads/) and tools such as the [Azure Storage Explorer](https://storageexplorer.com/) and the [Azure Device Explorer](https://github.com/Azure/azure-iot-sdks/blob/master/tools/DeviceExplorer/doc/how_to_use_device_explorer.md).  
   
 -   [MSDN Azure Technical Documentation Library](https://msdn.microsoft.com/library/azure/dn578280.aspx) for developer-oriented information and downloads  
   
@@ -73,7 +68,7 @@ search.app:
 
  [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] entities can be associated to IoT entities listed above so that within [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] they can participate in IoT-related business processes and analyses. There are two methods of “IoT enabling” a [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] entity; you can:  
   
-- Programmatically form an association through the standard Dynamics 365 for Customer Engagement [Connection entities](../../developer/connection-entities.md) capability. You can alternatively accomplish this same association through the administration UI; for more information, see [Create connections to view relationships between records](https://www.microsoft.com/dynamics/crm-customer-center/create-connections-to-view-relationships-between-records.aspx).  
+- Programmatically form an association through the standard Dynamics 365 [Connection entities](../../developer/connection-entities.md) capability. You can alternatively accomplish this same association through the administration UI; for more information, see [Create connections to view relationships between records](https://docs.microsoft.com/dynamics365/customer-engagement/basics/create-connections-view-relationships-between-records).  
   
 - Call the `IoT – Register Custom Entity` action to associate an entity with an existing or new `IoT Device`.  
   

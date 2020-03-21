@@ -1,19 +1,13 @@
 ---
 title: "Overview of Unified Service Desk Performance Report user interface | MicrosoftDocs"
 description: "Learn about what is Unified Service Desk Performance Analyzer and the performance report user interface."
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 ms.date: 10/31/2018
 ms.service: 
   - dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD, dyn365-admin
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: 78EAF8B6-2B69-41F5-B972-A511B32BF1A7
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -22,7 +16,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
-monikerRange : '>= dynamics-usd-3'
+monikerRange: '>= dynamics-usd-3'
 ---
 
 # Public Preview: Overview of Unified Service Desk performance report user interface

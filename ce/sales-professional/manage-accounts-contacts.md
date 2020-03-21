@@ -1,17 +1,12 @@
 ---
-title: "Manage your customers in Dynamics 365 for Sales Professional | MicrosoftDocs"
-description: "Store important information about the accounts and contacts you do business with in Dynamics 365 for Sales."
-keywords: ""
-ms.date: 04/05/2019
-ms.service:
-  - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
+title: "Manage your customers in Dynamics 365 Sales Professional | MicrosoftDocs"
+description: "Store important information about the accounts and contacts you do business with in Dynamics 365 Sales."
+ms.date: 10/01/2019
+ms.service: 
+  - dynamics-365-sales
+ms.custom: 
+  - dyn365-sales
 ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
-ms.assetid: 63050767-00bb-4394-87f2-0a34b64147b2
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
@@ -19,7 +14,7 @@ manager: annbe
 
 # Manage your customers
 
-In Dynamics 365 for Sales Professional, accounts and contacts records types are used to store information about your customers.
+In Dynamics 365 Sales Professional, accounts and contacts records types are used to store information about your customers.
 
 Accounts are organizations you do business with, and contacts are individual people with whom you have a relationship. A contact may or may not be associated with an account.
 
@@ -109,5 +104,5 @@ To create or edit a contact:
 
 ### See also
 
-[Develop sales from lead to cash in Dynamics 365 for Sales Professional](develop-sales-lead-to-cash-sales-professional.md)  
-[Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md)
+[Develop sales from lead to cash in Dynamics 365 Sales Professional](develop-sales-lead-to-cash-sales-professional.md)  
+[Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)

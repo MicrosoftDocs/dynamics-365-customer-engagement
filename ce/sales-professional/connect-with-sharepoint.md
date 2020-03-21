@@ -1,28 +1,23 @@
 ---
-title: "Configure Dynamics 365 for Sales Professional to integrate with SharePoint | MicrosoftDocs"
-description: "Allow your users to store sales documents in SharePoint and collaborate on them by integrating Dynamics 365 for Sales Professional with SharePoint."
-keywords: ""
-ms.date: 04/05/2019
-ms.service:
-  - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
+title: "Configure Dynamics 365 Sales Professional to integrate with SharePoint | MicrosoftDocs"
+description: "Allow your users to store sales documents in SharePoint and collaborate on them by integrating Dynamics 365 Sales Professional with SharePoint."
+ms.date: 10/01/2019
+ms.service: 
+  - dynamics-365-sales
+ms.custom: 
+  - dyn365-sales
 ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
-ms.assetid: 4b7ba471-25f9-403b-91cc-6e60fff2c668
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
 ---
 
-# Configure Dynamics 365 for Sales Professional to integrate with SharePoint
+# Configure Dynamics 365 Sales Professional to integrate with SharePoint
 
 > [!IMPORTANT]
-> This capability is introduced in the Dynamics 365 for Sales Professional app version 9.1.0.0.
+> This capability is introduced in the Dynamics 365 Sales Professional app version 9.1.0.0.
 
-Store the documents related to Dynamics 365 for Sales Professional entity records in SharePoint. Quickly access, share, and manage these documents from
+Store the documents related to Dynamics 365 Sales Professional entity records in SharePoint. Quickly access, share, and manage these documents from
 the Sales app by integrating with SharePoint Online.
 
 ## Prerequisites
@@ -41,7 +36,7 @@ To be able to configure SharePoint, you must have:
 
     If your organization doesn’t have a SharePoint subscription, you’ll need to first purchase one.
 
-2.  On the **Connect SharePoint to Dynamics 365 for Sales** page, enter your organization’s SharePoint address, and select **Connect SharePoint**.
+2.  On the **Connect SharePoint to Dynamics 365 Sales** page, enter your organization’s SharePoint address, and select **Connect SharePoint**.
 
     The following configuration happens in the background:
 
@@ -85,10 +80,10 @@ To be able to configure SharePoint, you must have:
     All the back-end configuration steps are performed again in the background.
 
     > [!IMPORTANT]
-    > If the issues persist, please follow the detailed setup process using the Dynamics 365 – custom app. More information: [Set up Dynamics 365 for Customer Engagement to use SharePoint Online](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/set-up-dynamics-365-online-to-use-sharepoint-online).
+    > If the issues persist, please follow the detailed setup process using the Dynamics 365 – custom app. More information: [Set up Dynamics 365 apps to use SharePoint Online](https://docs.microsoft.com/dynamics365/customer-engagement/admin/set-up-dynamics-365-online-to-use-sharepoint-online).
 
 ### See also
 
 [Manage your SharePoint documents](develop-sales-lead-to-cash-sales-professional.md)  
-[Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md)  
+[Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)  
 [Admin settings overview](admin-settings-overview.md)

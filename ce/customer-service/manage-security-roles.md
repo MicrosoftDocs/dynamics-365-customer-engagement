@@ -1,18 +1,15 @@
 ---
-title: Manage security roles in Service Scheduling (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Know how to manage security roles in service scheduling in Dynamics 365 for Customer Service
-keywords: Resources; Service scheduling; Dynamics 365 for Customer Engagement; Customer Service; Universal Resource Scheduling (URS)
-author: anjgupta
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
-ms.author: anjgup
+title: Manage security roles in Service Scheduling (Dynamics 365 Customer Service) | MicrosoftDocs
+description: Know how to manage security roles in service scheduling in Dynamics 365 Customer Service
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 11/20/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: dyn365-customerservice
-ms.assetid: 82eeeb62-3206-46d0-86ea-da16aa5792cc
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -23,8 +20,6 @@ search.app:
 ---
 
 # Manage security roles in service scheduling
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Security roles help to identify the privileges a user can exercise in the system. Security roles also define which entities a user can view or configure. For example, a user may have permission to see accounts but cannot see specific fields of an account.
 
@@ -45,7 +40,7 @@ The following standard security roles are leveraged in service scheduling:
 
    ![csm-role](media/csm-role.PNG)
 
-   To know more about how to create users and assign role to them, see [Create users in Dynamics 365 for Customer Engagement (online) and assign security roles](../admin/create-users-assign-online-security-roles.md). 
+   To know more about how to create users and assign role to them, see [Create users and assign security roles](../admin/create-users-assign-online-security-roles.md). 
 
 - **Customer Service Representative (CSR)**. The Customer Service Representative can create and schedule service activities. 
 

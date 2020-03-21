@@ -1,1 +1,0 @@
-Sets the label for the item.

@@ -1,22 +1,19 @@
 ---
-title: "Set up characteristics (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Set up characteristics (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/30/2017
-ms.reviewer: 
+ms.date: 09/10/2019
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.technology: 
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: 6a95bd55-8d7a-434e-a681-e1d1c0dc7598
 caps.latest.revision: 14
-ms.author: krbjoran
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin
@@ -28,8 +25,6 @@ search.app:
 ---
 # Specify skills for resources (Field Service)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Characteristics are skills that resources possess. For example, they can be used to indicate a license or certification is needed for certain types of work.  
   
  Adding characteristics to work orders allows you to document which knowledge or expertise is needed by a resource to complete the job, and to filter the list of available resources to those that have the matching characteristics when scheduling the work order.   
@@ -37,11 +32,11 @@ Characteristics are skills that resources possess. For example, they can be used
 <a name="BKMK_AddCharacteristics"></a>   
 ## Add characteristics  
   
-1.  From the main menu, click **Field Service** > **Administration**, and then choose **Characteristics**.  
+1.  From the main menu, open **Resource Scheduling** and then choose **Settings**.  
   
-2.  On the **Active Characteristics** screen, click **+New** in the upper left corner.  
+2.  Under the **Resource** section, choose **Skills.**  
   
-3.  Use the tooltips to help fill in your information and then click **Save**.  
+3.  Select **New** to add characteristics.
   
 <a name="BKMK_AssignCharacteristicsToResources"></a>   
 ## Assign characteristics to resources  
@@ -72,7 +67,7 @@ Characteristics are skills that resources possess. For example, they can be used
 5.  Click **Save & Close**.  
   
 ### See also    
- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
+ [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
  [Set up bookable resources](../field-service/set-up-bookable-resources.md)   
  [Set up bookable resource categories](../field-service/set-up-bookable-resource-categories.md)   
  [Set up resource pay types](../field-service/set-up-resource-pay-types.md)

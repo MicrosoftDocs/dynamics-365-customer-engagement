@@ -1,33 +1,18 @@
 ---
-title: "Associate documents with playbook activities (Dynamics 365 for Sales) | MicrosoftDocs"
+title: "Associate documents with playbook activities (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Associate documents with playbook activities to help your team access accurate and current sales materials or training content to close a deal."
-keywords: ""
-ms.date: 02/20/2019
-ms.service:
+ms.date: 10/01/2019
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.1"
-ms.assetid: 293f83ce-5ea3-4a3a-ab8a-52cae27b7859
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-topic-status: Tech Reviewing
 ---
 
 # Associate documents with playbook activities
-
-Applies to Dynamics 365 for Customer Engagement apps version 9.x
-
-
-> [!IMPORTANT]
-> This feature is being released in a phased manner. To know more about the feature's availability in your region, see [When will the April 2019 features be enabled for customers who did not opt in to the preview?](/power-platform/admin/preview-april-2019-updates#when-will-the-april-2019-features-be-enabled-for-customers-who-did-not-opt-in-to-the-preview)
 
 Ensure sales reps always have the latest sales and training materials to close a deal by associating documents with playbook activities that you add to a playbook template.
 For example, create a playbook template that sales reps can follow when the decision maker they are working with leaves the organization. While adding activities to this template, you can also attach documents that help the sales rep bring the new decision maker up to speed. 
@@ -42,13 +27,15 @@ So that you can add documents, make sure that document management for the playbo
 
 2.	In the activity form, select the **Related** tab, and then select **Documents**.
 
-    ![Documents option on the Related tab](media/documents-option-on-related-tab.png "Documents option on the Related tab")
+    > [!div class="mx-imgBorder"]  
+    > ![Documents option on the Related tab](media/documents-option-on-related-tab.png "Documents option on the Related tab")
 
     The **Documents** list opens.
 
-    ![Documents tab on the Playbook activity form](media/documents-tab-on-playbook-activity-form.png "Documents tab on the Playbook activity form")
+    > [!div class="mx-imgBorder"]  
+    > ![Documents tab on the Playbook activity form](media/documents-tab-on-playbook-activity-form.png "Documents tab on the Playbook activity form")
 
-3.	Select **Upload** to add documents that a sales rep might need while working on this playbook activity. The documents are stored on the configured SharePoint site. For more information about working with documents, see [Manage your SharePoint documents from Dynamics 365 for Customer Engagement apps](../basics/manage-sharepoint-documents-document-locations-in-dynamics-365-apps.md).
+3.	Select **Upload** to add documents that a sales rep might need while working on this playbook activity. The documents are stored on the configured SharePoint site. For more information about working with documents, see [Manage your SharePoint documents](../basics/manage-sharepoint-documents-document-locations-in-dynamics-365-apps.md).
 
 
 > [!NOTE]

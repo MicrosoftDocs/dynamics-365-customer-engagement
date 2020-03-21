@@ -1,6 +1,6 @@
 ---
 title: Business transactions 
-description: This topic provides information about business transactions for Dynamics 365 for Project Service Automation (PSA).  
+description: This topic provides information about business transactions.  
 author: rumant
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-In Microsoft Dynamics 365 for Project Service Automation (PSA), *business transaction* is an abstract concept that isn't represented by any entity. However, some common fields and processes on entities are designed to use the concept of business transactions. The following entities in PSA use this abstraction:
+In Dynamics 365 Project Service Automation, *business transaction* is an abstract concept that isn't represented by any entity. However, some common fields and processes on entities are designed to use the concept of business transactions. The following entities use this abstraction:
 
 - Quote line details
 - Contract line details
@@ -72,9 +72,7 @@ The **Milestone** value is typically used by the business logic for fixed-price 
 
 ### Transaction origin
 
-Transaction connection is an entity that stores the relation between two similar business transactions, such as cost and related sales actuals, or transaction reversals that are triggered by billing activities such as invoice confirmation or invoice correction.
-
-Together, the Transaction origin and Transaction connection entities help you track relationships between business transactions and actions that cause the creation of a specific business transaction.
+Transaction origin is an entity that stores the origin of each business transaction. As project execution gets underway, each business transaction will give rise to another business transaction which in turn will create another and so on. Transaction origin entity was designed to store data about each transaction’s origin to help reporting and traceability. 
 
 ### Transaction connection
 

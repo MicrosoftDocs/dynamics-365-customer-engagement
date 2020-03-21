@@ -26,7 +26,7 @@ search.app:
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 
-Microsoft Dynamics 365 for Product Service Automation (PSA) uses price lists and price list item entities to support product catalog pricing. For the most part, PSA uses this functionality for catalog-based lines on project quotes and project contracts.
+Price lists and price list item entities support product catalog pricing. For the most part, this functionality is used for catalog-based lines on project quotes and project contracts.
 
 For project-based lines, a contract represents the deal after it was won. Because the process of negotiation usually precedes the win, the pricing that is attached to the quote is always copied as-is to a new price list and attached to the contract. This new price list can't be changed outside the scope of the contract. This limitation helps protect the rate card that was negotiated from any price changes that occur in the master price list.
 

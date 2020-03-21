@@ -1,5 +1,5 @@
 ---
-title: Create a project opportunity (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: Create a project opportunity 
 description: How to create a project opportunity in Project Service
 author: ruhercul
 manager: kfend

@@ -1,5 +1,5 @@
 ---
-title: Create a customer account (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: Create a customer account 
 description: How to create a customer account in Project Service
 author: ruhercul
 manager: kfend

@@ -1,30 +1,18 @@
 ---
-title: "Create or edit a quote (Dynamics 365 for Sales) | MicrosoftDocs"
+title: "Create or edit quotes (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Quotes include the pricing details of the products your potential customer is interested in."
-keywords: "Quote, proposal, create quote, products, price"
-ms.date: 09/22/2017
-ms.service:
+ms.date: 10/01/2019
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: get-started-article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
-ms.assetid: 9881bdf5-8922-4cb6-b2df-544286e56400
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 37
-topic-status: Drafting
 ---
 
-# Create or edit a quote (Sales and Sales Hub)
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+# Create or edit quotes (Sales and Sales Hub)
 
 One way that can help you increase your sales is to add all products that your customer might need to your quote. [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] may also offer product bundles or product families to make it easier for you to choose products for upsell and cross-sell.  
   
@@ -34,7 +22,6 @@ One way that can help you increase your sales is to add all products that your c
   
  When the customer accepts the quote, you create an order. Otherwise, you close the quote as revised, canceled, or lost.  
   
-<a name="bkmk1"></a>  
 ## Create a quote from an opportunity (Sales Hub)
 
 1.	Select the site map  ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Opportunities**.
@@ -60,7 +47,6 @@ One way that can help you increase your sales is to add all products that your c
 > Your base record and all its line items must use the same currency. For example, if your quote has the currency set to U.S Dollars, you must use the same currency for the price list items that you add to the quote. You can’t change the currency of the base record (in this case, an quote), unless you remove all the line items associated with the record.
 > Similarly, if the quote is created from an opportunity, it must use the same currency as the opportunity.
 
-<a name="bkmk2"></a>  
 ## Create a quote (Sales Hub)
 
 1.	Select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Quotes**.
@@ -73,11 +59,18 @@ One way that can help you increase your sales is to add all products that your c
   
     -	**Price List** and **Currency**: The price list that will be used to calculate the product prices and currency.
 
+        > [!NOTE]
+        > By default, selecting a price list is required to be able to add products a quote. However, your administrator can change your organization settings to make the Price list field optional.
+
 4.	In the **Sales Information** section, in **Potential Customer**, enter information about the customer you're creating this quote for.
 
 5.	On the command bar, select **Save** to enable other sections on the form.
 
 6.	To add products from an opportunity to your quote, select **Get Products** at the top of the **Quote** form, select an opportunity, and then select **OK**.
+  
+    -OR-
+
+    To manually add other products, in the **Products** section, select the **More commands** icon ![More commands icon](media/more-commands-button.png "More commands icon"), and then select **Add New Quote Product**. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add products to Quote, invoice, or order records](add-product-quote-order-invoice.md)
 
 7.	In the **Shipping Information** area, enter shipping details.
 

@@ -1,17 +1,12 @@
 ---
-title: "Customize business process flows (Dynamics 365 for Sales Professional) | MicrosoftDocs"
-description: "Creating a business process flow in Dynamics 365 for Sales Professional to provide your users a guided experience to ensure they enter data consistently and follow the same steps every time."
-keywords: ""
-ms.date: 04/05/2019
-ms.service:
-  - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
+title: "Customize business process flows (Dynamics 365 Sales Professional) | MicrosoftDocs"
+description: "Creating a business process flow in Dynamics 365 Sales Professional to provide your users a guided experience to ensure they enter data consistently and follow the same steps every time."
+ms.date: 10/01/2019
+ms.service: 
+  - dynamics-365-sales
+ms.custom: 
+  - dyn365-sales
 ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
-ms.assetid: 298b8168-4674-4167-8b32-c9840414770e
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
@@ -20,9 +15,9 @@ manager: annbe
 # Customize business process flows (Sales Professional)
 
 > [!IMPORTANT]
-> This capability is introduced in the Dynamics 365 for Sales Professional app version 9.1.0.0.
+> This capability is introduced in the Dynamics 365 Sales Professional app version 9.1.0.0.
 
-With Dynamics 365 for Sales Professional, you can help ensure that users enter data consistently and follow the same steps every time they work with a customer by creating a business process flow. For example, you might want to create a business process flow to have everyone handle customer service requests the same way, or to require that users get approval for an invoice before submitting an order. 
+With Dynamics 365 Sales Professional, you can help ensure that users enter data consistently and follow the same steps every time they work with a customer by creating a business process flow. For example, you might want to create a business process flow to have everyone handle customer service requests the same way, or to require that users get approval for an invoice before submitting an order. 
 
 Business process flows use the same underlying technology as other processes, but the capabilities that they provide are very different from other features that use processes.
 
@@ -32,7 +27,7 @@ Business process flows appear relatively simple compared to other types of proce
 
 ## Entities available for business process flows
 
-Entities are sets of records. You can use the following entities to create business process flows in Dynamics 365 for Sales Professional:
+Entities are sets of records. You can use the following entities to create business process flows in Dynamics 365 Sales Professional:
 
 -   Account
 

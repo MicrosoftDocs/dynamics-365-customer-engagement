@@ -1,1 +1,0 @@
-Gets the logical name of the entity data displayed in the grid.

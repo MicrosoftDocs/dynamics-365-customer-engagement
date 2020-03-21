@@ -2,12 +2,9 @@
 title: "Troubleshoot Voice of the Customer | MicrosoftDocs"
 description: "Learn how to troubleshoot issues in Voice of the Customer solution."
 keywords: troubleshoot voice of the customer
-ms.date: 11/30/2018
+ms.date: 07/01/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: C3787135-8818-42F6-A63C-F968EBB60802
 author: sbmjais
 ms.author: shjais
@@ -19,6 +16,9 @@ ms.custom:
 ---
 
 # Troubleshooting the Voice of the Customer solution
+
+> [!IMPORTANT]
+> Voice of the Customer (VoC) is being deprecated and replaced with Microsoft Forms Pro. [Learn more](https://go.microsoft.com/fwlink/p/?linkid=2097704)
 
 This article provides information about troubleshooting issues in the Voice of the Customer solution.
 
@@ -32,7 +32,7 @@ If the Voice of the Customer solution is accidentally deleted or misconfigured, 
 
 **Web client**
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to the Voice of the Customer legacy web client.
 
 2. Go to **Settings** > **Voice of the Customer Configurations**.
 
@@ -61,7 +61,7 @@ To validate the Voice of the Customer solution:
 
 **Web client**
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to the Voice of the Customer legacy web client.
 
 2. Go to **Settings** > **Voice of the Customer Configurations**.
 
@@ -91,7 +91,7 @@ To validate the Voice of the Customer solution:
 
 As a survey administrator, you can validate whether a survey has created any issues.
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+1. Sign in to the Voice of the Customer legacy web client or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
 
 2. Go to **Voice of the Customer** > **Surveys**.
 

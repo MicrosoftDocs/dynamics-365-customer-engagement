@@ -1,5 +1,5 @@
 ---
-title: Time, expense, and collaboration guide (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: Time, expense, and collaboration guide 
 description: A guide to time, expense, and collaboration for Project Service
 author: revathiMuthiah
 manager: kfend
@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Welcome to the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] app, which helps companies manage their project-based sales. Dynamics 365 for Customer Engagement stands for customer relationship management, which your company uses to manage relationships with your clients.  
+Welcome to the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] app, which helps companies manage their project-based sales. 
   
  This guides you through entering your time and expenses for the projects you’re working on. Stay on top of your time and expense entry to make sure:  
   

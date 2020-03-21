@@ -7,11 +7,10 @@ ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps 
-  - Dynamics 365 for Customer Engagement apps Version 8.x
+applies_to: Dynamics 365 apps
 ms.assetid: f06016f2-9d36-4f92-9d40-80ceba147c3f
 caps.latest.revision: 7
+author: mduelae
 ms.author: jimholtz
 manager: brycho
 search.audienceType: 
@@ -23,7 +22,5 @@ search.app:
   - D365Outlook
 ---
 # About this content
-
-[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
 
 The topics in this folder apply to Dynamics 365 App for Outlook, version 8.x. 

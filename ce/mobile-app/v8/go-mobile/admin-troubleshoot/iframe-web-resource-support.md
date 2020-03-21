@@ -1,21 +1,21 @@
 ---
 title: "iFrame and web resource support in Dynamics 365 for tablets | MicrosoftDocs"
 ms.custom: 
-ms.date: 2016-11-01
+ms.date: 11/01/2016
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement apps (on-premises)
+  - Dynamics 365 apps
+  - Dynamics 365 apps (on-premises)
   - Dynamics CRM 2016
   - Dynamics CRM Online
-author: mduelae
 ms.assetid: d4bcbe8e-75c5-4489-b8f1-50641a87f684
 caps.latest.revision: 24
 ms.author: mkaur
+author: mduelae
 manager: kvivek
 search.audienceType: 
   - admin
@@ -26,8 +26,6 @@ search.app:
   - D365Sales
 ---
 # iFrame and web resource support in Dynamics 365 for tablets
-
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
 
 You can add iFrames and web resources in forms and dashboards in the [!INCLUDE[pn_microsoftcrm](../../../../includes/pn-microsoftcrm.md)] web app, and they will appear in [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)] as well. For example, if you add a news feed to a dashboard in the web app, the news feed will also appear in the tablet app. For more information about using iFrames and web resources, see [MSDN: Create web resources and iFrame content for use with the Dynamics 365 for tablets client](https://msdn.microsoft.com/library/dn858562.aspx).  
   

@@ -1,19 +1,12 @@
 ---
-title: "Use Chrome Process hosting method for your controls in Unified Service Desk for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Use Chrome Process hosting method for your controls in Unified Service Desk  | MicrosoftDocs"
 description: "Learn about the Chrome Process hosting method for your controls in Unified Service Desk."
 ms.custom: 
   - dyn365-USD
-ms.date: 04/10/2019
-ms.service: dynamics-365-customerservice
-ms.tgt_pltfrm: ""
+ms.date: 07/12/2019
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-ms.assetid: CDB80F22-D45C-492C-92E8-B00A1CF94F31
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -247,7 +240,7 @@ Let us see what configurations you need to create for the above-mentioned scenar
 
 ## Sign out from sessions when using the Chrome Process
 
-To sign out from sessions when using the Chrome process, you must configure the sign-out URL using the **Navigate** action on the hosted control. For example, the sign-out URL of Dynamics 365 for Customer Engagement apps is `url=/main.aspx?signout=1`.
+To sign out from sessions when using the Chrome process, you must configure the sign-out URL using the **Navigate** action on the hosted control. For example, the sign-out URL is `url=/main.aspx?signout=1`.
 
 ## Support for webcam and microphone access with Chrome Process
 
@@ -255,7 +248,7 @@ Agents in your organization require webcam and microphone access according to yo
 
 ### Add the ChromeEnableMediaStream UII option
 
- 1. Sign in to Dynamics 365 for Customer Engagement apps.
+ 1. Sign in to the Common Data Service platform.
 
  2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
@@ -269,7 +262,7 @@ Agents in your organization require webcam and microphone access according to yo
 
  7. Select save.
 
-## Support debugging of Chrome Process
+## Debug Chrome Process
 
 You can debug the Chrome Process in two ways:
 
@@ -293,7 +286,7 @@ Also, within Unified Service Desk client application, you can debug a Chrome Pro
 
 ### Add the ChromeRemoteDebuggingPort UII option
 
-1. Sign in to Dynamics 365 for Customer Engagement apps.
+1. Sign in to the Common Data Service platform.
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
@@ -318,7 +311,7 @@ To enable close confirmation dialog, you must add the **OnBeforeCloseHandler** U
 
 ### Add the OnBeforeCloseHandler UII option
 
-1. Sign in to Dynamics 365 for Customer Engagement apps.
+1. Sign in to the Common Data Service platform.
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
@@ -340,7 +333,7 @@ By default, the keyboard shortcuts for zoom in, zoom out, and zoom reset are as 
 | Zoom out |`Ctrl` + `OemMinus`| `Ctrl -`|
 | Zoom reset |`Ctrl` + `0`| `Ctrl 0`|
 
-To update additional the keyboard shortcuts, you must add the UII options and provide the character as the value. To learn about the allowed set of character values, see [Keys](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields)
+To update additional the keyboard shortcuts, you must add the UII options and provide the character as the value. To learn about the allowed set of character values, see [Keys](https://docs.microsoft.com/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields)
 
 ### List of zoom control UII options
 
@@ -359,7 +352,7 @@ To update additional the keyboard shortcuts, you must add the UII options and pr
 
 ### Add the Zoom control UII option
 
-1. Sign in to Dynamics 365 for Customer Engagement apps.
+1. Sign in to the Common Data Service platform.
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
@@ -367,7 +360,7 @@ To update additional the keyboard shortcuts, you must add the UII options and pr
 
 4. Choose **Others** for the **Global Option** field.
 
-5. Type the name of the UII option for the **Name** field and type value for the **Value** field.<br> See the list of [zoom control UII options](#list-of-zoom-control-uii-options).<br> See the list of [value keys](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields).
+5. Type the name of the UII option for the **Name** field and type value for the **Value** field.<br> See the list of [zoom control UII options](#list-of-zoom-control-uii-options).<br> See the list of [value keys](https://docs.microsoft.com/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields).
 
 6. Select **Save**.
 
@@ -395,7 +388,7 @@ Example path: `C:\Program Files\Microsoft Dynamics CRM USD\USD`
 
 ### Set default zoom value for entire organization
 
-1. Sign in to Dynamics 365 for Customer Engagement apps.
+1. Sign in to the Common Data Service platform.
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
@@ -421,7 +414,7 @@ If you leave the value blank or set the value as **False**, then Chrome Process 
 
 ### Add the AllowWebpageNavigationCertificateError UII option
 
-1. Sign in to Dynamics 365 for Customer Engagement apps.
+1. Sign in to the Common Data Service platform.
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
@@ -441,7 +434,7 @@ After adding the UII option, if you set to false or leave the value empty, the U
 
 ### Add the AllowWebpageNavigationCertificateError UII option
 
-1. Sign in to Dynamics 365 for Customer Engagement apps.
+1. Sign in to the Common Data Service platform.
 
 2. Go to **Settings** > **Unified Service Desk** > **Options**.
 
@@ -456,6 +449,74 @@ After adding the UII option, if you set to false or leave the value empty, the U
 ## Set focus on webpage when using Chrome Process
 
 When using Chrome Process to host web applications in Unified Service Desk, if you want to set the focus on the webpage automatically, then you must create an action call with action as **RunScript** and **Data** with a JavaScript function - `window.top.USDChromeSetFocus()`. After you create the action call, add it to the **PageReady** event in case of **Unified Interface Page** and the **BrowserDocumentComplete** event in case of the **CRM Page** hosted control.
+
+## Handle URI protocol in Chrome Process
+
+When using Chrome Process, you might want to block the protocol navigation inside Unified Service Desk client application or want to open the application in a separate window outside of Unified Service Desk client application. Use the Window Navigation Rules to block or open the application outside of Unified Service Desk client application. 
+
+Add the URL in the Window Navigation Rules and set the **Action** to **None** to block the navigation and set **Show Outside** to show the application outside of Unified Service Desk client application.
+
+For example, you've integrated a softphone with Unified Service Desk and using the Chrome Process hosting type to host web applications. Now, when an agent selects the phone number in the contact or account page, you want to initiate a call using the softphone instead of Skype. Now, create the window navigation rule and set the **Action** to **None** to block skype protocol. Now, you can create specific action calls as sub-action calls of this window navigation rule to initiate the call using softphone.
+
+To create a Window Navigation Rule, follow the steps:
+
+1. Sign to the Common Data Service platform.
+
+2. Select down arrow next to Dynamics 365.
+
+3. Select **Unified Service Desk Administrator**.
+
+4. Select **Window Navigation Rules** under **Basic Settings**.
+
+5. Select **+ New** in the **Active Window Navigation Rules** page.
+
+6. Specify the following values on the **New Window Navigation Rules** page.
+
+   | Tab |  Field | Value |
+   |-------------------|------------------------------------------------|--------------------------------------------------|
+   | General | Name | Telephone Protocol <br><br> or <br><br> Skype Protocol |
+   | General | Url | tel: <br><br> or <br><br> skype: |
+   | Result | Route Type | Popup |
+   | Result | Action | None or Show Outside |
+
+7. Select **Save**.
+
+Now, when an agent selects the number in the contact or account page, based on the window navigation rule, Chrome Process blocks or opens the application outside of Unified Service Desk client application.
+
+## Generate Chrome Process crash report
+
+You must generate the reports when you want to investigate the Chrome Process crash in Unified Service Desk. To generate the report, you must add the **ChromeEnableLogging** UII option and set the value as **True**.  The files are generated in the following location:
+
+`C:\Users\agent1\AppData\Roaming\Microsoft\USD\CEF\cef_debug.log`
+
+### Add the ChromeEnableLogging UII option
+
+1. Sign in to the Common Data Service platform.
+
+2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]
+
+3. Choose **Options**.  
+
+4. Select **New** on the **Active UII Options** page.
+
+5. Choose **Others** for the **Global Option** field.
+
+6. Type **ChromeEnableLogging** for the **Name** field.
+
+7. Set **True** for the **Value** field.
+
+8. Select **Save**.
+
+
+## Use window.IsUSD property to invoke Unified Service Desk event
+
+With Chrome Process, if you use the `window.IsUSD` property in your JavaScript code, you must use it on the predefined events like **pageReady** and **BrowserDocumentComplete** to determine whether the JavaScript code is running under Unified Service Desk or not.
+
+When you use the property on the Unified Service Desk predefined events, the property returns true. Otherwise, it returns false.
+
+## Download attachments in Chrome Process
+
+When you use Chrome Process to host web applications in Unified Service Desk and select a file attachment, by design, Chrome Process prompts you to save the file to a local folder. After saving the file, you can open to view it.
 
 
 ## Limitations

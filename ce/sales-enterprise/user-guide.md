@@ -1,30 +1,18 @@
 ---
-title: "User Guide (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "Contains topics that describe how to do common sales tasks in Dynamics 365 for Sales"
-keywords: "sales, User guide"
-ms.date: 07/18/2018
-ms.service:
+title: "Help resources for sales people (Dynamics 365 Sales) | MicrosoftDocs"
+description: "Contains topics that describe how to do common sales tasks in Dynamics 365 Sales"
+ms.date: 10/01/2019
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: get-started-article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
-ms.assetid: b16a9d08-e24a-4b60-9dcc-6803cea4882e
 author: shubhadaj
 ms.author: shujoshi
 manager: sakudes
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 5
-topic-status: Drafting
 ---
 
-# Resources for sales person (Sales and Sales Hub)
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+# Help resources for sales people (Sales Enterprise)
 
 [!INCLUDE[pn_dyn_365_sales](../includes/pn-dyn-365-sales.md)] helps you zero in on the right leads, contacts, and opportunities as you build out your team's sales pipeline. Built-in processes guide you from one stage of the sales process to the next, and  easy-to-use dashboards help you set goals and provide actionable insights to help you close more deals.  
   
@@ -51,6 +39,7 @@ topic-status: Drafting
 
 <li><a href="../basics/accounts-contacts.md" data-raw-source="[Work with accounts and contacts](../basics/accounts-contacts.md)">Work with accounts and contacts</a></li>
 <li><a href="../basics/deactivate-activate-account-contact.md" data-raw-source="[Deactivate or activate an account or contact](../basics/deactivate-activate-account-contact.md)">Deactivate or activate an account or contact</a></li>
+<li><a href="live-org-chart.md" data-raw-source="[Organize contacts in live org charts for accounts](live-org-chart.md)">Organize contacts in live org charts for accounts</a></li>
 
 </td></tr>
 
@@ -58,20 +47,20 @@ topic-status: Drafting
 <h2>Increase sales</h2>
 
 <li><a href="nurture-sales-from-lead-order-sales.md" data-raw-source="[Nurture sales from lead to cash](nurture-sales-from-lead-order-sales.md)">Nurture sales from lead to cash</a></li>
-<li><a href="create-edit-lead-sales.md" data-raw-source="[Create or edit a lead](create-edit-lead-sales.md)">Create or edit a lead</a></li>
-<li><a href="qualify-lead-convert-opportunity-sales.md" data-raw-source="[Convert a lead to an opportunity](qualify-lead-convert-opportunity-sales.md)">Convert a lead to an opportunity</a></li>
-<li><a href="../sales-enterprise/re-open-lead-sales.md" data-raw-source="[Reopen a lead](../sales-enterprise/re-open-lead-sales.md)">Reopen a lead</a></li>
-<li><a href="create-edit-opportunity-sales.md" data-raw-source="[Create or edit an opportunity](create-edit-opportunity-sales.md)">Create or edit an opportunity</a></li>
-<li><a href="../sales-enterprise/close-opportunity-won-lost-sales.md" data-raw-source="[Close an opportunity as won or lost](../sales-enterprise/close-opportunity-won-lost-sales.md)">Close an opportunity as won or lost</a></li>
+<li><a href="create-edit-lead-sales.md" data-raw-source="[Create or edit leads](create-edit-lead-sales.md)">Create or edit leads</a></li>
+<li><a href="qualify-lead-convert-opportunity-sales.md" data-raw-source="[Qualify or convert leads](qualify-lead-convert-opportunity-sales.md)">Qualify or convert leads</a></li>
+<li><a href="../sales-enterprise/re-open-lead-sales.md" data-raw-source="[Reopen leads](../sales-enterprise/re-open-lead-sales.md)">Reopen leads</a></li>
+<li><a href="create-edit-opportunity-sales.md" data-raw-source="[Create or edit opportunities](create-edit-opportunity-sales.md)">Create or edit opportunities</a></li>
+<li><a href="../sales-enterprise/close-opportunity-won-lost-sales.md" data-raw-source="[Close opportunities as won or lost](../sales-enterprise/close-opportunity-won-lost-sales.md)">Close opportunities as won or lost</a></li>
 
 
 </td><td>
 
 <h2>Create and work with collateral</h2>
 
-<li><a href="create-edit-quote-sales.md" data-raw-source="[Create or edit a quote](create-edit-quote-sales.md)">Create or edit a quote</a></li>
-<li><a href="create-edit-order-sales.md" data-raw-source="[Create or edit an order ](create-edit-order-sales.md)">Create or edit an order </a></li>
-<li><a href="create-edit-invoice-sales.md" data-raw-source="[Create or edit an invoice](create-edit-invoice-sales.md)">Create or edit an invoice</a></li>
+<li><a href="create-edit-quote-sales.md" data-raw-source="[Create or edit quotes](create-edit-quote-sales.md)">Create or edit quotes</a></li>
+<li><a href="create-edit-order-sales.md" data-raw-source="[Create or edit orders ](create-edit-order-sales.md)">Create or edit orders </a></li>
+<li><a href="create-edit-invoice-sales.md" data-raw-source="[Create or edit invoices](create-edit-invoice-sales.md)">Create or edit invoices</a></li>
 
 
 </td></tr>
@@ -101,7 +90,6 @@ topic-status: Drafting
 <h2>Reports, calendar, and printing</h2>
 
 <li><a href="../basics/run-report.md" data-raw-source="[Run a report](../basics/run-report.md)">Run a report</a></li>
-<li><a href="../basics/add-edit-power-bi-visualizations-dashboard.md" data-raw-source="[Add or edit Power BI visualizations on your dashboard](../basics/add-edit-power-bi-visualizations-dashboard.md)">Add or edit Power BI visualizations on your dashboard</a></li>
 <li><a href="../basics/workplace-calendar.md" data-raw-source="[Use the workplace calendar](../basics/workplace-calendar.md)">Use the workplace calendar</a></li>
 <li><a href="../basics/print-leads-quotes-other-records.md" data-raw-source="[Print leads, quotes, and other records](../basics/print-leads-quotes-other-records.md)">Print leads, quotes, and other records</a></li>
 
@@ -109,7 +97,6 @@ topic-status: Drafting
 <td>
 <h2>Get better sales intelligence</h2>
 
-<li><a href="../social-engagement/integrate-social-engagement-dynamics-365.md#add-social-engagement-visuals-to-dynamics-365" data-raw-source="[Add Social Engagement visuals to Dynamics 365 for Customer Engagement](../social-engagement/integrate-social-engagement-dynamics-365.md#add-social-engagement-visuals-to-dynamics-365)">Add Social Engagement visuals to Dynamics 365 for Customer Engagement</a></li>
 <li><a href="../versium-predict/versium-predict.md" data-raw-source="[Boost sales with Versium Predict](../versium-predict/versium-predict.md)">Boost sales with Versium Predict</a></li>
 <li><a href="../insights-insideview/insights-powered-by-insideview.md" data-raw-source="[Get sales Insights, powered by InsideView](../insights-insideview/insights-powered-by-insideview.md)">Get sales Insights, powered by InsideView</a></li>
 

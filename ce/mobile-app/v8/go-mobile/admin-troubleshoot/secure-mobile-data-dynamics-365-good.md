@@ -1,15 +1,15 @@
 ---
-title: "Secure your mobile data with Microsoft Dynamics 365 for Customer Engagement apps for Good | MicrosoftDocs"
+title: "Secure your mobile data with Microsoft Dynamics 365 apps for Good | MicrosoftDocs"
 ms.custom: 
-ms.date: 2016-11-01
-ms.reviewer: 
+ms.date: 01/11/2016
+ms.reviewer:
 ms.service: crm-online
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.suite:
+ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement apps (on-premises)
+  - Dynamics 365 apps
+  - Dynamics 365 apps (on-premises)
   - Dynamics CRM 2015
   - Dynamics CRM 2016
   - Dynamics CRM Online
@@ -18,32 +18,30 @@ ms.assetid: f5c366db-30d2-44c6-89f4-89a566dae188
 caps.latest.revision: 28
 ms.author: mkaur
 manager: kvivek
-search.audienceType: 
+search.audienceType:
   - admin
   - customizer
   - enduser
-search.app: 
+search.app:
   - D365CE
   - D365Sales
 ---
-# Secure your mobile data with Microsoft Dynamics 365 for Customer Engagement apps for Good
-
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
+# Secure your mobile data with Microsoft Dynamics 365 apps for Good
 
 As of December 3, 2018, Microsoft Dynamics 365 for Blackberry App is deprecated and will be removed from the iOS App Store on October 31, 2019. For more information, [Dynamics 365 for Blackberry is deprecated
-](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#dynamics-365-for-blackberry-is-deprecated).
+](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#dynamics-365-for-blackberry-is-deprecated).
 
 [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../../../../includes/pn-microsoft-dynamics-crm-for-good.md)], integrated with [!INCLUDE[pn_good_dynamics](../../../../includes/pn-good-dynamics.md)], protects your [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] data even if you lose or leave your mobile device somewhere. For example, if you leave your device in a taxi cab and can’t get it back right away, your [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] data is protected by [!INCLUDE[pn_good_shortest](../../../../includes/pn-good-shortest.md)] encryption. If you lose your device entirely, just notify your admin, who can remotely wipe your [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../../../../includes/pn-microsoft-dynamics-crm-for-good.md)] data from your device.  
   
- This app is intended for use only with [!INCLUDE[pn_good_dynamics](../../../../includes/pn-good-dynamics.md)] server software and services from [!INCLUDE[pn_good_technology](../../../../includes/pn-good-technology.md)]. If you’re not using [!INCLUDE[pn_good_dynamics](../../../../includes/pn-good-dynamics.md)], download [!INCLUDE[pn_Mobile_Express_long](../../../../includes/pn-mobile-express-long.md)] or [!INCLUDE[pn_moca_full](../../../../includes/pn-moca-full.md)] instead from the [Apple App store](http://go.microsoft.com/fwlink/p/?LinkID=313645).  
+ This app is intended for use only with [!INCLUDE[pn_good_dynamics](../../../../includes/pn-good-dynamics.md)] server software and services from [!INCLUDE[pn_good_technology](../../../../includes/pn-good-technology.md)]. If you’re not using [!INCLUDE[pn_good_dynamics](../../../../includes/pn-good-dynamics.md)], download [!INCLUDE[pn_Mobile_Express_long](../../../../includes/pn-mobile-express-long.md)] or [!INCLUDE[pn_moca_full](../../../../includes/pn-moca-full.md)] instead from the [Apple App store](https://go.microsoft.com/fwlink/p/?LinkID=313645).  
   
-## Download the Microsoft Dynamics 365 for Customer Engagement apps for Good app  
- You can download the [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../../../../includes/pn-microsoft-dynamics-crm-for-good.md)] app from the [Apple App store](http://go.microsoft.com/fwlink/p/?LinkID=524762). You can also find the app on the [Good Dynamics Marketplace](http://go.microsoft.com/fwlink/p/?LinkId=524809).  
+## Download the Microsoft Dynamics 365 apps for Good app  
+ You can download the [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../../../../includes/pn-microsoft-dynamics-crm-for-good.md)] app from the [Apple App store](https://go.microsoft.com/fwlink/p/?LinkID=524762). You can also find the app on the [Good Dynamics Marketplace](https://go.microsoft.com/fwlink/p/?LinkId=524809).  
   
 > [!IMPORTANT]
 >  [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../../../../includes/pn-microsoft-dynamics-crm-for-good.md)] requires iOS 7.0 or later. To use the app on an [!INCLUDE[tn_ipad](../../../../includes/tn-ipad.md)], you need [!INCLUDE[pn_crm_2015](../../../../includes/pn-crm-2015.md)] or later. To use the app on an [!INCLUDE[tn_iphone](../../../../includes/tn-iphone.md)], you need [!INCLUDE[pn_crm_online_2015_update_1](../../../../includes/pn-crm-online-2015-update-1.md)] or later or [!INCLUDE[pn_crm_2016](../../../../includes/pn-crm-2016.md)].  
   
-## Start and sign in to the Microsoft Dynamics 365 for Customer Engagement apps for Good app  
+## Start and sign in to the Microsoft Dynamics 365 apps for Good app  
   
 1. Open the [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../../../../includes/pn-microsoft-dynamics-crm-for-good.md)] app.  
   
@@ -61,7 +59,7 @@ As of December 3, 2018, Microsoft Dynamics 365 for Blackberry App is deprecated 
   
    Now that you’re signed in to the [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../../../../includes/pn-microsoft-dynamics-crm-for-good.md)] app, check out the [CRM for Phones and Tablets User’s Guide](../../../../mobile-app/dynamics-365-phones-tablets-users-guide.md) to find out all you can do.  
   
-## Accessing email and other apps through Microsoft Dynamics 365 for Customer Engagement apps for Good  
+## Accessing email and other apps through Microsoft Dynamics 365 apps for Good  
  If you get an alert when you try to use email or other apps through [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../../../../includes/pn-microsoft-dynamics-crm-for-good.md)], your admin may be controlling communication to these apps for security purposes. Contact your [!INCLUDE[pn_good_shortest](../../../../includes/pn-good-shortest.md)] admin to find out which apps your company uses in conjunction with [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../../../../includes/pn-microsoft-dynamics-crm-for-good.md)], along with any settings that need to be configured.  
   
 <a name="bkmk4"></a>   

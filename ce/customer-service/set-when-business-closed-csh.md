@@ -1,18 +1,15 @@
 ---
-title: Set when your business is closed (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: View how to set when your business is closed in Dynamics 365 for Customer Service
-keywords: Set when business closed; Dynamics 365 for Customer Engagement; Customer Service
-author: anjgupta
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
-ms.author: anjgup
+title: Set when your business is closed (Dynamics 365 Customer Service) | MicrosoftDocs
+description: View how to set when your business is closed in Dynamics 365 Customer Service
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ms.date: 11/20/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: dyn365-customerservice
-ms.assetid: 0b050a02-7654-4c0d-803b-1c2c74711230
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -24,9 +21,7 @@ search.app:
 
 # Set when your business is closed
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
-Prevent scheduling resources on holidays and other nonworking days by defining business closures in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. You can set both the days and times that your organization will be closed. 
+Prevent scheduling resources on holidays and other nonworking days by defining business closures in Dynamics 365 Customer Service. You can set both the days and times that your organization will be closed. 
 
 ## Schedule a new business closure
 Make sure that you have the required security role or equivalent permissions. 
@@ -51,10 +46,10 @@ Make sure that you have the required security role or equivalent permissions.
   
          The first 12 characters of the name appear on each day of the closure on the calendar view of the affected resource's **Work Hours**.  
   
-    -  If the closure is an all-day event, select the **All Day Event** check box. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] automatically enters the duration of *1 day*.
+    -  If the closure is an all-day event, select the **All Day Event** check box. The application automatically enters the duration of *1 day*.
     - In the **Start Time** and **End Time** boxes, enter the start and end date and time for the closure.
   
-    - If you want to enter duration instead of an end time, select the length of the closure in the **Duration** box. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] automatically calculates the end time for you.
+    - If you want to enter duration instead of an end time, select the length of the closure in the **Duration** box. The application automatically calculates the end time for you.
   
       If you want to enter a specific time period, clear the **All Day Event** check box. You can then specify the hours during which your organization will be closed.  
   

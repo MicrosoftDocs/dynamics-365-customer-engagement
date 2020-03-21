@@ -3,20 +3,10 @@ title: "Debugger (Hosted Control) | MicrosoftDocs"
 description: "Learn about using Debugger hosted control type in Unified Service Desk to configure a debugger control in Unified Service Desk to provide you with insights about the process and code executions in the agent application."
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
-ms.reviewer: 
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.date: 12/31/2019
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: 227bba2c-87d2-489c-b91b-5fad0d3c1042
-caps.latest.revision: 6
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -28,7 +18,7 @@ search.app:
   - D365USD
 ---
 # Debugger (Hosted Control)
-Use **Debugger** hosted control type in Unified Service Desk to configure a debugger control in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to provide you with insights about the process and code executions in the agent application. All the three sample applications in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] come with a preconfigured Debugger hosted control. For more information, see [Debug issues in Unified Service Desk](http://go.microsoft.com/fwlink/p/?LinkId=518149) in the Unified Service Desk Administration Guide.  
+Use **Debugger** hosted control type in Unified Service Desk to configure a debugger control in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to provide you with insights about the process and code executions in the agent application. All the three sample applications in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] come with a preconfigured Debugger hosted control. For more information, see [Debug issues in Unified Service Desk](https://go.microsoft.com/fwlink/p/?LinkId=518149) in the Unified Service Desk Administration Guide.  
   
 <a name="Create"></a>   
 ## Create a Debugger hosted control  
@@ -38,7 +28,7 @@ Use **Debugger** hosted control type in Unified Service Desk to configure a debu
   
  In the **New Hosted Control** screen:  
   
-- Under **Unified Service Desk** area, select **Debugger** from the **USD Component Type** drop-down list.  
+- Under **Unified Service Desk** area, select **Debugger** from the **Unified Service Desk Component Type** drop-down list.  
   
 - The **Display Group** field displays the panel where this hosted control will be displayed. **MainPanel** is the most common for this hosted control type. For information about various panels available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md). For information about other **General** fields, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
   
@@ -69,62 +59,62 @@ Use **Debugger** hosted control type in Unified Service Desk to configure a debu
 |panel|Target panel for the hosted control.|  
   
 ### New_CRM_Page  
- Creates a page for creating a new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps record of the entity specified, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the page to create the entity record is displayed.  
+ Creates a page for creating a new record of the entity specified, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the page to create the entity record is displayed.  
   
 |Parameter|Description|  
 |---------------|-----------------|  
 |LogicalName|The logical name of the entity for creating a new instance.|  
   
 > [!NOTE]
->  The rest of the parameters should consist of name=value pairs. These are the additional pre-populated values in the form for creating a new record for the specified entity. For more information about using this action, see step 4 in [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md).  
-  
-### Open_CRM_Page  
- Opens an existing instance of the entity specified and identified by the ID, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the popup should be displayed.  
-  
-|Parameter|Description|  
-|---------------|-----------------|  
-|LogicalName|The logical name of the entity to open.|  
-|id|The ID of the entity record to open.|  
-  
-### Popup  
- Pops up a URL from the hosted control and runs the window navigation rules against it for routing the popup to the appropriate location.  
-  
-|Parameter|Description|  
-|---------------|-----------------|  
-|url|Routes a popup from this hosted control using this URL as if it were a popup requested from the displayed control.|  
-|frame|The frame from which this popup originated.|  
-  
-<a name="RealignWindow"></a>   
-### RealignWindow  
+>  The rest of the parameters should consist of name=value pairs. These are the additional pre-populated values in the form for creating a new record for the specified entity. For more information about using this action, see step 4 in [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md).
+
+### Open_CRM_Page
+ Opens an existing instance of the entity specified and identified by the ID, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the popup should be displayed.
+
+|Parameter|Description|
+|---------------|-----------------|
+|LogicalName|The logical name of the entity to open.|
+|id|The ID of the entity record to open.|
+
+### Popup
+ Pops up a URL from the hosted control and runs the window navigation rules against it for routing the popup to the appropriate location.
+
+|Parameter|Description|
+|---------------|-----------------|
+|url|Routes a popup from this hosted control using this URL as if it were a popup requested from the displayed control.|
+|frame|The frame from which this popup originated.|
+
+<a name="RealignWindow"></a>
+### RealignWindow
 [!INCLUDE[cc_RealignWindow_Action](../includes/cc-realignwindow-action.md)]
-  
-<a name="SetSize"></a>   
-### SetSize  
- This action explicitly sets the width and height of the hosted control. This is particularly useful when using "auto" in your panel layouts.  
-  
-|Parameter|Description|  
-|---------------|-----------------|  
-|width|The width of the hosted control.|  
-|height|The height of the hosted control.|  
-  
-### SetReplacementParameter  
- Sets an arbitrary replacement parameter value to a specified value.  
-  
-|Parameter|Description|  
-|---------------|-----------------|  
-|appname|The hosted control name or key field for the replacement parameter.|  
-|param|The replacement parameter sub key name.|  
-|value|The value to set.|  
-|global|Set this to **true** to set the value in the global session.<br /><br /> Set this to **false** to set the value in the active session.|  
-  
-### TestScriptlet  
- Runs the specified JavaScript as if it were a scriptlet. Upon successful execution, the result is displayed in a message box.  
-  
-<a name="events"></a>   
-## Predefined events  
- There aren’t any predefined events available for this hosted control type.  
-  
-### See also  
- [Walkthrough 6: Configure the Debugger hosted control in your agent application](../unified-service-desk/walkthrough-configure-debugger-hosted-control-agent-application.md)   
- [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)   
- [Administration Guide for Unified Service Desk for Microsoft Dynamics CRM](http://go.microsoft.com/fwlink/p/?LinkID=394402)
+
+<a name="SetSize"></a>
+### SetSize
+ This action explicitly sets the width and height of the hosted control. This is particularly useful when using "auto" in your panel layouts.
+
+|Parameter|Description|
+|---------------|-----------------|
+|width|The width of the hosted control.|
+|height|The height of the hosted control.|
+
+### SetReplacementParameter
+ Sets an arbitrary replacement parameter value to a specified value.
+
+|Parameter|Description|
+|---------------|-----------------|
+|appname|The hosted control name or key field for the replacement parameter.|
+|param|The replacement parameter sub key name.|
+|value|The value to set.|
+|global|Set this to **true** to set the value in the global session.<br /><br /> Set this to **false** to set the value in the active session.|
+
+### TestScriptlet
+ Runs the specified JavaScript as if it were a scriptlet. Upon successful execution, the result is displayed in a message box.
+
+<a name="events"></a>
+## Predefined events
+ There aren’t any predefined events available for this hosted control type.
+
+### See also
+ [Walkthrough 6: Configure the Debugger hosted control in your agent application](../unified-service-desk/walkthrough-configure-debugger-hosted-control-agent-application.md)
+ [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)
+ [Administration Guide for Unified Service Desk for Microsoft Dynamics CRM](https://go.microsoft.com/fwlink/p/?LinkID=394402)

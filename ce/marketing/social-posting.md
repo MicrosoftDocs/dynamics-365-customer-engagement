@@ -1,18 +1,15 @@
 ---
-title: "Social-medial posting with Dynamics 365 for Marketing | Microsoft Docs"
-description: "Create social media posts for immediate or scheduled publishing in Dynamics 365 for Marketing"
+title: "Social-medial posting with Dynamics 365 Marketing | Microsoft Docs"
+description: "Create social media posts for immediate or scheduled publishing in Dynamics 365 Marketing"
 keywords: social media; social posting
 ms.date: 05/07/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 781000c9-c885-432a-95ae-f15e7eeadf6d
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -27,28 +24,28 @@ search.app:
 
 # Schedule and post messages on social media
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] can schedule and post messages directly to your organization's accounts on social media sites. Use the **Social posts** settings to author and schedule your posts.
+Dynamics 365 Marketing can schedule and post messages directly to your organization's accounts on social media sites. Use the **Social posts** settings to author and schedule your posts.
 
 > [!NOTE]
-> Before you can start publishing messages, your administrator must configure and authenticate each social-media account that you will publish to.  [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Configure your social media accounts](marketing-settings.md#config-social)
+> Before you can start publishing messages, your administrator must configure and authenticate each social-media account that you will publish to.  More information: [Configure your social media accounts](mkt-settings-social-media.md)
 
 ## Schedule and post a message
 
-Use the **Social posts** entity to author and schedule your posts. You can post from any social-media account that your admin has set up and authenticated in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
+Use the **Social posts** entity to author and schedule your posts. You can post from any social-media account that your admin has set up and authenticated in Dynamics 365 Marketing.
 
 To schedule and publish a message to one of your social-media channels:
 
 1. Go to **Marketing** > **Marketing execution** > **Social posts**.
 1. A calendar opens, showing all scheduled and previously published messages. Do one of the following:
-    - To schedule a message using the calendar, choose a calendar view (month, day or week), select a day or time slot to highlight it, and then select again (click or press enter) and choose **New item** from the context menu. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Work with marketing calendars](marketing-calendar.md)
+    - To schedule a message using the calendar, choose a calendar view (month, day or week), select a day or time slot to highlight it, and then select again (click or press enter) and choose **New item** from the context menu. More information: [Work with marketing calendars](marketing-calendar.md)
     - To schedule a message using date pickers, or to send it right away, select **New** on the command bar.
 
     ![The social-posts calendar](media/social-posting-calendar.png "The social-posts calendar")
 
 1. A new social post record is created. Make the following settings:
     - **Name**: Enter an internal name for the post. This name will be shown on the calendar, but won't appear in the post itself.
-    - **Select a channel**: Choose the social channel on which to post your message (such as Facebook, LinkedIn, or Twitter). This drop-down list only shows those channels that your administrator has set up in Dynamics 365 for Marketing. If you don't see the channel you are looking for, please contact your admin. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Configure your social media accounts](marketing-settings.md#config-social)
-    - **Posting from**: Select the specific account through which to post your message. This drop-down list shows each account that your admin has set up and authenticated in Dynamics 365 for Marketing for the selected channel. If you don't see the account you are looking for, please contact your admin. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Configure your social media accounts](marketing-settings.md#config-social)
+    - **Select a channel**: Choose the social channel on which to post your message (such as Facebook, LinkedIn, or Twitter). This drop-down list only shows those channels that your administrator has set up in Dynamics 365 Marketing. If you don't see the channel you are looking for, please contact your admin. More information: [Configure your social media accounts](mkt-settings-social-media.md)
+    - **Posting from**: Select the specific account through which to post your message. This drop-down list shows each account that your admin has set up and authenticated in Dynamics 365 Marketing for the selected channel. If you don't see the account you are looking for, please contact your admin. More information: [Configure your social media accounts](mkt-settings-social-media.md)
     - **Post visibility**: This setting only appears when you are posting to LinkedIn. Use this setting to control who can see this post. Choose **Public** to allow all LinkedIn users to see the post. Choose **Connections** to limit post visibility to users that have connected with the LinkedIn account you are posting through.
     - **Add post**: Enter the text content of your post here.
     - **Media**: If you'd like to include an image with yoru post, select the **Select file** button ![Select file button](media/select-file-button.png "Select file button") here to open the file gallery dialog and use it to select or upload an image to include with your post. To remove an image already selected here, select its thumbnail image and then select the **Remove file** button ![Remove file button](media/remove-file-button.png "Remove file button") in the corner of the thumbnail.

@@ -1,22 +1,13 @@
 ---
-title: "Unified Service Desk for Dynamics 365 for Customer Engagement apps Web Client package | MicrosoftDocs"
+title: "Unified Service Desk  Web Client package | MicrosoftDocs"
 description: "Overview of the Web Client sample application."
 ms.custom: 
-  - dyn365-USD, dyn365-admin
+  - dyn365-USD
+  - dyn365-admin
 ms.date: 08/23/2017
-ms.reviewer: 
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-  - Dynamics CRM Online
-ms.assetid: 1a69d545-24d2-4009-814d-0f9837732bea
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -27,19 +18,19 @@ search.app:
   - D365USD
 ---
 # Web Client sample application package
-[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is a desktop application that helps your customer service agents provide phone, email, and chat support to your customers. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a configurable framework to quickly build an Agent Desktop application that’s integrated with [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps. With [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] you can quickly make a customized Agent Desktop application by leveraging the User Interface Integration (UII) framework.  
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is a desktop application that helps your customer service agents provide phone, email, and chat support to your customers. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a configurable framework to quickly build an Agent Desktop application that’s integrated with the Common Data Service platform. With [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] you can quickly make a customized Agent Desktop application by leveraging the User Interface Integration (UII) framework.  
   
  This package is best used in the following situations:  
   
-- To demonstrate the rich set of customer service capabilities in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps and simplify the customization of your agent desktop application.  
+- To demonstrate the rich set of customer service capabilities in the Common Data Service platform and simplify the customization of your agent desktop application.  
   
-  With the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Dynamics 365 for Customer Engagement apps Web Client sample application package, the following components are installed:  
+  With the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Web Client sample application package, the following components are installed:  
   
 - User Interface Integration Solution  
   
 - Unified Service Desk Solution  
   
-- Data required for [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps and customizations  
+- Data required for the Common Data Service platform and customizations  
   
 - The following sample hosted controls  
   
@@ -48,14 +39,20 @@ search.app:
   -   Customer Information System  
   
 > [!IMPORTANT]
->  The sample applications aren't supported for production use.  
+> -  The sample applications aren't supported for production use.
+>  
+> - The sample application installs random sample records for entities like Account, Contact, Cases, and so on.
+>
+> - The sample application reactivates already resolved cases and sets up the **Customer Satisfaction** and **Average Handling Time**  to random value and closes them. This sample application's data might interfere with your existing records.
+>
+> - The sample application adds two fields to account (msdyusd_facebook, msdyusd_twitter) and three fields to contact (msdyusd_facebook, msdyusd_twitter, msdyusd_currentprofile) and sets their values randomly. 
   
   
- Here’s what you’ll see when you install the Dynamics 365 for Customer Engagement apps Web Client package:  
+ Here’s what you’ll see when you install the Web Client package:  
   
 1. Left Nav: Opens the left navigation area that you can open or collapse.  
   
-2. Dashboards: Opens the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] customer service dashboard.  
+2. Dashboards: Opens the customer service dashboard.  
   
 3. My Work: Shows a list of all active cases assigned to a service rep.  
   

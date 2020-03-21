@@ -4,16 +4,9 @@ description: "Learn about using the Channel Integration Framework hosted control
 ms.custom: 
   - dyn365-USD
 ms.date: 04/10/2019
-ms.reviewer: 
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: CD120606-2A4A-427A-913A-FE00821FA330
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -23,7 +16,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
-monikerRange: '>= dynamics-usd-4.1'  
+monikerRange: '>= dynamics-usd-4.1'
 ---
 
 # Channel Integration Framework (Hosted Control)
@@ -100,7 +93,7 @@ This action sends the data raised from the client-side event to the hosted contr
 |Parameter|Description|  
 |---------------|-----------------|  
 |event| The client-side events from where you want to raise the data. |
-|data| The data parameter takes eventData values.<br><br>Pass the data as a string that was received from the event by using replacement parameters. <br>`data = [[data]+]`.<br><br> Supported client-side events are as follows:<br> <ul> <li>[OnClickToAct](unified-interface-page-hosted-control.md#onclicktoact)</li> <li>[SendKbArticleEvent](unified-interface-page-hosted-control.md#onsendkbarticle)</li> </ul>|
+|data| The data parameter takes eventData values.<br><br>Pass the data as a string that was received from the event by using replacement parameters. <br>`data = [[data]+]`.<br><br> Supported client-side events are as follows:<br> <ul> <li>[OnClickToAct](unified-interface-page-hosted-control.md#onclicktoact)</li> <li>[SendKbArticleEvent](unified-interface-page-hosted-control.md#onsendkbarticle)</li>  <li> [onpagenavigate event (CIF JavaScript API reference)](https://docs.microsoft.com/dynamics365/customer-engagement/developer/channel-integration-framework/reference/events/onpagenavigate) </li></ul>|
 
 ### UpdateCifContext
 

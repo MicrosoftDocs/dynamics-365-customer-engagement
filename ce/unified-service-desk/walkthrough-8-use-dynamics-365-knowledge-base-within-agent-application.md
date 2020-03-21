@@ -1,26 +1,15 @@
 ---
-title: "Walkthrough 8: Use Customer Engagement knowledge base within your agent application | MicrosoftDocs"
+title: "Walkthrough 8  Use knowledge base within your agent application | MicrosoftDocs"
 description: "Demonstrates how to configure a panel in Unified Service Desk to display knowledge base records."
-keywords: 
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/17/2018
 ms.service: 
   - dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: accd2d7a-9210-403a-abab-52c1cef11757
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 search.audienceType: 
   - customizer
   - developer
@@ -29,38 +18,38 @@ search.app:
   - D365USD
 ---
 
-# Walkthrough 8: Use Customer Engagement knowledge base within your agent application
-This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using the **KM Control** hosted control that displays knowledge base records from your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance.  
+# Walkthrough 8: Use knowledge base within your agent application
+This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using the **KM Control** hosted control that displays knowledge base records from your Common Data Service platform.  
 
  In this walkthrough, you’ll:  
 
-- Display knowledge base articles from Dynamics 365 for Customer Engagement apps to appear in a search panel in context with your currently open case record in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. Users can filter and sort the results based on various criteria. Moreover, the search panel automatically appears when you open a case session, and automatically hides when you close the session.  
+- Display knowledge base articles from in a search panel in context with your currently open case record in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. Users can filter and sort the results based on various criteria. Moreover, the search panel automatically appears when you open a case session, and automatically hides when you close the session.  
 
 - Display the article in a tab when you choose the article title in the search panel.  
 
 - Configure contextual actions for the article in the tab where it is displayed, such as copy an article link or associate an article with the current case.  
 
-  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Dynamics 365 for Customer Engagement apps knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md)  
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md)  
 
 > [!IMPORTANT]
 >  This walkthrough doesn’t require you to complete other walkthroughs before you can use this one.  
 
 ## Prerequisites  
 
-- Deploy the "New Environment" sample application package to your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance. The walkthrough uses some of the controls and configuration in the "New Environment" sample application package that are created in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps when you deploy the sample application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Deploy sample Unified Service Desk applications to CRM server using Package Deployer](admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)    
+- Deploy the "New Environment" sample application package to your Common Data Service platform instance. The walkthrough uses some of the controls and configuration in the "New Environment" sample application package that are created in the Common Data Service platform when you deploy the sample application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Deploy sample Unified Service Desk applications to CRM server using Package Deployer](admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)    
 
 - You must know about the following in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]:  
 
-  - The `KM Control` and `Panel Layout` types of hosted controls:. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)  
+  - The `KM Control` and `Panel Layout` types of hosted controls: [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Hosted control types, action, and event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)  
 
-  - Concepts about using the `KM Control` type of hosted control to configure knowledge management. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Dynamics 365 for Customer Engagement apps knowledge in Unified Service Desk](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)  
+  - Concepts about using the `KM Control` type of hosted control to configure knowledge management. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Unified Service Desk to use model-driven apps](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)  
 
   - How to configure action calls. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Action calls](../unified-service-desk/action-calls.md)  
 
   - Events. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Events](../unified-service-desk/events.md)  
 
 <a name="Top"></a>   
-## In This Walkthrough  
+## In this walkthrough  
  [Step 1: Create a hosted control of type KM Control](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md#Step1)  
 
  [Step 2: Configure an action call to display the knowledge base search](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md#Step2)  
@@ -81,7 +70,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 ## Step 1: Create a hosted control of type KM Control  
  In this step, you’ll create a hosted control of type **KM Control** to display the knowledge base search pane.  
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
 
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
 
@@ -89,7 +78,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 
 4. Click **New**.  
 
-5. On the **New Hosted Control** page, specify the following values.  
+5. On the **New Hosted Control** page, specify the following values:  
 
    |Field|Value|  
    |-----------|-----------|  
@@ -107,7 +96,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 
 <a name="Step2"></a>   
 ## Step 2: Configure an action call to display the knowledge base search  
- Create an action call to display the newly created hosted control in the agent desktop. You’ll use the `default` action for the newly created hosted control to display it. After creating the action, add it to the `SessionNew` event for the **Dynamics 365 for Customer Engagement apps Global Manager** hosted control to automatically load and display the hosted control when a new session is created on opening a case.  
+ Create an action call to display the newly created hosted control in the agent desktop. You’ll use the `default` action for the newly created hosted control to display it. After creating the action, add it to the `SessionNew` event for the **CRM Global Manager** hosted control to automatically load and display the hosted control when a new session is created on opening a case.  
 
 1. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
 
@@ -115,7 +104,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 
 3. Click **New**.  
 
-4. On the **New Action Call** page, specify the following values.  
+4. On the **New Action Call** page, specify the following values:  
 
    |Field|Value|  
    |-----------|-----------|  
@@ -135,7 +124,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 
    ![Add action to event](../unified-service-desk/media/usd-addactiontoevent.png "Add action to event")  
 
-9. Type `Sample: Open KB Search Control` in the search box, and press ENTER or click the search button to add the action to the event. Change the order of the added action to 1, and then click the **Save**![Auto save button](../unified-service-desk/media/crm-itpro-cust-autosaveicon.png "Auto save button") button in the lower-right corner.  
+9. Type `Sample: Open KB Search Control` in the search box, and press ENTER or click the search button to add the action to the event. Change the order of the added action to 1, and then click the **Save** ![Auto save button](../unified-service-desk/media/crm-itpro-cust-autosaveicon.png "Auto save button") button in the lower-right corner.  
 
 <a name="Step3"></a>   
 ## Step 3: Configure action calls to automatically display and hide the knowledge base search panel  
@@ -150,7 +139,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 3. Click **Main Layout** in the list of hosted controls.  
 
    > [!NOTE]
-   >  The **Main Layout** hosted control is available when you deploy the Base sample application in your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instance.  
+   >  The **Main Layout** hosted control is available when you deploy the Base sample application in your Common Data Service platform instance.  
 
 4. Click the down arrow next to **Main layout**, and then click **UII Actions**.  
 
@@ -170,13 +159,13 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 
 9. Click **New**.  
 
-10. On the **New Action Call** page, specify the following values.  
+10. On the **New Action Call** page, specify the following values:  
 
 
     |     Field      |                                                                                              Value                                                                                               |
     |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     |      Name      |                                                                                Sample: Expand Right Panel Action                                                                                 |
-    | Hosted Control | Main Layout **Note:**  The **Main Layout** hosted control is available when you deploy the Base sample application in your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instance. |
+    | Hosted Control | Main Layout **Note:**  The **Main Layout** hosted control is available when you deploy the Base sample application in your Common Data Service platform instance. |
     |     Action     |                                                                                        SetVisualProperty                                                                                         |
     |      Data      |                                                           elementname=RightPanelExpander<br />propertyname=IsExpanded<br />value=true                                                            |
 
@@ -192,7 +181,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
     |     Field      |                                                                                              Value                                                                                               |
     |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     |      Name      |                                                                               Sample: Collapse Right Panel Action                                                                                |
-    | Hosted Control | Main Layout **Note:**  The **Main Layout** hosted control is available when you deploy the Base sample application in your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instance. |
+    | Hosted Control | Main Layout **Note:**  The **Main Layout** hosted control is available when you deploy the Base sample application in your Common Data Service platform instance. |
     |     Action     |                                                                                        SetVisualProperty                                                                                         |
     |      Data      |                                                           elementname=RightPanelExpander<br />propertyname=IsExpanded<br />value=false                                                           |
 
@@ -208,27 +197,27 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 
     ![Add action to event](../unified-service-desk/media/usd-addactiontoevent.png "Add action to event")  
 
-18. Type `Sample: Expand Right Panel Action` in the search box, and press ENTER or click the search button to add the action to the event. Change the **Order** of the added action to 2, and then click the **Save**![Auto save button](../unified-service-desk/media/crm-itpro-cust-autosaveicon.png "Auto save button") button in the lower-right corner.  
+18. Type `Sample: Expand Right Panel Action` in the search box, and press ENTER or click the search button to add the action to the event. Change the **Order** of the added action to 2, and then click the **Save** ![Auto save button](../unified-service-desk/media/crm-itpro-cust-autosaveicon.png "Auto save button") button in the lower-right corner.  
 
 19. Go to **Unified Service Desk** page, and then click **Events**.  
 
-20. Search for the `SessionClosed` event for the **Dynamics 365 for Customer Engagement apps Global Manager** hosted control, and then click it to open the event configuration page.  
+20. Search for the `SessionClosed` event for the **CRM Global Manager** hosted control, and then click it to open the event configuration page.  
 
     > [!NOTE]
-    >  Ensure that you are editing the configuration of the `SessionClosed` event for the **Dynamics 365 for Customer Engagement apps Global Manager** hosted control.  
+    >  Ensure that you are editing the configuration of the `SessionClosed` event for the **CRM Global Manager** hosted control.  
 
 21. Click the **Add Action Call record** button to add the action call.  
 
     ![Add action call to event](../unified-service-desk/media/usd-addactiontosessionclosedevent.png "Add action call to event")  
 
-22. Type `Sample: Collapse Right Panel Action` in the search box, and press ENTER or click the search button to add the action to the event. Change the order of the added action to 1, and then click the **Save**![Auto save button](../unified-service-desk/media/crm-itpro-cust-autosaveicon.png "Auto save button") button in the lower-right corner.  
+22. Type `Sample: Collapse Right Panel Action` in the search box, and press ENTER or click the search button to add the action to the event. Change the order of the added action to 1, and then click the **Save** ![Auto save button](../unified-service-desk/media/crm-itpro-cust-autosaveicon.png "Auto save button") button in the lower-right corner.  
 
 <a name="Step4"></a>   
 ## Step 4: Configure an action call to automatically search the knowledge base using the incident (case) title  
  Create an action call to automatically populate the case title in the knowledge base search control to search based on the case title name. After creating the action, you’ll add it to the `BrowserDocumentComplete` event of the **Incident** hosted control to fire this action after the case records have loaded in the agent desktop.  
 
 > [!NOTE]
->  The **Incident** hosted control is created when you deploy the Base sample application in your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps instance.  
+>  The **Incident** hosted control is created when you deploy the Base sample application in your Common Data Service platform instance.  
 
 1. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
 
@@ -236,7 +225,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 
 3. Click **New**.  
 
-4. On the **New Action Call** page, specify the following values  
+4. On the **New Action Call** page, specify the following values:  
 
    |Field|Value|  
    |-----------|-----------|  
@@ -266,22 +255,22 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 
     ![Add action to BrowserDocumentComplete event](../unified-service-desk/media/usd-addactiontobrowserdocumentcomplete.png "Add action to BrowserDocumentComplete event")  
 
-11. Type `Sample: Search KB with Incident (Case) Title Action` in the search box, and press ENTER or click the search button to add the action to the event. Click the **Save**![Auto save button](../unified-service-desk/media/crm-itpro-cust-autosaveicon.png "Auto save button") button in the lower-right corner.  
+11. Type `Sample: Search KB with Incident (Case) Title Action` in the search box, and press ENTER or click the search button to add the action to the event. Click the **Save** ![Auto save button](../unified-service-desk/media/crm-itpro-cust-autosaveicon.png "Auto save button") button in the lower-right corner.  
 
 > [!NOTE]
->  At this point, the knowledge base search control is configured to display knowledge bases from \Dynamics 365 for Customer Engagement apps in context with the currently opened case record. Also, the knowledge base search panel is configured to automatically display when a session is created, and automatically hide when you close the session. You can test this by running the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application and connecting to the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps instance where you performed steps 1 through 4 of this walkthrough. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]  
+>  At this point, the knowledge base search control is configured to display knowledge bases in context with the currently opened case record. Also, the knowledge base search panel is configured to automatically display when a session is created, and automatically hide when you close the session. You can test this by running the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application and connecting to the Common Data Service platform instance where you performed steps 1 through 4 of this walkthrough. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]  
 > 
 >  Perform the rest of the steps to display a knowledge base article from the search results in a tab, and configure contextual actions for a selected knowledge base article in the search panel such as copying an article link and associating the article to the current case.  
 
 <a name="Step5"></a>   
 ## Step 5: Configure hosted controls and action calls to display an article in a tab  
- In this step, you will:  
+In this step, you will:  
 
--   Configure a hosted control of type **Standard Web Application** to display the knowledge base article.  
+- Configure a hosted control of type **Standard Web Application** to display the knowledge base article.  
 
--   Configure action calls to display the article in the hosted control whose title is clicked in the knowledge base search pane.  
+- Configure action calls to display the article in the hosted control whose title is clicked in the knowledge base search pane.  
 
--   Add the action calls to the [ResultOpen](../unified-service-desk/km-control-hosted-control.md#ResultOpen) event of the `KM Control` hosted control so that the action calls are executed when somebody clicks on the KB article title.  
+- Add the action calls to the [ResultOpen](../unified-service-desk/km-control-hosted-control.md#ResultOpen) event of the `KM Control` hosted control so that the action calls are executed when somebody clicks on the KB article title.  
 
 1. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
 
@@ -289,7 +278,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 
 3. Click **New**.  
 
-4. On the **New Hosted Control** page, specify the following values.  
+4. On the **New Hosted Control** page, specify the following values:  
 
    |Field|Value|  
    |-----------|-----------|  
@@ -307,13 +296,13 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 
 6. You’ll now create an action call to set the context of the selected article in the knowledge base search pane. The context information is required if you want to perform additional actions on the currently displayed knowledge base article such as dynamically displaying the tab title based on the knowledge base article question title, copying the link of the article, and associating or dissociating an article with an incident (case) record.  
 
-[!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]
+   [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]
 
 7. Click **Action Calls**.  
 
 8. Click **New**.  
 
-9. On the **New Action Call** page, specify the following values.  
+9. On the **New Action Call** page, specify the following values:  
 
     |Field|Value|  
     |-----------|-----------|  
@@ -329,33 +318,33 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 
 11. Click **New** to create another action call for displaying the article in the hosted control created earlier in this step.  
 
-12. On the **New Action Call** page, specify the following values.  
+12. On the **New Action Call** page, specify the following values:  
 
-   |Field|Value|  
-   |-----------|-----------|  
-   |Name|Sample: Open KB Article Action|  
-   |Order|2|  
-   |Hosted Control|Sample KB Article|  
-   |Action|Navigate|  
-   |Data|url=[[Sample KB Search.articleurl]]<br />header=[[header]+]<br />postdata=[[postdata]]|  
+    |Field|Value|  
+    |-----------|-----------|  
+    |Name|Sample: Open KB Article Action|  
+    |Order|2|  
+    |Hosted Control|Sample KB Article|  
+    |Action|Navigate|  
+    |Data|url=[[Sample KB Search.articleurl]]<br />header=[[header]+]<br />postdata=[[postdata]]|  
 
-   ![Action call to display the KB article](../unified-service-desk/media/usd-actioncallopenkbarticle.png "Action call to display the KB article")  
+    ![Action call to display the KB article](../unified-service-desk/media/usd-actioncallopenkbarticle.png "Action call to display the KB article")  
 
 13. Click **Save and Close**.  
 
 14. Click **New** to create another action call for displaying the hosted control created earlier in this step in the main panel.  
 
-15. On the **New Action Call** page, specify the following values  
+15. On the **New Action Call** page, specify the following values:  
 
-   |Field|Value|  
-   |-----------|-----------|  
-   |Name|Sample: Show KB Article Tab Action|  
-   |Order|50|  
-   |Hosted Control|Dynamics 365 for Customer Engagement apps Global Manager|  
-   |Action|ShowTab|  
-   |Data|Sample KB Article|  
+    |Field|Value|  
+    |-----------|-----------|  
+    |Name|Sample: Show KB Article Tab Action|  
+    |Order|50|  
+    |Hosted Control|CRM Global Manager|  
+    |Action|ShowTab|  
+    |Data|Sample KB Article|  
 
-   ![Action call to display the KB article in a tab](../unified-service-desk/media/usd-actionshowkbarticletab.png "Action call to display the KB article in a tab")  
+    ![Action call to display the KB article in a tab](../unified-service-desk/media/usd-actionshowkbarticletab.png "Action call to display the KB article in a tab")  
 
 16. Click **Save and Close**.  
 
@@ -371,7 +360,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 
 21. Repeat the previous step with the `Sample: Open KB Article Action` and `Sample: Show KB Article Tab Action` action calls to add them to the event.  
 
-22. Click the **Save**![Auto save button](../unified-service-desk/media/crm-itpro-cust-autosaveicon.png "Auto save button") button in the lower-right corner.  
+22. Click the **Save** ![Auto save button](../unified-service-desk/media/crm-itpro-cust-autosaveicon.png "Auto save button") button in the lower-right corner.  
 
 <a name="Step6"></a>   
 ## Step 6: Configure contextual actions for the knowledge base article in the tab  
@@ -387,7 +376,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 
 5. In the **Buttons** area, click the **+** symbol to add buttons to the toolbar.  
 
-6. On the **New Toolbar Button** page, specify the following values.  
+6. On the **New Toolbar Button** page, specify the following values:  
 
    |Field|Value|  
    |-----------|-----------|  
@@ -409,26 +398,26 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 
     ![Create a new action call for the toolbar button](../unified-service-desk/media/usd-actioncallfortoolbarbutton.png "Create a new action call for the toolbar button")  
 
-11. On the **New Action Call** page, specify the following values.  
+11. On the **New Action Call** page, specify the following values:  
 
 
     |     Field      |                 Value                 |
     |----------------|---------------------------------------|
     |      Name      |  Sample: Copy KB Article Link Action  |
-    | Hosted Control |      Dynamics 365 for Customer Engagement apps Global Manager      |
+    | Hosted Control |      CRM Global Manager      |
     |     Action     |            CopyToClipboard            |
     |      Data      | data=[[Sample KB Article.publicUrl]+] |
 
 
 12. Click **Save and Close**. The new action call gets added to the **Copy Link** button.  
 
-13. Click **Save**![Auto save button](../unified-service-desk/media/crm-itpro-cust-autosaveicon.png "Auto save button") button in the lower-right corner of the page.  
+13. Click the **Save** ![Auto save button](../unified-service-desk/media/crm-itpro-cust-autosaveicon.png "Auto save button") button in the lower-right corner of the page.  
 
 14. Close the **Copy Link** toolbar button page, and return to the **Sample: KB Toolbar** page to add another button.  
 
 15. In the **Buttons** area, click the + button to add buttons to the toolbar.  
 
-16. On the **New Toolbar Button** page, specify the following values.  
+16. On the **New Toolbar Button** page, specify the following values:  
 
 
     |    Field    |                                                                              Value                                                                               |
@@ -461,7 +450,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 
 22. Click **Save and Close**. The new action call gets added to the **Link Article** button.  
 
-23. Click the **Save**![Auto save button](../unified-service-desk/media/crm-itpro-cust-autosaveicon.png "Auto save button") button in the lower-right corner of the page.  
+23. Click the **Save** ![Auto save button](../unified-service-desk/media/crm-itpro-cust-autosaveicon.png "Auto save button") button in the lower-right corner of the page.  
 
 24. Close the **Link Article** toolbar button page, and return to the **Sample: KB Toolbar** page.  
 
@@ -475,13 +464,13 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 
 28. In the search box, type `Sample KB Article`, and press ENTER or click the search button to add the hosted control.  
 
-29. Click the **Save**![Auto save button](../unified-service-desk/media/crm-itpro-cust-autosaveicon.png "Auto save button") button in the lower-right corner of the page.  
+29. Click the **Save** ![Auto save button](../unified-service-desk/media/crm-itpro-cust-autosaveicon.png "Auto save button") button in the lower-right corner of the page.  
 
 <a name="Step7"></a>   
 ## Step 7: Test the application  
  To test the application:  
 
-1. Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instance where you configured [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] entities as described earlier.  
+1. Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the Common Data Service platform instance where you configured [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] entities as described earlier.  
 
 2. In the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] application, click **My Work** in the toolbar to display a list of cases assigned to you.  
 
@@ -501,15 +490,15 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 
 <a name="Conclusion"></a>   
 ## Conclusion  
- In this walkthrough, you learned how to use the KM Control hosted control to use Dynamics 365 for Customer Engagement apps knowledge from within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
+ In this walkthrough, you learned how to use the KM Control hosted control to use knowledge from within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
 
 ### See also  
- [Use Dynamics 365 for Customer Engagement apps knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md)   
+ [Use knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md)   
 
- [Configure Dynamics 365 for Customer Engagement apps knowledge in Unified Service Desk](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)   
+ [Configure Unified Service Desk to use model-driven apps](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)   
 
  [KM Control (Hosted Control)](../unified-service-desk/km-control-hosted-control.md)   
 
  [Unified Interface KM Control (Hosted Control)](../unified-service-desk/unified-interface-km-control-hosted-control.md)
 
- [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)
+ [Unified Service Desk configuration walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)

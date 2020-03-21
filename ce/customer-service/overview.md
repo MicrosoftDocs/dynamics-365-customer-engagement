@@ -1,36 +1,24 @@
 ---
-title: Customer Service Overview (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Overview of Customer Service in Microsoft Dynamics 365 for Customer Engagement
-keywords: Customer Service;  Microsoft Dynamics 365 for Customer Engagement
-ms.date: 06/01/2018
+title: "Customer Service Overview (Dynamics 365 Customer Service) | MicrosoftDocs"
+description: "Overview of Dynamics 365 Customer Service"
+author: kabala123
+ms.author: kabala
+manager: shujoshi
+ms.date: 07/31/2019
+ms.topic: get-started-article
 ms.service: 
   - dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
-ms.topic: get-started-article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
-ms.assetid: 00f8a65f-f736-4e3d-9aea-e50de8b015b4
-author: anjgupta
-ms.author: anjgup
-manager: shujoshi
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ---
 
 # Overview of the Customer Service Hub and Customer Service app
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
-Welcome to Dynamics 365 for Customer Service.
+Welcome to Dynamics 365 Customer Service.
 
 Build great customer relationships by focusing on optimum customer satisfaction with the Customer Service apps. Customer Service provides many features and tools that organizations can use to manage the services they provide to customers.   
+
+[!INCLUDE[cc-app-definition-customer-service](../includes/cc-app-definition-customer-service.md)]
 
 Use [!include[](../includes/pn-ms-dyn-365-for-customer-service.md)] to:
 
@@ -48,11 +36,9 @@ Use [!include[](../includes/pn-ms-dyn-365-for-customer-service.md)] to:
 There are two flavors of [!include[](../includes/pn-ms-dyn-365-for-customer-service.md)]:
 
 
-- The **Customer Service Hub** app is available to use on a desktop browser and on a mobile device for managing knowledge articles and case management.  [!include[](../includes/proc-more-information.md)] [User guide for Customer Service Hub](user-guide-customer-service-hub.md)
+- The **Customer Service Hub** app is a case and knowledge management app that’s built on the Unified Interface framework. The Unified Interface framework uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. The Customer Service Hub app is optimized to use on mobile devices as well as desktops. [!include[](../includes/proc-more-information.md)] [User guide for Customer Service Hub](user-guide-customer-service-hub.md)
 
-    The Customer Service Hub app is built on the Unified Interface framework, which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. Using Customer Service Hub on a desktop browser for tasks other than managing knowledge articles is not recommended. 
-
-- The **Customer Service** app is available on a desktop browser for case management, but not for managing knowledge articles. [!include[](../includes/proc-more-information.md)] [User guide for Customer Service](user-guide-customer-service.md)
+- The **Customer Service** app is designed for the legacy web client. [!include[](../includes/proc-more-information.md)] [User guide for Customer Service](user-guide-customer-service.md)
 
 > [!NOTE]
 > For mobile devices, you'll also need to [Install Dynamics 365 for phones and tablets](../mobile-app/Install-Dynamics-365-for-phones-and-tablets.md).
@@ -66,7 +52,7 @@ If you're using a mobile device with Dynamics 365 for phones and tablets install
 ![csh-mobile](media/ChooseAnApp_1.png "Customer Service Hub on mobile")
 
 > [!NOTE]
-> Looking forward to upgrade to the Customer Service Hub app? See [Upgrade to the Customer Service Hub in Microsoft Dynamics 365 for Customer Engagement](upgrade-ish-csh.md)
+> Looking forward to upgrade to the Customer Service Hub app? See [Upgrade to Customer Service Hub](upgrade-ish-csh.md)
 
 
 ## Set up Customer Service Hub or Customer Service app
@@ -76,7 +62,7 @@ Easily set up the Customer Service Hub and the Customer Service app by using the
 The Service Manager Guide helps you set up everything related to customer service, like defining parent-child case hierarchy, creating queues, routing rule sets, rules for automatic case creation, service level agreements (SLAs), entitlements, and customer service schedule.
 
 > [!NOTE]
-> If you have previously installed any portal solution, to create a case in the Customer Service Hub or to use the Merge cases command, you must turn off the **Read-only in mobile** option for the Case entity. More information: [Turn off Read-only in mobile option](../customize/edit-entities.md#enable-or-disable-entity-options).
+> If you have previously installed any portal solution, to create a case in the Customer Service Hub or to use the Merge cases command, you must turn off the **Read-only in mobile** option for the Case entity. More information: [Turn off Read-only in mobile option](../customerengagement/on-premises/customize/edit-entities.md#enable-or-disable-entity-options).
 
 ## Accessibility and GDPR in the Customer Service Hub 
 
@@ -86,14 +72,14 @@ For more details about the app's accessibility and GDPR compliance, see [Accessi
 
 ## What's more in the Customer Service Hub
 
- - [What's new in Dynamics 365 for Customer Service](whats-new-customer-service.md)
+ - [What's new in Dynamics 365 Customer Service](whats-new-customer-service.md)
  - [Service Management Guide (Customer Service Hub and Customer Service app)](service-manager-guide.md)
  - [Service Scheduling Guide](basics-service-service-scheduling.md)
 
 
 ### See also  
 
-[Dynamics 365 for Customer Service](https://www.microsoft.com/en-in/dynamics365/customer-service)
+[Dynamics 365 Customer Service](https://www.microsoft.com/en-in/dynamics365/customer-service)
 
 
 

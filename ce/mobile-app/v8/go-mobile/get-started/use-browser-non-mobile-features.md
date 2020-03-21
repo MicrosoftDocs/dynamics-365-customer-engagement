@@ -8,12 +8,12 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 apps
   - Dynamics CRM Online
-author: jimholtz
 ms.assetid: 48b551f7-89da-4fa4-abf7-50ac2184fc94
 caps.latest.revision: 7
 ms.author: mkaur
+author: jimholtz
 search.audienceType: 
   - admin
   - customizer
@@ -23,8 +23,6 @@ search.app:
   - D365Sales
 ---
 # Use your browser for non-mobile features in Dynamics 365 for phones and tablets
-
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
 
 <a name="bkmk7"></a> 
   

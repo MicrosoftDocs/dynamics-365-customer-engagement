@@ -2,12 +2,9 @@
 title: "Plan a survey to be created by using Voice of the Customer | MicrosoftDocs"
 description: "Plan to create a survey using Voice of the Customer."
 keywords: plan a survey; survey best practices; survey question types
-ms.date: 11/30/2018
+ms.date: 12/02/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: ad3388d5-4c50-4005-a067-8498069ead93
 author: sbmjais
 ms.author: shjais
@@ -19,6 +16,9 @@ ms.custom:
 ---
 
 # Plan a survey
+
+> [!IMPORTANT]
+> Voice of the Customer (VoC) is being deprecated and replaced with Microsoft Forms Pro. [Learn more](https://go.microsoft.com/fwlink/p/?linkid=2097704)
 
 It's important to have a plan for configuring your Voice of the Customer surveys. Here are a few things to think about to help you design the right questions for your survey:
 
@@ -61,15 +61,15 @@ A few best practices will enable you to create a meaningful survey and gather go
 
 ## Decide the question type
 
-Deciding the question types while planning a survey helps you to create an organized survey and maintain a flow between the questions. The following table describes the Voice of the Customer for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] question types.
+Deciding the question types while planning a survey helps you to create an organized survey and maintain a flow between the questions. The following table describes the Voice of the Customer for Dynamics 365 question types.
 
 **Web client**
 
 
-|   **Question type**   |                                                                  **[!INCLUDE[description](../includes/description.md)]**                                                                   |                                                                                                                                                                                                                                                                                                                 **Preview**                                                                                                                                                                                                                                                                                                                 |
-|-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|     Short answer      |                                                                            Question that has a one-line answer.                                                                            |                                                                                                                                                                                                                                                                   ![Example of a short answer question](media/short-answer-ques.png "Example of a short answer question")                                                                                                                                                                                                                                                                   |
-|      Long answer      |                                                       Question that has multiple lines in the answer, for example verbatim comments.                                                       |                                                                                                                                                                                                                                                                    ![Example of a long answer question](media/long-answer-ques.png "Example of a long answer question")                                                                                                                                                                                                                                                                     |
+|   **Question type**   | **[!INCLUDE[description](../includes/description.md)]**    |     **Preview**          |
+|-----------------------|----------|--------------------------------|
+|     Short answer      |    Question that has a one-line answer.   |  ![Example of a short answer question](media/short-answer-ques.png "Example of a short answer question")         |
+|      Long answer      |   Question that has multiple lines in the answer, for example verbatim comments. <br>**Note**: Long answer supports a maximum of 2000 characters.         |      ![Example of a long answer question](media/long-answer-ques.png "Example of a long answer question")      |
 |        Rating         |                                                  Question that asks a respondent to provide ratings by using stars, emoticons, or flags.                                                   |                                                                                                                                                                                                                                                                            ![Example of a rating question](media/rating-ques.png "Example of a rating question")                                                                                                                                                                                                                                                                            |
 |    Single response    | Question that allows a respondent to choose only one answer. <br>**Note**: You can change the response type from the **Single Response Type** list while creating or editing the question. | ![Example of a single response question with big buttons as the response type](media/single-response-ques-big-button.png "Example of a single response question with big buttons as the response type") <br> ![Example of a single response question with radio buttons as the response type](media/single-response-ques-radio-button.png "Example of a single response question with radio buttons as the response type") <br>![Example of a single response question with drop down list as the response type](media/single-response-ques-drop-down.png "Example of a single response question with drop down list as the response type") |
 |   Multiple response   |                                                               Question that allows a respondent to choose multiple answers.                                                                |                                                                                                          ![Example of a multiple response question with big buttons as the response type](media/multi-response-ques-big-button.png "Example of a multiple response question with big buttons as the response type") <br> ![Example of a multiple response question with check boxes as the response type](media/multi-response-ques-check-box.png "Example of a multiple response question with check boxes as the response type")                                                                                                          |
@@ -107,7 +107,7 @@ The following table describes the question types to use when you need to address
 |     Drop down     |                                          Question that allows a respondent to choose one answer from a drop-down list.                                          |     ![Example of a drop down list question](media/drop-down.png "Example of a drop down list question")      |
 |       Email       |                                                     Question that asks a respondent to enter email address.                                                     |               ![Example of an email question](media/email.png "Example of an email question")                |
 |       Label       |                                                Use to describe elements on the survey page; for example, labels.                                                |                ![Example of a label question](media/label.png "Example of a label question")                 |
-|    Long answer    |                                         Question that has multiple lines in the answer; for example, verbatim comments.                                         |       ![Example of a long answer question](media/long-answer.png "Example of a long answer question")        |
+|    Long answer    |   Question that has multiple lines in the answer; for example, verbatim comments.<br>**Note**: Long answer supports a maximum of 2000 characters.   |       ![Example of a long answer question](media/long-answer.png "Example of a long answer question")        |
 |        NPS        |          Question that captures the satisfaction of the respondent based on the likelihood of their recommending the product or services to a friend.           |    ![Example of a Net Promoter Score question](media/nps.png "Example of a Net Promoter Score question")     |
 |      Numeric      |                                                         Question that allows only numerical responses.                                                          |    ![Example of a numeric response question](media/numeric.png "Example of a numeric response question")     |
 |   Radio button    |   Question that allows a respondent to choose only one answer.<br>**Note**: You can change the layout of the answer options from the **Option layout** list.    |      ![Example of a radio button question](media/radio-button.png "Example of a radio button question")      |
@@ -138,7 +138,7 @@ Voice of the Customer provides the following workflows out-of-the-box.
 |            VoC - Unsubscribe respondent            |  Survey Response   |    Unsubscribe the respondent from a channel (for example, email) based on the response.    |
 |                                                    |                    |                                                                                             |
 
-You can also create a workflow that sends a survey to a customer, asking for the feedback as soon as a case is closed. More information about creating a new workflow in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]: [Create custom business logic through processes](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/guide-staff-through-common-tasks-processes) 
+You can also create a workflow that sends a survey to a customer, asking for the feedback as soon as a case is closed. More information about creating a new workflow in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]: [Create custom business logic through processes](https://docs.microsoft.com/dynamics365/customer-engagement/customize/guide-staff-through-common-tasks-processes) 
 
 ### See also
 [Design a basic survey](design-basic-survey.md)   

@@ -1,6 +1,6 @@
 ---
 title: Sales estimates and projects
-description: This topic provides information about how to take advantage of the schedule and estimates in the sales process in Dynamics 365 for Project Service Automation.
+description: This topic provides information about how to take advantage of the schedule and estimates in the sales process.
 author: ruhercul
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-During the sales process, Microsoft Dynamics 365 for Project Service Automation lets you create sales estimates by linking a project to a sales quote. In this way, deterministic estimation can occur during the sales process, to take advantage of project scheduling and estimation capabilities. If the sale goes through, the schedule that was used for sales estimation purposes can be used as the basis for further refinement of the project plan.
+During the sales process, you can create sales estimates by linking a project to a sales quote. In this way, deterministic estimation can occur during the sales process, to take advantage of project scheduling and estimation capabilities. If the sale goes through, the schedule that was used for sales estimation purposes can be used as the basis for further refinement of the project plan.
 
 ## Linking a project to a quote line
 

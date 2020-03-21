@@ -1,5 +1,5 @@
 ---
-title: "Using the Events API (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
+title: "Using the Events API (Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
 description: "Read about the Events API that lets you access data of events, sessions, session tracks, and passes"
 ms.custom: 
   - dyn365-developer
@@ -9,8 +9,6 @@ ms.service: dynamics-365-marketing
 ms.technology: 
   - marketing
 ms.topic: conceptual
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: A0B01ED6-04C0-4A7C-BD14-05E78A119580
 author: susikka
 ms.author: susikka
@@ -22,8 +20,6 @@ search.app:
   - D365Mktg
 ---
 # Using the Events API
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
 The Events API is a programmatic method to access data of events, sessions, session tracks, passes, speakers, and sponsorships. Additionally, it allows you to register for events and sessions.
 

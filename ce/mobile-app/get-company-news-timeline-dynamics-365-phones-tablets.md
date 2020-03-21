@@ -7,13 +7,11 @@ ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement apps Version 9.x
-author: mduelae
+applies_to: Dynamics 365 apps
 ms.assetid: 8acc32c3-9948-403d-9fe0-df7589a32149
 caps.latest.revision: 8
 ms.author: mkaur
+author: mduelae
 manager: kvivek
 search.audienceType: 
   - admin
@@ -25,8 +23,6 @@ search.app:
 ---
 # Stay on top of the latest news about your customers
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Gain valuable insights from the latest news about your customers on your phone or tablet. Staying on top of the news helps you stay ahead of your competition by showing you ways your customers can use your products or services right now. Install the Company News Timeline solution, which delivers relevant news from [!INCLUDE[pn_bing](../includes/pn-bing.md)] News about your customers, and categorizes them in a useful feed inline while viewing your accounts.  
   
 > [!NOTE]
@@ -35,13 +31,13 @@ Gain valuable insights from the latest news about your customers on your phone o
 > [!IMPORTANT]
 >  This feature was introduced in [!INCLUDE[pn_crm_8_1_0_online](../includes/pn-crm-8-1-0-online.md)].  
   
-## Install the solution for Dynamics 365 for Customer Engagement apps  
+## Install the solution for Dynamics 365 apps  
   
-1. Sign in to [https://admin.microsoft.com](https://admin.microsoft.com) with your Global Administrator or Dynamics 365 for Customer Engagement apps System Administrator credentials.  
+1. Sign in to [https://admin.microsoft.com](https://admin.microsoft.com) with your Global Administrator or Dynamics 365 apps System Administrator credentials.  
   
-2. Click **Admin > Dynamics 365 for Customer Engagement apps**.  
+2. Click **Admin > Dynamics 365 apps**.  
   
-3. On the **Manage all Dynamics 365 for Customer Engagement apps instances** page, select the instance to add the solution to.  
+3. On the **Manage all Dynamics 365 apps instances** page, select the instance to add the solution to.  
   
 4. Click **Solutions**.  
   

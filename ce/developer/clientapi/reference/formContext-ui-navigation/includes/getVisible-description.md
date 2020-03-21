@@ -1,1 +1,0 @@
-Returns a value that indicates whether the item is currently visible.

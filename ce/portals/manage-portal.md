@@ -1,8 +1,8 @@
 ---
-title: "Administer a portal for Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Administer a portal | MicrosoftDocs"
 description: "Instructions to administer your portal."
-keywords: "portal administration, portal admin center"
-ms.date: 04/08/2019
+keywords: "portal administration, Power Apps Portals admin center"
+ms.date: 02/11/2020
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-portal
@@ -11,7 +11,7 @@ ms.assetid: 265AE063-1D9C-40DD-AAAF-69EAB848F22F
 author: sbmjais
 ms.author: shjais
 manager: shubhadaj
-ms.reviewer: 
+ms.reviewer: tapanm
 ms.suite: 
 ms.tgt_pltfrm: 
 topic-status: Drafting
@@ -30,33 +30,36 @@ After provisioning a portal, you can perform various actions such as setting up 
 
 To manage an existing portal, you must be assigned any one of the following roles:
 - Office 365 Global Administrator 
-- [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Service Administrator. [!include[](../includes/proc-more-information.md)] [Use the service admin role to manage your tenant](https://technet.microsoft.com/en-us/library/mt793847.aspx)  
-- System Administrator of the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization selected for the portal
+- Service Administrator. [!include[](../includes/proc-more-information.md)] [Use the service admin role to manage your tenant](https://technet.microsoft.com/library/mt793847.aspx)  
+- System Administrator of the Common Data Service environment selected for the portal
 
-If you haven't been assigned any of the above-mentioned roles, the following message is displayed: You need to be a global administrator, Dynamics 365 for Customer Engagement service administrator, or system administrator for this organization in order to manage this portal.
+If you haven't been assigned any of the above-mentioned roles, the following message is displayed: You need to be a global administrator, service administrator, or system administrator for this organization in order to manage this portal.
 
 If you are not a global administrator and you try to manage a portal that has already been provisioned, or you resubmit the provisioning if it failed, you must be the owner of the Azure Active Directory (Azure AD) application connected to your portal.
 
 ### To add yourself as an owner of the Azure AD application
 
-1. Go to the Portal Management page. The following error message is displayed: "You don’t have permission to perform this action. Contact your global administrator to get owner permission for Application ID: [app id] in your Azure Active Directory."
+1. Go to the Power Apps Portals admin center and open the **Portal Details** tab.
 
-2. Copy the app ID from the error message.
+2. Copy the value from the **Application ID** field.
 
-3. Go to Azure AD associated with your tenant. [!include[](../includes/proc-more-information.md)] [Take over an unmanaged directory as administrator in Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-manage-o365-subscription)
+    > [!div class=mx-imgBorder]
+    > ![Portal Details tab](media/portal-details-admin.png "Portal Details tab")
 
-4. In Azure AD, search for the app registration by using the app ID you copied from the error message. You might need to switch from **My apps** to **All apps**.
+3. Go to Azure AD associated with your tenant. [!include[](../includes/proc-more-information.md)] [Take over an unmanaged directory as administrator in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-manage-o365-subscription)
 
-5. Add users or groups as owners of this app registration. [!include[](../includes/proc-more-information.md)] [Managing access to apps](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-managing-access-to-apps)
+4. In Azure AD, search for the app registration by using the application ID you copied. You might need to switch from **My apps** to **All apps**.
+
+5. Add users or groups as owners of this app registration. [!include[](../includes/proc-more-information.md)] [Managing access to apps](https://docs.microsoft.com/azure/active-directory/active-directory-managing-access-to-apps)
 
     > [!Note]
     > This task can be performed either by a global administrator of your organization or the existing owner of this application.
 
-6. After you've added yourself as an owner, reopen the Portal Admin Center page.
+6. After you've added yourself as an owner, reopen the Power Apps Portals admin center page.
 
-## Link your Dynamics 365 for Customer Engagement portal to a custom domain
+## Link your portal to a custom domain
 
-A custom domain can help your customers find your support resources more easily and enhance your brand. Only one custom domain name can be added to a portal. After you've provisioned your portal and acquired your domain name, you'll need an SSL certificate to set up a custom host name. You can use the purchased SSL certificate for your domain to link your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal to a custom domain by using a wizard.
+A custom domain can help your customers find your support resources more easily and enhance your brand. Only one custom domain name can be added to a portal. After you've provisioned your portal and acquired your domain name, you'll need an SSL certificate to set up a custom host name. You can use the purchased SSL certificate for your domain to link your portal to a custom domain by using a wizard.
 
 1. Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page, and then select the **Applications** tab.
 
@@ -68,13 +71,15 @@ A custom domain can help your customers find your support resources more easily 
    - **Upload a new certificate**: Select this option to upload the .pfx file if you have not yet uploaded it to the organization. Select the upload button underneath **File** to select the .pfx file. After selecting the file, enter the password for your SSL certificate in the **Password** field.
    - **Use an existing certificate**: Select this option to choose the correct certificate from the drop-down list.
 
-     > [!Note]
+     > [!NOTE]
      > The SSL certificate must meet all the following requirements:
      > - Signed by a trusted certificate authority
-     > - Exported as a password-protected PFX file
+     > - [Exported](https://docs.microsoft.com/powershell/module/pkiclient/export-pfxcertificate?view=win10-ps) as a password-protected PFX file
      > - Contains private key at least 2048 bits long
      > - Contains all intermediate certificates in the certificate chain
      > - Must be SHA2 enabled; SHA1 support is being removed from popular browsers
+     > 
+     > The steps to export SSL certificate as a password-protected PFX file may vary depending on your certificate provider. Check with your certificate provider for recommendation. For example, certain providers may suggest to use OpenSSL 3rd party tool from [OpenSSL](https://www.openssl.org/) or [OpenSSL Binaries](https://wiki.openssl.org/index.php/Binaries) sites. 
 
 5. Select **Next**.
 
@@ -84,14 +89,14 @@ A custom domain can help your customers find your support resources more easily 
    
    > [!Note]
    > - You can only have one custom domain name for a portal. 
-   > - To create a custom host name, you will need to create a CNAME with your domain provider that points your domain to the URL of your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal. If you have just added a CNAME with your domain provider, it will take some time to propagate to all DNS servers. If the name is not propagated and you add it here, the following error message will appear: Please add a CNAME record to this domain name. Retry after some time passes.
+   > - To create a custom host name, you will need to create a CNAME with your domain provider that points your domain to the URL of your portal. If you have just added a CNAME with your domain provider, it will take some time to propagate to all DNS servers. If the name is not propagated and you add it here, the following error message will appear: Please add a CNAME record to this domain name. Retry after some time passes.
 
 7. Review the information you have entered, and then select **Next** to begin creating the SSL Binding. You should see the message Custom Domain name has been successfully configured for this Portal. You can now go to {Custom Domain Name} to access this portal. {Custom Domain Name} will be a hyperlink to the Custom Portal URL that was just configured.
 
 8. Select **Finish** to close the wizard.
 
     > [!Note]
-    > If you want to change your existing custom domain name, you must upload a new SSL certificate and follow the steps in the wizard as mentioned [here](#link-your-dynamics-365-for-customer-engagement-portal-to-a-custom-domain).
+    > If you want to change your existing custom domain name, you must upload a new SSL certificate and follow the steps in the wizard as mentioned [here](#link-your-portal-to-a-custom-domain).
     
 ## Import metadata translation
 When you provision a portal, the portal-related solutions are installed on the organization. During the installation of solutions, the solution metadata translations (for example, field name, form name, and view name) are installed only for the languages currently activated in the organization. If you activate a new language in the future, the metadata will not be installed automatically for the newly activated language. To get the metadata translation for the newly activated language, you must import the metadata translation from the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page.
@@ -105,5 +110,5 @@ When you provision a portal, the portal-related solutions are installed on the o
 
 > [!Note]
 > - If the latest version of a portal package is available, it isn't updated. The portal solutions are updated in the same version. To upgrade your portal solutions based on the latest available packages, you need to access the Solution Admin center.
-> - If a user has modified any data in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], the existing data will not be overwritten during the update.
+> - If a user has modified any data in Common Data Service, the existing data will not be overwritten during the update.
 > - If the portal solutions are being installed, the solution update cannot be triggered.

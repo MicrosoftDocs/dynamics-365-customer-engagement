@@ -2,12 +2,9 @@
 title: "Analyze survey data by using Voice of the Customer | MicrosoftDocs"
 description: "After receiving survey responses, learn how to analyze them and prepare reports."
 keywords: analyze survey responses; survey dashboard
-ms.date: 01/23/2019
+ms.date: 07/01/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 8abc2d0c-8472-46ff-83bc-febec0ce802d
 author: sbmjais
 ms.author: shjais
@@ -20,19 +17,22 @@ ms.custom:
 
 # Analyze survey data
 
-Voice of the Customer stores all survey responses in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], and you can analyze them by using features such as:
+> [!IMPORTANT]
+> Voice of the Customer (VoC) is being deprecated and replaced with Microsoft Forms Pro. [Learn more](https://go.microsoft.com/fwlink/p/?linkid=2097704)
+
+Voice of the Customer stores all survey responses in Dynamics 365, and you can analyze them by using features such as:
 
 - Survey response entity
 
 - Advance find queries
 
-- [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] reports
+- Dynamics 365 reports
 
 - Feedback entity
 
 - Survey dashboard
 
-You can also generate custom reports based on the responses to meet your requirements. More information about creating reports: [Create or edit a report using the Report Wizard](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/create-edit-copy-report-wizard)  
+You can also generate custom reports based on the responses to meet your requirements. More information about creating reports: [Create or edit a report using the Report Wizard](https://docs.microsoft.com/dynamics365/customer-engagement/basics/create-edit-copy-report-wizard)  
 
 ## Survey responses
 
@@ -40,7 +40,7 @@ A survey response record is created after a respondent submits a survey. Based o
 
 To view all survey responses:
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+1. Sign in to the Voice of the Customer legacy web client or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
 
 2. Go to **Voice of the Customer** &gt; **Survey Responses**.
 
@@ -50,7 +50,7 @@ To view survey response for a survey:
 
 **Web client**
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to the Voice of the Customer legacy web client.
 
 2. Go to **Voice of the Customer** &gt; **Surveys**.
 
@@ -72,9 +72,9 @@ To view survey response for a survey:
 
 5.  Select the survey response you want to view.
 
-Additionally, you can export survey responses to [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] and perform further analysis by using [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] features. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Export data to [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)]](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/export-data-excel)  
+Additionally, you can export survey responses to [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] and perform further analysis by using [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] features. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Export data to [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)]](https://docs.microsoft.com/dynamics365/customer-engagement/basics/export-data-excel)  
 
-You can also use Advanced Find to create customized queries. For example, you can create a query to fetch all the survey responses where the Net Promoter Score is equal to Detractor. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Advanced Find search](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/save-advanced-find-search)  
+You can also use Advanced Find to create customized queries. For example, you can create a query to fetch all the survey responses where the Net Promoter Score is equal to Detractor. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Advanced Find search](https://docs.microsoft.com/dynamics365/customer-engagement/basics/save-advanced-find-search)  
 
 ![Create custom query by using Advanced find](media/advanced-find.png "Create a custom query by using Advanced Find")  
 
@@ -131,7 +131,7 @@ You can run the following reports for a survey:
 
 To run and export a report:
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to the Voice of the Customer legacy web client.
 
 2. Go to **Voice of the Customer** &gt; **Surveys**.
 
@@ -163,7 +163,7 @@ The survey dashboard allows you to view the summary of survey invitations and re
 
 ![Survey dashboard with invites and responses charts](media/survey-dashboard-invites.png "Survey dashboard with invitations and responses charts")  
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to the Voice of the Customer legacy web client.
 
 2. Go to **Voice of the Customer** &gt; **Surveys**.
 
@@ -175,7 +175,7 @@ The survey dashboard allows you to view the summary of survey invitations and re
 
 5. Select a view and chart from the view list and chart list, respectively. The corresponding chart is displayed.
 
-Additionally, you can create your own customized dashboard. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create or edit dashboards](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/create-edit-dashboards)  
+Additionally, you can create your own customized dashboard. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create or edit dashboards](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-dashboards)  
 
 ### See also
 [Plan a survey](plan-survey.md)   

@@ -1,22 +1,13 @@
 ---
-title: "Unified Service Desk for Dynamics 365 for Customer Engagement apps – Knowledge Management package | MicrosoftDocs"
+title: "Unified Service Desk  – Knowledge Management package | MicrosoftDocs"
 description: "Overview of the Knowledge Management sample application."
 ms.custom: 
-  - dyn365-USD, dyn365-admin
+  - dyn365-USD
+  - dyn365-admin
 ms.date: 08/23/2017
-ms.reviewer: 
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-  - Dynamics CRM Online
-ms.assetid: 5937df93-dcbc-4024-a46c-6afbe61f4359
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -27,16 +18,16 @@ search.app:
   - D365USD
 ---
 # Knowledge Management sample application package 
-[!INCLUDE[pn_unified_service_desk_for_crm](../../includes/pn-unified-service-desk-for-crm.md)] provides a configurable framework for quickly building applications for call centers so the customer service reps get a unified view of the customer data stored in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps or any other application.  
+[!INCLUDE[pn_unified_service_desk_for_crm](../../includes/pn-unified-service-desk-for-crm.md)] provides a configurable framework for quickly building applications for call centers so the customer service reps get a unified view of the customer data stored in the Common Data Service platform or any other application.  
   
  If you’re a service rep, you can use [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to offer your customers a reliable and consistent experience across a number of different channels including phone, email, and chat, and can also serve multiple customers simultaneously through sessions. A system administrator in your organization can integrate Unified Service Desk with many other applications that you use on a day-to-day basis so you can get your work done from your desktop without switching to different applications.  
   
- The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Knowledge Management sample application package provides a configuration for integrating [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps with the [!INCLUDE[pn_parature](../../includes/pn-parature.md)] knowledge base that lets you easily search for articles from your desktop and share them with customers right away, reducing call handling times and improving customer satisfaction.  
+ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Knowledge Management sample application package provides a configuration for integrating the Common Data Service platform with the [!INCLUDE[pn_parature](../../includes/pn-parature.md)] knowledge base that lets you easily search for articles from your desktop and share them with customers right away, reducing call handling times and improving customer satisfaction.  
   
 > [!IMPORTANT]
 >  The sample applications are not supported for production use.  
 > 
->  This sample application is useful only if you have set up knowledge management for [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set up knowledge management with a knowledge base](https://technet.microsoft.com/library/dn946909.aspx)  
+>  This sample application is useful only if you have set up knowledge management for the Common Data Service platform. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set up knowledge management with a knowledge base](https://technet.microsoft.com/library/dn946909.aspx)  
   
  With the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Knowledge Management package, the following components are installed:  
   
@@ -44,14 +35,14 @@ search.app:
   
 - [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Solution  
   
-- Data required for [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps and customizations  
+- Data required for the Common Data Service platform and customizations  
   
 - Configurations for integrating [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] with knowledge management  
    
   
  Here’s what you’ll see when you install [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]:  
   
-1. **Dashboards**: Opens the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] customer service dashboard.  
+1. **Dashboards**: Opens the customer service dashboard.  
   
 2. **My Work**: Shows a list of all the active cases assigned to a service rep.  
   
@@ -103,7 +94,7 @@ search.app:
   
 3.  In the search results, select the article by choosing the article blurb, and do one of the following:  
   
-    -   To copy the URL of the article, click the **Copy Link** button ![Copy knowledge article link button Dynamics 365 for Customer Engagement apps](../../unified-service-desk/media/copy-link-button.png "Copy knowledge article link button Dynamics 365 for Customer Engagement apps"). You can then paste it in the chat session with customers or in the email body.  
+    -   To copy the URL of the article, click the **Copy Link** button ![Copy knowledge article link button](../../unified-service-desk/media/copy-link-button.png "Copy knowledge article link button"). You can then paste it in the chat session with customers or in the email body.  
   
         > [!NOTE]
         >  If you don’t see a URL when you try to paste it, it could be because the article is still in the draft state or is expired.  
@@ -112,15 +103,15 @@ search.app:
   
          An email template opens with data populated in it.  
   
-    -   To link the article with the case, click the **Link Article** button ![Link knowledge article to current case button in Dynamics 365 for Customer Engagement apps](../../unified-service-desk/media/link-article-current-record.png "Link knowledge article to current case button in Dynamics 365 for Customer Engagement apps").  
+    -   To link the article with the case, click the **Link Article** button ![Link knowledge article to current case button](../../unified-service-desk/media/link-article-current-record.png "Link knowledge article to current case button").  
   
-         Linking articles to cases helps in determining what articles were effective in resolving cases. You can also dissociate the article from the case by clicking the **Remove Link** button ![Unlink knowledge article from current record button in Dynamics 365 for Customer Engagement apps](../../unified-service-desk/media/unlink-article.png "Unlink knowledge article from current record button in Dynamics 365 for Customer Engagement apps").  
+         Linking articles to cases helps in determining what articles were effective in resolving cases. You can also dissociate the article from the case by clicking the **Remove Link** button ![Unlink knowledge article from current record button](../../unified-service-desk/media/unlink-article.png "Unlink knowledge article from current record button").  
   
     -   To open the article in a new tab in the main panel and read its content, click the title of the article.  
   
          All actions like **Copy Link** or **Send Email** are available on this new tab.  
   
-    -   Additionally, to open the article in a new browser window, click the **Pop Out** button ![Pop out knowledge article in a new window button in Dynamics 365 for Customer Engagement apps](../../unified-service-desk/media/pop-out-article.png "Pop out knowledge article in a new window button in Dynamics 365 for Customer Engagement apps"). This button is available only in the main panel and is particularly useful when you’re using multiple monitors. You can pop out an article and view it on a second monitor so that you can continue to use the first monitor to work on the case or take notes. While going through the article, you can click a link to go to a different page, and use the **Back** button ![Back button in Unified Service Desk](../../unified-service-desk/media/back-arrow-button.png "Back button in Unified Service Desk") to go back to the original article.  
+    -   Additionally, to open the article in a new browser window, click the **Pop Out** button ![Pop out knowledge article in a new window button](../../unified-service-desk/media/pop-out-article.png "Pop out knowledge article in a new window button"). This button is available only in the main panel and is particularly useful when you’re using multiple monitors. You can pop out an article and view it on a second monitor so that you can continue to use the first monitor to work on the case or take notes. While going through the article, you can click a link to go to a different page, and use the **Back** button ![Back button in Unified Service Desk](../../unified-service-desk/media/back-arrow-button.png "Back button in Unified Service Desk") to go back to the original article.  
   
     > [!TIP]
     >  Your system administrator can also set up the search control to search automatically based on certain criteria as soon as you open a session. To know more about this, talk to your system administrator.  
@@ -133,7 +124,7 @@ search.app:
   
 - Enter your case notes in the **Notes** area.  
   
-- From the list of call scripts, select the **Update the notes** call script. This will attach the notes you’ve taken during your conversation with the customer to the **Notes** tab of the case record in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+- From the list of call scripts, select the **Update the notes** call script. This will attach the notes you’ve taken during your conversation with the customer to the **Notes** tab of the case record in the Common Data Service platform.  
   
 ## Close the session  
  From the list of call scripts, select the **Close the session** call script. This will close the open session and collapse the left panel that shows the call script and right panel that lets you search KB articles.  

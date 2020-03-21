@@ -1,18 +1,15 @@
 ---
-title: "Use custom attributes to enable designer features in templates (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "How to mark up the HTML in your email and page templates to enable drag-and-drop features and style controls for the Design view in Dynamics 365 for Marketing"
+title: "Use custom attributes to enable designer features in templates (Dynamics 365 Marketing) | Microsoft Docs"
+description: "How to mark up the HTML in your email and page templates to enable drag-and-drop features and style controls for the Design view in Dynamics 365 Marketing"
 keywords: custom attributes;templates;email;marketing pages;HTML
 ms.date: 02/01/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 346a437c-f9c7-47ea-94c6-c9deeadfa116
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -27,9 +24,7 @@ search.app:
 
 # Use custom attributes to enable designer features in emails, pages, and forms
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
-The content designers provide both a graphical editor and an HTML code editor. The HTML that they generate is compatible with any HTML renderer, but they also support a few custom attributes that support the drag-and-drop design elements and general style settings provided by the graphical editor. The default message templates and page templates provided with Dynamics 365 for Marketing make use of these custom attributes to make it easier for you to customize them in specific ways. You can also make use of these custom attributes when designing your own templates.
+The content designers provide both a graphical editor and an HTML code editor. The HTML that they generate is compatible with any HTML renderer, but they also support a few custom attributes that support the drag-and-drop design elements and general style settings provided by the graphical editor. The default message templates and page templates provided with Dynamics 365 Marketing make use of these custom attributes to make it easier for you to customize them in specific ways. You can also make use of these custom attributes when designing your own templates.
 
 ## Tag and attribute summary
 
@@ -37,13 +32,13 @@ The following table provides a quick reference to the custom attributes and meta
 
 | Custom attribute | Description |
 | --- | --- |
-| `<meta type="xrm/designer/setting" name="type" value="marketing-designer-content-editor-document">` | When this tag is present in the `<head>` of your document, the **Designer** tab will provide drag-and-drop features. If this tag is not present, the **Designer** tab provides the simplified, full-page editor. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Show the toolbox and enable drag-and-drop editing](#show-toolbox)|
-| `<meta type="xrm/designer/setting" name="additional-fonts" datatype="font" value="<font-list>">` | When this tag is present in the `<head>` of your document, the fonts listed in the _&lt;font-list&gt;_ (semicolon-separated) will be added to the font menu in the formatting toolbar for text elements. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add new fonts to the text-element toolbar](#fonts)|
-| `<div data-container="true"> … </div>` | Marks the start and end of a container where users can drag and drop design elements. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a container where users can add design elements](#containers) |
-| `<div data-editorblocktype="<element-type>"> … </div>` | Marks the start and end of a design element. The value of the attribute identifies which type of element it is (text, image, button, and so on). Some design elements support additional attributes here. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Identify design elements](#elements) and [Lock elements in Designer view](#lock-element) |
-| `<meta type="xrm/designer/setting" name="<name>" value="<initial-value>" datatype="<data-type>" label="<label>">` | This tag defines a document-wide style setting that users can edit using the **Designer** > **Styles** tab.  [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add settings to the Styles tab](#styles) |
-| `/* @<tag-name> */ … /* @<tag-name> */` | Use CSS comments like these to surround a CSS value to be controlled by a style setting, where &lt;_tag-name&gt;_ is the value of the _name_ attribute for the meta tag that established the setting. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add CSS comments to implement style settings in the head](#styles-css) |
-| `property-reference= "<attr>:@< tag-name >;<attr>:@< tag-name >; …"` | Place this attribute in any HTML tag to place an attribute with a value controlled by a style setting, where _&lt;attr&gt;_ is the name of the attribute to be created and &lt;_tag-name&gt;_ is the value of the `name` attribute for the meta tag that established the setting. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add property-reference attributes to implement style settings in the body](#styles-attribute) |
+| `<meta type="xrm/designer/setting" name="type" value="marketing-designer-content-editor-document">` | When this tag is present in the `<head>` of your document, the **Designer** tab will provide drag-and-drop features. If this tag is not present, the **Designer** tab provides the simplified, full-page editor. More information: [Show the toolbox and enable drag-and-drop editing](#show-toolbox)|
+| `<meta type="xrm/designer/setting" name="additional-fonts" datatype="font" value="<font-list>">` | When this tag is present in the `<head>` of your document, the fonts listed in the _&lt;font-list&gt;_ (semicolon-separated) will be added to the font menu in the formatting toolbar for text elements. More information: [Add new fonts to the text-element toolbar](#fonts)|
+| `<div data-container="true"> … </div>` | Marks the start and end of a container where users can drag and drop design elements. More information: [Create a container where users can add design elements](#containers) |
+| `<div data-editorblocktype="<element-type>"> … </div>` | Marks the start and end of a design element. The value of the attribute identifies which type of element it is (text, image, button, and so on). Some design elements support additional attributes here. More information: [Identify design elements](#elements) and [Lock elements in Designer view](#lock-element) |
+| `<meta type="xrm/designer/setting" name="<name>" value="<initial-value>" datatype="<data-type>" label="<label>">` | This tag defines a document-wide style setting that users can edit using the **Designer** > **Styles** tab.  More information: [Add settings to the Styles tab](#styles) |
+| `/* @<tag-name> */ … /* @<tag-name> */` | Use CSS comments like these to surround a CSS value to be controlled by a style setting, where &lt;_tag-name&gt;_ is the value of the _name_ attribute for the meta tag that established the setting. More information: [Add CSS comments to implement style settings in the head](#styles-css) |
+| `property-reference= "<attr>:@< tag-name >;<attr>:@< tag-name >; …"` | Place this attribute in any HTML tag to place an attribute with a value controlled by a style setting, where _&lt;attr&gt;_ is the name of the attribute to be created and &lt;_tag-name&gt;_ is the value of the `name` attribute for the meta tag that established the setting. More information: [Add property-reference attributes to implement style settings in the body](#styles-attribute) |
 
 The remaining sections of this topic provide more information about how to use each of the features summarized in the table.
 
@@ -62,7 +57,7 @@ The following image shows the same design in full-page-edit mode (left) and drag
 ![Full-page editor vs. drag-and-drop editor](media/designer-full-page-editor.png "Full-page editor vs. drag-and-drop editor")
 
 > [!NOTE]
-> When using the full-page editor, you can still select, edit, and style text using the text-formatting toolbar (shown), and can also double-click on images, links, and other elements to set their properties using  a pop-up dialog. The toolbar also includes the [assist-edit](dynamic-email-content.md#assist-edit) button for adding dynamic content, such as field values drawn from each recipient's contact record.
+> When using the full-page editor, you can still select, edit, and style text using the text-formatting toolbar (shown), and can also double-click on images, links, and other elements to set their properties using  a pop-up dialog. The toolbar also includes the **[Assist edit](dynamic-email-content.md#assist-edit)** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button") for adding dynamic content, such as field values drawn from each recipient's contact record.
 
 <a name="containers"></a>
 
@@ -115,9 +110,9 @@ To lock a container, add the `data-locked="hard"` attribute to the container tag
 ```
 
 > [!NOTE]
-> You can also lock content at the design-element level. If content is locked at the container level, then that setting overrules the locked/unlocked status of all the design elements inside that container. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Lock elements in Designer view](#lock-element) 
+> You can also lock content at the design-element level. If content is locked at the container level, then that setting overrules the locked/unlocked status of all the design elements inside that container. More information: [Lock elements in Designer view](#lock-element) 
 
-To further enforce container locking, you can limit access to the **HTML** tab, which will prevent selected users from accessing the code (where they could otherwise defeat this setting). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Control access to designer features](designer-feature-protection.md) 
+To further enforce container locking, you can limit access to the **HTML** tab, which will prevent selected users from accessing the code (where they could otherwise defeat this setting). More information: [Control access to designer features](designer-feature-protection.md) 
 
 <a name="elements"></a>
 
@@ -182,26 +177,26 @@ For example:
 When a design element is marked as protected, users working in the **Designer** tab for a page or email won't be able to edit the element's properties or content. This attribute is always included for the content-block element, but you can add it to any type of design element to protect it. Any design element that includes this attribute is shown as shaded on the **HTML** tab to indicate that it's protected, but you can still edit it there if you insist. Set this attribute to "false" (or just remove it) to remove protection from a design element.
 
 > [!NOTE]
-> You can also lock content at the container level, which will overrule the locked/unlocked status of all the design elements inside that container. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Lock a container in Designer view](#lock-container) 
+> You can also lock content at the container level, which will overrule the locked/unlocked status of all the design elements inside that container. More information: [Lock a container in Designer view](#lock-container) 
 
-To further enforce content locking, you can limit access to the **HTML** tab, which will prevent selected users from accessing the code (where they could otherwise defeat this setting). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Control access to designer features](designer-feature-protection.md)
+To further enforce content locking, you can limit access to the **HTML** tab, which will prevent selected users from accessing the code (where they could otherwise defeat this setting). More information: [Control access to designer features](designer-feature-protection.md)
 
 ## Import externally created HTML into the designer
 
-You can use any tool you like to create the initial HTML layout and content for a marketing email, page, or form. When your HTML is ready, just paste it into the relevant designer and then add any Dynamics 365 features that you need as described in the following subsections.
+You can use any tool you like to create the initial HTML layout and content for a marketing email, page, or form. When your HTML is ready, just paste it into the relevant designer and then add any Dynamics 365 Marketing features that you need as described in the following subsections.
 
 ### Import your HTML code
 
 To bring HTML created externally into the designer, start by doing the following:
 
-1. Create a new marketing email, page, or form in Dynamics 365 for Marketing.
+1. Create a new marketing email, page, or form in Dynamics 365 Marketing.
 1. Go to the **Design** > **HTML** tab of the designer.
 1. Clear all content from the HTML tab and paste in the HTML you created externally.
 1. Go to the **Design** > **Designer** tab of the designer and inspect your design.
-1. If you are working with a marketing email, be sure to use assist-edit to [place all required content and links](prepare-marketing-emails.md#required-links) (including a subscription-center link and your physical sender address).
+1. If you are working with a marketing email, be sure to use [assist edit](dynamic-email-content.md#assist-edit) to [place all required content and links](email-design.md#required-links) (including a subscription-center link and your physical sender address).
 
 > [!TIP]
-> Because you have just pasted in external HTML, your design probably doesn't include any code that is specific to Dynamics 365 for Marketing, so the **Designer** shows the _full-page editor_, which provides features for basic text formatting, image formatting, and (for emails) assist-edit for adding dynamic content.  For more information about how to work with full-page editor, see [Show the toolbox and enable drag-and-drop editing](#show-toolbox). If the full-page editor provides all of the functionality that you need, then use it to fine-tune your design and then go live with it as usual. If you prefer to use the _drag-and-drop editor_ to fine-tune your design, see the next section for information about how to enable it.
+> Because you have just pasted in external HTML, your design probably doesn't include any code that is specific to Dynamics 365 Marketing, so the **Designer** shows the _full-page editor_, which provides features for basic text formatting, image formatting, and (for emails) [assist edit](dynamic-email-content.md#assist-edit) for adding dynamic content.  For more information about how to work with full-page editor, see [Show the toolbox and enable drag-and-drop editing](#show-toolbox). If the full-page editor provides all of the functionality that you need, then use it to fine-tune your design and then go live with it as usual. If you prefer to use the _drag-and-drop editor_ to fine-tune your design, see the next section for information about how to enable it.
 
 ### Enable the drag and drop editor after import
 
@@ -352,5 +347,6 @@ So, in this example, the `<img>` tag would resolve to something like:
 ### See also
 
 [Work with email, page, and form templates](email-templates.md)  
-[Prepare marketing email messages](prepare-marketing-emails.md)  
+[Email marketing overview](prepare-marketing-emails.md)  
+[Create a new email and design its content](email-design.md)  
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)

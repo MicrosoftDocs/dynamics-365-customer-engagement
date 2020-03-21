@@ -1,5 +1,5 @@
 ---
-title: Set up currencies and exchange rates (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: Set up currencies and exchange rates
 description: How to set up currencies and exchange rates in Project Service
 author: ruhercul
 manager: kfend

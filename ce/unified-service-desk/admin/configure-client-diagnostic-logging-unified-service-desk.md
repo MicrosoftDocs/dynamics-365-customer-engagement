@@ -1,37 +1,28 @@
 ---
-title: "Configure client diagnostic logging in Unified Service Desk for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Configure client diagnostic logging in Unified Service Desk  | MicrosoftDocs"
 description: "Learn how to set client diagnostic logging."
 ms.custom: 
-  - dyn365-USD, dyn365-admin
-ms.date: 08/23/2017
-ms.reviewer: 
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
+  - dyn365-USD
+  - dyn365-admin
+ms.date: 12/31/2019
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: 3c690a33-f305-4a6d-a65d-990e9504d5e5
-caps.latest.revision: 25
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-tags: 
-  - MigrationHO
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+tags: MigrationHO
 ---
+
 # Client diagnostic logging overview
 There are two ways you can configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client diagnostic logging:  
 
-- By using an Audit & Diagnostics Settings record that is created and managed in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] area of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+- By using an Audit & Diagnostics Settings record that is created and managed in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] area of the Common Data Service platform.  
 
 - By manually making changes to the UnifiedServiceDesk.exe.config file. This file must then be distributed to every desktop where you want [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client diagnostic logging.  
 
@@ -42,14 +33,14 @@ There are two ways you can configure [!INCLUDE[pn_unified_service_desk](../../in
  This section describes how to manually configure diagnostic logging in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. Rather than use the procedure described here, we recommend you use the Audit & Diagnostics Settings feature that provides centralized administration of diagnostics and the ability to connect a custom listener. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure auditing and diagnostics in Unified Service Desk](../../unified-service-desk/admin/configure-auditing-diagnostics-unified-service-desk.md)  
 
 > [!IMPORTANT]
-> - The manually-configured diagnostics (as described here), will no longer work after you enable an Audit & Diagnostics Settings record that is configured for diagnostics.  
->   - [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] also provides an API that lets you configure rich diagnostic logging for custom hosted controls. More information:  [Configure enhanced diagnostic logging for custom hosted controls](../../unified-service-desk/configure-enhanced-diagnostic-logging-custom-hosted-controls.md)  
+> - The manually configured diagnostics (as described here) will no longer work after you enable an Audit & Diagnostics Settings record that is configured for diagnostics.  
+> - [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] also provides an API that lets you configure rich diagnostic logging for custom hosted controls. More information:  [Configure enhanced diagnostic logging for custom hosted controls](../../unified-service-desk/configure-enhanced-diagnostic-logging-custom-hosted-controls.md)  
 
  This topic describes how to change client logging characteristics.  
 
  You can enable logging with the **UnifiedServiceDesk.exe.config** file, which is available in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client installation directory on your computer. To configure the type of logging and location of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] log file:  
 
-1. Open the **UnifiedServiceDesk.exe.config** file for editing. If you installed the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client at the default location, this file will typically be available at C:\Program Files\Microsoft Dynamics 365 for Customer Engagement USD\USD.  
+1. Open the **UnifiedServiceDesk.exe.config** file for editing. If you installed the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client at the default location, this file will typically be available at C:\Program Files\Microsoft Dynamics 365 Customer Engagement USD\USD.  
 
 2. Go to the `<switches>` section in the file:  
 
@@ -132,9 +123,9 @@ There are two ways you can configure [!INCLUDE[pn_unified_service_desk](../../in
 |-------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |                         EventTopicSwitch                          |                                                                          Detailed [!INCLUDE[pn_user_inteface_integration_uii](../../includes/pn-user-interface-integration-uii.md)] logging source for monitoring messaging traffic inside UII.                                                                           |
 |                   Microsoft.Uii.Common.Logging                    |                                                                                                                                   General UII Log source for messages reported by UII.                                                                                                                                    |
-|              Microsoft.Xrm.Tooling.CrmConnectControl              |                                                          Log source for the sign-in process to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. This source will report general or detailed diagnostics information about the sign-in procedure.                                                           |
-|         Microsoft.Xrm.Tooling.Connector.CrmServiceClient          |                                     Log source for all [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data-level interactions. This source will report all interactions with [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], exceptions and timings.                                      |
-|             Microsoft.Xrm.Tooling.WebResourceUtility              |                                                                                           Log source for requests for Web Resource data via the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] interface link.                                                                                            |
+|              Microsoft.Xrm.Tooling.CrmConnectControl              |                                                          Log source for the sign-in process. This source will report general or detailed diagnostics information about the sign-in procedure.                                                           |
+|         Microsoft.Xrm.Tooling.Connector.CrmServiceClient          |                                     Log source for all the Common Data Service platform data-level interactions. This source will report all interactions with the Common Data Service platform, exceptions and timings.                                      |
+|             Microsoft.Xrm.Tooling.WebResourceUtility              |                                                                                           Log source for requests for Web Resource data via the Common Data Service platform interface link.                                                                                            |
 |                 Microsoft.Crm.UnifiedServiceDesk                  |                            Log source for core [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] functionality.  This log source will report actions and events that are core to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].                             |
 |             Microsoft.Crm.UnifiedServiceDesk.Dynamics             |     Log source for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] boot strap and loading processor. This source will report actions and events that are part of initializing and starting the UII and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].     |
 | Microsoft.Crm.UnifiedServiceDesk.CommonUtility.UserProfileManager | Log source for actions that interact with the UserProfile system; this is part of the caching system. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure client caching for your agent application](../../unified-service-desk/admin/configure-client-caching-unified-service-desk.md) |
@@ -165,7 +156,7 @@ There are two ways you can configure [!INCLUDE[pn_unified_service_desk](../../in
 
 - [MSDN:TextWriterTraceListener](https://msdn.microsoft.com/library/d1ckdta4.aspx)  
 
-  You can also create custom listeners to send diagnostic logs to a location you pick. Custom listeners are created by deriving a class from the [MSDN:TraceListener](https://msdn.microsoft.com/library/hy72797k.aspx) abstract class. You can find a walkthrough of the process on [CodeGuru.com](http://www.codeguru.com/csharp/.net/article.php/c19405/Tracing-in-NET-and-Implementing-Your-Own-Trace-Listeners.htm).  
+  You can also create custom listeners to send diagnostic logs to a location you pick. Custom listeners are created by deriving a class from the [MSDN:TraceListener](https://msdn.microsoft.com/library/hy72797k.aspx) abstract class. You can find a walkthrough of the process on [CodeGuru.com](https://www.codeguru.com/csharp/.net/article.php/c19405/Tracing-in-NET-and-Implementing-Your-Own-Trace-Listeners.htm).  
 
 <a name="View_diagnostic_log"></a>   
 ## Viewing the diagnostic log file  
@@ -214,15 +205,19 @@ StackTrace:   at DemoControl.USDControl.throwExceptionMethod()
 <a name="exceptionoptions"></a>   
 ### Configure error diagnostics reporting  
 
-1. In the web application, go to **Settings** > **Unified Service Desk** > **Auditing and Diagnostics**.  
+1. Sign in to Unified Service Desk Administrator. 
 
-2. Click **New**, and then select **DiagnosticsConfiguration**.  
+2. Select **Auditing and Diagnostics** under **Advanced Settings**.  
 
-3. Select or enter the values that you want, such as tracking, exit monitoring, and the diagnostics logs folder location. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Diagnostics](../../unified-service-desk/admin/configure-auditing-diagnostics-unified-service-desk.md#BKMK_Diagnostics)  
+2. Select **+ New**, and then select **DiagnosticsConfiguration**.  
 
-4. Click **Save & Close**.  
+3. Select or enter the values that you want, such as tracking, exit monitoring, and the diagnostics logs folder location. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Diagnostics](../../unified-service-desk/admin/configure-auditing-diagnostics-unified-service-desk.md#create-an-audit--diagnostics-record-to-use-for-auditing)
+
+4. Select **Save & Close**.  
 
 ## See also  
- [Configure auditing and diagnostics in Unified Service Desk](../../unified-service-desk/admin/configure-auditing-diagnostics-unified-service-desk.md)   
+ [Configure auditing and diagnostics in Unified Service Desk](../../unified-service-desk/admin/configure-auditing-diagnostics-unified-service-desk.md)
+
  [Debugging support in Unified Service Desk to troubleshoot issues](../../unified-service-desk/admin/troubleshoot-unified-service-desk.md)   
+ 
  [Debug issues in Unified Service Desk](../../unified-service-desk/debug-issues-unified-service-desk.md)

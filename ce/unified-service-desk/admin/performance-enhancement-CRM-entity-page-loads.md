@@ -1,21 +1,13 @@
 ---
-title: "Performance enhancement for CRM entity page loads | MicrosoftDocs"
-description: "Learn about Internet Explorer pooling feature, which creates a dynamic pool of Internet Explorer process instances. The hosted control that you open uses an Internet Explorer instance from the pool to perform faster inline navigation."
+title: "Performance enhancement for model-driven page loads | MicrosoftDocs"
+description: "Learn about the Internet Explorer pooling feature, which creates a dynamic pool of Internet Explorer process instances. The hosted control that you open uses an Internet Explorer instance from the pool to perform faster inline navigation."
 ms.custom: 
-  - dyn365-USD, dyn365-admin
-ms.date: 02/06/2018
-ms.reviewer: 
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
+  - dyn365-USD
+  - dyn365-admin
+ms.date: 07/24/2018
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: FA8D5702-C698-42B0-89BF-CD444BF3FB73
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -25,17 +17,18 @@ search.app:
   - D365CE
   - D365USD
 ---
-# Performance enhancement for loading Customer Engagement app pages
+
+# Performance enhancement for loading the model-driven app pages
 
 ::: moniker range="<=dynamics-usd-4"
 
-You can experience enhanced performance of Dynamics 365 Customer Engagement apps entity page loading in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] with the Internet Explorer Pooling feature. 
+You can experience enhanced performance of entity page loading in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] with the Internet Explorer Pooling feature. 
 
 ::: moniker-end
 
 ::: moniker range=">=dynamics-usd-4.1"
 
-You can experience enhanced performance of Dynamics 365 Customer Engagement apps entity page loading in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] with the pooling feature.
+You can experience enhanced performance of entity page loading in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] with the pooling feature.
 
 The pooling feature is available for the following processes:
 
@@ -58,25 +51,25 @@ The pooling feature is available for the following processes:
 
 By default, Internet Explorer pooling is disabled. To enable pooling, a System Administrator must configure the option on the **Active UII Options** page and set it to **true**.
 
-To enable Internet Explorer pooling:
+1. Sign in to the Common Data Service platform.
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
+2. Select the down arrow next to Dynamics 365.
 
-2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
+3. Select **Unified Service Desk Administrator**. 
 
-3. Choose **Options**.  
+4. Select **Options** under **Advance Settings** in the sitemap.
 
-4. Select **New** on the **Active UII Options** page.
+5. Select **+ New** in the **Active UII Options** page.
 
-5. Choose **Others** for the **Global Option** field.
+6. Choose **Others** for the **Global Option** field.
 
-6. Type **InternetExplorerPooling** for the **Name** field.
+7. Type **InternetExplorerPooling** for the **Name** field.
 
-7. Set **True** for the **Value** field.
+8. Set **False** for the **Value** field.
 
-8. Select **Save**.
+9. Select **Save**.
 
-   ![Enable InternetExplorerPooling option](../../unified-service-desk/media/crm-itpro-usd-options-internetexplorerpooling.PNG "Enable InternetExplorerPooling option")
+   ![Enable InternetExplorerPooling option](../../unified-service-desk/unified-interface/media/crm-itpro-usd-options-internetexplorerpooling.PNG "Enable InternetExplorerPooling option")
 
 ::: moniker range=">=dynamics-usd-4.1"
 
@@ -94,21 +87,23 @@ By default, Chrome Process pooling is enabled. To disable the pooling, a System 
 
 To disable Chrome Process pooling:
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to the Common Data Service platform.
 
-2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
+2. Select the down arrow next to Dynamics 365.
 
-3. Choose **Options**.  
+3. Select **Unified Service Desk Administrator**.
 
-4. Select **New** on the **Active UII Options** page.
+4. Select **Options** under **Advance Settings** in the sitemap.
 
-5. Choose **Others** for the **Global Option** field.
+5. Select **+ New** in the **Active UII Options** page.
 
-6. Type **ChromeProcessPooling** for the **Name** field.
+6. Choose **Others** for the **Global Option** field.
 
-7. Set **True** for the **Value** field.
+7. Type **ChromeProcessPooling** for the **Name** field.
 
-8. Select **Save**.
+8. Set **True** for the **Value** field.
+
+9. Select **Save**.
 
 ### Skip inline entity navigation in Chrome Process pooling
 
@@ -118,21 +113,93 @@ If you want to skip the inline navigation for certain entities such as incident,
 
 To skip inline navigation for certain entities, a system Administrator must configure the option on the **Active UII Options** page and the entity names as the comma separated values (CSV).
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to the Common Data Service platform.
 
-2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
+2. Select the down arrow next to Dynamics 365.
 
-3. Choose **Options**.  
+3. Select **Unified Service Desk Administrator**.
 
-4. Select **New** on the **Active UII Options** page.
+4. Select **Options** under **Advance Settings** in the sitemap.
 
-5. Choose **Others** for the **Global Option** field.
+5. Select **+ New** in the **Active UII Options** page.
 
-6. Type **BlockChromeProcessPooling** for the **Name** field.
+6. Choose **Others** for the **Global Option** field.
 
-7. Enter the entity names as comma separated values (CSV) for the **Value** field. For example, **incident,account,contact**.
+7. Type **BlockChromeProcessPooling** for the **Name** field.
 
-8. Select **Save**.
+8. Enter the entity names as comma separated values (CSV) for the **Value** field. For example, **incident,account,contact**.
+
+9. Select **Save**.
+
+### Hide command bar in Chrome Process
+
+In Chrome Process, the command bar is always shown on the pooled Chrome Process instances. If you want to hide the command bar for a specific entity or for all the entities in the Chrome Process pooled instances, then you can add the following UII options.
+
+- To hide a specific entity: **BlockChromeProcessPooling**
+- To hide for all the entities: **HideCommandBar**
+
+#### Hide command bar for a specific entity
+
+Use the **BlockChromeProcessPooling** UII option if you want to hide the command bar for a specific entity in the Chrome Process pooled instances.
+
+See [Add the BlockChromeProcessPooling UII option](#add-the-blockchromeprocesspooling-uii-option) to know how to add the UII option.
+
+#### Hide command bar for all the entities
+
+Use the **HideCommandBar** UII option if you want to hide the command bar for all the entities in the Chrome Process pooled instances.
+
+1. Sign in to the Common Data Service platform.
+
+2. Select the down arrow next to Dynamics 365.
+
+3. Select **Unified Service Desk Administrator**.
+
+4. Select **Options** under **Advance Settings** in the sitemap.
+
+5. Select **+ New** in the **Active UII Options** page.
+
+6. Choose **Others** for the **Global Option** field.
+
+7. Type **HideCommandBar** for the **Name** field.
+
+8. Type **True** for the **Value** field.
+
+9. Select **Save**.
+
+### Show nav bar in Chrome Process
+
+In Chrome Process, the nav bar is always hidden on the pooled Chrome Process instances. If you want to show the nav bar for a specific entity or for all the entities in the Chrome Process pooled instances, then you can add the following UII options.
+
+- To show a specific entity: **BlockChromeProcessPooling**
+- To show for all the entities: **ShowNavBar**
+
+#### Show nav bar for a specific entity
+
+Use the **BlockChromeProcessPooling** UII option if you want to show the nav bar for a specific entity in the Chrome Process pooled instances.
+
+See [Add the BlockChromeProcessPooling UII option](#add-the-blockchromeprocesspooling-uii-option) to know how to add the UII option.
+
+#### Show nav bar for all the entities
+
+Use the **ShowNavBar** UII option if you want to show the nav bar for all the entities in the Chrome Process pooled instances.
+
+1. Sign in to the Common Data Service platform.
+
+2. Select the down arrow next to Dynamics 365.
+
+3. Select **Unified Service Desk Administrator**.
+
+4. Select **Options** under **Advance Settings** in the sitemap.
+
+5. Select **+ New** in the **Active UII Options** page.
+
+6. Choose **Others** for the **Global Option** field.
+
+7. Type **ShowNavBar** for the **Name** field.
+
+8. Type **True** for the **Value** field.
+
+9. Select **Save**.
 
 ### Block second navigation in Chrome Process pooling
 
@@ -153,23 +220,27 @@ Window navigation rule for different entity navigation, you can change the windo
 
 #### Add the BlockChromeProcessSecondInlineNavigation UII option
 
-If you face challenges to change the window navigation rule, you can block the second inline navigation by adding the **BlockChromeProcessSecondInlineNavigation** UII option and set the value as **True**.
+By default, second inline navigation is blocked when using Chrome Process. That is, the option is enabled by default. However, if you want to allow the second inline navigation, that is, disable the option, create the **BlockChromeProcessSecondInlineNavigation** UII option and set the value as **False**. 
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
+After the adding UII option, and if you set the value as **True**, then the option is enabled and blocks the second inline navigation.
 
-2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
+1. Sign in to the Common Data Service platform.
 
-3. Choose **Options**.  
+2. Select the down arrow next to Dynamics 365.
 
-4. Select **New** on the **Active UII Options** page.
+3. Select **Unified Service Desk Administrator**.
 
-5. Choose **Others** for the **Global Option** field.
+4. Select **Options** under **Advance Settings** in the sitemap.
 
-6. Type **BlockChromeProcessSecondInlineNavigation** for the **Name** field.
+5. Select **+ New** in the **Active UII Options** page.
 
-7. Set **True** for the **Value** field.
+6. Choose **Others** for the **Global Option** field.
 
-8. Select **Save**.
+7. Type **BlockChromeProcessSecondInlineNavigation** for the **Name** field.
+
+8. Set **True** for the **Value** field.
+
+9. Select **Save**.
 
 ::: moniker-end
 

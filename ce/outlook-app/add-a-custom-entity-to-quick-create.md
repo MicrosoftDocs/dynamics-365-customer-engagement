@@ -1,5 +1,5 @@
 ---
-title: "Add a custom entity to quick create in Dynamics 365 App for Outlook  (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Add a custom entity to quick create in Dynamics 365 App for Outlook  (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
 ms.date: 01/09/2019
 ms.reviewer: 
@@ -7,9 +7,7 @@ ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps 
-  - Dynamics 365 for Customer Engagement apps Version 9.x
+applies_to: Dynamics 365 apps
 ms.assetid: 0dfd6100-b4ed-4959-9acb-cc0a1dbbb6d6
 caps.latest.revision: 99
 author: mduelae
@@ -25,13 +23,11 @@ search.app:
 ---
 # Customize which entities appear in Quick create  
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Follow these steps to enable a custom entity to appear in Quick create. Note, this example shows addition of custom entity but it can be used to add any entity.
 
 ![Custom entity in Quick create](media/custom-entity-quick-create.png) 
 
-1. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], go to **Settings** > **Customizations** > **Customize the System**.
+1. In your app, go to **Settings** > **Customizations** > **Customize the System**.
 2. Choose the custom entity. Under **Data Services**, enable **Allow quick create**. Under **Outlook & Mobile**, enable **Enable for mobile**.
 
    ![Enable entity settings for quick create display](media/settings-enabled.png "Enable entity settings for quick create display")

@@ -1,108 +1,108 @@
 ---
-title: "Copy an instance of Dynamics 365 for Customer Engagement apps (online) | MicrosoftDocs"
+title: "Copy an instance  | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
-ms.date: 05/28/2019
-ms.reviewer: 
+ms.date: 01/17/2020
+ms.reviewer:
 ms.service: crm-online
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.suite:
+ms.tgt_pltfrm:
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement  (online)
-  - Dynamics 365 for Customer Engagement  Version 9.x
+applies_to:
 ms.assetid: 475d5b1f-4526-4e76-a4fe-b8fbaf394944
 caps.latest.revision: 4
 author: jimholtz
 ms.author: jimholtz
 manager: kvivek
-search.audienceType: 
+search.audienceType:
   - admin
-search.app: 
+search.app:
   - D365CE
   - Powerplatform
 ---
 # Copy an instance to a Sandbox instance
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+Copying an instance (environment) is now done in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). See [Create and manage environments in the Power Platform Admin center](https://docs.microsoft.com/power-platform/admin/create-environment).
 
-You can use Copy instance in the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)] to copy the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps and all data from any instance to a Sandbox instance. You can do either a full or minimal copy.  
+<!--
+
+[!INCLUDE[applies-to](../includes/cc_applies_to_ce.md)]
+
+You can use Copy instance in the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)] to copy the model-driven apps in Dynamics 365, such as Dynamics 365 Sales and Customer Service, and all data from any instance to a Sandbox instance. You can do either a full or minimal copy.  
   
 > [!NOTE]
 > You can now use the [Power Platform Admin center](https://admin.powerplatform.microsoft.com) to copy an instance (environment). See [Copy an environment](https://docs.microsoft.com/power-platform/admin/copy-environment).
 
-## Full copy instance  
- A full copy includes all application data, users, and customizations from the source instance and is suitable for:  
-  
--   User acceptance testing  
-  
--   Upgrade testing  
-  
--   Preview in production (TAP/EA)  
-  
--   Training  
-  
-**An example scenario**  
-  
-Isaac, a business application developer, has received a request from the sales department to configure and deploy a social media integration solution from another company vendor.  Isaac has never installed a solution from this vendor and is unsure what impact this would have on the production application.  He’d like to import the solution into an environment that is nearly identical to, but isolated from, production to learn about the solution and make the appropriate configuration changes. Isaac submits a request to Thomas, the IT Manager for Contoso, to create a full copy Sandbox instance for him.  
-  
-After the full copy is complete, Isaac receives a mail from Thomas telling him the Sandbox instance is ready.  Isaac logs into the Sandbox instance and makes the necessary changes to make sure that production external services will not be impacted by the Sandbox instance.  Once changes are complete, Isaac turns off administration mode and enables background services.  Isaac is able to use the full copy Sandbox instance to do his testing and later manually import the solution into production.  
-  
-## Minimal copy instance  
- A Minimal copy only includes users, customizations, and schema from the source instance and is suitable for:  
-  
--   Iterative team development  
-  
--   Partner/ISV solutions  
-  
--   Proof of concept  
-  
-**An example scenario**  
-  
-Isaac has a large development project starting next week for the sales department.  He has a team of developers ready to start on the project, some of whom are internal to Contoso and some are external vendors. The Contoso sales application contains Personally Identifiable Information (PII) that the sales manager has explicitly stated must not be made available to any external parties for privacy and legal liability reasons.  Isaac requests a minimal copy Sandbox instance that does not contain any production data or users. In addition, Isaac creates an Office 365 security group to give the development team access to the Sandbox instance.  
-  
-After modifying and enabling some of the plug-ins, the developer Sandbox instance functions the same and is completely isolated from the production application.  The development team works on their modifications in this instance for several weeks.  They package their changes into a solution and export/import to deploy to the full copy Sandbox instance.  After a successful round of testing and signoffs, the changes are manually deployed to production.  
-  
-### Entities copied in a Minimal copy  
- The following entities are copied when you do a Minimal copy:  
+## Full copy instance
+ A full copy includes all application data, users, and customizations from the source instance and is suitable for:
 
-| Entities |  
-|-----------|  
-|BusinessUnit|  
-|ConnectionRole|  
-|Currency|  
-|DuplicateRule|  
-|DuplicateRuleCondition|  
-|EmailServerProfile|  
-|FieldPermission|  
-|FieldSecurityProfile|  
-|ImportMap|  
-|InternalAddress|  
-|Mailbox|  
-|Organization|  
-|Position|  
-|Report|  
-|Resource|  
-|ResourceGroup|  
-|Role|  
-|RollupField|  
-|SavedQuery|  
-|SLAKPIInstance|  
-|Solution|  
-|Subject|  
-|Team|  
-|TeamTemplate|  
-|Template|  
-|SystemUser|  
-  
-<a name="BKMK_ToCopy"></a>   
+- User acceptance testing
+- Upgrade testing
+- Preview in production (TAP/EA)
+- Training
 
-## To copy an instance  
-  
-1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)]  
-  
+**An example scenario**
+
+Isaac, a business application developer, has received a request from the sales department to configure and deploy a social media integration solution from another company vendor.  Isaac has never installed a solution from this vendor and is unsure what impact this would have on the production application.  He’d like to import the solution into an environment that is nearly identical to, but isolated from, production to learn about the solution and make the appropriate configuration changes. Isaac submits a request to Thomas, the IT Manager for Contoso, to create a full copy Sandbox instance for him.
+
+After the full copy is complete, Isaac receives a mail from Thomas telling him the Sandbox instance is ready.  Isaac logs into the Sandbox instance and makes the necessary changes to make sure that production external services will not be impacted by the Sandbox instance.  Once changes are complete, Isaac turns off administration mode and enables background services.  Isaac is able to use the full copy Sandbox instance to do his testing and later manually import the solution into production.
+
+## Minimal copy instance
+ A Minimal copy only includes users, customizations, and schema from the source instance and is suitable for:
+
+- Iterative team development
+- Partner/ISV solutions
+- Proof of concept
+
+**An example scenario**
+
+Isaac has a large development project starting next week for the sales department.  He has a team of developers ready to start on the project, some of whom are internal to Contoso and some are external vendors. The Contoso sales application contains Personally Identifiable Information (PII) that the sales manager has explicitly stated must not be made available to any external parties for privacy and legal liability reasons.  Isaac requests a minimal copy Sandbox instance that does not contain any production data or users. In addition, Isaac creates an Office 365 security group to give the development team access to the Sandbox instance.
+
+After modifying and enabling some of the plug-ins, the developer Sandbox instance functions the same and is completely isolated from the production application.  The development team works on their modifications in this instance for several weeks.  They package their changes into a solution and export/import to deploy to the full copy Sandbox instance.  After a successful round of testing and signoffs, the changes are manually deployed to production.
+
+### Entities copied in a Minimal copy
+ The following entities are copied when you do a Minimal copy:
+
+| Entities |
+|-----------|
+|BusinessUnit|
+|ConnectionRole|
+|Currency|
+|DuplicateRule|
+|DuplicateRuleCondition|
+|EmailServerProfile|
+|FieldPermission|
+|FieldSecurityProfile|
+|ImportMap|
+|InternalAddress|
+|Mailbox|
+|Organization|
+|Position|
+|Queues|
+|QueueMembership|
+|Report|
+|Resource|
+|ResourceGroup|
+|Role|
+|RollupField|
+|SavedQuery|
+|Sites|
+|SLAKPIInstance|
+|Solution|
+|Subject|
+|Team|
+|TeamTemplate|
+|Template|
+|SystemUser|
+
+<a name="BKMK_ToCopy"></a>
+
+## To copy an instance
+
+1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)]
+
    > [!NOTE]
-   >  Global administrators can copy all available instances. [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps System administrators can copy instances for which they have the System administrator role.  
+   >  Global administrators can copy all available instances. System administrators can copy instances for which they have the System administrator role.  
   
 2. [!INCLUDE[proc_office365_choose_admin_crm](../includes/proc-office365-choose-admin-crm.md)]  
   
@@ -126,7 +126,7 @@ Once the copy process is complete, the target instance is placed in [Administrat
 ## Next steps after copying an instance  
  To ensure the newly created copy (target) instance does not impact your Production instance, once the copy operation is complete, two things happen:  
   
-1. The newly created copy instance is placed in administration mode. Only those with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps System Administrator or System Customizer security roles can sign in and manage the copy instance. Regular [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps users cannot sign in and use the copy instance.  
+1. The newly created copy instance is placed in administration mode. Only those with System Administrator or System Customizer security roles can sign in and manage the copy instance. Regular users cannot sign in and use the copy instance.  
   
 2. Background operations are disabled in the copy instance. Disabled operations include workflows and synchronization with [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)].  
   
@@ -144,33 +144,26 @@ Once the copy process is complete, the target instance is placed in [Administrat
   
 - **Email**. A mailbox cannot be synced with two different instances. For a full copy instance, the user mailboxes in the copy instance must be disabled so the mailboxes do not attempt to send or receive email, or track appointments, contacts, or tasks. Set synchronization for the following to None.  
   
-    -   Incoming Email  
-  
-    -   Outgoing Email  
-  
-    -   Appointments, Contacts, Tasks  
+    - Incoming Email  
+    - Outgoing Email  
+    - Appointments, Contacts, Tasks  
   
   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set the delivery method for incoming and outgoing email](set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)  
   
-- **SharePoint**. Deactivate or redirect [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] to a sandbox [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] environment to prevent impacting documents in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps managed by [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. In [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps, go to **Settings** > **Documentation Management** > **SharePoint Sites**. Select your site, and then click **Deactivate**.  
+- **SharePoint**. Deactivate or redirect [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] to a sandbox [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] environment to prevent impacting documents in model-driven apps in Dynamics 365 managed by [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. In model-driven apps in Dynamics 365, go to **Settings** > **Documentation Management** > **SharePoint Sites**. Select your site, and then click **Deactivate**.  
   
-- **Yammer**. Disable [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] or redirect to a separate [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] service to prevent posts made in the copy instance conflicting with posts made in the Production instance. In [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps, go to **Settings** > **Administration** > **Yammer Configuration**.  
+- **Yammer**. Disable [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] or redirect to a separate [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] service to prevent posts made in the copy instance conflicting with posts made in the Production instance. In model-driven apps in Dynamics 365, go to **Settings** > **Administration** > **Yammer Configuration**.  
   
-     After creating a new Sandbox instance, workflows and system jobs might be pending execution. Apart from these jobs, if you have connected [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] to [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps there will be [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] activity streams posted from [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] asynchronously. These activity streams are not visible through the system jobs. If there were any pending [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] activity streams before the Disable Background Process is turned on, these activity steams will be posted to the current [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] configuration once the Disable Background Process is turned back off. In the Sandbox instance, if you have your current [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] configuration connected to the same [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] network as your production environment, you might see duplicate activity streams. To avoid duplicate [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] activity streams, redirect your Sandbox instance to another [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] network (possibly a test network) before turning background processes back on.  
+     After creating a new Sandbox instance, workflows and system jobs might be pending execution. Apart from these jobs, if you have connected [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] to model-driven apps in Dynamics 365 there will be [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] activity streams posted from model-driven apps in Dynamics 365 to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] asynchronously. These activity streams are not visible through the system jobs. If there were any pending [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] activity streams before the Disable Background Process is turned on, these activity steams will be posted to the current [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] configuration once the Disable Background Process is turned back off. In the Sandbox instance, if you have your current [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] configuration connected to the same [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] network as your production environment, you might see duplicate activity streams. To avoid duplicate [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] activity streams, redirect your Sandbox instance to another [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] network (possibly a test network) before turning background processes back on.  
   
 - **Platform extensibility**. Consider disabling the following that could be running in the copy instance and impacting external service components.  
   
     - **Server-side plug-ins**.  
-  
     - **Workflow custom activity**.  
   
 - **Client extensibility**. Review the following.  
   
     - **Client-side JavaScript**. Take a look at your JavaScript and HTML web resources for read/write operations that could impact external services.  
-  
     - **IFRAMES**. Determine if the target of an IFRAME is a Production instance.  
   
-### See also  
- [Introducing Sandbox Instances in CRM Online](http://blogs.msdn.com/b/crm/archive/2014/03/20/introducing-sandbox-instances-in-crm-online.aspx)   
- [Manage Dynamics 365 for Customer Engagement apps (online) Sandbox instances](../admin/manage-sandbox-instances.md)   
- [Manage Microsoft Dynamics 365 for Customer Engagement apps (online) instances](../admin/manage-online-instances.md)
+-->

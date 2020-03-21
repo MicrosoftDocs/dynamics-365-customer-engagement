@@ -1,13 +1,10 @@
 ---
-title: "Monthly updates in Voice of the Customer for Dynamics 365 for Customer Engagement | MicrosoftDocs"
-description: "Learn about what's new in the latest release of Voice of the Customer for Dynamics 365 for Customer Engagement."
+title: "Monthly updates in Voice of the Customer for Dynamics 365 | MicrosoftDocs"
+description: "Learn about what's new in the latest release of Voice of the Customer for Dynamics 365."
 keywords: what's new in voice of the customer
-ms.date: 11/30/2018
+ms.date: 07/01/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 8AFEFC49-D1F6-4BE5-B2D8-C4D22525E8D1
 author: sbmjais
 ms.author: shjais
@@ -18,9 +15,12 @@ ms.custom:
   - dyn365-VoC
 ---
 
-# What's new in Voice of the Customer for Dynamics 365 for Customer Engagement
+# What's new in Voice of the Customer for Dynamics 365
 
-Welcome to Voice of the Customer for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. Here's a list of features we added and updated recently. For more information about the updates that have been made to Voice of the Customer for Dynamics 365 for Customer Engagement to date, along with additional details about those updates, see [here](https://blogs.msdn.microsoft.com/crm/tag/voice-of-the-customer/).
+> [!IMPORTANT]
+> Voice of the Customer (VoC) is being deprecated and replaced with Microsoft Forms Pro. [Learn more](https://go.microsoft.com/fwlink/p/?linkid=2097704)
+
+Welcome to Voice of the Customer for Dynamics 365. Here's a list of features we added and updated recently. For more information about the updates that have been made to Voice of the Customer for Dynamics 365 to date, along with additional details about those updates, see [here](https://blogs.msdn.microsoft.com/crm/tag/voice-of-the-customer/).
 
 ## Voice of the Customer version 9.0.1162
 
@@ -47,7 +47,7 @@ Following are the new and updated features in this release:
 
 - **Add multiple survey snippets to an email**: You can now add multiple survey snippets to an email and send them your respondents.
 
-- **Implement General Data Protection Regulation in Voice of the Customer**: With GDPR being implemented, customers can contact you with view, export, update, and delete requests of their data stored in Dynamics 365 for Customer Engagement. You must take appropriate actions based on the customer's request. More information: [Implement GDPR in Voice of the Customer](implement-gdpr.md)
+- **Implement General Data Protection Regulation in Voice of the Customer**: With GDPR being implemented, customers can contact you with view, export, update, and delete requests of their data stored in Dynamics 365. You must take appropriate actions based on the customer's request. More information: [Implement GDPR in Voice of the Customer](implement-gdpr.md)
 
 ## Voice of the Customer version 9.0.1027.16
 

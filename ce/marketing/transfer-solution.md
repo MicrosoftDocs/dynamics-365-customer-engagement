@@ -1,18 +1,15 @@
 ---
-title: "Move customizations between instances (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "How to move customizations between instances using solution export/import in Dynamics 365 for Marketing"
+title: "Move customizations between instances (Dynamics 365 Marketing) | Microsoft Docs"
+description: "How to move customizations between instances using solution export/import in Dynamics 365 Marketing"
 keywords: 
 ms.date: 04/01/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: e250fadf-55ca-4116-b911-12e7b3005e08
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -27,16 +24,14 @@ search.app:
 
 # Transfer customizations between instances using solution export and import
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
-[!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] is highly customizable. You can use its online tools to modify or create fields, entities, business processes, and more. Usually, you'll do your customization work on a sandbox instance, test them, and then transfer the final customizations to your production instances when they're ready. Best practices recommend that you proceed as follows:
+Dynamics 365 is highly customizable. You can use its online tools to modify or create fields, entities, business processes, and more. Usually, you'll do your customization work on a sandbox instance, test them, and then transfer the final customizations to your production instances when they're ready. Best practices recommend that you proceed as follows:
 
 1. [Create a copy](manage-marketing-instances.md#copy-to-sandbox) of your current production instance onto a sandbox instance where you can work without affecting your ongoing operations.
-1. [Create a new managed solution](../customize/create-solution.md) on the sandbox and implement your customizations there. This lets you add customizations without affecting the underlying system, and you can revert your customizations at any time by removing the solution.
+1. [Create a new managed solution](https://docs.microsoft.com/powerapps/maker/common-data-service/create-solution) on the sandbox and implement your customizations there. This lets you add customizations without affecting the underlying system, and you can revert your customizations at any time by removing the solution.
 1. Test the customized solution on your sandbox until you've confirmed it's working correctly.
-1. [Export](../customize/import-update-export-solutions.md) the custom solution from your sandbox and then [Import](../customize/import-update-export-solutions.md) it on your production instance.
+1. [Export](https://docs.microsoft.com/powerapps/maker/common-data-service/import-update-export-solutions) the custom solution from your sandbox and then [Import](https://docs.microsoft.com/powerapps/maker/common-data-service/import-update-export-solutions) it on your production instance.
 
-For general information about creating and working with solutions, see the links in the previous procedure and also the [Solutions overview](../customize/solutions-overview.md). For a full example procedure, see the following sections.
+For general information about creating and working with solutions, see the links in the previous procedure and also the [Solutions overview](https://docs.microsoft.com/powerapps/maker/common-data-service/solutions-overview). For a full example procedure, see the following sections.
 
 ## Example procedure part 1: Create a custom solution
 
@@ -46,14 +41,14 @@ To create a custom solution:
 
 1. Sign in to the instance where you will develop your custom solution.
 
-1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
+1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
 
 1. Navigate to **Settings** > **Customization** > **Solutions**. A list of existing solutions opens.    
     ![The solutions list](media/solution-list.png "The solutions list")
 
 1. Select **New** on the command bar to create a new solution. 
 
-1. A new **PowerApps** window opens. Provide a **Display name**, **Name**, **Publisher**, and **Version** and then select **Save** on the command bar to save your solution.  
+1. A new **Power Apps** window opens. Provide a **Display name**, **Name**, **Publisher**, and **Version** and then select **Save** on the command bar to save your solution.  
     ![The new solution form](media/solution-new-1.png "The new solution form")
 
 1. For this example, we're going to copy an existing entity and then customize it, so open the **Add Existing** drop-down list and select **Entity**.    
@@ -76,21 +71,21 @@ To create a custom solution:
 
 1. When you're done making all the required settings, select **Save and close** on the command bar.
 
-1. You now return to the **PowerApps** window where you're setting up the new solution. Select **Publish All Customizations** to make your new field available to the app.
+1. You now return to the **Power Apps** window where you're setting up the new solution. Select **Publish All Customizations** to make your new field available to the app.
 
-1. In the side panel of the **PowerApps** window, go to **Components** > **Entities** > **Marketing form** > **Forms**. We need to add our new custom field to a form to make it visible to users in the app.
+1. In the side panel of the **Power Apps** window, go to **Components** > **Entities** > **Marketing form** > **Forms**. We need to add our new custom field to a form to make it visible to users in the app.
 
 1. Open the from named **Information** with a **Form type** of **Main** by selecting its name. This is the form that users see when they create or open a marketing-form record.    
     ![The forms list](media/solution-new-8.png "The forms list")
 
-1. A new **PowerApps** window opens showing your selected form setup. In the central pane of this window, scroll down to the **Summary** section. Then drag your new custom field from the **Field explorer** panel to the **General information** section under the **Summary**.    
+1. A new **Power Apps** window opens showing your selected form setup. In the central pane of this window, scroll down to the **Summary** section. Then drag your new custom field from the **Field explorer** panel to the **General information** section under the **Summary**.    
     ![Add a field to the form](media/solution-new-9.png "Add a field to the form")
 
 1. Select **Save and close** on the ribbon.
 
-1. You now return to the **PowerApps** window where you're setting up the new solution. Select **Publish All Customizations** to make your customized form available to the app.
+1. You now return to the **Power Apps** window where you're setting up the new solution. Select **Publish All Customizations** to make your customized form available to the app.
 
-1. When publishing is complete, close the **PowerApps** window.
+1. When publishing is complete, close the **Power Apps** window.
 
 If you'd like to confirm your changes, you can go to the Marketing app, open a marketing form record and look for your new field on the **Summary** tab.
 
@@ -100,7 +95,7 @@ If you'd like to confirm your changes, you can go to the Marketing app, open a m
 
 When you're done customizing your solution and ready to move it to another instance, the next thing you must do is export the custom solution. Here's how:
 
-1. If you're not already there after the last exercise, go to the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] advanced-settings area by opening the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and then select **Advanced settings**.
+1. If you're not already there after the last exercise, go to the advanced-settings area by opening the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and then select **Advanced settings**.
 1. Navigate to **Settings** > **Customizations** > **Solutions**.    
     ![The solutions list](media/solution-list.png "The solutions list")
 
@@ -125,7 +120,7 @@ To import a solution:
 
 1. Sign in to the instance where you will import your custom solution.
 
-1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
+1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
 
 1. Navigate to **Settings** > **Customization** > **Solutions**. A list of existing solutions opens.    
     ![The solutions list](media/solution-list.png "The solutions list")
@@ -148,7 +143,7 @@ To import a solution:
 ### See also
 [Manage your Marketing instances](manage-marketing-instances.md)  
 [Transfer data between instances](transfer-data.md)  
-[Manage instances](../admin/manage-online-instances.md)  
-[Manage your data](../admin/manage-your-data.md)  
-[Move configuration data across instances and organizations](../admin/manage-configuration-data.md)  
-[Import, update, and export solutions](../customize/import-update-export-solutions.md)
+[Administer Power Apps](https://docs.microsoft.com/power-platform/admin/admin-guide)  
+[Manage instances](https://docs.microsoft.com/dynamics365/admin/new-instance-management)  
+[Move configuration data across environments and organizations](https://docs.microsoft.com/power-platform/admin/manage-configuration-data)  
+[Import, update, and export solutions](https://docs.microsoft.com/powerapps/maker/common-data-service/import-update-export-solutions)

@@ -1,13 +1,13 @@
 ---
 title: FAQ and troubleshooting tips
-author: shellyhaverkamp
-manager: shellyha
-ms.date: 06/08/2018
+author: FieldServiceDave
+ms.reviewer: krbjoran
+ms.date: 08/27/2019
 ms.topic: article
 ms.custom: 
   - dyn365-fieldservice
 ms.service: dynamics-365-customerservice
-ms.author: shellyha
+ms.author: daclar
 search.audienceType: 
   - admin
   - customizer
@@ -19,11 +19,9 @@ search.app:
 
 # FAQ and troubleshooting tips
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+## Why doesn’t RSO on Org B work anymore after I copied Dynamics 365 Org A to Org B (with RSO deployed)? 
 
-## Why doesn’t RSO on Org B work anymore after I copied Dynamics 365 for Customer Engagement Org A to Org B (with RSO deployed)? 
-
-RSO Endpoint, which is used for connecting Dynamics 365 for Customer Engagement org and RSO Azure resources on Org B, will be broken after copying an org or rest org. The recommended approach is to delete the current RSO deployment (this will not delete anything inside of the Dynamics 365 for Customer Engagement Org), copy and reset the org, and then redeploy RSO to target the Dynamics 365 for Customer Engagement org as needed.
+RSO Endpoint, which is used for connecting Dynamics 365 org and RSO Azure resources on Org B, will be broken after copying an org or rest org. The recommended approach is to delete the current RSO deployment (this will not delete anything inside of the Dynamics 365 Org), copy and reset the org, and then redeploy RSO to target the Dynamics 365 org as needed.
 
 ## My RSO deployment takes a long time and won’t finish. What should I do?
 
@@ -31,9 +29,9 @@ If your RSO deployment won’t complete (it neither fails nor succeeds), you wil
 
 ## My RSO deployment or upgrade failed. What should I do?
 
-If you’re able to see the **Delete Current Deployment** option through the RSO deployment app, you can try to delete the existing deployment first (this will not delete anything inside of the Dynamics 365 for Customer Engagement Org) and then try to redeploy the latest version. If it fails again, check the admin settings. If the settings are correct but it still fails, contact the Microsoft Support team.
+If you’re able to see the **Delete Current Deployment** option through the RSO deployment app, you can try to delete the existing deployment first (this will not delete anything inside of the Dynamics 365 org) and then try to redeploy the latest version. If it fails again, check the admin settings. If the settings are correct but it still fails, contact the Microsoft Support team.
 
-- Make sure your Dynamics 365 for Customer Engagement org is NOT in administration mode.
+- Make sure your Dynamics 365 org is NOT in administration mode.
 
   > [!div class="mx-imgBorder"]
   > ![](media/34ef04527c9cdb67c34a7c64c08bd868.png)
@@ -41,9 +39,9 @@ If you’re able to see the **Delete Current Deployment** option through the RSO
 - Check to see that the RSO add-on user has the Resource Scheduling
     Optimization security role.
 
-## Installing the RSO solution failed through the Dynamics 365 for Customer Engagement admin center solution management page. What are my options?
+## Installing the RSO solution failed through the Dynamics 365 admin center solution management page. What are my options?
 
-You shouldn’t install the RSO solution from the solution management page. You should use the RSO deployment app to deploy RSO. This includes both the Dynamics 365 for Customer Engagement side solution as well as Azure resources. 
+You shouldn’t install the RSO solution from the solution management page. You should use the RSO deployment app to deploy RSO. This includes both the Dynamics 365 side solution as well as Azure resources. 
 
 ## Can I modify the out-of-box Resource Scheduling Optimization security role?
 
@@ -240,6 +238,9 @@ A booking from the past might be moved if its booking status indicated that it s
 - Lock the booking to a time or time range in the past.
 - Set a promised date from/to or date from/to while enabling the time window
     constraint.
+
+## What happens if I remove the "Schedule within Working Hours" constraint?
+When you remove this constraint, RSO will still respect working hours, but not as strictly. It won't leave time at the end of the day to travel to the resource's ending location and bookings will end at or near the end of a resource's working day and may spill over into non-working hours. Bookings, however, won't disregard working hours and won't be scheduled 24-7.
 
 ## Why are some of my past or future bookings that are outside of the optimization start and end range being removed?
 

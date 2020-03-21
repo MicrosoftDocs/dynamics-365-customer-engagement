@@ -1,15 +1,13 @@
 ---
-title: "Edit properties of a Dynamics 365 for Customer Engagement apps (online) instance | MicrosoftDocs"
+title: "Edit properties of an instance | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 02/27/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement  (online)
-  - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 3aa9c165-78b7-4c1b-a7c0-25cec0250ead
 caps.latest.revision: 4
 author: jimholtz
@@ -23,9 +21,12 @@ search.app:
 ---
 # Edit properties of an instance
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+Editing properties of an instance (environment) is now done in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). See [Editing environment properties](https://docs.microsoft.com/power-platform/admin/edit-properties-environment).
 
-Administrators can edit properties of a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance, such as the friendly name, URL, and the purpose. However, instances that are being provisioned cannot be edited, and disabled instances must be enabled before they can be edited.  
+<!--
+[!INCLUDE[applies-to](../includes/cc_applies_to_ce.md)]
+
+Administrators can edit properties of an instance, such as the friendly name, URL, and the purpose. However, instances that are being provisioned cannot be edited, and disabled instances must be enabled before they can be edited.  
   
 ## Edit an instance  
   
@@ -39,12 +40,12 @@ Administrators can edit properties of a [!INCLUDE[pn_CRM_Online](../includes/pn-
   
 5. Select any of the following field values that you want to change.  
   
-   - **Name**. This is typically the name of your organization and is displayed in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] application. After you save the change, it may take up to 5 minutes for the friendly name to appear in the application.  
+   - **Name**. This is typically the name of your organization and is displayed in the model-driven apps in Dynamics 365, such as Dynamics 365 Sales and Customer Service. After you save the change, it may take up to 5 minutes for the friendly name to appear in the application.  
   
-   - **URL**. The URL is used to construct the URL for users to sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. We recommend that you limit the length of the URL name to reduce the overall length of the URL.  
+   - **URL**. The URL is used to construct the URL for users to sign in to model-driven apps in Dynamics 365. We recommend that you limit the length of the URL name to reduce the overall length of the URL.  
   
      > [!WARNING]
-     >  There are important tasks that you must communicate to your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps users immediately following a URL name change.  
+     >  There are important tasks that you must communicate to your users immediately following a URL name change.  
      > 
      > - For users of the web application, send information that includes the new URL with instructions about how to bookmark it.  
      > - For users of [!INCLUDE[pn_crm_outlook_online](../includes/pn-crm-outlook-online.md)], the following two tasks must be completed in the order specified here:  
@@ -66,17 +67,11 @@ Administrators can edit properties of a [!INCLUDE[pn_CRM_Online](../includes/pn-
   
    - **Purpose**. This value is used to associate the instance with a specific intent and is only displayed in the **Manage your Dynamics 365 instances** page, which is accessed through the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)]. For example, if this instance is for exclusive use by your sales and marketing departments, you can enter *Contoso Sales and Marketing* or, if the instance is for development and testing, enter a relevant name such as *Contoso Development*.  
   
-   - **Security Group**. This value is used to determine the security group that includes the users who will have access to this instance of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps. Learn more: [Control user access to instances: security groups and licenses](../admin/add-instance-subscription.md#BKMK_man_sec_group)  
+   - **Security Group**. This value is used to determine the security group that includes the users who will have access to this instance. Learn more: [Control user access to instances: security groups and licenses](../admin/add-instance-subscription.md#BKMK_man_sec_group)  
   
      > [!IMPORTANT]
-     >  If you do not specify a security group, all users who have a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps license will be added to this instance.  
+     >  If you do not specify a security group, all users who have a license will be added to this instance.  
   
 6. Click **Save**.  
   
-### See also  
- [Add an instance to your subscription](../admin/add-instance-subscription.md)   
- [Switch an instance](../admin/switch-instance.md)   
- [Manage Dynamics 365 for Customer Engagement apps (online) Sandbox instances](../admin/manage-sandbox-instances.md)   
- [Manage subscriptions, licenses, and user accounts](../admin/manage-subscriptions-licenses-user-accounts.md)   
- [Manage storage for Microsoft Dynamics 365 for Customer Engagement apps (online)](../admin/manage-storage.md)
- [User session and access management](user-session-management.md)
+-->

@@ -1,18 +1,15 @@
 ---
-title: "Administrator Guide (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "Index page showing administration, system, user and app configuration for Dynamics 365 for Marketing."
+title: "Administrator Guide (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Index page showing administration, system, user and app configuration for Dynamics 365 Marketing."
 keywords: administration; admin; user administration; system configuration
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: get-started-article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 1f1a8244-2dc5-4de2-b7f8-719a46c82861
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -34,7 +31,7 @@ search.app:
 <h2>Set up and get started</h2>
 <li><a href="https://go.microsoft.com/fwlink/p/?linkid=864736" data-raw-source="[Readme](https://go.microsoft.com/fwlink/p/?linkid=864736)">Readme</a></li>
 <li><a href="trial-signup.md" data-raw-source="[Sign up for a free trial](trial-signup.md)">Sign up for a free trial</a></li>
-<li><a href="purchase-setup.md" data-raw-source="[Purchase and set up Dynamics 365 for Marketing](purchase-setup.md)">Purchase and set up Dynamics 365 for Marketing</a></li>
+<li><a href="purchase-setup.md" data-raw-source="[Purchase and set up Dynamics 365 Marketing](purchase-setup.md)">Purchase and set up Dynamics 365 Marketing</a></li>
 <li><a href="manage-marketing-instances.md" data-raw-source="[Manage Marketing instances](manage-marketing-instances.md)">Manage Marketing instances</a></li>
 <li><a href="apply-updates.md" data-raw-source="[Keep Marketing up to date](apply-updates.md)">Keep Marketing up to date</a></li>
 <li><a href="open-advanced-settings.md" data-raw-source="[Open the administration settings](open-advanced-settings.md)">Open the administration settings</a></li>
@@ -56,18 +53,22 @@ search.app:
 <tr><td>
 
 <h2>Work with users and teams</h2>
-<li><a href="manage-users.md" data-raw-source="[Manage users](manage-users.md)">Manage users</a></li>
+<li><a href="admin-users-licenses-roles.md" data-raw-source="[Manage user accounts, licenses, and roles](admin-users-licenses-roles.md)">Manage user accounts, licenses, and roles</a></li>
 <li><a href="manage-teams.md" data-raw-source="[Manage teams](manage-teams.md)">Manage teams</a></li>
 
 </td><td>
 
 <h2>Configure Marketing features</h2>
-<li><a href="marketing-settings.md#config-mkt-pages" data-raw-source="[Configure landing pages](marketing-settings.md#config-mkt-pages)">Configure landing pages</a></li>
-<li><a href="marketing-settings.md#default-marketing-settings" data-raw-source="[Set default data sources for email previews](marketing-settings.md#default-marketing-settings)">Set default data sources for email previews</a></li>
-<li><a href="marketing-settings.md#dci-sync" data-raw-source="[Sync entities for marketing insights](marketing-settings.md#dci-sync)">Sync entities for marketing insights</a></li>
-<li><a href="events-settings.md" data-raw-source="[Event management settings](events-settings.md)">Event management settings</a></li>
-<li><a href="linkedin-configuration.md" data-raw-source="[Manage LinkedIn Lead Gen](linkedin-configuration.md)">Manage LinkedIn Lead Gen</a></li>
-<li><a href="quota-management.md" data-raw-source="[Manage quotas](quota-management.md)">Manage quotas</a></li>
+<li><a href="marketing-settings.md" data-raw-source="[Marketing settings overview](marketing-settings.md)">Marketing settings overview</a></li>
+<li><a href="mkt-settings-lead-score-options.md" data-raw-source="[Configure lead scoring options](mkt-settings-lead-score-options.md)">Configure lead scoring options</a></li>
+<li><a href="mkt-settings-authenticate-domains.md" data-raw-source="[Authenticate your domains](mkt-settings-authenticate-domains.md)">Authenticate your domains</a></li>
+<li><a href="mkt-settings-analytics.md" data-raw-source="[Marketing analytics configuration](mkt-settings-analytics.md)">Marketing analytics configuration</a></li>
+<li><a href="mkt-settings-landing-pages.md" data-raw-source="[Configure landing pages](mkt-settings-landing-pages.md)">Configure landing pages</a></li>
+<li><a href="mkt-settings-sync.md" data-raw-source="[Sync with the marketing-insights service](mkt-settings-sync.md)">Sync with the marketing-insights service</a></li>
+<li><a href="mkt-settings-matching.md" data-raw-source="[Set matching strategies](mkt-settings-matching.md)">Set matching strategies</a></li>
+<li><a href="mkt-settings-default-marketing.md" data-raw-source="[Default marketing settings](mkt-settings-default-marketing.md)">Default marketing settings</a></li>
+<li><a href="mkt-settings-social-media.md" data-raw-source="[Configure your social media accounts](mkt-settings-social-media.md)">Configure your social media accounts</a></li>
+<li><a href="mkt-settings-data-protection.md" data-raw-source="[Data protection tools](mkt-settings-data-protection.md)">Data protection tools</a></li>
 
 </td></tr>
 

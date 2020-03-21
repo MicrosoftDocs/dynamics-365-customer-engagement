@@ -1,5 +1,5 @@
 ---
-title: "Manage knowledge articles using content access levels for portals in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Manage knowledge articles using content access levels for portals | MicrosoftDocs"
 description: "Instructions to manage knowledge articles by using content access levels in a portal."
 ms.custom: 
   - dyn365-portal
@@ -35,7 +35,7 @@ To enable content access level based filtering of knowledge articles on your por
 
 ## Create content access levels
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and go to **Portals** &gt; **Security** &gt; **Content Access Levels**.
+1. Sign in to Dynamics 365 Portals and go to **Portals** &gt; **Security** &gt; **Content Access Levels**.
 2. In the ribbon, select **New**.
 3. Fill in the **Name** and **Description**.
 4. Change **Default Access Level** from **No** to **Yes** if it should be the default.
@@ -80,11 +80,11 @@ If you want to add content access level in a knowledge article from the Customer
 11. Select **Add**.
 
 
-**Dynamics 365 for Customer Engagement Portal app**
+**Dynamics 365 Portals app**
 
-In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portals app, you can access a knowledge article and add content access level to it by going to **Portals** > **Knowledge Article**.
+In Dynamics 365 Portals app, you can access a knowledge article and add content access level to it by going to **Portals** > **Knowledge Article**.
 
-1. [Open the Dynamics 365 for Customer Engagement Portal app](provision-portal.md#open-dynamics-365-portal-app).
+1. Open the Dynamics 365 Portals app.
 
 2. Go to **Portals** > **Knowledge Article** and open the knowledge article you want to assign content access level.
 
@@ -115,7 +115,7 @@ In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portals app, you 
 
 ## Assign content access levels to portal users
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and go to **Portals** &gt; **Security** &gt; **Contacts**
+1. Sign in to Dynamics 365 Portals and go to **Portals** &gt; **Security** &gt; **Contacts**
 2. Select the Contact you wish to edit.
 3. Under the **Details** tab, find the **Content Access Levels** section.
 4. Press **+** to add a new content access level or the **Trash Can** symbol next to a content access level to remove it.

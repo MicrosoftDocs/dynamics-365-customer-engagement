@@ -1,21 +1,10 @@
 ---
-title: "UII adapters in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
-description: ""
-ms.custom: 
+title: "UII adapters in Unified Service Desk | MicrosoftDocs"
+description: 
 ms.date: 08/23/2017
-ms.reviewer: 
-ms.service: usd
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: 59d89ca1-469d-42e3-98cf-e444c0438ec3
-caps.latest.revision: 5
 author: KumarVivek
 ms.author: kvivek
 manager: jdaly

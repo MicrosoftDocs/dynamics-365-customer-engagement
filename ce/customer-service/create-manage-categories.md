@@ -1,18 +1,15 @@
 ---
-title: Create and manage categories (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Know how to create and manage categories for Customer Service for Dynamics 365 for Customer Engagement
-keywords: Create and manage categories; Dynamics 365 for Customer Engagement; Customer Service Hub; Service manager
-author: anjgupta
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
-ms.author: anjgup
+title: Create and manage categories (Dynamics 365 Customer Service) | MicrosoftDocs
+description: Know how to create and manage categories for Customer Service.
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 10/01/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.assetid: 10494df7-b60f-4394-81de-1c602a5874cc
-ms.custom: dyn365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -24,12 +21,12 @@ search.app:
 
 # Create and manage categories
 
-Using the **Categories** entity, you can create hierarchical categorical data to help group records. Categorizing entity records in Dynamics 365 for Customer Engagement helps you tag the records so that you can easily search them. Use the entity to create and manage a logical structure of categories in Dynamics 365 for Customer Engagement, and then associate entity records to one or more categories.
+Using the **Categories** entity, you can create hierarchical categorical data to help group records. Categorizing entity records in Dynamics 365 Customer Service helps you tag the records so that you can easily search them. Use the entity to create and manage a logical structure of categories in Dynamics 365 Customer Service, and then associate entity records to one or more categories.
 
 Categories are useful for reporting, sorting, segmenting, and categorization of records. 
 
 > [!NOTE]
-> With the Customer Engagement apps version 9.1 release, categories in service management are available in the Customer Service Hub. We recommend that you create and manage categories using the new experience.
+> With the latest release of Dynamics 365 Customer Service app, categories in service management are available in the Customer Service Hub. We recommend that you create and manage categories using the new experience.
 
 ## Create a category
 
@@ -80,4 +77,4 @@ Follow the procedure given below to create a category:
 
 ### See also
 
-[Use the Category entity to categorize Dynamics 365 for Customer Engagement records](../developer/use-category-entity-categorize-dynamics-365-records.md)
+[Use the Category entity to categorize records](../developer/use-category-entity-categorize-dynamics-365-records.md)

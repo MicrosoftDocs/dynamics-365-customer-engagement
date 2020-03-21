@@ -5,8 +5,9 @@ ms.custom: ""
 ms.date: 04/01/2019
 ms.service: "D365CE"
 ms.topic: "article"
-ms.author: "nabuthuk" 
-manager: "kvivek" 
+ms.author: nabuthuk
+author: Nkrb
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
@@ -20,7 +21,7 @@ The Customer Journey design is persisted in JSON format in the **msdyncrm_workfl
  
 The customer journey designer control on the main form of the Customer Journey entity is data bound to the **msdyncrm_workflowdefinition** field. The customer journey designer can present, edit, serialize, and deserialize workflow design.
 
-This topic explains the basics of the workflow definition schema. After persisting workflow definitions in Dynamics 365 for Customer Engagement apps, you can use the customer journey main form and customer journey designer to visualize the workflow definition.
+This topic explains the basics of the workflow definition schema. After persisting workflow definitions in Dynamics 365, you can use the customer journey main form and customer journey designer to visualize the workflow definition.
 
 ## Concepts
 

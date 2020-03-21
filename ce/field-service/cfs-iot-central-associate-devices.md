@@ -8,10 +8,8 @@ ms.technology:
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: activate-fs-mobile-app-license
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: vihuang
+author: FieldServiceDave
 ms.reviewer: krbjoran
 search.audienceType: 
   - admin
@@ -23,8 +21,6 @@ search.app:
 --- 
 
 # 2 - Associate devices with customer accounts 
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 If an IoT device isn't associated with a customer account in Connected Field Service, the system will not be able to generate work orders or cases against incoming alerts. In this tutorial, you'll learn how to associate a device with a customer account. While customer accounts are an optional association in Azure IoT Central, they are required in Connected Field Service.
 

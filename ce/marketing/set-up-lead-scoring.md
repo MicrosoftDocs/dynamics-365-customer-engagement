@@ -1,18 +1,15 @@
 ---
-title: "Set up lead scoring models (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "A tutorial for how to set up lead-scoring models and read lead scores in Dynamics 365 for Marketing"
+title: "Set up lead scoring models (Dynamics 365 Marketing) | Microsoft Docs"
+description: "A tutorial for how to set up lead-scoring models and read lead scores in Dynamics 365 Marketing"
 keywords: tutorial; leads; lead scoring; lead scoring model
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: get-started-article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: e892a409-1e68-491f-8992-1b281ba4a5a3
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -27,20 +24,18 @@ search.app:
 
 # Set up automatic lead generation and scoring
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/ae6596f2-4df4-420e-9635-df776e4e5398" frameborder="0" allowfullscreen=""></iframe></div>
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/ae6596f2-4df4-420e-9635-df776e4e5398" frameborder="0" allowfullscreen=""></iframe></div>
-
-A big part of marketing has to do with finding new leads, qualifying them, and then sending sales-ready leads to salespeople. To help you identify the hottest leads, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] scores each one based on criteria that includes each lead's demographic details and interaction record. A lead who meets your target demographic profile and has interacted with your marketing materials (for example, by opening emails, registering for downloads, browsing your website, or attending an event) will probably get a high score, provided you've set up your scoring model correctly.
+A big part of marketing has to do with finding new leads, qualifying them, and then sending sales-ready leads to salespeople. To help you identify the hottest leads, Dynamics 365 Marketing scores each one based on criteria that includes each lead's demographic details and interaction record. A lead who meets your target demographic profile and has interacted with your marketing materials (for example, by opening emails, registering for downloads, browsing your website, or attending an event) will probably get a high score, provided you've set up your scoring model correctly.
 
 > [!TIP]
 > You can create any number of lead-scoring models, with each lead being scored according to each model. That means that if you have several models, each lead will also have several scores. A lead becomes sales-ready as soon as at least one model produces a sales-ready score for that lead.
 
 To create a lead scoring model:
 
-1. Go to **Marketing** &gt; **Lead management** &gt; **Lead scoring models**. This takes you to a list of existing models. On the command bar, select **New**.
+1. Go to **Marketing** > **Lead management** > **Scoring models**. This takes you to a list of existing models. On the command bar, select **New**.
 
-2. The **New Lead Scoring Model** page opens, with the **Design** tab shown. This designer is similar to other designers in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. You use it to build scoring models by creating a collection of condition/action tile pairs, where the **Condition** tile establishes a condition (such as **email opened**) and the **Action** tile establishes how the score should change when the condition is met (such as, **add 50 points**).  
+2. The **New Lead Scoring Model** page opens, with the **Design** tab shown. This designer is similar to other designers in Dynamics 365 Marketing. You use it to build scoring models by creating a collection of condition/action tile pairs, where the **Condition** tile establishes a condition (such as **email opened**) and the **Action** tile establishes how the score should change when the condition is met (such as, **add 50 points**).  
     ![Add a condition tile to the model](media/scoring-add-condition.png "Add a condition tile to the model")
 
     Drag a **Condition** tile from the **Toolbox** tab to the first position on the canvas.
@@ -56,7 +51,7 @@ To create a lead scoring model:
     > [!TIP]
     > You can add more child conditions by dragging more **Condition** tiles onto the same parent. If you do this, all child conditions are combined with an AND operator, which means that *all* of them must evaluate to true for the following **Action** to be applied.
 
-5. Select in the **Entity** field to place the insertion point. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] fetches a list of scorable entities (which can take a few seconds) and displays them as a drop-down list. The list includes all relevant entities that can be related to a lead record, plus the lead entity itself.  
+5. Select in the **Entity** field to place the insertion point. Dynamics 365 Marketing fetches a list of scorable entities (which can take a few seconds) and displays them as a drop-down list. The list includes all relevant entities that can be related to a lead record, plus the lead entity itself.  
     ![Choose an entity for the condition](media/scoring-condition-entity.png "Choose an entity for the condition")  
 
     You're looking for the name of the city where the lead works, which is recorded on the lead itself, so choose the **Lead** entity here.
@@ -65,7 +60,7 @@ To create a lead scoring model:
     ![Set an expression for the condition](media/scoring-condition-expression.png "Set an expression for the condition")
 
     > [!TIP]
-    > You can add more expressions here by choosing **+ New Expression**.
+    > You can add more expressions here by choosing **+ New Expression**. When multiple expressions are present, they are always combined using an AND operator, so they must *all* evaluate to true for the condition to be true.
 
 7. Drag an **Action** tile from the **Toolbox** tab to the space immediately to the right of the **Condition** tile you just set up.  
     ![Add an action tile](media/scoring-add-action.png "Add an action tile")
@@ -93,9 +88,9 @@ To create a lead scoring model:
     - Go to the **Summary** tab and give your rule a **Name** (such as "London, England").
     - On the command bar, select **Save** to save your model.
     - On the command bar, select **Check for Errors**, and then read the results and fix any problems reported.
-    - On the command bar, select **Go Live** to activate the model. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] runs a final error check, and then updates the **Status Reason** to **Going Live**. It might take a few minutes for the process to be completed, at which time the **Status Reason** will change to **Live**.
+    - On the command bar, select **Go Live** to activate the model. Dynamics 365 Marketing runs a final error check, and then updates the **Status Reason** to **Going Live**. It might take a few minutes for the process to be completed, at which time the **Status Reason** will change to **Live**.
 
-12. Go to **Marketing** &gt; **Lead management** &gt; **Leads** to open a list of available leads. On the command bar, select **+ New** to create a new lead.  
+12. Go to **Marketing** > **Lead management** > **Leads** to open a list of available leads. On the command bar, select **+ New** to create a new lead.  
      ![Create a test lead to see its score](media/scoring-lead-example.png "Create a test lead to see its score")
 
      Do the following:
@@ -109,7 +104,7 @@ To create a lead scoring model:
      ![Link a lead to an existing contact](media/scoring-lead-contact-example.png "Link a lead to an existing contact")
 
     > [!IMPORTANT]
-    > Automatic lead scoring only works for leads that are associated with a contact. Scoring fails for leads that don't have a contact associated with them. Also, segments in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] can only include contacts, not leads, which means that you can only address marketing emails to contacts.
+    > Automatic lead scoring only works for leads that are associated with a contact. Scoring fails for leads that don't have a contact associated with them. Also, segments in Dynamics 365 Marketing can only include contacts, not leads, which means that you can only address marketing emails to contacts.
     > 
     > Your landing pages will typically either create a lead/contact pair when you create a new contact, or associate new leads with existing contacts when they're available. But when you create a lead manually, as you did here, you must also associate it with a contact manually to enable lead scoring.
 
@@ -118,5 +113,5 @@ To create a lead scoring model:
 ### See also
 
 [Design lead-scoring models](score-manage-leads.md)  
-[Register contacts' engagement](register-engagement.md)  
+[Register link clicks and website visits](register-engagement.md)  
 [Manage customer information](manage-customer-information.md)

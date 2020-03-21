@@ -3,20 +3,17 @@ title: "Connected Field Service - Overview | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
-ms.reviewer: 
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.technology: 
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: 2142d996-008b-4ada-bf2e-e9dc316715c4
 caps.latest.revision: 14
-ms.author: krbjoran
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin
@@ -28,8 +25,6 @@ search.app:
 ---
 # Connected Field Service - Overview
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Connected Field Service enables organizations to transform the way they provide service from a costly break-fix model to a proactive and predictive service model through the combination of IoT diagnostics, scheduling, asset maintenance, and inventory on the same platform. 
 
 Key benefits of Connected Field Service:
@@ -40,18 +35,18 @@ Key benefits of Connected Field Service:
 
 There are two offerings you can use to connect IoT-enabled devices into the Field Service solution:
 - Connected Field Service for [**Azure IoT Central**](https://azure.microsoft.com/services/iot-central/)
-- Connected Field Service for [**Azure IoT Hub**](https://azure.microsoft.com/en-us/services/iot-hub/)
+- Connected Field Service for [**Azure IoT Hub**](https://azure.microsoft.com/services/iot-hub/)
 
 See below for the differences between the two offerings.
 
 ## Connected Field Service for Azure IoT Central
 
-Connected Field Service for IoT Central provides a direct integration of Dynamics 365 for Field Service with Microsoft Azure IoT Central, a fully managed IoT software-as-a-service (SaaS) solution. 
+Connected Field Service for IoT Central provides a direct integration of Dynamics 365 Field Service with Microsoft Azure IoT Central, a fully managed IoT software-as-a-service (SaaS) solution. 
 
-Microsoft Azure IoT Central enables builders to configure rules and actions. Based on those actions, IoT alerts will be created in Connected Field Service. Also, based on service activities in Connected Field Service, information can be sent back to IoT Central. This is accomplished by using Microsoft Flow, a SaaS offering for automating workflows across applications and services. 
+Microsoft Azure IoT Central enables builders to configure rules and actions. Based on those actions, IoT alerts will be created in Connected Field Service. Also, based on service activities in Connected Field Service, information can be sent back to IoT Central. This is accomplished by using Power Automate, a SaaS offering for automating workflows across applications and services. 
 
 > [!div class="mx-imgBorder"]
-> ![Diagram showing the relationships between Azure IoT Central, Microsoft Flow, and Field Service](media/cfs-overview.png)
+> ![Diagram showing the relationships between Azure IoT Central, Power Automate, and Field Service](media/cfs-overview.png)
  
 The below end-to-end integration processes can be easily implemented based on a pure configuration experience:
 
@@ -62,7 +57,7 @@ The below end-to-end integration processes can be easily implemented based on a 
 
 Azure IoT Central requires no extensive cloud development or coding skills to get an IoT solution up and running.  
 
-With [Microsoft Flow templates](https://preview.flow.microsoft.com/templates/), users can connect their accounts, take advantage of our pre-built templates, and customize their own flows in an easy visual designer without the need for coding experience.
+With [Power Automate templates](https://preview.flow.microsoft.com/templates/), users can connect their accounts, take advantage of our pre-built templates, and customize their own flows in an easy visual designer without the need for coding experience.
 
 Check out our [Connected Field Service for IoT Central tutorial](cfs-iot-tutorial-overview.md) to get started.
 
@@ -74,9 +69,11 @@ All Azure IoT services run in your own Azure cloud subscription. Additionally, w
 ## Privacy details for Connected Field Service
 [!INCLUDE[cc-privacy-crm-connected-field-service](../includes/cc-privacy-crm-connected-field-service.md)]
 
+- [Connected Field Service Device Readings (Preview)](cfs-visualizations-iot-hub.md) uses [Azure Time Series Insight (Preview)](https://docs.microsoft.com/azure/time-series-insights/) to store, process, and query IoT devices measurements from IoT Hub.
+
 ### See also  
- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)    
- [Install Dynamics 365 for Field Service](../field-service/install-field-service.md)   
+ [Overview of Dynamics 365 Field Service](../field-service/overview.md)    
+ [Install Dynamics 365 Field Service](../field-service/install-field-service.md)   
  [Configure default settings](../field-service/configure-default-settings.md)   
  [View user accounts and security roles](../field-service/view-user-accounts-security-roles.md)<br>
  [Field Service User Guide](../field-service/user-guide.md) 

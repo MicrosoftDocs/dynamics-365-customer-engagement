@@ -2,20 +2,12 @@
 title: "Recovering an Internet Explorer process instance in Unified Service Desk | MicrosoftDocs"
 description: "Learn about recovering an Internet Explorer process instance"
 ms.custom: 
-  - dyn365-USD, dyn365-admin
+  - dyn365-USD
+  - dyn365-admin
 ms.date: 02/06/2018
-ms.reviewer: 
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: 1AEA6B45-3646-400D-B0C1-08B503897E8D
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -32,21 +24,23 @@ By default, Internet Explorer process instance recovery is enabled. To disable t
 
 ### Disable IEWebPageRecovery option
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to the Common Data Service platform.
 
-2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
+2. Select the down arrow next to Dynamics 365.
 
-3. Choose **Options**.  
+3. Select **Unified Service Desk Administrator**. 
 
-4. Select **New** on the **Active UII Options** page.
+4. Select **Options** under **Advance Settings** in the sitemap.
 
-5. Choose **Others** for the **Global Option** field.
+5. Select **+ New** in the **Active UII Options** page.
 
-6. Type **IEWebPageRecovery** for the **Name** field.
+6. Choose **Others** for the **Global Option** field.
 
-7. Type **false** for the **Value** field.
+7. Type **IEWebPageRecovery** for the **Name** field.
 
-8. Select **Save**.
+8. Type **false** for the **Value** field.
+
+9. Select **Save**.
 
 <a name="BKMK_When_Unified_Service_Desk_can_help_recover_the_Internet_Explorer_process_instances"></a>
 ## When [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can help recover Internet Explorer process instances
@@ -106,21 +100,23 @@ If you set the value as 0 milliseconds, then the **IEWebPageInactivityTimeout** 
 
 To change the **IEWebPageInactivityTimeout** timeout value:
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to the Common Data Service platform.
 
-2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
+2. Select the down arrow next to Dynamics 365.
 
-3. Choose **Options**.  
+3. Select **Unified Service Desk Administrator**. 
 
-4. Select **New** on the **Active UII Options** page.
+4. Select **Options** under **Advance Settings** in the sitemap.
 
-5. Choose **Others** for the **Global Option** field.
+5. Select **+ New** in the **Active UII Options** page.
 
-6. Type **IEWebPageInactivityTimeout** for the **Name** field.
+6. Choose **Others** for the **Global Option** field.
 
-7. Type the value in milliseconds for the **Value** field.
+7. Type **IEWebPageInactivityTimeout** for the **Name** field.
 
-8. Select **Save**.
+8. Type the value in milliseconds for the **Value** field.
+
+9. Select **Save**.
 
 <a name="Terminate_recover_unresponsive_Internet_Explorer_process_instance using_keyboard_shortcut"></a>
 ## Terminate and recover unresponsive Internet Explorer process instances using a keyboard shortcut
@@ -146,23 +142,25 @@ After you end the Internet Explorer process instance, the [!INCLUDE[pn_unified_s
 
 To change the keyboard shortcut:
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to the Common Data Service platform.
 
-2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
+2. Select the down arrow next to Dynamics 365.
 
-3. Choose **Options**.  
+3. Select **Unified Service Desk Administrator**. 
 
-4. Select **New** on the **Active UII Options** page.
+4. Select **Options** under **Advance Settings** in the sitemap.
 
-5. Choose **Others** for the **Global Option** field.
+5. Select **+ New** in the **Active UII Options** page.
 
-6. Type **On-DemandIETerminationShortcut** for the **Name** field.
+6. Choose **Others** for the **Global Option** field.
 
-7. Type the keyboard shortcut in the format _key1+key2+key3_ for the **Value** field.
+7. Type **On-DemandIETerminationShortcut** for the **Name** field.
 
-8. Select **Save**.
+8. Type the keyboard shortcut in the format _key1+key2+key3_ for the **Value** field.
 
-![Change On-DemandIETerminationShortcut](../../unified-service-desk/media/crm-usd-options-on-demand-ie-termination-shortcut.PNG "Change On-DemandIETerminationShortcut")
+9. Select **Save**.
+
+![Change On-DemandIETerminationShortcut](../../unified-service-desk/unified-interface/media/crm-usd-options-on-demand-ie-termination-shortcut.PNG "Change On-DemandIETerminationShortcut")
 
 <a name="BKMK_Limitations"></a>
 ## Limitations 

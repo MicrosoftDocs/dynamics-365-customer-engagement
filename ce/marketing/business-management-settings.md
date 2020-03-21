@@ -1,6 +1,6 @@
 ---
-title: "Business management settings (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "Learn how to import data and control how duplicate records are identified in Dynamics 365 for Marketing"
+title: "Business management settings (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Learn how to import data and control how duplicate records are identified in Dynamics 365 Marketing"
 keywords: administration; import; export; duplicate detection
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
@@ -8,12 +8,9 @@ ms.custom:
   - dyn365-admin
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 9c480d38-9c4a-4875-a115-d064a9b327f4
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -28,8 +25,6 @@ search.app:
 
 # Business management settings
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 This topic describes what you can do when working in the **Advanced Settings** > **Business Management** section of the **Settings** work area.
 
 <a name="import"></a>
@@ -38,7 +33,7 @@ This topic describes what you can do when working in the **Advanced Settings** >
 
 Bring your customer and sales data quickly into your app by importing it. You can import data into most record types.
 
-[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] processes imports in the background. After an import is completed, you can review which records were successfully imported, failed to be imported, or were partially imported. To fix the records that failed to be imported, export them into a separate file, fix them, and then try to import them again (if necessary, you can start over by deleting all records associated with the previous import).
+Dynamics 365 Marketing processes imports in the background. After an import is completed, you can review which records were successfully imported, failed to be imported, or were partially imported. To fix the records that failed to be imported, export them into a separate file, fix them, and then try to import them again (if necessary, you can start over by deleting all records associated with the previous import).
 
 Data can be imported from:
 
@@ -47,15 +42,15 @@ Data can be imported from:
 
 When you import data while working in the **Settings** work area, you must select the entity you want to import to (such as a lead or contact).
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Import data](import-data.md)
+More information: [Import data](import-data.md)
 
 <a name="export"></a>
 
 ## Export data or templates
 
-Present information to people who don't have access to [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] by exporting the data to an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] workbook. You can export just the data from a list, or you can export a template.
+Present information to people who don't have access to Dynamics 365 Marketing by exporting the data to an Excel workbook. You can export just the data from a list, or you can export a template.
 
-When you export a template, a ready-made workbook with column headings matching the fields of the record is created for you. Templates are already formatted as expected by [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], so they are easy to edit and reimport later.
+When you export a template, a ready-made workbook with column headings matching the fields of the record is created for you. Templates are already formatted as expected by Dynamics 365, so they are easy to edit and reimport later.
 
 Data and templates can be exported from:
 
@@ -64,17 +59,17 @@ Data and templates can be exported from:
 
 When you export data or templates while working in the **Settings** work area, you must select the entity you want to export (such as a lead or contact). You can also choose the view that will be used for exporting. If you don't choose a view, the default view is selected, and the data or template for all the columns in that view are exported.
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Export data](export-data-word-excel.md)
+More information: [Export data](export-data-word-excel.md)
 
 <a name="duplicate-detection"></a>
 
 ## Keep your data clean by using duplicate detection
 
-To maintain the integrity of your data, it's a good idea to set up duplicate detection to find duplicate records in the system. By default, duplicate detection is already enabled for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
+To maintain the integrity of your data, it's a good idea to set up duplicate detection to find duplicate records in the system. By default, duplicate detection is already enabled for Dynamics 365 Marketing.
 
 ### Duplicate detection rules
 
-[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] includes duplicate detection rules for accounts and contacts. The rules are automatically published when duplicate detection is enabled.
+Dynamics 365 Marketing includes duplicate detection rules for accounts and contacts. The rules are automatically published when duplicate detection is enabled.
 
 - Accounts with the same account name are found
 - Contacts with the same first name and last name are found

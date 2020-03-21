@@ -1,1 +1,0 @@
-Sets display state of the tab.

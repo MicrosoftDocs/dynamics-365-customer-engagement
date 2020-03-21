@@ -1,6 +1,6 @@
 ---
 title: Dashboards
-description: This topic provides information about the reporting dashboards that are included in Dynamics 365 for Project Service Automation.
+description: This topic provides information about the reporting dashboards that are included in Dynamics 365 Project Service Automation.
 author: ruhercul
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Microsoft Dynamics 365 for Project Service Automation (PSA) includes two system dashboards: **Practice Manager** and **Resource Manager**.
+Dynamics 365 Project Service Automation includes two system dashboards: **Practice Manager** and **Resource Manager**.
 
 ## Practice Manager 
 

@@ -1,22 +1,19 @@
 ---
-title: "Set up customer agreements (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Set up customer agreements (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/30/2017
-ms.reviewer: 
+ms.date: 08/15/2019
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.technology: 
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: 5a02d87a-56f4-47e8-ab2d-5d816e60dc8a
 caps.latest.revision: 21
-ms.author: krbjoran
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin
@@ -26,107 +23,356 @@ search.app:
   - D365CE
   - D365FS
 ---
-# Set up customer agreements so you can automatically generate work orders and invoices (Field Service)
+# Set up agreements to automatically generate work orders and invoices
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+Field Service agreements allow organizations to automatically generate work orders and invoices with predefined details, frequency, and date ranges. Agreements are most commonly used for maintenance schedules where an organization must perform daily, weekly, or monthly inspections on equipment. 
 
-An agreement in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] provides the framework to automatically generated work orders and invoices. They are ideal for preventative maintenance-type work.  
+Here are a few different ways agreements can be configured and used. The agreement generates:
+
+- Daily inspection work orders that dispatchers schedule through the schedule board or schedule assistant.
+- Monthly maintenance work orders that are automatically scheduled by Resource Scheduling Optimization (RSO).
+- Weekly work orders where the agreement assigns the same resource each time at a defined start time.
+- A single work order each month to inspect multiple customer assets at a customer location.
+- Multiple work orders each year to inspect multiple assets at a customer location.
+- Quarterly invoices to bill customers for predefined products and services.
+
+To use agreements, you'll need to:  
+
+1. Create the **Agreement**. This is where you'll define high level details such as the customer, date range, and price list. 
+2. Create an **Agreement Booking Setup** where you'll define how often work orders should be created for the agreement, along with basic details of the eventual work orders like **Work Order Type**. 
+3. Add **Agreement Incidents**, **Products**, **Services**, and **Service Tasks** that define the specific details of the work to be performed as part of each work order that is generated. 
+4. **Activate** the agreement and **Agreement Booking Dates** will be created along with work orders as the dates approach.
+
+Let's walk through 2 scenarios to show how agreements can create work orders and invoices.
+
+## Prerequisites
+
+- Field Service v6.1+
+
+- Work order-related data such as accounts, incident types, products, services, and service tasks configured in your system. 
+
+- Consider specifying an agreement prefix and start number (optional). Go to **Field Service** > **Settings**, then the **Agreements** section.
+
+Enter an **Agreement Prefix** and **Agreement Starting Number**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the Field Service settings, on the agreements tab](./media/agreement-field-service-settings.png)
+
+Doing so will dictate the **Agreement Number** when a new agreement is created. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a new agreement, with attention on the agreement number](./media/agreement-custom-prefix.png)
+
+
+## Scenario 1: Auto generate work orders for asset maintenance
+
+An organization must perform monthly maintenance on a piece of equipment they installed at a customer's location for the next 2 years. They want to use Dynamics 365 Field Service to automatically generate the maintenance jobs in the middle of each month, with *some* flexibility. They want dispatchers to schedule the monthly maintenance jobs to the best and most appropriate field technicians and bill the customer for completed work at an agreed upon price.   
+
+We will use agreements - along with customer assets, incident types, and price lists - to configure this scenario. 
+
+### Step 1: Create an agreement
+
+From the main menu, go to **Field Services** > **Agreements** > **+New**.  
+
+Fill in your information. Use the handy tooltips as a guide.  
+    
+- **Service Account & Billing Account**: Like with the work order fields, the service account defines where the agreement work orders will take place, while the billing account defines who the invoice should be sent to.   
+
+- **System Status**: Defines if the agreement is currently being executed. Set to **Estimate** while building a new agreement and adding details. We will set to **Active** later when we are ready to begin performing work orders and sending invoices.
+
+- **Start & End dates**: Defines the duration of the agreement.
   
- An agreement allows you to choose how often work orders will be generated (for example, daily, weekly, monthly, or yearly) and the details of the work order (such as incidents, products, services, and service tasks).  
+- **Price list**: Specifies the price of all products and services related to an agreement and controls the price list populated on work orders and invoices generated from this agreement. Add all products and services that will be used during the agreement to the agreement price list. Agreements usually contain a negotiated price for goods and services that are usually reflected in an entirely new price list. The price list on resulting work orders and invoices can be manually updated as needed.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of an agreement showing all the fields](./media/agreement-create.png)
+
+In the **Other** tab, you can enter more details such as the **Service Territory** resulting work orders should be part of, and **Record Generation Time** which dictates the time of day work orders, invoices, and other records related to this agreement should be generated. This is important because some organizations do not want agreements creating work orders in the middle of the working day. If no value is set, it defaults to the value in Field Service **Settings**.
+
+Finally, **Save**.  
+
+### Step 2: Set up booking recurrence
+
+Once the agreement has been created, specify how often work orders should be generated.  
+
+In the **Booking Setups** section, select **+Add Booking Setup record**.  
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of an agreements entity, with focus drawn to the Booking Setup](./media/agreement-create-booking-setup.png)
+
+Fill in your information to create the agreement schedule. Use the handy tooltips as a guide.
+
+- **Name**: Enter the name of the agreement schedule. For example, it could be "Monthly Maintenance." Naming is important because an agreement can have multiple booking recurrences. For instance, the service organization may perform weekly and monthly maintenance as part of the same agreement.
+
+#### Work order settings  
+
+- **Auto Generate Work Order**: Set to **Yes** to have this agreement automatically generate work orders. The system will generate work orders on a rolling basis. Generated work orders will appear in the active work order view with the status **Open-Unscheduled**. If set to **No**, you must manually generate the work order for each schedule date, as we will explore later in this article.   
+
+- **Generate Work Orders Day in Advance**: Dictates how many days before the expected service date the work order will be generated. If you choose a large number of days in advance, you may have a lot of work orders just sitting there; however, if you choose too few days in advance, you may not have time to prepare. If no value is entered, the work orders will be generated on the expected day of service (called a booking date) at the record generation time entered on the agreement. 
+ 
+**Work Order Type**, **Priority**, **Work Order Summary**, and **Work Location** entered here are passed down to resulting work orders.
+
+#### Booking Settings
+
+- **Auto Generate Booking**: Set to **Yes** to have the system book generated work orders (regardless of auto generated or manually generated). If set to **Yes**, you must specify a **Preferred Resource** and **Preferred Start Time** for the booking. If set to **No**, the generated work orders must be scheduled through the normal scheduling process: manually, with the schedule assistant, or with Resource Scheduling Optimization. 
+
+> [!Note]
+> Bookings made by agreements will not consider existing bookings, meaning it will double book on top of existing schedules.
   
- **Tips**:  
+- **Pre Booking Flexibility** and **Post Booking Flexibility** fields specify how many days before and after the anticipated schedule date the work order is allowed to be scheduled. These will populate the **Date Window Start** and **Date Window End** fields on the generated work orders to aid the schedule assistant. For example, if you plan to perform monthly maintenance on the 8th of each month, and set pre and post booking flexibility to 7 days, then the work orders can be scheduled between the 1st and the 15th of each month.
+     
+- **Time Window Start** and **Time Window End** can be specified to create a time window for generated work orders, and will be taken into account by the schedule assistant. (Example: Work order should be scheduled between 8 AM and 12 PM).  
+
+Next you need to define a pattern for work orders to be created. Select **Booking Recurrence** in the command bar at the top.  
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the agreement booking setup, with focus on the booking recurrence option](./media/agreement-booking-setup.png)
   
--   A single agreement can have numerous agreement schedules. As an example, you may create an agreement schedule called "Weekly Visits" that creates work orders every week with specified incidents, products, services, and service tasks. Additionally, within the same agreement, you may have another agreement scheduled titled "Monthly Visits" that creates work orders every month with different incidents, products, services, and service tasks.  
-  
--   The price list on the agreement specifies the price of all products and services related to an agreement. It is important to add all products and services that will be used during the agreement to the agreement price list. Agreements usually contain a negotiated price for goods and services that are usually reflected in an entirely new price list.  
-  
--   Though the agreement provides a framework to generate work orders, details can still be edited at the work-order level. As an example, though a work order may be generated from an agreement, more products and services can be added to the work order "ad hoc", and other details, such as price list and work order type, can be changed, assuming sufficient permissions.  
-  
-<a name="BKMK_CreateAgreement"></a>   
-## Create an agreement  
-  
-1.  From the main menu, click **Field Services** > **Agreements**.  
-  
-2.  On the **Active Agreements**> screen, choose **+New**.  
-  
-3.  Fill in your information. Use the handy tooltips as a guide.  
-  
-    - **Summary**.  
-  
-        - **General**: Fill in the basic information regarding the agreement, such as where the agreement work order will take place, and which account the bills will to got.  
-  
-            > [!NOTE]
-            >  For the agreement option to be active in the system, and create agreement booking dates or agreement invoice dates, the agreement must be active. To do this make sure **System Status** for the agreement is set to **Active**.  
-  
-        - **Details**: Enter the start and end dates of the agreement  
-  
-    - **Settings**:  
-  
-        - **General**: Add a price list that control the price for products and services used in the agreement. Enter the work order service territory  
-  
-4.  Click **Save**.  
-  
-<a name="BKMK_DefineBookingSetup"></a>   
-## Define booking setup  
- Once the agreement has been created, specify how often work orders are generated.  
-  
-1.  In the **Booking Setups** section, click **+Add Booking Setup record**.  
-  
-2.  Fill in your information to create the agreement schedule. Use the handy tooltips as a guide.  
-  
-    - **Auto Generate Work Order** helps you decide if you want the system to automatically generate work orders. The system will generate work orders on a rolling basis. Generated work orders will appear in the active work order view with a status of open-unscheduled. If set to **No**, you have to manually generate the work order for each schedule date.  
-  
-        > [!NOTE]
-        >  If you choose not to auto generate the work orders, you can go to the agreement booking dates and manually generate the work orders.  
-  
-    -   Given that the system is automatically generated work orders, do you want   it to schedule those work orders as well? If so, mark **Auto Generate Booking** as **Yes** and choose a preferred resource and start time. When the work order is generated, the system will also schedule it, creating a work order schedule and displaying it on the schedule board.  
-  
-    -   If you choose to have the system auto-generate work orders, then choose how many days in advance to **Generate Work Order Days in Advance**. If you choose a large number of days in advance, you may have a lot of work orders just sitting there, but if you choose too few days in advance, you may not have time to prepare.  
-  
-    - **Pre Booking Flexibility** and **Post Booking Flexibility** fields specify how many days before and after the anticipated schedule date thee work order is allowed to be scheduled. These will populate the **Date Window Start** and **Date Window End** fields that aid the schedule assistant.  
-  
-    -   The **Priority** will pass down to every work order that is generated from this agreement schedule.  
-  
-    -   The **Work Order Summary** will pass down to every work order that is generated from this agreement schedule.  
-  
-    -   If you configure the agreement to automatically generate bookings, then choose a:  
-  
-        - **Preferred Resource**: for the work order.  
-  
-        - **Time Window Start** and **Time Window End** can be specified to create a time window for generated work orders, and will be taken into account by the schedule assistant. (Example: Work Order should be scheduled between 8 a.m. and 12 p.m.)  
-  
-3.  To set up a recurring booking for this agreement, on the command bar at the top, click **Booking Recurrence**, specify the recurrence, and then click **Save**.  
-  
-4.  When you are done, click **Save**. This will automatically generate the agreement booking dates within 24 hours.  
-  
-5.  To add incidents to the agreement booking setup, click **+Add Agreement Booking incident record**.Use the tooltips as a guide to specify the incident details, and then click **Save & Close**.  
-  
-6.  To add agreement booking dates, click **+Add Agreement Booking Date record**  
-  
-    -   Use the tooltips as a guide to specify the booking date details and then click **Save & Close**.  
-  
-    -   There is a field on the incident type record called **Copy incident item to agreement** and if marked **Yes**, then when you link the incident to the agreement booking setup then all service task, products, and services that are associated with the incident will be copied to agreement booking setup. If you need to make changes to service tasks, products, or services you can do so from the service task, product, and services section within the agreement booking setup record. This information is automatically copied over to any work order that is created for the agreement booking setup.  
-  
-         If copy incident item to agreement is marked, **No** then the information is not copied over from the agreement booking setup but rather when work orders are created the service tasks, products, and services will inherited directly from the incident type service task, products, and services.  
-  
-<a name="BKMK_AddInvoiceSetup"></a>   
-## Add invoice setup  
- Automatic billing invoices are generated at a set recurrence for a set price. The customer is billed for a product in the system. You can use this to bill customers for subscriptions, rental fees, and retainer services.  
-  
-1.  In the **Invoice Setups** section, click **+Add Agreement Invoice Setup record**. Fill in your information. Use the handy tooltips as a guide.  
-  
-2.  To set up an invoice recurrence for this invoice setup, on the command bar at the top, click **Invoice Recurrence**. Specify the recurrence details and then click **Save**. When you have recurrence set up the system will generate invoices on a rolling basis.  
-  
-    > [!NOTE]
-    >  The invoice will generate in advance depending on what you have set in the **Generate Agreement Invoices X Days in Advance** field in the **Field Service Administration** settings under the **Agreement** section. This means the invoice due date is set based on your recurring invoice setup but it will be created `x` days in advance.  The generate invoice date setting does not override your invoice recurrence, that you specified in step 2.  
-  
-3.  Click **Save**.  
-  
-4.  In the **Invoice Product** section, click **+Add Agreement Invoice Product record**. The products will be added to your invoice at the time the invoice is generated.  
-  
-### See also   
- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
- [Set up agreement sub-statuses](../field-service/set-up-agreement-sub-statuses.md)   
- [Set up tax codes](../field-service/set-up-tax-codes.md)   
- [Set up payment terms](../field-service/set-up-payment-terms.md)<br>
- [User's Guide](../field-service/user-guide.md)
+Use the pop up window to define a recurrence. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the booking recurrence pop up form](./media/agreement-booking-recurrence.png)
+
+Typical examples are:
+
+- Weekly
+- Monthly
+- Every 3 months
+- Yearly
+- The first Monday of each month
+- Every other Friday
+
+You an also define custom dates work orders should be performed if a pattern does not reflect your business needs. For example, perhaps an agreement to perform service on various holidays throughout the year.
+
+- **End Date Behavior**: Entering specific start and end date behavior allows you to generate work orders for all or part of the agreement duration. Selecting **No End Date** means the work orders should be generated until the agreement end date.
+
+Finally, **Save**. 
+
+> [!Note]
+> A single agreement can have various booking setups. For example, you may create a booking setup called "Weekly Visits" that creates work orders every week with specified incidents, products, services, and service tasks. Additionally, within the same agreement, you may have another booking setup called "Monthly Visits" that creates work orders every month with different incidents, products, services, and service tasks.  
+
+### Step 3: Add agreement work details
+
+After setting up the **Agreement** to define the high level details, and the **Agreement Booking Setup** to define a recurrence, the next step is to define the work that should be performed.
+
+This is achieved by adding incident types, products, services, and service tasks to the agreement.
+
+From the agreement booking setup, select **+Add Agreement Booking incident record**. Use the tooltips as a guide to specify the incident details, and then select **Save & Close**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of an agreement booking incident](./media/agreement-incident.png)
+
+As you add incidents to the agreement, the related products, services, service tasks, and characteristics are added to the agreement and then to work orders as they are generated. See note about the "Copy Incident Items to Agreement" in the configuration considerations at the end of this article.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the agreement booking setup, with focus on the products, services, and service tasks tabs](./media/agreement-incident-items.png)
+
+If you do not want to use incident types, you can simply add products, services, and service tasks directly to the agreement. 
+
+#### Customer assets with agreements
+
+If you want to use agreements for customer asset maintenance, use agreement incidents.
+
+By specifying a customer asset on the agreement incident, you can define recurring work that should be performed on specific equipment and build service history. You can also add multiple incident types to an agreement booking setup each with a customer asset. 
+
+Using the example of two incidents for monthly maintenance, organizations can:
+
+1. Perform two different types of maintenance procedures (incident types) on the same customer asset.
+2. Perform the same maintenance procedure (incident type) on two different customer assets, as long as both assets are at the same location as defined by the service account.
+
+
+### Step 4: Activate agreement and view work orders
+
+Finally, after the high level details, recurrence, and work are defined, the last step is to **Activate** the agreement to begin generating related records such as maintenance dates and work orders. This is typically done after manager review and customer acceptance. To add more details to the agreement status, consider using the **Agreement Sub-Status** values. Custom agreement sub-statuses can also be created.
+
+From the agreement, set the **System Status** field to **Active**. Doing so triggers the creation of booking dates that represent the dates service should be performed.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of an agreement with the system status set to Active](./media/agreement-active.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the same agreement booking setup, showing the booking dates options that have appeared](./media/agreement-active-booking-dates.png)
+
+As time approaches the booking dates, work orders will be generated based on the **Generate Work Orders Days in Advance** field. The booking date will then have a status of **Processed**, along with a lookup to the generated work order.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the agreement booking setup, showing the processed booking dates](./media/agreement-active-booking-dates-annotation.png)
+
+You also have the ability to manually generate work orders for each booking date. This is applicable if you set **Auto Generate Work Orders** to **No**, or for unique business cases where you must generate a work order earlier than defined.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of an agreement booking date, with focus on the Generate Work Order option](./media/agreement-active-booking-dates-details.png)
+
+If you decided to have the agreement **Auto Generate Bookings**, the work orders will be scheduled to the preferred resource when the work orders are generated.
+
+### Step 5: Perform agreement work orders
+
+As work orders are generated, they will appear among other work orders in the **Active Work Orders** view. 
+
+The generated work orders will have all the details specified on the agreement, such as price list, work order type, incident type(s), customer asset, and so on.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a work order showing populated fields](./media/agreement-work-order-summary.png)
+
+> [!Note]
+> Though the agreement provides a framework to generate work orders, details can still be edited at the work order level. For example, though a work order may be generated from an agreement, more products and services can be added to the work order as needed; other details, such as price list and work order type, can be changed, assuming sufficient permissions. 
+
+A lookup to the agreement will also be noted in the **Settings** section.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a work order on the settings tab](./media/agreement-work-order-settings.png)
+
+After selecting the work order **Book** button and triggering the schedule assistant, the **Search Start** and **Search End** time parameters will reflect the booking date.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the schedule assistant filter view, with focus on search start and search end fields](./media/agreement-schedule-assistant-filters.png)
+
+After an agreement work order is performed by a field technician and closed by a manager, an invoice for completed work will be created as part of the normal work order invoicing process. This is true whether a work order is part of an agreement or not. See the topic on [work order life cycle and statuses](work-order-status-booking-status.md) for more details.
+
+## Scenario 2: Auto generate invoices
+
+Agreement invoices are used to automatically generate invoices for products and services. The invoices will be generated at a defined recurrence and contain the same products at the same price each time. The invoices are generated and billed regardless of whether any work orders are performed or not. It is a similar model to how you may pay a monthly cell phone bill regardless of the number of phone calls or texts you send.
+
+Let's configure the scenario where a customer pays a field service organization a quarterly amount for a service plan.
+
+
+### Step 1: Create an agreement or select an existing one
+
+You can add an agreement invoice to an existing agreement or add it to a new one. You can have an agreement with only an agreement invoice and no maintenance plan and even have multiple invoices for a single agreement.
+
+In our example, we will add quarterly invoices to the agreement we just created. 
+
+From the agreement, go to **Invoice Setup** > **Add New Agreement Invoice Setup**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of an agreement showing the add new agreement invoice option under invoice setup](./media/agreement-invoice-create-recurrence.png)
+
+
+### Step 2: Set up invoice recurrence and products
+
+In the invoice products section, add the products you would like to bill the customer for on a regular basis. The price of the invoice products will be derived from the price list on the agreement.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of an agreement invoice setup on the invoice products tab](./media/agreement-invoice-add-products.png)
+
+> [!Note]
+> Invoice products can only be products where **Field Service Product Type** is set to **Inventory** or **Non-inventory**. Service type products cannot be added.
+
+
+Next, define how often the invoices should be generated by selecting **Invoice Recurrence** at the top.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of an agreement invoice setup with focus on the invoice recurrence option](./media/agreement-invoice-setup-header.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the recurrence pop up, with the fields all populated](./media/agreement-invoice-recurrence-pattern.png)
+
+
+Don't forget to **Save**!
+
+
+### Step 3: Activate invoice recurrence and view invoices
+
+Because this agreement is already active, the invoice dates will generate after a short time but not immediately. If you added an agreement invoice setup to a new agreement or an existing one that has an estimate status, then you will need to activate the agreement.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the agreement invoice setup showing the related tab with invoice dates highlighted](./media/agreement-invoice-dates.png)
+
+Once the agreement is active, agreement invoice dates will generate after a short time. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the agreement invoice setup, showing a list of invoice dates](./media/agreement-invoice-dates-generated.png)
+
+It is not possible to manually generate agreement invoices like you can with agreement work orders.
+
+> [!NOTE]
+>  The invoice will generate in advance depending on what you have set for X in the **Generate Agreement Invoices X Days in Advance** field in **Field Service Settings** under the **Agreement** section. This means the invoice due date is set based on your recurring invoice setup, but it will be created X days in advance. If no value is entered for **Generate Agreement Invoices X Days in Advance**, the system will generate the invoice on the day of the invoice date at the **Record Generation Timing** field on the agreement, and then in Field Service settings.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Field Service settings with focus on the Generate Agreement Invoices X Months in Advance and the Generate Invoice Agreements X Days in Advance fields](./media/agreement-field-service-settings-invoice.png)
+
+
+## Configuration considerations
+
+In Field Service settings, there are important defaults you can set for agreements that help administrators control how the organization creates agreements.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Field Service settings on the agreement tab](./media/agreement-field-service-settings.png)
+
+- **Generate Booking Dates X Months in Advance**: Agreement booking dates help organizations plan for maintenance. However, if an agreement spans a long time period, then you may not want to generate all booking dates at once, but rather X months in advance. The default is 12 months.
+
+- **Generate Agreement Work Order X Days in Advance**: This value exists on the agreement booking setup and can vary for each booking recurrence, but a default can be set here.
+
+- **Auto Generate Work Order for Agreement Booking**: This value exists on the agreement booking setup and can vary for each booking recurrence, but a default can be set here.
+
+- **Record Generation Time**: This value exists on the agreement and dictates when in the day agreement records such as booking dates and work orders should be generated. This is helpful because some organizations do not want agreements generating many work orders in the middle of a work day while dispatchers are scheduling and managing other jobs.
+
+
+### Multiple incidents vs multiple recurrences
+As agreement work increases, you will have to decide whether to add multiple agreement incidents to a single recurrence or to add multiple recurrences, each with one or more incidents. Here are a few things to consider:
+
+- *Who will perform the work order(s)?*: A single recurrence will create a single work order, whereas multiple recurrences will create multiple work orders, and work orders are generally performed by a single person. If you envision the agreement work being completed by a single person, then using a single recurrence may be better. One workaround is to use incident types with [requirement group templates](/multi-resource-scheduling-requirement-groups.md) that help schedule single work orders to multiple resources.
+
+- *Travel*: If multiple recurrences create multiple work orders, then this may create more trips and more travel.
+
+- *How are you tracking assets?*: Some organizations prefer each work order to relate to a single customer asset. This way they know the time spent on a work order correlates to time spent servicing an asset, which helps with reporting. If this is the case, you may choose to have multiple recurrences each creating one work order with a single incident related to a single asset.
+
+
+### Schedule agreement work orders automatically with Resource Scheduling Optimization (RSO)
+
+RSO automatically schedules work orders to optimize working hours and travel time. This includes work orders generated from agreements. If you are interested in using RSO to schedule agreement work orders, here are 3 options:
+
+1. Have the agreement auto generate work orders and ensure the generated work order is picked up by the RSO scope.
+2. Have the agreement auto generate and book work orders and ensure the preferred resource it's scheduled to is enabled for RSO and the booking status of the related booking can be optimized. You can use schedule lock options on the booking to ensure the agreement booking remains scheduled to that resource, time slot, or both. 
+3. Create a specific RSO schedule and scope that only considers work orders generated from agreements. This allows you to set specific cadences and priorities for when agreement work order bookings are optimized.
+
+### Using invoices and entitlements with agreements
+When deciding to use agreement invoices, you can create a new agreement to generate invoices, or add invoices to an existing service agreement. If the agreement invoices relate to scheduled maintenance, then we recommend having the agreement-generated work orders and the agreement-generated invoices as part of the same agreement. 
+
+Even if you have an agreement generating invoices, agreement work orders will still create invoices upon completion and **Close-Posted** status. If only the agreement invoices represent what should be billed to the customer, you'll need to create a process to disregard or mitigate the work order invoices. This could be as simple as deactivating those invoices or using price lists and entitlements to ensure the work order subtotal and work order invoice is $0. 
+
+Entitlements are applied to work order pricing based on multiple factors such as service account, incident type, and customer asset categories. It's common practice to create specific incident types for specific customers outlining custom work; one option is to apply an entitlement when the custom agreement incident type is added to a work order that makes the products and services $0 by discounting them 100%. 
+
+For more information, visit our [topic on entitlements](work-order-entitlements.md).
+
+
+## Additional notes
+
+- You can edit active agreements; the edits are immediately eligible and will update the agreement after a short time.
+- Editing the booking recurrence of an active agreement will update booking dates asynchronously.  
+- If **Auto Generate Work Order** is set to **No** but **Auto Generate Booking** is set to **Yes**, then the booking will automatically be created when the work order is manually generated from the booking date. 
+- An agreement is intended to be executed at a single location represented by the service account. Work at multiple locations should be configured with multiple agreements.
+- In scenarios where you want to use agreements solely for invoice generation and not for work order generation, consider using the quote entity as part of the Field Service solution, which has similar capabilities. 
+- Agreements work seamlessly with the Dynamics 365 Sales Lead > Opportunity > Quote > Order process. This is achieved by:  
+  - Categorizing a lead as a service-maintenance lead
+  - Adding opportunity lines with service-based lines
+  - Creating quote lines as service-based lines and adding a quote booking setup  
+
+- The **Copy Incident Items to Agreement** field during incident type setup is important for 2 reasons:
+
+  1. The incident you want to add to an agreement may be slightly different than the incident you would add to a single work order that's not part of an agreement. For example, normally the incident would require 1 hour of a service, but for the agreement, you negotiated with the customer 2 hours of a service. Rather than having to create a second incident type just for this agreement, you can set **Copy Incident Items to Agreement** to **No**, add the incident to the agreement, then manually add the specific service tasks, product, services, and so on. This way you can use the same incident type, which helps for reporting later on. Set this option to **Yes** and the incident items will be added to the agreement and you can accept these items or make slight variations from there. 
+
+If set to **Yes**, agreement items will be created.
+> [!div class="mx-imgBorder"]
+> ![Screenshot of an agreement booking setup record, on the Services tab, with a listed service](./media/work-order-incident-types-copy-incident-agreement-YES.PNG)
+
+If set to **No**, they will not.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Screenshot of an agreement booking setup record, on the Services tab, with no listed services](./media/work-order-incident-types-copy-incident-agreement-NO.PNG)
+
+  2. Incidents can be added to agreements for recurring work. This means agreements will generate work orders with predefined work order incidents attached. However, as mentioned earlier in this topic, incidents can be edited as processes and procedures change. But agreements can span multiple months and even years, so should the agreement use the original incident type at the time of agreement creation, or use the latest changes to the incident type? This could result in different work being performed than originally intended at the end of the agreement. Set to **Yes** if the incident should remain the same throughout the agreement life span by copying the incident details to the agreement at the time of agreement activation. 
+  Set to **No** if the work orders generated from the agreement should grab the latest incident type details when the work orders are generated from the agreement, which is generally at an ongoing basis depending on the **Generate Work Orders X Days In Advance** field on **Agreement Booking Setup**. 
+  3. Items are copied to the agreement when they are added to the agreement, even if the agreement has an estimate status.
+
+
+### See also  
+
+- [Create work order templates with incident types](configure-incident-types.md)
+
+- [Add account details to work orders](work-order-customer-account.md)
+

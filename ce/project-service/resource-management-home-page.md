@@ -1,6 +1,6 @@
 ---
 title: Resource management home page
-description: This topic provides information about how to manage resources in Dynamics 365 for Project Service Automation (PSA).
+description: This topic provides information about how to manage resources.
 author: ruhercul
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Resources are the most important asset of a service-based organization. The ability to find and book the correct resources when you need them, and to keep them utilized, helps the organization meet revenue targets and customer satisfaction goals. The following topics are focused on the resource management capabilities of Microsoft Dynamics 365 for Project Service Automation (PSA):
+Resources are the most important asset of a service-based organization. The ability to find and book the correct resources when you need them, and to keep them utilized, helps the organization meet revenue targets and customer satisfaction goals. The following topics are focused on teh resource management capabilities of Dynamics 365 Project Service Automation:
 
 - [Manage resources](manage-resources.md)
 - [Key concepts](reports-key-concepts.md)

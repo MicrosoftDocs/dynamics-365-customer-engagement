@@ -1,17 +1,12 @@
 ---
-title: "Customize forms (Dynamics 365 for Sales Professional) | MicrosoftDocs"
+title: "Customize forms (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "Change or design the forms to allow your users to enter or find information quickly."
-keywords: ""
-ms.date: 04/05/2019
-ms.service:
-  - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
+ms.date: 10/01/2019
+ms.service: 
+  - dynamics-365-sales
+ms.custom: 
+  - dyn365-sales
 ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
-ms.assetid: 17188691-2d5e-46d2-ab48-3af2cc960219
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
@@ -20,9 +15,9 @@ manager: annbe
 # Customize forms (Sales Professional)
 
 > [!IMPORTANT]
-> This capability is introduced in the Dynamics 365 for Sales Professional app version 9.1.0.0.
+> This capability is introduced in the Dynamics 365 Sales Professional app version 9.1.0.0.
 
-In Dynamics 365 for Sales Professional, forms provide the user interface that people use to interact with the data they need to do their work. It is important that the forms people use are designed to allow them to find or enter the information they need quickly. You can use the form designer to customize the forms included with Dynamics 365 for Sales Professional to meet the specific needs of your organization.
+In Dynamics 365 Sales Professional, forms provide the user interface that people use to interact with the data they need to do their work. It is important that the forms people use are designed to allow them to find or enter the information they need quickly. You can use the form designer to customize the forms included with Dynamics 365 Sales Professional to meet the specific needs of your organization.
 
 >[!IMPORTANT]
 >Only customizations done within the app are supported. You should not try to
@@ -36,7 +31,7 @@ When you publish a customized form, you are publishing an updated version of the
 
 ## What forms can you customize?
 
-You can customize any of the following forms in Dynamics 365 for Sales Professional:
+You can customize any of the following forms in Dynamics 365 Sales Professional:
 
 -   Account
 
@@ -68,8 +63,7 @@ To access the forms:
 
 ## What types of customizations can you do?
 
-Form customization in Dynamics 365 for Sales Professional is limited to basic field customization. You can't customize controls (timeline or Bing maps, for example) or change the layout of a form by adding or removing new form sections or tabs or rearranging sections and tabs. For more information on creating forms, see [Create and design
-forms](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/create-design-forms).
+Form customization in Dynamics 365 Sales Professional is limited to basic field customization. You can't customize controls (timeline or Bing maps, for example) or change the layout of a form by adding or removing new form sections or tabs or rearranging sections and tabs. For more information on creating forms, see [Create and design forms](../customize/create-design-forms.md).
 
 
 ### See also

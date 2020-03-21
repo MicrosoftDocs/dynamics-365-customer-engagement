@@ -1,5 +1,5 @@
 ---
-title: Set up proficiency models (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: Set up proficiency models
 description: How to set up proficiency models in Project Service
 author: JohnPBurrows
 manager: kfend

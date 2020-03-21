@@ -1,18 +1,15 @@
 ---
-title: Create entitlements to define the support terms for a customer (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: See how to create entitlements to define the support terms for a customer in Dynamics 365 for Customer Service
-keywords: Create an entitlement; Dynamics 365 for Customer Engagement; Customer Service Hub; Activate or deactivate an entitlement; Set as default entitlement; Associate entitlements to cases;  Cancel an entitlement; Renew an entitlement
-author: anjgupta
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
-ms.author: anjgup
+title: Create entitlements to define the support terms for a customer (Dynamics 365 Customer Service) | MicrosoftDocs
+description: See how to create entitlements to define the support terms for a customer in Dynamics 365 Customer Service
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 10/01/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.assetid: 9384cb0a-64ec-424d-bf73-7010997c4d4e
-ms.custom: dyn365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -24,12 +21,10 @@ search.app:
 
 # Create entitlements to define support terms
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
-
-Define what kind of support your customers are eligible for by creating entitlements in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. With entitlements, you specify the support term based on number of hours or number of cases. The customer’s support level can vary based on the product or service that the customer has purchased. Customers who’ve purchased different products can be entitled to different support levels. This information helps the customer support agents verify what the customers are eligible for and create cases for them accordingly.  
+Define what kind of support your customers are eligible for by creating entitlements in Dynamics 365 Customer Service. With entitlements, you specify the support term based on number of hours or number of cases. The customer’s support level can vary based on the product or service that the customer has purchased. Customers who’ve purchased different products can be entitled to different support levels. This information helps the customer support agents verify what the customers are eligible for and create cases for them accordingly.  
 
 > [!NOTE]
-> With the Customer Engagement apps version 9.1 release, entitlements in service management are available in the Customer Service Hub. We recommend that you create and manage entitlements using the new experience.
+> With the latest release of Dynamics 365 Customer Service app, entitlements in service management are available in the Customer Service Hub. We recommend that you create and manage entitlements using the new experience. 
   
 ## Create an entitlement
   
@@ -162,7 +157,7 @@ As you save the entitlement, additional sections are added for a new entitlement
 ## Associate entitlements to cases  
  In a case record, in the **Entitlement** field, select the **Lookup** button,and select an entitlement. The inline lookup shows only the active entitlement for the customer of the case.  
   
- The Entitlements section in the case record lists all the active entitlements for the customer. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]: [See recent cases and entitlements](customer-service-hub-user-guide-case-sla.md#see-recent-cases-and-entitlements)
+ The Entitlements section in the case record lists all the active entitlements for the customer. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]: [See recent cases and entitlements](customer-service-hub-user-guide-basics.md#related-section)
 
   
 ## Cancel an entitlement  
@@ -178,6 +173,3 @@ As you save the entitlement, additional sections are added for a new entitlement
 ### See also  
 
  [Set up entitlements quickly with templates](set-up-entitlements-templates.md) <br>
-
-
-

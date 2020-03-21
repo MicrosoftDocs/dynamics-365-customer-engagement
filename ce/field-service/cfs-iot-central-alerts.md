@@ -2,16 +2,14 @@
 title: "Receive IoT alerts in Connected Field Service from Azure IoT Central | MicrosoftDocs"
 ms.custom: dyn365-fieldservice
 ms.date: 09/24/2018
-ms.reviewer: 
+ms.reviewer: krbjoran
 ms.suite: 
 ms.technology: 
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: activate-fs-mobile-app-license
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: vihuang
+author: FieldServiceDave
 ms.reviewer: krbjoran
 search.audienceType: 
   - admin
@@ -24,13 +22,11 @@ search.app:
 
 # 1 - Receive IoT alerts in Connected Field Service from Azure IoT Central
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 At the end of this step in the tutorial, you'll be able to receive and see alerts from Azure IoT Central in your instance of Connected Field Service. IoT alerts will display on your dashboard and relate to relevant work orders that have been created automatically.  
 
 ## Goal
 
-Connect Azure IoT Central to Connected Field Service by configuring the "Create CFS alerts from IoT Central" template in Microsoft Flow.
+Connect Azure IoT Central to Connected Field Service by configuring the "Create CFS alerts from IoT Central" template in Power Automate.
 
 ## Steps
 
@@ -46,27 +42,27 @@ Connect Azure IoT Central to Connected Field Service by configuring the "Create 
 
 3. Once on the Refrigerated Vending Machine detail page, navigate to the **Dashboard** tab, seen below in the screenshot.
 
-    a. You should see service and scheduling fields in the Contoso Template. Their values should be empty. If you can't see these fields, please refer to [this documentation](https://docs.microsoft.com/en-us/azure/iot-central/howto-manage-devices#change-a-property) to add the properties.
+    a. You should see service and scheduling fields in the Contoso Template. Their values should be empty. If you can't see these fields, please refer to [this documentation](https://docs.microsoft.com/azure/iot-central/howto-manage-devices#change-a-property) to add the properties.
     
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the service details on and IoT Central device](media/iot-central-alerts-3.png)
 
-4. Next, while still on this detail page, head over to the **Rules** tab, and create the rule "Cash drawer level is high." For more information on creating a rule, learn more in [this IoT Central tutorial](https://docs.microsoft.com/en-us/azure/iot-central/tutorial-configure-rules).
+4. Next, while still on this detail page, head over to the **Rules** tab, and create the rule "Cash drawer level is high." For more information on creating a rule, learn more in [this IoT Central tutorial](https://docs.microsoft.com/azure/iot-central/tutorial-configure-rules).
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the rules tab in IoT Central](media/iot-central-alerts-4.png)
 
-5. Then, under **Actions,** select **Microsoft Flow** from the Select Action options. This will take you to another working environment in the Microsoft Flow application. This is where you will set up your integrations.
+5. Then, under **Actions,** select **Power Automate** from the Select Action options. This will take you to another working environment in the Power Automate application. This is where you will set up your integrations.
 
-    a. **Note for Azure IoT Central trial users**: In order to use Microsoft Flow from Azure IoT Central, you must be using the pay-as-you-go form of IoT Central. Trial users can work around this by heading directly to [Microsoft Flow](https://flow.microsoft.com/en-us/templates/) to configure steps 7 and 8 in this tutorial. Then in Azure IoT Central, the Flow will be all ready to go. 
+    a. **Note for Azure IoT Central trial users**: In order to use Power Automate from Azure IoT Central, you must be using the pay-as-you-go form of IoT Central. Trial users can work around this by heading directly to [Power Automate](https://flow.microsoft.com/templates/) to configure steps 7 and 8 in this tutorial. Then in Azure IoT Central, the flow will be all ready to go. 
     
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Microsoft Flow as an Action option in IoT Central](media/iot-central-alerts-5.png)
+> ![Screenshot of Power Automate as an Action option in IoT Central](media/iot-central-alerts-5.png)
 
-6. You'll be taken to the Microsoft Flow template page for "Create CFS alerts from IoT Central." Select "Use this template." (if you have trouble finding these templates, head to the [Microsoft  Flow Templates page](https://flow.microsoft.com/en-us/templates/) and search "CFS")
+6. You'll be taken to the Power Automate template page for "Create CFS alerts from IoT Central." Select "Use this template." (if you have trouble finding these templates, head to the [Power Automate Templates page](https://flow.microsoft.com/templates/) and search "CFS")
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Microsoft Flow template page](media/iot-central-alerts-6.png)
+> ![Screenshot of the Power Automate template page](media/iot-central-alerts-6.png)
 
 7. You'll be prompted now to sign in to both IoT Central and Dynamics accounts. Select your accounts from each and then **Continue** to progress.
 
@@ -79,7 +75,7 @@ Connect Azure IoT Central to Connected Field Service by configuring the "Create 
 
     b. Set IoT rule as the one you created earlier. In our suggested example, it would be: "Cash drawer level is high."
 
-    c. Select your Dynamics 365 for Customer Engagement Organization name.
+    c. Select your Dynamics 365 organization name.
 
     d. Set Entity Name to "IoT Alerts."
 
@@ -90,7 +86,7 @@ Connect Azure IoT Central to Connected Field Service by configuring the "Create 
     g. Save the Flow.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Flow fields for IoT Central and Dynamics 365 for Customer Engagement](media/iot-central-alerts-9.png)
+> ![Screenshot of the Flow fields for IoT Central and Dynamics 365](media/iot-central-alerts-9.png)
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the advanced fields, highlighting Alert Type Label](media/iot-central-alerts-10.png)
@@ -105,7 +101,7 @@ From here, the workflow will trigger based on the alert type. While you may have
 
 ## See the results
 
-Once you've saved your Flow, log in to Dynamics 365 for Field Service, and select Connected Field Service. You may see a window that offers a few links to learn more about Connected Field Service and Azure IoT offerings. You can choose to learn more, or just dismiss this window. 
+Once you've saved your Flow, log in to Dynamics 365 Field Service, and select Connected Field Service. You may see a window that offers a few links to learn more about Connected Field Service and Azure IoT offerings. You can choose to learn more, or just dismiss this window. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the IoT alerts in Connected Field Service](media/iot-central-alerts-14.png)

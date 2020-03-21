@@ -1,5 +1,5 @@
 ---
-title: Associate skills with resources (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: Associate skills with resources 
 description: How to associate skills with specific resources in Project Service
 author: JohnPBurrows
 manager: kfend

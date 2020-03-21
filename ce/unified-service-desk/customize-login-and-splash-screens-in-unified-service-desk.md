@@ -4,19 +4,9 @@ description: "The topic explains how to customize the branding of Unified Servic
 ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: 
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: b28f7509-bea1-4bb4-84a7-691665eaff03
-caps.latest.revision: 12
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -35,8 +25,8 @@ You can customize the branding of [!INCLUDE[pn_unified_service_desk](../includes
  The following XAML is used to customize the branding of login and splash screens in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]:  
   
 ```xaml  
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
-                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
+<ResourceDictionary xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation"  
+                    xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml"  
                     xmlns:resx1="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Properties">  
   
   <Style x:Key="FormAppNameStyle" TargetType="TextBlock">  
@@ -108,8 +98,8 @@ You can customize the branding of [!INCLUDE[pn_unified_service_desk](../includes
  Update the contents of the `CustomerSplashStyles.xaml` file to the following:  
   
 ```  
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
-                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
+<ResourceDictionary xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation"  
+                    xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml"  
                     xmlns:resx1="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Properties">  
   
   <Style x:Key="FormAppNameStyle" TargetType="TextBlock">  
@@ -131,8 +121,8 @@ You can customize the branding of [!INCLUDE[pn_unified_service_desk](../includes
  Update the contents of the `CustomerSplashStyles.xaml` file to the following:  
   
 ```xaml  
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
-                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
+<ResourceDictionary xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation"  
+                    xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml"  
                     xmlns:resx1="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Properties">  
   
   <Style x:Key="SplashAppNameStyle" TargetType="Label">  

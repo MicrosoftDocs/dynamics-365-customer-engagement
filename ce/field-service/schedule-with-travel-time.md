@@ -2,7 +2,7 @@
 title: "Schedule with travel time and distance | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 05/12/2019
+ms.date: 06/25/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -28,8 +28,6 @@ search.app:
 
 # Schedule with travel time and distance
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
-[!INCLUDE[topic-urs-schedule-travel-time.md](../includes/topic-urs-schedule-travel-time.md)]
+[!INCLUDE[topic-urs-schedule-travel-time.md](../shared/urs/schedule-travel-time.md)]
 
 

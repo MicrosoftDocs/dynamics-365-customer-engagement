@@ -1,75 +1,75 @@
 ---
-title: "Create a quote PDF document (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "Create and share a professional-looking quote PDF document with your customers."
-keywords: "Quote, proposal, create PDF, email PDF, PDF"
-ms.date: 05/22/2019
+title: "Create PDF documents from sales records (Dynamics 365 Sales) | MicrosoftDocs"
+description: "Create and share professional-looking PDF documents with your customers."
+ms.date: 02/03/2020
 ms.service:
   - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
 ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.1.x"
-ms.assetid: f37196fb-0b42-4637-9700-acbbac25d9e6
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 58
-topic-status: Drafting
 ---
 
-# Generate a PDF document from a quote record
+# Create PDF documents from sales records
+<!--note from editor: Just FYI, the Writing Style Guide (and apparently the UI for this feature) would actually call these "PDF files" rather than "PDF documents." I see enable-pdf-generation-quote.md uses the "document" phrase also, so I won't suggest changing it here.-->
+You can create and share professional-looking PDF documents for sales records by using a standard template from your organization to generate the PDF document. The capability to create PDF documents is available for the following entities: Account, Contact, Lead, Opportunity, Order, Quote, and Invoice.
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.x
-
-Create and share a professional-looking quote by generating a PDF document from a quote record using a standard template from your organization.
+Your system administrator can choose the entities for which PDF generation is enabled. 
 
 > [!IMPORTANT]
-> The capability to create a quote PDF is introduced in the version 9.0.1905.2010. The **Create PDF**, and **Email as PDF** options are available only if your system administrator has enabled the PDF-generation capability for your organization. If you do not see these options, please talk to your system administrator.
+> - The PDF generation capability for additional entities (entities other than Quote) is released with Dynamics 365 Sales (Sales Hub) app version: 9.0.1911.1009, as part of the weekly release of the product to individual geographies.
+> - If you don't see the **Create PDF** and **Email as PDF** options on one of the supported entity records, it might be because your system administrator hasn't enabled the PDF-generation capability for that entity. Check with your system administrator.
 
-1.	Open a quote record.
+**To create a PDF document from a sales record** 
 
-2.	On the command bar, select **Create PDF**, and then select the quote template. 
+1.	Open the entity record for which you want to create a PDF document&mdash;in this example, a record for a Quote entity.
 
-    ![A quote form showing the Create PDF button on the command bar](media/create-pdf.png "A quote form showing the Create PDF button on the command bar")
+2.	On the command bar, select **Create PDF**, and then select the template you want to use to create the PDF. 
 
-    A PDF document using the selected template is downloaded to your computer. You can add this document to a note or send it as an attachment in email.
+    > [!div class="mx-imgBorder"]
+    > ![A quote form showing the Create PDF button on the command bar](media/create-pdf.png "A quote form showing the Create PDF button on the command bar")
+
+    > [!IMPORTANT]
+    > Templates are available out of the box for the Account, Opportunity, Order, Quote, and Invoice entities. For entities that don't have out-of-the-box templates, you can create new templates. You can't create a PDF document for an entity record if there's no template available for that entity. 
 
     > [!TIP]
     > To learn more about using Word templates, see [Use Word templates to create standardized documents](../admin/using-word-templates-dynamics-365.md). 
 
-## Email as a PDF document
+    You’ll see a dialog box with options to save the PDF or download the PDF. 
+
+    > [!div class="mx-imgBorder"]    
+    > ![Option to save or download PDF document](media/save-or-download-pdf-document.png "Option to save or download a PDF document")
+    
+    If you select **Save**, the PDF document is stored in the default SharePoint site if SharePoint is configured and enabled for the **Quote** entity. If SharePoint isn't configured, the **Save** option saves the PDF as a Notes attachment to the Quote record in Dynamics 365 Sales. The **Download** option downloads the PDF to your local drive. After it's downloaded, you can add this document to a note, send it as an attachment in an email, or upload it to SharePoint.
+
+    > [!NOTE]
+    > Save a PDF to SharePoint is an early access feature. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. For information about how to enable these features, see [Opt in to 2020 release wave 1 updates](https://aka.ms/EarlyAccessOpt-in). 
+
+## Email a PDF document
 
 You can also generate a PDF document and directly email it to a customer.
 
-1.	Open the quote record.
+1.	Open an entity record&mdash;in this example, a record for a Quote entity.
 
-2.	On the command bar, select **Email as PDF**, and then select the quote template.
+2.	On the command bar, select **Email as PDF**, and then select a document template.
 
     ![A quote form showing the Email as PDF button on the command bar](media/email-as-PDF.png "A quote form showing the Email as PDF button on the command bar")
 
-    An email form opens. 
-    
-    The following information is automatically populated.
+    In the email form that opens, the following information is automatically populated.
 
     |Field             |	Populated with                                 |
     |------------------|-------------------------------------------------|  
-    |**To**                |	Potential customer of the quote                |
-    |**From**	             |  Current user                                   |
+    |**To**                |	Potential customer, if applicable                |
+    |**From**	             |  The current user                                   |
     |**Attachments**       |	The generated PDF, added as an attachment         |
-    |**Regarding**	       |  Quote record from which the email was triggered| 
-    |**Subject**	         |  Quote title                                    |
+    |**Regarding**	       |  The record from which the email was triggered| 
+    |**Subject**	         |  The title of the record                                    |
 
-3.	Verify and change any details in the email form, and select **Send**.
+3.	Verify or change any details in the email form as necessary, and then select **Send**.
 
 > [!IMPORTANT]
-> The time taken to generate the PDF document and download or send email is dependent on the size of the file. You'll see optimum performance when the file size is less than 2 MB. Larger files can require considerably more response time.
+> The time taken to generate the PDF document and download or send the email depends on the size of the file. You'll see optimum performance when the file size is less than 2 MB. Larger files can require considerably more response time.
 
 ### See also
 
-[Enable PDF generation from quotes](enable-pdf-generation-quote.md)  
-[Create or edit a quote](create-edit-quote-sales.md)
+[Enable or disable PDF generation from sales records](enable-pdf-generation-quote.md)  

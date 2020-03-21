@@ -1,5 +1,5 @@
 ---
-title: "Engage with communities by using a community portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Engage with communities by using a community portal | MicrosoftDocs"
 description: "Instructions to engage with communities by using the community portal."
 ms.custom: 
   - dyn365-portal
@@ -36,4 +36,4 @@ Keep your customer engagement strong by growing a community, publishing articles
 ### See also
 
 [Create a theme for your portal](create-theme.md)  
-[Configure a Dynamics 365 for Customer Engagement portal](configure-portal.md)
+[Configure a portal](configure-portal.md)

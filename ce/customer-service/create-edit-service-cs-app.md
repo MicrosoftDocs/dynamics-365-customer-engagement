@@ -1,18 +1,15 @@
 ---
-title: Create or change a service (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Know how to create or change a service in Dynamics 365 for Customer Service
-keywords: Service management; Dynamics 365 for Customer Engagement; Customer Service
-author: anjgupta
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamiccs 365 Version 9.x
-ms.author: anjgup
+title: Create or change a service (Dynamics 365 Customer Service) | MicrosoftDocs
+description: Know how to create or change a service in Dynamics 365 Customer Service
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ms.date: 09/15/2017
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: dyn365-customerservice
-ms.assetid: 93c16131-07ba-413b-a2e2-0f51ca1dfe07
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -24,9 +21,7 @@ search.app:
 
 # Create or edit a service (Customer Service app)
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
-
-To make scheduling services quick and easy, it’s helpful to predefine the specifics of the services you’d provide to customers. By using the service records in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can define:  
+To make scheduling services quick and easy, it’s helpful to predefine the specifics of the services you’d provide to customers. By using the service records in Dynamics 365 Customer Service, you can define:  
   
 -   How long a service activity would last  
   
@@ -35,7 +30,7 @@ To make scheduling services quick and easy, it’s helpful to predefine the spec
 A service requires at least one selection rule and one or more resources, resource groups, or teams before the service can be scheduled with a service activity.
 
 > [!IMPORTANT]
-> With the Customer Engagement apps version 9.1 release, the new Service Scheduling is now available in the Customer Service Hub sitemap. We recommend that you create services using the new experience. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a service](create-edit-service-csh.md)
+> With the latest release of Dynamics 365 Customer Service app, the new Service Scheduling is now available in the Customer Service Hub sitemap. We recommend that you create services using the new experience. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a service](create-edit-service-csh.md)
 
 ## Create or change a service
   

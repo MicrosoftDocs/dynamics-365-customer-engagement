@@ -1,32 +1,33 @@
 ---
 
 title: Invoicing in Project Service Automation
-description: This topic provides information about invoicing in Microsoft Dynamics 365 for Project Service Auotmation (PSA).
+description: This topic provides information about invoicing.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-projectservice
 ms.custom:
   - dyn365-projectservice
 ms.date: 03/11/2019
 ms.topic: article
 ms.prod: 
 ms.service: business-applications
-ms.technology: Microsoft Dynamics 365 for Customer Engagement for Project Service 2.x and Microsoft Dynamics 365 for Customer Engagement for Project Service 3.x
+ms.technology: Microsoft Dynamics 365  Project Service Automation 2.x and 3.x
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
 search.app: 
-  - D365CE
   - D365PS
 ---
+
+
 
 # Invoicing in Project Service Automation
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Invoicing in Microsoft Dynamics 365 for Project Service Automation (PSA) is useful, because it gives project managers a second level of approval before they create invoices for customers. The first level of approval is completed when the time and expense entries that project team members submit are approved.
+Invoicing in Dynamics 365 Project Service Automation is useful because it gives project managers a second level of approval before they create invoices for customers. The first level of approval is completed when the time and expense entries that project team members submit are approved.
 
 PSA isn't designed to generate customer-facing invoices, for the following reasons:
 

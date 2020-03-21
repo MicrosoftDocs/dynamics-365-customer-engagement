@@ -1,18 +1,15 @@
 ---
-title: "Overview (Dynamics 365 for Marketing)"
-description: "Get a quick overview of the major capabilities, features, and benefits of Dynamics 365 for Marketing"
+title: "Overview (Dynamics 365 Marketing)"
+description: "Get a quick overview of the major capabilities, features, and benefits of Dynamics 365 Marketing"
 keywords: features; benefits; overview
 ms.date: 12/17/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: get-started-article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 37dcb64c-e825-4242-a1bd-4bc40f512e93
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -27,11 +24,9 @@ search.app:
 
 # Overview (Marketing)
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/c7dd31a4-7816-42f2-95d7-499401db5f9e" frameborder="0" allowfullscreen=""></iframe></div>
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/c7dd31a4-7816-42f2-95d7-499401db5f9e" frameborder="0" allowfullscreen=""></iframe></div>
-
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is a marketing-automation application that helps turn prospects into business relationships. The app is easy to use, works seamlessly with [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], and has built-in business intelligence. Use [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to:
+Dynamics 365 Marketing is a marketing-automation application that helps turn prospects into business relationships. The app is easy to use, works seamlessly with Dynamics 365 Sales, and has built-in business intelligence. Use Dynamics 365 Marketing to:
 
 - **Create graphical email messages and online content to support marketing initiatives**  
   Customizable templates for emails and landing pages help amplify your digital voice. Intuitive drag-and-drop design tools simplify content creation—from personalizing the message to setting up lead scoring.
@@ -39,8 +34,8 @@ search.app:
 - **Design interactive customer journeys to nurture leads with personalized experiences**  
   Use the drag-and-drop journey designer to create an automated, multichannel campaign that sends personalized email messages, generates follow-up activities, launches workflows, and more. Each contact in the target group travels down a customized path that reacts to their interactions and identifies your best prospects. Easily track campaigns and analyze results to build profitable long-term relationships.
 
-- **Tap into [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)]'s business prospects**  
-  Quickly target and connect with the right [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] audiences by importing leads generated with [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)]'s lead tools directly into [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
+- **Tap into LinkedIn's business prospects**  
+  Quickly target and connect with the right LinkedIn audiences by importing leads generated with LinkedIn's lead tools directly into Dynamics 365.
 
 - **Share information across teams**  
   Securely share information about leads and contacts across your business, and understand how every interaction affects your results. Connect sales and marketing processes to automate follow-ups and track the progress of every lead.
@@ -61,34 +56,34 @@ search.app:
   Easy-to-create surveys make it simple to gather actionable feedback from customers. Understand individual customer needs and expectations so you can grow relationships and revenue.
 
 - **Configure and expand the application**  
-  Customize the application to fit your specific business needs. Make basic customizations by using tools built right into the app. Expand its capabilities and add new features by installing third-party packages from our thriving marketplace—[!INCLUDE[sdk-dynamics-marketplace](../includes/sdk-dynamics-marketplace.md)]. And it's easy to connect with [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] partners to get expert help. The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app is built on the same platform and database as the sales app, so both teams share the same records, and customizers can leverage their existing knowledge when adding custom features.
+  Customize the application to fit your specific business needs. Make basic customizations by using tools built right into the app. Expand its capabilities and add new features by installing third-party packages from our thriving marketplace—Microsoft AppSource. And it's easy to connect with Dynamics 365 partners to get expert help. The Marketing app is built on the same platform and database as the sales app, so both teams share the same records, and customizers can leverage their existing knowledge when adding custom features.
 
-## Included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
+## Included with Dynamics 365 Marketing
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] includes a bundle of apps and solutions carefully selected to support marketing departments and coordinate with sales. Some of these apps and solutions are also available as bundles or add-ons with other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] products, while others are only available as part of the marketing package. The following are included:
+Dynamics 365 Marketing includes a bundle of apps and solutions carefully selected to support marketing departments and coordinate with sales. Some of these apps and solutions are also available as bundles or add-ons with other Dynamics 365 products, while others are only available as part of the marketing package. The following are included:
 - **Core marketing**  
-  Provides email marketing, customer journeys, behavior tracking, lead scoring, marketing pages, and more. These features form the core of the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app and are unique to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
+  Provides email marketing, customer journeys, behavior tracking, lead scoring, marketing pages, and more. These features form the core of the Marketing app and are unique to Dynamics 365 Marketing.
 - **Event management**  
-  Organize and promote in-person or webinar events, which include an online portal that attendees can use to review the event schedule and speakers, and to register for the event. This feature is currently available only with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
+  Organize and promote in-person or webinar events, which include an online portal that attendees can use to review the event schedule and speakers, and to register for the event. This feature is currently available only with Dynamics 365 Marketing.
 - **Voice of the Customer**  
-  Create online surveys and analyze the results. This feature is bundled with the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app, but is also available separately as an add-on for other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] products.
-- **[!INCLUDE[cc-linkedin-solution](../includes/cc-linkedin-solution.md)]**  
-  Import leads generated with [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)]'s lead tools into [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. This feature is bundled with the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app, but is also available separately as an add-on for other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] products.
-- **[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] Portals**  
-  The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app uses [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portals to publish its event, marketing pages, and online surveys. The portals feature is bundled with the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app, but is also available separately as an add-on for other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] products. A ready-to-use, feature-rich event website is also included, and is unique to the event-management feature.
+  Create online surveys and analyze the results. This feature is bundled with the Marketing app, but is also available separately as an add-on for other Dynamics 365 products.
+- **Dynamics 365 Connector for LinkedIn Lead Gen Forms**  
+  Import leads generated with LinkedIn's lead tools into Dynamics 365. This feature is bundled with the Marketing app, but is also available separately as an add-on for other Dynamics 365 products.
+- **Dynamics 365 Portals (optional)**  
+  The Marketing app can use Dynamics 365 Portals to publish its event website, marketing pages, and online surveys. If you don't use Dynamics 365 Portals with Marketing, then you can publish your marketing pages and/or event portal on your own website or CMS system instead. More information: [Create interactive features with or without portals](portals.md) and [Integrate Marketing with a CMS system or Dynamics 365 Portal](portal-optional.md)
 
 All these features are fully integrated and work together to create a comprehensive marketing solution.
 
 ## A fully responsive app built on the new Unified Interface
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is built to run exclusively on the new Unified Interface for [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] applications. The Unified Interface uses responsive web design principles to provide an optimal viewing and interaction experience on any device, regardless of screen size or orientation. There is no need to install a special client on each device, or to switch to a different site based on which device you are using.
+Dynamics 365 Marketing is built to run exclusively on the new Unified Interface for Dynamics 365 applications. The Unified Interface uses responsive web design principles to provide an optimal viewing and interaction experience on any device, regardless of screen size or orientation. There is no need to install a special client on each device, or to switch to a different site based on which device you are using.
 
-Many [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] applications support both the new Unified Interface and the older web-client interface, but nearly all are moving to the Unified Interface. Some administration and customization features, and some integrated user features, may require you to switch to a web-client app from time to time, but soon all features are expected to be available on the Unified Interface.
+Many Dynamics 365 applications support both the new Unified Interface and the older web-client interface, but nearly all are moving to the Unified Interface. Some administration and customization features, and some integrated user features, may require you to switch to a web-client app from time to time, but soon all features are expected to be available on the Unified Interface.
 
 > [!NOTE]
-> [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] typically shares data with other [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] applications running on the same instance, and operates on many of the same database entities, including contacts, leads, accounts, and more. Some [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]-specific features, such as displays of analytics and insights from marketing initiatives, require the Unified Interface and therefore won't show any data when you view those entities in web-client apps.
+> Marketing typically shares data with other Dynamics 365 applications running on the same instance, and operates on many of the same database entities, including contacts, leads, accounts, and more. Some Marketing-specific features, such as displays of analytics and insights from marketing initiatives, require the Unified Interface and therefore won't show any data when you view those entities in web-client apps.
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [About Unified Interface](../admin/about-unified-interface.md) and [Find your way around Marketing](navigation.md)
+More information: [About Unified Interface for model-driven apps in Power Apps](https://docs.microsoft.com/power-platform/admin/about-unified-interface) and [Find your way around Marketing](navigation.md)
 
 ## Design attractive and effective messages for email marketing campaigns
 
@@ -110,15 +105,15 @@ When you create a new message, you'll start by choosing a template that establis
 
 After you're done with the message design, click **Check for Errors** to check the message for errors and required content. After the message is validated, you publish the message to activate it on your server so that it can be sent from a customer journey, as described in the next section.
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Prepare marketing email messages](prepare-marketing-emails.md)
+More information: [Email marketing overview](prepare-marketing-emails.md)
 
 ## Use marketing pages to interact with contacts online
 
-Create and publish professional-looking landing pages to capture website visitors as contacts or leads. Each landing page typically includes a form that captures data straight into your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] database, and can also include promotional text, images, links, and other information.
+Create and publish professional-looking landing pages to capture website visitors as contacts or leads. Each landing page typically includes a form that captures data straight into your Dynamics 365 database, and can also include promotional text, images, links, and other information.
 
 Other types of marketing pages include subscription centers, which enable contacts to manage their mailing list subscriptions, and forward-to-a-friend pages, which enable contacts to share your marketing messages with their colleagues.
 
-Design your marketing pages by using the graphical, drag-and-drop content designer, which works just like the one provided for designing marketing email messages. When your page is ready, publish it to make it available to users on the internet. The system uses the standard [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portals feature to publish and operate all marketing pages.
+Design your marketing pages by using the graphical, drag-and-drop content designer, which works just like the one provided for designing marketing email messages. When your page is ready, publish it to make it available to users on the internet. The system uses the standard Dynamics 365 Portals feature to publish and operate all marketing pages.
 
 ![Marketing page designer screenshot](media/designer-pages.png "The marketing page designer")
 
@@ -133,17 +128,17 @@ Key marketing-page features include:
 - In-browser preview showing how your page will look on various screen sizes and orientations
 - HTML code editor for advanced customization with no restrictions (optional)
 
-When you create a new page, you'll start by choosing a template that establishes a column layout, page type, and (optionally) a complete initial graphic design with sample images, fonts, and colors. Then you'll be in the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] content designer, which provides a canvas with an editable preview and a tabbed toolbox for adding new design elements (like images, buttons, forms, or text boxes), configuring selected design elements, and applying styles. When working with text elements, use the inline toolbar to apply local text styling. Usually you'll add a form element to create a form on the page.
+When you create a new page, you'll start by choosing a template that establishes a column layout, page type, and (optionally) a complete initial graphic design with sample images, fonts, and colors. Then you'll be in the Dynamics 365 content designer, which provides a canvas with an editable preview and a tabbed toolbox for adding new design elements (like images, buttons, forms, or text boxes), configuring selected design elements, and applying styles. When working with text elements, use the inline toolbar to apply local text styling. Usually you'll add a form element to create a form on the page.
 
 After you're done with the page design, click **Check for Errors** to check the page for errors and required content. After the page is validated, publish the page to activate it on your server so that it can be accessed by internet users who know the URL or have selected a link. Then publicize your page by using marketing emails, customer journeys, social-media posts, links from your official website, QR codes, and other appropriate channels.
 
 After your page has been active for a while, see how it's performing, how many leads or contacts were captured, and more.
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create and deploy marketing pages](create-deploy-marketing-pages.md)
+More information: [Create and deploy marketing pages](create-deploy-marketing-pages.md)
 
 ## Create automated, interactive customer journeys
 
-Customer journey orchestration lets marketers create multiple-step, multichannel marketing campaigns that target a specific segment, deliver marketing email messages, respond to contact interactions, launch [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] workflows, and more.
+Customer journey orchestration lets marketers create multiple-step, multichannel marketing campaigns that target a specific segment, deliver marketing email messages, respond to contact interactions, launch Dynamics 365 workflows, and more.
 
 ![Customer journey screenshot](media/customer-journey.png "The customer journey designer")
 
@@ -162,17 +157,17 @@ Each journey starts with a segment or landing-page tile, which establishes which
 
 After you're done with the journey design, click **Check for Errors** to check for missing content, unpublished content, and other errors. After the journey is validated, you must publish the customer journey to enable it to run (though you can set its actual start and end dates in the future).
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)
+More information: [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)
 
 ## Create custom channels for customer journeys
 
-Beyond the out-of-the-box channels provided in customer journeys, you can create custom channels to extend the marketing capabilities in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. You can create a custom channel, such as text (SMS) or social media, and expose the channel as a "tile" in the journey designer. These custom channels provide similar capabilities as the out-of-the-box channels such as sending communications, tracking customer interactions, and adding triggers to branch the paths within a customer journey.
+Beyond the out-of-the-box channels provided in customer journeys, you can create custom channels to extend the marketing capabilities in Dynamics 365 Marketing. You can create a custom channel, such as text (SMS) or social media, and expose the channel as a "tile" in the journey designer. These custom channels provide similar capabilities as the out-of-the-box channels such as sending communications, tracking customer interactions, and adding triggers to branch the paths within a customer journey.
 
-Custom channel development takes advantage of the existing extensibility infrastructure and tooling in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] such as custom entities, workflows, and plug-ins, which allow developers and partners to leverage their knowledge of [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] to build custom channels.
+Custom channel development takes advantage of the existing extensibility infrastructure and tooling in Dynamics 365 such as custom entities, workflows, and plug-ins, which allow developers and partners to leverage their knowledge of Dynamics 365 to build custom channels.
 
 ## Plan, promote, and manage marketing events and webinars
 
-Live events and webinars are often a vital sales-and-marketing channel, but they can be very complex to arrange, execute, and follow up on. The [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] event management feature helps you every step of the way, from initial planning and budgeting, through promotion and publication, attendee registration, webinar broadcasting, final analytics, lead generation, and evaluation of ROI.
+Live events and webinars are often a vital sales-and-marketing channel, but they can be very complex to arrange, execute, and follow up on. The Dynamics 365 event management feature helps you every step of the way, from initial planning and budgeting, through promotion and publication, attendee registration, webinar broadcasting, final analytics, lead generation, and evaluation of ROI.
 
 ![Event website screenshot](media/event-portal.png "The event website")  
 
@@ -191,26 +186,26 @@ Key event-management features include:
 - Publishing a fully functioning event website with:
   - Self-service attendee registration
   - Important details about all published events, including event name, venue, passes, session schedule, and speakers
-  - All information drawn directly from your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] event-planning records, with updates automatically reflected on the portal
+  - All information drawn directly from your Dynamics 365 event-planning records, with updates automatically reflected on the portal
 
-To create, view, and edit your events and all event-related records, go to the **Events** work area of [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], where you can create a new event and, working from this single event record, add most of the other types of records and information that you need to plan, publish, promote, and analyze it. Like many types of records in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], the event record provides a customizable business process workflow that helps guide users through each step of the process.
+To create, view, and edit your events and all event-related records, go to the **Events** work area of Dynamics 365 Marketing, where you can create a new event and, working from this single event record, add most of the other types of records and information that you need to plan, publish, promote, and analyze it. Like many types of records in Dynamics 365, the event record provides a customizable business process workflow that helps guide users through each step of the process.
 
 Use other parts of the **Event** work area to work with specific record types that relate to event planning, such as logistics, sessions, attendees, sponsors, and more. Depending on what you are doing at the time, you might access these records when working in the parent event record, or you might go to a dedicated area to work only with a specific record type, or to work across events.
 
-After your event, session, track, speaker, and pass records are all in place for an event, you are ready to publish it on the event website, where attendees can read about the event and register for it. You can set up the registration to be available to anyone or by invitation-only. Open an event record and change its **Publish status** to **Live** to publish it on the portal.
+After your event, session, track, speaker, and pass records are all in place for an event, you are ready to publish it on the event website, where attendees can read about the event and register for it. You can set up the registration to be available to anyone or by invitation-only.
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Event planning and management](event-management.md)
+More information: [Event planning and management](event-management.md)
 
 ## Generate, score, and qualify leads for sales
 
-As a marketer, your primary goals are to generate demand, identify sales prospects, and forward the best prospects as leads for salespeople to follow up with. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] supports this process from discovery all the way to close.
+As a marketer, your primary goals are to generate demand, identify sales prospects, and forward the best prospects as leads for salespeople to follow up with. Dynamics 365 supports this process from discovery all the way to close.
 
 ![Lead-scoring model designer screenshot](media/designer-lead-score-model.png "The lead-scoring model designer")  
 
 Key lead-management features include:
 
 - **Generate leads across multiple channels**  
-    Create multichannel customer journeys to attract the best leads from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)], email, web landing pages, events, webinars, and more. Easily import marketing lists by using familiar tools such as [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)].
+    Create multichannel customer journeys to attract the best leads from LinkedIn, email, web landing pages, events, webinars, and more. Easily import marketing lists by using familiar tools such as Microsoft Excel.
 - **Lead nurturing**  
     Apply insights and implement automated customer journeys to nurture leads by delivering highly relevant, perfectly timed messages and personalized experiences.
 - **Lead qualification**  
@@ -237,24 +232,24 @@ To establish what happens when a condition is met, drag an **Action** tile from 
 
 Regardless of how many condition/action pairs your scoring rule has, you must also establish a single set of grades that apply for the entire rule. Each grade applies to a range of scores and has a name. Grades can't overlap. Though you can establish as many grades as you want, the most important distinction will be the sales-ready grade. When a lead achieves this grade, it is considered marketing-qualified and can be submitted to a salesperson for acceptance and further attention. Use the **Grades** tab to set up a grade schedule and sales-ready threshold for your rule.
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Design lead-scoring models](score-manage-leads.md)
+More information: [Design lead-scoring models](score-manage-leads.md)
 
-## Connect to [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] to import promising new leads straight into [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]
+## Connect to LinkedIn to import promising new leads straight into Dynamics 365
 
-Bring your [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] leads into [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] for follow-up and nurturing.
+Bring your LinkedIn leads into Dynamics 365 for follow-up and nurturing.
 
 ![LinkedIn analytics screenshot](media/linkedin-analytics.png "LinkedIn Lead Gen analytics")  
 
-Use the [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[cc-linkedin-solution](../includes/cc-linkedin-solution.md)] to automatically sync leads captured on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] with your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] organization so that your sales and marketing teams can develop and nurture them. Features include:
+Use the Microsoft Dynamics 365 Connector for LinkedIn Lead Gen Forms to automatically sync leads captured on LinkedIn with your Dynamics 365 organization so that your sales and marketing teams can develop and nurture them. Features include:
 
-- **Support for multiple [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] member accounts**  
-    If your organization includes multiple marketing managers, each running campaigns on their own [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] account, you can configure [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] to collect leads from all accounts simultaneously.
+- **Support for multiple LinkedIn member accounts**  
+    If your organization includes multiple marketing managers, each running campaigns on their own LinkedIn account, you can configure Dynamics 365 to collect leads from all accounts simultaneously.
 - **Customizable lead creation and matching**  
-    Configure how lead submissions captured on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] are associated with and updated on [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
+    Configure how lead submissions captured on LinkedIn are associated with and updated on Dynamics 365.
 - **Analyze lead performance across sources**  
-    Track and analyze the performance of leads captured on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] versus other sources.
+    Track and analyze the performance of leads captured on LinkedIn versus other sources.
 
-[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] integration relies on the Lead Gen Forms capability of [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] to capture leads. This is a paid [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] service, which you must subscribe to enable the integration.
+LinkedIn integration relies on the Lead Gen Forms capability of LinkedIn to capture leads. This is a paid LinkedIn service, which you must subscribe to enable the integration.
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [LinkedIn Lead Gen integration](linkedin-lead-gen-integration.md)
+More information: [LinkedIn Lead Gen integration](linkedin-lead-gen-integration.md)
 

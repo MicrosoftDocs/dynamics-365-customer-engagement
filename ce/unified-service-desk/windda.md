@@ -1,22 +1,12 @@
 ---
-title: "WinDDA in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
+title: "WinDDA in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to use Windows data-driven adapter (WinDDA) in Unified Service Desk."
 ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
-ms.reviewer: 
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: 2fe35fec-6805-4a3c-aeea-7c2192847a3a
-caps.latest.revision: 5
 author: kabala123
 ms.author: kabala
 manager: shujoshi

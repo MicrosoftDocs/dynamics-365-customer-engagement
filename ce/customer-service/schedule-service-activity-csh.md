@@ -1,18 +1,15 @@
 ---
-title: Schedule a service activity in Service Scheduling (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Know how to schedule a service activity in service scheduling in Dynamics 365 for Customer Service
-keywords: Schedule a service activity; Dynamics 365 for Customer Engagement; Customer Service; service scheduling
-author: anjgupta
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
-ms.author: anjgup
+title: Schedule a service activity in Service Scheduling (Dynamics 365 Customer Service) | MicrosoftDocs
+description: Know how to schedule a service activity in service scheduling in Dynamics 365 Customer Service
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ms.date: 11/20/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.assetid: 9b1ae6b1-8f46-47cc-b339-4e13a6ce9a8a
-ms.custom: dyn365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -23,8 +20,6 @@ search.app:
 ---
 
 # Schedule a service activity
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 
 Use service activity to schedule service appointments by finding the next time resources are available for a service. With the help of service activity, you can coordinate and schedule resources for a service required by your customers.

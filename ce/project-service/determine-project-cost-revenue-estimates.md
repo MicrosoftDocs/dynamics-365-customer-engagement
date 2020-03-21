@@ -1,5 +1,5 @@
 ---
-title: Determine project cost and revenue estimates (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: Determine project cost and revenue estimates
 description: How to determine project cost and revenue estimates in Project Service
 author: ruhercul
 manager: kfend
@@ -20,7 +20,7 @@ search.app:
   - D365CE
   - D365PS
 ---
-# Determine project cost and revenue estimates (Project Service)
+# Determine project cost and revenue estimates 
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 

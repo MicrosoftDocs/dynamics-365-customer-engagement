@@ -1,25 +1,20 @@
 ---
-title: "Sales transactions in Dynamics 365 for Sales Professional | MicrosoftDocs"
+title: "Sales transactions in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Understand how quotes and invoices are used in a sales transaction."
-keywords: ""
-ms.date: 04/05/2019
-ms.service:
-  - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
+ms.date: 10/01/2019
+ms.service: 
+  - dynamics-365-sales
+ms.custom: 
+  - dyn365-sales
 ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
-ms.assetid: cbbd1a83-f9a7-4fd0-addf-9c9dbdc84d0a
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
 ---
 
-# Sales transactions in Dynamics 365 for Sales Professional
+# Sales transactions in Dynamics 365 Sales Professional
 
-In Dynamics 365 for Sales Professional, a sale typically starts with a draft quote. When the quote is ready, it is activated and sent to the customer for revisions before it is accepted. Then, when you’re shipping the products offered in the quote, an invoice is generated from the quote.
+In Dynamics 365 Sales Professional, a sale typically starts with a draft quote. When the quote is ready, it is activated and sent to the customer for revisions before it is accepted. Then, when you’re shipping the products offered in the quote, an invoice is generated from the quote.
 
 Quotes and invoices in the Sales app are the same item in different states of transition. You can use tools and templates to create and print quotes and invoices.
 
@@ -35,7 +30,7 @@ When you close a quote, you have three choices: Lost, Canceled, or Revised. If y
 
 ## Differences between Current Pricing and Prices Locked in invoices
 
-Dynamics 365 for Sales has two kinds of pricing behavior on invoices: **Use Current Pricing** and **Prices Locked**.
+Dynamics 365 Sales has two kinds of pricing behavior on invoices: **Use Current Pricing** and **Prices Locked**.
 
 The **Use Current Pricing** price comes directly from the product catalog. If you change the price of a product there, then it changes in all open invoices that include the product.
 
@@ -43,6 +38,6 @@ The **Use Current Pricing** price comes directly from the product catalog. If yo
 
 ### See also
 
-[Create and manage quotes in Dynamics 365 for Sales Professional](create-quotes-sales-professional.md)  
-[Create and manage invoices in Dynamics 365 for Sales Professional](create-invoices.md)  
-[Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md)
+[Create and manage quotes in Dynamics 365 Sales Professional](create-quotes-sales-professional.md)  
+[Create and manage invoices in Dynamics 365 Sales Professional](create-invoices.md)  
+[Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)

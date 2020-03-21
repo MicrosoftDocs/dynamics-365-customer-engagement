@@ -1,37 +1,27 @@
 ---
-title: "Distribute custom hosted controls using Customization Files with Unified Service Desk for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Distribute custom hosted controls using Customization Files with Unified Service Desk  | MicrosoftDocs"
 description: "Learn how to deploy customization files."
 ms.custom: 
-  - dyn365-USD, dyn365-admin
+  - dyn365-USD
+  - dyn365-admin
 ms.date: 08/23/2017
-ms.reviewer: 
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: 22e677e6-5d00-43da-9c24-52eacd0a3c70
-caps.latest.revision: 13
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-tags: 
-  - MigrationHO
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+tags: MigrationHO
 ---
 # Customization Files and how to distribute custom hosted controls overview
-Use the customization files feature to distribute custom hosted controls and functionality to agent computers. To control the distribution, create or update a customization file record and associate it with a configuration. When agents who are associated with the configuration sign in to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] using the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client, the custom controls and functionality are downloaded to the agent’s computer and available for use.  
+Use the customization files feature to distribute custom hosted controls and functionality to agent computers. To control the distribution, create or update a customization file record and associate it with a configuration. When agents who are associated with the configuration sign in to the Common Data Service platform using the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client, the custom controls and functionality are downloaded to the agent’s computer and available for use.  
   
- To distribute custom controls and functionality:  
+ To distribute custom controls and functionality:
   
 1. Create or update one or more custom hosted controls and functionality. This task is typically completed by a developer who has experience with creating hosted controls and includes the following:  
   
@@ -49,26 +39,35 @@ Use the customization files feature to distribute custom hosted controls and fun
   
 ## Create or update a customization file record for custom functionality distribution  
   
-1. Go to **Settings** > **Unified Service Desk** > **Customization Files**.  
+1. Sign in to the Common Data Service platform.
+
+2. Select the down arrow next to Dynamics 365.
+
+3. Select **Unified Service Desk Administrator**.
+
+4. Select **Customization Files** under **Advanced Settings** in the site map.  
   
-2. Select an existing customization file record in the list or click **New** to create a new one.  
+5. Select an existing customization file record in the list or select **+ New** to create a new one.  
   
-3. In the **Name** box, type a name for the record.  
+6. Type a name for the record in the **Name** field.
+
+   | Field | Value |
+   |----------------------------|------------------------------------------------------|
+   | Customization Version | Specify a software version number that corresponds to the version of the zipped folder containing the customization files. For example, if this is the original version of the customization, you can enter 1.0. If it is a minor update, you can enter 1.1. |
+   | Description | Specify the description of the customization file. |
   
-    In the **Customization Version** box, enter a software version number that corresponds to the version of the zipped folder containing the customization files. For example, if this is the original version of the customization, you can enter 1.0. If it is a minor update, you can enter 1.1.  
+7. If this is a new customization file record, select **Save** to save the record so you can attach customization compressed (.zip) folder. 
+
+8. Select **Choose File**, and browse to the location of the compressed folder that contains the custom control and functionality files and the [Content_Types].xml file, and then select **Upload**.  
   
-    Optionally, add a description in the **Description** box.  
+    To update an existing customization file record with a new customization compressed (.zip) folder, remove the existing zipped folder by selecting **X** next to the file. Then, select **Choose File**, and browse to the location of the compressed folder that contains the updated custom control and functionality files, and then select **Upload**.
+
+    ![Create or update customization file](../../unified-service-desk/unified-interface/media/usd-create-update-customization-file.PNG "Create or update customization file")
   
-4. If this is a new customization file record, click **Save** to save the record so you can attach customization compressed (.zip) folder. Next, click **Attach**, and browse to the location of the compressed folder that contains the custom control and functionality files and the [Content_Types].xml file.  
+9. Select **Save**.  
   
-    To update an existing customization file record with a new customization compressed (.zip) folder, remove the existing zipped folder by clicking **X** next to the folder. Then, click **Attach**, and browse to the location of the compressed folder that contains the updated custom control and functionality files.  
-  
-5. Click **Done**.  
-  
-6. Click **Save**.  
-  
-7. If the customization file record isn’t already associated with a Configuration, you must do so before the customization can be used by agents. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage access using Unified Service Desk configuration](../../unified-service-desk/admin/manage-access-using-unified-service-desk-configuration.md)  
+10. If the customization file record isn’t already associated with a Configuration, you must do so before the customization can be used by agents. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage access using Unified Service Desk configuration](../../unified-service-desk/admin/manage-access-using-unified-service-desk-configuration.md)  
   
 ## See also  
  [Administer and manage overview](../../unified-service-desk/admin/administer-manage-unified-service-desk.md)   
- [Migrate your Unified Service Desk configuration to another Dynamics 365 for Customer Engagement server](../../unified-service-desk/admin/migrate-unified-service-desk-configuration-dynamics-365-server.md)
+ [Migrate your Unified Service Desk configuration to another server](../../unified-service-desk/admin/migrate-unified-service-desk-configuration-dynamics-365-server.md)

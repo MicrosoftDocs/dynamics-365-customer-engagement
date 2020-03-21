@@ -1,26 +1,21 @@
 ---
-title: "Export data or template in Dynamics 365 for Sales Professional | MicrosoftDocs"
+title: "Export data or template in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Export your data to Excel to do analysis or to share your data with others who don't have access to the Sales Professional app."
-keywords: ""
-ms.date: 04/05/2019
-ms.service:
+ms.date: 10/01/2019
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
-ms.assetid: 30b0a1be-9a6a-4926-a32a-a9320b94d22a
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
 ---
 
-# Export data or a template in Dynamics 365 for Sales Professional
+# Export data or template in Dynamics 365 Sales Professional
 
 > [!IMPORTANT]
-> This capability is introduced in the Dynamics 365 for Sales Professional app version 9.1.0.0.
+> This capability is introduced in the Dynamics 365 Sales Professional app version 9.1.0.0.
 
 Present sales-related information to someone who doesn’t have access to the Sales Professional app by exporting the data to a Microsoft Excel static worksheet.
 

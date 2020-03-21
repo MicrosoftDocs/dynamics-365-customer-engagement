@@ -1,19 +1,16 @@
 ---
-title: "Improve email engagement with a smart scheduler (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "How to use smart scheduling to let the AI find the best times and days to deliver email messages to each contact in Dynamics 365 for Marketing"
+title: "Improve email engagement with a smart scheduler (Dynamics 365 Marketing) | Microsoft Docs"
+description: "How to use smart scheduling to let the AI find the best times and days to deliver email messages to each contact in Dynamics 365 Marketing"
 keywords:
 ms.date: 06/12/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
-ms.topic: get-started-article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
+ms.topic: article
 ms.assetid: 33934b6f-8d55-4a8e-9593-9de34af2b854
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -28,8 +25,6 @@ search.app:
 
 # Preview: Use smart scheduler to help improve email engagement
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 > [!IMPORTANT]
 > This is a preview feature. [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
 > [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
@@ -43,7 +38,7 @@ The smart scheduler feature applies artificial intelligence to identify the days
   - **Best time to email** : displays a matrix that indicates which times on which days of the week are probably best for sending a message to the current contact. For each contact, the AI analyzes their reaction-time and open-time results and combines them with data collected for similar contacts to generate the overall recommendations.
 
 > [!NOTE]
-> Before you can use smart scheduling, your admin must enable and configure it. If you don't see the features described in this topic, then please ask your admin to enable smart scheduling for your site. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Enable and configure artificial intelligence features](admin-machine-learning.md)
+> Before you can use smart scheduling, your admin must enable and configure it. If you don't see the features described in this topic, then please ask your admin to enable smart scheduling for your site. More information: [Enable and configure artificial intelligence features](admin-machine-learning.md)
 
 ## Create a customer journey that automatically sends messages at the optimal time
 

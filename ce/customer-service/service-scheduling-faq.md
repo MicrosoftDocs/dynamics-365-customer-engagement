@@ -1,18 +1,15 @@
 ---
-title: Service Scheduling Frequently Asked Questions (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: See some common questions about service scheduling and setting it up in Dynamics 365 for Customer Service
-keywords: Service scheduling; Dynamics 365 for Customer Engagement; Customer Service; Universal Resource Scheduling (URS); FAQ
-author: anjgupta
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
-ms.author: anjgup
+title: Service Scheduling Frequently Asked Questions (Dynamics 365 Customer Service) | MicrosoftDocs
+description: See some common questions about service scheduling and setting it up in Dynamics 365 Customer Service
+author: kabala123
+ms.author: kabala
 manager: shujoshi
 ms.date: 11/20/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: dyn365-customerservice
-ms.assetid: 4904013d-f0b1-4f74-895b-8f42dc179f73
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -22,15 +19,15 @@ search.app:
   - D365CS
 ---
 
-#  Service Scheduling FAQ
+#  Service scheduling FAQ
 
-Read this topic to find answers to some common questions regarding Service Scheduling, it's legacy and new experience, setup, and some key concepts.
+Read this topic to find answers to some common questions regarding service scheduling, its legacy experience and new experience, setup, and other key concepts.
 
 ## What licenses do I need to enable service scheduling for my org?
  
-The new scheduling experience is available to you if you have Dynamics 365 for Customer Service Enterprise, Customer Engagement Plan, or Dynamics 365 Plan licenses.
+The new scheduling experience is available to you if you have Dynamics 365 Customer Service Enterprise.
 
-## Is the new scheduling experience automatically available with the next Dynamics 365 for Customer Engagement upgrade?
+## Is the new scheduling experience automatically available with the next Dynamics 365 Customer Service upgrade?
 
 Scheduling in the Customer Service Hub is a customer driven update. You need to avail and enable the new service scheduling package, which will also include Universal Resource Scheduling (URS) functionality. 
 

@@ -1,5 +1,5 @@
 ---
-title: "How to opt out of data collection for on-premises users (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "How to opt out of data collection for on-premises users (Dynamics 365 apps)| MicrosoftDocs"
 ms.custom: 
 ms.date: 01/23/2019
 ms.reviewer: 
@@ -7,13 +7,11 @@ ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement apps Version 9.x
-author: mduelae
+applies_to: Dynamics 365 apps
 ms.assetid: 6828238b-1645-4710-a192-0014acb03196
-caps.latest.revision: 01
+caps.latest.revision: 1
 ms.author: mkaur
+author: mduelae
 manager: kvivek
 search.audienceType: 
   - admin
@@ -29,7 +27,7 @@ search.app:
  
 At Microsoft, we work hard to protect your privacy while delivering products that bring you the performance, power, and convenience you want. Microsoft collects certain information about your usage of Dynamics 365 for phones to help diagnose problems and improve the product. For more details about Microsoft’s privacy practices, please review the [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/p/?LinkId=123161). It applies to the data we collect from your use of Dynamics 365 for phones. 
 
-On-premises users can sign in using their Customer Engagement app web address and then opt out of data collection.
+On-premises users can sign in using their web address for the Dynamics 365 app that you use then opt out of data collection.
  
 1. Sign out of the app.
 

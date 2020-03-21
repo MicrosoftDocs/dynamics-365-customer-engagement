@@ -10,9 +10,10 @@
         "exclude": [
           "**/obj/**",
           "**/includes/**",
+          "**/shared/**",
           "**/_themes/**",
           "**/_themes.pdf/**"
-        ]        
+        ]
       },
       {
         "files": [
@@ -22,6 +23,7 @@
         "exclude": [
           "**/obj/**",
           "**/includes/**",
+          "**/shared/**",
           "unified-service-desk/**",
           "**/_themes/**",
           "**/_themes.pdf/**",
@@ -46,6 +48,7 @@
         "exclude": [
           "**/obj/**",
           "**/includes/**",
+          "**/shared/**",
           "**/_themes/**",
           "**/_themes.pdf/**"
         ]
@@ -62,6 +65,7 @@
         "exclude": [
           "**/obj/**",
           "**/includes/**",
+          "**/shared/**",
           "unified-service-desk/**",
           "**/_themes/**",
           "**/_themes.pdf/**"
@@ -78,7 +82,8 @@
         "kathleenmcgrath",
         "marycc",
         "tinaburden",
-        "almostdunh"
+        "almostdunh",
+        "AshleyWoodruff"
       ],
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/dynamics-365-customer-engagement",
@@ -118,84 +123,39 @@
         "developer/channel-integration-framework/**.*": "https://ideas.dynamics.com"
       },
       "breadcrumb_path": {
-        "**.*": "bc/toc.yml",
-        "admin/**.*": "bc/toc.yml",
-        "analytics/**.*": "bc/toc.yml",
-        "basics/**.*": "bc/toc.yml",
-        "customer-insights/**.*": "bc/toc.yml",
-        "customer-service/**.*": "bc/toc.yml",
-        "customize/**.*": "bc/toc.yml",
-        "field-service/**.*": "bc/toc.yml",
-        "gamification/**.*": "bc/toc.yml",
-        "guidance/**.*": "bc/toc.yml",
-        "insights-insideview/**.*": "bc/toc.yml",
-        "linkedin/**.*": "bc/toc.yml",
-        "marketing/**.*": "bc/toc.yml",
-        "mobile-app/**.*": "bc/toc.yml",
-        "outlook-app/**.*": "bc/toc.yml",
-        "portals/**.*": "bc/toc.yml",
-        "project-service/**.*": "bc/toc.yml",
-        "sales-business/**.*": "bc/toc.yml",
-        "developer/**/*.*": "bc/toc.yml",
-        "sales-enterprise/**.*": "bc/toc.yml",
-        "sales-professional/**.*": "bc/toc.yml",
-        "social-engagement/**.*": "bc/toc.yml",
-        "unified-service-desk/**.*": "unified-service-desk/bc/toc.yml",
-        "versium-predict/**.*": "bc/toc.yml",
-        "voice-of-customer/**.*": "bc/toc.yml",
-        "channel-integration-framework/**.*": "bc/toc.yml",
-        "omni-channel-engagement-hub/**.*": "bc/toc.yml"
+        "**.*": "cebc/toc.yml",
+        "unified-service-desk/**.*": "unified-service-desk/bc/toc.yml"
       },
       "searchScope": {
         "**.*": [
-          "Dynamics 365",
-          "Customer Engagement"
-        ],
-        "admin/**.*": [
-          "Dynamics 365",
-          "Customer Engagement"
-        ],
-        "analytics/**.*": [
-          "Dynamics 365",
-          "Customer Engagement"
-        ],
-        "basics/**.*": [
-          "Dynamics 365",
-          "Customer Engagement"
-        ],
-        "customer-insights/**.*": [
-          "Dynamics 365",
-          "Customer Engagement"
+          "Power Apps",
+          "Dynamics 365"
         ],
         "customer-service/**.*": [
           "Dynamics 365",
-          "Customer Engagement"
+          "Power Apps",
+          "Omnichannel",
+          "Channel Integration Framework",
+          "Unified Service Desk",
+          "Customer Service"
         ],
-        "customize/**.*": [
+        "customerengagement/**.*": [
           "Dynamics 365",
           "Customer Engagement"
         ],
-        "developer/**.*": [
+        "customerengagement/on-premises/developer/**.*": [
           "Dynamics 365",
           "Customer Engagement",
           "Developer"
         ],
-        "developer/insights-insideview/**.*": [
-          "Dynamics 365",
-          "Customer Engagement"
-        ],
-        "developer/online-management-api/**.*": [
-          "Dynamics 365",
-          "Customer Engagement",
-          "Online Management API"
-        ],
         "field-service/**.*": [
           "Dynamics 365",
-          "Customer Engagement"
+          "Power Apps",
+          "Field Service"
         ],
         "gamification/**.*": [
           "Dynamics 365",
-          "Customer Engagement"
+          "Gamification"
         ],
         "linkedin/**.*": [
           "Dynamics 365",
@@ -203,58 +163,70 @@
         ],
         "marketing/**.*": [
           "Dynamics 365",
-          "Customer Engagement"
+          "Power Apps",
+          "Marketing"
         ],
         "mobile-app/**.*": [
-          "Dynamics 365",
-          "Customer Engagement"
+          "Power Apps",
+          "Dynamics 365"
         ],
         "outlook-app/**.*": [
-          "Dynamics 365",
-          "Customer Engagement"
+          "Power Apps",
+          "Dynamics 365"
         ],
         "portals/**.*": [
-          "Dynamics 365",
-          "Customer Engagement"
+          "Power Apps",
+          "Dynamics 365"
         ],
         "project-service/**.*": [
           "Dynamics 365",
-          "Customer Engagement"
+          "Power Apps",
+          "Project Service"
         ],
         "sales-enterprise/**.*": [
           "Dynamics 365",
-          "Customer Engagement"
+          "Power Apps",
+          "Sales"
         ],
         "sales-professional/**.*": [
           "Dynamics 365",
-          "Customer Engagement"
+          "Power Apps",
+          "Sales"
         ],
         "social-engagement/**.*": [
           "Dynamics 365",
-          "MSE",
-          "Customer Engagement"
+          "MSE"
         ],
         "unified-service-desk/**.*": [
           "Dynamics 365",
-          "Customer Engagement"
+          "Customer Service",
+          "Channel Integration Framework",
+          "Omnichannel",
+          "Unified Service Desk"
         ],
         "voice-of-customer/**.*": [
           "Dynamics 365",
-          "Customer Engagement"
+          "Voice of the Customer"
         ],
         "channel-integration-framework/**.*": [
           "Dynamics 365",
-          "Customer Engagement"
+          "Customer Service",
+          "Unified Service Desk",
+          "Omnichannel",
+          "Channel Integration Framework"
         ],
-        "omni-channel-engagement-hub/**.*": [
+        "omnichannel/**.*": [
           "Dynamics 365",
-          "Customer Engagement"
-        ]        
+          "Customer Service",
+          "Channel Integration Framework",
+          "Unified Service Desk",
+          "Omnichannel"
+        ]
       }
     },
     "template": [],
     "dest": "customer-engagement",
-    "groups": {            
+    "groups": {
       "usd-all": {
         "dest": "usd-all",
         "moniker_range": ">= dynamics-usd-3"

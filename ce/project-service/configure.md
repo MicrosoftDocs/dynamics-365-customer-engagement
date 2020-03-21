@@ -1,5 +1,5 @@
 ---
-title: Configure Project Service (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: Configure Project Service Automation
 description: Steps for configuring Project Service
 author: ruhercul
 manager: kfend

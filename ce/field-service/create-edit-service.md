@@ -1,18 +1,15 @@
 ---
-title: Create or change a service (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Know how to create or change a service in Dynamics 365 for Customer Service
-keywords: Service management; Dynamics 365 for Customer Engagement; Customer Service
-author: anjgupta
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamiccs 365 Version 9.x
-ms.author: anjgup
+title: Create or change a service (Dynamics 365 Customer Service) | MicrosoftDocs
+description: Know how to create or change a service in Dynamics 365 Customer Service
+author: lalexms
+ms.author: laalexan
 manager: shellyha
 ms.date: 09/15/2017
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.assetid: 93c16131-07ba-413b-a2e2-0f51ca1dfe07
-ms.custom: dyn365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -20,11 +17,10 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365FS
+ms.assetid: 93c16131-07ba-413b-a2e2-0f51ca1dfe07
 ---
 
 # Create or change a service (Customer Service)
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 To make scheduling services quick and easy, it’s helpful to predefine the specifics of the services you’d provide to customers. By using the service records in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can define:  
   

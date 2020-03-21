@@ -1,5 +1,5 @@
 ---
-title: Enable Project Finder Mobile app features (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: Enable Project Finder Mobile app features 
 description: How to enable Project Finder Mobile app features for Project Service
 author: JohnPBurrows
 manager: kfend

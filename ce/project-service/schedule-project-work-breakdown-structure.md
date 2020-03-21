@@ -1,5 +1,5 @@
 ---
-title: Schedule a project with a work breakdown structure (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: Schedule a project with a work breakdown structure 
 description: How to schedule a project with a work breakdown structure in Project Service
 author: ruhercul
 manager: kfend

@@ -1,21 +1,18 @@
 ---
-title: "Limitations when customizing Dynamics 365 App for Outlook (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Limitations when customizing Dynamics 365 App for Outlook (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
-ms.date: 01/10/2019
+ms.date: 01/30/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps 
-  - Dynamics 365 for Customer Engagement apps Version 9.x
+applies_to: Dynamics 365 apps
 ms.assetid: 09736e14-e744-48ca-a755-1b05bb55340e
 caps.latest.revision: 39
 author: mduelae
 ms.author: mkaur
 manager: kvivek
-tags: 
 search.audienceType: 
   - admin
   - customizer
@@ -38,7 +35,7 @@ System customizers have access to the Sitemap Designer (within the App Designer)
 
 ![Dynamics 365 App for Outlook Customizations page](media/PowerApps_DefaultSolution_1.png "Dynamics 365 App for Outlook Customizations page")
 
-4. On the **Assign Sercity Roles: App for Outlook Dashboard** box select **Display to everyone** and **Enable for Fallback**.
+4. On the **Assign Security Roles: App for Outlook Dashboard** box select **Display to everyone** and **Enable for Fallback**.
 
 ![Dynamics 365 App for Outlook Assign Sercity Roles](media/AppForOutlookDashboard_2.png "Dynamics 365 App for Outlook Assign Sercity Roles")
 
@@ -71,3 +68,7 @@ The following dashboard customizations are not supported currently.
 We recommend that you do not change the default App for Outlook dashboard as that is not a supported.
 
   ![App for Outlook App Designer Dashboard](media/AppDesignerDashboard.PNG "App for Outlook App Designer Dashboard")
+  
+> [!Note]
+> Business process flows are not supported in Dynamics 365 App for Outlook. When customizing the app, you should not explicitly select any business process flows.
+

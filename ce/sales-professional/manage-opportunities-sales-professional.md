@@ -1,25 +1,18 @@
 ---
-title: "Create or edit an opportunity in Dynamics 365 for Sales Professional | MicrosoftDocs"
-description: "Track a deal that has more probability of turning into a business as an opportunity in Dynamics 365 for Sales Professional."
-keywords: ""
-ms.date: 04/05/2019
+title: "Create or edit opportunities in Dynamics 365 Sales Professional | MicrosoftDocs"
+description: "Track a deal that has more probability of turning into a business as an opportunity in Dynamics 365 Sales Professional."
+ms.date: 02/03/2020
 ms.service:
   - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
 ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
-ms.assetid: 821221be-8b4d-47e8-88b6-58a664337717
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
 ---
 
-# Create or edit an opportunity in Dynamics 365 for Sales Professional
+# Create or edit opportunities in Dynamics 365 Sales Professional
 
-In Dynamics 365 for Sales Professional, an opportunity is a potential sale, like a lead, but with an opportunity you can forecast revenue, set a potential close date, and factor in a probability for the sale. You can also track contact information and information about the salesperson working on the opportunity.
+In Dynamics 365 Sales Professional, an opportunity is a potential sale, like a lead, but with an opportunity you can forecast revenue, set a potential close date, and factor in a probability for the sale. You can also track contact information and information about the salesperson working on the opportunity.
 You must link a new opportunity to an existing account or contact.
 
 If you’re following the sales process from start to finish, you qualify a lead to turn it into an opportunity.
@@ -55,9 +48,10 @@ To create or edit an opportunity:
 
     -   **Est. Close Date**. An estimated date by which the opportunity is expected to close.
 
-    -   **Est. Revenue**. Opportunities with products added to them have their estimated revenue value calculated based on the base price, volume discounts, manual discounts, taxes, and other pricing modifications. When opportunities are saved, Dynamics 365 for Sales Professional recalculates the estimated revenue value based on any changes to the products or product quantities associated with the opportunity.
+    -   **Est. Revenue**. Opportunities with products added to them have their estimated revenue value calculated based on the base price, volume discounts, manual discounts, taxes, and other pricing modifications. When opportunities are saved, Dynamics 365 Sales Professional recalculates the estimated revenue value based on any changes to the products or product quantities associated with the opportunity.
 
-        ![Opportunity form](media/opportunity-form.png "Opportunity form")
+        > [!div class="mx-imgBorder"]
+        > ![Opportunity form](media/opportunity-form.png "Opportunity form")
 
 4.  In the **Stakeholders** section, select **More Commands** ![More Commands button](media/more-commands-button.png "More Commands button"), and then select **New Connection** to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making.
 
@@ -65,9 +59,12 @@ To create or edit an opportunity:
 
 5.  In the last pane, select the **Sales team** ![Sales team icon](media/sales-team-icon.png "Sales team icon") icon to open the **Sales team** tab. Select the **More Commands** button ![More Commands button](media/more-commands-button.png "More Commands"), and then select **New Connection** to add a member of the sales team (from your organization).
 
+    > [!NOTE]
+    > The “+ New” button on Connection sub-grids are supported only for the out-of-box “Stakeholders” and "Sales Team" views on the Opportunity entity. For any other Connection sub-grid or “Stakeholders” or "Sales Team" sub-grids that are based on custom views, the “+ New” button doesn't appear on the sub-grid. In such case, navigate to the Connection Associated view for the record and use the **Connect** button to create a new connection. 
+
 6.  To save your changes, on the command bar, select **Save**.
 
-7.  Add products to your opportunity. For more information, see [Add products to your opportunity](#add-products-to-your-opportunity).
+7.  Add products to your opportunity. For more information, see [Add products to an opportunity](add-products-opportunity-sp.md).
 
 8.  Follow the process bar to move the opportunity to the next stage. In the **Develop Opportunity** stage, enter data for these fields:
 
@@ -79,40 +76,12 @@ To create or edit an opportunity:
 
     -   **Develop Proposal**. Select the check box to indicate that you’ve included notes on how the account will be approached (optional).
 
-        ![Develop Opportunity stage in the process bar](media/develop-opportunity-stage-bpf.png "Develop Opportunity stage in the process bar")
+       > [!div class="mx-imgBorder"]
+       > ![Develop Opportunity stage in the process bar](media/develop-opportunity-stage-bpf.png "Develop Opportunity stage in the process bar")
 
 9.  In the **Develop Opportunity** stage, select **Next**.
 
     The next step is to create and send a quote to your customer. 
-
-## Add products to your opportunity
-
-1.  In the list of opportunities, open the opportunity for which you want to add products.
-
-2.  Go to the **Product Line Items** tab.
-
-3.  In the Product Line Items grid, on the command bar, select **Add New**.
-
-4.  In the **Quick Create** form, do the following, and select **Save**:
-
-    -  **Select product**. This field is a toggle that indicates whether you want to add an existing product or create a new one.
-
-        To use an existing product, select the **Lookup** button![Icon for lookup](media/lookup-icon.png) to search for and add a product.
-
-        To create a write-in product, select **Write-In**, and then type the name of the product.
-
-    -  **Select pricing.** Select the pricing option. By default, this uses the price that is listed in the product catalog. To override the price, select **Override Price**. When you override the price, you can specify a price that you want to charge for each unit of the product.
-
-    -  **Enter quantity.** Enter the quantity of the product or service that will be included.
-
-    -  **Enter manual discount.** If you want, you can enter a discount to the
-        product.
-
-    -  **Enter tax.** If required, enter the appropriate tax amount.
-
-    The right side of the page shows the total amount and discount based on the number of products added to the opportunity.
-
-5.  If you want the pricing to be automatically calculated based on the products and quantities added, switch the **Revenue** field to **System Calculated**. If not, switch it to **User Provided**.
 
 ## Recalculate an opportunity
 
@@ -141,12 +110,26 @@ Whether you win a sale or close an opportunity, you probably want to close it. Y
 
 2.  On the command bar, select **Close as Won** or **Close as Lost**.
 
-    ![Close Opportunity dialog box](media/close-opportunity-dialog-box.png "Close Opportunity dialog box")
+    > [!div class="mx-imgBorder"]
+    > ![Close Opportunity dialog box](media/close-opportunity-dialog-box.png "Close Opportunity dialog box")
 
-3.  Enter the details in the dialog box, and select **OK**.
+    1. When you close the opportunity as **Won**, in the **Close Opportunity** pane, do the following, and select **OK**:
+
+        - In **Actual Revenue**, Verify the amount, and make changes, if necessary.
+
+        - In **Description**, enter details about what contributed to winning this opportunity. 
+
+    2. When you close the opportunity as **Lost**, in the **Close Opportunity** pane, do the following, and select **OK**:
+
+        -  In **Competitor**, select a competitor you lost this opportunity to.
+
+        -  In **Description**, add more details around why the opportunity was lost.
+
+    > [!IMPORTANT]
+    > If your system administrator has enabled custom fields on the **Opportunity Close** form, you may be required to fill in data in other fields as defined by your organization. 
 
 ### See also
 
-[Develop sales from lead to cash in Dynamics 365 for Sales Professional](develop-sales-lead-to-cash-sales-professional.md)  
-[Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md)  
-[Manage tasks, appointments, email, or phone calls in Dynamics 365 for Sales Professional](manage-activities.md)
+[Develop sales from lead to cash in Dynamics 365 Sales Professional](develop-sales-lead-to-cash-sales-professional.md)  
+[Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)  
+[Manage tasks, appointments, email, or phone calls in Dynamics 365 Sales Professional](manage-activities.md)

@@ -1,6 +1,6 @@
 ---
 title: Use the Schedule Board to book project resources
-description: This topic provides information about how to book resources in Dynamics 365 for Project Service Automation (PSA).
+description: This topic provides information about how to book resources.
 author: ruhercul
 manager: kfend
 ms.service: dynamics-365-customerservice

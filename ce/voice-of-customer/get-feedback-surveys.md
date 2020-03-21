@@ -2,12 +2,9 @@
 title: "Get customer feedback by using Voice of the Customer surveys | MicrosoftDocs"
 description: "Get started with Voice of the Customer surveys."
 keywords: survey feedback; voice of the customer survey feedback
-ms.date: 11/30/2018
+ms.date: 07/01/2019
 ms.service: dynamics-365-customerservice
 ms.topic: get-started-article
-applies_to:
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 978325d2-4ee2-49eb-a66e-9321695e2979
 author: sbmjais
 ms.author: shjais
@@ -20,10 +17,13 @@ ms.custom:
 
 # Get feedback by using Voice of the Customer surveys
 
-You can create and send surveys to your customers to receive their valuable feedback about your products or services. The customers can take your surveys on a phone, tablet, or computer. With Voice of the Customer for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], you create and distribute surveys and store survey responses in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] along with other [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] data. You can see your customer's feedback history as you work on a sales prospect (lead) or resolve a service case. When a customer completes a survey, leads can be created automatically based on the feedback.
+> [!IMPORTANT]
+> Voice of the Customer (VoC) is being deprecated and replaced with Microsoft Forms Pro. [Learn more](https://go.microsoft.com/fwlink/p/?linkid=2097704)
+
+You can create and send surveys to your customers to receive their valuable feedback about your products or services. The customers can take your surveys on a phone, tablet, or computer. With Voice of the Customer for Dynamics 365, you create and distribute surveys and store survey responses in Dynamics 365 along with other Dynamics 365 data. You can see your customer's feedback history as you work on a sales prospect (lead) or resolve a service case. When a customer completes a survey, leads can be created automatically based on the feedback.
 
 > [!NOTE]
-> Voice of the Customer for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] is available with [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-crm-online-2016-update](../includes/pn-crm-online-2016-update.md)] and later.
+> Voice of the Customer for Dynamics 365 is available with [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-crm-online-2016-update](../includes/pn-crm-online-2016-update.md)] and later.
 
 ## Survey lifecycle
 

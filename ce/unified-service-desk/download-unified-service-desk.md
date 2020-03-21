@@ -1,26 +1,15 @@
 ---
-title: "Download Unified Service Desk for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Download Unified Service Desk  | MicrosoftDocs"
 description: "This topic provides information about how to download Unified Service Desk."
-keywords: 
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/17/2018
 ms.service: 
   - dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: 1f9169ce-cba3-4bb6-af20-f86140139cfe
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 search.audienceType: 
   - customizer
   - developer
@@ -72,7 +61,7 @@ This topic provides information about the location from where you can download v
 
 This section provides information about the location from where you can download tools that help to efficiently administer your Unified Service Desk.
 
-The tools are as follows: 
+The tools are as follows:
 - Web Client - Unified Interface Migration Assistant
 - Best Practices Analyzer
 
@@ -82,4 +71,4 @@ The tools are as follows:
 | Best Practices Analyzer 1.0 |  [Download](https://go.microsoft.com/fwlink/p/?linkid=872089) |
 
 
- <!--[Download Unified Service Desk 2.2.2](http://go.microsoft.com/fwlink/p/?LinkId=623561), [!INCLUDE[pn-unified-service-desk-3-0](../includes/pn-unified-service-desk-3-0.md)](http://go.microsoft.com/fwlink/p/?LinkId=854761), [!INCLUDE[pn-unified-service-desk-3-1](../includes/pn-unified-service-desk-3-1.md)](https://go.microsoft.com/fwlink/p/?linkid=862012), [!INCLUDE[pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)](https://go.microsoft.com/fwlink/p/?linkid=867343)-->
+ <!--[Download Unified Service Desk 2.2.2](https://go.microsoft.com/fwlink/p/?LinkId=623561), [!INCLUDE[pn-unified-service-desk-3-0](../includes/pn-unified-service-desk-3-0.md)](https://go.microsoft.com/fwlink/p/?LinkId=854761), [!INCLUDE[pn-unified-service-desk-3-1](../includes/pn-unified-service-desk-3-1.md)](https://go.microsoft.com/fwlink/p/?linkid=862012), [!INCLUDE[pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)](https://go.microsoft.com/fwlink/p/?linkid=867343)-->

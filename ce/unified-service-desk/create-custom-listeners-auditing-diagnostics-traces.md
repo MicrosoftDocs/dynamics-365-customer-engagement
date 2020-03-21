@@ -3,19 +3,10 @@ title: "Create custom listeners for auditing, diagnostics and traces | Microsoft
 description: "Learn about creating custom listeners that lets you target the log output to files, the event log, or other sources. Until the previous version of Unified Service Desk, you could only use the standard listeners to write auditing, diagnostics, and trace logs in Unified Service Desk."
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
-ms.reviewer: 
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.date: 12/31/2019
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: c4290a42-e760-4eba-a11d-de605e239c2d
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -209,7 +200,7 @@ namespace SampleCustomUSDListener
   
 ```xml  
 <?xml version="1.0" encoding="utf-8"?>  
-<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">  
+<Types xmlns="https://schemas.openxmlformats.org/package/2006/content-types">  
   <Default Extension="config" ContentType="application/octet-stream" />  
   <Default Extension="dll" ContentType="application/octet-stream" />  
   <Default Extension="exe" ContentType="application/octet-stream" />  
@@ -219,9 +210,7 @@ namespace SampleCustomUSDListener
   
 <a name="ListenerHostedControl"></a>   
 ## Create Listener Hosted Control instances to use your custom listener code  
- The new Listener hosted Control in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] lets you reference and use your custom listener code for logging data as per your code. The **Assembly Info** area in the new hosted control screen lets you specify the details about your assembly that you want to be referred to by the Listener Hosted Control. Specify your assembly (.dll) name in the **Assembly URI** field, and *\<AssemblyName>.\<ClassName>* in the **Assembly Type** field. The *\<ClassName>* should be the class that contains your code.  
-  
- ![Create a Listener Hosted Control](../unified-service-desk/media/usd-listener-hosted-control-1.png "Create a Listener Hosted Control")  
+ The new Listener hosted Control in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] lets you reference and use your custom listener code for logging data as per your code. The **Assembly Info** area in the new hosted control screen lets you specify the details about your assembly that you want to be referred to by the Listener Hosted Control. Specify your assembly (.dll) name in the **Assembly URI** field, and *\<AssemblyName>.\<ClassName>* in the **Assembly Type** field. The *\<ClassName>* should be the class that contains your code.
   
  For example, if we consider the sample code for custom listeners earlier in this topic and assuming that all the sample codes are compiled into a single assembly called SampleCustomUSDListener.dll, you must create a listener hosted control record each for audit, diagnostic, and trace with the following values in the **Assembly URI** and **Assembly Type** fields.  
   
@@ -237,7 +226,7 @@ namespace SampleCustomUSDListener
   
 - Create **Auditing & Diagnostic Settings** records, and attach the appropriate listener hosted control record to it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure auditing and diagnostics in Unified Service Desk](admin/configure-auditing-diagnostics-unified-service-desk.md)  
   
-- Use the .zip file to create a **Customization Files** record and then attach it to the appropriate **Configuration** record so that the assembly can be distributed to the client computers when they sign in to the Dynamics 365 for Customer Engagement server using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Distribute custom hosted controls using Customization Files](admin/distribute-custom-hosted-controls-using-customization-files.md)  
+- Use the .zip file to create a **Customization Files** record and then attach it to the appropriate **Configuration** record so that the assembly can be distributed to the client computers when they sign in to the Common Data Service platform using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Distribute custom hosted controls using Customization Files](admin/distribute-custom-hosted-controls-using-customization-files.md)  
   
 ### See also  
  [Extend Unified Service Desk](../unified-service-desk/extend-unified-service-desk.md)

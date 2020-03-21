@@ -3,20 +3,10 @@ title: "Add a UII action to a hosted control | MicrosoftDocs"
 description: "Learn about adding User Interface Integration (UII) actions to a hosted control type to provide new functionality."
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
-ms.reviewer: 
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.date: 12/31/2019
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: 0e082c56-76b8-405e-98ae-1d33802a19d0
-caps.latest.revision: 5
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -35,22 +25,23 @@ As new versions of [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
   
  To add a [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] action to an existing hosted control instance:  
   
-1. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
+1. Sign in to Unified Service Desk Administrator.
   
-2. Click **Hosted Controls**.  
+2. Select **Hosted Controls** under **Basic Settings**.  
   
-3. Search for the hosted control record that you want to add a [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] action to, and then click the hosted control name to open its definition.  
+3. Select an existing hosted control record for which you want to add a [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] action.
+
+4. Select the **Related** tab and then select **UII Actions**. 
   
-4. On the hosted control definition page, click the arrow next to the hosted control name, and then click **UII Actions**.  
+5. Select **+ New UII Action**.
   
-5. Click **Add New UII Action**.  
-  
-6. On the **New UII Action** page, specify the name of the [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] action in the **Name** field, and then click **Save and Close**. You don’t have to specify any other value on this page.  
+6. On the **New UII Action** page, specify the name of the [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] action in the **Name** field, and then select **Save and Close**. You don’t have to specify any other value on this page.  
   
    ![Add a UII action to a hosted control](../unified-service-desk/media/usd-new-uii-action-hc.png "Add a UII action to a hosted control")  
   
     The new [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] action gets added to the hosted control instance, and can be used in your action calls.  
   
 ### See also  
- [Create an action call for a UII action](../unified-service-desk/create-action-call-uii-action.md)   
+ [Create an action call for a UII action](../unified-service-desk/create-action-call-uii-action.md)
+ 
  [Manage hosted controls, actions, and events](../unified-service-desk/manage-hosted-controls-actions-events.md)

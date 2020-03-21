@@ -1,18 +1,15 @@
 ---
-title: "Add or remove a displayed contact to/from a segment (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "How to add or remove a displayed contact to or from a segment in Dynamics 365 for Marketing"
+title: "Add or remove a displayed contact to/from a segment (Dynamics 365 Marketing) | Microsoft Docs"
+description: "How to add or remove a displayed contact to or from a segment in Dynamics 365 Marketing"
 keywords:
 ms.date: 04/01/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 1555a72d-4654-47a8-8f9a-e8910fce9224
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -27,7 +24,7 @@ search.app:
 
 # Manage segment memberships from a contact record
 
-Instead of working directly with the segment definition, you can add or remove a contact to/from any static segment while viewing their contact record. This enables users such salespeople, who know their contacts well but don't have access to the segment entity, to manage the segments a contact belongs to while working directly with that contact record.
+Instead of working directly with a segment definition, you can add or remove a contact to/from any static segment while viewing their contact record. This enables users such as salespeople, who know their contacts well but don't have access to the segment entity, to manage the segments a contact belongs to while working directly with that contact record.
 
 > [!NOTE]
 > You can only use contact records to add or remove contacts to or from *static segments*, not *dynamic segments*. Both live and draft segments are supported.

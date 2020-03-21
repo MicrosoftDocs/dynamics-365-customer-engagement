@@ -8,12 +8,12 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 apps
   - Dynamics CRM Online
-author: jimholtz
 ms.assetid: c2ee648b-0338-439a-abec-c30bb264258a
 caps.latest.revision: 14
 ms.author: mkaur
+author: jimholtz
 search.audienceType: 
   - admin
   - customizer
@@ -23,8 +23,6 @@ search.app:
   - D365Sales
 ---
 # The workspace, your personalized action hub in Dynamics 365 for phones and tablets
-
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
 
 When you first sign in to Dynamics 365 for phones and tablets, a pane slides in. This is your all-new workspace, a personalized action hub to help you get to common tasks more quickly.  
   

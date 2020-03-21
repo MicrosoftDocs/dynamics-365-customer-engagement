@@ -1,19 +1,13 @@
 ---
 title: "Integrate channel using Channel Integration Framework (CIF) | MicrosoftDocs"
-description: "Learn how to integrate channel provider like softphone, message, bots, and so on with Unified Service Desk client application using the Microsoft Dynamics 365 Channel Integration Framework."
+description: "Learn how to integrate channel provider like softphone, message, bots, and so on with Unified Service Desk client application using the Channel Integration Framework."
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 ms.date: 04/10/2019
 ms.service: 
   - dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD, dyn365-admin
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: 0C0F9EAE-9E16-48E3-B5B9-810CEA071705
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -22,12 +16,12 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
-monikerRange : '>= dynamics-usd-4.1'
+monikerRange: '>= dynamics-usd-4.1'
 ---
 
 # Integrate channel using Channel Integration Framework
 
-Bring your channel providers and integrate them with Unified Service Desk client application using the Microsoft Dynamics 365 Channel Integration Framework.
+Bring your channel providers and integrate them with Unified Service Desk client application using the Channel Integration Framework.
 
 If your organization wants to use the cloud-based channel that you have developed using the [Channel Integration Framework](/dynamics365/customer-engagement/developer/channel-integration-framework/channel-integration-framework), you can integrate the same channel in Unified Service Desk with minimal configuration experience. In turn, this eliminates the need for developing multiple channels. 
 

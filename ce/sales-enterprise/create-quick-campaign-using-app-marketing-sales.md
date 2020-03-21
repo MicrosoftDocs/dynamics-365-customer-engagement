@@ -1,29 +1,18 @@
 ---
-title: "Create a quick campaign using in-app marketing (Dynamics 365 for Sales) | MicrosoftDocs"
+title: "Create a quick campaign using in-app marketing (Dynamics 365 Sales) | MicrosoftDocs"
 description: ""
-keywords: 
-ms.date: 08/31/2017
-ms.service:
-  - dynamics-365-sales
-ms.custom:
-  - dyn365-sales
+ms.date: 10/01/2019
+ms.service: 
+  - "dynamics-365-sales"
+ms.custom: 
+  - "dyn365-sales"
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
-ms.assetid: ff906069-cba8-45cd-93e8-2b517c1d89d2
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 43
 ---
 
 # Create a quick campaign using in-app marketing (Sales)
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Send an e-mail blast to customers who fit a specific demographic, a mail campaign to clients in a specific region, or perhaps a phone call campaign to previous buyers of a particular product by using a quick campaign in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. A quick campaign is a single campaign activity geared toward a targeted audience. Track the success of your quick campaign through campaign responses, and convert the positive responses into new leads, quotes, orders, or opportunities.  
   
@@ -33,9 +22,9 @@ Send an e-mail blast to customers who fit a specific demographic, a mail campaig
   
 1. [!INCLUDE[proc_marketing_marketing_lists](../includes/proc-marketing-marketing-lists.md)]  
   
-2. Open a record, and then in the **Quick Campaigns** area, click the **Add** button ![Add button](../sales-enterprise/media/add-button.PNG "Add button").  
+2. Open a record, and then in the **Quick Campaigns** area, select **New Quick Campaign**.  
   
-3. In the Quick Campaign Wizard, read the instructions on the Welcome page, and click **Next**.  
+3. In the Quick Campaign Wizard, read the instructions on the Welcome page, and select **Next**.  
   
 4. Specify a name for the quick campaign.  
   
@@ -43,9 +32,9 @@ Send an e-mail blast to customers who fit a specific demographic, a mail campaig
   
     You can also select who you want [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to assign the activity to and whether [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] should perform the activity automatically for appropriate activities, such as sending email messages. For example, if you are creating a phone call activity for all the sales representatives, you can select the phone call activity, and then select **The owners of the records that are included in the quick campaign**. Each sales representative can then see the activity and take action on it. However, if you are creating a large number of email activities that [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] will perform automatically, you can assign the email activity to yourself instead of the record owners.  
   
-6. Add or change information in the text boxes in the activity form, and click **Next**.  
+6. Add or change information in the text boxes in the activity form, and select **Next**.  
   
-7. Click **Create**.  
+7. Select **Create**.  
   
    > [!NOTE]
    >  You can't add records to a quick campaign after you create it.  

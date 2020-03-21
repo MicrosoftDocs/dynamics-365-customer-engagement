@@ -2,20 +2,12 @@
 title: "Recover a Chrome Process instance in Unified Service Desk | MicrosoftDocs"
 description: "Learn about recovering a Chrome Process instance in Unified Service Desk"
 ms.custom: 
-  - dyn365-USD, dyn365-admin
+  - dyn365-USD
+  - dyn365-admin
 ms.date: 04/10/2019
-ms.reviewer: 
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-ms.assetid: 8FA57973-6D0F-47E1-BC29-7BD837159A21
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -30,7 +22,7 @@ monikerRange: '>= dynamics-usd-4.1'
 # Recover a Chrome Process instance
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can help agents to recover the terminated (crashed) webpages hosted in Chrome Process in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
 
-By default, Chrome Process instance recovery is enabled. 
+By default, Chrome Process instance recovery is enabled.
 
 ## When Unified Service Desk can help recover Chrome Process instances
 
@@ -80,7 +72,7 @@ After you end the Chrome Process instance, the [!INCLUDE[pn_unified_service_desk
 
 By default, the keyboard shortcut for terminating an unresponsive Chrome Process instance is **CTRL** + **K**.
 
-To update an additional keyboard shortcut, you must add the UII option and provide the character as the value. To learn about the allowed set of character values, see [Keys](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields).
+To update an additional keyboard shortcut, you must add the UII option and provide the character as the value. To learn about the allowed set of character values, see [Keys](https://docs.microsoft.com/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields).
 
 | UII option  | Example character |
 |-------------|-------------------|
@@ -95,21 +87,23 @@ Now as per the above example, the keyboard shortcut for terminating an unrespons
 
 To change the keyboard shortcut:
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to the Common Data Service platform.
 
-2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
+2. Select the down arrow next to Dynamics 365.
 
-3. Choose **Options**.  
+3. Select **Unified Service Desk Administrator**. 
 
-4. Select **New** on the **Active UII Options** page.
+4. Select **Options** under **Advance Settings** in the sitemap.
 
-5. Choose **Others** for the **Global Option** field.
+5. Select **+ New** in the **Active UII Options** page.
 
-6. Type **On-DemandChromeProcessTerminationShortcut** for the **Name** field.
+6. Choose **Others** for the **Global Option** field.
 
-7. Type the character value for the **Value** field. <br>See the list of [value keys](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields).
+7. Type **On-DemandChromeProcessTerminationShortcut** for the **Name** field.
 
-8. Select **Save**.
+8. Type the character value for the **Value** field. <br>See the list of [value keys](https://docs.microsoft.com/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields).
+
+9. Select **Save**.
 
 ## See also
 

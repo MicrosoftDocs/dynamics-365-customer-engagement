@@ -1,27 +1,22 @@
 ---
-title: "Create a product in Dynamics 365 for Sales Professional | MicrosoftDocs"
-description: "Create an inventory of all the products that your company sells by creating product records in Dynamics 365 for Sales."
-keywords: ""
-ms.date: 04/05/2019
-ms.service:
+title: "Create products in Dynamics 365 Sales Professional | MicrosoftDocs"
+description: "Create an inventory of all the products that your company sells by creating product records in Dynamics 365 Sales."
+ms.date: 10/01/2019
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
-ms.assetid: 3f1aa557-fcae-4b95-a4d9-0cd9e45855bf
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
 ---
 
-# Create a product in Dynamics 365 for Sales Professional
+# Create products in Dynamics 365 Sales Professional
 
-Products are the backbone of your business. The product catalog in Dynamics 365 for Sales Professional is a collection of products and pricing information. Make it easier for your sales reps to increase their sales by creating a product catalog quickly.
+Products are the backbone of your business. The product catalog in Dynamics 365 Sales Professional is a collection of products and pricing information. Make it easier for your sales reps to increase their sales by creating a product catalog quickly.
 
-1.  Make sure you have the Sales Manager Professional or a System Administrator role so you can add products in Dynamics 365 for Sales Professional.
+1.  Make sure you have the Sales Manager Professional or a System Administrator role so you can add products in Dynamics 365 Sales Professional.
 
 2.  In the site map, under **Setup**, select **Products**.
 
@@ -47,14 +42,16 @@ Products are the backbone of your business. The product catalog in Dynamics 365 
 
     -  **Subject**. Associate this product with a subject. You can use subjects to categorize your products and to filter reports.
 
-        ![Product form with data](media/product-form.png "Product form with data")
+       > [!div class="mx-imgBorder"]
+       >  ![Product form with data](media/product-form.png "Product form with data")
 
 
 5.  Select **Save**.
 
 6.  To add price list items, go to the **Additional Details** tab. In the **Price List Items** section, select the **More commands** icon, and then select **Add New Price List Item**.
 
-    ![Add New Price List Item menu option](media/add-new-price-list-item-menu-option.png "Add New Price List Item menu option")
+    > [!div class="mx-imgBorder"]
+    > ![Add New Price List Item menu option](media/add-new-price-list-item-menu-option.png "Add New Price List Item menu option")
 
 7.  To add product relationships, on the **Additional Details** tab of the product form, in the **Product Relationship** section, select the **More commands** icon, and then select **Add New Product Relationship.**
 
@@ -70,7 +67,7 @@ Products are the backbone of your business. The product catalog in Dynamics 365 
 
 ## Import products
 
-You can also use import templates to bring bulk product data into Dynamics 365 for Sales. More information: [Import data into Dynamics 365 for Sales Professional](import-data.md).
+You can also use import templates to bring bulk product data into Dynamics 365 Sales. More information: [Import data into Dynamics 365 Sales Professional](import-data.md).
 
 ## Revise a product
 
@@ -83,11 +80,13 @@ products, as required, and republishing the information so that your sales agent
 
 3.  Open an active product that you want to change, and on the command bar, select **Revise**.
 
-    ![Revise button on the command bar](media/revise-button-product-form.png "Revise button on the command bar")
+    > [!div class="mx-imgBorder"]
+    > ![Revise button on the command bar](media/revise-button-product-form.png "Revise button on the command bar")
 
 4.  In the **Confirm Revise** dialog box, select **Confirm**.
 
-    ![Confirm Revise dialog box](media/confirm-revise-dialog-box.png "Confirm Revise dialog box")
+    > [!div class="mx-imgBorder"]
+    > ![Confirm Revise dialog box](media/confirm-revise-dialog-box.png "Confirm Revise dialog box")
 
     This will change the product status to **Under Revision**.
 
@@ -107,11 +106,13 @@ When you're creating a new product, save time by cloning an existing one. This c
 
 3.  Select a product record that you want to clone, and on the command bar, select **Clone**.
 
-    ![Clone button on the command bar](media/clone-button-product-form.png "Clone button on the command bar")
+    > [!div class="mx-imgBorder"]
+    > ![Clone button on the command bar](media/clone-button-product-form.png "Clone button on the command bar")
 
     A confirmation dialog box appears.
 
-    ![Confirmation dialog box for cloning product](media/confirm-clone-dialog-box.png "Confirmation dialog box for cloning product")
+    > [!div class="mx-imgBorder"]
+    > ![Confirmation dialog box for cloning product](media/confirm-clone-dialog-box.png "Confirmation dialog box for cloning product")
 
 4.  Select **Confirm**.
 
@@ -127,11 +128,13 @@ If your organization doesn't sell a product anymore, retire it so that the produ
 
 3.  Open an active product that you want to retire, and on the command bar, select **Retire**.
 
-    ![Retire button on the command bar](media/retire-button-product-form.png "Retire button on the command bar")
+    > [!div class="mx-imgBorder"]
+    > ![Retire button on the command bar](media/retire-button-product-form.png "Retire button on the command bar")
 
 4.  In the **Confirm Retire** dialog box, select **Confirm**.
 
-    ![Confirm Retire dialog box](media/confirm-retire-dialog-box.png "Confirm Retire dialog box")
+    > [!div class="mx-imgBorder"]
+    > ![Confirm Retire dialog box](media/confirm-retire-dialog-box.png "Confirm Retire dialog box")
 
 ## Delete a product
 
@@ -147,14 +150,16 @@ To stop selling a product, delete it.
 
 3.  Select a product record you want to delete, and on the command bar, select **Delete**.
 
-    ![Delete button on the command bar](media/delete-button-product-form.png "Delete button on the command bar")
+    > [!div class="mx-imgBorder"]
+    > ![Delete button on the command bar](media/delete-button-product-form.png "Delete button on the command bar")
 
 4.  In the **Confirm Deletion** dialog box, select **Continue**.
 
-    ![Confirm Deletion dialog box](media/confirm-deletion-dialog-box.png "Confirm Deletion dialog box")
+    > [!div class="mx-imgBorder"]
+    > ![Confirm Deletion dialog box](media/confirm-deletion-dialog-box.png "Confirm Deletion dialog box")
 
 
 ### See also
 
-[Develop sales from lead to cash in Dynamics 365 for Sales Professional](develop-sales-lead-to-cash-sales-professional.md)  
+[Develop sales from lead to cash in Dynamics 365 Sales Professional](develop-sales-lead-to-cash-sales-professional.md)  
 [Admin settings overview](admin-settings-overview.md)

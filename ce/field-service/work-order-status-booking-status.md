@@ -1,8 +1,8 @@
 ---
-title: "Work Order and Booking Statuses | MicrosoftDocs"
+title: "Work order and booking statuses | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 05/14/2019
+ms.date: 08/01/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -39,7 +39,7 @@ Work order system statuses, work order substatuses, and booking statuses all wor
 - Closed - Posted
 - Closed - Canceled
 
-**Work Order Substatuses** are noted on the work order entity and relate to and provide more detail for work order system statuses. Work order substatuses are are created custom for each organization.
+**Work Order Substatuses** are noted on the work order entity and relate to and provide more detail for work order system statuses. Work order substatuses are created custom for each organization.
 
 **Booking Statuses** are noted on the bookable resource booking entity and are updated by field technicians on the Field Service Mobile app to track their progress for a specific work order requirement. Additionally, booking statuses are visualized on the schedule board with a distinct color and icon, and a few booking statuses are part of the product by default, though more custom ones can be added. Out of the box, the booking statuses are:
 
@@ -204,7 +204,15 @@ Here is the customer asset that results from the used work order product. Notice
 
 #### Closed – Posted
 - Invoice is generated for used work order products and services billing account 
-- Actuals records are created for time and materials costs related to work orders and bookings. 
+- **Actuals** records are created for time and materials costs related to work orders and bookings. Sales actuals for billed products and services are created once the generated invoice is confirmed.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of an invoice with attention to the confirm invoice button](./media/work-order-lifecycle-confirm-invoice.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a list of sales actuals](./media/work-order-lifecycle-sales-actuals.png) 
+
+
 - **Closed By** field is updated.
 - **Closed On** field is updated.
 
@@ -235,7 +243,7 @@ Here is the customer asset that results from the used work order product. Notice
 - **Booking Timestamp** is created.
 
 #### In Progress
-- **Actual Arrival Time** field is updated with the date and time the booking status was changed.
+- **Actual Arrival Time** field is updated with the date and time the when booking status is changed from the mobile app or schedule board, but not from the form.
 - **Actual Travel Duration** field is updated, calculated as the total time the booking status is **Traveling**.
 - **Booking Timestamp** is created.
 
@@ -342,7 +350,7 @@ For the following fields:
 > [!Note]
 > **Field Service Status** is required when creating booking statuses for Field Service use cases. This allows the booking status to fit into the above work order processes. By default, only booking statuses with field service statuses are available for work order bookings, but this is editable in **Booking Setup Metadata**.
 
-Finally, **Save and Close**.
+Click **Save and Close**.
 
 This means the new **Delayed Booking Status** will appear as an option on the Field Service Mobile for field technicians, and on the schedule board. 
 
@@ -365,7 +373,7 @@ For the following fields:
 
 **Default Substatus:** set to **Yes** if all **Open-Completed** work orders should be given a substatus of **Follow-Up Required** by default. For our example, we will choose **No** because not all completed work orders require a follow-up so it's left to the discretion of the field technician.
 
-Finally, **Save and Close**.
+Click **Save and Close**.
 
 Unlike work order system statuses, work order substatuses can be updated on the mobile app by the field technicians. 
 
@@ -387,7 +395,7 @@ Options include:
 
 If you create a new custom **Booking Status**, then you should pick a scheduling method that relates to the field service booking status. For example, the out-of-the-box booking status **Traveling** has an RSO scheduling method set to **Do Not Move** because RSO should not move bookings that a field technician is traveling to. Therefore, using our previous example, our new **Delayed** booking status is related to the **Traveling** Field Service status, so its scheduling method should be set to **Do Not Move** as well.
 
-See the topic on [RSO configuration](rso-configuration.md) for more details.
+See the topic on [Resource Scheduling Optimization (RSO) configuration](rso-configuration.md) for more details.
 
 ### See also
 - [Booking Statuses blog post](https://community.dynamics.com/365/b/365teamblog/archive/2017/06/01/manage-the-status-of-your-team-s-bookings-with-universal-resource-scheduling)

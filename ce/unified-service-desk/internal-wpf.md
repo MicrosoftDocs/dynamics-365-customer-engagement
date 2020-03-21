@@ -1,19 +1,12 @@
 ---
-title: "Use Internal WPF hosting method for your controls in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
+title: "Use Internal WPF hosting method for your controls in Unified Service Desk | MicrosoftDocs"
 description: "Learn about the Internal WPF hosting methods for your controls in Unified Service Desk."
 ms.custom: 
   - dyn365-USD
 ms.date: 12/01/2018
-ms.service: dynamics-365-customerservice
-ms.tgt_pltfrm: ""
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-ms.assetid: 0847C77B-A922-4CB5-9155-2429816AEDDA
 author: kabala123
 ms.author: kabala
 manager: shujoshi

@@ -1,23 +1,18 @@
 ---
-title: "Provision your Dynamics 365 for Sales Professional environment (Dynamics 365 for Sales Professional) | MicrosoftDocs"
-description: "Learn about the standard and advanced settings in Dynamics 365 for Sales Professional."
-keywords: ""
-ms.date: 05/03/2019
-ms.service:
-  - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
+title: "Provision your Dynamics 365 Sales Professional environment (Dynamics 365 Sales Professional) | MicrosoftDocs"
+description: "Learn about the standard and advanced settings in Dynamics 365 Sales Professional."
+ms.date: 10/01/2019
+ms.service: 
+  - dynamics-365-sales
+ms.custom: 
+  - dyn365-sales
 ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
-ms.assetid: e55ec471-527c-4690-adaa-cb7bf2338efc
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
 ---
 
-# Provision your Dynamics 365 for Sales Professional environment
+# Provision your Dynamics 365 Sales Professional environment
 Congratulations on the purchase of the Sales Professional application. 
 
 Before you can start using the Sales Professional application you need to
@@ -53,7 +48,7 @@ To provision a new Dynamics 365 environment
     ![Dynamics 365 Admin center with provisioned environment](media/dynamics365-admin-center-with-provisioned-environment.png "Dynamics 365 Admin center with provisioned environment")
 
 
-For more details on managing your Dynamics 365 environments, see [Manage Dynamics 365 for Customer Engagement apps (online)](../admin/manage-online-instances.md) and [Add an environment to your subscription](../admin/add-instance-subscription.md).
+For more details on managing your Dynamics 365 environments, see [Manage Dynamics 365 apps (online)](../admin/manage-online-instances.md) and [Add an environment to your subscription](../admin/add-instance-subscription.md).
 
 ## Install the Sales Professional solution on a Dynamics 365 environment
 
@@ -69,7 +64,7 @@ To install the Sales Professional solution on a Dynamics 365 environment
 
     ![Production environment on Instances tab](../sales-enterprise/media/production-instance-on-instances-tab.png "Production environment on Instances tab")
  
-3.	On the **Manage your solutions** page, select **Dynamics 365 for Sales Pro Application**, and on the tile, select **Install**.
+3.	On the **Manage your solutions** page, select **Dynamics 365 Sales Pro Application**, and on the tile, select **Install**.
     
     You can review the status of the installation by refreshing the Manage your solutions page and reviewing the status column on the page.
 
@@ -84,6 +79,6 @@ To install the Sales Professional solution on a Dynamics 365 environment
     ![Sales Professional app tile](media/sales-professional-app-tile.png "Sales Professional app tile")
 
 ### See also
-[Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md)  
+[Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)  
 [Overview of admin settings](admin-settings-overview.md)  
-[User Guide (Dynamics 365 for Sales Professional)](user-guide.md)  
+[User Guide (Dynamics 365 Sales Professional)](user-guide.md)  

@@ -1,9 +1,9 @@
 ---
-title: "Schedule anything with Universal Resource Scheduling (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Overview of Universal Resource Scheduling (Dynamics 365) | MicrosoftDocs"
 ms.custom: 
   - dyn365-projectservice
   - dyn365-fieldservice
-ms.date: 09/30/2017
+ms.date: 01/03/2020
 searchScope: 
   - Customer Service
   - Field Service
@@ -15,9 +15,6 @@ ms.technology:
   - common-scheduler
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.assetid: c92c0cba-cc1d-41ef-983f-869a7a8c1988
 caps.latest.revision: 14
@@ -32,33 +29,31 @@ search.app:
   - D365PS
   - D365FS
 ---
-# Schedule anything with Universal Resource Scheduling (Sales, Customer Service, Field Service, Project Service Automation)
+# Overview of Universal Resource Scheduling in Dynamics 365
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+Schedule anything in Dynamics 365 using Universal Resource Scheduling (URS). You can enable scheduling for any entity in Dynamics 365 Sales, Field Service, Customer Service, and Project Service Automation, including custom entities.   
+  
+For organizations that use:
 
-Schedule anything in Dynamics 365 for Customer Engagement using Universal Resource Scheduling. You can enable scheduling for any entity including custom entities.   
-  
- For example, you can enable scheduling for the opportunity form and schedule marketing visits for your opportunities. You can also do this for the case form and schedule time to work on cases.  
-  
- For organizations that use:
+- Dynamics 365 Field Service, you can use scheduling tools to assign work orders to the closest field technicians in the area. More information: [Dynamics 365 Field Service Help](../field-service/universal-resource-scheduling-for-field-service.md) 
 
-- [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)], you’ll see a new integrated scheduling experience. More information: [Dynamics 365 for Field Service Help](../field-service/overview.md) 
-  
-- [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)], you’ll have a new improved scheduling experience. More information: [Dynamics 365 for Project Service Automation Help](../project-service/overview.md) 
-  
+- Dynamics 365 Customer Service, you can use scheduling tools to book cases to customer service reps in the right department and time zone. More information: [Dynamics 365 Customer Service - Service Scheduling](../customer-service/basics-service-service-scheduling.md)
+
+- Dynamics 365 Project Service Automation, you can use scheduling tools to staff projects with consultants who have availability and the appropriate skillset. More information: [Dynamics 365 Project Service Automation Help](../project-service/overview.md) 
+    
 ## Prerequisites  
  Before you can use Universal Resource Scheduling, make sure you have:  
   
-- Dynamics 365 for Field Service, Project Service, *or* Customer Service.
+- Dynamics 365 Field Service, Project Service, *or* Customer Service.
   
-- A license for Universal Resource Scheduling. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Onboard your organization and users to Dynamics 365 for Customer Engagement (online)](../admin/onboard-your-organization-and-users-to-dynamics-365-online.md)  
+- A license for Resource Scheduling. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Onboard your organization and users to Dynamics 365 (online)](../admin/onboard-your-organization-and-users-to-dynamics-365-online.md)  
   
 - User credentials with the Universal Resource Scheduling security role, in order to manage the solution once it has been deployed.
   
 ## Enable scheduling for an entity  
  When scheduling is enabled for an entity, the system creates a resource requirement record for the entity. This way, when you create a resource requirement, the system automatically checks which entity the resource requirement is for.  
   
-1.  From the main menu, click **Resources Scheduling** > **Administration**.  
+1.  From the main menu, click **Resource Scheduling** > **Administration**.  
   
 2.  Click **Enable Resource Scheduling for Entities**.  
   
@@ -77,7 +72,7 @@ Schedule anything in Dynamics 365 for Customer Engagement using Universal Resour
 7. On the **BOOKING SETUP METADATA: INFORMATION** form, use the tooltips to edit the default opens.  
   
    > [!NOTE]
-   >  To update the Booking Status Field Logical Name, you will first need to customize the system to add additional statuses. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Customize your Dynamics 365 for Customer Engagement system - define status reasons](../customize/define-status-reason-transitions.md)  
+   >  To update the Booking Status Field Logical Name, you will first need to customize the system to add additional statuses. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Customize your Dynamics 365 system - define status reasons](../customize/define-status-reason-transitions.md)  
    > 
    >  In attribute settings sections field, can be mapped from entity that was enabled for scheduling to fields on booking requirement. For example, from Date, to Date, Territory, Duration and others.  
   
@@ -85,7 +80,7 @@ Schedule anything in Dynamics 365 for Customer Engagement using Universal Resour
   
 ## Edit or turn off scheduling for an entity  
   
-1.  From the main menu, click **Resources Scheduling** > **Administration** > **Enable Schedulable for Entities**.  
+1.  From the main menu, click **Resource Scheduling** > **Administration** > **Enable Schedulable for Entities**.  
   
 2.  From the list of **Enable Entities**, double click on the entity that you want to edit.  
   
@@ -160,5 +155,5 @@ Schedule anything in Dynamics 365 for Customer Engagement using Universal Resour
     5.  Use the schedule assistant  to book the requirement.  
   
 ### See also  
- [Install Dynamics 365 for Field Service](../field-service/install-field-service.md)    
- [Install Dynamics 365 for Project Service Automation](../project-service/install-customize.md)    
+ [Install Dynamics 365 Field Service](../field-service/install-field-service.md)    
+ [Install Dynamics 365 Project Service Automation](../project-service/install-customize.md)    
