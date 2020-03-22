@@ -219,7 +219,7 @@ You can find the entire code sample here: [Smart Assist for Bots](https://github
 
 You will find information on how to setup and run the sample in the sample [README](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/smart-assist-bot/README.md) file. This setup broadly contains the following steps. 
 
-1. Download the Github based sample code.
+1. Download the Github based [Smart assist sample code](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/smart-assist-bot).
 2. Update the values in `appsettings.json` file.
 3. Publish the web application to Azure.
 4. Update the Messaging endpoint in Bot channels registration. 
