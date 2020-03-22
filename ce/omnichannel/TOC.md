@@ -142,7 +142,7 @@
 ##### [Use WhatsApp channel](agent/agent-oc/whatsapp.md)
 ##### Use Twitter channel
 ##### Use Line channel
-##### Use WeChat channel
+##### Use WeChat channel(agent/agent-oc/wechat-channel.md)
 ##### Use Teams channel
 ##### Use entity routing channel
 
