@@ -4,7 +4,7 @@ description: "Read how you can build a smart assist bot to help agents resolve c
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 03/20/2020
+ms.date: 03/23/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -36,7 +36,7 @@ You can create intents for each issue type or topic that you want to address for
 
 For the example scenario of similar case recommendations for ‘printer noise’ issue, create an intent with the same name and add 10-15 examples like ‘printer noise, loud noise from printer, printer making grinding noise, loud clicking noise, loud sound’ etc. The LUIS app then needs to be trained for this intent.  
 
-## Send adaptive card suggestions
+## Author adaptive cards to display recommendations in the smart assist UI
 
 [Adaptive cards](https://adaptivecards.io) is an open-source standard that helps apps and services exchange rich snippets of native UI. The smart assist bot interprets the conversation context in real-time and provides recommendations to the agents.
 
@@ -210,7 +210,7 @@ The custom actions required for implementing knowledge base search in the smart 
 3. Open th URL in App tab.
 
 You can use the client-side APIs to open knowledge base articles. See [Client API reference for model driven apps](/powerapps/developer/model-driven-apps/clientapi/reference) for more information.
-
+<!--
 <a name="bkmk_samplecode"></a>
 
 ## Sample code
@@ -233,7 +233,7 @@ In the Common Data Service functionality, the bot finds the intent in the conver
 Use the same app ID while [creating a bot user](https://docs.microsoft.com/dynamics365/omnichannel/administrator/smart-assist#step-2-create-a-bot-user) later. Also if you want your bot to search for knowledge base articles, then provide either the **Customer Service Manager** or **Customer Service Representative** role to your bot user.
 
 For more information, see the code sample [README](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/smart-assist-bot/README.md) file.
-
+-->
 > [!IMPORTANT]
 > See this administrator guide topic on how to enable smart assist: [Smart assist for agents](../../administrator/smart-assist.md). It provides instructions on how to create a bot user, how to add a smart assist bot to a workstream and how to enable a productivity pane.
 
