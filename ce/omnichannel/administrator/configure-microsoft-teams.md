@@ -79,4 +79,4 @@ Perform the following steps to configure the Omnichannel information in the Team
 
 [Channels in Omnichannel](channels.md)
 <br>
-[Use Microsoft Teams channel](../agent/agent-oc/use-teams.md)
+[Use Microsoft Teams channel](../agent/agent-oc/teams-channel.md)
