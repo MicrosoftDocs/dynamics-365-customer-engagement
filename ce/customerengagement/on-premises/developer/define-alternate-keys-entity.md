@@ -48,7 +48,10 @@ You should be aware of the following constraints when creating alternate keys:
   | LookupAttributeMetadata     |       Lookup        |
   | PicklistAttributeMetadata   |      Picklist       |
   
- - **Attributes must be valid for create and update**  
+> [!NOTE] 
+> The attributes DateTime, Lookup, and Picklist are not available for on-premise versions of Dynamics.  
+
+- **Attributes must be valid for create and update**  
 
    Each attribute used in a key must support both create and update. More information: [Valid operations on attributes](introduction-entity-attributes.md#valid-operations-on-attributes)
    
