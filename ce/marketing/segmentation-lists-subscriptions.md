@@ -1,7 +1,7 @@
 ---
 title: "Create segments and lists to establish target markets (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to create segments and lists that you can use to target customer journeys and manage subscriptions in Dynamics 365 Marketing"
-ms.date: 03/20/2020
+ms.date: 03/23/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -116,7 +116,7 @@ The **General** tab provides a few basic settings and general information about 
 
 - **Name**: The name of the segment as it appears in the segment list and when selecting segments for a customer journey.
 - **Created on**: The date the segment was created.
-- **Segment Type**: Shows the [segment type](#segment-types) (dynamic or static). This is permanently established when you first [create the segment](segmentation-lists-subscriptions.md#Create-and-go-live-with-a-new-segment).
+- **Segment Type**: Shows the [segment type](segmentation-lists-subscriptions.md#Types-of-segments) (dynamic or static). This is permanently established when you first [create the segment](segmentation-lists-subscriptions.md#Create-and-go-live-with-a-new-segment).
 - **External source**: For segments that are synced from an external source, such as Dynamics 365 Customer Insights, information about the external source is shown here.
 - **External segment URL**: For segments that are synced from an external source, such as Dynamics 365 Customer Insights, the URL of the external source is shown here.
 - **Time Zone**: Shows the time zone of the segment. This is the timezone that the segment uses to calculate dates relative to the current time. For example, if you choose the partial date operator "All contacts who registered for an event in the last three days," the three-day duration is calculated using the segment time zone.
