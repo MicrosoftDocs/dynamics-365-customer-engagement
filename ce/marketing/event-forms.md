@@ -33,7 +33,7 @@ search.app:
 The event management application now allows you to use marketing forms for event registrations. You can create forms with a variety of fields, embed forms on your website, and use the forms for event registration.
 
 > [!NOTE]
-> For the early access version of the marketing forms for event registration feature, forms are limited to free (non-recurrent) events and allow registration of one person at a time (instead of multiple people together).
+>For the early access version of the marketing forms for event registration feature, forms are limited to free (non-recurrent) events and allow registration of one person at a time (instead of multiple people together). Please note that the event website also needs to be **updated to the February release (1.20.0) or later** for this functionality to be used for events hosted on the website. Click [here for instructions on how to update the event website](./developer/manually-overwriting-sample-website.md).
 
 ## Create a marketing form for event registration
 
