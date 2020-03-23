@@ -4,7 +4,7 @@ description: Learn the basics of the Customer Service Hub for Customer Service
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 02/03/2020
+ms.date: 03/24/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -495,7 +495,7 @@ The message box has a rich text editor that enables you to create rich and well-
 
 5. When you're done, select **Send**.
 
-## Create and send email using Enhanced Email
+### Create and send email using the Enhanced Email experience
 
 An alternate way of creating email is to use the Enhanced Email experience, which allows you to compose email without leaving the record you are working on. With the enhanced email experience, you can:
 
@@ -532,8 +532,38 @@ Compose an email using the enhanced experience:
 > [!IMPORTANT]
 > The enhanced email pop-up window opens only when the height and width of your screen size is at least 400 x 650 pixels or greater. If lower, you will be taken to the standard form instead of the enhanced email experience. 
 
+### Insert an email template
+You can use an email template—a preformatted email message—to quickly create and send email messages. You can insert the template while composing an email by selecting **Insert Template** on the command bar. The list of available templates is displayed in the **Email templates** window. In the **Recently used** section, the four most recently used templates by you are displayed. The **All templates** section displays a list of all out-of-the-box email templates (global and entity specific), in alphabetical order. Global templates are shown as the type User. If you've created a custom email template, it will also be available here. For information about creating a custom email template, see [Create templates for email](https://docs.microsoft.com/power-platform/admin/create-templates-email).
 
+You can see templates of a particular language by selecting a language from the **Language** list. You can either search for a template or browse through the list and select it. When you select an email template, a preview is displayed on the right side of the window. The preview shows you the content so you can pick the template that best meets your needs. After inserting an email template, you can modify the content as needed, and then send the email.
 
+> [!NOTE]
+> The search does not support regular expressions and it works on the template name only.
+
+**To insert an email template**
+
+1. In the email editor, select **Insert Template** on the command bar.
+
+     > [!div class="mx-imgBorder"]
+     > ![Insert template button](media/insert-email-template-button.png "Insert template button") 
+
+    The **Email templates** window opens.
+
+2. To see templates of a different locale, select a language from the **Language** list. The templates are loaded as per the selected language.	
+
+3. Browse for the template you want. Select the template, and preview the content of the template.
+
+4. Optionally, you can select the down arrow on the name of the template to see a description of its content.
+
+5. Select **Apply template** to insert the content in the email.
+
+     > [!div class="mx-imgBorder"]
+     > ![Email templates window](media/email-templates-window.png "Email templates window")
+
+If you try to insert an email template on a device with smaller screen size, you'll only see an option to search and select a template.
+
+> [!div class="mx-imgBorder"]
+> ![Search template](media/search-template.png "Search template") 
 
 ## Work with Queues
 
