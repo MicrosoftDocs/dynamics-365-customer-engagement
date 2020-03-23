@@ -1,22 +1,19 @@
 ---
-title: "msdyn_entityconfig Entity Reference | MicrosoftDocs"
+title: "msdyn_entityconfig Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_entityconfig entity."
+ms.date: 03/23/2020
+ms.service: "crm-online"
+ms.topic: "reference"
+applies_to: 
+  - "Dynamics 365 (online)"
+ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
-ms.date: 03/20/2020
-ms.service: 
-  - crm-online
-ms.topic: "reference"
 ---
 # msdyn_entityconfig Entity Reference
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
-
-> [!IMPORTANT]
-> **This entity is for internal use only**.
->
-> You will find this entity in the [$metadata](/powerapps/developer/common-data-service/webapi/web-api-types-operations#csdl-metadata-document) of your organization but programmatically using this entity in your code to access data is not supported.
 
 Stores entity routing configuration per workstream
 
@@ -46,8 +43,8 @@ Stores entity routing configuration per workstream
 |Property|Value|
 |--------|-----|
 |CollectionSchemaName|msdyn_entityconfigs|
-|DisplayCollectionName|Workstream Entity Configurations|
-|DisplayName|Workstream Entity Configuration|
+|DisplayCollectionName|Deprecated Workstream Entity Configurations|
+|DisplayName|Deprecated Workstream Entity Configuration|
 |EntitySetName|msdyn_entityconfigs|
 |IsBPFEntity|False|
 |LogicalCollectionName|msdyn_entityconfigs|

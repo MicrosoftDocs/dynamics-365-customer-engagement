@@ -1,13 +1,15 @@
 ---
-title: "msdyn_searchconfiguration Entity Reference | MicrosoftDocs"
+title: "msdyn_searchconfiguration Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_searchconfiguration entity."
+ms.date: 03/23/2020
+ms.service: "crm-online"
+ms.topic: "reference"
+applies_to: 
+  - "Dynamics 365 (online)"
+ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
-ms.date: 08/29/2019
-ms.service: 
-  - crm-online
-ms.topic: "reference"
 ---
 # msdyn_searchconfiguration Entity Reference
 

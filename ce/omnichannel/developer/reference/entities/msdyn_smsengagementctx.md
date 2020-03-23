@@ -1,13 +1,15 @@
 ---
-title: "msdyn_smsengagementctx Entity Reference | MicrosoftDocs"
+title: "msdyn_smsengagementctx Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_smsengagementctx entity."
+ms.date: 03/23/2020
+ms.service: "crm-online"
+ms.topic: "reference"
+applies_to: 
+  - "Dynamics 365 (online)"
+ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
-ms.date: 08/29/2019
-ms.service: 
-  - crm-online
-ms.topic: "reference"
 ---
 # msdyn_smsengagementctx Entity Reference
 
@@ -66,6 +68,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [msdyn_orgphonenumber](#BKMK_msdyn_orgphonenumber)
 - [msdyn_smsengagementctxId](#BKMK_msdyn_smsengagementctxId)
 - [msdyn_smsengagementid](#BKMK_msdyn_smsengagementid)
+- [msdyn_smsprovider](#BKMK_msdyn_smsprovider)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -198,6 +201,29 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |MaxLength|100|
 |RequiredLevel|None|
 |Type|String|
+
+
+### <a name="BKMK_msdyn_smsprovider"></a> msdyn_smsprovider
+
+**Added by**: Omnichannel - SMS Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|SMS Provider|
+|DisplayName|SMS Provider|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_smsprovider|
+|RequiredLevel|None|
+|Type|Picklist|
+
+#### msdyn_smsprovider Options
+
+|Value|Label|
+|-----|-----|
+|192350000|TeleSign|
+|192350001|Twilio|
+
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn

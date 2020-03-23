@@ -1,13 +1,15 @@
 ---
-title: "msdyn_sessionparticipant Entity Reference | MicrosoftDocs"
+title: "msdyn_sessionparticipant Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_sessionparticipant entity."
+ms.date: 03/23/2020
+ms.service: "crm-online"
+ms.topic: "reference"
+applies_to: 
+  - "Dynamics 365 (online)"
+ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
-ms.date: 08/29/2019
-ms.service: 
-  - crm-online
-ms.topic: "reference"
 ---
 # msdyn_sessionparticipant Entity Reference
 
@@ -99,7 +101,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Unique identifier of Active Directory User participating in session.|
 |DisplayName|Active Directory User Id|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -116,7 +118,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description||
+|Description|Date and time when agent assigned to the session.|
 |DisplayName|Added On|
 |Format|DateOnly|
 |IsValidForForm|True|
@@ -130,7 +132,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Unique identifier of System User participating in session.|
 |DisplayName|Agent|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -145,7 +147,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description||
+|Description|Date and time when agent accepted the session.|
 |DisplayName|Joined On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -160,7 +162,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description||
+|Description|Date and time when agent left the session.|
 |DisplayName|Left On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -174,7 +176,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Mode of Agent participation i.e. primary, consult, monitor etc.|
 |DisplayName|Mode|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -194,12 +196,10 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_modifiedon"></a> msdyn_modifiedon
 
-**Added by**: Omnichannel - Base Patch Solution
-
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description||
+|Description|Date and time when session participant information was last modified.|
 |DisplayName|Session Participant Modified On|
 |Format|DateOnly|
 |IsValidForForm|True|
@@ -220,7 +220,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_name|
-|MaxLength|100|
+|MaxLength|200|
 |RequiredLevel|ApplicationRequired|
 |Type|String|
 
@@ -229,7 +229,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Unique identifier of the session associated to the participant.|
 |DisplayName|Omni Channel Session|
 |IsValidForForm|True|
 |IsValidForRead|True|

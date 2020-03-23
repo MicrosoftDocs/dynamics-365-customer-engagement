@@ -1,13 +1,15 @@
 ---
-title: "msdyn_chatwidgetlanguage Entity Reference | MicrosoftDocs"
+title: "msdyn_chatwidgetlanguage Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_chatwidgetlanguage entity."
+ms.date: 03/23/2020
+ms.service: "crm-online"
+ms.topic: "reference"
+applies_to: 
+  - "Dynamics 365 (online)"
+ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
-ms.date: 08/29/2019
-ms.service: 
-  - crm-online
-ms.topic: "reference"
 ---
 # msdyn_chatwidgetlanguage Entity Reference
 
@@ -630,7 +632,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_msdyn_msdyn_chatwidgetlanguage_msdyn_livechatconfig_WidgetLocale"></a> msdyn_msdyn_chatwidgetlanguage_msdyn_livechatconfig_WidgetLocale
 
-Same as msdyn_livechatconfig entity [msdyn_msdyn_chatwidgetlanguage_msdyn_livechatconfig_WidgetLocale](msdyn_livechatconfig.md) Many-To-One relationship.
+Same as msdyn_livechatconfig entity [msdyn_msdyn_chatwidgetlanguage_msdyn_livechatconfig_WidgetLocale](msdyn_livechatconfig.md#BKMK_msdyn_msdyn_chatwidgetlanguage_msdyn_livechatconfig_WidgetLocale) Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|

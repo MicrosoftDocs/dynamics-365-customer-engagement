@@ -1,9 +1,12 @@
 ---
-title: "msdyn_conversationaction Entity Reference| MicrosoftDocs"
+title: "msdyn_conversationaction Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_conversationaction entity."
-ms.date: 02/06/2020
+ms.date: 03/23/2020
 ms.service: "crm-online"
 ms.topic: "reference"
+applies_to: 
+  - "Dynamics 365 (online)"
+ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
@@ -112,7 +115,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Action event name option set|
 |DisplayName|Event Name|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -134,7 +137,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Parameters that can be passed thorugh the event|
 |DisplayName|Event Parameter|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -150,7 +153,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Web resources main function name|
 |DisplayName|Function Name|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -166,7 +169,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Icon for the conversation action button|
 |DisplayName|Icon|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -198,7 +201,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Order for the conversation action button|
 |DisplayName|Order|
 |Format|None|
 |IsValidForForm|True|
@@ -214,7 +217,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Web resources to load for the conversation action|
 |DisplayName|Web Resource|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -756,5 +759,4 @@ Same as msdyn_conversationactionlocale entity [msdyn_msdyn_conversationaction_ms
 ### See also
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
-[Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)<br />
-<xref href="Microsoft.Dynamics.CRM.msdyn_conversationaction?text=msdyn_conversationaction EntityType" />
+[Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

@@ -1,17 +1,20 @@
 ---
-title: "msdyn_systemuser_msdyn_omnichannelqueue Entity Reference | MicrosoftDocs"
+title: "msdyn_systemuser_msdyn_omnichannelqueue Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_systemuser_msdyn_omnichannelqueue entity."
+ms.date: 03/23/2020
+ms.service: "crm-online"
+ms.topic: "reference"
+applies_to: 
+  - "Dynamics 365 (online)"
+ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
-ms.date: 02/27/2020
-ms.service: 
-  - crm-online
-ms.topic: "reference"
 ---
 # msdyn_systemuser_msdyn_omnichannelqueue Entity Reference
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
+
 
 > [!IMPORTANT]
 > This entity has been deprecated. It will still be visible in the [$metadata](/powerapps/developer/common-data-service/web-api-types-operations#csdl-metadata-document) document of your environment but using it to access Common Data Service data is not supported.
