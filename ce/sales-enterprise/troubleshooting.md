@@ -27,10 +27,10 @@ manager: annbe
 <h2>Troubleshooting opportunities</h2>
 
 
-<li><a href="ts-opportunities.md#close_opportunity" data-raw-source="[I can't close an opportunity](ts-opportunity.md#close_opportunity)">I can't close an opportunity</a></li>
-<li><a href="ts-opportunity.md#access_denied" data-raw-source="[Insufficient permissions or Access denied error when a user is trying to close an opportunity](ts-opportunity.md#access_denied)">Insufficient permissions or Access denied error when a user is trying to close an opportunity</a></li>
-<li><a href="ts-opportunity.md#edit_opportunity" data-raw-source="[I can't edit an opportunity)](ts-opportunity.md#edit_opportunity">I can't edit an opportunity</a></li>
-<li><a href="ts-opportunity.md#add_products" data-raw-source="[I can't add products to an opportunity](ts-opportunity.md#add_products)">I can't add products to an opportunity</a></li>
+<li><a href="ts-opportunities.md#close_opportunity" data-raw-source="[I can't close an opportunity](ts-opportunities.md#close_opportunity)">I can't close an opportunity</a></li>
+<li><a href="ts-opportunities.md#access_denied" data-raw-source="[Insufficient permissions or Access denied error when a user is trying to close an opportunity](ts-opportunities.md#access_denied)">Insufficient permissions or Access denied error when a user is trying to close an opportunity</a></li>
+<li><a href="ts-opportunities.md#edit_opportunity" data-raw-source="[I can't edit an opportunity)](ts-opportunities.md#edit_opportunity">I can't edit an opportunity</a></li>
+<li><a href="ts-opportunities.md#add_products" data-raw-source="[I can't add products to an opportunity](ts-opportunities.md#add_products)">I can't add products to an opportunity</a></li>
 
 
 </td></tr>
@@ -46,7 +46,7 @@ manager: annbe
 
 
 <li><a href="ts-forecasts.md#publish_forecast_definition" data-raw-source="[I can't publish forecast definition](ts-forecast.md#publish_forecast_definition)">I can't publish forecast definition</a></li>
-<li><a href="ts-forecast.md#recalculate_forecast" data-raw-source="[I can't recalculate the forecast](ts-opportunity.md#recalculate_forecast)">I can't recalculate the forecast</a></li>
+<li><a href="ts-forecasts.md#recalculate_forecast" data-raw-source="[I can't recalculate the forecast](ts-forecasts.md#recalculate_forecast)">I can't recalculate the forecast</a></li>
 
 </td></tr>
 
