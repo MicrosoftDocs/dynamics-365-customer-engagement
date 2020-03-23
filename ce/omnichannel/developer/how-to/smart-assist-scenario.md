@@ -4,7 +4,7 @@ description: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 02/27/2020
+ms.date: 03/23/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -18,7 +18,7 @@ ms.topic: article
 
 ## Prerequisites
 
-Read the topic [Build a custom smart assist bot](smart-assist-bot.md) for information on how to get started with building a custom smart assist bot. 
+Read the topic [Build a smart assist bot](smart-assist-bot.md) for information on how to get started with building a custom smart assist bot. 
 
 ## Scenario: Similar case suggestion
 
@@ -87,6 +87,6 @@ The custom actions required for implementing similar case suggestions include th
 
 ## See also
 
-[Build a custom smart assist bot](smart-assist-bot.md)<br />
+[Build a smart assist bot](smart-assist-bot.md)<br />
 [Smart assist for agents](../../administrator/smart-assist.md)<br />
 [Sample code: Smart Assist for Bots](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/smart-assist-bot)
