@@ -45,6 +45,7 @@
 #### Social channels
 ##### [Configure a Facebook channel](administrator/configure-facebook-channel.md)
 ##### [Configure a WhatsApp channel](administrator/configure-whatsapp-channel.md)
+#### [Configure a Microsoft Teams channel](administrator/configure-microsoft-teams.md)
 #### Custom messaging channel
 ##### [Configure a Custom messaging channel](administrator/configure-custom-channel.md)
 #### Entity records channel
@@ -139,7 +140,7 @@
 ##### Use Twitter channel
 ##### Use Line channel
 ##### Use WeChat channel
-##### Use Teams channel
+##### [Use Teams channel](agent/agent-oc/teams-channel.md)
 ##### Use entity routing channel
 
 ### Agents using Unified Service Desk
