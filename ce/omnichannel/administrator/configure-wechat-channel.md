@@ -89,4 +89,5 @@ Perform the following steps to create a WeChat channel:
 ### See also
 
 [Channels in Omnichannel](channels.md)
+<br>
 [Use WeChat channel](../agent/agent-oc/wechat-channel.md)
