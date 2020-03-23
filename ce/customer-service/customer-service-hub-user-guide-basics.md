@@ -495,6 +495,46 @@ The message box has a rich text editor that enables you to create rich and well-
 
 5. When you're done, select **Send**.
 
+## Create and send email using Enhanced Email
+
+An alternate way of creating email is to use the Enhanced Email experience, which allows you to compose email without leaving the record you are working on. With the enhanced email experience, you can:
+
+- Navigate to different pages without losing the email content.
+- Minimize the email window to get back to the records you were working on.
+- Expand the email editor pop-up window to see more email options.
+- Simultaneously open three compose email pop-up windows.
+- Search for and apply a predefined template to an email you're composing.
+- Insert attachments to email.
+
+> [!IMPORTANT]
+> - System administrators must enable the enhanced email experience before you can use it.
+> - The enhanced email experience is available only for email activities created from the **Timeline** section of any model-driven app. 
+
+Compose an email using the enhanced experience:
+
+1. In the **Timeline** section of records such as account or contact, select **+** and then under **Activities**, select **Email**.
+
+   A new email pop-up window opens. 
+
+   > [!div class="mx-imgBorder"]
+   > ![Enhanced email pop-up window](media/enhanced-email-pop-up.png "Enhanced email pop-up window")
+
+   The **From** and **To** fields are automatically populated based on the user and the account and contact of the original record.
+
+2. Write your email from scratch or select **Insert Template** to search for and apply a template. For more information on inserting an email template, see [Insert an email template](insert-email-template.md).
+
+3. Select **Attach file** if you want to add attachments.
+
+4. Select **Insert signature** to search for and add your signature.
+
+5. When you're done, select **Send**. 
+
+> [!IMPORTANT]
+> The enhanced email pop-up window opens only when the height and width of your screen size is at least 400 x 650 pixels or greater. If lower, you will be taken to the standard form instead of the enhanced email experience. 
+
+
+
+
 ## Work with Queues
 
 Use queues to organize, prioritize, and monitor the progress of your work. In Dynamics 365 Customer Service, queues are containers used to store anything that needs to be completed or requires an action, for example completing a task or closing a case. To know more about creating and managing queues, see [Create and manage queues](set-up-queues-manage-activities-cases.md).
