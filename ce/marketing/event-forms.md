@@ -1,7 +1,7 @@
 ---
-title: "New event management experience (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Use marketing forms for event registration (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Add custom marketing forms to event registrations."
-ms.date: 02/03/2020
+ms.date: 03/23/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -33,7 +33,9 @@ search.app:
 The event management application now allows you to use marketing forms for event registrations. You can create forms with a variety of fields, embed forms on your website, and use the forms for event registration.
 
 > [!NOTE]
->For the early access version of the marketing forms for event registration feature, forms are limited to free (non-recurrent) events and allow registration of one person at a time (instead of multiple people together). Please note that the event website also needs to be **updated to the February release (1.20.0) or later** for this functionality to be used for events hosted on the website. Click [here for instructions on how to update the event website](./developer/manually-overwriting-sample-website.md).
+>For the early access version of the marketing forms for event registration feature, forms are limited to free (non-recurrent) events and allow registration of one person at a time (instead of multiple people together). 
+>
+>Please note that the event website also needs to be **updated to the February release (1.20.0) or later** for this functionality to be used for events hosted on the website. Click [here for instructions on how to update the event website](./developer/manually-overwriting-sample-website.md).
 
 ## Create a marketing form for event registration
 
@@ -53,4 +55,4 @@ The header settings are available at the top of the page. To edit the header set
 
 ## Design customization, validating, and going live
 
-You can [customize your registration form’s design and check](https://docs.microsoft.com/dynamics365/marketing/marketing-forms#design-and-validate-your-form-content) for errors just as you would with any marketing form. You can even add custom fields or multi-select buttons. If no errors are returned, you are ready to [go live to make your form available for use](https://docs.microsoft.com/dynamics365/marketing/marketing-forms#go-live-to-make-your-marketing-form-available-for-use).
+You can [customize your registration form's design and check for errors](marketing-forms.md#design-and-validate-your-form-content) just as you would with any marketing form. You can even add custom fields or multi-select buttons. If no errors are returned after you validate your form, you are ready to [go live to make your form available for use](marketing-forms.md#go-live-to-make-your-marketing-form-available-for-use).
