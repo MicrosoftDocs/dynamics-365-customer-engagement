@@ -472,7 +472,7 @@ The **From** field is automatically populated based on the currently logged-in u
    > [!div class=mx-imgBorder]
    > ![csh-email-expand-window](media/csh-email-expand-window.png "Expand the email window")
 
-The message box has a rich text editor that enables you to create rich and well-formatted content for the emails with emphasis. The editor brings common word processor features like: 
+The message box has a rich text editor that enables you to create rich and well-formatted content for the emails with emphasis. The editor offers these common features: 
 
 - Copy formatting
 - Font and size
