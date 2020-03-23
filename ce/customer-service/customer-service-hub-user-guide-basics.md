@@ -472,32 +472,16 @@ The **From** field is automatically populated based on the currently logged-in u
    > [!div class=mx-imgBorder]
    > ![csh-email-expand-window](media/csh-email-expand-window.png "Expand the email window")
 
-The message box has a rich text editor that enables you to create rich and well-formatted content for the emails with emphasis. The editor offers these common features: 
-
-- Copy formatting
-- Font and size
-- Bold, italic, and underline
-- Background color for text and text color
-- Bulleted and numbered list
-- Decrease and increase indent
-- Block quote
-- Text alignment (align left, center, and right)
-- Link and unlink
-- Text strikethrough
-- Image
-- Text direction from right to left and left to right
-- Undo and redo
-- Remove format
-- Table
+The message box has a rich text editor that enables you to create rich and well-formatted content for the emails with emphasis. For details about the features in the editor, see  
 
   > [!div class=mx-imgBorder]
   > ![csh-email-toolbar](media/csh-email-toolbar.png "Use the rich text editor features")
 
 5. When you're done, select **Send**.
 
-### Create and send email using the Enhanced Email experience
+### Create and send email using the enhanced email experience
 
-An alternate way of creating email is to use the Enhanced Email experience, which allows you to compose email without leaving the record you are working on. With the enhanced email experience, you can:
+An alternate way of creating email is to use the enhanced email experience, which allows you to compose email without leaving the record you are working on. With the enhanced email experience, you can:
 
 - Navigate to different pages without losing the email content.
 - Minimize the email window to get back to the records you were working on.
@@ -564,6 +548,43 @@ If you try to insert an email template on a device with smaller screen size, you
 
 > [!div class="mx-imgBorder"]
 > ![Search template](media/search-template.png "Search template") 
+
+### Rich text editor functionality and accessibility shortcuts
+
+The following table outlines the different formatting options of the rich text editor.
+
+|Icon | Name | Shortcut key | Description |
+|----------------------|-------------------------|-----------------------------|-----------------------------|
+|![Format Painter](../../media/format-painter.png "Format Painter")| Format Painter | Ctrl+Shift+C, Ctrl+Shift+V | Apply the look of a particular section to another section. |
+| | Font | Ctrl+Shift+F | Select your desired font. |
+| | Font size | Ctrl+Shift+P | Change the size of your text. |
+|![Bold](../../media/format-bold.png "Bold")| Bold | Ctrl+B | Make your text bold. |
+|![Italic](../../media/format-Italic.png "Italic")| Italic | Ctrl+I | Italicize your text. |
+|![Underline](../../media/format-underline.png "Underline")| Underline | Ctrl+U | Underline your text. |
+|![Text Highlight Color](../../media/text-highlight-color.png "Text Highlight Color")| Text Highlight Color |  | Make your text stand out by highlighting it in a bright color. |
+|![Font Color](../../media/font-color.png "Font Color")| Font Color |  | Change the color of your text. |
+|![Bullets](../../media/format-bullets.png "Bullets")| Bullets |  | Create a bulleted list. |
+|![Numbering](../../media/format-numbering.png "Numbering")| Numbering |  | Create a numbered list. |
+|![Decrease Indent](../../media/decrease-indent.png "Decrease Indent")| Decrease Indent |  | Move your paragraph closer to the margin. |
+|![Increase Indent](../../media/increase-indent.png "Increase Indent")| Increase Indent |  | Move your paragraph farther away from the margin. |
+|![Block Quote](../../media/block-quote.png "Block Quote")| Block Quote |  | Apply a block-level quotation format in your content. |
+|![Align Left](../../media/align-left.png "Align Left")| Align Left | Ctrl+L | Align your content with the left margin. (Commonly used for body text to make it easier to read.) |
+|![Align Center](../../media/align-center.png "Align Center")| Align Center | Ctrl+E | Center your content on the page. (Commonly used for a formal appearance.) |
+|![Align Right](../../media/align-right.png "Align Right")| Align Right | Ctrl+R | Center your content on the page. (Commonly used for a formal appearance.) |
+|![Link](../../media/format-link.png "Link")| Link |  | Create a link in your document for quick access to web pages and files. |
+|![Remove Link](../../media/remove-link.png "Remove Link")| Remove Link |  | Delete a link in your email or document. |
+|![Superscript](../../media/format-superscript.png "Superscript")| Superscript |  | Type very small letters just above the line of text. |
+|![Subscript](../../media/format-subscript.png "Subscript")| Subscript |  | Type very smaill letters just below the line of text. |
+|![Strikethrough](../../media/format-strikethrough.png "Strikethrough")| Strikethrough |  | Cross out text by drawing a line through it. |
+|![Insert Pictures](../../media/insert-pictures.png "Insert Pictures")| Insert Pictures |  | Insert pictures from your computer, stock image library, or online sources. |
+|![Left to Right](../../media/left-right.png "Left to Right")| Left to Right |  | Change the text to left-to-right for content such as an paragraph, header, table, or list. Commonly used for bi-directional language content. |
+|![Right to Left](../../media/right-left.png "Right to Left")| Right to Left |  | Change the text to right-to-left for content such as a paragraph, header, table, or list. Commonly used for bi-directional language content.. |
+|![Undo Typing](../../media/undo-typing.png "Undo Typing")| Undo Typing |  | Undo changes you made to the content. |
+|![Redo Typing](../../media/format-bold.png "Redo Typing")| Redo Typing |  | Redo changes you made to the content. |
+|![Clear All Formatting](../../media/clear-formatting.png "Clear All Formatting")| Clear All Formatting |  | Remove all formating from a selection of text, leaving only the normal, unformatted text. |
+|![Add a Table](../../media/add-table.png "Add a Table")| Add a Table |  | Add a table to your content. |
+|![Show More](../../media/show-more.png "Show More")| Show More |  | Displays when the toolbar is collapsed and not all options appear. Click to expand the toolbar and make all options visible. |
+
 
 ## Work with Queues
 
