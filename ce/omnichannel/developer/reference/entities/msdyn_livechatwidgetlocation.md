@@ -1,5 +1,5 @@
 ---
-title: "msdyn_livechatwidgetlocation Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_livechatwidgetlocation Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_livechatwidgetlocation entity."
 ms.date: 03/23/2020
 ms.service: "crm-online"

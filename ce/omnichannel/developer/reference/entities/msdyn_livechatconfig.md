@@ -1,5 +1,5 @@
 ---
-title: "msdyn_livechatconfig Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_livechatconfig Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_livechatconfig entity."
 ms.date: 03/23/2020
 ms.service: "crm-online"
