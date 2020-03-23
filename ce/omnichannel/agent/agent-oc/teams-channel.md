@@ -10,7 +10,7 @@ ms.service:
 ms.topic: article
 ---
 
-# Use Microsoft Teams channel
+# Preview: Use Microsoft Teams channel
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 

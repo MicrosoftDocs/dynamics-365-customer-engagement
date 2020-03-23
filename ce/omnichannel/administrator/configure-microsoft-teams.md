@@ -74,6 +74,7 @@ Perform the following steps to configure the Omnichannel information in the Team
 2. Select the ellipses > **Edit**.
 3. Select **Bots** > **Edit**, and paste the **Bot ID** value in the box that appears under **Connect to a different Bot id**.
 4. Make sure that you've configured the options in **App details**.
+5. Select **Test and distribute**, and then select **Install** to test your app.
 
 ### See also
 
