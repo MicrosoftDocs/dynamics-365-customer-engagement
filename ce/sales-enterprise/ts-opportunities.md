@@ -36,9 +36,9 @@ To close an opportunity, open the opportunity record, and on the command bar, se
 ### Issue: I can't close an opportunity
 
 Here are some errors you might see when you close an opportunity: 
-1.  [The opportunity cannot be closed](troubleshooting.md#CannotBeClosed)
-2.  [Access denied or Insufficient permissions](troubleshooting.md#AccessDeniedOpportunity)
-3.  [The opportunity has already been closed](troubleshooting.md#AlreadyClosed)
+1.  [The opportunity cannot be closed](#CannotBeClosed)
+2.  [Access denied or Insufficient permissions](#AccessDeniedOpportunity)
+3.  [The opportunity has already been closed](#AlreadyClosed)
 
 The following sections describe each of these errors and how you can resolve them.
 
@@ -95,9 +95,9 @@ To reopen, open the opportunity, and on the command bar, select **Reopen Opportu
 ### I can't add products to an opportunity 
 
 Here are some errors you might see when you add products to an opportunity: 
-1.  [You must select a price list before attempting to add a product](troubleshooting.md#SelectPriceList)
-2.  [You must provide a value for product description](troubleshooting.md#ProductName)
-3.  [You can only add active products](troubleshooting.md#ActiveProducts)
+1.  [You must select a price list before attempting to add a product](#SelectPriceList)
+2.  [You must provide a value for product description](#ProductName)
+3.  [You can only add active products](#ActiveProducts)
 
 <a name="SelectPriceList"></a>
 #### 1. You must select a price list before attempting to add a product

@@ -171,5 +171,5 @@ To remove a product from the selection, go to the **Selected** tab. For the prod
 
 ### See also
 
-[Add products to an opportunity](add-products-opportunity.md)  
+[Add products to an opportunity](add-products-opportunities.md)  
 [Enable the enhanced experience of adding products](enable-enhanced-add-product-experience.md)

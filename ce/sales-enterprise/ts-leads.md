@@ -32,10 +32,10 @@ You can also qualify a lead from the list of leads. Go to **Sales** > **Leads**.
 <a name="cant_qualify_lead"> </a>
 ### Issue: I can't qualify a lead.
 There are multiple errors you could get while qualifying a lead. 
-1.  [Duplicate warning – There might already be a match for this account or contact. If so, please select it.](troubleshooting.md#duplicate)
-2.  [To move to the next stage, complete the required steps](troubleshooting.md#CompleteSteps)
-3.  [Active stage is not on 'lead' entity](troubleshooting.md#NoActiveStage)
-4.  [Access denied or Insufficient permissions](troubleshooting.md#AccessDenied)
+1.  [Duplicate warning – There might already be a match for this account or contact. If so, please select it.](#duplicate)
+2.  [To move to the next stage, complete the required steps](#CompleteSteps)
+3.  [Active stage is not on 'lead' entity](#NoActiveStage)
+4.  [Access denied or Insufficient permissions](#AccessDenied)
 
 The following sections describe each of these errors and how you can resolve them.
 
