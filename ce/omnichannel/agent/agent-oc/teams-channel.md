@@ -62,4 +62,4 @@ In Omnichannel for Customer Service, you can:
 
 ### See also
 
-[Configure a WeChat channel](../../administrator/configure-microsoft-teams-channel.md)
+[Configure a Microsoft Teams channel](../../administrator/configure-microsoft-teams.md)
