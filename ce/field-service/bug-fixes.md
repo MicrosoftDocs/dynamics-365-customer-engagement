@@ -2,7 +2,7 @@
 title: "Bug fixes for Dynamics 365 Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 03/10/2020
+ms.date: 03/23/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -127,18 +127,24 @@ To see older bug fixes, see the following links to blog posts:
  
 ## Field Service Mobile
 
-### Version 12.1.211
--	App crashes when wrong url is entered on sign in screen
--	FSM app crashes when sending logs if networkLog.txt does not exit
--	FSM app crashes when connecting to an org without woodford
--	FSM app crashes when click on 'password manager' from login screen
--	App crashing on certain older Android devices (misc)
--	MobileReport - formatting issue on Word/HTML
--	MobileReport - contents of Word document is removed if user saves Work Order without closing active doc.
--	Unit Amount and Unit Cost are not calculated when the offline Work Order Product created and sync backed to server
--	Certain actions don't work under work profile on Android
--	Conditionally displaying a URL via a shared-variable linked field does not update icon
+### Version 12.1.212
 
+#### Features in this release:
+- PDF Report Generation: A tech can now choose PDF document type as one of the report formats.
+- Brokered Authentication: A tech can leverage Company Portal or Authenticator application on a device to authenticate.
+- Added support for oAuth Authentication in Sovereign/DoD clouds.
+- Docusign Integration: Bring your DocuSign account and leverage DocuSign integration for digital signatures.
+
+#### Bug Fixes
+- App crashes when wrong url is entered on sign in screen.
+- FSM app crashes when sending logs if networkLog.txt does not exit.  
+- FSM app crashes when connecting to an org without Woodford.
+- FSM app crash when click on 'password manager' from login screen.   
+- App crashing on certain older Android devices (G5, LG K7). 
+- MobileReport - Formatting issue on Word/HTML.
+- MobileReport - contents of Word document is removed if user saves Work Order without closing active doc.
+- Unit Amount and Unit Cost are not calculated when the offline Work Order Product created and sync backed to server.
+- Conditionally displaying a URL is not showing hyperlink icon.
 
 ### Version 12.1.203
 
