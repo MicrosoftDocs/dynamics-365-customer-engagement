@@ -13,14 +13,16 @@ manager: annbe
 # Troubleshooting the Product form
 
 Follow the instructions in this article to troubleshoot the issues you might face while working with the Product entity in Dynamics 365 Sales.
-<!--The following heading is suggested, same pattern as the Order entity article.-->
+
 ## Issue: Re-parenting isn't working, or the Parent field isn't visible
 
 _Product re-parenting_ allows you to change the parent of an existing product record so the child products will inherit the appropriate product properties. More information: [Change the parent of a product](change-product-parent.md)
 
-If you don't see the **Parent** field on the Product form, it could be because you've customized the **Product Main** form by using the unmanaged mode<!--Will the reader know what this means? If not, maybe you could have "unmanaged mode" link to more information.-->. In some cases, **Product** forms aren't merged properly and because of this, the required **Parent** field isn't added to the form.
+If you don't see the **Parent** field on the Product form, it could be because you've customized the **Product Main** form by using the unmanaged solution. More information: [Solutions overview](/powerapps/maker/common-data-service/solutions-overview#managed-and-unmanaged-solutions)
 
-To resolve this, you must add the **Parent** field back to the form. You can do this through customization or by using the solution import/export wizard.<!--I don't know what this is. Will the reader know?--> 
+In some cases, **Product** forms aren't merged properly and because of this, the required **Parent** field isn't added to the form.
+
+To resolve this, you must add the **Parent** field back to the form. You can do this through customization or by using the solution import/export wizard. More information: [Export solutions](/powerapps/maker/common-data-service/export-solutions), [Import solutions](/powerapps/maker/common-data-service/import-update-export-solutions) 
 
 **To add the Parent field through customization**
 
@@ -37,7 +39,7 @@ To resolve this, you must add the **Parent** field back to the form. You can do 
 
 4. Under **Components** in Solution Explorer, expand **Entities**, and then expand the **Product** entity. 
 
-5. Select **Forms**, and then open the **Product** form of type **Main** that's in the **Active**<!--edits assume these are all UI strings.--> state.
+5. Select **Forms**, and then open the **Product** form of type **Main** that's in the **Active** state.
 
 6. In the form editor, select the **Parent** field from Field Explorer and drag it to the **Summary** section on the left side of the form editor.
 
@@ -48,7 +50,7 @@ To resolve this, you must add the **Parent** field back to the form. You can do 
 
 **To add the Parent field through the solution import/export wizard**
 
-In the custom solution<!--Will the reader know how to open this?-->, add the following row in the Product main form.<!--Will the reader know where to add this row?-->
+In the unmanaged solution, add the following row in the Product main form.
 
  ```XML
 <row>
@@ -63,8 +65,8 @@ In the custom solution<!--Will the reader know how to open this?-->, add the fol
 </cell>
 </row>
 ```
-<!--As noted in ts-order.md, you don't need general-information-type "See also" sections for troubleshooting content. Links to your other troubleshooting articles would be appropriate, though.
+
+
 ### See also
 
-[Change the parent of a product](change-product-parent.md)  
--->
+[Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
