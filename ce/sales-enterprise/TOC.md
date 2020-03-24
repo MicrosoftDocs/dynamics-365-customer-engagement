@@ -134,8 +134,14 @@
 ### [Use Sales Hub on the mobile app](../sales-enterprise/use-sales-hub-on-dynamics-365-mobile.md)
 
 ## Troubleshooting and FAQs
-### [Troubleshooting guide for sales people](troubleshooting.md)
-### [Troubleshooting guide for administrators](troubleshooting-admin.md)
+### [Dynamics 365 Sales Troubleshooting guide](troubleshooting.md)
+### [Troubleshooting leads](ts-leads.md)
+### [Troubleshooting opportunities](ts-opportunities.md)
+### [Troubleshooting orders](ts-orders.md)
+### [Troubleshooting common entities](ts-oqoi.md)
+### [Troubleshooting views](ts-views.md)
+### [Troubleshooting forecasts](ts-forecasts.md)
+### [Troubleshooting Unified Interface](ts-unified-interface.md)
 ### [FAQs](faqs-sales.md)
 
 ## Integrations
