@@ -145,7 +145,7 @@
 ### [Troubleshooting views](ts-views.md)
 ### [Troubleshooting forecasts](ts-forecasts.md)
 ### [Troubleshooting the Unified Interface](ts-unified-interface.md)
-### [Troubleshooting the sales pipeline chart](ts-sales-pipeline-chart.md)
+### [Troubleshooting the sales pipeline chart](ts-sales-pipeline.md)
 ### [FAQs](faqs-sales.md)
 
 ## Integrations
