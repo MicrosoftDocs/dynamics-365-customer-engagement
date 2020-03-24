@@ -17,14 +17,14 @@ manager: annbe
 
 <tr><td>
 
-<h2>Troubleshoot leads </h2>
+<h2>leads </h2>
 
 <li><a href="ts-leads.md#cant_qualify_lead" data-raw-source="[Ican't qualify a lead](ts-leads.md#cant_qualify_lead)">I can't qualify a lead?</a></li>
 <li><a href="ts-leads.md#insufficientpermissions" data-raw-source="[Insufficient permissions or Access denied error when a user is trying to qualify a lead)](ts-leads.md#insufficientpermissions)">Insufficient permissions or Access denied error when a user is trying to qualify a lead</a></li>
 
 </td><td>
 
-<h2>Troubleshooting opportunities</h2>
+<h2>opportunities</h2>
 
 
 <li><a href="ts-opportunities.md#close_opportunity" data-raw-source="[I can't close an opportunity](ts-opportunities.md#close_opportunity)">I can't close an opportunity</a></li>
@@ -37,12 +37,12 @@ manager: annbe
 
 <tr><td>
 
-<h2>Troubleshoot orders </h2>
+<h2>Orders </h2>
 
 <li><a href="ts-orders.md#no_create_invoice_button" data-raw-source="[I don't see the Create invoice button on my order forms?](ts-orders.md#no_create_invoice_button)">I don't see the Create invoice button on my order forms</a></li>
 </td><td>
 
-<h2>Troubleshooting forecast</h2>
+<h2>Forecasting</h2>
 
 
 <li><a href="ts-forecasts.md#publish_forecast_definition" data-raw-source="[I can't publish forecast definition](ts-forecast.md#publish_forecast_definition)">I can't publish forecast definition</a></li>
@@ -52,12 +52,12 @@ manager: annbe
 
 <tr><td>
 
-<h2>Troubleshoot views </h2>
+<h2>Views </h2>
 
 <li><a href="ts-views.md#no_data_in_views" data-raw-source="[I can't see data in certain columns in entity views](ts-views.md#no_data_in_views)">I can't see data in certain columns in entity views</a></li>
 </td><td>
 
-<h2>Troubleshooting Unified Interface</h2>
+<h2>Unified Interface</h2>
 
 
 <li><a href="ts-unified-interface.md#read_only" data-raw-source="[Out-of-the-box or custom entities appear as read-only in Unified Interface apps](ts-unified-interface.md#read_only)">Out-of-the-box or custom entities appear as read-only in Unified Interface apps</a></li>
@@ -66,7 +66,7 @@ manager: annbe
 
 <tr><td>
 
-<h2>Troubleshoot common issues across entities </h2>
+<h2>Common issues across entities </h2>
 
 <li><a href="ts-oqoi.md#error_on_entities" data-raw-source="[Error or unexpected behavior while working on entities](ts-oqoi.md#error_on_entities)">Error or unexpected behavior while working on entities</a></li>
 </td><td>
