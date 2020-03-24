@@ -31,7 +31,7 @@ Make sure that the following prerequisites are met:
 
 An SMS channel is enabled within Omnichannel for Customer Service by integrating with Twilio. This integration uses public APIs of Twilio for sending and receiving text messages.
 
-1. In your Twilio account, note the ACCOUNT SID and AUTH TOKEN values. The values are required to create the SMS configuration in the Omnichannel Administration app.
+1. In your Twilio account, note the ACCOUNT SID and AUTH TOKEN values. These values are required to create the SMS configuration in the Omnichannel Administration app.
 2. Purchase support phone numbers through your Twilio account.
 
 > [!NOTE]
