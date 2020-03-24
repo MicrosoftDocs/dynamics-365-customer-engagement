@@ -37,7 +37,6 @@ search.app:
 > For further information and steps to make a smooth transition, see [Dynamics 365 for Outlook (COM add-in) Playbook](https://aka.ms/OutlookCOMPlaybook).
 
 
-
 - For [!INCLUDE[pn_crm_8_2_0_both](../../includes/pn-crm-8-2-0-both.md)] and later releases, the preferred way to use [!INCLUDE[pn_crm_2016](../../includes/pn-crm-2016.md)] together with [!INCLUDE[pn_MS_Outlook_Short](../../includes/pn-ms-outlook-short.md)] is to use [!INCLUDE[pn_dyn_365_app_outlook](../../includes/pn-dyn-365-app-outlook.md)], a [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] add-in. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Dynamics 365 App for Outlook User's Guide](../../outlook-app/dynamics-365-app-outlook-user-s-guide.md). 
 - Configuring [!INCLUDE[pn_dyn_365_app_outlook](../../includes/pn-dyn-365-app-outlook.md)] and [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] for the same Dynamics 365 user is not supported.
 - When using Dynamics 365 online for Outlook version 9.0 in offline mode, attachments to synchronized records will not be available in offline mode. If there is an attachment to a record, the attachment will only be available when you are back online. If you added an attachment to a record in offline mode, the attachment will be synchronized to the server when you are back online. To use attachments in offline mode, consider saving the attachment your device.
