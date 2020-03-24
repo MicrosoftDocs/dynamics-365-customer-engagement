@@ -132,6 +132,7 @@ By default, the Basic and Enhanced Microsoft Teams Integration is disabled in Co
  
 See [Collaborate with Microsoft Teams](teams-collaboration.md#have-a-conversation) for information on how you can use the tab feature to collaborate with Dynamics 365 apps.
 
+<a name="bkmk_setup_dynamics365_bot"></a>
 ## In Microsoft Teams: Set up the Dynamics 365 bot
 
 
