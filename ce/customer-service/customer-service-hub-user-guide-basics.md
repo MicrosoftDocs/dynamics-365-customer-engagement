@@ -559,7 +559,7 @@ The following table outlines the different formatting options of the rich text e
 |![Font](media/format-font.png "Font") | Font | Ctrl+Shift+F | Select your desired font. |
 |![Font Size](media/font-size.png "Font Size") | Font size | Ctrl+Shift+P | Change the size of your text. |
 |![Bold](media/format-bold.png "Bold")| Bold | Ctrl+B | Make your text bold. |
-|![Italic](media/format-Italic.png "Italic")| Italic | Ctrl+I | Italicize your text. |
+|![Italic](media/format-italic.png "Italic")| Italic | Ctrl+I | Italicize your text. |
 |![Underline](../../media/format-underline.png "Underline")| Underline | Ctrl+U | Underline your text. |
 |![Text Highlight Color](../../media/text-highlight-color.png "Text Highlight Color")| Text Highlight Color |  | Make your text stand out by highlighting it in a bright color. |
 |![Font Color](../../media/font-color.png "Font Color")| Font Color |  | Change the color of your text. |
