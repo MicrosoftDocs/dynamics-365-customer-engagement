@@ -24,7 +24,7 @@ To open dashboards, select **Dashboards** in the site map.
 
 Sales Hub comes with some prebuilt dashboards that you can use to quickly get insights on your sales data and team performance. The dashboards show daily work-related sales numbers, such as the activities you're working on, your sales pipeline, and your open opportunities and leads.
 
-Sales reps or managers use the out-of-the-box Sales Pipeline chart to visualize the revenue for an opportunity based on each pipeline phase. More information: [What is a sales pipeline chart](sales-pipeline-chart.md)
+Sales reps or managers use the out-of-the-box Sales Pipeline chart to visualize the revenue for an opportunity based on each pipeline phase. More information: [Understand the sales pipeline chart and its phases](sales-pipeline-chart.md)  
 
 ![Sales activity dashboard](media/sales-activity-dashboard.png "Sales activity dashboard")
 
