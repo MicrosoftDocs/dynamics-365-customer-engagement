@@ -165,7 +165,7 @@
 ## [Dynamics 365 Guides on HoloLens](mixed-reality-guides-integration.md)
 ## [SAP integration](field-service-sap-integration.md)
 
-# Resources
+# Additional resources
 ## [Version history (web + mobile)](version-history.md)
 ## [Bug fixes](bug-fixes.md)
 ## [AppSource add-ins for Field Service](appsource-addins.md)

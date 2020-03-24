@@ -1,6 +1,5 @@
 # [Help resources for Dynamics 365 Sales](help-hub.md)
 ## [Overview of Sales and Sales Hub](../sales-enterprise/overview.md)
-## [Sales Team Member app](sales-team-member.md)
 ## [What's new](../sales-enterprise/whats-new.md)
 ## [Connect and share feedback](../sales-enterprise/connect-share-feedback.md)
 ## Administrator & Sales Manager Guide
@@ -64,6 +63,10 @@
 #### [Manage playbook templates](manage-playbook-templates.md) 
 #### [Associate documents with playbook activities](associate-documents-playbook-activities.md)
 
+### Power BI template apps for Dynamics 365 Sales
+#### [Analyze your sales data using Power BI template apps](introduction-sales-template-apps.md)
+#### [Configure Power BI template apps to work with Dynamics 365 Sales](configure-sales-template-apps.md)
+
 ### General Data Protection Regulation (GDPR)
 #### [Dynamics 365 Sales & GDPR](../sales-enterprise/dynamics-365-sales-gdpr.md)
 ### Upgrade or downgrade
@@ -74,6 +77,8 @@
 ## User Guide
 ### [Help resources for sales people](../sales-enterprise/user-guide.md)
 ### [Learn the basics](user-guide-learn-basics.md)
+### [Gain insights with dashboards](dashboards.md)
+### [Understand the sales pipeline chart and its phases](sales-pipeline-chart.md)
 ### [Send email using the enhanced email experience](enhanced-email.md)
 ### [Insert an email template](insert-email-template.md)
 ### [Create PDF documents](create-quote-pdf.md)
@@ -131,8 +136,16 @@
 ### [Use Sales Hub on the mobile app](../sales-enterprise/use-sales-hub-on-dynamics-365-mobile.md)
 
 ## Troubleshooting and FAQs
-### [Troubleshooting guide for sales people](troubleshooting.md)
-### [Troubleshooting guide for administrators](troubleshooting-admin.md)
+### [Dynamics 365 Sales Troubleshooting guide](troubleshooting.md)
+### [Troubleshooting leads](ts-leads.md)
+### [Troubleshooting opportunities](ts-opportunities.md)
+### [Troubleshooting orders](ts-orders.md)
+### [Troubleshooting products](ts-products.md)
+### [Troubleshooting common entities](ts-oqoi.md)
+### [Troubleshooting views](ts-views.md)
+### [Troubleshooting forecasts](ts-forecasts.md)
+### [Troubleshooting the Unified Interface](ts-unified-interface.md)
+### [Troubleshooting the sales pipeline chart](ts-sales-pipeline.md)
 ### [FAQs](faqs-sales.md)
 
 ## Integrations
@@ -161,6 +174,7 @@
 ### Action Reference
 #### [RecalculatePrice Action](../sales-enterprise/developer/reference/recalculateprice-action.md)
 
-# Dynamics 365 Sales (Professional)
+# Resources for other Sales apps
 ## [Help resources for Dynamics 365 Sales (Professional)](../sales-professional/help-hub.md)
-# [Dynamics 365 Sales Insights](/dynamics365/ai/sales/overview)
+## [Dynamics 365 Sales Insights](/dynamics365/ai/sales/overview)
+## [Sales Team Member app for users with Team Member license](sales-team-member.md)

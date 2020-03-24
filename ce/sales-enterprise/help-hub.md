@@ -2,10 +2,8 @@
 title: "Help resources for Dynamics 365 Sales (Enterprise) | Microsoft Docs"
 description: "A starting point for browsing help content for Dynamics 365 Sales."
 ms.date: 10/14/2019
-ms.service: 
+ms.service:
   - "dynamics-365-sales"
-ms.custom: 
-  - "dyn365-sales"
 ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
@@ -46,19 +44,6 @@ manager: annbe
 <li><a href="user-guide.md" data-raw-source="[More help resources for sales people...](user guide.md)">More help resources for sales people...</a></li>
 
 </td><td>
-<h2>Integrate</h2>
-<li><a href="../linkedin/integrate-sales-navigator.md" data-raw-source="[Integrate LinkedIn Sales Navigator solutions](../linkedin/integrate-sales-navigator.md)">Integrate LinkedIn Sales Navigator solutions</a></li>
-<li><a href="../teams-integration/teams-integration.md" data-raw-source="[Microsoft Teams integration](../teams-integration/teams-integration.md)">Microsoft Teams integration</a></li>
-</td></tr>
-
-<tr><td>
-<h2>Troubleshooting</h2>
-<li><a href="troubleshooting-admin.md"> Troubleshooting guide for administrators</a></li>
-<li><a href="troubleshooting.md"> Troubleshooting guide for sales people</a></li>
-<li><a href="faqs-sales.md"> FAQs</a></li>
-
-</td><td>
-
 <h2>In-app marketing</h2>
 <li><a href="create-marketing-list-using-app-marketing-sales.md" data-raw-source="[Create a marketing list](create-marketing-list-using-app-marketing-sales.md)">Create a marketing list</a></li>
 <li><a href="create-quick-campaign-using-app-marketing-sales.md" data-raw-source="[Create a quick campaign](create-quick-campaign-using-app-marketing-sales.md)">Create a quick campaign</a></li>
@@ -66,6 +51,17 @@ manager: annbe
 <li><a href="create-edit-campaign-using-app-marketing-sales.md" data-raw-source="[Create or edit a campaign](create-edit-campaign-using-app-marketing-sales.md)">Create or edit a campaign</a></li>
 <li><a href="add-activity-campaign-using-app-marketing-sales.md" data-raw-source="[Add an activity to a campaign](add-activity-campaign-using-app-marketing-sales.md)">Add an activity to a campaign</a></li>
 <li><a href="track-marketing-campaign-response-using-app-marketing-sales.md" data-raw-source="[Track a marketing campaign response](track-marketing-campaign-response-using-app-marketing-sales.md)">Track a marketing campaign response</a></li>
+
+<tr><td>
+<h2>Troubleshooting</h2>
+<li><a href="troubleshooting.md"> Troubleshooting guide for sales people</a></li>
+<li><a href="faqs-sales.md"> FAQs</a></li>
+
+</td><td>
+<h2>Integrate</h2>
+<li><a href="../linkedin/integrate-sales-navigator.md" data-raw-source="[Integrate LinkedIn Sales Navigator solutions](../linkedin/integrate-sales-navigator.md)">Integrate LinkedIn Sales Navigator solutions</a></li>
+<li><a href="../teams-integration/teams-integration.md" data-raw-source="[Microsoft Teams integration](../teams-integration/teams-integration.md)">Microsoft Teams integration</a></li>
+</td></tr>
 
 </td></tr>
 
@@ -84,24 +80,15 @@ manager: annbe
 
 <tr><td>
 
-<h2>Dynamics 365 Sales Insights</h2>
-
-<li><a href="../sales-enterprise/dynamics365-ai-sales.md" data-raw-source="[Dynamics 365 Sales Insights](../sales-enterprise/dynamics365-ai-sales.md)">Dynamics 365 Sales Insights</a></li>
-
-</td>
-<td>
-<h2> Dynamics 365 Sales Professional</h2>
-<li> <a href="../sales-professional/help-hub.md" data-raw-source="[Help resources for Dynamics 365 Sales Professional](../sales-professional/help-hub.md)">Help resources for Dynamics 365 Sales Professional</a></li>
-<li> <a href="../sales-professional/sales-professional-overview.md" data-raw-source="[Overview](../sales-professional/sales-professional-overview.md)">Overview</a></li>
-</td>
-</tr>
-
-<tr><td>
-
 <h2>Microsoft Learn resources</h2>
 <li><a href="https://docs.microsoft.com/learn/paths/working-with-dynamics-365-sales/" data-raw-source="[Working with Dynamics 365 Sales](https://docs.microsoft.com/learn/paths/working-with-dynamics-365-sales/)">Working with Dynamics 365 Sales</a></li>
 </td>
 <td>
+<h2>Resources for other Sales apps</h2>
+<li><a href="../sales-enterprise/dynamics365-ai-sales.md" data-raw-source="[Dynamics 365 Sales Insights](../sales-enterprise/dynamics365-ai-sales.md)">Dynamics 365 Sales Insights</a></li>
+<li> <a href="../sales-professional/help-hub.md" data-raw-source="[Help resources for Dynamics 365 Sales Professional](../sales-professional/help-hub.md)">Help resources for Dynamics 365 Sales Professional</a></li>
+<li> <a href="../sales-professional/sales-professional-overview.md" data-raw-source="[Overview](../sales-professional/sales-professional-overview.md)">Overview</a></li>
+<li><a href="sales-team-member.md" data-raw-source="[Sales Team Member app for users with Team Member license](sales-team-member.md)">Sales Team Member app for users with Team Member license</a></li>
 </td>
 </tr>
 

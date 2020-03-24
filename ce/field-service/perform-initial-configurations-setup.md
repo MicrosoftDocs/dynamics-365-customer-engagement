@@ -1,7 +1,7 @@
 ---
 title: "Perform initial configurations (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: dyn365-fieldservice
-ms.date: 10/31/2018
+ms.date: 03/13/2020
 ms.reviewer: krbjoran
 ms.suite: 
 ms.technology: 
@@ -82,6 +82,9 @@ The API key will populate automatically and use the Bing Maps API.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of setting COnnect to Maps to yes](media/Perform-Initial-Configurations-image7.png)  
+
+> [!Note]
+> In Field Service version 8.8.10.44+ the Bing Maps API key is hidden.
 
 Save and close.
 

@@ -2,10 +2,8 @@
 title: "Help resources for Dynamics 365 Sales Professional| Microsoft Docs"
 description: "A starting point for browsing help content for Dynamics 365 Sales Professional."
 ms.date: 10/14/2019
-ms.service: 
+ms.service:
   - "dynamics-365-sales"
-ms.custom: 
-  - "dyn365-sales"
 ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
@@ -52,16 +50,6 @@ manager: annbe
 </ul>
 
 </td><td>
-<h2>Microsoft Learn resources</h2>
-<ul>
-<li><a href="https://docs.microsoft.com/learn/modules/manage-leads-dynamics-365-sales/" data-raw-source="[Manage leads with Dynamics 365 Sales Professional](https://docs.microsoft.com/learn/modules/manage-leads-dynamics-365-sales/)">Manage leads with Dynamics 365 Sales Professional</a></li>
-<li><a href="https://docs.microsoft.com/learn/modules/manage-opportunities-dynamics-365-sales/" data-raw-source="[Manage opportunities with Dynamics 365 Sales Professional](https://docs.microsoft.com/learn/modules/manage-opportunities-dynamics-365-sales/)">Manage opportunities with Dynamics 365 Sales Professional</a></li>
-<li><a href="https://docs.microsoft.com/learn/modules/process-sales-orders-dynamics-365-sales/" data-raw-source="[Process sales orders with Dynamics 365 Sales Professional](https://docs.microsoft.com/learn/modules/process-sales-orders-dynamics-365-sales/)">Process sales orders with Dynamics 365 Sales Professional</a></li>
-</ul>
-
-</td></tr>
-
-<tr><td>
 <h2>Administer the app</h2>
 <ul>
 <li><a href="admin-settings-overview.md" data-raw-source="[Set up the app for use](admin-settings-overview.md)">Set up the app for use</a></li>
@@ -70,25 +58,36 @@ manager: annbe
 <li><a href="manage-users.md" data-raw-source=" [Add or manage users](manage-users.md)">Add or manage users</a></li>
 <li><a href="configure-email.md" data-raw-source=" [Set up email by integrating with Microsoft Exchange](configure-email.md)">Set up email by integrating with Microsoft Exchange</a></li>
 <li><a href="admin-guide.md" data-raw-source="[More resources for admins and sales managers](admin-guide.md)">More help resources for admins and sales managers...</a></li>
-</td><td>
+</ul>
+</td></tr>
 
+<tr><td>
 <h2>Customize the app</h2>
 <ul>
 <li><a href="customize-forms.md" data-raw-source="[Customize forms](customize-forms.md)">Customize forms</a></li>
 <li><a href="customize-views.md" data-raw-source="[Customize views](customize-views.md)">Customize views</a></li>
 <li><a href="customize-business-process-flows.md" data-raw-source="[Customize business process flows](customize-business-process-flows.md)">Customize business process flows</a></li>
 <li><a href="manage-app.md" data-raw-source="[Customize the Dynamics 365 Sales Professional app](manage.app.md)">Customize the Dynamics 365 Sales Professional app</a></li></ul>
-</td></tr>
-<tr>
+</td>
 <td>
+<h2>Microsoft Learn resources</h2>
+<ul>
+<li><a href="https://docs.microsoft.com/learn/modules/manage-leads-dynamics-365-sales/" data-raw-source="[Manage leads with Dynamics 365 Sales Professional](https://docs.microsoft.com/learn/modules/manage-leads-dynamics-365-sales/)">Manage leads with Dynamics 365 Sales Professional</a></li>
+<li><a href="https://docs.microsoft.com/learn/modules/manage-opportunities-dynamics-365-sales/" data-raw-source="[Manage opportunities with Dynamics 365 Sales Professional](https://docs.microsoft.com/learn/modules/manage-opportunities-dynamics-365-sales/)">Manage opportunities with Dynamics 365 Sales Professional</a></li>
+<li><a href="https://docs.microsoft.com/learn/modules/process-sales-orders-dynamics-365-sales/" data-raw-source="[Process sales orders with Dynamics 365 Sales Professional](https://docs.microsoft.com/learn/modules/process-sales-orders-dynamics-365-sales/)">Process sales orders with Dynamics 365 Sales Professional</a></li>
+</ul>
+</td></tr>
+<tr><td>
 <h2>Integrate</h2>
 <ul>
 <li><a href="../linkedin/integrate-sales-navigator.md" data-raw-source="[Integrate LinkedIn Sales Navigator solutions](../linkedin/integrate-sales-navigator.md)">Integrate LinkedIn Sales Navigator solutions</a></li>
 <li><a href="../teams-integration/teams-integration.md" data-raw-source="[Microsoft Teams integration](../teams-integration/teams-integration.md)">Microsoft Teams integration</a></li></ul>
 </td>
 <td>
-<h2>Dynamics 365 Sales (Enterprise)</h2>
+<h2>Resources for other Sales apps</h2>
 <ul>
-<li><a href="../sales-enterprise/help-hub.md" data-raw-source="[Help resources for Dynamics 365 Sales (Enterprise)](../sales-enterprise/help-hub.md)">Help resources for Dynamics 365 Sales (Enterprise)</a></li></ul>
+<li><a href="../sales-enterprise/help-hub.md" data-raw-source="[Help resources for Dynamics 365 Sales (Enterprise)](../sales-enterprise/help-hub.md)">Help resources for Dynamics 365 Sales (Enterprise)</a></li>
+<li><a href="../sales-enterprise/sales-team-member.md" data-raw-source="[Sales Team Member app for users with Team Member license](../sales-enterprise/sales-team-member.md)">Sales Team Member app for users with Team Member license</li></ul>
 </td></tr>
+
 </table>
