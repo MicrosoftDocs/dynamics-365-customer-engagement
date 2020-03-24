@@ -105,9 +105,9 @@ If there's no error, and you're still not able to qualify a lead, contact the te
 ### Issue: Insufficient permissions or Access denied error when a user is trying to qualify a lead
 
 How you resolve this error depends on the following ownership scenarios for the lead records. 
--  [The lead is owned by the user trying to qualify it](troubleshooting-admin.md#OwnedByUser)
--  [The lead that the user is trying to qualify is in their business unit](troubleshooting-admin.md#BusinessUnit)
--  [The lead that the user is trying to qualify is in their organization](troubleshooting-admin.md#Organization)
+-  [The lead is owned by the user trying to qualify it](#OwnedByUser)
+-  [The lead that the user is trying to qualify is in their business unit](#BusinessUnit)
+-  [The lead that the user is trying to qualify is in their organization](#Organization)
 
 <a name="OwnedByUser"> </a>
 **Scenario:** 

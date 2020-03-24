@@ -2,7 +2,7 @@
 title: "Help resources for admins and sales managers (Dynamics 365 Sales) | MicrosoftDocs"
 description: "A starting point for browsing admin and sales manager content for Dynamics 365 Sales."
 ms.date: 10/01/2019
-ms.service: 
+ms.service:
   - "dynamics-365-sales"
 ms.topic: get-started-article
 author: shubhadaj
@@ -43,8 +43,7 @@ manager: sakudes
 
 <h2>Troubleshooting</h2>
 <ul>
-<li><a href="troubleshooting-admin.md" data-raw-source="[Troubleshooting guide for administrators](troubleshooting-admin.md)">Troubleshooting guide for administrators</a></li>
-<li><a href="troubleshooting.md" data-raw-source="[Troubleshooting guide for sales people](troubleshooting.md)">Troubleshooting guide for sales people</a></li>
+<li><a href="troubleshooting.md" data-raw-source="[Dynamics 365 Sales troubleshooting guide](troubleshooting.md)">Dynamics 365 Sales troubleshooting guide</a></li>
 </ul>
 
 </td><td>
