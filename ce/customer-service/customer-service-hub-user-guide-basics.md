@@ -585,6 +585,17 @@ The following table outlines the different formatting options of the rich text e
 |![Add a Table](../../media/add-table.png "Add a Table")| Add a Table |  | Add a table to your content. |
 |![Show More](../../media/show-more.png "Show More")| Show More |  | Displays when the toolbar is collapsed and not all options appear. Click to expand the toolbar and make all options visible. |
 
+The following table outlines other plugins you can access.
+
+|Plugin | Name | Description |
+|----------------------|-------------------------|-----------------------------|
+| a11yhelp | Accessibility Help | Displays accessibility commands and keystroke information in a dialog window. Click Alt+0 to access this information. |
+| autolink | Auto Link | Converts a pasted or typed URL text into a link. For example, |
+| contextmenu | Context Menu | Displays specific content-related right-click menu options. The native browser context menu remains available when the you press the Ctrl key while opening the menu, which can be also be configured. |
+| tableresize | Table Resize | Lets you resize table columns using your mouse by allowing you to hover over a column border which causes the cursor to change to indicate that the column can be resized. Click and drag your mouse to resize to the desired column width. |
+| tableselection | Table Selection | Provides a unique custom selection system for tables. Examples include selecting a few cells from different rows, applying formatting or adding links to all selected cells, and cutting, copying, or pasting entire rows or columns. |
+| tabletools | Table Tools | Adds an advanced context menu for table items and the Cell Properties dialog window with support for features such as cell type, width and height, word wrapping, alignment, merging and splitting cells horizontally and vertically, inserting or deleting rows and columns, row and column span, and cell and border color. |
+
 
 ## Work with Queues
 
