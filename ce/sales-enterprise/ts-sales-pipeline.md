@@ -27,7 +27,7 @@ This can happen if you've changed the sequence of a stage category option (for e
 This is to be expected if you use multiple business process flow definitions for the Opportunity entity. The out-of-the-box pipeline phase attribute is set on every stage change in the business process flow of the **Opportunity** record, irrespective of how many business process flows are associated with that record. If you have multiple business process flows, consider adding a custom field to the Opportunity Sales Process and setting its value programmatically for the stage changes you require in the business process flow for the opportunity. 
 
 <a name="different_ordering"> </a>
-## The sales pipeline chart ordering is displayed differently in the Unified Interface vs. the legacy web client.
+## Issue: The sales pipeline chart ordering is displayed differently in the Unified Interface vs. the legacy web client.
 
 The legacy web client displays the chart by using the value of the associated category option, whereas in the Unified Interface the stages are displayed alphabetically. Because the pipeline phases are prefixed with the order defined in the **Stage category** option set, they're displayed according to the category option sequence (1, 2, and so on).
 
