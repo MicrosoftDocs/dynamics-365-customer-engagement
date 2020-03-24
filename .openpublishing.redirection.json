@@ -17845,6 +17845,11 @@
       "source_path": "ce/customer-service/channel-integration-framework/v2/onboard-org-flight.md",
       "redirect_url": "get-channel-integration-framework",
       "redirect_document_id": false
-    }    
+    },
+    {  
+      "source_path": "ce/sales-enterprise/troubleshooting-admin.md",
+      "redirect_url": "troubleshooting",
+      "redirect_document_id": false
+    }   
   ]
 }
