@@ -138,10 +138,12 @@
 ### [Troubleshooting leads](ts-leads.md)
 ### [Troubleshooting opportunities](ts-opportunities.md)
 ### [Troubleshooting orders](ts-orders.md)
+### [Troubleshooting products](ts-products.md)
 ### [Troubleshooting common entities](ts-oqoi.md)
 ### [Troubleshooting views](ts-views.md)
 ### [Troubleshooting forecasts](ts-forecasts.md)
-### [Troubleshooting Unified Interface](ts-unified-interface.md)
+### [Troubleshooting the Unified Interface](ts-unified-interface.md)
+### [Troubleshooting the sales pipeline chart](ts-sales-pipeline-chart.md)
 ### [FAQs](faqs-sales.md)
 
 ## Integrations
