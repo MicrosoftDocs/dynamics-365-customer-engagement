@@ -16,7 +16,7 @@ ms.reviewer: susikka
 
 Custom plugins execute on create, update and save operations of Opportunity, Quote, Order, Invoice(OQOI) entities. Create and update operations on OQOI entities internally trigger the Price Calculation service, which subsequently update associated price related fields or attributes of the parent OQOI entities. 
 
-You can identity or differentiate any updates in OQOI entities or parent OQOI entities using the internal price calculation service or using your own custom plugin. The boolean shared variable called `isInternalSystemPriceCalculationEvent`, which is accessible via `IPluginExecutionContext` is available within the plugin code. Any create or update event processed using the price calculation service will set the value of variable `isInternalSystemPriceCalculationEvent` to `true`. The default value of `InternalSystemPriceCalculationEvent` variable is `false`. You can access this variable from your custom plugin code to control the flow of your existing business logic. 
+You can identity or differentiate any updates in OQOI entities or parent OQOI entities using the internal price calculation service or using your own custom plugin. The boolean shared variable called `InternalSystemPriceCalculationEvent`, which is accessible via `IPluginExecutionContext` is available within the plugin code. Any create or update event processed using the price calculation service will set the value of variable `InternalSystemPriceCalculationEvent` to `true`. The default value of `InternalSystemPriceCalculationEvent` variable is `false`. You can access this variable from your custom plugin code to control the flow of your existing business logic. 
 
 ## Sample code
 
@@ -40,7 +40,7 @@ public void Execute(IServiceProvider serviceProvider)
 
     if (isInternalSystemPriceCalculationEvent)
     {
-            //TO DO - Add/skip custom business logic
+            //TO DO - Add or skip custom business logic
     }
 
 }
