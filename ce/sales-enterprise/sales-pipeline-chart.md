@@ -24,7 +24,7 @@ There are four stages in the out-of-the-box Opportunity Sales Process flow. Each
 
 ![Opportunity Sales Process definition](media/opportunity-sales-process-definition.png "Opportunity Sales Process definition")
  
-The category values used for each business process stage are defined in a global option set named **Stage Category**. When an opportunity moves from the **Qualify** to **Develop** stage of the Opportunity Sales Process flow, the metadata for the category of the new stage (**Develop**, in this example) is read. Because the order of the **Develop** stage in our example<!--edit okay?--> is **2**, the pipeline phase of the opportunity will be set to **2-Develop**.
+The category values used for each business process stage are defined in a global option set named **Stage Category**. When an opportunity moves from the **Qualify** to **Develop** stage of the Opportunity Sales Process flow, the metadata for the category of the new stage (**Develop**, in this example) is read. Because the order of the **Develop** stage in our example is **2**, the pipeline phase of the opportunity will be set to **2-Develop**.
 
 ![Stage Category option set](media/stage-category.png "Stage Category option set")
 
