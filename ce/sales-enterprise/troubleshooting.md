@@ -17,14 +17,14 @@ manager: annbe
 
 <tr><td>
 
-<h2>leads </h2>
+<h2>Leads </h2>
 
 <li><a href="ts-leads.md#cant_qualify_lead" data-raw-source="[Ican't qualify a lead](ts-leads.md#cant_qualify_lead)">I can't qualify a lead?</a></li>
 <li><a href="ts-leads.md#insufficientpermissions" data-raw-source="[Insufficient permissions or Access denied error when a user is trying to qualify a lead)](ts-leads.md#insufficientpermissions)">Insufficient permissions or Access denied error when a user is trying to qualify a lead</a></li>
 
 </td><td>
 
-<h2>opportunities</h2>
+<h2>Opportunities</h2>
 
 
 <li><a href="ts-opportunities.md#close_opportunity" data-raw-source="[I can't close an opportunity](ts-opportunities.md#close_opportunity)">I can't close an opportunity</a></li>
