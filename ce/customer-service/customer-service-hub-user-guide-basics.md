@@ -556,8 +556,8 @@ The following table outlines the different formatting options of the rich text e
 |Icon | Name | Shortcut key | Description |
 |----------------------|-------------------------|-----------------------------|-----------------------------|
 |![Format Painter](../../media/format-painter.png "Format Painter")| Format Painter | Ctrl+Shift+C, Ctrl+Shift+V | Apply the look of a particular section to another section. |
-| | Font | Ctrl+Shift+F | Select your desired font. |
-| | Font size | Ctrl+Shift+P | Change the size of your text. |
+|![Font](../../media/format-font.png "Font") | Font | Ctrl+Shift+F | Select your desired font. |
+|![Font Size](../../media/font-size.png "Font Size") | Font size | Ctrl+Shift+P | Change the size of your text. |
 |![Bold](../../media/format-bold.png "Bold")| Bold | Ctrl+B | Make your text bold. |
 |![Italic](../../media/format-Italic.png "Italic")| Italic | Ctrl+I | Italicize your text. |
 |![Underline](../../media/format-underline.png "Underline")| Underline | Ctrl+U | Underline your text. |
