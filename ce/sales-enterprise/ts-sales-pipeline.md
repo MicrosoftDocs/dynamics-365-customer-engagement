@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting sales pipeline phases (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Troubleshooting the Sales Pipeline chart and its phases (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Follow the instructions in this article to troubleshoot issues you might face while working with the sales pipeline chart or its phases in Dynamics 365 Sales."
 ms.date: 03/24/2020
 ms.service:
@@ -10,11 +10,11 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Troubleshooting sales pipeline phases in Dynamics 365 Sales
+# Troubleshooting the Sales Pipeline chart and its phases in Dynamics 365 Sales
 
-This article helps you troubleshoot and resolve issues related to sales pipeline chart and its phases.
+This article helps you troubleshoot and resolve issues related to the Sales Pipeline chart and its phases.
 
-A Sales Pipeline chart consists of pipeline phases of an opportunity. The phase is based on the stage of the business process flow the opportunity is in, such as 1-Qualify, 2-Develop, and so on. More information: [Understand the sales pipeline chart and its phases](sales-pipeline-chart.md) 
+The Sales Pipeline chart consists of pipeline phases of an opportunity. The phase is based on the stage of the business process flow the opportunity is in, such as 1-Qualify, 2-Develop, and so on. More information: [Understand the sales pipeline chart and its phases](sales-pipeline-chart.md) 
 
 <a name="different_sequence"> </a>
 ## Issue: I see multiple pipeline phases with different sequences, such as 6-Close and 7-Close.
