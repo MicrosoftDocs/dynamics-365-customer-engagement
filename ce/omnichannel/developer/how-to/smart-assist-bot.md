@@ -13,13 +13,12 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-This topic provides the information on how you can get started with building a custom smart assist bot.
+This topic provides the information on how you can get started with building a smart assist bot that displays knowledge article recommendations to the agent.
 
 > [!IMPORTANT]
-> For the complete code sample on how to create a custom smart assist bot, see: [Smart Assist for Bots](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/smart-assist-bot). Refer to the code sample [README](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/smart-assist-bot/README.md) file for information on how to setup and run the sample.
+> For the complete code sample on how to create a smart assist bot, see: [Smart Assist for Bots](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/smart-assist-bot). Refer to the code sample [README](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/smart-assist-bot/README.md) file for information on how to setup and run the sample.
 
-To setup a smart assist bot, you need to create a custom bot that can interpret a conversation and send recommendations to the agent. The bot should contain logic to understand the underlying context of a conversation and send recommendations using adaptive cards. The actions on adaptive cards can be implemented using macros or custom web resources.
-
+<!--
 ## Prerequisites
 
 - To get started with building a custom smart assist bot, you will first need to create a bot with [Azure Bot Service](https://docs.microsoft.com/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0). When you register your bot with Azure Bot Service, you will obtain `Microsoft App ID` and `Client secret` which you will need to update the `appsettings.json` file in the bot.
@@ -27,7 +26,7 @@ To setup a smart assist bot, you need to create a custom bot that can interpret 
 - You will need to register your app on Azure Active Directory. More information: [Register an app with Azure AD](/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory).
 
 Refer to the sample code [README](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/smart-assist-bot/README.md) file for information on how and where to update the values obtained from the above steps.
-
+-->
 ## Generate intent to interpret the context of the conversation
 
 You need to analyze the conversation and understand its context before recommending an action to the agent. Use [Language Understanding (LUIS)](https://luis.ai) to find the intent of the ongoing conversation. Here is an example on how you can create a LUIS app to find intent from a given text: [Quickstart: Use prebuilt Home automation app](/azure/cognitive-services/luis/luis-get-started-create-app).
@@ -236,6 +235,8 @@ For more information, see the code sample [README](https://github.com/microsoft/
 -->
 > [!IMPORTANT]
 > See this administrator guide topic on how to enable smart assist: [Smart assist for agents](../../administrator/smart-assist.md). It provides instructions on how to create a bot user, how to add a smart assist bot to a workstream and how to enable a productivity pane.
+
+After you have setup the sample bot following the instructions in the [Readme](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/smart-assist-bot/README.md) file, see the instructions mentioned in the topic [Implement a custom scenario for smart assist bot](smart-assist-scenario.md) to author custom scenarios for your organization. Using the example steps listed in this topic, you will be able to get similar case recommendations for ‘printer noise’ issue in smart assist while interacting with a customer as an agent in Omnichannel for Customer Service.
 
 > [!div class="nextstepaction"]
 > [See Next: Implement a custom scenario for smart assist bot](smart-assist-scenario.md)
