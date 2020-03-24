@@ -14,7 +14,7 @@ manager: annbe
 
 This article helps you troubleshoot and resolve issues related to sales pipeline chart and its phases.
 
-A sales Pipeline chart consists of pipeline phases of an opportunity. The phase is based on the stage of the business process flow the opportunity is in, such as 1-Qualify, 2-Develop, and so on. More information: [Understand the sales pipeline chart and its phases](sales-pipeline-chart.md) 
+A Sales Pipeline chart consists of pipeline phases of an opportunity. The phase is based on the stage of the business process flow the opportunity is in, such as 1-Qualify, 2-Develop, and so on. More information: [Understand the sales pipeline chart and its phases](sales-pipeline-chart.md) 
 
 <a name="different_sequence"> </a>
 ## Issue: I see multiple pipeline phases with different sequences, such as 6-Close and 7-Close.
