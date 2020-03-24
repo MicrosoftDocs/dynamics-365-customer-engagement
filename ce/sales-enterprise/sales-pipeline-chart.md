@@ -34,3 +34,4 @@ The label for the pipeline phase of an opportunity consists of the category orde
 ### See also
 
 [Gain insights with dashboards in Dynamics 365 Sales](dashboards.md)  
+[Troubleshooting sales pipeline chart and its phases](ts-sales-pipeline.md)
