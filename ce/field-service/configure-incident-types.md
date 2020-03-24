@@ -291,24 +291,35 @@ From the Field Service app go to **Settings > Field Service Settings > Intellige
 
 **Run Frequency** dictates how often the system will
 
+**Return Top X Results**
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/ai-incident-type-suggestions-list.png)
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/ai-incident-type-suggestions-list-service.png)
+1. Work Order Product 
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/ai-incident-type-suggestions-list-product.png)
 
+2. Work Order Service
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/ai-incident-type-suggestions-list-service.png)
+
+3. Incident Type
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/ai-incident-type-suggestions-list-merge.png)
 
-> [!Note]
-> No **Apply Suggestion** for merge type suggestion.
+For each suggestion you have the option to:
+
+1. Apply Suggestion (not available for Suggestion Type = Incident Type)
+2. Discard
+3. Dislike
 
 ## Configuration considerations
 
