@@ -618,7 +618,7 @@ The following table outlines the different formatting options of the rich text e
 |![Redo Typing](../customer-service/media/format-bold.png "Redo Typing")| Redo Typing |  | Redo changes you made to the content. |
 |![Clear All Formatting](../customer-service/media/clear-formatting.png "Clear All Formatting")| Clear All Formatting |  | Remove all formating from a selection of text, leaving only the normal, unformatted text. |
 |![Add a Table](../customer-service/media/add-table.png "Add a Table")| Add a Table |  | Add a table to your content. |
-|![Show More](../customer-service/media/show-more.png "Show More")| Show More |  | Displays when the toolbar is collapsed and not all options appear. Click to expand the toolbar and make all options visible. |
+|![Expand Toolbar](../customer-service/media/show-more.png "Expand Toolbar")| Expand Toolbar |  | Displays when the toolbar is collapsed and not all options appear. Click to expand the toolbar and make all options visible. |
 
 The following table outlines other plugins you can access.
 
