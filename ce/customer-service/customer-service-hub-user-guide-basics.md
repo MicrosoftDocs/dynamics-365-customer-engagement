@@ -472,7 +472,7 @@ The **From** field is automatically populated based on the currently logged-in u
    > [!div class=mx-imgBorder]
    > ![csh-email-expand-window](media/csh-email-expand-window.png "Expand the email window")
 
-The message box has a rich text editor that enables you to create rich and well-formatted content for the emails with emphasis. For details about the features in the editor, see [Editor functionality and accessibility shortcuts](#editor-functionality-and-accessibility-shortcuts)
+The message box has a rich text editor that enables you to create rich and well-formatted content for the emails with emphasis. For details about the features in the editor, see [Editor functionality and accessibility shortcuts](#editor-functionality-and-accessibility-shortcuts).
 
   > [!div class=mx-imgBorder]
   > ![csh-email-toolbar](media/csh-email-toolbar.png "Use the rich text editor features")
@@ -491,7 +491,7 @@ An alternate way of creating email is to use the enhanced email experience, whic
 - Insert attachments to email.
 
 > [!IMPORTANT]
-> - Your system administrator must enable the enhanced email experience before you can use it. See [Enable enhanced email](#enable-enhanced-email) for details.
+> - Your system administrator must enable the enhanced email experience before you can use it. See [Enable enhanced email](#enable-enhanced-email) for steps.
 > - The enhanced email experience is available only for email activities created from the **Timeline** section of any model-driven app. 
 
 Compose an email using the enhanced experience:
