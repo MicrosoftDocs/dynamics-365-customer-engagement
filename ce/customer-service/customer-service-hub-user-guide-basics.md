@@ -549,7 +549,7 @@ If you try to insert an email template on a device with smaller screen size, you
 > [!div class="mx-imgBorder"]
 > ![Search template](media/search-template.png "Search template") 
 
-### Rich text editor functionality and accessibility shortcuts
+### Rich text editor functionality, plugins, and accessibility shortcuts
 
 The following table outlines the different formatting options of the rich text editor.
 
@@ -590,11 +590,31 @@ The following table outlines other plugins you can access.
 |Plugin | Name | Description |
 |----------------------|-------------------------|-----------------------------|
 | a11yhelp | Accessibility Help | Displays accessibility commands and keystroke information in a dialog window. Click Alt+0 to access this information. |
-| autolink | Auto Link | Converts a pasted or typed URL text into a link. For example, |
+| autolink | Auto Link | Converts a pasted or typed URL text into a link. For example, "http://myexample.com" will become "<a href=“http://myexample.com”>http://myexample.com</a>". |
 | contextmenu | Context Menu | Displays specific content-related right-click menu options. The native browser context menu remains available when the you press the Ctrl key while opening the menu, which can be also be configured. |
 | tableresize | Table Resize | Lets you resize table columns using your mouse by allowing you to hover over a column border which causes the cursor to change to indicate that the column can be resized. Click and drag your mouse to resize to the desired column width. |
 | tableselection | Table Selection | Provides a unique custom selection system for tables. Examples include selecting a few cells from different rows, applying formatting or adding links to all selected cells, and cutting, copying, or pasting entire rows or columns. |
 | tabletools | Table Tools | Adds an advanced context menu for table items and the Cell Properties dialog window with support for features such as cell type, width and height, word wrapping, alignment, merging and splitting cells horizontally and vertically, inserting or deleting rows and columns, row and column span, and cell and border color. |
+
+The following table outlines a list of accessibility shortcuts available when using email. You can access this list while composing email by pressing **Alt+0**.
+
+|Type | Shortcut key | Description |
+|----------------------|-------------------------|-----------------------------|
+| General | Alt+F11 | Toggle full-screen view. |
+| Tab navigation | Alt+Ctrl+0 | Go to menu bar. |
+| Tab navigation | Alt+1 | Go to the designer editor. |
+| Tab navigation | Alt+2 | Go to the HTML editor. |
+| Tab navigation | Alt+3 | Go to the preview view. |
+| General editor commands | Alt+F10 | Navigate to the editor toolbar. Move to the next and previous toolbar group with Tab and Shift+Tab. Move to the next and previous toolbar button with Right Arrow or Left Arrow. Press Space or Enter to activate the toolbar button. |
+| General editor commands |  | Editor dialog: Inside a dialog, press Tab to navigate to the next dialog element, press Shift+Tab to move to the previous dialog element, press Enter to submit the dialog, press ESC to cancel the dialog. When a dialog has multiple tabs, the tab list can be reached either with Alt+F10 or with Tab, following the dialog tabbing order. With a tab list focused, move to the next and previous tab with Right and Left Arrow, respectively.. |
+| General editor commands |  | Editor list box: Inside a list box, move to next list item with Tab or Down Arrow. Move to previous list item with Shift+Tab or Up Arrow. Press Space or Enter to select the list option. Press ESC to close the list box. |
+| Base commands | Ctrl+Z | Undo command. |
+| Base commands | Shift+Ctrl+Z | Redo command. |
+| Base commands | Ctrl+B | Bold command. |
+| Base commands | Ctrl+I | Italic command. |
+| Base commands | Ctrl+U | Underline command. |
+| Base commands | Alt+0 | Accessibility help. |
+| Base commands | Esc | Cancel operation. |
 
 
 ## Work with Queues
