@@ -491,7 +491,7 @@ An alternate way of creating email is to use the enhanced email experience, whic
 - Insert attachments to email.
 
 > [!IMPORTANT]
-> - System administrators must enable the enhanced email experience before you can use it.
+> - Your system administrator must enable the enhanced email experience before you can use it.
 > - The enhanced email experience is available only for email activities created from the **Timeline** section of any model-driven app. 
 
 Compose an email using the enhanced experience:
@@ -515,6 +515,41 @@ Compose an email using the enhanced experience:
 
 > [!IMPORTANT]
 > The enhanced email pop-up window opens only when the height and width of your screen size is at least 400 x 650 pixels or greater. If lower, you will be taken to the standard form instead of the enhanced email experience. 
+
+#### Enable enhanced email
+
+Enhanced email for Timeline enables users to multitask, compose, and save drafts using email pop-up windows when they create email from Timeline.
+
+> [!IMPORTANT]
+> - The enhanced email experience is available only for email activities created from the **Timeline** section of model-driven apps. The system administrator must enable this feature before agents can use it. 
+
+To enable enhanced email:
+
+1. Sign in to your [https://<YourOrgURL>.dynamics.com/apps](https://<YourOrgURL>.dynamics.com/apps) environment.
+
+2. Open a model-driven app, and then on the command bar, select **Settings**.
+
+3. Under **System Settings**, select **Email Configuration**.
+
+    > [!div class="mx-imgBorder"]  
+    > ![Email Configuration page in the system settings](../customer-service/media/system-settings-email-configuration.png "Email Configuration link on the system settings page")
+
+    The **Email Configuration** page opens.
+
+4. Select **Email Configuration Settings**.
+
+    > [!div class="mx-imgBorder"]  
+    > ![Email Configuration page in the system settings](../customer-service/media/email-configuration-page.png "Email Configuration link on the system settings page")
+
+5. On the **Email** tab of **System Settings** dialog box, scroll down to find **Enhanced email for Timeline**, and then select the **Multitask, compose, and save drafts, using email pop-up windows, when creating email from timeline** check box to enable it.
+
+    > [!div class="mx-imgBorder"]  
+    > ![Email tab on system settings page](../customer-service/media/email-configuration-settings.png "Email tab on system settings page with enhanced email checkbox highlighted")
+
+> [!Note]
+> - Enabling or disabling enhanced email will apply to all applications in your organization that use Timeline. 
+
+6. Select **OK**.
 
 ### Insert an email template
 You can use an email template—a preformatted email message—to quickly create and send email messages. You can insert the template while composing an email by selecting **Insert Template** on the command bar. The list of available templates is displayed in the **Email templates** window. In the **Recently used** section, the four most recently used templates by you are displayed. The **All templates** section displays a list of all out-of-the-box email templates (global and entity specific), in alphabetical order. Global templates are shown as the type User. If you've created a custom email template, it will also be available here. For information about creating a custom email template, see [Create templates for email](https://docs.microsoft.com/power-platform/admin/create-templates-email).
@@ -555,35 +590,35 @@ The following table outlines the different formatting options of the rich text e
 
 |Icon | Name | Shortcut key | Description |
 |----------------------|-------------------------|-----------------------------|-----------------------------|
-|![Format Painter](media/format-painter.png "Format Painter")| Format Painter | Ctrl+Shift+C, Ctrl+Shift+V | Apply the look of a particular section to another section. |
-|![Font](media/format-font.png "Font") | Font | Ctrl+Shift+F | Select your desired font. |
-|![Font Size](media/font-size.png "Font Size") | Font size | Ctrl+Shift+P | Change the size of your text. |
-|![Bold](media/format-bold.png "Bold")| Bold | Ctrl+B | Make your text bold. |
-|![Italic](media/format-italic.png "Italic")| Italic | Ctrl+I | Italicize your text. |
-|![Underline](../../media/format-underline.png "Underline")| Underline | Ctrl+U | Underline your text. |
-|![Text Highlight Color](../../media/text-highlight-color.png "Text Highlight Color")| Text Highlight Color |  | Make your text stand out by highlighting it in a bright color. |
-|![Font Color](../../media/font-color.png "Font Color")| Font Color |  | Change the color of your text. |
-|![Bullets](../../media/format-bullets.png "Bullets")| Bullets |  | Create a bulleted list. |
-|![Numbering](../../media/format-numbering.png "Numbering")| Numbering |  | Create a numbered list. |
-|![Decrease Indent](../../media/decrease-indent.png "Decrease Indent")| Decrease Indent |  | Move your paragraph closer to the margin. |
-|![Increase Indent](../../media/increase-indent.png "Increase Indent")| Increase Indent |  | Move your paragraph farther away from the margin. |
-|![Block Quote](../../media/block-quote.png "Block Quote")| Block Quote |  | Apply a block-level quotation format in your content. |
-|![Align Left](../../media/align-left.png "Align Left")| Align Left | Ctrl+L | Align your content with the left margin. (Commonly used for body text to make it easier to read.) |
-|![Align Center](../../media/align-center.png "Align Center")| Align Center | Ctrl+E | Center your content on the page. (Commonly used for a formal appearance.) |
-|![Align Right](../../media/align-right.png "Align Right")| Align Right | Ctrl+R | Center your content on the page. (Commonly used for a formal appearance.) |
-|![Link](../../media/format-link.png "Link")| Link |  | Create a link in your document for quick access to web pages and files. |
-|![Remove Link](../../media/remove-link.png "Remove Link")| Remove Link |  | Delete a link in your email or document. |
-|![Superscript](../../media/format-superscript.png "Superscript")| Superscript |  | Type very small letters just above the line of text. |
-|![Subscript](../../media/format-subscript.png "Subscript")| Subscript |  | Type very smaill letters just below the line of text. |
-|![Strikethrough](../../media/format-strikethrough.png "Strikethrough")| Strikethrough |  | Cross out text by drawing a line through it. |
-|![Insert Pictures](../../media/insert-pictures.png "Insert Pictures")| Insert Pictures |  | Insert pictures from your computer, stock image library, or online sources. |
-|![Left to Right](../../media/left-right.png "Left to Right")| Left to Right |  | Change the text to left-to-right for content such as an paragraph, header, table, or list. Commonly used for bi-directional language content. |
-|![Right to Left](../../media/right-left.png "Right to Left")| Right to Left |  | Change the text to right-to-left for content such as a paragraph, header, table, or list. Commonly used for bi-directional language content.. |
-|![Undo Typing](../../media/undo-typing.png "Undo Typing")| Undo Typing |  | Undo changes you made to the content. |
-|![Redo Typing](../../media/format-bold.png "Redo Typing")| Redo Typing |  | Redo changes you made to the content. |
-|![Clear All Formatting](../../media/clear-formatting.png "Clear All Formatting")| Clear All Formatting |  | Remove all formating from a selection of text, leaving only the normal, unformatted text. |
-|![Add a Table](../../media/add-table.png "Add a Table")| Add a Table |  | Add a table to your content. |
-|![Show More](../../media/show-more.png "Show More")| Show More |  | Displays when the toolbar is collapsed and not all options appear. Click to expand the toolbar and make all options visible. |
+|![Format Painter](../customer-service/media/format-painter.png "Format Painter")| Format Painter | Ctrl+Shift+C, Ctrl+Shift+V | Apply the look of a particular section to another section. |
+|![Font](../customer-service/media/format-font.png "Font") | Font | Ctrl+Shift+F | Select your desired font. |
+|![Font Size](../customer-service/media/font-size.png "Font Size") | Font size | Ctrl+Shift+P | Change the size of your text. |
+|![Bold](../customer-service/media/format-bold.png "Bold")| Bold | Ctrl+B | Make your text bold. |
+|![Italic](../customer-service/media/format-italic.png "Italic")| Italic | Ctrl+I | Italicize your text. |
+|![Underline](../customer-service/media/format-underline.png "Underline")| Underline | Ctrl+U | Underline your text. |
+|![Text Highlight Color](../customer-service/media/text-highlight-color.png "Text Highlight Color")| Text Highlight Color |  | Make your text stand out by highlighting it in a bright color. |
+|![Font Color](../customer-service/media/font-color.png "Font Color")| Font Color |  | Change the color of your text. |
+|![Bullets](../customer-service/media/format-bullets.png "Bullets")| Bullets |  | Create a bulleted list. |
+|![Numbering](../customer-service/media/format-numbering.png "Numbering")| Numbering |  | Create a numbered list. |
+|![Decrease Indent](../customer-service/media/decrease-indent.png "Decrease Indent")| Decrease Indent |  | Move your paragraph closer to the margin. |
+|![Increase Indent](../customer-service/media/increase-indent.png "Increase Indent")| Increase Indent |  | Move your paragraph farther away from the margin. |
+|![Block Quote](../customer-service/media/block-quote.png "Block Quote")| Block Quote |  | Apply a block-level quotation format in your content. |
+|![Align Left](../customer-service/media/align-left.png "Align Left")| Align Left | Ctrl+L | Align your content with the left margin. (Commonly used for body text to make it easier to read.) |
+|![Align Center](../customer-service/media/align-center.png "Align Center")| Align Center | Ctrl+E | Center your content on the page. (Commonly used for a formal appearance.) |
+|![Align Right](../customer-service/media/align-right.png "Align Right")| Align Right | Ctrl+R | Center your content on the page. (Commonly used for a formal appearance.) |
+|![Link](../customer-service/media/format-link.png "Link")| Link |  | Create a link in your document for quick access to web pages and files. |
+|![Remove Link](../customer-service/media/remove-link.png "Remove Link")| Remove Link |  | Delete a link in your email or document. |
+|![Superscript](../customer-service/media/format-superscript.png "Superscript")| Superscript |  | Type very small letters just above the line of text. |
+|![Subscript](../customer-service/media/format-subscript.png "Subscript")| Subscript |  | Type very smaill letters just below the line of text. |
+|![Strikethrough](../customer-service/media/format-strikethrough.png "Strikethrough")| Strikethrough |  | Cross out text by drawing a line through it. |
+|![Insert Pictures](../customer-service/media/insert-pictures.png "Insert Pictures")| Insert Pictures |  | Insert pictures from your computer, stock image library, or online sources. |
+|![Left to Right](../customer-service/media/left-right.png "Left to Right")| Left to Right |  | Change the text to left-to-right for content such as an paragraph, header, table, or list. Commonly used for bi-directional language content. |
+|![Right to Left](../customer-service/media/right-left.png "Right to Left")| Right to Left |  | Change the text to right-to-left for content such as a paragraph, header, table, or list. Commonly used for bi-directional language content.. |
+|![Undo Typing](../customer-service/media/undo-typing.png "Undo Typing")| Undo Typing |  | Undo changes you made to the content. |
+|![Redo Typing](../customer-service/media/format-bold.png "Redo Typing")| Redo Typing |  | Redo changes you made to the content. |
+|![Clear All Formatting](../customer-service/media/clear-formatting.png "Clear All Formatting")| Clear All Formatting |  | Remove all formating from a selection of text, leaving only the normal, unformatted text. |
+|![Add a Table](../customer-service/media/add-table.png "Add a Table")| Add a Table |  | Add a table to your content. |
+|![Show More](../customer-service/media/show-more.png "Show More")| Show More |  | Displays when the toolbar is collapsed and not all options appear. Click to expand the toolbar and make all options visible. |
 
 The following table outlines other plugins you can access.
 
