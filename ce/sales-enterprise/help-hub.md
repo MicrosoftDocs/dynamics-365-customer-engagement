@@ -54,7 +54,6 @@ manager: annbe
 
 <tr><td>
 <h2>Troubleshooting</h2>
-<li><a href="troubleshooting-admin.md"> Troubleshooting guide for administrators</a></li>
 <li><a href="troubleshooting.md"> Troubleshooting guide for sales people</a></li>
 <li><a href="faqs-sales.md"> FAQs</a></li>
 
