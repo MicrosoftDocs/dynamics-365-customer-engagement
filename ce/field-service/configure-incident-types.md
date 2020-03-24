@@ -2,7 +2,7 @@
 title: "Configure incident types in Dynamics 365 Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 08/02/2019
+ms.date: 03/23/2020
 ms.service: dynamics-365-customerservice
 ms.reviewer: krbjoran
 ms.technology: 
@@ -279,6 +279,18 @@ For more information, see the topic on [requirement groups for work orders](http
 
 > [!Note]
 > **Multiple incidents vs. requirement group templates:** If you know a work order should be performed by multiple resources, we highly recommended using requirement group templates versus multiple incident types. Let's say you have a work order with two incident types, each requiring different skills. When attempting to book the work order, the system will look for a single resource (including crews) to fulfill the job. The scheduler would need to perform extra steps, like editing filters or selecting **Book** twice, to schedule it to two different resources to arrive at the same time. However, if you use a requirement group template, the schedule assistant will simultaneously search for both a single resource with both skills or two resources each with one skill to arrive at the same time. 
+
+## AI suggestions
+
+v8.8.14.426+
+
+ai-incident-type-suggestions-list
+
+ai-incident-type-suggestions-list-service
+
+ai-incident-type-suggestions-list-product
+
+ai-incident-type-suggestions-list-merge
 
 ## Configuration considerations
 
