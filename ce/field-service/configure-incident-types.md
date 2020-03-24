@@ -284,13 +284,28 @@ For more information, see the topic on [requirement groups for work orders](http
 
 v8.8.14.426+
 
-ai-incident-type-suggestions-list
 
-ai-incident-type-suggestions-list-service
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/ai-incident-type-suggestions-enable.png)
 
-ai-incident-type-suggestions-list-product
 
-ai-incident-type-suggestions-list-merge
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/ai-incident-type-suggestions-list.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/ai-incident-type-suggestions-list-service.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/ai-incident-type-suggestions-list-product.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/ai-incident-type-suggestions-list-merge.png)
+
+> [!Note]
+> No **Apply Suggestion** for merge type suggestion.
 
 ## Configuration considerations
 
