@@ -45,7 +45,9 @@
 #### Social channels
 ##### [Configure a Facebook channel](administrator/configure-facebook-channel.md)
 ##### [Configure a WhatsApp channel](administrator/configure-whatsapp-channel.md)
-#### [Configure a Microsoft Teams channel](administrator/configure-microsoft-teams.md)
+#### Microsoft Teams
+##### [Configure a Microsoft Teams channel](administrator/configure-microsoft-teams.md)
+##### [Prerequisites](administrator/configure-microsoft-teams.md#prerequisites)
 #### Custom messaging channel
 ##### [Configure a Custom messaging channel](administrator/configure-custom-channel.md)
 #### Entity records channel
