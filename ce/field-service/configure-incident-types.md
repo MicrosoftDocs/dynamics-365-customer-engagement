@@ -284,9 +284,12 @@ For more information, see the topic on [requirement groups for work orders](http
 
 v8.8.14.426+
 
+From the Field Service app go to **Settings > Field Service Settings > Intelligence section** and **Enable Incident Type Suggestion**
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/ai-incident-type-suggestions-enable.png)
+
+**Run Frequency** dictates how often the system will
 
 
 > [!div class="mx-imgBorder"]
