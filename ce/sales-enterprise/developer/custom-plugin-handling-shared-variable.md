@@ -1,5 +1,5 @@
 ---
-title: "Custom plugin handling using shared variable (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Custom plugin handling through shared variable (Dynamics 365 Sales) | MicrosoftDocs"
 description: 
 ms.date: 03/24/2020
 ms.service: 
@@ -12,24 +12,11 @@ ms.author: susikka
 manager: shujoshi
 ms.reviewer: susikka
 ---
-# Custom plugin handling using shared variable
+# Custom plugin handling through shared variable
 
-Custom plugins execute on create/update/save operation of Opportunity, Quote, Order, Invoice entities. Create and update operations on OQOI entities internally trigger the Price Calculation service, which subsequently updates associated price related fields or attributes of the parent OQOI entities. 
+Custom plugins execute on create, update and save operations of Opportunity, Quote, Order, Invoice(OQOI) entities. Create and update operations on OQOI entities internally trigger the Price Calculation service, which subsequently update associated price related fields or attributes of the parent OQOI entities. 
 
-<!--
-As customers are unaware of internal working/implementation of Price Calculation Service, they assume changes are getting triggered due to their custom plug-in implementation. Few issues reported by customer are – 
--	Create/Update of OQOI details, triggering updates on Parent OQOI entities.
--	Retrieval of OQOI details, internally triggers Price Calculation service, which subsequently triggers Custom Plug-ins created by customers. 
-Solution 
-
-
-As Price calculation service is internal to system by design, We wanted to provide a mechanism through which customer should be able to  
-In the similar direction, we introduced a boolean shared variable named as “InternalSystemPriceCalculationEvent”, which will be accessible via IPluginExecutionContext inside the plugin code. 
-Any Create/Update event processed via Price Calculation service, will set this variable value to “True”. By-default the value will be “false” for this variable.
-Customer can access this variable inside their custom plug-in code and control the flow of their existing business logic. 
--->
-
-You can identity or differentiate any updates in OQOI entities or parent OQOI entities using the internal price calculation service or using your own custom plugin. In the similar direction, we introduced a boolean shared variable named as “InternalSystemPriceCalculationEvent”, which will be accessible via IPluginExecutionContext inside the plugin code. Any create or update event processed using the price calculation service will set the value of variable `InternalSystemPriceCalculationEvent` to `true`. The default value of `InternalSystemPriceCalculationEvent` variable is `false` and it is accessible via `IPluginExecutionContext` inside the plugin code. You can access this variable from your custom plugin code to control the flow of your existing business logic. 
+You can identity or differentiate any updates in OQOI entities or parent OQOI entities using the internal price calculation service or using your own custom plugin. In the similar direction, we introduced a boolean shared variable named as `InternalSystemPriceCalculationEvent`, which will be accessible via `IPluginExecutionContext` inside the plugin code. Any create or update event processed using the price calculation service will set the value of variable `InternalSystemPriceCalculationEvent` to `true`. The default value of `InternalSystemPriceCalculationEvent` variable is `false`. You can access this variable from your custom plugin code to control the flow of your existing business logic. 
 
 ## Sample code
 
@@ -61,4 +48,7 @@ public void Execute(IServiceProvider serviceProvider)
 
 ## See also
 
-[Developer guide for Dynamics 365 Sales overview](developer-guide.md)
+[Developer guide for Dynamics 365 Sales overview](developer-guide.md)<br />
+[Organization entity reference](../../customerengagement/on-premises/developer/entities/organization.md)<br />
+[System user entity reference](../../customerengagement/on-premises/developer/entities/systemuser.md)<br />
+[Quote, order, and invoice entities](../../customerengagement/on-premises/developer/quote-order-invoice-entities.md)
