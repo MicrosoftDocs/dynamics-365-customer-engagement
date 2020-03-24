@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting forecasting (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how to troubleshoot issues with forecasting in Dynamics 365 Sales."
-ms.date: 03/31/2020
+ms.date: 03/24/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
