@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Customer Service Analytics | MicrosoftDocs"
+title: "Customer Service analytics and insights | MicrosoftDocs"
 description: "Learn about Customer Service Analytics"
 author: lerobbin
 ms.author: lerobbin
@@ -11,11 +11,11 @@ ms.service:
 ---
 
 
-# Introduction to Customer Service Analytics
+# Customer Service Analytics and Insights
 
 Customer service managers or supervisors are responsible for managing the agents who work with customers to resolve queries every day. Customer support supervisors need to be able to know the key operational and customer experience metrics to provide quality support. 
 
-Supervisors can see trends in these metrics over a period of time to understand how agents and queues are performing, so that they can take corrective measures, provide appropriate guidance to agents, and improve the customer support experience. 
+Supervisors can see trends in these metrics over a period of time to understand how agents and queues are performing, so that they can take corrective measures, provide appropriate guidance to agents, and improve the customer support experience.
 
 As a supervisor, use this dashboard to perform the following tasks:  
 
@@ -28,6 +28,6 @@ As a supervisor, use this dashboard to perform the following tasks:
 
 ## See also
 
-[View and understand Customer Service Analytics](customer-service-analytics.md) 
+[View and understand Customer Service Analytics](customer-service-analytics.md)
 
 [Configure Customer Service Analytics dashboards](configure-customer-service-analytics-dashboard.md)
