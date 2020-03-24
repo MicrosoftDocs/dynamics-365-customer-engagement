@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting issues with Unified Interface (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Troubleshooting issues with the Unified Interface (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how to troubleshoot issues with Unified Interface in Dynamics 365 Sales."
 ms.date: 03/24/2020
 ms.service:
@@ -10,14 +10,14 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Troubleshooting issues with Unified Interface
+# Troubleshooting issues with the Unified Interface
 
-This article helps you troubleshoot and resolve issues related to Unified Interface.
+This article helps you troubleshoot and resolve issues related to the Unified Interface.
 
 <a name="read_only"> </a>
-## Issue: Out-of-the-box or custom entities appear as read-only in Unified Interface apps
+## Issue: Out-of-the-box or custom entities appear as read-only in the Unified Interface apps
 
-Some out-of-the-box and custom entities are appearing as read-only in the Sales Hub app (Unified Interface). However, these entities are editable in the legacy web client. Some out-of-the-box buttons are also unavailable on the forms in Unified Interface.
+Some out-of-the-box and custom entities are appearing as read-only in the Sales Hub app (Unified Interface). However, these entities are editable in the legacy web client. Some out-of-the-box buttons are also unavailable on the forms in the Unified Interface.
 
 **Reason:**
 
