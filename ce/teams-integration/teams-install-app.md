@@ -30,7 +30,6 @@ By default, the Basic and Enhanced Microsoft Teams Integration is disabled in Co
 
    > [!NOTE]
    > - If Microsoft Teams integration is not enabled on the **System Settings** page in Common Data Service, then Microsoft Teams users can still connect to model-driven apps record or view to Microsoft Teams collaboration channel, but the connected Microsoft Teams channel and the file library do not appear in model-driven apps in Dynamics 365.
-
    > - When the feature is enabled, the collaboration feature is [enabled only for a selected set of system entities](https://docs.microsoft.com/dynamics365/teams-integration/teams-collaboration#record-types-that-support-microsoft-teams-integration-in-model-driven-apps). If you want to enable Microsoft Teams integration for additional entities or custom entities, you can only do it programmatically using the **msdyn_SetTeamsDocumentStatus** Web API action. More information: [Enable or disable Microsoft Teams Integration using code](../developer/integration-dev/teams-integration-using-code.md).
    > - If you run into any issues during configuration, see [Troubleshoot configuration issues with Teams Integration](https://docs.microsoft.com/dynamics365/teams-integration/teams-troubleshoot#troubleshoot-configuration-issues-with-microsoft-teams-integration).
 
