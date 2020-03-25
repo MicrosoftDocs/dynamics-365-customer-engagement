@@ -31,10 +31,9 @@ search.app:
 
 
 > [!IMPORTANT]
+>  Effective March 2020, the legacy Dynamics 365 for Outlook (also referred to as Outlook COM add-in) is deprecated. Customers must transition to the modern [Dynamics 365 App for Outlook](https://docs.microsoft.com/dynamics365/outlook-app/overview) before October 1, 2020. Microsoft will continue to provide support, security and other critical updates to the Outlook COM Add-in until October 1, 2020. For more information, see [Important changes (deprecations) coming in Power Apps, Power Automate, and model-driven apps in Dynamics 365](https://docs.microsoft.com/power-platform/important-changes-coming).
 
-> Effective March 2020, the legacy Dynamics 365 for Outlook (also referred to as Outlook COM add-in) is deprecated. Customers must transition to the modern [Dynamics 365 App for Outlook](https://docs.microsoft.com/dynamics365/outlook-app/overview) before October 1, 2020. Microsoft will continue to provide support, security and other critical updates to the Outlook COM Add-in until October 1, 2020. For more information, see [Important changes (deprecations) coming in Power Apps, Power Automate, and model-driven apps in Dynamics 365](https://docs.microsoft.com/power-platform/important-changes-coming).
-
-> For further information and steps to make a smooth transition, see [Dynamics 365 for Outlook (COM add-in) Playbook](https://aka.ms/OutlookCOMPlaybook).
+>  For further information and steps to make a smooth transition, see [Dynamics 365 for Outlook (COM add-in) Playbook](https://aka.ms/OutlookCOMPlaybook).
 
 
 - For [!INCLUDE[pn_crm_8_2_0_both](../../includes/pn-crm-8-2-0-both.md)] and later releases, the preferred way to use [!INCLUDE[pn_crm_2016](../../includes/pn-crm-2016.md)] together with [!INCLUDE[pn_MS_Outlook_Short](../../includes/pn-ms-outlook-short.md)] is to use [!INCLUDE[pn_dyn_365_app_outlook](../../includes/pn-dyn-365-app-outlook.md)], a [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] add-in. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Dynamics 365 App for Outlook User's Guide](../../outlook-app/dynamics-365-app-outlook-user-s-guide.md). 
