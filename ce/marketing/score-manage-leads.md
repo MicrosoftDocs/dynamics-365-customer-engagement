@@ -160,7 +160,7 @@ When you are setting up a condition tile for lead scoring, you can set up the **
 1. Open the **Properties** for a **Condition** tile. Then set the **Entity** to **EmailClicked**.  
     ![Choose the first entity in the hop](media/lead-scoring-hop-example-1.png "Choose the first entity in the hop")
 
-1. In the **Entity** field, type a period after the **EmailClicked** entity you just added to open a new drop-down list that shows the various types of hops you can make from here. Choose **EmailClicked_contact** to hop to the contact profile.  
+1. In the **Entity** field, type a period after the **EmailClicked** entity you just added to open a new drop-down list that shows the various types of hops you can make from here. Choose **Contact** to hop to the contact profile.  
     ![Add a period to create a hop to a second entity](media/lead-scoring-hop-example-2.png "Add a period to create a hop to a second entity")
 
 1. Now you can add **Expressions** to specify values that come from the contact record associated with each email click. For example, you might only want to score on clicks for contacts that live in Chicago.  
@@ -171,8 +171,8 @@ When you are setting up a condition tile for lead scoring, you can set up the **
 
 Here are a few more examples of how to use hops to create useful conditions:
 
-* **Lead.lead&#95;contact&#95;parentcontactid**: Lets you score leads associated with contacts who have particular properties (such as contacts who have a Microsoft email address&#8212;where <em>Email | contains | @microsoft.com</em>).
-* **Lead.lead&#95;contact&#95;parentcontactid.contact&#95;account&#95;parentcustomerid**: Lets you score leads associated with contacts who belong to accounts with particular properties (such as accounts where _Number of employees | > | 500_).
+* **Lead.Lead.Parent contact**: Lets you score leads associated with contacts who have particular properties (such as contacts who have a Microsoft email address&#8212;where <em>Email | contains | @microsoft.com</em>).
+* **Lead.Parent contact.Parent customer account**: Lets you score leads associated with contacts who belong to accounts with particular properties (such as accounts where _Number of employees | > | 500_).
 * **Lead.customeentity**: Lets you use a custom entity in your lead scoring model. The custom entity must have a 1:N relationship with the Lead entity and must be included to sync with the marketing-insights service in the [Marketing data configuration](mkt-settings-sync.md).
 
 ## Find leads that were scored by a selected model
