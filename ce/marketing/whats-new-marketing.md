@@ -35,7 +35,9 @@ Microsoft rolls out updates on a region-by-region basis. Updates are available t
 The Dynamics 365 Marketing April 2020 update includes several feature enhancements, performance upgrades, and bug fixes. It also includes Forms Pro integration, an improved email designer, and unified segment types.
 
 > [!IMPORTANT]
-> As announced in the [blog post](https://aka.ms/covid19Blog), Microsoft is making some changes to the update schedules in April in response to COVID-19. The 2020 release wave 1, April updates will be generally available as mentioned in the [Dynamics 365](https://aka.ms/Dynamics365ReleasePlan) and [Power Platform](https://aka.ms/PowerPlatformReleasePlan) release plans. However, we are making some changes to the release schedule as explained in [this article](https://docs.microsoft.com/en-us/power-platform/admin/general-availability-deployment#deployment-schedule). Microsoft will continue to release critical updates for Dynamics 365 applications and Power Platform. Microsoft is also extending the deprecation timelines for some capabilities to provide customers and partners additional time to make the transition. Microsoft is committed to providing support to our customers and partners during this period.
+> **Some of the functionality described in this article has not been released.** Delivery timelines may change and projected functionality may not be released (see [Microsoft policy](https://go.microsoft.com/fwlink/p/?linkid=2007332)). Learn more: [What's new and planned](https://docs.microsoft.com/en-us/dynamics365-release-plan/2020wave1/dynamics365-marketing/planned-features)
+>
+> As announced in this [blog post](https://aka.ms/covid19Blog), Microsoft is making some changes to the update schedules in April in response to COVID-19. The April 2020 release wave 1 updates will be generally available as mentioned in the [Dynamics 365](https://aka.ms/Dynamics365ReleasePlan) and [Power Platform](https://aka.ms/PowerPlatformReleasePlan) release plans. More information is available in the product-specific [FAQs](https://aka.ms/EarlyAccessFAQ). We will continue to release critical updates for Dynamics 365 applications and Power Platform, and are extending the deprecation timelines for some capabilities to give customers and partners additional time to make the transition. Microsoft is committed to supporting to our customers and partners in these uncertain times.
 
 ### Version numbers
 
@@ -52,10 +54,14 @@ The Dynamics 365 Marketing April 2020 update includes several feature enhancemen
     - Export data to Excel for further analysis.
     - Improved customer journey experience.
     - Set email expiration date in journeys.
+    - ***Send email messages based on contact interactions:*** Based on past interactions with marketing email messages, the automated scheduler uses machine learning to find the days and times when each contact is most likely to be actively reading their email messages.
+    - ***Automatically select the best time to send an email message:*** By analyzing historical data, the automated scheduler automatically selects the best times to send the next email message for each contact, within a time window that you specify.
 - **Forms**
     - Forms Pro integration.
 - **Marketing emails**
     - Improved email content designer.
+    - ***Test-send dynamic content:*** Create test messages that contain fully rendered dynamic content (including dynamic field values, entity relationships, loops, and conditionals) based on a selected sample contact record.
+    - ***Upgraded error detection:*** Improved error checking for outgoing test messages.
 - **Event management**
     - Improved event management experience.
 - **Marketing forms**
