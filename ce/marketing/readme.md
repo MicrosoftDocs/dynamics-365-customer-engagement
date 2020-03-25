@@ -1,12 +1,12 @@
 ---
-title: "Dynamics 365 Marketing Readme (Known Issues) | MicrosoftDocs"
-ms.date: 06/07/2019
+title: "Dynamics 365 Marketing Readme (Known Issues) | Microsoft Docs"
+ms.date: 03/25/2020
 ms.service: dynamics-365-marketing
 ms.topic: article
 ms.assetid: 78dc5157-cf1d-4e32-ace7-9e71763e7510
 author: alfergus
 ms.author: alfergus
-manager: annbe
+manager: shellyha
 search.audienceType: 
   - admin
   - customizer
@@ -52,7 +52,7 @@ This document provides important, late-breaking information about known issues a
 - Triggers set to react to a specific "link clicked" after an email tile now work correctly.<br><del>Triggers set to react to a specific "link clicked" after an email tile show multiple options for the same link. These triggers might not work correctly because clicks are not always attributed to the correct link.</del> <!--- 759533 -->
 - Stopped live journeys are now managed correctly.<br><del>If you stop a live customer journey, then add contacts to the target segment, and restart the journey, those added contacts might receive emails sent by this journey more than once. </del><!-- 1196442 -->
 - Live editing of customer journeys now works correctly.<br><del>If you edit a live customer journey to associate a new email message with an existing email tile, the system may continue to send the previously associated email to recipients. To prevent this, either create a new journey or live-edit the existing email record.</del> <!--- 1345959 -->
-- The calendar (date picker) on the scheduler tile's properties now behaves correctly.<br><del>The calendar (date picker) on the scheduler tile's properties on a customer journey might not show the arrows to move the calendar from one month to the next. While these buttons are actually present, the arrows are not visible.</del> <!--- 1450049 -->
+- The calendar (date picker) on the scheduler tile's properties now behaves correctly.<br><del>The calendar (date picker) on the scheduler tile's properties on a customer journey might not show the arrows to move the calendar from one month to the next. While these buttons are present, the arrows are not visible.</del> <!--- 1450049 -->
 - When you create a new customer journey, the default start date and end date are now set correctly in relation to the journey's timezone.<br><del>When creating a new customer journey, the default start date and time is set to 2 hours from the system's time, rather than the time according to the timezone of the journey.</del> <!--- 1454828 -->
 
 ## Segmentation
@@ -69,18 +69,18 @@ This document provides important, late-breaking information about known issues a
 
 - The Save button works correctly when creating a new segment.<br><del>The **Save** button isn't visible on the command bar after the initial save of the segment. Use the **Save** button in the lower-right corner of the page instead.</del> <!-- 862491 -->
 - Static segments are filtered correctly.<br><del>When you're adding members to a static segment, you can filter the list of available contacts to find the ones you want to add. Sometimes, after adding some filters and selecting **Apply**, the segment definition may stop showing its members. To fix this, save the segment, go back to the segment list, and then reopen it; you should now see the list of members and can continue working on it.</del> <!-- 1282842 -->
-- Systemuser entities can now be easily searched for and added to segment rules.<br><del>If you create a segment query that includes a lookup field that references an entity of type "systemuser", then your segment won't be created unless the lookup field value is set to the GUID of the related record. For example, if you want to query the owner of a contact record, then the **owner** field is a lookup into the **users** entity (which is of type "systemuser"), so you must set that field to the GUID of the user you want to find with the query. To find the GUID of a user, open the relevant user record and find the value of the "id" parameter in the URL.</del> <!--- 1335786 -->
+- Systemuser entities can now be easily searched for and added to segment rules.<br><del>If you create a segment query that includes a lookup field that references an entity of type "systemuser", then your segment won't be created unless the lookup field value is set to the GUID of the related record. For example, if you want to query the owner of a contact record, then the **owner** field is a lookup into the **users** entity (which is of type "systemuser"), so you must set that field to the GUID of the user you want to find with the query. To find the GUID of a user, open the relevant user record and find the value of the "ID" parameter in the URL.</del> <!--- 1335786 -->
 
 ## Email marketing
 
 ### Known issues
 
-- On some instances, emails that include date fields may fail the error check (with an "unsupported property type" error) and therefore can't go live. If you are affected by this issue, please contact Microsoft Support and ask them to update your instance with the known fix. We expect this fix to be rolled out to all instances with the next update.
+- On some instances, emails that include date fields may fail the error check (with an "unsupported property type" error) and therefore can't go live. If you are affected by this issue, contact Microsoft Support and ask them to update your instance with the known fix. We expect this fix to be rolled out to all instances with the next update.
 - The default content-settings record must be live before you can send any marketing emails or view heatmaps on **Insights** pages. Usually, the default content-settings record goes live automatically when your setup is complete, but sometimes this isn't the case. To solve this, set up and publish your default content-settings record manually as described in [Use content settings to set up repositories of standard and required values](dynamic-email-content.md#content-settings).
 - Selecting **Stop** on a live email will prevent it from being used in future journeys, but it will continue to function in existing live journeys, which will continue to deliver it.
-- If you reuse the same email multiple times (within the same journey or in different journeys) you will see incorrect performance results on its **Insights** pages.
+- If you reuse the same email multiple times (within the same journey or in different journeys), you will see incorrect performance results on its **Insights** pages.
 - Many email templates have placeholder images. You should replace these placeholder images with actual images so that marketing emails look professional.
-- The email designer requires that you be very careful when entering code for advanced dynamic content. It's easy to produce non-working code. If you want to use this feature, be sure to review the notes given in [How to enter code in the designer](dynamic-email-content.md#enter-code)
+- The email designer requires that you be careful when entering code for advanced dynamic content. It's easy to produce non-working code. If you want to use this feature, be sure to review the notes given in [How to enter code in the designer](dynamic-email-content.md#enter-code)
 - If you create an email message with dynamic content that attempts to fetch a single value through a one-to-many database relation, then the system won't know which related record to fetch. As a result, the message will end in an error state when published to the sending service and will therefore never get sent (the error checking mechanism currently doesn't catch this error, which is why you can still publish it). An example of a one-to-many relation is the one between contacts and event registrations because each contact can register for multiple events. To prevent this error from occurring, use a for-each loop to enclose any expressions that reference a one-to-many relationship (this will loop through each related record). More information: [Add dynamic content to email messages](dynamic-email-content.md)
 
 ### Fixed issues
@@ -88,7 +88,7 @@ This document provides important, late-breaking information about known issues a
 - When you have an A/B test set up, you can freely switch between A and B variants in all test states.<br><del>When you have an A/B test up, you can only switch between the A and B variants while the test is still in the draft state. Once a test has started running, or finished running, you can only view or preview the A variant.</del>
 - Support for advanced dynamic email content is now available in all regions. <br><del>Support for dynamic email content is being expanded to include look-up values, relations, and logical functions like conditionals and for-each loops. We are rolling this capability out gradually, so it may not yet be available on your tenant. For more information about this feature, see [Advanced dynamic content](dynamic-email-content.md#advanced-dynamic-content).</del>
 - Assis edit correctly creates expressions that display the owning user or team of a contact record.<br><del>When you use assist edit to place dynamic content with information about the owner of a contact record, the relationship rendered is incorrect.</del><!-- 1380000 -->
-- Test send works for all organizations. <br><del>For certain organizations that upgraded recently, test send may not work. If you encounter this issue, please [contact Microsoft Support](setup-troubleshooting.md#contact-support). </del><!-- 1267485 -->
+- Test send works for all organizations. <br><del>For certain organizations that upgraded recently, test send may not work. If you encounter this issue, [contact Microsoft Support](setup-troubleshooting.md#contact-support). </del><!-- 1267485 -->
 - Assist edit now loads all contexts correctly.<br><del>- Assist edit is sometimes unavailable for content settings, resulting in inactive assist-edit buttons on this page. This is due to a script not being loaded by the content settings page. To fix the issue, open any email message (which will load the script) and then open the content settings. The script will remain available thereafter until you reload the browser window or close the browser. More information: [Use content settings to set up repositories of standard and required values for email messages](dynamic-email-content.md#content-settings)</del> <!--1406708-->
 
 ## Marketing pages and forms
@@ -99,12 +99,12 @@ This document provides important, late-breaking information about known issues a
 - When configuring a form on a page, we recommend that you enter a confirmation message or a redirect URL, so users can see that they successfully submitted the form.
 - It can take up to a minute after a marketing page goes live before its public link (full page URL) is ready. Visitors might see an error message on the page prior to this.
 - Forms submitted over HTTP (not HTTPS) generate interaction records that don't include the contact ID, which means these interactions can't be used in interaction-based segments. If you are hosting a form on an external page (not hosted on a Dynamics 365 marketing page), then make sure your page uses HTTPS.
-- Some client-side malware protection tools parse each incoming email, resolve all the links it contains, and then deliver a modified message in which the links have been replaced with their resolved destinations. This process can interfere with the mechanism that Dynamics 365 uses to identify the contact that has clicked on a subscription center link, which means the subscription center won’t work for these contacts. We are working on a fix for this issue.
+- Some client-side malware protection tools parse each incoming email, resolve all the links it contains, and then deliver a modified message in which the links have been replaced with their resolved destinations. This process can interfere with the mechanism that Dynamics 365 uses to identify the contact that has clicked on a subscription center link, which means the subscription center won't work for these contacts. We are working on a fix for this issue.
 
 ### Fixed issues
 
-- Form embedding code can now be copied from Firefox browser.<br><del>If you are using the Firefox web browser, then you can’t copy the code generated for embedding a marketing page on an external site. To work around this, use a different browser to accomplish this task. More information: [Embed a marketing form on your own website](embed-forms.md) </del><!--1392229-->
-- Editing matching strategies which are being used in Live forms is now prohibited.<br><del>Your marketing forms must include mandatory input fields for each of the fields required by your lead- and contact-matching strategies. If any of the fields required by a matching strategy isn’t present in a form submission, then no lead and/or contact record will be created or updated. More information: [Configure landing pages](mkt-settings-landing-pages.md) and [Design elements for forms](content-blocks-reference.md#form-content-elements)</del> <!--1330191-->
+- Form embedding code can now be copied from Firefox browser.<br><del>If you are using the Firefox web browser, then you can't copy the code generated for embedding a marketing page on an external site. To work around this, use a different browser to accomplish this task. More information: [Embed a marketing form on your own website](embed-forms.md) </del><!--1392229-->
+- Editing matching strategies that are being used in Live forms is now prohibited.<br><del>Your marketing forms must include mandatory input fields for each of the fields required by your lead- and contact-matching strategies. If any of the fields required by a matching strategy isn't present in a form submission, then no lead and/or contact record will be created or updated. More information: [Configure landing pages](mkt-settings-landing-pages.md) and [Design elements for forms](content-blocks-reference.md#form-content-elements)</del> <!--1330191-->
 - Marketing pages from sample data go live for all organizations.<br><del>Marketing pages from the sample data might not go live for some organizations (especially on Italian or Japanese localizations). But you can still create new pages and go live with them. </del> <!-- 1156824 -->
 
 ## Reusable content blocks
@@ -144,8 +144,8 @@ This document provides important, late-breaking information about known issues a
 ### Known issues
 
 - If you disable anonymous registration for the event portal, then customer organizations must create a registerer account using the portal, after which the registerer can register as many attendees from their organization as needed. However, the registerer can't use the portal to create an account using an email address that belongs to a contact already in Dynamics 365. To set up an existing contact as a registerer, create a [portal invitation](../portals/invite-contacts.md) and then send the invitation code to the contact by email.
-- Even though surveys are available in the app (such as for emails, journeys, and events), this feature currently has limited functionality. Anonymous surveys can be added to emails but can't serve as triggers in customer journeys. Please [contact Microsoft Support](setup-troubleshooting.md#contact-support) for more information.
-- For some customers using Marketing Forms for event registrations (feature currently in preview), even though an event custom registration field has been added to the marketing form, the event registration created via the form submission may not have the associated response for that custom question. <!--- 1750425 --->
+- Even though surveys are available in the app (such as for emails, journeys, and events), this feature currently has limited functionality. Anonymous surveys can be added to emails but can't serve as triggers in customer journeys. [Contact Microsoft Support](setup-troubleshooting.md#contact-support) for more information.
+- For some customers using marketing forms for event registrations (feature currently in preview), even though an event custom registration field has been added to the marketing form, the event registration created via the form submission may not contain the associated response for the custom field.
 
 ### Fixed issues
 
@@ -169,7 +169,7 @@ This document provides important, late-breaking information about known issues a
 
 ## Websites
 
-- The *websites* feature records all visits to any web page that has a Dynamics 365 Marketing tracking script on it. Each log entry includes a timestamp and, if possible, links to a known contact. If the visitor isn’t a known contact, then that visit is logged as anonymous. The website tracking script sets a cookie, so the system can group visits into sessions, even for anonymous visits. When a contact submits a landing-page form, the system sets the same cookie (if not present already) and can thereafter match the cookie ID to a contact ID because the landing-page submission will either create or match a contact. Once a visitor is known, all future website visits will be logged with that user's ID. However, previous visits will remain anonymous (the system doesn't back-fill the contact ID to the existing visitor log).
+- The *websites* feature records all visits to any web page that has a Dynamics 365 Marketing tracking script on it. Each log entry includes a timestamp and, if possible, links to a known contact. If the visitor isn't a known contact, then that visit is logged as anonymous. The website tracking script sets a cookie, so the system can group visits into sessions, even for anonymous visits. When a contact submits a landing-page form, the system sets the same cookie (if not present already) and can thereafter match the cookie ID to a contact ID because the landing-page submission will either create or match a contact. Once a visitor is known, all future website visits will be logged with that user's ID. However, previous visits will remain anonymous (the system doesn't back-fill the contact ID to the existing visitor log).
 
 ## General
 
