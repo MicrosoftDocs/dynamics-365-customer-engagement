@@ -35,6 +35,7 @@ The most-used entities (including contacts, accounts, and events) are synced by 
 - **Segmentation**: All entities that you need to query in your segmentation criteria must be present.
 - **Dynamic email content**: All entities with field values that you want to show as dynamic data in an email message must be present.
 - **Lead scoring**: All entities with field values that you want to use in you scoring models must be present.
+ > [!NOTE] Lead scoring models must begin with the Lead entity at the top level. Custom entities can only be used in a lead scoring model if they have a 1:N relationship with the Lead entity. See [create advanced lead scoring conditions by using traversals](score-manage-leads.md#create-advanced-lead-scoring-conditions-by-using-traversals) for more information.
 
 > [!NOTE]
 > You can only sync entities that are configured with **Change tracking** enabled. Entities without change tacking won't be listed on the **Marketing data configuration** page. If you are a system customizer or admin, then you can find this setting by doing the following:

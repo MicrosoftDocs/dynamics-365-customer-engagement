@@ -173,6 +173,7 @@ Here are a few more examples of how to use hops to create useful conditions:
 
 * **Lead.lead&#95;contact&#95;parentcontactid**: Lets you score leads associated with contacts who have particular properties (such as contacts who have a Microsoft email address&#8212;where <em>Email | contains | @microsoft.com</em>).
 * **Lead.lead&#95;contact&#95;parentcontactid.contact&#95;account&#95;parentcustomerid**: Lets you score leads associated with contacts who belong to accounts with particular properties (such as accounts where _Number of employees | > | 500_).
+* **Lead.customeentity**: Lets you use a custom entity in your lead scoring model. The custom entity must have a 1:N relationship with the Lead entity and must be included to sync with the marketing-insights service in the [Marketing data configuration](mkt-settings-sync.md).
 
 ## Find leads that were scored by a selected model
 
