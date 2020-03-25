@@ -145,6 +145,7 @@ This document provides important, late-breaking information about known issues a
 
 - If you disable anonymous registration for the event portal, then customer organizations must create a registerer account using the portal, after which the registerer can register as many attendees from their organization as needed. However, the registerer can't use the portal to create an account using an email address that belongs to a contact already in Dynamics 365. To set up an existing contact as a registerer, create a [portal invitation](../portals/invite-contacts.md) and then send the invitation code to the contact by email.
 - Even though surveys are available in the app (such as for emails, journeys, and events), this feature currently has limited functionality. Anonymous surveys can be added to emails but can't serve as triggers in customer journeys. Please [contact Microsoft Support](setup-troubleshooting.md#contact-support) for more information.
+- For some customers using Marketing Forms for event registrations (feature currently in preview), even though an event custom registration field has been added to the marketing form, the event registration created via the form submission may not have the associated response for that custom question. <!--- 1750425 --->
 
 ### Fixed issues
 
