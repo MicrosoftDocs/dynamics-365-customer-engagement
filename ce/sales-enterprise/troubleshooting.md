@@ -81,3 +81,19 @@ manager: annbe
 </td><td>
 
 </td></tr>
+
+<tr><td>
+
+<h2>Sales pipeline chart</h2>
+
+
+<li><a href="ts-sales-pipeline.md#different_sequence" data-raw-source="[I see multiple pipeline phases with different sequences, such as 6-Close and 7-Close](ts-sales-pipeline.md#different_sequence)">I see multiple pipeline phases with different sequences, such as 6-Close and 7-Close</a></li>
+<li><a href="ts-sales-pipeline.md#values_from_multiple_bpfs" data-raw-source="[I see pipeline phase values from multiple business process flow definitions](ts-sales-pipeline.md#values_from_multiple_bpfs)">I see pipeline phase values from multiple business process flow definitions</a></li>
+<li><a href="ts-sales-pipeline.md#different_ordering" data-raw-source="[The sales pipeline chart ordering is displayed differently in the Unified Interface vs. the legacy web client](ts-sales-pipeline.md#different_ordering)">The sales pipeline chart ordering is displayed differently in the Unified Interface vs. the legacy web client</a></li>
+
+</td><td>
+
+
+</td><td>
+
+</td></tr>
