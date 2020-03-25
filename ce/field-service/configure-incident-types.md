@@ -282,9 +282,9 @@ For more information, see the topic on [requirement groups for work orders](http
 
 ## AI suggestions
 
-With Field Service v8.8.14.426+ you can enable the Incident Type AI suggestion capability that looks at historical work order information to recommend ways to improve incident types.
+With Field Service v8.8.14.426+, the Incident Type AI suggestion capability recommends ways to improve your incident types by learning from past work orders. As an example, imagine you have an incident type called "System recalibration" that involves using "Product A"; however oftentimes technicians also use "Product B" to complete the recalibration. Using AI the system will learn this and suggest to the adminsitrator that "Product B" be added to the incident type for future work orders.
 
-The result is it can save technicians time and makes the system reflect reality
+This saves technicians time by not having to enter the additional work order product, helps you plan inventory requirements better by knowing typical products needed, and most importantly ensures your business application reflects reality.
 
 From the Field Service app go to **Settings > Field Service Settings > Intelligence section** and **Enable Incident Type Suggestion**
 
@@ -293,35 +293,41 @@ From the Field Service app go to **Settings > Field Service Settings > Intellige
 
 **Run Frequency** - dictates how often the system will analyze incident types and make suggestions if applicable.
 
-**Return Top X Results** - dictates 
+**Return Top X Results** - dictates how many suggestions will be displayed.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/ai-incident-type-suggestions-list.png)
 
+Incident type AI suggestions fall into 3 categories of recommendations.
 
 1. Work Order Product 
-
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/ai-incident-type-suggestions-list-product.png)
 
-2. Work Order Service
+The system suggests adding a product to an incident type.
 
+2. Work Order Service
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/ai-incident-type-suggestions-list-service.png)
+
+The system suggests adding a service to an incident type.
 
 3. Incident Type
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/ai-incident-type-suggestions-list-merge.png)
 
+The system suggests merging two incident types together into one incident type.
+
 For each suggestion you have the option to:
 
-1. Apply Suggestion (not available for Suggestion Type = Incident Type)
-2. Discard
-3. Dislike
+1. **Apply Suggestion** - the system will add the product or service to the incident type for you. This is not available for Suggestion Type = Incident Type i.e. merge.
+2. **Discard** - the sugestion may be applicable but you do not want the system to add it for you for various reasons.
+3. **Dislike** - the suggestion will be removed from the list and does not apply to your business. This option helps improve the AI suggestion model. 
+
 
 ## Configuration considerations
 
