@@ -282,16 +282,18 @@ For more information, see the topic on [requirement groups for work orders](http
 
 ## AI suggestions
 
-v8.8.14.426+
+With Field Service v8.8.14.426+ you can enable the Incident Type AI suggestion capability that looks at historical work order information to recommend ways to improve incident types.
+
+The result is it can save technicians time and makes the system reflect reality
 
 From the Field Service app go to **Settings > Field Service Settings > Intelligence section** and **Enable Incident Type Suggestion**
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/ai-incident-type-suggestions-enable.png)
 
-**Run Frequency** dictates how often the system will
+**Run Frequency** - dictates how often the system will analyze incident types and make suggestions if applicable.
 
-**Return Top X Results**
+**Return Top X Results** - dictates 
 
 
 > [!div class="mx-imgBorder"]
