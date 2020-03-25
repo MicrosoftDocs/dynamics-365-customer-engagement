@@ -44,8 +44,8 @@ Follow these steps to create a new work stream in Omnichannel for Customer Servi
       - **Channel**: Channel is defined as a medium through which a customer reaches out for support. For example, a customer can contact an agent through chat. 
        
         Select a channel from the drop-down list:
-        - Live Chat 
-        - SMS 
+        - Live Chat
+        - SMS
         - Facebook
         - Entity Records
         
@@ -59,7 +59,7 @@ Follow these steps to create a new work stream in Omnichannel for Customer Servi
 
     3. In the **Work distribution** section, follow these steps: 
 
-      1. Select whether the **Work distribution mode** should be **Push** or **Pick** for agents to take up a conversation. 
+      1. Select whether the **Work distribution mode** should be **Push** or **Pick** for agents to take up a conversation.
 
          In **Push** mode, a conversation is dispatched to agents automatically via a screen-pop. You can configure a push conversation to be explicitly picked up.
       
@@ -70,7 +70,7 @@ Follow these steps to create a new work stream in Omnichannel for Customer Servi
           > [!div class=mx-imgBorder] 
           > ![New work stream](../media/omni-channel-new-work-stream.png)
 
-      4. If you have selected **Push** in **Work distribution mode**, set the toggle to **Yes** for **Enable selecting from push-based work streams**. The agents can explicitly select work items even when their capacity is full.
+      3. If you have selected **Push** in **Work distribution mode**, set the toggle to **Yes** for **Enable selecting from push-based work streams**. The agents can explicitly select work items.
 4. View and create context variables in the **Context variables** tab. Context variables enrich conversations with pre-chat data, channel data, and custom context data. These attributes can then be used to define routing rules to route conversations into different queues.
 
    1. Select **New** to create a new context variable in the **Quick Create** window.

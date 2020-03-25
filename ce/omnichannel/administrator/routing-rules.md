@@ -48,7 +48,7 @@ To create a routing rule, select a work stream by navigating to **Work Distribut
        - Operator
        - Value
 
-       For an entity, you can choose from a set of attributes or related entities, operators, and values. If you select a related entity for an entity, you can select the attribute, an operator, and then select or specify a value.
+       For an entity, you can define rules based on related level 1 attributes.
 
        > [!div class=mx-imgBorder]
        > ![related entity](../media/related-entity-rule-condition.png)
