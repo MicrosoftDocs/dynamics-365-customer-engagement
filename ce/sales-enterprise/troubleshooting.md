@@ -93,8 +93,8 @@ manager: annbe
 
 </td><td>
 
-
-</td><td>
-<h2>Developer guide</h2>
+<h2>Developer</h2>
 <li><a href="developer/custom-plugin-handling-shared-variable.md" data-raw-source="[Custom plug-in handling using shared variable](developer/custom-plugin-handling-shared-variable.md)">Custom plug-in handling using shared variable</a></li>
-</td></tr>
+
+</td>
+</tr>
