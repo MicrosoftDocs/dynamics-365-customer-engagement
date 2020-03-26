@@ -19,7 +19,7 @@ manager: annbe
 
 <h2>Leads </h2>
 
-<li><a href="ts-leads.md#cant_qualify_lead" data-raw-source="[Ican't qualify a lead](ts-leads.md#cant_qualify_lead)">I can't qualify a lead?</a></li>
+<li><a href="ts-leads.md#cant_qualify_lead" data-raw-source="[I can't qualify a lead](ts-leads.md#cant_qualify_lead)">I can't qualify a lead</a></li>
 <li><a href="ts-leads.md#insufficientpermissions" data-raw-source="[Insufficient permissions or Access denied error when a user is trying to qualify a lead)](ts-leads.md#insufficientpermissions)">Insufficient permissions or Access denied error when a user is trying to qualify a lead</a></li>
 
 </td><td>
@@ -61,6 +61,7 @@ manager: annbe
 <h2>Views </h2>
 
 <li><a href="ts-views.md#no_data_in_views" data-raw-source="[I can't see data in certain columns in entity views](ts-views.md#no_data_in_views)">I can't see data in certain columns in entity views</a></li>
+<li><a href="ts-views.md#records_missing_in_views" data-raw-source="[I can't see some records in the entity views](ts-views.md#records_missing_in_views)">I can't see some records in the entity views</a></li>
 
 
 </td></tr>
