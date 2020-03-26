@@ -28,38 +28,38 @@ If you want to help your customers using SMS, you can use the SMS channel.
 
 There are two options:
 
-   - [SMS through Telesign](configure-sms-channel.md)
-   - [SMS through Twilio topic link will be updated here]()
+- [SMS through Telesign](configure-sms-channel.md)
+- [SMS through Twilio topic link will be updated here]()
 
-## Social channels 
+## Social channels
 
 If you want to help your customers using social channels, you can use the social channels.
 
-   - [Facebook](configure-facebook-channel.md)
-   - [Preview: WhatsApp through Twilio](configure-whatsapp-channel.md)
-   - [Twitter topic link will be updated here]()
-   - [WeChat topic link will be updated here]()
-   - [Line topic link will be updated here]()
-   - [WeChat topic link will be updated here]()
+- [Facebook](configure-facebook-channel.md)
+- [Preview: WhatsApp through Twilio](configure-whatsapp-channel.md)
+- [Twitter topic link will be updated here]()
+- [WeChat topic link will be updated here]()
+- [Line topic link will be updated here]()
+
 
 ## Preview: Custom messaging channel
 
 If you want to help your customers using social channels that are not supported as standard channels, you can use the custom channels.
 
-   - Kik
-   - Telegram
+- Kik
+- Telegram
 
 To learn more, see [Configure custom messaging application](configure-custom-channel.md).
-        
+
 If you want to help your customers using your Line of Business (in-house) messaging channels, you can use the Direct Line Bot Framework method.
 
-   - [Direct Line](configure-custom-channel.md#bring-channels-using-direct-line)
+- [Direct Line](configure-custom-channel.md#bring-channels-using-direct-line)
 
 ## Preview: Microsoft Teams
 
-If you want to help your customers using standard collaboration channel, you can use Microsoft Teams channel.
+If you want to help your customers using a standard collaboration channel, you can use the Microsoft Teams channel.
 
-To learn more, see [Microsoft Teams]().
+To learn more, see [Preview: Configure Microsoft Teams](configure-microsoft-teams.md).
 
 ## Entity records
 

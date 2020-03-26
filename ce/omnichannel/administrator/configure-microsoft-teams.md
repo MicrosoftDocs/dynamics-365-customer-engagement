@@ -23,6 +23,8 @@ ms.topic: article
 
 ## Microsoft Teams channel
 
+Microsoft Teams as an engagement channel for support of internal functions, such as technical support, human resources, and finance,
+allows organizations to connect their employees with internal support personnel using Omnichannel for Customer Service.
 
 ## Prerequisites
 
