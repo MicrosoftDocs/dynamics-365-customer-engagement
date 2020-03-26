@@ -282,7 +282,7 @@ For more information, see the topic on [requirement groups for work orders](http
 
 ## AI suggestions
 
-With Field Service v8.8.14.426+, the Incident Type AI suggestion capability recommends ways to improve your incident types by learning from past work orders. As an example, imagine you have an incident type called "System recalibration" that involves using "Product A"; however oftentimes technicians also use "Product B" to complete the recalibration. Using AI the system will learn this and suggest to the adminsitrator that "Product B" be added to the incident type for future work orders.
+With Field Service v8.8.20.12+, the Incident Type AI suggestion capability recommends ways to improve your incident types by learning from past work orders. As an example, imagine you have an incident type called "System recalibration" that involves using "Product A"; however oftentimes technicians also use "Product B" to complete the recalibration. Using AI the system will learn this and suggest to the adminsitrator that "Product B" be added to the incident type for future work orders.
 
 This saves technicians time by not having to enter the additional work order product, helps you plan inventory requirements better by knowing typical products needed, and most importantly ensures your business application reflects reality.
 
