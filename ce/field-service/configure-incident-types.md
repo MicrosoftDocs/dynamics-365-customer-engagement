@@ -291,10 +291,13 @@ From the Field Service app go to **Settings > Field Service Settings > Intellige
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/ai-incident-type-suggestions-enable.png)
 
-**Run Frequency** - dictates how often the system will analyze incident types and make suggestions if applicable.
+**Historical Data Filter** - dictates how much historical data is analyzed as part of each run.
 
-**Return Top X Results** - dictates how many suggestions will be displayed.
+**Run Frequency** - dictates how often the system will analyze incident types and make suggestions if applicable. At this time, this cannot be changed.
 
+**Return Top X Results** - dictates how many suggestions will be returned from each run. 
+
+It is worth noting that, across multiple runs, it is possible to see more than the number of results defined in **Return Top X Results**. When the system returns results, if a previous run returned the same combined set of parameters (Incident Type, Product/Service/Incident Type for Merge, Suggested Value, Unit), it will deactivate the earlier sets and will ensure that only the most recent, most relevant, unique version of that result is displayed. This means that unique results that have not been applied, disliked, or deactivated will still show in the list of visible results.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/ai-incident-type-suggestions-list.png)
@@ -325,8 +328,9 @@ The system suggests merging two incident types together into one incident type.
 For each suggestion you have the option to:
 
 1. **Apply Suggestion** - the system will add the product or service to the incident type for you. This is not available for Suggestion Type = Incident Type i.e. merge.
-2. **Discard** - the sugestion may be applicable but you do not want the system to add it for you for various reasons.
-3. **Dislike** - the suggestion will be removed from the list and does not apply to your business. This option helps improve the AI suggestion model. 
+2. **Dislike** - the suggestion will be removed from the list and does not apply to your business. This option helps improve the AI suggestion model. 
+
+Once a suggestion is either applied or disliked, it will ensure that particular combined set of parameters (Incident Type, Product/Service/Incident Type for Merge, Suggested Value, Unit) is not returned as a suggestion by the system, again. This ensures the system continues to provide only the most valuable suggestions without diluting the suggestion pool with noise.
 
 
 ## Configuration considerations
