@@ -55,21 +55,21 @@ The Dynamics 365 Marketing April 2020 update includes several feature enhancemen
 - **Customer journeys**
     - ***Analyze marketing data in Excel:*** Export marketing results directly to Excel.
     - ***View data on your terms:*** View marketing results in Marketing or Excel.
-    - ***Expiration dates and times for time-sensitive content:*** Set a static expiration date and time—for example, March 31, 2020, at 10:00 PM in the customer's time zone.
-    - ***No outdated messages:*** Any contact who enters an email tile after its expiration date doesn't receive the email message.
+    - ***Expiration dates and times for time-sensitive content:*** Set static expirations for date and time. For example, March 31, 2020, at 10:00 PM in the customer's time zone.
+    - ***No outdated messages:*** Any contact who enters an email tile after the tile expiration date won't receive the email message.
     - ***Determine who didn't receive your message:*** Information on contacts who didn't receive a message due to an expiration date is captured and available from email and journey insights.
     - ***Warning when stopping live records:*** Before stopping email messages, forms, or segments used by live customer journeys, the user sees a warning message to help prevent the user from inadvertently corrupting an entity used in a live journey.
     - ***Send email messages based on contact interactions:*** Based on past interactions with marketing email messages, the automated scheduler uses machine learning to find the days and times when each contact is most likely to be actively reading their email messages.
     - ***Automatically select the best time to send an email message:*** By analyzing historical data, the automated scheduler automatically selects the best times to send the next email message for each contact, within a time window that you specify.
 - **Event management**
-    - ***Use marketing forms in events:*** Event planners are able to use forms within the Marketing application to create forms for event registration, which enables event planners to build registration forms using a familiar drag-and-drop interface and to include more types of fields.
-    - ***Embed registration forms into any CMS:*** For the first time, event registration forms can be embedded into any third-party content management system (CMS), just like other forms in the Marketing app.
+    - ***Use marketing forms in events:*** Event planners can now use marketing forms in events, allowing a familiar drag-and-drop interface and more types of fields when creating event registrations.
+    - ***Embed registration forms into any CMS:*** For the first time, event registration forms can be embedded into any third-party content management system (CMS).
     - ***Design forms within the event:*** Event planners can design event registration forms from the event entity without leaving the event.
 - **Microsoft Forms Pro integration**
     - ***Survey integration:*** Create surveys using Microsoft Forms Pro.
     - ***Automated survey responses:*** Include automated survey responses in criteria for segmentation or lead scoring, or when branching a customer journey.
 - **GDPR compliance**
-    - ***Consolidated opt-in confirmation messages:*** New functionality combines multiple notifications and confirmation requests into a single message, such as combining updated GDPR consent with multiple new subscriptions.
+    - ***Consolidated opt-in confirmation messages:*** Combine multiple notifications and confirmation requests into a single message, such as combining updated GDPR consent with multiple new subscriptions.
     - ***Historical view of subscription-list and GDPR consent-level changes:*** View subscription-list and GDPR consent-level historical changes without building your own report.
     - ***Accessibility checker:*** Check accessibility for emails, forms, and pages created using the Marketing content designer and receive guidance on suggested fixes.
 - **Marketing emails**
@@ -77,21 +77,21 @@ The Dynamics 365 Marketing April 2020 update includes several feature enhancemen
     - ***Drag to resize elements:*** More intuitive controls enable you to drag and resize email content elements including images, dividers, and buttons.
     - ***Improved color picker:*** Improved color picker controls offer support across browsers and mobile devices.
     - ***Email-wide property controls:*** Updated property controls allow you to set email-wide properties, creating a consistent look with just a few clicks.
-    - ***More customization options:*** Picture-over-picture and button-over-picture capabilities add flexibility to your designs. To help boost email open rates, you can now add custom preheaders with tailored email message preview text. Options such as rounded corners and individually customizable columns offer even more design possibilities.
-    - ***Improved email preview:*** You can now preview fields with resolved dynamic text. The enhanced preview means you'll see exactly how your messages will look when customers receive them. The built-in accessibility checker helps you ensure that all recipients can view your messages.
+    - ***More customization options:*** Picture-over-picture and button-over-picture capabilities add flexibility to your designs. To help boost email open rates, you can add custom preheaders with tailored email message preview text. Rounded corners and individually customizable columns offer even more design possibilities.
+    - ***Improved email preview:*** Preview fields with resolved dynamic text. The enhanced preview means you'll see exactly how your messages will look when customers receive them.
     - ***Updated forms and pages designers:*** The email content designer improvements are also available in the forms and pages designers.
     - ***Test-send dynamic content:*** Create test messages that contain fully rendered dynamic content (including dynamic field values, entity relationships, loops, and conditionals) based on a selected sample contact record.
     - ***Upgraded error detection:*** Improved error checking for outgoing test messages.
-    - ***Assess spam risk:*** Determine how likely it is for an email to be caught by spam filters through a risk assessment score of high, medium, or low.
+    - ***Assess spam risk:*** Determine the likelihood that an email will be caught by spam filters the built in risk assessment score.
     - ***Get recommendations:*** View what changes need to be made to improve the spam score and increase the chance for your email to land in your recipient's inbox.
 - **Marketing forms**
-    - ***Cascading forms:*** Added cascading form fields (parent/child fields) in marketing forms, improving form customization options.
+    - ***Cascading forms:*** Cascading form fields (parent/child fields) in marketing forms, improving form customization options.
 - **Segment management**
     - ***Simplified segment creation:*** Combine behavioral and demographic data directly within the dynamic segment editor.
     - ***Static segments are redesigned:*** Static segments now handle an unlimited number of total contacts (up to 10,000 at a time) and allow rule-based addition to list members.
     - ***Query selection:*** Select static segment contacts based on query and segment data.
     - ***Time zone-aware segments:*** Segments are now time zone-aware, mirroring the time zone functionality in customer journeys.
-    - ***New partial date operator:*** Partial dates allow you to create segments for events such as "today" or events based on people doing an action on the first day of the month, rather than specifying exact dates.
+    - ***New partial date operator:*** Partial dates allow segments options for events such as "today," rather than specifying an exact date
 
 ### Bug fixes
 
