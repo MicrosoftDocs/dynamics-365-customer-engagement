@@ -25,7 +25,8 @@ Make sure your administrator has configured a Telesign or Twilio channel in Omni
 ### Incoming chat notifications
 
 You'll receive a notification when a customer requests a conversation through Telesign or Twilio. Accepting the chat request starts a session and you'll see the communication panel in which you can exchange messages with the customer.
-
+> [!div class=mx-imgBorder]
+> ![Incoming chat notification](../../media/oceh/sms-notification-request.png "Incoming SMS notification")
 
 In Omnichannel for Customer Service, you can:
 
@@ -36,9 +37,9 @@ In Omnichannel for Customer Service, you can:
 - [Manage sessions](oc-manage-sessions.md)
 - [Manage applications](oc-manage-applications.md)
 - Use productivity tools
-    - [Use agent scripts](oc-agent-scripts.md)
-    - [View Smart assist cards](oc-smart-assist.md)
-    - [Use productivity pane](oc-productivity-pane.md)
+  - [Use agent scripts](oc-agent-scripts.md)
+  - [View Smart assist cards](oc-smart-assist.md)
+  - [Use productivity pane](oc-productivity-pane.md)
 - [Create a record](oc-create-record.md)
 - [Search, link, and unlink a record](oc-search-link-unlink-record.md)
 - [Search for and share knowledge articles](oc-search-knowledge-articles.md)
@@ -50,13 +51,6 @@ In Omnichannel for Customer Service, you can:
 - [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
 - [Search for transcripts](oc-search-transcipts.md)
 
-## WhatsApp message type and 24 hours session rule
+### See also
 
-- **Session messages**: According to WhatsApp, session messages are incoming messages from a customer, or outgoing responses to the incoming messages, within 24 hours. A messaging session starts when you receive a message from a customer. It lasts for 24 hours from the most recently received message. Session messages do not need to follow a template, and can include media attachments.
-
-- **24 hours session rule**: A messaging session starts when you receive a message from a customer or reply to an incoming message from a customer. When the customer sends a message, you have 24 hours to reply to the customer from the time you received it. However, after 24 hours, if you try to send a message to the customer, an error is displayed: **This conversation has exceeded the 24 hour limit to respond to the customer.**
-
-
-## See also
-
-[Configure a WhatsApp channel](../../administrator/configure-whatsapp-channel.md)
+[Configure SMS channel for Twilio](../../administrator/configure-sms-channel-twilio.md)

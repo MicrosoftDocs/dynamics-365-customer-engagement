@@ -23,7 +23,10 @@ The SMS channel through Twilio in Omnichannel for Customer Service allows your o
 Make sure that the following prerequisites are met:
 
 - SMS for Twilio is provisioned in Omnichannel for Customer Service. For information, see [Provision Omnichannel for Customer Service](omnichannel-provision-license.md).
-- A Twilio account with phone number and subscription is available.
+    >  [!Note]
+    >
+    > To enable WeChat channel in an existing Omnichannel environment, you must upgrade to the latest version of Omnichannel for Customer Service. For information, [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md).
+- A Twilio account with a phone number and subscription is available.
 
 ## Configure an SMS channel for Twilio in Omnichannel
 
@@ -48,7 +51,7 @@ Perform the following steps to create a work stream for the SMS channel for Twil
 4. In **General information**, do the following:
     - **Channel:** Select **SMS**.
     - **Auto-close after inactivity:** Select a value that indicates a duration of eight hours or more.
-    - **Allow automated messages:** Accept the default value **No**. This option is for future use only.
+    - **Allow automated messages:** Accept the default value **No** or specify **Yes**.
 5. In **Work distribution**, specify the necessary details. For information, see [Create a work stream](work-streams-introduction.md#create-a-work-stream).
    > [!div class=mx-imgBorder]
    > ![Works stream settings for Twilio](../media/sms-twilio.png "Work stream settings for Twilio")
