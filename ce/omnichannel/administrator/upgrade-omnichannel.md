@@ -31,12 +31,12 @@ Follow these steps to upgrade Omnichannel for Customer Service:
     Click the **Upgrade** button.
          
      > [!div class=mx-imgBorder] 
-     > ![Upgrade in progress](../media/upgrade-oc-button.png)
+     > ![Upgrade in progress](../media/upgrade-oc-button.PNG)
      
      The system begins the upgrade and displays the message **Omnichannel upgrade is currently in progress**.
      
      > [!div class=mx-imgBorder] 
-     > ![Upgrade in progress](../media/upgrade-progress.png)
+     > ![Upgrade in progress](../media/upgrade-progress.PNG)
 
     When the upgrade process is completed successfully, your environment is upgraded to the latest version and the message **Omnichannel for Customer Service upgrade was completed successfully** is displayed with the date.
 
