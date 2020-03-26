@@ -94,7 +94,7 @@ manager: annbe
 </td><td>
 
 <h2>Developer</h2>
-<li><a href="developer/custom-plugin-handling-shared-variable.md" data-raw-source="[Custom plug-in handling using shared variable](developer/custom-plugin-handling-shared-variable.md)">Custom plug-in handling using shared variable</a></li>
+<li><a href="developer/custom-plugin-handling-shared-variable.md" data-raw-source="[Custom plug-in handling using shared variable](developer/custom-plugin-handling-shared-variable.md)">Price calculation service gets triggered upon retrieving details from OQOI entities</a></li>
 
 </td>
 </tr>
