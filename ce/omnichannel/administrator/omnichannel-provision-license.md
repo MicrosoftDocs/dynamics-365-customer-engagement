@@ -107,7 +107,7 @@ To allow Omnichannel for Customer Service to read and write data on behalf of us
 
 ## Update Omnichannel for Customer Service application
 
-After Omnichannel for Customer Service application is successfully provisioned, you can update the instance by enabling or disabling the required channels.
+After Omnichannel for Customer Service application is successfully provisioned, you can update the environment by enabling or disabling the required channels.
 
 1.	In **Dynamics 365 Administration Center**, go to the **Applications** tab, select **Omnichannel for Customer Service**, and then select **Manage**.
  
@@ -116,24 +116,24 @@ After Omnichannel for Customer Service application is successfully provisioned, 
 
     The **Manage Omnichannel instances** page is displayed.
 
-2.	On the **Manage Omnichannel instances** page, choose the instance you want to update. The summary of configured channels is displayed.
+2.	On the **Manage** page, choose the environment you want to update. The summary of configured channels is displayed.
 
     > [!div class=mx-imgBorder]
-    > ![Select the Omnichannel for Customer Service instance](../media/select-oc-instance.png "Select the Omnichannel for Customer Service instance")
+    > ![Select the Omnichannel for Customer Service instance](../media/select-oc-instance.PNG "Select the Omnichannel for Customer Service environment")
 
-3. Select the channel to be enabled. For example, in this procedure, we will enable the Facebook Messenger channel.
+3. Select the channel to be enabled. For example, in this procedure, we will enable the Social channels.
 
-4. On the **Facebook** tab, select **Select to enable Facebook Messenger in your organization**.
+4. On the **Social** tab, slide the toggle to enable social channels in your environment.
 
     > [!div class=mx-imgBorder]
-    > ![Enable Facebook Messenger channel](../media/enable-fb-channel.png "Enable Facebook Messenger channel")
+    > ![Enable Facebook Messenger channel](../media/select-oc-social.PNG "Enable social channels")
 
-5. If required, you can also disable the previously enabled channel. For example, in this procedure, we will disable the SMS channel. 
+5. If required, you can also disable the previously enabled channel. For example, in this procedure, we will disable the Social channel. 
 
 6. On the **SMS** tab, clear the **Select to enable SMS in your organization** and **SMS Terms** check boxes to disable the SMS channel. When you clear the **Select to enable SMS in your organization** check box, a confirmation message is displayed to remove the channel. Select **Remove**.
 
     > [!div class=mx-imgBorder]
-    > ![Disable SMS channel](../media/disable-sms-channel.png "Disable SMS channel")
+    > ![Disable SMS channel](../media/disable-social.png "Disable Social channels")
 
 7. Select **Save** on the toolbar at the top of the page to start updating the instance.
 
