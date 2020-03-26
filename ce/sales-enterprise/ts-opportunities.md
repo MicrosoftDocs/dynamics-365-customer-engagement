@@ -10,7 +10,7 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Troubleshooting the Lead entity 
+# Troubleshooting the Opportunity entity 
 
 This article helps you troubleshoot and resolve issues related to the Opportunity entity.
 
