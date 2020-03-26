@@ -110,3 +110,6 @@ However, when scripts which do not rely on cookie authentication are used, those
 
 ## I am able to use Dynamics 365 App for Outlook in Outlook Web Access in Edge browser, but it doesn’t work in Outlook Desktop. Why?
 Dynamics 365 App for Outlook needs Internet Explorer 11 or higher to be installed on your machine. If you have Internet Explorer 11 already, please also make sure your organization URL <orgname.crm.dynamics.com> is not in the Compatibility View list.
+
+## My app for Oulook launch takes time every time I load it for mail item.
+For frequently used pages, pin the app so that it will stay loaded even when you switch to other mail items. 

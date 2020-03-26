@@ -77,6 +77,8 @@
 ## User Guide
 ### [Help resources for sales people](../sales-enterprise/user-guide.md)
 ### [Learn the basics](user-guide-learn-basics.md)
+### [Gain insights with dashboards](dashboards.md)
+### [Understand the sales pipeline chart and its phases](sales-pipeline-chart.md)
 ### [Send email using the enhanced email experience](enhanced-email.md)
 ### [Insert an email template](insert-email-template.md)
 ### [Create PDF documents](create-quote-pdf.md)
@@ -134,8 +136,16 @@
 ### [Use Sales Hub on the mobile app](../sales-enterprise/use-sales-hub-on-dynamics-365-mobile.md)
 
 ## Troubleshooting and FAQs
-### [Troubleshooting guide for sales people](troubleshooting.md)
-### [Troubleshooting guide for administrators](troubleshooting-admin.md)
+### [Dynamics 365 Sales Troubleshooting guide](troubleshooting.md)
+### [Troubleshooting leads](ts-leads.md)
+### [Troubleshooting opportunities](ts-opportunities.md)
+### [Troubleshooting orders](ts-orders.md)
+### [Troubleshooting products](ts-products.md)
+### [Troubleshooting common entities](ts-oqoi.md)
+### [Troubleshooting views](ts-views.md)
+### [Troubleshooting forecasts](ts-forecasts.md)
+### [Troubleshooting the Unified Interface](ts-unified-interface.md)
+### [Troubleshooting the sales pipeline chart](ts-sales-pipeline.md)
 ### [FAQs](faqs-sales.md)
 
 ## Integrations

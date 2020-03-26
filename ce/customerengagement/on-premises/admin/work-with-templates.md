@@ -36,7 +36,7 @@ More information: [Create knowledge article template](/dynamics365/customer-serv
 
 ## Email templates
 
-Save time when creating multiple email messages by making email templates. Email templates contain pre-filled data that you specify, so you don’t have to re-enter the same information for each article.
+Save time when creating multiple email messages by making email templates. Email templates contain pre-filled data that you specify, so you don't have to re-enter the same information for each article.
 
 More information: [Create templates for email](/power-platform/admin/create-templates-email) in the Power Platform admin documentation.
 
@@ -48,7 +48,7 @@ More information: [Work with mail merge templates](/power-platform/admin/work-ma
 
 ## Campaign templates
 
-Save time when creating multiple campaigns by creating a campaign template. Campaign templates contain pre-filled data that you specify, so you don’t have to reenter the same information for each campaign. You can either create a new campaign template or copy an existing campaign to use as a template.  
+Save time when creating multiple campaigns by creating a campaign template. Campaign templates contain pre-filled data that you specify, so you don't have to reenter the same information for each campaign. You can either create a new campaign template or copy an existing campaign to use as a template.  
   
 ### Create a campaign template  
   
@@ -89,5 +89,5 @@ More information: [Analyze and share your data with Excel templates][/power-plat
 
 After you create and import Office Word templates into Customer Engagement, with one click users can generate standardized documents automatically populated with Customer Engagement data.
 
-More information: [Use Word templates to create standardized documents](/power-platform/admin/using-word-templates) in the Power Platform admin documentation.
+More information: [Use Word templates to create standardized documents](/power-platform/admin/using-word-templates-dynamics-365) in the Power Platform admin documentation.
 
