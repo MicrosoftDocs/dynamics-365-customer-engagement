@@ -50,35 +50,31 @@ To allow Omnichannel for Customer Service to read and write data on behalf of us
     > [!div class=mx-imgBorder]
     > ![Manage omnichannel](../media/manage-oc.png)
 
-    The **Manage Omnichannel Instances** page is displayed.
+    The **Manage Omnichannel environments** page is displayed.
 
     > [!NOTE]
     > The Omnichannel for Customer Service option will appear only if you have an active subscription of Chat for Dynamics 365 Customer Service or Dynamics 365 Digital Messaging. For more information on pricing, click [here](https://dynamics.microsoft.com/customer-service/overview/#pricing). You can also get a free 30-day trial if you have the required prerequisites, see [Try channels for Dynamics 365 Customer Service](../try-channels.md) for more information.
 
-2. On the **Manage Omnichannel Instances** page, select **Add Org** to add an organization. Omnichannel is set up on the organization instance that you add here.
+2. On the **Manage Omnichannel Instances** page, select **Add Org** to add an organization. Omnichannel is set up on the organization environment that you add here.
    
     > [!div class=mx-imgBorder]
-    > ![manage instances](../media/manage-instances.png)
+    > ![manage instances](../media/manage-environments.png)
 
     > [!IMPORTANT]
-    > As an admin, you can configure Omnichannel on multiple environment (instances). You can view the status of all organization instances where the Omnichannel app has been configured in the **Manage Instances** view.
+    > As an admin, you can configure Omnichannel in multiple environments. You can view the status of all organization environments where the Omnichannel app has been configured in the **Manage environments** view.
 
-3. Select the organization in the **Organization Selector** drop-down list. 
+3. Select the environment in the drop-down list. 
 
     > [!div class=mx-imgBorder]
     > ![select org](../media/select-org.png)
 
-    > [!IMPORTANT]
-    > You must select the check box for **Privacy terms**, and proceed with the set up.
-      
-    Select the continue arrow ![Continue terms](../media/continue-arrow.png) to proceed.
 
-4. On the **Enable chat with Omnichannel** page, select the check box to enable the Chat channel for your organization. To proceed with the setup, select the continue arrow.
+4. Click the **Chat** tab and slide the toggle to enable the Chat channel for your organization. 
 
     > [!div class=mx-imgBorder]
     > ![Enable chat](../media/enable-chat.png)
 
-5. On the **Enable SMS with Omnichannel** page, select the **Select to enable SMS in your organization** check box to enable the SMS channel, and to proceed with the setup, select the continue arrow.
+5. Click the **SMS** tab and slide the toggle to enable SMS. Select the check box to confirm that you agree to the SMS terms.
 
     > [!div class=mx-imgBorder]
     > ![Enable SMS with Omnichannel](../media/enable-sms-with-omnichannel.png "Enable SMS with Omnichannel")
@@ -86,14 +82,19 @@ To allow Omnichannel for Customer Service to read and write data on behalf of us
     > [!IMPORTANT]
     > You must select the check box for **SMS Terms** to enable SMS and proceed with the setup.
 
-6. On the **Enable Facebook Messenger with Omnichannel** page, select the **Select to enable Facebook Messenger in your organization** check box to enable the Facebook Messenger channel, and to proceed with the setup, select the continue arrow.
+6. Click the **Social** tab and slide the toggle to enable social channels. 
+
+    > [!div class=mx-imgBorder]
+    > ![Enable Facebook Messenger with Omnichannel](../media/enable-facebook.png "Enable Facebook Messenger with Omnichannel")
+    
+7. Click the **Microsoft Teams** tab and slide the toggle to enable Microsoft Teams. 
 
     > [!div class=mx-imgBorder]
     > ![Enable Facebook Messenger with Omnichannel](../media/enable-facebook.png "Enable Facebook Messenger with Omnichannel")
 
-7. On the **Summary** page, select the check mark icon to provision Omnichannel for Customer Service in your organization.
+7. On the **Confirmation** page, verify your selections and click **Finish** to provision Omnichannel for Customer Service in your organization.
 
-    The setup can take few mins. You may close the window and check after some time, or refresh to check if it's complete. Once the setup is complete, the selected channels are enabled in your environment.
+    The setup can take several minutes. You may close the window and check after some time, or refresh to check if it's complete. Once the setup is complete, the selected channels are enabled in your environment.
 
     > [!div class=mx-imgBorder]
     > ![Summary tab on Manage Omnichannel instances page](../media/manage-omnichannel-summary.png "Summary tab on Manage Omnichannel instances page")
