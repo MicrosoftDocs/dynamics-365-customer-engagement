@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features in Dynamics 365 Marketing | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 04/01/2020
+ms.date: 04/03/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -23,9 +23,9 @@ search.app:
 
 # What's new in Dynamics 365 Marketing
 
-We're excited to announce our newest updates! To see upcoming features, take a look at the [Dynamics 365 and Power Platform release plans](https://docs.microsoft.com/dynamics365/release-plans/). This topic summarizes early access features, preview features, monthly general availability enhancements, and bug fixes.
+We're excited to announce our newest updates! This topic summarizes early access features, preview features, monthly general availability enhancements, and bug fixes. To see long-term feature plans, take a look at the [Dynamics 365 and Power Platform release plans](https://docs.microsoft.com/dynamics365/release-plans/).
 
-Microsoft rolls out updates on a region-by-region basis. Updates are available to all regions by the end of the month. We recommend updating all Marketing instances as soon as an update is available.  To update your instances, follow the steps in [Keep Marketing up to date](apply-updates.md). You must manually update each of your Marketing instances to remain up to date.
+Microsoft rolls out updates on a region-by-region basis. Updates are available to all regions by the end of the month. We recommend updating all Marketing instances as soon as an update is available.  To update your instances, follow the steps in [Keep Marketing up to date](apply-updates.md). To ensure your Marketing apps are up to date, you must manually update each Marketing instance.
 
 > [!Note]
 > To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20Marketing).
@@ -35,9 +35,11 @@ Microsoft rolls out updates on a region-by-region basis. Updates are available t
 The Dynamics 365 Marketing April 2020 update includes several feature enhancements, performance upgrades, and bug fixes. It also includes Forms Pro integration, an improved email designer, and unified segment types.
 
 > [!IMPORTANT]
-> **Some of the functionality described in this article has not been released.** Delivery timelines may change and projected functionality may not be released (see [Microsoft policy](https://go.microsoft.com/fwlink/p/?linkid=2007332)). Learn more: [What's new and planned](https://docs.microsoft.com/en-us/dynamics365-release-plan/2020wave1/dynamics365-marketing/planned-features)
+> Because of the COVID-19 outbreak, we understand that many of our customers and partners have moved to the minimum staff/business continuity model. To support this situation, we plan to extend the early access opt-in, which will allow our customers and partners additional time to test and validate the features before the features get deployed starting in May.
 >
-> As announced in this [blog post](https://aka.ms/covid19Blog), Microsoft is making some changes to the update schedules in April in response to COVID-19. The April 2020 release wave 1 updates will be generally available as mentioned in the [Dynamics 365](https://aka.ms/Dynamics365ReleasePlan) and [Power Platform](https://aka.ms/PowerPlatformReleasePlan) release plans. More information is available in the product-specific [FAQs](https://aka.ms/EarlyAccessFAQ). We will continue to release critical updates for Dynamics 365 applications and Power Platform, and are extending the deprecation timelines for some capabilities to give customers and partners additional time to make the transition. Microsoft is committed to supporting to our customers and partners in these uncertain times.
+> The features that were planned to be generally available in April 2020 will be released as planned. However, we won't be enabling any features that impact end-users automatically in April. The changes in the 2020 release wave 1 updates will be automatically enabled starting May 1, 2020.
+>
+> To learn more, visit [Dynamics 365 release schedule and early access](https://docs.microsoft.com/dynamics365/get-started/release-schedule).
 
 ### Version numbers
 
