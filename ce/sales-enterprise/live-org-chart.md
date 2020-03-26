@@ -49,7 +49,7 @@ If you have a Sales Navigator seat, [!INCLUDE [pn-linkedin](../includes/pn-linke
 ![Sign in to Sales Navigator from the side panel](media/org-chart-sales-navigator-control.png)
 
 > [!NOTE]
-> Customizing the Sales Navigator widget isn't supported.
+> Removing fields from the Sales Navigator widget (Contact Details pane) or adding new fields isn't supported.
 
 ## Org chart for accounts without hierarchy
 
