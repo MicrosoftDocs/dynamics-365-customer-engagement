@@ -1,6 +1,6 @@
 ---
 title: "WeChat channel | MicrosoftDocs"
-description: "Information about WeChat channel in agen dashboard for Omnichannel for Customer Service."
+description: "Information about WeChat channel in agent dashboard for Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -35,9 +35,9 @@ In Omnichannel for Customer Service, you can:
 - [Manage sessions](oc-manage-sessions.md)
 - [Manage applications](oc-manage-applications.md)
 - Use productivity tools
-    - [Use agent scripts](oc-agent-scripts.md)
-    - [View Smart assist cards](oc-smart-assist.md)
-    - [Use productivity pane](oc-productivity-pane.md)
+  - [Use agent scripts](oc-agent-scripts.md)
+  - [View Smart assist cards](oc-smart-assist.md)
+  - [Use productivity pane](oc-productivity-pane.md)
 - [Create a record](oc-create-record.md)
 - [Search, link, and unlink a record](oc-search-link-unlink-record.md)
 - [Search for and share knowledge articles](oc-search-knowledge-articles.md)
