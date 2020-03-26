@@ -22,7 +22,7 @@ By leveraging social messaging channels, such as WeChat, that has a large user b
 Make sure that the following prerequisites are met:
 
 - WeChat is provisioned in your environment. For information, see [Provision Omnichannel for Customer Service](omnichannel-provision-license.md).
-  > {!NOTE}
+  > [!NOTE]
   >
   > To enable WeChat channel in an existing Omnichannel environment, you must upgrade to the latest version of Omnichannel for Customer Service. For information, [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md).
 - An active subscription to the WeChat Service Account exists and is stored as a contact on your phone. You will initiate WeChat conversations by contacting the subscription account. For information about WeChat Service Account, see [WeChat documentation](https://go.microsoft.com/fwlink/?linkid=2124569).
