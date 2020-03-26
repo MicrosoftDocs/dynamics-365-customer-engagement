@@ -330,7 +330,7 @@ For each suggestion you have the option to:
 1. **Apply Suggestion** - the system will add the product or service to the incident type for you. This is not available for Suggestion Type = Incident Type i.e. merge.
 2. **Dislike** - the suggestion will be removed from the list and does not apply to your business. This option helps improve the AI suggestion model. 
 
-Once a suggestion is either applied or disliked, it will ensure that particular combined set of parameters (Incident Type, Product/Service/Incident Type for Merge, Suggested Value, Unit) is not returned as a suggestion by the system, again. This ensures the system continues to provide only the most valuable suggestions without diluting the suggestion pool with noise.
+Once a suggestion is either applied or disliked, it will ensure that particular combined set of parameters (Incident Type, Product/Service/Incident Type for Merge, Suggested Value, Unit) is not returned as a suggestion by the system, again. This ensures the system continues to provide only the most valuable suggestions.
 
 
 ## Configuration considerations
