@@ -104,6 +104,7 @@ The Dynamics 365 Marketing April 2020 update includes several feature enhancemen
     - Fixed an issue where a Quick Send solution overrode the contact entity "IsAuditEnabled" parameter.
     - Improved German translations.
     - Resolved Quick Send error when changing content settings.
+    - Templates are now saved according to the selected template default language instead of the default language of the Marketing instance.
 - **GDPR compliance**
     - Added a consent and subscription change record log.
     - Added ability to disable email tracking on a per contact basis.
@@ -117,6 +118,7 @@ The Dynamics 365 Marketing April 2020 update includes several feature enhancemen
     - Improved AssistEdit functionality in segments.
     - Resolved error when filtering segment members by a single letter.
     - Improved template design gallery interface.
+    - Improved date picker operation by adding a "Within x" operator.
 - **Social posting**
     - Resolved issue where social posting uninstalls failed for old Marketing solutions.
     - Improved interface design for social posting.
