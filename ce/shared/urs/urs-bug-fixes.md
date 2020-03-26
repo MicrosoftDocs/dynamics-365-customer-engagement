@@ -12,8 +12,8 @@
 - Calendar performance improvements are made for the generation of Resource Requirements from the Project form. 
 - Improved error handling on the Booking rules. 
 -  Schedule board scrolling issues are fixed, when moving the Bookings of the Resources at the bottom of the list. 
-- Fixed the issue with the Booking tooltip, when there are only 2 resources displayed on the Schedule Board, the tooltip is masking the Booking itself. 
-- Fixed the issue of the visual duplication of the Bookings on the Days, Weeks and Months views of the Schedule Board. 
+- Fixed the issue with the Booking tooltip, when there are only two resources displayed on the Schedule Board, the tooltip is masking the Booking itself. 
+- Fixed the issue of the visual duplication of the Bookings on the Days, Weeks, and Months views of the Schedule Board. 
 - Improved error handling when creating bookings on the Schedule Board, by adding additional null checks. 
 - Performance on the Schedule Board improved by just loading the Requirements that are not Location agnostic on the Map view. 
 - Fixed the Filter panel crash when using the Fetch-based filter value and saved as default value. 
@@ -24,7 +24,7 @@
 
 - Fixed a performance issue when upgrading from Field Service version 7.x to version 8.x.  
 - Fixed an issue with printing the Get Driving Directions action on the Schedule Board.  
-- When Quick Scheduling is used to schedule on an entity which doesn’t have an associated Resource Requirement, results were always shown in UTC Timezone, which is now fixed and the results should always be shown in User Timezone if there is no Requirement calendar. 
+- When Quick Scheduling is used to schedule on an entity that doesn’t have an associated Resource Requirement, results were always shown in UTC Timezone, which is now fixed and the results should always be shown in User Timezone if there is no Requirement calendar. 
 - Tooltips are now supported on the Sort options of the Schedule Board.  
 - A new warning message is now introduced on editing the Schedule Board Settings records, “Modifying these settings has the potential to break the corresponding Schedule Board tab in a way that cannot be automatically undone”. 
 - Fixed the bug with displaying the Resource details in the List view of the Schedule Board.  
@@ -66,7 +66,7 @@
 ### Version 3.12.2.114
 
 - When the schedule board map view is opened, the map automatically zooms out to show all the map pins. 
-- The resource look up is displayed on the schedule board in Arabic.
+- The resource lookup is displayed on the schedule board in Arabic.
 - On the schedule assistant results list view, work start time aligns with the estimated arrival time values on the create resource booking pane. 
 - Added additional handling to avoid the corruption of the booking setup metadata and the schedule board settings records. 
 - Bookings can be edited in the days view of the schedule board by right-clicking on the booking and selecting **Edit**.
@@ -88,7 +88,7 @@
 - Grid alignment issues while scrolling on the Schedule Board for Right to Left languages (like Hebrew, Arabic) are fixed. 
 - When a new route is created for a Map pin selected on the Map panel, the route will stay on top of other routes, even after the auto refresh, which happens when a booking is created or modified.
 - On the List View of the Schedule Board, any linked entity record can be opened by using Keyboard, by hitting on the Spacebar when focused on the linked entity. 
-- The warning message notification on the Schedule Assistant is made user friendly, when Maps are not enabled for a Resource Requirement when work location is Onsite. 
+- The warning message notification on the Schedule Assistant is made user-friendly, when Maps are not enabled for a Resource Requirement when work location is Onsite. 
 - The Selected values of the Filter ‘Pool Type’ are also saved along with other filters, when the current filters are saved as default filters.
 - When a Crew type Resource is booked, only the working members of the Crew will be booked, Crew members, who are not working, will not get booked. 
 - Custom Date fields added to the Filter panel as custom filters, will also respect the Timezone of the Schedule Board tab (under Scheduler settings)
@@ -104,19 +104,19 @@
 - Only Active Booking Statuses will be displayed on the Booking Status dropdown field on the Booking panel of Schedule Board, when creating Bookings. 
 - When searching for available resources for a Requirement Group, suggested resources will always be shown in List View only. 
 - Resources on the Schedule Board tab can be selected via Select Resources under the Filter Options on the Internet Explorer ### Version 11.
-- When calling the msdyn_SearchResourceAvailability action using a Requirement with a Fulfilment Preference for Timegroup as input, the output timeslot of the action will contain valid TimeGroupDetails
+- When calling the msdyn_SearchResourceAvailability action using a Requirement with a Fulfillment Preference for Timegroup as input, the output timeslot of the action will contain valid TimeGroupDetails
 - Bookable Resource Bookings can be created on the Day light saving days (entering and exiting DST). 
 ### Enhancements
 - Accessibility improvements are made on the Schedule Board and Schedule Assistant.
 
 ### Version 3.11.0.421
 
-- Columns in the List View of the Schedule Board re-size based on the size of the browser (Internet Explorer)
+- Columns in the List View of the Schedule Board resize based on the size of the browser (Internet Explorer)
 - A few accessibility issues on the schedule board and Quick Scheduling panel are fixed.
 -  Days/Weeks/Months views on the Schedule Board support the Bookings for the Schedulable entities without Resource Requirements.
 - When viewing the Bookings of Requirement Group in Split view, the Bookings in the Split view will be shown in the same timeline as of the Requirement Group bookings in the top half of the grid. 
-- Workhours of a Resource with Capacity greater than 1 in a day, will reflect on the Schedule Board accordingly. 
-- Resource Capacity booked percentage reflects the Resource’s bookings in the Days, Weeks and Months views of the Schedule Assistant.
+- Work hours of a Resource with Capacity greater than 1 in a day, will reflect on the Schedule Board accordingly. 
+- Resource Capacity booked percentage reflects the Resource’s bookings in the Days, Weeks, and Months views of the Schedule Assistant.
 - The focus remains on the selected date when a Resource is selected from the Resource dropdown filter after selecting a date on the Calendar of the Quick Scheduling panel. 
 - When a Resource Requirement with a Characteristic and Rating is booked, the Characteristic Filter will be populated with the Characteristic and Rating value from the Resource Requirement in the filter view of the Schedule Assistant. 
 - The Search Start/Search End and Time From Promised/Time To Promised date time filters on the Filter view of the Schedule Assistant reflect the From Date/To Date and Time From Promised/Time To Promised from the Resource requirement records. 
@@ -124,7 +124,7 @@
 - Only one Resource can be selected from the recommended Resources on the list view of the Schedule Assistant. 
 -  When searching for available Resources for an Onsite Requirement Group, and a suggested timeslot is selected, the Estimated Arrival Time and Start fields in the Create Resource Booking panel are filled with the Start Time and Travel Start Time values from the list view. 
 - When hovered on the Bookings on the Schedule Board, Booking card is displayed with a delay. 
-- A booking can be created for a Workorder in the Days, Weeks or Months views of the Schedule Assistant. 
+- A booking can be created for a Work order in the Days, Weeks, or Months views of the Schedule Assistant. 
 - Schedule Board loads Bookings of Resources, even with Resources who have no calendar or have multiple calendars. 
 - Rebook for Bookings would work even with null values of the filters passed to the Schedule Assistant. 
 - The Schedule Board and Schedule Assistant will load Booking and Resource Availability on the Internet Explorer ### Version 11.
@@ -135,39 +135,39 @@
 ### Version 3.10.0.239
 
 - Only valid hex characters can be entered on the Status Color field on Booking Status form
-- The overlapping bookings in the vertical view of the Schedule Board are separated by 1 px spacing. 
+- The overlapping bookings in the vertical view of the Schedule Board are separated by 1-px spacing. 
 - Non-working hours color name is consistent across the Schedule Board tab settings and the Schedule Board Settings configuration record. 
 - Long names will be wrapped inside the Booking tooltip. 
-- Deletion of a Resource is not allowed if it has any group memberships active or inactive, parent or child, has any associations active or inactive, resource 1 or resource 2. 
+- Deletion of a Resource is not allowed if it has any group memberships active or inactive, parent, or child, has any associations active or inactive, resource 1 or resource 2. 
 - When default sorting is added to the Schedule Assistant Retrieve Constraints UFX query in the default Schedule Board Settings, the Sort By filter of the Schedule Assistant is pre-filled with the field by which sorting is done and the Returned resources are sorted accordingly. 
 - A few accessibility issues on the schedule board are fixed. 
-- Schedule Board to load the Resources in Days, Weeks and Months views with resources having a valid calendar and wouldn’t fatally fail if a Resource has an invalid calendar. 
+- Schedule Board to load the Resources in Days, Weeks, and Months views with resources having a valid calendar and wouldn’t fatally fail if a Resource has an invalid calendar. 
 - Combo control filter with multi=false, the selected value will show in the filter. 
 - Active Resource Requirements view is sorted on Created On by descending order. 
 - Derive Capacity from Group Members field on the Pool Resource form can be set to Yes or No as required. 
 - Search Resources can be used to search Resources in the suggested Resources in the List view of the Schedule Assistant. 
 - Custom Booking Template with fields from linked entities of Bookings is supported. 
-- Resource Type filter on the Schedule Assistant will not remember the previously selected values, once un-selected. 
-- The Schedule Assistant loads as expected when clicked on Book button on a Workorder form in Arabic. 
+- Resource Type filter on the Schedule Assistant will not remember the previously selected values, once unselected. 
+- The Schedule Assistant loads as expected when clicked on Book button on a Work order form in Arabic. 
 - When a Booking is created by Schedule Assistant, the Booking Method field on the Booking form is populated as Schedule Assistant. 
 
 ### Version 3.9.0.42
 
-- The filter is not enabled for the Owner column on the Unscheduled Workorders Requirements view in the Requirement grid of the Schedule Board. 
+- The filter is not enabled for the Owner column on the Unscheduled Work orders Requirements view in the Requirement grid of the Schedule Board. 
 - The refresh button on the Requirement Grid is disabled while the grid is refreshing the data. 
 - Alignment for Resource icons and the Zoom slider on the Schedule Board are fixed for Arabic language.
 - When searching for Resources in one view like horizontal, when switched to another view, like List view, the search is still retained along with the search text and results. 
-- The Bookings can be moved to a different time or Resource by dragging and dropping the Booking on Days, Weeks and Months views of the Schedule Board. 
+- The Bookings can be moved to a different time or Resource by dragging and dropping the Booking on Days, Weeks, and Months views of the Schedule Board. 
 - Quick Scheduling would be using the As The Crow Flies approximations to calculate travel time if Bing maps integration is not enabled. 
 - Improved error messaging on the Schedule Assistant when looking for available resources and on the Schedule Board when displaying the Bookings. 
 - When Auto Update Booking Travel  is enabled, and onsite Bookings are created by the Quick scheduling, the travel time to the subsequent bookings is updated based on the location of the previous booking. 
 - The Schedule Assistant search for available resources will be successful with continuous multiple associations on a single day for a Resource type facility. 
 - When an onsite Requirement is selected in the Requirement grid, the location pin is selected and focused in the Map view. Once clicked on ‘Find Availability’, the Location pin on the Map view will stay selected entering and exiting the Schedule Assistant. 
-- Alignment of the fields on the Fulfilment Preferences form is fixed. 
+- Alignment of the fields on the Fulfillment Preferences form is fixed. 
 - Alignment of the Sort arrows on the Sort Options control on the Schedule Board is fixed. 
 - Time out issues request to msdyn_RetrieveResourceAvailability  is posted from a web app are fixed. 
 ### Enhancements
-- FetchXML query is replaced by Query expression for the action that fetches Workorder Bookings to improve the performance. 
+- FetchXML query is replaced by Query expression for the action that fetches Work order Bookings to improve the performance. 
 
 ### Version 3.8.0.105
 
@@ -206,7 +206,7 @@
 - Self-service scheduling API is now available to schedule the single resource requirement, with a corrected process name Resource Scheduling – Search Resource Availability and unique name msdyn_searchresourceavailability.
 - From and To date fields on the Resource Requirement entity are restricted to have only the User Local behavior to avoid Time Zone functionality loss on the schedule assistant and loss of the Time Zone data on resource requirements.
 - Added a suggestion to Service Health Diagnostics to show the suggestion/fix with manual steps when Resource Booking Sync job is disabled but the feature Synchronize resource bookings with Outlook is enabled.
-- When using URS on Unified Service Desk, the schedule board can be loaded without having to pass the full UCI context.
+- When using URS on Unified Service Desk, the schedule board can be loaded without having to pass the full Unified Interface context.
 - Quick Scheduling now supports scheduling of onsite requirements.
 
 ### Version 3.7.0.70
@@ -274,7 +274,7 @@
 - Slider controls on the Scheduler Settings of the Schedule Board are aligned in the orgs with Right to Left Languages.
 - Error handling improvements on the Schedule Board. 
 - Resource Requirement Details associated view of Resource Requirements includes additional details like Duration, From and To fields. 
-- The Skills sub-grid in the Resource Requirement form will only show relevant data and hide the redundant data like the Resource Requirement name field. 
+- The Skills subgrid in the Resource Requirement form will only show relevant data and hide the redundant data like the Resource Requirement name field. 
 - On the Schedule Board, Bookings can be created with the Start/End Dates in the past.
 - Contains solution upgrade Improvements
 - Select Resources dialog opens for selection of Resources to be shown under the Schedule Board tab
@@ -289,7 +289,7 @@
 - Book button is displayed on the Resource Requirement form for the Users only with appropriate read/write privileges to the entity.
 - Resource Requirement for Facility type pool can be searched for Available Resources using the Schedule Assistant or Find Availability.
 ### Enhancements
-- Improvements are made to the Date Time controls by leveraging the Office fabric UI control on the Resource Requirement, Fulfillment Preferences and Time Group Detail forms. 
+- Improvements are made to the Date Time controls by leveraging the Office fabric UI control on the Resource Requirement, Fulfillment Preferences, and Time Group Detail forms. 
 - Scheduling Health Diagnostics provides capabilities to detect and suggest self-healing options with regards to the 
  - Unsupported Customizations on internal use only web resources
  - Actions and Workflows that are in draft state
@@ -381,7 +381,7 @@
 - Resources that are not associated or related to a facility will no longer return in facility searches. Currently, when a resource is setup to work at a facility through an association or as a child resource of a pool, URS does not account for travel to the facility. Therefore, only resources set to work at a facility will return in facility searches.
 - When using the schedule assistant to schedule a requirement group, if the requirement(s) work location is set to facility, and there are no options selected under “part of same” attribute, the search will execute as if part of same “Resource Tree” is selected.
 - Saving a filter on the Schedule Board now shows a green confirmation checkmark instead of a yellow warning symbol.
-- Warning message will now be displayed to a user if they try and change the latitude or longitude field on a booking.
+- Warning message will now be displayed to a user if they try to change the latitude or longitude field on a booking.
 - Added validation to check if a resource is associated to a Facility then it should not be allowed to be a child resource of a pool that is associated to a Facility or Facility pool for the same timeframe.
 
 
