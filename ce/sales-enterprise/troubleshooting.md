@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 Sales troubleshooting guide  | MicrosoftDocs"
 description: "A starting point for browsing troubleshooting content for Dynamics 365 Sales."
-ms.date: 03/24/2020
+ms.date: 03/26/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -95,5 +95,6 @@ manager: annbe
 
 
 </td><td>
-
+<h2>Developer guide</h2>
+<li><a href="developer/custom-plugin-handling-shared-variable.md" data-raw-source="[Custom plug-in handling using shared variable](developer/custom-plugin-handling-shared-variable.md)">Custom plug-in handling using shared variable</a></li>
 </td></tr>
