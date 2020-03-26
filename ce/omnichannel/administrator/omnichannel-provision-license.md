@@ -130,10 +130,10 @@ After Omnichannel for Customer Service application is successfully provisioned, 
 
 5. If required, you can also disable the previously enabled channel. For example, in this procedure, we will disable the Social channel. 
 
-6. On the **SMS** tab, clear the **Select to enable SMS in your organization** and **SMS Terms** check boxes to disable the SMS channel. When you clear the **Select to enable SMS in your organization** check box, a confirmation message is displayed to remove the channel. Select **Remove**.
+   On the **Social** tab, slide the toggle to enable social channels in your environment. A confirmation message is displayed to remove the channel. Select **Remove**.
 
     > [!div class=mx-imgBorder]
-    > ![Disable SMS channel](../media/disable-social.png "Disable Social channels")
+    > ![Disable Social channel](../media/disable-social.png "Disable Social channels")
 
 7. Select **Save** on the toolbar at the top of the page to start updating the instance.
 
