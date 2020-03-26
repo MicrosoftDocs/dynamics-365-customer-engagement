@@ -117,7 +117,15 @@ manager: sakudes
 
 </td>
 </tr>
-
+<tr>
+<td>
+<h2>Developer guide</h2>
+<li><a href="developer/enable-sales-order-processing-integration.md" data-raw-source="[Enable sales order processing integration](developer/enable-sales-order-processing-integration.md)">Enable sales order processing integration</a></li>
+<li><a href="developer/reference/manual-forecasting-entity-reference.md" data-raw-source="[Entity reference for manual forecasting](developer/reference/manual-forecasting-entity-reference.md)">Entity reference for manual forecasting</a></li>
+<li><a href="developer/reference/playbook-entity-reference.md" data-raw-source="[Entity reference for playbooks](developer/reference/playbook-entity-reference.md)">Entity reference for playbooks</a></li>
+<li><a href="developer/custom-plugin-handling-shared-variable.md" data-raw-source="[Custom plug-in handling using shared variable](developer/custom-plugin-handling-shared-variable.md)">Custom plug-in handling using shared variable</a></li>
+</td>
+</tr>
 </table>
 
 
