@@ -302,7 +302,7 @@ It is worth noting that, across multiple runs, it is possible to see more than t
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/ai-incident-type-suggestions-list.png)
 
-Incident type AI suggestions fall into 3 categories of recommendations.
+Incident type AI suggestions fall into 3 categories of suggestions.
 
 1. Work Order Product 
 
