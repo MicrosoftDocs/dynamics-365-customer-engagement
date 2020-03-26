@@ -77,6 +77,8 @@
 ## User Guide
 ### [Help resources for sales people](../sales-enterprise/user-guide.md)
 ### [Learn the basics](user-guide-learn-basics.md)
+### [Gain insights with dashboards](dashboards.md)
+### [Understand the sales pipeline chart and its phases](sales-pipeline-chart.md)
 ### [Send email using the enhanced email experience](enhanced-email.md)
 ### [Insert an email template](insert-email-template.md)
 ### [Create PDF documents](create-quote-pdf.md)
@@ -138,10 +140,12 @@
 ### [Troubleshooting leads](ts-leads.md)
 ### [Troubleshooting opportunities](ts-opportunities.md)
 ### [Troubleshooting orders](ts-orders.md)
+### [Troubleshooting products](ts-products.md)
 ### [Troubleshooting common entities](ts-oqoi.md)
 ### [Troubleshooting views](ts-views.md)
 ### [Troubleshooting forecasts](ts-forecasts.md)
-### [Troubleshooting Unified Interface](ts-unified-interface.md)
+### [Troubleshooting the Unified Interface](ts-unified-interface.md)
+### [Troubleshooting the sales pipeline chart](ts-sales-pipeline.md)
 ### [FAQs](faqs-sales.md)
 
 ## Integrations
