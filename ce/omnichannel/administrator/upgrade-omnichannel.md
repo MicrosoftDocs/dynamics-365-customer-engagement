@@ -26,7 +26,7 @@ Follow these steps to upgrade Omnichannel for Customer Service:
 3. Check for an upgrade notification for your environment. If an upgrade is available, click **Upgrade available** to upgrade your environment to the latest version.
 
      > [!div class=mx-imgBorder] 
-     > ![Upgrade Omnichannel](../media/upgrade-oc.png)
+     > ![Upgrade Omnichannel](../media/upgrade-oc.PNG)
 
     Click the **Upgrade** button.
          
