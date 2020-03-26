@@ -26,7 +26,7 @@ ms.topic: article
 
 When you sign in to Omnichannel for Customer Service, you can see your work items on the Omnichannel Agent Dashboard. For information, see [View agent dashboard and agent conversations](oc-agent-dashboard.md).
 
-## Prerequisites
+## Prerequisite
 
 Make sure that your administrator has configured a Teams channel.
 
@@ -46,9 +46,9 @@ In Omnichannel for Customer Service, you can:
 - [Manage sessions](oc-manage-sessions.md)
 - [Manage applications](oc-manage-applications.md)
 - Use productivity tools
-    - [Use agent scripts](oc-agent-scripts.md)
-    - [View Smart assist cards](oc-smart-assist.md)
-    - [Use productivity pane](oc-productivity-pane.md)
+  - [Use agent scripts](oc-agent-scripts.md)
+  - [View Smart assist cards](oc-smart-assist.md)
+  - [Use productivity pane](oc-productivity-pane.md)
 - [Create a record](oc-create-record.md)
 - [Search, link, and unlink a record](oc-search-link-unlink-record.md)
 - [Search for and share knowledge articles](oc-search-knowledge-articles.md)

@@ -29,6 +29,9 @@ ms.topic: article
 Make sure that the following prerequisites are met:
 
 - Teams is provisioned in your environment. For information, see [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
+  > [!NOTE]
+  >
+  > To enable Teams channel in an existing Omnichannel environment, you must upgrade to the latest version of Omnichannel for Customer Service. For more information, see [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md).
 - An app is created and configured in **Teams** > **App Studio**.
 
 ## Configure a Microsoft Teams channel in Omnichannel
@@ -65,6 +68,8 @@ Perform the following steps to create a Teams channel in Omnichannel.
 3. In **Step 2: Work distribution**, select the work stream that you created for Teams.
 4. Select **Save**. The Teams channel is saved.
 5. In **Step 3: Callback information**, copy the value that is displayed in **Bot ID**.
+    > [!div class=mx-imgBorder]
+    > ![Create a Teams channel](../media/teams-channel.png "Create a Teams channel")
 
 ### Step 3: Configure Teams details
 
