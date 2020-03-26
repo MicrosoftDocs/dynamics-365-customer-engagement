@@ -71,7 +71,7 @@ The Dynamics 365 Marketing April 2020 update includes several feature enhancemen
     - ***Historical view of subscription-list and GDPR consent-level changes:*** View subscription-list and GDPR consent-level historical changes without building your own report.
     - ***Accessibility checker:*** Check accessibility for emails, forms, and pages created using the Marketing content designer and receive guidance on suggested fixes.
 - **Marketing emails**
-    - ***New and improved email templates:*** New email templates with updated layout capabilities give you a head start on the design process.
+    - ***New and improved email templates:*** New email templates with updated layout capabilities improve accessibility and give you a head start on the design process.
     - ***Drag to resize elements:*** More intuitive controls enable you to drag and resize email content elements including images, dividers, and buttons.
     - ***Improved color picker:*** Improved color picker controls offer support across browsers and mobile devices.
     - ***Email-wide property controls:*** Updated property controls allow you to set email-wide properties, creating a consistent look with just a few clicks.
@@ -82,6 +82,8 @@ The Dynamics 365 Marketing April 2020 update includes several feature enhancemen
     - ***Upgraded error detection:*** Improved error checking for outgoing test messages.
     - ***Assess spam risk:*** Determine how likely it is for an email to be caught by spam filters through a risk assessment score of high, medium, or low.
     - ***Get recommendations:*** View what changes need to be made to improve the spam score and increase the chance for your email to land in your recipient's inbox.
+- **Marketing forms**
+    - ***Cascading forms:*** Added cascading form fields (parent/child fields) in marketing forms, improving form customization options.
 - **Segment management**
     - ***Simplified segment creation:*** Combine behavioral and demographic data directly within the dynamic segment editor.
     - ***Static segments are redesigned:*** Static segments now handle an unlimited number of total contacts (up to 10,000 at a time) and allow rule-based addition to list members.
@@ -95,12 +97,16 @@ The Dynamics 365 Marketing April 2020 update includes several feature enhancemen
     - Resolved error when changing event capacity parameters.
     - Improved event registration compatibility with third party plugins.
     - Resolved issue where the "Today" button functioned inconsistently in the calendar.
+    - Added customization options to set the first day of the week.
 - **General**
     - Resolved a Business Process Error message that appeared when Marketing pages were refreshed in a going live state.
     - Resolved issue where Marketing pages solutions uninstalls failed for old Marketing solutions.
     - Fixed an issue where a Quick Send solution overrode the contact entity "IsAuditEnabled" parameter.
     - Improved German translations.
     - Resolved Quick Send error when changing content settings.
+- **GDPR compliance**
+    - Added a consent and subscription change record log.
+    - Added ability to disable email tracking on a per contact basis.
 - **Marketing emails**
     - Resolved issue where the spellchecker did not function properly in the email content designer.
     - Fixed incorrect error messages in Spam Checker.
@@ -110,8 +116,10 @@ The Dynamics 365 Marketing April 2020 update includes several feature enhancemen
     - Improved publishing of segments created by third party plugins.
     - Improved AssistEdit functionality in segments.
     - Resolved error when filtering segment members by a single letter.
+    - Improved template design gallery interface.
 - **Social posting**
     - Resolved issue where social posting uninstalls failed for old Marketing solutions.
+    - Improved interface design for social posting.
 
 ## March 2020 update
 
