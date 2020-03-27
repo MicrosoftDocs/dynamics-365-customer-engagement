@@ -81,7 +81,7 @@ To see information about when a specific contact tends to open your messages, ho
 
 1. Open the **Insights** tab and then select **Email open times** from the tab navigator. This page includes three graphs that summarize how and when this contact interacts with your emails, plus a graph that shows the best time to email to this contact based on those results.
 
-    ![Enter the keyword name](media/smart-scheduler-insights.png "Enter the keyword name")
+    ![Enter the keyword name](media/automated-scheduler-insights.png "Enter the keyword name")
 
 1. Read the **Email open times** graph as follows:
 
