@@ -28,7 +28,7 @@ Without completing this step, you will not be able to:
 
 ## Prerequisites
 - Azure account and subscription
-- Dynamics 365 Field Service 
+- Dynamics 365 Customer Service 
 - CCS with IoTHub deployed though deployment app
 
 
