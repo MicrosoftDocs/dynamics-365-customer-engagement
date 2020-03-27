@@ -2,10 +2,8 @@
 title: "Create a forecast definition (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Define the data and period to use for the purpose of forecasting in Dynamics 365 Sales."
 ms.date: 10/01/2019
-ms.service: 
+ms.service:
   - "dynamics-365-sales"
-ms.custom: 
-  - "dyn365-sales"
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -25,7 +23,7 @@ manager: shujoshi
 
 Sales forecasting has security roles that are defined specifically to create and publish forecast definitions. The following security roles are defined in Dynamics 365 Sales for forecast: 
 
-| Security role        |	Description                                 |
+| Security role        |    Description                                 |
 |----------------------|----------------------------------------------|  
 |**Forecast manager**  | Create, assign, and edit forecast definition in your business unit and other business units that are subordinate to your business unit.<br> Delete forecast definitions that are defined only for your business unit.<br> Share forecast definitions with all users in your organization. <br> After the forecast definition is published, you can view and edit forecast at your business unit and other business units that are subordinate to your business unit. |
 |**Forecast user**     | Create forecast definitions only for yourself.<br> Edit and delete forecast definitions that are defined by you. <br> View forecast definitions that are defined for your business unit.<br> You can only view and edit forecast that are defined by you, after the forecast definition is published. |
@@ -41,17 +39,17 @@ Before creating a forecast definition, review the following requisites:
  
 ## Create forecast definition
 
-1.	Sign in to Dynamics 365 Sales.
+1.    Sign in to Dynamics 365 Sales.
 
-2.  Select **Site map** ![Icon to open site map](media/site-map-new.png "Site map icon"), and in the lower-left corner of the site map, select **Change area** ![Icon to change the work area](media/change-area-icon.png "Change area icon"), and then select the **App Settings** area.	
+2.  Select **Site map** ![Icon to open site map](media/site-map-new.png "Site map icon"), and in the lower-left corner of the site map, select **Change area** ![Icon to change the work area](media/change-area-icon.png "Change area icon"), and then select the **App Settings** area.    
 
-3.	Select **Forecast definitions**.
+3.    Select **Forecast definitions**.
  
-4.	On the command bar, select **New**.
+4.    On the command bar, select **New**.
 
-5.	In the **General** section of the forecast definition record, enter the following information:
+5.    In the **General** section of the forecast definition record, enter the following information:
 
-    -  **Forecast name**. Enter a descriptive name that explains what the forecast is about. For example, **Jane’s team’s 2019 Quarterly Forecast**.
+    -  **Forecast name**. Enter a descriptive name that explains what the forecast is about. For example, **Jane's team's 2019 Quarterly Forecast**.
 
     -  **Forecast metric**. Select a metric for forecasting. This field is a lookup to the **Goal metric** entity. The field that you select here is used in aggregating data for the forecast. Only the opportunity fields of type amount (revenue) are available for selection. 
         
@@ -75,7 +73,7 @@ Before creating a forecast definition, review the following requisites:
 
     -  **Forecast period**. Select whether the forecast is to be generated monthly, quarterly or for a custom period. Quarterly is selected by default.
 
-    -  **Fiscal year**. Select the fiscal year for the forecast. This is populated based on the org’s fiscal year settings.
+    -  **Fiscal year**. Select the fiscal year for the forecast. This is populated based on the org's fiscal year settings.
 
     -  **Start month/Start quarter**. Select when to start forecasting. If you select the forecast period as Monthly, select the month from which you want to start forecasting. If you select the forecast period as Quarterly, select the quarter from which forecasting should start.
 
@@ -88,20 +86,19 @@ Before creating a forecast definition, review the following requisites:
 
     -  **End date**. If you selected **Custom** in **Forecast period**, select the end date to identify the date when the forecasting should stop.
 
-7.	Select **Save**.
+7.    Select **Save**.
 
-8.	To generate forecasts based on this definition, publish the forecast definition. On the command bar, select **Publish**. After a forecast definition is published, it becomes read-only.
+8.    To generate forecasts based on this definition, publish the forecast definition. On the command bar, select **Publish**. After a forecast definition is published, it becomes read-only.
  
-Generating a forecast is a background process. After all the forecasts are generated, the forecast definition’s status and status reason is set to Published and Success respectively.
+Generating a forecast is a background process. After all the forecasts are generated, the forecast definition's status and status reason is set to Published and Success respectively.
 
 > [!div class="mx-imgBorder"]
 > ![Published forecast definition](media/published-forecast-definitions.png "Published forecast definition")
 
 > [!NOTE]
-> If the publishing fails, the forecast definition’s status and status reason is set to Published and Failed respectively. To learn more, see [Why am I unable to publish forecast definition? ](../sales-enterprise/troubleshooting.md#why-am-i-unable-to-publish-forecast-definition).
+> If the publishing fails, the forecast definition's status and status reason is set to Published and Failed respectively. To learn more, see [Why am I unable to publish forecast definition? ](../sales-enterprise/ts-forecasts.md#publish_forecast_definition).
 
 ## See also
 
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
-
 [View forecasts](view-forecasts.md)

@@ -1,7 +1,7 @@
 ---
 title: "Customize the opportunity Close form (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "Customize the opportunity close experience in Dynamics 365 Sales Professional to enable sales reps to capture important details about why an opportunity was closed."
-ms.date: 10/11/2019
+ms.date: 03/18/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -31,11 +31,13 @@ System administrators or customizers can add the Opportunity Close entity to the
 
 -   Customization of views
 
-Any custom attribute added to the **Opportunity Close** form must be added to the **Opportunity Close** entity. If the attribute added to the **Opportunity Close** form belongs to a different entity, it must be maintained in both the entities with a mapping of the attributes between the entities. After an **Opportunity Close** record is created, mapped attributes must be updated in the other entity records. Example: If the **Opportunity Close** form needs to capture the ‘Purchase process’, which belongs to the Opportunity entity, the attribute ‘Purchase process’ must be maintained in both **Opportunity Close** and **Opportunity** entities, and the data between the two entities must be synchronized. You can write a client-side code (form scripting or web resources) or server-side plugin to keep the data in sync between the two entities. 
+To capture any additional custom information during opportunity close, custom attributes (fields) must be added to Opportunity Close entity and their forms. If this additional information is to be made available on other entities, then the data must be maintained in both entities. After an **Opportunity Close** record is created, the data for custom attributes that must be available in other entity records must be updated in the other entity records. Example: If **Opportunity Close** form needs to capture the ‘Purchase process’, which belongs to the Opportunity entity, the attribute ‘Purchase process’ must be maintained in both **Opportunity Close** and **Opportunity** entities, and the data between the two entities must be synchronized. You can write a client-side code (form scripting or web resources) or server-side plugin to keep the data in sync between the two entities. 
 
 
 > [!NOTE]
-> You may see data consistency issues if the attribute value in Opportunity Close isn't synchronized with the main entity when an Opportunity is closed or if the attribute is updated in the main entity after the Opportunity was closed.
+> - You may see data consistency issues if the attribute value in Opportunity Close isn't synchronized with the main entity when an Opportunity is closed or if the attribute is updated in the main entity after the Opportunity was closed.
+> - To learn how to enable the opportunity customization experience, see [Enable customization of the Opportunity Close form](enable-opportunity-close-customization-sales-professional.md)
+
 
 
 ## Add Opportunity Close entity to the Sales Professional app module
@@ -110,12 +112,15 @@ After you’ve created the fields that are required by your organization, add th
 5.  Select **Save and Close**.
 
     > [!IMPORTANT]
-    > The Opportunity entity has the following statuses, which aren’t customizable: Open, Won, Lost. However, you can add multiple status reasons corresponding to the Won and Lost statuses. If you add custom values to a Status Reason field against a state (Won/Lost) in the Opportunity entity, you must add the same custom value to the OpportunityStatusCode field (attribute) on the Opportunity Close entity manually. This displays the correct customized values with right defaults preselected for each opportunity Win and Loss state.
+    > The Opportunity entity has the following statuses, which aren’t customizable: Open, Won, Lost. However, you can add multiple status reasons corresponding to the Won and Lost statuses. It is important to ensure that the custom status reasons added for Opportunity are also present in a special attribute of Opportunity Close entity with schema name "OpportunityStatusCode". If you add custom values to a Status Reason field against a state (Won/Lost) in the Opportunity entity, you must add the same custom value to the special attribute OpportunityStatusCode on the Opportunity Close entity manually and vice versa. This displays the correct customized values with right defaults preselected for each opportunity Win and Loss state.
+    
+    > [!NOTE]
+    > There are two fields on Opportunity Close entity with display name as "Status Reason" but with schema names as statuscode and opportunitystatuscode. It is important to note that custom status reasons should be added to the opportunitystatuscode attribute and not to the statuscode attribute.
 
 6.  Open the **Information** form of type **Main**, and make the same changes that you did in Step 4.
 
-    The sales representatives or managers have a way to open the **Opportunity Close** record after an opportunity is closed, which uses the **Information** form. For these newly added or removed fields to reflect on the **Information** form, the changes must be made to the **Information** form, too.
-
+    The sales representatives or managers can view the **Opportunity Close** record after an opportunity is closed 
+either from the Opportunity timeline or from the **Related Activities** grid, which uses the **Information** form. For these newly-added or removed fields to reflect on the **Information** form, the changes must be made to the **Information** form, too.
 
 ### See also
 [Create or edit opportunities](manage-opportunities-sales-professional.md#close-an-opportunity)  
