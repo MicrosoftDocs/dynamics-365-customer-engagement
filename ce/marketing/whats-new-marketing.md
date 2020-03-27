@@ -23,7 +23,7 @@ search.app:
 
 # What's new in Dynamics 365 Marketing
 
-We're excited to announce our newest updates! This topic summarizes early access features, preview features, monthly general availability enhancements, and bug fixes. To see long-term feature plans, take a look at the [Dynamics 365 and Power Platform release plans](https://docs.microsoft.com/dynamics365/release-plans/).
+We're excited to announce our newest updates! This article summarizes early access features, preview features, monthly general availability enhancements, and bug fixes. To see long-term feature plans, take a look at the [Dynamics 365 and Power Platform release plans](https://docs.microsoft.com/dynamics365/release-plans/).
 
 Microsoft rolls out updates on a region-by-region basis. Updates are available to all regions by the end of the month. We recommend updating all Marketing instances as soon as an update is available.  To update your instances, follow the steps in [Keep Marketing up to date](apply-updates.md). To ensure your Marketing apps are up to date, you must manually update each Marketing instance.
 
@@ -107,14 +107,14 @@ The Dynamics 365 Marketing April 2020 update includes several feature enhancemen
 
 - **Event management**
     - Resolved error when changing event capacity parameters.
-    - Improved event registration compatibility with third party plugins.
+    - Improved event registration compatibility with third-party plugins.
     - Resolved issue where the "Today" button functioned inconsistently in the calendar.
 - **General**
     - Resolved a Business Process Error message that appeared when Marketing pages were refreshed in a going live state.
     - Resolved issue where Marketing pages solutions uninstalls failed for old Marketing solutions.
     - Fixed an issue where a Quick Send solution overrode the contact entity "IsAuditEnabled" parameter.
     - Resolved Quick Send error when changing content settings.
-    - Templates are now saved according to the selected template default language instead of the default language of the Marketing instance.
+    - Templates are now saved in the default selected template language, not the default language of the Marketing instance.
 - **Marketing emails**
     - Resolved issue where the spellchecker did not function properly in the email content designer.
     - Fixed incorrect error messages in spam checker.
@@ -122,7 +122,7 @@ The Dynamics 365 Marketing April 2020 update includes several feature enhancemen
     - Improved German translations.
     - Resolved an issue where selecting an image in the file selector would occasionally result in an error screen.
 - **Segment management**
-    - Improved publishing of segments created by third party plugins.
+    - Improved publishing of segments created by third-party plugins.
     - Improved AssistEdit functionality in segments.
     - Resolved error when filtering segment members by a single letter.
 - **Social posting**
@@ -160,7 +160,7 @@ The Dynamics 365 Marketing March 2020 update includes several feature enhancemen
     - Added the ability to set a registration cutoff date for events.
     - Improved recurrent event behavior.
 - **Marketing forms**
-    - You can now whitelist allowed domains instead of whitelisting individual forms pages.
+    - You can now allow list domains instead of allow listing individual forms pages.
 - **Segment management**
     - Improved date operations for anniversaries and relative dates.
     - Improved visibility for Export to Excel feature.
@@ -172,14 +172,14 @@ The Dynamics 365 Marketing March 2020 update includes several feature enhancemen
     - Disabled ability to upload file types with mismatched file extension.
 - **Entitlement**
     - Resolved issue where some users were unable to reinstall a Marketing instance after an entitlement was freed.
-- **GDPR**
-    - Disabled behavior tracking for consent confirmation.
 - **Marketing list**
     - Resolved issue where the delete button was sometimes not functional in the web client.
 - **Segment management**
     - Resolved issue where members of static segments did not import correctly from Customer Insights.
     - Fixed an issue where a "Business process error" could result after a successful first run experience in a disconnected org.
     - Decimal input is now supported in floating number fields.
+- **User tracking**
+    - Disabled behavior tracking for consent confirmation.
 
 ## February 2020 update
 
