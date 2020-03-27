@@ -22,7 +22,7 @@ To help you understand the current state of a device, its repair history, and th
 
 The device readings chart is available on the IoT alert, work order, case, device, and asset forms.
 
-To enable the device readings chart, administrators need to deploy Azure Time Series (Preview) into the Azure subscription when deploying or upgrading Connected Field Service with Azure IoT Hub for their organization. Administrators do the deployment through the [IoT Deployment app (aka.ms/deploycfs).](https://aka.ms/deploycfs)  
+To enable the device readings chart, administrators need to deploy Azure Time Series (Preview) into the Azure subscription when deploying or upgrading Connected Customer Service with Azure IoT Hub for their organization. Administrators do the deployment through the IoT Deployment app.  
 
 
 ## Prerequisites
@@ -32,7 +32,7 @@ To enable the device readings chart, administrators need to deploy Azure Time Se
 
 ## Enable the device readings chart
 
-1. Open the Connected Customer Service [IoT Deployment app (aka.ms/deploycfs).](https://aka.ms/deploycfs) 
+1. Open the Connected Customer Service [IoT Deployment app](https://iotdeployment.dynamics.com/). 
 2. Select the Dynamics 365 organization where the IoT solution will be deployed. 
 3. Select the Azure subscription and the Azure Resource Group. (Note: Select **Upgrade deployment** if  you're updating an existing Connected Customer Service for IoT Hub deployment.)
 4. Select the **Deploy Time Series Insight Preview** checkbox.
