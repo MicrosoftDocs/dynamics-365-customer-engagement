@@ -251,7 +251,7 @@ Next, deploy and connect Azure IoTHub to your Customer Service environment by go
 ## View the IoT dashboard
  The default IoT dashboard provides data on registered devices and alerts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or customize dashboards](../customize/create-edit-dashboards.md)
 
-1.  From the main menu, click **Field Service** or **Internet of Things**.
+1.  From the main menu, click **Customer Service** or **Internet of Things**.
 
 2.  Click **Dashboard**.
 
