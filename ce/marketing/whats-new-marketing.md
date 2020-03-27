@@ -52,46 +52,58 @@ The Dynamics 365 Marketing April 2020 update includes several feature enhancemen
 
 ### General availability enhancements
 
-- **Customer journeys**
-    - ***Analyze marketing data in Excel:*** Export marketing results directly to Excel.
-    - ***View data on your terms:*** View marketing results in Marketing or Excel.
-    - ***Expiration dates and times for time-sensitive content:*** Set static expirations for date and time. For example, March 31, 2020, at 10:00 PM in the customer's time zone.
-    - ***No outdated messages:*** Any contact who enters an email tile after the tile expiration date won't receive the email message.
-    - ***Determine who didn't receive your message:*** Information on contacts who didn't receive a message due to an expiration date is captured and available from email and journey insights.
-    - ***Warning when stopping live records:*** Before stopping email messages, forms, or segments used by live customer journeys, the user sees a warning message to help prevent the user from inadvertently corrupting an entity used in a live journey.
-    - ***Send email messages based on contact interactions:*** Based on past interactions with marketing email messages, the automated scheduler uses machine learning to find the days and times when each contact is most likely to be actively reading their email messages.
-    - ***Automatically select the best time to send an email message:*** By analyzing historical data, the automated scheduler automatically selects the best times to send the next email message for each contact, within a time window that you specify.
+- **Ability to test-send dynamic email messages**
+    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/ability-test-send-dynamic-email-messages)
+    - Docs
+- **Automated scheduler**
+    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/smart-scheduler)
+    - Docs
+- **Compliance made easier**
+    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/compliance-made-easier)
+    - Docs
+- **Improved segment design and management**
+    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-segment-design-management)
+    - Docs
+- **Spam checker**
+    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/spam-checker)
+    - Docs
+- **Improved event management experience**
+    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-event-management-experience)
+    - Docs
+- **Support for surveys using Microsoft Forms Pro**
+    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/support-surveys-using-forms-pro)
+    - Docs
+- **Export marketing results data to Excel for further analysis**
+    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/export-data-excel-further-analysis)
+    - Docs
+- **Improved email content designer**
+    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-email-content-designer)
+    - Docs
+- **Improved customer journey experience**
+    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-customer-journey-experience)
+    - Docs
+
+### Monthly feature updates
+
 - **Event management**
-    - ***Use marketing forms in events:*** Event planners can now use marketing forms in events, allowing a familiar drag-and-drop interface and more types of fields when creating event registrations.
-    - ***Embed registration forms into any CMS:*** For the first time, event registration forms can be embedded into any third-party content management system (CMS).
-    - ***Design forms within the event:*** Event planners can design event registration forms from the event entity without leaving the event.
-- **Microsoft Forms Pro integration**
-    - ***Survey integration:*** Create surveys using Microsoft Forms Pro.
-    - ***Automated survey responses:*** Include automated survey responses in criteria for segmentation or lead scoring, or when branching a customer journey.
-- **GDPR compliance**
-    - ***Consolidated opt-in confirmation messages:*** Combine multiple notifications and confirmation requests into a single message, such as combining updated GDPR consent with multiple new subscriptions.
-    - ***Historical view of subscription-list and GDPR consent-level changes:*** View subscription-list and GDPR consent-level historical changes without building your own report.
-    - ***Accessibility checker:*** Check accessibility for emails, forms, and pages created using the Marketing content designer and receive guidance on suggested fixes.
+    - Improved calendar control with new options to set the first day of the week.
+- **GDPR**
+    - Added a consent and subscription change record log.
+    - Disable email tracking on a per contact basis.
 - **Marketing emails**
-    - ***New and improved email templates:*** New email templates with updated layout capabilities improve accessibility and give you a head start on the design process.
-    - ***Drag to resize elements:*** More intuitive controls enable you to drag and resize email content elements including images, dividers, and buttons.
-    - ***Improved color picker:*** Improved color picker controls offer support across browsers and mobile devices.
-    - ***Email-wide property controls:*** Updated property controls allow you to set email-wide properties, creating a consistent look with just a few clicks.
-    - ***More customization options:*** Picture-over-picture and button-over-picture capabilities add flexibility to your designs. To help boost email open rates, you can add custom preheaders with tailored email message preview text. Rounded corners and individually customizable columns offer even more design possibilities.
-    - ***Improved email preview:*** Preview fields with resolved dynamic text. The enhanced preview means you'll see exactly how your messages will look when customers receive them.
-    - ***Updated forms and pages designers:*** The email content designer improvements are also available in the forms and pages designers.
-    - ***Test-send dynamic content:*** Create test messages that contain fully rendered dynamic content (including dynamic field values, entity relationships, loops, and conditionals) based on a selected sample contact record.
-    - ***Upgraded error detection:*** Improved error checking for outgoing test messages.
-    - ***Assess spam risk:*** Determine the likelihood that an email will be caught by spam filters the built in risk assessment score.
-    - ***Get recommendations:*** View what changes need to be made to improve the spam score and increase the chance for your email to land in your recipient's inbox.
+    - New modern and accessible email templates.
+    - Accessibility checker for emails, forms, and pages with guidance on suggested fixes.
 - **Marketing forms**
-    - ***Cascading forms:*** Cascading form fields (parent/child fields) in marketing forms, improving form customization options.
+    - Cascading form fields (parent/child fields) are now available in marketing forms, expanding customization options.
+- **Marketing insights**
+    - Upload any file using the provided access token.
 - **Segment management**
-    - ***Simplified segment creation:*** Combine behavioral and demographic data directly within the dynamic segment editor.
-    - ***Static segments are redesigned:*** Static segments now handle an unlimited number of total contacts (up to 10,000 at a time) and allow rule-based addition to list members.
-    - ***Query selection:*** Select static segment contacts based on query and segment data.
-    - ***Time zone-aware segments:*** Segments are now time zone-aware, mirroring the time zone functionality in customer journeys.
-    - ***New partial date operator:*** Partial dates allow segments options for events such as "today," rather than specifying an exact date
+    - Improved template design gallery interface.
+    - Improved date picker operation by adding a "Within x" operator.
+- **Social posting**
+    - Improved interface design for social posting (LinkedIn, Twitter, Facebook).
+- **User tracking**
+    - Automatic bot detection for improved user tracking accuracy.
 
 ### Bug fixes
 
@@ -99,31 +111,24 @@ The Dynamics 365 Marketing April 2020 update includes several feature enhancemen
     - Resolved error when changing event capacity parameters.
     - Improved event registration compatibility with third party plugins.
     - Resolved issue where the "Today" button functioned inconsistently in the calendar.
-    - Added customization options to set the first day of the week.
 - **General**
     - Resolved a Business Process Error message that appeared when Marketing pages were refreshed in a going live state.
     - Resolved issue where Marketing pages solutions uninstalls failed for old Marketing solutions.
     - Fixed an issue where a Quick Send solution overrode the contact entity "IsAuditEnabled" parameter.
-    - Improved German translations.
     - Resolved Quick Send error when changing content settings.
     - Templates are now saved according to the selected template default language instead of the default language of the Marketing instance.
-- **GDPR compliance**
-    - Added a consent and subscription change record log.
-    - Added ability to disable email tracking on a per contact basis.
 - **Marketing emails**
     - Resolved issue where the spellchecker did not function properly in the email content designer.
-    - Fixed incorrect error messages in Spam Checker.
+    - Fixed incorrect error messages in spam checker.
     - Resolved issue where email content designer controls did not load properly if certain form fields were missing.
+    - Improved German translations.
     - Resolved an issue where selecting an image in the file selector would occasionally result in an error screen.
 - **Segment management**
     - Improved publishing of segments created by third party plugins.
     - Improved AssistEdit functionality in segments.
     - Resolved error when filtering segment members by a single letter.
-    - Improved template design gallery interface.
-    - Improved date picker operation by adding a "Within x" operator.
 - **Social posting**
     - Resolved issue where social posting uninstalls failed for old Marketing solutions.
-    - Improved interface design for social posting.
 
 ## March 2020 update
 
@@ -148,7 +153,7 @@ The Dynamics 365 Marketing March 2020 update includes several feature enhancemen
 - **Redesigned Get started page**
     - Updated cards and tiles with a more intuitive layout.
 
-### General availability enhancements
+### Monthly feature updates
 
 - **Customer journeys**
     - Custom channel names are now shown in the interaction timeline control.
@@ -169,7 +174,7 @@ The Dynamics 365 Marketing March 2020 update includes several feature enhancemen
     - Disabled ability to upload file types with mismatched file extension.
 - **Entitlement**
     - Resolved issue where some users were unable to reinstall a Marketing instance after an entitlement was freed.
-- **GDPR compliance**
+- **GDPR**
     - Disabled behavior tracking for consent confirmation.
 - **Marketing list**
     - Resolved issue where the delete button was sometimes not functional in the web client.
@@ -213,7 +218,7 @@ The Dynamics 365 Marketing February 2020 update includes an improved segment exp
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-customer-journey-experience)
     - [Docs](https://docs.microsoft.com/dynamics365/marketing/email-expire)
 
-### General availability enhancements
+### Monthly feature updates
 
 - **Customer journeys**
     - Improved handling of publishable entities in live customer journeys.
