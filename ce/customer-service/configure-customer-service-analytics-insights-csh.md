@@ -107,7 +107,7 @@ By default, users with the following security roles will be able to see **Insigh
 - Administrator
 - CSR Manager
 
-To change the security role, edit the permission of the security role to Customer Service Insights Configuration custom entity. For information, see [security roles](https://docs.microsoft.com/en-us/power-platform/admin/create-edit-security-role#edit-a-security-role).
+To change the security role, edit the permission of the security role to Customer Service Insights Configuration custom entity. For information, see [security roles](https://docs.microsoft.com/power-platform/admin/create-edit-security-role#edit-a-security-role).
 
 ### Share Customer Service Insights reports
 
@@ -116,6 +116,10 @@ On the **Analytics and insights settings** page, you can do the following:
 - View reports
 - Share reports
 - Change settings
+
+> [!IMPORTANT]
+>
+> After you share the reports, only those users who have a valid Customer Service Insights license can view them.
 
 ### View Customer Service Insights reports
 
