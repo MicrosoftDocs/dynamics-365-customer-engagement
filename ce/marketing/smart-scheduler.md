@@ -2,7 +2,7 @@
 title: "Improve email engagement with a automated scheduling (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to use smart scheduling to let the AI find the best times and days to deliver email messages to each contact in Dynamics 365 Marketing"
 keywords:
-ms.date: 06/12/2019
+ms.date: 04/03/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -13,7 +13,7 @@ author: alfergus
 ms.author: alfergus
 manager: shellyha
 ms.reviewer:
-topic-status: Drafting
+topic-status:
 search.audienceType: 
   - admin
   - customizer
