@@ -122,7 +122,7 @@ On the **Analytics and insights settings** page, you can do the following:
 Navigate to the **Service** > **Analytics and Insights** > **Insights (Preview)**. The Home page displays a dashboard view.
 
   > [!div class=ms-imgBorder]
-  > ![Customer Service Insights home](media/csi-reports-home "Customer Service Insights home")
+  > ![Customer Service Insights home](media/csi-reports-home.png "Customer Service Insights home")
 
 You can view the following KPIs:
 
@@ -133,6 +133,6 @@ You can view the following KPIs:
 
 ### See also
 
-[Introduction to Customer Service Analytics](introduction-customer-service-analytics.md)
+[Introduction to Customer Service Analytics and Insights](introduction-customer-service-analytics.md)
 
-[View and understand Customer Service Analytics](customer-service-analytics.md)
+[View and understand Customer Service Analytics and Insights](customer-service-analytics.md)
