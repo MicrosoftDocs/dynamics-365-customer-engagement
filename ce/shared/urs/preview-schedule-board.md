@@ -55,8 +55,8 @@ Go to **Resource Scheduling** > **Settings** > **Administration** > **Modify Sch
 
 1. Go to **Controls** tab.
 1. Enable it for web experience.
-1. Select the edit button then **Enable Preview**. **Optional:** choose a default schedule board.
-1. Publish changes.
+2. Select the edit button then **Enable Preview**.
+3. Publish changes.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the schedule board settings with attention to the controls option, along with the publish option.](../../field-service/media/schedule-board-new-enable-preview-pcf-control.png)
