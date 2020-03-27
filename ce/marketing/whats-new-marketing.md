@@ -87,9 +87,6 @@ The Dynamics 365 Marketing April 2020 update includes several feature enhancemen
 
 - **Event management**
     - Improved calendar control with new options to set the first day of the week.
-- **GDPR**
-    - Added a consent and subscription change record log.
-    - Disable email tracking on a per contact basis.
 - **Marketing emails**
     - New modern and accessible email templates.
     - Accessibility checker for emails, forms, and pages with guidance on suggested fixes.
@@ -104,6 +101,7 @@ The Dynamics 365 Marketing April 2020 update includes several feature enhancemen
     - Improved interface design for social posting (LinkedIn, Twitter, Facebook).
 - **User tracking**
     - Automatic bot detection for improved user tracking accuracy.
+    - Expanded controls to disable email tracking on a per contact basis.
 
 ### Bug fixes
 
