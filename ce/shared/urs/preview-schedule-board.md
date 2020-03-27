@@ -19,16 +19,16 @@ The new schedule board is faster and more responsive when:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the new schedule board.](../../field-service/media/schedule-board-new-accessability.png)
 
-### Usability and accessiblity
+### Usability and accessibility
 
-The new schedule board is a PowerApps Component Framework (PCF) control built on the Unified Client Interface, making it more flexible, supportable, and accessible. The new schedule board will work better on different screen sizes and across form factors. 
+The new schedule board is a Power Apps Component Framework (PCF) control built on the Unified Client Interface, making it more flexible, supportable, and accessible. The new schedule board will work better on different screen sizes and across form factors. 
 
 New color schemes and ways of depicting travel time make it easier for dispatchers to see statuses and details.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an outlined "ghost booking" to preview a schedule on the schedule board.](../../field-service/media/schedule-board-new-drag.png)
 
-For instance, the previous screenshot shows a new "ghost booking" feature that helps dispacthers know if a booking will fit into a schedule before the booking is even scheduled.
+For instance, the previous screenshot shows a new "ghost booking" feature that helps dispatchers know if a booking will fit into a schedule before the booking is even scheduled.
 
 ### Foundation for new capabilities
 
@@ -43,7 +43,7 @@ The new schedule board provides the foundation for future releases that will pro
 
 ## Enable new schedule board preview
 
-Once you enable the new schedule board, you'll see it in your envornment alongside the current schedule board. Once the new schedule board functionality matches the current schedule board, the new will replace the current.
+Once you enable the new schedule board, you'll see it in your environment alongside the current schedule board. Once the new schedule board functionality matches the current schedule board, the new will replace the current.
 
 To enable the new schedule board, sign in as a system administrator.
 
@@ -70,9 +70,9 @@ Go to the schedule board and use the toggle button in the top right of the sched
 ## Configuration considerations
 
 - During preview, the new schedule board is only available in English. 
-- The new schedule board will currently only appear within the Universal Resouurce Scheduling app - not yet available in other apps.
+- The new schedule board will currently only appear within the Universal Resource Scheduling app - not yet available in other apps.
 - After enabling the preview, if you uninstall the Universal Resource Scheduling solution, you'll have to disable the schedule board again.
-- The new schedule board is currently supported on Edge, Chrome, and Firefox browsers. Currently, Internet Explorer 11 is not supported.
+- The new schedule board is currently supported on Microsoft Edge, Chrome, and Firefox browsers. Currently, Internet Explorer 11 is not supported.
 
 ### When to use the new versus current schedule board
 
