@@ -14,7 +14,7 @@ applies_to:
   - ""
 ---
 
-# Installation and setup - Connected Field Service for IoT Hub
+# Installation and setup - Connected Customer Service for IoT Hub
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
