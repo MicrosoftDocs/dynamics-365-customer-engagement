@@ -25,7 +25,7 @@ applies_to:
 
 ## Overview
 
-You can configure the Customer Service Analytics dashboards in Customer Service Hub and share them with supervisors and service managers who can then view and analyse the different activities perform in Customer Service Hub. The following reports are available out of the box:
+You can configure the Customer Service Analytics and Customer Service Insights reports in Customer Service Hub and share them with service managers who can then view and analyse the different activities performed in Customer Service Hub. The following reports are available out of the box:
 
 - **Analytics reports:** Customers can view business intelligence (BI) analytics and metrics for their customer service organisation.
 - **Insights reports:** Customers can view Customer Service Insights reports with a combination of BI analytics and artificial intelligence (AI) insights for their organisation.
@@ -35,31 +35,25 @@ You can configure the Customer Service Analytics dashboards in Customer Service 
 Make sure that the following prerequisites are met:
 
 - Administrative privileges for Dynamics 365.
-- Valid Customer Service Insights license.
-
-## Install Customer Service Insights reports
-
-Perform the following steps to install the Customer Service Insights reports:
-
-1. Sign in to Dynamics 365 as an administrator, and navigate to Customer Service Hub.
-2. In the **Change area**, select **Service Management** > **Settings (Preview)**. The **Analytics and insights settings** page appears.
-3. Select **Get started**. The **Install Customer Service Insights** page displays the installation process.
-4. Select **Go to settings**. The **Analytics and insights settings** page is displayed.
-    > [!div class=ms-imgBorder]
-    > ![Customer Service Insights reports installed](media/csi-reports-installed-settings.png "Customer Service Insights reports installed")
+- Valid Customer Service Insights license is required to install and configure Customer Service Insights reports.
+  > [!NOTE]
+  >
+  > The Customer Service Insights license is seeded for customers who have licenses for Dynamices 365 Customer Service Enterprise.
 
 ## Configure Customer Service Analytics reports in Customer Service Hub
 
-Perform the following steps to configure the dashboards:
+### Enable Customer Service Analytics reports
+
+Perform the following steps to enable the reports:
 
 1. Sign in to Dynamics 365 as an administrator, and navigate to Customer Service Hub.
 2. In the **Change area**, select **Service Management** > **Settings (Preview)**. The **Analytics and insights settings** page appears.
     > [!div class=ms-imgBorder]
-    > ![Customer Service analytics install](media/cs-analyticsinsights-configure.png)
+    > ![Customer Service analytics install](media/cs-analyticsinsights-configure.png "Customer Service analytics install")
 
 3. In **Analytics reporting**, switch the toggle to **Enabled**. A provisioning message displays, and **Share reports** appears after the provisioning is complete.
 
-## Share Customer Service Analytics reports
+### Share Customer Service Analytics reports
 
 You can share the reports from the **Service Management** > **Settings (Preview)** > **Analytics and insights settings** page or **Service** > **Analytics and Insights** > **Reports (Preview)** > **Data Analytics Reports** page.
 
@@ -75,11 +69,11 @@ You can share the reports from the **Service Management** > **Settings (Preview)
 5. Search for users, and add them. The users appear in the table.
 6. Select the permissions that you want to grant on the report, and select **Share**. The report is shared with the selected users.
 
-## View Customer Service Analytics reports
+### View Customer Service Analytics reports
 
-The service managers and supervisors nust have the admin or the service manager role to view the reports. Users with CSR Manager role will be able to view the reports only after the reports are shared with them.
+The service managers nust have the admin or the service manager role to view the reports. Users with CSR Manager role will be able to view the reports only after the reports are shared with them.
 
-You can see the reports by navigating to the **Service** > **Analytics and Insights** > **Reports (Preview)** > **Data Analytics Reports** page. You must have the Customer Service Insights license to view the Insights reports.
+You can see the reports by navigating to the **Service** > **Analytics and Insights** > **Reports (Preview)** > **Data Analytics Reports** page.
 
 ### Case Summary report
 
@@ -91,30 +85,54 @@ You can see the reports by navigating to the **Service** > **Analytics and Insig
 > [!div class=mx-imgBorder]
 > ![Agent Summary report](media/cs-analytics-agent-summary.png "Agent Summary report")
 
-## View Customer Service Insights dashboard
-if you have the Customer Service Insights license assigned, you can do the following:
+## Configure Customer Service Insights reports
+
+### Install Customer Service Insights reports
+
+Perform the following steps to install the Customer Service Insights reports:
+
+1. Sign in to Dynamics 365 as an administrator, and navigate to Customer Service Hub.
+2. In the **Change area**, select **Service Management** > **Settings (Preview)**. The **Analytics and insights settings** page appears.
+3. Select **Get started**. The **Install Customer Service Insights** page displays the installation process. After the installation, **Go to settings** appears.
+    > [!div class=ms-imgBorder]
+    > ![Customer Service Insights reports install](media/install-csi-reports-csh.png)
+4. Select **Go to settings**. The **Analytics and insights settings** page is displayed.
+    > [!div class=ms-imgBorder]
+    > ![Customer Service Insights reports installed](media/csi-reports-installed-settings.png "Customer Service Insights reports installed")
+
+### Change security roles
+
+By default, users with the following security roles will be able to see **Insights (Preview)** in the site map:
+
+- Administrator
+- CSR Manager
+
+To change the security role, edit the permission of the security role to Customer Service Insights Configuration custom entity. For information, see [security roles](https://docs.microsoft.com/en-us/power-platform/admin/create-edit-security-role#edit-a-security-role).
+
+### Share Customer Service Insights reports
+
+On the **Analytics and insights settings** page, you can do the following:
+
 - View reports
 - Share reports
 - Change settings
-- 
-Perform the following steps to view reports
-:
-1. On the **Analytics and insights settings** page, select **View report**.
 
-    > [!div class=ms-imgBorder]
-    > ![Customer Service Insights reports installed](media/csi-reports-installed-settings.png "Customer Service Insights reports installed")
- 
-  The Home page of the report is displayed.
+### View Customer Service Insights reports
 
-    > [!div class=ms-imgBorder]
-    > ![Customer Service Insights report](media/csi-report-page.png)
+Navigate to the **Service** > **Analytics and Insights** > **Insights (Preview)**. The Home page displays a dashboard view.
 
- 
+  > [!div class=ms-imgBorder]
+  > ![Customer Service Insights home](media/csi-reports-home "Customer Service Insights home")
 
+You can view the following KPIs:
+
+- KPI summary
+- New cases
+- Customer satisfaction
+- Resolutions
 
 ### See also
 
 [Introduction to Customer Service Analytics](introduction-customer-service-analytics.md)
 
 [View and understand Customer Service Analytics](customer-service-analytics.md)
-
