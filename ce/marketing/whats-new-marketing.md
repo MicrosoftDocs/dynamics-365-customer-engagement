@@ -114,7 +114,7 @@ The Dynamics 365 Marketing April 2020 update includes several feature enhancemen
     - Resolved issue where Marketing pages solutions uninstalls failed for old Marketing solutions.
     - Fixed an issue where a Quick Send solution overrode the contact entity "IsAuditEnabled" parameter.
     - Resolved Quick Send error when changing content settings.
-    - Templates are now saved in the default selected template language, not the default language of the Marketing instance.
+    - Templates are now saved in the default template language, not the default language of the Marketing instance.
 - **Marketing emails**
     - Resolved issue where the spellchecker did not function properly in the email content designer.
     - Fixed incorrect error messages in spam checker.
