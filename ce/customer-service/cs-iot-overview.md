@@ -101,8 +101,8 @@ The following is a list of Connected Customer Service actions that agents can ta
 
 1. **Convert an IoT alert to a case**: Agents can convert an IoT alert to a case that includes pre-populated IoT alert details.
 
-> [!div class="mx-imgBorder"]
-> ![Screen shot of a case with pre-populated IoT alert details](media/cs-iot-alert-details.png)
+  > [!div class="mx-imgBorder"]
+  > ![Screen shot of a case with pre-populated IoT alert details](media/cs-iot-alert-details.png)
 
 2. **View a customer’s device alert history**: Agents can view a customer’s device alert history by selecting the customer’s account. 
 
