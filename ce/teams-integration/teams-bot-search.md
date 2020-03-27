@@ -71,4 +71,4 @@ Use the bot menu for other actions such as change the environment or app module.
 > ![Open the bot menu](media/teams-bot-menu.png "Open the bot menu")-->
 
 ### See also  
-[Set up the Dynamics 365 bot](teams-install-app.md#set-up-the-dynamics-365-bot)  
+[Set up the Dynamics 365 bot](teams-install-app.md#bkmk_setup_dynamics365_bot)  

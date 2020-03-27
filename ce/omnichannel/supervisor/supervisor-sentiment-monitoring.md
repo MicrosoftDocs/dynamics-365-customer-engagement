@@ -45,7 +45,7 @@ To learn more, see [Explore Text Translator API](https://docs.microsoft.com/azur
 
 ## Personas
 
-The multi-language sentiment feature (preview) supports the following personas: adminstrator, supervisor (team lead), and agent.
+The multi-language sentiment feature (preview) supports the following personas: administrator, supervisor (team lead), and agent.
 
 - If you're an administrator:
 

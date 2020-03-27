@@ -2,7 +2,7 @@
 title: "Field Service Version History | MicrosoftDocs"
 ms.custom:
   - dyn365-fieldservice
-ms.date: 01/13/2020
+ms.date: 03/10/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -48,9 +48,18 @@ search.app:
 | Unified Interface  | 8.4  |  February 2019 |   | [Release notes for 8.4.0.338](https://blogs.msdn.microsoft.com/crm/2019/02/11/release-notes-for-field-service-version-8-4-0-338/) |
 | Unified Interface  | 8.3  |  December 2018 | SLA functionality for Work Orders, Connected Field Service solution included with Field Service   | [Release notes for 8.3.0.255](https://blogs.msdn.microsoft.com/crm/2018/12/21/release-notes-for-field-service-version-8-update-release-3/) |
 | Unified Interface | 8.0  |  July 2018 |  Multi-resource scheduling (requirement groups) |
-| Web |  7.5 |  February 2019 |  |    [Release notes for 7.5.6.97](https://blogs.msdn.microsoft.com/crm/2019/02/04/release-notes-for-field-service-version-7-5-6-97/), [7.5.7.87](https://cloudblogs.microsoft.com/dynamics365/it/2019/03/07/release-notes-for-field-service-version-7-5-7-87/), [7.5.8.93](https://cloudblogs.microsoft.com/dynamics365/it/2019/04/06/release-notes-for-field-service-version-7-5-8-93/) |
-| Web |  7.0 |  September 2017 |  Schedule board extensibility for custom resource matching |
+| Web |  7.5 |  February 2019 | Not supported | |
+| Web |  7.0 |  September 2017 | Not supported | |
 
+## Field Service Online End-of-Life for v7.x and earlier
+
+Online versions of Field Service v7 and earlier are [end of life](https://cloudblogs.microsoft.com/dynamics365/it/2019/05/17/announcing-end-of-life-for-field-service-online-legacy-versions-by-february-2020/) and no longer supported. Any support requests you submit for these versions of FS, will not be serviced by Microsoft until you upgrade to the latest version.
+ 
+Please upgrade legacy versions of Field Service directly from the admin center. 
+
+This is a significant upgrade which has a number of potentially disruptive changes including data model, mobile, and interface changes. Please review the [Field Service playbook](https://aka.ms/fsuciupgrade) for more information. Prior to applying the upgrade to production, please first test the upgrade on a non-critical, production-like environment.
+ 
+All customers are strongly advise to upgrade all legacy versions of FS and PSA to the latest solution versions, immediately.
 
 ## Field Service On-Premise
 
@@ -84,7 +93,7 @@ Mobile projects hold configurations and customizations of the Field Service Mobi
 To learn more about mobile projects, see our topic on [installing the Field Service Mobile Configuration Tool](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/install-field-service#install-the-field-service-mobile-configuration-tool).
 
 | Template version  | Release date | Relates to Field Service Mobile version |  Publish to Woodford Version | Minimum Field Service Version | 
-|---|---|---|---|---| --- |
+|---|---|---|---|---|
 | [1.0.3514](https://aka.ms/fsmobile-project)  |  January 2020  |  12.1+ | 12.1+ | 8.8.6.300 | 
 | [1.0.3482](https://aka.ms/fsmobile-project-3482)  |   November 2019  |  11.3+ | 11.3+ | 8.8.6.300 | 
 | [1.0.2735](https://aka.ms/fsmobile-project-2735)  |  August 2019  |  11.3 | 11.3 | | 

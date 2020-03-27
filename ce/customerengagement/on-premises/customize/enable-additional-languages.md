@@ -20,14 +20,11 @@ search.app:
   - D365CE
 ---
 
-<a name="BKMK_Localization"></a>   
 # Enable additional languages 
 
-
- 
- If your organization has people who use a language other than the base language you chose when you deployed Dynamics 365 Customer Engagement (on-premises), you can add more languages.  
+If your organization has people who use a language other than the base language you chose when you deployed Dynamics 365 Customer Engagement (on-premises), you can add more languages.  
   
- Before you can enable a language, you must first install the language pack. More information: [Install or upgrade Language Packs](../deploy/install-or-upgrade-language-packs.md) 
+Before you can enable a language, you must first install the language pack. More information: [Install or upgrade Language Packs](../deploy/install-or-upgrade-language-packs.md) 
   
 > [!NOTE]
 >  Enabling a language can take several minutes. During this time, people might not be able to use Dynamics 365 Customer Engagement (on-premises).  
