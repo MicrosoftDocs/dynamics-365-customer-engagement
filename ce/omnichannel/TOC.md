@@ -56,11 +56,12 @@
 #### [Work with queues](administrator/queues-omnichannel.md)
 #### [Manage users](administrator/users-user-profiles.md)
 #### [Show customers their position in queue](administrator/show-queue.md)
-#### Skill-based routing
-##### [Overview](administrator/overview-skill-work-distribution.md)
-##### [Skill-based routing and rating model](administrator/enable-skill-routing-create-rating-model.md)
-##### [Set up skills and assign agents](administrator/setup-skills-assign-agents.md)
-##### [Attach skills to conversation](administrator/attach-skills.md)
+
+### Skill-based routing
+#### [Overview](administrator/overview-skill-work-distribution.md)
+#### [Skill-based routing and rating model](administrator/enable-skill-routing-create-rating-model.md)
+#### [Set up skills and assign agents](administrator/setup-skills-assign-agents.md)
+#### [Attach skills to conversation](administrator/attach-skills.md)
 
 ### Work Distribution Management
 #### [Understand and create work streams](administrator/work-streams-introduction.md)
