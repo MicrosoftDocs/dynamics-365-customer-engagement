@@ -40,11 +40,9 @@ Here are the 3 things you need to get started building your own IoT solution:
       
     New to IoT and need an Azure subscription? We've got you covered. [Sign up for an Azure free trial.](https://azure.microsoft.com/free/)
 
-- **Dynamics 365 Connected Field Service add-on**  
+- **Dynamics 365 Connected Customer Service add-on**  
 
     The free Connected Customer Service add-on automatically provisions a number of Azure IoT services with predefined demo data seamlessly on top of Dynamics 365 Customer Service. The add-on comes with demo data that enables you to see the capabilities IoT data brings to Customer Service, including command modeling, customer asset to device mapping, IoT alert – to – case workflow, and more.  
- 
-    Wondering where to get it? [Go to AppSource to install the Connected Field Service add-on.](https://appsource.microsoft.com/product/dynamics-365/mscrm.58666c7d-65ee-452d-8708-70b4d471d4c0?tab=Overview)
    
 ## Documentation resources
 
