@@ -23,9 +23,9 @@ The SMS channel through Twilio in Omnichannel for Customer Service allows your o
 Make sure that the following prerequisites are met:
 
 - SMS for Twilio is provisioned in Omnichannel for Customer Service. For information, see [Provision Omnichannel for Customer Service](omnichannel-provision-license.md).
-    >  [!Note]
+    > [!Note]
     >
-    > To enable WeChat channel in an existing Omnichannel environment, you must upgrade to the latest version of Omnichannel for Customer Service. For information, see [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md).
+    > To enable the SNS channel for Twilio in an existing Omnichannel environment, you must upgrade to the latest version of Omnichannel for Customer Service. For information, see [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md).
 - A Twilio account with a phone number and subscription is available.
 
 ## Configure an SMS channel for Twilio in Omnichannel
