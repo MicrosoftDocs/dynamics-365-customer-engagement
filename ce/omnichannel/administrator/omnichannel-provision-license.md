@@ -72,12 +72,12 @@ To allow Omnichannel for Customer Service to read and write data on behalf of us
 4. Click the **Chat** tab and slide the toggle to enable the Chat channel for your organization. 
 
     > [!div class=mx-imgBorder]
-    > ![Enable chat](../media/enable-chat.png)
+    > ![Enable chat](../media/enable-chat.PNG)
 
 5. Click the **SMS** tab and slide the toggle to enable SMS. Select the check box to confirm that you agree to the SMS terms.
 
     > [!div class=mx-imgBorder]
-    > ![Enable SMS with Omnichannel](../media/enable-sms-with-omnichannel.png "Enable SMS with Omnichannel")
+    > ![Enable SMS with Omnichannel](../media/enable-sms-with-omnichannel.PNG "Enable SMS with Omnichannel")
 
     > [!IMPORTANT]
     > You must select the check box for **SMS Terms** to enable SMS and proceed with the setup.
