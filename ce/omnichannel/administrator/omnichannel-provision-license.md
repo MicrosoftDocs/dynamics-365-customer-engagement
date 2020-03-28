@@ -90,16 +90,15 @@ To allow Omnichannel for Customer Service to read and write data on behalf of us
 7. Click the **Microsoft Teams** tab and slide the toggle to enable Microsoft Teams. 
 
     > [!div class=mx-imgBorder]
-    > ![Enable Facebook Messenger with Omnichannel](../media/enable-teams.png "Enable Microsoft Teams with Omnichannel")
+    > ![Enable Facebook Messenger with Omnichannel](../media/enable-teams.PNG "Enable Microsoft Teams with Omnichannel")
 
 7. On the **Confirmation** page, verify your selections and click **Finish** to provision Omnichannel for Customer Service in your organization.
 
-    The setup can take several minutes. You may close the window and check after some time, or refresh to check if it's complete. Once the setup is complete, the selected channels are enabled in your environment.
 
     > [!div class=mx-imgBorder]
-    > ![Summary tab on Manage Omnichannel instances page](../media/manage-omnichannel-summary.png "Summary tab on Manage Omnichannel instances page")
+    > ![Summary tab on Manage Omnichannel instances page](../media/manage-omnichannel-summary.PNG "Confirmation page")
     
-    The organization and the enabled channels are also available in the **Manage Instances** view.
+    The setup can take several minutes. You may close the window and check after some time, or refresh to check if it's complete. Once the setup is complete, the selected channels are enabled in your environment.
 
     > [!div class=mx-imgBorder]
     > ![Set up complete](../media/install-complete.png)
