@@ -66,7 +66,7 @@ To allow Omnichannel for Customer Service to read and write data on behalf of us
 3. Select the environment in the drop-down list. 
 
     > [!div class=mx-imgBorder]
-    > ![select org](../media/select-org.png)
+    > ![select org](../media/select-org.PNG)
 
 
 4. Click the **Chat** tab and slide the toggle to enable the Chat channel for your organization. 
