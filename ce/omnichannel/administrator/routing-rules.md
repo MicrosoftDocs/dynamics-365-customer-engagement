@@ -35,24 +35,22 @@ Routing rule conditions could be based on channel context, pre-chat context, and
 To create a routing rule, select a work stream by navigating to **Work Distribution Management** > **Work Streams**, and define a new rule in the **Routing Rule Items** tab.
 
 1. Select **Add**. The **New Rule Item** page appears.  
-    1. In the **General information** section of the **General** tab, provide the following information: </br>
+   1. In the **General information** section of the **General** tab, provide the following information: </br>
       1. **Name**. Name of the rule item </br>
-      1. **Work Stream** is auto populated </br>
-      2. **Queue**. Look up a queue or select **New** to add a new queue. For more information, see [Create a new Omnichannel queue](queues-omnichannel.md#create-a-new-queue) </br>
-      3. **Description**. A brief description of the rule item.
+      2. **Work Stream** is auto populated </br>
+      3. **Queue**. Look up a queue or select **New** to add a new queue. For more information, see [Create a new Omnichannel queue](queues-omnichannel.md#create-a-new-queue) </br>
+   2. **Description**. A brief description of the rule item.
+   3. In the **Condition** section, provide the conditions for the rule. Based on the conditions defined, the conversations are routed to the correct queues. You can define the conditions based on the following:
+    - Entity
+    - Attribute or related entity
+    - Attribute
+    - Operator
+    - Value
 
-    2. In the **Condition** section, provide the conditions for the rule. Based on the conditions defined, the conversations are routed to the correct queues. You can define the conditions based on the following:
-       - Entity
-       - Attribute or related entity
-       - Attribute
-       - Operator
-       - Value
+    For an entity, you can define rules based on related level 1 attributes.
 
-       For an entity, you can define rules based on related level 1 attributes.
-
-       > [!div class=mx-imgBorder]
-       > ![related entity](../media/related-entity-rule-condition.png)
-
+    > [!div class=mx-imgBorder]
+    > ![related entity](../media/related-entity-rule-condition.png)
 2. Select **Save**.
 
       > [!div class=mx-imgBorder]

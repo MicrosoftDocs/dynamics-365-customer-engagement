@@ -30,9 +30,9 @@ In this stream, you see the conversations (work items) that you are actively wor
 
 ## Open work items
 
-In this stream, you see the conversations (work items) in a open state from all queues that you are added as a member. Select the ellipses and select the **Pick** option to assign the work item to yourself. When you select **Pick**, you get a notification, and when you accept it, a session starts and customer summary or case page loads. 
+In this stream, you see the conversations (work items) in a open state from all queues in which you are added as a member. Select the ellipses and select the **Assign to me** option to assign the work item to yourself. When you select a work item, you get a notification, and when you accept it, a session starts and customer summary or case page loads. 
 
-The work item that you picked is moved from the **Open work items** stream to the **My work items** stream. If you reject the request, then work item remains in the **Open work items** stream.
+The work item that you picked is moved from the **Open work items** stream to the **My work items** stream. If you reject the request, then the work item remains in the **Open work items** stream.
 
 ## Closed work items
 
