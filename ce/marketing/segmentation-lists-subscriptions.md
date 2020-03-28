@@ -1,7 +1,7 @@
 ---
 title: "Create segments and lists to establish target markets (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to create segments and lists that you can use to target customer journeys and manage subscriptions in Dynamics 365 Marketing"
-ms.date: 03/20/2020
+description: "Use segments and lists to target customer journeys and manage subscriptions in Dynamics 365 Marketing"
+ms.date: 03/23/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -23,7 +23,7 @@ search.app:
 
 # Working with segments
 
-Segments let you create groups of related contacts that you can target with customer journeys. Segments are created using the segment designer. You can build segments by querying across related entities including contacts, leads, accounts, events, marketing lists, and more. You can also query the marketing-insights service to find contacts that have engaged with your marketing initiatives, or contacts that you may be failing to reach (due to issues such as email bounces).
+Segments let you create groups of related contacts that you can target with customer journeys. Segments are created using the segment designer. One way to build segments is by querying across related entities including contacts, leads, accounts, events, marketing lists, and more. You can also query the marketing-insights service to find contacts that have engaged with your marketing initiatives. The marketing-insights service also allows you to query contacts that you aren't reaching because of issues such as email bounces.
 
 The segment designer resembles other querying tools found in Dynamics 365 (such as the advanced-find feature), but is more flexible and powerful. The segment designer is the only tool that lets you query interaction records from the marketing-insights service.
 
@@ -32,9 +32,9 @@ The segment designer resembles other querying tools found in Dynamics 365 (such 
 
 ## Segments in Dynamics 365 Marketing
 
-A market segment is a collection of contacts that you target with a customer journey. In some cases, you'll simply target all the contacts you have. But in most cases, you'll choose who you want to target based on demographic, firmographic, behavioral data, and other considerations.
+A market segment is a collection of contacts that you target with a customer journey. In some cases, you'll target all the contacts you have. But in most cases, you'll choose who you want to target based on demographic, firmographic, behavioral data, and other considerations.
 
-For example, if you're opening a new store in San Francisco, you'll probably promote the opening day event only to contacts who live near San Francisco. Or, if you're running a sale on dresses, you might only send related marketing email messages to your contacts who are female. If you want to target the contacts who have shown interest in the dresses in the past, you can narrow the segment by only targeting contacts who have opened emails related to dresses in the past. Decisions like these will typically also affect the way you communicate with the segment in terms of which channels you'll choose, what kind of graphics you'll pick, which kinds of arguments you make, and more.
+For example, if you're opening a new store in San Francisco, you'll probably promote the opening day event only to contacts who live near San Francisco. Or, if you're running a sale on dresses, you might only send related marketing email messages to your contacts who are female. You may want to target the contacts who have shown interest in the dresses in the past. In this case, you can narrow the segment by only targeting contacts who have opened emails related to dresses in the past. Decisions like these will affect how you communicate with the segment. These decisions will also influence which channels you'll choose, what kind of graphics you'll pick, which kinds of arguments you make, and more.
 
 ### Types of segments
 
@@ -45,8 +45,8 @@ Segments can be dynamic or static.
 
 Segments can have blocks of queries based on profiles, interactions, or other segments.
 
-- *Profile blocks* query the _profile_ records stored in the marketing-insights service. Profiles records are synced between your Dynamics 365 organizational database and the marketing-insights service and include the entities you normally work with in the Dynamics 365 UI, such as contacts, accounts, leads, and any other entities that you [choose to sync](mkt-settings-sync.md).
-- *Behavioral blocks* query the _interaction_ records stored in the marketing-insights service. Each of these records is generated automatically and related to a specific contact record. Interaction records are accessed to generate various insights displays in the Dynamics 365 Marketing UI, but they _aren't_ synced to the Dynamics 365 organizational database. They are generated in response to contact interactions such as opening an email, clicking an email link, submitting a form, or registering for an event.
+- *Profile blocks* query the _profile_ records stored in the marketing-insights service. Profiles records are synced between your Dynamics 365 organizational database and the marketing-insights service. Profile records include the entities you normally work with in the Dynamics 365 UI, such as contacts, accounts, leads, and any other entities that you [choose to sync](mkt-settings-sync.md).
+- *Behavioral blocks* query the _interaction_ records stored in the marketing-insights service. Each of these records is generated automatically and related to a specific contact record. Interaction records are accessed to generate various insights displays in the Dynamics 365 Marketing UI. Interaction records _aren't_ synced to the Dynamics 365 organizational database. They are generated in response to contact interactions such as opening an email, clicking an email link, submitting a form, or registering for an event.
 
 ### Segments are synced with the marketing-insights service
 
@@ -116,7 +116,7 @@ The **General** tab provides a few basic settings and general information about 
 
 - **Name**: The name of the segment as it appears in the segment list and when selecting segments for a customer journey.
 - **Created on**: The date the segment was created.
-- **Segment Type**: Shows the [segment type](#segment-types) (dynamic or static). This is permanently established when you first [create the segment](segmentation-lists-subscriptions.md#Create-and-go-live-with-a-new-segment).
+- **Segment Type**: Shows the [segment type](segmentation-lists-subscriptions.md#Types-of-segments) (dynamic or static). This is permanently established when you first [create the segment](segmentation-lists-subscriptions.md#Create-and-go-live-with-a-new-segment).
 - **External source**: For segments that are synced from an external source, such as Dynamics 365 Customer Insights, information about the external source is shown here.
 - **External segment URL**: For segments that are synced from an external source, such as Dynamics 365 Customer Insights, the URL of the external source is shown here.
 - **Time Zone**: Shows the time zone of the segment. This is the timezone that the segment uses to calculate dates relative to the current time. For example, if you choose the partial date operator "All contacts who registered for an event in the last three days," the three-day duration is calculated using the segment time zone.
