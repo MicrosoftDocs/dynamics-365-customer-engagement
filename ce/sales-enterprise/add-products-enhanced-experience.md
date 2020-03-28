@@ -122,7 +122,7 @@ There are two ways you can see more details about the product:
     > [!div class="mx-imgBorder"]  
     > ![Information icon to see product details](media/list-of-products-information-icon.png "Information icon to see product details")
 
-    A new pop-up window with the additional details opens.
+    A new pop-up window with additional details opens.
 
     > [!div class="mx-imgBorder"]  
     > ![Product details pop-up window](media/product-details-pop-up.png "Product details pop-up window")
