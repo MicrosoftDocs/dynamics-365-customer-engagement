@@ -63,6 +63,7 @@ Omnichannel for Customer Service January 2020 update is available in the followi
 ## Language availability
 
 The product user interface (UI) is available in the following languages.
+
 | | |
 |----------------|------------------|
 | English | Spanish |
