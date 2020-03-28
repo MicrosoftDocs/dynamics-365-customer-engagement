@@ -27,27 +27,30 @@ This could happen when an entity is set to be read-only in mobile.
 
 To resolve this: 
 
-1.    On the navigation bar in your app, select the **Settings** icon and then select **Advanced Settings**.
+1. On the navigation bar in your app, select the **Settings** icon and then select **Advanced Settings**.
 
-    ![Advanced Settings option on the Settings menu](media/advanced-settings-option.png "Advanced Settings option on the Settings menu")
+    > [!div class="mx-imgBorder"]  
+    >![Advanced Settings option on the Settings menu](media/advanced-settings-option.png "Advanced Settings option on the Settings menu")
 
     The **Business Management** page opens in a new browser tab.
 
-2.    On the navigation bar, select **Settings** and then select **Customizations**.
+2. On the navigation bar, select **Settings** and then select **Customizations**.
 
-    ![Select Customizations](media/customization-in-sitemap.png "Select Customizations")
+    > [!div class="mx-imgBorder"]  
+    > ![Select Customizations](media/customization-in-sitemap.png "Select Customizations")
  
-3.    On the **Customization** page, select **Customize the System**.
+3. On the **Customization** page, select **Customize the System**.
 
-4.    In the solution explorer, under **Components**, expand **Entities** and then select the specific entity that's appearing as read-only.
+4. In the solution explorer, under **Components**, expand **Entities** and then select the specific entity that's appearing as read-only.
 
-5.    On the **General** tab, under **Outlook & Mobile**, clear the **Read-only in mobile** check box.
+5. On the **General** tab, under **Outlook & Mobile**, clear the **Read-only in mobile** check box.
 
-    ![Setting to make an entity read-only in mobile](media/read-only-in-mobile-setting.png "Setting to make an entity read-only in mobile")
+    > [!div class="mx-imgBorder"]  
+    > ![Setting to make an entity read-only in mobile](media/read-only-in-mobile-setting.png "Setting to make an entity read-only in mobile")
  
-6.    Save and publish the customizations.
+6. Save and publish the customizations.
 
-7.    In the Sales Hub app, refresh the window. 
+7. In the Sales Hub app, refresh the window. 
 
 All the out-of-the-box actions will be available and entities will be editable. 
 
