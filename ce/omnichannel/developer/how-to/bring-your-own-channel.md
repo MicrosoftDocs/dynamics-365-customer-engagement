@@ -403,6 +403,6 @@ This page briefly explained how channel is connected to Microsoft Direct Line Bo
 
 ## See also
 
+[Configure custom channel](../../administrator/configure-custom-channel.md)<br />
 [Key concepts in Direct Line API 3.0](https://docs.microsoft.com/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-concepts?view=azure-bot-service-4.0)<br />
-[MessageBird API reference](https://developers.messagebird.com/api/)<br />
-[]
+[MessageBird API reference](https://developers.messagebird.com/api)
