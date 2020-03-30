@@ -16,8 +16,6 @@ applies_to:
 
 # IoT - Parent IoT Alerts workflow
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 The **IoT - Parent IoT Alerts** workflow links potential redundant alerts to an existing parent alert.  
   
  Calls the <xref href="Microsoft.Dynamics.CRM.msdyn_ParentIoTAlerts?text=msdyn_ParentIoTAlerts Action" /> and passes 60 for the `TimespanSeconds` parameter. The primary entity for this workflow is [msdyn_iotalert Entity Reference](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_iotalert).  
