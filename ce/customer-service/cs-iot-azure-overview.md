@@ -4,7 +4,7 @@ description: "Overview of Connected Customer Service for Azure IoT Central."
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
-ms.date: 02/03/2020
+ms.date: 04/03/2020
 ms.topic: article
 ms.service: 
   - "dynamics-365-customerservice"
