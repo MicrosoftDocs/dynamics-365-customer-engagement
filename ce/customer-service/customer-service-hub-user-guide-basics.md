@@ -582,9 +582,10 @@ If you try to insert an email template on a device with smaller screen size, you
 
 ### Editor functionality and accessibility shortcuts
 
-You can access your browser's context menu by pressing **Ctrl** + right-click. This is useful if you need to use your browser's built-in spell checker. Otherwise, you can use the right-click to provide contextual formatting for any element you might be using.
-
 The following table outlines the different formatting options of the rich text editor.
+
+> [!Note]
+> - You can access your browser's context menu by pressing **Ctrl** + right-click. This is useful if you need to use your browser's built-in spell checker. Otherwise, you can use the right-click to provide contextual formatting for any element you might be using.
 
 |Icon | Name | Shortcut key | Description |
 |----------------------|-------------------------|-----------------------------|-----------------------------|
