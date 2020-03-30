@@ -13,7 +13,7 @@ ms.topic: reference
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-Omnichannel for Customer Service allows you to implement a connector to integrate custom messaging channels using Direct Line Bot. The complete [sample code]() illustrates how you can create your own connector. This sample uses Direct Line API 3.0 as part of .NET SDK to create a direct line client and the channel adaptor explained below to build a sample connector.
+Omnichannel for Customer Service allows you to implement a connector to integrate custom messaging channels using Direct Line Bot. The complete [sample code](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/bring-your-own-channel) illustrates how you can create your own connector. This sample uses Direct Line API 3.0 as part of .NET SDK to create a direct line client and the channel adaptor explained below to build a sample connector.
 
 ## Components
 
