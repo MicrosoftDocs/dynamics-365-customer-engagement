@@ -4,7 +4,7 @@ description: "Learn how to authorize the API connection between Dynamics 365 and
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
-ms.date: 02/03/2020
+ms.date: 04/03/2020
 ms.topic: article
 ms.service: 
   - "dynamics-365-customerservice"
