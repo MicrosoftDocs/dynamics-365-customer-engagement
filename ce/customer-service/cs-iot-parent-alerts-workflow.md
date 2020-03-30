@@ -4,7 +4,7 @@ description: "Links potential redundant IoT alerts to an existing parent alert."
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
-ms.date: 02/03/2020
+ms.date: 04/03/2020
 ms.topic: article
 ms.service: 
   - "dynamics-365-customerservice"
