@@ -3,14 +3,13 @@ title: "Configure default settings (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 12/12/2019
-ms.reviewer: 
 ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.technology: 
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: 58255fc0-9e0f-4467-9719-175024e9a424
 caps.latest.revision: 19
 ms.author: daclar
@@ -94,8 +93,8 @@ The Field Service Settings page allows system administrators to set default sett
   
 |       Options       |                                                                                                                                                                                                       Description                                                                                                                                                                                                        |
 |---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|     RTV prefix      | Select a default prefix for a return to vender (RTV). The prefix will  be added to the beginning of the RTV number. This  helps you easily identify  an RTV from other types of service requests in the system. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Process a return](../field-service/process-return.md) and [Create a return to vendor](../field-service/create-return-vendor.md) |
-| RTV starting number |                                  Select a starting number for RTVs. For example, if you choose 2000, then your first RTV will be 2000, and second one will be 2001, and so on. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Process a return](../field-service/process-return.md) and [Create a return to vendor](../field-service/create-return-vendor.md)                                  |
+|     RTV prefix      | Select a default prefix for a return to vender (RTV). The prefix will  be added to the beginning of the RTV number. This  helps you easily identify  an RTV from other types of service requests in the system. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Process a return](../field-service/process-return.md). |
+| RTV starting number |                                  Select a starting number for RTVs. For example, if you choose 2000, then your first RTV will be 2000, and second one will be 2001, and so on. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Process a return](../field-service/process-return.md).                               |
   
 ### Agreements  
   

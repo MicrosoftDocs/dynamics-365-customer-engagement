@@ -97,7 +97,6 @@ manager: sakudes
 <td>
 <h2>Get better sales intelligence</h2>
 
-<li><a href="../social-engagement/integrate-social-engagement-dynamics-365.md#add-social-engagement-visuals-to-dynamics-365" data-raw-source="[Add Social Engagement visuals to Dynamics 365 Sales](../social-engagement/integrate-social-engagement-dynamics-365.md#add-social-engagement-visuals-to-dynamics-365)">Add Social Engagement visuals to Dynamics 365 Sales</a></li>
 <li><a href="../versium-predict/versium-predict.md" data-raw-source="[Boost sales with Versium Predict](../versium-predict/versium-predict.md)">Boost sales with Versium Predict</a></li>
 <li><a href="../insights-insideview/insights-powered-by-insideview.md" data-raw-source="[Get sales Insights, powered by InsideView](../insights-insideview/insights-powered-by-insideview.md)">Get sales Insights, powered by InsideView</a></li>
 
@@ -120,5 +119,3 @@ manager: sakudes
 </tr>
 
 </table>
-
-

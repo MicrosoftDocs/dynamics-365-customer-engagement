@@ -1,7 +1,7 @@
 ---
 title: "Edit properties of an instance | MicrosoftDocs"
 ms.custom: 
-ms.date: 10/01/2019
+ms.date: 02/27/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -21,6 +21,9 @@ search.app:
 ---
 # Edit properties of an instance
 
+Editing properties of an instance (environment) is now done in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). See [Editing environment properties](https://docs.microsoft.com/power-platform/admin/edit-properties-environment).
+
+<!--
 [!INCLUDE[applies-to](../includes/cc_applies_to_ce.md)]
 
 Administrators can edit properties of an instance, such as the friendly name, URL, and the purpose. However, instances that are being provisioned cannot be edited, and disabled instances must be enabled before they can be edited.  
@@ -71,3 +74,4 @@ Administrators can edit properties of an instance, such as the friendly name, UR
   
 6. Click **Save**.  
   
+-->

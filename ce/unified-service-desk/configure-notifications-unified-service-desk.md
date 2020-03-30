@@ -76,7 +76,7 @@ You can use default keyboard shortcuts to navigate to, shift focus to and from t
      CCA:ActionCommands.DoActionCommand  
   
   **CommandParameter**  
-     The command parameter must contain the name of the hosted control on which the action is to be executed, the name of the UII action, and the optional action data. All these values have to be specified in the following URL format: `http://uii/[HostedControlName]/[UIIActionName]?[ActionData]`.  
+     The command parameter must contain the name of the hosted control on which the action is to be executed, the name of the UII action, and the optional action data. All these values have to be specified in the following URL format: `https://uii/[HostedControlName]/[UIIActionName]?[ActionData]`.  
   
      Note that the different parts of the URL must be encoded if required as per standard guidelines. For example, the space character has to be encoded as “%20” or ‘+’.  
   
@@ -91,14 +91,14 @@ You can use default keyboard shortcuts to navigate to, shift focus to and from t
      Then, you need to pass the following URL as the `CommandParameter` value in your form XAML:  
   
     ```xaml  
-    http://uii/Contact/Open_CRM_Page?LogicalName%3Dcontact%0D%0Aid%3D%5B%5Bcontact.Id%5D%5D  
+    https://uii/Contact/Open_CRM_Page?LogicalName%3Dcontact%0D%0Aid%3D%5B%5Bcontact.Id%5D%5D  
     ```  
   
      Further you can associate the command with a button select in the form XAML as follows:  
   
     ```xaml  
     <Button Command="CCA:ActionCommands.DoActionCommand"  
-    CommandParameter="http://uii/Contact/Open_CRM_Page?LogicalName%3Dcontact%0D%0Aid%3D%5B%5Bcontact.Id%5D%5D"  
+    CommandParameter="https://uii/Contact/Open_CRM_Page?LogicalName%3Dcontact%0D%0Aid%3D%5B%5Bcontact.Id%5D%5D"  
     ```  
   
 - **Action call**: This serves as an alternative to executing a UII action on a hosted control where you don't want to encode the action data and put it in the XAML. To execute an action call from the form XAML, specify the following values for `Command` and `CommandParameter`.  
@@ -107,7 +107,7 @@ You can use default keyboard shortcuts to navigate to, shift focus to and from t
      CCA:ActionCommands.DoActionCommand  
   
   **CommandParameter**  
-     The command parameter must contain the name of the action call to be executed, and must be specified in the following URL format: `http://actioncall/[ActionCallName]`.  
+     The command parameter must contain the name of the action call to be executed, and must be specified in the following URL format: `https://actioncall/[ActionCallName]`.  
   
      Note that the action call name must be URL encoded if it contains spaces or special characters. For example, the space character has to be encoded as “%20” or ‘+’.  
   
@@ -117,7 +117,7 @@ You can use default keyboard shortcuts to navigate to, shift focus to and from t
      Then, you need to pass the following URL as the `CommandParameter` value in your form XAML:  
   
     ```xaml  
-    http://actioncall/Open+Contact+Page  
+    https://actioncall/Open+Contact+Page  
     ```  
   
 - **Event**: To execute an event from the form XAML, specify the following values for `Command` and `CommandParameter`.  
@@ -161,8 +161,8 @@ You can use default keyboard shortcuts to navigate to, shift focus to and from t
  The following sample XAML displays a notification based on the max number of sessions value configured in the replacement parameter for your instance, and displays a notification when you reach the session limit.  
   
 ```xaml  
-<Border xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"   
+<Border xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation"  
+        xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml"   
 xmlns:CCA="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics"  
 BorderBrush="Blue" BorderThickness="1">  
         <Grid Background="AliceBlue" Height="100" Width="400">  

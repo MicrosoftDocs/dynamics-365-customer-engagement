@@ -389,38 +389,30 @@ The recommended data volume should be <=  10,000 records per user subscription.
 
 ## Known issues
 
-- When you change the business unit of a user, then the user is removed from the mobile offline profile.
+**Business Process Flows**: Business process flows are not supported for mobile offline. When you are offline, business process flows grids and views will not be available and business process flows will not be rendered on records that are opened in offline mode. If a record containing a business process flow was loaded prior to going offline, business process flow functions, such as move next or move previous will not work. Business process flows support the ability to branch to a different set of stages, based on conditions defined on fields of the record. In offline mode, these conditions to determine the next set of stages in the business process flows will not be evaluated.
 
-- **Business Process Flows**: Business process flows are not supported for mobile offline. When you are offline, business process flows grids and views will not be available and business process flows will not be rendered on records that are opened in offline mode. If a record containing a business process flow was loaded prior to going offline, business process flow functions, such as move next or move previous will not work. Business process flows support the ability to branch to a different set of stages, based on conditions defined on fields of the record. In offline mode, these conditions to determine the next set of stages in the business process flows will not be evaluated.
+**Qualify a lead**: When a lead created in mobile offline is qualified and when the user goes online, the business process stage will still show the  qualify stage. The user will have to manually click **Next stage** to move to the next stage.
 
-- **Qualify a lead**: When a lead created in mobile offline is qualified and when the user goes online, the business process stage will still show the  qualify stage. The user will have to manually click **Next stage** to move to the next stage.
+**Views** are not supported for the following entities in offline mode: 
 
+- Email
 
-- **Views** are not supported for the following entities in offline mode: 
+- Task
 
-  - Email
+- Fax
 
-  - Task
+- Letter
 
-  - Appointment
+- Serviceappointment
 
-  - Fax
+- Campaignresponse
 
-  - Phonecall
+- Campaignactivity
 
-  - Letter
+- Recurringappointmentmaster
 
-  - Serviceappointment
+- Socialactivity
 
-  - Campaignresponse
-
-  - Campaignactivity
-
-  - Recurringappointmentmaster
-
-  - Socialactivity
-
-  Any views that have linked entities (related entity) that are not available offline are also not supported. 
 
 
 

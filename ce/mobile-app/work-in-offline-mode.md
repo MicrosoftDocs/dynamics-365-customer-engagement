@@ -1,7 +1,7 @@
 ---
 title: "Work offline on your mobile device (Dynamics 365 apps)| MicrosoftDocs"
 ms.custom: 
-ms.date: 12/03/2019
+ms.date: 3/10/2020
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
@@ -35,12 +35,20 @@ Work with your data in offline mode even when you don't have internet access. Th
 When your admin has [enabled mobile offline](setup-mobile-offline-for-admin.md
 ), the next time you access the mobile app, you will be prompted to download offline updates. Once you download the updates, you can start using the mobile app in offline mode.
 
-- When you see the the dialog box that asks you to download updates to work offline, choose **Update**. 
+1. When you see the the dialog box that asks you to download updates to work offline, choose **Update**. 
 
     > [!div class="mx-imgBorder"] 
     > ![Download updates on your mobile device for mobile offline](media/DownloadUpdates.png "Download updates on your mobile device for mobile offline")
 
-If you choose **Skip for now**, you will not be able to use the app in offline mode until you manually download the updates. 
+    > [!NOTE]
+    > If you choose **Skip for now**, you will not be able to use the app in offline mode until you [manually download the updates](https://docs.microsoft.com/dynamics365/mobile-app/work-in-offline-mode#manually-download-updates). 
+
+2. Offline data automatically starts to download in the background. Once it's complete, you will get a notification letting you know the download is complete.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Download updates complete](media/mobile_offline_download_updates_complete.png "Download updates complete")
+   
+When you open the app, offline data is automatically updated and you can start using the app in offline mode.
 
 ### Manually download updates
 
@@ -54,10 +62,12 @@ If you choose **Skip for now**, you will not be able to use the app in offline m
     > [!div class="mx-imgBorder"] 
     > ![Download Customization](media/DownloadCustomization.png "Download Customization")
 
-3. Once the update process starts you will see a progress indicator while the updates are being downloaded. When the download is complete, it's a good idea to verify offline mode is available.
+3. Offline data automatically starts to download in the background. Once it's complete, you will get a notification letting you know the download is complete.
 
-    > [!div class="mx-imgBorder"] 
-    > ![Download updates progress bar](media/downloadingupdatesprogress.png "Download updates progress bar")
+   > [!div class="mx-imgBorder"] 
+   > ![Download updates complete](media/mobile_offline_download_updates_complete.png "Download updates complete")
+   
+When you open the app, offline data is automatically updated and you can start using the app in offline mode.
 
 ## See if offline mode is available
 
@@ -145,10 +155,12 @@ These entities and corresponding commands are available in offline mode.
 |Opportunity Product|Create, Read, Update, Delete	|
 |Phone Call|Create, Read, Update, Delete	|
 |Position|Create, Read, Update, Delete	|
-|Product|Create, Read, Update, Delete|
+|Product|Read|
 |Task |Create, Read, Update, Delete|
 |Team |Read only	|
 |User |Read only	|
+
+**Add Existing on subgrids**: **Add Existing** is not supported for mobile offline for certain types of relationships. When you are offline, certain relationships such as relationships that are N:N are read only, and the **Add Existing** command will be hidden on subgrids for those relationships. Even if the button is unhidden via customization, the command will not work in offline.
 
 **Business rules**: Business rules are supported in mobile offline. For more information, see [Create business rules and recommendations to apply logic in a model-driven app form](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-business-rules-recommendations-apply-logic-form).
 
@@ -183,7 +195,6 @@ If a user was working on a record and lost network connection, any updates made 
 **Business Process Flows**: Business process flows are not supported for mobile offline. When you are offline, business process flows grids and views will not be available and business process flows will not be rendered on records that are opened in offline mode. If a record containing a business process flow was loaded prior to going offline, business process flow functions, such as move next or move previous will not work. Business process flows support the ability to branch to a different set of stages, based on conditions defined on fields of the record. In offline mode, these conditions to determine the next set of stages in the business process flows will not be evaluated.
 
 **Qualify a lead**: When a lead created in mobile offline is qualified and when the user goes online, the business process stage will still show the  qualify stage. The user will have to manually click **Next stage** to move to the next stage.
-
 
 **Views** are not supported for the following entities in offline mode: 
 

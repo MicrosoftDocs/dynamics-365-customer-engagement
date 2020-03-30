@@ -71,7 +71,7 @@ Based on configured data input, the Relevance search mechanism filters the cases
 
   4. In the **Match Fields** tab:
 
-     - Select **Add New Text Analytics Entity Mapping** to add a new related text analytics entity mapping record to this rule.
+     - Select **New Text Analytics Entity Mapping** to add a related text analytics entity mapping record to this rule.
      - Fill in the details in the **Details** tab in the new record. These values are used to determine the keywords or key phrases from source records using relevance search to match with target records using text search. This helps to achieve keyword-based similarity between source and target records.  
 
 
@@ -121,7 +121,7 @@ See the below table to understand how search results are impacted when Relevance
 
 You can view the similar case suggestions in the Related section of the Customer Service Hub. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See and manage related records in the Related section](customer-service-hub-user-guide-case-sla.md#see-and-manage-related-records-in-the-related-section)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See and manage related records in the Related section](customer-service-hub-user-guide-basics.md#related-section)
   
 1. In the Customer Service Hub, navigate to **Service** > **Cases** and open a case from the **My Active Cases** view.
   

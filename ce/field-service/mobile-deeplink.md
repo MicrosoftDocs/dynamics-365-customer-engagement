@@ -2,7 +2,7 @@
 title: "Use deep links with Field Service Mobile | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 01/03/2020
+ms.date: 03/02/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -46,6 +46,7 @@ In this article, we'll create a work order deep link that when triggered by tech
 4. Configuring the Power App to accept the deep link and go to the desired form
 5. Configuring the Power App to accept the work order number field value and populate a Power Apps form field.
 
+You can reference this [sample mobile project template](https://1drv.ms/u/s!AhAjbOq5aB_lsUMGyM8rQ1g_IVHY?e=Lg32Nu) and this [Sample "Parts Order" PowerApp](https://1drv.ms/u/s!AhAjbOq5aB_lsUKadMDMR9zrTVPW?e=LHZari) for gudiance in this article.
 
 ## Prerequisites
 
@@ -146,7 +147,7 @@ Here is the code snippet that was used in our example:
         function ToPowerApps(entityForm) {
             var WONumber = entityForm.entity.primaryName;
             var WOqueryString = "&WONumber=" + WONumber;
-            var url = "ms-apps:///providers/Microsoft.PowerApps/apps/c2fe056f-f576-4c41-9b69-c2435689e80c?deeplink=requestparts" + WOqueryString ;
+            var url = "ms-apps:///providers/Microsoft.PowerApps/apps/c2fe056f-f576-4c41-9b69-c2435689e80c?Deeplink=requestparts" + WOqueryString ;
             //MobileCRM.bridge.alert(url);
             MobileCRM.Platform.openUrl(url);
         }
@@ -220,5 +221,7 @@ By editing the **WorkOrder** folder and WorkOrder.js file, you're editing files 
 
 
 ### See also
+- [Sample mobile project template](https://1drv.ms/u/s!AhAjbOq5aB_lsUMGyM8rQ1g_IVHY?e=Lg32Nu)
+- [Sample "Parts Order" PowerApp](https://1drv.ms/u/s!AhAjbOq5aB_lsUKadMDMR9zrTVPW?e=LHZari) for gudiance in this article.
 - [Power Apps update – Universal links, HTML control improvements, new service connections and more](https://powerapps.microsoft.com/ro-ro/blog/powerapps-560-update/) 
 - [Set URI parameters for your canvas apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/embed-apps-dev#set-uri-parameters-for-your-app)

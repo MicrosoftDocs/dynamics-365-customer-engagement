@@ -10,9 +10,9 @@ ms.technology:
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
-author: krbjoran
+author: FieldServiceDave
 caps.latest.revision: 42
-ms.author: FieldServiceDave
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin
@@ -150,7 +150,7 @@ The lower schedule board pane displays requirement records and can be configured
 > [!div class="mx-imgBorder"]
 > ![Screenshot of schedule board](media/scheduling-urs-schedule-board-schedule-assistant.png) 
 
-The requirement can be dragged and dropped onto a resource on the schdedule board to schedule the work order. Alternatively, selecting  **find availability** on the requirement in the lower pane will trigger the schedule assistant, which recommends the most appropriate resources. 
+The requirement can be dragged and dropped onto a resource on the schedule board to schedule the work order. Alternatively, selecting  **find availability** on the requirement in the lower pane will trigger the schedule assistant, which recommends the most appropriate resources. 
 
 ### Book with Resource Scheduling Optimization
 
@@ -188,6 +188,9 @@ The API key will populate automatically and use the Bing Maps API.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of setting Connect to Maps to yes](media/Perform-Initial-Configurations-image7.png)  
+
+> [!Note]
+> In Field Service version 8.8.10.44+ the Bing Maps API key is hidden. 
 
 ### Configure booking statuses 
 Resources (field technicians) interact with booking statuses to communicate to stakeholders the progress of their work. For field service, booking statuses can update work order system statuses. This is done by noting a Field Service Status on the Booking Status.
@@ -247,5 +250,5 @@ If the work order or requirement doesn't have a latitude or longitude, the locat
 ### See also
 - [Universal Resource Scheduling documentation](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
 - [Resource Scheduling Optimization overview](rso-overview.md)
-- [Frequently asked questions about the mobile solution](http://www.resco.net/mobilecrm/support.aspx) 
+- [Frequently asked questions about the mobile solution](https://www.resco.net/mobilecrm/support.aspx) 
 - [Woodford guide (PDF)](https://www.resco.net/downloads/Woodford_Guide.pdf) 

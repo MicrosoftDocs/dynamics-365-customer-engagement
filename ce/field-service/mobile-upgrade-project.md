@@ -2,7 +2,7 @@
 title: "Upgrade the Field Service Mobile project template | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 10/22/2019
+ms.date: 03/02/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -43,7 +43,7 @@ If you have a new Field Service environment and want to set up the mobile app, f
 
 If you are using and customizing a Field Service Mobile project template when Microsoft releases a new template, you can use the new template while keeping your customizations.
 
-This applies to customers using any version of Field Service Mobile. For example, you may have Field Service Mobile version 9 and want to upgrade to version 11+, which requires a new project template, or you may have Field Service Mobile 11.1 and want to upgrade to 11.3 and utulize a new mobiel project. 
+This applies to customers using any version of Field Service Mobile. For example, you may have Field Service Mobile version 9 and want to upgrade to version 11+, which requires a new project template, or you may have Field Service Mobile 11.1 and want to upgrade to 11.3 and utilize a new mobile project. 
 
 Here is an example:
 
@@ -103,6 +103,7 @@ If you make changes to a mobile entity, it will show as **Overridden**.
 
 ### See also
 
+- [GitHub integration into Mobile Configurator Woodford](https://www.resco.net/github-integration-into-woodford/)
 - [Version history](https://docs.microsoft.com/dynamics365/field-service/version-history#mobile-project-file-library)
 - [Set up Field Service Mobile](https://docs.microsoft.com/dynamics365/field-service/install-field-service#download-the-field-service-mobile-app-on-a-phone-or-tablet)
 - [Common Field Service Mobile customizations](./mobile-app-configuration-customization.md)

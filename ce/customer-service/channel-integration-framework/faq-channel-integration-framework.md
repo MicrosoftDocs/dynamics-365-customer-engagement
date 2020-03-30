@@ -4,10 +4,10 @@ description: "Frequently asked questions about the Dynamics 365 Channel Integrat
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 02/14/2019
+ms.date: 02/03/2020
 ms.topic: reference
 ms.service: 
-  - dynamics-365-cross-app
+  - dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -76,23 +76,33 @@ No, that is not supported.
 
 ## Dynamics 365 Channel Integration Framework version 2.0 FAQs
 
-### How do I join the Dynamics 365 Channel Integration Framework version 2.0 preview program?
-
-The preview program is available at the Insider Portal with the name **Channel Integration Framework - V2**. You need to register as a Dynamics Insider at https://experience.dynamics.com/insider to use this program.
-
-### Will there be a separate AppSource offer for Dynamics 365 Channel Integration Framework version 2.0 ?
-
-During the preview program, Dynamics 365 Channel Integration Framework version 2.0 will be available via the flighting program. The flights have to be enabled by the administrators on their organizations. The instructions for the same are available in the insider program. However, with the general availablity, the Dynamics 365 Channel Integration Framework version 2.0 and version 1.0 APIs will be available through a single app. 
-
 ### Will my existing communication widget, built using Dynamics 365 Channel Integration Framework version 1.0 APIs, continue to work with the version 2.0 app?
 
 Yes. Dynamics 365 Channel Integration Framework version 1.0 APIs will continue to be available and supported for the single-session Unified Interface apps like Customer Service Hub and Sales Hub. Even with the Dynamics 365 Channel Integration Framework version 2.0 app, they will continue to work.
 
-### I want to use the multi-session experiences for my contact center with a third-party provider's communication widget built using the Dynamics 365 Channel Integration Framework version 2.0 APIs. What licenses do I need to purchase for that?
+### I want to use the multi-session experiences for my contact center with a third-party provider's communication widget
 
-During the preview period you can get Omnichannel for Customer Service using the chat for [Dynamics 365 trial](https://trials.dynamics.com) and use the Dynamics 365 Channel Integration Framework version 2.0 preview with the same. 
+Dynamics 365 Channel Integration Framework version 2.0 works only with multi-session app (Omnichannel for Customer Service). You can integrate any third-party telephony provider with Omnichannel for Customer Service using the Channel Integration Framework 2.0 APIs. 
+
+To learn more, see [Choose between version 1.0 and version 2.0](choose-between-versions.md).
+
+For information on license, see the [Dynamics 365 Customer Service pricing overview](https://dynamics.microsoft.com/en-us/customer-service/overview/#pricing) and [Dynamics 365 Customer Service pricing plan](https://dynamics.microsoft.com/en-us/pricing/customer-service/#plans) pages.
+
+### How do third party telephony providers start their default session?
+
+You can invoke the `Microsoft.CIFramework.setMode(1)` method from your provider code to make the panel visible. This can be put at the end of your initialization code, so that the widget is visible right from the time the channel provider is loaded.
+
+Beyond that point, you can listen to `onSessionClosed` Event to show the provider widget when the last session is closed. This way you can make sure that the channel provider widget is visible all the time whether or not a session is open.
+
+For more information, see [setMode](reference/microsoft-ciframework/setmode.md) API and [onSessionClosed](reference/events/onsessionclosed.md) event.
+
+### Why do tabs reload when an agent switches session tabs or switches from session tab to widget?
+
+This is to make sure that updated data is available for the agent at all times.
 
 ## See also
 
 [Overview of Dynamics 365 Channel Integration Framework](overview-channel-integration-framework.md)<br />
-[System requirements of Dynamics 365 Channel Integration Framework](system-requirements-channel-integration-framework.md)
+[What's new in Dynamics 365 Channel Integration Framework](whats-new-channel-integration-framework.md)<br />
+[System requirements of Dynamics 365 Channel Integration Framework](system-requirements-channel-integration-framework.md)<br />
+[Known issues of Dynamics 365 Channel Integration Framework](known-issues.md)

@@ -1,13 +1,13 @@
 ---
-title: "setClickToAct (JavaScript API Reference) for Channel Integration Framework (CIF) | Microsoft Docs"
+title: "setClickToAct (JavaScript API Reference) for DYnamics 365 Channel Integration Framework (CIF) version 1.0 | Microsoft Docs"
 description: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 05/14/2019
+ms.date: 12/31/2019
 ms.topic: reference
 ms.service: 
-  - dynamics-365-cross-app
+  - dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -20,18 +20,4 @@ applies_to:
 
 [!INCLUDE[setClickToAct](includes/setClickToAct-description.md)]
 
-## Syntax
-
-`Microsoft.CIFramework.setClickToAct(value).then(successCallback, errorCallback);`
-
-## Parameters
-
-| Name            | Type     | Required | Description                                       |
-|-----------------|----------|----------|---------------------------------------------------|
-| Value           | Boolean  | Yes      | Sets the value to enable or disable ClickToAct.   |
-| successCallback | Function | No       | A function to call when the request is successful |
-| errorCallback   | Function | No       | A function to call when the request fails         |
-
-## Return value
-
-**Type:** Null
+[!INCLUDE[token-setClickToAct.md](../../shared/token-setClickToAct.md)]

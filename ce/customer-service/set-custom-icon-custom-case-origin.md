@@ -40,7 +40,7 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] you can set a cus
   
 ## Set a custom icon for a custom case origin  
   
-1. If the customization prefix for the solution publisher associated with the unmanaged solution you are working in is not ‘new’ you must change the solution publisher customization prefix to ‘new’ temporarily while you create this image web resource. After you create this web resource, set it back to whatever value you want to use. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Solution publisher](../customerengagement/on-premises/customize/change-solution-publisher-prefix.md#BKMK_SolutionPublisher).  
+1. If the customization prefix for the solution publisher associated with the unmanaged solution you are working in is not ‘new’ you must change the solution publisher customization prefix to ‘new’ temporarily while you create this image web resource. After you create this web resource, set it back to whatever value you want to use. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Solution publisher](../customerengagement/on-premises/customize/change-solution-publisher-prefix.md).
   
 2. Create a 16x16 pixel icon to represent your custom case origin. A PNG file with a transparent background is recommended.  
   

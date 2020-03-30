@@ -2,15 +2,12 @@
 title: "Add LinkedIn Sales Navigator controls to forms | Microsoft Docs"
 description: "Add LinkedIn Sales Navigator controls to forms in Dynamics 365 Sales."
 keywords: custom control, sales navigator, linkedin, integration, customization
-ms.date: 10/04/2019
-ms.service: crm-online
+ms.date: 03/03/2020
+ms.service: dynamics-365-sales
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Sales
-ms.assetid: 41253990-3a7d-0829-8509-91273db68b82
-author: m-hartmann
-ms.author: mhart
-manager: shellyha
+author: shubhadaj
+ms.author: shujoshi
+manager: annbe
 search.audienceType: 
   - admin
   - customizer
@@ -58,6 +55,9 @@ This procedure shows an example of how to add a [!INCLUDE[pn-linkedin](../includ
    ![Lead form in customization area](media/select-lead-form-sales-navigator.png "Lead form in customization area")
 
 5. To add a reference to a custom control, begin by opening a field on the form, which will be bound to the primary attribute of the control (“Last Name” field for the member profile control and “Company Name” for the company profile control). In this example, we already have the **Last Name** field to the form.
+
+    > [!IMPORTANT]
+    > Member profile and company profile controls are read-only controls. We recommend that you create a copy of the two fields ("Last Name" and "Company Name") that you're binding these controls to, so that you can continue to edit the fields.
 
 6. Select the **Last Name** field and then select **Change Properties** in the ribbon.
     > [!TIP]

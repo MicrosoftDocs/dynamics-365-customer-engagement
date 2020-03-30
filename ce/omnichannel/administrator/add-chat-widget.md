@@ -1,10 +1,10 @@
 ---
 title: "Add a chat widget | MicrosoftDocs"
 description: "Instructions to add a chat widget in Omnichannel for Customer Service."
-author: sbmjais
-ms.author: shjais
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
-ms.date: 12/13/2019
+ms.date: 03/04/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -15,7 +15,7 @@ ms.topic: article
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 1. Sign in to Omnichannel Administration.
-2. Go to **Channels** &gt; **Chat**.
+2. Go to **Channels** > **Chat**.
 3. Select **New**. The New Chat Widget page is displayed.
 4. Provide appropriate information on each of the following tabs:
 
@@ -59,6 +59,16 @@ ms.topic: article
 
         > [!NOTE]
         > If no domains are specified, the chat widget can be embedded on any website without restrictions. If you specify a domain, the chat widget can be hosted only on the specified domain.
+        
+    - **Conversation options**: Use this tab to enable or disable third-party co-browse and screen sharing. You must install a third-party provider from AppSource in order to use these features.
+        1. Select the **Co-browse** field to enable it. In the **Co-browse provider** section, select a provider from the drop-down list and select **Save**.
+        2. Select the **Screen sharing** field to enable it. In the **Screen sharing provider** section, select a provider from the drop-down list and select **Save**.  
+
+        > [!div class=mx-imgBorder]
+        > ![Enable third-party co-browse and screen sharing through conversation options in a chat widget](../media/chat-widget-conversation-options.png "Enable third-party co-browse and screen sharing through conversation options in a chat widget")
+        
+        > [!NOTE]
+        > You can select one co-browse provider and/or one screen sharing provider for each chat widget. 
 
 ### See also
 

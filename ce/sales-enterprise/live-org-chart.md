@@ -5,9 +5,9 @@ ms.date: 10/01/2019
 ms.service: 
   - "dynamics-365-sales"
 ms.topic: article
-author: m-hartmann
-ms.author: mhart
-manager: shellyha
+author: shubhadaj
+ms.author: shujoshi
+manager: annbe
 ---
 
 # Organize contacts in live org charts for accounts
@@ -47,6 +47,9 @@ This will open a **Lookup Records** side panel where you can search for contacts
 If you have a Sales Navigator seat, [!INCLUDE [pn-linkedin](../includes/pn-linkedin.md)] profiles are always just a few clicks away and can be used to ensure contact details remain up to date. Sign in to the service by selecting the **Sales Navigator** button. You’ll then be presented with the embedded [!INCLUDE [pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator widget, where you can match the contact and see their [!INCLUDE [pn-linkedin](../includes/pn-linkedin.md)] profile.
 
 ![Sign in to Sales Navigator from the side panel](media/org-chart-sales-navigator-control.png)
+
+> [!NOTE]
+> Removing fields from the Sales Navigator widget (Contact Details pane) or adding new fields isn't supported.
 
 ## Org chart for accounts without hierarchy
 
