@@ -16,7 +16,7 @@ ms.topic: article
 
 The Omnichannel for Customer Service app for Dynamics enables organizations to instantly connect and engage with their customers via channels like Chat for Dynamics 365 Customer Service and SMS. The app provides context rich multi-tasking experience across different customer sessions.
 
-## Value propositions of Omnichannel for Customer Service app:
+## Value propositions of Omnichannel for Customer Service app
 
 - **Unified experience:** The app provides unified and consistent single-view experience for the agents to view conversation details, Customer information, and access Line-of-Business applications from within the Omnichannel for Customer Service app.
 
