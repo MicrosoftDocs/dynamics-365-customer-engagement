@@ -1,12 +1,12 @@
 ---
 title: "Prerequisites and system requirements of Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the system requirements of Omnichannel for Customer Service."
-author: kabala123
-ms.author: kabala
+author: platkat
+ms.author: ktaylor
 manager: shujoshi
 applies_to: 
   - ""
-ms.date: 03/03/2020
+ms.date: 04/03/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -92,10 +92,15 @@ Add the following URLs for your users to access the Omnichannel for Customer Ser
 - `https://swc.cdn.skype.com/*`
 - `https://config.edge.skype.com/*`
 - `https://edge.skype.com/* `
-- `https://api.aps.skype.com/*` 
+- `https://api.aps.skype.com/*`
+- `https://*.asm.skype.com`
 - `https://*.ng.msg.teams.microsoft.com/* `
 - `https://*.notifications.teams.microsoft.com/* ` 
 - `https://*.omnichannelengagementhub.com/*`
+- `https://cdn.botframework.com/botframework-webchat`
+- `https://webchatic3.blob.core.windows.net`
+- `https://comms.omnichannelengagementhub.com`
+- `https://ocsdk-prod.azureedge.net`
 
 **Geo-specific URLs**
 
