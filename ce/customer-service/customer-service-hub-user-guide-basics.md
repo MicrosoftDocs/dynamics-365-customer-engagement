@@ -582,6 +582,8 @@ If you try to insert an email template on a device with smaller screen size, you
 
 ### Editor functionality and accessibility shortcuts
 
+You can access your browser's context menu by pressing **Ctrl** + right-click. This is useful if you need to use your browser's built-in spell checker. Otherwise, you can use the right-click to provide contextual formatting for any element you might be using.
+
 The following table outlines the different formatting options of the rich text editor.
 
 |Icon | Name | Shortcut key | Description |
@@ -602,30 +604,36 @@ The following table outlines the different formatting options of the rich text e
 |![Align Left](../customer-service/media/align-left.png "Align Left")| Align Left | Ctrl+L | Align your content with the left margin. (Commonly used for body text to make it easier to read.) |
 |![Align Center](../customer-service/media/align-center.png "Align Center")| Align Center | Ctrl+E | Center your content on the page. (Commonly used for a formal appearance.) |
 |![Align Right](../customer-service/media/align-right.png "Align Right")| Align Right | Ctrl+R | Center your content on the page. (Commonly used for a formal appearance.) |
-|![Link](../customer-service/media/format-link.png "Link")| Link |  | Create a link in your document for quick access to web pages and files. |
-|![Remove Link](../customer-service/media/remove-link.png "Remove Link")| Remove Link |  | Delete a link in your email or document. |
+|![Link](../customer-service/media/format-link.png "Link")| Link |  | Create a link in your document for quick access to web pages and files. Pasted or typed URL text is converted into a link. For example, "http://myexample.com" will become "<a href=“http://myexample.com”>http://myexample.com</a>".
+In the **Link** dialog box, choose the type of link you’d like to insert.
+
+The **Link Info** tab allows you to choose the link type as well as set the link protocol and URL.
+
+The **Target** tab is only available for the URL link type. It specifies the location where the link will open after you select it. |
+|![Remove Link](../customer-service/media/remove-link.png "Unlink")| Unlink |  | Delete a link in your email or document. When you place the cursor on a link, the **Unlink** button on the toolbar becomes active. Select the button to remove the link and make it plain text. |
 |![Superscript](../customer-service/media/format-superscript.png "Superscript")| Superscript |  | Type very small letters just above the line of text. |
 |![Subscript](../customer-service/media/format-subscript.png "Subscript")| Subscript |  | Type very smaill letters just below the line of text. |
 |![Strikethrough](../customer-service/media/format-strikethrough.png "Strikethrough")| Strikethrough |  | Cross out text by drawing a line through it. |
-|![Insert Pictures](../customer-service/media/insert-pictures.png "Insert Pictures")| Insert Pictures |  | Insert pictures from your computer, stock image library, or online sources. |
+|![Image](../customer-service/media/insert-pictures.png "Image")| Image |  | Insert images from your computer, stock image library, or online sources. You can insert an image by directly copying and pasting it inline in the editor, dragging and dropping it from your desktop or local folder directly into the editor, or by typing a URL. The following formats are supported: .PNG, .JPG., or .GIF. To insert an image inline in your article:
+1. Drag and drop the image or or copy and paste it directly into the article.
+2. Drag any corner of the image to resize it.
+To insert an image using a URL or navigating to the local image:
+1. Choose **Insert Image**.
+2. In the **Image** property dialog, choose from the following options:
+- Specify the web address of the image, and also specify properties to define how the image will appear in the email or article. **Note**: If the image is located on the external server, use the full absolute path. If the image is located on a local server, you can use a relative path. If you want the image to be a selectable link, add a URL for the image. You can also specify if you want the targeted page to open in a new window, topmost window, same window, or parent window.
+-Select **Browse** to navigate to the image on your computer. |
 |![Left to Right](../customer-service/media/left-right.png "Left to Right")| Left to Right |  | Change the text to left-to-right for content such as an paragraph, header, table, or list. Commonly used for bi-directional language content. |
 |![Right to Left](../customer-service/media/right-left.png "Right to Left")| Right to Left |  | Change the text to right-to-left for content such as a paragraph, header, table, or list. Commonly used for bi-directional language content.. |
 |![Undo Typing](../customer-service/media/undo-typing.png "Undo Typing")| Undo Typing |  | Undo changes you made to the content. |
 |![Redo Typing](../customer-service/media/format-bold.png "Redo Typing")| Redo Typing |  | Redo changes you made to the content. |
 |![Clear All Formatting](../customer-service/media/clear-formatting.png "Clear All Formatting")| Clear All Formatting |  | Remove all formating from a selection of text, leaving only the normal, unformatted text. |
-|![Add a Table](../customer-service/media/add-table.png "Add a Table")| Add a Table |  | Add a table to your content. |
+|![Add a Table](../customer-service/media/add-table.png "Add a Table")| Add a Table |  | Add a table to your content. Once the table is added, you can do the following: 
+- Resize table columns using clicking and dragging your mouse to resize to the columns to the desired width.
+- Select one or several cells within a table and apply specific formatting, add links to the selection, or cut, copy, or paste entire rows or columns.
+- Use table tools, an advanced context menu for table items and the Cell Properties dialog. This supports features such as cell type, width and height, word wrapping, alignment, merging and splitting cells horizontally and vertically, inserting or deleting rows and columns, row and column span, and cell and border color. |
 |![Expand Toolbar](../customer-service/media/show-more.png "Expand Toolbar")| Expand Toolbar |  | Displays when the toolbar is collapsed and not all options appear. Click to expand the toolbar and make all options visible. |
 
-The following table outlines other features you can access.
-
-| Name | Description |
-|----------------------|-------------------------|-----------------------------|
-| Accessibility Help | Displays accessibility commands and keystroke information in a dialog window. Click Alt+0 to access this information. |
-| Auto Link | Converts a pasted or typed URL text into a link. For example, "http://myexample.com" will become "<a href=“http://myexample.com”>http://myexample.com</a>". |
- Context Menu | Displays specific content-related right-click menu options. The native browser context menu remains available when the you press the Ctrl key while opening the menu, which can be also be configured. |
- Table Resize | Lets you resize table columns using your mouse by allowing you to hover over a column border which causes the cursor to change to indicate that the column can be resized. Click and drag your mouse to resize to the desired column width. |
-| Table Selection | Provides a unique custom selection system for tables. Examples include selecting a few cells from different rows, applying formatting or adding links to all selected cells, and cutting, copying, or pasting entire rows or columns. |
-| Table Tools | Adds an advanced context menu for table items and the Cell Properties dialog window with support for features such as cell type, width and height, word wrapping, alignment, merging and splitting cells horizontally and vertically, inserting or deleting rows and columns, row and column span, and cell and border color. |
+The following table outlines other features that improve the formatting or provide additional capabilities but aren't represented as buttons on the toolbar.
 
 The following table outlines a list of accessibility shortcuts available when using email. You can access this list while composing email by pressing **Alt+0**.
 
@@ -633,7 +641,7 @@ The following table outlines a list of accessibility shortcuts available when us
 |----------------------|-------------------------|-----------------------------|
 | General | Alt+F11 | Toggle full-screen view. |
 | Tab navigation | Alt+Ctrl+0 | Go to menu bar. |
-| Tab navigation | Alt+1 | Go to the designer editor. |
+| Tab navigation | Alt+1 | Go to the rich-text editor. |
 | Tab navigation | Alt+2 | Go to the HTML editor. |
 | Tab navigation | Alt+3 | Go to the preview view. |
 | General editor commands | Alt+F10 | Navigate to the editor toolbar. Move to the next and previous toolbar group with Tab and Shift+Tab. Move to the next and previous toolbar button with Right Arrow or Left Arrow. Press Space or Enter to activate the toolbar button. |
