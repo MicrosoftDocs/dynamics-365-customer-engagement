@@ -106,26 +106,26 @@ To attach skills, you need a workstream record. You can either create or use an 
     | Name | Provide a name for the skill rule. | Xbox product and Spain location |
     | Description | Describe the skill rule. | This is a skill-matching rule for the Xbox product and Spain location. |
 
-8. Set up the conditions. Select an **Entity**, **Attribute**, and **Operator**. For an entity, you can define rules based on related level 1 attributes.
+8. Set up the conditions. Select an **Entity**, **Related Attribute**, **Attribute**, **Operator**, and **Value**. For an entity, you can define rules based on related level 1 attributes.
 
     An example is as follows.
 
     | Entity | Related Attribute | Attribute | Operator | Value |
     |--------|----------|-------------------|-----------|---------|
-    | Live Chat Context (Conversation) | Conversation (Conversation) | Active Agent | Equals | Alan Steiner |
+    | Account (Conversation) | Primary contact (Contact) | Address 1: Country/Region | Equals | Spain |
     
-1. Select **Save** to save the record. After you save, the **Skill** section appears.
+9. Select **Save** to save the record. After you save, the **Skill** section appears.
 
-2. Select **+ Add Existing Skill**. The **Quick Create: Attach Skill** pane appears.
+10. Select **+ Add Existing Skill**. The **Quick Create: Attach Skill** pane appears.
 
-3. Select a skill from the lookup menu, and select a proficiency level from the list, and then select **Save and Close** to save and add the skill to the grid.
+11. Select a skill from the lookup menu, and select a proficiency level from the list, and then select **Save and Close** to save and add the skill to the grid.
 
     > [!div class=mx-imgBorder] 
     > ![Attach skill to a conversation](../media/attach-skill1.png "Attach skill")
 
     If the condition (criteria) matches, then the omnichannel system attaches the skill.
 
-4. Select **Save**. After you save, the rule appears in the **Attachment Rules** section of the workstream.
+12. Select **Save**. After you save, the rule appears in the **Attachment Rules** section of the workstream.
 
     > [!div class=mx-imgBorder] 
     > ![Add skill rule to workstream](../media/attach-skill2.png "Add skill rule to workstream")
