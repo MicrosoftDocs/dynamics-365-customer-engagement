@@ -9,17 +9,17 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ---
-<!--Your choice between "with" or "by using." Writing Style Guide says "with" is okay to use with features.-->
+
 # Analyze your sales data by using Power BI template apps
 
-[Power BI template apps](https://docs.microsoft.com/power-bi/service-template-apps-overview) are integrated packages of <!--Is it necessary to say "pre-built" or "out-of-the-box"? (I've never quite understood the difference.)-->Power BI dashboards and reports. Using Power BI template apps with Dynamics 365 Sales provides a convenient, powerful, and quick way to access and analyze your sales data.
+[Power BI template apps](https://docs.microsoft.com/power-bi/service-template-apps-overview) are integrated packages of pre-built Power BI dashboards and reports. Using Power BI template apps with Dynamics 365 Sales provides a convenient, powerful, and quick way to access and analyze your sales data.
 
 The following Power BI template apps are now available to analyze your sales data on Dynamics 365 Sales:
 
 - Sales Analytics for Dynamics 365 Sales
 - Process Analytics for Dynamics 365
 
-You can connect to and analyze your Dynamics 365 Sales data<!--This implies that both packages are used with Dynamics 365 Sales. I assume there's a reason that the "Process Analytics" name doesn't include "Sales" at the end? It's a pattern I haven't seen before.--> by using these Power BI template apps. You can schedule automatic data updates to ensure that you can always make the most informed and timely decisions. You can also create your own custom Power BI dashboards based on the reports in these template apps and embed them directly in Dynamics 365 Sales. 
+You can connect to and analyze your Dynamics 365 Sales data by using these Power BI template apps. You can schedule automatic data updates to ensure that you can always make the most informed and timely decisions. You can also create your own custom Power BI dashboards based on the reports in these template apps and embed them directly in Dynamics 365 Sales. 
 
 ## Sales Analytics for Dynamics 365 Sales
 
@@ -47,4 +47,5 @@ As a sales enablement manager, use this template app to perform the following ta
 
 ### See also
 
-[Configure Power BI template apps to work with Dynamics 365 Sales](configure-sales-template-apps.md)
+[Configure Power BI template apps to work with Dynamics 365 Sales](configure-sales-template-apps.md)<br>
+[Customize Power BI template apps for Dynamics 365 Sales](customize-template-apps.md)
