@@ -32,7 +32,7 @@ This section explains the prerequisites for using Omnichannel for Customer Servi
 
 ### Availability
 
-To find out if Omnichannel for Customer Service is available in your region, see [International availability](../international-availability.md).
+To find out if Omnichannel for Customer Service is available in your region, see [International availability](international-availability.md).
 
 ### Licensing
 
