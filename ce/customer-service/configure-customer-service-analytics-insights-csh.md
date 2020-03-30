@@ -28,19 +28,11 @@ applies_to:
 You can configure the Customer Service Analytics and Customer Service Insights reports in Customer Service Hub and share them with service managers who can then view and analyse the different activities performed in Customer Service Hub. The following reports are available out of the box:
 
 - **Analytics reports:** Customers can view business intelligence (BI) analytics and metrics for their customer service organisation.
-- **Insights reports:** Customers can view Customer Service Insights reports with a combination of BI analytics and artificial intelligence (AI) insights for their organisation.
-
-## Prerequisites for installing Customer Service Insights reports
-
-Make sure that the following prerequisites are met:
-
-- Administrative privileges for Dynamics 365.
-- Valid Customer Service Insights license is required to install and configure Customer Service Insights reports.
-  > [!NOTE]
-  >
-  > The Customer Service Insights license is seeded for customers who have licenses for Dynamices 365 Customer Service Enterprise.
+- **Insights reports:** Customers can view Customer Service Insights reports with a combination of BI analytics and artificial intelligence (AI) insights for their organization. The reports use natural language understanding to automatically detect the language used in your support cases and group related support cases into topics. For more details about Customer Service Insights, see [Customer Service Insights overview](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/overview).
 
 ## Configure Customer Service Analytics reports in Customer Service Hub
+
+Make sure that you have the administrator permissions for Dynamics 365.
 
 ### Enable Customer Service Analytics reports
 
@@ -87,15 +79,30 @@ You can see the reports by navigating to the **Service** > **Analytics and Insig
 
 ## Configure Customer Service Insights reports
 
+Make sure that the following prerequisites are met:
+
+- Administrator permissions for Dynamics 365.
+- Valid Customer Service Insights license is required to install and configure Customer Service Insights reports.
+  > [!NOTE]
+  >
+  > The Customer Service Insights license is seeded for customers who have licenses for Dynamices 365 Customer Service Enterprise.
+
 ### Install Customer Service Insights reports
 
 Perform the following steps to install the Customer Service Insights reports:
 
 1. Sign in to Dynamics 365 as an administrator, and navigate to Customer Service Hub.
 2. In the **Change area**, select **Service Management** > **Settings (Preview)**. The **Analytics and insights settings** page appears.
-3. Select **Get started**. The **Install Customer Service Insights** page displays the installation process. After the installation, **Go to settings** appears.
+3. Select **Get started**. The **Install Customer Service Insights** page displays the installation process for the following:
+   - Checks whether a valid Customer Service Insights license is available in the tenant.
+   - Installs the Customer Service Insights solution if the license check is passed.
+   - Generates insights and sets up reports for the administrator, if a valid license is assigned to the administrator.
+
+  After the installation, **Go to settings** appears on the installation page.
+
     > [!div class=ms-imgBorder]
     > ![Customer Service Insights reports install](media/install-csi-reports-csh.png)
+
 4. Select **Go to settings**. The **Analytics and insights settings** page is displayed.
     > [!div class=ms-imgBorder]
     > ![Customer Service Insights reports installed](media/csi-reports-installed-settings.png "Customer Service Insights reports installed")
@@ -109,13 +116,16 @@ By default, users with the following security roles will be able to see **Insigh
 
 To change the security role, edit the permission of the security role to Customer Service Insights Configuration custom entity. For information, see [security roles](https://docs.microsoft.com/power-platform/admin/create-edit-security-role#edit-a-security-role).
 
-### Share Customer Service Insights reports
+### Configure Customer Service Insights settings
 
-On the **Analytics and insights settings** page, you can do the following:
+On the **Analytics and insights settings** page, you can do the following after the reports are created:
 
-- View reports
-- Share reports
-- Change settings
+- **View reports:** Select to navigate to the Customer Service Insights reports in Customer Service Hub.
+- **Share reports:** Select to open the Customer Service Insights standalone application and share the reports with your co-workers. For information about sharing reports, see [Sharing a workspace in Customer Service Insights](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/use-workspaces#sharing-a-workspace).
+- **Change settings:** Select to open the Settings dialog box in the Customer Service Insights standalone application, including data mapping and settings for topic generation. For more information about changing the settings in Customer Service Insights, see the following:
+  - [Map your data to custom entities and fields](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/map-data#to-map-data-when-you-connect-to-a-dynamics-365-environment)
+  - [Improve data quality by cleansing support case titles](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/settings)
+  - [Set the granularity of how Customer Service Insights generates customer service topics](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/granularity)
 
 > [!IMPORTANT]
 >
@@ -123,17 +133,18 @@ On the **Analytics and insights settings** page, you can do the following:
 
 ### View Customer Service Insights reports
 
-Navigate to the **Service** > **Analytics and Insights** > **Insights (Preview)**. The Home page displays a dashboard view.
+Navigate to the **Service** > **Analytics and Insights** > **Insights (Preview)**. The Home page is displayed.
 
   > [!div class=ms-imgBorder]
   > ![Customer Service Insights home](media/csi-reports-home.png "Customer Service Insights home")
 
-You can view the following KPIs:
+You can view the following reports:
 
-- KPI summary
-- New cases
-- Customer satisfaction
-- Resolutions
+- **Home page:** Presents key insights from your customer service data in a visually rich way, making it easier to discover topics and issues to focus on and see why they were suggested.
+- **KPI summary:** Gives a broad overview of the customer service experience at your organization. It uses AI technology to show you topics that are generating the highest volume and emerging topics with the highest rate of change in volume.
+- **New cases:** Gives an overview of the new cases in your customer service system. It uses AI technology to help you identify popular and emerging issues.
+- **Customer satisfaction:** Gives an overview of customer satisfaction, and uses AI technology to show you topics that are having the greatest impact on customer satisfaction scores.
+- **Resolutions:** Gives you an overview of your customer service system's case resolution performance. It uses AI technology to show you topics that are having the greatest positive or negative impact on resolution time.
 
 ### See also
 
