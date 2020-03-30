@@ -4,7 +4,7 @@ description: "Learn what Dynamics 365 Channel Integration Framework version 2.0 
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 12/31/2019
+ms.date: 04/01/2020
 ms.topic: get-started-article
 ms.service: 
   - dynamics-365-customerservice
@@ -97,7 +97,8 @@ Additional capabilities offered by Dynamics 365 Channel Integration Framework in
 
 - **Customizable agent experience**
 
-  You can customize the channel programmatically or manually to provide an enhanced agent experience with capabilities like maximize, minimize, show, hide, height, width, and pop-out windows.
+  - You can customize the channel programmatically or manually to provide an enhanced agent experience with capabilities like maximize, minimize, show, hide, height, width, and pop-out windows.
+  - Agents can configure to use productivity tools with multiple sessions. They can create new scripts or reuse the existing ones.
 
 - **Upgrading to new versions**
 
