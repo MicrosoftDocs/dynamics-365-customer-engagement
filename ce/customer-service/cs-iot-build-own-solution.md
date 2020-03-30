@@ -4,7 +4,7 @@ description: "Learn how to build your own Connected Customer Service solution th
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
-ms.date: 02/03/2020
+ms.date: 04/03/2020
 ms.topic: article
 ms.service: 
   - "dynamics-365-customerservice"
