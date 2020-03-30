@@ -57,7 +57,7 @@ The matrix explains the various aspects of version 1.0 and 2.0.
 |Features| Support for one channel provider at any time <br> Communication panel management |Support for multiple telephony channel providers <br> Communication panel management <br> Channel analytics <br> Notification management templates<br> Application tab management templates<br> Session management templates |
 
 > [!NOTE]
-> For information on how to integrate custom messaging channel providers, see [Bring your own bot](../../omnichannel/developer/how-to/bring-your-own-bot.md).
+> For information on how to integrate custom messaging channel providers, see [Bring your own channel](../../omnichannel/developer/how-to/bring-your-own-channel.md).
 
 > [!div class="mx-imgBorder"]
 > ![Differences in version 1.0 and 2.0](media/choose-between-version.png "Differences in version 1.0 and 2.0")

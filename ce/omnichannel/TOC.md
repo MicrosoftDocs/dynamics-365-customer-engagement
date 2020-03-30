@@ -237,6 +237,7 @@
 #### [Enable a bot to escalate and end conversation](developer/bot-escalate-end-conversation.md)
 #### [Auto-close a conversation](developer/auto-close-conversation.md)
 #### [Build a custom smart assist bot](developer/how-to/smart-assist-bot.md)
+#### [Bring your own channel](developer/how-to/bring-your-own-channel.md)
 ### Entity reference
 #### [Overview](developer/reference/entities/overview.md)
 #### [Deprecated entities](developer/reference/entities/deprecated-entities.md)
