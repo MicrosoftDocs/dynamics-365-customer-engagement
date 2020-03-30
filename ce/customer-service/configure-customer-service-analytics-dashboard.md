@@ -14,7 +14,7 @@ applies_to:
   - ""
 ---
 
-# Configure Customer Service Analytics dashboards
+# Configure Customer Service Analytics dashboards in Power BI
 
 You must perform the following steps to configure the historical Customer Service Analytics dashboards to display in the Customer Service Hub app:
 

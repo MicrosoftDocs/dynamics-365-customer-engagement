@@ -19,7 +19,7 @@ search.app:
   - D365CS
 ---
 
-# View and understand Customer Service analytics and insights
+# View and understand Customer Service Analytics and Insights
 
 ## Customer Service Analytics dashboard
 
