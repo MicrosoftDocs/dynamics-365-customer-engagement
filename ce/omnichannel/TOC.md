@@ -44,6 +44,8 @@
 ##### [Configure an SMS channel](administrator/configure-sms-channel.md)
 #### Social channels
 ##### [Configure a Facebook channel](administrator/configure-facebook-channel.md)
+##### [Configure a Line channel](administrator/configure-line.channel.md)
+##### [Configure a Twitter channel](administrator/configure-twitter-channel.md)
 ##### [Configure a WhatsApp channel](administrator/configure-whatsapp-channel.md)
 #### Custom messaging channel
 ##### [Configure a Custom messaging channel](administrator/configure-custom-channel.md)
@@ -135,10 +137,10 @@
 ##### Use chat channel
 ##### Use SMS channel
 ##### [Use Facebook channel](agent/agent-oc/facebook.md)
-##### [Use Line channel](agent/agent-oc/line.md)
-##### [Use Twitter channel](agent/agent-oc/twitter.md)
 ##### [Use WhatsApp channel](agent/agent-oc/whatsapp.md)
 ##### Use WeChat channel
+##### Use Line channel
+##### Use Twitter channel
 ##### Use Teams channel
 ##### Use entity routing channel
 
