@@ -605,11 +605,7 @@ The following table outlines the different formatting options of the rich text e
 |![Align Center](../customer-service/media/align-center.png "Align Center")| Align Center | Ctrl+E | Center your content on the page. (Commonly used for a formal appearance.) |
 |![Align Right](../customer-service/media/align-right.png "Align Right")| Align Right | Ctrl+R | Center your content on the page. (Commonly used for a formal appearance.) |
 |![Link](../customer-service/media/format-link.png "Link")| Link |  | Create a link in your document for quick access to web pages and files. Pasted or typed URL text is converted into a link. For example, "http://myexample.com" will become "<a href=“http://myexample.com”>http://myexample.com</a>".
-In the **Link** dialog box, choose the type of link you’d like to insert.
-
-The **Link Info** tab allows you to choose the link type as well as set the link protocol and URL.
-
-The **Target** tab is only available for the URL link type. It specifies the location where the link will open after you select it. |
+In the **Link** dialog box, choose the type of link you’d like to insert. The **Link Info** tab allows you to choose the link type as well as set the link protocol and URL. The **Target** tab is only available for the URL link type. It specifies the location where the link will open after you select it. |
 |![Remove Link](../customer-service/media/remove-link.png "Unlink")| Unlink |  | Delete a link in your email or document. When you place the cursor on a link, the **Unlink** button on the toolbar becomes active. Select the button to remove the link and make it plain text. |
 |![Superscript](../customer-service/media/format-superscript.png "Superscript")| Superscript |  | Type very small letters just above the line of text. |
 |![Subscript](../customer-service/media/format-subscript.png "Subscript")| Subscript |  | Type very smaill letters just below the line of text. |
@@ -632,8 +628,6 @@ To insert an image using a URL or navigating to the local image:
 - Select one or several cells within a table and apply specific formatting, add links to the selection, or cut, copy, or paste entire rows or columns.
 - Use table tools, an advanced context menu for table items and the Cell Properties dialog. This supports features such as cell type, width and height, word wrapping, alignment, merging and splitting cells horizontally and vertically, inserting or deleting rows and columns, row and column span, and cell and border color. |
 |![Expand Toolbar](../customer-service/media/show-more.png "Expand Toolbar")| Expand Toolbar |  | Displays when the toolbar is collapsed and not all options appear. Click to expand the toolbar and make all options visible. |
-
-The following table outlines other features that improve the formatting or provide additional capabilities but aren't represented as buttons on the toolbar.
 
 The following table outlines a list of accessibility shortcuts available when using email. You can access this list while composing email by pressing **Alt+0**.
 
