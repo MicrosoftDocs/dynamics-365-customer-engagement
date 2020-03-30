@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/marketing/smart-scheduler.md",
+      "redirect_url": "automated-scheduler",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/marketing/social-listening.md",
       "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition",
       "redirect_document_id": "false"
