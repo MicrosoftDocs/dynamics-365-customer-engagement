@@ -108,13 +108,12 @@ To attach skills, you need a workstream record. You can either create or use an 
 
 8. Set up the conditions. Select an **Entity**, **Attribute**, and **Operator**. For an entity, you can define rules based on related level 1 attributes.
 
-<br>
     An example is as follows.
 
     | Entity | Related Attribute | Attribute | Operator | Value |
-    |-----------|-----------------|---------------------|---------------------|
+    |--------|----------|-------------------|-----------|---------|
     | Live Chat Context (Conversation) | Conversation (Conversation) | Active Agent | Equals | Alan Steiner |
-
+    
 1. Select **Save** to save the record. After you save, the **Skill** section appears.
 
 2. Select **+ Add Existing Skill**. The **Quick Create: Attach Skill** pane appears.
