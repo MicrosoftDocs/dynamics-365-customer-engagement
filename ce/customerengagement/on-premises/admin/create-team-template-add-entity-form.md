@@ -1,7 +1,7 @@
 ---
 title: "Create a team template and add to an entity form  | MicrosoftDocs"
 ms.custom: 
-ms.date: 10/01/2019
+ms.date: 03/19/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -27,7 +27,7 @@ search.app:
 ---
 # Create a team template to control access rights for automatically created teams
 
-A team template can be used for the entities that are enabled for automatically created access teams. In the team template, you have to specify the entity type and the access rights on the entity record. For example, you can create a team template for an account entity and specify the Read, Write, and Share access rights on the account record that the team members are granted when the team is automatically created. After you create a team template, you have to customize the entity main form to include the new team template. After you publish customizations, the access team template is added in all record forms for the specified entity in a form of a list. For example, you created a team template called “Sales team” for the account entity. On all account record forms you’ll see the list called “Sales team”. You can add or remove team members using this list.  
+A team template can be used for the entities that are enabled for automatically created access teams. In the team template, you have to specify the entity type and the access rights on the entity record. For example, you can create a team template for an account entity and specify the Read, Write, and Share access rights on the account record that the team members are granted when the team is automatically created. After you create a team template, you have to customize the entity main form to include the new team template. After you publish customizations, the access team template is added in all record forms for the specified entity in a form of a list. For example, you created a team template called "Sales team" for the account entity. On all account record forms you'll see the list called "Sales team". You can add or remove team members using this list.  
     
 <a name="bkmk_1"></a>   
 ## Enable an entity for access teams  
@@ -45,6 +45,7 @@ A team template can be used for the entities that are enabled for automatically 
 6. On the **Actions** toolbar, choose **Save**.  
   
 <a name="bkmk_2"></a>   
+
 ## Create a team template  
   
 1. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
@@ -53,6 +54,9 @@ A team template can be used for the entities that are enabled for automatically 
   
 3. On the **Actions** toolbar, choose **New**, complete the required fields, and then choose **Save**.  
   
+> [!NOTE]
+> You can only create two Access Team templates per entity.
+
 <a name="bkmk_3"></a>  
  
 ## Add a team template to the entity form   

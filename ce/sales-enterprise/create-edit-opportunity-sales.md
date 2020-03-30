@@ -43,7 +43,7 @@ If you're following the sales process from start to finish, you *qualify* a lead
 
      > [!NOTE]
      > 
-     > Your base record and all its line items must use the same currency. For example, if your opportunity has the currency set to U.S Dollars, you must use the same currency for the price list items that you add to the opportunity. You can’t change the currency of the base record (in this case, an opportunity), unless you remove all the list items associated with the record.
+     > Your base record and all its line items must use the same currency. For example, if your opportunity has the currency set to U.S Dollars, you must use the same currency for the price list items that you add to the opportunity. You can't change the currency of the base record (in this case, an opportunity), unless you remove all the list items associated with the record.
      > Similarly, all the records created from an opportunity, such as a quote, order or invoice must use the same currency as the opportunity.
 
    - **Purchase Timeframe**: The timeframe by when the account or contact is likely to make the purchase.
@@ -69,7 +69,7 @@ If you're following the sales process from start to finish, you *qualify* a lead
 
 
     > [!NOTE]
-    > The “+ New” button on Connection sub-grids are supported only for the out-of-box “Stakeholders” and "Sales Team" views on the Opportunity entity. For any other Connection sub-grid or “Stakeholders” or "Sales Team" sub-grids that are based on custom views, the “+ New” button doesn't appear on the sub-grid. In such case, navigate to the Connection Associated view for the record and use the **Connect** button to create a new connection. 
+    > The "+ New" button on Connection sub-grids are supported only for the out-of-box "Stakeholders" and "Sales Team" views on the Opportunity entity. For any other Connection sub-grid or "Stakeholders" or "Sales Team" sub-grids that are based on custom views, the "+ New" button doesn't appear on the sub-grid. In such case, navigate to the Connection Associated view for the record and use the **Connect** button to create a new connection. 
 
 
 7. In the **Competitors** section, select **Add Existing Competitor** to add a competitor who's competing with your organization for this opportunity.
@@ -78,7 +78,7 @@ If you're following the sales process from start to finish, you *qualify* a lead
 
 9. Add products to your opportunity. [!include[proc-more-information](../includes/proc-more-information.md)] [Add products to an opportunity](add-products-opportunity.md), [Add products to an opportunity using the enhanced experience](add-products-enhanced-experience.md)
 
-10.	Follow the process bar to move the opportunity to the next stage. In the **Develop** stage, enter data for the following fields:
+10.    Follow the process bar to move the opportunity to the next stage. In the **Develop** stage, enter data for the following fields:
     
     - **Customer Need**: Enter what interests the customer, such as specific product requirements.
     
@@ -159,7 +159,6 @@ Need a faster way to enter opportunities? Try one of these:
 [Recalculate an opportunity](recalculate-opportunity.md)  
 [Close an opportunity](close-opportunity-won-lost-sales.md)  
 [Work with opportunities in the Kanban view](opportunity-kanban-view.md)  
-[Dynamics 365 Sales troubleshooting guide for sales people](troubleshooting.md)  
-[Dynamics 365 Sales troubleshooting guide for administrators](troubleshooting-admin.md)  
+[Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
 [Boost sales with Versium Predict](../versium-predict/versium-predict.md)   
 [Insights, powered by InsideView](../insights-insideview/insights-powered-by-insideview.md)   

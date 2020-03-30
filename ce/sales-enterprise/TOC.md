@@ -63,6 +63,10 @@
 #### [Manage playbook templates](manage-playbook-templates.md) 
 #### [Associate documents with playbook activities](associate-documents-playbook-activities.md)
 
+### Power BI template apps for Dynamics 365 Sales
+#### [Analyze your sales data using Power BI template apps](introduction-sales-template-apps.md)
+#### [Configure Power BI template apps to work with Dynamics 365 Sales](configure-sales-template-apps.md)
+
 ### General Data Protection Regulation (GDPR)
 #### [Dynamics 365 Sales & GDPR](../sales-enterprise/dynamics-365-sales-gdpr.md)
 ### Upgrade or downgrade
@@ -73,6 +77,8 @@
 ## User Guide
 ### [Help resources for sales people](../sales-enterprise/user-guide.md)
 ### [Learn the basics](user-guide-learn-basics.md)
+### [Gain insights with dashboards](dashboards.md)
+### [Understand the sales pipeline chart and its phases](sales-pipeline-chart.md)
 ### [Send email using the enhanced email experience](enhanced-email.md)
 ### [Insert an email template](insert-email-template.md)
 ### [Create PDF documents](create-quote-pdf.md)
@@ -130,8 +136,16 @@
 ### [Use Sales Hub on the mobile app](../sales-enterprise/use-sales-hub-on-dynamics-365-mobile.md)
 
 ## Troubleshooting and FAQs
-### [Troubleshooting guide for sales people](troubleshooting.md)
-### [Troubleshooting guide for administrators](troubleshooting-admin.md)
+### [Dynamics 365 Sales Troubleshooting guide](troubleshooting.md)
+### [Troubleshooting leads](ts-leads.md)
+### [Troubleshooting opportunities](ts-opportunities.md)
+### [Troubleshooting orders](ts-orders.md)
+### [Troubleshooting products](ts-products.md)
+### [Troubleshooting common entities](ts-oqoi.md)
+### [Troubleshooting views](ts-views.md)
+### [Troubleshooting forecasts](ts-forecasts.md)
+### [Troubleshooting the Unified Interface](ts-unified-interface.md)
+### [Troubleshooting the sales pipeline chart](ts-sales-pipeline.md)
 ### [FAQs](faqs-sales.md)
 
 ## Integrations
@@ -142,6 +156,9 @@
 ## Developer Guide
 ### [Get started](../sales-enterprise/developer/developer-guide.md)
 ### [Enable sales order processing integration](../sales-enterprise/developer/enable-sales-order-processing-integration.md)
+### Troubleshooting
+#### [Custom plugin handling through shared variable](../sales-enterprise/developer/custom-plugin-handling-shared-variable.md)
+
 ### Manual forecasting
 #### [Entity reference](../sales-enterprise/developer/reference/manual-forecasting-entity-reference.md)
 ##### [msdyn_forecastdefinition](../sales-enterprise/developer/reference/entities/msdyn_forecastdefinition.md)
