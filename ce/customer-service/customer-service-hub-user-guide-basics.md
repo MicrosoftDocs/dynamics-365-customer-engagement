@@ -4,7 +4,7 @@ description: Learn the basics of the Customer Service Hub for Customer Service
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 03/24/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -472,10 +472,10 @@ The **From** field is automatically populated based on the currently logged-in u
    > [!div class=mx-imgBorder]
    > ![csh-email-expand-window](media/csh-email-expand-window.png "Expand the email window")
 
-The message box has a rich text editor that enables you to create rich and well-formatted content for the emails with emphasis. For details about the features in the editor, see [Editor functionality and accessibility shortcuts](#editor-functionality-and-accessibility-shortcuts).
+The message box has a rich text editor that enables you to create rich and well-formatted content for the emails with emphasis. By default, the editor displays as a single line which you can expand to see all of the functionality. For details about the features in the editor, see [Editor functionality and accessibility shortcuts](#editor-functionality-and-accessibility-shortcuts).
 
   > [!div class=mx-imgBorder]
-  > ![csh-email-toolbar](media/csh-email-toolbar.png "Use the rich text editor features")
+  > ![csh-email-toolbar](media/csh-new-email-toolbar.png "Use the rich text editor features")
 
 5. When you're done, select **Send**.
 
@@ -491,39 +491,10 @@ An alternate way of creating email is to use the enhanced email experience, whic
 - Insert attachments to email.
 
 > [!IMPORTANT]
-> - Your system administrator must enable the enhanced email experience before you can use it. See [Enable enhanced email](#enable-enhanced-email) for steps.
+> - Your system administrator must enable the enhanced email experience before you can use it. Follow the steps in [Enable the enhanced email experience](#Enable-the-enhanced-email-experience).
 > - The enhanced email experience is available only for email activities created from the **Timeline** section of any model-driven app. 
 
-Compose an email using the enhanced experience:
-
-1. In the **Timeline** section of records such as account or contact, select **+** and then under **Activities**, select **Email**.
-
-   A new email pop-up window opens. 
-
-   > [!div class="mx-imgBorder"]
-   > ![Enhanced email pop-up window](media/enhanced-email-pop-up.png "Enhanced email pop-up window")
-
-   The **From** and **To** fields are automatically populated based on the user and the account and contact of the original record.
-
-2. Write your email from scratch or select **Insert Template** to search for and apply a template. For more information on inserting an email template, see [Insert an email template](insert-email-template.md).
-
-3. Select **Attach file** if you want to add attachments.
-
-4. Select **Insert signature** to search for and add your signature.
-
-5. When you're done, select **Send**. 
-
-> [!IMPORTANT]
-> The enhanced email pop-up window opens only when the height and width of your screen size is at least 400 x 650 pixels or greater. If lower, you will be taken to the standard form instead of the enhanced email experience. 
-
-#### Enable enhanced email
-
-Enhanced email for Timeline enables users to multitask, compose, and save drafts using email pop-up windows when they create email from Timeline.
-
-> [!IMPORTANT]
-> - The enhanced email experience is available only for email activities created from the **Timeline** section of model-driven apps. The system administrator must enable this feature before agents can use it. 
-
-To enable enhanced email:
+#### Enable the enhanced email experience
 
 1. Sign in to your [https://<YourOrgURL>.dynamics.com/apps](https://<YourOrgURL>.dynamics.com/apps) environment.
 
@@ -551,6 +522,31 @@ To enable enhanced email:
 
 6. Select **OK**.
 
+#### Compose an email using the enhanced experience:
+
+> [!Note]
+> - This section assumes the administrator has already enabled this feature. For steps on how to enable it, see [Enable the enhanced email experience](#enable-the-enhanced-email-experience).
+
+1. In the **Timeline** section of records such as account or contact, select **+** and then under **Activities**, select **Email**.
+
+   A new email pop-up window opens. 
+
+> [!IMPORTANT]
+> The enhanced email pop-up window opens only when the height and width of your screen size is at least 400 x 650 pixels or greater. If lower, you will be taken to the standard form instead of the enhanced email experience. 
+
+   > [!div class="mx-imgBorder"]
+   > ![Enhanced email pop-up window](media/csh-enhanced-email-new.png "Enhanced email pop-up window")
+
+   The **From** and **To** fields are automatically populated based on the user and the account and contact of the original record.
+
+2. Write your email from scratch or select **Insert Template** to search for and apply a template. For more information on inserting an email template, see [Insert an email template](#insert-an-email-template).
+
+3. Select **Attach file** if you want to add attachments.
+
+4. Select **Insert signature** to search for and add your signature.
+
+5. When you're done, select **Send**. 
+
 ### Insert an email template
 You can use an email template—a preformatted email message—to quickly create and send email messages. You can insert the template while composing an email by selecting **Insert Template** on the command bar. The list of available templates is displayed in the **Email templates** window. In the **Recently used** section, the four most recently used templates by you are displayed. The **All templates** section displays a list of all out-of-the-box email templates (global and entity specific), in alphabetical order. Global templates are shown as the type User. If you've created a custom email template, it will also be available here. For information about creating a custom email template, see [Create templates for email](https://docs.microsoft.com/power-platform/admin/create-templates-email).
 
@@ -577,7 +573,7 @@ You can see templates of a particular language by selecting a language from the 
 5. Select **Apply template** to insert the content in the email.
 
      > [!div class="mx-imgBorder"]
-     > ![Email templates window](media/email-templates-window.png "Email templates window")
+     > ![Email templates window](media/csh-email-template-new.png "Email templates window")
 
 If you try to insert an email template on a device with smaller screen size, you'll only see an option to search and select a template.
 
@@ -620,16 +616,16 @@ The following table outlines the different formatting options of the rich text e
 |![Add a Table](../customer-service/media/add-table.png "Add a Table")| Add a Table |  | Add a table to your content. |
 |![Expand Toolbar](../customer-service/media/show-more.png "Expand Toolbar")| Expand Toolbar |  | Displays when the toolbar is collapsed and not all options appear. Click to expand the toolbar and make all options visible. |
 
-The following table outlines other plugins you can access.
+The following table outlines other features you can access.
 
-|Plugin | Name | Description |
+| Name | Description |
 |----------------------|-------------------------|-----------------------------|
-| a11yhelp | Accessibility Help | Displays accessibility commands and keystroke information in a dialog window. Click Alt+0 to access this information. |
-| autolink | Auto Link | Converts a pasted or typed URL text into a link. For example, "http://myexample.com" will become "<a href=“http://myexample.com”>http://myexample.com</a>". |
-| contextmenu | Context Menu | Displays specific content-related right-click menu options. The native browser context menu remains available when the you press the Ctrl key while opening the menu, which can be also be configured. |
-| tableresize | Table Resize | Lets you resize table columns using your mouse by allowing you to hover over a column border which causes the cursor to change to indicate that the column can be resized. Click and drag your mouse to resize to the desired column width. |
-| tableselection | Table Selection | Provides a unique custom selection system for tables. Examples include selecting a few cells from different rows, applying formatting or adding links to all selected cells, and cutting, copying, or pasting entire rows or columns. |
-| tabletools | Table Tools | Adds an advanced context menu for table items and the Cell Properties dialog window with support for features such as cell type, width and height, word wrapping, alignment, merging and splitting cells horizontally and vertically, inserting or deleting rows and columns, row and column span, and cell and border color. |
+| Accessibility Help | Displays accessibility commands and keystroke information in a dialog window. Click Alt+0 to access this information. |
+| Auto Link | Converts a pasted or typed URL text into a link. For example, "http://myexample.com" will become "<a href=“http://myexample.com”>http://myexample.com</a>". |
+ Context Menu | Displays specific content-related right-click menu options. The native browser context menu remains available when the you press the Ctrl key while opening the menu, which can be also be configured. |
+ Table Resize | Lets you resize table columns using your mouse by allowing you to hover over a column border which causes the cursor to change to indicate that the column can be resized. Click and drag your mouse to resize to the desired column width. |
+| Table Selection | Provides a unique custom selection system for tables. Examples include selecting a few cells from different rows, applying formatting or adding links to all selected cells, and cutting, copying, or pasting entire rows or columns. |
+| Table Tools | Adds an advanced context menu for table items and the Cell Properties dialog window with support for features such as cell type, width and height, word wrapping, alignment, merging and splitting cells horizontally and vertically, inserting or deleting rows and columns, row and column span, and cell and border color. |
 
 The following table outlines a list of accessibility shortcuts available when using email. You can access this list while composing email by pressing **Alt+0**.
 
