@@ -4,7 +4,7 @@ description: "Learn about the international availability of Omnichannel for Cust
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 02/28/2020
+ms.date: 04/03/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -20,6 +20,21 @@ The purpose of this document is to provide information about availability of **O
 - [Language availability](#language-availability)
 
 ## Geographic location availability
+
+### April 2020 update
+
+Omnichannel for Customer Service January 2020 update is available in the following regions:
+
+|   Geographic location   |            Date        |
+|-------------------------|------------------------|
+| Canada        |   April 03, 2020     |  
+| South America   |   To be announced     | 
+| Europe, the Middle East, and Africa       |   To be announced     |
+| United Kingdom          |   To be announced      |
+| Asia Pacific         |   To be announced      |
+| Australia           |   To be announced     |
+| Japan           |   To be announced     |
+| North America | To be announced   |
 
 ### January 2020 update
 
