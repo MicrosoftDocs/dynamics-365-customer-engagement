@@ -52,7 +52,7 @@ In this article, we'll walk through an example of setting up an inspection using
 
 - Dynamics 365 version 9.1.0000.15015+.
 
-- Knowledge of work order [incident types and service tasks](.configure-incident-types.md) is encouraged.
+- Knowledge of work order [incident types and service tasks](configure-incident-types.md) is encouraged.
 
 
 ## Create inspection template
