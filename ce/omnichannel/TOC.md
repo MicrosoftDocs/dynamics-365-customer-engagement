@@ -135,9 +135,9 @@
 ##### Use chat channel
 ##### Use SMS channel
 ##### [Use Facebook channel](agent/agent-oc/facebook.md)
+##### [Use Line channel](agent/agent-oc/line.md)
+##### [Use Twitter channel](agent/agent-oc/twitter.md)
 ##### [Use WhatsApp channel](agent/agent-oc/whatsapp.md)
-##### Use Twitter channel
-##### Use Line channel
 ##### Use WeChat channel
 ##### Use Teams channel
 ##### Use entity routing channel
