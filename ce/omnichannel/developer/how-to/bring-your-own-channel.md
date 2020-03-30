@@ -408,8 +408,11 @@ II. If conversation is active for the activity received by the relay processor, 
 
 This page briefly explained how channel is connected to Microsoft Direct Line Bot Framework which is internally attached to OmniChannel. This source code and documentation describe the overall flow of how the channel can connect to OmniChannel service through direct line and doesn't focus on reliability and scalability aspect.
 
+For information on how to configure a custom messaging channel, see [Configure custom messaging channel](../../administrator/configure-custom-channel.md).
+
 ## See also
 
-[Configure custom channel](../../administrator/configure-custom-channel.md)<br />
+[Sample code: Bring your own channel](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/bring-your-own-channel)<br />
+[Configure custom messaging channel](../../administrator/configure-custom-channel.md)<br />
 [Key concepts in Direct Line API 3.0](https://docs.microsoft.com/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-concepts?view=azure-bot-service-4.0)<br />
 [MessageBird API reference](https://developers.messagebird.com/api)
