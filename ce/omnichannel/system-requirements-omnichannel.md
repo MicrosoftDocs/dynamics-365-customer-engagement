@@ -30,6 +30,10 @@ You can deploy Omnichannel for Customer Service over a Customer Service applicat
 
 This section explains the prerequisites for using Omnichannel for Customer Service.
 
+### Availability
+
+To find out if Omnichannel for Customer Service is available in your region, see [International availability](../international-availability.md).
+
 ### Licensing
 
 - You must have an active subscription to Microsoft Dynamics 365 Customer Service Enterprise in your tenant for each Digital Messaging or Chat user.
