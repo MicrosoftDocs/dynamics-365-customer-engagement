@@ -57,7 +57,7 @@ The Dynamics 365 Marketing April 2020 update includes several feature enhancemen
     - Docs
 - **Automated scheduler**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/smart-scheduler)
-    - Docs
+    - [Docs](automated-scheduler.md)
 - **Compliance made easier**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/compliance-made-easier)
     - Docs
@@ -66,7 +66,7 @@ The Dynamics 365 Marketing April 2020 update includes several feature enhancemen
     - Docs
 - **Spam checker**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/spam-checker)
-    - Docs
+    - [Docs](spam-checker.md)
 - **Improved event management experience**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-event-management-experience)
     - Docs
