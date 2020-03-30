@@ -138,9 +138,10 @@ IF you are a supervisor, and if the Customer Service Insights reports have not b
 
 > [!NOTE]
 >
-> You must have a valid Customer Service Insights license to view the site map, create the report, and share them. Also, only those users who have a valid Customer Service Insights license can view them.  You can select **Share** at the top of the report to share the reports.
+> You must have a valid Customer Service Insights license to view the site map, create the reports, and share them. Also, only those users who have a valid Customer Service Insights license can view the reports.  You can select **Share** at the top of the report to share the reports.
 
 The report consist of five pivots as follows:
+
 - [Home](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/keyinsights)
 - [KPI summary](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/dashboard-kpi-summary)
 - [New cases](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/dashboard-incoming-cases)
