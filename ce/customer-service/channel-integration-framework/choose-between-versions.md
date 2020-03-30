@@ -1,10 +1,10 @@
 ---
 title: "How to choose between Dynamics 365 Channel Integration Framework version 1.0 and version 2.0 | Microsoft Docs"
 description: "Learn how to choose between Dynamics 365 Channel Integration Framework version 1.0 and version 2.0."
-author: kabala123
-ms.author: kabala
+author: susikka
+ms.author: susikka
 manager: shujoshi
-ms.date: 02/03/2020
+ms.date: 03/20/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -50,7 +50,7 @@ The matrix explains the various aspects of version 1.0 and 2.0.
 || Version 1.0 | Version 2.0 |
 |--------------------------------|---------------------------|-------------------------------|
 |Session| Single-session  | Multi-session|
-|Channel | Telephony, messaging (SMS), chat and social channels | Telephony channels|
+|Channel | Telephony, messaging (SMS), chat and social channels | Telephony and social channels|
 |Model-driven app | Dynamics 365 Customer Service <br> Dynamics 365 Sales <br> Dynamics 365 Project Service <br> Dynamics 365 Field Service | Omnichannel for Customer Service |
 |Communication panel | Right side | Left side |
 |Communication panel modes | Minimized <br> Expanded | Docked <br> Minimized <br> Hidden |
