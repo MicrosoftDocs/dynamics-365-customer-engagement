@@ -81,7 +81,7 @@ After completing the prerequisites, you can add the LINE channel for your organi
 More information about the LINE app: [Setting up your LINE app](https://developers.line.biz/en/docs/messaging-api/getting-started/#creating-a-channel)
  
 > [!div class=mx-imgBorder]
-> ![LINE callback information](../media/line-create-new-channel-1.png "LINE callback information")
+> ![LINE account details](../media/line-create-new-channel-1.png "LINE account information")
 
 > [!div class=mx-imgBorder]
 > ![LINE callback information](../media/line-create-new-channel-2.png "LINE callback information")
