@@ -66,7 +66,7 @@ After completing the prerequisites, you can add the Twitter channel for your org
     More information about the Twitter app: [Setting up your Twitter app](https://developer.twitter.com/en/docs/basics/apps/overview)
   
     > [!div class=mx-imgBorder]
-    > ![Register a Twitter application](../media/twitter-enable-channel.png "Register a Twitter application")
+    > ![Register a Twitter application](../media/twitter-create-handle.png "Register a Twitter application")
 
 4.	Select **Save**. After you save the record, the **Twitter** channel is enabled. The Callback URL has been generated. The next step is to save it.
 
@@ -94,7 +94,9 @@ After completing the prerequisites, you can add the Twitter channel for your org
 
   > [!NOTE]
   > You can add multiple handles to a Twitter Application channel.
-
+ 
+> [!div class=mx-imgBorder]
+> ![Twitter channel enabled](../media/twitter-account-complete.png "Twitter channel enabled")
 
 ## Step 3: Create routing rules
 
