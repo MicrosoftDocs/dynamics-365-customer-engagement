@@ -1,6 +1,6 @@
 ---
 title: "Customize a chat widget | Microsoft Docs"
-description: ""
+description: "Read how you can customize chat widgets by using data tags on the chat widget script"
 author: susikka
 ms.author: susikka
 manager: shujoshi
@@ -11,12 +11,12 @@ ms.topic: reference
 ---
 # Customize a chat widget
 
-Chat widgets can be customized by using data tags on the widget script.
+Chat widgets can be customized by using data tags on the chat widget script.
 
-|Attribute name|Description|
-|----|-----|
-|`data-enable-telemetry`| Due to privacy concerns, telemetry is turned off for all widgets by default. Using this attribute, customers can allow telemetry collection from the chat widget. |
-|`data-hide-chat-button`| When the HTML snippet is added to a website, a widget shows up on that website by default. In some cases, customers may want to implement the chat widget using their own button so this attribute allows customers to hide the chat button. |
+|Attribute name|Description|Example|
+|----|-----|-----|
+|`data-enable-telemetry`| Due to privacy concerns, telemetry is turned off for all widgets by default. Using this attribute, customers can allow telemetry collection from the chat widget. | Add this tag to the chat widget script that you got from the Omnichannel Administration page.<br />`<script data-enable-telemetry = true></script>`|
+|`data-hide-chat-button`| When the HTML snippet is added to a website, a widget shows up on that website by default. In some cases, customers may want to implement the chat widget using their own button so this attribute allows customers to hide the chat button. | Add this tag to the chat widget script that you got from the Omnichannel Administration page.<br />`<script data-hide-chat-button = true></script>`|
 
 ## See also
 
