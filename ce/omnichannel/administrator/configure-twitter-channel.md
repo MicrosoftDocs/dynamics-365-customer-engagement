@@ -19,6 +19,9 @@ Many customers use social messaging channels like Twitter Direct Message (DM) fo
 The Twitter channel gives you an incredible opportunity to capitalize on the social media trend and engage with your customers in a seamless and personalized experience.
 
 **Prerequisites**: Following are the prerequisites before configuring the Twitter channel in Omnichannel for Customer Service:
+> [!NOTE]
+> To enable the Twitter channel in an existing Omnichannel environment, you must upgrade to the latest version of Omnichannel for Customer Service. For information, [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md).
+To enable the <Line/Twitter> channel in an existing Omnichannel environment, you must upgrade to the latest version of Omnichannel for Customer Service. For information, [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md).
 
 1.	Create a Twitter handle. More information: [Create and Manage a Twitter business profile](https://business.twitter.com/en/basics/create-a-twitter-business-profile.html)
 2.	Enable direct message for your Twitter handle. More information: [Enable Direct Message](https://help.twitter.com/en/using-twitter/direct-messages#receive)
