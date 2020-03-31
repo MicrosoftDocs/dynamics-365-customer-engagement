@@ -41,7 +41,8 @@
 ##### [Embed chat widget in Power Apps portals](administrator/embed-chat-widget-portal.md)
 ##### [Configure proactive chat](administrator/proactive-chat.md)
 #### SMS channels
-##### [Configure an SMS channel](administrator/configure-sms-channel.md)
+##### [Configure an SMS channel for TeleSign](administrator/configure-sms-channel.md)
+##### [Configure an SMS channel for Twilio](administrator/Configure-sms-channel-twilio.md)
 #### Social channels
 ##### [Configure a Facebook channel](administrator/configure-facebook-channel.md)
 ##### [Configure a WhatsApp channel](administrator/configure-whatsapp-channel.md)
@@ -59,11 +60,12 @@
 #### [Work with queues](administrator/queues-omnichannel.md)
 #### [Manage users](administrator/users-user-profiles.md)
 #### [Show customers their position in queue](administrator/show-queue.md)
-#### Skill-based routing
-##### [Overview](administrator/overview-skill-work-distribution.md)
-##### [Skill-based routing and rating model](administrator/enable-skill-routing-create-rating-model.md)
-##### [Set up skills and assign agents](administrator/setup-skills-assign-agents.md)
-##### [Attach skills to conversation](administrator/attach-skills.md)
+
+### Skill-based routing
+#### [Overview](administrator/overview-skill-work-distribution.md)
+#### [Skill-based routing and rating model](administrator/enable-skill-routing-create-rating-model.md)
+#### [Set up skills and assign agents](administrator/setup-skills-assign-agents.md)
+#### [Attach skills to conversation](administrator/attach-skills.md)
 
 ### Work Distribution Management
 #### [Understand and create work streams](administrator/work-streams-introduction.md)
@@ -136,7 +138,7 @@
 #### [View customer summary for an incoming conversation request](agent/agent-oc/oc-view-customer-summary-incoming-conversation-request.md)
 #### Channels
 ##### Use chat channel
-##### Use SMS channel
+##### [Use SMS channel](agent/agent-oc/sms-telesign-twilio.md)
 ##### [Use Facebook channel](agent/agent-oc/facebook.md)
 ##### [Use WhatsApp channel](agent/agent-oc/whatsapp.md)
 ##### Use Twitter channel

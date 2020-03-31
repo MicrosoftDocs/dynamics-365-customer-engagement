@@ -66,6 +66,7 @@
 ### Power BI template apps for Dynamics 365 Sales
 #### [Analyze your sales data using Power BI template apps](introduction-sales-template-apps.md)
 #### [Configure Power BI template apps to work with Dynamics 365 Sales](configure-sales-template-apps.md)
+#### [Customize Power BI template apps for Dynamics 365 Sales](customize-template-apps.md)
 
 ### General Data Protection Regulation (GDPR)
 #### [Dynamics 365 Sales & GDPR](../sales-enterprise/dynamics-365-sales-gdpr.md)
@@ -156,6 +157,9 @@
 ## Developer Guide
 ### [Get started](../sales-enterprise/developer/developer-guide.md)
 ### [Enable sales order processing integration](../sales-enterprise/developer/enable-sales-order-processing-integration.md)
+### Troubleshooting
+#### [Custom plugin handling through shared variable](../sales-enterprise/developer/custom-plugin-handling-shared-variable.md)
+
 ### Manual forecasting
 #### [Entity reference](../sales-enterprise/developer/reference/manual-forecasting-entity-reference.md)
 ##### [msdyn_forecastdefinition](../sales-enterprise/developer/reference/entities/msdyn_forecastdefinition.md)

@@ -10,7 +10,7 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Troubleshooting the Lead entity 
+# Troubleshooting the Opportunity entity 
 
 This article helps you troubleshoot and resolve issues related to the Opportunity entity.
 
@@ -51,8 +51,8 @@ There might be active or draft quotes associated with the opportunity.
 
 **Resolution:**
 
-1.    In the Opportunity record, go to the **Quotes** tab (or **Quotes line item** tab).
-2.    Make sure none of the quotes is in the Draft or Active status.
+1. In the Opportunity record, go to the **Quotes** tab (or **Quotes line item** tab).
+2. Make sure none of the quotes is in the Draft or Active status.
 
     > [!div class="mx-imgBorder"]  
     > ![Quotes in the Draft status](media/quotes-in-draft-state.png "Quotes in the Draft status")
@@ -108,8 +108,8 @@ You haven't selected a price list for the opportunity. Selecting a price list is
 
 **Resolution:**
 
-1.  In the Opportunity record, go to the **Product Line Item** tab.
-2.  In the **Price List** field, select a price list for the opportunity.  
+1. In the Opportunity record, go to the **Product Line Item** tab.
+2. In the **Price List** field, select a price list for the opportunity.  
 
 <a name="ProductName"></a>
 #### 2. You must provide a value for product description.
@@ -142,9 +142,9 @@ Make sure the product you want to add is in the Active state, and then add the p
 The user trying to close the opportunity doesn't have sufficient permissions on the opportunity they're working on.
 
 **Resolution:**
-1.    Go to **Settings** > **Security Role**.
-2.    Open the security role of the user.
-3.    Assign **Read**, **Create**, **Append**, **Append To** permissions to the user's Security Role at User level on the Opportunity entity and custom entity.
+1. Go to **Settings** > **Security Role**.
+2. Open the security role of the user.
+3. Assign **Read**, **Create**, **Append**, **Append To** permissions to the user's Security Role at User level on the Opportunity entity and custom entity.
 
 ### See also
 
