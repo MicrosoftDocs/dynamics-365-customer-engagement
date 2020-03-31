@@ -27,7 +27,7 @@ The Twitter channel gives you an incredible opportunity to capitalize on the soc
 After completing the prerequisites, you can add the Twitter channel for your organization by following these steps:
 
 1.	[Create a Twitter work stream](#step-1-create-a-twitter-work-stream)
-2.	[Create a Twitter channel and add a Twitter handle](#step-2-create-a-twitter-channel-and-add-a-Twitter-handle)
+2.	[Create a Twitter channel and add a Twitter handle](#step-2-create-a-twitter-channel-and-add-a-twitter-handle)
 3.	[Create routing rules](#step-3-create-routing-rules)
 
 ## Step 1: Create a Twitter work stream
