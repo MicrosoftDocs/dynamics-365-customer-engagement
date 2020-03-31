@@ -25,6 +25,8 @@ Make sure that your administrator has configured a WeChat channel.
 ## Incoming WeChat chat notification
 
 You'll receive a notification when a customer requests a conversation through WeChat. When you accept the WeChat chat request, a session is started, and you'll see the communication panel in which you can exchange messages with the customer.
+> [!div class=mx-imgBorder]
+> ![WeChat chat agent notification](../../media/incoming-chat-wechat.png "WeChat chat agent notification")
 
 In Omnichannel for Customer Service, you can:
 
