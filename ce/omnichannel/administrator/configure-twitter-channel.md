@@ -94,12 +94,12 @@ After completing the prerequisites, you can add the Twitter channel for your org
 > ![Twitter channel enabled](../media/twitter-enable-channel.png "Twitter channel enabled")
 
 10. Select **Save** to save the record. The Twitter channel setup is complete.
+ 
+> [!div class=mx-imgBorder]
+> ![Twitter channel enabled](../media/twitter-account-complete.png "Twitter channel enabled")
 
   > [!NOTE]
   > You can add multiple handles to a Twitter Application channel.
- 
-> [!div class=mx-imgBorder]
-> ![Twitter channel setup process](../media/twitter-account-complete.png "Twitter channel setup process")
  
 
 
