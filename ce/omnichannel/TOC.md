@@ -41,7 +41,8 @@
 ##### [Embed chat widget in Power Apps portals](administrator/embed-chat-widget-portal.md)
 ##### [Configure proactive chat](administrator/proactive-chat.md)
 #### SMS channels
-##### [Configure an SMS channel](administrator/configure-sms-channel.md)
+##### [Configure an SMS channel for TeleSign](administrator/configure-sms-channel.md)
+##### [Configure an SMS channel for Twilio](administrator/Configure-sms-channel-twilio.md)
 #### Social channels
 ##### [Configure a Facebook channel](administrator/configure-facebook-channel.md)
 ##### [Configure a WhatsApp channel](administrator/configure-whatsapp-channel.md)
@@ -134,14 +135,13 @@
 #### [View customer summary for an incoming conversation request](agent/agent-oc/oc-view-customer-summary-incoming-conversation-request.md)
 #### Channels
 ##### Use chat channel
-##### Use SMS channel
+##### [Use SMS channel](agent/agent-oc/sms-telesign-twilio.md)
 ##### [Use Facebook channel](agent/agent-oc/facebook.md)
 ##### [Use WhatsApp channel](agent/agent-oc/whatsapp.md)
 ##### Use Twitter channel
 ##### Use Line channel
 ##### Use WeChat channel
 ##### Use Teams channel
-##### Use entity routing channel
 
 ### Agents using Unified Service Desk
 #### [Overview of Unified Service Desk](agent/agent-usd/omnichannel-agent.md)
