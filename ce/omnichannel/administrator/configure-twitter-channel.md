@@ -96,7 +96,7 @@ After completing the prerequisites, you can add the Twitter channel for your org
   > You can add multiple handles to a Twitter Application channel.
 
 
-## Step 3: Create Routing Rules
+## Step 3: Create routing rules
 
 1.	Go to **Work Distribution Management** > **Work Streams**.
 2.	Open the work stream you created in [Step 1](#step-1-create-a-twitter-work-stream).
