@@ -1,7 +1,7 @@
 ---
 title: "Admin settings overview (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn about the settings to configure your Sales Hub app."
-ms.date: 02/03/2020
+ms.date: 04/03/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -11,9 +11,6 @@ manager: annbe
 ---
 
 # Overview of admin settings 
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]  
-[!INCLUDE [cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]  
 
 System administrators in Dynamics 365 Sales are the users who have the System Administrator role or equivalent permissions assigned. Dynamics 365 Sales offers an organized and unified experience to administrators so they can quickly and easily configure their sales app from a single place.
 
