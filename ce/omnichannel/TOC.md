@@ -142,17 +142,13 @@
 #### [View conversation and session forms](agent/agent-oc/oc-view-activity-types.md)
 #### [View customer summary for an incoming conversation request](agent/agent-oc/oc-view-customer-summary-incoming-conversation-request.md)
 #### Channels
-##### Use chat channel
 ##### [Use SMS channel](agent/agent-oc/sms-telesign-twilio.md)
 ##### [Use Facebook channel](agent/agent-oc/facebook.md)
 ##### [Use WhatsApp channel](agent/agent-oc/whatsapp.md)
 ##### Use Twitter channel
 ##### Use Line channel
-##### Use WeChat channel
 ##### [Use Teams channel](agent/agent-oc/teams-channel.md)
-##### Use entity routing channel
 ##### [Use WeChat channel](agent/agent-oc/wechat-channel.md)
-##### Use Teams channel
 
 ### Agents using Unified Service Desk
 #### [Overview of Unified Service Desk](agent/agent-usd/omnichannel-agent.md)
