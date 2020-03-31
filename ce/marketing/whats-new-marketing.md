@@ -43,9 +43,9 @@ The Dynamics 365 Marketing April 2020 update includes several feature enhancemen
 
 ### Version numbers
 
-| App              | GA release      | Early access    |
-|------------------|-----------------|-----------------|
-| Marketing        | 1.35.10059.1039 | 1.35.10059.2039 |
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        | 1.35.10060.1066 |
 
 > [!Tip]
 > To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](https://docs.microsoft.com/dynamics365/marketing/apply-updates#find-out-which-version-of-dynamics-365-marketing-you-are-running).
@@ -67,9 +67,6 @@ The Dynamics 365 Marketing April 2020 update includes several feature enhancemen
 - **Spam checker**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/spam-checker)
     - [Docs](spam-checker.md)
-- **Improved event management experience**
-    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-event-management-experience)
-    - Docs
 - **Support for surveys using Microsoft Forms Pro**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/support-surveys-using-forms-pro)
     - Docs
@@ -92,15 +89,12 @@ The Dynamics 365 Marketing April 2020 update includes several feature enhancemen
     - Accessibility checker for emails, forms, and pages with guidance on suggested fixes.
 - **Marketing forms**
     - Cascading form fields (parent/child fields) are now available in marketing forms, expanding customization options.
-- **Marketing insights**
-    - Upload any file using the provided access token.
 - **Segment management**
     - Improved template design gallery interface.
     - Improved date picker operation by adding a "Within x" operator.
 - **Social posting**
     - Improved interface design for social posting (LinkedIn, Twitter, Facebook).
 - **User tracking**
-    - Automatic bot detection for improved user tracking accuracy.
     - Expanded controls to disable email tracking on a per contact basis.
 
 ### Bug fixes
@@ -121,6 +115,8 @@ The Dynamics 365 Marketing April 2020 update includes several feature enhancemen
     - Resolved issue where email content designer controls did not load properly if certain form fields were missing.
     - Improved German translations.
     - Resolved an issue where selecting an image in the file selector would occasionally result in an error screen.
+- **Marketing insights**
+    - You can now upload any file using the provided access token.
 - **Segment management**
     - Improved publishing of segments created by third-party plugins.
     - Improved AssistEdit functionality in segments.
