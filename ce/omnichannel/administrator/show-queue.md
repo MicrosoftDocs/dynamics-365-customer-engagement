@@ -45,6 +45,7 @@ To configure the queue display feature, follow these steps:
 
 ## See also
 
+[Show customers their average wait time in a queue](average-wait-time.md) <br>
 [Add a chat widget](add-chat-widget.md) <br>
 [Configure a pre-chat survey](configure-pre-chat-survey.md) <br>
 [Configure agent display name](agent-display-name.md)<br>
