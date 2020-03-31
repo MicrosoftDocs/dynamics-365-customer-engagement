@@ -19,6 +19,8 @@ Many customers use social messaging channels like LINE for their personal commun
 The LINE channel gives you an incredible opportunity to capitalize on the social media trend and engage with your customers in a seamless and personalized experience.
 
 **Prerequisites**: Following are the prerequisites before configuring the LINE channel in Omnichannel for Customer Service:
+> [!NOTE]
+> To enable the LINE channel in an existing Omnichannel environment, you must upgrade to the latest version of Omnichannel for Customer Service. For information, [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md).
 
 1.	Create a LINE handle. More information: [Create and Manage a LINE profile](https://account.line.biz/signup)
 2.	Create a LINE channel in the LINE Developers console. More information:. More information: [Create a LINE channel](https://developers.line.biz/en/docs/messaging-api/getting-started/#creating-a-channel)
