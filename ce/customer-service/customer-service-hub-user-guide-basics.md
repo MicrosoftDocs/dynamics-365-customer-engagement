@@ -4,7 +4,7 @@ description: Learn the basics of the Customer Service Hub for Customer Service
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 02/03/2020
+ms.date: 03/31/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -516,11 +516,15 @@ To know how to add a case to a queues, see [Add a case to a queue](customer-serv
 
 ## Understand Site
 
-Now when you create a new site, you need to go to **Advanced find** ![Advanced find](media/advanced-find-icon.png "Advanced find"), where you can add a site to any entity, for example **Account**.
+When you create a new site, you need to go to **Advanced find** ![Advanced find](media/advanced-find-icon.png "Advanced find"), where you can create a site, then you can customize other entity forms (e.g. Account) by adding this site field.
 
-  ![Create New Site](channel-integration-framework/media/add-site-to-any-entity-1.png "Create New Site")
+  ![Create New Site](/media/add-site-to-any-entity-1a.png "Create New Site")
  
+ ## Understand Facility/Equipment
 
+ Now, when you create a new Facility/Equipment item, you need to go to **Advanced find** ![Advanced find](media/advanced-find-icon.png "Advanced find"):
+
+  ![Create New Facility/Equipment](/media/add-site-to-any-entity-1b.png "Create New Facility/Equipment")
 
 ### See also
 
