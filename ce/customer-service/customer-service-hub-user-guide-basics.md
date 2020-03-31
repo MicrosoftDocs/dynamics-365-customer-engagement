@@ -516,13 +516,13 @@ To know how to add a case to a queues, see [Add a case to a queue](customer-serv
 
 ## Understand Site
 
-When you create a new site, you need to go to **Advanced find** ![Advanced find](media/advanced-find-icon.png "Advanced find"), where you can create a site, then you can customize other entity forms (e.g. Account) by adding this site field.
+To create a new site, you need to go to **Advanced find** ![Advanced find](media/advanced-find-icon.png "Advanced find").  Then you can customize other entity forms (e.g. Account) by adding this site field.
 
   ![Create New Site](/media/add-site-to-any-entity-1a.png "Create New Site")
  
  ## Understand Facility/Equipment
 
- Now, when you create a new Facility/Equipment item, you need to go to **Advanced find** ![Advanced find](media/advanced-find-icon.png "Advanced find"):
+ To create a new Facility/Equipment item, you need to go to **Advanced find** ![Advanced find](media/advanced-find-icon.png "Advanced find"), where you can create Facility/Equipment.
 
   ![Create New Facility/Equipment](/media/add-site-to-any-entity-1b.png "Create New Facility/Equipment")
 
