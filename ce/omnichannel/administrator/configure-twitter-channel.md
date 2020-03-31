@@ -90,7 +90,7 @@ After completing the prerequisites, you can add the Twitter channel for your org
 9. **Work Stream**: Browse and select the work stream you created for the Twitter channel.
  
 > [!div class=mx-imgBorder]
-> ![Twitter channel enabled](../media/twitter-enable-channel.png "Twitter channel enabled")
+> ![Twitter work stream](../media/twitter-create-handle.png "Twitter work stream")
 
 10. Select **Save** to save the record. The Twitter channel setup is complete.
  
