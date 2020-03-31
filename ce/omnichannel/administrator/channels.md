@@ -35,11 +35,12 @@ There are two options:
 
 If you want to help your customers using social channels, you can use the social channels.
 
-- [Facebook](configure-facebook-channel.md)
-- [Preview: WhatsApp through Twilio](configure-whatsapp-channel.md)
-- [Twitter topic link will be updated here]()
-- [WeChat topic link will be updated here]()
-- [Line topic link will be updated here]()
+ - [Facebook](configure-facebook-channel.md)
+ - [Preview: WhatsApp through Twilio](configure-whatsapp-channel.md)
+ - [Twitter topic link will be updated here]()
+ - [WeChat topic link will be updated here](configure-wechat-channel.md)
+ - [Line topic link will be updated here]()
+
 
 ## Preview: Custom messaging channel
 

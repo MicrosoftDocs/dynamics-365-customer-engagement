@@ -87,7 +87,7 @@ The product user interface (UI) is available in the following languages.
 | Galician | Portuguese |
 |  |
 
-For languages supported in analytics, see [Multi-language sentiment](administrator/enable-sentiment-analysis.md#multi-language-sentiment)
+To know the languages that are supported in analytics, see [Multi-language sentiment](administrator/enable-sentiment-analysis.md#multi-language-sentiment).
 
 ### See also
 

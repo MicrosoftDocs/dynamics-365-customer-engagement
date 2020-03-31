@@ -40,6 +40,10 @@
 ##### [Configure file attachment capability](administrator/configure-file-attachment.md)
 ##### [Embed chat widget in Power Apps portals](administrator/embed-chat-widget-portal.md)
 ##### [Configure proactive chat](administrator/proactive-chat.md)
+#### [Configure an SMS channel](administrator/configure-sms-channel.md)
+#### [Configure a Facebook channel](administrator/configure-facebook-channel.md)
+#### [Configure a WeChat channel](administrator/configure-wechat-channel.md)
+#### Entity records
 #### SMS channels
 ##### [Configure an SMS channel for TeleSign](administrator/configure-sms-channel.md)
 ##### [Configure an SMS channel for Twilio](administrator/Configure-sms-channel-twilio.md)
@@ -146,6 +150,8 @@
 ##### Use WeChat channel
 ##### [Use Teams channel](agent/agent-oc/teams-channel.md)
 ##### Use entity routing channel
+##### [Use WeChat channel](agent/agent-oc/wechat-channel.md)
+##### Use Teams channel
 
 ### Agents using Unified Service Desk
 #### [Overview of Unified Service Desk](agent/agent-usd/omnichannel-agent.md)
