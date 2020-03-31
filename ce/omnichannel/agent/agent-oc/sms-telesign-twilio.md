@@ -4,7 +4,7 @@ description: "Learn about Telesign, Twilio SMS channels agent experience in Omni
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/01/2020
+ms.date: 04/03/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -24,11 +24,11 @@ Make sure your administrator has configured a Telesign or Twilio channel in Omni
 
 ### Incoming chat notifications
 
-You'll receive a notification when a customer requests a conversation through Telesign or Twilio. Accepting the chat request starts a session and you'll see the communication panel in which you can exchange messages with the customer.
+You'll receive a notification when a customer requests a conversation through Telesign or Twilio. You can accept the chat request, after which a session starts, and you'll see the communication panel in which you can exchange messages with the customer.
 > [!div class=mx-imgBorder]
 > ![Incoming chat notification](../../media/oceh/sms-notification-request.png "Incoming SMS notification")
 
-In Omnichannel for Customer Service, you can:
+In Omnichannel for Customer Service, as an agent, you can:
 
 - [View customer summary](oc-customer-summary.md)
 - [View communication panel](oc-conversation-control.md)

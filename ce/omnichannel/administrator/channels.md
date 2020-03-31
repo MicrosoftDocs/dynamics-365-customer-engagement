@@ -4,7 +4,7 @@ description: "Learn about channels in Omnichannel for Customer Service."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 04/01/2020
+ms.date: 04/03/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -31,7 +31,7 @@ There are two options:
 - [SMS through Telesign](configure-sms-channel.md)
 - [SMS through Twilio](configure-sms-channel-twilio.md)
 
-## Social channels 
+## Social channels
 
 If you want to help your customers using social channels, you can use the social channels.
 
