@@ -79,6 +79,7 @@
 ### [Edit booking template](booking-template.md)
 ### [Booking alerts](booking-alert.md)
 ### [Schedule board tab settings](schedule-board-tab-settings.md)
+### [Preview the new schedule board](preview-schedule-board.md)
 
 
 # Field Service Mobile
