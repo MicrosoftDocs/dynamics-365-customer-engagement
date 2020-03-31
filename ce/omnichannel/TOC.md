@@ -53,6 +53,7 @@
 #### Microsoft Teams
 ##### [Configure a Microsoft Teams channel](administrator/configure-microsoft-teams.md)
 ##### [Prerequisites](administrator/configure-microsoft-teams.md#prerequisites)
+##### [Configuration steps](administrator/configure-microsoft-teams.md#configure-a-teams-channel-in-omnichannel)
 #### Custom messaging channel
 ##### [Configure a Custom messaging channel](administrator/configure-custom-channel.md)
 #### Entity records channel
