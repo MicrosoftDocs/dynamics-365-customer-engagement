@@ -19,7 +19,7 @@ ms.topic: article
 
 As an administrator, you can turn on the feature that displays a customer’s average wait time in the queue when they are waiting to chat with an agent. This feature can help to set customer expectations when wait times are longer due to higher volumes of customers needing support, understaffing, or longer-than-expected handle times (for example, new issues or new agents). Displaying a customer’s average wait time can help the customer decide whether to wait in the queue or come back later when the wait time is shorter.
 
-When this feature is turned on, a customer who submits a request when other customers already are waiting is placed in the queue and notified with the following message: **Average wait time <n>mins.** 
+When this feature is turned on, a customer who submits a request when other customers already are waiting is placed in the queue and notified with the following message: **Average wait time \<n\> mins.** 
 
 The average wait time is calculated based on wait times from the previous 48 hours. This is an estimated time and does not change for the customer. When there is no wait, the average wait time will not be displayed.
 
