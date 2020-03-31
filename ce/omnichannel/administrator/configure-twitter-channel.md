@@ -64,16 +64,16 @@ After completing the prerequisites, you can add the Twitter channel for your org
     - **Environment name**: Environment of the Twitter application. Go to the Twitter developer portal > Dev environments > select **Dev environment label**.
 
     More information about the Twitter app: [Setting up your Twitter app](https://developer.twitter.com/en/docs/basics/apps/overview)
-
+  
     > [!div class=mx-imgBorder]
-    > ![Register a Twitter application](../media/fb-new-app.png "Register a Twitter application")
+    > ![Register a Twitter application](../media/twitter-enable-channel.png "Register a Twitter application")
 
-4.	Select **Save**. After you save the record, the **Twitter** channel is enabled. The next step is to save the Callback URL.
+4.	Select **Save**. After you save the record, the **Twitter** channel is enabled. The Callback URL has been generated. The next step is to save it.
 
-5. The Callback URL has been generated. Save it in the Twitter app dashboard in the developer portal: Go to the Twitter developer portal > Twitter app dashboard > select **Details** > **App details** > **Edit** > Copy the **Callback URL** from Omnichannel and paste it into the **Callback URLs** field in the Twitter developer portal.
+5. To save the Callback URL in the Twitter app dashboard of the developer portal, go to the Twitter developer portal > Twitter app dashboard > select **Details** > **App details** > **Edit** > Copy the **Callback URL** from Omnichannel and paste it into the **Callback URLs** field.
  
 > [!div class=mx-imgBorder]
-> ![Facebook application created](../media/fb-app-created.png "Facebook application created")
+> ![Twitter Callback information](../media/twitter-callback-information.png "Twitter Callback URL")
 
 6. Add a Twitter handle: In the **Twitter app** section, select **+ New Twitter handle** to add Twitter handle(s).
 
@@ -88,7 +88,7 @@ After completing the prerequisites, you can add the Twitter channel for your org
 9. **Work Stream**: Browse and select the work stream you created for the Twitter channel.
  
 > [!div class=mx-imgBorder]
-> ![Twitter handle added](../media/fb-app-created.png "Twitter handle added")
+> ![Twitter channel enabled](../media/twitter-enable-channel.png "Twitter channel enabled")
 
 5. Select **Save** to save the record. The Twitter channel setup is complete.
 
@@ -101,6 +101,9 @@ After completing the prerequisites, you can add the Twitter channel for your org
 1.	Go to **Work Distribution Management** > **Work Streams**.
 2.	Open the work stream you created in [Step 1](#step-1-create-a-twitter-work-stream).
 3.	On the **Routing rules items** tab, create a routing rule to transfer the message to an appropriate agent. Select the entity as **Twitter Engagement Context**. For example, you can create a rule to transfer Twitter chat from a customer named Twitter to the default queue.
+ 
+> [!div class=mx-imgBorder]
+> ![Twitter routing rule creation](../media/twitter-create-routing-rule.png "Create Twitter routing rule")
 
 ## Customer and agent experiences
 
@@ -115,7 +118,7 @@ If a customer initiates a conversation from the Twitter web site and then later 
 The agent receives the notification of the incoming chat request along with the customer details. More information: [View notifications](../agent/agent-oc/oc-notifications.md)
 
 > [!div class=mx-imgBorder]
-> ![Twitter chat agent notification](../media/twitter-agent-notif.png "Twitter chat agent notification")
+> ![Twitter chat agent notification](../media/twitter-chat-agent-notify.png "Twitter chat agent notification")
 
 If the customer is identified based on name, the conversation is automatically linked to the contact record and the customer summary is populated. More information: [View customer summary](../agent/agent-oc/oc-customer-summary.md)
 
