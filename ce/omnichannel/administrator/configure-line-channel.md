@@ -28,7 +28,7 @@ The LINE channel gives you an incredible opportunity to capitalize on the social
 After completing the prerequisites, you can add the LINE channel for your organization by following these steps:
 
 1.	[Create a LINE work stream](#step-1-create-a-line-work-stream)
-2.	[Create a LINE channel](#step-2-create-a-LINE-channel)
+2.	[Create a LINE channel](#step-2-create-a-line-channel)
 3.	[Create routing rules](#step-3-create-routing-rules)
 
 ## Step 1: Create a LINE work stream
@@ -62,9 +62,9 @@ After completing the prerequisites, you can add the LINE channel for your organi
 
     - **Channel secret**: Application secret of the LINE application. Go to the [LINE developer portal](https://developers.line.biz/console/) > select **Provider** > select **Channel** (ensure that it is a Messaging API) > **Basic settings** and copy the value in the **Channel secret** field.
     
-    - **Channel access token**: Token of the LINE application. Go to the [LINE developer portal](https://developers.line.biz/console/) > select **Provider** > select **Channel** (ensure that it is a Messaging API) > **Messaging API** and copy the value in the **Channel access token (long-lived) field.
+    - **Channel access token**: Token of the LINE application. Go to the [LINE developer portal](https://developers.line.biz/console/) > select **Provider** > select **Channel** (ensure that it is a Messaging API) > **Messaging API** and copy the value in the **Channel access token (long-lived)** field.
     
-    - **Enable Webhooks**: Webhooks in the LINE application must be enabled. Go to the [LINE developer portal](https://developers.line.biz/console/) > select **Response settings** > **Main settings** > **Bot**, then **Detailed Settings** > **Webhooks** > **Enabled**.
+    - **Enable Webhooks**: Webhooks in the LINE application must be enabled. Go to the [LINE account manager](https://manager.line.biz/account/) > select **Settings** > **Response settings**, then under **Main settings**, select **Bot** for Response mode, then under **Detailed Settings**, select **Enabled** for Webhooks.
 
 4. Browse and select the workstream you created for the LINE channel, and select **Save**. After you save the record, the **LINE** channel is enabled. The Callback URL has been created. The next step is to save it.
  
@@ -123,7 +123,7 @@ If the customer is not identified based on name, a new contact record can be cre
 
 ## Privacy notice
 
-By enabling this feature, your data will be shared with LINE and flow outside of your organization's compliance and geo boundaries (even if your organization is in a Government Cloud environment). Please consult the feature technical documentation for more information [here](https://docs.microsoft.com/azure/bot-service/bot-service-channel-connect-facebook?view=azure-bot-service-4.0).
+By enabling this feature, your data will be shared with LINE and flow outside of your organization's compliance and geo boundaries (even if your organization is in a Government Cloud environment). Please consult the feature technical documentation for more information [here](https://docs.microsoft.com/azure/bot-service/bot-service-channel-connect-line?view=azure-bot-service-4.0).
 
 Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws relating to monitoring, recording, and storing communications with their end-users. This includes adequately notifying end-users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end-users may be monitored, recorded, or stored.
 
