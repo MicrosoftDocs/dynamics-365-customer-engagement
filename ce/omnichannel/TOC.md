@@ -57,7 +57,8 @@
 ### Queues & Users
 #### [Work with queues](administrator/queues-omnichannel.md)
 #### [Manage users](administrator/users-user-profiles.md)
-#### [Show customers their position in queue](administrator/show-queue.md)
+#### [Show customers their position in a queue](administrator/show-queue.md)
+#### [Show customers their average wait time in a queue](administrator/average-wait-time.md)
 #### Skill-based routing
 ##### [Overview](administrator/overview-skill-work-distribution.md)
 ##### [Skill-based routing and rating model](administrator/enable-skill-routing-create-rating-model.md)
