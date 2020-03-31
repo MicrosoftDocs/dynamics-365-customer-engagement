@@ -44,7 +44,7 @@
 ##### [Configure an SMS channel](administrator/configure-sms-channel.md)
 #### Social channels
 ##### [Configure a Facebook channel](administrator/configure-facebook-channel.md)
-##### [Configure a Line channel](administrator/configure-line-channel.md)
+##### [Configure a LINE channel](administrator/configure-line-channel.md)
 ##### [Configure a Twitter channel](administrator/configure-twitter-channel.md)
 ##### [Configure a WhatsApp channel](administrator/configure-whatsapp-channel.md)
 #### Custom messaging channel
