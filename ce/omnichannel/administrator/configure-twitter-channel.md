@@ -113,7 +113,7 @@ A customer can initiate a conversation in any of the following ways:
 - Twitter app on a desktop device
 - [www.twitter.com](www.twitter.com)
 
-If a customer initiates a conversation from the Twitter web site and then later switches to the mobile device, the previous conversation persists, and the customer can continue the conversation.
+If a customer initiates a conversation from the Twitter website and then later switches to the mobile device, the previous conversation persists, and the customer can continue the conversation.
 
 The agent receives the notification of the incoming chat request along with the customer details. More information: [View notifications](../agent/agent-oc/oc-notifications.md)
 
@@ -128,7 +128,7 @@ If the customer is not identified based on name, a new contact record can be cre
 
 By enabling this feature, your data will be shared with Twitter and flow outside of your organization's compliance and geo boundaries (even if your organization is in a Government Cloud environment). Please consult the feature technical documentation for more information [here](https://docs.microsoft.com/azure/bot-service/bot-service-channel-connect-facebook?view=azure-bot-service-4.0).
 
-Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws relating to monitoring, recording, and storing communications with their end users. This includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
+Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws relating to monitoring, recording, and storing communications with their end-users. This includes adequately notifying end-users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end-users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
 ### See also
 
