@@ -4,7 +4,7 @@ description: "Learn about channels in Omnichannel for Customer Service."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 04/01/2020
+ms.date: 04/03/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -28,32 +28,32 @@ If you want to help your customers using SMS, you can use the SMS channel.
 
 There are two options:
 
-   - [SMS through Telesign](configure-sms-channel.md)
-   - [SMS through Twilio topic link will be updated here]()
+- [SMS through Telesign](configure-sms-channel.md)
+- [SMS through Twilio](configure-sms-channel-twilio.md)
 
-## Social channels 
+## Social channels
 
 If you want to help your customers using social channels, you can use the social channels.
 
-   - [Facebook](configure-facebook-channel.md)
-   - [Preview: WhatsApp through Twilio](configure-whatsapp-channel.md)
-   - [Twitter topic link will be updated here]()
-   - [WeChat topic link will be updated here]()
-   - [Line topic link will be updated here]()
-   - [WeChat topic link will be updated here]()
+ - [Facebook](configure-facebook-channel.md)
+ - [Preview: WhatsApp through Twilio](configure-whatsapp-channel.md)
+ - [Twitter topic link will be updated here]()
+ - [WeChat topic link will be updated here](configure-wechat-channel.md)
+ - [Line topic link will be updated here]()
+
 
 ## Preview: Custom messaging channel
 
 If you want to help your customers using social channels that are not supported as standard channels, you can use the custom channels.
 
-   - Kik
-   - Telegram
+- Kik
+- Telegram
 
 To learn more, see [Configure custom messaging application](configure-custom-channel.md).
-        
+
 If you want to help your customers using your Line of Business (in-house) messaging channels, you can use the Direct Line Bot Framework method.
 
-   - [Direct Line](configure-custom-channel.md#bring-channels-using-direct-line)
+- [Direct Line](configure-custom-channel.md#bring-channels-using-direct-line)
 
 ## Preview: Microsoft Teams
 
