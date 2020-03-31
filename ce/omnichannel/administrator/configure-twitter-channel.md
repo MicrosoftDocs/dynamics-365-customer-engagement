@@ -95,9 +95,10 @@ After completing the prerequisites, you can add the Twitter channel for your org
   > [!NOTE]
   > You can add multiple handles to a Twitter Application channel.
  
-
 > [!div class=mx-imgBorder]
-> ![Twitter channel enabled](../media/twitter-account-complete.png "Twitter channel enabled")
+> ![Twitter channel setup process](../media/twitter-account-complete.png "Twitter channel setup process")
+ 
+
 
 ## Step 3: Create routing rules
 
