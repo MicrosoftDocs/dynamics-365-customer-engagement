@@ -24,7 +24,7 @@ The Twitter channel gives you an incredible opportunity to capitalize on the soc
 2.	Enable direct message for your Twitter handle. More information: [Enable Direct Message](https://help.twitter.com/en/using-twitter/direct-messages#receive)
 3.	Create a Twitter application. Apply for a developer account, not a team account. Create a Twitter developer environment. More information: [App Development](https://developer.twitter.com/en/docs/basics/apps/overview)
 
-After completing the prerequisites, you can add the Facebook channel for your organization by following these steps:
+After completing the prerequisites, you can add the Twitter channel for your organization by following these steps:
 
 1.	[Create a Twitter work stream](#step-1-create-a-twitter-work-stream)
 2.	[Create a Twitter channel](#step-2-create-a-twitter-channel)
@@ -47,64 +47,54 @@ After completing the prerequisites, you can add the Facebook channel for your or
 
 6.	Select **Save**.
 
-## Step 2: Create a Twitter channel
+## Step 2: Create a Twitter channel and add a Twitter handle
 
 1.	Go to **Channels** > **Twitter**.
 
 2.	Select **New** to create a Twitter channel.
 
-3.	On the **New Twitter Application** page, provide the following information:
+3.	On the **New Twitter Application** page, provide the following account details:
 
-    - **Step 1**: Account Details:
-        1. **Name**: Name of the Twitter application. 
-        2. **Consumer API key**: Key of the Twitter application. Go to the Twitter developer portal > Twitter app dashboard > select **Details** > **Keys and tokens**, and copy the value in the **API key** field.
-        3. **Consumer API Secret**: Application secret of the Twitter application. Go to the Twitter developer portal > Twitter app dashboard > select **Details** > **Keys and tokens**, and copy the value in the **API secret key** field.
-        4. **Environment Name**: Environment of the Twitter application.  Go to the Twitter developer portal > **Dev environments** > select **Dev environment label**.
+    - **Name**: Name of the Twitter application. 
 
-  More information about Twitter app: [Setting up your Twitter app](https://developer.twitter.com/en/docs/basics/apps/overview)
+    - **Consumer API key**: Key of the Twitter application. Go to the Twitter developer portal > Twitter app dashboard > select **Details** > **Keys and tokens** and copy the value in the **API key** field.
+
+    - **Consumer API Secret**: Application secret of the Twitter application. Go to the Twitter developer portal > Twitter app dashboard > select **Details** > **Keys and tokens** and copy the value in the **API secret key** field.
+    
+    - **Environment name**: Environment of the Twitter application. Go to the Twitter developer portal > Dev environments > select **Dev environment label**.
+
+    More information about the Twitter app: [Setting up your Twitter app](https://developer.twitter.com/en/docs/basics/apps/overview)
 
     > [!div class=mx-imgBorder]
     > ![Register a Twitter application](../media/fb-new-app.png "Register a Twitter application")
 
-  	    5.	Select **Save**. After you save the record, the Twitter channel is enabled. The next step is to save the Callback URL.
-        
-    -**Step 2**: 
-    Callback information
-1.	Callback URL has been generated. Save this in the Twitter app dashboard in the developer portal. Go to the Twitter developer portal > Twitter app dashboard > select **Details** > **App details** > **Edit** > copy **Callback URL** from Omnichannel, and paste into the **Callback URLs** field in the Twitter developer portal.
+4.	Select **Save**. After you save the record, the **Twitter** channel is enabled. The next step is to save the Callback URL.
 
-    > [!div class=mx-imgBorder]
-    > ![Save callback information in the Twitter app dashboard](../media/twitter-new-app.png "Save Callback information in Twitter app dashboard")
-
-    - **Step 3**: Add Twitter handle:
-        1. In the Twitter app section, select **+ New Twitter handle** to add Twitter handle(s). 
-        2. On the New Twitter handle page, provide the **Name**. (Not the Twitter handle, but a name that you can reference.) 
-        3. **Sign in to Twitter**: Click on this button and a pop-window will appear. Sign in with the Twitter handle and password that will be added here. **Note**: If pop-ups are blocked, please enable always for this page.
-        4. **Work Stream**: Browse and select the work stream you created for the Twitter channel.
-        
-
-    > [!div class=mx-imgBorder]
-    > ![Register a Facebook page](../media/fb-new-page.png "Register a Facebook page")
-
-4.	Select **Save** to create the record. Twitter channel setup is complete.
-
-   > [!Note]
-   > You can add more than one Twitter handles to a Twitter application channel.
-   
+5. The Callback URL has been generated. Save it in the Twitter app dashboard in the developer portal: Go to the Twitter developer portal > Twitter app dashboard > select **Details** > **App details** > **Edit** > Copy the **Callback URL** from Omnichannel and paste it into the **Callback URLs** field in the Twitter developer portal.
+ 
 > [!div class=mx-imgBorder]
 > ![Facebook application created](../media/fb-app-created.png "Facebook application created")
 
-## Step 3: Create routing rules
+6. Add a Twitter handle: In the **Twitter app** section, select **+ New Twitter handle** to add Twitter handle(s).
 
-1.	Go to **Work Distribution Management** > **Work Streams**.
+7.	On the **New Twitter handle** page, provide the following information:
 
-2.	Open the work stream you created in Step 1.
+    - **Name**: Not the Twitter handle, but a name that you can reference. 
 
-3.	On the **Routing rules items** tab, create a routing rule to transfer the message to an appropriate agent. Select the entity as **Twitter Engagement Context**.
+8.	Select **Sign on to Twitter**. A pop-up window displays. Sign in using the Twitter handle and password that will be added here.
+    > [!NOTE]
+    > If you receive a message that says pop-up windows are blocked, select to always allow them.
 
-    For example, you can create a rule to transfer Twitter chat from a customer named Twitter to the default queue. 
+9. **Work Stream**: Browse and select the work stream you created for the Twitter channel.
+ 
+> [!div class=mx-imgBorder]
+> ![Twitter handle added](../media/fb-app-created.png "Twitter handle added")
 
-    > [!div class=mx-imgBorder]
-    > ![Twitter channel routing rule](../media/twitter-routing-rule.png "Twitter channel routing rule")
+5. Select **Save** to save the record. The Twitter channel setup is complete.
+
+  > [!NOTE]
+  > You can add multiple handles to a Twitter Application channel.
+
 
 ## Customer and agent experiences
 
