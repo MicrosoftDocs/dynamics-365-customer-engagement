@@ -21,15 +21,15 @@ Your system administrator defines what happens to a lead when it is qualified:
 
 ## Qualify a lead (Sales Hub)
 
-1.    Select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Leads**.
+1. Select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Leads**.
 
-2.    In the list of leads, open the lead you want to qualify.
+2. In the list of leads, open the lead you want to qualify.
 
-3.    In the **Qualify** section of the sales process bar, enter all applicable information.
+3. In the **Qualify** section of the sales process bar, enter all applicable information.
 
-4.    On the command bar, select **Qualify**.
+4. On the command bar, select **Qualify**.
 
-5.    If you see a prompt to select which records to create when the lead is qualified, select **Yes** for the records that you want to create, and then select **OK**.
+5. If you see a prompt to select which records to create when the lead is qualified, select **Yes** for the records that you want to create, and then select **OK**.
 
     ![Select which records to create in the Qualify lead dialog box](media/qualify-lead-dialog-box.png "Select which records to create in the Qualify lead dialog box")
 

@@ -22,9 +22,9 @@ Your system administrator can choose the entities for which PDF generation is en
 
 **To create a PDF file from a sales record** 
 
-1.    Open the entity record for which you want to create a PDF file&mdash;in this example, a record for a Quote entity.
+1. Open the entity record for which you want to create a PDF file&mdash;in this example, a record for a Quote entity.
 
-2.    On the command bar, select **Create PDF**, and then select the template you want to use to create the PDF. 
+2. On the command bar, select **Create PDF**, and then select the template you want to use to create the PDF. 
 
     > [!div class="mx-imgBorder"]
     > ![A quote form showing the Create PDF button on the command bar](media/create-pdf.png "A quote form showing the Create PDF button on the command bar")
@@ -46,9 +46,9 @@ Your system administrator can choose the entities for which PDF generation is en
 
 You can also generate a PDF file and directly email it to a customer.
 
-1.    Open an entity record&mdash;in this example, a record for a Quote entity.
+1. Open an entity record&mdash;in this example, a record for a Quote entity.
 
-2.    On the command bar, select **Email as PDF**, and then select a document template.
+2. On the command bar, select **Email as PDF**, and then select a document template.
 
     ![A quote form showing the Email as PDF button on the command bar](media/email-as-PDF.png "A quote form showing the Email as PDF button on the command bar")
 
@@ -62,7 +62,7 @@ You can also generate a PDF file and directly email it to a customer.
     |**Regarding**           |  The record from which the email was triggered| 
     |**Subject**             |  The title of the record                                    |
 
-3.    Verify or change any details in the email form as necessary, and then select **Send**.
+3. Verify or change any details in the email form as necessary, and then select **Send**.
 
 > [!IMPORTANT]
 > The time taken to generate the PDF file and download or send the email depends on the size of the file. You'll see optimum performance when the file size is less than 2 MB. Larger files can require considerably more response time.

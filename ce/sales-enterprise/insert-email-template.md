@@ -21,20 +21,20 @@ You can see templates of a particular language by selecting a language from the 
 
 **To insert an email template**
 
-1.    In the email editor, select **Insert Template** on the command bar.
+1.  In the email editor, select **Insert Template** on the command bar.
 
      > [!div class="mx-imgBorder"]
      > ![Insert template button](media/insert-email-template-button.png "Insert template button") 
 
     The **Email templates** window opens.
 
-2.    To see templates of a different locale, select a language from the **Language** list. The templates are loaded as per the selected language.    
+2.  To see templates of a different locale, select a language from the **Language** list. The templates are loaded as per the selected language.    
 
 3.  Browse for the template you want. Select the template, and preview the content of the template.
 
-4.    Optionally, you can select the down arrow on the name of the template to see a description of its content.
+4.  Optionally, you can select the down arrow on the name of the template to see a description of its content.
 
-5.    Select **Apply template** to insert the content in the email.
+5.  Select **Apply template** to insert the content in the email.
 
      > [!div class="mx-imgBorder"]
      > ![Email templates window](media/email-templates-window.png "Email templates window")

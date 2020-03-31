@@ -28,16 +28,16 @@ Increase seller productivity by enabling the enhanced experience for searching a
 
 **To enable the enhanced experience**
 
-1.    At the bottom of the site map, select **Change area** ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area"), and then select **App Settings**.
+1. At the bottom of the site map, select **Change area** ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area"), and then select **App Settings**.
 
-2.    Under **Product Catalog**, select **Product Catalog Settings**.
+2. Under **Product Catalog**, select **Product Catalog Settings**.
 
-3.    Set **Adding Products** > **Enhanced Add product experience** to **Yes**.
+3. Set **Adding Products** > **Enhanced Add product experience** to **Yes**.
 
     > [!div class="mx-imgBorder"]
     > ![Enhanced 'add product' experience setting](media/enhanced-add-product-experience-setting.png "Enhanced 'add product' experience setting")
 
-4.    Select **Apply**.
+4. Select **Apply**.
 
 
 ### See also

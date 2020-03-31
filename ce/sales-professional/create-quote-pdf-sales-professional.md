@@ -21,9 +21,9 @@ Your system administrator can choose the entities on which PDF generation is ena
 > [!IMPORTANT]
 > If you do not see the **Create PDF** and **Email as PDF** options on one of the supported entity records, it might be because your system administrator hasn't enabled the PDF-generation capability for that entity. In this case, check with your system administrator.
 
-1.    Open a quote record.
+1. Open a quote record.
 
-2.    On the command bar, select **Create PDF** and then select a template on which you want to create the PDF.  
+2. On the command bar, select **Create PDF** and then select a template on which you want to create the PDF.  
 
     > [!div class="mx-imgBorder"]
     > ![A quote form showing the Create PDF button on the command bar](media/create-pdf-sales-professional.png "A quote form showing the Create PDF button on the command bar")
@@ -46,9 +46,9 @@ If you select **Save**, the PDF file is stored in the default SharePoint site if
 
 You can also generate a PDF file and directly email it to a customer.
 
-1.    Open an entity record. For example, open a quote record.
+1. Open an entity record. For example, open a quote record.
 
-2.    On the command bar, select **Email as PDF** and then select a document template.
+2. On the command bar, select **Email as PDF** and then select a document template.
 
     > [!div class="mx-imgBorder"]
     > ![A quote form showing the Email as PDF button on the command bar](media/email-as-pdf-sales-professional.png "A quote form showing the Email as PDF button on the command bar")
@@ -65,7 +65,7 @@ You can also generate a PDF file and directly email it to a customer.
     |**Regarding**           |  Record from which the email was triggered| 
     |**Subject**             |  Title of the record                                    |
 
-3.    Verify and change any details in the email form, and then select **Send**.
+3. Verify and change any details in the email form, and then select **Send**.
 
 
 > [!IMPORTANT]
