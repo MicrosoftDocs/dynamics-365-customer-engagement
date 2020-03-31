@@ -45,7 +45,7 @@ By enabling these IoT alert suggestions, you'll be able to:
 
 A few reminders before digging into this article:
 
-- An [incident type](../configure-incident-types.md) is the main issue of a work order and can dictate related details like work order type, products, services, and service tasks. 
+- An [incident type](configure-incident-types.md) is the main issue of a work order and can dictate related details like work order type, products, services, and service tasks. 
 - **Priority** in this feature represents the priority to the business, generally measured by financial impact or customer satisfaction. For example, imagine an IoT alert notifies the organization that a building's heating is broken, and this could have a large impact on an event and customer satisfaction. This would represent a _high_ priority because of the large business impact.
 
 The AI-based suggestions are made possible by a machine learning model that is continuously learning as more data enters the system in the form of IoT Alert records and as more actions are executed by dispatchers that convert an alert into a case or work order. 
