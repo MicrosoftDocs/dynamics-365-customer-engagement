@@ -50,6 +50,10 @@
 #### Social channels
 ##### [Configure a Facebook channel](administrator/configure-facebook-channel.md)
 ##### [Configure a WhatsApp channel](administrator/configure-whatsapp-channel.md)
+#### Microsoft Teams
+##### [Configure a Microsoft Teams channel](administrator/configure-microsoft-teams.md)
+##### [Prerequisites](administrator/configure-microsoft-teams.md#prerequisites)
+##### [Configuration steps](administrator/configure-microsoft-teams.md#configure-a-teams-channel-in-omnichannel)
 #### Custom messaging channel
 ##### [Configure a Custom messaging channel](administrator/configure-custom-channel.md)
 #### Entity records channel
@@ -144,6 +148,9 @@
 ##### [Use WhatsApp channel](agent/agent-oc/whatsapp.md)
 ##### Use Twitter channel
 ##### Use Line channel
+##### Use WeChat channel
+##### [Use Teams channel](agent/agent-oc/teams-channel.md)
+##### Use entity routing channel
 ##### [Use WeChat channel](agent/agent-oc/wechat-channel.md)
 ##### Use Teams channel
 

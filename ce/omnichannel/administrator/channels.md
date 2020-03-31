@@ -37,9 +37,9 @@ If you want to help your customers using social channels, you can use the social
 
  - [Facebook](configure-facebook-channel.md)
  - [Preview: WhatsApp through Twilio](configure-whatsapp-channel.md)
- - [Twitter topic link will be updated here]()
- - [WeChat topic link will be updated here](configure-wechat-channel.md)
- - [Line topic link will be updated here]()
+ - [Twitter](configure-twitter-channel.md)
+ - [WeChat](configure-wechat-channel.md)
+ - [LINE](configure-line-channel.md)
 
 
 ## Preview: Custom messaging channel
@@ -57,9 +57,9 @@ If you want to help your customers using your Line of Business (in-house) messag
 
 ## Preview: Microsoft Teams
 
-If you want to help your customers using standard collaboration channel, you can use Microsoft Teams channel.
+If you want to help your customers using a standard collaboration channel, you can use the Microsoft Teams channel.
 
-To learn more, see [Microsoft Teams]().
+To learn more, see [Preview: Configure Microsoft Teams](configure-microsoft-teams.md).
 
 ## Entity records
 
@@ -71,16 +71,16 @@ To learn more, see [Entity records channel](entity-channel.md).
 
 You can get the Chat for Dynamics 365 Customer Service with either of the add-on license:
 
-- [Chat for Dynamics 365 Customer Service](https://dynamics.microsoft.com/en-us/customer-service/overview/#pricing)
-- [Digital Messaging](https://dynamics.microsoft.com/en-us/customer-service/overview/#pricing)
+- [Chat for Dynamics 365 Customer Service](https://dynamics.microsoft.com/customer-service/overview/#pricing)
+- [Digital Messaging](https://dynamics.microsoft.com/customer-service/overview/#pricing)
 
 > [!Note]
 > Digital Messaging add-on license includes Chat for Dynamics 365 Customer, SMS, Facebook, and bot integration.
 
-You can get the SMS, Social channels, and Custom messaging channels with the following add-on license:
+You can get the SMS, social channels, and custom messaging channels with the following add-on license:
 
-- [Digital Messaging](https://dynamics.microsoft.com/en-us/customer-service/overview/)
+- [Digital Messaging](https://dynamics.microsoft.com/customer-service/overview/)
 
-You can get the Microsoft Teams channels with the following add-on license:
+You can get the Microsoft Teams channel with the following add-on license:
 
-- [Teams license name will be updated here]()
+- [Teams license](https://docs.microsoft.com/MicrosoftTeams/office-365-licensing)
