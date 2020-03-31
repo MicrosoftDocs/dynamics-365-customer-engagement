@@ -76,7 +76,7 @@ After completing the prerequisites, you can add the LINE channel for your organi
 7. Make sure that **Use webhook** is enabled in the LINE app dashboard.
  
 > [!div class=mx-imgBorder]
-> ![LINE Callback information](../media/line-callback-information.png "LINE Callback URL")
+> ![LINE callback information](../media/line-create-new-channel-2.png "LINE callback information")
 
 More information about the LINE app: [Setting up your LINE app](https://developers.line.biz/en/docs/messaging-api/getting-started/#creating-a-channel)
  
