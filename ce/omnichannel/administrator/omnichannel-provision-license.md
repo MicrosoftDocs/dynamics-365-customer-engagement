@@ -68,18 +68,18 @@ To allow Omnichannel for Customer Service to read and write data on behalf of us
 3. Select the environment in the drop-down list. 
 
     > [!div class=mx-imgBorder]
-    > ![select org](../media/select-org.PNG)
+    > ![select org](../media/select-org.png)
 
 
 4. Click the **Chat** tab and slide the toggle to enable the Chat channel for your organization. 
 
     > [!div class=mx-imgBorder]
-    > ![Enable chat](../media/enable-chat.PNG)
+    > ![Enable chat](../media/enable-chat.png)
 
 5. Click the **SMS** tab and slide the toggle to enable SMS. Select the check box to confirm that you agree to the SMS terms.
 
     > [!div class=mx-imgBorder]
-    > ![Enable SMS with Omnichannel](../media/enable-sms-with-omnichannel.PNG "Enable SMS with Omnichannel")
+    > ![Enable SMS with Omnichannel](../media/enable-sms-with-omnichannel.png "Enable SMS with Omnichannel")
 
     > [!IMPORTANT]
     > You must select the check box for **SMS Terms** to enable SMS and proceed with the setup.
@@ -87,18 +87,18 @@ To allow Omnichannel for Customer Service to read and write data on behalf of us
 6. Click the **Social** tab and slide the toggle to enable social channels. 
 
     > [!div class=mx-imgBorder]
-    > ![Enable Facebook Messenger with Omnichannel](../media/enable-social.PNG "Enable social channels with Omnichannel")
+    > ![Enable Facebook Messenger with Omnichannel](../media/enable-social.png "Enable social channels with Omnichannel")
     
 7. Click the **Microsoft Teams** tab and slide the toggle to enable Microsoft Teams. 
 
     > [!div class=mx-imgBorder]
-    > ![Enable Facebook Messenger with Omnichannel](../media/enable-teams.PNG "Enable Microsoft Teams with Omnichannel")
+    > ![Enable Facebook Messenger with Omnichannel](../media/enable-teams.png "Enable Microsoft Teams with Omnichannel")
 
 7. On the **Confirmation** page, verify your selections and click **Finish** to provision Omnichannel for Customer Service in your organization.
 
 
     > [!div class=mx-imgBorder]
-    > ![Summary tab on Manage Omnichannel instances page](../media/manage-omnichannel-summary.PNG "Confirmation page")
+    > ![Summary tab on Manage Omnichannel instances page](../media/manage-omnichannel-summary.png "Confirmation page")
     
     The setup can take several minutes. You may close the window and check after some time, or refresh to check if it's complete. Once the setup is complete, the selected channels are enabled in your environment.
 
