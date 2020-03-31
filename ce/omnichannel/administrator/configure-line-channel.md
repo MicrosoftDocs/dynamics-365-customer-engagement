@@ -74,6 +74,9 @@ After completing the prerequisites, you can add the LINE channel for your organi
 6. Go to the the [LINE developer portal](https://developers.line.biz/console/) > select **Provider** > **Channel** (make sure it is a Messaging API) > **Messaging API** > copy **Webhook URL** from Omnichannel and paste it into the **Webhook URL** field in the LINE developer console.
 
 7. Make sure that **Use webhook** is enabled in the LINE app dashboard.
+ 
+> [!div class=mx-imgBorder]
+> ![LINE Callback information](../media/line-callback-information.png "LINE Callback URL")
 
 More information about the LINE app: [Setting up your LINE app](https://developers.line.biz/en/docs/messaging-api/getting-started/#creating-a-channel)
  
