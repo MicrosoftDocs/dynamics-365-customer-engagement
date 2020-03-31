@@ -25,7 +25,7 @@ With the Dynamics 365 Channel Integration Framework app, you can configure the c
 
 Organizations expect their call centers to do more while using fewer resources. There's a constant drive to increase productivity by having call center agents handle more phone calls. Reducing the average time to handle customer calls can save companies millions of dollars. A telephony channel in a call center<!--note from editor: I don't quite know what this is saying. What is a "key indicator for success" here? A reliable telephony channel, or the ability to have several of them, or just having one at all? It seems to me you couldn't even have a call center without a telephony channel, but I must be missing something.--> is one of the key indicators for success and customer satisfaction. Some of the challenges the call center industry faces with telephony channels include:
 
--  Integrating third-party telephony and social messaging channels into their customer relationship management (CRM) platform.
+-  Integrating third-party telephony, social and custom messaging channels into their customer relationship management (CRM) platform.
 -  Accessing and performing operations on the CRM platform from the telephony widget area.
 -  Developing and deploying the telephony channel, which requires writing adapters and complex custom code for solution integration.
 -  Using APIs and out-of-the-box customizations that aren't supported for the production environment.
@@ -55,15 +55,15 @@ Key new features in Dynamics 365 Channel Integration Framework version 2.0 inclu
 
 - **Support for multiple providers**
 
-  With Dynamics 365 Channel Integration Framework version 2.0, organizations can configure multiple telephony and social messaging channel providers. This enables agents to simultaneously work on multiple sessions catering to different customers on different channels, where each of these sessions belongs to different telephony or social messaging channel providers. The agent can perform all the interactions on these channels from a familiar conversation control.
+  With Dynamics 365 Channel Integration Framework version 2.0, organizations can configure multiple telephony, social and custom (in-house) messaging channels. This enables agents to simultaneously work on multiple sessions catering to different customers on different channels, where each of these sessions belongs to different telephony or social messaging channel providers. The agent can perform all the interactions on these channels from a familiar conversation control.
 
   More information: [Support for multiple providers](support-multiple-providers.md)
 
 Additional capabilities offered by Dynamics 365 Channel Integration Framework include:
 
-- **Bring-your-own telephony and social messaging channel providers**
+- **Bring-your-own telephony and, social and custom messaging channel providers**
 
-  Dynamics 365 Channel Integration Framework provides an extensible framework to integrate third-party cloud-based telephony and social messaging channel providers, including the ones that have been developed internally or are hyperlocal, with model-driven apps in Dynamics 365.
+  Dynamics 365 Channel Integration Framework provides an extensible framework to integrate third-party cloud-based telephony, social and custom messaging channels, including the ones that have been developed internally or are hyperlocal, with model-driven apps in Dynamics 365.
 
 - **Two-way communication**
 
