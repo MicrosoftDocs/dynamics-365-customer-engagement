@@ -1,5 +1,5 @@
 ---
-title: "Show customers their position in a queue | MicrosoftDocs"
+title: "Show customers their average wait time in a queue | MicrosoftDocs"
 description: "How to show customers their average wait time for a chat widget in Omnichannel for Customer Service."
 author: lalexms
 ms.author: laalexan
@@ -45,7 +45,7 @@ To configure the queue display feature, follow these steps:
 
 ## See also
 
-[Show customers their position in a queue](show-queue) <br>
+[Show customers their position in a queue](show-queue.md) <br>
 [Add a chat widget](add-chat-widget.md) <br>
 [Configure a pre-chat survey](configure-pre-chat-survey.md) <br>
 [Configure agent display name](agent-display-name.md)<br>
