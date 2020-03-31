@@ -67,7 +67,7 @@ After completing the prerequisites, you can add the LINE channel for your organi
 4. Browse and select the workstream you created for the LINE channel, and select **Save**. After you save the record, the **LINE** channel is enabled. The Callback URL has been created. The next step is to save it.
  
 > [!div class=mx-imgBorder]
-> ![Twitter Callback information](../media/twitter-callback-information.png "Twitter Callback URL")
+> ![LINE Callback information](../media/line-callback-information.png "LINE Callback URL")
 
 5. The Callback URL may take a few minutes to generate. Click **Refresh**.
 
@@ -78,7 +78,10 @@ After completing the prerequisites, you can add the LINE channel for your organi
 More information about the LINE app: [Setting up your LINE app](https://developers.line.biz/en/docs/messaging-api/getting-started/#creating-a-channel)
  
 > [!div class=mx-imgBorder]
-> ![LINE callback information](../media/line-callback-information.png "LINE callback information")
+> ![LINE callback information](../media/line-create-new-channel-1.png "LINE callback information")
+
+> [!div class=mx-imgBorder]
+> ![LINE callback information](../media/line-create-new-channel-2.png "LINE callback information")
 
 The LINE channel setup is complete.
 > [!NOTE]
@@ -107,7 +110,7 @@ If a customer initiates a conversation from the LINE website and then later swit
 The agent receives the notification of the incoming chat request along with the customer details. More information: [View notifications](../agent/agent-oc/oc-notifications.md)
 
 > [!div class=mx-imgBorder]
-> ![Twitter chat agent notification](../media/twitter-chat-agent-notify.png "Twitter chat agent notification")
+> ![LINE chat agent notification](../media/line-chat-agent-notify.png "LINE chat agent notification")
 
 If the customer is identified based on name, the conversation is automatically linked to the contact record and the customer summary is populated. More information: [View customer summary](../agent/agent-oc/oc-customer-summary.md)
 
