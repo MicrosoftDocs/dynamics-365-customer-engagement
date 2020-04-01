@@ -20,7 +20,7 @@ HAVE THE RIGHTS BELOW. BY USING THE SOFTWARE, YOU ACCEPT THESE TERMS.
 >   on Windows devices that you own or control in order to access and interact
 >   with the Microsoft Dynamics 365 Guides service to which you have access
 >   rights via your company’s Microsoft Dynamics 365 Guides subscription.
-
+>
 >   **b) Required** Microsoft Applications and Services. The software requires a
 >   license to Microsoft Dynamics 365 Guides, which includes use and access of
 >   the Microsoft Common Data Service and Microsoft PowerApps online services.
@@ -31,7 +31,7 @@ HAVE THE RIGHTS BELOW. BY USING THE SOFTWARE, YOU ACCEPT THESE TERMS.
 >   for other Microsoft software or applications. You will not be able to use
 >   this functionality unless you have a separate license for such Microsoft
 >   software or application.
-
+>
 >   **c) Third Party Software.** The software may include third party
 >   applications that Microsoft, not the third party, licenses to you under this
 >   agreement. Any included notices for third party applications are for your
@@ -55,7 +55,7 @@ HAVE THE RIGHTS BELOW. BY USING THE SOFTWARE, YOU ACCEPT THESE TERMS.
 >   Privacy Statement at <https://go.microsoft.com/fwlink/?LinkID=521839>. You
 >   agree to comply with all applicable provisions of the Microsoft Privacy
 >   Statement.
-
+>
 >   **b) Processing of Personal Data.** To the extent Microsoft is a processor
 >   or subprocessor of personal data in connection with the software, Microsoft
 >   makes the commitments in the European Union General Data Protection
@@ -69,15 +69,15 @@ limitation, you will not (and have no right to):
 
 >   **a)** work around any technical limitations in the software that only allow
 >   you to use it in certain ways;
-
+>
 >   **b)** reverse engineer, decompile or disassemble the software;
-
+>
 >   **c)** remove, minimize, block, or modify any notices of Microsoft or its
 >   suppliers in the software;
-
+>
 >   **d)** use the software in any way that is against the law or to create or
 >   propagate malware; or
-
+>
 >   **e)** share, publish, distribute, or lend the software, provide the
 >   software as a stand-alone hosted solution for others to use, or transfer the
 >   software or this agreement to any third party.
@@ -127,7 +127,7 @@ agreement for the software.
 >   principles. The laws of the state where you live govern all other claims,
 >   including claims under state consumer protection laws, unfair competition
 >   laws, and in tort.
-
+>
 >   **b) Outside the United States.** If you acquired the software in any other
 >   country, the laws of that country apply.
 
@@ -155,33 +155,21 @@ mandatory country law applies, then the following provisions apply to you:
 >   **a) Australia.** You have statutory guarantees under the Australian
 >   Consumer Law and nothing in this agreement is intended to affect those
 >   rights.
-
+>
 >   **b) Canada.** If you acquired this software in Canada, you may stop
 >   receiving updates by turning off the automatic update feature, disconnecting
 >   your device from the Internet (if and when you re-connect to the Internet,
 >   however, the software will resume checking for and installing updates), or
 >   uninstalling the software. The product documentation, if any, may also
 >   specify how to turn off updates for your specific device or software.
-
+>
 >   **c) Germany and Austria.**
-
->   **(i) Warranty.** The properly licensed software will perform substantially
->   as described in any Microsoft materials that accompany the software.
->   However, Microsoft gives no contractual guarantee in relation to the
->   licensed software.
-
->   (**ii) Limitation of Liability.** In case of intentional conduct, gross
->   negligence, claims based on the Product Liability Act, as well as, in case
->   of death or personal or physical injury, Microsoft is liable according to
->   the statutory law.
-
->   Subject to the foregoing clause (ii), Microsoft will only be liable for
->   slight negligence if Microsoft is in breach of such material contractual
->   obligations, the fulfillment of which facilitate the due performance of this
->   agreement, the breach of which would endanger the purpose of this agreement
->   and the compliance with which a party may constantly trust in (so-called
->   "cardinal obligations"). In other cases of slight negligence, Microsoft will
->   not be liable for slight negligence.
+>
+> >   **(i) Warranty.** The properly licensed software will perform substantially as described in any Microsoft materials that accompany the software. However, Microsoft gives no contractual guarantee in relation to the licensed software.
+> > 
+> >   **(ii) Limitation of Liability.** In case of intentional conduct, gross negligence, claims based on the Product Liability Act, as well as, in case of death or personal or physical injury, Microsoft is liable according to the statutory law.
+> >
+> >   Subject to the foregoing clause (ii), Microsoft will only be liable for slight negligence if Microsoft is in breach of such material contractual obligations, the fulfillment of which facilitate the due performance of this agreement, the breach of which would endanger the purpose of this agreement and the compliance with which a party may constantly trust in (so-called "cardinal obligations"). In other cases of slight negligence, Microsoft will not be liable for slight negligence.
 
 **14. DISCLAIMER OF WARRANTY. THE SOFTWARE IS LICENSED “AS IS.” YOU BEAR THE
 RISK OF USING IT. MICROSOFT GIVES NO EXPRESS WARRANTIES, GUARANTEES, OR
@@ -200,7 +188,7 @@ SPECIAL, INDIRECT OR INCIDENTAL DAMAGES.**
 >   applications; and (b) claims for breach of contract, warranty, guarantee, or
 >   condition; strict liability, negligence, or other tort; or any other claim;
 >   in each case to the extent permitted by applicable law.**
-
+>
 >   **It also applies even if Microsoft knew or should have known about the
 >   possibility of the damages. The above limitation or exclusion may not apply
 >   to you because your state, province, or country may not allow the exclusion
