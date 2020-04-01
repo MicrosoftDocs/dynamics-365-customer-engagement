@@ -57,7 +57,7 @@ The matrix explains the various aspects of version 1.0 and 2.0.
 |Features| Support for one channel provider at any time <br> Communication panel management |Support for multiple telephony channel providers <br> Communication panel management <br> Channel analytics <br> Notification management templates<br> Application tab management templates<br> Session management templates |
 
 > [!NOTE]
-> For information on how to integrate custom (in-house) messaging channel providers, see [Bring your own channel](../../omnichannel/developer/how-to/bring-your-own-channel.md).
+> For information on how to integrate custom (in-house) messaging channel providers, see [Bring your own channel](../../../omnichannel/developer/how-to/bring-your-own-channel.md).
 
 > [!div class="mx-imgBorder"]
 > ![Differences in version 1.0 and 2.0](media/choose-between-version.png "Differences in version 1.0 and 2.0")
@@ -68,4 +68,4 @@ The matrix explains the various aspects of version 1.0 and 2.0.
 [Channel Integration Framework version 2.0](v2/overview-channel-integration-framework.md)<br />
 [Integrate Channel Integration Framework version 2.0 with Omnichannel for Customer Service](v2/integration-multi-session-experiences.md)<br />
 [Multi-session agent experiences](https://docs.microsoft.com/business-applications-release-notes/april19/service/omnichannel-for-customer-service/multi-session-agent-experiences-web-usd)<br />
-[Bring your own channel](../../omnichannel/developer/how-to/bring-your-own-channel.md)
+[Bring your own channel](../../../omnichannel/developer/how-to/bring-your-own-channel.md)
