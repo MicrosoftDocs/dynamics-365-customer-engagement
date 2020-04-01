@@ -30,6 +30,10 @@ The Overview page opens. The Overview page is a landing page that consolidates a
 > [!NOTE]
 > These settings are also available in the legacy web client but have been consolidated in one place in the Sales Hub app for ease of use. 
 
+> [!TIP]
+> By default, this new unified settings experience is available only in the Sales Hub app. To learn how to enable this experience in custom applications, see **Leverage the unified settings experience in a custom sales application** in the [Simplified system configuration in Dynamics 365 Sales](https://cloudblogs.microsoft.com/dynamics365/it/2020/03/30/simplified-system-configuration-in-dynamics-365-sales/) blog.  
+
+
 ### See also
 
 [Define lead qualification experience](define-lead-qualification-experience.md)  
