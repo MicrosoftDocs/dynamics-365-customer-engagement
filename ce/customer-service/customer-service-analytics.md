@@ -1,5 +1,5 @@
 ---
-title: View and understand Customer Service analytics and insights | Microsoft Docs
+title: View and understand Customer Service Analytics and Insights | Microsoft Docs
 description: Dashboards and reports provide historical operational metrics and KPIs to manage contact centers.
 author: neeranelli
 ms.author: nenellim
@@ -53,6 +53,31 @@ This section also consists of the following filters:
 |Priority              |Filters the reporting to the selected priority of the case. (High, Normal, Low) |
 |Subject               |Filters the reporting to the selected subject of the case.  |
 |Channel               |Filters the reporting to the selected Omnichannel channels. (Example: Chat, SMS, Facebook)  |
+
+### Features of Customer Service Analytics reports
+
+The following features are applicable for the reports:
+
+- Data refresh occurs every 24 hours. The reports are available during the refresh process.
+- A custom refresh schedule is not available.
+- If the reports are not used continuously for two weeks, data refresh is paused. When a user accesses a report after a lengthy period of inactivity, the report will be refreshed in the subsequent refresh cycle.
+- Report customizations are not supported.
+- Data retention is for a period of 24 months.
+- The supported entities are as follows:
+  - Activitypointer
+  - Appmodule
+  - Incident
+  - Incidentresolution
+  - Organization
+  - Queue
+  - Queueitem
+  - Subject
+  - Systemuser
+
+  > [!NOTE]
+  >
+  > - A report might be blank if you have customized any of the listed entities or do not use the out-of-the-box entities.
+  > - For the **Date** filter, the **Next** option will not display results in the report.
 
 ## Customer Service Analytics reports
 
@@ -134,11 +159,11 @@ Dynamics 365 Customer Service Insights gives you actionable insights into critic
 
 ### Create and view reports
 
-IF you are a supervisor, and if the Customer Service Insights reports have not been created for you or shared with you, you can create the reports in Customer Service Hub. Navigate to **Service** > **Insights (Preview)**, and click **Complete** on the **Analytics and insights settings** page.
+IF you have access to Customer Service , and if the Customer Service Insights reports have not been created for you or shared with you, you can create the reports in Customer Service Hub. Navigate to **Service** > **Insights (Preview)**, and click **Complete** on the **Analytics and insights settings** page.
 
 > [!NOTE]
 >
-> You must have a valid Customer Service Insights license to view the site map, create the reports, and share them. Also, only those users who have a valid Customer Service Insights license can view the reports.  You can select **Share** at the top of the report to share the reports.
+> You must be assigned to a security role that has the permission to view the site map for Customer Service Insights reports. Also, you must have a valid Customer Service Insights license to create, view, and share the reports.   You can select **Share** at the top of the report to share the reports.
 
 The report consist of five pivots as follows:
 

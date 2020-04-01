@@ -10,7 +10,6 @@ ms.service:
   - dynamics-365-customerservice
 ---
 
-
 # Customer Service Analytics and Insights
 
 Customer service managers and supervisors are responsible for managing the agents who work with customers to resolve every day queries. Customer support supervisors need to be able to know the key operational and customer experience metrics to provide quality support.
@@ -26,7 +25,21 @@ As a supervisor, use analytics and insights to perform the following tasks:
 > [!NOTE]
 > Contact your system administrator for configuration errors or if you are unable to view the reports and dashboards.  
 
-## See also
+## Regions supported in Customer Service Analytics reports
+
+The Customer Service Analytics reports are supported in the following regions.
+
+- North America
+- South America
+- Canada
+- Europe, except France
+- Asia Pacific, Japan
+- Australia
+- Japan
+- India
+- Great Britian
+
+### See also
 
 [View and understand Customer Service Analytics and Insights](customer-service-analytics.md)
 

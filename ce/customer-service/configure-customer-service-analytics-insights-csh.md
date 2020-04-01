@@ -4,7 +4,7 @@ description: "Learn about Customer Service Analytics"
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/01/2020
+ms.date: 04/03/2020
 ms.topic: article
 ms.service: 
   - "dynamics-365-customerservice"
@@ -59,23 +59,16 @@ You can share the reports from the **Service Management** > **Settings (Preview)
     > ![Customer Service share data analytics report](media/cs-share-report.png "Customer Service share data analytics report")
 4. Select **Add User/Team**. The **Look Up Records** dialog box appears.
 5. Search for users, and add them. The users appear in the table.
-6. Select the permissions that you want to grant on the report, and select **Share**. The report is shared with the selected users.
+6. Select the permissions, such as read, write, and share, that you want to grant on the report, and select **Share**. The report is shared with the selected users.
 
 ### View Customer Service Analytics reports
 
-The service managers nust have the admin or the service manager role to view the reports. Users with CSR Manager role will be able to view the reports only after the reports are shared with them.
+The service managers must have the admin or the service manager role to view the reports. Users with CSR Manager role will be able to view the reports only after the reports are shared with them.
 
-You can see the reports by navigating to the **Service** > **Analytics and Insights** > **Reports (Preview)** > **Data Analytics Reports** page.
+You can see the following reports by navigating to the **Service** > **Analytics and Insights** > **Reports (Preview)** > **Data Analytics Reports** page.
 
-### Case Summary report
-
-> [!div class=mx-imgBorder]
-> ![Case Summary report](media/cs-analytics-case-summary.png "Case Summary report")
-
-### Agent Summary report
-
-> [!div class=mx-imgBorder]
-> ![Agent Summary report](media/cs-analytics-agent-summary.png "Agent Summary report")
+- [Case Summary report](customer-service-analytics.md#1-summary)
+- [Agent Summary report](customer-service-analytics.md#2-agent-and-queue)
 
 ## Configure Customer Service Insights reports
 
@@ -95,13 +88,17 @@ Perform the following steps to install the Customer Service Insights reports:
 2. In the **Change area**, select **Service Management** > **Settings (Preview)**. The **Analytics and insights settings** page appears.
 3. Select **Get started**. The **Install Customer Service Insights** page displays the installation process for the following:
    - Checks whether a valid Customer Service Insights license is available in the tenant.
-   - Installs the Customer Service Insights solution if the license check is passed.
+   - Installs the Customer Service Insights solution if the license check is passed. The following are also created:
+     - **Customer Service Insights AppUser:** An application user that is used to allow Customer Service Insights to perform actions on behalf of users
+     - **Customer Service Insights Configuration:** A Common Data Service entity in your organization environment that is used by admins to control the reports entry access in the site map.
    - Generates insights and sets up reports for the administrator, if a valid license is assigned to the administrator.
-
+  
+  The installation process might take a few minutes. You can navigate away from the page, and revisit to check the status. 
+  
   After the installation, **Go to settings** appears on the installation page.
 
-    > [!div class=ms-imgBorder]
-    > ![Customer Service Insights reports install](media/install-csi-reports-csh.png)
+   > [!div class=ms-imgBorder]
+   > ![Customer Service Insights reports install](media/install-csi-reports-csh.png "Customer Service Insights reports install")
 
 4. Select **Go to settings**. The **Analytics and insights settings** page is displayed.
     > [!div class=ms-imgBorder]
@@ -123,7 +120,7 @@ On the **Analytics and insights settings** page, you can do the following after 
 - **View reports:** Select to navigate to the Customer Service Insights reports in Customer Service Hub.
 - **Share reports:** Select to open the Customer Service Insights standalone application and share the reports with your co-workers. For information about sharing reports, see [Sharing a workspace in Customer Service Insights](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/use-workspaces#sharing-a-workspace).
 - **Change settings:** Select to open the Settings dialog box in the Customer Service Insights standalone application, including data mapping and settings for topic generation. For more information about changing the settings in Customer Service Insights, see the following:
-  - [Map your data to custom entities and fields](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/map-data#to-map-data-when-you-connect-to-a-dynamics-365-environment)
+  - [Map your data to custom entities and fields](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/map-data#to-map-data-by-specifying-data-mapping-settings)
   - [Improve data quality by cleansing support case titles](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/settings)
   - [Set the granularity of how Customer Service Insights generates customer service topics](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/granularity)
 
