@@ -23,7 +23,7 @@ Follow these steps to start a chat:
 >
 > **Sample widget code snippet to hide chat button**
 >
-> `<script id="Microsoft_Omnichannel_LCWidget" src="<valid-src>" data-app-id="<valid-app-id>>" data-org-id="<valid-org-id>>" data-org-url="<valid-org-url>" data-hide-chat-button="true"></script>`  
+> `<script id="Microsoft_Omnichannel_LCWidget" src="<valid-src>" data-app-id="<valid-app-id>" data-org-id="<valid-org-id>" data-org-url="<valid-org-url>" data-hide-chat-button="true"></script>`  
 
 ## Sample code
 
