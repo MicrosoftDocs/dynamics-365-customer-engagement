@@ -36,6 +36,7 @@ There are multiple errors you could get while qualifying a lead.
 2.  [To move to the next stage, complete the required steps](#CompleteSteps)
 3.  [Active stage is not on 'lead' entity](#NoActiveStage)
 4.  [Access denied or Insufficient permissions](#AccessDenied)
+5.  [The lead is closed. You cannot convert or qualify a lead that is already closed.](#LeadClosed)
 
 The following sections describe each of these errors and how you can resolve them.
 
@@ -93,9 +94,19 @@ You don't have sufficient permissions on the lead record.
 **Resolution:**
 
 Ask your system administrator to grant you the necessary permissions.
-
-
 If there's no error, and you're still not able to qualify a lead, contact the technical support.
+
+<a name="LeadClosed"> </a>
+#### 5. The lead is closed. You cannot convert or qualify a lead that is already closed.
+
+**Reason:** 
+
+You are trying to qualify or disqualify a lead that's closed. 
+
+**Resolution:**
+
+Make sure that the lead that you're trying to qualify or disqualify is open.
+
 
 <a name="lead_qualification_for_admins"> </a> 
 ## Lead qualification issues and resolution (for system administrators)
