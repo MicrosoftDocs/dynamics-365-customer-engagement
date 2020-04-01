@@ -1,6 +1,6 @@
 ---
 title: "Initiate a chat | Microsoft Docs"
-description: ""
+description: "Read how you can start a chat using the startChat API"
 author: susikka
 ms.author: susikka
 manager: shujoshi
@@ -56,4 +56,5 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 ### See also
 
 [startChat](../reference/methods/startChat.md)<br />
-[JavaScript API reference for Live chat SDK](../omnichannel-reference.md)
+[JavaScript API reference for Live chat SDK](../omnichannel-reference.md)<br />
+[Customize chat widget](customize-chat-widget.md)
