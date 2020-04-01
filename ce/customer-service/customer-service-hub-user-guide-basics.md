@@ -4,7 +4,7 @@ description: Learn the basics of the Customer Service Hub for Customer Service
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/01/2020
+ms.date: 04/03/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -614,7 +614,7 @@ The following table outlines the different formatting options of the rich text e
 |![Left to Right](../customer-service/media/left-right.png "Left to Right")| Left to Right |  | Change the text to left-to-right for content such as an paragraph, header, table, or list. Commonly used for bi-directional language content. |
 |![Right to Left](../customer-service/media/right-left.png "Right to Left")| Right to Left |  | Change the text to right-to-left for content such as a paragraph, header, table, or list. Commonly used for bi-directional language content.. |
 |![Undo Typing](../customer-service/media/undo-typing.png "Undo Typing")| Undo Typing |  | Undo changes you made to the content. |
-|![Redo Typing](../customer-service/media/format-bold.png "Redo Typing")| Redo Typing |  | Redo changes you made to the content. |
+|![Redo Typing](../customer-service/media/redo-typing.png "Redo Typing")| Redo Typing |  | Redo changes you made to the content. |
 |![Clear All Formatting](../customer-service/media/clear-formatting.png "Clear All Formatting")| Clear All Formatting |  | Remove all formating from a selection of text, leaving only the normal, unformatted text. |
 |![Add a Table](../customer-service/media/add-table.png "Add a Table")| Add a Table |  | Add a table to your content. <br /><br />After adding a table, you can do any of the following:<br /><br /><ul><li>Resize table columns by clicking and dragging your mouse to resize to the columns to the desired width.</li><li>Select one or several cells within a table and apply specific formatting, add links to the selection, or cut, copy, or paste entire rows or columns.</li><li>Use table tools, an advanced context menu for table items and the Cell Properties dialog. This supports features such as cell type, width and height, word wrapping, alignment, merging and splitting cells horizontally and vertically, inserting or deleting rows and columns, row and column span, and cell and border color.</li></ul>|
 |![Expand Toolbar](../customer-service/media/show-more.png "Expand Toolbar")| Expand Toolbar |  | Displays when the toolbar is collapsed and not all options appear. Click to expand the toolbar and make all options visible. |
