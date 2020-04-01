@@ -2,7 +2,7 @@
 title: "Configure incident types in Dynamics 365 Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 08/02/2019
+ms.date: 04/01/2020
 ms.service: dynamics-365-customerservice
 ms.reviewer: krbjoran
 ms.technology: 
@@ -47,7 +47,7 @@ Other important incident type features include:
 
 -	Each incident type can be related to a customer asset to build service history. 
 
--	Relating incident types to requirement group templates allows you to auto-populate multiple requirements for a work order and schedule it to multiple resources.
+-	Relating incident types to requirement group templates allows you to autopopulate multiple requirements for a work order and schedule it to multiple resources.
 
 
 ## Prerequisites
@@ -58,7 +58,7 @@ Other important incident type features include:
 
   - A **service task** is a checklist item that field technicians should complete as part of performing an incident type. 
 
-  - A **product** is a part that can be used when completing an incident type and can be billed to the customer and deducted from inventory if necessary. For more information, visit our topic on [creating a product or service](../field-service/create-product-or-service.md). 
+  - A **product** is a part that can be used when completing an incident type and can be billed to the customer and deducted from inventory if necessary. For more information, visit our article on [creating a product or service](../field-service/create-product-or-service.md). 
 
   - A **service** is labor that can be billed to the customer. **Note:** There is no **Service** entity. A service is created by creating a product record with **Field Service Type = Service**. 
 
@@ -134,7 +134,7 @@ Select a **Task Type** or create a new one in the system.
 
 If the task type you select has a duration, it will populate in the **Estimated Duration** field of the incident type service task and can be adjusted for this specific incident as needed. As you add incident service tasks, the duration of the incident type will be the sum of the service task durations. If you do not want the incident duration to be derived from service task durations, then you should either set the incident service task duration to 0 minutes or null for all incident service task types, or consider removing durations from the original task type.
 
-The order in which you add service task types is the order in which they'll appear on the work orders when this incident is added. The order of service tasks is generally important for organizations and reflects a process that should be followed. It is common for organizations to have as many as 40 service tasks for a detailed process. 
+The order in which you add service task types is the order in which they'll appear on the work orders when this incident is added. The order of service tasks is important for organizations and reflects a process that should be followed. It is common for organizations to have as many as 40 service tasks for a detailed process. 
 
 After saving, you can edit the **Line Order** field as needed to change the order of service tasks where "1" is the service task that will appear first.
 
@@ -145,7 +145,7 @@ After adding multiple service tasks, they will display in the incident service t
 
 ### Incident type characteristics
 
-Next, you can associate characteristics (skills) to incident types in order to define the skillset needed to perform the incident type. Characteristics are also added to resources (field technicians) and this helps the system match work order incidents with the best resources who can do the job. This also means when this incident is added to a work order and scheduled, the schedule assistant and resource scheduling optimization will consider the associated characteristics.
+Next, you can associate characteristics (skills) to incident types in order to define the skill set needed to perform the incident type. Characteristics are also added to resources (field technicians) and this helps the system match work order incidents with the best resources who can do the job. This also means when this incident is added to a work order and scheduled, the schedule assistant and resource scheduling optimization will consider the associated characteristics.
 
 > [!Note]
 > If you want to use **Requirement Groups** with **Incident Types** for multi-resource scheduling, do not add characteristics (skills) to the incident type. Instead, you should add required characteristics to the requirement group template. See the topic on [requirement groups for work orders](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/multi-resource-scheduling-requirement-groups#requirement-groups-for-work-orders) for more details.
@@ -163,7 +163,7 @@ Examples include:
 - Certifications, such as "CPR certifications"
 - Security clearance, such as "Building 12 access"
 
-When characteristics are added to a resource, you can define the level of proficiency of the resource. For example, one resource might be excellent at speaking Spanish, but another might be just adequate. **Rating Value** allows you to set the level of expertise required to perform this incident type. This means a resource must meet or exceed the rating value to be considered when attempting to schedule work orders this incident type will be added to. If left blank, this means all proficiency levels are acceptable given the resource has the matching characteristic. You can define rating values in **Resource Scheduling** > **Settings** > **Proficiency Models**.
+When characteristics are added to a resource, you can define the level of proficiency of the resource. For example, one resource might be excellent at speaking Spanish, but another might be adequate. **Rating Value** allows you to set the level of expertise required to perform this incident type. This means a resource must meet or exceed the rating value to be considered when attempting to schedule work orders this incident type will be added to. If left blank, this means all proficiency levels are acceptable given the resource has the matching characteristic. You can define rating values in **Resource Scheduling** > **Settings** > **Proficiency Models**.
 
 
 ## Add an incident type to a work order
@@ -244,7 +244,7 @@ Back on the work order, the second incident's products, services, and service ta
 
 The order of the service tasks reflects the order in which incidents are added.
 
-When attempting to book a work order with multiple incidents, the schedule assistant and Resource Scheduling Optimization will look for a single resource with time availability to complete all incidents and has all the matching characteristics. In the case of the schedule assistant, these filters can be edited at the time of scheduling as needed. 
+When attempting to book a work order with multiple incidents, the schedule assistant and Resource Scheduling Optimization will look for a single resource with time availability to complete all incidents and has all the matching characteristics. With the schedule assistant, these filters can be edited at the time of scheduling as needed. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the scheduling assistant](./media/work-order-incident-type-add-multiple-schedule-assistant.png)
@@ -275,10 +275,66 @@ There are a few important notes when using incidents with requirement groups:
 - You can't add characteristics to the incident type or directly to the work order. This is because you should add required characteristics in the requirement group template.
 - The work order can only have one incident.
 
-For more information, see the topic on [requirement groups for work orders](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/multi-resource-scheduling-requirement-groups#requirement-groups-for-work-orders).
+For more information, see the article on [requirement groups for work orders](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/multi-resource-scheduling-requirement-groups#requirement-groups-for-work-orders).
 
 > [!Note]
 > **Multiple incidents vs. requirement group templates:** If you know a work order should be performed by multiple resources, we highly recommended using requirement group templates versus multiple incident types. Let's say you have a work order with two incident types, each requiring different skills. When attempting to book the work order, the system will look for a single resource (including crews) to fulfill the job. The scheduler would need to perform extra steps, like editing filters or selecting **Book** twice, to schedule it to two different resources to arrive at the same time. However, if you use a requirement group template, the schedule assistant will simultaneously search for both a single resource with both skills or two resources each with one skill to arrive at the same time. 
+
+## AI suggestions
+
+With Field Service v8.8.20.12+, **Incident Type AI** suggestions recommend ways to improve your incident types by learning from past work orders. For example, imagine you have an incident type called "System recalibration" that involves using "Product A"; however, technicians frequently also use "Product B" to complete the recalibration. Using AI, the system will learn this and suggest to the administrator that "Product B" be added to the incident type for future work orders.
+
+This saves technician time by 
+- not having to enter the additional work order product.
+- helping better plan inventory requirements by knowing typical products needed, and most importantly.
+- ensuring your business application reflects reality.
+
+From the Field Service app, go to **Settings** > **Field Service Settings** > **Intelligence section** and **Enable Incident Type Suggestion**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the Field Service Setting on the Intelligence tab, showing the Enable Incident Type Suggestion toggle.](./media/ai-incident-type-suggestions-enable.png)
+
+- **Historical Data Filter**: dictates how much historical data is analyzed as part of each run.
+
+- **Run Frequency**: dictates how often the system will analyze incident types and make suggestions if applicable. At this time, this cannot be changed.
+
+- **Return Top X Results**: dictates how many suggestions will be returned from each run. 
+
+Across multiple runs, it's possible to see more than the number of results defined in **Return Top X Results**. When the system returns results, if a previous run returned the same combined set of parameters (incident type, product/service/incident type for merge, suggested value, unit), it will deactivate the earlier sets and will ensure that only the most recent, most relevant, unique version of that result is displayed. This means that unique results that have not been applied, disliked, or deactivated will still show in the list of visible results.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the intelligence tab on the Field Service setting window, showing a list of incident type suggestion results list.](./media/ai-incident-type-suggestions-list.png)
+
+Incident type suggestions fall into three categories:
+
+1. Work order product 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of an incident type suggestion result showing the work order product type in the suggestion type field.](./media/ai-incident-type-suggestions-list-product.png)
+
+The system suggests adding a product to an incident type.
+
+2. Work order service
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of an incident type suggestion result showing the work order service type in the suggestion type field.](./media/ai-incident-type-suggestions-list-service.png)
+
+The system suggests adding a service to an incident type.
+
+1. Incident Type
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of an incident type suggestion result showing the incident type in the suggestion type field.](./media/ai-incident-type-suggestions-list-merge.png)
+
+The system suggests merging two incident types together into one incident type.
+
+For each suggestion, you have the option to:
+
+1. **Apply Suggestion**: The system will add the product or service to the incident type for you. This is not available when the suggestion type is  **Incident Type**.
+2. **Dislike**: The suggestion will be removed from the list. This option helps improve the AI suggestion model. 
+
+Once a suggestion is either applied or disliked, it will ensure that particular combined set of parameters (incident type, product/service/incident type for merge, suggested value, unit) is not returned as a suggestion by the system. This ensures the system continues to provide only the most valuable suggestions.
+
 
 ## Configuration considerations
 
@@ -296,7 +352,7 @@ For more information, see the topic on [requirement groups for work orders](http
     > [!div class="mx-imgBorder"]
     > ![Screenshot of an agreement booking setup record, on the Services tab, with no listed services](./media/work-order-incident-types-copy-incident-agreement-NO.PNG)
 
-  - Incidents can be added to agreements for recurring work. This means agreements will generate work orders with predefined work order incidents attached. However, as mentioned earlier in this topic, incidents can be edited as processes and procedures change. But agreements can span multiple months and even years, so should the agreement use the original incident type at the time of agreement creation, or use the latest changes to the incident type? This could result in different work being performed than originally intended at the end of the agreement. 
+  - Incidents can be added to agreements for recurring work. This means agreements will generate work orders with predefined work order incidents attached. However, as mentioned earlier in this article, incidents can be edited as processes and procedures change. But agreements can span multiple months and even years, so should the agreement use the original incident type at the time of agreement creation, or use the latest changes to the incident type? This could result in different work being performed than originally intended at the end of the agreement. 
   
     Set to **Yes** if the incident should remain the same throughout the agreement life span by copying the incident details to the agreement at the time of agreement activation. Set to **No** if the work orders generated from the agreement should grab the latest incident type details when the work orders are generated from the agreement, which is generally at an ongoing basis depending on the **Generate Work Orders X Days In Advance** field on **Agreement Booking Setup**. 
   
@@ -309,7 +365,7 @@ For more information, see the topic on [requirement groups for work orders](http
 
 ### Understanding incident entities
 
-There are multiple entities involved in using incident types, and you should be aware of them when you'd like to write workflows or other plug-ins. First let's consider a simple example with an incident type with one product. 
+There are multiple entities involved in using incident types, and you should be aware of them when you'd like to write workflows or other plug-ins. First let's consider an example with an incident type with one product. 
 
 #### Work order scenario
 
@@ -333,7 +389,7 @@ Only one work order incident can be the primary incident and this is either the 
 - Incidents should be created for issues that are common or for issues that have a specific process. If you'd like better reporting for issues, consider making incidents for them as well.
 - Incidents should be more specific than work order types, but not too specific as to not be reusable.
 - Ask customers if they maintain a list of most common work order issues. Often they do and these can be imported into Dynamics 365 through Excel as a start to configuring incidents.
-- When setting up incident types for the first time, we recommend not to create too many too quickly as customers might end up using incident types differently than intended. For example, a customer might perform a safety test on three different models of a machine. Rather than creating three safety test incidents, one for each model, simply start with one incident type that can be used on work orders for all three models. Then determine at a later date if more are needed.
+- When setting up incident types for the first time, we recommend not to create too many too quickly, as customers might end up using incident types differently than intended. For example, a customer might perform a safety test on three different models of a machine. Rather than creating three safety test incidents, one for each model, simply start with one incident type that can be used on work orders for all three models. Then determine at a later date if more are needed.
 - By default, work order service tasks have a field called **% Complete** that field technicians can use to record their progress completing each service task. It's common to replace this field or add another simple yes-or-no field. It's also common to use custom Offline HTML and JavaScript on Field Service Mobile to prevent field technicians from completing a work order until all work order service tasks are complete. 
   
 ### Maximizing incidents
