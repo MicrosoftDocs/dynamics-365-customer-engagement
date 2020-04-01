@@ -14,8 +14,8 @@ helpviewer_keywords:
   - ribbon, enable controls
 ms.assetid: f17819f8-e963-43e1-8895-36bf0cc32b0f
 caps.latest.revision: 27
-author: JesseParsons
-ms.author: jeparson
+author: hazhouMSFT
+ms.author: hazhou
 manager: annbe
 search.audienceType: 
   - developer
