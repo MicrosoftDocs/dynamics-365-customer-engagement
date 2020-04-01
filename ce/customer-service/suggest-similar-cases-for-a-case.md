@@ -116,7 +116,6 @@ See the below table to understand how search results are impacted when Relevance
 
     ![Setting for exact match](media/exact-match.png)
 
-
 ## See similar case suggestions in the Customer Service Hub
 
 You can view the similar case suggestions in the Related section of the Customer Service Hub.
@@ -128,7 +127,11 @@ You can view the similar case suggestions in the Related section of the Customer
 2. Select the **Similar Cases** in the **Related** section to view cases similar to the current case.  
   
    ![View similar cases](media/view-similar-cases.png)
-  
+
+ > [!NOTE]
+ >
+ > The "similar cases" action is not available in the business process flow in Customer Service Hub. As a workaround, you can customize the business process flow to add the action. For information about customizing the business process flow, see [Add an action to a business process flow](https://docs.microsoft.com/business-applications-release-notes/april18/microsoft-flow/add-action-business-process-flow).
+
 ### See also  
 
 [Related section in the Customer Service Hub](customer-service-hub-user-guide-basics.md#related-section)
