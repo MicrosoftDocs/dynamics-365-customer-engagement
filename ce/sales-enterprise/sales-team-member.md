@@ -1,7 +1,7 @@
 ---
 title: "Sales Team Member app for users with Team Member license (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn about the Team Member license enforcement and the new Sales Team Member app."
-ms.date: 02/03/2020
+ms.date: 04/03/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -11,10 +11,6 @@ manager: annbe
 ---
 
 # Sales Team Member app for users with Team Member license
-
-[!INCLUDE [cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 The new Sales Team Member app is designed for the lightweight sales scenarios where users don't need the full capabilities of an enterprise application. This app is included with the Team Member license. 
 
