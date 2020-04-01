@@ -4,7 +4,7 @@ description: "Learn how to choose between Dynamics 365 Channel Integration Frame
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 03/20/2020
+ms.date: 04/03/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -67,4 +67,5 @@ The matrix explains the various aspects of version 1.0 and 2.0.
 [Channel Integration Framework version 1.0](overview-channel-integration-framework.md)<br />
 [Channel Integration Framework version 2.0](v2/overview-channel-integration-framework.md)<br />
 [Integrate Channel Integration Framework version 2.0 with Omnichannel for Customer Service](v2/integration-multi-session-experiences.md)<br />
-[Multi-session agent experiences](https://docs.microsoft.com/business-applications-release-notes/april19/service/omnichannel-for-customer-service/multi-session-agent-experiences-web-usd)
+[Multi-session agent experiences](https://docs.microsoft.com/business-applications-release-notes/april19/service/omnichannel-for-customer-service/multi-session-agent-experiences-web-usd)<br />
+[Bring your own channel](../../omnichannel/developer/how-to/bring-your-own-channel.md)
