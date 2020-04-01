@@ -73,8 +73,6 @@ With Customer Service, you can create two types of SLAs: standard and enhanced. 
 
 ## Configure SLAs in Customer Service Hub
 
-[!INCLUDE[cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
-
 With the SLA feature in Customer Service Hub, you can:
 
 - Use out-of-the-box actions in Microsoft Power Automate.
@@ -279,7 +277,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
       For example, the conditions might be as shown in the following image.
 
-      ![Customer (Account) Category equals Corporate; Case Priority equals High](media/crm-ua-sla-details-applicable-when.png "Customer (Account) category equals Corporate; Case priority equals High")   
+      ![Customer (Account) Category equals Corporate; Case Priority equals High](media/crm-ua-sla-details-applicable-when.png "Customer (Account) category equals Corporate; Case priority equals High")
 
      > [!NOTE]
      >  If there are multiple clauses, and you don't use AND or OR grouping, by default the clauses will use the AND grouping.  
@@ -474,11 +472,9 @@ The service rep who is working on a case can see the SLA details right on the ca
 
 We recommend that you perform the following steps to upgrade a solution:
 
-1.    Deactivate the SLAs that have been brought through the previous version of the solution. The status of these SLAs will change to Draft.
-
-2.    Upgrade your solution. 
-
-3.    After the solution has been successfully upgraded, activate the SLAs as required.
+1. Deactivate the SLAs that have been brought through the previous version of the solution. The status of these SLAs will change to Draft.
+2. Upgrade your solution.
+3. After the solution has been successfully upgraded, activate the SLAs as required.
 
 ### See also  
 
