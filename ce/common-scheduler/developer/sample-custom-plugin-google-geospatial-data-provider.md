@@ -32,7 +32,7 @@ search.app:
 
 You can use a custom plug-in to use geospatial data from a data provider of your choice instead of using the default Bing Maps API in Field Service and Project Service.
 
-Download the sample: [Custom plug-in to use Google Maps API as geospatial data provider (Dynamics 365)](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/field-service/CustomPlugin-FS-Geospatial)
+Sample is available here: [Custom plug-in to use Google Maps API as geospatial data provider (Dynamics 365)](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/field-service/CustomPlugin-FS-Geospatial)
 
 ## Prerequisites
 
@@ -53,8 +53,8 @@ This sample shows how to create a custom plug-in for the **msdyn_GeocodeAddress*
 
 This sample generates a plug-in assembly file: **CustomPlugin-FS-Geospatial.dll**.
 
-1. [Download](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/field-service/CustomPlugin-FS-Geospatial) the sample, and extract the .zip file.
-2. Navigate to the extracted folder, and double-click the **CustomPlugin-FS-Geospatial.sln** file to open the solution in Visual Studio.
+1. Download or clone the [samples repo](https://github.com/microsoft/Dynamics365-Apps-Samples).
+2. Navigate to the loaction where you cloned or downloaded the repo, and then to the go to the **field-service/CustomPlugin-FS-Geospatial** folder, double-click the **CustomPlugin-FS-Geospatial.sln** file to open the solution in Visual Studio.
 3. In Visual Studio, select **Build** > **Build Solution**. The NuGet packages used in the solution will download automatically if the option to restore NuGet packages automatically on building a project is enabled in Visual Studio. More information: [Enabling and disabling package restore](https://docs.microsoft.com/nuget/consume-packages/package-restore#enabling-and-disabling-package-restore) 
 
 ## After running the sample
