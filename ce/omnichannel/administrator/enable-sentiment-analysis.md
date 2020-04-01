@@ -20,9 +20,12 @@ Sentiment analysis settings in Omnichannel for Customer Service provide agents a
 
 The Sentiment Analysis Settings page contains three sections:
 
-- [Sentiment analysis](#sentiment-analysis)
-- [Agent settings](#agent-settings)
-- [Supervisor settings](#supervisor-settings)
+- [Analyze real-time customer sentiment](#analyze-real-time-customer-sentiment)
+  - [Sentiment analysis](#sentiment-analysis)
+  - [Agent settings](#agent-settings)
+  - [Supervisor settings](#supervisor-settings)
+  - [Multi-language sentiment](#multi-language-sentiment)
+    - [See also](#see-also)
 
 ## Sentiment analysis
 
@@ -106,7 +109,7 @@ To turn off supervisor notifications, select **Don't send notifications**.
 
 ## Multi-language sentiment
 
-Multi-language sentiment scoring is enabled by default. Conversations in more than 40 languages are scored. The languages are listed in the following table.
+Multi-language sentiment scoring is enabled by default. Conversations in more than 40 languages are scored. The languages listed in the following table are supported in the analytics features.
 
 <table>
 <tbody>
@@ -163,6 +166,9 @@ Vietnamese<br>
 </tbody>
 </table>
 
+> [!NOTE]
+>
+> For languages supported in the product user interface (UI), see [Language availability](../international-availability.md).
 
 ### See also
 
