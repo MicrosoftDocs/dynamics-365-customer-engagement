@@ -517,9 +517,6 @@ An alternate way of creating email is to use the enhanced email experience, whic
     > [!div class="mx-imgBorder"]  
     > ![Email tab on system settings page](../customer-service/media/email-configuration-settings.png "Email tab on system settings page with enhanced email checkbox highlighted")
 
-> [!Note]
-> - Enabling or disabling enhanced email will apply to all applications in your organization that use Timeline. 
-
 6. Select **OK**.
 
 #### Compose an email using the enhanced experience:
