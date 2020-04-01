@@ -104,7 +104,7 @@ Add the following URLs for your users to access the Omnichannel for Customer Ser
 
 If your customers are using a URL filter to block a category of websites or URLs, you might have to ask your customers to allow a specific website as an exception.
 
-Add the following URLs for your customers to access the Omnichannel for Customer Service app and live chat widget in the portal:
+Customers must be able to access the following URLs from their browsers in order to use the live chat widget in the portal:
 
 - `https://oc-cdn-ocprod.azureedge.net/livechatwidget`
 - `https://cdn.botframework.com/botframework-webchat`
