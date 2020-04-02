@@ -33,7 +33,7 @@ Make sure that the following prerequisites are met:
 
 To integrate a WeChat channel with Omnichannel for Customer Service, get the following details:
 
-- **Service Account:** **Original ID** in WeChat Service Account.
+- **Original ID:** Original ID in WeChat Service Account.
 - **Developer ID:** Application ID associated with your WeChat Service Account. 
 - **Developer password:** Application secret associated used for authentication.
 - **Token:** Customer-defined string.
@@ -81,7 +81,7 @@ Perform the following steps to create a WeChat channel:
   
 4. In **Step 2: Work distribution** > **Work Stream**, select the work stream that you created for WeChat.
 5. Select **Save**. The details are saved, and data is populated in **Step 3: Callback information**.
-6. In **Step 3: Callback information**, copy the information that is displayed in the **IP whitelist** and **Server address (URL)** boxes.
+6. Copy the information that is displayed in the **IP whitelist** and **Server address (URL)** boxes.
     > [!div class=mx-imgBorder]
     > ![Create a WeChat channel](../media/wechat-channel-config.png "Create a WeChat channel") 
 

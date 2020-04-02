@@ -1,6 +1,7 @@
 # [Omnichannel for Customer Service Guide](omnichannel-customer-service-guide.md)
 
 ## [International availability](international-availability.md)
+## [Compliance certifications](compliance-certifications.md)
 ## Get started
 ### [Introduction](introduction-omnichannel.md)
 ### [Try channels in Omnichannel for Customer Service](try-channels.md)
@@ -49,6 +50,8 @@
 ##### [Configure an SMS channel for Twilio](administrator/Configure-sms-channel-twilio.md)
 #### Social channels
 ##### [Configure a Facebook channel](administrator/configure-facebook-channel.md)
+##### [Configure a LINE channel](administrator/configure-line-channel.md)
+##### [Configure a Twitter channel](administrator/configure-twitter-channel.md)
 ##### [Configure a WhatsApp channel](administrator/configure-whatsapp-channel.md)
 #### Microsoft Teams
 ##### [Configure a Microsoft Teams channel](administrator/configure-microsoft-teams.md)
@@ -64,13 +67,14 @@
 ### Queues & Users
 #### [Work with queues](administrator/queues-omnichannel.md)
 #### [Manage users](administrator/users-user-profiles.md)
-#### [Show customers their position in queue](administrator/show-queue.md)
+#### [Show customers their position in a queue](administrator/show-queue.md)
+#### [Show customers their average wait time in a queue](administrator/average-wait-time.md)
 
-### Skill-based routing
-#### [Overview](administrator/overview-skill-work-distribution.md)
-#### [Skill-based routing and rating model](administrator/enable-skill-routing-create-rating-model.md)
-#### [Set up skills and assign agents](administrator/setup-skills-assign-agents.md)
-#### [Attach skills to conversation](administrator/attach-skills.md)
+#### Skill-based routing
+##### [Overview](administrator/overview-skill-work-distribution.md)
+##### [Skill-based routing and rating model](administrator/enable-skill-routing-create-rating-model.md)
+##### [Set up skills and assign agents](administrator/setup-skills-assign-agents.md)
+##### [Attach skills to conversation](administrator/attach-skills.md)
 
 ### Work Distribution Management
 #### [Understand and create work streams](administrator/work-streams-introduction.md)
@@ -145,8 +149,6 @@
 ##### [Use SMS channel](agent/agent-oc/sms-telesign-twilio.md)
 ##### [Use Facebook channel](agent/agent-oc/facebook.md)
 ##### [Use WhatsApp channel](agent/agent-oc/whatsapp.md)
-##### Use Twitter channel
-##### Use Line channel
 ##### [Use Teams channel](agent/agent-oc/teams-channel.md)
 ##### [Use WeChat channel](agent/agent-oc/wechat-channel.md)
 

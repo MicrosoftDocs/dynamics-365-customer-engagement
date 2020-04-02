@@ -9,7 +9,7 @@ ms.service:
   - "dynamics-365-customerservice"
 ms.topic: article
 ---
-# Preview: Configure a Microsoft Teams Channel
+# Preview: Configure a Microsoft Teams channel
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
