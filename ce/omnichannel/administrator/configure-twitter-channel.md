@@ -28,28 +28,10 @@ The Twitter channel gives you an incredible opportunity to capitalize on the soc
 
 After completing the prerequisites, you can add the Twitter channel for your organization by following these steps:
 
-1.	[Create a Twitter work stream](#step-1-create-a-twitter-work-stream)
-2.	[Create a Twitter channel and add a Twitter handle](#step-2-create-a-twitter-channel-and-add-a-twitter-handle)
-3.	[Create routing rules](#step-3-create-routing-rules)
+1. [Create a Twitter channel and add a Twitter handle](#create-a-twitter-channel-and-add-a-twitter-handle)
+2.	[Create routing rules](#create-routing-rules)
 
-## Step 1: Create a Twitter work stream
-
-1.	Sign in to Omnichannel Administration.
-
-2.	Go to **Work Distribution Management** > **Work Streams**.
-
-3.	Select **New** to create a Twitter work stream.
-
-4.	On the **Work Distribution** tab, in the **Channel** field, select **Twitter**.
-
-    > [!div class=mx-imgBorder]
-    > ![Create a Twitter work stream](../media/twitter-workstream.png "Create a Twitter work stream")
-
-5.	Specify other details as required.
-
-6.	Select **Save**.
-
-## Step 2: Create a Twitter channel and add a Twitter handle
+## Create a Twitter channel and add a Twitter handle
 
 1.	Go to **Channels** > **Twitter**.
 
@@ -87,7 +69,7 @@ After completing the prerequisites, you can add the Twitter channel for your org
     > [!NOTE]
     > If you receive a message that says pop-up windows are blocked, select to always allow them.
 
-9. **Work Stream**: Browse and select the work stream you created for the Twitter channel.
+9. **Work Stream**: Select the out-of-the-box work stream for the Twitter channel. To create a new work stream, see [Create work streams](work-streams-introduction.md).
  
 > [!div class=mx-imgBorder]
 > ![Twitter work stream](../media/twitter-create-handle.png "Twitter work stream")
@@ -100,9 +82,7 @@ After completing the prerequisites, you can add the Twitter channel for your org
   > [!NOTE]
   > You can add multiple handles to a Twitter Application channel.
  
-
-
-## Step 3: Create routing rules
+## Create routing rules
 
 1.	Go to **Work Distribution Management** > **Work Streams**.
 2.	Open the work stream you created in [Step 1](#step-1-create-a-twitter-work-stream).

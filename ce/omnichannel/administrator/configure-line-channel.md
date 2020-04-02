@@ -27,28 +27,10 @@ The LINE channel gives you an incredible opportunity to capitalize on the social
 
 After completing the prerequisites, you can add the LINE channel for your organization by following these steps:
 
-1.	[Create a LINE work stream](#step-1-create-a-line-work-stream)
-2.	[Create a LINE channel](#step-2-create-a-line-channel)
-3.	[Create routing rules](#step-3-create-routing-rules)
+1.	[Create a LINE channel](#create-a-line-channel)
+2.	[Create routing rules](#create-routing-rules)
 
-## Step 1: Create a LINE work stream
-
-1.	Sign in to Omnichannel Administration.
-
-2.	Go to **Work Distribution Management** > **Work Streams**.
-
-3.	Select **New** to create a LINE work stream.
-
-4.	On the **Work Distribution** tab, in the **Channel** field, select **LINE**.
-
-    > [!div class=mx-imgBorder]
-    > ![Create a LINE work stream](../media/line-workstream.png "Create a LINE work stream")
-
-5.	Specify other details as required.
-
-6.	Select **Save**.
-
-## Step 2: Create a LINE channel
+## Create a LINE channel
 
 1.	Go to **Channels** > **LINE**.
 
@@ -66,7 +48,9 @@ After completing the prerequisites, you can add the LINE channel for your organi
     
     - **Enable Webhooks**: Webhooks in the LINE application must be enabled. Go to the [LINE account manager](https://manager.line.biz/account/) > select **Settings** > **Response settings**, then under **Main settings**, select **Bot** for Response mode, then under **Detailed Settings**, select **Enabled** for Webhooks.
 
-4. Browse and select the workstream you created for the LINE channel, and select **Save**. After you save the record, the **LINE** channel is enabled. The Callback URL has been created. The next step is to save it.
+4. Browse and select the out-of-the-box workstream for the LINE channel, and select **Save**. After you save the record, the **LINE** channel is enabled. The Callback URL has been created. The next step is to save it.
+
+  To create a new work stream, see [Create work streams](work-streams-introduction.md).
  
 > [!div class=mx-imgBorder]
 > ![LINE Callback information](../media/line-callback-information.png "LINE Callback URL")
@@ -93,7 +77,7 @@ The LINE channel setup is complete.
 > You can only add one **LINE account** per **LINE Application** channel.
 
 
-## Step 3: Create routing rules
+## Create routing rules
 
 1.	Go to **Work Distribution Management** > **Work Streams**.
 2.	Open the work stream you created in [Step 1](#step-1-create-a-line-work-stream).
