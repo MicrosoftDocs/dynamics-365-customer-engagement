@@ -151,8 +151,8 @@
 
 ### Work with customer journeys
 #### [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)
-#### [Early access: Export to Excel for further analysis](export-journey.md)
-#### [Early access: Set expiration dates for emails](email-expire.md)
+#### [Export to Excel for further analysis](export-journey.md)
+#### [Set expiration dates for emails](email-expire.md)
 #### [Preview: Use smart scheduler to help improve email engagement](smart-scheduler.md)
 #### [Create and manage customer journey templates](journey-templates.md)
 #### [Create an inbound customer journey](create-inbound-customer-journey.md)
