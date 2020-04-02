@@ -4,7 +4,7 @@ description: Dashboards and reports provide historical operational metrics and K
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/01/2020
+ms.date: 04/03/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -23,16 +23,14 @@ search.app:
 
 [!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-## Customer Service Analytics dashboard
+## Customer Service Analytics reports
 
-The Customer Service Analytics dashboard provides information about the historical operational metrics and key performance indicators (KPIs) to effectively manage contact centers.
+The following reports are available for Customer Service Analytics:
 
-The following is an example of the Customer Service Analytics overview dashboard:  
+- Case Summary
+- Agent Summary
 
-   > [!div class=mx-imgBorder]
-   > ![Customer Service Analytics overview dashboard](media/cs-analytics-overview-dashboard.png "Customer Service Analytics overview dashboard")
-
-This section consists of the following KPIs:  
+The following KPIs are available.
 
 | KPI                       | Description         |
 |---------------------------|-------------------------|
@@ -45,7 +43,7 @@ This section consists of the following KPIs:
 |Case age                    |Average time the case was in an open state.                 |
 |Total activities            |Total activities that are created by agents                |
 
-This section also consists of the following filters:
+You can use the following filters in the reports.
 
 |Filters / Dimensions  |Description        |
 |----------------------|-------------------|
@@ -56,19 +54,10 @@ This section also consists of the following filters:
 |Subject               |Filters the reporting to the selected subject of the case.  |
 |Channel               |Filters the reporting to the selected Omnichannel channels. (Example: Chat, SMS, Facebook)  |
 
-## Customer Service Analytics reports
-
-The following reports are available for Customer Service Analytics:
-
-- Case Summary
-- Agent Summary
-
-You can filter the information by viewing the reports and selecting from Duration, Queue, Agent, Case priority, Subject, and Case status.
+When you select a filter condition, the data is automatically filtered and rendered in the report.
 
    > [!div class=mx-imgBorder]
    > ![Customer Service Analytics view and filter report](media/cs-analytics-view-filer-report.png "Customer Service Analytics view and filter report")
-
-Select the subject as needed, and information is filtered according to your selection. This helps to quickly analyze KPIs and take necessary steps to improve outcomes.
 
 > [!NOTE]
 >
