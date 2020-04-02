@@ -47,43 +47,18 @@ The WhatsApp channel feature lets you integrate WhatsApp through Twilio with Omn
 
 ## End-to-end walk-through
 
-[Step 1: Fetch Twilio account details](#step-1-fetch-twilio-account-details)
+[Step 1: Fetch Twilio account details](#fetch-twilio-account-details)
 
-[Step 2: Create a work stream](#step-2-create-a-work-stream)
+[Step 2: Create a WhatsApp channel](#create-a-whatsapp-channel)
 
-[Step 3: Create a WhatsApp channel](#step-3-create-a-whatsapp-channel)
-
-## Step 1: Fetch Twilio account details
+## Fetch Twilio account details
 
 To integrate a WhatsApp channel through Twilio with Omnichannel for Customer Service, you need to go to your Twilio account and fetch the **ACCOUNT SID** and **AUTH TOKEN** values. Save those safely. These two values are required to create a WhatsApp channel configuration in the Omnichannel Administration app.
 
 Go to your **Twilio Console Dashboard** > **Settings** > **General** to fetch the details.
 
-## Step 2: Create a work stream
 
-
-1. Sign in to Omnichannel Administrator.
-
-2. Select **Work Streams** under **Work Distribution Management**.
-
-3. Select **+ New** to create a new work stream.
-
-4. Specify the values for the fields.
-
-5. Select the **WhatsApp (preview)** option for the **Channel** field.
-
-6. Select **Save** to save the changes.
-
-You've created a work stream for the WhatsApp channel. To learn more, see [Create work streams](work-streams-introduction.md).
-
-To configure other options in the work stream, see the following:
-
-- [Skill-based routing](overview-skill-work-distribution.md)
-- [Productivity tools](productivity-tools.md)
-- [Smart assist](smart-assist.md)
-- [Templates](templates-overview.md)
-
-## Step 3: Create a WhatsApp channel
+## Create a WhatsApp channel
 
 After you create a work stream for the WhatsApp channel through Twilio, you need to create a WhatsApp channel in the Omnichannel Administrator app.
 
@@ -123,7 +98,7 @@ To create a WhatsApp channel, follow these steps:
     | Phone number details | Name | Specify a name for the WhatsApp channel. | WhatsApp phone number |
     | Phone number details | WhatsApp Account | The **WhatsApp Account** field is populated. However, you can change the value using the lookup. | WhatsApp channel |
     | Phone number details | WhatsApp Number | Specify the WhatsApp number. | 123456989 |
-    | Work distribution | Work stream | Select a work stream from the lookup. | WhatsApp channel work stream |
+    | Work distribution | Work stream | Select the out-of-the-box work stream from the lookup. <br> To create a new work stream, see [Create work streams](work-streams-introduction.md) | WhatsApp channel work stream |
 
     > [!div class=mx-imgBorder]
     > ![Create a WhatsApp channel phone number](../media/whatsapp-channel-3.png "Create a WhatsApp channel phone number")
