@@ -117,7 +117,7 @@ A customer can initiate a conversation in any of the following ways:
 
 - Twitter app on a mobile device
 - Twitter app on a desktop device
-- [www.twitter.com](www.twitter.com)
+- [www.twitter.com](https://twitter.com/)
 
 If a customer initiates a conversation from the Twitter website and then later switches to the mobile device, the previous conversation persists, and the customer can continue the conversation.
 
