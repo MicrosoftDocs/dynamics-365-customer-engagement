@@ -40,13 +40,22 @@
 ##### [Configure file attachment capability](administrator/configure-file-attachment.md)
 ##### [Embed chat widget in Power Apps portals](administrator/embed-chat-widget-portal.md)
 ##### [Configure proactive chat](administrator/proactive-chat.md)
+#### [Configure an SMS channel](administrator/configure-sms-channel.md)
+#### [Configure a Facebook channel](administrator/configure-facebook-channel.md)
+#### [Configure a WeChat channel](administrator/configure-wechat-channel.md)
+#### Entity records
 #### SMS channels
-##### [Configure an SMS channel](administrator/configure-sms-channel.md)
+##### [Configure an SMS channel for TeleSign](administrator/configure-sms-channel.md)
+##### [Configure an SMS channel for Twilio](administrator/Configure-sms-channel-twilio.md)
 #### Social channels
 ##### [Configure a Facebook channel](administrator/configure-facebook-channel.md)
 ##### [Configure a LINE channel](administrator/configure-line-channel.md)
 ##### [Configure a Twitter channel](administrator/configure-twitter-channel.md)
 ##### [Configure a WhatsApp channel](administrator/configure-whatsapp-channel.md)
+#### Microsoft Teams
+##### [Configure a Microsoft Teams channel](administrator/configure-microsoft-teams.md)
+##### [Prerequisites](administrator/configure-microsoft-teams.md#prerequisites)
+##### [Configuration steps](administrator/configure-microsoft-teams.md#configure-a-teams-channel-in-omnichannel)
 #### Custom messaging channel
 ##### [Configure a Custom messaging channel](administrator/configure-custom-channel.md)
 #### Entity records channel
@@ -59,6 +68,7 @@
 #### [Manage users](administrator/users-user-profiles.md)
 #### [Show customers their position in a queue](administrator/show-queue.md)
 #### [Show customers their average wait time in a queue](administrator/average-wait-time.md)
+
 #### Skill-based routing
 ##### [Overview](administrator/overview-skill-work-distribution.md)
 ##### [Skill-based routing and rating model](administrator/enable-skill-routing-create-rating-model.md)
@@ -135,15 +145,11 @@
 #### [View conversation and session forms](agent/agent-oc/oc-view-activity-types.md)
 #### [View customer summary for an incoming conversation request](agent/agent-oc/oc-view-customer-summary-incoming-conversation-request.md)
 #### Channels
-##### Use chat channel
-##### Use SMS channel
+##### [Use SMS channel](agent/agent-oc/sms-telesign-twilio.md)
 ##### [Use Facebook channel](agent/agent-oc/facebook.md)
 ##### [Use WhatsApp channel](agent/agent-oc/whatsapp.md)
-##### Use WeChat channel
-##### Use Line channel
-##### Use Twitter channel
-##### Use Teams channel
-##### Use entity routing channel
+##### [Use Teams channel](agent/agent-oc/teams-channel.md)
+##### [Use WeChat channel](agent/agent-oc/wechat-channel.md)
 
 ### Agents using Unified Service Desk
 #### [Overview of Unified Service Desk](agent/agent-usd/omnichannel-agent.md)

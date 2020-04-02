@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 Sales troubleshooting guide  | MicrosoftDocs"
 description: "A starting point for browsing troubleshooting content for Dynamics 365 Sales."
-ms.date: 03/24/2020
+ms.date: 03/26/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -19,7 +19,7 @@ manager: annbe
 
 <h2>Leads </h2>
 
-<li><a href="ts-leads.md#cant_qualify_lead" data-raw-source="[Ican't qualify a lead](ts-leads.md#cant_qualify_lead)">I can't qualify a lead?</a></li>
+<li><a href="ts-leads.md#cant_qualify_lead" data-raw-source="[I can't qualify a lead](ts-leads.md#cant_qualify_lead)">I can't qualify a lead</a></li>
 <li><a href="ts-leads.md#insufficientpermissions" data-raw-source="[Insufficient permissions or Access denied error when a user is trying to qualify a lead)](ts-leads.md#insufficientpermissions)">Insufficient permissions or Access denied error when a user is trying to qualify a lead</a></li>
 
 </td><td>
@@ -61,6 +61,7 @@ manager: annbe
 <h2>Views </h2>
 
 <li><a href="ts-views.md#no_data_in_views" data-raw-source="[I can't see data in certain columns in entity views](ts-views.md#no_data_in_views)">I can't see data in certain columns in entity views</a></li>
+<li><a href="ts-views.md#records_missing_in_views" data-raw-source="[I can't see some records in the entity views](ts-views.md#records_missing_in_views)">I can't see some records in the entity views</a></li>
 
 
 </td></tr>
@@ -93,7 +94,8 @@ manager: annbe
 
 </td><td>
 
+<h2>Developer</h2>
+<li><a href="developer/custom-plugin-handling-shared-variable.md" data-raw-source="[Custom plug-in handling using shared variable](developer/custom-plugin-handling-shared-variable.md)">Price calculation service gets triggered upon retrieving details from OQOI entities</a></li>
 
-</td><td>
-
-</td></tr>
+</td>
+</tr>

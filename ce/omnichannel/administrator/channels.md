@@ -4,7 +4,7 @@ description: "Learn about channels in Omnichannel for Customer Service."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 04/01/2020
+ms.date: 04/03/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -28,38 +28,38 @@ If you want to help your customers using SMS, you can use the SMS channel.
 
 There are two options:
 
-   - [SMS through Telesign](configure-sms-channel.md)
-   - [SMS through Twilio topic link will be updated here]()
+- [SMS through Telesign](configure-sms-channel.md)
+- [SMS through Twilio](configure-sms-channel-twilio.md)
 
-## Social channels 
+## Social channels
 
 If you want to help your customers using social channels, you can use the social channels.
 
-   - [Facebook](configure-facebook-channel.md)
-   - [Preview: WhatsApp through Twilio](configure-whatsapp-channel.md)
-   - [Twitter topic link will be updated here]()
-   - [WeChat topic link will be updated here]()
-   - [Line topic link will be updated here]()
-   - [WeChat topic link will be updated here]()
+ - [Facebook](configure-facebook-channel.md)
+ - [Preview: WhatsApp through Twilio](configure-whatsapp-channel.md)
+ - [Twitter](configure-twitter-channel.md)
+ - [WeChat](configure-wechat-channel.md)
+ - [LINE](configure-line-channel.md)
+
 
 ## Preview: Custom messaging channel
 
 If you want to help your customers using social channels that are not supported as standard channels, you can use the custom channels.
 
-   - Kik
-   - Telegram
+- Kik
+- Telegram
 
 To learn more, see [Configure custom messaging application](configure-custom-channel.md).
-        
+
 If you want to help your customers using your Line of Business (in-house) messaging channels, you can use the Direct Line Bot Framework method.
 
-   - [Direct Line](configure-custom-channel.md#bring-channels-using-direct-line)
+- [Direct Line](configure-custom-channel.md#bring-channels-using-direct-line)
 
 ## Preview: Microsoft Teams
 
-If you want to help your customers using standard collaboration channel, you can use Microsoft Teams channel.
+If you want to help your customers using a standard collaboration channel, you can use the Microsoft Teams channel.
 
-To learn more, see [Microsoft Teams]().
+To learn more, see [Preview: Configure Microsoft Teams](configure-microsoft-teams.md).
 
 ## Entity records
 
@@ -71,16 +71,16 @@ To learn more, see [Entity records channel](entity-channel.md).
 
 You can get the Chat for Dynamics 365 Customer Service with either of the add-on license:
 
-- [Chat for Dynamics 365 Customer Service](https://dynamics.microsoft.com/en-us/customer-service/overview/#pricing)
-- [Digital Messaging](https://dynamics.microsoft.com/en-us/customer-service/overview/#pricing)
+- [Chat for Dynamics 365 Customer Service](https://dynamics.microsoft.com/customer-service/overview/#pricing)
+- [Digital Messaging](https://dynamics.microsoft.com/customer-service/overview/#pricing)
 
 > [!Note]
 > Digital Messaging add-on license includes Chat for Dynamics 365 Customer, SMS, Facebook, and bot integration.
 
-You can get the SMS, Social channels, and Custom messaging channels with the following add-on license:
+You can get the SMS, social channels, and custom messaging channels with the following add-on license:
 
-- [Digital Messaging](https://dynamics.microsoft.com/en-us/customer-service/overview/)
+- [Digital Messaging](https://dynamics.microsoft.com/customer-service/overview/)
 
-You can get the Microsoft Teams channels with the following add-on license:
+You can get the Microsoft Teams channel with the following add-on license:
 
-- [Teams license name will be updated here]()
+- [Teams license](https://docs.microsoft.com/MicrosoftTeams/office-365-licensing)

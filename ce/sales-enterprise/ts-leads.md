@@ -77,8 +77,8 @@ The lead that you're trying to qualify isn't in the Active state. This might hap
 
 **Resolution:**
 
-1.    Open the lead record.
-2.    On the process stage, select the **Set Active** button.
+1. Open the lead record.
+2. On the process stage, select the **Set Active** button.
 
     > [!div class="mx-imgBorder"]  
     > ![Set Active button in the Qualify stage of lead form](media/set-active-button-qualify-stage.png "Set Active button in the Qualify stage of lead form")
@@ -96,7 +96,6 @@ Ask your system administrator to grant you the necessary permissions.
 
 
 If there's no error, and you're still not able to qualify a lead, contact the technical support.
-
 
 <a name="lead_qualification_for_admins"> </a> 
 ## Lead qualification issues and resolution (for system administrators)
@@ -134,8 +133,8 @@ The lead that the user is trying to qualify is in their business unit.
 
 **Resolution:**
 1.    Go to **Settings** > **Security Role**.
-2.    Open the security role of the user.
-3.    Assign **Create**, **Read**, **Append**, and **Append To** permissions to the user's Security Role at Business Unit level on the following entities:
+2. Open the security role of the user.
+3. Assign **Create**, **Read**, **Append**, and **Append To** permissions to the user's Security Role at Business Unit level on the following entities:
     -  Account 
     -  Lead
     -  Contact
@@ -143,17 +142,17 @@ The lead that the user is trying to qualify is in their business unit.
 
     ![Security role with access at Business Unit level](media/security-role-sales-person-bu-access.png "Security role with access at Business Unit level")
 
-4.    Assign **Read** access to any custom entity.
-5.    Assign **Read** access to **Attribute Map**, **Customizations**, **Entity** and **Entity Map**
+4. Assign **Read** access to any custom entity.
+5. Assign **Read** access to **Attribute Map**, **Customizations**, **Entity** and **Entity Map**
 
 <a name="Organization"> </a>
 **Scenario:**
 The lead that the user is trying to qualify is in their organization.
 
 **Resolution:**
-1.    Go to **Settings** > **Security Role**.
-2.    Open the security role of the user.
-3.    Assign **Create**, **Read**, **Append**, and **Append To** permissions to the user's Security Role at Organization level on the following entities:
+1. Go to **Settings** > **Security Role**.
+2. Open the security role of the user.
+3. Assign **Create**, **Read**, **Append**, and **Append To** permissions to the user's Security Role at Organization level on the following entities:
     -  Account 
     -  Lead
     -  Contact
@@ -161,8 +160,9 @@ The lead that the user is trying to qualify is in their organization.
  
     ![Security role with access at Organization level](media/security-role-sales-person-org-access.png "Security role with access at Organization level")
 
-4.    Assign Read access to any custom entity.
-5.    Assign Read access to **Attribute Map**, **Customizations**, **Entity** and **Entity Map**.
+4. Assign Read access to any custom entity.
+5. Assign Read access to **Attribute Map**, **Customizations**, **Entity** and **Entity Map**.
+
 
 
 ### See also

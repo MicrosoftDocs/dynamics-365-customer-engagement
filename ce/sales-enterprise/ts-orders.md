@@ -40,7 +40,7 @@ Sales order processing integration connects Dynamics 365 Sales with an external,
     > [!IMPORTANT]
     > - The **Back office order processing integration** setting is visible only when sales order processing is already enabled. 
     > - After the setting is disabled, users will no longer see this setting. 
-    > - This setting can be used only to disable sales order processing in case it was turned on unintentionally through some solution installation. This setting can't be used to turn _on_ sales order processing. To learn about turning on sales order processing, see ## [Enable sales order processing integration](developer/enable-sales-order-processing-integration.md)
+    > - This setting can be used only to disable sales order processing in case it was turned on unintentionally through some solution installation. This setting can't be used to turn _on_ sales order processing. To learn about turning on sales order processing, see [Enable sales order processing integration](developer/enable-sales-order-processing-integration.md).
 
 
 ### See also
