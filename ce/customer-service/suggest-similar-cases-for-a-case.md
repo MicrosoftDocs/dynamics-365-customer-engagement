@@ -130,7 +130,7 @@ You can view the similar case suggestions in the Related section of the Customer
 
  > [!NOTE]
  >
- > The "similar cases" action is not available in the business process flow in Customer Service Hub. As a workaround, you can customize the business process flow to add the action. For information about customizing the business process flow, see [Add an action to a business process flow](https://docs.microsoft.com/business-applications-release-notes/april18/microsoft-flow/add-action-business-process-flow).
+ > The "similar cases" action is not available in the business process flow in Customer Service Hub. As a workaround, you can customize the business process flow to add the action. For information about customizing the business process flow, see [Add an action to a business process flow](https://docs.microsoft.com/power-automate/create-business-process-flow#add-an-on-demand-action-to-a-business-process-flow).
 
 ### See also  
 

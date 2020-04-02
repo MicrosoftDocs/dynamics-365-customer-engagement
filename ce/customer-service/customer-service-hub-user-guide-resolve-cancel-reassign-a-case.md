@@ -46,7 +46,7 @@ The Customer Service Hub provides you with the ability to resolve, cancel, and r
 > [!NOTE]
 >
 > - You cannot edit or update any attribute of the case once it is resolved.
-> - The "resolve cases" action is not available in the business process flow in Customer Service Hub. As a workaround, you can customize the business process flow to add the action. For information about customizing the business process flow, see [Add an action to a business process flow](https://docs.microsoft.com/business-applications-release-notes/april18/microsoft-flow/add-action-business-process-flow).
+> - The "resolve cases" action is not available in the business process flow in Customer Service Hub. As a workaround, you can customize the business process flow to add the action. For information about customizing the business process flow, see [Add an action to a business process flow](https://docs.microsoft.com/en-us/power-automate/create-business-process-flow#add-an-on-demand-action-to-a-business-process-flow).
 
 ## Resolve a case with a parent and child relationship  
 
