@@ -87,11 +87,11 @@ Perform the following steps to install the Customer Service Insights reports:
 1. Sign in to Dynamics 365 as an administrator, and navigate to Customer Service Hub.
 2. In the **Change area**, select **Service Management** > **Settings (Preview)**. The **Analytics and insights settings** page appears.
 3. Select **Get started**. The **Install Customer Service Insights** page displays the installation process for the following:
-   - Checks whether a valid Customer Service Insights license is available in the tenant.
+   - Checks whether the administrator has a valid Customer Service Insights license to run the installation.
    - Installs the Customer Service Insights solution if the license check is passed. The following are also created:
      - **Customer Service Insights AppUser:** An application user that is used to allow Customer Service Insights to perform actions on behalf of users
      - **Customer Service Insights Configuration:** A Common Data Service entity in your organization environment that is used by admins to control the reports entry access in the site map.
-   - Generates insights and sets up reports for the administrator, if a valid license is assigned to the administrator.
+   - Generates insights and sets up reports for the administrator.
   
   The installation process might take a few minutes. You can navigate away from the page, and revisit to check the status. 
   
@@ -147,4 +147,6 @@ You can view the following reports:
 
 [Introduction to Customer Service Analytics and Insights](introduction-customer-service-analytics.md)
 
-[View and understand Customer Service Analytics and Insights](customer-service-analytics.md)
+[View and understand Customer Service Analytics and Insights in Customer Service Hub](customer-service-analytics-insights-csh.md)
+
+[View and understand Customer Service Analytics](customer-service-analytics.md)

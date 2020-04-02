@@ -21,6 +21,8 @@ search.app:
 
 # Preview: View and understand Customer Service Analytics and Insights
 
+[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 ## Customer Service Analytics dashboard
 
 The Customer Service Analytics dashboard provides information about the historical operational metrics and key performance indicators (KPIs) to effectively manage contact centers.
@@ -54,30 +56,42 @@ This section also consists of the following filters:
 |Subject               |Filters the reporting to the selected subject of the case.  |
 |Channel               |Filters the reporting to the selected Omnichannel channels. (Example: Chat, SMS, Facebook)  |
 
-### Information you need to know about Customer Service Analytics reports
+## Information you need to know about Customer Service Analytics reports
 
-The following information is applicable to the reports:
+### Reports refresh, data retention
 
-- **Data refresh:** Occurs every 24 hours. The reports are available during the refresh process.
+The following information is applicable to reports refresh:
+
+- **Data refresh:** Occurs every 24 hours. The reports are available during the refresh process. You might see a warning icon beside the **Last refresh (UTC)** label on the top right of each report when there is a delay or issue in the data refresh. When you hover the mouse over the icon, the tool tip message indicates whether the data set is up to date.
+  > [!div class=mx-imgBorder]
+  > ![Customer Service Analytics refresh status](media/cs-analytics-refresh-status.png)
+
 - **Custom refresh:** Is not available.
 - **Data refresh for inactive environments:** Data refresh is paused if the reports are not used continuously for two weeks. When a user accesses a report after a lengthy period of inactivity, the report will be refreshed in the subsequent refresh cycle.
-- **Report customizations:** Currently not supported.
 - **Data retention:** For a period of 24 months.
-- **Supported entities:**
-  - Activitypointer
-  - Appmodule
-  - Incident
-  - Incidentresolution
-  - Organization
-  - Queue
-  - Queueitem
-  - Subject
-  - Systemuser
 
-  > [!NOTE]
-  >
-  > - A report might be blank if you have customized any of the listed entities or do not use the out-of-the-box entities.
-  > - For the **Date** filter, the **Next** option will not display results in the report.
+### Report customizations
+
+Currently report customizations are not supported.
+
+### Supported entities
+
+The following entities are supported:
+
+- Activitypointer
+- Appmodule
+- Incident
+- Incidentresolution
+- Organization
+- Queue
+- Queueitem
+- Subject
+- Systemuser
+
+> [!NOTE]
+>
+> - A report might be blank if you have customized any of the listed entities or do not use the out-of-the-box entities.
+> - For the **Date** filter, the **Next** option will not display results in the report.
 
 ## Regions supported in Customer Service Analytics reports
 
@@ -152,7 +166,7 @@ The Customer Service Analytics report detail view has three views:
    > Prerequisite for the link to work: you must have either a Customer Service Hub application or Customer Service app installed from AppSource.
 
    > [!div class=mx-imgBorder]
-   > ![Customer Service Analytics case/activity list view](media/cs-analytics-case-activity-list-view.png "Customer Service Analytics case/activity list view") 
+   > ![Customer Service Analytics case/activity list view](media/cs-analytics-case-activity-list-view.png "Customer Service Analytics case/activity list view")
 
 ## View and filter report  
 
@@ -186,6 +200,17 @@ The report consist of five pivots as follows:
 - [New cases](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/dashboard-incoming-cases)
 - [Customer satisfaction](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/dashboard-csat)
 - [Resolutions](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/dashboard-case-resolutions)
+
+## Troubleshooting
+
+To troubleshoot issues when you try to access or view the reports, do the following.
+
+|   Error message    |            Action         |
+|-------------------------|------------------------|
+| Oops! No reports were found in CRM. You may not have access to these reports. Please contact your system administrator.       |   Contact your administrator to get access.     |  
+| Oops! Internal service error, please contact your system administrator with Error Code: {numeric value}.   |   Contact Microsoft Support and create a support ticket.     | 
+|   Oops! There was a problem rendering the report.   |   Refresh the report and if it doesn’t work, contact Microsoft Support and create a support ticket.     |  
+| Oops! There was a problem rendering the report, please try again.   |   Refresh the report and if it doesn’t work, contact Microsoft Support and create a support ticket    |
 
 ### See Also
 

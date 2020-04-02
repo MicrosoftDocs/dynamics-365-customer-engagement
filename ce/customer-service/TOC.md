@@ -78,7 +78,8 @@
 
 ### Customer Service Analytics and Insights
 #### [Introduction to Customer Service Analytics and Insights](introduction-customer-service-analytics.md)
-#### [View and understand Customer Service Analytics and Insights](customer-service-analytics.md)
+#### [View and understand Customer Service Analytics and Insights in Customer Service Hub](customer-service-analytics-insights-csh.md)
+#### [View and understand Customer Service Analytics](customer-service-analytics.md)
 #### [Configure Customer Service Analytics and Insights in Customer Service Hub](configure-customer-service-analytics-insights-csh.md)
 #### [Configure Customer Service Analytics in Power BI](configure-customer-service-analytics-dashboard.md)
 
