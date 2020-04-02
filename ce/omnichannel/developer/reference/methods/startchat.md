@@ -18,14 +18,11 @@ ms.topic: article
 
 ## Syntax
 
-`Microsoft.Omnichannel.LiveChatWidget.SDK.startChat(inNewWindow, windowObject);`
+`Microsoft.Omnichannel.LiveChatWidget.SDK.startChat();`
 
 ## Parameters
 
-| Parameter | Type | Required | Description |
-| ---- | ---- | ---- | ---- |
-| inNewWindow | Boolean | Optional | Set to `true` if you want to open chat in a new window. |
-| windowObject | Object | Optional | JSON object to provide dimensions of the window. |
+None
 
 ## Return Value
 
