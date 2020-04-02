@@ -1,6 +1,7 @@
 # [Omnichannel for Customer Service Guide](omnichannel-customer-service-guide.md)
 
 ## [International availability](international-availability.md)
+## [Compliance certifications](compliance-certifications.md)
 ## Get started
 ### [Introduction](introduction-omnichannel.md)
 ### [Try channels in Omnichannel for Customer Service](try-channels.md)
