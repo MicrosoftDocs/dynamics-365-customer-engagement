@@ -75,7 +75,7 @@ The Dynamics 365 Marketing April 2020 update includes several feature enhancemen
     - [Docs](export-journey.md)
 - **Improved email content designer**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-email-content-designer)
-    - Docs
+    - [Docs](email-design.md)
 - **Improved customer journey experience**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-customer-journey-experience)
     - [Docs](email-expire.md)
