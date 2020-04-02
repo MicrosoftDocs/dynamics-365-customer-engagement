@@ -78,7 +78,7 @@ Review the following prerequisites before configuring the dashboard:
 
 > [!IMPORTANT]
 >
-> If you have enabled the preview feature [sentiment drivers reporting](enable-sentiment-analysis.md#preview:Sentiment-drivers-reporting) in real-time sentiment analysis, go to the [download template app](https://go.microsoft.com/fwlink/?linkid=2124573) to install the template app.
+> If you have enabled the preview feature [sentiment drivers reporting](enable-sentiment-analysis.md#preview-sentiment-drivers-reporting) in real-time sentiment analysis, go to the [download template app](https://go.microsoft.com/fwlink/?linkid=2124573) to install the template app.
 
 3.  Select **GET IT NOW** to install the app.
 
