@@ -186,7 +186,7 @@ The sample JSON payload is given below.
     }
 }
 ```
-<a bkmk="step3"></a>
+<a name="step3"></a>
 
 3. Send the activity to the Message Relay Processor.
 
