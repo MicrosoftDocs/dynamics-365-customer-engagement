@@ -30,9 +30,9 @@ monikerRange: '>= dynamics-usd-3'
 >
 >  If enabling protected mode for intranet sites is not feasible, you must instead add the following URLs to the **Restricted Sites** security zone in Internet Explorer:
 >
-> - https://close
->   -   https://event
->   -   https://uii
+> - `http://close`
+>   -   `http://event`
+>   -   `http://uii`
 >
 > [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security zones: adding or removing websites](https://windows.microsoft.com/windows/security-zones-adding-removing-websites#1TC=windows-7)
 >

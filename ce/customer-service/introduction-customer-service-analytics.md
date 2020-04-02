@@ -25,20 +25,6 @@ As a supervisor, use analytics and insights to perform the following tasks:
 > [!NOTE]
 > Contact your system administrator for configuration errors or if you are unable to view the reports and dashboards.  
 
-## Regions supported in Customer Service Analytics reports
-
-The Customer Service Analytics reports are supported in the following regions.
-
-- North America
-- South America
-- Canada
-- Europe, except France
-- Asia Pacific, Japan
-- Australia
-- Japan
-- India
-- Great Britian
-
 ### See also
 
 [View and understand Customer Service Analytics and Insights](customer-service-analytics.md)
