@@ -175,14 +175,14 @@ The lead that the user is trying to qualify is in their organization.
 5. Assign Read access to **Attribute Map**, **Customizations**, **Entity** and **Entity Map**.
 
 <a name="auto-generation-of-fields"> </a>
-## Issues related to automatic generation of contact or company-related fields
+## Automatic generation of contact or company-related fields
 
-When a salesperson selects an existing account or contact at the time of creating a new lead, the fields related to the account or contact are automatically populated. 
+When you select an existing account or contact at the time of creating a new lead, the fields related to the account or contact are automatically populated. 
 - For the contact-related fields to be automatically populated, the default fields such as Name, Job title, business phone, Mobile phone, and Email must be empty.
 - For the company-related fields to be automatically populated, the default fields such as Address, Website and Company Name must be empty.
 
 <a name="account-contact-fields-not-populating"> </a>
-### Issue: Account or contact related fields aren't populating on the Lead form.
+### Issue: Account or contact-related fields aren't populating on the Lead form.
 
 **Resolution:** 
 
