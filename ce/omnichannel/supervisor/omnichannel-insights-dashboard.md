@@ -4,7 +4,7 @@ description: "Learn about Omnichannel Insights dashboards for supervisors"
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 02/10/2020
+ms.date: 04/06/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -58,7 +58,7 @@ Reporting structure consists of five sections:
 - [Agent](#agent)
 - [Bot insights (BYOB)](#botinsightsbyob)
 
-### Conversation 
+### Conversation
 
    This section provides historical visibility into the overall support operations across various channels: 
 
@@ -176,6 +176,29 @@ This illustration of the Omnichannel Sentiment Analysis report provides 
    |% Neutral Sentiment                  |Count of neutral sentiment zone conversations divided by total sessions.  |
    |% Negative Sentiment                 |Count of negative sentiment zone conversations divided by total sessions.  |
    |Conversations with Sentiment predication  |Count of conversations to predict the customer sentiment metrics.|
+
+## Preview: Omnichannel Insights – Sentiment Drivers Reporting
+
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
+Topics are generated when chat transcripts from Omnichannel are analyzed and grouped together and when  similarities are discovered in the conversations. These are then correlated with the sentiment so that supervisors can better understand how their customers feel about each topic on which they have interacted with the agents.
+
+   > [!div class=mx-imgBorder]
+   > ![Topics impacting sentiment](../media/topics-impacting-sentiment.png "Sentiment Analysis detailed report")
+
+   |Tile             |Description                |
+   |-----------------|---------------------------|
+   |Grid             | Displays the discovered topics from the most recent 24 hour period in which chats were processed. <br><br> [!NOTE] <br> The filters at the top of the report (duration, channel, agent, queue do not have an impact on the topic related tiles)  |
+   |Keyword           | Displays the keywords associated with a topic.  |
+   |Ribbon chart      | Displays the topics that have been discovered over the course of the most recent full week in which chats were processed.  |
+
+   
+   |KPI             |Description                |
+   |-----------------|---------------------------|
+   |Impact           |This is the extent to which conversations relating to a given topic are driving the overall sentiment up or down  |
+   |Volume  |This is the total number of chat transcripts that fall into |
+   |Avg Sentiment    | This is the average sentiment of chat transcripts that correspond to this topic
+
 
 ## Sentiment zones
 

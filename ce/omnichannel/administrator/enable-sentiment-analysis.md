@@ -6,7 +6,7 @@ ms.author: lalexms
 manager: shujoshi
 applies_to: 
   - ""
-ms.date: 04/01/2020
+ms.date: 04/03/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -22,6 +22,7 @@ The Sentiment Analysis Settings page contains three sections:
 
 - [Analyze real-time customer sentiment](#analyze-real-time-customer-sentiment)
   - [Sentiment analysis](#sentiment-analysis)
+    - [Preview: Sentiment drivers reporting](#preview-sentiment-drivers-reporting)
   - [Agent settings](#agent-settings)
   - [Supervisor settings](#supervisor-settings)
   - [Multi-language sentiment](#multi-language-sentiment)
@@ -40,12 +41,27 @@ To let agents and supervisors see the customer's satisfaction levels instantly w
 
 3. In the **Sentiment analysis** section, set the **Monitor real-time customer sentiment** toggle to **Yes**, and then select **Save**.
 
-4. Set the **Sentiment drivers reporting** toggle to **Yes**.
-
   > [!div class=mx-imgBorder]
   > ![Enable sentiment analysis](../media/monitor-real-time.png "Enable sentiment analysis")
 
 After you enable real-time customer sentiment, you can view scores in the [Omnichannel Insights dashboards](configure-historical-sentiment-dashboard-supervisor.md).
+
+### Preview: Sentiment drivers reporting
+
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
+> [!NOTE]
+> In the preview mode, this feature is not available for Government Cloud Community (GCC).
+
+After you opt in for real-time sentiment analysis, you can enable sentiment drivers reporting to gain a better understanding of the topics that are impacting your sentiment.
+
+  > [!div class=mx-imgBorder]
+  > ![Enable sentiment drivers reporting](../media/sentiment-drivers-reporting.png "Enable sentiment drivers reporting")
+
+> [!IMPORTANT]
+>
+> For this feature to work, a minimum of 10 chat conversations per day are required.
+
 
 ## Agent settings
 

@@ -1,12 +1,12 @@
 ---
 title: "Configure Omnichannel Insights dashboards | MicrosoftDocs"
 description: "How to configure the Intraday insights dashboard for Unified Service Desk and Omnichannel for Dynamics 365 Customer Service."
-author: lerobbin
-ms.author: lerobbin
-manager: autumna
+author: neeranelli
+ms.author: nenellim
+manager: shujoshi
 applies_to: 
   - ""
-ms.date: 12/27/2019
+ms.date: 04/06/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -20,7 +20,20 @@ ms.custom:
 
 Customer service managers or supervisors are responsible for managing agents who work to resolve customer queries every day through various service channels. They need to know key operational metrics to ensure that their agents are providing quality support. Omnichannel Insights consists of channels and sentiment analysis dashboards that can help with this.
 
-- [Configure Omnichannel Insights](#configure-omnichannel-insights)
+- [Configure Omnichannel Insights dashboards](#configure-omnichannel-insights-dashboards)
+  - [Configure Omnichannel Insights](#configure-omnichannel-insights)
+    - [Step 1: Review prerequisites](#step-1-review-prerequisites)
+    - [Step 2A: Install Omnichannel Insights for Dynamics 365 app](#step-2a-install-omnichannel-insights-for-dynamics-365-app)
+    - [Step 2B: Configure existing Omnichannel Insights for Dynamics 365 app](#step-2b-configure-existing-omnichannel-insights-for-dynamics-365-app)
+    - [Step 3: Connect to Omnichannel Insights for Dynamics 365 app](#step-3-connect-to-omnichannel-insights-for-dynamics-365-app)
+    - [Step 4: Configure refresh frequency on Power BI dataset](#step-4-configure-refresh-frequency-on-power-bi-dataset)
+    - [Step 5: Publish application within your organization](#step-5-publish-application-within-your-organization)
+    - [Step 6: Add Power BI Dashboards to Omnichannel for Customer Service](#step-6-add-power-bi-dashboards-to-omnichannel-for-customer-service)
+  - [Add users to supervisor configuration](#add-users-to-supervisor-configuration)
+  - [Customize Omnichannel Insights](#customize-omnichannel-insights)
+  - [Requirements](#requirements)
+  - [Prepare PBIX for customization](#prepare-pbix-for-customization)
+  - [See also](#see-also)
 
 - [Customize Omnichannel Insights](#customize-omnichannel-insights)
 
@@ -62,6 +75,10 @@ Review the following prerequisites before configuring the dashboard:
 1.	Sign in to the [Power BI](https://app.powerbi.com/) app as an administrator.
 
 2.	As a Power BI administrator, open the [Omnichannel Insights for Dynamics 365](https://aka.ms/d365-oc-insights) app page.
+
+> [!IMPORTANT]
+>
+> If you have enabled the preview feature [sentiment drivers reporting](enable-sentiment-analysis.md#preview:Sentiment-drivers-reporting) in real-time sentiment analysis, go to the [download template app](https://go.microsoft.com/fwlink/?linkid=2124573) to install the template app.
 
 3.  Select **GET IT NOW** to install the app.
 
@@ -243,6 +260,7 @@ Before customizing the template app, read the following information and perform 
 1. [Power BI service registration.](https://app.powerbi.com/)
 2. [Power BI Desktop](https://powerbi.microsoft.com/desktop/) application for editing Power BI reports.
 3. Power BI report for Omnichannel Insights template app that you want to customize. [Download the Omnichannel Insights report.](https://aka.ms/OC-Insights-pbix)
+4. Preview: [Download template app for sentiment drivers reporting](https://go.microsoft.com/fwlink/?linkid=2124573)
 
 ## Prepare PBIX for customization
 
