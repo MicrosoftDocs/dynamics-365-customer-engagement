@@ -4,7 +4,7 @@ description: "Learn about WhatsApp channel through Twilio agent experience in Om
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 04/01/2020
+ms.date: 04/03/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article

@@ -30,7 +30,7 @@ Make sure that the following prerequisites are met:
 
 ## Configure an SMS channel for Twilio in Omnichannel
 
-### Step 1: Get Twilio account details
+### Get Twilio account details
 
 An SMS channel is enabled within Omnichannel for Customer Service by integrating with Twilio. This integration uses public APIs of Twilio for sending and receiving text messages.
 
@@ -41,7 +41,7 @@ An SMS channel is enabled within Omnichannel for Customer Service by integrating
 >
 > In this release, only long code type US phone numbers are supported.
 
-### Step 2: Create a work stream
+### Create a work stream
 
 Perform the following steps to create a work stream for the SMS channel for Twilio:
 
@@ -82,7 +82,7 @@ Perform the following steps to create a work stream for the SMS channel for Twil
     > - [Smart assist](smart-assist.md)
     > - [Templates](templates-overview.md)
 
-### Step 3: Establish connection between Omnichannel and the Twilio account
+### Establish connection between Omnichannel and the Twilio account
 
 Perform the following steps to configure the URL in Twilio for the SMS messages from Omnichannel to be processed in Twilio:
 

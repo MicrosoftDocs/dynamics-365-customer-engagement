@@ -48,9 +48,9 @@ After completing the prerequisites, you can add the LINE channel for your organi
     
     - **Enable Webhooks**: Webhooks in the LINE application must be enabled. Go to the [LINE account manager](https://manager.line.biz/account/) > select **Settings** > **Response settings**, then under **Main settings**, select **Bot** for Response mode, then under **Detailed Settings**, select **Enabled** for Webhooks.
 
-4. Browse and select the out-of-the-box workstream for the LINE channel, and select **Save**. After you save the record, the **LINE** channel is enabled. The Callback URL has been created. The next step is to save it.
+4. Browse and select the out-of-the-box work stream for the LINE channel, and select **Save**. After you save the record, the **LINE** channel is enabled. The Callback URL has been created. The next step is to save it.
 
-  To create a new work stream, see [Create work streams](work-streams-introduction.md).
+  To create a work stream, see [Create work streams](work-streams-introduction.md).
  
 > [!div class=mx-imgBorder]
 > ![LINE Callback information](../media/line-callback-information.png "LINE Callback URL")
@@ -75,7 +75,6 @@ More information about the LINE app: [Setting up your LINE app](https://develope
 The LINE channel setup is complete.
 > [!NOTE]
 > You can only add one **LINE account** per **LINE Application** channel.
-
 
 ## Create routing rules
 

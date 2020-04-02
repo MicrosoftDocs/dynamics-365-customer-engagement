@@ -4,7 +4,7 @@ description: "Learn about the WhatsApp channel through Twilio and how to configu
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 04/01/2020
+ms.date: 04/03/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -17,14 +17,14 @@ ms.topic: article
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 > [!IMPORTANT]
+>
 > - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided “as-is,” “with all faults,” “as available,” and without warranty.​
 > - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
 > - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../../legal/dynamics-insider-agreement.md).
 
-
 ## Overview of WhatsApp channel through Twilio
 
-Many customers use social messaging channels like WhatsApp for their personal communication needs. Customer expectations are rising, and many prefer using the WhatsApp channel to engage with businesses. Expectations of customer service via social channels such as WhatsApp are rising to the point that customers now expect the same level of service from WhatsApp that they’re used to from call and live chat. 
+Many customers use social messaging channels like WhatsApp for their personal communication needs. Customer expectations are rising, and many prefer using the WhatsApp channel to engage with businesses. Expectations of customer service via social channels such as WhatsApp are rising to the point that customers now expect the same level of service from WhatsApp that they’re used to from call and live chat.
 
 The success of social media customer service, like all other customer service, depends on the quality of care provided. Communications from agents should be timely, accurate, sensitive, brief, and friendly, which ultimately improves the customer satisfaction and brand loyalty.
 
@@ -32,18 +32,20 @@ The WhatsApp channel feature lets you integrate WhatsApp through Twilio with Omn
 
 ## Prerequisites
 
-- Make sure channels are provisioned in your environment.
+- Make sure channels are provisioned in your environment. For information, see [Provision Omnichannel for Customer Service](omnichannel-provision-license.md).
+  > [!NOTE]
+  >
+  > To enable the Twilio channel in an existing Omnichannel environment, you must upgrade to the latest version of Omnichannel for Customer Service. For information, [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md).
 
 - Obtain a Twilio account with appropriate subscription.
 
-- Connect Twilio Number to your WhatsApp Business Profile. To learn more, see [Connect your Twilio Number to your WhatsApp Business Profile](https://www.twilio.com/docs/sms/whatsapp/tutorial/connect-number-business-profile). 
+- Connect Twilio Number to your WhatsApp Business Profile. To learn more, see [Connect your Twilio Number to your WhatsApp Business Profile](https://www.twilio.com/docs/sms/whatsapp/tutorial/connect-number-business-profile).
 
 ## WhatsApp message type and 24 hours session rule
 
 - **Session messages**: According to WhatsApp, session messages are incoming messages from a customer or outgoing replies by an agent to the incoming messages, within 24 hours. A messaging session starts when agents receive a message from a customer. It lasts for 24 hours from the most recently received message. Session messages do not need to follow a template, and can include media attachments.
 
 - **24 hours session rule**: A messaging session starts when an agent receives a message from a customer or replies to the incoming message from the customer. When a customer sends a message, the agent has 24 hours to reply from the time the agent received it. However, after 24 hours, if the agent tries to send a message to the customer, an error is displayed, saying **This conversation has exceeded the 24 hour limit to respond to the customer.**
-
 
 ## End-to-end walk-through
 
