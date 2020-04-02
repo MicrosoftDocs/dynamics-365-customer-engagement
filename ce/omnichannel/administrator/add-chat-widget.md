@@ -37,6 +37,7 @@ ms.topic: article
     | Chat Transcripts | Email Template |If you selected **Yes** for the **Allow email of transcript** field, the **Email Template** field is displayed. Select the email template you want to use to send the chat transcript as an email to the customer. | Conversation transcript email template |
     | Chat Transcripts | From mailbox | If you selected **Yes** for the **Allow email of transcript** field, the **"From" mailbox** field is displayed. Select the mailbox from which you want to send the chat transcript email to the customer. | Contoso |
     | Customer waiting | Show position in queue | Select whether to show customers their position in the queue when they're waiting to interact with an agent. <br> More information: [Show customers their position in a queue](show-queue.md) | Yes |
+    | Customer waiting | Show average wait time| Select whether to show customers their position in the queue when they're waiting to interact with an agent. <br> More information: [Show customers average wait time](show-wait-time.md) | Yes |    
     | Code snippet | Widget snippet | Copy the snippet and embed it in the HTML source of your website where you need to display the chat widget. |  |
 
     > [!div class=mx-imgBorder]
