@@ -4,7 +4,7 @@ description: "Learn what a custom channel is and how to configure the channel in
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 04/01/2020
+ms.date: 04/03/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -164,11 +164,12 @@ If you want to help your customers using your line-of-business (in-house) messag
 
 The Bot Framework **Direct Line** channel helps you to integrate your line-of-business (in-house) messaging channels into the Omnichannel for Customer Service app.
 
-For more information, see [Here, link will updated for the dev topic (Sushant sikka is the owner of dev docs)]().
+For more information, see [Bring your own channel](../developer/how-to/bring-your-own-channel.md).
 
 ## See also
 
 [Skill-based routing](overview-skill-work-distribution.md)<br>
+[Bring your own channel](../developer/how-to/bring-your-own-channel.md)<br />
 [Productivity tools](productivity-tools.md)<br>
 [Smart assist](smart-assist.md)<br>
 [Templates](templates-overview.md)
