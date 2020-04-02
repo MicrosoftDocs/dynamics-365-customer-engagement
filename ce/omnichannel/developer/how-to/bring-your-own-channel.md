@@ -4,7 +4,7 @@ description: "This topic provides information on how you can integrate custom me
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 04/01/2020
+ms.date: 04/03/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: reference
@@ -20,7 +20,7 @@ ms.topic: reference
 > - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
 > - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../../../legal/dynamics-insider-agreement.md).
 
-Omnichannel for Customer Service allows you to implement a connector to integrate custom messaging channels by using Direct Line Bot. The complete [sample code](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/bring-your-own-channel)<!--note from editor: Link gives 404 error; it will work soon? --> illustrates how you can create your own connector. This sample uses Direct Line API 3.0 as part of .NET SDK to create a direct line client and the channel adapter explained below to build a sample connector.
+Omnichannel for Customer Service allows you to implement a connector to integrate custom messaging channels by using Direct Line Bot. The complete [sample code](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/bring-your-own-channel) illustrates how you can create your own connector. This sample uses Direct Line API 3.0 as part of .NET SDK to create a direct line client and the channel adapter explained below to build a sample connector.
 
 ## Components
 
@@ -186,6 +186,7 @@ The sample JSON payload is given below.
     }
 }
 ```
+<a bkmk="step3"></a>
 
 3. Send the activity to the Message Relay Processor.
 
@@ -195,7 +196,7 @@ After building the activity payload, it calls the Message Relay Processor's Post
 
 The relay processor invokes the event handler to send outbound activities to the respective channel adapter, and the adapter then processes the outbound activities. The channel adapter does following steps:
 
-1. Convert outbound activities to the channel response model.<!--note from editor: Okay to restart numbering? Since this is a new section.-->
+1. Convert outbound activities to the channel response model.
 
 The direct line activities are converted to the channel-specific response model.
 
@@ -407,9 +408,8 @@ private async Task PollActivitiesFromBotAsync(string conversationId, Activity in
  }
  ```
 
-II. If the conversation is active for the activity received by the relay processor, it does step 3 mentioned above<!--note from editor: Can you make this a link to the step? -->.
+II. If the conversation is active for the activity received by the relay processor, it does [step 3](#step3) mentioned above.
 
-<!--note from editor: Wouldn't the following paragraph be perfect for the introduction? I'm not sure why it's down here.-->
 This page briefly explained how a channel is connected to the Microsoft Direct Line Bot Framework, which is internally attached to OmniChannel for Customer Service. This source code and documentation describe the overall flow of how the channel can connect to OmniChannel for Customer Service through direct line, and doesn't focus on aspects of reliability and scalability.
 
 For information about how to configure a custom messaging channel, see [Configure custom messaging channel](../../administrator/configure-custom-channel.md).
