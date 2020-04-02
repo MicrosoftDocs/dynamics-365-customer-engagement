@@ -59,7 +59,8 @@ Key new features in Dynamics 365 Channel Integration Framework version 2.0 inclu
 
   More information: [Support for multiple providers](support-multiple-providers.md).
 
-  For information on how to integrate social and custom messaging channels, see [Bring your own channel](../../../omnichannel/developer/how-to/bring-your-own-channel.md).
+  > [!IMPORTANT]
+  > For information on how to integrate social and custom messaging channels, see [Bring your own channel](../../../omnichannel/developer/how-to/bring-your-own-channel.md).
 
 Additional capabilities offered by Dynamics 365 Channel Integration Framework include:
 
@@ -115,5 +116,7 @@ Additional capabilities offered by Dynamics 365 Channel Integration Framework in
 [FAQ](../faq-channel-integration-framework.md)
 
 [Get Dynamics 365 Channel Integration Framework](get-channel-integration-framework.md)
+
+[Support multiple providers](support-multiple-providers.md)
 
 [Bring your own channel](../../../omnichannel/developer/how-to/bring-your-own-channel.md)
