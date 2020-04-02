@@ -23,9 +23,9 @@ search.app:
 
 # What's new in Dynamics 365 Marketing
 
-We're excited to announce our newest updates! This article summarizes early access features, preview features, monthly general availability enhancements, and bug fixes. To see long-term feature plans, take a look at the [Dynamics 365 and Power Platform release plans](https://docs.microsoft.com/dynamics365/release-plans/).
+We're excited to announce our newest updates! This article summarizes early access features, preview features, general availability enhancements, monthly feature updates, and bug fixes. To see the long-term feature plans, take a look at the [Dynamics 365 and Power Platform release plans](https://docs.microsoft.com/dynamics365/release-plans/).
 
-Microsoft rolls out updates on a region-by-region basis. Updates are available to all regions by the end of the month. We recommend updating all Marketing instances as soon as an update is available.  To update your instances, follow the steps in [Keep Marketing up to date](apply-updates.md). To ensure your Marketing apps are up to date, you must manually update each Marketing instance.
+We roll out updates on a region-by-region basis. Updates are available to all regions by the end of the month. We recommend updating all Marketing instances as soon as an update is available.  To update your instances, follow the steps in [Keep Marketing up to date](apply-updates.md). To ensure your Marketing apps are up to date, you must manually update each Marketing instance.
 
 > [!Note]
 > To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20Marketing).
@@ -63,7 +63,7 @@ The Dynamics 365 Marketing April 2020 update includes several feature enhancemen
     - Docs
 - **Improved segment design and management**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-segment-design-management)
-    - Docs
+    - [Docs](segmentation-lists-subscriptions.md)
 - **Spam checker**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/spam-checker)
     - [Docs](spam-checker.md)
@@ -72,13 +72,13 @@ The Dynamics 365 Marketing April 2020 update includes several feature enhancemen
     - Docs
 - **Export marketing results data to Excel for further analysis**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/export-data-excel-further-analysis)
-    - Docs
+    - [Docs](export-journey.md)
 - **Improved email content designer**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-email-content-designer)
     - Docs
 - **Improved customer journey experience**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-customer-journey-experience)
-    - Docs
+    - [Docs](email-expire.md)
 
 ### Monthly feature updates
 
