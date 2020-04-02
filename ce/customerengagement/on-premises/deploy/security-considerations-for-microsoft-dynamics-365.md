@@ -135,6 +135,8 @@ manager: kvivek
 -   Domain Users membership.  
   
 -   That account must be granted the `Logon as service` permission in the Local Security Policy.  
+
+-   That account must be granted membership of 'Backup Operators' group on the server hosting this service.
   
 -   Read permission to the `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSCRM`  
   
