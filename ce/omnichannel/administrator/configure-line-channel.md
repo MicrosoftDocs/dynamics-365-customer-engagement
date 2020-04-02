@@ -80,7 +80,7 @@ The LINE channel setup is complete.
 ## Create routing rules
 
 1.	Go to **Work Distribution Management** > **Work Streams**.
-2.	Open the work stream you created in [Step 1](#step-1-create-a-line-work-stream).
+2.	Open the out-of-the-work stream or the one you created.
 3.	On the **Routing rules items** tab, create a routing rule to transfer the message to an appropriate agent. Select the entity as **LINE Engagement Context**. For example, you can create a rule to transfer LINE chat from a customer named LINE to the default queue.
  
 > [!div class=mx-imgBorder]
