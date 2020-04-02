@@ -1,6 +1,6 @@
 ---
 title: "Initiate a chat | Microsoft Docs"
-description: ""
+description: "Read how you can start a chat using the startChat API"
 author: susikka
 ms.author: susikka
 manager: shujoshi
@@ -23,7 +23,7 @@ Follow these steps to start a chat:
 >
 > **Sample widget code snippet to hide chat button**
 >
-> `<script id="Microsoft_Omnichannel_LCWidget" src="<valid-src>" data-app-id="<valid-app-id>>" data-org-id="<valid-org-id>>" data-org-url="<valid-org-url>" data-hide-chat-button="true"></script>`  
+> `<script id="Microsoft_Omnichannel_LCWidget" src="<valid-src>" data-app-id="<valid-app-id>" data-org-id="<valid-org-id>" data-org-url="<valid-org-url>" data-hide-chat-button="true"></script>`  
 
 ## Sample code
 
@@ -56,4 +56,5 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 ### See also
 
 [startChat](../reference/methods/startChat.md)<br />
-[JavaScript API reference for Live chat SDK](../omnichannel-reference.md)
+[JavaScript API reference for Live chat SDK](../omnichannel-reference.md)<br />
+[Customize chat widget](customize-chat-widget.md)
