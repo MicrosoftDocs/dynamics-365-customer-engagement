@@ -1,13 +1,12 @@
 ---
 title: "msdyn_cannedmessage Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_cannedmessage entity."
+ms.date: 03/23/2020
+ms.service: "crm-online"
+ms.topic: "reference"
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
-ms.date: 08/29/2019
-ms.service: 
-  - crm-online
-ms.topic: "reference"
 ---
 # msdyn_cannedmessage Entity Reference
 
@@ -56,6 +55,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [msdyn_cannedmessageId](#BKMK_msdyn_cannedmessageId)
 - [msdyn_Locale_Field](#BKMK_msdyn_Locale_Field)
 - [msdyn_message](#BKMK_msdyn_message)
+- [msdyn_tagscontrolfield](#BKMK_msdyn_tagscontrolfield)
 - [msdyn_title](#BKMK_msdyn_title)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [statecode](#BKMK_statecode)
@@ -99,7 +99,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|The locale of a canned message|
 |DisplayName|Locale|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -111,17 +111,39 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Value|Label|
 |-----|-----|
+|1025|ar-SA|
+|1026|bg-BG|
+|1027|ca-ES|
+|1029|cs-CZ|
 |1030|da-DK|
 |1031|de-DE|
+|1032|el-GR|
 |1033|en-US|
+|1035|fi-FI|
 |1036|fr-FR|
+|1037|he-IL|
+|1038|hu-HU|
 |1040|it-IT|
 |1041|ja-JP|
+|1042|ko-KR|
 |1043|nl-NL|
 |1044|nb-NO|
+|1045|pl-PL|
 |1046|pt-BR|
+|1048|ro-RO|
+|1049|ru-RU|
+|1050|hr-HR|
 |1053|sv-SE|
+|1054|th-TH|
+|1055|tr-TR|
+|1057|id-ID|
+|1058|uk-UA|
+|1061|et-EE|
+|1081|hi-IN|
+|1110|gl-ES|
+|2052|zh-CN|
 |2070|pt-PT|
+|3076|zh-HK|
 |3082|es-ES|
 
 
@@ -130,7 +152,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Canned message text|
 |DisplayName|Message|
 |Format|Text|
 |IsLocalizable|False|
@@ -140,6 +162,24 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |MaxLength|4000|
 |RequiredLevel|ApplicationRequired|
 |Type|Memo|
+
+
+### <a name="BKMK_msdyn_tagscontrolfield"></a> msdyn_tagscontrolfield
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Dummy field to render the tags control|
+|DisplayName|TagsControlField|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_tagscontrolfield|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_title"></a> msdyn_title
@@ -561,6 +601,34 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|BigInt|
 
+<a name="manytomany"></a>
+
+## Many-To-Many Relationships
+
+Relationship details provided where the msdyn_cannedmessage entity is the first entity in the relationship. Listed by **SchemaName**.
+
+
+### <a name="BKMK_msdyn_msdyn_cannedmessage_liveworkstream"></a> msdyn_msdyn_cannedmessage_liveworkstream
+
+IntersectEntityName: msdyn_msdyn_cannedmessage_liveworkstream<br />
+#### Entity 1
+
+|Property|Value|
+|--------|-----|
+|IntersectAttribute|msdyn_cannedmessageid|
+|IsCustomizable|True|
+|LogicalName|msdyn_cannedmessage|
+|NavigationPropertyName|msdyn_msdyn_cannedmessage_liveworkstream|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+
+#### Entity 2
+
+|Property|Value|
+|--------|-----|
+|LogicalName|msdyn_liveworkstream|
+|IntersectAttribute|msdyn_liveworkstreamid|
+|NavigationPropertyName|msdyn_msdyn_cannedmessage_liveworkstream|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 
 
 ### See also

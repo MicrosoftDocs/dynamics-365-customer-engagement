@@ -4,7 +4,7 @@ description:
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 07/01/2019
+ms.date: 03/11/2020
 ms.topic: article
 ---
 # startChat

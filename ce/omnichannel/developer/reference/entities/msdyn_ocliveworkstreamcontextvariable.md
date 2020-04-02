@@ -1,13 +1,12 @@
 ---
 title: "msdyn_ocliveworkstreamcontextvariable Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_ocliveworkstreamcontextvariable entity."
+ms.date: 03/24/2020
+ms.service: "crm-online"
+ms.topic: "reference"
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
-ms.date: 08/29/2019
-ms.service: 
-  - crm-online
-ms.topic: "reference"
 ---
 # msdyn_ocliveworkstreamcontextvariable Entity Reference
 
@@ -100,7 +99,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Data type of context variable (int, string, entity reference)|
 |DisplayName|Type|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -122,7 +121,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Display Name for context variable.|
 |DisplayName|Display Name|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -138,7 +137,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Logical Name of Entity Reference.|
 |DisplayName|Entity Logical Name|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -154,7 +153,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|(Currently Unused)|
 |DisplayName|Displayable|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -177,7 +176,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|(Currently Unused)|
 |DisplayName|IsList|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -200,7 +199,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|(Currently Unused)|
 |DisplayName|Modifiable|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -223,7 +222,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|(Currently Unused)|
 |DisplayName|System Defined|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -246,7 +245,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Unique identifier of the associated workstream|
 |DisplayName|Work stream|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -290,7 +289,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Name of the relationship between LiveWorkItem and Referenced Entity|
 |DisplayName|Relation Ship Name|
 |FormatName|Text|
 |IsLocalizable|False|

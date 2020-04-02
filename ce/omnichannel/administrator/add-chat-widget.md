@@ -36,7 +36,8 @@ ms.topic: article
     | Chat Transcripts | Allow email of transcript |Select whether to allow chat transcripts to be emailed. <br> More information: [Configure download and email of chat transcripts](download-email-chat-transcripts.md) | Yes |
     | Chat Transcripts | Email Template |If you selected **Yes** for the **Allow email of transcript** field, the **Email Template** field is displayed. Select the email template you want to use to send the chat transcript as an email to the customer. | Conversation transcript email template |
     | Chat Transcripts | From mailbox | If you selected **Yes** for the **Allow email of transcript** field, the **"From" mailbox** field is displayed. Select the mailbox from which you want to send the chat transcript email to the customer. | Contoso |
-    | Queue position | Show position in queue | Select whether to show customers their position in the queue when they're waiting to interact with an agent. <br> More information: [Show customers their position in a queue](show-queue.md) | Yes |
+    | Customer waiting | Show position in queue | Select whether to show customers their position in the queue when they're waiting to interact with an agent. <br> More information: [Show customers their position in a queue](show-queue.md) | Yes |
+    | Customer waiting | Show average wait time| Select whether to show customers average wait time in the queue when they're waiting to interact with an agent. <br> More information: [Show customers their average wait time in a queue](average-wait-time.md) | Yes |    
     | Code snippet | Widget snippet | Copy the snippet and embed it in the HTML source of your website where you need to display the chat widget. |  |
 
     > [!div class=mx-imgBorder]
@@ -82,19 +83,29 @@ ms.topic: article
     |---------------|------------------------|-----------------------------------|---------------------|
     |Voice and video calls | Call options | Select a call option from the list: <ul>**No calling**: <br>Agents can't make voice or video calls. </ul><br> <ul>**Video and voice calling**:<br> Agents can make both voice and video calls. </ul><br><ul>**Voice only**:<br> Agents can make only voice calls.  </ul>| Video and voice calling |
     | Visual engagement | Screen sharing | Select whether to enable third-party screen sharing. You must install a third-party provider from AppSource to use the feature. | Enabled |
-    | Visual engagement | Screen sharing provider | Select the provider from the list.| Screen sharing_provider|
+    | Visual engagement | Screen sharing provider | Select the provider from the list.| *Screen sharing provider* |
     | Visual engagement | Co-browse | Select whether to enable third-party co-browse. You must install a third-party provider from AppSource to use the feature. | Enabled |
-    | Visual engagement | Co-browse provider | Select the provider from the list. | Co-browse_provider |
-
+    | Visual engagement | Co-browse provider | Select the provider from the list. | *Co-browse provider* |
+    
    > [!div class=mx-imgBorder]
    > ![Enable third-party co-browse and screen sharing through conversation options in a chat widget](../media/chat-widget-conversation-options.png "Enable third-party co-browse and screen sharing through conversation options in a chat widget")
         
    > [!NOTE]
-   > You can select one co-browse provider and/or one screen-sharing provider for each chat widget. 
+   > You can select one co-browse provider and/or one screen sharing provider for each chat widget. Only co-browse and screen sharing providers that have published a solution on AppSource will appear in the drop-down lists. 
 
-10. Select **Save** to save the configurations.
+10. On the **Custom messages** tab, view and add custom system messages that will appear in the chat widget. More information: [Set up custom messages](chat-custom-messages.md)
 
-After you configure, agents can get the capabilities while they are in a conversation with the communication. To learn more, see [Call options and visual engagement in live chat](../agent/agent-oc/call-options-visual-engagement.md).
+   > [!div class=mx-imgBorder]
+   > ![Custom messages in a chat widget](../media/oc-chat-widget-custom-messages-tab.png "View and add custom messages in a chat widget")
+
+11. On the **Related** tab, view activity associated with your chat widget, such as survey responses, chat widget locations, and system messages. More information: [Related tab](chat-related.md)
+
+   > [!div class=mx-imgBorder]
+   > ![Related chat widget activity](../media/oc-chat-widget-related-tab.png "Related chat widget activity")
+
+12. Select **Save** to save the configurations.
+
+After you configure, agents can get the capabilities while they are in a conversation. To learn more, see [Call options and visual engagement in live chat](../agent/agent-oc/call-options-visual-engagement.md).
 
 ### See also
 

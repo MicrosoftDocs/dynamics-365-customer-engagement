@@ -1,13 +1,15 @@
 ---
 title: "msdyn_ocliveworkitemsentiment Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_ocliveworkitemsentiment entity."
+ms.date: 03/23/2020
+ms.service: "crm-online"
+ms.topic: "reference"
+applies_to: 
+  - "Dynamics 365 (online)"
+ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
-ms.date: 08/29/2019
-ms.service: 
-  - crm-online
-ms.topic: "reference"
 ---
 # msdyn_ocliveworkitemsentiment Entity Reference
 
@@ -62,6 +64,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_ocliveworkitemid](#BKMK_msdyn_ocliveworkitemid)
 - [msdyn_ocliveworkitemsentimentId](#BKMK_msdyn_ocliveworkitemsentimentId)
+- [msdyn_predictedlanguage](#BKMK_msdyn_predictedlanguage)
 - [msdyn_SentimentModelVersion](#BKMK_msdyn_SentimentModelVersion)
 - [msdyn_SentimentPulse](#BKMK_msdyn_SentimentPulse)
 - [msdyn_SentimentTransition](#BKMK_msdyn_SentimentTransition)
@@ -134,6 +137,24 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |LogicalName|msdyn_ocliveworkitemsentimentid|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
+
+
+### <a name="BKMK_msdyn_predictedlanguage"></a> msdyn_predictedlanguage
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|The language predicted by the AI model|
+|DisplayName|Predicted language|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_predictedlanguage|
+|MaxLength|100|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_SentimentModelVersion"></a> msdyn_SentimentModelVersion

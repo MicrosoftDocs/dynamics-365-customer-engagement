@@ -1,6 +1,7 @@
 # [Omnichannel for Customer Service Guide](omnichannel-customer-service-guide.md)
 
 ## [International availability](international-availability.md)
+## [Compliance certifications](compliance-certifications.md)
 ## Get started
 ### [Introduction](introduction-omnichannel.md)
 ### [Try channels in Omnichannel for Customer Service](try-channels.md)
@@ -40,16 +41,16 @@
 ##### [Configure file attachment capability](administrator/configure-file-attachment.md)
 ##### [Embed chat widget in Power Apps portals](administrator/embed-chat-widget-portal.md)
 ##### [Configure proactive chat](administrator/proactive-chat.md)
-#### [Configure an SMS channel](administrator/configure-sms-channel.md)
-#### [Configure a Facebook channel](administrator/configure-facebook-channel.md)
-#### [Configure a WeChat channel](administrator/configure-wechat-channel.md)
 #### Entity records
 #### SMS channels
 ##### [Configure an SMS channel for TeleSign](administrator/configure-sms-channel.md)
 ##### [Configure an SMS channel for Twilio](administrator/Configure-sms-channel-twilio.md)
 #### Social channels
 ##### [Configure a Facebook channel](administrator/configure-facebook-channel.md)
+##### [Configure a LINE channel](administrator/configure-line-channel.md)
+##### [Configure a Twitter channel](administrator/configure-twitter-channel.md)
 ##### [Configure a WhatsApp channel](administrator/configure-whatsapp-channel.md)
+##### [Configure a WeChat channel](administrator/configure-wechat-channel.md)
 #### Microsoft Teams
 ##### [Configure a Microsoft Teams channel](administrator/configure-microsoft-teams.md)
 ##### [Prerequisites](administrator/configure-microsoft-teams.md#prerequisites)
@@ -64,13 +65,14 @@
 ### Queues & Users
 #### [Work with queues](administrator/queues-omnichannel.md)
 #### [Manage users](administrator/users-user-profiles.md)
-#### [Show customers their position in queue](administrator/show-queue.md)
+#### [Show customers their position in a queue](administrator/show-queue.md)
+#### [Show customers their average wait time in a queue](administrator/average-wait-time.md)
 
-### Skill-based routing
-#### [Overview](administrator/overview-skill-work-distribution.md)
-#### [Skill-based routing and rating model](administrator/enable-skill-routing-create-rating-model.md)
-#### [Set up skills and assign agents](administrator/setup-skills-assign-agents.md)
-#### [Attach skills to conversation](administrator/attach-skills.md)
+#### Skill-based routing
+##### [Overview](administrator/overview-skill-work-distribution.md)
+##### [Skill-based routing and rating model](administrator/enable-skill-routing-create-rating-model.md)
+##### [Set up skills and assign agents](administrator/setup-skills-assign-agents.md)
+##### [Attach skills to conversation](administrator/attach-skills.md)
 
 ### Work Distribution Management
 #### [Understand and create work streams](administrator/work-streams-introduction.md)
@@ -145,8 +147,6 @@
 ##### [Use SMS channel](agent/agent-oc/sms-telesign-twilio.md)
 ##### [Use Facebook channel](agent/agent-oc/facebook.md)
 ##### [Use WhatsApp channel](agent/agent-oc/whatsapp.md)
-##### Use Twitter channel
-##### Use Line channel
 ##### [Use Teams channel](agent/agent-oc/teams-channel.md)
 ##### [Use WeChat channel](agent/agent-oc/wechat-channel.md)
 
@@ -262,6 +262,8 @@
 #### [Enable a bot to escalate and end conversation](developer/bot-escalate-end-conversation.md)
 #### [Auto-close a conversation](developer/auto-close-conversation.md)
 #### [Build a custom smart assist bot](developer/how-to/smart-assist-bot.md)
+#### [Bring your own channel](developer/how-to/bring-your-own-channel.md)
+#### [Customize chat widget](developer/how-to/customize-chat-widget.md)
 ### Entity reference
 #### [Overview](developer/reference/entities/overview.md)
 #### [Deprecated entities](developer/reference/entities/deprecated-entities.md)
