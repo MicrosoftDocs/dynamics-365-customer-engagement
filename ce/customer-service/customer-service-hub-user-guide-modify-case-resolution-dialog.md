@@ -12,8 +12,6 @@ manager: shujoshi
 
 # Modify case resolution dialog box
 
-[!include[cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
-
 Updates to the case resolution main form dialog box provides customers with additional functionality to support case resolution entities and edit the dialog box. This new functionality provides a powerful construct to expand the case resolution entity to support business needs that enable users to add and remove fields instantly without writing a single line of code.
 
 The new Main Form Dialog experience is similar to the old experience, but behind the scenes, this is a form which customers can quickly edit. Customers can go to the form designer and edit and modify fields according to their business needs.
@@ -26,7 +24,6 @@ Use the following steps to get started:
   - Case Entity (status code)
   - Case Resolution entity (Resolution Type Code)
 - **Step 4:** Edit Form 
-
 
 ## Permissions
 
@@ -59,7 +56,7 @@ Perform the following steps to enable Customizable dialog:
 > [!NOTE]
 > The default setting is **Standard Dialog**. You must select the **Customizable Dialog** option, otherwise changes made to the form will be saved, but will not be displayed at runtime. 
 
-## Status Values 
+## Status Values
 
 After you set your permissions and enable customizable dialog, you can create status values in your form. 
 
@@ -82,7 +79,7 @@ To go to the **Customization** page:
    > ![Status Values - Select Settings](media/status-values-step-1.PNG)
 
 **Step 2:** In the Power Platform Admin center **Settings** page, select **All legacy settings**.
-    
+
    > [!div class=mx-imgBorder]
    > ![Status Values - Select All Legacy settings](media/status-values-step-2.PNG)
 

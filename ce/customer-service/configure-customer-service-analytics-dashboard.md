@@ -14,7 +14,7 @@ applies_to:
   - ""
 ---
 
-# Configure Customer Service Analytics dashboards
+# Configure Customer Service Analytics dashboards in Power BI
 
 You must perform the following steps to configure the historical Customer Service Analytics dashboards to display in the Customer Service Hub app:
 
@@ -36,7 +36,7 @@ You must perform the following steps to configure the historical Customer Servic
 
 Review the following prerequisites before configuring the supervisor dashboard:
 
-- You have administrative privileges for Dynamics 365 and Power BI.
+- You have administrative privileges for Dynamics 365 and Microsoft Power BI.
 - You have a Power BI Pro license for all supervisors.
 - Service Root URL of your Dynamics 365 instance.
 

@@ -66,6 +66,7 @@
 ### Power BI template apps for Dynamics 365 Sales
 #### [Analyze your sales data using Power BI template apps](introduction-sales-template-apps.md)
 #### [Configure Power BI template apps to work with Dynamics 365 Sales](configure-sales-template-apps.md)
+#### [Customize Power BI template apps for Dynamics 365 Sales](customize-template-apps.md)
 
 ### General Data Protection Regulation (GDPR)
 #### [Dynamics 365 Sales & GDPR](../sales-enterprise/dynamics-365-sales-gdpr.md)

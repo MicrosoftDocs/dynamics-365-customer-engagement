@@ -1,10 +1,10 @@
 ---
-title: View and understand Customer Service Analytics for Dynamics 365 | Microsoft Docs
-description: Dashboard provides historical operational metrics and KPIs to manage contact centers.
-author: lerobbin
-ms.author: lerobbin
-manager: autumna
-ms.date: 10/29/2019
+title: View and understand Customer Service Analytics | Microsoft Docs
+description: Dashboards and reports provide historical operational metrics and KPIs to manage contact centers.
+author: neeranelli
+ms.author: nenellim
+manager: shujoshi
+ms.date: 04/03/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -19,15 +19,16 @@ search.app:
   - D365CS
 ---
 
-# View and understand Customer Service Analytics for Dynamics 365
+# View and understand Customer Service Analytics
 
-The Customer Service Analytics dashboard provides information about the historical operational metrics and key performance indicators (KPIs) to effectively manage contact centers. 
+## Customer Service Analytics dashboard
+
+The Customer Service Analytics dashboard that is created in Microsoft Power BI provides information about the historical operational metrics and key performance indicators (KPIs) to effectively manage contact centers.
 
 The following is an example of the Customer Service Analytics overview dashboard:  
 
    > [!div class=mx-imgBorder]
    > ![Customer Service Analytics overview dashboard](media/cs-analytics-overview-dashboard.png "Customer Service Analytics overview dashboard")
-
 
 This section consists of the following KPIs:  
 
@@ -55,15 +56,15 @@ This section also consists of the following filters:
 
 ## Customer Service Analytics reports
 
-The following is an example of the Customer Service Analytics report detail view. 
+The following is an example of the Customer Service Analytics report detail view.
 
-The Customer Service Analytics report detail view has three views: 
+The Customer Service Analytics report detail view has three views:
 
- - [Summary](#1-summary)
+- [Summary](#1-summary)
 
- - [Agent/queue](#2-agent-and-queue)
+- [Agent/queue](#2-agent-and-queue)
 
- - [Case/activity list](#3-case-and-activity-list)
+- [Case/activity list](#3-case-and-activity-list)
 
 ### 1. Summary
 
@@ -112,7 +113,7 @@ The Customer Service Analytics report detail view has three views:
    > Prerequisite for the link to work: you must have either a Customer Service Hub application or Customer Service app installed from AppSource.
 
    > [!div class=mx-imgBorder]
-   > ![Customer Service Analytics case/activity list view](media/cs-analytics-case-activity-list-view.png "Customer Service Analytics case/activity list view") 
+   > ![Customer Service Analytics case/activity list view](media/cs-analytics-case-activity-list-view.png "Customer Service Analytics case/activity list view")
 
 ## View and filter report  
 
@@ -121,12 +122,14 @@ Filter information by viewing the reports and selecting from Duration, Queue, Ag
    > [!div class=mx-imgBorder]
    > ![Customer Service Analytics view and filter report](media/cs-analytics-view-filer-report.png "Customer Service Analytics view and filter report")
 
-Select the subject as needed, and information is filtered according to your selection. This helps to quickly analyze KPIs and take necessary steps to improve outcomes. 
+Select the subject as needed, and information is filtered according to your selection. This helps to quickly analyze KPIs and take necessary steps to improve outcomes.
 
 ### See Also
 
-[Introduction to Customer Service Analytics and Insights](introduction-customer-service-analytics.md) 
+[Introduction to Customer Service Analytics and Insights](introduction-customer-service-analytics.md)
 
 [Configure Customer Service Analytics and Insights in Customer Service Hub](configure-customer-service-analytics-insights-csh.md)
 
-[Configure Customer Service Analytics](configure-customer-service-analytics-dashboard.md)
+[View and understand Customer Service Analytics and Insights in Customer Service Hub](customer-service-analytics-insights-csh.md)
+
+[Configure Customer Service Analytics in Power BI](configure-customer-service-analytics-dashboard.md)
