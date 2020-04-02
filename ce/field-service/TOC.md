@@ -79,6 +79,7 @@
 ### [Edit booking template](booking-template.md)
 ### [Booking alerts](booking-alert.md)
 ### [Schedule board tab settings](schedule-board-tab-settings.md)
+### [Preview the new schedule board](preview-schedule-board.md)
 
 
 # Field Service Mobile
@@ -158,6 +159,7 @@
 ### [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
 ### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
 ## [Security roles for Connected Field Service](cfs-security-roles.md)
+## [AI for IoT alerts](iot-alerts-ai-based-suggestions.md)
 
 # Integrations
 ## [Dynamics 365 Supply Chain Management](supply-chain-field-service-integration.md)

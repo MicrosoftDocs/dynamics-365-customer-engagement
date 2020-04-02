@@ -1,13 +1,12 @@
 ---
 title: "msdyn_presence Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_presence entity."
+ms.date: 03/23/2020
+ms.service: "crm-online"
+ms.topic: "reference"
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
-ms.date: 08/29/2019
-ms.service: 
-  - crm-online
-ms.topic: "reference"
 ---
 # msdyn_presence Entity Reference
 
@@ -87,7 +86,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Base presence option set value this user presence maps to|
 |DisplayName|Base status|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -111,7 +110,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Indicates if this status can be set by the user|
 |DisplayName|User can set?|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -180,7 +179,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Status message shown to the user viewing the current presence|
 |DisplayName|Presence text|
 |FormatName|Text|
 |IsLocalizable|False|

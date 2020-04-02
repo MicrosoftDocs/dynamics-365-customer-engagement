@@ -1,19 +1,18 @@
 ---
 title: "msdyn_cdsentityengagementctx Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_cdsentityengagementctx entity."
+ms.date: 03/23/2020
+ms.service: "crm-online"
+ms.topic: "reference"
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
-ms.date: 08/29/2019
-ms.service: 
-  - crm-online
-ms.topic: "reference"
 ---
 # msdyn_cdsentityengagementctx Entity Reference
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-
+Entity Routing Contexts
 
 **Added by**: Omnichannel – Base Solution
 
@@ -109,7 +108,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Name of the entity|
 |DisplayName|Engaged Entity Set Name|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -125,7 +124,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Unique Identifier of Conversation|
 |DisplayName|Conversation Id|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -155,7 +154,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Unique Identifier of the record being routed|
 |DisplayName|Record Id|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -171,7 +170,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Relationship name of the entity with LiveWorkItem entity|
 |DisplayName|Work Item Relation|
 |FormatName|Text|
 |IsLocalizable|False|

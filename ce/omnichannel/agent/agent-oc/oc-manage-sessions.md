@@ -107,7 +107,7 @@ At all times, the **Home** session is anchored and you can't close it. The Home 
 
     When you are working on multiple customer sessions, there may be a scenario where a customer may not be happy. Since you are working simultaneously on multiple sessions, and if that session is not focused, you need a way to identify the sentiment of that session. 
 
-    Session sentiment displays an alert to you when the sentiment reaches the threshold value as set by your administrator. For example, your administrator has set the threshold as **Slightly negative**. So, when the sentiment reaches **Slightly negative**, you can see an alert in the session panel on the session icon. An exclamation icon is displayed on top of the session icon to indicate that the requires your attention. When you hover your cursor on the session icon, you can see a tooltip, which displays a message in the following format: 
+    Session sentiment displays an alert to you when the sentiment reaches the threshold value as set by your administrator. For example, your administrator has set the threshold as **Slightly negative**. So, when the sentiment reaches **Slightly negative**, you can see an alert in the session panel on the session icon. An exclamation icon is displayed on top of the session icon to indicate that the requires your attention. When you hover the cursor on the session icon, you can see a tooltip, which displays a message in the following format: 
     
     **\<session title>. Urgent attention is needed in your conversation.**
 
@@ -120,11 +120,11 @@ At all times, the **Home** session is anchored and you can't close it. The Home 
 
 - **Unread message count**
 
-    When you are working on multiple customer sessions, there may be a scenario where a you may receive many messages across different sessions. Since, you are working simultaneously on multiple sessions, and if that session is not focus, you need a way to identify the number of messages you received for a particular session. 
+    When you are working on multiple customer sessions, there may be a scenario where a you may receive many messages across different sessions. Since you are working simultaneously on multiple sessions, and if that session is focused, you need a way to identify the number of messages you received for a particular session. 
 
-    A count of unread messages are displayed on the session icon in the session panel. If the number of messages are 10 or more, then a plus icon (+) is displayed.
+    A count of unread messages is displayed on the session icon in the session panel. If the number of messages are 10 or more, then a plus icon (+) is displayed.
 
-    When you hover your cursor on the session icon, you can a tooltip, which displays a message in the following format: 
+    When you hover the cursor on the session icon, you can see a tooltip, which displays a message in the following format: 
     
     **\<session title>. \<X> new updates in your conversation**
     

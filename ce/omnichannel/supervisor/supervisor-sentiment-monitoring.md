@@ -97,7 +97,7 @@ Omnichannel for Customer Service sentiment intensity indicators are an automatic
 
 ## Low sentiment notification alert
 
-While an agent is communicating with the customer, and if the customer's sentiment decreases to or below a threshold level, you will get a notification. The notification is displays the following details:
+While an agent is communicating with the customer, and if the customer's sentiment decreases to or below a threshold level, you will get a notification. The notification displays the following details:
 
 - Agent name
 - Customer
@@ -109,11 +109,11 @@ While an agent is communicating with the customer, and if the customer's sentime
     > [!div class=mx-imgBorder]
     > ![Sentiment notification](../media/sentiment-notification.png "Sentiment notification")
 
-You can select the **Monitor** button, and see the customer summary and the communication panel. If the agent requires help, you can join the conversation.
+You can select the **Monitor** button to see the customer summary and the communication panel. If the agent requires help, you can join the conversation.
 
 For example:
 
-Administrator has set the threshold value as **Very negative**. When the customer's sentiment reaches **Very negative** or any other sentiment value below this, a notification is displayed to the you.
+Administrator has set the threshold value as **Very negative**. When the customer's sentiment reaches **Very negative** or any other sentiment value below the threshold value, the notification is displayed to you.
 
 ## Multi-language sentiment limitations
 

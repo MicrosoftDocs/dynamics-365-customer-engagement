@@ -1,24 +1,21 @@
 ---
-title: "msdyn_visitorjourney Entity Reference (Developer Guide for Omnichannel for Customer Service)| MicrosoftDocs"
+title: "msdyn_visitorjourney Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_visitorjourney entity."
+ms.date: 03/23/2020
+ms.service: "crm-online"
+ms.topic: "reference"
 author: "susikka"
 ms.author: "susikka"
-manager: "susikka"
-applies_to: 
-  - "Dynamics 365 (online)"
-ms.date: 09/26/2019
-ms.service: 
-  - crm-online
-ms.topic: "reference"
+manager: "shujoshi"
 ---
-
 # msdyn_visitorjourney Entity Reference
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-Stores the recent actions tracked and passed as part of context with visitor journey type, for a conversation that has been successfully closed between the customer and agent. A visitor journey record is created for each journey action.
+Stores each customer action as a record. The actions tracked are before an interaction is initiated. Agents will see the actions for an interaction in the Self Service section of the Customer Summary page, when enabled.
 
 **Added by**: Omnichannel - Base Patch Solution
+
 
 ## Messages
 
@@ -43,8 +40,8 @@ Stores the recent actions tracked and passed as part of context with visitor jou
 |Property|Value|
 |--------|-----|
 |CollectionSchemaName|msdyn_visitorjourneies|
-|DisplayCollectionName|Visitor journeys|
-|DisplayName|Visitor journey|
+|DisplayCollectionName|Self services|
+|DisplayName|Self service|
 |EntitySetName|msdyn_visitorjourneies|
 |IsBPFEntity|False|
 |LogicalCollectionName|msdyn_visitorjourneies|
@@ -198,7 +195,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for entity instances|
-|DisplayName|Visitor journey|
+|DisplayName|Self service|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |IsValidForUpdate|False|
@@ -258,7 +255,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Status of the Visitor journey|
+|Description|Status of the self service|
 |DisplayName|Status|
 |IsValidForCreate|False|
 |IsValidForForm|True|
@@ -280,7 +277,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for the status of the Visitor journey|
+|Description|Reason for the status of the self service|
 |DisplayName|Status Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -711,6 +708,18 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|BigInt|
 
+<a name="manytoone"></a>
+
+## Many-To-One Relationships
+
+Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
+
+
+### <a name="BKMK_msdyn_msdyn_ocliveworkitem_msdyn_visitorjourney_ocliveworkitemid"></a> msdyn_msdyn_ocliveworkitem_msdyn_visitorjourney_ocliveworkitemid
+
+**Added by**: Active Solution Solution
+
+See msdyn_ocliveworkitem Entity [msdyn_msdyn_ocliveworkitem_msdyn_visitorjourney_ocliveworkitemid](msdyn_ocliveworkitem.md#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_visitorjourney_ocliveworkitemid) One-To-Many relationship.
 
 ### See also
 

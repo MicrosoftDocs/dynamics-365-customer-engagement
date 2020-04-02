@@ -71,11 +71,11 @@ When a customer on the portal receives a call, they can accept the voice call wi
 
 After accepting the call, the customers can view and use the following options.
 
-|Button | Name | 
+|Button | Name |
 |----------------------|-------------------------|
-|![Turn on or off video](../../media/turn-on-off-video-c2.png "Turn on or off video")| Turn on video / Turn off video | 
-|![Mute and unmute](../../media/mute-unmute-c2.png "Mute and unmute")| Mute / Unmute | 
-|![End call](../../media/end-call-c2.png "End call")| End call | 
+|![Turn on or off video](../../media/turn-on-off-video.png "Turn on or off video")| Turn on video / Turn off video | 
+|![Mute and unmute](../../media/mute-unmute.png "Mute and unmute")| Mute / Unmute | 
+|![End call](../../media/end-call.png "End call")| End call | 
 
 
 After accepting the call, the customer can turn on or off the video, mute or unmute the conversation, and end the call.
