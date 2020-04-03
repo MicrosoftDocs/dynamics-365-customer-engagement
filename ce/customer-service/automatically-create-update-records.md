@@ -4,7 +4,7 @@ description: Know how to automatically create or update records by setting up ru
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/01/2020
+ms.date: 04/03/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -54,21 +54,25 @@ Make sure that the following prerequisites are met:
 
 You can configure a rule that when active will be run for incoming emails. Using the feature to create rules, you can define the conditions when a rule can be run.
 
-1. In Customer Service Hub sitemap, select **Service Management** > **Automatic record creation and update rules**. The **All automatic record creation and update rules** page appears.
+1. In Customer Service Hub site map, select **Service Management** > **Automatic record creation and update rules**. The **Record creation and update rules** page appears.
 
-2. Select **New**. The **New automatic record creation and update rule** page is displayed.
+2. Select **New**. The **New Record Creation and Update Rule** page is displayed.
 
-3. On the **Basic** tab, in **Step one details**, enter the following details: 
+3. On the **Basic** tab, in **Step one details**, enter the following details:
   
    - **Rule name**: Enter a name for the rule.
    - **Queue to monitor**: Select a queue on which the rule will be activated. For email activity, you must select a queue to be able to activate the rule.
    - **Activity type to monitor**: Select **Email** in the list.
 
 4. Select **Save**. The **Step two: conditions to evaluate and actions to take** area is enabled.
+
+   > [!div class=mx-imgBorder]
+   > ![Automatically create record rule](media/arc-csh-rule.png " Automatically create record rule")
+
 5. In **Step two: conditions to evaluate and actions to take**, select **New**. The **Condition builder** page is displayed.
 6. Perform the following steps:
 
-   a. In **New condition** > **Condition name**, enter an intuitive name.
+   a. In **Condition** > **Condition name**, enter an intuitive name.
 
    b. In **Condition that must pass to continue (pass if blank)**,  use the following options that appear when you select **Add** to define the criteria for the rule to be evaluated:
 
@@ -78,7 +82,7 @@ You can configure a rule that when active will be run for incoming emails. Using
 
       iii. Add related entity
 
-7. In **Actions to take** > **Record to create**, make sure the action is **Case**. A case will be created if the conditions specified in the previous step are met for the email activity.
+7. In **Actions to take** > **Record to create**, make sure the value is **Case**. A case will be created if the conditions specified are met for the email activity.
 
 8. In **Configure in Microsoft Power Automate**, select **Save and open in Power Automate**. The Power Automate application opens in a new tab where you can configure additional criteria that must be evaluated for the email activity. To learn more about using Power Automate, see the [documentation for Power Automate](/power-automate/getting-started).
 
@@ -86,16 +90,19 @@ You can configure a rule that when active will be run for incoming emails. Using
 
 10. In **Step three: additional actions to take after matching with a condition**, select an option based on your requirement for **Automatically reply to email**.
 
-11. If you selected **Yes**, select an email template in the **Select email template** list box.
+11. If you select **Yes**, select an email template in the **Select email template** list box.
+
+   > [!div class=mx-imgBorder]
+   > ![Automatically create record rule configured](media/arc-csh-rule-all-steps-configured.png " Automatically create record rule configured")
 
   > [!NOTE]
-  > The rule will be in the draft status till you activate the rule.
+  > The rule will be in the draft status till you activate it.
 
 ## Configure advanced settings for rules
 
 On the **Advanced** tab of the **Record creation and update rule** page for a rule, you can configure actions that can be automatically performed before the conditions for the rule are evaluated.
 
-1. On the **All automatic record creation and update rules** page, select the rule in the list that you want to update. The <rule_name> page appears.
+1. On the **Automatic record creation and update rules** page, select the rule in the list that you want to update. The *<rule_name>* page appears.
 2. Select the **Advanced** tab, and do the following in **Before evaluating conditions**:
 
    - **Create records for email from unknown senders:** Set it to yes if you want records to be created when email messages arrive from senders whose email addresses aren't present in any records. A contact record is also created.

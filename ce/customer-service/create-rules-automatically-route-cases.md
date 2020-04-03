@@ -4,7 +4,7 @@ description: Understand how to create rules to automatically route cases in Dyna
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 02/03/2020
+ms.date: 04/03/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -21,11 +21,11 @@ search.app:
 
 # Automatically route cases using routing rule sets
 
-Use routing rules in Dynamics 365 Customer Service to automatically route cases to the right people at the right time without any manual intervention. You can also use routing rules to route cases that are escalated to specific queues. 
+Use routing rules in Dynamics 365 Customer Service to automatically route cases to the right people at the right time without any manual intervention. You can also use routing rules to route cases that are escalated to specific queues.
 
-## Add routing rule sets sitemap for custom apps 
+## Add routing rule sets site map for custom apps
 
-While creating custom apps, you might not have routing rules sets available in your sitemap. You must add the routing rule sets sitemap for your custom app to access. To add routing rule sets to sitemap, follow these steps:
+While creating custom apps, you might not have routing rules sets available in your site map. You must add the routing rule sets site map for your custom app to access. To add routing rule sets to site map, follow these steps:
 
 1. Sign in to https://"<"org">*.dynamics.com/apps, and go to App designer.
 
@@ -46,9 +46,9 @@ While creating custom apps, you might not have routing rules sets available in y
 
     - **Entity:** Select **Routing Rule Sets**.
 
-6. Save and publish the sitemap.
+6. Save and publish the site map.
 
-    The sitemap is created with the Routing Rule Set. Go to your custom app to locate Routing Rule Sets in the sitemap.
+    The site map is created with the Routing Rule Set. Go to your custom app to locate Routing Rule Sets in the site map.
 
 To Learn more, see [Create a site map for an app using the site map designer](../customerengagement/on-premises/customize/create-site-map-app.md)
 
@@ -70,7 +70,7 @@ Review the following prerequisites before creating a routing rule set:
 
 When creating routing rule sets, you can add multiple rule items and arrange them in the required order. The rule items are evaluated in the order of definition. Rule items are evaluated from top to bottom. If a rule item is evaluated as true, the case gets routed to the destination agent and skips further evaluation. If a rule item is evaluated as false, further rule items are evaluated.
 
-1. In the Customer Service Hub sitemap, go to **Service Management**, and select **Case Settings** > **Routing Rule Sets**.
+1. In the Customer Service Hub site map, go to **Service Management**, and select **Case Settings** > **Routing Rule Sets**.
 
 2. To create a routing rule set, select **New** on the command bar.
 
@@ -94,7 +94,7 @@ When creating routing rule sets, you can add multiple rule items and arrange the
        - **Add related entity:** Select to add a condition for a specific entity.
 
       > [!NOTE]
-      > The following limitations are applicable when defining a rule criteria:
+      > The following limitations are applicable when defining a rule criteria in Customer Service Hub:
       > - You can’t select a time value for the Date and Time data type. If you try to edit an existing rule item that was created in the web client, the time will be set to 00:00.
       > - Only one level of the related entity hierarchy is supported though the application lets you select nested related entities.
       > - The related entity inside a group of the and/or clause is not supported.
@@ -175,16 +175,20 @@ When creating routing rule sets, you can add multiple rule items and arrange the
 
 ## Apply a routing rule set  
 
-An active routing rule set automatically applies to all automatically created cases. To manually apply the rule to any existing or manually created cases:
+You can apply the routing rule when creating a case using the **Save & Route** button. For more information, see [Create a case](customer-service-hub-user-guide-create-a-case.md).
 
-1.	In the Customer Service Hub, go to the list of cases in the **My Active Cases** view.
-2.	Select the cases that you want to route using this rule, and on the command bar, select **Apply Routing Rule**.
+Perform the following steps to manually apply the rule to any existing or manually created cases:
+
+1. In the Customer Service Hub, go to the list of cases in the **My Active Cases** view.
+2. Select the cases that you want to route using this rule, and on the command bar, select **Apply Routing Rule**.
 
     > [!div class="mx-imgBorder"]
     > ![Apply routing rules set](media/rr-activate-rules.png "Apply routing rules set") 
 
 > [!NOTE]
-> If you’re importing bulk records, and you don’t want the routing rules to apply to the cases that you’re importing, add a column **Route Case** to your spreadsheet, and add the value **No** for all the cases that you don’t want to route.  
+>
+> - If you’re importing bulk records, and you don’t want the routing rules to apply to the cases that you’re importing, add a column **Route Case** to your spreadsheet, and add the value **No** for all the cases that you don’t want to route.
+> - Programmatically created cases are automatically routed. If you want to override this behavior, set the value for the RouteCase attribute as "No".
 
 ## Recommendation to upgrade solution
 
@@ -199,5 +203,3 @@ Perform the following steps before you upgrade a solution:
 ### See also
 
 [Create and manage queues](set-up-queues-manage-activities-cases.md)
-
-[Install Routing Rules - Preview solution](install-routing-rules-preview-solution.md)

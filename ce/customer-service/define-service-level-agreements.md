@@ -4,7 +4,7 @@ description: Know how to define service-level agreements in Dynamics 365 Custome
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/01/2020
+ms.date: 04/03/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -21,7 +21,7 @@ search.app:
 
 # Define service-level agreements (SLAs)
 
-Define the level of service or support that your organization agrees to offer to a customer by using service-level agreements (SLAs) in Dynamics 365 Customer Service. Include detailed items to define metrics or key performance indicators (KPIs) to attain that service level. KPIs help you get timely warnings about any issues your customer support team might be having. 
+Define the level of service or support that your organization agrees to offer to a customer by using service-level agreements (SLAs) in Dynamics 365 Customer Service. Include detailed items to define metrics or key performance indicators (KPIs) to attain that service level. KPIs help you get timely warnings about any issues your customer support team might be having.
 
 You can associate an SLA with an entitlement so that when an entitlement is added to a case, the associated SLA is also applied. You can only associate SLAs that are created for the Case entity with entitlements. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create an entitlement to define the support terms for a customer](create-entitlement-define-support-terms-customer.md)
 

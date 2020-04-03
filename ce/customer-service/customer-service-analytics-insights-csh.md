@@ -27,8 +27,15 @@ search.app:
 
 The following reports are available for Customer Service Analytics:
 
-- Case Summary
-- Agent Summary
+- **Case Summary**
+
+   > [!div class=mx-imgBorder]
+   > ![Customer Service Analytics Case Summary report](media/cs-case-summary-csh.png "Customer Service Analytics Analytics Case Summary report")
+
+- **Agent Summary**
+
+   > [!div class=mx-imgBorder]
+   > ![Customer Service Analytics Agent Summary report](media/cs-agent-summary-csh.png "Customer Service Analytics Analytics Agent Summary report")
 
 The following KPIs are available.
 
@@ -77,7 +84,7 @@ The following information is applicable to reports refresh:
 
 - **Custom refresh:** Is not available.
 - **Data refresh for inactive environments:** Data refresh is paused if the reports are not used continuously for two weeks. When a user accesses a report after a lengthy period of inactivity, the report will be refreshed in the subsequent refresh cycle.
-- **Data retention:** For a period of 24 months.
+- **Data retention:** Data is retained for a period of 24 months.
 
 ### Report customizations
 

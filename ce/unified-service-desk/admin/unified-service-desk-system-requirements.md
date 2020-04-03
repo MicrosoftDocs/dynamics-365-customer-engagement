@@ -4,7 +4,7 @@ description: "Describes the supported dependent and optional components you need
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-ms.date: 01/25/2019
+ms.date: 04/03/2020
 ms.service: 
   - dynamics-365-customerservice
 ms.topic: get-started-article
@@ -60,8 +60,9 @@ Supported Unified Service Desk versions are:
 - Unified Service Desk 3.3
 
 
-> [!Note]
-> If you are using older versions, we recommend upgrading to the latest version of Unified Service Desk and Dynamics 365 Customer Service.
+> [!IMPORTANT]
+>
+> Unified Service Desk version 3.2 and earlier will not be supported after February 28, 2021, and organizations with these versions will not have access to Unified Service Desk client. If you are using Unified Service Desk version 3.2 or earlier, we recommend that you upgrade to the latest versions of Unified Service Desk and Dynamics 365 Customer Service by February 28, 2021.
 
 
 <a name="packdeploy"></a>   
