@@ -2,7 +2,7 @@
 title: "Sample: Work with solutions (Dynamics 365 Customer Engagement (on-premises) SDK)| MicrosoftDocs"
 description: ""
 keywords: 
-ms.date: 10/31/2017
+ms.date: 04/02/2020
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
@@ -37,6 +37,8 @@ search.app:
 ---
 
 # Sample: Work with solutions
+
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Sample: Work with solutions](/powerapps/developer/common-data-service/package-deployer/org-service/samples/work-solutions).
 
 This sample shows how to perform the following actions with solutions:
 

@@ -54,7 +54,6 @@ manager: annbe
 
 <tr><td>
 <h2>Troubleshooting</h2>
-<li><a href="troubleshooting-admin.md"> Troubleshooting guide for administrators</a></li>
 <li><a href="troubleshooting.md"> Troubleshooting guide for sales people</a></li>
 <li><a href="faqs-sales.md"> FAQs</a></li>
 
@@ -69,9 +68,12 @@ manager: annbe
 <tr><td>
 
 <h2>Develop</h2>
+<li><a href="../sales-enterprise/developer/enable-sales-order-processing-integration.md" data-raw-source="[Enable sales order processing integration](../sales-enterprise/developer/enable-sales-order-processing-integration.md)">Enable sales order processing integration</a></li>
 <li><a href="../sales-enterprise/developer/reference/manual-forecasting-entity-reference.md" data-raw-source="[Entity reference for manual forecasting](../sales-enterprise/developer/reference/manual-forecasting-entity-reference.md)">Entity reference for manual forecasting</a></li>
 <li><a href="../sales-enterprise/developer/reference/playbook-entity-reference.md" data-raw-source="[Entity reference for playbooks](../sales-enterprise/developer/reference/playbook-entity-reference.md)">Entity reference for playbooks</a></li>
-
+<li><a href="../sales-enterprise/developer/custom-plugin-handling-shared-variable.md" data-raw-source="[Custom plug-in handling using shared variable](../sales-enterprise/developer/custom-plugin-handling-shared-variable.md)">Custom plug-in handling using shared variable</a></li>
+</td>
+</tr>
 </td> <td>
 
 <h2>GDPR</h2>

@@ -1,30 +1,21 @@
 ---
-title: Learn the basics of the Customer Service Hub app | Microsoft Docs
-description: Learn the basics of the Customer Service Hub for Customer Service
+title: "Learn the basics of the Customer Service Hub app | Microsoft Docs"
+description: "Learn the basics of the Customer Service Hub for Customer Service"
+ms.date: 04/03/2020
+ms.service:
+  - "dynamics-365-customerservice"
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 04/03/2020
-ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ---
 
 # Learn the basics of the Customer Service Hub
   
-The Customer Service Hub’s intuitive interface brings together vital information in one place, so you can focus on the things that matter.  
+The Customer Service Hub's intuitive interface brings together vital information in one place, so you can focus on the things that matter.  
 
 ## Customer Service Hub application requirements  
- Here’s a list of browsers and mobile versions that are supported by the Customer Service Hub:  
+ Here's a list of browsers and mobile versions that are supported by the Customer Service Hub:  
   
 - **Browsers** 
     - Google Chrome
@@ -89,7 +80,7 @@ The Customer Service Hub comes with an enhanced sitemap to enable easy navigatio
 
   ![Navigate Records](media/v9-navigate-records.png "Navigate Records")
 
-When you select a record type from the menu, such as Accounts, Contacts, or Cases, you’ll see a list of corresponding customer records (also known as Entity grid).
+When you select a record type from the menu, such as Accounts, Contacts, or Cases, you'll see a list of corresponding customer records (also known as Entity grid).
 
 To view recently opened records, select the down-arrow next to the record type in the sitemap.
 
@@ -102,7 +93,7 @@ To view recently opened records, select the down-arrow next to the record type i
   - **Social Profiles** let you track a contact's presence in social media.
   - **Cases** help you create and track your customer requests and issues.
   - **Queues** keep a track of cases waiting for you to work on.
-  - **Knowledge Articles** capture your customer’s questions, issues, feedback, and resolutions, so that other service reps can benefit from them.
+  - **Knowledge Articles** capture your customer's questions, issues, feedback, and resolutions, so that other service reps can benefit from them.
 
 2. Select **...** to go to **Training** and access the documentation site to view the **Help Center**. 
 3. You can also access **Service Management** from the sitemap. Service Management lets you define all the customer service admin settings from the Customer Service Hub sitemap.  Select **...** to go to **Service Management**. 
@@ -116,7 +107,7 @@ To view recently opened records, select the down-arrow next to the record type i
 
 
 ## Open the default dashboard for a record type
-When you’re viewing the list of records for a specific record type, select **Open Dashboards** in the command bar to switch to the default dashboard for that record type. 
+When you're viewing the list of records for a specific record type, select **Open Dashboards** in the command bar to switch to the default dashboard for that record type. 
 
 To return to the list of records, select **Open Views** in the command bar.
   
@@ -160,7 +151,7 @@ Understand the different components of a form below:
 ### Business processes
  In the Customer Service Hub, forms for cases and knowledge articles include a process bar (also called a business process flow), which appears when you save the record for the first time. 
  
-When you select a process stage on the process bar, you'll see the steps to take to complete that stage. A flag on a stage indicates the stage you’re currently on. When you select an active stage, you can see the **Next Stage** button move to the next stage in the process.  
+When you select a process stage on the process bar, you'll see the steps to take to complete that stage. A flag on a stage indicates the stage you're currently on. When you select an active stage, you can see the **Next Stage** button move to the next stage in the process.  
 
 The stages in the business process flow are displayed in floating mode, or docked mode. Stages can  be aligned in a vertical layout, instead of horizontal, which makes it easier to see what steps are required to move forward. You can also choose to include an optional step in the business process flow and define criteria to trigger it.
 
@@ -179,7 +170,7 @@ If there is more than one process to follow, you can switch between them by sele
 ### Tabs  
  A tab is a group of sections on a page. Each case form is composed of one or more tabs. By default, the **Summary** tab shows information about the customer, interactions with the customer, and other related records. You can select different tabs to enter or see other miscellaneous details of a record.  
   
-For example, here’s a view of how the tabs appear on the case form:
+For example, here's a view of how the tabs appear on the case form:
   
 ![case-form-tabs](media/v9-case-form-tabs.png "Case form tabs")
   
@@ -195,7 +186,7 @@ For example, here’s a view of how the tabs appear on the case form:
 |Social Profiles|**Social Profile**. Captures general information, and social profile details along with related social profiles.<br />**Related**. Shows related common entities.|  
 
 ### Contact card  
- See a complete view of your customer’s touch points in the Contact card. This card is available in the **General Information** section of the **Summary** tab.  
+ See a complete view of your customer's touch points in the Contact card. This card is available in the **General Information** section of the **Summary** tab.  
   
 ![contact-card](media/contact-card.png "Contact card")
 
@@ -207,7 +198,7 @@ For example, here’s a view of how the tabs appear on the case form:
 
 [!INCLUDE[cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
 
- See a combined view of your customer’s interactions across various channels, such as phone, email, or even social activities in the Timeline. The Timeline enables you to create notes and posts, and also, to view any related notes or system posts.  The Timeline control makes collaboration with other users easy and efficient.
+ See a combined view of your customer's interactions across various channels, such as phone, email, or even social activities in the Timeline. The Timeline enables you to create notes and posts, and also, to view any related notes or system posts.  The Timeline control makes collaboration with other users easy and efficient.
 
  You can do the following:
 
@@ -247,10 +238,10 @@ You can create, edit, and delete an activity, note, post, and other interactions
 
 - **Add activities, posts, and notes:** Select the **+** icon in the timeline area to quickly open an form or quick create form to create and save. The item you created appears in the timeline. The standard activities that you can currently create with **+** button in the timeline are as follows:
 
-	- Appointment
-	- Task
-	- Phone Call
-	- Email
+    - Appointment
+    - Task
+    - Phone Call
+    - Email
 
   Based on your administrator configuration, other entities may appear.
 
@@ -286,7 +277,7 @@ You can select the **Enter a note** box in the timeline and specify a title and 
 |![Align Left](../customer-service/media/align-left.png "Align Left")| Align Left | Ctrl+L | Align your content with the left margin. (Commonly used for body text to make it easier to read.) |
 |![Align Center](../customer-service/media/align-center.png "Align Center")| Align Center | Ctrl+E | Center your content on the page. (Commonly used for a formal appearance.) |
 |![Align Right](../customer-service/media/align-right.png "Align Right")| Align Right | Ctrl+R | Center your content on the page. (Commonly used for a formal appearance.) |
-|![Link](../customer-service/media/format-link.png "Link")| Link |  | Create a link in your document for quick access to web pages and files.<br /><br />Pasted or typed URL text is converted into a link. For example, "http://myexample.com" will become "<a href=“http://myexample.com”>http://myexample.com</a>".<br /><br /> In the **Link** dialog box, choose the type of link you’d like to insert.<br /><br />The **Link Info** tab allows you to choose the link type as well as set the link protocol and URL.<br /><br />The **Target** tab is only available for the URL link type. It specifies the location where the link will open after you select it. |
+|![Link](../customer-service/media/format-link.png "Link")| Link |  | Create a link in your document for quick access to web pages and files.<br /><br />Pasted or typed URL text is converted into a link. For example, "http://myexample.com" will become "<a href="http://myexample.com">http://myexample.com</a>".<br /><br /> In the **Link** dialog box, choose the type of link you'd like to insert.<br /><br />The **Link Info** tab allows you to choose the link type as well as set the link protocol and URL.<br /><br />The **Target** tab is only available for the URL link type. It specifies the location where the link will open after you select it. |
 |![Remove Link](../customer-service/media/remove-link.png "Unlink")| Unlink |  | Delete a link in your email or document.<br /><br />When you place the cursor on a link, the **Unlink** button on the toolbar becomes active. Select the button to remove the link and make it plain text. |
 |![Superscript](../customer-service/media/format-superscript.png "Superscript")| Superscript |  | Type very small letters just above the line of text. |
 |![Subscript](../customer-service/media/format-subscript.png "Subscript")| Subscript |  | Type very smaill letters just below the line of text. |
@@ -369,7 +360,7 @@ Select an activity from the timeline to expand and view.
 ### Related section  
 In the **Related** section (also known as Reference panel), use the tabs to see related records for the current record. This section is enabled by default for account, contact, case, and knowledge article records. Your customizer can add this section for all entities (including custom entities) that are enabled for interactive experience. The reference panel is also available in model-driven apps, for information, see  [Reference Panel in model-driven apps ](https://docs.microsoft.com/powerapps/user/navigation#reference-panel).
 
-By default, the first tab in the Related section of a case record shows the **Recent Cases and Entitlements** for the current case record you’re working on. 
+By default, the first tab in the Related section of a case record shows the **Recent Cases and Entitlements** for the current case record you're working on. 
   
 ![reference-panel](media/reference-panel.png "Reference panel")
 
@@ -579,7 +570,7 @@ You can see templates of a particular language by selecting a language from the 
 
     The **Email templates** window opens.
 
-2. To see templates of a different locale, select a language from the **Language** list. The templates are loaded as per the selected language.	
+2. To see templates of a different locale, select a language from the **Language** list. The templates are loaded as per the selected language.    
 
 3. Browse for the template you want. Select the template, and preview the content of the template.
 
@@ -620,7 +611,7 @@ The following table outlines the different formatting options of the rich text e
 |![Align Left](../customer-service/media/align-left.png "Align Left")| Align Left | Ctrl+L | Align your content with the left margin. (Commonly used for body text to make it easier to read.) |
 |![Align Center](../customer-service/media/align-center.png "Align Center")| Align Center | Ctrl+E | Center your content on the page. (Commonly used for a formal appearance.) |
 |![Align Right](../customer-service/media/align-right.png "Align Right")| Align Right | Ctrl+R | Center your content on the page. (Commonly used for a formal appearance.) |
-|![Link](../customer-service/media/format-link.png "Link")| Link |  | Create a link in your document for quick access to web pages and files.<br /><br />Pasted or typed URL text is converted into a link. For example, "http://myexample.com" will become "<a href=“http://myexample.com”>http://myexample.com</a>".<br /><br /> In the **Link** dialog box, choose the type of link you’d like to insert.<br /><br />The **Link Info** tab allows you to choose the link type as well as set the link protocol and URL.<br /><br />The **Target** tab is only available for the URL link type. It specifies the location where the link will open after you select it. |
+|![Link](../customer-service/media/format-link.png "Link")| Link |  | Create a link in your document for quick access to web pages and files.<br /><br />Pasted or typed URL text is converted into a link. For example, "http://myexample.com" will become "<a href="http://myexample.com">http://myexample.com</a>".<br /><br /> In the **Link** dialog box, choose the type of link you'd like to insert.<br /><br />The **Link Info** tab allows you to choose the link type as well as set the link protocol and URL.<br /><br />The **Target** tab is only available for the URL link type. It specifies the location where the link will open after you select it. |
 |![Remove Link](../customer-service/media/remove-link.png "Unlink")| Unlink |  | Delete a link in your email or document.<br /><br />When you place the cursor on a link, the **Unlink** button on the toolbar becomes active. Select the button to remove the link and make it plain text. |
 |![Superscript](../customer-service/media/format-superscript.png "Superscript")| Superscript |  | Type very small letters just above the line of text. |
 |![Subscript](../customer-service/media/format-subscript.png "Subscript")| Subscript |  | Type very smaill letters just below the line of text. |
@@ -676,11 +667,15 @@ To know how to add a case to a queues, see [Add a case to a queue](customer-serv
 
 ## Understand Site
 
-Now when you create a new site, you need to go to **Advanced find** ![Advanced find](media/advanced-find-icon.png "Advanced find"), where you can add a site to any entity, for example **Account**.
+To create a new site, you need to go to **Advanced find** ![Advanced find](media/advanced-find-icon.png "Advanced find").  Then you can customize other entity forms (e.g. Account) by adding this site field.
 
-  ![Create New Site](channel-integration-framework/media/add-site-to-any-entity-1.png "Create New Site")
+  ![Create New Site](media/add-site-to-any-entity-1a.png "Create New Site")
  
+ ## Understand Facility/Equipment
 
+ To create a new Facility/Equipment item, you need to go to **Advanced find** ![Advanced find](media/advanced-find-icon.png "Advanced find"), where you can create Facility/Equipment.
+
+  ![Create New Facility/Equipment](media/add-site-to-any-entity-1b.png "Create New Facility/Equipment")
 
 ### See also
 
