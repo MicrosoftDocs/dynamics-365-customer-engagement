@@ -67,7 +67,7 @@ To integrate a WeChat channel with Omnichannel for Customer Service, get the fol
 
 ### Configure WeChat details
 
-1. Sign in to your WeChat Service Account, and then paste the IP whitelist and server address (which you copied from Omnichannel for Customer Service in the preceding procedure<!--edit okay? -->) in their respective boxes. The IP address of the Omnichannel for Customer Service application is whitelisted in the WeChat firewall. The server address helps establish the connection between WeChat and Omnichannel for Customer Service.
+1. Sign in to your WeChat Service Account, and then paste the IP whitelist and server address (which you copied from Omnichannel for Customer Service in the preceding procedure<!--edit okay? -->) in their respective boxes. The IP address of the Omnichannel for Customer Service application is whitelisted in the WeChat firewall. The server address helps establish the connection between WeChat and Omnichannel for Customer Service<!--In the Twilio topic, you called this the "Omnichannel Administration app." Should it be the same here? -->.
 
 2. In WeChat, make sure that you select **Security Mode** under **Message Encryption Method** for encryption of the chat messages.
 
