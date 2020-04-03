@@ -2,6 +2,8 @@
   "redirections": [
     {
 
+      "source_path": "ce/marketing/spam-score.md",
+      "redirect_url": "spam-checker",
       "source_path": "ce/marketing/smart-scheduler.md",
       "redirect_url": "automated-scheduler",
       "source_path": "ce/marketing/email-design-update.md",

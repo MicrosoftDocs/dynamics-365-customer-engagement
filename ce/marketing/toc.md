@@ -117,7 +117,7 @@
 #### [Email accessibility checker](email-accessibility.md)
 #### [Check for errors, go live, and deliver](email-check-golive.md)
 #### [Quickly design and deliver marketing emails with "send now"](email-send-now.md)
-#### [Preview: Check your spam score](spam-score.md)
+#### [Check your spam score](spam-checker.md)
 #### [Design and run A/B tests on your email designs](email-a-b-testing.md)
 
 ### Create marketing pages and forms
