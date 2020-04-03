@@ -89,7 +89,7 @@ Contacts provide the following [insights categories](#categories):
 - **Event interactions**: See a timeline of event interactions, and event registration, check-in and cancellation records for the current contact.
 - **Marketing form interactions**: See which marketing forms the contact has submitted and the content of each submission.
 - **Subscription list interactions**: See which subscription lists the contact joined or left, and when.
-- **Email open times**: See the days and times when the contact usually opens your emails and how long they usually wait before opening them. This information also informs the [smart scheduling feature](smart-scheduler.md), which adds a **Predicted best send times** chart here when enabled.
+- **Email open times**: See the days and times when the contact usually opens your emails and how long they usually wait before opening them. This information also informs the [automated scheduling feature](automated-scheduler.md), which adds a **Predicted best send times** chart here when enabled.
 
 ## Lead insights
 
