@@ -1,7 +1,7 @@
 ---
 title: "Create packages for the Dynamics 365 Customer Engagement Package deployer (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 ms.custom: 
-ms.date: 01/25/2019
+ms.date: 04/02/2020
 ms.reviewer: "pehecke"
 ms.service: crm-online
 ms.suite: 
@@ -14,14 +14,16 @@ caps.latest.revision: 59
 author: KumarVivek
 ms.author: kvivek
 manager: amyla
-search.audienceType: 
+search.audienceType:  
   - developer
 search.app: 
   - D365CE
 ---
 # Create packages for the Dynamics 365 Customer Engagement Package deployer
 
-[!INCLUDE[pn_package_deployer_long](../includes/pn-package-deployer-long.md)] lets administrators       deploy packages on Dynamics 365 Customer Engagement (on-premises) and [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] instance. A “package” can consist of any or all of the following:  
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create packages for the Package Deployer](/powerapps/developer/common-data-service/package-deployer/create-packages-package-deployer).
+
+[!INCLUDE[pn_package_deployer_long](../includes/pn-package-deployer-long.md)] lets administrators       deploy packages on Dynamics 365 Customer Engagement (on-premises) and [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] instance. A "package" can consist of any or all of the following:  
 
 - One or more [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] solution files.  
 
@@ -91,9 +93,9 @@ Dynamics 365 Customer Engagement (on-premises) provide you with a [!INCLUDE[pn_V
 <a name="Step3"></a>   
 #### Step 3: Update the HTML files: English and other languages  
 
-1.  In the Solution Explorer pane, expand **PkgFolder** > **Content** > **en-us**. You’ll find two folders called EndHTML and WelcomeHTML. These folders contain the                 HTML and associated files that enable you to display information at the end and beginning of the package deployment process. Edit the                 files in the HTML folder of these folders to add information for your package.  
+1.  In the Solution Explorer pane, expand **PkgFolder** > **Content** > **en-us**. You'll find two folders called EndHTML and WelcomeHTML. These folders contain the                 HTML and associated files that enable you to display information at the end and beginning of the package deployment process. Edit the                 files in the HTML folder of these folders to add information for your package.  
 
-2.  You can also add the HTML files in your package in other languages so that the content in the HTML appears in the language based on the locale settings of the user’s computer. To do so:  
+2.  You can also add the HTML files in your package in other languages so that the content in the HTML appears in the language based on the locale settings of the user's computer. To do so:  
 
     1.  Create a copy of the **en-us** folder under **PkgFolder** > **Content**.  
 
