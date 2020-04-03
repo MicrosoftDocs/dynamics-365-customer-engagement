@@ -73,4 +73,4 @@ You can take the following actions on the products added to the **Product Line I
 [Create or edit an opportunity](../sales-enterprise/create-edit-opportunity-sales.md)  
 [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)   
 [Print leads, quotes, and other records](../basics/print-leads-quotes-other-records.md)  
-[Dynamics 365 Sales troubleshooting guide for administrators](troubleshooting-admin.md)  
+[Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  

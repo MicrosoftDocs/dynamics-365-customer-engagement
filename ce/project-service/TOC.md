@@ -1,6 +1,7 @@
 # [Overview](overview.md)
 
 # What's new
+## [What's new or changed in Project Service Automation Update Release 17.5, Hotfix, V3](whats-new-ur-17-5.md)
 ## [What's new or changed in Update Release 17, V3](whats-new-ur-17.md)
 ## [What's new or changed in Update Release 16, V3](whats-new-ur-16.md)
 ## [What's new or changed in Update Release 15, V3](whats-new-ur-15.md)
@@ -59,6 +60,7 @@
 ### [Recall previously approved time or expense entries](recall-approved.md)
 ### [Cancel approval of previously approved time or expense entries](cancel-approval.md)
 ### [Actuals](actuals.md)
+### [Bulk corrections of actuals created by approved time and expense entries](bulk-corrections-actuals-created-by-approved-time-expense-entries.md)
 ### [Review project billing backlog](review-invoicing-backlog.md)
 ### [Invoicing](invoicing.md)
 ### [Multi-currency scenarios](advanced-currency.md)
