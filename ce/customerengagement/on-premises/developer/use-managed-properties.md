@@ -33,6 +33,8 @@ search.app:
 ---
 # Use managed properties
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Use managed properties](/powerapps/developer/common-data-service/use-managed-properties).
+
 You can control which of your managed solution components are customizable by using managed properties. You should allow as much customization as possible for those solution components that represent business entities. This lets organizations customize your           solution to their requirements. Limit or eliminate customization of critical solution components that provide the core functionality of your solution so that you can predictably support and maintain it.  
   
  Managed properties are intended to protect your solution from modifications that may cause it to break. Managed properties do not provide digital rights management (DRM), or capabilities to license your solution or control who may install it.  
