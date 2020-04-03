@@ -82,9 +82,9 @@ Disabling the integration will stop showing the Sales Navigator controls.
 3. Select the **Enable Sales Navigator integration** control.
 4. Select **Ok** to disable the integration.
 
-## See profile picture for matched leads and contacts
+## See profile pictures for matched leads and contacts
 
-For leads and contacts that are matched to a LinkedIn member profile, the system can show profile pictures from LinkedIn. However, the profile pictures are only stored for 24 hours.
+For leads and contacts that are matched to a LinkedIn member profile, the system can show profile pictures from LinkedIn. 
 
 1.	In your app, select the **Settings** icon, and then select **Advanced Settings**.
 
@@ -95,14 +95,14 @@ For leads and contacts that are matched to a LinkedIn member profile, the system
 
 2. Select **LinkedIn Sales Navigator**.
 3. Select the **Photo refresh** control.
-4. Select **Ok** to activate the sync of profile images.
+4. Select **Ok** to enable the display of profile pictures.
 
 To enable the display of profile image in the contact or lead form, you must enable **Sales Navigator CRM sync** in the LinkedIn Sales Navigator settings. For more information how to enable CRM sync, see [Integration between Sales Navigator and your CRM](https://www.linkedin.com/help/sales-navigator/answer/82207/integration-between-sales-navigator-and-your-crm-overview).
 
-Please note that only profile pictures for matched leads and contacts can sync from LinkedIn. 
+Please note that only profile pictures for matched leads and contacts can be captured from LinkedIn. 
 
 > [!NOTE]
-> The profile picture from Linkedin for a matched contact or lead is only shown in the out-of-the-box Contact form in the apps built on the Unified Interface.
+> The profile picture from Linkedin for a matched contact or lead is only shown in the out-of-the-box Contact or Lead form in the apps built on the Unified Interface.
 
 ## Existing orgs that got updated with April 19 features
 
