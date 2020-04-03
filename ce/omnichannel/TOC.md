@@ -178,7 +178,7 @@
 #### [View and understand Omnichannel Insights dashboards](supervisor/omnichannel-insights-dashboard.md)
 
 ### Monitor Conversations
-#### [Monitor conversations](supervisor/monitor-conversations.md)
+#### [Monitor and assign conversations](supervisor/monitor-conversations.md)
 #### [Sentiment Monitoring](supervisor/supervisor-sentiment-monitoring.md)
 
 
