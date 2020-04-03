@@ -85,7 +85,7 @@ Connected Customer Services uses the IoT Hub to manage the state of registered d
 
 This is a test web app for emulating the device that is sending commands or receiving commands from the IoT hub.
 
-[Azure SQL Database](https://azure.microsoft.com/services/sql-database/}
+[Azure SQL Database](https://azure.microsoft.com/services/sql-database/)
 
 Connected Customer Service uses SQL Azure to store device heartbeat messages for later use by Power BI to show the status of devices in Dynamics 365 for Customer Engagement.
 
