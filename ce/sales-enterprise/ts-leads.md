@@ -14,6 +14,12 @@ manager: annbe
 
 This article helps you troubleshoot and resolve issues related to the Lead entity.
 
+**On this page:**
+- [Issue: I can't qualify a lead.](#cant_qualify_lead)
+- [Issue: Insufficient permissions or Access denied error when a user is trying to qualify a lead](#insufficientpermissions)
+- [Issue: The **Qualify lead** command is not available on the Lead record.](#qualify-lead-not-available)
+- [Issue: Account or contact-related fields aren't populating on the Lead form.](#account-contact-fields-not-populating)
+
 <a name="lead_qualification"> </a>
 ## Lead qualification issues and resolution (sales people)
 
@@ -175,7 +181,7 @@ The lead that the user is trying to qualify is in their organization.
 5. Assign Read access to **Attribute Map**, **Customizations**, **Entity** and **Entity Map**.
 
 <a name="qualify-lead-not-available"> </a>
-### Some users can't see the **Qualify lead** command on lead record
+### Issue: The **Qualify lead** command is not available on the Lead record.
 
 **Reason:** 
 The out-of-the-box **Qualify lead** command is visible on the Lead form only if account, contact, lead, and opportunity entities are are set as editable in the Unified Interface, and the account, contact, and opportunity entities are available in Mobile offline. 
