@@ -271,7 +271,7 @@ You can select the **Enter a note** box in the timeline and specify a title and 
   - Bulleted and numbered list
   - Decrease and increase indent
   - Block quote
-  - Text alignment (align left, centre, and right)
+  - Text alignment (align left, center, and right)
   - Link and unlink
   - Text strikethrough
   - Text direction from right to left and left to right
