@@ -2,7 +2,7 @@
 title: "Define alternate keys for an entity (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The topic explains about how to create alternate keys for an entity. Alternate keys can be created programmatically or by using the customization tools"
 ms.custom: 
-ms.date: 03/16/2020
+ms.date: 04/03/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -48,7 +48,10 @@ You should be aware of the following constraints when creating alternate keys:
   | LookupAttributeMetadata     |       Lookup        |
   | PicklistAttributeMetadata   |      Picklist       |
   
- - **Attributes must be valid for create and update**  
+> [!NOTE] 
+> The attributes DateTime, Lookup, and Picklist are not available for on-premises versions of Dynamics 365 Customer Engagement.  
+
+- **Attributes must be valid for create and update**  
 
    Each attribute used in a key must support both create and update. More information: [Valid operations on attributes](introduction-entity-attributes.md#valid-operations-on-attributes)
    
