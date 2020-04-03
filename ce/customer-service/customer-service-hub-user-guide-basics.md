@@ -509,7 +509,7 @@ An alternate way of creating email is to use the enhanced email experience, whic
 - Insert attachments to email.
 
 > [!IMPORTANT]
-> - Your system administrator must enable the enhanced email experience before you can use it. Follow the steps in [Enable the enhanced email experience](#Enable-the-enhanced-email-experience).
+> - Your system administrator must enable the enhanced email experience before you can use it. Follow the steps in [Enable the enhanced email experience](#enable-the-enhanced-email-experience).
 > - The enhanced email experience is available only for email activities created from the **Timeline** section of any model-driven app. 
 
 #### Enable the enhanced email experience
