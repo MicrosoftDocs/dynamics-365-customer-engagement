@@ -174,6 +174,20 @@ The lead that the user is trying to qualify is in their organization.
 4. Assign Read access to any custom entity.
 5. Assign Read access to **Attribute Map**, **Customizations**, **Entity** and **Entity Map**.
 
+<a name="qualify-lead-not-available"> </a>
+### Some users can't see the **Qualify lead** command on lead record
+
+**Reason:** 
+The out-of-the-box **Qualify lead** command is visible on the Lead form only if account, contact, lead, and opportunity entities are are set as editable in the Unified Interface, and the account, contact, and opportunity entities are available in Mobile offline. 
+
+**Resolution:**
+
+If the **Qualify lead** command isn't available, check the following:
+- Account, Contact, Lead or Opportunity entities are set to read only for mobile. If they are, clear the **Read-only in mobile** check box in entity customization so that the entity becomes editable for Unified interface. More information: 
+[Troubleshooting issues with the Unified Interface](ts-unified-interface.md)
+- Check if the Account, Contact, and Opportunity entities are part of the mobile offline profile. If they aren't, add these entities to the profile and publish the changes. More information: [Enable entities for mobile offline synchronization]([Link description](../mobile-app/setup-mobile-offline-for-admin.md#step-1-enable-entities-for-mobile-offline-synchronization)
+
+
 <a name="auto-generation-of-fields"> </a>
 ## Automatic generation of contact or company-related fields
 
