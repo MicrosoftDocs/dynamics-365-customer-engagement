@@ -54,7 +54,7 @@ The Dynamics 365 Marketing April 2020 update includes several feature enhancemen
 
 - **Ability to test-send dynamic email messages**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/ability-test-send-dynamic-email-messages)
-    - [Docs](email-preview.md)
+    - [Docs](email-preview.md#preview-dynamic-text-from-contact-information)
 - **Automated scheduler**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/smart-scheduler)
     - [Docs](automated-scheduler.md)
