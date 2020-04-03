@@ -98,7 +98,9 @@ The co-browsing and screen sharing features help you quickly and easily understa
 
 To use the co-browsing and screen sharing features, your administrator must have selected a third party screen sharing and/or co-browse provider. 
 
-When you're chatting with a customer, you can initiate a co-browsing or screen sharing session by doing the following. 
+### Initiate a co-browsing or screen sharing session 
+
+When you're chatting with a customer, you can initiate a co-browsing or screen sharing session by doing the following: 
 
 1. Click the computer monitor icon next to the end button in the upper part of the agent chat window.
 2. An app tab opens, providing a way to sign in to the third-party provider and create a new session.
@@ -111,13 +113,13 @@ When you're chatting with a customer, you can initiate a co-browsing or screen s
 > [!div class=mx-imgBorder]
 > ![Agent requests a co-browse session during live chat](../../media/third-party-co-browse-agent-chat.png "Agent requests a co-browse session during live chat")
 
-Once the user accepts your invitation, you will be able to see their screen and more accurately diagnose the issue.
+Once the user accepts your invitation, you will be able to see the customer's screen and more accurately diagnose the issue.
 
 When you enter a co-browse session, you can:
 
 * See the customer's screen
 * Use a laser pointer to call attention to important items
-* Make changes within the customer's browser
+* Navigate and make changes within the customer's browser
 
 When you enter a screen sharing session, you can:
 
