@@ -4,7 +4,7 @@ description: "Instructions on how to configure a Facebook channel in Omnichannel
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 04/01/2020
+ms.date: 04/03/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -26,34 +26,34 @@ The Facebook channel gives you an incredible opportunity to capitalize on the so
 
 After completing the prerequisites, you can add the Facebook channel for your organization by following these steps:
 
-1.	[Create a Facebook work stream](#step-1-create-a-facebook-work-stream)
-2.	[Create a Facebook channel](#step-2-create-a-facebook-channel)
-3.	[Create routing rules](#step-3-create-routing-rules)
+1. [Create a Facebook work stream](#step-1-create-a-facebook-work-stream)
+2. [Create a Facebook channel](#step-2-create-a-facebook-channel)
+3. [Create routing rules](#step-3-create-routing-rules)
 
 ## Step 1: Create a Facebook work stream
 
-1.	Sign in to Omnichannel Administration.
+1. Sign in to Omnichannel Administration.
 
-2.	Go to **Work Distribution Management** > **Work Streams**.
+2. Go to **Work Distribution Management** > **Work Streams**.
 
-3.	Select **New** to create a Facebook work stream.
+3. Select **New** to create a Facebook work stream.
 
-4.	On the **Work Distribution** tab, in the **Channel** field, select **Facebook**.
+4. On the **Work Distribution** tab, in the **Channel** field, select **Facebook**.
 
     > [!div class=mx-imgBorder]
     > ![Create a Facebook work stream](../media/fb-workstream.png "Create a Facebook work stream")
 
-5.	Specify other details as required. To learn more, see [Understand and create work streams](work-streams-introduction.md).
+5. Specify other details as required. To learn more, see [Understand and create work streams](work-streams-introduction.md).
 
-6.	Select **Save**.
+6. Select **Save**.
 
 ## Step 2: Create a Facebook channel
 
-1.	Go to **Channels** > **Facebook**.
+1. Go to **Channels** > **Facebook**.
 
-2.	Select **New** to create a Facebook channel.
+2. Select **New** to create a Facebook channel.
 
-3.	On the **New Facebook Application** page, provide the following information:
+3. On the **New Facebook Application** page, provide the following information:
 
     - **Name**: Name of the Facebook application. 
 
@@ -66,21 +66,21 @@ After completing the prerequisites, you can add the Facebook channel for your or
     > [!div class=mx-imgBorder]
     > ![Register a Facebook application](../media/fb-new-app.png "Register a Facebook application")
 
-4.	Select **Save**. After you save the record, the **Facebook Pages** section is enabled, and it allows you to add the Facebook pages through which a customer can connect to an agent.
+4. Select **Save**. After you save the record, the **Facebook Pages** section is enabled, and it allows you to add the Facebook pages through which a customer can connect to an agent.
 
     > [!NOTE]
     > In this release, you can create only one Facebook application per organization. However, you can add multiple pages in a Facebook application.
 
-5.	In the **Facebook Pages** section, select **Add New Facebook Page** to add a Facebook page.
+5. In the **Facebook Pages** section, select **Add New Facebook Page** to add a Facebook page.
 
-6.	On the **New Facebook Page** page, provide the following information:
+6. On the **New Facebook Page** page, provide the following information:
 
     - **Page Id**: ID of the Facebook page. To get the page ID, go to your Facebook page, select **About**, and copy the value in the **Page ID** field.
 
     - **Page Name**: Name of the Facebook page.
 
     - **Page Access Token**: Page access token from the Facebook application. To get the page access token, go to your Facebook application and then go to **Messenger** > **Settings**. In the **Access Tokens** section, select the page, and copy the value in the **Page Access Token** field.
-    
+
     - **Facebook Application**: The Facebook application record is auto filled from which you added a Facebook page.
     
     - **Work Stream**: Browse and select the work stream you created for the Facebook channel.
@@ -92,7 +92,7 @@ After completing the prerequisites, you can add the Facebook channel for your or
     > [!div class=mx-imgBorder]
     > ![Register a Facebook page](../media/fb-new-page.png "Register a Facebook page")
 
-7.	Select **Save** to create the record.
+7. Select **Save** to create the record.
 
 After you add a Facebook page, values for **Callback Uri** and **Verify Token** are generated automatically. These values are used to configure webhooks in the Facebook application.
 

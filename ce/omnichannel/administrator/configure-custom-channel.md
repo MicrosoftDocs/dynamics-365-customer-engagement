@@ -44,7 +44,11 @@ As an organization, you want the ability to integrate your line-of-business (in-
 
 ## Prerequisites
 
-- Make sure channels are provisioned in your environment.
+- Make sure channels are provisioned in your environment. For information, see [Provision Omnichannel for Customer Service](omnichannel-provision-license.md).
+
+  > [!NOTE]
+  >
+  > To enable the custom channel in an existing environment, you must upgrade to the latest version of Omnichannel for Customer Service. For information, [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md).
 
 ## End-to-end walk-through
 

@@ -4,7 +4,7 @@ description: Understand and create work streams in the Omnichannel for Customer 
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/01/2020
+ms.date: 04/03/2020
 ms.topic: article
 ms.service: 
   - "dynamics-365-customerservice"
