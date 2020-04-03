@@ -2,7 +2,7 @@
 title: "Create auto-number-attributes (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs)"
 description: "Learn about creating auto-number attribute in the same way you create a string attribute using the StringAttributeMetadata class except that you use the new AutoNumberFormat property. Use the AutoNumberFormat property to define a pattern that includes sequential numbers and random strings by composing placeholders, which indicates the length and type of values that are generated."
 keywords: Auto-number attributes
-ms.date: 06/13/2018
+ms.date: 04/03/2020
 ms.service: crm-online
 ms.topic: article
 applies_to: 
@@ -36,7 +36,7 @@ Autonumber sequencing is managed by SQL and is ensured to be unique.
 >Autonumber values are preselected by the database when the record is started. If a 
 >record is started but cancelled, the number it was assigned is not used. If, during this 
 >time, another record is completed with the next sequential number, gaps will be 
->present in the >autonumbering of records.
+>present in the autonumbering of records.
 
 > [!NOTE]
 >You can modify an existing format text attribute to be an auto-number format.
