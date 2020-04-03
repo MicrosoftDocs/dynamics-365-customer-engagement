@@ -16,8 +16,6 @@ ms.custom:
 
 # Preview: Sentiment monitoring
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 Sentiment analysis enables agents and supervisors to understand real-time and historical customer sentiment across channels to improve customer service. Omnichannel for Customer Service uses natural language processing (NLP) and machine learning (ML) algorithms to understand customer sentiments.
