@@ -52,7 +52,7 @@ Perform the following steps to create a work stream for the SMS channel for Twil
 
 3. Select **New**. The **New Work Stream** page appears.
 
-4. In the **General information** area, do the following:
+4. In the **General information** area, enter the following details:
 
     - **Channel**: Select **SMS**.
     - **Auto-close after inactivity**: Select a value that indicates a duration of eight hours or more.
@@ -63,7 +63,7 @@ Perform the following steps to create a work stream for the SMS channel for Twil
    > [!div class=mx-imgBorder]
    > ![Works stream settings for Twilio](../media/sms-twilio.png "Work stream settings for Twilio")
 
-6. On the **SMS Settings** tab, do the following:
+6. On the **SMS Settings** tab, enter the following details:
 
     - **SMS Provider**: Select **Twilio**.
     - **Account SID**: Enter the Twilio ACCOUNT SID.
@@ -74,7 +74,7 @@ Perform the following steps to create a work stream for the SMS channel for Twil
    > [!div class=mx-imgBorder]
    > ![SMS settings for Twilio](../media/sms-settings-twilio.png "SMS settings for Twilio")
 
-8. On the **SMS Numbers** tab, select **New SMS Number**, and then do the following:
+8. On the **SMS Numbers** tab, select **New SMS Number**, and then enter the following details:
 
     - **Number**: Specify the support phone number that you purchased from Twilio in the *<country_code><phone_number>* format, such as 14252306549. Make sure that you don't enter blank spaces or special characters.
     - **Type**: Select **Long code**.
