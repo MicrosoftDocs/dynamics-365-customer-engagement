@@ -76,7 +76,7 @@ At times, you may need to manually assign a conversation that is in an open stat
 3.	Choose a conversation in an **Open** state, and select **Assign**.
 
     > [!div class=mx-imgBorder]
-    > ![Select Assign option](../media/assign-agents-conversation.png "Select Assign option")
+    > ![Select Assign option](../media/assign-agents-conversations.png "Select Assign option")
 
 4. Choose one of the following options:
   - Assign to agent: This assigns the conversation to a particular agent. The agent list contains only those agents who are part of the same queue as the conversation.
