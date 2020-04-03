@@ -102,29 +102,32 @@ To use the co-browsing and screen sharing features, your administrator must have
 
 When you're chatting with a customer, you can initiate a co-browsing or screen sharing session by doing the following: 
 
-1. Click the computer monitor icon next to the end button in the upper part of the agent chat window.
-2. An app tab opens, providing a way to sign in to the third-party provider and create a new session.
+1. Select the computer icon (co-browse or screen share) next to the **End** button in the communication panel. 
+
+    An app tab opens, providing a way to sign in to the third-party provider and create a new session.
+
    > [!Note]
    > The sign-in experience will vary depending upon the co-browse or screen share provider selected by your administrator. Refer to the third-party provider's documentation for more information about initiating co-browsing or screen sharing sessions.
-3. The provider may supply a password or PIN to share with the user.
-4. In the chat window, provide the user with the necessary information to proceed.
-5. Ask the customer to enter the password or PIN, if applicable, and accept the invitation to co-browse or share their screen.
 
-> [!div class=mx-imgBorder]
-> ![Agent requests a co-browse session during live chat](../../media/third-party-co-browse-agent-chat.png "Agent requests a co-browse session during live chat")
+3. In the communication panel, share the password or pin with the customer that you received from the provider. 
 
-Once the user accepts your invitation, you will be able to see the customer's screen and more accurately diagnose the issue.
+4. Ask the customer to enter the password or PIN, if applicable, and accept the invitation to co-browse or share their screen.
+
+    > [!div class=mx-imgBorder]
+    > ![Agent requests a co-browse session during live chat](../../media/third-party-co-browse-agent-chat.png "Agent requests a co-browse session during live chat")
+
+Once the customer accepts your invitation, you will be able to see the customer's screen and more accurately diagnose the issue.
 
 When you enter a co-browse session, you can:
 
-* See the customer's screen
-* Use a laser pointer to call attention to important items
-* Navigate and make changes within the customer's browser
+- See the customer's screen.
+- Use a laser pointer to call attention to important items.
+- Navigate and make changes within the customer's browser.
 
 When you enter a screen sharing session, you can:
 
-* See the customer's screen
-* Use a laser pointer to call attention to important items 
+- See the customer's screen.
+- Use a laser pointer to call attention to important items. 
 
 The customer experience will vary depending upon the co-browse or screen share provider selected by your administrator.
 

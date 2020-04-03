@@ -14,7 +14,7 @@ ms.custom:
   - ""
 ---
 
-# Preview: Sentiment monitoring
+# Sentiment monitoring
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
