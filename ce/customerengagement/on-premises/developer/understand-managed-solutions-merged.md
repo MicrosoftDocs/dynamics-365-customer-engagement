@@ -2,7 +2,7 @@
 title: "Understand how managed solutions are merged (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "To avoid multiple installed solutions from interfering with one another, follow best practices while constructing a solution"
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 04/02/2020
 ms.reviewer: "pehecke"
 ms.service: crm-online
 ms.suite: 
@@ -21,6 +21,8 @@ search.app:
   - D365CE
 ---
 # Understand how managed solutions are merged
+
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Understand how managed solutions are merged](/powerapps/developer/common-data-service/understand-managed-solutions-merged).
 
 When you prepare your managed solution to be installed, remember that an organization may have multiple solutions installed or that other solutions may be installed in the future. Construct a solution that follows best practices so that your solution will not interfere with other solutions.  
   
