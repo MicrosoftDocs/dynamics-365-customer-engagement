@@ -87,7 +87,7 @@ This is a test web app for emulating the device that is sending commands or rece
 
 [Azure SQL Database](https://azure.microsoft.com/services/sql-database/}
 
-Connected Customer Service uses SQL Azure to store device heartbeat messages for later use by PowerBI to show the status of devices in Dynamics 365 for Customer Engagement.
+Connected Customer Service uses SQL Azure to store device heartbeat messages for later use by Power BI to show the status of devices in Dynamics 365 for Customer Engagement.
 
 [Azure Blob Storage](https://azure.microsoft.com/services/storage/)
 
@@ -127,7 +127,7 @@ The following is a list of Connected Customer Service actions that agents can ta
 6. **Check real-time device readings**: Agents can check real-time device readings. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a realtime device readings summary](media/cs-iot-realtime-device-reading.png)
+> ![Screenshot of a real-time device readings summary](media/cs-iot-realtime-device-reading.png)
 
 7. **View case histories on devices**: Agents can check a case history on a device. 
 
