@@ -1,7 +1,7 @@
 ---
 title: "Work with solutions (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 04/02/2020
 ms.reviewer: "pehecke"
 ms.service: crm-online
 ms.suite: 
@@ -20,6 +20,8 @@ search.app:
   - D365CE
 ---
 # Work with solutions
+
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Work with solutions](/powerapps/developer/common-data-service/work-solutions).
 
 This topic presents specific programming tasks included in [Sample: Work With Solutions](sample-work-solutions.md) and [Sample: Detect Solution Dependencies](sample-detect-solution-dependencies.md).  
   
@@ -71,15 +73,15 @@ This topic presents specific programming tasks included in [Sample: Work With So
   
 <a name="BKMK_RetrieveASolution"></a>   
 ## Retrieve a solution  
- To retrieve a specific solution you can use the solution’s `UniqueName`. Each organization will have a default solution with a constant GUID value: `FD140AAF-4DF4-11DD-BD17-0019B9312238`.  
+ To retrieve a specific solution you can use the solution's `UniqueName`. Each organization will have a default solution with a constant GUID value: `FD140AAF-4DF4-11DD-BD17-0019B9312238`.  
   
- This sample shows how to retrieve data for a solution with the unique name ”samplesolution”. A solution with this name is created in [Create a Solution](work-solutions.md#BKMK_CreateASolution).  
+ This sample shows how to retrieve data for a solution with the unique name "samplesolution". A solution with this name is created in [Create a Solution](work-solutions.md#BKMK_CreateASolution).  
   
  [!code-csharp[Solutions#WorkWithSolutions4](../snippets/csharp/CRMV8/solutions/cs/workwithsolutions4.cs#workwithsolutions4)] 
   
 <a name="BKMK_AddANewSolutionComponent"></a>   
 ## Add a new solution component  
- This sample shows how to create a solution component that is associated with a specific solution. If you don’t associate the solution component to a specific solution when it is created it will only be added to the default solution and you will need to add it to a solution manually or by using the code included in the [Add an Existing Solution Component](work-solutions.md#BKMK_AddExistingSolutionComponent).  
+ This sample shows how to create a solution component that is associated with a specific solution. If you don't associate the solution component to a specific solution when it is created it will only be added to the default solution and you will need to add it to a solution manually or by using the code included in the [Add an Existing Solution Component](work-solutions.md#BKMK_AddExistingSolutionComponent).  
   
  This code creates a new global option set and adds it to the solution with a unique name equal to `_primarySolutionName`.  
   
@@ -303,3 +305,4 @@ This topic presents specific programming tasks included in [Sample: Work With So
  [Solution Entities](solution-entities.md)   
  [Sample: Work With Solutions](sample-work-solutions.md)   
  [Sample: Detect Solution Dependencies](sample-detect-solution-dependencies.md)
+ 
