@@ -98,7 +98,7 @@ ms.topic: article
    > [!div class=mx-imgBorder]
    > ![Custom messages in a chat widget](../media/oc-chat-widget-custom-messages-tab.png "View and add custom messages in a chat widget")
 
-11. On the **Related** tab, view activity associated with your chat widget, such as survey responses, chat widget locations, and system messages. More information: [Related tab](chat-related.md)
+11. On the **Related** tab, view activity associated with your chat widget, such as survey responses, chat widget locations, and system messages. 
 
    > [!div class=mx-imgBorder]
    > ![Related chat widget activity](../media/oc-chat-widget-related-tab.png "Related chat widget activity")
