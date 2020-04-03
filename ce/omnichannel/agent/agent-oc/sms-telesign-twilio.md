@@ -10,7 +10,7 @@ ms.service:
 ms.topic: article
 ---
 
-# Use SMS channels
+# Use an SMS channel
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
