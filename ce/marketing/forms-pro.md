@@ -24,7 +24,7 @@ search.app:
 
 # Forms Pro integration with Dynamics 365 Marketing
 
-Surveys are a critical feedback component for customer-obsessed organizations. Dynamics 365 Marketing with [Forms Pro](https://docs.microsoft.com/forms-pro/) integration brings a rich set of capabilities for asking for feedback about your customers' needs. These survey capabilities help you make data-driven decisions and apply your findings to your marketing initiatives. Marketers can automate survey experiences and leverage data generated from surveys for advanced segmentation and customer profiling.
+Surveys are a critical feedback component for customer-obsessed organizations. Dynamics 365 Marketing with [Forms Pro](https://docs.microsoft.com/forms-pro/) integration brings a rich set of capabilities for asking for feedback about your customers' needs. These survey capabilities help you make data-driven decisions and apply your findings to your marketing initiatives. Marketers can automate survey experiences and use data generated from surveys for advanced segmentation and customer profiling.
 
 ## Create your survey in Forms Pro
 
@@ -40,13 +40,13 @@ To use Forms Pro survey data in segments:
 1. Create a new [dynamic segment](segmentation-lists-subscriptions.md#create-and-go-live-with-a-new-segment) by clicking **New** > **New Dynamic Segment** in the top menu.
 1. You can choose from Forms Pro data options depending on whether you create an [interaction based or a profile based segment](segmentation-lists-subscriptions.md#segments-in-dynamics-365-marketing).
 
-    Interaction based segment Forms Pro options:
+    Interaction-based segment Forms Pro options:
 
-    ![Interaction based segment Forms Pro](media/forms-pro-interaction.png "Interaction based segment Forms Pro")
+    ![Interaction-based segment Forms Pro](media/forms-pro-interaction.png "Interaction based segment Forms Pro")
 
-    Profile based segment Forms Pro options:
+    Profile-based segment Forms Pro options:
 
-    ![Profile based segment Forms Pro](media/forms-pro-profile.png "Profile based segment Forms Pro")
+    ![Profile-based segment Forms Pro](media/forms-pro-profile.png "Profile based segment Forms Pro")
 
 ## Forms Pro survey links in email messages
 
