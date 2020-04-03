@@ -51,7 +51,7 @@ Next, deploy and connect Azure IoTHub to your Customer Service environment by go
 
   
 ### Set up the sample simulator (optional)  
- To find the simulator URL , sign in to your Azure subscription, and then select the App Service resource type under the newly created resource group. You’ll see the URL is in the top right corner. Copy the URL and complete the following steps:  
+ To find the simulator URL, sign in to your Azure subscription, and then select the App Service resource type under the newly created resource group. You’ll see the URL is in the top-right corner. Copy the URL and complete the following steps:  
   
 1. Paste the URL into your browser’s address bar to load the page.  
   
@@ -125,7 +125,7 @@ Next, deploy and connect Azure IoTHub to your Customer Service environment by go
   
 6.  Save the dashboard, and then share it with any users who have permissions to see the dashboard and tiles.  
   
-    -   In the top right corner of the dashboard, click **Share**, enter the users email address, and click the **Share** button .  
+    -   In the top-right corner of the dashboard, click **Share**, enter the users email address, and click the **Share** button.  
   
 #### Pin the tile in Dynamics 365  
   
