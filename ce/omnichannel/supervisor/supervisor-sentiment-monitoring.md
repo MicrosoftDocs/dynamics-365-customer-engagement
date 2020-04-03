@@ -14,9 +14,7 @@ ms.custom:
   - ""
 ---
 
-# Preview: Sentiment monitoring
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+# Sentiment monitoring
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
