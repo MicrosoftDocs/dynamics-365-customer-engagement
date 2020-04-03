@@ -110,11 +110,11 @@
 
 ### Create marketing emails
 #### [Email marketing overview](prepare-marketing-emails.md)
-#### [Early access: Improved email content designer](email-design-update.md)
 #### [Create a new email and design its content](email-design.md)
 #### [Add dynamic content to email messages](dynamic-email-content.md)
 #### [Set the sender, receiver, language, and legal designation](email-properties.md)
 #### [Check your work using previews and test sends](email-preview.md)
+#### [Email accessibility checker](email-accessibility.md)
 #### [Check for errors, go live, and deliver](email-check-golive.md)
 #### [Quickly design and deliver marketing emails with "send now"](email-send-now.md)
 #### [Preview: Check your spam score](spam-score.md)
