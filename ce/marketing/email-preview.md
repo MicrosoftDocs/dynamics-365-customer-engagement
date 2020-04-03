@@ -1,7 +1,7 @@
 ---
 title: "Preview and test send an email message design (Dynamics 365 Marketing) | Microsoft Docs "
 description: "Learn how to use in-app previews and test sends to inspect and test your email message design in Dynamics 365 Marketing"
-ms.date: 08/21/2019
+ms.date: 04/03/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -11,7 +11,7 @@ author: alfergus
 ms.author: alfergus
 manager: shellyha
 ms.reviewer:
-topic-status: Drafting
+topic-status:
 search.audienceType: 
   - admin
   - customizer
@@ -27,12 +27,11 @@ Your marketing email messages will probably be seen by many potential customers,
 
 > [!IMPORTANT]
 > Previews and test sends give you a fast, convenient way to test your design. However, not all features work with previews and test sends. The following limitations apply:
-> 
-> - Dynamic data from [related records and lookups](dynamic-email-content.md#assist-edit) isn't shown.
+>
 > - [For-each loops](dynamic-email-content.md#for-each) don't render.
 > - [Subscription center links](set-up-subscription-center.md#test-sub-center) will open the subscription center page, but the page won't function.
 > - You can't test send [confirmation-request messages](double-opt-in.md).
-> 
+>
 > To test these features, create a simple customer journey that targets a very small segment (such as one that includes a single contact with your email address) and sends the message  you want to test.
 
 ## Preview your message in the designer
@@ -70,6 +69,16 @@ The **Inbox Preview** tab displays a grid of icons, each labeled with the name o
 
 > [!NOTE]
 > Litmus must be enabled for your instance before you can use it. More information: [Configure default marketing settings](mkt-settings-default-marketing.md)
+
+## Preview dynamic text from contact information
+
+The email preview resolves dynamic text from a selected sample contact record, allowing you to see exactly how an email message will look when it arrives in the recipient's inbox.
+
+After you've [added dynamic content](dynamic-email.content.md) such as a contact's first name in the subject line, go to **Designer** > **Preview** > **Properties**. In the **Contact** box, select a contact whose information you'd like to use for the preview. The preview will automatically refresh and then display the resolved dynamic text from the contact that you chose.
+
+You can even test send (see below) messages with dynamic data including dynamic field values, entity relationships, loops, and conditionals.
+
+![Test send dynamic data](media/email-dynamic-test-send.png "Test send dynamic data")
 
 ## Send a test message
 

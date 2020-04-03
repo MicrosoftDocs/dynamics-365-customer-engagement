@@ -23,7 +23,7 @@ search.app:
 
 [!include[cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
 
-In 2020 release wave 1, the Customer Service Hub solution that is built on the Unified Interface framework will be automatically installed in all the environments that have the web client installed.
+In 2020 release wave 1, the Customer Service Hub solution, built on the Unified Interface framework, will be automatically installed in the environments that have out-of-the-box, Dynamics 365 model-driven apps, such as Customer Service and Sales Hub.
 
 The salient features of the integrated solution are as follows:
 

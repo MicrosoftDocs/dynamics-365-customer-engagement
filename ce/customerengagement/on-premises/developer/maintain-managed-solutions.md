@@ -1,7 +1,7 @@
 ---
 title: "Maintain managed solutions (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 04/02/2020
 ms.reviewer: "pehecke"
 ms.service: crm-online
 ms.suite: 
@@ -20,6 +20,8 @@ search.app:
   - D365CE
 ---
 # Maintain managed solutions
+
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Maintain managed solutions](/powerapps/developer/common-data-service/maintain-managed-solutions).
 
 Before you release your managed solution you should consider how you will maintain it. Uninstalling and reinstalling a managed solution is practically never an option when the solution contains entities or attributes. This is because data is lost when entities are deleted. Fortunately, solutions provide a way to update your managed solution while maintaining the data. Exactly how you update your solutions will depend on the characteristics of the solution and the requirements of the change.  
 
@@ -55,7 +57,7 @@ Before you release your managed solution you should consider how you will mainta
 ### Release an update for your managed solution  
  When only a small subset of solution components urgently requires a change you can release an update to address the issue. To release an update, create a new unmanaged solution and add any components from the original unmanaged source solution that you want to update. You must associate the new unmanaged solution with the same publisher record as was used for the original solution. After you finish with your changes, package the new solution as a managed solution.  
   
- When the update solution is installed in an organization where the original solution was installed the changes included in the update will be applied to the organization. If an organization needs to ‘roll back’ to the original version they can simply uninstall the update.  
+ When the update solution is installed in an organization where the original solution was installed the changes included in the update will be applied to the organization. If an organization needs to 'roll back' to the original version they can simply uninstall the update.  
   
  Any customizations applied to the solution components in the update will be overridden. When you uninstall the update they will return.  
   

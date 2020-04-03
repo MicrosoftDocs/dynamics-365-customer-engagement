@@ -110,11 +110,11 @@
 
 ### Create marketing emails
 #### [Email marketing overview](prepare-marketing-emails.md)
-#### [Early access: Improved email content designer](email-design-update.md)
 #### [Create a new email and design its content](email-design.md)
 #### [Add dynamic content to email messages](dynamic-email-content.md)
 #### [Set the sender, receiver, language, and legal designation](email-properties.md)
 #### [Check your work using previews and test sends](email-preview.md)
+#### [Email accessibility checker](email-accessibility.md)
 #### [Check for errors, go live, and deliver](email-check-golive.md)
 #### [Quickly design and deliver marketing emails with "send now"](email-send-now.md)
 #### [Preview: Check your spam score](spam-score.md)
@@ -151,8 +151,8 @@
 
 ### Work with customer journeys
 #### [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)
-#### [Early access: Export to Excel for further analysis](export-journey.md)
-#### [Early access: Set expiration dates for emails](email-expire.md)
+#### [Export to Excel for further analysis](export-journey.md)
+#### [Set expiration dates for emails](email-expire.md)
 #### [Preview: Use smart scheduler to help improve email engagement](smart-scheduler.md)
 #### [Create and manage customer journey templates](journey-templates.md)
 #### [Create an inbound customer journey](create-inbound-customer-journey.md)

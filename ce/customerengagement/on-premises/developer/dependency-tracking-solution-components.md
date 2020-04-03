@@ -2,7 +2,7 @@
 title: "Dependency tracking for solution components (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "Solution component dependencies help make sure you have a reliable experience working with solutions. They can be viewed in the application by clicking Show Dependencies"
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 04/02/2020
 ms.reviewer: "pehecke"
 ms.service: crm-online
 ms.suite: 
@@ -31,15 +31,17 @@ search.app:
 ---
 # Dependency tracking for solution components
 
-Solutions are made of solution components. You’ll use the **Solutions** area in Dynamics 365 Customer Engagement (on-premises) to create or add solution components. You can perform these actions programmatically by using the <xref:Microsoft.Crm.Sdk.Messages.AddSolutionComponentRequest> message or any messages that create or update solution components that include a `SolutionUniqueName` parameter.  
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Dependency tracking for solution components](/powerapps/developer/common-data-service/dependency-tracking-solution-components).
+
+Solutions are made of solution components. You'll use the **Solutions** area in Dynamics 365 Customer Engagement (on-premises) to create or add solution components. You can perform these actions programmatically by using the <xref:Microsoft.Crm.Sdk.Messages.AddSolutionComponentRequest> message or any messages that create or update solution components that include a `SolutionUniqueName` parameter.  
   
- Solution components often depend on other solution components. You can’t delete any solution component that has dependencies on another solution component. For example, a customized ribbon typically requires image or script web resources to display icons and perform actions using scripts. As long as the customized ribbon is in the solution, the specific web resources it uses are required. Before you can delete the web resources you must remove references to them in the customized ribbon. These solution component dependencies can be viewed in the application by clicking **Show Dependencies**.  
+ Solution components often depend on other solution components. You can't delete any solution component that has dependencies on another solution component. For example, a customized ribbon typically requires image or script web resources to display icons and perform actions using scripts. As long as the customized ribbon is in the solution, the specific web resources it uses are required. Before you can delete the web resources you must remove references to them in the customized ribbon. These solution component dependencies can be viewed in the application by clicking **Show Dependencies**.  
   
  This topic describes the types of solution components you can include in your solutions and how they depend on each other.  
   
 <a name="bkmk_SolutionComponents"></a>   
 ## All solution components  
- The complete list of available solutions component types is located in the system `componenttype` global option set. The supported range of values for this property is available by including the file SampleCode\CS\HelperCode\OptionSets.cs or SampleCode\VB\HelperCode\OptionSets.vb in your project. However, many of the solution component types listed there are for internal use only and the list doesn’t provide information about the relationships between solution components.  
+ The complete list of available solutions component types is located in the system `componenttype` global option set. The supported range of values for this property is available by including the file SampleCode\CS\HelperCode\OptionSets.cs or SampleCode\VB\HelperCode\OptionSets.vb in your project. However, many of the solution component types listed there are for internal use only and the list doesn't provide information about the relationships between solution components.  
   
 <a name="BKMK_SolutionComponentDependencies"></a>   
 ## Solution component dependencies  
@@ -53,16 +55,16 @@ Solutions are made of solution components. You’ll use the **Solutions** area i
   
 - Export of a solution warns the user if there are any missing components that could cause failure when importing that solution in another system.  
   
-   Warnings during export can be ignored if the solution developer intends that the solution is only to be installed in an organization where dependent components are expected to exist. For example, when you create a solution that is designed to be installed over a pre-installed ”base” solution.  
+   Warnings during export can be ignored if the solution developer intends that the solution is only to be installed in an organization where dependent components are expected to exist. For example, when you create a solution that is designed to be installed over a pre-installed "base" solution.  
   
-- Import of a solution fails if all required components aren’t included in the solution and also don’t exist in the target system.  
+- Import of a solution fails if all required components aren't included in the solution and also don't exist in the target system.  
   
   -   Additionally, when you import a managed solution all required components must match the package type of the solution. A component in a managed solution can only depend on another managed component.  
   
   There are three types of solution component dependencies:  
   
   **Solution Internal**  
-  Internal dependencies are managed by Dynamics 365 Customer Engagement (on-premises). They exist when a particular solution component can’t exist without another solution component.  
+  Internal dependencies are managed by Dynamics 365 Customer Engagement (on-premises). They exist when a particular solution component can't exist without another solution component.  
   
   **Published**  
   Published dependencies are created when two solution components are related to each other and then published. To remove this type of dependency, the association must be removed and the entities published again.  
@@ -72,13 +74,13 @@ Solutions are made of solution components. You’ll use the **Solutions** area i
   
   Solution internal dependencies are dependencies where actions with a solution component require an action for another solution component. For example, if you delete an entity, you should expect that all the entity attributes will be deleted with it. Any entity relationships with other entities will also be deleted.  
   
-  However, an internal dependency may lead to a published dependency and still require manual intervention. For example, if you include a lookup field on an entity form and then delete the primary entity in the relationship, you can’t complete that deletion until you remove the lookup field from the related entity form and then publish the form.  
+  However, an internal dependency may lead to a published dependency and still require manual intervention. For example, if you include a lookup field on an entity form and then delete the primary entity in the relationship, you can't complete that deletion until you remove the lookup field from the related entity form and then publish the form.  
   
   When you perform actions programmatically with solutions, you can use messages related to the `Dependency` entity. See [Dependency Entity](entities/dependency.md) for messages you can use to identify dependencies that may exist before you delete a component or uninstall a solution.  
   
 <a name="BKMK_CheckForSolutionComponentDependencies"></a>   
 ## Check for solution component dependencies  
- When you edit solutions you may find that you can’t delete a solution component because it has a published dependency with another solution component. Or, you may not be able to uninstall a managed solution because one of the components in the managed solution has been used in a customization in another unmanaged solution.  
+ When you edit solutions you may find that you can't delete a solution component because it has a published dependency with another solution component. Or, you may not be able to uninstall a managed solution because one of the components in the managed solution has been used in a customization in another unmanaged solution.  
   
  The following table lists the messages that you can use to retrieve data about solution component dependencies.  
   
@@ -91,7 +93,7 @@ Solutions are made of solution components. You’ll use the **Solutions** area i
   
 <a name="BKMK_RootSolutionComponents"></a>   
 ## Common Solution components  
- These are the solution components displayed in the application and the components that you’ll work with directly when adding or removing solution components using the solution page. Each of the other types of solution components will depend on one or more of these solution components to exist.  
+ These are the solution components displayed in the application and the components that you'll work with directly when adding or removing solution components using the solution page. Each of the other types of solution components will depend on one or more of these solution components to exist.  
   
 ||||  
 |-|-|-|  
@@ -104,7 +106,7 @@ Solutions are made of solution components. You’ll use the **Solutions** area i
   
 <a name="BKMK_RibbonCustomization"></a>   
 ### Application ribbons (RibbonCustomization)  
- Ribbon customizations for the application ribbon and entity ribbon templates. Application ribbons don’t include definitions of ribbons at the entity or form level.  
+ Ribbon customizations for the application ribbon and entity ribbon templates. Application ribbons don't include definitions of ribbons at the entity or form level.  
   
  Custom application ribbons frequently have published dependencies on web resources. Web resources are used to define ribbon button icons and [!INCLUDE[pn_JScript](../includes/pn-jscript.md)] functions to control when ribbon elements are displayed or what actions are performed when a particular ribbon control is used. Dependencies are only created when the ribbon definitions use the `$webresource:` directive to associate the web resource to the ribbon. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [$webresource directive](web-resources.md#BKMK_WebResourceDirective)  
   
@@ -126,7 +128,7 @@ Solutions are made of solution components. You’ll use the **Solutions** area i
   
 <a name="BKMK_EmailTemplate"></a>   
 ### Email template (EmailTemplate)  
- Template that contains the standard attributes of an email message. An email template typically includes fields that insert data from specified entity attributes. An email template can be linked to a specific entity when it is created so there can be an internal dependency on the entity. A global email template isn’t associated with a specific entity, but it may have published dependencies on entity attributes used to provide data. A process (workflow) frequently is configured to send an email using an email template creating a published dependency with the workflow.  
+ Template that contains the standard attributes of an email message. An email template typically includes fields that insert data from specified entity attributes. An email template can be linked to a specific entity when it is created so there can be an internal dependency on the entity. A global email template isn't associated with a specific entity, but it may have published dependencies on entity attributes used to provide data. A process (workflow) frequently is configured to send an email using an email template creating a published dependency with the workflow.  
   
 <a name="BKMK_Entity"></a>   
 ### Entity (Entity)  
@@ -138,11 +140,11 @@ Solutions are made of solution components. You’ll use the **Solutions** area i
   
 <a name="BKMK_MailMergeTemplate"></a>   
 ### Mail merge template (MailMergeTemplate)  
- Template that contains the standard attributes of a mail merge document. A mail merge template has a published dependency on the entity it’s associated with.  
+ Template that contains the standard attributes of a mail merge document. A mail merge template has a published dependency on the entity it's associated with.  
   
 <a name="BKMK_OptionSet"></a>   
 ### Option set (OptionSet)  
- An option set defines a set of options. A picklist attribute uses an option set to define the options provided. Several picklist attributes may use a global option set so that the options they provide are always the same and can be maintained in one place. A published dependency occurs when a picklist attribute references a global option set. You can’t delete a global option set that is being used by a picklist attribute.  
+ An option set defines a set of options. A picklist attribute uses an option set to define the options provided. Several picklist attributes may use a global option set so that the options they provide are always the same and can be maintained in one place. A published dependency occurs when a picklist attribute references a global option set. You can't delete a global option set that is being used by a picklist attribute.  
   
 <a name="BKMK_PluginAssembly"></a>   
 ### Plug-in assembly (PluginAssembly)  
@@ -150,7 +152,7 @@ Solutions are made of solution components. You’ll use the **Solutions** area i
   
 <a name="BKMK_Workflow"></a>   
 ### Process (Workflow)  
- Set of logical rules that define the steps necessary to automate a specific business process, task, or set of actions to be performed. Processes provide a wide range of actions that create published dependencies on any other solution component referenced by the process. Each process also has a published dependency on the entity it’s associated with.  
+ Set of logical rules that define the steps necessary to automate a specific business process, task, or set of actions to be performed. Processes provide a wide range of actions that create published dependencies on any other solution component referenced by the process. Each process also has a published dependency on the entity it's associated with.  
   
 <a name="BKMK_Report"></a>   
 ### Report (Report)  
@@ -180,7 +182,7 @@ Solutions are made of solution components. You’ll use the **Solutions** area i
  Data equivalent to files used in web development. Web resources provide client-side components that are used to provide custom user interface elements. Web resources may have published dependencies with entity forms, ribbons and the SiteMap. When the `$webresource:` directive is used to establish associations in a ribbon or the SiteMap, a published dependency is created. For more information, see [$webresource directive](web-resources.md#BKMK_WebResourceDirective).  
   
 > [!NOTE]
->  Web resources may depend on other web resources based on relative links. For example, an HTML web resource may use a CSS or script web resource. A [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resource displayed outside of an entity form or chart must have an HTML web resource to host it. These dependencies aren’t tracked as solution dependencies.  
+>  Web resources may depend on other web resources based on relative links. For example, an HTML web resource may use a CSS or script web resource. A [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resource displayed outside of an entity form or chart must have an HTML web resource to host it. These dependencies aren't tracked as solution dependencies.  
   
 ### See also  
  [Package and Distribute Extensions with Dynamics 365 Customer Engagement (on-premises) Solution](package-distribute-extensions-use-solutions.md)   
