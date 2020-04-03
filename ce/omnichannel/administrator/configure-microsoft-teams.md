@@ -4,7 +4,7 @@ description: "Learn about the Microsoft Teams channel and how to configure the c
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/01/2020
+ms.date: 04/03/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -33,32 +33,12 @@ Make sure that the following prerequisites are met:
 - Teams is provisioned in your environment. For information, see [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
   > [!NOTE]
   >
-  > To enable Teams channel in an existing Omnichannel environment, you must upgrade to the latest version of Omnichannel for Customer Service. For more information, see [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md).
+  > To enable the Teams channel in an existing Omnichannel environment, you must upgrade to the latest version of Omnichannel for Customer Service. For more information, see [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md).
 - An app is created and configured in **Teams** > **App Studio**.
 
 ## Configure a Microsoft Teams channel in Omnichannel
 
-### Step 1: Create a work stream
-
-Perform the following steps to create a work stream:
-
-1. Sign in to Omnichannel Administrator.
-2. Select **Work Streams** under** Work Distribution Management**.
-3. Select **New**. The **New Work Stream** page appears.
-4. Specify details in the **General information** and **Work distribution** sections. For information, see [Understand and create work streams](work-streams-introduction.md).
-5. Select **Teams** in **Channels**.
-6. Select **Save**. The work stream for Teams is saved.
-
-> [!NOTE]
->
-> To configure other options in the work stream, see the following:
->
-> - [Skill-based routing](overview-skill-work-distribution.md)
-> - [Productivity tools](productivity-tools.md)
-> - [Smart assist](smart-assist.md)
-> - [Templates](templates-overview.md)
-
-### Step 2: Create a Teams channel
+### Create a Teams channel
 
 Perform the following steps to create a Teams channel in Omnichannel.
 
@@ -67,13 +47,13 @@ Perform the following steps to create a Teams channel in Omnichannel.
 2. In **Step 1: Account details**, enter the following details:
    - **Name:** Specify a name for the channel.
    - **Owner:** Accept the default value or specify a different value.
-3. In **Step 2: Work distribution**, select the work stream that you created for Teams.
+3. In **Step 2: Work distribution**, select the out-of-the-box work stream for Teans. Alternatively, you can create a [work stream](work-streams-introduction.md) for Teams, and associate it with the Teams channel.
 4. Select **Save**. The Teams channel is saved.
 5. In **Step 3: Callback information**, copy the value that is displayed in **Bot ID**.
     > [!div class=mx-imgBorder]
     > ![Create a Teams channel](../media/teams-channel.png "Create a Teams channel")
 
-### Step 3: Configure Teams details
+### Configure Teams details
 
 Perform the following steps to configure the Omnichannel information in the Teams app:
 
