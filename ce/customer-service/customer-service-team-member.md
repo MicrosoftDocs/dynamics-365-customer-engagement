@@ -4,7 +4,7 @@ description: Customer Service Team Member app
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 02/10/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -19,8 +19,6 @@ search.app:
   - D365CS
 ---
 # Customer Service Team Member app
-
-[!include[cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
 
 With the entry-level Team Member license, you can now address self-service support scenarios for your employees using the new Customer Service Team Member app module. Employees can create cases for their problems, such as laptop issues, HR queries, and administrative needs, and interact with agents through the commenting feature. They can also search the knowledge base for solutions pertaining to their problems. 
 
@@ -37,8 +35,9 @@ The Customer Service Team Member app must be manually installed in your instance
 
 You can update the default account that appears for employees when they are creating a case. Perform the steps outlined in this section to update the default account.
 
-> [!NOTE]
-> We recommend that you do not modify or update the default account that is available out of the box with the app, and configure a new account and set it as the default.
+> [!IMPORTANT]
+>
+> Do not modify or update the default account that is available out of the box with the app; instead, deactivate the out-of-the-box account, and configure a new account and set it as the default.
 
 1. In your instance, log on to Customer Service Hub as an administrator, and create an account.
 2. Retrieve the account record ID from the URL where you created the account.
@@ -61,10 +60,10 @@ In the Customer Service Team Member app, you can perform the following tasks:
 3. Select **New Case**. The **New Case** page appears.
 4. Enter the following details on the **Summary** tab:
 
-     - **Case Title:** Specify a title.
-     -  **Subject:** Specify the subject.
-     -  **Product:** Select the product category.
-     -  **Description:** Specify a description that summarizes the problem.
+   - **Case Title:** Specify a title.
+   - **Subject:** Specify the subject.
+   - **Product:** Select the product category.
+   - **Description:** Specify a description that summarizes the problem.
 
     > [!NOTE]
     > The **Customer** value is not available for editing; it is mapped to the "Default account" that is configured by your administrator.
@@ -82,7 +81,7 @@ In the Customer Service Team Member app, you can perform the following tasks:
 11. Select **Knowledge Search** to search for articles pertaining to your problem area that may help in addressing the issue. To learn more, see [Independent knowledge base search](search-knowledge-articles-csh.md#independent-knowledge-base-search).
 
     > [!NOTE]
-    > "Send article URLs" is not supported in the Customer Service Team Member app. 
+    > "Send article URLs" is not supported in the Customer Service Team Member app.
 
 12. If you want to close a case after it has been resolved, you can select the case on the **Active Cases created by me** page and click **Close Case**. Alternatively, you can close the case on the **My Case** page.
 
