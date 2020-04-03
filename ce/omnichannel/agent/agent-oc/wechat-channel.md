@@ -1,6 +1,6 @@
 ---
 title: "WeChat channel in Omnichannel Agent Dashboard | MicrosoftDocs"
-description: "Information about WeChat channel in the agent dashboard for Omnichannel for Customer Service."
+description: "Information about using a WeChat channel in the agent dashboard for Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -10,7 +10,7 @@ ms.service:
 ms.topic: article
 ---
 
-# Use WeChat channels
+# Use a WeChat channel
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
