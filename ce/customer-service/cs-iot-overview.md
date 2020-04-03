@@ -4,7 +4,7 @@ description: "Overview of Connected Customer Service."
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
-ms.date: 02/03/2020
+ms.date: 04/03/2020
 ms.topic: article
 ms.service: 
   - "dynamics-365-customerservice"
@@ -16,8 +16,6 @@ applies_to:
 
 
 # Connected Customer Service - Overview
-
-[!INCLUDE[cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
 
 Connected Customer Service enables organizations to transform their service model into a proactive and predictive service model with the availability of IoT diagnostics, IoT device update, and case management on one platform. Agents using Customer Service Hub can diagnose and fix issues remotely, which leads to cost savings and improved customer satisfaction. 
 
@@ -81,18 +79,60 @@ This provides a fully managed, real-time event processing engine that helps to u
 
 [IoT Hub](https://azure.microsoft.com/services/iot-hub/)
 
-Connected Customer Services uses the IoT Hub to manage the state of registered devices. In addition, the IoT Hub sends commands and notifications to connected devices—and tracks message delivery with acknowledgement receipts. Device messages are sent in a durable way to accommodate intermittently connected devices.
+Connected Customer Services uses the IoT Hub to manage the state of registered devices. In addition, the IoT Hub sends commands and notifications to connected devices—and tracks message delivery with acknowledgment receipts. Device messages are sent in a durable way to accommodate intermittently connected devices.
 
 **Simulator**
 
 This is a test web app for emulating the device that is sending commands or receiving commands from the IoT hub.
 
-[Azure SQL Database](https://azure.microsoft.com/services/sql-database/}
+[Azure SQL Database](https://azure.microsoft.com/services/sql-database/)
 
-Connected Customer Service uses SQL Azure to store device heartbeat messages for later use by PowerBI to show the status of devices in Dynamics 365 for Customer Engagement.
+Connected Customer Service uses SQL Azure to store device heartbeat messages for later use by Power BI to show the status of devices in Dynamics 365 for Customer Engagement.
 
 [Azure Blob Storage](https://azure.microsoft.com/services/storage/)
 
 Queries that Stream Analytics uses are stored to Azure Blob storage.
 
 - [Connected Customer Service Device Readings (Preview)](https://docs.microsoft.com/dynamics365/field-service/cfs-visualizations-iot-hub) uses [Azure Time Series Insight (Preview)](https://docs.microsoft.com/azure/time-series-insights/) to store, process, and query IoT devices measurements from IoT Hub.
+
+## User experience for Connected Customer Service
+
+The following is a list of Connected Customer Service actions that agents can take:
+
+1. **Convert an IoT alert to a case**: Agents can convert an IoT alert to a case that includes pre-populated IoT alert details.
+
+  > [!div class="mx-imgBorder"]
+  > ![Screenshot of a case with pre-populated IoT alert details](media/cs-iot-alert-details.png)
+
+2. **View a customer’s device alert history**: Agents can view a customer’s device alert history by selecting the customer’s account. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a customer's device alert history](media/cs-iot-customer-device-alert-history.png)
+
+3. **Create a case with multiple devices**: Agents can create a case by selecting multiple devices. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a case with multiple devices](media/cs-iot-customer-case-multiple-devices.png)
+
+4. **Send commands to IoT devices**: Agents can send commands to IoT devices. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a command sent to an IoT device](media/cs-iot-send-commands-devices.png)
+
+5. **View device history summaries**: Agents can view a device's history summary. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a device's history summary](media/cs-iot-view-device-history-summary.png)
+
+6. **Check real-time device readings**: Agents can check real-time device readings. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a real-time device readings summary](media/cs-iot-realtime-device-reading.png)
+
+7. **View case histories on devices**: Agents can check a case history on a device. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the case history for a device](media/cs-iot-view-case-histories-devices.png)
+
+
+
