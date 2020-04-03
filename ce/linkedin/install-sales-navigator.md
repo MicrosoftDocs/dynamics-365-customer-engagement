@@ -39,6 +39,8 @@ After June 2019 (build version > 9.1.0.6228), we changed the way the LinkedIn Sa
 
     > [!div class="mx-imgBorder"]  
     > ![Advanced Settings link in the site map](../sales-enterprise/media/advanced-settings-option.png "Advanced Settings link in the site map")
+    
+    The **Business Management settings** page opens in a new browser tab.
 
 2. Select **LinkedIn Sales Navigator**.
 3. In the new **Installation** tab that opens, select **Continue** to install the required solutions. It takes a few minutes to complete the installation.
@@ -55,7 +57,10 @@ The following procedure guides administrators to enable default controls for Lin
     > [!div class="mx-imgBorder"]  
     > ![Advanced Settings link in the site map](../sales-enterprise/media/advanced-settings-option.png "Advanced Settings link in the site map")
 
+    The **Business Management settings** page opens in a new browser tab.
+
    ![Clickpath for Business Management settings](media/business-management-settings.png)
+   
 2. Select **LinkedIn Sales Navigator**.
 3. Select the **Enable Sales Navigator integration** control.
    > [!div class="mx-imgBorder"]
@@ -70,6 +75,8 @@ Disabling the integration will stop showing the Sales Navigator controls.
 
     > [!div class="mx-imgBorder"]  
     > ![Advanced Settings link in the site map](../sales-enterprise/media/advanced-settings-option.png "Advanced Settings link in the site map")
+    
+    The **Business Management settings** page opens in a new browser tab.
 
 2. Select **LinkedIn Sales Navigator**.
 3. Select the **Enable Sales Navigator integration** control.
@@ -83,6 +90,8 @@ For leads and contacts that are matched to a LinkedIn member profile, the system
 
     > [!div class="mx-imgBorder"]  
     > ![Advanced Settings link in the site map](../sales-enterprise/media/advanced-settings-option.png "Advanced Settings link in the site map")
+    
+    The **Business Management settings** page opens in a new browser tab.
 
 2. Select **LinkedIn Sales Navigator**.
 3. Select the **Photo refresh** control.
