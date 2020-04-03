@@ -85,7 +85,7 @@ At times, you may need to manually assign a conversation that is in an open stat
     > [!div class=mx-imgBorder]
     > ![Select agent or queue option](../media/assign-agent-queue.png "Select either agent or queue option")
   
- 5. Depending on which option you chose in Step 4, choose the agent or queue, and then click Assign to intiate the invitation for the agent or queue to join the conversation.
+ 5. Depending on which option you chose in Step 4, choose the agent or queue, and then click Assign to send the invitation for the agent or queue to join the conversation.
  
 Supervisors can assign conversations that result in overallocation for an agent. In such cases, the agent's capacity will show the units by which their capacity is exceeded.
 
