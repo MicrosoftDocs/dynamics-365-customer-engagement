@@ -30,9 +30,11 @@ To enable or disable a feature, go to **Settings** > **Advanced settings** > **O
 
 | Feature switch | Preview or production | Link for more information |
 |---|---|---|
+| Accessibility checker | Production | [Email accessibility checker](email-accessibility.md)|
 | Business unit scoping | Production | [Use business units to control access to Marketing records](business-units.md)|
-| Customer journey email expiration | Preview | [Preview: Set expiration dates for selected email tiles in a customer journey](email-expire.md) |
+| Event registration forms | Preview | [Marketing forms for event registration](event-forms.md)|
+| Forms Pro marketing integration | Preview | Not currently used |
 
 > [!IMPORTANT]
 > [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
-> [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
+> [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]
