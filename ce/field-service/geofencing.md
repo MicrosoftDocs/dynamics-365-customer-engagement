@@ -106,7 +106,7 @@ More specific auditing can be configured based on your business needs. You can t
 
 This allows a technician's location data stream to be sent to Dynamics 365 Field Service, which surfaces a technician’s location on the schedule board.
 
-3. Choose I Confirm thisOrganization has the appropriate license
+3. Choose **I Confirm this Organization has the appropriate license**. Location tracking does not require an additional license and is inlcuded with Field Service Mobile.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of disclamer](./media/mobile-geofence-new-disclaimer.png)
