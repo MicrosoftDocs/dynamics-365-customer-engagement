@@ -63,11 +63,12 @@ Enter a **Subject** for your message in the field provided at the top of the pag
 
 ### Other important settings
 
-Once you have a name and subject, you'll be able to start saving your message. Other important settings are also provided above the design, together with the **Subject**, but these should already show default values that should work fine in most situations, including:
+Once you have a name and subject, you'll be able to start saving your message. Other important settings are also provided above the design, together with the **Subject**, but these should already show default values that should work fine in most situations. To access all the header and preheader settings, click the expand caret to the right of the **To** box. The settings include:
 
 - **To**: This must contain an expression for finding each address the message will be sent to. This should almost always be the dynamic expression provided by default, which is `{{contact.emailaddress1}}`.
 - **From name**: This is the name that recipients will see as the sender when they receive the message. By default, this is the name of the user who created the message. Recipients are more likely to open your message if they see a name they recognize here.
 - **From address**: This is the email address for the person who sent the message. By default, this is the email address of the user who created the message. The domain shown here should be authenticated as belonging to your organization, which can have a dramatic impact on deliverability.
+- **Preview text**: Preview text allows you to create a custom preheader that displays in your recipient's inbox before they open the email message. The preheader is your chance to create a line that grabs the recipient's attention as soon as they see your message.
 
 Each of these settings is repeated on the **Summary** tab. For complete details about how to use these settings, see [Set the sender, receiver, language and legal designation for a message](email-properties.md). We recommend that you don't change any of these settings until you've read that topic.
 
