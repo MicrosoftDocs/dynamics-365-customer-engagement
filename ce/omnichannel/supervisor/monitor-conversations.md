@@ -1,22 +1,24 @@
 ---
-title: "Monitor conversations as a supervisor | MicrosoftDocs"
+title: "Monitor and assign conversations as a supervisor | MicrosoftDocs"
 description: "Learn how to monitor conversations as a supervisor"
-author: neeranelli
-ms.author: nenellim
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
-ms.date: 12/31/2019
+ms.date: 04/03/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
 ---
 
-# Monitor conversations
+# Monitor and assign conversations
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 As a supervisor, you can monitor the conversations that are being handled by agents. Monitoring the conversations helps you in identifying the conversations that need your attention to provide your expertise or suggestions to close. You can select a conversation from the dashboard and choose the **Monitor** action from the grid command bar. You can also join a conversation. When you join, notifications about your presence are sent to the agent and customer who are in the conversation. You join the conversation in consult mode, which enables you to provide your expertise to the agent who is interacting with the customer.
 
-Use the **Omnichannel Ongoing Conversations** dashboard to monitor conversations between customers and agents. To learn more, see [Omnichannel Ongoing Conversations dashboard](ongoing-conversations-dashboard.md).
+As a supervisor, if your administrator has enabled the **Assign** feature, you can also manually assign conversations to agents in cases where a conversation is not assigned. Only conversations that are in an open state can be assigned by supervisors.
+
+Use the **Omnichannel Ongoing Conversations** dashboard to access the Monitor and Assign features. To learn more, see [Omnichannel Ongoing Conversations dashboard](ongoing-conversations-dashboard.md).
 
 The following screenshot is an example of Omnichannel Ongoing Conversations:
 
@@ -27,7 +29,7 @@ The following screenshot is an example of Omnichannel Ongoing Conversations:
 
 Before you start using the **Omnichannel Ongoing Conversations** dashboard, here are a few things you must be aware of:
 
--	You can monitor only the conversations that are in the workstream with mode as **Chat**.
+-	You can monitor only the conversations that are in the work stream with mode as **Chat**. Monitor is supported for all work streams except for Entity routing.
 
 -	You can monitor only conversations that are in the **Active** and **Wrap-up** states.
 
@@ -60,6 +62,32 @@ By joining the conversation, you provide necessary inputs to both agent and cust
     When you join the conversation, a notification will be sent to both agent and customer stating that you have joined as a consultant. Depending on your requirement, you can start a consultation with the agent and customer by using a messaging mode (public or internal). By default, the messaging mode is internal.
     
     To learn more, see [View communication panel](../agent/agent-oc/oc-conversation-control.md).
+
+## Assign a conversation
+
+At times, you may need to manually assign a conversation that is in an open state or unassigned to any agent.
+
+1.	Sign in to the **Omnichannel for Customer Service** app.
+
+2.  From the dashboard view selector, select the **Omnichannel Ongoing Conversations** dashboard.
+
+    The list of available agents and their capacities, as well as queues, is displayed. 
+
+3.	Choose a conversation in an **Open** state, and select **Assign**.
+
+    > [!div class=mx-imgBorder]
+    > ![Select Assign option](../media/assign-agents-conversations.png "Select Assign option")
+
+4. Choose one of the following options:
+  - Assign to agent: This assigns the conversation to a particular agent. The agent list contains only those agents who are part of the same queue as the conversation.
+  - Assign to queue: This lists all queues except the queue the conversation is currently part of.
+
+    > [!div class=mx-imgBorder]
+    > ![Select agent or queue option](../media/assign-agent-queue.png "Select either agent or queue option")
+  
+ 5. Depending on which option you chose in Step 4, choose the agent or queue, and then click Assign to send the invitation for the agent or queue to join the conversation.
+ 
+Supervisors can assign conversations that result in overallocation for an agent. In such cases, the agent's capacity will show the units by which their capacity is exceeded.
 
 
 
