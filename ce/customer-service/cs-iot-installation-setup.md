@@ -273,7 +273,7 @@ This provides a queue for both inbound and outbound messages (commands) flowing 
 
 [Logic Apps](https://azure.microsoft.com/services/logic-apps/) 
 
-This provides an orchestration service that uses a Dynamics 365 for Customer Engagement connector and a Queue connector. Dynamics 365 for Customer Engagement connectors are used to construct entities that are specific to Dynamics 365 for Customer Engagementand Queue connectors are used for polling the queue. 
+This provides an orchestration service that uses a Dynamics 365 for Customer Engagement connector and a Queue connector. Dynamics 365 for Customer Engagement connectors are used to construct entities that are specific to Dynamics 365 for Customer Engagement and Queue connectors are used for polling the queue. 
 
 [Stream analytics](https://azure.microsoft.com/services/stream-analytics/) 
 
