@@ -1,6 +1,6 @@
 ---
 title: "Check the accessibility of your email messages (Dynamics 365 Marketing) | Microsoft Docs "
-description: "Learn how to use the built in accessibility checker to check and resolve accessibility issues in your email messages"
+description: "Learn how to use the built-in accessibility checker to check and resolve accessibility issues in your email messages"
 ms.date: 04/03/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
@@ -28,7 +28,7 @@ The accessibility checker helps you make the content easy for people of all abil
 > [!NOTE]
 > You will need your administrator to [turn on the feature switch](admin-feature-switches.md) for the "Accessibility Checker" functionality before you are able to access it in the email designer.
 
-Once you are done designing your email content, just click the **Accessibility checker** listed under **Email checker** in the **Designer** tab. This will run the content against Microsoft Accessibility Standards to find any issues.
+Once you are done designing your email content, just click the **Accessibility checker** listed under **Email checker** in the **Designer** tab. The checker will run the content against Microsoft Accessibility Standards to find any issues.
 
 ![Accessibility checker menu location](./media/accessibility-checker-entry.png "Accessibility checker menu location")
 
@@ -38,6 +38,6 @@ The accessibility checker will list any issues it finds that do not conform with
 
 You can drill down into any of the accessibility issues found to get help on how to fix the particular issue.
 
-![Accessibility checker drill down](./media/accessibility-checker-issue-drill.png "Accessibility checker drill down")
+![Accessibility checker drill-down](./media/accessibility-checker-issue-drill.png "Accessibility checker drill down")
 
 Once you have made an update, you can hit the button at the end "Check it again" to ensure your fix has passed the accessibility requirements.
