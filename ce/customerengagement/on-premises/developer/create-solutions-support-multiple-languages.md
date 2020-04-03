@@ -2,7 +2,7 @@
 title: "Create solutions that support multiple languages (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: ""
 keywords: 
-ms.date: 10/31/2017
+ms.date: 04/02/2020
 ms.service: 
   - crm-online
 ms.topic: article
@@ -22,6 +22,8 @@ search.app:
 ---
 
 # Create solutions that support multiple languages
+
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create solutions that support multiple languages](/powerapps/developer/common-data-service/create-solutions-support-multiple-languages).
 
 [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] support multiple languages. If you want your solution to be installed for organizations that include different base languages or that have multiple languages provisioned, take this into account when planning your solution. The following table lists tactics to use along with solution components to include in a solution that supports multiple languages.  
   
@@ -55,10 +57,10 @@ search.app:
  When a language pack is installed, the default text in the application navigation bar automatically displays localized text. 
  To override the default text or to provide your own text, use the `<Titles>` element. 
  The `Titles` element should contain a `<Title>` element that contains localized text for any languages your solution supports. 
- If a `Title` element isn’t available for the user’s preferred language, the title that corresponds to the organization base language is displayed.  
+ If a `Title` element isn't available for the user's preferred language, the title that corresponds to the organization base language is displayed.  
   
- The `<SubArea>` element allows for passing the user’s language preference by using the `userlcid` parameter so that content that is the target 
- of the `SubArea.Url` attribute can be aware of the user’s language preference and adjust accordingly. 
+ The `<SubArea>` element allows for passing the user's language preference by using the `userlcid` parameter so that content that is the target 
+ of the `SubArea.Url` attribute can be aware of the user's language preference and adjust accordingly. 
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Passing Parameters to a URL Using SiteMap](customize-dev/pass-parameters-url-using-sitemap.md)  
   
 <a name="BKMK_ExportAndImportTranslations"></a>   
@@ -74,19 +76,19 @@ search.app:
 ### Translating labels and display strings  
  You can only perform customizations in the application by using the base language. Therefore, when you want to provide localized labels and display strings for these customizations, you must export the text of the labels so that they can be localized for any other languages enabled for the organization. Use the following steps:  
   
-1. Ensure that the organization that you’re working on has all the MUI packs installed and languages provisioned for languages you want to provide translations for.  
+1. Ensure that the organization that you're working on has all the MUI packs installed and languages provisioned for languages you want to provide translations for.  
   
 2. Create your solution and modify the components.  
   
-3. After you have finished developing your solution use the “Export Translations” functionality. This generates a [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] spreadsheet (CrmTranslations.xml) that contains all the labels that need translation.  
+3. After you have finished developing your solution use the "Export Translations" functionality. This generates a [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] spreadsheet (CrmTranslations.xml) that contains all the labels that need translation.  
   
 4. In the spreadsheet, provide the corresponding translations.  
   
-5. Import translations back into the same Dynamics 365 Customer Engagement (on-premises) organization using the “Import Translations” functionality and publish your changes.  
+5. Import translations back into the same Dynamics 365 Customer Engagement (on-premises) organization using the "Import Translations" functionality and publish your changes.  
   
 6. The next time the solution is exported it carries all the translations that you provided.  
   
-   When a solution is imported, labels for languages that aren’t available in the target system are discarded and a warning is logged.  
+   When a solution is imported, labels for languages that aren't available in the target system are discarded and a warning is logged.  
   
    If labels for the base language of the target system are not provided in the solution package, the labels of the base language of the source are used instead. For example, if you import a solution that contains labels for English and French with English as the base language, but the target system has Japanese and French with Japanese as the base language, English labels are used instead of Japanese labels. The base languages labels cannot be **null** or empty.  
   
@@ -129,7 +131,7 @@ search.app:
 ## Localization in base language strings  
  Some solution components do not support multiple languages. These components include names or text that can only be meaningful in a specific language. If you create a solution for a specific language, define these solution components for the intended organization base language.  
   
- If you need to support multiple languages, one tactic is to include localization within the base language strings. For example, if you have a Connection Role named “Friend” and you need to support English, Spanish, and German, you might use the text “Friend (Amigo / Freund)” as the name of the connection role. Due to issues of the length of the text there are limitations on how many languages can be supported using this tactic.  
+ If you need to support multiple languages, one tactic is to include localization within the base language strings. For example, if you have a Connection Role named "Friend" and you need to support English, Spanish, and German, you might use the text "Friend (Amigo / Freund)" as the name of the connection role. Due to issues of the length of the text there are limitations on how many languages can be supported using this tactic.  
   
  Some solution components in this group are only visible to administrators. Because customization of the system can only be done in the organization base language it is not necessary to provide multiple language versions. **Security Roles** and **Field Security Profile** components belong to this group.  
   
@@ -143,7 +145,7 @@ search.app:
   
 <a name="BKMK_LocalizationNotRequired"></a>   
 ## Localization not required  
- **SDK Message Processing Step** and **Service Endpoint** solution components do not expose localizable text to users. If it is important that these components have names and descriptions that correspond to the organization’s base language, you can create and export a managed solution with names and descriptions in that language.  
+ **SDK Message Processing Step** and **Service Endpoint** solution components do not expose localizable text to users. If it is important that these components have names and descriptions that correspond to the organization's base language, you can create and export a managed solution with names and descriptions in that language.  
   
 <a name="BKMK_SeparateComponentForEachLanguage"></a>   
 ## Separate component for each language  
@@ -161,7 +163,7 @@ search.app:
   
   For these types of solution components, the recommended tactic is to create separate components for each language. This means that you typically create a base managed solution that contains your core solution components and then a separate managed solution that contains these solution components for each language. After customers install the base solution, they can install the managed solutions for the languages they have provisioned for the organization.  
   
-  Unlike **Processes (Workflows)**, you can create **Dialogs** that will reflect the user’s current language preference settings and display the dialogs only to users of that language.  
+  Unlike **Processes (Workflows)**, you can create **Dialogs** that will reflect the user's current language preference settings and display the dialogs only to users of that language.  
   
 #### Create a localized dialog box  
   
@@ -341,3 +343,4 @@ protected void ExecutePreValidateAccountDelete(LocalPluginContext localContext)
  [Uninstall or Delete a solution](uninstall-delete-solution.md)   
  [Solution entities](solution-entities.md)   
  [Localize product property values](localize-product-property-values.md)
+ 

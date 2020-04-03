@@ -36,6 +36,7 @@ There are multiple errors you could get while qualifying a lead.
 2.  [To move to the next stage, complete the required steps](#CompleteSteps)
 3.  [Active stage is not on 'lead' entity](#NoActiveStage)
 4.  [Access denied or Insufficient permissions](#AccessDenied)
+5.  [The lead is closed. You cannot convert or qualify a lead that is already closed.](#LeadClosed)
 
 The following sections describe each of these errors and how you can resolve them.
 
@@ -77,8 +78,8 @@ The lead that you're trying to qualify isn't in the Active state. This might hap
 
 **Resolution:**
 
-1.    Open the lead record.
-2.    On the process stage, select the **Set Active** button.
+1. Open the lead record.
+2. On the process stage, select the **Set Active** button.
 
     > [!div class="mx-imgBorder"]  
     > ![Set Active button in the Qualify stage of lead form](media/set-active-button-qualify-stage.png "Set Active button in the Qualify stage of lead form")
@@ -93,9 +94,18 @@ You don't have sufficient permissions on the lead record.
 **Resolution:**
 
 Ask your system administrator to grant you the necessary permissions.
-
-
 If there's no error, and you're still not able to qualify a lead, contact the technical support.
+
+<a name="LeadClosed"> </a>
+#### 5. The lead is closed. You cannot convert or qualify a lead that is already closed.
+
+**Reason:** 
+
+You are trying to qualify or disqualify a lead that's closed. 
+
+**Resolution:**
+
+Make sure that the lead that you're trying to qualify or disqualify is open and not already qualified or disqualified. You can do this by selecting the My Open leads or Open Leads view.
 
 
 <a name="lead_qualification_for_admins"> </a> 
@@ -134,8 +144,8 @@ The lead that the user is trying to qualify is in their business unit.
 
 **Resolution:**
 1.    Go to **Settings** > **Security Role**.
-2.    Open the security role of the user.
-3.    Assign **Create**, **Read**, **Append**, and **Append To** permissions to the user's Security Role at Business Unit level on the following entities:
+2. Open the security role of the user.
+3. Assign **Create**, **Read**, **Append**, and **Append To** permissions to the user's Security Role at Business Unit level on the following entities:
     -  Account 
     -  Lead
     -  Contact
@@ -143,17 +153,17 @@ The lead that the user is trying to qualify is in their business unit.
 
     ![Security role with access at Business Unit level](media/security-role-sales-person-bu-access.png "Security role with access at Business Unit level")
 
-4.    Assign **Read** access to any custom entity.
-5.    Assign **Read** access to **Attribute Map**, **Customizations**, **Entity** and **Entity Map**
+4. Assign **Read** access to any custom entity.
+5. Assign **Read** access to **Attribute Map**, **Customizations**, **Entity** and **Entity Map**
 
 <a name="Organization"> </a>
 **Scenario:**
 The lead that the user is trying to qualify is in their organization.
 
 **Resolution:**
-1.    Go to **Settings** > **Security Role**.
-2.    Open the security role of the user.
-3.    Assign **Create**, **Read**, **Append**, and **Append To** permissions to the user's Security Role at Organization level on the following entities:
+1. Go to **Settings** > **Security Role**.
+2. Open the security role of the user.
+3. Assign **Create**, **Read**, **Append**, and **Append To** permissions to the user's Security Role at Organization level on the following entities:
     -  Account 
     -  Lead
     -  Contact
@@ -161,8 +171,24 @@ The lead that the user is trying to qualify is in their organization.
  
     ![Security role with access at Organization level](media/security-role-sales-person-org-access.png "Security role with access at Organization level")
 
-4.    Assign Read access to any custom entity.
-5.    Assign Read access to **Attribute Map**, **Customizations**, **Entity** and **Entity Map**.
+4. Assign Read access to any custom entity.
+5. Assign Read access to **Attribute Map**, **Customizations**, **Entity** and **Entity Map**.
+
+<a name="auto-generation-of-fields"> </a>
+## Automatic generation of contact or company-related fields
+
+When you select an existing account or contact at the time of creating a new lead, the fields related to the account or contact are automatically populated. 
+- For the contact-related fields to be automatically populated, the default fields such as Name, Job title, business phone, Mobile phone, and Email must be empty.
+- For the company-related fields to be automatically populated, the default fields such as Address, Website and Company Name must be empty.
+
+<a name="account-contact-fields-not-populating"> </a>
+### Issue: Account or contact-related fields aren't populating on the Lead form.
+
+**Resolution:** 
+
+Verify that the On-load script in the Lead form has reference to 'LeadManagement/Lead/Lead_main_system_library.js' web resource. This web resource contains the script that automatically populates fields. If you've  customized the Lead form and used a web resource other than the out-of-the-box web resource, then this feature won't work. Please contact your system administrator.
+
+Even if you have a custom lead form, the automatic generation of fields works if the Lead form has reference to 'LeadManagement/Lead/Lead_main_system_library.js' web resource.
 
 
 ### See also
