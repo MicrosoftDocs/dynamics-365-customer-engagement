@@ -100,11 +100,11 @@ This section of the dashboard consists of the following KPIs:
 | KPI | Description |
 |-------|-------|
 | Agent name | A list of the agent names for the queue. |
+| Presence | The presence of the agent(s), either available or offline. |
 | Available capacity | The available capacity for the agent(s). | 
-| Total capacity | The total amount of capacity for the agent(s). |
-| Presence | The presence of the agent, either available or offline. | 
+| Total capacity | The total amount of capacity for the agent(s). | 
 | Ongoing Conversations | The number of conversations that are in progress. |
-| Modify Presence | Click this link to change the presence of an agent. |
+| Avg handle time (min) | The average conversation handle time, in minutes. |
 
 You can also view specific details about an agent, as shown in the following screen.
 
