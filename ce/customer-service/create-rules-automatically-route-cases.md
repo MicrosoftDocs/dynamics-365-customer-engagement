@@ -188,7 +188,7 @@ Perform the following steps to manually apply the rule to any existing or manual
 > [!NOTE]
 >
 > - If you’re importing bulk records, and you don’t want the routing rules to apply to the cases that you’re importing, add a column **Route Case** to your spreadsheet, and add the value **No** for all the cases that you don’t want to route.
-> - Programmatically created cases are automatically routed. If you want to override this behavior, set the value for the RouteCase attribute as "No".
+> - Programmatically created cases are automatically routed. If you want to override this behavior, set the value for the RouteCase attribute to "No".
 
 ## Recommendation to upgrade solution
 

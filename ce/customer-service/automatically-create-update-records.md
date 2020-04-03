@@ -140,3 +140,9 @@ The rules are run in the order they are listed in the rule items list. If the in
 ## Manage automatic record creation and update from a queue form
 
  You can create or manage an automatic record creation and update rule from a queue form. To learn more, see [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a queue](set-up-queues-manage-activities-cases.md)
+
+### See also
+
+ [Create and manage queues](set-up-queues-manage-activities-cases.md)
+
+[Create rules to automatically route cases](create-rules-automatically-route-cases.md)
