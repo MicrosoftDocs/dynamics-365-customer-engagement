@@ -26,6 +26,8 @@ search.app:
 ---
 # Plan for solution development
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Organize your solutions](/powerapps/developer/common-data-service/organize-solutions).
+
 Solutions introduce factors to take into consideration during your planning. The topics in this section introduce strategies to use while planning your solution development efforts.  
   
 ## See also

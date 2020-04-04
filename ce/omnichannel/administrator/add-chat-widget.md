@@ -1,13 +1,13 @@
 ---
 title: "Add a chat widget | MicrosoftDocs"
 description: "Instructions to add a chat widget in Omnichannel for Customer Service."
+ms.date: 04/01/2020
+ms.service:
+  - "dynamics-365-customerservice"
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 04/01/2020
-ms.service: 
-  - "dynamics-365-customerservice"
-ms.topic: article
 ---
 
 # Add a chat widget
@@ -93,7 +93,7 @@ ms.topic: article
    > [!NOTE]
    > You can select one co-browse provider and/or one screen sharing provider for each chat widget. Only co-browse and screen sharing providers that have published a solution on AppSource will appear in the drop-down lists. 
 
-10. On the **Custom messages** tab, view and add custom system messages that will appear in the chat widget. More information: [Set up custom messages](chat-custom-messages.md)
+10. On the **Custom messages** tab, view and add custom system messages that will appear in the chat widget. To learn more, see [Set up custom messages](chat-custom-messages.md).
 
    > [!div class=mx-imgBorder]
    > ![Custom messages in a chat widget](../media/oc-chat-widget-custom-messages-tab.png "View and add custom messages in a chat widget")
@@ -116,4 +116,4 @@ After you configure, agents can get the capabilities while they are in a convers
 [Create quick replies](create-quick-replies.md) <br>
 [Create and manage operating hours](create-operating-hours.md) <br>
 [Create chat authentication settings](create-chat-auth-settings.md) <br> 
-[Embed chat widget in Power Apps portals](embed-chat-widget-portal.md)
+[Embed chat widget in Power Apps portals](embed-chat-widget-portal.md) 

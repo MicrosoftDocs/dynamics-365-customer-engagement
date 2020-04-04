@@ -1,7 +1,7 @@
 ---
 title: "Create, install, and update a managed solution (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 04/02/2020
 ms.reviewer: "pehecke"
 ms.service: crm-online
 ms.suite: 
@@ -29,6 +29,8 @@ search.app:
 ---
 # Create, install, and update a managed solution
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create, install, and update a managed solution](/powerapps/developer/common-data-service/create-install-update-managed-solution).
+
 You create a managed solution by exporting an unmanaged solution as a managed solution. The organizations that use your managed solution will install it and any updates that you create for it.  
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use solutions for your customizations](../customize/use-solutions-for-your-customizations.md).  
@@ -53,7 +55,7 @@ You create a managed solution by exporting an unmanaged solution as a managed so
  You install a managed solution in the same way you import an unmanaged solution. The difference is in how the solution has been packaged.  
   
 > [!IMPORTANT]
->  Installing a solution or publishing customizations can interfere with normal system operation. We recommend that you schedule solution imports when it’s least disruptive to users.  
+>  Installing a solution or publishing customizations can interfere with normal system operation. We recommend that you schedule solution imports when it's least disruptive to users.  
   
  If the solution did not import successfully, you can click **Download Log** in the dialog box to download a report that will provide information about errors that occurred that prevented successful import of the managed solution. This file is an XML document configured to be opened by using [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)].  
   
@@ -84,3 +86,4 @@ You create a managed solution by exporting an unmanaged solution as a managed so
  [Create, Export, or Import an Unmanaged Solution](create-export-import-unmanaged-solution.md)   
  [Uninstall or Delete a solution](uninstall-delete-solution.md)   
  [Customization Solutions File Schema](customize-dev/customization-solutions-file-schema.md)
+ 
