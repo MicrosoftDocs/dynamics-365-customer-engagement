@@ -21,15 +21,6 @@ ms.topic: article
 
 Sentiment analysis settings in Omnichannel for Customer Service provide agents and supervisors with real-time insight regarding how customers are interacting with agents during chat sessions.
 
-The Sentiment Analysis Settings page contains three sections:
-
-- [Analyze real-time customer sentiment](#analyze-real-time-customer-sentiment)
-  - [Sentiment analysis](#sentiment-analysis)
-  - [Agent settings](#agent-settings)
-  - [Supervisor settings](#supervisor-settings)
-  - [Multi-language sentiment](#multi-language-sentiment)
-    - [See also](#see-also)
-
 ## Sentiment analysis
 
 To let agents and supervisors see the customer's satisfaction levels instantly while communicating with the customer, you need to enable the sentiment analysis.
