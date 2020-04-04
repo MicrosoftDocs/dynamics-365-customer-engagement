@@ -44,20 +44,20 @@ By monitoring the conversations, you will get an overview of how each conversati
   
 By joining the conversation, you provide necessary inputs to both agent and customer based on the selected message mode (public or internal) in the communication panel.
 
-1.    Sign in to the **Omnichannel for Customer Service** app.
+1. Sign in to the **Omnichannel for Customer Service** app.
 
-2.  From the dashboard view selector, select the **Omnichannel Ongoing Conversations** dashboard.
+2. From the dashboard view selector, select the **Omnichannel Ongoing Conversations** dashboard.
 
     The list of conversations currently being handled by your agents is displayed. 
 
-3.    Choose a conversation to monitor and select **Monitor**.
+3. Choose a conversation to monitor and select **Monitor**.
 
     > [!div class=mx-imgBorder]
     > ![Select Monitor option](../media/supervisor-select-monitor-conversation.png "Select Monitor option")
 
     The conversation page opens.
 
-4.    You can choose to join a conversation as required. Select **Join chat** in the communication panel.
+4. You can choose to join a conversation as required. Select **Join chat** in the communication panel.
 
     > [!div class=mx-imgBorder]
     > ![Select Join chat](../media/supervisor-select-join-chat.png "Select Join chat")
@@ -70,13 +70,13 @@ By joining the conversation, you provide necessary inputs to both agent and cust
 
 At times, you may need to manually assign a conversation that is in an open state or unassigned to any agent.
 
-1.    Sign in to the **Omnichannel for Customer Service** app.
+1. Sign in to the **Omnichannel for Customer Service** app.
 
-2.  From the dashboard view selector, select the **Omnichannel Ongoing Conversations** dashboard.
+2. From the dashboard view selector, select the **Omnichannel Ongoing Conversations** dashboard.
 
     The list of available agents and their capacities, as well as queues, is displayed. 
 
-3.    Choose a conversation in an **Open** state, and select **Assign**.
+3. Choose a conversation in an **Open** state, and select **Assign**.
 
     > [!div class=mx-imgBorder]
     > ![Select Assign option](../media/assign-agents-conversations.png "Select Assign option")
