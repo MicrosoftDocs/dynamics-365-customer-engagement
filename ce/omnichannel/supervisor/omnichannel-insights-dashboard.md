@@ -182,7 +182,10 @@ Topics are generated when chat transcripts from Omnichannel are analyzed and gro
    > [!div class=mx-imgBorder]
    > ![Topics impacting sentiment](../media/topics-impacting-sentiment.png "Sentiment Analysis detailed report")
 
-   > [!NOTE] <br> The filters at the top of the report (duration, channel, agent, queue do not have an impact on the topic related tiles)
+   > [!NOTE]
+   >
+   > The filters at the top of the report (duration, channel, agent, queue do not have an impact on the topic related tiles)
+
 
    |Tile             |Description                |
    |-----------------|---------------------------|
