@@ -34,10 +34,6 @@ To let agents and supervisors see the customer's satisfaction levels instantly w
 
 3. In the **Sentiment analysis** section, set the **Monitor real-time customer sentiment** toggle to **Yes**, and then select **Save**.
 
-  > [!div class=mx-imgBorder]
-  > ![Enable sentiment analysis](../media/monitor-real-time.png "Enable sentiment analysis")
-4. Set the **Sentiment drivers reporting** toggle to **Yes**.
-
     > [!div class=mx-imgBorder]
     > ![Enable sentiment analysis](../media/monitor-real-time.png "Enable sentiment analysis")
 
@@ -51,6 +47,9 @@ After you enable real-time customer sentiment, you can view scores in the [Omnic
 > In the preview mode, this feature is not available for Government Cloud Community (GCC).
 
 After you opt in for real-time sentiment analysis, you can enable sentiment drivers reporting to gain a better understanding of the topics that are impacting your sentiment.
+
+1. In the **Sentiment analysis** section, set the **Sentiment drivers reporting** toggle to **Yes**.
+2. Select **Save**.
 
   > [!div class=mx-imgBorder]
   > ![Enable sentiment drivers reporting](../media/sentiment-drivers-reporting.png "Enable sentiment drivers reporting")

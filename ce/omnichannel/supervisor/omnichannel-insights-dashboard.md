@@ -184,7 +184,8 @@ Topics are generated when chat transcripts from Omnichannel are analyzed and gro
 
    > [!NOTE]
    >
-   > The filters at the top of the report (duration, channel, agent, queue do not have an impact on the topic related tiles)
+   > - The filters at the top of the report (duration, channel, agent, queue do not have an impact on the topic related tiles).
+   > - This component of the report will display data only when sentiment drivers reporting is enabled and a minimum of 10 chat conversations per organization take place.
 
 
    |Tile             |Description                |
