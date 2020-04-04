@@ -36,8 +36,8 @@ To let agents and supervisors see the customer's satisfaction levels instantly w
 
 4. Set the **Sentiment drivers reporting** toggle to **Yes**.
 
-  > [!div class=mx-imgBorder]
-  > ![Enable sentiment analysis](../media/monitor-real-time.png "Enable sentiment analysis")
+    > [!div class=mx-imgBorder]
+    > ![Enable sentiment analysis](../media/monitor-real-time.png "Enable sentiment analysis")
 
 After you enable real-time customer sentiment, you can view scores in the [Omnichannel Insights dashboards](configure-historical-sentiment-dashboard-supervisor.md).
 
@@ -65,8 +65,8 @@ For example, you set the threshold value as **Slightly negative**. When the cust
     - Negative
     - Very negative
 
-  > [!div class=mx-imgBorder]
-  > ![Show alerts when a customer's sentiment decreases to or below](../media/monitor-real-time-agent.png "Show alerts when a customer's sentiment decreases to or below")
+      > [!div class=mx-imgBorder]
+      > ![Show alerts when a customer's sentiment decreases to or below](../media/monitor-real-time-agent.png "Show alerts when a customer's sentiment decreases to or below")
 
 To turn off agent alerts, select **Don't show alerts**.
 
@@ -95,8 +95,8 @@ For example, you set the threshold value as **Slightly negative**. When the cust
     - Negative
     - Very negative
 
-  > [!div class=mx-imgBorder]
-  > ![Send notifications when a customer's sentiment decreases to or below](../media/monitor-real-time-supervisor.png "Send notifications when a customer's sentiment decreases to or below")
+    > [!div class=mx-imgBorder]
+    > ![Send notifications when a customer's sentiment decreases to or below](../media/monitor-real-time-supervisor.png "Send notifications when a customer's sentiment decreases to or below")
 
 To turn off supervisor notifications, select **Don't send notifications**.
 
@@ -161,7 +161,6 @@ Vietnamese<br>
 </table>
 
 > [!NOTE]
->
 > For languages supported in the product user interface (UI), see [Language availability](../international-availability.md).
 
 ### See also
