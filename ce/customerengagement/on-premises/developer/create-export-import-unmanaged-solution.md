@@ -2,7 +2,7 @@
 title: "Create, export, or import an unmanaged solution (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "An unmanaged solution is useful as a way to group a set of unmanaged customizations into a set that can be transported between organizations"
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 04/02/2020
 ms.reviewer: "pehecke"
 ms.service: crm-online
 ms.suite: 
@@ -39,6 +39,8 @@ search.app:
 ---
 # Create, export, or import an unmanaged solution
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create, export, or import an unmanaged solution](/powerapps/developer/common-data-service/create-export-import-unmanaged-solution).
+
 In addition to being a prerequisite to creating a managed solution, an unmanaged solution is useful as a way to group a set of unmanaged customizations into a set that can be transported between organizations.  
 
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use solutions for your customizations](../customize/use-solutions-for-your-customizations.md).  
@@ -71,7 +73,7 @@ In addition to being a prerequisite to creating a managed solution, an unmanaged
 |    **Display Name**     |                                                                                                                                                                       The name that to display in the **Publisher** lookup field in the solution.                                                                                                                                                                        |
 |        **Name**         |                               Dynamics 365 Customer Engagement (on-premises) generate a unique name is based on the **Display Name**. The unique name can only contain alphanumeric characters and the underscore character. **Note:**  You use the `Unique Name` to uniquely identify a `Publisher`. Managed solutions that share the same publisher can update each other.                               |
 |     **Description**     |                                                                                                                                                                           Use this field to include any relevant details about your solution.                                                                                                                                                                            |
-|       **Prefix**        |                   The customization prefix helps you identify which publisher added a solution component. For example the prefix is added to the logical name of any entities or attributes created in the context of a solution associated with this publisher. The prefix must be between two and eight characters long, and can contain only alphanumeric characters. It cannot start with ‘mscrm’.                   |
+|       **Prefix**        |                   The customization prefix helps you identify which publisher added a solution component. For example the prefix is added to the logical name of any entities or attributes created in the context of a solution associated with this publisher. The prefix must be between two and eight characters long, and can contain only alphanumeric characters. It cannot start with 'mscrm'.                   |
 | **Option Value Prefix** | This value lets you help separate options that you add to option sets to support merging options. A value is auto-generated based on the **Prefix** text to help make it more unique. The value must be between 10,000 and 99,999.<br /><br /> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Merging Option set options](understand-managed-solutions-merged.md#BKMK_MergingOptionSetOptions) |
 |   **Contact Details**   |                                                                                                                                                           Use these fields to add information that will enable people who install the solution to contact you.                                                                                                                                                           |
 
@@ -121,7 +123,7 @@ In addition to being a prerequisite to creating a managed solution, an unmanaged
  This operation is performed programmatically by using the <xref:Microsoft.Crm.Sdk.Messages.ImportSolutionRequest> message. You can write code to execute this message asynchronously. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use ExecuteAsync to execute messages asynchronously](/powerapps/developer/common-data-service/org-service/use-executeasync). You can track the progress of the import or generate a report of the success of the import by using the `ImportJob` entity. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install or Upgrade a Solution](work-solutions.md#BKMK_InstallUpgradeSolution)  
 
 > [!IMPORTANT]
->  Installing a solution or publishing customizations can interfere with normal system operation. We recommend that you schedule solution imports when it’s least disruptive to users.  
+>  Installing a solution or publishing customizations can interfere with normal system operation. We recommend that you schedule solution imports when it's least disruptive to users.  
 
 <a name="BKMK_MaxSizeOfSolution"></a>   
 ### Maximum size of solution to import  

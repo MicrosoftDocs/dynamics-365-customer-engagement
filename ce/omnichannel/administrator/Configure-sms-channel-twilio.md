@@ -100,7 +100,7 @@ For an incoming text message sent by a customer to the support phone number, the
 
 For an outgoing message sent by an agent from within Dynamics 365, the message is first sent to the Twilio service and then Twilio sends it to the customer. In addition to the text message, Omnichannel for Customer Service uses the APIs provided by Twilio to send the customer's phone number, support phone number, and the Twilio account information (Account SID and the Auth Token) to the Twilio service.
 
-### Twilio API Key Validation
+### Twilio Account and Phone Number Validation
 
 When you validate the SMS settings while setting up the SMS channel, a call is made to Twilio to validate Account SID and Auth Token.
 

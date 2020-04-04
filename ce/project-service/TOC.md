@@ -60,6 +60,7 @@
 ### [Recall previously approved time or expense entries](recall-approved.md)
 ### [Cancel approval of previously approved time or expense entries](cancel-approval.md)
 ### [Actuals](actuals.md)
+### [Bulk corrections of actuals created by approved time and expense entries](bulk-corrections-actuals-created-by-approved-time-expense-entries.md)
 ### [Review project billing backlog](review-invoicing-backlog.md)
 ### [Invoicing](invoicing.md)
 ### [Multi-currency scenarios](advanced-currency.md)
