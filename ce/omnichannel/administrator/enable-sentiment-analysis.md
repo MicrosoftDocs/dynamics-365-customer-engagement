@@ -60,8 +60,7 @@ After you opt in for real-time sentiment analysis, you can enable sentiment driv
 
 > [!IMPORTANT]
 >
-> For this feature to work, a minimum of 10 chat conversations per day are required.
-
+> For this feature to work, a minimum of 10 chat conversations per organisation are required.
 
 ## Agent settings
 
