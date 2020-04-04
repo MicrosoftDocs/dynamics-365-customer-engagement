@@ -19,17 +19,7 @@ ms.topic: article
 > [!IMPORTANT]
 > This feature is intended to help customer service managers or supervisors enhance their team’s performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
-<<<<<<< HEAD
-- [Analyze real-time customer sentiment](#analyze-real-time-customer-sentiment)
-  - [Sentiment analysis](#sentiment-analysis)
-    - [Preview: Sentiment drivers reporting](#preview-sentiment-drivers-reporting)
-  - [Agent settings](#agent-settings)
-  - [Supervisor settings](#supervisor-settings)
-  - [Multi-language sentiment](#multi-language-sentiment)
-    - [See also](#see-also)
-=======
 Sentiment analysis settings in Omnichannel for Customer Service provide agents and supervisors with real-time insight regarding how customers are interacting with agents during chat sessions.
->>>>>>> 89dc7350655a62a181a9a0a0f513087b1d07ca6b
 
 ## Sentiment analysis
 
@@ -44,15 +34,12 @@ To let agents and supervisors see the customer's satisfaction levels instantly w
 
 3. In the **Sentiment analysis** section, set the **Monitor real-time customer sentiment** toggle to **Yes**, and then select **Save**.
 
-<<<<<<< HEAD
   > [!div class=mx-imgBorder]
   > ![Enable sentiment analysis](../media/monitor-real-time.png "Enable sentiment analysis")
-=======
 4. Set the **Sentiment drivers reporting** toggle to **Yes**.
 
     > [!div class=mx-imgBorder]
     > ![Enable sentiment analysis](../media/monitor-real-time.png "Enable sentiment analysis")
->>>>>>> 89dc7350655a62a181a9a0a0f513087b1d07ca6b
 
 After you enable real-time customer sentiment, you can view scores in the [Omnichannel Insights dashboards](configure-historical-sentiment-dashboard-supervisor.md).
 
@@ -130,7 +117,6 @@ For example, you set the threshold value as **Slightly negative**. When the cust
     > ![Send notifications when a customer's sentiment decreases to or below](../media/monitor-real-time-supervisor.png "Send notifications when a customer's sentiment decreases to or below")
 
 To turn off supervisor notifications, select **Don't send notifications**.
-
 
 ## Multi-language sentiment
 
