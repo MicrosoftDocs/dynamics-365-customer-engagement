@@ -16,7 +16,7 @@ ms.topic: article
 
 ## Overview
 
-The SMS channel through Twilio in the Omnichannel Add-in for Dynamics 365 Customer Service allows your organization to connect to customers by using text messages. Your customers can send text messages through Twilio and connect with an appropriate customer service agent. Agents can view the incoming SMS requests on their dashboard and respond accordingly.
+The SMS channel through Twilio in Omnichannel for Customer Service allows your organization to connect to customers by using text messages. Your customers can send text messages through Twilio and connect with an appropriate customer service agent. Agents can view the incoming SMS requests on their dashboard and respond accordingly.
 
 ## Prerequisites
 

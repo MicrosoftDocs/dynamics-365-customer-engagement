@@ -16,7 +16,7 @@ ms.topic: article
 
 ## Channels overview
 
-When you sign in to the Omnichannel Add-in for Dynamics 365 Customer Service, you can see your work items in the Omnichannel Agent Dashboard. To learn more, see [View agent dashboard and agent conversations (work items)](oc-agent-dashboard.md).
+When you sign in to Omnichannel for Customer Service, you can see your work items in the Omnichannel Agent Dashboard. To learn more, see [View agent dashboard and agent conversations (work items)](oc-agent-dashboard.md).
 
 ## Prerequisite
 
@@ -24,13 +24,13 @@ Make sure your administrator has configured a TeleSign or Twilio channel in Omni
 
 ### Incoming chat notifications
 
-You'll receive a notification when a customer requests a conversation through TeleSign or Twilio. You can accept the chat request, after which a session starts and you'll see the communication panel in which you can exchange messages with the customer.<!--Ian Madera isn't on our approved names list nor the list of sample names you sent Renee. Can you confirm whether it's available in any sample dataset? -->
+You'll receive a notification when a customer requests a conversation through TeleSign or Twilio. You can accept the chat request, after which a session starts and you'll see the communication panel in which you can exchange messages with the customer.
 
 > [!div class=mx-imgBorder]
 > ![Incoming chat notification](../../media/oceh/sms-notification-request.png "Incoming SMS notification")
 
 As an agent in Omnichannel for Customer Service, you can:
-<!--Adding periods because the list items complete the introductory sentence.-->
+
 - [View a customer summary](oc-customer-summary.md).
 - [View the communication panel](oc-conversation-control.md).
 - [Use call options and visual engagement in live chat](call-options-visual-engagement.md).
