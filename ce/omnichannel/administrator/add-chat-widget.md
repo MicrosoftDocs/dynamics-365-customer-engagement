@@ -1,13 +1,13 @@
 ---
 title: "Add a chat widget | MicrosoftDocs"
 description: "Instructions to add a chat widget in Omnichannel for Customer Service."
+ms.date: 04/01/2020
+ms.service:
+  - "dynamics-365-customerservice"
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 04/01/2020
-ms.service: 
-  - "dynamics-365-customerservice"
-ms.topic: article
 ---
 
 # Add a chat widget
@@ -98,7 +98,7 @@ ms.topic: article
    > [!div class=mx-imgBorder]
    > ![Custom messages in a chat widget](../media/oc-chat-widget-custom-messages-tab.png "View and add custom messages in a chat widget")
 
-11. On the **Related** tab, view activity associated with your chat widget, such as survey responses, chat widget locations, and system messages.
+11. On the **Related** tab, view activity associated with your chat widget, such as survey responses, chat widget locations, and system messages. 
 
    > [!div class=mx-imgBorder]
    > ![Related chat widget activity](../media/oc-chat-widget-related-tab.png "Related chat widget activity")
