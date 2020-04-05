@@ -2,7 +2,7 @@
 title: "Define alternate keys to reference records | MicrosoftDocs"
 description: "Learn how to define alternate keys that can be used to reference records"
 ms.custom: 
-ms.date: 11/28/2018
+ms.date: 04/03/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -34,6 +34,9 @@ With *alternate keys*, you can assure an efficient and accurate way of integrati
 -   More robust bulk data operations.  
   
 -   Simplified programming with data imported from external systems without record IDs.  
+
+> [!IMPORTANT]
+>  You can't use a field that is in use by existing records as an alternate key. This will result in a duplicate records error.
   
 To learn more about alternate keys programmability, see:   
 [Define alternate keys for an entity](../developer/define-alternate-keys-entity.md)  

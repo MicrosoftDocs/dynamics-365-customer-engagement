@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features in Dynamics 365 Marketing | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 03/02/2020
+ms.date: 04/03/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -23,12 +23,103 @@ search.app:
 
 # What's new in Dynamics 365 Marketing
 
-We're excited to announce our newest updates! To see the latest upcoming features, take a look at the [Dynamics 365 and Power Platform release plans](https://docs.microsoft.com/dynamics365/release-plans/). This topic summarizes early access features, preview features, monthly general availability enhancements, and bug fixes.
+We're excited to announce our newest updates! This article summarizes early access features, preview features, general availability enhancements, monthly feature updates, and bug fixes. To see the long-term feature plans, take a look at the [Dynamics 365 and Power Platform release plans](https://docs.microsoft.com/dynamics365/release-plans/).
 
-Microsoft rolls out each update on a region-by-region basis. Updates are available to all regions by the end of the month. We recommend updating all Marketing instances as soon as an update is available.  You can apply updates to your instances as described in [Keep Marketing up to date](apply-updates.md). Each of your Marketing instances must be manually updated.
+We roll out updates on a region-by-region basis. Updates are available to all regions by the end of the month. We recommend updating all Marketing instances as soon as an update is available.  To update your instances, follow the steps in [Keep Marketing up to date](apply-updates.md). To ensure your Marketing apps are up to date, you must manually update each Marketing instance.
 
 > [!Note]
 > To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20Marketing).
+
+## April 2020 update
+
+The Dynamics 365 Marketing April 2020 update includes several feature enhancements, performance upgrades, and bug fixes. It also includes Forms Pro integration, an improved email designer, and unified segment types.
+
+> [!IMPORTANT]
+> Because of the COVID-19 outbreak, we understand that many of our customers and partners have moved to the minimum staff/business continuity model. To support this situation, we plan to extend the early access opt-in, which will allow our customers and partners additional time to test and validate the features before the features get deployed starting in May.
+>
+> The features that were planned to be generally available in April 2020 will be released as planned. However, we won't be enabling any features that impact end-users automatically in April. The changes in the 2020 release wave 1 updates will be automatically enabled starting May 1, 2020.
+>
+> To learn more, visit [Dynamics 365 release schedule and early access](https://docs.microsoft.com/dynamics365/get-started/release-schedule).
+
+### Version numbers
+
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        | 1.35.10060.1066 |
+
+> [!Tip]
+> To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](https://docs.microsoft.com/dynamics365/marketing/apply-updates#find-out-which-version-of-dynamics-365-marketing-you-are-running).
+
+### General availability enhancements
+
+- **Ability to test-send dynamic email messages**
+    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/ability-test-send-dynamic-email-messages)
+    - [Docs](email-preview.md#preview-dynamic-text-from-contact-information)
+- **Automated scheduler**
+    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/smart-scheduler)
+    - [Docs](automated-scheduler.md)
+- **Compliance made easier**
+    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/compliance-made-easier)
+    - [Docs](gdpr.md)
+- **Improved segment design and management**
+    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-segment-design-management)
+    - [Docs](segmentation-lists-subscriptions.md)
+- **Spam checker**
+    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/spam-checker)
+    - [Docs](spam-checker.md)
+- **Export marketing results data to Excel for further analysis**
+    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/export-data-excel-further-analysis)
+    - [Docs](export-journey.md)
+- **Improved email content designer**
+    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-email-content-designer)
+    - [Docs](email-design.md)
+- **Improved customer journey experience**
+    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-customer-journey-experience)
+    - [Docs](email-expire.md)
+
+### Monthly feature updates
+
+- **Event management**
+    - Improved calendar control with new options to set the first day of the week.
+- **Marketing emails**
+    - New modern and accessible email templates.
+    - Accessibility checker for emails, forms, and pages with guidance on suggested fixes.
+- **Marketing forms**
+    - Cascading form fields (parent/child fields) are now available in marketing forms, expanding customization options.
+- **Segment management**
+    - Improved template design gallery interface.
+    - Improved date picker operation by adding a "Within x" operator.
+- **Social posting**
+    - Improved interface design for social posting (LinkedIn, Twitter, Facebook).
+- **User tracking**
+    - Expanded controls to disable email tracking on a per contact basis.
+
+### Bug fixes
+
+- **Event management**
+    - Resolved error when changing event capacity parameters.
+    - Improved event registration compatibility with third-party plugins.
+    - Resolved issue where the "Today" button functioned inconsistently in the calendar.
+- **General**
+    - Resolved a Business Process Error message that appeared when Marketing pages were refreshed in a going live state.
+    - Resolved issue where Marketing pages solutions uninstalls failed for old Marketing solutions.
+    - Fixed an issue where a Quick Send solution overrode the contact entity "IsAuditEnabled" parameter.
+    - Resolved Quick Send error when changing content settings.
+    - Templates are now saved in the default template language, not the default language of the Marketing instance.
+- **Marketing emails**
+    - Resolved issue where the spellchecker did not function properly in the email content designer.
+    - Fixed incorrect error messages in spam checker.
+    - Resolved issue where email content designer controls did not load properly if certain form fields were missing.
+    - Improved German translations.
+    - Resolved an issue where selecting an image in the file selector would occasionally result in an error screen.
+- **Marketing insights**
+    - You can now upload any file using the provided access token.
+- **Segment management**
+    - Improved publishing of segments created by third-party plugins.
+    - Improved AssistEdit functionality in segments.
+    - Resolved error when filtering segment members by a single letter.
+- **Social posting**
+    - Resolved issue where social posting uninstalls failed for old Marketing solutions.
 
 ## March 2020 update
 
@@ -46,14 +137,14 @@ The Dynamics 365 Marketing March 2020 update includes several feature enhancemen
 ### Preview features
 
 > [!IMPORTANT]
-> This is a preview feature. A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
+> This is a preview feature. A preview feature is a feature that is not complete, but is made available before it's officially in a release so customers can get early access and provide feedback. Preview features aren't meant for production use and may have limited or restricted functionality.
 >
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate supplemental terms of use.
+> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate supplemental terms of use.
 
 - **Redesigned Get started page**
     - Updated cards and tiles with a more intuitive layout.
 
-### General availability enhancements
+### Monthly feature updates
 
 - **Customer journeys**
     - Custom channel names are now shown in the interaction timeline control.
@@ -62,7 +153,7 @@ The Dynamics 365 Marketing March 2020 update includes several feature enhancemen
     - Added the ability to set a registration cutoff date for events.
     - Improved recurrent event behavior.
 - **Marketing forms**
-    - You can now whitelist allowed domains instead of whitelisting individual forms pages.
+    - You can now allow list domains instead of allow listing individual forms pages.
 - **Segment management**
     - Improved date operations for anniversaries and relative dates.
     - Improved visibility for Export to Excel feature.
@@ -74,14 +165,14 @@ The Dynamics 365 Marketing March 2020 update includes several feature enhancemen
     - Disabled ability to upload file types with mismatched file extension.
 - **Entitlement**
     - Resolved issue where some users were unable to reinstall a Marketing instance after an entitlement was freed.
-- **GDPR**
-    - Disabled behavior tracking for consent confirmation.
 - **Marketing list**
     - Resolved issue where the delete button was sometimes not functional in the web client.
 - **Segment management**
     - Resolved issue where members of static segments did not import correctly from Customer Insights.
     - Fixed an issue where a "Business process error" could result after a successful first run experience in a disconnected org.
     - Decimal input is now supported in floating number fields.
+- **User tracking**
+    - Disabled behavior tracking for consent confirmation.
 
 ## February 2020 update
 
@@ -118,7 +209,7 @@ The Dynamics 365 Marketing February 2020 update includes an improved segment exp
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-customer-journey-experience)
     - [Docs](https://docs.microsoft.com/dynamics365/marketing/email-expire)
 
-### General availability enhancements
+### Monthly feature updates
 
 - **Customer journeys**
     - Improved handling of publishable entities in live customer journeys.
@@ -134,7 +225,7 @@ The Dynamics 365 Marketing February 2020 update includes an improved segment exp
     - Static segments are redesigned. Static segments now handle an unlimited number of total contacts (up to 10,000 at a time) and allow rule-based addition to list members.
     - You can select static segment contacts based on query and segment data.
     - Segments are time zone-aware, mirroring the time zone functionality in customer journeys.
-    - This release also incorporates a new partial date operator. Partial dates allow you to create segments for events such as “today” or people doing an action on the first day of the month, rather than specifying exact dates.
+    - This release also incorporates a new partial date operator. Partial dates allow you to create segments for events such as "today" or people doing an action on the first day of the month, rather than specifying exact dates.
 
 ### Bug fixes
 
