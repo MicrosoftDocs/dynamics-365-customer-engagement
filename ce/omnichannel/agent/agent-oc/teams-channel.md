@@ -33,7 +33,7 @@ Make sure that your administrator has configured a Teams channel.
 ## Incoming Teams chat notification
 
 You'll receive a notification when a customer requests a conversation through Teams. When you accept the Teams chat request, a session is started, and you'll see the communication panel in which you can exchange messages with the customer.
-<!--"Yi" isn't on our fictitious names list. -->
+
 > [!div class=mx-imgBorder]
 > ![Teams chat agent notification](../../media/incoming-chat-teams.png "Teams chat agent notification")
 
