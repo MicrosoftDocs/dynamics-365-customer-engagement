@@ -4,7 +4,7 @@ description: "Learn how to download or email chat transcripts"
 author: platkat
 ms.author: ktaylor
 manager: autumna
-ms.date: 04/03/2020
+ms.date: 04/06/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article

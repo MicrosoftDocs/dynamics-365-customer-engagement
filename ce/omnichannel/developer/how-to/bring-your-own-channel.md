@@ -4,7 +4,7 @@ description: "This topic provides information on how you can integrate custom me
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 04/03/2020
+ms.date: 04/06/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: reference
