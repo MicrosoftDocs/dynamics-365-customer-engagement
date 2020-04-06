@@ -353,8 +353,8 @@ Perform the following steps before you upgrade a solution:
 
 3.	After the successful upgrade of the solution, activate the Record Creation and Update Rules as required.
 
+### See also
 
-### See also  
  [Create rules to automatically route cases](../customer-service/create-rules-automatically-route-cases.md)   <br>
 
 [Create or change a queue](set-up-queues-manage-activities-cases.md)
