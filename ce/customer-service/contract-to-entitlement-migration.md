@@ -59,8 +59,7 @@ To switch from the Contract template and map to the Entitlement template:<BR>
 **STEP 1:** Custom fields with attributes can be created on Entitlement template<BR>
 **STEP 2:** Place the created fields on the form as per business needs
 
-> [!Note]: 
-> The Calendar item has been deprecated on the Contract template and will not be available on the Entitlement template.
+> [!Note] The Calendar item has been deprecated on the Contract template and will not be available on the Entitlement template.
 
 ## Mapping: Contract to entitlements
 If you are currently using Contract you can map to Entitlements via the steps provided below.
