@@ -27,8 +27,8 @@ Omnichannel for Customer Service January 2020 update is available in the followi
 
 |   Geographic location   |            Date        |
 |-------------------------|------------------------|
-| Canada        |   April 03, 2020     |  
-| South America   |   To be announced     |  
+| Canada        |   April 06, 2020     |  
+| South America   |   April 06, 2020     |  
 | Europe, the Middle East, and Africa       |   To be announced     |
 | United Kingdom          |   To be announced      |
 | Asia Pacific         |   To be announced      |
