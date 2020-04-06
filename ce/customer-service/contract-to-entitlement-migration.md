@@ -69,7 +69,7 @@ If you are currently using Contract you can map to Entitlements via the steps pr
 2.	Create custom attributes on entitlement for missing contract lines attributes.
 3.	Once entitlement is created from entitlement template, add Custom code to copy the custom fields added on entitlement for parity with contract lines.
 
-### **A. Single Product Contract**<BR>
+### A. Single Product Contract<BR>
   If you have a contract tied to a single product, use the following steps:
  1. Create entitlement
  2. Add only one product in Product grid
@@ -79,7 +79,7 @@ If you are currently using Contract you can map to Entitlements via the steps pr
 > [!Note]
 > The concept of the Contract group contract lines Contract has been deprecated and are not available on Entitlement. Entitlement does not provide concept grouping.
 
-### **B. Contract and Entitlement Cancellation**<BR>
+### B. Contract and Entitlement Cancellation<BR>
 Canceling a Contract or Entitlement can be canceled using the following steps:
 
 **Cancel Contract**<BR>
@@ -94,11 +94,11 @@ Entitlement can be canceled immediately, but can not be canceled in future.
 
 ![Cancel Entitlement](media\cancel-entitlement.png)
 
-### **C. Billing unit on contract**<BR>
+### C. Billing unit on contract<BR>
 Billing unit is not available in entitlement. To achieve this in entitlement use custom logic.
 For simple rollups one can use rollup fields. [More details on rollup fields](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/customize/define-rollup-fields).
 
-### **D. Commands on Contract** <BR>
+### D. Commands on Contract <BR>
 Below list of commands deprecated on entitlement:
 1. Copy Contract – this command is used to clone the contract 
 2. Recalculate – this command is used to recalculate the billing rollup
@@ -109,7 +109,7 @@ List of commands available on entitlements:
 1. **Renew** to renew the expired entitlement 
 2. **Cancel** to cancel the active entitlement
 
-### **E. State mapping** <BR>
+### E. State mapping <BR>
 - Invoiced state in contract can be mapped to waiting state in entitlement
 - Draft, active, canceled and expired are same for both contract and entitlement
 - Onhold state is not available in entitlement
