@@ -4,7 +4,7 @@ description: "Learn how to create customized IoT solutions in Connected Customer
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
-ms.date: 02/03/2020
+ms.date: 04/03/2020
 ms.topic: article
 ms.service: 
   - "dynamics-365-customerservice"
@@ -14,11 +14,9 @@ applies_to:
   - ""
 ---
 
-# Installation and setup - Connected Field Service for IoT Hub
+# Installation and setup - Connected Customer Service for IoT Hub
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-This guide provides all the steps required for getting up and running with Connected Customer Service (CCS) for IoT Hub. If you're looking for information about CCS for IoT Central, be sure to visit our tutorial on getting set up.
+This guide provides the steps required for getting up and running with Connected Customer Service (CCS) for IoT Hub. If you're looking for information about CCS for IoT Central, be sure to visit our tutorial on getting set up.
 
 ## Prerequisites  
  Before you install Connected Customer Service, make sure you have the following:  
@@ -53,7 +51,7 @@ Next, deploy and connect Azure IoTHub to your Customer Service environment by go
 
   
 ### Set up the sample simulator (optional)  
- To find the simulator URL , sign in to your Azure subscription, and then select the App Service resource type under the newly created resource group. You’ll see the URL is in the top right corner. Copy the URL and complete the following steps:  
+ To find the simulator URL, sign in to your Azure subscription, and then select the App Service resource type under the newly created resource group. You’ll see the URL is in the top-right corner. Copy the URL and complete the following steps:  
   
 1. Paste the URL into your browser’s address bar to load the page.  
   
@@ -127,7 +125,7 @@ Next, deploy and connect Azure IoTHub to your Customer Service environment by go
   
 6.  Save the dashboard, and then share it with any users who have permissions to see the dashboard and tiles.  
   
-    -   In the top right corner of the dashboard, click **Share**, enter the users email address, and click the **Share** button .  
+    -   In the top-right corner of the dashboard, click **Share**, enter the users email address, and click the **Share** button.  
   
 #### Pin the tile in Dynamics 365  
   
@@ -251,7 +249,7 @@ Next, deploy and connect Azure IoTHub to your Customer Service environment by go
 ## View the IoT dashboard
  The default IoT dashboard provides data on registered devices and alerts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or customize dashboards](../customize/create-edit-dashboards.md)
 
-1.  From the main menu, click **Field Service** or **Internet of Things**.
+1.  From the main menu, click **Customer Service** or **Internet of Things**.
 
 2.  Click **Dashboard**.
 
@@ -275,7 +273,7 @@ This provides a queue for both inbound and outbound messages (commands) flowing 
 
 [Logic Apps](https://azure.microsoft.com/services/logic-apps/) 
 
-This provides an orchestration service that uses a Dynamics 365 for Customer Engagement connector and a Queue connector. Dynamics 365 for Customer Engagement connectors are used to construct entities that are specific to Dynamics 365 for Customer Engagementand Queue connectors are used for polling the queue. 
+This provides an orchestration service that uses a Dynamics 365 for Customer Engagement connector and a Queue connector. Dynamics 365 for Customer Engagement connectors are used to construct entities that are specific to Dynamics 365 for Customer Engagement and Queue connectors are used for polling the queue. 
 
 [Stream analytics](https://azure.microsoft.com/services/stream-analytics/) 
 

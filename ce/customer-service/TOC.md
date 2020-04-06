@@ -43,11 +43,6 @@
 #### [Create and manage parent and child cases](user-guide-customer-service.md#create-and-manage-parent-and-child-cases)
 #### [Find knowledge articles from within a record](find-knowledge-articles-within-record-dynamics-365.md)
 
-### Customer Service Analytics for Dynamics 365
-#### [Introduction to Customer Service Analytics](introduction-customer-service-analytics.md)
-#### [View and understand Customer Service Analytics](customer-service-analytics.md)
-#### [Configure Customer Service Analytics](configure-customer-service-analytics-dashboard.md)
-
 ## Service Manager Guide
 ### [Understand Service Management](service-manager-guide.md)
 
@@ -80,6 +75,13 @@
 
 ### Similar Record Suggestions
 #### [Use advanced similarity rules to view similar case suggestions](suggest-similar-cases-for-a-case.md)
+
+### Customer Service Analytics and Insights
+#### [Introduction to Customer Service Analytics and Insights](introduction-customer-service-analytics.md)
+#### [View and understand Customer Service Analytics and Insights in Customer Service Hub](customer-service-analytics-insights-csh.md)
+#### [View and understand Customer Service Analytics](customer-service-analytics.md)
+#### [Configure Customer Service Analytics and Insights in Customer Service Hub](configure-customer-service-analytics-insights-csh.md)
+#### [Configure Customer Service Analytics in Power BI](configure-customer-service-analytics-dashboard.md)
 
 ## Connected Customer Service (IoT) add-in
 ### [Overview](cs-iot-overview.md)
