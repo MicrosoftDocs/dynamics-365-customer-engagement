@@ -123,7 +123,7 @@ List of commands available on entitlements:
 > - Entitlement product(s) should be the same as the product on a case for entitlement to be assigned to case.
 
 ### See Also:
--
+- [Important changes (deprecations) coming](https://docs.microsoft.com/en-us/power-platform/important-changes-coming) 
 
 
 
