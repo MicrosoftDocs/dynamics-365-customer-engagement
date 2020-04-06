@@ -1,7 +1,7 @@
 ---
 title: "Manage tasks, appointments, email, or phone calls in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Track all your customer communications with activities in Dynamics 365 Sales Professional."
-ms.date: 10/01/2019
+ms.date: 04/03/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -16,8 +16,8 @@ Keep track of all your customer communications with activities in Dynamics 365 S
 
 The system automatically time stamps every activity and shows who created it. You and other people on your team can scroll through the activities to see the history as you work with a customer.
 
-To get the most out of your Sales app, it’s important for everyone in the organization to track all their customer interactions by adding an activity for
-every email, phone call, task, or appointment. That way, a customer’s history is complete.
+To get the most out of your Sales app, it's important for everyone in the organization to track all their customer interactions by adding an activity for
+every email, phone call, task, or appointment. That way, a customer's history is complete.
 
 ## Find your activities
 
@@ -47,7 +47,7 @@ You can see the activities in three different views:
     > [!div class="mx-imgBorder"] 
     > ![Activity List view](../sales-enterprise/media/activity-list-view.png "Activity List view")
 
--  **Calendar.** Shows a calendar with a list of the day’s scheduled activities and the associated deals. 
+-  **Calendar.** Shows a calendar with a list of the day's scheduled activities and the associated deals. 
 
     > [!div class="mx-imgBorder"] 
     > ![Activity Calendar view](../sales-enterprise/media/activity-calendar-view.png "Activity Calendar view")
@@ -57,15 +57,11 @@ You can see the activities in three different views:
     > [!div class="mx-imgBorder"]  
     > ![Activities in the Kanban view](../sales-enterprise/media/activities-kanban-view.png "Activities in the Kanban view") 
 
-> [!IMPORTANT]
-> The Kanban view and Calendar view are early access features. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. 
-For information about how to enable these features, see [Opt in to 2020 release wave 1 updates](https://aka.ms/EarlyAccessOpt-in).
- 
 To switch to a different view:
 
-1.	In the site map, select **Activities**.
+1. In the site map, select **Activities**.
 
-2.	On the command bar, select the **More commands** icon ![More commands icon](../sales-enterprise/media/more-commands-icon.png "More commands icon"), and then select **Show As**, and then the view type such as, **Kanban**, **Calendar Control**, or **Read Only Grid**.
+2. On the command bar, select the **More commands** icon ![More commands icon](../sales-enterprise/media/more-commands-icon.png "More commands icon"), and then select **Show As**, and then the view type such as, **Kanban**, **Calendar Control**, or **Read Only Grid**.
 
     > [!div class="mx-imgBorder"]  
     > ![Show activities in the Kanban view](../sales-enterprise/media/activity-show-as-kanban-view.png "Show activities in the Kanban view") 
@@ -73,21 +69,17 @@ To switch to a different view:
 
 ## Change your activities view
 
-You can use views to see the activities you want. For example, you can use the **My Activities** view to see activities assigned to you and **My Team Members’ Activities** view to see your team’s activities. 
+You can use views to see the activities you want. For example, you can use the **My Activities** view to see activities assigned to you and **My Team Members' Activities** view to see your team's activities. 
 
 > [!div class="mx-imgBorder"] 
 > ![Activity view drop-down list](../sales-enterprise/media/activity-view-drop-down.png "Activity view drop-down list")
 
 ## Filter the list of activities
 
-You can filter the list of activities to see only the ones you’re interested in. For example, you can further limit the activities you are seeing in a view by using the activity type filter. The activity type filter allows you to filter activities based on the type, such as email, task, phone call, and so on.
+You can filter the list of activities to see only the ones you're interested in. For example, you can further limit the activities you are seeing in a view by using the activity type filter. The activity type filter allows you to filter activities based on the type, such as email, task, phone call, and so on.
 
 > [!div class="mx-imgBorder"] 
 > ![Activity type filter](../sales-enterprise/media/activity-type-filter.png "Activity type filter")
-
-> [!IMPORTANT]
-> The Activity Type filter is an early access feature. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. 
-For information about how to enable these features, see [Opt in to 2020 release wave 1 updates](https://aka.ms/EarlyAccessOpt-in).
 
 You can also use the **Due** filter to see the activities that are due in a specified time, such as activities that are due today or earlier or activities that are due in the next seven days or earlier.
 
@@ -96,22 +88,19 @@ You can also use the **Due** filter to see the activities that are due in a spec
 
 ## Create or edit a new activity
 
-You can create independent activities that aren’t associated with any customer or sales record. To do so, in the site map, select **Activities** and then on the command bar, select **Email** or **Phone Call** or **Task**, depending on which activity you want to create.
+You can create independent activities that aren't associated with any customer or sales record. To do so, in the site map, select **Activities** and then on the command bar, select **Email** or **Phone Call** or **Task**, depending on which activity you want to create.
 
 Or, to edit an existing activity record, open the activity by selecting its title.
 
 
 > [!NOTE]
-> - With the February 2020 release of Dynamics 365 Sales, when you create or edit a new activity, the record opens in a Main form dialog. A Main form dialog is a Main form opening in a dialog (a pop-up window). Main form dialogs allow you to stay in context while working on one record with the ability to open a second or third record in dialog experience. This makes it easier to edit the records.
-> - The Main form dialog is an early access feature. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. 
-For information about how to enable these features, see [Opt in to 2020 release wave 1 updates](/power-platform/admin/opt-in-early-access-updates).
-
+> With the April 2020 release of Dynamics 365 Sales, when you create or edit a new activity, the record opens in a Main form dialog. A Main form dialog is a Main form opening in a dialog (a pop-up window). Main form dialogs allow you to stay in context while working on one record with the ability to open a second or third record in dialog experience. This makes it easier to edit the records.
 
 ## Add a new activity for a customer
 
-Most often, you’ll want to add an activity associated with a contact, opportunity, account, or other type of record to help you keep track of all the communication history you have with a customer. (You can also add an activity for yourself.)
+Most often, you'll want to add an activity associated with a contact, opportunity, account, or other type of record to help you keep track of all the communication history you have with a customer. (You can also add an activity for yourself.)
 
-As your organization’s relationship with a customer develops over time, you and other people on your team can look through the activity feed as you work with the customer and see the history of your interactions.
+As your organization's relationship with a customer develops over time, you and other people on your team can look through the activity feed as you work with the customer and see the history of your interactions.
 
 1.  Open the record you want to add the activity to.
 
@@ -120,9 +109,9 @@ As your organization’s relationship with a customer develops over time, you an
 
 ## Add an activity for yourself
 
-Add a task or note for yourself when you want a reminder to do something personal, like schedule a doctor’s appointment or attend a sporting event.
+Add a task or note for yourself when you want a reminder to do something personal, like schedule a doctor's appointment or attend a sporting event.
 
-Otherwise, to keep a history of your interactions with a customer, you should add new activities that are associated with a customer’s record so that they become part of the history that other people on your team can view.
+Otherwise, to keep a history of your interactions with a customer, you should add new activities that are associated with a customer's record so that they become part of the history that other people on your team can view.
 
 1.  In the site map, select **Activities**. 
 
