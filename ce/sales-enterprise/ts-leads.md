@@ -15,10 +15,10 @@ manager: annbe
 This article helps you troubleshoot and resolve issues related to the Lead entity.
 
 **On this page:**
-- [Issue: I can't qualify a lead.](#cant_qualify_lead)
+- [Issue: I can't qualify a lead](#cant_qualify_lead)
 - [Issue: Insufficient permissions or Access denied error when a user is trying to qualify a lead](#insufficientpermissions)
-- [Issue: The **Qualify lead** command is not available on the Lead record.](#qualify-lead-not-available)
-- [Issue: Account or contact-related fields aren't populating on the Lead form.](#account-contact-fields-not-populating)
+- [Issue: The **Qualify lead** command is not available on the Lead record](#qualify-lead-not-available)
+- [Issue: Account or contact-related fields aren't populating on the Lead form](#account-contact-fields-not-populating)
 
 <a name="lead_qualification"> </a>
 ## Lead qualification issues and resolution (sales people)
@@ -121,64 +121,21 @@ Make sure that the lead that you're trying to qualify or disqualify is open and 
 ### Issue: Insufficient permissions or Access denied error when a user is trying to qualify a lead
 
 How you resolve this error depends on the following ownership scenarios for the lead records. 
--  [The lead is owned by the user trying to qualify it](#OwnedByUser)
--  [The lead that the user is trying to qualify is in their business unit](#BusinessUnit)
--  [The lead that the user is trying to qualify is in their organization](#Organization)
 
-<a name="OwnedByUser"> </a>
-**Scenario:** 
-The lead is owned by the user trying to qualify it.
+| Ownership scenario   |  Resolution steps       |
+|--------------------- | -----------------       |
+| The lead is owned by the user trying to qualify it. | <ol> <li> Make sure you have a system administrator role or equivalent permissions. </li><li> Go to **Settings** > **Security Role**.</li><li> Open the security role of the user.</li><li> On the **Core Records** tab, assign **Create**, **Read**, **Append**, and **Append To** permissions to the Security Role at User level on the following entities:<ul><li>  Account</li><li>Lead</li><li>Contact</li><li>Opportunity</li></ul> ![Security role with access at User level](media/security-role-sales-person.png "Security role with access at User level") <br><br> <li> On the **Custom Entities** tab, assign Read access to any custom entity.</li><li> On the **Customizations** tab, assign **Read** access to **Attribute Map**, **Customizations**, **Entity** and **Entity Map**.</li></ol> |
+| The lead that the user is trying to qualify is in their business unit  | <ol><li>Go to **Settings** > **Security Role**.</li> <li> Open the security role of the user.</li><li> Assign **Create**, **Read**, **Append**, and **Append To** permissions to the user's Security Role at Business Unit level on the following entities:<ul><li> Account</li><li>Lead</li><li>Contact</li><li>Opportunity</li></ul>![Security role with access at Business Unit level](media/security-role-sales-person-bu-access.png "Security role with access at Business Unit level") <li> Assign **Read** access to any custom entity.</li><li>Assign **Read** access to **Attribute Map**, **Customizations**, **Entity** and **Entity Map**</li></ol>|
+| The lead that the user is trying to qualify is in their organization  | <ol><li>Go to **Settings** > **Security Role**.</li> <li> Open the security role of the user.</li><li> Assign **Create**, **Read**, **Append**, and **Append To** permissions to the user's Security Role at Organization level on the following entities:<ul><li> Account</li><li>Lead</li><li>Contact</li><li>Opportunity</li></ul>![Security role with access at Organization level](media/security-role-sales-person-org-access.png "Security role with access at Organization level") <li> Assign **Read** access to any custom entity.</li><li>Assign **Read** access to **Attribute Map**, **Customizations**, **Entity** and **Entity Map**</li></ol>|
 
-**Resolution:** 
-1. Make sure you have a system administrator role or equivalent permissions.
-2. Go to **Settings** > **Security Role**.
-3. Open the security role of the user.
-4. On the **Core Records** tab, assign **Create**, **Read**, **Append**, and **Append To** permissions to the Security Role at User level on the following entities:
-    -  Account 
-    -  Lead
-    -  Contact
-    -  Opportunity 
+During qualification of a lead, the records that (optionally) get created are: Opportunity, Contact and Account. More information: [Qualify or convert leads](qualify-lead-convert-opportunity-sales.md)
+If the user is still getting privilege-related errors even after assigning appropriate privileges as mentioned earlier in this section, it might be possible that they're missing privileges on some entities that are being accessed during creation of the account, contact, or opportunity records. For example, the user might be missing privileges on some custom entities that are accessed when some plugins or workflows run on some operation of the account, contact, or opportunity entities. 
+To troubleshoot this further, follow these steps:
 
-    ![Security role with access at User level](media/security-role-sales-person.png "Security role with access at User level")
+1. **Isolate the issue to creation of Opportunity, Account or Contact record:** Ask the user to try creating individual records of Account, Contact and Opportunity and see if they're getting the same privilege related issue on creation of these records. They might have privilege issues on one or more type of records, so it is important to perform this step for each record type. For example, they might not have appropriate privileges on Account and Contact entities.  
 
-5.    On the **Custom Entities** tab, assign Read access to any custom entity.
-6.    On the **Customizations** tab, assign **Read** access to **Attribute Map**, **Customizations**, **Entity** and **Entity Map**.
-
-<a name="BusinessUnit"> </a>
-**Scenario:**
-The lead that the user is trying to qualify is in their business unit.
-
-**Resolution:**
-1.    Go to **Settings** > **Security Role**.
-2. Open the security role of the user.
-3. Assign **Create**, **Read**, **Append**, and **Append To** permissions to the user's Security Role at Business Unit level on the following entities:
-    -  Account 
-    -  Lead
-    -  Contact
-    -  Opportunity 
-
-    ![Security role with access at Business Unit level](media/security-role-sales-person-bu-access.png "Security role with access at Business Unit level")
-
-4. Assign **Read** access to any custom entity.
-5. Assign **Read** access to **Attribute Map**, **Customizations**, **Entity** and **Entity Map**
-
-<a name="Organization"> </a>
-**Scenario:**
-The lead that the user is trying to qualify is in their organization.
-
-**Resolution:**
-1. Go to **Settings** > **Security Role**.
-2. Open the security role of the user.
-3. Assign **Create**, **Read**, **Append**, and **Append To** permissions to the user's Security Role at Organization level on the following entities:
-    -  Account 
-    -  Lead
-    -  Contact
-    -  Opportunity 
- 
-    ![Security role with access at Organization level](media/security-role-sales-person-org-access.png "Security role with access at Organization level")
-
-4. Assign Read access to any custom entity.
-5. Assign Read access to **Attribute Map**, **Customizations**, **Entity** and **Entity Map**.
+2. **Identify if any plugin/workflow registered on creation of entity is causing issues:** After isolating the issue to creation of a particular entity record, check that any plugin or workflow running on creation of these entity records is accessing some other entities on which the current user is missing privileges. For this, find out all the plugins or workflows registered on creation of entity records and deactivate them one by one to identify the plugin or workflow causing the issue. Once you identify the plugin or workflow causing the issue, deactivate it to unblock the record creation process. For more information about identifying all workflows registered for an entity, see [Deactivate custom workflow process](ts-oqoi.md#deactivate-custom-process). 
+For more information about identifying plugins registered on creation of an entity record, see [Deactivate custom plug-in](ts-oqoi.md#deactivate-custom-plug-in) 
 
 <a name="qualify-lead-not-available"> </a>
 ### Issue: The **Qualify lead** command is not available on the Lead record.
