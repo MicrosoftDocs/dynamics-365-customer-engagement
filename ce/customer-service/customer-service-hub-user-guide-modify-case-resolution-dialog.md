@@ -1,22 +1,18 @@
 ---
 title: "Modify case resolution dialog in Customer Service Hub | Microsoft Docs"
 description: "Understand cases in Customer Service Hub for Dynamics 365 Customer Service."
-ms.date: 03/17/2020
+ms.date: 04/07/2020
 ms.service:
   - "dynamics-365-customerservice"
 ms.topic: article
 author: neeranelli
-ms.author: lrobbin
+ms.author: nenellim
 manager: shujoshi
 ---
 
 # Modify case resolution dialog box
 
-
-[!include[cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
-
 Updates to the case resolution main form dialog box provide customers with additional functionality to support case resolution entities and edit the dialog box. This new functionality provides a powerful construct to expand the case resolution entity to support business needs that enable users to add and remove fields instantly without writing a single line of code.
-
 
 The new main form dialog experience is similar to the old experience, but behind the scenes, this is a form that customers can quickly edit. Customers can go to the form designer and edit and modify fields according to their business needs.
 
@@ -27,7 +23,7 @@ Use the following steps to get started:
 - **Step 3:** Create status values
   - Case entity (status code)
   - Case Resolution entity (resolution type code)
-- **Step 4:** Edit form 
+- **Step 4:** Edit form
 
 ## Permissions
 
@@ -62,9 +58,7 @@ Perform the following steps to enable customizable dialog:
 > [!NOTE]
 > The default setting is **Standard dialog**. You must select the **Customizable dialog** option, otherwise changes made to the form will be saved, but will not be displayed at runtime. 
 
-
 ## Status values 
-
 
 After you set your permissions and enable customizable dialog, you can create status values in your form. 
 
@@ -146,10 +140,6 @@ You've successfully added a duplicate status to the status code field.
 
 Now that you've added the duplicate status to the Case entity, you need to add it to the Case Resolution entity using the following steps:
 
-<!--The following image is a duplicate of the one that follows Step 3.
-  > [!div class=mx-imgBorder]
-  > ![Case Resolution entity](media/enable-customizable-dialog-1.png "Case Resolution entity")-->
-
 **Step 1:** In the solution explorer, expand **Entities**, and then expand **Case Resolution**.
 
 **Step 2:** Select **Fields**.
@@ -213,7 +203,7 @@ Now, when the customer service reps try to resolve a case, the case resolution d
   > [!div class=mx-imgBorder]
   > ![Resolution Type field on the Case Resolution dialog box](media/case_resolution_14a.PNG "Resolution Type field on the Case Resolution dialog box")
 
-You will know if a case has been successfully resolved per the status bar at the top of the form. 
+You will know if a case has been successfully resolved per the status bar at the top of the form.
 
   > [!div class=mx-imgBorder]
   > ![Status bar](media/case_resolution_15.png "Status bar")
