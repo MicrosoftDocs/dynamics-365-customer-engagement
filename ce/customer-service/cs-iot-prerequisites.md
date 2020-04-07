@@ -17,8 +17,6 @@ applies_to:
 
 # Prerequisites for setting up Connected Customer Service for Azure IoT Central
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 Ready to connect Azure IoT Central to Connected Customer Service (CFS) using Power Automate to see how you can harness the power of the Internet of Things (IoT) and improve customer service (without writing any code)?
 
 Before you take these tutorials, you need to complete three tasks:
