@@ -305,6 +305,9 @@ POST {{OrgUrl}}/api/data/v9.0/msdyncrm_FetchContactsByQuery
 }
 ```
 
+> [!IMPORTANT]
+> On the example above, replace SEGMENT_CRM_ID_ce97cb9dbd75ea11a811000d3a8e8fcc with the name of your segment in the backend, as it is in the msdyncrm_segmentqueryname field of your segment. If your segment has id `ce97cb9d-bd75-ea11-a811-000d3a8e8fcc`, that value will be `SEGMENT_CRM_ID_ce97cb9dbd75ea11a811000d3a8e8fcc`.
+
 ## Validating segments
 
 Before you create or modify a segment, you can verify the new definition using a dedicated validation endpoint.
