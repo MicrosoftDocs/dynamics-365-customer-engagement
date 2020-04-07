@@ -171,7 +171,7 @@ This illustration of the Omnichannel Sentiment Analysis report provides 
    |% Positive Sentiment                 |Count of positive sentiment zone conversations divided by total sessions.  |
    |% Neutral Sentiment                  |Count of neutral sentiment zone conversations divided by total sessions.  |
    |% Negative Sentiment                 |Count of negative sentiment zone conversations divided by total sessions.  |
-   |Conversations with Sentiment predication  |Count of conversations to predict the customer sentiment metrics.|
+   |Conversations with Sentiment prediction  |Count of conversations to predict the customer sentiment metrics.|
 
 ## Preview: Omnichannel Insights – Sentiment drivers reporting
 
