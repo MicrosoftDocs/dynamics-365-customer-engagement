@@ -4,7 +4,7 @@ description: "Learn how to create customized IoT solutions in Connected Customer
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
-ms.date: 02/03/2020
+ms.date: 04/03/2020
 ms.topic: article
 ms.service: 
   - "dynamics-365-customerservice"
@@ -15,8 +15,6 @@ applies_to:
 ---
 
 # Develop customized IoT solutions in Connected Customer Service
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Connected Customer Service for Dynamics 365 integrates Internet of Things (IoT) devices with Dynamics 365 for Customer Engagement to enable their registration, monitoring and management into established business processes. This guide explains the component architecture, supplied interfaces and customization points, and explains the approach to develop customized IoT solutions.
 

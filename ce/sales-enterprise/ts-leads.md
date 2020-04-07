@@ -143,7 +143,7 @@ The lead is owned by the user trying to qualify it.
 The lead that the user is trying to qualify is in their business unit.
 
 **Resolution:**
-1.    Go to **Settings** > **Security Role**.
+1. Go to **Settings** > **Security Role**.
 2. Open the security role of the user.
 3. Assign **Create**, **Read**, **Append**, and **Append To** permissions to the user's Security Role at Business Unit level on the following entities:
     -  Account 

@@ -1,7 +1,7 @@
 ---
 title: "Create and design a marketing email message (Dynamics 365 Marketing) | Microsoft Docs "
 description: "Learn how to create and design a marketing email message in Dynamics 365 Marketing"
-ms.date: 08/21/2019
+ms.date: 04/03/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -11,7 +11,7 @@ author: alfergus
 ms.author: alfergus
 manager: shellyha
 ms.reviewer:
-topic-status: Drafting
+topic-status: 
 search.audienceType: 
   - admin
   - customizer
@@ -23,25 +23,25 @@ search.app:
 
 # Create a new email and design its content
 
-Read this topic to learn how to create an email message and design its content. See also the [email marketing overview](prepare-marketing-emails.md) for a summary of the full message creation, delivery, and analysis process for email marketing. 
+Read this article to learn how to create an email message and design its content. See also the [email marketing overview](prepare-marketing-emails.md) for a summary of the full message creation, delivery, and analysis process for email marketing.
 
-For a step-by-step tutorial for how to create and send your first marketing email message, see also [Create a marketing email and go live](create-marketing-email.md)
+For a step-by-step tutorial on how to create and send your first marketing email message, see also [Create a marketing email and go live](create-marketing-email.md)
 
 ## Create a new email marketing message
 
-To create a new email marketing message, go to **Marketing** > **Marketing Execution** > **Marketing emails** and select **New** on the command bar. Y See the remaining sections of this topic for details. 
+To create a new email marketing message, go to **Marketing** > **Marketing Execution** > **Marketing emails** and select **New** on the command bar.
 
 ![Location of the new-email button](media/new-email-button-location.png "Location of the new-email button")
 
 ## Establish your basic layout by choosing the right template
 
-The first thing you are asked when you create a new message is to selected a template. Dynamics 365 Marketing includes a wide variety of templates, each of which includes both structural and style elements; there's also a blank template, which lets you start from scratch wiht an empty message. On selecting a template, you'll be in the email designer, where you can finish creating your email content.
+The first thing you are asked when you create a new message is to select a template. Dynamics 365 Marketing includes many templates, each of which includes both structural and style elements. There's also a blank template, which lets you start from scratch with an empty message. After you select a template, you'll be in the email designer, where you can finish creating your email content.
 
 ![Dialog for choosing an email template](media/email-template-dialog.png "Dialog box for choosing an email template")
 
-When you create a new message from a template, the template content is copied into your new message. The message and template aren't linked, so when you edit the message, the template won't change; likewise, any future changes that you make to a template won't affect any existing messages that were created by using it.
+When you create a new message from a template, the template content is copied into your new message. The message and template aren't linked, so when you edit the message, the template won't change. Likewise, any future changes that you make to a template won't affect any existing messages that were created using it.
 
-You can also create your own custom templates, which can help both you and others in your organization to create new messages more quickly in the future. Design your templates so that they reflect your organization's graphical identity and fit closely with the types of campaigns you run most regularly. You can save any existing message as a template by selecting **Save as template** on the command bar, or work directly in the templates area (**Marketing** > **Marketing Templates** > **Email templates**) to view or edit existing templates and create new ones. When setting up a template, you can add various types of metadata (such as purpose, style, market type, and optimized for) which make each template easier to identify and easier to find by using filters.
+You can also create your own custom templates. Custom templates can help you and others in your organization create new messages more quickly in the future. Design your templates so that they reflect your organization's graphical identity and fit closely with the types of campaigns you run most regularly. You can save any existing message as a template by selecting **Save as template** on the command bar. You can also work directly in the templates area (**Marketing** > **Marketing Templates** > **Email templates**) to view or edit existing templates and create new ones. When setting up a template, you can add various types of metadata (purpose, style, market type, and optimized for) which make each template easier to identify and find by using filters.
 
 More information: [Work with email, page, and form templates](email-templates.md)
 
@@ -63,11 +63,12 @@ Enter a **Subject** for your message in the field provided at the top of the pag
 
 ### Other important settings
 
-Once you have a name and subject, you'll be able to start saving your message. Other important settings are also provided above the design, together with the **Subject**, but these should already show default values that should work fine in most situations, including:
+Once you have a name and subject, you'll be able to start saving your message. Other important settings are also provided above the design, together with the **Subject**, but these should already show default values that should work fine in most situations. To access all the header and preheader settings, click the expand caret to the right of the **To** box. The settings include:
 
 - **To**: This must contain an expression for finding each address the message will be sent to. This should almost always be the dynamic expression provided by default, which is `{{contact.emailaddress1}}`.
 - **From name**: This is the name that recipients will see as the sender when they receive the message. By default, this is the name of the user who created the message. Recipients are more likely to open your message if they see a name they recognize here.
 - **From address**: This is the email address for the person who sent the message. By default, this is the email address of the user who created the message. The domain shown here should be authenticated as belonging to your organization, which can have a dramatic impact on deliverability.
+- **Preview text**: Preview text allows you to create a custom preheader that displays in your recipient's inbox before they open the email message. The preheader is your chance to create a line that grabs the recipient's attention as soon as they see your message.
 
 Each of these settings is repeated on the **Summary** tab. For complete details about how to use these settings, see [Set the sender, receiver, language and legal designation for a message](email-properties.md). We recommend that you don't change any of these settings until you've read that topic.
 
@@ -77,9 +78,11 @@ The email content designer resembles the other [digital content designers](desig
 
 - Use the **Design** > **Designer** tab graphical tool to design your content by using drag-and-drop, point-and-click operations. Add new elements to your design by dragging design elements from the **Design** > **Designer** > **Toolbox** tab to the canvas. Choose a design elements that already exists in your design, and then open the **Design** > **Designer** > **Properties** tab to configure it and style it. To style the overall message with basic fonts, colors, and background, open the **Style** tab.
 
-- When you select a design element on the canvas, you'll usually see a formatting toolbar just above the element. The controls offered by the toolbar vary depending on which type of element you've selected. Most toolbars provide buttons to move, copy, or delete the selected element, in addition to specialized buttons that vary by element type.
+- When you select a design element on the canvas, you'll usually see a formatting toolbar just above the element. The controls offered by the toolbar vary depending on which type of element you've selected. Most toolbars provide buttons to move, copy, or delete the selected element, in addition to specialized buttons that vary by element type. The toolbar also includes an arrow which allows you to quickly switch to the parent element that contains the selected element.
 
 - When a text element is selected, you'll get a full formatting toolbar that you can use to apply basic text formatting like you would in Microsoft Word. It also includes an **[Assist edit](dynamic-email-content.md#assist-edit)** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button"), which you can use to add dynamic content such as a mail-merge field that displays the recipient's name. More information: [Use assist edit to place dynamic field values](dynamic-email-content.md#assist-edit)
+
+- To resize an image, divider, or button, click to select the element. You will see small circles on the corners and sides of the element. Select a circle and drag to resize.
 
 - Use the **Designer** > **HTML** tab to edit the raw HTML directly. You might use this to paste in an existing HTML design, or to fine-tune the code in ways that aren't supported by the graphical editor (such as custom attributes or logic). The HTML editor has two subtabs: **HTML Source** (for editing the design, including logical expressions and dynamic content) and **HTML Output** (which resolves all dynamic content to provide static HTML that you can use in other applications).
 

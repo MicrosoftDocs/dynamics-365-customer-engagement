@@ -1,7 +1,7 @@
 ---
 title: "Monitor and assign conversations as a supervisor | MicrosoftDocs"
 description: "Learn how to monitor conversations as a supervisor"
-ms.date: 04/03/2020
+ms.date: 04/06/2020
 ms.service:
   - "dynamics-365-customerservice"
 ms.topic: article

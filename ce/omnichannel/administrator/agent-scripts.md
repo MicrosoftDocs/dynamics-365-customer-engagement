@@ -4,7 +4,7 @@ description: "Learn about agent scripts and how to configure them in the Omnicha
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 04/01/2020
+ms.date: 04/06/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article

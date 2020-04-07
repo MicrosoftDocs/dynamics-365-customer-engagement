@@ -4,7 +4,7 @@ description: Understand how you can upgrade Omnichannel for Customer Service
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 04/01/2020
+ms.date: 04/06/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
