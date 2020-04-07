@@ -4,7 +4,7 @@ description: Dashboards and reports provide historical operational metrics and K
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -23,14 +23,14 @@ search.app:
 
 ## Customer Service Analytics dashboard
 
-The <!--Note from editor: Our style guide doesn't talk about this product yet, so please excuse if this is a dumb question: Should this name be put in context somehow? Like "Customer Service Analytics for Dynamics 365 Customer Service Hub"?-->Customer Service Analytics dashboard that's created in Power BI provides information about the historical operational metrics and key performance indicators (KPIs) to effectively manage contact centers.
+The Customer Service Analytics dashboard that's created in Power BI provides information about the historical operational metrics and key performance indicators (KPIs) to effectively manage contact centers.
 
 The following is an example of the Customer Service Analytics overview dashboard:  
 
    > [!div class=mx-imgBorder]
    > ![Customer Service Analytics overview dashboard](media/cs-analytics-overview-dashboard.png "Customer Service Analytics overview dashboard")
 
-This view includes<!--Edit okay? I didn't know what "section" referred to otherwise.--> the following KPIs:  
+This view includes the following KPIs:
 
 | KPI                       | Description         |
 |---------------------------|-------------------------|
@@ -48,11 +48,11 @@ This view also includes the following filters:
 |Filters / Dimensions  |Description        |
 |----------------------|-------------------|
 |Duration              |Filters the reporting date range.|
-|Queue                 |Lets you filter the queue you'd like to drill down to<!--Via AH Dictionary, "drill down" is the prepositional phrase for data. --> and see all metrics related to that queue. |
+|Queue                 |Lets you filter the queue you'd like to drill down to and see all metrics related to that queue. |
 |Agent                 |Lets you filter the report to show all the agents who report to you, to understand how each is performing and help you develop coaching and training plans. |
 |Priority              |Filters the reporting to the selected priority of the case (high, normal, or low). |
 |Subject               |Filters the reporting to the selected subject of the case.  |
-|Channel               |Filters the reporting to the selected Omnichannel for Customer Service channels (Chat, SMS, or Facebook, for example<!--Are there others? If not, then we don't need "for example". -->).  |
+|Channel               |Filters the reporting to the selected Omnichannel for Customer Service channels, such as chat, SMS, or Facebook.  |
 
 ## Customer Service Analytics reports
 
@@ -66,7 +66,7 @@ The Customer Service Analytics report detail view has three views:
 
 ### 1. Summary
 
-  This view provides KPIs and metrics across Customer Service<!--okay? --> and gives supervisors the ability to filter the view, as described following the image.<!--okay? -->
+  This view provides KPIs and metrics across Customer Service and gives supervisors the ability to filter the view.
 
    > [!div class=mx-imgBorder]
    > ![Customer Service Analytics summary view](media/cs-analytics-summary-view.png "Customer Service Analytics summary view")
@@ -86,12 +86,12 @@ The Customer Service Analytics report detail view has three views:
 
 ### 2. Agent and queue
 
-   This view provides KPIs and metrics across Customer Service and gives supervisors the ability to filter the view, as described following the image.
+   This view provides KPIs and metrics across Customer Service and gives supervisors the ability to filter the view.
 
    > [!div class=mx-imgBorder]
    > ![Customer Service Analytics agent/queue view](media/cs-analytics-agent-queue-view.png "Customer Service Analytics agent/queue view")
 
-   This section contains the following visuals/KPIs:
+   This view contains the following visuals or KPIs:
 
    |Visual / KPI              |Description                            |
    |---------------------------|---------------------------------------|
@@ -105,7 +105,7 @@ The Customer Service Analytics report detail view has three views:
 
 ### 3. Case and activity list
 
-   This section provides a detailed view of cases and activities that you can use to drill down to each case or activity to help resolve customer issues. The link in this report directs you to Customer Service or the Customer Service Hub app.  
+   This section provides a detailed view of cases and activities that you can use to drill down to each case or activity to help resolve customer issues. The link in this report directs you to the Customer Service Hub app or Customer Service app.
 
    > [!NOTE]
    > Prerequisite for the link to work: you must have either a Customer Service Hub app or Customer Service app installed from AppSource.
@@ -115,7 +115,7 @@ The Customer Service Analytics report detail view has three views:
 
 ## View and filter report  
 
-Filter information by viewing the reports and selecting from Duration, Queue, Agent, Case priority, Subject, and Case status. 
+Filter information by viewing the reports and selecting from Duration, Queue, Agent, Case priority, Subject, and Case status.
 
    > [!div class=mx-imgBorder]
    > ![Customer Service Analytics view and filter report](media/cs-analytics-view-filer-report.png "Customer Service Analytics view and filter report")
@@ -123,7 +123,7 @@ Filter information by viewing the reports and selecting from Duration, Queue, Ag
 Select the subject you're interested in, and information is filtered according to your selection. This helps to quickly analyze KPIs and take necessary steps to improve outcomes.
 
 ### See also
-<!--note from editor: Just FYI, the way to achieve a "tight" stack of links is to add two spaces to the end of each line. Very unintuitive.-->
+
 [Introduction to Customer Service Analytics and Insights](introduction-customer-service-analytics.md)  
 [Configure Customer Service Analytics and Insights in Customer Service Hub](configure-customer-service-analytics-insights-csh.md)  
 [View and understand Customer Service Analytics and Insights in Customer Service Hub](customer-service-analytics-insights-csh.md)  

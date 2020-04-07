@@ -25,7 +25,7 @@ search.app:
 
 ## Customer Service Analytics reports
 
-The following reports are available for Customer Service Analytics<!--Okay to use this name without further branding?-->:
+The following reports are available for Customer Service Analytics:
 
 - **Case Summary**
 
@@ -56,10 +56,10 @@ You can use the following filters in the reports.
 |----------------------|-------------------|
 |Duration              |Filters the reporting date range.|
 |Queue                 |Lets you filter the queue you'd like to drill down to and see all metrics related to that queue. |
-|Agent                 |Lets you filter the report to show all the agents who report to you, to understand how each is performing and help you develop coaching and training plans.<!--Edit okay? -->  |
+|Agent                 |Lets you filter the report to show all the agents who report to you, to understand how each is performing and help you develop coaching and training plans.  |
 |Priority              |Filters the reporting to the selected priority of the case (high, normal, or low). |
 |Subject               |Filters the reporting to the selected subject of the case.  |
-|Channel               |Filters the reporting to the selected Omnichannel for Customer Service channels (Chat, SMS, or Facebook, for example<!--Are there others? If not, then we don't need "for example". -->).  |
+|Channel               |Filters the reporting to the selected Omnichannel for Customer Service channels, such as chat, SMS, or Facebook.  |
 
 When you select a filter condition, the data is automatically filtered and rendered in the report.
 
@@ -77,7 +77,7 @@ For detailed information about the reports, see [Case Summary report](customer-s
 
 The following information is applicable to reports refresh:
 
-- **Data refresh:** Occurs every 24 hours. The reports are available during the refresh process. You might see a warning icon beside the **Last refresh (UTC)** label in the upper-right corner of each report when there's a delay or issue in the data refresh. When you hover over the icon, the tooltip message indicates whether the dataset<!--"Tooltip" and "dataset" are via Cloud Style Guide. --> is up to date.
+- **Data refresh:** Occurs every 24 hours. The reports are available during the refresh process. You might see a warning icon beside the **Last refresh (UTC)** label in the upper-right corner of each report when there's a delay or issue in the data refresh. When you hover over the icon, the tooltip message indicates whether the dataset is up to date.
   > [!div class=mx-imgBorder]
   > ![Customer Service Analytics refresh status](media/cs-analytics-refresh-status.png "Customer Service Analytics refresh status")
 
@@ -92,7 +92,7 @@ Currently, report customizations aren't supported.
 ### Supported entities
 
 The following entities are supported:
-<!--Edits based on entity names in the Dynamics SDK.-->
+
 - ActivityPointer
 - AppModule
 - Incident
@@ -130,7 +130,7 @@ Dynamics 365 Customer Service Insights gives you actionable insights into critic
 
 ### Create and view reports
 
-If you have access to Dynamics 365 <!--Edit okay?-->Customer Service, and if Customer Service Insights reports haven't been created for you or shared with you, you can create the reports in Customer Service Hub. Navigate to **Service** > **Insights (Preview)**, and then select **Complete** on the **Analytics and insights settings** page.
+If you have access to Dynamics 365 Customer Service, and if Customer Service Insights reports haven't been created for you or shared with you, you can create the reports in Customer Service Hub. Navigate to **Service** > **Insights (Preview)**, and then select **Complete** on the **Analytics and insights settings** page.
 
 > [!NOTE]
 > You must be assigned to a security role that has permission to view the site map for Customer Service Insights reports. Also, you must have a valid Customer Service Insights license to create, view, and share the reports. You can select **Share** at the top of the report to share it.
