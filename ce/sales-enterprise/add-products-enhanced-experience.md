@@ -1,7 +1,7 @@
 ---
-title: "Add products to an opportunity by using the enhanced experience | MicrosoftDocs"
+title: "Preview: Add products to an opportunity by using the enhanced experience | MicrosoftDocs"
 description: "Use the enhanced experience to quickly find and add multiple products to opportunities in Dynamics 365 Sales."
-ms.date: 02/03/2020
+ms.date: 04/03/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -10,9 +10,7 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Add products to an opportunity by using the enhanced experience
-
-[!INCLUDE [cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
+# Preview: Add products to an opportunity by using the enhanced experience
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -35,8 +33,9 @@ With the enhanced experience of adding products, salespeople can:
 
 
 > [!IMPORTANT]
-> - The enhanced "add product" experience is released as part of the February 2020 early access release. 
-> - For salespeople to use the enhanced experience, a system administrator must enable it. If you don't see the enhanced experience, check with your system administrator. 
+> - The enhanced "add product" experience is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+> - [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
 **To add a product by using the enhanced experience**
 
@@ -122,7 +121,7 @@ There are two ways you can see more details about the product:
     > [!div class="mx-imgBorder"]  
     > ![Information icon to see product details](media/list-of-products-information-icon.png "Information icon to see product details")
 
-    A new pop-up window with the additional details opens.
+    A new pop-up window with additional details opens.
 
     > [!div class="mx-imgBorder"]  
     > ![Product details pop-up window](media/product-details-pop-up.png "Product details pop-up window")

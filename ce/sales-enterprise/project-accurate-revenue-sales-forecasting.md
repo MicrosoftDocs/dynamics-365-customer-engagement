@@ -14,29 +14,29 @@ manager: shujoshi
 
 # Project accurate revenue with sales forecasting
 
-A forecast helps your organization predict how much revenue your sales team will generate in a given timeframe. When done correctly, it can play a significant role in your company's success. Using a forecast:
+A forecast helps your organization predict how much revenue your sales team will generate in a given timeframe. When done correctly, it can play a significant role in your company's success. By using a forecast:
 
-- Sellers can track performance against their targets and identify pipeline risks that could jeopardize the ability to hit the targets.
+- Sellers can track their performance against targets and identify pipeline risks that might jeopardize their ability to hit the targets.
 
-- Managers can track individual sales performance against quotas to pro-actively provide coaching.
+- Managers can track individual sales performance against quotas, to proactively provide coaching.
 
-- Directors can use the forecast trends to anticipate departmental sales and reallocate resources.
+- Directors can use forecast trends to anticipate departmental sales and reallocate resources if necessary.
 
-- Organization leaders can use the projected estimates to change the product strategy or convey updated projections to investors.
+- Organization leaders can use projected estimates to change product strategy or convey updated projections to investors.
 
 ## Review prerequisites
+<!--note from editor: Is the edit to the first bullet item okay? I didn't know what "At least a forecast is created" meant. Also, in line 39 is "must" accurate? It didn't seem definite enough to say you "should" have read privileges.-->
+Review the following prerequisites before using forecasts:
 
-Review the following prerequisites before using forecast:
+ -  The forecast was created with at least one of the following options:
 
--	At least a forecast is created with one of the following options:
+    -  A hierarchy that you're part of.
 
-    -	A hierarchy that you're part of or
-
-    -	Forecast access is provided to a security role that you're part of.
+    -  A security role that you're part of has been granted access.
 
     To learn more, see [Configure a forecast](configure-forecast.md).
 
--	You should have read privileges for user and territory entities. To learn more, see [Security roles and privileges](/power-platform/admin/security-roles-privileges).
+-  You must have read privileges for User and Territory entities. To learn more, see [Security roles and privileges](/power-platform/admin/security-roles-privileges).
 
 
 ### See also

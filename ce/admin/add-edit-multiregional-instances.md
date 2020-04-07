@@ -1,7 +1,7 @@
 ---
 title: "Add and edit multiregional instances  | MicrosoftDocs"
 ms.custom: 
-ms.date: 10/01/2019
+ms.date: 02/27/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite:
@@ -19,6 +19,10 @@ search.app:
   - D365CE
 ---
 # Add and edit multiregional instances
+
+Adding and editing multiregional instances (environments) is now done in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). See [Regions overview](https://docs.microsoft.com/power-platform/admin/regions-overview).
+
+<!--
 
 [!INCLUDE[applies-to](../includes/cc_applies_to_ce.md)]
 
@@ -131,3 +135,4 @@ For multinational companies with employees and customers distributed around the 
    > - Copied instances are copied to the same region as the source instance.  
    > - Instances that are reset are reset to the current region.  
   
+-->

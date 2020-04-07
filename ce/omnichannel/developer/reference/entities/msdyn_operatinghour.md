@@ -766,7 +766,7 @@ Listed by **SchemaName**.
 
 **Added by**: Omnichannel – Chat Solution
 
-Same as msdyn_livechatconfig entity [msdyn_msdyn_operatinghour_msdyn_livechatconfig](msdyn_livechatconfig.md#BKMK_msdyn_msdyn_operatinghour_msdyn_livechatconfig) Many-To-One relationship.
+Same as msdyn_livechatconfig entity [msdyn_msdyn_operatinghour_msdyn_livechatconfig](msdyn_livechatconfig.md) Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|

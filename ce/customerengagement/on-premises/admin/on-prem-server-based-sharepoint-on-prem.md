@@ -51,6 +51,10 @@ Before you configure Customer Engagement (on-premises) and SharePoint On-Premise
 ## SharePoint prerequisites
 
   - One of the following SharePoint versions:
+
+      - SharePoint 2019 On-Premises.
+
+        Server-based integration between Dynamics 365 Customer Engagement (on-premises) and Microsoft SharePoint 2019 On-Premises requires [Microsoft Dynamics 365 Server, v9.0 (on-premises) Update 0.13](https://www.microsoft.com/download/details.aspx?id=100875), or later version.
     
       - SharePoint 2016 On-Premises.
 

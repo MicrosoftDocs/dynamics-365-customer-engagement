@@ -114,9 +114,10 @@
 #### [Add dynamic content to email messages](dynamic-email-content.md)
 #### [Set the sender, receiver, language, and legal designation](email-properties.md)
 #### [Check your work using previews and test sends](email-preview.md)
+#### [Email accessibility checker](email-accessibility.md)
 #### [Check for errors, go live, and deliver](email-check-golive.md)
 #### [Quickly design and deliver marketing emails with "send now"](email-send-now.md)
-#### [Preview: Check your spam score](spam-score.md)
+#### [Check your spam score](spam-checker.md)
 #### [Design and run A/B tests on your email designs](email-a-b-testing.md)
 
 ### Create marketing pages and forms
@@ -150,8 +151,9 @@
 
 ### Work with customer journeys
 #### [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)
-#### [Preview: Set expiration dates for emails](email-expire.md)
-#### [Preview: Use smart scheduler to help improve email engagement](smart-scheduler.md)
+#### [Export to Excel for further analysis](export-journey.md)
+#### [Set expiration dates for emails](email-expire.md)
+#### [Use automated scheduling to help improve email engagement](automated-scheduler.md)
 #### [Create and manage customer journey templates](journey-templates.md)
 #### [Create an inbound customer journey](create-inbound-customer-journey.md)
 #### [Customer journey tiles reference](customer-journey-tiles-reference.md)
@@ -165,6 +167,7 @@
 
 ### Event planning and management
 #### [Event management overview](event-management.md)
+#### [Early access: Improved event management experience](event-forms.md)
 #### [Open the event management work area](open-events.md)
 #### [Set up an event](set-up-event.md)
 #### [Set up session-level registration and waitlisting](session-level-registration.md)
@@ -191,7 +194,6 @@
 #### [Marketing on LinkedIn with Dynamics 365](linkedin-overview.md)
 #### [LinkedIn Lead Gen integration](LinkedIn-Lead-Gen-integration.md)
 #### [Schedule and post messages on social media](social-posting.md)
-#### [Get social-listening insights](social-listening.md)
 
 ### [Register link clicks and website visits](register-engagement.md)
 ### [Work with marketing calendars](marketing-calendar.md)
@@ -217,8 +219,8 @@
 #### [Overview of custom channel](developer/overview-custom-channel.md)
 #### [Create a custom channel](developer/create-custom-channel.md)
 ##### [Step 1: Create required entities and forms](developer/create-entities-forms.md) 
-##### [Step 2: Create a workflow or plug-in to implement your custom logic](developer/create-workflow-plugin-custom-channel.md)
-##### [Step 3: Configure the tile for custom channel](developer/configure-tile-custom-channel.md)
+##### [Step 2: Configure the tile for custom channel](developer/configure-tile-custom-channel.md)
+##### [Step 3: Create a workflow or plug-in to implement your custom logic](developer/create-workflow-plugin-custom-channel.md)
 ##### [Step 4: Test your custom channel tile](developer/test-custom-channel-tile.md)
 #### [Publish custom channel on AppSource](developer/publish-custom-channel-appsource.md)
 #### [Configure and use custom channel](developer/configure-use-custom-channel.md)

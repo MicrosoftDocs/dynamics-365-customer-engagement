@@ -2,7 +2,7 @@
 ## [Overview for commissioners and game managers](for-commissioners-game-managers.md)
 ### [Before you get started](get-started.md)
 ### [Understand security roles](understand-security-roles.md)
-### [Import and manage players](manage-players-fans.md)
+### [Manage users and security roles](manage-players-fans.md)
 ### [Install and configure Gamification](manage-gamification-in-dynamics-365-online.md)
 ### [Manage KPIs](configure-kpis.md)
 ### [Best practices for KPIs](best-practices-kpis.md)

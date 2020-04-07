@@ -57,4 +57,4 @@ Here are the seven steps to getting your organization on board with Dynamics 365
 -   [Import accounts, leads, or other data](../basics/import-accounts-leads-other-data.md)  
   
 ### See also 
- [Get detailed information about onboarding your organization and users](onboard-your-organization-and-users-to-dynamics-365-online.md)
+ [Get detailed information about onboarding your organization and users](https://docs.microsoft.com/power-platform/admin/try-powerapps-dynamics-365)

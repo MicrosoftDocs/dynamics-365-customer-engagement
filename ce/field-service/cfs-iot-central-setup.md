@@ -2,7 +2,6 @@
 title: "Prerequisites for Connected Field Service for IoT Central | MicrosoftDocs"
 ms.custom: dyn365-fieldservice
 ms.date: 01/08/2020
-ms.reviewer: 
 ms.suite: 
 ms.technology: 
   - field-service

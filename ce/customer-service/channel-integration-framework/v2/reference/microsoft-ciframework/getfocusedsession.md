@@ -15,7 +15,7 @@ ms.custom:
 
 # getFocusedSession
 
-[!include[cc-beta-prerelease-disclaimer](../../../../../includes/cc-beta-prerelease-disclaimer.md)]
+ 
 
 [!include[applies-to-v2](../../includes/applies-to-v2.md)]
 

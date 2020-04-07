@@ -3,7 +3,7 @@ title: "CRM Page (Hosted Control) | MicrosoftDocs"
 description: "Learn about the CRM Page hosted control type to load a URL or page from the model-driven app. When a model-driven apps page is loaded within a hosted control of this type, it will automatically scan the page for data from the entity, and automatically populate the replacement parameters."
 ms.custom: 
   - dyn365-USD
-ms.date: 12/31/2019
+ms.date: 02/14/2020
 ms.service: 
   - dynamics-365-customerservice
 ms.topic: article
@@ -269,7 +269,7 @@ Use the **CRM Page** hosted control type to load a URL or page from model-driven
 
 |Parameter|Description|
 |---------------|-----------------|
-|url|The URL of the page that has finished loading.|
+|url|The URL of the page that has finished loading.| 
 
 ### DataReady
 Occurs as soon as the related information for an entity
@@ -306,6 +306,9 @@ and the **DataReady** event is fired for inline navigations as well.
 |Parameter|Description|
 |---------------|-----------------|
 |newId|The ID assigned to the newly created record.|
+
+> [!Note]
+> We recommend not to use `window.IsUSD` in the model-driven app forms, and instead use the [BrowserDocumentComplete](#browserdocumentcomplete) event or other events as listed in this topic.
 
 ### See also  
  [CRM Dialog (Hosted Control)](../unified-service-desk/crm-dialog-hosted-control.md)   

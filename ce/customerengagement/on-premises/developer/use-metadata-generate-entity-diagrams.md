@@ -128,7 +128,21 @@ MetadataDiagramConsole.exe new_bankaccount new_safedepositbox
 > 
 >  To avoid overwriting a generated diagram file, you have to rename the first file before you run the second command.  
   
-### See also  
+## Community tools
+
+### UML Diagram Generator
+
+**[UML Diagram Generator](https://jonasr.app/uml?utm_source=msdocs)** for XrmToolBox is a tool that generates Entity Relationship Diagrams ([ERD](https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model)) in the form of [PlantUML](https://plantuml.com/) files from metadata in Microsoft Dynamics 365 and the Power Platform Common Data Service. As the result is text based files they can be manually edited and kept in source control for change tracking over time.
+
+**[Entity Relation Diagram Creator](https://www.xrmtoolbox.com/plugins/JourneyIntoCRM.XrmToolbox.ERDPlugin/)** for XrmToolBox is a tool that generates visual Entity Relationship Diagrams from metadata in Microsoft Dynamics 365 and the Power Platform Common Data Service.
+
+Please see the [Developer tools](developer-tools.md) topic for community developed tools and [jonasr.app/uml](https://jonasr.app/uml?utm_source=msdocs) for more information about UML Diagram Generator and [journeyintocrm.com](https://journeyintocrm.com/archives/1881/) for more information about Entity Relation Diagram Creator.
+
+> [!NOTE]
+> The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools. 
+> If you have questions pertaining to the tool, please contact the publisher. More Information: [XrmToolBox](https://www.xrmtoolbox.com). 
+
+## See also  
  [Introduction to Entities in Dynamics 365 Customer Engagement (on-premises)](introduction-entities.md)   
  [Extend the Metadata Model for Dynamics 365 Customer Engagement (on-premises)](org-service/use-organization-service-metadata.md)   
  [Key to Entity Diagrams](key-entity-diagrams.md)   

@@ -1,5 +1,5 @@
 ---
-title: "Overview of Resource Scheduling (Dynamics 365) | MicrosoftDocs"
+title: "Overview of Universal Resource Scheduling (Dynamics 365) | MicrosoftDocs"
 ms.custom: 
   - dyn365-projectservice
   - dyn365-fieldservice
@@ -29,9 +29,9 @@ search.app:
   - D365PS
   - D365FS
 ---
-# Overview of Resource Scheduling in Dynamics 365
+# Overview of Universal Resource Scheduling in Dynamics 365
 
-Schedule anything in Dynamics 365 using Resource Scheduling (RS). You can enable scheduling for any entity in Dynamics 365 Sales, Field Service, Customer Service, and Project Service Automation, including custom entities.   
+Schedule anything in Dynamics 365 using Universal Resource Scheduling (URS). You can enable scheduling for any entity in Dynamics 365 Sales, Field Service, Customer Service, and Project Service Automation, including custom entities.   
   
 For organizations that use:
 
@@ -42,13 +42,13 @@ For organizations that use:
 - Dynamics 365 Project Service Automation, you can use scheduling tools to staff projects with consultants who have availability and the appropriate skillset. More information: [Dynamics 365 Project Service Automation Help](../project-service/overview.md) 
     
 ## Prerequisites  
- Before you can use Resource Scheduling, make sure you have:  
+ Before you can use Universal Resource Scheduling, make sure you have:  
   
 - Dynamics 365 Field Service, Project Service, *or* Customer Service.
   
 - A license for Resource Scheduling. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Onboard your organization and users to Dynamics 365 (online)](../admin/onboard-your-organization-and-users-to-dynamics-365-online.md)  
   
-- User credentials with the Resource Scheduling security role, in order to manage the solution once it has been deployed.
+- User credentials with the Universal Resource Scheduling security role, in order to manage the solution once it has been deployed.
   
 ## Enable scheduling for an entity  
  When scheduling is enabled for an entity, the system creates a resource requirement record for the entity. This way, when you create a resource requirement, the system automatically checks which entity the resource requirement is for.  

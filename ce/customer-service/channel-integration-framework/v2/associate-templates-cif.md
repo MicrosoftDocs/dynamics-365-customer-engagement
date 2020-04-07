@@ -10,14 +10,7 @@ ms.service:
   - dynamics-365-customerservice
 ---
 
-# Preview: Associate templates with scenarios
-
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
-> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided “as-is,” “with all faults,” “as available,” and without warranty.​
-> - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
-> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../../../legal/dynamics-insider-agreement.md).
+# Associate templates with scenarios
 
 After creating the session, notification, and application tab templates, you must associate these with your scenarios so that the notification template is used for an incoming conversation. After an agent accepts the conversation, a session starts for which the session template is used. In the session, certain application tabs are required such as Knowledge article search and Case page. These application tabs are configured using the application tab templates and are associated with a session.
 

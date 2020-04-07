@@ -1,6 +1,26 @@
 {
   "redirections": [
     {
+
+      "source_path": "ce/marketing/spam-score.md",
+      "redirect_url": "spam-checker",
+      "source_path": "ce/marketing/smart-scheduler.md",
+      "redirect_url": "automated-scheduler",
+      "source_path": "ce/marketing/email-design-update.md",
+      "redirect_url": "email-design",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/admin/use-organization-insights-solution-view-instance-metrics.md",
+      "redirect_url": "https://docs.microsoft.com/power-platform/admin/analytics-common-data-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/social-listening.md",
+      "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customerengagement/on-premises/admin/control-social-data.md",
       "redirect_url": "https://dynamics.microsoft.com/microsoft-social-engagement-transition",
       "redirect_document_id": "false"
@@ -8933,7 +8953,7 @@
     },
     {
       "source_path": "ce/admin/onboard-your-organization-and-users-to-dynamics-365-online.md",
-      "redirect_url": "https://docs.microsoft.com/power-platform/admin/try-dynamics-365-online",
+      "redirect_url": "https://docs.microsoft.com/power-platform/admin/try-powerapps-dynamics-365",
       "redirect_document_id": "false"
     },
     {
@@ -17832,29 +17852,14 @@
       "redirect_document_id": false
     },
     {  
-      "source_path": "ce/sales-enterprise/create-forecast-definition.md",
-      "redirect_url": "configure-forecast",
+      "source_path": "ce/customer-service/channel-integration-framework/v2/onboard-org-flight.md",
+      "redirect_url": "get-channel-integration-framework",
       "redirect_document_id": false
     },
     {  
-      "source_path": "ce/sales-enterprise/developer/reference/manual-forecasting-entity-reference.md",
-      "redirect_url": "custom-actions-manual-forecasting",
+      "source_path": "ce/sales-enterprise/troubleshooting-admin.md",
+      "redirect_url": "troubleshooting",
       "redirect_document_id": false
-    },
-    {  
-      "source_path": "ce/sales-enterprise/developer/reference/entities/msdyn_forecastdefinition.md",
-      "redirect_url": "export-forecast-data",
-      "redirect_document_id": false
-    },
-    {  
-      "source_path": "ce/sales-enterprise/developer/reference/entities/msdyn_forecastinstance.md",
-      "redirect_url": "export-forecast-data",
-      "redirect_document_id": false
-    },
-    {  
-      "source_path": "ce/sales-enterprise/developer/reference/entities/msdyn_forecastrecurrence.md",
-      "redirect_url": "export-forecast-data",
-      "redirect_document_id": false
-    }
+    }   
   ]
 }

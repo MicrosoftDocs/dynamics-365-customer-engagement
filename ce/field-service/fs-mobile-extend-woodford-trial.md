@@ -1,15 +1,15 @@
 ---
 title: "How do I extend my Woodford Trial? (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: dyn365-fieldservice
-ms.date: 10/24/2018
-ms.reviewer: 
+ms.date: 03/23/2020
+ms.reviewer: krbjoran
 ms.suite: 
 ms.technology: 
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: fs-mobile-extend-woodford-trial
-author: shellyhaverkamp
-ms.author: FieldServiceDave
+author: FieldServiceDave
+ms.author: daclar
 ms.manager: shellyhaverkamp
 search.audienceType: 
   - admin
@@ -22,7 +22,7 @@ search.app:
 
 # How do I extend my Woodford trial?
 
-If you need to extend your trial for the Woodford solution, you need to submit a new activation request. To speed up this process, fill out [this form](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_qdDvPY821Ojv3lrQCnA7JUNEVaR01JNFNIMDNOME8xNlBWMEVFSUhEQS4u) to request the activation.
+If you need to extend your trial for the Woodford solution, you need to submit a new activation request. To speed up this process, fill out [this form](https://aka.ms/fsmlicense) to request the activation.
 
 ## What you need to know before you submit an activation request
 There are a few important details to know before you submit a request to activate [!include[Dynamics 365 Field Service](../includes/pn-dyn-365-field-service.md)] mobile licenses:
@@ -45,7 +45,7 @@ There are a few important details to know before you submit a request to activat
 
 ## Fill out an activation request form
 
-[Fill out a Field Service mobile license activation request form](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_qdDvPY821Ojv3lrQCnA7JUNEVaR01JNFNIMDNOME8xNlBWMEVFSUhEQS4u) to activate licenses or extend licenses beyond a 30-day trial.
+[Fill out a Field Service mobile license activation request form](https://aka.ms/fsmlicense) to activate licenses or extend licenses beyond a 30-day trial.
 
 Note that you need the Dynamics 365 organization ID to complete the request form.
 

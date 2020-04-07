@@ -19,7 +19,7 @@ This topic describes the system requirements of Dynamics 365 Channel Integration
 
 ## Dynamics 365
 
-Dynamics 365 version 9.1 and higher versions.
+Dynamics 365 (online) version 9.1 and higher versions.
 
 ## Supported browsers
 

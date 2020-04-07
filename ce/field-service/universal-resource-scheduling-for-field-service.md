@@ -10,9 +10,9 @@ ms.technology:
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
-author: krbjoran
+author: FieldServiceDave
 caps.latest.revision: 42
-ms.author: FieldServiceDave
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin
@@ -188,6 +188,9 @@ The API key will populate automatically and use the Bing Maps API.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of setting Connect to Maps to yes](media/Perform-Initial-Configurations-image7.png)  
+
+> [!Note]
+> In Field Service version 8.8.10.44+ the Bing Maps API key is hidden. 
 
 ### Configure booking statuses 
 Resources (field technicians) interact with booking statuses to communicate to stakeholders the progress of their work. For field service, booking statuses can update work order system statuses. This is done by noting a Field Service Status on the Booking Status.

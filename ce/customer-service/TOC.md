@@ -22,7 +22,6 @@
 ##### [Create and manage parent and child cases](customer-service-hub-user-guide-create-and-manage-parent-and-child-cases.md)
 ##### [Resolve, cancel, and reassign a case](customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md)
 ##### [Case queues and routing](customer-service-hub-user-guide-case-queues-and-routing.md)
-##### [Modify case resolution dialog](customer-service-hub-user-guide-modify-case-resolution-dialog.md)
 ##### [Manage activities from the timeline](customer-service-hub-user-guide-manage-timeline-activities.md)
 ##### [Convert case to knowledge article](customer-service-hub-user-guide-convert-case-to-knowledge-article.md)
 ##### [Manage Case SLAs](customer-service-hub-user-guide-case-sla.md)
@@ -44,13 +43,9 @@
 #### [Create and manage parent and child cases](user-guide-customer-service.md#create-and-manage-parent-and-child-cases)
 #### [Find knowledge articles from within a record](find-knowledge-articles-within-record-dynamics-365.md)
 
-### Customer Service Analytics for Dynamics 365
-#### [Introduction to Customer Service Analytics](introduction-customer-service-analytics.md)
-#### [View and understand Customer Service Analytics](customer-service-analytics.md)
-#### [Configure Customer Service Analytics](configure-customer-service-analytics-dashboard.md)
-
 ## Service Manager Guide
 ### [Understand Service Management](service-manager-guide.md)
+
 ### Case Settings
 #### [Create and manage queues](set-up-queues-manage-activities-cases.md)
 #### [Define parent and child case settings](define-settings-parent-child-cases.md)
@@ -59,6 +54,7 @@
 #### [Automatically create and update records](set-up-rules-to-automatically-create-or-update-records.md)
 #### [Automatically create a case from an email](automatically-create-case-from-email.md)
 #### [Define subjects to categorize cases](../admin/define-subjects-categorize-cases-products-articles.md)
+
 ### Service Terms
 #### [Define Service Level Agreements (SLAs)](define-service-level-agreements.md)
 #### [Enable entities for service level agreements](enable-entities-service-level-agreements.md)
@@ -80,10 +76,19 @@
 ### Similar Record Suggestions
 #### [Use advanced similarity rules to view similar case suggestions](suggest-similar-cases-for-a-case.md)
 
+### Customer Service Analytics and Insights
+#### [Introduction to Customer Service Analytics and Insights](introduction-customer-service-analytics.md)
+#### [View and understand Customer Service Analytics and Insights in Customer Service Hub](customer-service-analytics-insights-csh.md)
+#### [View and understand Customer Service Analytics](customer-service-analytics.md)
+#### [Configure Customer Service Analytics and Insights in Customer Service Hub](configure-customer-service-analytics-insights-csh.md)
+#### [Configure Customer Service Analytics in Power BI](configure-customer-service-analytics-dashboard.md)
+
 ## Connected Customer Service (IoT) add-in
 ### [Overview](cs-iot-overview.md)
+
 ### Connected Customer Service for Azure IoT Central
 #### [Overview](cs-iot-azure-overview.md)
+
 #### Tutorials
 ##### [Prerequisites](cs-iot-prerequisites.md)
 ##### [Receive IoT Alerts from Azure IoT Central](cs-iot-receive-alerts.md)
@@ -104,6 +109,7 @@
 ### [Understand Service Scheduling](basics-service-service-scheduling.md)
 ### [Set up the new scheduling experience](basics-service-service-scheduling.md#set-up-the-new-service-scheduling-experience)
 ### [Manage security roles](manage-security-roles.md)
+
 ### Schedule entities
 #### [Create bookable resources](resources-service-scheduling.md)  
 #### [Add facilities and equipment to schedule service](add-facilities-equipment-ss-csh.md)
@@ -113,6 +119,7 @@
 #### [Manage fulfillment preferences](../common-scheduler/fulfillment-preferences.md)
 ### Configure using tools
 #### [Configure service activity using schedule board](use-schedule-board-configure-service-activity.md) 
+
 ### Work with settings
 #### [Create and manage organizational units](create-org-units-cs-scheduling.md)
 #### [Schedule business closure](set-when-business-closed-csh.md)
@@ -120,6 +127,9 @@
 #### [Introduction](introduction-migration-entity-records.md)
 #### [Plan your migration](plan-migration.md)
 #### [Migrate entity records data using migration tool](migrate-entity-records.md)
+
+### Service Scheduling Developer Guide
+#### [Search Resource Availability and Create Bookings](universal-resource-scheduling.md)
 
 ### Legacy Service Scheduling (Customer Service app)
 #### [Set up business closure](set-when-business-closed-cs-app.md)
@@ -138,7 +148,7 @@
 ### [Add timer control to forms](add-timer-control-case-form-track-time-against-sla.md)
 ### [Add a timer in forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md)
 ### [Configure interactive dashboards](configure-interactive-dashboards-customer-service-hub.md)
-
+### [Modify case resolution dialog box](../customer-service/customer-service-hub-user-guide-modify-case-resolution-dialog.md)
 
 ## Troubleshoot
 ### [Issue converting an email to a case](troubleshoot-case-email-issue.md)

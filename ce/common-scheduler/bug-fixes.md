@@ -1,5 +1,5 @@
 ---
-title: "Bug fixes for Resource Scheduling | MicrosoftDocs"
+title: "Bug fixes for Universal Resource Scheduling | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 01/02/2020
@@ -26,6 +26,6 @@ search.app:
   - D365FS
 ---
 
-# Bug fixes for Resource Scheduling
+# Bug fixes for Universal Resource Scheduling
 
 [!INCLUDE[urs-bug-fixes.md](../shared/urs/urs-bug-fixes.md)]

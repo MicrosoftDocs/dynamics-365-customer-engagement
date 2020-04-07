@@ -129,12 +129,14 @@ The application type is used to display Web resources that represent files, whic
 
 ### Website Url
 
-The application type is used to display first-party and third-party websites as an application. The parameters available for the website URL application type are as follows:
+The application type is used to display first-party and third-party websites as an application. You can use this type to host only the websites that are compatible for iframe hosting.  The parameters available for the website URL application type are as follows:
 
 | parameter | Example value | Description |
 |----------------------------|---------------------------------|-----------------------------------------------------------------------------|
 | data | `stackoverflow` |Query parameters that you want to search. <br> Type = String|
 | url | https://www.bing.com/search? | <br> Type = String|
+
+To learn more, see [Third-party application tab refreshes when focus is changed](../omnichannel-readme.md#third-party-application-tab-refreshes-when-focus-is-changed).
 
 ## See also
 

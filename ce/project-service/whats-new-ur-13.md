@@ -1,7 +1,7 @@
 ---
 
 
-title: What's new in Project Service Automation Update Release 13, V3
+title: What's new or changed in Project Service Automation Update Release 13, V3
 description: This topic provides information about what's new in Project Service Automation Update Release 13, V3.
 author: ruhercul                
 manager: kfend

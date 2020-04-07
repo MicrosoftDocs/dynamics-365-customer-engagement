@@ -24,6 +24,9 @@ A forecast helps your organization predict how much revenue your sales team will
 
 - Organization leaders can use the projected estimates to change the product strategy or convey updated projections to investors.
 
+>[!IMPORTANT]
+>Forecasting is not available on Government Community Cloud (GCC).  
+
 As an administrator or forecast manager, you can configure forecasts in your organization. You can define the type of forecast, its hierarchy, permissions for accessing it, and the details you want to appear on the forecast grid. After a forecast is activated, your sales team can view the revenue and pipeline projections.
 
 ## Prerequisite tasks

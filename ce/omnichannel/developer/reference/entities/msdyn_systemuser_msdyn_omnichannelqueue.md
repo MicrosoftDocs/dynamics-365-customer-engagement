@@ -4,7 +4,7 @@ description: "Includes schema information and supported messages for the msdyn_s
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
-ms.date: 08/29/2019
+ms.date: 02/27/2020
 ms.service: 
   - crm-online
 ms.topic: "reference"
@@ -13,7 +13,8 @@ ms.topic: "reference"
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-
+> [!IMPORTANT]
+> This entity has been deprecated. It will still be visible in the [$metadata](/powerapps/developer/common-data-service/web-api-types-operations#csdl-metadata-document) document of your environment but using it to access Common Data Service data is not supported.
 
 **Added by**: Omnichannel – Base Solution
 

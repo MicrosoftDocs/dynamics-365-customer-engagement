@@ -1,6 +1,6 @@
 ---
 title: Resource Scheduling Optimization (RSO) Scopes
-author: fieldservicedave
+author: FieldServiceDave
 ms.author: daclar
 ms.reviewer: krbjoran
 manager: shellyha

@@ -4,7 +4,7 @@ description: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 12/31/2019
+ms.date: 03/06/2020
 ms.topic: reference
 ms.service: 
   - dynamics-365-customerservice
@@ -14,8 +14,6 @@ ms.custom:
 ---
 
 # setTabTitle
-
-[!include[cc-beta-prerelease-disclaimer](../../../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 Sets the title of the tab, if the focused session belongs to the channel provider and if the tab belongs to the session in focus.
 
@@ -39,14 +37,18 @@ Promise with the value as String
 ## Example
 
 ```javascript
+var input = {
+               title: "newTitle"
+            }
+
 Microsoft.CIFramework.setTabTitle("tab-id-2", input).then(
-function success(result) {
-console.log(result);
-// Perform operations upon record retrieval and opening
-},
-function (error) {
-console.log(error.message);
-// Handle error conditions
-}
+    function success(result) {
+        console.log(result);
+        // Perform operations upon record retrieval and opening
+    },
+    function(error) {
+        console.log(error.message);
+        // Handle error conditions
+    }
 );
 ```

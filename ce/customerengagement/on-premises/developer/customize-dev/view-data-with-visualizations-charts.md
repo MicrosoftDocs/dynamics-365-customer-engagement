@@ -60,7 +60,7 @@ Visualizations let you see your business data graphically. A visualization is at
 ## Web resource visualizations  
  Web resources are virtual files that are stored in the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] database and may be retrieved using a unique URL address. You can display an existing web resource as a visualization, and display it in the **Charts** area in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] together with other charts for an entity. For more information about web resources, see [Web Resources for Microsoft Dynamics 365 Customer Engagement](../web-resources.md).  
   
- You can use the following types of web resources in a visualization: [WWebpage (HTML) web resources](../webpage-html-web-resources.md) and [Image (JPG, PNG, GIF, ICO) Web Resources](../image-web-resources.md). For more information about how to create a visualization with a web resource, see [Create a Web Resource Visualization](create-visualization-chart.md#CreateWRVisualization).  
+ You can use the following types of web resources in a visualization: [Webpage (HTML) web resources](../webpage-html-web-resources.md) and [Image (JPG, PNG, GIF, ICO) Web Resources](../image-web-resources.md). For more information about how to create a visualization with a web resource, see [Create a Web Resource Visualization](create-visualization-chart.md#CreateWRVisualization).  
   
 <a name="SupportedVisualizationEntities"></a>   
 ## Entities supported for visualizations  

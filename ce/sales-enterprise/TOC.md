@@ -1,6 +1,5 @@
 # [Help resources for Dynamics 365 Sales](help-hub.md)
 ## [Overview of Sales and Sales Hub](../sales-enterprise/overview.md)
-## [Sales Team Member app](sales-team-member.md)
 ## [What's new](../sales-enterprise/whats-new.md)
 ## [Connect and share feedback](../sales-enterprise/connect-share-feedback.md)
 ## Administrator & Sales Manager Guide
@@ -20,7 +19,7 @@
 #### [Enable the enhanced experience of adding products](enable-enhanced-add-product-experience.md)
 #### [Enable or disable saving of business card image](retain-business-card-image-after-scanning.md)
 #### [Customize the business card scanner control](customize-business-card-scan-control.md)
-#### Add the Kanban control to Opportunity or Activity entities(add-kanban-control.md)
+#### [Add the Kanban control to Opportunity or Activity entities](add-kanban-control.md)
 
 ### Product management
 #### [Set up a product catalog](../sales-enterprise/set-up-product-catalog-walkthrough.md)
@@ -64,6 +63,11 @@
 #### [Manage playbook templates](manage-playbook-templates.md) 
 #### [Associate documents with playbook activities](associate-documents-playbook-activities.md)
 
+### Power BI template apps for Dynamics 365 Sales
+#### [Analyze your sales data using Power BI template apps](introduction-sales-template-apps.md)
+#### [Configure Power BI template apps to work with Dynamics 365 Sales](configure-sales-template-apps.md)
+#### [Customize Power BI template apps for Dynamics 365 Sales](customize-template-apps.md)
+
 ### General Data Protection Regulation (GDPR)
 #### [Dynamics 365 Sales & GDPR](../sales-enterprise/dynamics-365-sales-gdpr.md)
 ### Upgrade or downgrade
@@ -76,6 +80,8 @@
 ## User Guide
 ### [Help resources for sales people](../sales-enterprise/user-guide.md)
 ### [Learn the basics](user-guide-learn-basics.md)
+### [Gain insights with dashboards](dashboards.md)
+### [Understand the sales pipeline chart and its phases](sales-pipeline-chart.md)
 ### [Send email using the enhanced email experience](enhanced-email.md)
 ### [Insert an email template](insert-email-template.md)
 ### [Create PDF documents](create-quote-pdf.md)
@@ -92,6 +98,7 @@
 #### [Create or edit leads](../sales-enterprise/create-edit-lead-sales.md)
 #### [Qualify or convert leads](../sales-enterprise/qualify-lead-convert-opportunity-sales.md)
 #### [Create or edit opportunities](../sales-enterprise/create-edit-opportunity-sales.md)  
+#### [Work with opportunities in the Kanban view](opportunity-kanban-view.md)
 #### [Reopen leads](../sales-enterprise/re-open-lead-sales.md)
 #### [Add products to an opportunity](add-products-opportunity.md)  
 #### [Add products to an opportunity by using the enhanced experience](add-products-enhanced-experience.md)
@@ -132,8 +139,16 @@
 ### [Use Sales Hub on the mobile app](../sales-enterprise/use-sales-hub-on-dynamics-365-mobile.md)
 
 ## Troubleshooting and FAQs
-### [Troubleshooting guide for sales people](troubleshooting.md)
-### [Troubleshooting guide for administrators](troubleshooting-admin.md)
+### [Dynamics 365 Sales Troubleshooting guide](troubleshooting.md)
+### [Troubleshooting leads](ts-leads.md)
+### [Troubleshooting opportunities](ts-opportunities.md)
+### [Troubleshooting orders](ts-orders.md)
+### [Troubleshooting products](ts-products.md)
+### [Troubleshooting common entities](ts-oqoi.md)
+### [Troubleshooting views](ts-views.md)
+### [Troubleshooting forecasts](ts-forecasts.md)
+### [Troubleshooting the Unified Interface](ts-unified-interface.md)
+### [Troubleshooting the sales pipeline chart](ts-sales-pipeline.md)
 ### [FAQs](faqs-sales.md)
 
 ## Integrations
@@ -146,6 +161,8 @@
 ### [Enable sales order processing integration](../sales-enterprise/developer/enable-sales-order-processing-integration.md)
 ### Forecasting
 #### [msdyn_ForecastInstanceActions](../sales-enterprise/developer/reference/entities/export-forecast-data.md)
+### Troubleshooting
+#### [Custom plugin handling through shared variable](../sales-enterprise/developer/custom-plugin-handling-shared-variable.md)
 #### [Custom actions](../sales-enterprise/developer/reference/custom-actions-manual-forecasting.md)
 ### Playbooks
 #### [Entity reference](../sales-enterprise/developer/reference/playbook-entity-reference.md)
@@ -158,6 +175,7 @@
 ### Action Reference
 #### [RecalculatePrice Action](../sales-enterprise/developer/reference/recalculateprice-action.md)
 
-# Dynamics 365 Sales (Professional)
+# Resources for other Sales apps
 ## [Help resources for Dynamics 365 Sales (Professional)](../sales-professional/help-hub.md)
-# [Dynamics 365 Sales Insights](/dynamics365/ai/sales/overview)
+## [Dynamics 365 Sales Insights](/dynamics365/ai/sales/overview)
+## [Sales Team Member app for users with Team Member license](sales-team-member.md)

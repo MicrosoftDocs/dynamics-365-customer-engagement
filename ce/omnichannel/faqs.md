@@ -19,7 +19,7 @@ ms.custom:
 ## General
 
 ### What regions are supported?
-See the list of supported regions at [International availability of Microsoft Dynamics 365](system-requirements-omnichannel.md#international-availability). 
+See the list of supported regions at [International availability of Microsoft Dynamics 365](international-availability.md). 
 
 ### What platforms are supported?
 You can find information about supported platforms and other prerequisites in [Prerequisites and system requirements of Omnichannel for Customer Service](system-requirements-omnichannel.md).

@@ -668,7 +668,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_msdyn_msdyn_authsettings_msdyn_livechatconfig"></a> msdyn_msdyn_authsettings_msdyn_livechatconfig
 
-Same as msdyn_livechatconfig entity [msdyn_msdyn_authsettings_msdyn_livechatconfig](msdyn_livechatconfig.md#BKMK_msdyn_msdyn_authsettings_msdyn_livechatconfig) Many-To-One relationship.
+Same as msdyn_livechatconfig entity [msdyn_msdyn_authsettings_msdyn_livechatconfig](msdyn_livechatconfig.md) Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|

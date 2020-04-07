@@ -2,7 +2,7 @@
 title: "Resource scheduling and optimization analytics dashboard | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 02/03/2020
+ms.date: 03/20/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -46,7 +46,7 @@ Field Service and resource scheduling optimization (RSO) provide three reports f
 3. Optimization summary, included with RSO
   
 
-In this topic, we'll take a look at these three reports in greater detail. 
+In this article, we'll take a look at these three reports in greater detail. 
 
 ## Prerequisites
 
@@ -75,6 +75,8 @@ Resource managers can use the resource and utilization report to perform the fol
   - What's the estimated travel time versus the actual travel time?  
 - Understand how an individual resource is using their time to react and resolve, and whether an individual resource is under- or over-utilized compared to others.  
 
+Go to **Field Service** > **Resources** and find **Reports** under the **Analytics** section. 
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a resource and utilization report.](./media/scheduling-analytics1.png)
 
@@ -85,11 +87,11 @@ Let's take a look at what each of these metrics are reporting.
 | Avg. work time per day (hrs.)  |	Average length of time per day that a technician(s) works at the customer site. Total length of work time per count of days in the given time range. |
 | Avg. travel time per day (hrs.) |	Average length of time per day that a technician(s) spends on travel. Total length of travel time per count of days in the given time range. 
 | Total miles traveled |	Total miles on truck rolls in the given time range.  |
-| Avg. miles traveled per day |	Average miles on truck rolls per day. Total miles per count of days in the given time range. |
-| Utilization rate | The percentage of time a resource spends on work and travel in the given time period. Work duration combined with travel duration per available time on the calendar rule  |
+| Avg. miles traveled per day |	Average miles on truck rolls per day. |
+| Utilization rate |The percentage of time a resource spends on work and travel in the given period from slicer. (Work duration plus travel duration) per available time on the calendar rule. Note: if the user does not set up the available time on the calendar then the default available time is 24 hours |
 | Late arrival rate |	For all in-progress or completed bookings, the percentage of bookings where technician arrives later than the “Time to Promise” or “Estimated arrival time,” if “Time to Promise” is not enabled in the implementation.  |
 |Booking cancellation rate |	For all in-progress or completed bookings, the percentage of bookings that have been canceled in the given time range. |
-| Resource utilization breakdown  |	The graph shows the percentage of time on work, travel, break, and idle time over a period. You can also drill in to the information to see specific information for in-progress jobs or completed jobs. |
+| Resource utilization breakdown  |	The visual shows the percentage of time on work, travel, break, and idle time over a period. It can break via booking status slicer, such as in progress job or completed job. Each bar in the chart shows the relative percentage of duration types in stacked columns, where the total of stacked columns always equals 100 percent. It doesn't show overtime values of any duration types. |
 | Duration breakdown |	The graph shows the trend of total work time, travel time, break time, and idle time. You can also drill in to the information to see specific information for in-progress jobs or completed jobs. |
 
 
@@ -109,6 +111,10 @@ Let's take a look at what each of these metrics are reporting.
 ## RSO admin reports
 
 The RSO admin report analyzes when and how RSO runs, but not the actual booking results.
+
+Go to the **Resource Scheduling Optimization** app and find **Reports** under the **Analytics** section. 
+
+To run the report, the RSO administrator needs to select one optimization schedule - for example, WA Schedule 1 - and select one or more optimization requests.  
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the resource scheduling optimization admin report.](./media/scheduling-analytics-rso-admin.png)
@@ -136,10 +142,43 @@ The optimization summary analyzes the automatically scheduled bookings and the e
 | Work time allocated (hrs.) |	The total work time allocated in given schedule requests. |
 | Travel time allocated (hrs.) |	The total travel time allocated in given schedule requests. |
 |Total time allocation (hrs.) |	The breakdown percentage and value between work time and travel time. |
-| Resource time allocation |	Within a an optimization request, understand each resource's scheduled bookings, locked bookings, work time and travel time. Overbooked resources are highlighted as well. |
+| Resource time allocation |	Within an optimization request, understand each resource's scheduled bookings, locked bookings, work time, and travel time. Overbooked resources are highlighted too. |
 | Least allocated resource |	Ranks resources by lowest utilization. This can help dispatchers assign new emergency jobs accordingly. |
 |Territory summary |	Displays optimized territories on a map, with the ability to drill down. |
 | Booking metrics by territory | 	Shows scheduled bookings, work time allocated, and total travel time allocated for each territory. |
+
+## Share reports
+
+By default, the tenant administrator will be able to view all the reports. With the following steps, the reports can be shared with other users.
+
+1.	Select **Share** in the top-right corner of the report.
+ 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the share option in the report.](./media/scheduling-analytics-share1.png)
+
+2.	Select the reports.
+ 
+ > [!div class="mx-imgBorder"]
+> ![Screenshot of the report selection list.](./media/scheduling-analytics-share2.png)
+ 
+3.	Select **Share**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the share option in the menu.](./media/scheduling-analytics-share3.png)
+
+4.	Select **Add User/Team** and select the user you want to give access to.
+ 
+ > [!div class="mx-imgBorder"]
+> ![Screenshot of the share data analytics report window with attention to the add user/team option.](./media/scheduling-analytics-share4.png)
+
+5.	Make sure the **Read** access is selected and select **Share**.
+  
+  > [!div class="mx-imgBorder"]
+> ![Screenshot of the share data analytics report window with the read box checked.](./media/scheduling-analytics-share5.png)
+
+The user will now be able to access the report.
+
+In order to share the resource and utilization reports, follow steps 1 through 5 in Field Service. Please note that you need to select resource and utilization reports in Field Service.
 
 
 ## Configuration considerations
@@ -150,17 +189,62 @@ The optimization summary analyzes the automatically scheduled bookings and the e
 ## Additional notes
 
 - The reports explored in this article are all built on Microsoft Power BI.
+- **Travel Calculation**: All travel calculation is based on the miles. 
+- **SLA**: Data is refreshed every 24 hours. Reports will continue to be available during the refresh. If the reports are not refreshed within 24 hours, you can contact Microsoft Support. Please note that currently, we do not support the custom refresh schedule.
+- **Data Refresh for Inactive environments**: If an organization has no active usage of the reports for continuous two weeks, the data refresh will be paused. When the user opens the reports, the data will get refreshed in the next refresh cycle.
+- Data is retained for 24 months. 
+- We do not support environment minimal copy operations that are available for a Sandbox environment. If you perform any of these operations, you may encounter unexpected results. 
 
-### Sharing reports
+**Data Availability for Entities**: We are consuming the following list of entities to generate these reports. If there is no data for any of the below entities, then the report may show blank. If you have customized these entities or not using the out of box entities, then the reports will show blank too. 
 
-By default, the tenant administrator will be able to see all reports. In order to share reports, go to **Advanced Find** and search the **Data Analytics Reports** entity.
+  Field Service entities:  
+  - Bookableresource 
+  - bookableresourcebooking 
+  - msdyn_resourcerequirement 
+  - Territory 
+  - Calendarrule 
+  - Bookableresourcegroup 
+  - Bookingstatus 
+  - msdyn_bookingtimestamp 
+  - Organization 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of advanced find in Dynamics 365, with attention to the data analytics reports section](./media/scheduling-analytics-share.png)
+  Resource Scheduling Optimization entities: 
+  - Resource 
+  - Bookableresource 
+  - Territory 
+  - Bookableresourcebooking 
+  - msdyn_optimizationrequestbooking 
+  - msdyn_resourcerequirement 
+  - msdyn_priority 
+  - msdyn_routingoptimizationrequest 
+  - msdyn_routingprofileconfiguration 
+  - Calendar 
+  - Calendarrule 
+  - bookableresourcegroup 
+  - Bookingstatus 
+      - Organization
 
-Each report will show as a record. Select the report you want to share, and then **Share** at the top.
+### Error messages
 
-Add the users or teams you want to give access to. Make sure the read access is selected, and select the Share button.
+| Error Message | Action |   
+| --- | --- |
+| Oops! No reports were found in CRM. You may not have access to these reports. Please contact your system administrator. | Contact your organization's system administrator to access the reports | 
+| Oops! Internal service error, please contact your system administrator with Error Code: {numeric value}. | Contact Microsoft Support and create a support ticket |
+|Oops! There was a problem rendering the report. | Refresh the report. If it still doesn’t work, contact Microsoft Support and create a support ticket |
+|Oops! There was a problem rendering the report, please try again. | Refresh the report. If it still doesn’t work, contact Microsoft Support and create a support ticket |
 
-Users or teams the report is shared with will be able to see the report when they log in.
+### Supported regions for reports
+
+| Region | Name | 
+| --- | --- |
+| North America| NAM |
+| South America | SAM |
+| Canada | CAN |
+| Europe | EUR |
+| Asia Pacific Japan |APJ |
+| Australia | OCE |
+| Japan| JPN |
+| India | IND |
+| Great Britain |GBR |
+
 
