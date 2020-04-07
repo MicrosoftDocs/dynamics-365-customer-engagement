@@ -88,7 +88,7 @@ There might be several reasons related to the failure of recalculation of the fo
 
 **Reason:**
 
-When system updates are performed, territory entity's hierarchy is disabled (though you have enabled it earlier) and causing this error . 
+When system updates are performed, territory entity's hierarchy is disabled (though you've enabled it earlier) and causing this error. 
 
 **Resolution:**
 
@@ -105,7 +105,7 @@ To resolve this error, you must enable hierarchy in the **territory_parent_terri
 3.	Select **Data** > **Entities** and then select **Territory**.
 
     > [!div class="mx-imgBorder"]
-    > ![Select territory entity in power apps](media/forecast-troubleshooting-power-apps-select-territory.png "Select territory entity in power apps")    
+    > ![Select territory entity in power Apps](media/forecast-troubleshooting-power-apps-select-territory.png "Select territory entity in power Apps")    
 
 4.	On the **Territory** page, select **Relationships** tab and then select **Parent**.
 
@@ -117,7 +117,7 @@ To resolve this error, you must enable hierarchy in the **territory_parent_terri
     > [!div class="mx-imgBorder"]
     > ![Enable Hierarchy option](media/forecast-troubleshooting-power-apps-select-enable-hierarchy.png "Enable Hierarchy option")
     
-6.	Save and close the entity .
+6.	Save and close the entity.
 
 
 
