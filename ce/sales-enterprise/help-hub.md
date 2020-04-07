@@ -70,7 +70,7 @@ manager: annbe
 
 <h2>Develop</h2>
 <li><a href="../sales-enterprise/developer/enable-sales-order-processing-integration.md" data-raw-source="[Enable sales order processing integration](../sales-enterprise/developer/enable-sales-order-processing-integration.md)">Enable sales order processing integration</a></li>
-<li><a href="../sales-enterprise/developer/reference/manual-forecasting-entity-reference.md" data-raw-source="[Entity reference for manual forecasting](../sales-enterprise/developer/reference/manual-forecasting-entity-reference.md)">Entity reference for manual forecasting</a></li>
+<li><a href="../sales-enterprise/developer/reference/export-forecast-data.md" data-raw-source="[msdyn_ForecastInstanceActions](../sales-enterprise/developer/reference/export-forecast-data.md)">msdyn_ForecastInstanceActions</a></li>
 <li><a href="../sales-enterprise/developer/reference/playbook-entity-reference.md" data-raw-source="[Entity reference for playbooks](../sales-enterprise/developer/reference/playbook-entity-reference.md)">Entity reference for playbooks</a></li>
 <li><a href="../sales-enterprise/developer/custom-plugin-handling-shared-variable.md" data-raw-source="[Custom plug-in handling using shared variable](../sales-enterprise/developer/custom-plugin-handling-shared-variable.md)">Custom plug-in handling using shared variable</a></li>
 </td>
