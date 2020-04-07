@@ -1,7 +1,7 @@
 ---
 title: "Edit and resubmit form submissions (Dynamics 365 Marketing) | Microsoft Docs "
 description: "Learn how to view incoming form submissions, recover from failed form submissions, and edit and resubmit submissions as needed in Dynamics 365 Marketing"
-ms.date: 12/10/2019
+ms.date: 04/07/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -26,9 +26,9 @@ Marketing forms must be designed to submit values for all mandatory fields and f
 
 Every now and then, errors in form design or changes to system settings can cause form submissions to fail some or all of the time. When a submission fails, the system will store what it can of the erroneous submission so you can examine it later and possibly recover key information from it. This information can also help you learn how to correct your form designs and/or system settings to prevent failed submissions in the future.
 
-Optionally, you can configure the system to also keep all incoming form submission, including those that were successful and have already been processed and applied to your database. This will give you the chance to edit and resubmit both successful and failed submissions. 
+Optionally, you can configure the system to also keep all incoming form submissions, including submissions that were successful and have already been processed and applied to your database. This will give you the chance to edit and resubmit both successful and failed submissions.
 
-On resubmitting and edited submission, you'll be able to choose whether your update should count as a new form-submit interaction, or if it should instead be recorded as the original submission.
+On resubmitting an edited submission, you'll be able to choose whether your update should count as a new form-submit interaction, or if it should be recorded as the original submission.
 
 <a name="why-fail"></a>
 
@@ -36,7 +36,7 @@ On resubmitting and edited submission, you'll be able to choose whether your upd
 
 Submissions can fail for any of the following reasons:
 
-- **Bad option set values**: Option set fields are usually presented as drop-down lists in forms. For each option presented by the drop-down list, the database stores both a display value (shown by the form) and an index value (an integer submitted and stored in the database, which maps the each index value to a display value). An error can occur if the form submits an index value that isn't available in the database. This might happen if the database has changed since the form was designed, or if the form design includes an error that allows bad values to be submitted.
+- **Bad option set values**: Option set fields are usually presented as drop-down lists in forms. For each option presented by the drop-down list, the database stores both a display value (shown by the form) and an index value (an integer submitted and stored in the database, which maps each index value to a display value). An error can occur if the form submits an index value that isn't available in the database. This might happen if the database has changed since the form was designed, or if the form design includes an error that allows bad values to be submitted.
 - **Mismatch of option sets between leads and contacts**: You can create forms that update or create both a contact and/or a lead. In this case, each field value from the form should be stored by two records from two different entities. Because the fields for each entity are created and updated separately, it can happen that one entity is updated, but not the other. As a result, submissions may fail some or all of the time when option set values don't match.
 - **Missing required fields for matching strategies**: Matching strategies enable the system to match incoming form submissions to existing records. When a match is found, the system will typically update the existing record rather than create a new one. Each matching strategy establishes a set of fields to use when matching, and only identifies a match when all fields named by the matching strategy have matching values in both an existing record and the incoming submission. However, if the form doesn't include values for all of the matching-strategy fields, then the submission will fail. In this case, you either need to change the matching strategy or change the form to include all matching-strategy fields as required fields for the form. Remember that your contacts and leads may be using different matching strategies, so forms that affect both of these entities must also meet matching-strategy requirements for both entities too. More information: [Set matching strategies](mkt-settings-matching.md)
 - **Incompatible customizations on the contact or lead entities**: Sometimes, customizations applied to the contact and/or lead entities will interfere with form submissions. For example, you may have a custom business process flow that has made a field mandatory, but that field is missing or not mandatory on your form. Custom plug-ins that affect contact or lead creation can also prevent new records from being created for these entities in response to form submissions.
@@ -82,7 +82,7 @@ To set this option for any specific marketing form:
 1. Go to **Marketing** > **Internet marketing** > **Marketing forms** to open a list of existing forms.
 1. Open or create the form you want to apply this option to.
 1. Go to the **Summary** tab.
-1. In the **Submission behavior** section, set the **Store all form submission** option to one of the following:
+1. In the **Submission behavior** section, set the **Store form submission** option to one of the following:
     - **No**: To only keep a record pending and failed submissions on the **Form submissions** tab.
     - **Yes**: To also keep a record of all successfully processed submission here.
 
