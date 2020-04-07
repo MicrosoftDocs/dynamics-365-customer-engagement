@@ -6,7 +6,7 @@ ms.author: lalexms
 manager: shujoshi
 applies_to: 
   - ""
-ms.date: 04/06/2020
+ms.date: 04/07/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -34,12 +34,29 @@ To let agents and supervisors see the customer's satisfaction levels instantly w
 
 3. In the **Sentiment analysis** section, set the **Monitor real-time customer sentiment** toggle to **Yes**, and then select **Save**.
 
-4. Set the **Sentiment drivers reporting** toggle to **Yes**.
-
     > [!div class=mx-imgBorder]
     > ![Enable sentiment analysis](../media/monitor-real-time.png "Enable sentiment analysis")
 
 After you enable real-time customer sentiment, you can view scores in the [Omnichannel Insights dashboards](configure-historical-sentiment-dashboard-supervisor.md).
+
+### Preview: Sentiment drivers reporting
+
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
+> [!NOTE]
+> In the preview mode, this feature is not available for Government Cloud Community (GCC).
+
+After you opt in for real-time sentiment analysis, you can enable sentiment drivers reporting to gain a better understanding of the topics that are impacting your sentiment.
+
+1. In the **Sentiment analysis** section, set the **Sentiment drivers reporting** toggle to **Yes**.
+2. Select **Save**.
+
+  > [!div class=mx-imgBorder]
+  > ![Enable sentiment drivers reporting](../media/sentiment-drivers-reporting.png "Enable sentiment drivers reporting")
+
+> [!IMPORTANT]
+>
+> For this feature to work, a minimum of 10 chat conversations per organization are required.
 
 ## Agent settings
 
@@ -99,7 +116,6 @@ For example, you set the threshold value as **Slightly negative**. When the cust
     > ![Send notifications when a customer's sentiment decreases to or below](../media/monitor-real-time-supervisor.png "Send notifications when a customer's sentiment decreases to or below")
 
 To turn off supervisor notifications, select **Don't send notifications**.
-
 
 ## Multi-language sentiment
 
