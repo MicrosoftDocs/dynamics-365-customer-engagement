@@ -1,13 +1,15 @@
 ---
 title: "msdyn_livechatwidgetlocation Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_livechatwidgetlocation entity."
+ms.date: 03/23/2020
+ms.service: "crm-online"
+ms.topic: "reference"
+applies_to: 
+  - "Dynamics 365 (online)"
+ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
-ms.date: 08/29/2019
-ms.service: 
-  - crm-online
-ms.topic: "reference"
 ---
 # msdyn_livechatwidgetlocation Entity Reference
 
@@ -701,7 +703,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_msdyn_msdyn_livechatconfig_msdyn_livechatwidgetlocation_livechatconfigid"></a> msdyn_msdyn_livechatconfig_msdyn_livechatwidgetlocation_livechatconfigid
 
-See msdyn_livechatconfig Entity [msdyn_msdyn_livechatconfig_msdyn_livechatwidgetlocation_livechatconfigid](msdyn_livechatconfig.md) One-To-Many relationship.
+See msdyn_livechatconfig Entity [msdyn_msdyn_livechatconfig_msdyn_livechatwidgetlocation_livechatconfigid](msdyn_livechatconfig.md#BKMK_msdyn_msdyn_livechatconfig_msdyn_livechatwidgetlocation_livechatconfigid) One-To-Many relationship.
 
 ### See also
 

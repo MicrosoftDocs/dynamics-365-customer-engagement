@@ -1,10 +1,10 @@
 ---
 title: "Configure file attachment capability for a chat widget | MicrosoftDocs"
 description: "Instructions to configure file attachment capability for a chat widget in Omnichannel for Customer Service."
-author: lalexms
-ms.author: laalexan
+author: platkat
+ms.author: ktaylor
 manager: shujoshi
-ms.date: 08/29/2019
+ms.date: 04/06/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -66,6 +66,9 @@ The file size limit for attachments and unsupported file types are defined in th
     > ![Specify unsupported file types](../media/unsupported-file-types.png "Specify unsupported file types")
 
 6. Select **OK**.
+
+> [!NOTE]
+> Customers with Apple devices must have iOS version 13 to send file attachments.
 
 ### See also
 

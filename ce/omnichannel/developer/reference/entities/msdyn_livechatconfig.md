@@ -1,9 +1,12 @@
 ---
 title: "msdyn_livechatconfig Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_livechatconfig entity."
-ms.date: 02/06/2020
+ms.date: 03/23/2020
 ms.service: "crm-online"
 ms.topic: "reference"
+applies_to: 
+  - "Dynamics 365 (online)"
+ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
@@ -62,6 +65,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [msdyn_AuthsettingsId](#BKMK_msdyn_AuthsettingsId)
 - [msdyn_AutoDetectLanguage](#BKMK_msdyn_AutoDetectLanguage)
 - [msdyn_avatarUrl](#BKMK_msdyn_avatarUrl)
+- [msdyn_averagewaittime_enabled](#BKMK_msdyn_averagewaittime_enabled)
 - [msdyn_callingoptions](#BKMK_msdyn_callingoptions)
 - [msdyn_cobrowseprovider](#BKMK_msdyn_cobrowseprovider)
 - [msdyn_Duringnonoperatinghours](#BKMK_msdyn_Duringnonoperatinghours)
@@ -80,6 +84,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [msdyn_Mailbox](#BKMK_msdyn_Mailbox)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_oc_geolocationprovider](#BKMK_msdyn_oc_geolocationprovider)
+- [msdyn_ocWidgetLanguage](#BKMK_msdyn_ocWidgetLanguage)
 - [msdyn_operatinghourid](#BKMK_msdyn_operatinghourid)
 - [msdyn_positioninqueue_enabled](#BKMK_msdyn_positioninqueue_enabled)
 - [msdyn_postchatenabled](#BKMK_msdyn_postchatenabled)
@@ -199,6 +204,31 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
+### <a name="BKMK_msdyn_averagewaittime_enabled"></a> msdyn_averagewaittime_enabled
+
+**Added by**: Omnichannel - Chat Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Indicates whether display of wait time is enabled|
+|DisplayName|Indicates whether display of wait time is enabled|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_averagewaittime_enabled|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_averagewaittime_enabled Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
+
+
 ### <a name="BKMK_msdyn_callingoptions"></a> msdyn_callingoptions
 
 **Added by**: Omnichannel - Chat Patch Solution
@@ -230,7 +260,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Select a co-browse provider|
-|DisplayName|Co-browse Provider|
+|DisplayName|Co-browse provider|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
@@ -546,6 +576,22 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Lookup|
 
 
+### <a name="BKMK_msdyn_ocWidgetLanguage"></a> msdyn_ocWidgetLanguage
+
+**Added by**: Omnichannel - Chat Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|The language of the chat widget.|
+|DisplayName|Language|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_ocwidgetlanguage|
+|RequiredLevel|ApplicationRequired|
+|Targets|msdyn_oclanguage|
+|Type|Lookup|
+
+
 ### <a name="BKMK_msdyn_operatinghourid"></a> msdyn_operatinghourid
 
 |Property|Value|
@@ -713,8 +759,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Select a screensharing provider|
-|DisplayName|Screensharing Provider|
+|Description|Select a screen sharing provider|
+|DisplayName|Screen sharing provider|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
@@ -773,7 +819,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_widgetlocale|
-|RequiredLevel|ApplicationRequired|
+|RequiredLevel|None|
 |Targets|msdyn_chatwidgetlanguage|
 |Type|Lookup|
 
@@ -1022,6 +1068,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [msdyn_AuthsettingsIdName](#BKMK_msdyn_AuthsettingsIdName)
 - [msdyn_liveworkstreamidName](#BKMK_msdyn_liveworkstreamidName)
 - [msdyn_oc_geolocationproviderName](#BKMK_msdyn_oc_geolocationproviderName)
+- [msdyn_ocWidgetLanguageName](#BKMK_msdyn_ocWidgetLanguageName)
 - [msdyn_operatinghouridName](#BKMK_msdyn_operatinghouridName)
 - [msdyn_WidgetLocaleName](#BKMK_msdyn_WidgetLocaleName)
 - [OwnerIdName](#BKMK_OwnerIdName)
@@ -1318,6 +1365,24 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
+### <a name="BKMK_msdyn_ocWidgetLanguageName"></a> msdyn_ocWidgetLanguageName
+
+**Added by**: Omnichannel - Chat Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_ocwidgetlanguagename|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
 ### <a name="BKMK_msdyn_operatinghouridName"></a> msdyn_operatinghouridName
 
 |Property|Value|
@@ -1450,7 +1515,110 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|BigInt|
 
+<a name="onetomany"></a>
 
+## One-To-Many Relationships
+
+Listed by **SchemaName**.
+
+- [msdyn_livechatconfig_msdyn_questionsequence](#BKMK_msdyn_livechatconfig_msdyn_questionsequence)
+- [msdyn_msdyn_livechatconfig_msdyn_chatquestionnaireresponse](#BKMK_msdyn_msdyn_livechatconfig_msdyn_chatquestionnaireresponse)
+- [msdyn_msdyn_livechatconfig_msdyn_livechatwidgetlocation_livechatconfigid](#BKMK_msdyn_msdyn_livechatconfig_msdyn_livechatwidgetlocation_livechatconfigid)
+- [msdyn_livechatconfig_msdyn_ocsystemmessage](#BKMK_msdyn_livechatconfig_msdyn_ocsystemmessage)
+
+
+### <a name="BKMK_msdyn_livechatconfig_msdyn_questionsequence"></a> msdyn_livechatconfig_msdyn_questionsequence
+
+Same as msdyn_questionsequence entity [msdyn_livechatconfig_msdyn_questionsequence](msdyn_questionsequence.md#BKMK_msdyn_livechatconfig_msdyn_questionsequence) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_questionsequence|
+|ReferencingAttribute|msdyn_chatengagementtochatsequenceid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_livechatconfig_msdyn_questionsequence|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_msdyn_msdyn_livechatconfig_msdyn_chatquestionnaireresponse"></a> msdyn_msdyn_livechatconfig_msdyn_chatquestionnaireresponse
+
+Same as msdyn_chatquestionnaireresponse entity [msdyn_msdyn_livechatconfig_msdyn_chatquestionnaireresponse](msdyn_chatquestionnaireresponse.md#BKMK_msdyn_msdyn_livechatconfig_msdyn_chatquestionnaireresponse) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_chatquestionnaireresponse|
+|ReferencingAttribute|msdyn_livechatconfigid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_livechatconfig_msdyn_chatquestionnaireresponse|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_msdyn_msdyn_livechatconfig_msdyn_livechatwidgetlocation_livechatconfigid"></a> msdyn_msdyn_livechatconfig_msdyn_livechatwidgetlocation_livechatconfigid
+
+Same as msdyn_livechatwidgetlocation entity [msdyn_msdyn_livechatconfig_msdyn_livechatwidgetlocation_livechatconfigid](msdyn_livechatwidgetlocation.md#BKMK_msdyn_msdyn_livechatconfig_msdyn_livechatwidgetlocation_livechatconfigid) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_livechatwidgetlocation|
+|ReferencingAttribute|msdyn_livechatconfigid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_livechatconfig_msdyn_livechatwidgetlocation_livechatconfigid|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_msdyn_livechatconfig_msdyn_ocsystemmessage"></a> msdyn_livechatconfig_msdyn_ocsystemmessage
+
+**Added by**: Omnichannel - Chat Patch Solution
+
+Same as msdyn_ocsystemmessage entity [msdyn_livechatconfig_msdyn_ocsystemmessage](msdyn_ocsystemmessage.md#BKMK_msdyn_livechatconfig_msdyn_ocsystemmessage) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_ocsystemmessage|
+|ReferencingAttribute|msdyn_widgetid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|msdyn_livechatconfig_msdyn_ocsystemmessage|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+<a name="manytoone"></a>
+
+## Many-To-One Relationships
+
+Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
+
+- [msdyn_msdyn_authsettings_msdyn_livechatconfig](#BKMK_msdyn_msdyn_authsettings_msdyn_livechatconfig)
+- [msdyn_msdyn_chatwidgetlanguage_msdyn_livechatconfig_WidgetLocale](#BKMK_msdyn_msdyn_chatwidgetlanguage_msdyn_livechatconfig_WidgetLocale)
+- [msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid](#BKMK_msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid)
+- [msdyn_msdyn_operatinghour_msdyn_livechatconfig](#BKMK_msdyn_msdyn_operatinghour_msdyn_livechatconfig)
+
+
+### <a name="BKMK_msdyn_msdyn_authsettings_msdyn_livechatconfig"></a> msdyn_msdyn_authsettings_msdyn_livechatconfig
+
+See msdyn_authenticationsettings Entity [msdyn_msdyn_authsettings_msdyn_livechatconfig](msdyn_authenticationsettings.md#BKMK_msdyn_msdyn_authsettings_msdyn_livechatconfig) One-To-Many relationship.
+
+### <a name="BKMK_msdyn_msdyn_chatwidgetlanguage_msdyn_livechatconfig_WidgetLocale"></a> msdyn_msdyn_chatwidgetlanguage_msdyn_livechatconfig_WidgetLocale
+
+See msdyn_chatwidgetlanguage Entity [msdyn_msdyn_chatwidgetlanguage_msdyn_livechatconfig_WidgetLocale](msdyn_chatwidgetlanguage.md#BKMK_msdyn_msdyn_chatwidgetlanguage_msdyn_livechatconfig_WidgetLocale) One-To-Many relationship.
+
+### <a name="BKMK_msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid"></a> msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid
+
+**Added by**: Omnichannel – Base Solution
+
+See msdyn_liveworkstream Entity [msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid](msdyn_liveworkstream.md#BKMK_msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid) One-To-Many relationship.
+
+### <a name="BKMK_msdyn_msdyn_operatinghour_msdyn_livechatconfig"></a> msdyn_msdyn_operatinghour_msdyn_livechatconfig
+
+**Added by**: Omnichannel – Base Solution
+
+See msdyn_operatinghour Entity [msdyn_msdyn_operatinghour_msdyn_livechatconfig](msdyn_operatinghour.md#BKMK_msdyn_msdyn_operatinghour_msdyn_livechatconfig) One-To-Many relationship.
 
 ### See also
 

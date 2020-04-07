@@ -56,11 +56,9 @@ Presence status is updated in two ways:
   - When your capacity is partially utilized, the presence is set to **Busy**. <br>
   - When your capacity is not utilized, the presence is set to **Available**.<br>
 
-> [!div class="nextstepaction"]
-> [Next topic: View notifications](oc-notifications.md) 
-
 ## See also
 
+- [View notifications](oc-notifications.md)
 - [Introduction to the agent interface](oc-introduction-agent-interface.md)
 - [Manage sessions](oc-manage-sessions.md)
 - [Manage applications](oc-manage-applications.md)

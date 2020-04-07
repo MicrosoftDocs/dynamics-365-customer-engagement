@@ -1,10 +1,10 @@
 ---
 title: "Attach skill to an incoming conversation | MicrosoftDocs"
 description: "Learn about how to attach skills to an incoming conversation in Omnichannel for Customer Service app."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 12/13/2019
+ms.date: 04/06/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -16,11 +16,11 @@ ms.topic: article
 
 ## Understand skill
 
-In the portal, when the customer fills in the prechat survey questions, the system receives these as context variables. The system attaches these variables to the incoming conversation as a skill, and then the work distribution engine matches the skills of the agents based on the exact or closest match criteria. Once the skill attached to the conversation matches the skill of an agent, then the work distribution engine assigns the conversation to that agent.
+In the portal, when a customer fills in the prechat survey questions, the system receives these as context variables. The system attaches these variables to the incoming conversation as a skill, and then the work distribution engine matches the skills of the agents based on the exact or closest match criteria. After the skill attached to the conversation matches the skill of an agent, the work distribution engine assigns the conversation to the agent.
 
 For example:
 
-Kenny Smith, a customer from Spain, uses **Xbox** product and goes to **www.contoso.com** portal to initiate a chat with the Contoso customer service center. The pre-chat survey question prompts Kenny to choose a device, and Kenny chooses **Xbox**. As Kenny's geolocation is Spain, the system attaches the **Xbox** product and **Spanish** language as the skill to the conversation. After the skill attachment, the work distribution engine assigns the conversation to an agent with skill as **Xbox** and **Spanish**.
+Bert Hair, a customer from Spain, uses **Xbox** product and goes to **www.contoso.com** portal to initiate a chat with the Contoso customer service center. The pre-chat survey question prompts Bert to choose a device, and Bert chooses **Xbox**. As Bert's geolocation is Spain, the system attaches the **Xbox** product and **Spanish** language as the skill to the conversation. After the skill attachment, the work distribution engine assigns the conversation to an agent with skill as **Xbox** and **Spanish**.
 
 > [!Note]
 > The system attaches the skills to a conversation based on the skill attachment rules.
@@ -106,12 +106,14 @@ To attach skills, you need a workstream record. You can either create or use an 
     | Name | Provide a name for the skill rule. | Xbox product and Spain location |
     | Description | Describe the skill rule. | This is a skill-matching rule for the Xbox product and Spain location. |
 
-8. Set up the condition. Select an **Entity**, **Attribute**, and **Operator**. <br> For example,
+8. Set up the conditions. Select an **Entity**, **Related Attribute**, **Attribute**, **Operator**, and **Value**. For an entity, you can define rules based on related level 1 attributes.
 
-    | Entity | Attribute | Operator | Value |
-    |-----------|-----------------|---------------------|---------------------|
-    | Live Chat Context (Conversation) | Country/Region | Contains | Spain |
+    An example is as follows.
 
+    | Entity | Related Attribute | Attribute | Operator | Value |
+    |--------|----------|-------------------|-----------|---------|
+    | Account (Conversation) | Primary contact (Contact) | Address 1: Country/Region | Equals | Spain |
+    
 9. Select **Save** to save the record. After you save, the **Skill** section appears.
 
 10. Select **+ Add Existing Skill**. The **Quick Create: Attach Skill** pane appears.
@@ -123,12 +125,12 @@ To attach skills, you need a workstream record. You can either create or use an 
 
     If the condition (criteria) matches, then the omnichannel system attaches the skill.
 
-11. Select **Save**. After you save, the rule appears in the **Attachment Rules** section of the workstream.
+12. Select **Save**. After you save, the rule appears in the **Attachment Rules** section of the workstream.
 
     > [!div class=mx-imgBorder] 
     > ![Add skill rule to workstream](../media/attach-skill2.png "Add skill rule to workstream")
 
-## See also
+### See also
 
 [Overview of skill-based routing](overview-skill-work-distribution.md)
 

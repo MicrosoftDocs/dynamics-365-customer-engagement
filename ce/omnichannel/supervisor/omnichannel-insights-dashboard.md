@@ -4,7 +4,7 @@ description: "Learn about Omnichannel Insights dashboards for supervisors"
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 02/10/2020
+ms.date: 04/07/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -18,16 +18,15 @@ ms.topic: article
 
 The Omnichannel Insights dashboard provides KPIs and trends for supervisors to understand the overall state of omnichannel support experience at a glance. It also provides insights on the customer sentiments derived using support-specific machine learning algorithms with an ability to slice through different levels in the organizational hierarchy, which supervisors can rely on to improve the overall customer support experience.  
 
-Typically, the overview dashboard is divided into two sections: 
+Typically, the overview dashboard is divided into two sections:
 
 - [Omnichannel Insights dashboard](omnichannel-insights-dashboard.md#omnichannel-insights-dashboard)
 
 - [Omnichannel Sentiment Analysis dashboard](omnichannel-insights-dashboard.md#omnichannelsentiment-analysisdashboard)
 
-
 ## Omnichannel Insights dashboard
 
-The following illustration is an example of the Omnichannel Insights for Dynamics 365 dashboard: 
+The following illustration is an example of the Omnichannel Insights for Dynamics 365 dashboard:
 
    > [!div class=mx-imgBorder]
    > ![Omnichannel dashboard](../media/oc-full-dashboard.png "Omnichannel dashboard")
@@ -48,9 +47,9 @@ This section consists of the following conversation KPIs:
 
 ## Omnichannel Insights for Dynamics 365
 
-Omnichannel Insights reports provide comprehensive information on how overall support is performing across channels. The reports provide administrators and supervisors with a rich visualization and ability to filter across channels, queues, agents, and date ranges to better understand performance and troubleshoot problem areas. 
+Omnichannel Insights reports provide comprehensive information on how overall support is performing across channels. The reports provide administrators and supervisors with a rich visualization and ability to filter across channels, queues, agents, and date ranges to better understand performance and troubleshoot problem areas.
 
-Reporting structure consists of five sections: 
+Reporting structure consists of five sections:
 
 - [Conversation](#conversation)
 - [Channel](#channel)
@@ -58,7 +57,7 @@ Reporting structure consists of five sections:
 - [Agent](#agent)
 - [Bot insights (BYOB)](#botinsightsbyob)
 
-### Conversation 
+### Conversation
 
    This section provides historical visibility into the overall support operations across various channels: 
 
@@ -76,7 +75,7 @@ Reporting structure consists of five sections:
    |Average customer effort time                   |This visual shows the trend of average customer effort time over a period selected by a user with the average handle time for each day.|
    |Average Customer Sentiment Pulse (CSP)         |The predicted customer sentiment in the timeframe for a set queue/agent, which indicates the degree of positive sentiment expressed by customers at the end of their interactions  |
 
-### Channel 
+### Channel
 
    This section provides historical visibility on support operations by each channel that helps supervisors easily understand how each support channel (for example, SMS or chat) are performing and take appropriate actions to improve the overall support experience for customers.  
 
@@ -96,7 +95,7 @@ Reporting structure consists of five sections:
    |Conversation metrics by channel  | The grid provides the list of metrics across each channel.   |
    |Conversation metrics by date     | This grid provides the trend of each metric across channels.  |
 
-### Queue 
+### Queue
 
    This section provides historical visibility into how each queue is performing so supervisors can take appropriate steps to improve the overall support experience for the customer.  
 
@@ -114,7 +113,7 @@ Reporting structure consists of five sections:
    |Session metrics by queue     |Grid provides the top metrics across all queues. This helps to compare metrics across each queue.  |
    |Session metrics by date      |Grid provides a list of metrics by dates.   |
 
-### Agent 
+### Agent
 
    This section provides historical visibility into how each agent is performing across different channels/queues so supervisors can take appropriate action to improve the overall support experience for customers.  
 
@@ -133,7 +132,7 @@ Reporting structure consists of five sections:
    |Session metrics by agent     |Grid provides the top metrics across all agents. This helps to compare agents across each metrics.|
    |Session metrics by date      |Grid provides list of metrics by dates. |
 
-### Bot insights (BYOB) 
+### Bot insights (BYOB)
 
    This section provides historical visibility into how bots are performing to help resolve customer support issues. 
 
@@ -150,24 +149,21 @@ Reporting structure consists of five sections:
    |Bot escalation rate        |The percentage of conversations that are escalated by a bot to a human agent.  |
    |Bot escalation time (mins) |Average length of time that a bot took to complete the conversation with a customer before escalating to a human agent.   |
 
-
 ## Omnichannel Sentiment Analysis dashboard
-
 
 This illustration of the Omnichannel Sentiment Analysis dashboard provides an **overview** of important KPIs and trends relative to the sentiment analysis of conversation offered.  
 
    > [!div class=mx-imgBorder]
    > ![Sentiment analysis overview](../media/oc-overview.png "Sentiment analysis overview")  
 
-
-## Omnichannel Insights – Sentiment Analysis Report
+## Omnichannel Insights – Sentiment Analysis report
 
 This illustration of the Omnichannel Sentiment Analysis report provides a **detailed view** of more comprehensive information. 
 
    > [!div class=mx-imgBorder]
    > ![Sentiment Analysis detailed report](../media/oc-detailed.png "Sentiment Analysis detailed report")
 
-   Explanation of Sentiment Analysis KPIs 
+   Explanation of Sentiment Analysis KPIs
     
    |KPI             |Description                |
    |-----------------|---------------------------|
@@ -175,15 +171,43 @@ This illustration of the Omnichannel Sentiment Analysis report provides 
    |% Positive Sentiment                 |Count of positive sentiment zone conversations divided by total sessions.  |
    |% Neutral Sentiment                  |Count of neutral sentiment zone conversations divided by total sessions.  |
    |% Negative Sentiment                 |Count of negative sentiment zone conversations divided by total sessions.  |
-   |Conversations with Sentiment predication  |Count of conversations to predict the customer sentiment metrics.|
+   |Conversations with Sentiment prediction  |Count of conversations to predict the customer sentiment metrics.|
+
+## Preview: Omnichannel Insights – Sentiment drivers reporting
+
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
+Topics are generated when chat transcripts from Omnichannel are analyzed and grouped together and similarities are discovered in the conversations. These are then correlated with the sentiment so that supervisors can better understand how their customers feel about each topic on which they have interacted with the agents.
+
+   > [!div class=mx-imgBorder]
+   > ![Topics impacting sentiment](../media/topics-impacting-sentiment.png "Sentiment Analysis detailed report")
+
+   > [!NOTE]
+   >
+   > - The filters at the top of the report (duration, channel, agent, queue do not have an impact on the topic related tiles).
+   > - This component of the report will display data only when sentiment drivers reporting is enabled and a minimum of 10 chat conversations per organization take place.
+
+
+   |Tile             |Description                |
+   |-----------------|---------------------------|
+   |Grid             | Displays the discovered topics from the most recent 24 hour period in which chat transcripts were processed. |
+   |Keyword          | Displays the keywords that are related to a topic.  |
+   |Ribbon chart     | Displays the topics that have been discovered over the course of the most recent full week in which chat transcripts were processed. |
+
+
+   |KPI             |Description                |
+   |-----------------|---------------------------|
+   |Impact           | Denotes the extent to which conversations related to a topic are driving the overall sentiment up or down. It is determined by factoring out the sentiment of chats for the topic in question and comparing the resulting average to the overall sentiment across all chats. The difference indicates negative or positive impact on sentiment.  |
+   |Volume  |Denotes the total number of chat transcripts that are assigned to a topic. |
+   |Avg. Sentiment    | Denotes the average sentiment of chat transcripts that correspond to a topic.
 
 ## Sentiment zones
 
 **Positive sentiment**
 
-Positive sentiment is expressed by the customer writing messages that they are happy, pleased, or positive as a result of the support interaction. Positive sentiment requires the positive words to **convey positive feeling beyond just simple pleasantries or politeness**. 
+Positive sentiment is expressed by the customer writing messages that they are happy, pleased, or positive as a result of the support interaction. Positive sentiment requires the positive words to **convey positive feeling beyond just simple pleasantries or politeness**.
 
-For example, when a customer writes “thank you,” that is just being polite—it doesn’t necessarily mean they are pleased or happy. However, if a customer writes “I can’t thank you enough” or “thank you very much,” that is portraying clear positive feeling. Other examples of simple pleasantries/politeness that shouldn’t be mischaracterized as positive are “Please help” and “Yes." 
+For example, when a customer writes “thank you,” that is just being polite—it doesn’t necessarily mean they are pleased or happy. However, if a customer writes “I can’t thank you enough” or “thank you very much,” that is portraying clear positive feeling. Other examples of simple pleasantries/politeness that shouldn’t be mischaracterized as positive are “Please help” and “Yes."
 
 **Negative sentiment**
 
@@ -193,7 +217,7 @@ Negative sentiment is expressed by the customer when they are disappointed with 
 
 Neutral sentiment is represented when a customer’s sentiment was neither positive nor negative. A customer’s problem statement isn’t to be scored negative; rather, it should be scored neutral unless it contains words that denote emotion.  This is regardless of how severe the user’s problem is. Messages with non-specific pleasantries and/or politeness are scored as neutral and not as positive.
 
-### View and filter reports 
+### View and filter reports
 
 You can filter the information presented in the reports by selecting **Duration**, **Channel**, **Queue,** and **Agent**.
 
@@ -205,3 +229,5 @@ You can filter the information presented in the reports by selecting **Duration*
 [Introduction to Omnichannel Insights dashboard](../supervisor/intro-dynamics-365-omnichannel-insights-dashboard.md)
 
 [Configure Omnichannel Insights dashboard](../administrator/configure-historical-sentiment-dashboard-supervisor.md)
+
+[Analyze real-time customer sentiment](../administrator/enable-sentiment-analysis.md)

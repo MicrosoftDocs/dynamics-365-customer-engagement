@@ -4,7 +4,7 @@ description: "List of Omnichannel for Customer Service entities that have been d
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 08/29/2019
+ms.date: 03/30/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: reference
@@ -15,6 +15,7 @@ The following entities have been deprecated. These entities will still be visibl
 
 - msdyn_ocliveworkitemparticipant
 - msdyn_omnichannelqueue
+- msdyn_entityconfig
 - msdyn_localizedsurveyquestion
 - msdyn_routingruleinstance
 - msdyn_systemuser_msdyn_omnichannelqueue
