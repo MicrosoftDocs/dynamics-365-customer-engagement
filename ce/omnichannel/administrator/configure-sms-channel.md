@@ -1,16 +1,16 @@
 ---
-title: "Configure an SMS channel | MicrosoftDocs"
+title: "Configure an SMS channel for Telesign | MicrosoftDocs"
 description: "Instructions for configuring an SMS channel in Omnichannel for Customer Service."
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 11/18/2019
+ms.date: 04/08/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
 ---
 
-# Configure an SMS channel
+# Configure an SMS channel for Telesign
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
