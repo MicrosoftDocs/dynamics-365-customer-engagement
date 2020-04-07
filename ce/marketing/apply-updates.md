@@ -30,11 +30,11 @@ Microsoft is continuously developing and improving online services. Though we ro
 Read this article to get an overview of how to update Dynamics 365 Marketing and its related solutions.
 
 > [!WARNING]
-> Always update the core solutions of Dynamics 365 Marketing by running its setup wizard from the **Applications** tab of the Administration Center, as described in [Find and apply updates for core Marketing solutions](#Find-and-apply-updates-for-core-Marketing-solutions). Do not try to update the individual Marketing solutions by working on the **Instances** tab of the Administration Center.
+> Always update the core solutions of Dynamics 365 Marketing by running its setup wizard from the **Applications** tab of the Administration Center, as described in [Find and apply updates for core Marketing solutions](#find-and-apply-updates-for-core-marketing-solutions). Do not try to update the individual Marketing solutions by working on the **Instances** tab of the Administration Center.
 > 
 > ![Update Marketing using the Applications tab, not the Instances tab](media/purchase-app-tab.png "Update Marketing using the Applications tab, not the Instances tab")
 > 
-> Please note, marketing also includes two solutions ("Dynamics 365 Portals – Base Portal" and "Voice of the Customer for Dynamics 365") that *must* be updated separately using the **Instances** tab as described in [Find and apply updates for shared Marketing solutions](#Find-and-apply-updates-for-shared-Marketing-solutions). Be sure not to update any of the core Marketing solutions while you are updating these shared solutions, even if they show an update is available.
+> Please note, marketing also includes two solutions ("Dynamics 365 Portals – Base Portal" and "Voice of the Customer for Dynamics 365") that *must* be updated separately using the **Instances** tab as described in [Find and apply updates for shared Marketing solutions](#find-and-apply-updates-for-shared-marketing-solutions). Be sure not to update any of the core Marketing solutions while you are updating these shared solutions, even if they show an update is available.
 
 ## Solutions included with Dynamics 365 Marketing
 
@@ -92,7 +92,7 @@ To find and apply available updates to all core Marketing solutions, including t
 ## Find and apply updates for shared Marketing solutions
 
 > [!WARNING]
-> Always check for and apply core Marketing solution updates using the setup wizard (as described in the [previous section](#Find-and-apply-updates-for-core-Marketing-solutions) *before* you look for shared solution updates. You will also see core Marketing solutions listed when you follow the instructions provided in this section, but you risk breaking your installation if you try to update core Marketing solutions from here, even if they show an update is available.
+> Always check for and apply core Marketing solution updates using the setup wizard (as described in the [previous section](#find-and-apply-updates-for-core-marketing-solutions) *before* you look for shared solution updates. You will also see core Marketing solutions listed when you follow the instructions provided in this section, but you risk breaking your installation if you try to update core Marketing solutions from here, even if they show an update is available.
 
 To update shared (non-core Marketing) solutions, including Voice of the Customer and Dynamics 365 Portals:
 
