@@ -1,12 +1,12 @@
 ---
 title: "Prerequisites and system requirements of Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the system requirements of Omnichannel for Customer Service."
-author: kabala123
-ms.author: kabala
+author: platkat
+ms.author: ktaylor
 manager: shujoshi
 applies_to: 
   - ""
-ms.date: 03/03/2020
+ms.date: 04/06/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -29,6 +29,10 @@ You can deploy Omnichannel for Customer Service over a Customer Service applicat
 ## Prerequisites
 
 This section explains the prerequisites for using Omnichannel for Customer Service.
+
+### Availability
+
+To find out if Omnichannel for Customer Service is available in your region, see [International availability](international-availability.md).
 
 ### Licensing
 
@@ -88,10 +92,27 @@ Add the following URLs for your users to access the Omnichannel for Customer Ser
 - `https://swc.cdn.skype.com/*`
 - `https://config.edge.skype.com/*`
 - `https://edge.skype.com/* `
-- `https://api.aps.skype.com/*` 
+- `https://api.aps.skype.com/*`
+- `https://*.asm.skype.com`
 - `https://*.ng.msg.teams.microsoft.com/* `
 - `https://*.notifications.teams.microsoft.com/* ` 
 - `https://*.omnichannelengagementhub.com/*`
+- `https://cdn.botframework.com/botframework-webchat`
+- `https://webchatic3.blob.core.windows.net`
+- `https://comms.omnichannelengagementhub.com`
+- `https://ocsdk-prod.azureedge.net`
+
+If your customers are using a URL filter to block a category of websites or URLs, you might have to ask your customers to allow a specific website as an exception.
+
+Customers must be able to access the following URLs from their browsers in order to use the live chat widget in the portal:
+
+- `https://oc-cdn-ocprod.azureedge.net/livechatwidget`
+- `https://cdn.botframework.com/botframework-webchat`
+- `https://webchatic3.blob.core.windows.net`
+- `https://comms.omnichannelengagementhub.com`
+- `https://ocsdk-prod.azureedge.net`
+- `https://*.asm.skype.com`
+- `https://*.ng.msg.teams.microsoft.com/*`
 
 **Geo-specific URLs**
 

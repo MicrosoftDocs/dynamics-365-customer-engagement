@@ -1,13 +1,12 @@
 ---
 title: "msdyn_sessionevent Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_sessionevent entity."
+ms.date: 03/23/2020
+ms.service: "crm-online"
+ms.topic: "reference"
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
-ms.date: 08/29/2019
-ms.service: 
-  - crm-online
-ms.topic: "reference"
 ---
 # msdyn_sessionevent Entity Reference
 
@@ -96,7 +95,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Event information|
 |DisplayName|Event Info|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -116,7 +115,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Reason for session event|
 |DisplayName|Event Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -161,7 +160,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description||
+|Description|Date and time of session event|
 |DisplayName|Event Time|
 |Format|DateOnly|
 |IsValidForForm|True|
@@ -175,7 +174,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Type of session event e.g. accept, reject etc|
 |DisplayName|Event Type|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -231,7 +230,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Unique identifier for the associated session|
 |DisplayName|Omni Channel Session|
 |IsValidForForm|True|
 |IsValidForRead|True|

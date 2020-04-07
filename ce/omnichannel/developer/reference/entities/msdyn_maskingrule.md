@@ -1,13 +1,15 @@
 ---
 title: "msdyn_maskingrule Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_maskingrule entity."
+ms.date: 03/23/2020
+ms.service: "crm-online"
+ms.topic: "reference"
+applies_to: 
+  - "Dynamics 365 (online)"
+ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
-ms.date: 08/29/2019
-ms.service: 
-  - crm-online
-ms.topic: "reference"
 ---
 # msdyn_maskingrule Entity Reference
 
@@ -88,7 +90,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Description of the masking rule|
 |DisplayName|Description|
 |FormatName|TextArea|
 |IsLocalizable|False|
@@ -104,7 +106,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Test data to evaluate a masking rule|
 |DisplayName|Enter Test Data|
 |FormatName|TextArea|
 |IsLocalizable|False|
@@ -120,7 +122,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Character to be masked|
 |DisplayName|Masked Character|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -136,7 +138,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Test data to evaluated by a masking rule|
 |DisplayName|Masked Test Data|
 |FormatName|TextArea|
 |IsLocalizable|False|

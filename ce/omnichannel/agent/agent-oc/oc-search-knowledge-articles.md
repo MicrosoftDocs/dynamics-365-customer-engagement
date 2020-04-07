@@ -49,11 +49,10 @@ When you interact with a customer in the conversation control, you can use the *
 
 ![Search knowledge articles using the option from conversation control](../../media/oceh-oc-search-knowledge-articles-cc.png "Search knowledge articles using the option from conversation control")
 
-> [!div class="nextstepaction"]
-> [Next topic: Take notes specific to conversation](oc-take-notes.md)
 
 ## See also
 
+- [Take notes specific to conversation](oc-take-notes.md)
 - [View communication panel](oc-conversation-control.md)
 - [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)
 - [View conversation and session activity types in the model-driven apps](oc-view-activity-types.md)
