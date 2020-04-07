@@ -4,7 +4,7 @@ description: "Developer guide for Omnichannel for Customer Service provides deve
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 10/17/2019
+ms.date: 04/06/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -97,7 +97,25 @@ Learn how you can automatically close a conversation using Web API.
 
 </td>
 </tr>
+<tr>
+<td>
+<h3>Build a smart assist bot</h3>
 
+Read how you can build a smart assist bot to help agents resolve customer queries faster and more effectively.
+
+[Build a smart assist bot](how-to/smart-assist-bot.md)
+
+</td>
+<td>
+
+<h3>Bring your own channel</h3>
+
+Read how you can implement a connector to integrate custom messaging channels using Direct Line Bot.
+
+[Bring your own channel](how-to/bring-your-own-channel.md)
+
+</td>
+</tr>
 </table>
 
 ### See also
@@ -105,4 +123,5 @@ Learn how you can automatically close a conversation using Web API.
 [Introduction to Omnichannel for Customer Service](../introduction-omnichannel.md)<br />
 [Omnichannel for Customer Service for administrators](../administrator/omnichannel-administrator.md)<br />
 [Omnichannel for Customer Service for system customizers](../customizer/omnichannel-customizer.md)<br />
-[Omnichannel for Customer Service for agents](../agent/omnichannel-agent-overview.md)
+[Omnichannel for Customer Service for agents](../agent/omnichannel-agent-overview.md)<br />
+[Dynamics 365 Channel Integration Framework guide](../../customer-service/channel-integration-framework/channel-integration-framework.md)

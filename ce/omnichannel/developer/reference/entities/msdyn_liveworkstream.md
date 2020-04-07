@@ -1,13 +1,12 @@
 ---
 title: "msdyn_liveworkstream Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_liveworkstream entity."
+ms.date: 03/23/2020
+ms.service: "crm-online"
+ms.topic: "reference"
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
-ms.date: 08/29/2019
-ms.service: 
-  - crm-online
-ms.topic: "reference"
 ---
 # msdyn_liveworkstream Entity Reference
 
@@ -67,21 +66,29 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [msdyn_CapacityRequired](#BKMK_msdyn_CapacityRequired)
 - [msdyn_ConnectorsURL](#BKMK_msdyn_ConnectorsURL)
 - [msdyn_CustomerID](#BKMK_msdyn_CustomerID)
+- [msdyn_enableautomatedmessages](#BKMK_msdyn_enableautomatedmessages)
+- [msdyn_enableselectingfrompushbasedworkstreams](#BKMK_msdyn_enableselectingfrompushbasedworkstreams)
+- [msdyn_EntityRoutingConfigurationId](#BKMK_msdyn_EntityRoutingConfigurationId)
 - [msdyn_FallBackLanguage](#BKMK_msdyn_FallBackLanguage)
 - [msdyn_FollowUpAfterWaiting](#BKMK_msdyn_FollowUpAfterWaiting)
 - [msdyn_handlingtimethreshold](#BKMK_msdyn_handlingtimethreshold)
 - [msdyn_LastValidationOn](#BKMK_msdyn_LastValidationOn)
 - [msdyn_LastValidationStatus](#BKMK_msdyn_LastValidationStatus)
 - [msdyn_liveworkstreamId](#BKMK_msdyn_liveworkstreamId)
+- [msdyn_matchinglogic](#BKMK_msdyn_matchinglogic)
 - [msdyn_MaxConcurrentConnection](#BKMK_msdyn_MaxConcurrentConnection)
 - [msdyn_name](#BKMK_msdyn_name)
 - [msdyn_Notification](#BKMK_msdyn_Notification)
+- [msdyn_notificationscenarioplaceholder](#BKMK_msdyn_notificationscenarioplaceholder)
 - [msdyn_recordidentificationrule](#BKMK_msdyn_recordidentificationrule)
 - [msdyn_RecordIdentificationValidationRule](#BKMK_msdyn_RecordIdentificationValidationRule)
 - [msdyn_Screenpoptimeout](#BKMK_msdyn_Screenpoptimeout)
 - [msdyn_Screenpoptimeout_optionSet](#BKMK_msdyn_Screenpoptimeout_optionSet)
+- [msdyn_sessionscenarioplaceholder](#BKMK_msdyn_sessionscenarioplaceholder)
+- [msdyn_smsprovider](#BKMK_msdyn_smsprovider)
 - [msdyn_streamsource](#BKMK_msdyn_streamsource)
 - [msdyn_TelesignInboundURL](#BKMK_msdyn_TelesignInboundURL)
+- [msdyn_TwilioInboundURL](#BKMK_msdyn_TwilioInboundURL)
 - [msdyn_waitingtimethreshold](#BKMK_msdyn_waitingtimethreshold)
 - [msdyn_workdistributionmode](#BKMK_msdyn_workdistributionmode)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
@@ -254,11 +261,77 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
+### <a name="BKMK_msdyn_enableautomatedmessages"></a> msdyn_enableautomatedmessages
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Option for allowing automated messages or not|
+|DisplayName|Allow Automated Messages|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_enableautomatedmessages|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_enableautomatedmessages Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: True
+
+
+
+### <a name="BKMK_msdyn_enableselectingfrompushbasedworkstreams"></a> msdyn_enableselectingfrompushbasedworkstreams
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Agents can choose to work on items from push-based work streams.|
+|DisplayName|Enable selecting from push-based work streams|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_enableselectingfrompushbasedworkstreams|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_enableselectingfrompushbasedworkstreams Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
+
+
+### <a name="BKMK_msdyn_EntityRoutingConfigurationId"></a> msdyn_EntityRoutingConfigurationId
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for Workstream Entity Configuration associated with Work Stream.|
+|DisplayName|Entity|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_entityroutingconfigurationid|
+|RequiredLevel|None|
+|Targets|msdyn_entityroutingconfiguration|
+|Type|Lookup|
+
+
 ### <a name="BKMK_msdyn_FallBackLanguage"></a> msdyn_FallBackLanguage
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Fall back language to be used for Live chat|
 |DisplayName|FallBack Language|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -351,6 +424,29 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Uniqueidentifier|
 
 
+### <a name="BKMK_msdyn_matchinglogic"></a> msdyn_matchinglogic
+
+**Added by**: Omnichannel - Skill Based Routing Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Matching Logic|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_matchinglogic|
+|RequiredLevel|None|
+|Type|Picklist|
+
+#### msdyn_matchinglogic Options
+
+|Value|Label|
+|-----|-----|
+|192350000|Exact Match|
+|192350001|Closest Match|
+
+
+
 ### <a name="BKMK_msdyn_MaxConcurrentConnection"></a> msdyn_MaxConcurrentConnection
 
 |Property|Value|
@@ -387,7 +483,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Notification type|
 |DisplayName|Notification|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -405,11 +501,29 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 
-### <a name="BKMK_msdyn_recordidentificationrule"></a> msdyn_recordidentificationrule
+### <a name="BKMK_msdyn_notificationscenarioplaceholder"></a> msdyn_notificationscenarioplaceholder
+
+**Added by**: Omnichannel for Customer Service Patch Solution
 
 |Property|Value|
 |--------|-----|
 |Description||
+|DisplayName|notification scenario placeholder|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_notificationscenarioplaceholder|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_recordidentificationrule"></a> msdyn_recordidentificationrule
+
+|Property|Value|
+|--------|-----|
+|Description|Record identification rule associated to a workstream|
 |DisplayName|Record Identification Rule|
 |Format|Text|
 |IsLocalizable|False|
@@ -425,7 +539,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Record Identification Validation Rule|
 |DisplayName|Record Identification Validation Rule|
 |Format|Text|
 |IsLocalizable|False|
@@ -441,7 +555,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Time duration for which notification will be shown to agent.|
 |DisplayName|Screen pop timeout|
 |Format|Duration|
 |IsValidForForm|True|
@@ -457,7 +571,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Time duration options for notification.|
 |DisplayName|Screen pop timeout|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -482,11 +596,52 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 
-### <a name="BKMK_msdyn_streamsource"></a> msdyn_streamsource
+### <a name="BKMK_msdyn_sessionscenarioplaceholder"></a> msdyn_sessionscenarioplaceholder
+
+**Added by**: Omnichannel for Customer Service Patch Solution
 
 |Property|Value|
 |--------|-----|
 |Description||
+|DisplayName|session scenario placeholder|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_sessionscenarioplaceholder|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_smsprovider"></a> msdyn_smsprovider
+
+**Added by**: Omnichannel - SMS Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|SMS Provider|
+|DisplayName|SMS Provider|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_smsprovider|
+|RequiredLevel|None|
+|Type|Picklist|
+
+#### msdyn_smsprovider Options
+
+|Value|Label|
+|-----|-----|
+|192350000|TeleSign|
+|192350001|Twilio|
+
+
+
+### <a name="BKMK_msdyn_streamsource"></a> msdyn_streamsource
+
+|Property|Value|
+|--------|-----|
+|Description|The channel to which this workstream is attached|
 |DisplayName|Channel|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -498,9 +653,20 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Value|Label|
 |-----|-----|
+|19241000|Microsoft Teams|
+|192300000|WhatsApp|
+|192310000|LINE|
+|192320000|WeChat|
+|192330000|Facebook|
 |192340000|SMS|
-|192350000|CDS entity|
+|192350000|Entity Records|
+|192350001|Twitter|
+|192350002|Custom|
 |192360000|Live chat|
+|192370000|Voice|
+|192380000|Video|
+|192390000|Co-browse|
+|192400000|Screen sharing|
 
 
 
@@ -517,6 +683,24 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_telesigninboundurl|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_TwilioInboundURL"></a> msdyn_TwilioInboundURL
+
+**Added by**: Omnichannel - SMS Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|URL for Twilio Inbound link|
+|DisplayName|Twilio Inbound URL|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_twilioinboundurl|
 |MaxLength|200|
 |RequiredLevel|None|
 |Type|String|
@@ -700,6 +884,10 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
+- [msdyn_entityroutingconfigurationIdName](#BKMK_msdyn_entityroutingconfigurationIdName)
+- [msdyn_skillattachmentrulescount](#BKMK_msdyn_skillattachmentrulescount)
+- [msdyn_skillattachmentrulescount_Date](#BKMK_msdyn_skillattachmentrulescount_Date)
+- [msdyn_skillattachmentrulescount_State](#BKMK_msdyn_skillattachmentrulescount_State)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
 - [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
@@ -946,6 +1134,77 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
+### <a name="BKMK_msdyn_entityroutingconfigurationIdName"></a> msdyn_entityroutingconfigurationIdName
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_entityroutingconfigurationidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_skillattachmentrulescount"></a> msdyn_skillattachmentrulescount
+
+**Added by**: Omnichannel - Skill Based Routing Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Skill Attachment Rules Count|
+|DisplayName|Skill Attachment Rules Count|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_skillattachmentrulescount|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
+
+
+### <a name="BKMK_msdyn_skillattachmentrulescount_Date"></a> msdyn_skillattachmentrulescount_Date
+
+**Added by**: Active Solution Solution
+
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Last Updated time of rollup field Skill Attachment Rules Count.|
+|DisplayName|Skill Attachment Rules Count (Last Updated On)|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_skillattachmentrulescount_date|
+|RequiredLevel|None|
+|Type|DateTime|
+
+
+### <a name="BKMK_msdyn_skillattachmentrulescount_State"></a> msdyn_skillattachmentrulescount_State
+
+**Added by**: Active Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description|State of rollup field Skill Attachment Rules Count.|
+|DisplayName|Skill Attachment Rules Count (State)|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_skillattachmentrulescount_state|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
+
+
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
 **Added by**: Active Solution Solution
@@ -1141,7 +1400,7 @@ Same as msdyn_ocliveworkstreamcontextvariable entity [msdyn_msdyn_liveworkstream
 
 **Added by**: Omnichannel – Chat Solution
 
-Same as msdyn_livechatconfig entity [msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid](msdyn_livechatconfig.md) Many-To-One relationship.
+Same as msdyn_livechatconfig entity [msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid](msdyn_livechatconfig.md#BKMK_msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid) Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
@@ -1187,6 +1446,16 @@ Same as msdyn_smsnumber entity [msdyn_msdyn_liveworkstream_msdyn_smsnumber](msdy
 |AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
 |CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
+<a name="manytomany"></a>
+
+## Many-To-Many Relationships
+
+Relationship details provided where the msdyn_liveworkstream entity is the first entity in the relationship. Listed by **SchemaName**.
+
+
+### <a name="BKMK_msdyn_msdyn_cannedmessage_liveworkstream"></a> msdyn_msdyn_cannedmessage_liveworkstream
+
+See msdyn_cannedmessage Entity [msdyn_msdyn_cannedmessage_liveworkstream](msdyn_cannedmessage.md#BKMK_msdyn_msdyn_cannedmessage_liveworkstream) Many-To-Many Relationship.
 
 ### See also
 

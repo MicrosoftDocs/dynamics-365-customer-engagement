@@ -1,13 +1,12 @@
 ---
 title: "msdyn_operatinghour Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_operatinghour entity."
+ms.date: 03/23/2020
+ms.service: "crm-online"
+ms.topic: "reference"
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
-ms.date: 08/29/2019
-ms.service: 
-  - crm-online
-ms.topic: "reference"
 ---
 # msdyn_operatinghour Entity Reference
 
@@ -114,7 +113,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Enable work hours for all days of the week|
 |DisplayName|24/7|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -169,7 +168,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Work days|
 |DisplayName|Work days|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -225,7 +224,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Time zone code|
 |DisplayName|Time zone|
 |Format|TimeZone|
 |IsValidForForm|True|
@@ -241,7 +240,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Total work hours|
 |DisplayName|Total work hours|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -761,12 +760,15 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 Listed by **SchemaName**.
 
+- [msdyn_msdyn_operatinghour_msdyn_livechatconfig](#BKMK_msdyn_msdyn_operatinghour_msdyn_livechatconfig)
+- [msdyn_msdyn_operatinghour_msdyn_smsnumber_operatinghours](#BKMK_msdyn_msdyn_operatinghour_msdyn_smsnumber_operatinghours)
+
 
 ### <a name="BKMK_msdyn_msdyn_operatinghour_msdyn_livechatconfig"></a> msdyn_msdyn_operatinghour_msdyn_livechatconfig
 
 **Added by**: Omnichannel – Chat Solution
 
-Same as msdyn_livechatconfig entity [msdyn_msdyn_operatinghour_msdyn_livechatconfig](msdyn_livechatconfig.md) Many-To-One relationship.
+Same as msdyn_livechatconfig entity [msdyn_msdyn_operatinghour_msdyn_livechatconfig](msdyn_livechatconfig.md#BKMK_msdyn_msdyn_operatinghour_msdyn_livechatconfig) Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
@@ -775,6 +777,23 @@ Same as msdyn_livechatconfig entity [msdyn_msdyn_operatinghour_msdyn_livechatcon
 |IsHierarchical|False|
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|msdyn_msdyn_operatinghour_msdyn_livechatconfig|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_msdyn_msdyn_operatinghour_msdyn_smsnumber_operatinghours"></a> msdyn_msdyn_operatinghour_msdyn_smsnumber_operatinghours
+
+**Added by**: Omnichannel - SMS Patch Solution
+
+Same as msdyn_smsnumber entity [msdyn_msdyn_operatinghour_msdyn_smsnumber_operatinghours](msdyn_smsnumber.md#BKMK_msdyn_msdyn_operatinghour_msdyn_smsnumber_operatinghours) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_smsnumber|
+|ReferencingAttribute|msdyn_operatinghourid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_operatinghour_msdyn_smsnumber_operatinghours|
 |AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
 |CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 

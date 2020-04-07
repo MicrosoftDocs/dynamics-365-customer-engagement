@@ -1,19 +1,21 @@
 ---
 title: "msdyn_livechatengagementctx Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_livechatengagementctx entity."
+ms.date: 03/23/2020
+ms.service: "crm-online"
+ms.topic: "reference"
+applies_to: 
+  - "Dynamics 365 (online)"
+ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
-ms.date: 08/29/2019
-ms.service: 
-  - crm-online
-ms.topic: "reference"
 ---
 # msdyn_livechatengagementctx Entity Reference
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-Stores context values for a live chat widget
+Stores context values for a live chat widget.
 
 **Added by**: Omnichannel – Chat Solution
 
@@ -64,6 +66,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [msdyn_country](#BKMK_msdyn_country)
 - [msdyn_device](#BKMK_msdyn_device)
 - [msdyn_isauthenticated](#BKMK_msdyn_isauthenticated)
+- [msdyn_isproactivechat](#BKMK_msdyn_isproactivechat)
 - [msdyn_latitude](#BKMK_msdyn_latitude)
 - [msdyn_livechatengagementctxId](#BKMK_msdyn_livechatengagementctxId)
 - [msdyn_livechatengagementid](#BKMK_msdyn_livechatengagementid)
@@ -183,6 +186,31 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Boolean|
 
 #### msdyn_isauthenticated Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
+
+
+### <a name="BKMK_msdyn_isproactivechat"></a> msdyn_isproactivechat
+
+**Added by**: Omnichannel - Chat Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Is Proactivechat|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_isproactivechat|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_isproactivechat Options
 
 |Value|Label|
 |-----|-----|

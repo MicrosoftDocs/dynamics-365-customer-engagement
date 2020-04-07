@@ -100,11 +100,9 @@ To unlink a record, select **Close** next to the customer name in the customer (
 > [!Note]
 > You can link and unlink only one contact or account in the customer (**Contact** or **Account**) section and one case in the **Case** section.
 
-> [!div class="nextstepaction"]
-> [Next topic: Understand conversation states](oc-conversation-state.md)
-
 ### See also
 
+- [Understand conversation states](oc-conversation-state.md)
 - [View a customer summary to get available information about a customer](oc-customer-summary.md)
 - [View conversation and session activity types in the model-driven apps](oc-view-activity-types.md)
 - [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
