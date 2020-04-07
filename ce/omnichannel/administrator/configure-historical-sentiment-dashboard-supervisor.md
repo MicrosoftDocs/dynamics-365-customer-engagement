@@ -20,23 +20,6 @@ ms.custom:
 
 Customer service managers or supervisors are responsible for managing agents who work to resolve customer queries every day through various service channels. They need to know key operational metrics to ensure that their agents are providing quality support. Omnichannel Insights consists of channels and sentiment analysis dashboards that can help with this.
 
-- [Configure Omnichannel Insights dashboards](#configure-omnichannel-insights-dashboards)
-  - [Configure Omnichannel Insights](#configure-omnichannel-insights)
-    - [Step 1: Review prerequisites](#step-1-review-prerequisites)
-    - [Step 2A: Install Omnichannel Insights for Dynamics 365 app](#step-2a-install-omnichannel-insights-for-dynamics-365-app)
-    - [Step 2B: Configure existing Omnichannel Insights for Dynamics 365 app](#step-2b-configure-existing-omnichannel-insights-for-dynamics-365-app)
-    - [Step 3: Connect to Omnichannel Insights for Dynamics 365 app](#step-3-connect-to-omnichannel-insights-for-dynamics-365-app)
-    - [Step 4: Configure refresh frequency on Power BI dataset](#step-4-configure-refresh-frequency-on-power-bi-dataset)
-    - [Step 5: Publish application within your organization](#step-5-publish-application-within-your-organization)
-    - [Step 6: Add Power BI Dashboards to Omnichannel for Customer Service](#step-6-add-power-bi-dashboards-to-omnichannel-for-customer-service)
-  - [Add users to supervisor configuration](#add-users-to-supervisor-configuration)
-  - [Customize Omnichannel Insights](#customize-omnichannel-insights)
-  - [Requirements](#requirements)
-  - [Prepare PBIX for customization](#prepare-pbix-for-customization)
-    - [See also](#see-also)
-
-- [Customize Omnichannel Insights](#customize-omnichannel-insights)
-
 > [!IMPORTANT]
 > The supervisor dashboards that are based on Power BI, such as Omnichannel Insights and Sentiment Analysis, are not available on Government Community Cloud (GCC).
 
