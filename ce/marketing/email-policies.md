@@ -31,13 +31,13 @@ To preserve your reputation as a sender, Dynamics 365 Marketing has developed a 
 
 - *Warned*
 
-    In the first stage of review, Marketing sends a warning notification to the address associated with your account. The account maintains full sending functionality during the warning period. However, if we do not receive a response or the protection system records successive alerts, your account may be suspended to prevent further risk to your sending reputation.
+    In the first stage of review, the Marketing application sends a warning notification to the address associated with your account. The account maintains full sending functionality during the warning period. However, if the application doesn't receive a response or the protection system records successive alerts, your account may be suspended to prevent further risk to your sending reputation.
 
 - *Suspended*
 
-    Email sending is suspended when the Marketing deliverability protection system detects that one or multiple email limits were breached on your email recipients, or fraudulent account activity was detected.
+    Email sending is suspended when the deliverability protection system detects that one or multiple email limits were breached on your email recipients, or fraudulent account activity was detected.
 
-    When Marketing email sending is suspended, you will see a warning banner in your email tool about a problem detected by the deliverability protection system. The banner contains details about the problem and recommendations to improve future emails.
+    When email sending is suspended, you see a warning banner in your email tool about a problem detected by the deliverability protection system. The banner contains details about the problem and recommendations to improve future email messages.
 
     If your email sending is suspended, create a ticket with our deliverability team. When we believe that you have taken sufficient steps to address the cause of suspension, we will reinstate your account.
 
