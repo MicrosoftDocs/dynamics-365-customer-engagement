@@ -1,11 +1,16 @@
 {
   "redirections": [
     {
-
       "source_path": "ce/marketing/spam-score.md",
       "redirect_url": "spam-checker",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/marketing/smart-scheduler.md",
       "redirect_url": "automated-scheduler",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/marketing/email-design-update.md",
       "redirect_url": "email-design",
       "redirect_document_id": "false"
