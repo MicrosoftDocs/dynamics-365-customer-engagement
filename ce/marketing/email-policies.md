@@ -1,6 +1,6 @@
 ---
 title: "Account email policies (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn about Dynamics 365 Marketing's email policies and what to do if your account is suspended."
+description: "Learn about Dynamics 365 Marketing email policies and what to do if your account is suspended."
 keywords: 
 ms.date: 04/07/2020
 ms.service: dynamics-365-marketing
@@ -25,7 +25,7 @@ search.app:
 
 # Email policies and suspension standards
 
-To preserve your reputation as a sender, Dynamics 365 Marketing has developed a deliverability protection system that detects excessive hard bounces, spam reports, blacklisting, or abuse complaints. This system protects our entire customer base. If email criteria are violated, accounts can be placed under review or terminated. Learn more about the review criteria below.
+To preserve your reputation as a sender, Dynamics 365 Marketing has developed a deliverability protection system that detects excessive hard bounces, spam reports, blacklisting, or abuse complaints. This system protects our entire customer base. If email criteria are violated, accounts can be placed under review or terminated. 
 
 ## Stages of review
 
