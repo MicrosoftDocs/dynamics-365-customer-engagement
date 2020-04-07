@@ -87,11 +87,11 @@ When creating routing rule sets, you can add multiple rule items and arrange the
 
     b. In **Rule Criteria**, you can specify the conditions in one or a combination of the following to be evaluated for routing cases:
 
-       - **Add Row:** Select **…** to group multiple rows of conditions into one group.
-        
-       - **Add Group:** Select **…** to ungroup a group of conditions.
-        
-       - **Add related entity:** Select to add a condition for a specific entity.
+      - **Add Row:** Select **…** to group multiple rows of conditions into one group.
+
+      - **Add Group:** Select **…** to ungroup a group of conditions.
+
+      - **Add related entity:** Select to add a condition for a specific entity.
 
       > [!NOTE]
       > The following limitations are applicable when defining a rule criteria in Customer Service Hub:
