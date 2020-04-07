@@ -1,6 +1,16 @@
 {
   "redirections": [
     {
+
+      "source_path": "ce/marketing/spam-score.md",
+      "redirect_url": "spam-checker",
+      "source_path": "ce/marketing/smart-scheduler.md",
+      "redirect_url": "automated-scheduler",
+      "source_path": "ce/marketing/email-design-update.md",
+      "redirect_url": "email-design",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/admin/use-organization-insights-solution-view-instance-metrics.md",
       "redirect_url": "https://docs.microsoft.com/power-platform/admin/analytics-common-data-service",
       "redirect_document_id": "false"
