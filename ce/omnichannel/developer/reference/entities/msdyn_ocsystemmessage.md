@@ -1,13 +1,12 @@
 ---
 title: "msdyn_ocsystemmessage Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_ocsystemmessage entity."
+ms.date: 03/23/2020
+ms.service: "crm-online"
+ms.topic: "reference"
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
-ms.date: 08/29/2019
-ms.service: 
-  - crm-online
-ms.topic: "reference"
 ---
 # msdyn_ocsystemmessage Entity Reference
 
@@ -60,6 +59,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [msdyn_ocsystemmessageId](#BKMK_msdyn_ocsystemmessageId)
 - [msdyn_streamsource](#BKMK_msdyn_streamsource)
 - [msdyn_systemmessageeventtype](#BKMK_msdyn_systemmessageeventtype)
+- [msdyn_widgetid](#BKMK_msdyn_widgetid)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [statecode](#BKMK_statecode)
 - [statuscode](#BKMK_statuscode)
@@ -183,9 +183,20 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Value|Label|
 |-----|-----|
+|19241000|Microsoft Teams|
+|192300000|WhatsApp|
+|192310000|LINE|
+|192320000|WeChat|
+|192330000|Facebook|
 |192340000|SMS|
-|192350000|CDS entity|
+|192350000|Entity Records|
+|192350001|Twitter|
+|192350002|Custom|
 |192360000|Live chat|
+|192370000|Voice|
+|192380000|Video|
+|192390000|Co-browse|
+|192400000|Screen sharing|
 
 
 
@@ -227,7 +238,35 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |192350019|CustomerEnded|
 |192350020|CustomerDisconnected|
 |192350021|CustomerQueuePosition_LiveChat|
+|192350022|MessageFailedToSendToCustomer|
+|192350023|OutsideOperationHours|
+|192350024|CustomerQueuePosition_Next|
+|192350025|UnsupportedMessageType|
+|192350026|SecondaryChannelRequested|
+|192350027|SecondaryChannelAccepted|
+|192350028|SecondaryChannelDeclined|
+|192350029|MessageSentOutsideConversationWindow|
+|192350030|CustomerAverageWaitTime_Minutes|
+|192350031|CustomerAverageWaitTime_Hours|
+|192350032|CustomerAverageWaitTime_HoursAndMinutes|
+|192350033|SecondaryChannelEnded|
 
+
+
+### <a name="BKMK_msdyn_widgetid"></a> msdyn_widgetid
+
+**Added by**: Omnichannel - Chat Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for Chat Widget associated with System Message.|
+|DisplayName|Widget|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_widgetid|
+|RequiredLevel|None|
+|Targets|msdyn_livechatconfig|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
@@ -340,6 +379,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
+- [msdyn_widgetidName](#BKMK_msdyn_widgetidName)
 - [OrganizationId](#BKMK_OrganizationId)
 - [OrganizationIdName](#BKMK_OrganizationIdName)
 - [VersionNumber](#BKMK_VersionNumber)
@@ -583,6 +623,24 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
+### <a name="BKMK_msdyn_widgetidName"></a> msdyn_widgetidName
+
+**Added by**: Omnichannel - Chat Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_widgetidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
 ### <a name="BKMK_OrganizationId"></a> OrganizationId
 
 **Added by**: Active Solution Solution
@@ -633,7 +691,41 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|BigInt|
 
+<a name="onetomany"></a>
 
+## One-To-Many Relationships
+
+Listed by **SchemaName**.
+
+
+### <a name="BKMK_msdyn_ocsystemmessage_msdyn_oclocalizationdata"></a> msdyn_ocsystemmessage_msdyn_oclocalizationdata
+
+**Added by**: Omnichannel - Base Patch Solution
+
+Same as msdyn_oclocalizationdata entity [msdyn_ocsystemmessage_msdyn_oclocalizationdata](msdyn_oclocalizationdata.md#BKMK_msdyn_ocsystemmessage_msdyn_oclocalizationdata) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_oclocalizationdata|
+|ReferencingAttribute|msdyn_systemmessageid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|msdyn_ocsystemmessage_msdyn_oclocalizationdata|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+<a name="manytoone"></a>
+
+## Many-To-One Relationships
+
+Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
+
+
+### <a name="BKMK_msdyn_livechatconfig_msdyn_ocsystemmessage"></a> msdyn_livechatconfig_msdyn_ocsystemmessage
+
+**Added by**: Omnichannel – Chat Solution
+
+See msdyn_livechatconfig Entity [msdyn_livechatconfig_msdyn_ocsystemmessage](msdyn_livechatconfig.md#BKMK_msdyn_livechatconfig_msdyn_ocsystemmessage) One-To-Many relationship.
 
 ### See also
 

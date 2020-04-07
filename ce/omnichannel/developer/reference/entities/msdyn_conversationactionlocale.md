@@ -1,15 +1,15 @@
 ---
-title: "msdyn_conversationactionlocale Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_conversationactionlocale Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_conversationactionlocale entity."
-ms.date: 02/06/2020
+ms.date: 03/23/2020
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "jdaly"
+author: "susikka"
+ms.author: "susikka"
+manager: "shujoshi"
 ---
 # msdyn_conversationactionlocale Entity Reference
 
@@ -100,7 +100,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Conversation action Id|
 |DisplayName|Conversation Action key|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -128,7 +128,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Label string for conversation action button|
 |DisplayName|Label|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -144,7 +144,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Locale code for conversation action UI strings|
 |DisplayName|Locale|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -156,7 +156,51 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Value|Label|
 |-----|-----|
-|1033|English(en-US)|
+|1025|ar-SA|
+|1026|bg-BG|
+|1027|ca-ES|
+|1028|zh-TW|
+|1029|cs-CZ|
+|1030|da-DK|
+|1031|de-DE|
+|1032|el-GR|
+|1033|en-US|
+|1035|fi-FI|
+|1036|fr-FR|
+|1037|he-IL|
+|1038|hu-HU|
+|1040|it-IT|
+|1041|ja-JP|
+|1042|ko-KR|
+|1043|nl-NL|
+|1044|nb-NO|
+|1045|pl-PL|
+|1046|pt-BR|
+|1048|ro-RO|
+|1049|ru-RU|
+|1050|hr-HR|
+|1051|sk-SK|
+|1053|sv-SE|
+|1054|th-TH|
+|1055|tr-TR|
+|1057|id-ID|
+|1058|uk-UA|
+|1060|sl-SI|
+|1061|et-EE|
+|1062|lv-LV|
+|1063|lt-LT|
+|1066|vi-VN|
+|1069|eu-ES|
+|1081|hi-IN|
+|1086|ms-MY|
+|1087|kk-KZ|
+|1110|gl-ES|
+|2052|zh-CN|
+|2070|pt-PT|
+|2074|sr-Latn-CS|
+|3076|zh-HK|
+|3082|es-ES|
+|3098|sr-Cyrl-CS|
 
 
 
@@ -180,7 +224,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Slash commad string for conversation action button|
 |DisplayName|Slash Commands|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -196,7 +240,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Tooltip for Conversation Action|
 |DisplayName|Tooltip|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -726,5 +770,4 @@ See msdyn_conversationaction Entity [msdyn_msdyn_conversationaction_msdyn_conver
 ### See also
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
-[Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)<br />
-<xref href="Microsoft.Dynamics.CRM.msdyn_conversationactionlocale?text=msdyn_conversationactionlocale EntityType" />
+[Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

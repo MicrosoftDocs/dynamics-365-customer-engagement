@@ -1,12 +1,12 @@
 ---
-title: "Preview  Sentiment monitoring | MicrosoftDocs"
+title: "Sentiment monitoring | MicrosoftDocs"
 description: "Enable sentiment monitoring to understand customer sentiment across channels"
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
 applies_to: 
   - ""
-ms.date: 12/13/2019
+ms.date: 04/06/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -14,9 +14,7 @@ ms.custom:
   - ""
 ---
 
-# Preview: Sentiment monitoring
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+# Sentiment monitoring
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -94,6 +92,26 @@ Omnichannel for Customer Service sentiment intensity indicators are an automatic
 
     > [!div class=mx-imgBorder]
     > ![Sentiment conversation display](../media/oc-sentiment-conversation-dashboard.png "Sentiment conversation display")
+
+## Low sentiment notification alert
+
+While an agent is communicating with the customer, and if the customer's sentiment decreases to or below a threshold level, you will get a notification. The notification displays the following details:
+
+- Agent name
+- Customer
+- Sentiment
+- Monitor button
+- Ignore button
+
+
+    > [!div class=mx-imgBorder]
+    > ![Sentiment notification](../media/sentiment-notification.png "Sentiment notification")
+
+You can select the **Monitor** button to see the customer summary and the communication panel. If the agent requires help, you can join the conversation.
+
+For example:
+
+Administrator has set the threshold value as **Very negative**. When the customer's sentiment reaches **Very negative** or any other sentiment value below the threshold value, the notification is displayed to you.
 
 ## Multi-language sentiment limitations
 

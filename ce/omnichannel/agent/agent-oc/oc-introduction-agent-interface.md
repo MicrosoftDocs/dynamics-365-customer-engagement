@@ -16,7 +16,7 @@ ms.topic: article
 
 The Omnichannel for Customer Service app for Dynamics enables organizations to instantly connect and engage with their customers via channels like Chat for Dynamics 365 Customer Service and SMS. The app provides context rich multi-tasking experience across different customer sessions.
 
-## Value propositions of Omnichannel for Customer Service app:
+## Value propositions of Omnichannel for Customer Service app
 
 - **Unified experience:** The app provides unified and consistent single-view experience for the agents to view conversation details, Customer information, and access Line-of-Business applications from within the Omnichannel for Customer Service app.
 
@@ -130,11 +130,9 @@ The horizontal bar below the navigation bar is called the application tab panel.
 
    c. **Presence.** Set presence as per your availability. Select the icon to launch the presence dialog and use the drop-down list to select a status. To learn more, see [Manage presence status](oc-manage-presence-status.md).
 
-> [!div class="nextstepaction"]
-> [Next topic: Manage sessions](oc-manage-sessions.md)
-
 ## See also
 
+- [Manage sessions](oc-manage-sessions.md)
 - [Manage applications](oc-manage-applications.md)
 - [Understand conversation states](oc-conversation-state.md)
 - [Sign in to Omnichannel for Customer Service](oc-sign-in-omnichannel.md)

@@ -28,6 +28,11 @@ With Dynamics 365 Channel Integration Framework version 2.0, organizations can c
 > [!NOTE]
 > As a best practice, it is recommended that sessions are started after taking agent consent using a toast notification.
 
+> [!IMPORTANT]
+> For information on how to integrate custom (in-house) messaging channel providers, see [Bring your own channel](../../../omnichannel/developer/how-to/bring-your-own-channel.md).
+
 ### See also
 
-[What's new in Dynamics 365 Channel Integration Framework](../whats-new-channel-integration-framework.md)
+[What's new in Dynamics 365 Channel Integration Framework](../whats-new-channel-integration-framework.md)<br />
+[Configure channel providers](../configure-channel-provider-channel-integration-framework.md)<br />
+[Bring your own channel](../../../omnichannel/developer/how-to/bring-your-own-channel.md)
