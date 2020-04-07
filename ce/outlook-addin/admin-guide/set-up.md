@@ -34,5 +34,3 @@ This section covers installing and deploying Dynamics 365 for Outlook.
 
 > [!IMPORTANT]
 > You must have the latest version of Dynamics 365 for Outlook (version 8.2.3) to connect to Dynamics 365 apps version 9.0. Version 8.2.3 provides support for [Transport Layer Security (TLS) 1.2](https://blogs.msdn.microsoft.com/crm/2017/09/28/updates-coming-to-dynamics-365-customer-engagement-connection-security/) required for connecting Dynamics 365 for Outlook and Dynamics 365 apps version 9.0. For more information, see [Update for Dynamics 365 for Outlook](https://support.microsoft.com/help/3205084/december-2016-update-for-dynamics-365-online-and-on-premises).
->
-> As of 1/29/2018, based on overwhelming customer feedback and our desire to continue supporting our customers, we have decided not to deprecate Dynamics 365 for Outlook (Outlook add-in). Please read [this blog post](https://blogs.msdn.microsoft.com/crm/2018/01/29/continued-support-for-outlook-add-in-dynamics-365-for-outlook/) for more details.
