@@ -30,36 +30,36 @@ The following reports are available for Customer Service Analytics:
 - **Case Summary**
 
    > [!div class=mx-imgBorder]
-   > ![Customer Service Analytics Case Summary report](media/cs-case-summary-csh.png "Customer Service Analytics Analytics Case Summary report")
+   > ![Customer Service Analytics Case Summary report](media/cs-case-summary-csh.png "Customer Service Analytics Case Summary report")
 
 - **Agent Summary**
 
    > [!div class=mx-imgBorder]
-   > ![Customer Service Analytics Agent Summary report](media/cs-agent-summary-csh.png "Customer Service Analytics Analytics Agent Summary report")
+   > ![Customer Service Analytics Agent Summary report](media/cs-agent-summary-csh.png "Customer Service Analytics Agent Summary report")
 
 The following KPIs are available.
 
 | KPI                       | Description         |
 |---------------------------|-------------------------|
-|Total cases                |Number of cases created to support customers.      |
-|Active cases               |Number of cases that are currently open.          |
-|Resolved cases             |Number of cases that have been closed by an agent.   |
-|Escalated cases %          |Percentages of cases that have been escalated.    |
-|Average handle time (hrs) |Average length of time taken by an agent to resolve the case. |
-|Avg. CSAT                  |Average customer satisfaction score based on the survey submitted by the customer. |
-|Case age                    |Average time the case was in an open state.                 |
-|Total activities            |Total activities that are created by agents                |
+|Total cases                |The number of cases created to support customers.      |
+|Active cases               |The number of cases that are currently open.          |
+|Resolved cases             |The number of cases that have been closed by an agent.   |
+|Escalated cases %          |The percentage of cases that have been escalated.    |
+|Average handle time (hrs) |The average length of time taken by an agent to resolve the case. |
+|Avg. CSAT                  | The average customer satisfaction score, based on the survey submitted by the customer. |
+|Case age                    |The average time the case was in an open state.                 |
+|Total activities            |The total number of activities that were created by agents.              |
 
 You can use the following filters in the reports.
 
 |Filters / Dimensions  |Description        |
 |----------------------|-------------------|
 |Duration              |Filters the reporting date range.|
-|Queue                 |Provides an ability for the user to filter the queue into which they would like to drill deeper and see all metrics related to that queue. |
-|Agent                 |Provides an ability for the user to filter all their reporting agents to understand how each is performing and plan to coach/train agents.  |
-|Priority              |Filters the reporting to the selected priority of the case. (High, Normal, Low) |
+|Queue                 |Lets you filter the queue you'd like to drill down to and see all metrics related to that queue. |
+|Agent                 |Lets you filter the report to show all the agents who report to you, to understand how each is performing and help you develop coaching and training plans.  |
+|Priority              |Filters the reporting to the selected priority of the case (high, normal, or low). |
 |Subject               |Filters the reporting to the selected subject of the case.  |
-|Channel               |Filters the reporting to the selected Omnichannel channels. (Example: Chat, SMS, Facebook)  |
+|Channel               |Filters the reporting to the selected Omnichannel for Customer Service channels, such as chat, SMS, or Facebook.  |
 
 When you select a filter condition, the data is automatically filtered and rendered in the report.
 
@@ -67,8 +67,7 @@ When you select a filter condition, the data is automatically filtered and rende
    > ![Customer Service Analytics view and filter report](media/cs-analytics-view-filer-report.png "Customer Service Analytics view and filter report")
 
 > [!NOTE]
->
-> For the **Date** filter, the **Next** option will not display results in the report.
+> For the **Date** filter, the **Next** option won't display results in the report.
 
 For detailed information about the reports, see [Case Summary report](customer-service-analytics.md#1-summary) and [Agent Summary report](customer-service-analytics.md#2-agent-and-queue).
 
@@ -78,53 +77,52 @@ For detailed information about the reports, see [Case Summary report](customer-s
 
 The following information is applicable to reports refresh:
 
-- **Data refresh:** Occurs every 24 hours. The reports are available during the refresh process. You might see a warning icon beside the **Last refresh (UTC)** label on the top right of each report when there is a delay or issue in the data refresh. When you hover the mouse over the icon, the tool tip message indicates whether the data set is up to date.
+- **Data refresh:** Occurs every 24 hours. The reports are available during the refresh process. You might see a warning icon beside the **Last refresh (UTC)** label in the upper-right corner of each report when there's a delay or issue in the data refresh. When you hover over the icon, the tooltip message indicates whether the dataset is up to date.
   > [!div class=mx-imgBorder]
-  > ![Customer Service Analytics refresh status](media/cs-analytics-refresh-status.png)
+  > ![Customer Service Analytics refresh status](media/cs-analytics-refresh-status.png "Customer Service Analytics refresh status")
 
-- **Custom refresh:** Is not available.
-- **Data refresh for inactive environments:** Data refresh is paused if the reports are not used continuously for two weeks. When a user accesses a report after a lengthy period of inactivity, the report will be refreshed in the subsequent refresh cycle.
+- **Custom refresh:** Isn't available.
+- **Data refresh for inactive environments:** Data refresh is paused if the reports aren't used continuously for two weeks. When you access a report after a lengthy period of inactivity, the report will be refreshed in the subsequent refresh cycle.
 - **Data retention:** Data is retained for a period of 24 months.
 
 ### Report customizations
 
-Currently report customizations are not supported.
+Currently, report customizations aren't supported.
 
 ### Supported entities
 
 The following entities are supported:
 
-- Activitypointer
-- Appmodule
+- ActivityPointer
+- AppModule
 - Incident
-- Incidentresolution
+- IncidentResolution
 - Organization
 - Queue
-- Queueitem
+- QueueItem
 - Subject
-- Systemuser
+- SystemUser
 
 > [!NOTE]
->
-> - A report might be blank if you have customized any of the listed entities or do not use the out-of-the-box entities.
+> A report might be blank if you've customized any of the listed entities or didn't use out-of-the-box entities.
 
 ## Regions supported in Customer Service Analytics reports
 
-The Customer Service Analytics reports are supported in the following regions.
+The Customer Service Analytics reports are supported in the following regions:
 
 - North America
 - South America
 - Canada
 - Europe, except France
-- Asia Pacific, Japan
+- Asia Pacific
 - Australia
 - Japan
 - India
-- Great Britian
+- Great Britain
 
 ## Understand Customer Service Insights reports
 
-Dynamics 365 Customer Service Insights gives you actionable insights into critical performance metrics, operational data, and emerging trends from your customer service system. Built-in dashboards, interactive charts, and visual filters provide views into support operations data across channels, and highlight areas for improvement that can have the greatest impact, helping you quickly evaluate and respond to key performance indicators (KPIs) and customer satisfaction levels. For more information about insights, see [Customer Service Insights](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/overview).
+Dynamics 365 Customer Service Insights gives you actionable insights into critical performance metrics, operational data, and emerging trends from your customer service system. Built-in dashboards, interactive charts, and visual filters provide views into support operations data across channels, and highlight areas for improvement that can have the greatest impact, helping you quickly evaluate and respond to KPIs and customer satisfaction levels. More information: [Customer Service Insights](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/overview)
 
 ## Preview: Use the Customer Service Insights reports in Customer Service Hub
 
@@ -132,11 +130,10 @@ Dynamics 365 Customer Service Insights gives you actionable insights into critic
 
 ### Create and view reports
 
-IF you have access to Customer Service , and if the Customer Service Insights reports have not been created for you or shared with you, you can create the reports in Customer Service Hub. Navigate to **Service** > **Insights (Preview)**, and click **Complete** on the **Analytics and insights settings** page.
+If you have access to Dynamics 365 Customer Service, and if Customer Service Insights reports haven't been created for you or shared with you, you can create the reports in Customer Service Hub. Navigate to **Service** > **Insights (Preview)**, and then select **Complete** on the **Analytics and insights settings** page.
 
 > [!NOTE]
->
-> You must be assigned to a security role that has the permission to view the site map for Customer Service Insights reports. Also, you must have a valid Customer Service Insights license to create, view, and share the reports.   You can select **Share** at the top of the report to share the reports.
+> You must be assigned to a security role that has permission to view the site map for Customer Service Insights reports. Also, you must have a valid Customer Service Insights license to create, view, and share the reports. You can select **Share** at the top of the report to share it.
 
 The report consist of five pivots as follows:
 
@@ -154,13 +151,11 @@ To troubleshoot issues when you try to access or view the reports, do the follow
 |-------------------------|------------------------|
 | Oops! No reports were found in CRM. You may not have access to these reports. Please contact your system administrator.       |   Contact your administrator to get access.     |  
 | Oops! Internal service error, please contact your system administrator with Error Code: {numeric value}.   |   Contact Microsoft Support and create a support ticket.     | 
-|   Oops! There was a problem rendering the report.   |   Refresh the report and if it doesn’t work, contact Microsoft Support and create a support ticket.     |  
-| Oops! There was a problem rendering the report, please try again.   |   Refresh the report and if it doesn’t work, contact Microsoft Support and create a support ticket    |
+|   Oops! There was a problem rendering the report.   |   Refresh the report. If this doesn't work, contact Microsoft Support and create a support ticket.     |  
+| Oops! There was a problem rendering the report, please try again.   |   Refresh the report. If this doesn't work, contact Microsoft Support and create a support ticket    |
 
-### See Also
+### See also
 
-[Introduction to Customer Service Analytics and Insights](introduction-customer-service-analytics.md)
-
-[Configure Customer Service Analytics and Insights in Customer Service Hub](configure-customer-service-analytics-insights-csh.md)
-
+[Introduction to Customer Service Analytics and Insights](introduction-customer-service-analytics.md)  
+[Configure Customer Service Analytics and Insights in Customer Service Hub](configure-customer-service-analytics-insights-csh.md)  
 [Configure Customer Service Analytics in Power BI](configure-customer-service-analytics-dashboard.md)
