@@ -32,6 +32,7 @@ Manually overwriting the event management website overwrites the possible custom
 
 | Release Version |Download link|
 |--|--|
+| 1.12.10022 (April 2020 Release)| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/PortalData-April03-1.12.10022.1015.zip) |
 | 1.12.10021 (March 2020 Release)| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/PortalData-Mar21-1.12.10021.1015.zip) |
 | 1.12.10020 (February 2020 Release)| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/PortalData-Feb20-1.12.10020.1003.zip) |
 | 1.12.10019 (December 2019 Release)| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/PortalData-Dec19-1.12.10019.1012.zip) |

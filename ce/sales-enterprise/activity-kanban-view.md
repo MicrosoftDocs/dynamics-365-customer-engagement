@@ -1,7 +1,7 @@
 ---
 title: "Work with activities in the Kanban view (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use the opportunity Kanban view to visualize all your activities with a card-based view and manage these activities quickly by moving them across the swim lanes."
-ms.date: 02/03/2020
+ms.date: 04/03/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -11,10 +11,6 @@ manager: annbe
 ---
 
 # Work with activities in the Kanban view
-
-[!INCLUDE [cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]  
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 The Kanban view for activities helps salespeople to manage multiple activities quickly. Looking at the Kanban view, salespeople can quickly see the activities and the status they're in. In the Activity Kanban view, activities are represented visually with cards. The lanes represent the default statuses of activities. You can drag the activities to different lanes to move them from one status to another.
 
