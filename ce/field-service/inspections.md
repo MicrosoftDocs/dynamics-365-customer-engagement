@@ -55,7 +55,7 @@ In this article, we'll walk through an example of setting up an inspection using
 - Knowledge of work order [incident types and service tasks](configure-incident-types.md) is encouraged.
 
 
-## Create inspection template
+## Create inspection
 
 First, create an inspection that can be reused and added to multiple work orders.
 
@@ -98,7 +98,7 @@ When finished creating the inspection, select **Publish** at the top.
 
 ## Associate inspection to service task type
 
-Next, associate the inspection template to a **Service Task Type**. This association is necessary because inspections are not added directly to work orders; they're added as part of **Work Order Service Tasks**.
+Next, associate the inspection to a **Service Task Type**. This association is necessary because inspections are not added directly to work orders; they're added as part of **Work Order Service Tasks**.
 
 In the same **Settings** section, go to **Service Task Types**.
 
@@ -106,7 +106,7 @@ Select an existing service task type or create a new one.
 
 Set **Has Inspection** to **Yes**.
 
-In the **Inspection** field, select the inspection template you created.
+In the **Inspection** field, select the inspection you created.
 
 The inspection form will appear below.
 
@@ -140,10 +140,7 @@ An inspection completed by a technician will be visible on the bottom of the wor
 
 ## Perform inspection 
 
-After the work order is scheduled to the appropriate technician, they can see and complete the inspection two ways:
-
-1. On their mobile phone or tablet using the **Microsoft Dynamics 365** mobile app. This is different than Field Service Mobile.
-2. Logging in to Field Service in a web browser on a mobile device or PC.
+After the work order is scheduled to the appropriate technician, they can see and complete the inspection by logging in to Field Service in a web browser on a mobile device or PC.
 
 
 For the first option, go to your device's app store and download the **Microsoft Dynamics 365** mobile app.
