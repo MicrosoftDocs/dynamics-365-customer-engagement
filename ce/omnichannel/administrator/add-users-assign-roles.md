@@ -1,8 +1,8 @@
 ---
 title: Enable users for Omnichannel and assign roles | MicrosoftDocs
 description: Know how to enable users for Omnichannel and assign roles in the Omnichannel for Customer Service
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 applies_to: 
 ms.date: 11/22/2019
@@ -19,9 +19,6 @@ All users who are assigned the **Omnichannel administrator**, **Omnichannel supe
 > [!NOTE]
 > To configure Omnichannel, you must assign the **Omnichannel administrator** role mandatorily along with system administrator role.
 
-> [!IMPORTANT]
-> To enable users for Omnichannel, your org should have successfully on-boarded to the Omnichannel public preview. Refer [Provision Omnichannel for Customer Service](omnichannel-provision-license.md) to provision Omnichannel in your Common Data Service org.
-
 Use the Microsoft 365 admin center to create user accounts for every user who needs access to Omnichannel for Customer Service. For more information, see  [Create users in the Common Data Service platform and assign security roles](../../admin/create-users-assign-online-security-roles.md).
 
 Follow these steps to assign roles to users in the **Advanced Settings**:
@@ -37,7 +34,7 @@ Follow these steps to assign roles to users in the **Advanced Settings**:
    Only the security roles available for that user's business unit are displayed.
 
 5. In the **Manage User Roles** dialog box, select a security role or roles that you want to provide to the user, and then select **OK**.
-    
+
     - Customer service app access
     - Omnichannel administrator
     - Omnichannel agent
@@ -50,7 +47,7 @@ Follow these steps to assign roles to users in the **Advanced Settings**:
 
 To view and manage omnichannel users, see [Manage users in Omnichannel for Customer Service](users-user-profiles.md).
 
-## Understand roles and their privileges 
+## Understand roles and their privileges
 
 Each role in Omnichannel for Customer Service can perform a set of actions based on the privileges. 
 
@@ -108,14 +105,9 @@ Each role in Omnichannel for Customer Service can perform a set of actions based
 || Can create / read / write / append / delete macro action |
 ||
 
-
-
 ### See also
 
-[Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
-
-[Manage users in Omnichannel for Customer Service](users-user-profiles.md)
-
-[Guide agents with scripts](agent-scripts.md)
-
+[Provision Omnichannel for Customer Service](omnichannel-provision-license.md)  
+[Manage users in Omnichannel for Customer Service](users-user-profiles.md)  
+[Guide agents with scripts](agent-scripts.md)  
 [Automate tasks with macros](macros.md)
