@@ -31,6 +31,7 @@ manager: annbe
 <li><a href="../admin/system-settings-dialog-box-sales-tab.md" data-raw-source="[Define sales settings](../admin/system-settings-dialog-box-sales-tab.md)">Define sales settings</a></li>
 <li><a href="../admin/system-settings-dialog-box-goals-tab.md" data-raw-source="[Define Goals settings](../admin/system-settings-dialog-box-goals-tab.md)">Define Goals settings</a></li>
 <li><a href="create-edit-goal-sales.md" data-raw-source="[Create or edit goals](create-edit-goal-sales.md)">Create or edit goals</a></li>
+<li><a href="configure-forecast.md" data-raw-source="[Configure forecasts in your organization](configure-forecast.md)">Configure forecasts in your organization</a></li>
 <li><a href="../admin/set-up-sales-territories-organize-business-markets-geographical-area.md" data-raw-source="[Set up sales territories to organize business markets by geographical area](../admin/set-up-sales-territories-organize-business-markets-geographical-area.md)">Set up sales territories to organize business markets</a></li>
 <li><a href="../sales-enterprise/admin-guide.md" data-raw-source="[More help resources for admins...](../sales-enterprise/admin-guide.md)">More help resources for admins...</a></li>
 </td></tr>
@@ -69,7 +70,7 @@ manager: annbe
 
 <h2>Develop</h2>
 <li><a href="../sales-enterprise/developer/enable-sales-order-processing-integration.md" data-raw-source="[Enable sales order processing integration](../sales-enterprise/developer/enable-sales-order-processing-integration.md)">Enable sales order processing integration</a></li>
-<li><a href="../sales-enterprise/developer/reference/manual-forecasting-entity-reference.md" data-raw-source="[Entity reference for manual forecasting](../sales-enterprise/developer/reference/manual-forecasting-entity-reference.md)">Entity reference for manual forecasting</a></li>
+<li><a href="../sales-enterprise/developer/reference/entities/export-forecast-data.md" data-raw-source="[msdyn_ForecastInstanceActions](../sales-enterprise/developer/reference/entities/export-forecast-data.md)">msdyn_ForecastInstanceActions</a></li>
 <li><a href="../sales-enterprise/developer/reference/playbook-entity-reference.md" data-raw-source="[Entity reference for playbooks](../sales-enterprise/developer/reference/playbook-entity-reference.md)">Entity reference for playbooks</a></li>
 <li><a href="../sales-enterprise/developer/custom-plugin-handling-shared-variable.md" data-raw-source="[Custom plug-in handling using shared variable](../sales-enterprise/developer/custom-plugin-handling-shared-variable.md)">Custom plug-in handling using shared variable</a></li>
 </td>
