@@ -1,13 +1,12 @@
 ---
 title: "msdyn_surveyquestion Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_surveyquestion entity."
+ms.date: 03/23/2020
+ms.service: "crm-online"
+ms.topic: "reference"
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
-ms.date: 08/29/2019
-ms.service: 
-  - crm-online
-ms.topic: "reference"
 ---
 # msdyn_surveyquestion Entity Reference
 
@@ -112,6 +111,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |192350001|Multiple lines|
 |192350002|Option set|
 |192350003|Rating|
+|192350004|User Consent|
 
 
 
@@ -172,7 +172,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_questiontext|
-|MaxLength|100|
+|MaxLength|512|
 |RequiredLevel|ApplicationRequired|
 |Type|String|
 

@@ -1,7 +1,7 @@
 ---
 title: "Add products to an opportunity (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Develop your opportunity by defining the products your customers are interested in purchasing."
-ms.date: 02/03/2020
+ms.date: 04/03/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -66,7 +66,7 @@ You can take the following actions on the products added to the **Product Line I
 |Group specific records together by moving a record up or down in the grid. | Select the record, and on the command bar, use the **Up** or **Down** button. |
 
 > [!IMPORTANT]
-> If your system administrator has enabled the enhanced "add product" experience for adding products to an opportunity, you'll see a different experience. To learn more, see [Add products to an opportunity by using the enhanced experience](add-products-enhanced-experience.md). The enhanced experience for adding products is an early access feature. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. For information about how to enable these features, see [Opt in to 2020 release wave 1 updates](https://aka.ms/EarlyAccessOpt-in).
+> If your system administrator has enabled the enhanced "add product" experience for adding products to an opportunity, you'll see a different experience. To learn more, see [Add products to an opportunity by using the enhanced experience](add-products-enhanced-experience.md).
 
 ### See also  
 

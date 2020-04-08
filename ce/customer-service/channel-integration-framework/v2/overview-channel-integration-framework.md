@@ -4,7 +4,7 @@ description: "Learn what Dynamics 365 Channel Integration Framework version 2.0 
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 12/31/2019
+ms.date: 04/03/2020
 ms.topic: get-started-article
 ms.service: 
   - dynamics-365-customerservice
@@ -25,10 +25,10 @@ With the Dynamics 365 Channel Integration Framework app, you can configure the c
 
 Organizations expect their call centers to do more while using fewer resources. There's a constant drive to increase productivity by having call center agents handle more phone calls. Reducing the average time to handle customer calls can save companies millions of dollars. A telephony channel in a call center<!--note from editor: I don't quite know what this is saying. What is a "key indicator for success" here? A reliable telephony channel, or the ability to have several of them, or just having one at all? It seems to me you couldn't even have a call center without a telephony channel, but I must be missing something.--> is one of the key indicators for success and customer satisfaction. Some of the challenges the call center industry faces with telephony channels include:
 
--  Integrating a third-party telephony channel into their customer relationship management (CRM) platform.
+-  Integrating third-party telephony, social and custom messaging channels into their customer relationship management (CRM) platform.
 -  Accessing and performing operations on the CRM platform from the telephony widget area.
 -  Developing and deploying the telephony channel, which requires writing adapters and complex custom code for solution integration.
--  Using APIs and out-of-the-box customizations<!--note from editor: I'm not sure what an out-of-the-box customization might be? It seems like a contradiction in terms.--> that aren't supported for the production environment.
+-  Using APIs and out-of-the-box customizations that aren't supported for the production environment.
 -  The dependency of the telephony channel on the operating system and web browsers.
 -  Customizing the telephony channel based on business needs and process workflows.
 
@@ -55,15 +55,18 @@ Key new features in Dynamics 365 Channel Integration Framework version 2.0 inclu
 
 - **Support for multiple providers**
 
-  With Dynamics 365 Channel Integration Framework version 2.0, organizations can configure multiple telephony channel providers. This enables agents to simultaneously work on multiple sessions catering to different customers on different channels, where each of these sessions belongs to different telephony channel providers.
+  With Dynamics 365 Channel Integration Framework version 2.0, organizations can configure multiple telephony, social and custom (in-house) messaging channels. This enables agents to simultaneously work on multiple sessions catering to different customers on different channels, where each of these sessions belongs to different telephony or social messaging channel providers. The agent can perform all the interactions on these channels from a familiar conversation control.
 
-  More information: [Support for multiple providers](support-multiple-providers.md)
+  More information: [Support for multiple providers](support-multiple-providers.md).
+
+  > [!IMPORTANT]
+  > For information on how to integrate social and custom messaging channels, see [Bring your own channel](../../../omnichannel/developer/how-to/bring-your-own-channel.md).
 
 Additional capabilities offered by Dynamics 365 Channel Integration Framework include:
 
-- **Bring-your-own telephony channel providers (integrate third-party telephony channel providers)**
+- **Bring-your-own telephony and, social and custom messaging channel providers**
 
-  Dynamics 365 Channel Integration Framework provides an extensible framework to integrate third-party cloud-based telephony channel providers with model-driven apps in Dynamics 365.
+  Dynamics 365 Channel Integration Framework provides an extensible framework to integrate third-party cloud-based telephony, social and custom messaging channels, including the ones that have been developed internally or are hyperlocal, with model-driven apps in Dynamics 365.
 
 - **Two-way communication**
 
@@ -81,13 +84,13 @@ Additional capabilities offered by Dynamics 365 Channel Integration Framework in
 
   You can seamlessly integrate several providers by using the Dynamics 365 Channel Integration Framework administration configuration app.
 
-- **Model-driven app&ndash;agnostic**
+- **Model-driven app agnostic**
 
-  Dynamics 365 Channel Integration Framework is model-driven app&ndash;agnostic. You can build the telephony channel once and enable it on the model-driven app of your choice, based on your business requirements.
+  Dynamics 365 Channel Integration Framework is model-driven app agnostic. You can build the telephony channel once and enable it on the model-driven app of your choice, based on your business requirements.
 
 - **Independent of operating systems and web browsers**
 
-  Dynamics 365 Channel Integration Framework is web browser&ndash;agnostic and operating system&ndash;agnostic, and lets you integrate the cloud-based channels that are best for your organization's requirements.
+  Dynamics 365 Channel Integration Framework is web browser agnostic and operating system agnostic, and lets you integrate the cloud-based channels that are best for your organization's requirements.
 
   See the list of supported web browsers here: [Supported browsers](../system-requirements-channel-integration-framework.md#supported-browsers)
 
@@ -97,7 +100,8 @@ Additional capabilities offered by Dynamics 365 Channel Integration Framework in
 
 - **Customizable agent experience**
 
-  You can customize the channel programmatically or manually to provide an enhanced agent experience with capabilities like maximize, minimize, show, hide, height, width, and pop-out windows.
+  - You can customize the channel programmatically or manually to provide an enhanced agent experience with capabilities like maximize, minimize, show, hide, height, width, and pop-out windows.
+  - Agents can configure to use productivity tools with multiple sessions. They can create new scripts or reuse the existing ones.
 
 - **Upgrading to new versions**
 
@@ -112,3 +116,7 @@ Additional capabilities offered by Dynamics 365 Channel Integration Framework in
 [FAQ](../faq-channel-integration-framework.md)
 
 [Get Dynamics 365 Channel Integration Framework](get-channel-integration-framework.md)
+
+[Support multiple providers](support-multiple-providers.md)
+
+[Bring your own channel](../../../omnichannel/developer/how-to/bring-your-own-channel.md)

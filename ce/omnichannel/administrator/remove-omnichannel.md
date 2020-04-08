@@ -32,9 +32,9 @@ To remove the Omnichannel for Customer Service from the organization,
     > [!div class=mx-imgBorder]
     > ![Select Manage for Omnichannel for Customer Service](../media/manage-omnichannel-application.png "Select Manage for Omnichannel for Customer Service")
 
-    The **Manage Omnichannel instances** page is displayed.
+    The **Manage** page is displayed.
 
-2.	On the **Manage Omnichannel instances** page, choose the instance, and select **Remove Omnichannel**. 
+2.	On the **Manage** page, choose the instance, and select **Delete**. 
 
     ![Remove button on the Manage Omnichannel instances page](../media/choose-remove-manage-instances.png "Remove button on the Manage Omnichannel instances page")
  
@@ -46,7 +46,7 @@ To remove the Omnichannel for Customer Service from the organization,
 > [!IMPORTANT]
 > Removing Omnichannel for Customer Service will disable all channels in the selected organization. 
 
-After Omnichannel is removed, you can enable it again from the **Manage Instances** view.
+After Omnichannel is removed, you can enable it again from the **Manage environments** view.
 
 ### See also
 [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)  

@@ -4,7 +4,7 @@ description: "Learn about Ongoing Conversations dashboard for supervisor"
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/22/2019
+ms.date: 04/06/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -20,7 +20,7 @@ Further, you can filter the conversations using the **Filter by queues** or **Fi
 
 > [!NOTE]
 > - The **Ongoing Conversations dashboard** is view only and you cannot perform any actions such as open, edit, or delete on this dashboard.
-> - The status icon in the **Active Agent** column of the dashboard does not pertain to an agent's online presence in Omnichannel. You may see it when Microsoft Teams or Skype for Business is integrated with Microsoft Dynamics 365.
+> - The status icon in the **Active Agent** column of the dashboard does not pertain to an agent's online presence in Omnichannel. The status is displayed based on your Microsoft Teams or Skype for Business integration settings with Microsoft Dynamics 365.
 
 ## View Omnichannel Ongoing Conversations dashboard
 

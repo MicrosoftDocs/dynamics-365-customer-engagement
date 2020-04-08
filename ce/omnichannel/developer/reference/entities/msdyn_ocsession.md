@@ -1,13 +1,12 @@
 ---
 title: "msdyn_ocsession Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_ocsession entity."
+ms.date: 03/23/2020
+ms.service: "crm-online"
+ms.topic: "reference"
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
-ms.date: 08/29/2019
-ms.service: 
-  - crm-online
-ms.topic: "reference"
 ---
 # msdyn_ocsession Entity Reference
 
@@ -82,8 +81,10 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [msdyn_agentassignedon](#BKMK_msdyn_agentassignedon)
 - [msdyn_botengagementmode](#BKMK_msdyn_botengagementmode)
 - [msdyn_cdsqueueid](#BKMK_msdyn_cdsqueueid)
+- [msdyn_channel](#BKMK_msdyn_channel)
 - [msdyn_closurereason](#BKMK_msdyn_closurereason)
 - [msdyn_liveworkitemid](#BKMK_msdyn_liveworkitemid)
+- [msdyn_primarysession](#BKMK_msdyn_primarysession)
 - [msdyn_queueassignedon](#BKMK_msdyn_queueassignedon)
 - [msdyn_queueid](#BKMK_msdyn_queueid)
 - [msdyn_sessionclosedon](#BKMK_msdyn_sessionclosedon)
@@ -251,6 +252,19 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |0|Other|
 |1|Facebook|
 |2|Twitter|
+|3|Line|
+|4|Wechat|
+|5|Cortana|
+|6|Direct Line|
+|7|Microsoft Teams|
+|8|Direct Line Speech|
+|9|Email|
+|10|GroupMe|
+|11|Kik|
+|12|Telegram|
+|13|Skype|
+|14|Slack|
+|15|WhatsApp|
 
 
 
@@ -488,7 +502,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description||
+|Description|Date and time when session was accepted by agent|
 |DisplayName|Agent Accepted On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -503,7 +517,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description||
+|Description|Date and time when session was assigned to agent|
 |DisplayName|Agent Assigned On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -517,7 +531,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Indicates when a bot was engaged|
 |DisplayName|Bot Engagement Mode|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -550,11 +564,46 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Lookup|
 
 
+### <a name="BKMK_msdyn_channel"></a> msdyn_channel
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|The channel type of the session|
+|DisplayName|Channel|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_channel|
+|RequiredLevel|None|
+|Type|Picklist|
+
+#### msdyn_channel Options
+
+|Value|Label|
+|-----|-----|
+|19241000|Microsoft Teams|
+|192300000|WhatsApp|
+|192310000|LINE|
+|192320000|WeChat|
+|192330000|Facebook|
+|192340000|SMS|
+|192350000|Entity Records|
+|192350001|Twitter|
+|192350002|Custom|
+|192360000|Live chat|
+|192370000|Voice|
+|192380000|Video|
+|192390000|Co-browse|
+|192400000|Screen sharing|
+
+
+
 ### <a name="BKMK_msdyn_closurereason"></a> msdyn_closurereason
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Reason for session closure|
 |DisplayName|Closure Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -584,7 +633,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Unique Identifier  of Conversation associated to the session|
 |DisplayName|Conversation|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -594,12 +643,28 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Lookup|
 
 
+### <a name="BKMK_msdyn_primarysession"></a> msdyn_primarysession
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Reference to primary session.|
+|DisplayName|Primary Session|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_primarysession|
+|RequiredLevel|None|
+|Targets|msdyn_ocsession|
+|Type|Lookup|
+
+
 ### <a name="BKMK_msdyn_queueassignedon"></a> msdyn_queueassignedon
 
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description||
+|Description|Date and time when queue was assigned to session|
 |DisplayName|Queue Assigned On|
 |Format|DateOnly|
 |IsValidForForm|True|
@@ -613,7 +678,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Queue associated to the session|
 |DisplayName|Queue Id|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -628,7 +693,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description||
+|Description|Date and time when session was closed|
 |DisplayName|Session Closed On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -643,7 +708,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description||
+|Description|Date and time when session was created|
 |DisplayName|Session Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -657,7 +722,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Unique Identifier of Session|
 |DisplayName|Session Id|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -674,7 +739,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description||
+|Description|Date and time when session was last modified|
 |DisplayName|Session Modified On|
 |Format|DateOnly|
 |IsValidForForm|True|
@@ -688,7 +753,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|(Deprecated)|
 |DisplayName|State|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -851,7 +916,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|regardingobjectid|
 |RequiredLevel|None|
-|Targets|account,bookableresourcebooking,bookableresourcebookingheader,bulkoperation,campaign,campaignactivity,contact,contract,entitlement,entitlementtemplate,incident,interactionforemail,invoice,knowledgearticle,knowledgebaserecord,lead,msdyn_playbookinstance,msdyn_postalbum,opportunity,quote,salesorder,site|
+|Targets|account,bookableresourcebooking,bookableresourcebookingheader,bulkoperation,campaign,campaignactivity,contact,contract,entitlement,entitlementtemplate,incident,interactionforemail,invoice,knowledgearticle,knowledgebaserecord,lead,msdyn_bookingalertstatus,msdyn_bookingrule,msdyn_playbookinstance,msdyn_postalbum,msdyn_resourceterritory,msdyn_systemuserschedulersetting,msdyn_timegroup,msdyn_timegroupdetail,new_ocqa,opportunity,quote,salesorder,site,uii_action,uii_hostedapplication,uii_nonhostedapplication,uii_option,uii_savedsession,uii_workflow,uii_workflowstep,uii_workflow_workflowstep_mapping|
 |Type|Lookup|
 
 
@@ -1217,6 +1282,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
 - [msdyn_cdsqueueidName](#BKMK_msdyn_cdsqueueidName)
 - [msdyn_liveworkitemidName](#BKMK_msdyn_liveworkitemidName)
+- [msdyn_primarysessionName](#BKMK_msdyn_primarysessionName)
 - [msdyn_queueidName](#BKMK_msdyn_queueidName)
 - [OnHoldTime](#BKMK_OnHoldTime)
 - [OwnerIdName](#BKMK_OwnerIdName)
@@ -1600,6 +1666,24 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
+### <a name="BKMK_msdyn_primarysessionName"></a> msdyn_primarysessionName
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_primarysessionname|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
+
+
 ### <a name="BKMK_msdyn_queueidName"></a> msdyn_queueidName
 
 |Property|Value|
@@ -1908,6 +1992,7 @@ Listed by **SchemaName**.
 - [msdyn_msdyn_ocsession_msdyn_ocliveworkitem_lastsessionid](#BKMK_msdyn_msdyn_ocsession_msdyn_ocliveworkitem_lastsessionid)
 - [msdyn_ocsession_sessionevent_nested](#BKMK_msdyn_ocsession_sessionevent_nested)
 - [msdyn_ocsession_sessionparticipant_nested](#BKMK_msdyn_ocsession_sessionparticipant_nested)
+- [msdyn_msdyn_ocsession_msdyn_ocsession_primarysession](#BKMK_msdyn_msdyn_ocsession_msdyn_ocsession_primarysession)
 
 
 ### <a name="BKMK_msdyn_msdyn_ocsession_msdyn_ocliveworkitem_lastsessionid"></a> msdyn_msdyn_ocsession_msdyn_ocliveworkitem_lastsessionid
@@ -1937,7 +2022,7 @@ Same as msdyn_sessionevent entity [msdyn_ocsession_sessionevent_nested](msdyn_se
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|msdyn_ocsession_sessionevent_nested|
 |AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_ocsession_sessionparticipant_nested"></a> msdyn_ocsession_sessionparticipant_nested
@@ -1952,6 +2037,23 @@ Same as msdyn_sessionparticipant entity [msdyn_ocsession_sessionparticipant_nest
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|msdyn_ocsession_sessionparticipant_nested|
 |AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_msdyn_msdyn_ocsession_msdyn_ocsession_primarysession"></a> msdyn_msdyn_ocsession_msdyn_ocsession_primarysession
+
+**Added by**: Omnichannel - Base Patch Solution
+
+Same as msdyn_ocsession entity [msdyn_msdyn_ocsession_msdyn_ocsession_primarysession](msdyn_ocsession.md#BKMK_msdyn_msdyn_ocsession_msdyn_ocsession_primarysession) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_ocsession|
+|ReferencingAttribute|msdyn_primarysession|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_ocsession_msdyn_ocsession_primarysession|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
 |CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 <a name="manytoone"></a>
@@ -1960,12 +2062,21 @@ Same as msdyn_sessionparticipant entity [msdyn_ocsession_sessionparticipant_nest
 
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
 
+- [msdyn_msdyn_ocliveworkitem_msdyn_ocsession_liveworkstreamid](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_ocsession_liveworkstreamid)
+- [msdyn_msdyn_ocsession_msdyn_ocsession_primarysession](#BKMK_msdyn_msdyn_ocsession_msdyn_ocsession_primarysession)
+
 
 ### <a name="BKMK_msdyn_msdyn_ocliveworkitem_msdyn_ocsession_liveworkstreamid"></a> msdyn_msdyn_ocliveworkitem_msdyn_ocsession_liveworkstreamid
 
 **Added by**: Active Solution Solution
 
 See msdyn_ocliveworkitem Entity [msdyn_msdyn_ocliveworkitem_msdyn_ocsession_liveworkstreamid](msdyn_ocliveworkitem.md#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_ocsession_liveworkstreamid) One-To-Many relationship.
+
+### <a name="BKMK_msdyn_msdyn_ocsession_msdyn_ocsession_primarysession"></a> msdyn_msdyn_ocsession_msdyn_ocsession_primarysession
+
+**Added by**: Active Solution Solution
+
+See msdyn_ocsession Entity [msdyn_msdyn_ocsession_msdyn_ocsession_primarysession](msdyn_ocsession.md#BKMK_msdyn_msdyn_ocsession_msdyn_ocsession_primarysession) One-To-Many relationship.
 
 ### See also
 

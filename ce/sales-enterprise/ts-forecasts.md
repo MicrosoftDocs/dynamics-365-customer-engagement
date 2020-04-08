@@ -17,6 +17,7 @@ This article helps you troubleshoot and resolve issues related to forecasting.
 ## Forecast definition issues and resolution
 
 <a name="publish_forecast_definition"> </a>
+
 ### Issue: I can't publish forecast definition 
 
 **Reason:**
@@ -54,6 +55,7 @@ There might be several reasons related to publishing failure. The following are 
     To resolve the error in this example, assign Forecast manager or Forecast user roles to all the users under Bert's hierarchy as required, and republish the forecast definition.
 
 <a name="recalculate_forecast"> </a>
+
 ### I can't recalculate the forecast
 
 **Reason:**
@@ -77,6 +79,46 @@ There might be several reasons related to the failure of recalculation of the fo
     > ![View recalculation failed icon](media/troubleshooting-forecast-recalculation-failed-error-message.png "View recalculation failed icon")
 
 4. Take the necessary actions to resolve the error and recalculate the forecast. 
+
+## Territory-based forecast issues and resolution
+
+### Issue: An error is displayed when I try to create a territory-based forecast. 
+### -OR-
+### The data in a territory-based forecast is not refreshing.
+
+**Reason:**
+
+When system updates are performed, territory entity's hierarchy is disabled (though you've enabled it earlier) and causing this error. 
+
+**Resolution:**
+
+To resolve this error, you must enable hierarchy in the **territory_parent_terrioty** relationship definition from **Relationships**. Follow these steps:
+
+1.	Go to **Advance settings**. 
+    
+    The advance settings page opens in a tab.
+
+2.	Select **Settings** > **Customization** > **Customizations**.
+    
+    The **Power Apps** settings page opens. 
+
+3.	Select **Data** > **Entities** and then select **Territory**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Select territory entity in power Apps](media/forecast-troubleshooting-power-apps-select-territory.png "Select territory entity in power Apps")    
+
+4.	On the **Territory** page, select **Relationships** tab and then select **Parent**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Select parent for territory entity](media/forecast-troubleshooting-power-apps-select-territory-parent.png "Select parent for territory entity")
+    
+5.	On the **Many-to-one** dialog box, select to enable **Hierarchical**, and then select **Done**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Enable Hierarchy option](media/forecast-troubleshooting-power-apps-select-enable-hierarchy.png "Enable Hierarchy option")
+    
+6.	Save and close the entity.
+
 
 
 ### See also
