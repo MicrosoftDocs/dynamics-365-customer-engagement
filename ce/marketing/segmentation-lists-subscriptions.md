@@ -36,6 +36,8 @@ A market segment is a collection of contacts that you target with a customer jou
 
 For example, if you're opening a new store in San Francisco, you'll probably promote the opening day event only to contacts who live near San Francisco. Or, if you're running a sale on dresses, you might only send related marketing email messages to your contacts who are female. You may want to target the contacts who have shown interest in the dresses in the past. In this case, you can narrow the segment by only targeting contacts who have opened emails related to dresses in the past. Decisions like these will affect how you communicate with the segment. These decisions will also influence which channels you'll choose, what kind of graphics you'll pick, which kinds of arguments you make, and more.
 
+<a name="segment-types"></a>
+
 ### Types of segments
 
 Segments can be dynamic or static.
@@ -70,6 +72,8 @@ More information: [Go live with publishable entities and track their status](go-
 
 To work with your segments, go to **Marketing** > **Customers** > **Segments**. This opens a standard list view, which you can use to search, sort, filter, create, and delete your segments. Open any segment to view its details, or select **New** to create a new one.
 
+<a name="create-segment"></a>
+
 ## Create and go live with a new segment
 
 Read this section to get a basic overview of how to create a segment and start it running so you can see its members and use it to target a customer journey.
@@ -88,7 +92,7 @@ Read this section to get a basic overview of how to create a segment and start i
   - If you selected a template, your template will load and you skip this step. If you selected **Cancel** on the **Segment template** dialog, a blank designer opens, allowing you to start your segmentation from scratch. You can begin by selecting a query block (referred to as a profile block above, an interaction block, or a segment. You can add other blocks to this block, and pick the relationship between the blocks. You can choose contacts that appear in either of the blocks by selecting "or," contacts that appear in both blocks by selecting "and also," or contacts that appear in the first block but not in the second by selecting "but not."
   - Next, the segment designer opens, showing settings and tools that are appropriate for your selection or template. Start by naming your segment at the top of the segmentation canvas.
 
-4. If you selected a **static segment**: A quick create menu appears, asking you to set a name for the segment and select a few primary options. You can create a description for the segment, select the timezone of the segment, and select if the [scope](segmentation-lists-subscriptions.md#The-General-tab) of the contacts queried for the segment includes the entire organization or just your business unit.
+4. If you selected a **static segment**: A quick create menu appears, asking you to set a name for the segment and select a few primary options. You can create a description for the segment, select the timezone of the segment, and select if the [scope](#the-general-tab) of the contacts queried for the segment includes the entire organization or just your business unit.
 
   - In the static segment designer, you can handpick contacts individually by selecting the "Add" button on the "General" tab.
   - You can also use a query to quickly filter your contacts, and then select some (or all) of them to be added to your static segment by selecting the **Add by Query** button. Similarly, you can use a query to quickly select certain contacts that you want to remove from a segment by selecting the **Remove by Query** button.
@@ -116,7 +120,7 @@ The **General** tab provides a few basic settings and general information about 
 
 - **Name**: The name of the segment as it appears in the segment list and when selecting segments for a customer journey.
 - **Created on**: The date the segment was created.
-- **Segment Type**: Shows the [segment type](segmentation-lists-subscriptions.md#Types-of-segments) (dynamic or static). This is permanently established when you first [create the segment](segmentation-lists-subscriptions.md#Create-and-go-live-with-a-new-segment).
+- **Segment Type**: Shows the [segment type](#segment-types) (dynamic or static). This is permanently established when you first [create the segment](#create-segment).
 - **External source**: For segments that are synced from an external source, such as Dynamics 365 Customer Insights, information about the external source is shown here.
 - **External segment URL**: For segments that are synced from an external source, such as Dynamics 365 Customer Insights, the URL of the external source is shown here.
 - **Time Zone**: Shows the time zone of the segment. This is the timezone that the segment uses to calculate dates relative to the current time. For example, if you choose the partial date operator "All contacts who registered for an event in the last three days," the three-day duration is calculated using the segment time zone.

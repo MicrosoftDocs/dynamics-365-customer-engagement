@@ -74,7 +74,7 @@ The **Inbox Preview** tab displays a grid of icons, each labeled with the name o
 
 The email preview resolves dynamic text from a selected sample contact record, allowing you to see exactly how an email message will look when it arrives in the recipient's inbox.
 
-After you've [added dynamic content](dynamic-email.content.md) such as a contact's first name in the subject line, go to **Designer** > **Preview** > **Properties**. In the **Contact** box, select a contact whose information you'd like to use for the preview. The preview will automatically refresh and then display the resolved dynamic text from the contact that you chose.
+After you've [added dynamic content](dynamic-email-content.md) such as a contact's first name in the subject line, go to **Designer** > **Preview** > **Properties**. In the **Contact** box, select a contact whose information you'd like to use for the preview. The preview will automatically refresh and then display the resolved dynamic text from the contact that you chose.
 
 You can even test send (see below) messages with dynamic data including dynamic field values, entity relationships, loops, and conditionals.
 

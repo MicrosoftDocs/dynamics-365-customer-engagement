@@ -211,104 +211,72 @@ With the delete request, you delete the compound segment that is created.
 DELETE {{OrgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 ```
 
-## Add/Remove segment members
+## Add/Remove contacts to static segment
 
-Segment members can be added to or removed from the segments. Adding a contact record makes it a member of the segment whether it satisfies the segment query definition (**msdyncrm_segmentquery**) or not.
-
-Adding a contact record that is already a member of the segment ensures that it doesn't get removed when it doesn't match the segment query.
-
-Removing a contact record removes it from the segment and prevents it from being added again even if the record matches the segment query. 
-
-A record can be removed from a segment without previously being a member of the segment to prevent it from becoming a member.
-
-Once a member is added to a segment, the action can be reversed by removing it from the segment, thereby preventing it from becoming a member. Similarly, removing a member can be reversed by adding it, thereby making it a member unconditionally.
-
-> [!NOTE]
-> For this release, add/remove operations are not supported for dynamic segments.
+Segment members can be added to or removed from static segments of contacts. You can add/remove contacts either by providing a query definition, or by providing specific contact ids. 
 
 Some of the important aspects that need to be considered while performing add/remove operations on segment members:
 
-- Compound segments must be in Live or Stopped state (not Draft state).
 - Only instances of entity type **Contact** can be added/removed as members.
-- All add/remove records should exist. Otherwise, the request gets rejected.
-- The add/remove feature is supported only by new segmentation.
-- Adding/Removing member requests are processed asynchronously, independent of any recurring segment evaluations.
-- Any add/remove operation resulting in an actual update to segment members is recorded in **Segment Insights**.
-- When adding or removing multiple records, use the plural endpoints for faster processing.
-- You can add up to 10,000 contacts as segment members.
+- If provided contact ids do not exist, they are ignored.
+- Adding/Removing member requests are processed asynchronously.
+- You can add/remove contacts by invoking the endpoint multiple times, usually in batches of up to 20.000 contacts each time.
 
-**Add a segment member**
-
-```HTTP
-POST {{OrgUrl}}/api/data/v9.0/msdyncrm_SegmentMembersUpdate
-{
-  "msdyncrm_segmentid": "59AC8BBF-57E7-E811-A9A9-000D3A35F403",
-  "msdyncrm_operation": "addByIds",
-  "msdyncrm_memberids": "[\"B5672BDB-8899-43CB-9FA1-0AE4DC61DAD3\"]",
-  "msdyncrm_segmentquery": null
-}
-```
-
-**Add multiple segment members**
+**Add segment members by providing ids**
 
 ```HTTP
 POST {{OrgUrl}}/api/data/v9.0/msdyncrm_SegmentMembersUpdate
 {
    "msdyncrm_segmentid": "59AC8BBF-57E7-E811-A9A9-000D3A35F403",
    "msdyncrm_operation": "addByIds",
-   "msdyncrm_memberids": "[\"B5672BDB-8899-43CB-9FA1-0AE4DC61DAD3\", \"694E1C8E-F704-4B23-9B07-E65DB1620E47\", \"A4A31E3D-DFCA-4765-8018-3BA7D5E376C7\"]",
-   "msdyncrm_segmentquery": null
+   "msdyncrm_memberids": "[\"B5672BDB-8899-43CB-9FA1-0AE4DC61DAD3\", \"694E1C8E-F704-4B23-9B07-E65DB1620E47\", \"A4A31E3D-DFCA-4765-8018-3BA7D5E376C7\"]"
 }
 ```
 
-**Remove a segment member**
-
-```HTTP
-POST {{OrgUrl}}/api/data/v9.0/msdyncrm_SegmentMembersUpdate
-{
-    "msdyncrm_segmentid": "59AC8BBF-57E7-E811-A9A9-000D3A35F403",
-    "msdyncrm_operation": "removeByIds",
-    "msdyncrm_memberids": "[\"B5672BDB-8899-43CB-9FA1-0AE4DC61DAD3\"]",
-    "msdyncrm_segmentquery": null
-```
-
-**Remove multiple segment members**
+**Remove segment members by providing ids**
 
 ```HTTP
 POST {{OrgUrl}}/api/data/v9.0/msdyncrm_SegmentMembersUpdate
 {
    "msdyncrm_segmentid": "59AC8BBF-57E7-E811-A9A9-000D3A35F403",
    "msdyncrm_operation": "removeByIds",
-   "msdyncrm_memberids": "[\"B5672BDB-8899-43CB-9FA1-0AE4DC61DAD3\", \"694E1C8E-F704-4B23-9B07-E65DB1620E47\", \"A4A31E3D-DFCA-4765-8018-3BA7D5E376C7\"]",
-   "msdyncrm_segmentquery": null
+   "msdyncrm_memberids": "[\"B5672BDB-8899-43CB-9FA1-0AE4DC61DAD3\", \"694E1C8E-F704-4B23-9B07-E65DB1620E47\", \"A4A31E3D-DFCA-4765-8018-3BA7D5E376C7\"]"
 }
 ```
 
-**Add segment members by query**
+**Add segment members by providing query**
 
 ```HTTP
 POST {{OrgUrl}}/api/data/v9.0/msdyncrm_SegmentMembersUpdate
 {
     "msdyncrm_segmentid": "b5466fbb-2cef-e911-a81d-000d3a6d200c",
     "msdyncrm_operation": "addByQuery",
-    "msdyncrm_memberids": null,
-    "msdyncrm_segmentquery": "PROFILE(account, account_1).FILTER(account_1.accountid == '1cc00a15-37ef-e911-a81d-000d3a6d200c').TRAVERSE(contact_account_parentcustomerid, contact_1).FILTER(ISNOTNULL(contact_1.emailaddress1))"
+    "msdyncrm_query": "PROFILE(account, account_1).FILTER(account_1.accountid == '1cc00a15-37ef-e911-a81d-000d3a6d200c').TRAVERSE(contact_account_parentcustomerid, contact_1).FILTER(ISNOTNULL(contact_1.emailaddress1))"
 }
 ```
 
-**Remove segment members by query**
+**Remove segment members by providing query**
 
 ```HTTP
 POST {{OrgUrl}}/api/data/v9.0/msdyncrm_SegmentMembersUpdate
 {
     "msdyncrm_segmentid": "b5466fbb-2cef-e911-a81d-000d3a6d200c",
     "msdyncrm_operation": "removeByQuery",
-    "msdyncrm_memberids": null,
-    "msdyncrm_segmentquery": "PROFILE(account, account_1).FILTER(account_1.accountid == '1cc00a15-37ef-e911-a81d-000d3a6d200c').TRAVERSE(contact_account_parentcustomerid, contact_1).FILTER(ISNOTNULL(contact_1.emailaddress1))"
+    "msdyncrm_query": "PROFILE(account, account_1).FILTER(account_1.accountid == '1cc00a15-37ef-e911-a81d-000d3a6d200c').TRAVERSE(contact_account_parentcustomerid, contact_1).FILTER(ISNOTNULL(contact_1.emailaddress1))"
 }
 ```
 
-**Retrieve segment members**
+**Get status of pending operations**
+
+```HTTP
+POST {{OrgUrl}}/api/data/v9.0/msdyncrm_SegmentMembersUpdate
+{
+    "msdyncrm_segmentid":"b5466fbb-2cef-e911-a81d-000d3a6d200c",
+    "msdyncrm_operation":"getState"
+}
+```
+
+**Retrieve segment members (legacy)**
 
 ```HTTP
 GET {{OrgUrl}}/api/data/v9.0/contacts?fetchXml=fetch version="1.0" output-format="xml-platform" mapping="logical" returntotalrecordcount="true" page="1" count="5" no-lock="false">
@@ -325,15 +293,20 @@ GET {{OrgUrl}}/api/data/v9.0/contacts?fetchXml=fetch version="1.0" output-format
 </fetch>
 ```
 
-**Get status of pending operations**
+**Retrieve segment members (latest)**
 
 ```HTTP
-POST {{OrgUrl}}/api/data/v9.0/msdyncrm_SegmentMembersUpdate
+POST {{OrgUrl}}/api/data/v9.0/msdyncrm_FetchContactsByQuery
 {
-    "msdyncrm_segmentid":"b5466fbb-2cef-e911-a81d-000d3a6d200c",
-    "msdyncrm_operation":"getState"
+    "Query":"(SEGMENT(SEGMENT_CRM_ID_e1fa7fdc5c78ea11a811000d3a8e8fcc)).ORDERBY(fullname ASC).SKIP(0).TAKE(15).SELECT(contactid)",
+    "FetchXml":"<fetch version=\"1.0\" output-format=\"xml-platform\" mapping=\"logical\" count=\"15\" page=\"1\" returntotalrecordcount=\"true\"><entity name=\"contact\"><attribute name=\"fullname\"/><attribute name=\"emailaddress1\"/><attribute name=\"company\"/><attribute name=\"parentcustomerid\"/><attribute name=\"contactid\"/><order attribute=\"fullname\" descending=\"false\"/></entity></fetch>","OwningBusinessUnit":"0b4b85cc-7f6c-ea11-a811-000d3a54d359",
+    "Scope":270100000,
+    "TimeZone":null
 }
 ```
+
+> [!IMPORTANT]
+> On the example above, replace SEGMENT_CRM_ID_ce97cb9dbd75ea11a811000d3a8e8fcc with the name of your segment in the backend, as it is in the msdyncrm_segmentqueryname field of your segment. If your segment has id `ce97cb9d-bd75-ea11-a811-000d3a8e8fcc`, that value will be `SEGMENT_CRM_ID_ce97cb9dbd75ea11a811000d3a8e8fcc`.
 
 ## Validating segments
 
