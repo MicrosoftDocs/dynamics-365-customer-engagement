@@ -73,6 +73,8 @@
 ### Upgrade or downgrade
 #### [Upgrade from Dynamics 365 Sales Professional](upgrade-sales-professional-sales-enterprise.md)
 #### [Move from Dynamics 365 Sales Enterprise to Professional](move-sales-enterprise-sales-professional.md)
+### Export forecast data
+#### [Retrieve forecast and snapshot data using msdyn_ForecastInstanceActions for GDPR](../sales-enterprise/developer/reference/entities/export-forecast-data.md)
 
 
 ## User Guide
@@ -157,15 +159,10 @@
 ## Developer Guide
 ### [Get started](../sales-enterprise/developer/developer-guide.md)
 ### [Enable sales order processing integration](../sales-enterprise/developer/enable-sales-order-processing-integration.md)
+### Forecasting
+#### [msdyn_ForecastInstanceActions](../sales-enterprise/developer/reference/entities/export-forecast-data.md)
 ### Troubleshooting
 #### [Custom plugin handling through shared variable](../sales-enterprise/developer/custom-plugin-handling-shared-variable.md)
-
-### Manual forecasting
-#### [Entity reference](../sales-enterprise/developer/reference/manual-forecasting-entity-reference.md)
-##### [msdyn_forecastdefinition](../sales-enterprise/developer/reference/entities/msdyn_forecastdefinition.md)
-##### [msdyn_forecastinstance](../sales-enterprise/developer/reference/entities/msdyn_forecastinstance.md)
-##### [msdyn_forecastrecurrence](../sales-enterprise/developer/reference/entities/msdyn_forecastrecurrence.md)
-##### [msdyn_ForecastInstanceActions](../sales-enterprise/developer/reference/entities/export-forecast-data.md)
 #### [Custom actions](../sales-enterprise/developer/reference/custom-actions-manual-forecasting.md)
 ### Playbooks
 #### [Entity reference](../sales-enterprise/developer/reference/playbook-entity-reference.md)
