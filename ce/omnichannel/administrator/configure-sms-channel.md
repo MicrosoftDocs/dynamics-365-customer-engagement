@@ -10,7 +10,7 @@ ms.service:
 ms.topic: article
 ---
 
-# Configure an SMS channel
+# Configure an SMS channel for Telesign
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
