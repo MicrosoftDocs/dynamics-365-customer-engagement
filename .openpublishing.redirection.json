@@ -17865,6 +17865,31 @@
       "source_path": "ce/sales-enterprise/troubleshooting-admin.md",
       "redirect_url": "troubleshooting",
       "redirect_document_id": false
-    }   
+    },
+    {  
+      "source_path": "ce/sales-enterprise/create-forecast-definition.md",
+      "redirect_url": "configure-forecast",
+      "redirect_document_id": false
+    },
+    {  
+      "source_path": "ce/sales-enterprise/developer/reference/manual-forecasting-entity-reference.md",
+      "redirect_url": "custom-actions-manual-forecasting",
+      "redirect_document_id": false
+    },
+    {  
+      "source_path": "ce/sales-enterprise/developer/reference/entities/msdyn_forecastdefinition.md",
+      "redirect_url": "export-forecast-data",
+      "redirect_document_id": false
+    },
+    {  
+      "source_path": "ce/sales-enterprise/developer/reference/entities/msdyn_forecastinstance.md",
+      "redirect_url": "export-forecast-data",
+      "redirect_document_id": false
+    },
+    {  
+      "source_path": "ce/sales-enterprise/developer/reference/entities/msdyn_forecastrecurrence.md",
+      "redirect_url": "export-forecast-data",
+      "redirect_document_id": false
+    }
   ]
 }
