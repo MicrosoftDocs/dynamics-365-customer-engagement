@@ -1,5 +1,5 @@
 > [!IMPORTANT]
-> You should limit the HTML content of email messages to a maximum size of 100KB. The size limit includes all HTML text, styles, comments, and embedded graphics (but not anchored external graphics). If the HTML content exceeds 128KB, you'll receive a size warning but you can still go live with the email and any customer journey that includes the email.
+> You should limit the HTML content of email messages to a maximum size of 100KB. This size limit includes all HTML text, styles, comments, and embedded graphics (but not anchored external graphics). If the HTML content exceeds 128KB, you'll receive a size warning, but you can still go live with the email and any customer journey that includes the email.
 > 
 > When you go live with a message, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] processes the HTML content to create inline styles, compress spaces, and more, so it can be hard to know the exact final size of the message. If you have a message that you suspect violates the HTML size limit, do the following:
 > 

@@ -45,9 +45,9 @@ Both spam filters and sender-reputation systems analyze the content of the messa
 
 ### Be mindful of the size of your HTML content
 
-You should limit the HTML content of email messages to a maximum size of 100KB. The size limit includes all HTML text, styles, comments, and embedded graphics (but not anchored external graphics). If the HTML content exceeds 128KB, you'll receive a size warning but you can still go live with the email and any customer journey that includes the email.
+You should limit the HTML content of email messages to a maximum size of 100KB. This size limit includes all HTML text, styles, comments, and embedded graphics (but not anchored external graphics). If the HTML content exceeds 128KB, you'll receive a size warning, but you can still go live with the email and any customer journey that includes the email.
 
-The HTML size limit is important because email providers (such as Gmail) "clip" email messages that are above a certain size. Instead of including the full message in a recipient's inbox, the message will be truncated will include a link to view the entire message. Additionally, some spam filters scrutinize more intensely when they see large emails.
+The HTML size limit is important because email providers (such as Gmail) "clip" email messages that are above a certain size (102KB, in Gmail's case). Instead of including the full message in a recipient's inbox, the email provider will truncate the message and include a link to view the entire message. Additionally, some spam filters scrutinize more intensely when they see large emails.
 
 When you go live with a message, Marketing processes the HTML content to create inline styles, compress spaces, and more, so it can be hard to know the exact final size of the message. If you have a message that you suspect violates the HTML size limit, do the following:
 
