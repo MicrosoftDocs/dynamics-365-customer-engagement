@@ -142,9 +142,6 @@ An inspection completed by a technician will be visible on the bottom of the wor
 
 After the work order is scheduled to the appropriate technician, they can see and complete the inspection by logging in to Field Service in a web browser on a mobile device or PC.
 
-
-
-
 Sign in with your Dynamics 365 URL, username, and, and go to the assigned work order.
 
 Select the **Work Order Service Task** (*not* the **Service Task Type**).
@@ -160,8 +157,15 @@ Find the inspection form and enter answers.
 > ![Screenshot of ](./media/inspections-mobile-web2.png)
 
 
-When finished, the technician can select **Mark Complete** at the top or set **Complete %** to 100, **Result**, and an **Actual Duration**.
+When finished, the technician can select **Mark Complete** at the top or set **Complete %** to 100. 
 
+Enter a **Result** to report on overall inspection:
+- Pass
+- Fail
+- Partial Success
+- NA
+
+Optionally, enter an **Actual Duration** that can be compared to estimated duration.
 
 If an inspection question is required, the technician will not be able to mark **Complete** or set **% Completed** to 100 until it is answered.
 
