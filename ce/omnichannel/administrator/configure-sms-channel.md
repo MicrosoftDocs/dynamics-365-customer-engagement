@@ -44,7 +44,7 @@ An SMS channel is enabled within Omnichannel for Customer Service by integrating
 
 To sign up for TeleSign:
 
-1. Go to [TeleSign](https://www.telesign.com/) to sign up for an account if you don't have one already.
+1. Go to [TeleSign](https://www.telesign.com/) to sign up for a self-service account if you don't have one already. If you expect to send high volumes of SMS traffic, such as more than 100,000 messages per month, contact support@telesign.com to request an invoiced enterprise account.
 
 2. Purchase support phone numbers through your TeleSign account. In this release, only long code type US phone numbers are supported.
 
@@ -73,7 +73,7 @@ To sign up for TeleSign:
     - **Customer ID**: Customer ID generated from the TeleSign account.
     - **API key**: API key generated from the TeleSign account.
 
-6. Copy the value from the **TeleSign inbound URL** field and send it to TeleSign at [support@telesign.com](mailto:support@telesign.com). This value is the callback URL that is used to process incoming SMS messages.
+6. Copy the value from the **TeleSign inbound URL** field and send it to TeleSign at [support@telesign.com](mailto:support@telesign.com) with your customer ID, and enter the subject line as "Omnichannel for Customer Service callback URL update request". This value is the callback URL that is used to process incoming SMS messages.
 
 7. Select **Save**.
 
