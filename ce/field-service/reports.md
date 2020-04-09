@@ -26,7 +26,7 @@ search.app:
   - D365FS
 ---
 
-# Reports in Dynamics 365 Field Service (public preview)
+# Work order summary reports in Dynamics 365 Field Service (public preview)
 
 Operations managers are responsible for managing work orders in order to provide timely support for their customers. To better understand what actions may be needed for better field service performance, these managers need to be able to monitor key operational metrics. 
 
@@ -46,7 +46,7 @@ Reports in Dynamics 365 Field Service can help you get a birds-eye understanding
 
 ## Prerequisites   
 
-- To access reports, your organization must opt into the latest early access Dynamics 365 Field Service. 
+- To access reports, your organization must opt into the latest early access Dynamics 365 Field Service. For more information, see [this article on opting in for early access](https://docs.microsoft.com//power-platform/admin/opt-in-early-access-updates). 
 
 ## Reports overview
 
