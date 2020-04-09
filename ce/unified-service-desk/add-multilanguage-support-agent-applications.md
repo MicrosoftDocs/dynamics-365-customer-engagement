@@ -17,8 +17,13 @@ search.app:
   - D365CE
   - D365USD
 ---
-# Add and manage multilanguage support (localized resources) for your agent applications
+# Add and manage multi-language support (localized resources) for your agent applications
+
 [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] enables you to bundle in localized strings for your controls interface so that they appear in the language based on the locale settings of the user’s computer. The multi-language support is available for all the components except for those that are surfaced through [!INCLUDE[pn_customer_care_accelerator](../includes/pn-customer-care-accelerator.md)], which doesn’t support multi-language scenarios. This includes the hosted control tab names.  
+
+If you use web resource to link the button text to strings, then the web resource chooses the language based on your Dynamics 365 model-driven app environment settings. In addition, the app pages are rendered in the language set on the app environment settings. 
+
+Rest of the strings that is rendered by default on Unified Service Desk client application are rendered in the language set on your operating system.
   
  To provide localized resources for your component:  
   

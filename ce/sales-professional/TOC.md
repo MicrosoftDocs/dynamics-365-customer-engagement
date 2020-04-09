@@ -6,7 +6,7 @@
 ## Get started
 ### [Overview](sales-professional-overview.md)
 ### [Get started with the basics](learn-basics-sales-professional.md)
-### [Use lookup fields on forms](use-lookup-fields-forms.md)
+### [Use lookup fields on forms](/powerapps/user/lookup-field)
 ### [Work with views (lists)](work-with-views.md)
 ### [Manage your customers](manage-accounts-contacts.md)
 ### [Manage tasks, appointments, email, or phone calls](manage-activities.md)
@@ -53,6 +53,8 @@
 #### [Track a marketing campaign response](track-marketing-campaign-response-using-app-marketing-sp.md)
 ### [Use Sales Professional on the mobile app](use-sales-professional-on-dynamics-365-mobile.md)
 
+## Troubleshooting
+### [Dynamics 365 Sales Professional troubleshooting guide](troubleshooting-sp.md)
 
 ## Administrator and sales manager guide
 ### [Help resources for admins and sales managers](admin-guide.md)
@@ -94,6 +96,6 @@
 ### [Microsoft Teams integration](../teams-integration/teams-integration.md)
 ### [Integrate sample softphone with Dynamics 365 Sales](sample-softphone-integration-sp.md)
 
-# Dynamics 365 Sales (Enterprise)
+# Resources for other Sales apps
 ## [Help resources for Dynamics 365 Sales (Enterprise)](../sales-enterprise/help-hub.md)
-
+## [Sales Team Member app for users with Team Member license](../sales-enterprise/sales-team-member.md)

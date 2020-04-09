@@ -14,8 +14,6 @@ manager: shujoshi
 
 # Choose layout and columns
 
-[!include[cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
-
 In the **Layout** step of the forecast configuration, you can configure columns to define the forecast grid that appears for users. You can configure roll-up columns from option sets that are defined for opportunities in your organization.
 
 Perform the following steps to add columns and configure the forecast grid:
@@ -31,7 +29,7 @@ Perform the following steps to add columns and configure the forecast grid:
 Every forecast needs an option set to define roll-up columns. 
 
 > [!IMPORTANT]
-> The **Prediction** column is available only when predictive forecasting is enabled for your organization. This type of forecasting works only with forecasts that are based on the **Org chart** template. To learn more, see [About premium forecasting](/ai/sales/configure-premium-forecasting).
+> The **Prediction** column is available only when predictive forecasting is enabled for your organization. This type of forecasting works only with forecasts that are based on the **Org chart** template. To learn more, see [About premium forecasting](https://docs.microsoft.com/dynamics365/ai/sales/configure-premium-forecasting).
 
 To define the layout, select an option set and then add the roll-up columns accordingly, as described in the following steps.
 
@@ -97,7 +95,7 @@ Select the column **Type** as **Rollup**. The following options are available to
 | Description | Enter a description for the column. This description appears as a tooltip on the column header of the forecast grid, to help your users understand what the column contains. |
 | Allow adjustments | Enable this setting to let users manually edit a system-calculated value directly in the forecast grid. When this setting is enabled, you'll see a pencil icon next to the forecasted value in that column. To learn more, see [Adjust values in a forecast](adjust-values-in-forecast.md). |
 | Show progress compared to quota | Enable this option to compare the column's value against the quota column. When this is enabled, a progress bar indicating the attainment percentage is shown below the column's value.|
-| Show in Trend Chart | Enable this option to show the value in the **Trend Chart**. This option is available only when predictive forecasting is enabled for your organization. To learn more about trend charts, see [Understand forecast projection through trend charts](/ai/sales/understand-forecast-projection-through-trend-chart.md). |
+| Show in Trend Chart | Enable this option to show the value in the **Trend Chart**. This option is available only when predictive forecasting is enabled for your organization. To learn more about trend charts, see [Understand forecast projection through trend charts](https://docs.microsoft.com/dynamics365/ai/sales/understand-forecast-projection-through-trend-chart.md). |
 | Unique name | The unique name is used to identify the column to use when you're writing a formula for a **Calculated** column. |
 
 ### Calculated type
@@ -110,7 +108,7 @@ When you select column **Type** as **Calculated**, the values for the column are
 | Calculation | Enter a formula to calculate values for the column. When you start typing a formula, suggestions are displayed for your convenience. The names shown are the column's unique name and value. For example, if you want to see the best case forecast in this column, enter the formula as **Closed + Commit + Best Case**. <br> If you enter an invalid formula, an appropriate error message appears below the **Calculation** field. |
 | Description | Enter a description for the column. This description appears as a tooltip on the column header of the forecast grid, to help your users understand what the column contains. |
 | Show progress compared to quota | Enable this option to compare the column's value against the quota column. When enabled, a progress bar indicating the attainment percentage is shown below the forecast value in that column.|
-| Show in Trend Chart | Enable this option to show the value in the **Trend Chart**. This option is available only when predictive forecasting is enabled for your organization. To learn more about trend charts, see [Understand forecast projection through trend chart](/ai/sales/understand-forecast-projection-through-trend-chart.md). |
+| Show in Trend Chart | Enable this option to show the value in the **Trend Chart**. This option is available only when predictive forecasting is enabled for your organization. To learn more about trend charts, see [Understand forecast projection through trend chart](https://docs.microsoft.com/dynamics365/ai/sales/understand-forecast-projection-through-trend-chart). |
 | Unique name | The unique name is used to identify the column when you're writing a formula for a **Calculated** column. |	
 
 ### Simple type
@@ -181,4 +179,4 @@ For example, you know that opportunities related to **Adatum Corporation** and r
 
 [Configure forecasts in your organization](configure-forecast.md)<br>
 [View a forecast](view-forecasts.md)<br>
-[About premium forecasting](/ai/sales/configure-premium-forecasting)
+[About premium forecasting](https://docs.microsoft.com/dynamics365/ai/sales/configure-premium-forecasting)

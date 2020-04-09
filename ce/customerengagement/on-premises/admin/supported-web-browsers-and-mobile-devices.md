@@ -1,7 +1,7 @@
 ---
 title: "Supported web browsers and mobile devices | MicrosoftDocs"
 ms.custom: 
-ms.date: 10/01/2019
+ms.date: 02/19/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,28 +23,25 @@ search.app:
 ---
 # Supported web browsers and mobile devices
 
-Users can access the Dynamics 365 Customer Engagement (on-premises) Web application with the most recent versions of these popular browsers:  
+Users can access the model-driven apps with the most recent versions of these popular browsers:  
   
-- [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)]   
-  
-- [!INCLUDE[pn_microsoft_edge](../includes/pn-microsoft-edge.md)]  
-  
-- [!INCLUDE[tn_Firefox](../includes/tn-firefox.md)]   
+- Microsoft Edge (recommended: [Chromium-based Edge](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium))
+- Chrome
+- Firefox  
+- Safari
+- Internet Explorer (not recommended)
 
-- [!INCLUDE[tn_chrome](../includes/tn-chrome.md)]
-  
-- [!INCLUDE[tn_Safari](../includes/tn-safari.md)]   
-    
+> [!TIP]
+> For optimal performance and experience, we recommend you use the latest version of a modern browser. 
   
 For more detailed information about supported browsers, see [Web application requirements](web-application-requirements.md).  
   
 For a mobile device, such as an iPad or smartphone, the following apps are available:  
   
-- [!INCLUDE[pn_crm_for_ipad](../includes/pn-crm-for-ipad.md)]  
+- [Dynamics 365 for phones and Dynamics 365 for tablets](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets)
   
-- [!INCLUDE[pn_crm_for_windows_8](../includes/pn-crm-for-windows-8.md)]  
+For more detailed information about supported phones and tablets, see [Dynamics 365 mobile and tablet device support](/dynamics365/mobile-app/support-phones-tablets).  
   
-For more detailed information about supported phones and tablets, see [Mobile and tablet device support](../../../mobile-app/support-phones-tablets.md).  
   
 > [!NOTE]
 > - Users who try to view Customer Engagement (on-premises) on an unsupported browser may be redirected to a mobile experience. 

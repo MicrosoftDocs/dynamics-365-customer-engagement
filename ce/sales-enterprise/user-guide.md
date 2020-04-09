@@ -119,5 +119,3 @@ manager: sakudes
 </tr>
 
 </table>
-
-

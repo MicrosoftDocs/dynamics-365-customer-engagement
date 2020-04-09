@@ -2,7 +2,7 @@
 title: "Write plug-ins to extend business processes (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "A plug-in is custom business logic that you can integrate with Dynamics 365 Customer Engagement (on-premises) Customer Engagement to modify or augment the standard behavior of the platform. Plug-ins are event handlers since they are registered to execute in response to a particular event being fired by the platform."
 ms.custom: on-premise
-ms.date: 03/27/2019
+ms.date: 02/13/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -33,9 +33,11 @@ When a declarative process doesn’t meet a requirement, as a developer you have
 
 A plug-in is custom business logic that you can integrate with Customer Engagement (on-premises) to modify or augment the standard behavior of the platform. Plug-ins are event handlers since they are registered to execute in response to a particular event being fired by the platform.
   
- The following topics describe how to add custom business logic to Dynamics 365 Customer Engagement (on-premises) through the development and registration of plug-ins. For more information about the run-time execution of plug-ins and the plug-in development framework, see [Event Framework](/powerapps/developer/common-data-service/event-framework).  
+ The following topics describe how to add custom business logic to Dynamics 365 Customer Engagement (on-premises) through the development and registration of plug-ins. For more information about the run-time execution of plug-ins and the plug-in development framework, see [Event Framework](/powerapps/developer/common-data-service/event-framework). 
 
-  
+> [!NOTE]
+> The documentation that follows describes additional options only available in on-premises environments. For general information about writing plug-ins that work for both on-premises and online deployments, read the [Use plug-ins to extend business processes](/powerapps/developer/common-data-service/plug-ins) topic in the Common Data Service documentation.
+
 ## In This Section  
 [Plug-in Development](plugin-development.md)
   

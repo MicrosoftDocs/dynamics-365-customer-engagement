@@ -4,7 +4,7 @@ description: "Learn how the latest release makes optimizing resource scheduling 
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 12/15/2017
-ms.reviewer: 
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.technology: 
@@ -13,8 +13,8 @@ ms.tgt_pltfrm:
 ms.topic: article
 ms.assetid: 70c37c89-fc96-421d-b559-500d26c200b3
 caps.latest.revision: 11
-author: krbjoran
-ms.author: krbjoran
+author: FieldServiceDave
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin

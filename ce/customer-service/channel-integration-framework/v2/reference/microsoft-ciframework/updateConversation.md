@@ -4,7 +4,7 @@ description: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 01/28/2020
+ms.date: 02/13/2020
 ms.topic: reference
 ms.service: 
   - dynamics-365-customerservice
@@ -14,9 +14,7 @@ ms.custom:
 ---
 # updateConversation
 
-[!include[cc-beta-prerelease-disclaimer](../../../../../includes/cc-beta-prerelease-disclaimer.md)]
-
-This method logs a conversation record that is returned by [getSession](getsession.md) method.
+This method allows you to update a Conversation([msdyn_ocliveworkitem](../../../../../omnichannel/developer/reference/entities/msdyn_ocliveworkitem.md)) record.
 
 ## Syntax
 

@@ -165,7 +165,7 @@ You can set work hours for the bookable resources where you can define when the 
   
 14. To close the **Weekly Schedule** dialog box, select **Save and Close**.
 
-    ![set-work-hours](media/set-work-hours-csh.png) 
+    ![set-work-hours](media/set-work-hours-csh-1a.png) 
 
 > [!NOTE]
 > To define a time when a service won’t be available, on the **Service Restrictions** tab, select **New**. In the **Edit a Service Restriction** dialog box, select the service, and select the start and end time between which the service will be unavailable, and then select **OK**.  

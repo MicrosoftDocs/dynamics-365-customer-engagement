@@ -14,8 +14,6 @@ manager: shujoshi
 
 # View and manage underlying opportunities 
 
-[!include[cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
-
 To understand which opportunities are affecting forecast values, select one of the following options: 
 
 - Select a row to show all opportunities, regardless of forecast category.

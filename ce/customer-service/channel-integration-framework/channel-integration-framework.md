@@ -97,7 +97,6 @@ ms.custom:
 <h3> Download </h3>
 
 <li><a href="get-channel-integration-framework.md" data-raw-source="[Get Dynamics 365 Channel Integration Framework](v2/get-channel-integration-framework.md)">Get Dynamics 365 Channel Integration Framework</a></li>
-<li><a href="v2/onboard-org-flight.md" data-raw-source="[Onboard to Version 2.0 flight](v2/onboard-org-flight.md)">Onboard to Version 2.0 flight</a></li>
 <li><a href="v2/sample-softphone-integration-v2.md" data-raw-source="[Download sample code for softphone integration (version 2.0)](v2/sample-softphone-integration-v2.md)">Download sample code for softphone integration (version 2.0)</a></li>
 </td>
 </tr>

@@ -1,12 +1,12 @@
 ---
 title: "Prerequisites and system requirements of Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the system requirements of Omnichannel for Customer Service."
-author: kabala123
-ms.author: kabala
+author: platkat
+ms.author: ktaylor
 manager: shujoshi
 applies_to: 
   - ""
-ms.date: 01/30/2020
+ms.date: 04/06/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -24,17 +24,21 @@ You can deploy Omnichannel for Customer Service over a Customer Service applicat
 
 - Unified Service Desk client application
 
-- Omnichannel for Customer Service app - Web experience on Unified Interface application
+- Omnichannel for Customer Service app - Web experience on the Unified Interface application
 
 ## Prerequisites
 
 This section explains the prerequisites for using Omnichannel for Customer Service.
 
+### Availability
+
+To find out if Omnichannel for Customer Service is available in your region, see [International availability](international-availability.md).
+
 ### Licensing
 
-- You must have an active subscription to Microsoft Dynamics 365 Customer Service Enterprise in your tenant for each Chat user.
+- You must have an active subscription to Microsoft Dynamics 365 Customer Service Enterprise in your tenant for each Digital Messaging or Chat user.
 
-- You must have an active subscription to Chat for Dynamics 365 Customer Service.
+- You must have an active subscription to the Dynamics 365 Customer Service Digital Messaging add-on for each Digital Messaging user or Dynamics 365 Customer Service Chat for each Chat user.
 
 - Use of historical Supervisor reporting through **Omnichannel Intraday Insights**, **Omnichannel Chat Insights**, and **Omnichannel Sentiment Insights Dashboards** also requires Power BI Pro license or higher for each individual in a Supervisor role.
 
@@ -53,30 +57,15 @@ You will need the following to use Omnichannel for Customer Service with Unified
 
 | Area | Requirements | 
 |----------|----------|
-| Desktop application | Unified Service Desk 4.1.1.1253 and higher version <br><br>More information: [Download Unified Service Desk](administrator/omnichannel-customer-service-unified-service-desk.md#download-unified-service-desk-client-application)|
-| Model-driven app |Dynamics 365 Customer Service app version 9.1.0000.3653 and a higher version<br><br> **Note:** We recommend you use a new production Dynamics 365 Customer Service instance to use Omnichannel for Customer Service on Unified Service Desk. |
-| Hosting Types | Supported hosting types are: <li>Chrome Process</li> <li>IE Process</li> <br> To learn more about the hosting types, see [Configure recommended settings for Unified Service Desk](administrator/configure-settings-unified-service-desk.md). |
-| Operating system |<li>For Microsoft Edge - Windows 10 (October 2018 release and a higher version)</li><li>For Internet Explorer - Windows 10, Windows 8.1, Windows 8, or Windows 7 Service Pack 1 (SP1)</li>|
+| Desktop application | Unified Service Desk 4.1.1.1253 or higher <br><br>More information: [Download Unified Service Desk](administrator/omnichannel-customer-service-unified-service-desk.md#download-unified-service-desk-client-application)|
+| Model-driven app |Dynamics 365 Customer Service app version 9.1.0000.3653 or higher <br><br> **Note:** We recommend you use a new production Dynamics 365 Customer Service instance to use Omnichannel for Customer Service on Unified Service Desk. |
+| Hosting Types | Supported hosting types: <li>Chrome Process</li> <li>IE Process</li> <br> To learn more about hosting types, see [Configure recommended settings for Unified Service Desk](administrator/configure-settings-unified-service-desk.md). |
+| Operating system |<li>For Microsoft Edge - Windows 10 (October 2018 release and higher version)</li><li>For Internet Explorer - Windows 10, Windows 8.1, Windows 8, or Windows 7 Service Pack 1 (SP1)</li>|
 | Memory (Hardware) | ^8-GB RAM or more |
 
 ^The memory requirement is for out-of-the-box solutions. Evaluate the requirements when creating complex configurations to the Unified Service Desk - Omnichannel for Customer Service solution or when using other line-of-business applications with Unified Service Desk.
 
-For other hardware requirements of Unified Service Desk client application, see [Unified Service Desk system requirements](/dynamics365/unified-service-desk/admin/unified-service-desk-system-requirements).
-
-## International availability
-
-Currently, **Chat for Dynamics 365 Customer Service** and **Dynamics 365 for Digital Messaging** are available in the following countries or regions:
-
-- North America 
-- Europe
-- Canada
-- United Kingdom
-- Government Cloud Computing (GCC)
-- Australia
-- Asia Pacific
-- South America
-
-For the service to work, your tenant and organization have to be co-located in one of these countries or regions.
+For other hardware requirements of the Unified Service Desk client application, see [Unified Service Desk system requirements](/dynamics365/unified-service-desk/admin/unified-service-desk-system-requirements).
 
 ## Provision Omnichannel
 
@@ -103,10 +92,27 @@ Add the following URLs for your users to access the Omnichannel for Customer Ser
 - `https://swc.cdn.skype.com/*`
 - `https://config.edge.skype.com/*`
 - `https://edge.skype.com/* `
-- `https://api.aps.skype.com/*` 
+- `https://api.aps.skype.com/*`
+- `https://*.asm.skype.com`
 - `https://*.ng.msg.teams.microsoft.com/* `
 - `https://*.notifications.teams.microsoft.com/* ` 
 - `https://*.omnichannelengagementhub.com/*`
+- `https://cdn.botframework.com/botframework-webchat`
+- `https://webchatic3.blob.core.windows.net`
+- `https://comms.omnichannelengagementhub.com`
+- `https://ocsdk-prod.azureedge.net`
+
+If your customers are using a URL filter to block a category of websites or URLs, you might have to ask your customers to allow a specific website as an exception.
+
+Customers must be able to access the following URLs from their browsers in order to use the live chat widget in the portal:
+
+- `https://oc-cdn-ocprod.azureedge.net/livechatwidget`
+- `https://cdn.botframework.com/botframework-webchat`
+- `https://webchatic3.blob.core.windows.net`
+- `https://comms.omnichannelengagementhub.com`
+- `https://ocsdk-prod.azureedge.net`
+- `https://*.asm.skype.com`
+- `https://*.ng.msg.teams.microsoft.com/*`
 
 **Geo-specific URLs**
 

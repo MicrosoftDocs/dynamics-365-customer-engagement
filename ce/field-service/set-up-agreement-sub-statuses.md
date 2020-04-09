@@ -3,17 +3,17 @@ title: "Set up agreement sub-statuses (Dynamics 365 Field Service) | MicrosoftDo
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
-ms.reviewer: 
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.technology: 
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: 555c9d08-b907-4527-847a-d3377b4dc384
 caps.latest.revision: 12
-ms.author: krbjoran
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin

@@ -15,7 +15,7 @@ ms.custom:
 
 # getFocusedTab 
 
-[!include[cc-beta-prerelease-disclaimer](../../../../../includes/cc-beta-prerelease-disclaimer.md)]
+ 
 
 Returns the focused tab's tabId in focused session, if the session belongs to the provider.
 

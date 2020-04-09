@@ -2,18 +2,18 @@
 title: "Manage marketing instances (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to copy a production Dynamics 365 Marketing instance to a sandbox instance for experiments and testing"
 keywords: administration;admin center;copy;sandbox;instances;backup;recall
-ms.date: 10/04/2019
+ms.date: 03/31/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
 ms.topic: article
 ms.assetid: c692a378-bf2f-42f6-81cd-8273cda9c695
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
-topic-status: Drafting
+topic-status: 
 search.audienceType: 
   - admin
   - customizer
@@ -96,9 +96,8 @@ The _target instance_ is the instance you are copying _onto_. As with the source
 
 To prepare your target instance to be copied onto, do the following _before_ starting the copy:
 
-1. If the Marketing instance was [integrated with a Dynamics 365 Portal](portal-optional.md), then reset the portal as described in [Reset a portal](../portals/reset-portal.md). This is important because it will free your portal license to be used elsewhere. After the reset, the portal will still be shown as "configured" in the Dynamics 365 admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored instance.
-
-1. We highly recommend that you reset your target instance as described in [Reset a Sandbox instance](https://docs.microsoft.com/dynamics365/admin/manage-sandbox-instances#reset-a-sandbox-instance). This will return the target instance to its factory settings, which may prevent problems later on, and may also release additional app licenses.
+1. If the Marketing instance was [integrated with a Dynamics 365 Portal](portal-optional.md), reset the portal as described in [Reset a portal](../portals/reset-portal.md). This is important because it will free your portal license to be used elsewhere.
+1. After the reset, the portal will still be shown as "configured" in the Dynamics 365 admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored instance.
 
 ### Step 3: Copy the instance
 
@@ -152,8 +151,6 @@ You can easily restore any on-demand or automatic system backup to any available
 To restore a backup onto a sandbox instance:
 
 1. If your target instance includes a [Dynamics 365 Portal](portal-optional.md), then reset the portal as described in [Reset a portal](../portals/reset-portal.md). This is important because it will free your portal license to be used elsewhere. After the reset, the portal will still be shown as "configured" in the Dynamics 365 admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored instance.
-
-1. We highly recommend that you reset your target instance as described in [Reset a Sandbox instance](https://docs.microsoft.com/dynamics365/admin/manage-sandbox-instances#reset-a-sandbox-instance).
 
 1. Restore the backup onto the newly prepared sandbox as usual, as described in [Backup and restore instances](https://docs.microsoft.com/dynamics365/admin/backup-restore-instances).
 

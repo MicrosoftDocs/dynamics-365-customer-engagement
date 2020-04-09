@@ -3,17 +3,17 @@ title: "Configure the schedule board (Dynamics 365 Field Service and Dynamics 36
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
-ms.reviewer: 
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.technology: 
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: a9a65fd8-1d2f-475e-83d2-2c052b9f2573
 caps.latest.revision: 32
-ms.author: krbjoran
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin
@@ -35,6 +35,9 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
 > 3. Open the record and scroll down to the **Resource Scheduling Optimization** section.  
 > 4. On the **Connect to Maps** field, choose **Yes**.  
 > 5. Accept the terms and save the record. 
+
+> [!Note]
+> Along with this article, see [this video on the schedule board](https://youtu.be/-noHEU7wgiQ).
   
 ## View the schedule board  
   

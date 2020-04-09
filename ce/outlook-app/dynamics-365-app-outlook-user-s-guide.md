@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 App for Outlook User Guide (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
-ms.date: 10/01/2019
+ms.date: 02/26/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,13 +23,11 @@ search.app:
 ---
 # Dynamics 365 App for Outlook User Guide  
 
-
 Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] to tap the power of your Dynamics 365 apps while you’re using [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] on the desktop, web, or phone. When [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] is installed, depending on which version of  the app you have installed, you'll see a **Dynamics 365** pane or window next to a selected [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] email message, or when you're composing an email message or setting up a meeting or appointment.  
 
 > [!IMPORTANT]
 > - The latest release of [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] works with [Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/overview.md) and [Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro), which implies that it also works with model-driven apps such as Dynamics 365 Sales and Dynamics 365 Customer Service. 
 > - For a prior release that works with earlier versions of Dynamics 365 apps, see [Deploy Dynamics 365 App for Outlook](https://technet.microsoft.com/library/dn946901.aspx).
->  - [Delegated users](https://support.office.com/article/Allow-someone-else-to-manage-your-mail-and-calendar-9684B670-7588-4EEA-8717-9E5799047540) can not use [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] to track emails and calendar items. Please try using [Outlook folder-level tracking](../admin/configure-outlook-exchange-folder-level-tracking.md) or [category-based tracking](../admin/use-outlook-category-track-appointments-emails.md) for delegated users to track Outlook items on the owner's behalf.
 
  For example, when you open an email message, view information from your Dynamics 365 app about the email recipients. Or with a single click, link an [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] email message or appointment to a specific Dynamics 365 record. When you link an email message or appointment to a Dynamics 365 record, the [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] record appears as an activity for that record in Dynamics 365 apps.  
 
@@ -37,7 +35,7 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-o
 
 ## FAQs
 
-For more information on FAQ's, see [Frequently Asked Questions about Dynamics 365 App for Outlook](faq.md).
+For more information on FAQs, see [Frequently Asked Questions about Dynamics 365 App for Outlook](faq.md).
 
 ## Prerequisites  
  Your system administrator can make [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] available to your organization or you can add it yourself if:  
@@ -51,7 +49,7 @@ For more information on FAQ's, see [Frequently Asked Questions about Dynamics 36
 ## Add the app to Outlook  
  After the prerequisites have been met, you can add the app directly from Dynamics 365 app.  
 
-1. Click the **Settings** button ![Dynamics 365 apps web client Settings button](../outlook-app/media/mp-ua-r16-settings.png "Dynamics 365 apps web client Settings button"), and then click **Apps for Dynamics 365**.  
+1. Select the **Settings** button ![Dynamics 365 apps web client Settings button](../outlook-app/media/mp-ua-r16-settings.png "Dynamics 365 apps web client Settings button"), and then click **Apps for Dynamics 365**.  
 
 2. On the **Apps for Dynamics 365** page, under **[!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]**, click **[!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]**.  
 
@@ -147,9 +145,64 @@ Let's go over the individual elements in the menu bar.
 |![Menu - Insights](media/navbar-insights-btn.png)|Choose **Insights** to view the most important and relevant information in relation to what you are doing right now. <br />See [Gain insights into your activities with relationship assistant](#gain-insights-into-your-activities-with-relationship-assistant)|
 |![Menu - Documents](media/navbar-add-template-btn.png)|Choose **Documents** to add email templates, sales literature, or knowledge base articles. <br />See [Add an email template when you create an email message](#add-an-email-template-when-you-create-an-email-message) and [Add sales literature or a knowledge base article when you create an email message](#add-sales-literature-or-a-knowledge-base-article-when-you-create-an-email-message)|
 
+## Use delegate access 
+
+Delegate access is granted to users who manage certain aspects of Outlook and Common Data Service information for another person.
+
+Once delegate access is turned on, you can use Dynamics 365 App for Outlook to track emails and calendar appointments for someone else.
+
+For more information on how to set up delegate access, see [Set up delegate access](enable-delegate-access.md).
+
+
+
+> [!IMPORTANT]
+> - Track status might not update until the sync cycle is complete for both the user and the delegated user. This might take a few minutes. 
+> - The delegated user should be able to access and interact with the primary user's mailbox.
+> - The delegated user cannot track contacts on the delegated mailbox.
+> - The delegated user cannot set **Regarding to** a new contact. Emails and appointments can only be tracked for existing contacts.
+
+### Track email from a known contact
+1. Go to the email folder of the person that you are a delegate for and open an email from a contact that you want to track.
+2. In the Dynamics 365 pane, select **Contact** > **Set Regarding**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/Pic1.png)
+
+3. The status on the email changes to **Track pending** for both the user and the delegated user. 
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/Pic2.png)
+   
+4. Once the email has finished synchronizing in Common Data Service, the status of the email changes to **Tracked regarding** for both the user and the delegated user.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/Pic3.png)
+
+### Track appointment or meeting invitation for a known contact
+
+1. Go to the calendar of the person that you are a delegate for and open the invitation that you want to track in Common Data Service.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/Pic4.png)
+  
+2. When the meeting invitation is open, on the main menu, select **Dynamics 365** to open the mail app.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/Pic5.png)
+
+3. In the Dynamics 365 pane, select **Contact** > **Set Regarding**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/Pic6.png)
+   
+4. The status of the meeting invitation changes to **Track pending** for both the user and the delegated user. 
+   
+5. Once the meeting invitation has finished synchronizing in Common Data Service, the status of the meeting invitation changes to **Tracked regarding** for both the user and the delegated user.
+
+
 ## Experience App for Outlook as a pinnable taskpane
 
-If you're running Outlook 2016 for Windows (click to run build 7668.2000 or later), App for Outlook will appear as a pinnable vertical [taskpane](https://docs.microsoft.com/outlook/add-ins/add-in-commands-for-outlook#launching-a-task-pane) to the right of an open message or appointment in Outlook. For more information, see [Implement a pinnable taskpane in Outlook](https://docs.microsoft.com/outlook/add-ins/pinnable-taskpane). 
+If you're running Outlook 2016 for Windows (click to run build 7668.2000 or later), App for Outlook will appear as a pinnable vertical [taskpane](https://docs.microsoft.com/outlook/add-ins/add-in-commands-for-outlook#launching-a-task-pane) to the right of an open message or appointment in Outlook.Pinning App for Outlook helps you by showing the relevant Dynamics 365 information faster. This will not only give you quick access to App for Outlook but also improves the home page load performance by 30% or more.
 
 ## Add an email recipient as a contact or lead
 One of the first things you might want to do when you receive a customer email, is add the person as a contact or lead to Dynamics 365. In the **Dynamics 365** pane, click (+) and then select **Add as contact** or **Add as lead**.
@@ -160,7 +213,7 @@ One of the first things you might want to do when you receive a customer email, 
 > If the sender of the email is unknown to Dynamics 365, when you add the contact or lead, the email is automatically tracked in Dynamics 365 and set regarding this contact or lead. To stop tracking, you can manually untrack the regarding email. 
 
 ## Link an email message or meeting to a specific Dynamics 365 apps record  
-You can link an email message or meeting to a specific [Dynamics 365 record, such as an account, opportunity, or case. This also tracks the email or meeting in Dynamics 365.
+You can link an email message or meeting to a specific Dynamics 365 record, such as an account, opportunity, or case. This also tracks the email or meeting in Dynamics 365.
 
 1. Create or select an email or meeting.
 
@@ -466,7 +519,7 @@ You can track appointments from another person in your Dynamics 365 apps organiz
 
 You can also use [this tool](https://github.com/seanmcne/OrgDbOrgSettings/releases/) to edit the *OrgDBOrgSetting TrackAppointmentsFromNonOrganizer*.
 
-After the *OrgDBOrgSettin*g is enabled, when you open Dynamics 365 App for Outlook on an appointment created by another user in your organization, you can track the appointment. You will no longer see the banner blocking you from tracking the calendar item.
+After the *OrgDBOrgSetting* is enabled, when you open Dynamics 365 App for Outlook on an appointment created by another user in your organization, you can track the appointment. You will no longer see the banner blocking you from tracking the calendar item.
 
  ![Track appointments](media/Trackappointments.png "Track appointments ")
 
@@ -474,7 +527,7 @@ After the *OrgDBOrgSettin*g is enabled, when you open Dynamics 365 App for Outlo
 
 The Dynamics 365 App for Outlook tracks and synchronizes your mail and calendar data between Outlook (Exchange) and Dynamics 365 apps. Server Side Synchronization is an asynchronous service that runs in the background approximately every 15 minutes to synchronize items between Exchange and Dynamics 365 apps. In most scenarios, the Outlook item is immediately created in Dynamics 365 apps. However, in some cases, Server Side Synchronization service is used to promote the item to Dynamics 365 apps and keep it synchronized, which may take up to 15 minutes. The below table provides a brief explainer of the behavior.
 
-In most cases items are immediately tracked aside from, when an email is in compose mode and recurring appointments.
+In most cases items are immediately tracked, aside from when an email is in compose mode and recurring appointments.
 
    > [!NOTE]
    > Server Side Synchronization is used to promote emails when Microsoft Outlook includes images in email signatures as attachments.

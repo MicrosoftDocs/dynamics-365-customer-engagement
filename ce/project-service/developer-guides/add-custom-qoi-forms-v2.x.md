@@ -56,7 +56,7 @@ Follow these steps to create a custom version of the **Project Information** for
 
 5. Create an **msdyn\_ordertype** mapping for the **formId** value by editing the msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js web resource. Remove the code from the resource, and replace it with the following code.
 
-    ```
+    ```javascript
     define(["require", "exports"], function (require, exports) {
         "use strict";
         var SalesDocumentCustomFormIds = (function () {

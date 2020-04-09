@@ -39,7 +39,6 @@ With Dynamics 365 Customer Engagement (on-premises), XRM tooling enables you to 
 ```  
 
 > [!IMPORTANT]
-
 > If you add any sensitive information to the `app.config` or `web.config` file, for example an account password, be sure to take appropriate security precautions to protect the information.  
 
  After creating the connection string, you use it to create a <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> object.  
@@ -137,6 +136,8 @@ Create a new connection using the current logged in user via oAuth.
 
 > [!NOTE]
 > OAuth is the preferred auth type for connecting to Dynamics 365 Customer Engagement (on-premises) when using a interactive flow.  This auth type fully supports the features of Azure Active Directory Conditional Access and Multi-Factor authentication.
+> To learn more about the `Integrated Security` parameter, see the topic [here](https://docs.microsoft.com/dotnet/framework/data/adonet/connection-string-syntax#windows-authentication).
+
 
 ```xml
 <add name="MyCRMServer"

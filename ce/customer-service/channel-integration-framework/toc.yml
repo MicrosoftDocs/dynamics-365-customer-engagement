@@ -9,7 +9,6 @@
     href: v2/overview-channel-integration-framework.md
   - name: "What's new"
     href: whats-new-channel-integration-framework.md
-    
   - name: Version 1.0
     items:
     - name: "System requirements"
@@ -120,8 +119,6 @@
       href:  v2/system-requirements-channel-integration-framework-v2.md    
     - name: "Architecture of version 2.0"
       href: v2/architecture-overview-channel-integration-framework-v2.md
-    - name: "Onboard to version 2.0 flight"
-      href: v2/onboard-org-flight.md
     - name: Download
       items:
       - name: "Get Channel Integration Framework"

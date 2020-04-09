@@ -1,14 +1,13 @@
 ---
 title: "Security enhancements: User session and access management | MicrosoftDocs"
 ms.custom: 
-ms.date: 10/01/2019
+ms.date: 02/11/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement  (online)
   - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 599f849d-c4cb-4b1c-84a0-9fde48a1601a
 caps.latest.revision: 59
@@ -19,7 +18,6 @@ search.audienceType:
   - admin
 search.app: 
   - D365CE
-  - Powerplatform
 ---
 # Security enhancements: User session and access management 
 
@@ -28,39 +26,6 @@ You can use security enhancements to better secure Dynamics 365 Customer Engagem
 ## User session timeout management
 
 The maximum user session timeout of 24 hours is removed.  This means that a user is not forced to login with their credentials to use the Customer Engagement (on-premises) and other Microsoft service apps like Outlook that were opened in the same browser session every 24 hours. 
-
-### Honor Azure AD session policy 
-By default, the Customer Engagement (on-premises) leverage the Azure Active Directory (Azure AD) [session policy](https://docs.microsoft.com/azure/active-directory/develop/active-directory-configurable-token-lifetimes) to manage the user session timeout.  Customer Engagement (on-premises) use the Azure AD ID Token with a Policy Check Interval (PCI) claims.  Every hour a new Azure AD ID Token is fetched silently in the background and the Azure AD instant policy is enforced (by Azure AD). For example, if an administrator disables or deletes a user account, blocks the user from signing in, and an administrator or user revokes the refresh token, the Azure AD session policy is enforced. 
-
-This Azure AD ID token refresh cycle continues in the background based on the Azure AD token lifetime policy configurations.  Users continue to access Customer Engagement (on-premises)/Common Data Service data without the needs to re-authenticate until the Azure AD token lifetime policy expires. 
-
-> [!NOTE]
-> - The default Azure AD refresh token expiration is 90 days.  This token lifetime properties can be configured. For detailed information, see [Configurable token lifetimes in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-configurable-token-lifetimes#configurable-token-lifetime-properties).
-> - The Azure AD session policy is bypassed and the maximum user session duration is reverted back to 24 hours in the following scenarios:
->   - In a browser session, you went to the **Dynamics 365 Administration Center** and opened an environment by manually keying in the environment URL (either on the same browser tab or a new browser tab).<br/> 
->     **To workaround** the policy bypass and maximum 24 hour user session, open the environment from the Dynamics 365 Administration Center **Instances** tab by selecting the **Open** link.
->   - In the same browser session, open a version 9.1.0.3647 or higher environment and then open a version earlier 9.1.0.3647. <br/>
->     **To workaround** the policy bypass and user duration change, open the second environment in a separate browser session.
->
-> To determine your version, sign in to [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps, and in the upper-right side of the screen, select the **Settings** button (![User profile Settings button](media/user-profile-settings-button.gif)) > **About**. 
-
-
-### Resilience to Azure AD outages 
-In an event that there are intermittent Azure AD outages, authenticated users can continue to access Customer Engagement (on-premises)/Common Data Service data if the PCI claims has not expired or the user has opted in the ‘Stay signed in’ during authentication. 
-
-### Set Custom Session timeout for individual environment 
-For environments that require different session timeout values, administrators can continue to set the session timeout and/or inactivity timeout in the System Settings.  These settings override the default Azure AD session policy and users will be directed to Azure AD for re-authentication when these settings expired.   
-
-### To change this behavior
-
-- To enforce users to re-authenticate after a pre-determined period of time, admins can set a session timeout for Customer Engagement (on-premises).  Users can only remain signed in the application for the duration of session.  The application signs out the user when the session expires.  Users need to sign-in with their credentials to return to Customer Engagement (on-premises).
-
-> [!NOTE]
-> User session timeout is not enforced in the following:
-> 1. [!INCLUDE [pn-oc-online-short](../includes/pn-oc-online-short.md)]
-> 2. [!INCLUDE [pn-dyn-365-phones](../includes/pn-dyn-365-phones.md)] and [!INCLUDE [pn-dyn-365-tablets](../includes/pn-dyn-365-tablets.md)]
-> 3. [!INCLUDE [pn-unified-service-desk](../includes/pn-unified-service-desk.md)] client using [WPF](https://docs.microsoft.com/dotnet/framework/wpf/) browser (Internet Explorer is supported)
-> 4. Live Assist (Chat)
 
 ## Configure session timeout 
 
@@ -100,10 +65,72 @@ The Customer Engagement (on-premises) portal has its own settings to manage its 
 > - Minimum Duration of Inactivity: 5 minutes
 > - Maximum Duration of Inactivity: less than Maximum Session length or 1440 minutes
 
-## Access management
+## Steps for enabling security enhancements for Dynamics 365 for Customer Engagement apps (on-premises) deployments
 
-Customer Engagement (on-premises) uses Azure Active Directory as the identity provider.  To secure the user’s access to Customer Engagement (on-premises), the following were implemented:
+These security enhancements are shipped disabled by default.  Administrators can enable these enhancements when using one of the supported Dynamics 365 for Customer Engagement apps (on-premises) builds listed below.
 
-- To enforce users to re-authenticate, users are required to sign in with their credentials after they signed out within the application. 
-- To prevent users from sharing credentials to access Customer Engagement (on-premises), the user access token is validated to ensure that the user who was given access by the identity provider is the same user who is accessing Customer Engagement (on-premises).
+ ### Requirement
+ These security enhancement features require claims-based authentication for user authentication. You can configure claims-based authentication in one of two ways:
+ - With an Internet-facing deployment (IFD). See [Configure IFD for Microsoft Dynamics 365 for Customer Engagement](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/deployment-administrators-guide/dn609803(v=crm.8)).
+ - With claims-based authentication alone if Microsoft Dynamics 365 for Customer Engagement apps is deployed in the same domain where all Microsoft Dynamics 365 for Customer Engagement apps users are located, or users are in a trusted domain. See [Configure claims-based authentication](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/deployment-administrators-guide/dn920270(v=crm.8)).
 
+To obtain SDK sample code (for reference, not required to configure and enable session timeout):
+
+1. Access your Dynamics 365 for Customer Engagement server using your administrator account.
+2. Open a browser session and download the [Dynamics 365 for Customer Engagement apps Software Development Kit (SDK)](https://docs.microsoft.com/dynamics365/customer-engagement/developer/download-dynamics-365-sdk-v9).
+3. Select and run **MicrosoftDynamics365SDK.exe**. This will extract the download and create an SDK folder on your Dynamics 365 for Customer Engagement server.
+4. Open a PowerShell command prompt.
+5. Navigate to the downloaded SDK folder.
+6. Open the SampleCode\PS folder.
+
+After updating to a supported on-premises version, follow the steps below to enable security enhancements.
+
+### User session timeout
+
+System admins can now force users to re-authenticate after a set period.  You can set an active session timeout for each of your Dynamics 365 for Customer Engagement instances.  Users can only remain signed in to the application for the duration of the session.  Once the session expires, they’ll need to sign in again with their credentials.  System admins can also require sign in for users after a period of inactivity.  You can set an inactivity timeout for each of your instances.  The helps prevent unauthorized access by a malicious user from an unattended device. 
+
+**Enable user session timeout**
+
+  1. Enable session timeout:
+     ```    
+     SetAdvancedSettings.ps1 -ConfigurationEntityName ServerSettings -SettingName AllowCustomSessionDuration -SettingValue true
+     ```
+
+  2. Enable inactivity timeout:
+     ``` 
+     SetAdvancedSettings.ps1 -ConfigurationEntityName ServerSettings -SettingName AllowCustomInactivityDuration -SettingValue true
+     ```
+
+### Access token management
+
+To better protect user access and data privacy in Dynamics 365 for Customer Engagement, when a user signs out in the web client and needs to return to the application, they will need to enter their credentials again in all open browser sessions. Dynamics 365 for Customer Engagement apps ensures that the sign-in token was originally generated for the current browser and computer.
+
+**Enable access token management**
+
+To enable for all organizations by default, copy and run this command in PowerShell:
+
+```    
+SetAdvancedSettings.ps1 -ConfigurationEntityName ServerSettings -SettingName WSFedNonceCookieEnabled -SettingValue true
+```
+
+Sample:
+
+![SetAdvancedSettings.ps1](media/ps_setadvancedsettings.png)
+
+-OR- 
+
+To enable for a single organization, copy and run this command in PowerShell:
+
+```
+SetAdvancedSettings.ps1 -ConfigurationEntityName Organization -SettingName WSFedNonceCookieEnabled -SettingValue true -Id <Your organization ID GUID>
+```
+To get [Your organization ID GUID], open PowerShell, and run the following:
+
+```
+Add-PSSnapin Microsoft.Crm.PowerShell 
+Get-CrmOrganization
+```
+        
+Sample:
+
+![Example Organization ID](media/ps_orgid.png)

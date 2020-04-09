@@ -1,13 +1,12 @@
 ---
 title: "msdyn_smsnumber Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_smsnumber entity."
+ms.date: 03/23/2020
+ms.service: "crm-online"
+ms.topic: "reference"
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
-ms.date: 08/29/2019
-ms.service: 
-  - crm-online
-ms.topic: "reference"
 ---
 # msdyn_smsnumber Entity Reference
 
@@ -63,6 +62,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [msdyn_FormattedPhoneNumber](#BKMK_msdyn_FormattedPhoneNumber)
 - [msdyn_LiveWorkStreamId](#BKMK_msdyn_LiveWorkStreamId)
 - [msdyn_number](#BKMK_msdyn_number)
+- [msdyn_operatinghourid](#BKMK_msdyn_operatinghourid)
 - [msdyn_Provider](#BKMK_msdyn_Provider)
 - [msdyn_smsnumberId](#BKMK_msdyn_smsnumberId)
 - [msdyn_Type](#BKMK_msdyn_Type)
@@ -133,7 +133,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_liveworkstreamid|
-|RequiredLevel|None|
+|RequiredLevel|ApplicationRequired|
 |Targets|msdyn_liveworkstream|
 |Type|Lookup|
 
@@ -154,12 +154,28 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
+### <a name="BKMK_msdyn_operatinghourid"></a> msdyn_operatinghourid
+
+**Added by**: Omnichannel - SMS Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Used to denote operating hours for the sms numbers record|
+|DisplayName|Operating Hours|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_operatinghourid|
+|RequiredLevel|None|
+|Targets|msdyn_operatinghour|
+|Type|Lookup|
+
+
 ### <a name="BKMK_msdyn_Provider"></a> msdyn_Provider
 
 |Property|Value|
 |--------|-----|
 |Description|SMS Provider for number|
-|DisplayName|Provider|
+|DisplayName|DEPRECATED_Provider|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_provider|
@@ -352,6 +368,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
 - [msdyn_LiveWorkStreamIdName](#BKMK_msdyn_LiveWorkStreamIdName)
+- [msdyn_operatinghouridName](#BKMK_msdyn_operatinghouridName)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
 - [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
@@ -614,6 +631,24 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
+### <a name="BKMK_msdyn_operatinghouridName"></a> msdyn_operatinghouridName
+
+**Added by**: Omnichannel - SMS Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_operatinghouridname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
 **Added by**: Active Solution Solution
@@ -720,12 +755,21 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
 
+- [msdyn_msdyn_liveworkstream_msdyn_smsnumber](#BKMK_msdyn_msdyn_liveworkstream_msdyn_smsnumber)
+- [msdyn_msdyn_operatinghour_msdyn_smsnumber_operatinghours](#BKMK_msdyn_msdyn_operatinghour_msdyn_smsnumber_operatinghours)
+
 
 ### <a name="BKMK_msdyn_msdyn_liveworkstream_msdyn_smsnumber"></a> msdyn_msdyn_liveworkstream_msdyn_smsnumber
 
 **Added by**: Omnichannel – Base Solution
 
 See msdyn_liveworkstream Entity [msdyn_msdyn_liveworkstream_msdyn_smsnumber](msdyn_liveworkstream.md#BKMK_msdyn_msdyn_liveworkstream_msdyn_smsnumber) One-To-Many relationship.
+
+### <a name="BKMK_msdyn_msdyn_operatinghour_msdyn_smsnumber_operatinghours"></a> msdyn_msdyn_operatinghour_msdyn_smsnumber_operatinghours
+
+**Added by**: Omnichannel – Base Solution
+
+See msdyn_operatinghour Entity [msdyn_msdyn_operatinghour_msdyn_smsnumber_operatinghours](msdyn_operatinghour.md#BKMK_msdyn_msdyn_operatinghour_msdyn_smsnumber_operatinghours) One-To-Many relationship.
 
 ### See also
 

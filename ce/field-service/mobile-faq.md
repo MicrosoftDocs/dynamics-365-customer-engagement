@@ -2,8 +2,8 @@
 title: "Frequently asked questions for Field Service Mobile | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 10/28/2019
-ms.reviewer: ""
+ms.date: 04/01/2020
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
@@ -13,10 +13,10 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
 caps.latest.revision: 42
-ms.author: FieldServiceDave
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin
@@ -35,15 +35,15 @@ search.app:
 
 ## How do I extend or activate my mobile configuration tool (Woodford) trial?
 
-The Mobile Configuration Tool (Woodford) is used to configure and customize the Field Service Mobile app. After [installing and setting up Field Service Mobile](https://docs.microsoft.com/dynamics365/field-service/install-field-service#download-the-field-service-mobile-app-on-a-phone-or-tablet), you'll need to activate or extend the Mobile Configuration Tool (Woodford) within 30 days. See the topic on [activating or extending the mobile configuration tool (Woodford) trial](activate-fs-mobile-app-license.md) for more details.
+The Mobile Configuration Tool (Woodford) is used to configure and customize the Field Service Mobile app. After [installing and setting up Field Service Mobile](https://docs.microsoft.com/dynamics365/field-service/install-field-service#download-the-field-service-mobile-app-on-a-phone-or-tablet), you'll need to activate or extend the Mobile Configuration Tool (Woodford) within 30 days. See the article on [activating or extending the mobile configuration tool (Woodford) trial](activate-fs-mobile-app-license.md) for more details.
 
 ## What version of Field Service Mobile am I using?
 
-See the topic on [identifying your Field Service Mobile version](mobile-faq-latest-version.md).
+See the article on [identifying your Field Service Mobile version](mobile-faq-latest-version.md).
 
 ## What is the latest version of the mobile app and configuration tool?
 
-See the topic on [Field Service version history](version-history.md) to understand the latest versions of Field Service, Field Service Mobile, Mobile Configuration tool (Woodford), and the mobile project template.
+See the article on [Field Service version history](version-history.md) to understand the latest versions of Field Service, Field Service Mobile, Mobile Configuration tool (Woodford), and the mobile project template.
 
 ## My mobile app will not sync to the server or crashes immediately
 
@@ -54,7 +54,7 @@ There are a few reasons why your mobile application may not be syncing (or crash
 3. The mobile project is published to a later version than the mobile app
 4. Your user doesn't have the correct security role to access the mobile application
 
-See the topic on [common reasons Field Service Mobile does not sync to the server or crashes](mobile-faq-sync-crash.md) for more details.
+See the article on [common reasons Field Service Mobile does not sync to the server or crashes](mobile-faq-sync-crash.md) for more details.
 
 ## Why can't I see my bookings when logged into the app?
 
@@ -64,11 +64,11 @@ There are typically 3 reasons bookings don't show up in the mobile app:
 2. The application is in offline mode and the booking is outside the sync filters
 3. Drip scheduling is enabled for the related resource and the booking is outside the bookings to drip number parameter
 
-See the topic on [common reasons no bookings are displayed in Field Service Mobile](mobile-faq-bookings-not-showing.md) for more details.
+See the article on [common reasons no bookings are displayed in Field Service Mobile](mobile-faq-bookings-not-showing.md) for more details.
 
 ## Bookings not scheduled to me show up when logged in to the mobile app
 
-Ensure your mobile user has only the Field Service resource security role, see the topic on [seeing bookings not scheduled to me](mobile-faq-bookings-not-scheduled-to-me.md) for more details.
+Ensure your mobile user has only the Field Service resource security role, see the article on [seeing bookings not scheduled to me](mobile-faq-bookings-not-scheduled-to-me.md) for more details.
 
 
 ## What are the supported encodings for barcode scanning in Field Service Mobile?
@@ -90,7 +90,7 @@ Field Service Mobile supports the following barcode encoding:
 
 When in offline mode, the user is looking at data stored locally on the device's storage; and in online mode the mobile app is looking at data on the server. Retrieving local data from the device is always faster than retrieving remote data from the server. Offline performance is often better because the mobile application is not making calls directly to the Dynamics 365 database. 
 
-Field technician don't typically need access to the entire Field Service entity database, so we recommend using sync filters in offline mode to filter the data that is downloaded to the device.
+Field technicians don't typically need access to the entire Field Service entity database, so we recommend using sync filters in offline mode to filter the data that is downloaded to the device.
 
 In online mode, certain logic will run instantly rather than waiting for a sync. If you'd like to work in online mode but not call so much data, there is an option to **Use Sync filter in Online Mode**  in the properties dialog of a view.
 
@@ -133,12 +133,12 @@ This depends on the version of the app:
 
 ## How can field technicians chat with each other from their mobile devices? 
 
-We recommend using Microsoft Teams or Microsoft's Kaizala. See the [topic on deeplinking to Teams](https://docs.microsoft.com/microsoftteams/platform/concepts/deep-links) from Field Service Mobile. 
+We recommend using Microsoft Teams or Microsoft's Kaizala. See the [article on deeplinking to Teams](https://docs.microsoft.com/microsoftteams/platform/concepts/deep-links) from Field Service Mobile. 
 
 
 ## Why do users get the error "Your Organization has not configured the Field Service Mobile app with the correct project"?
 
-This message means the mobile application has not been set up with the correct mobile project or the logged in user is getting access to an incorrect mobile project based on their security role. See the topic on [installing and setting up Field Service Mobile](https://docs.microsoft.com/dynamics365/field-service/install-field-service#download-the-field-service-mobile-app-on-a-phone-or-tablet) to set up the mobile app with Microsoft's mobile project as a base parent and [Field Service mobile project library](https://docs.microsoft.com/dynamics365/field-service/version-history#mobile-project-file-library) to see a list of previous mobile projects. 
+This message means the mobile application has not been set up with the correct mobile project or the logged in user is getting access to an incorrect mobile project based on their security role. See the article on [installing and setting up Field Service Mobile](https://docs.microsoft.com/dynamics365/field-service/install-field-service#download-the-field-service-mobile-app-on-a-phone-or-tablet) to set up the mobile app with Microsoft's mobile project as a base parent and [Field Service mobile project library](https://docs.microsoft.com/dynamics365/field-service/version-history#mobile-project-file-library) to see a list of previous mobile projects. 
 
 
 ## When field technicians are performing onsite service, can they connect to bluetooth devices?
@@ -161,4 +161,91 @@ Try publishing the mobile project again to match the version of the app. For ins
 
 ## Can I use the Dynamics 365 mobile application to access Field Service? 
 
-We strongly recommend using the Field Service Mobile app to access Field Service, rather than the Dynamics 365 mobile app with the Unified Interface. While the native Dyanmics 365 app does work in offline mode, it doesn't fully support offline mode for Field Service-specific scenarios. For more information, visit our topic on Field Service Mobile.
+We strongly recommend using the Field Service Mobile app to access Field Service, rather than the Dynamics 365 mobile app with the Unified Interface. While the native Dynamics 365 app does work in offline mode, it doesn't fully support offline mode for Field Service-specific scenarios. For more information, visit our article on Field Service Mobile.
+
+## How can I correct the error "Your Server customization requires new version of the Application"?
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the error window "Your Server customization requires new version of the Application."](./media/fsm-error-your-server-customization.png)
+
+Correct this error by updating your Woodford project version to match the version of your Field Service Mobile application currently in use. 
+ 
+To solve:
+1.	Access Woodford: **Advanced Settings** > **Settings** > **mobileCRM** > **Woodford**.
+1.	Enter Woodford Solution and **Edit** your active project.
+1.	Set **Version** to mirror your mobile app version (should not be **Latest**).
+1.	Publish Woodford.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the publish version option in the Woodford settings.](./media/fsm-error-version.png)
+
+## Why am I getting the error "Your organization needs to configure Field Service Mobile. There may not be a published mobile project or the mile project is not configured for a security role assigned to you."
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the error window, "Your organization needs to configure Field Service Mobile. There may not be a published mobile project or the mile project is not configured for a security role assigned to you."](./media/fsm-error-your-organization-needs-to-configure.png)
+
+This error is a signal that the Woodford Project has not been published or a role assigned to your user either in Woodford or CRM user security settings. 
+ 
+To check if Woodford is published:
+1. Access Woodford: **Advanced Settings** > **Settings** > **mobileCRM** > **Woodford**.
+1. Enter Woodford Solution.
+2. Check the symbol next to your Woodford project; if it's a red circle with a slash through it, select **Activate** in command bar.
+
+
+This is what an unpublished project looks like: 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the unpublished Woodford project with a red circle with a slash through it beside the project.](./media/fsm-error-unpublished-project.png)
+
+This is what a published project looks like: 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a published Woodford project.](./media/fsm-error-published-project.png)
+
+If you still can't sign in to the app and get the same error, please confirm your resource has the correct roles applied. 
+1. Go to **Properties** in top navigation.
+1. Select Field Service roles for this project.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the project properties window showing the roles selected.](./media/fsm-error-security-roles.png)
+
+You can then select **Check Users** and type in desired users name to check their role level or access.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the check users window.](./media/fsm-check-users.png)
+
+If you can't find the user or set up their role, the user may not have the required Dynamics 365 Security Roles in place. In Dynamics 365, go to **Settings** > **Security** > **Users** > [User] > **Manage Roles**; select all security roles user should be part of for Field Service.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the manage user roles window in Dynamics 365.](./media/fsm-error-security-roles-in-app.png)
+
+## Why am I getting the error "Your organization has not set your account's Bookable Resource to be 'Enabled for Field Service Mobile'"
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the error window, "Your organization has not set your account's Bookable Resource to be 'Enabled for Field Service Mobile.'"](./media/fsm-error-your-organization-has-not-set-bookable-resource.png)
+
+This error notes that the resource trying to access the mobile application is not set as a bookable resource.
+ 
+To correct:
+
+1.	Enter Field Service CRM.
+1.	Select **Resources**.
+1.	Select the desired user.
+1.	Go to the **Field Service** tab.
+1.	Set **Yes** for **Enable for Field Service Mobile**.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the Enable for Field Service Mobile option set to yes on a Dynamics 365 Resource.](./media/fsm-error-enable-for-mobile.png)
+
+## Why am I getting the error "One or more errors occurred. AADSTS50097: Device Authentication Required…."
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the error window: "One or more errors occurred. AADSTS50097: Device Authentication Required…."](./media/fsm-error-one-or-more-errors-occured.png)
+
+This error notes that your AAD security settings have a conditional access block which disallows Field Service Mobile from reaching authentication servers. 
+ 
+To correct, you'll need to discuss with your network security team and evaluate Conditional Access policies which may be blocking Dynamics 365. For more information, see the article [Troubleshoot Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/troubleshoot-conditional-access-what-if).

@@ -22,7 +22,8 @@ The frontend part of the application is bundled into two resource files that are
 
 Although the frontend definition is hosted on Dynamics 365 Portals, you can still fully customize it. The backend part of the web application is not customizable since the **REST API** endpoints are hosted on Dynamics 365 Portal as a set of [web pages](https://docs.microsoft.com/dynamics365/customer-engagement/portals/web-page). The code containing the business logic behind it resides in Event Management plugins which are not customizable.
 
-![Portal Hosted](../media/portal-hosted.png "Portal Hosted")
+> [!div class="mx-imgBorder"]
+> ![Portal Hosted](../media/portal-hosted.png "Portal Hosted")
 
 ## Additional project setup
 
@@ -31,8 +32,8 @@ Although the frontend definition is hosted on Dynamics 365 Portals, you can stil
 1. Duplicate the `environment.d365.ts` configuration file located in the **\src\environments** folder and name it as **environment.ts**.
 1. Open the **environment.ts** configuration file in the developer environment of your choice.
 1. Change the `apiEndpoint` variable to point to the **Website Bindings** value.
-
-    ![Website binding](../media/website-binding-record.png "Website binding")
+    > [!div class="mx-imgBorder"]
+    > ![Website binding](../media/website-binding-record.png "Website binding")
 
     > [!NOTE]
     > You need to add a trailing slash at the end of the URL.
@@ -114,8 +115,8 @@ If you want to serve the custom event website from a **custom domain**, you need
 1. Add the custom origin that should be allowed. For example, if the custom event website is hosted on `https://contoso.com/` custom domain than the value field must be set to `https://contoso.com/`.
 1. Select **Save**.
 1. Restart Portals to make sure that the settings are applied.
-
-    ![A new site setting to allow 'https://contoso.com/' as a custom domain.](../media/cors-settings-portals.png "A new site setting to   allow 'https://contoso.com/' as a custom domain.")
+    > [!div class="mx-imgBorder"]
+    > ![A new site setting to allow 'https://contoso.com/' as a custom domain.](../media/cors-settings-portals.png "A new site setting to   allow 'https://contoso.com/' as a custom domain.")
 
     > [!NOTE]
     > More information about CORS can be found here [CORS](https://developer.mozilla.org/docs/Web/HTTP/CORS) [Access-Control-Allow-Origin](https://developer.mozilla.org/docs/Web/HTTP/Headers/Access-Control-Allow-Origin)

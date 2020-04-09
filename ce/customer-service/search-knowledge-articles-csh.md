@@ -130,7 +130,7 @@ Agents can perform the following:
 - Send an article pop out 
 - Copy and send article URLs when configured. 
 
-To configure, see [Configure knowledge base article URLs](/search-knowledge-articles-csh.md#configure-knowledge-base-article-url).
+To configure, see [Configure knowledge base article URLs](#configure-knowledge-base-article-url).
 
   > [!div class=mx-imgBorder]
   > ![Independent KB search](media/kb-independent-search.png)

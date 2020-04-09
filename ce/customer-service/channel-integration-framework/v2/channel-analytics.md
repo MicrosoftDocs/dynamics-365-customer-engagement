@@ -65,18 +65,25 @@ The two APIs for tracking event analytics are:
 | [updateConversation](reference/microsoft-ciframework/updateConversation.md) | Invoke this method to update a conversation record. |
 | [logAnalyticsEvent](reference/microsoft-ciframework/logAnalyticsEvent.md) | Invoke this method to log analytics for custom events. |
 
-Ideally `updateConversation` API should be called before the incoming notification is displayed. `logAnalyticsEvent` API can be called as many times as needed after the `updateConversation` call succeeds. 
-
-If there is a need to log events from the server side, the following required entity records need to be created before the event logging can take place.
-- Conversation Data
-- Session Data 
-- Session Participant Data
-
-After the above records are created, the event logging can be done by creating `KPI Event Data` entity record. 
+The `updateConversation` API can be invoked if the channel provider wants to enrich the Conversation entity record with details from third party systems. `logAnalyticsEvent` API can be called as many times as needed after the `updateConversation` call succeeds. 
 
 ### How to enable analytics for your organization
 
-Channel Analytics can be enabled at a Dynamics 365 Channel Integration Framework provider level. 
+Channel Analytics can be enabled at a Dynamics 365 Channel Integration Framework provider level. It can be enabled using both the user interface and the Web API.
+
+#### Using User Interface
+
+1. Select the drop-down button on the Dynamics 365 and select **Channel Integration Framework**.
+
+![Dynamics 365 drop-down button to find Channel Integration Framework](../media/cif-app-navigation.png "Dynamics 365 drop-down button to find Channel Integration Framework")
+
+2. Select **+ New** to add a new provider.
+
+3. In the **New Channel** page, set **Enable Analytics** field to **Yes**.
+
+![Enable channel analytics using user interface](../media/enable-channel-analytics.PNG "Enable channel analytics")
+
+#### Using Web API
 
 1. Query for the provider record ID by using the following Web API request:
 
@@ -105,6 +112,8 @@ For that session, all first-party instrumentation events like notification displ
 If the partner wants to fire some custom event for their KPIs, they can do it with the same correlation ID as well using the [logAnalyticsEvent API](reference/microsoft-ciframework/logAnalyticsEvent.md).
 
 ## Channel Analytics Entities
+
+Channel Integration Framework creates a Conversation entity ([msdyn_ocliveworkitem](../../../omnichannel/developer/reference/entities/msdyn_ocliveworkitem.md)) record in Common Data Service for every third party conversation launched through it.
 
 ### msdyn_kpieventdefinition
 

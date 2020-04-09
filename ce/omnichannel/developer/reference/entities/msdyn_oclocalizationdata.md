@@ -1,13 +1,12 @@
 ---
 title: "msdyn_oclocalizationdata Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_oclocalizationdata entity."
+ms.date: 03/23/2020
+ms.service: "crm-online"
+ms.topic: "reference"
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
-ms.date: 08/29/2019
-ms.service: 
-  - crm-online
-ms.topic: "reference"
 ---
 # msdyn_oclocalizationdata Entity Reference
 
@@ -53,12 +52,14 @@ Entity used for data localization on CRM.
 These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
+- [msdyn_customerlanguageid](#BKMK_msdyn_customerlanguageid)
 - [msdyn_EntityColumnName](#BKMK_msdyn_EntityColumnName)
 - [msdyn_EntityName](#BKMK_msdyn_EntityName)
 - [msdyn_EntityRecordId](#BKMK_msdyn_EntityRecordId)
 - [msdyn_LanguageCode](#BKMK_msdyn_LanguageCode)
 - [msdyn_localizedtext](#BKMK_msdyn_localizedtext)
 - [msdyn_oclocalizationdataId](#BKMK_msdyn_oclocalizationdataId)
+- [msdyn_systemmessageid](#BKMK_msdyn_systemmessageid)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [statecode](#BKMK_statecode)
 - [statuscode](#BKMK_statuscode)
@@ -81,6 +82,22 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |MinValue|-2147483648|
 |RequiredLevel|None|
 |Type|Integer|
+
+
+### <a name="BKMK_msdyn_customerlanguageid"></a> msdyn_customerlanguageid
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for Channel Language associated with Localization Data.|
+|DisplayName|Language code|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_customerlanguageid|
+|RequiredLevel|None|
+|Targets|msdyn_oclanguage|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_EntityColumnName"></a> msdyn_EntityColumnName
@@ -141,8 +158,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_languagecode|
-|MaxValue|2147483647|
-|MinValue|-2147483648|
+|MaxValue|100000|
+|MinValue|0|
 |RequiredLevel|ApplicationRequired|
 |Type|Integer|
 
@@ -175,6 +192,22 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |LogicalName|msdyn_oclocalizationdataid|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
+
+
+### <a name="BKMK_msdyn_systemmessageid"></a> msdyn_systemmessageid
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for System Message associated with Localization Data.|
+|DisplayName|System Message Id|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_systemmessageid|
+|RequiredLevel|None|
+|Targets|msdyn_ocsystemmessage|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
@@ -287,6 +320,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
+- [msdyn_customerlanguageidName](#BKMK_msdyn_customerlanguageidName)
+- [msdyn_systemmessageidName](#BKMK_msdyn_systemmessageidName)
 - [OrganizationId](#BKMK_OrganizationId)
 - [OrganizationIdName](#BKMK_OrganizationIdName)
 - [VersionNumber](#BKMK_VersionNumber)
@@ -530,6 +565,42 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
+### <a name="BKMK_msdyn_customerlanguageidName"></a> msdyn_customerlanguageidName
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_customerlanguageidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_systemmessageidName"></a> msdyn_systemmessageidName
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_systemmessageidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
 ### <a name="BKMK_OrganizationId"></a> OrganizationId
 
 **Added by**: Active Solution Solution
@@ -580,7 +651,16 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|BigInt|
 
+<a name="manytoone"></a>
 
+## Many-To-One Relationships
+
+Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
+
+
+### <a name="BKMK_msdyn_ocsystemmessage_msdyn_oclocalizationdata"></a> msdyn_ocsystemmessage_msdyn_oclocalizationdata
+
+See msdyn_ocsystemmessage Entity [msdyn_ocsystemmessage_msdyn_oclocalizationdata](msdyn_ocsystemmessage.md#BKMK_msdyn_ocsystemmessage_msdyn_oclocalizationdata) One-To-Many relationship.
 
 ### See also
 

@@ -78,7 +78,6 @@ The following table shows:
 - Resource A: This resource has the same calendar and is in the same time zone as the project. The start time of the bookings will be 9:00 AM.
 - Resources B: This resource is located in a different time zone than the project and therefore starts at 7:00 AM in their time zone. However, the bookings will begin at 9:00 AM as that is the earliest start time of the assignment contour.
 - Resources C and D: The resources are also located in different time zones, both different from each other and the project, and their bookings start no earlier than their respective available start times.
-s, both from each other and the project, and their bookings start no earlier than their respective available start times.
 
 |Entity  |Calendar  |
 |-|-|

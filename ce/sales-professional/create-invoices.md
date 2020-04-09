@@ -19,9 +19,9 @@ You can also create an invoice that doesn’t generate from a quote.
 
 ## Create an invoice from a quote
 
-1.  In the site map, select **Orders**.
+1.  In the site map, select **Quotes**.
 
-2.  Select the order that you want to create an invoice from.
+2.  Select the quote that you want to create an invoice from.
 
 3.  On the command bar, select **Create Invoice**.
 

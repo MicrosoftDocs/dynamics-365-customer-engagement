@@ -1,13 +1,13 @@
 ---
 title: FAQ and troubleshooting tips
-author: shellyhaverkamp
-manager: shellyha
+author: FieldServiceDave
+ms.reviewer: krbjoran
 ms.date: 08/27/2019
 ms.topic: article
 ms.custom: 
   - dyn365-fieldservice
 ms.service: dynamics-365-customerservice
-ms.author: shellyha
+ms.author: daclar
 search.audienceType: 
   - admin
   - customizer

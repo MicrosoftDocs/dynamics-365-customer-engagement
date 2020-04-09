@@ -14,6 +14,6 @@ ms.custom:
 ---
 # updateContext
 
-[!include[cc-beta-prerelease-disclaimer](../../../../../includes/cc-beta-prerelease-disclaimer.md)]
+ 
 
 [!INCLUDE[update-updateContext](../../../shared/token-updateContext.md)]
