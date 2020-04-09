@@ -4,7 +4,7 @@ description: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 03/23/2020
+ms.date: 04/10/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -14,7 +14,7 @@ ms.topic: article
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
 > [!NOTE]
-> See the entire code sample for building a smart assist bot here: [Smart Assist for Bots](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/smart-assist-bot). You will find information on how to setup and run the sample in the sample [README](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/smart-assist-bot/README.md) file. You can make changes to this sample code to implement your custom scenario.
+> For information on how to setup and run the sample code, see the [README](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/smart-assist-bot/README.md) file. You can make changes to this sample code to implement your custom scenario.
 
 ## Prerequisites
 
@@ -40,7 +40,17 @@ The customer service agent is presented with a list of similar cases as a recomm
 
 ## Implement similar case suggestion
 
-Macros and custom actions can help you implement custom functionalities in your smart assist bot. More information: [Calling macros and custom actions using adaptive cards](smart-assist-bot.md#bkmk_macro_customaction).
+### Generate intent to interpret the context of the conversation
+
+You need to analyze the conversation and understand its context before recommending an action to the agent. Use [Language Understanding (LUIS)](https://luis.ai) to find the intent of the ongoing conversation. Here is an example on how you can create a LUIS app to find intent from a given text: [Quickstart: Use prebuilt Home automation app](/azure/cognitive-services/luis/luis-get-started-create-app).
+
+You can create intents for each issue type or topic that you want to address for incoming requests from customers or the most common topics being discussed.  
+
+For the example scenario of similar case recommendations for ‘printer noise’ issue, create an intent with the same name and add 10-15 examples like ‘printer noise, loud noise from printer, printer making grinding noise, loud clicking noise, loud sound’ etc. The LUIS app then needs to be trained for this intent.  
+
+### Custom actions for implementing custom functionalities
+
+Custom actions can help you implement custom functionalities in your smart assist bot. More information: [Calling macros and custom actions using adaptive cards](smart-assist-bot.md#bkmk_macro_customaction).
 
 Similar cases can be fetched using the `GetSimilarRecords` function. But before you execute the Web API query with this function, make sure that you have set up similarity rules. More information: [Use advanced similarity rules to view similar case suggestions](../../../customer-service/suggest-similar-cases-for-a-case). Also, make sure to enable **Relevance Search** in the administrator section to ensure that similarity rules work in the expected manner. Also, in the **Match Field** section add a few criteria such as case title and case type.
 
@@ -88,5 +98,5 @@ The custom actions required for implementing similar case suggestions include th
 ## See also
 
 [Build a smart assist bot](smart-assist-bot.md)<br />
-[Smart assist for agents](../../administrator/smart-assist.md)<br />
-[Sample code: Smart Assist for Bots](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/smart-assist-bot)
+[Sample code: Smart Assist for Bots](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/smart-assist-bot)<br />
+[Smart assist for agents](../../administrator/smart-assist.md)

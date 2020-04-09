@@ -27,13 +27,6 @@ This topic provides the information on how you can get started with building a s
 
 Refer to the sample code [README](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/smart-assist-bot/README.md) file for information on how and where to update the values obtained from the above steps.
 -->
-## Generate intent to interpret the context of the conversation
-
-You need to analyze the conversation and understand its context before recommending an action to the agent. Use [Language Understanding (LUIS)](https://luis.ai) to find the intent of the ongoing conversation. Here is an example on how you can create a LUIS app to find intent from a given text: [Quickstart: Use prebuilt Home automation app](/azure/cognitive-services/luis/luis-get-started-create-app).
-
-You can create intents for each issue type or topic that you want to address for incoming requests from customers or the most common topics being discussed.  
-
-For the example scenario of similar case recommendations for ‘printer noise’ issue, create an intent with the same name and add 10-15 examples like ‘printer noise, loud noise from printer, printer making grinding noise, loud clicking noise, loud sound’ etc. The LUIS app then needs to be trained for this intent.  
 
 ## Author adaptive cards to display recommendations in the smart assist UI
 
