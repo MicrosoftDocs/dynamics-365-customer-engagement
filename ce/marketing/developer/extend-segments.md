@@ -211,18 +211,18 @@ With the delete request, you delete the compound segment that is created.
 DELETE {{OrgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 ```
 
-## Add/Remove contacts to static segment
+## Add/Remove contacts to static segments
 
 Segment members can be added to or removed from static segments of contacts. You can add/remove contacts either by providing a query definition, or by providing specific contact ids. 
 
 Some of the important aspects that need to be considered while performing add/remove operations on segment members:
 
 - Only instances of entity type **Contact** can be added/removed as members.
-- If provided contact ids do not exist, they are ignored.
-- Adding/Removing member requests are processed asynchronously.
+- If provided contact IDs do not exist, they are ignored.
+- Add/remove member requests are processed asynchronously.
 - You can add/remove contacts by invoking the endpoint multiple times, usually in batches of up to 20.000 contacts each time.
 
-**Add segment members by providing ids**
+**Add segment members by providing IDs**
 
 ```HTTP
 POST {{OrgUrl}}/api/data/v9.0/msdyncrm_SegmentMembersUpdate
@@ -233,7 +233,7 @@ POST {{OrgUrl}}/api/data/v9.0/msdyncrm_SegmentMembersUpdate
 }
 ```
 
-**Remove segment members by providing ids**
+**Remove segment members by providing IDs**
 
 ```HTTP
 POST {{OrgUrl}}/api/data/v9.0/msdyncrm_SegmentMembersUpdate
@@ -244,7 +244,7 @@ POST {{OrgUrl}}/api/data/v9.0/msdyncrm_SegmentMembersUpdate
 }
 ```
 
-**Add segment members by providing query**
+**Add segment members by providing a query**
 
 ```HTTP
 POST {{OrgUrl}}/api/data/v9.0/msdyncrm_SegmentMembersUpdate
@@ -255,7 +255,7 @@ POST {{OrgUrl}}/api/data/v9.0/msdyncrm_SegmentMembersUpdate
 }
 ```
 
-**Remove segment members by providing query**
+**Remove segment members by providing a query**
 
 ```HTTP
 POST {{OrgUrl}}/api/data/v9.0/msdyncrm_SegmentMembersUpdate
@@ -276,7 +276,22 @@ POST {{OrgUrl}}/api/data/v9.0/msdyncrm_SegmentMembersUpdate
 }
 ```
 
-**Retrieve segment members (legacy)**
+**Retrieve segment members (recommended)**
+
+```HTTP
+POST {{OrgUrl}}/api/data/v9.0/msdyncrm_FetchContactsByQuery
+{
+    "Query":"(SEGMENT(SEGMENT_CRM_ID_e1fa7fdc5c78ea11a811000d3a8e8fcc)).ORDERBY(fullname ASC).SKIP(0).TAKE(15).SELECT(contactid)",
+    "FetchXml":"<fetch version=\"1.0\" output-format=\"xml-platform\" mapping=\"logical\" count=\"15\" page=\"1\" returntotalrecordcount=\"true\"><entity name=\"contact\"><attribute name=\"fullname\"/><attribute name=\"emailaddress1\"/><attribute name=\"company\"/><attribute name=\"parentcustomerid\"/><attribute name=\"contactid\"/><order attribute=\"fullname\" descending=\"false\"/></entity></fetch>","OwningBusinessUnit":"0b4b85cc-7f6c-ea11-a811-000d3a54d359",
+    "Scope":270100000,
+    "TimeZone":null
+}
+```
+
+> [!IMPORTANT]
+> On the example above, replace SEGMENT_CRM_ID_ce97cb9dbd75ea11a811000d3a8e8fcc with the name of your segment in the backend, as it is in the msdyncrm_segmentqueryname field of your segment. If your segment has id `ce97cb9d-bd75-ea11-a811-000d3a8e8fcc`, that value will be `SEGMENT_CRM_ID_ce97cb9dbd75ea11a811000d3a8e8fcc`.
+
+**Retrieve segment members (deprecated)**
 
 ```HTTP
 GET {{OrgUrl}}/api/data/v9.0/contacts?fetchXml=fetch version="1.0" output-format="xml-platform" mapping="logical" returntotalrecordcount="true" page="1" count="5" no-lock="false">
@@ -292,21 +307,6 @@ GET {{OrgUrl}}/api/data/v9.0/contacts?fetchXml=fetch version="1.0" output-format
     </entity>
 </fetch>
 ```
-
-**Retrieve segment members (latest)**
-
-```HTTP
-POST {{OrgUrl}}/api/data/v9.0/msdyncrm_FetchContactsByQuery
-{
-    "Query":"(SEGMENT(SEGMENT_CRM_ID_e1fa7fdc5c78ea11a811000d3a8e8fcc)).ORDERBY(fullname ASC).SKIP(0).TAKE(15).SELECT(contactid)",
-    "FetchXml":"<fetch version=\"1.0\" output-format=\"xml-platform\" mapping=\"logical\" count=\"15\" page=\"1\" returntotalrecordcount=\"true\"><entity name=\"contact\"><attribute name=\"fullname\"/><attribute name=\"emailaddress1\"/><attribute name=\"company\"/><attribute name=\"parentcustomerid\"/><attribute name=\"contactid\"/><order attribute=\"fullname\" descending=\"false\"/></entity></fetch>","OwningBusinessUnit":"0b4b85cc-7f6c-ea11-a811-000d3a54d359",
-    "Scope":270100000,
-    "TimeZone":null
-}
-```
-
-> [!IMPORTANT]
-> On the example above, replace SEGMENT_CRM_ID_ce97cb9dbd75ea11a811000d3a8e8fcc with the name of your segment in the backend, as it is in the msdyncrm_segmentqueryname field of your segment. If your segment has id `ce97cb9d-bd75-ea11-a811-000d3a8e8fcc`, that value will be `SEGMENT_CRM_ID_ce97cb9dbd75ea11a811000d3a8e8fcc`.
 
 ## Validating segments
 
