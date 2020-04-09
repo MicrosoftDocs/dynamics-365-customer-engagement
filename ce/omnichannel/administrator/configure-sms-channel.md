@@ -44,7 +44,7 @@ An SMS channel is enabled within Omnichannel for Customer Service by integrating
 
 To sign up for TeleSign:
 
-1. Go to [TeleSign](https://www.telesign.com/) to sign up for a self-service account if you don't have one already. If you expect to send high volumes of SMS traffic, such as more than 100000 messages per month, contact support@telesign.com to request an invoiced enterprise account.
+1. Go to [TeleSign](https://www.telesign.com/) to sign up for a self-service account if you don't have one already. If you expect to send high volumes of SMS traffic, such as more than 100,000 messages per month, contact support@telesign.com to request an invoiced enterprise account.
 
 2. Purchase support phone numbers through your TeleSign account. In this release, only long code type US phone numbers are supported.
 
