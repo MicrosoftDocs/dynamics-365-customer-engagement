@@ -34,6 +34,7 @@
 ## [Create a product or service](create-product-or-service.md)
 ## [Service task types](set-up-service-task-types.md)
 ## [Work order templates (incident types)](configure-incident-types.md)
+## [Work order summary reports (preview)](reports.md)
 
 # Bookable resources
 ## [Set up bookable resources](set-up-bookable-resources.md)
