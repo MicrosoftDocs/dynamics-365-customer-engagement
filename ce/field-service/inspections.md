@@ -234,3 +234,5 @@ Storing and retrieving each inspection response in Common Data Model is not part
 - The ability to create **branching logic** where inspection questions hide and appear based on other inspections responses is not part of the April 2020 public preview and is **planned**.
 
 - The ability to add version numbering to inspections is not part of the April 2020 public preview and is **planned**.
+
+- Inpsections cannot be exported and imported to other environments
