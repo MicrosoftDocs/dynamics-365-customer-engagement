@@ -143,46 +143,29 @@ An inspection completed by a technician will be visible on the bottom of the wor
 After the work order is scheduled to the appropriate technician, they can see and complete the inspection by logging in to Field Service in a web browser on a mobile device or PC.
 
 
-For the first option, go to your device's app store and download the **Microsoft Dynamics 365** mobile app.
 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Microsoft Dynamics 365 app listing in an app store.](./media/inspections-mobile-download-app.png)
 
 Sign in with your Dynamics 365 URL, username, and, and go to the assigned work order.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a list of work orders in the Dynamics 365 mobile app.](./media/inspections-mobile-nav.png)
-
 Select the **Work Order Service Task** (*not* the **Service Task Type**).
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Dynamics 365 mobile app, showing a work order on the service tasks section.](./media/inspections-mobile-wost.png)
 
 Find the inspection form and enter answers.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Dynamics 365 mobile app showing a work order service task and the inspection form that appears at the bottom.](./media/inspections-mobile-inspection-form.png)
-
-When finished, the technician can enter a **Complete %**, **Result**, and an **Actual Duration**.
+> ![Screenshot of ](./media/inspections-mobile-web1.png)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the work order service task in the Dynamics 365 mobile app, highlighting the percent complete, result, and actual duration fields.](./media/inspections-mobile-mark-complete.png)
+> ![Screenshot of ](./media/inspections-mobile-web2.png)
+
+
+When finished, the technician can select **Mark Complete** at the top or set **Complete %** to 100, **Result**, and an **Actual Duration**.
 
 
 If an inspection question is required, the technician will not be able to mark **Complete** or set **% Completed** to 100 until it is answered.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the work order service task form inspection, showing the error that disallows saving if a required question goes unanswered.](./media/inspections-mobile-validation.png)
-
 If needed, a technician can select **Clear Responses** to start over. This will permanently delete all responses for this service task inspection.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the clear responses option on the work order service task inspection.](./media/inspections-mobile-wost-clear-responses.png)
-
 
 ## View responses
 
