@@ -130,7 +130,7 @@ After creating a work order, go to the **Service Tasks** section and add a new *
 Alternatively, your inspection service task can be added to the work order via a work order incident type. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the service tasks tab on a work order in Field Service.](./media/inspections-service-task-work-order.png)
+> ![Screenshot of the service tasks tab on a work order in Field Service.](./media/inspections-service-task-work-order2.png)
 
 An inspection completed by a technician will be visible on the bottom of the work order service task form.
 
