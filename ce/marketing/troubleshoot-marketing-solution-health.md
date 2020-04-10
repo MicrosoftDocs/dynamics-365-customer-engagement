@@ -1,6 +1,6 @@
 ---
 title: "Troubleshoot issues with Solution Health Hub for Marketing (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how troubleshoot issues with Dynamics 365 Marketing using Solutions Health Hub"
+description: "Learn how to troubleshoot issues with Dynamics 365 Marketing using Solutions Health Hub"
 keywords: solutions health hub troubleshoot
 ms.date: 04/10/2020
 ms.service: dynamics-365-marketing
@@ -35,7 +35,7 @@ Here are a few common issues the Solution Health Hub detects:
 
 ## Prerequisites
 
-- Field Service v8.4.0.338+ (UCI) or  v7.5.7.87+ (Web)
+- Field Service v8.4.0.338+ (Unified Interface) or  v7.5.7.87+ (Web)
 - The Solution Health Hub extends the [Power Apps checker](https://docs.microsoft.com/powerapps/maker/common-data-service/use-powerapps-checker) to ensure continued healthy operation of an environment. 
 
 > [!Note]
