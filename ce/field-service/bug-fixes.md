@@ -84,7 +84,7 @@ For more information about early access features, visit the [opt-in instructions
 ### Version 8.8.9.84
 
 - Script error when Account field is removed from the Opportunity Quick Create form.
-- On create of Account record based on Postal Code functionality, Service Territory is repeated auto-populated, even after the customer removes the initial auto-populated value.
+- On create of Account record based on Postal Code functionality, Service Territory is repeatedly auto-populated, even after the customer removes the initial auto-populated value.
 - Consistency issue in Field Service's Solution Health Hub rule naming when referring to SDK Message Processing Steps.
 
 ### Version 8.8.8.135
@@ -99,7 +99,6 @@ For more information about early access features, visit the [opt-in instructions
 - Deleting and recreating a Booking associated with a Work Order changes the shared users of Booking.
 - TypeError: Cannot read property 'getDefaultView' when Requested by Contact field removed from RMA form.
 - Agreement Invoice Product Currency Set to Base Currency - should be set to Agreement's Pricelist Currency.
-- See this blog post for more information.
 
 ### Version 8.8.7.47
 
