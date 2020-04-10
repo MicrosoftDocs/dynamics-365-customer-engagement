@@ -153,9 +153,7 @@ The Field Service Settings page allows system administrators to set default sett
 |Custom GPS location entity|Shows the logical name of customer entity to use for geo locations.|  
 |Custom GPS timestamp field|Shows the logical name of the timestamp to use for geo locations.|  
 |Custom GPS longitude field|Show the logical name of the longitude to be used for geo locations.|  
-  
-## Notes  
- Use this area to add any notes for yourself.  
+   
   
 ### See also  
  [Overview](../field-service/overview.md)   
