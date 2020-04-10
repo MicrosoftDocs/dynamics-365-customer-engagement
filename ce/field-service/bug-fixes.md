@@ -129,7 +129,7 @@ To see older bug fixes, see the following links to blog posts:
 
 ### Version 12.1.212
 
-#### Features in this release:
+#### Updates
 - PDF Report Generation: A tech can now choose PDF document type as one of the report formats.
 - Brokered Authentication: A tech can leverage Company Portal or Authenticator application on a device to authenticate.
 - Added support for oAuth Authentication in Sovereign/DoD clouds.
