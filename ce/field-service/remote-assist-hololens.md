@@ -36,15 +36,15 @@ In this article, we'll explore how a field technician can use the Remote Assist 
 
 Before you begin, make sure you have the following set-up:
 
-- A [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-azure](../includes/pn-azure.md)] tenant with a [!include[pn-dyn-365](../includes/pn-dyn-365.md)] subscription **and** a [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)] subscription. Both are required—[!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)] is not included in any [!include[pn-dyn-365](../includes/pn-dyn-365.md)] bundle.
+- A Microsoft Azure tenant with a Dynamics 365 subscription **and** a Dynamics 365 Remote Assist subscription. Both are required — Remote Assist is not included in any Dynamics 365 bundle.
 
   > [!NOTE]  
-  > The tenant can have more than one [!include[pn-dyn-365](../includes/pn-dyn-365.md)] instance. [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)] has the option to select an instance from within the app.
+  > The tenant can have more than one Dynamics 365 instance. Remote Assist has the option to select an instance from within the app.
 
-- You must have admin access to add or update the [!include[pn-dyn-365](../includes/pn-dyn-365.md)] tenant instance.
+- You must have admin access to add or update the Dynamics 365 tenant instance.
 
-- The [!include[pn-dyn-365](../includes/pn-dyn-365.md)] instance must have the [!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)] app installed, and it must include the **My Bookings for Today** view. To make sure this view is installed, we recommend [!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)] version 8.2 or later. This topic describes how to make sure you have the correct version and view.
-    -  Please note the **My In Progress Bookings** view has been renamed to **My Bookings for Today.** This doc has been updated to reflect the name change. Depending on your version of [!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)], you may see either name. The functionality remains the same regardless of the view name.
+- The Dynamics 365 instance must have the Dynamics 365 Field Service app installed, and it must include the **My Bookings for Today** view. To make sure this view is installed, we recommend Field Service version 8.2 or later. This article describes how to make sure you have the correct version and view.
+    -  Please note the **My In Progress Bookings** view has been renamed to **My Bookings for Today.** This doc has been updated to reflect the name change. Depending on your version of Field Service, you may see either name. The functionality remains the same regardless of the view name.
 - The tenant must have at least two user accounts - one for the technician (front-line worker) and another for the remote collaborator.
   - The remote collaborator only needs a Microsoft Teams license.
   - The technician user will need a Dynamics 365 Field Service license, a Microsoft Teams license, _and_ a Dynamics 365 Remote Assist license. **Note:** A Remote Assist license includes Teams. 
