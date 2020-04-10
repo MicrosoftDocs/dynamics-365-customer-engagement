@@ -138,7 +138,7 @@ The Field Service Settings page allows system administrators to set default sett
 | Use Enhanced Background Processing | When the Field Service app is installed, so too are many workflows that run in the background. This setting utilizes Power Automate flows in place of some of the background Dynamics 365 Field Service workflows. Power Automate has many benefits, including the ability to connect and run workflows within Dynamics 365 and between other outside applications, the ability to delete records and schedule jobs, and robust approvals, among others. For Field Service specifically, using Power Automate in place of background processes related to agreements improves performance for long-waiting agreements and fixes complications in the event an owner of an agreement no longer has access to Dynamics 365 (if they leave the company, for example). This setting is in preview and more background workflows are expected to be moved to Power Automate flows in subsequent releases.|
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/administration-settings-other-section.png) 
+> ![Screenshot of the administration settings on the other section.](./media/administration-settings-other-section.png) 
 
 
 ## GPS data settings
