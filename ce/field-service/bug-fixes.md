@@ -130,16 +130,16 @@ To see older bug fixes, see the following links to blog posts:
 ### Version 12.1.212
 
 #### Updates
-- PDF Report Generation: A tech can now choose PDF document type as one of the report formats.
-- Brokered Authentication: A tech can leverage Company Portal or Authenticator application on a device to authenticate.
+- PDF report generation: A tech can now choose PDF document type as one of the report formats.
+- Brokered authentication: A tech can leverage Company Portal or Authenticator application on a device to authenticate.
 - Added support for oAuth Authentication in Sovereign/DoD clouds.
 - Docusign Integration: Bring your DocuSign account and leverage DocuSign integration for digital signatures.
 
 #### Bug Fixes
 - App crashes when wrong url is entered on sign in screen.
-- FSM app crashes when sending logs if networkLog.txt does not exit.  
-- FSM app crashes when connecting to an org without Woodford.
-- FSM app crash when click on 'password manager' from login screen.   
+- App crashes when sending logs if networkLog.txt does not exit.  
+- App crashes when connecting to an org without Woodford.
+- App crashes when click on 'password manager' from sign in screen.   
 - App crashing on certain older Android devices (G5, LG K7). 
 - MobileReport - Formatting issue on Word/HTML.
 - MobileReport - contents of Word document is removed if user saves Work Order without closing active doc.
