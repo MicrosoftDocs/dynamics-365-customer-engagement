@@ -29,12 +29,19 @@ search.app:
 # Enable maps for Field Service Mobile
 
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-map-api-navigate.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-map-api-key.png)
+
 ## Prerequisites
 > [!Note]
 >
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+
 
 ## Configuration considerations
 ## Additional Notes
