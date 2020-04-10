@@ -35,7 +35,7 @@ Here are a few common issues the Solution Health Hub detects:
 
 ## Prerequisites
 
-- Field Service v8.4.0.338+ (Unified Interface) or  v7.5.7.87+ (Web)
+- Marketing vX.XX.XXXXX.XXXX+
 - The Solution Health Hub extends the [Power Apps checker](https://docs.microsoft.com/powerapps/maker/common-data-service/use-powerapps-checker) to ensure continued healthy operation of an environment. 
 
 > [!Note]
