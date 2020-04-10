@@ -255,4 +255,4 @@
 #### [Dynamics 365 Marketing solutions](developer/marketing-solutions.md)
 #### [Dynamics 365 Marketing entity reference](developer/marketing-entity-reference.md)
 
-# [Troubleshoot with Solution Health Hub](troubleshoot-marketing-solution-health.md)
+## [Troubleshoot with Solution Health Hub](troubleshoot-marketing-solution-health.md)
