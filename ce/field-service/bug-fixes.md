@@ -135,7 +135,7 @@ To see older bug fixes, see the following links to blog posts:
 - Added support for oAuth Authentication in Sovereign/DoD clouds.
 - Docusign Integration: Bring your DocuSign account and leverage DocuSign integration for digital signatures.
 
-#### Bug Fixes
+#### Bug fixes
 - App crashes when wrong url is entered on sign in screen.
 - App crashes when sending logs if networkLog.txt does not exit.  
 - App crashes when connecting to an org without Woodford.
