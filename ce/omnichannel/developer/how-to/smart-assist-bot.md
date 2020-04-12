@@ -4,7 +4,7 @@ description: "Read how you can build a smart assist bot to help agents resolve c
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 04/09/2020
+ms.date: 04/12/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -16,7 +16,7 @@ ms.topic: article
 This topic provides the information on how you can get started with building a smart assist bot that displays knowledge article recommendations to the agent.
 
 > [!IMPORTANT]
-> For the complete code sample on how to create a smart assist bot, see: [Smart Assist for Bots](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/smart-assist-bot). Refer to the code sample [README](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/smart-assist-bot/README.md) file for information on how to setup and run the sample.
+> For information on how to setup and run the sample code, see the [README](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/smart-assist-bot/README.md) file for information on how to setup and run the sample.
 
 <!--
 ## Prerequisites

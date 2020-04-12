@@ -24,18 +24,6 @@ Read the topic [Build a smart assist bot](smart-assist-bot.md) for information o
 
 Consider the scenario where a customer who is trying to troubleshoot his printer reaches out to customer support through chat channel. The chat request is accepted by an agent. The customer before initiating the chat browsed through the printer website and the customer support agent can see the articles that the customer has read. The smart assist bot should be able to suggest similar cases with open and close case action buttons. 
 
-The customer service agent greets the customer with the following message. 
-
-```
-Welcome to Contoso Ltd. I'm happy to assist you today. You were trying to troubleshoot your printer. Is this the same issue?
-```
-
-Customer responds with the following message.
-
-```
-Yes, that is right. My printer is making loud noise. I tried restarting it but that did not help.
-```
-
 The customer service agent is presented with a list of similar cases as a recommendation. The agent clicks on the case that he finds most similar and relevant, and then goes to the case note and looks ar the resolution in note. The agent suggests the same resolution to the customer over chat.
 
 ## Implement similar case suggestion
