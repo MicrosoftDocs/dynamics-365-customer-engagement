@@ -95,33 +95,18 @@ Navigate to your Woodford Project:
 2.	Within Woodford, double-click into your active project.
 i.	The active project being used is noted by a Blue Arrow next to project name.
 ii.	Note if you use multiple projects for different users, you will have to follow these steps for each project.
+- Click into Components > Configuration.
+- In Configuration, click on "Integrations" tab.
+- From there you an paste your Google and/or Bing Maps API Keys.
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-map-api-key.png)
 
-
-To Configure your API Keys:
-1.	Navigate to your Woodford Project:  
-•	Within Woodford, open your active project.
-•	Click into Components > Configuration.
-•	In Configuration, click on "Integrations" tab.
-•	From there you an paste your Google and/or Bing Maps API Keys.
 2.	Save your Project
 3.	Publish your project
 
 
 
-
-4.	When your project loads, click into Components > Configuration
-5.	In Configuration, click on "Integrations" tab
-6.	From there you an paste your Google and/or Bing Maps API Keys
- 
- 
-1.	Save your Project
-2.	Publish your project
-
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-map-api-key.png)
 
 
 
