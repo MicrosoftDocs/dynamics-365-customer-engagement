@@ -18,10 +18,10 @@ This topic provides the information on how you can get started with building a s
 > [!IMPORTANT]
 > For information on how to setup and run the sample code, see the [README](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/smart-assist-bot/README.md) file for information on how to setup and run the sample.
 
-<!--
 ## Prerequisites
 
-- To get started with building a custom smart assist bot, you will first need to create a bot with [Azure Bot Service](https://docs.microsoft.com/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0). When you register your bot with Azure Bot Service, you will obtain `Microsoft App ID` and `Client secret` which you will need to update the `appsettings.json` file in the bot.
+- You will first need to create a bot with [Azure Bot Service](https://docs.microsoft.com/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0). When you register your bot with Azure Bot Service, you will obtain `Microsoft App ID` and `Client secret` which you will need to update the `appsettings.json` file in the bot.
+<!--
 - Create a LUIS app by following the instructions mentioned in [Add natural language understanding to your bot](https://docs.microsoft.com/azure/bot-service/bot-builder-howto-v4-luis?view=azure-bot-service-4.0&tabs=csharp). See the section [Retrieve application information from the LUIS.ai portal](https://docs.microsoft.com/azure/bot-service/bot-builder-howto-v4-luis?view=azure-bot-service-4.0&tabs=csharp#retrieve-application-information-from-the-luisai-portal) for information on how to retrieve the values you need to setup the bot.
 - You will need to register your app on Azure Active Directory. More information: [Register an app with Azure AD](/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory).
 
@@ -193,6 +193,25 @@ Consider the scenario wherein you want the smart assist bot to be able to search
 - Open knowledge base in a app tab.
 - Open up a knowledge base form. This opens the knowledge base article in edit mode.
 
+**Open Case custom action**
+
+This custom action enables you to open any entity record.
+
+```json
+{
+              "type": "Action.Submit",
+              "title": "Open",
+              "data": {
+                             "CustomAction": "OpenForm",
+                             "CustomParameters": {
+                                           "entityName": "incident",
+                                           "entityId": "c3356c37-bba6-4067-b1a1-8c66e1c203a1",
+                                           "data": {}
+                             }
+              }
+}
+```
+
 **Send knowledge base article**
 
 -	Copies knowledge base article URL to Conversation Control, which is then sent to the customer when the agent clicks on send button.
@@ -202,6 +221,26 @@ The custom actions required for implementing knowledge base search in the smart 
 1. Open any entity form using the [openForm](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-navigation/openform) client API.
 2. Copy to Conversation Control.
 3. Open th URL in App tab.
+
+**SendKB custom action**
+
+This custom action enables you to send a KB article.
+
+**Note**: The `CustomAction` key should contain `SendKB` and `kbLink` key should contain the link of the KB article. You cannot have another custom action with the same name as `SendKB`.
+
+```json
+{
+
+          "type": "Action.Submit",
+          "title": "Send",
+          "data": {
+                          "CustomAction": "SendKB",
+                          "CustomParameters": {
+                          "kbLink": "https://ocddemoebc.powerappsportals.com/knowledgebase/article/KA-01011/en-us"
+                  }
+          }
+}
+```
 
 You can use the client-side APIs to open knowledge base articles. See [Client API reference for model driven apps](/powerapps/developer/model-driven-apps/clientapi/reference) for more information.
 <!--
