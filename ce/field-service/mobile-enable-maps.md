@@ -56,17 +56,14 @@ Minimum Woodford Version required for this configuration:
 
 ## Get Map API key
 
-To Create your API Keys:
-
-### Bing Maps (recommended)
+The first step is to generate a Bing Maps API key. Reference the topic on [https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key](Getting a Bing Maps API key) for more details.
 
 
-Steps:
-1.	Reference: https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key
-2. Go to the Bing Maps Dev Center at https://www.bingmapsportal.com/.
-3.	Select My keys under My Account.
-4.	Select the option to create a new key.
-5.	Provide the following information to create a key:
+1. Go to the Bing Maps Dev Center at [https://www.bingmapsportal.com/](https://www.bingmapsportal.com/) and sign in.
+2. Sign in with a Microsoft account or create a new account. 
+3. Under **My Account** select **My keys**.
+3. Select the option to create a new key.
+4. Provide the following information to create a key:
   i.	Application name: Required. The name of the application (Field Service Mobile, or however you would like to identify this app).
   ii.	Application URL:  This is an optional field which is useful in helping you remember the purpose of that key in the future.
   iii.	Key type: Required. Select the key type that you want to create. In normal scenarios you will want a Basic key.
