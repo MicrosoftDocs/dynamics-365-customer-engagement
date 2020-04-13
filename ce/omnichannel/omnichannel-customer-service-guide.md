@@ -100,9 +100,13 @@ To orient yourself with Omnichannel for Customer Service, watch the videos that 
 
 </td>
 </tr>
-
-</table>
+<tr>
+<td>
 
 <h2> Learn resources</h2>
 
 Find the right online training, in-person workshops, and events for your role in Omnichannel for Customer Service at [learn resources](https://docs.microsoft.com/learn/browse/?term=omnichannel).
+
+</td>
+</tr>
+</table>
