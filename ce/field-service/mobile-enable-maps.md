@@ -30,9 +30,9 @@ search.app:
 
 Set up maps and location services for Field Service Mobile to enable functionality such as:
 
-1. Display work order location on a map
-2. Update GPS command to replace work order location with current location of the mobile device
-3. Location auditing to understand realtime location of technicians for scheduling, display on schedule board map, and [geocoding](./geofencing.md).
+1. displaying work order location on a map
+2. the Update GPS command to replace work order location with current location of the mobile device
+3. location auditing to understand the realtime location of technicians for scheduling, displaying on the schedule board map, and [geocoding](./geofencing.md).
 
 
 
@@ -47,7 +47,7 @@ Set up maps and location services by retreiving a Bing Maps API key and entering
 
 Minimum Woodford Version required for this configuration:
 - For Bing Maps: Woodford 11.3
-- For Google Maps: Woodford 10.0
+
 
 
 > [!Note]
@@ -72,21 +72,6 @@ Steps:
   iii.	Key type: Required. Select the key type that you want to create. In normal scenarios you will want a Basic key.
   iv.	Application type: Required. Select the application type of Mobile Application.
 6.	Click the Create button. The new key displays in the list of available keys. 
-
-
-### Google maps
-
-Alternatively, you can use Google Maps for visualizations and location calulations with the following steps.
-
-
-1. Reference: https://developers.google.com/maps/documentation/embed/get-api-key
-2. Visit the Google Cloud Platform Console.
-3.	Click the project drop-down and select or create the project for which you want to add an API key.
-4.	Click the menu button and select APIs & Services > Credentials.
-  i.	On the Credentials page, click Create credentials > API key.
-  ii.	The API key created dialog displays your newly created API key.
-  iii.	Click Close.
-5.	The new API key is listed on the Credentials page under API keys.
 
 
 ## Enter Map API key in Woodford
@@ -124,8 +109,28 @@ iii. this project is the derivative of the mobile project template
 3.	Publish your project
 
 
+## Configuration considertations
+
+### Google maps
+
+- For Google Maps: Woodford 10.0
+
+Alternatively, you can use Google Maps for visualizations and location calulations with the following steps.
 
 
+1. Reference: https://developers.google.com/maps/documentation/embed/get-api-key
+2. Visit the Google Cloud Platform Console.
+3.	Click the project drop-down and select or create the project for which you want to add an API key.
+4.	Click the menu button and select APIs & Services > Credentials.
+  i.	On the Credentials page, click Create credentials > API key.
+  ii.	The API key created dialog displays your newly created API key.
+  iii.	Click Close.
+5.	The new API key is listed on the Credentials page under API keys.
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-map-api-key-google.png)
 
 
 
