@@ -119,9 +119,11 @@ List of commands available on entitlements:
 (Move the contract and contract lines to entitlements).
 2.	Run update script to update entitlement on case instead of contracts.
 
->[!Note] 
-> - Contract lines (e.g.: Armhand 100) can be associated to the case with that product (e.g.: ARMhand 150). 
-> - Entitlement product(s) should be the same as the product on a case for entitlement to be assigned to case.
+>[!Important] 
+> 
+> Contract and Contract Lines allowed Contract Lines to be associated to a product different than the one listed in Case. However, Entitlement requires the product listed in Case match the product listed in Entitlement. 
+>
+> **Example**: Contract lines associated with the product (e.g.: Armhand 100) can be associated in the Case list which is linked to another product (e.g.: ARMhand 150). However with Entitlement, an error will occur when you link an Entitlement associated with a product, 'Armhand 100', with a Case linked to 'Armhand 150'.
 
 ### See Also:
 - [Important changes (deprecations) coming](https://docs.microsoft.com/en-us/power-platform/important-changes-coming) 
