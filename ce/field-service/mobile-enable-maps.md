@@ -64,16 +64,17 @@ The first step is to generate a Bing Maps API key. Reference the topic on [https
 3. Under **My Account** select **My keys**.
 3. Select the option to create a new key.
 4. Provide the following information to create a key:
-  i.	Application name: Required. The name of the application (Field Service Mobile, or however you would like to identify this app).
-  ii.	Application URL:  This is an optional field which is useful in helping you remember the purpose of that key in the future.
-  iii.	Key type: Required. Select the key type that you want to create. In normal scenarios you will want a Basic key.
-  iv.	Application type: Required. Select the application type of Mobile Application.
+  - **Application name**: Required. The name of the application (Field Service Mobile, or however you would like to identify this app).
+  - **Application URL:**  This is an optional field which is useful in helping you remember the purpose of that key in the future.
+  - **Key type:** Required. Select the key type that you want to create. A **Basic key** is recommmended.
+  - **Application type:** Required. Select the application type of Mobile Application.
 6.	Click the Create button. The new key displays in the list of available keys. 
+7. Copy the API key to your clipboard.
 
 
 ## Enter Map API key in Woodford
 
-After retreiving your Map API key, enter it in your mobile project
+After retreiving your Map API key, enter it in your mobile project. 
 
 To Configure your API Keys:
 Navigate to your Woodford Project:  
