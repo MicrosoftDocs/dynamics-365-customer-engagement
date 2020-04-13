@@ -30,7 +30,9 @@ search.app:
 
 Set up maps and location services for Field Service Mobile to enable functionality such as:
 
-1. Display 
+1. Display work order location on a map
+2. Update GPS command to replace work order location with current location of the mobile device
+3. Location auditing to understand realtime location of technicians for scheduling, display on schedule board map, and [geocoding](./geofencing.md).
 
 
 
@@ -38,7 +40,7 @@ Set up maps and location services for Field Service Mobile to enable functionali
 > ![Screenshot of ](./media/mobile-map-api-mobile.png)
  
 
-This is done by retreiving a Bing Maps API key and entering it into the Mobile Configuration Tool (Woodford) mobile project template.
+Set up maps and location services by retreiving a Bing Maps API key and entering it into the Mobile Configuration Tool (Woodford) mobile project template.
 
 
 ## Prerequisites
