@@ -459,7 +459,7 @@ To view your email:
 2. Select the **All Activities** drop-down list, and then select **My Received Emails**.
 
    > [!div class=mx-imgBorder]
-   > !Display received emails](media/csh-view-emails.png "Display received emails")
+   > ![Display received emails](media/csh-view-emails.png "Display received emails")
 
 3. Select the email you want to view to open it. When the email opens, you can reply to the sender and recipients or forward it.
 
