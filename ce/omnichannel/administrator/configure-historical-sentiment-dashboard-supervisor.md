@@ -62,7 +62,7 @@ Review the following prerequisites before configuring the dashboard:
 3. If you've enabled the preview feature [Preview: Sentiment drivers reporting](enable-sentiment-analysis.md#preview-sentiment-drivers-reporting) in real-time sentiment analysis, go to the [download template app](https://go.microsoft.com/fwlink/?linkid=2124573) to install the template app.
 
    > [!IMPORTANT]
-   > The **Install template apps not listed in AppSource** in **Tenant settings** should be enabled by your administrator in Power BI admin portal<!--See https://styleguides.azurewebsites.net/Styleguide/Read?id=2696&topicid=42299-->.
+   > The **Install template apps not listed in AppSource** in **Tenant settings** should be enabled by your administrator in the Power BI admin portal.
 
 4. Select **GET IT NOW** to install the app.
 
