@@ -63,20 +63,20 @@
 ### [Time constraints](schedule-time-constraints.md)
 ### [Resource preferences](resource-preferences.md)
 ### [Quick scheduling](quick-scheduling.md)
-### [Multi-resource scheduling](multi-resource-scheduling-requirement-groups.md)
-### [Multi-day scheduling](schedule-multi-day-work.md)
-### [Resource crew scheduling](resource-crews.md)
-### [Resource pools](resource-pools.md)
-### [Facility scheduling](facility-scheduling.md)
+### [Multi-resource](multi-resource-scheduling-requirement-groups.md)
+### [Multi-day](schedule-multi-day-work.md)
+### [Crews](resource-crews.md)
+### [Pools](resource-pools.md)
+### [Facilities](facility-scheduling.md)
 
 
 
 ## Schedule board 
 ### [Configure the schedule board](configure-schedule-board.md)
-### [Sharing schedule board tabs](share-schedule-board-tab.md)
+### [Share schedule board tabs](share-schedule-board-tab.md)
 ### [Utilization](schedule-board-utilization.md)
 ### [Schedule board custom resource attribute](extend-schedule-board-custom-resource-attribute.md)
-### [Edit booking template](booking-template.md)
+### [Edit booking templates](booking-template.md)
 ### [Booking alerts](booking-alert.md)
 ### [Schedule board tab settings](schedule-board-tab-settings.md)
 ### [Preview the new schedule board](preview-schedule-board.md)

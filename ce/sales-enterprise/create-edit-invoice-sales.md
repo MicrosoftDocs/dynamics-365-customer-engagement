@@ -2,10 +2,8 @@
 title: "Create or edit invoices (Dynamics 365 Sales) | MicrosoftDocs"
 description: "An invoice is an order that has been billed to the customer."
 ms.date: 10/01/2019
-ms.service: 
+ms.service:
   - "dynamics-365-sales"
-ms.custom: 
-  - "dyn365-sales"
 ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
@@ -38,7 +36,7 @@ Typically, you convert an order into an invoice; however, you can also create an
 
 > [!NOTE]
 > 
-> Your base record and all its line items must use the same currency. For example, if your invoice has the currency set to U.S. Dollars, you must use the same currency for the price list items that you add to the invoice. You can’t change the currency of the base record (in this case, an invoice), unless you remove all the line items associated with the record.
+> Your base record and all its line items must use the same currency. For example, if your invoice has the currency set to U.S. Dollars, you must use the same currency for the price list items that you add to the invoice. You can't change the currency of the base record (in this case, an invoice), unless you remove all the line items associated with the record.
 > Similarly, if the invoice is created from an order that's created from a quote created from an opportunity, it must use the same currency as the opportunity.
   
 ## Create an invoice  
@@ -53,9 +51,9 @@ Typically, you convert an order into an invoice; however, you can also create an
 
 3. On the **Invoice** form, enter data in the following required fields:
 
-    -	**Name** 
+    -    **Name** 
   
-    -	**Price List** and **Currency**: Select the price list and the currency that will be used to calculate the product prices. 
+    -    **Price List** and **Currency**: Select the price list and the currency that will be used to calculate the product prices. 
 
         > [!NOTE]
         > By default, selecting a price list is required to be able to add products to an invoice; however, your administrator can change your organization settings to make the Price List field optional. 
@@ -102,4 +100,4 @@ Typically, you convert an order into an invoice; however, you can also create an
   
 ### See also  
 [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)  
-[Print leads, quotes, and other records](../basics/print-leads-quotes-other-records.md)
+[Print quote, invoice, or other records](print-records.md)

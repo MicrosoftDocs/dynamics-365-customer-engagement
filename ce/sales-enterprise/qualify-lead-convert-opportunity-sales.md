@@ -31,7 +31,7 @@ Your system administrator defines what happens to a lead when it is qualified:
 
 5. If you see a prompt to select which records to create when the lead is qualified, select **Yes** for the records that you want to create, and then select **OK**.
 
-    ![Select which records to create in the Qualify lead dialog box](media/qualify-lead-dialog-box.png "Select which records to create in the Qualify lead dialog box")
+      ![Select which records to create in the Qualify lead dialog box](media/qualify-lead-dialog-box.png "Select which records to create in the Qualify lead dialog box")
 
 If you don't see a prompt, qualifying a lead will automatically create an account, contact, and opportunity record. 
 
@@ -56,7 +56,7 @@ You are moved to the next stage in the business process based on the organizatio
   
 4. Select **Qualify** at the top of the **Lead** form.
 
-5.    If you see a prompt to select which records to create when the lead is qualified, select **Yes** for the records that you want to create, and select **OK**.
+5. If you see a prompt to select which records to create when the lead is qualified, select **Yes** for the records that you want to create, and select **OK**.
 
     ![Select which records to create in the Qualify lead dialog box](media/qualify-lead-dialog-box.png "Select which records to create in the Qualify lead dialog box")
 
@@ -88,13 +88,6 @@ The **Account** and **Contact** lookup fields are filtered with matched results 
 
 When salespeople work on a lead, they use notes to store key information on the things they have researched about the lead. This could be information like new contacts at the site, current value of the contract, vendor information and so on. When a lead is qualified, these notes are displayed in the Opportunity record so that the information is not lost.
  
-## Additional considerations  
-  
-- Increase your marketing and sales effectiveness.  [Boost sales with Versium Predict](../versium-predict/versium-predict.md)  
-
-- Nurture your leads through a  marketing campaign. [Get started with in-app marketing](../sales-enterprise/get-started-app-marketing-sales.md)  (applies to the Sales app only)
-
-  
 ## Typical next steps  
  ![Right arrow button](../sales-enterprise/media/orange-right-arrow-button.png "Right arrow button") [Create or edit an opportunity](../sales-enterprise/create-edit-opportunity-sales.md)  
   

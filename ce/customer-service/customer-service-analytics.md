@@ -124,7 +124,7 @@ Select the subject you're interested in, and information is filtered according t
 
 ### See also
 
-[Introduction to Customer Service Analytics and Insights](introduction-customer-service-analytics.md)  
-[Configure Customer Service Analytics and Insights in Customer Service Hub](configure-customer-service-analytics-insights-csh.md)  
-[View and understand Customer Service Analytics and Insights in Customer Service Hub](customer-service-analytics-insights-csh.md)  
+[Introduction to Customer Service analytics and insights](introduction-customer-service-analytics.md)  
+[Configure Customer Service analytics and insights in Customer Service Hub](configure-customer-service-analytics-insights-csh.md)  
+[View and understand Customer Service analytics and insights in Customer Service Hub](customer-service-analytics-insights-csh.md)  
 [Configure Customer Service Analytics in Power BI](configure-customer-service-analytics-dashboard.md)
