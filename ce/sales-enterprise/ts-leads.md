@@ -65,7 +65,7 @@ On the **Duplicate warning** dialog box, select the existing account or contact 
 > When you qualify a lead through the Leads grid, the system creates an account or contact even though a duplicate record exists. By design, the rule that detects the duplicate records gets disabled. However, when you qualify a lead through the lead record form, the duplicate detection rule works. The rule prompts you with a warning to resolve the conflict if any duplicate records for account or contact are found.
 
 <a name="CompleteSteps"> </a>
-#### 2. To move to the next stage, complete the required steps
+#### 2. To move to the next stage, complete the required steps.
 
 **Reason:** 
 
