@@ -1,5 +1,5 @@
 ---
-title: "Configure Customer Service Analytics and Insights for Dynamics 365 in Customer Service Hub| MicrosoftDocs"
+title: "Configure Customer Service analytics and insights for Dynamics 365 in Customer Service Hub| MicrosoftDocs"
 description: "Learn about Customer Service Analytics"
 author: neeranelli
 ms.author: nenellim
@@ -8,27 +8,27 @@ ms.date: 04/03/2020
 ms.topic: article
 ms.service: 
   - "dynamics-365-customerservice"
-ms.custom: 
+ms.custom:
   - ""
 applies_to:
 ---
 
-# Preview: Configure Customer Service Analytics and Insights in Customer Service Hub
+# Preview: Configure Customer Service analytics and insights in Customer Service Hub
 
 [!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 > [!IMPORTANT]
 >
-> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided "as-is," "with all faults," "as available," and without warranty.​
-> - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
+> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided "as-is," "with all faults," "as available," and without warranty.
+> - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
 > - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../legal/dynamics-insider-agreement.md).
 
 ## Overview
 
-You can configure the Customer Service Analytics and Customer Service Insights reports in Customer Service Hub and share them with service managers, who can then view and analyze the different activities performed in Customer Service Hub. The following reports are available out of the box:
+You can configure the Customer Service analytics and Customer Service Insights reports in Customer Service Hub and share them with service managers, who can then view and analyze the different activities performed in Customer Service Hub. The following reports are available out of the box:
 
-- **Analytics reports:** Customers can view BI<!--note from editor: Okay not to spell out "if appropriate for your audience," via Cloud Style Guide. Because "AI" occurs in proximity, I think it's best not to spell out here. Also, your audience surely understands it!--> analytics and metrics for their customer service organization.
-- **Insights reports:** Customers can view Customer Service Insights reports with a combination of BI analytics and AI<!--note from editor: Don't spell out AI, via https://styleguides.azurewebsites.net/StyleGuide/Read?id=2700&topicid=42480--> insights for their organization. The reports use natural language understanding to automatically detect the language used in your support cases and group related support cases into topics. More information: [Customer Service Insights overview](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/overview)
+- **Analytics reports:** Customers can view BI analytics and metrics for their customer service organization.
+- **Insights reports:** Customers can view Customer Service Insights reports with a combination of BI analytics and AI insights for their organization. The reports use natural language understanding to automatically detect the language used in your support cases and group related support cases into topics. More information: [Customer Service Insights overview](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/overview)
 
 ## Configure Customer Service Analytics reports in Customer Service Hub
 
@@ -37,13 +37,13 @@ Make sure that you have administrator permissions for Dynamics 365.
 ### Enable Customer Service Analytics reports
 
 1. Sign in to Dynamics 365 as an administrator, and go to Customer Service Hub.
-2. In the **Change area**, select **Service Management** > **Settings (Preview)**. The **Analytics and insights settings** page appears.<!--note from editor: Via Style Guide, don't use "install" as a noun, use "installation" instead.-->
+2. In the **Change area**, select **Service Management** > **Settings (Preview)**. The **Analytics and insights settings** page appears.
     > [!div class=ms-imgBorder]
     > ![Customer Service analytics installation](media/cs-analyticsinsights-configure.png "Customer Service analytics installation")
 
 3. In **Analytics reporting**, switch the toggle to **Enabled**. A provisioning message appears, and then **Share reports** appears after the provisioning is complete.
 
-### Share Customer Service Analytics reports
+### Share Customer Service analytics reports
 
 You can share the reports from the **Service Management** > **Settings (Preview)** > **Analytics and insights settings** page or the **Service** > **Analytics and Insights** > **Reports (Preview)** > **Data Analytics Reports** page.
 
@@ -59,7 +59,7 @@ You can share the reports from the **Service Management** > **Settings (Preview)
 5. Search for users, and then add them. The users appear in the table.
 6. Select the permissions&mdash;such as Read, Write, and Share&mdash;that you want to grant on the report, and then select **Share**. The report is shared with the selected users.
 
-### View Customer Service Analytics reports
+### View Customer Service analytics reports
 
 The service managers must have the admin or service manager role to view the reports. Users with the CSR Manager role will be able to view the reports only after the reports are shared with them.
 
@@ -85,8 +85,8 @@ Make sure that the following prerequisites are met:
 3. Select **Get started**. The **Install Customer Service Insights** page displays the installation process for the following:
    - Checks whether the administrator has a valid Customer Service Insights license to run the installation.
    - Installs the Customer Service Insights solution if the license check is passed. The following are also created:
-     - **Customer Service Insights AppUser:** An application user entity<!--edit okay?--> that's used to allow Customer Service Insights to perform actions on behalf of users.
-     - **Customer Service Insights Configuration:** A Common Data Service entity in your organization environment that's used by admins to control the report's entry access<!--will the reader understand what this means? It's a bit unclear to me.--> in the site map.
+     - **Customer Service Insights AppUser:** An application user entity that's used to allow Customer Service Insights to perform actions on behalf of users.
+     - **Customer Service Insights Configuration:** A Common Data Service entity in your organization environment that's used by admins to control the report's entry access in the site map.
    - Generates insights and sets up reports for the administrator.
   
   The installation process might take a few minutes. You can navigate away from the page and revisit it to check the status. 
@@ -140,8 +140,8 @@ You can view the following reports:
 
 ### See also
 
-[Introduction to Customer Service Analytics and Insights](introduction-customer-service-analytics.md)
+[Introduction to Customer Service analytics and insights](introduction-customer-service-analytics.md)
 
-[View and understand Customer Service Analytics and Insights in Customer Service Hub](customer-service-analytics-insights-csh.md)
+[View and understand Customer Service analytics and insights in Customer Service Hub](customer-service-analytics-insights-csh.md)
 
-[View and understand Customer Service Analytics](customer-service-analytics.md)
+[View and understand Customer Service analytics](customer-service-analytics.md)
