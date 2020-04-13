@@ -143,7 +143,8 @@ For more information about identifying plug-ins registered on creation of an ent
 <a name="qualify-lead-not-available"> </a>
 ### Issue: The **Qualify lead** command is not available on the Lead record.
 
-**Reason:** 
+**Reason:**  
+
 The out-of-the-box **Qualify lead** command is visible on the Lead form only if Account, Contact, Lead, and Opportunity entities are set as editable in the Unified Interface, and the Account, Contact, and Opportunity entities are available in Mobile offline. 
 
 **Resolution:**

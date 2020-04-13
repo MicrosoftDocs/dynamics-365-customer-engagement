@@ -31,7 +31,7 @@ Your system administrator defines what happens to a lead when it is qualified:
 
 5. If you see a prompt to select which records to create when the lead is qualified, select **Yes** for the records that you want to create, and then select **OK**.
 
-    ![Select which records to create in the Qualify lead dialog box](media/qualify-lead-dialog-box.png "Select which records to create in the Qualify lead dialog box")
+      ![Select which records to create in the Qualify lead dialog box](media/qualify-lead-dialog-box.png "Select which records to create in the Qualify lead dialog box")
 
 If you don't see a prompt, qualifying a lead will automatically create an account, contact, and opportunity record. 
 
