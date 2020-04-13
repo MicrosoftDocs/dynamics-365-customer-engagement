@@ -28,6 +28,14 @@ search.app:
 
 # Enable maps for Field Service Mobile
 
+Set up maps and location services for Field Service Mobile to enable functionality such as:
+
+1. Display 
+
+This is done by retreiving a Bing Maps API key and entering it into the Mobile Configuration Tool
+
+Retrieve a map API key to utilize map and  visualizations, geocoding, and location calculations like travel time and distance and 
+
 - Map visualizations
 - Location and distance calculations
 
