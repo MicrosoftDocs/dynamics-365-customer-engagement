@@ -1,7 +1,7 @@
 ---
 title: "Security considerations for Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
 ms.custom: ""
-ms.date: "04/02/2019"
+ms.date: 04/08/2020
 ms.prod: "crm-2016"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,9 +15,7 @@ ms.author: matp
 author: Mattp123
 manager: kvivek
 ---
-# Security considerations for Dynamics 365 Customer Engagement (on-premises)
-
-
+# Security considerations for Dynamics 365 Customer Engagement (on-premises) 
 
 [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] is designed in a way that helps make your deployment more secure. This section provides information and best practices for the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Overview of security for Microsoft Dynamics 365](../admin/security-concepts.md)  
   
@@ -60,7 +58,7 @@ manager: kvivek
   
 > [!IMPORTANT]
 >  -   [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] services and application pool ([!INCLUDE[ui_CRMAppPool](../includes/ui-crmapppool.md)]) identity accounts must not be configured as a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] user. Doing so can cause authentication issues and unexpected behavior in the application for all [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] users.  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Problems in CRM when the CRMAppPool user account is a CRM user](https://go.microsoft.com/fwlink/p/?LinkId=246303)  
-> -   Managed service accounts (group-managed service accounts (gMSA) or single-managed service accounts) and virtual accounts (NT SERVICE\\,\<SERVICENAME>) aren’t supported for running [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] services.  
+> -   Managed service accounts (group-managed service accounts (gMSA) or single-managed service accounts) and virtual accounts (NT SERVICE\\,\<SERVICENAME>) aren't supported for running [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] services.  
   
  The following subsections describe the domain user account permissions required for each service or application pool identity:  
   
@@ -135,6 +133,8 @@ manager: kvivek
 -   Domain Users membership.  
   
 -   That account must be granted the `Logon as service` permission in the Local Security Policy.  
+
+-   That account must be granted membership of `Backup Operators` group on the server hosting this service. 
   
 -   Read permission to the `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSCRM`  
   

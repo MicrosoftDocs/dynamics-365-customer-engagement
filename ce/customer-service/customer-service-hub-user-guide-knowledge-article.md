@@ -4,7 +4,7 @@ description: Understand Knowledge Management in Customer Service Hub for Custome
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
-ms.date: 03/09/2020
+ms.date: 04/10/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -61,7 +61,7 @@ Turn your customer questions, issues, and feedback into knowledge articles, so o
 5. In the **Content** section, add the content for your knowledge article.  
   
    > [!NOTE]
-   >  As soon as you select inside the editor space, the rich text editor command bar appears. Use the rich text editor command bar options to format and style your content. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the rich text editor to create knowledge articles and emails](#use-the-rich-text-editor-to-create-knowledge-articles-and-emails)
+   >  As soon as you select inside the editor space, the rich text editor command bar appears. Use the rich text editor command bar options to format and style your content. If you cannot use the features, your editing space is too small. If this is the case, you will need to resize to a larger space. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the rich text editor to create knowledge articles and emails](#use-the-rich-text-editor-to-create-knowledge-articles-and-emails)
   
 6. Select **Save**. 
    

@@ -1,8 +1,8 @@
 ---
 title: "Work with reusable content blocks (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to create reusable content blocks and use them in your page and email designs in in Dynamics 365 Marketing"
+description: "How to create reusable content blocks and use them in your page and email designs in Dynamics 365 Marketing"
 keywords: content block;design element
-ms.date: 02/01/2019
+ms.date: 04/10/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -94,3 +94,6 @@ To add a content block to an email, form, or page design:
 3. Select the new content-block element, open the **Properties** panel, and use the **Content block** lookup field to find and select the block that contains the content you want to include here.
 
 4. Continue working with your design and go live when you are ready to start using it in other designs.
+
+> [!NOTE]
+> If a content block is unprotected, you can directly edit its elements and properties after inserting it into an email template.
