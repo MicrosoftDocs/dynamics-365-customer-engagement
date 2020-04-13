@@ -32,12 +32,14 @@ Set up maps and location services for Field Service Mobile to enable functionali
 
 1. Display 
 
-This is done by retreiving a Bing Maps API key and entering it into the Mobile Configuration Tool
 
-Retrieve a map API key to utilize map and  visualizations, geocoding, and location calculations like travel time and distance and 
 
-- Map visualizations
-- Location and distance calculations
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-map-api-mobile.png)
+ 
+
+This is done by retreiving a Bing Maps API key and entering it into the Mobile Configuration Tool (Woodford) mobile project template.
+
 
 ## Prerequisites
 
@@ -96,7 +98,7 @@ Navigate to your Woodford Project:
 3.	In MobileCRM section, click on Woodford.
  
  
- > [!div class="mx-imgBorder"]
+> [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-map-api-navigate.png)
  
 1.	On resulting screen, click into MobileCRM Woodford (HTML or Silverlight version; whichever your org primarily users)
