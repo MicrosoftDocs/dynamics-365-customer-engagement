@@ -28,48 +28,18 @@ search.app:
 
 # Enable maps for Field Service Mobile
 
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-map-api-navigate.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-map-api-key.png)
-
 ## Prerequisites
-> [!Note]
->
-
-
-
-## Configuration considerations
-## Additional Notes
-
-
-
-
-To Create your API Keys:
-Google Maps:  https://developers.google.com/maps/documentation/embed/get-api-key
-Bing Maps: https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key
- 
-To Configure your API Keys:
-1.	Navigate to your Woodford Project:  
-•	Within Woodford, open your active project.
-•	Click into Components > Configuration.
-•	In Configuration, click on "Integrations" tab.
-•	From there you an paste your Google and/or Bing Maps API Keys.
-2.	Save your Project
-3.	Publish your project
-
-
-
 
 Minimum Woodford Version required for this configuration:
 •	For Google Maps: Woodford 10.0
 •	For Bing Maps: Woodford 11.3
- 
- 
+
+> [!Note]
+>
+
+
+## Get Map API key
+
 To Create your API Keys:
 Google Maps
 Reference: https://developers.google.com/maps/documentation/embed/get-api-key
@@ -94,9 +64,26 @@ ii.	Application URL:  This is an optional field which is useful in helping you r
 iii.	Key type: Required. Select the key type that you want to create. In normal scenarios you will want a Basic key.
 iv.	Application type: Required. Select the application type of Mobile Application.
 2.	Click the Create button. The new key displays in the list of available keys. 
- 
- 
- 
+
+
+To Create your API Keys:
+Google Maps:  https://developers.google.com/maps/documentation/embed/get-api-key
+Bing Maps: https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key
+
+## Enter Map API key in Woodford
+
+To Configure your API Keys:
+1.	Navigate to your Woodford Project:  
+•	Within Woodford, open your active project.
+•	Click into Components > Configuration.
+•	In Configuration, click on "Integrations" tab.
+•	From there you an paste your Google and/or Bing Maps API Keys.
+2.	Save your Project
+3.	Publish your project
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-map-api-navigate.png)
+
 To Configure your API Keys:
 Navigate to your Woodford Project:  
 1.	Log in to your Dynamics Org.
@@ -117,3 +104,26 @@ ii.	Note if you use multiple projects for different users, you will have to foll
  
 1.	Save your Project
 2.	Publish your project
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-map-api-key.png)
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+ 
+
+ 
+ 
+ 
