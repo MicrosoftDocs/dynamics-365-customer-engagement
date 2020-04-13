@@ -45,14 +45,9 @@ Set up maps and location services by retreiving a Bing Maps API key and entering
 
 ## Prerequisites
 
-Minimum Woodford Version required for this configuration:
-- For Bing Maps: Woodford 11.3
+Minimum Woodford Version required for this configuration is **Woodford 11.3+**.
 
-
-
-> [!Note]
->
-
+Download the latest Woodford version at [http://aka.ms/fsmobile-configurator](http://aka.ms/fsmobile-configurator).
 
 ## Get Map API key
 
