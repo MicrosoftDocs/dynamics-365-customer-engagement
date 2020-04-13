@@ -30,11 +30,11 @@ You can configure the Customer Service analytics and Customer Service Insights r
 - **Analytics reports:** Customers can view BI analytics and metrics for their customer service organization.
 - **Insights reports:** Customers can view Customer Service Insights reports with a combination of BI analytics and AI insights for their organization. The reports use natural language understanding to automatically detect the language used in your support cases and group related support cases into topics. More information: [Customer Service Insights overview](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/overview)
 
-## Configure Customer Service Analytics reports in Customer Service Hub
+## Configure Customer Service analytics reports in Customer Service Hub
 
 Make sure that you have administrator permissions for Dynamics 365.
 
-### Enable Customer Service Analytics reports
+### Enable Customer Service analytics reports
 
 1. Sign in to Dynamics 365 as an administrator, and go to Customer Service Hub.
 2. In the **Change area**, select **Service Management** > **Settings (Preview)**. The **Analytics and insights settings** page appears.
