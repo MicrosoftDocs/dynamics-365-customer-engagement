@@ -134,8 +134,13 @@ The Field Service Settings page allows system administrators to set default sett
 |      Entity number length       |                                                                                       Enter the number of digits the entity numbers will be. For example, if you enter 5, the first work order number would be 00001.                                                                                       |
 | Auto allocate estimate products | When products are added to a work order before the work begins, then the line status of the work order product record defaults to **Estimated**. This setting determines whether the work order product record is set to **Allocated** when the line status is still **Estimated**, as opposed to **Used**. |
 |     Auto geo code addresses     |               Specify whether the system should automatically add the appropriate latitude and longitude values based on the account's address. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Turn on auto geocoding](../field-service/turn-on-auto-geocoding.md)                |
-|       Product cost order        |                                                                                                                                     Select the order for product cost.                                                                                                                                      |
-  
+|       Product cost order        | Select the order for product cost.   |
+| Use Enhanced Background Processing | When the Field Service app is installed, so too are many workflows that run in the background. This setting utilizes Power Automate flows in place of some of the background Dynamics 365 Field Service workflows. Power Automate has many benefits, including the ability to connect and run workflows within Dynamics 365 and between other outside applications, the ability to delete records and schedule jobs, and robust approvals, among others. For Field Service specifically, using Power Automate in place of background processes related to agreements improves performance for long-waiting agreements and fixes complications in the event an owner of an agreement no longer has access to Dynamics 365 (if they leave the company, for example). This setting is in preview and more background workflows are expected to be moved to Power Automate flows in subsequent releases.|
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the administration settings on the other section.](./media/administration-settings-other-section.png) 
+
+
 ## GPS data settings
  [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] can be integrated with third-party GPS providers to allow the real-time location of resources or vehicles on schedule maps. These settings allow you to map the integrated GPS data to the [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] system.  
   
@@ -148,9 +153,7 @@ The Field Service Settings page allows system administrators to set default sett
 |Custom GPS location entity|Shows the logical name of customer entity to use for geo locations.|  
 |Custom GPS timestamp field|Shows the logical name of the timestamp to use for geo locations.|  
 |Custom GPS longitude field|Show the logical name of the longitude to be used for geo locations.|  
-  
-## Notes  
- Use this area to add any notes for yourself.  
+   
   
 ### See also  
  [Overview](../field-service/overview.md)   
