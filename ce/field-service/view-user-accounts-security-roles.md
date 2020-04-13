@@ -152,10 +152,13 @@ If there isn't already an address for the user, navigate to the Microsoft 365 ad
 > [!div class="mx-imgBorder"]
 > ![Screenshot of how to access scheduling parameters](media/users-18.png) 
 
-1.  To tag a latitude and longitude for the address on the user record, set **Connect to Maps** to **Yes**. The API key is filled out automatically to use Bing Maps API.
+1.  To tag a latitude and longitude for the address on the user record, set **Connect to Maps** to **Yes**. The API key will populate automatically and use the Bing Maps API.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of connecting to maps and Bing Maps API in Dynamics](media/users-19.png) 
+> ![Screenshot of setting COnnect to Maps to yes](media/Perform-Initial-Configurations-image7.png)  
+
+> [!Note]
+> In Field Service version 8.8.10.44+ the Bing Maps API key is hidden.
 
 5. Go to the user record, and then select **Geo Code**.
 
