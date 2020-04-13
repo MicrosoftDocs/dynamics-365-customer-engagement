@@ -85,6 +85,7 @@
 ### [Send email using the enhanced email experience](enhanced-email.md)
 ### [Insert an email template](insert-email-template.md)
 ### [Create PDF documents](create-quote-pdf.md)
+### [Print quote, invoice, or other records](print-records.md)
 ### [Track and manage activities](manage-activities.md) 
 ### [Work with activities in the Kanban view](activity-kanban-view.md)  
 

@@ -162,3 +162,4 @@ Need a faster way to enter opportunities? Try one of these:
 [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
 [Boost sales with Versium Predict](../versium-predict/versium-predict.md)   
 [Insights, powered by InsideView](../insights-insideview/insights-powered-by-insideview.md)   
+[Print quote, invoice, or other records](print-records.md)
