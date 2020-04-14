@@ -87,6 +87,7 @@
 ## [Setup](field-service-mobile-app-user-guide.md)
 ## [Customizations and configurations](mobile-app-configuration-customization.md)
 ## [Activate mobile configurator](activate-fs-mobile-app-license.md)
+## [Map API key](mobile-enable-maps.md)
 ## [Upgrade the mobile project template](mobile-upgrade-project.md)
 ## [Push notifications](mobile-push-notifications.md)
 ## [Device and app management with Microsoft Intune](field-service-mobile-intune.md)
