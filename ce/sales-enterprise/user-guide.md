@@ -1,11 +1,9 @@
 ---
 title: "Help resources for sales people (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Contains topics that describe how to do common sales tasks in Dynamics 365 Sales"
-ms.date: 10/01/2019
-ms.service: 
+ms.date: 04/13/2020
+ms.service:
   - "dynamics-365-sales"
-ms.custom: 
-  - "dyn365-sales"
 ms.topic: get-started-article
 author: shubhadaj
 ms.author: shujoshi
@@ -27,9 +25,9 @@ manager: sakudes
 
 <li><a href="overview.md" data-raw-source="[Overview of Sales and Sales Hub](overview.md)">Overview of Sales and Sales Hub</a></li>
 <li><a href="user-guide-learn-basics.md" data-raw-source="[Learn the basics](user-guide-learn-basics.md)">Learn the basics</a></li>
-<li><a href="../basics/start-your-day-dashboard-chart.md" data-raw-source="[Start your day with a dashboard](../basics/start-your-day-dashboard-chart.md)">Start your day with a dashboard</a></li>
+<li><a href="dashboards.md" data-raw-source="[Gain insights with dashboards](dashboards.md)">Gain insights with dashboards</a></li>
 <li><a href="../basics/assign-record-user-team.md" data-raw-source="[Assign a record to a user or team](../basics/assign-record-user-team.md)">Assign a record to a user or team</a></li>
-<li><a href="../basics/work-with-activities.md" data-raw-source="[Work with activities](../basics/work-with-activities.md)">Work with activities</a></li>
+<li><a href="manage-activities.md" data-raw-source="[Track and manage activities](manage-activities.md)">Track and manage activities  </a></li>
 <li><a href="../basics/what-are-business-processes.md" data-raw-source="[What are business processes?](../basics/what-are-business-processes.md)">What are business processes?</a></li>
 <li><a href="../basics/set-personal-options.md" data-raw-source="[Set personal options?](../basics/set-personal-options.md)">Set personal options</a></li>
 
