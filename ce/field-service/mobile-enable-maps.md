@@ -47,14 +47,14 @@ Set up maps and location services by retreiving a Bing Maps API key and entering
 
 Minimum Woodford Version required for this configuration is **Woodford 11.3+**.
 
-Download the latest Woodford version at [http://aka.ms/fsmobile-configurator](http://aka.ms/fsmobile-configurator).
+If you do not meet the minimum Woodford version, download the latest Woodford version from [http://aka.ms/fsmobile-configurator](http://aka.ms/fsmobile-configurator) and import it in your Dynamics 365 envronment at **Settings > Solutions**.
 
 ## Get Map API key
 
-The first step is to generate a Bing Maps API key. Reference the topic on [https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key](Getting a Bing Maps API key) for more details.
+The first step is to generate a Bing Maps API key. Reference the topic on [Getting a Bing Maps API key](https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key) for more details.
 
 
-1. Go to the Bing Maps Dev Center at [https://www.bingmapsportal.com/](https://www.bingmapsportal.com/) and sign in.
+1. Go to the Bing Maps Dev Center at [https://www.bingmapsportal.com/](https://www.bingmapsportal.com/).
 2. Sign in with a Microsoft account or create a new account. 
 3. Under **My Account** select **My keys**.
 3. Select the option to create a new key.
@@ -69,37 +69,38 @@ The first step is to generate a Bing Maps API key. Reference the topic on [https
 
 ## Enter Map API key in Woodford
 
-After retreiving your Map API key, enter it in your mobile project. 
+After retreiving your Map API key, you will need to enter it in your mobile project template that dictates how the mobile app looks and functions. 
 
-To Configure your API Keys:
-Navigate to your Woodford Project:  
-1.	Log in to your Dynamics Org.
-2.	Navigate to Settings > Advanced Settings
-3.	In MobileCRM section, click on Woodford.
- 
+In your Dynamics 365 environment go to **Settings > Woodford**
+
+On resulting screen, click into **MobileCRM Woodford HTML5**
+
  
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-map-api-navigate.png)
  
-1.	On resulting screen, click into MobileCRM Woodford (HTML or Silverlight version; whichever your org primarily users)
-2.	Within Woodford, double-click into your active project.
-i.	The active project being used is noted by a Blue Arrow next to project name.
-ii.	Note if you use multiple projects for different users, you will have to follow these steps for each project.
-iii. this project is the derivative of the mobile project template
+	
+Within Woodford, double-click into your active project.
+  - The active project being used is noted by a Blue Arrow next to project name.
+  - If you use multiple projects for different users, you will have to follow these steps for each project.
+  - If you followed the [Field Service installation instructions](./install-field-service.md), double click in to the derivative of the mobile project template.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-map-api-projects.png)
 
-- Click into Components > Configuration.
-- In Configuration, click on "Integrations" tab.
-- From there you an paste your Google and/or Bing Maps API Keys.
+From the left menu pane go to **Configuration** then go to the **Integrations** tab.
+
+- 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-map-api-key.png)
 
-2.	Save your Project
-3.	Publish your project
+From there paste your Bing Maps API Key in the Maps section.
+
+Save your Project.
+
+Publish your project.
 
 
 ## Configuration considertations
