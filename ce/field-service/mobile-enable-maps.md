@@ -45,7 +45,7 @@ Set up maps and location services by retreiving a Bing Maps API key and entering
 
 ## Prerequisites
 
-Minimum Woodford Version required for this configuration is **Woodford 11.3+**.
+Minimum Woodford Version required is **Woodford 11.3+**.
 
 If you do not meet the minimum Woodford version, download the latest Woodford version from [http://aka.ms/fsmobile-configurator](http://aka.ms/fsmobile-configurator) and import it in your Dynamics 365 envronment at **Settings > Solutions**.
 
@@ -82,8 +82,9 @@ On resulting screen, click into **MobileCRM Woodford HTML5**
 	
 Within Woodford, double-click into your active project.
   - The active project being used is noted by a Blue Arrow next to project name.
-  - If you use multiple projects for different users, you will have to follow these steps for each project.
   - If you followed the [Field Service installation instructions](./install-field-service.md), double click in to the derivative of the mobile project template.
+  - If you use multiple projects for different users, you will have to follow these steps for each project.
+  
 
 
 > [!div class="mx-imgBorder"]
@@ -94,7 +95,7 @@ From the left menu pane go to **Configuration** then go to the **Integrations** 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-map-api-key.png)
 
-From there paste your Bing Maps API Key in the Maps section.
+From there paste your copied api key in the **Bing Maps API Key** field in the **Maps** section.
 
 Save your Project.
 
@@ -105,21 +106,21 @@ Publish your project.
 
 ### Google maps
 
-- For Google Maps: Woodford 10.0
+You can also use Google Maps for map visualizations and location calculations instead of Bing maps.
 
-Alternatively, you can use Google Maps for visualizations and location calulations with the following steps.
+Minimum Woodford Version required is **Woodford 10.0+**.
 
+First retrieve a _Google_ Maps API key. Reference the topic on [Getting a Google Maps API key](https://developers.google.com/maps/documentation/embed/get-api-key) for more details.
 
-1. Reference: https://developers.google.com/maps/documentation/embed/get-api-key
-2. Visit the Google Cloud Platform Console.
-3.	Click the project drop-down and select or create the project for which you want to add an API key.
-4.	Click the menu button and select APIs & Services > Credentials.
-  i.	On the Credentials page, click Create credentials > API key.
-  ii.	The API key created dialog displays your newly created API key.
-  iii.	Click Close.
+1. Visit the [Google Cloud Platform Console](https://console.cloud.google.com/google/maps-apis/overview?pli=1).
+2.	Click the project drop-down and select or create the project for which you want to add an API key.
+3.	Click the menu button and select APIs & Services > Credentials.
+  - On the Credentials page, click Create credentials > API key.
+  - The API key created dialog displays your newly created API key.
+  - Click Close.
 5.	The new API key is listed on the Credentials page under API keys.
 
-
+Back in Woodford, copy and paste the API key in the **Google Maps API Key** field in the **Google** section.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-map-api-key-google.png)
