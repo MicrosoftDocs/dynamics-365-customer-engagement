@@ -91,8 +91,6 @@ Within Woodford, double-click into your active project.
 
 From the left menu pane go to **Configuration** then go to the **Integrations** tab.
 
-- 
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-map-api-key.png)
 
