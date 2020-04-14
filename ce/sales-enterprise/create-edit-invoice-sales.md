@@ -51,9 +51,9 @@ Typically, you convert an order into an invoice; however, you can also create an
 
 3. On the **Invoice** form, enter data in the following required fields:
 
-    -    **Name** 
+    -  **Name** 
   
-    -    **Price List** and **Currency**: Select the price list and the currency that will be used to calculate the product prices. 
+    -  **Price List** and **Currency**: Select the price list and the currency that will be used to calculate the product prices. 
 
         > [!NOTE]
         > By default, selecting a price list is required to be able to add products to an invoice; however, your administrator can change your organization settings to make the Price List field optional. 
