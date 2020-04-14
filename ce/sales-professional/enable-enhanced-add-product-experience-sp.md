@@ -12,6 +12,8 @@ manager: annbe
 
 # Enable the enhanced experience of adding products (Sales Professional)
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 Increase seller productivity by enabling the enhanced experience for searching and adding products to opportunities. With the enhanced experience, salespeople can:
 
 -  Quickly search for products.
@@ -19,10 +21,10 @@ Increase seller productivity by enabling the enhanced experience for searching a
 -  Compare products before selecting them.
 -  Add multiple products in one go.
 
-
 > [!IMPORTANT]
-> - The enhanced "add product" experience is released as part of the February 2020 early access release. 
-> - The setting is currently available only in the Sales Hub app.
+> - The enhanced "add product" experience is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+> - [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
 **To enable the enhanced experience**
 

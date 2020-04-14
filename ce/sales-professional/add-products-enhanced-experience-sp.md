@@ -12,6 +12,8 @@ manager: annbe
 
 # Add products to an opportunity by using the enhanced experience (Sales Professional)
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 For salespeople, it's important to be able to quickly update opportunities by adding products that their customers are interested in.
 
 With the enhanced experience of adding products, salespeople can:
@@ -30,7 +32,11 @@ With the enhanced experience of adding products, salespeople can:
 
 
 > [!IMPORTANT]
-> For salespeople to use the enhanced experience, a system administrator must enable it. If you don't see the enhanced experience, check with your system administrator. 
+> - For salespeople to use the enhanced experience, a system administrator must enable it. If you don't see the enhanced experience, check with your system administrator. 
+> - The enhanced "add product" experience is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+> - [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+
 
 **To add a product by using the enhanced experience**
 
