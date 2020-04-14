@@ -83,3 +83,5 @@ When running an analysis job, you will see a **Return Status** for each rule, wh
 | Fail    | Highlight specific failures within the system; fix the rule as suggested.| 
 | Warning    | Be aware of the implications mentioned in the rule message.| 
 | Pass    | Indicates that there are no problems with this rule. All rules should be in this state.| 
+
+## Use health check results to resolve problems
