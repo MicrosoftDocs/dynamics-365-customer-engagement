@@ -21,6 +21,8 @@ manager: annbe
 
 <li><a href="ts-leads.md#cant_qualify_lead" data-raw-source="[I can't qualify a lead](ts-leads.md#cant_qualify_lead)">I can't qualify a lead</a></li>
 <li><a href="ts-leads.md#insufficientpermissions" data-raw-source="[Insufficient permissions or Access denied error when a user is trying to qualify a lead)](ts-leads.md#insufficientpermissions)">Insufficient permissions or Access denied error when a user is trying to qualify a lead</a></li>
+<li><a href="ts-leads.md#qualify-lead-not-available" data-raw-source="[The Qualify lead command is not available on the Lead record)](ts-leads.md#qualify-lead-not-available)">The Qualify lead command is not available on the Lead record</a></li>
+<li><a href="ts-leads.md#account-contact-fields-not-populating" data-raw-source="[Account or contact-related fields aren't populating on the Lead form)](ts-leads.md#account-contact-fields-not-populating)">Account or contact-related fields aren't populating on the Lead form</a></li>
 
 </td><td>
 

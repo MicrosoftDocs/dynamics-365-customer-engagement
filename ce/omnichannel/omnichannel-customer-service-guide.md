@@ -1,10 +1,10 @@
 ---
 title: "Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about Omnichannel for Customer Service."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
+ms.date: 04/14/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -100,5 +100,13 @@ To orient yourself with Omnichannel for Customer Service, watch the videos that 
 
 </td>
 </tr>
+<tr>
+<td>
 
+<h2> Learn resources</h2>
+
+Find the right online training, in-person workshops, and events for your role in Omnichannel for Customer Service at [learn resources](https://docs.microsoft.com/learn/browse/?term=omnichannel).
+
+</td>
+</tr>
 </table>
