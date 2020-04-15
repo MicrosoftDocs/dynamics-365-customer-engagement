@@ -4,7 +4,7 @@ description: "Learn about how to smartly assist agents with the next-best steps 
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/09/2020
+ms.date: 04/15/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -29,7 +29,7 @@ The smart assist feature can be enabled across all channels like Chat for Dynami
 - Contextual recommendations are generated based on real-time conversations.
 
 - Plug-in organization-specific recommendations are displayed to agents in real time.
- 
+
 - Action-oriented recommendations are given for agents to send responses or execute automated actions.
 
 - Intelligence is powered by using Microsoft Azure or third-party capabilities.
