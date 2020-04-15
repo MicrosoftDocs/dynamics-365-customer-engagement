@@ -2,7 +2,7 @@
 title: "Analyze marketing results and gain insights (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to find and interpret marketing results, KPIs, and analytics in Dynamics 365 Marketing"
 keywords: insights;results;KPIs;analytics
-ms.date: 03/08/2019
+ms.date: 04/15/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -55,7 +55,7 @@ Some **Insights** tabs include two or more categories of insights. You can navig
 
 ### Filter insights by date range and usage
 
-At the top of most insights tabs, you'll find settings that let you filter the information shown—for example, by date ( **From** and **To** settings) or usage (such as which **Customer journey** an email was used in).
+At the top of most insights tabs, you'll find settings that let you filter the information shown—for example, by date (**From** and **To** settings) or usage (such as which **Customer journey** an email was used in).
 
 ![Filter insights by date range and usage](media/insights-filters.png "Filter insights by date range and usage")
 
@@ -84,9 +84,9 @@ Contacts provide the following [insights categories](#categories):
     >- Only pages that include a [Dynamics 365 Marketing tracking script](register-engagement.md#monitor-visitors) are counted here.
     > - The **Websites visited** list shows all tracked pages that were visited by this known contact.
     > - The **Websites clicked** list shows all of the links this user clicked on when viewing a tracked page. Each visited link is show as a full URL, and repeat visits are listed just once, with a counter.
-    > - If you [embed a marketing form](embed-forms.md) into an external webpage, then a tracking tag is included and visits to that page are therefore shown here.
-    > - Results from anonymous visits and redirect-URL clicks that occurred prior to becoming a known contact are not shown here.
-- **Event interactions**: See a timeline of event interactions, and event registration, check-in and cancellation records for the current contact.
+    > - If you [embed a marketing form](embed-forms.md) into an external webpage, a tracking tag is included and visits to that page are therefore shown here.
+    > - Results from anonymous visits and redirect-URL clicks that occurred prior to becoming a known contact are shown as insights against the known contact.
+- **Event interactions**: See a timeline of event interactions, and event registration, check-in, and cancellation records for the current contact.
 - **Marketing form interactions**: See which marketing forms the contact has submitted and the content of each submission.
 - **Subscription list interactions**: See which subscription lists the contact joined or left, and when.
 - **Email open times**: See the days and times when the contact usually opens your emails and how long they usually wait before opening them. This information also informs the [automated scheduling feature](automated-scheduler.md), which adds a **Predicted best send times** chart here when enabled.
@@ -167,18 +167,18 @@ Open the **Insights** tab and select **Incomplete journeys** to view each reason
 *Stopped contacts* are contacts that got stopped in the middle of a journey. Contacts will stop their journey as soon as any of these situations occur, so no further messages or other journey actions will be applied thereafter to the affected contact(s). A contact can get stopped for any of the following reasons:
 
 - **Contact joined the suppression segment**: The contact joined the suppression segment for the customer journey.
-- **Contact lowered consent below threshold**: These are contacts that lowered their data-protection consent level , and are now below the minimum level of consent for this journey. This is an important part of GDPR compliance. More information: Data protection and the GDPR.
+- **Contact lowered consent below threshold**: These are contacts that lowered their data-protection consent level, and are now below the minimum level of consent for this journey. This is an important part of GDPR compliance. More information: [Data protection and the GDPR](gdpr.md).
 - **Contact lowered external consent below threshold**: This is the same a Contact content not given but applies when consent is being managed by an external system rather than the internal one provided with Dynamics 365 Marketing.
 
 Select a reason in the left column of the table to see a list (in the right column) of contacts that were stopped for that reason.
 
 #### Blocked emails
 
-A *blocked email* is a messages that the system didn't attempt to send even though it was scheduled. Usually, this is related to contact preferences or a technical problem with the message itself, such as missing data or a missing setting. Contacts will continue on the journey even if a message gets blocked, so later messages might still get sent successfully. A message might get blocked for any of the following specific reasons:
+A *blocked email* is a message that the system didn't attempt to send even though it was scheduled. Usually, this is related to contact preferences or a technical problem with the message itself, such as missing data or a missing setting. Contacts will continue on the journey even if a message gets blocked, so later messages might still get sent successfully. A message might get blocked for any of the following specific reasons:
 
 - **Contact has do-not-email set**: A setting on the [contact record](manage-customer-information.md) indicates that that contact doesn't wish to receive marketing email (or any email) from your organization.
 - **Duplicate recipient address**: The journey already sent the message to this email address. You probably have more than one contact record with the same email address.
-- **Recipient address isn't valid**: There is something obviously wrong with the recipient address (such as no "@"), which means that the message can't be delivered.
+- **Recipient address isn't valid**: There is something wrong with the recipient address (such as no "@"), which means that the message can't be delivered.
 - **Sender address isn't valid**: The email is designed with a sender address that is blank or malformed. This may affect your entire send (if you are using an invalid static address or expression), or it may affect just a few messages if you are using a dynamic expression that only fails for some contacts for which data is invalid or missing.
 - **Reply-to address isn't valid**: Same as for the invalid sender address, but this applies to the reply-to field.
 - **Email contains blacklisted links**: Dynamics 365 Marketing analyzes the content of outgoing messages to make sure they don't contain any blacklisted links. If one is found, the message is blocked. The system keeps an internal list of blacklisted sites that are known to be used for phishing, hosting malware, and other issues. This feature helps make sure that you don't accidentally include a link to one of those sites in your marketing messages.
