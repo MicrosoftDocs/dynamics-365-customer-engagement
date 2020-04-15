@@ -29,11 +29,11 @@ Omnichannel for Customer Service April 2020 update is available in the following
 |-------------------------------------------|----------------------|
 | Canada                                    |   April 06, 2020     |  
 | South America                             |   April 06, 2020     |  
-| Europe, the Middle East, and Africa       |   To be announced    |
-| United Kingdom                            |   To be announced    |
 | Asia Pacific                              |   April 14, 2020     |
 | Australia                                 |   April 14, 2020     |
 | Japan                                     |   April 14, 2020     |
+| Europe, the Middle East, and Africa       |   To be announced    |
+| United Kingdom                            |   To be announced    |
 | North America                             |   To be announced    |
 | Government Community Cloud (GCC)          |   To be announced    |
 | United Arab Emirates (UAE)                |   To be announced    |
