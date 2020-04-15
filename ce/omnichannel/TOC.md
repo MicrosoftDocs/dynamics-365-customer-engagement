@@ -15,7 +15,7 @@
 ## [What's new](omnichannel-whats-new.md)
 
 ## [Videos](videos.md)
-
+## [Learn resources](https://docs.microsoft.com/learn/browse/?term=omnichannel)
 ## Administrator guide
 ### [Overview](administrator/omnichannel-administrator.md)
 ### [Provision Omnichannel for Customer Service](administrator/omnichannel-provision-license.md)

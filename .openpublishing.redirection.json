@@ -17846,16 +17846,6 @@
       "redirect_url": "introduction-migration-entity-records.md",
       "redirect_document_id": false
     },
-    {
-      "source_path": "ce/customer-service/channel-integration-framework/v2/reference/microsoft-ciframework/notifyNewActivity.md",
-      "redirect_url": "../microsoft-ciframework-v2",
-      "redirect_document_id": false
-    },
-    {  
-      "source_path": "ce/customer-service/channel-integration-framework/v2/reference/microsoft-ciframework/notifyKPIBreach.md",
-      "redirect_url": "../microsoft-ciframework-v2",
-      "redirect_document_id": false
-    },
     {  
       "source_path": "ce/customer-service/channel-integration-framework/v2/onboard-org-flight.md",
       "redirect_url": "get-channel-integration-framework",

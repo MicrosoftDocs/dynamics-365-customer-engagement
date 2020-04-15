@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting the Lead entity (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how to troubleshoot issues with the Lead entity in Dynamics 365 Sales."
-ms.date: 03/24/2020
+ms.date: 04/13/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -13,6 +13,12 @@ manager: annbe
 # Troubleshooting the Lead entity 
 
 This article helps you troubleshoot and resolve issues related to the Lead entity.
+
+**On this page:**
+- [Issue: I can't qualify a lead](#cant_qualify_lead)
+- [Issue: Insufficient permissions or Access denied error when a user is trying to qualify a lead](#insufficientpermissions)
+- [Issue: The **Qualify lead** command is not available on the Lead record](#qualify-lead-not-available)
+- [Issue: Account or contact-related fields aren't populating on the Lead form](#account-contact-fields-not-populating)
 
 <a name="lead_qualification"> </a>
 ## Lead qualification issues and resolution (sales people)
@@ -59,7 +65,7 @@ On the **Duplicate warning** dialog box, select the existing account or contact 
 > When you qualify a lead through the Leads grid, the system creates an account or contact even though a duplicate record exists. By design, the rule that detects the duplicate records gets disabled. However, when you qualify a lead through the lead record form, the duplicate detection rule works. The rule prompts you with a warning to resolve the conflict if any duplicate records for account or contact are found.
 
 <a name="CompleteSteps"> </a>
-#### 2. To move to the next stage, complete the required steps
+#### 2. To move to the next stage, complete the required steps.
 
 **Reason:** 
 
@@ -105,81 +111,55 @@ You are trying to qualify or disqualify a lead that's closed.
 
 **Resolution:**
 
-Make sure that the lead that you're trying to qualify or disqualify is open and not already qualified or disqualified. You can do this by selecting the My Open leads or Open Leads view.
+Make sure the lead that you're trying to qualify or disqualify is open and not already qualified or disqualified. You can do this by selecting the My Open leads or Open Leads view.
 
 
 <a name="lead_qualification_for_admins"> </a> 
 ## Lead qualification issues and resolution (for system administrators)
 
 <a name="insufficientpermissions"> </a> 
-### Issue: Insufficient permissions or Access denied error when a user is trying to qualify a lead
+### Issue: Insufficient permissions or Access denied error when a user is trying to qualify a lead.
 
 How you resolve this error depends on the following ownership scenarios for the lead records. 
--  [The lead is owned by the user trying to qualify it](#OwnedByUser)
--  [The lead that the user is trying to qualify is in their business unit](#BusinessUnit)
--  [The lead that the user is trying to qualify is in their organization](#Organization)
 
-<a name="OwnedByUser"> </a>
-**Scenario:** 
-The lead is owned by the user trying to qualify it.
+| Ownership scenario   |  Resolution steps       |
+|--------------------- | -----------------       |
+| The lead is owned by the user trying to qualify it. | <ol> <li> Make sure you have a system administrator role or equivalent permissions. </li><li> Go to **Settings** > **Security Role**.</li><li> Open the security role of the user.</li><li> On the **Core Records** tab, assign **Create**, **Read**, **Append**, and **Append To** permissions to the Security Role at User level on the following entities:<ul><li>  Account</li><li>Lead</li><li>Contact</li><li>Opportunity</li></ul> ![Security role with access at User level](media/security-role-sales-person.png "Security role with access at User level") <br><br> <li> On the **Custom Entities** tab, assign Read access to any custom entity.</li><li> On the **Customizations** tab, assign **Read** access to **Attribute Map**, **Customizations**, **Entity**, and **Entity Map**.</li></ol> |
+| The lead that the user is trying to qualify is in their business unit.  | <ol><li>Go to **Settings** > **Security Role**.</li> <li> Open the security role of the user.</li><li> Assign **Create**, **Read**, **Append**, and **Append To** permissions to the user's Security Role at Business Unit level on the following entities:<ul><li> Account</li><li>Lead</li><li>Contact</li><li>Opportunity</li></ul>![Security role with access at Business Unit level](media/security-role-sales-person-bu-access.png "Security role with access at Business Unit level") <li> Assign **Read** access to any custom entity.</li><li>Assign **Read** access to **Attribute Map**, **Customizations**, **Entity**, and **Entity Map**.</li></ol>|
+| The lead that the user is trying to qualify is in their organization.  | <ol><li>Go to **Settings** > **Security Role**.</li> <li> Open the security role of the user.</li><li> Assign **Create**, **Read**, **Append**, and **Append To** permissions to the user's Security Role at Organization level on the following entities:<ul><li> Account</li><li>Lead</li><li>Contact</li><li>Opportunity</li></ul>![Security role with access at Organization level](media/security-role-sales-person-org-access.png "Security role with access at Organization level") <li> Assign **Read** access to any custom entity.</li><li>Assign **Read** access to **Attribute Map**, **Customizations**, **Entity**, and **Entity Map**.</li></ol>|
 
-**Resolution:** 
-1. Make sure you have a system administrator role or equivalent permissions.
-2. Go to **Settings** > **Security Role**.
-3. Open the security role of the user.
-4. On the **Core Records** tab, assign **Create**, **Read**, **Append**, and **Append To** permissions to the Security Role at User level on the following entities:
-    -  Account 
-    -  Lead
-    -  Contact
-    -  Opportunity 
+During qualification of a lead, the records that (optionally) get created are: Opportunity, Contact, and Account. More information: [Qualify or convert leads](qualify-lead-convert-opportunity-sales.md) 
 
-    ![Security role with access at User level](media/security-role-sales-person.png "Security role with access at User level")
+If the user is getting privilege-related errors even after assigning appropriate privileges as mentioned earlier in this section, it might be possible that they're missing privileges on some entities that are being accessed during creation of the account, contact, or opportunity records. For example, the user might be missing privileges on some custom entities that are accessed when some plug-ins or workflows run on some operation of the account, contact, or opportunity entities. 
 
-5.    On the **Custom Entities** tab, assign Read access to any custom entity.
-6.    On the **Customizations** tab, assign **Read** access to **Attribute Map**, **Customizations**, **Entity** and **Entity Map**.
+To troubleshoot this further, follow these steps:
 
-<a name="BusinessUnit"> </a>
-**Scenario:**
-The lead that the user is trying to qualify is in their business unit.
+1. **Isolate the issue to creation of Opportunity, Account or Contact record:** Ask the user to try creating individual records of Account, Contact, and Opportunity and see if they get the same privilege-related issue on creation of these records. They might have privilege issues on one or more type of records, so it is important to perform this step for each record type. For example, they might not have appropriate privileges on Account and Contact entities.  
 
-**Resolution:**
-1. Go to **Settings** > **Security Role**.
-2. Open the security role of the user.
-3. Assign **Create**, **Read**, **Append**, and **Append To** permissions to the user's Security Role at Business Unit level on the following entities:
-    -  Account 
-    -  Lead
-    -  Contact
-    -  Opportunity 
+2. **Identify whether any plug-in/workflow registered on creation of entity is causing issues:** After isolating the issue to creation of a particular entity record, check whether any plug-in or workflow running on creation of these entity records is accessing some other entities on which the current user is missing privileges. For this, find out all the plug-ins or workflows registered on creation of entity records and deactivate them one by one to identify the plug-in or workflow causing the issue. Once you identify the plug-in or workflow causing the issue, deactivate it to unblock the record creation process. For more information about identifying all workflows registered for an entity, see [Deactivate custom workflow process](ts-oqoi.md#deactivate-custom-process). 
 
-    ![Security role with access at Business Unit level](media/security-role-sales-person-bu-access.png "Security role with access at Business Unit level")
+For more information about identifying plug-ins registered on creation of an entity record, see [Deactivate custom plug-in](ts-oqoi.md#deactivate-custom-plug-in). 
 
-4. Assign **Read** access to any custom entity.
-5. Assign **Read** access to **Attribute Map**, **Customizations**, **Entity** and **Entity Map**
+<a name="qualify-lead-not-available"> </a>
+### Issue: The **Qualify lead** command is not available on the Lead record.
 
-<a name="Organization"> </a>
-**Scenario:**
-The lead that the user is trying to qualify is in their organization.
+**Reason:**  
+
+The out-of-the-box **Qualify lead** command is visible on the Lead form only if Account, Contact, Lead, and Opportunity entities are set as editable in the Unified Interface, and the Account, Contact, and Opportunity entities are available in Mobile offline. 
 
 **Resolution:**
-1. Go to **Settings** > **Security Role**.
-2. Open the security role of the user.
-3. Assign **Create**, **Read**, **Append**, and **Append To** permissions to the user's Security Role at Organization level on the following entities:
-    -  Account 
-    -  Lead
-    -  Contact
-    -  Opportunity 
- 
-    ![Security role with access at Organization level](media/security-role-sales-person-org-access.png "Security role with access at Organization level")
 
-4. Assign Read access to any custom entity.
-5. Assign Read access to **Attribute Map**, **Customizations**, **Entity** and **Entity Map**.
+If the **Qualify lead** command isn't available, check the following:
+- Account, Contact, Lead or Opportunity entities are set to read-only for mobile. If they are, clear the **Read-only in mobile** check box in entity customization so that the entity becomes editable for Unified Interface. More information: [Troubleshooting issues with the Unified Interface](ts-unified-interface.md)
+- Check if the Account, Contact, and Opportunity entities are part of the mobile offline profile. If they aren't, add these entities to the profile and publish the changes. More information: [Enable entities for mobile offline synchronization](../mobile-app/setup-mobile-offline-for-admin.md#step-1-enable-entities-for-mobile-offline-synchronization)
+
 
 <a name="auto-generation-of-fields"> </a>
 ## Automatic generation of contact or company-related fields
 
 When you select an existing account or contact at the time of creating a new lead, the fields related to the account or contact are automatically populated. 
-- For the contact-related fields to be automatically populated, the default fields such as Name, Job title, business phone, Mobile phone, and Email must be empty.
-- For the company-related fields to be automatically populated, the default fields such as Address, Website and Company Name must be empty.
+- For the contact-related fields to be automatically populated, the default fields such as Name, Job title, Business phone, Mobile phone, and Email must be empty.
+- For the company-related fields to be automatically populated, the default fields such as Address, Website, and Company Name must be empty.
 
 <a name="account-contact-fields-not-populating"> </a>
 ### Issue: Account or contact-related fields aren't populating on the Lead form.

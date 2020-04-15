@@ -2,7 +2,7 @@
 title: "Bug fixes for Dynamics 365 Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 03/10/2020
+ms.date: 03/23/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -84,7 +84,7 @@ For more information about early access features, visit the [opt-in instructions
 ### Version 8.8.9.84
 
 - Script error when Account field is removed from the Opportunity Quick Create form.
-- On create of Account record based on Postal Code functionality, Service Territory is repeated auto-populated, even after the customer removes the initial auto-populated value.
+- On create of Account record based on Postal Code functionality, Service Territory is repeatedly auto-populated, even after the customer removes the initial auto-populated value.
 - Consistency issue in Field Service's Solution Health Hub rule naming when referring to SDK Message Processing Steps.
 
 ### Version 8.8.8.135
@@ -99,7 +99,6 @@ For more information about early access features, visit the [opt-in instructions
 - Deleting and recreating a Booking associated with a Work Order changes the shared users of Booking.
 - TypeError: Cannot read property 'getDefaultView' when Requested by Contact field removed from RMA form.
 - Agreement Invoice Product Currency Set to Base Currency - should be set to Agreement's Pricelist Currency.
-- See this blog post for more information.
 
 ### Version 8.8.7.47
 
@@ -127,18 +126,24 @@ To see older bug fixes, see the following links to blog posts:
  
 ## Field Service Mobile
 
-### Version 12.1.211
--	App crashes when wrong url is entered on sign in screen
--	FSM app crashes when sending logs if networkLog.txt does not exit
--	FSM app crashes when connecting to an org without woodford
--	FSM app crashes when click on 'password manager' from login screen
--	App crashing on certain older Android devices (misc)
--	MobileReport - formatting issue on Word/HTML
--	MobileReport - contents of Word document is removed if user saves Work Order without closing active doc.
--	Unit Amount and Unit Cost are not calculated when the offline Work Order Product created and sync backed to server
--	Certain actions don't work under work profile on Android
--	Conditionally displaying a URL via a shared-variable linked field does not update icon
+### Version 12.1.212
 
+#### Updates
+- PDF report generation: A tech can now choose PDF document type as one of the report formats.
+- Brokered authentication: A tech can leverage Company Portal or Authenticator application on a device to authenticate.
+- Added support for oAuth Authentication in Sovereign/DoD clouds.
+- Docusign Integration: Bring your DocuSign account and leverage DocuSign integration for digital signatures.
+
+#### Bug fixes
+- App crashes when wrong url is entered on sign in screen.
+- App crashes when sending logs if networkLog.txt does not exit.  
+- App crashes when connecting to an org without Woodford.
+- App crashes when click on 'password manager' from sign in screen.   
+- App crashing on certain older Android devices (G5, LG K7). 
+- MobileReport - Formatting issue on Word/HTML.
+- MobileReport - contents of Word document is removed if user saves Work Order without closing active doc.
+- Unit Amount and Unit Cost are not calculated when the offline Work Order Product created and sync backed to server.
+- Conditionally displaying a URL is not showing hyperlink icon.
 
 ### Version 12.1.203
 
