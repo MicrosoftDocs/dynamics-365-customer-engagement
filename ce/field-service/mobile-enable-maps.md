@@ -45,7 +45,7 @@ In this article, we'll walk through how to set up maps and location services by 
 
 ## Prerequisites
 
-- Minimum Woodford Version required is **Woodford 11.3+**. If you need the latest version, [download it here](http://aka.ms/fsmobile-configurator) and import it into your Dynamics 365 environment at **Settings** > **Solutions**.
+- Minimum Woodford Version required is **Woodford 11.3+**. If you need the latest version, [download it here](https://aka.ms/fsmobile-configurator) and import it into your Dynamics 365 environment at **Settings** > **Solutions**.
 
 ## Get Map API key
 
