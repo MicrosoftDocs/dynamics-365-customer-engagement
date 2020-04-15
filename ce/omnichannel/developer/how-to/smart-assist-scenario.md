@@ -87,8 +87,6 @@ The custom actions required for implementing similar case suggestions include th
 
 #### Calling custom actions using adaptive cards
 
-Custom actions enable you to implement custom functionalities in your smart assist bot.
-
 <!--### Macros
 
 Macros are a compilations of sequential actions that are reusable for different sessions. These can be used to automate repetitive and monotonous actions that in turn reduce human errors and improve agent productivity. For information on how to build a macro, see [Create macro](../../administrator/macros.md#create-macro).
@@ -139,13 +137,15 @@ You will have to create a web resource if you want to use embed a custom action 
 	]
 ```
 -->
-
+<!--
 Consider the scenario wherein you want the smart assist bot to be able to search and recommend knowledge base articles. The actions required are given below.
 
-<!--**Open knowledge base article**
+**Open knowledge base article**
 
 This action opens knowledge base article in an app tab in edit mode or opens up a knowledge base form.
 -->
+
+Given below are the supported custom actions.
 
 **Open Case custom action**
 
