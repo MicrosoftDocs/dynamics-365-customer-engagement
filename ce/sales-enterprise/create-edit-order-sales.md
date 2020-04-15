@@ -64,9 +64,9 @@ Congratulations! Your hard work nurturing your customer has paid off and they're
   
 3. On the **Order** form, enter data in the following required fields:
 
-    -    **Name** 
+    -  **Name** 
   
-    -    **Price List** and **Currency**: Select the price list and the currency that will be used to calculate the product prices. 
+    -  **Price List** and **Currency**: Select the price list and the currency that will be used to calculate the product prices. 
 
         > [!NOTE]
         > By default, selecting a price list is required to be able to add products to an order. However, your administrator can change your organization settings to make the Price list field optional.
