@@ -23,7 +23,7 @@ The purpose of this document is to provide information about availability of **O
 
 ### April 2020 update
 
-Omnichannel for Customer Service January 2020 update is available in the following regions:
+Omnichannel for Customer Service April 2020 update is available in the following regions:
 
 |   Geographic location   |            Date        |
 |-------------------------|------------------------|
@@ -71,7 +71,7 @@ The product user interface (UI) is available in the following languages.
 |----------------|------------------|------------------|
 | Arabic |  Greek | Romanian |
 | Basque | German | Russian |
-| Bulgarian | Hebrew | Serbian (Cyrilic) |
+| Bulgarian | Hebrew | Serbian (Cyrillic) |
 | Catalan |Hindi | Serbian (Latin) |
 | Chinese | Hungarian​ | Slovak |
 | Chinese (Hong Kong SAR) | Indonesian | Slovenian  |
