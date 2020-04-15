@@ -239,6 +239,12 @@
             href: v2/reference/microsoft-ciframework/refreshtab.md
           - name: "setTabTitle"
             href: v2/reference/microsoft-ciframework/settabtitle.md
+        - name: "Session indicator APIs"
+          items:
+          - name: "notifyKPIBreach"
+            href: v2/reference/microsoft-ciframework/notifyKPIBreach.md
+          - name: "notifyNewActivity"
+            href: v2/reference/microsoft-ciframework/notifyNewActivity.md
         - name: "Analytics APIs"
           items:
           - name: "updateConversation"
