@@ -135,7 +135,7 @@ You can also implement functionalities like suggesting similar cases, providing 
 
 Macros and custom actions can help you implement custom functionalities in your smart assist bot.
 
-### Macros
+<!--### Macros
 
 Macros are a compilations of sequential actions that are reusable for different sessions. These can be used to automate repetitive and monotonous actions that in turn reduce human errors and improve agent productivity. For information on how to build a macro, see [Create macro](../../administrator/macros.md#create-macro).
 
@@ -160,7 +160,7 @@ The type is always `Action.Submit` and title can be anything the user wants to n
 ```
 
 See also: [Automate tasks with macros](../../administrator/macros.md).
-
+-->
 ### Custom actions
 
 You will have to create a web resource if you want to use embed a custom action within a suggestion. See the Power Apps topic on [Create your own actions](/powerapps/developer/common-data-service/custom-actions) for information on how to build a custom action. See the topic [Web resources in model-driven apps](/powerapps/maker/model-driven-apps/create-edit-web-resources) for information on how to create web resources. These web resources will have to be uploaded under the **Customer Summary Form**, as shown in the screenshot below.
@@ -190,8 +190,7 @@ Consider the scenario wherein you want the smart assist bot to be able to search
 
 **Open knowledge base article**
 
-- Open knowledge base in a app tab.
-- Open up a knowledge base form. This opens the knowledge base article in edit mode.
+This action opens knowledge base article in an app tab in edit mode or opens up a knowledge base form.
 
 **Open Case custom action**
 

@@ -4,7 +4,7 @@ description: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 04/10/2020
+ms.date: 04/15/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -24,9 +24,7 @@ ms.topic: article
 
 ## Scenario: Similar case suggestion
 
-Consider the scenario where a customer who is trying to troubleshoot his printer reaches out to customer support through chat channel. The chat request is accepted by an agent. The customer before initiating the chat browsed through the printer website and the customer support agent can see the articles that the customer has read. The smart assist bot should be able to suggest similar cases with open and close case action buttons. 
-
-The customer service agent is presented with a list of similar cases as a recommendation. The agent clicks on the case that he finds most similar and relevant, and then goes to the case note and looks at the resolution in note. The agent suggests the same resolution to the customer over chat.
+This scenario enables you to suggest similar cases with open and close case action buttons. The customer service agent is presented with a list of similar cases as a recommendation. The agent clicks on the case that he finds most similar and relevant, and then goes to the case note and looks at the resolution in note. The agent suggests the same resolution to the customer over chat.
 
 ## Implement similar case suggestion
 
