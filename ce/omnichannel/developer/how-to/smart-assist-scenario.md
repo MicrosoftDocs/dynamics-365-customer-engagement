@@ -18,17 +18,19 @@ ms.topic: article
 
 ## Prerequisites
 
-- Read the topic [Build a smart assist bot](smart-assist-bot.md) for information on how to get started with building a custom smart assist bot. 
-- You will first need to create a bot with [Azure Bot Service](https://docs.microsoft.com/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0). When you register your bot with Azure Bot Service, you will obtain `Microsoft App ID` and `Client secret` which you will need to update the `appsettings.json` file in the bot.
+> [!IMPORTANT]
+> Read the topic [Build a smart assist bot](smart-assist-bot.md) for information on how to get started with building a custom smart assist bot. 
+
+- You will first need to create a bot with [Azure Bot Service](https://docs.microsoft.com/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0). <!--When you register your bot with Azure Bot Service, you will obtain `Microsoft App ID` and `Client secret` which you will need to update the `appsettings.json` file in the bot.-->
 - Create a LUIS app by following the instructions mentioned in [Add natural language understanding to your bot](https://docs.microsoft.com/azure/bot-service/bot-builder-howto-v4-luis?view=azure-bot-service-4.0&tabs=csharp). See the section [Retrieve application information from the LUIS.ai portal](https://docs.microsoft.com/azure/bot-service/bot-builder-howto-v4-luis?view=azure-bot-service-4.0&tabs=csharp#retrieve-application-information-from-the-luisai-portal) for information on how to retrieve the values you need to setup the bot.
 
 ## Scenario: Similar case suggestion
 
 This scenario enables you to suggest similar cases with open and close case action buttons. The customer service agent is presented with a list of similar cases as a recommendation. The agent clicks on the case that he finds most similar and relevant, and then goes to the case note and looks at the resolution in note. The agent suggests the same resolution to the customer over chat.
 
-## Implement similar case suggestion
+### Implement similar case suggestion
 
-### Generate intent to interpret the context of the conversation
+#### Generate intent to interpret the context of the conversation
 
 You need to analyze the conversation and understand its context before recommending an action to the agent. Use [Language Understanding (LUIS)](https://luis.ai) to find the intent of the ongoing conversation. Here is an example on how you can create a LUIS app to find intent from a given text: [Quickstart: Use prebuilt Home automation app](/azure/cognitive-services/luis/luis-get-started-create-app).
 
@@ -38,7 +40,7 @@ For the example scenario of similar case recommendations for ‘printer noise’
 
 ### Custom actions for implementing custom functionalities
 
-Custom actions can help you implement custom functionalities in your smart assist bot. More information: [Calling macros and custom actions using adaptive cards](smart-assist-bot.md#bkmk_macro_customaction).
+Custom actions can help you implement custom functionalities in your smart assist bot.
 
 Similar cases can be fetched using the `GetSimilarRecords` function. But before you execute the Web API query with this function, make sure that you have set up similarity rules. More information: [Use advanced similarity rules to view similar case suggestions](../../../customer-service/suggest-similar-cases-for-a-case). Also, make sure to enable **Relevance Search** in the administrator section to ensure that similarity rules work in the expected manner. Also, in the **Match Field** section add a few criteria such as case title and case type.
 
@@ -83,7 +85,7 @@ The custom actions required for implementing similar case suggestions include th
 2. Copy to Conversation Control.
 3. Open th URL in App tab.
 
-## Calling custom actions using adaptive cards
+#### Calling custom actions using adaptive cards
 
 Custom actions enable you to implement custom functionalities in your smart assist bot.
 
