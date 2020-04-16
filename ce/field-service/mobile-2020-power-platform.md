@@ -26,7 +26,16 @@ search.app:
   - D365FS
 ---
 
-# title
+# Field Service Mobile (2020)
+
+## Introduction
+
+## Benefits
+
+## Feature comparison: Field Service Mobile (2020) and Field Service Mobile
+
+## Implementation and migration guidance
+
 ## Prerequisites
 > [!Note]
 >
@@ -34,5 +43,8 @@ search.app:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/.png)
 
-## Configuration considerations
-## Additional Notes
+## Install
+
+## Basic configurations
+
+## FAQs
