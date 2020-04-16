@@ -146,6 +146,26 @@ The user trying to close the opportunity doesn't have sufficient permissions on 
 2. Open the security role of the user.
 3. Assign **Read**, **Create**, **Append**, **Append To** permissions to the user's Security Role at User level on the Opportunity entity and custom entity.
 
+## Stakeholder and Sales team subrids
+
+### Issue: I can't see the connection records added from the Stakeholders subgrid.
+
+**Reason:**
+
+The out-of-the box Stakeholders subgrid shows only those connection records whose connection role's category is "Stakeholder". More information: [How are stakeholders and sales team members tracked for opportunities?](stakeholders-sales-team-members.md)
+
+**Resolution:**
+
+1. In the Opportunity record, select the **Related** tab, and then select **Connections**. 
+
+2. Check if the connection you added is shown in **Connections** subgrid.
+
+3. If you see the connection record, open the record. 
+
+4. Open the Connection role selected in the **As this role** field. 
+
+5. Make sure that **Connection Role Category** is set to **Stakeholder**. If it isn't, select Stakeholder in the **Connection Role Category** drop-down list. 
+
 ### See also
 
 [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
