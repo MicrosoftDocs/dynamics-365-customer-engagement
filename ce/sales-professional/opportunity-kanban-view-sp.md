@@ -1,7 +1,7 @@
 ---
 title: "Work with opportunities in the Kanban view (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "Use the opportunity Kanban view to effectively monitor the pipeline and see the opportunities in their different statuses or stages of business process flow."
-ms.date: 04/03/2020
+ms.date: 04/16/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -67,6 +67,9 @@ Here are some important things to know about your Kanban view:
     > ![Sum of estimated revenue](../sales-enterprise/media/total-estimated-revenue.png "Sum of estimated revenue")
 
     It also shows a count of opportunity cards in that lane. At any given point, only the first 10 records or cards will be shown in any lane. If there are more than 10 opportunity cards in a lane—for example, 50—the count shows 10/50. To see more cards, scroll down in the lane. When you scroll down, the count changes to show 20/50, and so on.
+    
+    > [!NOTE]
+    > Aggregation of more than 50,000 records is not supported in a single swim lane. If there are more than 50,000 records, the aggregated estimated revenue is shown as blank and the total number of records are shown as 50000+.
 
 -  Selecting the card title opens the opportunity Main form. The Main form also opens when you move cards across business process flow stages. When you close the Main form, the whole Kanban view is refreshed.
 
