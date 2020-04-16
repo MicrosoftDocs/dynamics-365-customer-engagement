@@ -67,6 +67,10 @@ Here are some important things to know about your Kanban view:
     > ![Sum of estimated revenue](media/total-estimated-revenue.png "Sum of estimated revenue")
 
     It also shows a count of opportunity cards in that lane. At any given point, only the first 10 records or cards will be shown in any lane. If there are more than 10 opportunity cards in a lane—for example, 50—the count shows 10/50. To see more cards, scroll down in the lane. When you scroll down, the count changes to show 20/50, and so on.
+    
+    > [!NOTE]
+    > If there are more than 50,000 records in a swim lane, the count of records is shown as 50000+. 
+
 
 -  Selecting the card title opens the opportunity Main form. The Main form also opens when you move cards across business process flow stages. When you close the Main form, the whole Kanban view is refreshed.
 
