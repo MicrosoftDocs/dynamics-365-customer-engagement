@@ -149,7 +149,7 @@ This action opens knowledge base article in an app tab in edit mode or opens up 
 
 Given below are the supported custom actions.
 
-**Open Case custom action**
+**OpenForm custom action**
 
 This custom action enables you to open any entity record.
 
@@ -168,7 +168,7 @@ This custom action enables you to open any entity record.
 }
 ```
 
-**Send knowledge base article**
+**SendKB custom action**
 
 This custom action enables you to send a knowledge base article. It copies the knowledge base article URL to Conversation Control, which is then sent to the customer when the agent clicks on send button.
 
