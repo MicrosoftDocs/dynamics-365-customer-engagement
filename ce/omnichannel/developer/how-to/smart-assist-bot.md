@@ -28,7 +28,7 @@ This topic provides the information on how you can get started with building a s
 Refer to the sample code [README](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/smart-assist-bot/README.md) file for information on how and where to update the values obtained from the above steps.
 -->
 
-### Smart assist using knowledge articles
+## Smart assist using knowledge articles
 
 Consider the scenario wherein a customer is trying to troubleshoot his printer and he initiates a chat with customer support to resolve his queries. Customer tells the agent that his printer is making a loud noise and that he has tried restarting it but it did not work. <!--The smart assist assesses the context of the conversation and based on that it displays recommendations on similar cases.-->The agent searches for knowledge base articles for the problem shared by the customer and shares them with the customer.
 
@@ -120,9 +120,9 @@ The [code sample](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/mas
 
 For information on how to create a knowledge article using template, see [Create a knowledge article using a template](../../../customer-service/create-knowledge-article-using-template.md).
 
-You can also implement functionalities like suggesting similar cases, providing cross sell recommendations and creating appointments. These are out-of-the-box features and the [sample code](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/smart-assist-bot) does not implement these scenarios. To implement these functionalities, you will need to update the `actions` field in the adaptive cards JSON provided above and develop web resources. The `actions` field instructs the bot on the actions it needs to perform. More information: [Implement a custom smart assist scenario](smart-assist-scenario.md).
+## Customize your smart assist bot
 
-<a name="bkmk_macro_customaction"></a>
+You can also implement functionalities like suggesting similar cases, providing cross sell recommendations and creating appointments. These are out-of-the-box features and the [sample code](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/smart-assist-bot) does not implement these scenarios. To implement these functionalities, you will need to update the `actions` field in the adaptive cards JSON provided above and develop web resources. The `actions` field instructs the bot on the actions it needs to perform. More information: [Implement a custom smart assist scenario](smart-assist-scenario.md).
 
 <!--
 <a name="bkmk_samplecode"></a>
