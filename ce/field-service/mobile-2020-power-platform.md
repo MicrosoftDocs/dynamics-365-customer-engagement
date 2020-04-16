@@ -44,7 +44,12 @@ search.app:
 
 
 ## Feature comparison: Field Service Mobile (2020) and Field Service Mobile
+
 - Feature parity with current mobile app (Oct 2020)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-feature-parity.png)
+
 - offline mode, 
 - a work order calendar view, 
 - picture/video, 
@@ -53,7 +58,9 @@ search.app:
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-feature-parity.png)
+> ![Screenshot of ](./media/mobile-2020-feature-parity-roadmap.png)
+
+
 
 ## Implementation and migration guidance
 - Recommend customers to continue to use Xamarin “OEM” based mobile app
@@ -84,13 +91,13 @@ Field Service v8.8.x+
 
 ## Configure Field Service Mobile (2020)
 
-- Field
-    - support for PCF controls,
+- Fields and PCF controls
 - View
 - Form
 - Offline mode
 
 ## FAQs
 - is this different than FSM and D365 mobile apps?
+- can i add cases, sales orders, and other entities
 
 ## Provide feedback
