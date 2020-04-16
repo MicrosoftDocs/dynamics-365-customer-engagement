@@ -187,7 +187,8 @@ The mobile project template contains all customizations for the Field Service Mo
 
 ## Next steps
 - [Set up users and security roles](../field-service/view-user-accounts-security-roles.md)
-- [Enable hookable resources for mobile app access](set-up-bookable-resources.md)
+- [Enable bookable resources for mobile app access](set-up-bookable-resources.md)
+- [Enable maps for Field Service Mobile](mobile-enable-maps.md)
 - [Add sample data](../field-service/install-sample-data-8-x.md)
 
 ### See also
