@@ -11,8 +11,7 @@ Agreement](https://azure.microsoft.com/en-us/support/legal/subscription-agreemen
 (the “Agreement”) and any terms referenced therein that govern your use of the
 Trial Service. For the purposes of these Supplemental Terms for Trial Services
 (“the **Supplemental Terms**”), any trial of a commercially-available Online
-Service that links to these Supplemental Terms will be referred to as a “Trial
-Service”.
+Service that links to these Supplemental Terms will be referred to as a “**Trial Service**”.
 
 All terms used but not defined will have the same meanings as in the Agreement.
 Any additional legal terms that apply to your use of a specific Trial Service
