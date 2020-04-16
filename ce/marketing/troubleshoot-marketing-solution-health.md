@@ -2,7 +2,7 @@
 title: "Troubleshoot issues with Solution Health Hub for Marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to troubleshoot issues with Dynamics 365 Marketing using Solutions Health Hub"
 keywords: solutions health hub troubleshoot
-ms.date: 04/13/2020
+ms.date: 04/16/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -33,17 +33,13 @@ Here are a few common issues the Solution Health Hub detects:
 1. If processes that will cause an upgrade to fail are assigned to disabled users.
 1. Customized web resources that will later lead to runtime issues.
 
-If you want to opt out from automatically executing the Marketing ruleset, complete the following steps:
-
-1. 
-
 ## Prerequisites
 
 - Marketing v1.35.10057.1054 or later.
 - The Solution Health Hub extends the [Power Apps checker](https://docs.microsoft.com/powerapps/maker/common-data-service/use-powerapps-checker) to ensure continued healthy operation of an environment.
 
 > [!Note]
-> Currently, the ruleset uses five rules to verify the environment is in a good state.
+> Currently, the rule set uses five rules to verify the environment is in a good state.
 
 ## Run a health check
 
@@ -60,9 +56,9 @@ To run an analysis job for Marketing:
 
 > ![Screenshot of the Solution Health Hub with attention to the "new" option under analysis jobs](./media/troubleshoot-solution-health-marketing-rules.png)
 
-These are the rules currently included for Marketing:
+Below are the rules currently included for Marketing:
 
-| Rule name: | What it checks: |
+| Rule name | What it checks |
 | --- | --- | 
 | CheckIffSdkMessageProcessingStepsAreActive    | Checks whether any [SDK Message Processing Steps](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/sdkmessageprocessingstep) are disabled. Disabled SDK Message Processing Steps result in incorrect behavior when using Dynamics 365 Marketing. | 
 | CheckIfProcessOwnedByDisabledUsers    | Checks whether there are any process definitions in the system that are assigned to users that are disabled. If that's the case, upgrading will fail. | 
@@ -84,4 +80,32 @@ When running an analysis job, you will see a **Return Status** for each rule, wh
 | Warning    | Be aware of the implications mentioned in the rule message.| 
 | Pass    | Indicates that there are no problems with this rule. All rules should be in this state.| 
 
-## Use health check results to resolve problems
+## Use health check results to resolve issues
+
+In the Marketing rule set, the following rules support "resolve" actions:
+
+| Rule name                                | Resolve action                                                          |
+|-------------------------------------------|--------------------------------------------------------------------------|
+| CheckIfSdkMessageProcessingStepsAreActive | Enables deactivated SDK message processing steps.                        |
+| CheckIfProcessesAreActive                 | Enables deactivated processes that are listed in the failed records tab. |
+| MissingRolesToApplicationUser             | Assigns required roles back to the Marketing service user.               |
+
+To resolve issues found in the Analysis Results tab, select the rule that failed, then click on the **Resolve** button that appears above the rules.
+
+> ![Screenshot of a complete analysis job overview](./media/troubleshoot-solution-health-resolve.png)
+
+## Opt out from automatic rule set execution
+
+If you want to opt out from automatically executing the Marketing rule set, complete the following steps:
+
+1. In the Solution Health Hub, navigate to **Setup** in the left-hand navigation pane and click on **Solution Health Rule Sets**.
+
+> ![Screenshot of a complete analysis job overview](./media/troubleshoot-solution-health-deactivate1.png)
+
+2. Select the **Marketing rule set**.
+1. Select **Deactivate** in the top ribbon.
+
+> ![Screenshot of a complete analysis job overview](./media/troubleshoot-solution-health-deactivate3.png)
+
+4. A confirmation window will appear. Confirm that you want to deactivate the rule set by clicking the **Deactivate** button.
+1. Inactive rule sets are visible in "Inactive Solution Health Rule Sets" section in the **Solution Health Rule Sets**. You can reactivate inactive rule sets anytime.
