@@ -48,7 +48,7 @@ Before sales reps can use enhanced email, you must enable it.
 
 3. Select **System Settings**.
 
-4. Go to the **Email** tab and select **Multitask, compose, and save drafts using email pop-up windows when creating email from timeline**.
+4. On the **System Settings** window, go to the **Email** tab, and select **Multitask, compose, and save drafts using email pop-up windows when creating email from timeline**.
 
     > [!div class="mx-imgBorder"]
     > ![Enable enhanced email](media/email-tab.png "Enable enhanced email")
