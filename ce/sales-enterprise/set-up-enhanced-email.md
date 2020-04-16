@@ -33,10 +33,10 @@ Before sales reps can use enhanced email, you must enable it.
 
 1. In your app, select the **Settings** icon, and then select **Advanced Settings**.
 
-  > [!div class="mx-imgBorder"]
-  > ![Advanced settings](media/advanced-settings.png "Advanced settings")
+    > [!div class="mx-imgBorder"]
+    > ![Advanced settings](media/advanced-settings.png "Advanced settings")
 
-  The **Business Management** page opens in a new browser tab.
+    The **Business Management** page opens in a new browser tab.
 
 2. On the navigation bar, select **Settings**, and then under **System**, select **Administration**.
 
@@ -44,8 +44,8 @@ Before sales reps can use enhanced email, you must enable it.
 
 4. Go to the **Email** tab and select **Multitask, compose, and save drafts using email pop-up windows when creating email from timeline**.
 
-  > [!div class="mx-imgBorder"]
-  > ![Enable enhanced email](media/email-tab.png "Enable enhanced email")
+    > [!div class="mx-imgBorder"]
+    > ![Enable enhanced email](media/email-tab.png "Enable enhanced email")
 
 5. Select **Ok**.
 
