@@ -40,7 +40,7 @@ Before sales reps can use enhanced email, you must enable it.
 1. In your app, select the **Settings** icon, and then select **Advanced Settings**.
 
     > [!div class="mx-imgBorder"]
-    > ![Advanced settings](media/advanced-settings.png "Advanced settings")
+    > ![Advanced settings](media/advanced-settings-option.png "Advanced settings")
 
     The **Business Management** page opens in a new browser tab.
 
