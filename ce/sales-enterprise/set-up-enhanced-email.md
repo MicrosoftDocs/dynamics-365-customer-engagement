@@ -17,7 +17,7 @@ Before sales reps can use enhanced email, you must enable it.
 > [!IMPORTANT]
 > The enhanced email experience is available only for email activities created from the **Timeline** section of any model-driven app. 
 
-**Enable enhanced email through App Settings**
+## Enable enhanced email through App Settings
 
 1. At the bottom of the site map, select **Change area** ![Change area](media/change-area-icon.png "Change area") and then select **App Settings**.
 
@@ -29,7 +29,7 @@ Before sales reps can use enhanced email, you must enable it.
 
 5. Select **Save**.
 
-**Enable enhanced email through legacy web client settings**
+## Enable enhanced email through legacy web client settings
 
 1. In your app, select the **Settings** icon, and then select **Advanced Settings**.
 
