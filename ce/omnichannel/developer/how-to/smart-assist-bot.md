@@ -1,5 +1,5 @@
 ---
-title: "Getting started to building a smart assist bot | MicrosoftDocs"
+title: "Getting started with building a smart assist bot | MicrosoftDocs"
 description: "Read how you can build a smart assist bot to help agents resolve customer queries faster and more effectively"
 author: susikka
 ms.author: susikka
@@ -9,7 +9,7 @@ ms.service:
   - "dynamics-365-customerservice"
 ms.topic: article
 ---
-# Getting started to building a smart assist bot
+# Getting started with building a smart assist bot
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
