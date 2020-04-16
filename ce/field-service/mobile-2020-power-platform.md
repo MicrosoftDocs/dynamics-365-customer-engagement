@@ -30,7 +30,17 @@ search.app:
 
 ## Introduction
 
-## Benefits
+- Microsoft is releasing a new mobile app for Dynamics 365 Field Service
+
+## Benefits & core capbilities
+
+- offline mode, 
+- a work order calendar view, 
+- picture/video, 
+- barcode scanning, 
+- support for PCF controls, 
+- utilizes the same admin console as all Dynamics 365 apps, and 
+- lays the groundwork for seamless integration across the Microsoft stack
 
 ## Feature comparison: Field Service Mobile (2020) and Field Service Mobile
 
@@ -43,8 +53,22 @@ search.app:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/.png)
 
-## Install
+## Install and set up Field Service Mobile (2020)
 
-## Basic configurations
+- Download from iOS or Android app stores
+- Sign in with Field Service resource user
+
+## Use Field Service Mobile (2020)
+
+- 
+
+## Configure Field Service Mobile (2020)
+
+- Field
+- View
+- Form
+- Offline mode
 
 ## FAQs
+
+## Provide feedback
