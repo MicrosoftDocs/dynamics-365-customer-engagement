@@ -30,9 +30,6 @@ search.app:
 
 ## Introduction
 
-- Microsoft is releasing a new mobile app for Dynamics 365 Field Service
-- General availability May 1st 2020
-- Standalone app available in app store
 - Mobile optimized model driven app built on power platform and has all benefits of that platform
 - Customizable for your business data requirements
 - utilizes the same admin console as all Dynamics 365 apps
@@ -73,6 +70,7 @@ Field Service v8.8.x+
 ## Install and set up Field Service Mobile (2020)
 
 - Download from iOS or Android app stores
+- Standalone app available in app store
 - Sign in with Field Service resource user
 
 ## Use Field Service Mobile (2020)
