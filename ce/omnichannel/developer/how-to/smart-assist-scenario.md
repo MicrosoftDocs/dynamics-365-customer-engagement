@@ -194,6 +194,15 @@ The custom actions required for implementing knowledge base search in the smart 
 
 You can use the client-side APIs to open knowledge base articles. See [Client API reference for model driven apps](/powerapps/developer/model-driven-apps/clientapi/reference) for more information.
 
+## Author adaptive cards to display recommendations in the smart assist UI
+
+[Adaptive cards](https://adaptivecards.io) is an open-source standard that helps apps and services exchange rich snippets of native UI. The smart assist bot interprets the conversation context in real-time and provides recommendations to the agents.
+
+<!--## Samples for adaptive cards
+
+Based on the intent extracted from an ongoing conversation, you can provide appropriate recommendations to the agent using adaptive cards. This section covers some examples for adaptive cards that can be used for various scenarios. You can use the [Adaptive Cards Designer](https://adaptivecards.io/designer/) to create your own adaptive card template.
+-->
+
 ## See also
 
 [Build a smart assist bot](smart-assist-bot.md)<br />

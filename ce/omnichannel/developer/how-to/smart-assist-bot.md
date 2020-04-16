@@ -28,17 +28,9 @@ This topic provides the information on how you can get started with building a s
 Refer to the sample code [README](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/smart-assist-bot/README.md) file for information on how and where to update the values obtained from the above steps.
 -->
 
-## Author adaptive cards to display recommendations in the smart assist UI
-
-[Adaptive cards](https://adaptivecards.io) is an open-source standard that helps apps and services exchange rich snippets of native UI. The smart assist bot interprets the conversation context in real-time and provides recommendations to the agents.
-
-## Samples for adaptive cards
-
-Based on the intent extracted from an ongoing conversation, you can provide appropriate recommendations to the agent using adaptive cards. This section covers some examples for adaptive cards that can be used for various scenarios. You can use the [Adaptive Cards Designer](https://adaptivecards.io/designer/) to create your own adaptive card template.
-
 ### Smart assist using knowledge articles
 
-Consider the scenario wherein a customer is trying to troubleshoot his printer and he initiates a chat with customer support to resolve his queries. Customer tells the agent that his printer is making a loud noise and that he has tried restarting it but it did not work. The smart assist assesses the context of the conversation and based on that it displays recommendations on similar cases.
+Consider the scenario wherein a customer is trying to troubleshoot his printer and he initiates a chat with customer support to resolve his queries. Customer tells the agent that his printer is making a loud noise and that he has tried restarting it but it did not work. <!--The smart assist assesses the context of the conversation and based on that it displays recommendations on similar cases.-->The agent searches for knowledge base articles for the problem shared by the customer and shares them with the customer.
 
 <!--Given below is the adaptive card JSON for displaying knowledge article recommendations.
 
