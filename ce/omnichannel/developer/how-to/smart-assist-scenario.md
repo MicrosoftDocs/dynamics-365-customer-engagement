@@ -85,6 +85,10 @@ The custom actions required for implementing similar case suggestions include th
 2. Copy to Conversation Control.
 3. Open th URL in App tab.
 
+#### Author adaptive cards to display recommendations in the smart assist UI
+
+[Adaptive cards](https://adaptivecards.io) is an open-source standard that helps apps and services exchange rich snippets of native UI. The smart assist bot interprets the conversation context in real-time and provides recommendations to the agents.
+
 #### Calling custom actions using adaptive cards
 
 <!--### Macros
@@ -193,10 +197,6 @@ The custom actions required for implementing knowledge base search in the smart 
 ```
 
 You can use the client-side APIs to open knowledge base articles. See [Client API reference for model driven apps](/powerapps/developer/model-driven-apps/clientapi/reference) for more information.
-
-## Author adaptive cards to display recommendations in the smart assist UI
-
-[Adaptive cards](https://adaptivecards.io) is an open-source standard that helps apps and services exchange rich snippets of native UI. The smart assist bot interprets the conversation context in real-time and provides recommendations to the agents.
 
 <!--## Samples for adaptive cards
 
