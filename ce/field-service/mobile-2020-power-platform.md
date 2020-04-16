@@ -35,15 +35,13 @@ search.app:
 - Standalone app available in app store
 - Mobile optimized model driven app
 - Customizable for your business data requirements
-
-
-- Offline mode with sync status
-- Core functionality to view and manage bookings via calendar view, 
-- Service notes that include photos, videos, & audio
-- support for PCF controls,
-- Time off reporting 
-- utilizes the same admin console as all Dynamics 365 apps, and 
+- utilizes the same admin console as all Dynamics 365 apps
 - lays the groundwork for seamless integration across the Microsoft stack
+
+- Core functionality to view and manage bookings via calendar view, offline mode, Service notes that include photos, videos, & audio, Time off reporting 
+
+
+
 
 ## Feature comparison: Field Service Mobile (2020) and Field Service Mobile
 - Feature parity with current mobile app (Oct 2020)
@@ -59,13 +57,15 @@ search.app:
 
 ## Implementation and migration guidance
 - Recommend customers to continue to use Xamarin “OEM” based mobile app
-- How should i pick which client to use?
-- when will field service mobile not be available for new customers?
 - if i were deploying today what should i do?
+- How should i pick which client to use?
+- eventually FSM 2020 will be the default
+- when will field service mobile not be available for new customers?
+
 
 ## Prerequisites
-> [!Note]
->
+Field Service v8.8.x+
+
 
 
 
@@ -76,7 +76,7 @@ search.app:
 
 ## Use Field Service Mobile (2020)
 
-- Calednar view
+- Calendar view
 - work order
 - Accounts & contacts
 - Customer Assets
@@ -85,6 +85,7 @@ search.app:
 ## Configure Field Service Mobile (2020)
 
 - Field
+    - support for PCF controls,
 - View
 - Form
 - Offline mode
