@@ -124,6 +124,8 @@ For information on how to create a knowledge article using template, see [Create
 
 You can also implement functionalities like suggesting similar cases, providing cross sell recommendations and creating appointments. These are out-of-the-box features and the [sample code](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/smart-assist-bot) does not implement these scenarios. To implement these functionalities, you will need to update the `actions` field in the adaptive cards JSON provided above and develop web resources. The `actions` field instructs the bot on the actions it needs to perform. More information: [Implement a custom smart assist scenario](smart-assist-scenario.md).
 
+Using the instructions mentioned in the [Implement a custom smart assist scenario](smart-assist-scenario.md) topic, you will be able to get similar case recommendations for ‘printer noise’ issue in smart assist while interacting with a customer as an agent in Omnichannel for Customer Service.
+
 <!--
 <a name="bkmk_samplecode"></a>
 
@@ -151,8 +153,8 @@ For more information, see the code sample [README](https://github.com/microsoft/
 > [!IMPORTANT]
 > See this administrator guide topic on how to enable smart assist: [Smart assist for agents](../../administrator/smart-assist.md). It provides instructions on how to create a bot user, how to add a smart assist bot to a workstream and how to enable a productivity pane.
 
-After you have setup the sample bot following the instructions in the [Readme](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/smart-assist-bot/README.md) file, see the instructions mentioned in the topic [Implement a custom scenario for smart assist bot](smart-assist-scenario.md) to author custom scenarios for your organization. Using the example steps listed in this topic, you will be able to get similar case recommendations for ‘printer noise’ issue in smart assist while interacting with a customer as an agent in Omnichannel for Customer Service.
-
+<!--After you have setup the sample bot following the instructions in the [Readme](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/smart-assist-bot/README.md) file, see the instructions mentioned in the topic [Implement a custom scenario for smart assist bot](smart-assist-scenario.md) to author custom scenarios for your organization. 
+-->
 > [!div class="nextstepaction"]
 > [See Next: Implement a custom scenario for smart assist bot](smart-assist-scenario.md)
 
