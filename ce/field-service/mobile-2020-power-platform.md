@@ -31,26 +31,17 @@ search.app:
 ## Introduction
 
 - Microsoft is releasing a new mobile app for Dynamics 365 Field Service
--  General availability May 1st 2020
+- General availability May 1st 2020
 - Standalone app available in app store
 - Mobile optimized model driven app
+- Customizable for your business data requirements
 
-## Benefits & core capbilities
 
- 
-
-Offline mode with sync status
-Core functionality to view and manage bookings
-Service notes that include photos, videos, & audio
-Customer signature
-Time off reporting
-Customizable for your business data requirements
-
-- offline mode, 
-- a work order calendar view, 
-- picture/video, 
-- barcode scanning, 
-- support for PCF controls, 
+- Offline mode with sync status
+- Core functionality to view and manage bookings via calendar view, 
+- Service notes that include photos, videos, & audio
+- support for PCF controls,
+- Time off reporting 
 - utilizes the same admin console as all Dynamics 365 apps, and 
 - lays the groundwork for seamless integration across the Microsoft stack
 
@@ -68,7 +59,9 @@ Customizable for your business data requirements
 
 ## Implementation and migration guidance
 - Recommend customers to continue to use Xamarin “OEM” based mobile app
-
+- How should i pick which client to use?
+- when will field service mobile not be available for new customers?
+- if i were deploying today what should i do?
 
 ## Prerequisites
 > [!Note]
@@ -83,7 +76,11 @@ Customizable for your business data requirements
 
 ## Use Field Service Mobile (2020)
 
-- 
+- Calednar view
+- work order
+- Accounts & contacts
+- Customer Assets
+- Time off requests
 
 ## Configure Field Service Mobile (2020)
 
@@ -93,5 +90,6 @@ Customizable for your business data requirements
 - Offline mode
 
 ## FAQs
+- is this different than FSM and D365 mobile apps?
 
 ## Provide feedback
