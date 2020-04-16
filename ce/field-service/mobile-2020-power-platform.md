@@ -33,28 +33,22 @@ search.app:
 - Microsoft is releasing a new mobile app for Dynamics 365 Field Service
 - General availability May 1st 2020
 - Standalone app available in app store
-- Mobile optimized model driven app
+- Mobile optimized model driven app built on power platform and has all benefits of that platform
 - Customizable for your business data requirements
 - utilizes the same admin console as all Dynamics 365 apps
-- lays the groundwork for seamless integration across the Microsoft stack
-
+- lays the groundwork for seamless integration across the Microsoft stack like remote assist and virtual agent
 - Core functionality to view and manage bookings via calendar view, offline mode, Service notes that include photos, videos, & audio, Time off reporting 
-
+- the new FSM2020 app is different than current FSM app
 
 
 
 ## Feature comparison: Field Service Mobile (2020) and Field Service Mobile
 
+
 - Feature parity with current mobile app (Oct 2020)
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-feature-parity.png)
-
-- offline mode, 
-- a work order calendar view, 
-- picture/video, 
-- barcode scanning, 
-- support for PCF controls, 
 
 
 > [!div class="mx-imgBorder"]
@@ -64,10 +58,10 @@ search.app:
 
 ## Implementation and migration guidance
 - Recommend customers to continue to use Xamarin “OEM” based mobile app
-- if i were deploying today what should i do?
-- How should i pick which client to use?
-- eventually FSM 2020 will be the default
-- when will field service mobile not be available for new customers?
+- if i were deploying today what should i do? - use current FSM app
+- How should i pick which client to use? - use feature parity chart above, if FSM2020 meets your needs, use that bc eventually FSM 2020 will be the default
+- when will field service mobile not be available for new customers? support for FSM will end 2022
+- new customers going live after October 2021 will have to use FSM2020
 
 
 ## Prerequisites
@@ -92,8 +86,8 @@ Field Service v8.8.x+
 ## Configure Field Service Mobile (2020)
 
 - Fields and PCF controls
-- View
-- Form
+- Views
+- Forms
 - Offline mode
 
 ## FAQs
