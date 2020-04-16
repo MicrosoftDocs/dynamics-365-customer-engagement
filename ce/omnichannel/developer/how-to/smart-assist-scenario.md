@@ -28,15 +28,17 @@ ms.topic: article
 
 This scenario enables you to suggest similar cases with open and close case action buttons. The customer service agent is presented with a list of similar cases as a recommendation. The agent clicks on the case that he finds most similar and relevant, and then goes to the case note and looks at the resolution in note. The agent suggests the same resolution to the customer over chat.
 
-### Implement similar case suggestion
-
-#### Generate intent to interpret the context of the conversation
+### Generate intent to interpret the context of the conversation
 
 You need to analyze the conversation and understand its context before recommending an action to the agent. Use [Language Understanding (LUIS)](https://luis.ai) to find the intent of the ongoing conversation. Here is an example on how you can create a LUIS app to find intent from a given text: [Quickstart: Use prebuilt Home automation app](/azure/cognitive-services/luis/luis-get-started-create-app).
 
 You can create intents for each issue type or topic that you want to address for incoming requests from customers or the most common topics being discussed.  
 
 For the example scenario of similar case recommendations for ‘printer noise’ issue, create an intent with the same name and add 10-15 examples like ‘printer noise, loud noise from printer, printer making grinding noise, loud clicking noise, loud sound’ etc. The LUIS app then needs to be trained for this intent.  
+
+### Author adaptive cards to display recommendations in the smart assist UI
+
+[Adaptive cards](https://adaptivecards.io) is an open-source standard that helps apps and services exchange rich snippets of native UI. The smart assist bot interprets the conversation context in real-time and provides recommendations to the agents.
 
 ### Custom actions for implementing custom functionalities
 
@@ -84,10 +86,6 @@ The custom actions required for implementing similar case suggestions include th
 1. Open any entity form using the [openForm](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-navigation/openform) client API.
 2. Copy to Conversation Control.
 3. Open th URL in App tab.
-
-#### Author adaptive cards to display recommendations in the smart assist UI
-
-[Adaptive cards](https://adaptivecards.io) is an open-source standard that helps apps and services exchange rich snippets of native UI. The smart assist bot interprets the conversation context in real-time and provides recommendations to the agents.
 
 #### Calling custom actions using adaptive cards
 
