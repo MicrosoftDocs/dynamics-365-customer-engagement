@@ -23,9 +23,15 @@ Before sales reps can use enhanced email, you must enable it.
 
 2. In the site map, select **Overview**.
 
-3. On the **Overview** page, under **Productivity tools**, select **Manage** for **Enhanced Email**.
+3. On the **Overview** page, under **Productivity tools**, select **Manage** for **Enhanced email for timeline**.
 
-4. On the **Productivity tools** page, change the **Enhanced Email** switch to **Yes**.
+    > [!div class="mx-imgBorder"]
+    > ![Productivity tools - Overview page](media/overview-prod-tools.png "Productivity tools - Overview page")
+
+4. On the **Productivity tools** page, move the **Enhanced email for timeline** toggle to **Yes**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Advanced settings](media/enable-enhanced-email.png "Advanced settings")
 
 5. Select **Save**.
 
