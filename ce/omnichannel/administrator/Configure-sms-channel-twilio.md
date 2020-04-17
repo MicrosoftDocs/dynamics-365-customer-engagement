@@ -56,7 +56,7 @@ Perform the following steps to create a work stream for the SMS channel for Twil
 
     - **Channel**: Select **SMS**.
     - **Auto-close after inactivity**: Select a value that indicates a duration of eight hours or more.
-    - **Allow automated messages**: Accept the default value **No**, or specify **Yes**.
+    - **Allow automated messages**: Accept the default value **No** or specify **Yes**.
 
 5. In **Work distribution**, specify the necessary details. More information: [Create a work stream](work-streams-introduction.md#create-a-work-stream)
 
@@ -79,7 +79,7 @@ Perform the following steps to create a work stream for the SMS channel for Twil
     - **Number**: Specify the support phone number that you purchased from Twilio in the *<country_code><phone_number>* format, such as 14252306549. Make sure that you don't enter blank spaces or special characters.
     - **Type**: Select **Long code**.
     - **Description**: Specify a description for the number (optional).
-    - **Operating Hours**: Specify the business hours when the customer support team is active and available to serve customers. You can only specify this value when the **Allow automated messages** option is set to **Yes** on the **Work Distribution Management** tab.
+    - **Operating Hours**: Specify the business hours when the customer support team is active and available to serve customers. You can specify this value only when the **Allow automated messages** option is set to **Yes** on the **Work Distribution** tab.
 
     > [!NOTE]
     > You can configure only one phone number per work stream.
