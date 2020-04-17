@@ -48,9 +48,7 @@ A few reminders before digging into this article:
 - An [incident type](configure-incident-types.md) is the main issue of a work order and can dictate related details like work order type, products, services, and service tasks. 
 - **Priority** in this feature represents the priority to the business, generally measured by financial impact or customer satisfaction. For example, imagine an IoT alert notifies the organization that a building's heating is broken, and this could have a large impact on an event and customer satisfaction. This would represent a _high_ priority because of the large business impact.
 
-The AI-based suggestions are made possible by a machine learning model that is continuously learning as more data enters the system in the form of IoT Alert records and as more actions are executed by dispatchers that convert an alert into a case or work order. 
-
-
+The priority score is calculated for a particular alert using the model trained across historical alerts and related entities (see configuration considerations for more details). A dynamic threshold determines which alerts are "high" or actionable, and which are "low." The threshold is optimized in each training for maximum model performance to account for changing data patterns. A dynamic distribution also means that alerts which are previously scored stay relevant, as the model continues to learn and improve. In general, a higher priority score indicates the alert is more actionable.
 
 ## Prerequisites
 
