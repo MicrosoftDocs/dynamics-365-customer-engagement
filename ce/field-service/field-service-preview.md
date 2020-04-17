@@ -76,7 +76,7 @@ Run command below substituting the service URL based on your environment's geogr
         $url = “https://admin.services.crm.dynamics.com” 
 
 
-Run command below
+Run command below:
 
         Get-CrmFlights -ApiUrl $url -Credential $cred  
 
@@ -85,9 +85,13 @@ If prompted, run software from an untrusted publisher by Entering "R".
 > [!Note]
 > If you get error: "\Microsoft.Xrm.OnlineManagementAPI.psm1 cannot be loaded because running scripts is disabled on this system" The solution is to Run the following PowerShell command: “Set-ExecutionPolicy -ExecutionPolicy AllSigned -Scope LocalMachine" 
 
-(Here, we should be able to see the FieldServiceInspections_AprilPreviewFlight in the list)
+If successful you will see a list of preview features. 
 
-Add-CrmFlightAudience -ApiUrl $url -FlightId "bdccdf3c-da3b-4a0f-8d0f-69c20e7256cb" -InstanceId "01f3f249-d269-415f-b036-e52701c75adf" -Credential $cred 
+Find the preview feature you would like to add to your environment and note the ID. In our example it is the ID for Field Service Inspections Flight
+
+Run command below:
+
+        Add-CrmFlightAudience -ApiUrl $url -FlightId "bdccdf3c-da3b-4a0f-8d0f-69c20e7256cb" -InstanceId "01f3f249-d269-415f-b036-e52701c75adf" -Credential $cred 
 
 It will say **Added to Flight**
 
