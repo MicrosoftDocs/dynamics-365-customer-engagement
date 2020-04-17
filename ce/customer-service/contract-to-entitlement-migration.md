@@ -133,9 +133,9 @@ For business requirement, if resolved case needs to be updated, use the followin
 **Step 1**:	Active the case
 **Step 2**:	Update the entitlement lookup
 **Step 3**:	Resolve the case
-**Step 4**: Add one third step in below steps
 
 >[!Important] 
+> 
 > Once entitlement is created from entitlement template, add Custom code to copy the custom fields added on entitlement for parity with contract lines.
 
 **Benefits with entitlement:**
