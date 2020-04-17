@@ -46,7 +46,14 @@ If you are currently using the Contract templates, use the following steps to ma
  Allocation type to ‘Coverage Dates’ on contract template is used to allow any number of cases to be created between start date and end date of contracts. To switch from the Contract template and map to the Entitlement template:
 
 **STEP 1:**  Select **allocation type** <BR>
+
+![Allocation Type](
+media\contract-and-entitlement-allocation-type-1.png)
+
 **STEP 2:** Set **Restriction based on entitlement terms** to **No**
+
+![Allocation Type](
+media\contract-and-entitlement-allocation-type-2.png)
 
 **Benefits with entitlement:**
 - Created cases will now display warning notices when they exceed allocated terms.
@@ -115,9 +122,32 @@ List of commands available on entitlements:
 - Onhold state is not available in entitlement
 
 ## Runtime impact
-1.	Steps to migrate from contract to entitlement <BR>
-(Move the contract and contract lines to entitlements).
-2.	Run update script to update entitlement on case instead of contracts.
+Use the following steps to migrate from contract to entitlement:
+
+**Step 1**: Move the contract and contract lines to entitlements
+
+**Step 2**: Run update script to update entitlement on case instead of contracts
+
+For business requirement, if resolved case needs to be updated, use the following steps: 
+
+**Step 1**:	Active the case
+**Step 2**:	Update the entitlement lookup
+**Step 3**:	Resolve the case
+**Step 4**: Add one third step in below steps
+
+>[!Important] 
+> Once entitlement is created from entitlement template, add Custom code to copy the custom fields added on entitlement for parity with contract lines.
+
+**Benefits with entitlement:**
+- Created cases will now display warning notices when they exceed allocated terms.
+- Customer usage can be monitored with the option to set and apply restrictions in future.
+
+### Custom Fields
+Fields which are required for business use case, but not available out of box on entitlement or for other required fields not available on entitlements.
+
+To switch from the Contract template and map to the Entitlement template:<BR>
+**STEP 1:** Custom fields with attributes can be created on Entitlement template<BR>
+**STEP 2:** Place the created fields on the form as per business needs
 
 >[!Important] 
 > 
