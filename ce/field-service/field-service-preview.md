@@ -52,25 +52,38 @@ Ensure your PC computer has PowerShell installed. If not, [install it](https://d
 
 Open PowerShell and Run as Administrator
 
-install-module Microsoft.Xrm.OnlineManagementAPI -Scope CurrentUser -force 
+Run command below:
 
-$user = “aurorauser01@capintegration01.onmicrosoft.com”   
+        install-module Microsoft.Xrm.OnlineManagementAPI -Scope CurrentUser -force 
 
-$password = “aZa~gr3^}U” 
+Run command below and substitute your username. This username reflects a user with system administrator security role:
 
-$cred = New-Object System.Management.Automation.PSCredential ($user, (ConvertTo-SecureString $password –ASPlainText –Force)) 
+        $user = “user@org.onmicrosoft.com”   
 
-$url = “https://admin.services.crm.dynamics.com” 
+Run command below and substitute your password
 
-(Get the url from here based on the region(https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/online-management-api/get-started-online-management-api)) 
+        $password = “password” 
 
-Get-CrmFlights -ApiUrl $url -Credential $cred  
+Run command below:
 
-Run once from untrsted publisher
+        $cred = New-Object System.Management.Automation.PSCredential ($user, (ConvertTo-SecureString $password –ASPlainText –Force)) 
+
+
+Next, check the topic on [Service URLs](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/online-management-api/get-started-online-management-api#service-url)
+
+Run command below substituting the service URL based on your environment's geography.
+
+        $url = “https://admin.services.crm.dynamics.com” 
+
+
+Run command below
+
+        Get-CrmFlights -ApiUrl $url -Credential $cred  
+
+If prompted, run software from an untrusted publisher by Entering "R".
 
 > [!Note]
-> If you get error: "\Microsoft.Xrm.OnlineManagementAPI.psm1 cannot be loaded because running scripts is disabled on this system" 
-> Run PowerShell command “Set-ExecutionPolicy -ExecutionPolicy AllSigned -Scope LocalMachine" 
+> If you get error: "\Microsoft.Xrm.OnlineManagementAPI.psm1 cannot be loaded because running scripts is disabled on this system" The solution is to Run the following PowerShell command: “Set-ExecutionPolicy -ExecutionPolicy AllSigned -Scope LocalMachine" 
 
 (Here, we should be able to see the FieldServiceInspections_AprilPreviewFlight in the list)
 
