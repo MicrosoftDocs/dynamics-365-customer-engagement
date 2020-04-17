@@ -25,7 +25,7 @@ search.app:
 
 # Troubleshoot Marketing issues with Solution Health Hub
 
-Solution Health Hub detects issues, giving you a better picture of the state of your Dynamics 365 environment. Your environment's configuration might change over time, due to natural system operations. Solution Health Hub runs rules within an instance to validate the environment's configuration. Some of the rules are specific to Dynamics 365 Marketing. You can run rules on demand when you encounter an issue. Or, you can execute rules automatically, outside of business hours. Automatic execution ensures minimal disruption to your Marketing processes.
+Solution Health Hub detects issues in your Dynamics 365 environment, giving you a better picture of the state of your instances. Your environment's configuration might change over time, due to natural system operations. Solution Health Hub runs rules within an instance to validate the environment's configuration. Some of the rules are specific to Dynamics 365 Marketing. You can run rules on demand when you encounter an issue. Or, you can execute rules automatically, outside of business hours. Automatic execution ensures minimal disruption to your Marketing processes.
 
 Here are a few common issues the Solution Health Hub detects:
 
