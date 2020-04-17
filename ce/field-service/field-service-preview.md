@@ -44,8 +44,32 @@ You can find this in **Settings > Customizations > Developer Resources**
 > ![Screenshot of ](./media/preview-orgid.png)
 
 
+Ensure your PC computer has PowerShell installed. If not, [install it](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7).
+
 > [!Note]
 >
+
+## Steps to install preview features
+
+Open PowerShell and Run as Administrator
+
+install-module Microsoft.Xrm.OnlineManagementAPI -Scope CurrentUser -force 
+
+$user = “aurorauser01@capintegration01.onmicrosoft.com”   
+
+$password = “aZa~gr3^}U” 
+
+$cred = New-Object System.Management.Automation.PSCredential ($user, (ConvertTo-SecureString $password –ASPlainText –Force)) 
+
+$url = “https://admin.services.crm.dynamics.com” 
+
+(Get the url from here based on the region(https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/online-management-api/get-started-online-management-api)) 
+
+Get-CrmFlights -ApiUrl $url -Credential $cred  
+
+(Here, we should be able to see the FieldServiceInspections_AprilPreviewFlight in the list)
+Add-CrmFlightAudience -ApiUrl $url -FlightId "e7ae2630-5868-4de2-8151-65bc7177ab67" -InstanceId "c87315d7-53ca-43f5-8b6f-0441ffa16a9e" -Credential $cred 
+
 
 
 ## Configuration considerations
