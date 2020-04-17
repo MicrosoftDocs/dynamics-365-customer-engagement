@@ -73,7 +73,12 @@ Run once from untrsted publisher
 > Run PowerShell command “Set-ExecutionPolicy -ExecutionPolicy AllSigned -Scope LocalMachine" 
 
 (Here, we should be able to see the FieldServiceInspections_AprilPreviewFlight in the list)
-Add-CrmFlightAudience -ApiUrl $url -FlightId "e7ae2630-5868-4de2-8151-65bc7177ab67" -InstanceId "c87315d7-53ca-43f5-8b6f-0441ffa16a9e" -Credential $cred 
+
+Add-CrmFlightAudience -ApiUrl $url -FlightId "bdccdf3c-da3b-4a0f-8d0f-69c20e7256cb" -InstanceId "01f3f249-d269-415f-b036-e52701c75adf" -Credential $cred 
+
+It will say **Added to Flight**
+
+Repeat the last step for each Preview capability you would like to add to your org
 
 
 
