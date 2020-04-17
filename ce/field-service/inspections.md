@@ -65,7 +65,7 @@ From the Field Service app, go to **Settings** > **Inspections** > **+New**.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of active inspections in Dynamics 365 Field Service](./media/inspections-navigate.png)
 
-Name your inspection and drag-and-drop question types from the right side.
+Drag-and-drop your first question type from the right side. Then name your inspection and add a description.
 
 
 > [!div class="mx-imgBorder"]
@@ -125,7 +125,9 @@ It's common to add service task types to incident types in order to bundle work 
 
 ## Add inspection to work order
 
-After creating a work order, go to the **Service Tasks** section and add a new **Work Order Service Task**.
+After creating a work order, go to the **Service Tasks** section and add the **Work Order Service Task** you just created that has an associated inspection.
+
+Then **Save**. The inspection cannot be filled out until the Work Order Service Task is saved. 
 
 Alternatively, your inspection service task can be added to the work order via a work order incident type. 
 
@@ -228,6 +230,8 @@ There are three entities stored in Common Data Model:
 Storing and retrieving each inspection response in Common Data Model is not part of the April 2020 public preview.
 
 ## Additional notes
+
+- New inspections cannot be created or designed from small form factors like mobile devices.
 
 - Support for Field Service Mobile is not part of the April 2020 public preview and is **planned**.
   
