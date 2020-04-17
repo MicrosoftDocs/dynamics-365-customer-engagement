@@ -2,7 +2,7 @@
 title: "Troubleshoot issues with Solution Health Hub for Marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to troubleshoot issues with Dynamics 365 Marketing using Solutions Health Hub"
 keywords: solutions health hub troubleshoot
-ms.date: 04/16/2020
+ms.date: 04/17/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -25,21 +25,21 @@ search.app:
 
 # Troubleshoot Marketing issues with Solution Health Hub
 
-Solution Health Hub allows you to get a better picture of the state of your environment and detect issues with your Dynamics 365 environment. The Solution Health Hub runs rules within an instance to validate the environment's configuration, which might change over time through natural system operations. Some of the rules are specific to Dynamics 365 Marketing and you can run the rules on demand when you encounter an issue. Marketing rules can be executed from the backend automatically, outside of business hours to ensure minimal disruption to your Marketing processes.
+Solution Health Hub detects issues, giving you a better picture of the state of your Dynamics 365 environment. Your environment's configuration might change over time, due to natural system operations. Solution Health Hub runs rules within an instance to validate the environment's configuration. Some of the rules are specific to Dynamics 365 Marketing. You can run rules on demand when you encounter an issue. Or, you can execute rules automatically, outside of business hours. Automatic execution ensures minimal disruption to your Marketing processes.
 
 Here are a few common issues the Solution Health Hub detects:
 
-1. If critical Marketing processes are deactivated.
-1. If processes that will cause an upgrade to fail are assigned to disabled users.
+1. Whether critical Marketing processes are deactivated.
+1. Whether processes that will cause an upgrade failure are assigned to disabled users.
 1. Customized web resources that will later lead to runtime issues.
 
 ## Prerequisites
 
 - Marketing v1.35.10057.1054 or later.
-- The Solution Health Hub extends the [Power Apps checker](https://docs.microsoft.com/powerapps/maker/common-data-service/use-powerapps-checker) to ensure continued healthy operation of an environment.
+- Solution Health Hub extends the [Power Apps checker](https://docs.microsoft.com/powerapps/maker/common-data-service/use-powerapps-checker) to ensure continued healthy operation of an environment.
 
 > [!Note]
-> Currently, the rule set uses five rules to verify the environment is in a good state.
+> Currently, the Marketing rule set uses five rules to verify that the environment is in a good state.
 
 ## Run a health check
 
@@ -68,7 +68,7 @@ Below are the rules currently included for Marketing:
 
 ## View health check results
 
-Once you run the analysis job, you will be directed to the overview page, which will automatically refresh when the run has finished. See the following screenshot for an example overview of a run.
+Once you run the analysis job, you will be directed to the overview page. The overview page will automatically refresh when the run has finished. The following screenshot shows an example overview of a run.
 
 > ![Screenshot of a complete analysis job overview](./media/troubleshoot-solution-health-fs-rules-analysis.png)
 
@@ -76,7 +76,7 @@ When running an analysis job, you will see a **Return Status** for each rule, wh
 
 | Rule return status |     Recommendation|
 | --- | --- |  
-| Fail    | Highlight specific failures within the system; fix the rule as suggested.| 
+| Fail    | Highlights specific failures within the system; fix the rule as suggested.| 
 | Warning    | Be aware of the implications mentioned in the rule message.| 
 | Pass    | Indicates that there are no problems with this rule. All rules should be in this state.| 
 
