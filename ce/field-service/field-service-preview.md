@@ -36,11 +36,17 @@ Follow the instrucitons in this article to manually add Field Service features i
 ## Prerequisites
 
 Find and note the Org ID of your Dynamics 365 environment you wish to add preview features to.
+
+You can find this in **Settings > Customizations > Developer Resources**
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/preview-orgid.png)
+
+
 > [!Note]
 >
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
 
 ## Configuration considerations
 ## Additional Notes
