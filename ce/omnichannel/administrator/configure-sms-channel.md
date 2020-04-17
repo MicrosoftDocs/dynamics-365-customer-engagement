@@ -4,7 +4,7 @@ description: "Instructions for configuring an SMS channel in Omnichannel for Cus
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 11/18/2019
+ms.date: 04/17/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -18,7 +18,7 @@ An SMS channel allows your organization to connect to customers by using text me
 
 Agents can view the incoming SMS requests on their dashboard and respond accordingly.
 
-You need to perform the following tasks to add SMS support for your organization:
+The tasks to add SMS support for TeleSign are as follows:
 
 1. Enable SMS channel in your Dynamics 365 organization.
 
@@ -50,7 +50,7 @@ To sign up for TeleSign:
 
 3. Get the customer ID and API key from your TeleSign account. You will need to provide these while setting up the SMS channel in Omnichannel for Customer Service.
 
-4. You are provided with a callback URL that must be sent to [TeleSign support](mailto:support@telesign.com). This callback URL is specific to your organization. The callback URL is available when adding SMS support for your organization. When sending an email to TeleSign support, include the callback URL, your customer ID, and enter the subject line as **Omnichannel for Customer Service callback URL update request**.
+4. You are provided with a callback URL that must be sent to [TeleSign support](mailto:support@telesign.com). This callback URL is specific to your organization and is available when you add SMS support for your organization. When you send an email to TeleSign support, include the callback URL, your customer ID, and enter the subject line as **Omnichannel for Customer Service callback URL update request**.
 
 ## Add SMS support for your organization
 
@@ -64,7 +64,7 @@ To sign up for TeleSign:
     - **Name**: Name of the work stream.
     - **Channel**: Select **SMS**.
     - **Auto-close after inactivity**: Select a duration of at least 8 hours
-    - **Allow automated messages**: This field is for future use. It is recommended to keep its value to **No**.
+    - **Allow automated messages**: This field is for future use. We recommend keeping its value as **No**.
 
     > [!div class=mx-imgBorder]
     > ![SMS work stream](../media/sms-workstream.png "SMS work stream")
@@ -73,7 +73,7 @@ To sign up for TeleSign:
     - **Customer ID**: Customer ID generated from the TeleSign account.
     - **API key**: API key generated from the TeleSign account.
 
-6. Copy the value from the **TeleSign inbound URL** field and send it to TeleSign at [support@telesign.com](mailto:support@telesign.com) with your customer ID, and enter the subject line as "Omnichannel for Customer Service callback URL update request". This value is the callback URL that is used to process incoming SMS messages.
+6. Copy the value from the **TeleSign inbound URL** field, and send it to TeleSign at [support@telesign.com](mailto:support@telesign.com) with your customer ID; enter the subject line as "Omnichannel for Customer Service callback URL update request". This value is the callback URL that is used to process incoming SMS messages.
 
 7. Select **Save**.
 
@@ -86,7 +86,7 @@ To sign up for TeleSign:
     - **Number**: Phone number purchased from TeleSign.
     - **Type**: Select **Long code**.
     - **Description**: Optional description for the number.
-    - **Operating Hours**: Allows you to specify the business hours when the customer support team is active and available to serve customers. It works only when the **Allow automated messages** field's value is set to **Yes**.
+    - **Operating Hours**: Allows you to specify the business hours when the customer support team is active and available to serve customers. You can specify this value only when the **Allow automated messages** option is set to **Yes** on the **Work Distribution** tab.
 
     > [!NOTE]
     >
