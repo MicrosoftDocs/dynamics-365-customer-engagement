@@ -146,7 +146,7 @@ The user trying to close the opportunity doesn't have sufficient permissions on 
 2. Open the security role of the user.
 3. Assign **Read**, **Create**, **Append**, **Append To** permissions to the user's Security Role at User level on the Opportunity entity and custom entity.
 
-## Stakeholder and Sales team subrids
+## Stakeholder and Sales team subgrids
 
 ### Issue: I can't see the connection records added from the Stakeholders subgrid.
 
