@@ -1,5 +1,5 @@
 ---
-title: "Getting started with building a smart assist bot | MicrosoftDocs"
+title: "Build a smart assist bot | MicrosoftDocs"
 description: "Read how you can build a smart assist bot to help agents resolve customer queries faster and more effectively"
 author: susikka
 ms.author: susikka
@@ -9,14 +9,17 @@ ms.service:
   - "dynamics-365-customerservice"
 ms.topic: article
 ---
-# Getting started with building a smart assist bot
+# Build a smart assist bot
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-This topic provides the information on how you can get started with building a smart assist bot that displays knowledge article recommendations to the agent.
+To quickly get started, follow the instructions mentioned in this topic for building a smart assist bot that displays knowledge article recommendations to the agent. After this, you can do additional steps for creating custom scenarios.
 
-> [!IMPORTANT]
-> For information on how to setup and run the sample code, see the [README](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/smart-assist-bot/README.md) file for information on how to setup and run the sample.
+- **Sample bot with quick setup for knowledge article recommendations**
+    For setting up a sample for smart assist bot for displaying knowledge article recommendations to the agent, please see the instructions mentioned in the sample [README](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/smart-assist-bot/README.md) file. 
+
+- **Steps to create a custom scenario for smart assist e.g. similar case recommendations**
+    After setting up a sample bot using above steps, you can configure to author custom scenarios for your organization following the instructions mentioned in the topic [Implement a custom scenario](smart-assist-scenario.md).  
 
 ## Prerequisites
 
@@ -121,8 +124,6 @@ The [code sample](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/mas
 For information on how to create a knowledge article using template, see [Create a knowledge article using a template](../../../customer-service/create-knowledge-article-using-template.md).
 
 ## Customize your smart assist bot
-
-You can also implement functionalities like suggesting similar cases, providing cross sell recommendations and creating appointments. These are out-of-the-box features and the [sample code](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/smart-assist-bot) does not implement these scenarios. To implement these functionalities, you will need to update the `actions` field in the adaptive cards JSON provided above and develop web resources. The `actions` field instructs the bot on the actions it needs to perform. More information: [Implement a custom smart assist scenario](smart-assist-scenario.md).
 
 Using the instructions mentioned in the [Implement a custom smart assist scenario](smart-assist-scenario.md) topic, you will be able to get similar case recommendations for ‘printer noise’ issue in smart assist while interacting with a customer as an agent in Omnichannel for Customer Service.
 
