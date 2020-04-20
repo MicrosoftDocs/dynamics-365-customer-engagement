@@ -28,20 +28,11 @@ search.app:
 
 # Field Service Mobile (2020)
 
-Field Service Mobile (2020) is an additional mobile app option for technicians to view Dynamics 365 Field Service work orders, customer assets, accounts and contacts. As a native mobile application for Apple iOS and Google Android phones and tablets, Field Service Mobile (2020) offers a calendar view of assigned work orders, asset barcode scanning, photo, and video
 
-supports photo, video, and audio capturecamera photos a  It inlcudes capabilities like a calendar for technicians to viewassigned work orders Field Service Mobile (2020) includes capabilities foris a native mobile app with a calendar view of with offline functionality to continue work without internet access, s  and includes the standard capabilities 
+Field Service Mobile (2020) is a mobile app designed and optimized for technicians to view Dynamics 365 Field Service work orders, customer assets, accounts and contacts. Different than Field Service Mobile (see feature comparison below), this alternative mobile app is built on Microsoft's Power Platform as a model-driven app and is customizbale to your business needs with the same admin console as all Dynamics 365 business apps.
 
-- Built as a model-driven app on the Power Platform,
-- available for Apple iOS and Google Android phones and tablets
-- Mobile optimized model driven app built on power platform and has all benefits of that platform
-- Customizable for your business data requirements
-- utilizes the same admin console as all Dynamics 365 apps
-- lays the groundwork for seamless integration across the Microsoft stack like remote assist and virtual agent
- 
-- the new FSM2020 app is different than current FSM app
 
-- Core functionality to view and manage bookings via calendar view, offline mode, Service notes that include photos, videos, & audio, Time off reporting
+Available natively for Apple iOS and Google Android phones and tablets, Field Service Mobile (2020) offers technicians many capabilities they need to perform on site customer service like a calendar view of assigned jobs, support for picture, video, and asset barcode scanning, theS ability to capture customer signatures, and offline capabilities so technicians can continue viewing and recording work in areas without internet.
 
 
 
@@ -68,9 +59,8 @@ supports photo, video, and audio capturecamera photos a  It inlcudes capabilitie
 
 
 ## Prerequisites
+
 Field Service v8.8.x+
-
-
 
 
 ## Install and set up Field Service Mobile (2020)
