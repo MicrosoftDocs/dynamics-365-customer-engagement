@@ -44,6 +44,8 @@ You can find this in **Settings > Customizations > Developer Resources**
 > ![Screenshot of ](./media/preview-orgid.png)
 
 
+
+
 Ensure your PC computer has PowerShell installed. If not, [install it](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7).
 
 
@@ -52,9 +54,19 @@ Ensure your PC computer has PowerShell installed. If not, [install it](https://d
 
 Open PowerShell and Run as Administrator
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/preview-powershell.png)
+
+
+
 Run command below:
 
         install-module Microsoft.Xrm.OnlineManagementAPI -Scope CurrentUser -force 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/preview-powershell-run-first-command.png)
+
+
 
 Run command below and substitute your username. This username reflects a user with system administrator security role:
 
@@ -87,9 +99,17 @@ If prompted, run software from an untrusted publisher by Entering "R".
 
 If successful you will see a list of preview features. 
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/preview-powershell-previewlist.png)
+
+
+
 Find the preview feature you would like to add to your environment and note the ID. In our example it is the ID for Field Service Inspections Flight
 
-Run command below:
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/preview-powershell-flightid-orgid.png)
+
+Run command below by subsitituting 1) the ID of the preview feature found in PowerShell and 2) the orgID of your envorironment you noted in the beginning.
 
         Add-CrmFlightAudience -ApiUrl $url -FlightId "bdccdf3c-da3b-4a0f-8d0f-69c20e7256cb" -InstanceId "01f3f249-d269-415f-b036-e52701c75adf" -Credential $cred 
 
