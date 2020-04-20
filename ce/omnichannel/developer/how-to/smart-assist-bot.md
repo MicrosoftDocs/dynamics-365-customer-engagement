@@ -19,13 +19,13 @@ To quickly get started, follow the instructions mentioned in this topic for buil
 
 You will first need to create a bot with [Azure Bot Service](https://docs.microsoft.com/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0).<!-- When you register your bot with Azure Bot Service, you will obtain `Microsoft App ID` and `Client secret` which you will need to update the `appsettings.json` file in the bot. -->
 
-## Sample bot with quick setup for knowledge article recommendations
+## Sample bot that displays knowledge article recommendations
 
 For setting up a sample for smart assist bot for displaying knowledge article recommendations to the agent, please see the instructions mentioned in the sample [README](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/smart-assist-bot/README.md) file. 
 
 For information on how to create a knowledge article using template, see [Create a knowledge article using a template](../../../customer-service/create-knowledge-article-using-template.md).
 
-## Steps to create a custom scenario for smart assist e.g. similar case recommendations**
+## Sample bot that displays similar case recommendations
 
 After setting up a sample bot using above steps, you can configure your bot to show similar case recommendations for ‘printer noise’ using the instructions mentioned in the topic [Implement a custom scenario](smart-assist-scenario.md).
 
