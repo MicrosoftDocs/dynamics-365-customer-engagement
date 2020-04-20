@@ -33,7 +33,10 @@ Refer to the sample code [README](https://github.com/microsoft/Dynamics365-Apps-
 
 ## Smart assist using knowledge articles
 
-Consider the scenario wherein a customer is trying to troubleshoot his printer and he initiates a chat with customer support to resolve his queries. Customer tells the agent that his printer is making a loud noise and that he has tried restarting it but it did not work. <!--The smart assist assesses the context of the conversation and based on that it displays recommendations on similar cases.-->The agent searches for knowledge base articles for the problem shared by the customer and shares them with the customer.
+<!--Consider the scenario wherein a customer is trying to troubleshoot his printer and he initiates a chat with customer support to resolve his queries. Customer tells the agent that his printer is making a loud noise and that he has tried restarting it but it did not work. <!--The smart assist assesses the context of the conversation and based on that it displays recommendations on similar cases.The agent searches for knowledge base articles for the problem shared by the customer and shares them with the customer.
+-->
+
+This section provides information on how you can build a smart assist bot that displays knowledge article recommendations to the agent.
 
 <!--Given below is the adaptive card JSON for displaying knowledge article recommendations.
 
