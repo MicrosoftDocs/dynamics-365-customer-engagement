@@ -26,7 +26,7 @@ search.app:
   - D365FS
 ---
 
-## Universal Resource Scheduling version history
+# Universal Resource Scheduling version history
 
 [!INCLUDE[urs-bug-fixes.md](../shared/urs/urs-bug-fixes.md)]
 
