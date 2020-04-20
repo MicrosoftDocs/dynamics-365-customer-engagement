@@ -56,7 +56,7 @@ Perform the following steps to create a work stream for the SMS channel for Twil
 
     - **Channel**: Select **SMS**.
     - **Auto-close after inactivity**: Select a value that indicates a duration of eight hours or more.
-    - **Allow automated messages**: Accept the default value **No** or specify **Yes**.
+    - **Allow automated messages**: Specify **Yes** to be able to define the business hours.
 
 5. In **Work distribution**, specify the necessary details. More information: [Create a work stream](work-streams-introduction.md#create-a-work-stream)
 
