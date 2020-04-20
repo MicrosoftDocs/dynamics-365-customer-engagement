@@ -28,20 +28,26 @@ search.app:
 
 # Field Service Mobile (2020)
 
-Field Service Mobile (2020) is another mobile app option for Dynamics 365 Field Service that helps technicians view and complete their assigned work orders. Built as a model-driven app on the Power Platform, Field Service Mobile (2020)
+Field Service Mobile (2020) is an additional mobile app option for technicians to view Dynamics 365 Field Service work orders, customer assets, accounts and contacts. As a native mobile application for Apple iOS and Google Android phones and tablets, Field Service Mobile (2020) offers a calendar view of assigned work orders, asset barcode scanning, photo, and video
 
+supports photo, video, and audio capturecamera photos a  It inlcudes capabilities like a calendar for technicians to viewassigned work orders Field Service Mobile (2020) includes capabilities foris a native mobile app with a calendar view of with offline functionality to continue work without internet access, s  and includes the standard capabilities 
+
+- Built as a model-driven app on the Power Platform,
+- available for Apple iOS and Google Android phones and tablets
 - Mobile optimized model driven app built on power platform and has all benefits of that platform
 - Customizable for your business data requirements
 - utilizes the same admin console as all Dynamics 365 apps
 - lays the groundwork for seamless integration across the Microsoft stack like remote assist and virtual agent
-- Core functionality to view and manage bookings via calendar view, offline mode, Service notes that include photos, videos, & audio, Time off reporting 
+ 
 - the new FSM2020 app is different than current FSM app
+
+- Core functionality to view and manage bookings via calendar view, offline mode, Service notes that include photos, videos, & audio, Time off reporting
 
 
 
 ## Feature comparison: Field Service Mobile (2020) and Field Service Mobile
 
-
+- typically an organization will implement one app entirely or for each department
 - Feature parity with current mobile app (Oct 2020)
 
 > [!div class="mx-imgBorder"]
