@@ -2,7 +2,7 @@
 title: "Field Service Mobile (2020) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/30/2020
+ms.date: 04/20/2020
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -28,7 +28,7 @@ search.app:
 
 # Field Service Mobile (2020)
 
-## Introduction
+Field Service Mobile (2020) is another mobile app option for Dynamics 365 Field Service that helps technicians view and complete their assigned work orders. Built as a model-driven app on the Power Platform, Field Service Mobile (2020)
 
 - Mobile optimized model driven app built on power platform and has all benefits of that platform
 - Customizable for your business data requirements
