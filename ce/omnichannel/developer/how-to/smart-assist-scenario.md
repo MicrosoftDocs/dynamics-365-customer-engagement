@@ -170,7 +170,7 @@ This custom action enables you to open any entity record.
 
 **SendKB custom action**
 
-This custom action enables you to send a knowledge base article. <!--It copies the knowledge base article URL to Conversation Control, which is then sent to the customer when the agent clicks on send button.
+This custom action enables you to send a knowledge base article. <!--It copies the knowledge base article URL to Conversation Control, which is then sent to the customer when the agent clicks on send button.-->
 <!--
 The custom actions required for implementing knowledge base search in the smart assist bot include the following:
 
