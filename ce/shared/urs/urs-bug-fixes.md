@@ -103,7 +103,7 @@
 - Schedule Board will support Booking Alerts are in large number (~200). 
 - Only Active Booking Statuses will be displayed on the Booking Status dropdown field on the Booking panel of Schedule Board, when creating Bookings. 
 - When searching for available resources for a Requirement Group, suggested resources will always be shown in List View only. 
-- Resources on the Schedule Board tab can be selected via Select Resources under the Filter Options on the Internet Explorer ### Version 11.
+- Resources on the Schedule Board tab can be selected via Select Resources under the Filter Options on the Internet Explorer Version 11.
 - When calling the msdyn_SearchResourceAvailability action using a Requirement with a Fulfillment Preference for Timegroup as input, the output timeslot of the action will contain valid TimeGroupDetails
 - Bookable Resource Bookings can be created on the Day light saving days (entering and exiting DST). 
 ### Enhancements
@@ -373,7 +373,7 @@
 - When using the schedule assistant to schedule a requirement group for a facility, there is no longer a conflict of travel time between the facility and the resources
 - Double booking option in schedule assistant on daily, weekly, and monthly boards now properly books the resource even if the resource does not have any remaining capacity.
 - Appointment schedule board settings are now generated properly.
-- Issues in certain scenarios where schedule board had issues loading in internet explorer
+- Issues in certain scenarios where schedule board had issues loading in Internet Explorer.
 - “Supplied DateTime represents an invalid time” error 
 - Error message when schedule a single requirement to a crew resource
 ### Enhancements
