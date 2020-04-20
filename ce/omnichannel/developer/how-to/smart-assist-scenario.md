@@ -21,7 +21,7 @@ ms.topic: article
 > [!IMPORTANT]
 > Read the topic [Build a smart assist bot](smart-assist-bot.md) for information on how to get started with building a custom smart assist bot. 
 
-- You will first need to create a bot with [Azure Bot Service](https://docs.microsoft.com/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0). <!--When you register your bot with Azure Bot Service, you will obtain `Microsoft App ID` and `Client secret` which you will need to update the `appsettings.json` file in the bot.-->
+- You need to have an understanding on how to create a bot using [Azure Bot Service](https://docs.microsoft.com/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0). <!--When you register your bot with Azure Bot Service, you will obtain `Microsoft App ID` and `Client secret` which you will need to update the `appsettings.json` file in the bot.-->
 - Create a LUIS app by following the instructions mentioned in [Add natural language understanding to your bot](https://docs.microsoft.com/azure/bot-service/bot-builder-howto-v4-luis?view=azure-bot-service-4.0&tabs=csharp). See the section [Retrieve application information from the LUIS.ai portal](https://docs.microsoft.com/azure/bot-service/bot-builder-howto-v4-luis?view=azure-bot-service-4.0&tabs=csharp#retrieve-application-information-from-the-luisai-portal) for information on how to retrieve the values you need to setup the bot.
 
 ## Scenario: Similar case suggestion
@@ -170,15 +170,17 @@ This custom action enables you to open any entity record.
 
 **SendKB custom action**
 
-This custom action enables you to send a knowledge base article. It copies the knowledge base article URL to Conversation Control, which is then sent to the customer when the agent clicks on send button.
-
+This custom action enables you to send a knowledge base article. <!--It copies the knowledge base article URL to Conversation Control, which is then sent to the customer when the agent clicks on send button.
+<!--
 The custom actions required for implementing knowledge base search in the smart assist bot include the following:
 
 1. Open any entity form using the [openForm](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-navigation/openform) client API.
 2. Copy to Conversation Control.
 3. Open th URL in App tab.
+-->
 
-**Note**: The `CustomAction` key should contain `SendKB` and `kbLink` key should contain the link of the KB article. You cannot have another custom action with the same name as `SendKB`.
+> [!NOTE]
+> The `CustomAction` key should contain `SendKB` and `kbLink` key should contain the link of the KB article. You cannot have another custom action with the same name as `SendKB`.
 
 ```json
 {
