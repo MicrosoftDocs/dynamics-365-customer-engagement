@@ -30,7 +30,7 @@ Solution Health Hub detects issues in your Dynamics 365 environment, giving you 
 Here are a few common issues the Solution Health Hub detects:
 
 1. Whether critical Marketing processes are deactivated.
-1. Whether processes that will cause an upgrade failure are assigned to disabled users.
+1. Whether processes that will cause an upgrade failure are assigned to disabled user accounts.
 1. Customized web resources that will later lead to runtime issues.
 
 ## Prerequisites
@@ -61,7 +61,7 @@ Below are the rules currently included for Marketing:
 | Rule name | What it checks |
 | --- | --- | 
 | CheckIffSdkMessageProcessingStepsAreActive    | Checks whether any [SDK Message Processing Steps](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/sdkmessageprocessingstep) are disabled. Disabled SDK Message Processing Steps result in incorrect behavior when using Dynamics 365 Marketing. | 
-| CheckIfProcessOwnedByDisabledUsers    | Checks whether there are any process definitions in the system that are assigned to users that are disabled. If that's the case, upgrading will fail. | 
+| CheckIfProcessOwnedByDisabledUsers    | Checks whether there are any process definitions in the system that are assigned to user accounts that are disabled. If that's the case, upgrading will fail. | 
 | CheckIfProcessesAreActive    | Checks whether there are any process definitions in draft status. If there are processes in draft status, Marketing will not work correctly. | 
 | MissingMktConfiguration    | Checks for the presence of a Marketing configuration entity record. If the configuration entity record is missing, Marketing will not work properly. | 
 | MissingRolesToApplicationUser    | Checks whether MarketingServices ApplicationUser has all required roles assigned. If some of the roles are missing, the Marketing application might not work properly. |
