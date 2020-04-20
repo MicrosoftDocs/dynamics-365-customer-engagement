@@ -2,7 +2,7 @@
 title: "Work with data protection and GDPR (Dynamics 365 Marketing) | Microsoft Docs  "
 description: "Protect customer privacy and remain compliant with GDPR regulations with Dynamics 365 Marketing"
 keywords: GDPR; data protection; privacy
-ms.date: 08/16/2019
+ms.date: 04/17/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -105,13 +105,14 @@ By default, GDPR features such as consent management are disabled on new Dynamic
 
 When GDPR is enabled, you can view and set data-protection options for each contact. To work with them, open a contact record, go to its **Details** tab, and then scroll down to find the **Data protection** section.
 
-![Data protection settings for contacts](media/gdpr-contact.png "Data protection settings for contacts")
+![Data protection settings for contacts](media/gdpr-contact2.png "Data protection settings for contacts")
 
 The following settings and information are available here:
 
 - **Consent given**: Read or set the maximum consent level granted by this contact. This contact will only be able participate in marketing initiatives permitted for this consent level or lower. You should only change this setting after receiving explicit consent from this contact. Usually, you should allow contacts to change this themselves using a subscription center.
 - **Is a child**: Mark this box to indicate that this contact is a minor (usually, under 18 years old), and therefore requires extra protection.
 - **Parent or custodian**: If the contact is a child, then select their legal parent or custodian (guardian) in this lookup field. The parent or custodian must also be saved as a contact in your database.
+- **Tracking**: Choose whether to track contact interactions. If the box is set to **Do Not Allow**, Marketing will not  track public interactions (email opening, email clicks, website visits, form visits, form submissions, etc.). The tracking option allows contacts to specify whether they consent to having their interaction data saved. You can trigger this field by either adding the field to client consent forms or by updating the contact data directly.
 
 ## Filter segments by consent
 

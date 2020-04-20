@@ -2,7 +2,7 @@
 title: "Developer Guide for Dynamics 365 Customer Engagement (on-premises)| MicrosoftDocs"
 description: "This SDK contains a wealth of resources, including code samples, which are designed to help you build powerful vertical applications using the Customer Engagement (on-premises) platform. It is a guide for developers writing solutions, server-side code, client applications and extensions, custom business logic, plug-ins, integration modules, custom workflow modules and more. The SDK contains an architectural overview of Customer Engagement, the entity model, security model, web services, and sample code."
 ms.custom: 
-ms.date: 09/30/2019
+ms.date: 04/20/2020
 ms.reviewer: 
 ms.service: 
 ms.suite: 
@@ -24,7 +24,9 @@ search.app:
 
 Welcome to the Dynamics 365 Customer Engagement (on-premises) Developer Guide.
 
-For documentation of earlier versions (8.x and earlier), see <https://docs.microsoft.com/previous-versions/dynamics/>.
+- For documentation of earlier on-premises versions (8.x and earlier), see <https://docs.microsoft.com/previous-versions/dynamics/>.
+
+- If you are using our online apps that are built on Common Data Service (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Marketing, Dynamics 365 Field Service, and Dynamics 365 Project Service Automation), see the [Common Data Service Developer Guide](https://docs.microsoft.com/powerapps/developer/common-data-service/overview) along with the respective app's developer docs.
 
 <table>
 <tr>
