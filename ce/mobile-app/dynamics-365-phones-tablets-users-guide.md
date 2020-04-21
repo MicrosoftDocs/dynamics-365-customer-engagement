@@ -106,7 +106,7 @@ The **Favorites** and **Recently Used** provides quick access to your records, v
 
 Dashboards give you an overview of valuable information. Select on the Home button ![Home button](media/homeicon.png "Home button") to view dashboards.
 
-- To view a different dashboard, select the down arrow next to the name of the dashboard, and then select the dashbaord that you want to view. 
+- To view a different dashboard, select the down arrow next to the name of the dashboard, and then select the dashboard that you want to view. 
 
   > [!div class="mx-imgBorder"] 
   > ![Dynamics 365 apps phones and tablets dashboards](media/DashboardsOnHomePage_4.png "Dynamics 365 apps phones and tables dashboards")
