@@ -49,12 +49,10 @@ By December 2022 Field Service Mobile will no longer be supported.
 - typically an organization will implement one app entirely or for each department
 - Feature parity with current mobile app (Oct 2020)
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-feature-parity.png)
 
 | Feature | Cateogry | Field Service Mobile (2020) | Field Service Mobile |
 | --- | --- | --- | --- |
-| Mobile Platform |  | iOS, Android | iOS, Android, Windows |
+| Mobile Platform | Hardware & software | iOS, Android | iOS, Android, Windows |
 | Camera capture (photo & video) | Technician | Yes | Yes |
 | Barcode scanning | Technician | Yes | Yes |
 | Offline data | Technician | Yes | Yes |
@@ -84,12 +82,6 @@ By December 2022 Field Service Mobile will no longer be supported.
 | Microsoft Intune  | Integration | | Yes |
 
 
-
-
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-feature-parity-roadmap.png)
 
 ## Prerequisites
 
