@@ -37,9 +37,9 @@ Available natively for Apple iOS and Google Android phones and tablets, Field Se
 
 ## Implementation and migration guidance
 
-It is recommended to continue using the existing "[Field Service Mobile](./field-service-mobile-app-user-guide.md)" mobile app for current and new deployments of Dynamics 365 Field Service. As development in Field Service Mobile (2020) continues through 2021, capabiltiies will become comparable to Field Service Mobile and system administrators should use the feature comparison information below to decide which mobile app is right for their technicians.
+It is recommended to continue using the existing "[Field Service Mobile](./field-service-mobile-app-user-guide.md)" mobile app for current and new deployments of Dynamics 365 Field Service. As development in Field Service Mobile (2020) continues through 2021, capabiltiies will become comparable to Field Service Mobile and system administrators should use the feature comparison information below to decide which mobile app is right for their organization or department.
 
-Eventually, Field Service Mobile (2020) will be the recommended mobile app for Dynamics 365 Field Service and support for Field Service Mobile will end December 2022. 
+Starting December 2021, new deployments of Dynamics 365 Field Service must use the Field Service Mobile (2020) app and by December 2022 Field Service Mobile
 
 
 - when will field service mobile not be available for new customers? support for FSM will end 2022
@@ -49,7 +49,7 @@ Eventually, Field Service Mobile (2020) will be the recommended mobile app for D
 
 - typically an organization will implement one app entirely or for each department
 - Feature parity with current mobile app (Oct 2020)
-- avialable on windows
+- platform - iOS, Android, Windows
 - Scripting - on load, on save, on change
 
 > [!div class="mx-imgBorder"]
@@ -61,7 +61,7 @@ Eventually, Field Service Mobile (2020) will be the recommended mobile app for D
 
 ## Prerequisites
 
-Field Service v8.8.x+
+Field Service v8.8.22+
 
 
 ## Install and set up Field Service Mobile (2020)
