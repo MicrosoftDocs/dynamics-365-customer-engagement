@@ -57,35 +57,32 @@ By December 2022 Field Service Mobile will no longer be supported.
 | Mobile Platform | iOS, Android | iOS, Android, Windows |
 | Camera capture (photo & video) | Technician | Yes | Yes |
 | Barcode scanning | Technician | Yes | Yes |
-| Offline data | | | |
-| Enhanced sync filters | | | |
-| Calendar view | | | |
-| Driving directions | | | |
-| Speech to text | | | |
-| Remote Assist | | | |
-| Push notifications | | | |
-| Location sharing and auditing | | | |
-| Geofencing | | | |
-| Microsoft Intune  | | | |
-| IoT alerts | | | |
-| Reporting | | | |
-| Scan to find asset | | | |
-| Mobile workflows | | | |
-| Geocoding | | | |
-| Encryption | | | |
-| Sharepoint | | | |
-| Multiple configuration profiles | | | |
-| Branding and theming | | | |
-| Maps - multi-entity | | | |
-| Chat | | | |
-| Custom commands | | | |
-| Exchange | | | |
-| Row scripts | | | |
-| Editable grids | | | |
-| Offline data | | | |
-| Offline data | | | |
-| Offline data | | | |
-| Offline data | | | |
+| Offline data | Technician | | |
+| Calendar view | Technician | | |
+| Driving directions | Technician | | |
+| Speech to text | Technician | | |
+| Push notifications | Technician | | |
+| Maps - multi-entity | Technician | | |
+| Chat | Technician | | |
+| Location sharing and auditing | Admin | | |
+| Geofencing | Technician | | |
+| IoT alerts | Technician | | |
+| Reporting | Technician | | |
+| Scan to find asset | Technician | | |
+| Mobile workflows | Admin | | |
+| Geocoding | Technician | | |
+| Enhanced offline sync filters | Admin | | |
+| Encryption | Admin | | |
+| Multiple configuration profiles | Admin | | |
+| Branding and theming | Admin | | |
+| Custom commands (Call, email, etc) | Admin | | |
+| Row scripts | Admin | | |
+| Editable grids | Technician | | |
+| Exchange | Integration | | |
+| Remote Assist | Integration | | |
+| Sharepoint | Integration | | |
+| Microsoft Intune  | Integration | | |
+
 
 
 
