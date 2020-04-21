@@ -46,19 +46,53 @@ By December 2022 Field Service Mobile will no longer be supported.
 
 ## Feature comparison: Field Service Mobile (2020) and Field Service Mobile
 
-| Feature | Field Service Mobile (2020) | Field Service Mobile |
-| --- | --- | --- |
-| Mobile Platform | iOS, Android | iOS, Android, Windows |
-| Picture and video | Yes | Yes |
-| Barcode scanning | Yes | Yes |
-
 - typically an organization will implement one app entirely or for each department
 - Feature parity with current mobile app (Oct 2020)
-- platform - iOS, Android, Windows
-- Scripting - on load, on save, on change
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-feature-parity.png)
+
+| Feature | Cateogry | Field Service Mobile (2020) | Field Service Mobile |
+| --- | --- | --- | --- |
+| Mobile Platform | iOS, Android | iOS, Android, Windows |
+| Camera capture (photo & video) | Technician | Yes | Yes |
+| Barcode scanning | Technician | Yes | Yes |
+| Offline data | | | |
+| Enhanced sync filters | | | |
+| Calendar view | | | |
+| Driving directions | | | |
+| Speech to text | | | |
+| Remote Assist | | | |
+| Push notifications | | | |
+| Location sharing and auditing | | | |
+| Geofencing | | | |
+| Microsoft Intune  | | | |
+| IoT alerts | | | |
+| Reporting | | | |
+| Scan to find asset | | | |
+| Mobile workflows | | | |
+| Geocoding | | | |
+| Encryption | | | |
+| Sharepoint | | | |
+| Multiple configuration profiles | | | |
+| Branding and theming | | | |
+| Maps - multi-entity | | | |
+| Chat | | | |
+| Custom commands | | | |
+| Exchange | | | |
+| Row scripts | | | |
+| Editable grids | | | |
+| Offline data | | | |
+| Offline data | | | |
+| Offline data | | | |
+| Offline data | | | |
+
+
+
+
+
+
+
 
 
 > [!div class="mx-imgBorder"]
