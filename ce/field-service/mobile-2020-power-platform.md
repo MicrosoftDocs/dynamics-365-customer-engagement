@@ -85,7 +85,20 @@ By December 2022 Field Service Mobile will no longer be supported.
 
 ## Prerequisites
 
-Field Service v8.8.22+
+Install or upgrade to **Field Service v8.8.22+**, the Field Service Mobile app will appear in your list of Dynamics 365 applications.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-app-list.png)
+
+Set up a Dynamics 35 Field Service user with the **Field Service-Resource** securty role. This user will sign in to the Field Service Mobile (2020) app as a technician.
+
+To schedule work orders to view on the mobile app, you must also [create a bookable resource](./set-up-bookable-resources.md) related to your technician user.
+
+> [!Note]
+>
+
+
 
 
 ## Install and set up Field Service Mobile (2020)
