@@ -54,13 +54,13 @@ By December 2022 Field Service Mobile will no longer be supported.
 
 | Feature | Cateogry | Field Service Mobile (2020) | Field Service Mobile |
 | --- | --- | --- | --- |
-| Mobile Platform | iOS, Android | iOS, Android, Windows |
+| Mobile Platform |  | iOS, Android | iOS, Android, Windows |
 | Camera capture (photo & video) | Technician | Yes | Yes |
 | Barcode scanning | Technician | Yes | Yes |
-| Offline data | Technician | | Yes |
-| Calendar view | Technician | | Yes |
-| Driving directions | Technician | | Yes |
-| Speech to text | Technician | | Yes |
+| Offline data | Technician | Yes | Yes |
+| Calendar view | Technician | Yes | Yes |
+| Driving directions | Technician | Yes | Yes |
+| Speech to text | Technician | Yes | Yes |
 | Push notifications | Technician | | Yes |
 | Maps - multi-entity | Technician | | Yes |
 | Chat | Technician | | Yes |
