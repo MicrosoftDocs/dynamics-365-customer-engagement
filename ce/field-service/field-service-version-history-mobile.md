@@ -30,7 +30,7 @@ search.app:
 
 This article chronicles important updates related to Field Service Mobile and associated mobile project templates.
 
-## Version 12.1.212
+## 12.1.212
 
 ### Updates
 - PDF report generation: A tech can now choose PDF document type as one of the report formats.
