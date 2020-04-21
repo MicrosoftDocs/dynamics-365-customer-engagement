@@ -57,35 +57,31 @@ By December 2022 Field Service Mobile will no longer be supported.
 | Mobile Platform | iOS, Android | iOS, Android, Windows |
 | Camera capture (photo & video) | Technician | Yes | Yes |
 | Barcode scanning | Technician | Yes | Yes |
-| Offline data | Technician | | |
-| Calendar view | Technician | | |
-| Driving directions | Technician | | |
-| Speech to text | Technician | | |
-| Push notifications | Technician | | |
-| Maps - multi-entity | Technician | | |
-| Chat | Technician | | |
-| Location sharing and auditing | Admin | | |
-| Geofencing | Technician | | |
-| IoT alerts | Technician | | |
-| Reporting | Technician | | |
-| Scan to find asset | Technician | | |
-| Mobile workflows | Admin | | |
-| Geocoding | Technician | | |
-| Enhanced offline sync filters | Admin | | |
-| Encryption | Admin | | |
-| Multiple configuration profiles | Admin | | |
-| Branding and theming | Admin | | |
-| Custom commands (Call, email, etc) | Admin | | |
-| Row scripts | Admin | | |
-| Editable grids | Technician | | |
-| Exchange | Integration | | |
-| Remote Assist | Integration | | |
-| Sharepoint | Integration | | |
-| Microsoft Intune  | Integration | | |
-
-
-
-
+| Offline data | Technician | | Yes |
+| Calendar view | Technician | | Yes |
+| Driving directions | Technician | | Yes |
+| Speech to text | Technician | | Yes |
+| Push notifications | Technician | | Yes |
+| Maps - multi-entity | Technician | | Yes |
+| Chat | Technician | | Yes |
+| Geofencing | Technician | | Yes |
+| IoT alerts | Technician | | Yes |
+| Geocoding | Technician | | Yes |
+| Reporting | Technician | | Yes |
+| Scan to find asset | Technician | | Yes |
+| Editable grids | Technician | | Yes |
+| Location sharing and auditing | Admin | | Yes |
+| Mobile workflows | Admin | | Yes |
+| Enhanced offline sync filters | Admin | | Yes |
+| Encryption | Admin | | Yes |
+| Multiple configuration profiles | Admin | | Yes |
+| Branding and theming | Admin | | Yes |
+| Custom commands (Call, email, etc) | Admin | | Yes |
+| View (Row) scripts | Admin | | Yes |
+| Exchange | Integration | | Yes |
+| Remote Assist | Integration | | Yes |
+| Sharepoint | Integration | | Yes |
+| Microsoft Intune  | Integration | | Yes |
 
 
 
