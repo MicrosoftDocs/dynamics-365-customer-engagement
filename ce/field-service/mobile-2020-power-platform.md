@@ -95,6 +95,10 @@ Set up a Dynamics 35 Field Service user with the **Field Service-Resource** secu
 
 To schedule work orders to view on the mobile app, you must also [create a bookable resource](./set-up-bookable-resources.md) related to your technician user.
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-scheduled-work-orders.png)
+
 > [!Note]
 >
 
@@ -102,6 +106,9 @@ To schedule work orders to view on the mobile app, you must also [create a booka
 
 
 ## Install and set up Field Service Mobile (2020)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-app-store.png)
 
 - Download from iOS or Android app stores
 - Standalone app available in app store
@@ -117,10 +124,14 @@ To schedule work orders to view on the mobile app, you must also [create a booka
 
 ## Configure Field Service Mobile (2020)
 
+### Edit Sitemap entities on home screen
+
+### Edit the Booking and Work Order form
+
 - Fields and PCF controls
-- Views
-- Forms
-- Offline mode
+
+### Configure offline data and sync filters
+
 
 ## FAQs
 - is this different than FSM and D365 mobile apps?
