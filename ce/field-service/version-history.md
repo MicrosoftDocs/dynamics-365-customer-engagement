@@ -66,7 +66,7 @@ Release For information about other updates to Field Service, visit the [Dynamic
 
 ## 8.8.11.19
 
-**Available in all regions**
+**Available in all regions by April 2020**
 
 - Fixed an issue where Agreement Booking Date generation fails when Agreement is owned by a team.
 - Resolved an issue where Field Service client side logic fails when using contact form while in offline.
