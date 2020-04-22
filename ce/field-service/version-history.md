@@ -190,54 +190,6 @@ For more information about early access features, visit the [opt-in instructions
 
 [Read a blog post about this update.](https://cloudblogs.microsoft.com/dynamics365/it/2019/08/11/enhancements-and-bug-fixes-for-field-service-version-8-8-2-160/)
 
-## 7.5.13.73
-
-[Read a blog post about this update.](https://cloudblogs.microsoft.com/dynamics365/it/2019/09/10/enhancements-and-bug-fixes-for-field-service-version-7-5-13-73/)
-
-
-## 7.5.12.53
-
-[Read a blog post about this update.](https://cloudblogs.microsoft.com/dynamics365/it/2019/08/06/enhancements-and-bug-fixes-for-field-service-version-7-5-12-53/)
-
-## 7.5.11.102
-
-[Read a blog post about this update.](https://cloudblogs.microsoft.com/dynamics365/it/2019/07/07/enhancements-and-bug-fixes-for-field-service-version-7-5-11-102/)
-
-
-## 7.5.10.235
-
-[Read a blog post about this update.](https://cloudblogs.microsoft.com/dynamics365/it/2019/06/10/release-notes-for-field-service-version-7-5-10-235/)
-
-
-## 7.5.9.91
-
-[Read a blog post about this update.](https://cloudblogs.microsoft.com/dynamics365/it/2019/05/06/release-notes-for-field-service-version-7-5-9-91/)
-
-
-## 7.5.8.93
-
-[Read a blog post about this update.](https://cloudblogs.microsoft.com/dynamics365/it/2019/04/06/release-notes-for-field-service-version-7-5-8-93/)
-
-
-## 7.5.7.87
-
-[Read a blog post about this update.](https://cloudblogs.microsoft.com/dynamics365/it/2019/03/07/release-notes-for-field-service-version-7-5-7-87/)
-
-
-## 7.5.6.97
-
-[Read a blog post about this update.](https://cloudblogs.microsoft.com/dynamics365/it/2019/02/04/release-notes-for-field-service-version-7-5-6-97/)
-
-
-## 7.5.12.53
-
-[Read a blog post about this update.](https://cloudblogs.microsoft.com/dynamics365/it/2018/12/05/release-notes-for-field-service-version-7-update-release-11/)
-
-
-## 7.5.5.48
-
-[Read a blog post about this update.](https://cloudblogs.microsoft.com/dynamics365/it/2018/11/08/release-notes-for-field-service-version-7-update-release-10/)
-
 
 ## Field Service On-Premise
 
@@ -249,6 +201,8 @@ For more information about early access features, visit the [opt-in instructions
 ## Important notes
 
 ### Field Service Online End-of-Life for v7.x and earlier
+
+[Version history notes for v7.x](https://cloudblogs.microsoft.com/dynamics365/it/product/field-service/field-service-7/)
 
 Online versions of Field Service v7 and earlier are [end of life](https://cloudblogs.microsoft.com/dynamics365/it/2019/05/17/announcing-end-of-life-for-field-service-online-legacy-versions-by-february-2020/) and no longer supported. Any support requests you submit for these versions of FS, will not be serviced by Microsoft until you upgrade to the latest version.
  
