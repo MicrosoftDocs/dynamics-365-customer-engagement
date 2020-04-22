@@ -1,4 +1,4 @@
-### Version 3.12.5.13
+## 3.12.5.13
 - Resource location can be displayed on the Map view of the Schedule Board’s Daily view, using the custom entity using the Custom Geo Data settings in the Scheduling Parameters. 
 - Fixed the issue with the action msdyn_SearchResourceAvailability was not taking the ConsiderTravelTime parameter into consideration, while providing the available timeslots.
 - Fixed upgrade errors while generating the Booking Setup Metadata records and a few other upgrade improvements. 
@@ -20,7 +20,7 @@
 - Fixed the issue with the Schedule Assistant Filter layout when a filter is changed from multi combo field to non-multi combo filter. 
 - When **Double book if needed** option is checked on the Schedule Assistant booking panel, even though the resource does not have enough availability for the requested hours, the resource can be double booked up to 24 hours in one day. 
 
-### Version 3.12.9.76 - April 2020 Wave 1 Early Access 
+## 3.12.9.76 - April 2020 Wave 1 Early Access 
 
 - Fixed a performance issue when upgrading from Field Service version 7.x to version 8.x.  
 - Fixed an issue with printing the Get Driving Directions action on the Schedule Board.  
@@ -45,7 +45,7 @@
 - When the Map panel on the Schedule Board is loaded, the map should be zoomed enough to show all the Map pins in the Requirement Map filter view definition.  
 - XML syntax validation is now added on editing the Schedule Assistant filter layout.  
 
-### Version 3.12.4.9
+## 3.12.4.9
 
 - Fixed an upgrade issue related to the Timezone conversion of the TimeGroupDetail record.  
 - Fixed incorrect booking time offset on DST dates for Auckland Timezone.  
@@ -55,7 +55,7 @@
 - Fixed the alignment of the available time on the Days view of the Schedule Assistant.  
 - The Filters on the filter panel now support the Text fields as well.  
 
-### Version 3.12.3.9
+## 3.12.3.9
 
 - The one hour offset issue for the bookings created on the schedule board is fixed in the Brazil daylight savings time.
 - The caching issue with the schedule assistant’s default availability view setting is set to Board is now fixed.
@@ -63,7 +63,7 @@
 - Resource requirement map pins are loaded, only when the map view is opened on the filter panel of the schedule board. 
 - Fixed an upgrade issue due to bad data in the filter values. 
 
-### Version 3.12.2.114
+## 3.12.2.114
 
 - When the schedule board map view is opened, the map automatically zooms out to show all the map pins. 
 - The resource lookup is displayed on the schedule board in Arabic.
@@ -78,12 +78,12 @@
 - When Hebrew language is enabled on the org, schedule board loads in the Chrome with browser zoom at 90%. 
 - The requirement demand pie chart on the schedule assistant information at the bottom is accessible, via screen readers. 
 
-### Version 3.12.1.158
+## 3.12.1.158
 
 - Workflows can be triggered when resource requirements are created with any allocation method.
 - When upgrading URS from version 2.x to version 3.x, resource filters on the schedule board tabs are preserved. 
 
-### Version 3.12.0.448
+## 3.12.0.448
 
 - Grid alignment issues while scrolling on the Schedule Board for Right to Left languages (like Hebrew, Arabic) are fixed. 
 - When a new route is created for a Map pin selected on the Map panel, the route will stay on top of other routes, even after the auto refresh, which happens when a booking is created or modified.
@@ -103,13 +103,13 @@
 - Schedule Board will support Booking Alerts are in large number (~200). 
 - Only Active Booking Statuses will be displayed on the Booking Status dropdown field on the Booking panel of Schedule Board, when creating Bookings. 
 - When searching for available resources for a Requirement Group, suggested resources will always be shown in List View only. 
-- Resources on the Schedule Board tab can be selected via Select Resources under the Filter Options on the Internet Explorer ### Version 11.
+- Resources on the Schedule Board tab can be selected via Select Resources under the Filter Options on the Internet Explorer Version 11.
 - When calling the msdyn_SearchResourceAvailability action using a Requirement with a Fulfillment Preference for Timegroup as input, the output timeslot of the action will contain valid TimeGroupDetails
 - Bookable Resource Bookings can be created on the Day light saving days (entering and exiting DST). 
 ### Enhancements
 - Accessibility improvements are made on the Schedule Board and Schedule Assistant.
 
-### Version 3.11.0.421
+## 3.11.0.421
 
 - Columns in the List View of the Schedule Board resize based on the size of the browser (Internet Explorer)
 - A few accessibility issues on the schedule board and Quick Scheduling panel are fixed.
@@ -132,7 +132,7 @@
 - Support for Preferred and Mandatory Resource in finding available Resources.
 - Usability improvements to the Facility search scenarios via Quick Scheduling experience. 
 
-### Version 3.10.0.239
+## 3.10.0.239
 
 - Only valid hex characters can be entered on the Status Color field on Booking Status form
 - The overlapping bookings in the vertical view of the Schedule Board are separated by 1-px spacing. 
@@ -151,7 +151,7 @@
 - The Schedule Assistant loads as expected when clicked on Book button on a Work order form in Arabic. 
 - When a Booking is created by Schedule Assistant, the Booking Method field on the Booking form is populated as Schedule Assistant. 
 
-### Version 3.9.0.42
+## 3.9.0.42
 
 - The filter is not enabled for the Owner column on the Unscheduled Work orders Requirements view in the Requirement grid of the Schedule Board. 
 - The refresh button on the Requirement Grid is disabled while the grid is refreshing the data. 
@@ -169,7 +169,7 @@
 ### Enhancements
 - FetchXML query is replaced by Query expression for the action that fetches Work order Bookings to improve the performance. 
 
-### Version 3.8.0.105
+## 3.8.0.105
 
 - The date selector on the schedule assistant list view is dimmed because it has no effect on the resources displayed when searching for availability of a requirement or a work order.
 - When booking a schedulable entity record, only the Booking Status that is mapped to the Booking Status Field Logical Name of the Booking Setup Metadata record of the schedulable entity will be on the schedule assistant. For example, when scheduling a work order, only the optionset values of the field msdyn_fieldservicestatus will be displayed in the Booking Status drop-down on the schedule assistant,
@@ -209,7 +209,7 @@
 - When using URS on Unified Service Desk, the schedule board can be loaded without having to pass the full Unified Interface context.
 - Quick Scheduling now supports scheduling of onsite requirements.
 
-### Version 3.7.0.70
+## 3.7.0.70
 
 - Requirement group control loads in the service form on the customer service scheduling app.
 - When a schedulable entity without a resource requirement is booked via the schedule assistant (pop-out schedule board) days, weeks, or months views, the booking status is populated to the default status.
@@ -242,7 +242,7 @@
 - When booking a requirement group, the schedule assistant is launched in the time zone of the requirement group’s requirements because they all share the same requirement.
 - Performance improvements to searching for resource availability, viewing bookings on the schedule board, creating bookings for crews, creating bookings in the hourly views of the schedule board, and when using other URS plug-ins.
 
-### Version 3.6.0.18
+## 3.6.0.18
 
 - On the schedule assistant, the radius unit behavior reflects kilometers or miles as per the preferred unit of distance when “Search for” field is changed.  
 - The zoom level on the “Map View” on the “Filter Panel” will be preserved after entering or exiting the Schedule assistant search. 
@@ -263,7 +263,7 @@
 - All the date and times in the filter panel and requirements panel on the schedule board are updated when the time zone is changed in the scheduler settings on the schedule board. 
 - Various performance improvements when searching for resource availability. 
 
-### Version 3.5.0.107
+## 3.5.0.107
 
 - Booking Status on the Create Resource Booking panel is always defaulted to either Front Load or the last used value on the Schedule Board. 
 - On the Schedule Assistant, a new booking can be created in custom time, by clicking and dragging in the Demand Panel, which opens the Create Resource Booking panel for confirmation of Booking details.
@@ -299,7 +299,7 @@
 - If Connect to Maps is disabled, the Travel times will be calculated based on the Crow fly approximations. 
 - Performance improvements for the Retrieve Resource Availability action calls on the multi - Resource Requirements with fulfillment preferences (intervals)
 
-### Version 3.4.0.141
+## 3.4.0.141
 
 - Custom date and time fields now display properly on schedule board panels.
 - Issues opening and saving schedule board resource picker under options in filter control
@@ -326,7 +326,7 @@
 - Various performance improvements when creating bookings
 - Dragging to extend a booking on multi-day schedule boards opens booking panel instead of booking dialog
 
-### Version 3.2.0.405
+## 3.2.0.405
 
 - If a booking has the work location field set to location agnostic, the booking will be treated as location agnostic even if there is a latitude and longitude value on the booking.
 - Issue with schedule board list view refreshing when changing between hourly and daily.
@@ -355,7 +355,7 @@
 - Warning message will now be displayed when trying to change the latitude or longitude field on a booking.
 - Added validation to check that if a resource is associated to a facility, then it should not be allowed to be a child resource of a pool associated to a facility or facility pool for the same timeframe.
 
-### Version 3.1.0.166
+## 3.1.0.166
 
 - If a booking has the work location field set to location agnostic, the booking will be treated as location agnostic even if there is a latitude and longitude value on the booking.
 - Issue with schedule board list view refreshing when changing between hourly and daily.
@@ -373,7 +373,7 @@
 - When using the schedule assistant to schedule a requirement group for a facility, there is no longer a conflict of travel time between the facility and the resources
 - Double booking option in schedule assistant on daily, weekly, and monthly boards now properly books the resource even if the resource does not have any remaining capacity.
 - Appointment schedule board settings are now generated properly.
-- Issues in certain scenarios where schedule board had issues loading in internet explorer
+- Issues in certain scenarios where schedule board had issues loading in Internet Explorer.
 - “Supplied DateTime represents an invalid time” error 
 - Error message when schedule a single requirement to a crew resource
 ### Enhancements
@@ -385,12 +385,14 @@
 - Added validation to check if a resource is associated to a Facility then it should not be allowed to be a child resource of a pool that is associated to a Facility or Facility pool for the same timeframe.
 
 
-### Previous versions of Resource Scheduling
+## 2.4.11.59
 
-To see older bug fixes, see the following links to blog posts:
+[Read a blog post about the bug fixes](https://cloudblogs.microsoft.com/dynamics365/it/2019/05/14/enhancements-and-bug-fixes-in-universal-resource-scheduling-urs-version-2-4-11-59/).
 
-- [3.7.0.70](https://cloudblogs.microsoft.com/dynamics365/it/2019/05/14/enhancements-and-bug-fixes-in-universal-resource-scheduling-urs-version-3-7-0-70/)
-- [3.6.0.18](https://cloudblogs.microsoft.com/dynamics365/it/2019/05/01/release-notes-for-universal-resource-scheduling-version-3-6-0-18/)
-- [2.4.11.59](https://cloudblogs.microsoft.com/dynamics365/it/2019/05/14/enhancements-and-bug-fixes-in-universal-resource-scheduling-urs-version-2-4-11-59/)
-- [2.4.10.56](https://cloudblogs.microsoft.com/dynamics365/it/2019/05/01/release-notes-for-universal-resource-scheduling-version-2-4-10-56/)
-- [2.1](https://cloudblogs.microsoft.com/dynamics365/it/2017/05/19/universal-resource-scheduling-solution-for-dynamics-365-update-6-1/)
+## 2.4.10.56
+
+[Read a blog post about the bug fixes](https://cloudblogs.microsoft.com/dynamics365/it/2019/05/01/release-notes-for-universal-resource-scheduling-version-2-4-10-56/).
+
+## 2.1
+
+[Read a blog post about the bug fixes](https://cloudblogs.microsoft.com/dynamics365/it/2017/05/19/universal-resource-scheduling-solution-for-dynamics-365-update-6-1/).
