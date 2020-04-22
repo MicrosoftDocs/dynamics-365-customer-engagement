@@ -28,21 +28,21 @@ search.app:
 
 # Field Service version history
 
-## Latest versions
+## Latest version availability
 
 | Solution  | Latest version | Download links  |
 |-------|----|------|
-| Field Service                        |  8.8.+           | [https://trials.dynamics.com](https://trials.dynamics.com).   See additional notes at the end of this document.                  |
+| Field Service     |  8.8.+  | [Upgrade](./upgrade-field-service.md) or [create a new trial](https://trials.dynamics.com)   |
 | Field Service Mobile                 | 12.1.+          | [Windows](https://aka.ms/fsmobile-windows),   [iOS](https://aka.ms/fsmobile-ios), and   [Android](https://aka.ms/fsmobile-android) |
 | Mobile Configuration Tool (Woodford) | 12.1.+          | [Direct download link (English only)](https://aka.ms/fsmobile-configurator)                                                       |
 | Mobile Project Template              | 1.0.3514       | [Direct download link (English only)](https://aka.ms/fsmobile-project)      |
 
-For information about other updates to Field Service, visit the [Dynamics 365 Release Plans](https://docs.microsoft.com/dynamics365/release-plans/). 
+Release For information about other updates to Field Service, visit the [Dynamics 365 Release Plans](https://docs.microsoft.com/dynamics365/release-plans/). 
 
 |  | Region | Current Version | Scheduled Date | Next Version
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Station 1</strong> | |  |  | |
-| | <i>First Release</i> |[8.8.12.2](https://docs.microsoft.com/en-us/dynamics365/field-service/version-history#8814328-2020-wave-1-early-access)| 04/1/20 |[8.8.x.x](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update171)|
+| | <i>First Release</i> |[8.8.12.2](https://docs.microsoft.com/en-us/dynamics365/field-service/version-history#8814328-2020-wave-1-early-access)| 04/24/20 |[8.8.x.x](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update171)|
 |<strong>Station 2</strong> | |  |  | |
 | | <i>South America</i> |[8.8.12.2](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update165)| 04/24/20 |[8.8.x.x](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update171)|
 | | <i>Canada</i> |[8.8.12.2](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update165)| 04/24/20 |[8.8.x.x](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update171)|
@@ -52,19 +52,21 @@ For information about other updates to Field Service, visit the [Dynamics 365 Re
 | | <i>South Africa</i> |[8.8.12.2](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update165)| 04/24/20 |[8.8.x.x](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update171)|
 | | <i>Germany</i> |[8.8.12.2](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update165)| 04/24/20 |[8.8.x.x](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update171)|
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> |[8.8.11.19](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update162)| 04/24/20 |[8.8.x.x](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update171)|  
-| | <i>Asia Pacific</i> |[8.8.11.19](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update162)| 04/24/20 |[8.8.x.x](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update171)|  
-| | <i>Great Britain</i> |[8.8.11.19](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update162)| 04/24/20 |[8.8.x.x](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update171)|  
-| | <i>Oceana</i> |[8.8.11.19](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update162)| 04/24/20 |[8.8.x.x](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update171)|  
+| | <i>Japan</i> |[8.8.11.19](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update162)| 02/28/20 |[8.8.12.2](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update171)|  
+| | <i>Asia Pacific</i> |[8.8.11.19](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update162)| 02/28/20 |[8.8.12.2](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update171)|  
+| | <i>Great Britain</i> |[8.8.11.19](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update162)| 02/28/20 |[8.8.12.2](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update171)|  
+| | <i>Oceana</i> |[8.8.11.19](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update162)| 02/28/20 |[8.8.12.2](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update171)|  
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> |[8.8.11.19](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update159)| 04/24/20 |[8.8.x.x](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update171)|
+| | <i>Europe</i> |[8.8.11.19](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update159)| 02/28/20 |[8.8.12.2](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update171)|
 |<strong>Station 5</strong> | |  |  | |
-| | <i>North America</i> |[8.8.11.19](https://docs.microsoft.com/en-us/dynamics365/field-service/version-history#881119)| 04/24/20 |[8.8.14.328](https://docs.microsoft.com/en-us/dynamics365/field-service/version-history#8814328-2020-wave-1-early-access)|
+| | <i>North America</i> |[8.8.11.19](https://docs.microsoft.com/en-us/dynamics365/field-service/version-history#881119)| 03/13/20 |[8.8.12.2](https://docs.microsoft.com/en-us/dynamics365/field-service/version-history#8814328-2020-wave-1-early-access)|
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Goverment Community Cloud</i> |[8.8.11.19](https://docs.microsoft.com/en-us/dynamics365/field-service/version-history#881119)| 04/24/20 |[8.8.14.328](https://docs.microsoft.com/en-us/dynamics365/field-service/version-history#8814328-2020-wave-1-early-access)|
-| | <i>China</i> |[8.8.11.19](https://docs.microsoft.com/en-us/dynamics365/field-service/version-history#881119)| 04/24/20 |[8.8.14.328](https://docs.microsoft.com/en-us/dynamics365/field-service/version-history#8814328-2020-wave-1-early-access)|
+| | <i>Goverment Community Cloud</i> |[8.8.11.19](https://docs.microsoft.com/en-us/dynamics365/field-service/version-history#881119)| 04/10/20 |[8.8.12.2](https://docs.microsoft.com/en-us/dynamics365/field-service/version-history#8814328-2020-wave-1-early-access)|
+| | <i>China</i> |[8.8.11.19](https://docs.microsoft.com/en-us/dynamics365/field-service/version-history#881119)| 04/10/20 |[8.8.12.2](https://docs.microsoft.com/en-us/dynamics365/field-service/version-history#8814328-2020-wave-1-early-access)|
 
 ## 8.8.11.19
+
+**Available in all regions**
 
 - Fixed an issue where Agreement Booking Date generation fails when Agreement is owned by a team.
 - Resolved an issue where Field Service client side logic fails when using contact form while in offline.
@@ -109,6 +111,8 @@ For more information about early access features, visit the [opt-in instructions
 - Improved the warning notification message on the "Geo Code Address” button when Bing maps is disabled.
 
 ## 8.8.10.44
+
+**Available in all regions**
 
 - Agreement Booking Service Task's Name is overwritten when the related task type changes.
 - Cannot complete booking that has travel time if the Travel Charge Type on the related Work Order's Account is null.
