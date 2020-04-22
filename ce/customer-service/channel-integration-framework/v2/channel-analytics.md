@@ -165,6 +165,8 @@ Primary entity for a KPI event.
 
 More information: [msdyn_kpieventdata](reference/entities-attributes/msdyn_kpieventdata.md).
 
+The softphone integration [sample code]() implements functionalities wherein the live work item is updated when a call is accepted and updating live work item with incident details as soon as a case is created.
+
 ## See also
 
 [What's new in Dynamics 365 Channel Integration Framework](../whats-new-channel-integration-framework.md)<br />
