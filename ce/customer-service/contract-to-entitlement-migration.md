@@ -4,7 +4,7 @@ description: Learn more about contract to entitlement migration for Dynamics 365
 author: lerobbin
 ms.author: lerobbin
 manager: shujoshi
-ms.date: 04/03/2020
+ms.date: 04/22/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
