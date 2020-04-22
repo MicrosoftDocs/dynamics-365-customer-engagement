@@ -9,7 +9,7 @@
 #### [Overview of admin settings](admin-settings-overview.md)
 #### [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles)
 #### [Set up sales territories](../admin/set-up-sales-territories-organize-business-markets-geographical-area.md)
-#### [System Settings - Sales](../admin/system-settings-dialog-box-sales-tab.md)
+#### [System Settings - Sales](system-settings-sales-tab.md)
 #### [Enable or disable PDF generation from sales records](enable-pdf-generation-quote.md)
 #### [Set up enhanced email](set-up-enhanced-email.md)
 #### [Enable customization of the Opportunity Close form](enable-opportunity-close-customization.md)
