@@ -30,19 +30,24 @@ search.app:
 
 This article chronicles important updates related to Field Service Mobile and associated mobile project templates.
 
-## Field Service Mobile app
+## 12.1.212
 
-## 12.1.211
--	App crashes when wrong url is entered on sign in screen
--	FSM app crashes when sending logs if networkLog.txt does not exit
--	FSM app crashes when connecting to an org without woodford
--	FSM app crashes when click on 'password manager' from login screen
--	App crashing on certain older Android devices (misc)
--	MobileReport - formatting issue on Word/HTML
--	MobileReport - contents of Word document is removed if user saves Work Order without closing active doc.
--	Unit Amount and Unit Cost are not calculated when the offline Work Order Product created and sync backed to server
--	Certain actions don't work under work profile on Android
--	Conditionally displaying a URL via a shared-variable linked field does not update icon
+### Updates
+- PDF report generation: A tech can now choose PDF document type as one of the report formats.
+- Brokered authentication: A tech can leverage Company Portal or Authenticator application on a device to authenticate.
+- Added support for oAuth Authentication in Sovereign/DoD clouds.
+- Docusign Integration: Bring your DocuSign account and leverage DocuSign integration for digital signatures.
+
+### Bug fixes
+- App crashes when wrong url is entered on sign in screen.
+- App crashes when sending logs if networkLog.txt does not exit.  
+- App crashes when connecting to an org without Woodford.
+- App crashes when click on 'password manager' from sign in screen.   
+- App crashing on certain older Android devices (G5, LG K7). 
+- MobileReport - Formatting issue on Word/HTML.
+- MobileReport - contents of Word document is removed if user saves Work Order without closing active doc.
+- Unit Amount and Unit Cost are not calculated when the offline Work Order Product created and sync backed to server.
+- Conditionally displaying a URL is not showing hyperlink icon.
 
 
 ## 12.1.203
