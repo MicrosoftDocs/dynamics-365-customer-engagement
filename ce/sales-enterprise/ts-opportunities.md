@@ -36,14 +36,14 @@ To close an opportunity, open the opportunity record, and on the command bar, se
 ### Issue: I can't close an opportunity
 
 Here are some errors you might see when you close an opportunity: 
-1.  [The opportunity cannot be closed](#CannotBeClosed)
+1.  [The opportunity can't be closed](#CannotBeClosed)
 2.  [Access denied or Insufficient permissions](#AccessDeniedOpportunity)
 3.  [The opportunity has already been closed](#AlreadyClosed)
 
 The following sections describe each of these errors and how you can resolve them.
 
 <a name="CannotBeClosed"> </a> 
-#### 1. The opportunity cannot be closed
+#### 1. The opportunity can't be closed
 
 **Reason:**
 
@@ -51,7 +51,7 @@ There might be active or draft quotes associated with the opportunity.
 
 **Resolution:**
 
-1. In the Opportunity record, go to the **Quotes** tab (or **Quotes line item** tab).
+1. In the opportunity record, go to the **Quotes** tab (or **Quotes line item** tab).
 2. Make sure none of the quotes is in the Draft or Active status.
 
     > [!div class="mx-imgBorder"]  
@@ -92,7 +92,7 @@ To reopen, open the opportunity, and on the command bar, select **Reopen Opportu
 
 
 <a name="add_products"> </a>
-### I can't add products to an opportunity 
+### Issue: I can't add products to an opportunity 
 
 Here are some errors you might see when you add products to an opportunity: 
 1.  [You must select a price list before attempting to add a product](#SelectPriceList)
@@ -108,7 +108,7 @@ You haven't selected a price list for the opportunity. Selecting a price list is
 
 **Resolution:**
 
-1. In the Opportunity record, go to the **Product Line Item** tab.
+1. In the opportunity record, go to the **Product Line Item** tab.
 2. In the **Price List** field, select a price list for the opportunity.  
 
 <a name="ProductName"></a>
@@ -136,7 +136,7 @@ Make sure the product you want to add is in the Active state, and then add the p
 ## Opportunity Close issues and resolution (for system administrators)
 
 <a name="access_denied"></a>
-### Insufficient permissions or Access denied error when a user is trying to close an opportunity
+### Issue: Insufficient permissions or Access denied error when a user is trying to close an opportunity
 
 **Reason:**
 The user trying to close the opportunity doesn't have sufficient permissions on the opportunity they're working on.
@@ -148,23 +148,23 @@ The user trying to close the opportunity doesn't have sufficient permissions on 
 
 ## Stakeholder and Sales team subgrids
 
-### Issue: I can't see the connection records added from the Stakeholders subgrid.
+### Issue: I can't see the connection records added from the Stakeholders subgrid
 
 **Reason:**
 
-The out-of-the box Stakeholders subgrid shows only those connection records whose connection role's category is "Stakeholder". More information: [How are stakeholders and sales team members tracked for opportunities?](stakeholders-sales-team-members.md)
+The out-of-the-box **Stakeholders** subgrid only shows connections that have a connection role category of **Stakeholder**. More information: [How are stakeholders and sales team members tracked for opportunities?](stakeholders-sales-team-members.md)
 
 **Resolution:**
 
-1. In the Opportunity record, select the **Related** tab, and then select **Connections**. 
+1. In the opportunity record, select the **Related** tab, and then select **Connections**. 
 
-2. Check if the connection you added is shown in **Connections** subgrid.
+2. Check whether the connection you added is shown in the **Connections** subgrid.
 
-3. If you see the connection record, open the record. 
+3. If you see the connection record, open it. <!--Is there any "next step" for the reader to take if they don't find the connection record? If not, steps 2 and 3 can be combined into a simple "In the **Connections** subgrid, select the connection you added."-->
 
-4. Open the Connection role selected in the **As this role** field. 
+4. Open the connection role<!--Edit assumes "Connection role" isn't a UI string in this step. If it is, should be capped and bold. --> selected in the **As this role** field. 
 
-5. Make sure that **Connection Role Category** is set to **Stakeholder**. If it isn't, select Stakeholder in the **Connection Role Category** drop-down list. 
+5. Make sure that **Connection Role Category** is set to **Stakeholder**. If it isn't, select **Stakeholder** in the **Connection Role Category** drop-down list. 
 
 ### See also
 
