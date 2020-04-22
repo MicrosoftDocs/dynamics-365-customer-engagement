@@ -39,6 +39,30 @@ search.app:
 
 For information about other updates to Field Service, visit the [Dynamics 365 Release Plans](https://docs.microsoft.com/dynamics365/release-plans/). 
 
+|  | Region | Current Version | Scheduled Date | Next Version
+| :---   | :---   | :---   | :---   |:---   |         
+|<strong>Station 1</strong> | |  |  | |
+| | <i>First Release</i> |[8.8.12.2](https://docs.microsoft.com/en-us/dynamics365/field-service/version-history#8814328-2020-wave-1-early-access)| 04/1/20 |[8.8.x.x](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update171)|
+|<strong>Station 2</strong> | |  |  | |
+| | <i>South America</i> |[8.8.12.2](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update165)| 04/24/20 |[8.8.x.x](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update171)|
+| | <i>Canada</i> |[8.8.12.2](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update165)| 04/24/20 |[8.8.x.x](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update171)|
+| | <i>India</i> |[8.8.12.2](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update165)| 04/24/20 |[8.8.x.x](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update171)|
+| | <i>France</i> |[8.8.12.2](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update165)| 04/24/20 |[8.8.x.x](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update171)|
+| | <i>United Arab Emirates</i> |[8.8.12.2](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update165)| 04/24/20 |[8.8.x.x](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update171)|
+| | <i>South Africa</i> |[8.8.12.2](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update165)| 04/24/20 |[8.8.x.x](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update171)|
+| | <i>Germany</i> |[8.8.12.2](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update165)| 04/24/20 |[8.8.x.x](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update171)|
+|<strong>Station 3</strong> | |  |  | |
+| | <i>Japan</i> |[8.8.11.19](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update162)| 04/24/20 |[8.8.x.x](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update171)|  
+| | <i>Asia Pacific</i> |[8.8.11.19](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update162)| 04/24/20 |[8.8.x.x](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update171)|  
+| | <i>Great Britain</i> |[8.8.11.19](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update162)| 04/24/20 |[8.8.x.x](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update171)|  
+| | <i>Oceana</i> |[8.8.11.19](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update162)| 04/24/20 |[8.8.x.x](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update171)|  
+|<strong>Station 4</strong> | |  |  | |
+| | <i>Europe</i> |[8.8.11.19](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update159)| 04/24/20 |[8.8.x.x](https://docs.microsoft.com/business-applications-release-notes/dynamics/released-versions/weekly-releases/update171)|
+|<strong>Station 5</strong> | |  |  | |
+| | <i>North America</i> |[8.8.11.19](https://docs.microsoft.com/en-us/dynamics365/field-service/version-history#881119)| 04/24/20 |[8.8.14.328](https://docs.microsoft.com/en-us/dynamics365/field-service/version-history#8814328-2020-wave-1-early-access)|
+|<strong>Station 6</strong> | |  |  | |
+| | <i>Goverment Community Cloud</i> |[8.8.11.19](https://docs.microsoft.com/en-us/dynamics365/field-service/version-history#881119)| 04/24/20 |[8.8.14.328](https://docs.microsoft.com/en-us/dynamics365/field-service/version-history#8814328-2020-wave-1-early-access)|
+| | <i>China</i> |[8.8.11.19](https://docs.microsoft.com/en-us/dynamics365/field-service/version-history#881119)| 04/24/20 |[8.8.14.328](https://docs.microsoft.com/en-us/dynamics365/field-service/version-history#8814328-2020-wave-1-early-access)|
 
 ## 8.8.11.19
 
