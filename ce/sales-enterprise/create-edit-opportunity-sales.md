@@ -61,15 +61,15 @@ If you're following the sales process from start to finish, you *qualify* a lead
    
 4. Select **Save** to enable other sections on the form.
 
-5. In the **Stakeholders** section, select the **More Commands** button ![More Commands button](media/more-button-stakeholders-grid.png "More Commands button"), and then select **+ New Connection** to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making. 
+5. In the **Stakeholders** section, select the **More Commands** button ![More Commands button](media/more-button-stakeholders-grid.png "More Commands button"), and then select **+ New Connection** to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making.
 
    In the **Lookup Records** dialog box, enter a name or select the Lookup icon to choose from a list of suggestions. When you have entered the name you want, select **Add**. To create a new contact, select **+ New**. By default, the contact you add is assigned the Stakeholder role. Select the role corresponding to the contact to select a different role such as Decision Maker or Technical Buyer. 
 
-6. If other people in your organization are working on this sale, be sure to add them as sales team members. In the **Sales Team** section, select the **More Commands** button ![More Commands button](media/more-button-stakeholders-grid.png "More Commands button"), and then select **+ New Connection** to add a member of the sales team (from your organization).
+6. If other people in your organization are working on this sale, be sure to add them as sales team members. In the **Sales Team** section, select the **More Commands** button ![More Commands button](media/more-button-stakeholders-grid.png "More Commands button"), and then select **+ New Connection** to add a member of the sales team (from your organization). 
 
 
     > [!NOTE]
-    > The "+ New" button on Connection sub-grids are supported only for the out-of-box "Stakeholders" and "Sales Team" views on the Opportunity entity. For any other Connection sub-grid or "Stakeholders" or "Sales Team" sub-grids that are based on custom views, the "+ New" button doesn't appear on the sub-grid. In such case, navigate to the Connection Associated view for the record and use the **Connect** button to create a new connection. 
+    > The "+ New" button on Connection sub-grids are supported only for the out-of-box "Stakeholders" and "Sales Team" views on the Opportunity entity. For any other Connection sub-grid or "Stakeholders" or "Sales Team" sub-grids that are based on custom views, the "+ New" button doesn't appear on the sub-grid. In such case, navigate to the Connection Associated view for the record and use the **Connect** button to create a new connection. More information: [How are stakeholders and sales team members tracked for opportunities?](stakeholders-sales-team-members.md)
 
 
 7. In the **Competitors** section, select **Add Existing Competitor** to add a competitor who's competing with your organization for this opportunity.

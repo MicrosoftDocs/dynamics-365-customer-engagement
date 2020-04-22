@@ -67,7 +67,6 @@ In the unmanaged solution, add the following row in the Product main form.
 </row>
 ```
 
-
 ### See also
 
 [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
