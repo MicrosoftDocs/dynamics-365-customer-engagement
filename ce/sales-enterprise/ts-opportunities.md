@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting the Opportunity entity (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how to troubleshoot issues with the Opportunity entity in Dynamics 365 Sales."
-ms.date: 03/24/2020
+ms.date: 04/22/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -148,6 +148,7 @@ The user trying to close the opportunity doesn't have sufficient permissions on 
 
 ## Stakeholder and Sales team subgrids
 
+<a name="cant-see-connection-records-from-stakeholders-subgrid"> </a>
 ### Issue: I can't see the connection records added from the Stakeholders subgrid
 
 **Reason:**
@@ -158,13 +159,11 @@ The out-of-the-box **Stakeholders** subgrid only shows connections that have a c
 
 1. In the opportunity record, select the **Related** tab, and then select **Connections**. 
 
-2. Check whether the connection you added is shown in the **Connections** subgrid.
+2. In the **Connections** subgrid, select the connection record you added.
 
-3. If you see the connection record, open it. <!--Is there any "next step" for the reader to take if they don't find the connection record? If not, steps 2 and 3 can be combined into a simple "In the **Connections** subgrid, select the connection you added."-->
+3. Open the connection role selected in the **As this role** field. 
 
-4. Open the connection role<!--Edit assumes "Connection role" isn't a UI string in this step. If it is, should be capped and bold. --> selected in the **As this role** field. 
-
-5. Make sure that **Connection Role Category** is set to **Stakeholder**. If it isn't, select **Stakeholder** in the **Connection Role Category** drop-down list. 
+4. Make sure that **Connection Role Category** is set to **Stakeholder**. If it isn't, select **Stakeholder** in the **Connection Role Category** drop-down list. 
 
 ### See also
 
