@@ -7,7 +7,7 @@ ms.service:
 ms.topic: get-started-article
 author: shubhadaj
 ms.author: shujoshi
-manager: sakudes
+manager: annbe
 ---
 
 # Help resources for sales people (Sales Enterprise)
@@ -88,7 +88,7 @@ manager: sakudes
 <tr><td>
 <h2>Reports, calendar, and printing</h2>
 
-<li><a href="powerapps/user/work-with-reports" data-raw-source="[Work with reports](powerapps/user/work-with-reports)">Work with reports</a></li>
+<li><a href="/powerapps/user/work-with-reports" data-raw-source="[Work with reports](/powerapps/user/work-with-reports)">Work with reports</a></li>
 <li><a href="../basics/workplace-calendar.md" data-raw-source="[Use the workplace calendar](../basics/workplace-calendar.md)">Use the workplace calendar</a></li>
 <li><a href="print-records.md" data-raw-source="[Print quote, invoice, or other records](print-records.md)">Print quote, invoice, or other records</a></li>
 
