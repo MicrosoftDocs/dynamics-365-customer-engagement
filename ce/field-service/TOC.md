@@ -6,6 +6,7 @@
 # Installation + upgrade
 ## [Field Service installation (web + mobile)](install-field-service.md)
 ## [Upgrade Field Service](upgrade-field-service.md)
+## [Preview new features](field-service-preview.md)
 
 # Administration
 ## [Work order process architecture](field-service-architecture.md)
