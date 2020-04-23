@@ -2,7 +2,7 @@
 title: "Set up and test IoT alerts from a real device (MXChip) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 03/04/2020
+ms.date: 4/23/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -16,7 +16,7 @@ applies_to:
 author: D365JB
 ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
 caps.latest.revision: 42
-ms.author: FieldServiceDave
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin
@@ -28,382 +28,402 @@ search.app:
 
 # Set up and test IoT alerts from a real device (MXChip) 
 
-Using a physical IoT device that generates real telemetry readings is a great way to test and develop your Connected Field Service solution. It helps IT architects understand how sensor readings are stored in AzureIoT and generate Work Orders in Dynamics 365 Field Service. Furthermore it helps service managers understand the business processes, workflows, and personnel needed to resolve the cases and work orders surfaced by IoT devices. 
+Using a physical IoT device that generates real device readings is a great way to test and develop your Connected Field Service solution. It helps IT architects understand how sensor readings are stored in AzureIoT and generate work orders in Dynamics 365 Field Service. It also helps service managers understand the business processes, workflows, and personnel needed to resolve the cases and work orders surfaced by IoT devices. 
 
-One such physical device is a Microsoft-approved IoT development kit called an [MXChip device](https://en.mxchip.com/az3166) that is equipped with multiple sensors for temperature, humidity, motion and more. By connecting the MXChip to the internet and then sending the real device readings to AzureIoT and Field Service, we can develop a Connected Field Service solution with no code. After successful testing and development your organization can plan to substitute the MXChip with an industrial sensor or connected machine.
+One such physical device is a Microsoft-approved IoT development kit called an [MXChip device](https://en.mxchip.com/az3166). The MXChip is equipped with multiple sensors for temperature, humidity, motion, and more. By connecting the MXChip to the internet and then sending the real device readings to AzureIoT and Field Service, we can develop a Connected Field Service solution with no code. After successful development and testing, your organization can plan to substitute the MXChip with an industrial sensor or connected machine.
 
-In order to connect the MXChip device to Connected Field Service we will walk through the following steps in this article:
+In order to connect the MXChip device to Connected Field Service, we'll walk through the following steps in this article:
 
 1. Perform initial MXChip device setup
-2. Create Device Alert Rules in IoTCentral
-3. Set up Power Automate flows to create IoT Alerts
-4. Add MXChip as connected device in IoTCentral
-5. Plugin and connect MXChip
-6. See Telemetry Data in IoT Central
-7. See IoT Alerts in Dynamics 365 Field Service
-8. Create Customer Asset and Connect Device
+2. Create device alert rules in IoT Central
+3. Set up Power Automate flows to create IoT alerts
+4. Add MXChip as a connected device in IoT Central
+5. Plug-in and connect MXChip
+6. See device readings in IoT Central
+7. See IoT alerts in Dynamics 365 Field Service
+8. Create the customer asset and connect the device
 
 
 ## Prerequisites
 
-Before completing this tutorial you need the following:
+Before completing this tutorial, you need the following:
 
-1. An MXChip. You can buy one at [https://microsoft.github.io/azure-iot-developer-kit/](https://microsoft.github.io/azure-iot-developer-kit/) then choose **Get a Kit**.
-2. A Dynamics 365 Field Service environment v8.2+. "Connected Field Service" capabilities are included with Field Service. See the topics on [installing](./install-field-service.md) or [installing](./upgrade-field-service.md) Field Service for more details.
-3. An Azure account. Use your existing account or create a new free account at [https://azure.microsoft.com/en-us/free/](https://azure.microsoft.com/en-us/free/). Your Azure account can be different from your Dynamics 365 Field Service account.
-4. Using your Azure account and credentials, create an [Azure IoTCentral custom application](https://apps.azureiotcentral.com/build/new/custom). Hint: For **Application template** select **Custom application (legacy)**.
+1. An MXChip. You can buy one at [https://microsoft.github.io/azure-iot-developer-kit/](https://microsoft.github.io/azure-iot-developer-kit/), then choose **Get a Kit**.
+2. A Dynamics 365 Field Service environment v8.2+. Connected Field Service capabilities are included with Field Service. See the articles on [installing](./install-field-service.md) or [upgrading](./upgrade-field-service.md) Field Service for more details.
+3. An Azure account. Use your existing account or [create a new free account](https://azure.microsoft.com/free/). Your Azure account can be different from your Dynamics 365 Field Service account.
+4. Using your Azure account and credentials, create an [Azure IoT Central custom application](https://apps.azureiotcentral.com/build/new/custom). For **Application template**, select **Custom application (legacy)**.
 
-In this article we will use the terms "devices" and "sensors" to refer to internet-connected things that generate telemetry such as the MXChip.
+In this article, we'll use the terms "devices" and "sensors" to refer to internet-connected things that generate IoT data, such as the MXChip.
 
 > [!Note]
-> Referencing the following video that walks through setting up a simulated device may be helpful: ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Set up Connected Field Service with Azure IoTCentral](https://youtu.be/Sp7_JoXjHDk)
+> For more information, check out this video on [setting up Connected Field Service with Azure IoT Central(https://youtu.be/Sp7_JoXjHDk).
 
 
 
 ## Perform initial MXChip device setup
 
-First we need to perform an initial set up of the MXChip device.
+First, we need to perform an initial setup of the MXChip device.
 
-### Connect Physical Device to PC
+### Connect physical device to PC
 
-Connect the DevKit device to your development machine using provided USB cable
+Connect the DevKit device to your development machine using the provided USB cable.
 
-In Windows, a file explorer window opens on a drive mapped to the storage on the DevKit device. For example, the drive might be called AZ3166 (D:)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-mxchip-1.png)
-
-### Flash Firmware on Device
-Download Latest Firmware (Bundled with HOL Downloads)
-	http://aka.ms/CFSFirmware 
-	 The download filename on the releases page looks like AZ3166-IoT-Central-X.X.X.bin
-
-Drag the AZ3166-IoT-Central-X.X.X.bin file onto the drive window. When the copying is complete, the device reboots with the new firmware.
-	After rebooting the Firmware file will disappear
+In Windows, a file explorer window opens to a drive mapped to the storage on the DevKit device. For example, the drive might be called AZ3166 (D:).
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-mxchip-2.png)
+> ![Screenshot of a file explorer window, open to the AZ3166 D: drive.](./media/cfs-mxchip-1.png)
+
+### Flash firmware on device
+
+[Download the latest firmware](http://aka.ms/CFSFirmware ) (Bundled with HOL Downloads)
 	
+>[!Note]
+> The download filename on the releases page looks like *AZ3166-IoT-Central-X.X.X.bin*.
 
-### Copy Firmware to Device
+Drag the AZ3166-IoT-Central-X.X.X.bin file into the file explorer drive window. When the copying is complete, the device reboots with the new firmware.
 
-Drag and Drop .bin to your AZ3166 (D:)
+After rebooting, the firmware file will disappear.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the firmware file in the file explorer.](./media/cfs-mxchip-2.png)
+	
+/******** REMOVE THIS SECTION???
+### Copy firmware to device
+
+Drag and drop the .bin to your AZ3166 (D:)
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-mxchip-3.png)
 
-## Create Device Alert Rules in IoTCentral
+/******** REMOVE THIS SECTION???
 
-Next we need to set up rules in Azure IoTCentral that will identify when a device reading needs attention like when a button is pushed on the MXChip or when the temperature exceeds a defined threshold.
+## Create device alert rules in IoT Central
 
-In the next steps, we will create 2 device rules that will allow the passing of telemetry data from the MXChip  > IoT Central > CFS 
+Now we need to set up rules in Azure IoT Central that will identify when a device reading needs attention - like when a button is pushed on the MXChip or when the temperature exceeds a defined threshold.
 
-The first will be a B Button press that fires an alert into IoT Central > CFS
-The Second will be a Temp Alert that fires when a threshold is met IoT Central > CFS
+In the following steps, we'll create two device rules that will allow the passing of device data from the MXChip  to IoT Central and then to Connected Field Service. 
 
-The Value:
+The first device rule will be a button B press that fires an alert into IoT Central and onto Connected Field Service. 
+
+The second device rule will be a temperature alert that fires when a threshold is met, from IoT Central to Connected Field Service.
+
+By setting up these rules, we allow for: 
 - Anomaly detection from connected devices
-- Uptime/Downtime Predictability  
-- Dashboarding and Reporting on device specific information
-- Integration to Work order creation, scheduling, and dispatching with Conencted Field Service
+- Uptime and downtime predictability  
+- Dashboarding and reporting on device-specific information
+- Integration with work order creation, scheduling, and dispatching with Connected Field Service
 
+Go to IoT Central (for example, YOURORG.azureiotcentral.com ) and sign in.
 
-Navigate to IoT Central and login.
+Once signed in, select **Create Device Templates**.
 
-Example: https://YOURORG.azureiotcentral.com 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of IoT Central dashboard, showing the Create Device Templates option.](./media/cfs-mxchip-4.png)
 
-Once logged in Select Create Device Templates
+Select **MXChip**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the new template page, showing the MXChip option.](./media/cfs-mxchip-5.png)
+
+Select **Create**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the MXChip page, showing the create option.](./media/cfs-mxchip-6.png)
+
+Select **Device Templates** and then select **MXChip**.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-mxchip-4.png)
+> ![Screenshot of the list of device templates, showing the MXChip in the list.](./media/cfs-mxchip-7.png)
 
-Select MXChip
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-mxchip-5.png)
-
-Select Create
+Select **Rules** tab.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-mxchip-6.png)
-
-Select Device Templates and then select MXChip
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-mxchip-7.png)
-
-Select Rules
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-mxchip-8.png)
+> ![Screenshot of the MXChip device template page, showing the rules tab.](./media/cfs-mxchip-8.png)
 
 ### Button B press rule
 
-Select +New Rule
+Select **+New Rule**.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-mxchip-9.png)
+> ![Screenshot of the MXChip page, showing the new rule option.](./media/cfs-mxchip-9.png)
 
-Select Event
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-mxchip-10.png)
-
-Name: Button B Press
-Measurement: Button B Press 
-Aggregation: None
-Then Save
+Select **Event** when presented the option.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-mxchip-11.png)
+> ![Screenshot of the new rule options on the MXChip device template.](./media/cfs-mxchip-10.png)
+
+Enter the following information: 
+
+- Name: Button B Press
+- Measurement: Button B Press 
+- Aggregation: None
+
+Then **Save**.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the new rule on the MXChip device template page, with all the fields filled out.](./media/cfs-mxchip-11.png)
 
 
 ### High temperature alert rule
 
-Select +New Rule
+Select **+New Rule** again.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the MXChip page, showing the new rule option.](./media/cfs-mxchip-12.png)
+
+Select **Telemetry**.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-mxchip-12.png)
+> ![Screenshot of the new rule on the MXChip device template, showing ](./media/cfs-mxchip-13.png)
 
-Select Telemetry  
+Enter the following information: 
 
+- Name: Temperature Alert
+- Measurement: Temperature
+- Aggregation: None
+- Operator: Is Greater Than
+- Threshold: 15
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-mxchip-13.png)
-
-Name: Temperature Alert
-Measurement: Temperature
-Aggregation: None
-Operator: Is Greater Than
-Threshold: 15
-Then Save
+Then **Save**.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-mxchip-14.png)
+> ![Screenshot of the new rule on the MXChip device template page, with all the fields filled out.](./media/cfs-mxchip-14.png)
 
 ## Set up Power Automate flows to create IoT Alerts
 
-Next we need to set up workflows to create IoT Alerts in Dynamics 365 Field Service based on telemetry and rules in Azure IoTCentral.
+Next we need to set up workflows to create IoT alerts in Field Service based on the device readings and rules in Azure IoT Central.
 
-Navigate to CFS IoT Alerts under My Work and select Create IoT Flows 
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-mxchip-15.png)
-
-Select Create CFS alerts from IoT Central 
-Make sure you select the CDS Version 
+Go to Connected Field Service and then to **IoT Alerts** (under **My Work**) and select **Create IoT Flows**. 
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-mxchip-16.png)
+> ![Screenshot of Connected Field Service, showing the IoT Alerts list and highlighting the Create IoT Flows option.](./media/cfs-mxchip-15.png)
 
-**You might need to login to Power Automate with credentials if haven’t already**
-In flow, you will want to make sure you are connected to your CFS org and your IoT Central 
-Select continue 
+Select **Create CFS alerts from IoT Central**. Make sure you select the CDS version. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the Create CFS Flow Templates screen, showing the Create CFS alerst from IoT Central option.](./media/cfs-mxchip-16.png)
+
+>[!Note]
+> You may need to sign into Power Automate with credentials if you haven’t already
+
+In Power Automate, make sure you're connected to your Connected Field Service org and your IoT Central.
+
+Select **Continue**. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Power Automate, showing the connected accounts.](./media/cfs-mxchip-17.png)
+
+Enter the following information: 
+
+- Application: Select IoT central application name 
+- Rule: Select Button B Press
+- Organization Name: Select Dynamics CFS Org 
+- Entity Name: Select IoT Alerts
+
+Select **Save**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the Power Automate flow, with all the fields filled out.](./media/cfs-mxchip-18.png)
+
+Add **Temp Alert** to **Power Automate Name**.
+
+Enter the following information: 
+
+- Application: Select IoT central application name 
+- Rule: Select Temperature Alert
+- Organization Name: Select Dynamics CFS Org 
+- Entity Name: Select IoT Alerts
+
+Select **Save**.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-mxchip-17.png)
+> ![Screenshot of the Power Automate flow, with all the fields filled out.](./media/cfs-mxchip-19.png)
 
-Application: Select IoT central application name 
-Rule: Select Button B Press
-Organization Name: Select Dynamics CFS Org 
-Entity Name: Select IoT Alerts
-Select Save
-
+Go to **My Flows** and see newly created alert flows.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-mxchip-18.png)
+> ![Screenshot of Power Automate on the My Flows tab, showing the two newly created alert flows.](./media/cfs-mxchip-20.png)
 
-Add Temp Alert to Power Automate Name
-Application: Select IoT central application name 
-Rule: Select Temperature Alert
-Organization Name: Select Dynamics CFS Org 
-Entity Name: Select IoT Alerts
-Select Save
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-mxchip-19.png)
-
-Navigate to My Flows and see newly created Alert Flows
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-mxchip-20.png)
-
-## Add MXChip as connected device in IoTCentral 
+## Add MXChip as connected device in IoT Central 
 
 Next we need to set up the MXChip as an IoT device. This can be one of many IoT devices that you will monitor.
 
-Navigate to IoT Central Solution and loginhttps://YOURORG.azureiotcentral.com 
+Go to IoT Central and sign in if you haven't already. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Azure IoT Central.](./media/cfs-mxchip-21.png)
+
+Select **Device Templates** and **MXChip(1.0.0) Template**.
+
+Under the plus sign icon dropdown menu, elect **Real** and then **New Device**. 
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-mxchip-21.png)
+> ![Screenshot of IoT Central on the device templates section, showing the MXChip and the "Real" option under the dropdown.](./media/cfs-mxchip-22.png)
 
-Select Device and MXChip(1.0.0) TemplateSelect Real to Create and New Device 
+Create a unique **Device ID** and a **Device Name**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the create new device window with the Device ID and Device Name fields filled out. ](./media/cfs-mxchip-23.png)
+
+Select **Create**, and then select **Connect**.
+
+Copy and paste to Notepad the **Scope**, **Device ID**, and **Primary Key** for MXChip Setup in the next step
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-mxchip-22.png)
-
-Create Device ID and Device Name
-Create something unique but not too crazy  
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-mxchip-23.png)
-
-Select Connect 
-You will need to copy and paste to Notepad the Scope and Device ID and Primary Key below for MXChip Setup In the next step
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-mxchip-24.png)
+> ![Screenshot of the device connection window, showing the Scope ID, Device ID, and the Primary Key.](./media/cfs-mxchip-24.png)
 
 
 ## Plugin and connect MXChip
 
-Next connect the MXChip to your computer and network.
+Now it's time to connect the MXChip to your computer and network.
 
-Connect AZ3166 to Power and press Reset button
-Wait until the searching for Wi-Fi screen goes away – Normally 45-60 seconds
-Hold down A+B Button AZ3166 will hard reset (Usually takes 15-20 seconds)
-Press Reset when directed to by the LCD Screen
-When device Reboots, it should be in AP Mode with the SSID Starting with AZ3166
-Repeat Steps As Necessary –Should look like this
+Connect AZ3166 to Power and press the **Reset** button.
 
+Wait until the searching for Wi-Fi screen goes away; this usually takes about 45-60 seconds.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-mxchip-25.png)
+Hold down the A and B buttons; AZ3166 will hard reset; this usually takes about 15-20 seconds.
 
+Press **Reset** when directed to by the LCD screen.
 
-After device reboots, you need to configure the Wi-Fi on the Device and should look like the below image 
-You should see a device name starting with AZ3166_ in your Wi-Fi trayconnect to that. Once connected, go to below IP address. 
-**THIS STEP WILL KICK YOU OFF INTERNET AND HOOK TO MXCHIP**
+When the device reboots, it should be in AP Mode with the SSID Starting with AZ3166.
 
-Go to this http://192.168.0.1/start 
+Repeat steps as cecessary; in the end, it should look like the following image: 
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-mxchip-26.png)
+> ![Image of an MXChip screen.](./media/cfs-mxchip-25.png)
 
+
+After the device reboots, you need to configure the Wi-Fi on the device. You should see a device name starting with AZ3166_ in your Wi-Fi tray; connect to that. 
+
+>[!Important]
+> This step will kick you off the internet and hook up to the MXChip.
+
+Once connected, go to this address: http://192.168.0.1/start.
+
+
+> [!div class="mx-imgBorder"]
+> ![Image showing the MXChip beside a screenshot of the device listed as a wifi option on a mobile device.](./media/cfs-mxchip-26.png)
+
+//////// WAHT??? /////////
 You will need to ask for the Wi-Fi and password to the network you are hooking your device to from proctor. 
-Get device pin from your device
-Add in Device, Scope, and Primary Key you copied from IoT Central.
-Select Configure Device 
+
+//////// WAHT??? /////////
+
+Get the device pin from your device's display.
+
+Add in the Device ID, Scope ID, and Primary Key you copied from IoT Central.
+
+Select **Configure Device**.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-mxchip-27.png)
+> ![Screenshot of the configure device form showing all the necessary fields, beside an actual image of the MXChip and its display.](./media/cfs-mxchip-27.png)
 
 
-After the Confirmation Page is shown on your PC, press the Reset Button on the Device
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-mxchip-28.png)
-
-
-## See Telemetry Data in IoT Central
-
-Next we want to identify where in IoTCentral the MXChip's telemetry will display.
-
-Navigate to IoT Central 
-Select Devices
-Select your device
+After you see a confirmation on your PC, press the **Reset Button** on the device.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-mxchip-29.png)
-
-You can control what telemetry you see on the chart by selecting the eyes
+> ![Image of the MXChip, showing the resent button on the device. Screenshot beside it of the "device configured" message.](./media/cfs-mxchip-28.png)
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-mxchip-30.png)
+## See device data in IoT Central
 
-## See IoT Alerts in Dynamics 365 Field Service 
+Next we want to identify where in IoT Central the MXChip's device readings will display.
 
-Next create real IoT telemetry with the MXChip. To trigger the rules we identified earlier, you can 1) press the B button on the front of the device and 2) increase the temperature of the surrounding area.
+Go to IoT Central.
 
-Press the B Button on the MXChip
-Navigate to CFS
-Select IoT Alerts 
-You should see the two alerts flowing in
-Select a Temperature Alert
+Select **Devices**.
+
+Select the MXChip.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-mxchip-31.png)
+> ![Screenshot of the MXChip selected in the devices menu.](./media/cfs-mxchip-29.png)
 
-
-Look at Alert Data
-Gives all information about the anomaly detected
-You can switch to a JSON view if needed
-This Temperature alert starts the Work Order Scheduling Process at the top
+You can control what data you see on the chart by selecting the eyes in the list titled **Telemetry**.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-mxchip-32.png)
+> ![Screenshot of the Telemetry list in IoT Central.](./media/cfs-mxchip-30.png)
 
-## Create Customer Asset and Connect Device
+## See IoT alerts in Field Service 
 
-Relate your MXChip device to a customer asset to relate work orders and enable asset management.
+Next, create real IoT device data with the MXChip. To trigger the rules we identified earlier, you can:
 
-Navigate to Customer Assets
-Select New
+1. Press the **B button** on the front of the device, or 
+2. Increase the temperature of the surrounding area.
+
+To see these alerts, go to Connected Field Service. 
+
+Select **IoT Alerts**.
+
+You should see the two alerts in the list of Active IoT Alerts.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Connected Field Service showing the two alerts in the list of active IoT alerts.](./media/cfs-mxchip-31.png)
+
+When you select a single alert (in this case, a temperature alert), you'll see all the information about the detected anomaly. You can switch to a JSON view if needed. This particular temperature alert starts the work order scheduling process, as highlighted in the following screenshot. 
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-mxchip-33.png)
+> ![Screenshot of Connected Field Service, showing a temperature IoT alert, with emphasis on the work order workflow at the top.](./media/cfs-mxchip-32.png)
 
-Name Asset: Master MXChip
-Select Save
-Select Connect Device
+## Create customer asset and connect device
 
+Next, we'll relate the MXChip device to a customer asset in order to relate work orders and enable asset management.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-mxchip-34.png)
-
-Look up Device and press ok
+Go to **Customer Assets** and select **+New**.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-mxchip-35.png)
+> ![Screenshot of the customer assets section showing the new option.](./media/cfs-mxchip-33.png)
 
+Give this asset the name "Master MXChip," and then **Save**.
 
-You should see the device added 
+Then, select **Connect Device**.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-mxchip-36.png)
+> ![Screenshot of the Master MXChip customer asset, showing the connect device option at the top.](./media/cfs-mxchip-34.png)
+
+Find the device when prompted, and select **OK**.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the Connect Device window, showing the MXChip device selected and highlighting OK.](./media/cfs-mxchip-35.png)
+
+
+You should now see the device on the customer asset, under **Connected Devices**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the customer asset, showing the MXChip under "Connected Devices".](./media/cfs-mxchip-36.png)
 
 
 ## See also
 
-![Video symbol](../field-service/media/video-icon.png "Video symbol") [Set up Connected Field Service with Azure IoTCentral](https://youtu.be/Sp7_JoXjHDk)
+- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Set up Connected Field Service with Azure IoT Central](https://youtu.be/Sp7_JoXjHDk)
 
-[MXChip developer site](https://aka.ms/iot-devkit)
+- [MXChip developer site](https://aka.ms/iot-devkit)
 
-[Connect an MXChip IoT DevKit device to IoTC](https://docs.microsoft.com/en-us/azure/iot-central/howto-connect-devkit)
+- [Connect an MXChip IoT DevKit device to IoT Central](https://docs.microsoft.com/azure/iot-central/howto-connect-devkit)
 
-[MXChip 2.1 Firmware on GitHub](https://github.com/Azure/iot-central-firmware/releases/tag/mxchip-v2.1.0)
+- [MXChip 2.1 Firmware on GitHub](https://github.com/Azure/iot-central-firmware/releases/tag/mxchip-v2.1.0)
 
-[Overview of COnnecgted Field Service with IoTCentral](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/cfs-iot-overview)
+- [Overview of Connected Field Service with IoT Central](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/cfs-iot-overview)
 
