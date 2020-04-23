@@ -4,7 +4,7 @@ description: Learn more about contract to entitlement migration for Dynamics 365
 author: lerobbin
 ms.author: lerobbin
 manager: shujoshi
-ms.date: 04/22/2020
+ms.date: 04/23/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -31,13 +31,15 @@ The following migration support information has been provided to assist customer
 ## Migration planning
 Depending on how your contract is set up, choose from the following options to prepare your migration:
 
-1. Mapping: Contract template to entitlement template
-2. Mapping: Contract to entitlements:<BR>
-  a. Single Product Contract<BR>
-  b. Contract and Entitlement Cancellation<BR>
-  c. Billing unit on contract<BR>
-  d. Commands on Contract<BR>
-  e. State mapping
+1. [Mapping: Contract template to entitlement template](#1)
+2. [Mapping: Contract to entitlements](#2):<BR>
+  a. [Single Product Contract](#2a)<BR>
+  b. [Contract and Entitlement Cancellation](#2b)<BR>
+  c. [Billing unit on contract](#2c)<BR>
+  d. [Commands on Contract](#2d)<BR>
+  e. [State mapping](#2e)
+
+<a name="1"></a>
 
 ### Mapping: Contract template to entitlement template
 If you are currently using the Contract templates, use the following steps to map to the Entitlement template.
@@ -63,11 +65,13 @@ media\contract-and-entitlement-allocation-type-2.png)
 Fields which are required for business use case, but not available out of box on entitlement or for other required fields not available on entitlements.
 
 To switch from the Contract template and map to the Entitlement template:<BR>
-**STEP 1:** Custom fields with attributes can be created on Entitlement template<BR>
-**STEP 2:** Place the created fields on the form as per business needs
+**STEP 1:** Create custom fields with attributes can be created on Entitlement template.  For more information, see [Create and edit fields (attributes)](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fdynamics365%2Fcustomerengagement%2Fon-premises%2Fcustomize%2Fcreate-edit-fields&data=02%7C01%7CLeslie.Robbins%40microsoft.com%7C3ced38d114ed4219470508d7e74954d0%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637232174499616769&sdata=8zKG2iuS%2F5%2B2hiqD7OLwQjlxrTxtaiyB6YYzThNK6zQ%3D&reserved=0).<BR>
+**STEP 2:** Place the created fields on the form as per business needs. For more information, see [Add a field to a from](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/customize/add-field-form).
 
 >[!Note] 
 >The Calendar item has been deprecated on the Contract template and will not be available on the Entitlement template.
+
+<a name="2"></a>
 
 ## Mapping: Contract to entitlements
 If you are currently using Contract you can map to Entitlements via the steps provided below.
@@ -75,6 +79,8 @@ If you are currently using Contract you can map to Entitlements via the steps pr
 1.	Create a separate entitlement for each contract line.
 2.	Create custom attributes on entitlement for missing contract lines attributes.
 3.	Once entitlement is created from entitlement template, add Custom code to copy the custom fields added on entitlement for parity with contract lines.
+
+<a name="2a"></a>
 
 ### 2a. Single Product Contract<BR>
   If you have a contract tied to a single product, use the following steps:
@@ -85,6 +91,8 @@ If you are currently using Contract you can map to Entitlements via the steps pr
 
 > [!Note]
 > The concept of the Contract group contract lines Contract has been deprecated and are not available on Entitlement. Entitlement does not provide concept grouping.
+
+<a name="2b"></a>
 
 ### 2b. Contract and Entitlement Cancellation<BR>
 Canceling a Contract or Entitlement can be canceled using the following steps:
@@ -101,9 +109,13 @@ Entitlement can be canceled immediately, but can not be canceled in future.
 
 ![Cancel Entitlement](media\cancel-entitlement.png)
 
+<a name="2c"></a>
+
 ### 2c. Billing unit on contract<BR>
 Billing unit is not available in entitlement. To achieve this in entitlement use custom logic.
 For simple rollups one can use rollup fields. [More details on rollup fields](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/customize/define-rollup-fields).
+
+<a name="2d"></a>
 
 ### 2d. Commands on Contract <BR>
 Below list of commands deprecated on entitlement:
@@ -115,6 +127,8 @@ Below list of commands deprecated on entitlement:
 List of commands available on entitlements:
 - **Renew** to renew the expired entitlement 
 - **Cancel** to cancel the active entitlement
+
+<a name="2e"></a>
 
 ### 2e. State mapping <BR>
 - Invoiced state in contract can be mapped to waiting state in entitlement
@@ -143,8 +157,8 @@ For business requirement, if resolved case needs to be updated, use the followin
 Fields which are required for business use case, but not available out of box on entitlement or for other required fields not available on entitlements.
 
 To switch from the Contract template and map to the Entitlement template:<BR>
-**STEP 1:** Custom fields with attributes can be created on Entitlement template<BR>
-**STEP 2:** Place the created fields on the form as per business needs
+**STEP 1:** Create custom fields with attributes can be created on Entitlement template.  For more information, see [Create and edit fields (attributes)](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fdynamics365%2Fcustomerengagement%2Fon-premises%2Fcustomize%2Fcreate-edit-fields&data=02%7C01%7CLeslie.Robbins%40microsoft.com%7C3ced38d114ed4219470508d7e74954d0%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637232174499616769&sdata=8zKG2iuS%2F5%2B2hiqD7OLwQjlxrTxtaiyB6YYzThNK6zQ%3D&reserved=0).<BR>
+**STEP 2:** Place the created fields on the form as per business needs. For more information, see [Add a field to a from](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/customize/add-field-form).
 
 >[!Important] 
 > 
