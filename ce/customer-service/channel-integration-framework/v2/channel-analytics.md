@@ -169,6 +169,7 @@ The softphone integration [sample code](https://github.com/microsoft/Dynamics365
 
 ## See also
 
+[Softphone integration sample code for Channel Integration Framework version 2.0](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/channel-integration-framework/TwilioSampleInteg_version2)<br />
 [What's new in Dynamics 365 Channel Integration Framework](../whats-new-channel-integration-framework.md)<br />
 [Frequently asked questions](../faq-channel-integration-framework.md)<br />
 [updateConversation API](reference/microsoft-ciframework/updateConversation.md)<br />
