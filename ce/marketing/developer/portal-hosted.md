@@ -85,7 +85,7 @@ To deploy the customized Angular application, run the **PowerShell** script `Dep
 
 After all the files are built, it asks you to sign in to your Dynamics 365 Marketing instance that you want to use to host your application. After you sign in, it pushes the files to the instance. If you don't see your changes, clear the browser cache and restart your **Portals**.
 
-If you want to deploy just some specific files ranther than all files at once, you can specify the list of files as a parameter for the script: `.\DeployToDynamics365Instance.ps1 -inputFiles main.es`. You can find a list with all supported files in the script.
+If you want to deploy just some specific files ranther than all files at once, you can specify the list of files as a parameter for the script: `.\DeployToDynamics365Instance.ps1 -inputFiles main.es`. You can find a list with all supported files in the scripts content.
 
 > [!NOTE]
 > If you can't run the Powershell script because of your execution policy, then you need to [disable or bypass the execution policy](https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6).
