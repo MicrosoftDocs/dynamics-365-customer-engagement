@@ -240,3 +240,11 @@ Storing and retrieving each inspection response in Common Data Model is not part
 - The ability to add version numbering to inspections is not part of the April 2020 public preview and is **planned**.
 
 - Inpsections cannot be exported and imported to other environments
+
+### Known issues
+
+- Marking a Work Order Service Task as complete from the grid view does not work unless the Work Order Service Task is opened at least once.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of marking work order service task as complete from work order service task grid view.](./media/inspections-work-order-service-task-mark-complete-grid.png)
