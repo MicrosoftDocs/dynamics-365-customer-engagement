@@ -46,7 +46,7 @@ In order to connect the MXChip device to Connected Field Service, we'll walk thr
 
 ## Prerequisites
 
-Before completing this tutorial, you need the following:
+Before completing this tutorial, make sure you have:
 
 1. An MXChip. You can buy one at [https://microsoft.github.io/azure-iot-developer-kit/](https://microsoft.github.io/azure-iot-developer-kit/), then choose **Get a Kit**.
 2. A Dynamics 365 Field Service environment v8.2+. Connected Field Service capabilities are included with Field Service. See the articles on [installing](./install-field-service.md) or [upgrading](./upgrade-field-service.md) Field Service for more details.
@@ -116,7 +116,7 @@ By setting up these rules, we allow for:
 - Dashboarding and reporting on device-specific information
 - Integration with work order creation, scheduling, and dispatching with Connected Field Service
 
-Go to IoT Central (for example, YOURORG.azureiotcentral.com ) and sign in.
+Go to IoT Central (for example, YOURORG.azureiotcentral.com) and sign in.
 
 Once signed in, select **Create Device Templates**.
 
@@ -212,7 +212,7 @@ Go to Connected Field Service and then to **IoT Alerts** (under **My Work**) and
 Select **Create CFS alerts from IoT Central**. Make sure you select the CDS version. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Create CFS Flow Templates screen, showing the Create CFS alerst from IoT Central option.](./media/cfs-mxchip-16.png)
+> ![Screenshot of the Create CFS Flow Templates screen, showing the Create CFS alerts from IoT Central option.](./media/cfs-mxchip-16.png)
 
 >[!Note]
 > You may need to sign into Power Automate with credentials if you haven’t already
@@ -276,7 +276,7 @@ Under the plus sign icon dropdown menu, elect **Real** and then **New Device**.
 Create a unique **Device ID** and a **Device Name**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the create new device window with the Device ID and Device Name fields filled out. ](./media/cfs-mxchip-23.png)
+> ![Screenshot of the Create New Device window with the Device ID and Device Name fields filled out. ](./media/cfs-mxchip-23.png)
 
 Select **Create**, and then select **Connect**.
 
@@ -301,7 +301,7 @@ Press **Reset** when directed to by the LCD screen.
 
 When the device reboots, it should be in AP Mode with the SSID Starting with AZ3166.
 
-Repeat steps as cecessary; in the end, it should look like the following image: 
+Repeat steps as necessary; in the end, it should look like the following image: 
 
 
 > [!div class="mx-imgBorder"]
