@@ -165,7 +165,7 @@ Primary entity for a KPI event.
 
 More information: [msdyn_kpieventdata](reference/entities-attributes/msdyn_kpieventdata.md).
 
-The softphone integration [sample code](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/channel-integration-framework/TwilioSampleInteg_version2) implements functionalities wherein the live work item is updated when a call is accepted and updating live work item with incident details as soon as a case is created. It uses Channel Analytics API [logAnalyticsEvent](reference/microsoft-ciframework/logAnalyticsEvent.md) to log the events when the call is put on Hold or Unhold. This enables you to get Average Call Hold time.
+The softphone integration [sample code](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/channel-integration-framework/TwilioSampleInteg_version2) implements functionalities wherein the live work item is updated when a call is accepted and updating live work item with incident details as soon as a case is created. It uses Channel Analytics API [logAnalyticsEvent](reference/microsoft-ciframework/logAnalyticsEvent.md) to log the events when the call is put on Hold or Unhold.
 
 ## See also
 
