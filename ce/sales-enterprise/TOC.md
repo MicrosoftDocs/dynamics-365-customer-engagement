@@ -107,7 +107,7 @@
 #### [Reopen leads](../sales-enterprise/re-open-lead-sales.md)
 #### [Add products to an opportunity](add-products-opportunity.md)  
 #### [Add products to an opportunity by using the enhanced experience](add-products-enhanced-experience.md)
-#### [How are stakeholders and sales team members tracked for opportunities?](stakeholders-sales-team-members.md)s]
+#### [How are stakeholders and sales team members tracked for opportunities?](stakeholders-sales-team-members.md)
 #### [Recalculate an opportunity](recalculate-opportunity.md)
 #### [Close opportunities as won or lost](../sales-enterprise/close-opportunity-won-lost-sales.md)
 #### [Collaborate using SharePoint](collaborate-using-sharepoint-sales.md)
