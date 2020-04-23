@@ -4,7 +4,7 @@ description: "Read about the APIs that enable you to log analytics in Dynamics 3
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 02/03/2020
+ms.date: 04/23/2020
 ms.topic: reference
 ms.service:
   - dynamics-365-customerservice
@@ -165,7 +165,7 @@ Primary entity for a KPI event.
 
 More information: [msdyn_kpieventdata](reference/entities-attributes/msdyn_kpieventdata.md).
 
-The softphone integration [sample code]() implements functionalities wherein the live work item is updated when a call is accepted and updating live work item with incident details as soon as a case is created.
+The softphone integration [sample code](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/channel-integration-framework/TwilioSampleInteg_version2) implements functionalities wherein the live work item is updated when a call is accepted and updating live work item with incident details as soon as a case is created. It uses Channel Analytics API [logAnalyticsEvent](reference/microsoft-ciframework/logAnalyticsEvent.md) to log the events when the call is put on Hold or Unhold. This enables you to get Average Call Hold time.
 
 ## See also
 
