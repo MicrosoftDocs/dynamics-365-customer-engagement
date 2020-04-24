@@ -48,7 +48,7 @@ With Customer Service, you can create two types of SLAs: standard and enhanced. 
 
 ## Entities (record types) that support SLAs
 
- In previous releases, you could create SLAs only for case records. With Customer Service, you can now create enhanced SLAs for entities that are enabled for SLA. A system administrator or customizer can enable SLAs for the following entities:  
+With Customer Service, you can create enhanced SLAs for entities that are enabled for SLA. A system administrator or customizer can enable SLAs for the following entities:  
 
 - Account  
 
