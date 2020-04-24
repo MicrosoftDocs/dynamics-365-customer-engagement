@@ -26,21 +26,17 @@ If your organization is set up with Intune, you can use it to manage the Dynamic
 
 With CRM Online 2016 Update 1 and later, you can use Intune mobile application management (MAM) without enrolling the device. This protects company data in Dynamics 365 apps without requiring you to enroll and deeply manage the end user's entire device. This is particularly useful for bring-your-own-device (BYOD) scenarios where end users don’t want to or can’t enroll their devices for IT management. This capability is also useful if a device is already enrolled in another mobile application management solution.
 
-  
-### More information  
-For more information about getting and using Intune, see:
-  
--   [Microsoft Intune](https://docs.microsoft.com/intune/fundamentals/what-is-intune)  
+For more information about getting and using Intune, see [Microsoft Intune](https://docs.microsoft.com/intune/fundamentals/what-is-intune)  
   
   
-## Set up  conditional access to Dynamics 365 apps  
+## Set up conditional access to Dynamics 365 apps  
 You can use the Azure portal to administer conditional access to manage access to Dynamics 365 apps from mobile devices based on conditions you specify. 
 
-For more information about setting up conditional access on the Power Platform side: [Azure AD Conditional Access](https://docs.microsoft.com/en-us/power-platform/admin/restrict-access-online-trusted-ip-rules). 
+For more information about setting up conditional access on the Power Platform side, see [Azure AD Conditional Access](https://docs.microsoft.com/power-platform/admin/restrict-access-online-trusted-ip-rules). 
 
-Find a full conditional access reference: [here](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/technical-reference)
+For more information on conditional access, see [Conditional Access: Conditions](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference).
 
-Be aware of the fact that because of the Intune cache, conditional access policies can take up to 24 hours to propagate. This wait can be avoided by uninstalling and reinstalling the app.
+It's important to note that Intune cache conditional access policies can take up to 24 hours to propagate. This wait can be avoided by uninstalling and reinstalling the app.
   
 > [!NOTE]
 >  To use conditional access, you must have an Azure Active Directory premium subscription.
