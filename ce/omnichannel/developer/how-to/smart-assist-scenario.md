@@ -4,7 +4,7 @@ description: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 04/15/2020
+ms.date: 04/24/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -13,8 +13,7 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-> [!NOTE]
-> For information on how to setup and run the sample code, see the [README](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/smart-assist-bot/README.md) file. You can make changes to this sample code to implement your custom scenario.
+This topic provides information on how you can enable similar case suggestions in your smart assist bot.
 
 ## Prerequisites
 
@@ -26,11 +25,11 @@ ms.topic: article
 
 ## Scenario: Similar case suggestion
 
-This scenario enables you to suggest similar cases with open and close case action buttons. The customer service agent is presented with a list of similar cases as a recommendation. The agent clicks on the case that he finds most similar and relevant, and then goes to the case note and looks at the resolution in note. The agent suggests the same resolution to the customer over chat.
+This scenario enables you to suggest similar cases with open case action button. The customer service agent is presented with a list of similar cases as a recommendation. The agent clicks on the case that he finds most similar and relevant, and then goes to the case note and looks at the resolution in note. The agent suggests the same resolution to the customer over chat.
 
 ### Generate intent to interpret the context of the conversation
 
-You need to analyze the conversation and understand its context before recommending an action to the agent. Use [Language Understanding (LUIS)](https://luis.ai) to find the intent of the ongoing conversation. Here is an example on how you can create a LUIS app to find intent from a given text: [Quickstart: Use prebuilt Home automation app](/azure/cognitive-services/luis/luis-get-started-create-app).
+It is necessary analyze the conversation and understand its context before recommending an action to the agent. Use [Language Understanding (LUIS)](https://luis.ai) to find the intent of the ongoing conversation. Here is an example on how you can create a LUIS app to find intent from a given text: [Quickstart: Use prebuilt Home automation app](/azure/cognitive-services/luis/luis-get-started-create-app).
 
 You can create intents for each issue type or topic that you want to address for incoming requests from customers or the most common topics being discussed.  
 
@@ -38,7 +37,7 @@ For the example scenario of similar case recommendations for ‘printer noise’
 
 ### Author adaptive cards to display recommendations in the smart assist UI
 
-[Adaptive cards](https://adaptivecards.io) is an open-source standard that helps apps and services exchange rich snippets of native UI. The smart assist bot interprets the conversation context in real-time and provides recommendations to the agents.
+[Adaptive cards](https://adaptivecards.io) is an open-source standard that helps apps and services exchange rich snippets of native UI.<!-- The smart assist bot interprets the conversation context in real-time and provides recommendations to the agents. -->
 
 ### Custom actions for implementing custom functionalities
 
@@ -81,12 +80,12 @@ Replace the `incident id` in the Web API request above with the unique identifie
 }
 ```
 
-The custom actions required for implementing similar case suggestions include the following:
+<!--The custom actions required for implementing similar case suggestions include the following:
 
 1. Open any entity form using the [openForm](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-navigation/openform) client API.
 2. Copy to Conversation Control.
 3. Open th URL in App tab.
-
+-->
 #### Calling custom actions using adaptive cards
 
 <!--### Macros
