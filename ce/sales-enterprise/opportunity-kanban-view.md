@@ -118,6 +118,7 @@ Here are some important things to know about your Kanban view:
     - For all closed opportunities a lock icon is shown. The lock icon means that you can't change the information on the card inline, but you can still move the cards from one lane to another.
 
 
+
 ### See also
 
 [Add the Kanban control to Opportunity or Activity entities](add-kanban-control.md)  

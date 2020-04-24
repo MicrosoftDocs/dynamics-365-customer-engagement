@@ -64,6 +64,7 @@ Here are some important things to know about your Kanban view:
  
     - When you're dragging a card to move to another lane, the lanes where the card can't be dropped appear dimmed.
 
+
 ### See also
 
 [Add the Kanban control to Opportunity or Activity entities](add-kanban-control-sp.md)  
