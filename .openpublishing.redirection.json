@@ -491,6 +491,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/field-service/bug-fixes.md",
+      "redirect_url": "version-history",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/field-service/set-up-purchase-order-sub-statuses.md",
       "redirect_url": "inventory-purchasing-returns-overview",
       "redirect_document_id": "false"
