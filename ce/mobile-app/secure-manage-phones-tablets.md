@@ -34,7 +34,13 @@ For more information about getting and using Intune, see:
   
   
 ## Set up  conditional access to Dynamics 365 apps  
-You can use the Azure portal to administer conditional access to manage access to Dynamics 365 apps from mobile devices based on conditions you specify. For more information about setting up conditional access, see [Conditional Access in Configuration Manager](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference).  
+You can use the Azure portal to administer conditional access to manage access to Dynamics 365 apps from mobile devices based on conditions you specify. 
+
+For more information about setting up conditional access on the Power Platform side: [Azure AD Conditional Access](https://docs.microsoft.com/en-us/power-platform/admin/restrict-access-online-trusted-ip-rules). 
+
+Find a full conditional access reference: [here](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/technical-reference)
+
+Be aware of the fact that because of the Intune cache, conditional access policies can take up to 24 hours to propagate. This wait can be avoided by uninstalling and reinstalling the app.
   
 > [!NOTE]
 >  To use conditional access, you must have an Azure Active Directory premium subscription.
