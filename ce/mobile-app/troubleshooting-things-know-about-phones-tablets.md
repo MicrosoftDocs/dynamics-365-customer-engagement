@@ -399,7 +399,7 @@ Deep links can only be invoked in the context of the currently opened app. While
 The work around for this issue is to have an app that is in the same organization already opened on the device.
 
 ## Native Android or iOS links are not supported
-The Dynamics 365 mobile does not support universal links on iOS and Android app pinks on Android.
+The Dynamics 365 mobile does not support universal links on iOS and Android app links on Android.
   
 ## Issue still not resolved?  
 If the information provided previously doesn’t resolve your issue, either [Post your issue in the Dynamics CRM Community](https://community.dynamics.com/crm/f/117/p/addpost.aspx?GroupToJoin=57) or [Contact Technical Support](../admin/contact-technical-support.md).
