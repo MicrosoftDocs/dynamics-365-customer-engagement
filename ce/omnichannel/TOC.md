@@ -262,7 +262,7 @@
 #### [Enable a bot to escalate and end conversation](developer/bot-escalate-end-conversation.md)
 #### [Auto-close a conversation](developer/auto-close-conversation.md)
 #### Smart assist bot
-##### [Getting started with building a smart assist bot](developer/how-to/smart-assist-bot.md)
+##### [Build a smart assist bot](developer/how-to/smart-assist-bot.md)
 ##### [Implement custom scenario](developer/how-to/smart-assist-scenario.md)
 #### [Bring your own channel](developer/how-to/bring-your-own-channel.md)
 #### [Customize chat widget](developer/how-to/customize-chat-widget.md)
