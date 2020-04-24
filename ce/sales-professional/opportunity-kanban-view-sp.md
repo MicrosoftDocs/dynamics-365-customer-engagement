@@ -1,7 +1,7 @@
 ---
 title: "Work with opportunities in the Kanban view (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "Use the opportunity Kanban view to effectively monitor the pipeline and see the opportunities in their different statuses or stages of business process flow."
-ms.date: 04/24/2020
+ms.date: 04/16/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -116,16 +116,6 @@ Here are some important things to know about your Kanban view:
     
     - For all closed opportunities a lock icon is shown. The lock icon means that you can't change the information on the card inline, but you can still move the cards from one lane to another.
 
-
-## What you can't customize?
-
-There are a few customization restrictions that you should be aware of:
-
-- While you can customize the out-of-the-box 'Opportunity Sales Process' business process flow, you can't customize the Kanban view to use a business process flow other than the Opportunity Sales Process. 
-- The Status-based Opportunity Kanban view is only available for the Status field. You can't configure this Kanban view for an option set field other than 'Status'.
-- You can't add or remove fields from the cards in the Opportunity Kanban view swim lanes.
-- In the Opportunity Kanban view, aggregation is supported only for the Estimated Revenue field of the Opportunity entity. You can't configure the Kanban view to have aggregation done on other fields.
-- It isn't possible to have a role-based Kanban view.
 
 ### See also
 
