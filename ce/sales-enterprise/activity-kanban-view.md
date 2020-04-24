@@ -64,6 +64,17 @@ Here are some important things to know about your Kanban view:
  
     - When you're dragging a card to move to another lane, the lanes where the card can't be dropped appear dimmed.
 
+## What you can't customize?
+
+There are a few customization restrictions that you should be aware of:
+
+- The Activity Kanban view is only available for the Status field. You can't configure the Activity Kanban view for an option set field other than 'Status'.
+- You can't add or remove fields from the cards in the Activity Kanban view swim lanes.  
+- You can't configure or select aggregation fields other than the one available in the out-of-the-box Kanban views.
+- It isn't possible to have a role-based Kanban view.
+
+
+
 ### See also
 
 [Add the Kanban control to Opportunity or Activity entities](add-kanban-control.md)  
