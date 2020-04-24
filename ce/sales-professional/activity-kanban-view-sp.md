@@ -1,7 +1,7 @@
 ---
 title: "Work with activities in the Kanban view (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "Use the opportunity Kanban view to visualize all your activities with a card-based view and manage these activities quickly by moving them across the swim lanes."
-ms.date: 04/16/2020
+ms.date: 04/24/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -63,6 +63,15 @@ Here are some important things to know about your Kanban view:
     - There's no restrictions on the movement of custom activity cards—they can be moved from any lane to any lane.
  
     - When you're dragging a card to move to another lane, the lanes where the card can't be dropped appear dimmed.
+
+## What you can't customize?
+
+There are a few customization restrictions that you should be aware of:
+
+- The Activity Kanban view is only available for the Status field. You can't configure the Activity Kanban view for an option set field other than 'Status'.
+- You can't add or remove fields from the cards in the Activity Kanban view swim lanes.  
+- You can't configure or select aggregation fields other than the one available in the out-of-the-box Kanban views.
+- It isn't possible to have a role-based Kanban view.
 
 ### See also
 
