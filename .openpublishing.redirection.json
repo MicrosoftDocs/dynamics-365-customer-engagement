@@ -496,6 +496,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/field-service/use-demo-data.md",
+      "redirect_url": "install-sample-data-8-x",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/field-service/set-up-purchase-order-sub-statuses.md",
       "redirect_url": "inventory-purchasing-returns-overview",
       "redirect_document_id": "false"
