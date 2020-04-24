@@ -36,7 +36,7 @@ For more information about setting up conditional access on the Power Platform s
 
 For more information on conditional access, see [Conditional Access: Conditions](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference).
 
-It's important to note that Intune cache conditional access policies can take up to 24 hours to propagate. This wait can be avoided by uninstalling and reinstalling the app.
+It's important to note that Intune cache conditional access policies can take up to 24 hours to propagate. If you don't want to wait then you can uninstall and then reinstall the app.
   
 > [!NOTE]
 >  To use conditional access, you must have an Azure Active Directory premium subscription.
