@@ -4,7 +4,7 @@ description: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 04/24/2020
+ms.date: 04/25/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -42,6 +42,18 @@ For the example scenario of similar case recommendations for ‘printer noise’
 ### Custom actions for implementing custom functionalities
 
 Custom actions can help you implement custom functionalities in your smart assist bot.
+
+Given below are the steps for enabling the similar case scenario.
+
+1. **Set up Similarity Rules**
+
+Setup similarity rule by following the steps 1 to 7 in mentioned here: [Create a new similarity rule to view similar cases](https://docs.microsoft.com/dynamics365/customer-service/suggest-similar-cases-for-a-case#create-a-new-similarity-rule-to-view-similar-cases).
+ 
+2. **Turn Relevance search ON**
+
+Turn On Relevance Search in the administrator section. More information: [Enable a field for exact matching of similar cases](https://docs.microsoft.com/dynamics365/customer-service/suggest-similar-cases-for-a-case#enable-a-field-for-exact-matching-of-similar-cases). 
+  
+3. **Similar cases API**
 
 Similar cases can be fetched using the `GetSimilarRecords` function. But before you execute the Web API query with this function, make sure that you have set up similarity rules. More information: [Use advanced similarity rules to view similar case suggestions](../../../customer-service/suggest-similar-cases-for-a-case). Also, make sure to enable **Relevance Search** in the administrator section to ensure that similarity rules work in the expected manner. Also, in the **Match Field** section add a few criteria such as case title and case type.
 
