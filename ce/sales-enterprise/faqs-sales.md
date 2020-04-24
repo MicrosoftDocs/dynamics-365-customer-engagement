@@ -2,10 +2,8 @@
 title: "Frequently asked questions (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Frequently asked questions for Dynamics 365 Sales"
 ms.date: 10/01/2019
-ms.service: 
-  - dynamics-365-sales
-ms.custom: 
-  - dyn365-sales
+ms.service:
+  - "dynamics-365-sales"
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -31,7 +29,7 @@ manager: shubhadaj
 
 **Question**:<br>Why does a view other than **Opportunity Product Inline Edit View** lose the inline editing functionality and why can't I see grid actions such as move up, move down, and lock icons in the legacy web client if a view other than **Opportunity Product Inline Edit View** is selected for the **Opportunity Product** subgrid in the **Opportunity** form?
 
-**Answer**:<br>This is known and by-design behavior in Web Client. However, this behavior is changed in Unified Interface. We recommend that you use Unified Interface to experience the inline edit view. To verify if a grid is editable, go to **Grid control properties**.
+**Answer**:<br>This is a by-design behavior in the legacy web client. However, this behavior is changed in Unified Interface. We recommend that you use Unified Interface to experience the inline edit view. To verify whether a grid is editable, go to **Grid control properties**.
 
    > [!div class="mx-imgBorder"]
    > ![Properties settings for grid control](media/faqs-grid-control-properties.png "Properties settings for grid control")
@@ -39,6 +37,13 @@ manager: shubhadaj
    > [!NOTE]
    > - In Unified Interface, the behavior of the grid columns **Price Per Unit** and **Quantity** as editable or non-editable is independent of the view that is selected.  
    > - An editable grid doesn’t guarantee that all columns are editable; it depends on the **Pricing**.
+
+<a name="amt-not-calculated"> </a>
+**Question**:<br> Why is the amount not calculated automatically in the **Amount** fields of opportunity, quote, order, or invoice records?
+
+**Answer**: <br> The amount is automatically calculated only when your organization is configured to use system pricing calculation.
+
+To verify whether system pricing calculation is enabled, make sure that the **Use system pricing calculation** setting in **System Settings** is set to **Yes**. More information: [System Settings dialog box - Sales tab](system-settings-sales-tab.md) 
 
 ## Entities: Opportunity Product, Quote Product, Order Product, and Invoice Product 
 
@@ -66,14 +71,14 @@ manager: shubhadaj
 **Answer**:<br>You can change the default value for the **Prices Locked** field in the **Order** form through customizations or the inline editable grid:
   1. Go to **Settings** > **Customizations** > **Customize the System**.
   2. Select **Entities** > **Order** > **Fields**.
-  3. Select the **ispricelocked** field and configure the **Default Value** to **No**.
+  3. Select the **ispricelocked** field, and then set **Default Value** to **No**.
   4. Save and publish the customizations.
 
 **Question**:<br>For a particular **Order** form, how can I change the state of **Prices Locked** field?
 
 **Answer**:<br> You can change the state for the **Prices Locked** field through inline editable grid. Select the **Lock** icon on the editable grid and the state of the **Prices Locked** field changes accordingly. 
 
-In Web Client: 
+In the legacy web client: 
   > [!div class="mx-imgBorder"]
   > ![Edit pricing for a product](media/faqs-edit-pricing-for-product.png "Edit pricing for a product")
 
