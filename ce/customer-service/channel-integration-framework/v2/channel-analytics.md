@@ -4,7 +4,7 @@ description: "Read about the APIs that enable you to log analytics in Dynamics 3
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 04/23/2020
+ms.date: 04/24/2020
 ms.topic: reference
 ms.service:
   - dynamics-365-customerservice
@@ -127,31 +127,19 @@ More information: [msdyn_kpieventdefinition](reference/entities-attributes/msdyn
 
 ### msdyn_conversationdata
 
-Primary entity for a conversation.
-
-**Logical name**: Conversation Data<br />
-**Primary field**: name<br />
-**Entity set path**: `[Organization URI]/api/data/v9.1/msdyn_conversationsdata`
+This entity is deprecated and using it to access Common Data Service data is not supported.
 
 More information: [msdyn_conversationdata](reference/entities-attributes/msdyn_conversationdata.md).
 
 ### msdyn_sessiondata
 
-Primary entity for session data.
-
-**Display name**: Session data<br />
-**Primary field**: name<br />
-**Entity set path**: `[Organization URI]/api/data/v9.1/msdyn_sessionsdata`
+This entity is deprecated and using it to access Common Data Service data is not supported.
 
 More information: [msdyn_sessiondata](reference/entities-attributes/msdyn_sessiondata.md).
 
 ### msdyn_sessionparticipantdata
 
-Primary entity for representing session participants.
-
-**Display name**: Session Participant Data<br />
-**Primary field**: name<br />
-**Entity set path**: `[Organization URI]/api/data/v9.1/msdyn_sessionparticipantsdata`
+This entity is deprecated and using it to access Common Data Service data is not supported.
 
 More information: [msdyn_sessionparticipantdata](reference/entities-attributes/msdyn_sessionparticipantdata.md).
 
@@ -165,7 +153,7 @@ Primary entity for a KPI event.
 
 More information: [msdyn_kpieventdata](reference/entities-attributes/msdyn_kpieventdata.md).
 
-The softphone integration [sample code](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/channel-integration-framework/TwilioSampleInteg_version2) implements functionalities wherein the live work item is updated when a call is accepted and updating live work item with incident details as soon as a case is created. It uses Channel Analytics API [logAnalyticsEvent](reference/microsoft-ciframework/logAnalyticsEvent.md) to log the events when the call is put on Hold or Unhold.
+The softphone integration [sample code](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/channel-integration-framework/TwilioSampleInteg_version2) implements functionalities wherein the conversation entity record is updated when a call is accepted and updating conversation entity record with incident details as soon as a case is created. It uses Channel Analytics API [logAnalyticsEvent](reference/microsoft-ciframework/logAnalyticsEvent.md) to log the events when the call is put on Hold or Unhold.
 
 ## See also
 
