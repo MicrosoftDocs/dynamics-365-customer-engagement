@@ -42,8 +42,6 @@ This article describes how to enable and use form double opt in.
    - A confirmation button preconfigured with the required target URL (as a Handlebars expression).
    - The **Content type** set to **Confirmation request**.
    - The **Legal designation** set to **Transactional**.
-    
-     See also the example given after this procedure. For the example, we'll select the **diamante** template.
 
      > [!NOTE]
      > The show-as-webpage feature doesn't work with confirmation-consent messages, so it's not included in the template and you shouldn't try to add it.
