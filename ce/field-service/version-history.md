@@ -39,7 +39,7 @@ search.app:
 
 For information about other updates to Field Service, visit the [Dynamics 365 Release Plans](https://docs.microsoft.com/dynamics365/release-plans/). 
 
-### Version 8.8.12.2 
+## 8.8.12.2 
 
 - Fixed an issue where the "Generate Work Order" button from Advanced Find on Agreement Booking Dates was not displaying and working properly. 
 - "Due Date" field value on Invoices generated from Agreement Invoice Date is one day early. For organizations experiencing this issue, a fix is made available through the "Advanced Settings" field in the Field Service Settings entity. Copy the following string into the hidden field:  
