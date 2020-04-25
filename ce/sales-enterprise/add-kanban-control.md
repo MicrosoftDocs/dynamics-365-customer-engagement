@@ -1,7 +1,7 @@
 ---
 title: "Add the Kanban control to Opportunity or Activity entities (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Add the Kanban control to the Opportunity or Activity entity. The Kanban control enables salespeople to monitor their pipeline, see where opportunities are in a business process flow, or track their activities efficiently."
-ms.date: 04/03/2020
+ms.date: 04/24/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -52,7 +52,19 @@ To add the control:
 
 9. To publish the changes you've made, select **Publish**.
 
+## What you can't customize?
 
+There are a few customization restrictions that you should be aware of:
+
+- You can't add or remove fields from the cards in the Kanban view swim lanes.
+- It isn't possible to have a role-based Kanban view.
+- The Activity Kanban view is only available for the Status field. You can't configure the Activity Kanban view for an option set field other than 'Status'.
+- For Opportunity Kanban view:
+
+    - While you can customize the out-of-the-box 'Opportunity Sales Process' business process flow, you can't customize the Kanban view to use a business process flow other than the Opportunity Sales Process. 
+    - The Status-based Opportunity Kanban view is only available for the Status field. You can't configure this Kanban view for an option set field other than 'Status'.
+    - In the Opportunity Kanban view, aggregation is supported only for the Estimated Revenue field of the Opportunity entity. You can't configure the Kanban view to have aggregation done on other fields.
+    
 ### See also
 
 [Work with opportunities in the Kanban view](opportunity-kanban-view.md)  

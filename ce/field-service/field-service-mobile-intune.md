@@ -28,9 +28,6 @@ search.app:
 
 # Manage Field Service Mobile with Microsoft Intune
 
-> [!Note]
-> This functionality is in public preview as of February 3, 2020.
-
 Mobile Application Management (MAM) is software that enables IT administrators to apply and enforce corporate policies on mobile apps. One MAM option for IT administrators is [Microsoft Intune](https://docs.microsoft.com/intune/apps/app-management), which offers a suite of features that lets you publish, push, configure, secure, monitor, and update mobile apps - including Field Service Mobile.
 
 MAM is important to field service organizations whose technicians use Field Service Mobile primarily because:
