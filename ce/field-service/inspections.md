@@ -2,7 +2,7 @@
 title: "Dynamics 365 Field Service inspections | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 04/01/2020
+ms.date: 04/27/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -48,7 +48,10 @@ In this article, we'll walk through an example of setting up an inspection using
 
 ## Prerequisites
 
-- Inspection capabilities are released in April 2020 as part of a public preview. Request preview access by [submitting a support request](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-lifecycle/CRMSupport).
+- .
+
+> [!Note]
+> Inspection capabilities are released in April 2020 as part of a public preview. Follow the process in the topic on [installing or upgrading preview features](./field-service-preview.md). In Step 6, look for the preview flight with the DisplayName: **FieldServiceInspections_AprilPreviewFlight**.
 
 - Dynamics 365 version 9.1.0000.15015+.
 
