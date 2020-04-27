@@ -1,7 +1,7 @@
 ---
 title: "Edit and resubmit form submissions (Dynamics 365 Marketing) | Microsoft Docs "
 description: "Learn how to view incoming form submissions, recover from failed form submissions, and edit and resubmit submissions as needed in Dynamics 365 Marketing"
-ms.date: 04/07/2020
+ms.date: 04/21/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -24,7 +24,7 @@ search.app:
 
 Marketing forms must be designed to submit values for all mandatory fields and fields used in contact matching, lead matching, and duplicate detection. For option-set fields, forms must also provide valid index values that map correctly to available values in the database.
 
-Every now and then, errors in form design or changes to system settings can cause form submissions to fail some or all of the time. When a submission fails, the system will store what it can of the erroneous submission so you can examine it later and possibly recover key information from it. This information can also help you learn how to correct your form designs and/or system settings to prevent failed submissions in the future.
+Every now and then, errors in form design or changes to system settings can cause form submissions to fail. When a submission fails, the system will store what it can of the erroneous submission so you can examine it later and possibly recover key information from it. This information can also help you learn how to correct your form designs and/or system settings to prevent failed submissions in the future.
 
 Optionally, you can configure the system to also keep all incoming form submissions, including submissions that were successful and have already been processed and applied to your database. This will give you the chance to edit and resubmit both successful and failed submissions.
 
@@ -43,7 +43,7 @@ Submissions can fail for any of the following reasons:
 
 ## Find and inspect incoming submissions
 
-To find incoming submissions for any form:
+To find incoming submissions:
 
 1. Go to **Marketing** > **Internet marketing** > **Marketing forms** to open a list of existing forms.
 1. Find and open the form you want to inspect.
@@ -70,6 +70,9 @@ To find incoming submissions for any form:
     - Select **No** to update the original interaction. With this option, your various insights will indicate that the contact had submitted the form with your updated values in the first place.
 
 1. Your updated submission will probably show a **Status reason** of **Pending** for a short time while the system process it. To update the status, select the **Refresh** button at the top of the **Submissions** list to refresh the display. Eventually you will see whether your new submission ended as a **Success** or **Failure**. If you aren't showing successful submissions, then the submission will simply disappear on success.
+
+> [!NOTE]
+> Forms of type **Subscription center** and **Forward to friend** do not create submissions under the **Form submissions** tab. To view subscription center activity, go to **Marketing** > **Internet marketing** > **Marketing forms**, open the subscription center you want to examine, and click the **Insights** tab.
 
 <a name="keep-all"></a>
 

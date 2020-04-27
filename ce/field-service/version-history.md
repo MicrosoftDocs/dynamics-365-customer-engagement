@@ -2,7 +2,7 @@
 title: "Field Service Version History | MicrosoftDocs"
 ms.custom:
   - dyn365-fieldservice
-ms.date: 04/20/2020
+ms.date: 04/24/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -39,6 +39,21 @@ search.app:
 
 For information about other updates to Field Service, visit the [Dynamics 365 Release Plans](https://docs.microsoft.com/dynamics365/release-plans/). 
 
+## 8.8.12.2 
+
+- Fixed an issue where the "Generate Work Order" button from Advanced Find on Agreement Booking Dates was not displaying and working properly. 
+- "Due Date" field value on Invoices generated from Agreement Invoice Date is one day early. For organizations experiencing this issue, a fix is made available through the "Advanced Settings" field in the Field Service Settings entity. Copy the following string into the hidden field:  
+
+>  *autogeneration.usetimezone.invoiceduedate=true*
+
+- Resolved a bug on Work Order Service records that have been deactivated throwing an error when being reactivated, "Object Reference Not Set to Instance of an Object." 
+- Corrected an unhandled error in geocoding that failed if the address contained an extra comma. 
+- For organizations that would prefer that Work Orders generated from Cases open in the same window, this can now be controlled through “Advanced Settings” field in the Field Service Settings entity. Copy the following string into the hidden field if you would prefer Work Orders to open in the same tab in the same window:  
+
+> *casetoworkorderwindowbehavior=0*
+
+>[!Note]
+> The “Advanced Settings” field on Field Service Settings is not added to the entity form by default.  
 
 ## 8.8.11.19
 

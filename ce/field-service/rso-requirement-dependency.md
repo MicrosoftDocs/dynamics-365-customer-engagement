@@ -42,12 +42,6 @@ Requirement dependencies let you schedule requirements in a specific order by re
 
 In the previous screenshot, you can see RSO scheduled requirements "Task 2.1," "Task 2.2," and "Task 2.3" in order.
 
-
-## Prerequisites
-
-> [!Note]
-> This functionality is available in early access as of February 3, 2020. For more information, visit [this article on opting into early access features](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates).
-
 ## Instructions
 
 First, create two or more requirements. This can be done manually by creating two requirements, or by utilizing the requirements that are automatically created when a work order is created.

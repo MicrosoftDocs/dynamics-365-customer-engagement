@@ -105,10 +105,6 @@ When a technician updates their booking Status on Field Service Mobile to **Arri
 
 ## Timestamp frequency setting
 
-> [!Note]
-> This functionality is available in early access as of February 3, 2020. For more information, visit [this article on opting into early access features](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates).
-
-
 The **Timestamp Frequency** setting allows you to choose when booking timestamps are created.
 
 Go to **Field Service** > **Settings** > **Field Service Settings**
