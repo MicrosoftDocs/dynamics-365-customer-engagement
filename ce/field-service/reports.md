@@ -45,8 +45,9 @@ Reports in Dynamics 365 Field Service can help you get a birds-eye understanding
 
 
 ## Prerequisites   
+> [!Note]
+> Inspection capabilities are released in April 2020 as part of a public preview. Follow the process in the topic on [installing or upgrading preview features](./field-service-preview.md). In Step 6, look for the preview flight with the DisplayName: **FieldService_April2020_PreviewFlight**.
 
-- To access reports, your organization must opt into the latest early access Dynamics 365 Field Service. For more information, see [this article on opting in for early access](https://docs.microsoft.com//power-platform/admin/opt-in-early-access-updates). 
 
 ## Reports overview
 
