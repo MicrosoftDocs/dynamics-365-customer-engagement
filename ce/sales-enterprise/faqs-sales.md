@@ -45,6 +45,23 @@ manager: shubhadaj
 
 To verify whether system pricing calculation is enabled, make sure that the **Use system pricing calculation** setting in **System Settings** is set to **Yes**. More information: [System Settings dialog box - Sales tab](system-settings-sales-tab.md) 
 
+
+<a name="fields-locked"> </a>
+**Question:**<br>
+Why are some fields editable while some are locked in the Product subgrid in the Opportunity, Quote, Order, and Invoice records?
+
+**Answer:**<br>
+There are certain restrictions on inline editing based on the type of products in the subgrid:
+
+-   If the product in the subgrid is an individual product and an existing product from the product catalog, all fields except the Quantity and Discount are locked for editing.
+
+-   If the product in the subgrid is an individual product and a write-in product from the product catalog, all fields except the Product Name, Quantity, and Discount are locked for editing.
+
+-   If the product in the subgrid is a product bundle or an optional product of a bundle, all fields except Quantity and Discount are locked for editing.
+
+-   If the product in the subgrid is a required product from an existing product bundle, all fields in the subgrid view are locked for editing.
+
+
 ## Entities: Opportunity Product, Quote Product, Order Product, and Invoice Product 
 
 > [!NOTE]

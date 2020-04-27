@@ -132,6 +132,70 @@ These issues might occur due to improper customization of the application. You m
 > [!NOTE]
 > If the issue occurs, activate the **Processes** that you deactivated now and try to [Deactivate custom plug-in](#deactivate-custom-plug-in) or [Disable custom JavaScript](#disable-custom-javascript).
 
+## Issue: I can't see some records or edit a few fields in the subgrids of opportunity, quote, order, or invoice records
+
+While working on the opportunity, quote, order, or invoice records, you might observe that some records are missing.
+
+**Reason**
+
+-   You might not see some records because of an error that occurred due to some customization done to the subgrid.
+
+**Resolution**
+
+To fix the issue of incorrect customization, follow these steps to make sure your subgrid is configured correctly:
+
+1.  In your app, on the nav bar, select the **Settings** icon, and then select **Advanced Settings**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Advanced Settings link in the Settings menu](media/advanced-settings-option.png "Advanced Advanced Settings link in the Settings menu")
+
+    The **Business Management** settings page opens in a new browser tab.
+
+2. On the navigation bar, select **Settings** and then under **Customization**, select **Customizations**. 
+
+3. Select **Customize the System**.
+
+4. Under **Components** in the solution explorer, expand **Entities**, then expand **Opportunity**, and then select **Forms**.
+
+5. Open the Opportunity form of type 'Main'.
+
+6. Double-click the **Connections** section in the **Product Line Items** section.
+
+    > [!div class="mx-imgBorder"]
+    > ![Product Line Items subgrid](media/product-line-items-subgrid.png "Product Line Items subgrid")
+
+    The **Set Properties** dialog box opens.
+
+    > [!div class="mx-imgBorder"]
+    > ![Set properties of Opportunity Products grid](media/set-properties-opportunity-products-grid.png "Set properties of Opportunity Products grid")
+
+7. On the **Controls** tab, double-click Editable Grid.
+
+    > [!div class="mx-imgBorder"]
+    > ![Double-click Editable Grid option](media/editable-grid-option.png "Double-click Editable Grid option")
+
+8. Make sure that all values are set correctly:
+
+    -  Grid View: Opportunity Product Inline Edit View
+
+    -  Nested Grid View: Select the pencil icon and fill in the following details:
+
+        > [!div class="mx-imgBorder"]
+        > ![Configure property dialog box](media/configure-property-dialog-box.png "Configure property dialog box")
+
+        -   Entity: Opportunity Products
+
+        -  View: Opportunity Product Inline Edit View: Bundle Products
+
+    -   Nested grid parent ID: parentbundleidref
+
+    -   Group by Column: Enabled (Enum)
+
+    -   Allow filtering: Enabled (Enum)
+
+    -   Hide nested grid column header: Hide Column
+
+
 
 ### See also
 
