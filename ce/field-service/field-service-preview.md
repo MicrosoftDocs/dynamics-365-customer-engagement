@@ -122,35 +122,42 @@ It will say **Added to Flight**
 Repeat the last step for each Preview capability you would like to add to your org
 
 
+As a system administrator go to [https://admin.powerplatform.microsoft.com/environments/](https://admin.powerplatform.microsoft.com/environments/).
+
+Select and click in to the environment you want to install or upgrade the preview features to and then select **Manage Dynamics 365 apps** in the top ribbon.
+
+Then select **Install app** in the top ribbon and find Dynamics 365 Field Service.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/preview-admin2.jpg)
 
 
+Then agree to the terms and install the Field Service preview version.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/preview-admin3.jpg)
+
+
+Back in the list of apps you will see it has a status of "Installing..."
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/preview-admin5.jpg)
+
+
+Here is an example of the apps that may be in your Dynamics 365 environment BEFORE installing the preview flight.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/preview-environment-before.png)
 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/preview-admin2.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/preview-admin3.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/preview-admin4.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/preview-admin5.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/preview-environment-before.png)
+And AFTER the flight is installed, an upgraded version of the Field Service app will appear. As a reminder, if you did not have the Field Service app installed, the preview flight will install Field Service and the preview features. If you had the Field Service app installed, it will upgrade the Field Service app to inlcude the preview features.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/preview-environment-after-powerapps-admin.png)
 
-## Configuration considerations
-## Additional Notes
+Simply click on the Field Service app to access Field Service capabilities and the preview features.
+
+### See also
+
+[Install Field Service](./install-field-service.md)
+[Upgrade Field Service](./upgrade-field-service.md)
