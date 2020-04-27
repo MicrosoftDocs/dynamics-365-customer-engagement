@@ -4,7 +4,7 @@ description: "Instructions to configure a Twitter Direct Message channel in Omni
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 04/06/2020
+ms.date: 04/27/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -45,7 +45,7 @@ After completing the prerequisites, you can add the Twitter channel for your org
 
     - **Consumer API Secret**: Application secret of the Twitter application. Go to the Twitter developer portal > Twitter app dashboard > select **Details** > **Keys and tokens** and copy the value in the **API secret key** field.
     
-    - **Environment name**: Environment of the Twitter application. Go to the Twitter developer portal > Dev environments > select **Dev environment label**.
+    - **Environment name**: Environment of the Twitter application. Go to the Twitter developer portal > Dev environments > select **Dev environment label** (Make sure that the Dev environment was created under **Account Activity API**).
 
     More information about the Twitter app: [Setting up your Twitter app](https://developer.twitter.com/en/docs/basics/apps/overview)
   
