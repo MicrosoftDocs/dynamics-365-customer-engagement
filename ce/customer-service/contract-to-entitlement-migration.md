@@ -61,16 +61,6 @@ media\contract-and-entitlement-allocation-type-2.png)
 - Created cases will now display warning notices when they exceed allocated terms.
 - Customer usage can be monitored with the option to set and apply restrictions in future.
 
-### Custom Fields
-Fields which are required for business use case, but not available out of box on entitlement or for other required fields not available on entitlements.
-
-To switch from the Contract template and map to the Entitlement template:<BR>
-**STEP 1:** Create custom fields with attributes can be created on Entitlement template.  For more information, see [Create and edit fields (attributes)](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fdynamics365%2Fcustomerengagement%2Fon-premises%2Fcustomize%2Fcreate-edit-fields&data=02%7C01%7CLeslie.Robbins%40microsoft.com%7C3ced38d114ed4219470508d7e74954d0%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637232174499616769&sdata=8zKG2iuS%2F5%2B2hiqD7OLwQjlxrTxtaiyB6YYzThNK6zQ%3D&reserved=0).<BR>
-**STEP 2:** Place the created fields on the form as per business needs. For more information, see [Add a field to a from](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/customize/add-field-form).
-
->[!Note] 
->The Calendar item has been deprecated on the Contract template and will not be available on the Entitlement template.
-
 <a name="2"></a>
 
 ## Mapping: Contract to entitlements
@@ -158,7 +148,8 @@ Fields which are required for business use case, but not available out of box on
 
 To switch from the Contract template and map to the Entitlement template:<BR>
 **STEP 1:** Create custom fields with attributes can be created on Entitlement template.  For more information, see [Create and edit fields (attributes)](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fdynamics365%2Fcustomerengagement%2Fon-premises%2Fcustomize%2Fcreate-edit-fields&data=02%7C01%7CLeslie.Robbins%40microsoft.com%7C3ced38d114ed4219470508d7e74954d0%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637232174499616769&sdata=8zKG2iuS%2F5%2B2hiqD7OLwQjlxrTxtaiyB6YYzThNK6zQ%3D&reserved=0).<BR>
-**STEP 2:** Place the created fields on the form as per business needs. For more information, see [Add a field to a from](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/customize/add-field-form).
+**STEP 2:** Place the created fields on the form as per business needs. Use the SDK code examples in the [basic update](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/org-service/entity-operations-update-delete#basic-update) section as a reference guide to update the entity. For more information, see [Add a field to a from](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/customize/add-field-form).
+
 
 >[!Important] 
 > 
