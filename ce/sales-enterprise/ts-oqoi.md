@@ -132,7 +132,8 @@ These issues might occur due to improper customization of the application. You m
 > [!NOTE]
 > If the issue occurs, activate the **Processes** that you deactivated now and try to [Deactivate custom plug-in](#deactivate-custom-plug-in) or [Disable custom JavaScript](#disable-custom-javascript).
 
-## Issue: I can't see some records or edit a few fields in the subgrids of opportunity, quote, order, or invoice records
+<a name="missing-records"> </a>
+## Issue: I can't see some records in the subgrids of opportunity, quote, order, or invoice records
 
 While working on the opportunity, quote, order, or invoice records, you might observe that some records are missing.
 
