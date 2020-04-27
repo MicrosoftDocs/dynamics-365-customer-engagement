@@ -28,9 +28,11 @@ search.app:
 
 # Install preview features for Field Service
 
-Oftentimes new Field Service capabilities are available as a preview before they are generally available. Preview features are not intended for production usage as they may be changed before becoming generally available. By installing and learning preview features you can better prepare for how your business can adopt them when they are generaly available.
+Oftentimes new Field Service capabilities are available as a preview before they are generally available. Preview features are not intended for production usage as they may be changed before becoming generally available. By installing and learning preview features you can better prepare for how your business can adopt them when they are generally available.
 
 Follow the instrucitons in this article to manually add Field Service features in preview to your testing and development environment.
+
+Installing a preview solution will install Field Service and preview features. If you do not have Field Service installed already
 
 
 ## Prerequisites
@@ -99,6 +101,8 @@ If prompted, run software from an untrusted publisher by Entering "R".
 
 If successful you will see a list of preview features. 
 
+FieldServiceInspections_AprilPreviewFlight and flight id : e7ae2630-5868-4de2-8151-65bc7177ab67
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/preview-powershell-previewlist.png)
 
@@ -118,6 +122,35 @@ It will say **Added to Flight**
 Repeat the last step for each Preview capability you would like to add to your org
 
 
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/preview-environment-before.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/preview-admin2.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/preview-admin3.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/preview-admin4.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/preview-admin5.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/preview-environment-before.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/preview-environment-after-powerapps-admin.png)
 
 ## Configuration considerations
 ## Additional Notes
