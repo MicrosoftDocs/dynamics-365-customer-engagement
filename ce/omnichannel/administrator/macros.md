@@ -1,10 +1,10 @@
 ---
 title: "Macros in the Omnichannel Administration app | MicrosoftDocs"
 description: "Learn about macros and how to configure in the Omnichannel Administration app."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 04/06/2020
+ms.date: 04/30/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -16,11 +16,11 @@ ms.topic: article
 
 ## Overview of macros
 
-In the customer service industry, agents have to click too often to do simple tasks (open a form, fill out the form, save the form, and so on) and perform many repetitive and monotonous actions (greet a customer, verify a customer, send acknowledgment mail, take notes, and so on). These clicks and repetitive tasks can lead to human errors while agents copy and paste the data across different operations.
+In the customer service industry, agents have to click often to perform simple tasks, such as open a form, fill, and save it, and perform many repetitive and monotonous actions, such as greet a customer, verify a customer, send acknowledgment mail, and take notes. These clicks and repetitive tasks can lead to human errors while agents copy and paste the data across different operations.
 
-Macros help address these challenges by helping users perform day-to-day operations in a faster, more efficient, and process-compliant manner. Macros are a set of sequential actions that are executed by a user. You can use macros to automate repetitive and monotonous actions, which in turn reduces human errors (copying and pasting data) and improves agent productivity. Ultimately, improved agent productivity leads to lower average handling time and, hence, improved customer satisfaction.
+Macros help address these challenges by helping users perform day-to-day operations in a faster, more efficient, and process-compliant manner. Macros are a set of sequential actions that are performed by a user. You can use macros to automate repetitive and monotonous actions, which in turn reduces human errors (copying and pasting data) and improves agent productivity. Ultimately, improved agent productivity leads to lower average handling time and, hence, improved customer satisfaction.
 
-Macros are like reusable components where you can use the same macro with different sessions based on your organizational requirements. These sessions are executed based on the context parameters that are specific to a session.
+Macros are like reusable components, you can use the same macro with different sessions based on your organizational requirements. These sessions are run based on the context parameters that are specific to the session.
 
 ## Value propositions
 
@@ -80,7 +80,7 @@ This action is used to open a new form to create a record. This action contains 
    | Entity Form Id | Specify the form ID.<br> This is an optional field. |
    | Attribute Name | Specify the attribute logical name. You need to provide the attribute name to prepopulate the field with a value.| |
    | Attribute Value | Specify the attribute value. You need to provide the attribute value to prepopulate the attribute field. | |
-   
+
 ##### Open an existing form
 
 This action is used to open an existing record form. This action contains the following fields.
@@ -160,6 +160,10 @@ This action is used to resolve a case. This action contains the following fields
    | Billable Time |  Specify the time that is billable. <br> This is a mandatory field. | incident |
    | Incidentid| Specify the ID of the case that you want to close. <br>This is a mandatory field.| |
    | Resolution | Specify the reason to resolve the case. <br> This is a mandatory field. | |
+
+#### Clone input record
+
+#### 
 
 #### Session connector
 
