@@ -52,7 +52,7 @@ Ensure your PC computer has PowerShell installed. If not, [install it](https://d
 
 
 
-## Steps to install preview features
+## Step 1: Run PowerShell
 
 Open PowerShell and Run as Administrator
 
@@ -60,6 +60,7 @@ Open PowerShell and Run as Administrator
 > ![Screenshot of ](./media/preview-powershell.png)
 
 
+## Step 2: Run command to install API
 
 Run command below:
 
@@ -69,6 +70,7 @@ Run command below:
 > ![Screenshot of ](./media/preview-powershell-run-first-command.png)
 
 
+## Step 3: Run commands for username and password
 
 Run command below and substitute your username. This username reflects a user with system administrator security role:
 
@@ -82,6 +84,7 @@ Run command below:
 
         $cred = New-Object System.Management.Automation.PSCredential ($user, (ConvertTo-SecureString $password –ASPlainText –Force)) 
 
+## Step 4: Run command for your URL
 
 Next, check the topic on [Service URLs](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/online-management-api/get-started-online-management-api#service-url)
 
@@ -89,6 +92,7 @@ Run command below substituting the service URL based on your environment's geogr
 
         $url = “https://admin.services.crm.dynamics.com” 
 
+## Step 5: Run command to get preview flights
 
 Run command below:
 
@@ -101,12 +105,10 @@ If prompted, run software from an untrusted publisher by Entering "R".
 
 If successful you will see a list of preview features. 
 
-FieldServiceInspections_AprilPreviewFlight and flight id : e7ae2630-5868-4de2-8151-65bc7177ab67
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/preview-powershell-previewlist.png)
 
-
+## Step 6: Find ID of preview flight
 
 Find the preview feature you would like to add to your environment and note the ID. In our example it is the ID for Field Service Inspections Flight
 
@@ -119,7 +121,7 @@ Run command below by subsitituting 1) the ID of the preview feature found in Pow
 
 It will say **Added to Flight**
 
-Repeat the last step for each Preview capability you would like to add to your org
+## Step 7: Install or upgrade preview version of Field Service 
 
 
 As a system administrator go to [https://admin.powerplatform.microsoft.com/environments/](https://admin.powerplatform.microsoft.com/environments/).
@@ -143,6 +145,7 @@ Back in the list of apps you will see it has a status of "Installing..."
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/preview-admin5.jpg)
 
+## Step 8: Verify preview flight is installed
 
 Here is an example of the apps that may be in your Dynamics 365 environment BEFORE installing the preview flight.
 
@@ -160,4 +163,5 @@ Simply click on the Field Service app to access Field Service capabilities and t
 ### See also
 
 [Install Field Service](./install-field-service.md)
+
 [Upgrade Field Service](./upgrade-field-service.md)
