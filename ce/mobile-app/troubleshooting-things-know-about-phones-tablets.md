@@ -386,11 +386,13 @@ Most email clients have security restrictions on displayed links. Due to these r
 To workaround this issue wrap the url in a handmade HTML file and send it to your users. For example:
 
 ```html
+<html>
    <title>Wrapping my Dynamics URL</title>
       <head></head>
       <body>
         <a href="ms-dynamicsxrm:///?pagetype=entity&etn=account&id=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx">My Dynamics url</a>
       </body>
+ </html>
 ```
 When a user selects the link, it will open properly on their mobile app.
 
