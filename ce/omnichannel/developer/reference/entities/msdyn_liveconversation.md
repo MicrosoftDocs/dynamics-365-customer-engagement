@@ -1,13 +1,12 @@
 ---
 title: "msdyn_liveconversation Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_liveconversation entity."
+ms.date: 03/23/2020
+ms.service: "crm-online"
+ms.topic: "reference"
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
-ms.date: 08/29/2019
-ms.service: 
-  - crm-online
-ms.topic: "reference"
 ---
 # msdyn_liveconversation Entity Reference
 
@@ -62,6 +61,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [msdyn_activeagentassignedon](#BKMK_msdyn_activeagentassignedon)
 - [msdyn_activeagentid](#BKMK_msdyn_activeagentid)
 - [msdyn_cdsqueueid](#BKMK_msdyn_cdsqueueid)
+- [msdyn_channel](#BKMK_msdyn_channel)
 - [msdyn_closedon](#BKMK_msdyn_closedon)
 - [msdyn_createdon](#BKMK_msdyn_createdon)
 - [msdyn_customer](#BKMK_msdyn_customer)
@@ -81,6 +81,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [msdyn_subject](#BKMK_msdyn_subject)
 - [msdyn_title](#BKMK_msdyn_title)
 - [msdyn_transfercount](#BKMK_msdyn_transfercount)
+- [msdyn_workstreamworkdistributionmode](#BKMK_msdyn_workstreamworkdistributionmode)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -112,7 +113,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description||
+|Description|Date and time when last agent was assigned to the conversation|
 |DisplayName|Active Agent Assigned On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -126,7 +127,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Last agent assigned to the conversation|
 |DisplayName|Active Agent|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -150,12 +151,47 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Lookup|
 
 
+### <a name="BKMK_msdyn_channel"></a> msdyn_channel
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|The channel(s) in the conversation.|
+|DisplayName|Channel|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_channel|
+|RequiredLevel|None|
+|Type|MultiSelectPicklist|
+
+#### msdyn_channel Options
+
+|Value|Label|
+|-----|-----|
+|19241000|Microsoft Teams|
+|192300000|WhatsApp|
+|192310000|LINE|
+|192320000|WeChat|
+|192330000|Facebook|
+|192340000|SMS|
+|192350000|Entity Records|
+|192350001|Twitter|
+|192350002|Custom|
+|192360000|Live chat|
+|192370000|Voice|
+|192380000|Video|
+|192390000|Co-browse|
+|192400000|Screen sharing|
+
+
+
 ### <a name="BKMK_msdyn_closedon"></a> msdyn_closedon
 
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description||
+|Description|Date and time when conversation was closed|
 |DisplayName|Closed On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -170,7 +206,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description||
+|Description|Date and time when conversation was created|
 |DisplayName|Created On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -184,7 +220,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Customer associated to the conversation|
 |DisplayName|Customer|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -226,13 +262,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Value|Label|
 |-----|-----|
 |0|N/A|
-|7|Very Negative|
+|7|Very negative|
 |8|Negative|
-|9|Slightly Negative|
+|9|Slightly negative|
 |10|Neutral|
-|11|Slightly Positive|
+|11|Slightly positive|
 |12|Positive|
-|13|Very Positive|
+|13|Very positive|
 
 
 
@@ -240,7 +276,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Number of times conversation was escalated to Supervisor i.e. transferred to Supervisor|
 |DisplayName|Escalation Count|
 |Format|None|
 |IsValidForForm|True|
@@ -257,7 +293,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description||
+|Description|Time when conversation was initiated|
 |DisplayName|Initiated On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -271,7 +307,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Id of this ongoing conversation record|
 |DisplayName|OngoingConversationId|
 |IsValidForForm|False|
 |IsValidForRead|True|
@@ -285,7 +321,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Work stream associated to the conversation|
 |DisplayName|Work stream|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -300,7 +336,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description||
+|Description|Date and time when conversation was last modified|
 |DisplayName|Modified On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -314,7 +350,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Last agent session|
 |DisplayName|Last session Id|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -345,7 +381,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description||
+|Description|Date and time when conversation was started|
 |DisplayName|Started On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -408,7 +444,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description||
+|Description|Date and time when conversation status was last modified|
 |DisplayName|Status Updated On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -438,7 +474,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Conversation Title|
 |DisplayName|Title|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -454,7 +490,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Number of times the conversation was transferred|
 |DisplayName|Transfer Count|
 |Format|None|
 |IsValidForForm|True|
@@ -464,6 +500,29 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |MinValue|0|
 |RequiredLevel|None|
 |Type|Integer|
+
+
+### <a name="BKMK_msdyn_workstreamworkdistributionmode"></a> msdyn_workstreamworkdistributionmode
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Work distribution mode of the associated work stream|
+|DisplayName|Work distribution mode|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_workstreamworkdistributionmode|
+|RequiredLevel|None|
+|Type|Picklist|
+
+#### msdyn_workstreamworkdistributionmode Options
+
+|Value|Label|
+|-----|-----|
+|192350000|Push|
+|192350001|Pick|
+
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn

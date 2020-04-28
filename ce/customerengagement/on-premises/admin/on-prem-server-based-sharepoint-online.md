@@ -1,7 +1,7 @@
 ﻿---
 title: Configure server-based authentication with Customer Engagement (on-premises) and SharePoint Online
 ms:assetid: 24245deb-48cb-4c13-adfe-efa2fe94b3cd
-ms.date: 10/01/2019
+ms.date: 04/16/2020
 ms.prod: "crm-2016"
 ms.reviewer: ""
 ms.suite: ""
@@ -81,7 +81,7 @@ The following software features are required to run the Windows PowerShell cmdle
 
 2.  Prepare the certificate.
     
-        $CertificateScriptWithCommand = “.\CertificateReconfiguration.ps1 -certificateFile c:\Personalcertfile.pfx -password personal_certfile_password -updateCrm -certificateType S2STokenIssuer -serviceAccount contoso\CRMAsyncService -storeFindType FindBySubjectDistinguishedName”
+        $CertificateScriptWithCommand = “.\CertificateReconfiguration.ps1 -certificateFile c:\Personalcertfile.pfx -password personal_certfile_password -updateCrm -certificateType S2STokenIssuer -serviceAccount contoso\CRMWebApplicationService -storeFindType FindBySubjectDistinguishedName”
         
         Invoke-Expression -command $CertificateScriptWithCommand
 

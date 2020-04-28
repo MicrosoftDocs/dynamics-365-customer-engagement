@@ -6,7 +6,7 @@
 ## Get started
 ### [Overview](sales-professional-overview.md)
 ### [Get started with the basics](learn-basics-sales-professional.md)
-### [Use lookup fields on forms](use-lookup-fields-forms.md)
+### [Use lookup fields on forms](/powerapps/user/lookup-field)
 ### [Work with views (lists)](work-with-views.md)
 ### [Manage your customers](manage-accounts-contacts.md)
 ### [Manage tasks, appointments, email, or phone calls](manage-activities.md)
@@ -27,6 +27,7 @@
 #### [Create and manage leads](manage-leads-sales-professional.md)
 #### [Create or edit opportunities](manage-opportunities-sales-professional.md)
 #### [Add products to an opportunity](add-products-opportunity-sp.md)
+#### [Add products to an opportunity by using the enhanced experience](add-products-enhanced-experience-sp.md)
 #### [Work with opportunities in the Kanban view](opportunity-kanban-view-sp.md)
 ### Understand sales transactions
 #### [Understand sales transactions](understanding-sales-transactions-sales-professional.md)
@@ -83,6 +84,7 @@
 #### [Define lead qualification experience](define-lead-qualification-experience-sp.md)
 #### [Set up enhanced email](set-up-enhanced-email-sp.md)
 #### [Add the Kanban control to Opportunity or Activity entities](add-kanban-control-sp.md)
+#### [Enable the enhanced experience of adding products](enable-enhanced-add-product-experience-sp.md)
 
 ## Customizer guide
 ### [Customize forms](customize-forms.md)

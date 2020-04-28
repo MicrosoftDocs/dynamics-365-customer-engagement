@@ -9,8 +9,7 @@
 
 # Administration
 ## [Work order process architecture](field-service-architecture.md)
-## [Sample data installation (app version 8.x)](install-sample-data-8-x.md)
-## [Sample data installation (earlier app versions)](use-demo-data.md)
+## [Sample data installation](install-sample-data-8-x.md)
 ## [Initial configuration](perform-initial-configurations-setup.md)
 ## [Set up users and security roles](view-user-accounts-security-roles.md)
 ## [Priorities](set-priorities.md)
@@ -63,20 +62,20 @@
 ### [Time constraints](schedule-time-constraints.md)
 ### [Resource preferences](resource-preferences.md)
 ### [Quick scheduling](quick-scheduling.md)
-### [Multi-resource scheduling](multi-resource-scheduling-requirement-groups.md)
-### [Multi-day scheduling](schedule-multi-day-work.md)
-### [Resource crew scheduling](resource-crews.md)
-### [Resource pools](resource-pools.md)
-### [Facility scheduling](facility-scheduling.md)
+### [Multi-resource](multi-resource-scheduling-requirement-groups.md)
+### [Multi-day](schedule-multi-day-work.md)
+### [Crews](resource-crews.md)
+### [Pools](resource-pools.md)
+### [Facilities](facility-scheduling.md)
 
 
 
 ## Schedule board 
 ### [Configure the schedule board](configure-schedule-board.md)
-### [Sharing schedule board tabs](share-schedule-board-tab.md)
+### [Share schedule board tabs](share-schedule-board-tab.md)
 ### [Utilization](schedule-board-utilization.md)
 ### [Schedule board custom resource attribute](extend-schedule-board-custom-resource-attribute.md)
-### [Edit booking template](booking-template.md)
+### [Edit booking templates](booking-template.md)
 ### [Booking alerts](booking-alert.md)
 ### [Schedule board tab settings](schedule-board-tab-settings.md)
 ### [Preview the new schedule board](preview-schedule-board.md)
@@ -87,6 +86,7 @@
 ## [Setup](field-service-mobile-app-user-guide.md)
 ## [Customizations and configurations](mobile-app-configuration-customization.md)
 ## [Activate mobile configurator](activate-fs-mobile-app-license.md)
+## [Map API key](mobile-enable-maps.md)
 ## [Upgrade the mobile project template](mobile-upgrade-project.md)
 ## [Push notifications](mobile-push-notifications.md)
 ## [Device and app management with Microsoft Intune](field-service-mobile-intune.md)
@@ -168,8 +168,11 @@
 ## [SAP integration](field-service-sap-integration.md)
 
 # Additional resources
-## [Version history (web + mobile)](version-history.md)
-## [Bug fixes](bug-fixes.md)
+## Version history (web + mobile)
+### [Field Service](version-history.md)
+### [Field Service Mobile](field-service-version-history-mobile.md)
+### [Universal Resource Scheduling](field-service-version-history-resource-scheduling.md)
+### [Resource Scheduling Optimization](field-service-version-history-resource-scheduling-optimization.md)
 ## [AppSource add-ins for Field Service](appsource-addins.md)
 
 # [Troubleshoot with Solution Health Hub](troubleshoot-field-service-solution-health.md)

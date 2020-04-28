@@ -69,10 +69,12 @@
 
 ### Privacy and compliance
 #### [Data protection and GDPR](gdpr.md)
-#### [Set up double opt-in](double-opt-in.md)
+#### [Set up global double opt-in](double-opt-in.md)
+#### [Set up form double opt-in](form-double-opt-in.md)
 #### [How the app uses cookies](cookies.md)
 
 ### [Best practices for email marketing](get-ready-email-marketing.md)
+### [Email policies and suspension standards](email-policies.md)
 ### [Administration and setup FAQ](setup-troubleshooting.md)
 
 ## [User Guide](user-guide.md)
@@ -125,6 +127,7 @@
 #### [Provide personalized page content](personalized-page-content.md)
 #### [Create marketing forms](marketing-forms.md)
 #### [Enable prefilling for forms](form-prefill.md)
+#### [Integrate Forms Pro with Dynamics 365 Marketing](forms-pro.md)
 #### [Integrate with landing pages on external websites](embed-forms.md)
 #### [Create input fields for forms](marketing-fields.md)
 #### [Set up a subscription center](set-up-subscription-center.md)
@@ -252,3 +255,5 @@
 ### [Metadata reference for your organization](developer/marketing-organization-metadata.md)
 #### [Dynamics 365 Marketing solutions](developer/marketing-solutions.md)
 #### [Dynamics 365 Marketing entity reference](developer/marketing-entity-reference.md)
+
+## [Troubleshoot with Solution Health Hub](troubleshoot-marketing-solution-health.md)

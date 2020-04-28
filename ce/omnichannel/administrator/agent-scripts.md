@@ -4,7 +4,7 @@ description: "Learn about agent scripts and how to configure them in the Omnicha
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 01/31/2020
+ms.date: 04/06/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -74,11 +74,11 @@ First, you need to create agent scripts in the Omnichannel Administration app. T
 
     | Field | Description | Example Value |
     |--------------------|------------------------------|-------------------------------------------|
-    | Name | Provide a name for the agent script step; this appears for the agent at runtime. | Greet the customer. |
+    | Name | Provide a name for the agent script step; this appears for the agent at runtime. You can use slugs for specifying the name of the step. To learn more, see [Slugs](automation-dictionary-keys.md#slugs-for-productivity-tools-macros-and-agent-scripts). | Example 1: Greet the customer. <br><br> Example 2: Hi {customer}  |
     | Order | Specify the order number based on which step is displayed to the agent. | 1 |
     | Action Type | Select an action type from the list: <ul> <li> Text instruction </li> <li> Macro </li> <li> Script </li> |
     | Description | Describe the step briefly for your reference. | This step opens a draft email to send the customer links to knowledge articles. <br><br> **Note:** <br> This field appears only when you select the **Action Type** value as **Target Macro** or **Target script**. |
-    | Text instruction | Specify the text instructions the agent needs to follow and execute. This is a text field. Additionally, you can pass parameter values by using the Slugs and OData queries. More information: [Pass parameter values](automation-dictionary-keys.md)<br><br> **Note:** <br> This field appears only if you select the **Text** value for the **Action Type** field. | Greet the customer with the welcome message from the quick reply repository. |
+    | Text instruction | Specify the text instructions the agent needs to follow and execute. This is a text field. Additionally, you can pass parameter values by using the slugs and OData queries. More information: [Pass parameter values](automation-dictionary-keys.md)<br><br> **Note:** <br> This field appears only if you select the **Text** value for the **Action Type** field. | Greet the customer with the welcome message from the quick reply repository. |
     | Target macro | Type the name of the configured macro in the text box, and then select the macro from the lookup results. <br><br> **Note:** <br> This field appears only if you select the **Macro** value for the **Action Type** field. | Email |
     | Target script | Type the name of the configured script in the text box, and then select the script from the lookup results. <br><br> **Note:** <br> This field appears only if you select the **Script** value for the **Action Type** field. | Close the session |
 
@@ -142,7 +142,7 @@ You can build the expression in the **Agent scripts** tab in the sessions templa
 
 2. Under **Agent Experience**, select **Sessions**.
 
-3. Select the **Agent scripts** tab.
+3. Go to the **Agent scripts** tab.
 
 4. Set the **Enable build expression** toggle to **Yes**, and then select **Build Expression** to define the expression. The **Expression builder** page is displayed.
 

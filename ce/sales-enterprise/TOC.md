@@ -9,7 +9,7 @@
 #### [Overview of admin settings](admin-settings-overview.md)
 #### [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles)
 #### [Set up sales territories](../admin/set-up-sales-territories-organize-business-markets-geographical-area.md)
-#### [System Settings - Sales](../admin/system-settings-dialog-box-sales-tab.md)
+#### [System Settings - Sales](system-settings-sales-tab.md)
 #### [Enable or disable PDF generation from sales records](enable-pdf-generation-quote.md)
 #### [Set up enhanced email](set-up-enhanced-email.md)
 #### [Enable customization of the Opportunity Close form](enable-opportunity-close-customization.md)
@@ -26,6 +26,7 @@
 #### [Set up products](../sales-enterprise/create-product-sales.md)
 #### [Set up product families](../sales-enterprise/create-product-family.md) 
 #### [Set up product bundles to sell multiple items together](../sales-enterprise/create-product-bundles-sell-multiple-items-together.md)
+#### [How are prices calculated for product bundles?](pricing-product-bundles.md)
 #### [Change parent of a product (reparenting)](change-product-parent.md)
 #### [Publish a product, bundle, or family](../sales-enterprise/publish-product-bundle-make-available-selling.md)
 #### [Define product pricing with price lists](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md)
@@ -68,11 +69,16 @@
 #### [Configure Power BI template apps to work with Dynamics 365 Sales](configure-sales-template-apps.md)
 #### [Customize Power BI template apps for Dynamics 365 Sales](customize-template-apps.md)
 
+### Reporting
+#### [Add reporting features to your app](/powerapps/maker/model-driven-apps/add-reporting-to-app)
+
 ### General Data Protection Regulation (GDPR)
 #### [Dynamics 365 Sales & GDPR](../sales-enterprise/dynamics-365-sales-gdpr.md)
 ### Upgrade or downgrade
 #### [Upgrade from Dynamics 365 Sales Professional](upgrade-sales-professional-sales-enterprise.md)
 #### [Move from Dynamics 365 Sales Enterprise to Professional](move-sales-enterprise-sales-professional.md)
+### Export forecast data
+#### [Retrieve forecast and snapshot data using msdyn_ForecastInstanceActions for GDPR](../sales-enterprise/developer/reference/entities/export-forecast-data.md)
 
 
 ## User Guide
@@ -83,6 +89,7 @@
 ### [Send email using the enhanced email experience](enhanced-email.md)
 ### [Insert an email template](insert-email-template.md)
 ### [Create PDF documents](create-quote-pdf.md)
+### [Print quote, invoice, or other records](print-records.md)
 ### [Track and manage activities](manage-activities.md) 
 ### [Work with activities in the Kanban view](activity-kanban-view.md)  
 
@@ -100,6 +107,7 @@
 #### [Reopen leads](../sales-enterprise/re-open-lead-sales.md)
 #### [Add products to an opportunity](add-products-opportunity.md)  
 #### [Add products to an opportunity by using the enhanced experience](add-products-enhanced-experience.md)
+#### [How are stakeholders and sales team members tracked for opportunities?](stakeholders-sales-team-members.md)
 #### [Recalculate an opportunity](recalculate-opportunity.md)
 #### [Close opportunities as won or lost](../sales-enterprise/close-opportunity-won-lost-sales.md)
 #### [Collaborate using SharePoint](collaborate-using-sharepoint-sales.md)
@@ -157,15 +165,10 @@
 ## Developer Guide
 ### [Get started](../sales-enterprise/developer/developer-guide.md)
 ### [Enable sales order processing integration](../sales-enterprise/developer/enable-sales-order-processing-integration.md)
+### Forecasting
+#### [msdyn_ForecastInstanceActions](../sales-enterprise/developer/reference/entities/export-forecast-data.md)
 ### Troubleshooting
 #### [Custom plugin handling through shared variable](../sales-enterprise/developer/custom-plugin-handling-shared-variable.md)
-
-### Manual forecasting
-#### [Entity reference](../sales-enterprise/developer/reference/manual-forecasting-entity-reference.md)
-##### [msdyn_forecastdefinition](../sales-enterprise/developer/reference/entities/msdyn_forecastdefinition.md)
-##### [msdyn_forecastinstance](../sales-enterprise/developer/reference/entities/msdyn_forecastinstance.md)
-##### [msdyn_forecastrecurrence](../sales-enterprise/developer/reference/entities/msdyn_forecastrecurrence.md)
-##### [msdyn_ForecastInstanceActions](../sales-enterprise/developer/reference/entities/export-forecast-data.md)
 #### [Custom actions](../sales-enterprise/developer/reference/custom-actions-manual-forecasting.md)
 ### Playbooks
 #### [Entity reference](../sales-enterprise/developer/reference/playbook-entity-reference.md)

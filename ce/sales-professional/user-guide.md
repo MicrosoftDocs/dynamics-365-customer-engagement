@@ -47,7 +47,7 @@ Focus on the right leads, contacts, and opportunities as you build out your team
 <li><a href="gain-insights-dashboards-sales-professional.md" data-raw-source="[Gain insights with dashboards](gain-insights-dashboards-sales-professional.md)">Gain insights with dashboards</a></li>
 <li><a href="assign-records-sales-professional.md" data-raw-source="[Assign records](assign-records-sales-professional.md)">Assign records</a></li>
 <li><a href="use-document-templates-sales-professional.md" data-raw-source="[Use document templates](use-document-templates-sales-professional.md)">Use document templates</a></li>
-<li><a href="use-lookup-fields-forms.md" data-raw-source="[Manage your SharePoint documents](manage-sharepoint-documents-sales-professional.md)">Manage your SharePoint documents</a></li>
+<li><a href="manage-sharepoint-documents-sales-professional.md" data-raw-source="[Manage your SharePoint documents](manage-sharepoint-documents-sales-professional.md)">Manage your SharePoint documents</a></li>
 
 
 </td><td>

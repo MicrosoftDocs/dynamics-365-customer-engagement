@@ -1,7 +1,7 @@
 ---
 title: "Work with activities in the Kanban view (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use the opportunity Kanban view to visualize all your activities with a card-based view and manage these activities quickly by moving them across the swim lanes."
-ms.date: 02/03/2020
+ms.date: 04/16/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -11,10 +11,6 @@ manager: annbe
 ---
 
 # Work with activities in the Kanban view
-
-[!INCLUDE [cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]  
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 The Kanban view for activities helps salespeople to manage multiple activities quickly. Looking at the Kanban view, salespeople can quickly see the activities and the status they're in. In the Activity Kanban view, activities are represented visually with cards. The lanes represent the default statuses of activities. You can drag the activities to different lanes to move them from one status to another.
 
@@ -40,6 +36,9 @@ To open the Kanban view:
 
 Here are some important things to know about your Kanban view:
 -  At the top of each lane, the count of activities in that lane is shown. At any given point, only the first 10 records/cards are shown in any lane. For example, if there are a total of 30 open activities, the count shows 10/30. To see more cards, scroll down in the lane. When you scroll down, the count changes to show 20/30, and so on.
+
+    > [!NOTE]
+    > If there are more than 50,000 records in a swim lane, the count of records is shown as 50000+. 
 
 -  Selecting the card title opens the activity main form. When you close the Main form, the whole Kanban view is refreshed.
 

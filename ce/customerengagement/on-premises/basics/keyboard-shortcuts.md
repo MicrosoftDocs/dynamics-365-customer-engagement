@@ -59,7 +59,7 @@ If your administrator has enabled editable grids (views), you can edit data dire
 |Task  |Web Client and Unified Interface|
 |---------|---------|
 |When the focus is on a column header, sort by column | Enter key |
-|when the focus is on a column header, open filter dialog | Spacebar|
+|when the focus is on a column header, open filter dialog | Spacebar |
 |When the focus is on the cells, move to the next field |  Right arrow (→) key  | 
 |When the focus is on the cells, move to the previous field   |  Left arrow (←) key|
 |When the focus is on the column header, move to the next column header |  Tab  | 

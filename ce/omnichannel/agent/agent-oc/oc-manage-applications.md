@@ -57,13 +57,10 @@ The title of the application tab is the name of the entity. For example, dashboa
 
 > [!div class=mx-imgBorder]
 > ![App tab title](../../media/oceh/oceh-app-tab-title.png "App tab title")
-
-
-> [!div class="nextstepaction"]
-> [Next topic: View agent dashboard and conversations (work items)](oc-agent-dashboard.md)
-
+ 
 ## See also
 
+- [View agent dashboard and conversations (work items)](oc-agent-dashboard.md)
 - [Manage sessions](oc-manage-sessions.md)
 - [Understand conversation states](oc-conversation-state.md)
 - [View communication panel](oc-conversation-control.md)

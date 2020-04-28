@@ -4,7 +4,7 @@ description: "Instructions to integrate an Azure bot in Omnichannel for Customer
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 12/13/2019
+ms.date: 04/23/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -196,6 +196,10 @@ You can purchase additional bot conversations from Microsoft 365 admin center.
 3.	Under **Add-ons**, select **Dynamics 365 for Customer Service Chatbot session add-on**.
 
 4.	Select the number of add-ons required and complete the purchase.
+
+## Known limitation
+
+Authentication cards are not supported in bots integrated with Omnichannel for Customer Service.
 
 ## Privacy notice
 

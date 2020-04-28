@@ -1,7 +1,7 @@
 ---
 title: "Maximize email deliverability (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to design and send marketing email messages that avoid spam filters and get opened by customers in Dynamics 365 Marketing"
-ms.date: 10/31/2019
+ms.date: 04/07/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -11,7 +11,7 @@ author: alfergus
 ms.author: alfergus
 manager: shellyha
 ms.reviewer:
-topic-status: Drafting
+topic-status: 
 search.audienceType: 
   - admin
   - customizer
@@ -27,7 +27,7 @@ Sending marketing email is not the same as sending personal email as most people
 
 In response to various email abuses, such as widely targeted spam and scams, most companies and email providers now implement filtering and blocking mechanisms to defend their bandwidth and keep their users' inboxes clean. So, when somebody begins sending a large volume of email, the internet takes notice and defensive mechanisms might begin to kick in, which might result in keeping your messages out of your contacts' inboxes. Individual email clients also apply their own filtering algorithms that, among other things, can filter based on each user's personal history of interactions, which can mean that an identical message that gets delivered to one recipient could get blocked by another recipient's email client.
 
-These systems are not intended to stop all forms of legitimate marketing email, just to block abuse. Dynamics 365 Marketing is designed to be one of the good guys—to facilitate collaborative, opt-in marketing—but you do need to be aware of how to work in the context of common filtering strategies, anti-spam laws and other anti-abuse mechanisms to help make sure your marketing messages get delivered to your contacts rather than stuck in their spam filters.
+These systems are not intended to stop all forms of legitimate marketing email, just to block abuse. Dynamics 365 Marketing is designed to be one of the good guys—to facilitate collaborative, opt-in marketing—but you do need to be aware of how to work in the context of common filtering strategies, anti-spam laws, and other anti-abuse mechanisms to help make sure your marketing messages get delivered to your contacts rather than stuck in their spam filters.
 
 ## Build and protect your sender reputation
 
@@ -43,6 +43,24 @@ So what can you do to maximize your deliverability and remain within the law, an
 
 Both spam filters and sender-reputation systems analyze the content of the messages you are trying to send. They look for signs that you are working together with your recipients and are identifying yourself honestly. Common requirements here are the presence of unsubscribe links and your organization's physical street address in the message body. Messages in HTML format should also include a plain-text version that has the same information. Dynamics 365 Marketing provides features to make it easy to include these essential items in your messages, and helps prevent you from leaving them out by mistake.
 
+### Be mindful of the size of your HTML content
+
+You should limit the HTML content of email messages to a maximum size of 100KB. This size limit includes all HTML text, styles, comments, and embedded graphics (but not anchored external graphics). If the HTML content exceeds 128KB, you'll receive a size warning, but you can still go live with the email and any customer journey that includes the email.
+
+The HTML size limit is important because email providers (such as Gmail) "clip" email messages that are above a certain size (102KB, in Gmail's case). Instead of including the full message in a recipient's inbox, the email provider will truncate the message and include a link to view the entire message. Additionally, some spam filters scrutinize more intensely when they see large emails.
+
+When you go live with a message, Marketing processes the HTML content to create inline styles, compress spaces, and more, so it can be hard to know the exact final size of the message. If you have a message that you suspect violates the HTML size limit, do the following:
+
+1. Open a web browser and enter a URL of the form:   `https://<your_domain>/api/data/v9.0/msdyncrm_marketingemails(<email_id>)`  
+
+Where:
+- _&lt;your_domain&gt;_ is the root of your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] instance (such as "contoso.crm.dynamics.com").
+- _&lt;email_id&gt;_ is the ID for the message you want to check. To find this ID, open the message in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and find the value of the `id=` parameter shown in your browser's address bar.
+
+2. Search for the value of the field "msdyncrm_emailbody" in the returned JSON.
+
+1. Copy the value of that field into a text program that can tell you the exact size of the HTML content.
+
 ### Authenticate your sending domain
 
 Dynamics 365 Marketing provides a feature that enables you to set up _DomainKeys Identified Mail_ ([DKIM](https://dkim.org/info/dkim-faq.html)) to link your Dynamics 365 Marketing sending domain with your own email domain. For complete details on why this is important and how to do it, see [Set up DKIM for your sending domain](#dkim).
@@ -56,7 +74,7 @@ Microsoft needs to defend the reputation of our sending IPs, so organizations th
 Dynamics 365 Marketing provides detailed analytics and KPIs for how your contacts interact with your marketing email messages (and other initiatives), including counts of opens, clicks, bounces, and forwards. Use this information to evaluate your success in engaging contacts and to keep your database free of hard-bouncing addresses. More information: [Analyze results to gain insights](insights.md)
 
 > [!NOTE]
-> Dynamics 365 Marketing won't try to send to a known hard-bouncing address during the six-month quarantine period. However, your email insights will still indicate a hard-bounce result for each such delivery that you have requested. These "virtual" hard bounces don’t impact your sending IP reputation, but they do count against your monthly send quota in Dynamics 365 Marketing&mdash;and these addresses will be tried again after the six-month quarantine. We therefore recommend that you regularly check your results for hard bounces, and remove the hard-bouncing addresses from your contact records.
+> Dynamics 365 Marketing won't try to send to a known hard-bouncing address during the six-month quarantine period. However, your email insights will still indicate a hard-bounce result for each such delivery that you have requested. These "virtual" hard bounces don't impact your sending IP reputation, but they do count against your monthly send quota in Dynamics 365 Marketing&mdash;and these addresses will be tried again after the six-month quarantine. We therefore recommend that you regularly check your results for hard bounces, and remove the hard-bouncing addresses from your contact records.
 
 ### Don't use purchased or rented mailing lists
 
@@ -66,7 +84,7 @@ We strongly recommend that you do not purchase or rent mailing lists because suc
 
 ### Send consistent volumes
 
-High-scoring sender reputations are associated with IP addresses that send a consistent volume of email. A sudden spike will lower the score, as will intermittent send volumes. Microsoft maintains several IP addresses dedicated to sending messages from Dynamics 365 Marketing in each region, and balances the sending load among them to keep sending volume consistent over time for each IP. Each time we add a new sending IP to a region, we "warm it up" by gradually increasing the volume it sends until it eventually reaches the same level as the other IPs in that region. For most Dynamics 365 Marketing subscribers this is handled automatically and invisibly, but new subscribers who plan to send marketing messages to very large numbers of recipients (in the millions) might need to start small and ramp up over time before reaching full volume; in this case, Microsoft Support will notify you and help you during this process.
+High-scoring sender reputations are associated with IP addresses that send a consistent volume of email. A sudden spike will lower the score, as will intermittent send volumes. Microsoft maintains several IP addresses dedicated to sending messages from Dynamics 365 Marketing in each region, and balances the sending load among them to keep sending volume consistent over time for each IP. Each time we add a new sending IP to a region, we "warm it up" by gradually increasing the volume it sends until it eventually reaches the same level as the other IPs in that region. For most Dynamics 365 Marketing subscribers this is handled automatically and invisibly, but new subscribers who plan to send marketing messages to large numbers of recipients (in the millions) might need to start small and ramp up over time before reaching full volume; in this case, Microsoft Support will notify you and help you during this process.
 
 <a name="dkim"></a>
 
@@ -91,13 +109,13 @@ Once you have all of the relevant email-authentication systems in place, we high
 1. Set up an email account that you can read on as each of as many services and domains as you can.
 1. Set up a contact record for each of these addresses in Dynamics 365 Marketing.
 1. Run a [simple email campaign](create-simple-customer-journey.md) that targets all of your test contacts.
-1. Inspect the inbox for each account to confirm your messages arrive in the inbox and don't get labelled as junk.
+1. Inspect the inbox for each account to confirm your messages arrive in the inbox and don't get labeled as junk.
 
 ## Microsoft's spam policy for email marketing
 
 Throughout this topic, we've stressed the importance of maintaining clean, opted-in send lists combined with valued content and collaborative sending behavior. These are all important aspects of building a strong sender reputation and thereby achieving high deliverability and in-box placement. Because email sent by Dynamics 365 Marketing is delivered from shared sending domains, Microsoft constantly monitors all delivery results, spam complaints, and blacklists to make sure our sending domains maintain their high reputation for the benefit of all customers.
 
-To help protect you, the responsible marketer, against the behavior of bad actors beyond your control, we have implemented an anti-spam policy that protects your sending reputation. Here’s how it works:
+To help protect you, the responsible marketer, against the behavior of bad actors beyond your control, we have implemented an anti-spam policy that protects your sending reputation. Here's how it works:
 
 ### Stage 1: Inform and warn
 
@@ -112,7 +130,7 @@ When this occurs, we will send email notification to alert the customer that we 
 
 ## Using a dedicated sender IP
 
-In a standard Dynamics 365 Marketing setup, all sender IPs are managed by Microsoft and shared among customers that have similar reputation scores. This lets us manage reputation, balance the send load, and warm up new IPs as needed. However, some organizations prefer to use one or more of their own, dedicated sender IPs, especially if they will be sending very high volumes.
+In a standard Dynamics 365 Marketing setup, all sender IPs are managed by Microsoft and shared among customers that have similar reputation scores. This lets us manage reputation, balance the send load, and warm up new IPs as needed. However, some organizations prefer to use one or more of their own, dedicated sender IPs, especially if they will be sending high volumes.
 
 > [!NOTE]
 > Dedicated sender IPs are not part of the standard Dynamics 365 Marketing subscription agreement, and Microsoft does not generally recommend them because they introduce extra complexity and expense—and can result reduced deliverability compared to our standard sender IPs. Microsoft considers applications for dedicated sender IPs on a case-by-case basis, and we can support multiple dedicated sender IPs if needed. If you think your organization could benefit from a dedicated sender IP, please [contact Microsoft Support](setup-troubleshooting.md#contact-support) to find out if you qualify. The main goal of this process is to help you achieve as high a delivery rate as possible. Some of the most important factors to consider when making this decision include:

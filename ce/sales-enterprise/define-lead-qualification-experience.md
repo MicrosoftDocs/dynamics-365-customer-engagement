@@ -23,11 +23,11 @@ To define the experience:
 
     The **Business Management** page opens.
 
-2.	Select **Settings**, then **Administration**, and then **System Settings**.
+2.    Select **Settings**, then **Administration**, and then **System Settings**.
 
-3.	Select the **Sales** tab.
+3.    Select the **Sales** tab.
 
-4.	Under **Qualify lead experience**, set **Create Account, Contact, and Opportunity records by default upon qualifying a lead** to **No**.
+4.    Under **Qualify lead experience**, set **Create Account, Contact, and Opportunity records by default upon qualifying a lead** to **No**.
 
 This prompts salespeople to select which record types to be created once a lead is qualified. 
 
@@ -35,10 +35,13 @@ If you set **Create Account, Contact, and Opportunity records by default upon qu
 
 This behavior is applicable on all the leads that are qualified after this setting is updated.
 
-> [!IMPORTANT]
-> With the February 2020 early access release, you can find this setting in the Sales Hub App Settings area itself. To go to this setting:
-> 1. At the bottom of the site map, select **Change area** ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**. 
-> 2. In the site map, select **Overview**, and on the **Overview** page, select **Manage** for **Auto-create records for newly qualified leads**.
+With the April 2020 release, this setting is also available in the **App Settings** area of the Sales Hub app itself. 
+
+To go to this setting:
+
+1. At the bottom of the site map, select **Change area** ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**. 
+
+2. In the site map, select **Overview**, and on the **Overview** page, select **Manage** for **Auto-create records for newly qualified leads**.
 
 ### See also
 [Qualify or convert leads](qualify-lead-convert-opportunity-sales.md)  
