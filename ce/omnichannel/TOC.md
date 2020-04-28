@@ -15,7 +15,7 @@
 ## [What's new](omnichannel-whats-new.md)
 
 ## [Videos](videos.md)
-
+## [Learn resources](https://docs.microsoft.com/learn/browse/?term=omnichannel)
 ## Administrator guide
 ### [Overview](administrator/omnichannel-administrator.md)
 ### [Provision Omnichannel for Customer Service](administrator/omnichannel-provision-license.md)
@@ -42,7 +42,6 @@
 ##### [Configure file attachment capability](administrator/configure-file-attachment.md)
 ##### [Embed chat widget in Power Apps portals](administrator/embed-chat-widget-portal.md)
 ##### [Configure proactive chat](administrator/proactive-chat.md)
-#### Entity records
 #### SMS channels
 ##### [Configure an SMS channel for TeleSign](administrator/configure-sms-channel.md)
 ##### [Configure an SMS channel for Twilio](administrator/Configure-sms-channel-twilio.md)
@@ -262,7 +261,9 @@
 #### [Start chat proactively](developer/how-to/start-proactive-chat.md)
 #### [Enable a bot to escalate and end conversation](developer/bot-escalate-end-conversation.md)
 #### [Auto-close a conversation](developer/auto-close-conversation.md)
-#### [Build a custom smart assist bot](developer/how-to/smart-assist-bot.md)
+#### Smart assist bot
+##### [Build a smart assist bot](developer/how-to/smart-assist-bot.md)
+##### [Implement custom scenario](developer/how-to/smart-assist-scenario.md)
 #### [Bring your own channel](developer/how-to/bring-your-own-channel.md)
 #### [Customize chat widget](developer/how-to/customize-chat-widget.md)
 ### Entity reference

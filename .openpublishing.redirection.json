@@ -1,11 +1,16 @@
 {
   "redirections": [
     {
-
       "source_path": "ce/marketing/spam-score.md",
       "redirect_url": "spam-checker",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/marketing/smart-scheduler.md",
       "redirect_url": "automated-scheduler",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/marketing/email-design-update.md",
       "redirect_url": "email-design",
       "redirect_document_id": "false"
@@ -483,6 +488,16 @@
     {
       "source_path": "ce/field-service/set-up-payment-terms.md",
       "redirect_url": "inventory-purchasing-returns-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/bug-fixes.md",
+      "redirect_url": "version-history",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/use-demo-data.md",
+      "redirect_url": "install-sample-data-8-x",
       "redirect_document_id": "false"
     },
     {
@@ -17841,16 +17856,6 @@
       "redirect_url": "introduction-migration-entity-records.md",
       "redirect_document_id": false
     },
-    {
-      "source_path": "ce/customer-service/channel-integration-framework/v2/reference/microsoft-ciframework/notifyNewActivity.md",
-      "redirect_url": "../microsoft-ciframework-v2",
-      "redirect_document_id": false
-    },
-    {  
-      "source_path": "ce/customer-service/channel-integration-framework/v2/reference/microsoft-ciframework/notifyKPIBreach.md",
-      "redirect_url": "../microsoft-ciframework-v2",
-      "redirect_document_id": false
-    },
     {  
       "source_path": "ce/customer-service/channel-integration-framework/v2/onboard-org-flight.md",
       "redirect_url": "get-channel-integration-framework",
@@ -17860,6 +17865,36 @@
       "source_path": "ce/sales-enterprise/troubleshooting-admin.md",
       "redirect_url": "troubleshooting",
       "redirect_document_id": false
-    }   
+    },
+    {  
+      "source_path": "ce/sales-enterprise/create-forecast-definition.md",
+      "redirect_url": "configure-forecast",
+      "redirect_document_id": false
+    },
+    {  
+      "source_path": "ce/sales-enterprise/developer/reference/manual-forecasting-entity-reference.md",
+      "redirect_url": "custom-actions-manual-forecasting",
+      "redirect_document_id": false
+    },
+    {  
+      "source_path": "ce/sales-enterprise/developer/reference/entities/msdyn_forecastdefinition.md",
+      "redirect_url": "export-forecast-data",
+      "redirect_document_id": false
+    },
+    {  
+      "source_path": "ce/sales-enterprise/developer/reference/entities/msdyn_forecastinstance.md",
+      "redirect_url": "export-forecast-data",
+      "redirect_document_id": false
+    },
+    {  
+      "source_path": "ce/sales-enterprise/developer/reference/entities/msdyn_forecastrecurrence.md",
+      "redirect_url": "export-forecast-data",
+      "redirect_document_id": false
+    },
+    {  
+      "source_path": "ce/sales-professional/use-lookup-fields-forms.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/user/lookup-field",
+      "redirect_document_id": false
+    }
   ]
 }

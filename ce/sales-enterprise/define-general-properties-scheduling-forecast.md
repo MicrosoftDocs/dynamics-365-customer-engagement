@@ -77,3 +77,5 @@ Using the general properties and scheduling options of the forecast configuratio
 ### See also
 
 [Configure forecasts in your organization](configure-forecast.md)
+
+[Troubleshooting forecasts](ts-forecasts.md)

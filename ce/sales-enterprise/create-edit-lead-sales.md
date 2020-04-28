@@ -2,10 +2,8 @@
 title: "Create or edit leads (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use leads to track business prospects that you haven't yet qualified."
 ms.date: 10/01/2019
-ms.service: 
+ms.service:
   - "dynamics-365-sales"
-ms.custom: 
-  - "dyn365-sales"
 ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
@@ -25,15 +23,15 @@ In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], you use leads 
 
 3. Follow the process bar to enter data into fields to move the lead to the next stage. 
 
-4. If you’re creating the lead for new customers, enter name, contact details, and company name in the **Lead** form.
+4. If you're creating the lead for new customers, enter name, contact details, and company name in the **Lead** form.
 
     -OR-
     
-    If you’re creating the lead for an existing account or contact, in the **Qualify** stage of the process bar, select the existing account or contact.
+    If you're creating the lead for an existing account or contact, in the **Qualify** stage of the process bar, select the existing account or contact.
 
     - When you select an existing account while creating a lead record, the company name is automatically populated. 
     
-    -	When you select an existing contact while creating a lead record, the following information is automatically populated in the **Lead** form: First Name, Last Name, Job Title, Business Phone, Mobile Phone and Email.
+    -    When you select an existing contact while creating a lead record, the following information is automatically populated in the **Lead** form: First Name, Last Name, Job Title, Business Phone, Mobile Phone and Email.
 
            > [!NOTE]
            > -  Auto-population happens only when creating a new lead and when the corresponding fields in the Lead form are empty. If fields are auto-populated or data is manually entered, the auto population doesn't override the existing values. 
@@ -46,7 +44,7 @@ In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], you use leads 
    In the **Lookup Records** dialog box, enter a name or select the Lookup icon to choose from a list of suggestions. When you've entered the name you want, select **Add**. To create a new contact, select **+ New**. By default, the contact you add is assigned the Stakeholder role. Select the role corresponding to the contact to select a different role such as Decision Maker or Technical Buyer. 
   
     > [!IMPORTANT]
-    > The “+ New” button on Connection sub-grids are supported only for the out-of-box “Stakeholders” views on the Lead entity. For any other Connection sub-grid or “Stakeholders” sub-grids that are based on custom views, the “+ New” button doesn't appear on the sub-grid. In such case, navigate to the Connection Associated view for the record and use the **Connect** button to create a new connection. 
+    > The "+ New" button on Connection sub-grids are supported only for the out-of-box "Stakeholders" views on the Lead entity. For any other Connection sub-grid or "Stakeholders" sub-grids that are based on custom views, the "+ New" button doesn't appear on the sub-grid. In such case, navigate to the Connection Associated view for the record and use the **Connect** button to create a new connection. 
 
 7. In the **Details** area of the **Lead** form, enter information about your lead's industry and preferred contact method.  
    
@@ -61,15 +59,15 @@ In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], you use leads 
  
 3. Follow the process bar to enter data into fields to move the lead to the next stage. 
 
-4. If you’re creating the lead for new customers, enter name, contact details, and company name in the **Lead** form.
+4. If you're creating the lead for new customers, enter name, contact details, and company name in the **Lead** form.
 
     -OR-
     
-    If you’re creating the lead for an existing account or contact, in the **Qualify** stage of the process bar, select the existing account or contact.
+    If you're creating the lead for an existing account or contact, in the **Qualify** stage of the process bar, select the existing account or contact.
 
     - When you select an existing account while creating a lead record, the company name is automatically populated. 
     
-    -	When you select an existing contact while creating a lead record, the following information is automatically populated in the **Lead** form: First Name, Last Name, Job Title, Business Phone, Mobile Phone and Email. 
+    -    When you select an existing contact while creating a lead record, the following information is automatically populated in the **Lead** form: First Name, Last Name, Job Title, Business Phone, Mobile Phone and Email. 
 
 4. Add any notes or activities (for example, phone calls or emails) related to this lead. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Keep track of notes, tasks, calls, or email with activities](../basics/work-with-activities.md)  
 
@@ -101,4 +99,4 @@ In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], you use leads 
  ![Home button](../sales-enterprise/media/home-button.png "Home button") [Learn about the sales process, nurturing sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)  
   
 ### See also  
-[Print leads, quotes, and other records](../basics/print-leads-quotes-other-records.md)
+[Print quote, invoice, or other records](print-records.md)
