@@ -42,27 +42,27 @@ Release For information about other updates to Field Service, visit the [Dynamic
 |  | Region | Current Version | Next Version |  Scheduled Date
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Station 1</strong> | |  |  | |
-| | <i>First Release</i> |[8.8.12.2](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement/blob/master/ce/field-service/version-history.md#88122)| TBD | 05/29/20
+| | <i>First Release</i> |[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| TBD | 05/29/20
 |<strong>Station 2</strong> | |  |  | |
-| | <i>South America</i> |[8.8.12.2](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement/blob/master/ce/field-service/version-history.md#88122)|  TBD | 05/29/20
-| | <i>Canada</i> |[8.8.12.2](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement/blob/master/ce/field-service/version-history.md#88122)| TBD | 05/29/20 
-| | <i>India</i> |[8.8.12.2](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement/blob/master/ce/field-service/version-history.md#88122)| TBD | 04/24/20
-| | <i>France</i> |[8.8.12.2](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement/blob/master/ce/field-service/version-history.md#88122)|  TBD | 05/29/20
-| | <i>United Arab Emirates</i> |[8.8.12.2](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement/blob/master/ce/field-service/version-history.md#88122)|  TBD | 05/29/20
-| | <i>South Africa</i> |[8.8.12.2](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement/blob/master/ce/field-service/version-history.md#88122)|  TBD | 05/29/20
-| | <i>Germany</i> |[8.8.12.2](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement/blob/master/ce/field-service/version-history.md#88122)| TBD | 05/29/20
+| | <i>South America</i> |[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)|  TBD | 05/29/20
+| | <i>Canada</i> |[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| TBD | 05/29/20 
+| | <i>India</i> |[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| TBD | 04/24/20
+| | <i>France</i> |[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)|  TBD | 05/29/20
+| | <i>United Arab Emirates</i> |[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)|  TBD | 05/29/20
+| | <i>South Africa</i> |[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)|  TBD | 05/29/20
+| | <i>Germany</i> |[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| TBD | 05/29/20
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> |[8.8.11.19](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement/blob/master/ce/field-service/version-history.md#881119)| [8.8.12.2](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement/blob/master/ce/field-service/version-history.md#88122)| 05/01/2020 
-| | <i>Asia Pacific</i> |[8.8.11.19](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement/blob/master/ce/field-service/version-history.md#881119)|  [8.8.12.2](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement/blob/master/ce/field-service/version-history.md#88122)|  05/01/2020
-| | <i>Great Britain</i> |[8.8.11.19](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement/blob/master/ce/field-service/version-history.md#881119)|  [8.8.12.2](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement/blob/master/ce/field-service/version-history.md#88122)|  05/01/2020
-| | <i>Oceana</i> |[8.8.11.19](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement/blob/master/ce/field-service/version-history.md#881119)|  [8.8.12.2](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement/blob/master/ce/field-service/version-history.md#88122)|  05/01/2020
+| | <i>Japan</i> |[8.8.11.19](https://docs.microsoft.com/en-us/dynamics365/field-service/version-history#881119)| [8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| 05/01/2020 
+| | <i>Asia Pacific</i> |[8.8.11.19](https://docs.microsoft.com/en-us/dynamics365/field-service/version-history#881119)|  [8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)|  05/01/2020
+| | <i>Great Britain</i> |[8.8.11.19](https://docs.microsoft.com/en-us/dynamics365/field-service/version-history#881119)|  [8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)|  05/01/2020
+| | <i>Oceana</i> |[8.8.11.19](https://docs.microsoft.com/en-us/dynamics365/field-service/version-history#881119)|  [8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)|  05/01/2020
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> |[8.8.11.19](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement/blob/master/ce/field-service/version-history.md#881119)|  [8.8.12.2](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement/blob/master/ce/field-service/version-history.md#88122)| 05/08/2020
+| | <i>Europe</i> |[8.8.11.19](https://docs.microsoft.com/en-us/dynamics365/field-service/version-history#881119)|  [8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| 05/08/2020
 |<strong>Station 5</strong> | |  |  | |
-| | <i>North America</i> |[8.8.11.19](https://docs.microsoft.com/en-us/dynamics365/field-service/version-history#881119)|  [8.8.12.2](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement/blob/master/ce/field-service/version-history.md#88122)| 05/15/2020
+| | <i>North America</i> |[8.8.11.19](https://docs.microsoft.com/en-us/dynamics365/field-service/version-history#881119)|  [8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| 05/15/2020
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Goverment Community Cloud</i> |[8.8.11.19](https://docs.microsoft.com/en-us/dynamics365/field-service/version-history#881119)|  [8.8.12.2](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement/blob/master/ce/field-service/version-history.md#88122)| 05/22/2020
-| | <i>China</i> |[8.8.11.19](https://docs.microsoft.com/en-us/dynamics365/field-service/version-history#881119)| [8.8.12.2](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement/blob/master/ce/field-service/version-history.md#88122)| 05/22/2020
+| | <i>Goverment Community Cloud</i> |[8.8.11.19](https://docs.microsoft.com/en-us/dynamics365/field-service/version-history#881119)|  [8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| 05/22/2020
+| | <i>China</i> |[8.8.11.19](https://docs.microsoft.com/en-us/dynamics365/field-service/version-history#881119)| [8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| 05/22/2020
 
 ## 8.8.12.2 
 
