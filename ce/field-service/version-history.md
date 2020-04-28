@@ -46,7 +46,7 @@ Release For information about other updates to Field Service, visit the [Dynamic
 |<strong>Station 2</strong> | |  |  | |
 | | <i>South America</i> |[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)|  TBD | 05/29/20
 | | <i>Canada</i> |[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| TBD | 05/29/20 
-| | <i>India</i> |[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| TBD | 04/24/20
+| | <i>India</i> |[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| TBD | 05/29/20
 | | <i>France</i> |[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)|  TBD | 05/29/20
 | | <i>United Arab Emirates</i> |[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)|  TBD | 05/29/20
 | | <i>South Africa</i> |[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)|  TBD | 05/29/20
