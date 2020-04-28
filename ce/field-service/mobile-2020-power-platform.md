@@ -2,7 +2,7 @@
 title: "Field Service Mobile (2020) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 04/20/2020
+ms.date: 04/28/2020
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -39,10 +39,7 @@ Available natively for Apple iOS and Google Android phones and tablets, Field Se
 
 It is recommended to continue using the existing "[Field Service Mobile](./field-service-mobile-app-user-guide.md)" mobile app for current and new deployments of Dynamics 365 Field Service. As development in Field Service Mobile (2020) continues through 2021, capabiltiies will become comparable to Field Service Mobile and system administrators should use the feature comparison information below to decide which mobile app is right for their organization or department.
 
-Starting June 2021, new deployments of Dynamics 365 Field Service must use the Field Service Mobile (2020) app.
-
-By June 2022 Field Service Mobile will no longer be supported.
-
+During the period in which the new app continues to evolve, we will continue to make available and support the current Field Service Mobile app.   Organizations which are using the current app as of June 30, 2021 can continue to use the app until June 30, 2022. 
 
 ## Feature comparison: Field Service Mobile (2020) and Field Service Mobile
 
