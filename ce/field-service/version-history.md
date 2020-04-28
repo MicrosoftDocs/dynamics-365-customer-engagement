@@ -64,15 +64,6 @@ Release For information about other updates to Field Service, visit the [Dynamic
 | | <i>Goverment Community Cloud</i> |[8.8.11.19](https://docs.microsoft.com/dynamics365/field-service/version-history#881119)|  [8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| 05/22/2020
 | | <i>China</i> |[8.8.11.19](https://docs.microsoft.com/dynamics365/field-service/version-history#881119)| [8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| 05/22/2020
 
-## 8.8.13.5
-#88135
-
-### Enhancements
-
-### Bug fixes
-- 
-- 
-- 
 
 ## 8.8.12.2 
 
