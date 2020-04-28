@@ -89,7 +89,7 @@ By selecting the **Gear** icon, you can add more details for an inspection quest
 Use the **Preview** section to see the inspection from a technician's perspective.
 
 > [!Note]
-> Once you publish the inspection, you can't edit it in the preview version. 
+> Once you publish the inspection, you can't edit it in the preview version.
 
 When finished creating the inspection, select **Publish** at the top. 
 
@@ -122,7 +122,7 @@ It's common to add service task types to incident types in order to bundle work 
 > ![Screenshot of an incident type showing the service tasks tab.](./media/inspections-service-task-incident-type.png)
 
 > [!Note]
-> In the April 2020 preview, an inspection can't be added or removed from a service task type that already has work order service tasks or incident type service tasks associated to it. If you try to change **Has Inspection** and **Inspection** fields in the service task type, you'll see an error.
+> In the April 2020 preview, an inspection can't be added or removed from a service task type that already has work order service tasks or incident type service tasks associated to it. If you try to change **Has Inspection** and **Inspection** fields in the service task type, you'll see an error.  Also, a published inspection cannot be deleted if it is associated to a service task type or any work order service task.
 
 ## Add inspection to work order
 
