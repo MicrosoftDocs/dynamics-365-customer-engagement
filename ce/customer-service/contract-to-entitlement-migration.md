@@ -19,22 +19,24 @@ search.app:
   - D365CS
 ---
 
-# Contract to Entitlement Migration
+# Contract to Entitlement migration
 
 Dynamics 365 Customer Service will be completing deprecation of contracts, contract line items, and contract template entities by [4Q20](/power-platform/important-changes-coming#contracts-contract-line-items-and-contract-templates-entities-are-deprecated). These items will be removed and replaced by Entitlements and will not be included in future releases.
 
 The following migration support information has been provided to assist customers and prepare for the deprecation of the following:
-- contracts
-- contracts line items
-- contract template entities
+
+- Contracts
+- Contracts line items
+- Contract template entities
 
 ## Migration planning
+
 Depending on how your contract is set up, choose from the following options to prepare your migration:
 
-1. [Mapping: Contract template to Entitlement template](#1)
-2. [Mapping: Contract to Entitlements](#2):<BR>
+- [Mapping: Contract template to Entitlement template](#1)
+- [Mapping: Contract to Entitlements](#2):<BR>
   a. [Single Product Contract](#2a)<BR>
-  b. [Contract and Entitlement Cancellation](#2b)<BR>
+  b. [Contract and Entitlement cancellation](#2b)<BR>
   c. [Billing unit on contract](#2c)<BR>
   d. [Commands on Contract](#2d)<BR>
   e. [State mapping](#2e)
@@ -42,135 +44,129 @@ Depending on how your contract is set up, choose from the following options to p
 <a name="1"></a>
 
 ## Mapping: Contract template to Entitlement template
-If you are currently using the Contract templates, use the following steps to map to the Entitlement template.
+
+If you're currently using the Contract templates, use the following steps to map to the Entitlement template.
 
 ### Allocation Type
- Allocation type to ‘Coverage Dates’ on contract template is used to allow any number of cases to be created between start date and end date of contracts. To switch from the Contract template and map to the Entitlement template:
 
-- **Step 1:**  Select **allocation type** 
+Allocation type to "Coverage Dates" on contract template is used to allow any number of cases to be created between start date and end date of contracts. To switch from the Contract template and map to the Entitlement template:
+
+- **Step 1:**  Select **allocation type**.
 
   ![Allocation Type](media/contract-and-entitlement-allocation-type-1.png)
 
-- **Step 2:** Set **Restriction based on Entitlement terms** to **No**
+- **Step 2:** Set **Restriction based on Entitlement terms** to **No**.
 
   ![Allocation Type](media/contract-and-entitlement-allocation-type-2.png)
 
->[!Important] 
-> 
-> Once entitlement is created from Entitlement template, add Custom code to copy the custom fields added on entitlement for parity with contract lines.
+>[!Important]
+>
+> After an entitlement is created from the Entitlement template, add custom code to copy the custom fields added on entitlement for parity with contract lines.
 
 **Benefits with Entitlement:**
+
 - Created cases will now display warning notices when they exceed allocated terms.
 - Customer usage can be monitored with the option to set and apply restrictions in future.
 
 ## Custom Fields
-Fields which are required for business use case, but not available out of box on Entitlement or for other required fields not available on Entitlements.
+
+Fields that are required for business use case, but not available out of the box on Entitlement or for other required fields not available on Entitlements.
 
 To switch from the Contract template and map to the Entitlement template:
+
 - **Step 1:** Create custom fields with attributes can be created on Entitlement template.  For more information, see [Create and edit fields (attributes)](/dynamics365/customerengagement/on-premises/customize/create-edit-fields).
 - **Step 2:** Place the created fields on the form as per business needs. Use the [basic update](/powerapps/developer/common-data-service/org-service/entity-operations-update-delete#basic-update) SDK code examples as a reference guide to update the entity. For more information, see [Add a field to a from](/dynamics365/customerengagement/on-premises/customize/add-field-form).
-
 
 <a name="2"></a>
 
 ## Mapping: Contract to Entitlements
-If you are currently using Contract you can map to Entitlements via the steps provided below:
+
+If you're currently using Contract you can map to Entitlements by using the following steps:
 
 - **Step 1:**	Create a separate Entitlement for each contract line.
 - **Step 2:**	Create custom attributes on Entitlement for missing contract lines attributes.
-- **Step 3:**	Once entitlement is created from Entitlement template, add Custom code to copy the custom fields added on Entitlement for parity with contract lines.
+- **Step 3:**	After entitlement is created from Entitlement template, add custom code to copy the custom fields added on Entitlement for parity with contract lines.
 
 <a name="2a"></a>
 
-### 2a. Single Product Contract<BR>
-  If you have a contract tied to a single product, use the following steps:
- - **Step 1:** Create entitlement
- - **Step 2:** Add only one product in Product grid
+### 2a. Single Product Contract
+
+If you have a contract tied to a single product, use the following steps:
+
+ - **Step 1:** Create an entitlement.
+ - **Step 2:** Add only one product in Product grid.
   ![Single Product Contract](media/single-product-contract.png)
 
 > [!Note]
-> The concept of the Contract group contract lines Contract has been deprecated and are not available on Entitlement. Entitlement does not provide concept grouping.
+> The concept of the Contract group contract lines Contract has been deprecated and is not available on Entitlement. Entitlement does not provide concept grouping.
 
 <a name="2b"></a>
 
-### 2b. Contract and Entitlement Cancellation<BR>
-Canceling a Contract or Entitlement can be canceled using the following steps:
+### 2b. Contract and entitlement cancellation
+
+A Contract or Entitlement can be canceled using the following steps:
 
 **Cancel Contract**<BR>
 Contracts can be canceled immediately or in the future by:
-- **Step 1:**	Selecting a date
-- **Step 2:**	Clicking cancel
+- **Step 1:**	Select a date.
+- **Step 2:**	Select **Cancel**.
 
   ![Contract and Entitlement Cancellation](media/contract-and-entitlement-cancellation.png)
 
 **Cancel Entitlement**<BR>
-Entitlement can be canceled immediately, but can not be canceled in future.
+Entitlement can be canceled immediately, but can't be canceled in future.
   
 ![Cancel Entitlement](media/cancel-entitlement.png)
 
 <a name="2c"></a>
 
-### 2c. Billing unit on contract<BR>
+### 2c. Billing unit on contract
+
 Billing unit is not available in entitlement. To achieve this in Entitlement, use custom logic.
 For simple rollups, use rollup fields. For more information, see [rollup fields](/dynamics365/customerengagement/on-premises/customize/define-rollup-fields).
 
 <a name="2d"></a>
 
-### 2d. Commands on Contract <BR>
-The following is a list of commands deprecated on Entitlement:
-1. Copy Contract – this command is used to clone the contract 
+### 2d. Commands on contract
+
+The following is a list of commands that have been deprecated on Entitlement:
+
+1. Copy Contract – this command is used to clone the contract
 2. Recalculate – this command is used to recalculate the billing rollup
 3. Onhold – to hold the contract
 4. Release Hold – to release the holded contract
 
 The following is a list of commands available on Entitlements:
-- **Renew** to renew the expired entitlement 
-- **Cancel** to cancel the active entitlement
+
+- **Renew** to renew the expired entitlement.
+- **Cancel** to cancel the active entitlement.
 
 <a name="2e"></a>
 
-### 2e. State mapping <BR>
-- Invoiced state in contract can be mapped to waiting state in Entitlement
-- Draft, active, canceled and expired are same for both Contract and Entitlement
-- Onhold state is not available in Entitlement
+### 2e. State mapping
+
+- The invoiced state in contract can be mapped to the waiting state in Entitlement.
+- The draft, active, canceled, and expired states are same for both Contract and Entitlement.
+- The Onhold state is not available in Entitlement.
 
 ## Runtime impact
+
 Use the following steps to migrate from contract to entitlement:
-- **Step 1**: Move the contract and contract lines to entitlements 
-- **Step 2**: Run update script to update entitlement on case instead of contracts
+
+- **Step 1**: Move the contract and contract lines to entitlements.
+- **Step 2**: Run update script to update entitlement on case instead of contracts.
 
 For business requirement, if resolved case needs to be updated, use the following steps:
-- **Step 1**:	Activate the case 
-- **Step 2**:	Update the entitlement lookup
-- **Step 3**:	Resolve the case
 
->[!IMPORTANT] 
-> Contract and Contract Lines allowed Contract Lines to be associated to a product different than the one listed in Case. However, Entitlement requires the product listed in Case match the product listed in Entitlement. 
+- **Step 1**: Activate the case.
+- **Step 2**: Update the entitlement lookup.
+- **Step 3**: Resolve the case.
+
+> [!IMPORTANT]
+> Contract and Contract Lines allowed Contract Lines to be associated to a product different than the one listed in Case. However, Entitlement requires the product listed in Case matches the product listed in Entitlement.
 >
-> **Example**: Contract lines associated with the product (e.g.: Armhand 100) can be associated in the Case list which is linked to another product (e.g.: ARMhand 150). However with Entitlement, an error will occur when you link an Entitlement associated with a product, 'Armhand 100', with a Case linked to 'Armhand 150'.
+> **Example**: Contract lines associated with the product Armhand 100 can be associated in the Case list which is linked to another product Armhand 150. However with Entitlement, an error will occur when you link an Entitlement associated with a product, "Armhand 100", with a Case linked to "Armhand 150".
 
-### See Also:
+### See also
+
 - [Important changes (deprecations) coming](/power-platform/important-changes-coming) 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
