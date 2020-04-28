@@ -69,7 +69,8 @@
 
 ### Privacy and compliance
 #### [Data protection and GDPR](gdpr.md)
-#### [Set up double opt-in](double-opt-in.md)
+#### [Set up global double opt-in](double-opt-in.md)
+#### [Set up form double opt-in](form-double-opt-in.md)
 #### [How the app uses cookies](cookies.md)
 
 ### [Best practices for email marketing](get-ready-email-marketing.md)

@@ -28,9 +28,6 @@ search.app:
 
 # Resource scheduling and optimization analytics dashboard
 
-> [!Note]
-> This functionality is available in early access as of February 3, 2020. For more information, visit [this article on opting into early access features](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates).
-
 Resource and operations managers need to be able to monitor key operational metrics so that they can gauge resource and scheduling performance. Metric reports can help explore important business-related questions, like: 
 
 -  Are my resources being effectively utilized over a certain period time? 
@@ -49,8 +46,6 @@ Field Service and resource scheduling optimization (RSO) provide three reports f
 In this article, we'll take a look at these three reports in greater detail. 
 
 ## Prerequisites
-
-- Since this feature is in early access, you must be opted-in to get this functionality. To opt in, visit [this article for instructions](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates). 
 
 - To get the resource and utilization report: 
 

@@ -38,7 +38,7 @@ This list identifies all services to which Dynamics 365 for phones and tablets t
 
 | Domain(s) | Protocols | Uses |
 | --- | --- | --- |
-| management.azure.com |https |Starting with version 13.19033.0, used for email sign-in and the app list. |
+| api.businessappdiscovery.microsoft.com |https |Starting with version 13.19033.0, used for email sign-in and the app list. |
 |<br>login.microsoft.com</br> <br>login.windows.net</br> <br>login.microsoftonline.com</br> <br>secure.aadcdn.microsoftonline-p.com</br>|https |Azure Active Directory - used for authentication (in all versions).
 
 
@@ -46,7 +46,7 @@ This list identifies all resources used by Dynamics 365 for phones and tablets. 
 
 | Resources(s) | Uses |
 | --- | --- |
-| service.powerapps.com |Starting with version 13.19033.0, used for email sign-in and the app list. |
+| service.powerapps.com |Starting with version 13.19091.20, used for email sign-in and the app list. |
 
 ## Install the app from your device’s app store
  Choose the download link for your device:

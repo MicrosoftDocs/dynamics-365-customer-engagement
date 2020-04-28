@@ -9,8 +9,7 @@
 
 # Administration
 ## [Work order process architecture](field-service-architecture.md)
-## [Sample data installation (app version 8.x)](install-sample-data-8-x.md)
-## [Sample data installation (earlier app versions)](use-demo-data.md)
+## [Sample data installation](install-sample-data-8-x.md)
 ## [Initial configuration](perform-initial-configurations-setup.md)
 ## [Set up users and security roles](view-user-accounts-security-roles.md)
 ## [Priorities](set-priorities.md)
