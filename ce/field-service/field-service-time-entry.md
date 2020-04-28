@@ -28,9 +28,6 @@ search.app:
 
 # Time entries for Dynamics 365 Field Service
 
-> [!Note]
-> This functionality is available in early access as of February 3, 2020. For more information, visit [this article on opting into early access features](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates).
-
 Time entry capabilities help field service organizations better track the time that technicians spend during work orders and other scenarios. 
 
 Time entries are useful for: 
@@ -51,11 +48,6 @@ There are three ways time entries are created in Dynamics 365 Field Service:
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a list of time entries.](./media/work-order-time-entry.png)
-
-
-## Prerequisites
-
-- You'll need to be opted-in to use early access features. For more information, visit [this article on opting into early access features](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates).
 
 
 ## Automatic time entries

@@ -4,7 +4,7 @@ description: "Instructions to integrate an Azure bot in Omnichannel for Customer
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 12/13/2019
+ms.date: 04/23/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -34,7 +34,7 @@ When you integrate an Azure bot with Omnichannel for Customer Service, you get t
 
 ## Integrate a bot with Omnichannel for Customer Service
 
-**Prerequisites**: You must have a bot that is built using Microsoft Bot Framework and registered with Azure Bot Service. For more information on how to build a bot, see [Azure Bot Service Documentation](https://docs.microsoft.com/azure/bot-service/?view=azure-bot-service-4.0). To integrate your bot in Omnichannel for Customer Service, you must have a Microsoft Teams license ([learn more](https://docs.microsoft.com/MicrosoftTeams/office-365-licensing)).
+**Prerequisites**: You must have a bot that is built using Microsoft Bot Framework and registered with Azure Bot Service. For more information on how to build a bot, see [Azure Bot Service Documentation](https://docs.microsoft.com/azure/bot-service/?view=azure-bot-service-4.0).
 
 To integrate a bot with Omnichannel for Customer Service, you must:
 

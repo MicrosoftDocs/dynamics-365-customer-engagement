@@ -42,7 +42,7 @@ When this bundle is added to an opportunity, its price will be calculated as fol
 
 When you try to update a product that's a required item in a bundle that has been added to an opportunity, quote, order, or invoice record, you might get an error in Dynamics 365 Sales: "You can't update this bundle item because it's a required product in the bundle."
 
-Because the pricing-related fields for a product that's required for the bundle aren't used in price calculations, you can't modify these fields. The pricing-related fields are: Unit, Existing Product, Pricing, Price Per Unit, Volume Discount, Quantity, Amount, Manual Discount, Tax, Extended Amount, Product Type code, Transaction Currency, and Parent Bundle.
+Because the pricing-related fields for a product that's required for the bundle aren't used in price calculations, you can't modify these fields. The pricing-related fields are: Unit, Existing Product, Pricing, Price Per Unit, Volume Discount, Quantity, Amount, Manual Discount, Tax, Extended Amount, Product Type code, Transaction Currency, and Parent Bundle. You can modify fields other than these pricing-related fields.
 
 ### See also
 
