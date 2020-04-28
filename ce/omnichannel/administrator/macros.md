@@ -167,7 +167,7 @@ This action is used for cloning a record. The action contains the following fiel
    | Entity record ID | Specify the ID of the entity record. <br> This is a mandatory field.
    |Record title| Specify the record title.
 
-#### Clone focused record
+#### Clone current record
 
 This action is used for cloning an existing record. The action contains the following field.
    | Field | Description | Parameter |
@@ -184,7 +184,7 @@ This action is used to open the related records in a grid. The action contains t
    | Entity record ID | Specify the ID of the entity record.
    |Relationship name| Specify the relationship between the records.
 
-#### Open knowledge base article
+#### Send KB article in chat
 
 This action is used to paste a knowledge base article in the conversation chat window. It must be used with the **Search knowledge base for the populated phrase** action. The action contains the following field.
 
