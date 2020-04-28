@@ -114,11 +114,17 @@ To schedule work orders to view on the mobile app, you must also [create a booka
 
 ## Use Field Service Mobile (2020)
 
-- Calendar view
-- work order
-- Accounts & contacts
-- Customer Assets
-- Time off requests
+mobile-2020-download-signin
+
+mobile-2020-download-offline.png
+
+mobile-2020-booking-view
+
+mobile-2020-work-order-navigate-directions-map
+
+mobile-2020-work-order-service-notes
+
+mobile-2020-sitemap-account
 
 ## Configure Field Service Mobile (2020)
 
