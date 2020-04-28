@@ -21,7 +21,7 @@ search.app:
 
 # Contract to Entitlement Migration
 
-Dynamics 365 Customer Service will be completing deprecation of contracts, contract line items, and contract template entities by [4Q20](https://docs.microsoft.com/en-us/power-platform/important-changes-coming#contracts-contract-line-items-and-contract-templates-entities-are-deprecated). These items will be removed and replaced by Entitlements and will not be included in future releases.
+Dynamics 365 Customer Service will be completing deprecation of contracts, contract line items, and contract template entities by [4Q20](/power-platform/important-changes-coming#contracts-contract-line-items-and-contract-templates-entities-are-deprecated). These items will be removed and replaced by Entitlements and will not be included in future releases.
 
 The following migration support information has been provided to assist customers and prepare for the deprecation of the following:
 - contracts
@@ -86,7 +86,7 @@ If you are currently using Contract you can map to Entitlements via the steps pr
   If you have a contract tied to a single product, use the following steps:
  - **Step 1:** Create entitlement
  - **Step 2:** Add only one product in Product grid
-  ![Single Product Contract](media\single-product-contract.png)
+  ![Single Product Contract](media/single-product-contract.png)
 
 > [!Note]
 > The concept of the Contract group contract lines Contract has been deprecated and are not available on Entitlement. Entitlement does not provide concept grouping.
