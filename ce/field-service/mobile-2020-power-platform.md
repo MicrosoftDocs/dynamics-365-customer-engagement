@@ -43,8 +43,9 @@ During the period in which the new app continues to evolve, we will continue to 
 
 ## Feature comparison: Field Service Mobile (2020) and Field Service Mobile
 
-- typically an organization will implement one app entirely or for each department
-- Feature parity with current mobile app (Oct 2020)
+Field Service Mobile (2020) is recommended for simpler use cases where administrators want to replicate a simpler version of the work order form for technicians. Because Field Service Mobile (2020) its built on the Power Platform and uses the same admin console as Field Service web, it is easy to set up and get started.
+
+Field Service Mobile is recommended for more complex use cases where you may need offline workflows or validations and a completely custom mobile for specific business processes.
 
 
 | Feature | Cateogry | Field Service Mobile (2020) | Field Service Mobile |
@@ -57,14 +58,14 @@ During the period in which the new app continues to evolve, we will continue to 
 | Driving directions | Technician | Yes | Yes |
 | Speech to text | Technician | Yes | Yes |
 | Push notifications | Technician | | Yes |
-| Maps - multi-entity | Technician | | Yes |
+| Multi entity maps | Technician | | Yes |
 | Chat | Technician | | Yes |
 | Geofencing | Technician | | Yes |
 | IoT alerts | Technician | | Yes |
-| Geocoding | Technician | | Yes |
+| Geocoding | Technician | Yes | Yes |
 | Reporting | Technician | | Yes |
 | Scan to find asset | Technician | | Yes |
-| Editable grids | Technician | | Yes |
+| Editable grids | Technician | Yes | Yes |
 | Location sharing and auditing | Admin | | Yes |
 | Mobile workflows | Admin | | Yes |
 | Enhanced offline sync filters | Admin | | Yes |
