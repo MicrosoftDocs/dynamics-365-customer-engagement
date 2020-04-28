@@ -26,7 +26,7 @@ search.app:
 
 We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365. This release includes some important improvements to quality, performance, and usability. This release is compatible with Dynamics 365 9.x. To update to this release, visit the Admin Center for Dynamics 365 online, solutions page to install the update. For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
-This topic lists the features and fixes that are new or changed for PSA V3, Update Release 18. This version has a build number of V3.10.8.12 and is generally available through a self-update in April 2020.
+This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 18. This version has a build number of V3.10.8.12 and is generally available through a self-update in April 2020.
 
 ## Update Release 18
 
@@ -34,13 +34,13 @@ This topic lists the features and fixes that are new or changed for PSA V3, Upda
 
 **Time and Expense**
 
-- Fixed: **Recall**, **Request**, and **Cancel Approval** flows throw exceptions with unclear error dialogs.
+- Fixed: **Recall**, **Request**, and **Cancel Approval** flows throw exceptions with unclear error messages.
 - Fixed: When **Cancel Approval** fails for an expense, a relevant exception error is not thrown.
 - Fixed: The Time Entry grid incorrectly handles non-working days in Australia after the daylight savings time (DST) switch in October.
 - Fixed: Incorrect defaulting logic prevents submission of expenses.
-- Fixed: When time entry approval fails, the approval remains in a state of, **Pending**.
+- Fixed: When time entry approval fails, the approval remains in a state of **Pending**.
 - Fixed: SQL Errors on bulk approvals (deadlock/timeout).
-- Fixed: Significant performance issues in the User experience caused by unnecessary updates to team members while approving time entries.
+- Fixed: Significant performance issues in the user experience caused by updating team members while approving time entries.
 
 **Project Management**
 
@@ -58,4 +58,4 @@ This topic lists the features and fixes that are new or changed for PSA V3, Upda
 
 **Sales**
 
-- Fixed: When time entries are re-approved (Approve -\> Cancel -\> approve again), a duplicate non-chargeable actual is created.
+- Fixed: When time entries are re-approved (**Approve > Cancel >** approve again), a duplicate non-chargeable actual is created.
