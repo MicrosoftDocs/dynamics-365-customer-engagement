@@ -72,8 +72,8 @@ This action is used to open a new form to create a record. The action contains t
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
-   | Entity Logical Name |  Specify the logical name of the entity that you want to open.<br> This is a mandatory field. | incident |
-   | Entity Form Id | Specify the form ID.<br> This is an optional field. |
+   | Entity logical name |  Specify the logical name of the entity that you want to open.<br> This is a mandatory field. | incident |
+   | Entity form ID | Specify the form ID.<br> This is an optional field. |
    | Attribute Name | Specify the attribute logical name. You need to provide the attribute name to prepopulate the field with a value.| |
    | Attribute Value | Specify the attribute value. You need to provide the attribute value to prepopulate the attribute field. | |
 
@@ -83,9 +83,9 @@ This action is used to open an existing record form. The action contains the fol
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
-   | Entity Logical Name |  Specify the logical name of the entity that you want to open. <br> This is a mandatory field. | incident |
-   | Entity record id| Specify the entity record ID. <br>This is a mandatory field.| |
-   | Entity Form Id | Specify the form ID. <br>This is an optional field. | |
+   | Entity logical name |  Specify the logical name of the entity that you want to open. <br> This is a mandatory field. | incident |
+   | Entity record ID| Specify the entity record ID. <br>This is a mandatory field.| |
+   | Entity form ID | Specify the form ID. <br>This is an optional field. | |
 
 #### Open a record grid
 
@@ -93,9 +93,9 @@ This action is used to open a record grid. The action contains the following fie
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
-   | Entity Logical Name |  Specify the logical name of the entity for which you want to open the grid. <br> This is a mandatory field. | incident |
-   | View Id| Specify the ID of the view that you want to open.<br> This is a mandatory field. | |
-   | View Type | Specify the view type. <br>This is a mandatory field. | |
+   | Entity logical name |  Specify the logical name of the entity for which you want to open the grid. <br> This is a mandatory field. | incident |
+   | View ID| Specify the ID of the view that you want to open.<br> This is a mandatory field. | |
+   | View type | Specify the view type. <br>This is a mandatory field. | |
 
 #### Search knowledge base for the populated phrase
 
@@ -131,8 +131,8 @@ This action is used to update an existing record. The action contains the follow
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
-   | Entity Logical Name |  Specify the logical name of the entity that you want to update. <br> This is a mandatory field. | incident |
-   | Entity record id| Specify the entity record ID. <br>This is a mandatory field.| |
+   | Entity logical name |  Specify the logical name of the entity that you want to update. <br> This is a mandatory field. | incident |
+   | Entity record ID| Specify the entity record ID. <br>This is a mandatory field.| |
    | Attribute Name | Specify the attribute logical name you want to update.| |
    | Attribute Value | Specify the attribute value that will be updated for the above-mentioned attribute. | |
 
@@ -142,10 +142,10 @@ This action is used to open an email with a predefined template. The action cont
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
-   | Entity Logical Name |  Specify the logical name of the entity. <br> This is a mandatory field. | incident |
-   | Entity record id| Specify the entity record ID. <br>This is a mandatory field.| |
-   | Email Recipients | Specify the recipients to whom you want the mail to be sent. <br> This is a mandatory field. | |
-   | Template Id | Specify the ID of the template that must displayed in the email. <br> This is a mandatory field. | |
+   | Entity logical name |  Specify the logical name of the entity. <br> This is a mandatory field. | incident |
+   | Entity record ID| Specify the entity record ID. <br>This is a mandatory field.| |
+   | Email recipients | Specify the recipients to whom you want the mail to be sent. <br> This is a mandatory field. | |
+   | Template ID | Specify the ID of the template that must displayed in the email. <br> This is a mandatory field. | |
 
 #### Resolve a case
 
@@ -153,8 +153,8 @@ This action is used to resolve a case. The action contains the following fields.
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
-   | Billable Time |  Specify the time that is billable. <br> This is a mandatory field. | incident |
-   | Incidentid| Specify the ID of the case that you want to close. <br>This is a mandatory field.| |
+   | Billable time |  Specify the time that is billable. <br> This is a mandatory field. | incident |
+   | Incident ID| Specify the ID of the case that you want to close. <br>This is a mandatory field.| |
    | Resolution | Specify the reason to resolve the case. <br> This is a mandatory field. | |
 
 #### Clone input record
@@ -163,8 +163,8 @@ This action is used for cloning a record. The action contains the following fiel
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
-   | Entity logical name | Specify the logical name of the entity that you want to clone. <br> This is a mandatory field. |  |
-   | Entity record ID | Specify the ID of the entity record. <br> This is a mandatory field.
+   | Entity logical name | Specify the logical name of the entity that you want to clone. <br> This is a mandatory field. |
+   | Entity record ID | Specify the ID of the entity record. <br> This is a mandatory field.|
    |Record title| Specify the record title.
 
 #### Clone current record
@@ -227,8 +227,8 @@ This action is used to open the specified application in a new tab with the attr
    |-----------------|-----------------------------|--------------------------|
    | Page type | Specify  the application type to be opened. More information: [Application types](application-tab-templates.md#application-types) <br> This is a mandatory field.  |
    | Application Template ID  | Specify the ID of the application template. <br> This is a mandatory field. |
-   | Attribute Name  | *Information required from SME*  |
-   | Attribute Value | *Information required from SME* |
+   | Attribute Name | Specify the attribute logical name you want to update.| |
+   | Attribute Value | Specify the attribute value that will be updated for the above-mentioned attribute. | |
 
 ### Omnichannel connector
 
