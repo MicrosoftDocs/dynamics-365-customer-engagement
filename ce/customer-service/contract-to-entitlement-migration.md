@@ -94,26 +94,26 @@ If you're currently using Contract you can map to Entitlements by using the foll
 If you have a contract tied to a single product, use the following steps:
 
  - **Step 1:** Create an entitlement.
- - **Step 2:** Add only one product in Product grid.
+ - **Step 2:** Add only one product in the **PRODUCTS** grid.
   ![Single Product Contract](media/single-product-contract.png)
 
 > [!Note]
-> The concept of the Contract group contract lines Contract has been deprecated and is not available on Entitlement. Entitlement does not provide concept grouping.
+> The concept of the Contract group contract lines Contract has been deprecated and is not available on entitlement. Entitlement does not provide concept grouping.
 
 <a name="2b"></a>
 
 ### 2b. Contract and entitlement cancellation
 
-A Contract or Entitlement can be canceled using the following steps:
+A contract or entitlement can be canceled using the following steps:
 
-**Cancel Contract**<BR>
+**Cancel a contract**<BR>
 Contracts can be canceled immediately or in the future by:
-- **Step 1:**	Select a date.
-- **Step 2:**	Select **Cancel**.
+- **Step 1:**	Selecting a date.
+- **Step 2:**	Selecting **Confirm**.
 
   ![Contract and Entitlement Cancellation](media/contract-and-entitlement-cancellation.png)
 
-**Cancel Entitlement**<BR>
+**Cancel an entitlement**<BR>
 Entitlement can be canceled immediately, but can't be canceled in future.
   
 ![Cancel Entitlement](media/cancel-entitlement.png)
@@ -122,19 +122,19 @@ Entitlement can be canceled immediately, but can't be canceled in future.
 
 ### 2c. Billing unit on contract
 
-Billing unit is not available in entitlement. To achieve this in Entitlement, use custom logic.
+Billing unit is not available in entitlement. To achieve this in entitlement, use custom logic.
 For simple rollups, use rollup fields. For more information, see [rollup fields](/dynamics365/customerengagement/on-premises/customize/define-rollup-fields).
 
 <a name="2d"></a>
 
 ### 2d. Commands on contract
 
-The following is a list of commands that have been deprecated on Entitlement:
+The following is a list of commands that have been deprecated on entitlement:
 
-1. Copy Contract – this command is used to clone the contract
-2. Recalculate – this command is used to recalculate the billing rollup
-3. Onhold – to hold the contract
-4. Release Hold – to release the holded contract
+- Copy Contract – this command is used to clone the contract
+- Recalculate – this command is used to recalculate the billing rollup
+- Onhold – to hold the contract
+- Release Hold – to release the holded contract
 
 The following is a list of commands available on Entitlements:
 
@@ -145,9 +145,9 @@ The following is a list of commands available on Entitlements:
 
 ### 2e. State mapping
 
-- The invoiced state in contract can be mapped to the waiting state in Entitlement.
-- The draft, active, canceled, and expired states are same for both Contract and Entitlement.
-- The Onhold state is not available in Entitlement.
+- The invoiced state in contract can be mapped to the waiting state in the entitlement.
+- The draft, active, canceled, and expired states are same for both contract and entitlement.
+- The Onhold state is not available in entitlement.
 
 ## Runtime impact
 
@@ -163,10 +163,10 @@ For business requirement, if resolved case needs to be updated, use the followin
 - **Step 3**: Resolve the case.
 
 > [!IMPORTANT]
-> Contract and Contract Lines allowed Contract Lines to be associated to a product different than the one listed in Case. However, Entitlement requires the product listed in Case matches the product listed in Entitlement.
+> Contract and Contract Lines allowed Contract Lines to be associated to a product different than the one listed in Case. However, an entitlement requires the product listed in Case matches the product listed in the entitlement.
 >
-> **Example**: Contract lines associated with the product Armhand 100 can be associated in the Case list which is linked to another product Armhand 150. However with Entitlement, an error will occur when you link an Entitlement associated with a product, "Armhand 100", with a Case linked to "Armhand 150".
+> **Example**: Contract lines associated with the product Armband 100 can be associated in the Case list which is linked to another product Armband 150. However with Entitlement, an error will occur when you link an Entitlement associated with a product, "Armband 100", with a Case linked to "Armband 150".
 
 ### See also
 
-- [Important changes (deprecations) coming](/power-platform/important-changes-coming) 
+- [Important changes (deprecations) coming](/power-platform/important-changes-coming)
