@@ -4,7 +4,7 @@ description: Learn more about contract to entitlement migration for Dynamics 365
 author: lerobbin
 ms.author: lerobbin
 manager: shujoshi
-ms.date: 04/27/2020
+ms.date: 04/30/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -51,11 +51,11 @@ If you're currently using the Contract templates, use the following steps to map
 
 Allocation type to "Coverage Dates" on contract template is used to allow any number of cases to be created between start date and end date of contracts. To switch from the Contract template and map to the Entitlement template:
 
-- **Step 1:**  Select **allocation type**.
+- **Step 1:**  Select **Coverage Dates** in **Allocation Type**.
 
   ![Allocation Type](media/contract-and-entitlement-allocation-type-1.png)
 
-- **Step 2:** Set **Restriction based on Entitlement terms** to **No**.
+- **Step 2:** Set **Restrict based on entitlement terms** to **No**.
 
   ![Allocation Type](media/contract-and-entitlement-allocation-type-2.png)
 
@@ -74,7 +74,7 @@ Fields that are required for business use case, but not available out of the box
 
 To switch from the Contract template and map to the Entitlement template:
 
-- **Step 1:** Create custom fields with attributes can be created on Entitlement template.  For more information, see [Create and edit fields (attributes)](/dynamics365/customerengagement/on-premises/customize/create-edit-fields).
+- **Step 1:** Create custom fields with attributes on the Entitlement template.  For more information, see [Create and edit fields (attributes)](/dynamics365/customerengagement/on-premises/customize/create-edit-fields).
 - **Step 2:** Place the created fields on the form as per business needs. Use the [basic update](/powerapps/developer/common-data-service/org-service/entity-operations-update-delete#basic-update) SDK code examples as a reference guide to update the entity. For more information, see [Add a field to a from](/dynamics365/customerengagement/on-premises/customize/add-field-form).
 
 <a name="2"></a>
@@ -89,7 +89,7 @@ If you're currently using Contract you can map to Entitlements by using the foll
 
 <a name="2a"></a>
 
-### 2a. Single Product Contract
+### 2a. Single product contract
 
 If you have a contract tied to a single product, use the following steps:
 
@@ -163,7 +163,7 @@ For business requirement, if resolved case needs to be updated, use the followin
 - **Step 3**: Resolve the case.
 
 > [!IMPORTANT]
-> Contract and Contract Lines allowed Contract Lines to be associated to a product different than the one listed in Case. However, an entitlement requires the product listed in Case matches the product listed in the entitlement.
+> Contract and Contract Lines allowed Contract Lines to be associated to a product that is different from the one listed in Case. However, an entitlement requires the product listed in Case matches the product listed in the entitlement.
 >
 > **Example**: Contract lines associated with the product Armband 100 can be associated in the Case list which is linked to another product Armband 150. However with Entitlement, an error will occur when you link an Entitlement associated with a product, "Armband 100", with a Case linked to "Armband 150".
 
