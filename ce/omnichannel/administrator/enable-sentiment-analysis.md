@@ -46,6 +46,15 @@ After you enable real-time customer sentiment, you can view scores in the [Omnic
 > [!NOTE]
 > In the preview mode, this feature is not available for Government Community Cloud (GCC).
 
+#### Prerequisite task
+
+In the Omnichannel Administration customization settings, enable change tracking for the **Conversation Sentiment** entity.
+
+[!div class=mx-imgBorder]
+![Enable change tracking](../media/change-tracking-sentiment-drivers.png "Enable change tracking")
+
+#### Enable sentiment drivers reporting
+
 After you opt in for real-time sentiment analysis, you can enable sentiment drivers reporting to gain a better understanding of the topics that are affecting customer sentiment.
 
 1. In the **Sentiment analysis** section, set the **Sentiment drivers reporting** toggle to **Yes**.
