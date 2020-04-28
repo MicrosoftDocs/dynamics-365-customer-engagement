@@ -49,13 +49,11 @@ If you are currently using the Contract templates, use the following steps to ma
 
 - **Step 1:**  Select **allocation type** 
 
-  ![Allocation Type](
-media\contract-and-entitlement-allocation-type-1.png)
+  ![Allocation Type](media/contract-and-entitlement-allocation-type-1.png)
 
 - **Step 2:** Set **Restriction based on Entitlement terms** to **No**
 
-  ![Allocation Type](
-media\contract-and-entitlement-allocation-type-2.png)
+  ![Allocation Type](media/contract-and-entitlement-allocation-type-2.png)
 
 >[!Important] 
 > 
@@ -69,8 +67,8 @@ media\contract-and-entitlement-allocation-type-2.png)
 Fields which are required for business use case, but not available out of box on Entitlement or for other required fields not available on Entitlements.
 
 To switch from the Contract template and map to the Entitlement template:
-- **Step 1:** Create custom fields with attributes can be created on Entitlement template.  For more information, see [Create and edit fields (attributes)](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fdynamics365%2Fcustomerengagement%2Fon-premises%2Fcustomize%2Fcreate-edit-fields&data=02%7C01%7CLeslie.Robbins%40microsoft.com%7C3ced38d114ed4219470508d7e74954d0%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637232174499616769&sdata=8zKG2iuS%2F5%2B2hiqD7OLwQjlxrTxtaiyB6YYzThNK6zQ%3D&reserved=0).
-- **Step 2:** Place the created fields on the form as per business needs. Use the [basic update](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/org-service/entity-operations-update-delete#basic-update) SDK code examples as a reference guide to update the entity. For more information, see [Add a field to a from](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/customize/add-field-form).
+- **Step 1:** Create custom fields with attributes can be created on Entitlement template.  For more information, see [Create and edit fields (attributes)](/dynamics365/customerengagement/on-premises/customize/create-edit-fields).
+- **Step 2:** Place the created fields on the form as per business needs. Use the [basic update](/powerapps/developer/common-data-service/org-service/entity-operations-update-delete#basic-update) SDK code examples as a reference guide to update the entity. For more information, see [Add a field to a from](/dynamics365/customerengagement/on-premises/customize/add-field-form).
 
 
 <a name="2"></a>
@@ -103,18 +101,18 @@ Contracts can be canceled immediately or in the future by:
 - **Step 1:**	Selecting a date
 - **Step 2:**	Clicking cancel
 
-  ![Contract and Entitlement Cancellation](media\contract-and-entitlement-cancellation.png)
+  ![Contract and Entitlement Cancellation](media/contract-and-entitlement-cancellation.png)
 
 **Cancel Entitlement**<BR>
 Entitlement can be canceled immediately, but can not be canceled in future.
   
-![Cancel Entitlement](media\cancel-entitlement.png)
+![Cancel Entitlement](media/cancel-entitlement.png)
 
 <a name="2c"></a>
 
 ### 2c. Billing unit on contract<BR>
 Billing unit is not available in entitlement. To achieve this in Entitlement, use custom logic.
-For simple rollups, use rollup fields. For more information, see [rollup fields](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/customize/define-rollup-fields).
+For simple rollups, use rollup fields. For more information, see [rollup fields](/dynamics365/customerengagement/on-premises/customize/define-rollup-fields).
 
 <a name="2d"></a>
 
@@ -146,14 +144,13 @@ For business requirement, if resolved case needs to be updated, use the followin
 - **Step 2**:	Update the entitlement lookup
 - **Step 3**:	Resolve the case
 
->[!Important] 
-> 
+>[!IMPORTANT] 
 > Contract and Contract Lines allowed Contract Lines to be associated to a product different than the one listed in Case. However, Entitlement requires the product listed in Case match the product listed in Entitlement. 
 >
 > **Example**: Contract lines associated with the product (e.g.: Armhand 100) can be associated in the Case list which is linked to another product (e.g.: ARMhand 150). However with Entitlement, an error will occur when you link an Entitlement associated with a product, 'Armhand 100', with a Case linked to 'Armhand 150'.
 
 ### See Also:
-- [Important changes (deprecations) coming](https://docs.microsoft.com/en-us/power-platform/important-changes-coming) 
+- [Important changes (deprecations) coming](/power-platform/important-changes-coming) 
 
 
 
