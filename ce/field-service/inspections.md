@@ -2,7 +2,7 @@
 title: "Dynamics 365 Field Service inspections | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 04/27/2020
+ms.date: 04/28/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -49,7 +49,7 @@ In this article, we'll walk through an example of setting up an inspection using
 ## Prerequisites
 
 > [!Note]
-> Inspection capabilities are released in April 2020 as part of a public preview. Follow the process in the topic on [installing or upgrading preview features](./field-service-preview.md). In Step 6, look for the preview flight with the DisplayName: **FieldService_April2020_PreviewFlight**.
+> Inspection capabilities are released in April 2020 as part of a public preview. Follow the process in the topic on [installing or upgrading preview features](./field-service-preview.md). In Step 6 look for the preview flight with the DisplayName: **FieldService_April2020_PreviewFlight**.
 
 - Dynamics 365 version 9.1.0000.15015+.
 
@@ -81,10 +81,8 @@ The difference between **Radiogroup** and **Dropdown** is cosmetic and should be
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a Field Service inspection, showing additional questions](./media/inspections-create2.png)
 
-By selecting the **Gear** icon, you can add more details for an inspection question. For example, we specified the pressure gauge reading (PSI) question must be a number format.
+By selecting the **Gear** icon, you can add more details for an inspection question. 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a Field Service inspection, showing the gear icon next to a question in the form.](./media/inspections-create-advanced-number.png)
 
 Use the **Preview** section to see the inspection from a technician's perspective.
 
@@ -126,7 +124,7 @@ It's common to add service task types to incident types in order to bundle work 
 
 ## Add inspection to work order
 
-After creating a work order, go to the **Service Tasks** section and add the **Work Order Service Task** you just created that has an associated inspection.
+After creating a work order, go to the **Service Tasks** section and add the **Work Order Service Task** you created that has an associated inspection.
 
 Then **Save**. The inspection cannot be filled out until the Work Order Service Task is saved. 
 
@@ -240,7 +238,7 @@ Storing and retrieving each inspection response in Common Data Model is not part
 
 - The ability to add version numbering to inspections is not part of the April 2020 public preview and is **planned**.
 
-- Inpsections cannot be exported and imported to other environments
+- Inspections cannot be exported and imported to other environments
 
 ### Known issues
 
