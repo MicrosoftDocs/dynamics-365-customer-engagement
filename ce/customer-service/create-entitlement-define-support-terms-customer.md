@@ -29,7 +29,8 @@ Define what kind of support your customers are eligible for by creating entitlem
 ## Create an entitlement
   
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)] You can check your security permissions by following the steps in [View your user profile](../customerengagement/on-premises/basics/view-your-user-profile.md).
-2. In the Customer Service Hub sitemap, go to **Service Management** and select **Service Terms** > **Entitlements**.
+
+2. In the Customer Service Hub sitemap, go to **Service Management**, and select **Service Terms** > **Entitlements**.
 
    > [!NOTE]
    > In the Customer Service app, [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)] and [!INCLUDE[proc_click_or_tap_entitlements](../includes/proc-click-or-tap-entitlements.md)]
@@ -112,7 +113,7 @@ When you save the entitlement, additional sections are added for a new entitleme
   
 2. In the **Search** box, enter the first few letters of the name of the product that you want to associate with the entitlement.  
   
-     If a product isn’t available, select **New** to create a new one.  
+     If a product isn’t available, select **New** to create one.  
   
 ### Associate a customer contact with the entitlement
 
@@ -125,7 +126,7 @@ When you save the entitlement, additional sections are added for a new entitleme
   
 2. In the **Search** box, enter the first few letters of the contact that you want to associate with the entitlement. This contact record must belong to the account or contact specified in the **Customer** field.  
   
-    If a contact isn’t available, select **New** to create a new contact record.  
+    If a contact isn’t available, select **New** to create a contact record.  
   
    All active entitlements for a customer appear in the **Active Entitlements** section of the customer record.  
   
@@ -166,10 +167,10 @@ When you save the entitlement, additional sections are added for a new entitleme
 
  To renew a canceled or expired entitlement, open the entitlement, and then on the command bar, select **Renew**.  
   
- The current entitlement will be set to **Closed** and a new entitlement will be created.  
+ The current entitlement will be set to **Closed**, and a new entitlement will be created.  
   
  The start date of this new entitlement is set to the current date and the end date is set to the current date plus the number of days between the end date and start date. The data in other fields is copied from the old entitlement.  
   
 ### See also  
 
- [Set up entitlements quickly with templates](set-up-entitlements-templates.md) <br>
+ [Set up entitlements quickly with templates](set-up-entitlements-templates.md)  

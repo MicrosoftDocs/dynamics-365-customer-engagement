@@ -42,7 +42,7 @@ You can create a child case from the case form.
 
 3. If you want to add an existing case as a child case, do the following:
    1. On the **Case Relationships** tab, in the **Child Case** section, select the **More Commands** icon (![More Commands](media/more-commands-vertical.png "More Commands")), and then select **Add Existing Case**. The **Lookup Records** flyout appears to the right of the window.
-   2. Searh for a case, and select **Add**.
+   2. Search for a case, and select **Add**.
 
 4.Fill in the case information for the child case, and then select **Save**.  
 

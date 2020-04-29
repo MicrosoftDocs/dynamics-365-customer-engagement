@@ -80,7 +80,7 @@ Keep track of your customer requests and issues by creating support cases in Dyn
   
 5. From the **Find Similar Cases** dialog box, use the search to find similar cases.  
   
-     Select a different subject to see the cases with that subject. You can also search for cases by typing the keyword in the searc box, and then select the **Search** button. When you use a search keyword, it searches on the title of the case and shows the matching results.  
+     Select a different subject to see the cases with that subject. You can also search for cases by typing the keyword in the search box, and then select the **Search** button. When you use a search keyword, it searches on the title of the case and shows the matching results.  
   
 6.  When you find a similar case, select the case to review the case activities, posts, and notes.  
   
