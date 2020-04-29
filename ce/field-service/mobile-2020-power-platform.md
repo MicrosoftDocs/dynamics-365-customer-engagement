@@ -147,7 +147,21 @@ Then, to view bookings on Field Service Mobile (2020) schedule work orders to th
 
 ## Configure Field Service Mobile (2020)
 
+Log in as a system administrator
+
+
+
 ### Edit Sitemap entities on home screen
+
+mobile-2020-admin-app-designer
+
+mobile-2020-admin-sitemap1
+
+mobile-2020-admin-sitemap2
+
+mobile-2020-admin-sitemap3
+
+can i put entities not in FS app in sitemap?
 
 ### Edit the Booking and Work Order form
 
