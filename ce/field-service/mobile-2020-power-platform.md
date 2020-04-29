@@ -263,7 +263,7 @@ As another example, the Work Order Product entity has a data download filter set
 
 
 > [!Note]
-> In addition, only Work Orders related to downloaded bookable resource bookings, are available offline, thus creating a chain of entities and records that are related offline.
+> In addition, only Work Orders related to downloaded bookable resource bookings, are available offline, thus creating a chain of entities and records that are offline: Bookings > Work Orders > Work order products.
 
 
 ## FAQs
