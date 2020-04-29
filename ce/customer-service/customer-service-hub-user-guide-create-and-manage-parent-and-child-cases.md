@@ -4,7 +4,7 @@ description: Understand Cases in Customer Service Hub for Dynamics 365 Customer 
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 11/27/2019
+ms.date: 04/28/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -20,11 +20,11 @@ search.app:
 ---
 # Create and manage parent and child cases
 
- You can manage multiple cases more efficiently if you form parent and child case relationships in Customer Service Hub. When you want to track cases on which other departments will also work, or when you need to track the same issue for multiple customers, create a parent case, and then create child cases. For example, if you get a service request to install new electrical and gas connections, the work has to be done separately by the gas and electric departments. In this situation, you can open two child cases, one for the gas department and the other for the electric department. The original case can be marked as the parent case. After the child cases are resolved, you can then close the parent case.
+ You can manage multiple cases efficiently if you form parent and child case relationships in Customer Service Hub. When you want to track cases that other departments will also work on, or when you need to track the same issue for multiple customers, create a parent case, and then create child cases. For example, if you get a service request to install new electrical and gas connections, the work has to be done separately by the gas and electric departments. In this situation, you can open two child cases, one for the gas department and the other for the electric department. The original case can be marked as the parent case. After the child cases are resolved, you can then close the parent case.
 
 > [!NOTE]
 >
-> - By default, child cases will not appear in the **Regarding** lookup option of an activity. You can customize the filter conditions of the **Case Lookup View** for child cases to appear in the lookup.
+> - By default, child cases will not appear in the **Regarding** lookup option of an activity. If you want the child cases to be displayed in the lookup, you can customize the filter conditions of the **Case Lookup View** in the customizations setting of Customer Service Hub.
 > - A child case can’t have a child case and a parent case can't be a child of another case.
 
 ## Create a child case
