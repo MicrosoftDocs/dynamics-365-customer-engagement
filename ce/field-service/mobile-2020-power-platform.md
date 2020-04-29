@@ -179,6 +179,9 @@ can i put entities not in FS app in sitemap?
 
 - Fields and PCF controls
 
+1. edit work order form
+2. insert work order form in booking form utilizing new control
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-work-order-form-all-sections.png)
