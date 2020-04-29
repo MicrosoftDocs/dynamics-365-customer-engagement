@@ -171,8 +171,21 @@ mobile-2020-admin-work-order-form
 
 mobile-2020-admin-work-order-form-tabs
 
+mobile-2020-admin-booking-form
+
+mobile-2020-admin-booking-form-combined
+
+mobile-2020-admin-booking-form-combined-add-fields
+
+mobile-2020-admin-booking-form-combined-classic
+
+mobile-2020-admin-booking-form-combined-classic-control
+
 
     <QuickForms><QuickFormIds><QuickFormId entityname="msdyn_workorder">c0ebdf20-f27f-4acc-8c9f-a9a202a5e917</QuickFormId></QuickFormIds></QuickForms>
+
+
+mobile-2020-admin-booking-form-combined-classic-control-service
 
 ### Configure offline data and sync filters
 
