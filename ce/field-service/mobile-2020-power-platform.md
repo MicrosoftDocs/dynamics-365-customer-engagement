@@ -181,6 +181,10 @@ can i put entities not in FS app in sitemap?
 
 
 > [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-work-order-form-all-sections.png)
+
+
+> [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-admin-work-order-form.png)
 
 
@@ -211,6 +215,8 @@ can i put entities not in FS app in sitemap?
     <QuickForms><QuickFormIds><QuickFormId entityname="msdyn_workorder">c0ebdf20-f27f-4acc-8c9f-a9a202a5e917</QuickFormId></QuickFormIds></QuickForms>
 
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-admin-form-id.png)
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-admin-booking-form-combined-classic-control-service.png)
