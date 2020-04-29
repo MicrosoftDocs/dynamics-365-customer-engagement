@@ -25,7 +25,7 @@ While working on entities (such as opportunities, quote, order, invoice, quote p
 
 These issues might occur due to improper customization of the application. You must verify these customizations and resolve them. Perform the following verification methods to identify which customization is causing the issue, and then resolve:
 
-- [Deactivate custom plug-in](#deactivate-custom-plug-in)
+- [Deactivate a custom plug-in](#deactivate-custom-plug-in)
 - [Disable custom JavaScript](#disable-custom-javascript)
 - [Deactivate a custom workflow process](#deactivate-custom-process)
 
@@ -159,7 +159,7 @@ To fix the issue of incorrect customization, follow these steps to make sure you
 
 4. Under **Components** in the solution explorer, expand **Entities**, expand **Opportunity**, and then select **Forms**.
 
-5. Open the Opportunity form of type 'Main'.
+5. Open the Opportunity form of type **Main**<!--Edit assumes "Main" is a string in the UI.-->.
 
 6. Double-click to select the **Connections** section in the **Product Line Items** section.
 
