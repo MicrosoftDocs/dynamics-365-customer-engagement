@@ -169,6 +169,8 @@ can i put entities not in FS app in sitemap?
 
 mobile-2020-admin-work-order-form
 
+mobile-2020-admin-work-order-form-tabs
+
 
     <QuickForms><QuickFormIds><QuickFormId entityname="msdyn_workorder">c0ebdf20-f27f-4acc-8c9f-a9a202a5e917</QuickFormId></QuickFormIds></QuickForms>
 
