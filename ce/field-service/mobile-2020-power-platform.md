@@ -43,9 +43,11 @@ During the period in which the new app continues to evolve, we will continue to 
 
 ## Feature comparison: Field Service Mobile (2020) and Field Service Mobile
 
-Field Service Mobile (2020) is recommended for simpler use cases where administrators want to replicate a simpler version of the work order form for technicians. Because Field Service Mobile (2020) its built on the Power Platform and uses the same admin console as Field Service web, it is easy to set up and get started.
+Field Service Mobile (2020) is recommended for simpler use cases and for organizations that want to get up and running quickly with a mobile solution for technicians because Field Service Mobile (2020) is built on the Power Platform and uses the same admin console as Field Service web. 
+ 
 
-Field Service Mobile is recommended for more complex use cases where you may need to custom reporting, push notifications, geo fencing, and business processes or validations that work online and offline.
+
+Field Service Mobile is recommended for more complex use cases where you may need custom reporting, push notifications, geo fencing, and business processes or validations that work offline.
 
 
 | Feature | Cateogry | Field Service Mobile (2020) | Field Service Mobile |
@@ -148,6 +150,8 @@ Then, to view bookings on Field Service Mobile (2020) schedule work orders to th
 ## Configure Field Service Mobile (2020)
 
 Log in as a system administrator
+
+same model driven capabilities on web, so if you have security and license to access on web, you can acces on field service mobile (2020)
 
 
 
