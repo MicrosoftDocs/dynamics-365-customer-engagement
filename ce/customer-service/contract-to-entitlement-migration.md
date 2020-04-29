@@ -19,10 +19,14 @@ search.app:
   - D365CS
 ---
 
+
+<!--editor's note: Please see questions entered in lines 29, 64, 83, 112, and 117.  -->
+
+
 # Contract to entitlement migration
 
 
-<!--Is it OK to provide a date instead of just 4Q20? Or is the specific date not known? See my change below. -->
+<!--Is it OK to provide a date instead of just 4Q20, which people might not know? Or is the specific date not known? See my change below. -->
 
 Dynamics 365 Customer Service will complete deprecation of contracts, contract line items, and contract template entities by [June 30, 2020 (4Q20)](/power-platform/important-changes-coming#contracts-contract-line-items-and-contract-templates-entities-are-deprecated). These items will be removed and replaced by entitlements and will not be included in future releases.
 
@@ -55,6 +59,9 @@ If you're currently using the Contract template, use the following steps to map 
 Allocation type to "Coverage Dates" on Contract templates is used to allow any number of cases to be created between the start date and end date of a contract. To switch from the Contract template and map to the Entitlement template:
 
 - **Step 1:**  Select **Coverage Dates** in **Allocation Type**.
+
+
+<!--In the image, it looks like it's in "Allotment type" rather than "Allocation type." Stay with allocation? -->
 
   ![Allocation Type](media/contract-and-entitlement-allocation-type-1.png "Allocation Type")
 
