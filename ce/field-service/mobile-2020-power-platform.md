@@ -89,10 +89,14 @@ Install or upgrade to **Field Service v8.8.22+**, the Field Service Mobile app w
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-app-list.png)
 
-Set up a Dynamics 35 Field Service user with the **Field Service-Resource** securty role. This user will sign in to the Field Service Mobile (2020) app as a technician.
+Set up a Dynamics 35 Field Service user with the **Field Service-Resource** security role. This user will sign in to the Field Service Mobile (2020) app as a technician.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-resource-secuirty-role.png)
 
 To schedule work orders to view on the mobile app, you must also [create a bookable resource](./set-up-bookable-resources.md) related to your technician user.
 
+Then, to view bookings on Field Service Mobile (2020) schedule work orders to the bookable resource related to your user.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-scheduled-work-orders.png)
@@ -105,42 +109,41 @@ To schedule work orders to view on the mobile app, you must also [create a booka
 
 ## Install and set up Field Service Mobile (2020)
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-app-store.png)
-
 - Download from iOS or Android app stores
 - Standalone app available in app store
+
 - Sign in with Field Service resource user
 
-## Use Field Service Mobile (2020)
-
-
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-download-signin.png)
+> ![Screenshot of ](./media/mobile-2020-download-signin.jpg)
 
+
+
+
+## Use Field Service Mobile (2020)
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-download-offline.png)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-booking-view.png)
+> ![Screenshot of ](./media/mobile-2020-booking-view.jpg)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-work-order-navigate-directions-map.png)
+> ![Screenshot of ](./media/mobile-2020-work-order-navigate-directions-map.jpg)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-work-order-service-notes.png)
+> ![Screenshot of ](./media/mobile-2020-work-order-service-notes.jpg)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-sitemap-account.png)
+> ![Screenshot of ](./media/mobile-2020-sitemap-account.jpg)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-offline.png)
+> ![Screenshot of ](./media/mobile-2020-offline.jpg)
 
 ## Configure Field Service Mobile (2020)
 
@@ -151,6 +154,10 @@ To schedule work orders to view on the mobile app, you must also [create a booka
 - Fields and PCF controls
 
 ### Configure offline data and sync filters
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-offline-list.png)
 
 
 ## FAQs
