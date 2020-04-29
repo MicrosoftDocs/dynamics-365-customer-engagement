@@ -31,7 +31,7 @@ search.app:
 
 | Solution  | Latest version |
 |-------|----|
-| Project Service Automation    |  Update release 18, Version 3  |
+| Project Service Automation    |  3.1+  |
 | Project Service Automation desktop add-in                | 3.15          |
 
 For information about other updates to Project Service, visit the [Dynamics 365 Release Plans](https://docs.microsoft.com/dynamics365/release-plans/). 
@@ -39,28 +39,32 @@ For information about other updates to Project Service, visit the [Dynamics 365 
 |  | Region | Current Version | Next Version |  Scheduled Date
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Station 1</strong> | |  |  | |
-| | <i>First Release</i> |[V3.10.8.12](whats-new-ur-18.md)| TBD | 05/01/20
+| | <i>First Release</i> |[3.1+](whats-new-ur-19.md)| TBD | 05/01/20
 |<strong>Station 2</strong> | |  |  | |
-| | <i>South America</i> |[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)|  TBD | 05/01/20
-| | <i>Canada</i> |[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| TBD | 05/01/20 
-| | <i>India</i> |[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| TBD | 05/01/20
-| | <i>France</i> |[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)|  TBD | 05/01/20
-| | <i>United Arab Emirates</i> |[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)|  TBD | 05/01/20
-| | <i>South Africa</i> |[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)|  TBD | 05/01/20
-| | <i>Germany</i> |[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| TBD | 05/01/20
+| | <i>South America</i> |[3.1+](whats-new-ur-19.md)|  TBD | 05/01/20
+| | <i>Canada</i> |[3.1+](whats-new-ur-19.md)| TBD | 05/01/20 
+| | <i>India</i> |[3.1+](whats-new-ur-19.md)| TBD | 05/01/20
+| | <i>France</i> |[3.1+](whats-new-ur-19.md)|  TBD | 05/01/20
+| | <i>United Arab Emirates</i> |[3.1+](whats-new-ur-19.md)|  TBD | 05/01/20
+| | <i>South Africa</i> |[3.1+](whats-new-ur-19.md)|  TBD | 05/01/20
+| | <i>Germany</i> |[3.1+](whats-new-ur-19.md)| TBD | 05/01/20
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> |[8.8.11.19](https://docs.microsoft.com/dynamics365/field-service/version-history#881119)| [8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| 05/01/2020 
-| | <i>Asia Pacific</i> |[8.8.11.19](https://docs.microsoft.com/dynamics365/field-service/version-history#881119)|  [8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)|  05/01/2020
-| | <i>Great Britain</i> |[8.8.11.19](https://docs.microsoft.com/dynamics365/field-service/version-history#881119)|  [8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)|  05/01/2020
-| | <i>Oceana</i> |[8.8.11.19](https://docs.microsoft.com/dynamics365/field-service/version-history#881119)|  [8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)|  05/01/2020
+| | <i>Japan</i> |[3.1+](whats-new-ur-19.md)| TBD| 05/08/2020 
+| | <i>Asia Pacific</i> |[3.1+](whats-new-ur-19.md)|  TBD |  05/08/2020
+| | <i>Great Britain</i> |[3.1+](whats-new-ur-19.md)|  TBD  |  05/08/2020
+| | <i>Oceana</i> |[3.1+](whats-new-ur-19.md)| TBD  |  05/08/2020
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> |[8.8.11.19](https://docs.microsoft.com/dynamics365/field-service/version-history#881119)|  [8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| 05/08/2020
+| | <i>Europe</i> |[3.1+](whats-new-ur-19.md) | TBD | 05/15/2020
 |<strong>Station 5</strong> | |  |  | |
-| | <i>North America</i> |[8.8.11.19](https://docs.microsoft.com/dynamics365/field-service/version-history#881119)|  [8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| 05/15/2020
+| | <i>North America</i> |[3.1+](whats-new-ur-19.md)| TBD  | 05/22/2020
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Goverment Community Cloud</i> |[8.8.11.19](https://docs.microsoft.com/dynamics365/field-service/version-history#881119)|  [8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| 05/22/2020
-| | <i>China</i> |[8.8.11.19](https://docs.microsoft.com/dynamics365/field-service/version-history#881119)| [8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| 05/22/2020
+| | <i>Goverment Community Cloud</i> |[3.1+](whats-new-ur-19.md) |  TBD  | 05/29/2020
+| | <i>China</i> |[3.1+](whats-new-ur-19.md)| TBD | 05/29/2020
 
+
+## Project Service Automation Update Release 19, V3
+
+### Fixes
 
 ## Project Service Automation Update Release 18, V3
 
