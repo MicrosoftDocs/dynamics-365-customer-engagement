@@ -231,6 +231,18 @@ can i put entities not in FS app in sitemap?
 > ![Screenshot of ](./media/mobile-2020-offline-list.png)
 
 
+mobile-2020-admin-mobile-offline
+
+Mobile Offline Profiles
+
+mobile-2020-offline-profile
+
+1. Download related data only
+2. All records
+3. Other data filter
+4. Custom data filter
+
+
 ## FAQs
 - is this different than FSM and D365 mobile apps?
 - can i add cases, sales orders, and other entities
