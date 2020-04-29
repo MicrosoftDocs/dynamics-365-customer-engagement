@@ -85,7 +85,7 @@ With the SLA feature in Customer Service Hub, you can:
 Perform the following steps to configure SLAs in Customer Service Hub:
 
 - [Review prerequisites](#prerequisites).
-- [Create SLA KPIs](#create-sla-kpis). 
+- [Create SLA KPIs](#create-sla-kpis).
 - [Create SLAs](#create-slas).
 - Learn [how the SLA is applied](#how-is-the-sla-applied).
 
@@ -93,7 +93,8 @@ Perform the following steps to configure SLAs in Customer Service Hub:
 
 Review the following requirements before configuring SLAs for your organization:
 
-- The System Administrator, System Customizer, or Customer Service Manager role is assigned to you.
+- The System Administrator, System Customizer, or Customer Service Manager role is assigned to you. Additionally, make sure that the following permissions have been granted to each role:
+  - Customer Service Representative: 
 
 - Identify target entities and add customizations. To add customizations in target entities to track SLAs, follow these steps:
 
