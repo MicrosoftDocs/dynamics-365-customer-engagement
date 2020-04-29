@@ -40,9 +40,10 @@ Reports in Dynamics 365 Field Service can help you get a birds-eye understanding
 - Insights around specific territories, from work order volume to travel time and more
 
 
+
 ## Prerequisites   
 > [!Note]
-> Work order summary reports are released in April 2020 as part of a public preview. Follow the process in the topic on [installing or upgrading preview features](field-service-preview.md). In Step 6, look for the preview flight with the DisplayName: **FieldService_April2020_PreviewFlight**.
+> Work order summary reports are released in April 2020 as part of a public preview. Follow the process in the article on [installing or upgrading preview features](field-service-preview.md). In Step 6, look for the preview flight with the display name **FieldService_April2020_PreviewFlight**.
 
 
 ## Reports overview
