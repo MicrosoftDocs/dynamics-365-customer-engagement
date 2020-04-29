@@ -93,7 +93,7 @@ There are certain restrictions on inline editing based on the type of products i
 
 **Question**:<br>For a particular **Order** form, how can I change the state of **Prices Locked** field?
 
-**Answer**:<br> You can change the state for the **Prices Locked** field through inline editable grid. Select the **Lock** icon on the editable grid and the state of the **Prices Locked** field changes accordingly. 
+**Answer**:<br> You can change the state for the **Prices Locked** field through the inline editable grid. Select the **Lock** icon on the editable grid, and the state of the **Prices Locked** field changes accordingly. 
 
 In the legacy web client: 
   > [!div class="mx-imgBorder"]
@@ -103,13 +103,13 @@ In Unified Interface:
   > [!div class="mx-imgBorder"]
   > ![Edit pricing for a product in Unified Interface](media/faqs-edit-pricing-for-product-uci.png "Edit pricing for a product in Unified Interface")
 
-**Question**:<br>When can I change the values in **Pricing Per Unit** column in the **Products** grid?
+**Question**:<br>When can I change the values in the **Pricing Per Unit** column in the **Products** grid?
 
-**Answer**:<br>The **Prices Locked** (ispricelocked) field controls the prices specified on the **Order** form and locks them from any further updates.<br>
+**Answer**:<br>The **Prices Locked** (ispricelocked) field controls the prices specified on the **Order** form and locks them from any further updates.
 
-These tables define the behavior of **PricePerUnit** in the **Products** subgrid and **Order** product form:<br> 
+These tables define the behavior of **PricePerUnit** in the **Products** subgrid and **Order** product form: 
 
-**For existing product**:
+**For existing products**:
  
 |Configuration| In editable grid – **PricePerUnit** column value| In non-editable grid – **PricePerUnit** column value| **Order** product form|
 |-------------|-------------|-------------|-------------|
@@ -117,7 +117,7 @@ These tables define the behavior of **PricePerUnit** in the **Products** subgrid
 |**Prices Locked** is No and **Pricing** is Override Price|Editable|Non-editable|Editable|
 |**Prices Locked** is No and **Pricing** is Use Default|Non-editable|Non-editable|Non-editable|
 
-**For write-in product**:
+**For write-in products**:
 
 |Configuration| In editable grid – **PricePerUnit** column value| In non-editable grid – **PricePerUnit** column value| **Order** product form|
 |-------------|-------------|-------------|-------------|
