@@ -167,6 +167,11 @@ can i put entities not in FS app in sitemap?
 
 - Fields and PCF controls
 
+mobile-2020-admin-work-order-form
+
+
+    <QuickForms><QuickFormIds><QuickFormId entityname="msdyn_workorder">c0ebdf20-f27f-4acc-8c9f-a9a202a5e917</QuickFormId></QuickFormIds></QuickForms>
+
 ### Configure offline data and sync filters
 
 
