@@ -49,7 +49,7 @@ In this article, we'll walk through an example of setting up an inspection using
 ## Prerequisites
 
 > [!Note]
-> Inspection capabilities are released in April 2020 as part of a public preview. Follow the process in the topic on [installing or upgrading preview features](field-service-preview.md). In Step 6, look for the preview flight with the DisplayName: **FieldService_April2020_PreviewFlight**.
+> Inspection capabilities are released in April 2020 as part of a public preview. Follow the process in the article on [installing or upgrading preview features](field-service-preview.md). In Step 6, look for the preview flight with the DisplayName **FieldService_April2020_PreviewFlight**.
 
 - Dynamics 365 version 9.1.0000.15015+.
 
