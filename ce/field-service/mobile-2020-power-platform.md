@@ -153,13 +153,21 @@ Log in as a system administrator
 
 ### Edit Sitemap entities on home screen
 
-mobile-2020-admin-app-designer
 
-mobile-2020-admin-sitemap1
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mmobile-2020-admin-app-designer.png)
 
-mobile-2020-admin-sitemap2
 
-mobile-2020-admin-sitemap3
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mmobile-2020-admin-sitemap1.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-admin-sitemap2.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-admin-sitemap3.png)
 
 can i put entities not in FS app in sitemap?
 
@@ -167,25 +175,41 @@ can i put entities not in FS app in sitemap?
 
 - Fields and PCF controls
 
-mobile-2020-admin-work-order-form
 
-mobile-2020-admin-work-order-form-tabs
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-admin-work-order-form.png)
 
-mobile-2020-admin-booking-form
 
-mobile-2020-admin-booking-form-combined
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-admin-work-order-form-tabs.png)
 
-mobile-2020-admin-booking-form-combined-add-fields
 
-mobile-2020-admin-booking-form-combined-classic
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-admin-booking-form.png)
 
-mobile-2020-admin-booking-form-combined-classic-control
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-admin-booking-form-combined.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-admin-booking-form-combined-add-fields.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-admin-booking-form-combined-classic.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-admin-booking-form-combined-classic-control.png)
 
 
     <QuickForms><QuickFormIds><QuickFormId entityname="msdyn_workorder">c0ebdf20-f27f-4acc-8c9f-a9a202a5e917</QuickFormId></QuickFormIds></QuickForms>
 
 
-mobile-2020-admin-booking-form-combined-classic-control-service
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-admin-booking-form-combined-classic-control-service.png)
 
 ### Configure offline data and sync filters
 
