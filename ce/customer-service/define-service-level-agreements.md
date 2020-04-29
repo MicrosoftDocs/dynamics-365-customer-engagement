@@ -4,7 +4,7 @@ description: Know how to define service-level agreements in Dynamics 365 Custome
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/03/2020
+ms.date: 04/28/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice

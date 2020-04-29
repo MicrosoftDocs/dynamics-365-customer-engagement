@@ -4,7 +4,7 @@ description: See how to create entitlements to define the support terms for a cu
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/01/2018
+ms.date: 04/28/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -24,7 +24,7 @@ search.app:
 Define what kind of support your customers are eligible for by creating entitlements in Dynamics 365 Customer Service. With entitlements, you specify the support term based on number of hours or number of cases. The customer’s support level can vary based on the product or service that the customer has purchased. Customers who’ve purchased different products can be entitled to different support levels. This information helps the customer support agents verify what the customers are eligible for and create cases for them accordingly.  
 
 > [!NOTE]
-> With the latest release of Dynamics 365 Customer Service app, entitlements in service management are available in the Customer Service Hub. We recommend that you create and manage entitlements using the new experience. 
+> With the latest release of Dynamics 365 Customer Service app, entitlements in service management are available in the Customer Service Hub. We recommend that you create and manage entitlements using the new experience.
   
 ## Create an entitlement
   
@@ -34,9 +34,9 @@ Define what kind of support your customers are eligible for by creating entitlem
    > [!NOTE]
    > In the Customer Service app, [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)] and [!INCLUDE[proc_click_or_tap_entitlements](../includes/proc-click-or-tap-entitlements.md)]
   
-3. To create a new entitlement from a template, select **New** > **From Template**. In the **Select Template** dialog box, select the entitlement template, and select **Select**.  
+3. To create an entitlement from a template, select **New** > **From Template**. In the **Select Template** dialog box, select the entitlement template, and select **Select**.  
   
-   To create a new entitlement from scratch, select **New** > **Blank Entitlement**. 
+   To create an entitlement from scratch, select **New** > **Blank Entitlement**. 
   
 4. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
 
