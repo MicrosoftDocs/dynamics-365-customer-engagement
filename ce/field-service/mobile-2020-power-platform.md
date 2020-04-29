@@ -158,11 +158,11 @@ same model driven capabilities on web, so if you have security and license to ac
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mmobile-2020-admin-app-designer.png)
+> ![Screenshot of ](./media/mobile-2020-admin-app-designer.png)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mmobile-2020-admin-sitemap1.png)
+> ![Screenshot of ](./media/mobile-2020-admin-sitemap1.png)
 
 
 > [!div class="mx-imgBorder"]
@@ -240,7 +240,9 @@ Mobile Offline Profiles
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-offline-profile.png)
 
-mobile-2020-offline-profile-entities
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-offline-profile-entities.png)
 
 For each entity you can choose and data download filter:
 
