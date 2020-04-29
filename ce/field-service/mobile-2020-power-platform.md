@@ -103,8 +103,7 @@ Then, to view bookings on Field Service Mobile (2020) schedule work orders to th
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-scheduled-work-orders.png)
 
-> [!Note]
->
+
 
 
 
@@ -231,16 +230,40 @@ can i put entities not in FS app in sitemap?
 > ![Screenshot of ](./media/mobile-2020-offline-list.png)
 
 
-mobile-2020-admin-mobile-offline
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-admin-mobile-offline.png)
 
 Mobile Offline Profiles
 
-mobile-2020-offline-profile
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-offline-profile.png)
+
+mobile-2020-offline-profile-entities
+
+For each entity you can choose and data download filter:
 
 1. Download related data only
 2. All records
 3. Other data filter
 4. Custom data filter
+
+As an example, the Bookable Resource Booking (aka "the booking") entity has a data download filter set to **custom data filter** that downloads bookings of a resource that start or end in the next 7 days or yesterday.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-offline-profile-bookable-resource-booking.png)
+
+As another example, the Work Order Product entity has a data download filter set to **Download related data only** which means that only work order products related to downloaded work orders, are available offline. To accomplish this, the work order product mobile offline profile item was listed as an associated profile item of the work order offline profile, as seen in the image below.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-offline-profile-bookable-resource-booking.png)
+
+
+> [!Note]
+> In addition, only Work Orders related to downloaded bookable resource bookings, are available offline, thus creating a chain of entities and records that are related offline.
 
 
 ## FAQs
