@@ -114,17 +114,33 @@ To schedule work orders to view on the mobile app, you must also [create a booka
 
 ## Use Field Service Mobile (2020)
 
-mobile-2020-download-signin
 
-mobile-2020-download-offline.png
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-download-signin.png)
 
-mobile-2020-booking-view
 
-mobile-2020-work-order-navigate-directions-map
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-download-offline.png)
 
-mobile-2020-work-order-service-notes
 
-mobile-2020-sitemap-account
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-booking-view.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-work-order-navigate-directions-map.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-work-order-service-notes.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-sitemap-account.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-offline.png)
 
 ## Configure Field Service Mobile (2020)
 
