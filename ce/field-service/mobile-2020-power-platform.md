@@ -313,7 +313,7 @@ The profile dictates which entities and how many records of each entity will be 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Dynamics 365 Settings, showing the Field Service Mobile offline profile.](./media/mobile-2020-offline-profile-entities.png)
 
-For each entity, you can choose and data download filter:
+For each entity, you can choose a data download filter:
 
 1. Download related data only
 2. All records
