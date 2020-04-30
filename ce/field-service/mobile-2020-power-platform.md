@@ -165,17 +165,31 @@ Then toggle the **Work in offline mode** to on.
 
 ## Configure Field Service Mobile (2020)
 
-Log in as a system administrator
+Administrators can edit how Field Service Mobile (2020) looks and functions for technicians.
 
+Let's walk through three common configurations administrators may perform:
+
+1. Editing the entities displayed in the home screen (sitemap)
+2. Editing the fields and layout in the work order and booking forms
+3. Editing the entities and records downloaded to the mobile phone in offline mode for use without internet access.
 
 
 
 
 ### Edit Sitemap entities on home screen
 
+Log in to Dynamics 365 as a System Administrator.
+
+View your list of apps by going to 
+
+      https://[YOUR-ENVIRONMENT-NAME].crm.dynamics.com/main.aspx?forceUCI=1&pagetype=apps
+
+Find the Field Service Mobile app and go to the App designer.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-admin-app-designer.png)
+
+Select the edit icon to edit the SiteMap
 
 
 > [!div class="mx-imgBorder"]
@@ -189,8 +203,8 @@ Log in as a system administrator
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-admin-sitemap3.png)
 
-can i put entities not in FS app in sitemap?
-
+> [!Note]
+> Use the app designer to choose which views are available in the mobile app. 
 ### Edit the Booking and Work Order form
 
 - Fields and PCF controls
