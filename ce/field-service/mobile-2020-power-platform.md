@@ -53,7 +53,7 @@ Field Service Mobile (2020) is recommended for **simpler** use cases and for org
 Field Service Mobile is recommended for more **complex** use cases where you may need custom reporting, push notifications, geofencing, and business processes or validations that work offline.
 
 
-| Feature | Cateogry | Field Service Mobile (2020) | Field Service Mobile |
+| Feature | Category | Field Service Mobile (2020) | Field Service Mobile |
 | --- | --- | --- | --- |
 | Mobile Platform | Hardware & software | iOS, Android | iOS, Android, Windows |
 | Camera capture (photo & video) | Technician | Yes | Yes |
@@ -111,7 +111,7 @@ Launch the app and sign in with your username and password. This is the user cre
 
 ## Use Field Service Mobile (2020)
 
-Once you sign in, the app will prompt you to download offline data (your scheduled work orders) to the device. If you may not have access to internet, Select **Download**. If you don't currently have internet access, you can **Skip for now**.
+Once you sign in, the app will prompt you to download offline data (your scheduled work orders) to the device. If you anticipate not having internet access, select **Download**. Otherwise you can **Skip for now**. If you're unsure, we recommend downloading the offline data just in case. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service Mobile 2020, showing the download data dialogue.](./media/mobile-2020-download-offline.png)
@@ -157,13 +157,15 @@ If you expect to be in areas without wifi or celular internet access, you can do
 
 From the home screen, select the cloud icon in the bottom left. 
 
-Then select **Dowload offline updates**.
+Then select **Download offline updates**. 
 
 
 > [!div class="mx-imgBorder"]
 > ![Simulated image showing three mobile devices with Field Service Mobile 2020. The device on the left shows the menu, with attention to the cloud icon at the bottom. The middle device shows the offline status screen. The device on the right shows the offline status as available, showing the list of available entities. ](./media/mobile-2020-offline.jpg)
 
-Then toggle the **Work in offline mode** to on.
+When Status = **Available** this means you have all the data you need to work offline.
+
+Then toggle the **Work in offline mode** to on. If you lose interenet connection unexpectedly, the app will automatically work in offline mode if you previously downloaded data.
 
 ## Configure Field Service Mobile (2020)
 
@@ -192,42 +194,41 @@ Find the Field Service Mobile app and go to the **App Designer**.
 
 Select the edit icon to edit the site map.
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the App Designer in Power Apps, showing the Field Service Mobile site map option.](./media/mobile-2020-admin-sitemap1.png)
+
+The groups  **My Work**, **Customers**, and **Other** correspond with the home screen of Field Service Mobile (2020) and you can rearrange, delete, or edit the display names.
+
+Rearrange the entities displayed within each group with the drag and drop interface, or add new entities by adding new **Subareas**.
+
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-admin-sitemap1.png)
+> ![Screenshot of Power Apps, showing the My Work, Customers, and Other groups on the Field Service Mobile App Designer.](./media/mobile-2020-admin-sitemap2.png)
 
-The Groups  "My Work", "Customers" and "Other" correspond with the home screen of Field Service Mobile (2020) and you can rearrange, delete, or edit the display names.
-
-Rearrange the entities displayed within each group with the drag and drop interface or add new entities by adding new Subareas.
-
+You can even create entirely new groups with more subareas to display different entities.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-admin-sitemap2.png)
-
-You can even create entirely new Groups with more Subareas to display different entities.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-admin-sitemap3.png)
+> ![Screenshot of Power Apps, showing Field Service Mobile in the App Designer, and showing a simulated mobile device on the right with the corresponding changes.](./media/mobile-2020-admin-sitemap3.png)
 
 > [!Note]
-> For every entity you display in the sitemap you can choose the views available on mobile in the App Designer page.
+> For every entity you display in the sitemap, you can choose the views available on mobile in the App Designer.
 
-### Edit the Booking and Work Order form
+### Edit the booking and work order form
 
-You can add and delete fields displayed on field service mobile (2020) and because the app is built as a model-driven PowerApp you can utilize the PowerApps Control Framework to display different field controls like tiggle buttons and sliders for example.
+You can add and delete fields displayed on Field Service Mobile (2020); because the app is built as a model-driven Power App, you can use the Power Apps Control Framework to display different field controls like toggle buttons and sliders.
 
-Administrators who want to customize the Booking and Work Order forms must know they are combined in the mobile app where work order forms are displayed within the booking form. That means when a technician views a booking form, he or she is also viewing the related work order form. In the image below, the General section displays Bookable Resource Booking ("Booking") fields and the Customer, Service, and Notes sections display work order fields.
+Administrators who want to customize the booking and work order forms must know they are combined in the mobile app where work order forms are displayed within the booking form. That means when a technician views a booking form, they're also viewing the related work order form. In the following screenshot, the **General** section displays **Bookable Resource Booking** ("Booking") fields and the **Customer**, **Service**, and **Notes** sections display work order fields.
 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-work-order-form-all-sections.png)
-
-To edit the work order portion of the form, go to **Settings > Customizations > Customize the System** and find the Work Order entity in the PowerApps admin console.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-admin-work-order-form.png)
+> ![Simulated image showing a device with Field Service Mobile 2020, showing a screenshot of a Bookable Resource Booking on the General tab. ](./media/mobile-2020-work-order-form-all-sections.png)
 
-In the Form section, there are three forms that correspond to the three sections of the combined Booking-Work Order form.
+To edit the work order portion of the form, go to **Settings** > **Customizations** > **Customize the System** and find the **Work Order** entity in the Power Apps admin console.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Power Apps showing the list of entities.](./media/mobile-2020-admin-work-order-form.png)
+
+In the **Form** section, there are three forms that correspond to the three sections of the combined Booking-Work Order form.
 
 1. Work Order - Customer
 2. Work Order - Service
@@ -236,39 +237,39 @@ In the Form section, there are three forms that correspond to the three sections
 Edit each form as needed and publish. The changes will display in Field Service Mobile (2020).
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-admin-work-order-form-tabs.png)
+> ![Screenshot of Power Apps showing the work order form details.](./media/mobile-2020-admin-work-order-form-tabs.png)
 
-To edit the Booking part of the form, go to the Bookable Resource Booking entity in the PowerApps admin console.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-admin-booking-form.png)
-
-Find the "Booking and Work Order" form shown below.
+To edit the **Booking** part of the form, go to the **Bookable Resource Booking** entity in the Power Apps admin console.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-admin-booking-form-combined.png)
+> ![Screenshot of the Bookable Resource Booking in the Power Apps list of entities.](./media/mobile-2020-admin-booking-form.png)
 
-Add and delete Booking fields as needed.
-
-
+Find the **Booking and Work Order** form, as seen in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-admin-booking-form-combined-add-fields.png)
+> ![Screenshot of of a Bookable Resource Booking in Power Apps, showing the Booking and Work Order form.](./media/mobile-2020-admin-booking-form-combined.png)
 
-The work order forms are displayed within the Booking form with a new control called **Form Component Control**.
+Add and delete booking fields as needed.
+
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-admin-booking-form-combined-classic.png)
+> ![Screenshot of Power Apps showing the form editor for the Bookable Resource Booking.](./media/mobile-2020-admin-booking-form-combined-add-fields.png)
 
-To add more work order information to the booking form, either edit the work order forms mentioned earlier, or first create a new work order form and add it to the booking form by selecting the section and adding a **Form Component Control**.
+The work order forms are displayed within the booking form with a new control called **Form Component Control**.
+
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-admin-booking-form-combined-classic-control.png)
+> ![Screenshot of Power Apps showing the Bookable Resource Booking form editor.](./media/mobile-2020-admin-booking-form-combined-classic.png)
 
-Within the classic admin console, double click the section and Form Component Control for Web, Phone, and Tablet.
+To add more work order information to the booking form, either edit the work order forms mentioned earlier, or create a new work order form and add it to the booking form by selecting the section and adding a **Form Component Control**.
 
-In the Properties section, enter:
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Field Properties dialogue in the Power Apps form editor for the Bookable Resource Booking entity.](./media/mobile-2020-admin-booking-form-combined-classic-control.png)
+
+Within the classic admin console, double-click the section and **Form Component Control** for Web, Phone, and Tablet.
+
+In the **Properties** section, enter:
 
 Lookup value: 
 
@@ -281,59 +282,63 @@ Forms (substitute the form ID of the work order form you created):
 You can get the form ID in the URL when on the form in th admin console.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-admin-form-id.png)
+> ![Screenshot of Power Apps in a web browser, shoing an example form ID in the URL.](./media/mobile-2020-admin-form-id.png)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-admin-booking-form-combined-classic-control-service.png)
+> ![Screenshot of Power Apps form builder for the Bookable Resource Booking.](./media/mobile-2020-admin-booking-form-combined-classic-control-service.png)
 
 ### Configure offline data and sync filters
 
-Administrators can edit the data that is downloaded to Field Service Mobile (2020) in offline mode when no internet access is available. (When internet access is avaialble users will simply see all data on the server they have access to via their secuirty role).
+Administrators can edit the data downloaded to Field Service Mobile (2020) in offline mode when no internet access is available. 
+
+> [!Note]
+> When internet access is available, users will simply see all data on the server they have access to via their security role.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-offline-list.png)
+> ![Simulated image showing Field Service Mobile 2020 on a mobile device, showing the offline status screen.](./media/mobile-2020-offline-list.png)
 
-Go to **Settings > Mobile Offline**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-admin-mobile-offline.png)
-
-Then select Mobile Offline Profiles then choose the "Field Service Mobile - Offline Profile." This is the default configuration for offline data that is included with the Field Service app.
-
+Go to **Settings** > **Mobile Offline**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-offline-profile.png)
+> ![Screenshot of the Settings menu in Dynamics 365 in a browser.](./media/mobile-2020-admin-mobile-offline.png)
+
+Then select **Mobile Offline Profiles**. Choose the **Field Service Mobile - Offline Profile**. This is the default configuration for offline data that is included with the Field Service app.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Dynamics 365 settings, showing the All Mobile Offline Profiles screen.](./media/mobile-2020-offline-profile.png)
 
 The profile dictates which entities and how many records of each entity will be downloaded in offline mode.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-offline-profile-entities.png)
+> ![Screenshot of Dynamics 365 Settings, showing the Field Service Mobile offline profile.](./media/mobile-2020-offline-profile-entities.png)
 
-For each entity you can choose and data download filter:
+For each entity, you can choose and data download filter:
 
 1. Download related data only
 2. All records
 3. Other data filter
 4. Custom data filter
 
-As an example, the Bookable Resource Booking (aka "the booking") entity has a data download filter set to **custom data filter** that downloads bookings of a resource that start or end in the next 7 days or yesterday.
+For example, the **Bookable Resource Booking** (in other words, the booking) entity has a data download filter set to **custom data filter** that downloads resourec bookings that start or end in the next 7 days or yesterday.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-offline-profile-bookable-resource-booking.png)
+> ![Screenshot of the Dynamics 365 Settings showing the mobile offline profile for a bookable resource booking, with attention to the "Define Filter Rules" option.](./media/mobile-2020-offline-profile-bookable-resource-booking.png)
 
-As another example, the Work Order Product entity has a data download filter set to **Download related data only** which means that only work order products related to downloaded work orders, are available offline. To accomplish this, the work order product mobile offline profile item was listed as an associated profile item of the work order offline profile, as seen in the image below.
+For another example, the **Work Order Product** entity has a data download filter set to **Download related data only**, which means that only work order products related to downloaded work orders are available offline. To accomplish this, the work order product mobile offline profile item was listed as an associated profile item of the work order offline profile, as seen in the following screenshot.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-offline-profile-bookable-resource-booking.png)
+> ![Screenshot of the Dynamics 365 Settings showing the mobile offline profile for a bookable resource booking, with attention to the "Define Filter Rules" option.](./media/mobile-2020-offline-profile-bookable-resource-booking.png)
 
 
 > [!Note]
-> In addition, only Work Orders related to downloaded bookable resource bookings, are available offline, thus creating a chain of entities and records that are offline: Bookings > Work Orders > Work order products.
+> Only work orders related to downloaded bookable resource bookings are available offline. This creates a chain of entities and records that are offline: bookings > work orders > work order products.
 
 
 ## FAQs
-**Question:** Can I only add and view Field Service entities on Field Service Mobile (2020)?
 
-**Answer:** Because Field Service Mobile (2020) is a model-driven app on the Power Platform, any entity can be added, but users can only see entities and records that they have the licenses and security to access, regardless if its part of the Field Service app or not.
+### Can I only add and view Field Service entities on Field Service Mobile (2020)?
+
+Because Field Service Mobile (2020) is a model-driven app on the Power Platform, any entity can be added; users can only see entities and records that they have the licenses and security to access, regardless of whether it's part of the Field Service app or not.
