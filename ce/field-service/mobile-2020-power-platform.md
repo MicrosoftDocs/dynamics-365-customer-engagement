@@ -279,7 +279,7 @@ Forms (substitute the form ID of the work order form you created):
 
     <QuickForms><QuickFormIds><QuickFormId entityname="msdyn_workorder">c0ebdf20-f27f-4acc-8c9f-a9a202a5e917</QuickFormId></QuickFormIds></QuickForms>
 
-You can get the form ID in the URL when on the form in th admin console.
+You can get the form ID in the URL when on the form in the admin console.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Power Apps in a web browser, showing an example form ID in the URL.](./media/mobile-2020-admin-form-id.png)
