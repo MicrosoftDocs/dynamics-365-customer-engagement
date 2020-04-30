@@ -297,12 +297,13 @@ Go to **Settings > Mobile Offline**.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-admin-mobile-offline.png)
 
-Then select Mobile Offline Profiles then choose the "Field Service Mobile - Offline Profile." This is the default configuration for offline data that is configured with the Field Service app.
+Then select Mobile Offline Profiles then choose the "Field Service Mobile - Offline Profile." This is the default configuration for offline data that is included with the Field Service app.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-offline-profile.png)
 
+The profile dictates which entities and how many records of each entity will be downloaded in offline mode.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-offline-profile-entities.png)
