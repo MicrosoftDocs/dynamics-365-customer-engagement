@@ -17895,6 +17895,11 @@
       "source_path": "ce/sales-professional/use-lookup-fields-forms.md",
       "redirect_url": "https://docs.microsoft.com/powerapps/user/lookup-field",
       "redirect_document_id": false
+    },
+    {  
+      "source_path": "ce/customer-service/install-routing-rules-preview-solution.md",
+      "redirect_url": "create-rules-automatically-route-cases",
+      "redirect_document_id": false
     }
   ]
 }
