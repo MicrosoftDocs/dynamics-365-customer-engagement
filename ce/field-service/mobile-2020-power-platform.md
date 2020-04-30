@@ -228,6 +228,7 @@ To edit the work order portion of the form, go to **Settings > Customizations > 
 
 In the Form section, there are three forms that correspond to the three sections of the combined Booking-Work Order form.
 
+1. Work Order - Customer
 2. Work Order - Service
 3. Work Order - Notes
 
@@ -286,16 +287,17 @@ You can get the form ID in the URL when on the form in th admin console.
 
 ### Configure offline data and sync filters
 
+Administrators can edit the data that is downloaded to Field Service Mobile (2020) in offline mode when no internet access is available. (When internet access is avaialble users will simply see all data on the server they have access to via their secuirty role).
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-offline-list.png)
 
-
+Go to **Settings > Mobile Offline**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-admin-mobile-offline.png)
 
-Mobile Offline Profiles
+Then select Mobile Offline Profiles then choose the "Field Service Mobile - Offline Profile." This is the default configuration for offline data that is configured with the Field Service app.
 
 
 > [!div class="mx-imgBorder"]
