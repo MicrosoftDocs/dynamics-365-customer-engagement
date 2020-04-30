@@ -32,7 +32,7 @@ search.app:
 Field Service Mobile (2020) is a mobile app designed and optimized for technicians to view Dynamics 365 Field Service work orders, customer assets, accounts, and contacts. Different than Field Service Mobile (see feature comparison below), this alternative mobile app is built on Microsoft's Power Platform as a model-driven app and is customizable to your business needs with the same admin console as all Dynamics 365 business apps.
 
 
-Available natively for Apple iOS and Google Android phones and tablets, Field Service Mobile (2020) offers technicians many capabilities they need to perform onsite customer service, such as:  
+Available natively for Apple iOS and Google Android phones, Field Service Mobile (2020) offers technicians many capabilities they need to perform onsite customer service, such as:  
 
 - A calendar view of assigned jobs 
 - Support for picture, video, and asset barcode scanning
