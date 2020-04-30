@@ -59,26 +59,17 @@ Field Service Mobile is recommended for more complex use cases where you may nee
 | Calendar view | Technician | Yes | Yes |
 | Driving directions | Technician | Yes | Yes |
 | Speech to text | Technician | Yes | Yes |
+| Geocoding | Technician | Yes | Yes |
+| Editable grids | Technician | Yes | Yes |
 | Push notifications | Technician | | Yes |
-| Multi entity maps | Technician | | Yes |
-| Chat | Technician | | Yes |
 | Geofencing | Technician | | Yes |
 | IoT alerts | Technician | | Yes |
-| Geocoding | Technician | Yes | Yes |
 | Reporting | Technician | | Yes |
 | Scan to find asset | Technician | | Yes |
-| Editable grids | Technician | Yes | Yes |
 | Location sharing and auditing | Admin | | Yes |
-| Mobile workflows | Admin | | Yes |
+| Enhanced mobile workflows | Admin | | Yes |
 | Enhanced offline sync filters | Admin | | Yes |
-| Encryption | Admin | | Yes |
-| Multiple configuration profiles | Admin | | Yes |
-| Branding and theming | Admin | | Yes |
-| Custom commands (Call, email, etc) | Admin | | Yes |
-| View (Row) scripts | Admin | | Yes |
-| Exchange | Integration | | Yes |
 | Remote Assist | Integration | | Yes |
-| Sharepoint | Integration | | Yes |
 | Microsoft Intune  | Integration | | Yes |
 
 
@@ -98,14 +89,10 @@ Set up a Dynamics 35 Field Service user with the **Field Service-Resource** secu
 
 To schedule work orders to view on the mobile app, you must also [create a bookable resource](./set-up-bookable-resources.md) related to your technician user.
 
-Then, to view bookings on Field Service Mobile (2020) schedule work orders to the bookable resource related to your user.
+**OPTIONAL:** to view bookings on Field Service Mobile (2020) schedule work orders to the bookable resource related to your user.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-scheduled-work-orders.png)
-
-
-
-
 
 
 ## Install and set up Field Service Mobile (2020)
