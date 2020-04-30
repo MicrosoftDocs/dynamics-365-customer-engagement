@@ -335,7 +335,7 @@ For another example, the **Work Order Product** entity has a data download filte
 
 
 > [!Note]
-> Only work orders related to downloaded bookable resource bookings are available offline. This creates a chain of entities and records that are offline: bookings > work orders > work order products.
+> By default work orders related to downloaded bookable resource bookings are available offline. This creates a chain of entities and records that are offline: bookings > work orders > work order products meaning bookings scheduled to you are downloaded to the mobile, work orders related to those bookings are downloaded, and work order products related to those work orders are downloaded.
 
 
 ## FAQs
