@@ -195,16 +195,22 @@ Select the edit icon to edit the SiteMap
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-admin-sitemap1.png)
 
+The Groups  "My Work", "Customers" and "Other" correspond with the home screen of Field Service Mobile (2020) and you can rearrange, delete, or edit the display names.
+
+Rearrange the entities displayed within each group with the drag and drop interface or add new entities by adding new Subareas.
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-admin-sitemap2.png)
 
+You can even create entirely new Groups with more Subareas to display different entities.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-admin-sitemap3.png)
 
 > [!Note]
-> Use the app designer to choose which views are available in the mobile app. 
+> For every entity you display in the sitemap you can choose the views available on mobile in the App Designer page.
+
 ### Edit the Booking and Work Order form
 
 - Fields and PCF controls
