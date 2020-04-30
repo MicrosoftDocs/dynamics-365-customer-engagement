@@ -1,5 +1,5 @@
 ---
-title: Project service version history
+title: Update Release schedule for Project Service 3.x
 ms.custom: dyn365-projectservice
 ms.date: 05/01/2020
 ms.reviewer: kfend
@@ -25,7 +25,7 @@ search.app:
   - D365PS
 ---
 
-# Project service version history
+# Update Release schedule for Project Service 3.x
 
 ## Latest version availability
 
