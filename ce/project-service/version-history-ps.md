@@ -38,8 +38,6 @@ For information about other updates to Project Service, visit the [Dynamics 365 
 
 |  | Region | Current Version | Next Version |  Scheduled Date
 | :---   | :---   | :---   | :---   |:---   |         
-|<strong>Station 1</strong> | |  |  | |
-| | <i>First Release</i> |[3.10+](whats-new-ur-19.md)| TBD | 05/01/20
 |<strong>Station 2</strong> | |  |  | |
 | | <i>South America</i> |[3.10+](whats-new-ur-19.md)|  TBD | 05/01/20
 | | <i>Canada</i> |[3.10+](whats-new-ur-19.md)| TBD | 05/01/20 
@@ -49,14 +47,14 @@ For information about other updates to Project Service, visit the [Dynamics 365 
 | | <i>South Africa</i> |[3.10+](whats-new-ur-19.md)|  TBD | 05/01/20
 | | <i>Germany</i> |[3.10+](whats-new-ur-19.md)| TBD | 05/01/20
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> |[3.10+](whats-new-ur-19.md)| TBD| 05/08/2020 
-| | <i>Asia Pacific</i> |[3.10+](whats-new-ur-19.md)|  TBD |  05/08/2020
-| | <i>Great Britain</i> |[3.10+](whats-new-ur-19.md)|  TBD  |  05/08/2020
-| | <i>Oceana</i> |[3.10+](whats-new-ur-19.md)| TBD  |  05/08/2020
+| | <i>Japan</i> |[3.10.8.12](whats-new-ur-18.md)| [3.10+](whats-new-ur-19.md)| 05/08/2020 
+| | <i>Asia Pacific</i> |[3.10.8.12](whats-new-ur-18.md)|  [3.10+](whats-new-ur-19.md) |  05/08/2020
+| | <i>Great Britain</i> |[3.10.8.12](whats-new-ur-18.md)|  [3.10+](whats-new-ur-19.md)  |  05/08/2020
+| | <i>Oceana</i> |[3.10.8.12](whats-new-ur-18.md)| [3.10+](whats-new-ur-19.md)  |  05/08/2020
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> |[3.10+](whats-new-ur-19.md) | TBD | 05/15/2020
+| | <i>Europe</i> |[3.10.7.32](whats-new-ur-17-5.md) | [3.10.8.12](whats-new-ur-18.md) | 05/15/2020
 |<strong>Station 5</strong> | |  |  | |
-| | <i>North America</i> |[3.10+](whats-new-ur-19.md)| TBD  | 05/22/2020
+| | <i>North America</i> |[3.10.7.32](whats-new-ur-17-5.md)| [3.10.8.12](whats-new-ur-18.md)  | 05/22/2020
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Goverment Community Cloud</i> |[3.10+](whats-new-ur-19.md) |  TBD  | 05/29/2020
-| | <i>China</i> |[3.10+](whats-new-ur-19.md)| TBD | 05/29/2020
+| | <i>Goverment Community Cloud</i> |[3.10.7.32](whats-new-ur-17-5.md) |  [3.10.8.12](whats-new-ur-18.md)  | 05/29/2020
+| | <i>China</i> |[3.10.7.32](whats-new-ur-17-5.md)| [3.10.8.12](whats-new-ur-18.md) | 05/29/2020
