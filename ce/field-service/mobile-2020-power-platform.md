@@ -114,17 +114,21 @@ Upon logging in the app will prompt you to download offline data meaning your sc
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-download-offline.png)
 
-The first screen you'll see is a calednar view of your scheduled jobs (generally work orders but not exclusively). 
+The first screen you'll see is a calendar view of your scheduled work orders.
 
 Select **More > Show as > Read Only Grid** to view the bookings as a list as shown on the right side of the image below.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-booking-view.jpg)
 
-Select a booking to view more details of the scheduled job and the related work order.
+Select a booking to view more details about the booking time and the work order. As an example, you can update the status to traveling to indicate you are driving to the customer location, and on the Customer tab you can view the work order location on a map and trigger turn-by-turn driving directions from a GPS app on your phone such as Bing Maps, Apple Maps, Waze, or Google Maps.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-work-order-navigate-directions-map.jpg)
+
+On the Service tab you'll see work order details like Work order service tasks, products, and services.
+
+And on the Notes tab you'll see a way to add note text, pictures, and videos as well as capture a customer signature.
 
 
 > [!div class="mx-imgBorder"]
