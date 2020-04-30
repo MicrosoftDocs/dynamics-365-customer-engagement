@@ -77,7 +77,7 @@ This action is used to open a new form to create a record. The action contains t
    | Attribute Name | Specify the attribute logical name. You need to provide the attribute name to prepopulate the field with a value.| |
    | Attribute Value | Specify the attribute value. You need to provide the attribute value to prepopulate the attribute field. | |
 
-#### Open an existing form
+#### Open an existing record
 
 This action is used to open an existing record form. The action contains the following fields.
 
@@ -105,25 +105,13 @@ This action is used for searching knowledge articles based on the populated phra
    |-----------------|-----------------------------|--------------------------|
    | Search string |  Provide the phrase based on which you want to search for knowledge articles. You can provide the context data. For example, the context data parameter can be a case title. |  |
 
-#### Search for a phrase
+#### Do a relevance search based on the phrase
 
 This action is used for searching knowledge articles based on the populated phrase. The action contains the following field.
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
    | Search string |  Provide the phrase based on which you want to do a relevance search. You can provide the context data. For example, the context data parameter can be a case title. <br> This is a mandatory field.  |  |
-
-#### Update form attribute
-
-This action is used for updating the form attribute (field). The action updates the attribute of a form if that form is currently in focus and has the same entity type as mentioned in action. If the action is executed for any other entity, then the action will fail. Also, the action only updates the field and doesn't save the record. The action contains the following field:
-
-   | Field | Description | Parameter |
-   |-----------------|-----------------------------|--------------------------|
-   | Entity logical name | Specify the logical name of the entity that you want to update. <br> This is a mandatory field. | incident |
-
-#### Save the record
-
-This action is used for saving the record after you've entered data in all the mandatory fields. The action fails if the mandatory fields aren't entered or left blank.
 
 #### Update an existing record
 
@@ -136,6 +124,7 @@ This action is used to update an existing record. The action contains the follow
    | Attribute Name | Specify the attribute logical name you want to update.| |
    | Attribute Value | Specify the attribute value that will be updated for the above-mentioned attribute. | |
 
+
 #### Open an email form with predefined template
 
 This action is used to open an email with a predefined template. The action contains the following fields.
@@ -146,6 +135,16 @@ This action is used to open an email with a predefined template. The action cont
    | Entity record ID| Specify the entity record ID. <br>This is a mandatory field.| |
    | Email recipients | Specify the recipients to whom you want the mail to be sent. <br> This is a mandatory field. | |
    | Template ID | Specify the ID of the template that must displayed in the email. <br> This is a mandatory field. | |
+
+
+#### Update form attribute
+
+This action is used for updating the form attribute (field). The action updates the attribute of a form if that form is currently in focus and has the same entity type as mentioned in action. If the action is run for any other entity, then the action will fail. Also, the action only updates the field and doesn't save the record. The action contains the following field:
+
+   | Field | Description | Parameter |
+   |-----------------|-----------------------------|--------------------------|
+   | Entity logical name | Specify the logical name of the entity that you want to update. <br> This is a mandatory field. | incident |
+
 
 #### Resolve a case
 
@@ -159,7 +158,7 @@ This action is used to resolve a case. The action contains the following fields.
 
 #### Clone input record
 
-This action is used for cloning a record. The action contains the following fields.
+This action is used for cloning an existing record. The action only copies the fields and does not save the record. The action contains the following fields.
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
@@ -169,10 +168,14 @@ This action is used for cloning a record. The action contains the following fiel
 
 #### Clone current record
 
-This action is used for cloning an existing record. The action contains the following field.
+This action is used for cloning an existing record that is open in the current tab. The action only copies the fields and does not save the record. The action contains the following field.
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
    |Record title| Specify the title of the record that you want to clone. <br> This is a mandatory field. |
+
+#### Save the record
+
+This action is used for saving the record after you've entered data in all the mandatory fields. The action fails if the mandatory fields aren't entered or left blank.
 
 #### Open related record grid
 
@@ -183,14 +186,6 @@ This action is used to open the related records in a grid. The action contains t
    | Entity logical name | Specify the logical name of the entity that you want to open. |  |
    | Entity record ID | Specify the ID of the entity record.
    |Relationship name| Specify the relationship between the records.
-
-#### Send KB article in chat
-
-This action is used to paste a knowledge base article in the conversation chat window. It must be used with the **Search knowledge base for the populated phrase** action. The action contains the following field.
-
-   | Field | Description | Parameter |
-   |-----------------|-----------------------------|--------------------------|
-   | Entity record ID  | Specify the ID of the entity record. <br> This is a mandatory field. |
 
 ### Session connector
 
@@ -236,6 +231,14 @@ As an administrator, you can use the actions any number of times across differen
 
    > [!div class=mx-imgBorder] 
    > ![Macro actions](../media/macro-omnichannel-connector.png "Macro actions")
+
+#### Send KB article in chat
+
+This action is used to paste a knowledge base article in the conversation chat window. It must be used with the **Search knowledge base for the populated phrase** action. The action contains the following field.
+
+   | Field | Description | Parameter |
+   |-----------------|-----------------------------|--------------------------|
+   | Entity record ID  | Specify the ID of the entity record. <br> This is a mandatory field. |
 
 #### Link a record to the conversation
 
