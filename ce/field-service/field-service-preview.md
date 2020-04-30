@@ -107,7 +107,7 @@ You will see a list of preview features.
 
 ## Step 6: Find ID of preview flight
 
-Find the preview feature you would like to add to your environment and note the ID. In our example, it's the ID for **Field Service Inspections Flight**.
+Find the preview feature you would like to add to your environment and note the ID. In our example, it's the ID for **FieldService_April2020_PreviewFlight**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Windows PowerShell, showing the FlightID and the InstanceID.](./media/preview-powershell-flightid-orgid.png)
