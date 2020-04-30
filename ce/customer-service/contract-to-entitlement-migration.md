@@ -21,9 +21,7 @@ search.app:
 
 # Contract to entitlement migration
 
-Dynamics 365 Customer Service will complete deprecation of contracts, contract line items, and contract template entities by [June 30, 2020 (4Q20)](/power-platform/important-changes-coming#contracts-contract-line-items-and-contract-templates-entities-are-deprecated). These items will be removed and replaced by entitlements and will not be included in future releases.
-
-Migration support information is provided here to help customers prepare for deprecation of the following:
+This document contains additional considerations that admins have to take care of when migrating contract records to entitlements. This migration support information will help customers prepare for the deprecation of the following:
 
 - Contracts
 - Contract line items
@@ -33,21 +31,21 @@ Migration support information is provided here to help customers prepare for dep
 
 The process of migrating contracts to entitlements is as follows:
 
-- Mapping: Contract template to Entitlement template
-- Mapping: Contract to Entitlements
+- Mapping: Contract template to entitlement template
+- Mapping: Contracts to entitlements
   1. Single product contract
   2. Contract and entitlement cancellation
   3. Billing unit on contract
   4. Commands on contract
   5. State mapping
 
-## Mapping: Contract template to Entitlement template
+## Mapping: Contract template to entitlement template
 
-If you're currently using the Contract template, use the following steps to map to the Entitlement template.
+If you're currently using the contract template, use the following steps to map to the entitlement template.
 
 ### Allotment type
 
-Allotment type to "Coverage Dates" on Contract templates is used to allow any number of cases to be created between the start date and end date of a contract. To switch from the Contract template and map to the Entitlement template:
+Allotment type to "Coverage Dates" on the contract templates is used to allow any number of cases to be created between the start date and end date of a contract. To switch from the contract template and map to the entitlement template:
 
 - **Step 1:**  Select **Coverage Dates** in **Allotment Type**.
 
@@ -67,18 +65,18 @@ Allotment type to "Coverage Dates" on Contract templates is used to allow any nu
 
 ## Custom fields
 
-You will need to create custom fields in entitlement to migrate data from fields in the contract template that are not available in the entitlement template. Perform the following steps to switch from the Contract template and map to the Entitlement template:
+You will need to create custom fields in entitlements to migrate data from the fields in the contract template that are not available in the entitlement template. Perform the following steps to switch from the contract template and map to the entitlement template:
 
-- **Step 1:** Create custom fields with attributes on the Entitlement template. For more information, see [Create and edit fields (attributes)](/dynamics365/customerengagement/on-premises/customize/create-edit-fields).
-- **Step 2:** Place the created fields on the form as per business needs. Use the [basic update](/powerapps/developer/common-data-service/org-service/entity-operations-update-delete#basic-update) SDK code examples as a reference guide to update the entity. For more information, see [Add a field to a form](/dynamics365/customerengagement/on-premises/customize/add-field-form).
+- **Step 1:** Create custom fields with attributes on the entitlement template. For more information, see [Create and edit fields (attributes)](/dynamics365/customerengagement/on-premises/customize/create-edit-fields).
+- **Step 2:** Place the created fields on the form as per your business needs. Use the [basic update](/powerapps/developer/common-data-service/org-service/entity-operations-update-delete#basic-update) SDK code examples as a reference guide to update the entity. For more information, see [Add a field to a form](/dynamics365/customerengagement/on-premises/customize/add-field-form).
 
-## Mapping: Contract to Entitlements
+## Mapping: Contracts to entitlements
 
-If you're currently using Contract, you can map to Entitlements by following these steps:
+If you're currently using contracts, you can map to entitlements by following these steps:
 
 - **Step 1:**	Create a separate entitlement for each contract line.
 - **Step 2:**	Create custom attributes on the entitlement for missing contract lines attributes.
-- **Step 3:**	After an entitlement is created from the Entitlement template, add custom code to copy the custom fields added on the entitlement for parity with contract lines.
+- **Step 3:**	After an entitlement is created from the entitlement template, add custom code to copy the custom fields added on the entitlement for parity with contract lines.
 
 ### Single product contract
 
@@ -96,7 +94,7 @@ If you have a contract tied to a single product, follow these steps:
 
 A contract or entitlement can be canceled using the following steps:
 
-**Cancel a contract**<BR>
+**Cancel a contract**  
 Contracts can be canceled immediately or in the future by:
   
 - **Step 1:**	Selecting a date.
@@ -104,14 +102,14 @@ Contracts can be canceled immediately or in the future by:
 
   ![Contract and entitlement cancellation](media/contract-and-entitlement-cancellation.png "Contract and entitlement cancellation")
 
-**Cancel an entitlement**<BR>
+**Cancel an entitlement**  
 An entitlement can be canceled immediately, but can't be canceled in the future.
   
 ![Cancel entitlement](media/cancel-entitlement.png "Cancel entitlement")
 
 ### Billing unit on contract
 
-Billing unit is not available in entitlement. To achieve this in entitlement, use custom logic.
+Billing unit is not available in entitlements. To achieve this in entitlement, use custom logic.
 
 For simple rollups, use rollup fields. For more information, see [rollup fields](/dynamics365/customerengagement/on-premises/customize/define-rollup-fields).
 
@@ -149,9 +147,9 @@ For business requirements, if a resolved case needs to be updated, follow these 
 - **Step 3:** Resolve the case.
 
 > [!IMPORTANT]
-> Contract and contract lines allowed contract lines to be associated to a product that is different from the one listed in a case. However, an entitlement requires the product listed in a case matches the product listed in the entitlement.
+> In contracts and contract lines, the contract lines could be associated with a product that is different from the one listed in a case. However, in entitlements, the product listed in a case should match the product listed in the entitlement.
 >
-> **Example**: Contract lines associated with the product Armband 100 can be associated in the case list that is linked to another product, Armband 150. However, with entitlement, an error will occur when you link an entitlement associated with a product, Armband 100, with a case linked to Armband 150.
+> **Example**: Contract lines associated with the product Armband 100 can be associated in the case list that is linked to another product, Armband 150. However, in entitlements, an error will occur when you link an entitlement associated with a product, Armband 100, with a case linked to Armband 150.
 
 ### See also
 
