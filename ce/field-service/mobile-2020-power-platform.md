@@ -101,24 +101,27 @@ Go to the app store on your iOS or Android phone and search for Field Service Mo
 
 Download the app titled **Field Service Mobile (2020)** shown below. This is the mobile app built on the Power Platform. 
 
-Launch the app and log in with your username and password. This is the user credentials of the technician user with the **Field Service - Resource** security role.
-
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-download-signin.jpg)
 
-
+Launch the app and log in with your username and password. This is the user credentials of the technician user with the **Field Service - Resource** security role.
 
 
 ## Use Field Service Mobile (2020)
 
+Upon logging in the app will prompt you to download offline data meaning your scheduled work orders to the device. If you may not have access to internet, select **Download**, otherwise select **Skip for now**.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-download-offline.png)
 
+The first screen you'll see is a calednar view of your scheduled jobs (generally work orders but not exclusively). 
+
+Select **More > Show as > Read Only Grid** to view the bookings as a list as shown on the right side of the image below.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-booking-view.jpg)
 
+Select a booking to view more details of the scheduled job and the related work order.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-work-order-navigate-directions-map.jpg)
