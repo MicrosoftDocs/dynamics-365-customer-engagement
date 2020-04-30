@@ -25,9 +25,6 @@ search.app:
 
 # Contract to entitlement migration
 
-
-<!--Is it OK to provide a date instead of just 4Q20, which people might not know? Or is the specific date not known? See my change below. -->
-
 Dynamics 365 Customer Service will complete deprecation of contracts, contract line items, and contract template entities by [June 30, 2020 (4Q20)](/power-platform/important-changes-coming#contracts-contract-line-items-and-contract-templates-entities-are-deprecated). These items will be removed and replaced by entitlements and will not be included in future releases.
 
 Migration support information is provided here to help customers prepare for deprecation of the following:
@@ -38,25 +35,23 @@ Migration support information is provided here to help customers prepare for dep
 
 ## Migration planning
 
-Depending on how your contract is set up, choose from the following options to prepare your migration:
+The process of migrating contracts to entitlements is as follows:
 
-- [Mapping: Contract template to Entitlement template](#1)
-- [Mapping: Contract to Entitlements](#2):<BR>
-  a. [Single product contract](#2a)<BR>
-  b. [Contract and entitlement cancellation](#2b)<BR>
-  c. [Billing unit on contract](#2c)<BR>
-  d. [Commands on contract](#2d)<BR>
-  e. [State mapping](#2e)
-
-<a name="1"></a>
+- Mapping: Contract template to Entitlement template
+- Mapping: Contract to Entitlements
+  1. Single product contract
+  2. Contract and entitlement cancellation
+  3. Billing unit on contract
+  4. Commands on contract
+  5. State mapping
 
 ## Mapping: Contract template to Entitlement template
 
 If you're currently using the Contract template, use the following steps to map to the Entitlement template.
 
-### Allocation type
+### Allotment type
 
-Allocation type to "Coverage Dates" on Contract templates is used to allow any number of cases to be created between the start date and end date of a contract. To switch from the Contract template and map to the Entitlement template:
+Allotment type to "Coverage Dates" on Contract templates is used to allow any number of cases to be created between the start date and end date of a contract. To switch from the Contract template and map to the Entitlement template:
 
 - **Step 1:**  Select **Coverage Dates** in **Allotment Type**.
 
@@ -67,7 +62,7 @@ Allocation type to "Coverage Dates" on Contract templates is used to allow any n
   ![No restriction](media/contract-and-entitlement-allocation-type-2.png "No restriction")
 
 > [!Important]
-> After an entitlement is created from the Entitlement template, add custom code to copy the custom fields added on entitlement for parity with contract lines.
+> After an entitlement is created from the entitlement template, add custom code to copy the custom fields added on entitlement for parity with contract lines.
 
 **Benefits with entitlement:**
 
@@ -76,17 +71,10 @@ Allocation type to "Coverage Dates" on Contract templates is used to allow any n
 
 ## Custom fields
 
-
-<!--The following isn't a complete sentence. Is it a description of "Custom fields"? For example, could you say "Custom fields are required for ...."? Also, when "Entitlement" is capitalized, does it refer to Entitlement templates? I would not capitalize generic references to entitlements. --> 
-
-Fields that are required for business use case, but not available out of the box on Entitlement or for other required fields not available on Entitlements.
-
-To switch from the Contract template and map to the Entitlement template:
+You will need to create custom fields in entitlement to migrate data from fields in the contract template that are not available in the entitlement template. Perform the following steps to switch from the Contract template and map to the Entitlement template:
 
 - **Step 1:** Create custom fields with attributes on the Entitlement template. For more information, see [Create and edit fields (attributes)](/dynamics365/customerengagement/on-premises/customize/create-edit-fields).
 - **Step 2:** Place the created fields on the form as per business needs. Use the [basic update](/powerapps/developer/common-data-service/org-service/entity-operations-update-delete#basic-update) SDK code examples as a reference guide to update the entity. For more information, see [Add a field to a form](/dynamics365/customerengagement/on-premises/customize/add-field-form).
-
-<a name="2"></a>
 
 ## Mapping: Contract to Entitlements
 
@@ -96,30 +84,19 @@ If you're currently using Contract, you can map to Entitlements by following the
 - **Step 2:**	Create custom attributes on the entitlement for missing contract lines attributes.
 - **Step 3:**	After an entitlement is created from the Entitlement template, add custom code to copy the custom fields added on the entitlement for parity with contract lines.
 
-<a name="2a"></a>
-
-### 2a. Single product contract
+### Single product contract
 
 If you have a contract tied to a single product, follow these steps:
 
  - **Step 1:** Create an entitlement.
  - **Step 2:** Add only one product in the **PRODUCTS** grid.
 
-
-<!--Please confirm that "Allison Jones" in the following image is from an approved fictitious names list. -->
-
   ![Single product contract](media/single-product-contract.png "Single product contract")
 
-
-<!--Just checking - In the following note, is "Contract group contract lines Contract" correct? -->
-
-
 > [!Note]
-> The concept of the Contract group contract lines Contract has been deprecated and is not available on entitlement. Entitlement does not provide concept grouping.
+> The concept of grouping contract lines for a contract has been deprecated and is not available in entitlements.
 
-<a name="2b"></a>
-
-### 2b. Contract and entitlement cancellation
+### Contract and entitlement cancellation
 
 A contract or entitlement can be canceled using the following steps:
 
@@ -136,17 +113,13 @@ An entitlement can be canceled immediately, but can't be canceled in the future.
   
 ![Cancel entitlement](media/cancel-entitlement.png "Cancel entitlement")
 
-<a name="2c"></a>
-
-### 2c. Billing unit on contract
+### Billing unit on contract
 
 Billing unit is not available in entitlement. To achieve this in entitlement, use custom logic.
 
 For simple rollups, use rollup fields. For more information, see [rollup fields](/dynamics365/customerengagement/on-premises/customize/define-rollup-fields).
 
-<a name="2d"></a>
-
-### 2d. Commands on contract
+### Commands on contract
 
 The following is a list of commands that have been deprecated on entitlements:
 
@@ -160,9 +133,7 @@ The following is a list of commands available on entitlements:
 - **Renew:** To renew the expired entitlement.
 - **Cancel:** To cancel the active entitlement.
 
-<a name="2e"></a>
-
-### 2e. State mapping
+### State mapping
 
 - The invoiced state in contract can be mapped to the waiting state in the entitlement.
 - The draft, active, canceled, and expired states are the same for both contract and entitlement.
