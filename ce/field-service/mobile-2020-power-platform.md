@@ -97,10 +97,12 @@ To schedule work orders to view on the mobile app, you must also [create a booka
 
 ## Install and set up Field Service Mobile (2020)
 
-- Download from iOS or Android app stores
-- Standalone app available in app store
+Go to the app store on your iOS or Android phone and search for Field Service Mobile.
 
-- Sign in with Field Service resource user
+Download the app titled **Field Service Mobile (2020)** shown below. This is the mobile app built on the Power Platform. 
+
+Launch the app and log in with your username and password. This is the user credentials of the technician user with the **Field Service - Resource** security role.
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-download-signin.jpg)
