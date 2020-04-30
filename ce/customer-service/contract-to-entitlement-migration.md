@@ -58,12 +58,9 @@ If you're currently using the Contract template, use the following steps to map 
 
 Allocation type to "Coverage Dates" on Contract templates is used to allow any number of cases to be created between the start date and end date of a contract. To switch from the Contract template and map to the Entitlement template:
 
-- **Step 1:**  Select **Coverage Dates** in **Allocation Type**.
+- **Step 1:**  Select **Coverage Dates** in **Allotment Type**.
 
-
-<!--In the image, it looks like it's in "Allotment type" rather than "Allocation type." Stay with allocation? -->
-
-  ![Allocation Type](media/contract-and-entitlement-allocation-type-1.png "Allocation Type")
+  ![Allotment Type](media/contract-and-entitlement-allocation-type-1.png "Allotment Type")
 
 - **Step 2:** Set **Restrict based on entitlement terms** to **No**.
 
