@@ -29,7 +29,7 @@ search.app:
 # Field Service Mobile (2020)
 
 
-Field Service Mobile (2020) is a mobile app designed and optimized for technicians to view Dynamics 365 Field Service work orders, customer assets, accounts and contacts. Different than Field Service Mobile (see feature comparison below), this alternative mobile app is built on Microsoft's Power Platform as a model-driven app and is customizbale to your business needs with the same admin console as all Dynamics 365 business apps.
+Field Service Mobile (2020) is a mobile app designed and optimized for technicians to view Dynamics 365 Field Service work orders, customer assets, accounts, and contacts. Different than Field Service Mobile (see feature comparison below), this alternative mobile app is built on Microsoft's Power Platform as a model-driven app and is customizable to your business needs with the same admin console as all Dynamics 365 business apps.
 
 
 Available natively for Apple iOS and Google Android phones and tablets, Field Service Mobile (2020) offers technicians many capabilities they need to perform onsite customer service, such as:  
@@ -42,7 +42,7 @@ Available natively for Apple iOS and Google Android phones and tablets, Field Se
 
 ## Implementation and migration guidance
 
-We recommended to continue using the existing "[Field Service Mobile](./field-service-mobile-app-user-guide.md)" app for current and new deployments of Dynamics 365 Field Service. As development in Field Service Mobile (2020) continues through 2021, capabiltiies will become comparable to Field Service Mobile and system administrators should use the feature comparison information below to decide which mobile app is right for their organization or department.
+We recommended to continue using the existing "[Field Service Mobile](./field-service-mobile-app-user-guide.md)" app for current and new deployments of Dynamics 365 Field Service. As development in Field Service Mobile (2020) continues through 2021, capabilities will become comparable to Field Service Mobile and system administrators should use the feature comparison information below to decide which mobile app is right for their organization or department.
 
 While the new Field Service Mobile (2020) app continues to evolve, we'll continue to make available and support the current Field Service Mobile app. Organizations that are using the current app as of June 2021 can continue to use the app until June 2022. 
 
@@ -153,7 +153,7 @@ From here, you can find other important information like accounts, contacts, cus
 
 ### Work offline
 
-If you expect to be in areas without wifi or celular internet access, you can download important information to your device to keep working. 
+If you expect to be in areas without wifi or cellular internet access, you can download important information to your device to keep working. 
 
 From the home screen, select the cloud icon in the bottom left. 
 
@@ -163,9 +163,9 @@ Then select **Download offline updates**.
 > [!div class="mx-imgBorder"]
 > ![Simulated image showing three mobile devices with Field Service Mobile 2020. The device on the left shows the menu, with attention to the cloud icon at the bottom. The middle device shows the offline status screen. The device on the right shows the offline status as available, showing the list of available entities. ](./media/mobile-2020-offline.jpg)
 
-When Status = **Available** this means you have all the data you need to work offline.
+When **Status** is set to **Available**, this means you have all the data you need to work offline.
 
-Then toggle the **Work in offline mode** to on. If you lose interenet connection unexpectedly, the app will automatically work in offline mode if you previously downloaded data.
+Then toggle the **Work in offline mode** to on. If you lose internet connection unexpectedly, the app will automatically work in offline mode if you previously downloaded data.
 
 ## Configure Field Service Mobile (2020)
 
@@ -247,7 +247,7 @@ To edit the **Booking** part of the form, go to the **Bookable Resource Booking*
 Find the **Booking and Work Order** form, as seen in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of of a Bookable Resource Booking in Power Apps, showing the Booking and Work Order form.](./media/mobile-2020-admin-booking-form-combined.png)
+> ![Screenshot of a Bookable Resource Booking in Power Apps, showing the Booking and Work Order form.](./media/mobile-2020-admin-booking-form-combined.png)
 
 Add and delete booking fields as needed.
 
@@ -282,7 +282,7 @@ Forms (substitute the form ID of the work order form you created):
 You can get the form ID in the URL when on the form in th admin console.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Power Apps in a web browser, shoing an example form ID in the URL.](./media/mobile-2020-admin-form-id.png)
+> ![Screenshot of Power Apps in a web browser, showing an example form ID in the URL.](./media/mobile-2020-admin-form-id.png)
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Power Apps form builder for the Bookable Resource Booking.](./media/mobile-2020-admin-booking-form-combined-classic-control-service.png)
@@ -320,7 +320,7 @@ For each entity, you can choose and data download filter:
 3. Other data filter
 4. Custom data filter
 
-For example, the **Bookable Resource Booking** (in other words, the booking) entity has a data download filter set to **custom data filter** that downloads resourec bookings that start or end in the next 7 days or yesterday.
+For example, the **Bookable Resource Booking** (in other words, the booking) entity has a data download filter set to **custom data filter** that downloads resource bookings that start or end in the next 7 days or yesterday.
 
 
 > [!div class="mx-imgBorder"]
