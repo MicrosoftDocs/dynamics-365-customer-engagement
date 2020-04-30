@@ -1,5 +1,5 @@
 ---
-title: "Sample: Audit user access (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Sample: Audit user access | MicrosoftDocs"
 description: "Sample demonstrating the auditing of user access to records."
 keywords: 
 ms.date: 03/29/2019
@@ -10,8 +10,8 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: db508858-7386-44f3-9f91-29493e6fe2c4
 author: JimDaly
-ms.author: jdaly
-manager: jdaly
+ms.author: nabuthuk
+manager: kvivek
 ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -28,22 +28,35 @@ search.app:
 
 # Sample: Audit user access
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. [Download the code samples of audit entity data changes and audit user access](https://code.msdn.microsoft.com/Audit-entity-data-changes-93eb8ae0).  
+This sample code shows how to audit user access. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/AuditUserAccess).
 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
-  
-## Requirements  
- [!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)] This sample requires the logged on user to have the System Administrator role for enabling auditing on an organization.  
-  
-## Demonstrates  
- This sample demonstrates how to audit user access to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
-  
-## Example  
- The sample first enables user access auditing with the logged on user’s organization. Next, it creates and modifies an account entity so that audit records are generated. Finally, the sample displays the audited information.  
-  
- [!code-csharp[auditing#useraccessauditing](../snippets/csharp/CRMV8/auditing/cs/useraccessauditing.cs#useraccessauditing)]  
-  
-### See also  
- [Audit Entity Data Changes in Dynamics 365 Customer Engagement (on-premises)](audit-entity-data-changes.md)   
- [Audit Entity](entities/audit.md)<!-- Bug 696490 -->
+[!include[cc-sample-note](includes/cc-sample-note.md)]
+
+## How to run this sample
+
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-PA-samples.md)]
+
+## What this sample does
+
+This sample first enables user access auditing with the logged on user's organization. Next, it creates and modifies an account entity so that audit records are genertated.
+
+## How this sample works
+
+In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+
+### Setup
+
+1. Checks for the current version of the org.
+1. Creates a new account entity and enables auditing on the new account entity.
+
+### Demonstrate
+
+1. Gets the organization's ID from the system user record and retrieves organization record.
+2. Enables auditing on the organization, including auditing for user access.
+3. Makes an update request to the account entity to be tracked by auditing.
+4. set the organization and account auditing flags back to old values and retrieve them if they were actually changed.
+
+### Clean up
+
+Display an option to delete the records created during [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
+

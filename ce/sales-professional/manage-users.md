@@ -2,10 +2,11 @@
 title: "Add or manage users in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Create a user account for every person in the organization, and assign roles so they can access the Dynamics 365 Sales Professional app."
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service: 
+  - "dynamics-365-sales"
+ms.custom: 
+  - "dyn365-sales"
 ms.topic: article
-ms.assetid: 9c3688a9-2319-42e2-838d-cfd4de3d290c
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
@@ -30,7 +31,8 @@ After you provide these details and select **Add**, a user is automatically crea
 
 3.  Under **Standard Settings** > **Manage Users**.
 
-    ![Manage Users in Standard settings](media/manage-users-standard-settings.png "Manage users in Standard settings")
+    > [!div class="mx-imgBorder"]
+    > ![Manage Users in Standard settings](media/manage-users-standard-settings.png "Manage users in Standard settings")
 
 4.  Select **Add a new user**.
 
@@ -38,7 +40,8 @@ After you provide these details and select **Add**, a user is automatically crea
 
     The **Add New User** pane appears.
 
-    ![Add New User dialog box](media/add-new-user-dialog.box.png "Add New User dialog box")
+    > [!div class="mx-imgBorder"]
+    > ![Add New User dialog box](media/add-new-user-dialog.box.png "Add New User dialog box")
 
 6.  Enter the following details:
 
@@ -94,7 +97,8 @@ To assign a role in Dynamics 365 Sales Professional:
 
 3.  In the **Manage User Roles** dialog box, select the security role or roles you want for the user or users, and then select **OK**.
 
-    ![Manage User Roles dialog box](media/manage-use-roles-dialog-box.png "Manage User Roles dialog box")
+    > [!div class="mx-imgBorder"]
+    > ![Manage User Roles dialog box](media/manage-use-roles-dialog-box.png "Manage User Roles dialog box")
 
 ## Join teams
 

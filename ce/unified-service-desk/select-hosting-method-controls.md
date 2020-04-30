@@ -1,11 +1,12 @@
 ---
 title: "Select a hosting method for your controls in Unified Service Desk | MicrosoftDocs"
 description: "Learn about different types of hosting methods for your controls in Unified Service Desk."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 12/01/2018
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: "article"
-ms.assetid: 90ee21c6-d686-4845-9567-800c25008bfc
 author: kabala123
 ms.author: kabala
 manager: shujoshi

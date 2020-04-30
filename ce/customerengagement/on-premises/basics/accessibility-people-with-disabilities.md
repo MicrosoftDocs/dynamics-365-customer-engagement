@@ -20,7 +20,7 @@ search.app:
   - D365CE
 ---
 # Accessibility for people with disabilities
-Microsoft is committed to making its products and services easier for everyone. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft Accessibility](http://www.microsoft.com/enable/default.aspx).  
+Microsoft is committed to making its products and services easier for everyone. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft Accessibility](https://www.microsoft.com/enable/default.aspx).  
   
 ## Keyboard shortcuts in Dynamics 365 Customer Engagement (on-premises)
 [!INCLUDE[pn_dynamics-crm](../includes/pn-dynamics-crm.md)] offers keyboard shortcuts to address issues faced by people with limited dexterity or motion disabilities. Also, people who don’t use a mouse can use a keyboard to navigate and complete actions.  More information: [Use keyboard shortcuts in Dynamics 365 Customer Engagement (on-premises)](../basics/keyboard-shortcuts.md)
@@ -31,18 +31,18 @@ Screen readers make Dynamics 365 Customer Engagement (on-premises) accessible to
 ## Accessibility info for browsers  
 For accessibility information about your browser, visit the following websites:  
    
--   [Windows accessibility features](http://www.microsoft.com/enable/products/ie9/default.aspx)  
+-   [Windows accessibility features](https://www.microsoft.com/enable/products/ie9/default.aspx)  
   
--   [Firefox accessibility features](http://support.mozilla.org/kb/accessibility-features-firefox-make-firefox-and-we?redirectlocale=en-US&redirectslug=Accessibility)  
+-   [Firefox accessibility features](https://support.mozilla.org/kb/accessibility-features-firefox-make-firefox-and-we?redirectlocale=en-US&redirectslug=Accessibility)  
   
--   [Safari accessibility features](http://www.apple.com/accessibility/)  
+-   [Safari accessibility features](https://www.apple.com/accessibility/)  
   
 -   [Google Chrome accessibility technical documentation](https://sites.google.com/a/chromium.org/dev/developers/design-documents/accessibility)  
   
 ## Heighten color contrast of some text and images  
- The high contrast setting in [!INCLUDE[pn_ms_Windows_long](../includes/pn-ms-windows-long.md)] heightens the color contrast of some text and images on your computer screen, making those items more distinct and easier to identify. You’ll find this setting on the **Ease of Access** page in [Windows 10](http://www.microsoft.com/enable/products/windows10/default.aspx).  
+ The high contrast setting in [!INCLUDE[pn_ms_Windows_long](../includes/pn-ms-windows-long.md)] heightens the color contrast of some text and images on your computer screen, making those items more distinct and easier to identify. You’ll find this setting on the **Ease of Access** page in [Windows 10](https://www.microsoft.com/enable/products/windows10/default.aspx).  
   
  If you’re using the high contrast setting in [!INCLUDE[pn_ms_Windows_long](../includes/pn-ms-windows-long.md)], you should also select **Enable high contrast** in your Dynamics 365 Customer Engagement (on-premises) personal options. On your dashboard, click or tap ![Gear button](../basics/media/selection-rule-gear-button.gif "Gear button") **>** **Options**. Click or tap the **General** tab, click or tap **Enable high contrast**, and then click or tap **OK**.  
 
 ### See also  
- [Microsoft Accessibility](http://www.microsoft.com/enable/default.aspx)
+ [Microsoft Accessibility](https://www.microsoft.com/enable/default.aspx)

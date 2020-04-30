@@ -1,14 +1,15 @@
 ---
 title: Set up a holiday schedule (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Understand how to set up a holiday schedule in Dynamics 365 Customer Service
-author: anjgupta
-ms.author: anjgup
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ms.date: 10/01/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: dyn365-customerservice
-ms.assetid: 7bb3b4c0-8ffb-42c3-aecc-c730bdad2e5e
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer

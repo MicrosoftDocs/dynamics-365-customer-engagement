@@ -41,13 +41,13 @@ All the parameters are passed if the `<SubArea>` element is configured by settin
  The following sample shows the URL without parameters.  
   
 ```  
-http://myserver/mypage.aspx  
+https://myserver/mypage.aspx  
 ```  
   
  The following sample shows the URL with parameters.  
   
 ```  
-http://myserver/mypage.aspx?orgname=AdventureWorksCycle&userlcid=1033&orglcid=1033  
+https://myserver/mypage.aspx?orgname=AdventureWorksCycle&userlcid=1033&orglcid=1033  
 ```  
   
 ### Reading passed parameters  

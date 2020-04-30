@@ -1,11 +1,12 @@
 ---
 title: "Guide customer interactions with agent scripts in Unified Service Desk | MicrosoftDocs"
 description: "Agent scripting in Unified Service Desk provides guidance to agents about what they should say on calls or what they should type on chat conversations. It includes a script that can use values from any loaded entity on the agent application, hosted control, or the Unified Service Desk context (using replacement parameters)."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 2e6af283-c0c9-4cce-92b1-88485748e0a8
 author: kabala123
 ms.author: kabala
 manager: shujoshi

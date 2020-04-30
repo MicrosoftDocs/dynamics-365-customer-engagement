@@ -28,21 +28,20 @@ search.app:
 
 # Sample: Authenticate users with Dynamics 365 Customer Engagement web services
 
-This sample shows how to authenticate a user with any Dynamics 365 Customer Engagement (on-premises) deployment and obtain a reference to the web services. This sample includes support for [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] users provisioned in Dynamics 365 Customer Engagement (on-premises).  
+This sample shows how to authenticate a user with Dynamics 365 Customer Engagement (on-premises) deployment and obtain a reference to the web services.  
   
- Download the sample: [Authenticate users with Microsoft Dynamics 365 Customer Engagement web services](https://code.msdn.microsoft.com/Authenticate-users-with-707e0375).
+ Download the sample: [Authenticate users with Microsoft Dynamics 365 Customer Engagement web services](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/AuthenticateWithNoHelp).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
   
 ## Demonstrates  
- This sample demonstrates how to authenticate a user with any Dynamics 365 Customer Engagement (on-premises) deployment and make web service calls. This sample doesn’t rely on the CrmServiceHelpers.cs helper code. For a sample that does use helper code, see [Sample: QuickStart sample program](sample-quick-start.md).  
+ This sample demonstrates how to authenticate a user with Dynamics 365 Customer Engagement (on-premises) deployment and make web service calls. This sample doesn’t rely on the CrmServiceHelpers.cs helper code. For a sample that does use helper code, see [Sample: QuickStart sample program](sample-quick-start.md).  
   
 ## Example  
  [!code-csharp[authenticatewithnohelp#authenticatewithnohelp](../snippets/csharp/CRMV8/authenticatewithnohelp/cs/authenticatewithnohelp.cs#authenticatewithnohelp)]  
   
 ### See also  
  [Authenticate Users with Dynamics 365 Customer Engagement Web Services](authenticate-users.md)   
- [Helper Code: ServerConnection Class](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa/sourcecode?fileId=182557&pathId=222952671)   
  [Authenticate Office 365 Users with Dynamics 365 Customer Engagement Web Services](authenticate-office-365-users-customer-engagement-web-services.md)   
  [Connect with Microsoft Office 365 and Dynamics 365 Customer Engagement](connect-microsoft-office-365.md)

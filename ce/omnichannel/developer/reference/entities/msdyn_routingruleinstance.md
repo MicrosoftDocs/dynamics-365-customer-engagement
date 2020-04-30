@@ -1,13 +1,13 @@
 ---
 title: "msdyn_routingruleinstance Entity Reference (Developer Guide for Omnichannel for Customer Service)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_routingruleinstance entity."
-ms.date: 10/14/2019
-ms.service: "crm-online"
-ms.topic: "reference"
-ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
+ms.date: 10/14/2019
+ms.service: 
+  - crm-online
+ms.topic: "reference"
 ---
 # msdyn_routingruleinstance Entity Reference
 

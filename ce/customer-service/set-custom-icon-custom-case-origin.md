@@ -1,14 +1,15 @@
 ---
 title: Set custom icon for custom Case Origin field (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to set custom icon for custom Case Origin field in Dynamics 365 Customer Service
-author: anjgupta
-ms.author: anjgup
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 06/01/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: dyn365-customerservice
-ms.assetid: 273e5ff6-7cf4-4b4b-852a-8219ae98da17
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -39,7 +40,7 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] you can set a cus
   
 ## Set a custom icon for a custom case origin  
   
-1. If the customization prefix for the solution publisher associated with the unmanaged solution you are working in is not ‘new’ you must change the solution publisher customization prefix to ‘new’ temporarily while you create this image web resource. After you create this web resource, set it back to whatever value you want to use. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Solution publisher](../customerengagement/on-premises/customize/change-solution-publisher-prefix.md#BKMK_SolutionPublisher).  
+1. If the customization prefix for the solution publisher associated with the unmanaged solution you are working in is not ‘new’ you must change the solution publisher customization prefix to ‘new’ temporarily while you create this image web resource. After you create this web resource, set it back to whatever value you want to use. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Solution publisher](../customerengagement/on-premises/customize/change-solution-publisher-prefix.md). 
   
 2. Create a 16x16 pixel icon to represent your custom case origin. A PNG file with a transparent background is recommended.  
   

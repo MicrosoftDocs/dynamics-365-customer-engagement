@@ -24,7 +24,7 @@ With Dynamics 365 Customer Engagement (on-premises), XRM tooling enables you to 
 
 
 > [!NOTE]
-> The connection string documentation that is applicable to Common Data Service users is now available in the PowerApps documentation at: [Use connection strings in XRM tooling to connect to Common Data Service](/powerapps/developer/common-data-service/xrm-tooling/use-connection-strings-xrm-tooling-connect)
+> The connection string documentation that is applicable to Common Data Service users is now available in the Power Apps documentation at: [Use connection strings in XRM tooling to connect to Common Data Service](/powerapps/developer/common-data-service/xrm-tooling/use-connection-strings-xrm-tooling-connect)
 >
 > [!INCLUDE[cc-cdsnote-2-topic](../includes/cc-cdsnote-2-topic.md)] 
 
@@ -34,12 +34,11 @@ With Dynamics 365 Customer Engagement (on-premises), XRM tooling enables you to 
 
 ```xml  
 <connectionStrings>  
-    <add name="MyCRMServer" connectionString="AuthType=AD;Url=http://contoso:8080/Test;" />  
+    <add name="MyCRMServer" connectionString="AuthType=AD;Url=https://contoso:8080/Test;" />  
 </connectionStrings>  
 ```  
 
 > [!IMPORTANT]
-
 > If you add any sensitive information to the `app.config` or `web.config` file, for example an account password, be sure to take appropriate security precautions to protect the information.  
 
  After creating the connection string, you use it to create a <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> object.  
@@ -64,7 +63,7 @@ CrmServiceClient crmSvc = new CrmServiceClient(ConfigurationManager.ConnectionSt
 
 |             Parameter name              |                                                                                                                                                                                                                                                                                                                                                                                                                              Description                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `ServiceUri`, `Service Uri`, `Url`, or `Server` | Specifies the URL to the Dynamics 365 Customer Engagement (on-premises) Server. The URL can use http or https protocol, and the port is optional. The default port is 80 for the http protocol and 443 for the https protocol. The server URL is typically in the format of http://crm-server:port/organization-name for Dynamics 365 Customer Engagement (on-premises).<br /><br /> The organization-name is required. You can specify either the friendly or the unique name of the organization to connect to.<br /><br /> Example: http://contoso/test, http://contoso:5555/test, https://contoso/test, or http://10.10.10.2/test. |
+| `ServiceUri`, `Service Uri`, `Url`, or `Server` | Specifies the URL to the Dynamics 365 Server. The URL can use http or https protocol, and the port is optional. The default port is 80 for the http protocol and 443 for the https protocol. The server URL is typically in the format of https://crm-server:port/organization-name for Dynamics 365 Customer Engagement (on-premises).<br /><br /> The organization-name is required. You can specify either the friendly or the unique name of the organization to connect to.<br /><br /> Example: https://contoso/test, https://contoso:5555/test, https://contoso/test, or https://10.10.10.2/test. |
 |                ` Domain`                  |                                                                                                                                                                                                                                                                                                                                                                                                        Specifies the domain that will verify user credentials.                                                                                                                                                                                                                                                                                                                                                                                                        |
 | `UserName`, `User Name`, `UserId`, or `User Id` |                                                                                                                                                                                                                                                                                                                                                                                               Specifies the user's identification name associated with the credentials.                                                                                                                                                                                                                                                                                                                                                                                               |
 |                `Password`                 |                                                                                                                                                                                                                                                                                                                                                                                               Specifies the password for the user name associated with the credentials.                                                                                                                                                                                                                                                                                                                                                                                               |
@@ -90,14 +89,14 @@ CrmServiceClient crmSvc = new CrmServiceClient(ConfigurationManager.ConnectionSt
 
 ## Connection string examples
 
- The following examples show how you can use connection strings for connecting to Dynamics 365 Customer Engagement (on-premises) and IFD deployments. The connection string examples for Common Data Service instances is now available in the PowerApps documentation at: [Use connection strings in XRM tooling to connect to Common Data Service](/powerapps/developer/common-data-service/xrm-tooling/use-connection-strings-xrm-tooling-connect)  
+ The following examples show how you can use connection strings for connecting to Dynamics 365 Customer Engagement (on-premises) and IFD deployments. The connection string examples for Common Data Service instances is now available in the Power Apps documentation at: [Use connection strings in XRM tooling to connect to Common Data Service](/powerapps/developer/common-data-service/xrm-tooling/use-connection-strings-xrm-tooling-connect)  
 
 ### Integrated on-premises authentication  
 
 ```xml
 <add name="MyCRMServer"
 connectionString="AuthType=AD;
-Url=http://contoso:8080/Test;" />  
+Url=https://contoso:8080/Test;" />  
 ```  
 
 ### Named account using on-premises authentication  
@@ -105,7 +104,7 @@ Url=http://contoso:8080/Test;" />
 ```xml  
 <add name="MyCRMServer"
 connectionString="AuthType=AD;
-Url=http://contoso:8080/Test;
+Url=https://contoso:8080/Test;
 Domain=CONTOSO;
 Username=jsmith;
 Password=passcode" />  
@@ -137,6 +136,8 @@ Create a new connection using the current logged in user via oAuth.
 
 > [!NOTE]
 > OAuth is the preferred auth type for connecting to Dynamics 365 Customer Engagement (on-premises) when using a interactive flow.  This auth type fully supports the features of Azure Active Directory Conditional Access and Multi-Factor authentication.
+> To learn more about the `Integrated Security` parameter, see the topic [here](https://docs.microsoft.com/dotnet/framework/data/adonet/connection-string-syntax#windows-authentication).
+
 
 ```xml
 <add name="MyCRMServer"
@@ -182,7 +183,7 @@ Create a new connection to Dynamics 365 Customer Engagement (on-premises) using 
 
 ```xml
 <add name="MyCRMServer"
-connectionString="AuthType=IFD;Url=http://contoso:8080/Test;
+connectionString="AuthType=IFD;Url=https://contoso:8080/Test;
  HomeRealmUri=https://server-1.server.com/adfs/services/trust/mex/;
 Domain=CONTOSO; 
 Username=jsmith; 

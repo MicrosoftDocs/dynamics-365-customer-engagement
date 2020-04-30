@@ -1,21 +1,19 @@
 ---
-title: "Common issues and resolutions for Dynamics 365 Channel Integration Framework | Microsoft Docs"
+title: "Known issues and resolutions for Dynamics 365 Channel Integration Framework | Microsoft Docs"
 description: ""
-keywords: ""
-ms.date: 10/25/2019
-ms.service:
-  - dynamics-365-cross-app
-ms.custom:
-  - "dyn365-a11y"
-  - "dyn365-developer"
-ms.topic: article
-ms.assetid: 42199642-3637-4823-BED9-3311A533D484
 author: susikka
 ms.author: susikka
 manager: shujoshi
+ms.date: 11/21/2019
+ms.topic: article
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - "dyn365-a11y"
+  - "dyn365-developer"
 ---
 
-# Common issues and resolutions for Dynamics 365 Channel Integration Framework
+# Known issues and resolutions for Dynamics 365 Channel Integration Framework
 
 Here are some common issues that you might encounter while using Dynamics 365 Channel Integration Framework.
 
@@ -34,3 +32,20 @@ Providers might need a customer-less default session to show a dialer experience
 ## Presence synchronization between multiple providers
 
 The framework does not support the capability to synchronize presence across providers during the private preview. Support for this will come later.
+
+## Form flickering when communication widget is expanded
+
+If you have a form open when you expand the communication widget, you will observe that the form flickers. The flickering will be observed only if any of the following conditions apply.
+
+-	The form section layout is 4 columns.
+-	The form has a web resource which defines the row size to 40 or greater, and also sets the form section layout to 4 columns.
+-	Screen size is 23.6 inch or higher.
+
+You will not observe flickering if the form has just one row and if all cells in the row are filled. Also, you will not observe this if there are 4 columns and 4 rows with non-empty cells. Flickering of forms is observed when there are 2 or more rows, with or without empty cells.
+
+The resolution for this is to adjust the screen size.
+
+## See also
+
+[What's new in Dynamics 365 Channel Integration Framework](whats-new-channel-integration-framework.md)<br />
+[Frequently asked questions](faq-channel-integration-framework.md)

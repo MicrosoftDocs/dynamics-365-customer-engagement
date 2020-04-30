@@ -130,7 +130,7 @@ Although most attributes can be secured, there are system attributes, such as ID
 - createdon, EntityImage_Timestamp, modifiedon, OnHoldTime, overriddencreatedon
 -	statecode, statuscode
 
-You can view the entity metadata for your organization including which fields can be enabled for field security, by installing the Metadata Browser solution described in [Browse the Metadata for Your Organization](../developer/browse-your-metadata.md). You can also view the metadata for an uncustomized organization in the [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] file called EntityMetadata.xlsx included in the top-level folder of the SDK. [Download the Microsoft Dynamics 365 for Customer Engagement apps SDK](http://go.microsoft.com/fwlink/p/?LinkId=691153)  
+You can view the entity metadata for your organization including which fields can be enabled for field security, by installing the Metadata Browser solution described in [Browse the Metadata for Your Organization](../developer/browse-your-metadata.md). You can also view the metadata for an uncustomized organization in the [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] file called EntityMetadata.xlsx included in the top-level folder of the SDK. [Download the Microsoft Dynamics 365 for Customer Engagement apps SDK](https://go.microsoft.com/fwlink/p/?LinkId=691153)  
    
 <a name="BKMK_FLSbestprac"></a>   
 ## Best practices when you use field security  
@@ -139,7 +139,7 @@ You can view the entity metadata for your organization including which fields ca
  Some data, such as addresses, are actually made up of multiple fields. Therefore, to completely secure data that includes multiple fields, such as addresses, you must secure and configure the appropriate field security profiles on multiple fields for the entity. For example, to completely secure addresses for an entity, secure all relevant address fields, such as address_line1, address_line2, address_line3, address1_city, address1_composite, and so on.  
   
 ### See also  
- [Video: Field Level Security in Microsoft Dynamics CRM 2015](http://www.youtube.com/watch?v=Czc9sKvWd9k&list=UUem1HuioGqKEn8Li3l4DIYQ)   
+ [Video: Field Level Security in Microsoft Dynamics CRM 2015](https://www.youtube.com/watch?v=Czc9sKvWd9k&list=UUem1HuioGqKEn8Li3l4DIYQ)   
  [Create a field security profile](set-up-security-permissions-field.md)   
  [Add or remove security from a field](enable-disable-security-field.md)   
  [Hierarchy security](../admin/hierarchy-security.md)

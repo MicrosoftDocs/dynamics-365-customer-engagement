@@ -5,13 +5,14 @@ ms.custom:
   - dyn365-USD
   - dyn365-admin
 ms.date: 02/06/2018
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 1AEA6B45-3646-400D-B0C1-08B503897E8D
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-search.audienceType: admin
+search.audienceType: 
+  - admin
 search.app: 
   - D365CE
   - D365USD

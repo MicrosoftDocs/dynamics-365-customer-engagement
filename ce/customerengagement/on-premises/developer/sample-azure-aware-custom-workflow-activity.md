@@ -2,8 +2,8 @@
 title: "Sample: Azure aware custom workflow activity (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The sample shows how to write a custom workflow activity that can post the data context from the current Dynamics 365 Customer Engagement operation to the Azure Service Bus"
 ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: 
+ms.date: 12/10/2019
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -24,30 +24,21 @@ search.app:
 ---
 # Sample: Azure aware custom workflow activity
 
-This sample obtains the data context from the current Dynamics 365 Customer Engagement (on-premises) for Customer Engagement (on-premises) operation and posts it to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)].  
-  
- This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the sample: [Work with Microsoft Dynamics 365 Customer Engagement and Azure Integration](https://code.msdn.microsoft.com/Sample-Dynamics-365-and-6a95df2a)  
+This sample obtains the data context from the current operation and posts it to the Azure Service Bus.You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/Azurecustomworkflowactivity).
 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
-  
-## Requirements  
- You must configure Dynamics 365 Customer Engagement (on-premises) to connect with [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] before registering and executing this sample custom workflow activity. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Microsoft Azure Integration with Dynamics 365 Customer Engagement](configure-azure-integration.md).  
-  
- Notice the “Input id” required argument in the code. When you add this activity to a workflow, you must provide the GUID of a [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] service endpoint.
-  
- When registering this custom workflow activity with [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], you must register it in the sandbox (partial trust).  
-  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
-  
-## Demonstrates  
- This sample shows how to write a custom workflow activity that can post the data context from the current Dynamics 365 Customer Engagement (on-premises) operation to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)]. The posting of the data context is done through the <xref:Microsoft.Xrm.Sdk.IServiceEndpointNotificationService.Execute(Microsoft.Xrm.Sdk.EntityReference,Microsoft.Xrm.Sdk.IExecutionContext)> method.  
-  
-## Example  
- [!code-csharp[WindowsAzure#AzureAwareWorkflowActivity](../snippets/csharp/CRMV8/windowsazure/cs/azureawareworkflowactivity.cs#azureawareworkflowactivity)]  
-  
-### See also  
- [Sample Code for Dynamics 365 Customer Engagement and Microsoft Azure Integration](sample-code-azure-integration.md)   
- [Sample: Persistent Queue Listener](sample-persistent-queue-listener.md)   
- [Custom Workflow Activities](custom-workflow-activities-workflow-assemblies.md)   
- <xref:Microsoft.Xrm.Sdk.IServiceEndpointNotificationService>
+## Requirements
+
+You must configure Common Data Service to connect with Azure before registering and executing this sample custom workflow activity. More information: [Configure Microsoft Azure Integration with Common Data Service](configure-azure-integration.md).
+
+Notice the `Input id` required argument in the code. When you add this activity to a workflow, you must provide the GUID of a Azure service endpoint.
+
+When registering this custom workflow activity with Common Data Service, you must register it in the sandbox (partial trust).
+
+## How to run samples
+
+1. Download or clone the [Samples](https://github.com/Microsoft/PowerApps-Samples) repo so that you have a local copy.
+2. Register the workflow activity.
+
+## What this sample does
+
+This sample shows how to write a custom workflow activity that can post the data context from the current Common Data Service operation to the Azure Service Bus. The posting of the data context is done through the <xref:Microsoft.Xrm.Sdk.IServiceEndpointNotificationService.Execute(Microsoft.Xrm.Sdk.EntityReference,Microsoft.Xrm.Sdk.IExecutionContext)> method.

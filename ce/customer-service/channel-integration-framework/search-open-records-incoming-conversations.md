@@ -1,21 +1,16 @@
 ---
-title: "Search and open records on an incoming conversation | MicrosoftDocs"
-description: "Read how you can use the Dynamics 365 Channel Integration Framework APIs to search and open records on an incoming conversation."
-keywords: ""
-ms.date: 09/03/2019
-ms.service:
-  - "dynamics-365-cross-app"
-ms.custom:
-  - "dyn365-a11y"
-  - "dyn365-developer"
-ms.topic: reference
-applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
-ms.assetid: 8C49AEE2-54BD-4FEC-A121-41CF2CFFEC2D
+title: "Search and open records on an incoming conversation in Dynamics 365 Channel Integration Framework (CIF) version 1.0 | MicrosoftDocs"
+description: "Read how you can use the Dynamics 365 Channel Integration Framework (CIF) version 1.0 APIs to search and open records on an incoming conversation."
 author: susikka
 ms.author: susikka
 manager: shujoshi
+ms.date: 12/31/2019
+ms.topic: reference
+ms.service: 
+  - "dynamics-365-customerservice"
+ms.custom: 
+  - "dyn365-a11y"
+  - "dyn365-developer"
 ---
 # Walkthrough: Search and open records on an incoming conversation
 
@@ -214,6 +209,8 @@ Follow the steps mentioned in [Publish and configure the widget](getting-started
 
 ## See also
 
-[Get started with building a simple communication widget](getting-started-simple-widget.md)<br />
-[Sample code for softphone integration](sample-softphone-integration.md)<br />
+[Get started with building a simple communication widget](getting-started-simple-widget.md)
+
+[Sample code for softphone integration](sample-softphone-integration.md)
+
 [Frequently asked questions](faq-channel-integration-framework.md)

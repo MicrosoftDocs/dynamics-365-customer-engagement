@@ -44,9 +44,9 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
   
 ### Installing updates  
   
-- Install all the latest [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] updates, including all security updates, from [!INCLUDE[pn_Microsoft_Update](../../includes/pn-microsoft-update.md)]. [Go to Microsoft Update](http://go.microsoft.com/fwlink/p/?LinkId=165705).  
+- Install all the latest [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] updates, including all security updates, from [!INCLUDE[pn_Microsoft_Update](../../includes/pn-microsoft-update.md)]. [Go to Microsoft Update](https://go.microsoft.com/fwlink/p/?LinkId=165705).  
   
-- To ensure that you stay up-to-date with future releases of [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], it is highly recommended that you ensure that [!INCLUDE[pn_ms_Windows_Update](../../includes/pn-ms-windows-update.md)] is enabled on your computer. [Learn how to turn on automatic updates](http://go.microsoft.com/fwlink/p/?LinkID=518633).  
+- To ensure that you stay up-to-date with future releases of [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], it is highly recommended that you ensure that [!INCLUDE[pn_ms_Windows_Update](../../includes/pn-ms-windows-update.md)] is enabled on your computer. [Learn how to turn on automatic updates](https://go.microsoft.com/fwlink/p/?LinkID=518633).  
   
 ## Step 2: Install and configure Dynamics 365 for Outlook  
   

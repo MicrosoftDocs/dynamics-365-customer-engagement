@@ -1,18 +1,19 @@
 ---
 title: "Walkthrough  Create a UII Web Application Adapter in Unified Service Desk  | MicrosoftDocs"
 description: "Demonstrates how to host and interact with an external web application in Unified Service Desk."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 01/25/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 0b4f5456-deef-41e9-ac58-13a2a0ce5de2
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-search.audienceType:
+search.audienceType: 
   - customizer
   - developer
-search.app:
+search.app: 
   - D365CE
   - D365USD
 ---
@@ -43,7 +44,7 @@ You can create a web application adapter if you want to enhance and modify web a
 
 3. Navigate to the \<ExtractedFolder>\UII\SampleCode\UII\AIF\QsWebApplication folder, and open the Microsoft.Uii.QuickStarts.QsWebApplication.csproj file in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].
 
-4. Press F5 or choose **Debug** > **Start Debugging** to host the sample web application locally on your computer. The application will be hosted at http://localhost:2627/.
+4. Press F5 or choose **Debug** > **Start Debugging** to host the sample web application locally on your computer. The application will be hosted at https://localhost:2627/.
 
    ![Web app in Visual Studio](../unified-service-desk/media/usd-web-app-local-host.png "Web app in Visual Studio")
 
@@ -71,7 +72,7 @@ You can create a web application adapter if you want to enhance and modify web a
    |        **Adapter**         |                                            Use No Adapter                                             |
    | **Application is Dynamic** |                                                  No                                                   |
    |  **Application Hosting**   |                                             Use SetParent                                             |
-   |          **URL**           | Specify the location where your web application is hosted. In this case, it is http://localhost:2627/ |
+   |          **URL**           | Specify the location where your web application is hosted. In this case, it is https://localhost:2627/ |
 
    ![Screenshot of Web App Config](../unified-service-desk/media/usd-web-app-crm-config.png "Screenshot of Web App Config")  
 

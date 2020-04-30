@@ -1,11 +1,12 @@
 ---
 title: "WinDDA events in Unified Service Desk | MicrosoftDocs"
 description: "Learn about the Windows DDA (WinDDA) events in Unified Service Desk."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 188f3d5a-4460-47c1-bdcc-f4a431173a1b
 author: kabala123
 ms.author: kabala
 manager: shujoshi

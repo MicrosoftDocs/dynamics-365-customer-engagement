@@ -116,10 +116,10 @@ Although a proxy server can act as a cache server and can help load a webpage fa
 Frequently, people avoid manual proxy configuration and use automatic proxy configuration. 
 This shortcut helps in load balancing the proxy servers, but depending on the complexity of the configuration script, a significant delay can be experienced when you use automatic proxy configuration.  
 
-When the Dynamics 365 Customer Engagement (on-premises) server is installed, you can bypass the proxy server to achieve better throughput. 
+When the Dynamics 365 Server is installed, you can bypass the proxy server to achieve better throughput. 
 
 The server offers a local web address that requires no proxy to be reached. You can select **Bypass proxy server for local addresses** and provide the fully qualified domain name of the 
-Dynamics 365 Customer Engagement (on-premises) server in the exceptions list. This gives better throughput when records are created by using the SDK assemblies.  
+Dynamics 365 Server in the exceptions list. This gives better throughput when records are created by using the SDK assemblies.  
 
 <a name="caching"></a>
 
@@ -185,7 +185,7 @@ Or wrap the proxy classes in a new class. Another technique is to explicitly che
 
 ### Best practices for Dynamics 365 Customer Engagement (on-premises)
 
-The [Microsoft Dynamics 365 Customer Engagement (on-premises) patterns & principles for solution builders](http://go.microsoft.com/fwlink/p/?LinkID=533946) white paper download provides guidance specifically about building solutions using [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
+The [Microsoft Dynamics 365 Customer Engagement (on-premises) patterns & principles for solution builders](https://go.microsoft.com/fwlink/p/?LinkID=533946) white paper download provides guidance specifically about building solutions using [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
 
 ### Using custom entities and attributes
 
@@ -265,7 +265,7 @@ Best practices for securing your implementation of Dynamics 365 Customer Engagem
 - Require that all users use strong passwords for their accounts.
 
 <!-- This is an on-prem topic, not yet migrated. Put in a different link for a placeholder
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security Considerations for Dynamics 365 Customer Engagement](https://technet.microsoft.com/en-us/library/hh699825.aspx)  
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security Considerations for Dynamics 365 Customer Engagement](https://technet.microsoft.com/library/hh699825.aspx)  
 -->
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security Concepts for Dynamics 365 Customer Engagement (on-premises)](../admin/security-concepts.md)  
 
@@ -326,7 +326,7 @@ Best practices for developing customizations for the [!INCLUDE[pn_crm_shortest](
   For more information, see the following:  
 
 - [Overview of Web Application Security Threats](https://msdn.microsoft.com/library/f13d73y6.aspx)  
-- [Download: Microsoft Anti-Cross Site Scripting Library V4.2](http://www.microsoft.com/download/details.aspx?id=28589)  
+- [Download: Microsoft Anti-Cross Site Scripting Library V4.2](https://www.microsoft.com/download/details.aspx?id=28589)  
 - [ASP.NET Web Application Security](https://msdn.microsoft.com/library/330a99hc.aspx)  
 - [Introduction to Web Application Security](https://msdn.microsoft.com/library/aa711426\(VS.71\).aspx)  
 

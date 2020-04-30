@@ -1,28 +1,18 @@
 ---
 title: "Overview of templates | MicrosoftDocs"
 description: "Learn about templates in the Omnichannel Administration app"
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
-ms.date: 10/25/2019
-ms.service: dynamics-365-customerservice
+ms.date: 01/31/2020
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 54535BA9-DC5A-4304-81C8-916CAA0A76A2
-ms.custom: 
 ---
 
-# Preview: Overview of templates
+# Overview of templates
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
-> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided “as-is,” “with all faults,” “as available,” and without warranty.​
-> - This preview features does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
-> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../../legal/dynamics-insider-agreement.md). 
 
 When you (an agent) get an incoming conversation request, the omnichannel system searches and opens the records like case, contact, or account. However, your organization might have different requirements and want to use different custom entities and correlate to a conversation. 
 

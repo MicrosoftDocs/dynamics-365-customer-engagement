@@ -1,16 +1,13 @@
 ---
 title: "Introduction to Omnichannel for Customer Service | MicrosoftDocs"
 description: 
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: fbe4ca59-daca-403a-97f1-49c79d608cac
-ms.custom: 
 ---
 # Introduction to Omnichannel for Customer Service
 
@@ -39,6 +36,12 @@ SMS is an engagement channel that supports asynchronous mode of communication, a
 ### Facebook
 
 The Facebook channel gives you an incredible opportunity to capitalize on the social media trend and engage with your customers in a seamless and personalized experience. The Facebook channel is currently available in preview. For more information, see [Try channels for Dynamics 365 Customer Service](try-channels.md) and [Configure a Facebook channel](administrator/configure-facebook-channel.md).
+
+## Videos
+
+[Introduction to Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2097511)
+
+To view more videos on Omnichannel for Customer Service, see [Videos](videos.md).
 
 ## See also
 

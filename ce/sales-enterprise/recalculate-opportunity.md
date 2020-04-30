@@ -1,16 +1,15 @@
 ---
 title: "Recalculate an opportunity (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Recalculate the opportunity in Dynamics 365 Sales to change the estimated revenue of an opportunity based on any changes you've made to the associated products or product quantities."
-keywords: "opportunity, deal, develop, propose, nurture sales"
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service: 
+  - dynamics-365-sales
+ms.custom: 
+  - dyn365-sales
 ms.topic: article
-ms.assetid: 36b834d9-7b37-49f7-a110-efcaee8dea04
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-caps.latest.revision: 58
 ---
 
 # Recalculate an opportunity (Sales Hub)
@@ -26,6 +25,10 @@ To change the estimated revenue of an opportunity based on any changes you've ma
 4.	Select **Save**.
 
 5.	On the command bar, select **Recalculate Opportunity**.
+
+> [!IMPORTANT]
+> If there are any changes to existing opportunity products associated with closed opportunities, the prices aren't recalculated.
+
 
 ### See also  
 

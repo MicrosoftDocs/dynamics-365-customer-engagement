@@ -25,7 +25,7 @@ search.app:
 
 
 
-In previous releases of Dynamics 365 Customer Engagement (on-premises), users couldn’t enter data directly in grids (sometimes called lists) or subgrids on forms. They had to select the record in the grid to open a form, edit the data, and then save, which required multiple steps. With editable grids, users can do rich in-line editing directly from grids and sub-grids whether they’re using a web app, tablet, or phone.  
+In previous releases of Dynamics 365 Customer Engagement (on-premises), users couldn’t enter data directly in grids (sometimes called lists) or subgrids on forms. They had to select the record in the grid to open a form, edit the data, and then save, which required multiple steps. With editable grids, users can do rich in-line editing directly from grids and subgrids whether they’re using a web app, tablet, or phone.  
   
  ![Editable grid examples](../customize/media/editable-grid-examples.png "Editable grid examples")  
   
@@ -55,7 +55,7 @@ In previous releases of Dynamics 365 Customer Engagement (on-premises), users co
   
 -   Calculated fields and rollup fields  
   
--   Business rules (Show error message, Set field value, Set business required, Set default value, Lock or unlock field)  
+-   Business rules (Show error message, Set field value, Set business required, Set default value, Lock, or unlock field)  
   
 -   JavaScript events  
   
@@ -142,27 +142,27 @@ Editable grids are fully accessible, and provides excellent keyboard support inc
 
 ## Frequently asked questions (FAQs)
 
-Below are some of the most fequently asked questions related to editable grids:
+Below are some of the most fequently asked questions related to editable grids.
 
-### Question: I want to configure my look-up column to a certain view, but I don't see it in the Available Columns dropdown in the configuration?
+### I want to configure my look-up column to a certain view, but I don't see it in the **Available Columns** dropdown in the configuration?
 
-Ensure that the look-up column that you want to configure is not a "Regarding" column. This is a special column type and it does not have support for configuring the view definitions on the Editable Grid configuration dialog. 
+Ensure that the look-up column that you want to configure is not a "Regarding" column. This is a special column type and it doesn't have support for configuring the view definitions on the Editable Grid configuration dialog. 
 
-### Question: Why are my business rules not working for my columns?
+### Why isn't my business rule working for my column?
 
-Ensure that the column where the business rule is applied on is a part of your current view. We don’t pull all the fields for an entity. But only those fields which are present in the current view. So, if your business rules are on a column which is not available, they won't run. Also note that no business rules will run in this case and not just the business rule that was applied on one column. 
+Ensure that the column where the business rule is applied is a part of your current view. A business rule doen’t pull all the fields for an entity, only those fields which are present in the current view. So, if your business rule is on a column which is not available, it won't run. <!-- Hiding this because it isn't clear what the intent is. Also note that no business rules will run in this case and not just the business rule that was applied on one column. -->
 
-### Question: My grid is still read only even if I have configured it to be editable?
+### Why is my grid read only when I have configured it to be editable?
 
 Ensure that you are not using legacy Form rendering. Editable grids are not supported on legacy forms.
 
-### Question: Why I don’t see editable grid on phones?
+### Why can’t I use editable grids on phones?
 
-Due to some recent feedback, we have removed editable grid experience from phones. In this case, you will see a read only version of a list control. We are looking to improve the experience in the future. 
+Based on customer feedback, we have removed the editable grid experience from phones. When using a editable grid on a phone, you will see a read-only version of the list control.  
 
-### Question: Why I cannot use record navigation in a form when coming for an editable grid?
+### Why can't I use record navigation in a form when coming from an editable grid?
 
-For web client, this is a limitation and we have not enabled the functionality. However, this functionality is available in Unified Interface. 
+This functionality isn't available with the web client. However, this functionality is available in Unified Interface. 
 
 
 ### See also  

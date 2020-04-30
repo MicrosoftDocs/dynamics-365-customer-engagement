@@ -33,7 +33,7 @@ namespace Microsoft.Crm.Sdk.Samples
 
         // TODO: Appropriately change the absolute URL of the SharePoint site
         // record.
-        private String _siteAbsoluteURL = "http://www.example.com";
+        private String _siteAbsoluteURL = "https://www.example.com";
 
         #endregion Class Level Members
 

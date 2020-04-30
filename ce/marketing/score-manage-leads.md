@@ -8,8 +8,8 @@ ms.custom:
   - dyn365-marketing
 ms.topic: article
 ms.assetid: d9a600e6-0c1c-48ac-b5dc-8b80c74e9755
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -115,12 +115,12 @@ Set up the logic for a condition tile by making the following settings:
 
 - **Display Name**: Shows the name for the tile, as shown on the canvas.
 - **Entity**: Choose a Dynamics 365 entity to monitor or check for the condition. For example, choose **EmailClicked** to look for records where a contact has clicked a link in an email.
-- **Frequency**: Choose how often the condition should be triggered. Choose **Each** to score on each occurrence (such as to increase the score on each email click). Choose **At least** to score just once (such as to increase the score on the first email click, but ignore subsequent ones).
+- **Frequency**: Choose how often the condition should be triggered. Choose **Each** to score on each occurrence (such as to increase the score on each email click). Choose **At least** to score just once (such as to increase the score on the first email click, but ignore subsequent ones). Choose **None** to score only when zero qualifying examples of the selected entity have occurred during the date range (for example, to lower the overall score for contacts having zero email clicks).
 - **Date Range**: Enter a date before which scorable events won't be counted. For example, set this to a year to ignore all email interactions that occurred more than a year ago. This can result in scores going down over time as interactions age.
 - **New Expression**: Select this button to add a new expression to the condition. The additional expression further tests the condition based on stored data. For example, you could add an expression for "City = New York", which would modify the condition so that only email clicks made by contacts in New York City would trigger the condition. You can add as many extra expressions as you like to create complex conditions.
 
     > [!NOTE]
-    > All expressions belonging to the same condition are combined using an AND operator, which means that all expressions must evaluate to TRUE for the overall condition to be true.
+    > All expressions belonging to the same condition are combined using an AND operator, which means that all expressions must evaluate to TRUE for the overall condition to be true. To score for all qualifying occurrences (for example, to score for any email open, regardless of message or journey) remove all expressions using their close box (including the expression added by default).
 
 There are two categories of conditions:
 
@@ -141,7 +141,7 @@ The canvas provides an easy, graphical way to assemble your scoring rules, but i
 
 The main reason for scoring leads is to provide a way to identify your best leads and to decide when a lead should be forwarded to a salesperson for more attention. Therefore, you'll nearly always set a sales-ready threshold for each lead-scoring model. You can also set up a schedule of grades as a way to offer an interpretation of the score (such as cold, warm, or hot) as it progresses toward sales-ready.
 
-When a score reaches the sales-ready threshold, a plug-in automatically sets the sales-ready flag on the lead to *True. If a lead is scored by multiple models, the flag is set as soon as any model reaches the threshold. This triggers a workflow that automatically moves the lead to the sales-acceptance stage of the lead lifecycle. You can customize this workflow as needed.
+When a score reaches the sales-ready threshold, a plug-in automatically sets the sales-ready flag on the lead to **True**. If a lead is scored by multiple models, the flag is set as soon as any model reaches the threshold. This triggers a workflow called "Lead to Opportunity Stage Transition", which automatically moves the lead to the sales-acceptance stage of the lead lifecycle. You can customize this workflow as needed.
 
 The grades and sales-ready score apply to the entire model, regardless of how many conditions it contains. To set them, open the **Grades** tab next to the canvas.
 

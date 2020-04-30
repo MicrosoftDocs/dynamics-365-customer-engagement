@@ -1,5 +1,5 @@
 ---
-title: "Microsoft SQL Server and Microsoft Dynamics 365 for Customer Engagement Server must be in the same domain | Microsoft Docs"
+title: "Microsoft SQL Server and Microsoft Dynamics 365 Server must be in the same domain | Microsoft Docs"
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -12,7 +12,7 @@ robots: noindex,nofollow
 author: Mattp123
 ms.author: matp
 ---
-# Microsoft SQL Server and Microsoft Dynamics 365 for Customer Engagement Server must be in the same domain
+# Microsoft SQL Server and Microsoft Dynamics 365 Server must be in the same domain
 
 ## Cause
   

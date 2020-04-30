@@ -16,8 +16,8 @@ helpviewer_keywords:
 ms.assetid: 59c8a58c-1add-4c29-915f-8aa0ae07f30c
 caps.latest.revision: 16
 author: JimDaly
-ms.author: jdaly
-manager: amyla
+ms.author: nabuthuk
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
@@ -25,21 +25,32 @@ search.app:
 ---
 # Sample: Rollup records related to a specific record
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. [Download the Business Management samples](https://code.msdn.microsoft.com/Business-Management-Samples-6a482e62).
+This sample shows how to roll up opportunities by the parent account. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/RollupSpecificRecords).
 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
-  
-## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
-  
-## Demonstrates  
- This sample shows how to roll up opportunities by the parent account.  
-  
-## Example  
- [!code-csharp[BusinessManagement#RollupByObject](../snippets/csharp/CRMV8/businessmanagement/cs/rollupbyobject.cs#rollupbyobject)]  
-  
-### See also  
- [Introduction to Entities in Dynamics 365 Customer Engagement (on-premises)](introduction-entities.md)   
- <xref:Microsoft.Crm.Sdk.Messages.RollupRequest>   
- [Sample: Set and retrieve entity images](sample-set-retrieve-entity-images.md)
+[!include[cc-sample-note](includes/cc-sample-note.md)]
+
+## How to run this sample
+
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-PA-samples.md)]
+
+## What this sample does
+
+The `RollupRequest` message is intended to be used in a scenario where it contains data that is needed to create a roll up request.
+
+## How this sample works
+
+In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+
+### Setup
+
+1. Checks for the current version of the org.
+2. Creates sample account and opportunity records.
+
+### Demonstrate
+
+1. The `QueryExpression` queries the opportunities by parent account.
+2. The `RollupRequest` creates the roll up request.
+
+### Clean up
+
+Display an option to delete the records in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.

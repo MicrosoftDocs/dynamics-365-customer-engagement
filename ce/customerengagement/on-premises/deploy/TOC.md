@@ -93,6 +93,7 @@
 ##### [Configure claims settings](configure-claims-settings.md)
 ##### [Configure IFD settings](configure-ifd-settings.md)
 ##### [Configure web address settings](configure-web-address-settings.md)
+##### [Configure OAuth settings](configure-oauth-settings.md)
 ### [Use Deployment Manager to manage the deployment](use-deployment-manager-to-manage-the-deployment.md)
 #### [Deployment properties](microsoft-dynamics-365-deployment-properties.md)
 #### [Change the product key](change-the-product-key.md)

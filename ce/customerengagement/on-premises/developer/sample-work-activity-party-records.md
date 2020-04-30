@@ -16,8 +16,8 @@ helpviewer_keywords:
 ms.assetid: 8053c3d9-227a-4617-b50f-727dd7afc3a0
 caps.latest.revision: 12
 author: JimDaly
-ms.author: jdaly
-manager: amyla
+ms.author: nabuthuk
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
@@ -25,22 +25,35 @@ search.app:
 ---
 # Sample: Work with activity party records
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample from [Sample: Work with Activity entities](https://code.msdn.microsoft.com/Activities-Samples-61bf7504).
+This sample code shows how to work with activity party records. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/ActivityPartyRecords).
 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
-  
-## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
-  
-## Demonstrates  
- This sample shows how to work with activity party records.  
-  
-## Example  
- [!code-csharp[Activities#WorkingWithActivityParties](../snippets/csharp/CRMV8/activities/cs/workingwithactivityparties.cs#workingwithactivityparties)]  
-  
-### See also  
- [Sample Code for Activity Entities](sample-code-activity-entities.md)   
- [Sample: Send Bulk Email and Monitor Results](sample-send-bulk-email-monitor-results.md)   
- [Sample: CrmServiceHelper Class](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa/sourcecode?fileId=182557&pathId=222952671)   
- [ActivityParty Entity](activityparty-entity.md)
+[!include[cc-sample-note](includes/cc-sample-note.md)]
+
+## How to run this sample
+
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-PA-samples.md)]
+
+## What this sample does
+
+This sample creates some sample data, to work with activity party records. 
+
+## How this sample works
+
+In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+
+### Setup
+
+1. Checks for the current version of the org.
+1. Creates three contact records which are required for this sample.
+
+
+### Demonstrate
+
+1. Retrieves the contact records that are created in the [Setup](#setup). 
+2. Creates the activity party records for each contact.
+3. Also creates Letter activity and set **From** and **To** fields to the respective Activity Party entities.
+
+### Clean up
+
+Display an option to delete the records created during [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
+

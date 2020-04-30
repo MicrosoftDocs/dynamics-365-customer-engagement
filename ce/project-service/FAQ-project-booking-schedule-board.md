@@ -8,7 +8,7 @@ ms.custom:
   - dyn365-projectservice
 ms.date: 9/26/2019
 ms.topic: article
-ms.prod: Applies to Dynamics 365 for Customer Engagement Project Service versions 2.x and 3.x 
+ms.prod: Dynamics 365 Project Service Automation 2.x and 3.x 
 ms.service: business-applications
 ms.technology: 
 ms.author: ruhercul
@@ -21,6 +21,8 @@ search.app:
   - D365CE
   - D365PS
 ---
+
+
 
 # Create a project booking from the Schedule board
 
@@ -40,7 +42,7 @@ You can create a generic resource and assign it one or more tasks within a proje
 
 1.  On the Schedule board, this resource will show up on the **Open Requirements** tab. You might need to use column filters on the grid if you have many open requirements. 
 
-  > ![Open Requirements tab on the Schedule board](media/FAQ-Project-Booking-Schedule-Board-1.png "Screenshot of bookings and assignments table")
+    ![Open Requirements tab on the Schedule board](media/FAQ-Project-Booking-Schedule-Board-1.png "Screenshot of bookings and assignments table")
 
 2. Select the requirement. The **Find Availability** tab will appear at the top of the selected row.
  
@@ -50,7 +52,7 @@ You can create a generic resource and assign it one or more tasks within a proje
 
     Selecting **Book** books the resource onto the project team.
 
-> ![Create Resource Booking panel](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![Create Resource Booking panel](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## Book from the Primary Requirement
@@ -59,7 +61,7 @@ Creating a project in Project Service automatically creates a resource requireme
 
 1. To book a resource with the Primary Requirement, on the Schedule board, select the **Project** tab. You might need to use the column filter on the **Project** column if you have many projects.
 
-  > ![Column filters on the Schedule board](media/FAQ-Project-Booking-Schedule-Board-2.png "Screenshot of bookings and assignments table")
+   ![Column filters on the Schedule board](media/FAQ-Project-Booking-Schedule-Board-2.png "Screenshot of bookings and assignments table")
 
 2. Select the requirement that only has the project name as its name and has a duration of zero (0).
 

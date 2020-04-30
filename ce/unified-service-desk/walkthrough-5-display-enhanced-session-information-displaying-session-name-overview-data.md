@@ -1,11 +1,12 @@
 ---
 title: "Walkthrough 5  Display enhanced session information by displaying session name and overview data | MicrosoftDocs"
 description: "Demonstrates how to dynamically display session name and session overview information in Unified Service Desk to enhance the customer-interaction experience for your agents."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 01e6b62c-2add-46ca-9d90-0c45c60f83f9
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -124,7 +125,7 @@ In the previous walkthrough, [Walkthrough 4: Display a record in a session in yo
    - **Display**:  
   
        ```xaml  
-       <Grid Margin="0"      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"      xmlns:CCA="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics">  
+       <Grid Margin="0"      xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml"      xmlns:CCA="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics">  
          <Grid.RowDefinitions>  
            <RowDefinition Height="auto" />  
            <RowDefinition Height="auto" />  

@@ -1,16 +1,16 @@
 ---
 title: "Enable sales order processing integration (Dynamics 365 Sales) | MicrosoftDocs"
-keywords: sales, developer guide
+description: 
 ms.date: 05/03/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service: 
+  - dynamics-365-sales
+ms.custom: 
+  - dyn365-sales
 ms.topic: get-started-article
-ms.assetid: 94DFA02D-0793-48AA-B3E4-D5E61F0330CD
 author: susikka
 ms.author: susikka
 manager: shujoshi
 ms.reviewer: susikka
-caps.latest.revision: 5
 ---
 # Enable sales order processing integration
 

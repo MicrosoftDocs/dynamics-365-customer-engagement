@@ -1,5 +1,5 @@
 ---
-title: "Step 3: Configure the tile for custom channel (Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
+title: "Step 2: Configure the tile for custom channel (Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
 description: "Learn about how to configure a Tile for a custom channel in Dynamics 365 Marketing."
 ms.custom: 
 ms.date: 04/01/2018
@@ -17,7 +17,7 @@ search.app:
   - D365CE
   - D365Mktg
 ---
-# Step 3: Configure the tile for custom channel
+# Step 2: Configure the tile for custom channel
 
 
 Custom channel is exposed as a “tile” in the customer journey designer. You define the tile using 2 files: an XML file and a CSS file.
@@ -149,11 +149,11 @@ The XML file has the following elements:
     <td>ComplianceField</td>
     <td>Contains a boolean attribute of the <a href="../../developer/entities/contact.md" data-raw-source="[Contact](/powerapps/developer/common-data-service/reference/entities/contact)">Contact</a> entity whose value determines whether an instance of the Custom Channel Activity (<b>msdyncrm_customerjourneycustomchannelactivity</b>) entity is created when the Contact record goes through a customer journey.<br/><br/>
     
-    For example, if you set the value of this element to <a href="https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/reference/entities/contact#BKMK_DoNotPhone" data-raw-source="[donotphone](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/reference/entities/contact#BKMK_DoNotPhone)">donotphone</a>:<br/><br/>
+    For example, if you set the value of this element to <a href="https://docs.microsoft.com/powerapps/developer/common-data-service/reference/entities/contact#BKMK_DoNotPhone" data-raw-source="[donotphone](https://docs.microsoft.com/powerapps/developer/common-data-service/reference/entities/contact#BKMK_DoNotPhone)">donotphone</a>:<br/><br/>
 
     <code>&lt;ComplianceField&gt;donotphone&lt;/ComplianceField&gt;</code>
  
-    <br/><br/>The value of this attribute will be checked for a Contact record while going through a customer journey and an instance of the Custom Channel Activity entity will be created only if the value of the <a href="https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/reference/entities/contact#BKMK_DoNotPhone" data-raw-source="[donotphone](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/reference/entities/contact#BKMK_DoNotPhone)">donotphone</a> attribute for the contact record is <b>false</b>.
+    <br/><br/>The value of this attribute will be checked for a Contact record while going through a customer journey and an instance of the Custom Channel Activity entity will be created only if the value of the <a href="https://docs.microsoft.com/powerapps/developer/common-data-service/reference/entities/contact#BKMK_DoNotPhone" data-raw-source="[donotphone](https://docs.microsoft.com/powerapps/developer/common-data-service/reference/entities/contact#BKMK_DoNotPhone)">donotphone</a> attribute for the contact record is <b>false</b>.
     </td>
     </tr>
     <tr>
@@ -249,6 +249,6 @@ sample_SpecialTileCustomerJourneyDesignerTileConfig.xml so the example uses 'sam
 
 
 > [!div class="nextstepaction"]
-> [Step 4: Test your custom channel tile](test-custom-channel-tile.md)
+> [Step 3: Create a workflow or plug-in to implement your custom logic](create-workflow-plugin-custom-channel.md)
 
   

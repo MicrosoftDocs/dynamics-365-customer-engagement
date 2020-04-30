@@ -61,7 +61,7 @@ When you include web resources that provide user interface elements in your solu
  [Visual Studio Accessibility Checker](https://msdn.microsoft.com/library/ms228004)  
  If you are using [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] to edit your HTML web resource files, you will find that there are built-in tools to check for issues related to accessibility. In the **Tools** menu, select **Check Accessibility** to see a report that will provide guidance about accessibility related issues.  
   
- [UI Accessibility Checker](http://acccheck.codeplex.com/)  
+ [UI Accessibility Checker](https://acccheck.codeplex.com/)  
  UI Accessibility Checker (or AccChecker) enables testers to easily discover accessibility problems with [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] Active Accessibility (MSAA) and other user interface (UI) implementations for [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)]. AccChecker was born from the realization that existing [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] Automation API tools, such as Inspect, provided in-depth details on the implementation, but no information about whether that implementation is correct or not.  
   
  [Inspect (Inspect.exe)](https://msdn.microsoft.com/library/windows/desktop/dd318521\(v=vs.85\).aspx)  
@@ -74,7 +74,7 @@ When you include web resources that provide user interface elements in your solu
 ## Additional resources  
  The following resources provide a starting point for defining requirements for making your web resources accessible:  
   
--   [CRM, Accessibility, and 508](http://blogs.msdn.com/b/devkeydet/archive/2013/01/29/crm-accessibility-and-508.aspx)  
+-   [CRM, Accessibility, and 508](https://blogs.msdn.com/b/devkeydet/archive/2013/01/29/crm-accessibility-and-508.aspx)  
   
 -   [Introduction to Web Accessibility](https://msdn.microsoft.com/windows/gg671915)  
   
@@ -84,9 +84,9 @@ When you include web resources that provide user interface elements in your solu
   
 -   [Accessibility Overview](https://msdn.microsoft.com/windows/bb735024.aspx)  
   
--   [Accessibility - W3C](http://www.w3.org/standards/webdesign/accessibility)  
+-   [Accessibility - W3C](https://www.w3.org/standards/webdesign/accessibility)  
   
--   [Web Content Accessibility Guidelines (WCAG) 2.0](http://www.w3.org/TR/WCAG20/)  
+-   [Web Content Accessibility Guidelines (WCAG) 2.0](https://www.w3.org/TR/WCAG20/)  
   
 ### See also  
  [Web Page (HTML) Web Resources](webpage-html-web-resources.md)   

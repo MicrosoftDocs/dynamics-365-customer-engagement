@@ -1,21 +1,24 @@
 ---
 title: "Add custom KPIs to intraday insights dashboard | MicrosoftDocs"
 description: "How to add custom KPIs to intraday insights dashboard for the Omnichannel for Customer Service."
-keywords: ""
-author: udaykirang
-ms.author: udag
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-applies_to: 
 ms.date: 10/24/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 893b9aeb-67ab-4d20-aa5e-82eb50051bcb
-ms.custom: 
 ---
 
 # Customize KPIs for Intraday insights
 
-To cater to your organizational needs, the Intraday insights allows you to customize KPIs. This allows supervisors to adapt to your organizational parameters that are specifically designed for your organization. Through the Power BI desktop application, you can customize theses KPIs. The customization of KPIs includes:
+To cater to your organizational needs, the Intraday insights allows you to customize KPIs. This allows supervisors to adapt to your organizational parameters that are specifically designed for your organization. Through the Power BI desktop application, you can customize theses KPIs.
+
+> [!NOTE]
+> Do not customize out-of-the-box reports because they will be overwritten when new versions are made available by Microsoft. However, if you do customize them, save them with another name.
+
+
+The customization of KPIs includes:
 
 - [Add custom KPIs](#add-custom-kpis)
 
@@ -78,15 +81,15 @@ You can add the custom KPIs that are specific to your organization to Intraday i
    > [!div class=mx-imgBorder]
    > ![Verify created measure](../media/supervisor-admin-custom-kpis-select-verify-measure-formula.png "Verify created measure")
 
-    To learn more about creating measure, see [Create a measures](https://docs.microsoft.com/en-us/power-bi/desktop-tutorial-create-measures#create-a-measure).
+    To learn more about creating measure, see [Create a measures](https://docs.microsoft.com/power-bi/desktop-tutorial-create-measures#create-a-measure).
 
-8. Add the measure to your report. To learn more, see [Use your measure in the report](https://docs.microsoft.com/en-us/power-bi/desktop-tutorial-create-measures#use-your-measure-in-the-report).
+8. Add the measure to your report. To learn more, see [Use your measure in the report](https://docs.microsoft.com/power-bi/desktop-tutorial-create-measures#use-your-measure-in-the-report).
 
 9. Publish the report.
 
     The custom KPI measure is added to Intraday insights dashboard.
 
-To learn more about how to create custom measures, see [Tutorial: Create your own measures in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-tutorial-create-measures).
+To learn more about how to create custom measures, see [Tutorial: Create your own measures in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-tutorial-create-measures).
 
 ## Edit measures and visuals of existing KPIs
 
@@ -124,7 +127,7 @@ You can edit the measures and visuals of existing custom and out-of-the-box KPIs
 
     2. From the formula bar, edit the formula as required.
 
-        To learn more about change visualizations, see [Create and use your own measures](https://docs.microsoft.com/en-us/power-bi/desktop-tutorial-create-measures#create-and-use-your-own-measures).
+        To learn more about change visualizations, see [Create and use your own measures](/power-bi/desktop-tutorial-create-measures#create-and-use-your-own-measures).
     
 6. To edit a visual:
 
@@ -140,9 +143,35 @@ You can edit the measures and visuals of existing custom and out-of-the-box KPIs
        > [!div class=mx-imgBorder]
        > ![Change visualization from bar chart to pie chart](../media/supervisor-admin-custom-kpis-change-bar-to-pie.png "Change visualization from bar chart to pie chart")
 
-        To learn more about change visualizations, see [Add visualizations to a Power BI report](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-report-add-visualizations-i).
+        To learn more about change visualizations, see [Add visualizations to a Power BI report](/power-bi/visuals/power-bi-report-add-visualizations-i).
 
 7. Publish the report.
+
+## Reference
+
+The tables in the Intraday insights dataset consists of entity attributes along with measures and calculated columns. The following are the list of entity that are supported in Intraday insights:
+
+- **Agent**. To learn more about entity attributes for agent, see [SystemUser entity](../developer/reference/entities/overview.md#systemuser-entity).
+
+- **AgentAvailability**. To learn more about entity attributes for agent availability, see [SystemUser entity](../developer/reference/entities/overview.md#systemuser-entity) and [msdyn_presence](../developer/reference/entities/msdyn_presence.md).
+
+- **AgentQueueAssociation**. To learn more about entity attributes for agent queue association, see [SystemUser entity](../developer/reference/entities/overview.md#systemuser-entity) and [Queue Entity](../developer/reference/entities/overview.md#queue-entity).
+
+- **AgentRoleAssociation**. To learn more about about entity attributes for agent role association, see [SystemUser entity](../developer/reference/entities/overview.md#systemuser-entity) and [role EntityType](/dynamics365/customer-engagement/web-api/role?view=dynamics-ce-odata-9).
+
+- **Presence**. To learn more about entity attributes for presence, see [msdyn_presence Entity Reference - Writable attributes](../developer/reference/entities/msdyn_presence.md#writable-attributes).
+
+- **Queue**. To learn more about entity attributes for queue, see [Queue Entity](../developer/reference/entities/overview.md#queue-entity).
+
+- **RoleBase**. To learn more about entity attributes for role base, see [role EntityType](/dynamics365/customer-engagement/web-api/role?view=dynamics-ce-odata-9).
+
+- **Session**. To learn more about entity attributes for session, see [msdyn_ocsession Entity Reference](../developer/reference/entities/msdyn_ocsession.md).
+
+- **SessionParticipant**. To learn more about entity attributes for session participant, see [msdyn_sessionparticipant Entity Reference](../developer/reference/entities/msdyn_sessionparticipant.md).
+
+- **WorkItem**. To learn more about entity attributes for work item, see [msdyn_ocliveworkitem Entity Reference](../developer/reference/entities/msdyn_ocliveworkitem.md).
+
+- **WorkStream**. To learn more about entity attributes for work stream, see [msdyn_liveworkstream Entity Reference](../developer/reference/entities/msdyn_liveworkstream.md).
 
 ### See also
 

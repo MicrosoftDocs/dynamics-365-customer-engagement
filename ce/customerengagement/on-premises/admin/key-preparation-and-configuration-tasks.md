@@ -146,7 +146,7 @@ Every time you visit a website, [!INCLUDE[pn_Internet_Explorer](../includes/pn-i
   
   -   [McAfee Knowledge Base Article: KB65382](https://kc.mcafee.com/corporate/index?page=content&id=KB65382)  
   
-  -   [Microsoft Support Knowledge Base Article: KB924341](http://go.microsoft.com/fwlink/p/?LinkId=232344)  
+  -   [Microsoft Support Knowledge Base Article: KB924341](https://go.microsoft.com/fwlink/p/?LinkId=232344)  
   
 - If you use other antivirus software, make sure that the URL of the Customer Engagement (on-premises) website is included in the trusted zone for the virus scanning, and disable on-access scanning for the Customer Engagement (on-premises) website.  For more information, see the specific antivirus application documentation.  
   
@@ -158,7 +158,7 @@ Every time you visit a website, [!INCLUDE[pn_Internet_Explorer](../includes/pn-i
 <a name="bkmk_techsupp"></a>   
 
 ## Technical support  
- If you cannot find the answers you need in the resources discussed earlier, you can submit a technical support request to [!INCLUDE[pn_ms_Customer_Support_Services](../includes/pn-ms-customer-support-services.md)]. Technical support incidents provide reactive support that focuses on a specific problem, error message, or functionality that is not working as intended. For assistance information, see [Support](http://go.microsoft.com/fwlink/p/?LinkID=394391).  
+ If you cannot find the answers you need in the resources discussed earlier, you can submit a technical support request to [!INCLUDE[pn_ms_Customer_Support_Services](../includes/pn-ms-customer-support-services.md)]. Technical support incidents provide reactive support that focuses on a specific problem, error message, or functionality that is not working as intended. For assistance information, see [Support](https://go.microsoft.com/fwlink/p/?LinkID=394391).  
   
 ### Maximize your technical support experience  
  When you request help for technical issues or questions, it is important that you have as much information available as possible. Here are common questions that you may be asked when you request technical support:  

@@ -1,11 +1,12 @@
 ---
 title: "UII data driven adapters in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to use a data-driven adapter to define a way to identify a UI component of a hosted application in Unified Service Desk."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 95a71291-e769-4eb6-b58e-085424ed29c1
 author: kabala123
 ms.author: kabala
 manager: shujoshi

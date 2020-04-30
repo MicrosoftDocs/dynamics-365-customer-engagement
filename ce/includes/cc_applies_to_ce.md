@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> This topic applies only to model-driven apps in Dynamics 365 such as Sales, Customer Service, Marketing, Field Service, and Project Service Automation. This topic does not apply to other Dynamics 365 apps such as Finance, Supply Chain Management, Business Central, and so on.

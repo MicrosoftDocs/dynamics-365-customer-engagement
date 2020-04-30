@@ -1,15 +1,11 @@
 ---
 title: "startChat (JavaScript API reference) for Omnichannel for Customer Service in Dynamics 365 | MicrosoftDocs"
 description: 
-keywords: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
 ms.date: 07/01/2019
-ms.service: 
 ms.topic: article
-ms.assetid: 92BEB77B-CB6C-436A-8585-2EF581945649
-ms.custom: 
 ---
 # startChat
 

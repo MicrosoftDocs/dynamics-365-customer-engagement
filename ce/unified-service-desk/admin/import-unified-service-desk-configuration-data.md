@@ -5,13 +5,14 @@ ms.custom:
   - dyn365-USD
   - dyn365-admin
 ms.date: 10/29/2018
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 5fac5524-0f6b-4e8d-a43d-81626e33421a
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-search.audienceType: admin
+search.audienceType: 
+  - admin
 search.app: 
   - D365CE
   - D365USD
@@ -49,11 +50,11 @@ You can import the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-
   
 ### Before you begin  
   
-- [Download the Unified Service Desk package](http://go.microsoft.com/fwlink/?LinkID=854761) (self-extracting executable file), and double-click the file to extract the contents. You will use the files under one of the default packages to create a sample application. In this example, you’ll use the files under the Base package (*\<ExtractedFolder>*\USDPackageDeployer\BasePackage).  
+- [Download the Unified Service Desk package](https://go.microsoft.com/fwlink/?LinkID=854761) (self-extracting executable file), and double-click the file to extract the contents. You will use the files under one of the default packages to create a sample application. In this example, you’ll use the files under the Base package (*\<ExtractedFolder>*\USDPackageDeployer\BasePackage).  
   
 - Ensure that you know the prerequisites and how to create a custom package by using the Common Data Service platform SDK template for [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-studio.md)]. For detailed information about using template to create a package, see [Create packages for the Package deployer](https://msdn.microsoft.com/library/dn688182.aspx).  
   
-- [Download the CRM SDK package](http://go.microsoft.com/fwlink/?LinkID=627298) (.exe file), and extract it to locate the `PackageDeployer` folder under the *\<ExtractedFolder>*\SDK\Tools\ folder. This folder contains assemblies required for creating a custom project by using [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)].  
+- [Download the CRM SDK package](https://go.microsoft.com/fwlink/?LinkID=627298) (.exe file), and extract it to locate the `PackageDeployer` folder under the *\<ExtractedFolder>*\SDK\Tools\ folder. This folder contains assemblies required for creating a custom project by using [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)].  
   
 - Install the template (CRMSDKTemplates.vsix) from the Common Data Service platform SDK package that you extracted in the previous step. The file is available under the SDK\Templates folder.  
   

@@ -2,10 +2,11 @@
 title: "Customize forms (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "Change or design the forms to allow your users to enter or find information quickly."
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service: 
+  - dynamics-365-sales
+ms.custom: 
+  - dyn365-sales
 ms.topic: article
-ms.assetid: 17188691-2d5e-46d2-ab48-3af2cc960219
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe

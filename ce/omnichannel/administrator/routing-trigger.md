@@ -1,16 +1,14 @@
----	
-title: Route trigger for entity records | MicrosoftDocs	
-description: Learn how to route entity records automatically.		
-author: kabala123	
-ms.author: kabala	
-manager: shujoshi	
-applies_to: 	
+---
+title: Route trigger for entity records | MicrosoftDocs
+description: Learn how to route entity records automatically.
+author: kabala123
+ms.author: kabala
+manager: shujoshi
 ms.date: 10/25/2019
-ms.service: dynamics-365-customerservice	
-ms.topic: article	
-ms.assetid:	F3FBCEC3-B854-447B-9D33-159B3DDE6D2C
-ms.custom: 	
----	
+ms.service: 
+  - "dynamics-365-customerservice"
+ms.topic: article
+---
 # Route trigger for entity records
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]

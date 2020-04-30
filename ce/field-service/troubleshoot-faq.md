@@ -2,7 +2,7 @@
 title: "Frequently asked questions for Dynamics 365 Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 10/10/2019
+ms.date: 01/08/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -44,9 +44,9 @@ This is different from previous versions (7.x and 6.x), where Field Service was 
 > ![Screenshot of the former Field Service navigation menu](./media/navigation-fs-sitemap-7.png)
 
 
-## Can I customize out-of-the-box web resources, option sets, or security roles? 
+## Can I customize out-of-the-box web resources, option sets, security roles, or workflows? 
 
-No, this is not supported. Organizations that customize these components may not immediately cause the environment to break, but eventually, as Microsoft releases changes to the customized components, the changes will not be applied to the top layer of that component. The specific customized layer will override all future changes. This will almost certainly eventually cause the instances that have customized these components to experience unpredictable errors and behavior.
+No. Customizing, taking dependencies, or custom invocation of these components is not supported and could result in unintended system behaviors. Organizations that customize these components may not immediately cause the environment to break; but eventually, as Microsoft releases changes to the customized components, the changes will not be applied to the top layer of that component. The specific customized layer will override all future changes. This will almost certainly eventually cause the instances that have customized these components to experience unpredictable errors and behavior.  
 
 ## Why are there work orders with duplicate work order numbers?
 
@@ -104,6 +104,23 @@ You can resolve this issue by following the steps outlined below. These attribut
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing the troubleshooting pathway outlined in the previous steps in the customization settings](./media/faq-attributemap-upgrade-error-billing-account.png)
+
+## What is the msdyn_postponegenerationuntil field that is found on many Field Service entities?
+
+The **msdyn_postponegenerationuntil** field is intended for internal use only as it is used for workflow record generation design. Manipulating values in this field or taking dependencies on it is not supported and can lead to unexpected system behavior.
+
+This field is found in the following entities:
+
+1.	Agreement Booking Setup (msdyn_agreementbookingsetup)
+2.	Agreement Booking Date (msdyn_agreementbookingdate)
+3.	Agreement Invoice Setup (msdyn_agreementinvoicesetup)
+4.	Agreement Invoice Date (msdyn_agreementinvoicedate)
+5.	Order Invoicing Setup (msdyn_orderinvoicingsetup)
+6.	Order Invoicing Setup Date (msdyn_orderinvoicingsetupdate)
+7.	Order Invoicing Date (msdyn_orderinvoicingdate)
+8.	Incident Types Setup (msdyn_incidenttypessetup)
+9.	Quote Booking Setup (msdyn_quotebookingsetup)
+
 
 ## See also
 

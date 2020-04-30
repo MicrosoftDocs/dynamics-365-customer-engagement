@@ -2,13 +2,12 @@
 title: "msdyn_callablecontext EntityType | MicrosoftDocs"
 description: "Entity reference for msdyn_forecastdefinition EntityType"
 ms.date: 04/08/2019
-ms.service: crm-online
+ms.service: 
+  - crm-online
 ms.topic: article
-ms.assetid: 6713A40E-A1A2-4EEA-B25A-22AA8008A623
 author: susikka
 ms.author: susikka
 manager: shujoshi
-caps.latest.revision: 22
 ---
 # msdyn_callablecontext EntityType
 

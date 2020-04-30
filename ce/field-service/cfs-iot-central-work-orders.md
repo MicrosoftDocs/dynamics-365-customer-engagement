@@ -44,7 +44,7 @@ Note: Alternatively, you can navigate directly to [the Power Automate templates 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of CFS templates in Power Automate](media/iot-central-work-orders-2.png)
 
-1. Sign into Power Automate with your Dynamics 365 organization, along with your associated IoT Central account.
+5. Sign into Power Automate with your Dynamics 365 organization, along with your associated IoT Central account.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the account association page in Power Automate](media/iot-central-work-orders-4.png)

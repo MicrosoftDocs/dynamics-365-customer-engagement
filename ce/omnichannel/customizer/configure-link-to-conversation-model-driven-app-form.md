@@ -1,16 +1,13 @@
 ---
 title: "Configure Link to conversation button in model-driven app entity form | MicrosoftDocs"
 description: "Learn how to configure Link to conversation button in model-driven app form for agents using Omnichannel for Customer Service."
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 10/25/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: C54F8B67-721F-4C39-BD55-A98A3A4BCBA2
-ms.custom: 
 ---
 
 # Preview: Configure Link to conversation button in model-driven app entity form
@@ -313,8 +310,8 @@ To learn more, see [Import the ribbon](/powerapps/developer/model-driven-apps/ex
 
 ## See also
 
-[Export, prepare to edit, and import the ribbon](https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/export-prepare-edit-import-ribbon#import-the-ribbon)
+[Export, prepare to edit, and import the ribbon](https://docs.microsoft.com/powerapps/developer/model-driven-apps/export-prepare-edit-import-ribbon#import-the-ribbon)
 
-[Define ribbon enable rules](https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/define-ribbon-enable-rules)
+[Define ribbon enable rules](https://docs.microsoft.com/powerapps/developer/model-driven-apps/define-ribbon-enable-rules)
 
-[Pass data from a page as a parameter to Ribbon Actions](https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/pass-data-page-parameter-ribbon-actions)
+[Pass data from a page as a parameter to Ribbon Actions](https://docs.microsoft.com/powerapps/developer/model-driven-apps/pass-data-page-parameter-ribbon-actions)

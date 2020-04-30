@@ -39,8 +39,8 @@ namespace Microsoft.Crm.Sdk.Samples
 
         // URL of the Microsoft SQL Server on which the Microsoft Dynamics CRM Connector 
         // for SQL Server Reporting Services is installed:
-        // Format: "http://reportServerName/reportserver"
-        private String _srsUrl = "http://reportServerName/reportserver";
+        // Format: "https://reportServerName/reportserver"
+        private String _srsUrl = "https://reportServerName/reportserver";
 
         // Name of the system administrator for the new organization
         // Format: "domain\\user"
@@ -211,7 +211,7 @@ namespace Microsoft.Crm.Sdk.Samples
             {
                 this._sqlServerName = config.ServerAddress;
                 this._sysAdminName = config.ServerAddress + "dom\\administrator";
-                this._srsUrl = "http://" + config.ServerAddress + "/reportserver";
+                this._srsUrl = "https://" + config.ServerAddress + "/reportserver";
             }
         }
 

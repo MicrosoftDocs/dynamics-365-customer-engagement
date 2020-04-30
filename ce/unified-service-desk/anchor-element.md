@@ -1,11 +1,12 @@
 ---
 title: "AnchorElement | MicrosoftDocs"
 description: "The topic explains about <AnchorElement> element which is one of the binding elements of the WebDDA."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 2332b53a-92e6-419f-aace-af6dfda0dcb7
 author: kabala123
 ms.author: kabala
 manager: shujoshi

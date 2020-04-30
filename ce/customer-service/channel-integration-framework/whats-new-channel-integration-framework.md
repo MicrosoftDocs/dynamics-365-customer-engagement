@@ -1,18 +1,16 @@
 ---
 title: "What's new in Dynamics 365 Channel Integration Framework | Microsoft Docs"
 description: "Read about the new features provided in the latest release of Dynamics 365 Channel Integration Framework."
-keywords: ""
-ms.date: 10/16/2019
-ms.service:
-  - dynamics-365-cross-app
-ms.custom:
-  - "dyn365-a11y"
-  - "dyn365-developer"
-ms.topic: get-started-article
-ms.assetid: 42BEC0F2-AAA7-44A1-9BD7-EA2A04F5ACDB
 author: susikka
 ms.author: susikka
 manager: shujoshi
+ms.date: 10/16/2019
+ms.topic: get-started-article
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - "dyn365-a11y"
+  - "dyn365-developer"
 ---
 
 # What's new in Dynamics 365 Channel Integration Framework
@@ -39,8 +37,8 @@ More information: [Microsoft.CIFramework methods](reference/microsoft-ciframewor
 Providers can now define experiences for the minimized mode of the communication widgets they build. Agents can manually change the mode of the control from docked to minimized. The same can be achieved programmatically as well. 
 
 More information: 
-- [Modes and locations for the communication widget](modes-communication-widget.md) 
-- [setMode API](reference/microsoft-ciframework/setMode.md)
+- [Modes and locations for the communication widget](v2/modes-communication-widget.md) 
+- [setMode API](v2/reference/microsoft-ciframework/setMode.md)
 
 ### Support for multiple providers
 

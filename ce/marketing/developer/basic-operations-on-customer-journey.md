@@ -57,7 +57,7 @@ Use the Postman tool to test the operations. More information: [Use Postman With
 
 ### Create request
 
-This request creates a customer journey record and sets the `statuscode` to `Draft`. This customer journey includes a segment with `ID:24db2671-1529-e911-a9b7-000d3a1e6adc` and `Unique Name: TC407937_DynamicSegment_2KZQ1p`and an email with `ID: 15bd0ab8-c12a-e911-a9b6-000d3a1e6c14`. The effective Content Settings has record `ID: 1922b1d8-0523-e911-a9ba-000d3a1e689f`. The response header [OData-EntityId](http://docs.oasis-open.org/odata/odata/v4.0/os/part1-protocol/odata-v4.0-os-part1-protocol.html#_Toc372793637) contains the URL to this newly created record (entity instance), which parenthetically includes the unique ID for this record.
+This request creates a customer journey record and sets the `statuscode` to `Draft`. This customer journey includes a segment with `ID:24db2671-1529-e911-a9b7-000d3a1e6adc` and `Unique Name: TC407937_DynamicSegment_2KZQ1p`and an email with `ID: 15bd0ab8-c12a-e911-a9b6-000d3a1e6c14`. The effective Content Settings has record `ID: 1922b1d8-0523-e911-a9ba-000d3a1e689f`. The response header [OData-EntityId](https://docs.oasis-open.org/odata/odata/v4.0/os/part1-protocol/odata-v4.0-os-part1-protocol.html#_Toc372793637) contains the URL to this newly created record (entity instance), which parenthetically includes the unique ID for this record.
 
 > [!IMPORTANT]
 > You need to replace `OrgUrl` with `https://<add your environment name, like ‘myorg.crm’>.dynamics.com`. You can also get the environment name from **Settings** > **Customizations** > **Developer Resources**.

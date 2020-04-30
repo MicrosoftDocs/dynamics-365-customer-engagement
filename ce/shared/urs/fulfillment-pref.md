@@ -176,6 +176,8 @@ You can add both an interval and a time group to a single fulfillment preference
 
 - The **Intervals Begin** time is dependent on the time zone of the requirement calendar when triggered from the requirement; however, when triggered from the schedule board, it depends on the user's time zone.
 
+- Quick Scheduling does not support fulfillment preferences with time groups.
+
 ### Supported vs. not supported functionality
 In v3.1 of Universal Resource Scheduling (URS), some features will work when scheduling both individual requirements and groups of requirements, and some features will not work for both. Please use the following table for guidance.
 

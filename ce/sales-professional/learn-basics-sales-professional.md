@@ -1,20 +1,18 @@
 ---
-title: "Learn the basics of Dynamics 365 Sales Professional | MicrosoftDocs"
+title: "Get started using Dynamics 365 Sales Professional"
 description: "Get started with the Sales Professional app quickly by learning about the user interface and its components."
-keywords: ""
-ms.date: 10/14/2019
-ms.service:
+ms.date: 12/09/2019
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: 95278663-cbc1-4c6b-b694-ac345bd7283b
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
 ---
 
-# Learn the basics of Dynamics 365 Sales Professional
+# Get started using Dynamics 365 Sales Professional
 
 Start here to onboard quickly and learn about the Sales Professional app and its user interface.
 
@@ -22,14 +20,16 @@ Start here to onboard quickly and learn about the Sales Professional app and its
 
 1.  Sign in to Office 365, select the Office 365 app launcher, and then select **Dynamics 365**.
 
-    ![Office 365 App Launcher pane](media/office365-app-launcher-pane.png "Office 365 App Launcher pane")
+    > [!div class="mx-imgBorder"]
+    > ![Office 365 App Launcher pane](media/office365-app-launcher-pane.png "Office 365 App Launcher pane")
 
     >[!NOTE]
     >The selection of apps available to you in the app launcher will depend on your subscription.
 
 2.  On the Dynamics 365 home page, select **Sales Professional**.
 
-    ![Tile for Dynamics 365 Sales Professional](media/sales-professional-app-tile.png "Tile for Dynamics 365 Sales Professional")
+    > [!div class="mx-imgBorder"]
+    > ![Tile for Dynamics 365 Sales Professional](media/sales-professional-app-tile-updated.png "Tile for Dynamics 365 Sales Professional")
 
 ## Find your way around the app
 
@@ -42,7 +42,8 @@ access to tools that help you manage your deals, such as a guided task flow that
 
 ![Search, task flow, Quick create, Advanced Find, Personal options, and Help menu on the nav bar](media/options-on-nav-bar.png "Search, task flow, Quick create, Advanced Find, Personal options, and Help menu on the nav bar")
 
-![Command bar item 1](../sales-enterprise/media/number-1.png "Command bar item 1") **Search** customer data.  
+> [!div class="mx-imgBorder"]
+> ![Command bar item 1](../sales-enterprise/media/number-1.png "Command bar item 1") **Search** customer data.  
 ![Command bar item 2](../sales-enterprise/media/number-2.png "Command bar item 2") Run a **task flow** for step-by-step walkthroughs of common tasks, such as updating customers' contact info or managing appointments.  
 ![Command bar item 3](../sales-enterprise/media/number-3.png "Command bar item 3") **Quickly create** customer data by filling in a minimum number of fields.  
 ![Command bar item 4](../sales-enterprise/media/number-4.png "Command bar item 4") With **Advanced Find**, find the records that you need ot export them to Excel to analyze, summarize or aggregate data.  

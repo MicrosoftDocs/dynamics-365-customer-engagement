@@ -8,8 +8,8 @@ ms.custom:
   - dyn365-marketing
 ms.topic: article
 ms.assetid: d74807df-2fc2-41fc-9a68-f2f557455794
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -56,11 +56,11 @@ To open the Dynamics 365 admin center starting from the Microsoft 365 admin cent
 
     ![Select show all admin centers](media/ms365-admin-center-all-admin.png "Select show all in the navigator")
 
-1. A list of all available admin centers opens. Select **PowerApps**.
+1. A list of all available admin centers opens. Select **Power Apps**.
 
-    ![Open the PowerApps admin center](media/ms365-admin-center-center-list.png "Open the PowerApps admin center")
+    ![Open the Power Apps admin center](media/ms365-admin-center-center-list.png "Open the Power Apps admin center")
 
-1. The PowerApps admin center opens, showing a list of PowerApps environments available on your tenant. (Environments are usually referred to as "instances" in Dynamics 365 Marketing documentation, and are also sometimes called "organizations".) Select the instance where you want to configure, modify, or install Dynamics 365 Marketing.
+1. The Power Apps admin center opens, showing a list of Power Apps environments available on your tenant. (Environments are usually referred to as "instances" in Dynamics 365 Marketing documentation, and are also sometimes called "organizations".) Select the instance where you want to configure, modify, or install Dynamics 365 Marketing.
 
     ![Select the environment you want to work with](media/powerapps-admin-environments.png "Select the environment you want to work with")
 

@@ -2,15 +2,15 @@
 title: "Set up Dynamics 365 Marketing | Microsoft Docs"
 description: "How to run the setup wizard for Dynamics 365 Marketing"
 keywords: setup; licensing; FRE; Azure; privacy; marketing services; marketing-insights service
-ms.date: 08/16/2019
+ms.date: 01/14/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
 ms.topic: get-started-article
 ms.assetid: f722b098-be63-412a-aadc-7b34d11fa668
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -34,16 +34,18 @@ Read this topic to learn how to set up a new Dynamics 365 Marketing instance aft
 
 ## How Marketing is licensed
 
-Production versions of Dynamics 365 Marketing are licensed per instance, with each instance priced according to the number of *marketing contacts* stored in your database. Marketing contacts only include those that you engage with marketing activities such as emails, landing pages, forms, LinkedIn integration, events, and surveys. Contacts that you never engage in marketing activities won't be counted as part of your Dynamics 365 Marketing license. Each license also includes quotas that limit the total number of free Litmus inbox previews you can view and marketing email messages you can send each month. See your license agreement for complete details about the quota limits that apply to you. You can view your quota limits and consumption on the [Quota limits](quota-management.md) page. While you're planning your marketing activities, please be sure to purchase enough marketing contacts to remain within your quota.
+Dynamics 365 Marketing has several licensing options:
 
-You can also purchase sandbox-only licenses for Dynamics 365 Marketing. This license entitles you to set up a test instance for trying out new features or customizations. Sandboxes are fully functional, but have much stricter quotas and can't be used to run production campaigns. They are significantly less expensive than production licenses, but are also much more limited.
+- **Production (full) license**: Production versions of Dynamics 365 Marketing are licensed per instance, with each instance priced according to the number of *marketing contacts* stored in your database. Marketing contacts only include those that you engage with marketing activities such as emails, landing pages, forms, LinkedIn integration, events, and surveys. Contacts that you never engage in marketing activities won't be counted as part of your Dynamics 365 Marketing license. Each license also includes quotas that limit the total number of free Litmus inbox previews you can view and marketing email messages you can send each month. See your license agreement for complete details about the quota limits that apply to you. You can view your quota limits and consumption on the [Quota limits](quota-management.md) page. While you're planning your marketing activities, please be sure to purchase enough marketing contacts to remain within your quota.
+- **Sandbox-only license**: A sandbox-only license entitles you to set up a test instance for trying out new features or customizations. Sandboxes include both solutions and services, and are fully functional, but have much stricter quotas and can't be used to run production campaigns.
+- **Solution-only license**: A solution-only license includes all of the entities and solutions for Dynamics 365 Marketing, but doesn't include any of the marketing services, which means that marketing capabilities aren't available (including email  creation, email delivery, segmentation, customer journeys, and more). This license is intended for use on development and test instances when making customizations, solving compatibility issues, importing/exporting solutions, and doing other types of development and non-functional marketing testing. A solution-only license is included with all paid licenses and allows you to install the solution-only app on as many instances as needed. As with production instances, you must [update each solution-only instance manually](apply-updates.md) each time an update becomes available. To convert a solution-only instance to a production instance, make sure you have an unconfigured production license and then [run the setup wizard](#run-wizard) to apply that license to the existing solution-only instance.
 
 > [!NOTE]
 > When you sign up for Dynamics 365 Marketing, you'll choose a licensing option that defines your contract period and various quotas for that period. Each of the contacts that you engage through marketing activities during the contract period count against your total contact quota, even if you delete, or otherwise stop marketing to, an existing marketing contact during the contract period. You can only reduce your purchased contact quota on contract renewal date.
 
 Unlike most other model-driven apps in Dynamics 365, Dynamics 365 Marketing isn't priced per user, so users already licensed to access any Dynamics 365 app on an instance where Marketing is installed will also be able to access Marketing without requiring you to purchase any additional licenses. You can even request any number of free ("zero dollar") Marketing user licenses to assign to users that don't have a Dynamics 365 license, but these aren't valid for apps other than Marketing.
 
-You can choose to run your marketing pages, landing pages, and events website either on an external web server (such as your own CMS system) or on a Dynamics 365 Portal or PowerApps Portal running on the same tenant as your Dynamics 365 Marketing instance. Dynamics 365 Portals and PowerApps Portals are licensed separately from Dynamics 365 Marketing. For details about portal licensing, see the [PowerApps and Flow licensing FAQ](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq#can-you-share-more-details-regarding-the-new-powerapps-portals-licensing). If you use an external website for your events website and marketing pages, then no portals license is needed. You'll choose which solution to use when you run the Dynamics 365 Marketing setup wizard and can change your mind later by running it again. More information: [Integrate Marketing with a CMS system or Dynamics 365 Portal](portal-optional.md)
+You can choose to run your marketing pages, landing pages, and events website either on an external web server (such as your own CMS system) or on a Dynamics 365 Portal or Power Apps Portal running on the same tenant as your Dynamics 365 Marketing instance. Dynamics 365 Portals and Power Apps Portals are licensed separately from Dynamics 365 Marketing. For details about portal licensing, see the [Power Apps and Flow licensing FAQ](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq#can-you-share-more-details-regarding-the-new-powerapps-portals-licensing). If you use an external website for your events website and marketing pages, then no portals license is needed. You'll choose which solution to use when you run the Dynamics 365 Marketing setup wizard and can change your mind later by running it again. More information: [Integrate Marketing with a CMS system or Dynamics 365 Portal](portal-optional.md)
 
 For more information about Dynamics 365 Marketing licensing, see the [Administration and setup FAQ](setup-troubleshooting.md#licensing). For complete licensing details, including specific quotas and other conditions, see the  [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=866544).
 
@@ -54,11 +56,11 @@ For more information about Dynamics 365 Marketing licensing, see the [Administra
 > 
 > - You must already have a Microsoft 365 tenant.
 > - An unconfigured Dynamics 365 Marketing app must be available on your tenant.
-> - You must not already have a Dynamics 365 Marketing app installed on your Dynamics 365 instance. You can have at most one Dynamics 365 Marketing per instance, and each  Dynamics 365 Marketing app can only be used with one Dynamics 365 instance.
+> - You must not already have a Dynamics 365 Marketing app installed on your Dynamics 365 instance. You can have at most one Dynamics 365 Marketing per instance, and each Dynamics 365 Marketing app can only be used with one Dynamics 365 instance.
 > - You must sign into your tenant with a user account that has all the following:
->   - Admin privileges on the Dynamics 365 instance where you are installing Marketing.
+>   - A security role (such as _Global admin_ or _Service support admin_) that allows you to modify the target Dynamics 365 instance. (If you're reinstalling Marketing on an instance where Marketing was previously installed, then _Service support admin_ users must use the same user ID as was used for the initial install. If you're not sure which ID was used for the initial install, or if you're getting errors, then try to install as a _Global admin_.)
 >   - Permissions to register applications in Azure. The global administrator always has this right, but other accounts can also have it. See [Do I have permissions to register applications on Azure?](setup-troubleshooting.md#register-apps-azure) for information about how to confirm this setting for your account.
-> - A known issue currently prevents you from running the setup wizard unless you have a Dynamics 365 license assigned to you on your tenant. However, although most of our customers do have this license, it's not actually required by the terms of the Dynamics 365 Marketing license agreement. A workaround is available for users who need to install Marketing without having a Dynamics 365 license assigned to them&mdash;see [Configuration, installation, and first-run experience](readme.md#configuration-installation-and-first-run-experience) in the readme for details.
+>   - A Dynamics 365 license with the _System Administrator_ security role assigned on your target Dynamics 365 instance. (The Dynamics 365 Marketing license agreement doesn't legally require the installing user to have this license, but a known technical issue currently makes it necessary.)
 > - You must be located in a country/region where the product is supported. To read the latest list of countries/regions where you can use Dynamics 365 Marketing, download the [Microsoft Dynamics 365 International Availability](https://go.microsoft.com/fwlink/p/?linkid=875097) document (PDF).
 > - Close all other browser windows and tabs before starting.
 > - Clear your browser cache before starting.
@@ -99,7 +101,9 @@ To set up a new Marketing instance:
 
    ![Set up Marketing using the Applications tab, not the Instances tab](media/purchase-app-tab.png "Set up Marketing using the Applications tab, not the Instances tab")
 
-1. Find and select an unconfigured **Dynamics 365 Marketing Application** in the list on the **Applications** tab. Then choose **Manage** from the side panel.  
+1. Find and select an unconfigured Dynamics 365 Marketing application in the list on the **Applications** tab. Then choose **Manage** from the side panel. You may have more than one type of application available, so be sure to pick the one that meets your present needs. Both types of applications present the same setup wizard, as described in this procedure. They are identified as follows:
+    - **Dynamics 365 Marketing Application**: This is a full Dynamics 35 Marketing application, including both solutions and services. It is intended for production use, but can also be used during development and testing.
+    - **Dynamics 365 Marketing - Solution Only**: This application provides the Dynamics 365 Marketing solutions, including all database entities, but not the services, which means that marketing capabilities aren't available. It provides limited functionality but can be installed on as many test or development instances as needed for no additional charge. More information: [How Marketing is licensed](#how-licensed).
 
     ![Choose an app and then select the Manage button](media/purchase-manage-button.png "Choose an app and then select the Manage button")
 
@@ -112,9 +116,9 @@ To set up a new Marketing instance:
 
 1. From the top drop-down list, select the Dynamics 365 organization where you want to add Dynamics 365 Marketing. (A Dynamics 365 *organization* is another name for a Dynamics 365 *instance*.)
 
-1. Select one of the following **Web hosting** options:
-    - **Use own webserver**: Select this option if you will run your landing pages and event website on an external webserver or CMS system. This option doesn't require a Dynamics 365 Portals license and won't install the portal.
-    - **Use Dynamics 365 Portals**: Select this option if you will run your landing pages and event website on a dedicated Dynamics 365 or PowerApps Portal running on your tenant and linked to  your Dynamics 365 Marketing instance. Portals are licensed separately. If you already have an unconfigured Dynamics 365 Portals license on your tenant, then Dynamics 365 Marketing will claim that license and integrate with it. If you don't have any Dynamics 365 Portals licenses available, then the setup wizard will create a trial PowerApps Portals instance and integrate with that. The trial is free, but expires in 30 days, after which you must either begin paying for it or stop using it. (PowerApps Portals licenses are priced according to consumption (logins and page loads), while Dynamics 365 Portals licenses are priced per instance.) For details about portal licensing, see the [PowerApps and Flow licensing FAQ](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq#can-you-share-more-details-regarding-the-new-powerapps-portals-licensing).
+1. Select one of the following **Web hosting** options (you can easily [change this later](portal-optional.md), at any time):
+    - **Use own webserver**: Select this option if you will run your landing pages and event website on an external webserver or CMS system. This option doesn't require a portals license and won't install a portals trial. If you're not sure whether you'll need a portal, then you can choose this option for now and then come back and change it later if needed.
+    - **Use Dynamics 365 Portals**: Select this option if you will run your landing pages and event website on a dedicated Dynamics 365 or Power Apps Portal running on your tenant and linked to  your Dynamics 365 Marketing instance. Portals are licensed separately. If you already have an unconfigured Dynamics 365 Portals license on your tenant, then Dynamics 365 Marketing will claim that license and integrate with it. If you don't have any Dynamics 365 Portals licenses available, then the setup wizard will create a trial Power Apps Portals instance and integrate with that. The trial is free, but expires in 30 days, after which you must either begin paying for it or stop using it. (Power Apps Portals licenses are priced according to consumption (logins and page loads), while Dynamics 365 Portals licenses are priced per instance.) For details about portal licensing, see the [Power Apps and Flow licensing FAQ](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq#can-you-share-more-details-regarding-the-new-powerapps-portals-licensing).
 
     More information: [Integrate Marketing with a CMS system or Dynamics 365 Portal](portal-optional.md)
 

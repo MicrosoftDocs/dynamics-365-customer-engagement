@@ -47,7 +47,7 @@ search.app:
   
 ### Connect Dynamics 365 for Customer Engagement apps to Yammer  
   
-1. Sign up for a [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] Enterprise account, and note the name of the network you receive. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Visit the Yammer website](http://go.microsoft.com/fwlink/p/?LinkID=272440)  
+1. Sign up for a [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] Enterprise account, and note the name of the network you receive. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Visit the Yammer website](https://go.microsoft.com/fwlink/p/?LinkID=272440)  
   
 2. [!INCLUDE[proc_settings_system](../includes/proc-settings-system.md)]  
   
@@ -150,4 +150,4 @@ search.app:
 [!INCLUDE[cc_privacy_crm_gcc_yammer_configuration](../includes/cc-privacy-crm-gcc-yammer-configuration.md)]
   
 ### See also  
- [Visit the Yammer website](http://go.microsoft.com/fwlink/p/?LinkID=272440)
+ [Visit the Yammer website](https://go.microsoft.com/fwlink/p/?LinkID=272440)

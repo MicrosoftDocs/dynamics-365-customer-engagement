@@ -4,12 +4,10 @@ description: "Learn how to create the communication panel-related action calls f
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: F0089899-0939-4D11-AAF7-D7FE1D53D3CA
-ms.custom: 
 ---
 
 # Step 3:  Create action calls related to a communication panel

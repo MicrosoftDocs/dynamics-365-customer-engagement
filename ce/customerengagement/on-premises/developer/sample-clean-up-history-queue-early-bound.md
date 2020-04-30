@@ -1,5 +1,5 @@
 ---
-title: "Sample: Clean up history for a queue (early bound) (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Clean up history for a queue (early bound)| MicrosoftDocs"
 decription: The sample code demonstrates how to clean up the history for the queue using RemoveFromQueueRequest with inactive items.
 ms.custom: 
 ms.date: 10/31/2017
@@ -18,8 +18,8 @@ helpviewer_keywords:
 ms.assetid: 81d686b0-7c5d-45e5-b2df-b74b0413bf6b
 caps.latest.revision: 19
 author: JimDaly
-ms.author: jdaly
-manager: amyla
+ms.author: nabuthuk
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
@@ -27,22 +27,33 @@ search.app:
 ---
 # Sample: Clean up history for a queue (early bound)
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample here [Business management samples](https://code.msdn.microsoft.com/Business-Management-Samples-6a482e62)   
+This sample shows how to clean up the history for the queue by using [RemoveFromQueueRequest](https://docs.microsoft.com/dotnet/api/microsoft.crm.sdk.messages.removefromqueuerequest?view=dynamics-general-ce-9) with inactive items. It finds completed phone calls in the queue and removes the associated queue items. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/CleanHistoryQueue).
 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
-   
-## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
-  
-## Demonstrates  
- This sample shows how to clean up the history for the queue by using <xref:Microsoft.Crm.Sdk.Messages.RemoveFromQueueRequest> with inactive items. It finds completed phone calls in the queue and removes the associated queue items.  
-  
-## Example  
- [!code-csharp[BusinessManagement#CleanUpQueueItems](../snippets/csharp/CRMV8/businessmanagement/cs/cleanupqueueitems.cs#cleanupqueueitems)]  
-  
-### See also  
- [Sample Code for Queue Entities](sample-code-queue-entities.md)   
- [Queue Entities](queue-entities.md)   
- [Sample: Specify a Queue Item to Work On (Early Bound)](sample-specify-queue-item-work-early-bound.md)   
- <xref:Microsoft.Crm.Sdk.Messages.AddToQueueRequest>
+[!include[cc-sample-note](includes/cc-sample-note.md)]
+
+## How to run this sample
+
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-PA-samples.md)]
+
+## What this sample does
+
+The `RemoveFromQueueRequest` message is intended to be used in a scenario to clean up the queue history with inactive items.
+
+## How this sample works
+
+In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+
+### Setup
+
+1. Checks for the current version of the org.
+2. Creates a queue instance and set its property values.
+3. Creates a phone call activity instance and also queueitems instance and initializes its properties.
+4. Marks the phone call as completed. 
+
+### Demonstrate
+
+Retrieves the queueitem with inactive phone calls from a queue using the [RemoveFromQueueRequest](https://docs.microsoft.com/dotnet/api/microsoft.crm.sdk.messages.removefromqueuerequest?view=dynamics-general-ce-9) message.
+
+### Clean up
+
+Display an option to delete the records created in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.

@@ -6,9 +6,10 @@ ms.author: kabala
 manager: shujoshi
 ms.date: 07/31/2019
 ms.topic: get-started-article
-ms.service: dynamics-365-customerservice
-ms.custom: dyn365-customerservice
-ms.assetid: 00f8a65f-f736-4e3d-9aea-e50de8b015b4
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Overview of the Customer Service Hub and Customer Service app

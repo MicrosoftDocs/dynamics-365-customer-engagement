@@ -30,7 +30,7 @@ By default, when users and queues are created in Dynamics 365 Customer Engagemen
 > [!TIP]
 >  You can use an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] shared mailbox when you create a queue in Customer Engagement (on-premises) and not consume an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] license for a forwarding email account.  
 > 
->  See Blog: [CRM Queue with an Office 365 Shared Mailbox](http://joegilldotcom.blogspot.com/2015/01/crm-queue-with-office-365-shared-mailbox.html)  
+>  See Blog: [CRM Queue with an Office 365 Shared Mailbox](https://joegilldotcom.blogspot.com/2015/01/crm-queue-with-office-365-shared-mailbox.html)  
 
 1. [!INCLUDE[proc_settings_email_config](../includes/proc-settings-email-config.md)]  
 

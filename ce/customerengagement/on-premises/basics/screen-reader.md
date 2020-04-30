@@ -22,7 +22,7 @@ search.app:
 Screen readers make Dynamics 365 Customer Engagement (on-premises) accessible to people who have low or no vision or may need some extra support for a temporary scenario, such as eye fatigue. Commonly used screen readers such as Narrator, JAWS, and NVDA are supported. 
 
 - [Learn more about working with Microsoft Narrator](https://support.microsoft.com/help/22798)
-- [Learn more about working with JAWS](http://www.freedomscientific.com/Products/Blindness/JawsDocumentation)
+- [Learn more about working with JAWS](https://www.freedomscientific.com/Products/Blindness/JawsDocumentation)
 - [Learn more about working with NVDA](https://www.nvaccess.org/help/)
 
 > [!NOTE]
@@ -42,7 +42,7 @@ Use the [app switcher](where-find-business-apps.md) in Dynamics 365 Customer Eng
 2.  Press the **Tab** key until you hear the name of the application you want to open—for example, “Sales Hub.” Press **Enter** to open the app.
 
 ### Use scan mode in Narrator
-You can use scan mode to quickly navigate Dynamics 365 Customer Engagement (on-premises) using the arrow keys and common keyboard shortcuts. Quickly jump to headings, links, landmarks, form fields, controls, and tables in this mode. Turn scan mode on and off by pressing **Caps lock+Spacebar**. More information: [Using scan mode](https://support.microsoft.com/en-us/help/22809/windows-10-narrator-using-scan-mode).
+You can use scan mode to quickly navigate Dynamics 365 Customer Engagement (on-premises) using the arrow keys and common keyboard shortcuts. Quickly jump to headings, links, landmarks, form fields, controls, and tables in this mode. Turn scan mode on and off by pressing **Caps lock+Spacebar**. More information: [Using scan mode](https://support.microsoft.com/help/22809/windows-10-narrator-using-scan-mode).
 
 ### Find your way around the Unified Interface apps
 We have made Dynamics 365 Customer Engagement (on-premises) that are based on Unified Interface more consistent and reliable with screen readers. This includes working with screen readers on grids, forms, charts, streams, and business process flows. 
@@ -73,7 +73,7 @@ You can also use the Tab key to quickly navigate to interactive elements on the 
 You can navigate through the dashboard charts using the Tab key and Caps lock + arrow keys. Press the **Tab** key to quickly go to the interactive elements and use Caps lock + an arrow key for navigation of non-interactive elements, such as headings, landmarks, and items.
 
 > [!NOTE]
-> You must have the latest [Windows 10](http://www.microsoft.com/enable/products/windows10/default.aspx) Update installed to have all of the accessibility features available for charts.
+> You must have the latest [Windows 10](https://www.microsoft.com/enable/products/windows10/default.aspx) Update installed to have all of the accessibility features available for charts.
 
 #### Interactive Dashboard Streams
 You can use the **Tab** key or **Shift+Tab** keys to move between interactive dashboard streams, such as found in the Accounts dashboard, or just change the navigation mode until you hear “Headings” and then use the **Tab** key to quickly move between dashboard streams.

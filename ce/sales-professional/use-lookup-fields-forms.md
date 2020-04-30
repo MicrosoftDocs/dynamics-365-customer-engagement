@@ -2,10 +2,11 @@
 title: "Use the lookup field on forms in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Choose records from a related entity (recordset) quickly by using lookups in Dynamics 365 Sales Professional."
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service: 
+  - dynamics-365-sales
+ms.custom: 
+  - dyn365-sales
 ms.topic: article
-ms.assetid: 157b98bd-adb4-4e77-b8fb-3fc862b11ef6
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
@@ -36,9 +37,14 @@ Lookups are classified into the following:
 
 - **Simple lookup:** Select a single record in a field from a single entity. 
 
-- **PartyList-type fields:** Use to select multiple records from multiple entities in a lookup. Use partylist-type fields to select multiple records. This allows you to add each record by performing a new search, multiple times. Every time you select a record, you will be able to perform a new search for another record.
+- **Complex lookup:** Select a single record or multiple records in a field from multiple entities:
+
+  - **PartyList-type fields:** Use to select multiple records from multiple entities in a lookup. Use partylist-type fields to select multiple records. This allows you to add each record by performing a new search, multiple times. Every time you select a record, you will be able to perform a new search for another record.
   
-- **Regarding-type fields:** Use to select a single record from multiple entities in a lookup. 
+  - **Regarding-type fields:** Use to select a single record from multiple entities in a lookup. 
+
+>[!NOTE] 
+>Users can't create complex lookups. 
 
 [More information on fields and field data types](../customize/types-of-fields.md)
 

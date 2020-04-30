@@ -1,18 +1,19 @@
 ---
 title: "Customize themes in Unified Service Desk | MicrosoftDocs"
 description: "Themes in Unified Service Desk define the look and feel of the agent application. A theme in Unified Service Desk consists of a XAML resource library, and can be placed on any web server and referenced via URL or can be compile into .NET assemblies (dll), and distributed with the agent applications."
-ms.custom: dyn365-USD
-ms.date: 11/04/2019
-ms.service: dynamics-365-customerservice
+ms.custom: 
+  - dyn365-USD
+ms.date: 12/31/2019
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 27b60bcc-787e-451d-b795-be9b0efbc57d
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
-search.app:
+search.app: 
   - D365CE
   - D365USD
 ---
@@ -62,32 +63,30 @@ This is Unified Blue theme, which is the predefined theme for Unified Service De
 |Blue|/UnifiedServiceDesk;component/Styles/BlueStyle.xaml|  
 |Style|/UnifiedServiceDesk;component/Styles/Style.xaml|  
   
- In the sample [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, agents can set theme by clicking the down arrow next to the settings icon at the top-right corner, and then selecting a predefined theme from the **Set Theme** submenu.  
+ In the sample [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, agents can set theme by selecting the down arrow next to the settings icon at the top-right corner, and then selecting a predefined theme from the **Set Theme** submenu.  
   
- Clicking a theme in the **Set Theme** submenu makes an action call to the **SetTheme** action with the appropriate syntax in the **Data** field as mentioned earlier. For example, this is the action call definition for the Air style:  
+ Selecting a theme in the **Set Theme** submenu makes an action call to the **SetTheme** action with the appropriate syntax in the **Data** field as mentioned earlier. For example, this is the action call definition for the Air style:  
   
  ![Action call definition for Air theme](../unified-service-desk/media/crm-itpro-usd-actioncallforairstyle.png "Action call definition for Air theme")  
   
 <a name="Customize"></a>   
 ## Customize themes in Unified Service Desk  
- Apart from being able to choose from various predefined themes, you can customize a theme in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. This is done by updating selective controls and then merging it with the existing theme in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to customize the appearance. [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides a default style (XAML file) and a bunch of XAML brush resources that you can use to understand the various WPF controls and layout that define the appearance of your agent application. You can find the default style for [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] application, **DefaultStyle.xaml**, along with other XAML brush resources in the [!INCLUDE[pn_user_interface_integration](../includes/pn-user-interface-integration.md)] SDK download package. [Download](http://go.microsoft.com/fwlink/p/?LinkId=395257) the package, and extract it to view the file and its contents under the "UII\USD Developer Assets\USD Layout and Style Sheet" directory.  
+ Apart from being able to choose from various predefined themes, you can customize a theme in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. This is done by updating selective controls and then merging it with the existing theme in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to customize the appearance. [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides a default style (XAML file) and a bunch of XAML brush resources that you can use to understand the various WPF controls and layout that define the appearance of your agent application. You can find the default style for [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] application, **DefaultStyle.xaml**, along with other XAML brush resources in the [!INCLUDE[pn_user_interface_integration](../includes/pn-user-interface-integration.md)] SDK download package. [Download](https://go.microsoft.com/fwlink/p/?LinkId=395257) the package, and extract it to view the file and its contents under the "UII\USD Developer Assets\USD Layout and Style Sheet" directory.  
   
 > [!NOTE]
 >  WPF and XAML scripting are essential skills required for customizing the display of your agent applications by manipulating controls in a XAML file.  
   
- Use the **SetTheme** action for the Global Manager hosted application to customize the default style of the agent application. [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] supports merging of your customizations with the existing theme or display style of the agent application. This effectively means that you just need to specify the controls or areas that you want to be changed along with the ResourceDictionary reference block to customize an existing display style. For general information about ResourceDictionary, click [ResourceDictionary and XAML resource references](https://msdn.microsoft.com/library/windows/apps/Hh968442.aspx).  
+ Use the **SetTheme** action for the Global Manager hosted application to customize the default style of the agent application. [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] supports merging of your customizations with the existing theme or display style of the agent application. This effectively means that you just need to specify the controls or areas that you want to be changed along with the ResourceDictionary reference block to customize an existing display style. For general information about ResourceDictionary, select [ResourceDictionary and XAML resource references](https://msdn.microsoft.com/library/windows/apps/Hh968442.aspx).  
   
  Let us create an action call to change the text in the title and the skin color of the agent application to Yellow. Make sure you have the DefaultStyle.xaml file handy as we will need it.  
   
-1. Sign in to the Common Data Service platform..  
+1. Sign in to Unified Service Desk Administrator.  
   
-2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
+2. Select **Action Calls** under **Basic Settings**.  
   
-3. Click **Action Calls**.  
+3. Select **+ Nw** to create an action call.  
   
-4. Click **NEW** to create an action call.  
-  
-5. On the **New Action Call** page, set the general properties:  
+4. On the **New Action Call** page, set the general properties:  
   
    1.  In the **Name** field, type **Action Call for Custom Display**.  
   
@@ -95,12 +94,12 @@ This is Unified Blue theme, which is the predefined theme for Unified Service De
   
    3.  In the **Action** field, select **SetTheme**.  
   
-6. Now, we will set the parameter for customizing the display. In the **Data** field, copy the following ResourceDictionary reference:  
+5. Now, we will set the parameter for customizing the display. In the **Data** field, copy the following ResourceDictionary reference:  
   
    ```  
   
-   <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
+   <ResourceDictionary xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation"  
+        xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml"  
         xmlns:Microsoft_Windows_Themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Classic"  
         xmlns:themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Luna"  
         xmlns:ribbon="clr-namespace:Microsoft.Windows.Controls.Ribbon;assembly=RibbonControlsLibrary"  
@@ -112,7 +111,7 @@ This is Unified Blue theme, which is the predefined theme for Unified Service De
    > [!IMPORTANT]
    >  This `ResourceDictionary` reference must be included in every action call that you use to customize the default style.  
   
-7. Copy the following command in the **Data** field after the ResourceDictionary reference that you copied earlier.  
+6. Copy the following command in the **Data** field after the ResourceDictionary reference that you copied earlier.  
   
    ```  
    <SolidColorBrush x:Key="WindowBackgroundStyle" Color="Yellow"/>  
@@ -120,7 +119,7 @@ This is Unified Blue theme, which is the predefined theme for Unified Service De
   
     This will change the skin of the agent application to Yellow. You will find this command to set the background color in the `<!-- Region General -->` section in the `DefaultStyle.xaml` file.  
   
-8. Copy the following command after the command that you copied in the previous step:  
+7. Copy the following command after the command that you copied in the previous step:  
   
    ```  
    <Style x:Key="MainWindow" TargetType="{x:Type Window}" BasedOn="{StaticResource {x:Type Window}}">  
@@ -132,7 +131,7 @@ This is Unified Blue theme, which is the predefined theme for Unified Service De
   
     This will change the text in the title bar to “CUSTOM TITLE: Agent Application for CONTOSO INC.”. You will find this command to set the Window title in the `<!-- Region Window --> section in the DefaultStyle.xaml file.`  
   
-9. Close the ResourceDictionary tag by adding the following at the end of the **Data** field:  
+8. Close the ResourceDictionary tag by adding the following at the end of the **Data** field:  
   
     ```  
     </ResourceDictionary>  
@@ -142,7 +141,7 @@ This is Unified Blue theme, which is the predefined theme for Unified Service De
   
    ![Define action call for customizing display](../unified-service-desk/media/crm-itpro-usd-customizedisplay01.png "Define action call for customizing display")  
   
-10. Click **Save**.  
+9. Select **Save**.  
   
     You are done, and now ready to test the action call in the agent application.  
   
@@ -152,13 +151,13 @@ This is Unified Blue theme, which is the predefined theme for Unified Service De
   
 1. Start [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to your Common Data Service platform server.  
   
-2. In the client application, start Debugger by clicking down arrow next to the settings menu in the top-right corner, and clicking **Debug**.  
+2. In the client application, start Debugger by selecting down arrow next to the settings menu in the top-right corner, and select **Debug**.  
   
-3. In Debugger, click the down arrow above the **Action Calls** tab to display the area where you can test action calls and UII actions.  
+3. In Debugger, select the down arrow above the **Action Calls** tab to display the area where you can test action calls and UII actions.  
   
    ![Test action calls & UII actions in debugger](../unified-service-desk/media/usd-customize-display-2.png "Test action calls & UII actions in debugger")  
   
-4. From the **Action Calls** drop-down list, select **Action Call for Custom Theme**, and click the **Run Action Call** icon (![USD debugger Run Action Call button](../unified-service-desk/media/usd-run-action-call-icon.png "USD debugger Run Action Call button")). The text in the title bar and skin color of the agent application change.  
+4. From the **Action Calls** drop-down list, select **Action Call for Custom Theme**, and select the **Run Action Call** icon (![USD debugger Run Action Call button](../unified-service-desk/media/usd-run-action-call-icon.png "USD debugger Run Action Call button")). The text in the title bar and skin color of the agent application change.  
   
    ![Customized display of the client application](../unified-service-desk/media/crm-itpro-usd-customizedisplay03.PNG "Customized display of the client application")  
   
@@ -166,7 +165,7 @@ This is Unified Blue theme, which is the predefined theme for Unified Service De
   
 <a name="HighContrast"></a>   
 ## High-contrast mode support  for custom themes  
- [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] internally uses normal and high-contrast mode XAML brush resources to display its UI elements depending on the high-contrast mode setting on your computer. You can find the XAML brush resources in the [!INCLUDE[pn_user_interface_integration](../includes/pn-user-interface-integration.md)] SDK download package. [Download](http://go.microsoft.com/fwlink/p/?LinkId=395257) the package, and extract it to view the file and its contents under the "UII\USD Developer Assets\USD Layout and Style Sheet" directory.  
+ [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] internally uses normal and high-contrast mode XAML brush resources to display its UI elements depending on the high-contrast mode setting on your computer. You can find the XAML brush resources in the [!INCLUDE[pn_user_interface_integration](../includes/pn-user-interface-integration.md)] SDK download package. [Download](https://go.microsoft.com/fwlink/p/?LinkId=395257) the package, and extract it to view the file and its contents under the "UII\USD Developer Assets\USD Layout and Style Sheet" directory.  
   
  To support high-contrast mode in your custom themes, consider the following:  
   

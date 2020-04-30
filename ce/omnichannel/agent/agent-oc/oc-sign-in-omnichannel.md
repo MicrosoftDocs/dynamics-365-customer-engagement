@@ -1,15 +1,13 @@
 ---
 title: "Sign in to Omnichannel for Customer Service app | MicrosoftDocs"
 description: "Learn how to sign in to Omnichannel for Customer Service app."
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 6977E402-7EF8-4B0B-9837-E8A003422796
-ms.custom: 
 ---
 
 # Sign in to Omnichannel for Customer Service

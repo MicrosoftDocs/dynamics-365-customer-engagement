@@ -42,15 +42,15 @@ Dynamics 365 for phones requires and can only connect to Microsoft Dynamics CRM 
 
 Dynamics CRM for phones express is deprecated and will not connect to releases **after** Microsoft Dynamics CRM 2016.
 
-*Windows Phone requires the [new Dynamics 365 apps for Windows app](http://go.microsoft.com/fwlink/p/?LinkID=799909) and Microsoft Dynamics CRM 2016 (on-premises) or later .
+*Windows Phone requires the [new Dynamics 365 apps for Windows app](https://go.microsoft.com/fwlink/p/?LinkID=799909) and Microsoft Dynamics CRM 2016 (on-premises) or later .
   
 ### Device support  
   
 |Platform|Versions|RAM (minimum)|  
 |--------------|--------------|---------------------|  
-|[iOS](http://go.microsoft.com/fwlink/p/?LinkID=519213)|8.1 and above|1 GB|  
-|[Android](http://go.microsoft.com/fwlink/p/?LinkID=519214)|4.4,5.0, 6.0, 7.0 **|1 GB|  
-|[Windows Phone 8.1](http://go.microsoft.com/fwlink/p/?LinkId=519212)<br /><br /> [Windows Phone 10](http://go.microsoft.com/fwlink/p/?LinkID=799909)|8.1 and 10|2 GB*|  
+|[iOS](https://go.microsoft.com/fwlink/p/?LinkID=519213)|8.1 and above|1 GB|  
+|[Android](https://go.microsoft.com/fwlink/p/?LinkID=519214)|4.4,5.0, 6.0, 7.0 **|1 GB|  
+|[Windows Phone 8.1](https://go.microsoft.com/fwlink/p/?LinkId=519212)<br /><br /> [Windows Phone 10](https://go.microsoft.com/fwlink/p/?LinkID=799909)|8.1 and 10|2 GB*|  
 
 *Enhancements to the app require this minimum memory amount.
 
@@ -62,7 +62,7 @@ Dynamics CRM for phones express is deprecated and will not connect to releases *
 
  You can run the Dynamics 365 apps for Windows tablets app on devices that meet the following requirements. You can also run the Dynamics 365 apps web app on a supported web browser on these devices. For more information about web browser support, see [Web application requirements for Microsoft Dynamics 365 apps](https://technet.microsoft.com/library/hh699710.aspx).  
   
- Download the Microsoft Dynamics 365 apps from the Windows Marketplace for [Windows 8.1 tablets](http://go.microsoft.com/fwlink/p/?LinkID=392776) and [Windows 10 tablets](http://go.microsoft.com/fwlink/p/?LinkID=808734).  
+ Download the Microsoft Dynamics 365 apps from the Windows Marketplace for [Windows 8.1 tablets](https://go.microsoft.com/fwlink/p/?LinkID=392776) and [Windows 10 tablets](https://go.microsoft.com/fwlink/p/?LinkID=808734).  
   
 |||  
 |-|-|  
@@ -91,7 +91,7 @@ You can run the [!INCLUDE[pn_crm_for_ipad_shortest](../../../includes/pn-crm-for
   
 - Screen: 9-inch (diagonal) or larger  
  
-[Download Microsoft Dynamics 365 apps for iPad from the Apple Store](http://go.microsoft.com/fwlink/p/?LinkId=313327)
+[Download Microsoft Dynamics 365 apps for iPad from the Apple Store](https://go.microsoft.com/fwlink/p/?LinkId=313327)
 
 > [!IMPORTANT]
 > - For CRM 2015, this app is supported on iOS 7, 8, 9, and 10.
@@ -113,7 +113,7 @@ You can run the [!INCLUDE[pn_moca_CRM_Android](../../../includes/pn-moca-crm-and
 2. This feature is available only if your organization has updated to Microsoft Dynamics CRM 2015 Update 1.1 or later.
 3. This feature is available only if your organization has updated to Microsoft Dynamics CRM 2015 Update 1.1 or later.
 
-[Download Microsoft Dynamics 365 apps for Android from Google play](http://go.microsoft.com/fwlink/p/?LinkID=392913)
+[Download Microsoft Dynamics 365 apps for Android from Google play](https://go.microsoft.com/fwlink/p/?LinkID=392913)
   
 <a name="BKMK_BrowserSupport"></a>   
 

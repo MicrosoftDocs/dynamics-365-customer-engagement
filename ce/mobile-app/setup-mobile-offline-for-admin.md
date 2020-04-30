@@ -366,7 +366,7 @@ It is recommended that you have at least one rule defined for all mobile offline
 
 |Profile details |Limitation|  
 |-------------|---------|  
-|User in profile|	1,000|
+|User in profile|	2,000|
 |Relationship defined for each entity|Maximum of 10 relationships. And maximum of one many to many (M:M) or one to many (1:M) relationships within those 10 relationships. If any custom entities demand this scenario, then revisit the data model. No circular references or self-references are supported.|
 
 

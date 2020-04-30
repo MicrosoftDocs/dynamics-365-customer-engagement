@@ -1,11 +1,12 @@
 ---
 title: "Use UII hosted controls with Unified Service Desk | MicrosoftDocs"
 description: "Learn how to use UII hosted controls in Unified Service Desk."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 7e889489-bf8c-48d0-9a44-2b8504dac8f1
 author: kabala123
 ms.author: kabala
 manager: shujoshi

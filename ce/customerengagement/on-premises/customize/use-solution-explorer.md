@@ -1,5 +1,5 @@
 ---
-title: "Use the solution explorer | MicrosoftDocs"
+title: "Use the solution explorer (Dynamics 365 Customer Engagement on-premises) | MicrosoftDocs"
 description: "Learn how to use solution explorer to create or customize apps"
 ms.custom: 
 ms.date: 01/11/2019
@@ -22,10 +22,9 @@ search.app:
   - D365CE
 ---
 # Use the solution explorer
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Use solutions in Power Apps](/powerapps/maker/common-data-service/use-solution-explorer)
 
-
-
- Within the solution explorer you can navigate through a hierarchy of nodes using the navigation pane on the left side as shown in the following screenshot:  
+Within the solution explorer you can navigate through a hierarchy of nodes using the navigation pane on the left side as shown in the following screenshot:  
   
  ![Default solution with entities collapsed](../customize/media/crm-itpro-cust-defaultsolutionentitiescollapsed.PNG "Default solution with entities collapsed")  
   

@@ -72,7 +72,7 @@ You can reduce the complexity involved with data integration scenarios by using 
   
 <a name="BKMK_SampleCode"></a>   
 ## Sample code  
- The [Insert or update a record using Upsert](http://go.microsoft.com/fwlink/p/?LinkId=532924) sample [ProductUpsertSample.cs](https://code.msdn.microsoft.com/Insert-or-update-a-record-aa160870/sourcecode?fileId=136218&pathId=1243320355) file contains the following `ProcessUpsert` method to apply the `UpsertRequest` message on the contents of an XML file to create new records or update existing ones.  
+ In the [Insert or update a record using Upsert](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/Upsert) sample, the  [ProductUpsertSample.cs](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/samples-from-msdn/Upsert/ProductUpsertSample.cs) file contains the following `ProcessUpsert` method to apply the `UpsertRequest` message on the contents of an XML file to create new records or update existing ones.  
   
  [!code-csharp[UpsertSample#ProductUpsertSample1](../snippets/csharp/CRMV8/upsertsample/cs/productupsertsample1.cs#productupsertsample1)]  
   

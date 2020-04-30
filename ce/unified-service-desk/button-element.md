@@ -1,11 +1,12 @@
 ---
 title: "ButtonElement | MicrosoftDocs"
 description: "The topic explains about <ButtonElement> element syntax and the elements, which is one of the binding elements of the WebDDA."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: a67be8bc-6d28-4c99-a62a-397169a92eec
 author: kabala123
 ms.author: kabala
 manager: shujoshi

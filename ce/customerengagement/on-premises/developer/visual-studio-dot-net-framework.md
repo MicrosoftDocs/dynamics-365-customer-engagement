@@ -2,7 +2,7 @@
 title: "Visual Studio and the .NET Framework (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "Learn about managed code development tools and requirements."
 keywords: 
-ms.date: 03/229/2019
+ms.date: 03/29/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article

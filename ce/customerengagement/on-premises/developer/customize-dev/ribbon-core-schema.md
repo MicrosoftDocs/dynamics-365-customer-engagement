@@ -24,7 +24,7 @@ search.app:
 
 The following is the schema definition for the ribbon core portion of an import/export customization file. It is included from the [Customization Solutions File Schema](customization-solutions-file-schema.md). `RibbonCore.xsd` schema includes `RibbonTypes.xsd` and `RibbonWss.xsd` and you can find schema  in the `Schemas\9.0.0.2090\RibbonCore.xsd` folder when you download the Schemas zip file.
 
-Download the [Schemas](http://download.microsoft.com/download/B/9/7/B97655A4-4E46-4E51-BA0A-C669106D563F/Schemas.zip).
+Download the [Schemas](https://download.microsoft.com/download/B/9/7/B97655A4-4E46-4E51-BA0A-C669106D563F/Schemas.zip).
 
 For more information, see [Package and Distribute Extensions with Microsoft Dynamics 365 Customer Engagement Solutions](../package-distribute-extensions-use-solutions.md).
   
@@ -32,7 +32,7 @@ For more information, see [Package and Distribute Extensions with Microsoft Dyna
   
 ```xml  
 <?xml version="1.0" encoding="utf-8"?>
-<xs:schema id="CrmRibbonCore" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema id="CrmRibbonCore" xmlns:xs="https://www.w3.org/2001/XMLSchema">
 	<xs:include schemaLocation="RibbonTypes.xsd" />
 	<xs:include schemaLocation="RibbonWSS.xsd" />
 

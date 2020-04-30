@@ -172,7 +172,6 @@
 #### [Control social data](control-social-data.md)
 ### [Manage Bing Maps](manage-bing-maps-organization.md)
 <!--### [Enable Flow integration](enable-embedded-flow-in-your-organization.md)-->
-<!--### [Preview Feature: Live Assist powered by Café X](../live-assist/live-assist-microsoft-dynamics-365-powered-by-cafe-x.md)-->
 <!-- ### [Deploy packages using Dynamics CRM Package Deployer and Windows PowerShell](deploy-packages-using-package-deployer-windows-powershell.md)  -->
 <!-- ### [Use Power BI with Customer Engagement](use-power-bi.md)  -->
 <!--### [Preview feature: Set up Cortana integration](set-up-cortana-integration.md)-->

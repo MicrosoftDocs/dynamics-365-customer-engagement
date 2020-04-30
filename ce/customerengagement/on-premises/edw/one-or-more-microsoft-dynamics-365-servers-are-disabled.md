@@ -1,5 +1,5 @@
 ---
-title: "One or more Microsoft Dynamics 365 for Customer Engagement Servers are disabled | Microsoft Docs"
+title: "One or more Microsoft Dynamics 365 Servers are disabled | Microsoft Docs"
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -12,7 +12,7 @@ robots: noindex,nofollow
 author: Mattp123
 ms.author: matp
 ---
-# One or more Microsoft Dynamics 365 for Customer Engagement Servers are disabled
+# One or more Microsoft Dynamics 365 Servers are disabled
 
 ## Cause
   

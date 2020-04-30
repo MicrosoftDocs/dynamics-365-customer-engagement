@@ -35,7 +35,7 @@ Customer Engagement (on-premises) support two types of reports:
   
 - **[!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] reports.** These reports use SQL queries and filtered views to retrieve report data. Filtered views restrict the data to what is available to the security role of the person running the report. All the default reports included with Customer Engagement (on-premises) are SQL-based reports.  
   
-     You cannot access filtered views in Dynamics 365 Customer Engagement because access to the SQL database is not supported. If you have a Dynamics 365 (online) or PowerApps subscription, use Fetch-based reports for custom reporting.  
+     You cannot access filtered views in Dynamics 365 Customer Engagement because access to the SQL database is not supported. If you have a Dynamics 365 (online) or Power Apps subscription, use Fetch-based reports for custom reporting.  
   
 - **Fetch-based Reporting Services reports.** These reports use FetchXML queries that are proprietary to Customer Engagement (on-premises) instead of filtered views to retrieve data for reports. Reports that you create by using the Report Wizard in are Fetch-based reports.  
   
@@ -77,7 +77,7 @@ Customer Engagement (on-premises) uses [!INCLUDE[pn_SQL_Server_Reporting](../inc
   
  To create or modify existing RDL reports that can be used with your apps, use FetchXML, which is then converted to RDL by using report authoring tools. 
   
- If you want, you can use a third-party tool, SQL2FetchXML, to convert your SQL scripts to FetchXML, and then use the FetchXML query in your Fetch-based reports. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [SQL2FetchXML Help](http://www.sql2fetchxml.com/help.aspx)  
+ If you want, you can use a third-party tool, SQL2FetchXML, to convert your SQL scripts to FetchXML, and then use the FetchXML query in your Fetch-based reports. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [SQL2FetchXML Help](https://www.sql2fetchxml.com/help.aspx)  
 
 <a name="creating"></a>   
 ### Options for creating new reports  

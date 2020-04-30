@@ -2,7 +2,7 @@
 title: "Set up field service users and security roles | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 02/27/2019
+ms.date: 01/6/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
@@ -36,13 +36,14 @@ By setting security roles for users, you control the types of data and entities 
 > Any users assigned to field service security roles need a Dynamics 365 license that includes the Field Service application. After you complete the steps in this article, it's recommended that you sign in to verify that the capabilities appear as expected.
 
 ## Field service roles
+
 **Field Service—Administrator** is designed for service managers and IT administrators. This role has access to all field service entities including work orders, scheduling, and inventory. Additionally, this role has full Create, Read, Update, Delete (CRUD) abilities. For example, a field service administrator can create new work order types for the organization, which other people can then use on work orders that they create.
 
 **Field Service—App Access** and **Field Service—Resource** are designed for field technicians and should be assigned to field technician users who carry out work orders for customers primarily via the mobile application. This role is generally characterized by read and update privileges. An example is the ability to view and update information on work orders that are assigned to this user (and only this user).
 
 **Field Service—Dispatcher** is designed for schedulers who are responsible for managing and assigning a group of work orders to a group of resources. It is characterized by limited CRUD abilities for scheduling related entities within his or her business unit. An example is editing and scheduling work orders to resources in the Washington territory.
 
-**Field Service—Inventory Purchase** is designed for inventory managers who are responsible for managing truck stocks, purchasing and reordering inventory, and processing product returns. It is characterized by limited CRUD abilities for inventory related entities within his or her business unit. An example is processing a product return for one or many lines of business.
+**Field Service—Inventory Purchase** is designed for inventory managers who are responsible for managing truck stocks, purchasing and reordering inventory, and processing product returns. It is characterized by limited CRUD abilities for inventory related entities within his or her business unit. An example is processing a product return for one or many lines of business. **This security role should be given to a user in addition to the Field Service-Resource or Field Service-Dispatcher security roles**.
 
 **IoT - Administrator** is designed for users who are responsible for device registration and device data pulls that are IoTHub operations related to Connected Field Service. These roles are characterized by full CRUD abilities for IoT  related entities. For example, a user with these roles may have access to all IoT Alerts and devices. 
 
@@ -54,7 +55,8 @@ By setting security roles for users, you control the types of data and entities 
 
 
 > [!Note]
-> We strongly recommended making copies of the Field Service security roles and assigning the copied security roles to users. This prevents product updates from overwriting your custom security configurations. To copy a security role, go to **Settings > Security > Security Roles**, then select a security role record and choose **Actions > Copy Role**. See the following screenshot for reference.
+> New product releases may update field service security roles. You can either make custom roles or copies of existing roles to mitigate the risks. If you intend to *add* additional privileges, we recommend creating a custom security role with the added privileges, and assigning both the Field Service security role and the add-on role. If you intend to *remove* or lower privileges, then we recommend that you make a copy of the Field Service security role, make your changes, and assign the copied security role to the user. To copy a security role, go to **Settings** > **Security** > **Security Roles**, then select a security role record and choose **Actions** > **Copy Role**. See the following screenshot for reference.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of copying a security role](media/admin-security-role-copy.png) 
 

@@ -1,11 +1,12 @@
 ---
 title: "JAccTree Tag in Unified Service Desk | MicrosoftDocs"
 description: "The topic describes the elements of <JAccTree>."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: f1a3a64c-b154-4ccb-82f0-5399745d9a6e
 author: kabala123
 ms.author: kabala
 manager: shujoshi

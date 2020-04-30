@@ -20,7 +20,7 @@ search.app:
 
 
 
-Microsoft is committed to making its products and services easier for everyone. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft accessibility](http://www.microsoft.com/enable/default.aspx)  
+Microsoft is committed to making its products and services easier for everyone. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft accessibility](https://www.microsoft.com/enable/default.aspx)  
 
 
 ## Keyboard shortcuts  
@@ -95,11 +95,11 @@ Microsoft is committed to making its products and services easier for everyone. 
  For accessibility information about your browser, visit the following websites:  
 
 
--   [Windows accessibility features](http://www.microsoft.com/enable/products/ie9/default.aspx)  
+-   [Windows accessibility features](https://www.microsoft.com/enable/products/ie9/default.aspx)  
 
--   [Firefox accessibility features](http://support.mozilla.org/kb/accessibility-features-firefox-make-firefox-and-we?redirectlocale=en-US&redirectslug=accessibility)  
+-   [Firefox accessibility features](https://support.mozilla.org/kb/accessibility-features-firefox-make-firefox-and-we?redirectlocale=en-US&redirectslug=accessibility)  
 
--   [Safari accessibility features](http://www.apple.com/accessibility/)  
+-   [Safari accessibility features](https://www.apple.com/accessibility/)  
 
 -   [Google Chrome accessibility technical documentation](https://sites.google.com/a/chromium.org/dev/developers/design-documents/accessibility)
 

@@ -4,12 +4,10 @@ description: "Learn how to attach the Omnichannel Agent Dashboard-related action
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: B682A43B-C5E6-4939-A8A3-3601A0CE8B29
-ms.custom: 
 ---
 
 # Step 3:  Attach Omnichannel Agent Dashboard-related action calls to events 

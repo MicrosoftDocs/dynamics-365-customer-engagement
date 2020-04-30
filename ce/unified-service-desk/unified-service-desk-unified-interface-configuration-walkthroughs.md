@@ -2,9 +2,9 @@
 title: "Unified Service Desk and Unified Interface configuration walkthroughs | MicrosoftDocs"
 description: "Unified Service Desk and Unified Interface walkthroughs provide you a step-by-step tutorial on configuring an agent application from scratch and progressively add features."
 ms.date: 05/07/2018
-ms.service: usd
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 66972CCA-1A61-4377-AE17-A165C36E0419
 author: kabala123
 ms.author: kabala
 manager: shujoshi

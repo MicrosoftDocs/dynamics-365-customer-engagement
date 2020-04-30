@@ -57,5 +57,5 @@ Dynamics 365 Customer Engagement (on-premises) includes two kinds of SLAs, stand
 >  To monitor enhanced SLA details, consider creating custom dashboards based on the SLA KPI Instance entity or custom views using the Regarding (Case) relationship.  
   
 ### See also  
- [Video: SLA Enhancements in Microsoft Dynamics CRM 2015](http://youtu.be/rgmPqLsG8WI)   
+ [Video: SLA Enhancements in Microsoft Dynamics CRM 2015](https://youtu.be/rgmPqLsG8WI)   
  [Enable languages](../admin/enable-languages.md)

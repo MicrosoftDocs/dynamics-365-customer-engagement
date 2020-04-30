@@ -1,18 +1,19 @@
 ---
 title: "Agent Scripting (Hosted Control) | MicrosoftDocs"
 description: "Learn about using Agent Scripting type of hosted control to define a call script that provides instructions to the call center agent to guide them during a customer interaction for a given session."
-ms.custom: dyn365-USD
-ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.custom: 
+  - dyn365-USD
+ms.date: 12/31/2019
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 4d34fda6-6b17-4c94-8881-39962c85e6d0
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-search.audienceType:
+search.audienceType: 
   - customizer
   - developer
-search.app:
+search.app: 
   - D365CE
   - D365USD
 ---
@@ -21,12 +22,11 @@ Use **Agent Scripting** type of hosted control to define a call script that prov
 
 <a name="AgentScripting"></a>
 ## Create an Agent Scripting hosted control
+
  While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **Agent Scripting** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).
 
-  <!-- Missing graphic below-->
- <!-- ![Agent scripting hosted control](../unified-service-desk/media/usd-agent-scripthostedcontrol.PNG "Agent scripting hosted control")  -->
   
- In the **New Hosted Control** screen, under the **Unified Service Desk** area, select **Agent Scripting** from the **USD Component Type** drop-down list. The WorkflowPanel is the most common panel for this hosted control type, and the same is displayed in the **Display Group** field. For information about various panels available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md). For information about other **General** fields, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
+ In the **New Hosted Control** screen, under the **Unified Service Desk** area, select **Agent Scripting** from the **Unified Service Desk Component Type** drop-down list. The WorkflowPanel is the most common panel for this hosted control type, and the same is displayed in the **Display Group** field. For information about various panels available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md). For information about other **General** fields, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
   
 <a name="actions"></a>   
 ## Predefined UII actions  

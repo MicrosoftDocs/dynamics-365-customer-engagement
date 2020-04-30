@@ -1,36 +1,26 @@
 ---
 title: "Attach skill to an incoming conversation | MicrosoftDocs"
-description: "Learn about how to attach skills to an incoming conversation in Omnichannel for Customer Service app." 
-keywords: ""
+description: "Learn about how to attach skills to an incoming conversation in Omnichannel for Customer Service app."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
-ms.date: 10/15/2019
-ms.service: dynamics-365-customerservice
+ms.date: 12/13/2019
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 44298261-18A8-438C-923A-4BB4D18406F9
-ms.custom: 
 ---
 
-# Preview: Attach skills to conversation
+# Attach skills to conversation
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
-> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided “as-is,” “with all faults,” “as available,” and without warranty.​
-> - This preview features does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
-> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../../legal/dynamics-insider-agreement.md).
-
 ## Understand skill
 
-In the portal, when the customer fills in the prechat survey questions, the system receives these as context variables. The omnichannel system attaches these variables to the incoming conversation as a skill, and then the work distribution engine matches the skills of the agents based on the exact or closest match criteria. Once the skill attached to the conversation matches the skill of an agent, then the work distribution engine assigns the conversation to that agent.
+In the portal, when the customer fills in the prechat survey questions, the system receives these as context variables. The system attaches these variables to the incoming conversation as a skill, and then the work distribution engine matches the skills of the agents based on the exact or closest match criteria. Once the skill attached to the conversation matches the skill of an agent, then the work distribution engine assigns the conversation to that agent.
 
 For example:
 
-Kenny Smith, a customer from Spain, uses **Xbox** product and goes to **www.contoso.com** portal to initiate a chat with the Contoso customer service center. The pre-chat survey question prompts Kenny to choose a device, and Kenny chooses **Xbox**. As Kenny's geolocation is Spain, the Omnichannel system attaches the **Xbox** product and **Spanish** language as the skill to the conversation. After the skill attachment, the work distribution engine assigns the conversation to an agent with skill as **Xbox** and **Spanish**.
+Kenny Smith, a customer from Spain, uses **Xbox** product and goes to **www.contoso.com** portal to initiate a chat with the Contoso customer service center. The pre-chat survey question prompts Kenny to choose a device, and Kenny chooses **Xbox**. As Kenny's geolocation is Spain, the system attaches the **Xbox** product and **Spanish** language as the skill to the conversation. After the skill attachment, the work distribution engine assigns the conversation to an agent with skill as **Xbox** and **Spanish**.
 
 > [!Note]
 > The system attaches the skills to a conversation based on the skill attachment rules.

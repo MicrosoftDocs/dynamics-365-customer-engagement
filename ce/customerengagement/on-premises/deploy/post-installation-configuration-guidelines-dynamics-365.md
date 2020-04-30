@@ -1,7 +1,7 @@
 ---
 title: "Post-installation and configuration guidelines for Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
 ms.custom: ""
-ms.date: "05/09/2019"
+ms.date: "12/13/2019"
 ms.prod: "crm-2016"
 ms.reviewer: ""
 ms.suite: ""
@@ -81,7 +81,7 @@ This section describes several of the tasks that the [!INCLUDE[pn_microsoftcrm](
 <!--   
 > [!NOTE]
 >  -   There are a few issues that were present when configuring [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] 2.0 and 2.1 that are no longer needed for [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] 2.2. For example, with 2.0/2.1 you had to configure the MEX endpoint using a script or obtain a hotfix. This isn’t needed with [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] 2.2. In addition, [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] 2.2 adds the rule “Pass through all UPN Claims” in the [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] claim provider trust by default, so the extra step to add the rule is no longer required.  -->
-<!-- > -   To register [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)],  see [Set up the connection between Dynamics CRM and Social Engagement](http://go.microsoft.com/fwlink/p/?LinkId=733269).  -->
+<!-- > -   To register [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)],  see [Set up the connection between Dynamics CRM and Social Engagement](https://go.microsoft.com/fwlink/p/?LinkId=733269).  -->
   
 ### Enable forms authentication  
  By default, forms authentication is disabled in the intranet zone. You must enable forms authentication by following these steps:  
@@ -99,14 +99,21 @@ This section describes several of the tasks that the [!INCLUDE[pn_microsoftcrm](
   
 1.  Log on to the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server as an administrator.  
   
-2.  In a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] console window, run the following script:  
+2. Add the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)][!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] snap-in (Microsoft.Crm.PowerShell.dll). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Administer the deployment using Windows PowerShell](https://technet.microsoft.com/library/dn531202.aspx)  
   
-    ```powershell  
-    $ClaimsSettings = Get-CrmSetting -SettingType OAuthClaimsSettings  
-    $ClaimsSettings.Enabled = $true  
-    Set-CrmSetting -Setting $ClaimsSettings  
+   ```powershell  
+   Add-PSSnapin Microsoft.Crm.PowerShell  
+   ```  
   
-    ```  
+3. Enter the following [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] commands.  
+  
+   ```powershell  
+  
+   $ClaimsSettings = Get-CrmSetting -SettingType OAuthClaimsSettings  
+   $ClaimsSettings.Enabled = $true  
+   Set-CrmSetting -Setting $ClaimsSettings  
+  
+   ```  
   
 ### Register the client apps  
  The client apps must be registered with [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)].  
@@ -195,7 +202,7 @@ To make sure that devices can connect to your deployment, follow the instruction
 
 <a name="BKMK_usertrain"></a>   
 ## User training and adoption  
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Training and Adoption Kit for Microsoft Dynamics 365](http://go.microsoft.com/fwlink/p/?LinkId=386503)  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Training and Adoption Kit for Microsoft Dynamics 365](https://go.microsoft.com/fwlink/p/?LinkId=386503)  
   
 ## See also  
  [Installing on-premises Dynamics 365](installing-on-premises-dynamics-365.md)   

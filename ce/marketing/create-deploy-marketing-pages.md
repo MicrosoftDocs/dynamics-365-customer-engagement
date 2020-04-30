@@ -8,8 +8,8 @@ ms.custom:
   - dyn365-marketing
 ms.topic: article
 ms.assetid: a05ddbad-a57a-403a-aee9-2e91e2f5161f
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -130,7 +130,7 @@ More information: [Go live with publishable entities and track their status](go-
 
 ## Integrate landing pages with other marketing initiatives
 
-To include a link to a landing page in a marketing email, you can either create a dynamic text link (in a text element) that references the page by using the assist-edit feature, or add a dedicated marketing-page element, which creates a colorful call-to-action button that links to the page. More information: [Add dynamic content to email messages](dynamic-email-content.md) and [The form element for marketing pages](content-blocks-reference.md#the-form-element-for-marketing-pages)
+To include a link to a landing page in a marketing email, you can either create a dynamic text link (in a text element) that references the page by using the [assist edit](dynamic-email-content.md#assist-edit) feature, or add a dedicated marketing-page element, which creates a colorful call-to-action button that links to the page. More information: [Add dynamic content to email messages](dynamic-email-content.md) and [The form element for marketing pages](content-blocks-reference.md#the-form-element-for-marketing-pages)
 
 You can create customer journeys that include triggers that react to marketing page submissions, so that contacts who submit the page are treated differently from those who don't. To do this, include a marketing page tile in your journey design and then place a trigger that references that tile and specifies logic for how to react to it. To trigger on a marketing page linked to in a marketing-email message, add an email tile for the message and then add a marketing page tile as a child tile of that message. More information: [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)
 

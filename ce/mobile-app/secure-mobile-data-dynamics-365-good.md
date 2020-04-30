@@ -33,10 +33,10 @@ As of December 3, 2018, Microsoft Dynamics 365 for Blackberry App is deprecated 
 
 [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)], integrated with [!INCLUDE[pn_good_dynamics](../includes/pn-good-dynamics.md)], protects your Dynamics 365 apps data even if you lose or leave your mobile device somewhere. For example, if you leave your device in a taxi cab and can’t get it back right away, your Dynamics 365 apps data is protected by [!INCLUDE[pn_good_shortest](../includes/pn-good-shortest.md)] encryption. If you lose your device entirely, just notify your admin, who can remotely wipe your [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)] data from your device.  
   
- This app is intended for use only with [!INCLUDE[pn_good_dynamics](../includes/pn-good-dynamics.md)] server software and services from [!INCLUDE[pn_good_technology](../includes/pn-good-technology.md)]. If you’re not using [!INCLUDE[pn_good_dynamics](../includes/pn-good-dynamics.md)], download [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express-long.md)] or [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] instead from the [Apple App store](http://go.microsoft.com/fwlink/p/?LinkID=313645).  
+ This app is intended for use only with [!INCLUDE[pn_good_dynamics](../includes/pn-good-dynamics.md)] server software and services from [!INCLUDE[pn_good_technology](../includes/pn-good-technology.md)]. If you’re not using [!INCLUDE[pn_good_dynamics](../includes/pn-good-dynamics.md)], download [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express-long.md)] or [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] instead from the [Apple App store](https://go.microsoft.com/fwlink/p/?LinkID=313645).  
   
 ## Download the Dynamics 365 apps for Good app  
- You can download the [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)] app from the [Apple App store](http://go.microsoft.com/fwlink/p/?LinkID=524762). You can also find the app on the [Good Dynamics Marketplace](http://go.microsoft.com/fwlink/p/?LinkId=524809).  
+ You can download the [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)] app from the [Apple App store](https://go.microsoft.com/fwlink/p/?LinkID=524762). You can also find the app on the [Good Dynamics Marketplace](https://go.microsoft.com/fwlink/p/?LinkId=524809).  
  
 ## Start and sign in to the Dynamics 365 apps for Good app  
   

@@ -27,7 +27,7 @@ Use these web resources to manage localized strings in any user interface you de
 > [!NOTE]
 > String (RESX) web resources were added with the [!INCLUDE[../includes/pn-crm-9-0-0-online.md](../includes/pn-crm-9-0-0-online.md)].
 
-# Using RESX web resources
+## Using RESX web resources
 
 <!-- 
 Much of this content also found in developer/clientapi/reference/Xrm-Utility/getResourceString.md

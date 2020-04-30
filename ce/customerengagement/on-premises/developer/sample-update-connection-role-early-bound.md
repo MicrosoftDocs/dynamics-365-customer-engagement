@@ -27,21 +27,31 @@ search.app:
 ---
 # Sample: Update a connection role (early bound)
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. [Download the Business Management samples](https://code.msdn.microsoft.com/Business-Management-Samples-6a482e62).
+This sample shows how to modify the properties of the connection role, such as a role name, description, and category. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/UpdateConnectionRole).
 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
-  
-## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
-  
-## Demonstrates  
- This sample shows how to modify the properties of the connection role, such as a role name, description, and category.  
-  
-## Example  
- [!code-csharp[BusinessManagement#UpdateConnectionRole](../snippets/csharp/CRMV8/businessmanagement/cs/updateconnectionrole.cs#updateconnectionrole)]  
-  
-### See also  
- [Sample Code for Connection Entities](sample-code-connection-entities.md)   
- [Connection Entities](connection-entities.md)   
- [Sample: Create a Connection (Early Bound)](sample-create-connection-early-bound.md)
+[!include[cc-sample-note](includes/cc-sample-note.md)]
+
+## How to run this sample
+
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-PA-samples.md)]
+
+## What this sample does
+
+The [IOrganizationService.Update](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iorganizationservice.update?view=dynamics-general-ce-9) message is intended to be used in a scenario where it contains the data that is needed to update existing record.
+
+## How this sample works
+
+In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+
+### Setup
+
+1. Checks for the current version of the org. 
+1. Creates required data that this sample requires.
+
+### Demonstrate
+
+The `Update` message updates the connection role.
+
+### Clean up
+
+Displays an option to delete all the data created in the sample. The deletion is optional in case you want to examine the data created by the sample. You can manually delete the data to achieve same results.

@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 Customer Engagement (on-premises) editions and licensing | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/01/2018"
+ms.date: "10/17/2019"
 ms.prod: "crm-2016"
 ms.reviewer: ""
 ms.suite: ""
@@ -30,7 +30,7 @@ manager: kvivek
   
  You can view and upgrade a license by using the `Get-CrmAccessLicense` and `Set-CrmProductKey` [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] commands or in [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)]. [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)] is a [!INCLUDE[pn_Microsoft_Management_Console](../includes/pn-microsoft-management-console.md)] snap-in that system administrators can use to manage organizations, servers, and licenses for deployments of [!INCLUDE [pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. 
 
- For more information about licensing, see [Microsoft Dynamics 365 Customer Engagement (on-premises) Licensing Guide](https://mbs.microsoft.com/Files/public/365/Dynamics365EnterpriseEditionOnPremisesLicensingGuide.pdf). 
+ <!-- For more information about licensing, see [Microsoft Dynamics 365 Customer Engagement (on-premises) Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).  -->
   
 ### Client access license types  
  You can view and modify client access license types for each user in the **Users** area of the **Settings** area in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web client. 

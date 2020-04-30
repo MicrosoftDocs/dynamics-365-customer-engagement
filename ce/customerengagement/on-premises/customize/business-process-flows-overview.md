@@ -193,7 +193,7 @@ Currently, you can’t create custom forms for entities based on a business proc
  [Add ready-to-use business processes](../customize/add-ready-use-business-processes.md)   
  [Create a business process flow](../customize/create-business-process-flow.md)   
  [Enhance business process flows with branching](../customize/enhance-business-process-flows-branching.md) <br/>
- [Whitepaper: Process Enablement with Dynamics 365 for Customer Engagement](http://download.microsoft.com/download/C/3/B/C3B46E35-9445-43B9-800B-474E022EE352/Process%20Enablement%20with%20Microsoft%20Dynamics%20CRM%202013.pdf)</br>
+ [Whitepaper: Process Enablement with Dynamics 365 for Customer Engagement](https://download.microsoft.com/download/C/3/B/C3B46E35-9445-43B9-800B-474E022EE352/Process%20Enablement%20with%20Microsoft%20Dynamics%20CRM%202013.pdf)</br>
  [Create custom business logic through processes](../customize/guide-staff-through-common-tasks-processes.md)</br>
  [Workflow Processes](../customize/workflow-processes.md)   
  [Actions - Overview](../customize/actions.md)

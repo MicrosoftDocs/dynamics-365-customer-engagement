@@ -4,12 +4,10 @@ description: "Learn about the Omnichannel for Customer Service agent interface i
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 7369f1e2-e536-4585-a69a-eee434a87af1
-ms.custom: 
 ---
 
 # Introduction to the agent interface in Omnichannel for Customer Service

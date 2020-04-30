@@ -1,18 +1,15 @@
 ---
 title: "Create or edit competitor records (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Track your competitors and their strengths to win sales against them."
-keywords: "competitor, sales, opportunity"
 ms.date: 04/12/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: fb1a7bdd-0a49-4177-bc95-5837b8c79b60
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-caps.latest.revision: 11
 ---
 
 # Create or edit competitor records (Sales and Sales Hub)

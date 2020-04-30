@@ -4,12 +4,10 @@ description: "Learn how to the attach the communication panel-related action cal
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 03125D65-65F4-4189-BCD4-B1317B68CE3C
-ms.custom: 
 ---
 
 # Step 4:  Attach communication panel-related action calls to events 

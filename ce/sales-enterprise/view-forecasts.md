@@ -1,156 +1,95 @@
 ---
-title: "View forecasts (Dynamics 365 Sales) | MicrosoftDocs"
-description: "See forecasts in Dynamics 365 Sales to know the health of your pipeline or to track how your sales team is performing against their quota or target. Define the data and period to use for the purpose of forecasting in Dynamics 365 Sales."
-ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+title: "View a forecast (Dynamics 365 Sales) | MicrosoftDocs"
+description: "See a forecast in Dynamics 365 Sales to know the health of your pipeline or to track how your sales team is doing against their quota or target."
+ms.date: 02/03/2020
+ms.service: 
+  - dynamics-365-sales
+ms.custom: 
+  - dyn365-sales
 ms.topic: article
-ms.assetid: 956295f7-b4d4-49b9-954b-677c5fbf703d
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 ---
 
-# View forecasts
+# View a forecast
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+Bottoms-up forecasting is the projection of what a salesperson, team, or organization will sell in a given predefined period (month or quarter). Sellers can also use forecasts to track their performance by using assigned sales targets or quotas.
 
-> [!IMPORTANT]
-> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
-> - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
-> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+**To view a forecast**
 
+1.	[Review the prerequisites](project-accurate-revenue-sales-forecasting.md#review-prerequisites).
 
-Forecasts help organizations, teams, and salespeople project anticipated sales against targets across a given time period such as quarterly or monthly. Sales reps can also use forecasts to track their performance with assigned sales targets or quotas.
+2.	Sign in to the Sales Hub app.
 
-> [!NOTE]
-> You’ll only be able to view a forecast if you appear in its hierarchy.
-
-1.	Select the site map icon ![Icon to open site map](media/site-map-new.png "Icon to open site map"), and check the lower left corner of the site map to ensure that you are in the **Sales** area. 
-
+3.	At the bottom of the site map, select **Change area** ![Change area icon](media/change-area-icon.png "Change area icon"), and then select **Sales**. 
+ 
     > [!div class="mx-imgBorder"]
-     ![Icon to change area in the site map](media/site-map-area.png "Icon to change area in the site map")
+    > ![Icon to change area in the site map](media/site-map-area.png "Icon to change an area of the site map")
 
-3. Under **Performance**, select **Forecasts**.
-
-    The forecasts view page displays. 
+3. Under **Performance**, select **Forecasts**. 
 
     > [!div class="mx-imgBorder"]
     > ![Forecasts view page](media/forecast-view-page.png "Forecasts view page")
     
-4.	On the **Forecasts** home page, select the following:
+4.	On the grid page, do the following:
 
-    - **Forecast configuration**: Select a forecast from the drop-down list. Any forecasts where you appear in the forecast hierarchy will show here. 
+    -	Select a forecast from the drop-down list. Any forecasts for which you have permissions will appear here.
 
-    - **Forecast period**: Set the forecast period. Options in the drop-down list reflect the number of forecast periods defined in the forecast configuration.
+    -	Choose the forecast period you want to see. Options in the drop-down list reflect the number of forecast periods defined in the forecast configuration. The default is the current period.
+
  
     > [!div class="mx-imgBorder"]
-    > ![Drop-down list to select forecast](media/forecast-view-drop-down.png "Drop-down list to select forecast")
+    > ![Drop-down list to select forecast](media/forecast-view-drop-down.png "Drop-down list to select a forecast")
 
-5. The forecast grid displays quota information and calculated totals as defined in the forecast configuration. The totals are aggregated by user for each period according to the forecast column attributes. If the *org chart forecast* template is used with the out-of-the-box **Forecast category** option set, the grid will display the following information:   
+5. The forecast grid displays all relevant columns as defined in the forecast configuration. The totals are aggregated by user or by territory, at each level of the hierarchy and for each period according to the forecast column attributes.
 
-    -	**Users**: Entities at all levels of a given forecast’s hierarchy (including a top-level *owner* and all subordinate levels). For example, owner of the records that are included in the forecast participating records or the name of the manager. To learn more, see [Forecasts and sales hierarchy](#forecasts-and-sales-hierarchy). 
+    For example, if you're using the out-of-the-box **Forecast category** on an org chart forecast, the grid will display the following information:
 
-    -	**Quota**: A target metric set for a specific owner over a given timeframe. Other calculations, such as revenue generation progress, are measured against quotas. 
+    -	**Users**: Shows the hierarchy of users as defined by the **Manager** field. To learn more, see [Forecasts and sales hierarchy](#forecasts-and-sales-hierarchy). 
 
-    -	**Best case**: Shows the aggregated (rolled-up) value of estimated revenue of all open opportunities. This value can be edited inline during forecast configuration (the field becomes editable when selected.)
+    -	**Quota**: A target amount set for a specific owner over a given time frame. The progress bar is calculated against this value. 
 
-    -  **Committed**: Shows the aggregated (rolled-up) value of estimated revenue for all open opportunities with forecast category set to **Committed**. This value can be edited inline during forecast configuration (field becomes editable when selected). 
+    -  **Committed**: Shows the aggregated (rolled-up) value of estimated revenue for all open opportunities that have the forecast category set as **Committed** (high confidence). This value can be adjusted during forecast.
 
-    -	**Omitted**: Shows the aggregated (rolled-up) value of excluded revenue of all open opportunities with forecast category set to **Omitted**.
+    -	**Best case**: Shows the aggregated (rolled-up) value of estimated revenue of all open opportunities that have the forecast category set as **Best Case** (medium confidence). This value can be adjusted during forecast.
 
-    -	**Won**: Shows the aggregated or rolled-up value of revenue generated of all won opportunities with forecast category set to **Won**.
+    -	**Pipeline**: Shows the aggregated (rolled-up) value of estimated revenue for all open opportunities that have the forecast category set as **Pipeline** (low confidence). This value can be adjusted during forecast.
 
-    - **Lost**: Shows the aggregated or rolled-up value of revenue lost of all lost opportunities with forecast category set to **lost**.
+    -	**Omitted**: Shows the aggregated (rolled-up) value of excluded revenue for all open opportunities that have the forecast category set as **Omitted**.
+
+    -	**Won**: Shows the aggregated (rolled-up) value of revenue that's generated for all won opportunities that have the forecast category set as **Won**.
+
+    - **Lost**: Shows the aggregated (rolled-up) value of revenue that's lost for all lost opportunities that have the forecast category set as **Lost**.
+
+    > [!NOTE]
+    > The permissions granted during the forecast configuration affects who can view the forecast values. To learn more, see [Provide viewing permissions](provide-permissions-forecast.md).
 
 ## Forecasts and sales hierarchy
 
-If using the out-of-the-box *org chart forecast* template, the forecast will be based on the sales team hierarchy as defined by the manager role on the User record. For example, if Wade Roque is a sales manager with five direct reports, and he is designated as manager in his direct reports' user records, he will see a forecast for himself and his five direct reports. 
+Every forecast is attached to an organization-defined hierarchy that rolls up the values level by level. If the **Org chart forecast** template is used, the forecast is created based on the sales team hierarchy as defined by the manager role on the **User** record. Similarly, if the **Territory forecast** template is used, the hierarchy is based on the **Territory manager** lookup field.
+
+For example, you created a forecast by using the **Org chart forecast** template. The hierarchy is defined based on the **User** record. If Alyce Durham is a sales manager with one direct report, and she's designated as manager in her direct report's **User** record, she'll see a forecast for herself and her direct report. Because Alyce Durham reports to Samuel Strom, Samuel will see his own forecasts along with the rolled-up forecasts of his direct reports, including Alyce's.
 
 > [!div class="mx-imgBorder"]
 > ![Forecasts for a manager and direct reports](media/forecast-for-team-hierarchy.png "Forecasts for a manager and direct reports")
 
-If Wade Roque reports to Bert Hair, Bert will see his own forecasts along with Wade's rolled-up forecast. Bert will not see the forecasts of Wade's direct reports.
-
 To see the rolled-up forecast for everyone in the hierarchy, expand a specific forecast.
 
-The parent row (for the manager) shows values rolled up from all the child records (for the direct reports and manager themselves if the manager is also owning some participating opportunities).
- 
-## See the participating opportunities
+## Tasks you can do on the forecast grid
 
-To view the underlying opportunities that contributed to a forecasted amount, go to the user row, hover the cursor over a column, select the vertical ellipsis, and select **Show opportunities**.
+Using the forecast grid, you can do the following tasks:
 
-> [!div class="mx-imgBorder"]
-> ![Show opportunities button on the Forecast list](media/forecast-view-show-opportunities.png "Show opportunities button on the Forecast list")
- 
-The **Forecast opportunities** dialog box opens. It shows a list of opportunities that were used to calculate the forecast value.
+- [View and manage underlying opportunities](view-and-manage-underlying-opportunities.md)
 
-> [!div class="mx-imgBorder"]
-> ![Forecast opportunities  dialog box shows opportunities included in the forecast](media/forecast-view-opportunities.png "Forecast opportunities dialog box shows opportunities included in the forecast")
+- [Adjust values in a forecast](adjust-values-in-forecast.md)
 
-
-## Adjust forecasted values
-
-Adjustments allow sales managers the ability to use their own assessments when reviewing their team’s forecasts. For example, if the sales manager thinks that one of their direct report's best case opportunities might not result in $60,000, they can change the value in the forecast to a different value. Upon saving the adjustment, the changes are rolled up to the parent record and up the hierarchy. 
-
-To make adjustments, a forecast column must be marked as editable. To do so, a forecast maker must specifically identify the editable columns during forecast configuration and enable the option **Allow adjustments**. Once completed, the selected columns will be available for adjustments.
-
-Select the field and the field becomes editable. Enter the value to adjust. In this example, the **Best case** column is configured as editable and you can see the value $500 is adjusted to $1,000.
-
-> [!div class="mx-imgBorder"]
-> ![Adjusted amount in the forecast](media/forecast-view-adjust-opportunity.png "Adjusted amount in the forecast")
+- [Maintain up-to-date forecast data](keep-forecast-data-up-to-date.md)
 
  
-## Refresh forecast data
+### See also
 
-If you suspect that the underlying data (participating opportunities) has changed, you can manually recalculate and refresh the forecast data to show the most up-to-date values. By default, the application automatically recalculates data in the forecast every 10 minutes. The **Last recalculated** label on the command bar shows the time when the forecast was last recalculated successfully. When you recalculate: 
-
--	The aggregation and rollups for the underlying data are recalculated.
-
--	Any forecast metric or rollup query changes are considered.
-
--	Any target/quota changes or goal references are checked and updated.
-
--	Any other changes impacting the forecast values (excluding hierarchy changes) are refreshed.
-
-> [!NOTE]
-> The Recalculate option doesn’t change any value that was manually adjusted.
-
-To recalculate and refresh the data in the forecast manually, follow these steps:
-
-1. Select **Recalculate** on the command bar.
-
-    > [!div class="mx-imgBorder"]
-    > ![Select Recalculate](media/forecast-select-recalculate.png "Select Recalculate")
-
-2. On the confirmation message, select **Ok**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Confirmation message to recalculate](media/forecast-recalculate-data-confirmation-message.png "Confirmation message to recalculate")
-
-    A notification appears at the bottom of the screen confirming the recalculation. Recalculation happens in the background and you can continue to work while recalculation is happening.
-
-    > [!div class="mx-imgBorder"]
-    > ![Notification to confirm recalculation](media/forecast-recalculate-data-toast-notification.png "Notification to confirm recalculation")
-
-3. After the application recalculates the forecast data, a notification appears to refresh the data. On the notification, select **Refresh page**.
-
-
-    > [!div class="mx-imgBorder"]
-    > ![Notification to refresh page](media/forecast-refresh-data-toast-notification.png "Notification to refresh page")
-
-    > [!NOTE]
-    > You can cancel the notification and refresh the data later. Select **Refresh** on the command bar.
-
-    The data in the forecast reflects the latest opportunity and hierarchical changes.
-
-## See also
-
-[Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)
-
-[Configure a forecast](configure-forecast.md)
-
+[Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)<br>
+[Configure a forecast](configure-forecast.md)<br>
+[Analyze revenue outcome by using predictive forecasting](https://docs.microsoft.com/dynamics365/ai/sales/analyze-revenue-outcome-using-predictive-forecasting)<br>
 [Entity reference for manual forecasting](developer/reference/manual-forecasting-entity-reference.md)

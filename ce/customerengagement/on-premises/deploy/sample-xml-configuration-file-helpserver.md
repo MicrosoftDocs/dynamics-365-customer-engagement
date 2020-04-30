@@ -29,7 +29,7 @@ The following example installs only the [!INCLUDE[pn_Help_Server](../includes/pn
  <SqlServer>SQLServerName</SqlServer>   
 <Database create="false"/>   
 <WebsiteUrl create="true" port="5555">LM/W3SVC/1</WebsiteUrl>   
-<Help anonymous="true">http://LocalHost/Help</Help>   
+<Help anonymous="true">https://LocalHost/Help</Help>   
 <InstallDir>c:\Program Files\Microsoft Dynamics CRM</InstallDir>   
 <Roles>    
  <Role name="HelpServer"/>  

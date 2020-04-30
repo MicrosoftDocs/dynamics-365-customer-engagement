@@ -3,17 +3,17 @@ title: "Schedule a work order (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
-ms.reviewer: 
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.technology: 
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: 2d02cea2-8cd3-4324-9c38-a6c1ec45aed1
 caps.latest.revision: 26
-ms.author: krbjoran
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin

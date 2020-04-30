@@ -1,11 +1,12 @@
 ---
 title: "Search Path Node Tag in Unified Service Desk | MicrosoftDocs"
 description: "Learn about Search Path node that describes the search path to identify the control in the Java accessibility tree."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 31b95b66-c66b-4b84-b74c-941d18dac910
 author: kabala123
 ms.author: kabala
 manager: shujoshi

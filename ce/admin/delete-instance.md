@@ -21,6 +21,8 @@ search.app:
 ---
 # Delete an instance
 
+[!INCLUDE[applies-to](../includes/cc_applies_to_ce.md)]
+
 You can delete Sandbox instances to recover the licenses and storage space or to prevent them from being used by mistake. In order to delete a Production instance, you must first switch to a Sandbox instance and then delete the Sandbox instance. You can delete a Support instance directly.
   
 <a name="BKMK_Delete"></a>   

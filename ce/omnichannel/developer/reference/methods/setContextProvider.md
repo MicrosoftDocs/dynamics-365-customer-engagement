@@ -1,15 +1,11 @@
 ---
 title: "setContextProvider (Omnichannel for Customer Service JavaScript API reference) | MicrosoftDocs"
 description: 
-keywords: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
 ms.date: 08/29/2019
-ms.service: 
 ms.topic: article
-ms.assetid: 1C92A31B-70DF-4CE7-9C7A-BE398F34C6F6
-ms.custom: 
 ---
 # setContextProvider
 
@@ -66,9 +62,9 @@ The `isDisplayable` attribute, if set to `true`, will display the passed items w
 
 <a name="bkmk_navigationhistory"></a>
 
-### Pass customer's portal navigation as context
+### Pass customer's self service as context
 
-You can pass a customer's portal navigation as context at the start of a conversation with that customer.
+You can pass a customer's self service as context at the start of a conversation with that customer. The `setContextProvider` method passes the recent customer actions as part of context with self service type, for a new conversation between the customer and agent. A visitor journey record is created for each self service action.
 
 Given below is the sample code that shows how to use the `setContextProvider` method for this.
 
@@ -77,9 +73,11 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 
 Microsoft.Omnichannel.LiveChatWidget.SDK.setContextProvider(function contextProvider(){
     return {
-            'Navigation': { 'value' : 
-                '[ {"msdyn_displaytitle":"PageTitle1", "msdyn_starttime":"yyyy-mm-ddThh:mm:ssZ","msdyn_endtime":"yyyy-mm-ddThh:mm:ssZ","msdyn_type":192350000}, \
-                   {"msdyn_displaytitle":"PageTitle2", "msdyn_starttime":"yyyy-mm-ddThh:mm:ssZ","msdyn_endtime":"yyyy-mm-ddThh:mm:ssZ","msdyn_type":192350001} \
+            'SelfService': { 'value' : 
+                '[ {"msdyn_displaytitle":"Page visited", "msdyn_starttime":"yyyy-mm-ddThh:mm:ssZ","msdyn_type":192350000}, \
+                   {"msdyn_displaytitle":"Phrase searched", "msdyn_starttime":"yyyy-mm-ddThh:mm:ssZ","msdyn_type":192350001}, \
+                   {"msdyn_displaytitle":"Knowledge article viewed", "msdyn_starttime":"yyyy-mm-ddThh:mm:ssZ","msdyn_type":192350002}, \
+                   {"msdyn_displaytitle":"Custom action performed", "msdyn_starttime":"yyyy-mm-ddThh:mm:ssZ","msdyn_type":192350003} \
                  ]'
              }, // Additional context can be added as shown below
                 //Here it is assumed that the corresponding work stream would have context variables with logical name of 'contextKey1', 'contextKey2', 'contextKey3'. If no context variable exists with a matching logical name, items are created assuming Type:string
@@ -90,6 +88,8 @@ Microsoft.Omnichannel.LiveChatWidget.SDK.setContextProvider(function contextProv
     });
 });
 ```
+
+For the sample script to track self service actions that can be included in the Self Service Portal, see [Self Service sample code](https://github.com/susikka/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/self-service).
 
 ## Error codes
 

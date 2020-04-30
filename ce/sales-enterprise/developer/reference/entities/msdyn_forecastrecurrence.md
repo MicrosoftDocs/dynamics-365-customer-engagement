@@ -2,13 +2,12 @@
 title: "msdyn_forecastrecurrence EntityType | MicrosoftDocs"
 description: "Entity reference for msdyn_forecastrecurrence EntityType"
 ms.date: 04/08/2019
-ms.service: crm-online
+ms.service: 
+  - crm-online
 ms.topic: article
-ms.assetid: CACB6A49-432D-4022-9392-F2939530B665
 author: susikka
 ms.author: susikka
 manager: shujoshi
-caps.latest.revision: 22
 ---
 # msdyn_forecastrecurrence EntityType
 

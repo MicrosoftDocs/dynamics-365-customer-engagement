@@ -7,8 +7,8 @@
      // These are sample values. Replace them with
      // appropriate values as per your integrated 
      // Parature  instance.
-     PrivateUrl = "http://www.demo.parature.com/internal",
-     PublicUrl = "http://www.demo.parature.com",
+     PrivateUrl = "https://www.demo.parature.com/internal",
+     PublicUrl = "https://www.demo.parature.com",
      Title = "How to track shipping?",
      UniqueId = "8000/8467/Article/23782"
  };

@@ -1,14 +1,15 @@
 ---
 title: Set up rules to automatically create or update records (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to set up rules to automatically create or update records in Dynamics 365 Customer Service
-author: anjgupta
-ms.author: anjgup
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 06/01/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: dyn365-customerservice
-ms.assetid: 1cbbf33b-e194-4ff3-b840-64e60b094dc9
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -19,7 +20,6 @@ search.app:
 ---
 
 # Set up rules to automatically create or update records
-
 
 Every organization has multiple applications to capture customer interactions. The ability to channel external data into the Common Data Service platform records can significantly improve the efficiency of your sales, marketing, and service teams, and increase the quality of your data. You can now direct this data from various applications and external sources into the Common Data Service platform with the help of *record creation and update rules*.  
 
@@ -33,7 +33,8 @@ By using record creation and update rules in Dynamics 365 Customer Service, you 
 > With the latest release of Dynamics 365 Customer Service app, you can access and manage all service management tasks from the Customer Service Hub sitemap except **Routing Rule Sets**, **Automatic Record Creation**, and **Service Level Agreements**. To access and manage these three admin settings, use **Service Management** under **Settings** in the web application. </br>
 
 
-## Activities and entities supported by record creation and update rules  
+## Activities and entities supported by record creation and update rules
+
  By default, Dynamics 365 Customer Service supports creating records from the following activities, also called source types in the context of record creation and update rules:  
 
 -   Email  
@@ -46,7 +47,8 @@ By using record creation and update rules in Dynamics 365 Customer Service, you 
 
 These activities can be converted to any default (system) entity records or custom entity records. For example, you could create a lead, opportunity (system record), or incident (custom record) from an incoming email.  
 
-## Capture data from external sources  
+## Capture data from external sources
+
  You can also capture additional valuable customer information provided by an external application in the form of JSON (a collection of name-value pairs), and use it to enhance the quality of the target records and set various conditions in the record creation and update rules.  
 
  Every default (out-of-the-box) activity or custom activity has an Additional Parameters attribute. This attribute stores the JSON payload received from an external application.  
@@ -60,17 +62,19 @@ These activities can be converted to any default (system) entity records or cust
 > [!NOTE]
 >  Any configuration done in the channel properties is only valid if those name-value pairs exist in the JSON payload. Also, you must only use parameters received from the external application in the rule item conditions and as record properties.
 
-## Activate or deactivate a rule  
- For any record creation and update rule to apply to a matching incoming activity, after you add the rule items, you must activate the rule.  
+## Activate or deactivate a rule
+
+ For any record creation and update rule to apply to a matching incoming activity, after you add the rule items, you must activate the rule.
 
  When a record creation and update rule is activated, a corresponding workflow is created automatically. You can use channel properties to define a workflow’s conditions and operators in mapping the target entity attribute values. For complex scenarios, you may configure child workflows.  
 
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure workflow steps](../customerengagement/on-premises/customize/configure-workflow-steps.md)  
 
-## How do record creation and update rules work with queues?  
+## How do record creation and update rules work with queues?
+
  In a record creation and update rule, when you specify a queue for a source type, any incoming activity from that source is added as a queue item for that specified queue. That is, if a rule for a particular source activity and queue combination is active, the rule processes the incoming activity on that queue to create or update records.  
 
- For an email source type, specifying a queue is mandatory. For all other source types including custom activities, it is optional.  
+ For an email source type, specifying a queue is mandatory. For all other source types including custom activities, it is optional. 
 
 > [!NOTE]
 > When an automatic record creation (ARC) rule is applied to an Email queue item, it gets deactivated.
@@ -280,7 +284,7 @@ Turn on the rule so that the Common Data Service platform can start creating or 
 
    > [!IMPORTANT]
    > - Create a channel property for each name from the name-value pair that you want to use in your record creation and update rule. For example, you could use `influenceScore` as a property name.  
-   > - The information in the JSON payload isn’t very easy to read. To make it more readable, you can use [online JSON parser](http://json.parser.online.fr/) that will provide a better output.  
+   > - The information in the JSON payload isn’t very easy to read. To make it more readable, you can use [online JSON parser](https://json.parser.online.fr/) that will provide a better output.  
    > - The property group doesn’t support adding nested values in a JSON payload as channel properties. The following sample shows the "FollowersCount" under the user node as a nested JSON key-value pair.  
    > 
    > ![Nested value in JSON payload](../customer-service/media/crm-ua-json-payload-nested-values.png "Nested value in JSON payload")  
@@ -293,7 +297,7 @@ Turn on the rule so that the Common Data Service platform can start creating or 
    > - Option Set and Two option data types are supported in conditions of type string. You’ll have to type out the option set value in the conditions.  
    > - The Common Data Service platform sets a default value for property items for each of the supported data types. This is for scenarios when a channel property is used in a workflow but the incoming payload has no value provided from the external channel; the workflow conditions in which the property is referred use a least the following default value: String: “”, Whole Number: -2,147,483,648, Float: -1e+011.  
 
-   c. **Application Source**. Type the name of the application that this property is related to, for example, [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)].  
+   c. **Application Source**. Type the name of the application that this property is related to.  
 
    d. **Description**. Type details to further explain what the property is for.  
 

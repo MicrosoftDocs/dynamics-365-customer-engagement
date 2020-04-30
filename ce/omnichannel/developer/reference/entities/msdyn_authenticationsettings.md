@@ -1,13 +1,13 @@
 ---
 title: "msdyn_authenticationsettings Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_authenticationsettings entity."
-ms.date: 08/29/2019
-ms.service: "crm-online"
-ms.topic: "reference"
-ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
+ms.date: 08/29/2019
+ms.service: 
+  - crm-online
+ms.topic: "reference"
 ---
 # msdyn_authenticationsettings Entity Reference
 
@@ -668,7 +668,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_msdyn_msdyn_authsettings_msdyn_livechatconfig"></a> msdyn_msdyn_authsettings_msdyn_livechatconfig
 
-Same as msdyn_livechatconfig entity [msdyn_msdyn_authsettings_msdyn_livechatconfig](msdyn_livechatconfig.md#BKMK_msdyn_msdyn_authsettings_msdyn_livechatconfig) Many-To-One relationship.
+Same as msdyn_livechatconfig entity [msdyn_msdyn_authsettings_msdyn_livechatconfig](msdyn_livechatconfig.md) Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|

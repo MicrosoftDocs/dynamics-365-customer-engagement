@@ -1,16 +1,17 @@
 ---
-title: "msdyn_ApplyRoutingRuleEntityRecord Action Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_ApplyRoutingRuleEntityRecord Action Reference (Developer Guide for Omnichannel for Customer Service)| MicrosoftDocs"
 description: "Reference information about the msdyn_ApplyRoutingRuleEntityRecord Action."
-ms.date: 10/03/2019
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: 
-  - "Dynamics 365 (online)"
-ms.assetid: feb34471-f808-4d82-84a4-1f7f820acacf
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
+applies_to: 
+  - "Dynamics 365 (online)"
+ms.date: 10/03/2019
+ms.service: 
+  - crm-online
+ms.topic: "reference"
 ---
+
 # msdyn_ApplyRoutingRuleEntityRecord Action Reference
 
 Applies the active routing rule to an entity.

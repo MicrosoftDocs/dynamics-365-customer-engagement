@@ -5,13 +5,14 @@ ms.custom:
   - dyn365-USD
   - dyn365-admin
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: get-started-article
-ms.assetid: e0fd70b6-73a4-4426-92d7-bb300457597e
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-search.audienceType: admin
+search.audienceType: 
+  - admin
 search.app: 
   - D365CE
   - D365USD
@@ -44,7 +45,7 @@ Before you can install and deploy [!INCLUDE[pn_unified_service_desk_for_crm](../
  Use your development environment to configure your agent application by building on one of the available sample applications you deployed, and then test it by connecting to the customized package using the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Use Unified Service Desk to configure your agent application](../../unified-service-desk/configure-agent-application-unified-service-desk.md)  
   
 ## Step 3: Deploy the customized agent application  
- After you have customized your agent application through configuration or custom code, you must install the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application along with any files required for the custom functionality on your agent’s computers. Consider creating a [!INCLUDE[pn_clickonce](../../includes/pn-clickonce.md)] application or an MSI package installer to bundle all the files together and deploy on the agent computers in your organization. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] see [MSDN: ClickOnce Security and Deployment](http://msdn.microsoft.com/library/t71a733d.aspx) or [MSDN: Windows Installer](http://msdn.microsoft.com/library/cc185688\(v=vs.85\).aspx)  
+ After you have customized your agent application through configuration or custom code, you must install the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application along with any files required for the custom functionality on your agent’s computers. Consider creating a [!INCLUDE[pn_clickonce](../../includes/pn-clickonce.md)] application or an MSI package installer to bundle all the files together and deploy on the agent computers in your organization. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] see [MSDN: ClickOnce Security and Deployment](https://msdn.microsoft.com/library/t71a733d.aspx) or [MSDN: Windows Installer](https://msdn.microsoft.com/library/cc185688\(v=vs.85\).aspx)  
   
  You might also want to migrate your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration from a development/test to a production environment. You can use the new [!INCLUDE[pn_configuration_migration_tool](../../includes/pn-configuration-migration-tool.md)] to migrate your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data across the Common Data Service platform instance. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Migrate your Unified Service Desk configuration to another server](../../unified-service-desk/admin/migrate-unified-service-desk-configuration-dynamics-365-server.md)  
     

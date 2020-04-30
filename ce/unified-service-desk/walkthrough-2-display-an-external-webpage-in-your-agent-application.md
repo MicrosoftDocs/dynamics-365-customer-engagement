@@ -1,11 +1,12 @@
 ---
 title: "Walkthrough 2  Display an external webpage in your agent application | MicrosoftDocs"
 description: "Demonstrates how to display an external web page in Unified Service Desk."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 516ceb5c-755a-49ab-89f5-fea3559b48cd
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -17,7 +18,7 @@ search.app:
   - D365USD
 ---
 # Walkthrough 2: Display an external webpage in your agent application
-This walkthrough demonstrates how to display a webpage or external URL in your agent application. In this walkthrough, you’ll learn how to display the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] Guide, which is available online at http://go.microsoft.com/fwlink/?LinkID=856273, in the client application.  
+This walkthrough demonstrates how to display a webpage or external URL in your agent application. In this walkthrough, you’ll learn how to display the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] Guide, which is available online at https://go.microsoft.com/fwlink/?LinkID=856273, in the client application.  
 
 ## Prerequisites  
 
@@ -159,7 +160,7 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
    |     Order      |                          1                          |
    | Hosted Control |                    Contoso Help                     |
    |     Action     |                      Navigate                       |
-   |      Data      | url=<http://go.microsoft.com/fwlink/?LinkID=856273> |
+   |      Data      | url=<https://go.microsoft.com/fwlink/?LinkID=856273> |
 
    ![Create an action call in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-wt02-05.png "Create an action call in Unified Service Desk")  
 

@@ -22,7 +22,7 @@ search.app:
 ---
 # Sample code for Dynamics 365 Customer Engagement and Azure integration
 
-This section contains sample code for integrating [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] and [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] through the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)]. To build the listener samples, you need to install the v1.7 or 1.8 [Microsoft Azure SDK](http://azure.microsoft.com/downloads/archive-net-downloads/) that includes the Microsoft.ServiceBus.dll assembly referenced by the samples.  
+This section contains sample code for integrating [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] and [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] through the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)]. To build the listener samples, you need to install the v1.7 or 1.8 [Microsoft Azure SDK](https://azure.microsoft.com/downloads/archive-net-downloads/) that includes the Microsoft.ServiceBus.dll assembly referenced by the samples.  
   
 ## In This Section  
  [Sample: Azure Aware Custom Plug-in](sample-azure-aware-custom-plugin.md)  
@@ -44,4 +44,4 @@ This section contains sample code for integrating [!INCLUDE[pn_dynamics_crm_onli
   
  [Plug-ins for Extending Dynamics 365 Customer Engagement (on-premises)](write-plugin-extend-business-processes.md)  
   
- [Microsoft Azure Platform](http://go.microsoft.com/fwlink/p/?LinkId=237366)
+ [Microsoft Azure Platform](https://go.microsoft.com/fwlink/p/?LinkId=237366)

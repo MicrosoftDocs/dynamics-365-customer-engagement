@@ -21,6 +21,8 @@ search.app:
 ---
 # Switch an instance
 
+[!INCLUDE[applies-to](../includes/cc_applies_to_ce.md)]
+
 You may decide that your customization work developed and tested on a Sandbox instance is now ready to go live. If you’ve placed your Sandbox instance in administration mode, only users with System Administrator or System Customizer security roles are able to sign in to that instance. Once you switch the instance type to Production, all your users can access your organization. When you configure or edit an instance, you can switch the instance from:  
   
 -   Production to Sandbox  

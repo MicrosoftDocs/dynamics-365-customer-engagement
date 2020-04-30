@@ -152,6 +152,8 @@ To use requirement groups as part of the work order process, associate a require
   
 - If you have enabled quick book, you enable it for your entire organization; it can't be enabled only for specific users or security roles. 
 
+- Quick Scheduling does not support fulfillment preferences with time groups.
+
 ### Consider using fulfillment preferences with quick scheduling
 
 The purpose of quick scheduling is to simplify the scheduling process. Fulfillment preferences further simplify scheduling by organizing quick book (or schedule assistant) results in neat time blocks. By default, quick scheduling uses a fulfillment preference with 30-minute intervals for single requirements, and 30-minute intervals with 10 results per interval for requirement groups. To apply a custom fulfillment preference and override the default:

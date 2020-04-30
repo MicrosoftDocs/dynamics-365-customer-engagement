@@ -99,7 +99,7 @@ This section provides guidelines for preparing for an upgrade to [!INCLUDE [pn-d
  We suggest that, if you have added custom database objects such as triggers, statistics, stored procedures, and certain indexes, you remove those objects from the configuration and organization databases. In many cases, [!INCLUDE[pn_Setup](../includes/pn-setup.md)] displays a warning when these objects are detected.  
   
 ### Remove the ignorechecks registry subkey  
- If you have manually added the ignorechecks registry subkey on the existing [!INCLUDE [pn-dyn-365](../includes/pn-dyn-365.md)] server, remove it before you start the upgrade. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [You cannot deploy Dynamics 365 Customer Engagement (on-premises) by using an account that does not have local administrator permissions on Microsoft SQL Server](http://support.microsoft.com/kb/974584)  
+ If you have manually added the ignorechecks registry subkey on the existing [!INCLUDE [pn-dyn-365](../includes/pn-dyn-365.md)] server, remove it before you start the upgrade. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [You cannot deploy Dynamics 365 Customer Engagement (on-premises) by using an account that does not have local administrator permissions on Microsoft SQL Server](https://support.microsoft.com/kb/974584)  
   
 <!--  
 ## Next steps  

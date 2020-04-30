@@ -82,5 +82,5 @@ Gather your thoughts, ideas, plans and research in one single place with [!INCLU
 3. In the **OneNote Integration Setting** dialog box, clear the check boxes for all entities, and then select **Finish**.  
   
 ### See also    
- [Blog: OneNote in CRM](http://blogs.technet.com/b/lystavlen/archive/2015/03/31/make-a-note-of-this.aspx)
+ [Blog: OneNote in CRM](https://blogs.technet.com/b/lystavlen/archive/2015/03/31/make-a-note-of-this.aspx)
  

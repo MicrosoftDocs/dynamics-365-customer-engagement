@@ -24,7 +24,7 @@ search.app:
 ---
 # Sample: Manage contracts
 
-This sample code is for the Dynamics 365 Customer Engagement (on-premises) platform. Download the complete sample from [Sample: Work with Service entities](https://code.msdn.microsoft.com/Service-Samples-f42adf82).  
+This sample code is for the Dynamics 365 Customer Engagement (on-premises) platform. Download the complete sample from [Sample: Work with Service entities](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/Service).  
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]

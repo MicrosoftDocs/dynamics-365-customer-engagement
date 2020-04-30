@@ -10,9 +10,9 @@ ms.technology:
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: 9bfa089a-57a1-4790-bb13-0239f055803f
-ms.author: krbjoran
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin

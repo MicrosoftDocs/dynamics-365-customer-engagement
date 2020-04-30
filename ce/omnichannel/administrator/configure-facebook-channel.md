@@ -1,27 +1,18 @@
 ---
 title: "Configure a Facebook channel | MicrosoftDocs"
-description: "Instructions to configure a a Facebook channel in Omnichannel for Customer Service."
-keywords: ""
-author: sbmjais
-ms.author: shjais
+description: "Instructions to configure a Facebook channel in Omnichannel for Customer Service."
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
-ms.date: 10/25/2019
-ms.service: dynamics-365-customerservice
+ms.date: 12/13/2019
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 74638652-820F-4235-8B5E-18810D7ED2E6
-ms.custom: 
 ---
 
-# Preview: Configure a Facebook channel
+# Configure a Facebook channel
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
-> - This feature is a preview, which means that it is made available to you before general availability so you can test and evaluate the preview and provide feedback to Microsoft.​
-> - This preview may employ reduced or different privacy, security, or compliance commitments than a commercial version. As such, this preview is not meant to be used with any "live" or production Customer Data, Personal Data, or other data that is subject to heightened compliance requirements. Any use of "live" data is at your sole risk and it is your sole responsibility to notify your end users that they should not include sensitive information with their use of the Preview.​
-> - This preview, and any support Microsoft may elect to provide, is provided "as-is," "with all faults," "as available," and without warranty. This preview is subject to the  [Preview Terms](https://go.microsoft.com/fwlink/?linkid=2087260).
 
 Many customers use social messaging channels like Facebook Messenger for their personal communication needs. Many also prefer using these messaging channels to engage with businesses. The asynchronous nature of these channels gives customers the convenience of getting their issues resolved as and when they find time, unlike real-time channels like Chat for Dynamics 365 where the session ends when the chat window is closed.
 
@@ -33,7 +24,7 @@ The Facebook channel gives you an incredible opportunity to capitalize on the so
 2.	Create a Facebook application. More information: [App Development](https://developers.facebook.com/docs/apps/)
 3.	Add Messenger and Webhooks to the Facebook application. More information: [Setting Up Your Facebook App](https://developers.facebook.com/docs/messenger-platform/getting-started/app-setup/)
 
-After completing the prerequisites, you can add the Facebook channel for your organization. To do this:
+After completing the prerequisites, you can add the Facebook channel for your organization by following these steps:
 
 1.	[Create a Facebook work stream](#step-1-create-a-facebook-work-stream)
 2.	[Create a Facebook channel](#step-2-create-a-facebook-channel)
@@ -101,6 +92,9 @@ After completing the prerequisites, you can add the Facebook channel for your or
 
 After you add a Facebook page, values for **Callback Uri** and **Verify Token** are generated automatically. These values are used to configure webhooks in the Facebook application.
 
+   > [!Note]
+   > You can add multiple Facebook **Page Id** (pages) to a **Facebook Application** channel. However, a Facebook **Page Id** can be linked to one **Facebook Application** only. If you link the same Facebook **Page Id** to multiple **Facebook Application** channels, then **Callback Uri** and **Verify Token** won't be generated automatically.
+
 > [!div class=mx-imgBorder]
 > ![Facebook application created](../media/fb-app-created.png "Facebook application created")
 
@@ -110,7 +104,7 @@ After you add a Facebook page, values for **Callback Uri** and **Verify Token** 
 
 2.	Open the work stream you created in Step 1.
 
-3.	On the **Routing rules items** tab, create a routing rule to transfer the message to an appropriate agent. You must select the entity as **Facebook Engagement Context**.
+3.	On the **Routing rules items** tab, create a routing rule to transfer the message to an appropriate agent. Select the entity as **Facebook Engagement Context**.
 
     For example, you can create a rule to transfer Facebook chat from a customer named Gilda to the default queue. 
 
@@ -126,7 +120,7 @@ A customer can initiate a conversation in any of the following ways:
 - Messenger app on a mobile device
 - Messenger widget on a custom website
 
-If a customer initiates a conversation from the Facebook page and then later switches to the mobile device, the previous conversation is persisted, and the customer can continue the conversation.
+If a customer initiates a conversation from the Facebook page and then later switches to the mobile device, the previous conversation persists, and the customer can continue the conversation.
 
 The agent receives the notification of the incoming chat request along with the customer details. More information: [View notifications](../agent/agent-oc/oc-notifications.md)
 
@@ -139,12 +133,11 @@ If the customer is not identified based on name, a new contact record can be cre
 
 ## Privacy notice
 
-By enabling this feature, your data will flow outside of your organization’s compliance boundary (even if your organization is in a Government Cloud environment). Please consult the feature technical documentation for more information [here](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-channel-connect-facebook?view=azure-bot-service-4.0).
+By enabling this feature, your data will be shared with Facebook and flow outside of your organization's compliance and geo boundaries (even if your organization is in a Government Cloud environment. Please consult the feature technical documentation for more information [here](https://docs.microsoft.com/azure/bot-service/bot-service-channel-connect-facebook?view=azure-bot-service-4.0).
 
-Customers must ensure they comply with all applicable laws relating to monitoring, recording, and storing communications with their end users. This includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
+Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws relating to monitoring, recording, and storing communications with their end users. This includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
 ### See also
 
 [Understand and create work streams](work-streams-introduction.md)<br>
 [Create and manage routing rules](routing-rules.md)
-

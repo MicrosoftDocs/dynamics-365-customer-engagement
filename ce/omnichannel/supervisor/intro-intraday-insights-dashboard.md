@@ -1,16 +1,13 @@
 ---
 title: "Introduction to Intraday insights dashboard for supervisor | MicrosoftDocs"
 description: "Introduction to Intraday insights dashboard for supervisor"
-keywords: ""
-author: udaykirang
-ms.author: udag
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-applies_to: 
 ms.date: 06/22/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: b7ddb6d7-fc46-4541-aaa8-2411198ed856
-ms.custom: 
 ---
 
 # Introduction to intraday supervisor experiences
@@ -49,7 +46,12 @@ Verify the following prerequisites before you use the supervisor dashboards:
 
 -  Omnichannel supervisor role is assigned. To learn more, see [Enable users for Omnichannel Customer Service](../administrator/add-users-assign-roles.md).
 
--  **Power BI Pro** or **Power BI Premium** license is assigned to you.  
+-  **Power BI Pro** or **Power BI Premium** license is assigned to you.
+
+## Videos
+[Overview of supervisor experience in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2099487)
+
+To view more videos on Omnichannel for Customer Service, see [Videos](../videos.md).
 
 ### See also
 

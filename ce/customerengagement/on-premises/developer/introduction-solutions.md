@@ -235,7 +235,7 @@ search.app:
   
 ### See also  
  [Package and Distribute Extensions with Dynamics 365 Customer Engagement (on-premises) Solutions](package-distribute-extensions-use-solutions.md)   
- [Microsoft Dynamics 365 Customer Engagement patterns & principles for solution builders](http://go.microsoft.com/fwlink/p/?LinkID=533946)   
+ [Microsoft Dynamics 365 Customer Engagement patterns & principles for solution builders](https://go.microsoft.com/fwlink/p/?LinkID=533946)   
  [Plan For Solution Development](plan-solution-development.md)   
  [Dependency Tracking for Solution Components](dependency-tracking-solution-components.md)   
  [Create, Export, or Import an Unmanaged Solution](create-export-import-unmanaged-solution.md)   

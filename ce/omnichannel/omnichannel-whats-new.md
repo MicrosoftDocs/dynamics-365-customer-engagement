@@ -1,16 +1,13 @@
 ---
 title: "What's new in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about what's new in Omnichannel for Customer Service."
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 10/22/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: B8D892A6-C186-406F-AA68-A10903943EF1
-ms.custom: 
 ---
 
 # What's new in Omnichannel for Customer Service
@@ -69,7 +66,7 @@ This section contains information about new features and enhancements in Omnicha
     > [!div class=mx-imgBorder]
     > ![Create account, contact, and case](media/oceh/customer-summary-create-record.PNG "Create account, contact, and case")
 
-    More information: [](agent/agent-oc/oc-create-record.md#create-a-new-record-from-the-customer-summary-page)
+    More information: [Create a new record from the Customer Summary page](agent/agent-oc/oc-create-record.md#create-a-new-record-from-the-customer-summary-page)
 
 - **View timeline based on the Case, Contact, or Account record:** The Timeline section on the Customer Summary page displays case- and customer-related activities in the form of a timeline. The **Linked records** field is used to switch the timeline based on the Case, Contact, or Account record linked to the conversation.
 
@@ -99,7 +96,7 @@ This section contains information about new features and enhancements in Omnicha
 
 - **Omnichannel for Customer Service packages**
 
-    - **Unified Service Desk - Omnichannel for Customer Service - Add-on**: Use this sample package if you have an existing deployment of Unified Service Desk and want to start using Omnichannel for Customer Service with it. This package installs Unified Service Desk solutions with minimal configuration data for Omnichannel for Customer Service to work with an existing Unified Service Desk in the specified Customer Engagement organization.
+    - **Unified Service Desk - Omnichannel for Customer Service - Add-on**: Use this sample package if you have an existing deployment of Unified Service Desk and want to start using Omnichannel for Customer Service with it. This package installs Unified Service Desk solutions with minimal configuration data for Omnichannel for Customer Service to work with an existing Unified Service Desk in the specified organization.
 
     - **Unified Service Desk - Omnichannel for Customer Service**: Use this sample package if you want to start using a new Unified Service Desk environment with Omnichannel. This package installs Unified service desk solutions and Omnichannel supported solutions (Web resources) that are required to work with Unified Service Desk in the specified Customer Service organization. This package provides basic configuration data.
 

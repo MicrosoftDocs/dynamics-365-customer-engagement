@@ -9,8 +9,8 @@ applies_to:
   - "Dynamics 365 Version 9.x"
   - "Dynamics 365 (online)"
 ms.assetid: 4b15aff2-3a7b-3488-260c-21611dee658a
-author: m-hartmann
-ms.author: mhart
+author: shubhadaj
+ms.author: shujoshi
 search.audienceType: 
   - admin
   - customizer

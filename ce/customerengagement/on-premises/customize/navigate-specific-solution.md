@@ -1,5 +1,5 @@
 ---
-title: "Navigate to a specific solution | MicrosoftDocs"
+title: "Navigate to a solution (Dynamics 365 Customer Engagement on-premises) | MicrosoftDocs"
 description: "Learn how to locate and open a specific solution in your environment"
 ms.custom: 
 ms.date: 12/04/2018
@@ -23,8 +23,7 @@ search.app:
 ---
 
 # Navigate to a specific solution
-
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Navigate to a specific solution](/powerapps/maker/common-data-service/navigate-specific-solution)
 
 If your organization already has a specific solution you should work in, this is how you can find it. To create a new solution, see [Create your own solution](../customize/create-solution.md).  
   

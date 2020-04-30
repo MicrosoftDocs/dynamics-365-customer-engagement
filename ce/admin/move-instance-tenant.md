@@ -21,6 +21,8 @@ search.app:
 ---
 # Tenant to tenant migration
 
+[!INCLUDE[applies-to](../includes/cc_applies_to_ce.md)]
+
 ## Move an instance to a different tenant
 
 You can use the Tenant to Tenant Migration feature to request to have an instance in one tenant moved to another tenant. To do so, [contact technical support](contact-technical-support.md) and submit a support request.

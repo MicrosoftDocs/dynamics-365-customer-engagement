@@ -53,5 +53,5 @@ The configuration information that is required for importing data is contained i
   
 ### See also  
  [Import Data in Dynamics 365 Customer Engagement (on-premises)](import-data.md)   
- [Blog Post: How to Import attachments programmatically](http://blogs.msdn.com/b/crm/archive/2012/08/06/how-to-import-attachments-programmatically.aspx)   
+ [Blog Post: How to Import attachments programmatically](https://blogs.msdn.com/b/crm/archive/2012/08/06/how-to-import-attachments-programmatically.aspx)   
  [Run Data Import](run-data-import.md)

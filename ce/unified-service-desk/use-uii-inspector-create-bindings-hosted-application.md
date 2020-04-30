@@ -1,11 +1,12 @@
 ---
 title: "Use UII inspector to create bindings for the hosted application in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to use UII inspector to create bindings for the hosted application in Unified Service Desk."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: bd17bf36-73d1-4f0e-9d8a-df832ae66bfa
 author: kabala123
 ms.author: kabala
 manager: shujoshi

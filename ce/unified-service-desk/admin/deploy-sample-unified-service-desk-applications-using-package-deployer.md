@@ -5,13 +5,14 @@ ms.custom:
   - dyn365-USD
   - dyn365-admin
 ms.date: 08/17/2018
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: fe906d8e-a06b-46e6-84c9-0c0710157b33
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-search.audienceType: admin
+search.audienceType: 
+  - admin
 search.app: 
   - D365CE
   - D365USD
@@ -84,7 +85,7 @@ search.app:
 
 - DynamicsUnifiedServiceDesk
 
-- USD<em>\<PackageName></em>Customization, where *\<PackageName>* is the name of the package that you deployed.
+- "dynamics-365-customerservice"<em>\<PackageName></em>Customization, where *\<PackageName>* is the name of the package that you deployed.
 
   If you want to deploy another sample [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package, you must first remove these three solutions. To do this:
 

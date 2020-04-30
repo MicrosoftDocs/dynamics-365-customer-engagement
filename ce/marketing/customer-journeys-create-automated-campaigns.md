@@ -2,14 +2,14 @@
 title: "Guide your prospects through an interactive customer journey (Dynamics 365 Marketing) | Microsoft Docs "
 description: "How to create a customer journey by assembling a pipeline of automated communications, activities, and conditional pathways in Dynamics 365 Marketing"
 keywords: customer journey; campaign; email; segment; go live; pipeline
-ms.date: 10/04/2019
+ms.date: 01/23/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 ms.assetid: dd5579ea-7fea-41fa-81ab-a83d67943c7e
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -220,9 +220,7 @@ If you have more than one set of content settings, exactly one of them will be t
 
 ### Set up a recurring journey
 
-Usually, a journey takes each contact through its pipeline exactly once. Even if you use several segments, and a given contact appears in more than one of them, each contact is processed at most once. However, you can also set up a recurring journey in which all contacts are reprocessed at regular intervals during the active period. 
-
-All segment membership criteria are re-evaluated at the start of each recurrence, so contacts can be added or removed between cycles.
+Usually, a journey takes each contact through its pipeline exactly once. Even if you use several segments, and a given contact appears in more than one of them, each contact is processed at most once. However, you can also set up a recurring journey in which all contacts are reprocessed at regular intervals during the active period.
 
 To set up a recurring journey:
 

@@ -1,14 +1,15 @@
 ---
 title: Keyboard shortcuts for the Customer Service Hub | Microsoft Docs
 description: Use the keyboard shortcuts to perform common tasks in Customer Service Hub.
-author: anjgupta
-ms.author: anjgup
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 04/01/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: dyn365-customerservice
-ms.assetid: 97ac6ad4-92f0-4785-9186-31d3722e20a1
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer

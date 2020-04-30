@@ -1,11 +1,6 @@
 ---
 title: Supplemental Terms
-description: Supplemental Terms
-ms.date: 11/08/2019
-ms.topic: article
-author: sbmjais
-ms.author: shjais
-manager: shujoshi
+author: ReneeW-CPub
 ---
 
 **PLEASE NOTE:**  Microsoft Corporation (or based on where you live, one of its
@@ -27,11 +22,11 @@ required user consent, and maintain a prominent privacy policy that accurately
 informs users about how you use, collect, and share their data. You can learn
 more about Microsoft’s data collection and use in the product documentation and
 the Microsoft Privacy Statement at
-<http://go.microsoft.com/fwlink/?LinkID=521839>. You agree to comply with all
+<https://go.microsoft.com/fwlink/?LinkID=521839>. You agree to comply with all
 applicable provisions of the Microsoft Privacy Statement.
 
 **PROCESSING OF PERSONAL DATA.** To the extent Microsoft is a processor or
 sub-processor of personal data in connection with the software, Microsoft makes
 the commitments in the European Union General Data Protection Regulation Terms
 of the Online Services Terms to all customers effective May 25, 2018, at
-<http://go.microsoft.com/?linkid=9840733>.  
+<https://go.microsoft.com/?linkid=9840733>.  

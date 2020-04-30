@@ -1,15 +1,13 @@
 ---
 title: "Enable a bot to escalate and end conversation| Microsoft Docs"
 description: "How a bot in Omnichannel for Customer Service can be used to escalate a conversation to a human agent."
-keywords: ""
-ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
-ms.custom:
-ms.topic: reference
-ms.assetid: 1b4a3d99-9d2c-4277-9dc8-1c5f12a77f95
 author: susikka
 ms.author: susikka
 manager: shujoshi
+ms.date: 07/01/2019
+ms.service: 
+  - "dynamics-365-customerservice"
+ms.topic: reference
 ---
 # Enable a bot to escalate and end conversation
 
@@ -124,7 +122,7 @@ namespace EchoBot.OmniChannel
         /// </summary>
         /// <param name="activity">Bot's reply activity</param>
         /// <param name="contextVars">Omnichannel for Customer Service Workstream context variable value pairs</param>
-        public static void AddEscalationContext(IActivity activity, Dictionary<string, object> con-textVars)
+        public static void AddEscalationContext(IActivity activity, Dictionary<string, object> contextVars)
         {
             Command command = new Command
             {
@@ -208,7 +206,7 @@ namespace Microsoft.Bot.Builder.EchoBot
         /// <param name="turnContext">Turn Context object</param>
         /// <param name="cancellationToken">CancellationToken</param>
         /// <returns></returns>
-        protected override async Task OnMessageActivityAsync(ITurnContext<IMessageActivity> turnCon-text, CancellationToken cancellationToken)
+        protected override async Task OnMessageActivityAsync(ITurnContext<IMessageActivity> turnContext, CancellationToken cancellationToken)
         {
             if (turnContext.Activity.Type == ActivityTypes.Message)
             {

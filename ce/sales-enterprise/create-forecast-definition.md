@@ -1,21 +1,19 @@
 ---
 title: "Create a forecast definition (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Define the data and period to use for the purpose of forecasting in Dynamics 365 Sales."
-keywords: ""
 ms.date: 10/01/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: 1517b3d4-639b-4fec-bbbc-8474320d1867
 author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
 
 # Create a forecast definition
-
+<!--note from editor: These tokens need to be deleted, I presume?-->
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 > [!IMPORTANT]
@@ -23,7 +21,7 @@ manager: shujoshi
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
 > - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-Capture information about parameters such as the period for which the forecast should be generated or the data to use for forecasting.
+<!--note from editor: I'm confused by this topic, sorry to say. I think it might have been included in your list of files to edit by mistake? The content seems to be covered by configure-forecast.md and the meta-procedure you include there. I'm going to skip it for now; please let me know if I need to get back to it.-->Capture information about parameters such as the period for which the forecast should be generated or the data to use for forecasting.
 
 Sales forecasting has security roles that are defined specifically to create and publish forecast definitions. The following security roles are defined in Dynamics 365 Sales for forecast: 
 
@@ -45,24 +43,24 @@ Before creating a forecast definition, review the following requisites:
 
 1.	Sign in to Dynamics 365 Sales.
 
-2.  Select the site map icon ![Icon to open site map](media/site-map-new.png "Icon to open site map"), and in the lower left of the site map, select the **Change area** icon ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area"), and then select the **App Settings** area.	
+2.  Select **Site map** ![Icon to open site map](media/site-map-new.png "Site map icon"), and in the lower-left corner of the site map, select **Change area** ![Icon to change the work area](media/change-area-icon.png "Change area icon"), and then select the **App Settings** area.	
 
-3.	In the site map, select **Forecast definitions**.
+3.	Select **Forecast definitions**.
  
 4.	On the command bar, select **New**.
 
-5.	In the **General** section of the Forecast definition record, enter the following information:
+5.	In the **General** section of the forecast definition record, enter the following information:
 
-    -  **Forecast name**. Enter a descriptive name that explains what the forecast is about. For example, Jane’s team’s 2019 Quarterly Forecast.
+    -  **Forecast name**. Enter a descriptive name that explains what the forecast is about. For example, **Jane’s team’s 2019 Quarterly Forecast**.
 
-    -  **Forecast metric**. Select a metric for forecasting. It is a lookup to the **Goal metric** entity. The field that you select here is used in aggregating data for the forecast. Only the opportunity fields of type amount (revenue) are available for selection. 
+    -  **Forecast metric**. Select a metric for forecasting. This field is a lookup to the **Goal metric** entity. The field that you select here is used in aggregating data for the forecast. Only the opportunity fields of type amount (revenue) are available for selection. 
         
         > [!NOTE]
         > By default, the out-of-the-box **Revenue Metric** is selected.
     
-    -  **Quota source**. Select whether the targets used for the purpose of forecasting will be based on existing goals or manual targets. If this is set to Goal based, then when the forecast is being generated, the system looks for the matching goal based on the forecast metric and rollup query In-progress (Money) you’ve selected and the Goal owner, and uses the quota/target defined in the goal.
+    -  **Quota source**. Select whether the targets used for the purpose of forecasting will be based on existing goals or manual targets. If this is set to **Goal based**, when the forecast is being generated, the system looks for the matching goal based on the forecast metric and roll-up query <!--note from editor: What does "In-progress (Money)** refer to? Should it be formatted as a UI element?-->In-progress (Money) you've selected and the Goal owner, and uses the quota or target defined in the goal.
 
-    - **Rollup query**. This is a lookup to the **Rollup query** entity. Select a rollup query to define which records to consider for forecasting. For example, to include only the opportunities coming from the East region in the forecast, you can create a rollup query to filter only the opportunities with accounts in the East region and use it in the forecast definition.
+    - **Rollup query**. This is a lookup to the **Rollup query** entity. Select a rollup query to define which records to consider for forecasting. For example, to include only the opportunities coming from the East region in the forecast, you can create a rollup query to filter only the opportunities that have accounts in the East region and use it in the forecast definition.
 
         > [!NOTE]
         > Only the rollup queries with opportunity as the parent entity are available and valid for selection.

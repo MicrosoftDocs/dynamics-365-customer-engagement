@@ -1,16 +1,13 @@
 ---
 title: "Download and email chat transcripts | MicrosoftDocs"
 description: "Learn how to download or email chat transcripts"
-keywords: ""
 author: lerobbin
 ms.author: lerobbin
 manager: autumna
-applies_to: 
-ms.date: 10/25/2019
-ms.service: dynamics-365-customerservice
+ms.date: 12/13/2019
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: f19a0d99-8d53-492d-9157-9c2e7aa2d638
-ms.custom: 
 ---
 
 # Configure download and email of chat transcripts
@@ -19,7 +16,7 @@ ms.custom:
 
 Chat for Dynamics 365 Customer Service allows customers to download and email a copy of their chat transcripts. When download and email options are enabled by an administrator, customers can request a copy of their chat transcript at any time during a chat session and are reminded at the end of the conversation to request a transcript. Icons at the bottom of the chat widget allow the customer to initiate an email or download a copy of their chat transcript, which is sent once the chat ends.
 
-**Prerequisite**: Administrators should set up mailboxes before enabling. For more information, see [Dynamics 365 email setup](https://support.microsoft.com/en-us/help/4020807/dynamics-365-e-mail-setup-configuration-and-dynamics-365-for-mobile-ho).
+**Prerequisite**: Administrators should set up mailboxes before enabling, and must select the **Allow other Dynamics 365 users to send email on your behalf** checkbox for this feature to work. For more information, see [Dynamics 365 Email Setup](https://support.microsoft.com/help/4020807/dynamics-365-e-mail-setup-configuration-and-dynamics-365-for-mobile-ho) and [Dynamics 365 Email tab options](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/set-personal-options#email-tab-options).
 
 1. Sign in to Omnichannel Administration.
 
@@ -77,8 +74,8 @@ Customers can choose to download and email a copy of their chat transcript conve
     <!--from editor: Please ensure that the email address in the following image is approved for public use. -->
     
 
-        > [!div class=mx-imgBorder]
-        > ![Email chat transcript](../media/oc-chat-transcript-email.png "Email chat transcript")
+     > [!div class=mx-imgBorder]
+     > ![Email chat transcript](../media/oc-chat-transcript-email.png "Email chat transcript")
 
     At the end of the chat conversation, the following window appears reminding the customer they can either download or email a copy of their chat transcript to themselves.
 
@@ -95,4 +92,4 @@ Customers can choose to download and email a copy of their chat transcript conve
 [Create quick replies](create-quick-replies.md) <br>
 [Create and manage operating hours](create-operating-hours.md) <br>
 [Create chat authentication settings](create-chat-auth-settings.md) <br> 
-[Embed chat widget in Dynamics 365 Portals](embed-chat-widget-portal.md)
+[Embed chat widget in Power Apps portals](embed-chat-widget-portal.md)

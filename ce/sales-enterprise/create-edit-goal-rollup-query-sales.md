@@ -1,14 +1,12 @@
 ---
 title: "Define goal rollup queries (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Collect data about a given goal, including all its related goals, in one view by using rollup query in Dynamics 365 Sales."
-keywords: "goal, rollup query"
-ms.date: 10/01/2019
-ms.service:
+ms.date: 12/22/2019
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: 2c15d62a-5cfa-4229-afe2-8927d45edadc
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
@@ -21,9 +19,52 @@ Use the rollup query to gather data about a given goal, including all its relate
 
 ## Create a rollup query (Sales Hub)
 
-> [!IMPORTANT]
-> 
-> Currently, you can't create a goal rollup query in the Sales Hub app. To create a goal rollup query, use the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] - custom app.
+1.	Make sure that you have the Manager, Vice President, CEO-Business Manager, System Administrator, or System Customizer security role or equivalent permissions.
+
+2.	In the site map, at the bottom, select the Change area icon ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area"), and then select **App Settings**.  
+
+    > [!div class="mx-imgBorder"]
+    > ![Select the Change area icon and then select App Settings](media/change-area-app-settings.png "Select the Change area icon and then select App Settings")
+
+3. Select **Rollup Queries**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Goal Metrics in the site map](media/site-map-goal-management.png "Goal Metrics in the site map")
+ 
+4.	To create a new rollup query, on the command bar, select **New**.
+
+5. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
+  
+    - **Name**.  Enter a name between 1 and 50 characters.  
+  
+    - **Entity Type**. Select the record type.  
+  
+    - **Owner**. Select the **Lookup** icon, and select the user or team who will own this query.  
+
+    > [!div class="mx-imgBorder"]
+    > ![Rollup query form](media/rollup-query-form.png "Rollup query form")
+    
+        > [!NOTE]
+        >  If you change this selection after you add your query criteria in the **Query** section, your query criteria will be deleted.  
+  
+6. In the **Query** section, add the criteria for your query. The criteria you can add depends on the record type. 
+
+    > [!div class="mx-imgBorder"]  
+    > ![Build a query for rollup](media/rollup-query-builder.png "Build a query for rollup")
+  
+7. To see the results for the query, select **View Records**.  
+  
+8. Select **Save**, **Save and Close**, or, to create a new rollup query, **Save and New**.  
+  
+9. To view the data for a goal, in the site map, select **Goals**.  
+  
+10. Open the goal you want, and then on the command bar, select **Recalculate**.  
+  
+     The values of the actuals are recalculated. You can see the recalculated values in the **Percentage Achieved**, **Actual**, and **In-Progress** columns. If you open the goal, under **Actuals**, you can see the **Last Rolled Up Date**.  
+  
+> [!NOTE]
+>  The maximum number of records that can be counted  in a goal rollup query is 5000.  
+  
 
 ## Create a rollup query (Sales)
   
@@ -50,12 +91,12 @@ Use the rollup query to gather data about a given goal, including all its relate
     - **Entity Type**. Select the record type.  
   
     - **Owner**. Select the **Lookup** icon, and select the user or team who will own this query.  
-  
+
         > [!NOTE]
         >  If you change this selection after you add your query criteria in the **Query** section, your query criteria will be deleted.  
   
-5. In the **Query** section, add the criteria for your query. The criteria you can add depends on the record type.  
-  
+5. In the **Query** section, add the criteria for your query. The criteria you can add depends on the record type.
+
 6. To see the results for the query, select **View Records**.  
   
 7. Select **Save**, **Save and Close**, or, to create a new rollup query, **Save and New**.  

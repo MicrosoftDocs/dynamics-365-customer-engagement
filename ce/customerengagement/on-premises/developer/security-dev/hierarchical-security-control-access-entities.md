@@ -28,7 +28,7 @@ Hierarchy security offers a more granular access to records for an organization 
   
  For a detailed description of the hierarchy security model, see [Security concepts for Microsoft Dynamics 365 Customer Engagment apps](https://technet.microsoft.com/library/hh699698.aspx) in the [!INCLUDE[pn_crm_2015_ig](../../includes/pn-crm-2015-ig.md)] Customer Engagement (on-premises) documentation.  
   
- [Video: Hierarchical Security Modelling in Microsoft Dynamics CRM 2015](http://youtu.be/kx5So32DrCo)  
+ [Video: Hierarchical Security Modelling in Microsoft Dynamics CRM 2015](https://youtu.be/kx5So32DrCo)  
   
 ## Position hierarchy  
  Administrators can define various job positions in the organization and arrange them in the position hierarchy. You can add users to any given position or “tag” a user with a particular position. A user can be tagged only with one position in a given hierarchy; however, a position can be used for multiple users. Users at the higher positions in the hierarchy have access to the data of the users at the lower positions, in the direct ancestor path. The direct higher positions have Read, Write, Update, Append, and AppendTo access to the lower positions’ data in the direct ancestor path. The non-direct higher positions have read-only access to the lower positions’ data in the direct ancestor path.  
@@ -47,7 +47,7 @@ Hierarchy security offers a more granular access to records for an organization 
  For more information about the `Position` entity and its messages, see [Position Entity](../entities/position.md).  
   
 ### See also  
- [Video: Hierarchical Security Modelling in Microsoft Dynamics CRM 2015](http://youtu.be/kx5So32DrCo)   
+ [Video: Hierarchical Security Modelling in Microsoft Dynamics CRM 2015](https://youtu.be/kx5So32DrCo)   
  [The Security Model of Microsoft Dynamics 365 Customer Engagement (on-premises)](security-model.md)   
  [Security concepts for Microsoft Dynamics 365 Customer Engagement (on-premises)](https://technet.microsoft.com/library/hh699698.aspx)
  [Position Entity](../entities/position.md)

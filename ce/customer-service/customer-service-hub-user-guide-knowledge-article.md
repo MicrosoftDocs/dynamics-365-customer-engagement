@@ -6,9 +6,10 @@ ms.author: lalexms
 manager: shujoshi
 ms.date: 10/25/2019
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: dyn365-customerservice
-ms.assetid: ae39f0a0-1909-44b0-8625-ccee22f3ccd4
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -45,9 +46,7 @@ Turn your customer questions, issues, and feedback into knowledge articles, so o
   
 3. On the command bar, select **New**.  
   
-    You’ll be on the **Content** tab of the knowledge article.  
-  
-    ![Content tab in the new knowledge article](../customer-service/media/v9-new-article-content-tab.png "Content tab in the new knowledge article")  
+    You’ll be on the **Content** tab of the knowledge article.
   
 4. In the **Article Content** section, fill in the following details:  
   
@@ -91,15 +90,9 @@ Knowledge Authors can use the templates to create knowledge articles quickly and
   
 2. In the Customer Service Hub sitemap, go to **Service** > **Knowledge Articles**.  
 
-    > [!div class=mx-imgBorder]
-    > ![Select knowledge article](media/ka-select-knowledge-article.png "Select knowledge article")
- 
     A list of available articles is displayed. 
 
 3.	To create an article from a template, select **+ New From Template**.
-
-    > [!div class=mx-imgBorder]
-    > ![Select new from template](media/ka-new-article-from-template.png "Select new from template")
   
 4.	On the **Select Knowledge Article Template** dialog box, select the template to use as a base on which you author the article and select **OK**. In this example, we are selecting the template as **Getting Started With Template**.
 

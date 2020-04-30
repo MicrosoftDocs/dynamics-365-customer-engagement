@@ -1,11 +1,12 @@
 ---
 title: "FindWindow Tag in Unified Service Desk | MicrosoftDocs"
 description: "The <FindWindow> tag consists of a list of child elements that represent a sequence of match operations, all of which need to succeed for the target window to be considered found."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 1e3efa2f-e888-4a92-a32a-1990735fd936
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -23,7 +24,7 @@ The `<FindWindow>` tag consists of a list of child elements that represent a seq
   
 ```xml  
 # RELAX NG XML grammar for FindWindow  
-# http://relaxng.org/compact-tutorial-20030326.html  
+# https://relaxng.org/compact-tutorial-20030326.html  
 #  
 grammar {  
    start      = FindWindow  

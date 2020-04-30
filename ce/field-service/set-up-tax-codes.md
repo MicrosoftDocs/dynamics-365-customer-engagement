@@ -3,17 +3,17 @@ title: "Set up tax codes (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
-ms.reviewer: 
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.technology: 
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: 90d7fdc1-afa0-4ab4-a7c4-87c038709184
 caps.latest.revision: 16
-ms.author: krbjoran
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin
@@ -59,5 +59,4 @@ For example, if the state of California has a state and county tax, then you mig
  [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
  [Set up customer agreements](../field-service/set-up-customer-agreements.md)   
  [Set up agreement sub-statuses](../field-service/set-up-agreement-sub-statuses.md)   
- [Set up payment terms](../field-service/set-up-payment-terms.md)<br>
  [User's Guide](../field-service/user-guide.md)

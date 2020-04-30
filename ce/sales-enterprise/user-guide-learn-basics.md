@@ -1,14 +1,10 @@
 ---
 title: "Learn the basics of Dynamics 365 Sales | Microsoft Docs"
 description: "Quickly onboard and learn about Dynamics 365 Sales and its user interface."
-keywords: "Get started; understand data; quick create; Sales"
 ms.date: 10/14/2019
 ms.service:
   - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
 ms.topic: get-started-article
-ms.assetid: 928b39d6-4b1a-4b7b-b056-f4b7868c3a57
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
@@ -22,7 +18,8 @@ Start here to onboard quickly and learn about the different offerings of Sales a
 
 1. Sign in to [!INCLUDE[pn-office-365](../includes/pn-office-365.md)], select the [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] app launcher, and then select the icon for **[!INCLUDE[pn-dyn-365](../includes/pn-dyn-365.md)]**.
 
-   ![Office 365 App Launcher pane](media/app-launcher-pane.png "Office 365 App Launcher pane")  
+   > [!div class="mx-imgBorder"]
+   > ![Office 365 App Launcher pane](media/app-launcher-pane.png "Office 365 App Launcher pane")  
 
    > [!Note]
    > 
@@ -30,7 +27,8 @@ Start here to onboard quickly and learn about the different offerings of Sales a
 
 2. To open Sales hub, select the tile for **Sales Hub** (Unified Interface).
 
-   ![Tile for Sales Hub](media/saleshub_tile_unified_interface.png "Tile for Sales Hub")
+   > [!div class="mx-imgBorder"]
+   > ![Tile for Sales Hub](media/saleshub_tile_unified_interface.png "Tile for Sales Hub")
 
    
 ## Understand the data in the app
@@ -50,6 +48,6 @@ With Quick Create, you need to complete only a few fields. Later, when you have 
 1. On the nav bar, select the **New** button ![Icon for Quick Create](media/quick-create-icon.png "Icon for Quick Create"), and then select the item you want.  
 
    > [!TIP]
-   > On a mobile device, from the nav bar, tap ![ellipsis](media/ellipsis.png) and then tap **Quick Create Menu**.
+   > On a mobile device, from the nav bar, tap ![Ellipsis icon](media/ellipsis.png "Ellipsis icon") and then tap **Quick Create Menu**.
 
 2. Fill in the fields, and then select **Save**.

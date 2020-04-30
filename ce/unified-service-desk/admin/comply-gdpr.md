@@ -2,13 +2,14 @@
 title: Comply with the General Data Protection Regulation (GDPR) | MicrosoftDocs
 description: Learn about General Data Protection Regulation (GDPR) and how Unified Service Desk complies with GDPR.
 ms.date: 04/24/2018
-ms.service: usd
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: FA8D5702-C698-42B0-89BF-CD444BF3FB73
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-search.audienceType: admin
+search.audienceType: 
+  - admin
 search.app: 
   - D365CE
   - D365USD

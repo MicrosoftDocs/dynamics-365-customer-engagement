@@ -79,7 +79,7 @@ manager: kvivek
   
     -   For Microsoft Visual Studio 2015: [!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)] is already included.  
   
-    -   For Microsoft [!INCLUDE[pn_microsoft_visual_studio_2013](../includes/pn-microsoft-visual-studio-2013.md)]: You must download and install [Microsoft SQL Server Data Tools - Business Intelligence for Visual Studio 2013](https://www.microsoft.com/en-us/download/details.aspx?id=42313).  
+    -   For Microsoft [!INCLUDE[pn_microsoft_visual_studio_2013](../includes/pn-microsoft-visual-studio-2013.md)]: You must download and install [Microsoft SQL Server Data Tools - Business Intelligence for Visual Studio 2013](https://www.microsoft.com/download/details.aspx?id=42313).  
         
 -   If your organization uses [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)], make sure the computer with Dynamics 365 Customer Engagement (on-premises) Report Authoring Extension installed also has the [!INCLUDE[pn_Online_Services_SignIn_Assistant](../includes/pn-online-services-signin-assistant.md)] installed on it. If [!INCLUDE[pn_Online_Services_SignIn_Assistant](../includes/pn-online-services-signin-assistant.md)] is already installed, check the registry key SOFTWARE\Microsoft\MSOIdentityCRL and make sure that the TargetDir registry key in MSOIdentityCRL contains msoidcli.dll.  
   

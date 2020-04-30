@@ -22,7 +22,7 @@ search.app:
 ---
 # Sample: Create, retrieve, update, and delete a dialog
 
-This sample code is for Dynamics 365 Customer Engagement (on-premises). See the complete sample here [Sample: Create, retrieve, update, and delete a dialog](https://msdn.microsoft.com/en-us/library/gg334435.aspx)
+This sample code is for Dynamics 365 Customer Engagement (on-premises). See the complete sample here [Sample: Create, retrieve, update, and delete a dialog](https://msdn.microsoft.com/library/gg334435.aspx)
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]

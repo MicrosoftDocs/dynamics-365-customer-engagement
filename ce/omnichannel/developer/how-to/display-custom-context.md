@@ -1,15 +1,13 @@
 ---
 title: "Display custom context | Microsoft Docs"
 description: "Read how you can send display custom context on the UI"
-keywords: ""
-ms.date: 08/29/2019
-ms.service: dynamics-365-customerservice
-ms.custom:
-ms.topic: reference
-ms.assetid: A8C8AADF-FC34-4EA7-84D2-7AC1F58552CC
 author: susikka
 ms.author: susikka
 manager: shujoshi
+ms.date: 08/29/2019
+ms.service: 
+  - "dynamics-365-customerservice"
+ms.topic: reference
 ---
 # Display custom context
 

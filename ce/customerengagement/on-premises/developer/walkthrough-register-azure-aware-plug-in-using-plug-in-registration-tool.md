@@ -40,21 +40,21 @@ This walkthrough demonstrates how to register a service endpoint step using the 
 ## Steps  
  This walkthrough contains the following steps:  
 
-1.  [Connect to the Dynamics 365 Customer Engagement server](#BKMK_Connect)  
+1.  [Connect to the Dynamics 365 Server](#BKMK_Connect)  
 
 2.  [Register a service endpoint step for an event](#BKMK_Register)  
 
 3.  [Test the endpoint registration](#BKMK_Test)  
 
 <a name="BKMK_Connect"></a>   
-## Connect to the Dynamics 365 Customer Engagement (on-premises) server  
- Follow the steps below to connect to the Dynamics 365 Customer Engagement (on-premises) server using the Plug-in Registration tool.  
+## Connect to the Dynamics 365 Server  
+ Follow the steps below to connect to the Dynamics 365 Server using the Plug-in Registration tool.  
 
 1. Run the Plug-in Registration tool.  
 
 2. Click **Create New Connection**.  
 
-3. In the **Login** dialog box, select the deployment type radio button corresponding to the Dynamics 365 Customer Engagement (on-premises) server you intend to register a service endpoint with. The **On-premises** radio button includes an IFD deployment and the **Office 365** button is for the [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)] provider of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
+3. In the **Login** dialog box, select the deployment type radio button corresponding to the Dynamics 365 Server you intend to register a service endpoint with. The **On-premises** radio button includes an IFD deployment and the **Office 365** button is for the [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)] provider of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
 
 
    |                                                                                                                                             |                                                                                                                                                                                 |

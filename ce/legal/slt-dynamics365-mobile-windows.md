@@ -1,9 +1,9 @@
 ---
-title: MICROSOFT SOFTWARE LICENSE TERMS MICROSOFT DYNAMICS 365 FOR WINDOWS PROJECT FINDER MOBILE FOR MICROSOFT DYNAMICS 365 FOR WINDOWS
-author: brycho
+title: Microsoft Software License Terms Project Finder Mobile for Microsoft Dynamics 365 for Windows 
+author: kfend
 ---
 
-MICROSOFT SOFTWARE LICENSE TERMS<br>MICROSOFT DYNAMICS 365 FOR WINDOWS<br>PROJECT FINDER MOBILE FOR MICROSOFT DYNAMICS 365 FOR WINDOWS
+# Microsoft Software License Terms<br>Project Finder Mobile for Microsoft Dynamics 365 for Windows
 ======================================================================================================================================
 
 These license terms are an agreement between you and Microsoft Corporation (or
@@ -22,9 +22,9 @@ HAVE THE RIGHTS BELOW. BY USING THE SOFTWARE, YOU ACCEPT THESE TERMS.
 >   with the Microsoft account associated with your Windows Store account for
 >   your use solely with the following Microsoft applications or services:
 > 
-> >   • Microsoft Dynamics CRM; or
+> >   • Microsoft Dynamics 365 for phones and Microsoft Dynamics 365 for tablets apps that support model-driven apps, such as Dynamics 365 Sales and Dynamics 365 Customer Service, built on Common Data Service 
 > > 
-> >   • Microsoft Dynamics 365 for Customer Engagement.
+> >   • Microsoft Dynamics 365 Customer Engagement (on-premises)
 > 
 >   **b. Third Party Programs.** The software may include third party programs
 >   that Microsoft, not the third party, licenses to you under this agreement.
@@ -42,14 +42,14 @@ law, including getting any required user consent, and maintain a prominent
 privacy policy that accurately informs users about how you use, collect, and
 share their data. You can learn more about Microsoft’s data collection and use
 in the product documentation and the Microsoft Privacy Statement at
-<http://go.microsoft.com/fwlink/?LinkID=521839>. You agree to comply with all
+<https://go.microsoft.com/fwlink/?LinkID=521839>. You agree to comply with all
 applicable provisions of the Microsoft Privacy Statement.
 
 **3. Processing of Personal Data.** To the extent Microsoft is a processor or
 subprocessor of personal data in connection with the software, Microsoft makes
 the commitments in the European Union General Data Protection Regulation Terms
 of the Online Services Terms to all customers effective May 25, 2018, at
-<http://go.microsoft.com/?linkid=9840733>.
+<https://go.microsoft.com/?linkid=9840733>.
 
 **4. SCOPE OF LICENSE.** The software is licensed, not sold. This agreement only
 gives you some rights to use the software. Microsoft reserves all other rights.

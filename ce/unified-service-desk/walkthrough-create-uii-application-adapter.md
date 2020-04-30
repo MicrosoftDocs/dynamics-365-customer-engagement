@@ -1,18 +1,19 @@
 ---
 title: "Walkthrough  Create a UII Application Adapter in Unified Service Desk | MicrosoftDocs"
 description: "Demonstrates how to host and interact with an external application in Unified Service Desk."
-ms.custom: dyn365-USD
-ms.date: 01/25/2019
-ms.service: dynamics-365-customerservice
+ms.custom: 
+  - dyn365-USD
+ms.date: 12/31/2019
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: f280285b-2284-40a8-a01d-ea24a65926c9
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-search.audienceType:
+search.audienceType: 
   - customizer
   - developer
-search.app:
+search.app: 
   - D365CE
   - D365USD
 ---
@@ -45,14 +46,14 @@ You can create an application adapter if you want to integrate an external appli
   
 - [!INCLUDE[pn_microsoft_visual_studio_2012](../includes/pn-microsoft-visual-studio-2012.md)], [!INCLUDE[pn_visual_studio_2013](../includes/pn-visual-studio-2013.md)], or [!INCLUDE[pn_visual_studio_2015](../includes/pn-visual-studio-2015.md)]  
   
-- [!INCLUDE[tn_nuget_package_manager](../includes/tn-nuget-package-manager.md)] for [Visual Studio 2012](http://visualstudiogallery.msdn.microsoft.com/27077b70-9dad-4c64-adcf-c7cf6bc9970c), [Visual Studio 2013](http://visualstudiogallery.msdn.microsoft.com/4ec1526c-4a8c-4a84-b702-b21a8f5293ca), or [Visual Studio 2015](https://visualstudiogallery.msdn.microsoft.com/5d345edc-2e2d-4a9c-b73b-d53956dc458d)  
+- [!INCLUDE[tn_nuget_package_manager](../includes/tn-nuget-package-manager.md)] for [Visual Studio 2012](https://visualstudiogallery.msdn.microsoft.com/27077b70-9dad-4c64-adcf-c7cf6bc9970c), [Visual Studio 2013](https://visualstudiogallery.msdn.microsoft.com/4ec1526c-4a8c-4a84-b702-b21a8f5293ca), or [Visual Studio 2015](https://visualstudiogallery.msdn.microsoft.com/5d345edc-2e2d-4a9c-b73b-d53956dc458d)  
   
-- **CRM SDK Templates** for [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] that contains the UII hosted control project template. [Download](http://go.microsoft.com/fwlink/p/?LinkId=400925) the **CRM SDK Templates** from the Visual Studio gallery, and double-click the CRMSDKTemplates.vsix file to install the template in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].  
+- **CRM SDK Templates** for [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] that contains the UII hosted control project template. [Download](https://go.microsoft.com/fwlink/p/?LinkId=400925) the **CRM SDK Templates** from the Visual Studio gallery, and double-click the CRMSDKTemplates.vsix file to install the template in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].  
   
 <a name="CreateExternalApp"></a>   
 ## Step 1: Build a sample external application  
   
-1. [Download the UII SDK package](http://go.microsoft.com/fwlink/p/?LinkId=519179).  
+1. [Download the UII SDK package](https://go.microsoft.com/fwlink/p/?LinkId=519179).  
   
 2. Double-click the package file to extract the contents.  
   
@@ -67,32 +68,27 @@ You can create an application adapter if you want to integrate an external appli
  
  In this step, you will create a hosted control of **External Hosted Application** type to display the [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] forms application.  
   
-1. Sign in to the Common Data Service platform.  
+1. Sign in to Unified Service Desk Administrator.  
   
-2. On the navigation bar, click **Dynamics 365**.  
+2. Select **Hosted Controls** under **Basic Settings**.  
   
-3. Click or tap **Settings** > **Unified Service Desk** > **Hosted Controls**.  
+3. Select **+ New**.  
   
-4. Click **New**.  
-  
-5. On the **New Hosted Control** page, specify the following values:  
+4. On the **New Hosted Control** page, specify the following values:  
   
    |Field|Value|  
    |-----------|-----------|  
    |Name|QsExternalApp|  
    |USD Component|CCA Hosted Application|  
-   |Hosted Application|External Hosted Application|  
+   |Hosted Application Type|External Hosted Application|  
    |Application is Global|Checked|  
    |Display Group|MainPanel|  
    |Adapter|Use No Adapter|  
-   |Application is Dynamic|No|  
-   |External App URI|Microsoft.Uii.QuickStarts.QsExternalApp.exe|  
+   |Application is Dynamic|No| 
+
+5. Select the **Hosting** tab and enter the **External App URI** value as **Microsoft.Uii.QuickStarts.QsExternalApp.exe**.
   
-   ![Application adapter configuration screen](../unified-service-desk/media/usd-external-app-config-1.PNG "Application adapter configuration screen")  
-  
-   ![Unified Service Desk external app hosting settings](../unified-service-desk/media/usd-externa-app-config-2.PNG "Unified Service Desk external app hosting settings")  
-  
-6. Click **Save**.  
+6. Select **Save**.  
   
 <a name="TestExApp"></a>   
 ## Step 3: Test the external application  
@@ -119,7 +115,7 @@ You can create an application adapter if you want to integrate an external appli
   
    1. From the list of installed templates, expand [!INCLUDE[pn_Visual_C#](../includes/pn-visual-csharp.md)], and select CRM SDK Templates > **Unified Service Desk** > [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] Application Adapter  
   
-   2. Specify the name and location of the project, and click **OK** to create a new project.  
+   2. Specify the name and location of the project, and select **OK** to create a new project.  
   
    ![External application adapter in Visual Studio](../unified-service-desk/media/usd-external-app-adapter-vs.PNG "External application adapter in Visual Studio")  
   
@@ -201,17 +197,13 @@ You can create an application adapter if you want to integrate an external appli
 <a name="ConfigureAppAdapter"></a>   
 ## Step 4: Configure the application adapter  
   
-1. Sign in to the Common Data Service platform.  
+1. Sign in to Unified Service Desk Administrator.  
   
-2. On the nav bar, choose **Dynamics 365**.  
+2. Select **Hosted Controls** under **Basic Settings**.
   
-3. Choose **Settings** > **Unified Service Desk** > **Hosted Controls**.  
+3. From the list of hosted controls, select the `QsExternalApp` hosted control. 
   
-4. From the list of hosted controls, select the `QsExternalApp` hosted control.  
-  
-   ![Hosted control in Unified Service Desk](../unified-service-desk/media/usd-external-app-hosted-control.PNG "Hosted control in Unified Service Desk")  
-  
-5. In the Adapter Configuration section, specify the following values:  
+4. In the Adapter Configuration section, specify the following values:  
   
    |||  
    |-|-|  
@@ -225,7 +217,7 @@ You can create an application adapter if you want to integrate an external appli
    > [!NOTE]
    >  URI is the name of your assembly and the Type is the name of your assembly (dll) followed by a dot (.) and then the class name in your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project. In this example, the name of the assembly is `ExternalApplicationAdapter` and name of the class is `AppAdapter`, which is the default class name when you create an application adapter.  
   
-6. Click **Save** to save the changes.  
+5. Select **Save** to save the changes.  
   
 <a name="TestAppAdapter"></a>   
 ## Step 5: Test the application adapter  
@@ -240,7 +232,7 @@ You can create an application adapter if you want to integrate an external appli
   
    ![Contacts list in Unified Service Desk](../unified-service-desk/media/usd-external-app-contacts-list.PNG "Contacts list in Unified Service Desk")  
   
-5. Click **Sample External Application** and you’ll see the customer’s first name, last name, address, and ID populated.  
+5. Select **Sample External Application** and you’ll see the customer’s first name, last name, address, and ID populated.  
   
    ![Customer info in external application](../unified-service-desk/media/usd-external-app-customer-info.PNG "Customer info in external application")  
   

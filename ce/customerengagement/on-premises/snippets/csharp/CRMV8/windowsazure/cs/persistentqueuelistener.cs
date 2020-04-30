@@ -96,7 +96,7 @@ namespace Microsoft.Crm.Sdk.Samples
                         {
                             // Verify EntityLogicalName and RequestName message properties 
                             // to only process specific message sent from Microsoft Dynamics CRM. 
-                            string keyRoot = "http://schemas.microsoft.com/xrm/2011/Claims/";
+                            string keyRoot = "https://schemas.microsoft.com/xrm/2011/Claims/";
                             string entityLogicalNameKey = "EntityLogicalName";
                             string requestNameKey = "RequestName";
                             object entityLogicalNameValue;

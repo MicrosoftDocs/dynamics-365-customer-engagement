@@ -13,7 +13,7 @@ ms.assetid: 445E87AC-42EA-4FD2-852E-281AEFC2AB18
 ms.custom: 
 ---
 
-**Microsoft Dynamics Insider Program Agreement**
+# Microsoft Dynamics Insider Program Agreement
 
 **Last Updated: April 2018**
 
@@ -31,7 +31,7 @@ The parties agree as follows:
 
 **Section 2. Use of Previews.**
 
-**(a)	Required Offerings.** Certain Microsoft services or software may be necessary to use a particular Preview ("_**Required Offerings**_"). Microsoft does not grant any rights under this Agreement to access or use Required Offerings; rather, Required Offerings are separately licensed to Participant under a Microsoft Licensing Agreement, which may require paying a fee. The Required Offerings for a given Preview will be identified in the Preview Terms. "_**Microsoft Licensing Agreement**_" or "_**MLA**_" means the Microsoft Online Services Terms (see [http://microsoftvolumelicensing.com](http://microsoftvolumelicensing.com)) and Participant's Microsoft volume licensing agreement, or any other applicable agreement, under which Participant subscribed or was granted a license to to any Required Offerings.
+**(a)	Required Offerings.** Certain Microsoft services or software may be necessary to use a particular Preview ("_**Required Offerings**_"). Microsoft does not grant any rights under this Agreement to access or use Required Offerings; rather, Required Offerings are separately licensed to Participant under a Microsoft Licensing Agreement, which may require paying a fee. The Required Offerings for a given Preview will be identified in the Preview Terms. "_**Microsoft Licensing Agreement**_" or "_**MLA**_" means the Microsoft Online Services Terms (see [https://microsoftvolumelicensing.com](https://microsoftvolumelicensing.com)) and Participant's Microsoft volume licensing agreement, or any other applicable agreement, under which Participant subscribed or was granted a license to to any Required Offerings.
 
 **(b) Rights.** During the Term, Microsoft grants Participant a non-exclusive, non-transferable, non-sublicensable right to access and use, solely in accordance with this Agreement, any Previews that Microsoft selects Participant to participate in. This Section 2(b) extends to Participant's authorized users, and Participant is fully liable for their use.
 

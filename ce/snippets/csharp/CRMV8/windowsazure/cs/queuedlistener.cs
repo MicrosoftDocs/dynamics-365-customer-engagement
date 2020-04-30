@@ -89,7 +89,7 @@ namespace Microsoft.Crm.Sdk.Samples
 
                     // Check if the message was sent from Microsoft Dynamics CRM.
                     if (retrievedMessage.Headers.Action ==
-                        "http://schemas.microsoft.com/xrm/2011/Contracts/IServiceEndpointPlugin/Execute")
+                        "https://schemas.microsoft.com/xrm/2011/Contracts/IServiceEndpointPlugin/Execute")
                     {
                         Utility.Print(retrievedMessage.GetBody<RemoteExecutionContext>());
                         this.client.DeleteLockedMessage(retrievedMessage);

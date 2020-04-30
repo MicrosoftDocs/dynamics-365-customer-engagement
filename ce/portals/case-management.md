@@ -1,14 +1,14 @@
 ---
 title: "Manage cases in a portal | MicrosoftDocs"
 description: "Learn how to manage cases in a portal."
-ms.date: 12/03/2018
+ms.date: 02/12/2020
 ms.service: crm-online
 ms.topic: article
 ms.assetid: 546B2F5F-3DEA-466D-99B8-4D504D38E487
 author: sbmjais
 ms.author: shjais
 manager: shubhadaj
-ms.reviewer: 
+ms.reviewer: tapanm
 topic-status: Drafting
 search.audienceType: 
   - admin
@@ -40,6 +40,12 @@ The forms that are displayed on the portal for creating and updating cases can b
     ![Create a new case](media/create-case.png "Create a new case") 
 
 5. Select **Submit**.
+
+By default, following error appears if you choose a contact that doesn't belong to the selected account while creating a case:
+ 
+*The specified contact doesn't belong to the account selected as the customer. Specify a contact that belongs to the selected account, and then try again.*
+ 
+You can customize this default error by adding a [Content Snippet](https://docs.microsoft.com/powerapps/maker/portals/configure/customize-content-snippets#edit-snippets) with the *Name* as **cases/unrelatedcontact** and *Value* as your custom error message text.
 
 ## Add case notes
 

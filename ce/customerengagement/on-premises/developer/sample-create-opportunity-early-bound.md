@@ -25,7 +25,7 @@ search.app:
 ---
 # Sample: Create an opportunity (early bound)
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. [Download the Business Management samples](https://code.msdn.microsoft.com/Business-Management-Samples-6a482e62)
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. [Download the Business Management samples](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/BusinessManagement)
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
@@ -40,6 +40,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [!code-csharp[BusinessManagement#CreateOpportunity](../snippets/csharp/CRMV8/businessmanagement/cs/createopportunity.cs#createopportunity)]  
   
 ### See also  
- [Sample: CrmServiceHelper Class](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa/sourcecode?fileId=182557&pathId=222952671)   
+    
  [Opportunity Entities](opportunity-entities.md)   
  [Sample: Retrieve an Opportunity (Early Bound)](sample-retrieve-opportunity-early-bound.md)

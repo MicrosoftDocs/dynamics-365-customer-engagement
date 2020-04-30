@@ -93,7 +93,7 @@ Charts display data visually by mapping textual values on two axes: horizontal (
  For more sample data description XML strings, see [Sample Charts](sample-charts.md).  
   
 ## Use the presentation description XML string to specify data representation  
- The presentation description XML string contains information about the appearance of the chart such as chart title, chart color, and chart type (bar, column, line, and so on). There is no schema definition for this XML string. However, the XML is a serialization of the [Chart](https://msdn.microsoft.com/library/system.web.ui.datavisualization.charting.chart.aspx) class in [!INCLUDE[pn_ms_chart_controls_short](../../includes/pn-ms-chart-controls-short.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Chart Controls](http://go.microsoft.com/fwlink/p/?LinkId=128301)  
+ The presentation description XML string contains information about the appearance of the chart such as chart title, chart color, and chart type (bar, column, line, and so on). There is no schema definition for this XML string. However, the XML is a serialization of the [Chart](https://msdn.microsoft.com/library/system.web.ui.datavisualization.charting.chart.aspx) class in [!INCLUDE[pn_ms_chart_controls_short](../../includes/pn-ms-chart-controls-short.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Chart Controls](https://go.microsoft.com/fwlink/p/?LinkId=128301)  
   
  You can specify the presentation description XML string while you are creating a chart using the `SavedQueryVisualization.PresentationDescription` or `UserQueryVisualization.PresentationDescription` attribute for the organization-owned or user-owned chart, respectively.  
   

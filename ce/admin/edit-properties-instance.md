@@ -21,6 +21,8 @@ search.app:
 ---
 # Edit properties of an instance
 
+[!INCLUDE[applies-to](../includes/cc_applies_to_ce.md)]
+
 Administrators can edit properties of an instance, such as the friendly name, URL, and the purpose. However, instances that are being provisioned cannot be edited, and disabled instances must be enabled before they can be edited.  
   
 ## Edit an instance  

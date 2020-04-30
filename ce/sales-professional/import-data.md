@@ -2,10 +2,11 @@
 title: "Import data into Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Get your data in bulk into Dynamics 365 Sales Professional by importing it."
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service: 
+  - dynamics-365-sales
+ms.custom: 
+  - dyn365-sales
 ms.topic: article
-ms.assetid: 7914b026-8e46-4dda-9134-f86bd8ae5db8
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe

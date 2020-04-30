@@ -1,6 +1,6 @@
 ---
-title: "Manage access to PowerApps apps by using security roles | MicrosoftDocs"
-description: "Learn how to control access to your PowerApps apps"
+title: "Manage access to Power Apps apps by using security roles | MicrosoftDocs"
+description: "Learn how to control access to your Power Apps apps"
 keywords: 
 ms.date: 12/04/2018
 ms.service: crm-online

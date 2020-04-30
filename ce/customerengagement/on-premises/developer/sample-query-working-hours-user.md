@@ -17,8 +17,8 @@ helpviewer_keywords:
 ms.assetid: 06211393-b9aa-4c4d-9730-7ec51ec1bd3f
 caps.latest.revision: 25
 author: JimDaly
-ms.author: jdaly
-manager: amyla
+ms.author: nabuthuk
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
@@ -26,25 +26,32 @@ search.app:
 ---
 # Sample: Query the working hours of a user
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample from [Sample: Work with Schedules and Appointments](https://code.msdn.microsoft.com/Schedule-and-Appointment-93ed80c0).
+This sample shows how to retrieve the working hours of a user by using the [QueryScheduleRequest](https://docs.microsoft.com/dotnet/api/microsoft.crm.sdk.messages.queryschedulerequest?view=dynamics-general-ce-9) message. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/QueryWorkingHours
+).
 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
-  
-## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
-  
-## Demonstrates  
- This sample shows how to retrieve the working hours of a user by using the <xref:Microsoft.Crm.Sdk.Messages.QueryScheduleRequest> message.  
-  
-## Example  
- [!code-csharp[ScheduleAndAppointment#QueryWorkingHoursOfUser](../snippets/csharp/CRMV8/scheduleandappointment/cs/queryworkinghoursofuser.cs#queryworkinghoursofuser)]  
-  
-### See also  
- [Schedules in Dynamics 365 Customer Engagement](schedule-collections.md)   
- [Sample Code for Schedule and Appointment Entities](sample-code-schedule-appointment-entities.md)   
- [Sample: Query the Working Hours of Multiple Users](sample-query-working-hours-multiple-users.md)   
- [Resource Entities](resource-entities.md)   
- [Sample: CrmServiceHelper Class](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa/sourcecode?fileId=182557&pathId=222952671)   
-<xref:Microsoft.Xrm.Sdk.IOrganizationService>   
- <xref:Microsoft.Crm.Sdk.Messages.QueryScheduleRequest>
+[!include[cc-sample-note](includes/cc-sample-note.md)]
+
+## How to run this sample
+
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-PA-samples.md)]
+
+## What this sample does
+
+The `QueryScheduleRequest` message is intended to be used in a scenario where it contains data that is needed to search the specified resource for an available time block that matches specified parameters.
+
+## How this sample works
+
+In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+
+### Setup
+
+Checks for the current version of the org.
+
+### Demonstrate
+
+1. The `WhoAMIRequest` message gets the current user's information.
+2. The `QueryScheduleRequest` message retrieves the working hours of the current user.
+
+### Clean up
+
+Display an option to delete the sample data created in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.

@@ -2,13 +2,14 @@
 title: "Read Best Practices Analyzer Report | MicrosoftDocs"
 description: "Learn about how to read Best Practices Analyzer report."
 ms.date: 05/15/2018
-ms.service: usd
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 4BACD2D6-A17D-468D-A2CB-F4BEEF06AE5E
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-search.audienceType: admin
+search.audienceType: 
+  - admin
 search.app: 
   - D365CE
   - D365USD

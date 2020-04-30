@@ -6,9 +6,10 @@ ms.author: kabala
 manager: shujoshi
 ms.date: 11/14/2019
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: dyn365-customerservice
-ms.assetid: a71514d7-c6f1-4a4b-b651-fa2992b8a558
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer

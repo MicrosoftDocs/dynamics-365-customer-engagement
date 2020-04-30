@@ -1,18 +1,19 @@
 ---
 title: "Walkthrough  Create a UII Windows Forms Hosted Control | MicrosoftDocs"
 description: "Demonstrates how you can build a Windows Forms UII hosted control that interacts with Unified Service Desk and standalone or web external applications."
-ms.custom: dyn365-USD
-ms.date: 01/25/2019
-ms.service: dynamics-365-customerservice
+ms.custom: 
+  - dyn365-USD
+ms.date: 12/31/2019
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: a9fd1d9e-b04e-4ea0-b9c2-fda7bac4b7f9
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-search.audienceType:
+search.audienceType: 
   - customizer
   - developer
-search.app:
+search.app: 
   - D365CE
   - D365USD
 ---
@@ -36,9 +37,9 @@ This walkthrough demonstrates how you can build a [Windows Forms](https://msdn.m
   
 - [!INCLUDE[pn_microsoft_visual_studio_2012](../includes/pn-microsoft-visual-studio-2012.md)], [!INCLUDE[pn_visual_studio_2013](../includes/pn-visual-studio-2013.md)], or [!INCLUDE[pn_visual_studio_2015](../includes/pn-visual-studio-2015.md)]  
   
-- [!INCLUDE[tn_nuget_package_manager](../includes/tn-nuget-package-manager.md)] for [Visual Studio 2012](http://visualstudiogallery.msdn.microsoft.com/27077b70-9dad-4c64-adcf-c7cf6bc9970c), [Visual Studio 2013](http://visualstudiogallery.msdn.microsoft.com/4ec1526c-4a8c-4a84-b702-b21a8f5293ca), or [Visual Studio 2015](https://visualstudiogallery.msdn.microsoft.com/5d345edc-2e2d-4a9c-b73b-d53956dc458d)  
+- [!INCLUDE[tn_nuget_package_manager](../includes/tn-nuget-package-manager.md)] for [Visual Studio 2012](https://visualstudiogallery.msdn.microsoft.com/27077b70-9dad-4c64-adcf-c7cf6bc9970c), [Visual Studio 2013](https://visualstudiogallery.msdn.microsoft.com/4ec1526c-4a8c-4a84-b702-b21a8f5293ca), or [Visual Studio 2015](https://visualstudiogallery.msdn.microsoft.com/5d345edc-2e2d-4a9c-b73b-d53956dc458d)  
   
-- **CRM SDK Templates** for [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] that contains the UII Windows Forms hosted control project template. [Download](http://go.microsoft.com/fwlink/p/?LinkId=400925) the **CRM SDK Templates** from the Visual Studio gallery, and double-click the CRMSDKTemplates.vsix file to install the template in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].  
+- **CRM SDK Templates** for [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] that contains the UII Windows Forms hosted control project template. [Download](https://go.microsoft.com/fwlink/p/?LinkId=400925) the **CRM SDK Templates** from the Visual Studio gallery, and double-click the CRMSDKTemplates.vsix file to install the template in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].  
   
 - You should have completed [Walkthrough: Create a UII Application Adapter](../unified-service-desk/walkthrough-create-uii-application-adapter.md) and [Walkthrough: Create a UII Web Application Adapter](../unified-service-desk/walkthrough-create-uii-web-application-adapter.md) to ensure that you have the external application and web application set up with the respective adapters to facilitate interaction with those applications.  
   
@@ -52,7 +53,7 @@ This walkthrough demonstrates how you can build a [Windows Forms](https://msdn.m
   
    1.  From the list of installed templates, expand **Visual C#**, and select **CRM SDK Templates** > **Unified Service Desk** > **UII Windows Forms Hosted Control**.  
   
-   2.  Specify the name and location of the project, and click **OK** to create a new project.  
+   2.  Specify the name and location of the project, and select **OK** to create a new project.  
   
    ![Create a UII Windows Form hosted control](../unified-service-desk/media/usd-create-uii-windows-form-hosted-control-1.png "Create a UII Windows Form hosted control")  
   
@@ -143,15 +144,13 @@ This walkthrough demonstrates how you can build a [Windows Forms](https://msdn.m
 ## Step 2: Define the hosted control in Unified Service Desk  
  To host the [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] Windows Forms hosted control in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], you’ll have to define and configure it.  
   
-1. Sign in to the Common Data Service platform.  
+1. Sign in to Unified Service Desk Administrator.  
   
-2. On the nav bar, choose **Dynamics 365** > **Settings** > **Unified Service Desk**.  
+2. Select **Hosted Controls**.  
   
-3. On the **Unified Service Desk** page, click **Hosted Controls**.  
+3. Select **+ New**.  
   
-4. On the **Hosted Controls** page, click **New**.  
-  
-5. On the **New Hosted Control** page, specify the following values:  
+4. On the **New Hosted Control** page, specify the following values:  
   
    |Field|Value|  
    |-----------|-----------|  
@@ -168,9 +167,7 @@ This walkthrough demonstrates how you can build a [Windows Forms](https://msdn.m
    > [!NOTE]
    > **Assembly URI** is the name of your assembly and the **Assembly Type** is the name of your assembly followed by a dot (.) and then the class name in your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project. In this example, the name of the assembly is `UIIWindowsFormHostedControl1` and name of the class is `UiiWinformControl`, which is the default class name when you create a [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] Windows Forms hosted control.
 
-   ![New hosted control in Unified Service Desk](../unified-service-desk/media/usd-new-hosted-control-uii-windows-form.png "New hosted control in Unified Service Desk")
-
-6. Click **Save** to create the hosted control.
+5. Select **Save** to create the hosted control.
 
 <a name="step3"></a>
 ## Step 3: Define UII actions for the external application and web application hosted controls in Unified Service Desk
@@ -181,25 +178,23 @@ This walkthrough demonstrates how you can build a [Windows Forms](https://msdn.m
 > [!IMPORTANT]
 >  If you have already added the [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] actions as part of step 3 in [Walkthrough: Create a UII WPF Hosted Control](../unified-service-desk/walkthrough-create-uii-wpf-hosted-control.md), you don’t have to perform this step again. You can proceed to the next section for testing your hosted control.  
   
-1. Sign in to the Common Data Service platform.  
+1. Sign in to Unified Service Desk Administrator.  
   
-2. On the nav bar, choose **Dynamics 365** > **Settings** > **Unified Service Desk**.  
+2. Select **Hosted Controls**.  
   
-3. On the **Unified Service Desk** page, choose **Hosted Controls**.  
+3. Select **QsExternalApp** from the list.  
   
-4. On the **Hosted Controls** page, search for the `QsExternalApp`, and open it for editing.  
+4. Select the **Related** tab and **UII Actions**.  
   
-5. On the **QsExternalApp** page, click the down arrow next to the hosted control name, and then click **UII Actions**.  
+5. Select **+ New UII Action**.  
   
-6. On the next page, click **Add New UII Action**.  
+6. Type the name as **UpdateFirstName**, and select **Save & Close**. This will add the action in the previous page.  
   
-7. Type the name as **UpdateFirstName**, and click **Save & Close**. This will add the action in the previous page.  
-  
-8. Similarly, add the following two actions: **UpdateLastName** and **UpdateAddress**. All the three actions become available for the `QsExternalApp` hosted control.  
+7. Similarly, add the following two actions: **UpdateLastName** and **UpdateAddress**. All the three actions become available for the **QsExternalApp** hosted control.  
   
    ![Available UII actions for a hosted control](../unified-service-desk/media/usd-available-uii-actions-hosted-control.png "Available UII actions for a hosted control")  
   
-9. Follow steps 4 through 8 to create three [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] actions with the same names for the `QsExternalWebApp` hosted control.  
+8. Follow steps 4 through 7 to create three [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] actions with the same names for the **QsExternalWebApp** hosted control.  
   
 <a name="test"></a>   
 ## Test the hosted control  
@@ -215,11 +210,11 @@ This walkthrough demonstrates how you can build a [Windows Forms](https://msdn.m
   
    ![Sample controls in USD with contact information](../unified-service-desk/media/usd-3-samplecontrols-1.png "Sample controls in USD with contact information")  
   
-4. Change the values in **Sample UII Windows Forms Hosted Control**, and click **Update values in hosted apps** to update the values in the other two external applications.  
+4. Change the values in **Sample UII Windows Forms Hosted Control**, and select **Update values in hosted apps** to update the values in the other two external applications.  
   
    ![Sample controls with updated values](../unified-service-desk/media/usd-3-sample-controls-updated-values.png "Sample controls with updated values")  
   
-5. In **Sample UII Windows Forms Hosted Control**, click **Update context** to update the context information in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
+5. In **Sample UII Windows Forms Hosted Control**, select **Update context** to update the context information in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
   
    ![Values updated in the USD context](../unified-service-desk/media/usd-values-updated-context.png "Values updated in the USD context")  
   

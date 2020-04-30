@@ -24,7 +24,7 @@ The claims-based security model extends traditional authentication models to inc
 > [!IMPORTANT]
 > Claims-based authentication is required for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] [!INCLUDE[pn_Internet_facing_deployment](../includes/pn-internet-facing-deployment.md)] access. However, claims-based authentication isn’t required for intranet [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] access if [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] is deployed in the same domain where all [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] users are located, or users are in a trusted domain.  
 >   
->  Before you run the [!INCLUDE[pn_Configure_Claims-based_Wizard](../includes/pn-configure-claims-based-wizard.md)], a [!INCLUDE[pn_security_token_service](../includes/pn-security-token-service.md)], such as [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../includes/pn-active-dir-fed-svcs-ad-fs.md)] must be available. For more information about [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../includes/pn-active-dir-fed-svcs-ad-fs.md)], see [Identity and Access Management](http://go.microsoft.com/fwlink/p/?LinkID=188371).  
+>  Before you run the [!INCLUDE[pn_Configure_Claims-based_Wizard](../includes/pn-configure-claims-based-wizard.md)], a [!INCLUDE[pn_security_token_service](../includes/pn-security-token-service.md)], such as [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../includes/pn-active-dir-fed-svcs-ad-fs.md)] must be available. For more information about [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../includes/pn-active-dir-fed-svcs-ad-fs.md)], see [Identity and Access Management](https://go.microsoft.com/fwlink/p/?LinkID=188371).  
   
 #### Configure claims-based authentication  
   

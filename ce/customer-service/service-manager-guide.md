@@ -1,14 +1,15 @@
 ---
 title: Service Manager Guide (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Service Management Guide for Dynamics 365 Customer Service.
-author: anjgupta
-ms.author: anjgup
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 10/01/2018
 ms.topic: get-started-article
-ms.service: dynamics-365-customerservice
-ms.custom: dyn365-customerservice
-ms.assetid: fbf7f81b-5c92-40a5-8579-711027c4d8ad
+ms.service: 
+  - dynamics-365-customerservice
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -32,9 +33,9 @@ With the new release, the Service Manager moves under the Customer Service Hub, 
 
 ### Customer Service Hub
 
-Use the Service Management to set up various admin tasks for customer service. You can access service management from the Customer Service Hub sitemap.
+Use the Service Management to set up various admin tasks for customer service.
 
-In the Customer Service Hub sitemap, select **...** to go to Service Management.
+In the bottom left pane, select the change area, and select Service Management.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand the sitemap navigation](customer-service-hub-user-guide-basics.md#understand-the-sitemap-navigation)
 

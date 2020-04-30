@@ -1,16 +1,15 @@
 ---
 title: "Frequently asked questions (FAQs) about Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the frequently asked questions (FAQs) for Omnichannel for Customer Service."
-ms.date: 10/25/2019
-ms.service:
-  - "dynamics-365-customerservice"
-ms.custom:
-  - ""
-ms.topic: article
-ms.assetid: BC3D3C77-982D-4F8F-B9DB-86854A1634F8
 author: kabala123
 ms.author: kabala
 manager: shujoshi
+ms.date: 10/25/2019
+ms.service: 
+  - "dynamics-365-customerservice"
+ms.topic: article
+ms.custom: 
+  - ""
 ---
 
 # Frequently asked questions (FAQs) about Omnichannel for Customer Service
@@ -155,7 +154,7 @@ These controls are in place for exposing the data in reports:
 ## Chat widgets
 
 ### Can we have the widget show on different pages or different websites? 
-The widget can show on any portal you want. You can copy the HTML script tag anywhere to make it appear on specific pages, a different Dynamics 365 Portals, or a custom portal as well. 
+The widget can show on any portal you want. You can copy the HTML script tag anywhere to make it appear on specific pages, a different Power Apps portals, or a custom portal as well. 
 
 ### If I have the widget on multiple pages or websites, what happens when I navigate across the pages with an ongoing chat?
 The same widget will persist the chat as you cross different pages or websites.

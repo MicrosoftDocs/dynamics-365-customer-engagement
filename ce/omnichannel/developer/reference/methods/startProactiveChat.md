@@ -1,16 +1,11 @@
 ---
 title: "startProactiveChat (JavaScript API reference) for Omnichannel for Customer Service in Dynamics 365 | MicrosoftDocs"
 description: 
-keywords: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
-applies_to: 
 ms.date: 09/23/2019
-ms.service: 
 ms.topic: article
-ms.assetid: 2BD1ECAD-6E5A-4BD9-BD82-67B335B98D88
-ms.custom: 
 ---
 # startProactiveChat
 

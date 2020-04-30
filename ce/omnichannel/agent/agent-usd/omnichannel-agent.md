@@ -1,16 +1,13 @@
 ---
 title: "Omnichannel for agent using Unified Service Desk | MicrosoftDocs"
 description: "Learn about the Omnichannel for Customer Service for agent using Unified Service Desk."
-keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: fb84962a-1ba4-4c56-992f-533cf921540a
-ms.custom: 
 ---
 # Agents using Omnichannel for Customer Service on Unified Service Desk
 

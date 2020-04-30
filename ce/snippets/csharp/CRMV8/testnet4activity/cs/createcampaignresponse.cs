@@ -76,7 +76,7 @@ namespace Microsoft.Crm.Sdk.Samples
 
 			switch (message.Headers.Action)
 			{
-				case "http://schemas.microsoft.com/xrm/2011/Contracts/IServiceEndpointPlugin/Execute":
+				case "https://schemas.microsoft.com/xrm/2011/Contracts/IServiceEndpointPlugin/Execute":
 					ProcessMessages(message.GetBody<RemoteExecutionContext>(), service);
 					break;
 				//} //end - infinite for loop

@@ -174,7 +174,7 @@ When you edit a public or system  view, you must save and publish your changes b
 ## Community tools
 **View Lyout Replicator** and **View Designer** are tools that XrmToolbox community developed for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Customer Engagement.
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Developer tools](https://review.docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/developer-tools).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Developer tools](https://review.docs.microsoft.com/dynamics365/customer-engagement/developer/developer-tools).
 
 > [!NOTE]
 > These tools are provided by XrmToolBox and are not supported by Microsoft. If you have questions pertaining to the tool, please contact the publisher. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [XrmToolBox](https://www.xrmtoolbox.com/). 

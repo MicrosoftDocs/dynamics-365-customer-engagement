@@ -22,13 +22,25 @@ search.app:
 ---
 # Sample: Retrieve valid status transitions
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample of [work with attribute metadata](https://code.msdn.microsoft.com/Samples-of-attributes-1c0f93e7). 
+This sample shows how to retrieve valid state transitions regardless of whether custom state transitions have been defined for the entity. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/RetrieveValidTransitions).
 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
-  
-## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
+[!include[cc-sample-note](includes/cc-sample-note.md)]
+
+## How to run this sample
+
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-PA-samples.md)]
+
+## What this sample does
+
+The `GetValidStatusOptions` method is intended to be used in a scenario where it contains data that returns valid status option transitions regardless of whether state transitions are enabled for the entity.
+## How this sample works
+
+In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+
+### Setup
+
+1. Checks for the current version of the org.
+1. The `MetadataFilterExpression` method checks for the entity metadata.
   
 ## Demonstrates  
  This sample shows how to retrieve valid state transitions regardless of whether custom state transitions have been defined for the entity.  
@@ -156,16 +168,4 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
 0  Active    2    On Hold  
 0  Active    3    Waiting for Details  
 ```  
-  
-## Example  
- The following is the `GetValidStatusOptions` method used in the sample:  
-  
- [!code-csharp[Attributes#StateModelTransitions.GetValidStatusOptions](../snippets/csharp/CRMV8/attributes/cs/statemodeltransitions.getvalidstatusoptions.cs#statemodeltransitions.getvalidstatusoptions)]  
-  
-## Example  
- The following is the full code for the sample.  
-  
- [!code-csharp[Attributes#StateModelTransitions](../snippets/csharp/CRMV8/attributes/cs/statemodeltransitions.cs#statemodeltransitions)]  
-  
-### See also  
- [Define custom state model transitions](define-custom-state-model-transitions.md)
+ 

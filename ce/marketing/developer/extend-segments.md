@@ -52,7 +52,7 @@ POST {{OrgUrl}}/api/data/v9.0/msdyncrm_segments
 {
   "msdyncrm_segmentname": "StaticSegmentApi1",
   "msdyncrm_segmenttype": 192350001,
-  "msdyncrm_memberids": "[\"crm1405f4ba-1ee9-e811-a99d-000d3a35f12f\",\"crm0604cdd1-1ee9-e811-a99d-000d3a35f12f\"]",
+  "msdyncrm_segmentmemberids": "[\"crm1405f4ba-1ee9-e811-a99d-000d3a35f12f\",\"crm0604cdd1-1ee9-e811-a99d-000d3a35f12f\"]",
   "statuscode": 192350000
 }
 ```

@@ -1,11 +1,12 @@
 ---
 title: "Create a CTI Desktop Manager | MicrosoftDocs"
 description: "The CTI Desktop Manager component is the interface between the computer telephony integration (CTI) system and Unified Service Desk or User Interface Integration (UII). The CTI Desktop Manager component creates the following two objects that collectively manage the state and data in a call- CallStateManager and AgentStateManager."
-ms.custom: dyn365-USD
-ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.custom: 
+  - dyn365-USD
+ms.date: 12/31/2019
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: eda74fb2-c74a-413d-b1b8-921328dd365e
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -112,27 +113,28 @@ public override void OnCallStateChanged(CtiCoreEventArgs e)
 ## Configure CTI Desktop Manager hosted control in Unified Service Desk  
  After you have created the CTI Desktop Manager along with your CTI connector, you must configure these as hosted controls in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides a hosted control of type **CTI Desktop Manager**  that can be used to configure your CTI Desktop Manager in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. The CTI Connector should be configured as a [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] hosted control. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure a hosted control for CTI Connector in Unified Service Desk](../unified-service-desk/create-cti-connector.md#Configure)  
   
-1. Sign in to the Common Data Service platform.  
+1. Sign in to Unified Service Desk Administrator.  
   
-2. On the nav bar, choose **Dynamics 365** > **Settings** > **Unified Service Desk**.  
+2. Select **Hosted Controls** under **Basic Settings**.  
   
-3. On the **Unified Service Desk** page, click **Hosted Controls**.  
+3. Select **+ New**.  
   
-4. On the **Hosted Controls** page, click **New**.  
-  
-5. On the **New Hosted Control** page, specify the following values:  
+4. On the **New Hosted Control** page, specify the following values:  
   
    |Field|Value|  
    |-----------|-----------|  
    |Name|Give name as per your choice.|  
    |USD Component Type|CTI Desktop Manager|  
    |Display Group|HiddenPanel|  
+
+5. Select the **Hosting** tab, and specify the following values
+
+   |Field|Value|  
+   |-----------|-----------| 
    |Assembly URI|This is the name of your assembly (.dll) file that you built in the previous step.|  
-   |Assembly Type|This is the name of your assembly followed by a dot, and then the class name of your CTI Connector. For example, if your assembly name is MyCtiManager, and the name of the class of your CTI project is DesktopManager, then you must type the following in this field: MyCtiManager.DesktopManager.|  
+   |Assembly Type|This is the name of your assembly followed by a dot, and then the class name of your CTI Connector. For example, if your assembly name is MyCtiManager, and the name of the class of your CTI project is DesktopManager, then you must type the following in this field: MyCtiManager.DesktopManager.| 
   
-   ![Configure a CTI Desktop Manager hosted control](../unified-service-desk/media/usd-cti-desktop-manager-hosted-control.png "Configure a CTI Desktop Manager hosted control")  
-  
-6. Click **Save** to create the hosted control.  
+6. Select **Save** to create the hosted control.  
   
 > [!IMPORTANT]
 >  After you have configured the CTI Desktop Manager hosted control in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], you must configure:  

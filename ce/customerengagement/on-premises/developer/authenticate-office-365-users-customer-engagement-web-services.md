@@ -2,7 +2,7 @@
 title: "Authenticate Office 365 users with Customer Engagement web services (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "This topic applies to customers who access Dynamics 365 Customer Engagement (on-premises) Customer Engagement through the Microsoft Online Services environment. It discusses how Dynamics 365 Customer Engagement (on-premises) web service authentication with managed domain and federated identity providers works"
 ms.custom: 
-ms.date: 03/29/2019
+ms.date: 02/03/2020
 ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
@@ -32,12 +32,15 @@ although the same classes and code shown here also work with all supported ident
 <a name="bkmk_simplified"></a>
    
 ## Use the simplified authentication classes 
- 
+
  You can use the  <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy> and <xref:Microsoft.Xrm.Sdk.Client.DiscoveryServiceProxy> classes when authenticating with the web services.  
 For more information about using these proxy classes see [Authentication by using the client proxy classes](active-directory-claims-based-authentication.md#bkmk_clientproxy). 
-  
- Another authentication approach is to use the helper source code provided in the SDK. The `ServerConnection` helper class, shown in the 
-[Helper Code: ServerConnection Class](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa/sourcecode?fileId=182557&pathId=222952671) topic, provides `GetOrganizationProxy` and `GetProxy` methods for authentication. 
+
+ > [!NOTE]
+> The sample helper code containing the `ServerConnection` class is no longer maintained and will be removed some time in the future. Instead, use one of the supported authentication APIs in the SDK assemblies such as <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient>.
+
+ Another authentication approach is to use the helper source code provided in the SDK. The `ServerConnection` helper class, shown in 
+[Helper Code: ServerConnection Class](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/samples-from-msdn/QuickStart/SDK%20Helper%20Code/CrmServiceHelpers.cs), provides `GetOrganizationProxy` and `GetProxy` methods for authentication. 
 If you look at the source code for `ServerConnection`, you will see that `GetOrganizationProxy` actually calls `GetProxy`.  
   
 ```csharp  
@@ -108,6 +111,6 @@ proxy constructor. The generic `GetProxy` method shown previously can be used to
  
  [Connect with Microsoft Office 365 and Dynamics 365 Customer Engagement (on-premises)](connect-microsoft-office-365.md)
  [Sample: Authenticate Office 365 Users](sample-authenticate-users-web-services.md)   
- [Helper Code: ServerConnection Class](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa/sourcecode?fileId=182557&pathId=222952671)   
+ [Helper Code: ServerConnection Class](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/samples-from-msdn/QuickStart/SDK%20Helper%20Code/CrmServiceHelpers.cs)   
  [Active Directory and Claims-Based Authentication](active-directory-claims-based-authentication.md)   
  [Use connection strings in XRM tooling to connect to Dynamics 365 Customer Engagement (on-premises)](xrm-tooling/use-connection-strings-xrm-tooling-connect.md)

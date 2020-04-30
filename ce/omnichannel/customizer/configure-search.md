@@ -4,12 +4,10 @@ description: "Learn how to configure search for agents and supervisors to search
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 10/25/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 23C81DBF-7B80-4570-ADC1-9124B98ED39A
-ms.custom: 
 ---
 
 # Configure search overview

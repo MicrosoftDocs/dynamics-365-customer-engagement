@@ -1,11 +1,12 @@
 ---
 title: "Behavior differences in the Chrome Process and IE Process hosting types  | MicrosoftDocs"
 description: "Learn about the behavior differences in the Chrome Process and IE Process hosting types."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 07/15/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: "article"
-ms.assetid: 008D1C74-1558-4172-8D5C-26F82F659F5F
 author: kabala123
 ms.author: kabala
 manager: shujoshi

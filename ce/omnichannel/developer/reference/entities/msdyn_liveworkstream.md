@@ -1,13 +1,13 @@
 ---
 title: "msdyn_liveworkstream Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_liveworkstream entity."
-ms.date: 08/29/2019
-ms.service: "crm-online"
-ms.topic: "reference"
-ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
+ms.date: 08/29/2019
+ms.service: 
+  - crm-online
+ms.topic: "reference"
 ---
 # msdyn_liveworkstream Entity Reference
 
@@ -1141,7 +1141,7 @@ Same as msdyn_ocliveworkstreamcontextvariable entity [msdyn_msdyn_liveworkstream
 
 **Added by**: Omnichannel – Chat Solution
 
-Same as msdyn_livechatconfig entity [msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid](msdyn_livechatconfig.md#BKMK_msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid) Many-To-One relationship.
+Same as msdyn_livechatconfig entity [msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid](msdyn_livechatconfig.md) Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|

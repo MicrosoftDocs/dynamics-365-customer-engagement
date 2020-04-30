@@ -1,11 +1,12 @@
 ---
 title: "Configure an action for the hosted application | MicrosoftDocs"
 description: "Learn about configuring the actions for the hosted application."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: e8a01fe6-df83-40e4-9b1e-faa4a3f46da5
 author: kabala123
 ms.author: kabala
 manager: shujoshi

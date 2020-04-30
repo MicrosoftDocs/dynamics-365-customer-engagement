@@ -10,8 +10,8 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 1ed89b35-a84d-488e-b58c-4ed6eb26018c
 author: JimDaly
-ms.author: jdaly
-manager: jdaly
+ms.author: nabuthuk
+manager: kvivek
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -31,29 +31,35 @@ search.app:
 
 # Sample: Import data using complex data map
 
-This sample code is for Dynamics 365 Customer Engagement. Download the sample: [Work with importing data](https://code.msdn.microsoft.com/Samples-of-data-import-bd371c8c).
-  
-> [!NOTE]
->  The source data for this sample is contained in the following file:   
-> `Import data\C#\import accounts.csv`
+This sample shows how to create new records by using data import. The sample uses a complex data map. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/ImportComplexDataMap).
 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
-  
-## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
-  
-## Demonstrates  
- This sample shows how to create new records in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] for Customer Engagement by using data import. The sample uses a complex data map.  
-  
-## Example  
- [!code-csharp[DataImport#ImportWithCreate](../snippets/csharp/CRMV8/dataimport/cs/importwithcreate.cs#importwithcreate)]  
-  
-### See also  
- [Import Data in Dynamics 365 Customer Engagement (on-premises)](import-data.md)   
- <xref:Microsoft.Crm.Sdk.Messages.GetHeaderColumnsImportFileRequest>   
- <xref:Microsoft.Crm.Sdk.Messages.ParseImportRequest>   
- <xref:Microsoft.Crm.Sdk.Messages.GetDistinctValuesImportFileRequest>   
- <xref:Microsoft.Crm.Sdk.Messages.RetrieveParsedDataImportFileRequest>   
- <xref:Microsoft.Crm.Sdk.Messages.TransformImportRequest>   
- <xref:Microsoft.Crm.Sdk.Messages.ImportRecordsImportRequest>
+>[!NOTE]
+> The source data for this sample is contained in the following file `ImportComplexDataMap\import accounts.csv`.
+
+[!include[cc-sample-note](includes/cc-sample-note.md)]
+
+## How to run this sample
+
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-PA-samples.md)]
+
+## How this sample works
+
+In order to simulate the scenario described above, the sample will do the following:
+
+### Setup
+
+1. Checks for the current version of the org.
+1. The `ImportMap` method creates an import map.
+1. The `ColumnMapping` method creates a column mapping for a `text` type field.
+1. The `EntityReference` method relates the column mapping with the data map.
+1. The `LookUpMapping` method creates a lookup mapping to the parent account.
+1. The `ImportFile` method creates a import file.
+1. The `GetHeaderColumnsImportFileRequest` method retrieves the header columns used in the import file.
+1. The `ParseImportRequest` method parses the import file. 
+1. The `RetrievedParsedDataImportFileRequest` method retrieves the data from the parse table.
+1. The `TransformImportRequest` method transforms the import.
+
+
+### Clean up
+
+Display an option to delete the records created in the [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.

@@ -2,13 +2,12 @@
 title: "msdyn_playbookactivity EntityType | MicrosoftDocs"
 description: "Entity reference for msdyn_playbookactivity EntityType"
 ms.date: 04/08/2019
-ms.service: crm-online
+ms.service: 
+  - crm-online
 ms.topic: article
-ms.assetid: AAF5B63C-876E-4A56-93F4-D4E027997C05
 author: susikka
 ms.author: susikka
 manager: shujoshi
-caps.latest.revision: 22
 ---
 # msdyn_playbookactivity EntityType
 

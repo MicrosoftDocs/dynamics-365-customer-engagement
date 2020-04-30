@@ -1,18 +1,15 @@
 ---
 title: "Set up product families (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Make it easier for sales agents to find products and services in a product catalog by creating a product family and classifying similar products in it in Dynamics 365 Sales."
-keywords: "Product family, create, family, sales, catalog"
 ms.date: 10/01/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: c5844aaf-a77f-4097-bfb5-1022ad53dcea
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-caps.latest.revision: 25
 ---
 
 # Set up product families (Sales and Sales Hub)
@@ -36,7 +33,7 @@ Make it easier for sales agents to find products and services in a product catal
 
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
   
-2. Select the site map ![Site map icon](media/site-map-icon.png "Site map icon"), and then select **Products**.  
+2. Select the site map ![Site Map icon](media/site-map-icon.png "Site map icon"), then select **App Settings**, and then select **Families and Products**. 
   
 3. To create a family, on the command bar, select **Add Family**.  
   
@@ -44,7 +41,8 @@ Make it easier for sales agents to find products and services in a product catal
   
     To create a child product family under an existing family, select the family, and select **Add Family**. The selected family becomes the parent family of the new family you're creating.  
   
-    ![List of products with Add Family button](media/add-family.png "List of products with Add Family button")  
+    > [!div class="mx-imgBorder"]
+    > ![List of products with Add Family button](media/add-family.png "List of products with Add Family button")  
   
 4. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   

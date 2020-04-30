@@ -2,10 +2,11 @@
 title: "Gain insights with dashboards in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Get insights into how your sales team is doing by using dashboards in Dynamics 365 Sales Professional."
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service: 
+  - dynamics-365-sales
+ms.custom: 
+  - dyn365-sales
 ms.topic: article
-ms.assetid: 21d9e514-6e31-432b-b7c9-ec6290b59fa2
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe

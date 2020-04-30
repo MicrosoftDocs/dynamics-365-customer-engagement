@@ -1,18 +1,19 @@
 ---
 title: "Download Unified Service Desk  | MicrosoftDocs"
 description: "This topic provides information about how to download Unified Service Desk."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/17/2018
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 1f9169ce-cba3-4bb6-af20-f86140139cfe
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
-search.app:
+search.app: 
   - D365CE
   - D365USD
 ---

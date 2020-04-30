@@ -1,10 +1,12 @@
 ---
 title: "Components of Unified Service Desk | MicrosoftDocs"
-ms.custom: dyn365-USD
+description: 
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: get-started-article
-ms.assetid: 3c35c1e5-47eb-40e6-ac3a-8359bef9afd3
 author: kabala123
 ms.author: kabala
 manager: shujoshi

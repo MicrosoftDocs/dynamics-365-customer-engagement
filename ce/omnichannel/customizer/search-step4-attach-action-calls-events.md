@@ -4,12 +4,10 @@ description: "Learn how to attach the search-related action calls to events for 
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: DA858185-6697-45D8-979D-D53B7C29101F
-ms.custom: 
 ---
 
 # Step 4: Attach the search-related action calls to events

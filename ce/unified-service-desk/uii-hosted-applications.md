@@ -1,11 +1,12 @@
 ---
 title: "UII hosted applications in Unified Service Desk | MicrosoftDocs"
 description: "Learn about using the UII hosted applications in Unified Service Desk."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 9c44385e-884a-46e4-a537-b3317cf63725
 author: kabala123
 ms.author: kabala
 manager: shujoshi

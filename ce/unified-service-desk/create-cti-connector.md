@@ -1,18 +1,19 @@
 ---
 title: "Create a CTI Connector | MicrosoftDocs"
 description: "Learn about the CTI Connector component in your custom CTI adapter contains the logic to connect to and communicate with an external CTI system. CTI Connector consists of the ICtiControl interface, which includes the CtiHostedControl class containing methods and events that will be called and listened to by the CTI Desktop Manager component."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 01/25/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: dc647143-8e14-4bb3-ad6a-844f6fc63b33
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-search.audienceType:
+search.audienceType: 
   - customizer
   - developer
-search.app:
+search.app: 
   - D365CE
   - D365USD
 ---

@@ -28,7 +28,7 @@ ms.author: matp
   
 -   The user account is not a local system account.  
   
--   The credentials specified in the XML Setup configuration file or on the **Specify Service Accounts** page in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Setup are valid. For information on permissions for service accounts, see [Minimum permissions required for Microsoft Dynamics CRM Setup and services](http://go.microsoft.com/fwlink/p/?LinkID=306136).  
+-   The credentials specified in the XML Setup configuration file or on the **Specify Service Accounts** page in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Setup are valid. For information on permissions for service accounts, see [Minimum permissions required for Microsoft Dynamics CRM Setup and services](https://go.microsoft.com/fwlink/p/?LinkID=306136).  
   
 ## Cause 2
   
@@ -42,7 +42,7 @@ ms.author: matp
   
  Verify and correct the domain user issues as necessary. 
 
- Use the setspn tool to verify that the SPN is registered with [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)], and if necessary, register the SPN. For more information about setspn, see [Setspn](http://go.microsoft.com/fwlink/p/?LinkID=194151).  
+ Use the setspn tool to verify that the SPN is registered with [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)], and if necessary, register the SPN. For more information about setspn, see [Setspn](https://go.microsoft.com/fwlink/p/?LinkID=194151).  
     
  ## Solution 3
   

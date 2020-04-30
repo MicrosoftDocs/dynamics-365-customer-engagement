@@ -1,14 +1,12 @@
 ---
 title: "Help resources for Dynamics 365 Sales (Enterprise) | Microsoft Docs"
 description: "A starting point for browsing help content for Dynamics 365 Sales."
-keywords: "sales;help"
 ms.date: 10/14/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: cb9ac6db-6e97-4d65-9622-cf7061db988d
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe

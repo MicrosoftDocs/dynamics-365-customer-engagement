@@ -1,11 +1,12 @@
 ---
 title: "Search Path Elements in Unified Service Desk | MicrosoftDocs"
 description: "Learn about Search Path Elements in Unified Service Desk."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 6b9e70b9-20a1-430c-9cf0-bb8ca7b2480d
 author: kabala123
 ms.author: kabala
 manager: shujoshi

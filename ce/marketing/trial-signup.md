@@ -9,8 +9,8 @@ ms.custom:
   - dyn365-marketing
 ms.topic: article
 ms.assetid: a52e468a-b81e-4598-aa3a-b0670c333e42
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -50,7 +50,7 @@ You can sign up for, install, and use a trial version of Dynamics 365 Marketing 
 
 In most ways, Marketing trials are fully functional, but time-limited, production instances. However, there are a few key differences:
 
-- Each Marketing trial comes pre-installed on a dedicate trial instance included with the trial. You can't install a Marketing trial on an existing instance.
+- Each Marketing trial comes pre-installed on a dedicated trial instance included with the trial. You can't install a Marketing trial on an existing instance.
 - Marketing trials can't be integrated with a Dynamics 365 Portal. Instead, they provide a special mechanism that lets you try out landing pages, forms, the event website, and other interactive features without requiring a Dynamics 365 Portal or external CMS system. More information: [Integrate Marketing with a CMS system or Dynamics 365 Portal](portal-optional.md)
 - You can't uninstall/re-install trials using the standard tools provided by the Dynamics 365 admin center. Trials are special and are handled differently than production instances.
 - You don't need to run the [setup wizard](purchase-setup.md) when setting up a trial.

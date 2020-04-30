@@ -25,7 +25,7 @@ search.app:
 
 # Sample: Create, retrieve, update, and delete a SharePoint location record
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)]. Download the sample: [Work with SharePoint Integration](https://code.msdn.microsoft.com/Samples-of-Sharepoint-b4fb016f).
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)]. Download the sample: [Work with SharePoint Integration](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/SharePointIntegration).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]

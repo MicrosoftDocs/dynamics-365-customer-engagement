@@ -20,5 +20,5 @@ ms.author: matp
   
  ## Solution
   
- This is a warning and Setup can continue. However, for a more secure deployment of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], we recommend that you specify a separate least-privileged user account for each [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] service. For more information, see [Minimum permissions required for Microsoft Dynamics CRM Setup and services](http://go.microsoft.com/fwlink/p/?LinkID=306136).
+ This is a warning and Setup can continue. However, for a more secure deployment of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], we recommend that you specify a separate least-privileged user account for each [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] service. For more information, see [Minimum permissions required for Microsoft Dynamics CRM Setup and services](https://go.microsoft.com/fwlink/p/?LinkID=306136).
 

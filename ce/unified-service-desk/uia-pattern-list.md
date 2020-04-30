@@ -1,11 +1,12 @@
 ---
 title: "UIA Pattern List in Unified Service Desk | MicrosoftDocs"
 description: "Learn about UIA patterns in Unified Service Desk."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: a07d78ff-f017-4538-bede-fe722975f434
 author: kabala123
 ms.author: kabala
 manager: shujoshi

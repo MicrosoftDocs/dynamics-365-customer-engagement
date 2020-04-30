@@ -4,12 +4,10 @@ description: "Learn how to create the communication panel entity search forms."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 5ad92775-6091-4385-a661-22f6b4ab0cf3
-ms.custom: 
 ---
 
 # Step 1: Create communication panel entity search

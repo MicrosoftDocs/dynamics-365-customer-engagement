@@ -4,12 +4,10 @@ description: "Learn how add action calls, events, window navigation rule and hos
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
 ms.date: 10/25/2019
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 052AC268-36B4-470E-A599-803CCB84C77E
-ms.custom: 
 ---
 
 # Step 7:  Add the hosted control, action calls, window navigation rule, and events to configurations

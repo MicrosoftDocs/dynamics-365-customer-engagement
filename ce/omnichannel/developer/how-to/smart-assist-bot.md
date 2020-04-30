@@ -1,26 +1,17 @@
 ---
 title: "Build a custom smart assist bot | MicrosoftDocs"
 description: "Read how you can build a smart assist bot to help agents resolve customer queries faster and more effectively"
-keywords: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 10/25/2019
-ms.service: dynamics-365-customerservice
+ms.date: 01/20/2020
+ms.service: 
+  - "dynamics-365-customerservice"
 ms.topic: article
-ms.assetid: 355B4706-49DF-4E2F-A46D-00F12E0044C6
-ms.custom: 
 ---
-# Preview: Build a custom smart assist bot
+# Build a custom smart assist bot
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
-
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
-> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided “as-is,” “with all faults,” “as available,” and without warranty.
-> - This preview features does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
-> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../../../legal/dynamics-insider-agreement.md).
 
 Smart assist is an intelligent assistant that provides real-time recommendations to the agents, enabling them to take actions while interacting with the customers. It allows organizations to build a custom bot to push real-time recommendations to agents within the smart assist control on the agent UI. The smart assist bot interprets the ongoing conversation and provides recommendations to the agent using [Microsoft Adaptive Cards](https://adaptivecards.io).
 
@@ -119,11 +110,13 @@ Given below is the adaptive card JSON for displaying knowledge article recommend
             "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAJCAYAAAAGuM1UAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABySURBVHgBnYyxDUBQFEXffURtAvk2YRIaNatoVWxgAyvYwI8JVArEEyqE+HHKm3MuyBCV9DERt2wqA0hpnjVMZZmWUJf+wCrrXBV3rom8b0yjFcCxm3v0JB+BLrxaRPJz9Cbv4P6IFZWwRE/yJfh6/s0G2y1KJHtA3a4AAAAASUVORK5CYII="
         }
     ],
-    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
     "version": "1.0"
 }
 ```
 The [code sample](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/smart-assist-bot) uses a Web API query to search <xref href="Microsoft.Dynamics.CRM.kbarticle?text=Knowledge Base Article entity" /> in your Dynamics 365 instance. You can modify this query to use <xref href="Microsoft.Dynamics.CRM.incident?text=Incident(case) entity" /> if you wish to search incidents.
+
+For information on how to create a knowledge article using template, see [Create a knowledge article using a template](../../../customer-service/create-knowledge-article-using-template.md).
 
 ### Smart assist using similar cases
 
@@ -198,7 +191,7 @@ Given below is the adaptive card JSON for displaying similar case recommendation
             "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAANCAYAAACZ3F9/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAE8SURBVHgBnVLBUQJBEOxd1z8BALWgAWAEagSQAfLw5CdEIBkIP+UeEoIZyGUAAchtnVT55cXDu5txDrkqQKHUeexu7Uz3dO8OrBc18I/QWul6xYtC682bfwGq6nV0xazqSqkFg63sE9LxwD1U3MGOdJSOoVCY+cUWx6YFpqmm45fqTfRk26Hd2zFbqt48pI/4zI0qizyxUqJVU1NWxYPXYfl5q+MaPoYxtc3EzC+PwsfSZWrQY/7+Dipnl+M9xOc+aWAuZJYYmDCha7766nMibrhhMditt52woJemI6RNqekjSQaZJbNmqyFOppuA0/bbhTDf0lJyjD7F229gbPvdcpogv1wBGHdpKnxAz/nl4Cfl6kQmhxXqIDUROR35jjFBjZxfCnAgDMvkQPwRw2FHzkEgiAKK0+5vAXl8ArWLn19rFeLfAAAAAElFTkSuQmCC"
         }
     ],
-    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
     "version": "1.0"
 }
 ```
@@ -270,7 +263,7 @@ Given below is the adaptive card JSON for cross sell recommendation.
 			"iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAANCAYAAACZ3F9/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAE8SURBVHgBnVLBUQJBEOxd1z8BALWgAWAEagSQAfLw5CdEIBkIP+UeEoIZyGUAAchtnVT55cXDu5txDrkqQKHUeexu7Uz3dO8OrBc18I/QWul6xYtC682bfwGq6nV0xazqSqkFg63sE9LxwD1U3MGOdJSOoVCY+cUWx6YFpqmm45fqTfRk26Hd2zFbqt48pI/4zI0qizyxUqJVU1NWxYPXYfl5q+MaPoYxtc3EzC+PwsfSZWrQY/7+Dipnl+M9xOc+aWAuZJYYmDCha7766nMibrhhMditt52woJemI6RNqekjSQaZJbNmqyFOppuA0/bbhTDf0lJyjD7F229gbPvdcpogv1wBGHdpKnxAz/nl4Cfl6kQmhxXqIDUROR35jjFBjZxfCnAgDMvkQPwRw2FHzkEgiAKK0+5vAXl8ArWLn19rFeLfAAAAAElFTkSuQmCC"
 		}
 	],
-	"$schema" : "http://adaptivecards.io/schemas/adaptive-card.json",
+	"$schema" : "https://adaptivecards.io/schemas/adaptive-card.json",
 	"version" : "1.0"
 }
 ```
@@ -345,7 +338,7 @@ Given below is the adaptive card JSON for creating an appointment with the custo
             "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAANCAYAAACZ3F9/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAE8SURBVHgBnVLBUQJBEOxd1z8BALWgAWAEagSQAfLw5CdEIBkIP+UeEoIZyGUAAchtnVT55cXDu5txDrkqQKHUeexu7Uz3dO8OrBc18I/QWul6xYtC682bfwGq6nV0xazqSqkFg63sE9LxwD1U3MGOdJSOoVCY+cUWx6YFpqmm45fqTfRk26Hd2zFbqt48pI/4zI0qizyxUqJVU1NWxYPXYfl5q+MaPoYxtc3EzC+PwsfSZWrQY/7+Dipnl+M9xOc+aWAuZJYYmDCha7766nMibrhhMditt52woJemI6RNqekjSQaZJbNmqyFOppuA0/bbhTDf0lJyjD7F229gbPvdcpogv1wBGHdpKnxAz/nl4Cfl6kQmhxXqIDUROR35jjFBjZxfCnAgDMvkQPwRw2FHzkEgiAKK0+5vAXl8ArWLn19rFeLfAAAAAElFTkSuQmCC"
         }
     ],
-    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
     "version": "1.0"
 }
 
@@ -380,7 +373,7 @@ See also: [Automate tasks with macros](../../administrator/macros.md).
 
 ### Custom actions
 
-You will have to create a web resource if you want to use embed a custom action within a suggestion. See the PowerApps topic on [Create your own actions](/powerapps/developer/common-data-service/custom-actions) for information on how to build a custom action.
+You will have to create a web resource if you want to use embed a custom action within a suggestion. See the Power Apps topic on [Create your own actions](/powerapps/developer/common-data-service/custom-actions) for information on how to build a custom action.
 
 To use a custom action, replace `MacroName` and `MacroParameters` with `CustomAction` and `CustomParameters` respectively in the adaptive card JSON. The value provided for `CustomAction` key should be the same as the name of the method that is to be called.
 
@@ -390,7 +383,7 @@ You can find the entire code sample here: [Smart Assist for Bots](https://github
 
 The sample code implements two functionalities, one that is Common Data Service specific and other is generic functionality.
 
-In the Common Data Service functionality, the bot finds the intent in the conversation and tries to query Common Data Service for a relevant Knowledge Base article. The connection to Dynamics 365 has to be specified in the `appsettings.json` file in the sample. The `DynamicsDataAccessLayer.cs` class in the sample uses the connection strings mentioned in the app settings file to query the knowledge base articles in your Dynamics 365 instance. For more information on how to S2S authentication to enable communication between Common Data Service and your bot, see the PowerApps topic: [Build web applications using Server-to-Server(S2S) authentication](/powerapps/developer/common-data-service/build-web-applications-server-server-s2s-authentication).
+In the Common Data Service functionality, the bot finds the intent in the conversation and tries to query Common Data Service for a relevant Knowledge Base article. The connection to Dynamics 365 has to be specified in the `appsettings.json` file in the sample. The `DynamicsDataAccessLayer.cs` class in the sample uses the connection strings mentioned in the app settings file to query the knowledge base articles in your Dynamics 365 instance. For more information on how to S2S authentication to enable communication between Common Data Service and your bot, see the Power Apps topic: [Build web applications using Server-to-Server(S2S) authentication](/powerapps/developer/common-data-service/build-web-applications-server-server-s2s-authentication).
 
 In the generic functionality, if the bot encounters an intent for appointment, it suggests the appointment activity in the adaptive cards. You can use [Language Understanding (LUIS)](https://luis.ai) service to extract intent from an ongoing conversation. The conversation intent can be used along with the initial conversation context to display recommendations for the agent. 
 
@@ -399,4 +392,5 @@ In the generic functionality, if the bot encounters an intent for appointment, i
 [Smart assist for agents](../../administrator/smart-assist.md)<br />
 [Create a bot with Azure bot service](/azure/bot-service/abs-quickstart)<br />
 [Automate tasks with macros](../../administrator/macros.md)<br />
-[Integrate an Azure bot](../../administrator/configure-bot.md)
+[Integrate an Azure bot](../../administrator/configure-bot.md)<br />
+[Create knowledge article template](../../../customer-service/create-templates-knowledge-article.md)

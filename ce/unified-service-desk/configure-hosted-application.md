@@ -1,11 +1,12 @@
 ---
 title: "Configure the hosted application | MicrosoftDocs"
 description: "Learn about the configuring the hosted application."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: f944f2db-3db7-47b4-8d99-3bad01397c17
 author: kabala123
 ms.author: kabala
 manager: shujoshi

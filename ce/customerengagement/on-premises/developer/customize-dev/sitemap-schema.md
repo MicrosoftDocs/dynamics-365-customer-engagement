@@ -28,13 +28,13 @@ The following is the schema definition for the SiteMap portion of an import/expo
 
 You can find this schema in the `Schemas\9.0.0.2090\SiteMap.xsd` folder when you download the Schemas zip file.
 
-Download the [Schemas](http://download.microsoft.com/download/B/9/7/B97655A4-4E46-4E51-BA0A-C669106D563F/Schemas.zip).  
+Download the [Schemas](https://download.microsoft.com/download/B/9/7/B97655A4-4E46-4E51-BA0A-C669106D563F/Schemas.zip).  
   
 ```xml  
 <?xml version="1.0"?>  
 <xs:schema attributeFormDefault="unqualified"  
            elementFormDefault="qualified"  
-           xmlns:xs="http://www.w3.org/2001/XMLSchema">  
+           xmlns:xs="https://www.w3.org/2001/XMLSchema">  
   <xs:include schemaLocation="SiteMapType.xsd" />  
   <xs:element name="SiteMap"  
               type="SiteMapType">  
@@ -50,13 +50,13 @@ Download the [Schemas](http://download.microsoft.com/download/B/9/7/B97655A4-4E4
 
 You can find this schema in the `Schemas\9.0.0.2090\SiteMapType.xsd` folder when you download the Schemas zip file.
 
-Download the [Schemas](http://download.microsoft.com/download/B/9/7/B97655A4-4E46-4E51-BA0A-C669106D563F/Schemas.zip).  
+Download the [Schemas](https://download.microsoft.com/download/B/9/7/B97655A4-4E46-4E51-BA0A-C669106D563F/Schemas.zip).  
   
 ```xml  
 <?xml version="1.0"?>  
 <xs:schema attributeFormDefault="unqualified"  
            elementFormDefault="qualified"  
-           xmlns:xs="http://www.w3.org/2001/XMLSchema">  
+           xmlns:xs="https://www.w3.org/2001/XMLSchema">  
   <xs:simpleType name="LCIDType_SiteMap">  
     <xs:restriction base="xs:decimal">  
       <xs:fractionDigits value="0"  

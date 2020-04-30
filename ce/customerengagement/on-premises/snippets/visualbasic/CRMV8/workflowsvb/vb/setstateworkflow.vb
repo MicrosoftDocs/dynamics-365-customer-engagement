@@ -120,14 +120,14 @@ Namespace Microsoft.Crm.Sdk.Samples
 			' This xml defines a workflow that creates a new task when executed
             xamlWF = "<?xml version=""1.0"" encoding=""utf-16""?>" &amp; _
                 "<Activity x:Class=""CreateTask"" " &amp; _
-                "          xmlns=""http://schemas.microsoft.com/netfx/2009/xaml/activities"" " &amp; _
+                "          xmlns=""https://schemas.microsoft.com/netfx/2009/xaml/activities"" " &amp; _
                 "          xmlns:mva=""clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"" " &amp; _
                 "          xmlns:mxs=""clr-namespace:Microsoft.Xrm.Sdk;assembly=Microsoft.Xrm.Sdk, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"" " &amp; _
                 "          xmlns:mxswa=""clr-namespace:Microsoft.Xrm.Sdk.Workflow.Activities;assembly=Microsoft.Xrm.Sdk.Workflow, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"" " &amp; _
                 "          xmlns:s=""clr-namespace:System;assembly=mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"" " &amp; _
                 "          xmlns:scg=""clr-namespace:System.Collections.Generic;assembly=mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"" " &amp; _
                 "          xmlns:srs=""clr-namespace:System.Runtime.Serialization;assembly=System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"" " &amp; _
-                "          xmlns:this=""clr-namespace:"" xmlns:x=""http://schemas.microsoft.com/winfx/2006/xaml"">" &amp; _
+                "          xmlns:this=""clr-namespace:"" xmlns:x=""https://schemas.microsoft.com/winfx/2006/xaml"">" &amp; _
                 "    <x:Members>" &amp; _
                 "        <x:Property Name=""InputEntities"" Type=""InArgument(scg:IDictionary(x:String, mxs:Entity))"" />" &amp; _
                 "        <x:Property Name=""CreatedEntities"" Type=""InArgument(scg:IDictionary(x:String, mxs:Entity))"" />" &amp; _

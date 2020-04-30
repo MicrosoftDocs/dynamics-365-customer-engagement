@@ -1,22 +1,27 @@
 ---
 title: "Integrate with Citrix applications in Unified Service Desk | MicrosoftDocs"
 description: "The topic explains the integration with Citrix application in Unified service Desk."
-ms.custom: dyn365-USD
-ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.custom: 
+  - dyn365-USD
+ms.date: 01/21/2020
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 174894bd-eb2e-4b67-95bd-74e6b3540f47
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-search.audienceType:
+search.audienceType: 
   - customizer
   - developer
-search.app:
+search.app: 
   - D365CE
   - D365USD
 ---
 # Integrate with Citrix applications in Unified Service Desk
+
+> [!Note]
+> Hosting Citrix applications within Unified Service Desk isn't supported anymore.
+
 Integrate your [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] applications with [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] by hosting them in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. This enables customer service agents to interact with the [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] applications from within the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client while working on the customer data in the Common Data Service platform. You can configure a Windows application as a virtual application on Citrix XenApp 7.6 that runs as a hosted application in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. More information: [Software requirements for Citrix XenApp application virtualization](admin/unified-service-desk-system-requirements.md#software-requirements-for-citrix-xenapp-application-virtualization)  
   
  The [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] application hosted  in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client uses the Independent Computing Architecture (ICA) protocol to remotely communicate with the application on a [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] server. A Citrix .ica file contains information to connect to the remote server  such as the server address, session properties, and authentication information.  
@@ -29,7 +34,7 @@ Integrate your [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] applications with
 ## Configure server-side component for Citrix integration  
  The server-side component is implemented as an executable (Microsoft.Uii.Csr.CitrixIntegration.exe) that is configured as a startup program to automatically start when a [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] application starts. The executable quickly self-terminates if the [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] application has not been invoked from a [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client. The server-side component needs to be configured on each [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] server.  
   
-1. [Download](http://go.microsoft.com/fwlink/p/?LinkId=519179) the [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] SDK package.  
+1. [Download](https://go.microsoft.com/fwlink/p/?LinkId=519179) the [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] SDK package.  
   
 2. Double-click the package file to extract the contents.  
   
@@ -50,11 +55,11 @@ Integrate your [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] applications with
 <a name="ConfRemoteHosted"></a>   
 ### Configure a Remote Hosted Application  
   
-1. Sign in to the Common Data Service platform.  
+1. Sign in to Unified Service Desk Administrator.  
   
-2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
+2. Select **Hosted Controls** under **Basic Settings**.
   
-3. Select **Hosted Controls**, and then select **New**. The **New Hosted Control** page is displayed.
+3. Select **+ New**.
   
 4. Specify the following in the **General** tab of the **New Hosted Control** page.
 
@@ -201,5 +206,7 @@ Integrate your [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] applications with
 
 ### See also
  [UII hosted applications](../unified-service-desk/uii-hosted-applications.md)
+
  [Create and manage UII hosted applications](../unified-service-desk/create-manage-uii-hosted-applications.md)
+ 
  [Extend Unified Service Desk](../unified-service-desk/extend-unified-service-desk.md)

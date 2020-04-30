@@ -1,11 +1,12 @@
 ---
 title: "Create and manage quotes in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Use quotes in Dynamics 365 Sales Professional to make formal offers for products with proposed prices to customers."
-ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.date: 12/12/2019
+ms.service: 
+  - "dynamics-365-sales"
+ms.custom: 
+  - "dyn365-sales"
 ms.topic: article
-ms.assetid: 9f0790d3-9141-4e2e-a0fe-f15324d67337
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
@@ -31,7 +32,8 @@ When the customer accepts the quote, and you are ready to ship the products, you
 
     The Quote form opens.
 
-    ![Quote form with data from opportunity](media/quote-form-opportunity-data.png "Quote form with data from opportunity")
+    > [!div class="mx-imgBorder"]
+    > ![Quote form with data from opportunity](media/quote-form-opportunity-data.png "Quote form with data from opportunity")
 
 4.  Enter shipping and payment information in the **Shipping Information** area of the **Quote** screen.
 
@@ -54,7 +56,8 @@ When the customer accepts the quote, and you are ready to ship the products, you
 
     The Quote form opens.
 
-    ![Quote form](media/empty-quote-form.png "Quote form")
+    > [!div class="mx-imgBorder"]
+    > ![Quote form](media/empty-quote-form.png "Quote form")
 
 3.  Add your quote information.
 
@@ -72,12 +75,10 @@ When the customer accepts the quote, and you are ready to ship the products, you
 
 ## Email a quote
 
-When you’ve added all the details to the quote, you can send it to the customer. To directly send an email to customer with a quote attached, open the quote, and on the command bar, select **Send by Email**.
-
-![Send By Email command bar button](media/send-by-email-button.png "Send By Email command bar button")
+When you’ve added all the details to the quote, you can send it to the customer. To directly send an email to a customer with a quote attached, open the quote, and on the command bar, select **Email as PDF**. [!INCLUDE[proc-more-information-md](../includes/proc-more-information-md.md)] [Email a quote PDF](create-quote-pdf-sales-professional.md#email-as-a-pdf-document)
 
 ### See also
 
 [Develop sales from lead to cash in Dynamics 365 Sales Professional](develop-sales-lead-to-cash-sales-professional.md)  
-[Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)
-[Sales transactions in Dynamics 365 Sales Professional](understanding-sales-transactions-sales-professional.md)
+[Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)  
+[Sales transactions in Dynamics 365 Sales Professional](understanding-sales-transactions-sales-professional.md)  

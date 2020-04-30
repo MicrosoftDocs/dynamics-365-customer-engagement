@@ -2,10 +2,11 @@
 title: "Manage your SharePoint documents and document locations in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Store your sales documents on SharePoint and manage them from within Dynamics 365 Sales Professional."
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service: 
+  - "dynamics-365-sales"
+ms.custom: 
+  - "dyn365-sales"
 ms.topic: article
-ms.assetid: 98950c0c-8f3d-4cf2-9791-70c7b4ecb790
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
@@ -51,7 +52,8 @@ By default, SharePoint is enabled for the following entities:
 
 For record types that support document management, open the record, select the **Related** tab, and then select **Documents**.
 
-![Documents option in Related tab](media/documents-option-related-tab.png "Documents option in Related tab")
+> [!div class="mx-imgBorder"]
+> ![Documents option in Related tab](media/documents-option-related-tab.png "Documents option in Related tab")
 
 ## What happens when you navigate to the Documents tab the first time?
 
@@ -68,7 +70,8 @@ Open a Document list for an entity record. For example, for an opportunity recor
 
 3.  Select the **Related** tab, and then select **Documents**.
 
-    ![Documents tab showing the Documents list or Documents Associated Grid in a form](media/documents-tab-in-form.png "Documents tab showing the Documents list or Documents Associated Grid in a form")
+    > [!div class="mx-imgBorder"]
+    > ![Documents tab showing the Documents list or Documents Associated Grid in a form](media/documents-tab-in-form.png "Documents tab showing the Documents list or Documents Associated Grid in a form")
 
 4.  Select **Document Location** to filter the document list. Select from the available document locations.
 
@@ -87,7 +90,8 @@ To create a new SharePoint document in your app:
 4.  In the **Create a New Document dialog** box, enter a document or folder
     name.
 
-    ![Create a new Word document dialog box](media/create-word-document-dialog-box.png "Create a new Word document dialog box")
+    > [!div class="mx-imgBorder"]
+    > ![Create a new Word document dialog box](media/create-word-document-dialog-box.png "Create a new Word document dialog box")
 
 5.  Select **Save**.
 
@@ -95,7 +99,8 @@ To create a new SharePoint document in your app:
 
     If you create a folder, you’ll be able to see a folder hierarchy at the top of Documents list.
 
-    ![Form showing folder hierarchy in documents list](media/folder-hierarchy-in-document-list.png "Form showing folder hierarchy in documents list")
+    > [!div class="mx-imgBorder"]
+    > ![Form showing folder hierarchy in documents list](media/folder-hierarchy-in-document-list.png "Form showing folder hierarchy in documents list")
 
     Select the folder name to navigate between the folders.
 
@@ -129,13 +134,15 @@ In the **Documents** list:
 1.  To open the location, on the command bar, select **Open Location**, and then
     select the location.
 
-    ![Open document location from a record](media/open-document-location.png "Open document location from a record")
+    > [!div class="mx-imgBorder"]
+    > ![Open document location from a record](media/open-document-location.png "Open document location from a record")
 
 2.  To edit the location, on the command bar, select **Edit Location** \> \<location name>.
 
     The **Edit Location** dialog box appears.
 
-    ![Dialog box to edit a SharePoint location](media/edit-sharepoint-location.png "Dialog box to edit a SharePoint location")
+    > [!div class="mx-imgBorder"]
+    > ![Dialog box to edit a SharePoint location](media/edit-sharepoint-location.png "Dialog box to edit a SharePoint location")
 
 3.  The display name, parent site, and folder name are automatically populated. Provide the new location details, and select **Save**.
 
@@ -143,7 +150,8 @@ In the **Documents** list:
 
     The **Add Location** dialog box appears.
 
-    ![Dialog box to add a SharePoint location](media/add-sharepoint-location.png "Dialog box to add a SharePoint location")
+    > [!div class="mx-imgBorder"]
+    > ![Dialog box to add a SharePoint location](media/add-sharepoint-location.png "Dialog box to add a SharePoint location")
 
 5.  The display name, parent site, and folder name are automatically populated. Change the details if required, and then select **Save**.
 

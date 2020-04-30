@@ -181,7 +181,7 @@ The following table details how the behavior of standard [EntityMetadata propert
 
 ### Attribute metadata property behavior changes
 
-The following table explains how the behavior of standard [AttributeMetadata properties]( https://msdn.microsoft.com/en-us/library/microsoft.xrm.sdk.metadata.attributemetadata_properties.aspx) are modified when applied to virtual entities. Some properties are not valid for virtual entities, whereas others are limited in scope or value.
+The following table explains how the behavior of standard [AttributeMetadata properties]( https://msdn.microsoft.com/library/microsoft.xrm.sdk.metadata.attributemetadata_properties.aspx) are modified when applied to virtual entities. Some properties are not valid for virtual entities, whereas others are limited in scope or value.
 
 <!-- TODO: Above link URL needs to be changed to docs.microsoft.com -->
 

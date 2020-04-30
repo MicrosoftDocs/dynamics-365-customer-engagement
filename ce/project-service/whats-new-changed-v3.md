@@ -1,15 +1,15 @@
 ---
 title: What's new or changed in Project Service Automation version 3
-description: This topic provides information about what is new and changed in PSA version 3.
+description: This topic provides information about what is new and changed in Project Service Automation version 3.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-projectservice
 ms.custom:
   - dyn365-projectservice
 ms.date: 11/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: business-applications
-ms.technology: Dynamics 365 for Customer Engagement for Project Service 3.x
+ms.technology: Dynamics 365 Project Service Automation 3.x
 author: JohnPBurrows
 ms.author: john.burrows
 audience: Admin
@@ -23,17 +23,19 @@ search.app:
   
 ---
 
+
+
 # What's new or changed in Project Service Automation version 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-This topic provides information about the changes to user interface (UI), functionality, and terminology in Project Service Automation (PSA) between version 2 or version 1 and version 3.
+This topic provides information about the changes to user interface (UI), functionality, and terminology in Project Service Automation between version 2 or version 1 and version 3.
 
 ## Project scheduling
 The project schedule, which was known as the Work Breakdown Structure (WBS) in previous versions, has been renamed Schedule and is accessed by clicking the **Schedule** tab. 
 
 ![Project Schedule](media/psa-schedule-01.png)
 
-The schedule now has a new surface for interaction that is both modern and accessible, however the underlying PSA scheduling engine has not changed. The control buttons in the schedule grid’s ribbon allow you to interact with the schedule similar to the previous version of PSA. Additional changes to the schedule include:
+The schedule now has a new surface for interaction that is both modern and accessible. However, the underlying Project Service Automation scheduling engine has not changed. The control buttons in the schedule grid’s ribbon allow you to interact with the schedule similar to the previous version of Project Service Automation. Additional changes to the schedule include:
 
 - **Gantt chart** - The Gantt chart is no longer present. A new Gannt visualization will be returning in a future update.
 - **Column headers** - You can hide column headers in the grid by clicking the down indicator next to the column title. 
@@ -44,10 +46,10 @@ The schedule now has a new surface for interaction that is both modern and acces
 The following changes have been made to project template functionality.
 
 ### Create a project template 
-You can create a project template in version 3 similar to previous version of PSA. The template can contain only a schedule and the schedule can include assignments, but they are not required. If the schedule does have assignments, they can only be for generic resources. You can generate resource requirements for generic resources, but they can't be booked with real resources in the template. You can't book a real resource to a team in a template. 
+You can create a project template in version 3 similar to previous versions of Project Service Automation. The template can contain only a schedule and the schedule can include assignments, but they are not required. If the schedule does have assignments, they can only be for generic resources. You can generate resource requirements for generic resources, but they can't be booked with real resources in the template. You can't book a real resource to a team in a template. 
 
 ### Create a template from an existing template
-When you create a new project template from an existing template in PSA version 3, the following happens: 
+When you create a new project template from an existing template in Project Service Automation version 3, the following happens: 
 
 - The source project’s schedule is copied into the template. 
 - Generic resources are copied into the team and any generic resource assignments are copied over. Requirements for the generic resources are not copied over. 
@@ -62,14 +64,14 @@ When you create a new project template from an existing project, the following h
 - If present, references to quotes and contracts are removed. 
 
 ### Create a project from a template
-In PSA version 3, when you create a new project from a template, the following happens:
+In Project Service Automation version 3, when you create a new project from a template, the following happens:
 
 - The schedule, team, and assignments are copied to the new project.   
 - The start date is either the copy date or date selected by the user.   
 - For any generic team members with resource requirements in the template, the requirements are not copied or generated automatically. You will need to generate them. 
 
 ## Copy a project
-In PSA version 3, when you copy a project, the following happens: 
+In Project Service Automation version 3, when you copy a project, the following happens: 
 
 - The estimated start date is copied, but can be changed.  
 - The project schedule and tasks are copied. 
@@ -90,7 +92,7 @@ When you move the schedule of existing project forward, the following happens:
 ## Estimates
 Estimates have been split into two tabs, **Resource assignment** and **Estimates**. The **Resource assignment** tab contains the effort estimates and shows the resource assignments for the tasks in a time-phased view. You can edit the estimates based on what the scheduling engine has generated.
 
-![Resouce assignments tab showing effort estimates and resource assignments for tasks](media/resource-assignments-tab-02.png)
+![Resource assignments tab showing effort estimates and resource assignments for tasks](media/resource-assignments-tab-02.png)
 
 The **Estimates** tab shows the cost and sales amounts for resource assignments. The amounts are read-only. The costing and sales pricing are now driven from the team member assignments on the schedule. This means that if you have a task without any assignment, the task will show under the unassigned bucket. This also means that without **role**, which is a default pricing dimension, there will be no estimated cost or sales if you have a customer or contract/quote associated with the project. 
 
@@ -103,17 +105,19 @@ Expense estimates can be entered in the grid on the **Expense estimates** tab.
 ![Expense estimates tab showing expense estimates grid](media/expense-estimates-tab-04.png)
 
 ## Resource management
-In PSA version 3, with the new Unified Client UI and changes in the relationship between bookings and assignments, staffing a project with generic or real resources has changed dramatically from version 2 and version 1. However, the concepts of bookable resources, both **real** and **generic** remain the same, as do team members, requirements, assignments, and bookings.   
+In Project Service Automation version 3, with the new Unified Client UI and changes in the relationship between bookings and assignments, staffing a project with generic or real resources has changed dramatically from version 2 and version 1. However, the concepts of bookable resources, both **real** and **generic** remain the same, as do team members, requirements, assignments, and bookings.   
 
 ![Using the resource picker](media/resource-management-05.png)
 
 ### Assign a real bookable resource 
-In PSA version 3, bookings and task assignments are not as tightly intertwined as previous versions of PSA. You can use the team grid to book a **real** team member, similar to in-market.
+In Project Service Automation version 3, bookings and task assignments are not as tightly intertwined as in previous versions of Project Service Automation. You can use the team grid to book a **real** team member, similar to in-market.
+
 Using the resource picker on the schedule, you can select the team member created in the team view and then assign them to tasks. You can continue to assign tasks to them, even past their bookings. Use the **Reconciliation** tab to reconcile team members that have differences in bookings and assignments.
+
 The resource picker will show the team members for the project. You can also use the resource picker to search for and view other bookable resources that are not part of the project team. You can assign them to a task and they will become part of the project team. You will need to book them using the **Schedule board** or **Reconciliation** tab.
 
 ### Assign a generic bookable resource on a task and project team and then fulfill with a real resource via Schedule Board 
-In PSA version 3, the generate team functionality is not used for generic resources. Instead, you can create and directly assign a generic resource from the schedule by typing the position name of the generic resource in the resource cell of the schedule. Or, you can select the resource icon in the cell and then, using the resource picker, type the name of the generic resource you want to create. This will open a quick create panel that allows you to set the role and organization unit of the generic resource team member. After you create the resource, it is assigned to the task and you can continue to assign that generic resource to other tasks in the schedule.    
+In Project Service Automation version 3, the generate team functionality is not used for generic resources. Instead, you can create and directly assign a generic resource from the schedule by typing the position name of the generic resource in the resource cell of the schedule. Or, you can select the resource icon in the cell and then, using the resource picker, type the name of the generic resource you want to create. This will open a quick create panel that allows you to set the role and organization unit of the generic resource team member. After you create the resource, it is assigned to the task and you can continue to assign that generic resource to other tasks in the schedule.    
  
 When you have assigned the resource to all of the appropriate tasks, you can generate a resource requirement and then fulfill it by directly booking with the **Schedule board** or by submitting a resource request. You can also add generic resources directly to the team member grid. 
 
@@ -165,10 +169,10 @@ Assignments and exchange follow the same UI pattern, which allow the user to spe
 In version 3, we have moved away from the custom calendar control and are now using the UC Calendar to display time entries for the week. With this calendar, you can view day, week, and month. 
 
 > [!NOTE]
-  > A limitation on the Calendar is that this control does not support actions on individual calendar items. For example, you will not be able to select one or more calendar items and submit or delete those items. Clicking on a calendar item will open the **Time entry entity** page for additional actions. 
+> A limitation on the Calendar is that this control does not support actions on individual calendar items. For example, you will not be able to select one or more calendar items and submit or delete those items. Clicking on a calendar item will open the **Time entry entity** page for additional actions. 
 
 ### Extensibility
-**Capture data on custom fields in time and expense entry entities only** - Time entry uses an editable grid, a read-only grid, and calendar controls from the platform. All of these controls are native and therefore will support customizations. In PSA version 3, you can add additional custom fields, set up lookup fields, and back them up with custom views. You can also set custom business logic based on selected values in custom fields.  
+**Capture data on custom fields in time and expense entry entities only** - Time entry uses an editable grid, a read-only grid, and calendar controls from the platform. All of these controls are native and therefore will support customizations. In Project Service Automation version 3, you can add additional custom fields, set up lookup fields, and back them up with custom views. You can also set custom business logic based on selected values in custom fields.  
 
 **Capture data on custom fields in time and expense entry and propagate it through entities supporting the submission and approval flow** - The typical processing of time entries is shown in the following diagram.
 
@@ -179,7 +183,7 @@ If business requirements stipulate that time and expense entities must capture c
 To support business requirements where time and expense entities must capture custom non-pricing dimensions and propagate the values, you can use the pricing dimensions setup and express the custom dimensions as pricing dimensions with no cost or bill rate. Another scenario would be to add a custom field to each of the entities, using the same field name across all entities. Custom plug-ins can be created to relate records in the entities that are participating in the submission/approval flow using the transaction origin and transaction connection entities.  
 
 ### Delegate time and expense entry
-The Common Data Service platform doesn't support one user impersonating another, which means in version 3 of PSA there is no support for delegated time and expense entry. However, partners and customers have leveraged a workaround to enable support for delegated time entry experiences in version 3. This is only a workaround and not a complete solution, so it is important to understand the limitations and only use this approach if the limitations are acceptable. 
+The Common Data Service platform doesn't support one user impersonating another, which means in version 3 of Project Service Automation there is no support for delegated time and expense entry. However, partners and customers have leveraged a workaround to enable support for delegated time entry experiences in version 3. This is only a workaround and not a complete solution, so it is important to understand the limitations and only use this approach if the limitations are acceptable. 
 
 > [!IMPORTANT]
 > This information should only be considered suggested guidance for custom implementation by a partner/customer. The product team will not offer formal support for this functionality through any of our support channels.
@@ -188,16 +192,16 @@ The Common Data Service platform doesn't support one user impersonating another,
 Customization allows you to add **Bookable resource** to the create and edit experiences, which will allow a user to act as a delegate by changing the **Booking resource** field to another user for whom time and expense entries need to be recorded. The following steps cover time entry delegation. The same information applies to expense entry delegation. 
  
 1.	Ensure that the delegated user has global security access on projects and project tasks. 
-2.	Because **Bookable resource**, which is a field on the **Time entry** entity, is not exposed on the **Quick create** page, you need to add it.
+1.	Because **Bookable resource**, which is a field on the **Time entry** entity, is not exposed on the **Quick create** page, you need to add it.
 
--or-
+    -or-
 
-3.	Create a custom view to view only time entries that are created for the resource. Publish the customizations on the app module designer for this view to show up under **View selector** on the **Time entries** page. There are two plug-ins that handle setting the manager for non-project time entries:
+    Create a custom view to view only time entries that are created for the resource. Publish the customizations on the app module designer for this view to show up under **View selector** on the **Time entries** page. There are two plug-ins that handle setting the manager for non-project time entries:
 
-- PreValidateTimeEntryCreate
-- PreValidateTimeEntryUpdate
+    - PreValidateTimeEntryCreate
+    - PreValidateTimeEntryUpdate
  
-4. Create a new plug-in to overwrite the **Manager** field to the manager of the user assigned in the **Bookable resource** field. Use the same **Execution stage** as the out-of-band (OOB) plug-in (pre-validation) and use an **Execution order** that is higher than OOB plug-ins (greater than 1). This will ensure that the custom plug-in is executed after the OOB plug-ins.  
+1. Create a new plug-in to overwrite the **Manager** field to the manager of the user assigned in the **Bookable resource** field. Use the same **Execution stage** as the out-of-band (OOB) plug-in (pre-validation) and use an **Execution order** that is higher than OOB plug-ins (greater than 1). This will ensure that the custom plug-in is executed after the OOB plug-ins.  
  
 ### End user experience
 1.	When you create a time entry on the quick create page, enter the Project and Project task details and then choose the user on **Bookable resource** field for whom the time entries need to be recorded for. 
@@ -208,6 +212,7 @@ Customization allows you to add **Bookable resource** to the create and edit exp
  
 ### Limitations
 **Copy** and **Import** functionality works only in the context of the user who is logged in. This means that it is not possible to copy or import time entries that are created for the user who is logged in as the bookable resource.
+
 Time entries that are not for a project will be routed for approval to the manager of the bookable resource only if step 4 in the section **Customization Details** above is completed. Otherwise, non-project time entries for the other user will be incorrectly routed to the manager of the logged in user. 
 
 ### Other changes 
@@ -216,24 +221,26 @@ The **Bookings and Tasks** functionality has been removed.
 ## Multidimensional pricing
 To maximize flexibility and meet different business requirements, version 3 of Project Service Automation supports discrete application of pricing dimension sets to cost and bill rates. Dimension values can be set as the default and then propagated across the costing and pricing process from resource profiling to time entry to project actuals. Customer-specific configuration and modification or extension leverages standard customizability infrastructure.
 
-PSA ships with a default set of pricing dimensions and roles and resource units, and allows for the setup of prices and costs for each Role and Organizational unit combination.
+Project Service Automation ships with a default set of pricing dimensions and roles and resource units, and allows for the setup of prices and costs for each Role and Organizational unit combination.
 
-For customers of PSA that want to continue to use these out-of-the box fields as pricing dimensions in version 3, there will not be any observable change. You can continue to use PSA as usual. If, however, you need to price or cost for your resources using other additional attributes, version 3 allows for adding your own custom pricing dimensions to PSA. The extension of custom pricing dimensions is a complicated configuration experience. 
+For customers of Project Service Automation who want to continue to use these out-of-the-box fields as pricing dimensions in version 3, there will not be any observable change. You can continue to use Project Service Automation as usual. If, however, you need to price or cost for your resources using other additional attributes, version 3 allows for adding your own custom pricing dimensions to Project Service Automation. The extension of custom pricing dimensions is a complicated configuration experience. 
 
 ## Quotes and contracts
-In version 3 of PSA, aspects of setup and management for quotes and contracts have changed. The following sections provide more detailed information.
+In version 3 of Project Service Automation, aspects of setup and management for quotes and contracts have changed. The following sections provide more detailed information.
 
 ### Set up chargeability options
 In versions 1 and 2, chargeability setup for roles and categories for specific quotes and contracts was done using the **Chargeability** view that was in the top navigation of a quote line or a contract line. This was also where you could set up prices for those roles and Expense categories.
+
 As of version 3, setup of chargeability options by role and  Expense category will be done at the quote or contract line level. Pricing setup is separate from Chargeability setup. You will be able to find **Chargeable roles** and **Chargeable categories** as tabs on the **Quote line** and  **Contract line** pages without having to use the top navigation.
 
 ![Chargeable roles](media/chargeable-12.png)
  
 The setup of Chargeable roles and Chargeable categories also leverages the out-of-the-box editable grid control. For each role and category, the supported options for billing type during the Quoting and Contracting phase remain unchanged from prior versions as **Chargeable** and **Non-chargeable**. **Complimentary** is not a supported type during the Quoting or Contracting phase. **Complimentary** is supported only during Time or Expense approval.  
  
-### Create and edit custom pricing for a PSA quote and project contract
+### Create and edit custom pricing for a Project Service Automation quote and project contract
 In versions 1 and 2, using custom price list for specific quotes and contracts was done using **Edit prices** on the **Chargeability** view. The **Chargeability** view was located in the top navigation of a quote line or a contract line. This was also where you could set up chargeability options for roles and or expense categories.
-As of version 3, creating and using a custom project price list on a PSA quote and PSA project contract has been separated from chargeability setup. PSA quote and PSA project contracts have a new tab called **Project price lists**. This tab shows an associated view of all Project price lists that are attached to the PSA quote or project contract. To create a custom price list from an existing price list that is already associated to the project quote or contract, click **Create custom pricing**. This will make a copy of all the associated price lists and attach them to the Quote or contract. You can now open the price list and edit role or expense category price so that those pricing changes will only apply to this quote or contract. 
+
+As of version 3, creating and using a custom project price list on a Project Service Automation quote and Project Service Automation project contract has been separated from chargeability setup. Project Service Automation quote and Project Service Automation project contracts have a new tab called **Project price lists**. This tab shows an associated view of all Project price lists that are attached to the Project Service Automation quote or project contract. To create a custom price list from an existing price list that is already associated to the project quote or contract, click **Create custom pricing**. This will make a copy of all the associated price lists and attach them to the Quote or contract. You can now open the price list and edit role or expense category price so that those pricing changes will only apply to this quote or contract. 
   
 The following graphic is before custom price lists have been created.
 

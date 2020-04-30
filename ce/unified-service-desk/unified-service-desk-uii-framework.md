@@ -1,11 +1,12 @@
 ---
 title: "Unified Service Desk and the UII framework | MicrosoftDocs"
 description: "Learn about the basic concepts related to User Interface Integration (UII) framework and components required for extending Unified Service Desk."
-ms.custom: dyn365-USD
+ms.custom: 
+  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: dynamics-365-customerservice
+ms.service: 
+  - dynamics-365-customerservice
 ms.topic: get-started-article
-ms.assetid: c59fba14-bcd4-4936-b36f-81f5ef9d6ffa
 author: kabala123
 ms.author: kabala
 manager: shujoshi

@@ -1,9 +1,9 @@
 ---
 title: "Sample: Create a workflow in code (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
-descrption: The sample shows how to programmatically create an asynchronous workflow in code instead of using a workflow editor or designer. This sample works only with an on-premises deployment of Dynamics 365 Customer Engagement (on-premises) because custom XAML workflows are not supported in Dynamics 365 Customer Engagement (on-premises). 
+descrption: The sample shows how to programmatically create an asynchronous workflow in code instead of using a workflow editor or designer.
 ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: 
+ms.date: 1/14/2020
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -14,7 +14,7 @@ ms.assetid: 7105761b-9710-4ad1-a3ee-b7dd58287c81
 caps.latest.revision: 21
 author: JimDaly
 ms.author: jdaly
-manager: amyla
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
@@ -22,20 +22,24 @@ search.app:
 ---
 # Sample: Create a workflow in code
 
-This sample code is for Dynamics 365 Customer Engagement (on-premises). Download the sample: [Work with workflows](https://code.msdn.microsoft.com/Work-with-workflows-edf8f3bf).
+[!INCLUDE[cc-sample-note](./includes/cc-sample-note.md)]
+
+Download the sample: [Workflow](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/Workflow).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
   
 ## Requirements  
- You must enable support for custom XAML workflows on your on-premises server. [!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]  
+
+[!INCLUDE[cc-how-to-run-PA-samples](./includes/cc-how-to-run-PA-samples.md)]
+
+Consult the sample's [README](https://github.com/microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/Workflow/README.md) for additional information about the sample.
   
 ## Demonstrates  
- The following sample shows how to programmatically create an asynchronous workflow in code instead of using a workflow editor or designer. This sample works only with an on-premises deployment of [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] because custom XAML workflows are not supported in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
-  
-[!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)]
+ The sample shows how to programmatically create an asynchronous workflow in code instead of using a workflow editor or designer.  
+
 ## Example  
- [!code-csharp[Workflows#CreateAWorkflow](../snippets/csharp/CRMV8/workflows/cs/createaworkflow.cs#createaworkflow)]  
+[CreateAWorkflow.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/Workflow/Workflow/CreateAWorkflow.cs) 
   
 ### See also  
  [Sample code for workflows](sample-code-processes.md)   

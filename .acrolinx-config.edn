@@ -1,2 +1,2 @@
-{:allowed-branchname-matches ["^acrolinx$"]
- :allowed-filename-matches ["ce/field-service"]}
+{:allowed-branchname-matches ["^master$" "^master-omnichannel$"]
+ :allowed-filename-matches ["ce"]}
