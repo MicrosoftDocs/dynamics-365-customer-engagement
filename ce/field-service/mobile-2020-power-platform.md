@@ -32,7 +32,7 @@ search.app:
 Field Service Mobile (2020) is a mobile app designed and optimized for technicians to view Dynamics 365 Field Service work orders, customer assets, accounts and contacts. Different than Field Service Mobile (see feature comparison below), this alternative mobile app is built on Microsoft's Power Platform as a model-driven app and is customizbale to your business needs with the same admin console as all Dynamics 365 business apps.
 
 
-Available natively for Apple iOS and Google Android phones and tablets, Field Service Mobile (2020) offers technicians many capabilities they need to perform on site customer service like a calendar view of assigned jobs, support for picture, video, and asset barcode scanning, customer signature capture, and offline capabilities so technicians can continue viewing and recording work in areas without internet.
+Available natively for Apple iOS and Google Android phones, Field Service Mobile (2020) offers technicians many capabilities they need to perform on site customer service like a calendar view of assigned jobs, support for picture, video, and asset barcode scanning, customer signature capture, and offline capabilities so technicians can continue viewing and recording work in areas without internet.
 
 
 ## Implementation and migration guidance
@@ -50,7 +50,7 @@ Field Service Mobile (2020) is recommended for simpler use cases and for organiz
 Field Service Mobile is recommended for more complex use cases where you may need custom reporting, push notifications, geo fencing, and business processes or validations that work offline.
 
 
-| Feature | Cateogry | Field Service Mobile (2020) | Field Service Mobile |
+| Feature | Category | Field Service Mobile (2020) | Field Service Mobile |
 | --- | --- | --- | --- |
 | Mobile Platform | Hardware & software | iOS, Android | iOS, Android, Windows |
 | Camera capture (photo & video) | Technician | Yes | Yes |
@@ -89,7 +89,7 @@ Set up a Dynamics 35 Field Service user with the **Field Service-Resource** secu
 
 To schedule work orders to view on the mobile app, you must also [create a bookable resource](./set-up-bookable-resources.md) related to your technician user.
 
-**OPTIONAL:** to view bookings on Field Service Mobile (2020) schedule work orders to the bookable resource related to your user.
+**OPTIONAL:** to view bookings in Field Service Mobile (2020) schedule work orders to the bookable resource related to your user.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-scheduled-work-orders.png)
@@ -109,7 +109,7 @@ Launch the app and log in with your username and password. This is the user cred
 
 ## Use Field Service Mobile (2020)
 
-Upon logging in the app will prompt you to download offline data meaning your scheduled work orders to the device. If you may not have access to internet, select **Download**, otherwise select **Skip for now**.
+Upon logging in the app will prompt you to download data related to your assigned work orders onto your device. If you may not have access to internet, select **Download**, otherwise select **Skip for now**. If unsure, it is recommended to select Download so the information you need for your scheduled work order bookings is always available with and without Internet access.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-download-offline.png)
@@ -123,7 +123,7 @@ Select **More > Show as > Read Only Grid** to view the bookings as a list as sho
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-booking-view.jpg)
 
-Select a booking to view more details about the booking time and the work order. As an example, you can update the status to traveling to indicate you are driving to the customer location, and on the Customer tab you can view the work order location on a map and trigger turn-by-turn driving directions from a GPS app on your phone such as Bing Maps, Apple Maps, Waze, or Google Maps.
+Select a booking to view more details about the booking time and the work order. As an example, you can update the status to traveling to indicate you are driving to the customer location, and on the Customer tab you can view the work order location on a map and get turn-by-turn driving directions from a GPS app on your phone such as Bing Maps, Apple Maps, Waze, or Google Maps.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-work-order-navigate-directions-map.jpg)
@@ -155,13 +155,15 @@ If you expect to be in areas without internet access, either WiFi or cellular, y
 
 From the home screen select the cloud icon in the bottom left. 
 
-Then select **Dowload offline updates**.
+Then select **Download offline updates**. 
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-offline.jpg)
 
-Then toggle the **Work in offline mode** to on.
+When Status = **Available** this means you have all the data you need to work offline.
+
+Then toggle the **Work in offline mode** to on. If you lose interenet connection unexpectedly, the app will automatically work in offline mode if you previously downloaded data.
 
 ## Configure Field Service Mobile (2020)
 
@@ -213,7 +215,7 @@ You can even create entirely new Groups with more Subareas to display different 
 
 ### Edit the Booking and Work Order form
 
-You can add and delete fields displayed on field service mobile (2020) and because the app is built as a model-driven PowerApp you can utilize the PowerApps Control Framework to display different field controls like tiggle buttons and sliders for example.
+You can add and delete fields displayed on field service mobile (2020) and because the app is built as a model-driven PowerApp you can utilize the PowerApps Control Framework to display different field controls like toggle buttons and sliders for example.
 
 Administrators who want to customize the Booking and Work Order forms must know they are combined in the mobile app where work order forms are displayed within the booking form. That means when a technician views a booking form, he or she is also viewing the related work order form. In the image below, the General section displays Bookable Resource Booking ("Booking") fields and the Customer, Service, and Notes sections display work order fields.
 
@@ -287,7 +289,7 @@ You can get the form ID in the URL when on the form in th admin console.
 
 ### Configure offline data and sync filters
 
-Administrators can edit the data that is downloaded to Field Service Mobile (2020) in offline mode when no internet access is available. (When internet access is avaialble users will simply see all data on the server they have access to via their secuirty role).
+Administrators can edit the data that is downloaded to Field Service Mobile (2020) in offline mode when no internet access is available. (When internet access is available users will simply see all data on the server they have access to via their security role).
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-offline-list.png)
