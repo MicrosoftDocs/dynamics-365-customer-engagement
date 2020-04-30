@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Frequently asked questions for Dynamics 365 Sales"
-ms.date: 10/01/2019
+ms.date: 04/30/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
