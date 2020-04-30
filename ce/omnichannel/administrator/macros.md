@@ -136,7 +136,6 @@ This action is used to open an email with a predefined template. The action cont
    | Email recipients | Specify the recipients to whom you want the mail to be sent. <br> This is a mandatory field. | |
    | Template ID | Specify the ID of the template that must displayed in the email. <br> This is a mandatory field. | |
 
-
 #### Update form attribute
 
 This action is used for updating the form attribute (field). The action updates the attribute of a form if that form is currently in focus and has the same entity type as mentioned in action. If the action is run for any other entity, then the action will fail. Also, the action only updates the field and doesn't save the record. The action contains the following field:
@@ -144,7 +143,6 @@ This action is used for updating the form attribute (field). The action updates 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
    | Entity logical name | Specify the logical name of the entity that you want to update. <br> This is a mandatory field. | incident |
-
 
 #### Resolve a case
 
@@ -169,9 +167,10 @@ This action is used for cloning an existing record. The action only copies the f
 #### Clone current record
 
 This action is used for cloning an existing record that is open in the current tab. The action only copies the fields and does not save the record. The action contains the following field.
+   
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
-   |Record title| Specify the title of the record that you want to clone. <br> This is a mandatory field. |
+   |Record title| Specify the title of the record that you want to clone. <br> This is a mandatory field. | |
 
 #### Save the record
 
