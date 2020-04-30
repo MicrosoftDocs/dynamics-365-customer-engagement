@@ -19,10 +19,6 @@ search.app:
   - D365CS
 ---
 
-
-<!--editor's note: Please see questions entered in lines 29, 64, 83, 112, and 117.  -->
-
-
 # Contract to entitlement migration
 
 Dynamics 365 Customer Service will complete deprecation of contracts, contract line items, and contract template entities by [June 30, 2020 (4Q20)](/power-platform/important-changes-coming#contracts-contract-line-items-and-contract-templates-entities-are-deprecated). These items will be removed and replaced by entitlements and will not be included in future releases.
