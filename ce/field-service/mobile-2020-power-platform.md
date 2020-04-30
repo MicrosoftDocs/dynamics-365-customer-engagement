@@ -215,44 +215,68 @@ You can even create entirely new Groups with more Subareas to display different 
 
 You can add and delete fields displayed on field service mobile (2020) and because the app is built as a model-driven PowerApp you can utilize the PowerApps Control Framework to display different field controls like tiggle buttons and sliders for example.
 
-Administrators who want to customize the Booking and Work Order forms must know they are combined in the mobile app. That means when a technician views a booking form, he or she is also viewing the related work order form. In the image below, the General section displays Bookable Resource Booking ("Booking") fields and the Customer, Service, and Notes sections display work order fields.
+Administrators who want to customize the Booking and Work Order forms must know they are combined in the mobile app where work order forms are displayed within the booking form. That means when a technician views a booking form, he or she is also viewing the related work order form. In the image below, the General section displays Bookable Resource Booking ("Booking") fields and the Customer, Service, and Notes sections display work order fields.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-work-order-form-all-sections.png)
 
-To edit the work order portion of the form, go to **Settings > Customizations > Customize the System** and find the Work Order entity.
+To edit the work order portion of the form, go to **Settings > Customizations > Customize the System** and find the Work Order entity in the PowerApps admin console.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-admin-work-order-form.png)
 
+In the Form section, there are three forms that correspond to the three sections of the combined Booking-Work Order form.
+
+2. Work Order - Service
+3. Work Order - Notes
+
+Edit each form as needed and publish. The changes will display in Field Service Mobile (2020).
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-admin-work-order-form-tabs.png)
 
+To edit the Booking part of the form, go to the Bookable Resource Booking entity in the PowerApps admin console.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-admin-booking-form.png)
 
+Find the "Booking and Work Order" form shown below.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-admin-booking-form-combined.png)
+
+Add and delete Booking fields as needed.
+
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-admin-booking-form-combined-add-fields.png)
 
+The work order forms are displayed within the Booking form with a new control called **Form Component Control**.
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-admin-booking-form-combined-classic.png)
 
+To add more work order information to the booking form, either edit the work order forms mentioned earlier, or first create a new work order form and add it to the booking form by selecting the section and adding a **Form Component Control**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-admin-booking-form-combined-classic-control.png)
 
+Within the classic admin console, double click the section and Form Component Control for Web, Phone, and Tablet.
+
+In the Properties section, enter:
+
+Lookup value: 
+
+    msdyn_workorder
+
+Forms (substitute the form ID of the work order form you created): 
 
     <QuickForms><QuickFormIds><QuickFormId entityname="msdyn_workorder">c0ebdf20-f27f-4acc-8c9f-a9a202a5e917</QuickFormId></QuickFormIds></QuickForms>
 
+You can get the form ID in the URL when on the form in th admin console.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-admin-form-id.png)
@@ -306,9 +330,6 @@ As another example, the Work Order Product entity has a data download filter set
 
 
 ## FAQs
-- is this different than FSM and D365 mobile apps?
-- can i add cases, sales orders, and other entities
+**Question:** Can I only add and view Field Service entities on Field Service Mobile (2020)?
 
-same model driven capabilities on web, so if you have security and license to access on web, you can acces on field service mobile (2020)
-
-## Provide feedback
+**Answer:** Because Field Service Mobile (2020) is a model-driven app on the Power Platform, any entity can be added, but users can only see entities and records that they have the licenses and security to access, regardless if its part of the Field Service app or not.
