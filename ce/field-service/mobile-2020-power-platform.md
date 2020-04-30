@@ -87,7 +87,7 @@ Field Service Mobile is recommended for more **complex** use cases where you may
 - Set up a Dynamics 35 Field Service user with the **Field Service-Resource** security role. This user will sign in to the Field Service Mobile (2020) app as a technician.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Manage Roles dialogue in Dynamics 365.](./media/mobile-2020-resource-secuirty-role.png)
+> ![Screenshot of the Manage Roles dialogue in Dynamics 365.](./media/mobile-2020-resource-security-role.png)
 
 - To schedule work orders to view on the mobile app, you must also [create a bookable resource](./set-up-bookable-resources.md) related to your technician user.
 
@@ -320,7 +320,7 @@ For each entity, you can choose and data download filter:
 3. Other data filter
 4. Custom data filter
 
-For example, the **Bookable Resource Booking** (in other words, the booking) entity has a data download filter set to **custom data filter** that downloads resource bookings that start or end in the next 7 days or yesterday.
+For example, the **Bookable Resource Booking** (in other words, the booking) entity has a data download filter set to **custom data filter** that downloads resource bookings that start or end in the next seven days or yesterday.
 
 
 > [!div class="mx-imgBorder"]
