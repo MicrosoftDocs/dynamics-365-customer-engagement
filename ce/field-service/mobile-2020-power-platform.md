@@ -95,7 +95,7 @@ To schedule work orders to view on the mobile app, you must also [create a booka
 > ![Screenshot of ](./media/mobile-2020-scheduled-work-orders.png)
 
 
-## Install and set up Field Service Mobile (2020)
+## Install and log in to Field Service Mobile (2020)
 
 Go to the app store on your iOS or Android phone and search for Field Service Mobile.
 
@@ -114,6 +114,8 @@ Upon logging in the app will prompt you to download offline data meaning your sc
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-download-offline.png)
 
+### View scheduled work orders
+
 The first screen you'll see is a calendar view of your scheduled work orders.
 
 Select **More > Show as > Read Only Grid** to view the bookings as a list as shown on the right side of the image below.
@@ -126,27 +128,46 @@ Select a booking to view more details about the booking time and the work order.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-work-order-navigate-directions-map.jpg)
 
-On the Service tab you'll see work order details like Work order service tasks, products, and services.
+On the **Service tab** you'll see work order details like Work order service tasks, products, and services.
 
-And on the Notes tab you'll see a way to add note text, pictures, and videos as well as capture a customer signature.
+And on the **Notes tab** you'll see a way to add note text, pictures, and videos as well as capture a customer signature.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-work-order-service-notes.jpg)
 
+### Navigate to more information
+
+To navigate to sitemap, select the menu icon from the calendar view.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-booking-view-calendar-only.jpg)
+
+This will take you to the home screen where you can navigate to other important information like accounts, contacts, customer assets, or to record time off.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-sitemap-account.jpg)
+
+### Work offline
+
+If you expect to be in areas without internet access, either WiFi or cellular, you can download important information to your device to keep working. 
+
+From the home screen select the cloud icon in the bottom left. 
+
+Then select **Dowload offline updates**.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-offline.jpg)
 
+Then toggle the **Work in offline mode** to on.
+
 ## Configure Field Service Mobile (2020)
 
 Log in as a system administrator
 
-same model driven capabilities on web, so if you have security and license to access on web, you can acces on field service mobile (2020)
+
 
 
 
@@ -267,5 +288,7 @@ As another example, the Work Order Product entity has a data download filter set
 ## FAQs
 - is this different than FSM and D365 mobile apps?
 - can i add cases, sales orders, and other entities
+
+same model driven capabilities on web, so if you have security and license to access on web, you can acces on field service mobile (2020)
 
 ## Provide feedback
