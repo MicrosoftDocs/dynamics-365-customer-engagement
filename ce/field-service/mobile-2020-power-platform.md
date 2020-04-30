@@ -213,15 +213,15 @@ You can even create entirely new Groups with more Subareas to display different 
 
 ### Edit the Booking and Work Order form
 
-- Fields and PCF controls
+You can add and delete fields displayed on field service mobile (2020) and because the app is built as a model-driven PowerApp you can utilize the PowerApps Control Framework to display different field controls like tiggle buttons and sliders for example.
 
-1. edit work order form
-2. insert work order form in booking form utilizing new control
+Administrators who want to customize the Booking and Work Order forms must know they are combined in the mobile app. That means when a technician views a booking form, he or she is also viewing the related work order form. In the image below, the General section displays Bookable Resource Booking ("Booking") fields and the Customer, Service, and Notes sections display work order fields.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-work-order-form-all-sections.png)
 
+To edit the work order portion of the form, go to **Settings > Customizations > Customize the System** and find the Work Order entity.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-admin-work-order-form.png)
