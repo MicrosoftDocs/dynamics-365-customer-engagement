@@ -57,6 +57,17 @@ Open PowerShell and **Run as Administrator**.
 > ![Screenshot of the run as administrator option for PowerShell in the Windows start search.](./media/preview-powershell.png)
 
 
+Here's an example of the all the PowerShell commands we'll run and you can follow with the steps below. We recommend copying and pasting the following in a note that you can edit with your specific information for username, password, org ID and more.
+
+    install-module Microsoft.Xrm.OnlineManagementAPI -Scope CurrentUser -force 
+    $user = “username@org.onmicrosoft.com”   
+    $password = “password” 
+    $cred = New-Object System.Management.Automation.PSCredential ($user, (ConvertTo-SecureString $password –ASPlainText –Force)) 
+    $url = “https://admin.services.crm.dynamics.com”  
+    Get-CrmFlights -ApiUrl $url -Credential $cred  
+    Add-CrmFlightAudience -ApiUrl $url -FlightId "092718c6-8031-43f7-b957-2b2e662ebf46" -InstanceId "d9bee8b4-995f-4d78-83c0-8b55e471245d" -Credential $cred 
+
+
 ## Step 2: Run command to install API
 
 Run the following command:
