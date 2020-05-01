@@ -24,6 +24,7 @@
 #### [Manage Marketing instances](manage-marketing-instances.md)
 #### [Transfer data between instances](transfer-data.md)
 #### [Transfer customizations between instances](transfer-solution.md)
+#### [Tenant to tenant migration](tenant-to-tenant.md)
 #### [Keep Marketing up to date](apply-updates.md)
 #### [Uninstall Marketing](uninstall-marketing.md)
 

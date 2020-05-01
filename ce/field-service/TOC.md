@@ -6,6 +6,7 @@
 # Installation + upgrade
 ## [Field Service installation (web + mobile)](install-field-service.md)
 ## [Upgrade Field Service](upgrade-field-service.md)
+## [Preview new features](field-service-preview.md)
 
 # Administration
 ## [Work order process architecture](field-service-architecture.md)
@@ -30,9 +31,11 @@
 ## [Add account details to a work order](work-order-customer-account.md)
 ## [Work order types](create-work-order-types.md)
 ## [Price list](create-price-list.md)
-## [Create a product or service](create-product-or-service.md)
+## [Products and services](create-product-or-service.md)
 ## [Service task types](set-up-service-task-types.md)
+## [Inspections](inspections.md)
 ## [Work order templates (incident types)](configure-incident-types.md)
+## [Work order summary reports (preview)](reports.md)
 
 # Bookable resources
 ## [Set up bookable resources](set-up-bookable-resources.md)
