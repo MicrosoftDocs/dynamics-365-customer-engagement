@@ -3,7 +3,7 @@ title: Sales Professional and Enterprise Learning Catalog
 description: Find all the training options for Dynamics 365 Sales Professional and Enterprise. 
 author: loreleishannonmsft
 ms.topic: article
-ms.date: 01/08/2020
+ms.date: 05/01/2020
 ms.author: v-lshann
 ---
 
@@ -25,8 +25,7 @@ Find the right online training, in person workshops, and events for your role in
 
     [Exam](learning-bdm.md#exam)
    
-    :::column-end:::
-    
+       :::column-end:::
     :::column:::
 
     ### Business users
@@ -38,8 +37,6 @@ Find the right online training, in person workshops, and events for your role in
     [Get started](learning-bus-user.md#get-started)
 
     [Exam](learning-bus-user.md#exam)
-
-    :::column-end:::
 
         :::column-end:::
     :::row-end:::
@@ -58,13 +55,7 @@ Find the right online training, in person workshops, and events for your role in
 
     [Exams](learning-developer.md#exam)
 
-    :::column-end:::
-    
-:::row-end:::
-
-:::row:::
-
-     :::column-end:::
+       :::column-end:::
     :::column:::
 
     ### Administrators
@@ -73,7 +64,7 @@ Find the right online training, in person workshops, and events for your role in
 
     [Administrators learning catalog](learning-administrator.md)
 
-     :::column-end:::
+       :::column-end:::
     :::row-end:::
     :::row:::
         :::column:::
@@ -85,7 +76,7 @@ Find the right online training, in person workshops, and events for your role in
     [Developers Learning Catalog](learning-developer.md)
 
     [Build](learning-developer.md#build)
-
+    
     [Extend](learning-developer.md#extend)
 
        :::column-end:::
@@ -114,11 +105,9 @@ Find the right online training, in person workshops, and events for your role in
 
     [Sales Learning Catalog](learning-sales.md)
 
-
     [Getting started](learning-sales.md#get-started)
 
     [Exam](learning-sales.md#exam)
 
      :::column-end:::
-    
 :::row-end:::
