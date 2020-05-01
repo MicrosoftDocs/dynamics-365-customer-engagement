@@ -187,7 +187,7 @@ For more information about early access features, visit the [opt-in instructions
 
 ## 8.5.0.345
 
-[Read a blog post about this update.8.5.0.345](https://cloudblogs.microsoft.com/dynamics365/it/2019/03/07/release-notes-for-field-service-version-8-5-0-345/)  
+[Read a blog post about this update.](https://cloudblogs.microsoft.com/dynamics365/it/2019/03/07/release-notes-for-field-service-version-8-5-0-345/)  
 
 
 ## 8.4.0.338
