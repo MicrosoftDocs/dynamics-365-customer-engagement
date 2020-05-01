@@ -53,7 +53,7 @@ The Dynamics 365 Marketing May 2020 update includes several feature enhancements
 ### Monthly feature updates
 
 - **Marketing forms**
-    - The new form capture wizard combines the initial step of placing a JavaScript code into a third-party website with the rest of the form capture experience. The wizard guides users through each step, including detecting the page, checking for previous tracking scripts, adding a script, finding existing forms on the page, and mapping the form fields.
+    - The new form capture wizard combines the initial step of placing a JavaScript code into a third-party website with the rest of the form capture experience. The wizard guides users through each step, including detecting the page, checking for previous tracking scripts, adding a script, finding existing forms on the page, and mapping the form fields. [Learn how to use the new form capture wizard here.](embed-forms.md#capture-a-new-external-form)
     - Form capture support for client-side forms that are injected dynamically via scripts.
 - **Templates**
     - New template design gallery.
@@ -108,7 +108,9 @@ The Dynamics 365 Marketing April 2020 update includes several feature enhancemen
     - [Docs](automated-scheduler.md)
 - **Compliance made easier**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/compliance-made-easier)
-    - [Docs](gdpr.md)
+    - [Double opt-in for forms docs](form-double-opt-in.md)
+    - [Historical view of consent-level changes docs](gdpr.md#view-and-set-the-consent-level-for-each-contact)
+    - [Set consent for each contact docs](gdpr.md#view-and-set-the-consent-level-for-each-contact)
 - **Improved segment design and management**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-segment-design-management)
     - [Docs](segmentation-lists-subscriptions.md)
