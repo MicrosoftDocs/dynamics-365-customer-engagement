@@ -32,7 +32,7 @@ We roll out updates on a region-by-region basis. Updates are available to all re
 
 ## May 2020 update
 
-The Dynamics 365 Marketing March 2020 update includes several feature enhancements, performance upgrades, and bug fixes. The March release also includes a preview of the redesigned getting started page.
+The Dynamics 365 Marketing May 2020 update includes several feature enhancements including a revamped form capture experience, performance upgrades, and bug fixes.
 
 ### Version number
 
@@ -45,28 +45,30 @@ The Dynamics 365 Marketing March 2020 update includes several feature enhancemen
 
 ### Monthly feature updates
 
+- **Data services**
+    - Data discrepancies are now resolved automatically when restoring from a backup CRM database.
+- **Marketing forms**
+    - The new form capture wizard combines the initial step of placing a JavaScript code into a third-party website with the rest of the form capture experience. The wizard guides users through each step, including detecting the page, checking for previous tracking scripts, adding a script, finding existing forms on the page, and mapping the form fields.
+    - Form capture support for client-side forms that are injected dynamically via scripts.
 - **Templates**
     - New template design gallery.
-    - New, accessible page and form templates that support multiple layouts.
-- **Marketing forms**
-    - Improved form capture wizard.
-- **Marketing forms**
-    - You can now allow list domains instead of allow listing individual forms pages.
-- **Segment management**
-    - Improved date operations for anniversaries and relative dates.
-    - Improved visibility for Export to Excel feature.
-    - Improved segment template builder functionality.
+    - Brand new page and form templates with improved accessibility and support for multiple layouts.
 
 ### Bug fixes
 
+- **Customer journeys**
+    - Improved validation messages for customer journeys to help catch issues before going live.
 - **First run experience**
     - Resolved an issue where a configured portal would occasionally display as not configured when creating a new instance.
 - **Marketing emails**
     - Fixed an issue where display names for intersect entities did not load properly.
-    - Resolved an issue where email styling for Outlook 2013
+    - Improved email styling compatibility for Outlook 2013.
+    - Resolved an issue where name attributes did not appear consistently on HTML tags in the email editor.
+    - New UI notification when an org is suspended due to suspicious email sending activity.
 - **Marketing forms**
     - Resolved an issue where form lookup fields referencing a DateTime attribute failed to prefill.
 - **Marketing pages**
+    - Resolved an error where the properties tab occasionally did not load properly in the marketing pages editor.
 - **Segment management**
     - Added a UI indication when a "Publish changes" operation fails due to an entity that cannot be enabled for sync.
     - The segment designer now properly parses grouped "AND" and "OR" clauses.
