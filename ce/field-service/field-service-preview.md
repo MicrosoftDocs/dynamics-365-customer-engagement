@@ -123,6 +123,15 @@ It will say **Added to Flight**.
 
 As a system administrator, go to [https://admin.powerplatform.microsoft.com/environments/](https://admin.powerplatform.microsoft.com/environments/).
 
+In the left pane go to **Resources > Dynamics 365 apps** and find **Dynamics 365 Field Service** in the list.
+
+Seelct the app and choose install.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of installing preview solution in powerapps admin](./media/inspections-install.jpg)
+
+Then select your environment from the list, agree to the terms of service, and select **Install**.
+
 Select the environment you want to install or upgrade the preview features to and then select **Manage Dynamics 365 apps** in the top ribbon.
 
 Then select **Install app** in the top ribbon and find Dynamics 365 Field Service.
