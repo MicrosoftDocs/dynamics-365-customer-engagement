@@ -1,7 +1,7 @@
 ---
-title: "New and upcoming features in Dynamics 365 Marketing | Microsoft Docs"
+title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 04/03/2020
+ms.date: 05/01/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -30,6 +30,47 @@ We roll out updates on a region-by-region basis. Updates are available to all re
 > [!Note]
 > To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20Marketing).
 
+## May 2020 update
+
+The Dynamics 365 Marketing March 2020 update includes several feature enhancements, performance upgrades, and bug fixes. The March release also includes a preview of the redesigned getting started page.
+
+### Version number
+
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        | 1.35.10061.1037 |
+
+> [!Tip]
+> To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](https://docs.microsoft.com/dynamics365/marketing/apply-updates#find-out-which-version-of-dynamics-365-marketing-you-are-running).
+
+### Monthly feature updates
+
+- **Templates**
+    - New template design gallery.
+    - New, accessible page and form templates that support multiple layouts.
+- **Marketing forms**
+    - Improved form capture wizard.
+- **Marketing forms**
+    - You can now allow list domains instead of allow listing individual forms pages.
+- **Segment management**
+    - Improved date operations for anniversaries and relative dates.
+    - Improved visibility for Export to Excel feature.
+    - Improved segment template builder functionality.
+
+### Bug fixes
+
+- **First run experience**
+    - Resolved an issue where a configured portal would occasionally display as not configured when creating a new instance.
+- **Marketing emails**
+    - Fixed an issue where display names for intersect entities did not load properly.
+    - Resolved an issue where email styling for Outlook 2013
+- **Marketing forms**
+    - Resolved an issue where form lookup fields referencing a DateTime attribute failed to prefill.
+- **Marketing pages**
+- **Segment management**
+    - Added a UI indication when a "Publish changes" operation fails due to an entity that cannot be enabled for sync.
+    - The segment designer now properly parses grouped "AND" and "OR" clauses.
+
 ## April 2020 update
 
 The Dynamics 365 Marketing April 2020 update includes several feature enhancements, performance upgrades, and bug fixes. It also includes Forms Pro integration, an improved email designer, and unified segment types.
@@ -41,7 +82,7 @@ The Dynamics 365 Marketing April 2020 update includes several feature enhancemen
 >
 > To learn more, visit [Dynamics 365 release schedule and early access](https://docs.microsoft.com/dynamics365/get-started/release-schedule).
 
-### Version numbers
+### Version number
 
 | App              | GA release      |
 |------------------|-----------------|
