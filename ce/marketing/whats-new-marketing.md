@@ -35,7 +35,11 @@ We roll out updates on a region-by-region basis. Updates are available to all re
 The Dynamics 365 Marketing May 2020 update includes several feature enhancements including a revamped form capture experience, performance upgrades, and bug fixes.
 
 > [!IMPORTANT]
-> With the May 2020 release, all [Marketing 2020 release wave 1 plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/planned-features) features are now generally available. Future updates will be [pushed to organizations automatically](https://cloudblogs.microsoft.com/dynamics365/it/2020/04/27/automatic-update-policy-for-dynamics-365-marketing/). You can view the deployment timelines on the [release schedule page](https://docs.microsoft.com/dynamics365/get-started/release-schedule).
+> With the May 2020 release, all [Marketing 2020 release wave 1 plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/planned-features) features are now generally available. 
+> 
+> Beginning in May, updates will occur automatically, corresponding with the [amended 2020 release wave 1 deployment schedule](https://docs.microsoft.com/power-platform/admin/general-availability-deployment#deployment-schedule). We will gradually implement the new update policy for instances eligible for automatic upgrade, so organizations may not see any immediate impact to their eligible instances. Organizations can still [manually update using the Marketing Setup Wizard](https://docs.microsoft.com/dynamics365/marketing/apply-updates) if there is an update that has not yet been applied.
+>
+> [Learn more about the automatic update policy](https://cloudblogs.microsoft.com/dynamics365/it/2020/04/27/automatic-update-policy-for-dynamics-365-marketing/).
 
 ### Version number
 
