@@ -34,6 +34,9 @@ We roll out updates on a region-by-region basis. Updates are available to all re
 
 The Dynamics 365 Marketing May 2020 update includes several feature enhancements including a revamped form capture experience, performance upgrades, and bug fixes.
 
+> [!IMPORTANT]
+> With the May 2020 release, all [Marketing 2020 release wave 1 plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/planned-features) features are now generally available. Future updates will be [pushed to organizations automatically](https://cloudblogs.microsoft.com/dynamics365/it/2020/04/27/automatic-update-policy-for-dynamics-365-marketing/). You can view the deployment timelines on the [release schedule page](https://docs.microsoft.com/dynamics365/get-started/release-schedule).
+
 ### Version number
 
 | App              | GA release      |
@@ -41,12 +44,10 @@ The Dynamics 365 Marketing May 2020 update includes several feature enhancements
 | Marketing        | 1.35.10061.1037 |
 
 > [!Tip]
-> To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](https://docs.microsoft.com/dynamics365/marketing/apply-updates#find-out-which-version-of-dynamics-365-marketing-you-are-running).
+> To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](https://docs.microsoft.com/dynamics365/marketing/apply-updates#find-out-which-version-of-dynamics-365-marketing-you-are-running). 
 
 ### Monthly feature updates
 
-- **Data services**
-    - Data discrepancies are now resolved automatically when restoring from a backup CRM database.
 - **Marketing forms**
     - The new form capture wizard combines the initial step of placing a JavaScript code into a third-party website with the rest of the form capture experience. The wizard guides users through each step, including detecting the page, checking for previous tracking scripts, adding a script, finding existing forms on the page, and mapping the form fields.
     - Form capture support for client-side forms that are injected dynamically via scripts.
