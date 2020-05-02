@@ -2,7 +2,7 @@
 title: "Integrate Dynamics 365 Marketing with forms published on an external website (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to publish a form on an external site and capture the submissions in Dynamics 365 Marketing"
 keywords: marketing form, embed
-ms.date: 04/01/2019
+ms.date: 05/01/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -12,7 +12,7 @@ author: alfergus
 ms.author: alfergus
 manager: shellyha
 ms.reviewer:
-topic-status: Drafting
+topic-status: 
 search.audienceType: 
   - admin
   - customizer
@@ -79,11 +79,11 @@ To design a form in Dynamics 365 Marketing that you can embed on an external web
 
 1. In the **Related marketing form pages** column, select **Add new form page** (open the ellipsis menu here to find this command if you don't see it). A quick-create flyout slides in. A _form page_ is a virtual page where you can make a few extra configuration settings for forms that will be embedded externally.
 
-1. Use the quick-create form to set up your form options. The settings here are the same as those for a [form element](content-blocks-reference.md#the-form-element-for-marketing-pages) placed on a marketing page.
+1. Use the quick-create form to set up your form options. The settings here are the same as the settings for a [form element](content-blocks-reference.md#the-form-element-for-marketing-pages) placed on a marketing page.
 
 1. Select **Save** to create the new form page and go back to the **Form hosting** tab for your form.
 
-1. If your form **does not** use prefill, then do the following:
+1. If your form **does not** use prefill, complete the following steps:
 
     1. In the **Whitelist rules** column, select **Add new form whitelist rule** (open the ellipsis menu here to find this command if you don't see it). A quick-create flyout slides in. 
 
@@ -103,7 +103,7 @@ To design a form in Dynamics 365 Marketing that you can embed on an external web
 
 Form prefilling enables your forms to include prefilled values for known contacts. Prefilling makes your forms easier for contacts to use and can therefore help to increase your submission rates. The feature uses cookies to identify contacts that have previously submitted a form or opened a subscription center using a personalized link sent in email.
 
-Because form prefilling requires the form to fetch contact values from your Dynamics 365 database, a few extra security measures are in place to help protect contacts' privacy. This means that contacts need to opt-in for form prefilling and that you must authenticate each external domain where you'll embed the form. The solution only allows prefilled values to be shown to contacts whose contact record has the _allow-prefill_ flag set. Contacts can set or clear their allow-prefill flag themselves using a landing any page form, provided the form includes the setting. Dynamics 365 Marketing users can also edit a contact record directly to edit this setting for that contact.
+Because form prefilling requires the form to fetch contact values from your Dynamics 365 database, a few extra security measures are in place to help protect contacts' privacy. This means that contacts need to opt in for form prefilling and that you must authenticate each external domain where you'll embed the form. The solution only allows prefilled values to be shown to contacts whose contact record has the _allow-prefill_ flag set. Contacts can set or clear their allow-prefill flag themselves using a landing any page form, provided the form includes the setting. Dynamics 365 Marketing users can also edit a contact record directly to edit this setting for that contact.
 
 To create a form with prefilling that you can embed on an external website:
 
@@ -139,49 +139,25 @@ To set up a form capture:
 
 1. Sign in to Dynamics 365 Marketing and go to **Marketing** > **Internet Marketing** > **Form fields**. Each of the records listed here establishes a mapping between a field available for use in a marketing form and an actual field from the contact and/or lead entity in the underlying database. Check to make sure that each of the fields required by your external form is correctly mapped here, and add any missing fields if necessary. More information: [Create and manage input fields for use in forms](marketing-fields.md)
 
-1. Go to **Marketing** > **Internet Marketing** > **Marketing websites**. Each of the website records listed here (if any) provides both a website-tracking and form-capture code for a specific website or sub-site.
+1. Go to **Marketing forms** and click on the **Capture form** button. This will start the form capture wizard that will take you through each step, starting with tracking script placement into your webpage.
 
-1. Find the website you want to work with, or select **New** to create a new one.
+1. **Enter the form location**: Enter the URL of the third-party page where the form capture wizard will check if there is a valid tracking script inserted. Your webpage will open in a new tab where the wizard will continuously check for tracking scripts. This enables the wizard to detect dynamically injected scripts. You should leave this tab open until you are finished capturing your form.
 
-1. Your new or existing website record opens. Here you can enter and read information and settings for your website. You'll also find results and analytics gathered for the current site so far (if any). The following settings and information are most important when setting up a website for form capture:
+1. Click the button in the new tab to proceed to the next steps in the form capture wizard.
 
-   - **Name**: Shows a name for the website record, which you'll see in the list view and anywhere else you need to identify the record.
-   - **URL**: Shows the address of the site (or sub-site) where you'll use the codes generated by this record. This isn't required, nor is it used in the generated codes, but this can be important information to help you and other users know where the code is being used.
-
-1. If you're working with a new website record, then select **Save** on the command bar to generate the website-tracking and form-capture codes. After you've saved the record at least once, you'll see the following:
-   - **JavaScript code**: This is the website-tracking code, which you must copy onto each webpage (or CMS template) for which you want to track page visits and clicks. More information: [Monitor how visitors use your website](register-engagement.md#monitor-visitors)
-   - **Form capture code**: This is the form-capture code, which you must copy onto each webpage (or CMS template) that includes a form that you want to capture for use with Dynamics 365 Marketing. (It also includes code that enables the website-tracking feature provided by the **JavaScript code**, so there is no need to include both on one page.)
-
-    Take a copy of the **Form capture code**, or keep this page open as you continue with this procedure.
-
-1. Return to your externally designed form page and paste the **Form capture code** you copied anywhere in the `<body>` of the page. 
-
-1. Publish your form page to make it available over the internet. Note its URL.
-
-1. In Dynamics 365 Marketing, go to **Marketing** > **Internet Marketing** > **Marketing forms**.
-
-1. Select **New form capture** on the command bar to create a new marketing form that captures information submitted through a form on your external site.
-
-1. A new from-capture marketing-form record opens, showing the **Designer** > **Enter form detail** tab. Enter the **Form URL** for your external form page and then select **Next**.    
-    ![Enter the page URL for your external form](media/form-capture-url.png "Enter the page URL for your external form")
-
-    > [!IMPORTANT]
-    > The page at the URL you specify here must include exactly one form-capture script, and it must use a website ID for a website record saved on the same Dynamics 365 Marketing instance as the marketing form you are creating. If you see an error, then check your page to make sure it contains the correct script.
-
-1. The  **Designer** > **Select form** tab opens. If the page at your URL includes more than one form, then each available form is listed here. You must create a marketing-form record for each form, so if you do have more than one form then you must pick just one of them to link to the current marketing-form record. A **Fields preview** for the selected form is provided, which may help you identify the form you want. Choose a form (if needed) and then select **Next** to continue.    
-    ![Choose a form from the target page](media/form-capture-select-form.png "Choose a form from the target page")
-
-1. The  **Designer** > **Map fields** tab opens. Each field from the external form is listed here using its external label. Map each **Source field** shown here to a marketing-form field in the **Dynamics 365 field** column.    
-    ![Map form fields](media/form-capture-map-fields.png "Map form fields")
+1. **Check for a tracking script**: If this is your first time capturing this form and you need to generate a script for your website, click on the **I need a new script** button. This will create a website entity, which you can access in the **Marketing websites** section and rename later. If you already have a script, use the dropdown list to find your script for the form’s web page.
 
     > [!NOTE]
-    > You should already have created all the required marketing-form fields at the start of the procedure, but you can also quick-create missing marketing-form fields from here if needed by selecting **New** from any of the lookup fields in the **Dynamics 365 field** column.
+    > Go to **Marketing** > **Internet Marketing** > **Marketing websites** to view your website entity records created via the wizard. Each of the website records listed here (if any) provide a website-tracking and a form-capture code for a specific website or sub-site.
 
-    > [!NOTE]
-    > Each lookup field only allows you to choose from marketing form fields that have the same type as the external field. If you can't find the form field you are looking for, it could be because the types don't match. In this case, either change your external form to use the field type expected by the existing form field, edit the form field type, or create a new form field.
+1. **Place the script into your webpage**: Copy the tracking script and place it at the top of your webpage HTML code, or share it with your  developer to do so. In third-party pages, this is done via inserting embedded HTML codes.
+After adding the script to your webpage, refresh the tab that contains your web page so that the update is visible to form capture wizard.
 
-    > [!NOTE]
-    > If your external form has changed since you last captured it, select **Rescan** here to load the latest field list.
+1. **Choose the form**: Once you refresh the webpage, you will see all available forms. You can select the form you'd like to capture.
+
+1. **Map the fields**: Before exiting the wizard, map the fields from your form to the Dynamics 365 fields so that the entries can be logged and stored under the entities in your Marketing environment.
+
+1. **Overview and go live**: After you exit the wizard, you will see an overview of the mapped fields. Make sure the fields are mapped correctly before going live to ensure that the form capture is successful.
 
 1. Go to the **Summary** tab and finish setting up your marketing form just as you would a native marketing form. Be sure to provide a **Name** that makes sense, decide whether to update contacts, leads, or both, and choose your matching strategies for finding existing records to update. More information: [Form summary and configuration](marketing-forms.md#form-summary)
 
@@ -194,7 +170,7 @@ To set up a form capture:
 
 ### Edit a live form-capture form
 
-When a form-capture form is live, all it's settings are read only. If you update your external form or need to edit your form-capture form for any reason, do the following:
+When a form-capture form is live, all its settings are read only. If you update your external form or need to edit your form-capture form for any reason, do the following:
 
 1. Open the relevant marketing form record.
 1. Select **Edit** on the command bar to put the record into the live-edit state. (The form remains active in this state.)
@@ -247,6 +223,6 @@ To set up a journey that invites contacts to visit an external form and then rea
 
 ### Use external forms with inbound campaigns
 
-You can create an inbound campaign by placing a **Marketing form** tile at the start of a journey, and then configure the tile to reference the marketing-form record that created the embedded or captured form you are using on your external site. This will cause each contact that submits the form to be added to the journey, just as though they had joined a segment targeted by the journey. You could already [do something similar for marketing pages hosted on a Dynamics 365 Portal](create-inbound-customer-journey.md), but now you can also do it with an externally hosted marketing forms.
+You can create an inbound campaign by placing a **Marketing form** tile at the start of a journey, and then configure the tile to reference the marketing-form record that created the embedded or captured form you are using on your external site. This will cause each contact that submits the form to be added to the journey, as though they had joined a segment targeted by the journey. You could already [do something similar for marketing pages hosted on a Dynamics 365 Portal](create-inbound-customer-journey.md), but now you can also do it with an externally hosted marketing form.
 
 ![Inbound campaign from a hosted form](media/journey-host-form-trigger5.png "Inbound campaign from a hosted form")
