@@ -356,7 +356,7 @@ Select an activity from the timeline to expand and view.
 
   ![Timeline card in collapsed mode](media/email-hover.png "Timeline card in collapsed mode")
   
-  In the expanded view, any rich-text formatting you've applied is displayed:  
+  In the expanded view, any rich-text formatting that has been applied is displayed:  
 
   ![Timeline card in expanded mode](media/email-expanded.png "Timeline card in expanded mode")
   
