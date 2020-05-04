@@ -42,20 +42,20 @@ Release For information about other updates to Field Service, visit the [Dynamic
 |  | Region | Current Version | Next Version |  Scheduled Date
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Station 1</strong> | |  |  | |
-| | <i>First Release</i> |[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| TBD | 05/01/20
+| | <i>First Release</i> |[8.8.22.57](https://docs.microsoft.com/dynamics365/field-service/version-history#882257)| TBD | 05/01/20
 |<strong>Station 2</strong> | |  |  | |
-| | <i>South America</i> |[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)|  TBD | 05/01/20
-| | <i>Canada</i> |[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| TBD | 05/01/20 
-| | <i>India</i> |[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| TBD | 05/01/20
-| | <i>France</i> |[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)|  TBD | 05/01/20
-| | <i>United Arab Emirates</i> |[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)|  TBD | 05/01/20
-| | <i>South Africa</i> |[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)|  TBD | 05/01/20
-| | <i>Germany</i> |[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| TBD | 05/01/20
+| | <i>South America</i> |[8.8.22.57](https://docs.microsoft.com/dynamics365/field-service/version-history#882257)|  TBD | 05/01/20
+| | <i>Canada</i> |[8.8.22.57](https://docs.microsoft.com/dynamics365/field-service/version-history#882257)| TBD | 05/01/20 
+| | <i>India</i> |[8.8.22.57](https://docs.microsoft.com/dynamics365/field-service/version-history#882257)| TBD | 05/01/20
+| | <i>France</i> |[8.8.22.57](https://docs.microsoft.com/dynamics365/field-service/version-history#882257)|  TBD | 05/01/20
+| | <i>United Arab Emirates</i> |[8.8.22.57](https://docs.microsoft.com/dynamics365/field-service/version-history#882257)|  TBD | 05/01/20
+| | <i>South Africa</i> |[8.8.22.57](https://docs.microsoft.com/dynamics365/field-service/version-history#882257)|  TBD | 05/01/20
+| | <i>Germany</i> |[8.8.22.57](https://docs.microsoft.com/dynamics365/field-service/version-history#882257)| TBD | 05/01/20
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> |[8.8.11.19](https://docs.microsoft.com/dynamics365/field-service/version-history#881119)| [8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| 05/01/2020 
-| | <i>Asia Pacific</i> |[8.8.11.19](https://docs.microsoft.com/dynamics365/field-service/version-history#881119)|  [8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)|  05/01/2020
-| | <i>Great Britain</i> |[8.8.11.19](https://docs.microsoft.com/dynamics365/field-service/version-history#881119)|  [8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)|  05/01/2020
-| | <i>Oceana</i> |[8.8.11.19](https://docs.microsoft.com/dynamics365/field-service/version-history#881119)|  [8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)|  05/01/2020
+| | <i>Japan</i> |[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| [8.8.22.57](https://docs.microsoft.com/dynamics365/field-service/version-history#882257)| 05/08/2020 
+| | <i>Asia Pacific</i> |[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| [8.8.22.57](https://docs.microsoft.com/dynamics365/field-service/version-history#882257)| 05/08/2020 
+| | <i>Great Britain</i> |[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| [8.8.22.57](https://docs.microsoft.com/dynamics365/field-service/version-history#882257)| 05/08/2020 
+| | <i>Oceana</i> |[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| [8.8.22.57](https://docs.microsoft.com/dynamics365/field-service/version-history#882257)| 05/08/2020 
 |<strong>Station 4</strong> | |  |  | |
 | | <i>Europe</i> |[8.8.11.19](https://docs.microsoft.com/dynamics365/field-service/version-history#881119)|  [8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| 05/08/2020
 |<strong>Station 5</strong> | |  |  | |
@@ -64,6 +64,38 @@ Release For information about other updates to Field Service, visit the [Dynamic
 | | <i>Goverment Community Cloud</i> |[8.8.11.19](https://docs.microsoft.com/dynamics365/field-service/version-history#881119)|  [8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| 05/22/2020
 | | <i>China</i> |[8.8.11.19](https://docs.microsoft.com/dynamics365/field-service/version-history#881119)| [8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| 05/22/2020
 
+## 8.8.22.57 
+
+- The following [Field Service 2020 Wave 1](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-field-service/planned-features) features in GA and Preview planned are included in this release:
+  - Incident type AI-based suggestions (preview)
+  - IoT alerts AI-based suggestions (preview)
+  - Leverage Power Automate flows (preview)
+  - Combined asset capabilities across Dynamics 365 Supply Chain Management and Field Service
+  - Integration with Dynamics 365 Supply Chain Management
+  - Intune support for Field Service Mobile
+  - Next generation schedule board experience (preview)
+  - Enhanced work hours calendar for resources
+  - Requirement dependency for efficient workflow
+  - Resource scheduling dashboard
+  - Integrated technician time tracking
+  - Technician time-capture precision
+- This release also includes all fixes included in the [8.8.14.328 EA package](https://docs.microsoft.com/dynamics365/field-service/version-history#8814328-2020-wave-1-early-access).
+- Corrected some scenarios where the geo code function was being called when "Auto Geo Code Addresses" was set to no.
+- Corrected scenario where msdyn_payment was null on payment details which was improperly throwing the following error "The payment amount can't be less than total amount applied to invoices."
+- Fixed an issue where price list not changing based on changes to work order's billing account. For organizations experiencing this issue, a fix is made available through the "Advanced Settings" field in the Field Service Settings entity, in an effort to not introduce a potentially disruptive change at this time. Copy the following string into the hidden field:  
+
+>  *workorder.pricelist.usefrombillingaccount*
+
+- Resolved an issue where the time-only control misinterpreted daylight savings time for certain timezones.
+- Fixed an issue where form logic was not respecting environment configurations on the Lead entity. Customers can now set fields, like "Company," to be business required and the Field Service form logic will respect the setting.
+- Corrected an issue on Work Order Service where the "Total Amount" was not respecting the "Discount" when used in an editable grid.
+- Removed the validation on Bookable Resource which required each Bookable Resource's name to be unique.
+- Fixed an error on the Quote Booking Product where, under certain circumstances, the system would inaccurately throw the following error, "Enter an amount between $0.00 and $922,337,203,685,477.00."
+- Fixed an issue on Work Order quick create from Account where the Billing Account did not populate, correctly.
+- Improved Customer Asset lookup experience from Work Order Incident to ensure the form respects when organizations define their own default lookup view.
+- Resolved an issue where, in certain timezones, Agreement Booking Setup's Preferred Start Time was not appropriately setting on Agreement Booking Dates' Booking Date and the subsequently auto-created Bookable Resource Booking based on the defined "Preferred Start Time."
+- Fixed a scenario where, if an environment sets the default value of msdyn_linestatus to "Used," Work Order Service creation would fail.
+- Added a null reference check to correct an issue if Work Order Service's "Duration to Bill" was not set.
 
 ## 8.8.12.2 
 
