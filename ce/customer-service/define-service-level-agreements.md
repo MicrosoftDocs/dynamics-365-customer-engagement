@@ -93,15 +93,18 @@ Perform the following steps to configure SLAs in Customer Service Hub:
 
 Review the following requirements before configuring SLAs for your organization:
 
-- The System Administrator, System Customizer, or Customer Service Manager role is assigned to you. Additionally, make sure that the following permissions have been granted to each role:
-  - Customer Service Representative: 
-
+- The System Administrator, System Customizer, or Customer Service Manager role is assigned to you. Additionally, make sure that the following permissions have been granted in **Security** > **Security Roles** > **Custom Entities**:
+  - **CSR Manager:**
+    - **Connector:** All permissions at the business unit level.
+    - **SLAKPI:** Create permission at the business unit level, delete permission at the parent-child level, and other permissions at the organization level.
+    - **ProcessStageParameter:** All permissions at the business unit level.
+  - **Customer Service Representative:** Read permission at the organization level for the SLAKPI entity.
 - Identify target entities and add customizations. To add customizations in target entities to track SLAs, follow these steps:
 
-   a. Create a lookup field on the entity for which an SLA has to be configured, and relate it to an SLA KPI instance. Lookup fields are created so that you can view the SLA in the timer on the entity form and track your SLAs. To learn more, see [Create and edit fields](../customerengagement/on-premises/customize/create-edit-fields.md#create-and-edit-fields).
+   1. Create a lookup field on the entity for which an SLA has to be configured, and relate it to an SLA KPI instance. Lookup fields are created so that you can view the SLA in the timer on the entity form and track your SLAs. To learn more, see [Create and edit fields](../customerengagement/on-premises/customize/create-edit-fields.md#create-and-edit-fields).
    For example, to track an SLA on a case for "escalated by KPI, you need to create a field as **EscalatedByKPI** on the Case entity, and provide the respective **Target Record Type** as **Service Level Agreement Instances** and **Data Type** as **Lookup**.
 
-    b. Use the lookup field to configure a timer to help users estimate the amount of time they have to complete a task—typically as specified in an SLA.<br>
+    1. Use the lookup field to configure a timer to help users estimate the amount of time they have to complete a task—typically as specified in an SLA.<br>
       To configure a timer, add the timer control to an entity form. The timer control initially displays a countdown timer to show the time remaining to complete the task. To learn more, see [Add a timer control to the Case form to track time against an SLA](add-timer-control-case-form-track-time-against-sla.md).
 
 ## Create SLA KPIs in Customer Service Hub<a name="create-sla-kpis"></a>
