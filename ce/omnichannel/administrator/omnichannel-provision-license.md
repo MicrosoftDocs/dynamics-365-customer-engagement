@@ -28,9 +28,9 @@ Looking for an upgrade? See [Upgrade Omnichannel for Customer Service](upgrade-o
 
 To allow Omnichannel for Customer Service to read and write data on behalf of users, follow these below steps:
 
-1. Go to [Data access consent URL](https://go.microsoft.com/fwlink/?linkid=2070932). For the Government Community Cloud (GCC), use the [GCC data access consent URL](https://go.microsoft.com/fwlink/p/?linkid=2128838). 
+1. Go to [Data access consent URL](https://go.microsoft.com/fwlink/?linkid=2070932). For Government Community Cloud (GCC), use the [GCC data access consent URL](https://go.microsoft.com/fwlink/p/?linkid=2128838). 
 2. Sign in using **Global Tenant Admin** credentials.
-3. Select the checkbox **Consent on behalf of your organization**.
+3. Select the check box **Consent on behalf of your organization**.
 4. Select **Accept** to grant data access consent.
 
     > [!div class=mx-imgBorder]
