@@ -15,15 +15,15 @@ ms.topic: reference
 
 Microsoft automatically collects data to improve the reliability and performance of our products and to understand how the products are being used. This information is used to make improvements to the product capabilities over time. The live chat widget in Chat for Dynamics 365 collects telemetry automatically from end users to serve the same purposes.
 
-Examples of data collected in the live chat widget include: 
+Some of the data collected in the live chat widget include the following. 
 
 |Field|Sample value|
 |----|----|
-|OrganizationId |8e9071c2-4415-47aa-b1cb-693631e7fafb |
-|Chat Widget Version |prod |
-|BrowserName |Edge |
-|OSName |Windows| 
-|Scrubbed IP Address (last octet redacted) |19.207.000.000| 
+|OrganizationId |`8e9071c2-4415-47aa-b1cb-693631e7fafb` |
+|Chat Widget Version |`prod` |
+|BrowserName |`Edge` |
+|OSName |`Windows`| 
+|Scrubbed IP Address (last octet redacted) |`19.207.000.000`| 
 
 > [!IMPORTANT]
 > No personally identifiable information (PII) is collected.  
@@ -35,3 +35,7 @@ If your organization is concerned about the data collected by this service, you 
 ```
 
 This information helps Microsoft understand usage patterns, plan new features, and troubleshoot and fix problem areas.
+
+## See also
+
+[Customize a chat widget](customize-chat-widget.md)
