@@ -62,7 +62,7 @@
 #### [Create and manage holiday schedule](set-up-holiday-schedule.md)
 #### [Create customer service schedule](create-customer-service-schedule-define-work-hours.md)
 #### [Manage service configuration settings](../admin/system-settings-dialog-box-service-tab.md)
-
+#### [Contract to entitlements migration strategy](contract-to-entitlement-migration.md)
 ### Templates
 #### [Set up entitlements using entitlement templates](set-up-entitlements-templates.md)
 #### [Create email templates](../admin/create-templates-email.md)
