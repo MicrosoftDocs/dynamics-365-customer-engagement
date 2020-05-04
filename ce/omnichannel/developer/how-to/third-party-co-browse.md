@@ -210,6 +210,26 @@ To provision the third party Co-browse/Screen sharing solution for our customers
 
 To deprovision the third party Co-browse/Screen sharing solution for our customers, ISVs should remove the solution along with the data created with this framework. There shouldn’t be any existing legacy data or code remaining in that org after deprovisioning.   
 
+## Publishing strategy
+
+Here are the links for publishing the application to AppSource 
+
+[AppSource onboarding](https://appsource.microsoft.com)
+
+[Onboarding guide](https://docs.microsoft.com/en-us/azure/marketplace/cloud-partner-portal/business-applications-isv-program) 
+
+[ISV Studio](http://Aka.ms/isvstudio)
+
+[Overview Guide PDF](https://aka.ms/bizappsisvprogram) 
+
+[Agreement PDF](http://aka.ms/bizappsisvaddendum) 
+
+[Policies PDF(Includes benefit table)](http://aka.ms/bizappsisvpolicies)
+
+[Program page on partner.microsoft.com site with links to certificate info](http://aka.ms/bizappsisvweb)
+
+[Customer/partner support](http://aka.ms/marketplacepublishersupport)
+ 
 ## Third Party providers responsibility and data disclaimer 
 
 Please ensure to publish the privacy policy link to AppSource for security and privacy protection of the personal information that would be processed, and providing a compliant approach to data protection. 
