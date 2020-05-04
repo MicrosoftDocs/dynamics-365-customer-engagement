@@ -1,10 +1,10 @@
 ---
-title: Contract to entitlement migration | Microsoft Docs
+title: Contracts to entitlements migration strategy | Microsoft Docs
 description: Learn more about contract to entitlement migration for Dynamics 365 Customer Service.
 author: lerobbin
 ms.author: lerobbin
 manager: shujoshi
-ms.date: 04/30/2020
+ms.date: 05/08/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -19,9 +19,9 @@ search.app:
   - D365CS
 ---
 
-# Contract to entitlement migration
+# Contracts to entitlements migration strategy
 
-This document contains additional considerations that admins have to take care of when migrating contract records to entitlements. This migration support information will help customers prepare for the deprecation of the following:
+This document contains information about settings that admins have to take care of when migrating contract records to entitlements. This migration support information will help customers prepare for the deprecation of the following:
 
 - Contracts
 - Contract line items
@@ -31,39 +31,35 @@ This document contains additional considerations that admins have to take care o
 
 The process of migrating contracts to entitlements is as follows:
 
-- Mapping: Contract template to entitlement template
-- Mapping: Contracts to entitlements
-  1. Single product contract
-  2. Contract and entitlement cancellation
-  3. Billing unit on contract
-  4. Commands on contract
-  5. State mapping
+1. **Contract template to entitlement template mapping:** For records that are based on contract templates, migrate them to the entitlement templates.
+2. **Contracts to entitlements:** Migrate the contract lines to entitlements by creating individual entitlements.
+3. **Runtime tasks:** Run scripts to perform the migration.
 
-## Mapping: Contract template to entitlement template
+## Mapping: Contract templates to entitlement templates
 
-If you're currently using the contract template, use the following steps to map to the entitlement template.
+For feature parity, perform the following steps to map the contract templates to the entitlement templates.
 
 ### Allotment type
 
-Allotment type to "Coverage Dates" on the contract templates is used to allow any number of cases to be created between the start date and end date of a contract. To switch from the contract template and map to the entitlement template:
+The allotment type based on coverage dates in the contracts template, which is used to allow any number of cases to be created between the start date and end date of a contract, is not available in the entitlements template. To enable the same functionality, in the entitlement template, set the value for **Restrict based on entitlements terms** to **No**.
 
-- **Step 1:**  Select **Coverage Dates** in **Allotment Type**.
-
+A screenshot of the allotment type in the contract template is as follows.
   ![Allotment Type](media/contract-and-entitlement-allocation-type-1.png "Allotment Type")
 
-- **Step 2:** Set **Restrict based on entitlement terms** to **No**.
+A screenshot of the entitlement template is as follows,
 
-  ![No restriction](media/contract-and-entitlement-allocation-type-2.png "No restriction")
+  ![Entitlement template based on "No restriction"](media/entitlement-template-sample.png  "Entitlement template based on No restriction")
 
-> [!Important]
+> [!Note]
 > After an entitlement is created from the entitlement template, add custom code to copy the custom fields added on entitlement for parity with contract lines.
+> The calendar option in the contracts template is not available in the entitlements template.
 
 **Benefits with entitlement:**
 
 - Created cases will now display warning notices when they exceed the allocated terms.
 - Customer usage can be monitored with the option to set and apply restrictions in the future.
 
-## Custom fields
+### Custom fields
 
 You will need to create custom fields in entitlements to migrate data from the fields in the contract template that are not available in the entitlement template. Perform the following steps to switch from the contract template and map to the entitlement template:
 
@@ -74,68 +70,69 @@ You will need to create custom fields in entitlements to migrate data from the f
 
 If you're currently using contracts, you can map to entitlements by following these steps:
 
-- **Step 1:**	Create a separate entitlement for each contract line.
-- **Step 2:**	Create custom attributes on the entitlement for missing contract lines attributes.
-- **Step 3:**	After an entitlement is created from the entitlement template, add custom code to copy the custom fields added on the entitlement for parity with contract lines.
+1. Create a separate entitlement for each contract line.
+2. Create custom attributes on the entitlement for missing contract lines attributes.
+3. After an entitlement is created from the entitlement template, add custom code to copy the custom fields added on the entitlement for parity with contract lines.
 
-### Single product contract
+### Things to consider
+
+This section provides information on the functionalities that are different between contracts and entitlements and need to be considered when you are migrating the contracts records to entitlements.
+
+#### Single product contract
 
 If you have a contract tied to a single product, follow these steps:
 
- - **Step 1:** Create an entitlement.
- - **Step 2:** Add only one product in the **PRODUCTS** grid.
+1. Create an entitlement.
+2. Add only one product in the **PRODUCTS** grid.
 
-  ![Single product contract](media/single-product-contract.png "Single product contract")
+>  ![Single product contract](media/single-product-contract.png "Single product contract")
 
 > [!Note]
-> The concept of grouping contract lines for a contract has been deprecated and is not available in entitlements.
+> The concept of grouping contract lines for a contract is not available in entitlements. You need to create separate entitlements for every contract line.
 
-### Contract and entitlement cancellation
+#### Contract and entitlement cancellation
 
 A contract or entitlement can be canceled using the following steps:
 
 **Cancel a contract**  
-Contracts can be canceled immediately or in the future by:
+Contracts can be canceled immediately or in the future by selecting a date.
   
-- **Step 1:**	Selecting a date.
-- **Step 2:**	Selecting **Confirm**.
-
   ![Contract and entitlement cancellation](media/contract-and-entitlement-cancellation.png "Contract and entitlement cancellation")
 
 **Cancel an entitlement**  
-An entitlement can be canceled immediately, but can't be canceled in the future.
+An entitlement can be canceled only immediately; you can't set a date to cancel it in the future.
   
 ![Cancel entitlement](media/cancel-entitlement.png "Cancel entitlement")
 
-### Billing unit on contract
+#### Billing unit in contracts
 
 Billing unit is not available in entitlements. To achieve this in entitlement, use custom logic.
 
 For simple rollups, use rollup fields. For more information, see [rollup fields](/dynamics365/customerengagement/on-premises/customize/define-rollup-fields).
 
-### Commands on contract
+#### Commands in contracts
 
-The following is a list of commands that have been deprecated on entitlements:
+The following commands have been deprecated in entitlements:
 
 - **Copy Contract:** To clone the contract.
 - **Recalculate:** To recalculate the billing rollup.
 - **Onhold:** To hold the contract.
 - **Release Hold:** To release the on-hold contract.
 
-The following is a list of commands available on entitlements:
+The following commands are available in entitlements:
 
 - **Renew:** To renew the expired entitlement.
 - **Cancel:** To cancel the active entitlement.
 
-### State mapping
+#### State mapping
 
 - The invoiced state in contract can be mapped to the waiting state in the entitlement.
-- The draft, active, canceled, and expired states are the same for both contract and entitlement.
-- The onhold state is not available in entitlement.
+- The draft, active, canceled, and expired states are the same for both contracts and entitlements.
+- The onhold state is not available in entitlements.
 
-## Runtime impact
+## Runtime scripts for migrating contracts
 
-Use the following steps to migrate from contract to entitlement:
+Use the following steps to migrate from contracts to entitlements:
 
 - **Step 1:** Move the contract and contract lines to entitlements.
 - **Step 2:** Run update script to update entitlements on a case instead of contracts.
@@ -147,7 +144,7 @@ For business requirements, if a resolved case needs to be updated, follow these 
 - **Step 3:** Resolve the case.
 
 > [!IMPORTANT]
-> In contracts and contract lines, the contract lines could be associated with a product that is different from the one listed in a case. However, in entitlements, the product listed in a case should match the product listed in the entitlement.
+> In contracts and contract lines, the contract lines can be associated with a product that is different from the one listed in a case. However, in entitlements, the product listed in a case should match the product listed in the entitlement.
 >
 > **Example**: Contract lines associated with the product Armband 100 can be associated in the case list that is linked to another product, Armband 150. However, in entitlements, an error will occur when you link an entitlement associated with a product, Armband 100, with a case linked to Armband 150.
 
