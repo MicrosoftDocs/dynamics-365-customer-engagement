@@ -466,11 +466,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/field-service/mobile-2020-power-platform.md",
-      "redirect_url": "field-service-mobile-overview",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/field-service/create-inventory-transfer.md",
       "redirect_url": "inventory-purchasing-returns-overview",
       "redirect_document_id": "false"

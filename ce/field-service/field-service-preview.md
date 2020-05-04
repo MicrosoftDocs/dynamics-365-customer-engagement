@@ -57,7 +57,7 @@ Open PowerShell and **Run as Administrator**.
 > ![Screenshot of the run as administrator option for PowerShell in the Windows start search.](./media/preview-powershell.png)
 
 
-Here's an example of the all the PowerShell commands we'll run and you can follow with the steps below. We recommend copying and pasting the following in a note that you can edit with your specific information for username, password, org ID and more.
+Here's an example of all the PowerShell commands we'll run; you can follow with the steps below. We recommend copying and pasting the following in a note that you can edit with your specific information for username, password, org ID and more.
 
     install-module Microsoft.Xrm.OnlineManagementAPI -Scope CurrentUser -force 
     $user = “username@org.onmicrosoft.com”   
