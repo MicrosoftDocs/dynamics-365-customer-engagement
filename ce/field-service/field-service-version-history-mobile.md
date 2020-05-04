@@ -112,11 +112,20 @@ Mobile projects hold configurations and customizations of the Field Service Mobi
 
 To learn more about mobile projects, see our topic on [installing the Field Service Mobile Configuration Tool](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/install-field-service#install-the-field-service-mobile-configuration-tool).
 
+## 1.0.4549
+
+| Download link | Release date | Relates to Field Service Mobile version | Publish to Woodford Version | Minimum Field Service Version |
+| --- | --- | --- | --- | --- |
+| [1.0.4549](https://aka.ms/fsmobile-project)  |  May 2020  |  12.1+ | 12.1+ | 8.8.6.300 | 
+
+- Added support for [Time Entry](field-service-time-entry.md) Fields, Forms, and Views.
+- Added font file for PDF Reports.
+
 ## 1.0.3514
 
 | Download link | Release date | Relates to Field Service Mobile version | Publish to Woodford Version | Minimum Field Service Version |
 | --- | --- | --- | --- | --- |
-| [1.0.3514](https://aka.ms/fsmobile-project)  |  January 2020  |  12.1+ | 12.1+ | 8.8.6.300 | 
+| [1.0.3514](https://aka.ms/fsmobile-project-3514)  |  January 2020  |  12.1+ | 12.1+ | 8.8.6.300 | 
 
 ## 1.0.3482
 
