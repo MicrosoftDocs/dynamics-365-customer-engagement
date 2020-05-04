@@ -1,7 +1,7 @@
 ---
 title: "Learn the basics of the Customer Service Hub app | Microsoft Docs"
 description: "Learn the basics of the Customer Service Hub for Customer Service"
-ms.date: 04/13/2020
+ms.date: 05/04/2020
 ms.service:
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -350,9 +350,18 @@ You can easily search for records in the timeline. When you search for a phrase,
 You can easily set email messages to show as conversation threads on the timeline, significantly reducing usability (scroll and clicks) when managing email activities.
 
 #### **Expand and collapse timeline activities**
-Select an activity from the timeline to expand and view.
+Select an activity from the timeline to expand and view. 
 
-  ![Timeline expand and collapse activity](../customer-service/media/timeline-expand-collapse.png "Timeline expand and collapse activity")
+In the collapsed view, rich-text formatting is not displayed:
+
+   > [!div class=mx-imgBorder] 
+   > ![Timeline card in collapsed mode](media/email-hover.png "Timeline card in collapsed mode")
+
+In the expanded view, any rich-text formatting you've applied is displayed:
+
+   > [!div class=mx-imgBorder] 
+   > ![Timeline card in expanded mode](media/email-expanded.png "Timeline card in expanded mode")
+
 
 #### Configure Timeline section for your users
 
