@@ -352,17 +352,15 @@ You can easily set email messages to show as conversation threads on the timelin
 #### **Expand and collapse timeline activities**
 Select an activity from the timeline to expand and view. 
 
-In the collapsed view, rich-text formatting is not displayed:
+  In the collapsed view, rich-text formatting is not displayed:  
 
-   > [!div class=mx-imgBorder] 
-   > ![Timeline card in collapsed mode](media/email-hover.png "Timeline card in collapsed mode")
+  ![Timeline card in collapsed mode](media/email-hover.png "Timeline card in collapsed mode")
+  
+  In the expanded view, any rich-text formatting you've applied is displayed:  
 
-In the expanded view, any rich-text formatting you've applied is displayed:
-
-   > [!div class=mx-imgBorder] 
-   > ![Timeline card in expanded mode](media/email-expanded.png "Timeline card in expanded mode")
-
-
+  ![Timeline card in expanded mode](media/email-expanded.png "Timeline card in expanded mode")
+  
+  
 #### Configure Timeline section for your users
 
  To learn more about configuration, see [Set up timeline section (control)](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control) and [FAQs for timeline control](https://docs.microsoft.com/powerapps/maker/model-driven-apps/faqs-timeline-control) in the Microsoft Power Apps documentation.
