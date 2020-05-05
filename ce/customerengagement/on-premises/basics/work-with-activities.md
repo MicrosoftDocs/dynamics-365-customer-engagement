@@ -20,6 +20,8 @@ search.app:
 ---
 # Work with activities
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Add an appointment, email, phone call, note, or task activity to the timeline](/powerapps/user/add-activities)
+
 In Dynamics 365 Customer Engagement (on-premises), you use **activities** to keep track of all your customer communications. For example, you can take notes, send email, make phone calls, set up appointments, and assign yourself tasks as you work a sale or resolve a service case. These actions are all considered types of activities.  
   
  The system automatically timestamps every activity and shows who created it. You and other people on your team can scroll through the activities to see the history as you work with a customer.  
