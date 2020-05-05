@@ -21,6 +21,8 @@ search.app:
 ---
 # Edit the default filter of a report
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Edit the default filter of a report](/powerapps/user/edit-report-filter)
+
 When a report is a [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] report, is enabled for prefiltering, and has a default filter, you can change the default filter to display the data you expect to see in the report. This filter is used each time any user runs the report.  
   
 1. [!INCLUDE[proc_reports](../includes/proc-reports.md)]  
