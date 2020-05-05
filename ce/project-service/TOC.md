@@ -1,8 +1,9 @@
 # [Overview](overview.md)
 
 # What's new
-## [What's new or changed in Project Service Automation Update Release 18, V3](whats-new-ur-18.md)
-## [What's new or changed in Project Service Automation Update Release 17.5, Hotfix, V3](whats-new-ur-17-5.md)
+## [What's new or changed in Update Release 19, V3](whats-new-ur-19.md)
+## [What's new or changed in Update Release 18, V3](whats-new-ur-18.md)
+## [What's new or changed in Update Release 17.5, Hotfix, V3](whats-new-ur-17-5.md)
 ## [What's new or changed in Update Release 17, V3](whats-new-ur-17.md)
 ## [What's new or changed in Update Release 16, V3](whats-new-ur-16.md)
 ## [What's new or changed in Update Release 15, V3](whats-new-ur-15.md)
