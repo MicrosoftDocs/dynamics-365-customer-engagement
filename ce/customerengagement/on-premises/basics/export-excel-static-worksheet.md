@@ -21,6 +21,8 @@ search.app:
 ---
 # Export to an Excel static worksheet
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Export to an Excel static worksheet](/powerapps/user/export-excel-static-worksheet)
+
 When you want to present Customer Engagement (on-premises) information to an individual who doesn’t have access to Dynamics 365 Customer Engagement (on-premises), or you have data that doesn’t change often, consider exporting your Customer Engagement (on-premises) data to a [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] static worksheet.  
   
  <!--If you’re on [!INCLUDE[pn_crm_online_2015_update_1_shortest](../includes/pn-crm-online-2015-update-1-shortest.md)], y--> You can export up to 100,000 records at a time. And by default, Dynamics 365 Customer Engagement (on-premises) lists up to 50 records per page. select the <strong>Page</strong> arrows at the bottom of the list to view any additional pages.  
