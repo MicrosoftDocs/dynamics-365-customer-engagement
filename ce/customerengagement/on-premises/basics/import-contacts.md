@@ -21,6 +21,8 @@ search.app:
 ---
 # Import contacts
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Import data](/powerapps/user/import-data)
+
 Whether your contacts are stored in an email program, a spreadsheet, or on your phone, here’s how to import them into Dynamics 365 Customer Engagement (on-premises) so you have all your business contact information in Customer Engagement (on-premises).  
   
 ## Step 1: Get your import file ready  
