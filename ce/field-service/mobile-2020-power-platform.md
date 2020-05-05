@@ -1,8 +1,8 @@
 ---
-title: "Field Service Mobile (2020) | MicrosoftDocs"
+title: "Field Service  mobile app | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 05/01/2020
+ms.date: 05/05/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -26,13 +26,13 @@ search.app:
   - D365FS
 ---
 
-# Field Service Mobile (2020)
+# Field Service (Dynamics 365) mobile app
 
 
-Field Service Mobile (2020) is a mobile app designed and optimized for technicians to view Dynamics 365 Field Service work orders, customer assets, accounts, and contacts. Different than Field Service Mobile (see feature comparison below), this alternative mobile app is built on Microsoft's Power Platform as a model-driven app and is customizable to your business needs with the same admin console as all Dynamics 365 business apps.
+Field Service (Dynamics 365) is a mobile app designed and optimized for technicians to view Dynamics 365 Field Service work orders, customer assets, accounts, and contacts. Different than Field Service Mobile (see feature comparison below), this alternative mobile app is built on Microsoft's Power Platform as a model-driven app and is customizable to your business needs with the same admin console as all Dynamics 365 business apps.
 
 
-Available natively for Apple iOS and Google Android phones, Field Service Mobile (2020) offers technicians many capabilities they need to perform onsite customer service, such as:  
+Available natively for Apple iOS and Google Android phones, Field Service (Dynamics 365) offers technicians many capabilities they need to perform onsite customer service, such as:  
 
 - A calendar view of assigned jobs 
 - Support for picture, video, and asset barcode scanning
@@ -42,18 +42,18 @@ Available natively for Apple iOS and Google Android phones, Field Service Mobile
 
 ## Implementation and migration guidance
 
-We recommended to continue using the existing "[Field Service Mobile](./field-service-mobile-app-user-guide.md)" app for current and new deployments of Dynamics 365 Field Service. As development in Field Service Mobile (2020) continues through 2021, capabilities will become comparable to Field Service Mobile and system administrators should use the feature comparison information below to decide which mobile app is right for their organization or department.
+We recommended to continue using the existing "[Field Service Mobile](./field-service-mobile-app-user-guide.md)" app for current and new deployments of Dynamics 365 Field Service. As development in the Field Service (Dynamics 365) mobile app continues through 2021, capabilities will become comparable to Field Service Mobile and system administrators should use the feature comparison information below to decide which mobile app is right for their organization or department.
 
-While the new Field Service Mobile (2020) app continues to evolve, we'll continue to make available and support the current Field Service Mobile app. By June 2021, new deployments must use Field Service Mobile (2020); support for the current Field Service Mobile app will end June 2022. 
+While the new Field Service (Dynamics 365) app continues to evolve, we'll continue to make available and support the current Field Service Mobile app. By June 2021, new deployments must use Field Service (Dynamics 365) mobile app; support for the current Field Service Mobile app will end June 2022. 
 
-## Feature comparison: Field Service Mobile (2020) versus Field Service Mobile
+## Feature comparison: Field Service (Dynamics 365) versus Field Service Mobile
 
-Field Service Mobile (2020) is recommended for **simpler** use cases and for organizations that want to get up and running quickly with a mobile solution for technicians because Field Service Mobile (2020) is built on the Power Platform and uses the same admin console as Field Service web. 
+Field Service (Dynamics 365) mobile app is recommended for **simpler** use cases and for organizations that want to get up and running quickly with a mobile solution for technicians because it is built on the Power Platform and uses the same admin console as Field Service web and the same PCF controls. 
 
 Field Service Mobile is recommended for more **complex** use cases where you may need custom reporting, push notifications, geofencing, and business processes or validations that work offline.
 
 
-| Feature | Category | Field Service Mobile (2020) | Field Service Mobile |
+| Feature | Category | Field Service (Dynamics 365) | Field Service Mobile |
 | --- | --- | --- | --- |
 | Mobile Platform | Hardware & software | iOS, Android | iOS, Android, Windows |
 | Camera capture (photo & video) | Technician | Yes | Yes |
@@ -79,29 +79,27 @@ Field Service Mobile is recommended for more **complex** use cases where you may
 
 ## Prerequisites
 
-- **Field Service v8.8.22+**. The Field Service Mobile app will appear in your list of Dynamics 365 applications.
+- **Field Service v8.8.22+**. The Field Service (Dynamics 365) mobile app will appear in your list of Dynamics 365 applications.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Dynamics 365 list of apps, showing the Field Service Mobile solution in the list.](./media/mobile-2020-app-list.png)
 
-- Set up a Dynamics 35 Field Service user with the **Field Service-Resource** security role. This user will sign in to the Field Service Mobile (2020) app as a technician.
+- Set up a Dynamics 35 Field Service user with the **Field Service-Resource** security role. This user will sign in to the Field Service (Dynamics 365) mobile app as a techician.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Manage Roles dialogue in Dynamics 365.](./media/mobile-2020-resource-security-role.png)
 
-- To schedule work orders to view on the mobile app, you must also [create a bookable resource](./set-up-bookable-resources.md) related to your technician user.
-
-- **Optional:** To view bookings on Field Service Mobile (2020), schedule work orders to the bookable resource related to your user.
+- To view work orders on the mobile app, you must also [create a bookable resource](./set-up-bookable-resources.md) related to your technician user and schedule work orders to the bookable resource.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the schedule board, showing a list of unscheduled work orders.](./media/mobile-2020-scheduled-work-orders.png)
 
 
-## Install and sign in to Field Service Mobile (2020)
+## Install and sign in to Field Service (Dynamics 365) 
 
 Go to the app store on your iOS or Android device and search for **Field Service Mobile**.
 
-Download the app called **Field Service Mobile (2020)**, as seen in the following screenshot. This is the mobile app built on the Power Platform. 
+Download the app called **Field Service (Dynamics 365)**, as seen in the following screenshot. This is the mobile app built on the Power Platform. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a mobile device app store, showing two Field Service Mobiles in the list, and highlighting the Field Service Mobile 2020 app.](./media/mobile-2020-download-signin.jpg)
@@ -109,7 +107,7 @@ Download the app called **Field Service Mobile (2020)**, as seen in the followin
 Launch the app and sign in with your username and password. This is the user credentials of the technician user with the **Field Service - Resource** security role.
 
 
-## Use Field Service Mobile (2020)
+## Use Field Service (Dynamics 365) mobile app
 
 Once you sign in, the app will prompt you to download offline data (your scheduled work orders) to the device. If you anticipate not having internet access, select **Download**. Otherwise you can **Skip for now**. If you're unsure, we recommend downloading the offline data just in case. 
 
@@ -167,9 +165,9 @@ When **Status** is set to **Available**, this means you have all the data you ne
 
 Then toggle the **Work in offline mode** to on. If you lose internet connection unexpectedly, the app will automatically work in offline mode if you previously downloaded data.
 
-## Configure Field Service Mobile (2020)
+## Configure Field Service (Dynamics 365) mobile app
 
-Administrators can edit how Field Service Mobile (2020) looks and functions for technicians.
+Administrators can edit how Field Service (Dynamics 365) looks and functions for technicians.
 
 Let's walk through three common configurations:
 
@@ -197,7 +195,7 @@ Select the edit icon to edit the site map.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the App Designer in Power Apps, showing the Field Service Mobile site map option.](./media/mobile-2020-admin-sitemap1.png)
 
-The groups  **My Work**, **Customers**, and **Other** correspond with the home screen of Field Service Mobile (2020) and you can rearrange, delete, or edit the display names.
+The groups  **My Work**, **Customers**, and **Other** correspond with the home screen of Field Service (Dynamics 365) and you can rearrange, delete, or edit the display names.
 
 Rearrange the entities displayed within each group with the drag and drop interface, or add new entities by adding new **Subareas**.
 
@@ -215,7 +213,7 @@ You can even create entirely new groups with more subareas to display different 
 
 ### Edit the booking and work order form
 
-You can add and delete fields displayed on Field Service Mobile (2020); because the app is built as a model-driven Power App, you can use the Power Apps Control Framework to display different field controls like toggle buttons and sliders.
+You can add and delete fields displayed on Field Service (Dynamics 365); because the app is built as a model-driven Power App, you can use the Power Apps Control Framework to display different field controls like toggle buttons and sliders.
 
 Administrators who want to customize the booking and work order forms must know they are combined in the mobile app where work order forms are displayed within the booking form. That means when a technician views a booking form, they're also viewing the related work order form. In the following screenshot, the **General** section displays **Bookable Resource Booking** ("Booking") fields and the **Customer**, **Service**, and **Notes** sections display work order fields.
 
@@ -234,7 +232,7 @@ In the **Form** section, there are three forms that correspond to the three sect
 2. Work Order - Service
 3. Work Order - Notes
 
-Edit each form as needed and publish. The changes will display in Field Service Mobile (2020).
+Edit each form as needed and publish. The changes will display in Field Service (Dynamics 365).
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Power Apps showing the work order form details.](./media/mobile-2020-admin-work-order-form-tabs.png)
@@ -290,7 +288,7 @@ There are Form Component Controls for each work order form that is inserted into
 
 ### Configure offline data and sync filters
 
-Administrators can edit the data downloaded to Field Service Mobile (2020) in offline mode when no internet access is available. 
+Administrators can edit the data downloaded to Field Service (Dynamics 365) in offline mode when no internet access is available. 
 
 > [!Note]
 > When internet access is available, users will simply see all data on the server they have access to via their security role.
@@ -340,6 +338,6 @@ For another example, the **Work Order Product** entity has a data download filte
 
 ## FAQs
 
-### Can I only add and view Field Service entities on Field Service Mobile (2020)?
+### Can I only add and view Field Service entities on Field Service (Dynamics 365)?
 
-Because Field Service Mobile (2020) is a model-driven app on the Power Platform, any entity can be added; users can only see entities and records that they have the licenses and security to access, regardless of whether it's part of the Field Service app or not.
+Because Field Service (Dynamics 365) is a model-driven app on the Power Platform, any entity can be added; users can only see entities and records that they have the licenses and security to access, regardless of whether it's part of the Field Service app or not.
