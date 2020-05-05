@@ -21,6 +21,8 @@ search.app:
 ---
 # Export to an Excel PivotTable
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Export to an Excel PivotTable](/powerapps/user/export-excel-pivottable)
+
 You can export Dynamics 365 Customer Engagement (on-premises) data to a [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] PivotTable to see patterns and trends in data. An [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] PivotTable is a great way to summarize, analyze, explore, and present your Customer Engagement (on-premises) data. You can export up to 100,000 records at a time.  
   
 ## Prerequisites  
