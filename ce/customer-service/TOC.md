@@ -56,7 +56,7 @@
 #### [Define subjects to categorize cases](../admin/define-subjects-categorize-cases-products-articles.md)
 
 ### Service Terms
-#### [Define Service Level Agreements (SLAs)](define-service-level-agreements.md)
+#### [Define service level agreements (SLAs)](define-service-level-agreements.md)
 #### [Enable entities for service level agreements](enable-entities-service-level-agreements.md)
 #### [Create entitlements to define support terms](create-entitlement-define-support-terms-customer.md)
 #### [Create and manage holiday schedule](set-up-holiday-schedule.md)
