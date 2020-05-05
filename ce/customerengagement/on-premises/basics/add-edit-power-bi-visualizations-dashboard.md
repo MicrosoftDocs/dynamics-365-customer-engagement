@@ -22,6 +22,8 @@ search.app:
 ---
 # Add or edit Power BI visualizations on your dashboard
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Add or edit Power BI visualizations on your dashboard](/powerapps/user/add-powerbi-dashboards)
+
 Create rich, interactive reports and real-time visualizations in Dynamics 365 Customer Engagement (on-premises) with [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] dashboards and  tiles that you add  to your personal dashboards.  
   
 > [!NOTE]
