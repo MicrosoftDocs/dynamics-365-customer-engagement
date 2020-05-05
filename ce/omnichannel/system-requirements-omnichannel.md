@@ -1,8 +1,8 @@
 ---
-title: "Prerequisites and system requirements of Omnichannel for Customer Service | MicrosoftDocs"
+title: "Omnichannel for Customer Service system requirements | MicrosoftDocs"
 description: "Learn about the system requirements of Omnichannel for Customer Service."
-author: platkat
-ms.author: ktaylor
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 applies_to: 
   - ""
@@ -14,7 +14,7 @@ ms.custom:
   - ""
 ---
 
-# Prerequisites and system requirements of Omnichannel for Customer Service
+# Omnichannel for Customer Service system requirements
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -142,7 +142,7 @@ Customers must be able to access the following URLs from their browsers in order
 - `https://browser.pipe.aria.microsoft.com/*`
 
 
-## See also
+### See also
 
 - [Introduction](introduction-omnichannel.md)
 - [Administrator guide](administrator/omnichannel-administrator.md)

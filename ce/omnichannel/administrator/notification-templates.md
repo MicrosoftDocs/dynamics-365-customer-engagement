@@ -16,7 +16,7 @@ ms.topic: article
 
 ## Overview
 
-When a notification is sent to an agent, it displays certain information such as which customer the conversation request is coming from, the timeout period after which the notification will disappear, and some buttons such as accept and reject. Each organization has varied business requirements and wants the notifications to show relevant information to the agents.
+When a notification is sent to an agent, it displays certain information, such as which customer the conversation request is coming from, the timeout period after which the notification will disappear, and some buttons such as accept and reject. Each organization has varied business requirements and wants the notifications to show relevant information to the agents.
 
 The notification templates are introduced to show relevant information to agents. A notification template is a combination of notification-related, reusable information. The template is used to configure what information is displayed to the agents and supervisors for an incoming conversation, escalation, transfer, consult, and so on. As an administrator, system integrator, or partner, you can use the templates or create new ones to show information that matters most to your business.
 
@@ -25,7 +25,7 @@ The notification templates are introduced to show relevant information to agents
 
 ### Desktop notifications when the app is in the background
 
-Agents can receive desktop notifications when the Omnichannel for Customer Service app is not in focus. These notifications help ensure that agents won't miss any conversation requests. Some scenarios where the app isn't in focus might include: 
+Agents can receive desktop notifications when the Omnichannel for Customer Service app is not in focus. These notifications help ensure that agents won't miss any conversation requests. Some scenarios where the app isn't in focus might include:
 
 - The agent has minimized the app.
 - The agent is working in another browser window.
@@ -50,7 +50,7 @@ To get desktop notifications, agents need to allow their browser (Microsoft Edge
 Also, as an administrator, you can set the browser notification permission by using group policy.
 
  > [!div class=mx-imgBorder]
- > ![Allow desktop notifications](../media/oceh/allow-desktop-notification.png "Allow desktop notifications") 
+ > ![Allow desktop notifications](../media/oceh/allow-desktop-notification.png "Allow desktop notifications")
 
 #### Notification fields
 
@@ -145,15 +145,15 @@ To learn more, see [View notification](../agent/agent-oc/oc-notifications.md).
 
 As an administrator, you can edit the value of a notification field header in the grid.
 
-1.    Sign in to the Omnichannel Administration app.
+1. Sign in to the Omnichannel Administration app.
 
-2.    Select **Notifications** under **Agent Experience** in the sitemap.
+2. Select **Notifications** under **Agent Experience** in the sitemap.
 
-3.    Select the notification you want to edit on the **Active Notifications** page.
+3. Select the notification you want to edit on the **Active Notifications** page.
 
-4.    Select a notification field you want to edit and then select the record to edit it.
+4. Select a notification field you want to edit and then select the record to edit it.
 
-5.    Select the save icon in thr grid.
+5. Select the save icon in thr grid.
 
 ## Customize notification
 
@@ -163,10 +163,10 @@ Let's see a scenario: In the Contoso Pvt Ltd customer service center, every case
 
 **Notification fields**:
 
-- **Case priority**: Priority of the case such high or low.
-- **Case title**: Title of the case.
-- **Device**: Device from which the case was created by the customer.
-- **Language**: Language of the customer.
+- **Case priority:** Priority of the case such high or low.
+- **Case title:** Title of the case.
+- **Device:** Device from which the case was created by the customer.
+- **Language:** Language of the customer.
 
 As an administrator, you need to customize the notification template to show the title and notification fields.
 
@@ -176,7 +176,7 @@ As an administrator, you need to customize the notification template to show the
 |---------|--------------------|-----------------------------------------------|
 | General | Name | Customized case notification template |
 | General | Title | A new case is assigned |
-| General | Icon |/webresources/msdyn_chat_icon_zfp.svg <br><br> **Note:** This is the default value. |
+| General | Icon |/webresources/msdyn_chat_icon_zfp.svg <br><br>  **Note:** This is the default value. |
 | General |Show timeout| No |
 | General | Timeout (seconds) | 120. <br><br> **Note:** This is the default value. |
 | General | Accept Button | Accept <br><br> **Note:** This is the default value.|
