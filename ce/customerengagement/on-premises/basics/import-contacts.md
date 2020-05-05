@@ -1,7 +1,7 @@
 ---
 title: "Import contacts (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/15/2019
+ms.date: 05/05/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -21,7 +21,9 @@ search.app:
 ---
 # Import contacts
 
-Whether your contacts are stored in an email program, a spreadsheet, or on your phone, here’s how to import them into Dynamics 365 Customer Engagement (on-premises) so you have all your business contact information in Customer Engagement (on-premises).  
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Import data](/powerapps/user/import-data)
+
+Whether your contacts are stored in an email program, a spreadsheet, or on your phone, here's how to import them into Dynamics 365 Customer Engagement (on-premises) so you have all your business contact information in Customer Engagement (on-premises).  
   
 ## Step 1: Get your import file ready  
 First, you export your contacts into a file. These file formats are supported:  
@@ -45,7 +47,7 @@ Next, follow the procedure for the program or location where your contacts are s
   
 1.  Export the contacts into a comma separated values file (.csv).  
   
-     To find specific steps to export contacts from your email program, open the program’s Help, and search for “export.” Look for topics that include “exporting contacts” or “exporting your address book” or “export wizard” in the title.  
+     To find specific steps to export contacts from your email program, open the program's Help, and search for "export." Look for topics that include "exporting contacts" or "exporting your address book" or "export wizard" in the title.  
   
 2.  Save the file in a location where you can find it easily later.  
   
@@ -56,7 +58,7 @@ Next, follow the procedure for the program or location where your contacts are s
 2.  If necessary, edit any column name in the spreadsheet to match exactly with the corresponding name shown here.  
   
     > [!WARNING]
-    >  If the spreadsheet doesn’t include all the column names listed, that’s okay. However, if a column name does exist, it must match exactly with the corresponding name in the list or the import won’t work. Spaces are required. Note that the word “Email” doesn’t contain a hyphen.  
+    >  If the spreadsheet doesn't include all the column names listed, that's okay. However, if a column name does exist, it must match exactly with the corresponding name in the list or the import won't work. Spaces are required. Note that the word "Email" doesn't contain a hyphen.  
 
     |**Column Name in Spreadsheet (spelling must match exactly)**|
     |---------|
@@ -79,12 +81,12 @@ Next, follow the procedure for the program or location where your contacts are s
 
 Use a USB cable or an app to export your contacts from your phone to your computer.
   
-To find specific steps to export contacts for your brand of phone, search for “export contacts from my phone” in your favorite search engine (like [!INCLUDE[pn_bing](../includes/pn-bing.md)]).  
+To find specific steps to export contacts for your brand of phone, search for "export contacts from my phone" in your favorite search engine (like [!INCLUDE[pn_bing](../includes/pn-bing.md)]).  
   
-To find an app, search your phone’s online store.  
+To find an app, search your phone's online store.  
   
 ## Step 2: Import the file  
- You’ll use the **Import Data** wizard to import your contacts.  
+ You'll use the **Import Data** wizard to import your contacts.  
   
 1. Go to **Settings** > **Data Management** > **Imports**.
   

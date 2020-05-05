@@ -1,7 +1,7 @@
 ---
 title: "Download a report (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/15/2017
+ms.date: 05/05/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -20,6 +20,8 @@ search.app:
   - D365CE
 ---
 # Download a report
+
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Work with reports](/powerapps/user/work-with-reports)
 
 To edit a default report, you can download the report from Dynamics 365 Customer Engagement (on-premises) to a computer that is set up with the report development environment, and then make the necessary changes.  
   

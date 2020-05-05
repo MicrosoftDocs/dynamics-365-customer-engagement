@@ -2,7 +2,7 @@
 title: "Use OneDrive for Business to manage your private documents (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Store your private or important documents on OneDrive for Business."
 keywords: documents, store, OneDrive, Business
-ms.date: 9/15/2019
+ms.date: 05/05/2020
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -24,6 +24,8 @@ search.app:
 ---
 
 # Use OneDrive for Business to manage your private documents
+
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Use OneDrive for Business](/powerapps/user/one-drive)
 
 With [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], you can use the right storage option for the right situation. For example, you can store your private documents by using the new [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] option. For collaborative storage, you can use [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] and for public documents use [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)].  
 
