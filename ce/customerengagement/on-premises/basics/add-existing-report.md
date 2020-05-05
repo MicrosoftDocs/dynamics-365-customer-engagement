@@ -21,6 +21,9 @@ search.app:
 ---
 # Add a report from outside Dynamics 365 Customer Engagement (on-premises)
 
+
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Add a report from outside Power Apps](/powerapps/user/add-existing-report)
+
 If you’ve created a custom report outside of Dynamics 365 Customer Engagement (on-premises), you can easily add it to Customer Engagement (on-premises).  
   
 1. [!INCLUDE[proc_reports](../includes/proc-reports.md)]  
