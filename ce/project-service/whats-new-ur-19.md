@@ -56,7 +56,7 @@ Update Release 19
 **Project Management**
 
 -   Fixed: Grand Child Task Causes Incorrect Effort Estimate at Completion (EAC)
-    Calculation
+    Calculation.
 
 **Sales**
 
