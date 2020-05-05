@@ -21,6 +21,8 @@ search.app:
 ---
 # Add a phone call, task, email, or appointment activity to a record 
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Add an appointment, email, phone call, note, or task activity to the timeline](/powerapps/user/add-activities)
+
 The activity and notes area helps you keep track of all the interactions with your customers. Record all important conversations with the customer or the communication with your team members regarding a record in Dynamics 365 Customer Engagement (on-premises). Add a phone call, task, notes, email, or appointments right within the case, account, contact, lead, or opportunity records without navigating to a different area and opening another form.  
   
 All activities that you add from within a record appear in the **Activities** area. If the **Regarding** field of an activity is set, the activity appears in the activity wall of the regarding record. You can filter the list to show just the activities that are in progress or the ones that are overdue. Select the inline **Complete** link to close the activity as **Completed**.  
