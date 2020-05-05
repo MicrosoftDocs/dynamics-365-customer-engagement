@@ -21,6 +21,8 @@ search.app:
 ---
 # Assign a record to a user or team
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Assign or share records](/powerapps/user/assign-or-share-records)
+
 If you would like another person in your organization to handle an account or contact for you, you can assign the record to that person.  
   
  You can also assign a record to a team, or to yourself.  
