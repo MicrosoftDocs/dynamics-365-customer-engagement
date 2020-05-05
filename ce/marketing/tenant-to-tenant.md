@@ -2,7 +2,7 @@
 title: "Move instances between tenants (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to prepare for and request to move an instance from one tenant to another"
 keywords:
-ms.date: 04/28/2020
+ms.date: 05/04/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -26,12 +26,16 @@ search.app:
 # Tenant to tenant migration for Dynamics 365 Marketing
 
 >[!IMPORTANT]
->Because Dynamics 365 Marketing requires unique licenses, entitlements, and apps, there are some limitations when moving instances between tenants. Limitations may include:
->- Inability to transfer interactions
->- All Marketing entities revert to draft state
->- No support for [geo to geo migrations](https://docs.microsoft.com/power-platform/admin/geo-to-geo-migrations)
+>The following notes apply when you use tenant to tenant migration to move data from one Dynamics 365 Marketing instance to another:
+>- All records exported with a status of "live" will be imported with a status of "draft" on the destination instance.
+>- Interaction data can't be exported or transferred to a new instance. It will never be included in the export file.
+>- There is no support for [geo to geo migrations](https://docs.microsoft.com/power-platform/admin/geo-to-geo-migrations). Please refer to the [International availability guide](https://docs.microsoft.com/dynamics365/get-started/availability) for Dynamics 365 Marketing geo availability.
 
-You can use the [Tenant to Tenant Migration](https://docs.microsoft.com/dynamics365/admin/move-instance-tenant) feature to request to have an instance in one tenant moved to another tenant. To do so, [contact technical support](https://docs.microsoft.com/dynamics365/admin/contact-technical-support) and submit a support request.
+Dynamics 365 Marketing supports tenant to tenant migration within the same geo, as [documented for the Dynamics 365 platform](https://docs.microsoft.com/dynamics365/admin/move-instance-tenant). There are, however, specific conditions to such migration. Pre-requisites must be followed when provided as part of the support request. Tenant to tenant migration, therefore, requires assistance from our technical support team to complete.
+
+In tenant to tenant migration, [the same stipulations](manage-marketing-instances.d#content-of-the-target-instance-after-a-copy-or-restore) apply to a target instance as when an instance is copied or restored.
+
+To request tenant to tenant migration within the same geo, [contact technical support](https://docs.microsoft.com/dynamics365/admin/contact-technical-support) and submit a support request.
 
 ### See also
 
