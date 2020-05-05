@@ -26,6 +26,8 @@ searchScope:
 ---
 # Deactivate or activate an account or contact
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Deactivate or activate an account or contact](/powerapps/user/deactivate-activate-account-contact)
+
 In Customer Engagement (on-premises), you deactivate an account or contact rather than deleting it. This ensures the integrity of the audit trail associated with that record.  
   
  When a deactivated account or contact becomes inactive, it cannot be edited. However, it can still be used to establish new relationships with other records. All relationships created with the deactivated item are still available.  
