@@ -51,6 +51,8 @@ Update Release 19
 
 -   Fixed: Time Entry Grid does not support "Date Only" field behavior.
 
+-   Fixed: Project Resources are unable to create expense with project.
+
 **Project Management**
 
 -   Fixed: Grand Child Task Causes Incorrect Effort Estimate at Completion (EAC)
@@ -89,8 +91,6 @@ Update Release 19
 -   Fixed: Customers may experience degraded performance when created a project
     because GetBookableResourceIdFromUser retrieve all columns of bookable
     resources instead of the primary id.
-
--   Fixed: Project Resources are unable to create expense with project.
 
 -   Fixed: TransactionType entity missing pre validation update plugin to
     prevent users. entering invalid Unit and UnitGroup setup for transaction
