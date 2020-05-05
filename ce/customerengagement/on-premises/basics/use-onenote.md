@@ -25,6 +25,8 @@ search.app:
 
 # Use OneNote in Dynamics 365 Customer Engagement (on-premises)
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Take notes by using OneNote](/powerapps/user/onenote)
+
 If your administrator has set up [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] integration with [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], you can access a [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] notebook directly from the activities area in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. This doesn't replace the current Notes feature, but gives you another way to access notes stored in [!INCLUDE[pn_onenote](../includes/pn-onenote.md)]. When you add a [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] section to a notebook, it's shown individually within Customer Engagement (on-premises) and in order of last modified time.  
   
  [Watch a short video (2:01) about OneNote integration](https://go.microsoft.com/fwlink/p/?linkid=837793)  
