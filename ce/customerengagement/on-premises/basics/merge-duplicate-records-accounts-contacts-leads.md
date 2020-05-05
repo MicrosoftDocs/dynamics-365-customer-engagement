@@ -20,6 +20,8 @@ search.app:
 ---
 # Merge duplicate records for accounts, contacts, or leads
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Merge duplicate records](/powerapps/user/merge-duplicate-records)
+
 Duplicate records can creep into your data when you or others enter data manually or import data in bulk. Dynamics 365 Customer Engagement (on-premises) helps you address potential duplicates by providing duplicate detection for active records such as, accounts, contacts, and leads. When you merge a record any related or child records will also be merged.  Your administrator may also set up duplicate detection rules for other situations.  
 
 
