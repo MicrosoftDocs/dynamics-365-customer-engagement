@@ -26,6 +26,8 @@ searchScope:
 ---
 # Import accounts, leads, or other data
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Import data](/powerapps/user/import-data)
+
 Whether your data is stored in spreadsheets, databases, or other systems, you’ll probably want to import the data into Dynamics 365 Customer Engagement (on-premises) so you can keep track of all your customer information in one place.  
   
  You can import any type of information, such as accounts, leads, or opportunities – even activities or cases. (The different types of information are called “record types.”) Contacts typically come from an email program. You can read about this here: [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Import contacts](../basics/import-contacts.md)  
