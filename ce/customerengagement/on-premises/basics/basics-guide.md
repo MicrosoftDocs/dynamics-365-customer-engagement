@@ -21,6 +21,8 @@ search.app:
 ---
 # Basics Guide for Dynamics 365 Customer Engagement (on-premises), version 9
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Use model-driven apps in Power Apps](/powerapps/user/use-model-driven-apps)
+
 The Dynamics 365 Customer Engagement (on-premises) basics guide contains the essentials you need to know to navigate the system, enter data, use dashboards, charts and reports effectively and more.
 
 ## Build customer relationships
