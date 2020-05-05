@@ -92,8 +92,8 @@ Update Release 19
     because GetBookableResourceIdFromUser retrieve all columns of bookable
     resources instead of the primary id.
 
--   Fixed: TransactionType entity missing pre validation update plugin to
-    prevent users. entering invalid Unit and UnitGroup setup for transaction
+-   Fixed: TransactionType entity missing pre-validation update plugin to
+    prevent users from entering invalid Unit and UnitGroup for transaction
     types.
 
 -   Fixed: "Remove" step does not work for time entry import.
