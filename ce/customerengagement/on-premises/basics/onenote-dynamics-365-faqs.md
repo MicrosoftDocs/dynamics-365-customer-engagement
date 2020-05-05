@@ -21,6 +21,8 @@ search.app:
 ---
 # OneNote in Dynamics 365 Customer Engagement (on-premises) FAQs
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Take notes by using OneNote](/powerapps/user/onenote)
+
 ## Why do OneNote files show a folder icon?  
  This is a known issue. Select the file name to open the [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] as expected.  
   
