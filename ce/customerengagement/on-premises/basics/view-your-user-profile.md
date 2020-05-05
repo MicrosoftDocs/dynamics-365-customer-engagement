@@ -21,6 +21,8 @@ search.app:
 ---
 # View your user profile  
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [View your user profile](/powerapps/user/view-your-user-profile)
+
 Your user profile displays useful information about you to your entire organization; for example, your contact information, your organization, and your security role. Depending on your security role, you may be able to make changes to your user profile.  
   
 1. On the upper-right corner of the screen, select the **Settings** button ![user-profile-settings-button](media/user-profile-settings-button.gif) > **Options**.  
