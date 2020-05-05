@@ -21,6 +21,8 @@ search.app:
 ---
 # Determine who can use a report
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Work with reports](/powerapps/user/work-with-reports)
+
 By default, a report is a personal report and can be used only by the author unless it is shared.  
 <!-- If you use [!INCLUDE[pn_crm_for_outlook_full](../includes/pn-crm-for-outlook-full.md)], all reports that you own will be available when you’re offline. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work offline with Dynamics 365 for Outlook](../outlook-add-in/work-offline-dynamics-365-outlook.md).  -->
   
