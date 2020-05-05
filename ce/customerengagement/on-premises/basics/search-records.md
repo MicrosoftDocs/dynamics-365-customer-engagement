@@ -21,6 +21,8 @@ search.app:
 ---
 # Search for records
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Use quick find to search for records](/powerapps/user/quick-find)
+
 To find your records quickly in Dynamics 365 Customer Engagement (on-premises), you can search across multiple record types all at the same time.  The results of the search are shown in groups, sorted by entity type.  
   
  There are two ways to search.  
