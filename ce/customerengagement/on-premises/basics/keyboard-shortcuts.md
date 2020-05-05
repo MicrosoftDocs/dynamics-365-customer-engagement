@@ -20,6 +20,8 @@ search.app:
 ---
 # Use keyboard shortcuts in Dynamics 365 Customer Engagement (on-premises)
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Use keyboard shortcuts in Power Apps](/powerapps/user/keyboard-shortcuts)
+
 Keyboard shortcuts give you an alternate way to do common tasks instead of using your mouse or tapping with your finger. They help in seamless navigation of the interface. The following keyboard shortcuts apply across Dynamics 365 Customer Engagement (on-premises). 
 
 > [!NOTE]
