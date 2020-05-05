@@ -21,6 +21,8 @@ search.app:
 ---
 # Export to an Excel dynamic worksheet
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Export to an Excel dynamic worksheet](/powerapps/user/export-excel-dynamic-worksheet)
+
 Export data to a [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] worksheet so users can have the latest Dynamics 365 Customer Engagement (on-premises) information any time they view the worksheet. Imagine the CEO of your company getting the critical information they need without having to navigate Dynamics 365 Customer Engagement (on-premises) but instead, merely opening the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] link on their desktop. You can export up to 100,000 records at a time.  
  
   
