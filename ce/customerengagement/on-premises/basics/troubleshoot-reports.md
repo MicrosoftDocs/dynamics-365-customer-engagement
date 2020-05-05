@@ -21,6 +21,8 @@ search.app:
 ---
 # Troubleshoot problems with data not displaying in a report
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Troubleshoot problems with data not displaying in a report](/powerapps/user/troubleshoot-reports)
+
 There are several possible reasons why data that you expect to be in a report does not appear:  
   
 - **Insufficient security permissions**. If you don't have permission in Dynamics 365 Customer Engagement (on-premises) to view a record, it will not appear in the report.  
