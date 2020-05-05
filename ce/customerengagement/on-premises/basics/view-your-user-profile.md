@@ -1,7 +1,7 @@
 ---
 title: "View your user profile (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/15/2017
+ms.date: 05/05/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -20,6 +20,8 @@ search.app:
   - D365CE
 ---
 # View your user profile  
+
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [View your user profile](/powerapps/user/view-your-user-profile)
 
 Your user profile displays useful information about you to your entire organization; for example, your contact information, your organization, and your security role. Depending on your security role, you may be able to make changes to your user profile.  
   

@@ -1,7 +1,7 @@
 ---
 title: "Export to an Excel PivotTable (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/15/2017
+ms.date: 05/05/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -21,6 +21,8 @@ search.app:
 ---
 # Export to an Excel PivotTable
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Export to an Excel PivotTable](/powerapps/user/export-excel-pivottable)
+
 You can export Dynamics 365 Customer Engagement (on-premises) data to a [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] PivotTable to see patterns and trends in data. An [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] PivotTable is a great way to summarize, analyze, explore, and present your Customer Engagement (on-premises) data. You can export up to 100,000 records at a time.  
   
 ## Prerequisites  
@@ -38,7 +40,7 @@ You can export Dynamics 365 Customer Engagement (on-premises) data to a [!INCLUD
 - [!INCLUDE[pn_Windows_Firewall](../includes/pn-windows-firewall.md)] allows remote [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] connections. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How to: Configure a Windows Firewall for Database Engine Access](https://msdn.microsoft.com/library/ms175043.aspx).  
   
 ## Export to an [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] PivotTable  
- The option to export data to an [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] PivotTable isn’t available in all Customer Engagement (on-premises) record types. If you don’t see the option, it’s not available for that record.  
+ The option to export data to an [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] PivotTable isn't available in all Customer Engagement (on-premises) record types. If you don't see the option, it's not available for that record.  
   
 1. Open a list of records. 
   
@@ -51,7 +53,7 @@ You can export Dynamics 365 Customer Engagement (on-premises) data to a [!INCLUD
 4. Select **Save** and then save the .xlsx file. Make note of the location where you saved the file.  
   
    > [!NOTE]
-   >  If you’re going to edit the data file later, it’s recommended that you save the file before you open it. Otherwise, you may get this error message: **[!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] cannot open or save any more documents because there is not enough available memory or disk space**.  
+   >  If you're going to edit the data file later, it's recommended that you save the file before you open it. Otherwise, you may get this error message: **[!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] cannot open or save any more documents because there is not enough available memory or disk space**.  
    > 
    >  To fix the issue do this:  
    > 
@@ -79,11 +81,11 @@ You can export Dynamics 365 Customer Engagement (on-premises) data to a [!INCLUD
   
    If the recipients are in the same domain as you, and are Dynamics 365 Customer Engagement (on-premises) users, you can email a dynamic [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] file, or store it as a shared file. When recipients open the dynamic file, they will see data they have permission to view in Dynamics 365 Customer Engagement (on-premises), so the data they see may be different from what you see.  
   
-- In Dynamics 365 Customer Engagement (on-premises), money values are exported to [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] as numbers. After you have completed the export, to format the data as currency, see the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)][!INCLUDE[pn_doc_help_long](../includes/pn-doc-help-long.md)] topic titled “Display numbers as currency.”  
+- In Dynamics 365 Customer Engagement (on-premises), money values are exported to [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] as numbers. After you have completed the export, to format the data as currency, see the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)][!INCLUDE[pn_doc_help_long](../includes/pn-doc-help-long.md)] topic titled "Display numbers as currency."  
   
-- The data and time values that you see in Dynamics 365 Customer Engagement (on-premises) show up as “Date” only when you export the file to [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] but the cell actually shows both the date and time.  
+- The data and time values that you see in Dynamics 365 Customer Engagement (on-premises) show up as "Date" only when you export the file to [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] but the cell actually shows both the date and time.  
   
-- If you’re going to make changes and import the data file back in to Dynamics 365 Customer Engagement (on-premises), remember that secured, calculated, and composite fields (such as Full Name) are read-only and can’t be imported in to Dynamics 365 Customer Engagement (on-premises). You’ll be able to edit these fields in Excel but when you import the data back in to Dynamics 365 Customer Engagement (on-premises) these fields won’t be updated. If you want to update these fields such as a contact’s name, it’s recommend that you use that view to export your data, update them in [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)], and import them back to Dynamics 365 Customer Engagement (on-premises) for changes.  
+- If you're going to make changes and import the data file back in to Dynamics 365 Customer Engagement (on-premises), remember that secured, calculated, and composite fields (such as Full Name) are read-only and can't be imported in to Dynamics 365 Customer Engagement (on-premises). You'll be able to edit these fields in Excel but when you import the data back in to Dynamics 365 Customer Engagement (on-premises) these fields won't be updated. If you want to update these fields such as a contact's name, it's recommend that you use that view to export your data, update them in [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)], and import them back to Dynamics 365 Customer Engagement (on-premises) for changes.  
   
 - Some system views, such as Accounts: No Campaign Activities in Last 3 Months, can be exported only to a static [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] worksheet.  
   

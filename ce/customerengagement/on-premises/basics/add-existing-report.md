@@ -1,7 +1,7 @@
 ---
 title: "Add a report from outside Dynamics 365 Customer Engagement (on-premises)| MicrosoftDocs"
 ms.custom: 
-ms.date: 09/15/2017
+ms.date: 05/05/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -21,7 +21,10 @@ search.app:
 ---
 # Add a report from outside Dynamics 365 Customer Engagement (on-premises)
 
-If you’ve created a custom report outside of Dynamics 365 Customer Engagement (on-premises), you can easily add it to Customer Engagement (on-premises).  
+
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Add a report from outside Power Apps](/powerapps/user/add-existing-report)
+
+If you've created a custom report outside of Dynamics 365 Customer Engagement (on-premises), you can easily add it to Customer Engagement (on-premises).  
   
 1. [!INCLUDE[proc_reports](../includes/proc-reports.md)]  
   
@@ -53,7 +56,7 @@ If you’ve created a custom report outside of Dynamics 365 Customer Engagement 
   
    5. **Display In**. To specify where reports should be visible, choose the **Select or change the values for this field**![Ellipsis button](../basics/media/ellipsis-button.gif "Ellipsis button") button, and then select one or more of the options.  
   
-        If no values are selected, the report won’t be visible to end users.  
+        If no values are selected, the report won't be visible to end users.  
   
 4. Edit the report ownership information on the Administration tab:  
   

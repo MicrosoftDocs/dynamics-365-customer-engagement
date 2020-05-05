@@ -1,7 +1,7 @@
 ---
 title: "Start your day with a dashboard or chart | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/15/2019
+ms.date: 05/05/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -20,7 +20,9 @@ search.app:
 ---
 # Start your day with a dashboard
 
-Each time you sign in to the system you’ll see a dashboard, which gives you easy-to-read charts and graphs that help you see how you and your team are doing with key metrics (also known as key performance indicators, or KPIs).  
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Track your progress with dashboards and charts](/powerapps/user/track-your-progress-with-dashboard-and-charts)
+
+Each time you sign in to the system you'll see a dashboard, which gives you easy-to-read charts and graphs that help you see how you and your team are doing with key metrics (also known as key performance indicators, or KPIs).  
   
 ## Choose from different dashboard layouts  
  The system comes with several dashboard layouts tailored for your role. For example, on the Sales Activity Dashboard, you'll see the status of open opportunities in the pipeline, progress toward goals, open leads and opportunities, the Sales Leaderboard, and your activities.  
@@ -41,7 +43,7 @@ Each time you sign in to the system you’ll see a dashboard, which gives you ea
 ## Drill in to chart data  
  You can view the list of the records used to calculate the metrics shown in a chart.  
   
-- Point to the chart, and then select the **Drill in** button ![Drill in button](../basics/media/crm-ua-basicsguide-drill-in-button.png "Drill in button"). (You won’t see the button until you point to the chart.)  
+- Point to the chart, and then select the **Drill in** button ![Drill in button](../basics/media/crm-ua-basicsguide-drill-in-button.png "Drill in button"). (You won't see the button until you point to the chart.)  
   
   ![Chart button that shows records used to build the chart](../basics/media/chart-button-that-shows-records-for-chart.png "Chart button that shows records used to build the chart")  
   

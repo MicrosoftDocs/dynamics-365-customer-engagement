@@ -1,7 +1,7 @@
 ---
 title: "Import accounts, leads, or other data (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/15/2019
+ms.date: 05/05/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -26,12 +26,14 @@ searchScope:
 ---
 # Import accounts, leads, or other data
 
-Whether your data is stored in spreadsheets, databases, or other systems, you’ll probably want to import the data into Dynamics 365 Customer Engagement (on-premises) so you can keep track of all your customer information in one place.  
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Import data](/powerapps/user/import-data)
+
+Whether your data is stored in spreadsheets, databases, or other systems, you'll probably want to import the data into Dynamics 365 Customer Engagement (on-premises) so you can keep track of all your customer information in one place.  
   
- You can import any type of information, such as accounts, leads, or opportunities – even activities or cases. (The different types of information are called “record types.”) Contacts typically come from an email program. You can read about this here: [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Import contacts](../basics/import-contacts.md)  
+ You can import any type of information, such as accounts, leads, or opportunities – even activities or cases. (The different types of information are called "record types.") Contacts typically come from an email program. You can read about this here: [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Import contacts](../basics/import-contacts.md)  
   
 ## Step 1: Get your import file ready  
- First, you’ll need to get your data into a file.  
+ First, you'll need to get your data into a file.  
   
  Make sure your data is as complete and accurate as possible when you create the import file. Fill in any missing info, and verify that names and other information are spelled correctly.  
   
@@ -56,10 +58,10 @@ Whether your data is stored in spreadsheets, databases, or other systems, you’
   >  You can add multiple import files to a single .zip file, and then import the .zip file to bring in all the files at once. For example, if several salespeople enter leads from a tradeshow into different spreadsheets, you can gather them into one .zip file for import.  
   > 
   > 
-  >  Your import will fail if you’re using a template that you exported from Dynamics 365 Customer Engagement (on-premises) and then added a new column and are now importing the data back into Customer Engagement (on-premises).  
+  >  Your import will fail if you're using a template that you exported from Dynamics 365 Customer Engagement (on-premises) and then added a new column and are now importing the data back into Customer Engagement (on-premises).  
       
 ## Step 2: Run the Import Data wizard  
- You’ll use the **Import Data** wizard to import the file.  
+ You'll use the **Import Data** wizard to import the file.  
   
 1. Go to **Settings** > **Data Management** > **Imports**.
   
@@ -72,7 +74,7 @@ Whether your data is stored in spreadsheets, databases, or other systems, you’
   
 4. Review the file name, and if the file is in .xlsx, .xml, .csv, .txt or .zip format, verify that the field and data delimiters are correct. In most cases, you can accept the default delimiters, follow this step if you wish to check them:  
   
-   1.  Click **Delimiter Settings**, and then select the characters used to separate the contents of fields and pieces of data. (These characters are called “delimiters.”)  
+   1.  Click **Delimiter Settings**, and then select the characters used to separate the contents of fields and pieces of data. (These characters are called "delimiters.")  
       
        The default delimiter for fields is a comma (,).The other supported delimiters for fields are colon (:), semicolon (;), and tab character (/t). 
   
@@ -89,25 +91,25 @@ Whether your data is stored in spreadsheets, databases, or other systems, you’
                "Fabrikam, Inc.","150 A Street"  
         
        > [!NOTE]
-       >  Because an XML file does not use delimiters, if you upload a file that is in XML Spreadsheet 2003 format, or a .zip file that contains XML Spreadsheet 2003 files, the delimiter information won’t be available.  
+       >  Because an XML file does not use delimiters, if you upload a file that is in XML Spreadsheet 2003 format, or a .zip file that contains XML Spreadsheet 2003 files, the delimiter information won't be available.  
           
 5. Select **Next**. 
  
 6. Select how the wizard determines which fields to use for the data. More information: [Select a data map](select-data-map.md). 
   
-   - Select **Default (Automatic Mapping)** if you want the wizard to determine the corresponding fields in Dynamics 365 Customer Engagement (on-premises) automatically. If the wizard can’t find a field, you’ll have the opportunity to “map” it yourself.   
+   - Select **Default (Automatic Mapping)** if you want the wizard to determine the corresponding fields in Dynamics 365 Customer Engagement (on-premises) automatically. If the wizard can't find a field, you'll have the opportunity to "map" it yourself.   
      -- OR --  
   
    - Select **For Generic Contact and Account Data** if your import file contains contacts and accounts (and contacts are the main type of data).   
      -- OR --  
   
-   - If available for your organization, select a custom data map. (You’ll see them in the list if they’re available to you.)  
+   - If available for your organization, select a custom data map. (You'll see them in the list if they're available to you.)  
   
 7. Select **Next**.  
   
 8. If prompted, in the Dynamics 365 Customer Engagement (on-premises) **Record Types** drop-down list, select the type of records you are importing, for example **Account** or **Lead**. Then, select **Next**.  
   
-9. Confirm that the Import Data wizard has mapped all the pieces of info (called “fields”) in the import file to the correct fields in Dynamics 365 Customer Engagement (on-premises). You may need to scroll down to see all the fields in the import file. For any record type with an alert icon, map the field from your import file to a corresponding field in Dynamics 365 Customer Engagement (on-premises).
+9. Confirm that the Import Data wizard has mapped all the pieces of info (called "fields") in the import file to the correct fields in Dynamics 365 Customer Engagement (on-premises). You may need to scroll down to see all the fields in the import file. For any record type with an alert icon, map the field from your import file to a corresponding field in Dynamics 365 Customer Engagement (on-premises).
       
    For example, an import file containing contacts may have a field for First Name, Last Name, and Job Title. Make sure those fields are mapped correctly to the corresponding fields in Dynamics 365 Customer Engagement (on-premises).  
       
@@ -119,19 +121,19 @@ Whether your data is stored in spreadsheets, databases, or other systems, you’
   
 12. Select additional import settings. More information: [Review settings and import data](review-settings-import-data.md).  
   
-    -   If it’s okay for the Import Data wizard to import duplicate records, in the **Allow Duplicates** section, select **Yes**.  
+    -   If it's okay for the Import Data wizard to import duplicate records, in the **Allow Duplicates** section, select **Yes**.  
   
         > [!CAUTION]
         >  In most cases, to avoid importing duplicate information, you should keep this option set to **No**.  
   
-    -   To set who owns the imported records, in the **Select Owner for the Imported Records** section, select the **Lookup** button ![Lookup button](../basics/media/lookup-button.gif "Lookup button"). Select **Look Up More Records**, type the person’s name, and then select **Add**.  
+    -   To set who owns the imported records, in the **Select Owner for the Imported Records** section, select the **Lookup** button ![Lookup button](../basics/media/lookup-button.gif "Lookup button"). Select **Look Up More Records**, type the person's name, and then select **Add**.  
   
         > [!NOTE]
-        >  How do you decide who should “own” the imported data? Usually, the owner is the person responsible for taking action on the data. Here’s an example: If your import file contains contacts you collected at a trade show and you want to assign a user to follow up with these contacts, select that person for the owner. To assign someone other than yourself as the owner of the imported records, your security role must include permissions to create records for the user. If you don’t have sufficient permissions, the wizard assigns you as the owner of the imported records by default.  
+        >  How do you decide who should "own" the imported data? Usually, the owner is the person responsible for taking action on the data. Here's an example: If your import file contains contacts you collected at a trade show and you want to assign a user to follow up with these contacts, select that person for the owner. To assign someone other than yourself as the owner of the imported records, your security role must include permissions to create records for the user. If you don't have sufficient permissions, the wizard assigns you as the owner of the imported records by default.  
   
-    -   To save these import settings so you can use them again, enter a name for the settings (called a “data map”).  
+    -   To save these import settings so you can use them again, enter a name for the settings (called a "data map").  
   
-         The next time you run the Import Data wizard, you’ll see the new data map listed under **Custom Maps**.  
+         The next time you run the Import Data wizard, you'll see the new data map listed under **Custom Maps**.  
   
 13. Select **Submit**.  
   
