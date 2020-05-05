@@ -51,8 +51,6 @@ Update Release 19
 
 -   Fixed: Time Entry Grid does not support "Date Only" field behavior.
 
-**Resource Management**
-
 **Project Management**
 
 -   Fixed: Grand Child Task Causes Incorrect Effort Estimate at Completion (EAC)
