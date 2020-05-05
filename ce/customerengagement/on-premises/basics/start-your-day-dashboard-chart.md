@@ -20,6 +20,8 @@ search.app:
 ---
 # Start your day with a dashboard
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Track your progress with dashboards and charts](/powerapps/user/track-your-progress-with-dashboard-and-charts)
+
 Each time you sign in to the system you’ll see a dashboard, which gives you easy-to-read charts and graphs that help you see how you and your team are doing with key metrics (also known as key performance indicators, or KPIs).  
   
 ## Choose from different dashboard layouts  
