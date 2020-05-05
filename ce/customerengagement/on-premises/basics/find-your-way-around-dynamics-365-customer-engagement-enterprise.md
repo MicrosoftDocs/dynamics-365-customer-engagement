@@ -16,6 +16,7 @@ search.app:
 ---
 # Find your way around Dynamics 365 Customer Engagement (on-premises)
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Basic navigation in a model-driven app](/powerapps/user/navigation)
  
 
  When you open an app, you’ll see tiles and icons (called a *sitemap*) for that app. Use the icons to access different types of information relevant to that role.  
