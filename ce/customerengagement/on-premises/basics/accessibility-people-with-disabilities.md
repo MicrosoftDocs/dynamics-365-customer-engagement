@@ -20,6 +20,9 @@ search.app:
   - D365CE
 ---
 # Accessibility for people with disabilities
+
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Use a screen reader](/powerapps/user/screen-reader)
+
 Microsoft is committed to making its products and services easier for everyone. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft Accessibility](https://www.microsoft.com/enable/default.aspx).  
   
 ## Keyboard shortcuts in Dynamics 365 Customer Engagement (on-premises)
