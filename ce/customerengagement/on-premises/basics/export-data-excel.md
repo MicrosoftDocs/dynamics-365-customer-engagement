@@ -21,6 +21,8 @@ search.app:
 ---
 # Export data to Excel
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Export data to Excel](/powerapps/user/export-data-excel)
+
 Do you need to analyze your data from Dynamics 365 Customer Engagement (on-premises) and convert that data into actionable items that help you drive more sales? You can choose to export static worksheets or dynamic worksheets, which you can import back into Customer Engagement (on-premises). If you need more advanced functions, you can export a dynamic PivotTable, which makes it very easy to organize and summarize data. Also, analyzing large datasets is not a problem because you can export up to 100,000 rows of data.  
   
 Export data to a standard [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] file that you can use on any device such as your phone, tablet, or desktop computer. The data is exported in the same format as you see in Customer Engagement (on-premises). Text will remain text, numbers will remain numbers, and dates will remain dates. However, when you export data from Customer Engagement (on-premises) to [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] the some cell format may change. The table below summarizes how you’ll see the data in Customer Engagement (on-premises) and how the cell format changes when you export the data to [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)].  
