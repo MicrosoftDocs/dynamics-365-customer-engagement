@@ -74,8 +74,7 @@ For organizations with diverse lines of businesses, agents will send a variety o
 5. Select **Add Existing Workstream**.
 
 6. Select the work stream from the list of records and then click **Add**.
-
-  The work stream appears in the list.
+The work stream appears in the list.
 
 7. Click **Save** to save your quick reply.
 
