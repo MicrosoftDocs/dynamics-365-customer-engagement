@@ -28,7 +28,7 @@ You should be able to install and activate Gamification if the pre-requisites in
 
 - The signed in user has a Global admin role in Office 365. For more information, see [Manage O365 User Roles](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles).
 
-- The signed in user has a System Administrator role in Dynamics 365. For more information, see [Manage User Roles in Dynamics 365](https://docs.microsoft.com/en-us/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user)
+- The signed in user has a System Administrator role in Dynamics 365. For more information, see [Manage User Roles in Dynamics 365](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user)
 
 - The signed in user has Read-Write license assigned in Dynamics 365. For more information, see [Manage User License in Dynamics 365](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#create-a-read-write-user-account).
 
