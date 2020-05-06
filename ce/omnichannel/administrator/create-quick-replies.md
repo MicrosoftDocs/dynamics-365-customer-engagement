@@ -74,11 +74,12 @@ For organizations with diverse lines of businesses, agents will send a variety o
 5. Select **Add Existing Workstream**.
 
 6. Select the work stream from the list of records and then click **Add**.
-The work stream appears in the list.
+
+   The work stream appears in the list.
 
 7. Click **Save** to save your quick reply.
 
-  If you click the work stream in the list, you can view the work stream record and click the **Quick Replies** tab to view all the quick replies associated with that work stream.
+   If you click the work stream in the list, you can view the work stream record and click the **Quick Replies** tab to view all the quick replies associated with that work stream.
  
 ### See also
 
