@@ -156,4 +156,5 @@ You need to remove **GamificationUpdate** *before* you remove **Gamification**. 
  [Configure KPIs for Gamification in Dynamics 365 apps](configure-kpis.md)   
  [Import players and fans from Dynamics 365 and manage their security roles](manage-players-fans.md)   
  [Set up and run games in Gamification](run-games.md)   
+ [Troubleshooting guide](troubleshooting-guide.md)    
  [Privacy information and license terms for Gamification](legal-information.md)
