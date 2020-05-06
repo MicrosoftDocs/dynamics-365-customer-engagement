@@ -1,7 +1,7 @@
 ---
 title: "Collaborate with your colleagues using Office 365 Groups (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/15/2019
+ms.date: 05/05/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,7 +23,7 @@ search.app:
 
 [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] are a shared workspace for email, conversations, files, and events where group members can collectively get stuff done.  
   
- You can use groups to collaborate with people across your company, even if they don’t have access to Customer Engagement (on-premises). For example, you can create a group for your sales team and invite other [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] users to join the group, and then share documents, conversations, meeting notes, and [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] information related to specific accounts or opportunities.  
+ You can use groups to collaborate with people across your company, even if they don't have access to Customer Engagement (on-premises). For example, you can create a group for your sales team and invite other [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] users to join the group, and then share documents, conversations, meeting notes, and [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] information related to specific accounts or opportunities.  
   
  The groups solution works with any entities, even custom ones.  
   
@@ -76,12 +76,12 @@ search.app:
 -   In the **Conversations** section choose a conversion to read and reply to it.  
   
 ## Add notes  
- Share notes with everyone in your group using the shared [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] notebook. [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] lets multiple people write in the same notebook, on the same page, at the same time, and it automatically merges everyone’s changes.  
+ Share notes with everyone in your group using the shared [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] notebook. [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] lets multiple people write in the same notebook, on the same page, at the same time, and it automatically merges everyone's changes.  
   
 - In the **Notebook** section, choose the group's notebook. When [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] opens, add your notes.  
   
 ## Share documents  
- When you create or upload a file in the group’s [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] page, it’s automatically shared with all members of the group. When you add members to the group, they automatically get shared access to the files. By default, only group members have view and edit access to the files. When you create a group in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], it’s set to private, so only the group members can see information about the group including files, conversations, or even the group itself.  
+ When you create or upload a file in the group's [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] page, it's automatically shared with all members of the group. When you add members to the group, they automatically get shared access to the files. By default, only group members have view and edit access to the files. When you create a group in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], it's set to private, so only the group members can see information about the group including files, conversations, or even the group itself.  
   
 - To see the latest list of documents, refresh the list using by choosing the refresh icon.  
   

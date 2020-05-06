@@ -1,7 +1,7 @@
 ---
 title: "Organize and lay out your report data (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 05/05/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -20,6 +20,8 @@ search.app:
   - D365CE
 ---
 # Organize and lay out your report data
+
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create a report using the Report Wizard](/powerapps/user/create-report-with-wizard)
 
 When you create a report, you have to decide which columns to include, the order in which they are displayed, and whether to group data into subcategories. By grouping and summarizing the data, you make it easier to see the patterns.  
   
@@ -91,7 +93,7 @@ You can display columns that show data from a record, or columns that show summa
 
    - **Average**, **Maximum**, **Minimum**, **Percent of Total**, **Sum**: all numeric record types (decimal, int, float, money)  
 
-   - **Include unformatted value column**. Typically, in a report, the underlying data is formatted as plain text. When you export the report to [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)], you can’t change the format of the cell that contains the exported data (plain text) to a different format. This causes problems with calculations. To avoid this, you can select the **Include unformatted value column** check box for fields of type Date Only, Date and Time, Whole Number, Decimal, Currency, or Floating Point Number. This adds a column, which contains the unformatted value of the fields, to the report.  
+   - **Include unformatted value column**. Typically, in a report, the underlying data is formatted as plain text. When you export the report to [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)], you can't change the format of the cell that contains the exported data (plain text) to a different format. This causes problems with calculations. To avoid this, you can select the **Include unformatted value column** check box for fields of type Date Only, Date and Time, Whole Number, Decimal, Currency, or Floating Point Number. This adds a column, which contains the unformatted value of the fields, to the report.  
 
 2. Use the left and right arrows to reorganize the columns.  
 

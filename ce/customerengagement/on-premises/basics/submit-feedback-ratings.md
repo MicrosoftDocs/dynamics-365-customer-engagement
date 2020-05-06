@@ -1,7 +1,7 @@
 ---
 title: "Submit feedback or ratings for information stored in your system (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/15/2017
+ms.date: 05/05/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 

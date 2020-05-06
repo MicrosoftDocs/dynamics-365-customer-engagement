@@ -474,7 +474,7 @@ You can manage multiple cases more efficiently if you use parent and child cases
   
 > [!NOTE]
 >
-> - By default, child cases will not appear in the **Regarding** lookup option of an activity. You can customize the filter conditions of the **Case Lookup View** for child cases to appear in the lookup.
+> - By default, child cases will not appear in the **Regarding** lookup option of an activity. If you want the child cases to be displayed in the lookup, you can customize the filter conditions of the **Case Lookup View** in the customizations setting of Customer Service.
 > - A child case can’t have a child case and a parent case can't be a child of another case.
 
 ![How to associate a child case](../customer-service/media/gs-create-child-case.png "How to associate a child case")  
