@@ -23,7 +23,7 @@ A notification template is a combination of notification-related, reusable infor
 > [!Note]
 > You must associate the notification templates to a session template.
 
-### Desktop notifications when the app is in the background
+## Desktop notifications when the app is in the background
 
 Agents can receive desktop notifications when the Omnichannel for Customer Service app is not in focus. These notifications help ensure that agents won't miss any conversation requests. Some scenarios where the app isn't in focus might include:
 
@@ -45,7 +45,7 @@ You can configure the wait time and the notification is displayed for the agent 
 > - Desktop notifications will not work when the browser is opened in incognito mode or if focus assist is turned on in your Windows 10 operating system.
 > - If the native browser notification option is disabled, the notification will be shown in a different user interface.
 
-#### Allow a browser to show notifications
+### Allow a browser to show notifications
 
 To get desktop notifications, agents need to allow their browser (Microsoft Edge or Google Chrome) to show them. When an agent gets a browser notification, they need to select **Allow**. Based on your requirements, you can enable or disable notifications in the browser settings.
 
@@ -54,7 +54,7 @@ Also, as an administrator, you can set the browser notification permission by us
  > [!div class=mx-imgBorder]
  > ![Allow desktop notifications](../media/oceh/allow-desktop-notification.png "Allow desktop notifications")
 
-#### Notification fields
+### Notification fields
 
 The fields that are shown in the notification are based on the notification template configuration. To learn more, see [Slug for notification field header](#slug-for-notification-field-header) and [Create a notification template](#create-a-notification-template).
 
