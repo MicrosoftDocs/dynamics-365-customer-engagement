@@ -126,7 +126,7 @@ As a system administrator, go to [https://admin.powerplatform.microsoft.com/envi
 
 In the left pane, go to **Resources** > **Dynamics 365 apps** and find **Dynamics 365 Field Service** in the list.
 
-Seelct the app and choose install.
+Select the app and choose install.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of installing preview solution in Power Apps admin](./media/inspections-install.png)
