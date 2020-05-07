@@ -25,7 +25,7 @@ Security roles help to identify the privileges a user can exercise in the system
 
 The following standard security roles are leveraged in service scheduling:
   
-- **Customer Service Manager (CSM)**. The Customer Service Manager role can setup the service scheduling experience. This role can access and setup all service scheduling entities in the system:
+- **Customer Service Manager (CSM)**. The Customer Service Manager role can set up the service scheduling experience. This role can access and set up all service scheduling entities in the system:
 
    - Resources
    - Resource Categories
@@ -36,15 +36,13 @@ The following standard security roles are leveraged in service scheduling:
    - Organizational Units
    - Business Closure
 
-   However, to ensure that all CSM users are able to set up the new scheduling experience and access the new scheduling entities, they should also be assigned the **Customer Service Schedule Administrator** and the **Customer Service App Access** role.
+   However, to ensure that all schedule managers are able to set up the new scheduling experience and access the new scheduling entities, they should also be assigned the **Customer Service Schedule Administrator** and the **Schedule Manager** role.
 
-   ![csm-role](media/csm-role.PNG)
+   To learn more about how to create users and assign roles to them, see [Create users and assign security roles](../admin/create-users-assign-online-security-roles.md). 
 
-   To know more about how to create users and assign role to them, see [Create users and assign security roles](../admin/create-users-assign-online-security-roles.md). 
+- **Scheduler**. The Customer Service Representative can create and schedule service activities. 
 
-- **Customer Service Representative (CSR)**. The Customer Service Representative can create and schedule service activities. 
-
-  To ensure that all CSR users are able to schedule services using the new scheduling experience, they should also be assigned the **Customer Service Scheduler** and **Customer Service App Access** role. 
+  To ensure that all Scheduler users are able to schedule services using the new scheduling experience, they should also be assigned the **Customer Service Scheduler** and **Customer Service App Access** role. 
 
   ![csr-role](media/csr-role.png)
 
@@ -53,17 +51,17 @@ The following standard security roles are leveraged in service scheduling:
 
 ## Understand roles and their privileges
 
-Each role in the scheduling experience is expected to perform a set of actions. Refer the table below to know more about the privileges of the CSM and CSR role:
+Each role in the scheduling experience is expected to perform a set of actions. Refer the table below to learn more about the privileges of the Schedule Manager and Scheduler role:
 
 |Role  |Privileges  |
 |---------|---------|
-|Customer Service Manager (CSM)     |     Can create, access, and perform CRUD operations on Services    |
+|Schedule Manager    |     Can create, access, and perform CRUD operations on Services    |
 |      |   Can create, access, and perform CRUD operations on Service Activities      |
 |     |    Can access Schedule Board     |
-|   |   Can create, and access Facilities and Equipment      |
-|Customer Service Representative (CSR)     |    Can create, access, and perform CRUD operations on Service Activities      |
+|   |   Can create and access Facilities and Equipment      |
+|Scheduler     |    Can create, access, and perform CRUD operations on Service Activities      |
 |    | Can access Schedule Board         |
-|    |   Can create, and access Facilities and Equipment      |
+|    |   Can create and access Facilities and Equipment      |
 
 
 
