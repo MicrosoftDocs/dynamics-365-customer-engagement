@@ -131,21 +131,18 @@ It will say **Added to Flight**.
 
 ## Step 7: Install or upgrade preview version of Field Service 
 
+The following applies to both installing Field Service in an environment without the app and upgrading existing versions to the preview version.
 
 As a system administrator, go to [https://admin.powerplatform.microsoft.com/environments/](https://admin.powerplatform.microsoft.com/environments/).
 
-Select the environment you want to install or upgrade the preview features to and then select **Manage Dynamics 365 apps** in the top ribbon.
+In the left pane, go to **Resources** > **Dynamics 365 apps** and find **Dynamics 365 Field Service** in the list.
 
-Then select **Install app** in the top ribbon and find Dynamics 365 Field Service.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Power Platform admin center, showing the list of options with Dynamics 365 Field Service selected.](./media/preview-admin2.jpg)
-
-
-Agree to the terms and install the Field Service preview version.
+Select the app and choose install.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Power Platform admin center, showing the install Field Service options.](./media/preview-admin3.jpg)
+> ![Screenshot of installing preview solution in Power Apps admin](./media/inspections-install.png)
+
+Then select your environment from the list, agree to the terms of service, and select **Install**. 
 
 
 Back in the list of apps, you'll see it has a status of "Installing..."
