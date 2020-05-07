@@ -106,27 +106,31 @@
 ### [Security roles for Connected Customer Service](cs-iot-security-roles.md)
 
 ## Service Scheduling Guide
-### [Understand Service Scheduling](basics-service-service-scheduling.md)
-### [Set up the new scheduling experience](basics-service-service-scheduling.md#set-up-the-new-service-scheduling-experience)
-### [Manage security roles](manage-security-roles.md)
+### [Overview](overview-service-scheduling)
 
-### Schedule entities
-#### [Create bookable resources](resources-service-scheduling.md)  
-#### [Add facilities and equipment to schedule service](add-facilities-equipment-ss-csh.md)
-#### [Create and manage resource categories](resource-categories-service-scheduling.md)
-#### [Create or edit services](create-edit-service-csh.md)
-#### [Schedule a service activity](schedule-service-activity-csh.md)
-#### [Manage fulfillment preferences](../common-scheduler/fulfillment-preferences.md)
-### Configure using tools
+### Service Scheduling
+#### [Understand Service Scheduling](basics-service-service-scheduling.md)
+#### [Manage security roles](manage-security-roles.md)
+
+#### Schedule entities
+##### [Create bookable resources](resources-service-scheduling.md)  
+##### [Add facilities and equipment to schedule service](add-facilities-equipment-ss-csh.md)
+##### [Create and manage resource categories](resource-categories-service-scheduling.md)
+##### [Create or edit services](create-edit-service-csh.md)
+##### [Schedule a service activity](schedule-service-activity-csh.md)
+##### [Manage fulfillment preferences](../common-scheduler/fulfillment-preferences.md)
+
 #### [Configure service activity using schedule board](use-schedule-board-configure-service-activity.md) 
 
-### Work with settings
-#### [Create and manage organizational units](create-org-units-cs-scheduling.md)
-#### [Schedule business closure](set-when-business-closed-csh.md)
-### Migration tool
-#### [Introduction](introduction-migration-entity-records.md)
-#### [Plan your migration](plan-migration.md)
-#### [Migrate entity records data using migration tool](migrate-entity-records.md)
+#### Work with settings
+##### [Create and manage organizational units](create-org-units-cs-scheduling.md)
+##### [Schedule business closure](set-when-business-closed-csh.md)
+
+#### Migration tool
+##### [Introduction](introduction-migration-entity-records.md)
+##### [Plan your migration](plan-migration.md)
+##### [Migrate entity records data using migration tool](migrate-entity-records.md)
+
 
 ### Service Scheduling Developer Guide
 #### [Search Resource Availability and Create Bookings](universal-resource-scheduling.md)
