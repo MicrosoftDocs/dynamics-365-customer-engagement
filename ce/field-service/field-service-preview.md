@@ -129,7 +129,7 @@ In the left pane, go to **Resources** > **Dynamics 365 apps** and find **Dynamic
 Seelct the app and choose install.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of installing preview solution in powerapps admin](./media/inspections-install.png)
+> ![Screenshot of installing preview solution in Power Apps admin](./media/inspections-install.png)
 
 Then select your environment from the list, agree to the terms of service, and select **Install**. 
 
