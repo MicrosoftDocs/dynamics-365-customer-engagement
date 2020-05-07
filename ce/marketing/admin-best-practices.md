@@ -93,7 +93,7 @@ might face when working with multiple Marketing apps/environments:
 ## ALM operations
 
 Dynamics 365 Marketing supports most of the Dynamics 365 platform’s Application
-Lifecycle Management (ALM) capabilities such as copy, backup, and restore. Learn more about ALM capabilities in [Manage Marketing instances](https://docs.microsoft.com/en-us/dynamics365/marketing/manage-marketing-instances).
+Lifecycle Management (ALM) capabilities such as copy, backup, and restore. Learn more about ALM capabilities in [Manage Marketing instances](https://docs.microsoft.com/dynamics365/marketing/manage-marketing-instances).
 There are specifics to these operations, however, which you should adhere to
 when working with Marketing. Some of the common pitfalls include:
 
@@ -145,7 +145,7 @@ standard rules of [uninstalling a Marketing app](uninstall-marketing.md) apply. 
 
 You can replicate Dynamics 365 Marketing configurations and data across
 instances using the standard tools provided for Dynamics 365. More information
-is available in [Transfer data](transfer-data.md) and in [Transfer customizations](transfer-solution.). The following are some of the common pitfalls when transferring data:
+is available in [Transfer data](transfer-data.md) and in [Transfer customizations](transfer-solution.md). The following are some of the common pitfalls when transferring data:
 
 - **Using ALM operations instead of Import/Export when transferring selective data.**
 - **Not following the transfer guidelines mentioned in the documentation such as having similar source and target versions of the Marketing app.**
