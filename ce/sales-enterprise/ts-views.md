@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting views (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how to troubleshoot issues with entity views in Dynamics 365 Sales."
-ms.date: 03/24/2020
+ms.date: 04/30/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -14,8 +14,8 @@ manager: annbe
 
 This article helps you troubleshoot and resolve issues related to entity views.
 
-<a name="no_data_in_views"> </a>
-## Issue: I can't see data in certain columns in entity views
+
+## Issue: I can't see data in certain columns in entity views<a name="no_data_in_views"></a>
 
 **Reason:**
 This error is occurring due to mismatch of column names between the `layoutxml` and `fetchxml` in the view ODATA file (*OrgUrl*/api/data/*Dynamics 365 version*/savedqueries(*ViewId*)). 
@@ -84,6 +84,69 @@ To resolve this issue, you must edit or remove filters for the view. This will e
     > ![Update or clear the filter criteria](media/troubleshooting-record-update-filter.png "Update or clear the filter criteria")
    
     The records in the views are displayed properly.
+
+## Issue: I can't see some records in opportunity, quote, order, or invoice subgrids<a name="missing-records"></a>
+
+While working on opportunity, quote, order, or invoice records, you might observe that some records are missing.
+
+**Reason**
+
+-   You might not see some records because of an error that occurred due to customization done to the subgrid.
+
+**Resolution**
+
+To fix the issue of incorrect customization, follow these steps to make sure your subgrid is configured correctly:
+
+1.  In your app, on the nav bar, select the **Settings** icon, and then select **Advanced Settings**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Advanced Settings link in the Settings menu](media/advanced-settings-option.png "Advanced Advanced Settings link in the Settings menu")
+
+    The **Business Management** settings page opens in a new browser tab.
+
+2. On the navigation bar, select **Settings**, and then under **Customization**, select **Customizations**. 
+
+3. Select **Customize the System**.
+
+4. Under **Components** in the solution explorer, expand **Entities**, expand **Opportunity**, and then select **Forms**.
+
+5. Open the Opportunity form of type **Main**<!--Edit assumes "Main" is a string in the UI.-->.
+
+6. Double-click to select the **Connections** section in the **Product Line Items** section.
+
+    > [!div class="mx-imgBorder"]
+    > ![Product Line Items subgrid](media/product-line-items-subgrid.png "Product Line Items subgrid")
+
+    The **Set Properties** dialog box opens.
+
+    > [!div class="mx-imgBorder"]
+    > ![Set properties of Opportunity Products grid](media/set-properties-opportunity-products-grid.png "Set properties of Opportunity Products grid")
+
+7. On the **Controls** tab, double-click to select **Editable Grid**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Double-click the Editable Grid option](media/editable-grid-option.png "Double-click Editable Grid option")
+
+8. Make sure that all values are set correctly:
+
+    -  Grid View: Opportunity Product Inline Edit View
+
+    -  Nested Grid View: Select the pencil icon and fill in the following details:
+
+        > [!div class="mx-imgBorder"]
+        > ![Configure property dialog box](media/configure-property-dialog-box.png "Configure property dialog box")
+
+        -   Entity: Opportunity Products
+
+        -  View: Opportunity Product Inline Edit View: Bundle Products
+
+    -   Nested grid parent ID: parentbundleidref
+
+    -   Group by Column: Enabled (Enum)
+
+    -   Allow filtering: Enabled (Enum)
+
+    -   Hide nested grid column header: Hide Column
 
 
 ### See also

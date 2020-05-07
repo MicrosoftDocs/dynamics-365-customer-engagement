@@ -44,6 +44,9 @@ Perform the following prerequisite tasks:
 
 - Enable forecasting in your organization. To enable forecasting, follow these steps:
 
+    > [!NOTE]
+    > As of 2020 release wave 1, forecasting is enabled automatically for all users.
+
     1.	Sign in to the **Sales Hub** app.
     
     2.	At the bottom of the site map, select **Change area** ![Change area icon](media/change-area-icon.png "Change area icon"), and then select **App settings**.

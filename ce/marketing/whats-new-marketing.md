@@ -1,7 +1,7 @@
 ---
-title: "New and upcoming features in Dynamics 365 Marketing | Microsoft Docs"
+title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 04/03/2020
+ms.date: 05/01/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -30,6 +30,54 @@ We roll out updates on a region-by-region basis. Updates are available to all re
 > [!Note]
 > To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20Marketing).
 
+## May 2020 update
+
+The Dynamics 365 Marketing May 2020 update includes several feature enhancements including a revamped form capture experience, performance upgrades, and bug fixes.
+
+> [!IMPORTANT]
+> With the May 2020 release, all [Marketing 2020 release wave 1 plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/planned-features) features are now generally available. 
+> 
+> Beginning in May, updates will occur automatically, corresponding with the [amended 2020 release wave 1 deployment schedule](https://docs.microsoft.com/power-platform/admin/general-availability-deployment#deployment-schedule). We will gradually implement the new update policy for instances eligible for automatic upgrade, so organizations may not see any immediate impact to their eligible instances. Organizations can still [manually update using the Marketing Setup Wizard](https://docs.microsoft.com/dynamics365/marketing/apply-updates) if there is an update that has not yet been applied.
+>
+> [Learn more about the automatic update policy](https://cloudblogs.microsoft.com/dynamics365/it/2020/04/27/automatic-update-policy-for-dynamics-365-marketing/).
+
+### Version number
+
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        | 1.35.10061.1037 |
+
+> [!Tip]
+> To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](https://docs.microsoft.com/dynamics365/marketing/apply-updates#find-out-which-version-of-dynamics-365-marketing-you-are-running). 
+
+### Monthly feature updates
+
+- **Marketing forms**
+    - The new form capture wizard combines the initial step of placing a JavaScript code into a third-party website with the rest of the form capture experience. The wizard guides users through each step, including detecting the page, checking for previous tracking scripts, adding a script, finding existing forms on the page, and mapping the form fields. [Learn how to use the new form capture wizard here.](embed-forms.md#capture-a-new-external-form)
+    - Form capture support for client-side forms that are injected dynamically via scripts.
+- **Templates**
+    - New template design gallery.
+    - Brand new page and form templates with improved accessibility and support for multiple layouts.
+
+### Bug fixes
+
+- **Customer journeys**
+    - Improved validation messages for customer journeys to help catch issues before going live.
+- **First run experience**
+    - Resolved an issue where a configured portal would occasionally display as not configured when creating a new instance.
+- **Marketing emails**
+    - Fixed an issue where display names for intersect entities did not load properly.
+    - Improved email styling compatibility for Outlook 2013.
+    - Resolved an issue where name attributes did not appear consistently on HTML tags in the email editor.
+    - New UI notification when an org is suspended due to suspicious email sending activity.
+- **Marketing forms**
+    - Resolved an issue where form lookup fields referencing a DateTime attribute failed to prefill.
+- **Marketing pages**
+    - Resolved an error where the properties tab occasionally did not load properly in the marketing pages editor.
+- **Segment management**
+    - Added a UI indication when a "Publish changes" operation fails due to an entity that cannot be enabled for sync.
+    - The segment designer now properly parses grouped "AND" and "OR" clauses.
+
 ## April 2020 update
 
 The Dynamics 365 Marketing April 2020 update includes several feature enhancements, performance upgrades, and bug fixes. It also includes Forms Pro integration, an improved email designer, and unified segment types.
@@ -41,7 +89,7 @@ The Dynamics 365 Marketing April 2020 update includes several feature enhancemen
 >
 > To learn more, visit [Dynamics 365 release schedule and early access](https://docs.microsoft.com/dynamics365/get-started/release-schedule).
 
-### Version numbers
+### Version number
 
 | App              | GA release      |
 |------------------|-----------------|
@@ -60,7 +108,9 @@ The Dynamics 365 Marketing April 2020 update includes several feature enhancemen
     - [Docs](automated-scheduler.md)
 - **Compliance made easier**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/compliance-made-easier)
-    - [Docs](gdpr.md)
+    - [Double opt-in for forms docs](form-double-opt-in.md)
+    - [Historical view of consent-level changes docs](gdpr.md#view-and-set-the-consent-level-for-each-contact)
+    - [Set consent for each contact docs](gdpr.md#view-and-set-the-consent-level-for-each-contact)
 - **Improved segment design and management**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-segment-design-management)
     - [Docs](segmentation-lists-subscriptions.md)

@@ -4,7 +4,7 @@ description:
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 07/01/2019
+ms.date: 05/05/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -33,9 +33,9 @@ Chat is an engagement channel that enables your agents to connect with customers
 
 SMS is an engagement channel that supports asynchronous mode of communication, and allows your organization to connect to customers by using text messages. The SMS channel is generally available now. For more information, see [Try channels for Dynamics 365 Customer Service](try-channels.md) and [Configure an SMS channel](administrator/configure-sms-channel.md).
 
-### Facebook
+### Social channels
 
-The Facebook channel gives you an incredible opportunity to capitalize on the social media trend and engage with your customers in a seamless and personalized experience. The Facebook channel is currently available in preview. For more information, see [Try channels for Dynamics 365 Customer Service](try-channels.md) and [Configure a Facebook channel](administrator/configure-facebook-channel.md).
+Social channels such as Facebook, LINE, Twitter, and WeChat give you an incredible opportunity to capitalize on the social media trend and engage with your customers in a seamless and personalized experience. In addition to the aforementioned generally available channels, WeChat and Custom channels are currently available in preview. For more information, see [Try channels for Dynamics 365 Customer Service](try-channels.md).
 
 ## Videos
 

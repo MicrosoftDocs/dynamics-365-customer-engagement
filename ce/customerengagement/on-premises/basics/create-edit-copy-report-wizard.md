@@ -1,7 +1,7 @@
 ---
 title: "Create or edit a report using the Report Wizard (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
-ms.date: 06/26/2019
+ms.date: 05/05/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -20,6 +20,8 @@ search.app:
   - D365CE
 ---
 # Create or edit a report using the Report Wizard
+
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create a report using the Report Wizard](/powerapps/user/create-report-with-wizard)
 
 All reports that are created using the Report Wizard are Fetch-based reports. Note that all reports generated with the Report Wizard print in landscape mode.
   

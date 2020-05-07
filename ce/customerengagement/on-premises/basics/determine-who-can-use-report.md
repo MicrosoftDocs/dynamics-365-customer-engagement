@@ -1,7 +1,7 @@
 ---
 title: "Determine who can use a report (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
-ms.date: 06/11/2019
+ms.date: 05/05/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -21,8 +21,10 @@ search.app:
 ---
 # Determine who can use a report
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Work with reports](/powerapps/user/work-with-reports)
+
 By default, a report is a personal report and can be used only by the author unless it is shared.  
-<!-- If you use [!INCLUDE[pn_crm_for_outlook_full](../includes/pn-crm-for-outlook-full.md)], all reports that you own will be available when you’re offline. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work offline with Dynamics 365 for Outlook](../outlook-add-in/work-offline-dynamics-365-outlook.md).  -->
+<!-- If you use [!INCLUDE[pn_crm_for_outlook_full](../includes/pn-crm-for-outlook-full.md)], all reports that you own will be available when you're offline. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work offline with Dynamics 365 for Outlook](../outlook-add-in/work-offline-dynamics-365-outlook.md).  -->
   
 1. [!INCLUDE[proc_permissions_system_admin](../includes/proc-permissions-system-admin.md)]  
     #### Check your security role  

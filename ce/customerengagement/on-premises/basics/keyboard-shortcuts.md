@@ -7,7 +7,7 @@ applies_to:
 author: ReneeW-CPub
 ms.author: renwe
 manager: annbe
-ms.date: 09/15/2019
+ms.date: 05/05/2020
 ms.topic: article
 ms.service: dynamics-365-cross-app
 ms.assetid: 4424660b-743b-434f-9993-fb64ae4e776a
@@ -19,6 +19,8 @@ search.app:
   - D365CE
 ---
 # Use keyboard shortcuts in Dynamics 365 Customer Engagement (on-premises)
+
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Use keyboard shortcuts in Power Apps](/powerapps/user/keyboard-shortcuts)
 
 Keyboard shortcuts give you an alternate way to do common tasks instead of using your mouse or tapping with your finger. They help in seamless navigation of the interface. The following keyboard shortcuts apply across Dynamics 365 Customer Engagement (on-premises). 
 
@@ -178,13 +180,13 @@ Interactive dashboards enable new functionality, such as filtering, sorting, and
 If you use a screen reader, follow these steps to access any of the submenus that are displayed when you hover the mouse over a navigation link.
 1. Navigate between the menu options using standard link navigation.
 2. Activate the link by selecting Enter or the space key as you usually would. A list of submenus will be displayed.
-3. To access these submenu options, use the assistive technology (AT) shortcut key to navigate to the next button. For example, if you use the NVDA screen reader, you would use the “b” shortcut key (NVDA+b). To navigate through all the options, select the key repeatedly.
+3. To access these submenu options, use the assistive technology (AT) shortcut key to navigate to the next button. For example, if you use the NVDA screen reader, you would use the "b" shortcut key (NVDA+b). To navigate through all the options, select the key repeatedly.
 
 > [!IMPORTANT]
 > Several areas in the user interface (UI) have auto-collapse built in for menus. This includes the Navigation Bar and Form Navigation. Both expand when selected, but after 30 seconds of inactivity, the items collapse.
 
 ## Navigating through stages of a process
-If you’re in a record—for example, a lead—this section shows you the keyboard shortcuts to navigate through the different stages in the sales process to qualify the lead, and how to make selections in those stages. For example, if you want to move easily from the Qualify stage through to the Close stage, try these keyboard actions:
+If you're in a record—for example, a lead—this section shows you the keyboard shortcuts to navigate through the different stages in the sales process to qualify the lead, and how to make selections in those stages. For example, if you want to move easily from the Qualify stage through to the Close stage, try these keyboard actions:
 - After you select a stage, get to the fields by selecting the Down arrow.
 - If a stage is collapsed, select Enter to expand it.
 

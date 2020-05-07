@@ -1,7 +1,7 @@
 ---
 title: "Quick create--Enter new contacts (or other data)--fast! (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/15/2017
+ms.date: 05/05/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -21,7 +21,9 @@ search.app:
 ---
 # Quick create--Enter new records--fast!
 
-The Quick Create command makes it fast and easy to enter almost any type of information into the system. The command is on the nav bar, so it’s always available whenever you need to enter new info into the system.  
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create a new record](/powerapps/user/create-a-record)
+
+The Quick Create command makes it fast and easy to enter almost any type of information into the system. The command is on the nav bar, so it's always available whenever you need to enter new info into the system.  
   
  With Quick Create, you need to complete only a few fields. Later, when you have more time or more information, you can fill in more details.  
   

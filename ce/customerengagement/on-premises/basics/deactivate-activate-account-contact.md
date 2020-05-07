@@ -1,7 +1,7 @@
 ---
 title: "Deactivate or activate an account or contact (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
-ms.date: 06/06/2019
+ms.date: 05/05/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -25,6 +25,8 @@ searchScope:
   - Customer Engagement
 ---
 # Deactivate or activate an account or contact
+
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Deactivate or activate an account or contact](/powerapps/user/deactivate-activate-account-contact)
 
 In Customer Engagement (on-premises), you deactivate an account or contact rather than deleting it. This ensures the integrity of the audit trail associated with that record.  
   

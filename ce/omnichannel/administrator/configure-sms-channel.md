@@ -1,5 +1,5 @@
 ---
-title: "Configure an SMS channel | MicrosoftDocs"
+title: "Configure an SMS channel for Telesign | MicrosoftDocs"
 description: "Instructions for configuring an SMS channel in Omnichannel for Customer Service."
 author: lalexms
 ms.author: laalexan
