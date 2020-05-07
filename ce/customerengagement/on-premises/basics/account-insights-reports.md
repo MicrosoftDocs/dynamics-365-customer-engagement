@@ -1,7 +1,7 @@
 ---
 title: "Account insights reports (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/15/2017
+ms.date: 05/05/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -33,7 +33,7 @@ See which account generates the most revenue for your business. Then use the inf
 
 
 ## Account Overview report
-Get a one-page overview of everything that’s happening with an account. The report shows a profile of the account, contact information, and a summary of opportunities and case activities.  
+Get a one-page overview of everything that's happening with an account. The report shows a profile of the account, contact information, and a summary of opportunities and case activities.  
   
 - For opportunities, the report shows charts with active opportunities grouped by the probability of the opportunities turning into a sale and the state the opportunities are currently in.  
   
@@ -43,7 +43,7 @@ Get a one-page overview of everything that’s happening with an account. The re
  
 
 ## Neglected Accounts report
-Use this report to find accounts that haven’t been contacted recently so that you can follow up on those accounts.  
+Use this report to find accounts that haven't been contacted recently so that you can follow up on those accounts.  
   
  When you run the report, select how many days the account has been neglected for. The report shows accounts that have no recent activity, including notes.  
   

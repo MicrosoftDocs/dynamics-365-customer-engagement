@@ -1,7 +1,7 @@
 ---
 title: "Export data to Excel (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
-ms.date: 10/29/2018
+ms.date: 05/05/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -21,9 +21,11 @@ search.app:
 ---
 # Export data to Excel
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Export data to Excel](/powerapps/user/export-data-excel)
+
 Do you need to analyze your data from Dynamics 365 Customer Engagement (on-premises) and convert that data into actionable items that help you drive more sales? You can choose to export static worksheets or dynamic worksheets, which you can import back into Customer Engagement (on-premises). If you need more advanced functions, you can export a dynamic PivotTable, which makes it very easy to organize and summarize data. Also, analyzing large datasets is not a problem because you can export up to 100,000 rows of data.  
   
-Export data to a standard [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] file that you can use on any device such as your phone, tablet, or desktop computer. The data is exported in the same format as you see in Customer Engagement (on-premises). Text will remain text, numbers will remain numbers, and dates will remain dates. However, when you export data from Customer Engagement (on-premises) to [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] the some cell format may change. The table below summarizes how you’ll see the data in Customer Engagement (on-premises) and how the cell format changes when you export the data to [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)].  
+Export data to a standard [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] file that you can use on any device such as your phone, tablet, or desktop computer. The data is exported in the same format as you see in Customer Engagement (on-premises). Text will remain text, numbers will remain numbers, and dates will remain dates. However, when you export data from Customer Engagement (on-premises) to [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] the some cell format may change. The table below summarizes how you'll see the data in Customer Engagement (on-premises) and how the cell format changes when you export the data to [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)].  
   
 ## Cell format when data is exported from Customer Engagement (on-premises) to [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)]  
   
@@ -32,10 +34,10 @@ Export data to a standard [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.m
 |            Text, Ticker Symbol, Phone, Options set, and Look Up            |                                                       Shows as Text and option set becomes drop-down list                                                       |
 |                                 Email, URL                                 |                                                                        Shows as General                                                                         |
 |                                   Number                                   |                                                             Shows as Number without group separator                                                             |
-|                                  Currency                                  |                                                         Shows as Number and does not include “$” symbol                                                         |
+|                                  Currency                                  |                                                         Shows as Number and does not include "$" symbol                                                         |
 |                          Date only, Date and Time                          |                                                                       Shows as Date only                                                                        |
-|                       Calculated and Roll up fields                        | Editable in [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] but can’t be imported back to Customer Engagement (on-premises) |
-|                               Secured fields                               | Editable in [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] but can’t be imported back to Customer Engagement (on-premises) |
+|                       Calculated and Roll up fields                        | Editable in [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] but can't be imported back to Customer Engagement (on-premises) |
+|                               Secured fields                               | Editable in [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] but can't be imported back to Customer Engagement (on-premises) |
   
 ## See which type of export works best for you  
   
@@ -48,11 +50,11 @@ Export data to a standard [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.m
 
 ## Other considerations
 
-- When you export data in [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] (.xlsx format) and then add or modify columns, you can’t import the data back in to Customer Engagement (on-premises). This is not supported for .xlsx file format.  
+- When you export data in [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] (.xlsx format) and then add or modify columns, you can't import the data back in to Customer Engagement (on-premises). This is not supported for .xlsx file format.  
   
-- If you’re using [!INCLUDE[pn_ms_Excel_2010_short](../includes/pn-ms-excel-2010-short.md)], \ you may get this error message when you export data from Accounts area: 
+- If you're using [!INCLUDE[pn_ms_Excel_2010_short](../includes/pn-ms-excel-2010-short.md)], \ you may get this error message when you export data from Accounts area: 
  
-      “The file is corrupt and cannot be opened.”  
+      "The file is corrupt and cannot be opened."  
   
    The error message occurs due to a setting in [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)]. To fix the issue, do this:  
   

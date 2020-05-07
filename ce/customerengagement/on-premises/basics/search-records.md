@@ -1,7 +1,7 @@
 ---
 title: "Search for records (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
-ms.date: 08/29/2018
+ms.date: 05/05/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -21,19 +21,21 @@ search.app:
 ---
 # Search for records
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Use quick find to search for records](/powerapps/user/quick-find)
+
 To find your records quickly in Dynamics 365 Customer Engagement (on-premises), you can search across multiple record types all at the same time.  The results of the search are shown in groups, sorted by entity type.  
   
  There are two ways to search.  
   
  ### Normal quick find 
   
-- **Begins with** - results include records that begin with a specific word. For example, if you want to search for “Alpine Ski House”, type **alp** in the search box; if you type **ski**, the record won’t show up.  
+- **Begins with** - results include records that begin with a specific word. For example, if you want to search for "Alpine Ski House", type **alp** in the search box; if you type **ski**, the record won't show up.  
   
 - **Wildcard** - for example: *ski or *ski\*  
   
 ### Full text quick find
   
-- **Search within** - results include records that contain a field with all of the words in the search term.  The individual words can appear anywhere in the string and in any order.  For example, if you search for “Alpine Ski House”, you could find results for “I left the house today to go skiing in the Alpine Meadows.” since all of the search words appear somewhere in the string.  
+- **Search within** - results include records that contain a field with all of the words in the search term.  The individual words can appear anywhere in the string and in any order.  For example, if you search for "Alpine Ski House", you could find results for "I left the house today to go skiing in the Alpine Meadows." since all of the search words appear somewhere in the string.  
   
 -   Wildcards are not required in full text quick find.  
 <!-- apparently the following is on-prem only>  

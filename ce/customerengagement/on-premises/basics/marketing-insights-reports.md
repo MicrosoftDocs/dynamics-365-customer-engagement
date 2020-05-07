@@ -1,7 +1,7 @@
 ---
 title: "Marketing insights reports (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/15/2017
+ms.date: 05/05/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -39,7 +39,7 @@ Use this report to compare the cost effectiveness and number of responses of two
 
 
 ## Campaign Performance report
-Find out what’s working and what you need to change in your campaigns. Use the campaign performance report to track the progress and status of your campaigns. The report provides a detailed view of all the dates, targets, definitions, responses, and financial returns from each campaign that has been modified – so you can quickly see the progress of your campaigns.  
+Find out what's working and what you need to change in your campaigns. Use the campaign performance report to track the progress and status of your campaigns. The report provides a detailed view of all the dates, targets, definitions, responses, and financial returns from each campaign that has been modified – so you can quickly see the progress of your campaigns.  
 
 ### See also  
  [Run a report](../basics/run-report.md)   
