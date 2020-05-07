@@ -62,3 +62,4 @@ If you're in China, use the links below to get [!INCLUDE[pn_Mobile_Express_short
 Baidu: https://shouji.baidu.com/software/26810476.html  
 Lenovo: https://www.lenovomm.com/appdetail/com.microsoft.crm.crmphone/306242  
 Meizu: http://app.meizu.com/apps/public/detail?package_name=com.microsoft.crm.crmphone  
+Xiaomi: http://app.mi.com/details?id=com.microsoft.crm.crmphone
