@@ -21,11 +21,11 @@ search.app:
 
 # Contracts to entitlements migration strategy
 
-This document contains information about settings that admins have to take care of when migrating contract records to entitlements. This migration support information will help customers prepare for the deprecation of the following:
+This document contains information about settings that admins should take care of when migrating contract records to entitlements. This migration support information will help customers prepare for the deprecation of the following:
 
 - Contracts
 - Contract line items
-- Contract template entities
+- Contract templates
 
 ## Migration planning
 
@@ -54,17 +54,17 @@ A screenshot of the entitlement template is as follows,
 > After an entitlement is created from the entitlement template, add custom code to copy the custom fields added on entitlement for parity with contract lines.
 > The calendar option in the contracts template is not available in the entitlements template.
 
-**Benefits with entitlement:**
+**Benefits in entitlement**
 
 - Created cases will now display warning notices when they exceed the allocated terms.
 - Customer usage can be monitored with the option to set and apply restrictions in the future.
 
 ### Custom fields
 
-You will need to create custom fields in entitlements to migrate data from the fields in the contract template that are not available in the entitlement template. Perform the following steps to switch from the contract template and map to the entitlement template:
+You will need to create custom fields in entitlement templates to migrate data from the fields in the contract template that are not available in the entitlement template. Perform the following steps to switch from the contract template and map to the entitlement template:
 
-- **Step 1:** Create custom fields with attributes on the entitlement template. For more information, see [Create and edit fields (attributes)](/dynamics365/customerengagement/on-premises/customize/create-edit-fields).
-- **Step 2:** Place the created fields on the form as per your business needs. Use the [basic update](/powerapps/developer/common-data-service/org-service/entity-operations-update-delete#basic-update) SDK code examples as a reference guide to update the entity. For more information, see [Add a field to a form](/dynamics365/customerengagement/on-premises/customize/add-field-form).
+1. Create custom fields with attributes on the entitlement template. For more information, see [Create and edit fields (attributes)](/dynamics365/customerengagement/on-premises/customize/create-edit-fields).
+2. Place the created fields on the form as per your business needs. For more information, see [Add a field to a form](/dynamics365/customerengagement/on-premises/customize/add-field-form).
 
 ## Mapping: Contracts to entitlements
 
@@ -94,12 +94,14 @@ If you have a contract tied to a single product, follow these steps:
 
 A contract or entitlement can be canceled using the following steps:
 
-**Cancel a contract**  
+##### Cancel a contract
+
 Contracts can be canceled immediately or in the future by selecting a date.
   
   ![Contract and entitlement cancellation](media/contract-and-entitlement-cancellation.png "Contract and entitlement cancellation")
 
-**Cancel an entitlement**  
+##### Cancel an entitlement
+
 An entitlement can be canceled only immediately; you can't set a date to cancel it in the future.
   
 ![Cancel entitlement](media/cancel-entitlement.png "Cancel entitlement")
@@ -126,22 +128,22 @@ The following commands are available in entitlements:
 
 #### State mapping
 
-- The invoiced state in contract can be mapped to the waiting state in the entitlement.
+- The invoiced state in a contract can be mapped to the waiting state in the entitlement.
 - The draft, active, canceled, and expired states are the same for both contracts and entitlements.
 - The onhold state is not available in entitlements.
 
 ## Runtime scripts for migrating contracts
 
-Use the following steps to migrate from contracts to entitlements:
+After making sure that all aspects of feature parity for records in contracts are available in entitlements, perform the following steps to migrate from contracts to entitlements:
 
-- **Step 1:** Move the contract and contract lines to entitlements.
-- **Step 2:** Run update script to update entitlements on a case instead of contracts.
+1. Move the contract and contract lines to entitlements.
+2. Run update script to update entitlements on a case instead of contracts.
 
-For business requirements, if a resolved case needs to be updated, follow these steps:
+For business requirements, if a resolved case needs to be updated, perform the following steps:
 
-- **Step 1:** Activate the case.
-- **Step 2:** Update the entitlement lookup.
-- **Step 3:** Resolve the case.
+1. Activate the case.
+2. Update the entitlement lookup.
+3. Resolve the case.
 
 > [!IMPORTANT]
 > In contracts and contract lines, the contract lines can be associated with a product that is different from the one listed in a case. However, in entitlements, the product listed in a case should match the product listed in the entitlement.
@@ -150,4 +152,5 @@ For business requirements, if a resolved case needs to be updated, follow these 
 
 ### See also
 
-[Important changes (deprecations) coming](/power-platform/important-changes-coming)
+[Important changes (deprecations) coming](/power-platform/important-changes-coming)  
+[SDK code samples in basic update](/powerapps/developer/common-data-service/org-service/entity-operations-update-delete#basic-update)
