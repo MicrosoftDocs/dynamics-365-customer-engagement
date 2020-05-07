@@ -45,7 +45,6 @@ and [Marketing Contacts Purchase](setup-troubleshooting.md#how-is-dynamics-365-m
 
 As documented in [Quota management](quota-management.md), there are multiple types of marketing quotas. Here are some issues customers encounter regarding quotas:
 
-- **The marketing contact quota is not immediately visible after purchase.** Contact quota delays might be related to purchase sync delay where the purchase signal has not yet reached the backend to update the marketing contact quota. This issue often resolves itself. If the issue persists for more than a day, there may have been an incorrect purchase order entry where contact tiers purchased do not match the base offers in the tenant. For example, you purchased a standard Marketing app but used the non-profit offer for the marketing contacts. In such cases, you should open a support ticket to resolve the issue.
 - **You see a sudden drop in the Marketing quota compared to the past or compared to what you have always paid for.** In such cases, validate that the Marketing app and the marketing contact add-on pack subscription has not expired. Normally, if a subscription expires, the related quota associated with it also decreases.
 - **You purchased marketing contact packs, but you do not see the packs reflected in the Quota Limits monitoring.** There could be multiple causes, but some common reasons are:
     1. *There are multiple channels through which you can purchase the Marketing app and contact packs.* It might take time for the purchases to reflect in the quota limits. If the purchase does not reflect after 24 hours, you should open a support ticket to resolve the issue.
@@ -125,7 +124,7 @@ Service, etc.), can only be deployed on CE instances (also known as orgs).
 
 - [This documentation](https://docs.microsoft.com/dynamics365/admin/add-instance-subscription) describes how to add CE instances via purchase into a tenant on which Marketing can be deployed.
 
-- A CE instance could also be [provisioned via the Power Platform Admin Center with a CE DB](https://docs.microsoft.com/power-platform/admin/create-environment). Currently, there is an issue that prevents creating a Marketing template-based CE instance. If you need to create a Marketing template-based CE instance, you should open a support ticket to resolve the issue.
+- A CE instance could also be [provisioned via the Power Platform Admin Center with a CE DB](https://docs.microsoft.com/power-platform/admin/create-environment). If you need to create a Marketing template-based CE instance, you should open a support ticket to resolve the issue.
 
 ## Trials
 
