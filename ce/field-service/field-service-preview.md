@@ -124,7 +124,7 @@ The following applies to both installing Field Service in an environment without
 
 As a system administrator, go to [https://admin.powerplatform.microsoft.com/environments/](https://admin.powerplatform.microsoft.com/environments/).
 
-In the left pane go to **Resources > Dynamics 365 apps** and find **Dynamics 365 Field Service** in the list.
+In the left pane, go to **Resources** > **Dynamics 365 apps** and find **Dynamics 365 Field Service** in the list.
 
 Seelct the app and choose install.
 
