@@ -74,9 +74,7 @@ manager: annbe
 <li><a href="../sales-enterprise/developer/reference/playbook-entity-reference.md" data-raw-source="[Entity reference for playbooks](../sales-enterprise/developer/reference/playbook-entity-reference.md)">Entity reference for playbooks</a></li>
 <li><a href="../sales-enterprise/developer/custom-plugin-handling-shared-variable.md" data-raw-source="[Custom plug-in handling using shared variable](../sales-enterprise/developer/custom-plugin-handling-shared-variable.md)">Custom plug-in handling using shared variable</a></li>
 </td>
-</tr>
-</td> <td>
-
+<td>
 <h2>GDPR</h2>
 <li><a href="../sales-enterprise/dynamics-365-sales-gdpr.md" data-raw-source="[Dynamics 365 Sales &amp; GDPR](../sales-enterprise/dynamics-365-sales-gdpr.md)">Dynamics 365 Sales &amp; GDPR</a></li>
 
