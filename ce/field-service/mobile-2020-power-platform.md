@@ -1,8 +1,8 @@
 ---
-title: "Field Service  mobile app | MicrosoftDocs"
+title: "Field Service (Dynamics 365) mobile app | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 05/05/2020
+ms.date: 05/08/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -83,7 +83,7 @@ Field Service Mobile is recommended for more **complex** use cases where you may
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Dynamics 365 list of apps, showing the Field Service Mobile solution in the list.](./media/mobile-2020-app-list.png)
 
-- Set up a Dynamics 35 Field Service user with the **Field Service-Resource** security role. This user will sign in to the Field Service (Dynamics 365) mobile app as a techician.
+- Set up a Dynamics 35 Field Service user with the **Field Service-Resource** security role. This user will sign in to the Field Service (Dynamics 365) mobile app as a technician.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Manage Roles dialogue in Dynamics 365.](./media/mobile-2020-resource-security-role.png)
@@ -96,12 +96,12 @@ Field Service Mobile is recommended for more **complex** use cases where you may
 
 ## Install and sign in to Field Service (Dynamics 365) 
 
-Go to the app store on your iOS or Android device and search for **Field Service Mobile**.
+Go to the app store on your iOS or Android device and search for **Field Service mobile**.
 
 Download the app called **Field Service (Dynamics 365)**, as seen in the following screenshot. This is the mobile app built on the Power Platform. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a mobile device app store, showing two Field Service Mobiles in the list, and highlighting the Field Service Mobile 2020 app.](./media/mobile-2020-download-signin.jpg)
+> ![Screenshot of a mobile device app store, showing two Field Service Mobiles in the list, and highlighting the Field Service (Dynamics 365) app.](./media/mobile-2020-download-signin.jpg)
 
 Launch the app and sign in with your username and password. This is the user credentials of the technician user with the **Field Service - Resource** security role.
 
@@ -111,7 +111,7 @@ Launch the app and sign in with your username and password. This is the user cre
 Once you sign in, the app will prompt you to download offline data (your scheduled work orders) to the device. If you anticipate not having internet access, select **Download**. Otherwise you can **Skip for now**. If you're unsure, we recommend downloading the offline data just in case. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service Mobile 2020, showing the download data dialogue.](./media/mobile-2020-download-offline.png)
+> ![Screenshot of Field Service (Dynamics 365), showing the download data dialogue.](./media/mobile-2020-download-offline.png)
 
 ### View scheduled work orders
 
@@ -120,12 +120,12 @@ The first screen you'll see is a calendar view of your scheduled work orders.
 Select **More** > **Show as** > **Read Only Grid** to see the bookings as a list as shown on the right side of the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Simulated image showing two mobile devices with Field Service Mobile 2020. The screen on the left has a list of My Open Resource Bookings by date. The screen on the right has a list of My Open Resource Bookings in a flat list.](./media/mobile-2020-booking-view.jpg)
+> ![Simulated image showing two mobile devices with Field Service (Dynamics 365). The screen on the left has a list of My Open Resource Bookings by date. The screen on the right has a list of My Open Resource Bookings in a flat list.](./media/mobile-2020-booking-view.jpg)
 
 Select a booking to see more details about the booking time and the work order. For example, you can update the status to **Traveling** to indicate you are driving to the customer location; on the **Customer tab**, you can see the work order location on a map and trigger turn-by-turn driving directions from a GPS app on your phone such as Bing Maps, Apple Maps, Waze, or Google Maps.
 
 > [!div class="mx-imgBorder"]
-> ![Simulated image showing two mobile devices side by side, both with screenshots of Field Service Mobile 2020. Screenshot on the left shows a bookable resource booking on the general tab. Screenshot on the right shows a map.](./media/mobile-2020-work-order-navigate-directions-map.jpg)
+> ![Simulated image showing two mobile devices side by side, both with screenshots of Field Service (Dynamics 365). Screenshot on the left shows a bookable resource booking on the general tab. Screenshot on the right shows a map.](./media/mobile-2020-work-order-navigate-directions-map.jpg)
 
 On the **Service tab**, you'll see work order details like work order service tasks, products, and services.
 
@@ -133,7 +133,7 @@ On the **Notes tab**, you'll see a way to add note text, pictures, and videos, a
 
 
 > [!div class="mx-imgBorder"]
-> ![Simulated image showing three mobile devices with Field Service Mobile 2020 open. First screenshot on the left shows the service tab on the bookable resource booking. Middle screenshot shows the service tab. Right screenshot shows the notes tab.](./media/mobile-2020-work-order-service-notes.jpg)
+> ![Simulated image showing three mobile devices with Field Service (Dynamics 365) open. First screenshot on the left shows the service tab on the bookable resource booking. Middle screenshot shows the service tab. Right screenshot shows the notes tab.](./media/mobile-2020-work-order-service-notes.jpg)
 
 ### Find more information
 
@@ -141,12 +141,12 @@ To get to the sitemap, select the menu icon from the calendar view.
 
 
 > [!div class="mx-imgBorder"]
-> ![Simulated image of a mobile device showing Field Service Mobile 2020, with emphasis on the menu icon in the top left.](./media/mobile-2020-booking-view-calendar-only.jpg)
+> ![Simulated image of a mobile device showing Field Service (Dynamics 365), with emphasis on the menu icon in the top left.](./media/mobile-2020-booking-view-calendar-only.jpg)
 
 From here, you can find other important information like accounts, contacts, customer assets, or to record time off.
 
 > [!div class="mx-imgBorder"]
-> ![Simulated image showing two mobile devices with screenshots of Field Service Mobile 2020. The device on the left shows the full menu for Field Service Mobile 2020. The device on the right shows an account detail page.](./media/mobile-2020-sitemap-account.jpg)
+> ![Simulated image showing two mobile devices with screenshots of Field Service (Dynamics 365). The device on the left shows the full menu for Field Service (Dynamics 365). The device on the right shows an account detail page.](./media/mobile-2020-sitemap-account.jpg)
 
 ### Work offline
 
@@ -158,7 +158,7 @@ Then select **Download offline updates**.
 
 
 > [!div class="mx-imgBorder"]
-> ![Simulated image showing three mobile devices with Field Service Mobile 2020. The device on the left shows the menu, with attention to the cloud icon at the bottom. The middle device shows the offline status screen. The device on the right shows the offline status as available, showing the list of available entities. ](./media/mobile-2020-offline.jpg)
+> ![Simulated image showing three mobile devices with Field Service (Dynamics 365). The device on the left shows the menu, with attention to the cloud icon at the bottom. The middle device shows the offline status screen. The device on the right shows the offline status as available, showing the list of available entities. ](./media/mobile-2020-offline.jpg)
 
 When **Status** is set to **Available**, this means you have all the data you need to work offline.
 
@@ -218,7 +218,7 @@ Administrators who want to customize the booking and work order forms must know 
 
 
 > [!div class="mx-imgBorder"]
-> ![Simulated image showing a device with Field Service Mobile 2020, showing a screenshot of a Bookable Resource Booking on the General tab. ](./media/mobile-2020-work-order-form-all-sections.png)
+> ![Simulated image showing a device with Field Service (Dynamics 365), showing a screenshot of a Bookable Resource Booking on the General tab. ](./media/mobile-2020-work-order-form-all-sections.png)
 
 To edit the work order portion of the form, go to **Settings** > **Customizations** > **Customize the System** and find the **Work Order** entity in the Power Apps admin console.
 
@@ -293,7 +293,7 @@ Administrators can edit the data downloaded to Field Service (Dynamics 365) in o
 > When internet access is available, users will simply see all data on the server they have access to via their security role.
 
 > [!div class="mx-imgBorder"]
-> ![Simulated image showing Field Service Mobile 2020 on a mobile device, showing the offline status screen.](./media/mobile-2020-offline-list.png)
+> ![Simulated image showing Field Service (Dynamics 365) on a mobile device, showing the offline status screen.](./media/mobile-2020-offline-list.png)
 
 Go to **Settings** > **Mobile Offline**.
 
