@@ -6,7 +6,7 @@ ms.author: ktaylor
 manager: shujoshi
 applies_to: 
   - ""
-ms.date: 04/06/2020
+ms.date: 05/05/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -47,7 +47,7 @@ To find out if Omnichannel for Customer Service is available in your region, see
 | Area | Requirements | 
 |----------|----------|
 | Model-driven app | Dynamics 365 Customer Service app version 9.1.0000.3653 or higher  |
-| Web browsers | Supported browsers are: <li>Microsoft Edge</li><li>Google Chrome</li> |
+| Web browsers | Supported browsers: <li>Microsoft Edge (recommended: [Chromium-based Edge](https://support.microsoft.com/en-us/help/4501095/download-the-new-microsoft-edge-based-on-chromium)) </li><li>Google Chrome</li> |
 
 For hardware and other requirements, see [Model-driven app requirements](../admin/online-requirements.md).
 
