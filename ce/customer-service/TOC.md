@@ -108,7 +108,7 @@
 ## Service Scheduling Guide
 ### [Overview](scheduling-overview.md)
 
-### Service Scheduling
+### Customer Service Scheduling
 #### [Understand Service Scheduling](basics-service-service-scheduling.md)
 #### [Manage security roles](manage-security-roles.md)
 
