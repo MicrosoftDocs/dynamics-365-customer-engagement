@@ -140,7 +140,7 @@ There will be a single URL parameter called `data` that will contain a JSON obje
 
 ## Create the third-party co-browse and screen sharing solution with the required data 
 
-ISVs should bring in all the required data as specified in the [Third-party co-browse extensibility framework](#Third-party-co-browse-and-screen-sharing-extensibility-framework) section and the [App Tab Template for third-party co-browse](#App-Tab-Template-for-third-party-co-browse-and-screen-sharing) section to make this framework work. 
+ISVs should bring in all the required data as specified in the [Third-party co-browse extensibility framework]() section and the [App Tab Template for third-party co-browse]() section to make this framework work. 
 
 Here are the data input requirements for third-party providers:  
 
@@ -159,6 +159,11 @@ These records (Conversation Action records, Conversation Action Locale records, 
 
 We have created a new tab in Chat Widget called **Conversation Options**. Inside of this option is a section called **Remote assistance**.  The Omnichannel administrator will have the right to choose whether to enable or disable the third-party co-browse and screen sharing options per chat widget. If there are no co-browse and screen sharing providers installed in this organization, these two options are disabled as shown here.
 
+
+
+<!-- This is the same image as farther above. Is that intentional? -->
+
+
 > [!div class="mx-imgBorder"]
 > ![Omnichannel administration for co-browse feature](../../media/co-browse-entity-relationship.PNG "Omnichannel administration for co-browse feature")
 
@@ -168,17 +173,25 @@ We have created a new tab in Chat Widget called **Conversation Options**. Inside
 > [!NOTE]
 > The co-browse provider and screen sharing provider are controlled separately.  You can install a co-browse provider by creating a co-browse channel capability record with required provider and conversation action data, the same as the screen sharing provider.
 
+When the organization has been provisioned with both options—that is, when it has two different channel capabilities installed—the admin can choose which third-party co-browse provider to use.  Also, it’s the admin’s choice whether to disable or enable these options. Here is the screenshot for admin enabled both options and selected the both providers. 
+
+<!-- The last sentence above needs rewriting. I can't tell what it means. -->
+
+<!-- The image below is the same as the one above. -->
+
+> [!div class="mx-imgBorder"]
+> ![Remote assistance for co-browse feature](../../media/no-screensharing-session-co-browse.PNG "Remote assistance for co-browse feature")
 
 
-When the organization has been provisioned with both options, that is, it has two different channel capabilities installed. Admin can choose which third party Co-browse provider to use.  Also, it’s admin’s choice whether to disable or enable these options. Here is the screenshot for admin enabled both options and selected the both providers. 
 
-![Remote assistance for co-browse feature](../media/no-screensharing-session-co-browse.png "Remote assistance for co-browse feature")
+
 
 ## Co-browse and Screen sharing button rendering in the agent Chat Widget 
 
 When a Co-browse and Screen sharing button is defined, it will be rendered at the top of the conversation control as shown below.
 
-![Screen sharing button rendering in chat widget](../media/chat-widget-co-browse.png "Screen sharing button rendering for co-browse feature")
+> [!div class="mx-imgBorder"]
+> ![Screen sharing button rendering in chat widget](../../media/chat-widget-co-browse.PNG "Screen sharing button rendering for co-browse feature")
 
 ## Omnichannel session services and data flow for third party Co-browse and Screen sharing
 
@@ -186,7 +199,8 @@ When agent clicks on the button for Co-browse or screensharing, it triggers the 
 
 After the third-party applications take over, all data will be handled by third party application server.  Please see the following graph for integration data flow.   
 
-![Data flow for co-browse](../media/data-flow-co-browse.png "Data flow for co-browse")
+> [!div class="mx-imgBorder"]
+> ![Data flow for co-browse](../../media/data-flow-co-browse.PNG "Data flow for co-browse")
 
 Some important events liking starting or ending session events should be reported to Omnichannel service, so the overall service will know the status of the current agent. We provider the third-party providers this framework, it third party providers’ responsibility to implement in their codebase. The next section will explain the details on how to implement it. 
 
