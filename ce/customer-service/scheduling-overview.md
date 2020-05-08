@@ -16,7 +16,7 @@ applies_to:
 
 ## Upcoming changes to the Service Scheduling experience
 
-As previously announced, the legacy Service Scheduling experience is currently being deprecated, in alignment with the expected Unified Interface transition date of 12/01/2020. More information: [Legacy web client is deprecated](https://docs.microsoft.com/power-platform/important-changes-coming#legacy-web-client-is-deprecated). Because of this change, there are currently two approaches you can take to transition to a new scheduling experience. 
+As previously announced, the legacy Service Scheduling experience is currently being deprecated in alignment with the expected Unified Interface transition date of 12/01/2020. More information: [Legacy web client is deprecated](https://docs.microsoft.com/power-platform/important-changes-coming#legacy-web-client-is-deprecated). Because of this change, there are currently two approaches you can take to transition to a new scheduling experience. 
 
 ### Option #1: Migrate to the Core Service Scheduling experience
 
@@ -79,6 +79,6 @@ Users who migrate to URS will have enabled the Appointment entity as bookable in
 
 - If you make a change to a booking on the schedule board, the booking record will update but not the Appointment entity. This can likely be handled programmatically or via Power Automate to update the Appointment record. 
 
-- There is the potential to create endless loops if you also have URS configured to automatically create Appointment records for bookable resources once a booking record has been created.
+- The potential exists that you might create endless loops if you also have URS configured to automatically create Appointment records for bookable resources once a booking record has been created.
 
  
