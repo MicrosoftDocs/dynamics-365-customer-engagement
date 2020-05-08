@@ -39,54 +39,61 @@ Not all the above fields are required to be filled in for third-party co-browse 
 
 The following section lists the required entity data needed to support this feature. 
 
-- **Conversation Actions entity (msdyn_conversationaction)**  
-  The action that can be performed in the conversation.  
-  **Fields**:  
+- **Conversation Actions entity (msdyn_conversationaction)** 
 
-  - Name (This is an identifier Name for your button) 
-  - Event Name (Option set: Open App Tab Template, Send message, Customer Defined function. For third party Co-browse/Screen sharing feature, please input “Open App Tab  Template”) 
-  - Event Parameter (For the third-party Co-browse/Screen sharing button, put the App Tab Template name here) 
-  - Order (Used to determine the positions for conversation actions. Admin can edit. Smallest number comes first) 
-  - Icon (A webresource URL that link to the button icon) 
+  The action that can be performed in the conversation.  
+  
+  **Fields**:  
+  - Name (This is an identifier name for your button.) 
+  - Event Name (Option set: Open App Tab Template, Send message, Customer Defined function. For third-party co-browse/screen sharing feature, input “Open App Tab  Template”.) 
+  - Event Parameter (For the third-party co-browse/screen sharing button, put the App Tab Template name here.) 
+  - Order (Used to determine the positions for conversation actions. Admin can edit. Smallest number comes first.) 
+  - Icon (A web resource URL that links to the button icon.) 
 
   **Fields classification and usage**
-  - This is the entity to store the action button metadata which is visible on the conversation control.  
-  - Localized fields from relationships to Locale entity (label, tooltip, slash command) will be a sub-grid in this conversation action form.  
-  - Label, Order, Tooltip, Icon are used for rendering the button in the UI. Slash commands are used for agent to trigger conversation actions by typing the slash command in the chat box.   
-  - Event Name, Web Resource, Event Parameter and Function Name are used for handling the onButtonClick action.  
-
- 
+  - This is the entity to store the action button metadata that is visible on the conversation control.  
+  - Localized fields from relationships to Locale entity (label, tooltip, slash command) will be a subgrid in this conversation action form.  
+  - Label, Order, Tooltip, Icon are used for rendering the button in the UI. Slash commands are used by agents to trigger conversation actions by typing the slash command in the chat box.   
+  - Event Name, Web Resource, Event Parameter, and Function Name are used for handling the onButtonClick action.  
 
 - **Conversation Action Locale entity (msdyn_conversationactionlocale)**  
+
   Localization information associated with the conversation action.  
+  
+  
+  <!-- In the Label entry below, is it "showing users" or "shown to users" ? Also, what does FK mean? -->
+  
   **Fields**:  
-  - Label (The label of the button showing to users in conversation control) 
-  - Tooltip (Tooltip for that button) 
-  - Locale (Language key for this button) 
-  - Conversation Action (FK to conversation action entity)  
+  - Label (The label of the button showing to users in conversation control.) 
+  - Tooltip (Tooltip for that button.) 
+  - Locale (Language key for that button.) 
+  - Conversation Action (FK to conversation action entity.)  
 
  
 
 - **Provider entity (msdyn_provider)** 
+
   A list of third-party providers that bring capabilities into the application.  
+  
   **Fields**:  
+  
+  Name (ISV name) 
 
-  - Name (ISVs name) 
-
-- **Channel Capability entity(msdyn_channelcapability)** 
-  The capability that a channel can enable, such as Co-browse, screen sharing.  
+- **Channel Capability entity (msdyn_channelcapability)** 
+  
+  The capability that a channel can enable, such as co-browse and screen sharing.  
 
   **Fields**  
-
   - Name (provider_channelcapability relationship name)  
-  - Escalation Channel Mode (Co-browse, Screen Sharing, Audio, Video, or None. For third party Co-browse and Screen sharing providers, user “Co-browse” or “Screen Sharing”)  
+  - Escalation Channel Mode (Co-browse, Screen Sharing, Audio, Video, or None. For third-party co-browse and screen sharing providers, use “Co-browse” or “Screen Sharing”.)  
   - Provider (FK to Provider entity)  
-  - Conversation Actions (It is a lookup field for conversation actions, if there is no button created for certain capability, then it can be empty. For the third party Co-browse and Screen sharing feature, link the channel capability to a conversation action record.  
+  - Conversation Actions (A lookup field for conversation actions. If there is no button created for a certain capability, then it can be empty. For the third-party co-browse and screen sharing feature, link the channel capability to a conversation action record.  
 
  **Fields classification and usage**
-  The Escalation Channel Mode attribute will tell what this button can do. For example, Co-browse, audio, video. When user select certain Escalation Channel Mode for a conversation action, for example “Co-browse”, Omnichannel for Customer Service will handle this “Co-browse” event, and trigger a list of internal events like “create new session for secondary channel”, “send system messages” and “update presence”, which should be implemented in Omnichannel for Customer Service code base.   
+ 
+ The Escalation Channel Mode attribute will tell what this button can do. For example, co-browse, audio, video. When users select a certain Escalation Channel Mode for a conversation action—for example, “co-browse”—Omnichannel for Customer Service will handle this co-browse event and trigger a list of internal events like “create new session for secondary channel,” “send system messages,” and “update presence,” which should be implemented in the Omnichannel for Customer Service code base.   
 
-One provider can bring several channel capabilities, but for one Conversation Action and one Provider, the capability should be unique.  This is handled by using the Channel Capability entity, see the schema given below.
+One provider can bring several channel capabilities, but for one Conversation Action and one Provider, the capability should be unique.  This is handled by using the Channel Capability entity, as shown in the following schema.
 
 | Channel Capability | Provider | Escalation Channel Mode | Conversation Action |
 |--------|--------|--------|--------| 
