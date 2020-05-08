@@ -33,9 +33,9 @@ Co-browse and screen sharing are enabled within Omnichannel Add-in for Dynamics 
 
 To enable third-party co-browse and screen sharing, the Omnichannel for Customer Service application has added an extensibility system to support this feature. In this system, a few entities have been added to the Omnichannel for Customer Service solution, and third-party co-browse and screen sharing providers should use these entities to enable their co-browse and screen sharing feature in the Omnichannel for Customer Service framework. The following graph explains the basic entity relationships that support the third-party co-browse and screen sharing feature.
 
-![Entity relationships for co-browse feature](../media/co-browse-entity-relationship.PNG "Entity relationships for co-browse feature")
+![Entity relationships for co-browse feature](../media/how-to/co-browse-entity-relationship.PNG "Entity relationships for co-browse feature")
 
-Not all the above fields are required to be filled in for third-party Co-browse and Screen sharing providers.  For version 1.0, ISVs are supported to bring their co-browse and screen sharing feature into Omnichannel for Customer Service by enabling a button in agent’s chat widget.  When a user clicks this button, it will open an app tab within Omnichannel for Customer Service with the ISV's application website. To enable this button, ISVs need to bring the required data with their Co-browse and screen sharing solutions.
+Not all the above fields are required to be filled in for third-party co-browse and screen sharing providers.  For version 1.0, ISVs are supported to bring their co-browse and screen sharing feature into Omnichannel for Customer Service by enabling a button in the agent’s chat widget.  When a user selects this button, it opens an app tab within Omnichannel for Customer Service with the ISV's application website. To enable this button, ISVs need to bring the required data with their co-browse and screen sharing solutions.
 
 The following section lists the required entity data needed to support this feature. 
 
