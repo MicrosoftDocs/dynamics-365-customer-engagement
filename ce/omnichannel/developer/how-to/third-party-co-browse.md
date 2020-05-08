@@ -138,29 +138,37 @@ There will be a single URL parameter called `data` that will contain a JSON obje
 
 
 
-
 ## Create the third-party co-browse and screen sharing solution with the required data 
 
-ISVs should bring in all the required data as specified in the [Third-party co-browse extensibility framework](#Third-party-co-browse-and-screen-sharing-extensibility-framework) section and the [App Tab Template for third-party co-browse](#App-Tab-Template-for-third-party-cobrowse-and-screen-sharing) section to make this framework work. To summarize the data input requirement for third party providers.  
+ISVs should bring in all the required data as specified in the [Third-party co-browse extensibility framework](#Third-party-co-browse-and-screen-sharing-extensibility-framework) section and the [App Tab Template for third-party co-browse](#App-Tab-Template-for-third-party-co-browse-and-screen-sharing) section to make this framework work. 
 
-1. App Tab Template record  
-2. Conversation Action record (If you have both Co-browse and screensharing options, you can create two records, one for each)  
-3. Conversation Action Locale record (for each conversation action you created, you should have at least one Conversation Action Locale record. The basic language we support is English) 
-4. Provider record  
-5. Channel Capability record (If you have both Co-browse and screensharing options, you can create two records, one for each) 
+Here are the data input requirements for third-party providers:  
 
-These records (Conversation Action record(s), Conversation Action Locale record(s), Channel Capability record(s), Provider record, and Application Tab Template record(s)) should be included as part of the solution you create as a third-party provider so that the end user does not need to create these records manually.   
+<!-- Do these need to be completed in this order? If not, change to a bulleted list. -->
 
-## Omnichannel Administration experience for third Party Co-browse/Screen sharing  
 
-We have created a new tab in Chat Widget called **Conversation Options**. Inside of this option, we have a section called **Remote assistance**.  The Omnichannel administrator will have the right to choose whether to enable or disable the third party Co-browse and Screen sharing options per chat widget. If there are no Co-browse/screensharing providers installed in this organization, these two options are disabled like below.
+1. App Tab Template record.  
+2. Conversation Action record. (If you have both co-browse and screen sharing options, you can create two records, one for each.)  
+3. Conversation Action Locale record. (For each conversation action you created, you should have at least one Conversation Action Locale record. The basic language we support is English.) 
+4. Provider record.  
+5. Channel Capability record. (If you have both co-browse and screen sharing options, you can create two records, one for each.) 
 
- ![Omnichannel administration for co-browse feature](../media/co-browse-entity-relationship.png "Omnichannel administration for co-browse feature")
+These records (Conversation Action records, Conversation Action Locale records, Channel Capability records, Provider record, and Application Tab Template records) should be included as part of the solution you create as a third-party provider so that the end user doesn't need to create them manually.   
 
-![No screensharing sessions installed for co-browse feature](../media/no-screensharing-session-co-browse.png "No screensharing sessions installed for co-browse feature")
+## Omnichannel administration experience for third-party co-browse and screen sharing  
+
+We have created a new tab in Chat Widget called **Conversation Options**. Inside of this option is a section called **Remote assistance**.  The Omnichannel administrator will have the right to choose whether to enable or disable the third-party co-browse and screen sharing options per chat widget. If there are no co-browse and screen sharing providers installed in this organization, these two options are disabled as shown here.
+
+> [!div class="mx-imgBorder"]
+> ![Omnichannel administration for co-browse feature](../../media/co-browse-entity-relationship.PNG "Omnichannel administration for co-browse feature")
+
+> [!div class="mx-imgBorder"]
+> ![No screen-sharing sessions installed for co-browse feature](../../media/no-screensharing-session-co-browse.PNG "No screen-sharing sessions installed for co-browse feature")
 
 > [!NOTE]
-> The Co-browse provider and Screen sharing provider are controlled separately.  You can install a Co-browse provider by creating a Co-browse channel capability record with required provider and conversation action data. The same as Screen sharing provider.
+> The co-browse provider and screen sharing provider are controlled separately.  You can install a co-browse provider by creating a co-browse channel capability record with required provider and conversation action data, the same as the screen sharing provider.
+
+
 
 When the organization has been provisioned with both options, that is, it has two different channel capabilities installed. Admin can choose which third party Co-browse provider to use.  Also, it’s admin’s choice whether to disable or enable these options. Here is the screenshot for admin enabled both options and selected the both providers. 
 
