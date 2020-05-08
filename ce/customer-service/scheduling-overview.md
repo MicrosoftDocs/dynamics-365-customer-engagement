@@ -33,7 +33,7 @@ Consider the following pros and cons before deciding to migrate.
 - Schedule boards are not customizable.
 - There isn't a public extended API for supporting Appointment and Recurring Service Appointment features.
 - Legacy customer administrators must run the migration tool and install the Core Service Scheduling package before using URS.
-- You cannot roll back once the migration tool executes.
+- You can't roll back once the migration tool executes.
 
 ## Option #2: Wait for the "UCIfied" Service Scheduling experience in August 2020
 
