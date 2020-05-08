@@ -88,7 +88,7 @@ If you've a contract tied to a single product, follow these steps:
 1. Create an entitlement.
 2. Add only one product in the **PRODUCTS** grid.
 
->  ![Single product contract](media/single-product-contract.png "Single product contract")
+> ![Single product contract](media/single-product-contract.png "Single product contract")
 
 > [!Note]
 > The concept of grouping contract lines for a contract isn't available in entitlements. You need to create separate entitlements for every contract line.
