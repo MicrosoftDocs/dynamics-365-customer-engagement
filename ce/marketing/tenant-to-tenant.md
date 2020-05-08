@@ -32,9 +32,9 @@ search.app:
 >- Portal reset may be required, depending on how the Marketing app is configured on the source instance.
 >- The Marketing app will need to be reinstalled on the destination tenant once migration is complete.
 >- The Marketing app will be upgraded to the latest version that is available at the time of migration.
->- After an instance is moved to another tenant, [the same post-migration requirements](manage-marketing-instances.d#content-of-the-target-instance-after-a-copy-or-restore) apply to a target instance as when an instance is copied or restored.
+>- After an instance is moved to another tenant, [the same post-migration requirements](manage-marketing-instances.md#content-of-the-target-instance-after-a-copy-or-restore) apply to a target instance as when an instance is copied or restored.
 
-Dynamics 365 Marketing supports tenant to tenant migration within the same geo, as [documented for the Dynamics 365 platform](https://docs.microsoft.com/dynamics365/admin/move-instance-tenant). There is no support for [geo to geo migrations](https://docs.microsoft.com/power-platform/admin/geo-to-geo-migrations). 
+Dynamics 365 Marketing supports tenant to tenant migration within the same geo, as [documented for the Dynamics 365 platform](https://docs.microsoft.com/dynamics365/admin/move-instance-tenant). There is no support for [geo to geo migrations](https://docs.microsoft.com/power-platform/admin/geo-to-geo-migrations).
 
 >[!NOTE]
 >Refer to the [International availability guide](https://docs.microsoft.com/dynamics365/get-started/availability) for Dynamics 365 Marketing geo availability.
