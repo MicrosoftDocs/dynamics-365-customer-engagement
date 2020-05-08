@@ -133,7 +133,7 @@ The following commands are available in entitlements:
 
 - The invoiced state in a contract can be mapped to the waiting state in the entitlement.
 - The draft, active, canceled, and expired states are the same for both contracts and entitlements.
-- The onhold state isn't available in entitlements.
+- The on-hold state isn't available in entitlements.
 
 ## Runtime scripts for migrating contracts
 
