@@ -41,12 +41,12 @@ For feature parity, perform the following steps to map the contract templates to
 
 ### Allotment type
 
-The allotment type based on coverage dates in the contracts template, which is used to allow any number of cases to be created between the start date and end date of a contract, is not available in the entitlements template. To enable the same functionality, in the entitlement template, set the value for **Restrict based on entitlements terms** to **No**.
+The allotment type based on coverage dates in the contracts template, which allows to create any number of cases between the start date and end date of a contract, isn't available in the entitlements template. To enable the same functionality, in the entitlement template, set the value for **Restrict based on entitlements terms** to **No**.
 
 A screenshot of the allotment type in the contract template is as follows.
   ![Allotment Type](media/contract-and-entitlement-allocation-type-1.png "Allotment Type")
 
-A screenshot of the entitlement template is as follows,
+A screenshot of the entitlement template is as follows.
 
   ![Entitlement template based on "No restriction"](media/entitlement-template-sample.png  "Entitlement template based on No restriction")
 
@@ -61,7 +61,7 @@ A screenshot of the entitlement template is as follows,
 
 ### Custom fields
 
-You will need to create custom fields in entitlement templates to migrate data from the fields in the contract template that are not available in the entitlement template. Perform the following steps to switch from the contract template and map to the entitlement template:
+Create custom fields in entitlement templates to migrate data from the fields in the contract template that aren't available in the entitlement template. Perform the following steps to switch from the contract template and map to the entitlement template:
 
 1. Create custom fields with attributes on the entitlement template. For more information, see [Create and edit fields (attributes)](/dynamics365/customerengagement/on-premises/customize/create-edit-fields).
 2. Place the created fields on the form as per your business needs. For more information, see [Add a field to a form](/dynamics365/customerengagement/on-premises/customize/add-field-form).
@@ -76,11 +76,11 @@ If you're currently using contracts, you can map to entitlements by following th
 
 ### Things to consider
 
-This section provides information on the functionalities that are different between contracts and entitlements and need to be considered when you are migrating the contracts records to entitlements.
+This section provides information on the functionalities that are different between contracts and entitlements and need to be considered in the migration process.
 
 #### Single product contract
 
-If you have a contract tied to a single product, follow these steps:
+If you've a contract tied to a single product, follow these steps:
 
 1. Create an entitlement.
 2. Add only one product in the **PRODUCTS** grid.
@@ -88,7 +88,7 @@ If you have a contract tied to a single product, follow these steps:
 >  ![Single product contract](media/single-product-contract.png "Single product contract")
 
 > [!Note]
-> The concept of grouping contract lines for a contract is not available in entitlements. You need to create separate entitlements for every contract line.
+> The concept of grouping contract lines for a contract isn't available in entitlements. You need to create separate entitlements for every contract line.
 
 #### Contract and entitlement cancellation
 
@@ -108,7 +108,7 @@ An entitlement can be canceled only immediately; you can't set a date to cancel 
 
 #### Billing unit in contracts
 
-Billing unit is not available in entitlements. To achieve this in entitlement, use custom logic.
+Billing unit isn't available in entitlements. To achieve this capability in entitlement, use custom logic.
 
 For simple rollups, use rollup fields. For more information, see [rollup fields](/dynamics365/customerengagement/on-premises/customize/define-rollup-fields).
 
@@ -130,7 +130,7 @@ The following commands are available in entitlements:
 
 - The invoiced state in a contract can be mapped to the waiting state in the entitlement.
 - The draft, active, canceled, and expired states are the same for both contracts and entitlements.
-- The onhold state is not available in entitlements.
+- The onhold state isn't available in entitlements.
 
 ## Runtime scripts for migrating contracts
 
