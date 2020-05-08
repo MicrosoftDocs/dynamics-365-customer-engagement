@@ -16,7 +16,7 @@ applies_to:
 
 ## Upcoming changes to the Service Scheduling experience
 
-As previously announced, the legacy service scheduling experience is currently being deprecated, inline with the expected Unified Interface transition date of 12/01/2020. More information: [Legacy web client is deprecated](https://docs.microsoft.com/power-platform/important-changes-coming#legacy-web-client-is-deprecated). Because of this change, there are currently two approaches you can take to transition to a new scheduling experience. 
+As previously announced, the legacy service scheduling experience is currently being deprecated, aligned with the expected Unified Interface transition date of 12/01/2020. More information: [Legacy web client is deprecated](https://docs.microsoft.com/power-platform/important-changes-coming#legacy-web-client-is-deprecated). Because of this change, there are currently two approaches you can take to transition to a new scheduling experience. 
 
 ### Option #1: Migrate to the Core Service Scheduling experience
 
