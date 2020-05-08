@@ -33,7 +33,8 @@ Co-browse and screen sharing are enabled within Omnichannel Add-in for Dynamics 
 
 To enable third-party co-browse and screen sharing, the Omnichannel for Customer Service application has added an extensibility system to support this feature. In this system, a few entities have been added to the Omnichannel for Customer Service solution, and third-party co-browse and screen sharing providers should use these entities to enable their co-browse and screen sharing feature in the Omnichannel for Customer Service framework. The following graph explains the basic entity relationships that support the third-party co-browse and screen sharing feature.
 
-![Entity relationships for co-browse feature](../../media/co-browse-entity-relationship.PNG "Entity relationships for co-browse feature")
+> [!div class="mx-imgBorder"]
+> ![Entity relationships for co-browse feature](../../media/co-browse-entity-relationship.PNG "Entity relationships for co-browse feature")
 
 Not all the above fields are required to be filled in for third-party co-browse and screen sharing providers.  For version 1.0, ISVs are supported to bring their co-browse and screen sharing feature into Omnichannel for Customer Service by enabling a button in the agent’s chat widget.  When a user selects this button, it opens an app tab within Omnichannel for Customer Service with the ISV's application website. To enable this button, ISVs need to bring the required data with their co-browse and screen sharing solutions.
 
@@ -50,7 +51,7 @@ The following section lists the required entity data needed to support this feat
   - Order (Used to determine the positions for conversation actions. Admin can edit. Smallest number comes first.) 
   - Icon (A web resource URL that links to the button icon.) 
 
-  **Fields classification and usage**
+  **Fields classification and usage**:
   - This is the entity to store the action button metadata that is visible on the conversation control.  
   - Localized fields from relationships to Locale entity (label, tooltip, slash command) will be a subgrid in this conversation action form.  
   - Label, Order, Tooltip, Icon are used for rendering the button in the UI. Slash commands are used by agents to trigger conversation actions by typing the slash command in the chat box.   
@@ -83,7 +84,7 @@ The following section lists the required entity data needed to support this feat
   
   The capability that a channel can enable, such as co-browse and screen sharing.  
 
-  **Fields**  
+  **Fields**:  
   - Name (provider_channelcapability relationship name)  
   - Escalation Channel Mode (Co-browse, Screen Sharing, Audio, Video, or None. For third-party co-browse and screen sharing providers, use “Co-browse” or “Screen Sharing”.)  
   - Provider (FK to Provider entity)  
@@ -101,42 +102,46 @@ One provider can bring several channel capabilities, but for one Convers
 | ISV_cobrowse | ISV | Co-browse | CA2 |
 
   
-## UI Rendering for the third party Co-browse and Screen sharing button 
+## UI rendering for the third-party co-browse and screen sharing button 
 
-Label, Order, Tooltip, Icon are used for rendering button in the UI. Users can also provide a slash command key for their button, but this slash command needs to be unique in the system.  Users need to input this data when bring in their button.   
+Label, Order, Tooltip, and Icon are used for rendering a button in the UI. Users also can provide a slash command key for their button, but the slash command needs to be unique in the system.  Users need to input this data when bringing in their button.   
 
 | Name | Label | Order |  Tooltip |  Slash command | Icon |
 |----|----|----|----|----|----|
 |ISVCobrowse  |ISV Co-browse | 0  | Start a Co-browse session provided by ISV | /cb | /webresource/…/…svg  |
 
-## Event handlers for third party Co-browse and Screen sharing
+## Event handlers for third-party co-browse and screen sharing
 
-For third party Co-browse, ISVs need to input the conversation action data for triggering the “Open App Tab Template” event.  The Event Names are option sets, it can be some predefined Omnichannel event that can be used for most cases, like “Open App Tab Template” or “Send message”.  In third party Co-browse case, it will use “Open App Tab Template” as Event Name and the Event Parameter can be the App Tab Template name. There will be no Web Resources data for this event since App Tab Template framework will handle the web resource.  
+For third-party co-browse, ISVs need to input the conversation action data for triggering the Open App Tab Template event.  The Event Names are option sets. It can be a predefined omnichannel event that can be used for most cases, like Open App Tab Template or Send message.  In a third-party co-browse case, it will use the Open App Tab Template as Event Name and the Event Parameter can be the App Tab Template name. There will be no Web Resources data for this event because the App Tab Template framework will handle the web resource.  
 
 | Name | Event Name | Event Parameter | Capability |   
 | -----| -----| -----| ----- |
 | ISVCobrowse | Open App Tab Template  | ISVAppTabTemplate  | Co-browse  |
 
-## App Tab Template for third-party Co-browse and Screen Sharing 
+## App Tab Template for third-party co-browse and screen sharing 
 
-We encourage our integrated third party Co-browse providers to make their Co-browse and Screen sharing applications inside of an Omnichannel for Customer Service tab. When the agent clicks the **Co-browse** button in the chat widget, it will open this tab.  Inside of this tab, agent can start/end the Co-browse sessions and share the session invitations to customers.  You can include the data in this form inside of your solution.  The manual steps for creating the App Tab Template is as below.
+We encourage our integrated third-party co-browse providers to make their co-browse and screen sharing applications inside of an Omnichannel for Customer Service tab. When the agent selects the **Co-browse** button in the chat widget, it will open this tab.  Inside of this tab, the agent can start and end the co-browse sessions and share the session invitations with customers.  You can include the data in this form inside of your solution.  Here are the manual steps for creating the App Tab Template:
 
-1. Sign into Dynamics 365 Customer Service, and go to **Channel Integration Framework**. 
-2. Go to **Templates** and then click on **Application Tabs**. 
+1. Sign in to Dynamics 365 Customer Service and go to **Channel Integration Framework**. 
+2. Go to **Templates** and then select **Application Tabs**. 
 3. Select **New** to create a channel application tab.
-4. In Application type field, select **webresource**. 
+4. In the Application type field, select **webresource**. 
 
 In the Parameters section, add the web resource URL and query parameters that are required for ISVs to open their web resources. 
 
 webresourcename: <URL path to the web resource>
 
-![Web resource for co-browse feature](../media/web-resource-co-browse.png "Web resource for co-browse feature")
+> [!div class="mx-imgBorder"]
+> ![Web resource for co-browse feature](../../media/web-resource-co-browse.PNG "Web resource for co-browse feature")
 
 There will be a single URL parameter called `data` that will contain a JSON object. This object when decoded and parsed will contain the `conversationId` field. This ID can be used to attach any data back to a conversation.
 
-## Create the third-party Co-browse and screen sharing solution with the required data 
 
-ISVs should bring in all the required data as specified in the [Third-party Co-browse extensibility framework]() section and the [App Tab Template for third-party Co-browse]() section to make this framework work. To summarize the data input requirement for third party providers.  
+
+
+## Create the third-party co-browse and screen sharing solution with the required data 
+
+ISVs should bring in all the required data as specified in the [Third-party co-browse extensibility framework](#Third-party-co-browse-and-screen-sharing-extensibility-framework) section and the [App Tab Template for third-party co-browse](#App-Tab-Template-for-third-party-cobrowse-and-screen-sharing) section to make this framework work. To summarize the data input requirement for third party providers.  
 
 1. App Tab Template record  
 2. Conversation Action record (If you have both Co-browse and screensharing options, you can create two records, one for each)  
