@@ -16,7 +16,7 @@ applies_to:
 
 ## Upcoming changes to the Service Scheduling experience
 
-As previously announced, the legacy service scheduling experience is currently being deprecated, aligned with the expected Unified Interface transition date of 12/01/2020. More information: [Legacy web client is deprecated](https://docs.microsoft.com/power-platform/important-changes-coming#legacy-web-client-is-deprecated). Because of this change, there are currently two approaches you can take to transition to a new scheduling experience. 
+As previously announced, the legacy service scheduling experience is currently being deprecated, in alignment with the expected Unified Interface transition date of 12/01/2020. More information: [Legacy web client is deprecated](https://docs.microsoft.com/power-platform/important-changes-coming#legacy-web-client-is-deprecated). Because of this change, there are currently two approaches you can take to transition to a new scheduling experience. 
 
 ### Option #1: Migrate to the Core Service Scheduling experience
 
@@ -60,3 +60,12 @@ This option is recommended if you are a legacy service scheduling user who is bl
 ### Summary of migration options
 
 The following table summarizes both options: 
+
+| Customer | URS option | "UCIfied" option | User action items | Gaps/issues |
+|----------------------|-------------------------|-----------------------------|-----------------------------|-----------------------------|
+| New Customer Service user | X | | None. Core Service Scheduling is auto-installed with Customer Service Hub | No support of Appointment, Recurring Service Appointment, or user preference-selection. |
+| Legacy user who has already migrated to UC | X | |  Run migration tool. | No support of Appointment, Recurring Service Appointment, or user preference-selection. |
+| Legacy user who hasn't migrated to UC and is **not blocked** by the absence of identified features | Recommended for alignment with product direction. | |  Run migration tool. | No support of Appointment, Recurring Service Appointment, or user preference-selection. |
+| Legacy user who is **blocked** by the absence of identified features |  | X | Wait until Early Access release in August 2020 to switch to the UCIfied experience via admin opt-in. | No interoperability between the Schedule Board and the UCIfied Service calendar. |
+| User who has a custom UI that calls the legacy API and doesn't have the time and/or resources to migrate to URS, or is **blocked** from migration by missing features | | X | None. | No gaps in the short term, but migration to URS will eventually be mandatory. |
+
