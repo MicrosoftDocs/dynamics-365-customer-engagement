@@ -62,7 +62,6 @@ This option is recommended if you are a legacy service scheduling user who is bl
 The following table summarizes user scenarios, action items, and gaps or issues with for both migration options: 
 
 | Customer | URS option | "UCIfied" option | User action items | Gaps/issues |
-|----------------------|-------------------------|-----------------------------|-----------------------------|-----------------------------|
 | :---         |     :---:      |     :---:      | :---         | :---         |
 | New Customer Service user | X | | None. Core Service Scheduling is auto-installed with Customer Service Hub | No support of Appointment, Recurring Service Appointment, or user preference-selection. |
 | Legacy user who has already migrated to UC | X | |  Run the [migration tool](introduction-migration-entity-records.md). | No support of Appointment, Recurring Service Appointment, or user preference-selection. |
