@@ -44,10 +44,11 @@ For feature parity, perform the tasks mentioned in the following sections to map
 The allotment type based on coverage dates in the contracts template, which allows to create any number of cases between the start date and end date of a contract, isn't available in the entitlements template. To enable the same functionality, in the entitlement template, set the value for **Restrict based on entitlements terms** to **No**.
 
 A screenshot of the allotment type in the contract template is as follows.
+  [!div class=mx-imgBorder]
   ![Allotment Type](media/contract-and-entitlement-allocation-type-1.png "Allotment Type")
 
 A screenshot of the entitlement template is as follows.
-
+  [!div class=mx-imgBorder]
   ![Entitlement template based on "No restriction"](media/entitlement-template-sample.png  "Entitlement template based on No restriction")
 
 After an entitlement is created from the entitlement template, add custom code to copy the custom fields added on entitlement for parity with contract lines.
