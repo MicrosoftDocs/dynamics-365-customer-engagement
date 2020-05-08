@@ -73,7 +73,7 @@ OP2OL users who use legacy service scheduling will need to either migrate to URS
 
 Users who migrate to URS will have enabled the Appointment entity as bookable in URS, therefore making the appointment bookings visible on the schedule board and part of the resource availability. Although this is doable, be aware of the following (and this list may not be all-inclusive):
 
-- This capability will eventually be deprecated, likely aligning with the long-term URS strategy for service scheduling (the timeline for which is currently TBD in 2021) 
+- This capability will eventually be deprecated, likely aligning with the long-term URS strategy for service scheduling (the timeline for which is currently TBD in 2021).
 
 - When an appointment is created, a corresponding booking record is automatically created for the Required Attendees and the Owner as long as they are set up as bookable resources. 
 
