@@ -1,5 +1,5 @@
 ---
-title: MICROSOFT SOFTWARE LICENSE TERMS MICROSOFT POWER AUTOMATE
+title: Apps for Power Platform Terms of Use 
 author: MSFTMan
 ---
 
