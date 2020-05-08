@@ -121,7 +121,7 @@ The following commands have been deprecated in entitlements:
 
 - **Copy Contract:** To clone the contract.
 - **Recalculate:** To recalculate the billing rollup.
-- **Onhold:** To hold the contract.
+- **Hold Contract:** To hold the contract.
 - **Release Hold:** To release the on-hold contract.
 
 The following commands are available in entitlements:
