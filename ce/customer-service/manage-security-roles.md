@@ -36,13 +36,13 @@ The following standard security roles are leveraged in service scheduling:
    - Organizational Units
    - Business Closure
 
-   However, to ensure that all Scheduler Managers are able to set up the new scheduling experience and access the new scheduling entities, they should also be assigned the **Customer Service Scheduler** and **Scheduler** roles.
+   However, to ensure that all Scheduler Managers are able to set up the new scheduling experience and access the new scheduling entities, they should also be assigned the **Customer Service Schedule Administrator** and **Schedule Manager** roles.
 
    To learn more about how to create users and assign roles to them, see [Create users and assign security roles](../admin/create-users-assign-online-security-roles.md). 
 
 - **Scheduler**. This role can create and schedule service activities. 
 
-  To ensure that all Scheduler users are able to schedule services using the new scheduling experience, they should also be assigned the **Customer Service Scheduler** and **Scheduler Manager** roles. 
+  To ensure that all Scheduler users are able to schedule services using the new scheduling experience, they should also be assigned the **Customer Service Scheduler** and **Scheduler** roles. 
 
  
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security roles and privileges](../admin/security-roles-privileges.md)
