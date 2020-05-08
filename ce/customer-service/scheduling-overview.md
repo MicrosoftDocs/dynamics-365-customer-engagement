@@ -37,7 +37,7 @@ Consider the following pros and cons before deciding to migrate.
 
 ## Option #2: Wait for the "UCIfied" Service Scheduling experience in August 2020
 
-If you are blocked by the absence of the features outlined above, we are offering an incremental option to wait for a “UCIfied” Service Scheduling experience. “UCIfied” means that the product team will update the existing service scheduling experience for Unified Interface while continuing to use the legacy APIs. The timeline for the UCIfied scheduling experience is 2020 Release Wave 2, with Early Access available in August. Before this date, you would use legacy service scheduling. More information: [.
+If you are blocked by the absence of the features outlined above, we are offering an incremental option to wait for a “UCIfied” Service Scheduling experience. “UCIfied” means that the product team will update the existing service scheduling experience for Unified Interface while continuing to use the legacy APIs. The timeline for the UCIfied scheduling experience is 2020 Release Wave 2, with Early Access available in August. Before this date, you would use legacy service scheduling. More information: [(Legacy Service Scheduling](../customer-service/legacy-scheduling.md).
 
 This option is recommended if you are a legacy service scheduling user who is blocked by absence of certain features in URS, or if you are facing COVID-19-related capacity constraints that hinder your ability to migrate to URS. 
 
