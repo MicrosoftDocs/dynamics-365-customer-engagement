@@ -106,7 +106,7 @@
 ### [Security roles for Connected Customer Service](cs-iot-security-roles.md)
 
 ## Service Scheduling Guide
-### [Overview](overview-service-scheduling)
+### [Overview](scheduling-overview.md)
 
 ### Service Scheduling
 #### [Understand Service Scheduling](basics-service-service-scheduling.md)
