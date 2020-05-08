@@ -37,7 +37,7 @@ The process of migrating contracts to entitlements is as follows:
 
 ## Mapping: Contract templates to entitlement templates
 
-For feature parity, perform the following steps to map the contract templates to the entitlement templates.
+For feature parity, perform the tasks mentioned in the following sections to map the contract templates to the entitlement templates.
 
 ### Allotment type
 
@@ -50,8 +50,10 @@ A screenshot of the entitlement template is as follows.
 
   ![Entitlement template based on "No restriction"](media/entitlement-template-sample.png  "Entitlement template based on No restriction")
 
+After an entitlement is created from the entitlement template, add custom code to copy the custom fields added on entitlement for parity with contract lines.
+
 > [!Note]
-> After an entitlement is created from the entitlement template, add custom code to copy the custom fields added on entitlement for parity with contract lines.
+>
 > The calendar option in the contracts template is not available in the entitlements template.
 
 **Benefits in entitlement**
