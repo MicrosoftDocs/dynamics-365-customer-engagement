@@ -26,7 +26,7 @@ Consider the following pros and cons before deciding to migrate.
 
 #### Pros of migrating to the core Service Scheduling experience:
 - It aligns with the URS long-term strategy.
-- Scheduling interoperability is available across Customer Service, Field Service, and Project Service Automation applications/
+- Scheduling interoperability is available across Customer Service, Field Service, and Project Service Automation applications.
 
 #### Cons of migrating to the core Service Scheduling experience:
 - Appointment, Recurring Service Appointment, and Customer preferred selection are not supported.
