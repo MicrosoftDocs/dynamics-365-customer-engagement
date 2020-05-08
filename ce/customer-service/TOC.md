@@ -135,7 +135,7 @@
 ### Service Scheduling Developer Guide
 #### [Search Resource Availability and Create Bookings](universal-resource-scheduling.md)
 
-### Legacy Service Scheduling (Customer Service app)
+### [Legacy Service Scheduling (Customer Service app)](legacy-scheduling.md)
 #### [Set up business closure](set-when-business-closed-cs-app.md)
 #### [Set work hours to define availability](set-work-hours-resource.md)
 #### [Create or change a service](create-edit-service-cs-app.md)
