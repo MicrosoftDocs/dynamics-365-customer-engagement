@@ -137,7 +137,7 @@ The following commands are available in entitlements:
 After making sure that all aspects of feature parity for records in contracts are available in entitlements, perform the following steps to migrate from contracts to entitlements:
 
 1. Move the contract and contract lines to entitlements.
-2. Run update script to update entitlements on a case instead of contracts.
+2. Run update scripts to update entitlements on a case instead of contracts.
 
 For business requirements, if a resolved case needs to be updated, perform the following steps:
 
@@ -148,7 +148,7 @@ For business requirements, if a resolved case needs to be updated, perform the f
 > [!IMPORTANT]
 > In contracts and contract lines, the contract lines can be associated with a product that is different from the one listed in a case. However, in entitlements, the product listed in a case should match the product listed in the entitlement.
 >
-> **Example**: Contract lines associated with the product Armband 100 can be associated in the case list that is linked to another product, Armband 150. However, in entitlements, an error will occur when you link an entitlement associated with a product, Armband 100, with a case linked to Armband 150.
+> **Example**: The contract lines associated with the product Armband 100 can be associated in the case list that is linked to another product, Armband 150. However, in entitlements, an error will occur when you link an entitlement associated with a product, Armband 100, with a case linked to Armband 150.
 
 ### See also
 
