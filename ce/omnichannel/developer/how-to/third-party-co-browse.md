@@ -16,9 +16,9 @@ ms.topic: reference
 
 # Enable third-party co-browse and screen sharing
 
-Co-browse and screen sharing are escalation channels in the Chat channel of Microsoft Dynamics 365. A co-browse or screen sharing escalation channel allows your organization’s agents to start a co-browse or screen sharing session with customers. Using co-browse, agents can see and interact with a customer’s web browser. Using screen sharing, agents can see and interact with the customer’s current screen. This provides customers with an extra option to connect to an agent who can efficiently troubleshoot issues in real time.
+Co-browse and screen sharing are escalation channels in the Chat channel of Microsoft Dynamics 365. A co-browse or screen-sharing escalation channel allows your organization’s agents to start a co-browse or screen-sharing session with customers. Using co-browse, agents can see and interact with a customer’s web browser. Using screen sharing, agents can see and interact with the customer’s current screen. This provides customers with an extra option to connect to an agent who can efficiently troubleshoot issues in real time.
 
-Co-browse and screen sharing are enabled within Omnichannel Add-in for Dynamics 365 Customer Service chat channel by integration with third-party solutions.  Extensibility is provided to enable any providers to onboard their co-browse and screen sharing solution to Omnichannel for Customer Service.
+Co-browse and screen sharing are enabled within Omnichannel Add-in for Dynamics 365 Customer Service chat channel by integration with third-party solutions.  Extensibility is provided to enable any providers to onboard their co-browse and screen-sharing solution to Omnichannel for Customer Service.
 
 ## Prerequisites
 
@@ -29,14 +29,14 @@ Co-browse and screen sharing are enabled within Omnichannel Add-in for Dynamics 
 - An active chat subscription. 
 - Updated Omnichannel base and Omnichannel chat solution with third-party co-browse externalities enabled.
 
-## Third-party co-browse and screen sharing extensibility framework
+## Third-party co-browse and screen-sharing extensibility framework
 
-To enable third-party co-browse and screen sharing, the Omnichannel for Customer Service application has added an extensibility system to support this feature. In this system, a few entities have been added to the Omnichannel for Customer Service solution, and third-party co-browse and screen sharing providers should use these entities to enable their co-browse and screen sharing feature in the Omnichannel for Customer Service framework. The following graph explains the basic entity relationships that support the third-party co-browse and screen sharing feature.
+To enable third-party co-browse and screen sharing, the Omnichannel for Customer Service application has added an extensibility system to support this feature. In this system, a few entities have been added to the Omnichannel for Customer Service solution, and third-party co-browse and screen-sharing providers should use these entities to enable their co-browse and screen-sharing feature in the Omnichannel for Customer Service framework. The following graph explains the basic entity relationships that support the third-party co-browse and screen-sharing feature.
 
 > [!div class="mx-imgBorder"]
 > ![Entity relationships for co-browse feature](../../media/co-browse-entity-relationship.PNG "Entity relationships for co-browse feature")
 
-Not all the above fields are required to be filled in for third-party co-browse and screen sharing providers.  For version 1.0, ISVs are supported to bring their co-browse and screen sharing feature into Omnichannel for Customer Service by enabling a button in the agent’s chat widget.  When a user selects this button, it opens an app tab within Omnichannel for Customer Service with the ISV's application website. To enable this button, ISVs need to bring the required data with their co-browse and screen sharing solutions.
+Not all the above fields are required to be filled in for third-party co-browse and screen-sharing providers.  For version 1.0, ISVs are supported to bring their co-browse and screen-sharing feature into Omnichannel for Customer Service by enabling a button in the agent’s chat widget.  When a user selects this button, it opens an app tab within Omnichannel for Customer Service with the ISV's application website. To enable this button, ISVs need to bring the required data with their co-browse and screen-sharing solutions.
 
 The following section lists the required entity data needed to support this feature. 
 
@@ -46,8 +46,8 @@ The following section lists the required entity data needed to support this feat
   
   **Fields**:  
   - Name (This is an identifier name for your button.) 
-  - Event Name (Option set: Open App Tab Template, Send message, Customer Defined function. For third-party co-browse/screen sharing feature, input “Open App Tab  Template”.) 
-  - Event Parameter (For the third-party co-browse/screen sharing button, put the App Tab Template name here.) 
+  - Event Name (Option set: Open App Tab Template, Send message, Customer Defined function. For third-party co-browse/screen-sharing feature, input **Open App Tab Template**.) 
+  - Event Parameter (For the third-party co-browse/screen-sharing button, put the App Tab Template name here.) 
   - Order (Used to determine the positions for conversation actions. Admin can edit. Smallest number comes first.) 
   - Icon (A web resource URL that links to the button icon.) 
 
@@ -86,9 +86,9 @@ The following section lists the required entity data needed to support this feat
 
   **Fields**:  
   - Name (provider_channelcapability relationship name)  
-  - Escalation Channel Mode (Co-browse, Screen Sharing, Audio, Video, or None. For third-party co-browse and screen sharing providers, use “Co-browse” or “Screen Sharing”.)  
+  - Escalation Channel Mode (Co-browse, Screen Sharing, Audio, Video, or None. For third-party co-browse and screen-sharing providers, use “Co-browse” or “Screen Sharing”.)  
   - Provider (FK to Provider entity)  
-  - Conversation Actions (A lookup field for conversation actions. If there is no button created for a certain capability, then it can be empty. For the third-party co-browse and screen sharing feature, link the channel capability to a conversation action record.  
+  - Conversation Actions (A lookup field for conversation actions. If there is no button created for a certain capability, then it can be empty. For the third-party co-browse and screen-sharing feature, link the channel capability to a conversation action record.  
 
  **Fields classification and usage**
  
@@ -102,7 +102,7 @@ One provider can bring several channel capabilities, but for one Convers
 | ISV_cobrowse | ISV | Co-browse | CA2 |
 
   
-## UI rendering for the third-party co-browse and screen sharing button 
+## UI rendering for the third-party co-browse and screen-sharing button 
 
 Label, Order, Tooltip, and Icon are used for rendering a button in the UI. Users also can provide a slash command key for their button, but the slash command needs to be unique in the system.  Users need to input this data when bringing in their button.   
 
@@ -120,7 +120,7 @@ For third-party co-browse, ISVs need to input the conversation action data for t
 
 ## App Tab Template for third-party co-browse and screen sharing 
 
-We encourage our integrated third-party co-browse providers to make their co-browse and screen sharing applications inside of an Omnichannel for Customer Service tab. When the agent selects the **Co-browse** button in the chat widget, it will open this tab.  Inside of this tab, the agent can start and end the co-browse sessions and share the session invitations with customers.  You can include the data in this form inside of your solution.  Here are the manual steps for creating the App Tab Template:
+We encourage our integrated third-party co-browse providers to make their co-browse and screen-sharing applications inside of an Omnichannel for Customer Service tab. When the agent selects the **Co-browse** button in the chat widget, it will open this tab.  Inside of this tab, the agent can start and end the co-browse sessions and share the session invitations with customers.  You can include the data in this form inside of your solution.  Here are the manual steps for creating the App Tab Template:
 
 1. Sign in to Dynamics 365 Customer Service and go to **Channel Integration Framework**. 
 2. Go to **Templates** and then select **Application Tabs**. 
@@ -138,26 +138,27 @@ There will be a single URL parameter called `data` that will contain a JSON obje
 
 
 
-## Create the third-party co-browse and screen sharing solution with the required data 
+## Create the third-party co-browse and screen-sharing solution with the required data 
 
 ISVs should bring in all the required data as specified in the [Third-party co-browse extensibility framework]() section and the [App Tab Template for third-party co-browse]() section to make this framework work. 
 
 Here are the data input requirements for third-party providers:  
 
+
 <!-- Do these need to be completed in this order? If not, change to a bulleted list. -->
 
 
 1. App Tab Template record.  
-2. Conversation Action record. (If you have both co-browse and screen sharing options, you can create two records, one for each.)  
+2. Conversation Action record. (If you have both co-browse and screen-sharing options, you can create two records, one for each.)  
 3. Conversation Action Locale record. (For each conversation action you created, you should have at least one Conversation Action Locale record. The basic language we support is English.) 
 4. Provider record.  
-5. Channel Capability record. (If you have both co-browse and screen sharing options, you can create two records, one for each.) 
+5. Channel Capability record. (If you have both co-browse and screen-sharing options, you can create two records, one for each.) 
 
 These records (Conversation Action records, Conversation Action Locale records, Channel Capability records, Provider record, and Application Tab Template records) should be included as part of the solution you create as a third-party provider so that the end user doesn't need to create them manually.   
 
 ## Omnichannel administration experience for third-party co-browse and screen sharing  
 
-We have created a new tab in Chat Widget called **Conversation Options**. Inside of this option is a section called **Remote assistance**.  The Omnichannel administrator will have the right to choose whether to enable or disable the third-party co-browse and screen sharing options per chat widget. If there are no co-browse and screen sharing providers installed in this organization, these two options are disabled as shown here.
+We have created a new tab in Chat Widget called **Conversation Options**. Inside of this option is a section called **Remote assistance**.  The Omnichannel administrator will have the right to choose whether to enable or disable the third-party co-browse and screen-sharing options per chat widget. If there are no co-browse and screen-sharing providers installed in this organization, these two options are disabled as shown here.
 
 
 
@@ -171,7 +172,7 @@ We have created a new tab in Chat Widget called **Conversation Options**. Inside
 > ![No screen-sharing sessions installed for co-browse feature](../../media/no-screensharing-session-co-browse.PNG "No screen-sharing sessions installed for co-browse feature")
 
 > [!NOTE]
-> The co-browse provider and screen sharing provider are controlled separately.  You can install a co-browse provider by creating a co-browse channel capability record with required provider and conversation action data, the same as the screen sharing provider.
+> The co-browse provider and screen-sharing provider are controlled separately.  You can install a co-browse provider by creating a co-browse channel capability record with required provider and conversation action data, the same as the screen-sharing provider.
 
 When the organization has been provisioned with both options—that is, when it has two different channel capabilities installed—the admin can choose which third-party co-browse provider to use.  Also, it’s the admin’s choice whether to disable or enable these options. Here is the screenshot for admin enabled both options and selected the both providers. 
 
@@ -184,36 +185,47 @@ When the organization has been provisioned with both options—that is, when it 
 
 
 
+## Co-browse and screen-sharing button rendering in the agent chat widget 
+
+When a co-browse and screen-sharing button is defined, it will be rendered at the top of the conversation control as shown here.
 
 
-## Co-browse and Screen sharing button rendering in the agent Chat Widget 
 
-When a Co-browse and Screen sharing button is defined, it will be rendered at the top of the conversation control as shown below.
+<!-- Is it correct that the alt text and hover text below are different? -->
+
 
 > [!div class="mx-imgBorder"]
-> ![Screen sharing button rendering in chat widget](../../media/chat-widget-co-browse.PNG "Screen sharing button rendering for co-browse feature")
+> ![Screen-sharing button rendering in chat widget](../../media/chat-widget-co-browse.PNG "Screen-sharing button rendering for co-browse feature")
 
-## Omnichannel session services and data flow for third party Co-browse and Screen sharing
+## Omnichannel session services and data flow for third-party co-browse and screen sharing
 
-When agent clicks on the button for Co-browse or screensharing, it triggers the application tab inside of the Omnichannel service. Omnichannel will handle the events as escalation channels event type. Omnichannel internal services will update the status for current session events.  
 
-After the third-party applications take over, all data will be handled by third party application server.  Please see the following graph for integration data flow.   
+<!-- Does omnichannel in the following paragraph mean Omnichannel for Customer Service? If yes, use that name; if just a generic reference, omnichannel is lowercase. -->
+
+
+When an agent selects the button for co-browse or screen sharing, it triggers the application tab inside of the Omnichannel service. Omnichannel will handle the events as escalation channels event type. Omnichannel internal services will update the status for current session events.  
+
+After the third-party applications take over, all data will be handled by a third-party application server. See the following graph for the integration data flow.   
+
+
+<!-- In the following graphic, please change the box that says "Third Party provider takeover the seesion" to "Third-party provider takes over the session." -->
+
 
 > [!div class="mx-imgBorder"]
 > ![Data flow for co-browse](../../media/data-flow-co-browse.PNG "Data flow for co-browse")
 
-Some important events liking starting or ending session events should be reported to Omnichannel service, so the overall service will know the status of the current agent. We provider the third-party providers this framework, it third party providers’ responsibility to implement in their codebase. The next section will explain the details on how to implement it. 
+Some important events, such as starting or ending session events, should be reported to the Omnichannel service, so the overall service knows the status of the current agent. We provide third-party providers with this framework. It is the third-party providers’ responsibility to implement it in their codebase. The next section provides details on how to implement it. 
 
 ## Events expected from the third-party application 
 
-The third-party application is expected to send events notifying Omnichannel for Customer Service of different milestones in the Co-browse/Screen sharing session. Currently, these events are as follows: 
+The third-party application is expected to send events notifying Omnichannel for Customer Service of different milestones in the co-browse and screen-sharing session. Currently, these events are as follows: 
 
-- CobrowseConnectedEvent (on connection of the Co-browse session) 
-- CobrowseEndedEvent (on end of the Co-browse session) 
-- ScreenShareConnectedEvent (on connection of the Screen sharing session) 
-- ScreenShareEndedEvent (on end of the Screen sharing session) 
+- CobrowseConnectedEvent (on connection of the co-browse session) 
+- CobrowseEndedEvent (on end of the co-browse session) 
+- ScreenShareConnectedEvent (on connection of the screen-sharing session) 
+- ScreenShareEndedEvent (on end of the screen-sharing session) 
 
-The events need to be dispatched within the third party web resource to the `window.top` element.
+The events need to be dispatched within the third-party web resource to the `window.top` element.
 
  ```javascript
   function triggerCobrowseStart() {
@@ -247,15 +259,15 @@ function triggerCobrowseStop() {
 </body>
 ```
 
-## Provisioning and Deprovisioning requirements 
+## Provisioning and deprovisioning requirements 
 
-To provision the third party Co-browse/Screen sharing solution for our customers, ISVs should provider a solution with the required data. When customers install the solution, no or minimal manual steps are required for customers to enable the Co-browse/Screen sharing feature. We require ISVs to be responsible for the data they created, followed our guidance as required.  
+To provision the third-party co-browse and screen-sharing solution for our customers, ISVs should provide a solution with the required data. When customers install the solution, minimal or no manual steps are required of them to enable the co-browse and screen-sharing feature. We require ISVs to be responsible for the data they created and to follow our guidance as required.  
 
-To deprovision the third party Co-browse/Screen sharing solution for our customers, ISVs should remove the solution along with the data created with this framework. There shouldn’t be any existing legacy data or code remaining in that org after deprovisioning.   
+To deprovision the third-party co-browse and screen-sharing solution for our customers, ISVs should remove the solution along with the data created with this framework. There shouldn’t be any existing legacy data or code remaining in that org after deprovisioning.   
 
 ## Publishing strategy
 
-Here are the links for publishing the application to AppSource 
+The following are links for publishing the application to AppSource: 
 
 [AppSource onboarding](https://appsource.microsoft.com)
 
@@ -267,13 +279,13 @@ Here are the links for publishing the application to AppSource
 
 [Agreement PDF](http://aka.ms/bizappsisvaddendum) 
 
-[Policies PDF(Includes benefit table)](http://aka.ms/bizappsisvpolicies)
+[Policies PDF (Includes benefit table)](http://aka.ms/bizappsisvpolicies)
 
 [Program page on partner.microsoft.com site with links to certificate info](http://aka.ms/bizappsisvweb)
 
 [Customer/partner support](http://aka.ms/marketplacepublishersupport)
  
-## Third Party providers responsibility and data disclaimer 
+## Third-party providers responsibility and data disclaimer 
 
-Please ensure to publish the privacy policy link to AppSource for security and privacy protection of the personal information that would be processed, and providing a compliant approach to data protection. 
+Be sure to publish the privacy policy link to AppSource for security and privacy protection of the personal information that would be processed, and provide a compliant approach to data protection. 
 
