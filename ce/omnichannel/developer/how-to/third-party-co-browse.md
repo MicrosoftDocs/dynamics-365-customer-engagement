@@ -1,5 +1,5 @@
 ---
-title: "Enable third party co-browse and screen sharing | Microsoft Docs"
+title: "Enable third-party co-browse and screen sharing | Microsoft Docs"
 description: ""
 author: susikka
 ms.author: susikka
@@ -9,22 +9,31 @@ ms.service:
   - "dynamics-365-customerservice"
 ms.topic: reference
 ---
-# Enable third party co-browse and screen sharing
 
-Co-browse and screen sharing are escalation channels in the Chat channel of Microsoft Dynamics 365. A co-browse or screen sharing escalation channel allows your organization’s agents to start a Co-browse or screen sharing session with customers. Using Co-browse, agents can see and interact with a customer’s web browser. Using screen sharing, agents can see and interact with the customer’s current screen. This provides customers with an extra option to connect to an agent who can efficiently troubleshoot issues in real time.
 
-Co-browse and screen sharing are enabled within Omnichannel for Customer Service chat channel by integration with third-party solutions.  Extensibility is provided to enable any providers to onboard their Co-browse and screen sharing solution to Omnichannel for Customer Service.
+<!-- Is there a reason to capitalize "co-browse" other than when it begins a sentence? At first it's not capitalized, but later it is. I'm going to make it lowercase for consistency. -->
+
+
+# Enable third-party co-browse and screen sharing
+
+Co-browse and screen sharing are escalation channels in the Chat channel of Microsoft Dynamics 365. A co-browse or screen sharing escalation channel allows your organization’s agents to start a co-browse or screen sharing session with customers. Using co-browse, agents can see and interact with a customer’s web browser. Using screen sharing, agents can see and interact with the customer’s current screen. This provides customers with an extra option to connect to an agent who can efficiently troubleshoot issues in real time.
+
+Co-browse and screen sharing are enabled within Omnichannel Add-in for Dynamics 365 Customer Service chat channel by integration with third-party solutions.  Extensibility is provided to enable any providers to onboard their co-browse and screen sharing solution to Omnichannel for Customer Service.
 
 ## Prerequisites
 
-- An active chat subscription 
-- Updated Omnichannel base and Omnichannel chat solution with third-party Co-browse externalities enabled
 
-## Third party Co-browse and Screen sharing extensibility framework
+<!-- Does chat below refer to any chat service, or to Chat for Dynamics 365 Customer Service? Does omnichannel below mean Omnichannel for Customer Service? If yes, it needs to be written that way. -->
 
-To enable third-party Co-browse and screen sharing, the Omnichannel for Customer Service application has added an extensibility system to support this feature. In this system, a few entities have been added to Omnichannel for Customer Service solution, and third-party Co-browse and screen sharing providers should use these entities to enable their Co-browse and screen sharing feature in Omnichannel for Customer Service framework. The following graph explains the basic entity relationships that support the third-party Co-browse and screen sharing feature.
 
-![Entity relationships for co-browse feature](../media/co-browse-entity-relationship.png "Entity relationships for co-browse feature")
+- An active chat subscription. 
+- Updated Omnichannel base and Omnichannel chat solution with third-party co-browse externalities enabled.
+
+## Third-party co-browse and screen sharing extensibility framework
+
+To enable third-party co-browse and screen sharing, the Omnichannel for Customer Service application has added an extensibility system to support this feature. In this system, a few entities have been added to the Omnichannel for Customer Service solution, and third-party co-browse and screen sharing providers should use these entities to enable their co-browse and screen sharing feature in the Omnichannel for Customer Service framework. The following graph explains the basic entity relationships that support the third-party co-browse and screen sharing feature.
+
+![Entity relationships for co-browse feature](../media/co-browse-entity-relationship.PNG "Entity relationships for co-browse feature")
 
 Not all the above fields are required to be filled in for third-party Co-browse and Screen sharing providers.  For version 1.0, ISVs are supported to bring their co-browse and screen sharing feature into Omnichannel for Customer Service by enabling a button in agent’s chat widget.  When a user clicks this button, it will open an app tab within Omnichannel for Customer Service with the ISV's application website. To enable this button, ISVs need to bring the required data with their Co-browse and screen sharing solutions.
 
