@@ -20,7 +20,7 @@ As previously announced, the legacy Service Scheduling experience is currently b
 
 ## Option #1: Migrate to the Core Service Scheduling experience
 
-The established approach is to migrate to the core Service Scheduling experience built on Universal Resource Scheduling (URS). More information: [Service Scheduling Guide](customer-service/basics-service-service-scheduling.md). This option is best if you are a new Customer Service user, have already migrated, or are not otherwise blocked by the absence of the features listed in the [Cons of migrating to the Core Service Scheduling experience](#cons-of-migrating-to-the-core-service-scheduling-experience) section below.
+The established approach is to migrate to the core Service Scheduling experience built on Universal Resource Scheduling (URS). More information: [Service Scheduling Guide](basics-service-service-scheduling.md). This option is best if you are a new Customer Service user, have already migrated, or are not otherwise blocked by the absence of the features listed in the [Cons of migrating to the Core Service Scheduling experience](#cons-of-migrating-to-the-core-service-scheduling-experience) section below.
 
 Consider the following pros and cons before deciding to migrate.
 
