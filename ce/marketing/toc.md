@@ -74,6 +74,7 @@
 #### [Set up form double opt-in](form-double-opt-in.md)
 #### [How the app uses cookies](cookies.md)
 
+### [Best practices for administration](admin-best-practices.md)
 ### [Best practices for email marketing](get-ready-email-marketing.md)
 ### [Email policies and suspension standards](email-policies.md)
 ### [Administration and setup FAQ](setup-troubleshooting.md)
