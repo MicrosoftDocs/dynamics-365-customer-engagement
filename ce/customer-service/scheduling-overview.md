@@ -59,7 +59,7 @@ This option is recommended if you are a legacy service scheduling user who is bl
 
 ### Summary of migration options
 
-The following table summarizes both options: 
+The following table summarizes user scenarios, action items, and gaps or issues with for both migration options: 
 
 | Customer | URS option | "UCIfied" option | User action items | Gaps/issues |
 |----------------------|-------------------------|-----------------------------|-----------------------------|-----------------------------|
