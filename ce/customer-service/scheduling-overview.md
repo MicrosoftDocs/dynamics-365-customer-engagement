@@ -65,7 +65,7 @@ The following table summarizes user scenarios, action items, and gaps or issues 
 | :---         |     :---:      |     :---:      | :---         | :---         |
 | New Customer Service user | X | | None. Core Service Scheduling is auto-installed with Customer Service Hub | No support of Appointment, Recurring Service Appointment, or user preference-selection. |
 | Legacy user who has already migrated to UC | X | |  Run the [migration tool](introduction-migration-entity-records.md). | No support of Appointment, Recurring Service Appointment, or user preference-selection. |
-| Legacy user who hasn't migrated to UC and is **not blocked** by the absence of identified features | :--- Recommended for alignment with product direction. | |  Run the [migration tool](introduction-migration-entity-records.md). | No support of Appointment, Recurring Service Appointment, or user preference-selection. |
+| Legacy user who hasn't migrated to UC and is **not blocked** by the absence of identified features | Recommended for alignment with product direction. | |  Run the [migration tool](introduction-migration-entity-records.md). | No support of Appointment, Recurring Service Appointment, or user preference-selection. |
 | Legacy user who is **blocked** by the absence of identified features |  | X | Wait until Early Access release in August 2020 to switch to the UCIfied experience via admin opt-in. | No interoperability between the Schedule Board and the UCIfied Service calendar. |
 | User who has a custom UI that calls the legacy API and doesn't have the time and/or resources to migrate to URS, or is **blocked** from migration by missing features | | X | None. | No gaps in the short term, but migration to URS will eventually be mandatory. |
 
