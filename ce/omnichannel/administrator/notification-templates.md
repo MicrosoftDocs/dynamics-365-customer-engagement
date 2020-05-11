@@ -58,7 +58,7 @@ Also, as an administrator, you can set the browser notification permission by us
 
 The fields that are shown in the notification are based on the notification template configuration. To learn more, see [Slug for notification field header](#slug-for-notification-field-header) and [Create a notification template](#create-a-notification-template).
 
-## Slugs for notification field header
+## Slug for notification field header
 
 A slug is a replacement parameter that Omnichannel for Customer Service  populates at runtime based on the context variables.
 

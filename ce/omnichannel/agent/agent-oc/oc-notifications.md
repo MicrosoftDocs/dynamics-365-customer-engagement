@@ -88,10 +88,10 @@ The details you'll see for a SMS channel are as configured by your administrator
 
 ### See also
 
-- [View customer summary and know everything about customers](oc-customer-summary.md)
-- [View communication panel](oc-conversation-control.md)
-- [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)
-- [Manage presence status](oc-manage-presence-status.md)
-- [Search for and share knowledge articles](oc-search-knowledge-articles.md)
-- [Take notes specific to conversation](oc-take-notes.md)
-- [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
+[View customer summary and know everything about customers](oc-customer-summary.md)   
+[View communication panel](oc-conversation-control.md)  
+[Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)  
+[Manage presence status](oc-manage-presence-status.md)  
+[Search for and share knowledge articles](oc-search-knowledge-articles.md)  
+[Take notes specific to conversation](oc-take-notes.md)  
+[View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)  
