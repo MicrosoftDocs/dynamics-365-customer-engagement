@@ -41,7 +41,7 @@ When your admin has [enabled mobile offline](setup-mobile-offline-for-admin.md
     > ![Download updates on your mobile device for mobile offline](media/DownloadUpdates.png "Download updates on your mobile device for mobile offline")
 
     > [!NOTE]
-    > If you choose **Skip for now**, you will not be able to use the app in offline mode until you [manually download the updates](https://docs.microsoft.com/dynamics365/mobile-app/work-in-offline-mode#manually-download-updates). 
+    > If you choose **Skip for now**, you will not be able to use the app in offline mode until you manually download the updates. 
 
 2. Offline data starts to download in the background. Do not close the app or disconnect from the internet until the download is complete. 
 
@@ -52,25 +52,12 @@ When your admin has [enabled mobile offline](setup-mobile-offline-for-admin.md
 
    > [!div class="mx-imgBorder"] 
    > ![Download updates complete](media/mobile_offline_download_updates_complete_1.png "Download updates complete")
-
-### Manually download updates
-
-1. From the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Offline Status**.
-
-    > [!div class="mx-imgBorder"] 
-    > ![Manually download updates](media/downloadupdates_1.png "Manually download updates")
-
-2. Select **Download Customizations** to download the updates.
-
-    > [!div class="mx-imgBorder"] 
-    > ![Download Customization](media/DownloadCustomization.png "Download Customization")
-
-3. Offline data automatically starts to download in the background. Once it's complete, you will get a notification letting you know the download is complete.
+   
+4. To switch to offline mode, set the **Work in offline mode** toggle to On.
 
    > [!div class="mx-imgBorder"] 
-   > ![Download updates complete](media/mobile_offline_download_updates_complete.png "Download updates complete")
-   
-When you open the app, offline data is automatically updated and you can start using the app in offline mode.
+   > ![Work in offline mode](media/set_offline_toggle.png "Set toggle to work in offline mode")
+
 
 ## See if offline mode is available
 
@@ -80,7 +67,6 @@ When updates are downloaded, you can check to see if mobile offline is available
   
    > [!div class="mx-imgBorder"] 
    > ![Mobile Offline Status](../mobile-app/media/OfflineStatusSettings.png "Mobile Offline Status")   
-
 
 
 
@@ -109,6 +95,7 @@ You can also see which entities are available in offline mode from the main menu
 
      > [!div class="mx-imgBorder"] 
      > ![Available entities for mobile offline](media/available_entites.png "Available entities for mobile offline")
+     
    
 
 ## Sync conflict resolution
