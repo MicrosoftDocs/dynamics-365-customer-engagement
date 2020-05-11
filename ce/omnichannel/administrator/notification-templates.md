@@ -18,7 +18,7 @@ ms.topic: article
 
 When a notification is sent to an agent, it displays certain information, such as which customer the conversation request is coming from, the timeout period after which the notification will disappear, and some buttons such as accept and reject. Each organization has varied business requirements and wants the notifications to show relevant information to the agents.
 
-A notification template is a combination of notification-related, reusable information. The template is used to configure what information meeds to be displayed to the agents and supervisors for an incoming conversation, escalation, transfer, consult, and so on. As an administrator, system integrator, or partner, you can use the default templates or create templates to show information that matters most to your business.
+A notification template is a combination of notification-related, reusable information. The template is used to configure what information needs to be displayed to the agents and supervisors for an incoming conversation, escalation, transfer, consult, and so on. As an administrator, system integrator, or partner, you can use the default templates or create templates to show information that matters most to your business.
 
 > [!Note]
 > You must associate the notification templates to a session template.
@@ -95,7 +95,7 @@ The out-of-the-box templates are as follows.
 | Channel/Entity | Consult | Authenticated | Unauthenticated | Transfer | Other
 |---------|--------------------|-----------------------|------------------------|--------------------|--------------------|
 | Chat | Chat - Default consult | Chat - Default incoming authenticated | Chat - Default incoming unauthenticated | Chat - Default transfer |
-|Custom Messaging | Custom Messaging - Default consult | Custom Messaging - Default incoming authenticated | Custom Messaging - Default incoming unauthenticated | Custom Messaging - Default transder  |
+|Custom Messaging | Custom Messaging - Default consult | Custom Messaging - Default incoming authenticated | Custom Messaging - Default incoming unauthenticated | Custom Messaging - Default transfer  |
 | Facebook | Facebook - Default consult | Facebook - Default incoming authenticated | Facebook - Default incoming unauthenticated | Facebook - Default transfer |
 | LINE | LINE - Default consult | LINE - Default incoming authenticated | LINE - Default incoming unauthenticated | LINE - Default transfer |
 | SMS | SMS - Default consult | SMS - Default incoming authenticated | SMS - Default incoming unauthenticated | SMS - Default transfer |
@@ -177,7 +177,7 @@ As an administrator, you can edit the value of a notification field header in th
 
 4. Select a notification field you want to edit and then select the record to edit it.
 
-5. Select the save icon in thr grid.
+5. Select the save icon in the grid.
 
 ## Customize a notification
 
