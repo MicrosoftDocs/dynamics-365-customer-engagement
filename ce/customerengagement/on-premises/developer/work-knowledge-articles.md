@@ -181,7 +181,7 @@ _serviceProxy.Associate(Account.EntityLogicalName, accountId, newRelationship, r
   
  Use the <xref:Microsoft.Crm.Sdk.Messages.FullTextSearchKnowledgeArticleRequest> message to search knowledge article from your applications to find the information you are looking for. The <xref:Microsoft.Crm.Sdk.Messages.FullTextSearchKnowledgeArticleRequest> message lets you use inflectional stem matching (allows for a different tense or inflection to be substituted for the search text) and specify query criteria (using FetchXML or QueryExpression to specify filtering, ordering, sorting, and paging) to find knowledge articles with specified text. You can also choose to remove multiple versions of the same articles in the search results and filter on the knowledge article state while searching for a text.  
 
-## Legacy Knowledge entities end of life  
+## Legacy knowledge entities end of life  
 The Knowledge Management functionality in Dynamics 365 Customer Service has been enhanced, resulting in the following legacy entities being deprecated:   
 
 - [KbArticle](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/entities/kbarticle) 
