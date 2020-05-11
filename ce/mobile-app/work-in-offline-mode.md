@@ -53,7 +53,14 @@ When your admin has [enabled mobile offline](setup-mobile-offline-for-admin.md
    > [!div class="mx-imgBorder"] 
    > ![Download updates complete](media/mobile_offline_download_updates_complete_1.png "Download updates complete")
    
-4. To switch to offline mode, set the **Work in offline mode** toggle to On.
+## Work in offline mode
+
+Once offline download is complete, you can disconnect from the internet and start working in offline mode.
+
+1. From the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Offline Status**.
+
+2. Set the **Work in offline mode** toggle to On.
+
 
    > [!div class="mx-imgBorder"] 
    > ![Work in offline mode](media/set_offline_toggle.png "Set toggle to work in offline mode")
