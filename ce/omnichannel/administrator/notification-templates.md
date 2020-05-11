@@ -146,7 +146,7 @@ Perform the following steps to create a notification template:
     |---------|--------------------|-----------------------------------------------|--------------------|    
     | General | Name | Specify the name for the notification. This name won't be visible to the agents at the runtime. | Name of the customer |
     | General | Field header | Provide a name to the field header. This appears in the notification that agents see at the runtime. | Name |
-    | General | Value | Provide a slug value that appears against **Field header** in the notification. <br><br> To learn more, see [Slug for notification field header](#slug-for-notification-field-header). |{customerName} |
+    | General | Value | Provide a slug value that appears against **Field header** in the notification. <br><br> To learn more, see [Slug for notification field header](#slugs-for-notification-field-header). |{customerName} |
 
     > [!div class=mx-imgBorder]
     > ![Create notification field](../media/notification-field.png "Create notification field")
