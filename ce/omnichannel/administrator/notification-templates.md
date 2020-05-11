@@ -56,9 +56,9 @@ Also, as an administrator, you can set the browser notification permission by us
 
 ### Notification fields
 
-The fields that are shown in the notification are based on the notification template configuration. To learn more, see [Slug for notification field header](#slug-for-notification-field-header) and [Create a notification template](#create-a-notification-template).
+The fields that are shown in the notification are based on the notification template configuration. To learn more, see [Slug for notification field header](#slugs-for-notification-field-header) and [Create a notification template](#create-a-notification-template).
 
-## Slug for notification field header
+## Slugs for notification field header
 
 A slug is a replacement parameter that Omnichannel for Customer Service  populates at runtime based on the context variables.
 
@@ -127,7 +127,7 @@ Perform the following steps to create a notification template:
    | General | Timeout (seconds) | Provide a duration in seconds; after this duration, the notification disappears. | 120. <br><br> **Note:** This is the default value. You can change the duration as per your requirement.
    | General | Accept Button | Specify a text for the accept button. This text appears for the agents to accept a conversation request. | Accept <br><br> **Note:** This is the default value. You can change the text as per your requirement. |
    | General | Reject Button | Set the toggle to yes if you want to show the reject button to agents. <br> After you set the toggle to Yes, the button text box appears. Specify a text for the accept button. This text appears for the agents to reject a conversation request. | Reject <br><br> **Note:** This is the default value. You can change the text as per your requirement. |
-   | General | Show desktop notifications | Specify whether you want to show notifications to the agents when the Omnichannel for Customer Service app not in focus. | When app is in background <br><br> **Note:** <br> The default value is Never. <br> To learn more, see [Desktop notification when app is in background](#desktop-notifications-when-the-app-is-in-the-background) and [Receive notification when app is in background](../agent/agent-oc/oc-notifications.md#receive-notification-when-the-app-is-in-the-background). |
+   | General | Show desktop notifications | Specify whether you want to show notifications to the agents when the Omnichannel for Customer Service app not in focus. | When app is in background <br><br> **Note:** <br> The default value is Never. <br> To learn more, see [Desktop notification when app is in background](#desktop-notifications-when-the-app-is-in-the-background) and [Receive notifications when app is in background](../agent/agent-oc/oc-notifications.md#receive-notifications-when-the-app-is-in-the-background). |
 
     > [!div class=mx-imgBorder] 
     > ![Create notification template](../media/notification-template1.png "Create notification template")
