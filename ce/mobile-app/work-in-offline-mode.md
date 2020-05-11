@@ -84,15 +84,15 @@ When updates are downloaded, you can check to see if mobile offline is available
 
 
 
-  -  **Offline Status** tracks the offline status of the whole app, and also the status of each entity individually. When the status shows as  **Available**, it indicates offline is available and data has synced successfully.
+  -  **Status** tracks the offline status of the whole app, and also the status of each entity individually. When the status shows as  **Available**, it indicates offline is available and data has synced successfully.
 
    > [!NOTE] 
    > The status here can be **Not Available** due to an error or if you missed downloading offline updates. If the status is **Not Available** due to missing the latest offline updates, then try downloading the updates again.
    
  
-  -  **Entity Status** provides the offline status of each entity individually. For the available entities, you can also track the last time the entity synced. Data is synced periodically in the background to ensure that you have access to the latest data whenever you go offline.
+  -  **Entity** provides the offline status of each entity individually. For the available entities, you can also track the last time the entity synced. Data is synced periodically in the background to ensure that you have access to the latest data whenever you go offline.
    
-  -  **Sync time** indicates the last time your data was synced with the server.
+  -  **Last Sync Date** indicates the last time your data was synced with the server.
  
      > [!div class="mx-imgBorder"] 
      > ![Mobile offline status](media/OfflineStatus.png "Mobile offline status")
