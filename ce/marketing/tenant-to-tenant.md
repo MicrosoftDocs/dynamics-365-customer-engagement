@@ -25,7 +25,7 @@ search.app:
 
 # Tenant to tenant migration for Dynamics 365 Marketing
 
-Dynamics 365 Marketing supports tenant to tenant migration within the same geo, as [documented for the Dynamics 365 platform](https://docs.microsoft.com/dynamics365/admin/move-instance-tenant). There is no support for [geo to geo migrations](https://docs.microsoft.com/power-platform/admin/geo-to-geo-migrations).
+Dynamics 365 Marketing supports tenant to tenant migration within the same geo, as [documented in the the Dynamics 365 admin guide](https://docs.microsoft.com/dynamics365/admin/move-instance-tenant). There is no support for [migrations between Azure geographic locations (geo to geo migrations)](https://docs.microsoft.com/power-platform/admin/geo-to-geo-migrations).
 
 >[!NOTE]
 >Refer to the [International availability guide](https://docs.microsoft.com/dynamics365/get-started/availability) for Dynamics 365 Marketing geo availability.
