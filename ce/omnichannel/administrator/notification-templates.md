@@ -4,7 +4,7 @@ description: "Learn about managing notification templates in Omnichannel Adminis
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/08/2020
+ms.date: 05/11/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -58,7 +58,7 @@ Also, as an administrator, you can set the browser notification permission by us
 
 The fields that are shown in the notification are based on the notification template configuration. To learn more, see [Slug for notification field header](#slug-for-notification-field-header) and [Create a notification template](#create-a-notification-template).
 
-## Slug for notification field header
+## Slugs for notification field header
 
 A slug is a replacement parameter that Omnichannel for Customer Service  populates at runtime based on the context variables.
 
@@ -86,11 +86,11 @@ The application supports the following slugs.
 | `{customerRecordId}` | GUID of the entity (contact or account entity) if the customer is authenticated. |
 |`{<name of the pre-chat survey question>}` | All the pre-chat survey questions that are configured for a work stream can be used as the slug. The format is same as the question. |
 
-## Default notification templates
+## Out-of-the-box notification templates
 
- For the supported channels, Omnichannel for Customer Service provides you with out-of-the-box notification templates that you can use in your environment. However, if you customize these templates, make sure to rename and save them to avoid your customizations from being overwritten during an upgrade. When you attach a default notification template, the default settings are used in the notifications. For example, if a chat is initiated by a user who is not a contact in Dynamics 365, the timeout defined in the unauthenticated template for notifications is displayed to the agent. Similarly, if the user is identified as a contact, the timeout setting defined in the authenticated template is displayed.
+ For the supported channels, Omnichannel for Customer Service provides you with out-of-the-box notification templates that you can use in your environment. However, if you customize these templates, make sure to rename and save them to avoid your customizations from being overwritten during an upgrade. When you attach the out-of-the-box notification template, the default settings are used in the notifications. For users whose record exists in Dynamics 365, the settings in the authenticated template for notifications are used. If the user details are not available in Dynamics 365, the settings in the unauthenticated template are used for displaying the notifications. For information on how notifications appear for agents, see [notifications for agents](../agent/agent-oc/oc-notifications.md).
 
-The default templates are as follows.
+The out-of-the-box templates are as follows.
 
 | Channel/Entity | Consult | Authenticated | Unauthenticated | Transfer | Other
 |---------|--------------------|-----------------------|------------------------|--------------------|--------------------|
@@ -151,7 +151,7 @@ Perform the following steps to create a notification template:
     > [!div class=mx-imgBorder]
     > ![Create notification field](../media/notification-field.png "Create notification field")
 
-10. Select the back arrow on the browser to go to the notification template you created. Alternatively, you can select **Notifications** in the sitemap and then select the template you created.
+10. Select the back arrow on the browser to go to the notification template you created. Alternatively, you can select **Notifications** in the sitemap, and then select the template you created.
 
 11. Select **Add Existing Notification Field** in the **Notification Fields** section. The **Lookup Records** pane appears.
 
@@ -179,7 +179,7 @@ As an administrator, you can edit the value of a notification field header in th
 
 5. Select the save icon in thr grid.
 
-## Customize notification
+## Customize a notification
 
 Let's see a scenario: In the Contoso Pvt Ltd customer service center, every case notification that is shown to an agent needs to have the following:
 
@@ -223,6 +223,6 @@ As an administrator, you need to customize the notification template to show the
 
 ### See also
 
-- [Manage session templates](session-templates.md)
-- [Manage application tab templates](application-tab-templates.md)
-- [Associate templates with workstreams](associate-templates.md)
+[Manage session templates](session-templates.md)  
+[Manage application tab templates](application-tab-templates.md)  
+[Associate templates with workstreams](associate-templates.md)
