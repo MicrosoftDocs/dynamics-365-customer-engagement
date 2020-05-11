@@ -4,7 +4,7 @@ description: Understand and create work streams in the Omnichannel for Customer 
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/06/2020
+ms.date: 05/08/2020
 ms.topic: article
 ms.service: 
   - "dynamics-365-customerservice"
@@ -49,13 +49,11 @@ Follow these steps to create a new work stream in Omnichannel for Customer Servi
         - Facebook
         - Entity Records
         - WeChat
-        - Microsoft Teams (Is a preview feature)
-        - Line
-        - WhatsApp (Is a preview feature)
+        - Microsoft Teams
+        - LINE
+        - WhatsApp
         - Custom
         - Twitter
-
-        To learn more about Entity Records, see [Create entity record workstream](set-up-entity-workstream.md)
 
       - **Capacity**: Specify the units of capacity that are required to process a conversation for the work stream in the text box.
 
@@ -100,11 +98,8 @@ To learn more about how to set up channels and associate work streams, see the f
 - [Configure a chat channel](set-up-chat-widget.md)
 - [Configure an SMS channel](configure-sms-channel.md)
 
-
 ### See also
 
-[Automatically identify customers using pre-chat responses](record-identification-rule.md)
-
-[Create workstream for entity record routing](set-up-entity-workstream.md)
-
+[Automatically identify customers using pre-chat responses](record-identification-rule.md)  
+[Create workstream for entity record routing](set-up-entity-workstream.md)  
 [Work with queues](queues-omnichannel.md)

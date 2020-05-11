@@ -1,10 +1,10 @@
 ---
 title: "Notifications for agents working in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about notifications and their types. Agents will see notifications and screen pops in Omnichannel for Customer Service."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 04/06/2020
+ms.date: 05/11/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -30,7 +30,7 @@ Some of the scenarios where you might receive notifications:
 
 - Conversation escalation from a bot
 
-### Receive notification when the app is in the background
+## Receive notifications when the app is in the background
 
 You'll receive desktop notifications when the Omnichannel for Dynamics 365 Customer Service app isn't in focus. The desktop notification helps ensure that you won't miss any conversation requests. Some scenarios where the app isn't in focus might include: 
 
@@ -51,13 +51,12 @@ That is, your administrator has configured the wait time as 90 seconds and set t
 
 The desktop notification theme is based on the Windows operating system theme and settings.
 
-#### Allow your browser to show notifications
+### Allow your browser to show notifications
 
 To get desktop notifications, you need to allow your browser (Microsoft Edge or Google Chrome) to show notifications. When you get a browser notification, you need to select **Allow**.
 
  > [!div class=mx-imgBorder]
  > ![Allow desktop notification](../../media/oceh/allow-desktop-notification.png "Allow desktop notification")
-
 
 ## Types of notifications
 
@@ -87,12 +86,12 @@ Identification of a customer happens based on the **Mobile Phone** field present
 
 The details you'll see for a SMS channel are as configured by your administrator.
 
-## See also
+### See also
 
-- [View customer summary and know everything about customers](oc-customer-summary.md)
-- [View communication panel](oc-conversation-control.md)
-- [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)
-- [Manage presence status](oc-manage-presence-status.md)
-- [Search for and share knowledge articles](oc-search-knowledge-articles.md)
-- [Take notes specific to conversation](oc-take-notes.md)
-- [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
+[View customer summary and know everything about customers](oc-customer-summary.md)   
+[View communication panel](oc-conversation-control.md)  
+[Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)  
+[Manage presence status](oc-manage-presence-status.md)  
+[Search for and share knowledge articles](oc-search-knowledge-articles.md)  
+[Take notes specific to conversation](oc-take-notes.md)  
+[View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)  

@@ -1,10 +1,10 @@
 ---
 title: "Manage session templates in Omnichannel Administration app | MicrosoftDocs"
 description: "Learn about managing session templates in Omnichannel Administration app"
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 01/31/2020
+ms.date: 05/08/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -20,7 +20,7 @@ Session template in Omnichannel Administration app is a combination of attribute
 
 When an agent accepts an incoming conversation request, a session is started. The system opens the **Customer Summary** application that you (an administrator) defined as an **Anchor Tab** in the application tab panel. The **Anchor Tab** is not closable. Simultaneously, the system expands the communication panel for you to exchange messages with the customer.  
 
-Session templates are used to define the aforementioned session experience such as, 
+Session templates are used to define the aforementioned session experience such as,
 
 - which application must be opened as an anchor tab in the application tab panel;
 - what are the additional application tabs that must be opened when a session is started;
@@ -28,13 +28,18 @@ Session templates are used to define the aforementioned session experience such 
 
 The Omnichannel Administration app provides out-of-the-box session templates that you can use or create new session templates. In your environment, as an administrator, you can create multiple session templates.
 
-The out-of-box templates are:
+The out-of-the-box session templates are as follows:
 
-- **Chat - Default Session:** This session template is used for any incoming conversation from the Chat channel.
-- **SMS - Default Session:** This session template is used for any incoming conversation from the SMS channel.
-- **Entity routing - Default Session:** This session template is used for a case and other entity record request.
-
-A session template is the place where, as an administrator, you need to define the anchor tab and additional application tabs that must open when a session starts.
+- Chat - Default session
+- SMS - Default session
+- Entity routing - Default session
+- Custom Messaging - Default session
+- Facebook - Default session
+- LINE - Default session
+- Teams - Default session
+- Twitter - Default session
+- WeChat - Default session
+- WhatsApp - Default session
 
 ## Create a session template
 
@@ -66,7 +71,7 @@ To create a session template, follow these steps:
 
 9. Build the expression, and then select **Save and close**. To learn more, see [Set default agent script for agents](agent-scripts.md#set-default-agent-script-for-agents).
 
-  > [!Note] 
+  > [!Note]
   > Step 8 and 9 are optional, and applicable only when you've configured agent scripts and enabled productivity pane. To learn more, see [Agent scripts](agent-scripts.md) and [Enable the productivity pane to provide guidance to agents](productivity-pane.md).
 
 10. Select **Save** to save the changes.
