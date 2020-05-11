@@ -46,9 +46,12 @@ When your admin has [enabled mobile offline](setup-mobile-offline-for-admin.md
 2. Offline data starts to download in the background. Do not close the app or disconnect from the internet until the download is complete. 
 
    > [!div class="mx-imgBorder"] 
-   > ![Download updates complete](media/mobile_offline_download_updates_complete.png "Download updates complete")
+   > ![Start download updates](media/mobile_offline_download_updates_complete.png "Start download updates")
    
-When you open the app, offline data is automatically updated and you can start using the app in offline mode.
+3. When Offline download is completed, you will get a notification incidicating you can start working in offline mode.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Download updates complete](media/mobile_offline_download_updates_complete_1.png "Download updates complete")
 
 ### Manually download updates
 
