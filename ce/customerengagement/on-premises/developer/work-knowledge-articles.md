@@ -180,7 +180,30 @@ _serviceProxy.Associate(Account.EntityLogicalName, accountId, newRelationship, r
  Knowledge articles in Dynamics 365 Customer Engagement (on-premises), including their versions and translations, are full-text indexed and support SQL Server full-text search. For more information about full-text search, see [SQL Server: Full-text Search](https://docs.microsoft.com/sql/relational-databases/search/full-text-search).  
   
  Use the <xref:Microsoft.Crm.Sdk.Messages.FullTextSearchKnowledgeArticleRequest> message to search knowledge article from your applications to find the information you are looking for. The <xref:Microsoft.Crm.Sdk.Messages.FullTextSearchKnowledgeArticleRequest> message lets you use inflectional stem matching (allows for a different tense or inflection to be substituted for the search text) and specify query criteria (using FetchXML or QueryExpression to specify filtering, ordering, sorting, and paging) to find knowledge articles with specified text. You can also choose to remove multiple versions of the same articles in the search results and filter on the knowledge article state while searching for a text.  
-  
+
+## Legacy Knowledge entities end of life  
+The Knowledge Management functionality in Dynamics 365 Customer Service has been enhanced, resulting in the following legacy entities being deprecated:   
+
+- [KbArticle](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/entities/kbarticle) 
+- [KbArticleComment](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/entities/kbarticlecomment) 
+- [KbArticleTemplate](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/entities/kbarticletemplate)  
+
+As of December 01, 2020, you will be automatically migrated to the Unified Interface and will no longer have access to the legacy knowledge entities. It is strongly recommended that you move to the new KnowledgeArticle entity now.  To learn more about creating a knowledge article in the Unified Interface, see [Create and manage knowledge articles](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-user-guide-knowledge-article).  
+
+> [!NOTE]  
+> The KnowledgeArticle entity in the Unified Interface allows all HTML capabilities. Anything that’s supported in a browser (except Javascript) is supported by the KnowledgeArticle entity.  
+
+The following will help with migration:  
+- Use the open source migration tool with [MIT license](https://github.com/microsoft/dynamics365-kbmigration/blob/master/LICENSE).  
+- Use SDK, WebAPI, or Microsoft Power Automate depending on your scenarios.  
+
+> [!IMPORTANT]
+> - The open source migration tool is not support by Microsoft and may need to be modified to suit your scenarios.  
+> - Always run a test environment before using in production.  
+> - Check the license and readme before you use the tool.   
+
+
+
 <a name="EarlierKBArticle"></a>   
 ## Work with earlier Dynamics 365 Customer Engagement (on-premises) knowledge base articles  
   
@@ -223,9 +246,10 @@ _serviceProxy.Associate(Account.EntityLogicalName, accountId, newRelationship, r
  For more information on creating, updating, editing, and locating an article in the knowledge base, see [Use articles in the knowledge base](https://go.microsoft.com/fwlink/p/?LinkId=526812).  
   
 ### See also  
- [Knowledge Base Entities](knowledge-management-entities.md)
- [KnowledgeArticle Entity](entities/knowledgearticle.md)
- [KnowledgeArticleViews Entity](entities/knowledgearticleviews.md)
- [KnowledgeBaseRecord Entity](entities/knowledgebaserecord.md)
- [LanguageLocale Entity](entities/languagelocale.md)
- [KbArticle Entity](entities/kbarticle.md)
+ - [Knowledge Base Entities](knowledge-management-entities.md)
+ - [KnowledgeArticle Entity](entities/knowledgearticle.md)
+ - [KnowledgeArticleViews Entity](entities/knowledgearticleviews.md)
+ - [KnowledgeBaseRecord Entity](entities/knowledgebaserecord.md)
+ - [LanguageLocale Entity](entities/languagelocale.md)
+ - [KbArticle Entity](entities/kbarticle.md)
+ - [Important changes coming in future releases of Microsoft Dynamics 365](https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)?redirectedfrom=MSDN#bkmk_CrmKMEntities) 
