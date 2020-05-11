@@ -48,7 +48,7 @@ When your admin has [enabled mobile offline](setup-mobile-offline-for-admin.md
    > [!div class="mx-imgBorder"] 
    > ![Start download updates](media/mobile_offline_download_updates_complete.png "Start download updates")
    
-3. When Offline download is completed, you will get a notification incidicating that you can start working in offline mode.
+3. When Offline download is completed, you will get a notification indicating that you can start working in offline mode.
 
    > [!div class="mx-imgBorder"] 
    > ![Download updates complete](media/mobile_offline_download_updates_complete_1.png "Download updates complete")
