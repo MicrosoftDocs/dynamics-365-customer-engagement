@@ -14,7 +14,7 @@ manager: annbe
 
 An opportunity is a lead who is now almost ready to buy&mdash;in other words, a deal that you're ready to win.  
   
- At this point in the sales process, you're most likely in either the **Develop** or **Propose** stage. [!include[proc-more-information](../includes/proc-more-information.md)] [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md) 
+At this point in the sales process, you're most likely in either the **Develop** or **Propose** stage. [!include[proc-more-information](../includes/proc-more-information.md)] [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md) 
   
 ## Create an opportunity (Sales Hub)
 
@@ -32,7 +32,18 @@ If you're following the sales process from start to finish, you *qualify* a lead
     > If your system administrator has set the Kanban view as the default, you'll see the Kanban view instead of the list view. More information: [Work with opportunities in the kanban view](opportunity-kanban-view.md) 
 
 3. In the opportunity form, make sure that your potential customer's important details are captured. If you've qualified a lead to an opportunity, most of the fields will be automatically populated from the lead record.
- 
+
+   - **Est. Close Date**: An estimated date by which the opportunity is expected to close. 
+  
+   - **Est. Revenue**: A field calculated for opportunities that have products added to them. Estimated revenue is calculated based on base price, volume discounts, manual discounts, taxes, and other pricing modifications. When opportunities are saved, [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] recalculates the estimated revenue based on any changes to the products or product quantities associated with the opportunity. 
+   
+       > [!NOTE]
+       > Only the products associated with the same price list as the parent opportunity are considered for system-calculated revenue. 
+
+   - **Status**: The status the opportunity is in. 
+
+   - **Owner**: Indicates the owner of the opportunity. You can assign the opportunity to another user or team. To change the owner, you can select a different user or team in this field or use the **Assign** button on the command bar to assign it to another user or team. More information: [Assign or share records](/powerapps/user/assign-or-share-records)
+
    - **Topic**: What the customer is interested in that created the opportunity, such as specific product details.
  
    - **Contact**: The contact associated with this opportunity. The contact that you select here is added as a stakeholder for this opportunity. For more information on stakeholders, see Step 5.  
@@ -51,13 +62,7 @@ If you're following the sales process from start to finish, you *qualify* a lead
    - **Budget Amount**: Enter a value to indicate the lead's potential available budget. 
  
    - **Purchase Process**: Whether the purchase process involves an individual or a committee.
- 
-   - **Est. Close Date**: An estimated date by which the opportunity is expected to close. 
-  
-   - **Est. Revenue**: A field calculated for opportunities that have products added to them. Estimated revenue is calculated based on base price, volume discounts, manual discounts, taxes, and other pricing modifications. When opportunities are saved, [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] recalculates the estimated revenue based on any changes to the products or product quantities associated with the opportunity. 
-   
-       > [!NOTE]
-       > Only the products associated with the same price list as the parent opportunity are considered for system-calculated revenue. 
+
    
 4. Select **Save** to enable other sections on the form.
 
