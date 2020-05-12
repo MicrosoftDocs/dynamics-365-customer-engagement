@@ -182,13 +182,17 @@ _serviceProxy.Associate(Account.EntityLogicalName, accountId, newRelationship, r
  Use the <xref:Microsoft.Crm.Sdk.Messages.FullTextSearchKnowledgeArticleRequest> message to search knowledge article from your applications to find the information you are looking for. The <xref:Microsoft.Crm.Sdk.Messages.FullTextSearchKnowledgeArticleRequest> message lets you use inflectional stem matching (allows for a different tense or inflection to be substituted for the search text) and specify query criteria (using FetchXML or QueryExpression to specify filtering, ordering, sorting, and paging) to find knowledge articles with specified text. You can also choose to remove multiple versions of the same articles in the search results and filter on the knowledge article state while searching for a text.  
 
 ## Legacy knowledge entities end of life  
-The Knowledge Management functionality in Dynamics 365 Customer Service has been enhanced, resulting in the following legacy entities being deprecated:   
+The Knowledge Management functionality in Dynamics 365 Customer Service has been enhanced resulting in the following legacy entities being deprecated:   
 
 - [KbArticle](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/entities/kbarticle) 
 - [KbArticleComment](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/entities/kbarticlecomment) 
 - [KbArticleTemplate](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/entities/kbarticletemplate)  
 
-As of December 01, 2020, you will be automatically migrated to the Unified Interface and will no longer have access to the legacy knowledge entities. It is strongly recommended that you move to the new KnowledgeArticle entity now.  To learn more about creating a knowledge article in the Unified Interface, see [Create and manage knowledge articles](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-user-guide-knowledge-article).  
+Deprecatation of the legacy knowledge entities was announced in the, [Important changes coming in future releases of Microsoft Dynamics 365](https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)?redirectedfrom=MSDN#some-knowledge-management-entities). 
+
+Legacy knowledge entities no longer will be accessable as of December 1, 2020, and you will be automatically migrated to the Unified Interface. 
+
+It is strongly recommended that you move to the new KnowledgeArticle entity now.  To learn more about creating a knowledge article in the Unified Interface, see [Create and manage knowledge articles](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-user-guide-knowledge-article).  
 
 > [!NOTE]  
 > The KnowledgeArticle entity in the Unified Interface allows all HTML capabilities. Anything that’s supported in a browser (except Javascript) is supported by the KnowledgeArticle entity.  
