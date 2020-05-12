@@ -59,7 +59,7 @@ Release For information about other updates to Field Service, visit the [Dynamic
 |<strong>Station 4</strong> | |  |  | |
 | | <i>Europe</i> |[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| [8.8.22.57](https://docs.microsoft.com/dynamics365/field-service/version-history#882257) | 05/15/2020
 |<strong>Station 5</strong> | |  |  | |
-| | <i>North America</i> |[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| [8.8.22.57](https://docs.microsoft.com/dynamics365/field-service/version-history#882257) | 05/22/2020
+| | <i>North America</i> |[8.8.11.19](https://docs.microsoft.com/dynamics365/field-service/version-history#881119)| [8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122) | 05/15/2020
 |<strong>Station 6</strong> | |  |  | |
 | | <i>Goverment Community Cloud</i> |[8.8.11.19](https://docs.microsoft.com/dynamics365/field-service/version-history#881119)|  [8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| 05/22/2020
 | | <i>China</i> |[8.8.11.19](https://docs.microsoft.com/dynamics365/field-service/version-history#881119)| [8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| 05/22/2020
