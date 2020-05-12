@@ -21,7 +21,7 @@ search.app:
 
 # Create and manage knowledge articles
 
-Reduce call handling times with Knowledge articles in the Customer Service Hub application.
+Reduce call handling times with knowledge articles in the Customer Service Hub application.
   
 With the new knowledge management module, you can create and manage knowledge articles that your users may be looking for. 
 
