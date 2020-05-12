@@ -24,7 +24,7 @@ search.app:
 
 # Work offline on your mobile device
 
-Work with your data in offline mode even when you don't have internet access. The Dynamics 365 for phones and tablets app provides a rich offline experience that lets you work with commands like create, read, update, and delete along with some special commands—so you always stay productive. Once you're back online, changes you've made are synchronized with your apps in the Common Data Service environment or Dynamics 365 Customer Engagement (on-premises).  
+Work with your data in offline mode even when you don't have internet access. The Dynamics 365 for phones and tablets app provides a rich offline experience that lets you work with commands like create, read, update, and delete along with some special commands—so you always stay productive. Once you're back online, changes you've made are synchronized with your apps in the Common Data Service environment.
 
 > [!NOTE]
 > - The mobile offline feature is only available for iOS and Android devices.
