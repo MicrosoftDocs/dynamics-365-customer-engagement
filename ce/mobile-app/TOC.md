@@ -40,7 +40,7 @@
 
 ## User Guide 
 ### [Install the mobile app](../mobile-app/v8/go-mobile/get-started/install.md)
-### [Signing in and signing out (for iOS users)](../mobile-app/v8/go-mobile/get-started/email-sign-in.md)
+### [Signing in and signing out](../mobile-app/v8/go-mobile/get-started/email-sign-in.md)
 ### [Signing in and signing out (for Android users)](../mobile-app/v8/go-mobile/get-started/sign-in-out.md)
 ### [Reconfigure](../mobile-app/v8/go-mobile/get-started/reconfigure.md)
 ### [Basic navigation](../mobile-app/v8/go-mobile/get-started/basic-navigation.md)
