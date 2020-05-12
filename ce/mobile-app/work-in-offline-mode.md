@@ -57,7 +57,7 @@ When your admin has [enabled mobile offline](setup-mobile-offline-for-admin.md
    
 ## Work in offline mode
 
-Once offline download is complete, you can disconnect from the internet and start working in offline mode.
+Once offline download is complete, you can start working in offline mode.
 
 1. From the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Offline Status**.
 
