@@ -30,8 +30,6 @@ search.app:
 
 # Sign in and sign out
 
-## Sign in with your web address
-
 Sign in using your web address for the Dynamics 365 app and user name and password. 
 
 1. On the sign-in screen, select **Sign in with a web address instead**.
