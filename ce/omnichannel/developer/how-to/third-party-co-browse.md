@@ -10,10 +10,6 @@ ms.service:
 ms.topic: reference
 ---
 
-
-<!-- Is there a reason to capitalize "co-browse" other than when it begins a sentence? At first it's not capitalized, but later it is. I'm going to make it lowercase for consistency. -->
-
-
 # Enable third-party co-browse and screen sharing
 
 Co-browse and screen sharing are escalation channels in the Chat channel of Microsoft Dynamics 365. A co-browse or screen-sharing escalation channel allows your organization’s agents to start a co-browse or screen-sharing session with customers. Using co-browse, agents can see and interact with a customer’s web browser. Using screen sharing, agents can see and interact with the customer’s current screen. This provides customers with an extra option to connect to an agent who can efficiently troubleshoot issues in real time.
@@ -21,10 +17,6 @@ Co-browse and screen sharing are escalation channels in the Chat channel of Micr
 Co-browse and screen sharing are enabled within Omnichannel Add-in for Dynamics 365 Customer Service chat channel by integration with third-party solutions.  Extensibility is provided to enable any providers to onboard their co-browse and screen-sharing solution to Omnichannel for Customer Service.
 
 ## Prerequisites
-
-
-<!-- Does chat below refer to any chat service, or to Chat for Dynamics 365 Customer Service? Does omnichannel below mean Omnichannel for Customer Service? If yes, it needs to be written that way. -->
-
 
 - An active chat subscription. 
 - Updated Omnichannel base and Omnichannel chat solution with third-party co-browse externalities enabled.
@@ -61,16 +53,12 @@ The following section lists the required entity data needed to support this feat
 
   Localization information associated with the conversation action.  
   
-  
-  <!-- In the Label entry below, is it "showing users" or "shown to users" ? Also, what does FK mean? -->
-  
+   
   **Fields**:  
   - Label (The label of the button showing to users in conversation control.) 
   - Tooltip (Tooltip for that button.) 
   - Locale (Language key for that button.) 
   - Conversation Action (FK to conversation action entity.)  
-
- 
 
 - **Provider entity (msdyn_provider)** 
 
@@ -144,10 +132,6 @@ ISVs should bring in all the required data as specified in the [Third-party co-b
 
 Here are the data input requirements for third-party providers:  
 
-
-<!-- Do these need to be completed in this order? If not, change to a bulleted list. -->
-
-
 1. App Tab Template record.  
 2. Conversation Action record. (If you have both co-browse and screen-sharing options, you can create two records, one for each.)  
 3. Conversation Action Locale record. (For each conversation action you created, you should have at least one Conversation Action Locale record. The basic language we support is English.) 
@@ -161,10 +145,6 @@ These records (Conversation Action records, Conversation Action Locale records, 
 We have created a new tab in Chat Widget called **Conversation Options**. Inside of this option is a section called **Remote assistance**.  The Omnichannel administrator will have the right to choose whether to enable or disable the third-party co-browse and screen-sharing options per chat widget. If there are no co-browse and screen-sharing providers installed in this organization, these two options are disabled as shown here.
 
 
-
-<!-- This is the same image as farther above. Is that intentional? -->
-
-
 > [!div class="mx-imgBorder"]
 > ![Omnichannel administration for co-browse feature](../../media/co-browse-entity-relationship.PNG "Omnichannel administration for co-browse feature")
 
@@ -176,12 +156,8 @@ We have created a new tab in Chat Widget called **Conversation Options**. Inside
 
 When the organization has been provisioned with both options—that is, when it has two different channel capabilities installed—the admin can choose which third-party co-browse provider to use.  Also, it’s the admin’s choice whether to disable or enable these options. Here is the screenshot for admin enabled both options and selected the both providers. 
 
-<!-- The last sentence above needs rewriting. I can't tell what it means. -->
-
-<!-- The image below is the same as the one above. -->
-
 > [!div class="mx-imgBorder"]
-> ![Remote assistance for co-browse feature](../../media/no-screensharing-session-co-browse.PNG "Remote assistance for co-browse feature")
+> ![Remote assistance for co-browse feature](../../media/remote-assistance-co-browse.PNG "Remote assistance for co-browse feature")
 
 
 
@@ -191,24 +167,15 @@ When a co-browse and screen-sharing button is defined, it will be rendered at th
 
 
 
-<!-- Is it correct that the alt text and hover text below are different? -->
-
-
 > [!div class="mx-imgBorder"]
-> ![Screen-sharing button rendering in chat widget](../../media/chat-widget-co-browse.PNG "Screen-sharing button rendering for co-browse feature")
+> ![Screen-sharing button rendering in chat widget](../../media/chat-widget-co-browse.PNG "Screen-sharing button rendering in chat widget")
 
 ## Omnichannel session services and data flow for third-party co-browse and screen sharing
-
-
-<!-- Does omnichannel in the following paragraph mean Omnichannel for Customer Service? If yes, use that name; if just a generic reference, omnichannel is lowercase. -->
 
 
 When an agent selects the button for co-browse or screen sharing, it triggers the application tab inside of the Omnichannel service. Omnichannel will handle the events as escalation channels event type. Omnichannel internal services will update the status for current session events.  
 
 After the third-party applications take over, all data will be handled by a third-party application server. See the following graph for the integration data flow.   
-
-
-<!-- In the following graphic, please change the box that says "Third Party provider takeover the seesion" to "Third-party provider takes over the session." -->
 
 
 > [!div class="mx-imgBorder"]
@@ -288,4 +255,3 @@ The following are links for publishing the application to AppSource:
 ## Third-party providers responsibility and data disclaimer 
 
 Be sure to publish the privacy policy link to AppSource for security and privacy protection of the personal information that would be processed, and provide a compliant approach to data protection. 
-
