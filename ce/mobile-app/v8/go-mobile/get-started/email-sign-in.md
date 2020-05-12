@@ -1,7 +1,7 @@
 ---
 title: "Sign in to Dynamics 365 for phones and tablets using your email address | Microsoft Docs"
 ms.custom: 
-ms.date: 03/25/2019
+ms.date: 05/12/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -28,12 +28,11 @@ search.app:
   - D365Sales
 ---
 
-# Signing in and signing out (for iOS users)
+# Signing in and signing out
 
-Sign in to the Dynamics 365 mobile app quickly using your work email address or web address for the Dynamics 365 app that you use. 
+Sign in to the Dynamics 365 mobile app using your web address for the Dynamics 365 app that you use. 
 
 > [!IMPORTANT]
-> - This feature is supported for both version 8.x (Online and on-premises) when signing in using the mobile app on an iOS device.
 > - If you are a [Dynamics 365 US Government](https://docs.microsoft.com/dynamics365/customer-engagement/admin/government/microsoft-dynamics-365-government)(GCC and GCC High)user, you are required to sign in using the web address option.
 
 ### Required services (for admins)
@@ -42,21 +41,9 @@ This list identifies all services to which Dynamics 365 for Phones and Tablets t
 | Domain(s) | Protocols | Uses |
 | --- | --- | --- |
 | service.powerapps.com |https |Starting with version 13.19033.0, used for email sign-in and the app list. |
-## Sign in with your email address
 
-To sign in using your work email address, enter your email address, and then select ![Sign in](../../../media/signinarrow.png "Dynamics 365  for phones and tablets Preview sign-in").
-
-![Enter email address](../../../media/previewsignin.png "Enter email address to sign-in in").
-
-
-2.	When you sign in, you see a list of apps that you have access to. If you have access to multiple organizations, you see all the apps that you have access to across organizations.
-
-3.	Select the app that you want to use.
-
-    ![Select an app to use](../../../media/openanapp.png "Select an app to use"). 
 
 ### Sign out
-
 
 
 1. If you selected the app for version 8.x from the app list above, go to the Home page, tap ![Dynamics 365 apps ellipsis](../../../media/mobile-ellipsis.png "Dynamics 365 apps ellipsis").  
