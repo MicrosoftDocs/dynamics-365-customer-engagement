@@ -28,7 +28,7 @@ search.app:
 Migrating a Marketing instance between tenants requires assistance from our technical support team. To request tenant to tenant migration within the same Azure geographic location (geo), [contact technical support](https://docs.microsoft.com/dynamics365/admin/contact-technical-support) and submit a support request.
 
 > [!NOTE]
-> When migrating a Marketing instance between tenants, the support team will advise you about pre-migration and post-migration steps (see below). Familiarize yourself with the [post migration state](#Marketing-app-post-migration-state) to determine if migration will be a good fit for your instance.
+> When migrating a Marketing instance between tenants, the support team will advise you about pre-migration and post-migration steps (see below). Familiarize yourself with the [post migration state](#The-post-migration-state-of-the-Marketing-app) to determine if migration will be a good fit for your instance.
 
 ## Steps to execute before migration
 
