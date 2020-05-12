@@ -42,8 +42,8 @@ When your admin has [enabled mobile offline](setup-mobile-offline-for-admin.md
  
  Offline data starts to download in the background. Do not close the app or disconnect from the internet until the download is complete.
 
-    > [!NOTE]
-    > If you choose **Skip for now**, you will not be able to use the app in offline mode until you manually download the updates. To manually download updates, from the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Offline Status**. 
+   > [!NOTE]
+   > If you choose **Skip for now**, you will not be able to use the app in offline mode until you manually download the updates. To manually download updates, from the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Offline Status**. 
 
 2. To see the download status, from the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Offline Status**.
 
@@ -63,14 +63,12 @@ Once offline download is complete, you can start working in offline mode.
 
 2. Set the **Work in offline mode** toggle to On.
 
-
    > [!div class="mx-imgBorder"] 
    > ![Work in offline mode](media/set_offline_toggle.png "Set toggle to work in offline mode")
 
+## Check offline status
 
-## See if offline mode is available
-
-When updates are downloaded, you can check to see if mobile offline is available.
+When offline updates are complete, you can check to see if mobile offline is available.
 
 - From the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Offline Status**.
   
