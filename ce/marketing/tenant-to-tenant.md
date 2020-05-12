@@ -59,7 +59,7 @@ You may need to execute the following steps after migrating a Marketing instance
 - Validate the functionality of the Marketing app before resuming business use of the instance.
 - If your source instance used portals:
     - If the Marketing app on your source instance used a Dynamics 365 Portal, you will need to also set up a new portal _with the same name_ on the target instance to host marketing pages and event websites (requires an unconfigured Dynamics 365 Portals license to be available on your tenant).
-    - If you do not create a portal with the same name on the target instance, URL links will not function properly.
+    - If you do not create a portal with the same name on the target instance, URL links associated with the portal will not function properly.
 
 ### See also
 
