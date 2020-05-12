@@ -28,16 +28,9 @@ search.app:
 Migrating a Marketing instance between tenants requires assistance from our technical support team. To request tenant to tenant migration within the same Azure geographic location (geo), [contact technical support](https://docs.microsoft.com/dynamics365/admin/contact-technical-support) and submit a support request.
 
 > [!NOTE]
-> When migrating a Marketing instance between tenants, the support team will advise you about pre-migration and post-migration steps (see below). Familiarize yourself with the [post migration state](#The-post-migration-state-of-the-Marketing-app) to determine if migration will be a good fit for your instance.
+> When migrating a Marketing instance between tenants, the support team will advise you about pre-migration and post-migration steps (see below). Familiarize yourself with the [post migration state](#Marketing-app-status-after-migration) to determine if migration will be a good fit for your instance.
 
-## Steps to execute before migration
-
-You will need to execute the following steps after migrating a Marketing instance between tenants:
-
-- Ensure that your Marketing app is [up to date](apply-updates.md#find-out-which-version-of-dynamics-365-marketing-you-are-running) and validate its functionality.
-- Download and save all images (used in emails, pages, etc.) from the source instance before migration. Images will not be migrated to the new tenant.
-
-## The post-migration state of the Marketing app
+## Marketing app status after migration
 
 After tenant to tenant migration, the Marketing instance will be in the following state:
 
@@ -47,6 +40,13 @@ After tenant to tenant migration, the Marketing instance will be in the followin
 - Interaction data from your source instance (such as email clicks or website visits) won't be available to the migrated instance. Most insights data will be initialized. You can freely generate new interaction data on the migrated instance without affecting your source instance.
 - Content assets uploaded to your source instance (such as images used in emails and landing pages) won't be available on the migrated instance. If you go live on the migrated instance with an email or page that was previously published on the source instance, the published design will show defunct links.
 - Other aspects of the org state not specific to Marketing will align with the [general tenant to tenant migration norms](https://docs.microsoft.com/dynamics365/admin/move-instance-tenant).
+
+## Steps to execute before migration
+
+You will need to execute the following steps after migrating a Marketing instance between tenants:
+
+- Ensure that your Marketing app is [up to date](apply-updates.md#find-out-which-version-of-dynamics-365-marketing-you-are-running) and validate its functionality.
+- Download and save all images (used in emails, pages, etc.) from the source instance before migration. Images will not be migrated to the new tenant.
 
 ## Steps to execute after migration
 
