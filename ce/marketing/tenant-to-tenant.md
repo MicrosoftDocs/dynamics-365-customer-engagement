@@ -62,11 +62,11 @@ You may need to execute the following steps after migrating a Marketing instance
 
 ### See also
 
-[Tenant to tenant migration](https://docs.microsoft.com/dynamics365/admin/move-instance-tenant)
-[Manage your Marketing instances](manage-marketing-instances.md)  
-[Transfer data between instances](transfer-data.md)  
-[Transfer customizations between instances](transfer-solution.md)
-[Administer Power Apps](https://docs.microsoft.com/power-platform/admin/admin-guide)  
-[Manage instances](https://docs.microsoft.com/dynamics365/admin/new-instance-management)  
-[Move configuration data across environments and organizations](https://docs.microsoft.com/power-platform/admin/manage-configuration-data)  
-[Import, update, and export solutions](https://docs.microsoft.com/powerapps/maker/common-data-service/import-update-export-solutions)
+[Tenant to tenant migration](https://docs.microsoft.com/dynamics365/admin/move-instance-tenant)<br>
+[Manage your Marketing instances](manage-marketing-instances.md)<br> 
+[Transfer data between instances](transfer-data.md)<br>
+[Transfer customizations between instances](transfer-solution.md)<br>
+[Administer Power Apps](https://docs.microsoft.com/power-platform/admin/admin-guide)<br>
+[Manage instances](https://docs.microsoft.com/dynamics365/admin/new-instance-management)<br>
+[Move configuration data across environments and organizations](https://docs.microsoft.com/power-platform/admin/manage-configuration-data)<br>
+[Import, update, and export solutions](https://docs.microsoft.com/powerapps/maker/common-data-service/import-update-export-solutions)<br>
