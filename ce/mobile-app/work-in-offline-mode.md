@@ -45,7 +45,7 @@ When your admin has [enabled mobile offline](setup-mobile-offline-for-admin.md
     > [!NOTE]
     > If you choose **Skip for now**, you will not be able to use the app in offline mode until you manually download the updates. To manually download updates, from the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Offline Status**. 
 
-2. From the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Offline Status** to see the download status.
+2. To see the download status, from the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Offline Status**.
 
    > [!div class="mx-imgBorder"] 
    > ![Start download updates](media/mobile_offline_download_updates_complete.png "Start download updates")
