@@ -28,12 +28,33 @@ search.app:
   - D365Sales
 ---
 
-# Signing in and signing out
+# Sign in and sign out
 
-Sign in to the Dynamics 365 mobile app using your web address for the Dynamics 365 app that you use. 
+## Sign in with your web address
+
+Sign in using your web address for the Dynamics 365 app and user name and password. 
+
+1. On the sign-in screen, select **Sign in with a web address instead**.
+
+    ![Enter user name and password address](../../../media/userandpassword.png "Enter your user name and password"). 
 
 > [!IMPORTANT]
 > - If you are a [Dynamics 365 US Government](https://docs.microsoft.com/dynamics365/customer-engagement/admin/government/microsoft-dynamics-365-government)(GCC and GCC High)user, you are required to sign in using the web address option.
+
+2. Enter the web address for the Dynamics 365 app that you use, and select ![Sign in](../../../media/signinarrow.png "Dynamics 365  for phones and tablets sign-in"). 
+
+3. On the next screen, enter your user name and password, and select **Sign in**.  
+  
+   A few basic navigation tips appear while your app starts up. Be sure to stay on this screen while your app starts up so any changes can download successfully to your device. If you switch to another app during this time, the processing will restart when you open this one again.    
+
+## Sign out
+  
+1. From your Home page, select ![Dynamics 365 apps ellipsis](../../../media/mobile-ellipsis.png "Dynamics 365 apps ellipsis").  
+  
+2. Select **Settings**.  
+  
+3. Select **Sign Out**.  
+
 
 ### Required services (for admins)
 This list identifies all services to which Dynamics 365 for Phones and Tablets talks and their usages. Your network must **not** block these services.
@@ -42,39 +63,5 @@ This list identifies all services to which Dynamics 365 for Phones and Tablets t
 | --- | --- | --- |
 | service.powerapps.com |https |Starting with version 13.19033.0, used for email sign-in and the app list. |
 
-
-### Sign out
-
-
-1. If you selected the app for version 8.x from the app list above, go to the Home page, tap ![Dynamics 365 apps ellipsis](../../../media/mobile-ellipsis.png "Dynamics 365 apps ellipsis").  
-  
-2. Select **Settings**.  
-  
-3. Select **Sign Out**.  
-
-## Sign in with your web address
-
-You can also sign in using your web address for the Dynamics 365 app and user name and password. 
-
-1. On the sign-in screen, select **Sign in with a web address instead**.
-
-    ![Enter user name and password address](../../../media/userandpassword.png "Enter your user name and password"). 
-
-    > [!NOTE]
-    > If you need help with your sign-in information, contact your Dynamics 365 administrator.
-
-2. Enter the web address for the Dynamics 365 app that you use, and select ![Sign in](../../../media/signinarrow.png "Dynamics 365  for phones and tablets sign-in"). 
-
-3. On the next screen, enter your user name and password, and select **Sign in**.  
-  
-   A few basic navigation tips appear while your app starts up. Be sure to stay on this screen while your app starts up so any changes can download successfully to your device. If you switch to another app during this time, the processing will restart when you open this one again.  
-  
-   Here's how to sign out in case someone else needs to use your device.  
-  
-4. From your Home page, select ![Dynamics 365 apps ellipsis](../../../media/mobile-ellipsis.png "Dynamics 365 apps ellipsis").  
-  
-5. Select **Settings**.  
-  
-6. Select **Sign Out**.  
 
 
