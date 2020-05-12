@@ -4,7 +4,7 @@ description: "Learn about managing session templates in Omnichannel Administrati
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/08/2020
+ms.date: 05/11/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -16,9 +16,9 @@ ms.topic: article
 
 ## Overview
 
-Session template in Omnichannel Administration app is a combination of attributes and application tab information that are reusable.
+A session template in the Omnichannel Administration app is a combination of attributes and application tab information that can be reused.
 
-When an agent accepts an incoming conversation request, a session is started. The system opens the **Customer Summary** application that you (an administrator) defined as an **Anchor Tab** in the application tab panel. The **Anchor Tab** is not closable. Simultaneously, the system expands the communication panel for you to exchange messages with the customer.  
+When an agent accepts an incoming conversation request from a customer, a session is started. The system opens the **Customer Summary** application that you (an administrator) defined as an **Anchor Tab** in the application tab panel. The **Anchor Tab** can't be closed. Simultaneously, the system expands the communication panel for you to exchange messages with the customer.  
 
 Session templates are used to define the aforementioned session experience such as,
 
@@ -26,7 +26,7 @@ Session templates are used to define the aforementioned session experience such 
 - what are the additional application tabs that must be opened when a session is started;
 - what must be the default mode of the communication panel when a session is started.
 
-The Omnichannel Administration app provides out-of-the-box session templates that you can use or create new session templates. In your environment, as an administrator, you can create multiple session templates.
+You can create session templates in the Omnichannel Administration app or use the out-of-the-box templates. In your environment, as an administrator, you can create multiple session templates.
 
 The out-of-the-box session templates are as follows:
 
@@ -49,7 +49,7 @@ To create a session template, follow these steps:
 
 2. Select **Sessions** under **Agent Experience** in the sitemap.
 
-3. Select **+ New** on the **Active Session Templates** page.
+3. Select **New** on the **Active Session Templates** page.
 
 4. Specify the following on the **New Session Templates** page.
 
@@ -61,28 +61,28 @@ To create a session template, follow these steps:
     | General | Description | Provide a description for your reference. | The session template is used for a conversation request from Chat channel. |
     | General | Anchor tab | Select an application from the list. The application is opened by default when the session starts; this application is not closable. | Customer summary |
 
-5. Select **Save** to save the session template. After you save, the **Additional tabs** option appears on the page. 
+5. Select **Save**. After you save, the **Additional tabs** option appears on the page.
 
 6. Select **Add Existing Application Tab Template** to add additional application tabs that you want to be opened when a session is started. Agents can't close this application tab. The **Lookup Records** pane appears.
 
 7. Type the application tab names in the search box and select the search icon. A list of records appears. Select the application tab and select **Add**. The application tab is added to the session.
 
-8. Select the **Agent scripts** tab, and set the **Enable build expression** toggle to **Yes** to define the expression to set an agent script as default for a particular session template. 
+8. Select the **Agent scripts** tab, and set the **Enable build expression** toggle to **Yes** to define the expression to set an agent script as default for a particular session template.
 
 9. Build the expression, and then select **Save and close**. To learn more, see [Set default agent script for agents](agent-scripts.md#set-default-agent-script-for-agents).
 
   > [!Note]
-  > Step 8 and 9 are optional, and applicable only when you've configured agent scripts and enabled productivity pane. To learn more, see [Agent scripts](agent-scripts.md) and [Enable the productivity pane to provide guidance to agents](productivity-pane.md).
+  > Step 8 and 9 are optional, and applicable only when you've configured agent scripts and enabled the productivity pane. To learn more, see [Agent scripts](agent-scripts.md) and [Enable the productivity pane to provide guidance to agents](productivity-pane.md).
 
 10. Select **Save** to save the changes.
 
-   > [!div class=mx-imgBorder] 
+   > [!div class=mx-imgBorder]
    > ![Session template](../media/session-template1.png "Session template")
 
-The session template is configured. Now, you must associate the session template with a workstream. To learn more, see [Associate templates with workstreams](associate-templates.md).
+The session template is configured. Now, you must associate the session template with a work stream. To learn more, see [Associate templates with work streams](associate-templates.md).
 
-## See also
+### See also
 
-- [Manage application tab templates](application-tab-templates.md)
-- [Manage notification templates](notification-templates.md)
-- [Associate templates with workstreams](associate-templates.md)
+[Manage application tab templates](application-tab-templates.md)  
+[Manage notification templates](notification-templates.md)  
+[Associate templates with work streams](associate-templates.md)  

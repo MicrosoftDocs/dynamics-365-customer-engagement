@@ -88,7 +88,7 @@ The application supports the following slugs.
 
 ## Out-of-the-box notification templates
 
- For the supported channels, Omnichannel for Customer Service provides you with out-of-the-box notification templates that you can use in your environment. However, if you customize these templates, make sure to rename and save them to avoid your customizations from being overwritten during an upgrade. When you attach the out-of-the-box notification template, the default settings are used in the notifications. For users whose record exists in Dynamics 365, the settings in the authenticated template for notifications are used. If the user details are not available in Dynamics 365, the settings in the unauthenticated template are used for displaying the notifications. For information on how notifications appear for agents, see [notifications for agents](../agent/agent-oc/oc-notifications.md).
+ For the supported channels, Omnichannel for Customer Service provides you with out-of-the-box notification templates that you can use in your environment. However, if you customize these templates, make sure to rename and save them to avoid your customizations from being overwritten during an upgrade. When you attach the out-of-the-box notification template, the default settings are used in the notifications. For customers whose record exists in Dynamics 365, the settings in the authenticated template for notifications are used. If the customer details are not available in Dynamics 365, the settings in the unauthenticated template are used for displaying the notifications. For information on what the notifications display for agents, see [notifications for agents](../agent/agent-oc/oc-notifications.md).
 
 The out-of-the-box templates are as follows.
 
@@ -225,4 +225,4 @@ As an administrator, you need to customize the notification template to show the
 
 [Manage session templates](session-templates.md)  
 [Manage application tab templates](application-tab-templates.md)  
-[Associate templates with workstreams](associate-templates.md)
+[Associate templates with work streams](associate-templates.md)  
