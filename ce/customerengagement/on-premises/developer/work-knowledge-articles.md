@@ -188,25 +188,19 @@ The Knowledge Management functionality in Dynamics 365 Customer Service has been
 - [KbArticleComment](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/entities/kbarticlecomment) 
 - [KbArticleTemplate](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/entities/kbarticletemplate)  
 
-Deprecatation of the legacy knowledge entities was announced in the, [Important changes coming in future releases of Microsoft Dynamics 365](https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)?redirectedfrom=MSDN#some-knowledge-management-entities). 
+Deprecation of the legacy knowledge entities was announced in the, [Important changes coming in future releases of Microsoft Dynamics 365](https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)?redirectedfrom=MSDN#some-knowledge-management-entities). 
 
-Legacy knowledge entities will no longer be accessable as of December 1, 2020, and you will be automatically migrated to the Unified Interface. 
+Legacy knowledge entities will no longer be accessible as of December 1, 2020.  Automatic migration to Unified Interface is only for Online instances and does not apply to CRM On Premises. Therefore is strongly recommended you move to the new KnowledgeArticle entity now.  For more information about creating a knowledge article in  Unified Interface, see [Create and manage knowledge articles](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-user-guide-knowledge-article).  
 
-It is strongly recommended that you move to the new KnowledgeArticle entity now.  To learn more about creating a knowledge article in the Unified Interface, see [Create and manage knowledge articles](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-user-guide-knowledge-article).  
-
-> [!NOTE]  
-> The KnowledgeArticle entity in the Unified Interface allows all HTML capabilities. Anything that’s supported in a browser (except Javascript) is supported by the KnowledgeArticle entity.  
-
-The following will help with migration:  
-- Use the open source migration tool with [MIT license](https://github.com/microsoft/dynamics365-kbmigration/blob/master/LICENSE).  
+Use the following for help with migration:  
 - Use SDK, WebAPI, or Microsoft Power Automate depending on your scenarios.  
+- Use the open source migration tool with [MIT license](https://github.com/microsoft/dynamics365-kbmigration/blob/master/LICENSE).  
+
 
 > [!IMPORTANT]
 > - The open source migration tool is not support by Microsoft and may need to be modified to suit your scenarios.  
 > - Always run a test environment before using in production.  
 > - Check the license and readme before you use the tool.   
-
-
 
 <a name="EarlierKBArticle"></a>   
 ## Work with earlier Dynamics 365 Customer Engagement (on-premises) knowledge base articles  
