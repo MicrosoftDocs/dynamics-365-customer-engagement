@@ -16,7 +16,7 @@ The new knowledge articles in Dynamics 365 Customer Service enable you to create
  This topic provides information about working with the new native Dynamics 365 Customer Service knowledge management capabilities.  
   
 > [!NOTE]
-> The entities `KBArticle`, `KBArticleTemplate` and `KBArticleComment` are now deprecated. This means that we do not expect you to use these entities anymore and that Microsoft Support will not take queries pertaining to the use of these entities. You must use the newer `KnowledgeArticle` entity for knowledge management in Dynamics 365 Customer Service.  
+> The entities `KBArticle`, `KBArticleTemplate` and `KBArticleComment` are now deprecated. This means that we do not expect you to use these entities anymore and that Microsoft Support will not take queries pertaining to the use of these entities. You must use the newer `KnowledgeArticle` entity for knowledge management in Dynamics 365 Customer Service. More information: [Legacy knowledge entities end of life](#deprecatedentities). 
   
  You can’t programmatically enable the knowledge base management feature for entities in your Dynamics 365 Customer Service instance; it can only be done using the Dynamics 365 Customer Service web client. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up knowledge management](https://go.microsoft.com/fwlink/p/?LinkId=691083)  
   
@@ -163,6 +163,30 @@ _serviceProxy.Associate(Account.EntityLogicalName, accountId, newRelationship, r
  Knowledge articles in Dynamics 365 Customer Service, including their versions and translations, are full-text indexed and support SQL Server full-text search. For more information about full-text search, see [SQL Server: Full-text Search](https://docs.microsoft.com/sql/relational-databases/search/full-text-search).  
   
  Use the <xref:Microsoft.Crm.Sdk.Messages.FullTextSearchKnowledgeArticleRequest> message to search knowledge article from your applications to find the information you are looking for. The <xref:Microsoft.Crm.Sdk.Messages.FullTextSearchKnowledgeArticleRequest> message lets you use inflectional stem matching (allows for a different tense or inflection to be substituted for the search text) and specify query criteria (using FetchXML or QueryExpression to specify filtering, ordering, sorting, and paging) to find knowledge articles with specified text. You can also choose to remove multiple versions of the same articles in the search results and filter on the knowledge article state while searching for a text.  
+
+<a href="deprecatedentities"></a>
+
+## Legacy knowledge entities end of life  
+
+The Knowledge Management functionality in Dynamics 365 Customer Service has been enhanced resulting in the following legacy entities being deprecated:   
+
+- [KbArticle](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/kbarticle) 
+- [KbArticleComment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/kbarticlecomment) 
+- [KbArticleTemplate](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/kbarticletemplate)  
+
+Deprecation of the legacy knowledge entities was announced in the, [Important changes coming in future releases of Microsoft Dynamics 365](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)?redirectedfrom=MSDN#some-knowledge-management-entities). 
+
+Legacy knowledge entities will no longer be accessible as of December 1, 2020. It is strongly recommended you move to the new KnowledgeArticle entity now.  For more information about creating a knowledge article in  Unified Interface, see [Create and manage knowledge articles](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-user-guide-knowledge-article).  
+
+Use the following for help with migration:  
+- Use SDK, WebAPI, or Microsoft Power Automate depending on your scenarios.  
+- Use the open source migration tool with [MIT license](https://github.com/microsoft/dynamics365-kbmigration/blob/master/LICENSE).  
+
+
+> [!IMPORTANT]
+> - The open source migration tool is not support by Microsoft and may need to be modified to suit your scenarios.  
+> - Always run a test environment before using in production.  
+> - Check the license and readme before you use the tool.   
 
 ## See also
 
