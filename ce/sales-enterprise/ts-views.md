@@ -100,7 +100,7 @@ To fix the issue of incorrect customization, follow these steps to make sure you
 1.  In your app, on the nav bar, select the **Settings** icon, and then select **Advanced Settings**.
 
     > [!div class="mx-imgBorder"]
-    > ![Advanced Settings link in the Settings menu](media/advanced-settings-option.png "Advanced Advanced Settings link in the Settings menu")
+    > ![Advanced Settings link in the Settings menu](media/advanced-settings-option.png "Advanced Settings link in the Settings menu")
 
     The **Business Management** settings page opens in a new browser tab.
 
@@ -110,7 +110,7 @@ To fix the issue of incorrect customization, follow these steps to make sure you
 
 4. Under **Components** in the solution explorer, expand **Entities**, expand **Opportunity**, and then select **Forms**.
 
-5. Open the Opportunity form of type **Main**<!--Edit assumes "Main" is a string in the UI.-->.
+5. Open the Opportunity form of type **Main**.
 
 6. Double-click to select the **Connections** section in the **Product Line Items** section.
 
@@ -148,6 +148,57 @@ To fix the issue of incorrect customization, follow these steps to make sure you
 
     -   Hide nested grid column header: Hide Column
 
+## Issue: Unable to save the updated nested bundle items in Product tab 
+
+**Reason**
+
+While working on an opportunity, when I update the nested bundle items in **Product** tab, the save icon is disabled. This error is occuring due to the header of the nested grid column is hidden under **Opportunity Product Inline Edit View** in customizations.  
+
+**Resolution**
+
+To resolve this issue, follow these steps to show the header of the nested grid columns for produicts in opportunity form.
+
+1.  In your app, on the nav bar, select the **Settings** icon, and then select **Advanced Settings**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Advanced Settings link in the Settings menu](media/advanced-settings-option.png "Advanced Settings link in the Settings menu")
+
+    The **Business Management** settings page opens in a new browser tab.
+
+2. On the navigation bar, select **Settings**, and then under **Customization**, select **Customizations**. 
+
+3. Select **Customize the System**.
+
+4. Under **Components** in the solution explorer, expand **Entities**, expand **Opportunity**, and then select **Forms**.
+
+5. Open the **Opportunity** form of form type **Main**.
+
+6. In the **Product Line Items** section, Double-click to select the **Opportunity products** section.
+
+    > [!div class="mx-imgBorder"]
+    > ![Select opportunity products properties](media/troubleshooting-opportunity-products.png "Select opportunity products properties")
+    
+    The **Set Properties** dialog box opens.
+
+    > [!div class="mx-imgBorder"]
+    > ![Set properties of Opportunity Products grid](media/set-properties-opportunity-products-grid.png "Set properties of Opportunity Products grid")
+
+7. On the **Controls** tab, double-click to select **Editable Grid**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Double-click the Editable Grid option](media/editable-grid-option.png "Double-click Editable Grid option")
+
+8. In the **Editable Grid** section, select the pencil icon corrresponding to **Hide nested grid column header** option to edit the properties. 
+    
+    > [!div class="mx-imgBorder"]
+    > ![Open Hide nested grid column header option to edit](media/troubleshooting-hide-nested-grid-column-header.png "Open Hide nested grid column header option to edit")
+
+9. On the **Configure Property** dialog box, select **Bind to static options** as **Show column header**.
+    
+    > [!div class="mx-imgBorder"]
+    > ![Select show column header option](media/troubleshooting-select-show-column-header.png "Select show column header option")
+
+10. Save and publish the configuration.
 
 ### See also
 
