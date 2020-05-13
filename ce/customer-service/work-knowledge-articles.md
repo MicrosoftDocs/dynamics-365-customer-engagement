@@ -174,7 +174,7 @@ The Knowledge Management functionality in Dynamics 365 Customer Service has been
 - [KbArticleComment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/kbarticlecomment) 
 - [KbArticleTemplate](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/kbarticletemplate)  
 
-Deprecation of the legacy knowledge entities was announced in the, [Important changes coming in future releases of Microsoft Dynamics 365](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)?redirectedfrom=MSDN#some-knowledge-management-entities). 
+Deprecation of the legacy knowledge entities was announced in the [Important changes coming in future releases of Microsoft Dynamics 365](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)?redirectedfrom=MSDN#some-knowledge-management-entities). 
 
 Legacy knowledge entities will no longer be accessible as of December 1, 2020. It is strongly recommended you move to the new KnowledgeArticle entity now.  For more information about creating a knowledge article in  Unified Interface, see [Create and manage knowledge articles](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-user-guide-knowledge-article).  
 
