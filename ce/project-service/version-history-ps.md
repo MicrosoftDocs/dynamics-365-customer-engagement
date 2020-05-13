@@ -1,7 +1,7 @@
 ---
 title: Update Release schedule for Project Service 3.x
 ms.custom: dyn365-projectservice
-ms.date: 05/01/2020
+ms.date: 05/13/2020
 ms.reviewer: kfend
 ms.service: dynamics-365-projectservice
 ms.suite: ""
