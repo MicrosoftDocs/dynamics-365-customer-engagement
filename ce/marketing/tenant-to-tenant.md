@@ -41,26 +41,6 @@ After tenant to tenant migration, the Marketing instance will be in the followin
 - Content assets uploaded to your source instance (such as images used in emails and landing pages) won't be available on the migrated instance. If you go live on the migrated instance with an email or page that was previously published on the source instance, the published design will show defunct links.
 - Other aspects of the org state not specific to Marketing will align with the [general tenant to tenant migration norms](https://docs.microsoft.com/dynamics365/admin/move-instance-tenant).
 
-## Steps to execute before migration
-
-You will need to execute the following steps after migrating a Marketing instance between tenants:
-
-- Ensure that your Marketing app is [up to date](apply-updates.md#find-out-which-version-of-dynamics-365-marketing-you-are-running) and validate its functionality.
-- Download and save all images (used in emails, pages, etc.) from the source instance before migration. Images will not be migrated to the new tenant.
-- Portal reset may be required, depending on how the Marketing app is configured on your source instance.
-
-## Steps to execute after migration
-
-You may need to execute the following steps after migrating a Marketing instance between tenants:
-
-- You must [run the setup wizard](purchase-setup.md#run-the-marketing-setup-wizard) on the target instance. The setup wizard will create a new set of marketing services (including a new marketing-insights service) and link them to the target instance. If you don't run the wizard, all features that require services (such as insights and email sending) won't work.
-- You must go live again with any records that you want to use on the target instance.
-- Upload all the images you need to the migrated instance and edit your emails and pages to use those images before going live with them again.
-- Validate the functionality of the Marketing app before resuming business use of the instance.
-- If your source instance used portals:
-    - If the Marketing app on your source instance used a Dynamics 365 Portal, you will need to also set up a new portal _with the same name_ on the target instance to host marketing pages and event websites (requires an unconfigured Dynamics 365 Portals license to be available on your tenant).
-    - If you do not create a portal with the same name on the target instance, URL links associated with the portal will not function properly.
-
 ### See also
 
 [Tenant to tenant migration](https://docs.microsoft.com/dynamics365/admin/move-instance-tenant)<br>
