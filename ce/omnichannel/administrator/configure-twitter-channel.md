@@ -27,7 +27,7 @@ The following are important prerequisites that you must complete before configur
 1.	Create a Twitter handle. More information: [Create and Manage a Twitter business profile](https://business.twitter.com/en/basics/create-a-twitter-business-profile.html)
 2.	Enable direct message for your Twitter handle. More information: [Enable Direct Message](https://help.twitter.com/using-twitter/direct-messages#receive)
 3.	Create a Twitter application. Apply for a developer account, not a team account. Create a Twitter developer environment. More information: [App Development](https://developer.twitter.com/docs/basics/apps/overview)
-4.  Update the Twitter application permissions to **read, write and access Direct Messages**. More information: [App permissions](https://developer.twitter.com/docs/basics/apps/guides/app-permissions)
+4.  Update the Twitter application permissions to read, write and access Direct Messages. More information: [App permissions](https://developer.twitter.com/docs/basics/apps/guides/app-permissions)
 
 After completing the prerequisites, you can add the Twitter channel for your organization by following these steps:
 
