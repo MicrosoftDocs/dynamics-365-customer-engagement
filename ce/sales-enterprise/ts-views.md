@@ -27,7 +27,7 @@ To resolve this issue, you must remove and add back the column that is causing t
 > Before you start resolving the issue, take note of the view for which this error is occurring.
 
 1. Go to **Settings** > **Customizations** > **Customize the System**.
-2. Select the entity > **Views** and select the view that has this error. In this example, we are selecting the entity **Account** and view as **Accounts Being Followed**.
+2. Select the entity > **Views** and select the view that has this error. In this example, we're selecting the entity **Account** and view as **Accounts Being Followed**.
 
     > [!div class="mx-imgBorder"]
     > ![Choose a view from the entity](media/troubleshooting-column-entity-view-selection.png "Choose a view from the entity")
@@ -46,7 +46,7 @@ To resolve this issue, you must remove and add back the column that is causing t
 
     The column is removed from the view.
 
-5. Add back the column that you have deleted. Select **Add Columns** and re-add the column that you removed. In this example, we are adding  the column **Email (Primary Contact)** that was removed.
+5. Add back the column that you've deleted. Select **Add Columns** and readd the column that you removed. In this example, we're adding  the column **Email (Primary Contact)** that was removed.
 
     > [!div class="mx-imgBorder"]
     > ![Adding back the removed column](media/troubleshooting-column-add-back-column-view.png "Adding back the removed column")
@@ -66,7 +66,7 @@ To resolve this issue, you must edit or remove filters for the view. This will e
 > Before you start resolving the issue, take note of the view for which this error is occurring.
 
 1. Go to **Settings** > **Customizations** > **Customize the System**.
-2. Select the entity > **Views** and select the view that has this error. In this example, we are selecting the entity **Account** and view as **Accounts I Follow**.
+2. Select the entity > **Views** and select the view that has this error. In this example, we're selecting the entity **Account** and view as **Accounts I Follow**.
 
     > [!div class="mx-imgBorder"]
     > ![Choose a view from the entity](media/troubleshooting-record-entity-view-selection.png "Choose a view from the entity")
@@ -152,11 +152,11 @@ To fix the issue of incorrect customization, follow these steps to make sure you
 
 **Reason**
 
-While working on an opportunity, when I update the nested bundle items in **Product** tab, the save icon is disabled. This error is occuring due to the header of the nested grid column is hidden under **Opportunity Product Inline Edit View** in customizations.  
+While working on an opportunity, when I update the nested bundle items in **Product** tab, the save icon is disabled. This error is occurring due to the header of the nested grid column is hidden under **Opportunity Product Inline Edit View** in customizations.  
 
 **Resolution**
 
-To resolve this issue, follow these steps to show the header of the nested grid columns for produicts in opportunity form.
+To resolve this issue, follow these steps to show the header of the nested grid columns for products in opportunity form.
 
 1.  In your app, on the nav bar, select the **Settings** icon, and then select **Advanced Settings**.
 
@@ -188,7 +188,7 @@ To resolve this issue, follow these steps to show the header of the nested grid 
     > [!div class="mx-imgBorder"]
     > ![Double-click the Editable Grid option](media/editable-grid-option.png "Double-click Editable Grid option")
 
-8. In the **Editable Grid** section, select the pencil icon corrresponding to **Hide nested grid column header** option to edit the properties. 
+8. In the **Editable Grid** section, select the pencil icon corresponding to **Hide nested grid column header** option to edit the properties. 
     
     > [!div class="mx-imgBorder"]
     > ![Open Hide nested grid column header option to edit](media/troubleshooting-hide-nested-grid-column-header.png "Open Hide nested grid column header option to edit")
