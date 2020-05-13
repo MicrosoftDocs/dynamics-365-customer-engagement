@@ -24,7 +24,7 @@ The new knowledge articles in Dynamics 365 Customer Service enable you to create
 ## Create a knowledge article  
  When you create a knowledge article record, Dynamics 365 Customer Service internally creates a root article for the record. The root article acts as a container for the primary knowledge article created by you along with all the article versions and translations that you might create in future. The following diagram depicts the entity model for the `KnowledgeArticle` entity.  
   
- ![KnowledgeArticle entity model](media/crm-knowledgearticleentitymodel.png "KnowledgeArticle entity model")  
+ ![KnowledgeArticle entity model](../customerengagement/on-premises/developer/media/crm-knowledgearticleentitymodel.png "KnowledgeArticle entity model")  
   
  When you create a knowledge article record, it’s created in the `Draft` state. Using the new `KnowledgeArticle` entity, you can create an article by specifying its contents and formatting in the HTML format as compared to using the old `KbArticle` entity where you had to associate it with a template that described the sections and formatting for the article. You can specify your own value for the `KnowledgeArticle`.`ArticlePublicNumber` attribute while creating a knowledge article record programmatically; otherwise, the value is automatically generated based on the format you specified in the Dynamics 365 Customer Service settings area in the web client. The `KnowledgeArticle`.`ArticlePublicNumber` attribute stores the ID exposed to customers, partners, and other external users to reference and look up knowledge articles, and remains the same across knowledge article versions and translations.  
   
@@ -162,9 +162,9 @@ _serviceProxy.Associate(Account.EntityLogicalName, accountId, newRelationship, r
 
 ## See also
 
-- [Knowledge Base Entities](knowledge-management-entities.md)
-- [KnowledgeArticle Entity](entities/knowledgearticle.md)
-- [KnowledgeArticleViews Entity](entities/knowledgearticleviews.md)
-- [KnowledgeBaseRecord Entity](entities/knowledgebaserecord.md)
-- [LanguageLocale Entity](entities/languagelocale.md)
+- [Knowledge Base Entities](../customerengagement/on-premises/developer/knowledge-management-entities.md)
+- [KnowledgeArticle Entity](../customerengagement/on-premises/developer/entities/knowledgearticle.md)
+- [KnowledgeArticleViews Entity](../customerengagement/on-premises/developer/entities/knowledgearticleviews.md)
+- [KnowledgeBaseRecord Entity](../customerengagement/on-premises/developer/entities/knowledgebaserecord.md)
+- [LanguageLocale Entity](../customerengagement/on-premises/developer/entities/languagelocale.md)
 - [Important changes coming in future releases of Microsoft Dynamics 365](https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)?redirectedfrom=MSDN#bkmk_CrmKMEntities) 
