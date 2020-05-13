@@ -17,7 +17,7 @@ search.app:
 # KbArticleTemplate Entity Reference
 
 > [!NOTE]
-> This entity is now deprecated. This means that we do not expect you to use this entity anymore and that Microsoft Support will not take queries pertaining to the use of this entity. You must use the newer `KnowledgeArticle` entity for knowledge management in Dynamics 365 Customer Service.  
+> This entity is now deprecated. This means that we do not expect you to use this entity anymore. You must use the newer `KnowledgeArticle` entity for knowledge management in Dynamics 365 Customer Service.  
 
 Template for a knowledge base article that contains the standard attributes of an article.
 

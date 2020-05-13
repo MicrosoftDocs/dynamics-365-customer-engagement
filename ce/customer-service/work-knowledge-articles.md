@@ -11,18 +11,20 @@ search.audienceType:
 
 # Work with knowledge articles
 
-The new knowledge articles in Dynamics 365 Customer Service enable you to create rich knowledge articles along with versioning and translation support. When you create and publish a knowledge article, it become available to users in your Customer Engagement (on-premises) instance so that they can use information in the articles to effectively service the customers. Use the `KnowledgeArticle` entity to store and manage knowledge natively in Dynamics 365 Customer Service.  
+The new knowledge articles in Dynamics 365 Customer Service enable you to create rich knowledge articles along with versioning and translation support. When you create and publish a knowledge article, it become available to users in your Dynamics 365 Customer Service instance so that they can use information in the articles to effectively service the customers. Use the `KnowledgeArticle` entity to store and manage knowledge natively in Dynamics 365 Customer Service.  
   
  This topic provides information about working with the new native Dynamics 365 Customer Service knowledge management capabilities.  
   
 > [!NOTE]
-> The entities `KBArticle`, `KBArticleTemplate` and `KBArticleComment` are now deprecated. This means that we do not expect you to use these entities anymore and that Microsoft Support will not take queries pertaining to the use of these entities. You must use the newer `KnowledgeArticle` entity for knowledge management in Dynamics 365 Customer Service. More information: [Legacy knowledge entities end of life](#deprecatedentities). 
+> The entities `KBArticle`, `KBArticleTemplate` and `KBArticleComment` are now deprecated. This means that we do not expect you to use these entities anymore. You must use the newer `KnowledgeArticle` entity for knowledge management in Dynamics 365 Customer Service. More information: [Legacy knowledge entities end of life](#deprecatedentities). 
   
- You can’t programmatically enable the knowledge base management feature for entities in your Dynamics 365 Customer Service instance; it can only be done using the Dynamics 365 Customer Service web client. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up knowledge management](https://go.microsoft.com/fwlink/p/?LinkId=691083)  
+You can’t programmatically enable the knowledge base management feature for entities in your Dynamics 365 Customer Service instance; it can only be done using the Dynamics 365 Customer Service web client. More information: [Set up knowledge management](https://go.microsoft.com/fwlink/p/?LinkId=691083)  
   
 <a name="Create"></a>   
+
 ## Create a knowledge article  
- When you create a knowledge article record, Dynamics 365 Customer Service internally creates a root article for the record. The root article acts as a container for the primary knowledge article created by you along with all the article versions and translations that you might create in future. The following diagram depicts the entity model for the `KnowledgeArticle` entity.  
+
+When you create a knowledge article record, Dynamics 365 Customer Service internally creates a root article for the record. The root article acts as a container for the primary knowledge article created by you along with all the article versions and translations that you might create in future. The following diagram depicts the entity model for the `KnowledgeArticle` entity.  
   
  ![KnowledgeArticle entity model](../customerengagement/on-premises/developer/media/crm-knowledgearticleentitymodel.png "KnowledgeArticle entity model")  
   
