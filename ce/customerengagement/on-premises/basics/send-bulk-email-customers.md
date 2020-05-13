@@ -1,7 +1,7 @@
 ---
 title: "Send bulk email to customers (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/15/2017
+ms.date: 05/05/2020 
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -20,6 +20,8 @@ search.app:
   - D365CE
 ---
 # Send bulk email to customers
+
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [View and create email through the Activities grid](/powerapps/user/view-create-email)
 
 You can send the same message to multiple recipients using email templates. This is known as *direct* or *bulk* emailing. You can also use mail merge with [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] and [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] templates to create the message.  
   

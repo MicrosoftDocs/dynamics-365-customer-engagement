@@ -2,7 +2,7 @@
 title: "Field Service Version History | MicrosoftDocs"
 ms.custom:
   - dyn365-fieldservice
-ms.date: 04/24/2020
+ms.date: 04/28/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -28,16 +28,74 @@ search.app:
 
 # Field Service version history
 
-## Latest versions
+## Latest version availability
 
 | Solution  | Latest version | Download links  |
 |-------|----|------|
-| Field Service                        |  8.8.+           | [https://trials.dynamics.com](https://trials.dynamics.com).   See additional notes at the end of this document.                  |
+| Field Service     |  8.8.+  | [Upgrade](./upgrade-field-service.md) or [create a new trial](https://trials.dynamics.com)   |
 | Field Service Mobile                 | 12.1.+          | [Windows](https://aka.ms/fsmobile-windows),   [iOS](https://aka.ms/fsmobile-ios), and   [Android](https://aka.ms/fsmobile-android) |
 | Mobile Configuration Tool (Woodford) | 12.1.+          | [Direct download link (English only)](https://aka.ms/fsmobile-configurator)                                                       |
 | Mobile Project Template              | 1.0.3514       | [Direct download link (English only)](https://aka.ms/fsmobile-project)      |
 
-For information about other updates to Field Service, visit the [Dynamics 365 Release Plans](https://docs.microsoft.com/dynamics365/release-plans/). 
+Release For information about other updates to Field Service, visit the [Dynamics 365 Release Plans](https://docs.microsoft.com/dynamics365/release-plans/). 
+
+|  | Region | Current Version | Next Version |  Scheduled Date
+| :---   | :---   | :---   | :---   |:---   |         
+|<strong>Station 1</strong> | |  |  | |
+| | <i>First Release</i> |[8.8.22.57](https://docs.microsoft.com/dynamics365/field-service/version-history#882257)| TBD | 05/29/20
+|<strong>Station 2</strong> | |  |  | |
+| | <i>South America</i> |[8.8.22.57](https://docs.microsoft.com/dynamics365/field-service/version-history#882257)|  TBD | 05/29/20
+| | <i>Canada</i> |[8.8.22.57](https://docs.microsoft.com/dynamics365/field-service/version-history#882257)| TBD | 05/29/20 
+| | <i>India</i> |[8.8.22.57](https://docs.microsoft.com/dynamics365/field-service/version-history#882257)| TBD | 05/29/20
+| | <i>France</i> |[8.8.22.57](https://docs.microsoft.com/dynamics365/field-service/version-history#882257)|  TBD | 05/29/20
+| | <i>United Arab Emirates</i> |[8.8.22.57](https://docs.microsoft.com/dynamics365/field-service/version-history#882257)|  TBD | 05/29/20
+| | <i>South Africa</i> |[8.8.22.57](https://docs.microsoft.com/dynamics365/field-service/version-history#882257)|  TBD | 05/29/20
+| | <i>Germany</i> |[8.8.22.57](https://docs.microsoft.com/dynamics365/field-service/version-history#882257)| TBD | 05/29/20
+|<strong>Station 3</strong> | |  |  | |
+| | <i>Japan</i> |[8.8.22.57](https://docs.microsoft.com/dynamics365/field-service/version-history#882257)|TBD | 06/05/2020 
+| | <i>Asia Pacific</i> |[8.8.22.57](https://docs.microsoft.com/dynamics365/field-service/version-history#882257)|TBD | 06/05/2020 
+| | <i>Great Britain</i> |[8.8.22.57](https://docs.microsoft.com/dynamics365/field-service/version-history#882257)|TBD | 06/05/2020 
+| | <i>Oceana</i> |[8.8.22.57](https://docs.microsoft.com/dynamics365/field-service/version-history#882257)|TBD | 06/05/2020
+|<strong>Station 4</strong> | |  |  | |
+| | <i>Europe</i> |[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| [8.8.22.57](https://docs.microsoft.com/dynamics365/field-service/version-history#882257) | 05/15/2020
+|<strong>Station 5</strong> | |  |  | |
+| | <i>North America</i> |[8.8.11.19](https://docs.microsoft.com/dynamics365/field-service/version-history#881119)| [8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122) | 05/15/2020
+|<strong>Station 6</strong> | |  |  | |
+| | <i>Goverment Community Cloud</i> |[8.8.11.19](https://docs.microsoft.com/dynamics365/field-service/version-history#881119)|  [8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| 05/22/2020
+| | <i>China</i> |[8.8.11.19](https://docs.microsoft.com/dynamics365/field-service/version-history#881119)| [8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| 05/22/2020
+
+## 8.8.22.57 
+
+- The following [Field Service 2020 Wave 1](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-field-service/planned-features) features in GA and Preview planned are included in this release:
+  - Incident type AI-based suggestions (preview)
+  - IoT alerts AI-based suggestions (preview)
+  - Leverage Power Automate flows (preview)
+  - Combined asset capabilities across Dynamics 365 Supply Chain Management and Field Service
+  - Integration with Dynamics 365 Supply Chain Management
+  - Intune support for Field Service Mobile
+  - Next generation schedule board experience (preview)
+  - Enhanced work hours calendar for resources
+  - Requirement dependency for efficient workflow
+  - Resource scheduling dashboard
+  - Integrated technician time tracking
+  - Technician time-capture precision
+- This release also includes all fixes included in the [8.8.14.328 EA package](https://docs.microsoft.com/dynamics365/field-service/version-history#8814328-2020-wave-1-early-access).
+- Corrected some scenarios where the geo code function was being called when "Auto Geo Code Addresses" was set to no.
+- Corrected scenario where msdyn_payment was null on payment details which was improperly throwing the following error "The payment amount can't be less than total amount applied to invoices."
+- Fixed an issue where price list not changing based on changes to work order's billing account. For organizations experiencing this issue, a fix is made available through the "Advanced Settings" field in the Field Service Settings entity, in an effort to not introduce a potentially disruptive change at this time. Copy the following string into the hidden field:  
+
+>  *workorder.pricelist.usefrombillingaccount*
+
+- Resolved an issue where the time-only control misinterpreted daylight savings time for certain timezones.
+- Fixed an issue where form logic was not respecting environment configurations on the Lead entity. Customers can now set fields, like "Company," to be business required and the Field Service form logic will respect the setting.
+- Corrected an issue on Work Order Service where the "Total Amount" was not respecting the "Discount" when used in an editable grid.
+- Removed the validation on Bookable Resource which required each Bookable Resource's name to be unique.
+- Fixed an error on the Quote Booking Product where, under certain circumstances, the system would inaccurately throw the following error, "Enter an amount between $0.00 and $922,337,203,685,477.00."
+- Fixed an issue on Work Order quick create from Account where the Billing Account did not populate, correctly.
+- Improved Customer Asset lookup experience from Work Order Incident to ensure the form respects when organizations define their own default lookup view.
+- Resolved an issue where, in certain timezones, Agreement Booking Setup's Preferred Start Time was not appropriately setting on Agreement Booking Dates' Booking Date and the subsequently auto-created Bookable Resource Booking based on the defined "Preferred Start Time."
+- Fixed a scenario where, if an environment sets the default value of msdyn_linestatus to "Used," Work Order Service creation would fail.
+- Added a null reference check to correct an issue if Work Order Service's "Duration to Bill" was not set.
 
 ## 8.8.12.2 
 
@@ -56,6 +114,8 @@ For information about other updates to Field Service, visit the [Dynamics 365 Re
 > The “Advanced Settings” field on Field Service Settings is not added to the entity form by default.  
 
 ## 8.8.11.19
+
+**Available in all regions by April 2020**
 
 - Fixed an issue where Agreement Booking Date generation fails when Agreement is owned by a team.
 - Resolved an issue where Field Service client side logic fails when using contact form while in offline.
@@ -100,6 +160,8 @@ For more information about early access features, visit the [opt-in instructions
 - Improved the warning notification message on the "Geo Code Address” button when Bing maps is disabled.
 
 ## 8.8.10.44
+
+**Available in all regions**
 
 - Agreement Booking Service Task's Name is overwritten when the related task type changes.
 - Cannot complete booking that has travel time if the Travel Charge Type on the related Work Order's Account is null.
@@ -157,7 +219,7 @@ For more information about early access features, visit the [opt-in instructions
 
 ## 8.5.0.345
 
-[Read a blog post about this update.8.5.0.345](https://cloudblogs.microsoft.com/dynamics365/it/2019/03/07/release-notes-for-field-service-version-8-5-0-345/)  
+[Read a blog post about this update.](https://cloudblogs.microsoft.com/dynamics365/it/2019/03/07/release-notes-for-field-service-version-8-5-0-345/)  
 
 
 ## 8.4.0.338
@@ -177,54 +239,6 @@ For more information about early access features, visit the [opt-in instructions
 
 [Read a blog post about this update.](https://cloudblogs.microsoft.com/dynamics365/it/2019/08/11/enhancements-and-bug-fixes-for-field-service-version-8-8-2-160/)
 
-## 7.5.13.73
-
-[Read a blog post about this update.](https://cloudblogs.microsoft.com/dynamics365/it/2019/09/10/enhancements-and-bug-fixes-for-field-service-version-7-5-13-73/)
-
-
-## 7.5.12.53
-
-[Read a blog post about this update.](https://cloudblogs.microsoft.com/dynamics365/it/2019/08/06/enhancements-and-bug-fixes-for-field-service-version-7-5-12-53/)
-
-## 7.5.11.102
-
-[Read a blog post about this update.](https://cloudblogs.microsoft.com/dynamics365/it/2019/07/07/enhancements-and-bug-fixes-for-field-service-version-7-5-11-102/)
-
-
-## 7.5.10.235
-
-[Read a blog post about this update.](https://cloudblogs.microsoft.com/dynamics365/it/2019/06/10/release-notes-for-field-service-version-7-5-10-235/)
-
-
-## 7.5.9.91
-
-[Read a blog post about this update.](https://cloudblogs.microsoft.com/dynamics365/it/2019/05/06/release-notes-for-field-service-version-7-5-9-91/)
-
-
-## 7.5.8.93
-
-[Read a blog post about this update.](https://cloudblogs.microsoft.com/dynamics365/it/2019/04/06/release-notes-for-field-service-version-7-5-8-93/)
-
-
-## 7.5.7.87
-
-[Read a blog post about this update.](https://cloudblogs.microsoft.com/dynamics365/it/2019/03/07/release-notes-for-field-service-version-7-5-7-87/)
-
-
-## 7.5.6.97
-
-[Read a blog post about this update.](https://cloudblogs.microsoft.com/dynamics365/it/2019/02/04/release-notes-for-field-service-version-7-5-6-97/)
-
-
-## 7.5.12.53
-
-[Read a blog post about this update.](https://cloudblogs.microsoft.com/dynamics365/it/2018/12/05/release-notes-for-field-service-version-7-update-release-11/)
-
-
-## 7.5.5.48
-
-[Read a blog post about this update.](https://cloudblogs.microsoft.com/dynamics365/it/2018/11/08/release-notes-for-field-service-version-7-update-release-10/)
-
 
 ## Field Service On-Premise
 
@@ -236,6 +250,8 @@ For more information about early access features, visit the [opt-in instructions
 ## Important notes
 
 ### Field Service Online End-of-Life for v7.x and earlier
+
+[Version history notes for v7.x](https://cloudblogs.microsoft.com/dynamics365/it/product/field-service/field-service-7/)
 
 Online versions of Field Service v7 and earlier are [end of life](https://cloudblogs.microsoft.com/dynamics365/it/2019/05/17/announcing-end-of-life-for-field-service-online-legacy-versions-by-february-2020/) and no longer supported. Any support requests you submit for these versions of FS, will not be serviced by Microsoft until you upgrade to the latest version.
  

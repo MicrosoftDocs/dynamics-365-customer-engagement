@@ -2,7 +2,7 @@
 redirect_url: https://docs.microsoft.com/powerapps/user/add-powerbi-dashboards
 title: "Add or edit Power BI visualizations on your dashboard (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/15/2019
+ms.date: 05/05/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -21,6 +21,8 @@ search.app:
   - D365CE
 ---
 # Add or edit Power BI visualizations on your dashboard
+
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Add or edit Power BI visualizations on your dashboard](/powerapps/user/add-powerbi-dashboards)
 
 Create rich, interactive reports and real-time visualizations in Dynamics 365 Customer Engagement (on-premises) with [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] dashboards and  tiles that you add  to your personal dashboards.  
   
@@ -68,7 +70,7 @@ Create rich, interactive reports and real-time visualizations in Dynamics 365 Cu
   
  ![Embed Power BI tile features](../basics/media/embed-powerbi-tile-features.PNG "Embed Power BI tile features")  
   
-1. Click the **Refresh** button ![Refresh button](../basics/media/embed-pbi-tile-refresh-button.PNG "Refresh button") to refresh the tile’s underlying report data.  
+1. Click the **Refresh** button ![Refresh button](../basics/media/embed-pbi-tile-refresh-button.PNG "Refresh button") to refresh the tile's underlying report data.  
   
 2. Click the **Open in Power BI** button ![Open in Power BI button](../basics/media/open-in-power-bi.PNG "Open in Power BI button") to open the [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] dashboard that contains the visualization  in a new browser tab.  
   

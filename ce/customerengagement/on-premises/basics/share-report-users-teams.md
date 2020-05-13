@@ -1,7 +1,7 @@
 ---
 title: "Share a report with other users or teams (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/15/2017
+ms.date: 05/05/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -20,6 +20,8 @@ search.app:
   - D365CE
 ---
 # Share a report with other users or teams
+
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Work with reports](/powerapps/user/work-with-reports)
 
 When you create a new report, share it with other people on your team or in your organization so that they can also benefit from it. There are several ways that you can share your new report with other people.  
   

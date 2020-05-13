@@ -90,6 +90,7 @@
 ### [Insert an email template](insert-email-template.md)
 ### [Create PDF documents](create-quote-pdf.md)
 ### [Print quote, invoice, or other records](print-records.md)
+### [Assign or share records](/powerapps/user/assign-or-share-records)
 ### [Track and manage activities](manage-activities.md) 
 ### [Work with activities in the Kanban view](activity-kanban-view.md)  
 

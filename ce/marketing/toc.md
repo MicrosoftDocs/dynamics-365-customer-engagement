@@ -24,6 +24,7 @@
 #### [Manage Marketing instances](manage-marketing-instances.md)
 #### [Transfer data between instances](transfer-data.md)
 #### [Transfer customizations between instances](transfer-solution.md)
+#### [Tenant to tenant migration](tenant-to-tenant.md)
 #### [Keep Marketing up to date](apply-updates.md)
 #### [Uninstall Marketing](uninstall-marketing.md)
 
@@ -73,6 +74,7 @@
 #### [Set up form double opt-in](form-double-opt-in.md)
 #### [How the app uses cookies](cookies.md)
 
+### [Best practices for administration](admin-best-practices.md)
 ### [Best practices for email marketing](get-ready-email-marketing.md)
 ### [Email policies and suspension standards](email-policies.md)
 ### [Administration and setup FAQ](setup-troubleshooting.md)

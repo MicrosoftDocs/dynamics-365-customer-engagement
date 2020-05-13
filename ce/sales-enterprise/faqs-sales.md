@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Frequently asked questions for Dynamics 365 Sales"
-ms.date: 10/01/2019
+ms.date: 04/30/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -45,6 +45,23 @@ manager: shubhadaj
 
 To verify whether system pricing calculation is enabled, make sure that the **Use system pricing calculation** setting in **System Settings** is set to **Yes**. More information: [System Settings dialog box - Sales tab](system-settings-sales-tab.md) 
 
+
+<a name="fields-locked"> </a>
+**Question:**<br>
+Why are some fields editable while some are locked in the Product subgrid in the Opportunity, Quote, Order, and Invoice records?
+
+**Answer:**<br>
+There are certain restrictions on inline editing based on the type of products in the subgrid:
+
+-   If the product in the subgrid is an individual product and an existing product from the product catalog, all fields except the Quantity and Discount are locked for editing.
+
+-   If the product in the subgrid is an individual product and a write-in product from the product catalog, all fields except the Product Name, Quantity, and Discount are locked for editing.
+
+-   If the product in the subgrid is a product bundle or an optional product of a bundle, all fields except Quantity and Discount are locked for editing.
+
+-   If the product in the subgrid is a required product from an existing product bundle, all fields in the subgrid view are locked for editing.
+
+
 ## Entities: Opportunity Product, Quote Product, Order Product, and Invoice Product 
 
 > [!NOTE]
@@ -76,7 +93,7 @@ To verify whether system pricing calculation is enabled, make sure that the **Us
 
 **Question**:<br>For a particular **Order** form, how can I change the state of **Prices Locked** field?
 
-**Answer**:<br> You can change the state for the **Prices Locked** field through inline editable grid. Select the **Lock** icon on the editable grid and the state of the **Prices Locked** field changes accordingly. 
+**Answer**:<br> You can change the state for the **Prices Locked** field through the inline editable grid. Select the **Lock** icon on the editable grid, and the state of the **Prices Locked** field changes accordingly. 
 
 In the legacy web client: 
   > [!div class="mx-imgBorder"]
@@ -86,13 +103,13 @@ In Unified Interface:
   > [!div class="mx-imgBorder"]
   > ![Edit pricing for a product in Unified Interface](media/faqs-edit-pricing-for-product-uci.png "Edit pricing for a product in Unified Interface")
 
-**Question**:<br>When can I change the values in **Pricing Per Unit** column in the **Products** grid?
+**Question**:<br>When can I change the values in the **Pricing Per Unit** column in the **Products** grid?
 
-**Answer**:<br>The **Prices Locked** (ispricelocked) field controls the prices specified on the **Order** form and locks them from any further updates.<br>
+**Answer**:<br>The **Prices Locked** (ispricelocked) field controls the prices specified on the **Order** form and locks them from any further updates.
 
-These tables define the behavior of **PricePerUnit** in the **Products** subgrid and **Order** product form:<br> 
+These tables define the behavior of **PricePerUnit** in the **Products** subgrid and **Order** product form: 
 
-**For existing product**:
+**For existing products**:
  
 |Configuration| In editable grid – **PricePerUnit** column value| In non-editable grid – **PricePerUnit** column value| **Order** product form|
 |-------------|-------------|-------------|-------------|
@@ -100,7 +117,7 @@ These tables define the behavior of **PricePerUnit** in the **Products** subgrid
 |**Prices Locked** is No and **Pricing** is Override Price|Editable|Non-editable|Editable|
 |**Prices Locked** is No and **Pricing** is Use Default|Non-editable|Non-editable|Non-editable|
 
-**For write-in product**:
+**For write-in products**:
 
 |Configuration| In editable grid – **PricePerUnit** column value| In non-editable grid – **PricePerUnit** column value| **Order** product form|
 |-------------|-------------|-------------|-------------|
