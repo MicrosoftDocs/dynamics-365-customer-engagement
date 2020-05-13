@@ -6,7 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 applies_to: 
   - ""
-ms.date: 05/05/2020
+ms.date: 05/12/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -37,9 +37,7 @@ To find out if Omnichannel for Customer Service is available in your region, see
 ### Licensing
 
 - You must have an active subscription to Microsoft Dynamics 365 Customer Service Enterprise in your tenant for each Digital Messaging or Chat user.
-
 - You must have an active subscription to the Dynamics 365 Customer Service Digital Messaging add-on for each Digital Messaging user or Dynamics 365 Customer Service Chat for each Chat user.
-
 - Use of historical Supervisor reporting through **Omnichannel Intraday Insights**, **Omnichannel Chat Insights**, and **Omnichannel Sentiment Insights Dashboards** also requires Power BI Pro license or higher for each individual in a Supervisor role.
 
 ## System and hardware requirements of Omnichannel for Customer Service with web experience
@@ -47,7 +45,7 @@ To find out if Omnichannel for Customer Service is available in your region, see
 | Area | Requirements | 
 |----------|----------|
 | Model-driven app | Dynamics 365 Customer Service app version 9.1.0000.3653 or higher  |
-| Web browsers | Supported browsers: <li>Microsoft Edge (recommended: [Chromium-based Edge](https://support.microsoft.com/en-us/help/4501095/download-the-new-microsoft-edge-based-on-chromium)) </li><li>Google Chrome</li> |
+| Web browsers | Supported browsers: <li> Microsoft Edge version 79.0.309.65 ([Chromium-based Edge](https://support.microsoft.com/en-us/help/4501095/download-the-new-microsoft-edge-based-on-chromium)) </li><li>Google Chrome</li> |
 
 For hardware and other requirements, see [Model-driven app requirements](../admin/online-requirements.md).
 
@@ -74,10 +72,9 @@ See [Provision Omnichannel for Customer Service](administrator/omnichannel-provi
 To upgrade Omnichannel, see [Upgrade Omnichannel for Customer Service](administrator/upgrade-omnichannel.md).
 
 > [!NOTE]
+>
 > - Omnichannel for Customer Service is not supported with Dynamics 365 Customer Engagement (on-premises).
->
 > - Omnichannel for Customer Service is supported only on desktops, and not on phones and tablets.
->
 > - Omnichannel for Customer Service for other regions will be available in the future.
 
 ## Allow access to websites or URLs
@@ -114,7 +111,7 @@ Customers must be able to access the following URLs from their browsers in order
 - `https://*.asm.skype.com`
 - `https://*.ng.msg.teams.microsoft.com/*`
 
-**Geo-specific URLs**
+### Geo-specific URLs
 
 | Geographic location | URL |
 |-------------------------------|----------------------------------|
@@ -130,7 +127,7 @@ Customers must be able to access the following URLs from their browsers in order
 | Australia | `oc-cdn-public-oce.azureedge.net/*`|
 | France | `oc-cdn-public-fra.azureedge.net/*`|
 
-**Government Community Cloud (GCC)**
+### Government Community Cloud (GCC)
 
 - `https://ocprodocprodnamgs.blob.core.usgovcloudapi.net`
 - `https://*.omnichannelengagementhub.us/*`
@@ -141,11 +138,10 @@ Customers must be able to access the following URLs from their browsers in order
 - `https://api.ams.gcc.teams.microsoft.com/*`
 - `https://browser.pipe.aria.microsoft.com/*`
 
-
 ### See also
 
-- [Introduction](introduction-omnichannel.md)
-- [Administrator guide](administrator/omnichannel-administrator.md)
-- [Agents using Unified Service Desk](agent/agent-usd/omnichannel-agent.md)
-- [Agents using Omnichannel for Customer Service app](agent/agent-oc/omnichannel-customer-service-app-agent.md)
-- [System customizers guide](customizer/omnichannel-customizer.md)
+[Introduction](introduction-omnichannel.md)  
+[Administrator guide](administrator/omnichannel-administrator.md)  
+[Agents using Unified Service Desk](agent/agent-usd/omnichannel-agent.md)  
+[Agents using Omnichannel for Customer Service app](agent/agent-oc/omnichannel-customer-service-app-agent.md)  
+[System customizers guide](customizer/omnichannel-customizer.md)  
