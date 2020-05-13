@@ -190,7 +190,7 @@ The Knowledge Management functionality in Dynamics 365 Customer Service has been
 
 Deprecation of the legacy knowledge entities was announced in the, [Important changes coming in future releases of Microsoft Dynamics 365](https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)?redirectedfrom=MSDN#some-knowledge-management-entities). 
 
-Legacy knowledge entities will no longer be accessible as of December 1, 2020.  Automatic migration to Unified Interface is only for Online instances and does not apply to CRM On Premises. Therefore is strongly recommended you move to the new KnowledgeArticle entity now.  For more information about creating a knowledge article in  Unified Interface, see [Create and manage knowledge articles](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-user-guide-knowledge-article).  
+Legacy knowledge entities will no longer be accessible as of December 1, 2020. It is strongly recommended you move to the new KnowledgeArticle entity now.  For more information about creating a knowledge article in  Unified Interface, see [Create and manage knowledge articles](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-user-guide-knowledge-article).  
 
 Use the following for help with migration:  
 - Use SDK, WebAPI, or Microsoft Power Automate depending on your scenarios.  
