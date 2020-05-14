@@ -13,12 +13,12 @@ search.audienceType:
 
 The new knowledge articles in Dynamics 365 Customer Service enable you to create rich knowledge articles along with versioning and translation support. The new knowledge experience uses the `KnowledgeArticle` entity to store and manage knowledge natively in Dynamics 365 Customer Service.  
   
-This topic provides information about working with the new native Dynamics 365 Customer Service knowledge management capabilities.  
+This topic provides information about working with the new native knowledge management capabilities in Dynamics 365 Customer Service.  
   
 > [!NOTE]
 > The entities `KBArticle`, `KBArticleTemplate` and `KBArticleComment` are now deprecated. This means that we do not expect you to use these entities anymore. You must use the newer `KnowledgeArticle` entity for knowledge management in Dynamics 365 Customer Service. For more information, see the section **Legacy knowledge entities end of life** at the end of this topic. 
   
-You can’t programmatically enable the knowledge base management feature for entities in your Dynamics 365 Customer Service instance; it can only be done using the Dynamics 365 Customer Service web client. More information: [Set up knowledge management](https://go.microsoft.com/fwlink/p/?LinkId=691083)  
+You can’t programmatically enable the knowledge base management feature for entities in your Dynamics 365 Customer Service instance; it can only be done using the Dynamics 365 Customer Service web client. More information: [Set up knowledge management](https://go.microsoft.com/fwlink/p/?LinkId=691083).  
   
 <a name="Create"></a>   
 
@@ -28,9 +28,9 @@ When you create a knowledge article record, Dynamics 365 Customer Service intern
   
  ![KnowledgeArticle entity model](../customerengagement/on-premises/developer/media/crm-knowledgearticleentitymodel.png "KnowledgeArticle entity model")  
   
- When you create a knowledge article record, it’s created in the `Draft` state. Using the new `KnowledgeArticle` entity, you can create an article by specifying its contents and formatting in the HTML format as compared to using the old `KbArticle` entity where you had to associate it with a template that described the sections and formatting for the article. You can specify your own value for the `KnowledgeArticle`.`ArticlePublicNumber` attribute while creating a knowledge article record programmatically; otherwise, the value is automatically generated based on the format you specified in the Dynamics 365 Customer Service settings area in the web client. The `KnowledgeArticle`.`ArticlePublicNumber` attribute stores the ID exposed to customers, partners, and other external users to reference and look up knowledge articles, and remains the same across knowledge article versions and translations.  
+ When you create a knowledge article record, it is created in the `Draft` state. Using the new `KnowledgeArticle` entity, you can create an article by specifying its contents and formatting in HTML format as compared to using the old `KbArticle` entity where you had to associate it with a template that described the sections and formatting for the article. You can specify your own value for the `KnowledgeArticle`.`ArticlePublicNumber` attribute while creating a knowledge article record programmatically; otherwise, the value is automatically generated based on the format you specified in the Dynamics 365 Customer Service settings area in the web client. The `KnowledgeArticle`.`ArticlePublicNumber` attribute stores the ID exposed to customers, partners, and other external users to reference and look up knowledge articles, and remains the same across knowledge article versions and translations.  
   
- The following sample code shows how you can create a knowledge article record:  
+ The following sample code shows how you can create a knowledge article record.  
   
 ```csharp  
 KnowledgeArticle newKnowledgeArticle = new KnowledgeArticle  
@@ -52,7 +52,7 @@ When you create a knowledge article record, the major version is automatically s
   
 - `KnowledgeArticle`.`PreviousArticleContentId` attribute to point to the previous version of the record.  
   
-  The following sample code shows how to create a major version of a knowledge article record using <xref:Microsoft.Crm.Sdk.Messages.CreateKnowledgeArticleVersionRequest>.  
+The following sample code shows how you can create a major version of a knowledge article record using <xref:Microsoft.Crm.Sdk.Messages.CreateKnowledgeArticleVersionRequest>.  
   
 ```csharp  
 CreateKnowledgeArticleVersionRequest versionRequest = new CreateKnowledgeArticleVersionRequest  
