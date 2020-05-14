@@ -99,7 +99,7 @@ This article chronicles important updates related to Field Service Mobile and as
 
 ## 11.3.107
 
-- Support for Remote Assist Deep Link (Android)
+- Support for Remote Assist deep link (Android)
 - Fixed saving of offline Booking Signatures
 - Fixed update address button error message
 - Fixed unresponsive iOS buttons
