@@ -4,7 +4,7 @@ description: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 05/14/2020
+ms.date: 05/15/2020
 search.audienceType: 
   - developer
 ---
@@ -16,9 +16,7 @@ The new knowledge articles in Dynamics 365 Customer Service enable you to create
 This topic provides information about working with the new native knowledge management capabilities in Dynamics 365 Customer Service.  
   
 > [!NOTE]
-> The entities `KBArticle`, `KBArticleTemplate` and `KBArticleComment` are now deprecated. This means that we do not expect you to use these entities anymore. You must use the newer `KnowledgeArticle` entity for knowledge management in Dynamics 365 Customer Service. For more information, see the section **Legacy knowledge entities end of life** at the end of this topic. 
-  
-You can’t programmatically enable the knowledge base management feature for entities in your Dynamics 365 Customer Service instance; it can only be done using the Dynamics 365 Customer Service web client. More information: [Set up knowledge management](https://go.microsoft.com/fwlink/p/?LinkId=691083).  
+> The entities `KBArticle`, `KBArticleTemplate` and `KBArticleComment` are now deprecated. This means that we do not expect you to use these entities anymore. You must use the newer `KnowledgeArticle` entity for knowledge management in Dynamics 365 Customer Service. For more information, see the section **Deprecated knowledge entities** at the end of this topic. 
   
 <a name="Create"></a>   
 
@@ -168,7 +166,7 @@ _serviceProxy.Associate(Account.EntityLogicalName, accountId, newRelationship, r
   
  Use the <xref:Microsoft.Crm.Sdk.Messages.FullTextSearchKnowledgeArticleRequest> message to search knowledge article from your applications to find the information you are looking for. The <xref:Microsoft.Crm.Sdk.Messages.FullTextSearchKnowledgeArticleRequest> message lets you use inflectional stem matching (allows for a different tense or inflection to be substituted for the search text) and specify query criteria (using FetchXML or QueryExpression to specify filtering, ordering, sorting, and paging) to find knowledge articles with specified text. You can also choose to remove multiple versions of the same articles in the search results and filter on the knowledge article state while searching for a text.  
 
-## Legacy knowledge entities end of life  
+## Deprecated knowledge entities  
 
 The Knowledge Management functionality in Dynamics 365 Customer Service has been enhanced resulting in the following legacy entities being deprecated:   
 
