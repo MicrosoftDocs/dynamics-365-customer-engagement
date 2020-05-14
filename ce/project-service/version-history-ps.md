@@ -47,12 +47,12 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 | | <i>South Africa</i> |[3.10.30.41](whats-new-ur-19.md)|  TBD | May 1, 2020
 | | <i>Germany</i> |[3.10.30.41](whats-new-ur-19.md)| TBD | May 1, 2020
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> |[3.10.8.12](whats-new-ur-18.md)| [3.10.30.41](whats-new-ur-19.md)| May 8, 2020 
-| | <i>Asia Pacific</i> |[3.10.8.12](whats-new-ur-18.md)|  [3.10.30.41](whats-new-ur-19.md) |  May 8, 2020
-| | <i>Great Britain</i> |[3.10.8.12](whats-new-ur-18.md)|  [3.10.30.41](whats-new-ur-19.md)  |  May 8, 2020
-| | <i>Oceana</i> |[3.10.8.12](whats-new-ur-18.md)| [3.10.30.41](whats-new-ur-19.md)  |  May 8, 2020
+| | <i>Japan</i> |[3.10.30.41](whats-new-ur-19.md)| TBD | May 8, 2020 
+| | <i>Asia Pacific</i> |[3.10.30.41](whats-new-ur-19.md)| TBD |  May 8, 2020
+| | <i>Great Britain</i> |[3.10.30.41](whats-new-ur-19.md)| TBD |  May 8, 2020
+| | <i>Oceana</i> |[3.10.30.41](whats-new-ur-19.md)| TBD |  May 8, 2020
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> |[3.10.7.32](whats-new-ur-17-5.md) | [3.10.8.12](whats-new-ur-18.md) | May 15, 2020
+| | <i>Europe</i> |[3.10.30.41](whats-new-ur-19.md)| TBD | May 15, 2020
 |<strong>Station 5</strong> | |  |  | |
 | | <i>North America</i> |[3.10.7.32](whats-new-ur-17-5.md)| [3.10.8.12](whats-new-ur-18.md)  | May 22, 2020
 |<strong>Station 6</strong> | |  |  | |
