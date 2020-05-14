@@ -160,6 +160,7 @@
 ### [Unable to delete a managed solution consisting an SLA enabled entity](troubleshoot-delete-managed-solution.md)
 
 ## Developer guide
+### [Work with knowledge articles](work-knowledge-articles.md)
 ### [Create knowledge article using template](create-knowledge-article-using-template.md)
 ### [Extend transformer logic on templates](extend-tranformer-logic-template.md)
 
