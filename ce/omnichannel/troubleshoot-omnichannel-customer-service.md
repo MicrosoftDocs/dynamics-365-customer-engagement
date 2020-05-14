@@ -171,16 +171,18 @@ To avoid the provisioning failure, you must remove the **Teams Service Principal
 1. Sign in to the [Azure portal](https://portal.azure.com/).
 2. Select **Azure Active Directory** in the left pane.
 3. Select **Enterprise Applications**.
-4. Type **Microsoft Teams** in the search box.
-5. Copy the **Object ID** and **Application ID** against **Microsoft Teams** and save it for future use. Ensure that the application ID is  `cc15fd57-2c6c-4117-a88c-83b1d56b4bbe` as this ID is same for every tenant.
+4. Search for Microsoft Teams by entering its application ID `cc15fd57-2c6c-4117-a88c-83b1d56b4bbe` in the search box.
+5. Do the following steps:
+   1. Copy the **Object ID**, and save it for future use. Ensure that the application ID is  `cc15fd57-2c6c-4117-a88c-83b1d56b4bbe` as this ID is same for every tenant.
+   2. Disable the Microsoft Teams service, if it is in enabled state.
 
    > [!div class=mx-imgBorder]
    > ![Microsoft Teams object and app Id](media/teams-object-appid.png "Microsoft Teams object and app Id")
 
-6. Search for **Skype Teams Calling API Service**, and copy the **Object ID** and **Application ID** only if the service is disabled and exists in the Enterprise Applications. Make sure that the application ID is `26a18ebc-cdf7-4a6a-91cb-beb352805e81`.
-
-> [IMPORTANT]
-> Make sure that the service principals are in disabled state.
+6. Search for **Skype Teams Calling API Service** by entering its application ID `26a18ebc-cdf7-4a6a-91cb-beb352805e81` in the search box.
+7. Do the following steps:
+   1. Copy the **Object ID**. Make sure that the application ID is `26a18ebc-cdf7-4a6a-91cb-beb352805e81`.
+   2. Disable the Skype Teams Calling API Service, if it is in enabled state.
 
 #### Step 2: Use PowerShell to remove Microsoft Teams and Skype Teams Calling API Service
 
