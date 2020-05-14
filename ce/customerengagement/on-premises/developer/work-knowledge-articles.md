@@ -2,7 +2,7 @@
 title: "Work with knowledge articles (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The section provides information about working with the new native Dynamics 365 Customer Engagement (on-premises) knowledge management capabilities."
 ms.custom: 
-ms.date: 10/01/2019
+ms.date: 050/15/2020
 ms.reviewer: 
 ms.service:
 ms.suite: 
@@ -25,7 +25,7 @@ helpviewer_keywords:
   - search keywords, knowledge base entities
 ms.assetid: 7d0f1da8-1d6b-4795-a4c1-b0ed898e59f0
 author: KumarVivek
-ms.author: kvivek
+ms.author: lerobbin
 manager: annbe
 search.audienceType: 
   - developer
@@ -39,9 +39,7 @@ The new knowledge articles in Dynamics 365 Customer Engagement (on-premises) ena
  This topic provides information about working with the new native Dynamics 365 Customer Engagement (on-premises) knowledge management capabilities.  
   
 > [!NOTE]
->  If you’re using the earlier knowledge base article (`KBArticle`) entity model, see [Work with earlier Dynamics 365 Customer Engagement (on-premises) knowledge base articles](work-knowledge-articles.md#EarlierKBArticle) later in this topic.  
-  
- You can’t programmatically enable the knowledge base management feature for entities in your Dynamics 365 Customer Engagement (on-premises) instance; it can only be done using the Dynamics 365 Customer Engagement (on-premises) web client. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up knowledge management](https://go.microsoft.com/fwlink/p/?LinkId=691083)  
+>  The entities (`KBArticle`), (`KBArticleTemplate`), and (`KBArticleComment`) are now deprecated. This means that we do not expect you to use these entities anymore. You must use the newer (`KnowledgeArticle`) entity for knowledge management in Dynamics 365 Customer Service.  For more information, see the section [Deprecated legacy knowledge entities]("Deprecated") at the end of this topic.
   
 <a name="Create"></a>   
 ## Create a knowledge article  
@@ -181,7 +179,8 @@ _serviceProxy.Associate(Account.EntityLogicalName, accountId, newRelationship, r
   
  Use the <xref:Microsoft.Crm.Sdk.Messages.FullTextSearchKnowledgeArticleRequest> message to search knowledge article from your applications to find the information you are looking for. The <xref:Microsoft.Crm.Sdk.Messages.FullTextSearchKnowledgeArticleRequest> message lets you use inflectional stem matching (allows for a different tense or inflection to be substituted for the search text) and specify query criteria (using FetchXML or QueryExpression to specify filtering, ordering, sorting, and paging) to find knowledge articles with specified text. You can also choose to remove multiple versions of the same articles in the search results and filter on the knowledge article state while searching for a text.  
 
-## Legacy knowledge entities end of life  
+<a name="Deprecated"></a>   
+## Deprecated knowledge entities 
 The Knowledge Management functionality in Dynamics 365 Customer Service has been enhanced resulting in the following legacy entities being deprecated:   
 
 - [KbArticle](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/entities/kbarticle) 
