@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 Sales troubleshooting guide  | MicrosoftDocs"
 description: "A starting point for browsing troubleshooting content for Dynamics 365 Sales."
-ms.date: 04/30/2020
+ms.date: 05/14/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -105,3 +105,10 @@ manager: annbe
 
 </td>
 </tr>
+
+<tr><td>
+<h2>Integrations</h2>
+<li><a href="ts-integration" data-raw-source="[Error in enabling LinkedIn updates](ts-integration.md)">Error in enabling LinkedIn updates</a></li>
+</td></tr>
+
+</table>

@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting the Lead entity (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how to troubleshoot issues with the Lead entity in Dynamics 365 Sales."
-ms.date: 04/13/2020
+ms.date: 05/14/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -43,6 +43,7 @@ There are multiple errors you could get while qualifying a lead.
 3.  [Active stage is not on 'lead' entity](#NoActiveStage)
 4.  [Access denied or Insufficient permissions](#AccessDenied)
 5.  [The lead is closed. You cannot convert or qualify a lead that is already closed.](#LeadClosed)
+6.  [Throws invalid status code error for a contact or an opportunity](#invalid-status-code)
 
 The following sections describe each of these errors and how you can resolve them.
 
@@ -113,6 +114,30 @@ You are trying to qualify or disqualify a lead that's closed.
 
 Make sure the lead that you're trying to qualify or disqualify is open and not already qualified or disqualified. You can do this by selecting the My Open leads or Open Leads view.
 
+<a name="invalid-status-code"> </a>
+#### 6. Throws invalid status code error for a contact or an opportunity.
+
+**Reason:**
+
+When you qualify a lead, some of the attributes in the mapping of 1:N relationships between **Lead to Contact** or **Lead to Opportunity** get copied from **Lead to Contact** or **Lead to Opportunity**.
+
+Status code is defined as an option set and when a user adds any new option in the Lead entity but doesn't add it in Contact or Opportunity entity, this issue occurs.
+
+The option sets like status code should be same between lead and contact, or lead and opportunity to make the entity mapping work, as the lead qualification process copies the status code value from lead to contact or opportunity. If the status codes do not match, the process fails.
+
+**Resolution:**
+
+Ensure that sure the status codes of Lead and Contact entities or Lead and Opportunity entities are same.
+
+To see mappings:
+
+1. Go to the Lead entity and select **1:N Relationships**.
+2. Open a relationship and select **Mappings** in the left pane.
+3. In the **Source Name** column, select the option set having issues. For example, **statuscode**.
+
+> [!NOTE]
+> - If you are still facing error, remove the mapping of status reason between the Lead entity and any other entity (Account, Contact, or Opportunity).
+> - To add the new status codes with same values, import the new option set values through a managed solution for Contact or Opportunity entity.
 
 <a name="lead_qualification_for_admins"> </a> 
 ## Lead qualification issues and resolution (for system administrators)
