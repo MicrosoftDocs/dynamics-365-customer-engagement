@@ -108,7 +108,7 @@ manager: annbe
 
 <tr><td>
 <h2>Integrations</h2>
-<li><a href="ts-integration" data-raw-source="[Error in enabling LinkedIn updates](ts-integration.md)">Error in enabling LinkedIn updates</a></li>
+<li><a href="ts-integration.md#error-in-enabling-linkedin-updates" data-raw-source="[Error in enabling LinkedIn updates](ts-integration.md#error-in-enabling-linkedin-updates)">Error in enabling LinkedIn updates</a></li>
 </td></tr>
 
 </table>
