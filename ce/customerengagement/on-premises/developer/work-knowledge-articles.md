@@ -39,7 +39,7 @@ The new knowledge articles in Dynamics 365 Customer Engagement (on-premises) ena
  This topic provides information about working with the new native Dynamics 365 Customer Engagement (on-premises) knowledge management capabilities.  
   
 > [!NOTE]
->  The entities (`KBArticle`), (`KBArticleTemplate`), and (`KBArticleComment`) are now deprecated. This means that we do not expect you to use these entities anymore. You must use the newer (`KnowledgeArticle`) entity for knowledge management in Dynamics 365 Customer Service.  For more information, see the section [Deprecated legacy knowledge entities]("Deprecated") at the end of this topic.
+>  The entities (`KBArticle`), (`KBArticleTemplate`), and (`KBArticleComment`) are now deprecated. This means that we do not expect you to use these entities anymore. You must use the newer (`KnowledgeArticle`) entity for knowledge management in Dynamics 365 Customer Service.  For more information, see the section [Deprecated legacy knowledge entities](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/work-knowledge-articles#deprecated-knowledge-entities) at the end of this topic.
   
 <a name="Create"></a>   
 ## Create a knowledge article  
