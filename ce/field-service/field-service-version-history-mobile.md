@@ -116,7 +116,7 @@ To learn more about mobile projects, see our topic on [installing the Field Serv
 
 | Download link | Release date | Relates to Field Service Mobile version | Publish to Woodford Version | Minimum Field Service Version |
 | --- | --- | --- | --- | --- |
-| [1.0.4549](https://aka.ms/fsmobile-project)  |  May 2020  |  12.1+ | 12.1+ | 8.8.6.300 | 
+| [1.0.4549](https://aka.ms/fsmobile-project)  |  May 2020  |  12.1+ | 12.1+ | v8.8.14 | 
 
 - Added support for [Time Entry](field-service-time-entry.md) Fields, Forms, and Views.
 - Added font file for PDF Reports.
