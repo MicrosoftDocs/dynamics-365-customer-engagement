@@ -99,7 +99,7 @@ This article chronicles important updates related to Field Service Mobile and as
 
 ## 11.3.107
 
-- Support for Remote Assist deep link (Android)
+- Support for Remote Assist deep linking (Android)
 - Fixed saving of offline Booking Signatures
 - Fixed update address button error message
 - Fixed unresponsive iOS buttons
@@ -134,7 +134,7 @@ To learn more about mobile projects, see our topic on [installing the Field Serv
 | --- | --- | --- | --- | --- |
 | [1.0.3482](https://aka.ms/fsmobile-project-3482)  |   November 2019  |  11.3+ | 11.3+ | 8.8.6.300 | 
 
-- Added support Remote Assist Deep Linking (Android)
+- Added support Remote Assist deep linking (Android)
 
 ## 1.0.2735
 
