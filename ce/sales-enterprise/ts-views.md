@@ -150,22 +150,22 @@ To fix the issue of incorrect customization, follow these steps to make sure you
     -   Hide nested grid column header: Hide Column
 
         >[!NOTE]
-        >If you are using product bundles and edit these bundled line items in the product grid, select **Hide nested grid column header** as **Show Column**.
+        >If you're using product bundles and edit these bundled line items in the product grid, select **Hide nested grid column header** as **Show Column**.
 
-## Issue: Unable to save the updated nested bundle items in Product tab 
+## Issue: I can't update nested bundle items on the Product tab 
 
 **Reason**
 
-While working on an opportunity, when I update the nested bundle items in **Product** tab, the save icon is disabled. This error is occurring due to the header of the nested grid column is hidden under **Opportunity Product Inline Edit View** in customizations.  
+While working on an opportunity, when you update nested bundle items on the **Product** tab, the save icon is disabled. This error occurs because the header of the nested grid column is hidden under **Opportunity Product Inline Edit View** in customizations.  
 
 **Resolution**
 
-To resolve this issue, follow these steps to show the header of the nested grid columns for products in opportunity form.
+To resolve this issue, follow these steps to show the header of the nested grid columns for products on the opportunity form.
 
 1.  In your app, on the nav bar, select the **Settings** icon, and then select **Advanced Settings**.
 
     > [!div class="mx-imgBorder"]
-    > ![Advanced Settings link in the Settings menu](media/advanced-settings-option.png "Advanced Settings link in the Settings menu")
+    > ![Advanced Settings on the Settings menu](media/advanced-settings-option.png "Advanced Settings on the Settings menu")
 
     The **Business Management** settings page opens in a new browser tab.
 
@@ -177,10 +177,10 @@ To resolve this issue, follow these steps to show the header of the nested grid 
 
 5. Open the **Opportunity** form of form type **Main**.
 
-6. In the **Product Line Items** section, Double-click to select the **Opportunity products** section.
+6. In the **Product Line Items** section, double-click to select the **Opportunity products** section.
 
     > [!div class="mx-imgBorder"]
-    > ![Select opportunity products properties](media/troubleshooting-opportunity-products.png "Select opportunity products properties")
+    > ![Select Opportunity products](media/troubleshooting-opportunity-products.png "Select Opportunity products")
     
     The **Set Properties** dialog box opens.
 
@@ -190,17 +190,17 @@ To resolve this issue, follow these steps to show the header of the nested grid 
 7. On the **Controls** tab, double-click to select **Editable Grid**.
 
     > [!div class="mx-imgBorder"]
-    > ![Double-click the Editable Grid option](media/editable-grid-option.png "Double-click Editable Grid option")
+    > ![Select Editable Grid](media/editable-grid-option.png "Select Editable Grid")
 
-8. In the **Editable Grid** section, select the pencil icon corresponding to **Hide nested grid column header** option to edit the properties. 
+8. In the **Editable Grid** section, select the pencil icon next to **Hide nested grid column header**. 
     
     > [!div class="mx-imgBorder"]
-    > ![Open Hide nested grid column header option to edit](media/troubleshooting-hide-nested-grid-column-header.png "Open Hide nested grid column header option to edit")
+    > ![Select Hide nested grid column header](media/troubleshooting-hide-nested-grid-column-header.png "Select Hide nested grid column header")
 
-9. On the **Configure Property** dialog box, select **Bind to static options** as **Show column header**.
+9. In the **Configure Property** dialog box, select **Bind to static options**, and then select **Show column header**.<!--If selecting "Bind to static options" isn't part of this step because it's always going to be selected already, the procedure would be "In the the **Configure Property** dialog box, under **Bind to static options**, select **Show column header**. -->
     
     > [!div class="mx-imgBorder"]
-    > ![Select show column header option](media/troubleshooting-select-show-column-header.png "Select show column header option")
+    > ![Select Show column header](media/troubleshooting-select-show-column-header.png "Select Show column header")
 
 10. Save and publish the configuration.
 
