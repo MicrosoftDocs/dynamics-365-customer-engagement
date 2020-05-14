@@ -1,10 +1,10 @@
 ---
 title: "Troubleshoot Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how to troubleshoot the issues you may face while working on Omnichannel for Customer Service."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 04/08/2020
+ms.date: 05/14/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -64,17 +64,17 @@ To workaround the issue, you need to reset the Flow. To reset the Flow, follow t
 
 2. Select **Entity Records** under **Channels**.
 
-3. Select the **+ New** to create a new entity record channel.
+3. Select the **New** to create a new entity record channel.
 
 4. Select **Flow** menu in the command bar, and then select **See your flows**. Power Automate opens in a new browser window.
 
 5. Select **Solutions** in the sitemap, and then select **Default Solution** from the list.
 
-6. Select **+ New**. and then select **Flow**. A new **Flow** is displayed.
+6. Select **New**. and then select **Flow**. A new **Flow** is displayed.
 
 7. Type **Manually trigger a flow** in the search box, and then select the option. The flow component is added.
 
-8. Select **+ New step**. The **Choose an action** flow component is added.
+8. Select **New step**. The **Choose an action** flow component is added.
 
 9. Type **Common Data Service (current environment)** in the search box, and then select the option. The flow component is added.
 
@@ -162,42 +162,49 @@ If your tenant has an expired Office 365 license, then the Omnichannel for Custo
 
 To avoid the provisioning failure, you must remove the **Teams Service Principal** in **Azure Active Directory**. Follow the steps to remove **Teams Service Principal**.
 
-[Step 1: Identify Teams Service Principal in Azure Active Directory](#step-1-identify-teams-service-principal-in-azure-active-directory)
+[Step 1: Identify Teams Service in Azure Active Directory](#step-1-identify-teams-service-in-azure-active-directory)
 
-[Step 2: Use PowerShell to remove Microsoft Teams Service Principal](#step-2-use-powershell-to-remove-microsoft-teams-service-principal)
+[Step 2: Use PowerShell to remove Microsoft Teams and Skype Teams Calling API Service](#step-2-use-powershell-to-remove-microsoft-teams-and-skype-teams-calling-api-service)
 
-#### Step 1: Identify Teams Service Principal in Azure Active Directory
+#### Step 1: Identify Teams Service in Azure Active Directory
 
-1.	Sign in to the [Azure portal](https://portal.azure.com/).
-2.	Select **Active Directory** in the left pane.
-3.	Select **Enterprise Applications**.
-4.	Type **Microsoft Teams** in the search box.
-5.	Copy the **Object ID** and **Application ID** against **Microsoft Teams** and save it for future use. Ensure that the Application Id is  `cc15fd57-2c6c-4117-a88c-83b1d56b4bbe` as this Id is same for every tenant.
+1. Sign in to the [Azure portal](https://portal.azure.com/).
+2. Select **Azure Active Directory** in the left pane.
+3. Select **Enterprise Applications**.
+4. Search for Microsoft Teams by entering its application ID `cc15fd57-2c6c-4117-a88c-83b1d56b4bbe` in the search box.
+5. Do the following steps:
+   1. Copy the **Object ID**, and save it for future use. Ensure that the application ID is  `cc15fd57-2c6c-4117-a88c-83b1d56b4bbe` as this ID is same for every tenant.
+   2. Disable the Microsoft Teams service, if it is in enabled state.
 
    > [!div class=mx-imgBorder]
    > ![Microsoft Teams object and app Id](media/teams-object-appid.png "Microsoft Teams object and app Id")
 
-#### Step 2: Use PowerShell to remove Microsoft Teams Service Principal
+6. Search for **Skype Teams Calling API Service** by entering its application ID `26a18ebc-cdf7-4a6a-91cb-beb352805e81` in the search box.
+7. Do the following steps:
+   1. Copy the **Object ID**. Make sure that the application ID is `26a18ebc-cdf7-4a6a-91cb-beb352805e81`.
+   2. Disable the Skype Teams Calling API Service, if it is in enabled state.
 
-1.	Select **Start**, type **PowerShell**, and right-click **Windows PowerShell** and select **Run as administrator**.  <br>
+#### Step 2: Use PowerShell to remove Microsoft Teams and Skype Teams Calling API Service
+
+1. Select **Start**, type **PowerShell**, and right-click **Windows PowerShell** and select **Run as administrator**.  <br>
 ![Run PowerShell as an administrator](media/powershell.png "Run PowerShell as an administrator")
 
-2.	Select **Yes** on the **User Control** dialog to allow the application to make changes.
-3.	Type the `Install-Module AzureAD` command in the Powershell window, and press **Enter**. This command installs the PowerShell commands for interacting with Azure Active Directory. <br>
+2. Select **Yes** on the **User Control** dialog to allow the application to make changes.
+3. Type the `Install-Module AzureAD` command in the Powershell window, and press **Enter**. This command installs the PowerShell commands for interacting with Azure Active Directory. <br>
 ![Execute command](media/powershell2.png "Execute command")
 
-4.	PowerShell prompts whether to trust the repository. Type **Y** for yes and press **Enter**.  <br>
-![Execute command](media/powershell3.png "Execute command")
+4. PowerShell prompts whether to trust the repository. Type **Y** for yes and press **Enter**.  <br>
+![Run command](media/powershell3.png "Run command")
 
-5.	Type the `Connect-AzureAD` command in the PowerShell window, and press **Enter**.
+5. Type the `Connect-AzureAD` command in the PowerShell window, and press **Enter**.
 This establishes a connection with the tenant's Azure Active Directory, so you can manage it using Powershell.
 6.	Sign in to your organization as a tenant admin.
-7.	Type the `Remove-AzureADServicePrincipal -ObjectID <ObjectID>` command in the PowerShell window. Replace **<ObjectID>** with the object ID you had stored earlier. This command deletes the expired Teams service principal from Azure Active Directory.
+7.	Run the `Remove-AzureADServicePrincipal -ObjectID <ObjectID>` command in the PowerShell window twice, one each for Microsoft Teams and Skype Teams Calling API Service. Replace **<ObjectID>** with the object ID you had stored earlier. This command deletes the expired Teams service and Skype Teams Calling API Service from Azure Active Directory.
 
    > [!Note]
    > Right click in the PowerShell window to paste the Object ID.
 
-The Microsoft Teams Service Principal has been removed from your organization. You can try to provision Omnichannel for Customer Service again.
+The Microsoft Teams Service and Skype Teams Calling API Service are removed from your organization. You can try to provision Omnichannel for Customer Service again.
 
 ## Chat widget icon does not load on the portal
 
@@ -265,7 +272,7 @@ To delete and add **Widget location** for the chat widget, follow these steps:
 4. Select the **Location** tab.
 5. Select a record in the **Widget Location** section, and select **Delete**.
 6. Select **Save**.
-7. Select **+ Add** in the **Widget Location** section to add a record. Quick create pane of the chat widget location appears.
+7. Select **Add** in the **Widget Location** section to add a record. Quick create pane of the chat widget location appears.
 8. Specify the following.
 
    | Field | Value |
