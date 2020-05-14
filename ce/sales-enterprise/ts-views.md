@@ -85,7 +85,8 @@ To resolve this issue, you must edit or remove filters for the view. This will e
    
     The records in the views are displayed properly.
 
-## Issue: I can't see some records in opportunity, quote, order, or invoice subgrids<a name="missing-records"></a>
+## Issue: I can't see some records in opportunity, quote, order, or invoice subgrids
+<a name="missing-records"></a>
 
 While working on opportunity, quote, order, or invoice records, you might observe that some records are missing.
 
@@ -147,6 +148,9 @@ To fix the issue of incorrect customization, follow these steps to make sure you
     -   Allow filtering: Enabled (Enum)
 
     -   Hide nested grid column header: Hide Column
+
+        >[!NOTE]
+        >If you are using product bundles and edit these bundled line items in the product grid, select **Hide nested grid column header** as **Show Column**.
 
 ## Issue: Unable to save the updated nested bundle items in Product tab 
 
