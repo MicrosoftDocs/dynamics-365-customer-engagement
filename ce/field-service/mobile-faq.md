@@ -165,7 +165,7 @@ We strongly recommend using the Field Service Mobile app to access Field Service
 
 ## Does Field Service Mobile support SharePoint integration? 
 
-Yes, Field Service Mobile supports SharePoint integration for accessing and uploading documents. Please note at this time only Basic Authentication with SharePoint is supported -- oAuth support is planned for a future app release.
+Yes, Field Service Mobile supports SharePoint integration for accessing and uploading documents. Please note at this time, only Basic authentication with SharePoint is supported; OAuth support is planned for a future app release.
 
 ## How can I correct the error "Your Server customization requires new version of the Application"?
 
