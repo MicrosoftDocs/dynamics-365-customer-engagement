@@ -1,10 +1,10 @@
 ---
 title: What's new in Dynamics 365 Customer Service | MicrosoftDocs
 description: Visit this page to see what's recently updated or added in Dynamics 365 Customer Service
-author: lerobbin
-ms.author: lerobbin
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 02/01/2020
+ms.date: 05/14/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -23,6 +23,12 @@ search.app:
 
 Welcome to Dynamics 365 Customer Service. Visit this page to learn about new or updated features for Customer Service.
 
+## What's new in April 2020 update
+
+For information about the features that released in April 2020, see:
+
+[2020 release wave 1 plan - Customer Service](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-customer-service/customer-service)
+
 ## What's new in February 2020 update
 
 Preview: Visualizing device readings
@@ -34,6 +40,7 @@ The device readings chart is available on the IoT alert, work order, case, devic
 To learn more, see [Time series insights on IoT devices](cs-iot-visualize-device-readings.md)
 
 ### Early Access
+
 - <b>Connected Customer Service (IoT + Customer Service)</b>
 
   Connected Customer Service helps organizations evolve a proactive and predictive service model by fully integrating IoT diagnostics, IoT device updates, and case management. Key capabilities in this release include:
@@ -152,14 +159,20 @@ Show only User or System records with the additional filter.
 
 ## Dynamics 365 Customer Service app
 
-Customer Service introduces some new features for enhanced customer satisfaction by facilitating improved operational efficiency and organizational productivity. 
+Customer Service introduces some new features for enhanced customer satisfaction by facilitating improved operational efficiency and organizational productivity.
 
 New features introduced in this release are:
 
-- [Advanced similarity rules to view similar case suggestions](#advanced-similarity-rules-to-view-similar-case-suggestions)
-- [Service scheduling powered by Universal Resource Scheduling](#service-scheduling-powered-by-universal-resource-scheduling)
-- [Relevance search enabled for knowledge management ](#relevance-search-enabled-for-knowledge-management)
-- [Enhanced customer service admin settings using Service Management](#enhanced-customer-service-admin-settings-using-service-management)
+- [What's new in Dynamics 365 Customer Service](#whats-new-in-dynamics-365-customer-service)
+  - [What's new in April 2020 update](#whats-new-in-april-2020-update)
+  - [What's new in February 2020 update](#whats-new-in-february-2020-update)
+    - [Early Access](#early-access)
+  - [Dynamics 365 Customer Service app](#dynamics-365-customer-service-app)
+    - [Advanced similarity rules to view similar case suggestions](#advanced-similarity-rules-to-view-similar-case-suggestions)
+    - [Service scheduling powered by Universal Resource Scheduling](#service-scheduling-powered-by-universal-resource-scheduling)
+    - [Relevance search enabled for knowledge management](#relevance-search-enabled-for-knowledge-management)
+    - [Enhanced customer service admin settings using Service Management](#enhanced-customer-service-admin-settings-using-service-management)
+    - [See also](#see-also)
 
 ### Advanced similarity rules to view similar case suggestions
 
