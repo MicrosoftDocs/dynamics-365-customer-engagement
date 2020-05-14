@@ -4,19 +4,19 @@ description: ""
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 05/13/2020
+ms.date: 05/14/2020
 search.audienceType: 
   - developer
 ---
 
 # Work with knowledge articles
 
-The new knowledge articles in Dynamics 365 Customer Service enable you to create rich knowledge articles along with versioning and translation support. When you create and publish a knowledge article, it become available to users in your Dynamics 365 Customer Service instance so that they can use information in the articles to effectively service the customers. Use the `KnowledgeArticle` entity to store and manage knowledge natively in Dynamics 365 Customer Service.  
+The new knowledge articles in Dynamics 365 Customer Service enable you to create rich knowledge articles along with versioning and translation support. The new knowledge experience uses the `KnowledgeArticle` entity to store and manage knowledge natively in Dynamics 365 Customer Service.  
   
- This topic provides information about working with the new native Dynamics 365 Customer Service knowledge management capabilities.  
+This topic provides information about working with the new native Dynamics 365 Customer Service knowledge management capabilities.  
   
 > [!NOTE]
-> The entities `KBArticle`, `KBArticleTemplate` and `KBArticleComment` are now deprecated. This means that we do not expect you to use these entities anymore. You must use the newer `KnowledgeArticle` entity for knowledge management in Dynamics 365 Customer Service. More information: [Legacy knowledge entities end of life](#deprecatedentities). 
+> The entities `KBArticle`, `KBArticleTemplate` and `KBArticleComment` are now deprecated. This means that we do not expect you to use these entities anymore. You must use the newer `KnowledgeArticle` entity for knowledge management in Dynamics 365 Customer Service. For more information, see the section **Legacy knowledge entities end of life** at the end of this topic. 
   
 You can’t programmatically enable the knowledge base management feature for entities in your Dynamics 365 Customer Service instance; it can only be done using the Dynamics 365 Customer Service web client. More information: [Set up knowledge management](https://go.microsoft.com/fwlink/p/?LinkId=691083)  
   
@@ -42,9 +42,11 @@ knowledgeArticleId = _serviceProxy.Create(newKnowledgeArticle);
 Console.WriteLine("Created {0}", newKnowledgeArticle.Title);  
 ```  
   
-<a name="Version"></a>   
+<a name="Version"></a> 
+
 ## Create major and minor versions of a knowledge article  
- When you create a knowledge article record, the major version is automatically set to 1 and minor version to 0. Use the `CreateKnowledgeArticleVersion` message (<xref href="Microsoft.Dynamics.CRM.CreateKnowledgeArticleVersion ?text=CreateKnowledgeArticleVersion Action" /> or <xref:Microsoft.Crm.Sdk.Messages.CreateKnowledgeArticleVersionRequest>) to create a major or minor version of a knowledge article. In the request message, set `IsMajor` to `true` to create a major version; set it to `false` to create a minor version. The new version record that is created uses the:  
+
+When you create a knowledge article record, the major version is automatically set to 1 and minor version to 0. Use the `CreateKnowledgeArticleVersion` message (<xref href="Microsoft.Dynamics.CRM.CreateKnowledgeArticleVersion ?text=CreateKnowledgeArticleVersion Action" /> or <xref:Microsoft.Crm.Sdk.Messages.CreateKnowledgeArticleVersionRequest>) to create a major or minor version of a knowledge article. In the request message, set `IsMajor` to `true` to create a major version; set it to `false` to create a minor version. The new version record that is created uses the:  
   
 - `KnowledgeArticle`.`RootArticleId` attribute to maintain the association with the root knowledge article record.  
   
