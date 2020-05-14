@@ -41,8 +41,6 @@ Release For information about other updates to Field Service, visit the [Dynamic
 
 |  | Region | Current Version | Next Version |  Scheduled Date
 | :---   | :---   | :---   | :---   |:---   |         
-|<strong>Station 1</strong> | |  |  | |
-| | <i>First Release</i> |[8.8.22.57](https://docs.microsoft.com/dynamics365/field-service/version-history#882257)| TBD | 05/29/20
 |<strong>Station 2</strong> | |  |  | |
 | | <i>South America</i> |[8.8.22.57](https://docs.microsoft.com/dynamics365/field-service/version-history#882257)|  TBD | 05/29/20
 | | <i>Canada</i> |[8.8.22.57](https://docs.microsoft.com/dynamics365/field-service/version-history#882257)| TBD | 05/29/20 
