@@ -162,9 +162,9 @@ If your tenant has an expired Office 365 license, then the Omnichannel for Custo
 
 To avoid the provisioning failure, you must remove the **Teams Service Principal** in **Azure Active Directory**. Follow the steps to remove **Teams Service Principal**.
 
-[Step 1: Identify Teams Service Principal in Azure Active Directory](#step-1-identify-teams-service-principal-in-azure-active-directory)
+[Step 1: Identify Teams Service in Azure Active Directory](#step-1-identify-teams-service-in-azure-active-directory)
 
-[Step 2: Use PowerShell to remove Microsoft Teams Service Principal](#step-2-use-powershell-to-remove-microsoft-teams-service-principal)
+[Step 2: Use PowerShell to remove Microsoft Teams and Skype Teams Calling API Service](#step-2-use-powershell-to-remove-microsoft-teams-and-skype-teams-calling-api-service)
 
 #### Step 1: Identify Teams Service in Azure Active Directory
 
