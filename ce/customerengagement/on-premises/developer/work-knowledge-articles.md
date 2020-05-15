@@ -2,7 +2,7 @@
 title: "Work with knowledge articles (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The section provides information about working with the new native Dynamics 365 Customer Engagement (on-premises) knowledge management capabilities."
 ms.custom: 
-ms.date: 050/15/2020
+ms.date: 05/15/2020
 ms.reviewer: 
 ms.service:
 ms.suite: 
@@ -25,7 +25,7 @@ helpviewer_keywords:
   - search keywords, knowledge base entities
 ms.assetid: 7d0f1da8-1d6b-4795-a4c1-b0ed898e59f0
 author: KumarVivek
-ms.author: lerobbin
+ms.author: kvivek
 manager: annbe
 search.audienceType: 
   - developer
@@ -39,7 +39,7 @@ The new knowledge articles in Dynamics 365 Customer Engagement (on-premises) ena
  This topic provides information about working with the new native Dynamics 365 Customer Engagement (on-premises) knowledge management capabilities.  
   
 > [!NOTE]
->  The entities (`KBArticle`), (`KBArticleTemplate`), and (`KBArticleComment`) are now deprecated. This means that we do not expect you to use these entities anymore. You must use the newer (`KnowledgeArticle`) entity for knowledge management in Dynamics 365 Customer Service.  For more information, see the section [Deprecated legacy knowledge entities](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/work-knowledge-articles#deprecated-knowledge-entities) at the end of this topic.
+>  The entities (`KBArticle`), (`KBArticleTemplate`), and (`KBArticleComment`) are now deprecated. This means that we do not expect you to use these entities anymore. You must use the newer (`KnowledgeArticle`) entity for knowledge management in Dynamics 365 Customer Service.  For more information, see the section [Deprecated legacy knowledge entities](#deprecated-knowledge-entities) at the end of this topic.
   
 <a name="Create"></a>   
 ## Create a knowledge article  
@@ -183,13 +183,13 @@ _serviceProxy.Associate(Account.EntityLogicalName, accountId, newRelationship, r
 ## Deprecated knowledge entities 
 The Knowledge Management functionality in Dynamics 365 Customer Service has been enhanced resulting in the following legacy entities being deprecated:   
 
-- [KbArticle](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/entities/kbarticle) 
-- [KbArticleComment](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/entities/kbarticlecomment) 
-- [KbArticleTemplate](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/entities/kbarticletemplate)  
+- [KbArticle](entities/kbarticle.md) 
+- [KbArticleComment](entities/kbarticlecomment.md) 
+- [KbArticleTemplate](entities/kbarticletemplate.md)  
 
-Deprecation of the legacy knowledge entities was announced in the, [Important changes coming in future releases of Microsoft Dynamics 365](https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)?redirectedfrom=MSDN#some-knowledge-management-entities). 
+Deprecation of the legacy knowledge entities was announced in the, [Important changes coming in future releases of Microsoft Dynamics 365](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)?redirectedfrom=MSDN#some-knowledge-management-entities). 
 
-Legacy knowledge entities will no longer be accessible as of December 1, 2020. It is strongly recommended you move to the new KnowledgeArticle entity now.  For more information about creating a knowledge article in  Unified Interface, see [Create and manage knowledge articles](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-user-guide-knowledge-article).  
+Legacy knowledge entities will no longer be accessible as of December 1, 2020. It is strongly recommended you move to the new KnowledgeArticle entity now.  For more information about creating a knowledge article in  Unified Interface, see [Create and manage knowledge articles](../../../customer-service/customer-service-hub-user-guide-knowledge-article).  
 
 Use the following for help with migration:  
 - Use SDK, WebAPI, or Microsoft Power Automate depending on your scenarios.  
@@ -207,4 +207,4 @@ Use the following for help with migration:
  - [KnowledgeArticleViews Entity](entities/knowledgearticleviews.md)
  - [KnowledgeBaseRecord Entity](entities/knowledgebaserecord.md)
  - [LanguageLocale Entity](entities/languagelocale.md)
- - [Important changes coming in future releases of Microsoft Dynamics 365](https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)?redirectedfrom=MSDN#bkmk_CrmKMEntities) 
+ - [Important changes coming in future releases of Microsoft Dynamics 365](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)?redirectedfrom=MSDN#bkmk_CrmKMEntities) 
