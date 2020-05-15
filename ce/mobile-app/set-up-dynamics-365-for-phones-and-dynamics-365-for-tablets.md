@@ -1,7 +1,7 @@
 ---
 title: "Set up Dynamics 365 for phones and Dynamics 365 for tablets | MicrosoftDocs"
 ms.custom:
-ms.date: 08/26/2019
+ms.date: 05/14/2020
 ms.reviewer:
 ms.service: crm-online
 ms.suite:
@@ -386,8 +386,6 @@ else
  There are a few differences between [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]:  
   
 - Simple lists are not available in [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)]. Instead use the command bar **…** and click **Select View** to change your view.  
-  
-- Duplicate detection is not available.  
   
 - The **Open in browser** feature is not available.  
   
