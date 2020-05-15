@@ -197,7 +197,7 @@ To resolve this issue, follow these steps to show the header of the nested grid 
     > [!div class="mx-imgBorder"]
     > ![Select Hide nested grid column header](media/troubleshooting-hide-nested-grid-column-header.png "Select Hide nested grid column header")
 
-9. In the **Configure Property** dialog box, select **Bind to static options**, and then select **Show column header**.<!--If selecting "Bind to static options" isn't part of this step because it's always going to be selected already, the procedure would be "In the the **Configure Property** dialog box, under **Bind to static options**, select **Show column header**. -->
+9. In the **Configure Property** dialog box, under **Bind to static options**, select **Show column header**.
     
     > [!div class="mx-imgBorder"]
     > ![Select Show column header](media/troubleshooting-select-show-column-header.png "Select Show column header")
