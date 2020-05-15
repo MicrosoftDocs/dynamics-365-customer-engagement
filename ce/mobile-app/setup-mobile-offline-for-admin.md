@@ -39,52 +39,12 @@ This offline experience uses [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-
  
 One of the first things you need to do is enable entities that will be available to mobile users when they're using the mobile app in offline mode. 
   
-The following entities are available for you to enable in offline mode:  
-  
-- Account  
+Entities that you can enable for offline mode appear in the **MOBILE OFFLINE PROFILE ITEM**.
 
-- Activity Pointer
+   > [!div class="mx-imgBorder"]
+   >![Setting Customizations](media/enable_entities_for_offline.png "Settings Customizations")
   
-- Appointment  
-  
-- Attachment 
-
-- Case
-  
-- Competitor  
-  
-- Competitor Address  
-
-- Connection
-
-- Connection Role
-  
-- Contact  
-
-- Custom Entity
-  
-- Email  
-  
-- Lead    
-  
-- Opportunity  
-  
-- Opportunity Product  
-
-- Phone Call
-
-- Position
-  
-- Product  
-  
-- Task 
-
-- Team  
-  
-- User  
-
-  > [!NOTE] 
-  > You can disable or enable any of the above supported entities for offline mode. The next section shows you how to enable or disable an entity. 
+You can disable or enable any of the supported entities for offline mode. The next section shows you how to enable or disable an entity. 
 
 ### To enable more entities for offline:
   
@@ -141,7 +101,7 @@ You need to create mobile offline profiles for users to configure filters that d
    > [!div class="mx-imgBorder"]
    >![Enviroment settings](media/offline_open_an_enviroment.png "Enviroment settings")
  
-4. Under **Data managment**, select **Mobile configuration**.
+4. Expand **Users + permissions**,  and then select **Mobile configuration**.
 
    > [!div class="mx-imgBorder"]
    >![Mobile configuration setting](media/offline_mobile_config_settings.png "Mobile configuration settings")
@@ -164,7 +124,7 @@ You need to create mobile offline profiles for users to configure filters that d
    > [!div class="mx-imgBorder"]
    >![Enter Mobile Offline Profile Item details](media/namemobileofflineprofile2.png "Enter Mobile Offline Profile Item details")
   
-9. Enter a name and select an entity. Only entities that you enabled (in **Step 1**) for mobile offline appear in this list.  
+9. Enter a name and select an entity. Only entities that can be enabled for mobile offline appear in this list.  
 
    > [!div class="mx-imgBorder"]
    >![Enter Mobile Offline Profile Item name](media/profileitemname1.png "Enter Profile Item name")
