@@ -2,7 +2,7 @@
 title: "Set up and test IoT alerts from a real device (MXChip) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 4/23/2020
+ms.date: 5/15/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -38,7 +38,7 @@ In order to connect the MXChip device to Connected Field Service, we'll walk thr
 2. Create device alert rules in IoT Central
 3. Set up Power Automate flows to create IoT alerts
 4. Add MXChip as a connected device in IoT Central
-5. Plug-in and connect MXChip
+5. Plug in and connect MXChip
 6. See device readings in IoT Central
 7. See IoT alerts in Dynamics 365 Field Service
 8. Create the customer asset and connect the device
@@ -56,7 +56,7 @@ Before completing this tutorial, make sure you have:
 In this article, we'll use the terms "devices" and "sensors" to refer to internet-connected things that generate IoT data, such as the MXChip.
 
 > [!Note]
-> For more information, check out this video on [setting up Connected Field Service with Azure IoT Central(https://youtu.be/Sp7_JoXjHDk).
+> For more information, check out this video on [setting up Connected Field Service with Azure IoT Central](https://youtu.be/Sp7_JoXjHDk).
 
 
 
@@ -89,16 +89,6 @@ After rebooting, the firmware file will disappear.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the firmware file in the file explorer.](./media/cfs-mxchip-2.png)
 	
-/******** REMOVE THIS SECTION???
-### Copy firmware to device
-
-Drag and drop the .bin to your AZ3166 (D:)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-mxchip-3.png)
-
-/******** REMOVE THIS SECTION???
 
 ## Create device alert rules in IoT Central
 
@@ -318,11 +308,6 @@ Once connected, go to this address: http://192.168.0.1/start.
 
 > [!div class="mx-imgBorder"]
 > ![Image showing the MXChip beside a screenshot of the device listed as a wifi option on a mobile device.](./media/cfs-mxchip-26.png)
-
-//////// WAHT??? /////////
-You will need to ask for the Wi-Fi and password to the network you are hooking your device to from proctor. 
-
-//////// WAHT??? /////////
 
 Get the device pin from your device's display.
 
