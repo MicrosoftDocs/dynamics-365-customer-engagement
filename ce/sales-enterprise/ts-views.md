@@ -27,7 +27,7 @@ To resolve this issue, you must remove and add back the column that is causing t
 > Before you start resolving the issue, take note of the view for which this error is occurring.
 
 1. Go to **Settings** > **Customizations** > **Customize the System**.
-2. Select the entity > **Views** and select the view that has this error. In this example, we are selecting the entity **Account** and view as **Accounts Being Followed**.
+2. Select the entity > **Views** and select the view that has this error. In this example, we're selecting the entity **Account** and view as **Accounts Being Followed**.
 
     > [!div class="mx-imgBorder"]
     > ![Choose a view from the entity](media/troubleshooting-column-entity-view-selection.png "Choose a view from the entity")
@@ -46,7 +46,7 @@ To resolve this issue, you must remove and add back the column that is causing t
 
     The column is removed from the view.
 
-5. Add back the column that you have deleted. Select **Add Columns** and re-add the column that you removed. In this example, we are adding  the column **Email (Primary Contact)** that was removed.
+5. Add back the column that you've deleted. Select **Add Columns** and readd the column that you removed. In this example, we're adding  the column **Email (Primary Contact)** that was removed.
 
     > [!div class="mx-imgBorder"]
     > ![Adding back the removed column](media/troubleshooting-column-add-back-column-view.png "Adding back the removed column")
@@ -66,7 +66,7 @@ To resolve this issue, you must edit or remove filters for the view. This will e
 > Before you start resolving the issue, take note of the view for which this error is occurring.
 
 1. Go to **Settings** > **Customizations** > **Customize the System**.
-2. Select the entity > **Views** and select the view that has this error. In this example, we are selecting the entity **Account** and view as **Accounts I Follow**.
+2. Select the entity > **Views** and select the view that has this error. In this example, we're selecting the entity **Account** and view as **Accounts I Follow**.
 
     > [!div class="mx-imgBorder"]
     > ![Choose a view from the entity](media/troubleshooting-record-entity-view-selection.png "Choose a view from the entity")
@@ -85,7 +85,8 @@ To resolve this issue, you must edit or remove filters for the view. This will e
    
     The records in the views are displayed properly.
 
-## Issue: I can't see some records in opportunity, quote, order, or invoice subgrids<a name="missing-records"></a>
+## Issue: I can't see some records in opportunity, quote, order, or invoice subgrids
+<a name="missing-records"></a>
 
 While working on opportunity, quote, order, or invoice records, you might observe that some records are missing.
 
@@ -100,7 +101,7 @@ To fix the issue of incorrect customization, follow these steps to make sure you
 1.  In your app, on the nav bar, select the **Settings** icon, and then select **Advanced Settings**.
 
     > [!div class="mx-imgBorder"]
-    > ![Advanced Settings link in the Settings menu](media/advanced-settings-option.png "Advanced Advanced Settings link in the Settings menu")
+    > ![Advanced Settings link in the Settings menu](media/advanced-settings-option.png "Advanced Settings link in the Settings menu")
 
     The **Business Management** settings page opens in a new browser tab.
 
@@ -110,7 +111,7 @@ To fix the issue of incorrect customization, follow these steps to make sure you
 
 4. Under **Components** in the solution explorer, expand **Entities**, expand **Opportunity**, and then select **Forms**.
 
-5. Open the Opportunity form of type **Main**<!--Edit assumes "Main" is a string in the UI.-->.
+5. Open the Opportunity form of type **Main**.
 
 6. Double-click to select the **Connections** section in the **Product Line Items** section.
 
@@ -148,6 +149,61 @@ To fix the issue of incorrect customization, follow these steps to make sure you
 
     -   Hide nested grid column header: Hide Column
 
+        >[!NOTE]
+        >If you're using product bundles and edit these bundled line items in the product grid, select **Hide nested grid column header** as **Show Column**.
+
+## Issue: I can't update nested bundle items on the Product tab 
+<a name="cannot_update_nested_bundle_items"></a>
+
+**Reason**
+
+While working on an opportunity, when you update nested bundle items on the **Product** tab, the save icon is disabled. This error occurs because the header of the nested grid column is hidden under **Opportunity Product Inline Edit View** in customizations.  
+
+**Resolution**
+
+To resolve this issue, follow these steps to show the header of the nested grid columns for products on the opportunity form.
+
+1.  In your app, on the nav bar, select the **Settings** icon, and then select **Advanced Settings**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Advanced Settings on the Settings menu](media/advanced-settings-option.png "Advanced Settings on the Settings menu")
+
+    The **Business Management** settings page opens in a new browser tab.
+
+2. On the navigation bar, select **Settings**, and then under **Customization**, select **Customizations**. 
+
+3. Select **Customize the System**.
+
+4. Under **Components** in the solution explorer, expand **Entities**, expand **Opportunity**, and then select **Forms**.
+
+5. Open the **Opportunity** form of form type **Main**.
+
+6. In the **Product Line Items** section, double-click to select the **Opportunity products** section.
+
+    > [!div class="mx-imgBorder"]
+    > ![Select Opportunity products](media/troubleshooting-opportunity-products.png "Select Opportunity products")
+    
+    The **Set Properties** dialog box opens.
+
+    > [!div class="mx-imgBorder"]
+    > ![Set properties of Opportunity Products grid](media/set-properties-opportunity-products-grid.png "Set properties of Opportunity Products grid")
+
+7. On the **Controls** tab, double-click to select **Editable Grid**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Select Editable Grid](media/editable-grid-option.png "Select Editable Grid")
+
+8. In the **Editable Grid** section, select the pencil icon next to **Hide nested grid column header**. 
+    
+    > [!div class="mx-imgBorder"]
+    > ![Select Hide nested grid column header](media/troubleshooting-hide-nested-grid-column-header.png "Select Hide nested grid column header")
+
+9. In the **Configure Property** dialog box, under **Bind to static options**, select **Show column header**.
+    
+    > [!div class="mx-imgBorder"]
+    > ![Select Show column header](media/troubleshooting-select-show-column-header.png "Select Show column header")
+
+10. Save and publish the configuration.
 
 ### See also
 

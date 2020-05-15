@@ -1,24 +1,20 @@
 ---
 title: Work with knowledge articles | MicrosoftDocs
-description: ""
+description: "This topic provides information about working with the new native knowledge management capabilities in Dynamics 365 Customer Service"
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 05/14/2020
+ms.date: 05/15/2020
 search.audienceType: 
   - developer
 ---
 
 # Work with knowledge articles
 
-The new knowledge articles in Dynamics 365 Customer Service enable you to create rich knowledge articles along with versioning and translation support. The new knowledge experience uses the `KnowledgeArticle` entity to store and manage knowledge natively in Dynamics 365 Customer Service.  
-  
-This topic provides information about working with the new native knowledge management capabilities in Dynamics 365 Customer Service.  
-  
+The new knowledge experience in Dynamics 365 Customer Service enable you to create rich knowledge articles along with versioning and translation support. The new knowledge experience uses the `KnowledgeArticle` entity to store and manage knowledge natively in Dynamics 365 Customer Service.  
+    
 > [!NOTE]
-> The entities `KBArticle`, `KBArticleTemplate` and `KBArticleComment` are now deprecated. This means that we do not expect you to use these entities anymore. You must use the newer `KnowledgeArticle` entity for knowledge management in Dynamics 365 Customer Service. For more information, see the section **Legacy knowledge entities end of life** at the end of this topic. 
-  
-You can’t programmatically enable the knowledge base management feature for entities in your Dynamics 365 Customer Service instance; it can only be done using the Dynamics 365 Customer Service web client. More information: [Set up knowledge management](https://go.microsoft.com/fwlink/p/?LinkId=691083).  
+> The entities `KBArticle`, `KBArticleTemplate` and `KBArticleComment` are now deprecated. This means that we do not expect you to use these entities anymore. You must use the newer `KnowledgeArticle` entity for knowledge management in Dynamics 365 Customer Service. For more information, see the section **Deprecated knowledge entities** at the end of this topic. 
   
 <a name="Create"></a>   
 
@@ -28,7 +24,7 @@ When you create a knowledge article record, Dynamics 365 Customer Service intern
   
  ![KnowledgeArticle entity model](../customerengagement/on-premises/developer/media/crm-knowledgearticleentitymodel.png "KnowledgeArticle entity model")  
   
- When you create a knowledge article record, it is created in the `Draft` state. Using the new `KnowledgeArticle` entity, you can create an article by specifying its contents and formatting in HTML format as compared to using the old `KbArticle` entity where you had to associate it with a template that described the sections and formatting for the article. You can specify your own value for the `KnowledgeArticle`.`ArticlePublicNumber` attribute while creating a knowledge article record programmatically; otherwise, the value is automatically generated based on the format you specified in the Dynamics 365 Customer Service settings area in the web client. The `KnowledgeArticle`.`ArticlePublicNumber` attribute stores the ID exposed to customers, partners, and other external users to reference and look up knowledge articles, and remains the same across knowledge article versions and translations.  
+ When you create a knowledge article record, it is created in the `Draft` state. Using the new `KnowledgeArticle` entity, you can create an article by specifying its contents and formatting in HTML format. You can specify your own value for the `KnowledgeArticle`.`ArticlePublicNumber` attribute while creating a knowledge article record programmatically; otherwise, the value is automatically generated based on the format you specified in the Dynamics 365 Customer Service settings area in the web client. The `KnowledgeArticle`.`ArticlePublicNumber` attribute stores the ID exposed to customers, partners, and other external users to reference and look up knowledge articles, and remains the same across knowledge article versions and translations.  
   
  The following sample code shows how you can create a knowledge article record.  
   
@@ -168,7 +164,7 @@ _serviceProxy.Associate(Account.EntityLogicalName, accountId, newRelationship, r
   
  Use the <xref:Microsoft.Crm.Sdk.Messages.FullTextSearchKnowledgeArticleRequest> message to search knowledge article from your applications to find the information you are looking for. The <xref:Microsoft.Crm.Sdk.Messages.FullTextSearchKnowledgeArticleRequest> message lets you use inflectional stem matching (allows for a different tense or inflection to be substituted for the search text) and specify query criteria (using FetchXML or QueryExpression to specify filtering, ordering, sorting, and paging) to find knowledge articles with specified text. You can also choose to remove multiple versions of the same articles in the search results and filter on the knowledge article state while searching for a text.  
 
-## Legacy knowledge entities end of life  
+## Deprecated knowledge entities  
 
 The Knowledge Management functionality in Dynamics 365 Customer Service has been enhanced resulting in the following legacy entities being deprecated:   
 

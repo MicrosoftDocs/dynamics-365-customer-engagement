@@ -156,33 +156,35 @@ Reach out to Microsoft support for further investigation.
 
 ### Issue
 
-If your tenant has an expired Office 365 license, then the Omnichannel for Customer Service provisioning fails in your organization.
+If your tenant has an expired Office 365 license, then the provisioning of Omnichannel for Customer Service fails in your organization.
 
 ### Resolution
 
-To avoid the provisioning failure, you must remove the **Teams Service Principal** in **Azure Active Directory**. Follow the steps to remove **Teams Service Principal**.
+To avoid the provisioning failure, you must remove the Teams Service Principal and Skype Teams Calling API Service in Azure Active Directory. Follow the steps to remove the services.
 
-[Step 1: Identify Teams Service in Azure Active Directory](#step-1-identify-teams-service-in-azure-active-directory)
+[Step 1: Identify the services in Azure Active Directory](#step-1-identify-the-services-in-azure-active-directory)
 
 [Step 2: Use PowerShell to remove Microsoft Teams and Skype Teams Calling API Service](#step-2-use-powershell-to-remove-microsoft-teams-and-skype-teams-calling-api-service)
 
-#### Step 1: Identify Teams Service in Azure Active Directory
+#### Step 1: Identify the services in Azure Active Directory
 
 1. Sign in to the [Azure portal](https://portal.azure.com/).
 2. Select **Azure Active Directory** in the left pane.
 3. Select **Enterprise Applications**.
-4. Search for Microsoft Teams by entering its application ID `cc15fd57-2c6c-4117-a88c-83b1d56b4bbe` in the search box.
-5. Do the following steps:
-   1. Copy the **Object ID**, and save it for future use. Ensure that the application ID is  `cc15fd57-2c6c-4117-a88c-83b1d56b4bbe` as this ID is same for every tenant.
-   2. Disable the Microsoft Teams service, if it is in enabled state.
+4. In the search criteria, select **All Applications** and **Disabled** in **Application Type** and **Application Status**.
+5. In the search box, enter the application ID `cc15fd57-2c6c-4117-a88c-83b1d56b4bbe` for Microsoft Teams.
 
    > [!div class=mx-imgBorder]
-   > ![Microsoft Teams object and app Id](media/teams-object-appid.png "Microsoft Teams object and app Id")
+   > ![Microsoft Teams object and app IDs](media/teams-object-appid.png "Microsoft Teams object and app IDs")
 
-6. Search for **Skype Teams Calling API Service** by entering its application ID `26a18ebc-cdf7-4a6a-91cb-beb352805e81` in the search box.
-7. Do the following steps:
-   1. Copy the **Object ID**. Make sure that the application ID is `26a18ebc-cdf7-4a6a-91cb-beb352805e81`.
-   2. Disable the Skype Teams Calling API Service, if it is in enabled state.
+6. In the result that appears, copy the **Object ID**, and save it. Ensure that the application ID is  `cc15fd57-2c6c-4117-a88c-83b1d56b4bbe` as this ID is same for every tenant.
+
+7. Now, search for Skype Teams Calling API Service by entering its application ID `26a18ebc-cdf7-4a6a-91cb-beb352805e81` in the search box.
+
+   > [!div class=mx-imgBorder]
+   > ![Skype object and app IDs](media/skype-object-appid.png "Skype object and app IDs")
+
+8. In the result that appears, copy the **Object ID**. Make sure that the application ID is `26a18ebc-cdf7-4a6a-91cb-beb352805e81`.
 
 #### Step 2: Use PowerShell to remove Microsoft Teams and Skype Teams Calling API Service
 
@@ -198,8 +200,8 @@ To avoid the provisioning failure, you must remove the **Teams Service Principal
 
 5. Type the `Connect-AzureAD` command in the PowerShell window, and press **Enter**.
 This establishes a connection with the tenant's Azure Active Directory, so you can manage it using Powershell.
-6.	Sign in to your organization as a tenant admin.
-7.	Run the `Remove-AzureADServicePrincipal -ObjectID <ObjectID>` command in the PowerShell window twice, one each for Microsoft Teams and Skype Teams Calling API Service. Replace **<ObjectID>** with the object ID you had stored earlier. This command deletes the expired Teams service and Skype Teams Calling API Service from Azure Active Directory.
+6. Sign in to your organization as a tenant admin.
+7. Run the `Remove-AzureADServicePrincipal -ObjectID <ObjectID>` command in the PowerShell window twice, one each for Microsoft Teams and Skype Teams Calling API Service. Replace **<ObjectID>** with the object ID you had stored earlier. This command deletes the expired Teams service and Skype Teams Calling API Service from Azure Active Directory.
 
    > [!Note]
    > Right click in the PowerShell window to paste the Object ID.
