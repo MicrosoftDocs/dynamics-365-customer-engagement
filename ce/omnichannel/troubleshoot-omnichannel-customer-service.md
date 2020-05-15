@@ -171,18 +171,20 @@ To avoid the provisioning failure, you must remove the **Teams Service Principal
 1. Sign in to the [Azure portal](https://portal.azure.com/).
 2. Select **Azure Active Directory** in the left pane.
 3. Select **Enterprise Applications**.
-4. Search for Microsoft Teams by entering its application ID `cc15fd57-2c6c-4117-a88c-83b1d56b4bbe` in the search box.
-5. Do the following steps:
-   1. Copy the **Object ID**, and save it for future use. Ensure that the application ID is  `cc15fd57-2c6c-4117-a88c-83b1d56b4bbe` as this ID is same for every tenant.
-   2. Disable the Microsoft Teams service, if it is in enabled state.
+4. In the search criteria, select **All Applications** and **Disable** in **Application Type** and **Application Status**.
+5. In the search box, enter the application ID `cc15fd57-2c6c-4117-a88c-83b1d56b4bbe` for Microsoft Teams.
 
    > [!div class=mx-imgBorder]
-   > ![Microsoft Teams object and app Id](media/teams-object-appid.png "Microsoft Teams object and app Id")
+   > ![Microsoft Teams object and app IDs](media/teams-object-appid.png "Microsoft Teams object and app IDs")
 
-6. Search for **Skype Teams Calling API Service** by entering its application ID `26a18ebc-cdf7-4a6a-91cb-beb352805e81` in the search box.
-7. Do the following steps:
-   1. Copy the **Object ID**. Make sure that the application ID is `26a18ebc-cdf7-4a6a-91cb-beb352805e81`.
-   2. Disable the Skype Teams Calling API Service, if it is in enabled state.
+6. In the result that appears, copy the **Object ID**, and save it. Ensure that the application ID is  `cc15fd57-2c6c-4117-a88c-83b1d56b4bbe` as this ID is same for every tenant.
+
+7. Now, search for Skype Teams Calling API Service by entering its application ID `26a18ebc-cdf7-4a6a-91cb-beb352805e81` in the search box.
+
+   > [!div class=mx-imgBorder]
+   > ![Skype object and app IDs](media/skype-object-appid.png "Skype object and app IDs")
+
+8. In the result that appears, copy the **Object ID**. Make sure that the application ID is `26a18ebc-cdf7-4a6a-91cb-beb352805e81`.
 
 #### Step 2: Use PowerShell to remove Microsoft Teams and Skype Teams Calling API Service
 
