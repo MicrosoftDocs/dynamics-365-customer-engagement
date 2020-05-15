@@ -2,7 +2,7 @@
 title: "Design a static segment (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to create a static segment by selecting specific contacts individually in Dynamics 365 Marketing"
 keywords: segment; compound segment
-ms.date: 10/04/2019
+ms.date: 05/14/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -12,7 +12,7 @@ author: alfergus
 ms.author: alfergus
 manager: shellyha
 ms.reviewer:
-topic-status: Drafting
+topic-status:
 search.audienceType: 
   - admin
   - customizer
@@ -24,23 +24,23 @@ search.app:
 
 # Design static segments
 
-_Static segments_ let you select individual contacts, one by one, to create custom segments without requiring any logical expressions.
+Static segments enable you to choose and add segment members manually based on existing lists or search results.
 
-> [!IMPORTANT]
-> Static segments can contain a maximum of 1,000 members. If you need to curate a larger list than this, then please create a static marketing list instead. You can bring a static marketing list into a dynamic profile segment using relations if needed. For more information about marketing lists and how they are different from segments, see [Marketing segments vs. marketing lists](segments-vs-lists.md) and [Create a marketing list using in-app marketing (Sales)](../sales-enterprise/create-marketing-list-using-app-marketing-sales.md).
+To create a static segment, go to **Customers** > **Segments** and select **New** in the dropdown menu on the top ribbon. Then, select the **Static Segment** option, as described in [Create and go live with a new segment](segmentation-lists-subscriptions.md#create-segment).
 
-When you are working with a static segment, you'll see a list of all of the contacts from your database, with a check box shown for each. Select the check box for each contact you want to include in the segment and clear the check box for all other contacts.
+When you create a new static segment, you can add segment members manually one by one, or with a query (to select multiple contacts at a moment).
 
-To create a static segment, create a segment and then select the **Static** option, as described in [Create and go live with a new segment](segmentation-lists-subscriptions.md#create-segment).
+When you select “Add”, you will see a pane on the right offering to either type the contact name to search for a specific information or press Enter to see the full list of contacts.
 
-Because your database probably includes many contacts, the designer often can't show all of them on one page. It provides paging controls at the bottom and a search filter at the top. Select the filter button at the top of the list to open a form where you can build a query that can help you find the contacts you want to add.
+When you see the list of contact names, you are able to select any number of them simply by clicking on each name. The selected contacts will be shown in the gray field on top of the right pane. When you’re done with selection process, press “Add” at the bottom of the pane and all the selected contacts will be added to your segment.
 
-![Segment designer for static segments](media/segment-static.png "Segment designer for static segments")
+As your database may contain a multitude of contacts, the segment designer now includes the second option to add contacts – **Add by Query**. Opposite to dynamic segment, this query is executed only once, to help you find the right group of contacts and add to a segment.
 
-When you're done picking contacts for your static segment, select Go live on the command bar, as usual. Once the segment is live, it will include a **Members** tab, which lists all contacts in the segment.
+In the Manage Segment Members pop-up window, you can edit the query and execute it by pressing Find button.
 
-> [!TIP]
-> Each time you adjust the filter settings, you must select the **Apply** button to update the list.
+In the list of results corresponding the query, you can either manually select (by pressing on the left to the contact name) the required contact or add the whole list by pressing Add all button at the bottom.
+
+When you're done picking contacts for your static segment, you will immediately see all of them on the Members tab. In order to start using a segment, select Go Live in the top menu, as usual.
 
 ### See also
 
