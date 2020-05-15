@@ -1,7 +1,7 @@
 ---
 title: "KbArticle Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the KbArticle entity."
-ms.date: 04/02/2019
+ms.date: 05/13/2020
 ms.service: "crm-online"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
@@ -16,6 +16,9 @@ search.app:
 ---
 # KbArticle Entity Reference
 
+> [!NOTE]
+> This entity is now deprecated. This means that we do not expect you to use this entity anymore. You must use the newer `KnowledgeArticle` entity for knowledge management in Dynamics 365 Customer Service.  
+  
 Structured content that is part of the knowledge base.
 
 
