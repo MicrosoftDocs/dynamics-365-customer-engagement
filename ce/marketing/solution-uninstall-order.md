@@ -2,7 +2,7 @@
 title: "Dynamics 365 Marketing solution uninstall order (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Lists the correct order in which to remove solutions when uninstalling Dynamics 365 Marketing."
 keywords: administration; sample data
-ms.date: 10/07/2019
+ms.date: 05/08/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -12,7 +12,7 @@ author: alfergus
 ms.author: alfergus
 manager: shellyha
 ms.reviewer:
-topic-status: Drafting
+topic-status: 
 search.audienceType: 
   - admin
   - customizer
@@ -24,7 +24,10 @@ search.app:
 
 # Solution uninstall order for removing Dynamics 365 Marketing
 
-To delete Dynamics 365 from an instance, first open the Marketing setup wizard and run the uninstall command (which releases your Dynamics 365 license and disconnects the Marketing services). If you'd also like to remove all of the related solutions from your instance, then you must manually delete them in the order listed below. (Some of the items listed here may not be present on your instance, so just skip these.) For complete instructions, see [Uninstall Marketing](uninstall-marketing.md).
+> [!NOTE]
+> If you want to release your Marketing entitlement to use on a different instance, you **do not** need to uninstall any of the Marketing solutions.
+
+To delete Dynamics 365 from an instance, first open the Marketing setup wizard and run the uninstall command. The uninstall command releases your Dynamics 365 license and disconnects the Marketing services. If you'd also like to remove all of the related solutions from your instance, you must manually delete them in the order listed below. (Some of the items listed here may not be present on your instance, so just skip any missing items.) For complete instructions, see [Uninstall Marketing](uninstall-marketing.md).
 
 Marketing solution uninstall order:
 
@@ -96,4 +99,4 @@ Marketing solution uninstall order:
 1. MicrosoftDynamics_Calendar
 1. MicrosoftDynamics_PreImport
 
-If you see any other "anchor" solutions that start with "MicrosoftDynamics_", then you can delete these too. They are probably left over from an earlier version that you upgraded. You can remove these in any order after you've uninstalled the other solutions.
+If you see any other "anchor" solutions that start with "MicrosoftDynamics_", you can delete these too. They are probably left over from an earlier version that you upgraded. You can remove these in any order after you've uninstalled the other solutions.

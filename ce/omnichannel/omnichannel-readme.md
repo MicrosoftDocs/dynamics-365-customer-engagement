@@ -4,7 +4,7 @@ description: "Learn about the known issues and limitations in Omnichannel for Cu
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/05/2020
+ms.date: 05/11/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -129,10 +129,6 @@ To work-around the issue, follow these steps:
 8. Select the **Open Conversation from Omnichannel Agent Dashboard** action call and select **Add**, and then select **Save** to save the event.
 
 Now, if you open the conversation (work item) from the Omnichannel agent dashboard, the conversation opens as a session or as a form in the application management toolbar.
-
-## Agents receive delayed notification when the chat ends
-
-A customer ends the chat by selecting the Close (**X**) button on the chat widget. After the customer closes the chat, there's a delay before the agent receives the notification of the customer ending the conversation.
 
 ## Context variable duplication and delete dependency check
 

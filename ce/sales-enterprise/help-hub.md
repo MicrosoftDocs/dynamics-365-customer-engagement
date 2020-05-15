@@ -22,6 +22,7 @@ manager: annbe
 <li><a href="user-guide-learn-basics.md" data-raw-source="[Learn the basics](user-guide-learn-basics.md)">Learn the basics</a></li>
 <li><a href="use-sales-hub-on-dynamics-365-mobile.md" data-raw-source="[Use Sales Hub on Dynamics 365 for phones and tablets](use-sales-hub-on-dynamics-365-mobile.md)">Use Sales Hub on Dynamics 365 for phones and tablets</a></li>
 
+
 </td><td>
 
 <h2>Administer the system</h2>
@@ -54,8 +55,8 @@ manager: annbe
 <li><a href="track-marketing-campaign-response-using-app-marketing-sales.md" data-raw-source="[Track a marketing campaign response](track-marketing-campaign-response-using-app-marketing-sales.md)">Track a marketing campaign response</a></li>
 
 <tr><td>
-<h2>Troubleshooting</h2>
-<li><a href="troubleshooting.md"> Troubleshooting guide for sales people</a></li>
+<h2>Troubleshooting and FAQs</h2>
+<li><a href="troubleshooting.md"> Troubleshooting guide for Dynamics 365 Sales</a></li>
 <li><a href="faqs-sales.md"> FAQs</a></li>
 
 </td><td>
