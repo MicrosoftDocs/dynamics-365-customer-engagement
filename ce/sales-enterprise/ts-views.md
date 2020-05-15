@@ -153,6 +153,7 @@ To fix the issue of incorrect customization, follow these steps to make sure you
         >If you're using product bundles and edit these bundled line items in the product grid, select **Hide nested grid column header** as **Show Column**.
 
 ## Issue: I can't update nested bundle items on the Product tab 
+<a name="cannot_update_nested_bundle_items"></a>
 
 **Reason**
 

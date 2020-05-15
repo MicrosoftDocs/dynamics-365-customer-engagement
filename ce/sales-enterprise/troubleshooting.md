@@ -66,7 +66,7 @@ manager: annbe
 <li><a href="ts-views.md#no_data_in_views" data-raw-source="[I can't see data in certain columns in entity views](ts-views.md#no_data_in_views)">I can't see data in certain columns in entity views</a></li>
 <li><a href="ts-views.md#records_missing_in_views" data-raw-source="[I can't see some records in the entity views](ts-views.md#records_missing_in_views)">I can't see some records in the entity views</a></li>
 <li><a href="ts-views.md#missing-records" data-raw-source="[I can't see some records in opportunity, quote, order, or invoice subgrids](ts-views.md#missing-records)">I can't see some records in opportunity, quote, order, or invoice subgrids</a></li>
-
+<li><a href="ts-views.md#cannot_update_nested_bundle_items" data-raw-source="[I can't update nested bundle items on the Product tab ](ts-views.md#cannot_update_nested_bundle_items)">I can't update nested bundle items on the Product tab</a></li>
 
 </td></tr>
 
