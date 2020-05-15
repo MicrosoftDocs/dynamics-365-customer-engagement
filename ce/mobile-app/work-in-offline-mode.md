@@ -138,11 +138,11 @@ These entities and corresponding commands are available in offline mode.
 |-------------|---------|  
 |Account|	Create, Read, Update, Delete|
 |Activity Pointer|Read, Delete|
-|Appointment|	Create, Read, Update, Delete, Convert ActivityCase|
+|Appointment|	Create, Read, Update, Delete, Convert Activity Case|
 |Attachment	|Read only|
 |Case|Create, Read, Update, Delete|
 |Competitor|Create, Read, Update, Delete	|
-|Competitor Address Address|Create, Read, Update, Delete	|
+|Competitor Address |Create, Read, Update, Delete	|
 |Connection|Read only|
 |Connection Role|Read only|
 |Contact|Create, Read, Update, Delete	|
