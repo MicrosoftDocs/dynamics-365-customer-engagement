@@ -45,7 +45,7 @@ HAVE THE RIGHTS BELOW. BY USING THE SOFTWARE, YOU ACCEPT THESE TERMS.
 >   or subprocessor of personal data in connection with the software, Microsoft
 >   makes the commitments in the European Union General Data Protection
 >   Regulation Terms of the Online Services Terms to all customers effective May
->   25, 2018, at <http://go.microsoft.com/?linkid=9840733>.
+>   25, 2018, at <https://go.microsoft.com/?linkid=9840733>.
 
 **3. SCOPE OF LICENSE.** The software is licensed, not sold. Microsoft reserves
 all other rights. Unless applicable law gives you more rights despite this
@@ -70,7 +70,7 @@ limitation, you will not (and have no right to):
 **4. EXPORT RESTRICTIONS.** You must comply with all domestic and international
 export laws and regulations that apply to the software, which include
 restrictions on destinations, end users, and end use. For further information on
-export restrictions, visit <http://aka.ms/exporting>.
+export restrictions, visit <https://aka.ms/exporting>.
 
 **5. SUPPORT SERVICES.** Microsoft is not obligated under this agreement to
 provide any support services for the software. Any support provided is “as is”,
