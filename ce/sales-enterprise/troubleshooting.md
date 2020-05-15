@@ -58,6 +58,7 @@ manager: annbe
 
 <li><a href="ts-forecasts.md#publish_forecast_definition" data-raw-source="[I can't publish forecast definition](ts-forecast.md#publish_forecast_definition)">I can't publish forecast definition</a></li>
 <li><a href="ts-forecasts.md#recalculate_forecast" data-raw-source="[I can't recalculate the forecast](ts-forecasts.md#recalculate_forecast)">I can't recalculate the forecast</a></li>
+<li><a href="ts-forecasts.md#territory_based_forecast_issues" data-raw-source="[Territory-based forecast issues and resolution](ts-forecasts.md#territory_based_forecast_issues)">Territory-based forecast issues and resolution</a></li>
 
 </td><td>
 
