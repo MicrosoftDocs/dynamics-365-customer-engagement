@@ -81,6 +81,7 @@ There might be several reasons related to the failure of recalculation of the fo
 4. Take the necessary actions to resolve the error and recalculate the forecast. 
 
 ## Territory-based forecast issues and resolution
+<a name="territory_based_forecast_issues"> </a>
 
 ### Issue: An error is displayed when I try to create a territory-based forecast. 
 ### -OR-

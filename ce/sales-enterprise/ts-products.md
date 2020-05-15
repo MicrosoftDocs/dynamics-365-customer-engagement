@@ -15,6 +15,7 @@ manager: annbe
 Follow the instructions in this article to troubleshoot the issues you might face while working with the Product entity in Dynamics 365 Sales.
 
 <a name="reparenting_not_working"> </a>
+
 ## Issue: Re-parenting isn't working, or the Parent field isn't visible
 
 _Product re-parenting_ allows you to change the parent of an existing product record so the child products will inherit the appropriate product properties. More information: [Change the parent of a product](change-product-parent.md)
