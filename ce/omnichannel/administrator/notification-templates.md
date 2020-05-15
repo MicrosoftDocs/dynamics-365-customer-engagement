@@ -4,7 +4,7 @@ description: "Learn about managing notification templates in Omnichannel Adminis
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/11/2020
+ms.date: 05/12/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -23,7 +23,17 @@ A notification template is a combination of notification-related, reusable infor
 > [!Note]
 > You must associate the notification templates to a session template.
 
-## Desktop notifications when the app is in the background
+## Desktop notifications
+
+### Prerequisite
+
+For optimal functioning of desktop notifications, make sure that you are using the latest supported browsers as specified in the [system requirements](../system-requirements-omnichannel.md).
+
+> [!Note]
+>
+> The legacy version of Microsoft Edge is not supported.
+
+### Desktop notifications when the app is in the background
 
 Agents can receive desktop notifications when the Omnichannel for Customer Service app is not in focus. These notifications help ensure that agents won't miss any conversation requests. Some scenarios where the app isn't in focus might include:
 
