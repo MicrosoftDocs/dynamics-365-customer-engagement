@@ -5,7 +5,7 @@ manager: kfend
 ms.service: dynamics-365-projectservice
 ms.custom:
   - dyn365-projectservice
-ms.date: 05/12/2020
+ms.date: 05/15/2020
 ms.topic: article
 ms.prod: 
 ms.service: business-applications
@@ -35,7 +35,7 @@ To support this functionality, the roles within PSA have been updated to include
 
 Users who require the ability to log time should be granted the user role **Time Entry User** in addition to existing roles. This role includes the new functionality and ensures that time entry will continue to work.
 
-Additionally, if you have any custom app modules that include all forms for the time entry entity, you will be required to remove the **TESA time Entry Quick Create Form** from the app module.
+Additionally, if you have any custom app modules that include all forms for the time entry entity, you will be required to remove the **TESA time Entry Quick Create Form** from the module.
 
 ### Currently extended time entry changes
 To minimize the impact to current users of time entry, this role change is the only core requirement necessary to continue utilizing time entry. If you have created custom views or separate time entry experiences, you must set the **Time Entry Setting** fields to the correct PSA value.
