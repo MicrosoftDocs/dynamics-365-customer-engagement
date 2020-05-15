@@ -2,7 +2,7 @@
 title: "Work with knowledge articles (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The section provides information about working with the new native Dynamics 365 Customer Engagement (on-premises) knowledge management capabilities."
 ms.custom: 
-ms.date: 10/01/2019
+ms.date: 05/15/2020
 ms.reviewer: 
 ms.service:
 ms.suite: 
@@ -39,9 +39,7 @@ The new knowledge articles in Dynamics 365 Customer Engagement (on-premises) ena
  This topic provides information about working with the new native Dynamics 365 Customer Engagement (on-premises) knowledge management capabilities.  
   
 > [!NOTE]
->  If you’re using the earlier knowledge base article (`KBArticle`) entity model, see [Work with earlier Dynamics 365 Customer Engagement (on-premises) knowledge base articles](work-knowledge-articles.md#EarlierKBArticle) later in this topic.  
-  
- You can’t programmatically enable the knowledge base management feature for entities in your Dynamics 365 Customer Engagement (on-premises) instance; it can only be done using the Dynamics 365 Customer Engagement (on-premises) web client. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up knowledge management](https://go.microsoft.com/fwlink/p/?LinkId=691083)  
+>  The entities (`KBArticle`), (`KBArticleTemplate`), and (`KBArticleComment`) are now deprecated. This means that we do not expect you to use these entities anymore. You must use the newer (`KnowledgeArticle`) entity for knowledge management in Dynamics 365 Customer Service.  For more information, see the section [Deprecated legacy knowledge entities](#deprecated-knowledge-entities) at the end of this topic.
   
 <a name="Create"></a>   
 ## Create a knowledge article  
@@ -180,52 +178,33 @@ _serviceProxy.Associate(Account.EntityLogicalName, accountId, newRelationship, r
  Knowledge articles in Dynamics 365 Customer Engagement (on-premises), including their versions and translations, are full-text indexed and support SQL Server full-text search. For more information about full-text search, see [SQL Server: Full-text Search](https://docs.microsoft.com/sql/relational-databases/search/full-text-search).  
   
  Use the <xref:Microsoft.Crm.Sdk.Messages.FullTextSearchKnowledgeArticleRequest> message to search knowledge article from your applications to find the information you are looking for. The <xref:Microsoft.Crm.Sdk.Messages.FullTextSearchKnowledgeArticleRequest> message lets you use inflectional stem matching (allows for a different tense or inflection to be substituted for the search text) and specify query criteria (using FetchXML or QueryExpression to specify filtering, ordering, sorting, and paging) to find knowledge articles with specified text. You can also choose to remove multiple versions of the same articles in the search results and filter on the knowledge article state while searching for a text.  
-  
-<a name="EarlierKBArticle"></a>   
-## Work with earlier Dynamics 365 Customer Engagement (on-premises) knowledge base articles  
-  
-> [!NOTE]
->  This section provides you with information about working with the earlier knowledge base article entity model for knowledge management in Dynamics 365 Customer Engagement. While the entities mentioned in this section are still available in the current version, you should use the knowledge management entities mentioned earlier to take advantage of the enhanced knowledge management experience.  
-  
- During its lifecycle, a knowledge base article can be in the following states:  
-  
-- 1: Draft (after an article is created)  
-  
-- 2: Unapproved (during editing)  
-  
-- 3: Published (after an article is published)  
-  
-  To change the state of the article, use the <xref:Microsoft.Crm.Sdk.Messages.SetStateRequest> message. For early bound types, use the `KbArticleState` enumeration to set the possible states.  
-  
-  When you create an article, you have to associate it with a template and a subject. An article template describes the sections and formatting for the article. Subjects are used to organize the articles by business categories that are also used to group cases (incidents), sales literature, and products. A best practice is to create a subject tree hierarchy and all necessary article templates before you create an article.  
-  
-> [!NOTE]
-> The Dynamics 365 Customer Engagement (on-premises) platform provides several article templates. They include a standard article, a solution to a problem, a procedure, and other templates. The recommended method of creating article templates is by using Dynamics 365 Customer Engagement (on-premises). If you want to create an article template programmatically, use existing article templates as examples of what information to include and how to format the data.  
-  
- To associate an article with a template, use the `KbArticle.KbArticleTemplateId` attribute. To place an article in a specific category by specifying a subject, use the `KbArticle.SubjectId` attribute.  
-  
- Specify the title of the article and the keywords that you want to use in the search. To describe an article you can use the `KbArticle.Description` attribute. To add the content for the article, use the `KbArticle.Content` attribute. Use the `Kbarticle.ArticleXml` attribute to add the XML data for article. The `KbArticle.LanguageCode` value is obtained from the template to help you write the queries that sort the articles by the language.  
-  
- When an article is created it is saved as a draft. After that, you can change the state of the article from “Draft” to “Unapproved.” You can modify the content of an unapproved article and make it ready for publishing. When the article is ready to be published, change the state from “Unapproved” to “Published.”  
-  
- An unpublished article obtains the format settings from a template. If you change a template format, the changes are automatically propagated to articles in the “Draft” and “Unapproved” states.  
-  
- After you publish an article, you can add comments (`KbArticleComment`), but you can’t edit it, regardless of your privileges. The comments can be added to the article that is in any of the states.  
-  
-> [!NOTE]
->  The comments can be added to the article in any state: Draft, Unapproved or Published.  
-  
- To revise or update the article, you have to unpublish it. To unpublish an article, change the state of the article from Published to Unapproved. To delete an article from the Dynamics 365 Customer Engagement (on-premises) database, change the state of the article from Published to Unapproved or Draft.  
-  
-> [!NOTE]
->  A knowledge base article cannot be deleted, if it is in the Published state.  
-  
- For more information on creating, updating, editing, and locating an article in the knowledge base, see [Use articles in the knowledge base](https://go.microsoft.com/fwlink/p/?LinkId=526812).  
+
+<a name="Deprecated"></a>   
+## Deprecated knowledge entities 
+The Knowledge Management functionality in Dynamics 365 Customer Service has been enhanced resulting in the following legacy entities being deprecated:   
+
+- [KbArticle](entities/kbarticle.md) 
+- [KbArticleComment](entities/kbarticlecomment.md) 
+- [KbArticleTemplate](entities/kbarticletemplate.md)  
+
+Deprecation of the legacy knowledge entities was announced in the, [Important changes coming in future releases of Microsoft Dynamics 365](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)?redirectedfrom=MSDN#some-knowledge-management-entities). 
+
+Legacy knowledge entities will no longer be accessible as of December 1, 2020. It is strongly recommended you move to the new KnowledgeArticle entity now.  For more information about creating a knowledge article in  Unified Interface, see [Create and manage knowledge articles](../../../customer-service/customer-service-hub-user-guide-knowledge-article).  
+
+Use the following for help with migration:  
+- Use SDK, WebAPI, or Microsoft Power Automate depending on your scenarios.  
+- Use the open source migration tool with [MIT license](https://github.com/microsoft/dynamics365-kbmigration/blob/master/LICENSE).  
+
+
+> [!IMPORTANT]
+> - The open source migration tool is not support by Microsoft and may need to be modified to suit your scenarios.  
+> - Always run a test environment before using in production.  
+> - Check the license and readme before you use the tool.   
   
 ### See also  
- [Knowledge Base Entities](knowledge-management-entities.md)
- [KnowledgeArticle Entity](entities/knowledgearticle.md)
- [KnowledgeArticleViews Entity](entities/knowledgearticleviews.md)
- [KnowledgeBaseRecord Entity](entities/knowledgebaserecord.md)
- [LanguageLocale Entity](entities/languagelocale.md)
- [KbArticle Entity](entities/kbarticle.md)
+ - [Knowledge Base Entities](knowledge-management-entities.md)
+ - [KnowledgeArticle Entity](entities/knowledgearticle.md)
+ - [KnowledgeArticleViews Entity](entities/knowledgearticleviews.md)
+ - [KnowledgeBaseRecord Entity](entities/knowledgebaserecord.md)
+ - [LanguageLocale Entity](entities/languagelocale.md)
+ - [Important changes coming in future releases of Microsoft Dynamics 365](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)?redirectedfrom=MSDN#bkmk_CrmKMEntities) 
