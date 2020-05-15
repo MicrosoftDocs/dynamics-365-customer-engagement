@@ -4,7 +4,7 @@ description: "Instructions to configure a Twitter Direct Message channel in Omni
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 04/27/2020
+ms.date: 05/13/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -18,13 +18,16 @@ Many customers use social messaging channels like Twitter Direct Message (DM) fo
 
 The Twitter channel gives you an incredible opportunity to capitalize on the social media trend and engage with your customers in a seamless and personalized experience.
 
-**Prerequisites**: Following are the prerequisites before configuring the Twitter channel in Omnichannel for Customer Service:
+## Prerequisites
+
+The following are important prerequisites that you must complete before configuring the Twitter channel in Omnichannel for Customer Service:
 > [!NOTE]
 > To enable the Twitter channel in an existing Omnichannel environment, you must upgrade to the latest version of Omnichannel for Customer Service. For information, [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md).
 
 1.	Create a Twitter handle. More information: [Create and Manage a Twitter business profile](https://business.twitter.com/en/basics/create-a-twitter-business-profile.html)
-2.	Enable direct message for your Twitter handle. More information: [Enable Direct Message](https://help.twitter.com/en/using-twitter/direct-messages#receive)
-3.	Create a Twitter application. Apply for a developer account, not a team account. Create a Twitter developer environment. More information: [App Development](https://developer.twitter.com/en/docs/basics/apps/overview)
+2.	Enable direct message for your Twitter handle. More information: [Enable Direct Message](https://help.twitter.com/using-twitter/direct-messages#receive)
+3.	Create a Twitter application. Apply for a developer account, not a team account. Create a Twitter developer environment. More information: [App Development](https://developer.twitter.com/docs/basics/apps/overview)
+4.  Update the Twitter application permissions to read, write and access Direct Messages. More information: [App permissions](https://developer.twitter.com/docs/basics/apps/guides/app-permissions)
 
 After completing the prerequisites, you can add the Twitter channel for your organization by following these steps:
 
@@ -32,6 +35,9 @@ After completing the prerequisites, you can add the Twitter channel for your org
 2.	[Create routing rules](#create-routing-rules)
 
 ## Create a Twitter channel and add a Twitter handle
+
+> [!NOTE]
+> You must complete the [prerequisites](#prerequisites) above before starting this procedure.
 
 1.	Go to **Channels** > **Twitter**.
 
@@ -50,7 +56,7 @@ After completing the prerequisites, you can add the Twitter channel for your org
     More information about the Twitter app: [Setting up your Twitter app](https://developer.twitter.com/en/docs/basics/apps/overview)
   
     > [!div class=mx-imgBorder]
-    > ![Register a Twitter application](../media/twitter-create-handle.png "Register a Twitter application")
+    > ![Register a Twitter application](../media/twitter-register-app.png "Register a Twitter application")
 
 4.	Select **Save**. After you save the record, the **Twitter** channel is enabled. The Callback URL has been generated. The next step is to save it.
 
