@@ -4,11 +4,12 @@ author: ReneeW-CPub
 ---
 
 <a name="top"></a>
+
 # SUPPLEMENTAL TERMS FOR TRIAL SERVICES
 
 These terms supplement the applicable terms of the [Microsoft Online
 Subscription
-Agreement](https://azure.microsoft.com/en-us/support/legal/subscription-agreement/)
+Agreement](https://azure.microsoft.com/support/legal/subscription-agreement/)
 (the “Agreement”) and any terms referenced therein that govern your use of the
 Trial Service. For the purposes of these Supplemental Terms for Trial Services
 (“the **Supplemental Terms**”), any trial of a commercially-available Online
