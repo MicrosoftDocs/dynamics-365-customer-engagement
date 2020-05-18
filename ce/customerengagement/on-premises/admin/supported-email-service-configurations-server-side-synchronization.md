@@ -1,7 +1,7 @@
 ---
 title: "Supported email service configurations for server-side synchronization  | MicrosoftDocs"
 ms.custom: 
-ms.date: 10/01/2019
+ms.date: 05/18/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -26,7 +26,7 @@ search.app:
 Depending on your Dynamics 365 Customer Engagement (on-premises) installation, you may be deciding whether to use server-side synchronization or the Email Router/[!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] synchronization. This following table lists what is supported by server-side synchronization for each type of installation. Later in this topic, you can read about the scenarios that aren’t supported by server-side synchronization.  
   
 > [!IMPORTANT]
-> - The information here includes the POP3/SMTP and IMAP/SMTP systems supported by [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)]. Although other POP3/SMTP and IMAP/SMTP systems might work with Customer Engagement (on-premises), those systems were not tested by [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] and are not supported.  
+> - The information here includes the POP3/SMTP systems supported by [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)]. Although other POP3/SMTP systems might work with Customer Engagement (on-premises), those systems were not tested by [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] and are not supported.  
 > - [!INCLUDE[pn-outlook-short](../includes/pn-outlook-short.md)] on the web is not supported in a hybrid deployment: Customer Engagement (on-premises) with [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)].  
 > - You can create two different email server profiles: one for online mailboxes, and another for on-premises mailboxes. Associate the mailboxes with the correct email server profile.  
 > - Manual tracking in [!INCLUDE[proc_crm_for_outlook](../includes/proc-crm-for-outlook.md)] is not supported when a user’s mailbox is configured to use server-side synchronization with the POP/SMTP protocol.  
@@ -35,7 +35,7 @@ Depending on your Dynamics 365 Customer Engagement (on-premises) installation, y
 | Dynamics 365 for Customer Engagement apps deployment |  Email system  | Email synchronization | Appointments, contacts, and tasks synchronization |  Protocol  
 |---------|------|----------|-----------|------------|  
 | Customer Engagement (on-premises) |  - [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)]<br />- [!INCLUDE[pn_ms_Exchange_Server_2010_short](../includes/pn-ms-exchange-server-2010-short.md)]<br />- [!INCLUDE[pn_Exchange_Server_2013_short](../includes/pn-exchange-server-2013-short.md)]<br />- Exchange Server 2016   |  Yes  |  Yes  | [!INCLUDE[pn_Exchange_Web_Services](../includes/pn-exchange-web-services.md)] | 
-| Customer Engagement (on-premises) | - Gmail<br />- Yahoo! Mail<br />- MSN<sup>1</sup><br />- Outlook.com<sup>1</sup><br />- Windows Live Mail<sup>1</sup>   |  Yes |  No  | POP3/SMTP <br />IMAP/SMTP |
+| Customer Engagement (on-premises) | - Gmail<br />- Yahoo! Mail<br />- MSN<sup>1</sup><br />- Outlook.com<sup>1</sup><br />- Windows Live Mail<sup>1</sup>   |  Yes |  No  | POP3/SMTP  |
   
  <sup>1</sup> May be unsupported for FIPS-compliancy. See the following section for more information.  
   

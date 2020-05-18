@@ -1,7 +1,7 @@
 ---
 title: "Connect to IMAP servers or SMTP servers | MicrosoftDocs"
 ms.custom: 
-ms.date: 10/01/2019
+ms.date: 05/18/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -22,12 +22,17 @@ search.app:
 ---
 # Connect Customer Engagement (on-premises) to IMAP servers or SMTP servers
 
+> [!IMPORTANT]
+> Creating an IMAP/SMTP email server profile is not available for Customer Engagement (on-premises).
+
+<!-- 
 Follow these steps to connect Dynamics 365 Customer Engagement (on-premises) with IMAP email servers such as used for Gmail and Yahoo! Mail.  
 
 > [!NOTE]
 > - Only emails in the Inbox folder are synchronized.
 > - Existing POP3 email profiles will not be automatically converted to IMAP. There is no support for migrating from POP3 to IMAP.
 > - For IMAP/SMTP systems supported by Microsoft, check out the following topic: [Supported email service configurations for server-side synchronization](supported-email-service-configurations-server-side-synchronization.md).  
+
 
 <a name="BKMK_CreateProfile"></a>   
 
@@ -179,3 +184,4 @@ Set server-side synchronization to be the default configuration method.
  [Test mail flow with the Remote Connectivity Analyzer](https://technet.microsoft.com/library/dn305950\(v=exchg.150\).aspx)   
  [Set up server-side synchronization](set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)   
 
+-->
