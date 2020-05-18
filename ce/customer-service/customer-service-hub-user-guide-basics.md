@@ -1,7 +1,7 @@
 ---
 title: "Learn the basics of the Customer Service Hub app | Microsoft Docs"
 description: "Learn the basics of the Customer Service Hub for Customer Service"
-ms.date: 05/04/2020
+ms.date: 05/18/2020
 ms.service:
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -29,10 +29,11 @@ The Customer Service Hub's intuitive interface brings together vital information
     - Windows 10 
 
 ## Open the Customer Service Hub
+
 The Customer Service Hub app is available to use on a desktop browser and on a mobile device for managing knowledge articles and case management. You can open the Customer Service Hub in the following ways:  
 
 > [!NOTE]
->  These options are available only to users with the Customer Service app access role , System Administrator role, or System Customizer role. 
+> These options are available only to users with the Customer Service app access role, System Administrator role, or System Customizer role.
 
 **Desktop browser**
   
@@ -56,18 +57,18 @@ To access the Customer Service Hub app on a mobile device:
 
    ![choose-on-mobile](media/ChooseAnApp_1.png "Customer Service Hub on mobile")
 
+## Work with case management record types, dashboards, and tools
 
-## Work with case management record types, dashboards, and tools  
  In the Customer Service Hub, you will find everything you need to easily manage customer service at your organization:  
   
--  Dashboards  
--  Activities: Email, Task, Appointment, Phone Call, Social Activity  
--  Accounts  
--  Contacts 
--  Social Profiles 
--  Cases 
--  Queues  
--  Knowledge Articles
+- Dashboards  
+- Activities: Email, Task, Appointment, Phone Call, Social Activity  
+- Accounts  
+- Contacts
+- Social Profiles
+- Cases
+- Queues  
+- Knowledge Articles
 
 The Customer Service Hub comes with an enhanced sitemap to enable easy navigation of the interface. To learn more, see [Understand the sitemap navigation](#understand-the-sitemap-navigation).
   
@@ -78,7 +79,7 @@ The Customer Service Hub comes with an enhanced sitemap to enable easy navigatio
 
 1. Select the sitemap icon ![sitemap icon](media/sitemap-icon.png "Sitemap"). Select Service, and then select an entity record type.
 
-  ![Navigate Records](media/v9-navigate-records.png "Navigate Records")
+  > ![Navigate Records](media/v9-navigate-records.png "Navigate Records")
 
 When you select a record type from the menu, such as Accounts, Contacts, or Cases, you'll see a list of corresponding customer records (also known as Entity grid).
 
@@ -96,7 +97,7 @@ To view recently opened records, select the down-arrow next to the record type i
   - **Knowledge Articles** capture your customer's questions, issues, feedback, and resolutions, so that other service reps can benefit from them.
 
 2. Select **...** to go to **Training** and access the documentation site to view the **Help Center**. 
-3. You can also access **Service Management** from the sitemap. Service Management lets you define all the customer service admin settings from the Customer Service Hub sitemap.  Select **...** to go to **Service Management**. 
+3. You can also access **Service Management** from the sitemap. Service Management lets you define all the customer service admin settings from the Customer Service Hub sitemap.  Select **...** to go to **Service Management**.
 
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Service Manager Guide (Customer Service Hub and Customer Service app)](service-manager-guide.md).
 4. Select **Favorites and Recent** button ![recent-button](media/fav-and-recent.png)  to see recently viewed records, or to see views that have been pinned as favorites.
@@ -105,15 +106,15 @@ To view recently opened records, select the down-arrow next to the record type i
 
    ![mobile-sitemap](media/mobile-sitemap.png "Customer Service Hub sitemap on mobile")
 
-
 ## Open the default dashboard for a record type
+
 When you're viewing the list of records for a specific record type, select **Open Dashboards** in the command bar to switch to the default dashboard for that record type. 
 
 To return to the list of records, select **Open Views** in the command bar.
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use interactive dashboards to effectively manage service cases](customer-service-hub-user-guide-dashboard.md)
   
- 
+
 ## Navigate through records and pages  
 
 When you're viewing a record:
@@ -130,7 +131,7 @@ When you're viewing a record:
 > The option Open Record Set will not be available on devices with comparatively smaller screen sizes.
 
 More information: [Create and manage queues](https://docs.microsoft.com/dynamics365/customer-service/set-up-queues-manage-activities-cases) and [Create and manage a case](https://docs.microsoft.com/dynamics365/customer-service/user-guide-customer-service#create-and-manage-a-case).
-   
+
 ## Quickly create new records
   
 - To create records quickly by filling in only the most basic information, select the **New** button ![Create button](../customer-service/media/quick-create-button.png "Create button") given on the nav bar.
@@ -140,16 +141,19 @@ More information: [Create and manage queues](https://docs.microsoft.com/dynamics
   > On a mobile device, from the nav bar, tap ![ellipsis](media/ellipsis.png) and then tap **Quick Create Menu**.
 
 
-## Email a link  
+## Email a link
+
 You can email links to records so your colleagues can quickly find these records by selecting the links. To email links to records, select one or more records in the list, and then on the command bar, select **Email a link**. The default email client opens with the links to these records. The recipients will see all content in the records for which they have permission.  
 
 ## Know your forms
+
 Forms are designed to help you quickly handle important customer service tasks and complete actions from a single place.
 
 Understand the different components of a form below:
   
 ### Business processes
- In the Customer Service Hub, forms for cases and knowledge articles include a process bar (also called a business process flow), which appears when you save the record for the first time. 
+
+In the Customer Service Hub, forms for cases and knowledge articles include a process bar (also called a business process flow), which appears when you save the record for the first time. 
  
 When you select a process stage on the process bar, you'll see the steps to take to complete that stage. A flag on a stage indicates the stage you're currently on. When you select an active stage, you can see the **Next Stage** button move to the next stage in the process.  
 
@@ -167,7 +171,8 @@ If there is more than one process to follow, you can switch between them by sele
   
 -   If there are only multi-entity business process flows for an entity, the **Switch Process** option isn't available.  
 
-### Tabs  
+### Tabs
+
  A tab is a group of sections on a page. Each case form is composed of one or more tabs. By default, the **Summary** tab shows information about the customer, interactions with the customer, and other related records. You can select different tabs to enter or see other miscellaneous details of a record.  
   
 For example, here's a view of how the tabs appear on the case form:
@@ -185,7 +190,8 @@ For example, here's a view of how the tabs appear on the case form:
 |Knowledge Articles|**Content**. Lets you write and edit the content for the article.<br />**Summary**. Tracks basic settings, Timeline, publishing settings, and related information.<br />**Analytics**. Shows the number of views, feedback, and a list of cases using the article.<br />**Related**. Shows related common entities.|  
 |Social Profiles|**Social Profile**. Captures general information, and social profile details along with related social profiles.<br />**Related**. Shows related common entities.|  
 
-### Contact card  
+### Contact card
+
  See a complete view of your customer's touch points in the Contact card. This card is available in the **General Information** section of the **Summary** tab.  
   
 ![contact-card](media/contact-card.png "Contact card")
@@ -196,11 +202,9 @@ For example, here's a view of how the tabs appear on the case form:
 
 ### Timeline
 
-[!INCLUDE[cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
+See a combined view of your customer's interactions across various channels, such as phone, email, or even social activities in the Timeline. The Timeline enables you to create notes and posts, and also, to view any related notes or system posts.  The Timeline control makes collaboration with other users easy and efficient.
 
- See a combined view of your customer's interactions across various channels, such as phone, email, or even social activities in the Timeline. The Timeline enables you to create notes and posts, and also, to view any related notes or system posts.  The Timeline control makes collaboration with other users easy and efficient.
-
- You can do the following:
+You can do the following:
 
 - Identify the key activities with simple icons.
 - Quick access to the command bar to perform common actions on an activity with ease.
@@ -208,8 +212,7 @@ For example, here's a view of how the tabs appear on the case form:
 - View and manage email conversation threads on the timeline with ease.
 - Expand and collapse activities in the timeline with ease.
 
-The Customer Service Hub comes with an enhanced timeline that shows you all customer interactions arranged in a single stream. 
-Managing activities in the timeline wall will be faster and more responsive with improvements to data viewability and usability.
+The Customer Service Hub comes with an enhanced timeline that shows you all customer interactions arranged in a single stream. Managing activities in the timeline wall will be faster and more responsive with improvements to data viewability and usability.
 
   ![Timeline shows customer activities across channels](../customer-service/media/v9-case-form-timeline.png "Timeline shows customer activities across channels")
 
@@ -292,7 +295,7 @@ You can select the **Enter a note** box in the timeline and specify a title and 
 |![Add a Table](../customer-service/media/add-table.png "Add a Table")| Add a Table |  | Add a table to your content. <br /><br />After adding a table, you can do any of the following:<br /><br /><ul><li>Resize table columns by clicking and dragging your mouse to resize to the columns to the desired width.</li><li>Select one or several cells within a table and apply specific formatting, add links to the selection, or cut, copy, or paste entire rows or columns.</li><li>Right-click to access the properties. This supports features such as cell type, width and height, word wrapping, alignment, merging and splitting cells horizontally and vertically, inserting or deleting rows and columns, row and column span, and cell and border color.</li></ul>|
 |![Expand Toolbar](../customer-service/media/show-more.png "Expand Toolbar")| Expand Toolbar |  | Displays when the toolbar is collapsed and not all options appear. Click to expand the toolbar and make all options visible. |
 
-  The feature is enabled by default, your administrator can enable or disable rich-text editor for you. To learn more, see [Enable rich-text editor for notes in timeline](https://review.docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-or-disable-rich-text-editor-for-notes-in-timeline).
+  The feature is enabled by default, your administrator can enable or disable rich-text editor for you. To learn more, see [Enable rich-text editor for notes in timeline](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-or-disable-rich-text-editor-for-notes-in-timeline).
 
   > [!Note]
   > You can format only the message (body), and not the title.
@@ -306,6 +309,7 @@ You can select the **Enter a note** box in the timeline and specify a title and 
   > - If you create a note with the rich-text editor formatting in Unified Interface, and when you see the note in Web Client, the note is displayed to you with HTML syntax.
 
 #### **Identify the activities, notes, and posts with icons along with time stamp**
+
 The timeline shows a simple icon before the activity, post, note, and custom entity making it easy for you to identify the type.
 
 Also, you can view the timestamp at all times. Activities, posts, and notes that were created or updated today will reflect only the time and created or updated on other days will reflect the date and time.
@@ -313,6 +317,7 @@ Also, you can view the timestamp at all times. Activities, posts, and notes that
   ![Timeline activity icons](../customer-service/media/activity-icons.png "Timeline activity icons")
 
 #### **Access command bar to perform actions**
+
 When you hover the cursor on or expand an activity, post, and note, the command bar appears with the options specific to the activity, such as marking an activity complete, assigning it to others, adding it to a queue, converting it to a case, liking a post, replying to a post, editing a note, or deleting the activity.
 
   ![Timeline command bar options](../customer-service/media/timeline-options1.png "Timeline command bar options")
@@ -321,6 +326,7 @@ When you hover the cursor on or expand an activity, post, and note, the command 
   ![Timeline command bar options](../customer-service/media/timeline-options4.png "Timeline command bar options")
 
 #### **Filter activities, posts, and notes on the timeline**
+
 Quickly filter the activities, posts, and notes with multiple filter options to see what matters to you. The filter is available for the activities, posts, notes, and custom entities that are present in timeline. The timeline filters and displays the records and the count of those records that are present in the timeline. 
 
 When you select the filter icon, you can see the **Filter by** menu where you can filter the items based on the following categories.
@@ -347,9 +353,11 @@ You can easily search for records in the timeline. When you search for a phrase,
   ![Timeline keyword search](../customer-service/media/timeline-keyword-search.png "Timeline keyword search")
 
 #### **View and manage email conversations**
+
 You can easily set email messages to show as conversation threads on the timeline, significantly reducing usability (scroll and clicks) when managing email activities.
 
 #### **Expand and collapse timeline activities**
+
 Select an activity from the timeline to expand and view. 
 
   In the collapsed view, rich-text formatting is not displayed:  
@@ -366,7 +374,8 @@ Select an activity from the timeline to expand and view.
  To learn more about configuration, see [Set up timeline section (control)](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control) and [FAQs for timeline control](https://docs.microsoft.com/powerapps/maker/model-driven-apps/faqs-timeline-control) in the Microsoft Power Apps documentation.
 
 
-### Related section  
+### Related section
+
 In the **Related** section (also known as Reference panel), use the tabs to see related records for the current record. This section is enabled by default for account, contact, case, and knowledge article records. Your customizer can add this section for all entities (including custom entities) that are enabled for interactive experience. The reference panel is also available in model-driven apps, for information, see  [Reference Panel in model-driven apps ](https://docs.microsoft.com/powerapps/user/navigation#reference-panel).
 
 By default, the first tab in the Related section of a case record shows the **Recent Cases and Entitlements** for the current case record you're working on. 
@@ -398,6 +407,7 @@ Similarly,
 
 
 #### Reference Panel reflow
+
 The Customer Service Hub is available to use on a desktop browser, and on a mobile device. Depending on the zoom level and the resolution of the system on which you are accessing the hub interface, the Reference panel adjusts the tabs and records for an optimum experience.
 
 For example, on a browser, if you zoom in to about 100% or more, the tabs get docked on the top of the panel.
@@ -425,6 +435,7 @@ In Dynamics 365 Customer Service, the following activities are supported:
 > You can create and edit emails in the Customer Service Hub app on a desktop browser. However, on a mobile device email is read-only in the Hub app.
 
 #### Open Activities view
+
 In the Customer Service Hub sitemap, select **Service** > **Activities**. The **My Activities** view is displayed. 
 
 ![activities-email](media/activities-csh-email.png "Activities view")
@@ -655,7 +666,6 @@ The following table outlines a list of accessibility shortcuts available when us
 | Base commands | Alt+0 | Accessibility help. |
 | Base commands | Esc | Cancel operation. |
 
-
 ## Work with Queues
 
 Use queues to organize, prioritize, and monitor the progress of your work. In Dynamics 365 Customer Service, queues are containers used to store anything that needs to be completed or requires an action, for example completing a task or closing a case. To know more about creating and managing queues, see [Create and manage queues](set-up-queues-manage-activities-cases.md).
@@ -681,7 +691,7 @@ To create a new site, you need to go to **Advanced find** ![Advanced find](media
 
   ![Create New Site](media/add-site-to-any-entity-1a.png "Create New Site")
  
- ## Understand Facility/Equipment
+## Understand Facility/Equipment
 
  To create a new Facility/Equipment item, you need to go to **Advanced find** ![Advanced find](media/advanced-find-icon.png "Advanced find"), where you can create Facility/Equipment.
 
