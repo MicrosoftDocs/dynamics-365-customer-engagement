@@ -211,37 +211,37 @@ In the following example, if a technician responds "Yes" to the inspection quest
 Choose ‘Automated-from blank’
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/inspections-workflow-create-flow.png)
 
 Provide a name and click on ‘Skip’ to choose the trigger on the Flow Editor page.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/inspections-workflow-name.png)
 
  
 #### Create a trigger as WOST Create or Update
 Search for ‘Dynamics 365’ in Connectors and choose the trigger as ‘When a record is created or updated’
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/inspections-workflow-trigger.png)
  
 Configure it for Work Order Service Task entity.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/inspections-workflow-step1.png)
  
 #### Fetching the response from DB
 
 Add a step using ‘Get record’ action in ‘Dynamics 365’. Inspection Response entity has the encoded json. Item Identifier should be ‘Inspection Response Id’ from the Dynamic content.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/inspections-workflow-fetch-inspection-response.png)
  
 #### Extracting the json
 Add ‘Initialize Variable’ action to retrieve the response from ResponseJsonContent field.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/inspections-workflow-get-JSON-content.png)
  
 #### Decoding the response
 Add ‘Initialize Variable’ action to url decode and base 64 decode the response json.
@@ -249,7 +249,7 @@ Add ‘Initialize Variable’ action to url decode and base 64 decode the respon
       decodeUriComponent(decodeBase64(variables('responseJson')))
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/inspections-workflow-decode-JSON.png)
 
  
 #### Updating the schema
@@ -260,7 +260,7 @@ Provide a sample schema with the name of the question you are interested in. Lik
     }
  
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/inspections-workflow-update-schema.png)
 
 
 #### Condition based action
@@ -268,8 +268,11 @@ Add a condition using the Parse Json fields to take up the desired action.
 For eg: Create a Work Order Service Task with another Service Task Type in the same Work Order when Followup question has ‘Yes’ as the answer.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/inspections-workflow-if-condition-yes.png)
  
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inspections-workflow-then-create-WOST.png)
  
 
 ## Configuration considerations
