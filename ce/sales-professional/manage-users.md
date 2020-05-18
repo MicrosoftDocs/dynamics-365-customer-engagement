@@ -84,12 +84,12 @@ Dynamics 365 Sales Professional provides a default set of security roles:
 
 -  System Customizer
 
--  Sales Professional app access (Available in Sales Professional version number 9.1.2101.1501 and later) 
+-  Sales Professional app access (available in Sales Professional version number 9.1.2101.1501 and later) 
 
 You can assign more than one security role to a user. The effect of multiple security roles is cumulative, which means that the user has the permissions associated with all security roles assigned to that user.
 
 > [!IMPORTANT] 
-> To allow users access to the Sales Professional app, you must assign the 'Sales Professional app access' security role (if the Sales Professional version is 9.1.2101.1501 or later) and at least one more security role to the users. 
+> To allow users access to Dynamics 365 Sales Professional, you must assign the 'Sales Professional app access' security role (if Sales Professional version is 9.1.2101.1501 or later) and at least one more security role to the users. 
 
 To assign a role in Dynamics 365 Sales Professional:
 
