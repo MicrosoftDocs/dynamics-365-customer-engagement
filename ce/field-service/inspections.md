@@ -200,43 +200,75 @@ Associating a customer asset allows the technician to see which customer asset n
 When a technician fills out an inspection, the answers to each inspection question are stored as JSON in the **Inspection Response** entity.
 
 inspection-inspection-responses-advanced-find
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
 
 Use a Power Automate flow to run a workflow on inspection responses.
 
 In the following example, if a technician responds "Yes" to the inspection question "Is a follow up required?" then a new follow up work order service task is added to the related work order.
 
-Create a flow
+#### Create a flow
 Choose ‘Automated-from blank’
- 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
 
 Provide a name and click on ‘Skip’ to choose the trigger on the Flow Editor page.
- 
-Create a trigger as WOST Create or Update
-Search for ‘Dynamics 365’ in Connectors and choose the trigger as ‘When a record is created or updated’
- 
-Configure it for Work Order Service Task entity.
- 
-Fetching the response from DB
-Add a step using ‘Get record’ action in ‘Dynamics 365’. Inspection Response entity has the encoded json. Item Identifier should be ‘Inspection Response Id’ from the Dynamic content.
- 
-Extracting the json
-Add ‘Initialize Variable’ action to retrieve the response from ResponseJsonContent field.
- 
-Decoding the response
-Add ‘Initialize Variable’ action to url decode and base 64 decode the response json.
-decodeUriComponent(decodeBase64(variables('responseJson')))
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
 
  
-Updating the schema
+#### Create a trigger as WOST Create or Update
+Search for ‘Dynamics 365’ in Connectors and choose the trigger as ‘When a record is created or updated’
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+ 
+Configure it for Work Order Service Task entity.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+ 
+#### Fetching the response from DB
+
+Add a step using ‘Get record’ action in ‘Dynamics 365’. Inspection Response entity has the encoded json. Item Identifier should be ‘Inspection Response Id’ from the Dynamic content.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+ 
+#### Extracting the json
+Add ‘Initialize Variable’ action to retrieve the response from ResponseJsonContent field.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+ 
+#### Decoding the response
+Add ‘Initialize Variable’ action to url decode and base 64 decode the response json.
+
+      decodeUriComponent(decodeBase64(variables('responseJson')))
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+ 
+#### Updating the schema
 Provide a sample schema with the name of the question you are interested in. Like 
     
     {
     	“Followup”:”Yes”;
     }
  
-Condition based action
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+
+#### Condition based action
 Add a condition using the Parse Json fields to take up the desired action. 
 For eg: Create a Work Order Service Task with another Service Task Type in the same Work Order when Followup question has ‘Yes’ as the answer.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
  
  
 
