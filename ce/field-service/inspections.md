@@ -208,7 +208,10 @@ Use a Power Automate flow to run a workflow on inspection responses.
 In the following example, if a technician responds "Yes" to the inspection question "Is a follow up required?" then a new follow up work order service task is added to the related work order.
 
 #### Create a flow
-Choose ‘Automated-from blank’
+
+Go to [https://flow.microsoft.com](https://flow.microsoft.com) sign in, choose your environment and create a new flow.
+
+Choose **Automated-from blank**
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-workflow-create-flow.png)
@@ -219,32 +222,41 @@ Provide a name and click on ‘Skip’ to choose the trigger on the Flow Editor 
 > ![Screenshot of ](./media/inspections-workflow-name.png)
 
  
-#### Create a trigger as WOST Create or Update
-Search for ‘Dynamics 365’ in Connectors and choose the trigger as ‘When a record is created or updated’
+#### Create a trigger 
+
+Search for ‘Dynamics 365’ in Connectors and choose the trigger as **When a record is created or updated**
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-workflow-trigger.png)
  
-Configure it for Work Order Service Task entity.
+This flow will relate to the Work Order Service Task entity because technicians view and respond to inspections from this entity. Choose **Work Order Service Tasks** for the Entity Name. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-workflow-step1.png)
  
-#### Fetching the response from DB
+#### Fetch the response from the database
 
-Add a step using ‘Get record’ action in ‘Dynamics 365’. Inspection Response entity has the encoded json. Item Identifier should be ‘Inspection Response Id’ from the Dynamic content.
+Next we need to retreive the inspection responses.
+
+Add a step using the **Get record** action in ‘Dynamics 365’. 
+
+Choose **Inspection Responses** as the entity to get and **Inpection Response Id** in the Item identifier because this field has the inspection answers. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-workflow-fetch-inspection-response.png)
  
-#### Extracting the json
-Add ‘Initialize Variable’ action to retrieve the response from ResponseJsonContent field.
+#### Extract the JSON
+
+Add **Initialize Variable** action to retrieve the response from ResponseJsonContent field.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-workflow-get-JSON-content.png)
  
-#### Decoding the response
-Add ‘Initialize Variable’ action to url decode and base 64 decode the response json.
+#### Decode the response
+
+Next we need to put the JSON of the response in a usable format.
+
+Add **Initialize Variable** action to url decode and base 64 decode the response json.
 
       decodeUriComponent(decodeBase64(variables('responseJson')))
 
@@ -252,20 +264,44 @@ Add ‘Initialize Variable’ action to url decode and base 64 decode the respon
 > ![Screenshot of ](./media/inspections-workflow-decode-JSON.png)
 
  
-#### Updating the schema
-Provide a sample schema with the name of the question you are interested in. Like 
-    
+#### Update the schema
+Provide a the schema with the name of the question you want to run a workflow on:
+
+In our example the schema is: 
+
     {
-    	“Followup”:”Yes”;
+        "type": "object",
+        "properties": {
+            "Followup": {
+                "type": "string"
+            }
+        }
     }
+
+If you are having trouble generating the schema you can select the **Generate from sample** option and enter the Name and anseer of your inspection question and response.
+
+In our example we can enter 
+
+    {"Followup":"Yes"}
+
+Where "Followup" comes from the Name value of the inspection question as seen in the image below.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inspections-workflow-schema-name.png)
+
+In this example
+    
+    {"Followup":"Yes";}
  
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-workflow-update-schema.png)
 
 
 #### Condition based action
-Add a condition using the Parse Json fields to take up the desired action. 
-For eg: Create a Work Order Service Task with another Service Task Type in the same Work Order when Followup question has ‘Yes’ as the answer.
+
+Next we want to add a condition and action based on the response to the inspection question.
+
+In this example we will create a Work Order Service Task with another Service Task Type in the same Work Order when the "Followup" inspection question has ‘Yes’ as the answer.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-workflow-if-condition-yes.png)
