@@ -278,7 +278,11 @@ In our example the schema is:
         }
     }
 
-If you are having trouble generating the schema you can select the **Generate from sample** option and enter the Name and anseer of your inspection question and response.
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inspections-workflow-update-schema.png)
+
+
+If you are having trouble generating the schema you can select the **Generate from sample** option and enter the Name and sample answer of your inspection question and response.
 
 In our example we can enter 
 
@@ -289,12 +293,6 @@ Where "Followup" comes from the Name value of the inspection question as seen in
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-workflow-schema-name.png)
 
-In this example
-    
-    {"Followup":"Yes";}
- 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/inspections-workflow-update-schema.png)
 
 
 #### Condition based action
@@ -312,6 +310,7 @@ In this example we will create a Work Order Service Task with another Service Ta
  
 
 ## Configuration considerations
+
 > [!Note]
 > During the preview Microsoft may make schema changes that may render inspections and related records to enter a state where they can no longer be used.
 
