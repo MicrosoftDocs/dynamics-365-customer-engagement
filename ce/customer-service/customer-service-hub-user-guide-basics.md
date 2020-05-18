@@ -33,7 +33,7 @@ The Customer Service Hub's intuitive interface brings together vital information
 The Customer Service Hub app is available to use on a desktop browser and on a mobile device for managing knowledge articles and case management. You can open the Customer Service Hub in the following ways:  
 
 > [!NOTE]
-> These options are available only to users with the Customer Service app access role , System Administrator role, or System Customizer role.
+> These options are available only to users with the Customer Service app access role, System Administrator role, or System Customizer role.
 
 **Desktop browser**
   
