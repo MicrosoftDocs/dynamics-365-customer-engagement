@@ -307,6 +307,8 @@ In this example we will create a Work Order Service Task with another Service Ta
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-workflow-then-create-WOST.png)
+
+Save and test your flow.
  
 
 ## Configuration considerations
