@@ -199,9 +199,9 @@ Associating a customer asset allows the technician to see which customer asset n
 
 When a technician fills out an inspection, the answers to each inspection question are stored as JSON in the **Inspection Response** entity.
 
-inspection-inspection-responses-advanced-find
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/inspection-inspection-responses-advanced-find.png)
 
 Use a Power Automate flow to run a workflow on inspection responses.
 
