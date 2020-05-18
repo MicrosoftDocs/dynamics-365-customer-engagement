@@ -202,11 +202,9 @@ For example, here's a view of how the tabs appear on the case form:
 
 ### Timeline
 
-[!INCLUDE[cc-early-access-2020w1](../includes/cc-early-access-2020w1.md)]
+See a combined view of your customer's interactions across various channels, such as phone, email, or even social activities in the Timeline. The Timeline enables you to create notes and posts, and also, to view any related notes or system posts.  The Timeline control makes collaboration with other users easy and efficient.
 
- See a combined view of your customer's interactions across various channels, such as phone, email, or even social activities in the Timeline. The Timeline enables you to create notes and posts, and also, to view any related notes or system posts.  The Timeline control makes collaboration with other users easy and efficient.
-
- You can do the following:
+You can do the following:
 
 - Identify the key activities with simple icons.
 - Quick access to the command bar to perform common actions on an activity with ease.
@@ -214,8 +212,7 @@ For example, here's a view of how the tabs appear on the case form:
 - View and manage email conversation threads on the timeline with ease.
 - Expand and collapse activities in the timeline with ease.
 
-The Customer Service Hub comes with an enhanced timeline that shows you all customer interactions arranged in a single stream. 
-Managing activities in the timeline wall will be faster and more responsive with improvements to data viewability and usability.
+The Customer Service Hub comes with an enhanced timeline that shows you all customer interactions arranged in a single stream. Managing activities in the timeline wall will be faster and more responsive with improvements to data viewability and usability.
 
   ![Timeline shows customer activities across channels](../customer-service/media/v9-case-form-timeline.png "Timeline shows customer activities across channels")
 
