@@ -367,4 +367,8 @@ Storing and retrieving each inspection response in Common Data Model is not part
 
 - Dispatcher cannot delete individual attachments in inspection response. The out of the box "**Field Service-Dispatcher**" role does not have ability to delete inspection attachments. They can however "Clear responses" and "Clear files" which will clear all attachments. **Solution:** if a dispatcher would like the ability to delete individual attachments from an inspection, he or she will need to be given "delete" privileges for the Notes entity. 
 
-- If a resource has trouble viewing an inspection on the work order service task form, deactivate and activate the related bookable resource booking. 
+- If a resource has trouble viewing an inspection on the work order service task form (as seen in image below), deactivate and activate the related bookable resource booking. 
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inspections-known-issue-cant-view-inspection.jpeg)
