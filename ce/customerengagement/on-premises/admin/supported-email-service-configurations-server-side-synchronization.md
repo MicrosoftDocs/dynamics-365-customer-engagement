@@ -34,7 +34,7 @@ Depending on your Dynamics 365 Customer Engagement (on-premises) installation, y
 
 | Dynamics 365 for Customer Engagement apps deployment |  Email system  | Email synchronization | Appointments, contacts, and tasks synchronization |  Protocol  
 |---------|------|----------|-----------|------------|  
-| Customer Engagement (on-premises) |  - [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)]<br />- [!INCLUDE[pn_ms_Exchange_Server_2010_short](../includes/pn-ms-exchange-server-2010-short.md)]<br />- [!INCLUDE[pn_Exchange_Server_2013_short](../includes/pn-exchange-server-2013-short.md)]<br />- Exchange Server 2016 <br /> Exchange Server 2019  |  Yes  |  Yes  | [!INCLUDE[pn_Exchange_Web_Services](../includes/pn-exchange-web-services.md)] | 
+| Customer Engagement (on-premises) |  - [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)]<br />- [!INCLUDE[pn_ms_Exchange_Server_2010_short](../includes/pn-ms-exchange-server-2010-short.md)]<br />- [!INCLUDE[pn_Exchange_Server_2013_short](../includes/pn-exchange-server-2013-short.md)]<br />- Exchange Server 2016 <br /> - Exchange Server 2019  |  Yes  |  Yes  | [!INCLUDE[pn_Exchange_Web_Services](../includes/pn-exchange-web-services.md)] | 
 | Customer Engagement (on-premises) | - Gmail<br />- Yahoo! Mail<br />- MSN<sup>1</sup><br />- Outlook.com<sup>1</sup><br />- Windows Live Mail<sup>1</sup>   |  Yes |  No  | POP3/SMTP  |
   
  <sup>1</sup> May be unsupported for FIPS-compliancy. See the following section for more information.  
