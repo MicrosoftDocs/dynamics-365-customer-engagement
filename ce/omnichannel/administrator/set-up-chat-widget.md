@@ -31,12 +31,12 @@ Microsoft automatically collects data to improve the reliability and performance
 Examples of data collected in the live chat widget:
 
 | Item | Example value |
-|---------------|------------------------|-----------------------------------|---------------------|
+|---------------|------------------------|
 | OrganizationId | 8e9071c2-4415-47aa-b1cb-693631e7fafb |
 | Chat Widget Version | prod |
 | BrowserName | Edge |
 | OSName | Windows |
-| Scrubbed IP Address (last octet redacted) | 19.207.000.000 |  |
+| Scrubbed IP Address (last octet redacted) | 19.207.000.000 | 
     
 No personally identifiable information (PII) is collected.  
 
