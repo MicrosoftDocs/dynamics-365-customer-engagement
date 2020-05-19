@@ -4,7 +4,7 @@ description: "Instructions to configure a chat channel in Omnichannel for Custom
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 08/29/2019
+ms.date: 05/19/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -42,7 +42,7 @@ No personally identifiable information (PII) is collected.
 
 If your organization is concerned about the data collected by this service, you have the option to turn off automatic data collection by adding an html attribute to the chat widget script. 
 
-' “data-enable-telemetry” = “false” '
+`"data-enable-telemetry" = "false"`
 
 ## Videos
 
