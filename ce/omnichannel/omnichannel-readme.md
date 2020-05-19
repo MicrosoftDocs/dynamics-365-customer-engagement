@@ -21,7 +21,7 @@ The topic explains the known issues and limitations of Omnichannel for Customer 
 
 ## Cases are routed to agents with higher skill rating value even when agents with exact skill rating value are available
 
-When skill-based routing is configured, cases will be routed to agents who have a higher rating on skills even when agents with exact match are available. This known issue occurs only when exact match is configured with minimum rating value model. The issue will be fixed in the future.
+When skill-based routing is configured, cases will be routed to agents who have a higher rating on skills even when agents with exact match are available. This known issue occurs only when exact match is configured with minimum rating value model.
 
 ### Workaround
 
