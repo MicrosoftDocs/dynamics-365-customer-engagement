@@ -30,7 +30,7 @@ Microsoft automatically collects data to improve the reliability and performance
 
 Examples of data collected in the live chat widget:
 
-| Item | Example value |
+| Data | Example value |
 |---------------|------------------------|
 | OrganizationId | 8e9071c2-4415-47aa-b1cb-693631e7fafb |
 | Chat Widget Version | prod |
@@ -42,7 +42,7 @@ No personally identifiable information (PII) is collected.
 
 If your organization is concerned about the data collected by this service, you have the option to turn off automatic data collection by adding an html attribute to the chat widget script. 
 
-'“data-enable-telemetry” = “false”'
+' “data-enable-telemetry” = “false” '
 
 ## Videos
 
