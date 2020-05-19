@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting the Lead entity (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how to troubleshoot issues with the Lead entity in Dynamics 365 Sales."
-ms.date: 05/14/2020
+ms.date: 05/22/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -119,24 +119,44 @@ Make sure the lead that you're trying to qualify or disqualify is open and not a
 
 **Reason:**
 
-When you qualify a lead, some of the attributes in the mapping of 1:N relationships between **Lead to Contact** or **Lead to Opportunity** get copied from **Lead to Contact** or **Lead to Opportunity**.
+When you qualify a lead, some of the attributes in the mapping of 1:N relationships between **Lead to Contact** or **Lead to Opportunity** get copied from Lead to Contact or Lead to Opportunity entity.
 
-Status code is defined as an option set and when a user adds any new option in the Lead entity but doesn't add it in Contact or Opportunity entity, this issue occurs.
+Status code is defined as an option set and when a user adds any new option set in the Lead entity but doesn't add it in Contact or Opportunity entity, this issue occurs.
 
-The option sets like status code should be same between lead and contact, or lead and opportunity to make the entity mapping work, as the lead qualification process copies the status code value from lead to contact or opportunity. If the status codes do not match, the process fails.
+The option sets, for example status code, should be same between lead and contact, or lead and opportunity to make the entity mapping work, as the lead qualification process copies the status code value from lead to contact or opportunity. If the status codes do not match, the process fails.
 
 **Resolution:**
 
-Ensure that sure the status codes of Lead and Contact entities or Lead and Opportunity entities are same.
+Ensure that sure the status codes of Lead and Contact entities or Lead and Opportunity entities are same. Follow the steps below to see status code of the Lead entity and the target entity:
 
-To see mappings:
+1. In the Sales Hub app, go to **Settings** > **Customizations** > **Customize the System**.
 
-1. Go to the Lead entity and select **1:N Relationships**.
-2. Open a relationship and select **Mappings** in the left pane.
-3. In the **Source Name** column, select the option set having issues. For example, **statuscode**.
+2. Expand the entity node (for example, Lead) and select **Fields**.
+
+3. Find the **statuscode** field and double-click to open it.
+
+4. Double-click a status to see its value.
+
+    > [!div class="mx-imgBorder"]
+    >  ![See status code of lead](media/lead-status-code.png "See status code of lead")
+
+**To see mappings**:
+
+1. In the Sales Hub app, go to **Settings** > **Customizations** > **Customize the System**.
+
+2. Expand the Lead entity node and select **1:N Relationships**.
+
+3. Open the required relationship and select **Mappings** in the left pane.
+
+4. Scroll to see the mapping.
+
+    > [!div class="mx-imgBorder"]
+    > ![See entity mapping](media/entity-mapping.png "See entity mapping")
+
+5. If you don't see the required mapping, select **New** to create the required mapping.
 
 > [!NOTE]
-> - If you are still facing error, remove the mapping of status reason between the Lead entity and any other entity (Account, Contact, or Opportunity).
+> - If you are still facing error, remove the mapping of status code between the Lead entity and target entity (Account, Contact, or Opportunity).
 > - To add the new status codes with same values, import the new option set values through a managed solution for Contact or Opportunity entity.
 
 <a name="lead_qualification_for_admins"> </a> 

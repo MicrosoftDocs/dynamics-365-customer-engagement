@@ -1,7 +1,7 @@
 ---
-title: "Troubleshooting integration errors (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Learn how to troubleshoot issues with integrations in Dynamics 365 Sales."
-ms.date: 05/14/2020
+title: "Troubleshooting LinkedIn integration errors (Dynamics 365 Sales) | MicrosoftDocs"
+description: "Learn how to troubleshoot issues with LinkedIn integrations in Dynamics 365 Sales."
+ms.date: 05/22/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -10,9 +10,9 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Troubleshooting integration errors
+# Troubleshooting LinkedIn integration errors
 
-This article helps you troubleshoot and resolve issues related to integrations in Dynamics 365 Sales.
+This article helps you troubleshoot and resolve issues related to LinkedIn integrations in Dynamics 365 Sales.
 
 ## Error in enabling LinkedIn updates
 
@@ -21,6 +21,8 @@ When enabling the data validation option in the **Sales Navigator Integration Se
 - Data validation failed with some other error (for example, unexpected error).
 
 ![Error in enabling LinkedIn updates](media/lisn-update-error.png "Error in enabling LinkedIn updates")
+
+More information on data validation capability of LinkedIn Sales Navigator: [Data validation](https://docs.microsoft.com/dynamics365/linkedin/data-validation)
 
 **Resolution**
 
