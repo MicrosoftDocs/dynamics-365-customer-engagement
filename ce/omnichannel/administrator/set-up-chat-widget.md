@@ -24,6 +24,26 @@ In this section, you will learn how to:
 - [Configure file attachment capability](configure-file-attachment.md)
 - [Embed chat widget in Power Apps portals](embed-chat-widget-portal.md)
 
+## Disclaimer
+
+Microsoft automatically collects data to improve the reliability and performance of our products and to understand how the products are being used. This information is used to make improvements to the product capabilities over time. The live chat widget in Chat for Dynamics 365 collects telemetry automatically from end users to serve the same purposes. 
+
+Examples of data collected in the live chat widget:
+
+| Item | Example value |
+|---------------|------------------------|-----------------------------------|---------------------|
+| OrganizationId | 8e9071c2-4415-47aa-b1cb-693631e7fafb |
+| Chat Widget Version | prod |
+| BrowserName | Edge |
+| OSName | Windows |
+| Scrubbed IP Address (last octet redacted) | 19.207.000.000 |  |
+    
+No personally identifiable information (PII) is collected.  
+
+If your organization is concerned about the data collected by this service, you have the option to turn off automatic data collection by adding an html attribute to the chat widget script. 
+
+'“data-enable-telemetry” = “false”'
+
 ## Videos
 
 [Overview of Chat for Dynamics 365 Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2097416)
