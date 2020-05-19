@@ -53,16 +53,17 @@ To get started with Intune, follow the instructions for [adding and assigning an
 
 ## Prefill default Org URL in sign in screen
 
-Overview
 Field Service Mobile (FSM) can be configured through Device Management portal . This option allows administrator to pre-configure the app for a certain behavior or pre-fill some values before first use. The configuration is available only for devices enrolled to MDM
 
 Supported Properties
 Currently only these configuration properties are supported
 
-Property Name / Configuration Key	Type	Notes
-IntuneMAMUPN	string	Required. Must be set to value {{UserPrincipalName}}
-DefaultOrgUrl	string	Allows to configure Dynamics 365 organization's url which is pre-filled on Sign In page
-Creating an app configuration
+| Property Name / Configuration | Key	Type	| Notes |
+| --- | ---- | --- |
+| IntuneMAMUPN	| string |	Required. Must be set to value {{UserPrincipalName}} |
+| DefaultOrgUrl	| string |	Allows to configure Dynamics 365 organization's url which is pre-filled on Sign In page |
+
+#### Creating an app configuration
 An configuration can be set up through Device Management portal . Each supported platform (iOS, Android and Windows) requires a separate configuration. Check Intune integration in FSM wiki page for more details on how to get access to the portal.
 
 Registering FSM app in Device Management portal
@@ -92,7 +93,7 @@ image.png
 The app should be now available to download through Company Portal app on device.
 Note: iOS requires to install the app through the Company portal app first in order to be able to download the app configuration. After first install you can sideload your custom version of the app onto the device and app configuration policy will still be there
 
-Configuring Android/iOS
+#### Configuring Android/iOS
 
 In Device Management portal navigate to Apps (1), then go to App configuration policies (2) and click Add (3)
 image.png
@@ -141,7 +142,7 @@ Navigate to Assignments and select a group which the policy should be assigned t
 
 Note: This configuration will be available also to iOS app once you authenticate within the app
 
-Configuring Windows
+#### Configuring Windows
 In device Management portal navigate to Devices (1), Configuration profiles (2) and click Create profile (3)
 
 image.png
@@ -161,7 +162,7 @@ image.png
 Apply changes and create profile
 Navigate to Assignments and select a group which the policy should be assigned to
 
-Testing
+#### Testing
 
 Android/iOS
 
