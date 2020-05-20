@@ -26,15 +26,15 @@ To enable skill-based routing, follow these steps:
 
 3. Set the **Enable Skill Based Routing** toggle to **Yes**.
 
-4. Select a rating model from the list for the **Rating Model** field. 
+4. Select a rating model from the list for the **Rating Model** field.
  
-    If there is no rating mode, create a new rating model. To learn more, see [Create rating model](enable-skill-routing-create-rating-model.md#create-rating-model).
+    If there is no rating model, create a rating model. To learn more, see [Create rating model](enable-skill-routing-create-rating-model.md#create-rating-model).
 
-    After you select a rating model, the Rating Model Details section displays the **Name**, **Min Rating Value**, **Max Rating Value** and the **Rating Values (Rating Model)** grid.
+    After you select a rating model, the **Rating Model Details** section displays the **Name**, **Min Rating Value**, **Max Rating Value** and the **Rating Values (Rating Model)** grid.
 
     You can add a new rating value in the grid itself. To add, follow these steps:
 
-    1. Select **+ New Rating Value**. The **Quick Create: Rating Value** pane appears.
+    1. Select **New Rating Value**. The **Quick Create: Rating Value** pane appears.
 
     2. Specify a name and value.
 
@@ -54,7 +54,7 @@ You must provide the minimum and maximum rating value. Also, in the **Rating Val
 
 2. Select **Skill Based Routing** under **Settings** in the sitemap.
 
-3. Select **+ New Rating Model** in the **Rating Model** section. The **New Rating Model** page appears.
+3. Select **New Rating Model** in the **Rating Model** section. The **New Rating Model** page appears.
 
 4. Specify the following in the **New Rating Model** page.
 
