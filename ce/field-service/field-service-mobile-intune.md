@@ -49,25 +49,28 @@ With an Intune-enabled Field Service Mobile app, IT administrators can:
 
 
 ## Get started
+
 Intune is a separate Microsoft product that is not included with Field Service. Refer to the documentation on [What is Microsoft Intune app management?](https://docs.microsoft.com/intune/apps/app-management) and [Adding and assigning an app with Intune](https://docs.microsoft.com/intune/apps/quickstart-add-assign-app) to get started.
 
-## Prefill default Org URL in sign in screen
+## Prefill default Org URL in mobile app signin screen
 
-Field Service Mobile (FSM) can be configured through Device Management portal . This option allows administrator to pre-configure the app for a certain behavior or pre-fill some values before first use. The configuration is available only for devices enrolled to MDM
+For devices enrolled in MDM you can configure the following 2 MAM properties:
 
-Supported Properties
-Currently only these configuration properties are supported
 
-| Property Name / Configuration | Key	Type	| Notes |
-| --- | ---- | --- |
-| IntuneMAMUPN	| string |	Required. Must be set to value {{UserPrincipalName}} |
-| DefaultOrgUrl	| string |	Allows to configure Dynamics 365 organization's url which is pre-filled on Sign In page |
+| Property Name / Configuration | Key	Type	| Description |Notes |
+| --- | ---- | --- | --- |
+| DefaultOrgUrl	| string | Auto-populates the Org URL in the Field Service Mobile sign-in page	| See picture below |
+| IntuneMAMUPN	| string |	| Value must be set to **{{UserPrincipalName}}** |
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-intune-signin.png)
 
 #### Creating an app configuration
-An configuration can be set up through Device Management portal . Each supported platform (iOS, Android and Windows) requires a separate configuration. Check Intune integration in FSM wiki page for more details on how to get access to the portal.
+An configuration can be set up through Device Management portal . Each supported platform (iOS, Android and Windows) requires a separate configuration. Check Intune integration in Field Service Mobile wiki page for more details on how to get access to the portal.
 
-Registering FSM app in Device Management portal
-In order to be able to create an app configuration we need to register/add FSM for a tenant in Device Management portal.
+#### Registering Field Service Mobile app in Device Management portal
+In order to be able to create an app configuration we need to register/add Field Service Mobile for a tenant in Device Management portal.
 
 Go to Apps **(1)** -> All apps **(2)** and click + Add button **(3)**
 
@@ -164,20 +167,24 @@ Navigate to Assignments and select a group which the policy should be assigned t
 
 #### Testing
 
-Android/iOS
+**Android and iOS**
 
-Download Company Portal app and sign-in with an organization account
-Install FSM from the Company portal app
-Start FSM
+1. Download Company Portal app and sign-in with an organization account
 
-Windows
+2. Install Field Service Mobile from the Company portal app
 
-Got to Settings -> Access work or school and click Connect
-Sign in with your organization account
-Install the app
+3. Start Field Service Mobile
+
+**Windows**
+
+1. Got to **Settings > Access work or school** and click **Connect**
+
+2. Sign in with your organization account
+
+3. Install the app
 
 
 ## Additional notes
-- MAM with Intune for Field Service Mobile will work with or without MDM device enrollment.
+- Standard MAM capabilities for Field Service Mobile will work with or without MDM device enrollment in Intune.
 
 
