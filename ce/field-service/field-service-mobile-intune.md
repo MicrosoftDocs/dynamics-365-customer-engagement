@@ -60,40 +60,45 @@ For devices enrolled in MDM you can configure the following 2 MAM properties:
 | Property Name / Configuration | Key	Type	| Description |Notes |
 | --- | ---- | --- | --- |
 | DefaultOrgUrl	| string | Auto-populates the Org URL in the Field Service Mobile sign-in page	| See picture below |
-| IntuneMAMUPN	| string |	| Value must be set to **{{UserPrincipalName}}** |
+| IntuneMAMUPN	| string | Remembers and auto-populates the user's username in the Field Service Mobile sign-in page	| Value must be set to **{{UserPrincipalName}}** |
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-intune-signin.png)
 
-#### Creating an app configuration
-An configuration can be set up through Device Management portal . Each supported platform (iOS, Android and Windows) requires a separate configuration. Check Intune integration in Field Service Mobile wiki page for more details on how to get access to the portal.
+#### Create an app configuration
 
-#### Registering Field Service Mobile app in Device Management portal
-In order to be able to create an app configuration we need to register/add Field Service Mobile for a tenant in Device Management portal.
+A configuration can be set up through [Device Management portal](https://devicemanagement.microsoft.com/). Each supported platform (iOS, Android and Windows) requires a separate configuration. 
 
-Go to Apps **(1)** -> All apps **(2)** and click + Add button **(3)**
+#### Register Field Service Mobile app in Device Management portal
+In order to be able to create an app configuration we need to register and add Field Service Mobile for a tenant in Device Management portal.
+
+Go to Apps **(1)** > All apps **(2)** and click + Add button **(3)**
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-intune1.png)
 
 Select App type **(4)** and then fill App information **(5)**
-if you want to use app that is not in store, choose Line-of-business App type
+
+If you want to use an app that is not in the store, choose Line-of-business App type
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-intune2.png)
 
 Click Add
-Navigate to Assignments **(6)** and click Add group **(7)**. Choose Available for enrolled devices as Assignment type and select users or groups which should be included.
-you can choose other assignment types per your business needs
+
+Navigate to Assignments **(6)** and click Add group **(7)**. 
+
+Choose Available for enrolled devices as Assignment type and select users or groups which should be included. Choose other assignment types per your business needs
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-intune3.png)
 
-The app should be now available to download through Company Portal app on device.
+The app should be now available to download through the Company Portal app on device.
+
 Note: iOS requires to install the app through the Company portal app first in order to be able to download the app configuration. After first install you can sideload your custom version of the app onto the device and app configuration policy will still be there
 
 #### Configuring Android/iOS
@@ -114,6 +119,11 @@ Click on Configuration settings **(9)**, select Use configuration designer as Co
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-intune6.png)
+
+Below is a sample of what to configure. To populate username use "**{{UserPrincipalName}}**". To populate URL enter your organization's specific Org URL.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-intune-configuration.png)
 
 Navigate to Assignments and select a group which the policy should be assigned to
 Configuring Android (alternative way)
