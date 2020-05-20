@@ -121,13 +121,13 @@ Make sure the lead that you're trying to qualify or disqualify is open and not a
 
 When you qualify a lead, some of the attributes in the mapping of 1:N relationships between **Lead to Contact** or **Lead to Opportunity** get copied from Lead to Contact or Lead to Opportunity entity.
 
-Status code is defined as an option set and when a user adds any new option set in the Lead entity but doesn't add it in Contact or Opportunity entity, this issue occurs.
+Status code is defined as an option set and when a user adds a new option into the option set in the Lead entity but doesn't add it in the target entity's option set, this issue occurs.
 
 The option sets, for example status code, should be same between lead and contact, or lead and opportunity to make the entity mapping work, as the lead qualification process copies the status code value from lead to contact or opportunity. If the status codes do not match, the process fails.
 
 **Resolution:**
 
-Ensure that sure the status codes of Lead and Contact entities or Lead and Opportunity entities are same. Follow the steps below to see status code of the Lead entity and the target entity:
+Ensure that the status codes of Lead and Contact entities or Lead and Opportunity entities are same. Follow the steps below to see status code of the Lead entity and the target entity:
 
 1. In the Sales Hub app, go to **Settings** > **Customizations** > **Customize the System**.
 
