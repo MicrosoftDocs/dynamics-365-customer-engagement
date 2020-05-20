@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/mobile-app/v8/go-mobile/get-started/sign-in-out.md",
+      "redirect_url": "email-sign-in",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/marketing/spam-score.md",
       "redirect_url": "spam-checker",
       "redirect_document_id": "false"
