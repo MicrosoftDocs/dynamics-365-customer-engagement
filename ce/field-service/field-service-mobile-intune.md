@@ -49,7 +49,7 @@ With an Intune-enabled Field Service Mobile app, IT administrators can:
 
 
 ## Get started
-To get started with Intune, follow the instructions for [adding and assigning an app with Intune](https://docs.microsoft.com/intune/apps/quickstart-add-assign-app).
+Intune is a separate Microsoft product that is not included with Field Service. Refer to the documentation on [What is Microsoft Intune app management?](https://docs.microsoft.com/intune/apps/app-management) and [Adding and assigning an app with Intune](https://docs.microsoft.com/intune/apps/quickstart-add-assign-app) to get started.
 
 ## Prefill default Org URL in sign in screen
 
@@ -69,24 +69,24 @@ An configuration can be set up through Device Management portal . Each supported
 Registering FSM app in Device Management portal
 In order to be able to create an app configuration we need to register/add FSM for a tenant in Device Management portal.
 
-Go to Apps (1) -> All apps (2) and click + Add button (3)
+Go to Apps **(1)** -> All apps **(2)** and click + Add button **(3)**
 
-image.png
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-intune1.png)
 
-Select App type (4) and then fill App information (5)
+Select App type **(4)** and then fill App information **(5)**
 if you want to use app that is not in store, choose Line-of-business App type
 
-image.png
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-intune2.png)
 
 Click Add
-Navigate to Assignments (6) and click Add group (7). Choose Available for enrolled devices as Assignment type and select users or groups which should be included.
+Navigate to Assignments **(6)** and click Add group **(7)**. Choose Available for enrolled devices as Assignment type and select users or groups which should be included.
 you can choose other assignment types per your business needs
 
-image.png
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-intune3.png)
 
@@ -95,46 +95,46 @@ Note: iOS requires to install the app through the Company portal app first in or
 
 #### Configuring Android/iOS
 
-In Device Management portal navigate to Apps (1), then go to App configuration policies (2) and click Add (3)
-image.png
+In Device Management portal navigate to Apps **(1)**, then go to App configuration policies **(2)** and click Add **(3)**
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-intune4.png)
 
-Enter name (4), select Managed devices as Device enrollment type (5), select Platform (6), click Associated app (7) and pick an app registered in previous section (8).
+Enter name **(4)**, select Managed devices as Device enrollment type **(5)**, select Platform **(6)**, click Associated app **(7)** and pick an app registered in previous section **(8)**.
 
-image.png
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-intune5.png)
 
-Click on Configuration settings (9), select Use configuration designer as Configuration settings format (10) and enter configuration settings (11). Save settings and click Add.
+Click on Configuration settings **(9)**, select Use configuration designer as Configuration settings format **(10)** and enter configuration settings **(11)**. Save settings and click Add.
 
-image.png
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-intune6.png)
 
 Navigate to Assignments and select a group which the policy should be assigned to
 Configuring Android (alternative way)
-In Device Management portal navigate to Apps (1), then go to App configuration policies (2) and click Add (3)
+In Device Management portal navigate to Apps **(1)**, then go to App configuration policies **(2)** and click Add **(3)**
 
-image.png
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-intune7.png)
 
-Enter name (4), select Managed apps as Device enrollment type (5) and click on Associated app (6)
+Enter name **(4)**, select Managed apps as Device enrollment type **(5)** and click on Associated app **(6)**
 
-image.png
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-intune8.png)
 
 you can either select the app from the list of featured apps or add new by using app bundle/package id
 
-image.png
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-intune8-5.png)
 
-Click on Configuration settings (7) and enter configuration settings (8). Save settings and click Add.
+Click on Configuration settings **(7)** and enter configuration settings **(8)**. Save settings and click Add.
 
-image.png
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-intune9.png)
 
@@ -143,19 +143,19 @@ Navigate to Assignments and select a group which the policy should be assigned t
 Note: This configuration will be available also to iOS app once you authenticate within the app
 
 #### Configuring Windows
-In device Management portal navigate to Devices (1), Configuration profiles (2) and click Create profile (3)
+In device Management portal navigate to Devices **(1)**, Configuration profiles **(2)** and click Create profile **(3)**
 
-image.png
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-intune10.png)
 
-Enter name (4), select Windows 10 and later as Platform (5), select Custom as Profile type (6). This will open Custom OMA-URI Settings page where you click Add (7)
-Fill Name (8), OMA-URI (9), Data type (10) and Value (11)
+Enter name **(4)**, select Windows 10 and later as Platform **(5)**, select Custom as Profile type **(6)**. This will open Custom OMA-URI Settings page where you click Add **(7)**
+Fill Name **(8)**, OMA-URI **(9)**, Data type **(10)** and Value **(11)**
 Put property name to Name field
 OMA-URI has a following format ./User/Vendor/MSFT/EnterpriseModernAppManagement/AppManagement/AppStore/{PackageFamilyName}/AppSettingPolicy/{PropertyName}
 where PackageFamilyName is Microsoft.FieldService-D365_8wekyb3d8bbwe for Field Service Mobile (cann be found in appxmanifest file) and PropertyName is same as we entered in Name field
 
-image.png
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-intune11.png)
 
@@ -180,6 +180,4 @@ Install the app
 ## Additional notes
 - MAM with Intune for Field Service Mobile will work with or without MDM device enrollment.
 
-### See also
 
-- [What is Microsoft Intune app management?](https://docs.microsoft.com/intune/apps/app-management)
