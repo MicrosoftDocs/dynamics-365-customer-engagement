@@ -1,7 +1,7 @@
 ---
 title: "Configure mobile offline synchronization in Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: 
-ms.date: 08/20/2019
+ms.date: 05/20/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -39,61 +39,21 @@ This offline experience uses [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-
  
 One of the first things you need to do is enable entities that will be available to mobile users when they're using the mobile app in offline mode. 
   
-The following entities are available for you to enable in offline mode:  
-  
-- Account  
+Entities that you can enable for offline mode appear in the **MOBILE OFFLINE PROFILE ITEM**.
 
-- Activity Pointer
+   > [!div class="mx-imgBorder"]
+   >![Setting Customizations](media/enable_entities_for_offline.png "Settings Customizations")
   
-- Appointment  
-  
-- Attachment 
-
-- Case
-  
-- Competitor  
-  
-- Competitor Address  
-
-- Connection
-
-- Connection Role
-  
-- Contact  
-
-- Custom Entity
-  
-- Email  
-  
-- Lead    
-  
-- Opportunity  
-  
-- Opportunity Product  
-
-- Phone Call
-
-- Position
-  
-- Product  
-  
-- Task 
-
-- Team  
-  
-- User  
-
-  > [!NOTE] 
-  > You can disable or enable any of the above supported entities for offline mode. The next section shows you how to enable or disable an entity. 
+You can disable or enable any of the supported entities for offline mode. The next section shows you how to enable or disable an entity. 
 
 ### To enable more entities for offline:
   
-1. In the **Dynamics 365- custom** app, go to **Settings** > **Customizations**.  
+1. In the **Dynamics 365- custom** app, go to **Settings** > **Advanced Settings**.
 
    > [!div class="mx-imgBorder"]
    >![Setting Customizations](media/Settings_Custom1.png "Settings Customizations")
   
-2. Select **Customize the System**.  
+2. Select **Settings** > **Customizations** and then select **Customize the System**.  
 
    > [!div class="mx-imgBorder"]
    >![Select a Customize the System](media/Settings_Custom.png "Customize the System")
@@ -134,14 +94,14 @@ You need to create mobile offline profiles for users to configure filters that d
 2. On the right, select **Environments**.
 
    > [!div class="mx-imgBorder"]
-   >![Select a Enviroment](media/offline_admincenter_enviroments.png "Select a Enviroment")
+   >![Select a Environment](media/offline_admincenter_enviroments.png "Select a Environment")
  
-3. Choose an enviroment and then select **Settings**.
+3. Choose an environment and then select **Settings**.
 
    > [!div class="mx-imgBorder"]
-   >![Enviroment settings](media/offline_open_an_enviroment.png "Enviroment settings")
+   >![Environment settings](media/offline_open_an_enviroment.png "Environment settings")
  
-4. Under **Data managment**, select **Mobile configuration**.
+4. Expand **Users + permissions**,  and then select **Mobile configuration**.
 
    > [!div class="mx-imgBorder"]
    >![Mobile configuration setting](media/offline_mobile_config_settings.png "Mobile configuration settings")
@@ -164,7 +124,7 @@ You need to create mobile offline profiles for users to configure filters that d
    > [!div class="mx-imgBorder"]
    >![Enter Mobile Offline Profile Item details](media/namemobileofflineprofile2.png "Enter Mobile Offline Profile Item details")
   
-9. Enter a name and select an entity. Only entities that you enabled (in **Step 1**) for mobile offline appear in this list.  
+9. Enter a name and select an entity. Only entities that can be enabled for mobile offline appear in this list.  
 
    > [!div class="mx-imgBorder"]
    >![Enter Mobile Offline Profile Item name](media/profileitemname1.png "Enter Profile Item name")
@@ -262,7 +222,7 @@ Once you have created a mobile offline profile, you can start adding users to th
   
 > [!NOTE]
 > You can add a user to only one mobile offline profile.
-> Each time user is added to the mobile offline profile, mobile offline profile need to be published again. 
+> Each time user is added to the mobile offline profile, mobile offline profile needs to be published again. 
   
 1.  If it’s not already open, open the mobile offline profile you want to add users to.  
  
@@ -321,12 +281,12 @@ Enable mobile offline for a specific app from MyApps page.
    > [!div class="mx-imgBorder"]
    >![My Apps in Settings](media/My_Apps.png "Go to My Apps in Settings")
 
-2. From the list of published apps, select **More Options** and then choose, **OPEN IN APP DESIGNER** to open the app designer to add or edit componets.
+2. From the list of published apps, select **More Options** and then choose, **OPEN IN APP DESIGNER** to open the app designer to add or edit components.
 
    > [!div class="mx-imgBorder"]
    >![Open App Designer](media/OpenAppDesigner2.png "Open App Designer")
 
-3. Select the the **Properties** tab, and scroll down to select **Enable Mobile Offline** and then choose a mobile offline profile.
+3. Select the **Properties** tab and scroll down to select **Enable Mobile Offline** and then choose a mobile offline profile.
 
    > [!div class="mx-imgBorder"]
    >![Enable mobile offline for the app](media/OpenAppDesigner1.png "Enable mobile offline for the app")
@@ -344,7 +304,7 @@ Here are a few things to keep in mind about mobile offline synchronization:
   
 - The time for initial metadata download is determined by the number of total entities in offline-enabled app modules. Make sure to enable only those entities and app modules for offline that are necessary to optimize the experience for end users. 
   
-- Ensure that any view that you want to work in offline doesn’t reference the entities that are not offline-enabled. For example, assuming Account is in the offline profile, then an Account view that references the primary contact when Contact is not in the profile will not be available.
+- Ensure that any view that you want to work in offline doesn’t reference the entities that are not offline enabled. For example, assuming Account is in the offline profile, then an Account view that references the primary contact when Contact is not in the profile will not be available.
 
 - Changes to a user’s security privileges are updated during the next synchronization cycle. Until that time, users can continue to access data according to their previous security privileges, but any changes they make will be validated during the synchronization to the Dynamics 365 server. If they no longer have privileges to make changes for a record, they will receive an error and the record won’t be created, updated, or deleted.
 
@@ -354,7 +314,7 @@ Here are a few things to keep in mind about mobile offline synchronization:
 ## Limitations and recommendations 
 
 ### Organization data filter 
-It is recommended that you have at least one rule defined for all mobile offline-enabled entity for org filters, if you are using the entities across profiles.  By default, this value is set to last 10 days for most of the offline-enabled entities.
+It is recommended that you have at least one rule defined for all mobile offline enabled entity for org filters, if you are using the entities across profiles. By default, this value is set to last 10 days for most of the offline-enabled entities.
 
  > [!div class="mx-imgBorder"]
  >![Edit org data filter](media/datafilter_1.png "Edit org data filter")
