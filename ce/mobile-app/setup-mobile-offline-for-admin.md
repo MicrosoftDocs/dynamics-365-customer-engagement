@@ -48,12 +48,12 @@ You can disable or enable any of the supported entities for offline mode. The ne
 
 ### To enable more entities for offline:
   
-1. In the **Dynamics 365- custom** app, go to **Settings** > **Customizations**.  
+1. In the **Dynamics 365- custom** app, go to **Settings** > **Advanced Settings**.
 
    > [!div class="mx-imgBorder"]
    >![Setting Customizations](media/Settings_Custom1.png "Settings Customizations")
   
-2. Select **Customize the System**.  
+2. Select **Settings** > **Customizations** and then select **Customize the System**.  
 
    > [!div class="mx-imgBorder"]
    >![Select a Customize the System](media/Settings_Custom.png "Customize the System")
