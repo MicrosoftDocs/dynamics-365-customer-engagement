@@ -138,7 +138,12 @@ Ensure that sure the status codes of Lead and Contact entities or Lead and Oppor
 4. Double-click a status to see its value.
 
     > [!div class="mx-imgBorder"]
-    >  ![See status code of lead](media/lead-status-code.png "See status code of lead")
+    > ![See status code of Lead entity](media/lead-status-code.png "See status code of Lead entity")
+
+5. Follow the above mentioned steps to see the status code of the target entity, for example Contact.
+
+    > [!div class="mx-imgBorder"]
+    > ![See status code of Contact entity](media/contact-status-code.png "See status code of Contact entity")
 
 **To see mappings**:
 
