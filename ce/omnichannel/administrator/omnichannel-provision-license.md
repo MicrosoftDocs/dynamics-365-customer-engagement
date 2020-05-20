@@ -1,10 +1,10 @@
 ---
 title: "Provision Omnichannel for Customer Service | MicrosoftDocs"
 description: "Provision Omnichannel for Customer Service to add or remove channels"
-author: platkat 
-ms.author: ktaylor
+author: lalexms 
+ms.author: laalexan
 manager: shujoshi
-ms.date: 05/01/2020
+ms.date: 05/20/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -35,6 +35,8 @@ To allow Omnichannel for Customer Service to read and write data on behalf of us
 
     > [!div class=mx-imgBorder]
     > ![Grant consent](../media/data-consent.png)
+
+> For more information about app permissions, see [Azure app Power BI API permissions](https://docs.microsoft.com/power-bi/developer/embedded/power-bi-permissions).
 
 
 ## Provision Omnichannel for Customer Service application
