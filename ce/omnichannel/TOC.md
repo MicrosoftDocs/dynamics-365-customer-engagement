@@ -266,6 +266,7 @@
 ##### [Implement custom scenario](developer/how-to/smart-assist-scenario.md)
 #### [Bring your own channel](developer/how-to/bring-your-own-channel.md)
 #### [Customize chat widget](developer/how-to/customize-chat-widget.md)
+### [Live chat widget telemetry](developer/live-chat-telemetry.md)
 ### Entity reference
 #### [Overview](developer/reference/entities/overview.md)
 #### [Deprecated entities](developer/reference/entities/deprecated-entities.md)

@@ -1,3 +1,21 @@
+## 3.12.21.9
+
+- The following Universal Resource Scheduling 2020 Wave 1 features in GA and Preview planned are included in this release:
+  - Next generation schedule board experience (preview)
+  - Enhanced work hours calendar for resources
+  - Requirement dependency for efficient workflow
+  - Resource scheduling dashboard
+- This release also includes all fixes included in the [3.12.9.76 EA package](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#312976---april-2020-wave-1-early-access).
+- Fixed an issue where the Booking method on Booking panel was not selectable, on the List view of the Days view in Schedule Board. 
+- Fixed a caching issue on the **Get Driving Directions** pop-up functionality of the Schedule Board, where previously cached values were being used for calculating the route. 
+- Resolved the incorrect location displayed for the Booking on the Map view of the Schedule Board, due to the incorrect formatting issue in conversion of the latitude and longitude on the map in languages like German. 
+- Fixed the issue where Bookings of some schedulable entities cannot be moved to a different day in Multi-day views like Days, Weeks views on the Schedule Board. 
+- Fixed the issue where when a Requirement is dragged on to a Crew Resource on Schedule Board, a booking is only created for the Crew Resource and not the underlying active Crew Resources.
+- Fixed an issue where a custom JavaScript is used in the Schedule Board Client extensions to set the default filter values, but the prepopulated default values are only displayed, when the respective filter control is selected. 
+- Fixed an issue where Quick scheduling is used on a Schedulable entity without associated Resource Requirement record, and Search Start and Search End dates are passed as the same day, available timeslots were displayed for three days rather than one passed in day. With the fix, the available will only be displayed for the date passed in. 
+- Fixed an issue where Booking tooltips are not displayed on hover, when network latency is high.  
+- Fixed a Null reference exception for Booking Status metadata checks during the upgrade to improve upgrade experience. 
+
 ## 3.12.5.13
 - Resource location can be displayed on the Map view of the Schedule Board’s Daily view, using the custom entity using the Custom Geo Data settings in the Scheduling Parameters. 
 - Fixed the issue with the action msdyn_SearchResourceAvailability was not taking the ConsiderTravelTime parameter into consideration, while providing the available timeslots.
