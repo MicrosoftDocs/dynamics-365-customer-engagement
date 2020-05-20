@@ -4,20 +4,23 @@ author: ReneeW-CPub
 ---
 
 <a name="top"></a>
-# SUPPLEMENTAL TERMS FOR TRIAL SERVICES 
 
-These terms supplement the applicable terms of the [Microsoft Online Subscription
-Agreement](https://azure.microsoft.com/en-us/support/legal/subscription-agreement/)
+# SUPPLEMENTAL TERMS FOR TRIAL SERVICES
+
+These terms supplement the applicable terms of the [Microsoft Online
+Subscription
+Agreement](https://azure.microsoft.com/support/legal/subscription-agreement/)
 (the “Agreement”) and any terms referenced therein that govern your use of the
 Trial Service. For the purposes of these Supplemental Terms for Trial Services
 (“the **Supplemental Terms**”), any trial of a commercially-available Online
-Service that links to these Supplemental Terms will be referred to as a “**Trial Service**”.
+Service that links to these Supplemental Terms will be referred to as a “**Trial
+Service**”.
 
 All terms used but not defined will have the same meanings as in the Agreement.
 Any additional legal terms that apply to your use of a specific Trial Service
-(“**Specific Terms**”) are set forth below. If a particular Trial Service links
-to these Supplemental Terms but it is not listed below, then that Trial Service
-does not have any Specific Terms.
+(“Specific Terms”) are set forth below. If a Trial Service links to these
+Supplemental Terms but it is not listed below, then that Trial Service does not
+have any Specific Terms.
 
 For the avoidance of doubt, different Specific Terms may be applicable to you or
 your personnel at different times, and multiple Specific Terms may be applicable
@@ -26,17 +29,15 @@ Services at any given time.
 
 **Content in this supplement**
 
-[Microsoft Dynamics 365 for Sales, Marketing, Customer Service, Customer Service Insights, Field Service, and Project Service Automation](#1)
+[Microsoft Dynamics 365 Sales, Marketing, Customer Service, Customer Service Insights, Field Service, and Project Service Automation](#1)
 
 [Microsoft Dynamics 365 Business Central](#2)
 
-[Microsoft Dynamics 365 for Finance and Operations](#3)
+[Microsoft Dynamics 365 Finance, and Microsoft Dynamics 365 Supply Chain Management](#3)
 
-[Microsoft Dynamics 365 for Retail](#4)
+[Microsoft Dynamics 365 Commerce](#4)
 
-[Microsoft Dynamics 365 for Talent](#5)
-
-[Microsoft Dynamics 365 for Talent: Attract, Microsoft Dynamics 365 for Talent: Onboard](#6)
+[Microsoft Dynamics 365 Human Resources](#5)
 
 <a name="1"></a>
 **Specific Terms for Microsoft Dynamics 365 for Sales, Marketing, Customer
@@ -164,7 +165,8 @@ consecutive days.
 [Back to Top](#top)
 
 <a name="3"></a>
-**Specific Terms for Microsoft Dynamics 365 for Finance and Operations**
+**Specific Terms for Microsoft Dynamics 365 Finance; Microsoft Dynamics 365
+Supply Chain Management**
 
 **1. Trial Period.** Subject to Section 2, you may use this Trial Service for a
 period of 30 days from the date when you are first given access to it, solely
@@ -179,7 +181,7 @@ period of 7 consecutive days.
 [Back to Top](#top)
 
 <a name="4"></a>
-**Specific Terms for Microsoft Dynamics 365 for Retail**
+**Specific Terms for Microsoft Dynamics 365 Commerce**
 
 **1. Trial Period.** Subject to Section 2, you may use this Trial Service for a
 period of 30 days from the date when you are first given access to it, solely
@@ -194,55 +196,15 @@ period of 7 consecutive days.
 [Back to Top](#top)
 
 <a name="5"></a>
-**Specific Terms for Microsoft Dynamics 365 for Talent**
+**Specific Terms for Microsoft Dynamics 365 Human Resources**
 
 **1. Trial Period.** You may use this Trial Service for a period of 60 days from
 the date when you are first given access to it, solely with demonstration data
 provided by Microsoft or you through your use of this Trial Service, until the
 Agreement or your right to access this Trial Service expires or is terminated.
 
-[Back to Top](#top)
-
-<a name="6"></a>
-**Specific Terms for Microsoft Dynamics 365 for Talent: Attract (“Attract”), and
-Microsoft Dynamics 365 for Talent: Onboard (“Onboard”)**
-
-**1. Trial Period.** Each of the Attract and Onboard modules is a separate Trial
-Service and, if used by any personnel of your organization, is subject to a
-separate trial period (which may, in whole or in part, run concurrently
-depending on when such personnel first access each Trial Service). Subject to
-Section 2 below, each of your personnel may use each of these Trial Services for
-a period of 60 days from the date when such person is first given access to it,
-either with demonstration data provided by Microsoft or you through your use of
-this Trial Service or with “live” or production Customer Data. These Trial
-Services store data in Microsoft’s Common Data Service (or any successor). If
-your organization uses multiple Microsoft Online Services that implement
-Microsoft’s Common Data Service, data may be retained in the Common Data Service
-until all personnel in your organization terminate all subscriptions for all
-such Online Services that implement the Common Data Service.
-
-**2. Purchase.** Each of your personnel using the Trial Service acknowledges
-that, as an individual, he or she is not eligible to purchase a commercial
-subscription to these Trial Services. Your organization, however, may purchase
-subscriptions on behalf of each such individual user, under the Agreement. Your
-organization may purchase such subscriptions for your personnel even if no
-administrator has assumed control over your organization, but only if your
-organization has an unexpired Microsoft Online Subscription Agreement at the
-time of such purchase. You agree to inform all personnel using these Trial
-Services **(A)** that they must work with appropriate purchasing agents within
-your organization to purchase commercial subscriptions to the Trial Services,
-**(B)** that any such purchase may also be subject to your organization’s
-internal purchasing policies, and **(C)** that they must therefore moderate
-their use of the Trial Services accordingly.
-
-**3. Exporting Customer Data.** If you have included “live” or production
-Customer Data in any of these Trial Services, and you elect not to purchase a
-subscription to the applicable Trial Service, before expiration of the
-applicable trial period, then, subject to the last sentence of Section 1 of
-these Specific Terms: **(A)** Microsoft has no obligation to return Customer
-Data to you; **(B)** Microsoft will retain such Customer Data for at least 30
-days after the expiration of the applicable trial period for that Trial Service;
-and **(C)** Microsoft will make commercially reasonable efforts to work with you
-to export such Customer Data.
+**2. Termination.** Microsoft may terminate your access to this Trial Service at
+any time if you fail to access and actively use this Trial Service for any
+period of 7 consecutive days.
 
 [Back to Top](#top)

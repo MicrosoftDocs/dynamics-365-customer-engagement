@@ -75,6 +75,7 @@ Select the version you would like to download from the table below.
 
 | Name | Release | Changes | Uploaded |
 |--|--|--|--|
+|Sample Event Website| 1.23.0 (May release)| - Fix accesibility issues. <br/>- Minor improvements and bug fixes.| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/200505-EventWebsite.zip)
 |Sample Event Website| 1.22.0 (April release)| - Fix accesibility issues. <br/>- Minor improvements and bug fixes.| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/200403-EventWebsite.zip)
 |Sample Event Website| 1.21.0 (March release)| - Added stop registrations for events. <br/>- Minor improvements and bug fixes.| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/200305-EventWebsite.zip)
 |Sample Event Website| 1.20.0 (February release)| - Integrate marketing forms for event registrations. <br/>- Minor improvements and bug fixes.| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/200205-EventWebsite.zip)

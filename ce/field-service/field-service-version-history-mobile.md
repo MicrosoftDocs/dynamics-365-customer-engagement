@@ -2,7 +2,7 @@
 title: "Field Service Mobile version history | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 04/20/2020
+ms.date: 05/14/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -99,6 +99,7 @@ This article chronicles important updates related to Field Service Mobile and as
 
 ## 11.3.107
 
+- Support for Remote Assist deep linking (Android)
 - Fixed saving of offline Booking Signatures
 - Fixed update address button error message
 - Fixed unresponsive iOS buttons
@@ -116,7 +117,7 @@ To learn more about mobile projects, see our topic on [installing the Field Serv
 
 | Download link | Release date | Relates to Field Service Mobile version | Publish to Woodford Version | Minimum Field Service Version |
 | --- | --- | --- | --- | --- |
-| [1.0.4549](https://aka.ms/fsmobile-project)  |  May 2020  |  12.1+ | 12.1+ | 8.8.6.300 | 
+| [1.0.4549](https://aka.ms/fsmobile-project)  |  May 2020  |  12.1+ | 12.1+ | 8.8.14 | 
 
 - Added support for [Time Entry](field-service-time-entry.md) Fields, Forms, and Views.
 - Added font file for PDF Reports.
@@ -132,6 +133,8 @@ To learn more about mobile projects, see our topic on [installing the Field Serv
 | Download link | Release date | Relates to Field Service Mobile version | Publish to Woodford Version | Minimum Field Service Version |
 | --- | --- | --- | --- | --- |
 | [1.0.3482](https://aka.ms/fsmobile-project-3482)  |   November 2019  |  11.3+ | 11.3+ | 8.8.6.300 | 
+
+- Added support Remote Assist deep linking (Android)
 
 ## 1.0.2735
 

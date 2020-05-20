@@ -4,7 +4,7 @@ description: Know how to define service-level agreements in Dynamics 365 Custome
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/05/2020
+ms.date: 05/14/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -19,9 +19,9 @@ search.app:
   - D365CS
 ---
 
-# Define service-level agreements (SLAs)
+# Define service-level agreements
 
-Define the level of service or support that your organization agrees to offer to a customer by using service-level agreements (SLAs) in Dynamics 365 Customer Service. Include detailed items to define metrics or key performance indicators (KPIs) to attain that service level. KPIs help you get timely warnings about any issues your customer support team might be having.
+Define the level of service or support that your organization agrees to offer to a customer by using service-level agreements (SLAs) in Dynamics 365 Customer Service. You can include detailed items to define metrics or key performance indicators (KPIs) to attain that service level. KPIs help you get timely warnings about any issues your customer support team might be having.
 
 You can associate an SLA with an entitlement so that when an entitlement is added to a case, the associated SLA is also applied. You can only associate SLAs that are created for the Case entity with entitlements. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create an entitlement to define the support terms for a customer](create-entitlement-define-support-terms-customer.md)
 
@@ -102,14 +102,14 @@ Review the following requirements before configuring SLAs for your organization:
 - Identify target entities and add customizations. To add customizations in target entities to track SLAs, follow these steps:
 
    1. Create a lookup field on the entity for which an SLA has to be configured, and relate it to an SLA KPI instance. Lookup fields are created so that you can view the SLA in the timer on the entity form and track your SLAs. To learn more, see [Create and edit fields](../customerengagement/on-premises/customize/create-edit-fields.md#create-and-edit-fields).
-   For example, to track an SLA on a case for "escalated by KPI, you need to create a field as **EscalatedByKPI** on the Case entity, and provide the respective **Target Record Type** as **Service Level Agreement Instances** and **Data Type** as **Lookup**.
+   For example, to track an SLA on a case for "escalated by KPI", you need to create a field as **EscalatedByKPI** on the Case entity, and provide the **Data Type** as **Lookup** and **Target Record Type** as **SLA KPI Instance**.
 
    2. Use the lookup field to configure a timer to help users estimate the amount of time they have to complete a task—typically as specified in an SLA.<br>
    To configure a timer, add the timer control to an entity form. The timer control initially displays a countdown timer to show the time remaining to complete the task. To learn more, see [Add a timer control to the Case form to track time against an SLA](add-timer-control-case-form-track-time-against-sla.md).
 
 ## Create SLA KPIs in Customer Service Hub<a name="create-sla-kpis"></a>
 
-SLA KPIs are performance indicators, such as First Response or Resolve by, that you'd like to track. 
+SLA KPIs are performance indicators, such as First Response or Resolve by, that you'd like to track.
 
 1. Sign in to Customer Service, and open the **Customer Service Hub** app.
 
@@ -329,7 +329,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
 2. Go to **Settings** > **Service Management**.
 
-3. Go to **Service Level Agreements**. 
+3. Go to **Service Level Agreements**.
 
 4. To create a new SLA, select **New**.  
 

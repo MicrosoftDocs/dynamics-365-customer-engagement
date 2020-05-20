@@ -1,6 +1,7 @@
 # [Overview](overview.md)
 
 # What's new
+## [Update Release schedule for Project Service 3.x](version-history-ps.md)
 ## [What's new or changed in Update Release 19, V3](whats-new-ur-19.md)
 ## [What's new or changed in Update Release 18, V3](whats-new-ur-18.md)
 ## [What's new or changed in Update Release 17.5, Hotfix, V3](whats-new-ur-17-5.md)
