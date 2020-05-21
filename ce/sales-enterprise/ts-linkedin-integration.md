@@ -33,7 +33,7 @@ For more information about the data validation capability of LinkedIn Sales Navi
 
   - The setting for data validation is enabled in LinkedIn Sales Navigator. If this setting isn't turned on, you'll see the CRM sync disabled status even though CRM sync is enabled. If you aren't able to see the data validation setting in LinkedIn Sales Navigator, ensure that you have an appropriate Sales Navigator license. More information: [Sales Navigator Data Validation - Overview](https://www.linkedin.com/help/sales-navigator/answer/a120992)
 
-  - If you turned on one or both of these settings and can verify that both are now enabled in LinkedIn Sales Navigator, ensure that you've turned turned on the **Enable LinkedIn updates** setting at least once.<!--Edit okay? I was confused by the sequence of events (especially that last clause, "after both the above settings are turned on"), also by what "on CRM" meant. Please excuse if I missed the point!-->
+  - If you turned on one or both of these settings and can verify that both are now enabled in LinkedIn Sales Navigator, ensure that you've turned on the **Enable LinkedIn updates** setting at least once.<!--Edit okay? I was confused by the sequence of events (especially that last clause, "after both the above settings are turned on"), also by what "on CRM" meant. Please excuse if I missed the point!-->
 
 - If the error is due to something other than CRM sync, you can try restarting data validation by first disabling it from the **Sales Navigator Integration Settings** dialog box, and then enabling it again.
 
