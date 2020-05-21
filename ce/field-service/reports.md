@@ -165,3 +165,7 @@ Get an error message? See the following table for a list of errors and what you 
 |    Oops! Internal service error, please contact your system administrator with Error Code: {numeric value}.                   |    Contact Microsoft Support and create a ticket.                                               |
 |    Oops! There was a problem rendering the report.                                                                              |    Refresh the report; if it doesn’t work, contact Microsoft Support and create a support ticket.    |
 |    Oops! There was a problem rendering the report, please try again.                                                            |    Refresh the report; if it doesn’t work, contact Microsoft Support and create a support ticket.    |
+
+### Known issues
+
+- Reports don't render in Internet Explorer 11.
