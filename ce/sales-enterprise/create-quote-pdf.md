@@ -77,7 +77,7 @@ Here are some FAQs related to the PDF generation capability:
 **Question:** Can I specify a different name for the PDF file before generating it?
 **Answer:** No, specifying a different file name is currently not supported.
 
-**Question:** Can I choose if I can save the PDF file to the Sales app as notes or to SharePoint? 
+**Question:** Can I choose to save the PDF file to the Sales app as notes or to SharePoint? 
 **Answer:** No, if SharePoint is enabled for the entity for which you are generating a PDF, then the PDF file will be saved to the SharePoint location by default. 
 
 **Question:** Is the PDF generation capability available on all entities? 
