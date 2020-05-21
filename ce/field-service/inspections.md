@@ -2,7 +2,7 @@
 title: "Dynamics 365 Field Service inspections | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 05/18/2020
+ms.date: 05/21/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -201,73 +201,73 @@ When a technician fills out an inspection, the answers to each inspection questi
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/inspection-inspection-responses-advanced-find.png)
+> ![Screenshot of inspection responses showing up in the lookup dropdown in an advanced find window.](./media/inspection-inspection-responses-advanced-find.png)
 
 Use a Power Automate flow to run a workflow on inspection responses.
 
-In the following example, if a technician responds "Yes" to the inspection question "Is a follow up required?" then a new follow up work order service task is added to the related work order.
+In the following example, if a technician responds "Yes" to the inspection question "Is a follow-up required?" then a new follow-up work order service task is added to the related work order.
 
-#### Create a flow
+### Create a flow
 
-Go to [https://flow.microsoft.com](https://flow.microsoft.com) sign in, choose your environment and create a new flow.
+Go to [https://flow.microsoft.com](https://flow.microsoft.com), sign in, choose your environment, and create a new flow.
 
-Choose **Automated-from blank**
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/inspections-workflow-create-flow.png)
-
-Provide a name and click on ‘Skip’ to choose the trigger on the Flow Editor page.
+Choose **Automated - from blank**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/inspections-workflow-name.png)
+> ![Screenshot of Power Automate, on the New dropdown menu showing Automated - from blank.](./media/inspections-workflow-create-flow.png)
+
+Name the flow and select **Skip** to choose the trigger on the flow editor page.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the Build an automated flow window.](./media/inspections-workflow-name.png)
 
  
-#### Create a trigger 
+### Create a trigger 
 
-Search for ‘Dynamics 365’ in Connectors and choose the trigger as **When a record is created or updated**
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/inspections-workflow-trigger.png)
- 
-This flow will relate to the Work Order Service Task entity because technicians view and respond to inspections from this entity. Choose **Work Order Service Tasks** for the Entity Name. 
+Search for "Dynamics 365" in **Connectors** and choose the trigger as **When a record is created or updated**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/inspections-workflow-step1.png)
+> ![Screenshot of a list of triggers in Power Automate.](./media/inspections-workflow-trigger.png)
  
-#### Fetch the response from the database
-
-Next we need to retreive the inspection responses.
-
-Add a step using the **Get record** action in ‘Dynamics 365’. 
-
-Choose **Inspection Responses** as the entity to get and **Inpection Response Id** in the Item identifier because this field has the inspection answers. 
+This flow will relate to the **Work Order Service Task** entity because technicians view and respond to inspections from this entity. Choose **Work Order Service Tasks** for the **Entity Name**. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/inspections-workflow-fetch-inspection-response.png)
+> ![Screenshot of the flow for when a record is created or updated.](./media/inspections-workflow-step1.png)
  
-#### Extract the JSON
+### Fetch the response from the database
 
-Add **Initialize Variable** action to retrieve the response from ResponseJsonContent field.
+Next, we need to retrieve the inspection responses.
+
+Add a step using the **Get record** action in "Dynamics 365." 
+
+Choose **Inspection Responses** as the entity to get and **Inspection Response ID** in the item identifier because this field has the inspection answers. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/inspections-workflow-get-JSON-content.png)
+> ![Screenshot of Power Automate showing the get record part of a flow showing inspection responses in the item identifier field.](./media/inspections-workflow-fetch-inspection-response.png)
  
-#### Decode the response
+### Extract the JSON
 
-Next we need to put the JSON of the response in a usable format.
+Add an **Initialize Variable** action to retrieve the response from **ResponseJsonContent** field.
 
-Add **Initialize Variable** action to url decode and base 64 decode the response json.
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a Power Automate flow, showing the "retrieve the encoded response json" part of the flow.](./media/inspections-workflow-get-JSON-content.png)
+ 
+### Decode the response
+
+Now we need to convert the response's JSON into a usable format.
+
+Add an **Initialize Variable** action to url decode and base 64 decode the response JSON:
 
       decodeUriComponent(decodeBase64(variables('responseJson')))
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/inspections-workflow-decode-JSON.png)
+> ![Screenshot showing the Decode the json part of the Power Automate flow.](./media/inspections-workflow-decode-JSON.png)
 
  
-#### Update the schema
-Provide a the schema with the name of the question you want to run a workflow on:
+### Update the schema
+Provide the schema with the name of the question you want to run a workflow on.
 
-In our example the schema is: 
+In our example, the schema is: 
 
     {
         "type": "object",
@@ -279,34 +279,34 @@ In our example the schema is:
     }
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/inspections-workflow-update-schema.png)
+> ![Screenshot of the Parse JSON section of the Power Automate flow, showing the schema field populated with the previous snippet.](./media/inspections-workflow-update-schema.png)
 
 
-If you are having trouble generating the schema you can select the **Generate from sample** option and enter the Name and sample answer of your inspection question and response.
+If you're having trouble generating the schema, you can select the **Generate from sample** option and enter the name and sample answer of your inspection question and response.
 
-In our example we can enter 
+In our example, we can enter:
 
     {"Followup":"Yes"}
 
-Where "Followup" comes from the Name value of the inspection question as seen in the image below.
+Where "Followup" comes from the inspection question's name value, as seen in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/inspections-workflow-schema-name.png)
+> ![Screenshot of an inspection in Field Service, showing the name field.](./media/inspections-workflow-schema-name.png)
 
 
 
-#### Condition based action
+### Condition-based action
 
-Next we want to add a condition and action based on the response to the inspection question.
+Next we'll add a condition and action based on the response to the inspection question.
 
-In this example we will create a Work Order Service Task with another Service Task Type in the same Work Order when the "Followup" inspection question has ‘Yes’ as the answer.
+In this example, we'll create a **Work Order Service Task** with another **Service Task Type** in the same work order when the "Followup" inspection question has "Yes" as the answer.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/inspections-workflow-if-condition-yes.png)
+> ![Screenshot of the Power Automate flow, showing a condition step where the followup field is equal to yes.](./media/inspections-workflow-if-condition-yes.png)
  
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/inspections-workflow-then-create-WOST.png)
+> ![Screenshot of the Power Automate flow, showing the "if yes" condition set to trigger a new record creation.](./media/inspections-workflow-then-create-WOST.png)
 
 Save and test your flow.
  
@@ -359,16 +359,17 @@ Storing and retrieving each inspection response in Common Data Model is not part
 
 ### Known issues
 
-- Marking a Work Order Service Task as complete from the grid view does not work unless the Work Order Service Task is opened at least once.
+- Marking a work order service task as complete from the grid view does not work unless the work order service task is opened at least once.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of marking work order service task as complete from work order service task grid view.](./media/inspections-work-order-service-task-mark-complete-grid.png)
 
-- Dispatcher cannot delete individual attachments in inspection response. The out of the box "**Field Service-Dispatcher**" role does not have ability to delete inspection attachments. They can however "Clear responses" and "Clear files" which will clear all attachments. **Solution:** if a dispatcher would like the ability to delete individual attachments from an inspection, he or she will need to be given "delete" privileges for the Notes entity. 
+- Dispatcher can't delete individual attachments in an inspection response. The out-of-the-box **Field Service-Dispatcher** role doesn't have ability to delete inspection attachments; they can, however, **Clear responses** and **Clear files**, which will clear all attachments. If a dispatcher wants to be able to delete individual attachments from an inspection, they'll need to be given delete privileges for the **Notes** entity. 
 
-- If a resource has trouble viewing an inspection on the work order service task form (as seen in image below), deactivate and activate the related bookable resource booking. 
+- If a resource has trouble seeing an inspection on the work order service task form (as seen in the following screenshot), deactivate and reactivate the related bookable resource booking. 
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/inspections-known-issue-cant-view-inspection.jpeg)
+> ![Screenshot showing a work order service task in Field Service, with attention to the related section being empty.](./media/inspections-known-issue-cant-view-inspection.jpg)
+
