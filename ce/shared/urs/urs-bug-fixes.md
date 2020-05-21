@@ -1,5 +1,6 @@
 ## 3.12.22.4
 
+- On the Organizations, that have [Schedle board preview enabled](https://aka.ms/scheduleboard), the Schedule Board Preview can be accessed from **Field Service** application Sitemap along with **Universal Resource Scheduling** application sitemap. 
 - Fixed the issue where [Intervals](https://docs.microsoft.com/en-us/dynamics365/common-scheduler/fulfillment-preferences#interval-setup) functionality of fulfilment preferences was not working on the Schedule Assistant. 
 - Resolved the issue of duplicated timeslots of the Resources on the List view type of the Days view of the Schedule Board
 - Multiple calls to retrieve data in the List view type of the Days view are reduced to one call, to improve performance on the Schedule Board
