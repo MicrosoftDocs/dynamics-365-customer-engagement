@@ -72,7 +72,7 @@ You can also generate a PDF file and directly email it to a customer.
 Here are some FAQs related to the PDF generation capability:
 
 **Question:** What happens if more than one SharePoint document location is associated with a record? <br>
-**Answer:** If more than one SharePoint document location exists for a record, the generated PDF file is saved to the default location: [<record_name>_<record_id>].<br>
+**Answer:** Regardless of the number of SharePoint document locations that exist for a record, the generated PDF file is always saved to the default location: \[<record_name>_<record_id>].<br>
 
 **Question:** Can I specify a different name for the PDF file before generating it?<br>
 **Answer:** No, specifying a different file name is currently not supported.<br>
