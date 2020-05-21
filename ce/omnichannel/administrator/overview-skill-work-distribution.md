@@ -49,7 +49,7 @@ When a customer initiates a conversation, the following happens:
 
 ## Prerequisites
 
-- You must use the latest Omnichannel for Customer Service.
+- You must use the latest version of Omnichannel for Customer Service.
 - If your environment has scheduling solutions, then it must be version 9.0.0.0 or later.
 
 ## Skill-based routing overview steps
