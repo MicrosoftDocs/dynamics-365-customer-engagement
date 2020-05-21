@@ -4,7 +4,7 @@ description: "Learn how you can try channels in Omnichannel for Customer Service
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 12/13/2019
+ms.date: 05/21/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -89,16 +89,15 @@ Once a channel is enabled in your organization, you can sign in to Dynamics 365 
 
 ## Option 2: Channels trial through Microsoft 365 admin center
 
-With this option, you can sign-up for a free 30-day trial of Chat, SMS, and Facebook Messenger channels from the Microsoft 365 admin center only if you have a paid subscription of Dynamics 365 Customer Service Enterprise that has been purchased directly through the Microsoft 365 admin center (that is, Web Direct). If you do not have the pre-requisite subscription, or if you have purchased the pre-requisite subscription other than Web Direct, then the option to try channels will not be available in the Microsoft 365 admin center.
+The Dynamics 365 Customer Service Digital Messaging Add-on Trial is a free 30-day trial of Chat, SMS, and social channels that you can download from the Microsoft 365 admin center. To try channels, you must have obtained one of the following subscriptions through the Microsoft 365 admin center (that is, Web Direct):
 
-The channel you can try depends on the add-on you purchase from the Microsoft 365 admin center. The following add-ons are available for purchase:
+-Paid or trial subscription of Dynamics 365 Customer Service Enterprise 
+-Paid or trial subscription of Dynamics 365 Customer Engagement 
 
-- **Dynamics 365 for Customer Service Chat Trial**: Allows you to try Chat.
-
-- **Dynamics 365 for Customer Service Digital Messaging add-on Trial**: Allows you to try Chat, SMS, and Facebook channels.
+If you do not have one of these subscriptions, or if you purchased your subscription somewhere other than Web Direct, then the option to try channels will not be available in the Microsoft 365 admin center.
 
 > [!NOTE]
-> For more information on the Chat and Digital Messaging licenses, pricing, and prerequisites, please refer to the Dynamics 365 licensing guide [here](https://go.microsoft.com/fwlink/p/?LinkId=866544).
+> For more information about the Digital Messaging license, pricing, and prerequisites, refer to the Dynamics 365 licensing guide [here](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 
 ### Step 1: Get a trial subscription of channels
 
