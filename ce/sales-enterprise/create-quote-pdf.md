@@ -1,7 +1,7 @@
 ---
 title: "Create PDF files from sales records (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Create and share professional-looking PDF files with your customers."
-ms.date: 04/03/2020
+ms.date: 05/21/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
