@@ -10,11 +10,13 @@ ms.service:
 ms.topic: article
 ---
 
-# Embed chat widget in Power Apps portals
+# Embed chat widget in your website or Power Apps portal
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 ## Embed chat widget in your web portal
+
+To embed a chat widget in your web portal:
 
 1.	Sign in to Omnichannel Administration.
 2.	Go to **Channels** &gt; **Chat**.
