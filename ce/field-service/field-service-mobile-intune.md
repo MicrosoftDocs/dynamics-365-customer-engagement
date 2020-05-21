@@ -66,11 +66,11 @@ For devices enrolled in MDM, you can configure the following two MAM properties:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Field Service Mobile sign-in screen on a mobile device.](./media/mobile-intune-signin.png)
 
-### Create an app configuration
+## Create an app configuration
 
 A configuration can be set up through the [Device Management portal](https://devicemanagement.microsoft.com/). Each supported platform (iOS, Android, and Windows) requires a separate configuration. 
 
-### Register the Field Service Mobile app in Device Management portal
+## Register the Field Service Mobile app in Device Management portal
 In order to create an app configuration, we need to register and add Field Service Mobile for a tenant in the Device Management portal.
 
 - Go to **Apps** ("1" in the following screenshot).
@@ -106,7 +106,7 @@ The app should now be available to download through the Company Portal app on th
 > [!Note]
 > iOS requires you to install the app through the Company Portal app *first* in order to be able to download the app configuration. After the initial installation, you can sideload your custom version of the app onto the device; the app configuration policy will still be there.
 
-### Configuring Android and iOS
+## Configuring Android and iOS
 
 In the Device Management portal: 
 
@@ -142,7 +142,7 @@ The following screenshot shows an example of what to configure. To populate the 
 
 Finally, go to **Assignments** and select a group that the policy should be assigned to.
 
-### Alternative way to configure Android
+## Alternative way to configure Android
 
 In the Device Management portal: 
 
@@ -162,7 +162,7 @@ In the Device Management portal:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the add configuration policy form in the Device Management portal, with added numbers to reference the previously outlined steps.](./media/mobile-intune8.png)
 
-- For the **Associated app** field, either select the app from the list of featured apps or add a new one by using app bundle or package ID.
+- For the **Associated app** field, either select the app from the list of featured apps or add a new one by using an app bundle or package ID.
 
 - Go to **Configuration settings** ("7" in the following screenshot).
 - Add configuration settings ("8" in the following screenshot). 
@@ -177,7 +177,7 @@ Finally, go to **Assignments** and select a group that the policy should be assi
 > [!Note]
 > This configuration will also be available for iOS apps once you authenticate within the app.
 
-### Configuring Windows
+## Configuring Windows
 
 In the Device Management portal: 
 
@@ -214,7 +214,7 @@ Apply your changes and create the profile.
 
 Finally, go to **Assignments** and select a group that the policy should be assigned to.
 
-### Testing
+## Testing
 
 For Android and iOS: 
 
