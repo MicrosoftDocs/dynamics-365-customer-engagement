@@ -14,7 +14,7 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Channels, for example Chat and SMS, are the engagement channels that enable your agents to connect with customers in real-time and provide quick personalized help. Channels can only be subscribed and used if you have an active subscription of Dynamics 365 Customer Service Enterprise in your tenant.
+Channels, for example Chat and SMS, are the engagement channels that enable your agents to connect with customers in real-time and provide quick personalized help. 
 
 There are two options to sign-up for a free 30-day trial of channels:
 
