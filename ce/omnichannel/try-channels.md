@@ -91,8 +91,8 @@ Once a channel is enabled in your organization, you can sign in to Dynamics 365 
 
 The Dynamics 365 Customer Service Digital Messaging Add-on Trial is a free 30-day trial of Chat, SMS, and social channels that you can download from the Microsoft 365 admin center. To try channels, you must have obtained one of the following subscriptions through the Microsoft 365 admin center (that is, Web Direct):
 
--Paid or trial subscription of Dynamics 365 Customer Service Enterprise 
--Paid or trial subscription of Dynamics 365 Customer Engagement 
+- Paid or trial subscription of Dynamics 365 Customer Service Enterprise 
+- Paid or trial subscription of Dynamics 365 Customer Engagement 
 
 If you do not have one of these subscriptions, or if you purchased your subscription somewhere other than Web Direct, then the option to try channels will not be available in the Microsoft 365 admin center.
 
