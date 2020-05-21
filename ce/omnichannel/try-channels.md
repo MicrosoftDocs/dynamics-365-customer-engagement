@@ -56,9 +56,9 @@ With this option, you can get a free 30-day trial of Chat, SMS, and Facebook Mes
    > ![Create your own trial and complete setup](media/create-own-trial.png "Create your own trial and complete setup")
 
     > [!NOTE]
-    > The maximum number of allowed trial instances in a tenant is five. If you already have five trial instances in your tenant, you must delete one instance before creating a new trial.
+    > A tenant can have a maximum of five trial instances. If you already have five trial instances in your tenant, you must delete one instance before creating a new trial.
 
-6. If you are redirected to the applications page, select **Customer Service Hub** to open the application once it is setup.
+6. If you are redirected to the applications page, select **Customer Service Hub** to open the application once it is set up.
 
 7. You will now be able to see the newly created instance in Dynamics 365 Administration Center under the **Instances** tab. The instance type will be set to Trial.
 
@@ -85,7 +85,7 @@ In Dynamics 365 Administration Center, go to the **Applications** tab, select th
 > [!div class=mx-imgBorder]
 > ![Manage Omnichannel application](media/manage-oc-application.png "Manage Omnichannel application")
 
-Once a channel is enabled in your organization, you can sign in to Dynamics 365 organization, and select the Omnichannel Administration application to start configuring the channel. More information on configuring channels in Omnichannel for Customer Service: [Configure a chat channel](administrator/set-up-chat-widget.md), [Configure an SMS channel](administrator/configure-sms-channel.md), and [Configure a Facebook channel](administrator/configure-facebook-channel.md).
+Once a channel is enabled in your organization, you can sign in to the Dynamics 365 organization, and select the Omnichannel Administration application to start configuring the channel. More information on configuring channels in Omnichannel for Customer Service: [Configure a chat channel](administrator/set-up-chat-widget.md), [Configure an SMS channel](administrator/configure-sms-channel.md), and [Configure a Facebook channel](administrator/configure-facebook-channel.md).
 
 ## Option 2: Channels trial through Microsoft 365 admin center
 
