@@ -71,19 +71,19 @@ You can also generate a PDF file and directly email it to a customer.
 
 Here are some FAQs related to the PDF generation capability:
 
-**Question:** What happens if more than one SharePoint document location is associated with a record? 
-**Answer:** If more than one SharePoint document location exists for a record, the generated PDF file is saved to the default location: [<record_name>_<record_id>].
+**Question:** What happens if more than one SharePoint document location is associated with a record? <br>
+**Answer:** If more than one SharePoint document location exists for a record, the generated PDF file is saved to the default location: [<record_name>_<record_id>].<br>
 
-**Question:** Can I specify a different name for the PDF file before generating it?
-**Answer:** No, specifying a different file name is currently not supported.
+**Question:** Can I specify a different name for the PDF file before generating it?<br>
+**Answer:** No, specifying a different file name is currently not supported.<br>
 
-**Question:** Can I choose to save the PDF file to the Sales app as notes or to SharePoint? 
-**Answer:** No, if SharePoint is enabled for the entity for which you are generating a PDF, then the PDF file will be saved to the SharePoint location by default. 
+**Question:** Can I choose to save the PDF file to the Sales app as notes or to SharePoint? <br>
+**Answer:** No, if SharePoint is enabled for the entity for which you are generating a PDF, then the PDF file will be saved to the SharePoint location by default. <br>
 
-**Question:** Is the PDF generation capability available on all entities? 
-**Answer** No. The PDF generation capability is available only on seven out-of-the-box entities: Account, Contact, Lead, Opportunity, Quote, Order, Invoice.
+**Question:** Is the PDF generation capability available on all entities? <br>
+**Answer** No. The PDF generation capability is available only on seven out-of-the-box entities: Account, Contact, Lead, Opportunity, Quote, Order, Invoice.<br>
 
-**Question:** Does the generated PDF file support custom fonts? 
+**Question:** Does the generated PDF file support custom fonts? <br>
 **Answer:** The fonts in the generated file are limited to the fonts installed on the server that generates the PDF documents. Here's a list of supported fonts:
 
 - Microsoft-Windows-Font-Bitmap-Courier
