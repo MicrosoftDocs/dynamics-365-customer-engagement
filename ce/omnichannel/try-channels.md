@@ -78,14 +78,14 @@ If you already have a subscription of Dynamics 365 Customer Service Enterprise o
     > [!div class=mx-imgBorder]
     > ![Power BI (free) subscription](media/powerbi-free.png "Power BI (free) subscription")
 
-### Step 3: Enable Chat, SMS, and Facebook channels in your organization
+### Step 3: Enable Chat, SMS, and social channels in your organization
 
 In Dynamics 365 Administration Center, go to the **Applications** tab, select the **Omnichannel for Customer Service** application and select **Manage**. This will guide you to enable the required channels on one or more instances that you may have. You can enable a channel or multiple channels on any instance type in this step. For more information on provisioning channels through the Dynamics 365 admin center, see [Provision Omnichannel for Customer Service](administrator/omnichannel-provision-license.md).
 
 > [!div class=mx-imgBorder]
 > ![Manage Omnichannel application](media/manage-oc-application.png "Manage Omnichannel application")
 
-Once a channel is enabled in your organization, you can sign in to the Dynamics 365 organization, and select the Omnichannel Administration application to start configuring the channel. More information on configuring channels in Omnichannel for Customer Service: [Configure a chat channel](administrator/set-up-chat-widget.md), [Configure an SMS channel](administrator/configure-sms-channel.md), and [Configure a Facebook channel](administrator/configure-facebook-channel.md).
+Once a channel is enabled in your organization, you can sign in to the Dynamics 365 organization, and select the Omnichannel Administration application to start configuring the channel. For more information about configuring channels in Omnichannel for Customer Service, refer to [Overview of channels](administrator/channels.md).
 
 ## Option 2: Channels trial through Microsoft 365 admin center
 
@@ -103,12 +103,12 @@ If you do not have one of these subscriptions, or if you purchased your subscrip
 
 1. Sign in to [Microsoft 365 admin center](https://admin.microsoft.com) with the global administrator credentials.
 
-2. Go to **Billing** > **Purchase Services**, and select **Add-ons**. 
+2. Go to **Billing** > **Purchase Services**, scroll down, and select **Add-ons**. 
 
     > [!div class=mx-imgBorder]
     > ![Add-on subscriptions in Microsoft 365 admin center](media/digital-trial-add-on.png "Add-on subscriptions in Microsoft 365 admin center")
 
-3. Scroll down to **Add-ons**, and select the required add-on.
+3. Select the required add-on.
     
     > [!div class=mx-imgBorder]
     > ![Dynamics 365 Customer Service Chat Trial option](media/digital-trial-digital-messaging.png "Dynamics 365 Customer Service Digital Trial option")
