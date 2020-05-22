@@ -86,6 +86,10 @@ The identification of a customer happens based on the **Mobile Phone** field pre
 
 The details you'll see for a SMS channel are as configured by your administrator.
 
+## Notification timeout and rerouting of conversations
+
+When you do not accept a chat conversation or miss the notification because of some reason, such as you've closed the browser session or didn't enable the desktop notification, the system waits for eight minutes before rerouting the conversation to another agent or agent queue. If you are the only agent available, the conversation will be rerouted to you only after the timeout period lapses. If you miss the notification, the conversation will be displayed on your dashboard till you initiate a chat or the timeout period lapses.
+
 ### See also
 
 [View customer summary and know everything about customers](oc-customer-summary.md)  
