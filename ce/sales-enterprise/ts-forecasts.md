@@ -125,7 +125,7 @@ To resolve this error, you must enable hierarchy in the **territory_parent_terri
 
 **Reason**
 
-Sometimes, the application displays the **Forecast category** field in opportunity form even after it's been removed from the form through the form customizations.
+Sometimes, the application displays the **Forecast category** field in opportunity form even after it's been configured as invisible by default through the form customizations.
 
 **Resolutions**
 
