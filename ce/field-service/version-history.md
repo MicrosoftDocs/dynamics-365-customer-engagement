@@ -59,8 +59,8 @@ Release For information about other updates to Field Service, visit the [Dynamic
 |<strong>Station 5</strong> | |  |  | |
 | | <i>North America</i> |[8.8.22.57](https://docs.microsoft.com/dynamics365/field-service/version-history#882257)|[8.8.23.52](https://docs.microsoft.com/dynamics365/field-service/version-history#882352)| 06/19/2020
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Goverment Community Cloud</i> |[8.8.11.19](https://docs.microsoft.com/dynamics365/field-service/version-history#881119|[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| 05/29/2020
-| | <i>China</i> |[8.8.11.19](https://docs.microsoft.com/dynamics365/field-service/version-history#881119|[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| 05/29/2020
+| | <i>Goverment Community Cloud</i> |[8.8.11.19](https://docs.microsoft.com/dynamics365/field-service/version-history#881119)|[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| 05/29/2020
+| | <i>China</i> |[8.8.11.19](https://docs.microsoft.com/dynamics365/field-service/version-history#881119)|[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| 05/29/2020
 
 ## 8.8.23.52 
 (Includes Universal Resource Scheduling version [3.12.22.8](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling?branch=master#312228))
