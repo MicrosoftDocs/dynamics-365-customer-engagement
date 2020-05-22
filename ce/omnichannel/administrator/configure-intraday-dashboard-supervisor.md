@@ -4,7 +4,7 @@ description: "How to configure Intraday insights for Unified Service Desk and Om
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 12/27/2019
+ms.date: 05/22/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -72,7 +72,7 @@ You must configure the Power BI workspace using the **Omnichannel Administration
     > [!div class=mx-imgBorder]
     > ![Select Omnichannel Administration](../media/supervisor-admin-select-omnichannel-administration.png "Select Omnichannel Administration")
 
-2.  From the **Site Map** ![Site map icon](../media/oc-usd-supervisor-dashboard-site-map.png "Site map icon"), select **Supervisor Experience** > **Overview Dashboard**.  
+2.  From the **Site Map** ![Site map icon](../media/oc-usd-supervisor-dashboard-site-map.png "Site map icon"), select **Supervisor Experience** > **Intraday Insights**.  
 
     > [!div class=mx-imgBorder]
     > ![Select Overview option](../media/supervisor-admin-select-overview-dashboard.png "Select Overview option")
