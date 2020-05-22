@@ -6,11 +6,11 @@
 # Installation + upgrade
 ## [Field Service installation (web + mobile)](install-field-service.md)
 ## [Upgrade Field Service](upgrade-field-service.md)
+## [Preview new features](field-service-preview.md)
 
 # Administration
 ## [Work order process architecture](field-service-architecture.md)
-## [Sample data installation (app version 8.x)](install-sample-data-8-x.md)
-## [Sample data installation (earlier app versions)](use-demo-data.md)
+## [Sample data installation](install-sample-data-8-x.md)
 ## [Initial configuration](perform-initial-configurations-setup.md)
 ## [Set up users and security roles](view-user-accounts-security-roles.md)
 ## [Priorities](set-priorities.md)
@@ -31,9 +31,11 @@
 ## [Add account details to a work order](work-order-customer-account.md)
 ## [Work order types](create-work-order-types.md)
 ## [Price list](create-price-list.md)
-## [Create a product or service](create-product-or-service.md)
+## [Products and services](create-product-or-service.md)
 ## [Service task types](set-up-service-task-types.md)
+## [Inspections](inspections.md)
 ## [Work order templates (incident types)](configure-incident-types.md)
+## [Work order summary reports (preview)](reports.md)
 
 # Bookable resources
 ## [Set up bookable resources](set-up-bookable-resources.md)
@@ -93,6 +95,7 @@
 ## [Device and app management with Microsoft Intune](field-service-mobile-intune.md)
 ## [Geofencing](geofencing.md)
 ## [Deep linking](mobile-deeplink.md)
+## [Field Service (Dynamics 365) mobile app](mobile-2020-power-platform.md)
 ## FAQs + troubleshooting
 ### [Frequently asked questions](mobile-faq.md)
 ### Troubleshooting topics
@@ -149,6 +152,7 @@
 #### [2 - Associate devices with customer accounts](cfs-iot-central-associate-devices.md)
 #### [3 - Send work order updates to Azure IoT Central](cfs-iot-central-work-orders.md)
 #### [4 - Send booking updates to Azure IoT Central](cfs-iot-central-bookings.md)
+### [Receive IoT alerts from real MXChip device](cfs-iotcentral-mxchip.md)
 ## Connected Field Service for Azure IoT Hub
 ### [Overview](developer/connected-field-service-developer-guide.md)
 ### [Architecture](developer/connected-field-service-architecture.md)
@@ -169,8 +173,11 @@
 ## [SAP integration](field-service-sap-integration.md)
 
 # Additional resources
-## [Version history (web + mobile)](version-history.md)
-## [Bug fixes](bug-fixes.md)
+## Version history (web + mobile)
+### [Field Service](version-history.md)
+### [Field Service Mobile](field-service-version-history-mobile.md)
+### [Universal Resource Scheduling](field-service-version-history-resource-scheduling.md)
+### [Resource Scheduling Optimization](field-service-version-history-resource-scheduling-optimization.md)
 ## [AppSource add-ins for Field Service](appsource-addins.md)
 
 # [Troubleshoot with Solution Health Hub](troubleshoot-field-service-solution-health.md)

@@ -1,7 +1,7 @@
 ---
 title: "Use OneDrive for Business to manage your private documents (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
-ms.date: 9/15/2019
+ms.date: 05/05/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -21,9 +21,11 @@ search.app:
 ---
 # Use OneDrive for Business to manage your private documents
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Use OneDrive for Business](/powerapps/user/one-drive)
+
 With Customer Engagement (on-prem), you can use the right storage option for the right situation. For example, store your private documents using the new [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] option. For collaborative storage, you can use [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)], and for public documents use [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)].  
   
- You might use [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] to start and work on a document privately such as for a draft sales pitch. When the draft is far enough along, move it to an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] group for team collaboration. You have lots of storage space (1 TB or more) with [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] and documents stored there are automatically synced to your desktop and mobile devices. For example, if you put a presentation in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] that’s stored on [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] linked with an opportunity, that presentation is synced to all devices running [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)].  
+ You might use [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] to start and work on a document privately such as for a draft sales pitch. When the draft is far enough along, move it to an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] group for team collaboration. You have lots of storage space (1 TB or more) with [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] and documents stored there are automatically synced to your desktop and mobile devices. For example, if you put a presentation in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] that's stored on [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] linked with an opportunity, that presentation is synced to all devices running [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)].  
   
 > [!TIP]
 > [![Video symbol](../basics/media/video-button.png "Video symbol")](https://go.microsoft.com/fwlink/p/?LinkId=404225) Check out the following video: [Find information fast with Dynamics 365 Customer Engagement (on-premises) (2:39)](https://go.microsoft.com/fwlink/p/?linkid=837816).  
@@ -37,7 +39,7 @@ With Customer Engagement (on-prem), you can use the right storage option for the
 > [!INCLUDE[cc_feature_requires_office_365](../includes/cc-feature-requires-office-365.md)]  
   
 ## The first time you view your documents  
- After [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] is enabled, you’ll see the following dialog box when you go to a document list to view documents in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and upload a file to [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] or change the document location to [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)].  
+ After [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] is enabled, you'll see the following dialog box when you go to a document list to view documents in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and upload a file to [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] or change the document location to [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)].  
   
  ![Change your OneDrive folder](../basics/media/onedrive-first-time.png "Change your OneDrive folder")  
   
@@ -97,11 +99,11 @@ With Customer Engagement (on-prem), you can use the right storage option for the
 ## Considerations  
  Be aware of the following regarding [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   
-- [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] storage folders are created in the user’s current [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] language. If the language changes, new folders will be created in the new language. Old folders will remain in the previous language.  
+- [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] storage folders are created in the user's current [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] language. If the language changes, new folders will be created in the new language. Old folders will remain in the previous language.  
   
-- Folders aren’t supported. Documents in shared folders won’t appear in the document grid.  
+- Folders aren't supported. Documents in shared folders won't appear in the document grid.  
   
-- There may be a delay between when the documents are shared in [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] and when they’re available to other users.  
+- There may be a delay between when the documents are shared in [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] and when they're available to other users.  
   
 ### See also  
  [What is OneDrive for Business?](https://support.office.com/article/What-is-OneDrive-for-Business-187f90af-056f-47c0-9656-cc0ddca7fdc2)   

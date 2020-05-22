@@ -68,6 +68,8 @@ To learn more, see [Entity records channel](entity-channel.md).
 
 ## License requirements
 
+An active subscription of Dynamics 365 for Customer Service Digital Messaging is required for SMS, social channels, Microsoft Teams, and custom messaging.
+
 You can get the Chat for Dynamics 365 Customer Service with either of the add-on license:
 
 - [Chat for Dynamics 365 Customer Service](https://dynamics.microsoft.com/customer-service/overview/#pricing)

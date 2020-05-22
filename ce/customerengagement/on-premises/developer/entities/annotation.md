@@ -1,7 +1,7 @@
 ---
 title: "Annotation Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Annotation entity."
-ms.date: 04/02/2019
+ms.date: 05/19/2019
 ms.service: "crm-online"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
@@ -18,6 +18,8 @@ search.app:
 
 Note that is attached to one or more objects, including other notes.
 
+> [!NOTE]
+> Any customization should not block the write operation on this entity, as this is internally used by Omnichannel for Customer Service.
 
 ## Messages
 

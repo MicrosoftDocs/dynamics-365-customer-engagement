@@ -6,7 +6,7 @@ ms.author: lalexms
 manager: shujoshi
 applies_to: 
   - ""
-ms.date: 04/07/2020
+ms.date: 04/29/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -45,6 +45,14 @@ After you enable real-time customer sentiment, you can view scores in the [Omnic
 
 > [!NOTE]
 > In the preview mode, this feature is not available for Government Community Cloud (GCC).
+
+#### Prerequisite task
+
+In the customization settings of Omnichannel Administration, enable change tracking for the **Conversation Sentiment** entity.
+
+![Enable change tracking](../media/change-tracking-sentiment-drivers.png "Enable change tracking")
+
+#### Enable sentiment drivers reporting
 
 After you opt in for real-time sentiment analysis, you can enable sentiment drivers reporting to gain a better understanding of the topics that are affecting customer sentiment.
 
@@ -98,7 +106,6 @@ You can show notifications to the supervisors when a customer's sentiment decrea
 - Very negative
 
 For example, you set the threshold value as **Slightly negative**. When the customer's sentiment reaches **Slightly negative** or any other sentiment value below this, a notification is displayed to the supervisor.
-
 
 1. Sign in to **Omnichannel Administration**.
 

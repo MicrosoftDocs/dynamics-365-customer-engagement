@@ -1,7 +1,7 @@
 ---
 title: "What are business processes? (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/15/2017
+ms.date: 05/05/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -20,13 +20,15 @@ search.app:
 ---
 # What are business processes?
 
-Dynamics 365 Customer Engagement (on-premises) is “process-driven.” But what does that mean?  
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Work with business processes](/powerapps/user/work-with-business-processes)
+
+Dynamics 365 Customer Engagement (on-premises) is "process-driven." But what does that mean?  
   
- Everyone on your team moves customers through standardized business processes with the same stages and steps for each type of customer interaction, collecting and inputting important data along the way. Business processes help everyone follow best practices, even when handling situations that don’t occur very often. You complete a step by entering data or marking the step completed in the process bar at the top of the screen. When all the steps are done, you can move on to the next stage.  
+ Everyone on your team moves customers through standardized business processes with the same stages and steps for each type of customer interaction, collecting and inputting important data along the way. Business processes help everyone follow best practices, even when handling situations that don't occur very often. You complete a step by entering data or marking the step completed in the process bar at the top of the screen. When all the steps are done, you can move on to the next stage.  
   
  For example, your organization might have a business process to handle a new sales opportunity by first qualifying whether the person has the budget to buy, and then developing the opportunity by talking with a stakeholder. Next, you send a sales proposal, and finally you close the opportunity as won when the customer places the order.  
   
- In this example, the business process bar for new opportunities shows you the four stages to follow (**Qualify**, **Develop**, **Propose**, and **Close**), where you are in the process, and what to do next, so there’s no guesswork.  
+ In this example, the business process bar for new opportunities shows you the four stages to follow (**Qualify**, **Develop**, **Propose**, and **Close**), where you are in the process, and what to do next, so there's no guesswork.  
   
  ![What is a business process](../basics/media/what-is-a-business-process.png "What is a business process")  
   

@@ -6,7 +6,7 @@ author: mduelae
 applies_to: Dynamics 365 Customer Engagement (on-premises)
 ms.author: mkaur
 manager: kvivek
-ms.date: 09/15/2018
+ms.date: 05/05/2020
 ms.topic: article
 ms.assetid: bb4e7609-3e32-46b3-8b19-ce700f99715c
 search.audienceType: 
@@ -16,9 +16,10 @@ search.app:
 ---
 # Find your way around Dynamics 365 Customer Engagement (on-premises)
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Basic navigation in a model-driven app](/powerapps/user/navigation)
  
 
- When you open an app, you’ll see tiles and icons (called a *sitemap*) for that app. Use the icons to access different types of information relevant to that role.  
+ When you open an app, you'll see tiles and icons (called a *sitemap*) for that app. Use the icons to access different types of information relevant to that role.  
   
  The following illustrations describe the sitemaps for the  Sales, Customer Service, and Customer Engagement (on-premises) – Custom apps.  
   
@@ -30,7 +31,7 @@ search.app:
   
  **1**. **Dashboards** collect all your most important data in one place. You can select from several dashboards for your role.  
   
- **2**. Monitor real-time updates in **What’s New** on your dashboard. Stay current on fast-moving sales, customer projects, and marketing campaigns in your organization.  
+ **2**. Monitor real-time updates in **What's New** on your dashboard. Stay current on fast-moving sales, customer projects, and marketing campaigns in your organization.  
   
  **3**. Keep track of tasks, email messages, appointments, phone calls, and more in **Activities**.  
   
@@ -38,7 +39,7 @@ search.app:
   
  **5**. Store info about the people you work with in **Contacts**.  
   
- **6**. Use **Leads** to keep track of business prospects you haven’t yet qualified through your sales process.  
+ **6**. Use **Leads** to keep track of business prospects you haven't yet qualified through your sales process.  
   
  **7**. **Opportunities** are leads who are almost ready to buy.  
   
@@ -85,11 +86,11 @@ search.app:
   
  **6**. Track your customer requests and issues in **Cases**.  
   
- **7**. Use the **Service Calendar** to view your organization’s daily, weekly, and monthly schedule of appointments and service activities.  
+ **7**. Use the **Service Calendar** to view your organization's daily, weekly, and monthly schedule of appointments and service activities.  
   
  **8**. Check **Queues** to see the cases waiting for you to work on.  
   
- **9**. View the list of your company’s **Products** when you’re working on customer service cases.  
+ **9**. View the list of your company's **Products** when you're working on customer service cases.  
   
  **10**. Tracks the specifics of **Services** provided by your business.  
   
@@ -114,7 +115,7 @@ search.app:
   
  **7**. Use **Customizations** to make Dynamics 365 Customer Engagement (on-premises) work the way your business does: add or remove fields, create or customize forms, reports, views, dashboards, charts, and more.  
   
- **8**. It’s a best practice to keep your customizations separate from the default solution. Create and manage your **Solutions** here.  
+ **8**. It's a best practice to keep your customizations separate from the default solution. Create and manage your **Solutions** here.  
   
  **9**.  Go to the **Dynamics Marketplace** to find industry-specific apps on App Source.  
   
@@ -134,7 +135,7 @@ search.app:
   
  **17**. Use **Email Configuration** to integrate Outlook or web mail systems with Dynamics 365 Customer Engagement (on-premises). You can also manage and monitor mailboxes from here.  
   
- **18**. Users can stay up-to-date on what’s happening in your organization by using **Activity Feeds**. This is where you can administer them. But consider Yammer integration as an alternative to Activity Feeds.  
+ **18**. Users can stay up-to-date on what's happening in your organization by using **Activity Feeds**. This is where you can administer them. But consider Yammer integration as an alternative to Activity Feeds.  
   
  **19**. Use **Activity Feeds Rules** to specify when posts will automatically be created for followed records.  
   

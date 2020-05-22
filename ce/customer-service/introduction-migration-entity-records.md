@@ -44,11 +44,11 @@ Consider the following scenarios before you begin migration:
 
 3. In the **Dynamics 365 Administration Center**, under the **Instances** tab, select an instance type from the drop-down.
 
-4. select the edit icon next to solutions. Manage your solutions page appears.
+4. Select the edit icon next to solutions. The **Manage your solutions** page appears.
 
-5. In the **Manage your solutions** page, select **Service Scheduling Migration**. The status column shows Not installed.
+5. In the **Manage your solutions** page, select **Service Scheduling Migration**. The status column shows **Not installed**.
 
-6. Select the install icon next on the **Service Scheduling Migration** card. The Terms of service page appears.
+6. Select the install icon next on the **Service Scheduling Migration** card. The **Terms of service** page appears.
 
 7. In the **Terms of service** page, read the terms and conditions and then select **Install**. The installation may take few minutes.
 

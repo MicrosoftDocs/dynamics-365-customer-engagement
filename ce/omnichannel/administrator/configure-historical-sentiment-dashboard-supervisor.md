@@ -6,7 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 applies_to: 
   - ""
-ms.date: 04/07/2020
+ms.date: 05/11/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -21,11 +21,11 @@ ms.custom:
 Customer service managers or supervisors are responsible for managing agents who work to resolve customer queries every day through various service channels. They need to know key operational metrics to ensure that their agents are providing quality support. Omnichannel Insights consists of channels and sentiment analysis dashboards that can help with this.
 
 > [!IMPORTANT]
-> The supervisor dashboards that are based on Power BI, such as Omnichannel Insights and Sentiment Analysis, are not available on Government Community Cloud (GCC).
+> The supervisor dashboards that are based on Power BI, such as Omnichannel Insights and sentiment analysis, are not available on Government Community Cloud (GCC).
 
 ## Configure Omnichannel Insights
 
-As an administrator, you must configure Omnichannel Insights to display channels and sentiment analysis dashboards in the Omnichannel for Customer Service app. To configure Omnichannel Insights, follow these steps:
+As an administrator, you must download the Omnichannel Insights for Dynamics 365 app and configure it to display channels and sentiment analysis dashboards in the Omnichannel for Customer Service app. To configure Omnichannel Insights, follow these steps:
 
 [Step 1: Review prerequisites](#step-1-review-prerequisites)
 
@@ -47,8 +47,8 @@ Review the following prerequisites before configuring the dashboard:
 - You have a Power BI Pro license for all supervisors.
 - You must enable embedding of Power BI reports in Dynamics 365 Customer Service.
 
-  1.  Sign in to **Dynamics 365 Customer Service** and go to **Settings** > **Administration** > **System Settings**.
-  2.    Go to the **Reporting** tab and select **Yes** for **Allow Power BI visualization embedding**.
+  1. Sign in to **Dynamics 365 Customer Service** and go to **Settings** > **Administration** > **System Settings**.
+  2. Go to the **Reporting** tab and select **Yes** for **Allow Power BI visualization embedding**.
 
         > [!div class=mx-imgBorder]
         > ![Enable Power BI visualization embedding](../media/supervisor-admin-enable-powerbi.png "Enable Power BI visualization embedding")
@@ -78,7 +78,7 @@ Review the following prerequisites before configuring the dashboard:
 
 ### Step 2B: Configure existing Omnichannel Insights for Dynamics 365 app
 
-If a previous version of Omnichannel Insights was installed, we strongly recommend that you install the latest version of Omnichannel Insights to avoid losing any customization. 
+If a previous version of Omnichannel Insights was installed, we strongly recommend that you install the latest version of Omnichannel Insights to avoid losing any customization.
 
 1. During the Omnichannel Insights app installation, the following appears:
 
@@ -151,14 +151,14 @@ Omnichannel Insights reports and dashboards will refresh daily.
 
 You must share the configured application with your entire organization for supervisors to view the **Omnichannel Insights** dashboards and reports with their own **Power BI Pro** accounts.
 
-1.    On the App workspace, select **Update app** to open the Update app wizard. 
+1. On the App workspace, select **Update app** to open the Update app wizard. 
 
     > [!div class=mx-imgBorder]
     > ![Select Update app](../media/oc-config7.png "Select Update app")
 
-2.    On the **Update app** wizard, go to the **Access** tab.
+2. On the **Update app** wizard, go to the **Access** tab.
 
-3.    Choose **Entire organization** and select **Update app**.
+3. Choose **Entire organization** and select **Update app**.
 
     > [!div class=mx-imgBorder]
     > ![Select Entire organization option on Access tab](../media/oc-config8.png "Select Entire organization option on Access tab")
@@ -176,7 +176,7 @@ Each supervisor must configure their Dynamics 365 Customer Service environment t
 
 2. Select **Overview Dashboard** under **Supervisor Experience**.
 
-3.    Select **New** and then select **Power BI Dashboard**.
+3. Select **New** and then select **Power BI Dashboard**.
 
     > [!div class=mx-imgBorder]
     > ![Select Power BI Dashboard option](../media/oc-config13.png "Select Power BI Dashboard option")
@@ -187,9 +187,9 @@ Each supervisor must configure their Dynamics 365 Customer Service environment t
     > [!div class=mx-imgBorder]
     > ![Make selections in the Workspace and Dashboard fields](../media/oc-config14.PNG "Make selections in the Workspace and Dashboard fields")
 
-5.    Save and close.
+5. Save and close.
 
-6.    Repeat Steps 3–5 to add Omnichannel Insights - Sentiment Analysis dashboard.
+6. Repeat Steps 3–5 to add Omnichannel Insights - Sentiment Analysis dashboard.
 
     > [!div class=mx-imgBorder]
     > ![Add Sentiment Analysis dashboard](../media/oc-config15.PNG "Add Sentiment Analysis dashboard")
@@ -223,11 +223,11 @@ You must add users to the supervisor configuration to access any supervisor dash
 ## Customize Omnichannel Insights
 
 > [!IMPORTANT]
-> Microsoft does not support customizations made to the Power BI template app and does not provide updates once modifications are made. 
+> Microsoft does not support customizations made to the Power BI template app and does not provide updates after modifications are made.
 
-Power BI is a comprehensive collection of services and tools that are used to visualize business data. The Power BI Template apps make it easy to visualize and analyze the Omnichannel Insights data with Power BI based on a standard data model. 
+Power BI is a comprehensive collection of services and tools that are used to visualize business data. The Power BI Template apps make it easy to visualize and analyze the Omnichannel Insights data with Power BI based on a standard data model.
 
-The Omnichannel Insights template app is built with a set of entities and fields that are useful for most reporting scenarios. Dynamics 365 apps are often extended with custom fields. These custom fields don't automatically show up in the Power BI model. 
+The Omnichannel Insights template app is built with a set of entities and fields that are useful for most reporting scenarios. Dynamics 365 apps are often extended with custom fields. These custom fields don't automatically show up in the Power BI model.
 
 The following shows you how edit and extend the report included in the template app to include custom fields in the Power BI model.
 
@@ -263,21 +263,20 @@ Before customizing the template app, read the following information and perform 
 
 8. Select **Close & Apply** in Query Editor.
 
-9. When the 'Access an OData feed' appears, select **Organizational account**.
+9. When the "Access an OData feed" appears, select **Organizational account**.
 
 10. Select **Sign in**.
 
      > [!div class=mx-imgBorder]
      > ![Add user to supervisor configuration](../media/oc-config17.PNG "Add user to supervisor configuration")
 
-11.    When the sign-in field appears, enter your credentials to authenticate to your instance.
+11. When the sign-in field appears, enter your credentials to authenticate to your instance.
 
-12.    In the **Access an OData feed** dialog, select **Connect**.
+12. In the **Access an OData feed** dialog, select **Connect**.
 
     Queries are updated. This might take several minutes.
 
 ### See also
 
-[Introduction to Omnichannel Insights dashboard](../supervisor/intro-dynamics-365-omnichannel-insights-dashboard.md)
-
-[View and understand Omnichannel Insights dashboards](../supervisor/omnichannel-insights-dashboard.md)
+[Introduction to Omnichannel Insights dashboard](../supervisor/intro-dynamics-365-omnichannel-insights-dashboard.md)  
+[View and understand Omnichannel Insights dashboards](../supervisor/omnichannel-insights-dashboard.md)  

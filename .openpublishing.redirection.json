@@ -1,6 +1,16 @@
 {
   "redirections": [
     {
+      "source_path": "ce/customerengagement/on-premises/deploy/connect-dynamics-365-on-premises-exchange-online.md",
+      "redirect_url": "../admin/connect-dynamics-365-on-premises-exchange-online",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/mobile-app/v8/go-mobile/get-started/sign-in-out.md",
+      "redirect_url": "email-sign-in",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/marketing/spam-score.md",
       "redirect_url": "spam-checker",
       "redirect_document_id": "false"
@@ -488,6 +498,16 @@
     {
       "source_path": "ce/field-service/set-up-payment-terms.md",
       "redirect_url": "inventory-purchasing-returns-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/bug-fixes.md",
+      "redirect_url": "version-history",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/use-demo-data.md",
+      "redirect_url": "install-sample-data-8-x",
       "redirect_document_id": "false"
     },
     {
@@ -17884,6 +17904,11 @@
     {  
       "source_path": "ce/sales-professional/use-lookup-fields-forms.md",
       "redirect_url": "https://docs.microsoft.com/powerapps/user/lookup-field",
+      "redirect_document_id": false
+    },
+    {  
+      "source_path": "ce/customer-service/install-routing-rules-preview-solution.md",
+      "redirect_url": "create-rules-automatically-route-cases",
       "redirect_document_id": false
     }
   ]

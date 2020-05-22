@@ -1,7 +1,7 @@
 ---
 title: "Service insights reports (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/15/2017
+ms.date: 05/05/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -40,9 +40,9 @@ This will improve your product and drive support calls down.
 
 <a name="BKMK_NeglectedCases"></a>
 ## Neglected Cases report
-Improve your service team’s KPIs and get your cases closed. Quickly identify and take action on cases that haven’t been updated recently. The report also shows the name of the service agent assigned to the case - use this information to follow-up with your team and to start resolving these cases.  
+Improve your service team's KPIs and get your cases closed. Quickly identify and take action on cases that haven't been updated recently. The report also shows the name of the service agent assigned to the case - use this information to follow-up with your team and to start resolving these cases.  
   
- When you run the report, choose the number of days that cases haven’t been updated. The report shows a list of open cases that have no changes to activities, including scheduled activities and notes.  
+ When you run the report, choose the number of days that cases haven't been updated. The report shows a list of open cases that have no changes to activities, including scheduled activities and notes.  
   
  ![Neglected Cases report in Dynamics 365 Customer Engagement (on-premises)](../basics/media/negected-cases-report.png "Neglected Cases report in Dynamics 365 Customer Engagement (on-premises)")  
 
@@ -54,7 +54,7 @@ Use this report to review the patterns in service activity volume.
   
 <a name="BKMK_TopKB"></a>
 ## Top knowledge base articles report
-The information in the report helps you identify which issues your customers are asking about so that you can address those problems and improve your product or service. When a service agent receives a support call or email, the agent searches the knowledge base to see if there is a KB article that can answer the customer’s question. This report tells you which of those KB articles are being used the most.  
+The information in the report helps you identify which issues your customers are asking about so that you can address those problems and improve your product or service. When a service agent receives a support call or email, the agent searches the knowledge base to see if there is a KB article that can answer the customer's question. This report tells you which of those KB articles are being used the most.  
   
  You can change the **Group by** filter to see knowledge base articles grouped by subject of the article or case, or by the product associated with the case.  
   

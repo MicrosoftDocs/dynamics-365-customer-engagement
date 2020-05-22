@@ -6,7 +6,7 @@ author: ReneeW-CPub
 applies_to: Dynamics 365 Customer Engagement (on-premises)
 ms.author: renwe
 manager: renwe
-ms.date: 09/15/2019
+ms.date: 05/05/2020
 ms.topic: article
 ms.service: dynamics-365-cross-app
 ms.assetid: 5424660b-743b-434f-9993-fb64ae4e776a
@@ -18,6 +18,8 @@ search.app:
   - D365CE
 ---
 # Use a screen reader in Unified Interface apps in Dynamics 365 Customer Engagement (on-premises)
+
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Use a screen reader](/powerapps/user/screen-reader)
 
 Screen readers make Dynamics 365 Customer Engagement (on-premises) accessible to people who have low or no vision or may need some extra support for a temporary scenario, such as eye fatigue. Commonly used screen readers such as Narrator, JAWS, and NVDA are supported. 
 
@@ -39,7 +41,7 @@ Although you can use a screen reader anywhere in Dynamics 365 Customer Engagemen
 Use the [app switcher](where-find-business-apps.md) in Dynamics 365 Customer Engagement (on-premises) to open a Unified Interface app.
 
 1.  On the navigation bar, use the **Tab** key to move to the Dynamics 365 Customer Engagement (on-premises) drop-down control and press **Enter** to open the site map.
-2.  Press the **Tab** key until you hear the name of the application you want to open—for example, “Sales Hub.” Press **Enter** to open the app.
+2.  Press the **Tab** key until you hear the name of the application you want to open—for example, "Sales Hub." Press **Enter** to open the app.
 
 ### Use scan mode in Narrator
 You can use scan mode to quickly navigate Dynamics 365 Customer Engagement (on-premises) using the arrow keys and common keyboard shortcuts. Quickly jump to headings, links, landmarks, form fields, controls, and tables in this mode. Turn scan mode on and off by pressing **Caps lock+Spacebar**. More information: [Using scan mode](https://support.microsoft.com/help/22809/windows-10-narrator-using-scan-mode).
@@ -48,24 +50,24 @@ You can use scan mode to quickly navigate Dynamics 365 Customer Engagement (on-p
 We have made Dynamics 365 Customer Engagement (on-premises) that are based on Unified Interface more consistent and reliable with screen readers. This includes working with screen readers on grids, forms, charts, streams, and business process flows. 
 
 #### Navigation bar
-When you open a Unified Interface app, a vertical bar with subarea icons is displayed at the left side of the application. You can either use the **Tab** key to move through these icons until you hear the name of the subarea you want, such as “Opportunities,” or you can use the site map control. For example, press the **Tab** key until you hear “Accounts” and then press **Enter** to open the Accounts view.
+When you open a Unified Interface app, a vertical bar with subarea icons is displayed at the left side of the application. You can either use the **Tab** key to move through these icons until you hear the name of the subarea you want, such as "Opportunities," or you can use the site map control. For example, press the **Tab** key until you hear "Accounts" and then press **Enter** to open the Accounts view.
 
 #### Grids
 Screen readers navigate grids more reliably and consistently, and announce row and column headings, as well as the position within the grid. When you first open a grid, the default tab stop is the view selector. 
 
 Whenever you enter a cell within the grid from outside of the grid, Narrator announces the name of the table, the row and column counts, and the position of your cursor within the table.
 
-If your cursor is within the table header, quickly navigate between headers by using **Tab** or **Shift+Tab**. Narrator will announce the name of each header as you enter the header cell. It also announces the type of cell (for example, “column header”), the location of the column (for example, “column 1 of 6”), and whether the column is sorted or selected. If you press the **Enter** key in a table header, it will sort the table by that column. Narrator announces the sort order, and you can press **Enter** again to change the order.
+If your cursor is within the table header, quickly navigate between headers by using **Tab** or **Shift+Tab**. Narrator will announce the name of each header as you enter the header cell. It also announces the type of cell (for example, "column header"), the location of the column (for example, "column 1 of 6"), and whether the column is sorted or selected. If you press the **Enter** key in a table header, it will sort the table by that column. Narrator announces the sort order, and you can press **Enter** again to change the order.
 
 When you move out of the last column in the table, the cursor moves to the second row of the grid, and from this point, you must use the Up and Down arrow keys to navigate between the non-header cells. If you instead press the **Tab** key again, your cursor will move to the next interactive element, typically the table filter list. When moving between non-header row cells, Narrator announces the column name, the location of the column, and text within the cell.
 
 #### Forms
 Multiple navigation modes are available for navigating a form using Narrator, with the most common modes being landmarks, headings, and form fields. To change the navigation mode, press **Caps lock+Up arrow**. Hold the Caps lock key down while pressing the Up arrow key to cycle through the modes until you hear the mode you want to use. Then use Caps lock + the Left/Right arrow keys to navigate through the various items. For example, if you want to go to the Last Name field in the Contact Information section of a Contact, do the following:
 
-1.  Press and hold the **Caps lock** key and press the **Up arrow** key until you hear “Landmarks.”
-2.  Press and hold the **Caps lock** key and press the **Right arrow** key until you hear “Contact information.”
-3.  Change the mode by pressing and holding the **Caps lock** key and pressing the **Up arrow** key until you hear “Form Fields.”
-4.  Navigate to the Last Name field by using Caps lock + the Left/Right arrow keys until you hear “Last Name.” Narrator also announces the control type, value, state, and any special instructions for the field.
+1.  Press and hold the **Caps lock** key and press the **Up arrow** key until you hear "Landmarks."
+2.  Press and hold the **Caps lock** key and press the **Right arrow** key until you hear "Contact information."
+3.  Change the mode by pressing and holding the **Caps lock** key and pressing the **Up arrow** key until you hear "Form Fields."
+4.  Navigate to the Last Name field by using Caps lock + the Left/Right arrow keys until you hear "Last Name." Narrator also announces the control type, value, state, and any special instructions for the field.
 
 You can also use the Tab key to quickly navigate to interactive elements on the form. Some form fields have an icon that will perform the default action when you press Ctrl+Enter. For example, an email form field might have an envelope icon that opens an email editor. 
 
@@ -76,7 +78,7 @@ You can navigate through the dashboard charts using the Tab key and Caps lock + 
 > You must have the latest [Windows 10](https://www.microsoft.com/enable/products/windows10/default.aspx) Update installed to have all of the accessibility features available for charts.
 
 #### Interactive Dashboard Streams
-You can use the **Tab** key or **Shift+Tab** keys to move between interactive dashboard streams, such as found in the Accounts dashboard, or just change the navigation mode until you hear “Headings” and then use the **Tab** key to quickly move between dashboard streams.
+You can use the **Tab** key or **Shift+Tab** keys to move between interactive dashboard streams, such as found in the Accounts dashboard, or just change the navigation mode until you hear "Headings" and then use the **Tab** key to quickly move between dashboard streams.
 
 To navigate through each element of a dashboard stream, use the Up/Down arrow keys. Narrator will read the type of control and the title of the control.
 

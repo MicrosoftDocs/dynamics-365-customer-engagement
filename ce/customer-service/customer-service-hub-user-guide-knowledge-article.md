@@ -4,7 +4,7 @@ description: Understand Knowledge Management in Customer Service Hub for Custome
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
-ms.date: 04/13/2020
+ms.date: 05/15/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -30,6 +30,8 @@ Knowledge articles can address any number of issues your customers encounter whi
 > [!IMPORTANT]
 > Knowledge management is available out-of-the-box through the Customer Service Hub app module, and it can work with other customer apps as well. The articles that are created in the Customer Service Hub will be available in the Dynamics 365 Customer Service app as read-only records.  
 
+> [!NOTE]
+> The entities `KBArticle`, `KBArticleTemplate` and `KBArticleComment` are now deprecated. This means that we do not expect you to use these entities anymore. You must use the newer `KnowledgeArticle` entity for knowledge management in Dynamics 365 Customer Service. More information: [Work with Knowledge articles](work-knowledge-articles.md).
 
 ## Knowledge management process  
  The following diagram describes the default process for creating and using knowledge articles in the Customer Service Hub. Create an article and mark it for review. The reviewer can approve or reject the article. If the article is rejected, it is sent back for edits or updates. If the article is approved, it is published on the portal. It is also available in search and can also be translated.

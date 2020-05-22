@@ -24,6 +24,7 @@
 #### [Manage Marketing instances](manage-marketing-instances.md)
 #### [Transfer data between instances](transfer-data.md)
 #### [Transfer customizations between instances](transfer-solution.md)
+#### [Tenant to tenant migration](tenant-to-tenant.md)
 #### [Keep Marketing up to date](apply-updates.md)
 #### [Uninstall Marketing](uninstall-marketing.md)
 
@@ -69,9 +70,11 @@
 
 ### Privacy and compliance
 #### [Data protection and GDPR](gdpr.md)
-#### [Set up double opt-in](double-opt-in.md)
+#### [Set up global double opt-in](double-opt-in.md)
+#### [Set up form double opt-in](form-double-opt-in.md)
 #### [How the app uses cookies](cookies.md)
 
+### [Best practices for administration](admin-best-practices.md)
 ### [Best practices for email marketing](get-ready-email-marketing.md)
 ### [Email policies and suspension standards](email-policies.md)
 ### [Administration and setup FAQ](setup-troubleshooting.md)
@@ -254,3 +257,5 @@
 ### [Metadata reference for your organization](developer/marketing-organization-metadata.md)
 #### [Dynamics 365 Marketing solutions](developer/marketing-solutions.md)
 #### [Dynamics 365 Marketing entity reference](developer/marketing-entity-reference.md)
+
+## [Troubleshoot with Solution Health Hub](troubleshoot-marketing-solution-health.md)
