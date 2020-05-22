@@ -264,6 +264,7 @@
 #### [Build a custom smart assist bot](developer/how-to/smart-assist-bot.md)
 #### [Bring your own channel](developer/how-to/bring-your-own-channel.md)
 #### [Customize chat widget](developer/how-to/customize-chat-widget.md)
+#### [Enable third-party co-browse](developer/how-to/third-party-co-browse.md)
 ### Entity reference
 #### [Overview](developer/reference/entities/overview.md)
 #### [Deprecated entities](developer/reference/entities/deprecated-entities.md)
