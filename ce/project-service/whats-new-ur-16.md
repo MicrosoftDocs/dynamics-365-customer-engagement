@@ -24,7 +24,7 @@ search.app:
 ---
 
 
-# Project Service Automation V3, Update Release 16
+# Project Service Automation Update Release 16, V3
 
 We’re pleased to announce the latest update for the Project Service Automation
 application for Dynamics 365. This release includes some important improvements
