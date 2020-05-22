@@ -37,7 +37,7 @@ This topic lists the features and fixes that are new or changed for PSA V3, Upda
 The following issues have been fixed:
 
 - Importing project team members with an allocation method that requires hours results in an unclear error message when the specified hours are zero.
-- Users receive an incorrect error when the maximum number of characters have been entered into the **Description** field.
+- Users receive an incorrect error when the maximum number of characters have been entered into the **Description** field for a project task.
 - The **Microsoft Dynamics 365 Project Service Automation add-in download** page redirects to the English download page when the user’s language settings are in Japanese.
 - When a server error occurs, the synchronization label on the **Schedule** tab of the **Projects** form, sometimes remains.
 - Redundant task updates are being sent to the server when a task is modified.
@@ -46,7 +46,7 @@ The following issues have been fixed:
 
 The following issues have been fixed:
 
-- Double-clicking on **Create Invoice** creates 2 invoices for a single Actuals record.
+- On the **Contract** form, double-clicking on **Create Invoice** creates two invoices for a single Actuals record.
 - In Internet Explorer 11, user are unable to create expense entries.
 - Reversal of Cost and reversal of Unbilled Sales Actuals are not linked.
 - The **Refresh Actuals** button on the **Project** form does not refresh **Task Actual Hours**.
@@ -54,9 +54,7 @@ The following issues have been fixed:
 - **Recalculate** clears chargeable costs of product-based quote line details and contract line details.
 - In specific scenarios, the **PostEstimateLineUpdate** plug-in throws a Null Reference Exception.
 - Time phase duration on the **Profitability Analysis Chart** does not match duration of the costs in the fixed-price quote line detail of the quote.
-- Unit and unit group defaulting on a Contract Line Details and Quote Line
-    Details for for expense categories are incorrectly defaulted.
-
-- **Org Unit Cost Price lists permit overlaps in the date effectivity.
-- Handling Null ref when Validating OrgUnit updates
-- When attempting to navigate from the **Quote Line Detail** form, back to the **Quote** tab, the form refreshes and displays the **Summary** tab.
+- Unit and unit group values are defaulting incorrectly for expense categories on the **Contract Line Details** and **Quote Line Details** forms.
+- **Org Unit Cost Price** lists permit overlaps in the date effectivity.
+- Users are not permitted to change the **OrgUnit** when the order type is not work-based because it will lead to a null reference exception error.
+- When attempting to navigate from the **Quote Line Details** form, back to the **Quote** tab, the form refreshes and displays the **Summary** tab.
