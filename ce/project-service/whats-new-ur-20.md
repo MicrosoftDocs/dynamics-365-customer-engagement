@@ -85,7 +85,7 @@ The following issues have been fixed:
 
 -   Org unit cost price lists permit date effectivity overlaps.
 
--   Handling Null ref when Validating OrgUnit updates
+-   Handling Null ref when Validating OrgUnit updates.
 
 -   When attempting to navigate from the quote line detail form back to the
     quote tab, the form refreshes and displays the summary tab.
