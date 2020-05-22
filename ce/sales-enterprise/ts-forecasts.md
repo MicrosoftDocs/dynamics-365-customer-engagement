@@ -80,8 +80,8 @@ There might be several reasons related to the failure of recalculation of the fo
 
 4. Take the necessary actions to resolve the error and recalculate the forecast. 
 
-## Territory-based forecast issues and resolution
 <a name="territory_based_forecast_issues"> </a>
+## Territory-based forecast issues and resolution
 
 ### Issue: An error is displayed when I try to create a territory-based forecast. 
 ### -OR-
@@ -120,6 +120,40 @@ To resolve this error, you must enable hierarchy in the **territory_parent_terri
     
 6.	Save and close the entity.
 
+<a name="hide_forecast_category_field"> </a>
+## Unable to hide forecast category field in Opportunity forms
+
+**Reason**
+
+Sometimes, the application displays the **Forecast category** field in opportunity form even after it's been removed from the form through the form customizations.
+
+**Resolutions**
+
+To resolve this error, you must delete the **Forecast category** field from the form. Follow these steps:
+
+1.  In your app, on the nav bar, select the **Settings** icon, and then select **Advanced Settings**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Advanced Settings on the Settings menu](media/advanced-settings-option.png "Advanced Settings on the Settings menu")
+
+    The **Business Management** settings page opens in a new browser tab.
+
+2. On the navigation bar, select **Settings**, and then under **Customization**, select **Customizations**. 
+
+3. Select **Customize the System**.
+
+4. Under **Components** in the solution explorer, expand **Entities**, expand **Opportunity**, and then select **Forms**.
+
+5. Open the **Opportunity** form of form type **Main**.
+
+    The opportunity form opens in a new window.
+
+6. In the **Summary** section, select **Forecast category** field and then select **Remove**. 
+
+    > [!div class="mx-imgBorder"]
+    > ![Remove forecast category field](media/ts-forecasting-remove-forecast-category-field.png "Remove forecast category field")
+
+7. Save and publish the configuration.
 
 
 ### See also
