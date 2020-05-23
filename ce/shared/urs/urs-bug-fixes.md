@@ -1,3 +1,19 @@
+## 3.12.22.4
+
+- On the Organizations, that have [Schedle board preview enabled](https://aka.ms/scheduleboard), the Schedule Board Preview can be accessed from **Field Service** application Sitemap along with **Universal Resource Scheduling** application sitemap. 
+- Fixed the issue where [Intervals](https://docs.microsoft.com/en-us/dynamics365/common-scheduler/fulfillment-preferences#interval-setup) functionality of fulfilment preferences was not working on the Schedule Assistant. 
+- Resolved the issue of duplicated timeslots of the Resources on the List view type of the Days view of the Schedule Board
+- Multiple calls to retrieve data in the List view type of the Days view are reduced to one call, to improve performance on the Schedule Board
+- Fixed the issue where available timeslots of the Resources are displayed differently on Schedule Assistant and the Quick Scheduling pane for the Schedulable entities that do not have an associated Resource Requirement record. 
+- The horizontal and vertical view types are now hidden from the Requirement Group’s Find Availability or Schedule Assistant screen.
+- Fixed the error **The start address and end address cannot be empty**, which is incorrectly thrown on the **Get Driving Directions** functionality on the Schedule Board, due to an uncaught exception. 
+- Advanced Find on the Business Closures entity is now supported. 
+- When using Schedule Assistant/Fina Availability functionality, the available timeslots should be shown in the same Timezone of the Requirement calendar, however, if a schedulable entity like case doesn't have a Requirement record associated, then the results need to be shown in the Timezone of the CRM user preference.
+- The issue of Resource name truncation in the Days view of the Schedule Board is now fixed. 
+- Fixed the focus shifting issue on the Schedule Board, where Focus is shifted to a previous booking in focus, when Booking Status of the Booking assigned to a Resource at the bottom of the Resource list. With this fix, the focus would stay on the Booking in context. 
+- Fixed a translation issue on Requirement Groups in Japanese, where the name of the Requirement or Subgroups changes from Japanese to English when the record is saved. 
+- Quick Scheduling now supports and handles different date format styles like English (South Africa).  
+
 ## 3.12.21.9
 
 - The following Universal Resource Scheduling 2020 Wave 1 features in GA and Preview planned are included in this release:
