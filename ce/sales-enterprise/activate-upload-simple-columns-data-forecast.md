@@ -25,8 +25,7 @@ Use the **Activate & add quotas** step to activate the forecast and make it avai
    After a forecast is activated, a confirmation message is displayed and the option to download the quota template becomes available.
 
     > [!NOTE]
-    > - If the activation fails, the forecast definition's status and status reason are set to **Active and Failed**. To learn more, see [Why am I unable to publish forecast definition?](ts-forecasts.md#publish_forecast_definition). <br>
-    > - Forecast auto-recalculation works only when the forecast is active. If the last period of the forecast has just lapsed, the forecast will continue auto-recalculating for 30 more days and then will stop.
+    > Forecast auto-recalculation works only when the forecast is active. If the last period of the forecast has just lapsed, the forecast will continue auto-recalculating for 30 more days and then will stop.
 
 2. In the **Upload quota and other static data for this forecast** section, select **Download simple data column template**. A template (Excel workbook) showing users in the hierarchy is downloaded to your local computer.
  
