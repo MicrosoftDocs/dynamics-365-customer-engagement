@@ -1,7 +1,7 @@
 ---
 title: "Configure forecasting (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Define the data and period to use for the purpose of forecasting in Dynamics 365 Sales."
-ms.date: 02/03/2020
+ms.date: 05/25/2020
 ms.service: 
   - "dynamics-365-sales"
 ms.custom: 
@@ -29,9 +29,32 @@ A forecast helps your organization predict how much revenue your sales team will
 
 As an administrator or forecast manager, you can configure forecasts in your organization. You can define the type of forecast, its hierarchy, permissions for accessing it, and the details you want to appear on the forecast grid. After a forecast is activated, your sales team can view the revenue and pipeline projections.
 
+By default, forecasting is available in your organhization and the following page is displayed when you select **Forecast configuration**:
+
+> [!div class="mx-imgBorder"]
+> ![Forecasting is enabled](media/forecast-enable-forecasting-enabled.png "Forecasting is enabled") 
+
+Also, the following changes appear in the **Sales Hub** app:
+
+-	**Forecasts** appears under **Performance** in the **Sales** site map.
+
+    > [!div class="mx-imgBorder"]
+    > ![Forecasts option in sales site map](media/forecast-select-sales-performance-forecasts.png "Forecasts option in the Sales site map")
+ 
+-	**Forecast category** appears on the **Opportunity** form. The categories define the confidence level of closing an opportunity. If necessary, you can add custom values specifically defined for your organization. To learn more, see [Capture forecast category for opportunity](capture-forecast-category-opportunity.md).
+
+    > [!div class="mx-imgBorder"]
+    > ![Forecast category option in opportunity form](media/capture-forecast-category-opportunity-form.png "Forecast category in an opportunity form")
+
+    > [!NOTE]
+    > **Forecast category** options consists of **Won** and **Lost** opportunity statuses. If an opportunity is set as **Won** or **Lost**, the forecast category automatically changes status through the **Opportunity Forecast Category Mapping Process** out-of-the-box workflow. <br>
+    > To view the **Opportunity Forecast Category Mapping Process** workflow, go to **Settings** > **Process Center** > **Processes** and select **All Processes** view. Search and open the **Opportunity Forecast Category Mapping Process** workflow. You can customize or deactivate the workflow according to your organization's requirements. <br>
+    > If you're using a custom option set instead of forecast category, you must create a workflow to automatically sync the opportunity status with your option set to ensure that the forecast is projecting accurate values. <br> 
+    >  To learn more, see [Use Workflow processes to automate processes that don't require user interaction](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/workflow-processes).
+
 ## Prerequisite tasks
 
-Perform the following prerequisite tasks:
+Perform the following prerequisite task:
 
 - Assign the **Administrator** or **Forecast manager** role that will allow you to perform the following tasks:
 
@@ -41,50 +64,6 @@ Perform the following prerequisite tasks:
 
     > [!NOTE]
     > To learn more about assigning a role, see [Assign a security role to a user](/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
-
-- Enable forecasting in your organization. To enable forecasting, follow these steps:
-
-    > [!NOTE]
-    > As of 2020 release wave 1, forecasting is enabled automatically for all users.
-
-    1.	Sign in to the **Sales Hub** app.
-    
-    2.	At the bottom of the site map, select **Change area** ![Change area icon](media/change-area-icon.png "Change area icon"), and then select **App settings**.
-
-        > [!div class="mx-imgBorder"]
-        > ![Select app settings from change area](media/change-area-app-settings.png "Select App settings from the change area")
- 
-    3.	Under **Performance management**, select **Forecast configurations**.
-
-        > [!div class="mx-imgBorder"]
-        > ![Select enable forecast option](media/forecast-enable-select-enable.png "Select the Enable forecasting option")
- 
-    4.	Select **Enable forecasting**.
-
-    5.	In the confirmation message, select **Enable**. 
-
-    Forecasting is now enabled for your organization, and the following page is displayed:
- 
-     > [!div class="mx-imgBorder"]
-     > ![Forecasting is enabled](media/forecast-enable-forecasting-enabled.png "Forecasting is enabled") 
-
-    Also, when forecasting is enabled, the following changes appear in the **Sales Hub** app:
-
-    -	**Forecasts** appears under **Performance** in the **Sales** site map.
-    
-        > [!div class="mx-imgBorder"]
-        > ![Forecasts option in sales site map](media/forecast-select-sales-performance-forecasts.png "Forecasts option in the Sales site map")
- 
-    -	**Forecast category** appears on the **Opportunity** form. The categories define the confidence level of closing an opportunity. If necessary, you can add custom values specifically defined for your organization. To learn more, see [Capture forecast category for opportunity](capture-forecast-category-opportunity.md).
-
-        > [!div class="mx-imgBorder"]
-        > ![Forecast category option in opportunity form](media/capture-forecast-category-opportunity-form.png "Forecast category in an opportunity form")
-
-        > [!NOTE]
-        > **Forecast category** options consists of **Won** and **Lost** opportunity statuses. If an opportunity is set as **Won** or **Lost**, the forecast category automatically changes status through the **Opportunity Forecast Category Mapping Process** out-of-the-box workflow. <br>
-        > To view the **Opportunity Forecast Category Mapping Process** workflow, go to **Settings** > **Process Center** > **Processes** and select **All Processes** view. Search and open the **Opportunity Forecast Category Mapping Process** workflow. You can customize or deactivate the workflow according to your organization's requirements. <br>
-        > If you're using a custom option set instead of forecast category, you must create a workflow to automatically sync the opportunity status with your option set to ensure that the forecast is projecting accurate values. <br> 
-        >  To learn more, see [Use Workflow processes to automate processes that don't require user interaction](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/workflow-processes).
 
 ## How do I configure a forecast?
 
