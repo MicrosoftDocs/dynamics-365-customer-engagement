@@ -24,7 +24,7 @@ search.app:
 ---
 
 
-# Project Service Automation V3, Update Release 13
+# Project Service Automation Update Release 13, V3
 We’re pleased to announce the latest update for the Dynamics 365 Project Service Automation (PSA) application. This release includes some important improvements to quality, performance, and usability. This release is compatible with Dynamics 365 9.x. To update to this release, visit the Admin Center for Dynamics 365 online, and go to the solutions page to install the update. For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
 This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 13. This version has a build number of V3.10.3.18 and is available on the following schedule:
