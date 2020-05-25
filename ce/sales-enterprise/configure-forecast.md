@@ -1,7 +1,7 @@
 ---
 title: "Configure forecasting (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Define the data and period to use for the purpose of forecasting in Dynamics 365 Sales."
-ms.date: 02/03/2020
+ms.date: 05/25/2020
 ms.service: 
   - "dynamics-365-sales"
 ms.custom: 
