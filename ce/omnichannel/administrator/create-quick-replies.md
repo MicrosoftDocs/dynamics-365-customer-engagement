@@ -31,8 +31,9 @@ Quick responses are pre-defined messages that can be created for agents to quick
 
     > [!div class=mx-imgBorder]
     > ![Create a quick reply](../media/oc-create-a-quick-reply.png "Create a quick reply")
-
-        This field supports the following slugs: 
+    
+    This field supports the following slugs:
+ 
           - CUSTOMER_FULLNAME: "{FullName{Customer}}"
           - CUSTOMER_LASTNAME: "{LastName{Customer}}"
           - CUSTOMER_NICKNAME: "{NickName{Customer}}"
