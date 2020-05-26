@@ -238,7 +238,7 @@ The following are links for publishing the application to AppSource:
 
 [AppSource onboarding](https://appsource.microsoft.com)
 
-[Onboarding guide](https://docs.microsoft.com/en-us/azure/marketplace/cloud-partner-portal/business-applications-isv-program) 
+[Onboarding guide](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/business-applications-isv-program) 
 
 [ISV Studio](http://Aka.ms/isvstudio)
 
