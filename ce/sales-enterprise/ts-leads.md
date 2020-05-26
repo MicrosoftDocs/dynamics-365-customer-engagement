@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting the Lead entity (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how to troubleshoot issues with the Lead entity in Dynamics 365 Sales."
-ms.date: 05/22/2020
+ms.date: 05/26/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -38,14 +38,14 @@ You can also qualify a lead from the list of leads. Go to **Sales** > **Leads**.
 <a name="cant_qualify_lead"> </a>
 ### Issue: I can't qualify a lead.
 
-There are multiple errors you can<!--Via Writing Style Guide: "Don't substitute _could_ for _can_ unless you're referring to the past."--> get while qualifying a lead. 
+There are multiple errors you can get while qualifying a lead. 
 1.  [Duplicate warning – There might already be a match for this account or contact. If so, please select it.](#duplicate)
 2.  [To move to the next stage, complete the required steps](#CompleteSteps)
 3.  [Active stage is not on 'lead' entity](#NoActiveStage)
 4.  [Access denied or Insufficient permissions](#AccessDenied)
 5.  [The lead is closed. You cannot convert or qualify a lead that is already closed.](#LeadClosed)
 6.  [Invalid status code error](#invalid-status-code) for a contact or an opportunity
-<!--Edit okay, for better parallelism? This list seems to consist of the error messages exactly (or almost exactly) as they're worded. I don't think you need to use a verb here, but if you think it's important, it would be okay to use passive voice "[An invalid status code error is thrown...-->
+
 The following sections describe each of these errors and how you can resolve them.
 
 <a name="duplicate"> </a>
@@ -120,7 +120,7 @@ Make sure the lead that you're trying to qualify or disqualify is open and not a
 
 **Reason:**
 
-When you qualify a lead, some of the attributes in the mapping of 1:N (one-to-many)<!--Suggested--> relationships between **Lead to Contact** or **Lead to Opportunity** get copied from the Lead to Contact or Lead to Opportunity entities.
+When you qualify a lead, some of the attributes in the mapping of 1:N (one-to-many) relationships between **Lead to Contact** or **Lead to Opportunity** get copied from the Lead to Contact or Lead to Opportunity entities.
 
 Status codes are defined as an option set. This issue occurs when a user adds a new option into the option set in the Lead entity, but doesn't add the option to the option set for the target entity.
 
@@ -134,7 +134,7 @@ Ensure that the status codes of Lead and Contact entities, or Lead and Opportuni
 
 1. In the Sales Hub app, go to **Settings** > **Customizations** > **Customize the System**.
 
-2. Expand the Lead entity node<!--Edit okay, since this is what the title of the procedure says you'll be doing first?-->, and select **Fields**.
+2. Expand the Lead entity node, and select **Fields**.
 
 3. Find the **statuscode** field, and double-click to open it.
 
@@ -164,7 +164,7 @@ Ensure that the status codes of Lead and Contact entities, or Lead and Opportuni
 5. If you don't see the required mapping, select **New** to create it.
 
 > [!NOTE]
-> - If you're still getting the error, remove the mapping of the status code between the Lead entity the and target entity (Account<!--you don't mention that the Account entity can be a target in the descriptions above, is that okay?-->, Contact, or Opportunity).
+> - If you're still getting the error, remove the mapping of the status code between the Lead entity and the target entity (Account, Contact, or Opportunity).
 > - To add new status codes that have the same values, import the new option set values through a managed solution for the Contact or Opportunity entity.
 
 <a name="lead_qualification_for_admins"> </a> 
