@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting the Lead entity (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how to troubleshoot issues with the Lead entity in Dynamics 365 Sales."
-ms.date: 04/13/2020
+ms.date: 05/26/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -37,12 +37,14 @@ You can also qualify a lead from the list of leads. Go to **Sales** > **Leads**.
 
 <a name="cant_qualify_lead"> </a>
 ### Issue: I can't qualify a lead.
-There are multiple errors you could get while qualifying a lead. 
+
+There are multiple errors you can get while qualifying a lead. 
 1.  [Duplicate warning – There might already be a match for this account or contact. If so, please select it.](#duplicate)
 2.  [To move to the next stage, complete the required steps](#CompleteSteps)
 3.  [Active stage is not on 'lead' entity](#NoActiveStage)
 4.  [Access denied or Insufficient permissions](#AccessDenied)
 5.  [The lead is closed. You cannot convert or qualify a lead that is already closed.](#LeadClosed)
+6.  [Invalid status code error](#invalid-status-code) for a contact or an opportunity
 
 The following sections describe each of these errors and how you can resolve them.
 
@@ -59,7 +61,7 @@ When the lead is qualified to an opportunity, a corresponding account or contact
 
 **Resolution:**
 
-On the **Duplicate warning** dialog box, select the existing account or contact to avoid creating duplicates. To create a new record instead, select **Continue**.
+In the **Duplicate warning** dialog box, select the existing account or contact to avoid creating duplicates. To create a new record instead, select **Continue**.
 
 > [!NOTE]
 > When you qualify a lead through the Leads grid, the system creates an account or contact even though a duplicate record exists. By design, the rule that detects the duplicate records gets disabled. However, when you qualify a lead through the lead record form, the duplicate detection rule works. The rule prompts you with a warning to resolve the conflict if any duplicate records for account or contact are found.
@@ -113,6 +115,57 @@ You are trying to qualify or disqualify a lead that's closed.
 
 Make sure the lead that you're trying to qualify or disqualify is open and not already qualified or disqualified. You can do this by selecting the My Open leads or Open Leads view.
 
+<a name="invalid-status-code"> </a>
+#### 6. Invalid status code error for a contact or an opportunity.
+
+**Reason:**
+
+When you qualify a lead, some of the attributes in the mapping of 1:N (one-to-many) relationships between **Lead to Contact** or **Lead to Opportunity** get copied from the Lead to Contact or Lead to Opportunity entities.
+
+Status codes are defined as an option set. This issue occurs when a user adds a new option into the option set in the Lead entity, but doesn't add the option to the option set for the target entity.
+
+For entity mapping to work, option sets&mdash;such as status codes&mdash;should be the same between lead and contact or lead and opportunity, because the lead qualification process copies the status code value from lead to contact or from lead to opportunity. If the status codes don't match, the process fails.
+
+**Resolution:**
+
+Ensure that the status codes of Lead and Contact entities, or Lead and Opportunity entities, are the same.
+
+**To see the status codes of the Lead entity and the target entity**
+
+1. In the Sales Hub app, go to **Settings** > **Customizations** > **Customize the System**.
+
+2. Expand the Lead entity node, and select **Fields**.
+
+3. Find the **statuscode** field, and double-click to open it.
+
+4. Double-click a status to see its value.
+
+    > [!div class="mx-imgBorder"]
+    > ![See the status code of the Lead entity](media/lead-status-code.png "See the status code of the Lead entity")
+
+5. Repeat steps 2 through 4 to see the status code for the target entity (for example, Contact).
+
+    > [!div class="mx-imgBorder"]
+    > ![See the status code of the Contact entity](media/contact-status-code.png "See the status code of the Contact entity")
+
+**To see mappings**
+
+1. In the Sales Hub app, go to **Settings** > **Customizations** > **Customize the System**.
+
+2. Expand the Lead entity node, and select **1:N Relationships**.
+
+3. Open the required relationship, and select **Mappings** in the left pane.
+
+4. Scroll to see the mapping.
+
+    > [!div class="mx-imgBorder"]
+    > ![See entity mapping](media/entity-mapping.png "See entity mapping")
+
+5. If you don't see the required mapping, select **New** to create it.
+
+> [!NOTE]
+> - If you're still getting the error, remove the mapping of the status code between the Lead entity and the target entity (Account, Contact, or Opportunity).
+> - To add new status codes that have the same values, import the new option set values through a managed solution for the Contact or Opportunity entity.
 
 <a name="lead_qualification_for_admins"> </a> 
 ## Lead qualification issues and resolution (for system administrators)
