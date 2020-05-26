@@ -26,7 +26,7 @@ The Customer Service Hub's intuitive interface brings together vital information
 - **Mobile**
     - iOS 10 - Tablet & Phone
     - Android - Tablet + Phone (Android 6 and 7)
-    - Windows 10 
+    - Windows 10
 
 ## Open the Customer Service Hub
 
@@ -72,9 +72,6 @@ To access the Customer Service Hub app on a mobile device:
 
 The Customer Service Hub comes with an enhanced sitemap to enable easy navigation of the interface. To learn more, see [Understand the sitemap navigation](#understand-the-sitemap-navigation).
   
-> [!NOTE]
-> The navigation bar for the Customer Service Hub is different from the navigation bar in the Common Data Service platform. </br> Any record types that are enabled for mobile are also available for use in the Customer Service Hub. However, these records are read-only.  
-
 ## Understand the sitemap navigation
 
 1. Select the sitemap icon ![sitemap icon](media/sitemap-icon.png "Sitemap"). Select Service, and then select an entity record type.
@@ -114,12 +111,11 @@ To return to the list of records, select **Open Views** in the command bar.
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use interactive dashboards to effectively manage service cases](customer-service-hub-user-guide-dashboard.md)
   
-
 ## Navigate through records and pages  
 
 When you're viewing a record:
 
-1. Select and expand **Open Record Set** to navigate to other records. 
+1. Select and expand **Open Record Set** to navigate to other records.
 
     ![open record set behavior in top nav](channel-integration-framework/media/Nav-fly-out-1.png "open record set in top nav") 
 
@@ -136,10 +132,8 @@ More information: [Create and manage queues](https://docs.microsoft.com/dynamics
   
 - To create records quickly by filling in only the most basic information, select the **New** button ![Create button](../customer-service/media/quick-create-button.png "Create button") given on the nav bar.
 
-
   > [!TIP]
   > On a mobile device, from the nav bar, tap ![ellipsis](media/ellipsis.png) and then tap **Quick Create Menu**.
-
 
 ## Email a link
 
@@ -149,12 +143,12 @@ You can email links to records so your colleagues can quickly find these records
 
 Forms are designed to help you quickly handle important customer service tasks and complete actions from a single place.
 
-Understand the different components of a form below:
+The different components of a form are explained in the following sections.
   
 ### Business processes
 
-In the Customer Service Hub, forms for cases and knowledge articles include a process bar (also called a business process flow), which appears when you save the record for the first time. 
- 
+In the Customer Service Hub, forms for cases and knowledge articles include a process bar (also called a business process flow), which appears when you save the record for the first time.
+
 When you select a process stage on the process bar, you'll see the steps to take to complete that stage. A flag on a stage indicates the stage you're currently on. When you select an active stage, you can see the **Next Stage** button move to the next stage in the process.  
 
 The stages in the business process flow are displayed in floating mode, or docked mode. Stages can  be aligned in a vertical layout, instead of horizontal, which makes it easier to see what steps are required to move forward. You can also choose to include an optional step in the business process flow and define criteria to trigger it.
@@ -165,15 +159,15 @@ If there is more than one process to follow, you can switch between them by sele
   
  When a business process flow based on multiple entities is applied to a case or a knowledge article, the following limitations apply:  
   
--   The business process flow based on multiple entities isn't displayed on the form.  
+- The business process flow based on multiple entities isn't displayed on the form.  
   
--   The **Switch Process** option only shows business process flows that are based on a single entity.  
+- The **Switch Process** option only shows business process flows that are based on a single entity.  
   
--   If there are only multi-entity business process flows for an entity, the **Switch Process** option isn't available.  
+- If there are only multi-entity business process flows for an entity, the **Switch Process** option isn't available.  
 
-### Tabs
+### Tabs on the form
 
- A tab is a group of sections on a page. Each case form is composed of one or more tabs. By default, the **Summary** tab shows information about the customer, interactions with the customer, and other related records. You can select different tabs to enter or see other miscellaneous details of a record.  
+ Each case form is composed of one or more tabs. By default, the **Summary** tab shows information about the customer, interactions with the customer, and other related records. You can select different tabs to enter or see other miscellaneous details of a record.  
   
 For example, here's a view of how the tabs appear on the case form:
   
@@ -183,7 +177,7 @@ For example, here's a view of how the tabs appear on the case form:
   
 |Record type|Default tabs|  
 |-----------------|------------------|  
-|Case|**Summary**. Includes the customer card, Timeline, and the Related section.<br />   **Details**. Tracks Case details, additional details, and social response details of the case. <br />**Case Relationships**. Shows a Merged Cases and Child Cases list. You can add a new child case to the current case from the Child Cases list. It also shows a list of knowledge articles associated with the case.<br />**SLA**. Shows the related SLA KPI Instance records that are created for each SLA KPI that is tracked for the case. <br />**Related**. Shows related entities like Knowledge Base records and Connections.|
+|Case|**Summary**. Includes the customer card, Timeline, and the Related section.<br />   **Details**. Tracks Case details, additional details, and social response details of the case. <br />**Case Relationships**. Shows merged cases, child cases, and associated knowledge articles. You can add a child case to the current case from the Child Cases list. It also shows a list of knowledge articles associated with the case.<br />**SLA**. Shows the related SLA KPI Instance records that are created for each SLA KPI that is tracked for the case. <br />**Related**. Shows related entities, such as activities and connections.|
 |Account|**Summary**. Includes the customer card, Timeline, and the Related section.<br />**Details**. Tracks additional details like company profile, marketing details, contact preferences, and billing and shipping.<br />**Related**. Shows related common entities.| 
 |Contact|**Summary**. Includes the customer card, Timeline, and the Related section.<br />**Details**. Tracks additional details like personal information, marketing details, contact preferences, and billing and shipping. <br />**Related**. Shows related common entities.| 
 |Activities|Activity forms shows a tab called Task for the respective activity and a Related tab for common entities. |  
