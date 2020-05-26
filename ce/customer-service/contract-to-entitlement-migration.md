@@ -139,8 +139,8 @@ The following commands are available in entitlements:
 
 After making sure that all aspects of feature parity for records in contracts are available in entitlements, perform the following steps to migrate from contracts to entitlements:
 
-1. Move the contract and contract lines to entitlements.
-2. Run update scripts to update entitlements on a case instead of contracts.
+1. Move the contract and contract lines to entitlements using update scripts or an import tool such as Microsoft Excel.
+2. Create and run update scripts to update entitlements on a case instead of contracts.
 
 For business requirements, if a resolved case needs to be updated, perform the following steps:
 
