@@ -103,10 +103,14 @@ Add the following URLs for your users to access the Omnichannel for Customer Ser
 - `https://comms.omnichannelengagementhub.com`
 - `https://ocsdk-prod.azureedge.net`
 
-If your customers are using a URL filter to block a category of websites or URLs, you might have to ask your customers to allow a specific website as an exception.
+If your customers are using a URL filter to block a category of websites or URLs, you might've to ask your customers to allow a specific website as an exception.
 
-Customers must be able to access the following URLs from their browsers in order to use the live chat widget in the portal:
+Customers must be able to access the following URLs from their browsers to use the live chat widget in the portal:
 
+- `https://*.teams.microsoft.com`
+- `https://ecs.office.com`
+- `https://*.skype.com`
+- `https://browser.pipe.aria.microsoft.com`
 - `https://oc-cdn-ocprod.azureedge.net/livechatwidget`
 - `https://cdn.botframework.com/botframework-webchat`
 - `https://webchatic3.blob.core.windows.net`
