@@ -1,7 +1,7 @@
 ---
 title: "Learn the basics of the Customer Service Hub app | Microsoft Docs"
 description: "Learn the basics of the Customer Service Hub for Customer Service"
-ms.date: 05/18/2020
+ms.date: 05/26/2020
 ms.service:
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -82,7 +82,7 @@ When you select a record type from the menu, such as Accounts, Contacts, or Case
 
 To view recently opened records, select the down-arrow next to the record type in the sitemap.
 
-  Here is what each entity record type is used for:
+Here is what each entity record type is used for:
 
   - **Dashboards** collect all your most important data in one place. You can select from multiple dashboards as per your role.
   - **Activities** help you keep track of tasks, email messages, appointments, phone calls and much more.
@@ -167,7 +167,7 @@ If there is more than one process to follow, you can switch between them by sele
 
 ### Tabs on the form
 
- Each case form is composed of one or more tabs. By default, the **Summary** tab shows information about the customer, interactions with the customer, and other related records. You can select different tabs to enter or see other miscellaneous details of a record.  
+Each case form is composed of one or more tabs. By default, the **Summary** tab shows information about the customer, interactions with the customer, and other related records. You can select different tabs to enter or see other miscellaneous details of a record.  
   
 For example, here's a view of how the tabs appear on the case form:
   
@@ -186,13 +186,13 @@ For example, here's a view of how the tabs appear on the case form:
 
 ### Contact card
 
- See a complete view of your customer's touch points in the Contact card. This card is available in the **General Information** section of the **Summary** tab.  
+See a complete view of your customer's touch points in the Contact card. This card is available in the **General Information** section of the **Summary** tab.  
   
 ![contact-card](media/contact-card.png "Contact card")
 
- You can add a picture to the account or contact record in the Common Data Service platform, and it will appear on this card. You can make calls to customers from the Contact card using Skype for Business – IP telephony.
+You can add a picture to the account or contact record in the Common Data Service platform, and it will appear on this card. You can make calls to customers from the Contact card using Skype for Business – IP telephony.
   
- For account records, the card shows contact details for the primary contact associated with the account. For contact records, the card appears if the contact is the customer value on the case form.  
+For account records, the card shows contact details for the primary contact associated with the account. For contact records, the card appears if the contact is the customer value on the case form.  
 
 ### Timeline
 
@@ -289,12 +289,12 @@ You can select the **Enter a note** box in the timeline and specify a title and 
 |![Add a Table](../customer-service/media/add-table.png "Add a Table")| Add a Table |  | Add a table to your content. <br /><br />After adding a table, you can do any of the following:<br /><br /><ul><li>Resize table columns by clicking and dragging your mouse to resize to the columns to the desired width.</li><li>Select one or several cells within a table and apply specific formatting, add links to the selection, or cut, copy, or paste entire rows or columns.</li><li>Right-click to access the properties. This supports features such as cell type, width and height, word wrapping, alignment, merging and splitting cells horizontally and vertically, inserting or deleting rows and columns, row and column span, and cell and border color.</li></ul>|
 |![Expand Toolbar](../customer-service/media/show-more.png "Expand Toolbar")| Expand Toolbar |  | Displays when the toolbar is collapsed and not all options appear. Click to expand the toolbar and make all options visible. |
 
-  The feature is enabled by default, your administrator can enable or disable rich-text editor for you. To learn more, see [Enable rich-text editor for notes in timeline](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-or-disable-rich-text-editor-for-notes-in-timeline).
+The feature is enabled by default, your administrator can enable or disable rich-text editor for you. To learn more, see [Enable rich-text editor for notes in timeline](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-or-disable-rich-text-editor-for-notes-in-timeline).
 
   > [!Note]
   > You can format only the message (body), and not the title.
 
-  You can also add an attachment to your notes, and the attachment is displayed below the note. At anytime, you can attach one file. Before adding the note, if you want upload another file than the one you've selected, you can again browse and choose another file. This will replace the already selected file.
+You can also add an attachment to your notes, and the attachment is displayed below the note. At anytime, you can attach one file. Before adding the note, if you want upload another file than the one you've selected, you can again browse and choose another file. This will replace the already selected file.
 
   ![Timeline notes and attachment](media/timeline-attachment.png "Timeline notes and attachment")
 
@@ -365,8 +365,7 @@ Select an activity from the timeline to expand and view.
   
 #### Configure Timeline section for your users
 
- To learn more about configuration, see [Set up timeline section (control)](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control) and [FAQs for timeline control](https://docs.microsoft.com/powerapps/maker/model-driven-apps/faqs-timeline-control) in the Microsoft Power Apps documentation.
-
+To learn more about configuration, see [Set up timeline section (control)](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control) and [FAQs for timeline control](https://docs.microsoft.com/powerapps/maker/model-driven-apps/faqs-timeline-control) in the Microsoft Power Apps documentation.
 
 ### Related section
 
@@ -383,7 +382,7 @@ The third tab in the Related section of a case record displays **Similar Cases**
 
 ![similar-cases](media/similar-cases.png "Similar cases in Reference panel")
 
- Watch this video to learn more about the Reference Panel in the Customer Service Hub:
+Watch this video to learn more about the Reference Panel in the Customer Service Hub:
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/d8224c3f-6e20-4b8e-9d0d-b0f5602c7708" frameborder="0" allowfullscreen=""></iframe></div>
 
@@ -693,6 +692,5 @@ To create a new site, you need to go to **Advanced find** ![Advanced find](media
 
 ### See also
 
-[Create and design forms for Customer Service Hub](create-design-forms-customer-service-hub.md)
-
+[Create and design forms for Customer Service Hub](create-design-forms-customer-service-hub.md)  
 [Track your cases efficiently and act on them quickly](customer-service-hub-user-guide-case-sla.md)
