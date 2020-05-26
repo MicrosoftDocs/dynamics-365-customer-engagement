@@ -55,10 +55,8 @@ manager: annbe
 
 <h2>Forecasting</h2>
 
-
-<li><a href="ts-forecasts.md#publish_forecast_definition" data-raw-source="[I can't publish forecast definition](ts-forecast.md#publish_forecast_definition)">I can't publish forecast definition</a></li>
-<li><a href="ts-forecasts.md#recalculate_forecast" data-raw-source="[I can't recalculate the forecast](ts-forecasts.md#recalculate_forecast)">I can't recalculate the forecast</a></li>
 <li><a href="ts-forecasts.md#territory_based_forecast_issues" data-raw-source="[Territory-based forecast issues and resolution](ts-forecasts.md#territory_based_forecast_issues)">Territory-based forecast issues and resolution</a></li>
+<li><a href="ts-forecasts.md#hide_forecast_category_field" data-raw-source="[Unable to hide forecast category field in Opportunity forms](ts-forecasts.md#hide_forecast_category_field)">Unable to hide forecast category field in Opportunity form</a></li>
 
 </td><td>
 
