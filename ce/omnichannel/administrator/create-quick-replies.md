@@ -30,7 +30,15 @@ Quick responses are pre-defined messages that can be created for agents to quick
     - **Message**: Enter the text of the message.
 
         > [!NOTE]
-        > This field supports slugs, but the slug editor isn't available in this release.
+        > This field supports the following slugs: 
+          - CUSTOMER_FULLNAME: "{FullName{Customer}}"
+          - CUSTOMER_LASTNAME: "{LastName{Customer}}"
+          - CUSTOMER_NICKNAME: "{NickName{Customer}}"
+          - AGENT_FULLNAME: "{FullName{Agent}}"
+          - AGENT_FIRSTNAME: "{FirstName{Agent}}"
+          - AGENT_LASTTNAME: "{LastName{Agent}}"
+          - AGENT_NICKNAME: "{Nickname{Agent}}"
+
 
     > [!div class=mx-imgBorder]
     > ![Create a quick reply](../media/oc-create-a-quick-reply.png "Create a quick reply")
@@ -61,7 +69,7 @@ Quick replies can be classified and tagged into categories. The categorization c
 
 ## Associate quick responses to a work stream
 
-For organizations with diverse lines of businesses, agents will send a variety of messages depending on their area of expertise. Administrators can determine which quick replies are necessary for different groups of agents to use. Administrators can associate quick replies with work streams in order show agents only the quick replies that apply to them. 
+For organizations with diverse lines of businesses, agents will send a variety of messages depending on their area of expertise. Administrators can determine which quick replies are necessary for different groups of agents to use. Administrators can associate quick replies with work streams in order show agents only the quick replies that apply to them. If no workstream is associated, the quick reply is available for all agents. 
 
 1. Sign in to Omnichannel Administration.
 
