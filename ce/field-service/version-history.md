@@ -63,7 +63,7 @@ Release For information about other updates to Field Service, visit the [Dynamic
 | | <i>China</i> |[8.8.11.19](https://docs.microsoft.com/dynamics365/field-service/version-history#881119)|[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| 05/29/2020
 
 >[!Note]
-> While most updates should complete on the scheduled night, updates requiring more time may be completed during dark hours of the weekend indicated in the <i>Scheduled Date</i> column.
+> While most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours of the weekend indicated in the <i>Scheduled Date</i> column.
 
 ## 8.8.23.52 
 (Includes Universal Resource Scheduling version [3.12.22.8](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling?branch=master#312228))
