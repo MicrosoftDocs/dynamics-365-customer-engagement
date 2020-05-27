@@ -57,6 +57,7 @@ manager: annbe
 
 <li><a href="ts-forecasts.md#territory_based_forecast_issues" data-raw-source="[Territory-based forecast issues and resolution](ts-forecasts.md#territory_based_forecast_issues)">Territory-based forecast issues and resolution</a></li>
 <li><a href="ts-forecasts.md#hide_forecast_category_field" data-raw-source="[Unable to hide forecast category field in Opportunity forms](ts-forecasts.md#hide_forecast_category_field)">Unable to hide forecast category field in Opportunity form</a></li>
+<li><a href="ts-forecasts.md#unable_view_forecasts" data-raw-source="[Unable to view forecasts](ts-forecasts.md#unable_view_forecasts)">Unable to view forecasts</a></li>
 
 </td><td>
 
