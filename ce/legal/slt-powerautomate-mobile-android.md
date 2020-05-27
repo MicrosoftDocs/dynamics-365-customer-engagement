@@ -1,10 +1,9 @@
 ---
-title: MICROSOFT SOFTWARE LICENSE TERMS MICROSOFT POWER AUTOMATE - iOS
+title: MICROSOFT SOFTWARE LICENSE TERMS MICROSOFT POWER AUTOMATE - ANDROID
 author: MSFTMan
 ---
 
-MICROSOFT SOFTWARE LICENSE TERMS<br>MICROSOFT POWER AUTOMATE
-============================================================
+# MICROSOFT SOFTWARE LICENSE TERMS<br>MICROSOFT POWER AUTOMATE
 
 These license terms are an agreement between you and Microsoft Corporation (or
 one of its affiliates). They apply to the software named above and any Microsoft
@@ -12,27 +11,27 @@ services or software updates (except to the extent such services or updates are
 accompanied by new or additional terms, in which case those different terms
 apply prospectively and do not alter your or Microsoft’s rights relating to
 pre-updated software or services). IF YOU COMPLY WITH THESE LICENSE TERMS, YOU
-HAVE THE RIGHTS BELOW. BY USING THE SOFTWARE, YOU ACCEPT THESE TERMS. IF YOU DO
-NOT ACCEPT THEM, DO NOT USE THE SOFTWARE. INSTEAD, RETURN IT TO APPLE INC.
-("APPLE") FOR A REFUND OR CREDIT IF APPLICABLE.
+HAVE THE RIGHTS BELOW. BY USING THE SOFTWARE, YOU ACCEPT THESE TERMS.
 
-**1. INSTALLATION AND USE RIGHTS.** You may install and use one copy of the
-software on an iOS-based device as permitted by Apple’s app store usage rules.
+**1. INSTALLATION AND USE RIGHTS.**
 
->   **a) Third Party Software.** The software may include third party
+>   **a) General.** You may install and use any number of copies of the
+>   software.
+>
+>   **b) Third Party Software.** The software may include third party
 >   applications that are licensed to you under this agreement or under their
 >   own terms. License terms, notices, and acknowledgements, if any, for the
 >   third party applications may be accessible online at
->   <https://aka.ms/thirdpartynotices> or in an accompanying notices file. Even
+>   <http://aka.ms/thirdpartynotices> or in an accompanying notices file. Even
 >   if such applications are governed by other agreements, the disclaimer,
 >   limitations on, and exclusions of damages below also apply to the extent
 >   allowed by applicable law.
 >
->   **b) Microsoft Services Agreement.** Some features of the software provide
+>   **c) Microsoft Services Agreement.** Some features of the software provide
 >   access to, or rely on, online services. The use of those services (but not
 >   the software) is governed by the separate terms and privacy policies in the
 >   Microsoft Services Agreement at
->   <https://go.microsoft.com/fwlink/?linkid=398923>. Please read them. The
+>   <http://go.microsoft.com/fwlink/?linkid=398923>. Please read them. The
 >   services may not be available in all regions.
 
 **2. DATA COLLECTION.** The software may collect information about you and your
@@ -53,7 +52,7 @@ applicable provisions of the Microsoft Privacy Statement.
 subprocessor of personal data in connection with the software, Microsoft makes
 the commitments in the European Union General Data Protection Regulation Terms
 of the Online Services Terms to all customers effective May 25, 2018, at
-<https://docs.microsoft.com/legal/gdpr>.
+<https://docs.microsoft.com/en-us/legal/gdpr>.
 
 **3. SCOPE OF LICENSE.** The software is licensed, not sold. Microsoft reserves
 all other rights. Unless applicable law gives you more rights despite this
@@ -74,31 +73,27 @@ limitation, you will not (and have no right to):
 >   software as a stand-alone hosted solution for others to use, or transfer the
 >   software or this agreement to any third party.
 
-**4. TRANSFER TO ANOTHER DEVICE.** You may uninstall the software and install it
-on another device for your use. You may not share this license on multiple
-devices.
-
-**5. EXPORT RESTRICTIONS.** You must comply with all domestic and international
+**4. EXPORT RESTRICTIONS.** You must comply with all domestic and international
 export laws and regulations that apply to the software, which include
 restrictions on destinations, end users, and end use. For further information on
-export restrictions, visit <https://aka.ms/exporting>.
+export restrictions, visit <http://aka.ms/exporting>.
 
-**6. SUPPORT SERVICES.** Microsoft is not obligated under this agreement to
+**5. SUPPORT SERVICES.** Microsoft is not obligated under this agreement to
 provide any support services for the software. Any support provided is “as is”,
 “with all faults”, and without warranty of any kind.
 
-**7. UPDATES.** The software may periodically check for updates, and download
+**6. UPDATES.** The software may periodically check for updates, and download
 and install them for you. You may obtain updates only from Microsoft or
 authorized sources. Microsoft may need to update your system to provide you with
 updates. You agree to receive these automatic updates without any additional
 notice. Updates may not include or support all existing software features,
 services, or peripheral devices.
 
-**8. ENTIRE AGREEMENT.** This agreement, and any other terms Microsoft may
+**7. ENTIRE AGREEMENT.** This agreement, and any other terms Microsoft may
 provide for supplements, updates, or third-party applications, is the entire
 agreement for the software.
 
-**9. APPLICABLE LAW AND PLACE TO RESOLVE DISPUTES.** If you acquired the
+**8. APPLICABLE LAW AND PLACE TO RESOLVE DISPUTES.** If you acquired the
 software in the United States or Canada, the laws of the state or province where
 you live (or, if a business, where your principal place of business is located)
 govern the interpretation of this agreement, claims for its breach, and all
@@ -110,11 +105,7 @@ in King County, Washington for all disputes heard in court. If not, you and
 Microsoft consent to exclusive jurisdiction and venue in the Superior Court of
 King County, Washington for all disputes heard in court.
 
-**10. THIRD PARTY BENEFICIARY.** You agree that Apple and its subsidiaries are
-third party beneficiaries of this agreement, and Apple has the right to enforce
-this agreement.
-
-**11. CONSUMER RIGHTS; REGIONAL VARIATIONS.** This agreement describes certain
+**9. CONSUMER RIGHTS; REGIONAL VARIATIONS.** This agreement describes certain
 legal rights. You may have other rights, including consumer rights, under the
 laws of your state, province, or country. Separate and apart from your
 relationship with Microsoft, you may also have rights with respect to the party
@@ -154,32 +145,28 @@ mandatory country law applies, then the following provisions apply to you:
 >>   "cardinal obligations"). In other cases of slight negligence, Microsoft will
 >>   not be liable for slight negligence.
 
-**12. DISCLAIMER OF WARRANTY. THE SOFTWARE IS LICENSED “AS IS.” YOU BEAR THE
-RISK OF USING IT. IF DESIRED, YOU MAY NOTIFY APPLE FOR A REFUND OF THE PURCHASE
-PRICE. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, APPLE WILL HAVE NO
-OTHER WARRANTY OBLIGATION WHATSOEVER. MICROSOFT GIVES NO EXPRESS WARRANTIES,
-GUARANTEES, OR CONDITIONS. YOU MAY HAVE ADDITIONAL CONSUMER RIGHTS OR STATUTORY
-GUARANTEES UNDER YOUR LOCAL LAWS THAT THIS AGREEMENT CANNOT CHANGE. TO THE
-EXTENT PERMITTED UNDER YOUR LOCAL LAWS, MICROSOFT EXCLUDES ALL IMPLIED
-WARRANTIES, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND
-NON-INFRINGEMENT.**
+**10. DISCLAIMER OF WARRANTY. THE SOFTWARE IS LICENSED “AS IS.” YOU BEAR THE
+RISK OF USING IT. MICROSOFT GIVES NO EXPRESS WARRANTIES, GUARANTEES, OR
+CONDITIONS. TO THE EXTENT PERMITTED UNDER APPLICABLE LAWS, MICROSOFT EXCLUDES
+ALL IMPLIED WARRANTIES, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE, AND NON-INFRINGEMENT.**
 
-**13. LIMITATION ON AND EXCLUSION OF REMEDIES AND DAMAGES. IF YOU HAVE ANY BASIS
-FOR RECOVERING DAMAGES DESPITE THE PRECEDING DISCLAIMER OF WARRANTY, YOU CAN
-RECOVER FROM APPLE, MICROSOFT, AND MICROSOFT’S SUPPLIERS ONLY DIRECT DAMAGES UP
-TO THE AMOUNT YOU PAID FOR THE SOFTWARE. YOU CANNOT RECOVER ANY OTHER DAMAGES,
-INCLUDING CONSEQUENTIAL, LOST PROFITS, SPECIAL, INDIRECT, OR INCIDENTAL
-DAMAGES.**
+**11. LIMITATION ON AND EXCLUSION OF DAMAGES. IF YOU HAVE ANY BASIS FOR
+RECOVERING DAMAGES DESPITE THE PRECEDING DISCLAIMER OF WARRANTY, YOU CAN RECOVER
+FROM MICROSOFT AND ITS SUPPLIERS ONLY DIRECT DAMAGES UP TO U.S. \$5.00. YOU
+CANNOT RECOVER ANY OTHER DAMAGES, INCLUDING CONSEQUENTIAL, LOST PROFITS,
+SPECIAL, INDIRECT OR INCIDENTAL DAMAGES.**
 
-This limitation applies to (a) anything related to the software, services,
+**This limitation applies to (a) anything related to the software, services,
 content (including code) on third party Internet sites, or third party
-applications; and (b) **claims for breach of contract, warranty, guarantee, or
+applications; and (b) claims for breach of contract, warranty, guarantee, or
 condition; strict liability, negligence, or other tort; or any other claim; in
-each case to the extent permitted by applicable law.** It also applies even if
-Microsoft or Apple knew or should have known about the possibility of the
-damages. The above limitation or exclusion may not apply to you because your
-state, province, or country may not allow the exclusion or limitation of
-incidental, consequential, or other damages.
+each case to the extent permitted by applicable law.**
+
+**It also applies even if Microsoft knew or should have known about the
+possibility of the damages. The above limitation or exclusion may not apply to
+you because your state, province, or country may not allow the exclusion or
+limitation of incidental, consequential, or other damages.**
 
 **Please note: As this software is distributed in Canada, some of the clauses in
 this agreement are provided below in French.**
@@ -204,13 +191,12 @@ bénéfices.**
 
 **Cette limitation concerne:**
 
->   **• tout ce qui est relié au logiciel, aux services ou au contenu (y compris
->   le code) figurant sur des sites Internet tiers ou dans des programmes tiers;
->   et**
->
->   **• les réclamations au titre de violation de contrat ou de garantie, ou au
->   titre de responsabilité stricte, de négligence ou d’une autre faute dans la
->   limite autorisée par la loi en vigueur.**
+**• tout ce qui est relié au logiciel, aux services ou au contenu (y compris le
+code) figurant sur des sites Internet tiers ou dans des programmes tiers; et**
+
+**• les réclamations au titre de violation de contrat ou de garantie, ou au
+titre de responsabilité stricte, de négligence ou d’une autre faute dans la
+limite autorisée par la loi en vigueur.**
 
 **Elle s’applique également, même si Microsoft connaissait ou devrait connaître
 l’éventualité d’un tel dommage. Si votre pays n’autorise pas l’exclusion ou la
