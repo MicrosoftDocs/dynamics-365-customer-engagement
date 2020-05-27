@@ -59,7 +59,7 @@ Release For information about other updates to Field Service, visit the [Dynamic
 |<strong>Station 5</strong> | |  |  | |
 | | <i>North America</i> |[8.8.22.57](https://docs.microsoft.com/dynamics365/field-service/version-history#882257)|[8.8.23.52](https://docs.microsoft.com/dynamics365/field-service/version-history#882352)| 06/19/2020
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Goverment Community Cloud</i> |[8.8.11.19](https://docs.microsoft.com/dynamics365/field-service/version-history#881119)|[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| 05/29/2020
+| | <i>Government Community Cloud</i> |[8.8.11.19](https://docs.microsoft.com/dynamics365/field-service/version-history#881119)|[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| 05/29/2020
 | | <i>China</i> |[8.8.11.19](https://docs.microsoft.com/dynamics365/field-service/version-history#881119)|[8.8.12.2](https://docs.microsoft.com/dynamics365/field-service/version-history#88122)| 05/29/2020
 
 >[!Note]
@@ -73,7 +73,7 @@ Release For information about other updates to Field Service, visit the [Dynamic
 - Repaired a field service upgrade issue caused by a script that, when appropriate, created requirement group records. If the requirement group’s name was too long, the script and upgrade would fail.
 - Fixed an issue on the Contact entity’s geo code functionality which caused a script error if “Auto Geo-Code” was set to No in Field Service Settings.
 - Corrected an incorrect Agreement Booking Setup recurrence validation error for “Too many days in month.” Under certain circumstances, this error was thrown inappropriately.
-- Resolved an issue with duplicate section and tab ids in the Connected Field Service which caused issues when trying to uninstall the solution.
+- Resolved an issue with duplicate section and tab IDs in the Connected Field Service which caused issues when trying to uninstall the solution.
 - Corrected a null reference issue in Connected Field Service when loading the Device Summary control on the IoT Alert form.
 
 ## 8.8.22.57 
