@@ -96,7 +96,7 @@ To resolve this error, you must delete the **Forecast category** field from the 
 
 If you are using the previous version of forecasting and updated to the latest, the forecasting site map may not be updated due to possible presence of unmanaged layer of Sales hub app. This causes the forecasting site map entry to the previous version of forecasting. 
 
-The following image is an example of previous version of forecating home page:
+The following image is an example of previous version of forecasting home page:
 
 > [!div class="mx-imgBorder"]
 > ![Previous version of forecasting home page](media/ts-forecasting-older-version-homepage.png "Previous version of forecasting home page")
