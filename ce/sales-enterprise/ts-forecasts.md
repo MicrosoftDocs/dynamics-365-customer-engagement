@@ -89,6 +89,7 @@ To resolve this error, you must delete the **Forecast category** field from the 
 
 7. Save and publish the configuration.
 
+<a name="unable_view_forecasts"> </a>
 ## Unable to view forecasts
 
 **Reason**
