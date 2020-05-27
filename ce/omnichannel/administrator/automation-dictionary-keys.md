@@ -105,13 +105,13 @@ The automation dictionary supports the following formats:
 
 ### Slugs
 
-#### Slugs for productivity tools (macros and agent scripts)
-
 A *slug* is a replacement parameter that the system populates at runtime based on context. Use the following list of slugs only for macros and agent scripts, and to set an agent script as the default by using the agent script expression builder.
 
 To learn more, see [Productivity tools](productivity-tools.md).
 
-The list of supported slugs are:
+#### Slugs for productivity tools (macros and agent scripts)
+
+Macros and agent scripts support the following slugs:
 
 | Slug | Description |
 |------------|-----------------------------------|
