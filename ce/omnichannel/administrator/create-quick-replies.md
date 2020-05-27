@@ -4,7 +4,7 @@ description: "Instructions to set up quick responses in Omnichannel for Customer
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 05/06/2020
+ms.date: 05/26/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -42,6 +42,8 @@ Quick responses are pre-defined messages that can be created for agents to quick
         AGENT_LASTTNAME: "{LastName{Agent}}"
         AGENT_NICKNAME: "{Nickname{Agent}}"
 
+      For more information, see [Slugs](automation-dictionary-keys.md#slugs).
+      
 6. Select **Save**.
 
 ## Create or edit tags for common categories of quick responses
