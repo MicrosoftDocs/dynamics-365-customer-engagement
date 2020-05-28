@@ -44,7 +44,7 @@ Macros are a set of configured sequential actions that are executed on demand by
 
 When the agent runs the macro, the system replaces these parameter keys with the actual values based on the context of the session, channel provider, Common Data Service, and user actions. 
 
-When the context is from a session, the marco action is executed based on the information for a current session, where the information is obtained from an Anchor tab or current tab that's in focus.
+When the context is from a session, the macro action is executed based on the information for a current session, where the information is obtained from an Anchor tab or current tab that's in focus.
 
 For example, to create a case, you need to define the actions that contain the  incident entity form and the GUID of the form (optional).
 
@@ -105,13 +105,13 @@ The automation dictionary supports the following formats:
 
 ### Slugs
 
-#### Slugs for productivity tools (macros and agent scripts)
-
 A *slug* is a replacement parameter that the system populates at runtime based on context. Use the following list of slugs only for macros and agent scripts, and to set an agent script as the default by using the agent script expression builder.
 
 To learn more, see [Productivity tools](productivity-tools.md).
 
-The list of supported slugs are:
+#### Slugs for productivity tools (macros and agent scripts)
+
+Macros and agent scripts support the following slugs:
 
 | Slug | Description |
 |------------|-----------------------------------|
@@ -125,7 +125,7 @@ The list of supported slugs are:
 | `${entityRoutingRecordId}` | The unique ID of the entity record, if the notification is for an entity record. To learn more, see [Entity records routing](../../omnichannel/administrator/entity-channel.md). |
 | `${customerEntityName}` | The name of the entity (contact or account), if the customer is authenticated. |
 | `${customerRecordId}` | The unique ID of the entity (contact or account), if the customer is authenticated. |
-| `${<name of the pre-chat survey questions>}` | All the pre-chat survey questions that are configured for a workstream will have the slug name as the name of the question. |
+| `${<name of the pre-chat survey questions>}` | All the pre-chat survey questions that are configured for a work stream will have the slug name as the name of the question. |
 
 #### Format for slugs for productivity tools
 
@@ -193,7 +193,7 @@ A *slug* is a replacement parameter that the system populates at runtime based o
 | `{entityRoutingRecordId}` | The unique ID of the entity record, if the notification is for an entity record. To learn more, see [Entity records routing](../../omnichannel/administrator/entity-channel.md). |
 | `{customerEntityName}` | The name of the entity (contact or account), if the customer is authenticated. |
 | `{customerRecordId}` | The unique ID of the entity (contact or account), if the customer is authenticated. |
-| `{<name of the pre-chat survey questions>}` | All the pre-chat survey questions that are configured for a workstream will have the slug name as the name of the question. |
+| `{<name of the pre-chat survey questions>}` | All the pre-chat survey questions that are configured for a work stream will have the slug name as the name of the question. |
 
 #### Format for slugs for templates
 
@@ -246,4 +246,4 @@ Session title = `Chat conversation`
 - [Manage session templates](session-templates.md)
 - [Manage application tab templates](application-tab-templates.md)
 - [Manage notification templates](notification-templates.md)
-- [Associate templates with workstreams](associate-templates.md)
+- [Associate templates with work streams](associate-templates.md)
