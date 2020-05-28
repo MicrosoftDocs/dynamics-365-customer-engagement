@@ -145,34 +145,21 @@ After the work order is scheduled to the appropriate technician, they can see an
 
 Sign in with your Dynamics 365 URL, username, and, and go to the assigned work order.
 
+Select the **Work Order Service Task** that has the related inspection.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-fsm-new1.png)
 
+Find the inspection form and enter answers.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-fsm-new2.png)
 
+Technicians can upload files, take pictures, or upload pictures from the phone's camera roll. 
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-fsm-new3.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/inspections-fsm-new4.png)
-
-Select the **Work Order Service Task** (*not* the **Service Task Type**).
-
-Find the inspection form and enter answers.
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/inspections-mobile-web1.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/inspections-mobile-web2.png)
-
 
 When finished, the technician can select **Mark Complete** at the top or set **Complete %** to 100. 
 
@@ -181,6 +168,19 @@ Enter a **Result** to report on overall inspection:
 - Fail
 - Partial Success
 - NA
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inspections-fsm-new4.png)
+
+
+
+
+
+
+
+
+
 
 Optionally, enter an **Actual Duration** that can be compared to estimated duration.
 
@@ -333,6 +333,12 @@ Save and test your flow.
 > During the preview Microsoft may make schema changes that may render inspections and related records to enter a state where they can no longer be used.
 
 - Only single responses are supported and a technician cannot fill out the same inspection twice for a single work order service task. If the responses are cleared or answered again, the original responses are deleted and only the latest responses are saved.
+
+### Copy inspections 
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inspections-copy.png)
 
 ### Security roles needed to use inspections
 
