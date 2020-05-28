@@ -1,6 +1,7 @@
-## 3.12.22.4
+## 3.12.22.9
 
-- On the Organizations, that have [Schedle board preview enabled](https://aka.ms/scheduleboard), the Schedule Board Preview can be accessed from **Field Service** application Sitemap along with **Universal Resource Scheduling** application sitemap. 
+- For organizations that have [schedule board preview enabled](https://aka.ms/scheduleboard), the schedule board preview can be accessed from **Field Service** application sitemap along with **Universal Resource Scheduling** application sitemap. 
+- Fixed an issue where Booking Tooltip blinks when the height of the Tooltip is greater than the height of the visible center Gantt area where Bookings are displayed on the Schedule Board. With this fix, the tooltip would not blink and User would be able to click on the hyperlinks on the Tooltip to open the respective record in a new window. 
 - Fixed the issue where [Intervals](https://docs.microsoft.com/dynamics365/common-scheduler/fulfillment-preferences#interval-setup) functionality of fulfilment preferences was not working on the Schedule Assistant. 
 - Resolved the issue of duplicated timeslots of the Resources on the List view type of the Days view of the Schedule Board
 - Multiple calls to retrieve data in the List view type of the Days view are reduced to one call, to improve performance on the Schedule Board
