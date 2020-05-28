@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 05/27/2020
+ms.date: 06/01/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -32,20 +32,54 @@ We roll out updates on a region-by-region basis. Updates are available to all re
 
 ## June 2020 update
 
-The Dynamics 365 Marketing May 2020 update includes several feature enhancements including a revamped form capture experience, performance upgrades, and bug fixes.
+The Dynamics 365 Marketing June 2020 update includes several feature enhancements including a revamped form capture experience, performance upgrades, and bug fixes.
 
 ### Version number
 
 | App              | GA release      |
 |------------------|-----------------|
-| Marketing        | 1.35.10061.1037 |
+| Marketing        | 1.35.10062.1043 |
 
 > [!Tip]
-> To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](https://docs.microsoft.com/dynamics365/marketing/apply-updates#find-out-which-version-of-dynamics-365-marketing-you-are-running). 
+> To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](https://docs.microsoft.com/dynamics365/marketing/apply-updates#find-out-which-version-of-dynamics-365-marketing-you-are-running).
 
 ### Monthly feature updates
 
+- **Customer journeys**
+    - Extended customer journey dependency tracking
+    - Validate customer journeys against system segment quota usage
+- **Marketing emails**
+    - Email editor improvements and new email templates
+    - Litmus enhancements
+    - A/B testing over all properties at once
+- **Segment management**
+    - Members filtering on top of segment
+    - Relationship between segments and journeys
+
 ### Bug fixes
+
+- **Customer journeys**
+    - Composed state information for customer journeys is no longer editable.
+    - Two different users can now stop and start a customer journey.
+    - Resolved an issue where activities were not created when two rules were applied in trigger conditions.
+- **Data services**
+    - Added a validation to prevent users from creating invalid queries to load interactions.
+- **Event management**
+    - Fixed an error that allowed multiple check-ins to be created with the same event registration ID.
+- **Marketing emails**
+    - Fixed an error that occasionally caused ```<font>``` tags to render incorrectly after editing HTML in the email content designer.
+    - Fixed an error that caused color picker colors to sometimes not apply correctly to text.
+    - Resolved an issue where the cursor disappeared when adding an anchor name.
+    - Improved rendering of email template dividers in Outlook.
+    - Fixed an error where that caused URL links on images to not save properly in the email designer.
+    - Added descriptive error notifications for issues with dynamic content in marketing emails.
+- **Marketing forms**
+    - Resolved an issue where custom registration fields were sometimes not propagated to event management client services.
+- **Marketing pages**
+    - Fixed an error where the ContactID for a SegmentSubscribed interaction was missing after using a confirmation link.
+    - Resolved an error where a duplicated query parameter caused an exception.
+- **Social posting**
+    - Resolved an issue where LinkedIn form submission consent field values were occasionally imported incorrectly.
 
 ## May 2020 update
 
@@ -53,7 +87,7 @@ The Dynamics 365 Marketing May 2020 update includes several feature enhancements
 
 > [!IMPORTANT]
 > With the May 2020 release, all [Marketing 2020 release wave 1 plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/planned-features) features are now generally available. 
-> 
+>
 > Beginning in May, updates will occur automatically, corresponding with the [amended 2020 release wave 1 deployment schedule](https://docs.microsoft.com/power-platform/admin/general-availability-deployment#deployment-schedule). We will gradually implement the new update policy for instances eligible for automatic upgrade, so organizations may not see any immediate impact to their eligible instances. Organizations can still [manually update using the Marketing Setup Wizard](https://docs.microsoft.com/dynamics365/marketing/apply-updates) if there is an update that has not yet been applied.
 >
 > [Learn more about the automatic update policy](https://cloudblogs.microsoft.com/dynamics365/it/2020/04/27/automatic-update-policy-for-dynamics-365-marketing/).
