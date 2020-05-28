@@ -70,7 +70,7 @@ Quick replies can be classified and tagged into categories. The categorization c
 
 ## Associate quick responses to a work stream
 
-For organizations with diverse lines of businesses, agents will send a variety of messages depending on their area of expertise. Administrators can determine which quick replies are necessary for different groups of agents to use. Administrators can associate quick replies with work streams in order show agents only the quick replies that apply to them. If no workstream is associated, the quick reply is available for all agents. 
+For organizations with diverse lines of businesses, agents will send a variety of messages depending on their area of expertise. Administrators can determine which quick replies are necessary for different groups of agents to use. Administrators can associate quick replies with work streams in order show agents only the quick replies that apply to them. If no work stream is associated, the quick reply is available for all agents. 
 
 1. Sign in to Omnichannel Administration.
 
@@ -80,7 +80,7 @@ For organizations with diverse lines of businesses, agents will send a variety o
 
 4. In the **Workstreams** section, click the ellipsis.
 
-5. Select **Add Existing Workstream**.
+5. Select **Add Existing Work Stream**.
 
 6. Select the work stream from the list of records and then click **Add**.
 
