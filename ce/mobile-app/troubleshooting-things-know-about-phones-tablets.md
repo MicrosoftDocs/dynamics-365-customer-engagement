@@ -46,41 +46,7 @@ When using Dynamics 365 for phones and tablets, you encounter the following mess
 
  For more information see, [Troubleshoot "We can’t find any apps for your role"  error message](https://support.microsoft.com/help/4486472/we-can-t-find-any-apps-for-your-role-message-in-dynamics-365-for-phone).
 
-## Troubleshoot issues where user does not have the Dynamics 365 for mobile privilege
 
-Make sure you have these [required privileges](https://docs.microsoft.com/dynamics365/customer-engagement/mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets#required-privileges) before using the mobile app.
-
-## Troubleshoot error code 800c0019 on Windows Phones
-
-If you get error code 800c0019 when you try to sign in to your [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] account while using the [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express-long.md)] or [!INCLUDE[pn_crm_for_phones_express](../includes/pn-crm-for-phones-express.md)] apps, chances are that you have the wrong date and time settings on your [!INCLUDE[pn_windows8](../includes/pn-windows8.md)] phone. This can occur after updating your [!INCLUDE[pn_windows8](../includes/pn-windows8.md)] phone, removing and replacing the battery, or after a time change.
-
- In most cases, your phone’s date and time is set automatically by your mobile operator. If it’s not, you need to set it manually so you can sign in to your [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] account successfully. Here’s how:
-
-1.  On **Start**, flick left to the **App** list and tap **Settings**.
-
-2.  Tap **Date+time**.
-
-3.  Turn off **Set automatically**.
-
-4.  Set the correct values for **Time zone**, **Date**, and **Time**.
-
-
-## Troubleshoot a Windows app start-up error
-
-If you receive this error:
-
- **Additional steps may be needed to configure [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] for this organization. Please contact your system administrator**.
-
-##### If you’re using a computer or tablet
-
-|             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Users:**  |                                                                                                                                                                                                                                                                                             Notify your administrator that you received this error.                                                                                                                                                                                                                                                                                              |
-| **Admins:** | To enable the [!INCLUDE[pn_microsoft_dynamics_crm_for_windows_81](../includes/pn-microsoft-dynamics-crm-for-windows-81.md)] app for Dynamics 365 Customer Engagement (on-premises) deployments, you need to make some configuration changes. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up Dynamics 365 for phones and tablets](../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md) <br/>
-**Important:** Customer Engagement (on-premises) deployments require Windows 10 and the [Dynamics 365 apps for Windows app built for Windows 10](https://go.microsoft.com/fwlink/p/?LinkID=799909). |
-  
-##### If you’re using a Windows phone  
- You received this error because you’re trying to connect to a Customer Engagement (on-premises) deployment, which is  not supported for your version on Windows Phones. Windows Phone connection to [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)] on-premises requires the [Dynamics 365 apps for Windows app built for Windows 10](https://go.microsoft.com/fwlink/p/?LinkID=799909). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Support for Dynamics 365 for phones and tablets](../mobile-app/support-phones-tablets.md)  
   
 
 ## Error message: Your device configuration is preventing sign-in
@@ -170,10 +136,6 @@ For other device manufacturers, please email Dynamics 365 Mobile Support dynmobi
   
  ![Terry Adam's Dynamics 365 apps License](../admin/media/mobile-app-social-engagement-icense.png "Terry Adam's Dynamics 365 apps License")  
   
-## Error message: You need an internet connection to use this app. Reconnect and try again
- **Cause 1**: This error can occur if you do not have an Internet connection. Verify you are connected to the Internet and can access the same URL in your web browser.  
-  
- **Cause 2**: Check if you are using a preview build of Windows 8.1. So far this issue has only been reported with the preview version of Windows 8.1.  
   
 ## Error message: Sorry, something went wrong while initializing the app. Please try again, or restart the app  
  **Cause 1**: Permissions might not be set properly. See "Required privileges" in [Get started with Dynamics 365 for phones and Dynamics 365 for tablets](set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md#BKMK_GetStartedTablets).  
@@ -203,62 +165,7 @@ For other device manufacturers, please email Dynamics 365 Mobile Support dynmobi
 ## Error message: The process assigned to this record is unavailable or has been deleted 
  If you receive this message for a record which has a non-deleted process assigned to it, you should manually synchronize [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] with your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] data. Close the [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] app, reopen, and then choose to download the latest customizations. This procedure forces [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] to check for updated customizations. Recently viewed data while you were connected is cached and synched. Record data like Accounts or Contacts are not synched. You can’t choose which data synchronizes to the device like you can with [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)].  
   
-## Error message: This operation failed because you’re offline. Reconnect and try again
- This error may occur for the following scenarios when you are using a [!INCLUDE[pn_windows8](../includes/pn-windows8.md)] device and you have a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] organization that uses [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] (formerly named Live ID). This issue doesn’t occur for organizations provisioned through [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)].  
-  
- **Cause 1**: You are automatically authenticated as a different [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] that is not a member of the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization. This may happen if you sign into your [!INCLUDE[pn_windows8](../includes/pn-windows8.md)] device and your domain account is connected to a [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)]. For example: you sign in to your device as *\<userid>*@contoso.com (your domain account) and that account is connected to *\<userid>*@live.com (a [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)]). If your connected account (for example,  *\<userid>*@live.com) is not a member of the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization, you will encounter this error. In this scenario, the error occurs after providing your URL, but you are never prompted for credentials. When you connect your domain account to a [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)], that account will be used to automatically sign in to apps and services that use [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] for authentication. If you’re using a [!INCLUDE[pn_windows8](../includes/pn-windows8.md)] device, use the steps listed here to check if your domain account is connected to a [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)]. If you’re using a [!INCLUDE[pn_Windows_RT](../includes/pn-windows-rt.md)] device, see the **Windows RT** section.  
-  
- **Windows 8**  
-  
-1. Swipe from the right side of the screen to access the charms bar and then tap **Settings**.  
-  
-   ![Windows 8 charms bar](../admin/media/mobile-app-bar.png "Windows 8 charms bar")  
-  
-2. Tap **Change PC settings**.  
-  
-   ![Change PC settings](../admin/media/mobile-app-change-pc-settngs.png "Change PC settings")  
-  
-3. Tap **Users**.  
-  
-4. Check to see if under the **Your Account** section it says “This domain account is connected to *\<Your Microsoft account>*”  
-  
-   ![Your Account settings](../admin/media/mobile-app-your-account.png "Your Account settings")  
-  
-   **Windows RT**  
-  
-   If you are using a [!INCLUDE[pn_Windows_RT](../includes/pn-windows-rt.md)] device and need to authenticate as a [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] that is different than the one you use to log on to your device, you must create another account and switch to that account when using the app. For example: you currently sign in to your [!INCLUDE[pn_Windows_RT](../includes/pn-windows-rt.md)] device as *\<userid>*@live.com, but want to access your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization via the tablet app as *\<userid>*@outlook.com. For more information on how to create a new account on your device, see [Video: Create a user account](https://go.microsoft.com/fwlink/p/?LinkId=513273).  
-  
-   **Sample Trace Message for Cause 1**:  
-  
-   `The app couldn’t navigate to https://port.crm.dynamics.com/portal/notification/notification.aspx?lc=1033&organizationid=<OrganizationId> because of this error: FORBIDFRAMING.`  
-  
-   **Cause 2**: This error may occur if you previously authenticated to the app as a different Microsoft account and chose the option “Keep me signed in”. Even after uninstalling and reinstalling the app, the token for the previous credentials is still stored on your device. If you are trying to connect as a different user, you will need to remove the token. To completely clear the app, after you uninstall the app, you must clear the Indexed DB folder (Drive:\Users\\%USERNAME%\AppData\Local\Microsoft\Internet Explorer\Indexed DB). You may have to sign in as a different user and use the command prompt as an administrator to clear the Indexed DB folder. That is because some files in this folder can be held by the Host Process for Windows Tasks. Once the token is successfully removed, you should see the sign-in page after you enter your URL in the app.  
-  
-   ![Sign&#45;in page](../admin/media/mobile-app-signin-page.png "Sign-in page")  
-  
-   The same error as Cause 1 may be found in the traces.  
-  
-   **Cause 3**: You have not accepted your invitation to the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization. If you attempt to access the same URL through your browser, you see a notification that you are invited to the organization but need to accept the invitation. Once you accept the invitation, you are able to configure the app successfully.  
-  
-   **Sample Trace Message for Cause 3**:  
-  
-   `The app couldn’t navigate to https://port.crm.dynamics.com/portal/response/Response.aspx?token=KFES-CK5C-NL8R-X1U0&expiration=635211904207200000&cs=Lkya6zs9EeOtJXjjtRc6AeZa5xqt94YAppfqrXFgZa5slinq2iaabTmwfX0AR4HLGvz&cb=invite&cbcxt=invite&wlid=<username>%40live.com&lc=1033 because of this error: FORBIDFRAMING.`  
-  
-   For each of the causes listed previously, you may also see the following event logged in the traces:  
-  
-   `“Authentication: Failed - cookie setup”`  
-  
-   **Cause 4**: If you connect to a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization on an Android device, this error can occur if the certificate from the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] website or the federated server, such as AD FS, is not trusted by the device. To avoid this scenario, make sure to use a publicly trusted certificate or add the Certificate Authority certificate to the device. For more information, see KB article: [While configuring Dynamics CRM for phones and tablets, you receive an error message](https://support.microsoft.com/kb/2899983).  
-  
-## Error message, [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)]: We’re sorry. Your server is not available or does not support this application
- Users must update to the latest version of the [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../includes/pn-microsoft-dynamics-crm-for-good.md)] application prior to updating to [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online-2015-update-1.md)]. On the [Apple App store](https://go.microsoft.com/fwlink/p/?LinkID=524762), the version the users need is 1.1. On the [Good Dynamics Marketplace](https://go.microsoft.com/fwlink/p/?LinkId=524809) or (Good Control Console), the version needed is listed as 1.1.0.  
-  
- Users who have not updated their app prior to connecting to [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online-2015-update-1.md)], will likely see the following error approximately 2 minutes after connecting to [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online-2015-update-1.md)].  
-  
- Error: We’re sorry. Your server is not available or does not support this application.  
-  
- To fix this error, the user must uninstall and reinstall the [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../includes/pn-microsoft-dynamics-crm-for-good.md)] app using the version listed above.  
-  
+
 ## Event 10001 messages appear in the Event Log when you run [!INCLUDE[pn_crm_for_windows_8](../includes/pn-crm-for-windows-8.md)]  
  The following event may be recorded multiple times to the Event Log, when **Show Analytic and Debug Logs** is enabled, on the device where [!INCLUDE[pn_crm_for_windows_8](../includes/pn-crm-for-windows-8.md)] is running. Notice that, by default, **Show Analytic and Debug Logs** is disabled in [!INCLUDE[pn_Event_Viewer](../includes/pn-event-viewer.md)] and these messages won’t be recorded. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable Analytic and Debug Logs](https://technet.microsoft.com/library/cc749492.aspx)  
   
@@ -275,32 +182,7 @@ For other device manufacturers, please email Dynamics 365 Mobile Support dynmobi
   
  If a user needs to retry signing in, they’ll see “—d” in the web address. They can sign in with the modified URL or reset it to the URL normally used.  
   
-## After providing credentials the app appears to load indefinitely and never completes  
- This can occur if the time on the device is not within a certain variance of the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server. For example: you may encounter this issue if the time on the server is 2 PM on November 11th but the device is set to 2 PM on November 12th.  
-  
- ![Welcome screen timeout](../admin/media/mobile-app-welcometimeout.png "Welcome screen timeout")  
-  
- You may see events like the following logged multiple times in the trace files:  
-  
- `Dynamics CRM [PAL] | Authentication: Token Expired with Token Timeout value (-255674015) --- Retrieving new Auth Token from shim`  
-  
- For possible resolution, see [Microsoft Dynamics CRM for Phone and Tablets cannot connect to Dynamics CRM organization due to length of TokenLifetime](https://support.microsoft.com/kb/3034570)  
-  
-## [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] users are repeatedly prompted for sign-in credentials and can’t sign in  
- **Cause**: This can occur if certain directories under the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] website have Windows Authentication enabled. For [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] to successfully connect to a new deployment of [!INCLUDE[pn_crm_2013_server](../includes/pn-crm-2013-server.md)] or [!INCLUDE[pn_crm_2015_server](../includes/pn-crm-2015-server.md)], you must run a **Repair** of [!INCLUDE[pn_crm_2013_server](../includes/pn-crm-2013-server.md)] or [!INCLUDE[pn_crm_2015_server](../includes/pn-crm-2015-server.md)], on the server running IIS where the Web Application Server role is installed after the Internet-Facing Deployment Wizard is successfully completed.  
-  
-> [!IMPORTANT]
->  To resolve this issue by running **Repair**, the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] deployment must already be configured for claims-based authentication and IFD.
->
-> [!NOTE]
->  When the logon prompt appears, it is an [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] logon prompt instead of the sign-in page of your Secure Token Service (STS) such as [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../includes/pn-active-dir-fed-svcs-ad-fs.md)]. The prompt looks like the one shown here.  
-  
- ![Active Directory Sign in](../admin/media/mobile-app-adfs-login.png "Active Directory Sign in")  
-  
- After you tap **Cancel** or enter credentials 3 times, you see the correct sign-in prompt.  
-  
- ![ADFS Sign&#45;in prompt](../admin/media/mobile-app-adfs-login-2.png "ADFS Sign-in prompt")  
-  
+ 
 ## Redirected URLs do not work when you configure [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] or [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)]  
  URLs that redirect, such as [!INCLUDE[pn_iis](../includes/pn-iis.md)] host headers or link-shortening websites such as tinyurl or bitly, do not work when you use the URL in the **Dynamics 365 apps web address** field with [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] or [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] during configuration.  
   
