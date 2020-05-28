@@ -81,7 +81,7 @@ These rights survive this agreement.
 >   or subprocessor of personal data in connection with the software, Microsoft
 >   makes the commitments in the European Union General Data Protection
 >   Regulation Terms of the Online Services Terms to all customers effective May
->   25, 2018, at <https://docs.microsoft.com/en-us/legal/gdpr>.
+>   25, 2018, at <https://docs.microsoft.com/legal/gdpr>.
 
 **6. TRANSFER TO ANOTHER DEVICE.** You may uninstall the software and install it
 on another device for your use. You may not share this license on multiple
@@ -99,7 +99,7 @@ your license to access the service.
 **8. MICROSOFT DYNAMICS INSIDER PROGRAM.** Your access to the software is made
 available on account of your participation in the Microsoft Dynamics Insider
 Program, and subject to the Microsoft Dynamics Insider Program Agreement at
-<https://docs.microsoft.com/en-us/dynamics365/legal/dynamics-insider-agreement>.
+<https://docs.microsoft.com/dynamics365/legal/dynamics-insider-agreement>.
 You may lose access to the service if a) your organization terminates its
 participation in the Microsoft Dynamics Insider Program, or b) your organization
 decides to terminate your access to this Private Preview.

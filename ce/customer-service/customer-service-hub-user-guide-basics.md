@@ -1,7 +1,7 @@
 ---
 title: "Learn the basics of the Customer Service Hub app | Microsoft Docs"
 description: "Learn the basics of the Customer Service Hub for Customer Service"
-ms.date: 05/18/2020
+ms.date: 05/26/2020
 ms.service:
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -26,7 +26,7 @@ The Customer Service Hub's intuitive interface brings together vital information
 - **Mobile**
     - iOS 10 - Tablet & Phone
     - Android - Tablet + Phone (Android 6 and 7)
-    - Windows 10 
+    - Windows 10
 
 ## Open the Customer Service Hub
 
@@ -72,9 +72,6 @@ To access the Customer Service Hub app on a mobile device:
 
 The Customer Service Hub comes with an enhanced sitemap to enable easy navigation of the interface. To learn more, see [Understand the sitemap navigation](#understand-the-sitemap-navigation).
   
-> [!NOTE]
-> The navigation bar for the Customer Service Hub is different from the navigation bar in the Common Data Service platform. </br> Any record types that are enabled for mobile are also available for use in the Customer Service Hub. However, these records are read-only.  
-
 ## Understand the sitemap navigation
 
 1. Select the sitemap icon ![sitemap icon](media/sitemap-icon.png "Sitemap"). Select Service, and then select an entity record type.
@@ -85,7 +82,7 @@ When you select a record type from the menu, such as Accounts, Contacts, or Case
 
 To view recently opened records, select the down-arrow next to the record type in the sitemap.
 
-  Here is what each entity record type is used for:
+Here is what each entity record type is used for:
 
   - **Dashboards** collect all your most important data in one place. You can select from multiple dashboards as per your role.
   - **Activities** help you keep track of tasks, email messages, appointments, phone calls and much more.
@@ -114,12 +111,11 @@ To return to the list of records, select **Open Views** in the command bar.
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use interactive dashboards to effectively manage service cases](customer-service-hub-user-guide-dashboard.md)
   
-
 ## Navigate through records and pages  
 
 When you're viewing a record:
 
-1. Select and expand **Open Record Set** to navigate to other records. 
+1. Select and expand **Open Record Set** to navigate to other records.
 
     ![open record set behavior in top nav](channel-integration-framework/media/Nav-fly-out-1.png "open record set in top nav") 
 
@@ -136,10 +132,8 @@ More information: [Create and manage queues](https://docs.microsoft.com/dynamics
   
 - To create records quickly by filling in only the most basic information, select the **New** button ![Create button](../customer-service/media/quick-create-button.png "Create button") given on the nav bar.
 
-
   > [!TIP]
   > On a mobile device, from the nav bar, tap ![ellipsis](media/ellipsis.png) and then tap **Quick Create Menu**.
-
 
 ## Email a link
 
@@ -149,12 +143,12 @@ You can email links to records so your colleagues can quickly find these records
 
 Forms are designed to help you quickly handle important customer service tasks and complete actions from a single place.
 
-Understand the different components of a form below:
+The different components of a form are explained in the following sections.
   
 ### Business processes
 
-In the Customer Service Hub, forms for cases and knowledge articles include a process bar (also called a business process flow), which appears when you save the record for the first time. 
- 
+In the Customer Service Hub, forms for cases and knowledge articles include a process bar (also called a business process flow), which appears when you save the record for the first time.
+
 When you select a process stage on the process bar, you'll see the steps to take to complete that stage. A flag on a stage indicates the stage you're currently on. When you select an active stage, you can see the **Next Stage** button move to the next stage in the process.  
 
 The stages in the business process flow are displayed in floating mode, or docked mode. Stages can  be aligned in a vertical layout, instead of horizontal, which makes it easier to see what steps are required to move forward. You can also choose to include an optional step in the business process flow and define criteria to trigger it.
@@ -165,15 +159,15 @@ If there is more than one process to follow, you can switch between them by sele
   
  When a business process flow based on multiple entities is applied to a case or a knowledge article, the following limitations apply:  
   
--   The business process flow based on multiple entities isn't displayed on the form.  
+- The business process flow based on multiple entities isn't displayed on the form.  
   
--   The **Switch Process** option only shows business process flows that are based on a single entity.  
+- The **Switch Process** option only shows business process flows that are based on a single entity.  
   
--   If there are only multi-entity business process flows for an entity, the **Switch Process** option isn't available.  
+- If there are only multi-entity business process flows for an entity, the **Switch Process** option isn't available.  
 
-### Tabs
+### Tabs on the form
 
- A tab is a group of sections on a page. Each case form is composed of one or more tabs. By default, the **Summary** tab shows information about the customer, interactions with the customer, and other related records. You can select different tabs to enter or see other miscellaneous details of a record.  
+Each case form is composed of one or more tabs. By default, the **Summary** tab shows information about the customer, interactions with the customer, and other related records. You can select different tabs to enter or see other miscellaneous details of a record.  
   
 For example, here's a view of how the tabs appear on the case form:
   
@@ -183,7 +177,7 @@ For example, here's a view of how the tabs appear on the case form:
   
 |Record type|Default tabs|  
 |-----------------|------------------|  
-|Case|**Summary**. Includes the customer card, Timeline, and the Related section.<br />   **Details**. Tracks Case details, additional details, and social response details of the case. <br />**Case Relationships**. Shows a Merged Cases and Child Cases list. You can add a new child case to the current case from the Child Cases list. It also shows a list of knowledge articles associated with the case.<br />**SLA**. Shows the related SLA KPI Instance records that are created for each SLA KPI that is tracked for the case. <br />**Related**. Shows related entities like Knowledge Base records and Connections.|
+|Case|**Summary**. Includes the customer card, Timeline, and the Related section.<br />   **Details**. Tracks Case details, additional details, and social response details of the case. <br />**Case Relationships**. Shows merged cases, child cases, and associated knowledge articles. You can add a child case to the current case from the Child Cases list. It also shows a list of knowledge articles associated with the case.<br />**SLA**. Shows the related SLA KPI Instance records that are created for each SLA KPI that is tracked for the case. <br />**Related**. Shows related entities, such as activities and connections.|
 |Account|**Summary**. Includes the customer card, Timeline, and the Related section.<br />**Details**. Tracks additional details like company profile, marketing details, contact preferences, and billing and shipping.<br />**Related**. Shows related common entities.| 
 |Contact|**Summary**. Includes the customer card, Timeline, and the Related section.<br />**Details**. Tracks additional details like personal information, marketing details, contact preferences, and billing and shipping. <br />**Related**. Shows related common entities.| 
 |Activities|Activity forms shows a tab called Task for the respective activity and a Related tab for common entities. |  
@@ -192,13 +186,13 @@ For example, here's a view of how the tabs appear on the case form:
 
 ### Contact card
 
- See a complete view of your customer's touch points in the Contact card. This card is available in the **General Information** section of the **Summary** tab.  
+See a complete view of your customer's touch points in the Contact card. This card is available in the **General Information** section of the **Summary** tab.  
   
 ![contact-card](media/contact-card.png "Contact card")
 
- You can add a picture to the account or contact record in the Common Data Service platform, and it will appear on this card. You can make calls to customers from the Contact card using Skype for Business – IP telephony.
+You can add a picture to the account or contact record in the Common Data Service platform, and it will appear on this card. You can make calls to customers from the Contact card using Skype for Business – IP telephony.
   
- For account records, the card shows contact details for the primary contact associated with the account. For contact records, the card appears if the contact is the customer value on the case form.  
+For account records, the card shows contact details for the primary contact associated with the account. For contact records, the card appears if the contact is the customer value on the case form.  
 
 ### Timeline
 
@@ -295,12 +289,12 @@ You can select the **Enter a note** box in the timeline and specify a title and 
 |![Add a Table](../customer-service/media/add-table.png "Add a Table")| Add a Table |  | Add a table to your content. <br /><br />After adding a table, you can do any of the following:<br /><br /><ul><li>Resize table columns by clicking and dragging your mouse to resize to the columns to the desired width.</li><li>Select one or several cells within a table and apply specific formatting, add links to the selection, or cut, copy, or paste entire rows or columns.</li><li>Right-click to access the properties. This supports features such as cell type, width and height, word wrapping, alignment, merging and splitting cells horizontally and vertically, inserting or deleting rows and columns, row and column span, and cell and border color.</li></ul>|
 |![Expand Toolbar](../customer-service/media/show-more.png "Expand Toolbar")| Expand Toolbar |  | Displays when the toolbar is collapsed and not all options appear. Click to expand the toolbar and make all options visible. |
 
-  The feature is enabled by default, your administrator can enable or disable rich-text editor for you. To learn more, see [Enable rich-text editor for notes in timeline](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-or-disable-rich-text-editor-for-notes-in-timeline).
+The feature is enabled by default, your administrator can enable or disable rich-text editor for you. To learn more, see [Enable rich-text editor for notes in timeline](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-or-disable-rich-text-editor-for-notes-in-timeline).
 
   > [!Note]
   > You can format only the message (body), and not the title.
 
-  You can also add an attachment to your notes, and the attachment is displayed below the note. At anytime, you can attach one file. Before adding the note, if you want upload another file than the one you've selected, you can again browse and choose another file. This will replace the already selected file.
+You can also add an attachment to your notes, and the attachment is displayed below the note. At anytime, you can attach one file. Before adding the note, if you want upload another file than the one you've selected, you can again browse and choose another file. This will replace the already selected file.
 
   ![Timeline notes and attachment](media/timeline-attachment.png "Timeline notes and attachment")
 
@@ -371,8 +365,7 @@ Select an activity from the timeline to expand and view.
   
 #### Configure Timeline section for your users
 
- To learn more about configuration, see [Set up timeline section (control)](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control) and [FAQs for timeline control](https://docs.microsoft.com/powerapps/maker/model-driven-apps/faqs-timeline-control) in the Microsoft Power Apps documentation.
-
+To learn more about configuration, see [Set up timeline section (control)](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control) and [FAQs for timeline control](https://docs.microsoft.com/powerapps/maker/model-driven-apps/faqs-timeline-control) in the Microsoft Power Apps documentation.
 
 ### Related section
 
@@ -389,7 +382,7 @@ The third tab in the Related section of a case record displays **Similar Cases**
 
 ![similar-cases](media/similar-cases.png "Similar cases in Reference panel")
 
- Watch this video to learn more about the Reference Panel in the Customer Service Hub:
+Watch this video to learn more about the Reference Panel in the Customer Service Hub:
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/d8224c3f-6e20-4b8e-9d0d-b0f5602c7708" frameborder="0" allowfullscreen=""></iframe></div>
 
@@ -699,6 +692,5 @@ To create a new site, you need to go to **Advanced find** ![Advanced find](media
 
 ### See also
 
-[Create and design forms for Customer Service Hub](create-design-forms-customer-service-hub.md)
-
+[Create and design forms for Customer Service Hub](create-design-forms-customer-service-hub.md)  
 [Track your cases efficiently and act on them quickly](customer-service-hub-user-guide-case-sla.md)

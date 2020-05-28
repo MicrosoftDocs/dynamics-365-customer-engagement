@@ -1,7 +1,7 @@
 ---
 title: "Domain authentication (Dynamics 365 Marketing) | Microsoft Docs "
 description: "Authenticate your domains to maximize email deliverability with DKIM and enable embedding of Dynamics 365 Marketing forms on your own website in Dynamics 365 Marketing"
-ms.date: 10/04/2019
+ms.date: 05/26/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -11,7 +11,7 @@ author: alfergus
 ms.author: alfergus
 manager: shellyha
 ms.reviewer:
-topic-status: Drafting
+topic-status: 
 search.audienceType: 
   - admin
   - customizer
@@ -25,20 +25,20 @@ search.app:
 
 Domain authentication is important for two reasons:
 
-- For *marketing email messages*, it enables recipient email servers to confirm that the from-address shown on each of your messages actually belongs to your organization, and that your organization has approved Dynamics 365 Marketing to send messages on its behalf. Messages that fail this test are increasingly likely to get filtered away as spam, which can dramatically impact your deliverability.
-- For *externally hosted forms*, it confirms that you own the domain and therefore establishes an enhanced trust relationship with your domain, which enables embedded marketing forms to be prefilled with data for known contacts.
+- For *marketing email messages*, domain authentication enables recipient email servers to confirm that the from-address shown on each of your messages belongs to your organization. Authentication also confirms that your organization has approved Dynamics 365 Marketing to send messages on its behalf. Messages that fail this test are increasingly likely to get filtered away as spam, which can dramatically impact your deliverability.
+- For *externally hosted forms*, domain authentication confirms that you own the domain, establishing an enhanced trust relationship with your domain. The enhanced trust relationship enables embedded marketing forms to be prefilled with data for known contacts.
 
 The primary purpose of email-domain authentication is to detect forged messages and domains, and thereby prevent spam, phishing, and other fraudulent activity. A method called _DomainKeys Identified Mail_ (DKIM) helps make these authentications possible. Domain authentication is implemented through the internet DNS system, and is based on public/private key encryption and signatures.
 
-When you error check or go live with a marketing email message, the verification system makes sure the message uses a from-address that specifies an authenticated domain registered and confirmed for your organization. You'll get a warning if you try to send a message that has a from-address that has an unregistered domain; you'll get an error if you try to send a message that uses a from-address that uses a domain that is registered as belonging to another organization. You can ignore the warning (but will probably have low deliverability), but you can't go live with the error.
+When you error check or go live with a marketing email message, the verification system requires that the message uses a from-address that specifies an authenticated domain registered and is confirmed for your organization. You'll get a warning if you try to send a message that has a from-address from an unregistered domain. You'll also get an error if you try to send a message that uses a from-address from a domain that is registered as belonging to another organization. You can ignore the warning (but will probably have low deliverability), but you can't go live with the error.
 
 To learn more about email marketing and deliverability see [Best practices for email marketing](get-ready-email-marketing.md). To learn more about embedded forms and prefilling, see [Integrate with landing pages on external websites](embed-forms.md).
 
 ## The default authenticated domain
 
-By default, all new Dynamics 365 Marketing installations come with a pre-authenticated sending domain ending in "-dyn365mktg.com". This means that you can begin sending authenticated emails right away, but you should still authenticate your own actual sending domains right away so your authenticated messages will show a from address that recipients will recognize as coming from your organization.
+By default, all new Dynamics 365 Marketing installations come with a pre-authenticated sending domain ending in "-dyn365mktg.com". The pre-authenticated domain means that you can begin sending authenticated emails right away. But you should still authenticate your own actual sending domains right away so your authenticated messages will show a from address that recipients will recognize as coming from your organization.
 
-When a user creates a new email, the **From address** is automatically set to the email address registered for that user's Dynamics 365 Marketing user account. However, if that email address uses a domain that is not yet authenticated using DKIM, then the initial **From address** will be modified to use an authenticated domain (email addresses use the form *account-name*@*domain-name*). The resulting **From address** will still show the *account-name* of the user creating the message, but will now show a DKIM-authenticated *domain-name* that's registered for your Marketing instance (for example, "MyName@contoso-dyn365mktg.com"), which will provide the deliverability benefit, but probably isn't a valid return address. Users can overrule this by editing the **From address** after creating the message, but this will probably lower message deliverability.
+When a user creates a new email, the **From address** is automatically set to the email address registered for that user's Dynamics 365 Marketing user account. However, if that email address uses a domain that is not yet authenticated using DKIM, then the initial **From address** will be modified to use an authenticated domain (email addresses use the form *account-name*@*domain-name*). The resulting **From address** will still show the *account-name* of the user creating the message, but will now show a DKIM-authenticated *domain-name* that's registered for your Marketing instance (for example, "MyName@contoso-dyn365mktg.com"), which will provide the deliverability benefit, but probably isn't a valid return address. Users can overrule this by editing the **From address** after creating the message, but this will lower message deliverability.
 
 ## Which domains to authenticate
 
@@ -83,7 +83,7 @@ To set up Dynamics 365 Marketing and the DNS to authenticate marketing email mes
 `TXT value: d365mktkey=abc123abc123abc123abc123`  
 
 **CNAME record**  
-`Host name or Alias: eurkey1.\_domainkey`  
+`Host name or Alias: eurkey1._domainkey`  
 `Points to address: eurkey1contosocom.marketing.dynamics.com`
 
 

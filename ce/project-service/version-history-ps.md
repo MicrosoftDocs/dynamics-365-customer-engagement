@@ -31,7 +31,7 @@ search.app:
 
 | Solution  | Latest version |
 |-------|----|
-| Project Service Automation    |  3.10.30.41  |
+| Project Service Automation    |  3.10.31.23  |
 | Project Service Automation desktop add-in                | 3.15          |
 
 For information about updates to Project Service, see the [Dynamics 365 release plans](https://docs.microsoft.com/dynamics365/release-plans/). 
@@ -39,22 +39,21 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 |  | Region | Current version | Next version |  Scheduled date
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Station 2</strong> | |  |  | |
-| | <i>South America</i> |[3.10.30.41](whats-new-ur-19.md)|  TBD | May 1, 2020
-| | <i>Canada</i> |[3.10.30.41](whats-new-ur-19.md)| TBD | May 1, 2020 
-| | <i>India</i> |[3.10.30.41](whats-new-ur-19.md)| TBD | May 1, 2020
-| | <i>France</i> |[3.10.30.41](whats-new-ur-19.md)|  TBD | May 1, 2020
-| | <i>United Arab Emirates</i> |[3.10.30.41](whats-new-ur-19.md)|  TBD | May 1, 2020
-| | <i>South Africa</i> |[3.10.30.41](whats-new-ur-19.md)|  TBD | May 1, 2020
-| | <i>Germany</i> |[3.10.30.41](whats-new-ur-19.md)| TBD | May 1, 2020
+| | <i>South America</i> |[3.10.30.41](whats-new-ur-19.md)|  [3.10.31.23](whats-new-ur-20.md) | May 29, 2020
+| | <i>Canada</i> |[3.10.30.41](whats-new-ur-19.md)| [3.10.31.23](whats-new-ur-20.md) | May 29, 2020 
+| | <i>India</i> |[3.10.30.41](whats-new-ur-19.md)| [3.10.31.23](whats-new-ur-20.md) | May 29, 2020
+| | <i>France</i> |[3.10.30.41](whats-new-ur-19.md)|  [3.10.31.23](whats-new-ur-20.md) | May 29, 2020
+| | <i>United Arab Emirates</i> |[3.10.30.41](whats-new-ur-19.md)|  [3.10.31.23](whats-new-ur-20.md) | May 29, 2020
+| | <i>South Africa</i> |[3.10.30.41](whats-new-ur-19.md)|  [3.10.31.23](whats-new-ur-20.md) | May 29, 2020
+| | <i>Germany</i> |[3.10.30.41](whats-new-ur-19.md)| [3.10.31.23](whats-new-ur-20.md) | May 29, 2020
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> |[3.10.30.41](whats-new-ur-19.md)| TBD | May 8, 2020 
-| | <i>Asia Pacific</i> |[3.10.30.41](whats-new-ur-19.md)| TBD |  May 8, 2020
-| | <i>Great Britain</i> |[3.10.30.41](whats-new-ur-19.md)| TBD |  May 8, 2020
-| | <i>Oceana</i> |[3.10.30.41](whats-new-ur-19.md)| TBD |  May 8, 2020
+| | <i>Japan</i> |[3.10.30.41](whats-new-ur-19.md)| [3.10.31.23](whats-new-ur-20.md) | June 5, 2020 
+| | <i>Asia Pacific</i> |[3.10.30.41](whats-new-ur-19.md)| [3.10.31.23](whats-new-ur-20.md) |  June 5, 2020
+| | <i>Great Britain</i> |[3.10.30.41](whats-new-ur-19.md)| [3.10.31.23](whats-new-ur-20.md) |  June 5, 2020
+| | <i>Oceana</i> |[3.10.30.41](whats-new-ur-19.md)| [3.10.31.23](whats-new-ur-20.md) |  June 5, 2020
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> |[3.10.30.41](whats-new-ur-19.md)| TBD | May 15, 2020
+| | <i>Europe</i> | [3.10.30.41](whats-new-ur-19.md)| [3.10.31.23](whats-new-ur-20.md) | June 12, 2020
 |<strong>Station 5</strong> | |  |  | |
-| | <i>North America</i> |[3.10.7.32](whats-new-ur-17-5.md)| [3.10.8.12](whats-new-ur-18.md)  | May 22, 2020
+| | <i>North America</i> |[3.10.30.41](whats-new-ur-19.md)| [3.10.31.23](whats-new-ur-20.md)  | June 19, 2020
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> |[3.10.7.32](whats-new-ur-17-5.md) |  [3.10.8.12](whats-new-ur-18.md)  | May 29, 2020
-| | <i>China</i> |[3.10.7.32](whats-new-ur-17-5.md)| [3.10.8.12](whats-new-ur-18.md) | May 29, 2020
+| | <i>Government Community Cloud</i> |[3.10.7.32](whats-new-ur-17-5.md) |  [3.10.31.23](whats-new-ur-20.md)  | June 26, 2020
