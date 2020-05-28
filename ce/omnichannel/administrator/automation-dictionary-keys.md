@@ -44,7 +44,7 @@ Macros are a set of configured sequential actions that are executed on demand by
 
 When the agent runs the macro, the system replaces these parameter keys with the actual values based on the context of the session, channel provider, Common Data Service, and user actions. 
 
-When the context is from a session, the marco action is executed based on the information for a current session, where the information is obtained from an Anchor tab or current tab that's in focus.
+When the context is from a session, the macro action is executed based on the information for a current session, where the information is obtained from an Anchor tab or current tab that's in focus.
 
 For example, to create a case, you need to define the actions that contain the  incident entity form and the GUID of the form (optional).
 
