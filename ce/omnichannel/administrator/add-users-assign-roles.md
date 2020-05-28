@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 applies_to: 
-ms.date: 11/22/2019
+ms.date: 05/27/2020
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ---
@@ -52,7 +52,7 @@ To view and manage omnichannel users, see [Manage users in Omnichannel for Custo
 Each role in Omnichannel for Customer Service can perform a set of actions based on the privileges. 
 
 > [!NOTE]
-> Omnichannel users (agents and supervisors) should be assigned **Customer service app access** role.
+> Omnichannel users (agents and supervisors) should be assigned **Customer service app access** and **Customer Service Representative** role.
 
 |Role  |Privileges  |
 |---------|---------|

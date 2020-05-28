@@ -1,37 +1,49 @@
 ---
-title: "Embed chat widget in Power Apps portals | MicrosoftDocs"
-description: "Instructions to embed chat widget in Power Apps portals."
+title: "Embed chat widget in your portal | MicrosoftDocs"
+description: "Instructions to embed chat widget in your website or Power Apps portal."
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 12/13/2019
+ms.date: 05/21/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
 ---
 
-# Embed chat widget in Power Apps portals
+# Embed chat widget in your website or Power Apps portal
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+
+## Embed chat widget in your web portal
+
+To embed a chat widget in your web portal:
+
+1.	Sign in to Omnichannel Administration.
+2.	Go to **Channels** &gt; **Chat**.
+3.	Open the chat widget you want to embed in your website.
+4.	On the **Basic details** tab, copy the widget snippet code from the **Code snippet** section.
+5.  Paste the chat widget snippet code in the HTML source of your website. 
+
+## Embed chat widget in your Power Apps portal
 
 To embed a chat widget in Power Apps portals:
 
 1.	Sign in to Omnichannel Administration.
 2.	Go to **Channels** &gt; **Chat**.
 3.	Open the chat widget you want to embed in Power Apps portals.
-5.	On the **Basic details** tab, copy the widget snippet code from the **Code snippet** section.
+4.	On the **Basic details** tab, copy the widget snippet code from the **Code snippet** section.
     > [!div class=mx-imgBorder]
     > ![Copy code snippet of a chat widget](../media/chat-widget-snippet.png "Copy code snippet of a chat widget")
-6.	[Open the Portal Management app](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-portal).
-7.	Go to **Portal** > **Content Snippets**.
-8.	Find the **Chat Widget Code** content snippet and open it.
+5.	[Open the Portal Management app](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-portal).
+6.	Go to **Portal** > **Content Snippets**.
+7.	Find the **Chat Widget Code** content snippet and open it.
     > [!div class=mx-imgBorder]
     > ![Go to Chat Widget Code content snippet in portal](../media/portal-content-snippet.png "Go to Chat Widget Code content snippet in portal")    
-9.	On the **General** tab, scroll-down to the **Value (HTML)** section.
-10.	Paste the chat widget snippet code in the **HTML** tab.
-    > [!div class=mx-imgBorder]
+8.	On the **General** tab, scroll-down to the **Value (HTML)** section.
+9.	Paste the chat widget snippet code in the **HTML** tab.
+    >[!div class=mx-imgBorder]
     > ![Paste code snippet of a chat widget](../media/paste-snippet.png "Paste code snippet of a chat widget")
-11.	Save the changes. The chat widget is now embedded into the portal.
+10.	Save the changes. The chat widget is now embedded into the portal.
 
 ## Customer experience of chat widget
 

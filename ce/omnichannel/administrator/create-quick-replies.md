@@ -4,7 +4,7 @@ description: "Instructions to set up quick responses in Omnichannel for Customer
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 05/06/2020
+ms.date: 05/26/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -29,12 +29,21 @@ Quick responses are pre-defined messages that can be created for agents to quick
 
     - **Message**: Enter the text of the message.
 
-        > [!NOTE]
-        > This field supports slugs, but the slug editor isn't available in this release.
-
     > [!div class=mx-imgBorder]
     > ![Create a quick reply](../media/oc-create-a-quick-reply.png "Create a quick reply")
 
+     This field supports the following slugs:
+
+        CUSTOMER_FULLNAME: "{FullName{Customer}}"
+        CUSTOMER_LASTNAME: "{LastName{Customer}}"
+        CUSTOMER_NICKNAME: "{NickName{Customer}}"
+        AGENT_FULLNAME: "{FullName{Agent}}"
+        AGENT_FIRSTNAME: "{FirstName{Agent}}"
+        AGENT_LASTTNAME: "{LastName{Agent}}"
+        AGENT_NICKNAME: "{Nickname{Agent}}"
+
+      For more information, see [Slugs](automation-dictionary-keys.md#slugs).
+      
 6. Select **Save**.
 
 ## Create or edit tags for common categories of quick responses
@@ -61,7 +70,7 @@ Quick replies can be classified and tagged into categories. The categorization c
 
 ## Associate quick responses to a work stream
 
-For organizations with diverse lines of businesses, agents will send a variety of messages depending on their area of expertise. Administrators can determine which quick replies are necessary for different groups of agents to use. Administrators can associate quick replies with work streams in order show agents only the quick replies that apply to them. 
+For organizations with diverse lines of businesses, agents will send a variety of messages depending on their area of expertise. Administrators can determine which quick replies are necessary for different groups of agents to use. Administrators can associate quick replies with work streams in order show agents only the quick replies that apply to them. If no work stream is associated, the quick reply is available for all agents. 
 
 1. Sign in to Omnichannel Administration.
 
@@ -71,7 +80,7 @@ For organizations with diverse lines of businesses, agents will send a variety o
 
 4. In the **Workstreams** section, click the ellipsis.
 
-5. Select **Add Existing Workstream**.
+5. Select **Add Existing Work Stream**.
 
 6. Select the work stream from the list of records and then click **Add**.
 
