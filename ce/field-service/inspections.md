@@ -141,9 +141,25 @@ An inspection completed by a technician will be visible on the bottom of the wor
 
 ## Perform inspection 
 
-After the work order is scheduled to the appropriate technician, they can see and complete the inspection by logging in to Field Service in a web browser on a mobile device or PC.
+After the work order is scheduled to the appropriate technician, they can see and complete the inspection by logging in to Field Service in a web browser (on a mobile device or PC), on [Field Service (Dynamics 365)](mobile-2020-power-platform.md) (as shown below), or [Field Service Mobile](field-service-mobile-overview.md) (coming soon).
 
 Sign in with your Dynamics 365 URL, username, and, and go to the assigned work order.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inspections-fsm-new1.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inspections-fsm-new2.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inspections-fsm-new3.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inspections-fsm-new4.png)
 
 Select the **Work Order Service Task** (*not* the **Service Task Type**).
 
