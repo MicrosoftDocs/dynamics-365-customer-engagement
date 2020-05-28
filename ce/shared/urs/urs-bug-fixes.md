@@ -14,6 +14,7 @@
 - Fixed the focus shifting issue on the Schedule Board, where Focus is shifted to a previous booking in focus, when Booking Status of the Booking assigned to a Resource at the bottom of the Resource list. With this fix, the focus would stay on the Booking in context. 
 - Fixed a translation issue on Requirement Groups in Japanese, where the name of the Requirement or Subgroups changes from Japanese to English when the record is saved. 
 - Quick Scheduling now supports and handles different date format styles like English (South Africa).  
+- Fixed an issue withe the **Allow Overlapping** funtionality on the Bookings. With this Bug fix, when a Booking is marked as **Allow Overlapping**=Yes, Schedule Assistant (Find Availability) will show the above Booking as an available timeslot if the **Allow Overlapping** advanced setting on the filter view is selected. 
 
 ## 3.12.21.9
 
