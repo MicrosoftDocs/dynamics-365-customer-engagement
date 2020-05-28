@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 Sales troubleshooting guide  | MicrosoftDocs"
 description: "A starting point for browsing troubleshooting content for Dynamics 365 Sales."
-ms.date: 04/30/2020
+ms.date: 05/26/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -55,10 +55,9 @@ manager: annbe
 
 <h2>Forecasting</h2>
 
-
-<li><a href="ts-forecasts.md#publish_forecast_definition" data-raw-source="[I can't publish forecast definition](ts-forecast.md#publish_forecast_definition)">I can't publish forecast definition</a></li>
-<li><a href="ts-forecasts.md#recalculate_forecast" data-raw-source="[I can't recalculate the forecast](ts-forecasts.md#recalculate_forecast)">I can't recalculate the forecast</a></li>
 <li><a href="ts-forecasts.md#territory_based_forecast_issues" data-raw-source="[Territory-based forecast issues and resolution](ts-forecasts.md#territory_based_forecast_issues)">Territory-based forecast issues and resolution</a></li>
+<li><a href="ts-forecasts.md#hide_forecast_category_field" data-raw-source="[Unable to hide forecast category field in Opportunity forms](ts-forecasts.md#hide_forecast_category_field)">Unable to hide forecast category field in Opportunity form</a></li>
+<li><a href="ts-forecasts.md#unable_view_forecasts" data-raw-source="[Unable to view forecasts](ts-forecasts.md#unable_view_forecasts)">Unable to view forecasts</a></li>
 
 </td><td>
 
@@ -106,3 +105,10 @@ manager: annbe
 
 </td>
 </tr>
+
+<tr><td>
+<h2>Integrations</h2>
+<li><a href="ts-linkedin-integration.md#error-in-enabling-linkedin-updates" data-raw-source="[Error in enabling LinkedIn updates](ts-linkedin-integration.md#error-in-enabling-linkedin-updates)">Error in enabling LinkedIn updates</a></li>
+</td></tr>
+
+</table>

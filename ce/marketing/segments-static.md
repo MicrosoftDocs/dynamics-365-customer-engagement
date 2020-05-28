@@ -2,7 +2,7 @@
 title: "Design a static segment (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to create a static segment by selecting specific contacts individually in Dynamics 365 Marketing"
 keywords: segment; compound segment
-ms.date: 05/15/2020
+ms.date: 05/19/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -27,6 +27,8 @@ search.app:
 Static segments enable you to choose and add segment members manually based on existing lists or search results.
 
 To create a static segment, go to **Customers** > **Segments**. Click the **New** dropdown on the top ribbon. Then, select the **Static Segment** option, as described in [Create and go live with a new segment](segmentation-lists-subscriptions.md#create-segment).
+
+![Add a new static segment](media/static-segment-1.png "Add a new static segment")
 
 ## Using static segments
 

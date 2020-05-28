@@ -44,7 +44,7 @@ Follow the steps in the order provided to set up Dynamics 365 (on-premises) with
 
 ### Verify prerequisites
 Before you configure Dynamics 365 (on-premises) and Exchange Online for server-based authentication, the following prerequisites must be met:
-- The Dynamics 365 (on-premises) deployment must already be configured and available through the Internet. More information: [Configure IFD for Microsoft Dynamics 365](configure-ifd-for-dynamics-365.md)
+- The Dynamics 365 (on-premises) deployment must already be configured and available through the Internet. More information: [Configure IFD for Dynamics 365 Customer Engagement (on-premises)](../deploy/configure-ifd-for-dynamics-365.md)
 - Microsoft Dynamics 365 Hybrid Connector. The Microsoft Dynamics 365 Hybrid Connector is a free connector that lets you use server-based authentication with Microsoft Dynamics 365 (on-premises) and Exchange Online. More information: [Microsoft Dynamics 365 Hybrid Connector](https://admin.microsoft.com/Signup/Signup.aspx?OfferId=2d11d538-945d-48c6-b609-a5ce54ce7b18&pc=76ac7a4d-8346-4419-959c-d3896e89b3c9)
 - An x509 digital certificate issued by a trusted certificate authority that will be used to authenticate between Dynamics 365 (on-premises) and Exchange Online. If you are evaluating server-based authentication, you can use a self-signed certificate.
 - Verify that all servers that run the Asynchronous Processing Service have the certificate that is used for Server-to-Server authentication.

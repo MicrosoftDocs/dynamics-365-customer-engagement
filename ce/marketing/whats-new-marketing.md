@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 05/01/2020
+ms.date: 05/27/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -138,7 +138,7 @@ The Dynamics 365 Marketing April 2020 update includes several feature enhancemen
     - New modern and accessible email templates.
     - Accessibility checker for emails, forms, and pages with guidance on suggested fixes.
 - **Marketing forms**
-    - Cascading form fields (parent/child fields) are now available in marketing forms, expanding customization options.
+    - [Cascading form fields (parent/child fields)](marketing-forms.md#Cascading-form-fields) are now available in marketing forms, expanding customization options.
 - **Segment management**
     - Improved template design gallery interface.
     - Improved date picker operation by adding a "Within x" operator.

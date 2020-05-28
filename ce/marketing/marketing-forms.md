@@ -2,7 +2,7 @@
 title: "Set up and manage marketing forms for use in marketing pages (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about various types of marketing forms and how to create them in Dynamics 365 Marketing"
 keywords: marketing form, fields
-ms.date: 03/08/2019
+ms.date: 05/27/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -12,7 +12,7 @@ author: alfergus
 ms.author: alfergus
 manager: shellyha
 ms.reviewer:
-topic-status: Drafting
+topic-status: 
 search.audienceType: 
   - admin
   - customizer
@@ -34,7 +34,7 @@ Each marketing form is made from a collection of fields, buttons, graphical elem
 
 As with marketing pages, each marketing form has a type, which maps directly to the page type where you can use that form. Though you can include more than one form on a marketing page, all forms on the page must be of the same type, and that type must match the type of the page itself. The available types are:
 
-- **Landing page form**: This is a general-purpose form for collecting contact information on marketing pages that are neither subscription centers nor forwarding forms. Landing page forms can also offer mailing-list subscriptions for opt-in, but they can't show the visitor their current subscriptions or allow them to opt out of any lists (for this, they must use a subscription form). When the form is submitted, Dynamics 365 Marketing tries to match the incoming data to an existing contact; if a match is found, the matching record is updated, otherwise a new record is created. The new or updated contact will also be subscribed to each mailing list where the check box is selected, but will not change their subscription status for any mailing list where the check box is cleared.
+- **Landing page form**: This is a general-purpose form for collecting contact information on marketing pages that are not subscription centers or forwarding forms. Landing page forms can also offer mailing-list subscriptions for opt-in, but they can't show the visitor their current subscriptions or allow them to opt out of any lists (for this, they must use a subscription form). When the form is submitted, Dynamics 365 Marketing tries to match the incoming data to an existing contact; if a match is found, the matching record is updated, otherwise a new record is created. The new or updated contact will also be subscribed to each mailing list where the check box is selected, but will not change their subscription status for any mailing list where the check box is cleared.
 - **Subscription form**: Provides fields where contacts can view and edit their contact details, and shows a collection of mailing lists (with check boxes) where the contact can add or remove subscriptions. When the form is submitted, all contact fields are updated to match the submission, and the contact is removed from all lists where the check box is cleared and added to all lists where the check box is selected. A subscription form only modifies existing contacts, and never creates new ones.
 - **Forward to a friend**: Provides a short collection of fields, each of which will accept an email address entered by a contact when forwarding a marketing message to other colleagues.
 
@@ -42,14 +42,14 @@ You should usually choose your form type before you start designing the form. Fo
 
 ## Create and edit marketing forms
 
-To create a new marketing form, do one of the following:
+To create a new marketing form, do one of the following actions:
 
 - Go to **Marketing** > **Internet marketing** > **Marketing forms** to go to the list of all forms currently available on your instance, and then select **New** in the command bar. You'll first be asked to choose a template, which establishes the form type, column layout, and sample content. Then you'll be in the form designer.
 - While working on an existing [marketing page design](create-deploy-marketing-pages.md), add a form element to your design, and then select **New** on the **Properties** tab instead of choosing an existing form (be sure to save your page design first if you haven't already done so). You'll then be asked to choose a template, which establishes the form type, column layout, and sample content. Then you'll be in the form designer.
 
 The form designer is similar to other types of [digital content designers](design-digital-content.md) in Dynamics 365 Marketing, but only provides design elements and settings that are appropriate for marketing forms.
 
-To edit an existing form, do one of the following:
+To edit an existing form, do one of the following actions:
 
 - Go to **Marketing** > **Internet marketing** > **Marketing forms** to go to the form list page. Use the search, sort, and filter controls to find the form you want to edit, and then select its name in the list to go to the form designer.
 - Open a marketing page where you use the form, select the form element in the canvas, and then go to the **Properties** tab of the page designer and open it from there.
@@ -67,7 +67,7 @@ The header settings are available at the top of the page no matter which tab is 
 - **Name**: Enter a name for the form. This is the name you'll see in the forms list and when adding the form to a marketing page.
 - **Form type**: Choose whether the form should function as a **Landing page**, **Subscription center**, or **Forward to a friend** form. This setting affects the requirements for what your form must contain and where you can use it. More information: [Marketing form types](#form-types) and [Design and validate your form content](#form-content)
 - **Update contacts/leads**: Choose which types of records can be created or updated in response to a form submission. Usually you should leave this set to **Contacts and leads**, which will update both types of records and link them together as needed to support lead scoring and insights. However, you might instead choose to update **Only contacts** or **Only leads** if you want to prevent one of these types of records from being changed. More information: [How form settings affect lead scoring and interaction records](#form-setting-effects)
-- **Status reason**: Shows the current go-live status of the form. A form must be live before you can used it in a marketing page or embed it on an external site. You can't change this setting here; use buttons on the command bar instead. More information: [Go live to make your marketing form available for use](#form-go-live)
+- **Status reason**: Shows the current go-live status of the form. A form must be live before you can use it in a marketing page or embed it on an external site. You can't change this setting here; use buttons on the command bar instead. More information: [Go live to make your marketing form available for use](#form-go-live)
 
 ![Form settings in the header](media/form-header-settings.png "Form settings in the header")
 
@@ -80,7 +80,7 @@ The following settings and information are provided on the **Summary** tab:
 - **Generate leads without matching**: This setting controls whether or not the form will attempt to match an existing lead (using the specified **Lead matching strategy**), or if instead it will always create a new lead for each submission. Set to **No** to apply the matching strategy, or to **Yes** to create a new lead every time.
 - **Purpose** and **Visual style**: These fields provide more information about the form. For form templates, these values affect how the form can be found on the **Purpose** and **Visual style** tabs of the template gallery. These settings don't affect the actual layout or functionality of the form in any way.
 - **Prefill fields**: Set to **Yes** to enable prefilling for the form; set to **No** to disable it. You can only change this option for landing-page forms&mdash; subscription-center forms always use prefilling, while forward-to-a-friend forms never use it. More information: [Enable prefilling for forms](form-prefill.md)
-- **Submission behavior**: These settings establish how the form interacts with people who submit it. They establish the default settings for when you place the form in a marketing page using a [form element](content-blocks-reference.md#form-element), though you can override these by editing the form element properties. They also establish the behavior for when the form is embedded on an external website. The following setting are provided here:
+- **Submission behavior**: These settings establish how the form interacts with people who submit it. They establish the default settings for when you place the form in a marketing page using a [form element](content-blocks-reference.md#form-element), though you can override these by editing the form element properties. They also establish the behavior for when the form is embedded on an external website. The following settings are provided here:
     - **Success notification**: Enter a message to show to visitors right after they submit the form. Use this to thank the submitter and confirm their submission.
     - **Success image URL**: The success-notification message is rendered as an overlay dialog that includes a small graphic. By default, it shows a green circle with a check mark. If you prefer a custom graphic (such as your organization's logo), then upload the graphic somewhere and enter the full URL here.
     - **Error notification**: Enter a short message that tells the user that a temporary error has prevented the system from accepting the form submission. For example, "We can't accept your form submission right now. Please try again later."
@@ -113,7 +113,7 @@ When a form is submitted with **Update contact/leads** set to **Contacts and lea
 - If **Generate leads without matching** is set to **No**, the system applies the **Lead matching strategy** to look for an existing lead that matches the submission.
   - If a matching lead is found, update its fields to match the submission.
   - If no lead is found, create a new one based on the submission.
-- The systems stores the found/created contact ID in the **Parent Contact for lead** lookup field for the found/created lead.
+- The system stores the found/created contact ID in the **Parent Contact for lead** lookup field for the found/created lead.
 - The system generates a form-submitted interaction record with both the found/created lead ID and the found/created contact ID.
 
 #### Create/update leads only
@@ -182,6 +182,23 @@ When you're done designing your form, select **Check for errors** and to make su
 > [!IMPORTANT]
 > Forms are nearly always intended to create or update one or more database records&mdash;especially contact or lead records. However, record creation will fail if any fields required by the database are missing when the form is submitted. When you're designing a form, always be sure to identify all of the fields required by your database, and add a form element with its **Required** check box selected for each of them. That will ensure that contacts who submit the form will get an error message if any required values are missing. If you don't do this, then form submissions may simply be ignored without informing contacts of the problem. Your database could be customized to require fields that you don't expect, so be sure to talk to your system customizer or administrator if you're not sure which fields are required. The **Check for errors** function for forms doesn't identify all of the fields required by your database, especially custom fields, so you can't depend on it to inform you of this issue. Always be sure to test your form to confirm that it creates the types of records you expect it to.
 
+## Cascading form fields
+
+Cascading fields allow you to create hierarchy relationships between two option fields in a marketing form. You can use cascading fields to create parent-child relationships for filtering option sets from a parent field. The filtering will show users fewer options from the child set once the user chooses an option from the parent level. The child option set stays hidden until a choice is made in the parent option set. Supported [data fields](marketing-fields.md#field-type-and-format-options) for creating cascading fields include option sets, two options, and multi-select option sets.
+
+To create a cascading field:
+
+1. Add two multi-select options or option set (radio button) fields to a form.
+1. Click on the child set that you want to nest into the parent field.
+1. On the **Properties** pane, go to **Field attributes** > **Filter by** and click **Set up relationships**.
+
+    ![Field attributes](media/cascading-fields.png "Field attributes")
+
+1. Set the parent and child options that will be connected.
+
+> [!NOTE]
+> If there are no fields that can be selected as a parent, the **Field attributes** section is not shown.
+
 <a name="form-go-live"></a>
 
 ## Go live to make your marketing form available for use
@@ -212,7 +229,7 @@ More information: [The form element for marketing pages](content-blocks-referenc
 
 ## View submissions and gain insights from form interactions
 
-Once your form is part of a live marketing page, it will start to collect information about how people are using it, including records of form submissions and other details. The system provides a wealth of information, including analyitics, KPIs, graphs, and more, to help you gain insights from your marketing results. More information: [Analyze results to gain insights from your marketing activities](insights.md)
+Once your form is part of a live marketing page, it will start to collect information about how people are using it, including records of form submissions and other details. The system provides a wealth of information, including analytics, KPIs, graphs, and more, to help you gain insights from your marketing results. More information: [Analyze results to gain insights from your marketing activities](insights.md)
 
 ### See also
 

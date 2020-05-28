@@ -6,7 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 applies_to: 
   - ""
-ms.date: 05/12/2020
+ms.date: 05/26/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -83,6 +83,10 @@ If your organization is using a URL filter to block a category of websites or UR
 
 Add the following URLs for your users to access the Omnichannel for Customer Service app and live chat widget in the portal:
 
+- `https://*.teams.microsoft.com`
+- `https://ecs.office.com`
+- `https://*.skype.com`
+- `https://browser.pipe.aria.microsoft.com`
 - `https://plat.teams.microsoft.com`
 - `https://aad.skypetoken.skype.com`
 - `https://authsvc.teams.microsoft.com`
@@ -92,7 +96,7 @@ Add the following URLs for your users to access the Omnichannel for Customer Ser
 - `https://api.aps.skype.com/*`
 - `https://*.asm.skype.com`
 - `https://*.ng.msg.teams.microsoft.com/* `
-- `https://*.notifications.teams.microsoft.com/* ` 
+- `https://*.notifications.teams.microsoft.com/*`
 - `https://*.omnichannelengagementhub.com/*`
 - `https://cdn.botframework.com/botframework-webchat`
 - `https://webchatic3.blob.core.windows.net`
@@ -101,8 +105,12 @@ Add the following URLs for your users to access the Omnichannel for Customer Ser
 
 If your customers are using a URL filter to block a category of websites or URLs, you might have to ask your customers to allow a specific website as an exception.
 
-Customers must be able to access the following URLs from their browsers in order to use the live chat widget in the portal:
+Customers must be able to access the following URLs from their browsers to use the live chat widget in the portal:
 
+- `https://*.teams.microsoft.com`
+- `https://ecs.office.com`
+- `https://*.skype.com`
+- `https://browser.pipe.aria.microsoft.com`
 - `https://oc-cdn-ocprod.azureedge.net/livechatwidget`
 - `https://cdn.botframework.com/botframework-webchat`
 - `https://webchatic3.blob.core.windows.net`
