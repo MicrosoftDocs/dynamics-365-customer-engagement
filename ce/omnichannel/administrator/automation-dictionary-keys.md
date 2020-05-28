@@ -125,7 +125,7 @@ Macros and agent scripts support the following slugs:
 | `${entityRoutingRecordId}` | The unique ID of the entity record, if the notification is for an entity record. To learn more, see [Entity records routing](../../omnichannel/administrator/entity-channel.md). |
 | `${customerEntityName}` | The name of the entity (contact or account), if the customer is authenticated. |
 | `${customerRecordId}` | The unique ID of the entity (contact or account), if the customer is authenticated. |
-| `${<name of the pre-chat survey questions>}` | All the pre-chat survey questions that are configured for a workstream will have the slug name as the name of the question. |
+| `${<name of the pre-chat survey questions>}` | All the pre-chat survey questions that are configured for a work stream will have the slug name as the name of the question. |
 
 #### Format for slugs for productivity tools
 
@@ -193,7 +193,7 @@ A *slug* is a replacement parameter that the system populates at runtime based o
 | `{entityRoutingRecordId}` | The unique ID of the entity record, if the notification is for an entity record. To learn more, see [Entity records routing](../../omnichannel/administrator/entity-channel.md). |
 | `{customerEntityName}` | The name of the entity (contact or account), if the customer is authenticated. |
 | `{customerRecordId}` | The unique ID of the entity (contact or account), if the customer is authenticated. |
-| `{<name of the pre-chat survey questions>}` | All the pre-chat survey questions that are configured for a workstream will have the slug name as the name of the question. |
+| `{<name of the pre-chat survey questions>}` | All the pre-chat survey questions that are configured for a work stream will have the slug name as the name of the question. |
 
 #### Format for slugs for templates
 
@@ -246,4 +246,4 @@ Session title = `Chat conversation`
 - [Manage session templates](session-templates.md)
 - [Manage application tab templates](application-tab-templates.md)
 - [Manage notification templates](notification-templates.md)
-- [Associate templates with workstreams](associate-templates.md)
+- [Associate templates with work streams](associate-templates.md)
