@@ -282,13 +282,23 @@ Another Field Service setting for inventory is **Use Of Products out of Stock**.
 
 ### Known issues
 
+- **Issue:** Permission error when creating a new product from **Field Service > Settings > Products > Add Product** (in top ribbon)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/error-permission-product-publish.png)
+
+- **Fix:** Adding Read privileges to the following entities in the image below would allow the user to add and publish products successfully.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/error-permission-opportunities-fix.png)
+
 - **Issue:** Permisiion error when adding product-based line items to Opportunities.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/error-permission-opportunities.png)
 
-- **Fix:** Adding the following security privileges in the image below would allow the user to add opportunity line items to opportunities within the Field Service solution.
+- **Fix:** Adding Read privileges to the following entities in the image below would allow the user to add opportunity line items to opportunities within the Field Service solution.
 
 
 > [!div class="mx-imgBorder"]
