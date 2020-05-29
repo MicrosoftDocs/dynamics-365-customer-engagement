@@ -32,7 +32,7 @@ We roll out updates on a region-by-region basis. Updates are available to all re
 
 ## June 2020 update
 
-The Dynamics 365 Marketing June 2020 update includes several feature enhancements including a revamped form capture experience, performance upgrades, and bug fixes.
+The Dynamics 365 Marketing June 2020 update includes several feature enhancements including customer journey improvements, email editor improvements, improved segment management, performance upgrades, and bug fixes.
 
 ### Version number
 
@@ -46,38 +46,39 @@ The Dynamics 365 Marketing June 2020 update includes several feature enhancement
 ### Monthly feature updates
 
 - **Customer journeys**
-    - Extended customer journey dependency tracking
-    - Validate customer journeys against system segment quota usage
+    - See which segments are used in a customer journey in the new **Segments used** section in the customer journey's **General** tab.
+    - A new quota tracking feature issues a warning when creating customer journeys if a user is near the segmentation quota limit.
 - **Marketing emails**
-    - Email editor improvements and new email templates
-    - Litmus enhancements
-    - A/B testing over all properties at once
+    - Email editor performance enhancements.
+    - New email templates including one, two, and three column newsletters, a form double opt-in template, and a new welcome template.
+    - Improved Litmus email preview tracking on the Marketing Welcome page.
+    - A/B test email subjects, from names, email bodies, or the entire content of emails.
 - **Segment management**
-    - Members filtering on top of segment
-    - Relationship between segments and journeys
+    - Quickly filter segment members using improved controls in the **Members** tab.
+    - See which customer journeys use a segment in the new **Related customer journey** section in the segment's **General** tab.
 
 ### Bug fixes
 
 - **Customer journeys**
     - Composed state information for customer journeys is no longer editable.
-    - Two different users can now stop and start a customer journey.
+    - Resolved an error that occurred when different users tried to stop and start a customer journey.
     - Resolved an issue where activities were not created when two rules were applied in trigger conditions.
 - **Data services**
-    - Added a validation to prevent users from creating invalid queries to load interactions.
+    - Added validation to prevent creating invalid interaction queries.
 - **Event management**
-    - Fixed an error that allowed multiple check-ins to be created with the same event registration ID.
+    - Fixed an error that allowed multiple check-ins with the same event registration ID.
 - **Marketing emails**
     - Fixed an error that occasionally caused ```<font>``` tags to render incorrectly after editing HTML in the email content designer.
     - Fixed an error that caused color picker colors to sometimes not apply correctly to text.
     - Resolved an issue where the cursor disappeared when adding an anchor name.
     - Improved rendering of email template dividers in Outlook.
     - Fixed an error where that caused URL links on images to not save properly in the email designer.
-    - Added descriptive error notifications for issues with dynamic content in marketing emails.
+    - Added descriptive error notifications for dynamic content in marketing emails.
 - **Marketing forms**
     - Resolved an issue where custom registration fields were sometimes not propagated to event management client services.
 - **Marketing pages**
     - Fixed an error where the ContactID for a SegmentSubscribed interaction was missing after using a confirmation link.
-    - Resolved an error where a duplicated query parameter caused an exception.
+    - Resolved an error where a duplicated query parameter caused a program exception.
 - **Social posting**
     - Resolved an issue where LinkedIn form submission consent field values were occasionally imported incorrectly.
 
