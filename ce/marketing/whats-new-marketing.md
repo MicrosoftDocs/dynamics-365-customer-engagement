@@ -55,7 +55,7 @@ The Dynamics 365 Marketing June 2020 update includes several feature enhancement
     - Email editor UI enhancements.
 - **Segment management**
     - Quickly filter segment members using the new search function in the **Members** tab.
-    - See which customer journeys use a segment in the new **Related customer journey** section in the segment's **General** tab.
+    - See which customer journeys use a segment in the new **Customer journeys using segment** section in the segment's **General** tab.
 
 ### Bug fixes
 
