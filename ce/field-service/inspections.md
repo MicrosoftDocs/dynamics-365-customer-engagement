@@ -141,9 +141,11 @@ An inspection completed by a technician will be visible on the bottom of the wor
 
 ## Perform inspection 
 
-After the work order is scheduled to the appropriate technician, they can see and complete the inspection by logging in to Field Service in a web browser (on a mobile device or PC), on [Field Service (Dynamics 365)](mobile-2020-power-platform.md) (as shown below), or [Field Service Mobile](field-service-mobile-overview.md) (coming soon).
+After the work order is scheduled to the appropriate technician, they can see and complete the inspection by logging in to Field Service in a web browser (on a mobile device or PC), logging in to the [Field Service (Dynamics 365)](mobile-2020-power-platform.md) mobile app (as shown below), or logging in to [Field Service Mobile](field-service-mobile-overview.md) (Inspection capabilities will be available on Field Service Mobile soon).
 
-Sign in with your Dynamics 365 URL, username, and, and go to the assigned work order.
+The following pictures show inspections on the [Field Service (Dynamics 365)](mobile-2020-power-platform.md) mobile app.
+
+Sign in with your Dynamics 365 URL, username, and password and go to the assigned work order.
 
 Select the **Work Order Service Task** that has the related inspection.
 
@@ -161,7 +163,7 @@ Technicians can upload files, take pictures, or upload pictures from the phone's
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-fsm-new3.png)
 
-When finished, the technician can select **Mark Complete** at the top or set **Complete %** to 100. 
+When finished, the technician can select **Mark Complete** or set **Complete %** to 100. 
 
 Enter a **Result** to report on overall inspection:
 - Pass
@@ -174,19 +176,11 @@ Enter a **Result** to report on overall inspection:
 > ![Screenshot of ](./media/inspections-fsm-new4.png)
 
 
-
-
-
-
-
-
-
-
-Optionally, enter an **Actual Duration** that can be compared to estimated duration.
+**Actual Duration** - enter an actual duration the work order service task took to complete that can be compared to estimated duration.
 
 If an inspection question is required, the technician will not be able to mark **Complete** or set **% Completed** to 100 until it is answered.
 
-If needed, a technician can select **Clear Responses** to start over. This will permanently delete all responses for this service task inspection.
+**Clear Responses**- If needed, a technician can select  **More > Clear Responses** to start over. This will permanently delete all responses for this service task inspection.
 
 ## View responses
 
