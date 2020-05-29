@@ -2,7 +2,7 @@
 title: "Create products or services for Work Orders | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 11/16/2019
+ms.date: 05/29/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
@@ -279,6 +279,20 @@ Another Field Service setting for inventory is **Use Of Products out of Stock**.
 
 - Inventory adjustments products can have a positive or negative quantity to increment or decrement inventory as needed.
 - Integrating work order product inventory with ERP systems is typically executed with work order product, inventory journals, or invoice records.
+
+### Known issues
+
+- **Issue:** Permisiion error when adding product-based line items to Opportunities.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/error-permission-opportunities.png)
+
+- **Fix:** Adding the following security privileges in the image below would allow the user to add opportunity line items to opportunities within the Field Service solution.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/error-permission-opportunities-fix.png)
   
 ### See also  
  - [Create a price list](../field-service/create-price-list.md)    
