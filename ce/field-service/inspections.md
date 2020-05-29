@@ -252,7 +252,7 @@ Next, we need to retrieve the inspection responses.
 
 Add a step using the **Get record** action in "Dynamics 365." 
 
-Choose **Inspection Responses** as the entity to get and **Inspection Response ID** in the item identifier because this field has the inspection answers. 
+Choose **Inspection Responses** as the entity to get and **Inspection Response ID** in the item identifier because this field has the ID of the inspection response record.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Power Automate showing the get record part of a flow showing inspection responses in the item identifier field.](./media/inspections-workflow-fetch-inspection-response.png)
