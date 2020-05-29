@@ -49,12 +49,12 @@ The Dynamics 365 Marketing June 2020 update includes several feature enhancement
     - See which segments are used in a customer journey in the new **Segments used** section in the customer journey's **General** tab.
     - A new quota tracking feature issues a warning when creating customer journeys if a user is near the segmentation quota limit.
 - **Marketing emails**
-    - Email editor performance enhancements.
     - New email templates including one, two, and three column newsletters, a form double opt-in template, and a new welcome template.
     - Improved Litmus email preview tracking on the Marketing Welcome page.
     - A/B test email subjects, from names, email bodies, or the entire content of emails.
+    - Email editor UI enhancements.
 - **Segment management**
-    - Quickly filter segment members using improved controls in the **Members** tab.
+    - Quickly filter segment members using the new search function in the **Members** tab.
     - See which customer journeys use a segment in the new **Related customer journey** section in the segment's **General** tab.
 
 ### Bug fixes
