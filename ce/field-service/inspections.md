@@ -336,6 +336,9 @@ Save and test your flow.
 
 ### Copy inspections 
 
+You can make a copy of an inspection. This is helpful if your organization has multiple inspections that are mostly similar.
+
+From the list of inspections, select an inspection (1), click Copy in the top ribbon (2), and a new inspection with the same questions will be created (3) with a Draft status.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-copy.png)
