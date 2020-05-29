@@ -32,7 +32,7 @@ Quick responses are pre-defined messages that can be created for agents to quick
       > [!div class=mx-imgBorder]
       > ![Create a quick reply](../media/oc-create-a-quick-reply.png "Create a quick reply")
 
-     The **Message** field supports the following slugs:  
+     The **Message** field supports the following slugs.  
 
     | Slug | Description | 
     |-----------------|-----------------------------|
@@ -40,7 +40,7 @@ Quick responses are pre-defined messages that can be created for agents to quick
     | {LastName{Customer}}| The last name of the customer.|
     | {NickName{Customer}}| The nickname for the customer.|
     | {FullName{Agent}}| The full name of the agent who is assigned to the conversation.|
-    | {FirstName{Agent}}| The first name of the agent.|    
+    | {FirstName{Agent}}| The first name of the agent.|
     | {LastName{Agent}}| The last name of the agent.|
     | {Nickname{Agent}}| The nickname for the agent.|
 
