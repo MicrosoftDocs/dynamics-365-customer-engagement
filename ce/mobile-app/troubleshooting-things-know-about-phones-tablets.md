@@ -91,7 +91,9 @@ Steps to resolve the issue are device manufacturer-specific and depend which aut
 
 For **Huawei** and **Honor** device, do the following:
 
-1. Go to **Settings** > **Battery** > **App launch**.
+1. Depending on your device, do one of the following:
+    - **Settings** > **Battery** > **App launch**. 
+    - **Close apps after screen lock** > **Applications** > **Background applications**.
 2. Under **Manage automatically** for the authenticator app set the toggle switch to **OFF**.
 3. On the **Manage manually** screen ensure that **Secondary launch / Can be launched by other apps** is enabled. This will allow Dynamics 365 for phones and tablets can launch the app.
 
