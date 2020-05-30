@@ -306,7 +306,7 @@ Trigger tiles provide the following settings in the **Properties** pane while se
 > When you trigger based on email interactions, options include: delivered, opened, hard bounce, soft bounce, click, or specific click. "Click" will react to any link click, but "specific click" requires you to choose a specific link from the message based on its label (the visible link text). If you have more than one link that opens the same URL, only the first label will be shown here, but the trigger will react if the recipient clicks on any of the links that open that same URL. For more information about the various types of email interactions, see the [Insights glossary](insights-glossary.md).
 
 > [!IMPORTANT]
-> Triggers based on email interactions can occasionally follow the *true* path, even if an email bounces. In such cases, a contact will proceed to the next step of the journey on the *true* path despite not receiving the email.
+> Triggers based on email interactions can occasionally follow the *true* path, even if an email bounces. In such cases, a contact will proceed to the next step of the journey on the *true* path, despite not receiving the email message.
 
 ### Splitter and splitter-branch tiles
 
