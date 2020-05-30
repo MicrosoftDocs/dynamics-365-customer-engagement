@@ -25,7 +25,7 @@ The `<HyperLink>` element does not define an element on the web application's us
   
 ```xml  
 <HyperLink name="control name">  
-<Url>http://www.urlgoeshere.org</Url>  
+<Url>https://www.urlgoeshere.org</Url>  
 </HyperLink>  
   
 ```  

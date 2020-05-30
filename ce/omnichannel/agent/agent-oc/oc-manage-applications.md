@@ -4,7 +4,7 @@ description: "Learn how to manage applications using the application tab panel i
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 07/01/2019
+ms.date: 12/27/2019
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -35,10 +35,6 @@ On the application tab panel, select **+** to view the menu that has a list of o
 > [!div class=mx-imgBorder]
 > ![App tab menu](../../media/oceh/oceh-app-tab-select-icon.png "App tab menu")
 
-
-<!--from editor: Same question here about mouse click as above. -->
-
-
 ### Use gesture (Ctrl + click) to open an application
 
 Use a combination of keyboard and mouse-click gesture to start an application. You can press **Ctrl** and select a link to open it in a new application tab. The application opens in the current active session.
@@ -61,13 +57,10 @@ The title of the application tab is the name of the entity. For example, dashboa
 
 > [!div class=mx-imgBorder]
 > ![App tab title](../../media/oceh/oceh-app-tab-title.png "App tab title")
-
-
-> [!div class="nextstepaction"]
-> [Next topic: View agent dashboard and conversations (work items)](oc-agent-dashboard.md)
-
+ 
 ## See also
 
+- [View agent dashboard and conversations (work items)](oc-agent-dashboard.md)
 - [Manage sessions](oc-manage-sessions.md)
 - [Understand conversation states](oc-conversation-state.md)
 - [View communication panel](oc-conversation-control.md)

@@ -10,7 +10,6 @@ ms.topic: reference
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.reviewer: 
 search.audienceType: 
   - developer
 search.app: 

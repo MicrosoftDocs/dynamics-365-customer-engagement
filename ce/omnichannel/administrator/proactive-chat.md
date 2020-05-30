@@ -1,26 +1,18 @@
 ---
 title: "Configure proactive chat | MicrosoftDocs"
 description: "How to configure proactive chat in Omnichannel for Customer Service."
-author: sbmjais
-ms.author: shjais
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
-ms.date: 10/25/2019
+ms.date: 03/04/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
 ---
 
-# Preview: Configure proactive chat
+# Configure proactive chat
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
-> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided “as-is,” “with all faults,” “as available,” and without warranty.​
-> - This preview features does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
-> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../../legal/dynamics-insider-agreement.md).
-
 
 A chat channel allows your customers to engage with customer service agents using the chat widget on a website. Proactive chat allows customer service agents to engage with customers by automatically inviting them to a chat conversation based on the configured rules. Proactively engaging with a customer at the time when they need help improves customer experience and satisfaction.
 
@@ -40,6 +32,8 @@ Information about the user journey, time spent on a web page, and more can be us
     > ![Enable proactive chat](../media/proactive-chat.png "Enable proactive chat")
 
 The conditions to trigger the proactive chat are defined in the web page code in which the chat widget is embedded. If the conditions are fulfilled, the proactive chat invitation is displayed with the help of an API.
+
+For example scenarios and sample code, see [Start chat proactively](../developer/how-to/start-proactive-chat.md).
 
 ## Customer experience of proactive chat
 
@@ -69,5 +63,8 @@ If your administrator or developer configures the **Additional details** tab and
 
 To learn more, see [setContextProvider](../developer/reference/methods/setContextProvider.md).
 
+## Videos
 
+[Proactive chat in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114614)
 
+To view more videos on Omnichannel for Customer Service, see [Videos](../videos.md).

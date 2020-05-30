@@ -1,17 +1,13 @@
 ---
 title: "Configure Intraday insights for supervisors | MicrosoftDocs"
 description: "How to configure Intraday insights for Unified Service Desk and Omnichannel for Dynamics 365 Customer Service."
-author: udaykirang
-ms.author: udag
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-applies_to: 
-  - ""
-ms.date: 6/20/2019
+ms.date: 05/22/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
-ms.custom: 
-  - ""
 ---
 
 # Configure Intraday insights for supervisors
@@ -43,7 +39,7 @@ Review the following prerequisites before configuring the supervisor insights: 
 
    2. As a Power BI admin, you need to enable service principal in the **Developer settings** in the Power BI admin portal and the security group that you created in Azure AD.
    
-      a. Sign in to [Power BI service](http://app.powerbi.com) and go to **Settings** > **Admin portal**.
+      a. Sign in to [Power BI service](https://app.powerbi.com) and go to **Settings** > **Admin portal**.
            
          > [!div class=mx-imgBorder]
          > ![Select Admin portal](../media/supervisor-admin-powerbi-select-admin-portal.png "Select Admin portal") 
@@ -76,15 +72,12 @@ You must configure the Power BI workspace using the **Omnichannel Administration
     > [!div class=mx-imgBorder]
     > ![Select Omnichannel Administration](../media/supervisor-admin-select-omnichannel-administration.png "Select Omnichannel Administration")
 
-2.  From the **Site Map** ![Site map icon](../media/oc-usd-supervisor-dashboard-site-map.png "Site map icon"), select **Supervisor Experience** > **Overview Dashboard**.  
+2.  From the **Site Map** ![Site map icon](../media/oc-usd-supervisor-dashboard-site-map.png "Site map icon"), select **Supervisor Experience** > **Intraday Insights**.  
 
     > [!div class=mx-imgBorder]
     > ![Select Overview option](../media/supervisor-admin-select-overview-dashboard.png "Select Overview option")
 
     The Power BI configuration view opens.
-
-    > [!div class=mx-imgBorder]
-    > ![Configuration of Power BI workspace](../media/supervisor-admin-active-powerbi-configuration.png "Configuration of Power BI workspace")
 
 3.  Select **+ New**. 
 

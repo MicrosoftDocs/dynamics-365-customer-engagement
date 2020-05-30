@@ -50,7 +50,7 @@ The classes in the <xref:Microsoft.Xrm.Sdk.Metadata.Query> namespace and the <xr
   
 ### Persistent metadata cache
   
- When you have an application that must be able to work while disconnected from the Dynamics 365 Customer Engagement server, or that is sensitive to limited network bandwidth between the client and the server, such as a mobile application, you will want to implement a persistent metadata cache.  
+ When you have an application that must be able to work while disconnected from the Dynamics 365 Server, or that is sensitive to limited network bandwidth between the client and the server, such as a mobile application, you will want to implement a persistent metadata cache.  
   
  With a persistent metadata cache your application will have to query all the necessary metadata the first time it connects. Then you will save that data in the application. The next time the application connects to the server you can retrieve just the difference since your last query, which should be much less data to transmit, and then merge the changes into your metadata cache when your application is loading.  
   

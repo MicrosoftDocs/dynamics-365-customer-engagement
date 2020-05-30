@@ -17,8 +17,8 @@ helpviewer_keywords:
 ms.assetid: 6b2f00ca-dbac-47d8-ab4a-0be52b72f05d
 caps.latest.revision: 15
 author: JimDaly
-ms.author: jdaly
-manager: amyla
+ms.author: nabuthuk
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
@@ -26,22 +26,35 @@ search.app:
 ---
 # Sample: Validate record state and set the state of the record
 
-This sample code is for Dynamics 365 Customer Engagement (on-premises) and Common Data Service. Download the complete sample from [Business Management samples](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/BusinessManagement) 
+This sample shows how to validate a change of state of an entity and set a state of an entity. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/ValidateandExecuteSavedQuery).
 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
-  
-## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
-  
-## Demonstrates  
- This sample shows how to validate a change of state of an entity and set a state of an entity.  
-  
-## Example  
- [!code-csharp[BusinessManagement#ValidateAndSetState](../snippets/csharp/CRMV8/businessmanagement/cs/validateandsetstate.cs#validateandsetstate)]  
-  
-### See also  
- [Introduction to Entities in Dynamics 365 Customer Engagement (on-premises)](introduction-entities.md)   
- <xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>   
- <xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>   
- [Sample: Rollup records related to a specific record](sample-rollup-records-related-specific-record.md)
+[!include[cc-sample-note](includes/cc-sample-note.md)]
+
+## How to run this sample
+
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-PA-samples.md)]
+
+## What this sample does
+
+The `IsValidStateTransitionRequest` message is intended to be used in a scenario where it contains the data that is needed to validate the state transition.
+
+## How this sample works
+
+In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+
+### Setup
+
+1. Checks for the current version of the org.
+2. The `CreateRequiredRecords` method creates any entity records that this sample requires.
+
+### Demonstrate
+
+1. The `EntityReference` method creates a EntityReference to represent open case. 
+2. The `IsValidStateTransitionRequest`  method sets the transition request to an open case.
+3. The `checkState.NewState` property checks if a new state of resolved and a new state of problem solved are valid.
+4. The `IsValidStateTransitionResponse` method executes the request.
+
+### Clean up
+
+Display an option to delete the sample data that is created in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
+

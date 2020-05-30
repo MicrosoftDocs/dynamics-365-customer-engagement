@@ -43,13 +43,13 @@ WHERE i.name is not null
   
  For an approximation of the out-of-box indexes in an organization database that corresponds to a specific version of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], select from these links to download [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] worksheets that contain lists of indexes.  
   
--   [Microsoft Download Center: List of Dynamics CRM 2016 RTM out-of-box indexes](http://download.microsoft.com/download/A/2/1/A215C09C-2BCD-42B1-869F-57C137E32AC4/CRM2016RTMIndexes.xlsx)  
+-   [Microsoft Download Center: List of Dynamics CRM 2016 RTM out-of-box indexes](https://download.microsoft.com/download/A/2/1/A215C09C-2BCD-42B1-869F-57C137E32AC4/CRM2016RTMIndexes.xlsx)  
   
--   [Microsoft Download Center: List of Dynamics CRM 2015 Update 0.2 out-of-box indexes](http://download.microsoft.com/download/A/2/1/A215C09C-2BCD-42B1-869F-57C137E32AC4/CRM2015UR0.2Indexes.xlsx)  
+-   [Microsoft Download Center: List of Dynamics CRM 2015 Update 0.2 out-of-box indexes](https://download.microsoft.com/download/A/2/1/A215C09C-2BCD-42B1-869F-57C137E32AC4/CRM2015UR0.2Indexes.xlsx)  
   
--   [Microsoft Download Center: List of Dynamics CRM 2013 Service Pack 1 out-of-box indexes](http://download.microsoft.com/download/A/2/1/A215C09C-2BCD-42B1-869F-57C137E32AC4/CRM2013SP1UR2Indexes.xlsx)  
+-   [Microsoft Download Center: List of Dynamics CRM 2013 Service Pack 1 out-of-box indexes](https://download.microsoft.com/download/A/2/1/A215C09C-2BCD-42B1-869F-57C137E32AC4/CRM2013SP1UR2Indexes.xlsx)  
   
--   [Microsoft Download Center: List of Dynamics CRM 2011 Update Rollup 18 out-of-box indexes](http://download.microsoft.com/download/A/2/1/A215C09C-2BCD-42B1-869F-57C137E32AC4/CRM2011UR18Indexes.xlsx)  
+-   [Microsoft Download Center: List of Dynamics CRM 2011 Update Rollup 18 out-of-box indexes](https://download.microsoft.com/download/A/2/1/A215C09C-2BCD-42B1-869F-57C137E32AC4/CRM2011UR18Indexes.xlsx)  
   
  For more information about [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] indexes, see [SQL Server Index Architecture and Design Guide]/sql/relational-databases/sql-server-index-design-guide?view=sql-server-2016).  
   

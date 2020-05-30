@@ -62,5 +62,5 @@ To enhance your organization’s collaboration, use [!INCLUDE[pn_microsoftcrm](.
 ### See also  
  [Activity Feeds Entities](activity-feeds-entities.md)   
  [Post Entity](entities/post.md)   
- [Collaborate and communicate with Yammer](http://go.microsoft.com/fwlink/p/?LinkId=526704)   
- [Connect Microsoft Dynamics 365 Customer Engagement to Yammer](http://go.microsoft.com/fwlink/p/?LinkId=526705)
+ [Collaborate and communicate with Yammer](https://go.microsoft.com/fwlink/p/?LinkId=526704)   
+ [Connect Microsoft Dynamics 365 Customer Engagement to Yammer](https://go.microsoft.com/fwlink/p/?LinkId=526705)

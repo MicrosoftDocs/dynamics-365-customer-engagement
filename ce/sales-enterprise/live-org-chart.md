@@ -3,11 +3,11 @@ title: "Maintain an external org chart (Dynamics 365 Sales) | Microsoft Docs"
 description: "Manage live org charts by organizing contacts in Dynamics 365 Sales."
 ms.date: 10/01/2019
 ms.service: 
-  - dynamics-365-sales
+  - "dynamics-365-sales"
 ms.topic: article
-author: m-hartmann
-ms.author: mhart
-manager: shellyha
+author: shubhadaj
+ms.author: shujoshi
+manager: annbe
 ---
 
 # Organize contacts in live org charts for accounts
@@ -29,24 +29,27 @@ When entering the org chart for a new account with no contacts, a placeholder or
 
 ## Add a contact to the org chart
 
-1. Double-click the manager node which is represented with a ‘plus’ icon.   
+1. Select the manager node which is represented with a ‘plus’ icon.   
 This will open a **Lookup Records** side panel where you can search for contacts, or quickly create a new one. The search for contacts will return results for contacts which are currently not associated with another account to avoid disrupting another hierarchy. All contact searches behave in this manner.
 
    ![Lookup Records side panel to add contacts](media/org-chart-lookup-records.png)
  
-2. To create a new contact, select **New** and enter the contact details in the quick create form.
+2. To create a new contact, select **New Contact** and enter the contact details in the quick create form.
 
-3. Select **Save**.
+3. Select **Save and Close**.
 
 4. In the **Lookup Records** side panel, select **Add**. After the contact is saved, the org chart will show the contact which is now associated with the account with their full name and their job title.
 
-5. Double-click the the contact to add more contacts to the chart or edit the contact details. A contact can only have a single manager but may have many direct reports. 
+5. Double-click the contact to add more contacts to the chart or edit the contact details. A contact can only have a single manager but may have many direct reports. 
  
 ## Embedded [!INCLUDE [pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator control
 
 If you have a Sales Navigator seat, [!INCLUDE [pn-linkedin](../includes/pn-linkedin.md)] profiles are always just a few clicks away and can be used to ensure contact details remain up to date. Sign in to the service by selecting the **Sales Navigator** button. You’ll then be presented with the embedded [!INCLUDE [pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator widget, where you can match the contact and see their [!INCLUDE [pn-linkedin](../includes/pn-linkedin.md)] profile.
 
 ![Sign in to Sales Navigator from the side panel](media/org-chart-sales-navigator-control.png)
+
+> [!NOTE]
+> Removing fields from the Sales Navigator widget (Contact Details pane) or adding new fields isn't supported.
 
 ## Org chart for accounts without hierarchy
 

@@ -1,10 +1,10 @@
 ---
 title: "Configure to view Ongoing Conversations dashboard | MicrosoftDocs"
 description: "Instructions to view Ongoing Conversations dashboard for Omnichannel for Customer Service app on web."
-author: udaykirang
-ms.author: udag
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 6/20/2019
+ms.date: 06/20/2019
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article

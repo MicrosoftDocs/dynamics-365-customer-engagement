@@ -261,7 +261,7 @@ namespace Microsoft.Crm.Sdk.Samples
                         new Uri(String.Format("https://{0}/XRMServices/2011/Discovery.svc", config.ServerAddress));
                 else
                     config.DiscoveryUri =
-                        new Uri(String.Format("http://{0}/XRMServices/2011/Discovery.svc", config.ServerAddress));
+                        new Uri(String.Format("https://{0}/XRMServices/2011/Discovery.svc", config.ServerAddress));
 
                 // Get the target organization.
                 config.OrganizationUri = GetOrganizationAddress();

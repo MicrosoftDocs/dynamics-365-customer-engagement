@@ -1,11 +1,9 @@
 ---
 title: "Set up product bundles to sell multiple items together (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Combine products in a bundle in Dynamics 365 Sales to sell multiple items together."
-ms.date: 10/01/2019
-ms.service: 
+ms.date: 04/17/2020
+ms.service:
   - "dynamics-365-sales"
-ms.custom: 
-  - "dyn365-sales"
 ms.topic: get-started-article
 author: shubhadaj
 ms.author: shujoshi
@@ -14,28 +12,25 @@ manager: annbe
 
 # Set up product bundles to sell multiple items together (Sales and Sales Hub)
 
-Encourage customers to buy more products instead of a single product by combining products in a bundle.   
-  
-These are the differences between kits and bundles:  
-  
-- You can't sell the products in a kit individually or separately, but you can mark certain products in a bundle as optional and sell them individually.  
-  
-- You can't see individual products added in a kit when you create an opportunity or order, but you can see the products in a bundle.  
-  
-- You can create nested kits (kits within a kit), but you can only add products to a bundle; you cannot add product families, kits, or other bundles to a bundle.  
+Encourage customers to buy more products instead of a single product by combining products in a bundle.  
 
-Similar to a kit, a bundle is a collection of products that is sold as single unit. Product bundling is useful in cases like:  
+A bundle is a collection of products that is sold as single unit. Product bundling is useful in cases like:  
   
 - Pairing a top-selling product with a less popular product  
   
-- Grouping products in a way that customers get more benefit from the full line of products, for example, Microsoft Office Suite or a digital camera with lenses)
+- Grouping products in a way that customers get more benefit from the full line of products, for example, Microsoft Office Suite or a digital camera with lenses
 
+Here are some things to know about bundles:  
+  
+- You can mark certain products in a bundle as optional and sell them individually.  
+  
+- You can't add product families, kits, or other bundles to a bundle.  
 
 ## Create a product bundle (Sales Hub)
 
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
   
-2. Select the site map ![Site map icon](media/site-map-icon.png "Site map icon"), and then select **Products**.  
+2. Select the site map ![Site Map icon](media/site-map-icon.png "Site map icon"), then select **App Settings**, and then select **Families and Products**.  
   
 3. To add a standalone product bundle, select **Add Bundle**.  
   
@@ -43,7 +38,8 @@ Similar to a kit, a bundle is a collection of products that is sold as single un
   
     To add product bundle to an existing family, select the family in the list, and then select **Add Bundle**.  
 
-    ![Add Bundle button on the Products grid](media/add-bundle.png "Add Bundle button on the Products grid")
+    > [!div class="mx-imgBorder"]
+    > ![Add Bundle button on the Products grid](media/add-bundle.png "Add Bundle button on the Products grid")
   
 4. Fill in the information:
 
@@ -96,9 +92,6 @@ If you've added this bundle to a family, the bundle will inherit the properties 
 11. To add product relationships, select the **Related** tab, and then select **Relationships**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define related products to increase chances of sales](../sales-enterprise/define-related-products-increase-chances-sales.md)  
 
 
-## Pricing of bundles (Sales Hub)
-Typically, the pricing of products in bundles is different than the individual products. You can set a total and potentially discounted price for the bundle, or if the bundle has optional products, add those products to the price list as price list items. Then the total for a bundle in an opportunity is calculated by adding up the prices for each price list item, including optional bundle products that your customer selects. If you don't add an optional product in the price list, its price will be considered zero.  
-  
 > [!TIP]
 > To create a new product bundle based on an existing one, on the command bar, select **Clone**. This opens a new product bundle record with the same information as the original product bundle record, except for **Name** and **Product ID**.  
 
@@ -150,7 +143,7 @@ Typically, the pricing of products in bundles is different than the individual p
   
 10. To change properties of an individual product in the bundle, select **Customize** corresponding to the product, and change the values, as required.  
 
-    If you've added this bundle to a family, the bundle will inherit the properites from its parent family. 
+    If you've added this bundle to a family, the bundle will inherit the properties from its parent family. 
 
 11. To change the bundle's property, open the property, and select **Override**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
   
@@ -158,9 +151,7 @@ Typically, the pricing of products in bundles is different than the individual p
   
 13. In the **Product Relationships** section, select ![Add a record button](../sales-enterprise/media/add-recordbutton.gif "Add a record button"), and select a related product. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define related products to increase chances of sales](../sales-enterprise/define-related-products-increase-chances-sales.md)  
   
-## Pricing of bundles (Sales)
-Typically, the pricing of products in bundles is different than the individual products. You can set a total and potentially discounted price for the bundle, or if the bundle has optional products, add those products to the price list as price list items. The total for a bundle in an opportunity is calculated by adding up the prices for each price list item, including optional bundle products that your customer selects. If you don't add an optional product in the price list, its price will be considered zero.  
-  
+ 
 > [!TIP]
 >  -   After you're done adding all the details, select **Preview** on the command bar to look through the properties of the product bundle.  
 >  -   To create a new product bundle based on an existing one, on the command bar, select **Clone**. This opens a new product bundle record with the same information as the original product bundle record, except for the **Name** and **Product ID**.  
@@ -171,5 +162,6 @@ Typically, the pricing of products in bundles is different than the individual p
  ![Home button](../sales-enterprise/media/walkthrough-home.png "Home button") [Classify products and bundles into product families](../sales-enterprise/create-product-bundles-sell-multiple-items-together.md)  
   
 ### See also  
- [Set up a product catalog: Walkthrough](../sales-enterprise/set-up-product-catalog-walkthrough.md)   
- [System Settings dialog box - Sales tab](../admin/system-settings-dialog-box-sales-tab.md)
+[How prices are calculated for product bundles?](pricing-product-bundles.md)
+[Set up a product catalog: Walkthrough](../sales-enterprise/set-up-product-catalog-walkthrough.md)   
+[System Settings dialog box - Sales tab](../admin/system-settings-dialog-box-sales-tab.md)

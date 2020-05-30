@@ -23,7 +23,7 @@ After you upgrade [!INCLUDE[pn_crm_2015_server](../includes/pn-crm-2015-server.m
   
 #### Upgrade and provision a Language Pack  
   
-1.  On each [!INCLUDE[pn_crm_legacy](../includes/pn-crm-legacy.md)] server that was upgraded, download the new [!INCLUDE[cc_Language_Packs_short](../includes/cc-language-packs-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Download: Microsoft Dynamics CRM 2016 Language Pack](http://go.microsoft.com/fwlink/p/?LinkID=624615)  
+1.  On each [!INCLUDE[pn_crm_legacy](../includes/pn-crm-legacy.md)] server that was upgraded, download the new [!INCLUDE[cc_Language_Packs_short](../includes/cc-language-packs-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Download: Microsoft Dynamics CRM 2016 Language Pack](https://go.microsoft.com/fwlink/p/?LinkID=624615)  
   
 2.  Follow the steps to install each [!INCLUDE[pn_Language_Pack_short](../includes/pn-language-pack-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Install the Language Pack](install-and-enable-a-language-pack.md#install-the-language-pack)  
   

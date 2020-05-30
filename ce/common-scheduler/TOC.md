@@ -19,6 +19,7 @@
 ## [Edit booking template](booking-template.md)
 ## [Booking alerts](booking-alert.md)
 ## [Schedule board tab settings](schedule-board-tab-settings.md)
+## [Preview the new schedule board](preview-schedule-board.md)
 
 # Extensibility
 ## [Extensibility updates](developer/extensibility-release-notes.md)
@@ -31,3 +32,6 @@
 ### [Understanding and customizing resource matching](developer/understanding-and-customizing-resource-matching-in-urs.md)
 ### [Find resources by language - A step by step guide](developer/extending-urs-step-by-step.md)
 ### [Universal FetchXML](developer/universal-fetchxml.md)
+
+# [Bug fixes](bug-fixes.md)
+

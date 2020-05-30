@@ -1,7 +1,7 @@
 ---
 title: "Switch an instance | MicrosoftDocs"
 ms.custom: 
-ms.date: 10/01/2019
+ms.date: 02/27/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -21,6 +21,9 @@ search.app:
 ---
 # Switch an instance
 
+Switching an instance (environment) is now done in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). See [Change the environment type](https://docs.microsoft.com/power-platform/admin/switch-environment).
+
+<!--
 [!INCLUDE[applies-to](../includes/cc_applies_to_ce.md)]
 
 You may decide that your customization work developed and tested on a Sandbox instance is now ready to go live. If you’ve placed your Sandbox instance in administration mode, only users with System Administrator or System Customizer security roles are able to sign in to that instance. Once you switch the instance type to Production, all your users can access your organization. When you configure or edit an instance, you can switch the instance from:  
@@ -58,3 +61,4 @@ Switching an instance does not change the number of your purchased licenses. Rev
 |Switch a Sandbox instance to Production. You have unused Production licenses.|A Production license is used. A Sandbox instance becomes available.||  
 |Switch a Sandbox instance to Production. You do not have any unused Production licenses.|You will need to purchase a Production license.|See [Add an instance to your subscription](../admin/add-instance-subscription.md).|  
   
+-->

@@ -3,7 +3,7 @@ title: "Session Lines (Hosted Control) in Unified Service Desk | MicrosoftDocs"
 description: "Learn about Session Lines type of hosted control in Unified Service Desk."
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
+ms.date: 12/31/2019
 ms.service: 
   - dynamics-365-customerservice
 ms.topic: article
@@ -28,7 +28,7 @@ Use **Session Lines** type of hosted control to configure session overview infor
   
  In the New Hosted Control screen:  
   
-- Under **[!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]** area, select **Session Lines** from the **USD Component Type** drop-down list.  
+- Under **[!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]** area, select **Session Lines** from the **Unified Service Desk Component Type** drop-down list.  
   
 - The **Display Group** field displays the panel where this hosted control will be displayed. **SessionExplorerPanel** is the most common panel for this hosted control type. For information about various panels available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Panels in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md#Panels)  
   

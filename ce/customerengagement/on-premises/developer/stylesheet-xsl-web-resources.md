@@ -33,7 +33,7 @@ Use Stylesheet (XSL) Web resources to transform XML data.
   
  **HTML Web resource:** sample_/ImportWebResources/Content/ShowData.htm  
  ```html  
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">  
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">  
 <html>  
 <head>  
  <title></title>  
@@ -50,7 +50,7 @@ Use Stylesheet (XSL) Web resources to transform XML data.
  ```xml  
 <?xml version="1.0" encoding="utf-8"?>  
 <xsl:stylesheet version="1.0"  
-                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"  
+                xmlns:xsl="https://www.w3.org/1999/XSL/Transform"  
                 xmlns:msxsl="urn:schemas-microsoft-com:xslt"  
                 exclude-result-prefixes="msxsl"  
 >  

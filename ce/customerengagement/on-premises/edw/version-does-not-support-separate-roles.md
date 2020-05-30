@@ -1,5 +1,5 @@
 ---
-title: "This version of Microsoft Dynamics 365 for Customer Engagement Server does not support installing separate server roles | Microsoft Docs"
+title: "This version of Microsoft Dynamics 365 Server does not support installing separate server roles | Microsoft Docs"
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -12,7 +12,7 @@ robots: noindex,nofollow
 author: Mattp123
 ms.author: matp
 ---
-# This version of Microsoft Dynamics 365 for Customer Engagement Server does not support installing separate server roles
+# This version of Microsoft Dynamics 365 Server does not support installing separate server roles
 
 ## Cause
   

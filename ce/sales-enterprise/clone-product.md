@@ -24,7 +24,8 @@ When you're creating a new product, family or bundle, save time by cloning an ex
   
 3. Select a product family, product, or bundle record that you want to clone, and on the command bar, select **Clone**. 
 
-    ![List of products with Clone button](media/clone-product.png "List of products with Clone button")
+    > [!div class="mx-imgBorder"]
+    > ![List of products with Clone button](media/clone-product.png "List of products with Clone button")
 
     A confirmation dialog box appears.
     

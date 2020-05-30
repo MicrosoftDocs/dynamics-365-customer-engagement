@@ -8,8 +8,8 @@ ms.topic: article
 applies_to: 
   - "Dynamics 365 Version 9.x"
   - "Dynamics 365 (online)"
-author: m-hartmann
-ms.author: mhart
+author: shubhadaj
+ms.author: shujoshi
 search.audienceType: 
   - admin
   - customizer

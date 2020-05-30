@@ -21,7 +21,7 @@ manager: kvivek
 
 With Dynamics 365 Customer Engagement (on-premises), you have several options that help make your deployment run optimally, reliably, and securely. In most situations where Dynamics 365 Customer Engagement (on-premises) is running in a production environment, we recommend that you apply the latest update for all Dynamics 365 Customer Engagement (on-premises) applications shortly after the update becomes available.  
   
- Dynamics 365 Customer Engagement (on-premises) server and desktop applications use two kinds of update technology:  
+ Dynamics 365 Server and desktop applications use two kinds of update technology:  
   
 -   **Setup updates**, which can be applied as part of the Setup process.  
   
@@ -45,7 +45,7 @@ With Dynamics 365 Customer Engagement (on-premises), you have several options th
  Dynamics 365 Customer Engagement (on-premises) publishes updates in a package format that is a collection of software updates. Microsoft fully tests and supports installing any published update for Dynamics 365 Customer Engagement (on-premises) at the time of its release. <!-- Get the latest Dynamics 365 Customer Engagement (on-premises) application updates [KB: Microsoft Dynamics 365 Customer Engagement (on-premises) on-premises cumulative updates](https://support.microsoft.com/kb/3142345).  -->
   
 ### Distribution and application of Dynamics 365 Customer Engagement (on-premises) updates  
-Dynamics 365 Customer Engagement (on-premises) server and desktop applications are engineered to use [!INCLUDE[pn_Microsoft_Update](../includes/pn-microsoft-update.md)], a service that can automatically download and install updates to Microsoft applications.  
+Dynamics 365 Server and desktop applications are engineered to use [!INCLUDE[pn_Microsoft_Update](../includes/pn-microsoft-update.md)], a service that can automatically download and install updates to Microsoft applications.  
   
  During installation or upgrade of a Dynamics 365 Customer Engagement (on-premises) application, Setup asks whether you want to opt in, which sets [!INCLUDE[pn_Microsoft_Update](../includes/pn-microsoft-update.md)] to apply automatic updates. If you don’t want to apply automatic updates during Setup, you can enable this feature later by turning on automatic updates in the [!INCLUDE[pn_ms_Windows_Update](../includes/pn-ms-windows-update.md)] area of Settings. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Windows Update: FAQ](https://support.microsoft.com/help/12373/windows-update-faq).  
   

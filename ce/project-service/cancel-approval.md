@@ -10,7 +10,7 @@ ms.date: 03/07/2019
 ms.topic: article
 ms.prod: 
 ms.service: business-applications
-ms.technology: Microsoft Dynamics 365 for Customer Engagement for Project Service 2.x and Microsoft Dynamics 365 for Customer Engagement for Project Service 3.x
+ms.technology: Microsoft Dynamics 365 Project Service Automation
 audience: Admin
 search.audienceType: 
   - admin
@@ -20,6 +20,9 @@ search.app:
   - D365CE
   - D365PS
 ---
+
+
+
 
 # Cancel previously approved time or expense entries
 

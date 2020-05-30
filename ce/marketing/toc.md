@@ -2,6 +2,15 @@
 
 ## [Overview](overview.md)
 ## [What's new](whats-new-marketing.md)
+## [Learning Catalog](learning-catalog.md)
+### [Business Decision Maker](learning-bdm.md)
+### [Business User](learning-bus-user.md)
+### [Implementation Project Manager](learning-project-manager.md)
+### [Administrator](learning-administrator.md)
+### [Developer](learning-developer.md)
+### [Functional Consultant](learning-functional-consultant.md)
+### [Partner Sales and Marketing](learning-sales.md)
+
 ## [Marketing videos](marketing-videos.md)
 
 ## [Administrator Guide](admin-guide.md)
@@ -15,6 +24,7 @@
 #### [Manage Marketing instances](manage-marketing-instances.md)
 #### [Transfer data between instances](transfer-data.md)
 #### [Transfer customizations between instances](transfer-solution.md)
+#### [Tenant to tenant migration](tenant-to-tenant.md)
 #### [Keep Marketing up to date](apply-updates.md)
 #### [Uninstall Marketing](uninstall-marketing.md)
 
@@ -60,10 +70,13 @@
 
 ### Privacy and compliance
 #### [Data protection and GDPR](gdpr.md)
-#### [Set up double opt-in](double-opt-in.md)
+#### [Set up global double opt-in](double-opt-in.md)
+#### [Set up form double opt-in](form-double-opt-in.md)
 #### [How the app uses cookies](cookies.md)
 
+### [Best practices for administration](admin-best-practices.md)
 ### [Best practices for email marketing](get-ready-email-marketing.md)
+### [Email policies and suspension standards](email-policies.md)
 ### [Administration and setup FAQ](setup-troubleshooting.md)
 
 ## [User Guide](user-guide.md)
@@ -105,9 +118,10 @@
 #### [Add dynamic content to email messages](dynamic-email-content.md)
 #### [Set the sender, receiver, language, and legal designation](email-properties.md)
 #### [Check your work using previews and test sends](email-preview.md)
+#### [Email accessibility checker](email-accessibility.md)
 #### [Check for errors, go live, and deliver](email-check-golive.md)
 #### [Quickly design and deliver marketing emails with "send now"](email-send-now.md)
-#### [Preview: Check your spam score](spam-score.md)
+#### [Check your spam score](spam-checker.md)
 #### [Design and run A/B tests on your email designs](email-a-b-testing.md)
 
 ### Create marketing pages and forms
@@ -115,6 +129,7 @@
 #### [Provide personalized page content](personalized-page-content.md)
 #### [Create marketing forms](marketing-forms.md)
 #### [Enable prefilling for forms](form-prefill.md)
+#### [Integrate Forms Pro with Dynamics 365 Marketing](forms-pro.md)
 #### [Integrate with landing pages on external websites](embed-forms.md)
 #### [Create input fields for forms](marketing-fields.md)
 #### [Set up a subscription center](set-up-subscription-center.md)
@@ -141,9 +156,9 @@
 
 ### Work with customer journeys
 #### [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)
-#### [Preview: Set expiration dates for emails](email-expire.md)
-#### [Preview: Use smart scheduler to help improve email engagement](smart-scheduler.md)
-#### [Preview: Expand your audience with segment boost](segment-boost.md)
+#### [Export to Excel for further analysis](export-journey.md)
+#### [Set expiration dates for emails](email-expire.md)
+#### [Use automated scheduling to help improve email engagement](automated-scheduler.md)
 #### [Create and manage customer journey templates](journey-templates.md)
 #### [Create an inbound customer journey](create-inbound-customer-journey.md)
 #### [Customer journey tiles reference](customer-journey-tiles-reference.md)
@@ -157,6 +172,7 @@
 
 ### Event planning and management
 #### [Event management overview](event-management.md)
+#### [Early access: Improved event management experience](event-forms.md)
 #### [Open the event management work area](open-events.md)
 #### [Set up an event](set-up-event.md)
 #### [Set up session-level registration and waitlisting](session-level-registration.md)
@@ -183,7 +199,6 @@
 #### [Marketing on LinkedIn with Dynamics 365](linkedin-overview.md)
 #### [LinkedIn Lead Gen integration](LinkedIn-Lead-Gen-integration.md)
 #### [Schedule and post messages on social media](social-posting.md)
-#### [Get social-listening insights](social-listening.md)
 
 ### [Register link clicks and website visits](register-engagement.md)
 ### [Work with marketing calendars](marketing-calendar.md)
@@ -209,8 +224,8 @@
 #### [Overview of custom channel](developer/overview-custom-channel.md)
 #### [Create a custom channel](developer/create-custom-channel.md)
 ##### [Step 1: Create required entities and forms](developer/create-entities-forms.md) 
-##### [Step 2: Create a workflow or plug-in to implement your custom logic](developer/create-workflow-plugin-custom-channel.md)
-##### [Step 3: Configure the tile for custom channel](developer/configure-tile-custom-channel.md)
+##### [Step 2: Configure the tile for custom channel](developer/configure-tile-custom-channel.md)
+##### [Step 3: Create a workflow or plug-in to implement your custom logic](developer/create-workflow-plugin-custom-channel.md)
 ##### [Step 4: Test your custom channel tile](developer/test-custom-channel-tile.md)
 #### [Publish custom channel on AppSource](developer/publish-custom-channel-appsource.md)
 #### [Configure and use custom channel](developer/configure-use-custom-channel.md)
@@ -242,3 +257,5 @@
 ### [Metadata reference for your organization](developer/marketing-organization-metadata.md)
 #### [Dynamics 365 Marketing solutions](developer/marketing-solutions.md)
 #### [Dynamics 365 Marketing entity reference](developer/marketing-entity-reference.md)
+
+## [Troubleshoot with Solution Health Hub](troubleshoot-marketing-solution-health.md)

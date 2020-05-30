@@ -2,13 +2,14 @@
 title: Deployment
 ms.date: 09/10/2019
 ms.topic: article
+ms.reviewer: krbjoran
 ms.custom: 
   - dyn365-fieldservice
 ms.service: dynamics-365-customerservice
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
 caps.latest.revision: 42
-ms.author: FieldServiceDave
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin
@@ -55,3 +56,6 @@ RSO is associated with a single Dynamics 365 organization in the tenant. You can
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the "Manage Resource Scheduling Optimization instance" window](media/rso-completed.png)
+
+## Privacy notice  
+[!INCLUDE[cc_privacy_rso_location_info_bing_maps](../includes/cc-privacy-rso-location-info-bing-maps.md)]

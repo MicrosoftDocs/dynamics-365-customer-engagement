@@ -5,14 +5,14 @@ title: Booking allocation methods
 description: This topic provides information about the different ways you can book allocations.
 author: ruhercul                
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-projectservice
 ms.custom:
   - dyn365-projectservice
 ms.date: 9/26/2019
 ms.topic: article
 ms.prod: 
 ms.service: business-applications
-ms.technology: Microsoft Dynamics 365 for Customer Engagement for Project Service 2.x and Microsoft Dynamics 365 for Customer Engagement for Project Service 3.x
+ms.technology: Microsoft Dynamics 365 Project Service Automation 2.x and 3.x
 ms.author: ruhercul
 audience: Admin
 search.audienceType: 
@@ -23,6 +23,8 @@ search.app:
   - D365CE
   - D365PS
 ---
+
+
 # Booking allocation methods
 
 Whether you add a team member directly to a project on the **Team** tab, or book a resource to a project or requirement from the Schedule board, there are a few different booking allocation methods you can use. This topic explains how each method works, and which methods could lead to overbooking resources.
@@ -36,7 +38,7 @@ The Full Capacity method books the resource’s full capacity for the specified 
 The Remaining Capacity method is only available when you book directly to a project using the Schedule board. This method books the resource’s available capacity within the specified date range. For example, if a resource has a capacity of 40 hours per week and has already been booked 10 hours, booking for the same week results in booking the remaining 30 hours of capacity for that week.
 
 ### Percentage Capacity
-The Percentatge Capacity method books the resource for a percentage of capacity for the specified from and to dates. For example, if a resource's calendar is set to work eight hours per day, five days a week, setting a start and end date that covers five working days at 50% capacity would book the resource for 20 hours. The individual bookings per day are spread equally across the period, four hours per day in this example. The booking is done without regard to the resource’s remaining capacity. If the resource is already booked during that period on other projects, the 20 hours is booked as additional hours, which potentially leads to overbookings.
+The Percentage Capacity method books the resource for a percentage of capacity for the specified from and to dates. For example, if a resource's calendar is set to work eight hours per day, five days a week, setting a start and end date that covers five working days at 50% capacity would book the resource for 20 hours. The individual bookings per day are spread equally across the period, four hours per day in this example. The booking is done without regard to the resource’s remaining capacity. If the resource is already booked during that period on other projects, the 20 hours is booked as additional hours, which potentially leads to overbookings.
 
 ### Evenly Distribute Hours
 The Evenly Distribute Hours method books the resource for a specified number of hours, distributing the time evenly per day over the specified from and to dates. For example, if you book a resource for 20 hours over a five day period, this method distributes the 20 hours evenly at four hours per day. The booking is done without regard to the resource's remaining capacity. If the resource is already booked during that period on other projects, the 20 hours is booked as additional hours, which potentially leads to overbookings.

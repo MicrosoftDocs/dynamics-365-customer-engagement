@@ -8,8 +8,8 @@ ms.custom:
   - dyn365-marketing
 ms.topic: article
 ms.assetid: 2ab8ed2d-0e3e-4b8c-9b05-8d61190206e9
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -30,6 +30,8 @@ In addition to helping you install Dynamics 365 Marketing for the first time, th
 - Add or remove [portals integration](portal-optional.md)
 - Configure an integrated portal
 - Fix installation issues
+- Connect a disconnected instance to marketing services
+- Clean up after a [copy or restore operation](manage-marketing-instances.md)
 - [Uninstall](uninstall-marketing.md) Marketing
 
 To re-run the Marketing setup wizard:

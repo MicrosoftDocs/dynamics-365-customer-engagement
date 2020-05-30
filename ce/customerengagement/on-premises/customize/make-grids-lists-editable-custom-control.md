@@ -135,7 +135,11 @@ In previous releases of Dynamics 365 Customer Engagement (on-premises), users co
  
 ##  Data types that aren’t editable in an editable grid
 The following data types aren’t editable in editable grids: Customer and Partylist Lookup fields; Composite (address) fields; State/Status fields; Lookup entity-related fields (for example, the Account entity includes a contact lookup, where the Contact field is editable but the EmailAdress(Contact) field is not editable).  
- 
+
+## Business rules work only if conditional field is a column on the grid
+
+Business Rules on an editable grid are supported only if the conditional field is also a column on the grid. If the field is not a column the business rules won’t work. Verify that each field referenced in the business rule is also included on the form. Note that business rules on an editable grid do not fire if the editable grid is configured on a dashboard page.
+
 ## Keyboard support and shortcuts for editable grids
 
 Editable grids are fully accessible, and provides excellent keyboard support including several keyboard shortcuts for improved productivity. The list of available shortcuts can be found here: [Use keyboard shortcuts in editable grids](../basics/keyboard-shortcuts.md#editable-grids-views)

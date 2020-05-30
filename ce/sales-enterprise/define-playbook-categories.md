@@ -3,9 +3,9 @@ title: "Define playbook categories (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Create playbook categories to classify playbooks."
 ms.date: 10/01/2019
 ms.service: 
-  - dynamics-365-sales
+  - "dynamics-365-sales"
 ms.custom: 
-  - dyn365-sales
+  - "dyn365-sales"
 ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
@@ -18,7 +18,7 @@ You can create categories to classify playbooks. For example, categories could b
 
 1.  Make sure you have a Playbook manager role or equivalent permissions.
 
-2.  Select the site map icon, select the **More options** ![more options icon](media/more-options-icon.png "More Options icon") icon, and then select **App Settings**.  
+2.  In the site map, select the Change area icon ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area"), and then select **App Settings**. 
 
 3.  Select **Playbook categories**.
 

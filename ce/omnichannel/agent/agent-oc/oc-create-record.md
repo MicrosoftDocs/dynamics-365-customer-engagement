@@ -4,7 +4,7 @@ description: "Learn how to create a record in Omnichannel for Customer Service a
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 07/01/2019
+ms.date: 12/27/2019
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -68,8 +68,8 @@ To create a new record, follow the steps:
  - Contact
  - Account
 
- > [!div class=mx-imgBorder]
- > ![Quick create record](../../media/oc-oceh-create-quick-create.png "Quick create record")
+   > [!div class=mx-imgBorder]
+   > ![Quick create record](../../media/oc-oceh-create-quick-create.png "Quick create record")
 
 3. In the left pane, you can see a new record page. Specify the details in the form.
 
@@ -79,7 +79,7 @@ To create a new record, follow the steps:
  > [!div class=mx-imgBorder]
  > ![Quick create contact](../../media/oc-oceh-quick-create-contact.png "Quick create contact")
 
-After you save the changes, you can link the record to the conversation. To learn more, see [Search and link a record to the conversation](oc-search-link-unlink-record.md#search-for-records-using-inline-search-option)
+After you save the changes, you can link the record to the conversation. To learn more, see [Search and link a record to the conversation](oc-search-link-unlink-record.md#search-for-records-by-using-the-inline-search-option) 
 
 ## Create a new record using the new option
 
@@ -97,11 +97,9 @@ In the Customer Summary page, when you are trying to search a record in customer
     > [!div class=mx-imgBorder]
     > ![Auto-link record](../../media/oceh/customer-summary-search-section-auto-link-case.png "Auto-link record")
 
-> [!div class="nextstepaction"]
-> [Next topic: Search, link, and unlink a record](oc-search-link-unlink-record.md)
-
 ## See also
 
+- [Search, link, and unlink a record](oc-search-link-unlink-record.md)
 - [View customer summary and know everything about customers](oc-customer-summary.md)
 - [View conversation and session activity types in the model-driven apps](oc-view-activity-types.md)
 - [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)

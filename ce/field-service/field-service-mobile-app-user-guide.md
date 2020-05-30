@@ -3,17 +3,17 @@ title: "Field Service Mobile Setup (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom:
   - dyn365-fieldservice
 ms.date: 10/29/2018
-ms.reviewer:
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite:
 ms.technology:
   - field-service
 ms.tgt_pltfrm:
 ms.topic: get-started-article
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: 49207db9-d1f0-46e0-ae2c-f4acf4593da9
 caps.latest.revision: 24
-ms.author: krbjoran
+ms.author: daclar
 manager: shellyha
 search.audienceType:
   - admin

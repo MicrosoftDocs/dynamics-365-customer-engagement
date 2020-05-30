@@ -102,7 +102,7 @@ namespace Microsoft.Crm.Sdk.Samples
             // Define the body and subject of the email template in XML format.
             string bodyXml =
                "<?xml version=\"1.0\" ?>"
-               + "<xsl:stylesheet xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\" version=\"1.0\">"
+               + "<xsl:stylesheet xmlns:xsl=\"https://www.w3.org/1999/XSL/Transform\" version=\"1.0\">"
                + "<xsl:output method=\"text\" indent=\"no\"/><xsl:template match=\"/data\">"
                + "<![CDATA["
                + "This message is to notify you that a new account has been created."
@@ -110,7 +110,7 @@ namespace Microsoft.Crm.Sdk.Samples
 
             string subjectXml =
                "<?xml version=\"1.0\" ?>"
-               + "<xsl:stylesheet xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\" version=\"1.0\">"
+               + "<xsl:stylesheet xmlns:xsl=\"https://www.w3.org/1999/XSL/Transform\" version=\"1.0\">"
                + "<xsl:output method=\"text\" indent=\"no\"/><xsl:template match=\"/data\">"
                + "<![CDATA[New account notification]]></xsl:template></xsl:stylesheet>";
 

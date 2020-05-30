@@ -91,7 +91,7 @@ $Setting = Get-CrmSetting TraceSettings$setting.Enabled = $FalseSet-CrmSetting $
 ## Microsoft Dynamics 365 server-level tracing (on-premises versions only)  
  Server-level tracing only monitors those [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server roles that are running on the local computer where server-level tracing is enabled. When server-level tracing is enabled, trace files that are specific to the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server roles or services that are running on the local computer are created. Server-level tracing does not require the [!INCLUDE[pn_Deployment_Tools](../includes/pn-deployment-tools.md)] role and can provide a greater degree of control where you can set specific trace values such as what [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] features to trace or the maximum trace file size.  
   
- For more information about setting server-level tracing properties in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], see [How to enable tracing in Microsoft Dynamics CRM](http://support.microsoft.com/kb/907490).  
+ For more information about setting server-level tracing properties in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], see [How to enable tracing in Microsoft Dynamics CRM](https://support.microsoft.com/kb/907490).  
   
  If both deployment-level and server-level tracing are enabled on the same computer, only server-level tracing will be used.  
   
@@ -107,7 +107,7 @@ $Setting = Get-CrmSetting TraceSettings$setting.Enabled = $FalseSet-CrmSetting $
 >  When you turn on tracing it can significantly affect performance of the application. We strongly recommend that you only turn on tracing for troubleshooting issues and turn off tracing after the issue is resolved.  
   
 > [!CAUTION]
->  This task contains steps that tell you how to modify the registry. However, serious problems might occur if you modify the registry incorrectly. Therefore, make sure that you follow these steps carefully. For added protection, back up the registry before you modify it. Then, you can restore the registry if a problem occurs. For more information about how to back up and restore the registry, see: [How to back up and restore the registry in Windows](http://support.microsoft.com/kb/322756).  
+>  This task contains steps that tell you how to modify the registry. However, serious problems might occur if you modify the registry incorrectly. Therefore, make sure that you follow these steps carefully. For added protection, back up the registry before you modify it. Then, you can restore the registry if a problem occurs. For more information about how to back up and restore the registry, see: [How to back up and restore the registry in Windows](https://support.microsoft.com/kb/322756).  
   
  On the [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] that you want to turn on server-level tracing, start RegEdit and locate the following registry location: `HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\MSCRM`  
   
@@ -140,7 +140,7 @@ $Setting = Get-CrmSetting TraceSettings$setting.Enabled = $FalseSet-CrmSetting $
 ### Enable tracing using registry values  
   
 > [!CAUTION]
->  This task contains steps that tell you how to modify the registry. However, serious problems might occur if you modify the registry incorrectly. Therefore, make sure that you follow these steps carefully. For added protection, back up the registry before you modify it. Then, you can restore the registry if a problem occurs. For more information about how to back up and restore the registry, see: [How to back up and restore the registry in Windows](http://support.microsoft.com/kb/322756).  
+>  This task contains steps that tell you how to modify the registry. However, serious problems might occur if you modify the registry incorrectly. Therefore, make sure that you follow these steps carefully. For added protection, back up the registry before you modify it. Then, you can restore the registry if a problem occurs. For more information about how to back up and restore the registry, see: [How to back up and restore the registry in Windows](https://support.microsoft.com/kb/322756).  
   
 1.  On the computer where you have installed [!INCLUDE[pn_CRM_Reporting_Extensions_server_side](../includes/pn-crm-reporting-extensions-server-side.md)], locate and then select the following registry subkey: `HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\MSCRM`  
   
@@ -195,7 +195,7 @@ $Setting = Get-CrmSetting TraceSettings$setting.Enabled = $FalseSet-CrmSetting $
 > [!CAUTION]
 >  Turning on verbose tracing during process intense actions such as [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] startup, or going online and offline with [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], is not recommended and could result in stability issues with [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)].  
 >   
->  This task contains steps that tell you how to modify the registry. However, serious problems might occur if you modify the registry incorrectly. Therefore, make sure that you follow these steps carefully. For added protection, back up the registry before you modify it. Then, you can restore the registry if a problem occurs. For more information about how to back up and restore the registry, see [How to back up and restore the registry in Windows](http://support.microsoft.com/kb/322756).  
+>  This task contains steps that tell you how to modify the registry. However, serious problems might occur if you modify the registry incorrectly. Therefore, make sure that you follow these steps carefully. For added protection, back up the registry before you modify it. Then, you can restore the registry if a problem occurs. For more information about how to back up and restore the registry, see [How to back up and restore the registry in Windows](https://support.microsoft.com/kb/322756).  
   
  Notice that tracing must already be enabled for the following steps to work.  
   
@@ -205,7 +205,7 @@ $Setting = Get-CrmSetting TraceSettings$setting.Enabled = $FalseSet-CrmSetting $
   
 3.  Right-click **TraceCategories**, select **Modify**, type `Application.Outlook:Error`, and then select **OK**.  
   
- For more information about the values available for TraceCategories, see [How to enable tracing in Microsoft Dynamics CRM](http://support.microsoft.com/kb/907490).  
+ For more information about the values available for TraceCategories, see [How to enable tracing in Microsoft Dynamics CRM](https://support.microsoft.com/kb/907490).  
   
  Trace files are not deleted when tracing is disabled.  
   
@@ -268,7 +268,7 @@ $Setting = Get-CrmSetting TraceSettings$setting.Enabled = $FalseSet-CrmSetting $
   
  #### Install the Field Medic app  
   
-1.  Install the Field Medic app from the [Windows Phone store](http://go.microsoft.com/fwlink/p/?LinkID=534099).  
+1.  Install the Field Medic app from the [Windows Phone store](https://go.microsoft.com/fwlink/p/?LinkID=534099).  
   
      ![Install the field Medic app](media/crm-itpro-tracewinphoneinstallapp.png "Install the field Medic app")  
   
@@ -542,7 +542,7 @@ $Setting = Get-CrmSetting TraceSettings$setting.Enabled = $FalseSet-CrmSetting $
 ## System Center Operations Manager management pack for Microsoft Dynamics 365 (on-premises versions only)  
  The [!INCLUDE[pn_oper_mgr_mp_for_crm_short](../includes/pn-oper-mgr-mp-for-crm-short.md)] enables you to monitor [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)] (on-premises) in [!INCLUDE[scom_MS_Sys_Cent_Op_Mgr](../includes/scom-ms-sys-cent-op-mgr.md)].  
   
- You can download the [!INCLUDE[pn_ms_sys_ctr_oper_mgr_mp_for_crm_2016_long](../includes/pn-ms-sys-ctr-oper-mgr-mp-for-crm-2016-long.md)][here](http://go.microsoft.com/fwlink/p/?LinkId=708508).  -->
+ You can download the [!INCLUDE[pn_ms_sys_ctr_oper_mgr_mp_for_crm_2016_long](../includes/pn-ms-sys-ctr-oper-mgr-mp-for-crm-2016-long.md)][here](https://go.microsoft.com/fwlink/p/?LinkId=708508).  -->
   
 ## See Also  
  [Operating Microsoft Dynamics 365](operating-microsoft-dynamics-365.md) </br>

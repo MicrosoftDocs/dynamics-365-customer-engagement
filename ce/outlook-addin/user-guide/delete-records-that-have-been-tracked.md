@@ -43,15 +43,15 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
 ## Appointments  
  Deleting a tracked appointment in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] deletes the appointment in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. Deleting a tracked appointment in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] deletes the appointment in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] if the following is true:  
   
-- The appointment is current.  
+- The appointment date is in present or future.
   
 - You are the owner or organizer of the appointment record.  
   
   If you stop tracking an appointment, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] asks whether you want to delete the appointment from [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. The appointment record is deleted in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] if the following is true:  
   
-- The appointment is current.  
+- The appointment date is in present or future.
   
-- You are the owner of the appointment record.  
+- You are the owner of the appointment record.
   
 ## Contacts  
   

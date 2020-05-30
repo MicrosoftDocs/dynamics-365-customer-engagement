@@ -139,7 +139,7 @@ https://MyOrganization.crm.dynamics.com/WebResources/new_/test/test.htm
  The following sample shows a URL for on–premises Dynamics 365 Customer Engagement (on-premises), where `myServer` is the server name:  
 
 ```  
-http://myServer/MyOrganization/WebResources/new_/test/test.htm  
+https://myServer/MyOrganization/WebResources/new_/test/test.htm  
 ```  
 
  When you write code to reference a web resource that will need to work for either [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] or on–premises Dynamics 365 Customer Engagement (on-premises), you should use the [getClientUrl](clientapi/reference/Xrm-Utility/getGlobalContext/getClientUrl.md) function.

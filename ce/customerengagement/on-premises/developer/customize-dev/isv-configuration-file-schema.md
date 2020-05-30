@@ -30,7 +30,7 @@ This topic shows you the schema definition for the ISV Configuration section of 
 <?xml version="1.0"?>  
 <xs:schema attributeFormDefault="unqualified"  
            elementFormDefault="qualified"  
-           xmlns:xs="http://www.w3.org/2001/XMLSchema">  
+           xmlns:xs="https://www.w3.org/2001/XMLSchema">  
   <xs:element name="configuration"  
               type="IsvConfigurationType" />  
   <xs:complexType name="IsvConfigurationType">  

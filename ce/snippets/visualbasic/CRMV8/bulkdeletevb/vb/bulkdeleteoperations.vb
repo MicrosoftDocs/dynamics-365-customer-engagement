@@ -51,7 +51,7 @@ Namespace Microsoft.Crm.Sdk.Samples
 		''' </summary>
 		Private Sub CreateRequiredRecords()
             Dim account = New Account With {.Name = "Fourth Coffee",
-                                            .WebSiteURL = "http://www.fourthcoffee.com/"}
+                                            .WebSiteURL = "https://www.fourthcoffee.com/"}
 			_serviceProxy.Create(account)
 		End Sub
 

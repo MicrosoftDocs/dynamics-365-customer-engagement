@@ -22,5 +22,5 @@ ms.author: matp
   
  This is a warning message. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] should still install successfully.  
   
- To resolve this problem, contact Microsoft Customer Support Services. For a complete list of Microsoft Customer Support Services telephone numbers and information about support costs, visit the Microsoft [Help and Support Contact](http://go.microsoft.com/fwlink/p/?LinkId=99244) webpage.
+ To resolve this problem, contact Microsoft Customer Support Services. For a complete list of Microsoft Customer Support Services telephone numbers and information about support costs, visit the Microsoft [Help and Support Contact](https://go.microsoft.com/fwlink/p/?LinkId=99244) webpage.
 

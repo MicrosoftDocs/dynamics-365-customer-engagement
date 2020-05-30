@@ -38,7 +38,7 @@ This list identifies all services to which Dynamics 365 for phones and tablets t
 
 | Domain(s) | Protocols | Uses |
 | --- | --- | --- |
-| management.azure.com |https |Starting with version 13.19033.0, used for email sign-in and the app list. |
+| api.businessappdiscovery.microsoft.com |https |Starting with version 13.19033.0, used for email sign-in and the app list. |
 |<br>login.microsoft.com</br> <br>login.windows.net</br> <br>login.microsoftonline.com</br> <br>secure.aadcdn.microsoftonline-p.com</br>|https |Azure Active Directory - used for authentication (in all versions).
 
 
@@ -46,7 +46,7 @@ This list identifies all resources used by Dynamics 365 for phones and tablets. 
 
 | Resources(s) | Uses |
 | --- | --- |
-| service.powerapps.com |Starting with version 13.19033.0, used for email sign-in and the app list. |
+| service.powerapps.com |Starting with version 13.19091.20, used for email sign-in and the app list. |
 
 ## Install the app from your device’s app store
  Choose the download link for your device:
@@ -56,3 +56,9 @@ This list identifies all resources used by Dynamics 365 for phones and tablets. 
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **[!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] app**<br /><br /> [![Download app from Windows Store](../mobile-app/media/mobile-windows-store-black.png "Download app from Windows Store")](https://go.microsoft.com/fwlink/?linkid=838618)<br /><br /> [![Download app from the Apple App Store](../mobile-app/media/mobile-istore-button.png "Download app from the Apple App Store")](https://go.microsoft.com/fwlink/p/?LinkID=519213)<br /><br /> [![Get the app on Google Play](../mobile-app/media/mobile-google-play-button.png "Get the app on Google Play")](https://go.microsoft.com/fwlink/p/?LinkID=519214) | **[!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] app**<br /><br /> [![Download app from Windows Store](../mobile-app/media/mobile-windows-store-black.png "Download app from Windows Store")](https://go.microsoft.com/fwlink/?linkid=838618)<br /><br /> [![Download app from the Apple App Store](../mobile-app/media/mobile-istore-button.png "Download app from the Apple App Store")](https://go.microsoft.com/fwlink/p/?LinkID=313645)<br /><br /> [![Get the app on Google Play](../mobile-app/media/mobile-google-play-button.png "Get the app on Google Play")](https://go.microsoft.com/fwlink/p/?LinkID=392774) |
 
+## Install the app for Android in China
+If you're in China, use the links below to get [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] for Android through one of several stores in China.
+
+Lenovo: https://www.lenovomm.com/appdetail/com.microsoft.crm.crmphone/306242  
+Meizu: http://app.meizu.com/apps/public/detail?package_name=com.microsoft.crm.crmphone  
+Xiaomi: http://app.mi.com/details?id=com.microsoft.crm.crmphone

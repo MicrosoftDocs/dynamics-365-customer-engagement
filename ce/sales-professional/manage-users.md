@@ -1,11 +1,11 @@
 ---
 title: "Add or manage users in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Create a user account for every person in the organization, and assign roles so they can access the Dynamics 365 Sales Professional app."
-ms.date: 10/01/2019
+ms.date: 05/17/2020
 ms.service: 
-  - dynamics-365-sales
+  - "dynamics-365-sales"
 ms.custom: 
-  - dyn365-sales
+  - "dyn365-sales"
 ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
@@ -31,7 +31,8 @@ After you provide these details and select **Add**, a user is automatically crea
 
 3.  Under **Standard Settings** > **Manage Users**.
 
-    ![Manage Users in Standard settings](media/manage-users-standard-settings.png "Manage users in Standard settings")
+    > [!div class="mx-imgBorder"]
+    > ![Manage Users in Standard settings](media/manage-users-standard-settings.png "Manage users in Standard settings")
 
 4.  Select **Add a new user**.
 
@@ -39,7 +40,8 @@ After you provide these details and select **Add**, a user is automatically crea
 
     The **Add New User** pane appears.
 
-    ![Add New User dialog box](media/add-new-user-dialog.box.png "Add New User dialog box")
+    > [!div class="mx-imgBorder"]
+    > ![Add New User dialog box](media/add-new-user-dialog.box.png "Add New User dialog box")
 
 6.  Enter the following details:
 
@@ -74,18 +76,20 @@ Security roles control a user’s access to data through a set of access levels 
 
 Dynamics 365 Sales Professional provides a default set of security roles:
 
--   Sales Professional
+-  Sales Professional
 
--   Sales Professional Manager
+-  Sales Professional Manager
 
--   System Administrator
+-  System Administrator
 
--   System Customizer
+-  System Customizer
+
+-  Sales Professional app access (available in Sales Professional version number 9.1.2101.1501 and later) 
 
 You can assign more than one security role to a user. The effect of multiple security roles is cumulative, which means that the user has the permissions associated with all security roles assigned to that user.
 
->[!IMPORTANT] 
->You must assign at least one security role to every user. The service does not allow access to any user who does not have at least one security role.
+> [!IMPORTANT] 
+> To allow users access to Dynamics 365 Sales Professional, you must assign the 'Sales Professional app access' security role (if Sales Professional version is 9.1.2101.1501 or later) and at least one more security role to the users. 
 
 To assign a role in Dynamics 365 Sales Professional:
 
@@ -95,7 +99,8 @@ To assign a role in Dynamics 365 Sales Professional:
 
 3.  In the **Manage User Roles** dialog box, select the security role or roles you want for the user or users, and then select **OK**.
 
-    ![Manage User Roles dialog box](media/manage-use-roles-dialog-box.png "Manage User Roles dialog box")
+    > [!div class="mx-imgBorder"]
+    > ![Manage User Roles dialog box](media/manage-use-roles-dialog-box.png "Manage User Roles dialog box")
 
 ## Join teams
 

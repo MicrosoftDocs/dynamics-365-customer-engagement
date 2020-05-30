@@ -1,6 +1,6 @@
 ---
 title: "Offline and Outlook filters and templates (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Data that should be synchronized between the Dynamics 365 Customer Engagement server and Dynamics 365 for Outlook is determined by Data Filters for Office Outlook"
+description: "Data that should be synchronized between the Dynamics 365 Server and Dynamics 365 for Outlook is determined by Data Filters for Office Outlook"
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: 

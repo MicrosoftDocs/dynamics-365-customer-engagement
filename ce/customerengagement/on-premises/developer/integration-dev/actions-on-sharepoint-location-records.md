@@ -56,7 +56,7 @@ SharePointDocumentLocation spDocLoc = new SharePointDocumentLocation
 {  
     Name = "Sample SharePoint Document Location",  
     Description = "Sample SharePoint Document Location record",  
-    AbsoluteUrl = "http://www.example.com/spdocloc"     
+    AbsoluteUrl = "https://www.example.com/spdocloc"     
 };  
 _spDocLocId = _serviceProxy.Create(spDocLoc);  
 ```  
@@ -71,7 +71,7 @@ _spDocLocId = _serviceProxy.Create(spDocLoc);
   
  [!code-csharp[SharePointIntegration#CRUDSharePointLocationRecords3](../../snippets/csharp/CRMV8/sharepointintegration/cs/crudsharepointlocationrecords3.cs#crudsharepointlocationrecords3)]  
   
- The absolute URL of the child object (document location in this example) is: “*Parent_URL*/*Relative_URL*”. So, in this example, the absolute URL of the document location is  `http://www.example.com/spdocloc`.  
+ The absolute URL of the child object (document location in this example) is: “*Parent_URL*/*Relative_URL*”. So, in this example, the absolute URL of the document location is  `https://www.example.com/spdocloc`.  
   
  Relative URLs are typically provided when you want to create a location record lower down the hierarchy or as a child record.  
   

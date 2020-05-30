@@ -63,7 +63,7 @@ An entity set named `Instances` is used to obtain instance information. You can 
   
 ### Authentication
 
-On-premise or IFD instances of the Discovery Web API adopt the authentication model of their deployment, supporting either Integrated Windows Authentication (IWA) or OAuth tokens from a trusted token provider. Web Application Session authentication is not supported.  
+On-premise or IFD instances of the Discovery OData V4 RESTful API adopt the authentication model of their deployment, supporting either Integrated Windows Authentication (IWA) or OAuth tokens from a trusted token provider. Web Application Session authentication is not supported.  
   
 ### Web API versioning
 
@@ -75,7 +75,7 @@ GET https://dev.{servername}/api/discovery/v9.0/Instances(UniqueName='myorg')
 
 ### CORS support
 
-The Discovery service Web API supports the CORS standard for cross-origin access as does the Web API.  For more information about CORS support see [Use OAuth with Cross-Origin Resource Sharing  to connect a Single Page Application](/powerapps/developer/common-data-service/oauth-cross-origin-resource-sharing-connect-single-page-application).  
+The Discovery service RESTful API supports the CORS standard for cross-origin access as does the Web API.  For more information about CORS support see [Use OAuth with Cross-Origin Resource Sharing  to connect a Single Page Application](/powerapps/developer/common-data-service/oauth-cross-origin-resource-sharing-connect-single-page-application).  
   
 ### Examples  
   

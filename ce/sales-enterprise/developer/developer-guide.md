@@ -17,14 +17,12 @@ manager: shujoshi
 Welcome to the Dynamics 365 Sales Developer Guide. 
 
 
-> [!IMPORTANT]
-> [!INCLUDE[cc-app-definition-sales-dev](../../includes/cc-app-definition-sales-dev.md)]c
+[!INCLUDE[cc-app-definition-sales-dev](../../includes/cc-app-definition-sales-dev.md)]
 
 <br />
 <table>
 <tr><td>
 <h2>Entity reference</h2>
-  <li><a href="reference/manual-forecasting-entity-reference.md" data-raw-source="[Entity reference for manual forecasting](reference/manual-forecasting-entity-reference.md)">Entity reference for manual forecasting</a></li>
   <li><a href="reference/playbook-entity-reference.md" data-raw-source="[Entity reference for Playbooks](reference/playbook-entity-reference.md)">Entity reference for playbooks</a></li>
 </td>
 <td>

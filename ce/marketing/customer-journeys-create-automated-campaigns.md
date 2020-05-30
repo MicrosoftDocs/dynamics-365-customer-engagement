@@ -2,17 +2,17 @@
 title: "Guide your prospects through an interactive customer journey (Dynamics 365 Marketing) | Microsoft Docs "
 description: "How to create a customer journey by assembling a pipeline of automated communications, activities, and conditional pathways in Dynamics 365 Marketing"
 keywords: customer journey; campaign; email; segment; go live; pipeline
-ms.date: 10/04/2019
+ms.date: 05/19/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 ms.assetid: dd5579ea-7fea-41fa-81ab-a83d67943c7e
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
-topic-status: Drafting
+topic-status:
 search.audienceType: 
   - admin
   - customizer
@@ -26,15 +26,15 @@ search.app:
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/d73cc179-5984-4a32-ad84-0755f56b0399" frameborder="0" allowfullscreen=""></iframe></div>
 
-Use Dynamics 365 Marketing to visualize and automate the journey that customers will take while interacting with your marketing initiatives on their way to making a purchase. A simple customer journey might include just a short interaction, such as a single email campaign. A complex journey could include the full process from discovery, through nurturing, and on to marketing-qualified leads. Customer journeys can also generate and assign tasks (such as a scheduled follow-up phone call), and trigger business workflows.
+Dynamics 365 Marketing can help you visualize and automate the journey that customers will take on their way to making a purchase. A simple customer journey could include a short interaction, such as a single email campaign. A complex journey might include the full process from discovery, through nurturing, and on to marketing-qualified leads. Customer journeys can also generate and assign tasks (such as a scheduled follow-up phone call) and trigger business workflows.
 
-Dynamics 365 Marketing provides a graphical, drag-and-drop, journey modeler that works something like a simple board game. Each contact starts on the first square (by becoming part of a target segment), and then progresses through one square at a time, with each square representing a marketing initiative, decision point, or internal action item.
+Marketing provides a graphical, drag-and-drop, journey modeler that works something like a simple board game. Each contact starts on the first square (by becoming part of a target segment), and then progresses through one square at a time, with each square representing a marketing initiative, decision point, or internal action item.
 
 ![An example of a customer journey](media/customer-journey.png "An example of a customer journey")
 
-The previous figure shows how a simple customer journey might look. A somewhat more complex example could work like this:
+The previous figure shows how a simple customer journey might look. A more complex example could work like this:
 
-1. A new contact from New York wants to subscribe to your newsletter, and fills out a marketing page. This results in a new contact record in your database.
+1. A new contact from New York wants to subscribe to your newsletter and fills out a marketing page. This results in a new contact record in your database.
 
 2. You have a dynamic segment that finds all newsletter subscribers from New York, so the new contact automatically joins that list.
 
@@ -172,7 +172,7 @@ You must set each customer journey to target _either_ contacts _or_ accounts. Us
 - When you target *accounts*, the journey can group contacts by the company (account) that each contact works for, which can affect the way contacts are processed as they traverse the journey, for example:
   - Trigger tiles can send all contacts from the same account down the same path.
   - Activity tiles can generate just one activity (such as a task or phone call) for each account, even if several contacts from that account are included in the journey.
-  - Launch-workflow tiles can trigger their workflow just once for each account, even if several contacts from that account are included in the journey.
+  - Launch-workflow tiles can trigger their workflow once for each account, even if several contacts from that account are included in the journey.
   - Create-lead tiles can generate leads associated with accounts rather than contacts.
   - Journey insights shown in the **Data** panel can be filtered by account.
 
@@ -220,9 +220,7 @@ If you have more than one set of content settings, exactly one of them will be t
 
 ### Set up a recurring journey
 
-Usually, a journey takes each contact through its pipeline exactly once. Even if you use several segments, and a given contact appears in more than one of them, each contact is processed at most once. However, you can also set up a recurring journey in which all contacts are reprocessed at regular intervals during the active period. 
-
-All segment membership criteria are re-evaluated at the start of each recurrence, so contacts can be added or removed between cycles.
+Usually, a journey takes each contact through its pipeline exactly once. Even if you use several segments, and a given contact appears in more than one of them, each contact is processed at most once. However, you can also set up a recurring journey in which all contacts are reprocessed at regular intervals during the active period.
 
 To set up a recurring journey:
 
@@ -234,6 +232,13 @@ To set up a recurring journey:
 > [!NOTE]
 > Your recurrence schedule must fit within your start and end dates, such that:  
 **interval * count &le; end date &ndash; start date**.
+
+> [!IMPORTANT]
+> When the last iteration of a recurring journey is complete, the journey will change to a **Stopped** state. When the journey is stopped, it is assumed that the iteration schedule is completed. Attempting to restart the stopped customer journey will immediately result in the journey transitioning back to the stopped state.
+>
+> You can extend the customer journey after the last iteration of a recurring journey by increasing the **Iterations count** value. After you've increased the iterations count, the customer journey will go back to a **Live** state.
+>
+> To see the iterations that are already executed and executing, go to **Related** > **Customer Journey Iterations**. For each iteration, the **Created On** value marks the time that the iteration was started.
 
 <a name="suppression-segment"></a>
 

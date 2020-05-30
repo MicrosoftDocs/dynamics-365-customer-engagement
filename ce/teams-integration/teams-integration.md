@@ -2,7 +2,7 @@
 title: "Integrate model-driven apps in Dynamics 365 with Microsoft Teams| MicrosoftDocs"
 ms.custom: 
 description: "Integrate model-driven apps in Dynamics 365 with Microsoft Teams."
-ms.date: 11/19/2019
+ms.date: 04/08/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -29,7 +29,7 @@ If you're familiar with [Microsoft Teams](https://products.office.com/microsoft-
 
    > [!NOTE]
    > - Microsoft Teams integration is not supported on Dynamics 365 Customer Engagement (on-premises).
-   > - Microsoft Teams integration is not supported on Common Data Service only environment without model-driven apps.
+   > - Microsoft Teams integration is not supported on Common Data Service environment.
 
 Dynamics 365 for Microsoft Teams integration enables users to easily work with model-driven apps customer information and share files directly from Microsoft Teams. This helps them to be more productive and get work done more effectively. 
 

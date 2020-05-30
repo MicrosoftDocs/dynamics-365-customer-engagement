@@ -1,7 +1,7 @@
 ---
 title: "Create packages for the Dynamics 365 Customer Engagement Package deployer (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 ms.custom: 
-ms.date: 01/25/2019
+ms.date: 04/02/2020
 ms.reviewer: "pehecke"
 ms.service: crm-online
 ms.suite: 
@@ -14,14 +14,16 @@ caps.latest.revision: 59
 author: KumarVivek
 ms.author: kvivek
 manager: amyla
-search.audienceType: 
+search.audienceType:  
   - developer
 search.app: 
   - D365CE
 ---
 # Create packages for the Dynamics 365 Customer Engagement Package deployer
 
-[!INCLUDE[pn_package_deployer_long](../includes/pn-package-deployer-long.md)] lets administrators       deploy packages on Dynamics 365 Customer Engagement (on-premises) and [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] instance. A “package” can consist of any or all of the following:  
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create packages for the Package Deployer](/powerapps/developer/common-data-service/package-deployer/create-packages-package-deployer).
+
+[!INCLUDE[pn_package_deployer_long](../includes/pn-package-deployer-long.md)] lets administrators       deploy packages on Dynamics 365 Customer Engagement (on-premises) and [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] instance. A "package" can consist of any or all of the following:  
 
 - One or more [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] solution files.  
 
@@ -44,9 +46,9 @@ Dynamics 365 Customer Engagement (on-premises) provide you with a [!INCLUDE[pn_V
 
 - [!INCLUDE[pn_microsoft_visual_studio_2012](../includes/pn-microsoft-visual-studio-2012.md)], [!INCLUDE[pn_visual_studio_2013](../includes/pn-visual-studio-2013.md)], or [!INCLUDE[pn_visual_studio_2015](../includes/pn-visual-studio-2015.md)]  
 
-- [!INCLUDE[tn_nuget_package_manager](../includes/tn-nuget-package-manager.md)] for [Visual Studio 2012](http://visualstudiogallery.msdn.microsoft.com/27077b70-9dad-4c64-adcf-c7cf6bc9970c), [Visual Studio 2013](http://visualstudiogallery.msdn.microsoft.com/4ec1526c-4a8c-4a84-b702-b21a8f5293ca), or [Visual Studio 2015](https://visualstudiogallery.msdn.microsoft.com/5d345edc-2e2d-4a9c-b73b-d53956dc458d)  
+- [!INCLUDE[tn_nuget_package_manager](../includes/tn-nuget-package-manager.md)] for [Visual Studio 2012](https://visualstudiogallery.msdn.microsoft.com/27077b70-9dad-4c64-adcf-c7cf6bc9970c), [Visual Studio 2013](https://visualstudiogallery.msdn.microsoft.com/4ec1526c-4a8c-4a84-b702-b21a8f5293ca), or [Visual Studio 2015](https://visualstudiogallery.msdn.microsoft.com/5d345edc-2e2d-4a9c-b73b-d53956dc458d)  
 
-- Microsoft Dynamics 365 Customer Engagement (on-premises) SDK Templates for [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] that contains the package template. You can get it by downloading the [Microsoft Dynamics 365 Customer Engagement (on-premises) SDK Templates](http://go.microsoft.com/fwlink/p/?LinkId=400925) and double-click the `CRMSDKTemplates.vsix` file to install the template in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].  
+- Microsoft Dynamics 365 Customer Engagement (on-premises) SDK Templates for [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] that contains the package template. You can get it by downloading the [Microsoft Dynamics 365 Customer Engagement (on-premises) SDK Templates](https://go.microsoft.com/fwlink/p/?LinkId=400925) and double-click the `CRMSDKTemplates.vsix` file to install the template in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].  
 
 
 
@@ -91,9 +93,9 @@ Dynamics 365 Customer Engagement (on-premises) provide you with a [!INCLUDE[pn_V
 <a name="Step3"></a>   
 #### Step 3: Update the HTML files: English and other languages  
 
-1.  In the Solution Explorer pane, expand **PkgFolder** > **Content** > **en-us**. You’ll find two folders called EndHTML and WelcomeHTML. These folders contain the                 HTML and associated files that enable you to display information at the end and beginning of the package deployment process. Edit the                 files in the HTML folder of these folders to add information for your package.  
+1.  In the Solution Explorer pane, expand **PkgFolder** > **Content** > **en-us**. You'll find two folders called EndHTML and WelcomeHTML. These folders contain the                 HTML and associated files that enable you to display information at the end and beginning of the package deployment process. Edit the                 files in the HTML folder of these folders to add information for your package.  
 
-2.  You can also add the HTML files in your package in other languages so that the content in the HTML appears in the language based on the locale settings of the user’s computer. To do so:  
+2.  You can also add the HTML files in your package in other languages so that the content in the HTML appears in the language based on the locale settings of the user's computer. To do so:  
 
     1.  Create a copy of the **en-us** folder under **PkgFolder** > **Content**.  
 
@@ -278,8 +280,8 @@ Dynamics 365 Customer Engagement (on-premises) provide you with a [!INCLUDE[pn_V
    ```xml  
 
    <?xml version="1.0" encoding="utf-16"?>  
-   <configdatastorage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
-   xmlns:xsd="http://www.w3.org/2001/XMLSchema"  
+   <configdatastorage xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"  
+   xmlns:xsd="https://www.w3.org/2001/XMLSchema"  
    installsampledata="true"  
    waitforsampledatatoinstall="true"  
    agentdesktopzipfile=""  

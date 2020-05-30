@@ -4,7 +4,7 @@ description: Understand how you can share knowledge articles in the Omnichannel 
 author: kabala
 ms.author: kabala123
 manager: shujoshi
-ms.date: 07/01/2019
+ms.date: 12/27/2019
 ms.topic: article
 ms.service: 
   - "dynamics-365-customerservice"
@@ -25,7 +25,7 @@ Follow these steps to enable knowledge article sharing.
     a. **Use an external portal**. Select **Yes** to enable the external portal and share the article as a link. </br>
 
     b. **URL Format**. Type the portal URL that will be used to create external (public-facing) portal links for knowledge articles, which the service agents can share with the customers. The external URL is created in the following format: 
-        </br> </br> *http://\<support portal URL>/kb/{kbnum}* 
+        </br> </br> *https://\<support portal URL>/kb/{kbnum}* 
   
      The placeholder "{kbnum}" is replaced by an actual knowledge article number.  
 

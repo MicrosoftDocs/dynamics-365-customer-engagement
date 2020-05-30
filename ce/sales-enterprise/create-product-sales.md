@@ -20,7 +20,7 @@ Products are the backbone of your business. They can be physical products or ser
 
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]
 
-2. Select the site map ![Site Map icon](media/site-map-icon.png "Site map icon"), and then select **Products**.  
+2. Select the site map ![Site Map icon](media/site-map-icon.png "Site map icon"), then select **App Settings**, and then select **Families and Products**.  
   
 3. To create a child product to an existing product family, select the family in the list, and then on the command bar, select **Add Product**. The selected family becomes the parent family of the new product you're creating. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a product family](../sales-enterprise/create-product-family.md)  
   
@@ -28,7 +28,8 @@ Products are the backbone of your business. They can be physical products or ser
   
    If you want to create an independent product, select **Add Product**. 
 
-   ![List of products](media/products-grid.png "Products grid") 
+    > [!div class="mx-imgBorder"]
+    > ![List of products](media/products-grid.png "Products grid") 
   
 4. Fill in your information:  
   

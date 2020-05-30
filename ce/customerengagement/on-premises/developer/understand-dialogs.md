@@ -61,7 +61,7 @@ Dialogs contain pages, and each page can contain multiple sets of prompts and re
   
   The user response for each `Prompt and Response` step is stored as the step variable, and can be used later in the dialog flow.  
   
-  You can add a static hyperlink or dynamic hyperlink to the prompt text. While specifying a text as static hyperlink, you must specify the full URL including the communication protocol (such as http, https, and ftp). For example, if you want to create a hyperlink text called *Bing*, you must specify the URL as “<http://www.bing.com”>, and not just “www.bing.com”. Dynamic hyperlinks can be inserted into any text field. The hyperlink refers to an entity record in Dynamics 365 Customer Engagement (on-premises).  
+  You can add a static hyperlink or dynamic hyperlink to the prompt text. While specifying a text as static hyperlink, you must specify the full URL including the communication protocol (such as http, https, and ftp). For example, if you want to create a hyperlink text called *Bing*, you must specify the URL as “<https://www.bing.com”>, and not just “www.bing.com”. Dynamic hyperlinks can be inserted into any text field. The hyperlink refers to an entity record in Dynamics 365 Customer Engagement (on-premises).  
   
   By default, each response is logged, and is available in the respective process session record. However, you can turn off response logging for a prompt and response step that contains sensitive customer information, such as credit card details, to prevent possible misuse of the data.  
   

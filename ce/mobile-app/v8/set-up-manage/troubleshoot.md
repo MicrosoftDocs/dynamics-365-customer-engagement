@@ -69,10 +69,10 @@ If you receive this error:
 |             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Users:**  |                                                                                                                                                                                                                                                                     Notify your [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] administrator that you received this error.                                                                                                                                                                                                                                                                     |
-| **Admins:** | To enable the [!INCLUDE[pn_microsoft_dynamics_crm_for_windows_81](../../../includes/pn-microsoft-dynamics-crm-for-windows-81.md)] app for on-premises [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] deployments, you need to make some configuration changes. [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Set up Dynamics 365 for phones and tablets](set-up.md) **Important:** [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] on-premises deployments require Windows 10 and the [Dynamics 365 apps for Windows app built for Windows 10](http://go.microsoft.com/fwlink/p/?LinkID=799909). |
+| **Admins:** | To enable the [!INCLUDE[pn_microsoft_dynamics_crm_for_windows_81](../../../includes/pn-microsoft-dynamics-crm-for-windows-81.md)] app for on-premises [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] deployments, you need to make some configuration changes. [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Set up Dynamics 365 for phones and tablets](set-up.md) **Important:** [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] on-premises deployments require Windows 10 and the [Dynamics 365 apps for Windows app built for Windows 10](https://go.microsoft.com/fwlink/p/?LinkID=799909). |
   
 ##### If you’re using a Windows phone  
- You received this error because you’re trying to connect to an on-premises deployment of [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)], which is  not supported for your version on Windows Phones. Windows Phone connection to [!INCLUDE[pn_crm_2016](../../../includes/pn-crm-2016.md)] on-premises requires the [Dynamics 365 apps for Windows app built for Windows 10](http://go.microsoft.com/fwlink/p/?LinkID=799909). [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Support for Dynamics 365 for phones and tablets](support.md)  
+ You received this error because you’re trying to connect to an on-premises deployment of [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)], which is  not supported for your version on Windows Phones. Windows Phone connection to [!INCLUDE[pn_crm_2016](../../../includes/pn-crm-2016.md)] on-premises requires the [Dynamics 365 apps for Windows app built for Windows 10](https://go.microsoft.com/fwlink/p/?LinkID=799909). [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Support for Dynamics 365 for phones and tablets](support.md)  
   
 
 #### Error message: “This record is unavailable.”  
@@ -153,7 +153,7 @@ If you receive this error:
   
  **Cause 2**: See the following KB article:  
   
- An error occurs in the [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] app for users in child business units. For more information, see [Sorry, something went wrong while initializing the app](http://support.microsoft.com/kb/2899860).  
+ An error occurs in the [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] app for users in child business units. For more information, see [Sorry, something went wrong while initializing the app](https://support.microsoft.com/kb/2899860).  
   
  **Sample Trace Message for Cause 2**:  
   
@@ -171,7 +171,7 @@ If you receive this error:
  `“XMLHttpRequest: Network Error 0x2ef3, Could not complete the operation due to error 00002ef3.”`  
   
 #### Error message: “The language installed on your company’s system isn’t available on the app. Please contact your system administrator to set up a supported language.”  
- **Cause**: This error will occur if one of the supported languages is not enabled in [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)]. For more information on the supported languages, see [Dynamics 365 for tablets: Set up and use](http://go.microsoft.com/fwlink/p/?LinkID=325404) and expand **What you need to use Dynamics 365 for tablets** and **Supported Languages**.  
+ **Cause**: This error will occur if one of the supported languages is not enabled in [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)]. For more information on the supported languages, see [Dynamics 365 for tablets: Set up and use](https://go.microsoft.com/fwlink/p/?LinkID=325404) and expand **What you need to use Dynamics 365 for tablets** and **Supported Languages**.  
   
 #### Error message: “The process assigned to this record is unavailable or has been deleted.”  
  If you receive this message for a record which has a non-deleted process assigned to it, you should manually synchronize [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] with your [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] data. Close the [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] app, reopen, and then choose to download the latest customizations. This procedure forces [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] to check for updated customizations. Recently viewed data while you were connected is cached and synched. Record data like Accounts or Contacts are not synched. You can’t choose which data synchronizes to the device like you can with [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../../includes/pn-microsoft-dynamics-crm-for-outlook.md)].  
@@ -199,7 +199,7 @@ If you receive this error:
   
    **Windows RT**  
   
-   If you are using a [!INCLUDE[pn_Windows_RT](../../../includes/pn-windows-rt.md)] device and need to authenticate as a [!INCLUDE[pn_Windows_Live_ID](../../../includes/pn-windows-live-id.md)] that is different than the one you use to log on to your device, you must create another account and switch to that account when using the app. For example: you currently sign in to your [!INCLUDE[pn_Windows_RT](../../../includes/pn-windows-rt.md)] device as *\<userid>*@live.com, but want to access your [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] organization via the tablet app as *\<userid>*@outlook.com. For more information on how to create a new account on your device, see [Video: Create a user account](http://go.microsoft.com/fwlink/p/?LinkId=513273).  
+   If you are using a [!INCLUDE[pn_Windows_RT](../../../includes/pn-windows-rt.md)] device and need to authenticate as a [!INCLUDE[pn_Windows_Live_ID](../../../includes/pn-windows-live-id.md)] that is different than the one you use to log on to your device, you must create another account and switch to that account when using the app. For example: you currently sign in to your [!INCLUDE[pn_Windows_RT](../../../includes/pn-windows-rt.md)] device as *\<userid>*@live.com, but want to access your [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] organization via the tablet app as *\<userid>*@outlook.com. For more information on how to create a new account on your device, see [Video: Create a user account](https://go.microsoft.com/fwlink/p/?LinkId=513273).  
   
    **Sample Trace Message for Cause 1**:  
   
@@ -224,7 +224,7 @@ If you receive this error:
    **Cause 4**: If you connect to a [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] organization on an Android device, this error can occur if the certificate from the [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] website or the federated server, such as AD FS, is not trusted by the device. To avoid this scenario, make sure to use a publicly trusted certificate or add the Certificate Authority certificate to the device. For more information, see KB article: [While configuring Dynamics CRM for phones and tablets, you receive an error message](https://support.microsoft.com/kb/2899983).  
   
 #### Error message, [!INCLUDE[pn_dynamics_crm_for_good](../../../includes/pn-dynamics-crm-for-good.md)]: “We’re sorry. Your server is not available or does not support this application”  
- Users must update to the latest version of the [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../../../includes/pn-microsoft-dynamics-crm-for-good.md)] application prior to updating to [!INCLUDE[pn_crm_online_2015_update_1](../../../includes/pn-crm-online-2015-update-1.md)]. On the [Apple App store](http://go.microsoft.com/fwlink/p/?LinkID=524762), the version the users need is 1.1. On the [Good Dynamics Marketplace](http://go.microsoft.com/fwlink/p/?LinkId=524809) or (Good Control Console), the version needed is listed as 1.1.0.  
+ Users must update to the latest version of the [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../../../includes/pn-microsoft-dynamics-crm-for-good.md)] application prior to updating to [!INCLUDE[pn_crm_online_2015_update_1](../../../includes/pn-crm-online-2015-update-1.md)]. On the [Apple App store](https://go.microsoft.com/fwlink/p/?LinkID=524762), the version the users need is 1.1. On the [Good Dynamics Marketplace](https://go.microsoft.com/fwlink/p/?LinkId=524809) or (Good Control Console), the version needed is listed as 1.1.0.  
   
  Users who have not updated their app prior to connecting to [!INCLUDE[pn_crm_online_2015_update_1](../../../includes/pn-crm-online-2015-update-1.md)], will likely see the following error approximately 2 minutes after connecting to [!INCLUDE[pn_crm_online_2015_update_1](../../../includes/pn-crm-online-2015-update-1.md)].  
   
@@ -257,7 +257,7 @@ If you receive this error:
   
  `Dynamics CRM [PAL] | Authentication: Token Expired with Token Timeout value (-255674015) --- Retrieving new Auth Token from shim`  
   
- For possible resolution, see [Microsoft Dynamics CRM for Phone and Tablets cannot connect to Dynamics CRM organization due to length of TokenLifetime](http://support.microsoft.com/kb/3034570)  
+ For possible resolution, see [Microsoft Dynamics CRM for Phone and Tablets cannot connect to Dynamics CRM organization due to length of TokenLifetime](https://support.microsoft.com/kb/3034570)  
   
 #### [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] users are repeatedly prompted for sign-in credentials and can’t sign in  
  **Cause**: This can occur if certain directories under the [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] website have Windows Authentication enabled. For [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] to successfully connect to a new deployment of [!INCLUDE[pn_crm_2013_server](../../../includes/pn-crm-2013-server.md)] or [!INCLUDE[pn_crm_2015_server](../../../includes/pn-crm-2015-server.md)], you must run a **Repair** of [!INCLUDE[pn_crm_2013_server](../../../includes/pn-crm-2013-server.md)] or [!INCLUDE[pn_crm_2015_server](../../../includes/pn-crm-2015-server.md)], on the server running IIS where the Web Application Server role is installed after the Internet-Facing Deployment Wizard is successfully completed.  
@@ -307,9 +307,9 @@ If you receive this error:
 
 - **Windows 8**: [How do I close an app?](https://go.microsoft.com/fwlink/p/?LinkId=513271)
 
-- **iPad**: [Force an app to close](http://support.apple.com/kb/ht5137)
+- **iPad**: [Force an app to close](https://support.apple.com/kb/ht5137)
 
-- **Android**: [How to force close Android apps](http://www.tomsguide.com/faq/id-2372153/force-close-android-apps.html)
+- **Android**: [How to force close Android apps](https://www.tomsguide.com/faq/id-2372153/force-close-android-apps.html)
 
 **Cause 2**: You may be seeing a different form than the one you customized. If you have multiple forms for an entity, you will see the first form in the form order that you have access to. This is different than the web application where you see the last form you used and have the ability to change between forms.
 

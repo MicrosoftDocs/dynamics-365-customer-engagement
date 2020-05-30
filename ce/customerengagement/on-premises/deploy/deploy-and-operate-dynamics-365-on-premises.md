@@ -26,7 +26,7 @@ manager: kvivek
   
  **Reporting and analytics information:** If you're a report writer or other analytics professional, see the [Reporting and Analytics Guide for Dynamics 365 Customer Engagement (on-premises)](../analytics/reporting-analytics-with-dynamics-365.md).  
 
-**Operate the deployment using PowerShell:** Use these topics to find help for the [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlets for Dynamics 365 Customer Engagement (on-premises). More information: [Microsoft Dynamics 365 Customer Engagement (on-premises) PowerShell Reference](https://docs.microsoft.com/en-us/powershell/dynamics365/customer-engagement/overview?view=dynamics365ce-ps)
+**Operate the deployment using PowerShell:** Use these topics to find help for the [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlets for Dynamics 365 Customer Engagement (on-premises). More information: [Microsoft Dynamics 365 Customer Engagement (on-premises) PowerShell Reference](https://docs.microsoft.com/powershell/dynamics365/customer-engagement/overview?view=dynamics365ce-ps)
     
  This documentation set includes the following areas:  
   

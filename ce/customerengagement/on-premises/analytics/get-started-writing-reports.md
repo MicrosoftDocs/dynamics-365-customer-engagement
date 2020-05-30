@@ -77,7 +77,7 @@ Customer Engagement (on-premises) uses [!INCLUDE[pn_SQL_Server_Reporting](../inc
   
  To create or modify existing RDL reports that can be used with your apps, use FetchXML, which is then converted to RDL by using report authoring tools. 
   
- If you want, you can use a third-party tool, SQL2FetchXML, to convert your SQL scripts to FetchXML, and then use the FetchXML query in your Fetch-based reports. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [SQL2FetchXML Help](http://www.sql2fetchxml.com/help.aspx)  
+ If you want, you can use a third-party tool, SQL2FetchXML, to convert your SQL scripts to FetchXML, and then use the FetchXML query in your Fetch-based reports. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [SQL2FetchXML Help](https://www.sql2fetchxml.com/help.aspx)  
 
 <a name="creating"></a>   
 ### Options for creating new reports  

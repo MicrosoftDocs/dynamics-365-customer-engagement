@@ -59,7 +59,7 @@ To connect with an online environment, see the information provided in this Powe
 
   | Variable Name | Value |
   |----|---|
-  |`url`|`http://yourservername/yourorgname`|
+  |`url`|`https://yourservername/yourorgname`|
   |`version`|`9.0`|
   |`webapiurl`|`{{url}}/api/data/v{{version}}/`|
 

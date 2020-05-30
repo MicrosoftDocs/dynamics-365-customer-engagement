@@ -1,7 +1,7 @@
 ---
 title: "Where to find your business apps (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/15/2019
+ms.date: 05/05/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -22,6 +22,8 @@ search.app:
 ---
 # Where to find your business apps
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Use model-driven apps in Power Apps](/powerapps/user/use-model-driven-apps)
+
 Business apps are available to users based on their security roles. If your system administrator has created any new apps, they will be visible to you if your security role has been given access to those apps. 
   
 1. Sign in to Dynamics 365 Customer Engagement (on-premises).  
@@ -30,7 +32,7 @@ Business apps are available to users based on their security roles. If your syst
   
     The page shows all published Customer Engagement (on-premises) based on your organization's licensing options, and your security role.  
   
-    You can also directly open the My Apps page by entering the following URL in your browser:  http://\<server name>/\<orgName>/apps.  
+    You can also directly open the My Apps page by entering the following URL in your browser:  https://\<server name>/\<orgName>/apps.  
   
     The My Apps page has two views: Published Apps and Apps Being Edited. All draft apps are available in the **Apps Being Edited** view. All published apps are available in the **Published Apps** view.  
   

@@ -38,7 +38,7 @@ When you update the organizations in your deployment, disabled organizations can
   
  For information about how to manage updates, see the following:  
   
--   [Windows Server Update Services](http://go.microsoft.com/fwlink/p/?LinkID=200474)  
+-   [Windows Server Update Services](https://go.microsoft.com/fwlink/p/?LinkID=200474)  
   
 -   [Introduction to Software Updates in Configuration Manager](https://technet.microsoft.com/library/gg682168.aspx)  
   

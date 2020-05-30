@@ -2,18 +2,18 @@
 title: "Create a purchase order (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/30/2017
-ms.reviewer: 
+ms.date: 01/09/2020
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.technology: 
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: d0dd3b42-498f-492d-89c7-f5c3d2e11a2d
 caps.latest.revision: 20
-ms.author: krbjoran
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin
@@ -25,93 +25,93 @@ search.app:
 ---
 # Create a purchase order (Field Service)
 
-In [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)], a purchase order (P.O.) is created to add inventory to a warehouse, or to purchase products to sell to a customer in a work order.    
+In Dynamics 365 Field Service, a purchase order (PO) is created to add inventory to a warehouse, or to purchase products to sell to a customer in a work order.    
+   
+
+## Prerequisites
+
+- Understand how [products and services](../field-service/create-product-or-service.md) are used in Field Service.
+
+## Step 1: Create a purchase order 
   
-<a name="BKMK_step1"></a>   
-### Step 1: Create a purchase order 
+1.  From the main menu, go to **Field Service** > **Inventory tab** > **Purchase Orders**.  
   
-1.  From the main menu, click **Field Service** > **Purchase Orders**.  
-  
-2.  On the **Active Purchase Orders** screen, click **+New**.  
+2.  On the **Active Purchase Orders** screen, select **+New**.  
   
 3.  Use the tooltips to help you fill in your information.  
   
-4.  When you're done, click **Save**.  
+4.  When you're done, **Save**.  
   
-    > [!NOTE]
-    >  If you need to relate a P.O. to a work order, open the work order, and then from the top menu (next to the work order name) click the drop-down arrow and choose **Purchase Orders**. Click **+Add New Purchase Order** and fill in the required information. If you link the P.O. to a work order, then when you receive the product it will be added directly to the work order as a work order product.  
+  > [!NOTE]
+  >  In the **Details** section, you can specify a lookup to a work order. Also, from a work order you can go to **Related** > **Purchase Orders**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a purchase order](./media/inventory-purchase-order.png)
+
+### Ship via
+
+When you create a purchase order, you can track how the order is shipped. This helps you track the purchase order. The **ship-via** field lets you specify different shipping methods used by your company. You can create new options in **Field Service** > **Settings** > **Ship Via**. Common examples include freight shipping, USPS Ground, or FedEx.
+    
+## Step 2: Add products to the purchase order  
   
-<a name="BKMK_step2"></a>   
-### Step 2: Add products to the P.O.  
- More information: [Create a product or service](../field-service/create-product-or-service.md)  
   
-1.  In the **Product** section, click **+Add Purchase Order product record**.  
+1.  In the **Product** section, select **+Add Purchase Order product record**.  
   
 2.  Use the tooltips to help you fill in your information.  
   
-3.  When you're done, click **Save & Close**.  
+3.  When you're done, **Save & Close**.  
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of purchase order products](./media/inventory-purchase-order-products.png)
+
+Back on the purchase order, change the **System Status** to **Submitted**.
+
+ 
+## Step 3: Get the purchase order approved    
   
-<a name="BKMK_step3"></a>   
-### Step 3: Get the P.O. approved  
- More information: [Create a product or service](../field-service/create-product-or-service.md)  
+If you have permissions to approve the PO, go to the PO and change the **System Status** to **Approved**.  
+
+> [!NOTE]
+> For products that are tracked in inventory and for purchase orders being received to warehouses, an inventory journal is created automatically in the background that increases the **On Order** warehouse quantity by the PO product quantity. This helps inventory managers understand if more units have already been ordered.
+   
+## Step 4: Create a receipt for the purchase order  
+
+When the order arrives, you can create a receipt.  
   
--   If you have permissions to approve the P.O., then go to the purchase order and change the **Approved Status** to **Approved**.  
+1.  Go to **Field Service** > **Inventory tab** > **Receipts** > **+New**.  
   
-<a name="BKMK_step4"></a>   
-### Step 4: Create a receipt for the P.O.  
- When the order arrives, then you can create a receipt.  
+2.  Give the receipt a name and assign it to the purchase order, and then mark the person creating the receipt.  
   
-1.  From the main menu, click **Field Service** > **Purchase Order Receipt**.  
+3.  Select **Save**.  
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a purchase order receipt](./media/inventory-purchase-order-receipt.png)
+
+    
+## Step 5: Add purchase order receipt products  
   
-2.  On the **Active Purchase Order Bills** screen, click **+New**.  
-  
-3.  Give the receipt a name and assign it to the purchase order, and then mark the person creating the receipt.  
-  
-4.  Click **Save**.  
-  
-<a name="bkmk_step5"></a>   
-### Step 5: Add P.O. receipt products  
-  
-1. Form the top menu, click the drop-down arrow next to the P.O. name that you created, and then click **Receipt Products**.  
-  
-2. To show open P.O. products in the **Purchase Order Receipt Product**field, click **Show Purchase Order Products not fully received yet**.  
-  
-   ![Show purchase order products not received in Dynamics 365 field service](../field-service/media/field-service-add-po-receipt-product.PNG "Show purchase order products not received in Dynamics 365 field service")  
-  
-3. Click the area under the **Quantity** field and type in the quantity to be received  
-  
-   ![Purchase order receipt quantity in Dynamics 365 field service](../field-service/media/field-service-add-po-receipt-product-quantity.PNG "Purchase order receipt quantity in Dynamics 365 field service")  
-  
-4. Click **Save**.  
-  
-    If the product is an inventory item, then an inventory adjustment product record is created automatically when you receive the product. When inventory adjustment product records are created, inventory journals are automatically created, which drives your totalinventory count in the product inventory table.  
-  
-<a name="BKMK_step6"></a>   
-### Step 6: Create P.O. bill  
+From the purchase order receipt, add related purchase order receipt products.
+
+A purchase order receipt doesn't need to contain all products requested or all quantities requested. Products will often be received as they arrive. Some products may arrive sooner and larger quantity shipments may arrive in multiple shipments. In these situations, multiple purchase order receipts can be created for a single purchase order.
+
+## Step 6: Create purchase order bill  
  Once you receive an invoice from the vendor, then you can create a purchase order bill.  
   
-1.  From the top menu, click the drop-down arrow next to the P.O. name that you created, and then click **Bills**.  
+1.  From the original purchase order, go to **Related** > **Bills** > **+Add New Purchase Order Bill**. 
+    
+2.  Use the tooltips to help fill in your information:  
   
-2.  On the **Purchase Order Bill Associated View** screen, click **+Add New Purchase Order Bill**.  
-  
-3.  Use the tooltips to help fill in your information:  
-  
-    -   Enter a **Bill Date**—this is the date that's on the purchase order bill.  
+    -   Enter a **Bill Date** — this is the date that's on the purchase order bill.  
   
     -   Enter a **Vendor Invoice Number** so that you’ll have a cross reference to the invoice number that the vendor provided.  
   
-4.  Click **Save**.  
+3.  Select **Save**.  
   
-5.  To add items on the bill, from the top menu, click the drop-down arrow next to the bill name, and then click **Receipt Products**.  
-  
-6.  On the **Purchase Order receipt Product Associated View** screen, click **+Add New Purchase Order Receipt Products**, and then add the item.  
-  
-### See also    
- [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
- [Configure and set up customer assets](../field-service/configure-set-up-customer-assets.md)   
- [Create an inventory adjustment](../field-service/create-inventory-adjustment.md)   
- [Create an inventory transfer](../field-service/create-inventory-transfer.md)   
- [View product inventory](../field-service/view-product-inventory.md)   
- [Create a return to vendor](../field-service/create-return-vendor.md)   
+4.  To add items on the bill, from the purchase order bill, go to **Related** > **Receipt Products** > **+Add New Purchase Order Receipt Products**.
+
+
+### See also      
+ [Configure and set up customer assets](../field-service/configure-set-up-customer-assets.md)     
  [Process a return](../field-service/process-return.md)<br>
- [User's Guide](../field-service/user-guide.md)
+

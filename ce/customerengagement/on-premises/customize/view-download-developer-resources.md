@@ -40,13 +40,13 @@ This page is designed for developers who want to link to the Dynamics 365 Custom
   
  **Developer Guide** 
 
- The [Developer Guide for Dynamics 365 Customer Engagement (on-premises)](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/developer-guide) contains a wealth of information to help developers. Here you will find the SDK, which includes documentation, samples, and tools, as well as technical articles, ramp-up kits, videos, blogs, and more. 
+ The [Developer Guide for Dynamics 365 Customer Engagement (on-premises)](https://docs.microsoft.com/dynamics365/customer-engagement/developer/developer-guide) contains a wealth of information to help developers. Here you will find the SDK, which includes documentation, samples, and tools, as well as technical articles, ramp-up kits, videos, blogs, and more. 
  
 For more information about using each item on the developer resources page, see [Download the endpoints using the Dynamics 365 Customer Engagement (on-premises) Developer resources page](../developer/developer-resources-page.md).   
   
  **Discovery Service**  
   
- This is a Web service that provides information about the organizations that are available on the Dynamics 365 Customer Engagement (on-premises) server using the SOAP protocol. This information includes the URL for each organization.  
+ This is a Web service that provides information about the organizations that are available on the Dynamics 365 Server using the SOAP protocol. This information includes the URL for each organization.  
   
  **Organization Service**  
   

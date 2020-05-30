@@ -51,7 +51,7 @@ You can install Dynamics 365 Server and Dynamics 365 Reporting Extensions from t
   
 ## Known issues  
   
-### Error message “Setup failed to validate specified Reporting Services Report Server http://ServerName/ReportServer” when you install Dynamics CRM Server on Server Core  
+### Error message “Setup failed to validate specified Reporting Services Report Server https://ServerName/ReportServer” when you install Dynamics CRM Server on Server Core  
  You may see this error message when the following conditions are true:  
   
 -   You run [!INCLUDE[pn_Microsoft_Dynamics_CRM_Server_Setup](../includes/pn-microsoft-dynamics-crm-server-setup.md)] on a [!INCLUDE[pn_Windows_Server](../includes/pn-windows-server.md)] running Server Core.  

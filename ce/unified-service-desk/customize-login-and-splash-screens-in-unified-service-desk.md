@@ -25,8 +25,8 @@ You can customize the branding of [!INCLUDE[pn_unified_service_desk](../includes
  The following XAML is used to customize the branding of login and splash screens in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]:  
   
 ```xaml  
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
-                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
+<ResourceDictionary xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation"  
+                    xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml"  
                     xmlns:resx1="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Properties">  
   
   <Style x:Key="FormAppNameStyle" TargetType="TextBlock">  
@@ -98,8 +98,8 @@ You can customize the branding of [!INCLUDE[pn_unified_service_desk](../includes
  Update the contents of the `CustomerSplashStyles.xaml` file to the following:  
   
 ```  
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
-                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
+<ResourceDictionary xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation"  
+                    xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml"  
                     xmlns:resx1="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Properties">  
   
   <Style x:Key="FormAppNameStyle" TargetType="TextBlock">  
@@ -121,8 +121,8 @@ You can customize the branding of [!INCLUDE[pn_unified_service_desk](../includes
  Update the contents of the `CustomerSplashStyles.xaml` file to the following:  
   
 ```xaml  
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
-                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
+<ResourceDictionary xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation"  
+                    xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml"  
                     xmlns:resx1="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Properties">  
   
   <Style x:Key="SplashAppNameStyle" TargetType="Label">  

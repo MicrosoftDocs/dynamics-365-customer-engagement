@@ -141,6 +141,6 @@ The following screenshot shows the default theme setup.
   
 ### See also  
          
- [Video: Themes in Dynamics 365 for Customer Engagement](http://go.microsoft.com/fwlink/p/?LinkId=529568)
+ [Video: Themes in Dynamics 365 for Customer Engagement](https://go.microsoft.com/fwlink/p/?LinkId=529568)
  [Query and edit an organization theme](../developer/customize-dev/query-and-edit-an-organization-theme.md)
 

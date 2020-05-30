@@ -262,7 +262,7 @@ Namespace Microsoft.Crm.Sdk.Samples
                 ElseIf ssl Then
                     config.DiscoveryUri = New Uri(String.Format("https://{0}/XRMServices/2011/Discovery.svc", config.ServerAddress))
                 Else
-                    config.DiscoveryUri = New Uri(String.Format("http://{0}/XRMServices/2011/Discovery.svc", config.ServerAddress))
+                    config.DiscoveryUri = New Uri(String.Format("https://{0}/XRMServices/2011/Discovery.svc", config.ServerAddress))
                 End If
 
                 ' Get the target organization.

@@ -1,6 +1,6 @@
 ---
 title: "Run data import (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
-description: "Data importation runs directly on the Dynamics 365 Customer Engagement server, and requires three asynchronous jobs for parsing, map-guided transformation, and uploading."
+description: "Data importation runs directly on the Dynamics 365 Server, and requires three asynchronous jobs for parsing, map-guided transformation, and uploading."
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: 
@@ -92,5 +92,5 @@ Data import runs directly on the [!INCLUDE[pn_microsoftcrm](../includes/pn-micro
 ### See also  
  [Import Data in Dynamics 365 Customer Engagement (on-premises)](import-data.md)   
  [Configure Data Import](configure-data-import.md)   
- [Blog Post: How to Import attachments programmatically](http://blogs.msdn.com/b/crm/archive/2012/08/06/how-to-import-attachments-programmatically.aspx)   
+ [Blog Post: How to Import attachments programmatically](https://blogs.msdn.com/b/crm/archive/2012/08/06/how-to-import-attachments-programmatically.aspx)   
  [Data Import Entities](data-import-entities.md)

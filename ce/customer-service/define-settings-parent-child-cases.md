@@ -71,6 +71,4 @@ In Dynamics 365 Customer Service,  you can track multiple issues for a customer,
   
 ### See also
 
-[Create and manage parent and child cases](customer-service-hub-user-guide-case-sla.md#create-and-manage-parent-and-child-cases)</br>
-
-  
+[Create and manage parent and child cases](customer-service-hub-user-guide-create-and-manage-parent-and-child-cases.md)

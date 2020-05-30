@@ -44,7 +44,7 @@ You can create a web application adapter if you want to enhance and modify web a
 
 3. Navigate to the \<ExtractedFolder>\UII\SampleCode\UII\AIF\QsWebApplication folder, and open the Microsoft.Uii.QuickStarts.QsWebApplication.csproj file in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].
 
-4. Press F5 or choose **Debug** > **Start Debugging** to host the sample web application locally on your computer. The application will be hosted at http://localhost:2627/.
+4. Press F5 or choose **Debug** > **Start Debugging** to host the sample web application locally on your computer. The application will be hosted at https://localhost:2627/.
 
    ![Web app in Visual Studio](../unified-service-desk/media/usd-web-app-local-host.png "Web app in Visual Studio")
 
@@ -72,7 +72,7 @@ You can create a web application adapter if you want to enhance and modify web a
    |        **Adapter**         |                                            Use No Adapter                                             |
    | **Application is Dynamic** |                                                  No                                                   |
    |  **Application Hosting**   |                                             Use SetParent                                             |
-   |          **URL**           | Specify the location where your web application is hosted. In this case, it is http://localhost:2627/ |
+   |          **URL**           | Specify the location where your web application is hosted. In this case, it is https://localhost:2627/ |
 
    ![Screenshot of Web App Config](../unified-service-desk/media/usd-web-app-crm-config.png "Screenshot of Web App Config")  
 

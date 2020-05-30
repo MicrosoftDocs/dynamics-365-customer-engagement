@@ -72,7 +72,7 @@ Namespace Microsoft.Crm.Sdk.Samples
 			Dim BingMapsKey As String = "Au9tmAwIDZ2XAQVedm85L51EujHtSfgvdFBLpLXBvH-p94kNrokavf00POMu74Xz"
 
 			' Create a REST request for the route's details. 
-			Dim requestUrl As String = "http://dev.virtualearth.net/REST/v1/Routes" &amp; "?output=json" &amp; "&amp;key=" &amp; BingMapsKey &amp; "&amp;wp.0=" &amp; fromAddress &amp; "&amp;wp.1=" &amp; toAddress &amp; "&amp;optimize=" &amp; optimize &amp; "&amp;travelMode=" &amp; travelMode &amp; "&amp;distanceUnit=" &amp; distanceUnit
+			Dim requestUrl As String = "https://dev.virtualearth.net/REST/v1/Routes" &amp; "?output=json" &amp; "&amp;key=" &amp; BingMapsKey &amp; "&amp;wp.0=" &amp; fromAddress &amp; "&amp;wp.1=" &amp; toAddress &amp; "&amp;optimize=" &amp; optimize &amp; "&amp;travelMode=" &amp; travelMode &amp; "&amp;distanceUnit=" &amp; distanceUnit
 
 			' Send the request and parse the response. 
 			Dim jsonResponse As BingMapsRestV1.Response = GetJsonResponse(requestUrl)

@@ -27,22 +27,36 @@ search.app:
 ---
 # Sample: Serialize and deserialize an entity Instance
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)]. Download the complete sample here [Business management samples](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/BusinessManagement). 
+This sample shows how to serialize early-bound and late-bound entity instances into an XML format, and how to de-serialize from an XML format to an early-bound entity instance.
 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]
-  
-## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../../includes/sdk-seeconnectionhelper.md)]
-  
-## Demonstrates  
- This sample shows how to serialize early-bound and late-bound entity instances into an XML format, and how to de-serialize from an XML format to an early-bound entity instance.  
-  
-## Example  
- [!code-csharp[BusinessManagement#SerializeAndDeserialize](../../snippets/csharp/CRMV8/businessmanagement/cs/serializeanddeserialize.cs#serializeanddeserialize)]  
-  
-### See also  
- [Use the Early Bound Entity Classes in Code](use-early-bound-entity-classes-code.md)   
- [Sample: Initialize a Record From an Existing Record](sample-initialize-record-existing-record.md)   
- [Mix Early and Late Bound Entities](mix-early-late-bound-entities.md)   
- [DataContractSerializer Class](https://msdn.microsoft.com/library/system.runtime.serialization.datacontractserializer.aspx)
+You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/SerializeDeserializeEntity).
+
+[!include[cc-sample-note](../includes/cc-sample-note.md)]
+
+## How to run this sample
+
+[!include[cc-how-to-run-samples](../includes/cc-how-to-run-PA-samples.md)]
+
+## What this sample does
+
+The `DataContractSerializer` message is intended to be used in a scenario where it Serializes and deserializes an instance of a type into an XML stream or document using a supplied data contract. This class cannot be inherited.
+
+## How this sample works
+
+In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+
+### Setup
+
+1. Checks for the current version of the org.
+1. The `CreateRequiredRecords` method creates required sample data for the sample.
+
+### Demonstrate
+
+1. The `DataContractSerializer` method serializes the contact records into XML and write it to the hard drive. 
+1. The `earlyBoundSerializer` method deserializes the entity instance.
+
+### Clean up
+
+Display an option to delete the records created in the [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
+
+

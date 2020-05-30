@@ -4,7 +4,7 @@ description: "Learn how to take notes specific to conversation in Omnichannel fo
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 07/01/2019
+ms.date: 12/27/2019
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -38,11 +38,9 @@ When you are working on multiple customer sessions, and while capturing notes, y
 
 Again, when you switch back to the session, launch the notes panel and take the notes. After you add the notes, these notes will be appended to the previously added notes in the timeline.
 
-> [!div class="nextstepaction"]
-> [Next topic: View conversation and session activity types in the model-driven apps](oc-view-activity-types.md)
-
 ## See also
 
+- [View conversation and session activity types in the model-driven apps](oc-view-activity-types.md)
 - [View Communication panel](oc-conversation-control.md)
 - [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)
 - [View customer summary and know everything about customers](oc-customer-summary.md)

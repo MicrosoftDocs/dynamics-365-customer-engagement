@@ -1,7 +1,7 @@
 ---
 title: "Business process flows overview | MicrosoftDocs"
 ms.custom: 
-ms.date: 04/30/2019
+ms.date: 02/21/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -79,7 +79,7 @@ A business process flow definition is represented as a custom entity and an inst
   
 <a name="BPF_controlsWhichBPF"></a>   
 ### Control which business process flow will be applied  
- You can associate business process flows with security roles so that only people with those security roles can see or use them. You can also set the order of the business process flows so that you can control which business process flow will be set by default. This works in the same way that multiple forms for an entity are defined.  
+ You can associate business process flows with security roles so that only people with those security roles can see or use them. You can also set the order of the business process flows so that you can control which business process flow will be set by default. To set business process flow order, open a business process flow in the designer and then select **Order Process Flow** on the command bar. Select the up and down arrows to move the business process flows in the order you want. 
   
  When someone creates a new entity record, the list of available active business process definition is filtered by the user’s security role. The first activated business process definition available for the user’s security role according to the process order list is the one applied by default. If more than one active business process definitions is available, users can load another from the Switch Process dialog. Whenever processes are switched, the one currently rendered goes to the background and is replaced by the selected one, but it maintains its state and can be switched back. Each record can have multiple process instances associated (each for a different business process flow definition, up to a total of 10). On form load, only one business process flow is rendered. When any user applies a different process, that process may only load by default for that particular user.  
   
@@ -193,7 +193,7 @@ Currently, you can’t create custom forms for entities based on a business proc
  [Add ready-to-use business processes](../customize/add-ready-use-business-processes.md)   
  [Create a business process flow](../customize/create-business-process-flow.md)   
  [Enhance business process flows with branching](../customize/enhance-business-process-flows-branching.md) <br/>
- [Whitepaper: Process Enablement with Dynamics 365 for Customer Engagement](http://download.microsoft.com/download/C/3/B/C3B46E35-9445-43B9-800B-474E022EE352/Process%20Enablement%20with%20Microsoft%20Dynamics%20CRM%202013.pdf)</br>
+ [Whitepaper: Process Enablement with Dynamics 365 for Customer Engagement](https://download.microsoft.com/download/C/3/B/C3B46E35-9445-43B9-800B-474E022EE352/Process%20Enablement%20with%20Microsoft%20Dynamics%20CRM%202013.pdf)</br>
  [Create custom business logic through processes](../customize/guide-staff-through-common-tasks-processes.md)</br>
  [Workflow Processes](../customize/workflow-processes.md)   
  [Actions - Overview](../customize/actions.md)

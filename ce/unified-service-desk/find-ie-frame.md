@@ -43,7 +43,7 @@ text to match against window caption
   
 ```xml  
 <HtmlElement name="PopupWindowText" type="HtmlElement">  
-<FindIEFrame>http://uiiserver1/Microsoft.Cti.Samples.DemoWebApplication/popup1.htm - Windows Internet Explorer</FindIEFrame>  
+<FindIEFrame>https://uiiserver1/Microsoft.Cti.Samples.DemoWebApplication/popup1.htm - Windows Internet Explorer</FindIEFrame>  
 <ElementMatchPath>/HTML/BODY/P/FONT</ElementMatchPath>  
 </HtmlElement>  
   

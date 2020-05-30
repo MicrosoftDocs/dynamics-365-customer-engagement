@@ -1,7 +1,7 @@
 ---
 title: "Work offline on your mobile device (Dynamics 365 apps)| MicrosoftDocs"
 ms.custom: 
-ms.date: 12/03/2019
+ms.date: 5/15/2020
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
@@ -24,44 +24,52 @@ search.app:
 
 # Work offline on your mobile device
 
-Work with your data in offline mode even when you don't have internet access. The Dynamics 365 for phones and tablets app provides a rich offline experience that lets you work with commands like create, read, update, and delete along with some special commands—so you always stay productive. Once you're back online, changes you've made are synchronized with your apps in the Common Data Service environment or Dynamics 365 Customer Engagement (on-premises).  
+Work with your data in offline mode even when you don't have internet access. The Dynamics 365 for phones and tablets app provides a rich offline experience that lets you work with commands like create, read, update, and delete along with some special commands—so you always stay productive. Once you're back online, changes you've made are synchronized with your apps in the Common Data Service environment.
 
 > [!NOTE]
 > - The mobile offline feature is only available for iOS and Android devices.
 > - To use the mobile offline feature, download the latest version of the Dynamics 365 for phones and tablet app from the app store. For iOS, version 13.19043.32 or later is supported; for Android, version 4.3.19043.33 or later supported.
+> - The offline feature is not supported If you are a [Dynamics 365 US Government](https://docs.microsoft.com/power-platform/admin/microsoft-dynamics-365-government) (GCC and GCC High) user or Dynamics 365 Customer Engagement (on-premises). 
 
 ## Download updates to work in offline mode
 
 When your admin has [enabled mobile offline](setup-mobile-offline-for-admin.md
 ), the next time you access the mobile app, you will be prompted to download offline updates. Once you download the updates, you can start using the mobile app in offline mode.
 
-- When you see the the dialog box that asks you to download updates to work offline, choose **Update**. 
+1. When you see the dialog box that asks you to download updates to work offline, choose **Download**. 
 
     > [!div class="mx-imgBorder"] 
     > ![Download updates on your mobile device for mobile offline](media/DownloadUpdates.png "Download updates on your mobile device for mobile offline")
+ 
+ Offline data starts to download in the background. Do not close the app or disconnect from the internet until the download is complete.
 
-If you choose **Skip for now**, you will not be able to use the app in offline mode until you manually download the updates. 
+  > [!NOTE]
+  > If you choose **Skip for now**, you will not be able to use the app in offline mode until you manually download the updates. To manually download updates, from the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Offline Status**. 
 
-### Manually download updates
+2. To see the download status, from the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Offline Status**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Start download updates](media/mobile_offline_download_updates_complete.png "Start download updates")
+   
+3. When Offline download is completed, you will get a notification indicating that you can start working in offline mode.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Download updates complete](media/mobile_offline_download_updates_complete_1.png "Download updates complete")
+   
+## Work in offline mode
+
+Once offline download is complete, you can start working in offline mode.
 
 1. From the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Offline Status**.
 
-    > [!div class="mx-imgBorder"] 
-    > ![Manually download updates](media/downloadupdates_1.png "Manually download updates")
+2. Set the **Work in offline mode** toggle to On.
 
-2. Select **Download Customizations** to download the updates.
+   > [!div class="mx-imgBorder"] 
+   > ![Work in offline mode](media/set_offline_toggle.png "Set toggle to work in offline mode")
 
-    > [!div class="mx-imgBorder"] 
-    > ![Download Customization](media/DownloadCustomization.png "Download Customization")
+## Check offline status
 
-3. Once the update process starts you will see a progress indicator while the updates are being downloaded. When the download is complete, it's a good idea to verify offline mode is available.
-
-    > [!div class="mx-imgBorder"] 
-    > ![Download updates progress bar](media/downloadingupdatesprogress.png "Download updates progress bar")
-
-## See if offline mode is available
-
-When updates are downloaded, you can check to see if mobile offline is available.
+When offline updates are complete, you can check to see if mobile offline is available.
 
 - From the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Offline Status**.
   
@@ -70,16 +78,15 @@ When updates are downloaded, you can check to see if mobile offline is available
 
 
 
-
-  -  **Offline Status** tracks the offline status of the whole app, and also the status of each entity individually. When the status shows as  **Available**, it indicates offline is available and data has synced successfully.
+  -  **Status** tracks the offline status of the whole app, and also the status of each entity individually. When the status shows as  **Available**, it indicates offline is available and data has synced successfully.
 
    > [!NOTE] 
    > The status here can be **Not Available** due to an error or if you missed downloading offline updates. If the status is **Not Available** due to missing the latest offline updates, then try downloading the updates again.
    
  
-  -  **Entity Status** provides the offline status of each entity individually. For the available entities, you can also track the last time the entity synced. Data is synced periodically in the background to ensure that you have access to the latest data whenever you go offline.
+  -  **Entity** provides the offline status of each entity individually. For the available entities, you can also track the last time the entity synced. Data is synced periodically in the background to ensure that you have access to the latest data whenever you go offline.
    
-  -  **Sync time** indicates the last time your data was synced with the server.
+  -  **Last Sync Date** indicates the last time your data was synced with the server.
  
      > [!div class="mx-imgBorder"] 
      > ![Mobile offline status](media/OfflineStatus.png "Mobile offline status")
@@ -96,6 +103,7 @@ You can also see which entities are available in offline mode from the main menu
 
      > [!div class="mx-imgBorder"] 
      > ![Available entities for mobile offline](media/available_entites.png "Available entities for mobile offline")
+     
    
 
 ## Sync conflict resolution
@@ -130,11 +138,11 @@ These entities and corresponding commands are available in offline mode.
 |-------------|---------|  
 |Account|	Create, Read, Update, Delete|
 |Activity Pointer|Read, Delete|
-|Appointment|	Create, Read, Update, Delete, Convert ActivityCase|
+|Appointment|	Create, Read, Update, Delete, Convert Activity Case|
 |Attachment	|Read only|
 |Case|Create, Read, Update, Delete|
 |Competitor|Create, Read, Update, Delete	|
-|Competitor Address Address|Create, Read, Update, Delete	|
+|Competitor Address |Create, Read, Update, Delete	|
 |Connection|Read only|
 |Connection Role|Read only|
 |Contact|Create, Read, Update, Delete	|
@@ -145,10 +153,12 @@ These entities and corresponding commands are available in offline mode.
 |Opportunity Product|Create, Read, Update, Delete	|
 |Phone Call|Create, Read, Update, Delete	|
 |Position|Create, Read, Update, Delete	|
-|Product|Create, Read, Update, Delete|
+|Product|Read|
 |Task |Create, Read, Update, Delete|
 |Team |Read only	|
 |User |Read only	|
+
+**Add Existing on subgrids**: **Add Existing** is not supported for mobile offline for certain types of relationships. When you are offline, certain relationships such as relationships that are N:N are read only, and the **Add Existing** command will be hidden on subgrids for those relationships. Even if the button is unhidden via customization, the command will not work in offline.
 
 **Business rules**: Business rules are supported in mobile offline. For more information, see [Create business rules and recommendations to apply logic in a model-driven app form](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-business-rules-recommendations-apply-logic-form).
 
@@ -183,7 +193,6 @@ If a user was working on a record and lost network connection, any updates made 
 **Business Process Flows**: Business process flows are not supported for mobile offline. When you are offline, business process flows grids and views will not be available and business process flows will not be rendered on records that are opened in offline mode. If a record containing a business process flow was loaded prior to going offline, business process flow functions, such as move next or move previous will not work. Business process flows support the ability to branch to a different set of stages, based on conditions defined on fields of the record. In offline mode, these conditions to determine the next set of stages in the business process flows will not be evaluated.
 
 **Qualify a lead**: When a lead created in mobile offline is qualified and when the user goes online, the business process stage will still show the  qualify stage. The user will have to manually click **Next stage** to move to the next stage.
-
 
 **Views** are not supported for the following entities in offline mode: 
 

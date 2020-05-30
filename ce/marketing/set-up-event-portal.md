@@ -8,8 +8,8 @@ ms.custom:
   - dyn365-marketing
 ms.topic: article
 ms.assetid: b83e8cb2-38a4-462f-87bc-0fc52357f01e
-author: kamaybac
-ms.author: kamaybac
+author: alfergus
+ms.author: alfergus
 manager: shellyha
 ms.reviewer:
 topic-status: Drafting
@@ -52,22 +52,34 @@ The first time you install Dynamics 365 Marketing, the then-current event websit
 
 For more information about how to download the latest version of the event website, customize it, build it, and then deploy it on a Dynamics 365 Portal or external website, see [Build and host a custom event website](developer/event-management-web-application.md).
 
+<a name="publish-event"></a>
+
 ## Publish events, sessions, tracks, and related records to the website
 
-Most of the information shown on the website comes directly from your event models and their various related records, so all you need to do get the website online is make sure that all the information is available in Dynamics 365 Marketing and that the event itself, plus its relevant sessions and tracks, are set to be published on the website.
+Most of the information shown on the website comes directly from your event models and their various related records, so all you need to do get the website online is make sure that all the information is available in Dynamics 365 Marketing and that the event itself, plus its relevant sessions and tracks, are set to be published on the website. The event and all its settings remain editable even after you go live, and any changes you make to a live event, and its related live records, will immediately be reflected on the website too.
 
-To publish an event, session, or track, open the relevant record and set its **Publish Status** in the drop-down list (usually shown in the upper-right corner of the form) to **Live**. Set the **Publish Status** to any other value to unpublish an event, session, or track if needed, thus removing it from your event website.
+Event sessions work similarly to the event itself, and essentially function as sub-events that, taken together, create the overall event schedule. The event website shows a schedule of live sessions that belong to each event. An event can include both live and not-live sessions, but only live sessions belonging to live events are shown on the website.
 
-![The Publish Status menu](media/event-publish-ill.png "How to set the publish status of an event to the website")
+Event tracks are collections of sessions, usually related by theme or audience. Tracks provide a convenient way for attendees to register for several related sessions at once. Like event sessions, you must publish each track to make it appear on the website for its related event. An event can include both live and not-live tracks, but only the live tracks belonging to live events are shown on the website.
+
+Event, session, and track entities all have a **Publish status** field, which users can use to store information about the readiness of the event, including whether it's ready to publish or live. This value is shown as a drop-down list in the upper-right corner when you are editing an event or session record, but is part of the main form for session tracks.
+
+![The Publish Status menu for events](media/golive-publish-event.png "The Publish Status menu for events")
+
+The default values for **Publish status** are **Draft**, **Ready to go live**, **In progress**, **Live**, and **Cancelled**. Other than **Live**, all these values are for information only, so you can use them to track your work progress and coordinate with coworkers as needed. The **Live** value works slightly differently depending on which entity you are working with as follows:
+
+- For events and sessions, the **Live** value only appears in the **Publish status** drop-down list while the event or session is actually live. To go live with an event or session, use the **Go live** button on the command bar while the relevant event or session is open. You can stop a live event or session either by selecting **Stop** on the command bar or by changing the **Publish status** to anything other than **Live**.
+- When you create a new session using the quick-create form (which you can do while working with the [calendar view](marketing-calendar.md) on the **Agenda** tab for an event), the form includes a **Publish status** drop-down list that does include the **Live** value. In this case, you can set the **Publish status** to **Live** while creating the session to go live right away.
+- For session tacks, use the **Publish status** drop-down list both to go live and to stop a live track (the command bar doesn't include **Go live** or **Stop** buttons). Set it to **Live** to publish the track and make it visible publicly on your event website. Set the **Publish status** to any value other than **Live** to hide the track on your event website. For tracks, the **Publish status** drop-down list is located on the **General** tab for the track record rather than at the side of the header (as it is for events and sessions).
 
 The following table summarizes how to publish each publishable entity to the website, and which types of information are publish for each of them. Be especially careful and thorough when entering values for published fields, because they are exposed to the public.
 
 |   **Entity**   |  **How and where it gets published**   |  **Which fields get published** |
 |-------|----|-----------|
-|     Events     |  Publish each event manually by opening the event record and setting the **Publish status** to **Live**. Unpublished events won't be shown on the website.<p>All published events are listed on the **All Events** page of the website.</p> |  Event name, Start date & time, End date & time, Primary venue, Description|
-|    Sessions    | Publish each session manually by opening the session record and setting the **Publish status** to **Live**. Unpublished sessions won't be shown on the website.<p>Each published session is listed on the **Sessions** page for the event it belongs to, on the **Speaker** page for the speaker presenting it, and on the **Session Tracks** page for tracks it belongs to. | Session title, Start date & time, End date & time, Session summary, Detailed description, Session tracks, Duration|
+|     Events     |  Publish each event manually by opening the event record and selecting **Go live** on the command bar. Unpublished events won't be shown on the website.<p>All published events are listed on the **All Events** page of the website.</p> |  Event name, Start date & time, End date & time, Primary venue, Description|
+|    Sessions    | Publish each session manually by opening the session record and selecting **Go live** on the command bar. Unpublished sessions won't be shown on the website.<p>Each published session is listed on the **Sessions** page for the event it belongs to, on the **Speaker** page for the speaker presenting it, and on the **Session Tracks** page for tracks it belongs to. | Session title, Start date & time, End date & time, Session summary, Detailed description, Session tracks, Duration|
 |    Speakers    | Speakers are published automatically when you publish a session they are assigned to.<p>Speakers are listed on the front page for each event where they are speaking, on the **Speakers** page, and on session pages for each session they are running. A speaker profile page shows additional details and a schedule of sessions for that speaker.</p> | Name, Photo, Title, About, LinkedIn, Twitter, Website |
-| Session Tracks |    Publish each track manually by opening the track record and setting the **Publish status** to **Live**. Unpublished tracks won't be shown on the website.<p>Published external tracks are listed on the **Session Tracks** page for the event they belong to. Each session track shows its name and a list of sessions that belong to it (with links).<p>You can only publish external tracks (not internal ones).</p>     |  Name, Audience |
+| Session Tracks |    Publish each track manually by opening the track record and setting the **Publish status** to **Live**. (For session tracks, the **Publish status** menu is located on the **General** tab instead of in the header.) Unpublished tracks won't be shown on the website.<p>Published external tracks are listed on the **Session Tracks** page for the event they belong to. Each session track shows its name and a list of sessions that belong to it (with links).<p>You can only publish external tracks (not internal ones).</p>     |  Name, Audience |
 |     Passes     | Passes are published automatically when you publish the event they belong to.<p>All passes associated with a published session track are listed on the **Pass Information** page for the event the track belongs to. The system tracks the number of passes available and the number assigned, and indicates when passes are sold out.</p>| Name, Name of the related track record, Pass price, Sold out status</p>             |
 |    Sponsors    | Sponsors are published automatically when you publish the event they belong to.<p>Sponsors associated with published events are displayed at the bottom of most pages of the website for those events.  |  Event sponsor (the  name of the related account record), Logo (taken direcly from the sponsor record, not the related account)</p>                          |
 

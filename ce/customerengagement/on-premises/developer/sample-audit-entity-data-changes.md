@@ -1,5 +1,5 @@
 ---
-title: "Sample: Audit entity data changes (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Sample: Audit entity data changes | MicrosoftDocs"
 description: "Sample demonstrating how to audit entity data changes."
 keywords: 
 ms.date: 03/29/2019
@@ -10,8 +10,8 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: d30356c5-da29-4466-8356-ec3d1acad578
 author: JimDaly
-ms.author: jdaly
-manager: jdaly
+ms.author: nabuthuk
+manager: kvivek
 ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -30,27 +30,34 @@ search.app:
 
 # Sample: Audit entity data changes
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. [Download the code samples of audit entity data changes and audit user access](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/Auditing).
+This sample shows how to enable and disable auditing on an entity and its attributes, retrieve the data change history of the audited entity, and delete the audit records. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/AuditEntityData).
 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
-  
-## Requirements  
- [!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)] This sample requires the logged on user to have the System Administrator role.  
-  
-## Demonstrates  
- How to enable and disable auditing on an entity and its attributes, retrieve the data change history of the audited entity, and delete the audit records.  
-  
-## Example  
- [!code-csharp[Auditing#Auditing](../snippets/csharp/CRMV8/auditing/cs/auditing.cs#auditing)]  
-  
-### See also  
- [Audit Entity Data Changes in Dynamics 365 Customer Engagement (on-premises)](audit-entity-data-changes.md)   
- [Sample: Audit User Access](sample-audit-user-access.md)   
- [Audit Entity](entities/audit.md)<!-- Bug 696490 -->  
- <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.IsAuditEnabled>   
- <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.IsAuditEnabled>   
- <xref:Microsoft.Crm.Sdk.Messages.RetrieveRecordChangeHistoryRequest>   
- <xref:Microsoft.Crm.Sdk.Messages.AttributeAuditDetail>   
- <xref:Microsoft.Crm.Sdk.Messages.RetrieveAuditPartitionListRequest>   
- <xref:Microsoft.Crm.Sdk.Messages.DeleteAuditDataRequest>
+[!include[cc-sample-note](includes/cc-sample-note.md)]
+
+## How to run this sample
+
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-PA-samples.md)]
+
+## What this sample does
+
+The `RetrieveRecordChangeHistoryRequest` message is intended to be used in a scenario where it contains data that is needed to retrieve the audit history for an entity.
+
+## How this sample works
+
+In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+
+### Setup
+
+1. Checks for the current version of the org.
+2. Creates an sample account entity.
+
+### Demonstrate
+
+1. Gets the organization's ID from the system user record.
+2. Enabling auditing on organization and also on the sample account entity.
+3. The `RetrieveRecordChangeHistoryRequest` retrieves the audit history for the account entity and displays the result.
+
+### Clean up
+
+Display an option to delete the sample data that is created in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
+

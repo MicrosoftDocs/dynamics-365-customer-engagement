@@ -2,14 +2,14 @@
 title: Upgrade considerations for the work breakdown structure 
 description: This topic provides information about upgrading the work breakdown structure from Project Service Automation 2.x to 3.x.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-projectservice
 ms.custom:
   - dyn365-projectservice
 ms.date: 10/18/2019
 ms.topic: article
 ms.prod: 
 ms.service: business-applications
-ms.technology: Dynamics 365 for Customer Engagement for Project Service 2.x
+ms.technology: Dynamics 365 Project Service Automation 2.x
 author: ruhercul
 ms.author: ruhercul
 audience: Admin
@@ -22,6 +22,8 @@ search.app:
   - D365PS
   
 ---
+
+
 
 # Upgrade considerations for the work breakdown structure
 This topic provides information about upgrading the work breakdown structure from Project Service Automation 2.x to 3.x. This topic defines the healthy state of a project in Project Service Automation (PSA) that is required for a successful upgrade. There is also information about the common blocking conditions that will cause upgrade to fail. For more information about defining project tasks and their functions within a project schedule, see [Project schedules](project-creating.md).
@@ -69,12 +71,12 @@ To ensure a successful upgrade, the following relationships must be correctly ma
 ### Potential mitigation steps
 - Use Advanced Find to identify Project tasks that do not contain a Project ID.
 - Use Advanced Find to identify Project tasks where the scheduled duration is greater than > 1,800,000.
-- Prior to making any data changes, you should investigate any customizations associated with the entity which may have lead to getting the data into bad state. These customizations should be addressed before proceeding with any data related updates.
+- Prior to making any data changes, you should investigate any customizations associated with the entity that may have led to getting the data into a bad state. These customizations should be addressed before proceeding with any data-related updates.
 - For the identified tasks that have been orphaned, consider deleting these tasks if they are not needed or if they should be associated with the correct parent project.
 - For any tasks where the duration is greater than 1,250 days, consider adding multiple tasks to represent the total duration, if feasible.
 
->[!NOTE]
-> Items noted with an asterisk (*) have limits that are due to the fact that customer relationship management (CRM) supports only 7,320 recurrence expansions. You must stay below this limit.
+> [!NOTE]
+> Items noted with an asterisk (\*) have limits that are due to the fact that customer relationship management (CRM) supports only 7,320 recurrence expansions. You must stay below this limit.
 
 ## Resource Assignment relationships
 To ensure a successful upgrade, the following relationships must be correctly maintained:

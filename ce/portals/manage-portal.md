@@ -2,7 +2,7 @@
 title: "Administer a portal | MicrosoftDocs"
 description: "Instructions to administer your portal."
 keywords: "portal administration, Power Apps Portals admin center"
-ms.date: 10/01/2019
+ms.date: 02/11/2020
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-portal
@@ -11,7 +11,7 @@ ms.assetid: 265AE063-1D9C-40DD-AAAF-69EAB848F22F
 author: sbmjais
 ms.author: shjais
 manager: shubhadaj
-ms.reviewer: 
+ms.reviewer: tapanm
 ms.suite: 
 ms.tgt_pltfrm: 
 topic-status: Drafting
@@ -30,7 +30,7 @@ After provisioning a portal, you can perform various actions such as setting up 
 
 To manage an existing portal, you must be assigned any one of the following roles:
 - Office 365 Global Administrator 
-- Service Administrator. [!include[](../includes/proc-more-information.md)] [Use the service admin role to manage your tenant](https://technet.microsoft.com/en-us/library/mt793847.aspx)  
+- Service Administrator. [!include[](../includes/proc-more-information.md)] [Use the service admin role to manage your tenant](https://technet.microsoft.com/library/mt793847.aspx)  
 - System Administrator of the Common Data Service environment selected for the portal
 
 If you haven't been assigned any of the above-mentioned roles, the following message is displayed: You need to be a global administrator, service administrator, or system administrator for this organization in order to manage this portal.
@@ -71,13 +71,15 @@ A custom domain can help your customers find your support resources more easily 
    - **Upload a new certificate**: Select this option to upload the .pfx file if you have not yet uploaded it to the organization. Select the upload button underneath **File** to select the .pfx file. After selecting the file, enter the password for your SSL certificate in the **Password** field.
    - **Use an existing certificate**: Select this option to choose the correct certificate from the drop-down list.
 
-     > [!Note]
+     > [!NOTE]
      > The SSL certificate must meet all the following requirements:
      > - Signed by a trusted certificate authority
-     > - Exported as a password-protected PFX file
+     > - [Exported](https://docs.microsoft.com/powershell/module/pkiclient/export-pfxcertificate?view=win10-ps) as a password-protected PFX file
      > - Contains private key at least 2048 bits long
      > - Contains all intermediate certificates in the certificate chain
      > - Must be SHA2 enabled; SHA1 support is being removed from popular browsers
+     > 
+     > The steps to export SSL certificate as a password-protected PFX file may vary depending on your certificate provider. Check with your certificate provider for recommendation. For example, certain providers may suggest to use OpenSSL 3rd party tool from [OpenSSL](https://www.openssl.org/) or [OpenSSL Binaries](https://wiki.openssl.org/index.php/Binaries) sites. 
 
 5. Select **Next**.
 

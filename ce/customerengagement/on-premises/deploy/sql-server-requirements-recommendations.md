@@ -22,7 +22,7 @@ manager: kvivek
 The following requirements and recommendations apply to new and existing installations of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)].  
   
 <a name="sql_gen_rec"></a>   
-## General recommendations  
+## General requirements and recommendations  
   
 -   [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] requires an instance of [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] be installed, running, and available. All installations of the supported [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] editions can be used as the reporting server. However, the [!INCLUDE[pn_reporting_services_short](../includes/pn-reporting-services-short.md)] edition must match the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] edition.  
   
@@ -44,7 +44,7 @@ The following requirements and recommendations apply to new and existing install
   
 -   [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] Setup requires a network library to authenticate [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)]. By default, [!INCLUDE[pn_TCP/IP](../includes/pn_tcp_ip_md.md)] network libraries are enabled when you install [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)]. [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] can use both [!INCLUDE[pn_TCP/IP](../includes/pn_tcp_ip_md.md)] or Named Pipes for authentication. However, the computer that is running [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] must be configured for at least one of the two network libraries.  
   
--   We recommend that the computer that is running [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] be located on the same local area network (LAN) as the computer that is running the [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] [!INCLUDE[Back_End_Server](../includes/back-end-server.md)] roles. <!-- For a description of the server roles, see [Microsoft Dynamics 365 Customer Engagement (on-premises) server roles](microsoft-dynamics-365-server-roles.md). --> 
+-   We recommend that the computer that is running [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] be located on the same local area network (LAN) as the computer that is running the [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] [!INCLUDE[Back_End_Server](../includes/back-end-server.md)] roles. <!-- For a description of the server roles, see [Dynamics 365 Server roles](microsoft-dynamics-365-server-roles.md). --> 
   
 -   The computer that is running [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] must be configured to have sufficient disk space, memory, and processing power to support the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] environment. For more information, see [Microsoft Dynamics 365 Server hardware requirements](microsoft-dynamics-365-server-hardware-requirements.md).  
   

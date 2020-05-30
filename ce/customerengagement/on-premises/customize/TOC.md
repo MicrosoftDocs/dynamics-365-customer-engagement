@@ -25,7 +25,7 @@
 #### [Change navigation within a form](use-the-form-editor-legacy.md)
 #### [Add a field to a form](add-field-form.md)
 #### [Form properties](form-properties-legacy.md)
-#### [Tab properties](tab-properties-legacy.md)
+#### [Work with form tabs](tab-properties-legacy.md)
 #### [Section properties](section-properties-legacy.md)
 #### [Common field properties](common-field-properties-legacy.md)
 #### [Special field properties](special-field-properties-legacy.md)
@@ -129,12 +129,12 @@
 
 # [Work with solutions](solutions-overview.md)
 ## [Change prefix for solution publisher](change-solution-publisher-prefix.md)
-## [Use the default solution](use-solutions-for-your-customizations.md)
+## [Use a solution to customize](use-solutions-for-your-customizations.md)
 ## [Navigate to a specific solution](navigate-specific-solution.md)
 ## [Use the solution explorer](use-solution-explorer.md)
 ## [Create a solution](create-solution.md)
 ## [Export solution](export-solution.md)
-## [Import, update, and upgrade solution](import-update-upgrade-solution.md)
+## [Import or update a solution](import-update-upgrade-solution.md)
 ## [Distribute solutions and patches](use-segmented-solutions-patches-simplify-updates.md)
 
 # [Create or edit a web resource](create-edit-web-resources.md) 

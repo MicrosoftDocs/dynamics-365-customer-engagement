@@ -1,13 +1,12 @@
 ---
 title: "msdyn_analytics Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_analytics entity."
+ms.date: 03/23/2020
+ms.service: "crm-online"
+ms.topic: "reference"
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
-ms.date: 08/29/2019
-ms.service: 
-  - crm-online
-ms.topic: "reference"
 ---
 # msdyn_analytics Entity Reference
 
@@ -62,6 +61,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [msdyn_analyticsId](#BKMK_msdyn_analyticsId)
 - [msdyn_KeyvaultUri](#BKMK_msdyn_KeyvaultUri)
 - [msdyn_nativeappid](#BKMK_msdyn_nativeappid)
+- [msdyn_ocanalyticspreviewenable](#BKMK_msdyn_ocanalyticspreviewenable)
 - [msdyn_Title](#BKMK_msdyn_Title)
 - [msdyn_WorkspaceId](#BKMK_msdyn_WorkspaceId)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
@@ -136,11 +136,36 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
+### <a name="BKMK_msdyn_ocanalyticspreviewenable"></a> msdyn_ocanalyticspreviewenable
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Enable for multi-session experience|
+|DisplayName|Enable for multi-session experience|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_ocanalyticspreviewenable|
+|RequiredLevel|ApplicationRequired|
+|Type|Boolean|
+
+#### msdyn_ocanalyticspreviewenable Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
+
+
 ### <a name="BKMK_msdyn_Title"></a> msdyn_Title
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Title for analytics configuration|
 |DisplayName|Title|
 |FormatName|Text|
 |IsLocalizable|False|

@@ -105,7 +105,7 @@ Let us take the above mentioned example to learn how to resolve the error.
 
    The **Service Activities - Migration Status** page opens in a new browser tab. <br> You can view the migration error message for the **Kenny Smith** customer stating service has failed due to the **Dependent ResourceGroup is not migrated**, which has the GUID as `3979D7DB-F5DA-E911-A81F-000D3A6D4947`.
 
-2. Open a new browser window and go to `http://<dynamics org url>api/data/v9.0/services(<Guid>)`. For example, `http://<dynamics org url>api/data/v9.0/services(3979D7DB-F5DA-E911-A81F-000D3A6D4947)`.
+2. Open a new browser window and go to `https://<dynamics org url>api/data/v9.0/services(<Guid>)`. For example, `https://<dynamics org url>api/data/v9.0/services(3979D7DB-F5DA-E911-A81F-000D3A6D4947)`.
 
    Now, you find the record name. In our case, it is **Bike technicians**, which is a **Resource Categories** entity in the new service scheduling experience.
 

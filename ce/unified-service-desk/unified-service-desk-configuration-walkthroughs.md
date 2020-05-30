@@ -1,6 +1,6 @@
 ---
 title: "Unified Service Desk  configuration walkthroughs | MicrosoftDocs"
-description: "Unified Service Desk walkthroughs provide you a step-by-step tutorial on configuring an agent application from scratch and progressively add features."
+description: "Unified Service Desk walkthroughs provide a step-by-step tutorial on configuring an agent application from scratch and progressively adding features."
 ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
@@ -20,7 +20,7 @@ search.app:
 # Unified Service Desk configuration walkthroughs
 Each walkthrough in this section covers an area or a combination of areas in [!INCLUDE[pn_unified_service_desk_for_crm](../includes/pn-unified-service-desk-for-crm.md)]. These walkthroughs are arranged in increasing order of complexity so it may benefit you to do them in sequence. Also, you must complete [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md) first because it sets up the base application that the other walkthroughs, except walkthrough 8, are built on. Walkthrough 8 is a standalone walkthrough, and does not require any other walkthroughs to be completed before using it.  
   
- These walkthroughs are created using the “New Environment” sample application package deployed on Customer Engagement (On-premises). Before you begin these walkthroughs, ensure that you have deployed one of the sample [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] applications, have installed the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and have appropriate security access in the Common Data Service platform to configure [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] entities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Deploy sample Unified Service Desk applications using Package Deployer](/dynamics365/customer-engagement/admin/deploy-packages-using-package-deployer-windows-powershell)  
+ These walkthroughs are created using the “New Environment” sample application package deployed on Customer Engagement (on-premises). Before you begin these walkthroughs, ensure that you have deployed one of the sample [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] applications, have installed the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and have appropriate security access in the Common Data Service platform to configure [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] entities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Deploy sample Unified Service Desk applications using Package Deployer](/dynamics365/customer-engagement/admin/deploy-packages-using-package-deployer-windows-powershell)  
   
 ## Related topics  
  [Install, upgrade and deploy Unified Service Desk](../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)  

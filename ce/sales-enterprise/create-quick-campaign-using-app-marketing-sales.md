@@ -1,11 +1,11 @@
 ---
 title: "Create a quick campaign using in-app marketing (Dynamics 365 Sales) | MicrosoftDocs"
-description: 
+description: ""
 ms.date: 10/01/2019
 ms.service: 
-  - dynamics-365-sales
+  - "dynamics-365-sales"
 ms.custom: 
-  - dyn365-sales
+  - "dyn365-sales"
 ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
@@ -22,9 +22,9 @@ Send an e-mail blast to customers who fit a specific demographic, a mail campaig
   
 1. [!INCLUDE[proc_marketing_marketing_lists](../includes/proc-marketing-marketing-lists.md)]  
   
-2. Open a record, and then in the **Quick Campaigns** area, click the **Add** button ![Add button](../sales-enterprise/media/add-button.PNG "Add button").  
+2. Open a record, and then in the **Quick Campaigns** area, select **New Quick Campaign**.  
   
-3. In the Quick Campaign Wizard, read the instructions on the Welcome page, and click **Next**.  
+3. In the Quick Campaign Wizard, read the instructions on the Welcome page, and select **Next**.  
   
 4. Specify a name for the quick campaign.  
   
@@ -32,9 +32,9 @@ Send an e-mail blast to customers who fit a specific demographic, a mail campaig
   
     You can also select who you want [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to assign the activity to and whether [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] should perform the activity automatically for appropriate activities, such as sending email messages. For example, if you are creating a phone call activity for all the sales representatives, you can select the phone call activity, and then select **The owners of the records that are included in the quick campaign**. Each sales representative can then see the activity and take action on it. However, if you are creating a large number of email activities that [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] will perform automatically, you can assign the email activity to yourself instead of the record owners.  
   
-6. Add or change information in the text boxes in the activity form, and click **Next**.  
+6. Add or change information in the text boxes in the activity form, and select **Next**.  
   
-7. Click **Create**.  
+7. Select **Create**.  
   
    > [!NOTE]
    >  You can't add records to a quick campaign after you create it.  

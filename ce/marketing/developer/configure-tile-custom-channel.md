@@ -1,5 +1,5 @@
 ---
-title: "Step 3: Configure the tile for custom channel (Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
+title: "Step 2: Configure the tile for custom channel (Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
 description: "Learn about how to configure a Tile for a custom channel in Dynamics 365 Marketing."
 ms.custom: 
 ms.date: 04/01/2018
@@ -17,7 +17,7 @@ search.app:
   - D365CE
   - D365Mktg
 ---
-# Step 3: Configure the tile for custom channel
+# Step 2: Configure the tile for custom channel
 
 
 Custom channel is exposed as a “tile” in the customer journey designer. You define the tile using 2 files: an XML file and a CSS file.
@@ -52,8 +52,6 @@ The following is a sample Tile XML file. Description of the elements in the XML 
     <!-- optional -->
     <!-- Lookup view id for your entity-->
     <LookupViewId>4112769C-F12D-4F63-B8C3-9068FECBB4E9</LookupViewId>
-    <!--Insights form id for your entity -->
-    <InsightsMainFormId>6370c410-6dd5-43f5-b1d1-7b757992d2de</InsightsMainFormId>
     <!--Quick view form id for your entity -->
     <QuickViewFormId>404BA31B-2C12-4233-8711-804B78DE1267</QuickViewFormId>
   </ChannelProperties>
@@ -161,10 +159,6 @@ The XML file has the following elements:
     <td>Lookup view ID for the custom entity. Optional.</td>
     </tr>
     <tr>
-    <td>InsightsMainFormId</td>
-    <td>The marketing-insights service form ID for the custom entity. Optional.</td>
-    </tr>
-    <tr>
     <td>QuickViewFormId</td>
     <td>Quick view form ID for the custom entity. Optional.</td>
     </tr>
@@ -249,6 +243,6 @@ sample_SpecialTileCustomerJourneyDesignerTileConfig.xml so the example uses 'sam
 
 
 > [!div class="nextstepaction"]
-> [Step 4: Test your custom channel tile](test-custom-channel-tile.md)
+> [Step 3: Create a workflow or plug-in to implement your custom logic](create-workflow-plugin-custom-channel.md)
 
   

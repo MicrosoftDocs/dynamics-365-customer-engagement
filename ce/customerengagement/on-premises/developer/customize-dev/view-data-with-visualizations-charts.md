@@ -40,7 +40,7 @@ Visualizations let you see your business data graphically. A visualization is at
   
 <a name="Charts"></a>   
 ## Chart visualizations  
- Charts let you see summaries of grid data. The charts are built by using the [!INCLUDE[pn_microsoftchart](../../includes/pn-microsoftchart.md)]. For more information about [!INCLUDE[pn_ms_chart_controls_short](../../includes/pn-ms-chart-controls-short.md)], see [Download: Chart Controls for .NET Framework](http://go.microsoft.com/fwlink/p/?LinkId=128852).  
+ Charts let you see summaries of grid data. The charts are built by using the [!INCLUDE[pn_microsoftchart](../../includes/pn-microsoftchart.md)]. For more information about [!INCLUDE[pn_ms_chart_controls_short](../../includes/pn-ms-chart-controls-short.md)], see [Download: Chart Controls for .NET Framework](https://go.microsoft.com/fwlink/p/?LinkId=128852).  
   
  These charts are integrated with the grids in the web application. When you apply a filter (query) to the data in a grid, the filter is applied to the chart also, and the chart is updated accordingly. Similarly, when you perform drill-down operations on a chart, the grid data is updated automatically.  
   
@@ -60,7 +60,7 @@ Visualizations let you see your business data graphically. A visualization is at
 ## Web resource visualizations  
  Web resources are virtual files that are stored in the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] database and may be retrieved using a unique URL address. You can display an existing web resource as a visualization, and display it in the **Charts** area in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] together with other charts for an entity. For more information about web resources, see [Web Resources for Microsoft Dynamics 365 Customer Engagement](../web-resources.md).  
   
- You can use the following types of web resources in a visualization: [WWebpage (HTML) web resources](../webpage-html-web-resources.md) and [Image (JPG, PNG, GIF, ICO) Web Resources](../image-web-resources.md). For more information about how to create a visualization with a web resource, see [Create a Web Resource Visualization](create-visualization-chart.md#CreateWRVisualization).  
+ You can use the following types of web resources in a visualization: [Webpage (HTML) web resources](../webpage-html-web-resources.md) and [Image (JPG, PNG, GIF, ICO) Web Resources](../image-web-resources.md). For more information about how to create a visualization with a web resource, see [Create a Web Resource Visualization](create-visualization-chart.md#CreateWRVisualization).  
   
 <a name="SupportedVisualizationEntities"></a>   
 ## Entities supported for visualizations  
@@ -131,8 +131,8 @@ UoMSchedule
  [Sample Code for Charts](sample-code-charts-visualizations.md)   
  [SavedQueryVisualization Entity](../entities/savedqueryvisualization.md)   
  [UserQueryVisualization Entity](../entities/userqueryvisualization.md)
- [Download: Chart Controls for .NET Framework Language Pack](http://www.microsoft.com/downloads/details.aspx?FamilyId=581FF4E3-749F-4454-A5E3-DE4C463143BD&displaylang=en)   
- [Download: Chart Controls Add-on for Visual Studio](http://www.microsoft.com/downloads/details.aspx?FamilyId=1D69CE13-E1E5-4315-825C-F14D33A303E9&displaylang=en)   
- [Download: Chart Controls for .NET Framework Documentation](http://go.microsoft.com/fwlink/p/?LinkId=128301)   
- [Samples Environment for Microsoft Chart Controls](http://code.msdn.microsoft.com/mschart)   
- [Chart Controls Forum](http://go.microsoft.com/fwlink/p/?LinkId=128713)
+ [Download: Chart Controls for .NET Framework Language Pack](https://www.microsoft.com/downloads/details.aspx?FamilyId=581FF4E3-749F-4454-A5E3-DE4C463143BD&displaylang=en)   
+ [Download: Chart Controls Add-on for Visual Studio](https://www.microsoft.com/downloads/details.aspx?FamilyId=1D69CE13-E1E5-4315-825C-F14D33A303E9&displaylang=en)   
+ [Download: Chart Controls for .NET Framework Documentation](https://go.microsoft.com/fwlink/p/?LinkId=128301)   
+ [Samples Environment for Microsoft Chart Controls](https://code.msdn.microsoft.com/mschart)   
+ [Chart Controls Forum](https://go.microsoft.com/fwlink/p/?LinkId=128713)

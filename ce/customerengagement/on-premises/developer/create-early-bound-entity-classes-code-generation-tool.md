@@ -59,7 +59,7 @@ Run the CrmSvcUtil.exe tool from the SDK\Bin folder. If you run the tool from an
 The following sample shows the format for running the tool from the command line for an installation of Dynamics 365 Customer Engagement (on-premises). You supply the parameter values for your installation.
 
 ```ms-dos
-CrmSvcUtil.exe /url:http://<serverName>/<organizationName>/XRMServices/2011/Organization.svc    /out:<outputFilename>.cs /username:<username> /password:<password> /domain:<domainName>    /namespace:<outputNamespace> /serviceContextName:<serviceContextName>  
+CrmSvcUtil.exe /url:https://<serverName>/<organizationName>/XRMServices/2011/Organization.svc    /out:<outputFilename>.cs /username:<username> /password:<password> /domain:<domainName>    /namespace:<outputNamespace> /serviceContextName:<serviceContextName>  
 ```
 
 You can look up the correct URL in the web application by selecting **Settings**, navigating to **Customizations**, and then choosing **Developer Resources**. The URL is shown under **Organization Service**.  
@@ -74,7 +74,7 @@ CrmSvcUtil.exe /?
 
 ## Usage examples
 
-The following examples show how to use of the code generation tool from the command line. Note that user name and password are optional parameters. If your credentials for the target Dynamics 365 Customer Engagement (on-premises) server are stored in the [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] credential vault, you do not have to provide them to run the code generation tool.
+The following examples show how to use of the code generation tool from the command line. Note that user name and password are optional parameters. If your credentials for the target Dynamics 365 Server are stored in the [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] credential vault, you do not have to provide them to run the code generation tool.
 
 ### Claims authentication – Active Directory
 

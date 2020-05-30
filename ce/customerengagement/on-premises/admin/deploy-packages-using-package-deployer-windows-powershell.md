@@ -127,7 +127,7 @@ packagedeployer.exe /Settings:"SkipChecks=true|lcid=1045"
   
  [Use the cmdlet to retrieve packages](../admin/deploy-packages-using-package-deployer-windows-powershell.md#retrieve)  
   
- [Use the cmdlet to connect to your Dynamics 365 for Customer Engagement server](../admin/deploy-packages-using-package-deployer-windows-powershell.md#connect)  
+ [Use the cmdlet to connect to your Dynamics 365 Server](../admin/deploy-packages-using-package-deployer-windows-powershell.md#connect)  
   
  [Use the cmdlet to deploy packages](../admin/deploy-packages-using-package-deployer-windows-powershell.md#deploy)  
   
@@ -216,7 +216,7 @@ Get-Help “Crm”
  
 ### Use the cmdlet to connect to your Dynamics 365 for Customer Engagement instance  
   
-1. Provide your credentials to connect to your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps or Dynamics 365 for Customer Engagement apps (on-premises) instance. Running the following command will prompt you to type your user name and password to connect to the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] instance, and we will store it in the `$Cred` variable, and use it later for connecting to your Dynamics 365 for Customer Engagement server.  
+1. Provide your credentials to connect to your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps or Dynamics 365 for Customer Engagement apps (on-premises) instance. Running the following command will prompt you to type your user name and password to connect to the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] instance, and we will store it in the `$Cred` variable, and use it later for connecting to your Dynamics 365 Server.  
   
    ```  
    $Cred = Get-Credential  

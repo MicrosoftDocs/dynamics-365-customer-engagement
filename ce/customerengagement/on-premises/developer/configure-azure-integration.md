@@ -40,7 +40,7 @@ For instructions on configuring authorization see [Walkthrough: Configure Micros
 
 After configuring [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] integration, you will need to perform these additional tasks.  
   
-1. Write and register a listener application with a [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] solution endpoint. For more information, see the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] [documentation](https://azure.microsoft.com/en-us/documentation/articles/service-bus-fundamentals-hybrid-solutions/).  
+1. Write and register a listener application with a [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] solution endpoint. For more information, see the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] [documentation](https://azure.microsoft.com/documentation/articles/service-bus-fundamentals-hybrid-solutions/).  
   
 2. Register a [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] aware plug-in or a [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] aware custom workflow activity with Dynamics 365 Customer Engagement (on-premises). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Walkthrough: Register an Azure-aware Plug-in with Plug-in Registration Tool](walkthrough-register-azure-aware-plug-in-using-plug-in-registration-tool.md)  
   
@@ -80,4 +80,4 @@ For [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] on-premises and 
 [Write a plug-in](/powerapps/developer/common-data-service/write-plug-in)<br />
 [Using the Provided Azure Plug-in](work-data-azure-solution.md)<br />
 [Writing a Listener for a Azure Solution](write-listener-application-azure-solution.md)<br />
-[Azure Platform – Getting Started](http://www.microsoft.com/windowsazure/learn/get-started/)
+[Azure Platform – Getting Started](https://www.microsoft.com/windowsazure/learn/get-started/)

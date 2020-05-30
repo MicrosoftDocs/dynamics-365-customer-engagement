@@ -20,5 +20,5 @@ ms.author: matp
   
 ## Solution
   
- You must first upgrade your version of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to a suitable version. For more information, see [Plan your upgrade to Microsoft Dynamics 365 for Customer Engagement Server](../deploy/plan-your-upgrade-to-microsoft-dynamics-365-server.md).
+ You must first upgrade your version of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to a suitable version. For more information, see [Plan your upgrade to Microsoft Dynamics 365 Server](../deploy/plan-your-upgrade-to-microsoft-dynamics-365-server.md).
 

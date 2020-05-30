@@ -20,7 +20,7 @@ search.app:
 tags: MigrationHO
 ---
 # Accessibility features in Unified Service Desk
-Microsoft is committed to making its products and services easier for everyone. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Microsoft accessibility](http://www.microsoft.com/enable/default.aspx)  
+Microsoft is committed to making its products and services easier for everyone. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Microsoft accessibility](https://www.microsoft.com/enable/default.aspx)  
   
   
 <a name="KeyboardAccess"></a>   

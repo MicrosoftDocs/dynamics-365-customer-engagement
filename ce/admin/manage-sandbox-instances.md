@@ -1,7 +1,7 @@
 ---
 title: "Manage Sandbox instances | MicrosoftDocs"
 ms.custom: 
-ms.date: 10/01/2019
+ms.date: 01/17/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite:
@@ -20,6 +20,10 @@ search.app:
   - Powerplatform
 ---
 # Manage Sandbox instances
+
+Sandbox management is now done in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). See [Manage sandbox environments](https://docs.microsoft.com/power-platform/admin/sandbox-environments).
+
+<!-- 
 
 [!INCLUDE[applies-to](../includes/cc_applies_to_ce.md)]
 
@@ -110,4 +114,4 @@ A Sandbox instance is any non-production instance of Common Data Service. Isolat
 4. Select a Sandbox instance, and then click **Admin**.  
   
 5. Select **Enable administration mode** to enable it, and then click **Save**.  
-  
+-->

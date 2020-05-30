@@ -92,7 +92,7 @@ This section shows you how to run the actual in-place upgrade on Dynamics 365 Se
   
      Select **Next**.  
   
-9. On the **Select Microsoft Update Preference** page, select whether you want to use [!INCLUDE[pn_Microsoft_Update](../includes/pn-microsoft-update.md)] for checking for updates for your [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] products, and select **Next**. We recommend that you use [!INCLUDE[pn_Microsoft_Update](../includes/pn-microsoft-update.md)] to check for updates because this helps keep your computer up-to-date and secure. For more information about the legal terms and privacy with [!INCLUDE[pn_Microsoft_Update](../includes/pn-microsoft-update.md)] licensing, see [Windows Update FAQ](http://go.microsoft.com/fwlink/p/?LinkID=196513).  
+9. On the **Select Microsoft Update Preference** page, select whether you want to use [!INCLUDE[pn_Microsoft_Update](../includes/pn-microsoft-update.md)] for checking for updates for your [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] products, and select **Next**. We recommend that you use [!INCLUDE[pn_Microsoft_Update](../includes/pn-microsoft-update.md)] to check for updates because this helps keep your computer up-to-date and secure. For more information about the legal terms and privacy with [!INCLUDE[pn_Microsoft_Update](../includes/pn-microsoft-update.md)] licensing, see [Windows Update FAQ](https://go.microsoft.com/fwlink/p/?LinkID=196513).  
   
 10. The **System Checks** page appears. This page is a summary of all requirements and recommendations for a successful installation. Errors must be resolved before installation can continue. If no errors, or only warnings appear, you can continue with the installation. To do this, select **Next**.  
   

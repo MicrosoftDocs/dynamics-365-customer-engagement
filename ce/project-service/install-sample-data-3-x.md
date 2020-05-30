@@ -5,20 +5,15 @@ ms.date: 11/08/2018
 ms.reviewer: 
 ms.suite: 
 ms.technology: 
-  - field-service
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-author: JohnPBurrows
-ms.author: jburrows
+applies_to: Dynamics 365 Project Service Automation
+author: ruhercul
+ms.author: ruhercul
 ms.reviewer: kfend
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
+search.audienceType: IT Pro, Developer
 search.app: 
-  - D365CE
-  - D365PS
 --- 
+
+
 
 # Sample data installation for the Project Service application
 
@@ -62,8 +57,6 @@ If you have questions about installing these sample data packages, [send us an e
 ## Requirements
 
 The installation protocol assumes the following about your target instance (org):
-
-- Dynamics 365 for Customer Engagement 9.0.x or later.
 
 - Base language is English and base currency is US dollar (USD,$).
 

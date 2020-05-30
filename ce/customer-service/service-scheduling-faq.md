@@ -19,9 +19,9 @@ search.app:
   - D365CS
 ---
 
-#  Service Scheduling FAQ
+#  Service scheduling FAQ
 
-Read this topic to find answers to some common questions regarding Service Scheduling, it's legacy and new experience, setup, and some key concepts.
+Read this topic to find answers to some common questions regarding service scheduling, its legacy experience and new experience, setup, and other key concepts.
 
 ## What licenses do I need to enable service scheduling for my org?
  

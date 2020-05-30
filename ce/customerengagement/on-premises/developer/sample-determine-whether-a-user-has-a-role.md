@@ -1,5 +1,5 @@
 ---
-title: "Sample: Determine whether a user has a role (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Sample: Determine whether a user has a role| MicrosoftDocs"
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: 
@@ -12,8 +12,8 @@ applies_to:
 ms.assetid: 8976b75c-197d-4d80-b9fe-d4d7a4dfc0f5
 caps.latest.revision: 18
 author: JimDaly
-ms.author: jdaly
-manager: amyla
+ms.author: nabuthuk
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
@@ -21,24 +21,39 @@ search.app:
 ---
 # Sample: Determine whether a user has a role
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample from [Sample: Work with Users and Roles](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/UsersAndRoles).  
-  
-## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
-  
-## Demonstrates  
- This sample shows how to determine whether a user in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] has been associated with a specific role. This is performed by using a query with the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*> method. A snippet that shows the key sections of the sample is shown first, followed by the [complete sample code](sample-create-on-premises-user.md#complete_sample). Note that this sample can only be run in an on-premises environment because it creates a user. However, the section of the sample that demonstrates retrieving the roles for a user will work for all environments.  
-  
- [!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)]
-## Example  
- [!code-csharp[UsersAndRoles#DoesUserBelongToRole1](../snippets/csharp/CRMV8/usersandroles/cs/doesuserbelongtorole1.cs#doesuserbelongtorole1)]  
-  
-<a name="complete_sample"></a>   
-### Complete Sample Code  
- [!code-csharp[UsersAndRoles#DoesUserBelongToRole](../snippets/csharp/CRMV8/usersandroles/cs/doesuserbelongtorole.cs#doesuserbelongtorole)]  
-  
-### See also  
- [Privilege and Role Entities](privilege-role-entities.md)   
- [Sample: Remove a Role for a User](sample-remove-role-user.md)   
- [User and Team Entities](user-team-entities.md)   
-    
+This sample shows how to determine whether a user in Common Data Service has been associated with a specific role. This is performed by using a query with the [IOrganizationService.RetrieveMultiple](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iorganizationservice.retrievemultiple?view=dynamics-general-ce-9) method.  You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/DetermineWhetherUserHasRole).
+
+This sample requires an additional user that isn't available in your system. Create the required user manually in **Office 365** in order to run the sample without any errors. For this sample create a user profile **as is** shown below. 
+
+**First Name**: Dan<br/>
+**Last Name**: Park<br/>
+**Security Role**: No security role<br/>
+**UserName**: dpark@yourorg.onmicrosoft.com<br/>
+
+[!include[cc-sample-note](includes/cc-sample-note.md)]
+
+## How to run this sample
+
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-PA-samples.md)]
+
+## What this sample does
+
+The [IOrganizationService.RetrieveMultiple](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iorganizationservice.retrievemultiple?view=dynamics-general-ce-9) message is intended to be used in a scenario where it retrieves a collection of records.
+
+## How this sample works
+
+In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+
+### Setup
+
+1. Checks for the current version of the org.
+2. The `CreateRequiredRecords` method creates a user with no security role assigned to him as shown above.
+
+### Demonstrate
+
+1. The `retrieve` method retrieves a user from Common Data Service.
+2. The `query` message is used to find out a role.
+
+### Clean up
+
+This sample creates no records. No cleanup is required.

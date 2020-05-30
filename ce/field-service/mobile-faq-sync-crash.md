@@ -3,17 +3,17 @@ title: "My mobile app won't sync to the server or it crashes immediately (Dynami
 ms.custom:
   - dyn365-fieldservice
 ms.date: 10/24/2018
-ms.reviewer:
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite:
 ms.technology:
   - field-service
 ms.tgt_pltfrm:
 ms.topic: article
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
 caps.latest.revision: 42
-ms.author: FieldServiceDave
+ms.author: daclar
 manager: shellyha
 search.audienceType:
   - admin

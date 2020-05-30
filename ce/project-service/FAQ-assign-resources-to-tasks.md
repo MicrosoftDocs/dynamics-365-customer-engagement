@@ -10,7 +10,7 @@ ms.date: 9/27/2019
 ms.topic: article
 ms.prod: Project Service
 ms.service: business-applications
-ms.technology: Dynamics 365 for Customer Engagement for Project Service 3.x
+ms.technology: Dynamics 365 Project Service Automation 3.x
 ms.author: ruhercul
 audience: Admin
 search.audienceType: 
@@ -21,6 +21,9 @@ search.app:
   - D365CE
   - D365PS
 ---
+
+
+
 
 # Assign a resource to a task
 

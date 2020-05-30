@@ -1,6 +1,6 @@
 ---
 title: "Debug a plug-In (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
-description: "Learn about debugging a plug-in executing on a D365 (on-premises) server."
+description: "Learn about debugging a plug-in executing on a D365 Server."
 keywords: 
 ms.date: 01/28/2019
 ms.service: crm-online
@@ -41,7 +41,7 @@ General information about plug-in debugging can be found in the Common Data Serv
   
 2. Configure the debugger.  
   
-    Attach the debugger to the process on the Dynamics 365 Customer Engagement (on-premises) server that will run your plug-in. Refer to the following table to identify the process.  
+    Attach the debugger to the process on the Dynamics 365 Server that will run your plug-in. Refer to the following table to identify the process.  
   
    |Plug-in Registration Configuration|Service Process|  
    |-----------------------------------------|---------------------|  
@@ -85,7 +85,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSCRM\SandboxDebugPlugins
   
  Follow these steps to debug a sandboxed plug-in.  
   
-1. Register the plug-in in the sandbox (isolation mode) and deploy it to the Dynamics 365 Customer Engagement (on-premises) server database.  
+1. Register the plug-in in the sandbox (isolation mode) and deploy it to the Dynamics 365 Server database.  
   
 2. Copy the symbol file (.pdb) of the compiled plug-in assembly to the server\bin\assembly folder on the server running the sandbox worker process named Microsoft.Crm.Sandbox.WorkerProcess.exe. This is the server hosting the Sandbox Processing Service role.  
   

@@ -1,14 +1,12 @@
 ---
 title: "Create a quick campaign using in-app marketing (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "Use quick campaigns to send e-mail blast to customers who fit a specific demographic, a mail campaign to clients in a specific region, or perhaps a phone call campaign to previous buyers of a particular product."
-keywords: ""
 ms.date: 12/06/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: 3b11abc7-3f4f-5f00-c0f2-873b66d10211
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe

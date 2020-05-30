@@ -2,7 +2,7 @@
 title: "Basic Collaboration Experience with Microsoft Teams integration| MicrosoftDocs"
 ms.custom: 
 description: "Collaborate with team members using the Dynamics 365 app for Microsoft Teams."
-ms.date: 10/16/2019
+ms.date: 04/15/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -70,7 +70,7 @@ A failed connection state indicates that the connection was not successfully sen
 
 
  - **View Selection**
-     1. Select an entity to see the list of available views in the model-driven app. Once you've picked a view, select  **Save**.
+     1. Select an entity to see the list of active views that are available for the entity in the model-driven app and then select  **Save**.
   
         > [!div class="mx-imgBorder"] 
         > ![Select a view](media/teams-select-view.png "Select a view")
@@ -164,7 +164,7 @@ In addition, document management in model-driven apps in Dynamics 365 is integra
 
 ## Record types that support Microsoft Teams integration in model-driven apps
 
-Currently, the following record types only support Microsoft Teams collaborate capabilities in model-driven app in Dynamics 365. The **Collaborate** button and file share feature will only work with the record types listed below in a model-driven app.
+Currently, the following record types only support Microsoft Teams collaboration capabilities in model-driven app in Dynamics 365. The **Collaborate** button and file share feature will only work with the record types listed below in a model-driven app.
 
 > [!NOTE]
    > The list below shows the logical name of an entity (not the display name).

@@ -31,7 +31,7 @@ Review the message in the [!INCLUDE [pn-environment-diagnostics-wizard](../inclu
   
 -   Verify that the user account is not a local system account.  
   
--   Verify that the credentials specified in the XML Setup configuration file or on the **Specify Service Accounts** page in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Setup are valid. For more information, see [Minimum permissions required for Microsoft Dynamics CRM Setup, services, and components](http://go.microsoft.com/fwlink/p/?LinkID=306136).  
+-   Verify that the credentials specified in the XML Setup configuration file or on the **Specify Service Accounts** page in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Setup are valid. For more information, see [Minimum permissions required for Microsoft Dynamics CRM Setup, services, and components](https://go.microsoft.com/fwlink/p/?LinkID=306136).  
   
  ## Cause 2
   

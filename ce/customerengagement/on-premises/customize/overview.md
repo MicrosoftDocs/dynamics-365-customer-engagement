@@ -24,15 +24,15 @@ search.app:
 
 # App making and customization overview for Dynamics 365 Customer Engagement (on-premises), version 9
 
-Dynamics 365 Customer Engagement (on-premises) gives you powerful customization and app making capabilities that don’t require you to write a single line of code. With a comprehensive set of WSYSIWYG designer and editor tools, most anyone can fully customize Dynamics 365 Customer Engagement (on-premises) or create their own custom apps.
+Dynamics 365 Customer Engagement (on-premises) gives you powerful customization and app making capabilities that don't require you to write a single line of code. With a comprehensive set of WSYSIWYG designer and editor tools, most anyone can fully customize Dynamics 365 Customer Engagement (on-premises) or create their own custom apps.
 
-For documentation of earlier versions (8.x and earlier), visit [https://docs.microsoft.com/previous-versions/dynamics/](https://docs.microsoft.com/en-us/previous-versions/dynamics/).
+For documentation of earlier versions (8.x and earlier), visit [https://docs.microsoft.com/previous-versions/dynamics/](https://docs.microsoft.com/previous-versions/dynamics/).
   
  
 ## App making and customization components
 A well designed app consists of several components that you select using the available designers and editors to build the appearance and functionality of the finished app. The components and component properties that you use to make up an app become the metadata.
 
-To understand how each of these components relates to app design, they’re separated here into data, UI, logic, and visualization categories.
+To understand how each of these components relates to app design, they're separated here into data, UI, logic, and visualization categories.
 
 ### Data
 These components determine what data the app will be based upon.
@@ -44,7 +44,7 @@ These components determine what data the app will be based upon.
 |Relationship     | Entity relationships define how entities can be related to each other. There are 1:N (one-to-many), N:1 (many-to-one), and N:N (many-to-many) types of relationships . For example, adding a lookup field to an entity creates a new 1:N relationship between the two entities and lets you put that lookup field on a form.        | Entity designer        |
 |Option set field     |  This is a special type of field, which provides the user a set of predetermined options. Each option has a number value and label. When added to a form, this field displays a control for the user to select an option. There are two kinds of option sets; option sets, where the user can only select one option, and multi-select options sets, which allow more than one selection.       |  Option set designer       |
 
-More infomation: [Create or edit entities (record types)](create-edit-entities.md)
+More information: [Create or edit entities (record types)](create-edit-entities.md)
 
 ### UI
 These components determine how users interact with the app.
@@ -54,7 +54,7 @@ These components determine how users interact with the app.
 |---------|---------|---------|
 |App     | Determines the application fundamentals such as components, properties, client type, and URL for your app.        |  App designer       |
 |Site map     |  Specifies the navigation for your app.       | Site map designer        |
-|Form     | A set of data-entry fields for a given entity that matches the items that your organization tracks for the entity. For example, a set of data-entry fields that where user’s input relevant information to track a customer’s previous orders along with specific requested reorder dates.        |  Form designer       |
+|Form     | A set of data-entry fields for a given entity that matches the items that your organization tracks for the entity. For example, a set of data-entry fields that where user's input relevant information to track a customer's previous orders along with specific requested reorder dates.        |  Form designer       |
 |View     | Views define how a list of records for a specific entity is displayed in your application. A view defines the columns to display, width of each column, sort behavior, and the default filters.        | View designer        |
 
 More information: [Create or edit an app by using the app designer](create-edit-app.md)
@@ -66,7 +66,7 @@ This component determines the business processes, rules, and automation the app 
 |Type of logic  |Description  |Designer  |
 |---------|---------|---------|
 |Business process flow     | An online process that walks users through a standard business process. For example, use a business process flow if you want everyone to handle customer service requests the same way, or to require staff to gain approval for an invoice before submitting an order.        | Business process flow designer        |
-|Workflow     |  Workflows automate business processes without a user interface. Designers use workflows to initiate automation that doesn’t require any user interaction.       | Workflow designer        |
+|Workflow     |  Workflows automate business processes without a user interface. Designers use workflows to initiate automation that doesn't require any user interaction.       | Workflow designer        |
 |Actions     |  Actions are a type of process that let you manually invoke actions, including custom actions, directly from a workflow.       |  Process designer       |
 |Business rule     | Used to apply rule or recommendation logic to a form, such as to set field requirements, hide fields, or validate data. App designers use a simple interface to implement and maintain fast-changing and commonly used rules.     | Business rule designer        |
 
@@ -98,7 +98,7 @@ More information: [Solutions overview](solutions-overview.md)
 ## What kinds of customizations are supported with Dynamics 365 Customer Engagement (on-premises)?  
  We expect that you can do most of your customization with the tools in the application. Everything you do by using those tools is supported by [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] because they apply changes to the metadata or data that depends on the metadata.  
   
- If the customization tools don’t meet your needs, you can install a solution provided by a third party or hire a developer to code your customizations. Either way, it’s good for you to understand supported customizations. If you need to invest in a solution that requires code, you should make sure that the code is written using only supported APIs. This helps you protect your investment in both [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps and any solutions you get.  
+ If the customization tools don't meet your needs, you can install a solution provided by a third party or hire a developer to code your customizations. Either way, it's good for you to understand supported customizations. If you need to invest in a solution that requires code, you should make sure that the code is written using only supported APIs. This helps you protect your investment in both [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps and any solutions you get.  
  
  More information: [Supported and unsupported customization](customizations-supported.md)
  
@@ -112,7 +112,7 @@ More information: [Solutions overview](solutions-overview.md)
   
 -   Publishing customizations 
   
-If you’re applying these changes to a production system, we recommend that you schedule these operations when it is least disruptive to users.   
+If you're applying these changes to a production system, we recommend that you schedule these operations when it is least disruptive to users.   
   
   
 ### See also  

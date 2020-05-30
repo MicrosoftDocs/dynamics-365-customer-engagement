@@ -1,0 +1,1 @@
+Gets the panel width in pixels.

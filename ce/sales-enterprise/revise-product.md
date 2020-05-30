@@ -24,7 +24,8 @@ Keep the product inventory updated by quickly revising properties for the produc
     
 3. Open an active product, bundle, or family you want to change, and on the command bar, select **Revise**.  
 
-   ![Revise Product button on the Product form](media/revise-product.png "Revise Product button on the Product form")
+   > [!div class="mx-imgBorder"]
+   > ![Revise Product button on the Product form](media/revise-product.png "Revise Product button on the Product form")
   
 4. In the **Confirm Revise** dialog box, select **Confirm**.
 

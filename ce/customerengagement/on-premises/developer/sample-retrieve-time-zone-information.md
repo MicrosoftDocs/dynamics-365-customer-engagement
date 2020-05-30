@@ -16,8 +16,8 @@ helpviewer_keywords:
 ms.assetid: 3df3e8c5-ff20-40c7-8ea8-e91001daebd1
 caps.latest.revision: 14
 author: JimDaly
-ms.author: jdaly
-manager: amyla
+ms.author: nabuthuk
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
@@ -25,23 +25,36 @@ search.app:
 ---
 # Sample: Retrieve time zone information
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample here [Business management samples](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/BusinessManagement). 
+This sample shows how to retrieve time zone information. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/RetrieveTimeZone).
 
-## Prerequisites
-[!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
-  
-## Requirements  
-[!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
-  
-## Demonstrates  
- This sample shows how to retrieve time zone information.  
-  
-## Example  
- [!code-csharp[BusinessManagement#WorkingWithTimeZones](../snippets/csharp/CRMV8/businessmanagement/cs/workingwithtimezones.cs#workingwithtimezones)]  
-  
-### See also  
- [Time Zone Entities](time-zone-entities.md)   
- <xref:Microsoft.Crm.Sdk.Messages.GetAllTimeZonesWithDisplayNameRequest>   
- <xref:Microsoft.Crm.Sdk.Messages.GetTimeZoneCodeByLocalizedNameRequest>   
- <xref:Microsoft.Crm.Sdk.Messages.UtcTimeFromLocalTimeRequest>   
- <xref:Microsoft.Crm.Sdk.Messages.LocalTimeFromUtcTimeRequest>
+[!include[cc-sample-note](includes/cc-sample-note.md)]
+
+## How to run this sample
+
+[!include[cc-how-to-run-samples](includes/cc-how-to-run-PA-samples.md)]
+
+## What this sample does
+
+The `RetrieveAllTimeZonesForLocale` method is intended to be used in a scenario where it uses the current locale id to retrieve all the time zones.
+
+## How this sample works
+
+In order to simulate the scenario described in [What this sample does](#what-this-sample-does), the sample will do the following:
+
+### Setup
+
+Checks for the current version of the org.
+
+### Demonstrate
+
+1. The `RetrieveCurrentUSerSettings` method retrieves the current users timezone code and locale id.
+2. The `RetrieveAllTimeZonesForLocale` method uses the current locale id and retrieves all the time zones.
+3. The `GetTimeZoneCodeByLocaleAndName` method retrieves the timezone by name and locale id.
+4. The `RetrieveTimeZoneById` method retrieves the timezone by id.
+5. The `RetrieveTimeZonesLessThan50` method retrieves time zones less than 50.
+6. The `RetrieveLocalTimeFromUTCTime` method retrieves the local time from UTC time.
+7. The `RetrieveUTCTimeFromLocalTime` method retrieves the UTC time from the locale time.
+
+### Clean up
+
+Display an option to delete the sample data that is created in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.

@@ -111,11 +111,11 @@ The /config [drive:] [[path] configfilename.xml]] command-line parameter provide
   
  For example:  
   
--   http://*server:port*/ or http:// *server.contoso.com*  
+-   https://*server:port*/ or https:// *server.contoso.com*  
   
 -   /LM/W3SVC/*n*, where *n* is the website ID. 1 is the default website.  
   
- **\<Help anonymous="true"/"false">http://host/Help\</Help>**  
+ **\<Help anonymous="true"/"false">https://host/Help\</Help>**  
  Optional element to specify a different URL where Dynamics 365 Customer Engagement (on-premises) [!INCLUDE[pn_doc_help_long](../includes/pn-doc-help-long.md)] is located. This setting is typically used in a multiserver deployment or to replace the default URL such as when using a host header. If you select `false` to disable anonymous access, it may produce repeated logon prompts for users who access  [!INCLUDE[pn_doc_help_long](../includes/pn-doc-help-long.md)]. This setting is only available when you use a configuration file.  
   
  **\<InstallDir>c:\program files\Microsoft Dynamics CRM\</InstallDir>**  
@@ -228,7 +228,7 @@ The /config [drive:] [[path] configfilename.xml]] command-line parameter provide
  **\<SQM optin=" true / false"/>**  
  Specifies whether you will participate in the Customer Experience Improvement Program. If you specify **true**, you’ll participate in the program.  
     
- **\<Reporting URL="http://srsserver1/ReportServer"/>**  
+ **\<Reporting URL="https://srsserver1/ReportServer"/>**  
  *URL*  
   
  Specifies the URL of the Report Server.  

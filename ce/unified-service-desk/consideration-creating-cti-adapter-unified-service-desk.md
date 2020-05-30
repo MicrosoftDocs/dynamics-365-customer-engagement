@@ -3,7 +3,7 @@ title: "Considerations for creating a CTI adapter for Unified Service Desk | Mic
 description: "The topic provides information on things to consider while creating a computer telephony integration (CTI) adapter to make it work with Unified Service Desk."
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
+ms.date: 12/31/2019
 ms.service: 
   - dynamics-365-customerservice
 ms.topic: article
@@ -80,21 +80,19 @@ This topic provides information on things to consider while creating a computer 
 
  Let us configure a sample CTI search rule using the window navigation rule in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. For more information about the window navigation rule, see [Use window navigation rules in Unified Service Desk](../unified-service-desk/use-window-navigation-rules-unified-service-desk.md).  
 
-1. On the nav bar, choose **Dynamics 365**.  
+1. Sign in to Unified Service Desk Administrator.  
 
-2. On the nav bar, choose **Settings**, and then select **Window Navigation Rules**.  
+2. Select **Window Navigation Rules** under **Basic Settings**.  
 
-3. Choose **New**.  
+3. Select **+ New**.  
 
 4. Type a name and order for the window navigation rule. In the **From** box, select your [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] Desktop Manager hosted control.  
 
-5. After you have selected your [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] Desktop Manager, the [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] options will be displayed starting with an initiating activity. The initiating activity field should contain the entity type passed from the [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] adapter. For example, it can be phonecall, chat, email, and so on. One rule only handles one type of activity from the CTI server.  
+5. After you have selected your [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] Desktop Manager, the [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] options will be displayed starting with an initiating activity. The initiating activity field should contain the entity type passed from the [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] adapter. For example, it can be phonecall, chat, email, and so on. One rule only handles one type of activity from the CTI server.
 
-   ![New window navigation rule for routing CTI event](../unified-service-desk/media/usd-cti-route-rule.png "New window navigation rule for routing CTI event")  
+6. Select **Save**, and enable the fields required for the next steps.  
 
-6. Click **Save** in the lower-right corner to save the record, and enable the fields required for the next steps.  
-
-7. Under **CTI Searches**, click the search icon, and then click **New** in the search box to define a new search criteria using the FetchXML query.  
+7. Under **CTI Searches**, select the search icon, and then select **+ New** in the search box to define a new search criteria using the FetchXML query.  
 
 8. In the **New CTI Search** screen, specify a name and order for the CTI search query. The direction field is Inbound or Outbound and is used to search against only a specific direction of CTI event. This direction is passed from the [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] adapter.  
 
@@ -127,7 +125,7 @@ This topic provides information on things to consider while creating a computer 
 
 <a name="chat"></a>   
 ## Special features of chat events  
- When responding to chat events, some special things occur in the system. It is assumed that the [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] event data parameter “`CTIDESKTOPMANAGERCONTROL`” value is populated with the [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] Desktop Manager hosted control name and it supports the `SendIM` action. If the [CALLTYPE](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.cti.core.lookuprequestkeys.calltype) passed into the [CtiLookupRequest](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.cti.core.ctilookuprequest) is “Chat”, [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] will show an extra button on the agent scripting user interface. If the agent clicks this button, it will attempt to invoke the `SendIM` action on the [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] Desktop Manager hosted control specified in the `CTIDESKTOPMANAGERCONTROL` control. It will pass the text of the agent script to this action, and it is assumed that the [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] Desktop Manager hosted control will write this text to the chat output.  
+ When responding to chat events, some special things occur in the system. It is assumed that the [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] event data parameter “`CTIDESKTOPMANAGERCONTROL`” value is populated with the [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] Desktop Manager hosted control name and it supports the `SendIM` action. If the [CALLTYPE](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.cti.core.lookuprequestkeys.calltype) passed into the [CtiLookupRequest](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.cti.core.ctilookuprequest) is “Chat”, [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] will show an extra button on the agent scripting user interface. If the agent selects this button, it will attempt to invoke the `SendIM` action on the [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] Desktop Manager hosted control specified in the `CTIDESKTOPMANAGERCONTROL` control. It will pass the text of the agent script to this action, and it is assumed that the [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] Desktop Manager hosted control will write this text to the chat output.  
 
 ### See also  
  [UII Computer Telephony Integration (CTI) framework](../unified-service-desk/uii-computer-telephony-integration-cti-framework.md)   

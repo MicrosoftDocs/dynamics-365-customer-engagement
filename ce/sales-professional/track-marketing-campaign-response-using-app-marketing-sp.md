@@ -1,14 +1,12 @@
 ---
 title: "Track a marketing campaign response using in-app marketing (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "Record the replies you get from potential customers in response to a specific marketing campaign to make sure your team can act on the responses in Dynamics 365 Sales Professional."
-keywords: ""
 ms.date: 12/06/2019
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-ms.assetid: f4bb1cc7-689e-1551-848e-adda9b163873
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
@@ -22,7 +20,7 @@ Record the replies you get from potential customers in response to a specific ma
   
 1. In the site map, select **Marketing Lists**.
   
-2.  Open a marketing list record, and then in the **Campaigns** area, open the campaign to which you want to add campaign responses to, and on the **Related** tab, select **Campaign Responses**.
+2.  Open a marketing list record, and then in the **Campaigns** area, open the campaign to which you want to add campaign responses, and on the **Related** tab, select **Campaign Responses**.
 
 3. Select **New Campaign Response**.
   
@@ -38,9 +36,9 @@ Record the replies you get from potential customers in response to a specific ma
 
 3. On the navigation bar, select **Settings**, and then select **Administration**.
 
-4. Select **System Settings** > **Marketing** tab.  
+4. Select **System Settings**, and then select the **Marketing** tab.  
   
-4. Set the **Create campaign responses for incoming email** option to **Yes**.  
+5. Set the **Create campaign responses for incoming email** option to **Yes**.  
 
 > [!NOTE]
 > If there are multiple email replies from a customer to an email sent out from a campaign activity, only the first reply is tracked as a campaign response in the campaign.

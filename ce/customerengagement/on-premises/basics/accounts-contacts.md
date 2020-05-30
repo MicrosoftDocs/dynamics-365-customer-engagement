@@ -1,6 +1,6 @@
 ---
 title: "Work with accounts and contacts (Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
-ms.date: 08/11/2018
+ms.date: 05/05/2020
 ms.service: crm-online
 ms.topic: get-started-article
 applies_to: 
@@ -23,7 +23,7 @@ searchScope:
 Account and contact records store much of the information that you and your team collect from your customers.
 You store data about companies you do business with in accounts. Similar to Microsoft Office Outlook or other email programs, you store data about the people you know and work with in contacts.
 
-Usually, an account has more than one contact associated with it, especially when you’re working with a larger company with many departments or locations and you deal with several people to manage the account.
+Usually, an account has more than one contact associated with it, especially when you're working with a larger company with many departments or locations and you deal with several people to manage the account.
  
 ## Create an account  
   
@@ -47,9 +47,9 @@ Usually, an account has more than one contact associated with it, especially whe
   
 1. [!INCLUDE[proc_contacts](../includes/proc-contacts.md)]  
   
-2. You’ll see a list of your active contacts. [!INCLUDE[proc_need_to_scroll](../includes/proc-need-to-scroll.md)]  
+2. You'll see a list of your active contacts. [!INCLUDE[proc_need_to_scroll](../includes/proc-need-to-scroll.md)]  
   
-3. Select a person’s name to see the details for the contact.  
+3. Select a person's name to see the details for the contact.  
   
 ## Create a contact  
   

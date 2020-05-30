@@ -27,7 +27,7 @@ search.app:
 Yes, here is the list of known issues:
 
 - Users who are assigned a custom security role may not be able to access [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]. We are working on a fix for this issue. In the meantime, for a workaround, see this [support article](https://support.microsoft.com/help/4078135/sorry-something-went-wrong-while-initializing-the-app-when-accessing-t). 
-- Delegated users cannot track emails using [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]. Please try using [Outlook folder-level tracking](../admin/configure-outlook-exchange-folder-level-tracking.md) or [category-based tracking](../admin/use-outlook-category-track-appointments-emails.md) for delegated users to track Outlook items on the owner's behalf.  
+ 
 
 For other known issues with this version of [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], see the [Dynamics 365 apps Readme](../admin/readme-9.md). 
 
@@ -110,3 +110,6 @@ However, when scripts which do not rely on cookie authentication are used, those
 
 ## I am able to use Dynamics 365 App for Outlook in Outlook Web Access in Edge browser, but it doesn’t work in Outlook Desktop. Why?
 Dynamics 365 App for Outlook needs Internet Explorer 11 or higher to be installed on your machine. If you have Internet Explorer 11 already, please also make sure your organization URL <orgname.crm.dynamics.com> is not in the Compatibility View list.
+
+## My app for Oulook launch takes time every time I load it for mail item.
+For frequently used pages, pin the app so that it will stay loaded even when you switch to other mail items. 

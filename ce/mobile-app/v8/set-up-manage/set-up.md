@@ -1,7 +1,7 @@
 ---
 title: "Set up Dynamics 365 for phones and Dynamics 365 for tablets | MicrosoftDocs"
 ms.custom:
-ms.date: 01/22/2018
+ms.date: 02/19/2020
 ms.reviewer:
 ms.service: crm-online
 ms.suite:
@@ -26,8 +26,6 @@ search.app:
 Your users can access their [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] data while they're out in the field by using either of the following apps:  
   
 - **[!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)]**: With [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)], you can design your information architecture once and the customizations will automatically flow to all form factors. Much is shared with [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)].  
-- 
-  ![Video symbol](../../../admin/media/video-thumbnail-4.png "Video symbol") [Video: Customize the Dynamics 365 apps mobile app (1:51)](http://go.microsoft.com/fwlink/p/?LinkID=836829)  
   
 - **[!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]**: With the same basic features as [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)], tablet users will appreciate the [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] experience optimized for a larger screen.  
     
@@ -163,9 +161,9 @@ Before your users install the Windows 8.1 app, complete these steps:
  If your mobile devices are managed under the control of group policy, the following steps describe what you need to do.  
   
 > [!CAUTION]
->  This task contains steps that tell you how to modify the registry. However, because serious problems may occur if you modify the registry incorrectly, it’s important that you follow these steps carefully. For added protection, back up the registry before you modify it. Then, you can restore the registry if a problem occurs. For more information about how to back up and restore the registry, open the following link to view the article in the Microsoft Knowledge Base: [How to back up and restore the registry in Windows](http://support.microsoft.com/kb/322756).  
+>  This task contains steps that tell you how to modify the registry. However, because serious problems may occur if you modify the registry incorrectly, it’s important that you follow these steps carefully. For added protection, back up the registry before you modify it. Then, you can restore the registry if a problem occurs. For more information about how to back up and restore the registry, open the following link to view the article in the Microsoft Knowledge Base: [How to back up and restore the registry in Windows](https://support.microsoft.com/kb/322756).  
   
-1. If you plan on using group policy to do a domain wide deployment of the registry change and your server is not running [!INCLUDE[pn_windows_server_2012_r2](../../../includes/pn-windows-server-2012-r2.md)] or later, download and install the [Windows Server Administrative Templates](http://go.microsoft.com/fwlink/p/?LinkId=392790).  
+1. If you plan on using group policy to do a domain wide deployment of the registry change and your server is not running [!INCLUDE[pn_windows_server_2012_r2](../../../includes/pn-windows-server-2012-r2.md)] or later, download and install the [Windows Server Administrative Templates](https://go.microsoft.com/fwlink/p/?LinkId=392790).  
   
 2. Open the Group Policy Management Editor.  
   
@@ -177,7 +175,7 @@ Before your users install the Windows 8.1 app, complete these steps:
   
 6. Close the group policy editor and save your changes.  
   
-   [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [How to update links to external web pages for an enterprise environment](http://go.microsoft.com/fwlink/p/?LinkId=392788) and [Group Policy](https://technet.microsoft.com/windowsserver/bb310732.aspx)  
+   [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [How to update links to external web pages for an enterprise environment](https://go.microsoft.com/fwlink/p/?LinkId=392788) and [Group Policy](https://technet.microsoft.com/windowsserver/bb310732.aspx)  
   
 ### Update the registry on unmanaged mobile devices using a script  
  If your mobile devices are unmanaged, see the following sample [!INCLUDE[pn_PowerShell_short](../../../includes/pn-powershell-short.md)] script that shows how to change the registry on each [!INCLUDE[pn_windows_8_1](../../../includes/pn-windows-8-1.md)] or later device.  
@@ -582,7 +580,7 @@ Dynamics 365 for tablets connections to Microsoft Dynamics CRM 2015 or later req
   
 - **Cached data**. [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] only cache records and lists that you’ve recently accessed in the app. To clear cached data, users can either sign out or reconfigure.  
   
-- **Encrypting cached data**. Cached data is not encrypted. You can use [BitLocker](https://technet.microsoft.com/library/hh831713.aspx) to encrypt the entire hard drive on a [!INCLUDE[pn_windows8](../../../includes/pn-windows8.md)] or later device. For Apple and Android devices, consider [Windows Intune](http://go.microsoft.com/fwlink/p/?LinkID=394174) or a product from another company to encrypt the hard drive on the mobile device.  
+- **Encrypting cached data**. Cached data is not encrypted. You can use [BitLocker](https://technet.microsoft.com/library/hh831713.aspx) to encrypt the entire hard drive on a [!INCLUDE[pn_windows8](../../../includes/pn-windows8.md)] or later device. For Apple and Android devices, consider [Windows Intune](https://go.microsoft.com/fwlink/p/?LinkID=394174) or a product from another company to encrypt the hard drive on the mobile device.  
   
 <a name="BKMK_OtherFeatures"></a>   
 ## Other features  
