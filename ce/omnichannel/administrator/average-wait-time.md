@@ -38,7 +38,7 @@ To configure the queue display feature, follow these steps:
 
 4.	Go to the **Basic details** tab.
 
-5.	In **Customer waiting**, change **Show average wait time** to **Yes** (this feature is set to **No** by default).
+5.	In **Customer waiting**, change **Show average wait time** to **Yes**. (This feature is set to **No** by default).
 
 6.  Select **Save**.
 
