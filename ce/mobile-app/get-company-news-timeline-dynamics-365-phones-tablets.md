@@ -1,7 +1,7 @@
 ---
 title: "Get the Company News Timeline for Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: dyn365-mobile-app
-ms.date: 09/30/2017
+ms.date: 06/02/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -22,6 +22,12 @@ search.app:
   - D365Sales
 ---
 # Stay on top of the latest news about your customers
+
+
+> [!IMPORTANT]
+> Effective (Date TBD), 2020, Company News Timeline solution is deprecated. Until July 31, 2020, Microsoft will continue to provide support for the feature, but won't release any additional functionality beyond what is already present. After July 31, 2020, the Company News Timeline solution bot won't be available.
+>
+> For further information, see [Important changes (deprecations) coming in Power Apps, Power Automate, and model-driven apps in Dynamics 365](https://docs.microsoft.com/power-platform/important-changes-coming).
 
 Gain valuable insights from the latest news about your customers on your phone or tablet. Staying on top of the news helps you stay ahead of your competition by showing you ways your customers can use your products or services right now. Install the Company News Timeline solution, which delivers relevant news from [!INCLUDE[pn_bing](../includes/pn-bing.md)] News about your customers, and categorizes them in a useful feed inline while viewing your accounts.  
   
