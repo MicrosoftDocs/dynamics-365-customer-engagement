@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 05/27/2020
+ms.date: 06/01/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -30,13 +30,65 @@ We roll out updates on a region-by-region basis. Updates are available to all re
 > [!Note]
 > To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20Marketing).
 
+## June 2020 update
+
+The Dynamics 365 Marketing June 2020 update includes several feature enhancements including customer journey improvements, email editor improvements, improved segment management, performance upgrades, and bug fixes.
+
+### Version number
+
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        | 1.35.10062.1043 |
+
+> [!Tip]
+> To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](https://docs.microsoft.com/dynamics365/marketing/apply-updates#find-out-which-version-of-dynamics-365-marketing-you-are-running).
+
+### Monthly feature updates
+
+- **Customer journeys**
+    - See which segments are used in a customer journey in the new **Segments used** section in the customer journey's **General** tab.
+    - A new quota tracking feature issues a warning when creating customer journeys if a user is near the segmentation quota limit.
+- **Marketing emails**
+    - New email templates including one, two, and three column newsletters, a form double opt-in template, and a new welcome template.
+    - Improved Litmus email preview tracking on the Marketing Welcome page.
+    - A/B test email subjects, from names, email bodies, or the entire content of emails.
+    - Minor email editor UI enhancements, including updates fonts and icons.
+- **Segment management**
+    - Quickly filter segment members using the new search function in the **Members** tab.
+    - See which customer journeys use a segment in the new **Customer journeys using segment** section in the segment's **General** tab.
+
+### Bug fixes
+
+- **Customer journeys**
+    - Composed state information for customer journeys is no longer editable.
+    - Resolved an error that occurred when different users tried to stop and start a customer journey.
+    - Resolved an issue where activities were not created when two rules were applied in trigger conditions.
+- **Data services**
+    - Added validation to prevent creating invalid interaction queries.
+- **Event management**
+    - Fixed an error that allowed multiple check-ins with the same event registration ID.
+- **Marketing emails**
+    - Fixed an error that occasionally caused ```<font>``` tags to render incorrectly after editing HTML in the email content designer.
+    - Fixed an error that caused color picker colors to sometimes not apply correctly to text.
+    - Resolved an issue where the cursor disappeared when adding an anchor name.
+    - Improved rendering of email template dividers in Outlook.
+    - Fixed an error where that caused URL links on images to not save properly in the email designer.
+    - Added descriptive error notifications for dynamic content in marketing emails.
+- **Marketing forms**
+    - Resolved an issue where custom registration fields were sometimes not propagated to event management client services.
+- **Marketing pages**
+    - Fixed an error where the ContactID for a SegmentSubscribed interaction was missing after using a confirmation link.
+    - Resolved an error where a duplicated query parameter caused a program exception.
+- **Social posting**
+    - Resolved an issue where LinkedIn form submission consent field values were occasionally imported incorrectly.
+
 ## May 2020 update
 
 The Dynamics 365 Marketing May 2020 update includes several feature enhancements including a revamped form capture experience, performance upgrades, and bug fixes.
 
 > [!IMPORTANT]
 > With the May 2020 release, all [Marketing 2020 release wave 1 plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/planned-features) features are now generally available. 
-> 
+>
 > Beginning in May, updates will occur automatically, corresponding with the [amended 2020 release wave 1 deployment schedule](https://docs.microsoft.com/power-platform/admin/general-availability-deployment#deployment-schedule). We will gradually implement the new update policy for instances eligible for automatic upgrade, so organizations may not see any immediate impact to their eligible instances. Organizations can still [manually update using the Marketing Setup Wizard](https://docs.microsoft.com/dynamics365/marketing/apply-updates) if there is an update that has not yet been applied.
 >
 > [Learn more about the automatic update policy](https://cloudblogs.microsoft.com/dynamics365/it/2020/04/27/automatic-update-policy-for-dynamics-365-marketing/).
@@ -138,7 +190,7 @@ The Dynamics 365 Marketing April 2020 update includes several feature enhancemen
     - New modern and accessible email templates.
     - Accessibility checker for emails, forms, and pages with guidance on suggested fixes.
 - **Marketing forms**
-    - [Cascading form fields (parent/child fields)](marketing-forms.md#Cascading-form-fields) are now available in marketing forms, expanding customization options.
+    - [Cascading form fields (parent/child fields)](marketing-forms.md#cascading-form-fields) are now available in marketing forms, expanding customization options.
 - **Segment management**
     - Improved template design gallery interface.
     - Improved date picker operation by adding a "Within x" operator.
