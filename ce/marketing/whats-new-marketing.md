@@ -52,7 +52,7 @@ The Dynamics 365 Marketing June 2020 update includes several feature enhancement
     - New email templates including one, two, and three column newsletters, a form double opt-in template, and a new welcome template.
     - Improved Litmus email preview tracking on the Marketing Welcome page.
     - A/B test email subjects, from names, email bodies, or the entire content of emails.
-    - Email editor UI enhancements.
+    - Minor email editor UI enhancements, including updates fonts and icons.
 - **Segment management**
     - Quickly filter segment members using the new search function in the **Members** tab.
     - See which customer journeys use a segment in the new **Customer journeys using segment** section in the segment's **General** tab.
