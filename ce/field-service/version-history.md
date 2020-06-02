@@ -63,8 +63,8 @@ Release For information about other updates to Field Service, visit the [Dynamic
 | | <i>China</i> |[8.8.22.57](https://docs.microsoft.com/dynamics365/field-service/version-history#882257)|[8.8.23.84](https://docs.microsoft.com/dynamics365/field-service/version-history#882384)| 06/19/2020
 
 >[!Note]
-> - Dates in all regions except Government Community Cloud and China indicate the timing of the next automatic update. Dates in GCC and China indicate version availability; at this time, there is no automatic-update for these regions.
-> - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the <i>Scheduled Date</i> column.
+> - Dates in all regions except Government Community Cloud (GCC) and China indicate the timing of the next automatic update. Dates in GCC and China indicate version availability; at this time, there is no automatic update for these regions.
+> - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the *Scheduled Date* column.
 
 ## 8.8.23.84 
 (Includes Universal Resource Scheduling version [3.12.22.9](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling?branch=master#312228))
