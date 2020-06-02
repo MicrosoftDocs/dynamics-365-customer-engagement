@@ -2,7 +2,7 @@
 title: "Use the bot| MicrosoftDocs"
 ms.custom: 
 description: "Use the bot to interact with Dynamics 365 apps."
-ms.date: 10/16/2019
+ms.date: 06/01/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -22,6 +22,11 @@ search.app:
 ---
 # Use the bot 
 
+
+> [!IMPORTANT]
+> Effective June 2, 2020, Dynamics 365 Sales bot is deprecated. Until July 31, 2020, Microsoft will continue to provide support for the feature, but won't release any additional functionality beyond what is already present. After July 31, 2020, the Dynamics 365 Sales bot won't be available.
+>
+> For further information, see [Important changes (deprecations) coming in Power Apps, Power Automate, and model-driven apps in Dynamics 365](https://docs.microsoft.com/power-platform/important-changes-coming).
 
 The Dynamics 365 app for Microsoft Teams bot feature allows you to search for model-driven app records within a Microsoft Teams conversations.
 
