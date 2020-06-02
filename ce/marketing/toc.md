@@ -230,7 +230,6 @@
 #### [Publish custom channel on AppSource](developer/publish-custom-channel-appsource.md)
 #### [Configure and use custom channel](developer/configure-use-custom-channel.md)
 #### [Remove custom channel](developer/remove-custom-channel.md)
-### [Preview: Extend event management to support more webinar providers](developer/extend-event-management.md)
 ### Build an approval feature
 #### [Overview](developer/marketing-approvals-feature.md)
 #### [Build approvals feature using Power Automate](developer/build-approval-feature-using-flow.md)

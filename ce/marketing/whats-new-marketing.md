@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 06/01/2020
+ms.date: 06/02/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -50,7 +50,7 @@ The Dynamics 365 Marketing June 2020 update includes several feature enhancement
     - A new quota tracking feature issues a warning when creating customer journeys if a user is near the segmentation quota limit.
 - **Marketing emails**
     - New email templates including one, two, and three column newsletters, a form double opt-in template, and a new welcome template.
-    - Improved Litmus email preview tracking on the Marketing Welcome page.
+    - Improved Litmus email preview usage UI and integrated best practices information.
     - A/B test email subjects, from names, email bodies, or the entire content of emails.
     - Minor email editor UI enhancements, including updates fonts and icons.
 - **Segment management**
