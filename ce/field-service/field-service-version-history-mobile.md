@@ -34,18 +34,17 @@ This article chronicles important updates related to Field Service Mobile and as
 
 ### Updates
 - Enabled capability to launch Remote Assist from iOS.
-- Accessibility Enhancements.
-- Mobile reports usability improvement - default to last report type used.
-- Barcode scanner usability improvement - scan multi-part bar codes.
+- Accessibility enhancements.
+- Mobile reports usability improvement: default to last report type used.
+- Barcode scanner usability improvement: scan multi-part bar codes.
 
 ### Bug fixes
 - PDF mobile report format/layout fixes.
 - App crash when adding video to notes on iOS.
 - Improved handing of Auth/Refresh Tokens.
 - Localization fix.
-- Misc. crash fixes for iOS, Android, Windows.
-- App will now not throw an error when opening Work Order Product item from Booking when there is an inactive Product.
-
+- Miscellaneous crash fixes for iOS, Android, Windows.
+- App will now not throw an error when opening Work Order Product item from Booking when there is an inactive Product. 
 
 ## 12.1.212
 
