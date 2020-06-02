@@ -63,7 +63,8 @@ Release For information about other updates to Field Service, visit the [Dynamic
 | | <i>China</i> |[8.8.22.57](https://docs.microsoft.com/dynamics365/field-service/version-history#882257)|[8.8.23.84](https://docs.microsoft.com/dynamics365/field-service/version-history#882384)| 06/19/2020
 
 >[!Note]
-> While most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours of the weekend indicated in the <i>Scheduled Date</i> column.
+> - Dates in all regions except Government Community Cloud (GCC) and China indicate the timing of the next automatic update. Dates in GCC and China indicate version availability; at this time, there is no automatic update for these regions.
+> - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the *Scheduled Date* column.
 
 ## 8.8.23.84 
 (Includes Universal Resource Scheduling version [3.12.22.9](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling?branch=master#312228))
@@ -73,7 +74,7 @@ Release For information about other updates to Field Service, visit the [Dynamic
 - Repaired a field service upgrade issue caused by a script that, when appropriate, created requirement group records. If the requirement group’s name was too long, the script and upgrade would fail.
 - Fixed an issue on the Contact entity’s geo code functionality which caused a script error if “Auto Geo-Code” was set to No in Field Service Settings.
 - Corrected an incorrect Agreement Booking Setup recurrence validation error for “Too many days in month.” Under certain circumstances, this error was thrown inappropriately.
-- Resolved an issue with duplicate section and tab IDs in the Connected Field Service which caused issues when trying to uninstall the solution.
+- Resolved an issue with duplicate section and tab IDs in Connected Field Service which caused issues when trying to uninstall the solution.
 - Corrected a null reference issue in Connected Field Service when loading the Device Summary control on the IoT Alert form.
 
 ## 8.8.22.57 
