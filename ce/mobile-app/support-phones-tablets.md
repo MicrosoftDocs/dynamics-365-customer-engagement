@@ -65,7 +65,7 @@ Model-driven apps running on a web browser on an iOS or Android tablet provides 
   
 - [!INCLUDE[pn_yammer](../includes/pn-yammer.md)]  
   
-- Reports (
+- Reports 
 
 - Service Calendar 
   
