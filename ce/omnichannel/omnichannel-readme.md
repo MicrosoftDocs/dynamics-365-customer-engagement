@@ -158,7 +158,7 @@ While working on a session, after an agent creates a customer (contact/account) 
 
 ## Authentication error for different agent credentials
 
-If an agent is signed in to Office 365 or Common Data Service through a different username in the browser (Internet Explorer or Edge) than the one used for USD sign in, an authentication error is shown and the user is not allowed to sign in. As a work-around, the user should sign out from all other accounts on the browser and try signing back in.
+If an agent is signed in to Office 365 or Common Data Service through a different username in the browser (Internet Explorer or Microsoft Edge) than the one used for USD sign in, an authentication error is shown and the user is not allowed to sign in. As a work-around, the user should sign out from all other accounts on the browser and try signing back in.
 
 ## Transfer to queue does not show a message for the initiating agent
 
