@@ -1,6 +1,10 @@
 {
   "redirections": [
-
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/auditing-overview.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/auditing-overview",
+      "redirect_document_id": "false"
+    },
     {
       "source_path": "ce/marketing/developer/extend-event-management.md",
       "redirect_url": "../event-management",
