@@ -2,7 +2,7 @@
 title: "Install and set up the Dynamics 365 app for Microsoft Teams| MicrosoftDocs"
 ms.custom: 
 description: "Install and set up the Dynamics 365 app for Microsoft Teams."
-ms.date: 10/16/2019
+ms.date: 06/01/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -133,6 +133,10 @@ See [Collaborate with Microsoft Teams](teams-collaboration.md#have-a-conversatio
 <a name="bkmk_setup_dynamics365_bot"></a>
 ## In Microsoft Teams: Set up the Dynamics 365 bot
 
+> [!IMPORTANT]
+> Effective June 2, 2020, Dynamics 365 Sales bot is deprecated. Until July 31, 2020, Microsoft will continue to provide support for the feature, but won't release any additional functionality beyond what is already present. After July 31, 2020, the Dynamics 365 Sales bot won't be available.
+>
+> For further information, see [Important changes (deprecations) coming in Power Apps, Power Automate, and model-driven apps in Dynamics 365](https://docs.microsoft.com/power-platform/important-changes-coming).
 
 Set up the bot feature to interact with Dynamics 365 apps.
 

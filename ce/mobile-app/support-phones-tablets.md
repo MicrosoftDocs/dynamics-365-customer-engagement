@@ -1,7 +1,7 @@
 ---
 title: "Support for Dynamics 365 for phones and Dynamics 365 for tablets | MicrosoftDocs"
 ms.custom:
-ms.date: 11/25/2019
+ms.date: 6/2/2020
 ms.reviewer:
 ms.service: crm-online
 ms.suite:
@@ -59,13 +59,13 @@ For full functionality and optimized experience, we strongly recommend that you 
         
 
   
-Using the model-driven apps on a web browser on an iOS or Android tablet provides a similar experience to using it with a web browser on a desktop or laptop computer. However, some features are not available, including:  
+Model-driven apps running on a web browser on an iOS or Android tablet provides a similar experience to using it with a web browser on your desktop or laptop computer. However, some features are not available on the mobile app or mobile web browser, including:
   
 - Pinch and zoom  
   
 - [!INCLUDE[pn_yammer](../includes/pn-yammer.md)]  
   
-- Reports
+- Reports 
 
 - Service Calendar 
   

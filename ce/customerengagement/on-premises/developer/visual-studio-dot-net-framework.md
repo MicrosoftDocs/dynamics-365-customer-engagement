@@ -2,7 +2,7 @@
 title: "Visual Studio and the .NET Framework (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "Learn about managed code development tools and requirements."
 keywords: 
-ms.date: 05/13/2020
+ms.date: 05/29/2020
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -39,7 +39,7 @@ You can use [!INCLUDE[pn-visual-studio-short](../includes/pn-visual-studio-short
 > Enforcement of this higher standard for security will only be applied to [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] at this time. If your clients are designed to connect to any version or deployment type you can prepare by re-compling the application to use [!INCLUDE [pn-net-framework-462-short](../includes/pn-net-framework-462-short.md)].
 > More information: [Blog Post: Updates coming to Dynamics 365 Customer Engagement (on-premises) connection security](https://blogs.msdn.microsoft.com/crm/2017/09/28/updates-coming-to-dynamics-365-customer-engagement-connection-security/)
 > 
-> The SDK APIs available in [Microsoft.CrmSdk.XrmTooling.CoreAssembly](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.CoreAssembly/) and other "CrmSdk" NuGet packages do not support .NET Core code development. Revised packages (containing refactored APIs) that do support .NET Core development can be found here: [Microsoft.Powerplatform.Cds.Client](https://www.nuget.org/packages/Microsoft.Powerplatform.Cds.Client/) and [Microsoft.Dynamics.Sdk.Messages](https://www.nuget.org/packages/Microsoft.Dynamics.Sdk.Messages/).
+> The SDK APIs available in [Microsoft.CrmSdk.XrmTooling.CoreAssembly](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.CoreAssembly/) and other "CrmSdk" NuGet packages do not support .NET Core code development.
 >
 > [!TIP]
 > When installing [!INCLUDE[pn-net-framework-462-short.md](../includes/pn-net-framework-462-short.md)] on your development computer, be sure to install the developer pack and not just the run-time. This will enable the 4.6.2 framework to be chosen in the **New Project** dialog box of [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] and in the target framework drop-down menu of the project’s properties.  
