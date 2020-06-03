@@ -47,7 +47,7 @@ The feature uses a keyboard shortcut to capture the information from the Omnicha
 
 ## Diagnostic report information
 
-The diagnostic report contains information specific to Omnichannel but doesn't contain any of your personal information. The following details are captured in the diagnostic report.
+The diagnostic report contains the following information that is specific to Omnichannel for Customer Service and doesn't contain any of your personal information.
 
 | Name | Display name in the report |
 |---------------------|-----------------------------|-----------------------------|
@@ -63,16 +63,16 @@ The diagnostic report contains information specific to Omnichannel but doesn't c
 |CRM version|crmVersion|
 |Tenant Id|TenantId|
 
-If the agent or supervisor is in a session communicating with a customer, and when the agent or supervisor captures the report, then with the details mentioned in the preceding table, the following global context and conversation context details might also be captured.
+If the agent or supervisor is in a session communicating with a customer, and when the agent or supervisor captures the report, then with the details mentioned in the preceding table, the following global context and conversation context details will also be captured.
 
 | Name | Display name in the report |
 |---------------------|-----------------------------|-----------------------------|
 |Timestamp | timestamp |
 |Provider name | activeProviderName |
 |Client URL| ClientUrl| 
-|App URL|AppUrl| 
-|Organization locale Id|OrgLcid| 
-|Organization unique name|OrgUniqueName| 
+|App URL|AppUrl|
+|Organization locale Id|OrgLcid|
+|Organization unique name|OrgUniqueName|
 |Organization Id|OrgId| 
 |User locale Id|UserLcid|
 |User roles Id|User roles|
