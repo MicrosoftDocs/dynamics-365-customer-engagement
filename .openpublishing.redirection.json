@@ -1,8 +1,9 @@
 {
   "redirections": [
+
     {
-      "source_path": "ce/customerengagement/on-premises/deploy/connect-dynamics-365-on-premises-exchange-online.md",
-      "redirect_url": "../admin/connect-dynamics-365-on-premises-exchange-online",
+      "source_path": "ce/marketing/developer/extend-event-management.md",
+      "redirect_url": "../event-management",
       "redirect_document_id": "false"
     },
     {
