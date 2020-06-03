@@ -14,7 +14,7 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-The report issues feature in Omnichannel for Customer Service allows administrators, agents, and supervisors to capture a diagnostic report and share it with Microsoft when they come across issues while using Omnichannel for Customer Service.
+The report issues feature in the Omnichannel for Customer Service app allows administrators, agents, and supervisors to capture a diagnostic report and share it with Microsoft when they come across issues while using the app.
 
 > [!IMPORTANT]
 > The report issues feature is not supported in Omnichannel for Customer Service on Unified Service Desk.
