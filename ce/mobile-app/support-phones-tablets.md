@@ -59,13 +59,13 @@ For full functionality and optimized experience, we strongly recommend that you 
         
 
   
-Using the model-driven apps on a web browser on an iOS or Android tablet provides a similar experience to using it with a web browser on a desktop or laptop computer. However, some features are not available, including:  
+Model-driven apps running on a web browser on an iOS or Android tablet provides a similar experience to using it with a web browser on your desktop or laptop computer. However, some features are not available on the mobile app or mobile web browser, including:
   
 - Pinch and zoom  
   
 - [!INCLUDE[pn_yammer](../includes/pn-yammer.md)]  
   
-- Reports
+- Reports (
 
 - Service Calendar 
   
