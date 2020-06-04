@@ -105,7 +105,7 @@ If you're an admin, you can avoid users getting this error by making sure all mo
   
 4. Select **Enable Security Roles**.  
   
-5. Select **Display to everyone** and then click **OK**. If you prefer to display only to select security roles, be sure to select your user’s security role.  
+5. Select **Display to everyone** and then select **OK**. If you prefer to display only to select security roles, be sure to select your user’s security role.  
   
 6. Select **Publish**.  
   
@@ -115,14 +115,14 @@ If you're an admin, you can avoid users getting this error by making sure all mo
    
 #### You can choose a different dashboard and set it as your home page:  
   
-1. From the mobile app, tap the menu and then select **Dashboards**.  
+1. From the mobile app, select the menu and then select **Dashboards**.  
   
 2. On the command bar, select **Select Dashboard** and then select the dashboard you would like to use as your home page.  
   
 3. On the command bar, select **Set as Home**.  
   
 
-#### You can create a personal dashboard through the web app and enable it for mobile:  
+#### Or, you can create a personal dashboard through the web app and enable it for mobile:  
   
 1. In the web app, go to **Sales > Dashboards**.  
   
@@ -138,24 +138,17 @@ If you're an admin, you can avoid users getting this error by making sure all mo
   
 ## Error message: Your server is not available or does not support this application  
  **Cause 1**: The Dynamics 365 server is down. Verify that the server is on and connected to your network.  
-  
- **Sample Trace Message for Cause 1**:  
-  
- `“Dynamics CRM [Error] | Connection error: 404”`  
+ 
   
  **Cause 2**: Your Dynamics 365 apps  version is not supported. See [What's supported](../mobile-app/support-phones-tablets.md) for version support information.  
   
- **Cause 4**: This error can also occur if you enter an invalid URL. Make sure the same URL you have provided works to access [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in your browser on your device.  
+ **Cause 3**: This error can also occur if you enter an invalid URL. Make sure the same URL you have provided works to access Dynamics 365 apps in your browser on your device  
   
- **Sample Trace Messages for Cause 4**:  
-  
- `“XMLHttpRequest: Network Error 0x2ee7, Could not complete the operation due to error 00002ee7.”`   
- `“Dynamics CRM [Error] | Connection error: 0”`  
   
 ## Error message: You haven't been authorized to use this app. Check with your system administrator to update your settings
  **Cause 1**: Verify that your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] security role includes the **Use [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]** privilege. See "Required privileges" in [Get started with Dynamics 365 for phones and Dynamics 365 for tablets](set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md#BKMK_GetStartedTablets).  
   
- **Cause 2**: This error can occur if you have a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] organization and your user has not been assigned a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] license. If you add a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] subscription to an existing [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] tenant, your user may not have a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] license assigned. If the user has the Global Administrator or Service Administrator role in the [Microsoft Online Service Portal](https://portal.microsoftonline.com/), you’re able to sign in to the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application to perform certain administrative actions, but you can’t perform end user tasks, such as creating records (for example, accounts, contacts, and leads) or configuring [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. When you sign in to the web application, you may notice that not all areas appear within the navigation (for example, Sales and Marketing are missing):  
+ **Cause 2**: This error can occur if you have a Common Data Service organization and your user has not been assigned a license for the organization. If you add a Common Data Service subscription to an existing [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] tenant, your user may not have a Commmon Data Service license assigned. If the user has the Global Administrator or Service Administrator role in the [Microsoft Online Service Portal](https://portal.microsoftonline.com/), you’re able to sign in to the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application to perform certain administrative actions, but you can’t perform end user tasks, such as creating records (for example, accounts, contacts, and leads) or configuring [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. When you sign in to the web application, you may notice that not all areas appear within the navigation (for example, Sales and Marketing are missing):  
   
  ![Sales and Marketing tabs missing](../admin/media/mobile-app-sales-marketing-missing.png "Sales and Marketing tabs missing")  
   
