@@ -1,10 +1,10 @@
 ---
 title: "Introduction to the agent interface in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the Omnichannel for Customer Service agent interface in Unified Service Desk. The agent interface contains Omnichannel toolbar, session tab management toolbar, and application tab management toolbar."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
+ms.date: 06/04/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -78,7 +78,7 @@ Use the **About** option to view information about the user (agent), the agent's
 
 #### Best Practices Analyzer
 
-Best practices are the guidelines about system configurations, Unified Service Desk, Internet Explorer settings, and Unified Service Desk configurations in the Common Data Service platform. Consider these guidelines our recommended way to use Unified Service Desk and serve your customers.
+Best practices are the guidelines about system configurations, Unified Service Desk, browser settings, and Unified Service Desk configurations in the Common Data Service platform. Consider these guidelines our recommended way to use Unified Service Desk and serve your customers.
 
 ### Presence
 
@@ -90,7 +90,7 @@ Presence status is updated in two ways:
   > [!div class=mx-imgBorder]
   > ![Omnichannel presence status](../../media/oc-usd-presence.png "Omnichannel presence status")
 
-Out-of-the-box you see the following presence statuses:
+Out of the box, you see the following presence statuses:
 
   - Offline
   - Appear away
