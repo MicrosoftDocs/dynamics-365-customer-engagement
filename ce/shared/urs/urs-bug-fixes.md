@@ -376,7 +376,7 @@
 - When launching the schedule assistant from a schedulable entity, the user now lands back on the same form after clicking book and exit.
 - Schedule board no longer shows resource with a capacity greater than 1 as available all day.
 - When booking a requirement group using the schedule assistant, the booking status dropdown now properly filters to the booking statuses for that schedulable entity. To learn more about using different statuses for different schedulable entities, here is a previous blog post. 
-- Issues loading requirement group control in Edge browser.
+- Issues loading requirement group control in the Microsoft Edge browser.
 - When using the schedule assistant to schedule a requirement group for a facility, there is no longer a travel time conflict between the facility and the resources.
 - Double booking option in schedule assistant on daily, weekly, and monthly boards now properly books the resource even if the resource has no remaining capacity.
 - Appointment schedule board settings are now generated properly.
@@ -405,7 +405,7 @@
 - When launching the schedule assistant from a schedulable entity, the user now lands back on the same form after clicking book and exit.
 - Schedule Board no longer shows resource with a capacity greater than 1 as available all day.
 - When booking a requirement group using the schedule assistant, the booking status dropdown now properly filters to the booking statuses for that schedulable entity. To learn more about using different statuses for different schedulable entities, here is a previous blog post. 
-- Issues loading requirement group control in edge browser
+- Issues loading requirement group control in the Microsoft Edge browser
 - When using the schedule assistant to schedule a requirement group for a facility, there is no longer a conflict of travel time between the facility and the resources
 - Double booking option in schedule assistant on daily, weekly, and monthly boards now properly books the resource even if the resource does not have any remaining capacity.
 - Appointment schedule board settings are now generated properly.

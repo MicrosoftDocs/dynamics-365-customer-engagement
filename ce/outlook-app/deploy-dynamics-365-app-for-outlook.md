@@ -23,9 +23,6 @@ search.app:
 ---
 
 
-<!--from editor: This topic include numerous Customer Engagement "include" files that need to be updated. 
-
-
 # Deploy Dynamics 365 App for Outlook  
 
 > [!IMPORTANT]
@@ -216,8 +213,7 @@ If a user's email is synchronized through [!INCLUDE[cc_server_side_synch](../inc
 
 > [!NOTE]
 >  Users can also disable or remove the add-in themselves, if needed. For more information, see the [Dynamics 365 App for Outlook User’s Guide](../outlook-app/dynamics-365-app-outlook-user-s-guide.md).  
-
-<!--    
+  
 <a name=BKMK_DeployOnprem></a>   
 
 ## To deploy to Dynamics 365 apps (on-premises) users  
