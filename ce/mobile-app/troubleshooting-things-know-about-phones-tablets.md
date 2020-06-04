@@ -47,11 +47,11 @@ If you encounter a problem with the mobile app, you can help Microsoft troublesh
    > ![Get a session ID ](media/mobile_session_id.jpg)
 
 
-## Troubleshoot **We can’t find any apps for your role** error message on the Dynamics 365 mobile app.
+## Error: We can’t find any apps for your role 
 
-When using the Dynamics 365 mobile app, you encounter the following message:
+When using the Dynamics 365 mobile app, you encounter the following message:**We can’t find any apps for your role**. 
 
-**We can’t find any apps for your role. To check for recently-added apps, select Refresh.If you can’t find your app, change your search criteria and try again.**
+To check for recently-added apps, select Refresh. If you can’t find your app, change your search criteria and try again.**
 
  For more information see, [Troubleshoot "We can’t find any apps for your role"  error message](https://support.microsoft.com/help/4486472/we-can-t-find-any-apps-for-your-role-message-in-dynamics-365-for-phone).
 
@@ -90,10 +90,10 @@ Get the session ID from the sign in screen
    > ![Get a session ID ](media/mobile_session_id.jpg)
 
 ## Error message: This record is unavailable
- If this message appears when a user starts the mobile app, taps the **Home** button, or selects **Dashboards** from the menu, the user likely doesn’t have access to the expected dashboards.  
+ If this message appears when a user starts the mobile app, and then selects the **Home** button, or **Dashboards** from the menu, the user likely doesn’t have access to the expected dashboards.  
   
   
-### Admin instructions when you get this error message: This record is unavailable
+### Admin instructions to resolve the issue
 
 If you're an admin, you can avoid users getting this error by making sure all mobile users have access to the sales dashboard:  
   
@@ -111,7 +111,7 @@ If you're an admin, you can avoid users getting this error by making sure all mo
   
 7. Have your user close and open the mobile app so your dashboard changes will download.  
   
-### End-user instructions when you get this error message: This record is unavailable
+### End-user instructions to resolve the issue
    
 #### You can choose a different dashboard and set it as your home page:  
   
@@ -137,10 +137,9 @@ If you're an admin, you can avoid users getting this error by making sure all mo
 6. In the mobile app, follow the previous procedure to select your new dashboard and set it as your home page.  
   
 ## Error message: Your server is not available or does not support this application  
- **Cause 1**: The Dynamics 365 server is down. Verify that the server is on and connected to your network.  
+ **Cause 1**: The Common Datat Service or Dynamics 365 Customer Engagement (on-premises) server is down. Verify that the server is on and connected to your network.  
  
-  
- **Cause 2**: Your Dynamics 365 apps  version is not supported. See [What's supported](../mobile-app/support-phones-tablets.md) for version support information.  
+ **Cause 2**: Your Common Datat Service or Dynamics 365 Customer Engagement (on-premises) app version is not supported. For supported version information, see [What's supported](../mobile-app/support-phones-tablets.md). 
   
  **Cause 3**: This error can also occur if you enter an invalid URL. Make sure the same URL you have provided works to access Dynamics 365 apps in your browser on your device  
   
