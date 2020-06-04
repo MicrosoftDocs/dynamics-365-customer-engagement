@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting and things to know about Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom:
-ms.date: 04/27/2020
+ms.date: 06/5/2020
 ms.reviewer:
 ms.service: crm-online
 ms.suite:
@@ -146,15 +146,16 @@ If you're an admin, you can avoid users getting this error by making sure all mo
   
   
 ## Error message: You haven't been authorized to use this app. Check with your system administrator to update your settings
- **Cause 1**: Verify that your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] security role includes the **Use [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]** privilege. See "Required privileges" in [Get started with Dynamics 365 for phones and Dynamics 365 for tablets](set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md#BKMK_GetStartedTablets).  
+ **Cause 1**: Verify that your security role includes the **Use [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]** privilege. See "Required privileges" in [Get started with Dynamics 365 for phones and Dynamics 365 for tablets](set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md#BKMK_GetStartedTablets).  
   
- **Cause 2**: This error can occur if you have a Common Data Service organization and your user has not been assigned a license for the organization. If you add a Common Data Service subscription to an existing [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] tenant, your user may not have a Commmon Data Service license assigned. If the user has the Global Administrator or Service Administrator role in the [Microsoft Online Service Portal](https://portal.microsoftonline.com/), you’re able to sign in to the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application to perform certain administrative actions, but you can’t perform end user tasks, such as creating records (for example, accounts, contacts, and leads) or configuring [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. When you sign in to the web application, you may notice that not all areas appear within the navigation (for example, Sales and Marketing are missing):  
+ **Cause 2**: This error can occur if you have a Common Data Service or Dynamics 365 Customer Engagement (on-premises) organization and your user has not been assigned a license for the organization. If you add a Common Data Service or Dynamics 365 Customer Engagement (on-premises) subscription to an existing [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] tenant, your user may not have a  license assigned. 
+ 
+ If the user has the Global Administrator or Service Administrator role and you’re able to sign in to on the web app to perform certain administrative actions, but you can’t perform end user tasks, such as creating records (for example, accounts, contacts, and leads) or configuring Dynamics 365 for mobile. When you sign in to the web app, you may notice that not all areas appear within the navigation (for example, Sales and Marketing are missing):  
   
- ![Sales and Marketing tabs missing](../admin/media/mobile-app-sales-marketing-missing.png "Sales and Marketing tabs missing")  
   
- Access the **Users and Groups** section within the [Microsoft Online Service Portal](https://portal.microsoftonline.com/) and verify you have a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] license assigned to your user record.  
+ Access the **Active** users section in the admin center and verify you have a **Dynamics 365 Customer Engagement Plan** license assigned to your user record.  
   
- ![Terry Adam's Dynamics 365 apps License](../admin/media/mobile-app-social-engagement-icense.png "Terry Adam's Dynamics 365 apps License")  
+ ![License](media/customer_engagement_lic.png "Dynamics 365 Customer Engagement Plan License")  
   
   
 ## Error message: Sorry, something went wrong while initializing the app. Please try again, or restart the app  
