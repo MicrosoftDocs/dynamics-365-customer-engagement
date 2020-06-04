@@ -44,7 +44,7 @@ If you encounter a problem with the mobile app, you can help Microsoft troublesh
 - On the sign in screen, select the clipboard icon and then select **Copy session ID**.
 
    > [!div class="mx-imgBorder"]
-   > ![Get a session ID ](media/mobile_session_id.png)
+   > ![Get a session ID ](media/mobile_session_id.jpg)
 
 
 ## Troubleshoot *We can’t find any apps for your role* error message on Dynamics 365 for phones and tablets.**
