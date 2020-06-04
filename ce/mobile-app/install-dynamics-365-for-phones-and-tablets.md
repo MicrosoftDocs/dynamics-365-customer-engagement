@@ -1,7 +1,7 @@
 ---
 title: "Install Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom:
-ms.date: 12/10/2016
+ms.date: 06/04/2020
 ms.reviewer:
 ms.service: crm-online
 ms.suite:
