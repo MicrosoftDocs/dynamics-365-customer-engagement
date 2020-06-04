@@ -188,7 +188,7 @@ If you're an admin, you can avoid users getting this error by making sure all mo
   
 
 ## Event 10001 messages appear in the Event Log when you run Dynamics 365 for mobile. 
- The following event may be recorded multiple times to the Event Log, when **Show Analytic and Debug Logs** is enabled, on the device where Dynamics 365 for mobile is running. Notice that, by default, **Show Analytic and Debug Logs** is disabled in [!INCLUDE[pn_Event_Viewer](../includes/pn-event-viewer.md)] and these messages won’t be recorded. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable Analytic and Debug Logs](https://docs.microsoft.comprevious-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc749492(v=ws.11)?redirectedfrom=MSDN)  
+ The following event may be recorded multiple times to the Event Log, when **Show Analytic and Debug Logs** is enabled, on the device where Dynamics 365 for mobile is running. Notice that, by default, **Show Analytic and Debug Logs** is disabled in [!INCLUDE[pn_Event_Viewer](../includes/pn-event-viewer.md)] and these messages won’t be recorded. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable Analytic and Debug Logs](https://technet.microsoft.com/library/cc749492.aspx)  
   
 - Event Id: 10001  
   
