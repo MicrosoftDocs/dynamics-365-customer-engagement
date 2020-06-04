@@ -283,5 +283,5 @@ If the information provided previously doesn’t resolve your issue, either [Pos
 
 ### See also
  [Set up Dynamics 365 for phones and tablets](set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md)
- [Dynamics 365 for phones and tablets User's Guide](dynamics-365-phones-tablets-users-guide.md)
+
 
