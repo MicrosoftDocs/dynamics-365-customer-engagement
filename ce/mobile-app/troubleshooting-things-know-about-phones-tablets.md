@@ -155,7 +155,8 @@ If you're an admin, you can avoid users getting this error by making sure all mo
   
  Access the **Active** users section in the admin center and verify you have a **Dynamics 365 Customer Engagement Plan** license assigned to your user record.  
   
- ![License](media/customer_engagement_lic.png "Dynamics 365 Customer Engagement Plan License")  
+   > [!div class="mx-imgBorder"]
+   > ![License](media/customer_engagement_lic.png "Dynamics 365 Customer Engagement Plan License")  
   
   
 ## Error message: Sorry, something went wrong while initializing the app. Please try again, or restart the app  
@@ -181,33 +182,33 @@ If you're an admin, you can avoid users getting this error by making sure all mo
  `“XMLHttpRequest: Network Error 0x2ef3, Could not complete the operation due to error 00002ef3.”`  
   
 ## Error message: The language installed on your company’s system isn’t available on the app. Please contact your system administrator to set up a supported language
- **Cause**: This error will occur if one of the supported languages is not enabled in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. For more information on the supported languages, see [Dynamics 365 for tablets: Set up and use](https://go.microsoft.com/fwlink/p/?LinkID=325404) and expand **What you need to use Dynamics 365 for tablets** and **Supported Languages**.  
+ **Cause**: This error will occur if one of the supported languages is not enabled in Common Data Service or Dynamics 365 Customer Engagement (on-premises). For more information on the supported languages, see [Supported languages for Dynamics 365 for phones and tablets](https://docs.microsoft.com/dynamics365/mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets#supported-languages-for--and-).
   
 ## Error message: The process assigned to this record is unavailable or has been deleted 
- If you receive this message for a record which has a non-deleted process assigned to it, you should manually synchronize [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] with your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] data. Close the [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] app, reopen, and then choose to download the latest customizations. This procedure forces [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] to check for updated customizations. Recently viewed data while you were connected is cached and synched. Record data like Accounts or Contacts are not synched. You can’t choose which data synchronizes to the device like you can with [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)].  
+ If you receive this message for a record which has a non-deleted process assigned to it, you should manually synchronize Dynamics 365 for phones and tablets app data with Common Data Service or Dynamics 365 Customer Engagement (on-premises) app data. Close the mobile app, reopen it, and then choose to download the latest customizations. This procedure forces the mobile app to check for updated customizations. Recently viewed data while you were connected is cached and synched. Record data like Accounts or Contacts are not synched.
   
 
-## Event 10001 messages appear in the Event Log when you run [!INCLUDE[pn_crm_for_windows_8](../includes/pn-crm-for-windows-8.md)]  
- The following event may be recorded multiple times to the Event Log, when **Show Analytic and Debug Logs** is enabled, on the device where [!INCLUDE[pn_crm_for_windows_8](../includes/pn-crm-for-windows-8.md)] is running. Notice that, by default, **Show Analytic and Debug Logs** is disabled in [!INCLUDE[pn_Event_Viewer](../includes/pn-event-viewer.md)] and these messages won’t be recorded. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable Analytic and Debug Logs](https://technet.microsoft.com/library/cc749492.aspx)  
+## Event 10001 messages appear in the Event Log when you run Dynamics 365 for mobile. 
+ The following event may be recorded multiple times to the Event Log, when **Show Analytic and Debug Logs** is enabled, on the device where Dynamics 365 for mobile is running. Notice that, by default, **Show Analytic and Debug Logs** is disabled in [!INCLUDE[pn_Event_Viewer](../includes/pn-event-viewer.md)] and these messages won’t be recorded. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable Analytic and Debug Logs](https://docs.microsoft.comprevious-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc749492(v=ws.11)?redirectedfrom=MSDN)  
   
 - Event Id: 10001  
   
 - Message: `SEC7131 : Security of a sandboxed iframe is potentially compromised by allowing script and same origin access.`  
   
-  Verify the source of the messages. If the source is [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)], these events don’t pose a security threat and can be ignored.  
+  Verify the source of the messages. If the source is Common Data Service or Dynamics 365 Customer Engagement (on-premises), these events don’t pose a security threat and can be ignored.  
   
 #### By design: “—d” added to URL  
  **For [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] users**  
   
- To improve the reliability of DNS resolutions to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] organizations, [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] modifies the organization URL used when signing in. When a user signs in, [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] adds “—d” (two dashes + d) to the URL. For example, if the organization URL is **<https://contoso.crm.dynamics.com>**, [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] will change the URL to **<https://contoso--d.crm.dynamics.com>**.  
+ To improve the reliability of DNS resolutions to Common Data Service or Dynamics 365 Customer Engagement (on-premises) organizations, Dynamics 365 for mobile modifies the organization URL used when signing in. When a user signs in, Dynamics 365 for phones and tablets adds “—d” (two dashes + d) to the URL. For example, if the organization URL is **<https://contoso.crm.dynamics.com>**, [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] will change the URL to **<https://contoso--d.crm.dynamics.com>**.  
   
  If a user needs to retry signing in, they’ll see “—d” in the web address. They can sign in with the modified URL or reset it to the URL normally used.  
   
  
-## Redirected URLs do not work when you configure [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] or [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)]  
- URLs that redirect, such as [!INCLUDE[pn_iis](../includes/pn-iis.md)] host headers or link-shortening websites such as tinyurl or bitly, do not work when you use the URL in the **Dynamics 365 apps web address** field with [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] or [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] during configuration.  
+## Redirected URLs do not work when you configure Dynamics 365 for phones and tablets
+ URLs that redirect, such as [!INCLUDE[pn_iis](../includes/pn-iis.md)] host headers or link-shortening websites such as tinyurl or bitly, do not work when you use the URL in the **Dynamics 365 apps web address** field with Dynamics 365 mobile during configuration.  
   
- For example, an *<https://www.contosocrm.com>* host header for a Dynamics 365 apps online  website URL that is actually *<https://crm.contososerver001.com>*, will not work and will display an error message. To work around this behavior, you must enter the actual web address for the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] organization. When this issue occurs and you have enabled logging, the information logged is similar to the following. Notice that the URLs in lines 2 and 3 are different. That difference indicates a redirected URL.  
+ For example, an *<https://www.contosocrm.com>* host header for a Dynamics 365 apps online  website URL that is actually *<https://crm.contososerver001.com>*, will not work and will display an error message. To work around this behavior, you must enter the actual web address for the Common Data Service or Dynamics 365 Customer Engagement (on-premises) organization. When this issue occurs and you have enabled logging, the information logged is similar to the following. Notice that the URLs in lines 2 and 3 are different. That difference indicates a redirected URL.  
   
 1.  User entered URL: *https://URL_entered*  
   
@@ -217,17 +218,17 @@ If you're an admin, you can avoid users getting this error by making sure all mo
  
   
 ## Users not getting customizations  
- Users will not get customizations made to Dynamics 365 apps if there are draft records present. Users should be encouraged to save records as soon as they go online.  
+ Users will not get customizations made to their apps if there are draft records present. Users should save records as soon as they go online. You should try to restart the app.
   
-## Data cached for offline viewing remains after the entity is no longer enabled for [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]  
- In [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)], record data is cached as the user visits the record so the user can access the data when going offline.  
+## Data cached for offline viewing remains after the entity is no longer enabled for Dynamics 365 for mobile
+ In  Dynamics 365 for mobile, record data is cached as the user visits the record so the user can access the data when going offline.  
   
- This cached data persists after the entity is no longer enabled for [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] (**Settings** > **Customizations** > **Customize the System** > [select an entity] > under **Outlook & Mobile**, deselect **[!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]**).  
+ This cached data persists after the entity is no longer enabled for Dynamics 365 for mobile (**Settings** > **Customizations** > **Customize the System** > [select an entity] > under **Outlook & Mobile**, deselect **[!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]**).  
   
- To remove the cached data, the user must sign out of [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)], or [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] must be reconfigured or uninstalled.  
+ To remove the cached data, the user must sign out of mobile app, or the app must be reconfigured or uninstalled.  
   
-## Customization changes do not appear in [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]  
- **Cause 1**: The customizations (metadata) from your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization are cached on your device. The app checks for updated metadata after 24 hours or any time you reopen the app. For customization changes to become available immediately, you must completely close and then reopen the app. If new metadata is found, you will be prompted to download it. For more information on how to completely close an app, refer to the help for your operating system or reference one of the articles provided:  
+## Customization changes do not appear in the mobile app
+ **Cause 1**: The customizations (metadata) from Common Data Service or Dynamics 365 Customer Engagement (on-premises) organization are cached on your device. The app checks for updated metadata after 24 hours or any time you reopen the app. For customization changes to become available immediately, you must completely close and then reopen the app. If new metadata is found, you will be prompted to download it. For more information on how to completely close an app, refer to the help for your operating system or reference one of the articles provided:  
   
 - **Windows 8**: [How do I close an app?](https://go.microsoft.com/fwlink/p/?LinkId=513271)  
   
@@ -235,56 +236,14 @@ If you're an admin, you can avoid users getting this error by making sure all mo
   
 - **Android**: [How to force close Android apps](https://www.tomsguide.com/faq/id-2372153/force-close-android-apps.html)  
   
-**Cause 2**: You may be seeing a different form than the one you customized. If you have multiple forms for an entity, you will see the first form in the form order that you have access to. This is different than the web application where you see the last form you used and have the ability to change between forms.  
-  
-  
-## Private Browsing not supported in Safari  
- If you enable Private Browsing on your iPad in your Safari browser, you will see the following error message when you attempt to connect to your Common Data Service environment or Dynamics 365 Customer Engagement (on-premises) organization: “[Dynamics 365 has encountered an error.” You will need to disable Private Browsing. Tap the address bar, and then tap **Private**.  
-  
-## Web app differences in mobile browsers  
- For differences you can expect to find in the web app when you’re accessing it from a mobile device, see [Support for Dynamics 365 for phones and Dynamics 365 for tablets](../mobile-app/support-phones-tablets.md).  
-   
-  
-## Clipboard data – available to admins and customizers  
- [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] System Administrators or System Customizers can access other users’ Clipboard data for users of [!INCLUDE[pn_windows8](../includes/pn-windows8.md)] and 8.1 devices.  
-  
-## Users can view queue items in another person’s queue  
- A user viewing records in [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] can view records in another user’s queue.  
-  
-## Update the [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)] app before updating to [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online-2015-update-1.md)]  
- Users must update to the latest version of the [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../includes/pn-microsoft-dynamics-crm-for-good.md)] application prior to updating to [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online-2015-update-1.md)]. On the [Apple App store](https://go.microsoft.com/fwlink/p/?LinkID=524762), the version the users need is 1.1. On the [Good Dynamics Marketplace](https://go.microsoft.com/fwlink/p/?LinkId=524809) or Good Control Console, the version needed is listed as 1.1.0.  
-  
- Users who haven’t updated their app prior to connecting to [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online-2015-update-1.md)], will likely see the following error approximately 2 minutes after connecting to [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online-2015-update-1.md)].  
-  
- Error: We’re sorry. Your server is not available or does not support this application.  
-  
- To fix this error, the user must uninstall and reinstall the [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../includes/pn-microsoft-dynamics-crm-for-good.md)] app using the version listed previously.  
-  
-## App restart required after reconfiguring [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../includes/pn-microsoft-dynamics-crm-for-good.md)]  
- After you reconfigure [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../includes/pn-microsoft-dynamics-crm-for-good.md)], the app can get stuck in a loop. You need to close and reopen the app.  
-  
-1. On your [!INCLUDE[tn_ipad](../includes/tn-ipad.md)], press the **Home** button two times quickly. You'll see small previews of your recently used apps.  
-  
-2. Swipe to find the [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)] app.  
-  
-3. Swipe up on the app's preview to close it.  
-  
-4. Tap the [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)] app icon to launch the app and configure for the new org.  
-  
-#### Prevent click for mapping and [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online-2015-update-1.md)]  
- For users of version 1.0 (1.0.0) of the [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../includes/pn-microsoft-dynamics-crm-for-good.md)] app that have updated to [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online-2015-update-1.md)], note that the **Prevent click for mapping** setting does not work.  
-  
- To prevent click for mapping in version 1.0 (1.0.0), admins should enable the **Require a secure browser for opening URLs** setting in the [!INCLUDE[pn_good_shortest](../includes/pn-good-shortest.md)] Control server, as shown here.  
-  
- ![Require a secure browser for opening URLs](../admin/media/good-click-mapping.PNG "Require a secure browser for opening URLs")  
-  
- The **Prevent click for mapping** setting works as expected in [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../includes/pn-microsoft-dynamics-crm-for-good.md)] app version 1.1 (1.1.0). We recommend updating to the latest version of the [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)] app rather than applying this workaround.  
+**Cause 2**: You may be seeing a different form than the one you customized. If you have multiple forms for an entity, you will see the first form in the form order that you have access to. This is different than the web application where you see the last form you used and have the ability to change between forms. 
+
  
-## Troubleshoot: Deep links that come from  Dynamics 365 apps
+## Troubleshoot: Deep links that come from Common Data Service or Dynamics 365 Customer Engagement (on-premises) apps
 
-### Deep links propagated in an email that come from Dynamics 365 apps will not open on your mobile phone or tablet (especially on an Android device).
+### Deep links propagated in an email that come from your apps will not open on your mobile phone or tablet (especially on an Android device).
 
-Most email clients have security restrictions on displayed links. Due to these restrictions, deep links that come from Dynamics 365 apps that are either handcrafted or generated by a workflow tool may not open properly on your mobile device. 
+Most email clients have security restrictions on displayed links. Due to these restrictions, deep links that come from apps that are either handcrafted or generated by a workflow tool may not open properly on your mobile device. 
 
 To workaround this issue, wrap the url in a handmade HTML file and send it to your users. For example:
 
@@ -299,15 +258,15 @@ To workaround this issue, wrap the url in a handmade HTML file and send it to yo
 ```
 When a user selects the link, it will open properly on their mobile app.
 
-### Deep links may not open on your mobile device due to email based sign in process.
+### Deep links may not open on your mobile device due to email based sign in limitations.
 Deep links can only be invoked in the context of the currently opened app. While the mobile app doesn't need to be running at the time the deep link is invoked, you must have been in an app in the same organization when you exited the mobile app.
 To work around this issue, make sure that you have an app that is in the same organization open on your device when you invoke a link.
 
 ## Native Android or iOS links are not supported
-The Dynamics 365 mobile does not support universal links on iOS and Android app links on Android.
+The Dynamics 365 mobile app does not support universal links on iOS and Android app links on Android.
   
 ## Issue still not resolved?  
-If the information provided previously doesn’t resolve your issue, either [Post your issue in the Dynamics CRM Community](https://community.dynamics.com/crm/f/117/p/addpost.aspx?GroupToJoin=57) or [Contact Technical Support](../admin/contact-technical-support.md).
+If the information provided previously doesn’t resolve your issue, either [Post your issue in the Power App Community](https://powerusers.microsoft.com/t5/Power-Apps-Community/ct-p/PowerApps1) or [Contact Technical Support](../admin/contact-technical-support.md).
 
  The following are some suggested details to provide:
 
@@ -320,8 +279,6 @@ If the information provided previously doesn’t resolve your issue, either [Pos
 - If you attempt to connect to a different [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization that does not include your customizations, does the same issue occur? If the issue only occurs with your customizations, provide a copy of the customizations if possible.
 
 - Does the issue still occur after uninstalling the app and reinstalling it?
-
-<!-- -   Please provide traces. See [Enable tracing for Dynamics 365 for tablets](../Topic/Monitor%20and%20troubleshoot%20Microsoft%20Dynamics%20365.md#BKMK_MoCA_tracing).  -->
 
 -   What type of device (ex. iPad 4th Generation, Microsoft Surface, etc…) are you using and what is the version of the operating system (ex. iOS 6.0, Windows 8, etc…)?
 
