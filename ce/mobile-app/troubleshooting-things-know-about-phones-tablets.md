@@ -27,7 +27,7 @@ search.app:
 
 If you encounter a problem with the mobile app, you can help Microsoft troubleshoot the problem much more effectively if you provide them with a session ID for that problem.
 
-### Get session ID from the Setting menu
+### Get the session ID from the Setting menu
 
 1. From the navigation bar, select ![Sign out button](media/settingsmorebutton.png "Sign out button") > **Settings**.
 
@@ -39,7 +39,7 @@ If you encounter a problem with the mobile app, you can help Microsoft troublesh
    > [!div class="mx-imgBorder"]
    > ![Get a session ID](media/sessionID2.png)
    
-### Get session ID from the sign in screen
+### Get the session ID from the sign in screen
 
 - On the sign in screen, select the clipboard icon and then select **Copy session ID**.
 
@@ -82,7 +82,7 @@ For **Vivo** device, do the following:
 
 For other device manufacturers, please email Dynamics 365 Mobile Support dynmobisup@microsoft.com and include your device make and model, session ID and quote the error message above.
 
-Get session ID from the sign in screen
+Get the session ID from the sign in screen
 
 - On the sign in screen, select the clipboard icon and then select **Copy session ID**.
 
@@ -93,7 +93,7 @@ Get session ID from the sign in screen
  If this message appears when a user starts the mobile app, taps the **Home** button, or selects **Dashboards** from the menu, the user likely doesn’t have access to the expected dashboards.  
   
   
-### Admin instructions
+### Admin instructions when you get this error message: This record is unavailable
 
 If you're an admin, you can avoid users getting this error by making sure all mobile users have access to the sales dashboard:  
   
@@ -111,9 +111,9 @@ If you're an admin, you can avoid users getting this error by making sure all mo
   
 7. Have your user close and open the mobile app so your dashboard changes will download.  
   
-### End-user instructions
+### End-user instructions when you get this error message: This record is unavailable
    
-#### If you’re an end user and you’re seeing this message on your home page, **This record is unavailable**. You can choose a different dashboard and set it as your home page:  
+#### You can choose a different dashboard and set it as your home page:  
   
 1. From the mobile app, tap the menu and then select **Dashboards**.  
   
@@ -122,7 +122,7 @@ If you're an admin, you can avoid users getting this error by making sure all mo
 3. On the command bar, select **Set as Home**.  
   
 
-#### If you’re an end user and you’re seeing this message on the dashboards page, **This record is unavailable**. You can create a personal dashboard through the web app and enable it for mobile:  
+#### You can create a personal dashboard through the web app and enable it for mobile:  
   
 1. In the web app, go to **Sales > Dashboards**.  
   
