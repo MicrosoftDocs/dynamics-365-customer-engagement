@@ -47,7 +47,7 @@ If you encounter a problem with the mobile app, you can help Microsoft troublesh
    > ![Get a session ID ](media/mobile_session_id.jpg)
 
 
-## Troubleshoot *We can’t find any apps for your role* error message on Dynamics 365 for phones and tablets.**
+## Troubleshoot **We can’t find any apps for your role** error message on Dynamics 365 for phones and tablets.
 
 When using Dynamics 365 for phones and tablets, you encounter the following message:
 
@@ -55,8 +55,6 @@ When using Dynamics 365 for phones and tablets, you encounter the following mess
 
  For more information see, [Troubleshoot "We can’t find any apps for your role"  error message](https://support.microsoft.com/help/4486472/we-can-t-find-any-apps-for-your-role-message-in-dynamics-365-for-phone).
 
-
-  
 
 ## Error message: Your device configuration is preventing sign-in
 
@@ -82,48 +80,61 @@ For **Vivo** device, do the following:
 1. Go to **Settings** > **More Settings** > **Applications** > **Autostart**.
 2. Set the toggle switch to **ON** for the authenticator app.
 
-For other device manufacturers, please email Dynamics 365 Mobile Support dynmobisup@microsoft.com and include your device make and model and quote the error message above.
+For other device manufacturers, please email Dynamics 365 Mobile Support dynmobisup@microsoft.com and include your device make and model, session ID and quote the error message above.
+
+Get session ID from the sign in screen
+
+- On the sign in screen, select the clipboard icon and then select **Copy session ID**.
+
+   > [!div class="mx-imgBorder"]
+   > ![Get a session ID ](media/mobile_session_id.jpg)
 
 ## Error message: This record is unavailable
  If this message appears when a user starts the mobile app, taps the **Home** button, or selects **Dashboards** from the menu, the user likely doesn’t have access to the expected dashboards.  
   
- If you’re an admin, you can avoid users getting this error by making sure all mobile users have access to the sales dashboard:  
+  
+### Admin instructions
+
+If you're an admin, you can avoid users getting this error by making sure all mobile users have access to the sales dashboard:  
   
 1. In the web app, go to **Settings > Customizations > Customize the System**.  
   
-2. Click **Dashboards**.  
+2. Select **Dashboards**.  
   
 3. Select **Sales Dashboard**.  
   
-4. Click **Enable Security Roles**.  
+4. Select **Enable Security Roles**.  
   
 5. Select **Display to everyone** and then click **OK**. If you prefer to display only to select security roles, be sure to select your user’s security role.  
   
-6. Click **Publish**.  
+6. Select **Publish**.  
   
 7. Have your user close and open the mobile app so your dashboard changes will download.  
   
-   If you’re an end user and you’re seeing this message on your home page, you can choose a different dashboard and set it as your home page:  
+### End-user instructions
+   
+#### If you’re an end user and you’re seeing this message on your home page, **This record is unavailable**. You can choose a different dashboard and set it as your home page:  
   
-8. From the mobile app, tap the menu and then tap **Dashboards**.  
+1. From the mobile app, tap the menu and then select **Dashboards**.  
   
-9. On the command bar, tap **Select Dashboard** and then select the dashboard you would like to use as your home page.  
+2. On the command bar, select **Select Dashboard** and then select the dashboard you would like to use as your home page.  
   
-10. On the command bar, tap **Set as Home**.  
+3. On the command bar, select **Set as Home**.  
   
-    If you’re an end user and you’re seeing this message on the dashboards page, you can create a personal dashboard through the web app and enable it for mobile:  
+
+#### If you’re an end user and you’re seeing this message on the dashboards page, **This record is unavailable**. You can create a personal dashboard through the web app and enable it for mobile:  
   
-11. In the web app, go to **Sales > Dashboards**.  
+1. In the web app, go to **Sales > Dashboards**.  
   
-12. Click **New**.  
+2. Select **New**.  
   
-13. Click **Properties**.  
+3. Select **Properties**.  
+
+4. Enter a name for your dashboard and select **Enable for mobile**.  
   
-14. Enter a name for your dashboard and select **Enable for mobile**.  
+5. Add the components you want on your dashboard and select **Save**.  
   
-15. Add the components you want on your dashboard and click **Save**.  
-  
-16. In the mobile app, follow the previous procedure to select your new dashboard and set it as your home page.  
+6. In the mobile app, follow the previous procedure to select your new dashboard and set it as your home page.  
   
 ## Error message: Your server is not available or does not support this application  
  **Cause 1**: The Dynamics 365 server is down. Verify that the server is on and connected to your network.  
