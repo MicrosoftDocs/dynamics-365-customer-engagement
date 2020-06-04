@@ -4,7 +4,7 @@ description: "Learn about the known issues and limitations in Omnichannel for Cu
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/05/2020
+ms.date: 05/19/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -18,6 +18,14 @@ The topic explains the known issues and limitations of Omnichannel for Customer 
 
 > [!Important]
 > We recommend updating Omnichannel for Customer Service to the latest versions for the best experience. More information: [Upgrade Omnichannel for Customer Service](administrator/upgrade-omnichannel.md)
+
+## Cases are routed to agents with higher skill rating value even when agents with exact skill rating value are available
+
+When skill-based routing is configured, cases will be routed to agents who have a higher rating on skills even when agents with exact match are available. This known issue occurs only when exact match is configured with minimum rating value model.
+
+### Workaround
+
+As a workaround, decrease the minimum rating value of the rating model by at least one (1).
 
 ## Productivity pane is disabled after the upgrade of Omnichannel for Customer Service
 
@@ -129,10 +137,6 @@ To work-around the issue, follow these steps:
 8. Select the **Open Conversation from Omnichannel Agent Dashboard** action call and select **Add**, and then select **Save** to save the event.
 
 Now, if you open the conversation (work item) from the Omnichannel agent dashboard, the conversation opens as a session or as a form in the application management toolbar.
-
-## Agents receive delayed notification when the chat ends
-
-A customer ends the chat by selecting the Close (**X**) button on the chat widget. After the customer closes the chat, there's a delay before the agent receives the notification of the customer ending the conversation.
 
 ## Context variable duplication and delete dependency check
 

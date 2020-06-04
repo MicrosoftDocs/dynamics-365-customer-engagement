@@ -6,7 +6,7 @@
 ### [Introduction](introduction-omnichannel.md)
 ### [Try channels in Omnichannel for Customer Service](try-channels.md)
 ### [Chat for Dynamics 365 Customer Service demo data](chat-dynamics365-customer-service-demo-data.md)
-### [Prerequisites and system requirements](system-requirements-omnichannel.md)
+### [System requirements](system-requirements-omnichannel.md)
 ### [Assign roles and enable users](administrator/add-users-assign-roles.md)
 ### [Quickly configure a chat widget](administrator/configure-live-chat.md)
 ### [Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)
@@ -266,6 +266,8 @@
 ##### [Implement custom scenario](developer/how-to/smart-assist-scenario.md)
 #### [Bring your own channel](developer/how-to/bring-your-own-channel.md)
 #### [Customize chat widget](developer/how-to/customize-chat-widget.md)
+#### [Enable third-party co-browse](developer/how-to/third-party-co-browse.md)
+### [Live chat widget telemetry](developer/live-chat-telemetry.md)
 ### Entity reference
 #### [Overview](developer/reference/entities/overview.md)
 #### [Deprecated entities](developer/reference/entities/deprecated-entities.md)

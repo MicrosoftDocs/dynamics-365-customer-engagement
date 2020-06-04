@@ -95,6 +95,7 @@
 ## [Device and app management with Microsoft Intune](field-service-mobile-intune.md)
 ## [Geofencing](geofencing.md)
 ## [Deep linking](mobile-deeplink.md)
+## [Field Service (Dynamics 365) mobile app](mobile-2020-power-platform.md)
 ## FAQs + troubleshooting
 ### [Frequently asked questions](mobile-faq.md)
 ### Troubleshooting topics
@@ -151,6 +152,7 @@
 #### [2 - Associate devices with customer accounts](cfs-iot-central-associate-devices.md)
 #### [3 - Send work order updates to Azure IoT Central](cfs-iot-central-work-orders.md)
 #### [4 - Send booking updates to Azure IoT Central](cfs-iot-central-bookings.md)
+### [Receive IoT alerts from real MXChip device](cfs-iotcentral-mxchip.md)
 ## Connected Field Service for Azure IoT Hub
 ### [Overview](developer/connected-field-service-developer-guide.md)
 ### [Architecture](developer/connected-field-service-architecture.md)

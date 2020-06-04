@@ -2,7 +2,7 @@
 title: "Integrate Dynamics 365 Marketing with forms published on an external website (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to publish a form on an external site and capture the submissions in Dynamics 365 Marketing"
 keywords: marketing form, embed
-ms.date: 05/01/2020
+ms.date: 05/11/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -143,15 +143,21 @@ To set up a form capture:
 
 1. **Enter the form location**: Enter the URL of the third-party page where the form capture wizard will check if there is a valid tracking script inserted. Your webpage will open in a new tab where the wizard will continuously check for tracking scripts. This enables the wizard to detect dynamically injected scripts. You should leave this tab open until you are finished capturing your form.
 
+    ![Enter the form location](media/embed-forms-location.png "Enter the form location")
+
 1. Click the button in the new tab to proceed to the next steps in the form capture wizard.
 
 1. **Check for a tracking script**: If this is your first time capturing this form and you need to generate a script for your website, click on the **I need a new script** button. This will create a website entity, which you can access in the **Marketing websites** section and rename later. If you already have a script, use the dropdown list to find your script for the form’s web page.
+
+    ![Check for the tracking script](media/embed-forms-check-script.png "Check for the tracking script")
 
     > [!NOTE]
     > Go to **Marketing** > **Internet Marketing** > **Marketing websites** to view your website entity records created via the wizard. Each of the website records listed here (if any) provide a website-tracking and a form-capture code for a specific website or sub-site.
 
 1. **Place the script into your webpage**: Copy the tracking script and place it at the top of your webpage HTML code, or share it with your  developer to do so. In third-party pages, this is done via inserting embedded HTML codes.
 After adding the script to your webpage, refresh the tab that contains your web page so that the update is visible to form capture wizard.
+
+    ![Copy the tracking script](media/embed-forms-copy-script.png "Copy the tracking script")
 
 1. **Choose the form**: Once you refresh the webpage, you will see all available forms. You can select the form you'd like to capture.
 

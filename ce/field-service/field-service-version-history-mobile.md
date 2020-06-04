@@ -2,7 +2,7 @@
 title: "Field Service Mobile version history | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 04/20/2020
+ms.date: 05/14/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -29,6 +29,22 @@ search.app:
 # Field Service Mobile version history
 
 This article chronicles important updates related to Field Service Mobile and associated mobile project templates.
+
+## 12.1.220
+
+### Updates
+- Enabled capability to launch Remote Assist from iOS.
+- Accessibility enhancements.
+- Mobile reports usability improvement: default to last report type used.
+- Barcode scanner usability improvement: scan multi-part bar codes.
+
+### Bug fixes
+- PDF mobile report format/layout fixes.
+- App crash when adding video to notes on iOS.
+- Improved handing of Auth/Refresh Tokens.
+- Localization fix.
+- Miscellaneous crash fixes for iOS, Android, Windows.
+- App will now not throw an error when opening Work Order Product item from Booking when there is an inactive Product. 
 
 ## 12.1.212
 
@@ -99,6 +115,7 @@ This article chronicles important updates related to Field Service Mobile and as
 
 ## 11.3.107
 
+- Support for Remote Assist deep linking (Android)
 - Fixed saving of offline Booking Signatures
 - Fixed update address button error message
 - Fixed unresponsive iOS buttons
@@ -116,7 +133,7 @@ To learn more about mobile projects, see our topic on [installing the Field Serv
 
 | Download link | Release date | Relates to Field Service Mobile version | Publish to Woodford Version | Minimum Field Service Version |
 | --- | --- | --- | --- | --- |
-| [1.0.4549](https://aka.ms/fsmobile-project)  |  May 2020  |  12.1+ | 12.1+ | 8.8.6.300 | 
+| [1.0.4549](https://aka.ms/fsmobile-project)  |  May 2020  |  12.1+ | 12.1+ | 8.8.14 | 
 
 - Added support for [Time Entry](field-service-time-entry.md) Fields, Forms, and Views.
 - Added font file for PDF Reports.
@@ -132,6 +149,8 @@ To learn more about mobile projects, see our topic on [installing the Field Serv
 | Download link | Release date | Relates to Field Service Mobile version | Publish to Woodford Version | Minimum Field Service Version |
 | --- | --- | --- | --- | --- |
 | [1.0.3482](https://aka.ms/fsmobile-project-3482)  |   November 2019  |  11.3+ | 11.3+ | 8.8.6.300 | 
+
+- Added support Remote Assist deep linking (Android)
 
 ## 1.0.2735
 

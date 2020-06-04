@@ -90,6 +90,7 @@
 ### [Insert an email template](insert-email-template.md)
 ### [Create PDF documents](create-quote-pdf.md)
 ### [Print quote, invoice, or other records](print-records.md)
+### [Assign or share records](/powerapps/user/assign-or-share-records)
 ### [Track and manage activities](manage-activities.md) 
 ### [Work with activities in the Kanban view](activity-kanban-view.md)  
 
@@ -155,6 +156,7 @@
 ### [Troubleshooting forecasts](ts-forecasts.md)
 ### [Troubleshooting the Unified Interface](ts-unified-interface.md)
 ### [Troubleshooting the sales pipeline chart](ts-sales-pipeline.md)
+### [Troubleshooting LinkedIn integration errors](ts-linkedin-integration.md)
 ### [FAQs](faqs-sales.md)
 
 ## Integrations

@@ -1,10 +1,10 @@
 ---
 title: "Intraday insights dashboard for supervisor | MicrosoftDocs"
-description: "Learn about intraday insights dashboard for supervisor"
+description: "Learn about the intraday insights dashboard for supervisors"
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 04/06/2020
+ms.date: 05/22/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -40,9 +40,9 @@ This section of the dashboard consists of the following KPIs.
 
 | KPI | Description |
 |-------|-------|
-| Average wait time per conversation | The average time a conversation is waiting in the queue in open state. |
+| Average wait time per conversation | The average time a closed conversation has spent in the queue before getting assigned to an agent. |
 | Average handle time per conversation | The average time that is taken to complete a conversation. The KPI is calculated based on the conversations handled in the last 24 hours. |
-| Conversations exceeding 5 min wait time | The number of conversations that are in active state and exceeded the time in queue threshold of five minutes. |
+| Conversations exceeding 5 min wait time | The number of conversations that are in an open state and have exceeded the time in the queue threshold of 5 minutes. |
 | Conversations exceeding 5 min handle time | The number of active conversations that are exceeding the handle time threshold of five minutes. |
 | Conversation state | The distribution of conversations across open, active, waiting, wrap up, and closed state. |
 | Open conversations | The distribution of open conversations in pick mode and push mode respectively. |

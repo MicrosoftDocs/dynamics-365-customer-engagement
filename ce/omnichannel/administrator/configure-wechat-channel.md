@@ -4,7 +4,7 @@ description: "Instructions for configuring a WeChat channel in Omnichannel for C
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/06/2020
+ms.date: 05/11/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -26,7 +26,7 @@ Make sure that the following prerequisites are met:
   > [!NOTE]
   > To enable the WeChat channel in an existing environment, you must upgrade to the latest version of Omnichannel for Customer Service. For information, [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md).
 
-- An active subscription to the WeChat service account exists and is stored as a contact on your phone. You'll initiate WeChat conversations by contacting the subscription account. More information: [WeChat documentation](https://go.microsoft.com/fwlink/p/?linkid=2124569)
+- An active subscription to the WeChat service account or sandbox account (if using sandbox for testing) exists and is stored as a contact on your phone. You'll initiate WeChat conversations by contacting the subscription account. More information: [WeChat documentation](https://go.microsoft.com/fwlink/p/?linkid=2124569)
 
 ## Configure a WeChat channel in Omnichannel
 
@@ -34,11 +34,11 @@ Make sure that the following prerequisites are met:
 
 To integrate a WeChat channel with Omnichannel for Customer Service, get the following details:
 
-- **Original ID:** Original ID in the WeChat Service Account.
-- **Developer ID:** Application ID associated with your WeChat Service Account. 
+- **Original ID:** Original ID in the WeChat service or sandbox account.
+- **Developer ID:** Application ID associated with your WeChat service or sandbox account.
 - **Developer password:** Application secret used for authentication.
 - **Token:** Customer-defined string.
-- **Message encryption key:** Message encryption key in WeChat.
+- **Message encryption key:** Message encryption key in WeChat. If you are using a sandbox WeChat account, use a key of your choice.
   
 ### Create a WeChat channel
 
@@ -50,22 +50,24 @@ To integrate a WeChat channel with Omnichannel for Customer Service, get the fol
 
     - **Name:** Specify a name for the channel.
     - **Owner:** Accept the default owner, or change to specify a different owner.
-    - **Service Account:** Specify the WeChat Service Account number.
+    - **Service Account:** Specify the WeChat service or sandbox account number.
     - **Developer ID (AppID):** Specify the WeChat Developer ID.
     - **Developer password (AppSecret):** Specify the WeChat Developer password.
     - **Token:** Specify the WeChat token.
-    - **Message encryption key (EncodingAESKey):** Specify the WeChat Message encryption key.
+    - **Message encryption key (EncodingAESKey):** Specify the WeChat Message encryption key for service account. If you are configuring a sandbox account, use a key of your choice.
   
 4. In the **Step 2: Work distribution** area, for **Work Stream**, select the out-of-the-box work stream for WeChat. Alternatively, you can create a [work stream](work-streams-introduction.md) for WeChat and associate it with the WeChat channel.
 
 5. Select **Save**. The details are saved, and data is populated in the **Step 3: Callback information** section.
 
-6. Copy the information that's displayed in the **IP whitelist** and **Server address (URL)** boxes.
+6. Copy the information that's displayed in the **IP whitelist** and **Server address (URL)** boxes. This step is required for only WeChat service account.
 
     > [!div class=mx-imgBorder]
     > ![Create a WeChat channel](../media/wechat-channel-config.png "Create a WeChat channel")
 
 ### Configure WeChat details
+
+If you are using the service account of WeChat, perform the following steps:
 
 1. Sign in to your WeChat Service Account, and then paste the IP whitelist and server address, which you copied from Omnichannel Administration in the preceding procedure, in their respective boxes. The IP address of the Omnichannel for Customer Service application is whitelisted in the WeChat firewall. The server address helps establish the connection between WeChat and Omnichannel for Customer Service.
 

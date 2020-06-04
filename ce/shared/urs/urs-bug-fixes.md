@@ -1,3 +1,39 @@
+## 3.12.22.9
+
+- For organizations that have [schedule board preview enabled](https://aka.ms/scheduleboard), the schedule board preview can be accessed from **Field Service** application sitemap along with **Universal Resource Scheduling** application sitemap. 
+- Fixed an issue where Booking Tooltip blinks when the height of the Tooltip is greater than the height of the visible center Gantt area where Bookings are displayed on the Schedule Board. With this fix, the tooltip would not blink and User would be able to click on the hyperlinks on the Tooltip to open the respective record in a new window. 
+- Fixed the issue where [Intervals](https://docs.microsoft.com/dynamics365/common-scheduler/fulfillment-preferences#interval-setup) functionality of fulfilment preferences was not working on the Schedule Assistant. 
+- Resolved the issue of duplicated timeslots of the Resources on the List view type of the Days view of the Schedule Board
+- Multiple calls to retrieve data in the List view type of the Days view are reduced to one call, to improve performance on the Schedule Board
+- Fixed the issue where available timeslots of the Resources are displayed differently on Schedule Assistant and the Quick Scheduling pane for the Schedulable entities that do not have an associated Resource Requirement record. 
+- The horizontal and vertical view types are now hidden from the Requirement Group’s Find Availability or Schedule Assistant screen.
+- Fixed the error **The start address and end address cannot be empty**, which is incorrectly thrown on the **Get Driving Directions** functionality on the Schedule Board, due to an uncaught exception. 
+- Advanced Find on the Business Closures entity is now supported. 
+- When using Schedule Assistant/Fina Availability functionality, the available timeslots should be shown in the same Timezone of the Requirement calendar, however, if a schedulable entity like case doesn't have a Requirement record associated, then the results need to be shown in the Timezone of the CRM user preference.
+- The issue of Resource name truncation in the Days view of the Schedule Board is now fixed. 
+- Fixed the focus shifting issue on the Schedule Board, where Focus is shifted to a previous booking in focus, when Booking Status of the Booking assigned to a Resource at the bottom of the Resource list. With this fix, the focus would stay on the Booking in context. 
+- Fixed a translation issue on Requirement Groups in Japanese, where the name of the Requirement or Subgroups changes from Japanese to English when the record is saved. 
+- Quick Scheduling now supports and handles different date format styles like English (South Africa).  
+- Fixed an issue with the **Allow Overlapping** funtionality on the Bookings. With this fix, when a Booking is marked as **Allow Overlapping** set to yes, Schedule Assistant (Find Availability) will show the above Booking as an available timeslot if the **Allow Overlapping** advanced setting on the filter view is selected. 
+
+## 3.12.21.9
+
+- The following Universal Resource Scheduling 2020 Wave 1 features in GA and Preview planned are included in this release:
+  - Next generation schedule board experience (preview)
+  - Enhanced work hours calendar for resources
+  - Requirement dependency for efficient workflow
+  - Resource scheduling dashboard
+- This release also includes all fixes included in the [3.12.9.76 EA package](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#312976---april-2020-wave-1-early-access).
+- Fixed an issue where the Booking method on Booking panel was not selectable, on the List view of the Days view in Schedule Board. 
+- Fixed a caching issue on the **Get Driving Directions** pop-up functionality of the Schedule Board, where previously cached values were being used for calculating the route. 
+- Resolved the incorrect location displayed for the Booking on the Map view of the Schedule Board, due to the incorrect formatting issue in conversion of the latitude and longitude on the map in languages like German. 
+- Fixed the issue where Bookings of some schedulable entities cannot be moved to a different day in Multi-day views like Days, Weeks views on the Schedule Board. 
+- Fixed the issue where when a Requirement is dragged on to a Crew Resource on Schedule Board, a booking is only created for the Crew Resource and not the underlying active Crew Resources.
+- Fixed an issue where a custom JavaScript is used in the Schedule Board Client extensions to set the default filter values, but the prepopulated default values are only displayed, when the respective filter control is selected. 
+- Fixed an issue where Quick scheduling is used on a Schedulable entity without associated Resource Requirement record, and Search Start and Search End dates are passed as the same day, available timeslots were displayed for three days rather than one passed in day. With the fix, the available will only be displayed for the date passed in. 
+- Fixed an issue where Booking tooltips are not displayed on hover, when network latency is high.  
+- Fixed a Null reference exception for Booking Status metadata checks during the upgrade to improve upgrade experience. 
+
 ## 3.12.5.13
 - Resource location can be displayed on the Map view of the Schedule Board’s Daily view, using the custom entity using the Custom Geo Data settings in the Scheduling Parameters. 
 - Fixed the issue with the action msdyn_SearchResourceAvailability was not taking the ConsiderTravelTime parameter into consideration, while providing the available timeslots.
@@ -340,7 +376,7 @@
 - When launching the schedule assistant from a schedulable entity, the user now lands back on the same form after clicking book and exit.
 - Schedule board no longer shows resource with a capacity greater than 1 as available all day.
 - When booking a requirement group using the schedule assistant, the booking status dropdown now properly filters to the booking statuses for that schedulable entity. To learn more about using different statuses for different schedulable entities, here is a previous blog post. 
-- Issues loading requirement group control in Edge browser.
+- Issues loading requirement group control in the Microsoft Edge browser.
 - When using the schedule assistant to schedule a requirement group for a facility, there is no longer a travel time conflict between the facility and the resources.
 - Double booking option in schedule assistant on daily, weekly, and monthly boards now properly books the resource even if the resource has no remaining capacity.
 - Appointment schedule board settings are now generated properly.
@@ -369,7 +405,7 @@
 - When launching the schedule assistant from a schedulable entity, the user now lands back on the same form after clicking book and exit.
 - Schedule Board no longer shows resource with a capacity greater than 1 as available all day.
 - When booking a requirement group using the schedule assistant, the booking status dropdown now properly filters to the booking statuses for that schedulable entity. To learn more about using different statuses for different schedulable entities, here is a previous blog post. 
-- Issues loading requirement group control in edge browser
+- Issues loading requirement group control in the Microsoft Edge browser
 - When using the schedule assistant to schedule a requirement group for a facility, there is no longer a conflict of travel time between the facility and the resources
 - Double booking option in schedule assistant on daily, weekly, and monthly boards now properly books the resource even if the resource does not have any remaining capacity.
 - Appointment schedule board settings are now generated properly.

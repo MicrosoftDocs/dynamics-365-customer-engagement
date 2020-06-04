@@ -105,8 +105,6 @@ The following software features are required to run the Windows PowerShell cmdle
 
 5.  Set the certificate.
     
-        $STSCertificate = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2 -ArgumentList c:\Personalcertfile.pfx, personal_certfile_password
-        $PFXCertificateBin = $STSCertificate.GetRawCertData()
         $Certificate = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2
         $Certificate.Import(“c:\Personalcertfile.cer”)
         $CERCertificateBin = $Certificate.GetRawCertData()
