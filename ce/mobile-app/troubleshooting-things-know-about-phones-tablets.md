@@ -265,7 +265,7 @@ To work around this issue, make sure that you have an app that is in the same or
 The Dynamics 365 mobile app does not support universal links on iOS and Android app links on Android.
   
 ## Issue still not resolved?  
-If the information provided previously doesn’t resolve your issue, either [Post your issue in the Power App Community](https://powerusers.microsoft.com/t5/Power-Apps-Community/ct-p/PowerApps1) or [Contact Technical Support](../admin/contact-technical-support.md).
+If the information provided previously doesn’t resolve your issue, either [Post your issue in the Power App Community](https://powerusers.microsoft.com/t5/Power-Apps-Community/ct-p/PowerApps1) or [Contact Technical Support](https://powerapps.microsoft.com/support/).
 
  The following are some suggested details to provide:
 
