@@ -47,9 +47,9 @@ If you encounter a problem with the mobile app, you can help Microsoft troublesh
    > ![Get a session ID ](media/mobile_session_id.jpg)
 
 
-## Troubleshoot **We can’t find any apps for your role** error message on Dynamics 365 for phones and tablets.
+## Troubleshoot **We can’t find any apps for your role** error message on the Dynamics 365 mobile app.
 
-When using Dynamics 365 for phones and tablets, you encounter the following message:
+When using the Dynamics 365 mobile app, you encounter the following message:
 
 **We can’t find any apps for your role. To check for recently-added apps, select Refresh.If you can’t find your app, change your search criteria and try again.**
 
@@ -58,7 +58,7 @@ When using Dynamics 365 for phones and tablets, you encounter the following mess
 
 ## Error message: Your device configuration is preventing sign-in
 
-If you receive this message it means that your IT administrator is using Microsoft Intune and requires you to sign-in securely using an authenticator app, but your device configuration is blocking the Dynamics 365 for phones and tablets app from launching the authenticator app installed on your device.
+If you receive this message it means that your IT administrator is using Microsoft Intune and requires you to sign-in securely using an authenticator app, but your device configuration is blocking the Dynamics 365 mobile app from launching the authenticator app installed on your device.
  
 Steps to resolve the issue are device manufacturer-specific and depend which authenticator app you have installed. Microsoft authenticator apps are Authenticator and Company Portal. Your company may also use a third-party authenticator app. If you are unsure, ask your IT administrator which authenticator app you should be using and then follow the instructions below.
 
@@ -73,7 +73,7 @@ For **Huawei** and **Honor** device, do the following:
     > - **Background applications**
 
 2. Under **Manage automatically** for the authenticator app set the toggle switch to **OFF**.
-3. On the **Manage manually** screen ensure that **Secondary launch / Can be launched by other apps** is enabled. This will allow Dynamics 365 for phones and tablets can launch the app.
+3. On the **Manage manually** screen ensure that **Secondary launch / Can be launched by other apps** is enabled. This will allow the Dynamics 365 mobile app to launch the app.
 
 For **Vivo** device, do the following:
 
@@ -185,7 +185,7 @@ If you're an admin, you can avoid users getting this error by making sure all mo
  **Cause**: This error will occur if one of the supported languages is not enabled in Common Data Service or Dynamics 365 Customer Engagement (on-premises). For more information on the supported languages, see [Supported languages for Dynamics 365 for phones and tablets](https://docs.microsoft.com/dynamics365/mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets#supported-languages-for--and-).
   
 ## Error message: The process assigned to this record is unavailable or has been deleted 
- If you receive this message for a record which has a non-deleted process assigned to it, you should manually synchronize Dynamics 365 for phones and tablets app data with Common Data Service or Dynamics 365 Customer Engagement (on-premises) app data. Close the mobile app, reopen it, and then choose to download the latest customizations. This procedure forces the mobile app to check for updated customizations. Recently viewed data while you were connected is cached and synched. Record data like Accounts or Contacts are not synched.
+ If you receive this message for a record which has a non-deleted process assigned to it, you should manually synchronize Dynamics 365 mobile app data with Common Data Service or Dynamics 365 Customer Engagement (on-premises) app data. Close the mobile app, reopen it, and then choose to download the latest customizations. This procedure forces the mobile app to check for updated customizations. Recently viewed data while you were connected is cached and synched. Record data like Accounts or Contacts are not synched.
   
 
 ## Event 10001 messages appear in the Event Log when you run Dynamics 365 for mobile. 
@@ -205,7 +205,7 @@ If you're an admin, you can avoid users getting this error by making sure all mo
  If a user needs to retry signing in, they’ll see “—d” in the web address. They can sign in with the modified URL or reset it to the URL normally used.  
   
  
-## Redirected URLs do not work when you configure Dynamics 365 for phones and tablets
+## Redirected URLs do not work when you configure the Dynamics 365 mobile app
  URLs that redirect, such as [!INCLUDE[pn_iis](../includes/pn-iis.md)] host headers or link-shortening websites such as tinyurl or bitly, do not work when you use the URL in the **Dynamics 365 apps web address** field with Dynamics 365 mobile during configuration.  
   
  For example, an *<https://www.contosocrm.com>* host header for a Dynamics 365 apps online  website URL that is actually *<https://crm.contososerver001.com>*, will not work and will display an error message. To work around this behavior, you must enter the actual web address for the Common Data Service or Dynamics 365 Customer Engagement (on-premises) organization. When this issue occurs and you have enabled logging, the information logged is similar to the following. Notice that the URLs in lines 2 and 3 are different. That difference indicates a redirected URL.  
