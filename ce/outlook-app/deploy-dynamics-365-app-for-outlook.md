@@ -221,9 +221,8 @@ If a user's email is synchronized through [!INCLUDE[cc_server_side_synch](../inc
 
 -   Configure your Dynamics 365 apps server for Internet-facing deployment. See [Configure IFD for Microsoft Dynamics 365 apps](https://technet.microsoft.com/library/dn609803.aspx).  
 
-
 -   If you're connecting to Exchange on-premises, configure the OAuth provider and register client apps. See [Configure Windows Server 2012 R2 for Dynamics 365 apps that use OAuth](https://technet.microsoft.com/library/hh699726.aspx).  
---> 
+
 
 <a name=BKMK_Troubleshoot></a> 
 ## Troubleshooting installation problems  
