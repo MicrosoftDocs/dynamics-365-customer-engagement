@@ -146,15 +146,15 @@ The mobile app has multiple dashboards are available for users. After you set up
   
    Show your users how to set and view the enabled dashboards on their phones or tablets. More information: [User Guide for Dynamics 365 for phones and tablets](dynamics-365-phones-tablets-users-guide.md)  
   
-   You can assign security roles to a dashboard so the dashboard appears only to users with certain security roles. For example, to set who has access to the Sales Dashboard, click **Settings** > **Customizations** > **Customize the System** > **Components** > **Dashboards**, and then select   the **Sales Dashboard**. Then, click **Enable Security Roles**.  
+You can assign security roles to a dashboard so the dashboard appears only to users with certain security roles. For example, to set who has access to the Sales Dashboard.
+
+1. Select **Settings** > **Customizations** > **Customize the System** > **Components** > **Dashboards**.
+2. Select the **Sales Dashboard**, and then select **Enable Security Roles**.  
   
 ### Forms  
- Forms in the Dynamics 365 mobile app are based on the development principle of “Design once and deploy across clients.” 
-
-|                                                                                                                                               |   |                                                                                                                                                                                                               |
-|-----------------------------------------------------------------------------------------------------------------------------------------------|---|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![Sales form in Dynamics 365 apps](media/sales_form.png "Sales form in Dynamics 365 apps")<br /><br /> Sales Lead form in web application | > | ![Sales form in Dynamics 365 for tablets](../admin/media/g-microsoft-crm.png "Sales form in Dynamics 365 for tablets")<br /><br /> Sales Lead form in [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] |
-  
+ Forms in the Dynamics 365 mobile app are based on the development principle of *Design once and deploy across clients*.
+ 
+![Sales form in Dynamics 365 apps](media/sales_form.png "Sales form in Dynamics 365 apps")
   
  Forms in the Dynamics 365 mobile app use the Main form type. The main form is used by all model-driven apps. This form provides a consistent user experience whether someone is using a web browser or the Dynamics 365 mobile app.
   
