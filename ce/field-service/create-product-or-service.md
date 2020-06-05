@@ -2,7 +2,7 @@
 title: "Create products or services for Work Orders | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 05/29/2020
+ms.date: 06/05/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
@@ -282,29 +282,27 @@ Another Field Service setting for inventory is **Use Of Products out of Stock**.
 
 ### Known issues
 
-- **Issue:** Permission error when creating a new product from **Field Service > Settings > Products > Add Product** (in top ribbon)
+- **Issue**: Permission error when creating a new product from **Field Service** > **Settings** > **Products** > **Add Product** (in top ribbon).
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/error-permission-product-publish.png)
+> ![Screenshot of the insufficient permissions error window.](./media/error-permission-product-publish.png)
 
-- **Fix:** Adding Read privileges to the following entities in the image below would allow the user to add and publish products successfully.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/error-permission-opportunities-fix.png)
-
-- **Issue:** Permisiion error when adding product-based line items to Opportunities.
-
+- **Fix**: Adding read privileges to the following entities in the next screenshot allows the user to add and publish products successfully.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/error-permission-opportunities.png)
+> ![Screenshot of the list of security roles.](./media/error-permission-opportunities-fix.png)
 
-- **Fix:** Adding Read privileges to the following entities in the image below would allow the user to add opportunity line items to opportunities within the Field Service solution.
-
+- **Issue**: Permission error when adding product-based line items to opportunities.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/error-permission-opportunities-fix.png)
+> ![Screenshot of the insufficient permissions error window.](./media/error-permission-opportunities.png)
+
+- **Fix:** Adding read privileges to the following entities in the next screenshot allows the user to add opportunity line items to opportunities within the Field Service solution.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the list of security roles.](./media/error-permission-opportunities-fix.png)
   
 ### See also  
- - [Create a price list](../field-service/create-price-list.md)    
- - [Create a warehouse](../field-service/create-warehouse.md)   
 
+ - [Create a price list](../field-service/create-price-list.md)
+ - [Create a warehouse](../field-service/create-warehouse.md)
