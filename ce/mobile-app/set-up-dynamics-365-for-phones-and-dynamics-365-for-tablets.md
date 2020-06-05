@@ -163,10 +163,6 @@ The mobile app has multiple dashboards are available for users. After you set up
 
    > [!div class="mx-imgBorder"] 
    > ![Available on phone](media/uncheck_for_mobile_app.png "Uncheck Available on phone")
-
-  
-<a name="BKMK_PhoneLanguages"></a>   
-
   
   
 <a name="BKMK_PhoneEntities"></a>   
