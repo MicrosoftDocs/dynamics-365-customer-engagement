@@ -30,10 +30,8 @@ Your users can access their data stored in Common Data Service or Dynamics 365 C
   
 - **[!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]**: With the same basic features as [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)], tablet users will appreciate the experience optimized for a larger screen.  
     
-<a name="BKMK_GetStartedTablets"></a>   
-## Get started with [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]  
   
-### Requirements  
+## Requirements  
  For hardware and software requirements for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)], see [Support for Dynamics 365 for phones and Dynamics 365 for tablets](support-phones-tablets.md).  
   
 ### Required privileges  
@@ -58,7 +56,9 @@ This applies to new installations of Common Data Service or Dynamics 365 Custome
 > [!NOTE]
 > Both Common Data Service and Dynamics 365 Customer Engagement (on-premises) include the ability to audit user access. Audit events are logged if a user accesses your Dynamics 365 apps organization through the Dynamics 365 mobile app. However, there is not a new event type that indicates the access was through the mobile app. The audit login events would appear as **User Access via Web**.  
   
- In addition, particularly if you have created a custom security role, validate that these entities have **Read** permission.  
+### Required privileges for custom security roles
+
+In addition, particularly if you have created a custom security role, validate that these entities have **Read** permission.  
   
 1. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
   
@@ -90,18 +90,6 @@ This list identifies all services to which Dynamics 365 for Phones and Tablets t
 | management.azure.com |https |Between version 13.19022.10 and 13.19081.22, used to fetch the list of apps to populate the app list. |
 | api.businessappdiscovery.microsoft.com |https |Starting with version 13.19091.0, used to fetch the list of apps to populate the app list. |
 
-<a name="BKMK_UsersToDo"></a>
-## What users need to do
-
-- [Install Dynamics 365 for tablets and phones](https://docs.microsoft.com//dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets#install-the-app-from-your-devices-app-store)
-- [Learn how to use the app](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide)
- 
-> [!TIP]
->  Be sure to provide users the URL and credentials they need to sign in.  
-  
-<a name="BKMK_AdminToDo"></a>   
-
-## What admins need to do  
   
 ### Security privileges  
  Both Common Data Service and Dynamics 365 Customer Engagement (on-premises) use a security privilege, **Dynamics 365 apps for mobile**, to provides access to [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. This privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams. For more information on how to share apps in Common Data Service, see [Share a model-driven app using Power Apps](https://docs.microsoft.com/powerapps/maker/model-driven-apps/share-model-driven-app).
@@ -110,6 +98,7 @@ This list identifies all services to which Dynamics 365 for Phones and Tablets t
 <a name="BKMK_Configure"></a>   
 ## Configure the Dynamics 365 mobile app 
  
+ - For Common Data Service, see [Create a custom entity](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-create-entity).
  - For Dynamics 365 Customer Engagement (on-premises), see [App making and customization overview](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/customize/overview) 
   
 ### Charts  
@@ -178,7 +167,7 @@ You can assign security roles to a dashboard so the dashboard appears only to us
   
   
 <a name="BKMK_PhoneEntities"></a>   
-## Entities and [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]  
+## Entities enabled for the mobile app
 
  You can enable a limited set of entities for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. To see if an entity is enabled or to enable an entity.
  
@@ -186,7 +175,7 @@ You can assign security roles to a dashboard so the dashboard appears only to us
 2. Expand **Entities** in the left pane.  
 3. Select the entity you want to enable for in the Un (for example, **Account**).  
   
-4. Under **Outlook & Mobile**, select **Enable for mobile offline**. 
+4. Under **Outlook & Mobile**, select **Enable for Unified Client**. 
  
    > [!div class="mx-imgBorder"] 
    > ![Enable mobile entities](media/enable_mobile_entity.png "Enable mobile entities").
