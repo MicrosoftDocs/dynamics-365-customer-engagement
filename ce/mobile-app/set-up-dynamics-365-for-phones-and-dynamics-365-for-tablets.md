@@ -96,7 +96,7 @@ This list identifies all services to which Dynamics 365 for Phones and Tablets t
   
   
 <a name="BKMK_Configure"></a>   
-## Configure the Dynamics 365 mobile app 
+## Configure the mobile app 
  
  - For Common Data Service, see [Create a custom entity](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-create-entity).
  - For Dynamics 365 Customer Engagement (on-premises), see [App making and customization overview](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/customize/overview) 
