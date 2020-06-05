@@ -158,8 +158,21 @@ The mobile app has multiple dashboards are available for users. After you set up
   
  Forms in the Dynamics 365 mobile app use the Main form type. The main form is used by all model-driven apps. This form provides a consistent user experience whether someone is using a web browser or the Dynamics 365 mobile app.
   
- To further simplify forms, you can hide components from appearing in the phone app. You can hide tabs, sections, subgrids, fields, and charts. For example, to hide the Details tab in the Contact form, click **Settings** > **Customizations** > **Customize the System** > **Components** > expand **Entities** > expand the **Contact** entity > **Forms**. Select the **Contact** form, the select **Change Properties** and clear the **Available on phone** check box to hide the Detail tab from appearing on the Contact form for phone users.  
-  
+ To further simplify forms, you can hide components from appearing in the phone app. You can hide tabs, sections, subgrids, fields, and charts. For example, to hide the Details tab in the Contact form.
+ 
+1. Select **Settings** > **Customizations** > **Customize the System** > **Components**.
+2. Expand **Entities** > expand the **Contact** entity > **Forms** and then select the **Contact** form.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Mobile contact form](media/mobile_contact_form.png "Select the Contact form")
+
+3. Select **Change Properties**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Mobile contact form change properties](media/mobile_change_prop.png "Select the Contact form change properties]")
+
+4. Clear the **Available on phone** check box to hide the Detail tab from appearing on the Contact form for phone users.  
+
 
    > [!div class="mx-imgBorder"] 
    > ![Available on phone](media/uncheck_for_mobile_app.png "Uncheck Available on phone")
