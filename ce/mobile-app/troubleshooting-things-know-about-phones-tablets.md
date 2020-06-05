@@ -47,9 +47,9 @@ If you encounter a problem with the mobile app, you can help Microsoft troublesh
    > ![Get a session ID ](media/mobile_session_id.jpg)
 
 
-## Error: We can’t find any apps for your role 
+## Error: Contact your administrator for access to your organizations’s mobile apps
 
-When using the Dynamics 365 mobile app, you encounter the following message:**We can’t find any apps for your role**. 
+When using the Dynamics 365 mobile app, you encounter the following message:**Contact your administrator for access to your organizations’s mobile apps**. 
 
 To check for recently-added apps, select Refresh. If you can’t find your app, change your search criteria and try again.**
 
@@ -137,7 +137,7 @@ If you're an admin, you can avoid users getting this error by making sure all mo
 6. In the mobile app, follow the previous procedure to select your new dashboard and set it as your home page.  
   
 ## Error message: Your server is not available or does not support this application  
- **Cause 1**: The Common Datat Service or Dynamics 365 Customer Engagement (on-premises) server is down. Verify that the server is on and connected to your network.  
+ **Cause 1**: The Common Data Service or Dynamics 365 Customer Engagement (on-premises) server is down. Verify that the server is on and connected to your network.  
  
  **Cause 2**: Your Common Datat Service or Dynamics 365 Customer Engagement (on-premises) app version is not supported. For supported version information, see [What's supported](../mobile-app/support-phones-tablets.md). 
   
@@ -190,8 +190,7 @@ If you're an admin, you can avoid users getting this error by making sure all mo
   
   Verify the source of the messages. If the source is Common Data Service or Dynamics 365 Customer Engagement (on-premises), these events don’t pose a security threat and can be ignored.  
   
-#### By design: “—d” added to URL  
- **For [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] users**  
+## By design: “—d” added to URL  
   
  To improve the reliability of DNS resolutions to Common Data Service or Dynamics 365 Customer Engagement (on-premises) organizations, Dynamics 365 for mobile modifies the organization URL used when signing in. When a user signs in, the Dynamics 365 mobile app adds “—d” (two dashes + d) to the URL. For example, if the organization URL is **<https://contoso.crm.dynamics.com>**, [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] will change the URL to **<https://contoso--d.crm.dynamics.com>**.  
   
@@ -209,9 +208,7 @@ If you're an admin, you can avoid users getting this error by making sure all mo
   
 3.  HTTP Response location: *https://URL_that_the_response_came_from*  
  
-  
-## Users not getting customizations  
- Users will not get customizations made to their apps if there are draft records present. Users should save records as soon as they go online. You should try to restart the app.
+ 
   
 ## Data cached for offline viewing remains after the entity is no longer enabled for Dynamics 365 for mobile
  In  Dynamics 365 for mobile, record data is cached as the user visits the record so the user can access the data when going offline.  
@@ -227,7 +224,7 @@ If you're an admin, you can avoid users getting this error by making sure all mo
   
 - **iPad**: [Force an app to close](https://support.apple.com/kb/ht5137)  
   
-- **Android**: [How to force close Android apps](https://www.tomsguide.com/faq/id-2372153/force-close-android-apps.html)  
+- **Android**: [How to force close Android apps](https://support.google.com/android/answer/9079646?hl=en#close_apps)  
   
 **Cause 2**: You may be seeing a different form than the one you customized. If you have multiple forms for an entity, you will see the first form in the form order that you have access to. This is different than the web application where you see the last form you used and have the ability to change between forms. 
 
