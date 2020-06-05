@@ -106,8 +106,27 @@ This list identifies all services to which Dynamics 365 for Phones and Tablets t
 ### Security privileges  
  Both Common Data Service and Dynamics 365 Customer Engagement (on-premises) use a security privilege, **Dynamics 365 apps for mobile**, to provides access to [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. This privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams. For more information on how to share apps in Common Data Service, see [Share a model-driven app using Power Apps](https://docs.microsoft.com/powerapps/maker/model-driven-apps/share-model-driven-app).
   
-### Enable dashboards for Dynamics 365 for phones and Dynamics 365 for tablet users  
- The mobile app has multiple dashboards are available for users. After you set up standard or custom dashboards for mobile access, users can easily modify which dashboards appear and how they appear on their phones or tablets.  
+  
+<a name="BKMK_Configure"></a>   
+## Configure the Dynamics 365 mobile app 
+ 
+ - For Dynamics 365 Customer Engagement (on-premises), see [App making and customization overview](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/customize/overview) 
+  
+### Charts  
+ All the charts you can create in the Chart Designer, such as Bar, Line, Pie, and Funnel charts, are viewable in [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].  
+  
+ Some more things to note:  
+  
+- Open a chart from the Sales Dashboard to get a page with a chart and the records used to generate the chart.  
+  
+- Choose the chart sections to see the records filtered for that part of the chart.  
+  
+- Charts are not available offline in the Dynamics 365 mobile app.  
+  
+- You can add charts to dashboards and chart pages only. 
+
+### Dashboards
+The mobile app has multiple dashboards are available for users. After you set up standard or custom dashboards for mobile access, users can easily modify which dashboards appear and how they appear on their phones or tablets.  
   
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
@@ -129,138 +148,6 @@ This list identifies all services to which Dynamics 365 for Phones and Tablets t
   
    You can assign security roles to a dashboard so the dashboard appears only to users with certain security roles. For example, to set who has access to the Sales Dashboard, click **Settings** > **Customizations** > **Customize the System** > **Components** > **Dashboards**, and then select   the **Sales Dashboard**. Then, click **Enable Security Roles**.  
   
-### Update the registry on managed mobile devices  
- If your mobile devices are managed under the control of group policy, the following steps describe what you need to do.  
-  
-> [!CAUTION]
->  This task contains steps that tell you how to modify the registry. However, because serious problems may occur if you modify the registry incorrectly, it’s important that you follow these steps carefully. For added protection, back up the registry before you modify it. Then, you can restore the registry if a problem occurs. For more information about how to back up and restore the registry, open the following link to view the article in the Microsoft Knowledge Base: [How to back up and restore the registry in Windows](https://support.microsoft.com/kb/322756).  
-  
-1. If you plan on using group policy to do a domain wide deployment of the registry change and your server is not running [!INCLUDE[pn_windows_server_2012_r2](../includes/pn-windows-server-2012-r2.md)] or later, download and install the [Windows Server Administrative Templates](https://go.microsoft.com/fwlink/p/?LinkId=392790).  
-  
-2. Open the Group Policy Management Editor.  
-  
-3. Select an existing policy or create a new policy.  
-  
-4. Go to **Computer Configuration** > **Policies** > **Administrative Templates** > **Windows Components** > **App runtime** and set **Turn on dynamic Content URI Rules for Windows store apps** to **Enabled**.  
-  
-5. Click **Show**, and then add the URL for your organization. For example, https://orgname.contoso.com.  
-  
-6. Close the group policy editor and save your changes.  
-  
-   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How to update links to external web pages for an enterprise environment](https://go.microsoft.com/fwlink/p/?LinkId=392788) and [Group Policy](https://technet.microsoft.com/windowsserver/bb310732.aspx)  
-  
-### Update the registry on unmanaged mobile devices using a script  
- If your mobile devices are unmanaged, see the following sample [!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] script that shows how to change the registry on each [!INCLUDE[pn_windows_8_1](../includes/pn-windows-8-1.md)] or later device.  
-  
-```powershell  
-  
-# *********************************************************  
-#   
-#    Copyright (c) Microsoft. All rights reserved.  
-#    This code is licensed under the Microsoft Limited Public License.  
-#    THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF  
-#    ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY  
-#    IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR  
-#    PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.  
-#   
-# *********************************************************  
-param([string]$admin)  
-  
-#Force PowerShell to relaunch in Admin mode  
-if($admin -ne 'LaunchingAsAdminNow')   
-{  
-    $Args = '-ExecutionPolicy Unrestricted -file "' + ((Get-Variable MyInvocation).Value.MyCommand.Path) + '" LaunchingAsAdminNow'  
-    $AdminProcess = Start-Process "$PsHome\PowerShell.exe" -Verb RunAs -ArgumentList $Args -PassThru  
-}  
-else  
-{  
-    # Create Packages key if it does not exist  
-    $packages=Get-Item -Path HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Packages -ErrorAction SilentlyContinue  
-    if($packages -eq $null)  
-    { New-Item -Path HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies -Name Packages}  
-  
-    # Create Applications key if it does not exist  
-    $apps=Get-Item -Path HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Packages\Applications -ErrorAction SilentlyContinue  
-    if($apps -eq $null)  
-    { New-Item -Path HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Packages -Name Applications}  
-  
-    # Add or overwrite EnableDynamicContentUriRules value to 1  
-    New-ItemProperty -Path HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Packages\Applications -Name EnableDynamicContentUriRules -PropertyType DWord -Value 1 -force  
-  
-    # Create ContentUriRules key if it does not exist  
-    $rules=Get-Item -Path HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Packages\Applications\ContentUriRules -ErrorAction SilentlyContinue  
-    if($rules -eq $null)  
-    {New-Item -Path HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Packages\Applications -Name ContentUriRules}  
-  
-    # Prompt user for the domain uri  
-    $domainname = Read-Host 'Please provide the domain uri that you want to add to the allow list(such as https://*.contoso.com:444)'  
-  
-    # Add uri to the allow list under ContentUriRules  
-    $urls=Get-Item -Path HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Packages\Applications\ContentUriRules -ErrorAction SilentlyContinue  
-    New-ItemProperty -Path HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Packages\Applications\ContentUriRules -Name ($urls.ValueCount+1) -PropertyType String -Value $domainname -force  
-}  
-  
-```  
-  
-### Update the registry on unmanaged mobile devices using the Registry Editor  
- If your mobile devices are unmanaged, you can also change the registry on each [!INCLUDE[pn_windows_8_1](../includes/pn-windows-8-1.md)] or later device like this:  
-  
-1. Start Registry Editor.  
-  
-2. Before making changes to your registry, make a backup. Click **File** > **Export**, and then enter your settings.  
-  
-3. Locate the following registry subkey: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\policies  
-  
-4. Right-click or tap **policies**, point to **New**, and then click **Key**.  
-  
-5. Type **Packages**, and then press **ENTER**.  
-  
-6. Right-click or tap **Packages**, point to **New**, and then click **Key**.  
-  
-7. Type **Applications**, and then save the text.  
-  
-8. Right-click or tap **Applications**, point to **New**, and then click **DWORD (32-bit) Value**.  
-  
-9. Type `EnableDynamicContentUriRules` and then save the text.  
-  
-10. Right-click or tap **EnableDynamicContentUriRules**, and then click **Modify**.  
-  
-11. Type **1** in the **Value Data** box, and then click **OK**.  
-  
-12. Right-click or tap **Applications**, point to **New**, and then click **Key**.  
-  
-13. Type **ContentUriRules**, and then save the text.  
-  
-14. Right-click or tap **ContentUriRules**, point to **New**, and then click **String Value**.  
-  
-15. Type **1**, and then save the text.  
-  
-16. Right-click or tap **1**, and then click **Modify**.  
-  
-17. Type your Common Data Service environment's or Dynamics 365 Customer Engagement (on-premises) organization's URL in the **Value Data** box (for example, <https://contoso.com>), and then click **OK**.  
-  
-18. Exit Registry Editor.  
-  
-     Now you can point your users to the [!INCLUDE[pn_windows_8_1](../includes/pn-windows-8-1.md)] app, so they can get the added functionality of the offline experience. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install the Dynamics 365 for tablets app](dynamics-365-phones-tablets-users-guide.md)  
-  
-<a name="BKMK_Configure"></a>   
-## Configure the Dynamics 365 mobile app 
- 
- - For Dynamics 365 Customer Engagement (on-premises), see [App making and customization overview](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/customize/overview) 
-  
-### Charts  
- All the charts you can create in the Chart Designer, such as Bar, Line, Pie, and Funnel charts, are viewable in [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].  
-  
- Some more things to note:  
-  
-- Open a chart from the Sales Dashboard to get a page with a chart and the records used to generate the chart.  
-  
-- Choose the chart sections to see the records filtered for that part of the chart.  
-  
-- Charts are not available offline in the Dynamics 365 mobile app.  
-  
-- You can add charts to dashboards and chart pages only.  
-  
 ### Forms  
  Forms in the Dynamics 365 mobile app are based on the development principle of “Design once and deploy across clients.” 
 
@@ -279,95 +166,7 @@ else
 
   
 <a name="BKMK_PhoneLanguages"></a>   
-## Supported languages for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] 
 
-When the application first loads after installation, it will determine the device language and load the user interface in that language.  Once you sign in and launched an app, the language will be selected based on your personal options or the base language in Common Data Service or Dynamics 365 Customer Engagement (on-premises). If a language is not supported, the user experience will be shown in English. 
-
- [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] support the following languages:  
-  
-- Basque (Basque) - 1069  
-  
-- Bulgarian (Bulgaria) - 1026  
-  
-- Catalan (Catalan) - 1027  
-  
-- Chinese (Hong Kong S.A.R.) - 3076  
-  
-- Chinese (People's Republic of China) - 2052  
-  
-- Chinese (Simplified) - 2052  
-  
-- Chinese (Taiwan) - 1028  
-  
-- Chinese (Traditional) - 1028  
-  
-- Croatian (Croatia) - 1050  
-  
-- Czech (Czech Republic) - 1029  
-  
-- Danish - 1030  
-  
-- Dutch - 1043  
-  
-- English - 1033  
-  
-- Estonian - 1061  
-  
-- Finnish - 1035  
-  
-- French - 1036  
-  
-- Galician  
-  
-- German - 1031  
-  
-- Greek - 30  
-  
-- Hindi (India) - 91  
-  
-- Hungarian - 36  
-  
-- Indonesian - 62  
-  
-- Italian - 1040  
-  
-- Japanese - 1041  
-  
-- Kazakh - 705  
-  
-- Korean - 82  
-  
-- Latvian - 371  
-  
-- Lithuanian - 370  
-  
-- Norwegian - 47  
-  
-- Polish - 48  
-  
-- Portuguese (Brazil) - 55  
-  
-- Portuguese (Portugal) - 2070  
-  
-- Romanian - 40  
-  
-- Russian - 7  
-  
-- Serbian  
-  
-- Slovak - 421  
-  
-- Slovenian - 386  
-  
-- Spanish - 3082  
-  
-- Swedish - 46  
-  
-- Thai - 66  
-  
-- Turkish - 90  
-  
-- Ukrainian - 380  
   
   
 <a name="BKMK_PhoneEntities"></a>   
