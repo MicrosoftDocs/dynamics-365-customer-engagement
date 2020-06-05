@@ -167,9 +167,9 @@ You can assign security roles to a dashboard so the dashboard appears only to us
   
   
 <a name="BKMK_PhoneEntities"></a>   
-## Entities enabled for the mobile app
+## Enable entities for the mobile app
 
- You can enable a limited set of entities for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. To see if an entity is enabled or to enable an entity.
+ You can enable a limited set of entities for the mobile app. To see if an entity is enabled or to enable an entity.
  
 1. Go to **Settings** > **Customizations** > **Customize the System**. 
 2. Expand **Entities** in the left pane.  
