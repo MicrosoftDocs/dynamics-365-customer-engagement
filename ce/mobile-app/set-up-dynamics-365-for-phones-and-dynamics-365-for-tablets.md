@@ -135,7 +135,7 @@ The mobile app has multiple dashboards are available for users. After you set up
   
    Show your users how to set and view the enabled dashboards on their phones or tablets. More information: [User Guide for Dynamics 365 for phones and tablets](dynamics-365-phones-tablets-users-guide.md)  
   
-You can assign security roles to a dashboard so the dashboard appears only to users with certain security roles. For example, to set who has access to the Sales Dashboard.
+You can assign security roles to a dashboard, so the dashboard appears only to users with certain security roles. For example, to set who has access to the Sales Dashboard.
 
 1. Select **Settings** > **Customizations** > **Customize the System** > **Components** > **Dashboards**.
 2. Select the **Sales Dashboard**, and then select **Enable Security Roles**.  
@@ -238,7 +238,7 @@ Things to note:
   
 - **Cached data**. [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] only cache records and lists that you’ve recently accessed in the app. To clear cached data, users can either sign out or reconfigure.
 
-- **Encrypting cached data**. By default data are not encrypted but can be encrypted through several mechanisms:
+- **Encrypting cached data**. By default, data are not encrypted but can be encrypted through several mechanisms:
 
   - You can use Intune's MDM capabilities to enforce device wide encryption. 
   - The mobile application also implements and enforces Intune's application policies. This allows you to encrypt data at the application level.  
