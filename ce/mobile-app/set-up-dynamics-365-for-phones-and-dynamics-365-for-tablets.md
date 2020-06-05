@@ -186,7 +186,7 @@ Things to note:
   
 - You can use the Lookup for entities that are not enabled for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] from a record that is enabled and see the data. However, you won’t be able to edit the entity.  
   
-  **Entities that are visible and read/write in [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]**  
+  **Entities that are visible and read/write in the mobile app**  
   
 |Entity Name| Visibility Property| Read-only Property|  
 |-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
@@ -208,7 +208,7 @@ Things to note:
 |Social Profile|Modifiable|Modifiable|  
 |Task|Modifiable|Modifiable|  
   
- **Entities that are visible and read-only in [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]**  
+ **Entities that are visible and read-only in the mobile app**  
   
 |Entity Name| Visibility Property| Read-only Property|  
 |-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
@@ -226,11 +226,12 @@ Things to note:
 |Web Resource|Not modifiable|Not modifiable|  
   
 <a name="BKMK_PhoneAuth"></a>   
-## Authentication and [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]  
+## Authentication 
+
  [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] authenticate users with browser-based authentication, which means no credentials are stored on the phone.  
     
 <a name="BKMK_SecuringData"></a>   
-## Considerations and best practices for securing Dynamics 365 apps data on [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]  
+## Considerations and best practices for securing Dynamics 365 apps data on the mobile app
  Consider the following when planning security for [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]:  
   
 - **Data transmission**. [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] requires an [!INCLUDE[pn_Internet_facing_deployment](../includes/pn-internet-facing-deployment.md)], so when your organization’s mobile devices synchronize Dynamics 365 apps data with your Common Data Service environment or Dynamics 365 Customer Engagement (on-premises) organization, the data is encrypted with [!INCLUDE[pn_Secure_Sockets_Layer](../includes/pn-secure-sockets-layer.md)].  
