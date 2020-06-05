@@ -4,7 +4,7 @@ description: "Learn about the Omnichannel for Customer Service agent interface i
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/04/2020
+ms.date: 06/05/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -97,8 +97,8 @@ Out of the box, you see the following presence statuses:
   - Busy
   - Available
   - Do Not Disturb
- 
-  Also, you may see any other additional presence statuses that your administrator configured for you.
+
+Also, you may see any other additional presence statuses that your administrator configured for you.
 
 - **Automatically** - The status is set automatically based on the work item assignment. That is, when a conversation (work item) is assigned to you, the status is updated based on the capacity.
 
@@ -123,11 +123,11 @@ The application management toolbar lets you see all the related information for 
 > [!div class="nextstepaction"]
 > [Next topic: View agent dashboard and agent work items](introduction-agent-dashboard.md)
 
-## See also
+### See also
 
-- [Sign in to Unified Service Desk – Omnichannel for Customer Service](signin-unified-service-desk-omnichannel.md)
-- [View alert and toast notifications](notifications.md)
-- [View customer summary and know everything about customers](customer-summary.md)
-- [View communication panel](left-control-panel.md)
-- [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
-- [View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)
+[Sign in to Unified Service Desk – Omnichannel for Customer Service](signin-unified-service-desk-omnichannel.md)  
+[View alert and toast notifications](notifications.md)  
+[View customer summary and know everything about customers](customer-summary.md)  
+[View communication panel](left-control-panel.md)  
+[View call scripts, take notes, and search knowledge articles](right-control-panel.md)  
+[View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)
