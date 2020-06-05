@@ -231,7 +231,7 @@ Things to note:
  [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] authenticate users with browser-based authentication, which means no credentials are stored on the phone.  
     
 <a name="BKMK_SecuringData"></a>   
-## Considerations and best practices for securing Dynamics 365 apps data on the mobile app
+## Best practices for securing app data on the mobile app
  Consider the following when planning security for [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]:  
   
 - **Data transmission**. [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] requires an [!INCLUDE[pn_Internet_facing_deployment](../includes/pn-internet-facing-deployment.md)], so when your organization’s mobile devices synchronize Dynamics 365 apps data with your Common Data Service environment or Dynamics 365 Customer Engagement (on-premises) organization, the data is encrypted with [!INCLUDE[pn_Secure_Sockets_Layer](../includes/pn-secure-sockets-layer.md)].  
