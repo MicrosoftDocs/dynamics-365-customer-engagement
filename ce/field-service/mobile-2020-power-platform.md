@@ -255,7 +255,7 @@ Add and delete booking fields as needed.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Power Apps showing the form editor for the Bookable Resource Booking.](./media/mobile-2020-admin-booking-form-combined-add-fields.png)
 
-Another option to add work order information to the booking form is to add a [quick view form](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/customize/create-edit-quick-view-forms) that displays work order fields. Note that quick view forms are not editable (read only) but you can navigate to the related work order form from them. 
+Another way you can add work order information to the booking form is to add a [quick view form](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-view-forms) that displays work order fields. Note that quick view forms are read-only, but you can go to the related work order form from there. 
 
 ### Configure offline data and sync filters
 
