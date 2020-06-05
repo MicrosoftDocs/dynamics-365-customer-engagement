@@ -172,13 +172,7 @@ If you're an admin, you can avoid users getting this error by making sure all mo
   `at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)`   
   `at Microsoft.Crm.Application.WebServices.ApplicationMetadataService.UserRolesChanged(Guid[] clientUserRoles, DateTime syncTime, ExecutionContext context)`   
  `at Microsoft.Crm.Application.WebServices.ApplicationMetadataService.RetrieveUserContext(UserContextRetrieveRequest userContextRetrieveRequest)`  
-  
- **Cause 3**: This can occur if the download of the metadata failed. The next attempt to connect will fully regenerate the metadata and successfully connect. Microsoft is aware of an issue where metadata may fail to download due to a timeout and plans to address this issue in a future update.  
-  
- **Sample Trace Messages for Cause 3**:  
-  
- `“Error occurred during complete refresh of Application/Entity/Attribute metadata”`   
- `“XMLHttpRequest: Network Error 0x2ef3, Could not complete the operation due to error 00002ef3.”`  
+ 
   
 ## Error message: The language installed on your company’s system isn’t available on the app. Please contact your system administrator to set up a supported language
  **Cause**: This error will occur if one of the supported languages is not enabled in Common Data Service or Dynamics 365 Customer Engagement (on-premises). For more information on the supported languages, see [Supported languages for Dynamics 365 for phones and tablets](https://docs.microsoft.com/dynamics365/mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets#supported-languages-for--and-).
@@ -229,7 +223,7 @@ If you're an admin, you can avoid users getting this error by making sure all mo
 ## Customization changes do not appear in the mobile app
  **Cause 1**: The customizations (metadata) from Common Data Service or Dynamics 365 Customer Engagement (on-premises) organization are cached on your device. The app checks for updated metadata after 24 hours or any time you reopen the app. For customization changes to become available immediately, you must completely close and then reopen the app. If new metadata is found, you will be prompted to download it. For more information on how to completely close an app, refer to the help for your operating system or reference one of the articles provided:  
   
-- **Windows 8**: [How do I close an app?](https://go.microsoft.com/fwlink/p/?LinkId=513271)  
+- **Windows 10**: [How do I close an app?](https://support.microsoft.com/help/4027154/windows-close-an-app-in-windows-10)  
   
 - **iPad**: [Force an app to close](https://support.apple.com/kb/ht5137)  
   
