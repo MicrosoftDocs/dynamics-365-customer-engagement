@@ -145,7 +145,7 @@ If you're an admin, you can avoid users getting this error by making sure all mo
   
   
 ## Error message: You haven't been authorized to use this app. Check with your system administrator to update your settings
- **Cause 1**: Verify that your security role includes the **Use [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]** privilege. See "Required privileges" in [Get started with Dynamics 365 for phones and Dynamics 365 for tablets](set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md#BKMK_GetStartedTablets).  
+ **Cause 1**: Verify that your security role includes the **Use [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]** privilege. See "Required privileges" in [Get started with Dynamics 365 for phones and Dynamics 365 for tablets](https://docs.microsoft.com/en-us/dynamics365/mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets?#requirements).  
   
  **Cause 2**: This error can occur if you have a Common Data Service or Dynamics 365 Customer Engagement (on-premises) organization and your user has not been assigned a license for the organization. If you add a Common Data Service or Dynamics 365 Customer Engagement (on-premises) subscription to an existing [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] tenant, your user may not have a  license assigned. 
  
@@ -159,7 +159,7 @@ If you're an admin, you can avoid users getting this error by making sure all mo
   
   
 ## Error message: Sorry, something went wrong while initializing the app. Please try again, or restart the app  
- **Cause 1**: Permissions might not be set properly. See "Required privileges" in [Get started with Dynamics 365 for phones and Dynamics 365 for tablets](set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md#BKMK_GetStartedTablets).  
+ **Cause 1**: Permissions might not be set properly. See "Required privileges" in [Get started with Dynamics 365 for phones and Dynamics 365 for tablets](https://docs.microsoft.com/en-us/dynamics365/mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets?#requirements)).  
   
  **Cause 2**: See the following KB article:  
   
