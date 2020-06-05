@@ -455,8 +455,8 @@ Things to note:
 -   Disabled for the organization, users must use the command bar and click **Save** to save form changes.
 
 ### Images
- Images, such as contact photos, are not stored in the browser cache. Images may not be displayed when users work offline with [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].
-
+ The mobile app honors the server's caching policies and won't store the content locally unless it's permitted to do so by the server.
+ 
 <a name="BKMK_Privacy"></a>
 ## Privacy notice
  [!INCLUDE[cc_privacy_crm_for_tablets](../includes/cc-privacy-crm-for-tablets.md)]
