@@ -153,7 +153,7 @@ The mobile app has multiple dashboards are available for users. After you set up
 
 |                                                                                                                                               |   |                                                                                                                                                                                                               |
 |-----------------------------------------------------------------------------------------------------------------------------------------------|---|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![Sales form in Dynamics 365 apps](../admin/media/e-microsoft-crm.png "Sales form in Dynamics 365 apps")<br /><br /> Sales Lead form in web application | > | ![Sales form in Dynamics 365 for tablets](../admin/media/g-microsoft-crm.png "Sales form in Dynamics 365 for tablets")<br /><br /> Sales Lead form in [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] |
+| ![Sales form in Dynamics 365 apps](media/sales_form.png "Sales form in Dynamics 365 apps")<br /><br /> Sales Lead form in web application | > | ![Sales form in Dynamics 365 for tablets](../admin/media/g-microsoft-crm.png "Sales form in Dynamics 365 for tablets")<br /><br /> Sales Lead form in [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] |
   
   
  Forms in the Dynamics 365 mobile app use the Main form type. The main form is used by all model-driven apps. This form provides a consistent user experience whether someone is using a web browser or the Dynamics 365 mobile app.
@@ -172,7 +172,6 @@ The mobile app has multiple dashboards are available for users. After you set up
    > ![Mobile contact form change properties](media/mobile_change_prop.png "Select the Contact form change properties]")
 
 4. Clear the **Available on phone** check box to hide the Detail tab from appearing on the Contact form for phone users.  
-
 
    > [!div class="mx-imgBorder"] 
    > ![Available on phone](media/uncheck_for_mobile_app.png "Uncheck Available on phone")
