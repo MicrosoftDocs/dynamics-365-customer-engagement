@@ -80,7 +80,7 @@ This applies to new installations of Common Data Service or Dynamics 365 Custome
 
    -   User Settings
 
-5. Click **Save and Close** to save the changes to the security role.
+5. Select **Save and Close** to save the changes to the security role.
 
 ### Required services
 This list identifies all services to which Dynamics 365 for Phones and Tablets talks and their usages. Your network must **not** block these services.
@@ -259,13 +259,16 @@ Things to note:
 ## Other features
 
 ### Save
- Records are saved in [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] based on how you configured autosave in your organization settings. To view your save settings, click **Settings** > **Administration** > **System Settings** > **General** tab. View the settings under **Select the default save option for forms**.
+ Records are saved in [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] based on how you configured autosave in your organization settings. 
+ 
+1. To view your save settings, select **Settings** > **Administration** > **System Settings**.
+2. On the **General** tab and view the settings under **Select the default save option for forms**.
 
  If autosave is:
 
 -   Enabled for the organization, changes to forms are saved when users leave forms.
 
--   Disabled for the organization, users must use the command bar and click **Save** to save form changes.
+-   Disabled for the organization, users must use the command bar and select **Save** to save form changes.
 
 ### Images
  The mobile app honors the server's caching policies and won't store the content locally unless it's permitted to do so by the server.
