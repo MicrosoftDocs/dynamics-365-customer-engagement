@@ -47,10 +47,10 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 | | <i>South Africa</i> |[3.10.31.29](whats-new-ur-20.md)|  TBD | June 26, 2020
 | | <i>Germany</i> |[3.10.31.29](whats-new-ur-20.md)| TBD | June 26, 2020
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> |[3.10.30.41](whats-new-ur-19.md)| [3.10.31.29](whats-new-ur-20.md) | June 5, 2020 
-| | <i>Asia Pacific</i> |[3.10.30.41](whats-new-ur-19.md)| [3.10.31.29](whats-new-ur-20.md) |  June 5, 2020
-| | <i>Great Britain</i> |[3.10.30.41](whats-new-ur-19.md)| [3.10.31.29](whats-new-ur-20.md) |  June 5, 2020
-| | <i>Oceana</i> |[3.10.30.41](whats-new-ur-19.md)| [3.10.31.29](whats-new-ur-20.md) |  June 5, 2020
+| | <i>Japan</i> |[3.10.31.29](whats-new-ur-20.md)| TBD | July 3, 2020 
+| | <i>Asia Pacific</i> |[3.10.31.29](whats-new-ur-20.md)| TBD |  July 3, 2020
+| | <i>Great Britain</i> |[3.10.31.29](whats-new-ur-20.md)| TBD |  July 3, 2020
+| | <i>Oceana</i> |[3.10.31.29](whats-new-ur-20.md)| TBD |  July 3, 2020
 |<strong>Station 4</strong> | |  |  | |
 | | <i>Europe</i> | [3.10.30.41](whats-new-ur-19.md)| [3.10.31.29](whats-new-ur-20.md) | June 12, 2020
 |<strong>Station 5</strong> | |  |  | |
