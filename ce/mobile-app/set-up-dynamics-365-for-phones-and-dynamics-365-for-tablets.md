@@ -180,7 +180,13 @@ You can assign security roles to a dashboard so the dashboard appears only to us
 <a name="BKMK_PhoneEntities"></a>   
 ## Entities and [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]  
 
- You can enable a limited set of entities for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. To see if an entity is enabled or to enable an entity, click **Settings** > **Customizations** > **Customize the System** > **Entities**. Select an entity and scroll down and review the **Outlook & Mobile** settings.  
+ You can enable a limited set of entities for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. To see if an entity is enabled or to enable an entity.
+ 
+1. Go to **Settings** > **Customizations** > **Customize the System**. 
+2. Expand **Entities** in the left pane.  
+3. Select the entity you want to enable for in the Un (for example, **Account**).  
+  
+4. Under **Outlook & Mobile**, select **Enable for mobile offline**. 
  
    > [!div class="mx-imgBorder"] 
    > ![Enable mobile entities](media/enable_mobile_entity.png "Enable mobile entities").
