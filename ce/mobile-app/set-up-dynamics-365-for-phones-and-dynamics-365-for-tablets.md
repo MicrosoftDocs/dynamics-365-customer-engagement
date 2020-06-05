@@ -62,7 +62,7 @@ This applies to new installations of Common Data Service or Dynamics 365 Custome
   
 1. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
   
-2. Click **Security Roles**.  
+2. Select **Security Roles**.  
   
 3. Choose a security role > **Customization** tab. Verify that the **Read** permission is set for the following entities:   
   
