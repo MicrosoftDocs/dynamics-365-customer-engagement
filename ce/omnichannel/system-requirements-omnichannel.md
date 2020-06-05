@@ -6,7 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 applies_to: 
   - ""
-ms.date: 05/26/2020
+ms.date: 05/28/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -28,7 +28,7 @@ You can deploy Omnichannel for Customer Service over a Customer Service applicat
 
 ## Prerequisites
 
-This section explains the prerequisites for using Omnichannel for Customer Service.
+This section lists the prerequisites for using Omnichannel for Customer Service.
 
 ### Availability
 
@@ -36,16 +36,16 @@ To find out if Omnichannel for Customer Service is available in your region, see
 
 ### Licensing
 
-- You must have an active subscription to Microsoft Dynamics 365 Customer Service Enterprise in your tenant for each Digital Messaging or Chat user.
-- You must have an active subscription to the Dynamics 365 Customer Service Digital Messaging add-on for each Digital Messaging user or Dynamics 365 Customer Service Chat for each Chat user.
+- You must have an active subscription to Microsoft Dynamics 365 Customer Service Enterprise in your tenant for each user of Digital Messaging or Chat Add-in for Microsoft Dynamics 365 Customer Service.
+- You must have an active subscription to the Dynamics 365 Customer Service Digital Messaging add-on for each Digital Messaging user or Chat for Dynamics 365 Customer Service for each Chat user.
 - Use of historical Supervisor reporting through **Omnichannel Intraday Insights**, **Omnichannel Chat Insights**, and **Omnichannel Sentiment Insights Dashboards** also requires Power BI Pro license or higher for each individual in a Supervisor role.
 
 ## System and hardware requirements of Omnichannel for Customer Service with web experience
 
-| Area | Requirements | 
+| Area | Requirements |
 |----------|----------|
 | Model-driven app | Dynamics 365 Customer Service app version 9.1.0000.3653 or higher  |
-| Web browsers | Supported browsers: <li> Microsoft Edge version 79.0.309.65 ([Chromium-based Edge](https://support.microsoft.com/en-us/help/4501095/download-the-new-microsoft-edge-based-on-chromium)) </li><li>Google Chrome</li> |
+| Web browsers | Supported browsers:<li> Microsoft Edge (Legacy version)<li> Microsoft Edge ([Chromium based](https://support.microsoft.com/en-us/help/4501095/download-the-new-microsoft-edge-based-on-chromium) is recommended); version 79.0.309.65 or later is required for the desktop notifications feature </li> <li> Google Chrome </li> |
 
 For hardware and other requirements, see [Model-driven app requirements](../admin/online-requirements.md).
 
@@ -53,15 +53,15 @@ For hardware and other requirements, see [Model-driven app requirements](../admi
 
 You will need the following to use Omnichannel for Customer Service with Unified Service Desk:
 
-| Area | Requirements | 
-|----------|----------|
-| Desktop application | Unified Service Desk 4.1.1.1253 or higher <br><br>More information: [Download Unified Service Desk](administrator/omnichannel-customer-service-unified-service-desk.md#download-unified-service-desk-client-application)|
-| Model-driven app |Dynamics 365 Customer Service app version 9.1.0000.3653 or higher <br><br> **Note:** We recommend you use a new production Dynamics 365 Customer Service instance to use Omnichannel for Customer Service on Unified Service Desk. |
-| Hosting Types | Supported hosting types: <li>Chrome Process</li> <li>IE Process</li> <br> To learn more about hosting types, see [Configure recommended settings for Unified Service Desk](administrator/configure-settings-unified-service-desk.md). |
-| Operating system |<li>For Microsoft Edge - Windows 10 (October 2018 release and higher version)</li><li>For Internet Explorer - Windows 10, Windows 8.1, Windows 8, or Windows 7 Service Pack 1 (SP1)</li>|
+| Area | Requirements |
+|------------|----------|
+| Desktop application | Unified Service Desk 4.1.1.1253 or higher <br>More information: [Download Unified Service Desk](administrator/omnichannel-customer-service-unified-service-desk.md#download-unified-service-desk-client-application)|
+| Model-driven app |Dynamics 365 Customer Service app version 9.1.0000.3653 or higher <br> **Note:** We recommend you use a new production Dynamics 365 Customer Service instance to use Omnichannel for Customer Service on Unified Service Desk. |
+| Hosting type |Chrome Process <br> To learn more about hosting types, see [Configure recommended settings for Unified Service Desk](administrator/configure-settings-unified-service-desk.md). |
+| Operating system | Windows 10, version released in October 2018 or later|
 | Memory (Hardware) | ^8-GB RAM or more |
 
-^The memory requirement is for out-of-the-box solutions. Evaluate the requirements when creating complex configurations to the Unified Service Desk - Omnichannel for Customer Service solution or when using other line-of-business applications with Unified Service Desk.
+^The memory requirement is for out-of-the-box solutions. Evaluate the requirements when creating complex configurations for the Unified Service Desk - Omnichannel for Customer Service solution or when using other line-of-business applications with Unified Service Desk.
 
 For other hardware requirements of the Unified Service Desk client application, see [Unified Service Desk system requirements](/dynamics365/unified-service-desk/admin/unified-service-desk-system-requirements).
 
