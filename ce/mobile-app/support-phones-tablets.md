@@ -49,7 +49,7 @@ For full functionality and optimized experience, we strongly recommend that you 
 > Using the web browser on your phone to run your model-driven apps isn't supported; you must use the Dynamics 365 for phones app. 
 
 
-### Supported tablets to use the web browser
+## Supported tablets to use the web browser
   
 |                              Platform                             |   Versions  | Minimum Resolution or Screen Size  | 
 |--------------------------------------------------------------------|---------------|---------------|
@@ -82,6 +82,96 @@ Model-driven apps running on a web browser on an iOS or Android tablet provides 
 - Entities that use classic forms such as Goal and Order Product see, [Entities using classic forms](../customize/create-design-forms.md).  
 
 For more information about web browser support, see [Web application requirements for Microsoft Dynamics 365 apps](../admin/web-application-requirements.md).
+
+## Supported languages for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] 
+
+When the application first loads after installation, it will determine the device language and load the user interface in that language.  Once you sign in and launched an app, the language will be selected based on your personal options or the base language in Common Data Service or Dynamics 365 Customer Engagement (on-premises). If a language is not supported, the user experience will be shown in English. 
+
+ [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] support the following languages:  
+  
+- Basque (Basque) - 1069  
+  
+- Bulgarian (Bulgaria) - 1026  
+  
+- Catalan (Catalan) - 1027  
+  
+- Chinese (Hong Kong S.A.R.) - 3076  
+  
+- Chinese (People's Republic of China) - 2052  
+  
+- Chinese (Simplified) - 2052  
+  
+- Chinese (Taiwan) - 1028  
+  
+- Chinese (Traditional) - 1028  
+  
+- Croatian (Croatia) - 1050  
+  
+- Czech (Czech Republic) - 1029  
+  
+- Danish - 1030  
+  
+- Dutch - 1043  
+  
+- English - 1033  
+  
+- Estonian - 1061  
+  
+- Finnish - 1035  
+  
+- French - 1036  
+  
+- Galician  
+  
+- German - 1031  
+  
+- Greek - 30  
+  
+- Hindi (India) - 91  
+  
+- Hungarian - 36  
+  
+- Indonesian - 62  
+  
+- Italian - 1040  
+  
+- Japanese - 1041  
+  
+- Kazakh - 705  
+  
+- Korean - 82  
+  
+- Latvian - 371  
+  
+- Lithuanian - 370  
+  
+- Norwegian - 47  
+  
+- Polish - 48  
+  
+- Portuguese (Brazil) - 55  
+  
+- Portuguese (Portugal) - 2070  
+  
+- Romanian - 40  
+  
+- Russian - 7  
+  
+- Serbian  
+  
+- Slovak - 421  
+  
+- Slovenian - 386  
+  
+- Spanish - 3082  
+  
+- Swedish - 46  
+  
+- Thai - 66  
+  
+- Turkish - 90  
+  
+- Ukrainian - 380  
 
 
 ## Deprecated and unsupported platforms
