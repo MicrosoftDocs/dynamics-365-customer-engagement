@@ -267,9 +267,9 @@ Things to note:
  [!INCLUDE[cc_privacy_crm_for_tablets](../includes/cc-privacy-crm-for-tablets.md)]
 
 ### See Also
- [Secure and manage Dynamics 365 for phones and tablets](secure-manage-phones-tablets.md)
+ [Secure and manage Dynamics 365 for phones and tablets](secure-manage-phones-tablets.md) </br>
  [What's supported](support-phones-tablets.md) </br>
- [Troubleshooting](troubleshooting-things-know-about-phones-tablets.md)
- [Install Dynamics 365 for tablets and phones](dynamics-365-phones-tablets-users-guide.md)
+ [Troubleshooting](troubleshooting-things-know-about-phones-tablets.md) </br>
+ [Install Dynamics 365 for tablets and phones](dynamics-365-phones-tablets-users-guide.md) </br>
  [Dynamics 365 for phones and tablets User's Guide](dynamics-365-phones-tablets-users-guide.md)
 
