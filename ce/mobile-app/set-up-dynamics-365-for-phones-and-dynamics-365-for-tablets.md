@@ -36,6 +36,8 @@ Your users can access their data stored in Common Data Service or Dynamics 365 C
   
 ### Required privileges  
  Both Common Data Service and Dynamics 365 Customer Engagement (on-premises) uses a security privilege, **Dynamics 365 for mobile**, to provide access to [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. The privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams.  
+ 
+ The app should be shared for the security role that user has been assigned.
   
  Follow these steps to check and assign the security privilege for a security role:  
   
