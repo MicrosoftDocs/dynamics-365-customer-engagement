@@ -21,7 +21,7 @@ The purpose of this document is to provide information about availability of Omn
 
 ## Geographic location availability
 
-The Dynamics 365 tenant and Omnichannel for Customer Service should be available in the same region.
+Your Dynamics 365 tenant must be co-located in one of the following geographic locations where Omnichannel for Customer Service is available.
 
 ### April 2020 update
 
@@ -56,13 +56,12 @@ Omnichannel for Customer Service January 2020 update is available in the followi
 | North America                             |   February 17, 2020  |
 
 > [!Note]
-> - For the service to work, your tenant and organization have to be co-located in one of the geographic locations.
 >
-> - In Europe, Omnichannel for Customer Service for the following geographic locations is currently not available and is planned to be introduced in the future:
->   - Norway
->   - Switzerland
->   - Germany
->   - France
+> In Europe, Omnichannel for Customer Service is currently not available for the following geographic locations and is planned to be introduced in the future:
+> - Norway
+> - Switzerland
+> - Germany
+> - France
 
 ## Language availability
 
