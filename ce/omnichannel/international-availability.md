@@ -4,7 +4,7 @@ description: "Learn about the international availability of Omnichannel for Cust
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/20/2020
+ms.date: 06/08/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -13,13 +13,15 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-The purpose of this document is to provide information about availability of **Omnichannel for Customer Service** with respect to the following:
+The purpose of this document is to provide information about availability of Omnichannel for Customer Service with respect to the following:
 
 - [Geographic location availability](#geographic-location-availability)
 
 - [Language availability](#language-availability)
 
 ## Geographic location availability
+
+The Dynamics 365 tenant and Omnichannel for Customer Service should be available in the same region.
 
 ### April 2020 update
 
@@ -32,7 +34,7 @@ Omnichannel for Customer Service April 2020 update is available in the following
 | Asia Pacific                              |   April 14, 2020     |
 | Australia                                 |   April 14, 2020     |
 | Japan                                     |   April 14, 2020     |
-| Europe, the Middle East, and Africa       |   April 16, 2020     |
+| Europe                                    |   April 16, 2020     |
 | United Kingdom                            |   April 16, 2020     |
 | North America                             |   April 19, 2020     |
 | Government Community Cloud (GCC)          |   To be announced    |
@@ -46,7 +48,7 @@ Omnichannel for Customer Service January 2020 update is available in the followi
 |-------------------------------------------|----------------------|
 | Canada                                    |   January 31, 2020   |  
 | South America                             |   January 31, 2020   |
-| Europe, the Middle East, and Africa       |   February 10, 2020  |
+| Europe                                    |   February 10, 2020  |
 | United Kingdom                            |   February 10, 2020  |
 | Asia Pacific                              |   February 10, 2020  |
 | Australia                                 |   February 10, 2020  |
