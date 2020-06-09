@@ -4,7 +4,7 @@ description: "Learn about notifications and their types. Agents will see notific
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/11/2020
+ms.date: 06/09/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -88,7 +88,8 @@ The details you'll see for a SMS channel are as configured by your administrator
 
 ## Notification timeout and rerouting of conversations
 
-When you do not accept a chat conversation or miss the notification because of some reason, such as you've closed the browser session or didn't enable the desktop notification, the system waits for eight minutes before rerouting the conversation to another agent or agent queue. If you are the only agent available, the conversation will be rerouted to you only after the timeout period lapses. If you miss the notification, the conversation will be displayed on your dashboard till you initiate a chat or the timeout period lapses.
+In scenarios when the agent is assigned a conversation without the notification being visible to the agent for reasons, such as agent closing the browser,
+navigating away from the app page, or losing network connectivity, the system will wait for eight minutes to before rerouting the conversation. During this wait period, the conversation will be displayed on your dashboard till you initiate a chat or the timeout period lapses. Also, the system might take mark the agent unavailable for further assignments and might end up assigning the same conversation to the agent.
 
 ### See also
 

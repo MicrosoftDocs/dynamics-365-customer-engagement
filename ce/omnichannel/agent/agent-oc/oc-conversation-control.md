@@ -4,7 +4,7 @@ description: "Conversation control is a communication panel in Omnichannel where
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/21/2020
+ms.date: 06/09/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -115,7 +115,7 @@ Use the keyboard command to see the list of queues to transfer the conversation 
 
 **/t** (forward slash, letter t) launches the **Agent** and **Queue** tabs. Select either tab and then select the agent or the queue from the list to transfer the conversation. The **/t** command keeps the focus on the Agent tab whereas the **/tq** command keeps the focus on the Queue tab.
 
-When skill-based routing is enabled, then during the transfer, the **Transfer** flyout shows users sorted in order of matching skills. A check for agent skills is not done by the app and the conversation can be transferred to any agent irrespective of the skill match.
+When skill-based routing is enabled, then during the transfer, the **Transfer** flyout shows users sorted in the order of matching skills. A check for agent skills is not done by the app and the conversation can be transferred to any agent irrespective of the skill match.
 
 ![Transfer agent list](../../media/oceh-cc-transfer-agent-list.png "transfer agent list")
 
