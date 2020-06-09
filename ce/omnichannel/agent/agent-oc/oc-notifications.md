@@ -89,7 +89,7 @@ The details you'll see for a SMS channel are as configured by your administrator
 ## Notification timeout and rerouting of conversations
 
 In scenarios when the agent is assigned a conversation without the notification being visible to the agent for reasons, such as agent closing the browser,
-navigating away from the app page, or losing network connectivity, the system will wait for eight minutes to before rerouting the conversation. During this wait period, the conversation will be displayed on your dashboard till you initiate a chat or the timeout period lapses. Also, the system might take mark the agent unavailable for further assignments and might end up assigning the same conversation to the agent.
+navigating away from the app page, or losing network connectivity, the system will wait for eight minutes to before rerouting the conversation. During this wait period, the conversation will be displayed on your dashboard till you initiate a chat or the timeout period lapses. Also, the system might mark the agent unavailable for further assignments and end up assigning the same conversation to the agent.
 
 ### See also
 
