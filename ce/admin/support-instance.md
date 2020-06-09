@@ -1,7 +1,7 @@
 ---
 title: "Manage Support instances | MicrosoftDocs"
 ms.custom: 
-ms.date: 12/04/2019
+ms.date: 06/09/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -27,17 +27,18 @@ A Support instance is any non-Production instance of Common Data Service used by
 
 **What is a Support instance?**
 
--  It is an instance created in your tenant by Microsoft for purposes of preventing, detecting, or repairing problems affecting the operation of your online service.
+-  It is an instance created in your tenant by Microsoft under your direct instructions, for purposes of preventing, detecting, or repairing problems affecting the operation of your online service.
 -  It does not require any additional non-Production instance to be purchased.
 -  The database size of a Support instance does not count towards your storage limit.
 -  It resides in the same regional datacenter as your source instance. 
+- Support instances are protected by the same administrative and technical measures implemented by Microsoft to protect your production instance. 
 
 **What data is in a Support instance?**
 
 - When a Support instance is initially created by Microsoft, it contains no customer data or customizations.
 - System admins [manage Support instances](manage-online-instances.md) in the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)].
 - System admins can [copy an instance](copy-instance.md) to a Support instance, and then choose whether to provide a minimal or full copy of their instance.
-- System admins must consent to providing a copy of their data to Microsoft.
+- Prior to provisioning, system admins must consent to providing a copy of their data to Microsoft.
 
 **Who has access to a Support instance?**
 
@@ -59,7 +60,7 @@ Database (via SQL query tools):
 
 -  Read/Write access to all tables
 -  Access to the database requires additional approval by Microsoft and it is managed, controlled, and granted as needed.
--  Access to the database is time limited (for example, 30 minutes) and expires automatically.
+-  Access to the database is subject to our standard access controls (i.e. Just-in-time); for instance, access is time limited (for example, 30 minutes) and expires automatically.
 
 **How long does a Support instance stay in your tenant?**
 
@@ -69,3 +70,7 @@ Database (via SQL query tools):
 **Is access and usage of Support instance audited?** 
 
 Yes.
+
+**What is the consent form in the New support request page?** 
+
+To assist with diagnosing and resolving a support issue, you must consent to the creation of a Minimal or a Full copy of the instance with the issue. The consent form displayed records your instructions to Microsoft for the creation of a support instance. 
