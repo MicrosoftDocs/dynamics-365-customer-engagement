@@ -53,8 +53,8 @@ To uninstall Field Service, administrators can go to **Settings > Solutions** to
 | 15    | msdynce_FieldServiceHealth           |                                                           |
 | 16    | msdyn_FieldService_patch_xx          | Patch name or number may vary                             |
 | 17    | msdyn_FieldService                   |                                                           |
-| 18    | FieldServiceCommon                   | Required for DualWrite and FinanceAndOperations  |
-| 19    | msdyn_AssetCommon                    | Required for FinanceAndOperations               |
+| 18    | FieldServiceCommon                   | Required for DualWrite (with Dynamics 365 Finance or Dynamics 365 Supply Chain Management)  |
+| 19    | msdyn_AssetCommon                    | Required for DualWrite (with Dynamics 365 Finance or Dynamics 365 Supply Chain Management)              |
 | 20    | msdyn_TESA_Anchor                    | Required for Project Service Automation       |
 | 21    | msdyn_TESA_Patch                     | Required for Project Service Automation       |
 | 22    | msdyn_TESA                           | Required for Project Service Automation       |
