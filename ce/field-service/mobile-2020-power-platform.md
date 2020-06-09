@@ -63,18 +63,19 @@ Field Service Mobile is recommended for more **complex** use cases where you may
 | Driving directions | Technician | Yes | Yes |
 | Speech to text | Technician | Yes | Yes |
 | Geocoding | Technician | Yes | Yes |
-| Push notifications | Technician | | Yes |
-| Geofencing | Technician | | Yes |
+| [Push notifications](mobile-push-notifications) | Technician | | Yes |
+| [Geofencing](geofencing) | Technician | | Yes |
 | IoT alerts | Technician | | Yes |
 | Reporting | Technician | | Yes |
 | Scan to find asset | Technician | | Yes |
-| Location sharing and auditing | Admin | | Yes |
+| [Location sharing and auditing](https://docs.microsoft.com/en-us/dynamics365/field-service/geofencing#step-3-enable-location-auditing-for-the-field-service-mobile-app) | Admin | | Yes |
 | Enhanced mobile workflows | Admin | | Yes |
 | Enhanced offline sync filters | Admin | | Yes |
-| Remote Assist | Integration | | Yes |
-| Microsoft Intune  | Integration | | Yes |
+| Allow technican to force data sync | | Yes |
+| [Remote Assist](remote-assist-hololens) | Integration | | Yes |
+| [Microsoft Intune](field-service-mobile-intune)  | Integration | | Yes |
 
-
+Check [Release Plans](https://docs.microsoft.com/en-us/dynamics365/release-plans/) to stay up to date on upcoming features for Field Service including the Field Service (Dynamics 365) mobile app.
 
 ## Prerequisites
 
@@ -312,3 +313,16 @@ For another example, the **Work Order Product** entity has a data download filte
 ### Can I only add and view Field Service entities on Field Service (Dynamics 365)?
 
 Because Field Service (Dynamics 365) is a model-driven app on the Power Platform, any entity can be added; users can only see entities and records that they have the licenses and security to access, regardless of whether it's part of the Field Service app or not.
+
+### Why is the app saying "You're almost there"?
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of youre almost there issue](./media/mobile-2020-youre-almost-there.png)
+
+If you are getting the error "You're almost there" after signing in to the mobile app, try the following:
+
+1. Ensure you have the right security role (Field Service - Resource) and the security role is assigned to the Field Service Mobile app.
+2. Sign in again, pull down the screen to refresh and wait for at least a few minutes
+3. If completing both steps 1 and 2 above do not resolve the issue, [submit a support ticket](https://dynamics.microsoft.com/en-us/contact-us/)
+
+
