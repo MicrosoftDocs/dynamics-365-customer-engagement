@@ -116,9 +116,9 @@ To create a WhatsApp channel, follow these steps:
     > [!div class=mx-imgBorder]
     > ![Validate Account SID, Auth token, and phone number](../media/whatsapp-channel-5.png "Validate Account SID, Auth token, and phone number")
 
-## See also
+### See also
 
-[Skill-based routing](overview-skill-work-distribution.md)<br>
-[Productivity tools](productivity-tools.md)<br>
-[Smart assist](smart-assist.md)<br>
+[Skill-based routing](overview-skill-work-distribution.md)  
+[Productivity tools](productivity-tools.md)  
+[Smart assist](smart-assist.md)  
 [Templates](templates-overview.md)
