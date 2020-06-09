@@ -23,8 +23,7 @@ Co-browse and screen sharing are enabled within Omnichannel Add-in for Dynamics 
 
 ## Prerequisites
 
-- An active chat subscription. 
-- An active digital messaging or chat subscription.
+- An active digital messaging or chat subscription. 
 - Updated Omnichannel base and Omnichannel chat solution with third-party co-browse externalities enabled.
 
 ## Third-party co-browse and screen-sharing extensibility framework
