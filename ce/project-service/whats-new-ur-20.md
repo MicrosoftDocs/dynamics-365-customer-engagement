@@ -26,7 +26,7 @@ search.app:
 
 We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365. This release includes some important improvements to quality, performance, and usability. This release is compatible with Dynamics 365 9.x. To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update. For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
-This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 20. This version has a build number of V 3.10.31.23 and is generally available through a self-update in June 2020.
+This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 20. This version has a build number of V 3.10.31.29 and is generally available through a self-update in June 2020.
 
 ## Update Release 20
 

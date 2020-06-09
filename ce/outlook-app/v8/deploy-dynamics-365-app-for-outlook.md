@@ -22,14 +22,22 @@ search.app:
   - D365CE
   - D365Outlook
 ---
+
+
+<!--from editor: This topic uses "includes" files for Customer Engagement that need to be updated. See lines 126, 131, 132, 179, and 284. -->
+
+
 # Deploy Dynamics 365 App for Outlook
 
+
 People can use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-for-outlook.md)] to tap the power of Dynamics 365 apps while using  [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] on the desktop or web. For example, view information about email or appointment recipients, or link an [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] email or appointment  to a Dynamics 365 apps record such as an opportunity, account, or case. To learn more about what [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-for-outlook.md)] offers, see the [Dynamics 365 App for Outlook User's Guide](https://go.microsoft.com/fwlink/p/?LinkID=613099).  
+
 
 > [!IMPORTANT]
 >  [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)] isn’t the same thing as [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. As of the [!INCLUDE[pn_crm_8_2_0_both](../../includes/pn-crm-8-2-0-both.md)], [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-for-outlook.md)] paired with [!INCLUDE[cc_server_side_synch](../../includes/cc-server-side-synch.md)] is the preferred way to integrate Dynamics 365 apps with [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)]. **Note that tracking activities is not supported when  [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)] and [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] are used together by the same user.** For information on the  [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] add-in, see the [Dynamics 365 for Outlook User’s Guide](https://go.microsoft.com/fwlink/p/?LinkID=524751).  
 > 
->  [Delegated users](https://support.office.com/article/Allow-someone-else-to-manage-your-mail-and-calendar-9684B670-7588-4EEA-8717-9E5799047540) can not use [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)] to track emails. We suggest using [folder-level tracking or automatic tracking](https://www.microsoft.com/dynamics/crm-customer-center/overview-of-tracking-records-in-dynamics-365-for-outlook.aspx) for delegated users.  
+>  [Delegated users](https://support.office.com/article/Allow-someone-else-to-manage-your-mail-and-calendar-9684B670-7588-4EEA-8717-9E5799047540) cannot use [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)] to track emails. We suggest using [folder-level tracking or automatic tracking](https://www.microsoft.com/dynamics/crm-customer-center/overview-of-tracking-records-in-dynamics-365-for-outlook.aspx) for delegated users.  
+>
 >  There are two ways to install Microsoft Office: using a Windows Installer (MSI) version or a Click-to-Run (C2R) version of Office. You might have issues accessing Microsoft Dynamics 365 apps in the Add-ins area of Outlook if you don't have the necessary updates for your installation version. For more information, see [Issue when trying to access Dynamics 365 apps within the Add-ins area of Outlook](https://support.microsoft.com/help/3211586/error-message-0x8006ffff-occurs-when-you-access-dynamics-365-within-th).  
 
 
@@ -257,14 +265,12 @@ Exchange Server version 15.0.1236.3.32 (Cumulative Update 14 for Exchange Server
 2. In the **Apps for Dynamics 365 apps** screen, under **[!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)]**, users click **Add app to [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)]**.  
 
 > [!NOTE]
->  Users can also disable or remove the add-in themselves, if needed. For more information, see the [Dynamics 365 App for Outlook User’s Guide](https://go.microsoft.com/fwlink/p/?LinkID=613099).
+>  Users can also disable or remove the add-in themselves, if needed. For more information, see the [Dynamics 365 App for Outlook User Guide](https://go.microsoft.com/fwlink/p/?LinkID=613099).
 
 <a name="BKMK_DeployOnprem"></a>
 
-## To deploy to Dynamics 365 for Customer Engagement apps (on-premises) users
- Follow these steps if you're using Dynamics 365 for Customer Engagement apps (on-premises).
-
--   Configure your Dynamics 365 for Customer Engagement apps server for Internet-facing deployment. See [Configure IFD for Microsoft Dynamics 365 for Customer Engagement apps](https://technet.microsoft.com/library/dn609803.aspx).
+## To deploy to Dynamics 365 for Customer Engagement (on-premises) apps users
+If you're using Dynamics 365 for Customer Engagement (on-premises) apps, configure your apps server for Internet-facing deployment. See [Configure IFD for Microsoft Dynamics 365](https://technet.microsoft.com/library/dn609803.aspx).
 
 ## To deploy to Dynamics 365 apps (on-premises) users  
  Follow these steps if you're using Dynamics 365 apps (on-premises).  
@@ -284,13 +290,15 @@ You will receive the message **Sorry, something went wrong. Please try again, or
 
 <a name="BKMK_Explore"></a>
 
-## Explore the User’s Guide and train your users
- To learn how to use [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)], [see the Dynamics 365 App for Outlook User’s Guide](https://go.microsoft.com/fwlink/p/?LinkID=613099).
+## Explore the User Guide and train your users
+ To learn how to use [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)], [see the Dynamics 365 App for Outlook User Guide](https://go.microsoft.com/fwlink/p/?LinkID=613099).
 
- ![Dynamics 365 App for Outlook User's Guide page](../media/dynamics-365-app-for-outlook-user-s-guide-page.png "Dynamics 365 App for Outlook User's Guide page")
+ ![Dynamics 365 App for Outlook User Guide page](../media/dynamics-365-app-for-outlook-user-s-guide-page.png "Dynamics 365 App for Outlook User Guide page")
 
 ## See Also  
- [Dynamics 365 App for Outlook User's Guide](https://go.microsoft.com/fwlink/p/?LinkID=613099)   
+
+ [Dynamics 365 App for Outlook User Guide](https://go.microsoft.com/fwlink/p/?LinkID=613099)   
+
  [Read more details about supported clients in this blog: Dynamics 365 App for Outlook Support Matrix](https://blogs.msdn.microsoft.com/crm/2016/12/13/dynamics-365-app-for-outlook-support-matrix/)   
  [Set up server-side synchronization of email, appointments, contacts, and tasks](https://technet.microsoft.com/library/dn531109.aspx)   
  [Add users, licenses, and security roles](https://msdn.microsoft.com/23612155-f92d-4871-a109-186419d5c19d)   

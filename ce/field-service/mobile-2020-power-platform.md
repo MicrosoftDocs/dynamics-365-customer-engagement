@@ -2,7 +2,7 @@
 title: "Field Service (Dynamics 365) mobile app | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 05/08/2020
+ms.date: 06/02/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -255,37 +255,7 @@ Add and delete booking fields as needed.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Power Apps showing the form editor for the Bookable Resource Booking.](./media/mobile-2020-admin-booking-form-combined-add-fields.png)
 
-The work order forms are displayed within the booking form with a new control called **Form Component Control**.
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Power Apps showing the Bookable Resource Booking form editor.](./media/mobile-2020-admin-booking-form-combined-classic.png)
-
-To add more work order information to the booking form, either edit the work order forms mentioned earlier, or create a new work order form and add it to the booking form by selecting the section and adding a **Form Component Control**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Properties dialogue in the Power Apps form editor for the Bookable Resource Booking entity.](./media/mobile-2020-admin-booking-form-combined-classic-control.png)
-
-Within the classic admin console, double-click the section and **Form Component Control** for Web, Phone, and Tablet.
-
-In the **Properties** section, enter:
-
-Lookup value: 
-
-    msdyn_workorder
-
-Forms (substitute the form ID of the work order form you created): 
-
-    <QuickForms><QuickFormIds><QuickFormId entityname="msdyn_workorder">c0ebdf20-f27f-4acc-8c9f-a9a202a5e917</QuickFormId></QuickFormIds></QuickForms>
-
-You can get the form ID in the URL when on the form in the admin console.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Power Apps in a web browser, showing an example form ID in the URL.](./media/mobile-2020-admin-form-id.png)
-
-There are Form Component Controls for each work order form that is inserted into the booking form. Below is another Form Component Control for the Work Order-Service form.
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Power Apps form builder for the Bookable Resource Booking.](./media/mobile-2020-admin-booking-form-combined-classic-control-service.png)
+Another way you can add work order information to the booking form is to add a [quick view form](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-view-forms) that displays work order fields. Note that quick view forms are read-only, but you can go to the related work order form from there. 
 
 ### Configure offline data and sync filters
 
