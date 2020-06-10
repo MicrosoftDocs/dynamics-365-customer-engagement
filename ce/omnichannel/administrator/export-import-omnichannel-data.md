@@ -28,14 +28,11 @@ You can export your Omnichannel configuration data from your source system by us
 
 1. Download the Configuration Migration tool. Use the [PowerShell script](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/download-tools-nuget#download-tools-using-powershell) to download the latest version of the tool.  
 
-2. Download and extract the tool, and then find the tool in the \Tools\ConfigurationMigration folder. 
+2. Create a schema file per Omnichannel Solution following the steps in [Create a schema to export configuration data](https://docs.microsoft.com/en-us/power-platform/admin/create-schema-export-configuration-data).
 
-3. Create a schema file per Omnichannel Solution following the steps in [Create a schema to export configuration data](https://docs.microsoft.com/en-us/power-platform/admin/create-schema-export-configuration-data).
-
-4. Choose the entities and fields that you want to export and import. The entities that you choose to export and import depend on the resources that you want to reuse across the source and target organizations. (Example: If you use the same API keys and provider for your geolocation provider, then you can include that entity too.) 
+3. Choose the entities and fields that you want to export and import. The entities that you choose to export and import depend on the resources that you want to reuse across the source and target organizations. (Example: If you use the same API keys and provider for your geolocation provider, then you can include that entity too.) 
 
 These are some of the core entities you can use, but you are not limited to only these entities:
-
     - Work stream 
     - Context variable 
     - Rule item 
@@ -45,7 +42,7 @@ These are some of the core entities you can use, but you are not limited to only
     - Operating hours 
     - Sentiment analysis 
 
-5. In order to filter for only the Omnichannel queues, you can use the following commands:  
+4. In order to filter for only the Omnichannel queues, you can use the following commands:  
     **Tools > Configure Import Settings > Use Fetch XML to filter records > Edit FetchXML**
 
   ```html
@@ -58,19 +55,19 @@ These are some of the core entities you can use, but you are not limited to only
   </fetch> 
   ```
 
-6. Double-click the DataMigrationUtility.exe file in the \Tools\ConfigurationMigration folder to run the Configuration Migration tool, and choose **Export data** in the main screen. 
+5. Double-click the DataMigrationUtility.exe file in the \Tools\ConfigurationMigration folder to run the Configuration Migration tool, and choose **Export data** in the main screen. 
 
-7. On the **Login** screen, provide authentication details to connect to your Dynamics 365 Server from where you want to export data. If you have multiple organizations on the Common Data Service platform server, and want to select the organization from where to export the data, select the **Always display list of available orgs checkbox**. Select **Login**. 
+6. On the **Login** screen, provide authentication details to connect to your Dynamics 365 Server from where you want to export data. If you have multiple organizations on the Common Data Service platform server, and want to select the organization from where to export the data, select the **Always display list of available orgs checkbox**. Select **Login**. 
 
-8. If you have multiple organizations, and you selected the Always display list of available orgs check box, the next screen lets you choose the organization that you want to connect to. Select the Common Data Service platform organization to connect to. 
+7. If you have multiple organizations, and you selected the Always display list of available orgs check box, the next screen lets you choose the organization that you want to connect to. Select the Common Data Service platform organization to connect to. 
 
-9. On the next screen, select the Omnichannel configuration data schema file (OmnichannelBaseSchema.xml) to be used for the data export. 
+8. On the next screen, select the Omnichannel configuration data schema file (OmnichannelBaseSchema.xml) to be used for the data export. 
 
-10. Specify the name and location of the data file to be exported. 
+9. Specify the name and location of the data file to be exported. 
 
-11. Choose **Export Data**. The screen displays the export progress status and the location of the exported file at the bottom of the screen once the export is complete. 
+10. Choose **Export Data**. The screen displays the export progress status and the location of the exported file at the bottom of the screen once the export is complete. 
 
-12. Choose **Exit** to close the tool. 
+11. Choose **Exit** to close the tool. 
 
 ## Import configuration data using the Configuration Migration tool 
 
