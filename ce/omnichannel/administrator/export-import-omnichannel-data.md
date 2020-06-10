@@ -28,8 +28,8 @@ You can export your Omnichannel configuration data from your source system by us
 
 1. Download the Configuration Migration tool. For information on downloading the Configuration Migration tool, see [Download tools from NuGet](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/download-tools-nuget).  
 
-> [!NOTE]
-> Use the PowerShell script in the link to download the latest version of the tool.
+  > [!NOTE]
+  > Use the PowerShell script in the link to download the latest version of the tool.
 
 2. Download and extract the tool, and then find the tool in the \Tools\ConfigurationMigration folder. 
 
@@ -39,27 +39,27 @@ You can export your Omnichannel configuration data from your source system by us
 
 These are some of the core entities you can use, but you are not limited to only these entities:
 
-    - Work Stream 
+    - Work stream 
     - Context variable 
-    - Rule Item 
+    - Rule item 
     - Queue 
-    - Quick Reply 
+    - Quick reply 
     - Presence 
-    - Operating Hour 
-    - Sentiment Analysis 
+    - Operating hours 
+    - Sentiment analysis 
 
 5. In order to filter for only the Omnichannel queues, you can use the following commands:  
     **Tools > Import Settings > Use Fetch XML to filter records > Edit FetchXML**
 
-```html
-<fetch> 
-  <entity name="queue" > 
-    <filter> 
-      <condition attribute="msdyn_isomnichannelqueue" operator="eq" value="1" /> 
-    </filter> 
-  </entity> 
-</fetch> 
-```
+  ```html
+  <fetch> 
+    <entity name="queue" > 
+      <filter> 
+        <condition attribute="msdyn_isomnichannelqueue" operator="eq" value="1" /> 
+      </filter> 
+    </entity> 
+  </fetch> 
+  ```
 
 6. Double-click the DataMigrationUtility.exe file in the \Tools\ConfigurationMigration folder to run the Configuration Migration tool, and choose **Export data** in the main screen. 
 
