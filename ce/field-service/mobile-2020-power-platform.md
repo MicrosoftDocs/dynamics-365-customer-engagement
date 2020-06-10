@@ -2,7 +2,7 @@
 title: "Field Service (Dynamics 365) mobile app | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 06/08/2020
+ms.date: 06/10/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -64,19 +64,19 @@ Field Service Mobile is recommended for more **complex** use cases where you may
 | Driving directions | Technician | Yes | Yes |
 | Speech to text | Technician | Yes | Yes |
 | Geocoding | Technician | Yes | Yes |
-| [Push notifications](mobile-push-notifications) | Technician | | Yes |
-| [Geofencing](geofencing) | Technician | | Yes |
+| [Push notifications](mobile-push-notifications.md) | Technician | | Yes |
+| [Geofencing](geofencing.md) | Technician | | Yes |
 | IoT alerts | Technician | | Yes |
 | Reporting | Technician | | Yes |
 | Scan to find asset | Technician | | Yes |
-| [Location sharing and auditing](https://docs.microsoft.com/en-us/dynamics365/field-service/geofencing#step-3-enable-location-auditing-for-the-field-service-mobile-app) | Admin | | Yes |
+| [Location sharing and auditing](https://docs.microsoft.com/dynamics365/field-service/geofencing#step-3-enable-location-auditing-for-the-field-service-mobile-app) | Admin | | Yes |
 | Enhanced mobile workflows | Admin | | Yes |
 | Enhanced offline sync filters | Admin | | Yes |
 | Allow technican to force data sync | | Yes |
-| [Remote Assist](remote-assist-hololens) | Integration | | Yes |
-| [Microsoft Intune](field-service-mobile-intune)  | Integration | | Yes |
+| [Remote Assist](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/overview-hololens) | Integration | | Yes |
+| [Microsoft Intune](field-service-mobile-intune.md)  | Integration | | Yes |
 
-Check [Release Plans](https://docs.microsoft.com/en-us/dynamics365/release-plans/) to stay up to date on upcoming features for Field Service including the Field Service (Dynamics 365) mobile app.
+Check [Release Plans](https://docs.microsoft.com/dynamics365/release-plans/) to stay up to date on upcoming features for Field Service including the Field Service (Dynamics 365) mobile app.
 
 ## Prerequisites
 
@@ -318,12 +318,12 @@ Because Field Service (Dynamics 365) is a model-driven app on the Power Platform
 ### Why is the app saying "You're almost there"?
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of youre almost there issue](./media/mobile-2020-youre-almost-there.png)
+> ![Screenshot of the "you're almost there" issue.](./media/mobile-2020-youre-almost-there.png)
 
 If you are getting the error "You're almost there" after signing in to the mobile app, try the following:
 
-1. Ensure you have the right security role (Field Service - Resource) and the security role is assigned to the Field Service Mobile app.
+1. Make sure you have the correct security role (Field Service - Resource) and that the security role is assigned to the Field Service Mobile app.
 2. Sign in again, pull down the screen to refresh and wait for at least a few minutes
-3. If completing both steps 1 and 2 above do not resolve the issue, [submit a support ticket](https://dynamics.microsoft.com/en-us/contact-us/)
+3. If completing both steps 1 and 2 above do not resolve the issue, [submit a support ticket](https://dynamics.microsoft.com/contact-us/).
 
 
