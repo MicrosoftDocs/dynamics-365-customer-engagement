@@ -14,7 +14,7 @@ ms.topic: article
 
 Now that you have used Omnichannel for Customer Service in a test environment, you're ready to unlock all the benefits and features in a live production environment (or any target environment). You don't have to start all over. Instead, you can follow this process to export your Omnichannel Administration app configuration data from your test environment and import the data into your new target environment. That way, you can keep all of the queues, routing rules, work streams, and other custom settings that you set up the first time. 
 
-To import and export your Omnichannel configuration data, you must first install the following:
+To import and export your Omnichannel configuration data, you must first install the following on both the source and target environments, and make sure that the versions are the same:
 
   - The Omnichannel for Customer Service Administration app 
   - Any third-party solutions you plan to integrate, such as Screenmeet
@@ -39,10 +39,10 @@ You can export your Omnichannel configuration data from your source system by us
 
 These are some of the core entities you can use, but you are not limited to only these entities:
 
-    - Context variable 
     - Work Stream 
-    - Queue 
+    - Context variable 
     - Rule Item 
+    - Queue 
     - Quick Reply 
     - Presence 
     - Operating Hour 
