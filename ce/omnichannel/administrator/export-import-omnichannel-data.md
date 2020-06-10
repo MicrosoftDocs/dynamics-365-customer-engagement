@@ -16,7 +16,7 @@ Now that you have used Omnichannel for Customer Service in a test environment, y
 
 To import and export your Omnichannel configuration data, you must first install the following:
 
-  - Omnichannel solution (Base)
+  - The Omnichannel for Customer Service Administration app 
   - Any third-party solutions you plan to integrate, such as Screenmeet
   
 > [!NOTE]
