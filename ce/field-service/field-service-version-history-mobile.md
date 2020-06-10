@@ -135,7 +135,7 @@ To learn more about mobile projects, see our topic on [installing the Field Serv
 | --- | --- | --- | --- | --- |
 | [1.0.4847](https://aka.ms/fsmobile-project)  |  June 2020  |  12.1+ | 12.1+ | 8.8.14 | 
 
-- Added support Remote Assist deep link support for iOS.
+- Added support for Remote Assist deep link on iOS.
 - Bug fix to populate fields from Service Account when creating a new Work Order assosiated with that Service Account.
 
 
