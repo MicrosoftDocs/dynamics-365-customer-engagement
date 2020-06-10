@@ -21,6 +21,8 @@ To change the parent of a product, bundle, or family, open the respective record
 Things to consider when changing reparenting:
 
 -	Products which are re-parented cannot be reverted.
+- You can only select a product family as a parent.
+- You can only set product families that are in the Under Revision, Draft, or Active state as a parent.
 -	You can only change or remove the parent from records that are in the **Under Revision** or **Draft** status.
 -	For an **Under Revision** record, only an **Under Revision** or **Active** record can be selected as its parent.
 -	For a **Draft** record, only an **Under Revision**, **Draft**, or **Active** record can be selected as its parent.  
