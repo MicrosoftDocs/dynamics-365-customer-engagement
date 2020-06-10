@@ -33,6 +33,16 @@ You can export your Omnichannel configuration data from your source system by us
 
 **Tools > Import Settings > Use Fetch XML to filter records > Edit FetchXML**
 
+```html
+<fetch> 
+  <entity name="queue" > 
+    <filter> 
+      <condition attribute="msdyn_isomnichannelqueue" operator="eq" value="1" /> 
+    </filter> 
+  </entity> 
+</fetch> 
+```
+
 6. Double-click the DataMigrationUtility.exe file in the \Tools\ConfigurationMigration folder to run the Configuration Migration tool, and choose **Export data** in the main screen. 
 
 7. On the **Login** screen, provide authentication details to connect to your Dynamics 365 Server from where you want to export data. If you have multiple organizations on the Common Data Service platform server, and want to select the organization from where to export the data, select the **Always display list of available orgs checkbox**. Select **Login**. 
@@ -56,11 +66,11 @@ To import your Omnichannel configuration data into your target environment, you 
 
 1. Run the Configuration Migration tool, and click **Import data** in the main screen. For information about the downloading the tool, see step 1 in the previous section.
 
-2. On the **Login** screen, provide authentication details to connect to your Common Data Service platform server from where you want to import data. If you have multiple organizations on the Common Data Service platform server, and want to select the organization to where you want to export the data, select the Always display list of available orgs check box. Click Login. 
+2. On the **Login** screen, provide authentication details to connect to your Common Data Service platform server from where you want to import data. If you have multiple organizations on the Common Data Service platform server, and want to select the organization to where you want to export the data, select the **Always display list of available orgs** checkbox. Click **Login**. 
 
-3. If you have multiple organizations, and you selected the Always display list of available orgs check box, the next screen lets you choose the organization that you want to connect to. Select the Common Data Service platform organization to connect to. 
+3. If you have multiple organizations, and you selected the **Always display list of available orgs** checkbox, the next screen lets you choose the organization that you want to connect to. Select the Common Data Service platform organization to connect to. 
 
-4. The next screen prompts you to provide the data file (.zip) to be imported. Browse to the data file, select it, and then click Import Data. 
+4. The next screen prompts you to provide the data file (.zip) to be imported. Browse to the data file, select it, and then click **Import Data**. 
 
 5. The next screen displays the import status of your records. The data import is done in multiple passes to first import the foundation data while queuing up the dependent data, and then import the dependent data in the subsequent passes to handle any data dependencies or linkages. This ensures clean and consistent data import. 
 
@@ -70,25 +80,24 @@ To import your Omnichannel configuration data into your target environment, you 
 
 To check and compare records between the source and target environment:
 
-1. Use advanced find, select all fields of the following entities 
+1. Using [advanced find](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/basics/save-advanced-find-search), select all fields of the following entities 
 
 2. Spot-check the data in several of the records. 
 
 To check the functionality on your target environment: 
 
-1. Create users and add them to queues. 
+1. Create users, assign them Omnichannel roles, and add them to queues. 
 
-2. Add default presence, capacity to Users 
+2. Add default presence and capacity to the users. 
 
-3. Create a Live Chat Widget 
+3. Create a Live Chat Widget.
 
-4. Test a scenario Live chat 
+4. Test a scenario in Live Chat.
 
 ## Export and import related artifacts
 
-- **Entity routing:** Follow the 
-- **Macros:** 
-
+- **Entity routing:** Follow the instructions to [Export and import your flows across environments with packaging](https://flow.microsoft.com/en-us/blog/import-export-bap-packages/).
+- **Macros:** Use the solution to export and import the process component.
 
 ## See also
 
