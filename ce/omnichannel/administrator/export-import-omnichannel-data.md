@@ -35,7 +35,7 @@ You can export your Omnichannel configuration data from your source system by us
 
 3. Create a schema file per Omnichannel Solution following the steps in [Create a schema to export configuration data](https://docs.microsoft.com/en-us/power-platform/admin/create-schema-export-configuration-data).
 
-4. Export and import some entities. The entities that you choose to export and import depend on the resources that you want to reuse across the source and target organizations. (Example: If you use the same API keys and provider for your geolocation provider, then you can include that entity too.) 
+4. Choose the entities and fields that you want to export and import. The entities that you choose to export and import depend on the resources that you want to reuse across the source and target organizations. (Example: If you use the same API keys and provider for your geolocation provider, then you can include that entity too.) 
 
 These are some of the core entities you can use, but you are not limited to only these entities:
 
@@ -49,7 +49,7 @@ These are some of the core entities you can use, but you are not limited to only
     - Sentiment analysis 
 
 5. In order to filter for only the Omnichannel queues, you can use the following commands:  
-    **Tools > Import Settings > Use Fetch XML to filter records > Edit FetchXML**
+    **Tools > Configure Import Settings > Use Fetch XML to filter records > Edit FetchXML**
 
   ```html
   <fetch> 
