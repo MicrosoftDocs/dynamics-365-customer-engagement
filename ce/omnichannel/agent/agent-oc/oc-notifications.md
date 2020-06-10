@@ -4,7 +4,7 @@ description: "Learn about notifications and their types. Agents will see notific
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/09/2020
+ms.date: 06/10/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -86,10 +86,11 @@ The identification of a customer happens based on the **Mobile Phone** field pre
 
 The details you'll see for a SMS channel are as configured by your administrator.
 
-## Notification timeout and rerouting of conversations
+## Notification time-out and rerouting of conversations
 
-In scenarios when the agent is assigned a conversation without the notification being visible to the agent for reasons, such as agent closing the browser,
-navigating away from the app page, or losing network connectivity, the system will wait for eight minutes to before rerouting the conversation. During this wait period, the conversation will be displayed on your dashboard till you initiate a chat or the timeout period lapses. Also, the system might mark the agent unavailable for further assignments and end up assigning the same conversation to the agent.
+When you do not respond to an incoming conversation notification, it will time out based on the time-out settings configured by your administrator and rerouted.
+
+Sometimes, you might see that conversations have been assigned to you without notifications showing up. The notifications though sent by the system are not seen because you had closed the browser, navigated away from the app page, or had lost network connectivity before the notifications could be displayed. In such a case, while the system might take a few seconds to mark you as unavailable, it ends up assigning conversations to you. The conversation is then rerouted after eight minutes.
 
 ### See also
 
