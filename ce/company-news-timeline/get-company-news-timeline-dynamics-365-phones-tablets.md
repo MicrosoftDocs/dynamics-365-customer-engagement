@@ -21,7 +21,7 @@ Gain valuable insights from the latest news about your customers on your phone o
 
 
 > [!NOTE]
->  This solution is available globally for Dynamics 365 Customer Engagement (on-premises) and Common Data Service subscriptions but is available only in English  at this time.  
+>  This solution is available globally for Dynamics 365 Customer Engagement (on-premises) or Common Data Service subscriptions but is available only in English  at this time.  
  
   
 ## Install the solution for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]  
