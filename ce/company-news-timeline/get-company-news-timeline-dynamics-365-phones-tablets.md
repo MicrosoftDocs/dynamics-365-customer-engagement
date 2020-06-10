@@ -21,14 +21,14 @@ Gain valuable insights from the latest news about your customers on your phone o
 
 
 > [!NOTE]
->  This solution is available globally for Dynamics 365 Customer Engagement (on-premises) subscriptions but is available only in English  at this time.  
+>  This solution is available globally for Dynamics 365 Customer Engagement (on-premises) and Common Data Service subscriptions but is available only in English  at this time.  
  
   
 ## Install the solution for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]  
 
 
 
-1. Sign in to [https://admin.microsoft.com](https://admin.microsoft.com) with your Global Administrator or Dynamics 365 for Customer Engagement System Administrator credentials.  
+1. Sign in to [https://admin.microsoft.com](https://admin.microsoft.com) with your Global Administrator credentials.  
   
 2. Select **Admin** > **Dynamics 365 for Customer Engagement**.  
   
@@ -42,7 +42,7 @@ Gain valuable insights from the latest news about your customers on your phone o
 
 
 > [!NOTE]
->  When you install a solution, your Dynamics 365 Customer Engagement (on-premises) site is taken offline in maintenance mode for a short time. We recommend you install the solution when it's least disruptive to users.  
+>  When you install a solution, your Dynamics 365 Customer Engagement (on-premises) or Common Data Service site is taken offline in maintenance mode for a short time. We recommend you install the solution when it's least disruptive to users.  
   
 ## Privacy notice  
  [!INCLUDE[cc_privacy_crm_compnews_socialtimeline](../includes/cc-privacy-crm-compnews-socialtimeline.md)]
