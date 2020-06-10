@@ -33,7 +33,7 @@ You can export your Omnichannel configuration data from your source system by us
 
 2. Download and extract the tool, and then find the tool in the \Tools\ConfigurationMigration folder. 
 
-3. Create a schema file per Omnichannel Solution following the steps here: https://docs.microsoft.com/en-us/power-platform/admin/create-schema-export-configuration-data 
+3. Create a schema file per Omnichannel Solution following the steps in [Create a schema to export configuration data](https://docs.microsoft.com/en-us/power-platform/admin/create-schema-export-configuration-data).
 
 4. Export and import some entities. The entities that you choose to export and import depend on the resources that you want to reuse across the source and target organizations. (Example: If you use the same API keys and provider for your geolocation provider, then you can include that entity too.) 
 
