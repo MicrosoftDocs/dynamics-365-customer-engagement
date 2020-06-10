@@ -222,6 +222,12 @@
           "Unified Service Desk",
           "Omnichannel"
         ]
+      },
+      "search.app":{
+        "omnichannel/**.*": ["D365CE", "D365CS"]
+      },
+      "search.audienceType":{
+        "omnichannel/**.*": ["admin", "customizer", "enduser"]
       }
     },
     "template": [],
