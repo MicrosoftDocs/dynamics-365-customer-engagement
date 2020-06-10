@@ -26,10 +26,7 @@ To import and export your Omnichannel configuration data, you must first install
 
 You can export your Omnichannel configuration data from your source system by using the Omnichannel configuration data schema file. 
 
-1. Download the Configuration Migration tool. For information on downloading the Configuration Migration tool, see [Download tools from NuGet](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/download-tools-nuget).  
-
-  > [!NOTE]
-  > Use the PowerShell script in the link to download the latest version of the tool.
+1. Download the Configuration Migration tool. Use the [PowerShell script](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/download-tools-nuget#download-tools-using-powershell) to download the latest version of the tool.  
 
 2. Download and extract the tool, and then find the tool in the \Tools\ConfigurationMigration folder. 
 
