@@ -14,6 +14,11 @@ ms.topic: article
 
 Now that you have used Omnichannel for Customer Service in a test environment, you're ready to unlock all the benefits and features in a live production environment (or any target environment). You don't have to start all over. Instead, you can follow this process to export your Omnichannel Administration app configuration data from your test environment and import the data into your new target environment. That way, you can keep all of the queues, routing rules, work streams, and other custom settings that you set up the first time. 
 
+To import and export your Omnichannel configuration data, you must first install the following:
+
+  - Omnichannel solution (Base)
+  - Any third-party solutions you plan to integrate, such as Screenmeet
+  
 > [!NOTE]
 > The following processes do not export and import users, so you must add them to the target environment after you have imported the configuration data.
 
@@ -23,11 +28,23 @@ You can export your Omnichannel configuration data from your source system by us
 
 1. Download the Configuration Migration tool. For information on downloading the Configuration Migration tool, see [Download tools from NuGet](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/download-tools-nuget).  
 
-2. Download and extract it, and then find the tool in the \Tools\ConfigurationMigration folder. 
+> [!NOTE]
+> Use the PowerShell script in the link to download the latest version of the tool.
+
+2. Download and extract the tool, and then find the tool in the \Tools\ConfigurationMigration folder. 
 
 3. Create a schema file per Omnichannel Solution following the steps here: https://docs.microsoft.com/en-us/power-platform/admin/create-schema-export-configuration-data 
 
 4. Export and import some entities. These are some of the core entities you can begin with but not limited to only those entities. The entities that you choose to export and import depend on the resources that you want to reuse across the source and target organizations. (Example: If you use the same API keys and provider for say geolocation provider then you can include that entity too.) 
+
+ - Context variable 
+ - Work Stream 
+ - Queue 
+ - Rule Item 
+ - Quick Reply 
+ - Presence 
+ - Operating Hour 
+ - Sentiment Analysis 
 
 5. In order to filter for only the Omnichannel Queues, you can use the following commands:  
     **Tools > Import Settings > Use Fetch XML to filter records > Edit FetchXML**
@@ -57,11 +74,6 @@ You can export your Omnichannel configuration data from your source system by us
 12. Choose **Exit** to close the tool. 
 
 ## Import configuration data using the Configuration Migration tool 
-
-To import your Omnichannel configuration data into your target environment, you must first install the following:
-
-  - Omnichannel solution (Base)
-  - Any third-party solutions you plan to integrate, such as Screenmeet
 
 1. Run the Configuration Migration tool, and click **Import data** in the main screen. For information about the downloading the tool, see step 1 in the previous section.
 
@@ -95,8 +107,8 @@ To check the functionality on your target environment:
 
 ## Export and import related artifacts
 
-- **Entity routing:** Follow the instructions to [Export and import your flows across environments with packaging](https://flow.microsoft.com/en-us/blog/import-export-bap-packages/).
-- **Macros:** Use the solution to export and import the process component.
+For entity routing, follow the instructions to [Export and import your flows across environments with packaging](https://flow.microsoft.com/en-us/blog/import-export-bap-packages/).
+
 
 ## See also
 
