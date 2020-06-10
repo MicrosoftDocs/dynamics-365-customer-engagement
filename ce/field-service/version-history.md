@@ -79,7 +79,7 @@ Release For information about other updates to Field Service, visit the [Dynamic
 
 ## 8.8.22.58 
 
-- Includes release of [Dynamics 365 Field Service (PowerApp)](mobile-2020-power-platform) a new mobile app for technicians built on the Power Platform. As part of this release administrators will see a new app called "Field Service Mobile" in the list of apps. 
+- Includes release of [Dynamics 365 Field Service (Power App)](mobile-2020-power-platform.md), a new mobile app for technicians built on the Power Platform. As part of this release, administrators will see a new app called "Field Service Mobile" in the list of apps. 
 - The following [Field Service 2020 Wave 1](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-field-service/planned-features) features in GA and Preview planned are included in this release:
   - Incident type AI-based suggestions (preview)
   - IoT alerts AI-based suggestions (preview)
