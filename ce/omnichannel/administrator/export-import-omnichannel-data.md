@@ -29,9 +29,8 @@ You can export your Omnichannel configuration data from your source system by us
 
 4. Export and import some entities. These are some of the core entities you can begin with but not limited to only those entities. The entities that you choose to export and import depend on the resources that you want to reuse across the source and target organizations. (Example: If you use the same API keys and provider for say geolocation provider then you can include that entity too.) 
 
-5. In order to filter for only the Omnichannel Queues, you can use the following commands  
-
-**Tools > Import Settings > Use Fetch XML to filter records > Edit FetchXML**
+5. In order to filter for only the Omnichannel Queues, you can use the following commands:  
+    **Tools > Import Settings > Use Fetch XML to filter records > Edit FetchXML**
 
 ```html
 <fetch> 
