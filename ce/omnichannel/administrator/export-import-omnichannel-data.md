@@ -32,30 +32,29 @@ You can export your Omnichannel configuration data from your source system by us
 
 3. Choose the entities and fields that you want to export and import. The entities that you choose to export and import depend on the resources that you want to reuse across the source and target organizations. (Example: If you use the same API keys and provider for your geolocation provider, then you can include that entity too.) 
 
-> These are some of the core entities you can use, but you are not limited to only these entities:
+    These are some of the core entities you can use, but you are not limited to only these entities:
 
-   -  Work stream 
-   -  Context variable 
-   -  Rule item 
-   -  Queue 
-   -  Quick reply 
-   -  Presence 
-   -  Operating hours 
-   -  Sentiment analysis 
+      -  Work stream 
+      -  Context variable 
+      -  Rule item 
+      -  Queue 
+      -  Quick reply 
+      -  Presence 
+      -  Operating hours 
+      -  Sentiment analysis 
 
 4. In order to filter for only the Omnichannel queues, you can use the following commands:  
     **Tools > Configure Import Settings > Use Fetch XML to filter records > Edit FetchXML**
 
-  ```html
-  <fetch> 
-    <entity name="queue" > 
-      <filter> 
-        <condition attribute="msdyn_isomnichannelqueue" operator="eq" value="1" /> 
-      </filter> 
-    </entity> 
-  </fetch> 
-  ```
-
+    ```html
+    <fetch> 
+      <entity name="queue" > 
+        <filter> 
+          <condition attribute="msdyn_isomnichannelqueue" operator="eq" value="1" /> 
+        </filter> 
+      </entity> 
+    </fetch> 
+    ```
 5. Double-click the DataMigrationUtility.exe file in the \Tools\ConfigurationMigration folder to run the Configuration Migration tool, and choose **Export data** in the main screen. 
 
 6. On the **Login** screen, provide authentication details to connect to your Dynamics 365 Server from where you want to export data. If you have multiple organizations on the Common Data Service platform server, and want to select the organization from where to export the data, select the **Always display list of available orgs checkbox**. Select **Login**. 
