@@ -93,7 +93,7 @@ These are some of the core entities you can use, but you are not limited to only
 
 To check and compare records between the source and target environment:
 
-1. Using [advanced find](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/basics/save-advanced-find-search), select all fields of the following entities 
+1. Using [advanced find](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/basics/save-advanced-find-search), select all fields of the entities you previously exported and imported.
 
 2. Spot-check the data in several of the records. 
 
