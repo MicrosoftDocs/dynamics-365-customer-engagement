@@ -4,7 +4,7 @@ description: "Learn about the known issues and limitations in Omnichannel for Cu
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/19/2020
+ms.date: 06/05/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -17,7 +17,7 @@ ms.topic: article
 The topic explains the known issues and limitations of Omnichannel for Customer Service.
 
 > [!Important]
-> We recommend updating Omnichannel for Customer Service to the latest versions for the best experience. More information: [Upgrade Omnichannel for Customer Service](administrator/upgrade-omnichannel.md)
+> We recommend updating Omnichannel for Customer Service to the latest version for the best experience. More information: [Upgrade Omnichannel for Customer Service](administrator/upgrade-omnichannel.md)
 
 ## Cases are routed to agents with higher skill rating value even when agents with exact skill rating value are available
 
@@ -59,7 +59,7 @@ After you upgrade Omnichannel for Customer Service to the latest version in the 
 
 As an administrator, you must activate the **SDK Message Processing Steps** associated to Omnichannel solution.
 
-To work-around the issue, follow these steps:
+Use the following steps as a workaround:
 
 1. Sign in to the Common Data Service platform.
 
@@ -82,7 +82,7 @@ When you open the quick replies menu in the communication panel (Chat and SMS), 
 
 ### Workaround
 
-To work-around the issue, follow these steps:
+Use the following steps as a workaround:
 
 1. Sign in to Omnichannel Administration app.
 2. Select **Quick Replies** in the site map.
@@ -112,32 +112,6 @@ If you are using Omnichannel for Customer Service app, then the **Send Link** bu
 
 If you change the organization name, the upgrade process doesn’t start, and an internal server error is displayed. To begin the upgrade, rename the organization to its original name.
 
-## Conversation does not open as session or as a form
-
-When you use Omnichannel for Customer Service with Unified Service Desk and use **IE Process** to host web applications, a conversation (work item) from the Omnichannel agent dashboard doesn't open as a session or as a form in the application management toolbar.
-
-### Workaround
-
-To work-around the issue, follow these steps:
-
-1. Go to `https://<orgURL>.dynamics.com/apps` and select the **Unified Service Desk Administrator** app.
-2. In the sitemap, under **Basic Settings**, select **Action Calls**.
-3. Select **+ New**.
-4. In the **New Action Call** page, enter the details and then select **Save**.
-
-   | Field | Value |
-   |-------|-------|
-   | Name  |Open Conversation from Omnichannel Agent Dashboard |
-   | Hosted Control | Agent Home Page |
-   | Action | RunScript |
-   | Data | if(navigator.userAgent.search("Trident") >= 0)<br> {<br> window.top.notifyUSD = function(data)<br>{<br>window.open(data);<br>}<br>} |
-5. In the sitemap, under **Basic Settings**, select **Events**, and select **PageLoadComplete** from the list of events.
-6. In the **PageLoadComplete** page, select **Add Existing Action Call**. The **Lookup Records** pane appears on the left.
-7. In the **Lookup Records** pane, enter the name of the action call you want to add. In this case, enter **Open Conversation from Omnichannel Agent Dashboard** in the search box and select the search icon. The action call appears.
-8. Select the **Open Conversation from Omnichannel Agent Dashboard** action call and select **Add**, and then select **Save** to save the event.
-
-Now, if you open the conversation (work item) from the Omnichannel agent dashboard, the conversation opens as a session or as a form in the application management toolbar.
-
 ## Context variable duplication and delete dependency check
 
 While creating a context variable, the system does not perform duplication detection in the work stream. Also, while deleting a context variable, the system does not perform dependency check.
@@ -154,11 +128,11 @@ You can continue to use the third-party channel provider in the unified interfac
 
 ## Support for automatic record linking to conversation
 
-While working on a session, after an agent creates a customer (contact/account) or case record using the quick create (+) option in the nav bar, it is not auto-linked to the conversation. As a work-around, the agent can perform an inline search for the newly created record and link it to the conversation.
+While working on a session, after an agent creates a customer (contact/account) or case record using the quick create (+) option in the nav bar, it is not auto-linked to the conversation. As a workaround, the agent can perform an inline search for the newly created record and link it to the conversation.
 
 ## Authentication error for different agent credentials
 
-If an agent is signed in to Office 365 or Common Data Service through a different username in the browser (Internet Explorer or Edge) than the one used for USD sign in, an authentication error is shown and the user is not allowed to sign in. As a work-around, the user should sign out from all other accounts on the browser and try signing back in.
+If an agent is signed in to Office 365 or Common Data Service through a different username in the browser than the one used for signing in to Unified Service Desk, an authentication error is shown and the user is not allowed to sign in. As a workaround, the user should sign out from all other accounts in the browser and try signing back in.
 
 ## Transfer to queue does not show a message for the initiating agent
 
@@ -166,7 +140,7 @@ When an agent initiates a transfer, the initiating agent becomes a consulting ag
 
 ## Support for Notes when customer is not linked to a conversation
 
-You as an agent, cannot launch and capture notes for a session where customer is not linked to the conversation. As a work-around, link the conversation to a customer (contact) and then try launching the notes control for capturing the notes.
+You as an agent, cannot launch and capture notes for a session where customer is not linked to the conversation. As a workaround, link the conversation to a customer (contact) and then try launching the notes control for capturing the notes.
 
 ## Queue support for notifications
 

@@ -29,7 +29,7 @@ A forecast helps your organization predict how much revenue your sales team will
 
 As an administrator or forecast manager, you can configure forecasts in your organization. You can define the type of forecast, its hierarchy, permissions for accessing it, and the details you want to appear on the forecast grid. After a forecast is activated, your sales team can view the revenue and pipeline projections.
 
-By default, forecasting is available in your organhization and the following page is displayed when you select **Forecast configuration**:
+By default, forecasting is available in your organization and the following page is displayed when you select **Forecast configuration**:
 
 > [!div class="mx-imgBorder"]
 > ![Forecasting is enabled](media/forecast-enable-forecasting-enabled.png "Forecasting is enabled") 

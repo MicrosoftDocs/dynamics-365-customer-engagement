@@ -23,9 +23,6 @@ search.app:
 ---
 
 
-<!--from editor: This topic include numerous Customer Engagement "include" files that need to be updated. 
-
-
 # Deploy Dynamics 365 App for Outlook  
 
 > [!IMPORTANT]
@@ -216,8 +213,7 @@ If a user's email is synchronized through [!INCLUDE[cc_server_side_synch](../inc
 
 > [!NOTE]
 >  Users can also disable or remove the add-in themselves, if needed. For more information, see the [Dynamics 365 App for Outlook User’s Guide](../outlook-app/dynamics-365-app-outlook-user-s-guide.md).  
-
-<!--    
+  
 <a name=BKMK_DeployOnprem></a>   
 
 ## To deploy to Dynamics 365 apps (on-premises) users  
@@ -225,9 +221,8 @@ If a user's email is synchronized through [!INCLUDE[cc_server_side_synch](../inc
 
 -   Configure your Dynamics 365 apps server for Internet-facing deployment. See [Configure IFD for Microsoft Dynamics 365 apps](https://technet.microsoft.com/library/dn609803.aspx).  
 
-
 -   If you're connecting to Exchange on-premises, configure the OAuth provider and register client apps. See [Configure Windows Server 2012 R2 for Dynamics 365 apps that use OAuth](https://technet.microsoft.com/library/hh699726.aspx).  
---> 
+
 
 <a name=BKMK_Troubleshoot></a> 
 ## Troubleshooting installation problems  

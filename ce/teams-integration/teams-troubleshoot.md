@@ -2,7 +2,7 @@
 title: "Troubleshoot Microsoft Teams integration| MicrosoftDocs"
 ms.custom: 
 description: "Troubleshoot issues with Microsoft Teams integration."
-ms.date: 10/24/2019
+ms.date: 6/03/20
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -67,7 +67,7 @@ To fix the issue, disable the Enhanced Microsoft Teams integration feature.
 
 Error: **User does not have permissions to create SharePoint Site or Document Location. This record is not connected to Dynamics 365**.
 
-This means the user that is getting this error does not have sufficient permissions that is required for the user role to pin an entity to a Microsoft Teams channel; however, changes made to the record in Microsoft Teams will update in model-driven apps in Dynamics 365.
+This means the user that is getting this error does not have sufficient permissions such as Create, Read, Write, Append, AppendTo and Delete for the user role to pin an entity to a Microsoft Teams channel; however, changes made to the record in Microsoft Teams will update in model-driven apps in Dynamics 365.
 
 When the user tries to pin an entity to a Microsoft Teams channel, this error will display in the notification bar:
 
@@ -89,7 +89,7 @@ To fix the issue, do the following:
 5. Navigate to **Settings** > **Security** > **Security Roles**.
 6. Open the security role identified above.
 7. Go to the **Core Records** tab.
-8. Give **Create** permissions to **SharePoint Site** and **Document Location**.
+8. Give Create, Read, Write, Append, AppendTo and Delete permissions to **SharePoint Site** and **Document Location**.
 9. Select **Save and Close**.
 
 Now, when the user tries to pin the Common Data Service entity to the required Microsoft Teams channel, it should work.
