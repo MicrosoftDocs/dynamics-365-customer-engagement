@@ -88,7 +88,7 @@ The details you'll see for a SMS channel are as configured by your administrator
 
 ## Notification time-out and rerouting of conversations
 
-When you do not respond to an incoming conversation notification, it will time out based on the time-out settings configured by your administrator and rerouted.
+When you do not respond to an incoming conversation notification, it will time out based on the time-out settings configured by your administrator and be rerouted.
 
 Sometimes, you might see that conversations have been assigned to you without notifications showing up. The notifications though sent by the system are not seen because you had closed the browser, navigated away from the app page, or had lost network connectivity before the notifications could be displayed. In such a case, while the system might take a few seconds to mark you as unavailable, it ends up assigning conversations to you. The conversation is then rerouted after eight minutes.
 
