@@ -95,14 +95,14 @@ This article chronicles important updates related to Field Service Mobile and as
 - SearchForm force the cached entities, we already know the entities to search 
 - Desktop: Do not scrollIntoView multiline text DetailItem on click 
 - Google, Exchange contacts: fullname filter is compatible 
-- Clicking on PowerBI Sign in button doesn't open authentication dialog 
+- Clicking on Power BI Sign in button doesn't open authentication dialog 
 - iOS'Navigate To' command in Account form doesn't fill in the destination automatically after redirecting to the map app 
 - 'Direct to current location' button on the map of work order doesn't work in iOS 
 - "Unlock with your fingerprint" window doesn't appear in Android 
 - Android - unable to use 'navigate to' on account and WO 
 - NavigateTo on iOS opens Google Maps even though Apple Maps is selected 
 - Scan Barcode in the hamburger menu doesn't work 
-- FSM Android splash screen hangss. 
+- FSM Android splash screen hangs. 
 - OAuth with Proxy - If Proxy is bad, the app doesn't show any indication and it remains on the Sign In page. 
 - Saving IoT Device Command - Getting Error "Server Error: PluginBase" 
 - Allow sign in to OnPrem url 
@@ -110,7 +110,7 @@ This article chronicles important updates related to Field Service Mobile and as
 - Validate mobile app with no Woodford project. 
 - "e" letter is displaying in separate line for "Mark Complete" button on Service Tasks sub-grid of Work Order form 
 - Booking record should be deleted from the app if it is removed from the Schedule Board 
-- Server error appearss when users with FS Dispatcher privileges try to create Customer Asset in online mode
+- Server error appears when users with FS Dispatcher privileges try to create Customer Asset in online mode
 
 
 ## 11.3.107
@@ -136,7 +136,7 @@ To learn more about mobile projects, see our topic on [installing the Field Serv
 | [1.0.4847](https://aka.ms/fsmobile-project)  |  June 2020  |  12.1+ | 12.1+ | 8.8.14 | 
 
 - Added support for Remote Assist deep link on iOS.
-- Bug fix to populate fields from Service Account when creating a new Work Order assosiated with that Service Account.
+- Bug fix to populate fields from Service Account when creating a new Work Order associated with that Service Account.
 
 
 ## 1.0.4549
