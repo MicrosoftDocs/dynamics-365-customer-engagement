@@ -26,9 +26,9 @@ To export and import your Omnichannel Administration app configuration data, ins
 
 You can export the configuration data from your source system by using the Omnichannel Administration app configuration data schema file.
 
-1. Download the Configuration Migration tool. Use the [PowerShell script](https://docs.microsoft.com/powerapps/developer/common-data-service/download-tools-nuget#download-tools-using-powershell) to download the latest version of the tool.  
+1. Download the Configuration Migration tool. Use the [PowerShell script](https://go.microsoft.com/fwlink/p/?linkid=2132473) to download the latest version of the tool.  
 
-2. Create a schema file per Omnichannel Solution following the steps in [Create a schema to export configuration data](https://docs.microsoft.com/power-platform/admin/create-schema-export-configuration-data).
+2. Create a schema file per Omnichannel Solution following the steps in [Create a schema to export configuration data](https://go.microsoft.com/fwlink/p/?linkid=2132474).
 
 3. Select the entities and fields that you want to export and import. The entities that you choose to export and import depend on the resources that you want to reuse across the source and target organizations. (Example: If you use the same API keys and provider for your geolocation provider, then you can include that entity too.)
 
@@ -55,19 +55,17 @@ You can export the configuration data from your source system by using the Omnic
       </entity> 
     </fetch> 
     ```
-5. Double-click the DataMigrationUtility.exe file in the \Tools\ConfigurationMigration folder to run the Configuration Migration tool, and choose **Export data** in the main screen.
+5. Double-click the DataMigrationUtility.exe file to run the Configuration Migration tool, and choose **Export data** in the main screen.
 
 6. On the **Login** screen, provide authentication details to connect to your Dynamics 365 Server instance from where you want to export data. If you have multiple organizations on the Common Data Service platform server, and want to select the organization from where to export the data, select the **Always display list of available orgs checkbox**. Select **Login**.
 
 7. If you have multiple organizations, and you selected the **Always display list of available orgs** check box, the next screen lets you choose the organization that you want to connect to. Select the Common Data Service platform organization to connect to.
 
-8. On the next screen, select the Omnichannel Administration app configuration data schema file (OmnichannelBaseSchema.xml) to be used for the data export.
+8. Specify the name and location of the data file to be exported.
 
-9. Specify the name and location of the data file to be exported.
+9. Choose **Export Data**. The screen displays the export progress status and the location of the exported file at the bottom of the page after the export is complete.
 
-10. Choose **Export Data**. The screen displays the export progress status and the location of the exported file at the bottom of the page after the export is complete.
-
-11. Choose **Exit** to close the tool.
+10. Choose **Exit** to close the tool.
 
 ## Import configuration data using the Configuration Migration tool 
 
@@ -83,7 +81,7 @@ You can export the configuration data from your source system by using the Omnic
 
 6. Click **Exit** to close the tool.
 
-## Test the migration
+## Test the export or import
 
 To check and compare records between the source and target environment:
 
@@ -103,7 +101,7 @@ To check the functionality on your target environment:
 
 ## Export and import related artifacts
 
-For entity routing, follow the instructions to [Export and import your flows across environments with packaging](https://flow.microsoft.com/blog/import-export-bap-packages/).
+For entity routing, follow the instructions to [Export and import your flows across environments with packaging](https://go.microsoft.com/fwlink/?linkid=2132475).
 
 ### See also
 
