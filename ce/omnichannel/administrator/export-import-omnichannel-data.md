@@ -55,19 +55,17 @@ You can export the configuration data from your source system by using the Omnic
       </entity> 
     </fetch> 
     ```
-5. Double-click the DataMigrationUtility.exe file in the \Tools\ConfigurationMigration folder to run the Configuration Migration tool, and choose **Export data** in the main screen.
+5. Double-click the DataMigrationUtility.exe file to run the Configuration Migration tool, and choose **Export data** in the main screen.
 
 6. On the **Login** screen, provide authentication details to connect to your Dynamics 365 Server instance from where you want to export data. If you have multiple organizations on the Common Data Service platform server, and want to select the organization from where to export the data, select the **Always display list of available orgs checkbox**. Select **Login**.
 
 7. If you have multiple organizations, and you selected the **Always display list of available orgs** check box, the next screen lets you choose the organization that you want to connect to. Select the Common Data Service platform organization to connect to.
 
-8. On the next screen, select the Omnichannel Administration app configuration data schema file (OmnichannelBaseSchema.xml) to be used for the data export.
+8. Specify the name and location of the data file to be exported.
 
-9. Specify the name and location of the data file to be exported.
+9. Choose **Export Data**. The screen displays the export progress status and the location of the exported file at the bottom of the page after the export is complete.
 
-10. Choose **Export Data**. The screen displays the export progress status and the location of the exported file at the bottom of the page after the export is complete.
-
-11. Choose **Exit** to close the tool.
+10. Choose **Exit** to close the tool.
 
 ## Import configuration data using the Configuration Migration tool 
 
@@ -83,7 +81,7 @@ You can export the configuration data from your source system by using the Omnic
 
 6. Click **Exit** to close the tool.
 
-## Test the migration
+## Test the export or import
 
 To check and compare records between the source and target environment:
 
