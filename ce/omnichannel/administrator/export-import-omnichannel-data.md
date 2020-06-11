@@ -14,7 +14,7 @@ ms.topic: article
 
 Now that you have used Omnichannel for Customer Service in a test environment, you're ready to unlock all the benefits and features in a live production environment (or any target environment). You don't have to start all over. Instead, you can follow this process to export your Omnichannel Administration app configuration data from your test environment and import the data into your new target environment. That way, you can keep all of the queues, routing rules, work streams, and other custom settings that you set up the first time.
 
-To export and import your Omnichannel configuration data, you must first install the following apps of same version in both the source and target environments:
+To export and import your Omnichannel Administration app configuration data, install the following apps of same version in both the source and target environments:
 
 - The Omnichannel for Customer Service Administration app
 - Any third-party solutions you plan to integrate, such as Screenmeet
@@ -24,7 +24,7 @@ To export and import your Omnichannel configuration data, you must first install
 
 ## Export configuration data using the Configuration Migration tool
 
-You can export your Omnichannel configuration data from your source system by using the Omnichannel configuration data schema file.
+You can export the configuration data from your source system by using the Omnichannel Administration app configuration data schema file.
 
 1. Download the Configuration Migration tool. Use the [PowerShell script](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/download-tools-nuget#download-tools-using-powershell) to download the latest version of the tool.  
 
@@ -55,13 +55,13 @@ You can export your Omnichannel configuration data from your source system by us
       </entity> 
     </fetch> 
     ```
-5. Double-click the DataMigrationUtility.exe file in the \Tools\ConfigurationMigration folder to run the Configuration Migration tool, and choose **Export data** in the main screen. 
+5. Double-click the DataMigrationUtility.exe file in the \Tools\ConfigurationMigration folder to run the Configuration Migration tool, and choose **Export data** in the main screen.
 
-6. On the **Login** screen, provide authentication details to connect to your Dynamics 365 Server instance from where you want to export data. If you have multiple organizations on the Common Data Service platform server, and want to select the organization from where to export the data, select the **Always display list of available orgs checkbox**. Select **Login**. 
+6. On the **Login** screen, provide authentication details to connect to your Dynamics 365 Server instance from where you want to export data. If you have multiple organizations on the Common Data Service platform server, and want to select the organization from where to export the data, select the **Always display list of available orgs checkbox**. Select **Login**.
 
-7. If you have multiple organizations, and you selected the Always display list of available orgs check box, the next screen lets you choose the organization that you want to connect to. Select the Common Data Service platform organization to connect to.
+7. If you have multiple organizations, and you selected the **Always display list of available orgs** check box, the next screen lets you choose the organization that you want to connect to. Select the Common Data Service platform organization to connect to.
 
-8. On the next screen, select the Omnichannel for Customer Service configuration data schema file (OmnichannelBaseSchema.xml) to be used for the data export.
+8. On the next screen, select the Omnichannel Administration app configuration data schema file (OmnichannelBaseSchema.xml) to be used for the data export.
 
 9. Specify the name and location of the data file to be exported.
 
@@ -79,7 +79,7 @@ You can export your Omnichannel configuration data from your source system by us
 
 4. The next screen prompts you to provide the data file (.zip) to be imported. Browse to the data file, select it, and then click **Import Data**.
 
-5. The next screen displays the import status of your records. The data import is done in multiple passes, first  foundation data is imported, while the dependent data is queuing up, and then the dependent data is imported in the subsequent passes to handle any data dependencies or linkages. This ensures clean and consistent data import.
+5. The next screen displays the import status of your records. The data import is done in multiple passes,foundation data is imported first, while the dependent data is queuing up, and then the dependent data is imported in the subsequent passes to handle any data dependencies or linkages. This ensures clean and consistent data import.
 
 6. Click **Exit** to close the tool.
 
@@ -89,17 +89,17 @@ To check and compare records between the source and target environment:
 
 1. Using [advanced find](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/basics/save-advanced-find-search), select all fields of the entities you previously exported and imported.
 
-2. Spot-check the data in several of the records. 
+2. Spot-check the data in several of the records.
 
-To check the functionality on your target environment: 
+To check the functionality on your target environment:
 
-1. Create users, assign them Omnichannel roles, and add them to queues.
+1. Create users, assign them Omnichannel for Customer Service roles, and add them to queues.
 
-2. Add default presence and capacity to the users. 
+2. Add default presence and capacity to the users.
 
-3. Create a Live Chat Widget.
+3. Create a live chat widget.
 
-4. Test a scenario in Live Chat.
+4. Test a scenario in live chat.
 
 ## Export and import related artifacts
 
