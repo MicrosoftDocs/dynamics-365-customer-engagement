@@ -36,12 +36,13 @@ search.app:
 
 // link to video https://youtu.be/QOrePYZ9fds
 
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/scheduling-schedule-assistant1.png)
 
 
 ## Prerequisites
-Universal Resource Scheduling, included in Dynamics 365 Field Service, Dynamics 365 Project Service Automation, Dynamics 365 Customer Service
+The Schedule Assistant is a capability of the Universal Resource Scheduling solution that is included and installed with Dynamics 365 Field Service, Dynamics 365 Project Service Automation, Dynamics 365 Customer Service
 
 > [!Note]
 >
@@ -53,12 +54,65 @@ Universal Resource Scheduling, included in Dynamics 365 Field Service, Dynamics 
 - a work order will have things like location, time, territory, and time windows. when a work order is created, a resource requirement is automatically created and you can add more details like characteristics, roles, business units, and resource preferences.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/scheduling-schedule-assistant2.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-schedule-assistant3.png)
 
 those details will be used to match resources who have many of the same attributes
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/scheduling-schedule-assistant4.png)
+
+## Run schedule assistant
+
+you can run the schedule assistant from the schedule board, the top of the work order form, the top of the requirement form, and from the list after selecting one work order record
+
+## Filters
+
+details from the work order and requirment appear in the schedule assistant filter and can be edited at the time of scheduling
+
+### Location
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-schedule-assistant-schedule-board.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-schedule-assistant-travel-times.png)
+
+## Reschedule
+
+## Book the same work order again
+
+## Book entities other than work orders
+
+
+
+[Enable an entity for scheduling](../field-service/schedule-new-entity.md)   
+
+## Multi-resource scheduling (Requirement groups)
+
+[Multi-resource scheduling with Requirement groups](../field-service/multi-resource-scheduling-requirement-groups.md)   
 
 ## Configuration considerations
 ## Additional Notes
+
+### See also
+
+https://docs.microsoft.com/en-us/dynamics365/field-service/schedule-with-travel-time
+
+https://docs.microsoft.com/en-us/dynamics365/field-service/schedule-time-constraints
+
+https://docs.microsoft.com/en-us/dynamics365/field-service/resource-preferences
+
+https://docs.microsoft.com/en-us/dynamics365/field-service/quick-scheduling
+
+https://docs.microsoft.com/en-us/dynamics365/field-service/schedule-multi-day-work
+
+https://docs.microsoft.com/en-us/dynamics365/field-service/resource-crews
+
+https://docs.microsoft.com/en-us/dynamics365/field-service/resource-pools
+
+https://docs.microsoft.com/en-us/dynamics365/field-service/facility-scheduling
