@@ -17,7 +17,7 @@ Now that you have used Omnichannel for Customer Service in a test environment, y
 To export and import your Omnichannel Administration app configuration data, install the following apps of same version in both the source and target environments:
 
 - The Omnichannel for Customer Service Administration app
-- Any third-party solutions you plan to integrate, such as Screenmeet
+- Any third-party solutions you plan to integrate, such as ScreenMeet
   
 > [!NOTE]
 > The following processes don't help with the export and import of users, so you must add them to the target environment after you have imported the configuration data.
@@ -87,7 +87,7 @@ You can export the configuration data from your source system by using the Omnic
 
 To check and compare records between the source and target environment:
 
-1. Using [advanced find](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/basics/save-advanced-find-search), select all fields of the entities you previously exported and imported.
+1. Using [advanced find](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/save-advanced-find-search), select all fields of the entities you previously exported and imported.
 
 2. Spot-check the data in several of the records.
 
