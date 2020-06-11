@@ -2,7 +2,7 @@
 title: "Uninstall Dynamics 365 Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 06/05/2020
+ms.date: 06/11/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
