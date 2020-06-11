@@ -65,9 +65,12 @@ those details will be used to match resources who have many of the same attribut
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-schedule-assistant4.png)
 
-## Run schedule assistant
+## Trigger schedule assistant
 
 you can run the schedule assistant from the schedule board, the top of the work order form, the top of the requirement form, and from the list after selecting one work order record
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-schedule-assistant7.png)
 
 ## Filters
 
