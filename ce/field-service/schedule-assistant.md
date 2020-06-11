@@ -110,29 +110,47 @@ details from the work order and requirment appear in the schedule assistant filt
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-schedule-assistant-book-leads.png)
 
-[Enable an entity for scheduling](../field-service/schedule-new-entity.md)   
+for more info [Enable an entity for scheduling](../field-service/schedule-new-entity.md)   
 
 ## Multi-resource scheduling (Requirement groups)
 
-[Multi-resource scheduling with Requirement groups](../field-service/multi-resource-scheduling-requirement-groups.md)   
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-schedule-assistant-requirement-group.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-schedule-assistant-requirement-group-assistant.png)
+
+for more info[Multi-resource scheduling with Requirement groups](../field-service/multi-resource-scheduling-requirement-groups.md)   
 
 ## Configuration considerations
 ## Additional Notes
 
 ### See also
 
-https://docs.microsoft.com/en-us/dynamics365/field-service/schedule-with-travel-time
+There are many ways to use the schedule assistant for many scenarios see the following topics:
 
-https://docs.microsoft.com/en-us/dynamics365/field-service/schedule-time-constraints
+Title: https://docs.microsoft.com/en-us/dynamics365/field-service/schedule-with-travel-time
+Short description:
 
-https://docs.microsoft.com/en-us/dynamics365/field-service/resource-preferences
+Title: https://docs.microsoft.com/en-us/dynamics365/field-service/schedule-time-constraints
+Short description:
 
-https://docs.microsoft.com/en-us/dynamics365/field-service/quick-scheduling
+Title: https://docs.microsoft.com/en-us/dynamics365/field-service/resource-preferences
+Short description:
 
-https://docs.microsoft.com/en-us/dynamics365/field-service/schedule-multi-day-work
+Title: https://docs.microsoft.com/en-us/dynamics365/field-service/quick-scheduling
+Short description:
 
-https://docs.microsoft.com/en-us/dynamics365/field-service/resource-crews
+Title: https://docs.microsoft.com/en-us/dynamics365/field-service/schedule-multi-day-work
+Short description:
 
-https://docs.microsoft.com/en-us/dynamics365/field-service/resource-pools
+Title: https://docs.microsoft.com/en-us/dynamics365/field-service/resource-crews
+Short description:
 
-https://docs.microsoft.com/en-us/dynamics365/field-service/facility-scheduling
+Title: https://docs.microsoft.com/en-us/dynamics365/field-service/resource-pools
+Short description:
+
+Title: https://docs.microsoft.com/en-us/dynamics365/field-service/facility-scheduling
+Short description:
