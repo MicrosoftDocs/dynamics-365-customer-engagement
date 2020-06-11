@@ -74,3 +74,4 @@ You can take the following actions on the products added to the **Product Line I
 [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)   
 [Print leads, quotes, and other records](../basics/print-leads-quotes-other-records.md)  
 [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
+[Price calculation for Opportunity, Quote, Order, and Invoice records](price-calculation-for-opportunity-quote-order-and-invoice-records.md)

@@ -108,6 +108,7 @@
 #### [Reopen leads](../sales-enterprise/re-open-lead-sales.md)
 #### [Add products to an opportunity](add-products-opportunity.md)  
 #### [Add products to an opportunity by using the enhanced experience](add-products-enhanced-experience.md)
+#### [Price calculation for Opportunity, Quote, Order, and Invoice records](price-calculation-for-opportunity-quote-order-and-invoice-records.md)
 #### [How are stakeholders and sales team members tracked for opportunities?](stakeholders-sales-team-members.md)
 #### [Recalculate an opportunity](recalculate-opportunity.md)
 #### [Close opportunities as won or lost](../sales-enterprise/close-opportunity-won-lost-sales.md)

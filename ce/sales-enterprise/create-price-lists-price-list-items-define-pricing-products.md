@@ -2,10 +2,8 @@
 title: "Define product pricing with price lists and price list items (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Define what to charge for your products or services in Dynamics 365 Sales."
 ms.date: 10/01/2019
-ms.service: 
+ms.service:
   - "dynamics-365-sales"
-ms.custom: 
-  - "dyn365-sales"
 ms.topic: get-started-article
 author: shubhadaj
 ms.author: shujoshi
@@ -103,6 +101,8 @@ Price lists tie the unit, product, and pricing details together, so before you c
 
             > [!div class="mx-imgBorder"]
             > ![Pricing information tab on the price list form](media/pricing-information-tab-price-list-item-form.png "Pricing information tab on the price list form")
+
+        More information: [Price calculation for Opportunity, Quote, Order, and Invoice records](price-calculation-for-opportunity-quote-order-and-invoice-records.md)
  
 7.  You can also associate default price lists for territories so that the sales reps working with accounts on contacts in certain territories have the price list selected by default. 
 
@@ -227,4 +227,5 @@ Make sales agents' job easier by adding default pricelists for territories or cu
   
 ### See also  
  [System Settings dialog box - Sales tab](../admin/system-settings-dialog-box-sales-tab.md)   
- [Classify products and bundles into product families](../sales-enterprise/create-product-bundles-sell-multiple-items-together.md)
+ [Classify products and bundles into product families](../sales-enterprise/create-product-bundles-sell-multiple-items-together.md)  
+[Price calculation for Opportunity, Quote, Order, and Invoice records](price-calculation-for-opportunity-quote-order-and-invoice-records.md)
