@@ -114,6 +114,12 @@ Looking for training outside of documentation? Here are some of our training res
   
 - [Microsoft Certified: Dynamics 365 Fundamentals](https://docs.microsoft.com/learn/certifications/d365-fundamentals): Get this certification to prove that you understand all of the Microsoft Dynamics 365 products, including; artificial intelligence (AI); mixed reality (MR); the Power Platform; cloud concepts; cloud security; Dynamics 365 security; Common Data Service; Dynamics 365 reporting; Dynamics 365 integrations; and cloud deployment.
 
+## Walkthrough of Field Service
+
+Take a look at the following video for a full walkthrough of Field Service and its functionality.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4wAd2]
+
 
 ## Set up Field Service
 The purpose of this section is to help you set up a Field Service environment and configure the core Field Service scenario.

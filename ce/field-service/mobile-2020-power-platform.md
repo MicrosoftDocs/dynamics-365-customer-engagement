@@ -2,7 +2,7 @@
 title: "Field Service (Dynamics 365) mobile app | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 05/08/2020
+ms.date: 06/10/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -31,6 +31,7 @@ search.app:
 
 Field Service (Dynamics 365) is a mobile app designed and optimized for technicians to view Dynamics 365 Field Service work orders, customer assets, accounts, and contacts. Different than Field Service Mobile (see feature comparison below), this alternative mobile app is built on Microsoft's Power Platform as a model-driven app and is customizable to your business needs with the same admin console as all Dynamics 365 business apps.
 
+Both the Field Service (Dynamics 365) mobile app _and_ the Field Service Mobile app are included with Field Service.
 
 Available natively for Apple iOS and Google Android phones, Field Service (Dynamics 365) offers technicians many capabilities they need to perform onsite customer service, such as:  
 
@@ -63,18 +64,19 @@ Field Service Mobile is recommended for more **complex** use cases where you may
 | Driving directions | Technician | Yes | Yes |
 | Speech to text | Technician | Yes | Yes |
 | Geocoding | Technician | Yes | Yes |
-| Push notifications | Technician | | Yes |
-| Geofencing | Technician | | Yes |
+| [Push notifications](mobile-push-notifications.md) | Technician | | Yes |
+| [Geofencing](geofencing.md) | Technician | | Yes |
 | IoT alerts | Technician | | Yes |
 | Reporting | Technician | | Yes |
 | Scan to find asset | Technician | | Yes |
-| Location sharing and auditing | Admin | | Yes |
+| [Location sharing and auditing](https://docs.microsoft.com/dynamics365/field-service/geofencing#step-3-enable-location-auditing-for-the-field-service-mobile-app) | Admin | | Yes |
 | Enhanced mobile workflows | Admin | | Yes |
 | Enhanced offline sync filters | Admin | | Yes |
-| Remote Assist | Integration | | Yes |
-| Microsoft Intune  | Integration | | Yes |
+| Allow technician to force data sync | | Yes |
+| [Remote Assist](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/overview-hololens) | Integration | | Yes |
+| [Microsoft Intune](field-service-mobile-intune.md)  | Integration | | Yes |
 
-
+Check [Release Plans](https://docs.microsoft.com/dynamics365/release-plans/) to stay up to date on upcoming features for Field Service including the Field Service (Dynamics 365) mobile app.
 
 ## Prerequisites
 
@@ -255,37 +257,7 @@ Add and delete booking fields as needed.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Power Apps showing the form editor for the Bookable Resource Booking.](./media/mobile-2020-admin-booking-form-combined-add-fields.png)
 
-The work order forms are displayed within the booking form with a new control called **Form Component Control**.
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Power Apps showing the Bookable Resource Booking form editor.](./media/mobile-2020-admin-booking-form-combined-classic.png)
-
-To add more work order information to the booking form, either edit the work order forms mentioned earlier, or create a new work order form and add it to the booking form by selecting the section and adding a **Form Component Control**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Properties dialogue in the Power Apps form editor for the Bookable Resource Booking entity.](./media/mobile-2020-admin-booking-form-combined-classic-control.png)
-
-Within the classic admin console, double-click the section and **Form Component Control** for Web, Phone, and Tablet.
-
-In the **Properties** section, enter:
-
-Lookup value: 
-
-    msdyn_workorder
-
-Forms (substitute the form ID of the work order form you created): 
-
-    <QuickForms><QuickFormIds><QuickFormId entityname="msdyn_workorder">c0ebdf20-f27f-4acc-8c9f-a9a202a5e917</QuickFormId></QuickFormIds></QuickForms>
-
-You can get the form ID in the URL when on the form in the admin console.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Power Apps in a web browser, showing an example form ID in the URL.](./media/mobile-2020-admin-form-id.png)
-
-There are Form Component Controls for each work order form that is inserted into the booking form. Below is another Form Component Control for the Work Order-Service form.
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Power Apps form builder for the Bookable Resource Booking.](./media/mobile-2020-admin-booking-form-combined-classic-control-service.png)
+Another way you can add work order information to the booking form is to add a [quick view form](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-view-forms) that displays work order fields. Note that quick view forms are read-only, but you can go to the related work order form from there. 
 
 ### Configure offline data and sync filters
 
@@ -342,3 +314,16 @@ For another example, the **Work Order Product** entity has a data download filte
 ### Can I only add and view Field Service entities on Field Service (Dynamics 365)?
 
 Because Field Service (Dynamics 365) is a model-driven app on the Power Platform, any entity can be added; users can only see entities and records that they have the licenses and security to access, regardless of whether it's part of the Field Service app or not.
+
+### Why is the app saying "You're almost there"?
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the "you're almost there" issue.](./media/mobile-2020-youre-almost-there.png)
+
+If you are getting the error "You're almost there" after signing in to the mobile app, try the following:
+
+1. Make sure you have the correct security role (Field Service - Resource) and that the security role is assigned to the Field Service Mobile app.
+2. Sign in again, pull down the screen to refresh and wait for at least a few minutes
+3. If completing both steps 1 and 2 above do not resolve the issue, [submit a support ticket](https://dynamics.microsoft.com/contact-us/).
+
+

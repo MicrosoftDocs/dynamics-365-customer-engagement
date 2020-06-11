@@ -1,6 +1,7 @@
-## 3.12.22.4
+## 3.12.22.9
 
-- On the Organizations, that have [Schedle board preview enabled](https://aka.ms/scheduleboard), the Schedule Board Preview can be accessed from **Field Service** application Sitemap along with **Universal Resource Scheduling** application sitemap. 
+- For organizations that have [schedule board preview enabled](https://aka.ms/scheduleboard), the schedule board preview can be accessed from **Field Service** application sitemap along with **Universal Resource Scheduling** application sitemap. 
+- Fixed an issue where Booking Tooltip blinks when the height of the Tooltip is greater than the height of the visible center Gantt area where Bookings are displayed on the Schedule Board. With this fix, the tooltip would not blink and User would be able to click on the hyperlinks on the Tooltip to open the respective record in a new window. 
 - Fixed the issue where [Intervals](https://docs.microsoft.com/dynamics365/common-scheduler/fulfillment-preferences#interval-setup) functionality of fulfilment preferences was not working on the Schedule Assistant. 
 - Resolved the issue of duplicated timeslots of the Resources on the List view type of the Days view of the Schedule Board
 - Multiple calls to retrieve data in the List view type of the Days view are reduced to one call, to improve performance on the Schedule Board
@@ -13,6 +14,7 @@
 - Fixed the focus shifting issue on the Schedule Board, where Focus is shifted to a previous booking in focus, when Booking Status of the Booking assigned to a Resource at the bottom of the Resource list. With this fix, the focus would stay on the Booking in context. 
 - Fixed a translation issue on Requirement Groups in Japanese, where the name of the Requirement or Subgroups changes from Japanese to English when the record is saved. 
 - Quick Scheduling now supports and handles different date format styles like English (South Africa).  
+- Fixed an issue with the **Allow Overlapping** funtionality on the Bookings. With this fix, when a Booking is marked as **Allow Overlapping** set to yes, Schedule Assistant (Find Availability) will show the above Booking as an available timeslot if the **Allow Overlapping** advanced setting on the filter view is selected. 
 
 ## 3.12.21.9
 
@@ -374,7 +376,7 @@
 - When launching the schedule assistant from a schedulable entity, the user now lands back on the same form after clicking book and exit.
 - Schedule board no longer shows resource with a capacity greater than 1 as available all day.
 - When booking a requirement group using the schedule assistant, the booking status dropdown now properly filters to the booking statuses for that schedulable entity. To learn more about using different statuses for different schedulable entities, here is a previous blog post. 
-- Issues loading requirement group control in Edge browser.
+- Issues loading requirement group control in the Microsoft Edge browser.
 - When using the schedule assistant to schedule a requirement group for a facility, there is no longer a travel time conflict between the facility and the resources.
 - Double booking option in schedule assistant on daily, weekly, and monthly boards now properly books the resource even if the resource has no remaining capacity.
 - Appointment schedule board settings are now generated properly.
@@ -403,7 +405,7 @@
 - When launching the schedule assistant from a schedulable entity, the user now lands back on the same form after clicking book and exit.
 - Schedule Board no longer shows resource with a capacity greater than 1 as available all day.
 - When booking a requirement group using the schedule assistant, the booking status dropdown now properly filters to the booking statuses for that schedulable entity. To learn more about using different statuses for different schedulable entities, here is a previous blog post. 
-- Issues loading requirement group control in edge browser
+- Issues loading requirement group control in the Microsoft Edge browser
 - When using the schedule assistant to schedule a requirement group for a facility, there is no longer a conflict of travel time between the facility and the resources
 - Double booking option in schedule assistant on daily, weekly, and monthly boards now properly books the resource even if the resource does not have any remaining capacity.
 - Appointment schedule board settings are now generated properly.

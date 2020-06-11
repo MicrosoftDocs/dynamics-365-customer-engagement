@@ -4,7 +4,7 @@ description: "Learn how to troubleshoot the issues you may face while working on
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/14/2020
+ms.date: 06/05/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -49,7 +49,7 @@ To resolve the issue, perform steps 1 through 9 in the [Update entity records wo
 
 **Entity Records Distribution Flow** is not updated automatically. Due to this issue, you can't create an entity records channel and the system shows a business process error.
 
-**The operation failed due to an incorrect configuration in Entity Records Distribution Flow. Ensure the Entity Records Distribution Flow isn't deleted or renamed.**.
+**The operation failed due to an incorrect configuration in Entity Records Distribution Flow. Ensure the Entity Records Distribution Flow isn't deleted or renamed.**
 
    > [!div class=mx-imgBorder]
    > ![Business Process Error](media/business-process-error2.PNG "Business Process Error")
@@ -383,9 +383,7 @@ When you enter different credentials, this issue occurs.
 
 ### Resolution
 
-If you use **IE process** to host applications, open Internet Explorer browser, and go to https://login.microsoftonline.com/logout.srf. The URL signs you from office.com. Now, sign in to Unified Service Des client application and try again.
-
-If you use **Chrome process** to host applications, go to `C:\Users\<USER_NAME>\AppData\Roaming\Microsoft\USD` and delete the **CEF** folder. Now, sign in to Unified Service Des client application and try again. 
+If you use **Chrome process** to host applications, go to `C:\Users\<USER_NAME>\AppData\Roaming\Microsoft\USD` and delete the **CEF** folder. Now, sign in to Unified Service Desk client application and try again.
 
 ## Communication panel doesn't load in Omnichannel for Customer Service app
 
