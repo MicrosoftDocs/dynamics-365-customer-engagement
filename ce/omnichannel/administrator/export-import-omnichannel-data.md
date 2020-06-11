@@ -26,9 +26,9 @@ To export and import your Omnichannel Administration app configuration data, ins
 
 You can export the configuration data from your source system by using the Omnichannel Administration app configuration data schema file.
 
-1. Download the Configuration Migration tool. Use the [PowerShell script](https://go.microsoft.com/fwlink/?linkid=2132473) to download the latest version of the tool.  
+1. Download the Configuration Migration tool. Use the [PowerShell script](https://go.microsoft.com/fwlink/p/?linkid=2132473) to download the latest version of the tool.  
 
-2. Create a schema file per Omnichannel Solution following the steps in [Create a schema to export configuration data](https://go.microsoft.com/fwlink/?linkid=2132474).
+2. Create a schema file per Omnichannel Solution following the steps in [Create a schema to export configuration data](https://go.microsoft.com/fwlink/p/?linkid=2132474).
 
 3. Select the entities and fields that you want to export and import. The entities that you choose to export and import depend on the resources that you want to reuse across the source and target organizations. (Example: If you use the same API keys and provider for your geolocation provider, then you can include that entity too.)
 
