@@ -2,7 +2,7 @@
 title: "Customer-journey tiles (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Details for how to use each tile that is available for assembling a customer journey pipeline for Dynamics 365 Marketing"
 keywords: customer journey; tile; reference; pipeline
-ms.date: 06/01/2020
+ms.date: 06/09/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -324,9 +324,9 @@ On adding a splitter tile:
 
 1. Configure the splitter first to establish its "split-by" parameter (by percentage or absolute value).
 
-1. Add at least one splitter-rule tile in the empty spot provided.
+1. Add at least one splitter-branch tile in the empty spot provided.
 
-1. If needed, add more paths by dragging additional splitter-rule tiles between the top and bottom splitter-rule tiles.
+1. If needed, add more paths by dragging additional splitter-branch tiles between the top and bottom splitter-branch tiles.
 
 1. Define the portion of contacts to be sent down each splitter branch.
 
