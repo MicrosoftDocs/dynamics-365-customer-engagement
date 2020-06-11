@@ -31,6 +31,8 @@ search.app:
 // Please use this video to write this doc: https://youtu.be/QOrePYZ9fds i dont expect everything in the video to be in the doc nor does the doc need to follow the video structure
 
 - what is the schedule assistant
+  - semi automated
+  - makes recommendations
 - how does it help dispatchers
 - how does it help organizations
 
@@ -72,9 +74,18 @@ you can run the schedule assistant from the schedule board, the top of the work 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-schedule-assistant7.png)
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-schedule-assistant8.png)
+
+
 ## Filters
 
 details from the work order and requirment appear in the schedule assistant filter and can be edited at the time of scheduling
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-schedule-assistant9.png)
+
 
 ### Location
 
@@ -87,11 +98,17 @@ details from the work order and requirment appear in the schedule assistant filt
 
 ## Reschedule
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-schedule-assistant-rebook.png)
+
 ## Book the same work order again
 
 ## Book entities other than work orders
 
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-schedule-assistant-book-leads.png)
 
 [Enable an entity for scheduling](../field-service/schedule-new-entity.md)   
 
