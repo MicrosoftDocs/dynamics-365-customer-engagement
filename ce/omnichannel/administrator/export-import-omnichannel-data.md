@@ -81,7 +81,7 @@ You can export the configuration data from your source system by using the Omnic
 
 6. Click **Exit** to close the tool.
 
-## Test the export/import
+## Test the export or import
 
 To check and compare records between the source and target environment:
 
