@@ -89,8 +89,12 @@ details from the work order and requirment appear in the schedule assistant filt
 
 ### Location
 
+based on the work order location and location of resources, schedule assistant filters resources outside defined radius and then displays estimated driving time to get to the work order location
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-schedule-assistant-schedule-board.png)
+
+The same travel time calculations are diplayed in the grid view of the schedule assistant
 
 
 > [!div class="mx-imgBorder"]
@@ -103,6 +107,11 @@ details from the work order and requirment appear in the schedule assistant filt
 > ![Screenshot of ](./media/scheduling-schedule-assistant-rebook.png)
 
 ## Book the same work order again
+
+In addition, you can schedule the same job to multiple resources with the schedule assistant too.
+
+Simply trigger the schedule assistant and book it to a resources time slot. But before selecting exist search, simply select another resources time slot and select book again.
+
 
 ## Book entities other than work orders
 
@@ -122,12 +131,10 @@ for more info [Enable an entity for scheduling](../field-service/schedule-new-en
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-schedule-assistant-requirement-group-assistant.png)
 
-for more info[Multi-resource scheduling with Requirement groups](../field-service/multi-resource-scheduling-requirement-groups.md)   
+for more info [Multi-resource scheduling with Requirement groups](../field-service/multi-resource-scheduling-requirement-groups.md)   
 
-## Configuration considerations
-## Additional Notes
 
-### See also
+## Learn more about the schedule assistant
 
 There are many ways to use the schedule assistant for many scenarios see the following topics:
 
@@ -154,3 +161,6 @@ Short description:
 
 Title: https://docs.microsoft.com/en-us/dynamics365/field-service/facility-scheduling
 Short description:
+
+## Configuration considerations
+## Additional Notes
