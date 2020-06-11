@@ -16,7 +16,7 @@ ms.topic: article
 
 ## Overview
 
-The automation dictionary maintains the contextual data for sessions. You can use the keys from the automation dictionary to pass the parameter in a action.​
+The automation dictionary maintains the contextual data for sessions. You can use the keys from the automation dictionary to pass the parameter in an action.​
 
 While creating templates and macros in the Omnichannel Administration app, you can pass parameter keys such as title of a session, title of notification, title of an application tab template, and custom parameter values for application tab types. These keys are replaced based on the contextual information available at the time of execution.
 
@@ -40,11 +40,11 @@ To learn more, see [Types of context data parameters](#types-of-context-data-par
 
 ### Pass data parameter in macros and agent scripts
 
-Macros are a set of configured sequential actions that are executed on demand by the user. As an administrator, you need to configure the actions that a macro must perform. To configure the actions, you need to pass the data parameters. To learn more, see [Automation dictionary formats to pass data parameter keys](#automation-dictionary-formats-to-pass-data-parameter-keys).
+Macros are a set of configured sequential actions that are run on demand by the user. As an administrator, you need to configure the actions that a macro must perform. To configure the actions, you need to pass the data parameters. To learn more, see [Automation dictionary formats to pass data parameter keys](#automation-dictionary-formats-to-pass-data-parameter-keys).
 
 When the agent runs the macro, the system replaces these parameter keys with the actual values based on the context of the session, channel provider, Common Data Service, and user actions. 
 
-When the context is from a session, the macro action is executed based on the information for a current session, where the information is obtained from an Anchor tab or current tab that's in focus.
+When the context is from a session, the macro action is run based on the information for a current session, where the information is obtained from an Anchor tab or current tab that's in focus.
 
 For example, to create a case, you need to define the actions that contain the  incident entity form and the GUID of the form (optional).
 
@@ -62,7 +62,7 @@ The automation dictionary uses the context data parameters that are available fr
 > [!div class=mx-imgBorder] 
 > ![Automation dictionary](../media/automation-dictionary.png "Automation dictionary")
 
-### Context data from the channel provider 
+### Context data from the channel provider
 
 This context data is from the first-party channel provider such as Omnichannel for Customer Service or a third-party channel provider that uses the widget exposed by Dynamics 365 Channel Integration Framework. The context data from Omnichannel for Customer Service are pre-chat survey, visitor portal navigation, and so on.
 
@@ -241,9 +241,9 @@ Notification title = `New chat request`
 
 Session title = `Chat conversation`
 
-## See also
+### See also
 
-- [Manage session templates](session-templates.md)
-- [Manage application tab templates](application-tab-templates.md)
-- [Manage notification templates](notification-templates.md)
-- [Associate templates with work streams](associate-templates.md)
+[Manage session templates](session-templates.md)  
+[Manage application tab templates](application-tab-templates.md)  
+[Manage notification templates](notification-templates.md)  
+[Associate templates with work streams](associate-templates.md)  

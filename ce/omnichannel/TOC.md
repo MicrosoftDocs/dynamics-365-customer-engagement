@@ -19,6 +19,7 @@
 ## Administrator guide
 ### [Overview](administrator/omnichannel-administrator.md)
 ### [Provision Omnichannel for Customer Service](administrator/omnichannel-provision-license.md)
+### [Export and import Omnichannel Administration app data](administrator/export-import-omnichannel-data.md)
 ### [Remove Omnichannel for Customer Service](administrator/remove-omnichannel.md)
 ### [Upgrade Omnichannel for Customer Service](administrator/upgrade-omnichannel.md)
 ### Omnichannel for Customer Service on Unified Service Desk
