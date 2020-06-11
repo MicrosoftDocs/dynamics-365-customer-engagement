@@ -34,20 +34,12 @@ The following table lists the formula used for calculating the price per unit fi
 
 | Pricing Method       | PricePerUnit Formula  |
 |----------------------| ----------------------|
-| Amount               | Amount                |
-| Percent list price   | (UnitsPerPriceUnit x Product.ListPrice x PriceListItem.Percentage)/100  |
-| Margin Current Cost  | (UnitsPerPriceUnit x Product.CurrentCost + ((UnitsPerPriceUnit x Product.CurrentCost x PriceListItem.Percentage) / (100 - PriceListItem.Percentage)))   |
-| Markup Current Cost  | ((UnitsPerPriceUnit x Product.CurrentCost) x (100 + PriceListItem.Percentage)) / 100   |
-| Margin Standard Cost | (UnitsPerPriceUnit x Product.StandardCost + ((UnitsPerPriceUnit x Product.StandardCost x PriceListItem.Percentage) / (100 - PriceListItem.Percentage))  |
-| Markup Standard Cost | (UnitsPerPriceUnit x Product.StandardCost x (100 + PriceListItem.Percentage)) / 100  |
-
-**Where**:
-
--  Product.ListPrice, Product.StandardCost and Product.CurrentCost refer to the List Price, Standard Cost, and Current Cost of the Product record respectively
-
--  PriceListItem.Percentage refers to the Percentage value on the Price List Item record
-
--  UnitsPerPriceUnit refers to the actual number of units (for the unit selected while adding existing product on Opportunity Product/Quote Product/Order Product/Invoice product)
+| Amount               | The price is specified for each unit of measure for each product. <br />price = amount                |
+| Percent list price   | The price is calculated based on the manufacturer's or distributor's list price. <br /> calculated price = list price x percentage  |
+| Margin Current Cost  | The price is based on the profit percentage you want to achieve and your current cost for the item. <br />calculated price = current cost + [(current cost x percentage)/ (100% - percentage)]   |
+| Markup Current Cost  | The price is calculated as a percentage of your current cost for the item. <br /> calculated price = current cost x 100% + percentage   |
+| Margin Standard Cost | The price is based on the profit percentage you want to achieve and the standard cost of the item. <br /> calculated price = standard cost + [(standard cost x percentage)/(100% - percentage)] <br /> Because the standard cost is updated periodically, the standard cost amount in this equation is an average and will not always be the same as the amount you paid most recently for the item.  |
+| Markup Standard Cost | The price is calculated as a percentage of the standard cost of the item. <br /> calculated price = standard cost x 100% + percentage. <br /> Because the standard cost is updated periodically, the standard cost amount in this equation is an average and will not always be the same as the amount you paid most recently for the item.  |
 
 The final price per unit is derived by applying the rounding options (as defined in the price list item record) on the calculated value.
 
