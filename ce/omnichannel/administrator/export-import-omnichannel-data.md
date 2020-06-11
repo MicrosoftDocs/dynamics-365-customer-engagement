@@ -4,7 +4,7 @@ description: "Export and import Omnichannel Administration app data from a sourc
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 06/10/2020
+ms.date: 06/11/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
