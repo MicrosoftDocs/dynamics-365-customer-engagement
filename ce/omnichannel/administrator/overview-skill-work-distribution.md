@@ -1,10 +1,10 @@
 ---
 title: "Skill-based routing in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the skill-based routing in Omnichannel for Customer Service app."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 12/13/2019
+ms.date: 05/20/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -43,18 +43,18 @@ Skill-based routing allows you to easily match the conversation to the agent mos
 
 When a customer initiates a conversation, the following happens:
 
- - Based on the skill attachment rules, the system attaches the skills to the conversation. 
- - Based on the routing rules, the system routes the conversation to the appropriate queue.
- - Now, the work distribution system starts matching the agents' skills with those skills attached to the conversation. After finding a match as per the match criteria (exact or closest), the work distribution engine assigns the conversation to the agent.
+- Based on the skill attachment rules, the system attaches the skills to the conversation.
+- Based on the routing rules, the system routes the conversation to the appropriate queue.
+- Now, the work distribution system starts matching the agents' skills with those skills attached to the conversation. After finding a match as per the match criteria (exact or closest), the work distribution engine assigns the conversation to the agent.
 
 ## Prerequisites
 
-- You must use the latest Omnichannel for Customer Service (October 2019 update).
-- If your environment has scheduling solutions, then it must be of version 9.0.0.0 or a  higher version.
+- You must use the latest version of Omnichannel for Customer Service.
+- If your environment has scheduling solutions, then it must be version 9.0.0.0 or later.
 
 ## Skill-based routing overview steps
 
-   > [!div class=mx-imgBorder] 
+   > [!div class=mx-imgBorder]
    > ![Skill-based routing setup](../media/skill-based-routing2.png "Skill-based routing setup")
 
 - [Step 1: Enable skill-based routing](enable-skill-routing-create-rating-model.md#enable-skill-based-routing)
@@ -70,11 +70,8 @@ When a customer initiates a conversation, the following happens:
 
 To view more videos on Omnichannel for Customer Service, see [Videos](../videos.md).
 
+### See also
 
-## See also
-
-[Enable skill-based routing and create rating model](enable-skill-routing-create-rating-model.md)
-
-[Set up skills and assign agents](setup-skills-assign-agents.md)
-
-[Attach skills to conversation](attach-skills.md)
+[Enable skill-based routing and create rating model](enable-skill-routing-create-rating-model.md)  
+[Set up skills and assign agents](setup-skills-assign-agents.md)  
+[Attach skills to conversation](attach-skills.md)  
