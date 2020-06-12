@@ -128,11 +128,11 @@ You need to create mobile offline profiles for users to configure filters that d
 
 10. Select a **Data Download Filter** and select on of the following options:
   
-   - Select **Download related data only** to download only the related data for this entity available offline. If you don’t set  any relationships, no records for this entity will be available.  
+ - Select **Download related data only** to download only the related data for this entity available offline. If you don’t set  any relationships, no records for this entity will be available.  
   
-   - Select **All records**. Make all records for this entity available offline.  
+ - Select **All records**. Make all records for this entity available offline.  
   
-   - Select **Other records**, and choose from the following:  
+ - Select **Other records**, and choose from the following:  
   
       - **Download my records**. Make only your records available offline.  
   
@@ -140,7 +140,7 @@ You need to create mobile offline profiles for users to configure filters that d
   
       - **Download my business unit’s records**. Make your business unit’s records available offline.  
       
-   - Select **Custom data filter**, to create a custom rule based on the following rules. You can create filters up to three levels.     
+ - Select **Custom data filter**, to create a custom rule based on the following rules. You can create filters up to three levels.     
     
 
  |  |
@@ -177,8 +177,8 @@ You need to create mobile offline profiles for users to configure filters that d
   
      For example, if you create a mobile offline profile item association from the Lead entity, you need to add the Lead entity to this mobile offline profile.  
      
-   > [!div class="mx-imgBorder"]
-   >![Add Lead entity to offline profile](media/addleadentity1.png "Add Lead entity to offline profile")
+    > [!div class="mx-imgBorder"]
+    >![Add Lead entity to offline profile](media/addleadentity1.png "Add Lead entity to offline profile")
   
 12. Enter a name for the mobile offline profile item association, select a relationship, and then select **Save**.  
   
@@ -198,8 +198,8 @@ Once you have created a mobile offline profile, you can start adding users to th
  
 2.  In the **USERS** area, select **Add User record** to add a new user.  
 
-   > [!div class="mx-imgBorder"]
-   >![Add a user](media/adduser1.png "Add a user")
+    > [!div class="mx-imgBorder"]
+    >![Add a user](media/adduser1.png "Add a user")
   
 3.  Select the lookup field that appears and select a user to add to this mobile offline profile.  
   
