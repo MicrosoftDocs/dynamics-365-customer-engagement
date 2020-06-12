@@ -50,12 +50,12 @@ Release For information about other updates to Field Service, visit the [Dynamic
 | | <i>South Africa</i> | [8.8.23.85](https://docs.microsoft.com/dynamics365/field-service/version-history#882385)| TBD | 06/26/2020
 | | <i>Germany</i> | [8.8.23.85](https://docs.microsoft.com/dynamics365/field-service/version-history#882385)| TBD | 06/26/2020
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> | [8.8.23.85](https://docs.microsoft.com/dynamics365/field-service/version-history#882385)| TBD | 06/26/2020
-| | <i>Asia Pacific</i>  | [8.8.23.85](https://docs.microsoft.com/dynamics365/field-service/version-history#882385)| TBD | 06/26/2020
-| | <i>Great Britain</i>  | [8.8.23.85](https://docs.microsoft.com/dynamics365/field-service/version-history#882385)| TBD | 06/26/2020
-| | <i>Oceana</i>  | [8.8.23.85](https://docs.microsoft.com/dynamics365/field-service/version-history#882385)| TBD | 06/26/2020
+| | <i>Japan</i> | [8.8.23.85](https://docs.microsoft.com/dynamics365/field-service/version-history#882385)| TBD | 07/03/2020
+| | <i>Asia Pacific</i>  | [8.8.23.85](https://docs.microsoft.com/dynamics365/field-service/version-history#882385)| TBD | 07/03/2020
+| | <i>Great Britain</i>  | [8.8.23.85](https://docs.microsoft.com/dynamics365/field-service/version-history#882385)| TBD | 07/03/2020
+| | <i>Oceana</i>  | [8.8.23.85](https://docs.microsoft.com/dynamics365/field-service/version-history#882385)| TBD | 07/03/2020
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> |[8.8.22.58](https://docs.microsoft.com/dynamics365/field-service/version-history#882258)|[8.8.23.85](https://docs.microsoft.com/dynamics365/field-service/version-history#882385)| 06/12/2020
+| | <i>Europe</i> | [8.8.23.85](https://docs.microsoft.com/dynamics365/field-service/version-history#882385)| TBD | 07/10/2020
 |<strong>Station 5</strong> | |  |  | |
 | | <i>North America</i> |[8.8.22.58](https://docs.microsoft.com/dynamics365/field-service/version-history#882258)|[8.8.23.85](https://docs.microsoft.com/dynamics365/field-service/version-history#882385)| 06/19/2020
 |<strong>Station 6</strong> | |  |  | |
