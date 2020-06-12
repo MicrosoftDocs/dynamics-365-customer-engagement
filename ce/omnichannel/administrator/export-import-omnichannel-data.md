@@ -30,7 +30,7 @@ You can export the configuration data from your source system by using the Omnic
 
 2. Create a schema file per Omnichannel Solution following the steps in [Create a schema to export configuration data](https://go.microsoft.com/fwlink/p/?linkid=2132474).
 
-3. Select the entities and fields that you want to export and import. The entities that you choose to export and import depend on the resources that you want to reuse across the source and target organizations. (Example: If you use the same API keys and provider for your geolocation provider, then you can include that entity too.)
+3. Select the entities and fields that you want to export and import. The entities that you choose to export and import depend on the resources that you want to reuse across the source and target organizations. (Example: If you use the same API keys and provider for your geolocation provider, then you can include that entity, too.)
 
     These are some of the core entities you can use, but you are not limited to only these entities:
 
@@ -44,7 +44,7 @@ You can export the configuration data from your source system by using the Omnic
     -  Sentiment analysis
 
 4. In order to filter for only the Omnichannel for Customer Service queues, you can use the following commands:  
-    **Tools > Configure Import Settings > Use Fetch XML to filter records > Edit FetchXML**
+    **Tools** > **Configure Import Settings** > **Use Fetch XML to filter records** > **Edit FetchXML**
 
     ```html
     <fetch> 
@@ -55,9 +55,9 @@ You can export the configuration data from your source system by using the Omnic
       </entity> 
     </fetch> 
     ```
-5. Double-click the DataMigrationUtility.exe file to run the Configuration Migration tool, and choose **Export data** in the main screen.
+5. Double-click **DataMigrationUtility.exe** to run the Configuration Migration tool, and choose **Export data** in the main screen.
 
-6. On the **Login** screen, provide authentication details to connect to your Dynamics 365 Server instance from where you want to export data. If you have multiple organizations on the Common Data Service platform server, and want to select the organization from where to export the data, select the **Always display list of available orgs checkbox**. Select **Login**.
+6. On the **Login** screen, provide authentication details to connect to your Dynamics 365 Server instance from where you want to export data. If you have multiple organizations on the Common Data Service platform server, and want to select the organization from where to export the data, select the **Always display list of available orgs** check box. Select **Login**.
 
 7. If you have multiple organizations, and you selected the **Always display list of available orgs** check box, the next screen lets you choose the organization that you want to connect to. Select the Common Data Service platform organization to connect to.
 
@@ -65,21 +65,21 @@ You can export the configuration data from your source system by using the Omnic
 
 9. Choose **Export Data**. The screen displays the export progress status and the location of the exported file at the bottom of the page after the export is complete.
 
-10. Choose **Exit** to close the tool.
+10. Select **Exit** to close the tool.
 
 ## Import configuration data using the Configuration Migration tool 
 
-1. Run the Configuration Migration tool, and click **Import data** on the main screen. For information about downloading the tool, see step 1 in the previous section.
+1. Run the Configuration Migration tool, and select **Import data** on the main screen. For information about downloading the tool, see step 1 in the previous section.
 
-2. On the **Login** screen, provide authentication details to connect to your Common Data Service platform server from where you want to import data. If you have multiple organizations on the Common Data Service platform server, and want to select the organization from where you want to import the data, select the **Always display list of available orgs** checkbox. Click **Login**. 
+2. On the **Login** screen, provide authentication details to connect to your Common Data Service platform server from where you want to import data. If you have multiple organizations on the Common Data Service platform server, and want to select the organization from where you want to import the data, select the **Always display list of available orgs** check box. Select **Login**. 
 
-3. If you have multiple organizations, and you selected the **Always display list of available orgs** check box, the next screen lets you choose the organization that you want to connect to. Select the Common Data Service platform organization to connect to. 
+3. If you have multiple organizations, and you selected **Always display list of available orgs**, the next screen lets you choose the organization that you want to connect to. Select the Common Data Service platform organization to connect to. 
 
-4. The next screen prompts you to provide the data file (.zip) to be imported. Browse to the data file, select it, and then click **Import Data**.
+4. The next screen prompts you to provide the data file (.zip) to be imported. Browse to the data file, select it, and then select **Import Data**.
 
-5. The next screen displays the import status of your records. The data import is done in multiple passes,foundation data is imported first, while the dependent data is queuing up, and then the dependent data is imported in the subsequent passes to handle any data dependencies or linkages. This ensures clean and consistent data import.
+5. The next screen displays the import status of your records. The data import is done in multiple passes. Foundation data is imported first, while the dependent data is queuing up, and then the dependent data is imported in the subsequent passes to handle any data dependencies or linkages. This ensures clean and consistent data import.
 
-6. Click **Exit** to close the tool.
+6. Select **Exit** to close the tool.
 
 ## Test the export or import
 
@@ -99,7 +99,7 @@ To check the functionality on your target environment:
 
 4. Test a scenario in live chat.
 
-## Export and import related artifacts
+## Artifacts related to export and import
 
 For entity routing, follow the instructions to [Export and import your flows across environments with packaging](https://go.microsoft.com/fwlink/?linkid=2132475).
 
