@@ -39,14 +39,7 @@ This offline experience uses [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-
  
 One of the first things you need to do is enable entities that will be available to mobile users when they're using the mobile app in offline mode. 
   
-Entities that you can enable for offline mode appear in the **MOBILE OFFLINE PROFILE ITEM**.
-
-   > [!div class="mx-imgBorder"]
-   >![Setting Customizations](media/enable_entities_for_offline.png "Settings Customizations")
-  
-You can disable or enable any of the supported entities for offline mode. The next section shows you how to enable or disable an entity. 
-
-### To enable entities for offline:
+You can disable or enable any of the supported entities for offline mode. 
   
 1. In the **Dynamics 365- custom** app, go to **Settings** > **Advanced Settings**.
 
@@ -131,25 +124,29 @@ You need to create mobile offline profiles for users to configure filters that d
 
    > [!div class="mx-imgBorder"]
    >![Enter Mobile Offline Profile Item name](media/profileitemname1.png "Enter Profile Item name")
+   
+   
+   Entities that you can enable for offline mode appear in the **MOBILE OFFLINE PROFILE ITEM**.
+
+   > [!div class="mx-imgBorder"]
+   >![Setting Customizations](media/enable_entities_for_offline.png "Settings Customizations")
  
 
-   Select a **Data Download Filter** based on the ownership type for the entity.
- 
-**User or Team**
+10. Select a **Data Download Filter** based on the ownership type for the entity and select on of the following options:
   
-   - **Download related data only**. Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.  
+   - Select **Download related data only** to download only the related data for this entity available offline. If you don’t set  any relationships, no records for this entity will be available.  
   
-   - **All records**. Make all records for this entity available offline.  
+   - Select **All records**. Make all records for this entity available offline.  
   
-   - **Other data filter**. Make only the specified records for this entity available offline.  
+   - Select **Other data filter** to download all the records for this entity.
   
-   If you select **Other records**, you can choose from the following:  
+   - Select **Other records**, and choose from the following:  
   
-   - **Download my records**. Make only your records available offline.  
+      - **Download my records**. Make only your records available offline.  
   
-   - **Download my team’s records**. Make your team’s records available offline.  
+      - **Download my team’s records**. Make your team’s records available offline.  
   
-   - **Download my business unit’s records**. Make your business unit’s records available offline.  
+      - **Download my business unit’s records**. Make your business unit’s records available offline.  
   
  **Organization**  
   
