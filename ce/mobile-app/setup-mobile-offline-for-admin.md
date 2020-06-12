@@ -1,7 +1,7 @@
 ---
 title: "Configure mobile offline synchronization in Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: 
-ms.date: 05/20/2020
+ms.date: 06/12/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -39,7 +39,7 @@ This offline experience uses [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-
  
 One of the first things you need to do is enable entities that will be available to mobile users when they're using the mobile app in offline mode. 
   
-You can disable or enable any of the supported entities for offline mode. 
+You can disable or enable any of the supported entities for offline mode. For more information on supported capabilities see, [Capabilities available in offline mode](https://docs.microsoft.com/dynamics365/mobile-app/work-in-offline-mode#capabilities-available-in-offline-mode).
   
 1. In the **Dynamics 365- custom** app, go to **Settings** > **Advanced Settings**.
 
