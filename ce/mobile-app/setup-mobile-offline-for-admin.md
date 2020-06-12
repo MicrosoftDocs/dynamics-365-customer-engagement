@@ -126,7 +126,7 @@ You need to create mobile offline profiles for users to configure filters that d
    >![Setting Customizations](media/enable_entities_for_offline.png "Settings Customizations")
  
 
-10. Select a **Data Download Filter** and select one of the following options:
+10. Select a **Data Download Filter** and choose from the following:
   
  - Select **Download related data only** to download only the related data for this entity available offline. If you don’t set  any relationships, no records for this entity will be available.  
   
