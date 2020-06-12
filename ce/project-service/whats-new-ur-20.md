@@ -6,7 +6,7 @@ author: ruhercul
 manager: kfend
 ms.service: dynamics-365-projectservice
 ms.custom: dyn365-projectservice
-ms.date: 05/22/2020
+ms.date: 06/12/2020
 ms.topic: article
 ms.prod: 
 ms.service: business-applications
