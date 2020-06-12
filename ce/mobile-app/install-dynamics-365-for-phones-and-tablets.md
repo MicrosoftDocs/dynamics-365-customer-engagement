@@ -1,7 +1,7 @@
 ---
 title: "Install Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom:
-ms.date: 06/04/2020
+ms.date: 06/11/2020
 ms.reviewer:
 ms.service: crm-online
 ms.suite:
@@ -24,6 +24,8 @@ search.app:
 # Install Dynamics 365 for phones and tablets
 
 [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!INCLUDE [pn-dyn-365-tablets](../includes/pn-dyn-365-tablets.md)] are apps that you install on your mobile device. Once you install the app and sign-in, you’ll automatically have access to all the apps you need for your role.
+
+When there is an updated version of the app, you will receive a notification. 
 
 ### Is your mobile device supported?
  If you’re not sure if your device is supported, [check the list of supported devices](../mobile-app/support-phones-tablets.md)
