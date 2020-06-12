@@ -120,25 +120,17 @@ You need to create mobile offline profiles for users to configure filters that d
    > [!div class="mx-imgBorder"]
    >![Enter Mobile Offline Profile Item details](media/namemobileofflineprofile2.png "Enter Mobile Offline Profile Item details")
   
-9. Enter a name and select an entity. Only entities that can be enabled for mobile offline appear in this list.  
-
-   > [!div class="mx-imgBorder"]
-   >![Enter Mobile Offline Profile Item name](media/profileitemname1.png "Enter Profile Item name")
-   
-   
-   Entities that you can enable for offline mode appear in the **MOBILE OFFLINE PROFILE ITEM**.
+9. Enter a name and select an entity. Only entities that can be enabled for mobile offline appear in the **Entity** list.  
 
    > [!div class="mx-imgBorder"]
    >![Setting Customizations](media/enable_entities_for_offline.png "Settings Customizations")
  
 
-10. Select a **Data Download Filter** based on the ownership type for the entity and select on of the following options:
+10. Select a **Data Download Filter** and select on of the following options:
   
    - Select **Download related data only** to download only the related data for this entity available offline. If you don’t set  any relationships, no records for this entity will be available.  
   
    - Select **All records**. Make all records for this entity available offline.  
-  
-   - Select **Other data filter** to download all the records for this entity.
   
    - Select **Other records**, and choose from the following:  
   
@@ -147,30 +139,8 @@ You need to create mobile offline profiles for users to configure filters that d
       - **Download my team’s records**. Make your team’s records available offline.  
   
       - **Download my business unit’s records**. Make your business unit’s records available offline.  
-  
- **Organization**  
-  
-   - **Download related data only**. Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.  
-  
-   - **All records**. Make all records for this entity available offline.  
-  
- **Business**  
-  
-   - **Download related data only**. Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.  
-  
-   - **All records**. Make all records for this entity available offline.  
-  
-   - **Other records**. Make only the specified records for this entity available offline.  
-  
-   If you select **Other records**, you can choose from the following:  
-  
-   - **Download my business unit’s records**. Make your business unit’s records available offline.  
-  
- **None**  
-  
-   - **Download related data only**. Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.  
-    
-Admins can define a custom filter based on the following rules. You can create filters up to three levels.  
+      
+   - Select **Custom data filter**, to create a custom rule based on the following rules. You can create filters up to three levels.     
     
 
  |  |
