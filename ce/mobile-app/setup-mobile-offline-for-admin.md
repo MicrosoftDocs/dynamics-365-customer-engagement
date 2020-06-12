@@ -46,7 +46,7 @@ Entities that you can enable for offline mode appear in the **MOBILE OFFLINE PRO
   
 You can disable or enable any of the supported entities for offline mode. The next section shows you how to enable or disable an entity. 
 
-### To enable more entities for offline:
+### To enable entities for offline:
   
 1. In the **Dynamics 365- custom** app, go to **Settings** > **Advanced Settings**.
 
@@ -57,6 +57,9 @@ You can disable or enable any of the supported entities for offline mode. The ne
 
    > [!div class="mx-imgBorder"]
    >![Select a Customize the System](media/Settings_Custom.png "Customize the System")
+   
+ > [!IMPORTANT]
+> - Ignore the **Try New Experience** notification at the top. The new experience does not have all the options to set-up mobile offline. 
   
 3. Expand **Entities** in the left pane.  
   
