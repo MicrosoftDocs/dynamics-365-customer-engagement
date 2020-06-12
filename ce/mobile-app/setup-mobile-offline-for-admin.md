@@ -52,7 +52,7 @@ You can disable or enable any of the supported entities for offline mode. For mo
    >![Select a Customize the System](media/Settings_Custom.png "Customize the System")
    
  > [!IMPORTANT]
-> - Ignore the **Try New Experience** notification at the top. The new experience does not have all the options to set-up mobile offline. 
+> - Ignore the **Try New Experience** notification at the top. The new experience does not include all the options to set-up mobile offline.   
   
 3. Expand **Entities** in the left pane.  
   
