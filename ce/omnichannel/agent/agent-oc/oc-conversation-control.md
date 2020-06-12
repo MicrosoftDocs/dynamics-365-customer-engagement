@@ -4,7 +4,7 @@ description: "Conversation control is a communication panel in Omnichannel where
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/09/2020
+ms.date: 06/12/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -14,7 +14,7 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-The communication panel is where you, as an agent, interact with your customer. When you sign in to the application, by default, the communication panel is in hidden mode. You cannot view the communication panel unless you accept an incoming conversation to communicate with the customer.
+The communication panel is where you, as an agent, interact with your customer. When you sign in to the application, the communication panel is in hidden mode by default. You cannot view the communication panel unless you accept an incoming conversation to communicate with the customer.
 
 From a conversation channel, you can do the following tasks:
 
@@ -29,11 +29,7 @@ From a conversation channel, you can do the following tasks:
 
 ## Enhance agent productivity using keyboard commands
 
-The communication panel has options that, as an agent, you can use to perform actions such as see quick replies, consult, and transfer, launch notes control, and much more.
-
-In addition, as an agent, you can use the keyboard commands in the communication panel to perform the actions that are such as see quick replies, consult, and transfer list, launch notes control, and much more.
-
-The keyboard commands helps allows you completing the scenario effectively and efficiently, thus increasing your productivity.
+The communication panel has options that you can use to perform actions, such as see quick replies, consult, and transfer, and launch notes control. You can also use keyboard commands to perform these actions.
 
 In the communication panel, you can see the following options:
  
@@ -49,24 +45,22 @@ In the communication panel, you can see the following options:
 |  8   | Link to conversation | Link the record to this conversation | |
 |  9   | Customer sentiment | View real-time customer satisfaction levels |  |
 
-## Send messages using Public and Internal modes
+## Send messages using the Public and Internal modes
 
 The communication panel allows you to send messages in two modes: **Internal** and **Public**.
 
-When you want to send messages only to the internal participants like other agents and/or supervisors, then use the **Internal** option. The internal messages are not shown to the customers.
+When you want to send messages only to the internal participants like other agents and/or supervisors and not customers, then use the **Internal** option.
 
 When you want to send messages to all the participants in the conversation including the customer, then use the **Public** option.
 
  > [!div class=mx-imgBorder]
  > ![Reply messages by selecting internal or public mode](../../media/oceh-cc-public-internal-modes.png "Reply messages by selecting internal or public mode")
 
-You can use keyboard commands to send internal and public messages:
+You can use the keyboard commands to send internal and public messages:
 
 - **/i** – Type the forward slash (/) key and the letter **i** to send an internal message to other agents and/or a supervisor. 
 
 - **/p** – Type the forward slash (/) key and the letter **p** to send a public message to all the participants in the interaction.
-
-When you type the keyboard command, the mode changes to as per the command. For example, now, you are on Public mode. Type **/i** to change to **Internal** mode.
 
 ## Send template-based messages in chats
 
@@ -75,7 +69,7 @@ The communication panel allows you to send predefined messages to a customer wit
  > [!div class=mx-imgBorder] 
  > ![Use quick replies option to send faster replies to customers](../../media/oceh-send-quick-replies-chat.png "Use quick replies option to send faster replies to customers")  
 
-You can use a keyboard command to see the list of quick replies. Type the forward slash (/) key and the letter q (**/q**). When you type **/q** the **Quick replies** fly-out is displayed.
+You can use a keyboard command to see the list of quick replies. Type the forward slash (/) key and the letter q (**/q**). When you type **/q**, the **Quick replies** panel is displayed.
 
 ### Search for messages
 
@@ -115,7 +109,7 @@ Use the keyboard command to see the list of queues to transfer the conversation 
 
 **/t** (forward slash, letter t) launches the **Agent** and **Queue** tabs. Select either tab and then select the agent or the queue from the list to transfer the conversation. The **/t** command keeps the focus on the Agent tab whereas the **/tq** command keeps the focus on the Queue tab.
 
-When skill-based routing is enabled, then during the transfer, the **Transfer** flyout shows users sorted in the order of matching skills. A check for agent skills is not done by the app and the conversation can be transferred to any agent irrespective of the skill match.
+When skill-based routing is enabled, then during the transfer, the **Transfer** panel shows users sorted in the order of matching skills. A check for agent skills is not done by the app and the conversation can be transferred to any agent irrespective of the skill match.
 
 ![Transfer agent list](../../media/oceh-cc-transfer-agent-list.png "transfer agent list")
 
@@ -167,14 +161,14 @@ As an agent, you can view the real-time customer satisfaction levels on the comm
 
 To learn more, see [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)
 
-## See also
+### See also
 
-- [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)
-- [Introduction to the agent interface](oc-introduction-agent-interface.md)
-- [Manage sessions](oc-manage-sessions.md)
-- [Manage applications](oc-manage-applications.md)
-- [Manage presence status](oc-manage-presence-status.md)
-- [View customer summary and know everything about customers](oc-customer-summary.md)
-- [Search for and share knowledge articles](oc-search-knowledge-articles.md)
-- [Take notes specific to conversation](oc-take-notes.md)
-- [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
+[Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)  
+[Introduction to the agent interface](oc-introduction-agent-interface.md)  
+[Manage sessions](oc-manage-sessions.md)  
+[Manage applications](oc-manage-applications.md)  
+[Manage presence status](oc-manage-presence-status.md)  
+[View customer summary and know everything about customers](oc-customer-summary.md)  
+[Search for and share knowledge articles](oc-search-knowledge-articles.md)  
+[Take notes specific to conversation](oc-take-notes.md)  
+[View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)  
