@@ -53,7 +53,7 @@ An Omnichannel for Customer Service bot can choose to end the conversation if it
 
 Follow the procedure given below to configure a bot that is capable of escalating a conversation to a human agent.
 
-1.	Implement a command class to model escalate and endconversation. The sample code is given below.
+1. Implement a command class to model escalate and end conversation. The sample code is as follows.
 
 ```csharp
 using System.Collections.Generic;
@@ -95,7 +95,7 @@ namespace EchoBot.OmniChannel
 }
 ```
 
-2. Implement an Omnichannel for Customer Service  client class to set the command context. The sample code is given below.
+2. Implement an Omnichannel for Customer Service  client class to set the command context. The sample code is as follows.
 
 ```csharp
 using Microsoft.Bot.Schema;
@@ -189,7 +189,7 @@ namespace EchoBot.OmniChannel
 
 ```
 
-3. In the Bot ActivityHandler class, call the appropriate client method. The sample code is given below.
+3. In the Bot ActivityHandler class, call the appropriate client method. The sample code is as follows.
 
 Change the `escalate` and `endconversation` command criteria to something that suits your requirements. Add code `OmnichannelBotClient.BridgeBotMessage(turnContext.Activity);` in your bot code to send messages to Omnichannel for Customer Service. More information: [Engage a bot](#bkmk_EngageBot)
 
@@ -261,7 +261,7 @@ namespace Microsoft.Bot.Builder.EchoBot
     }
 }
 ```
-The dictionary `contextVars` contains all the Omnichannel for Customer Service context variable name value pairs that you want to update as part of the escalation request. Here `BotHandoffTopic` is the context variable name and the “CreditCard” is the context variable value. If there is an agent queue with the rule “BotHandoffTopic equals to “CreditCard”, then this escalated chat will be routed to that queue. The bot can also send an escalation summary that will be visible to the agent once they accept the escalated chat request. To send the summary, set the activity text appropriately in the escalation Activity message. This will only be visible to the human agent and not to the customer.
+The dictionary `contextVars` contains all the Omnichannel for Customer Service context variable name value pairs that you want to update as part of the escalation request. Here `BotHandoffTopic` is the context variable name and the “CreditCard” is the context variable value. If there is an agent queue with the rule “BotHandoffTopic equals to “CreditCard”, then this escalated chat will be routed to that queue. The bot can also send an escalation summary that will be visible to the agent after they accept the escalated chat request. To send the summary, set the activity text appropriately in the escalation Activity message. This will only be visible to the human agent and not to the customer.
 
 > [!NOTE]
 > Note the method call to `OmnichannelBotClient.BridgeBotMessage` in the sample code above. This needs to be called for every Activity message that is sent to the customer.
@@ -270,19 +270,19 @@ The dictionary `contextVars` contains all the Omnichannel for Customer Service c
 
 You should consider the following points when modeling the bot agent in Omnichannel for Customer Service:
 
--	In a queue, if there are both bots and human agents, set the bot’s capacity higher than all agents. A bot’s capacity is not reduced even after a work item is assigned to it. This ensures that any chat routed to the queue will be picked up by the bot first.     
+- In a queue, if there are both bots and human agents, set the bot’s capacity higher than all agents. A bot’s capacity is not reduced even after a work item is assigned to it. This ensures that any chat routed to the queue will be picked up by the bot first.
 
--	In case of bot escalation, make sure that context variables that the bot is updating and the corresponding routing rules are correctly matched.     
+- In case of bot escalation, make sure that context variables that the bot is updating and the corresponding routing rules are correctly matched.
 
--	If a chat that is escalated by the bot comes to the same queue due to incorrect configurations or due to failure in updating context variables, the bot will not be assigned the same chat again. This is to ensure that the chat does not end up in an infinite loop. Therefore, some human agents should be configured as backup in the bot queue to handle such chats.     
+- If a chat that is escalated by the bot comes to the same queue due to incorrect configurations or due to failure in updating context variables, the bot will not be assigned the same chat again. This is to ensure that the chat does not end up in an infinite loop. Therefore, some human agents should be configured as backup in the bot queue to handle such chats.
 
--	Unlike other Omnichannel for Customer Service agents, bots are not added to a `default` queue at the outset. They are added from the Administration hub.
+- Unlike other Omnichannel for Customer Service agents, bots are not added to a `default` queue at the outset. They are added from the Omnichannel Administration app.
 
 ## Privacy notice
 
 You understand that your data may be transmitted and shared with external systems and that your data may flow outside of your organization's compliance boundary (even if your organization is in a Government Cloud environment). For example, your messages will be shared with the bot which could be interacting with a third-party system based on the integration done by you. For more information on how we process your data, please refer to the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
 
-## See also
+### See also
 
 [Integrate a bot](../administrator/configure-bot.md)<br />
 [Azure Bot Service](https://docs.microsoft.com/azure/bot-service/?view=azure-bot-service-4.0)<br />
