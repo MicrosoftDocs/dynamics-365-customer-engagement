@@ -126,7 +126,7 @@ You need to create mobile offline profiles for users to configure filters that d
    >![Setting Customizations](media/enable_entities_for_offline.png "Settings Customizations")
  
 
-10. Select a **Data Download Filter** and select on of the following options:
+10. Select a **Data Download Filter** and select one of the following options:
   
  - Select **Download related data only** to download only the related data for this entity available offline. If you don’t set  any relationships, no records for this entity will be available.  
   
@@ -143,33 +143,33 @@ You need to create mobile offline profiles for users to configure filters that d
  - Select **Custom data filter**, to create a custom rule based on the following rules. You can create filters up to three levels.     
     
 
- |  |
- |---------|
- |equal     |
- |not equal     |
- |gt – greater than|  
- |ge – greater than or equal to|  
- |le – less than or equal to|  
- |lt – less than|  
- |like|  
- |not-like|  
- |in|  
- |not-in|  
- |null|  
- |not-null|  
- |eq-userid|  
- |ne-userid|  
- |eq-userteams|  
- |eq-useroruserteams|  
- |eq-useroruserhierarchy|  
- |eq-useroruserhierarchyandteams|  
- |eq-businessid|  
- |ne-businessid|  
- |eq-userlanguage|  
- |begins-with|  
- |not-begin-with|  
- |ends-with|  
- |not-end-with|
+   |  |
+   |---------|
+   |equal     |
+   |not equal     |
+   |gt – greater than|  
+   |ge – greater than or equal to|  
+   |le – less than or equal to|  
+   |lt – less than|  
+   |like|  
+   |not-like|  
+   |in|  
+   |not-in|  
+   |null|  
+   |not-null|  
+   |eq-userid|  
+   |ne-userid|  
+   |eq-userteams|  
+   |eq-useroruserteams|  
+   |eq-useroruserhierarchy|  
+   |eq-useroruserhierarchyandteams|  
+   |eq-businessid|  
+   |ne-businessid|  
+   |eq-userlanguage|  
+   |begins-with|  
+   |not-begin-with|  
+   |ends-with|  
+   |not-end-with|
   
 10. Select **Save** to create the mobile offline profile item so you can continue editing it.  
   
