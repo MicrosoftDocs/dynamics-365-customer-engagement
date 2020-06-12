@@ -349,7 +349,7 @@ The Dynamics 365 Marketing February 2020 update includes an improved segment exp
 - **Marketing pages**
     - Invalid or empty values in DateTime fields are no longer incorrectly parsed.
     - Resolved an error caused by importing a marketing page exported from an org with Dynamics 365 Portal to a Portal-less org.
-    - Resolved issue where marketing pages would occasionally hang in the Going Live state after publishing.
+    - Resolved issue where marketing pages would occasionally be unresponsive in the Going Live state after publishing.
     - Option sets created in the form-capture wizard now invoke an options-mapping list.
     - Websites with misconfigured allowed domains no longer cause errors messages when externally hosted forms are loaded.
 - **Quota management**
