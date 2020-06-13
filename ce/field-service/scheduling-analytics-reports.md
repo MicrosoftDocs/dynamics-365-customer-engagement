@@ -189,6 +189,7 @@ In order to share the resource and utilization reports, follow steps 1 through 5
 - **Data Refresh for Inactive environments**: If an organization has no active usage of the reports for continuous two weeks, the data refresh will be paused. When the user opens the reports, the data will get refreshed in the next refresh cycle.
 - Data is retained for 24 months. 
 - We do not support environment minimal copy operations that are available for a Sandbox environment. If you perform any of these operations, you may encounter unexpected results. 
+- Storage file size automatically increases with the analytics feature. If this increase causes issues or concerns, contact Microsoft Support.
 
 **Data Availability for Entities**: We are consuming the following list of entities to generate these reports. If there is no data for any of the below entities, then the report may show blank. If you have customized these entities or not using the out of box entities, then the reports will show blank too. 
 
