@@ -35,7 +35,7 @@ Price lists tie the unit, product, and pricing details together, so before you c
   
 5. In the price list form, fill in your information, and then select **Save**. 
 
-    a.  **Name**. Type a descriptive name for the price list. For example, if you are creating a price list for retail, mention that.
+    a.  **Name**. Type a descriptive name for the price list. For example, if you're creating a price list for retail, mention that.
 
     b.  **Start Date**/**End Date**. Select the start date and end date for the price list. For example, if this is a promotional price list that’s effective only for the promotional period, select that period.
 
@@ -85,7 +85,7 @@ Price lists tie the unit, product, and pricing details together, so before you c
 
        -  **Percentage**. If you selected any value other than **Currency Amount** as the pricing method, type the percentage for the pricing method that you want.
 
-       -  **Rounding Policy**. If you selected a pricing method other than **Currency Amount**, you can set up a rounding policy. For example, if you want per unit prices to be in the form of $0.99, you can select a rounding policy where all prices per unit automatically have a price that ends in 99 cents. To do this, you select the rounding policy to round the price up, and then set the price to end in a certain amount, such as 99 cents.
+       -  **Rounding Policy**. If you selected a pricing method other than **Currency Amount**, you can set up a rounding policy. For example, if you want per unit prices to be in the form of $0.99, you can select a rounding policy where all prices per unit automatically have a price that ends in 99 cents. To do this, you select the rounding policy to round up the price, and then set the price to end in a certain amount, such as 99 cents.
 
           -  **None**. Prices are not rounded.
 
@@ -190,7 +190,7 @@ Create a price list item for each unit in which the product is available. For ex
   
       If you selected any value other than **Currency Amount** as the pricing method, type the percentage for the pricing method that you want.  
   
-   - If you selected a pricing method other than **Currency Amount**, you can set up a rounding policy. For example, if you want per unit prices to be in the form of $0.99, you can select a rounding policy where all prices per unit automatically have a price that ends in 99 cents. To do this, you select the rounding policy to round the price up, and then set the price to end in a certain amount, such as 99 cents.  
+   - If you selected a pricing method other than **Currency Amount**, you can set up a rounding policy. For example, if you want per unit prices to be in the form of $0.99, you can select a rounding policy where all prices per unit automatically have a price that ends in 99 cents. To do this, you select the rounding policy to round up the price, and then set the price to end in a certain amount, such as 99 cents.  
   
      - **None**. Prices are not rounded.  
   
@@ -218,7 +218,7 @@ Make sales agents' job easier by adding default price lists for territories or c
   
 4.  In the price list form, select the **Auto Save** button ![Auto save button](../sales-enterprise/media/auto-save-button.png "Auto save button").  
   
-     When the sales agents set or change the customer for an opportunity, if a default price list is added to their territory (customer segment), it is shown.  
+     When the sales agents set or change the customer for an opportunity, if a default price list is added to their territory (customer segment), it's shown.  
   
 ## Typical next steps  
  ![Right arrow button](../sales-enterprise/media/walkthrough-orange-right-arrow.png "Right arrow button") [Publish a product or bundle to make it available for selling](publish-product-bundle-make-available-selling.md)  
