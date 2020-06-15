@@ -2,7 +2,7 @@
 title: "Set up artificial intelligence features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to enable artificial intelligence features and make related privacy settings in Dynamics 365 Marketing"
 keywords:
-ms.date: 02/19/2020
+ms.date: 06/15/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -23,15 +23,11 @@ search.app:
   - D365Mktg
 ---
 
-# Preview: Enable and configure artificial intelligence features
-
-> [!IMPORTANT]
-> All AI features are currently preview features. [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
-> [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
+# Enable and configure artificial intelligence features
 
 Dynamics 365 Marketing provides several artificial intelligence (AI), which include:
 
-- **[Spam score](spam-checker.md)**, which analyzes the content of each marketing email message and generates a score that predicts how likely it is to be flagged by content-based spam filters.
+- **[Spam checker](spam-checker.md)**, which analyzes the content of each marketing email message and generates a score that predicts how likely it is to be flagged by content-based spam filters.
 - **[Automated scheduler](automated-scheduler.md)**, which "learns" the days and times when each contact is most likely to be actively reading his or her email by analyzing the email results in your system. The more results you have in your system, and the more you use this feature, the "smarter" the system becomes. 
 
 
