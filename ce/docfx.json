@@ -134,8 +134,7 @@
           "Dynamics 365",          
           "Omnichannel",
           "Channel Integration Framework",
-          "Unified Service Desk",
-          "Power Apps",
+          "Unified Service Desk",          
           "Customer Service"
         ],
         "customerengagement/**.*": [
@@ -143,8 +142,7 @@
           "Customer Engagement (on-premises)"
         ],        
         "field-service/**.*": [
-          "Dynamics 365",
-          "Power Apps",
+          "Dynamics 365",          
           "Field Service"
         ],
         "gamification/**.*": [
@@ -155,8 +153,7 @@
           "Dynamics 365"
         ],
         "marketing/**.*": [
-          "Dynamics 365",
-          "Power Apps",
+          "Dynamics 365",          
           "Marketing"
         ],
         "mobile-app/**.*": [
@@ -172,18 +169,15 @@
           "Dynamics 365"
         ],
         "project-service/**.*": [
-          "Dynamics 365",
-          "Power Apps",
+          "Dynamics 365",          
           "Project Service"
         ],
         "sales-enterprise/**.*": [
-          "Dynamics 365",
-          "Power Apps",
+          "Dynamics 365",          
           "Sales"
         ],
         "sales-professional/**.*": [
-          "Dynamics 365",
-          "Power Apps",
+          "Dynamics 365",          
           "Sales"
         ],
         "social-engagement/**.*": [
