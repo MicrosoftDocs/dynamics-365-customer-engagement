@@ -57,7 +57,7 @@ Omnichannel for Customer Service January 2020 update is available in the followi
 
 > [!Note]
 >
-> In Europe, Omnichannel for Customer Service is currently not available for the following geographic locations and is planned to be introduced in the future:
+> In Europe, even if your Dynamics 365 tenant is located in one of the following geographic locations, Omnichannel for Customer Service is currently not available in these locations and is planned to be introduced in the future:
 > - Norway
 > - Switzerland
 > - Germany
