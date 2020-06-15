@@ -1,8 +1,8 @@
 ---
 title: "Manage application tab templates in Omnichannel Administration app | MicrosoftDocs"
 description: "Learn about managing application tab templates in Omnichannel Administration app"
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 01/31/2020
 ms.service: 
@@ -20,7 +20,7 @@ Application tab template in Omnichannel Administration app provide the type of a
 
 The horizontal bar below the model-driven app navigation bar is called the application tab panel. Every customer session has at least one application tab that is not closable; it is called **Anchor Tab**. That is, when a session is started, by default the system opens an application in application tab panel. In addition, there may be few other applications that system opens by default based on the configuration. 
 
-With application tab template, you can define the applications that are available for a session, and then associate the applications with a session. 
+With application tab template, you can define the applications that are available for a session, and then associate the applications with a session.
 
 For example, you can create the **Customer summary** application type and associate it with Chat and SMS session. Now, when an agent accepts the notification from  the chat or SMS channels, a session starts and by default the **Customer summary** page loads.
 
@@ -55,13 +55,18 @@ As an administrator, you can create multiple application tab templates.
 
 The types of applications available are as follows:
 
-- [Custom control](#custom-control)
-- [Dashboard](#dashboard)
-- [Entity view](#entity-view)
-- [Entity record](#entity-record)
-- [Entity search](#entity-search)
-- [Web resource](#web-resource)
-- [Website Url](#website-url)
+- [Manage application tab templates](#manage-application-tab-templates)
+  - [Overview](#overview)
+  - [Create an application tab template](#create-an-application-tab-template)
+  - [Application types](#application-types)
+    - [Custom control](#custom-control)
+    - [Dashboard](#dashboard)
+    - [Entity view](#entity-view)
+    - [Entity record](#entity-record)
+    - [Entity search](#entity-search)
+    - [Web resource](#web-resource)
+    - [Website Url](#website-url)
+    - [See also](#see-also)
 
 ### Custom control
 
@@ -138,7 +143,7 @@ The application type is used to display first-party and third-party websites as 
 
 To learn more, see [Third-party application tab refreshes when focus is changed](../omnichannel-readme.md#third-party-application-tab-refreshes-when-focus-is-changed).
 
-## See also
+### See also
 
 - [Manage session templates](session-templates.md)
 - [Manage notification templates](notification-templates.md)
