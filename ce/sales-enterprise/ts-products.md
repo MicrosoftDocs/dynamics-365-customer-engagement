@@ -68,7 +68,7 @@ In the unmanaged solution, add the following row in the Product main form.
 </row>
 ```
 <a name="decimal-supported-not-honored"> </a>
-## Issue: **List Price**, **Standard Cost**, or **Current Cost** fields don't honor **Decimal Supported** field precision value.
+## Issue: List Price, Standard Cost, or Current Cost fields don't honor **Decimal Supported** field precision value.
 
 **Resolution**
 
