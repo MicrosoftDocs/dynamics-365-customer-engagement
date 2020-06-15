@@ -172,11 +172,11 @@
 ### Troubleshooting
 #### [Custom plugin handling through shared variable](../sales-enterprise/developer/custom-plugin-handling-shared-variable.md)
 ### [Custom actions](../sales-enterprise/developer/reference/custom-actions-manual-forecasting.md)
-#### [msdyn_ForecastApi](../sales-enterprise/developer/reference/custom-action/msdyn_ForecastApi.md)
-#### [msdyn_ForecastConfigurations](../sales-enterprise/developer/reference/custom-action/msdyn_ForecastConfigurations.md)
-#### [msdyn_ForecastConfigurationsByName](../sales-enterprise/developer/reference/custom-action/msdyn_ForecastConfigurationsByName.md)
-#### [msdyn_ForecastInstanceActions](../sales-enterprise/developer/reference/custom-action/msdyn_ForecastInstanceActions.md)
-#### [msdyn_ForecastPeriodsByForecastConfigurationId](../sales-enterprise/developer/reference/custom-action/msdyn_ForecastPeriodsByForecastConfigurationId.md)
+#### [msdyn_ForecastApi](../sales-enterprise/developer/reference/custom-actions/msdyn_ForecastApi.md)
+#### [msdyn_ForecastConfigurations](../sales-enterprise/developer/reference/custom-actions/msdyn_ForecastConfigurations.md)
+#### [msdyn_ForecastConfigurationsByName](../sales-enterprise/developer/reference/custom-actions/msdyn_ForecastConfigurationsByName.md)
+#### [msdyn_ForecastInstanceActions](../sales-enterprise/developer/reference/custom-actions/msdyn_ForecastInstanceActions.md)
+#### [msdyn_ForecastPeriodsByForecastConfigurationId](../sales-enterprise/developer/reference/custom-actions/msdyn_ForecastPeriodsByForecastConfigurationId.md)
 
 ### Playbooks
 #### [Entity reference](../sales-enterprise/developer/reference/playbook-entity-reference.md)
