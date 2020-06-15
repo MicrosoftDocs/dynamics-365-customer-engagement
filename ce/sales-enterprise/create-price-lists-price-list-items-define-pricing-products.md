@@ -176,9 +176,9 @@ Create a price list item for each unit in which the product is available. For ex
           
       -  **Percent of List**. Use this to calculate a product's price in the price list as a percentage of the list price of the associated product.  
         
-      -  **Percent Markup - Current Cost**. Use this to add a percent markup on top of the current cost of the prouct.   
+      -  **Percent Markup - Current Cost**. Use this to add a percent markup on top of the current cost of the product.   
 
-      - **Percent Markup - Standard Cost**. Use this to add a percent markup on top of the standard cost of the prouct.
+      - **Percent Markup - Standard Cost**. Use this to add a percent markup on top of the standard cost of the product.
 
       -  **Percent Margin - Current Cost**. Use this for the price offered in the price list to yield a percentage margin of the current cost of the product. 
 
@@ -208,7 +208,7 @@ Create a price list item for each unit in which the product is available. For ex
   
 ## Define default price list for territories  (Sales)
 
-Make sales agents' job easier by adding default pricelists for territories or customer segments the agents are managing. When sales agents are working on opportunities, they see the default price list. Sales agents can later select other price list that they've permission on. You can have one price list as the default for multiple territories.  
+Make sales agents' job easier by adding default price lists for territories or customer segments the agents are managing. When sales agents are working on opportunities, they see the default price list. Sales agents can later select other price list that they've permission on. You can have one price list as the default for multiple territories.  
    
 1.  In the price list record, in the **Territory Relationships** section, select the **Add Record** button ![Add a record button](../sales-enterprise/media/add-recordbutton.gif "Add a record button").  
   
