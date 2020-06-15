@@ -224,10 +224,14 @@
         ]
       },
       "search.app":{
-        "omnichannel/**.*": ["D365CE", "D365CS"]
+        "omnichannel/**.*": ["D365CE", "D365CS"],
+        "sales-enterprise/**.*": ["D365CE", "D365Sales"],
+        "sales-professional/**.*": ["D365CE", "D365Sales"]
       },
       "search.audienceType":{
-        "omnichannel/**.*": ["admin", "customizer", "enduser"]
+        "omnichannel/**.*": ["admin", "customizer", "enduser"],
+        "sales-enterprise/**.*": ["admin", "customizer", "enduser"],
+        "sales-professional/**.*": ["admin", "customizer", "enduser"]
       }
     },
     "template": [],
