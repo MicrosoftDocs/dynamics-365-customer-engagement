@@ -4,7 +4,7 @@ description: "Learn about the international availability of Omnichannel for Cust
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/08/2020
+ms.date: 06/15/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
