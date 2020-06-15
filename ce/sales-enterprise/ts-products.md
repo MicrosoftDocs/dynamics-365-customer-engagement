@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting the Product entity (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Follow the instructions in this article to troubleshoot the issues you might face while working with the Product entity in Dynamics 365 Sales."
-ms.date: 03/24/2020
+ms.date: 06/17/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -67,6 +67,29 @@ In the unmanaged solution, add the following row in the Product main form.
 </cell>
 </row>
 ```
+<a name="decimal-supported-not-honored"> </a>
+## Issue: **List Price**, **Standard Cost**, or **Current Cost** fields don't honor **Decimal Supported** field precision value.
+
+**Resolution**
+
+There's no relation between the **Decimal Supported** and the **List Price** field. The value defined in the **Decimal Supported** field doesn't impact precision value of the List Price field. The decimal precision value on the 'List Price', 'Standard Cost', or 'Current Cost' field is controlled by **Pricing Decimal Precision setting.** By default, "**Pricing Decimal Precision"** is set to 2. For more information about this setting, see [System Settings General tab](/power-platform/admin/system-settings-dialog-box-general-tab).
+
+<a name="decimal-value-not-accepted"> </a>
+## Issue: I get an error when setting the Quantity field to a decimal value in the 'Order Product', 'Quote Product', 'Invoice Product' records
+
+**Resolution**
+
+**The Quantity Selling Option** field of the price list item record decides whether the product or service can be ordered in whole, partial, or both types of quantities. To be able to enter decimal values in the Quantity field, make sure that the **Quantity Selling Option** field isn't set to **Whole**. More information: [Define product pricing with price lists and price list items](https://docs.microsoft.com/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products)
+
+<a name="decimal-supported-value-error"> </a>
+## Issue: I get an error while opening or saving a Product record when the **Decimal Supported** field has value > 2. 
+
+**Resolution**:
+ 
+If the **Quantity On Hand** field is used on the form, the value for the **Decimals Supported** field must not be greater than the precision of **Quantity On Hand**.
+
+To fix the problem, go to **Settings** &gt; **Customizations** &gt; **Entities** &gt; **Fields** &gt; **Quantity On Hand**. Make sure that the **Precision** value is same as the **Decimal Supported** value.
+
 
 ### See also
 
