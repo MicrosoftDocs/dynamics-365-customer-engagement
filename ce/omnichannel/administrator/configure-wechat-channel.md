@@ -4,7 +4,7 @@ description: "Instructions for configuring a WeChat channel in Omnichannel for C
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/11/2020
+ms.date: 06/15/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -15,7 +15,7 @@ ms.topic: article
 
 ## WeChat channel
 
-Using social messaging channels such as WeChat&mdash;which has a large user base in Asia&mdash;lets organizations enhance business efficiencies in certain geographical areas by integrating these services into  Omnichannel for Customer Service.
+Using social messaging channels such as WeChat&mdash;which has a large user base in Asia&mdash;lets organizations enhance business efficiencies in certain geographical areas by integrating these services into Omnichannel for Customer Service.
 
 ## Prerequisites
 
@@ -69,7 +69,7 @@ To integrate a WeChat channel with Omnichannel for Customer Service, get the fol
 
 If you are using the service account of WeChat, perform the following steps:
 
-1. Sign in to your WeChat Service Account, and then paste the IP whitelist and server address, which you copied from Omnichannel Administration in the preceding procedure, in their respective boxes. The IP address of the Omnichannel for Customer Service application is whitelisted in the WeChat firewall. The server address helps establish the connection between WeChat and Omnichannel for Customer Service.
+1. Sign in to your WeChat Service Account, and then paste the IP whitelist and server address, which you copied from Omnichannel Administration in the preceding procedure, in their respective boxes. The IP address of the Omnichannel for Customer Service application is not blocked in the WeChat firewall. The server address helps establish the connection between WeChat and Omnichannel for Customer Service.
 
 2. In WeChat, make sure that you select **Security Mode** under **Message Encryption Method** for encryption of the chat messages.
 

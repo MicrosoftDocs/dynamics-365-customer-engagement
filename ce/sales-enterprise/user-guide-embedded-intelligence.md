@@ -8,12 +8,6 @@ ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: sakudes
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365Sales
 ---
 
 # User guide for Embedded intelligence
