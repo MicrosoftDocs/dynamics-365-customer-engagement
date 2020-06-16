@@ -100,7 +100,7 @@ The **Quantity Selling Option** field of the price list item record decides whet
 
 **Resolution**
  
-If the **Quantity On Hand** field is used on the form, the value for the **Decimals Supported** field must not be greater than the precision of **Quantity On Hand**.
+If the **Quantity On Hand** field is used on the form, the value for the **Decimal Supported** field must not be greater than the precision of **Quantity On Hand**.
 
-To fix the problem, go to **Settings** &gt; **Customizations** &gt; **Entities** &gt; **Fields** &gt; **Quantity On Hand**. Make sure the **Precision** value is the same as the **Decimal Supported** value.
+To fix this, go to **Settings** &gt; **Customizations** &gt; **Entities** &gt; **Fields** &gt; **Quantity On Hand**. Make sure the **Precision** value is the same as the **Decimal Supported** value.
 
