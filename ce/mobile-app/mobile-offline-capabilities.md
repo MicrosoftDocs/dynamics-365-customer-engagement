@@ -65,8 +65,8 @@ These entities and corresponding commands are available in offline mode.
 - **Offline search**: Available only for offline entities. User can only search one entity at a time. Only categorized search is supported in offline mode and not relevant search.
 
 - **Notes on the Timeline control**: Notes on the Timeline control is available in offline mode. You can take pictures, read notes, and add attachments in offline mode.
-> [!NOTE]
-> The **Date** field is not available for mobile offline search.
+  > [!NOTE]
+  > The **Date** field is not available for mobile offline search.
 
 
 ## Limitations 
