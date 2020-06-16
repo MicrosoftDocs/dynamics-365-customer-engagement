@@ -30,6 +30,32 @@ Mobile offline allows your users to use the Dynamics 365 for phones app in offli
 > - The mobile offline feature is only available for iOS and Android devices.
 > - To use the mobile offline feature, download the latest version of the Dynamics 365 for phones and tablet app from the app store. For iOS, version 13.19043.32 or later is supported; for Android, version 4.3.19043.33 or later supported.
 
+These entities and corresponding commands are available in offline mode.
+
+|Entities |Commands|  
+|-------------|---------|  
+|Account|	Create, Read, Update, Delete|
+|Activity Pointer|Read, Delete|
+|Appointment|	Create, Read, Update, Delete, Convert Activity Case|
+|Attachment	|Read only|
+|Case|Create, Read, Update, Delete|
+|Competitor|Create, Read, Update, Delete	|
+|Competitor Address |Create, Read, Update, Delete	|
+|Connection|Read only|
+|Connection Role|Read only|
+|Contact|Create, Read, Update, Delete	|
+|Custom Entity|Create, Read, Update, Delete	|
+|Email|Read only	|
+|Lead|Create, Read, Update, Delete, Qualify/Disqualify	|
+|Opportunity|Create, Read, Update, Delete|
+|Opportunity Product|Create, Read, Update, Delete	|
+|Phone Call|Create, Read, Update, Delete	|
+|Position|Create, Read, Update, Delete	|
+|Product|Read|
+|Task |Create, Read, Update, Delete|
+|Team |Read only	|
+|User |Read only	|
+
 To allows users to use this feature, a Dynamics 365 administrator will need to set up mobile offline for their organization. 
   
 This offline experience uses [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] services to periodically synchronize entities with the Dynamics 365 for phones and tablets apps so synchronized records are available when users’ mobile devices are disconnected. To enable mobile offline synchronization, follow the steps below.
@@ -37,9 +63,8 @@ This offline experience uses [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-
  
 ## Step 1: Enable entities for mobile offline synchronization 
  
-One of the first things you need to do is enable entities that will be available to mobile users when they're using the mobile app in offline mode. 
-  
-You can disable or enable any of the supported entities for offline mode. For more information on supported entities see, [Capabilities available in offline mode](https://docs.microsoft.com/dynamics365/mobile-app/work-in-offline-mode#capabilities-available-in-offline-mode).
+One of the first things you need to do is enable entities that will be available to mobile users when they're using the mobile app in offline mode. You can disable or enable any of the supported entities for offline mode.
+
   
 1. In the **Dynamics 365- custom** app, go to **Settings** > **Advanced Settings**.
 
@@ -126,61 +151,95 @@ You need to create mobile offline profiles for users to configure filters that d
    >![Setting Customizations](media/enable_entities_for_offline.png "Settings Customizations")
  
 
-10. Select a **Data Download Filter** and choose from the following:
+10. Select a **Data Download Filter** based on the ownership type for the entity. Entity ownership is decided when you originally created the entity. For more information, see [https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-entities](Types of entities and entity ownership).
+ 
+ |Entity ownership type|Data Download Filter options |  
+|---------------|-----------------|  
+|**User or Team**|All options are available.|  
+|**Organization**|**Download related data only** and **All records** .|  
+|**Business**|**Download related data only**,**All records**, **Other records** (**Download my business unit’s records**.), **Custom data filter**  |  
+|**None**| **Download related data only**|  
+ 
+ 
+**User or Team**
   
- - Select **Download related data only** to download only the related data for this entity available offline. If you don’t set  any relationships, no records for this entity will be available.  
+   - **Download related data only**. Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.  
   
- - Select **All records**. Make all records for this entity available offline.  
+   - **All records**. Make all records for this entity available offline.  
   
- - Select **Other records**, and choose from the following:  
+   - **Other data filter**. Make only the specified records for this entity available offline.  
   
-      - **Download my records**. Make only your records available offline.  
+   If you select **Other records**, you can choose from the following:  
   
-      - **Download my team’s records**. Make your team’s records available offline.  
+   - **Download my records**. Make only your records available offline.  
   
-      - **Download my business unit’s records**. Make your business unit’s records available offline.  
-      
- - Select **Custom data filter**, to create a custom rule based on the following rules. You can create filters up to three levels.     
+   - **Download my team’s records**. Make your team’s records available offline.  
+  
+   - **Download my business unit’s records**. Make your business unit’s records available offline.  
+  
+ **Organization**  
+  
+   - **Download related data only**. Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.  
+  
+   - **All records**. Make all records for this entity available offline.  
+  
+ **Business**  
+  
+   - **Download related data only**. Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.  
+  
+   - **All records**. Make all records for this entity available offline.  
+  
+   - **Other records**. Make only the specified records for this entity available offline.  
+  
+   If you select **Other records**, you can choose from the following:  
+  
+   - **Download my business unit’s records**. Make your business unit’s records available offline.  
+  
+ **None**  
+  
+   - **Download related data only**. Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.  
+    
+Admins can define a custom filter based on the following rules. You can create filters up to three levels.  
     
 
-   |  |
-   |---------|
-   |equal     |
-   |not equal     |
-   |gt – greater than|  
-   |ge – greater than or equal to|  
-   |le – less than or equal to|  
-   |lt – less than|  
-   |like|  
-   |not-like|  
-   |in|  
-   |not-in|  
-   |null|  
-   |not-null|  
-   |eq-userid|  
-   |ne-userid|  
-   |eq-userteams|  
-   |eq-useroruserteams|  
-   |eq-useroruserhierarchy|  
-   |eq-useroruserhierarchyandteams|  
-   |eq-businessid|  
-   |ne-businessid|  
-   |eq-userlanguage|  
-   |begins-with|  
-   |not-begin-with|  
-   |ends-with|  
-   |not-end-with|
+ |  |
+ |---------|
+ |equal     |
+ |not equal     |
+ |gt – greater than|  
+ |ge – greater than or equal to|  
+ |le – less than or equal to|  
+ |lt – less than|  
+ |like|  
+ |not-like|  
+ |in|  
+ |not-in|  
+ |null|  
+ |not-null|  
+ |eq-userid|  
+ |ne-userid|  
+ |eq-userteams|  
+ |eq-useroruserteams|  
+ |eq-useroruserhierarchy|  
+ |eq-useroruserhierarchyandteams|  
+ |eq-businessid|  
+ |ne-businessid|  
+ |eq-userlanguage|  
+ |begins-with|  
+ |not-begin-with|  
+ |ends-with|  
+ |not-end-with|
+ 
+11. Select **Save** to create the mobile offline profile item so you can continue editing it.  
   
-10. Select **Save** to create the mobile offline profile item so you can continue editing it.  
-  
-11. In the **MOBILE OFFLINE PROFILE ITEM ASSOCIATIONS DETAILS** area, select **Add Mobile Offline Profile Item Association record** to create a new mobile offline profile item association. You need to create a mobile offline profile item association for each related record you want to make available offline. In addition, you need to include any related entities in this mobile offline profile.  
+12. In the **MOBILE OFFLINE PROFILE ITEM ASSOCIATIONS DETAILS** area, select **Add Mobile Offline Profile Item Association record** to create a new mobile offline profile item association. You need to create a mobile offline profile item association for each related record you want to make available offline. In addition, you need to include any related entities in this mobile offline profile.  
   
      For example, if you create a mobile offline profile item association from the Lead entity, you need to add the Lead entity to this mobile offline profile.  
      
     > [!div class="mx-imgBorder"]
     >![Add Lead entity to offline profile](media/addleadentity1.png "Add Lead entity to offline profile")
   
-12. Enter a name for the mobile offline profile item association, select a relationship, and then select **Save**.  
+13. Enter a name for the mobile offline profile item association, select a relationship, and then select **Save**.  
   
     When you’re done adding mobile offline profile item associations to the mobile offline profile item, select **Save & Close** on the **MOBILE OFFLINE PROFILE ITEM ASSOCIATION** screen.  
   
