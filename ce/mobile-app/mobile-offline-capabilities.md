@@ -112,7 +112,7 @@ These entities and corresponding commands are available in offline mode.
 
 - Changes to a user’s security privileges are updated during the next synchronization cycle. Until that time, users can continue to access data according to their previous security privileges, but any changes they make will be validated during the synchronization to the Dynamics 365 server. If they no longer have privileges to make changes for a record, they will receive an error and the record won’t be created, updated, or deleted.
 
-- Any changes to a user’s privilege to view a record won’t take effect on the mobile device until the next synchronization cycle.\
+- Any changes to a user’s privilege to view a record won’t take effect on the mobile device until the next synchronization cycle.
 
 - Mobile offline honors the Dynamics 365 apps security model. It also supports the hierarchical security model. Field level security and attribute sharing are not supported for offline mode.
   
