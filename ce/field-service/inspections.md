@@ -2,7 +2,7 @@
 title: "Dynamics 365 Field Service inspections | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 05/29/2020
+ms.date: 06/16/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -139,13 +139,81 @@ An inspection completed by a technician will be visible on the bottom of the wor
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a work order service task, showing the inspection form at the bottom.](./media/inspections-service-task-work-order-drill-down.png)
 
-## Perform inspection
+## Perform inspections on mobile
 
-After the work order is scheduled to the appropriate technician, they can see and complete the inspection by signing in to either:
+After the work order is scheduled to the appropriate technician, they can see and complete the inspection from the work order on the [Field Service Mobile](field-service-mobile-overview.md) app. 
 
-- Field Service in a web browser (on a mobile device or PC)
-- The [Field Service (Dynamics 365)](mobile-2020-power-platform.md) mobile app
-- [Field Service Mobile](field-service-mobile-overview.md) (Inspection capabilities will be available on Field Service Mobile soon)
+> [!Note]
+> You must download and import a new mobile project template into the mobile configuration tool (Woodford) to use inspections on Field Service Mobile during public preview. [DOWNLOAD the mobile project template for inspections](http://aka.ms/fsmproject-inspections-ea). For more details on mobile project templates, see the topic on [importing the mobile project template](https://docs.microsoft.com/en-us/dynamics365/field-service/install-field-service#step-4-import-the-mobile-project-template).
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](media/inspections-fsm-mobile-project.png)
+
+Sign in with your Dynamics 365 URL, username, and password, and go to the assigned work order.
+
+Select the **Work Order Service Task** that has the related inspection.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Field Service Mobile app showing service tasks](media/.png)
+
+Find the inspection form and enter answers.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Field Service Mobile app showing a sample inspection.](./media/.png)
+
+Technicians can upload files, take pictures, or upload pictures from the phone's camera roll.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Field Service Mobile app showing the upload photos option on inspections.](./media/.png)
+
+When finished, the technician can select **Mark Complete** or set **Complete %** to 100.
+
+Enter a **Result** to report on the overall inspection:
+
+- Pass
+- Fail
+- Partial Success
+- NA
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Field Service Mobile app showing percent complete on an inspection.](./media/.png)
+
+**Actual Duration**: Enter an actual duration the work order service task took to complete that can be compared to estimated duration.
+
+If an inspection question is required, the technician will not be able to mark **Complete** or set **% Completed** to 100 until it is answered.
+
+**Clear Responses**: If needed, a technician can select  **More** > **Clear Responses** to start over. This will permanently delete all responses for this service task inspection.
+
+Inspections can be viewed and completed on the [Dynamics 365 Field Service PowerApp](https://docs.microsoft.com/en-us/dynamics365/field-service/inspections#inspections-on-Dynamics-365-Field-Service-PowerApp). See the bottom of this article for more details.
+
+## View responses
+
+Back in Dynamics 365, a dispatcher will see inspection responses.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Field Service on a desktop, showing the work order service task and the completed inspection form at the bottom.](./media/inspections-complete-web.png)
+
+## Inspections for customer assets
+
+To relate the inspection to a customer asset and build out service history, enter the customer asset in the **Service Task Relates To** section of the work order service **Task** that holds the inspection.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the work order service task showing the service task relates to section, highlighting an associated customer asset.](./media/inspections-wost-customer-asset.png)
+
+Associating a customer asset allows the technician to see which customer asset needs the inspection. From the customer asset, they can see all related inspection history.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a customer asset on the work order service tasks section, showing the associated inspection.](./media/inspections-custoiner-asset-service-history.png)
+
+> [!Note]
+> If you relate a work order incident type to a customer asset, the related work order service tasks will be related to the customer asset automatically.
+
+## Inspections on Dynamics 365 Field Service PowerApp
+
+[Dynamics 365 Field Service PowerApp](mobile-2020-power-platform.md)
+
+This does not require any additional setup other than upgrade Field Service to 8.8.22+.
 
 The following screenshots show inspections on the [Field Service (Dynamics 365)](mobile-2020-power-platform.md) mobile app.
 
@@ -184,28 +252,6 @@ If an inspection question is required, the technician will not be able to mark *
 
 **Clear Responses**: If needed, a technician can select  **More** > **Clear Responses** to start over. This will permanently delete all responses for this service task inspection.
 
-## View responses
-
-Back in Dynamics 365, a dispatcher will see inspection responses.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service on a desktop, showing the work order service task and the completed inspection form at the bottom.](./media/inspections-complete-web.png)
-
-## Inspections for customer assets
-
-To relate the inspection to a customer asset and build out service history, enter the customer asset in the **Service Task Relates To** section of the work order service **Task** that holds the inspection.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the work order service task showing the service task relates to section, highlighting an associated customer asset.](./media/inspections-wost-customer-asset.png)
-
-Associating a customer asset allows the technician to see which customer asset needs the inspection. From the customer asset, they can see all related inspection history.
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a customer asset on the work order service tasks section, showing the associated inspection.](./media/inspections-custoiner-asset-service-history.png)
-
-> [!Note]
-> If you relate a work order incident type to a customer asset, the related work order service tasks will be related to the customer asset automatically.
 
 ## Run workflow on inspection responses
 
