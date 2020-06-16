@@ -28,6 +28,7 @@ Work with your data in offline mode even when you don't have internet access. Th
 
 If you're working on a record and lose network connection, any updates made to the record are saved in offline mode and will be synchronized to Dynamics 365 app once you're back online. When the record is synchronized with the app, it follows the filter rule for availability in offline mode.
 
+
 > [!NOTE]
 > - The mobile offline feature is only available for iOS and Android devices.
 > - To use the mobile offline feature, download the latest version of the Dynamics 365 for phones and tablet app from the app store. For iOS, version 13.19043.32 or later is supported; for Android, version 4.3.19043.33 or later supported.
@@ -127,6 +128,10 @@ If you used the mobile app on a phone or tablet temporarily and want to remove a
 Reconfiguring deletes all data and metadata from the cache, however do not rely on this as a security measure.
 
 Make sure you use the **Reconfigure** option before you sign out. If you sign in to another organization but you wanted to delete data for the previous organization that you were logged into, then you will need to sign back into that organization and use the **Reconfigure** option to delete all data and metadata from the cache. 
+
+## Mobile offline capabilities and limitations
+
+For informatoin on capabilities and limitations of mobile offline, see [Mobile offline capabilities and limitations](mobile-offline-capabilities.md).
 
 
 
