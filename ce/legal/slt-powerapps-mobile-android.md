@@ -1,8 +1,8 @@
 ---
-title: MICROSOFT SOFTWARE LICENSE TERMS MICROSOFT POWERAPPS - Android
+title: MICROSOFT SOFTWARE LICENSE TERMS MICROSOFT POWER APPS - Android
 author: ReneeW-CPub
 ---
-# MICROSOFT SOFTWARE LICENSE TERMS<br>MICROSOFT POWERAPPS
+# MICROSOFT SOFTWARE LICENSE TERMS<br>MICROSOFT POWER APPS
 
 These license terms are an agreement between you and Microsoft Corporation (or
 one of its affiliates). They apply to the software named above and any Microsoft
