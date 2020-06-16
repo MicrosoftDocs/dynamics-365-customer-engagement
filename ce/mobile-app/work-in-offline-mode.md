@@ -131,32 +131,7 @@ Make sure you use the **Reconfigure** option before you sign out. If you sign in
 
 Dynamics 365 for phones and tablets provides the capabilities listed below in offline mode for the end users.
 
-These entities and corresponding commands are available in offline mode.
 
-
-|Entities |Commands|  
-|-------------|---------|  
-|Account|	Create, Read, Update, Delete|
-|Activity Pointer|Read, Delete|
-|Appointment|	Create, Read, Update, Delete, Convert Activity Case|
-|Attachment	|Read only|
-|Case|Create, Read, Update, Delete|
-|Competitor|Create, Read, Update, Delete	|
-|Competitor Address |Create, Read, Update, Delete	|
-|Connection|Read only|
-|Connection Role|Read only|
-|Contact|Create, Read, Update, Delete	|
-|Custom Entity|Create, Read, Update, Delete	|
-|Email|Read only	|
-|Lead|Create, Read, Update, Delete, Qualify/Disqualify	|
-|Opportunity|Create, Read, Update, Delete|
-|Opportunity Product|Create, Read, Update, Delete	|
-|Phone Call|Create, Read, Update, Delete	|
-|Position|Create, Read, Update, Delete	|
-|Product|Read|
-|Task |Create, Read, Update, Delete|
-|Team |Read only	|
-|User |Read only	|
 
 **Add Existing on subgrids**: **Add Existing** is not supported for mobile offline for certain types of relationships. When you are offline, certain relationships such as relationships that are N:N are read only, and the **Add Existing** command will be hidden on subgrids for those relationships. Even if the button is unhidden via customization, the command will not work in offline.
 
