@@ -16,9 +16,14 @@ Follow the instructions in this article to troubleshoot the issues you might fac
 
 <a name="reparenting_not_working"> </a>
 
-## Issue: Re-parenting isn't working, or the Parent field isn't visible
 
-_Product re-parenting_ allows you to change the parent of an existing product record so the child products will inherit the appropriate product properties. More information: [Change the parent of a product](change-product-parent.md)
+
+<!-- The style guide recommends using no hyphen with the prefix "re," so in this case it would be "Reparenting." I'm making that change here. Let me know if there's a reason not to - Laurie -->
+
+
+## Issue: Reparenting isn't working, or the Parent field isn't visible
+
+_Product reparenting_ allows you to change the parent of an existing product record so the child products will inherit the appropriate product properties. More information: [Change the parent of a product](change-product-parent.md)
 
 If you don't see the **Parent** field on the Product form, it could be because you've customized the **Product Main** form by using the unmanaged solution. More information: [Solutions overview](/powerapps/maker/common-data-service/solutions-overview#managed-and-unmanaged-solutions)
 
@@ -52,7 +57,7 @@ To resolve this, you must add the **Parent** field back to the form. You can do 
 
 **To add the Parent field through the solution import/export wizard**
 
-In the unmanaged solution, add the following row in the Product main form.
+In the unmanaged solution, add the following row in the Product main form:
 
  ```XML
 <row>
@@ -68,27 +73,27 @@ In the unmanaged solution, add the following row in the Product main form.
 </row>
 ```
 <a name="decimal-supported-not-honored"> </a>
-## Issue: List Price, Standard Cost, or Current Cost fields don't honor **Decimal Supported** field precision value.
+## Issue: List Price, Standard Cost, or Current Cost fields don't honor Decimal Supported field precision value.
 
 **Resolution**
 
-There's no relation between the **Decimal Supported** and the **List Price** field. The value defined in the **Decimal Supported** field doesn't impact precision value of the List Price field. The decimal precision value on the 'List Price', 'Standard Cost', or 'Current Cost' field is controlled by **Pricing Decimal Precision setting.** By default, "**Pricing Decimal Precision"** is set to 2. For more information about this setting, see [System Settings General tab](/power-platform/admin/system-settings-dialog-box-general-tab).
+There's no relation between the **Decimal Supported** and the **List Price** field. The value defined in the **Decimal Supported** field doesn't impact the precision value of the **List Price** field. The decimal precision value on the **List Price**, **Standard Cost**, or **Current Cost** field is controlled by the **Pricing Decimal Precision** setting. By default, "**Pricing Decimal Precision"** is set to **2**. For more information about this setting, see [System Settings General tab](/power-platform/admin/system-settings-dialog-box-general-tab).
 
 <a name="decimal-value-not-accepted"> </a>
-## Issue: I get an error when setting the Quantity field to a decimal value in the 'Order Product', 'Quote Product', 'Invoice Product' records
+## Issue: I get an error when setting the Quantity field to a decimal value in the Order Product, Quote Product, Invoice Product records.
 
 **Resolution**
 
-**The Quantity Selling Option** field of the price list item record decides whether the product or service can be ordered in whole, partial, or both types of quantities. To be able to enter decimal values in the Quantity field, make sure that the **Quantity Selling Option** field isn't set to **Whole**. More information: [Define product pricing with price lists and price list items](https://docs.microsoft.com/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products)
+The **Quantity Selling Option** field of the price list item record decides whether the product or service can be ordered in whole, partial, or both types of quantities. To be able to enter decimal values in the **Quantity** field, make sure the **Quantity Selling Option** field isn't set to **Whole**. More information: [Define product pricing with price lists and price list items](https://docs.microsoft.com/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products)
 
 <a name="decimal-supported-value-error"> </a>
 ## Issue: I get an error while opening or saving a Product record when the **Decimal Supported** field has value > 2. 
 
-**Resolution**:
+**Resolution**
  
-If the **Quantity On Hand** field is used on the form, the value for the **Decimals Supported** field must not be greater than the precision of **Quantity On Hand**.
+If the **Quantity On Hand** field is used on the form, the value for the **Decimal Supported** field must not be greater than the precision of **Quantity On Hand**.
 
-To fix the problem, go to **Settings** &gt; **Customizations** &gt; **Entities** &gt; **Fields** &gt; **Quantity On Hand**. Make sure that the **Precision** value is same as the **Decimal Supported** value.
+To fix this, go to **Settings** &gt; **Customizations** &gt; **Entities** &gt; **Fields** &gt; **Quantity On Hand**. Make sure the **Precision** value is the same as the **Decimal Supported** value.
 
 
 ### See also
