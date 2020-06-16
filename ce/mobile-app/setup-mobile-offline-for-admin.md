@@ -157,7 +157,7 @@ You need to create mobile offline profiles for users to configure filters that d
   |---------------|-----------------|  
   |**User or Team**|All options are available.|  
   |**Organization**|**Download related data only** and **All records** .|  
-  |**Business**|**Download related data only**,**All records**, **Other records** (**Download my business unit’s records**.), **Custom data filter**  |  
+  |**Business**|**Download related data only**, **All records**, **Other records** (**Download my business unit’s records**), **Custom data filter**  |  
   |**None**| **Download related data only**|  
  
  
