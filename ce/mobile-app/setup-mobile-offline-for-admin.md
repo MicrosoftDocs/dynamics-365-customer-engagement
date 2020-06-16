@@ -286,6 +286,10 @@ Enable mobile offline for a specific app from MyApps page.
 
 4. At the top choose **Save** and then **Publish**.
 
+## Mobile offline capabilities and limitations
+
+For informatoin on capabilities and limitations of mobile offline, see [Mobile offline capabilities and limitations](mobile-offline-capabilities.md).
+
 
 
 
