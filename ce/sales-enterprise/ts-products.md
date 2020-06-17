@@ -18,9 +18,6 @@ Follow the instructions in this article to troubleshoot the issues you might fac
 
 
 
-<!-- The style guide recommends using no hyphen with the prefix "re," so in this case it would be "Reparenting." I'm making that change here. Let me know if there's a reason not to - Laurie -->
-
-
 ## Issue: Reparenting isn't working, or the Parent field isn't visible
 
 _Product reparenting_ allows you to change the parent of an existing product record so the child products will inherit the appropriate product properties. More information: [Change the parent of a product](change-product-parent.md)
