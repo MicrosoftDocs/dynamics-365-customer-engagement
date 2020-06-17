@@ -66,32 +66,28 @@ From the Field Service app, go to **Settings** > **Inspections** > **+New**.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of active inspections in Dynamics 365 Field Service](./media/inspections-navigate.png)
 
-Name your inspection and add a description. Add a question to the inspection by double clicking or dragging and dropping a question type from the right side.
+Name your inspection and add a description. 
+
+Add a question to the inspection by double clicking or dragging and dropping a question type from the right side.
 
 **Textbox:** allow technician to enter text from keyboard for a free form response. There is an option in the Advanced panel to make the textbox bigger to allow for mult-line responses.
-- can have multiline
 
-**Checkbox**, **radiogroup**, **dropdown**:
-
-**Entity lookup:**
+**Checkbox**, **radiogroup**, **dropdown**: allow technicians to choose an answer from pre-defined options. The question types **Checkbox**, **Radiogroup**, and **Dropdown** are similar except the **Checkbox** question type is multi-select whereas **Radiogroup** and **Dropdown** allow for a single answer. The difference between **Radiogroup** and **Dropdown** is cosmetic and should be used based on desired user experience.
 mandatory fields and Name
 
-**Number:**
+**Entity lookup:** allow technician to choose a Dynamics 365 record. In the inspection designer interface, admins must select an entity and a field to display. FOr a chosen entity, the Name field and mandatory fields are the entity attributes that can be displayed in the lookup. Entity lookup respects security roles of logged in user, meaning some entities and records may not be displayed. 
 
-**Date Time:**
+**Number:** restricts input to numberic value or returns an error. Typically represents a measurement or numeric rating value.
 
-**File:**
-files and pictures
+**Date Time:** allow technician to enter a date and time. 
+
+**File:** allow technician to upload file, take picture, or choose picture from camera roll.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a new example inspection, showing the toolbox with question types on the right side.](./media/inspections-create.png)
 
 Use the **Required** toggle to make the inspection question mandatory.
-
-The question types **Checkbox**, **Radiogroup**, and **Dropdown** are similar except the **Checkbox** question type is multi-select whereas **Radiogroup** and **Dropdown** allow for a single answer. 
-
-The difference between **Radiogroup** and **Dropdown** is cosmetic and should be used based on desired user experience.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a Field Service inspection, showing additional questions](./media/inspections-create2.png)
