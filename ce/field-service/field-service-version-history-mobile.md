@@ -30,6 +30,22 @@ search.app:
 
 This article chronicles important updates related to Field Service Mobile and associated mobile project templates.
 
+## 12.1.220
+
+### Updates
+- Enabled capability to launch Remote Assist from iOS.
+- Accessibility enhancements.
+- Mobile reports usability improvement: default to last report type used.
+- Barcode scanner usability improvement: scan multi-part bar codes.
+
+### Bug fixes
+- PDF mobile report format/layout fixes.
+- App crash when adding video to notes on iOS.
+- Improved handing of Auth/Refresh Tokens.
+- Localization fix.
+- Miscellaneous crash fixes for iOS, Android, Windows.
+- App will now not throw an error when opening Work Order Product item from Booking when there is an inactive Product. 
+
 ## 12.1.212
 
 ### Updates
@@ -79,14 +95,14 @@ This article chronicles important updates related to Field Service Mobile and as
 - SearchForm force the cached entities, we already know the entities to search 
 - Desktop: Do not scrollIntoView multiline text DetailItem on click 
 - Google, Exchange contacts: fullname filter is compatible 
-- Clicking on PowerBI Sign in button doesn't open authentication dialog 
+- Clicking on Power BI Sign in button doesn't open authentication dialog 
 - iOS'Navigate To' command in Account form doesn't fill in the destination automatically after redirecting to the map app 
 - 'Direct to current location' button on the map of work order doesn't work in iOS 
 - "Unlock with your fingerprint" window doesn't appear in Android 
 - Android - unable to use 'navigate to' on account and WO 
 - NavigateTo on iOS opens Google Maps even though Apple Maps is selected 
 - Scan Barcode in the hamburger menu doesn't work 
-- FSM Android splash screen hangss. 
+- FSM Android splash screen hangs. 
 - OAuth with Proxy - If Proxy is bad, the app doesn't show any indication and it remains on the Sign In page. 
 - Saving IoT Device Command - Getting Error "Server Error: PluginBase" 
 - Allow sign in to OnPrem url 
@@ -94,7 +110,7 @@ This article chronicles important updates related to Field Service Mobile and as
 - Validate mobile app with no Woodford project. 
 - "e" letter is displaying in separate line for "Mark Complete" button on Service Tasks sub-grid of Work Order form 
 - Booking record should be deleted from the app if it is removed from the Schedule Board 
-- Server error appearss when users with FS Dispatcher privileges try to create Customer Asset in online mode
+- Server error appears when users with FS Dispatcher privileges try to create Customer Asset in online mode
 
 
 ## 11.3.107
@@ -113,11 +129,21 @@ Mobile projects hold configurations and customizations of the Field Service Mobi
 
 To learn more about mobile projects, see our topic on [installing the Field Service Mobile Configuration Tool](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/install-field-service#install-the-field-service-mobile-configuration-tool).
 
+## 1.0.4847
+
+| Download link | Release date | Relates to Field Service Mobile version | Publish to Woodford Version | Minimum Field Service Version |
+| --- | --- | --- | --- | --- |
+| [1.0.4847](https://aka.ms/fsmobile-project)  |  June 2020  |  12.1+ | 12.1+ | 8.8.14 | 
+
+- Added support for Remote Assist deep link on iOS.
+- Bug fix to populate fields from Service Account when creating a new Work Order associated with that Service Account.
+
+
 ## 1.0.4549
 
 | Download link | Release date | Relates to Field Service Mobile version | Publish to Woodford Version | Minimum Field Service Version |
 | --- | --- | --- | --- | --- |
-| [1.0.4549](https://aka.ms/fsmobile-project)  |  May 2020  |  12.1+ | 12.1+ | 8.8.14 | 
+| [1.0.4549](https://aka.ms/fsmobile-project-4549)  |  May 2020  |  12.1+ | 12.1+ | 8.8.14 | 
 
 - Added support for [Time Entry](field-service-time-entry.md) Fields, Forms, and Views.
 - Added font file for PDF Reports.

@@ -128,29 +128,21 @@
       },
       "searchScope": {
         "**.*": [
-          "Power Apps",
           "Dynamics 365"
         ],
         "customer-service/**.*": [
-          "Dynamics 365",
-          "Power Apps",
+          "Dynamics 365",          
           "Omnichannel",
           "Channel Integration Framework",
-          "Unified Service Desk",
+          "Unified Service Desk",          
           "Customer Service"
         ],
         "customerengagement/**.*": [
           "Dynamics 365",
-          "Customer Engagement"
-        ],
-        "customerengagement/on-premises/developer/**.*": [
-          "Dynamics 365",
-          "Customer Engagement",
-          "Developer"
-        ],
+          "Customer Engagement (on-premises)"
+        ],        
         "field-service/**.*": [
-          "Dynamics 365",
-          "Power Apps",
+          "Dynamics 365",          
           "Field Service"
         ],
         "gamification/**.*": [
@@ -158,12 +150,10 @@
           "Gamification"
         ],
         "linkedin/**.*": [
-          "Dynamics 365",
-          "Customer Engagement"
+          "Dynamics 365"
         ],
         "marketing/**.*": [
-          "Dynamics 365",
-          "Power Apps",
+          "Dynamics 365",          
           "Marketing"
         ],
         "mobile-app/**.*": [
@@ -179,18 +169,15 @@
           "Dynamics 365"
         ],
         "project-service/**.*": [
-          "Dynamics 365",
-          "Power Apps",
+          "Dynamics 365",          
           "Project Service"
         ],
         "sales-enterprise/**.*": [
-          "Dynamics 365",
-          "Power Apps",
+          "Dynamics 365",          
           "Sales"
         ],
         "sales-professional/**.*": [
-          "Dynamics 365",
-          "Power Apps",
+          "Dynamics 365",          
           "Sales"
         ],
         "social-engagement/**.*": [
@@ -222,6 +209,16 @@
           "Unified Service Desk",
           "Omnichannel"
         ]
+      },
+      "search.app":{
+        "omnichannel/**.*": ["D365CE", "D365CS"],
+        "sales-enterprise/**.*": ["D365CE", "D365Sales"],
+        "sales-professional/**.*": ["D365CE", "D365Sales"]
+      },
+      "search.audienceType":{
+        "omnichannel/**.*": ["admin", "customizer", "enduser"],
+        "sales-enterprise/**.*": ["admin", "customizer", "enduser"],
+        "sales-professional/**.*": ["admin", "customizer", "enduser"]
       }
     },
     "template": [],

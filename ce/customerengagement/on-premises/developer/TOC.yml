@@ -480,8 +480,8 @@
       href: solution-entities.md
     - name: Work with solutions
       href: work-solutions.md
-    - name: Create packages for the Dynamics 365 Package Deployer
-      href: package-deployer/
+    - name: Create packages for the Package Deployer
+      href: /power-platform/alm/package-deployer-tool
     - name: 'Sample: Work with solutions'
       href: sample-work-solutions.md
     - name: 'Sample: Detect solution dependencies'

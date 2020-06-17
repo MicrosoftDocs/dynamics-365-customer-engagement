@@ -12,7 +12,7 @@ manager: annbe
 
 # Recalculate an opportunity (Sales Hub)
 
-To change the estimated revenue of an opportunity based on any changes you've made to the associated products or product quantities, recalculate the opportunity.
+To change the estimated revenue or total amount of an opportunity based on any changes you've made to the associated products or product quantities, recalculate the opportunity.
 
 1. In the list of opportunities, open the opportunity for which you want to recalculate the estimated revenue.
 
