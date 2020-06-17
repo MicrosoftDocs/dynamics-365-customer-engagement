@@ -49,7 +49,7 @@ In this article, we'll walk through an example of setting up an inspection using
 ## Prerequisites
 
 > [!Note]
-> Inspection capabilities are released in April 2020 as part of a public preview. Follow the process in the article on [installing or upgrading preview features](field-service-preview.md). In Step 6, look for the preview flight with the display name **FieldService_April2020_PreviewFlight**.
+> Inspection capabilities are released in April 2020 as part of a public preview. Follow the process in the article on [installing or upgrading preview features](field-service-preview.md). In Step 6, look for the preview flight with the display name **FieldService_April2020_PreviewFlight**. You only need to install the public preview once and upgrades to the preview will show in admin center.
 
 - Dynamics 365 version 9.1.0000.15015+.
 
@@ -68,9 +68,14 @@ From the Field Service app, go to **Settings** > **Inspections** > **+New**.
 
 Name your inspection and add a description. 
 
-Add a question to the inspection by double clicking or dragging and dropping a question type from the right side.
+
 
 ### Question types
+
+Add a question to the inspection by double clicking or dragging and dropping a question type from the right side.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a new example inspection, showing the toolbox with question types on the right side.](./media/inspections-create.png)
 
 **Textbox:** allow technician to enter text from keyboard for a free form response. There is an option in the Advanced panel to make the textbox bigger to allow for mult-line responses.
 
@@ -86,8 +91,7 @@ mandatory fields and Name
 **File:** allow technician to upload file, take picture, or choose picture from camera roll.
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a new example inspection, showing the toolbox with question types on the right side.](./media/inspections-create.png)
+
 
 Use the **Required** toggle to make the inspection question mandatory.
 
@@ -106,7 +110,7 @@ Go to the **Logic** section of the designer form to add branching and conditiona
 > [!div class="mx-imgBorder"]
 > ![Screenshot of](./media/inspections-logic1.png)
 
-Based on the response to an insepction question, options include:
+Based on the response to an inspection question, options include:
 
 **Show the question:** Make the question visible when the condition is true. Otherwise keep it invisible.
 
@@ -129,10 +133,11 @@ Use the **Preview** section to see the inspection from a technician's perspectiv
 > [!Note]
 > Once you publish the inspection, you can't edit it in the preview version.
 
-When finished creating the inspection, select **Publish** at the top. 
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Field Service inspection, highlighting both the preview tab and the publish option.](./media/inspections-create-preview-publish.png)
+
+When finished creating the inspection, select **Publish** at the top. 
+
 
 
 ## Associate inspection to service task type
@@ -248,11 +253,8 @@ Associating a customer asset allows the technician to see which customer asset n
 
 ## Inspections on Dynamics 365 Field Service PowerApp
 
-[Dynamics 365 Field Service PowerApp](mobile-2020-power-platform.md)
+You can view and complete inspections on the [Dynamics 365 Field Service PowerApp](mobile-2020-power-platform.md). This requires no mobile proejct or any additional setup other than upgrading to Field Service v8.8.22+.
 
-This does not require any additional setup other than upgrade Field Service to 8.8.22+.
-
-The following screenshots show inspections on the [Field Service (Dynamics 365)](mobile-2020-power-platform.md) mobile app.
 
 Sign in with your Dynamics 365 URL, username, and password, and go to the assigned work order.
 
