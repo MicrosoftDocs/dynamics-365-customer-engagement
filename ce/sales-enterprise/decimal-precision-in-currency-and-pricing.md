@@ -78,26 +78,6 @@ To apply this precision setting to any of the currency field in the system, go t
 > [!NOTE]
 > This setting supports values between 0 and 4.
 
-
-## Troubleshooting 
-
-### Issue: List Price, Standard Cost, or Current Cost fields don't honor Decimal Supported field precision value.
-
-**Resolution**
-
-There's no relation between the **Decimal Supported** and the **List Price** field. The value defined in the **Decimal Supported** field doesn't impact the precision value of the **List Price** field. The decimal precision value on the **List Price**, **Standard Cost**, or **Current Cost** field is controlled by the **Pricing Decimal Precision** setting. By default, **Pricing Decimal Precision** is set to **2**. For more information about this setting, see [System Settings General tab](https://docs.microsoft.com/power-platform/admin/system-settings-dialog-box-general-tab).
-
-### Issue: I get an error when setting the Quantity field to a decimal value in the Order Product, Quote Product, Invoice Product records.
-
-**Resolution**
-
-The **Quantity Selling Option** field of the price list item record decides whether the product or service can be ordered in whole, partial, or both types of quantities. To be able to enter decimal values in the **Quantity** field, make sure the **Quantity Selling Option** field isn't set to **Whole**. More information: [Define product pricing with price lists and price list items](https://docs.microsoft.com/en-us/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products)
-
-### Issue: I get an error while opening or saving a Product record when the Decimal Supported field has value > 2. 
-
-**Resolution**
- 
-If the **Quantity On Hand** field is used on the form, the value for the **Decimal Supported** field must not be greater than the precision of **Quantity On Hand**.
-
-To fix this, go to **Settings** &gt; **Customizations** &gt; **Entities** &gt; **Fields** &gt; **Quantity On Hand**. Make sure the **Precision** value is the same as the **Decimal Supported** value.
-
+### See also
+[Define product pricing with price lists and price list items](create-price-lists-price-list-items-define-pricing-products.md)  
+[Manage transactions with multiple currencies](https://docs.microsoft.com/en-us/power-platform/admin/manage-transactions-with-multiple-currencies)
