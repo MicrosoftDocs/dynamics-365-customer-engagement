@@ -27,7 +27,7 @@ Using the general properties and scheduling options of the forecast configuratio
     >By default, **Rollup entity** is configured as **Opportunity**. This value can't be changed.<br>
     >![Forecast rollup entity](media/forecast-rollup-entity-opportunity.png "Forecast rollup entity")
 
-2.	If you have selected **Create from scratch** template to create a forecast, choose the **Hierarchy entity**. The entities that are displayed in the list has entity relationships defined in your organization for opportunity. 
+2.	If you have selected **Create from scratch** template to create a forecast, choose the **Hierarchy entity**. The entities that are displayed in the list have entity relationships defined in your organization for opportunity. 
 
     By default, for **Org chart forecast** template, the hierarchy entity is selected as **User** and for **Territory forecast** template, the hierarchy entity is selected as **Territory**. 
 
@@ -60,7 +60,7 @@ Using the general properties and scheduling options of the forecast configuratio
     | Org chart forecast | Opportunity > Owner (User) > User | The forecast hierarchy is defined based on the organizational hierarchy. |
     | Territory forecast | Opportunity > Account (Account) > Territory (Territory) > Territory | The forecast hierarchy is defined based on the territory hierarchy. |
 
-    You edit these values, if you want to use your organization specifc attributes to define the relationship between the rollup and hierarchy entity.
+    You edit these values, if you want to use your organization specific attributes to define the relationship between the rollup and hierarchy entity.
 
 4.	In the **Top of hierarchy** list, choose the user or territory that's at the top of this forecast hierarchy. 
 
