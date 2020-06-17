@@ -27,7 +27,7 @@
 #### [Set up product families](../sales-enterprise/create-product-family.md) 
 #### [Set up product bundles to sell multiple items together](../sales-enterprise/create-product-bundles-sell-multiple-items-together.md)
 #### [How are prices calculated for product bundles?](pricing-product-bundles.md)
-#### [Decimal precision in currency and pricing](decimal-precision-in-currency-and-pricing.md]
+#### [Decimal precision in currency and pricing](decimal-precision-currency-pricing.md]
 #### [Change parent of a product (reparenting)](change-product-parent.md)
 #### [Publish a product, bundle, or family](../sales-enterprise/publish-product-bundle-make-available-selling.md)
 #### [Define product pricing with price lists](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md)

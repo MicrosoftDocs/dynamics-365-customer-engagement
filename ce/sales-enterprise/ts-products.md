@@ -74,14 +74,15 @@ In the unmanaged solution, add the following row in the Product main form:
 
 **Resolution**
 
-There's no relation between the **Decimal Supported** and the **List Price** field. The value defined in the **Decimal Supported** field doesn't impact the precision value of the **List Price** field. The decimal precision value on the **List Price**, **Standard Cost**, or **Current Cost** field is controlled by the **Pricing Decimal Precision** setting. By default, "**Pricing Decimal Precision"** is set to **2**. For more information about this setting, see [System Settings General tab](/power-platform/admin/system-settings-dialog-box-general-tab).
+There's no relation between the **Decimal Supported** and the **List Price** field. The value defined in the **Decimal Supported** field doesn't impact the precision value of the **List Price** field. The decimal precision value on the **List Price**, **Standard Cost**, or **Current Cost** field is controlled by the **Pricing Decimal Precision** setting. By default, "**Pricing Decimal Precision"** is set to **2**. For more information about this setting, see [System Settings General tab](/power-platform/admin/system-settings-dialog-box-general-tab). For more information about decimal precision, see [Decimal precision in currency and pricing](decimal-precision-currency-pricing.md)
+
 
 <a name="decimal-value-not-accepted"> </a>
 ## Issue: I get an error when setting the Quantity field to a decimal value in the Order Product, Quote Product, Invoice Product records.
 
 **Resolution**
 
-The **Quantity Selling Option** field of the price list item record decides whether the product or service can be ordered in whole, partial, or both types of quantities. To be able to enter decimal values in the **Quantity** field, make sure the **Quantity Selling Option** field isn't set to **Whole**. More information: [Define product pricing with price lists and price list items](https://docs.microsoft.com/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products)
+The **Quantity Selling Option** field of the price list item record decides whether the product or service can be ordered in whole, partial, or both types of quantities. To be able to enter decimal values in the **Quantity** field, make sure the **Quantity Selling Option** field isn't set to **Whole**. More information: [Define product pricing with price lists and price list items](create-price-lists-price-list-items-define-pricing-products)
 
 <a name="decimal-supported-value-error"> </a>
 ## Issue: I get an error while opening or saving a Product record when the Decimal Supported field has value > 2. 
