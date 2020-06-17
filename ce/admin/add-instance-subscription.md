@@ -2,7 +2,7 @@
 title: "Add an instance to your subscription  | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
-ms.date: 11/21/2019
+ms.date: 06/10/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite:
@@ -110,11 +110,17 @@ You can add Production and non-Production (Sandbox) instances to a subscription.
 7. Once your instance is set up, make note of the URL and click or tap it to launch model-driven apps in Dynamics 365. Prepare the instance for users by assigning security roles, creating teams, customizing, and importing data. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Getting Started](getting-started.md).
 
 <a name="BKMK_effectonstor"></a>
+
 ## What is the effect of an additional instance on storage?
  When you add a new instance, the new instance and any existing instances will consume the existing storage that is available to the account. Warnings will be communicated when storage is near capacity.
 
 <a name="BKMK_man_sec_group"></a>
+
 ## Control user access to instances: security groups and licenses
+
+See: [Control user access to environments: security groups and licenses](https://docs.microsoft.com/power-platform/admin/control-user-access)
+
+<!--
  If your company has multiple instances, you can use security groups to control which licensed users can be a member of a particular instance.
 
  Consider the following example scenario:
@@ -192,6 +198,7 @@ You can add Production and non-Production (Sandbox) instances to a subscription.
 > - Sign out of model-driven apps in Dynamics 365 and the [!INCLUDE[pn_MS_Online_Services_Portal](../includes/pn-ms-online-services-portal.md)].
 > - Close all open browsers used for model-driven apps in Dynamics 365 and the [!INCLUDE[pn_MS_Online_Services_Portal](../includes/pn-ms-online-services-portal.md)].
 > - Sign back in to model-driven apps in Dynamics 365 and the [!INCLUDE[pn_MS_Online_Services_Portal](../includes/pn-ms-online-services-portal.md)].
+-->
 
 ### See also
-
+[Create and manage environments in the Power Platform admin center](https://docs.microsoft.com/power-platform/admin/create-environment)

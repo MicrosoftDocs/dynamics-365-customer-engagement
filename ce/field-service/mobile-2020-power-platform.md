@@ -2,7 +2,7 @@
 title: "Field Service (Dynamics 365) mobile app | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 06/02/2020
+ms.date: 06/10/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -31,6 +31,7 @@ search.app:
 
 Field Service (Dynamics 365) is a mobile app designed and optimized for technicians to view Dynamics 365 Field Service work orders, customer assets, accounts, and contacts. Different than Field Service Mobile (see feature comparison below), this alternative mobile app is built on Microsoft's Power Platform as a model-driven app and is customizable to your business needs with the same admin console as all Dynamics 365 business apps.
 
+Both the Field Service (Dynamics 365) mobile app _and_ the Field Service Mobile app are included with Field Service.
 
 Available natively for Apple iOS and Google Android phones, Field Service (Dynamics 365) offers technicians many capabilities they need to perform onsite customer service, such as:  
 
@@ -63,18 +64,19 @@ Field Service Mobile is recommended for more **complex** use cases where you may
 | Driving directions | Technician | Yes | Yes |
 | Speech to text | Technician | Yes | Yes |
 | Geocoding | Technician | Yes | Yes |
-| Push notifications | Technician | | Yes |
-| Geofencing | Technician | | Yes |
+| [Push notifications](mobile-push-notifications.md) | Technician | | Yes |
+| [Geofencing](geofencing.md) | Technician | | Yes |
 | IoT alerts | Technician | | Yes |
 | Reporting | Technician | | Yes |
 | Scan to find asset | Technician | | Yes |
-| Location sharing and auditing | Admin | | Yes |
+| [Location sharing and auditing](https://docs.microsoft.com/dynamics365/field-service/geofencing#step-3-enable-location-auditing-for-the-field-service-mobile-app) | Admin | | Yes |
 | Enhanced mobile workflows | Admin | | Yes |
 | Enhanced offline sync filters | Admin | | Yes |
-| Remote Assist | Integration | | Yes |
-| Microsoft Intune  | Integration | | Yes |
+| Allow technician to force data sync | | | Yes |
+| [Remote Assist](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/overview-hololens) | Integration | | Yes |
+| [Microsoft Intune](field-service-mobile-intune.md)  | Integration | | Yes |
 
-
+Check [Release Plans](https://docs.microsoft.com/dynamics365/release-plans/) to stay up to date on upcoming features for Field Service including the Field Service (Dynamics 365) mobile app.
 
 ## Prerequisites
 
@@ -312,3 +314,16 @@ For another example, the **Work Order Product** entity has a data download filte
 ### Can I only add and view Field Service entities on Field Service (Dynamics 365)?
 
 Because Field Service (Dynamics 365) is a model-driven app on the Power Platform, any entity can be added; users can only see entities and records that they have the licenses and security to access, regardless of whether it's part of the Field Service app or not.
+
+### Why is the app saying "You're almost there"?
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the "you're almost there" issue.](./media/mobile-2020-youre-almost-there.png)
+
+If you are getting the error "You're almost there" after signing in to the mobile app, try the following:
+
+1. Make sure you have the correct security role (Field Service - Resource) and that the security role is assigned to the Field Service Mobile app.
+2. Sign in again, pull down the screen to refresh and wait for at least a few minutes
+3. If completing both steps 1 and 2 above do not resolve the issue, [submit a support ticket](https://dynamics.microsoft.com/contact-us/).
+
+

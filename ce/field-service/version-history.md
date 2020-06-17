@@ -2,7 +2,7 @@
 title: "Field Service Version History | MicrosoftDocs"
 ms.custom:
   - dyn365-fieldservice
-ms.date: 05/14/2020
+ms.date: 06/08/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -50,12 +50,12 @@ Release For information about other updates to Field Service, visit the [Dynamic
 | | <i>South Africa</i> | [8.8.23.85](https://docs.microsoft.com/dynamics365/field-service/version-history#882385)| TBD | 06/26/2020
 | | <i>Germany</i> | [8.8.23.85](https://docs.microsoft.com/dynamics365/field-service/version-history#882385)| TBD | 06/26/2020
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> | [8.8.23.85](https://docs.microsoft.com/dynamics365/field-service/version-history#882385)| TBD | 06/26/2020
-| | <i>Asia Pacific</i>  | [8.8.23.85](https://docs.microsoft.com/dynamics365/field-service/version-history#882385)| TBD | 06/26/2020
-| | <i>Great Britain</i>  | [8.8.23.85](https://docs.microsoft.com/dynamics365/field-service/version-history#882385)| TBD | 06/26/2020
-| | <i>Oceana</i>  | [8.8.23.85](https://docs.microsoft.com/dynamics365/field-service/version-history#882385)| TBD | 06/26/2020
+| | <i>Japan</i> | [8.8.23.85](https://docs.microsoft.com/dynamics365/field-service/version-history#882385)| TBD | 07/03/2020
+| | <i>Asia Pacific</i>  | [8.8.23.85](https://docs.microsoft.com/dynamics365/field-service/version-history#882385)| TBD | 07/03/2020
+| | <i>Great Britain</i>  | [8.8.23.85](https://docs.microsoft.com/dynamics365/field-service/version-history#882385)| TBD | 07/03/2020
+| | <i>Oceana</i>  | [8.8.23.85](https://docs.microsoft.com/dynamics365/field-service/version-history#882385)| TBD | 07/03/2020
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> |[8.8.22.58](https://docs.microsoft.com/dynamics365/field-service/version-history#882258)|[8.8.23.85](https://docs.microsoft.com/dynamics365/field-service/version-history#882385)| 06/12/2020
+| | <i>Europe</i> | [8.8.23.85](https://docs.microsoft.com/dynamics365/field-service/version-history#882385)| TBD | 07/10/2020
 |<strong>Station 5</strong> | |  |  | |
 | | <i>North America</i> |[8.8.22.58](https://docs.microsoft.com/dynamics365/field-service/version-history#882258)|[8.8.23.85](https://docs.microsoft.com/dynamics365/field-service/version-history#882385)| 06/19/2020
 |<strong>Station 6</strong> | |  |  | |
@@ -79,6 +79,7 @@ Release For information about other updates to Field Service, visit the [Dynamic
 
 ## 8.8.22.58 
 
+- Includes release of [Dynamics 365 Field Service (Power App)](mobile-2020-power-platform.md), a new mobile app for technicians built on the Power Platform. As part of this release, administrators will see a new app called "Field Service Mobile" in the list of apps. 
 - The following [Field Service 2020 Wave 1](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-field-service/planned-features) features in GA and Preview planned are included in this release:
   - Incident type AI-based suggestions (preview)
   - IoT alerts AI-based suggestions (preview)
