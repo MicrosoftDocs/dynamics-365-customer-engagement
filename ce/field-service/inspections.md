@@ -70,6 +70,8 @@ Name your inspection and add a description.
 
 Add a question to the inspection by double clicking or dragging and dropping a question type from the right side.
 
+### Question types
+
 **Textbox:** allow technician to enter text from keyboard for a free form response. There is an option in the Advanced panel to make the textbox bigger to allow for mult-line responses.
 
 **Checkbox**, **radiogroup**, **dropdown**: allow technicians to choose an answer from pre-defined options. The question types **Checkbox**, **Radiogroup**, and **Dropdown** are similar except the **Checkbox** question type is multi-select whereas **Radiogroup** and **Dropdown** allow for a single answer. The difference between **Radiogroup** and **Dropdown** is cosmetic and should be used based on desired user experience.
@@ -94,6 +96,33 @@ Use the **Required** toggle to make the inspection question mandatory.
 
 By selecting the **Gear** icon, you can add more details for an inspection question. 
 
+
+### Branching and conditional logic
+
+The inspection can be "programmed" to look and act differently based on inspection answers in real time as the technician fills it out.
+
+Go to the **Logic** section of the designer form to add branching and conditional logic to the inspection.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of](./media/inspections-logic1.png)
+
+Based on the response to an insepction question, options include:
+
+**Show the question:** Make the question visible when the condition is true. Otherwise keep it invisible.
+
+**Change to Required:** Question becomes required when the condition is true.
+
+**Skip to question:** When the condition is true then the focus shifts to the selected question.
+
+
+Below is an example.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inspections-logic2.png)
+
+
+
+### Review and publish
 
 Use the **Preview** section to see the inspection from a technician's perspective.
 
