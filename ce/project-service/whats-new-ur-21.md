@@ -20,7 +20,7 @@ solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferr
 
 This topic lists the features and fixes that are new or changed for Project
 Service Automation V3, Update Release 21. This version has a build number of V
-3.xx.xx.xx and is generally available through a self-update in June 2020.
+3.10.32.21 and is generally available through a self-update in June 2020.
 
 Update Release 21
 -----------------
