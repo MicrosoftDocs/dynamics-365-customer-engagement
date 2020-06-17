@@ -23,10 +23,7 @@ Decimal precision can be used with the following three levels:
 - **Field-level precision.** This is used to define a specific set precision using values between 0 and 4.
 
 
-<!-- The link opens at the subtitle "Edit a field," which might be confusing if the reader expects to see "Create and edit fields for Common Data Service using Power Apps solution explorer." Do you want to change the link text to "Edit a field"? -->
-
-
-These precision levels are set while configuring currency fields. More information: [Create and edit fields for Common Data Service using Power Apps solution explorer](/powerapps/maker/common-data-service/create-edit-field-solution-explorer#edit-a-field)
+These precision levels are set while configuring currency fields. More information: [Create and edit fields for Common Data Service using Power Apps solution explorer](/powerapps/maker/common-data-service/create-edit-field-solution-explorer)
 
 ## Pricing decimal precision 
 
@@ -67,7 +64,7 @@ This precision setting is applied to any currency field whose precision is set t
 > [!div class="mx-imgBorder"]
 > ![Precision set to Currency Precision](media/set-precision-currency-precision.png "Precision set to Currency Precision")
 
-All currency fields except for the ones listed under the Pricing decimal precision section support currency precision.
+All currency fields except for the ones listed under the **Pricing decimal precision** section support currency precision.
 
 ## Field-level precision
 
