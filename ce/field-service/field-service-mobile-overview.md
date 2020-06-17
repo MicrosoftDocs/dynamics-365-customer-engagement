@@ -33,7 +33,7 @@ Field technicians use the Field Service Mobile app to view their schedules, work
 ## Supported platforms
 
 - Windows 10, desktop + tablet
-- iOS 8.0+, phones + tablets
+- iOS 11.0+, phones + tablets
 - Android 5.0+, phones + tablets
 
 ## Key capabilities

@@ -24,17 +24,17 @@ To enable skill-based routing, follow these steps:
 
 2. Select **Skill Based Routing** under **Settings** in the sitemap.
 
-3. Set the **Enable Skill Based Routing** toggle to **Yes**.
+3. On the **Skill Based Routing** tab, set the **Enable Skill Based Routing** toggle to **Yes**.
 
-4. Select a rating model from the list for the **Rating Model** field. 
+4. Select a rating model from the list for the **Rating Model** field.
  
-    If there is no rating mode, create a new rating model. To learn more, see [Create rating model](enable-skill-routing-create-rating-model.md#create-rating-model).
+    If there is no rating model, create a rating model. To learn more, see [Create rating model](enable-skill-routing-create-rating-model.md#create-rating-model).
 
-    After you select a rating model, the Rating Model Details section displays the **Name**, **Min Rating Value**, **Max Rating Value** and the **Rating Values (Rating Model)** grid.
+    After you select a rating model, the **Rating Model Details** section displays the **Name**, **Min Rating Value**, **Max Rating Value** and the **Rating Values (Rating Model)** grid.
 
-    You can add a new rating value in the grid itself. To add, follow these steps:
+    Use the following steps to add a rating value in the grid:
 
-    1. Select **+ New Rating Value**. The **Quick Create: Rating Value** pane appears.
+    1. Select **New Rating Value**. The **Quick Create: Rating Value** pane appears.
 
     2. Specify a name and value.
 
@@ -54,7 +54,7 @@ You must provide the minimum and maximum rating value. Also, in the **Rating Val
 
 2. Select **Skill Based Routing** under **Settings** in the sitemap.
 
-3. Select **+ New Rating Model** in the **Rating Model** section. The **New Rating Model** page appears.
+3. Select **New Rating Model** in the **Rating Model** section. The **New Rating Model** page appears.
 
 4. Specify the following in the **New Rating Model** page.
 
@@ -66,7 +66,7 @@ You must provide the minimum and maximum rating value. Also, in the **Rating Val
 
 5. Select **Save** to save the rating model. After you save, the **Rating Values** section appears.
 
-6. Select **+ New Rating Value**. The **Quick Create: Rating Value** pane appears.
+6. Select **New Rating Value**. The **Quick Create: Rating Value** pane appears.
 
 7. Specify the following in the **Rating Value** page.
 
@@ -100,10 +100,8 @@ For example:
 | ★★ | 2 star|
 | ★ | 1 star|
 
-## See also
+### See also
 
-[Overview of skill-based routing](overview-skill-work-distribution.md)
-
-[Set up skills and assign agents](setup-skills-assign-agents.md)
-
-[Attach skills to conversation](attach-skills.md)
+[Overview of skill-based routing](overview-skill-work-distribution.md)  
+[Set up skills and assign agents](setup-skills-assign-agents.md)  
+[Attach skills to conversation](attach-skills.md)  

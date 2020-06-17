@@ -10,7 +10,7 @@ ms.service:
 ms.topic: article
 ---
 
-# Understand conversation states in Omnichannel
+# Understand conversation states in Omnichannel for Customer Service
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
@@ -106,7 +106,7 @@ The Omnichannel for Customer Service application checks the conversations every 
 The conversations coming from different channel has varied scenarios and hence has different default configured time. 
 Administrator can change the default configured time as per the business requirement programmatically. To learn more, see [Set default time using APIs](#set-default-time-using-apis).
 
-The matrix describes the channel, state, and default configured time. 
+The matrix describes the channel, state, and default configured time.
 
  | Channel | Existing state | Default configured time | Description |
  |--------------------|-------|-------------|--------------------------------------|
@@ -125,7 +125,7 @@ The matrix describes the channel, state, and default configured time.
 
 The scheduler runs for every 24 hours considering starting at 0000 hours AM.
 
-For the chat channel, a conversation is in Open state at 1100 hours of Jan 10, 2020. and remains in this state until midnight 2359 hours. Since the conversation is in Open state for more than 20 minutes (default configured time), this conversation is eligible for automatic-closure. At 0000 hours of Jan 11, 2020, the scheduler runs and the conversation in the **Open** state is moved to the **Closed** state.
+For the chat channel, a conversation is in open state at 1100 hours of Jan 10, 2020. and remains in this state until midnight 2359 hours. Since the conversation is in open state for more than 20 minutes (default configured time), this conversation is eligible for automatic-closure. At 0000 hours of Jan 11, 2020, the scheduler runs and the conversation in the **Open** state is moved to the **Closed** state.
 
 > [!Note]
 > A scheduler runs every 24 hours to close all eligible conversations. However, the exact time at which the scheduler runs is dependent on the Omnichannel for Customer Service deployment time in your region. For more information, contact Microsoft support.
