@@ -47,10 +47,10 @@ manager: annbe
 
 <h2>Products </h2>
 
-<li><a href="ts-products.md#reparenting_not_working" data-raw-source="[Re-parenting isn't working, or the Parent field isn't visible](ts-products.md#reparenting_not_working)">Re-parenting isn't working, or the Parent field isn't visible</a></li>
-<li><a href="ts-products.md#decimal-supported-not-honored" data-raw-source="[**List Price**, **Standard Cost**, or **Current Cost** fields don't honor **Decimal Supported** field precision value](ts-products.md#decimal-supported-not-honored)">'List Price', 'Standard Cost', or 'Current Cost' fields don't honor 'Decimal Supported' field precision value</a></li>
-<li><a href="ts-products.md#decimal-value-not-accepted" data-raw-source="[I get an error when setting the Quantity field to a decimal value in the 'Order Product', 'Quote Product', 'Invoice Product' records](ts-products.md#decimal-value-not-accepted)">I get an error when setting the Quantity field to a decimal value in the 'Order Product', 'Quote Product', 'Invoice Product' records</a></li>
-<li><a href="ts-products.md#decimal-supported-value-error" data-raw-source="[I get an error while opening or saving a Product record when the 'Decimal Supported' field has value > 2](ts-products.md#decimal-supported-value-error)">I get an error while opening or saving a Product record when the 'Decimal Supported' field has value > 2</a></li>
+<li><a href="ts-products.md#reparenting_not_working" data-raw-source="[Reparenting isn't working, or the Parent field isn't visible](ts-products.md#reparenting_not_working)">Re-parenting isn't working, or the Parent field isn't visible</a></li>
+<li><a href="ts-products.md#decimal-supported-not-honored" data-raw-source="[List Price, Standard Cost, or Current Cost fields don't honor Decimal Supported field precision value.](ts-products.md#decimal-supported-not-honored)">List Price, Standard Cost, or Current Cost fields don't honor Decimal Supported field precision value.</a></li>
+<li><a href="ts-products.md#decimal-value-not-accepted" data-raw-source="[I get an error when setting the Quantity field to a decimal value in the Order Product, Quote Product, Invoice Product records.](ts-products.md#decimal-value-not-accepted)">I get an error when setting the Quantity field to a decimal value in the Order Product, Quote Product, Invoice Product records.</a></li>
+<li><a href="ts-products.md#decimal-supported-value-error" data-raw-source="[I get an error while opening or saving a Product record when the Decimal Supported field has value > 2.](ts-products.md#decimal-supported-value-error)">I get an error while opening or saving a Product record when the Decimal Supported field has value > 2.</a></li>
 </td></tr>
 
 <tr><td>
