@@ -1,13 +1,13 @@
 title: What's new or changed in Project Service Automation Update Release 20, V3
 description: This topic lists the features and fixes that are available in
-Project Service Automation Update Release 20, V3 author: ruhercul  
+Project Service Automation Update Release 21, V3 author: ruhercul  
 manager: kfend ms.service: dynamics-365-projectservice ms.custom:
 dyn365-projectservice ms.date: 06/12/2020 ms.topic: article ms.prod: ms.service:
 business-applications ms.technology: Microsoft Dynamics 365 Project Service
 Automation 3.x ms.author: ruhercul audience: Admin search.audienceType: - admin
 - customizer - enduser search.app: - D365CE - D365PS ---
 
-Project Service Automation Update Release 20, V3
+Project Service Automation Update Release 21, V3
 ================================================
 
 We’re pleased to announce the latest update for the Project Service Automation
@@ -19,10 +19,10 @@ update, or remove a preferred
 solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
 This topic lists the features and fixes that are new or changed for Project
-Service Automation V3, Update Release 20. This version has a build number of V
-3.10.31.37 and is generally available through a self-update in June 2020.
+Service Automation V3, Update Release 21. This version has a build number of V
+3.xx.xx.xx and is generally available through a self-update in June 2020.
 
-Update Release 20
+Update Release 21
 -----------------
 
 ### Bug fixes
