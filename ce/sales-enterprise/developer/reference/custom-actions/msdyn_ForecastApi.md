@@ -17,7 +17,7 @@ search.app:
 ---
 # msdyn_ForecastApi action
 
-The `msdyn_ForecastApi` custom action enables you perform various action to retrieve and update forecasting configurations.
+The `msdyn_ForecastApi` custom action enables you to perform various actions to retrieve and update forecasting configurations.
 
 ## Parameters
 
