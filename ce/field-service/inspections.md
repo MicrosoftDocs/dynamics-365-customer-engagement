@@ -66,7 +66,22 @@ From the Field Service app, go to **Settings** > **Inspections** > **+New**.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of active inspections in Dynamics 365 Field Service](./media/inspections-navigate.png)
 
-Drag-and-drop your first question type from the right side. Then name your inspection and add a description.
+Name your inspection and add a description. Add a question to the inspection by double clicking or dragging and dropping a question type from the right side.
+
+**Textbox:** allow technician to enter text from keyboard for a free form response. There is an option in the Advanced panel to make the textbox bigger to allow for mult-line responses.
+- can have multiline
+
+**Checkbox**, **radiogroup**, **dropdown**:
+
+**Entity lookup:**
+mandatory fields and Name
+
+**Number:**
+
+**Date Time:**
+
+**File:**
+files and pictures
 
 
 > [!div class="mx-imgBorder"]
@@ -154,19 +169,18 @@ Sign in with your Dynamics 365 URL, username, and password, and go to the assign
 Select the **Work Order Service Task** that has the related inspection.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service Mobile app showing service tasks](media/.png)
+> ![Screenshot of Field Service Mobile app showing service tasks](media/inspections-mobile-r-1.png)
 
-Find the inspection form and enter answers.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service Mobile app showing a sample inspection.](./media/.png)
-
-Technicians can upload files, take pictures, or upload pictures from the phone's camera roll.
+Find the inspection form and enter answers. Technicians can upload files, take pictures, or upload pictures from the phone's camera roll.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service Mobile app showing the upload photos option on inspections.](./media/.png)
+> ![Screenshot of Field Service Mobile app showing a sample inspection.](./media/inspections-mobile-r-2.png)
+
 
 When finished, the technician can select **Mark Complete** or set **Complete %** to 100.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Field Service Mobile app showing the upload photos option on inspections.](./media/inspections-mobile-r-3.png)
 
 Enter a **Result** to report on the overall inspection:
 
@@ -175,8 +189,6 @@ Enter a **Result** to report on the overall inspection:
 - Partial Success
 - NA
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service Mobile app showing percent complete on an inspection.](./media/.png)
 
 **Actual Duration**: Enter an actual duration the work order service task took to complete that can be compared to estimated duration.
 
@@ -184,7 +196,7 @@ If an inspection question is required, the technician will not be able to mark *
 
 **Clear Responses**: If needed, a technician can select  **More** > **Clear Responses** to start over. This will permanently delete all responses for this service task inspection.
 
-Inspections can be viewed and completed on the [Dynamics 365 Field Service PowerApp](https://docs.microsoft.com/en-us/dynamics365/field-service/inspections#inspections-on-Dynamics-365-Field-Service-PowerApp). See the bottom of this article for more details.
+Inspections can also be viewed and completed on the [Dynamics 365 Field Service PowerApp](https://docs.microsoft.com/en-us/dynamics365/field-service/inspections#inspections-on-Dynamics-365-Field-Service-PowerApp). See the bottom of this article for more details.
 
 ## View responses
 
