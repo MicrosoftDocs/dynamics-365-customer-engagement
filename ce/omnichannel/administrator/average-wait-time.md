@@ -17,18 +17,16 @@ ms.topic: article
 
 ## Overview
 
-As an administrator, you can turn on the feature that displays a customer’s average wait time in the queue when they are waiting to chat with an agent. This feature can help to set customer expectations when wait times are longer due to higher volumes of customers needing support, understaffing, or longer-than-expected handle times (when all agents in the specific queue are unavailable). Displaying a customer’s average wait time can help the customer decide whether to wait in the queue or come back later when the wait time is shorter.
+As an administrator, you can turn on the feature that displays a customer's average wait time in the queue when they're waiting to chat with an agent. This feature can help to set customer expectations when wait times are longer due to higher volumes of customers needing support, understaffing, or longer-than-expected call-handling times (when all agents in the specific queue are unavailable). Displaying the average wait time can help the customer decide whether to wait in the queue or come back later when the wait time is shorter.
 
-When this feature is turned on, a customer who submits a request when other customers already are waiting is placed in the queue and notified with the following message: **Average wait time \<n\> mins.** The average wait time is only displayed if the the wait is one minute or longer.
+When this feature is turned on, a customer who submits a request when other customers are already waiting is placed in the queue and notified with the following message: **Average wait time \<n\> mins.** The average wait time is only displayed if the the wait is one minute or longer.
 
-The average wait time is calculated based on wait times from the previous 48 hours and a minimum of 50 conversations for the specific queue. This is an estimated time and does not change for the customer. When there is no wait, the average wait time is not displayed.
+The average wait time is calculated based on wait times from the previous 48 hours and a minimum of 50 conversations for the specific queue. This is an estimated time, and doesn't change for the customer. When there is no wait, the average wait time isn't displayed.
 
 > [!NOTE]
->  - If skill-based routing is configured with exact skill match, the queue position that is displayed to a customer on the chat portal widget might not be accurate; therefore, the assignment of an agent to the customer might take longer than expected.
+> If skill-based routing is configured with exact skill match, the queue position that's displayed to a customer on the chat portal widget might not be accurate; therefore, the assignment of an agent to the customer might take longer than expected.
 
 ## Enable average wait time
-
-To configure the queue display feature, follow these steps:
 
 1.	Sign in to Omnichannel Administration.
 
@@ -38,7 +36,7 @@ To configure the queue display feature, follow these steps:
 
 4.	Go to the **Basic details** tab.
 
-5.	In **Customer waiting**, change **Show average wait time** to **Yes**. (This feature is set to **No** by default).
+5.	In the **Customer waiting** area, change **Show average wait time** to **Yes**. (This feature is set to **No** by default.)
 
 6.  Select **Save**.
 
