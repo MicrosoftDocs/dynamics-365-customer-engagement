@@ -53,7 +53,7 @@ By default, the following fields support pricing decimal precision:
 
 ## Currency precision 
 
-This option allows you to enable and set decimal precision to individual currencies. To define this setting, go to **Settings** &gt; **Business Management** &gt; **Currencies**. Open the currency record and define the precision for currency. More information: [Manage transactions with multiple currencies](https://docs.microsoft.com/en-us/power-platform/admin/manage-transactions-with-multiple-currencies)
+This option allows you to enable and set decimal precision to individual currencies. To define this setting, go to **Settings** &gt; **Business Management** &gt; **Currencies**. Open the currency record and define the precision for currency. More information: [Manage transactions with multiple currencies](/power-platform/admin/manage-transactions-with-multiple-currencies)
 
 > [!NOTE]
 > This setting supports values between 0 and 4.
@@ -80,5 +80,5 @@ To apply this precision setting to any of the currency field in the system, go t
 
 ### See also
 [Define product pricing with price lists and price list items](create-price-lists-price-list-items-define-pricing-products.md)  
-[Manage transactions with multiple currencies](https://docs.microsoft.com/en-us/power-platform/admin/manage-transactions-with-multiple-currencies)  
+[Manage transactions with multiple currencies](/power-platform/admin/manage-transactions-with-multiple-currencies)  
 [Troubleshooting the Product entity](ts-products.md)
