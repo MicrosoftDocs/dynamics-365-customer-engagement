@@ -22,8 +22,11 @@ To select a template, go to the **Forecast configurations** page and select one 
 
 -	**Territory forecast**: Roll-up columns and projections are based on the sales territory hierarchy.
 
+- **Create from scratch**: Allows you to create a forecast based on custom entity on opportunity that your organization requires.   
+
+
 > [!div class="mx-imgBorder"]
-> ![Forecasting is enabled](media/forecast-enable-forecasting-enabled.png "Forecasting is enabled")
+> ![Forecasting is enabled](media/forecast-enable-forecasting-enabled-v1.png "Forecasting is enabled")
 
 
 <table>

@@ -27,17 +27,42 @@ Using the general properties and scheduling options of the forecast configuratio
     >By default, **Rollup entity** is configured as **Opportunity**. This value can't be changed.<br>
     >![Forecast rollup entity](media/forecast-rollup-entity-opportunity.png "Forecast rollup entity")
 
-2.	Choose a **Default underlying records view**. This is the default view used when users select a row or a cell of the forecast to view its underlying opportunities. To learn more, see [View and manage underlying opportunities](view-and-manage-underlying-opportunities.md).
+2.	If you have selected **Create from scratch** template to create a forecast, choose the **Hierarchy entity**. The entities that are displayed in the list has entity relationships defined in your organization for opportunity. 
 
+    By default, for **Org chart forecast** template, the hierarchy entity is selected as **User** and for **Territory forecast** template, the hierarchy entity is selected as **Territory**. 
 
-    **Hierarchy route** is configured based on the template that you've selected. This determines how the forecast will roll up through your organization. The following **Hierarchy routes** are predefined:
+3.	Choose **Rollup to hierarchy relationship** attribute for the selected hierarchy entity. This establishes a relationship between the rollup and hierarchy entities, and determines how the forecast will roll up through your organization.
 
-    | Template | Hierarchy route | Description |
-    |----------|-----------------|-------------|
-    | Org chart forecast | Opportunity > Owner | The forecast hierarchy is defined based on the organizational hierarchy. |
-    | Territory forecast | Opportunity > Account > Territory | The forecast hierarchy is defined based on the territory hierarchy. |
+    For example, If you have selected the **Hierarchy entity** as **User**, the attributes and it's related attributes in the **User** entity that has a relationship with **Opportunity** entity is displayed. 
+    
+    > [!div class="mx-imgBorder"]
+    > ![Select attribute to define relationship](media/forecast-relationship-entity-attribute.png "Select attribute to define relationship")
+    
+    Select an attribute to define the rollup relationship between the rollup entity (Opportunity) and Hierarchy entity (User). Here, we are selecting the relationship attribute as **Created by (User)**. The relationship is mapped as *Opportunity > Created by (User) > User*. The mapping specifies that the attribute **Created by** is in **User** entity that has a relationship with **Opportunity** entity and the rollup values in the forecast will be based on this attribute.
 
-3.	In the **Top of hierarchy** list, choose the user or territory that's at the top of this forecast hierarchy. 
+    > [!div class="mx-imgBorder"]
+    > ![Selected Created by attribute](media/forecast-relationship-entity-attribute-created-by.png "Selected Created by attribute")
+
+    Similarly, you can choose a related attribute to define a relationship between the rollup entity (Opportunity) and Hierarchy entity (User). Select **Related** tab and then choose a related attribute from the list.     
+
+    > [!div class="mx-imgBorder"]
+    > ![Select related attribute to define relationship](media/forecast-relationship-entity-related-attribute.png "Select related attribute to define relationship")
+
+    Here, we are selecting the relationship related attribute as **Owner (User)**. The relationship is mapped as *Opportunity > Account (Account) > Owner (User) > User*. The mapping specifies that the attribute **Owner** is in **User** entity that has a relationship with **Opportunity** entity the rollup values in the forecast will be based on this attribute. 
+
+    > [!div class="mx-imgBorder"]
+    > ![Selected related attribute](media/forecast-relationship-entity-related-attribute-account-user.png "Selected related attribute")     
+
+    By default, for **Org chart forecast** and **Territory forecast** templates the rollup relationship are predefined:
+
+    | Template | Rollup to hierarchy relationship | Description |
+    |----------|----------------------------------|-------------|
+    | Org chart forecast | Opportunity > Owner (User) > User | The forecast hierarchy is defined based on the organizational hierarchy. |
+    | Territory forecast | Opportunity > Account (Account) > Territory (Territory) > Territory | The forecast hierarchy is defined based on the territory hierarchy. |
+
+    You edit these values, if you want to use your organization specifc attributes to define the relationship between the rollup and hierarchy entity.
+
+4.	In the **Top of hierarchy** list, choose the user or territory that's at the top of this forecast hierarchy. 
 
     When the hierarchy route is **Opportunity > Owner**, the top of the hierarchy lists all active users in your organization. You can then select a user from the list to be displayed at the top of the hierarchy. 
     
@@ -46,7 +71,9 @@ Using the general properties and scheduling options of the forecast configuratio
     > [!div class="mx-imgBorder"]
     > ![Configuration section](media/forecast-general-tab-configuration-section.png "Configuration section")
 
-4.	In the **Scheduling** section, specify the following information.
+5.	Choose a **Default underlying records view**. This is the default view used when users select a row or a cell of the forecast to view its underlying opportunities. To learn more, see [View and manage underlying opportunities](view-and-manage-underlying-opportunities.md).
+
+6.	In the **Scheduling** section, specify the following information.
 
     | Parameter | Description |
     |-----------|-------------|
@@ -60,7 +87,7 @@ Using the general properties and scheduling options of the forecast configuratio
     > [!div class="mx-imgBorder"]
     > ![Scheduling section](media/forecast-general-tab-scheduling-section.png "Scheduling section")
 
-5.	Select **Next**.
+7.	Select **Next**.
 
 <table>
 <tr><td>
