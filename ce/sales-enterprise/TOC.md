@@ -171,7 +171,8 @@
 #### [msdyn_ForecastInstanceActions](../sales-enterprise/developer/reference/entities/export-forecast-data.md)
 ### Troubleshooting
 #### [Custom plugin handling through shared variable](../sales-enterprise/developer/custom-plugin-handling-shared-variable.md)
-### [Custom actions](../sales-enterprise/developer/reference/custom-actions-manual-forecasting.md)
+### Custom actions
+#### [Overview](../sales-enterprise/developer/reference/custom-actions-manual-forecasting.md)
 #### [msdyn_ForecastApi](../sales-enterprise/developer/reference/custom-actions/msdyn_ForecastApi.md)
 
 ### Playbooks
