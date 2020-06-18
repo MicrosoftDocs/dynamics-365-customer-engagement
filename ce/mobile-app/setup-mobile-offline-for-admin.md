@@ -153,35 +153,7 @@ Admins can define a custom filter based on the following rules. You can create f
 |not-end-with    |       |         |
 
 
-    
-
- |  |
- |---------|
- |equal     |
- |not equal     |
- |gt – greater than|  
- |ge – greater than or equal to|  
- |le – less than or equal to|  
- |lt – less than|  
- |like|  
- |not-like|  
- |in|  
- |not-in|  
- |null|  
- |not-null|  
- |eq-userid|  
- |ne-userid|  
- |eq-userteams|  
- |eq-useroruserteams|  
- |eq-useroruserhierarchy|  
- |eq-useroruserhierarchyandteams|  
- |eq-businessid|  
- |ne-businessid|  
- |eq-userlanguage|  
- |begins-with|  
- |not-begin-with|  
- |ends-with|  
- |not-end-with|
+ 
  
 11. Select **Save** to create the mobile offline profile item so you can continue editing it.  
   
