@@ -54,7 +54,7 @@ These fields that will be populated automatically:
 
 3.	Expand **Entities** and then select the **Case** entity.
 4.	Expand the entity and select **Forms**, then select **Form Order** and  **Quick Create Form Set**.
-5.	Ensure that **App for Outlook Case Quick Create form** is at the top of the list, for it to be used for quick create scenario.
+5.	Ensure that **App for Outlook Case Quick Create** form is at the top of the list, for it to be used for quick create scenario.
 
     > [!div class="mx-imgBorder"] 
     > ![App for Outlook Case Quick Create form](media/outlookapp_qcf.png "App for Outlook Case Quick Create form")
