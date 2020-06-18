@@ -2,7 +2,7 @@
 title: "Dynamics 365 Field Service inspections | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 06/16/2020
+ms.date: 06/18/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -55,76 +55,64 @@ In this article, we'll walk through an example of setting up an inspection using
 
 - Knowledge of work order [incident types and service tasks](configure-incident-types.md) is encouraged.
 
-
 ## Create inspection
 
 First, create an inspection that can be reused and added to multiple work orders.
 
 From the Field Service app, go to **Settings** > **Inspections** > **+New**.
 
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of active inspections in Dynamics 365 Field Service](./media/inspections-navigate.png)
 
-Name your inspection and add a description. 
-
-
+Name your inspection and add a description.
 
 ### Question types
 
-Add a question to the inspection by double clicking or dragging and dropping a question type from the right side.
+Add a question to the inspection by double-clicking or dragging-and-dropping a question type from the right side.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a new example inspection, showing the toolbox with question types on the right side.](./media/inspections-create.png)
 
-**Textbox:** allow technician to enter text from keyboard for a free form response. There is an option in the Advanced panel to make the textbox bigger to allow for mult-line responses.
+- **Textbox:** Allows technicians to enter text from their keyboard for a free form response. There is an option in the advanced panel to make the textbox bigger to allow for multiline responses.
 
-**Checkbox**, **radiogroup**, **dropdown**: allow technicians to choose an answer from pre-defined options. The question types **Checkbox**, **Radiogroup**, and **Dropdown** are similar except the **Checkbox** question type is multi-select whereas **Radiogroup** and **Dropdown** allow for a single answer. The difference between **Radiogroup** and **Dropdown** is cosmetic and should be used based on desired user experience.
-mandatory fields and Name
+- **Checkbox**, **radiogroup**, **dropdown**: Allows technicians to choose an answer from predefined options. The question types **Checkbox**, **Radiogroup**, and **Dropdown** are similar, except the **Checkbox** question type is multi-select, whereas **Radiogroup** and **Dropdown** allow for a single answer. The difference between **Radiogroup** and **Dropdown** is cosmetic and should be used based on desired user experience.
 
-**Entity lookup:** allow technician to choose a Dynamics 365 record. In the inspection designer interface, admins must select an entity and a field to display. FOr a chosen entity, the Name field and mandatory fields are the entity attributes that can be displayed in the lookup. Entity lookup respects security roles of logged in user, meaning some entities and records may not be displayed. 
+- **Entity lookup:** Allows technicians to choose a Dynamics 365 record. In the inspection designer interface, admins must select an entity and a field to display. For a chosen entity, the **Name** field and mandatory fields are the entity attributes that can be displayed in the lookup. Entity lookup respects security roles of signed-in user, meaning some entities and records may not be displayed.
 
-**Number:** restricts input to numberic value or returns an error. Typically represents a measurement or numeric rating value.
+- **Number:** Restricts input to numeric value or returns an error. Typically represents a measurement or numeric rating value.
 
-**Date Time:** allow technician to enter a date and time. 
+- **Date Time:** Allows technicians to enter a date and time.
 
-**File:** allow technician to upload file, take picture, or choose picture from camera roll.
-
-
-
+- **File:** Allows technicians to upload a file, take picture, or choose picture from their camera roll.
 
 Use the **Required** toggle to make the inspection question mandatory.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a Field Service inspection, showing additional questions](./media/inspections-create2.png)
 
-By selecting the **Gear** icon, you can add more details for an inspection question. 
-
+By selecting the **Gear** icon, you can add more details for an inspection question.
 
 ### Branching and conditional logic
 
-The inspection can be "programmed" to look and act differently based on inspection answers in real time as the technician fills it out.
+The inspection can be configured to look and act differently based on inspection answers in real time as the technician fills it out.
 
 Go to the **Logic** section of the designer form to add branching and conditional logic to the inspection.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of](./media/inspections-logic1.png)
+> ![Screenshot of the logic designer for Field Service inspections.](./media/inspections-logic1.png)
 
 Based on the response to an inspection question, options include:
 
-**Show the question:** Make the question visible when the condition is true. Otherwise keep it invisible.
+- **Show the question**: Make the question visible when the condition is true. Otherwise keep it hidden.
 
-**Change to Required:** Question becomes required when the condition is true.
+- **Change to Required**: Question becomes required when the condition is true.
 
-**Skip to question:** When the condition is true then the focus shifts to the selected question.
+- **Skip to question**: When the condition is true, then the focus shifts to the selected question.
 
-
-Below is an example.
+See the following screenshot for an example.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/inspections-logic2.png)
-
-
+> ![Screenshot of a filled out logic designer for a Field Service inspection.](./media/inspections-logic2.png)
 
 ### Review and publish
 
@@ -136,9 +124,7 @@ Use the **Preview** section to see the inspection from a technician's perspectiv
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Field Service inspection, highlighting both the preview tab and the publish option.](./media/inspections-create-preview-publish.png)
 
-When finished creating the inspection, select **Publish** at the top. 
-
-
+When finished creating the inspection, select **Publish** at the top.
 
 ## Associate inspection to service task type
 
@@ -171,28 +157,27 @@ It's common to add service task types to incident types in order to bundle work 
 
 After creating a work order, go to the **Service Tasks** section and add the **Work Order Service Task** you created that has an associated inspection.
 
-Then **Save**. The inspection cannot be filled out until the Work Order Service Task is saved. 
+Then **Save**. The inspection cannot be filled out until the Work Order Service Task is saved.
 
-Alternatively, your inspection service task can be added to the work order via a work order incident type. 
+Alternatively, your inspection service task can be added to the work order via a work order incident type.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the service tasks tab on a work order in Field Service.](./media/inspections-service-task-work-order2.png)
 
 An inspection completed by a technician will be visible on the bottom of the work order service task form.
 
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a work order service task, showing the inspection form at the bottom.](./media/inspections-service-task-work-order-drill-down.png)
 
 ## Perform inspections on mobile
 
-After the work order is scheduled to the appropriate technician, they can see and complete the inspection from the work order on the [Field Service Mobile](field-service-mobile-overview.md) app. 
+After the work order is scheduled to the appropriate technician, they can see and complete the inspection from the work order on the [Field Service Mobile](field-service-mobile-overview.md) app.
 
 > [!Note]
-> You must download and import a new mobile project template into the mobile configuration tool (Woodford) to use inspections on Field Service Mobile during public preview. [DOWNLOAD the mobile project template for inspections](http://aka.ms/fsmproject-inspections-ea). For more details on mobile project templates, see the topic on [importing the mobile project template](https://docs.microsoft.com/en-us/dynamics365/field-service/install-field-service#step-4-import-the-mobile-project-template).
+> You must download and import a new mobile project template into the mobile configuration tool (Woodford) to use inspections on Field Service Mobile during public preview. [Download the mobile project template for inspections](http://aka.ms/fsmproject-inspections-ea). For more information on mobile project templates, see the topic on [importing the mobile project template](https://docs.microsoft.com/dynamics365/field-service/install-field-service#step-4-import-the-mobile-project-template).
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](media/inspections-fsm-mobile-project.png)
+> ![Screenshot of the mobile configurator, showing the list of projects.](media/inspections-fsm-mobile-project.png)
 
 Sign in with your Dynamics 365 URL, username, and password, and go to the assigned work order.
 
@@ -206,7 +191,6 @@ Find the inspection form and enter answers. Technicians can upload files, take p
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service Mobile app showing a sample inspection.](./media/inspections-mobile-r-2.png)
 
-
 When finished, the technician can select **Mark Complete** or set **Complete %** to 100.
 
 > [!div class="mx-imgBorder"]
@@ -219,14 +203,13 @@ Enter a **Result** to report on the overall inspection:
 - Partial Success
 - NA
 
-
 **Actual Duration**: Enter an actual duration the work order service task took to complete that can be compared to estimated duration.
 
 If an inspection question is required, the technician will not be able to mark **Complete** or set **% Completed** to 100 until it is answered.
 
 **Clear Responses**: If needed, a technician can select  **More** > **Clear Responses** to start over. This will permanently delete all responses for this service task inspection.
 
-Inspections can also be viewed and completed on the [Dynamics 365 Field Service PowerApp](https://docs.microsoft.com/en-us/dynamics365/field-service/inspections#inspections-on-Dynamics-365-Field-Service-PowerApp). See the bottom of this article for more details.
+Inspections can also be viewed and completed on the [Dynamics 365 Field Service Power App](https://docs.microsoft.com/dynamics365/field-service/inspections#inspections-on-Dynamics-365-Field-Service-PowerApp). For more information, see the end of this article.
 
 ## View responses
 
@@ -244,17 +227,15 @@ To relate the inspection to a customer asset and build out service history, ente
 
 Associating a customer asset allows the technician to see which customer asset needs the inspection. From the customer asset, they can see all related inspection history.
 
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a customer asset on the work order service tasks section, showing the associated inspection.](./media/inspections-custoiner-asset-service-history.png)
 
 > [!Note]
 > If you relate a work order incident type to a customer asset, the related work order service tasks will be related to the customer asset automatically.
 
-## Inspections on Dynamics 365 Field Service PowerApp
+## Inspections on Dynamics 365 Field Service Power App
 
-You can view and complete inspections on the [Dynamics 365 Field Service PowerApp](mobile-2020-power-platform.md). This requires no mobile proejct or any additional setup other than upgrading to Field Service v8.8.22+.
-
+You can view and complete inspections on the [Dynamics 365 Field Service Power App](mobile-2020-power-platform.md). This requires no mobile project or any additional setup other than upgrading to Field Service v8.8.22+.
 
 Sign in with your Dynamics 365 URL, username, and password, and go to the assigned work order.
 
@@ -290,7 +271,6 @@ Enter a **Result** to report on the overall inspection:
 If an inspection question is required, the technician will not be able to mark **Complete** or set **% Completed** to 100 until it is answered.
 
 **Clear Responses**: If needed, a technician can select  **More** > **Clear Responses** to start over. This will permanently delete all responses for this service task inspection.
-
 
 ## Run workflow on inspection responses
 
@@ -384,7 +364,7 @@ In our example, we can enter:
 
     {"Followup":"Yes"}
 
-Where "Followup" comes from the inspection question's name value, as seen in the following screenshot.
+"Followup" comes from the inspection question's name value, as seen in the following screenshot:
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an inspection in Field Service, showing the name field.](./media/inspections-workflow-schema-name.png)
