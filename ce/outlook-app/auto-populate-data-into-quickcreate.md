@@ -23,7 +23,7 @@ search.app:
 ---
 # Customize App for Outlook to auto populate data from an Outlook item to a Quick Create form for the Case entity 
 
-Use the quick create form in App for Outlook to auto populate information from an Outlook item to the quick create form for the Case entity. You can only enable  quick create option from an Outlook item into a case entity. 
+Use the quick create form in App for Outlook to auto populate information from an Outlook item to the quick create form for the Case entity. You can only enable the quick create option for the case entity. 
 
 
 
