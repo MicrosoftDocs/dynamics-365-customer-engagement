@@ -38,14 +38,14 @@ The Channel Integration Framework v2 (CIFv2) enables you to show notifications f
 
 The third-party app still manages agent authentication and presence, and the routing and assignment of customer requests. Once the request is assigned to the agent, the notification displays to the agent in Omnichannel. This is a UI level integration only and does not integrate with CDS so you cannot take advantage of linking data from the customer conversation with all other records in CDS. Recommended for bringing telephony into Omnichannel. 
 
-For more information, refer to [Dynamics 365 Channel Integration Framework version 2.0](https://docs.microsoft.com/en-us/dynamics365/customer-service/channel-integration-framework/v2/overview-channel-integration-framework). 
+For more information, refer to [Dynamics 365 Channel Integration Framework version 2.0](https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/v2/overview-channel-integration-framework). 
 
 ### Other messaging channels
 You can deeply integrate a messaging channel into Omnichannel such that it behaves as a first party integration and can leverage all native Omnichannel services. These services include routing, assignment, and integration with CDS data for linking customer records, cases, and so on. This functionality leverages the Azure Bot framework upon which all out of the box, third party messaging channels are integrated.
 
-For more information, refer to [Bring your own channel](https://docs.microsoft.com/en-us/dynamics365/omnichannel/developer/how-to/bring-your-own-channel).
+For more information, refer to [Bring your own channel](https://docs.microsoft.com/dynamics365/omnichannel/developer/how-to/bring-your-own-channel).
 
 
 ## See also 
 
-[Bring your own channel](https://docs.microsoft.com/en-us/dynamics365/omnichannel/developer/how-to/bring-your-own-channel)
+[Bring your own channel](https://docs.microsoft.com/dynamics365/omnichannel/developer/how-to/bring-your-own-channel)
