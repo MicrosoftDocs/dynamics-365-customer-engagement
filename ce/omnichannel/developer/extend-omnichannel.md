@@ -12,8 +12,6 @@ ms.topic: article
 
 # Extend Omnichannel for Customer Service
 
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
-
 <!--You can extend Omnichannel for Customer Service to either embed Omnichannel for Customer Service functionality into your own websites or bring functionality from other applications into Omnichannel for Customer Service.--> There are several scenarios supported to extend Omnichannel. The following table shows the supported scenarios and the recommended method for implementation.<br><br>
 
 | Omnichannel integration scenario | CIFv2 | BYOC  | 
