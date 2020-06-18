@@ -27,5 +27,3 @@ search.app:
 ---
 
 # Overview of the Dynamics 365 Field Service schedule assistant
-
-[!INCLUDE[schedule-assistant.md](../shared/urs/schedule-assistant.md)]

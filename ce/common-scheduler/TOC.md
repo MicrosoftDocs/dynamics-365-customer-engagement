@@ -1,6 +1,7 @@
 # [Overview of Universal Resource Scheduling (URS)](schedule-anything-with-universal-resource-scheduling.md)
 
 # Scheduling
+## [Schedule assistant overview](schedule-assistant.md)
 ## [Quick scheduling](quick-scheduling.md)
 ## [Travel time and distance](schedule-travel-time.md)
 ## [Multi-resource scheduling](multi-resource-scheduling-requirement-groups.md)

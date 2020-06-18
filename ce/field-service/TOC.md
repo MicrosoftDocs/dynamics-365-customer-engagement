@@ -61,6 +61,7 @@
 ### [Analytics dashboard](scheduling-analytics-reports.md)
 
 ## Scheduling
+### [Schedule assistant overview](schedule-assistant.md)
 ### [Travel time and distance](schedule-with-travel-time.md)
 ### [Time constraints](schedule-time-constraints.md)
 ### [Resource preferences](resource-preferences.md)
