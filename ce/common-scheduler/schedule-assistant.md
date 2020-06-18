@@ -1,5 +1,5 @@
 ---
-title: "Overview of the Dynamics 365 Field Service schedule assistant | MicrosoftDocs"
+title: "Overview of the Universal Resource Scheduling schedule assistant | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 06/18/2020
@@ -26,4 +26,6 @@ search.app:
   - D365FS
 ---
 
-# Overview of the Dynamics 365 Field Service schedule assistant
+# Overview of the Universal Resource Scheduling schedule assistant
+
+[!INCLUDE[schedule-assistant.md](../shared/urs/schedule-assistant.md)]
