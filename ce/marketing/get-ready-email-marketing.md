@@ -176,6 +176,9 @@ The follow code snippet is an example section from the IP ranges document. The s
       }
     }
 
+> [!NOTE]
+> In rare cases (depending on your spam-filter provider) you may need to whitelist our public IPs in your spam-filter.
+
 ### See also
 
 [Create a marketing email and go live](create-marketing-email.md)  
