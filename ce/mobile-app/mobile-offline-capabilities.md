@@ -1,7 +1,7 @@
 ---
 title: "Mobile offline capabilities and limitations (Dynamics 365 apps)| MicrosoftDocs"
 ms.custom: 
-ms.date: 6/17/2020
+ms.date: 6/18/2020
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
