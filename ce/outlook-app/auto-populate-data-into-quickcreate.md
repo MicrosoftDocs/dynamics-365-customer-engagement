@@ -1,7 +1,7 @@
 ---
 title: "Customize App for Outlook to auto populate data to the Quick Create form  (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/16/2019
+ms.date: 06/18/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,7 +23,9 @@ search.app:
 ---
 # Customize App for Outlook to auto populate data from an Outlook item to a Quick Create form for the Case entity 
 
-Use the quick create form in App for Outlook to auto populate information from an Outlook item  to the quick create form for the Case entity. 
+Use the quick create form in App for Outlook to auto populate information from an Outlook item to the quick create form for the Case entity. You can only enable  quick create option from an Outlook item into a case entity. 
+
+
 
 These fields that will be populated automatically:
 
@@ -41,9 +43,24 @@ These fields that will be populated automatically:
 
 To turn this feature on, do the following: 
 
-1.	In your Dynamics 365 apps, go to **Settings** > **Customizations** > **Customize the System**.
-2.	Expand **Entities** and then select the **Case** entity.
+
+
+1. From your app, go to **Settings** > **Advanced Settings**.
+
+   > [!div class="mx-imgBorder"]
+   >![Setting Customizations](media/outlookapp_advancedsettings.png "Settings Customizations")
+  
+2. Select **Settings** > **Customizations** and then select **Customize the System**.  
+
+   > [!div class="mx-imgBorder"]
+   >![Select a Customize the System](media/outlookapp_customize.png "Customize the System")
+
+3.	Expand **Entities** and then select the **Case** entity.
 3.	Expand the entity and select **Forms**, then select **Form Order** and  **Quick Create Form Set**.
 4.	Ensure that **App for Outlook Case Quick Create form** is at the top of the list, for it to be used for quick create scenario.
+
+   > [!div class="mx-imgBorder"] 
+   > ![App for Outlook Case Quick Create form](media/outlookapp_qcf.png "App for Outlook Case Quick Create form")
+   
 5.	On the solution page, select **Publish All Customizations** and then close the page.
 
