@@ -24,7 +24,7 @@ search.app:
 
 # Mobile offline capabilities and limitations
 
-Dynamics 365 for phones and tablets provides the capabilities listed below in offline mode for the end users.
+Before you set-up or use Dynamics 365 for phones and tablets in offline mode be sure to read through the following capabilities, tips,  and limitations. 
 
 These entities and corresponding commands are available in offline mode.
 
