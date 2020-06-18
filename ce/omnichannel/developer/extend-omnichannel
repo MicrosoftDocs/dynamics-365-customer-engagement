@@ -1,0 +1,29 @@
+---
+title: "Extend Omnichannel for Customer Service | MicrosoftDocs"
+description: "Embed Omnichannel functionality into your website or app, or bring functionality from other apps into Omnichannel."
+author: platkat
+ms.author: ktaylor
+manager: shujoshi
+ms.date: 06/18/2020
+ms.service: 
+  - "dynamics-365-customerservice"
+ms.topic: article
+---
+
+# Extend Omnichannel for Customer Service
+
+[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
+
+
+
+
+
+| Omnichannel | CIFv2 | BYOC  | In-App SDK |
+|---------------------------------------------------------------------|----------|----------|----------|
+| Integrate third-party telephony          | Yes           | - | - |
+| Build a custom chat widget for mobile or web that integrates with OC         | -           | - | Yes |
+| Add any channel to OC that has a native Bot Framework Bot (e.g. Twilio, Kik, Telegram, GroupMe) | - | Yes | - |
+| Add any channel to OC that has API support or is offered via an aggregator (e.g. Twilio)  | - | Yes | - |
+| Build a build a web canvas for highly customized experiences using a fully programmable API (e.g. click to view ticket, click to schedule an appointment) | - | Yes | - | 
+
+
