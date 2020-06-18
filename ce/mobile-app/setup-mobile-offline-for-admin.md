@@ -27,7 +27,7 @@ search.app:
 Mobile offline allows your users to use the Dynamics 365 for phones app in offline mode to interact with their data, even when they are not connected to the internet. The Dynamics 365 for phones app provides a rich offline experience and helps you to stay productive. You can use basic commands such as create, read, update, and delete when you are offline. Once you are back online, your changes are automatically synchronized with your Dynamics 365 for phones app. 
 
 > [!Note]
-> - The mobile offline feature is only available for iOS and Android devices.
+> - Mobile offline is only available for iOS and Android devices.
 > - To use the mobile offline feature, download the latest version of the Dynamics 365 for phones and tablet app from the app store. For iOS, version 13.19043.32 or later is supported; for Android, version 4.3.19043.33 or later supported.
 
 For information on entities and corresponding commands that are available in offline mode, see [Mobile offline capabilities and limitations](mobile-offline-capabilities.md).
@@ -138,6 +138,21 @@ You need to create mobile offline profiles for users to configure filters that d
   |**None**|  <ul><li>**Download related data only**. Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.</li> |    
     
 Admins can define a custom filter based on the following rules. You can create filters up to three levels.  
+
+
+| |  | |
+|---------|---------|---------|
+|equal     |     not equal     |   gt – greater than      |
+|ge – greater than or equal to     |   le – less than or equal to      |   lt – less than      |
+|like     |   not-like      |     in   |
+|not-in     |    null     |    not-null     |
+|eq-userid     |   ne-userid      |    eq-userteams     |
+|eq-useroruserteams     |    eq-useroruserhierarchy     |    eq-useroruserhierarchyandteams     |
+|eq-businessid     |    ne-businessid     |   eq-userlanguage      |
+|begins-with     |     not-begin-with    |    ends-with     |
+|not-end-with    |       |         |
+
+
     
 
  |  |
