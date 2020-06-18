@@ -53,13 +53,13 @@ These fields that will be populated automatically:
    >![Select a Customize the System](media/outlookapp_customize.png "Customize the System")
 
 3.	Expand **Entities** and then select the **Case** entity.
-3.	Expand the entity and select **Forms**, then select **Form Order** and  **Quick Create Form Set**.
-4.	Ensure that **App for Outlook Case Quick Create form** is at the top of the list, for it to be used for quick create scenario.
+4.	Expand the entity and select **Forms**, then select **Form Order** and  **Quick Create Form Set**.
+5.	Ensure that **App for Outlook Case Quick Create form** is at the top of the list, for it to be used for quick create scenario.
 
-   > [!div class="mx-imgBorder"] 
-   > ![App for Outlook Case Quick Create form](media/outlookapp_qcf.png "App for Outlook Case Quick Create form")
+    > [!div class="mx-imgBorder"] 
+    > ![App for Outlook Case Quick Create form](media/outlookapp_qcf.png "App for Outlook Case Quick Create form")
    
-5.	On the solution page, select **Publish All Customizations** and then close the page.
+6.	On the solution page, select **Publish All Customizations** and then close the page.
 
 
 ## Use quick create to create a case 
