@@ -36,7 +36,7 @@ You can deeply integrate a messaging channel into Omnichannel such that it behav
 
 For more information, refer to [Bring your own channel](https://docs.microsoft.com/en-us/dynamics365/omnichannel/developer/how-to/bring-your-own-channel).
 
-The following table shows the 
+The following table shows some common integration scenarios and the recommended method for implementation.
 
 | Omnichannel integration scenario | CIFv2 | BYOC  | In-App SDK |
 |---------------------------------------------------------------------|------------|------------|------------|
