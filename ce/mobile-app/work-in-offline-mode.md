@@ -1,7 +1,7 @@
 ---
 title: "Work offline on your mobile device (Dynamics 365 apps)| MicrosoftDocs"
 ms.custom: 
-ms.date: 5/15/2020
+ms.date: 6/18/2020
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
