@@ -77,7 +77,7 @@ To create a WhatsApp channel, follow these steps:
     |-------------|-------------------|---------------------------|--------------------------------------|
     | Twilio account details |Name| Specify a name for the WhatsApp channel.| WhatsApp channel |
     | Twilio account details |Account SID | Fetch the value from your Twilio account and paste it here. | AC9a805fb460119c9baabb9b726ce8fc90 |
-    | Twilio account details |Auth Token | Fetch the value from your Twilio account and paste it here. | dd40ed7df8376b1fa959be99c45fbfce |
+    | Twilio account details |Auth Token | Get the value from your Twilio account and paste it here. | dd40ed7df8376b1fa959be99c45fbfce |
 
     > [!div class=mx-imgBorder]
     > ![Create a WhatsApp channel](../media/whatsapp-channel-1.png "Create a WhatsApp channel")     
@@ -119,7 +119,7 @@ To create a WhatsApp channel, follow these steps:
 
 ### Integrate a Twilio sandbox account with Omnichannel for Customer Service
 
-1. In Twilio, go to the **Programmable SMS** > **Programmable Messaging** > **Whatsapp sandbox**.
+1. In Twilio, go to the **Programmable SMS** > **Programmable Messaging** > **WhatsApp sandbox**.
 2. In the **WHEN A MESSAGE COMES IN** box, enter the Twilio inbound URL that you generated in Omnichannel for Customer Service, and save the changes.
 3. To test the WhatsApp channel with the Twilio sandbox, you can send a WhatsApp message to the number provided by Twilio with a unique code that is also provided by Twilio. You can also use the sandbox message template provided by Twilio to test sending messages outside of the 24-hour window.
 
