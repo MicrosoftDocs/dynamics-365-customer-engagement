@@ -110,7 +110,7 @@ You can book several other entity types via the schedule assistant - Dynamics 36
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the option to Book a lead from Dynamics 365 Sales.](../../field-service/media/scheduling-schedule-assistant-book-leads.png)
 
-For more information, see the article on how to [enable an entity for scheduling](../field-service/schedule-new-entity.md).
+For more information, see the article on how to [enable an entity for scheduling](../../field-service/schedule-new-entity.md).
 
 ## Multi-resource scheduling (Requirement groups)
 
@@ -122,7 +122,7 @@ Need a group of resources to perform work? Use the schedule assistant to book mu
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the schedule assistant showing a requirement group in the grid view.](../../field-service/media/scheduling-schedule-assistant-requirement-group-assistant.png)
 
-For more information on setting up requirement groups, see the article [Multi-resource scheduling with Requirement groups](../field-service/multi-resource-scheduling-requirement-groups.md).
+For more information on setting up requirement groups, see the article [Multi-resource scheduling with Requirement groups](../../field-service/multi-resource-scheduling-requirement-groups.md).
 
 ## Learn more about the schedule assistant
 
