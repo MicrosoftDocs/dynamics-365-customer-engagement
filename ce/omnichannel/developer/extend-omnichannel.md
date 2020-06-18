@@ -19,7 +19,6 @@ ms.topic: article
 | Omnichannel integration scenario | CIFv2 | BYOC  | 
 |---------------------------------------------------------------------|------------|------------|
 | Integrate third-party telephony          | Yes           | - |
-<!--| Build a custom chat widget for mobile or web that integrates with OC         | -           | - | -->
 | Add any channel to OC that has a native Bot Framework Bot | - | Yes |
 | Add any channel to OC that has API support or is offered via an aggregator (e.g. Twilio)  | - | Yes |
 | Build a web canvas for highly customized experiences using a fully programmable API (e.g. click to view ticket, click to schedule an appointment) | - | Yes |
