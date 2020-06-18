@@ -14,15 +14,13 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-<!--You can extend Omnichannel for Customer Service to either embed Omnichannel for Customer Service functionality into your own websites or bring functionality from other applications into Omnichannel for Customer Service.--> There are several different ways to extend Omnichannel, each optimized for different scenarios so its important to start with the scenario you are trying to enable before you choose the method you will use to extend. 
-
-The following table shows some common integration scenarios and the recommended method for implementation.
+<!--You can extend Omnichannel for Customer Service to either embed Omnichannel for Customer Service functionality into your own websites or bring functionality from other applications into Omnichannel for Customer Service.--> There are several scenarios supported to extend Omnichannel. The following table shows the supported scenarios and the recommended method for implementation.
 
 | Omnichannel integration scenario | CIFv2 | BYOC  | 
 |---------------------------------------------------------------------|------------|------------|
 | Integrate third-party telephony          | Yes           | - |
-| Build a custom chat widget for mobile or web that integrates with OC         | -           | - |
-| Add any channel to OC that has a native Bot Framework Bot (e.g. Twilio, Kik, Telegram, GroupMe) | - | Yes |
+<!--| Build a custom chat widget for mobile or web that integrates with OC         | -           | - | -->
+| Add any channel to OC that has a native Bot Framework Bot | - | Yes |
 | Add any channel to OC that has API support or is offered via an aggregator (e.g. Twilio)  | - | Yes |
 | Build a web canvas for highly customized experiences using a fully programmable API (e.g. click to view ticket, click to schedule an appointment) | - | Yes |
 
