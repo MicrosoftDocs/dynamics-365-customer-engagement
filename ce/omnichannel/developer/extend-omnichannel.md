@@ -26,25 +26,26 @@ You can customize the look and feel of your chat widget using the react native S
 
 ## Embedding other tools in Omnichannel for Customer Service
 
-### Enabling telephony 
+### Telephony 
 The Channel Integration Framework v2 (CIFv2) enables you to show notifications for requests from other tools within the Omnichannel for Customer Service app and enable agents to accept and facilitate the conversation from within the Omnichannel app. Agents still manage their authentication and presence in the other application and the routing and assignment of the request to the agent is done in the third party application and only comes to the agent in Omnichannel once it has been assigned to them. This is a UI level integration only and does not integrate with CDS so you cannot take advantage of linking data from the customer conversation with all other records in CDS. Recommended for bringing telephony into Omnichannel. 
 
 For more information, refer to [Dynamics 365 Channel Integration Framework version 2.0](https://docs.microsoft.com/en-us/dynamics365/customer-service/channel-integration-framework/v2/overview-channel-integration-framework). 
 
-### Enabling other channels
+### Other messaging channels
 You can deeply integrate a messaging channel into Omnichannel such that it behaves as a first party integration and can leverage all native Omnichannel services. These services include routing, assignment, and integration with CDS data for linking customer records, cases, and so on. This functionality leverages the Azure Bot framework upon which all out of the box, third party messaging channels are integrated.
 
 For more information, refer to [Bring your own channel](https://docs.microsoft.com/en-us/dynamics365/omnichannel/developer/how-to/bring-your-own-channel).
 
+The following table shows the 
 
-| Omnichannel | CIFv2 | BYOC  | In-App SDK |
+| Omnichannel integration scenario | CIFv2 | BYOC  | In-App SDK |
 |---------------------------------------------------------------------|------------|------------|------------|
 | Integrate third-party telephony          | Yes           | - | - |
 | Build a custom chat widget for mobile or web that integrates with OC         | -           | - | Yes |
 | Add any channel to OC that has a native Bot Framework Bot (e.g. Twilio, Kik, Telegram, GroupMe) | - | Yes | - |
 | Add any channel to OC that has API support or is offered via an aggregator (e.g. Twilio)  | - | Yes | - |
-| Build a build a web canvas for highly customized experiences using a fully programmable API (e.g. click to view ticket, click to schedule an appointment) | - | Yes | - | 
+| Build a web canvas for highly customized experiences using a fully programmable API (e.g. click to view ticket, click to schedule an appointment) | - | Yes | - | 
 
 ## See also 
 
-[Bring your own channel](https://docs.microsoft.com/en-us/dynamics365/omnichannel/developer/how-to/bring-your-own-channel).
+[Bring your own channel](https://docs.microsoft.com/en-us/dynamics365/omnichannel/developer/how-to/bring-your-own-channel)
