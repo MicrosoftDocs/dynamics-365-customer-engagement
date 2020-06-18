@@ -1,6 +1,6 @@
 ---
 
-title: What's new or changed in Project Service Automation Update Release 20, V3
+title: What's new or changed in Project Service Automation Update Release 21, V3
 description: This topic lists the features and fixes that are available in Project Service Automation Update Release 21, V3. 
 author: ruhercul  
 manager: kfend 
@@ -36,9 +36,9 @@ This topic lists the features and fixes that are new or changed for Project Serv
 
 The following issues have been fixed:
 
-- When hosting the **Time Entry Grid Control** in Dashboards, the grid does not consume the full width of the dashboard grid container.
+- When hosting the **Time Entry Grid Control** in Dashboards, the grid does not utilize the full width of the dashboard grid container.
 - For specific time zones, the **Time Entry** grid control does not display records.
-- Time entries that are after 9 pm show on the wrong day.
+- Time entries that are after 9:00 PM appear on the wrong day.
 - Users are unable to submit expenses if the expense category, **Expense receipt required** has no value.
 
 **Resource Management**
@@ -53,8 +53,8 @@ The following issues have been fixed:
 The following issues have been fixed:
 
 - The **Project** form grids (**Resource Assignment**, **Task**, **Reconciliation** view, **Expense Estimates**) remain editable even when a project is not active.
-- Duplicate customers can't be merged with the customers that are linked to confirmed project contracts.
-- When a resource who does not have a valid calendar is added, the system does not return a user friendly error message.
+- Duplicate customers can't be merged with customers that are linked to confirmed project contracts.
+- When a resource who does not have a valid calendar is added, the system does not return a user friendly-error message.
 - The **Add Task** button on the task grid is enabled when the project is linked to **Microsoft Project add-in**.
 - Effort grows uncontrollably when a task with a category is assigned to a resource with a role for which there is a cost price defined.
 
@@ -68,8 +68,8 @@ The following issues have been fixed:
 
 - **Total Sales Price** is zero (0) for **Category** even though **Role** has a total sales price that is not zero.
 - Customers can't change the value of the **Invoice Status** field to **Ready for invoicing** when another customized process is updating an additional field.
-- The **Refresh Invoice Lines** button can create multiple duplicated lines if clicked repeatedly.
+- The **Refresh Invoice Lines** button can create multiple duplicated lines if it is repeatedly selected.
 - The **Update Prices** button doesn't work on the **Role Prices** sub-grid in the **Quick View** form.
-- The **Sales Price List Resolution** logic improperly handles timezones, resulting in the incorrect selection of price lists.
-- A project’s **Total Actual Cost** can be off by a small fractional amount after it approves a single time entry.
-- The **Price Resolution** logic does not provide a user friendly error message if **retrieved RolePrice** doesn't have values in **'Primary Unit'** and **'Price In Primary Unit'** fields.
+- The **Sales Price List Resolution** logic improperly handles time zones, resulting in the incorrect selection of price lists.
+- A project’s **Total Actual Cost** can be off by a fractional amount after a single time entry is approved.
+- The **Price Resolution** logic does not provide a user-friendly error message if **Retrieved RolePrice** doesn't have values in **'Primary Unit'** and **'Price In Primary Unit'** fields.
