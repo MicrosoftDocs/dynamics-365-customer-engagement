@@ -1,7 +1,7 @@
 ---
 title: "Define general properties and scheduling for a forecast (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Define general properties and scheduling for a forecast in Dynamics 365 Sales."
-ms.date: 02/03/2020
+ms.date: 06/21/2020
 ms.service: 
   - "dynamics-365-sales"
 ms.custom: 
@@ -27,25 +27,27 @@ Using the general properties and scheduling options of the forecast configuratio
     >By default, **Rollup entity** is configured as **Opportunity**. This value can't be changed.<br>
     >![Forecast rollup entity](media/forecast-rollup-entity-opportunity.png "Forecast rollup entity")
 
-2.	If you've selected **Create from scratch** template to create a forecast, choose the **Hierarchy entity**. The entities that are displayed in the list are hierarchy entities that are available in your organization.
+2.	If you've selected **Create from scratch** template to create a forecast, choose the **Hierarchy entity**. The entities that are displayed in the list are hierarchy-enabled entities that are available in your organization.
 
     By default, for **Org chart forecast** template, the hierarchy entity is selected as **User** and for **Territory forecast** template, the hierarchy entity is selected as **Territory**. 
 
-3.	Choose **Rollup to hierarchy relationship** attribute for the selected hierarchy entity. This establishes a relationship between the rollup and hierarchy entities, and determines how the forecast values will roll up.
+3.	Choose **Rollup to hierarchy relationship** attribute to establish a relationship between the rollup and hierarchy entities.
 
     For example, If you've selected the **Hierarchy entity** as **User**, the attributes in **Opportunity** entity that has a relationship with **User** entity is displayed. 
     
     > [!div class="mx-imgBorder"]
     > ![Select attribute to define relationship](media/forecast-relationship-entity-attribute.png "Select attribute to define relationship")
     
-    Select an attribute to define the rollup relationship between the rollup entity (Opportunity) and Hierarchy entity (User). Here, we're selecting the relationship attribute as **Owner (User)**. The relationship is mapped as *Opportunity > Owner (User) > User*. The mapping specifies that the attribute **Owner** is in **Opportunity** entity that has a relationship with **User** entity and the rollup values in the forecast are based on this relationship.
+    Select an attribute to define the rollup relationship between the rollup entity (Opportunity) and Hierarchy entity (User). Here, we're selecting the relationship attribute as **Owner (User)**. The relationship is mapped as *Opportunity > Owner (User) > User*. The mapping specifies that the attribute **Owner** is in **Opportunity** entity that has a relationship with **User** entity.
 
     > [!div class="mx-imgBorder"]
     > ![Selected owner attribute](media/forecast-relationship-entity-attribute-created-by.png "Selected owner attribute")
 
-    Similarly, if there is no direct entity relationship between the rollup entity and Hierarchy entity, you can choose a related attribute to define a relationship. Select **Related** tab and then choose a related attribute from the list.      
+    Similarly, if there is no direct entity relationship between the rollup entity and Hierarchy entity, you can choose a related attribute to define a relationship. Select **Related** tab and then choose a related attribute from the list. The list displays attributes of the hierarchy-defined entities only. 
     
-    Here, we're selecting **Hierarchy entity** as **Territory**. Since there is no direct relationship between the rollup entity (Opportunity) and hierarchy entity (Territory), the  relationship attributes are displayed under **Related** tab. These attributes have an indirect relationship with rollup entity through **Account** entity. The relationship is mapped as *Opportunity > Account (Account) > Territory (Territory) > Territory*. The mapping specifies that there is attribute **Account** in **Opportunity** entity, which is related to **Account** entity, which in turn has **Territory** attribute that is related to **Territory** entity. The rollup values in the forecast will be based on the relationship defined through **Territory** attribute. 
+    Here, we're selecting **Hierarchy entity** as **Territory**. Since there is no direct relationship between the rollup entity (Opportunity) and hierarchy entity (Territory), the  relationship attributes are displayed under **Related** tab. These attributes have an indirect relationship with the rollup entity through **Account** entity. The **Account** entity is considered as an intermediate entity to establish a relationship with the hierarchical entity (**Territory**). 
+    
+    The relationship is mapped as *Opportunity > Account (Account) > Territory (Territory) > Territory*. The mapping specifies that there is attribute **Account** in **Opportunity** entity, which is related to **Account** entity, which in turn has **Territory** attribute that is related to **Territory** entity. The rollup values in the forecast will be based on the relationship defined through **Territory** attribute. 
 
     > [!div class="mx-imgBorder"]
     > ![Selected related attribute](media/forecast-relationship-entity-related-attribute-account-user.png "Selected related attribute")     
