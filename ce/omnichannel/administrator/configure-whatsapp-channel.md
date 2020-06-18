@@ -4,7 +4,7 @@ description: "Learn about the WhatsApp channel through Twilio and how to configu
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/17/2020
+ms.date: 06/18/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
