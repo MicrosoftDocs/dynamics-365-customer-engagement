@@ -1,3 +1,13 @@
+## 3.12.23.26
+
+- The rendering issue for tooltips on Bookings of the Schedule Board is now fixed, by making the Tooltip scrollable when the height of the Tooltip is larger than the browser size, also the hyperlinks on the Tooltip can be clicked to open them in a new browser window. 
+- The text **Hide default requirement panels** is now made visible on the Schedule Board Tab Settings under the **Requirement Panels** section, which was only partially visible previously.
+- Fixed an issue where entering comma on the Filter control of the Filter panel, was clearing the input on the filter control, now with the fix, the comma will not influence the auto-complete, which was causing issues to customers who have a comma in their filter options. 
+- If the Workhours tab is renamed or removed from a custom Bookable Resource form, when clicked on **Show Workhours** button, an error will be displayed **The Work Hours tab has been renamed or removed from this form. Please update this form to include the Work Hours tab**, so that the Workhours tab can be added back to the form. 
+- Fixed an issue on the **Create Resource Booking** panel on the Schedule Board, with the fix, the **Start Date** and **End Date** on the panel will always reflect the **From Date** and **To Date** of the Requirement selected in the **Requirement Panel** at the bottom of the board. 
+- The Map pins of the Resource Requirement records are loaded on the Map View of the Filter panel of the Schedule Board, based on the View that is defined on **Requirement Map Filter View** on Schedule Board Settings. We fixed the issue where, if the view used here, has no filters on the view definition, the Map panel never completes loading. With this fix, the Map panel would load, regardless of the filters on the view used. 
+- Fixed an issue where **Universal Resource Scheduling** is used as the Scheduling engine, Users who are not System Administrators were unable to complete the Appointment records. With the fix, any user with privileges to complete the Appointment record can mark the appointment as complete.
+
 ## 3.12.22.9
 
 - For organizations that have [schedule board preview enabled](https://aka.ms/scheduleboard), the schedule board preview can be accessed from **Field Service** application sitemap along with **Universal Resource Scheduling** application sitemap. 
