@@ -21,8 +21,8 @@ Supervisors get real-time and historical visibility and insights into the operat
 
 The enterprise-grade routing and work distribution engine allows customers to configure agent presence, availability, and routing rules, thus ensuring agents are working on the most relevant engagements.
 
-> [!NOTE]
-> 
+> [!IMPORTANT]
+>
 > [!INCLUDE[cc-cookies-in-omnichannel](../includes/cc-cookies-in-omnichannel.md)]
 
 ## Channels available with Omnichannel for Customer Service

@@ -24,7 +24,7 @@ Omnichannel for Customer Service is available on the following:
 
 - Omnichannel for Customer Service app (Unified Interface app)
 
-> [!NOTE]
+> [!IMPORTANT]
 >
 > [!INCLUDE[cc-cookies-in-omnichannel](../../includes/cc-cookies-in-omnichannel.md)]
 
