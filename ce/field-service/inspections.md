@@ -174,7 +174,7 @@ An inspection completed by a technician will be visible on the bottom of the wor
 After the work order is scheduled to the appropriate technician, they can see and complete the inspection from the work order on the [Field Service Mobile](field-service-mobile-overview.md) app.
 
 > [!Note]
-> You must download and import a new mobile project template into the mobile configuration tool (Woodford) to use inspections on Field Service Mobile during public preview. [Download the mobile project template for inspections](http://aka.ms/fsmproject-inspections-ea). For more information on mobile project templates, see the topic on [importing the mobile project template](https://docs.microsoft.com/dynamics365/field-service/install-field-service#step-4-import-the-mobile-project-template).
+> You must download and import a new mobile project template into the mobile configuration tool (Woodford) to use inspections on Field Service Mobile during public preview. [Download the mobile project template for inspections](https://aka.ms/fsmproject-inspections-ea). For more information on mobile project templates, see the topic on [importing the mobile project template](https://docs.microsoft.com/dynamics365/field-service/install-field-service#step-4-import-the-mobile-project-template).
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the mobile configurator, showing the list of projects.](media/inspections-fsm-mobile-project.png)
