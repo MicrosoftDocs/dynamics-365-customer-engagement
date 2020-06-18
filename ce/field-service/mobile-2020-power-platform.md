@@ -72,7 +72,7 @@ Field Service Mobile is recommended for more **complex** use cases where you may
 | [Location sharing and auditing](https://docs.microsoft.com/dynamics365/field-service/geofencing#step-3-enable-location-auditing-for-the-field-service-mobile-app) | Admin | | Yes |
 | Enhanced mobile workflows | Admin | | Yes |
 | Enhanced offline sync filters | Admin | | Yes |
-| Allow technician to force data sync | | Yes |
+| Allow technician to force data sync | | | Yes |
 | [Remote Assist](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/overview-hololens) | Integration | | Yes |
 | [Microsoft Intune](field-service-mobile-intune.md)  | Integration | | Yes |
 
