@@ -130,18 +130,6 @@ You need to create mobile offline profiles for users to configure filters that d
 
 10. Select a **Data Download Filter** based on the ownership type for the entity. Entity ownership is decided when you create the entity. For more information, see [Types of entities and entity ownership](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-entities).
 
-
-
-|Column1  |Column2  |Column3  |Column4  |Column5 |
-|---------|---------|---------|---------|--------|
-|Row1     |         |         |         |        |
-|Row2     |         |         |         |        |
-|Row3     |         |         |         |        |
-|Row4     |         |         |         |        |
-|Row5     |         |         |         |        |
-
-
-
  
    |Entity ownership type|Available Data Download Filter options |  
   |---------------|-----------------|  
