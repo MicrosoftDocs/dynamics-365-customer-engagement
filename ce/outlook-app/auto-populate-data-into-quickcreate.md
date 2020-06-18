@@ -40,7 +40,7 @@ These fields that will be populated automatically:
 
 
 
-## Enable quick create for the case enity
+## Enable quick create for the case entity
 
 1. From your app, go to **Settings** > **Advanced Settings**.
 
@@ -64,7 +64,7 @@ These fields that will be populated automatically:
 
 ## Use quick create to create a case 
 
-1. Open an email item that you want to create a case entity for and then select the **Dynamicse 365** button. 
+1. Open an email item that you want to create a case entity for and then select the **Dynamics 365** button. 
 2. On the **Dynamics 365** pane, select ![Quick Create](media/outlookapp_quickcreate.png "Quick Create form") **Quick Create** > **Case**.
 
     The information from the Outlook item will auto populate to case from.
