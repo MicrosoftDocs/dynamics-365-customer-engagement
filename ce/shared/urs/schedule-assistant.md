@@ -28,7 +28,7 @@ The schedule assistant's primary objective is to match up work with the right re
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a work order in Field Service.](../../field-service/media/scheduling-schedule-assistant2.png)
 
-When a work order is created, a resource requirement is automatically generated. On the requirement, you can add more details about the work, like:
+When a work order is created, a resource requirement is automatically generated. From the work order form, go to **Related > Requirements**. On the requirement, you can add more details about the work, like:
 
 - Characteristics
 - Roles
@@ -38,7 +38,7 @@ When a work order is created, a resource requirement is automatically generated.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a resource requirement in Field Service.](../../field-service/media/scheduling-schedule-assistant3.png)
 
-The schedule assistant uses these details on work orders and requirements to match with appropriate bookable resources.
+The schedule assistant uses these details on work orders and requirements to filter resources.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a bookable resource in Field Service.](../../field-service/media/scheduling-schedule-assistant4.png)
@@ -61,7 +61,7 @@ When your work order or requirement has relevant details and you're ready to sch
 
 ## Schedule assistant filters
 
-Once the schedule assistant runs, dispatchers can fine-tune results by adjusting filters to meet their scheduling needs.
+Once the schedule assistant runs, the details from the work order and requirement are filters in the elft pane. Dispatchers can fine-tune results by adjusting filters to meet their scheduling needs.
 
 The filter pane includes work-related options, including:
 
@@ -92,7 +92,7 @@ These same travel time estimations are shown in the grid view of the schedule as
 
 ## Rescheduling work
 
-Need to rebook work? From the schedule board, just right-click the booked work, and then **Rebook**.
+Need to rebook work? From the schedule board, just right-click the booked work, and then **Rebook**. This will trigger the schedule assistant.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the schedule board, showing the rebook option.](../../field-service/media/scheduling-schedule-assistant-rebook.png)
@@ -114,10 +114,14 @@ For more information, see the article on how to [enable an entity for scheduling
 
 ## Multi-resource scheduling (Requirement groups)
 
-Need a group of resources to perform work? Use the schedule assistant to book multiple resources at once using requirement groups.
+Need a group of resources to perform work? Use the schedule assistant to book multiple resources at once using requirement groups. Go to the Field Service app, then to Requirement Groups. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a requirement group detail page.](../../field-service/media/scheduling-schedule-assistant-requirement-group.png)
+
+After using the grid format to create multiple requirements, select Book at the top of the form to trigger the schedule assistant.
+
+The schedule assistant will find different combinations of resources that meet the different requirements and can all arrive at the job location at the same time.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the schedule assistant showing a requirement group in the grid view.](../../field-service/media/scheduling-schedule-assistant-requirement-group-assistant.png)
