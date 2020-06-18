@@ -30,31 +30,8 @@ Mobile offline allows your users to use the Dynamics 365 for phones app in offli
 > - The mobile offline feature is only available for iOS and Android devices.
 > - To use the mobile offline feature, download the latest version of the Dynamics 365 for phones and tablet app from the app store. For iOS, version 13.19043.32 or later is supported; for Android, version 4.3.19043.33 or later supported.
 
-These entities and corresponding commands are available in offline mode.
+For information on entities and corresponding commands that are available in offline mode, see [Mobile offline capabilities and limitations](mobile-offline-capabilities.md).
 
-|Entities |Commands|  
-|-------------|---------|  
-|Account|	Create, Read, Update, Delete|
-|Activity Pointer|Read, Delete|
-|Appointment|	Create, Read, Update, Delete, Convert Activity Case|
-|Attachment	|Read only|
-|Case|Create, Read, Update, Delete|
-|Competitor|Create, Read, Update, Delete	|
-|Competitor Address |Create, Read, Update, Delete	|
-|Connection|Read only|
-|Connection Role|Read only|
-|Contact|Create, Read, Update, Delete	|
-|Custom Entity|Create, Read, Update, Delete	|
-|Email|Read only	|
-|Lead|Create, Read, Update, Delete, Qualify/Disqualify	|
-|Opportunity|Create, Read, Update, Delete|
-|Opportunity Product|Create, Read, Update, Delete	|
-|Phone Call|Create, Read, Update, Delete	|
-|Position|Create, Read, Update, Delete	|
-|Product|Read|
-|Task |Create, Read, Update, Delete|
-|Team |Read only	|
-|User |Read only	|
 
 To allows users to use this feature, a Dynamics 365 administrator will need to set up mobile offline for their organization. 
   
