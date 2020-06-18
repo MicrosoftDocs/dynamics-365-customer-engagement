@@ -155,7 +155,10 @@ Though there can be a few advantages to arranging for a dedicated sender IP, the
 
 Dynamics 365 Marketing uses a set of dedicated IPv4 public network subnets for sending e-mails. All e-mails sent by Marketing are expected to depart from an IP address belonging to one of the subnets. The subnets are statically assigned to the Marketing platform, but they can potentially change at a future date as new subnets are introduced.
 
-To ensure that you always have the correct subnet addresses, you should refer to the [Azure IP Ranges and Service Tags](https://www.microsoft.com/download/details.aspx?id=56519) document for up-to-date IP and subnet information. The document is in JSON format and lists all Azure tagged IP Ranges. The Service Tag under which the Marketing e-mail public IPs are listed is "Dynamics365ForMarketingEmail". The list of IP Ranges is under "addressPrefixes".
+> [!NOTE]
+> In rare cases (depending on your spam-filter provider) you may need to pre-approve our public IPs in your spam-filter.
+
+To ensure that you always have the correct IP addresses, you should refer to the [Azure IP Ranges and Service Tags](https://www.microsoft.com/download/details.aspx?id=56519) document. The document is in JSON format and lists all Azure tagged IP Ranges. The Service Tag under which the Marketing e-mail public IPs are listed is "Dynamics365ForMarketingEmail". The list of IP Ranges is under "addressPrefixes".
 
 The follow code snippet is an example section from the IP ranges document. The subnets are listed in this section of the JSON file:
 
@@ -175,9 +178,6 @@ The follow code snippet is an example section from the IP ranges document. The s
         ]
       }
     }
-
-> [!NOTE]
-> In rare cases (depending on your spam-filter provider) you may need to pre-approve our public IPs in your spam-filter.
 
 ### See also
 
