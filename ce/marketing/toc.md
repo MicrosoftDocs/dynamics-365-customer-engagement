@@ -128,6 +128,7 @@
 #### [Create and deploy marketing pages](create-deploy-marketing-pages.md)
 #### [Provide personalized page content](personalized-page-content.md)
 #### [Create marketing forms](marketing-forms.md)
+#### [Use marketing forms for event registration](event-forms.md)
 #### [Enable prefilling for forms](form-prefill.md)
 #### [Integrate Forms Pro with Dynamics 365 Marketing](forms-pro.md)
 #### [Integrate with landing pages on external websites](embed-forms.md)
@@ -172,7 +173,6 @@
 
 ### Event planning and management
 #### [Event management overview](event-management.md)
-#### [Early access: Improved event management experience](event-forms.md)
 #### [Open the event management work area](open-events.md)
 #### [Set up an event](set-up-event.md)
 #### [Set up session-level registration and waitlisting](session-level-registration.md)
