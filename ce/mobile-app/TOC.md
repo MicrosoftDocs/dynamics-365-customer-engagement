@@ -3,8 +3,9 @@
 # Administrator Guide 
 ## [What's supported](support-phones-tablets.md)
 ## [Set up mobile app](set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md)
-## [Set-up mobile offline synchronization](setup-mobile-offline-for-admin.md)
 ## [Manage and secure devices](secure-manage-phones-tablets.md)
+## [Set-up mobile offline synchronization](setup-mobile-offline-for-admin.md)
+## [Mobile offline capabilities and limitations](mobile-offline-capabilities.md)
 
 # [Install the mobile app](install-dynamics-365-for-phones-and-tablets.md)
 
