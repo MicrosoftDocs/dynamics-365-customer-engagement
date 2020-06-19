@@ -123,6 +123,11 @@ Content-Type: application/json
     "RequestJson": "{\"Name\":\"api_test1\"}"
 }
 ```
+
+|Parameter|Type|Description|
+|`WebApiName`|String|Name of the API|
+|`ForecastConfigurationId`|GUID|Forecast Configuration Id|
+
 ### Response
 
 ```json
@@ -170,6 +175,27 @@ Content-Type: application/json
     "RequestJson": "{\"Name\":\"api_test1\"}"
 }
 ```
+|Parameter|Type|Description|
+|`WebApiName`|String|Name of the API|
+|`RequestJson`|JSON object|Consists of<br />`ForecastPeriodId`: Unique identifier of the forecast period<br />`ForecastConfigurationId`: Unique identifier of the forecast configuration<br />`SortingAttribute`: The attribute based on which you want to do Sorting in the paging<br />`SortingOrder`: ASC for ascending order DSC for descending order<br />`PageSize`: Number of records you want to retrieve in a single page<br />`PageNo`: Which page records you want to fetch for.|
+
+Given below is the sample JSON for `RequestJson` object.
+
+```json
+{
+    "WebApiName": "GET_ForecastInstances",
+    "RequestJson": "{
+    	\"ForecastPeriodId\":\"{{frid}}\",
+    	\"ForecastConfigurationId\":\"{{fcid}}\", 
+    	\"SortingAttribute\":\"HierarchyEntityRecord.RecordId\",
+    	\"SortingOrder\":\"DSC\",
+    	\"PageSize\":1,
+    	\"PageNo\":1
+    	
+    }"
+} 
+```
+
 ## Response
 
 ```json
