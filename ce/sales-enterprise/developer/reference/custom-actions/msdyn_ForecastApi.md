@@ -238,7 +238,7 @@ POST [Organization URI]/api/data/v9.1/msdyn_ForecastApi HTTP/1.1
 content-type: application/json
 
 {
-    "WebApiName": "Update_ SimpleColumnByEntityId ",
+    "WebApiName": "Update_ SimpleColumnByEntityId",
     "RequestJson": "
     {\"ForecastConfigurationId\":\"0461fb6b-8d85-ea11-a811-000d3a37bb2c\",\"ForecastRecurranceId\":\"f8b1122c-b913-4e88-9727-368b6134be3e\",\"SimpleColumnUpdateRequests\":[{\" HierarchyEntityRecordId\":\"d8680b00-fd31-46c2-8136-7c4df19cf2a8\",\"ForecastConfigurationColumnId\":\"65ec7bd1-2de6-49fa-b259-ba74bc721c78\",\"ForecastConfigurationColumnValue\":0.0,\"IsRolledUpColumnUpdate\":false},{\" HierarchyEntityRecordId\":\"11141300-131b-493a-9857-22bd8689b775\",\"ForecastConfigurationColumnId\":\"65ec7bd1-2de6-49fa-b259-ba74bc721c78\",\"ForecastConfigurationColumnValue\":0.0,\"IsRolledUpColumnUpdate\":false}]}"
 }
@@ -251,7 +251,7 @@ content-type: application/json
 |HierarchyEntityRecordId|GUID|EntityRecordId|
 |ForecastConfigurationColumnId|GUID|Forecast Configuration Column Id|
 |ForecastConfigurationColumnValue|Datatype of ForecastConfigurationColumn|Value which needs to be updated to|
-|IsRolledUpColumnUpdate|(optional)|Boolean|`True` if the value is updated for the rolled up column, `False` if the value is update for aggregate column|
+|IsRolledUpColumnUpdate(optional)|Boolean|`True` if the value is updated for the rolled up column, `False` if the value is update for aggregate column|
 
 #### Response
 
