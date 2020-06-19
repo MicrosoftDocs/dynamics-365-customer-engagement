@@ -245,7 +245,7 @@ content-type: application/json
 |----|----|----|
 |WebApiName|String|Name of the API|
 |ForecastConfigurationId|GUID|Forecast Configuration Id|
-|ForecastRecurranceId|GUID|Forecast Recurrance Id (or) Forecast Period Id A list of `SimpleColumnUpdateRequests` is an array|
+|ForecastRecurranceId|GUID|Forecast Recurrance Id or Forecast Period Id A list of `SimpleColumnUpdateRequests` is an array|
 |HierarchyEntityRecordId|GUID|EntityRecordId|
 |ForecastConfigurationColumnId|GUID|Forecast Configuration Column Id|
 |ForecastConfigurationColumnValue|Datatype of ForecastConfigurationColumn|Value which needs to be updated to|
@@ -300,7 +300,7 @@ content-type: application/json
 |-----|-----|-----|
 |WebApiName|String|Name of the API|
 |ForecastConfigurationId|GUID|Forecast Configuration Id|
-|ForecastRecurranceId|Guid|Forecast Recurrance Id (or) Forecast Period Id|
+|ForecastRecurranceId|Guid|Forecast Recurrance Id or Forecast Period Id|
 |SimpleColumnUpdateRequests|Array|Includes the following|
 |ForecastInstanceId|GUID|Forecast Instance Id|
 |ForecastConfigurationColumnId|GUID|Forecast Configuration Column Id|
