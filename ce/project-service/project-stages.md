@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Project stages are updated to reflect the state of the project as it progresses. The default business process flow automatically updates some stages of the project while others are manually updated by the project manager. 
+Project stages are designed to reflect the state of the project as it progresses.  Customizations can be used to automatically update the stages with business process flows, Power Automate or with plugin extensions.
 
 The following stages are defined in the default BPF:
 
