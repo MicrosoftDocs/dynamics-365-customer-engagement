@@ -238,6 +238,19 @@ Updates the specific column value by setting the values of the parameters passed
 > [!NOTE]
 > Large number of update requests in a single API call can hurt performance, so the updates per request are capped at 50.  
 
+### Example
+
+```http
+POST [Organization URI]/api/data/v9.1/msdyn_ForecastApi HTTP/1.1
+content-type: application/json
+
+{
+    "WebApiName": "Update_SimpleColumnByFIId",
+    "RequestJson": "
+    {\"ForecastConfigurationId\":\"0461fb6b-8d85-ea11-a811-000d3a37bb2c\",\"ForecastRecurranceId\":\"f8b1122c-b913-4e88-9727-368b6134be3e\",\"SimpleColumnUpdateRequests\":[{\"ForecastInstanceId\":\"d8680b00-fd31-46c2-8136-7c4df19cf2a8\",\"ForecastConfigurationColumnId\":\"65ec7bd1-2de6-49fa-b259-ba74bc721c78\",\"ForecastConfigurationColumnValue\":0.0,\"IsRolledUpColumnUpdate\":false},{\"ForecastInstanceId\":\"11141300-131b-493a-9857-22bd8689b775\",\"ForecastConfigurationColumnId\":\"65ec7bd1-2de6-49fa-b259-ba74bc721c78\",\"ForecastConfigurationColumnValue\":0.0,\"IsRolledUpColumnUpdate\":false}]}"
+}
+```
+
 ### Response
 
 ```json
@@ -257,19 +270,6 @@ Updates the specific column value by setting the values of the parameters passed
          "ForecastConfigurationColumnId": "65ec7bd1-2de6-49fa-b259-ba74bc721c78"
       }
    ]
-}
-```
-
-### Example
-
-```http
-POST [Organization URI]/api/data/v9.1/msdyn_ForecastApi HTTP/1.1
-content-type: application/json
-
-{
-    "WebApiName": "Update_SimpleColumnByFIId",
-    "RequestJson": "
-    {\"ForecastConfigurationId\":\"0461fb6b-8d85-ea11-a811-000d3a37bb2c\",\"ForecastRecurranceId\":\"f8b1122c-b913-4e88-9727-368b6134be3e\",\"SimpleColumnUpdateRequests\":[{\"ForecastInstanceId\":\"d8680b00-fd31-46c2-8136-7c4df19cf2a8\",\"ForecastConfigurationColumnId\":\"65ec7bd1-2de6-49fa-b259-ba74bc721c78\",\"ForecastConfigurationColumnValue\":0.0,\"IsRolledUpColumnUpdate\":false},{\"ForecastInstanceId\":\"11141300-131b-493a-9857-22bd8689b775\",\"ForecastConfigurationColumnId\":\"65ec7bd1-2de6-49fa-b259-ba74bc721c78\",\"ForecastConfigurationColumnValue\":0.0,\"IsRolledUpColumnUpdate\":false}]}"
 }
 ```
 
