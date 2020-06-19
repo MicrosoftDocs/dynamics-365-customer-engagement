@@ -30,7 +30,7 @@ Given below are the set of APIs you can invoke using the `msdyn_ForecastApi` cus
 
 ## GET_ForecastConfigurations
 
-Returns the list of all for forecast configurations having the name provided as part of request payload.
+Returns the list of all forecast configurations having the name that is provided as part of request payload.
 
 ### Example
 
@@ -42,7 +42,12 @@ Content-Type: application/json
     "WebApiName": "GET_ForecastConfigurations",
     "RequestJson": "{}"
 }
+
 ```
+|Parameter|Type|Description|
+|----|----|----|
+|`WebApiName`|String|Name of the API|
+|`RequestJson`|String|Empty|
 
 ### Response
 
@@ -83,6 +88,10 @@ Content-Type: application/json
     "RequestJson": "{\"Name\":\"api_test1\"}"
 }
 ```
+|Parameter|Type|Description|
+|-----|-----|-----|
+|`WebApiName`|String|Name of the API|
+|`RequestJson`|JSON object|Name of the forecast configuration|
 
 ### Response
 
@@ -125,6 +134,7 @@ Content-Type: application/json
 ```
 
 |Parameter|Type|Description|
+|------|------|------|
 |`WebApiName`|String|Name of the API|
 |`ForecastConfigurationId`|GUID|Forecast Configuration Id|
 
@@ -176,6 +186,7 @@ Content-Type: application/json
 }
 ```
 |Parameter|Type|Description|
+|------|------|------|
 |`WebApiName`|String|Name of the API|
 |`RequestJson`|JSON object|Consists of<br />`ForecastPeriodId`: Unique identifier of the forecast period<br />`ForecastConfigurationId`: Unique identifier of the forecast configuration<br />`SortingAttribute`: The attribute based on which you want to do Sorting in the paging<br />`SortingOrder`: ASC for ascending order DSC for descending order<br />`PageSize`: Number of records you want to retrieve in a single page<br />`PageNo`: Which page records you want to fetch for.|
 
@@ -230,6 +241,15 @@ content-type: application/json
     {\"ForecastConfigurationId\":\"0461fb6b-8d85-ea11-a811-000d3a37bb2c\",\"ForecastRecurranceId\":\"f8b1122c-b913-4e88-9727-368b6134be3e\",\"SimpleColumnUpdateRequests\":[{\" HierarchyEntityRecordId\":\"d8680b00-fd31-46c2-8136-7c4df19cf2a8\",\"ForecastConfigurationColumnId\":\"65ec7bd1-2de6-49fa-b259-ba74bc721c78\",\"ForecastConfigurationColumnValue\":0.0,\"IsRolledUpColumnUpdate\":false},{\" HierarchyEntityRecordId\":\"11141300-131b-493a-9857-22bd8689b775\",\"ForecastConfigurationColumnId\":\"65ec7bd1-2de6-49fa-b259-ba74bc721c78\",\"ForecastConfigurationColumnValue\":0.0,\"IsRolledUpColumnUpdate\":false}]}"
 }
 ```
+|Parameter|Name|Description|
+|----|----|----|
+|WebApiName|String|Name of the API|
+|ForecastConfigurationId|GUID|Forecast Configuration Id|
+|ForecastRecurranceId|GUID|Forecast Recurrance Id (or) Forecast Period Id A list of `SimpleColumnUpdateRequests` is an array|
+|HierarchyEntityRecordId|GUID|EntityRecordId|
+|ForecastConfigurationColumnId|GUID|Forecast Configuration Column Id|
+|ForecastConfigurationColumnValue|Datatype of ForecastConfigurationColumn|Value which needs to be updated to|
+|IsRolledUpColumnUpdate|(optional)|Boolean|`True` if the value is updated for the rolled up column, `False` if the value is update for aggregate column|
 
 ### Response
 
@@ -276,6 +296,16 @@ content-type: application/json
     {\"ForecastConfigurationId\":\"0461fb6b-8d85-ea11-a811-000d3a37bb2c\",\"ForecastRecurranceId\":\"f8b1122c-b913-4e88-9727-368b6134be3e\",\"SimpleColumnUpdateRequests\":[{\"ForecastInstanceId\":\"d8680b00-fd31-46c2-8136-7c4df19cf2a8\",\"ForecastConfigurationColumnId\":\"65ec7bd1-2de6-49fa-b259-ba74bc721c78\",\"ForecastConfigurationColumnValue\":0.0,\"IsRolledUpColumnUpdate\":false},{\"ForecastInstanceId\":\"11141300-131b-493a-9857-22bd8689b775\",\"ForecastConfigurationColumnId\":\"65ec7bd1-2de6-49fa-b259-ba74bc721c78\",\"ForecastConfigurationColumnValue\":0.0,\"IsRolledUpColumnUpdate\":false}]}"
 }
 ```
+|Parameter|Type|Description|
+|-----|-----|-----|
+|WebApiName|String|Name of the API|
+|ForecastConfigurationId|GUID|Forecast Configuration Id|
+|ForecastRecurranceId|Guid|Forecast Recurrance Id (or) Forecast Period Id|
+|SimpleColumnUpdateRequests|Array|Includes the following|
+|ForecastInstanceId|GUID|Forecast Instance Id|
+|ForecastConfigurationColumnId|GUID|Forecast Configuration Column Id|
+|ForecastConfigurationColumnValue|Datatype of ForecastConfigurationColumn|Value which needs to be updated to|
+|IsRolledUpColumnUpdate(optional)|Boolean|`True` if the value is updated for the rolled up column, `false` if the value is update for aggregate column|
 
 ### Response
 
