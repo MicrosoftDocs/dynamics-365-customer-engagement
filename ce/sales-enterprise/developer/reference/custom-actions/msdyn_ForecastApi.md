@@ -26,13 +26,15 @@ The `msdyn_ForecastApi` custom action enables you to perform various actions to 
 |`WebApiName`|Yes|Contains the name of the API to be executed.|
 |`RequestJson`|Yes|Contains the parameters and the arguments for the API call.|
 
+## List of APIs
+
 Given below are the set of APIs you can invoke using the `msdyn_ForecastApi` custom action.
 
-## GET_ForecastConfigurations
+### GET_ForecastConfigurations
 
 Returns the list of all forecast configurations having the name that is provided as part of request payload.
 
-### Example
+#### Example
 
 ```http
 POST [Organization URI]/api/data/v9.1/msdyn_ForecastApi/ HTTP/1.1
@@ -49,7 +51,7 @@ Content-Type: application/json
 |`WebApiName`|String|Name of the API|
 |`RequestJson`|String|Empty|
 
-### Response
+#### Response
 
 ```json
 {
@@ -69,15 +71,15 @@ Content-Type: application/json
 }
 ```
 
-### Return value
+#### Return value
 
 List of Forecast Configurations.
 
-## GET_ForecastConfigurationsByName 
+### GET_ForecastConfigurationsByName 
 
 Returns the list of all for forecast configurations having the name provided as part of request payload.
 
-### Example
+#### Example
 
 ```http
 POST [Organization URI]/api/data/v9.1/msdyn_ForecastApi HTTP/1.1
@@ -93,7 +95,7 @@ Content-Type: application/json
 |`WebApiName`|String|Name of the API|
 |`RequestJson`|JSON object|Name of the forecast configuration|
 
-### Response
+#### Response
 
 ```json
 {
@@ -113,15 +115,15 @@ Content-Type: application/json
 }
 ```
 
-### Return value
+#### Return value
 
 List of Forecast Configurations.
 
-## GET_ForecastPeriodsByForecastConfigurationId
+### GET_ForecastPeriodsByForecastConfigurationId
 
 Returns all the forecast periods for the active forecast configuration Id, that is provided as part of the request payload.
 
-### Example
+#### Example
 
 ```http
 POST [Organization URI]/api/data/v9.1/msdyn_ForecastApi HTTP/1.1
@@ -138,7 +140,7 @@ Content-Type: application/json
 |`WebApiName`|String|Name of the API|
 |`ForecastConfigurationId`|GUID|Forecast Configuration Id|
 
-### Response
+#### Response
 
 ```json
 {
@@ -163,18 +165,18 @@ Content-Type: application/json
 }
 ```
 
-### Return value
+#### Return value
 
 List of Forecast Periods.
 
-## GET_ForecastInstances
+### GET_ForecastInstances
 
 Returns the list of forecast instances that are a single row entity record.
 
 > [!NOTE]
 > Forecast periods can have many forecast instances far more than you would want to pull down in a single request. The API endpoints default to providing a limited number of items per request.<br />Note: Large queries can hurt performance, so the number of results per page is capped at 4000 records. If you wish to retrieve more than 4000 records, for example to build a client-side list of all available forecast instances, you can make multiple API requests and combine the results within your application.
 
-### Example
+#### Example
 
 ```http
 POST [Organization URI]/api/data/v9.1/msdyn_ForecastApi HTTP/1.1
@@ -207,7 +209,7 @@ Given below is the sample JSON for `RequestJson` object.
 } 
 ```
 
-## Response
+#### Response
 
 ```json
 {
@@ -221,15 +223,15 @@ Given below is the sample JSON for `RequestJson` object.
 }
 ```
 
-### Return value
+#### Return value
 
 List of Forecast Periods.
 
-## Update_SimpleColumnByEntityId
+### Update_SimpleColumnByEntityId
 
 Updates the specific column values using the values of the passed parameters.
 
-### Example
+#### Example
 
 ```http
 POST [Organization URI]/api/data/v9.1/msdyn_ForecastApi HTTP/1.1
@@ -251,7 +253,7 @@ content-type: application/json
 |ForecastConfigurationColumnValue|Datatype of ForecastConfigurationColumn|Value which needs to be updated to|
 |IsRolledUpColumnUpdate|(optional)|Boolean|`True` if the value is updated for the rolled up column, `False` if the value is update for aggregate column|
 
-### Response
+#### Response
 
 ```json
 {
@@ -273,18 +275,18 @@ content-type: application/json
 }
 ```
 
-### Return value
+#### Return value
 
 A list of `UpdateSimpleColumnByEntityResponse` records consisting of `HierarchyEntityRecordId`, `ForecastConfigurationColumnId`, `Message`, `StatusCode`.
 
-## Update_SimpleColumnByFIId
+### Update_SimpleColumnByFIId
 
 Updates the specific column value by setting the values of the parameters passed.
 
 > [!NOTE]
 > Large number of update requests in a single API call can hurt performance, so the updates per request are capped at 50.  
 
-### Example
+#### Example
 
 ```http
 POST [Organization URI]/api/data/v9.1/msdyn_ForecastApi HTTP/1.1
@@ -307,7 +309,7 @@ content-type: application/json
 |ForecastConfigurationColumnValue|Datatype of ForecastConfigurationColumn|Value which needs to be updated to|
 |IsRolledUpColumnUpdate(optional)|Boolean|`True` if the value is updated for the rolled up column, `false` if the value is update for aggregate column|
 
-### Response
+#### Response
 
 ```json
 {
@@ -329,7 +331,7 @@ content-type: application/json
 }
 ```
 
-### Return value
+#### Return value
 
 A list of `UpdateSimpleColumnByEntityResponse` records consisting of `ForecastInstanceId`, `ForecastConfigurationColumnId`, `Message`, `StatusCode`.
 
