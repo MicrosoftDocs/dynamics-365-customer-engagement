@@ -2,7 +2,7 @@
 title: "Create online surveys to collect feedback from customers (Dynamics 365 Marketing) | Microsoft Docs "
 description: "How the Surveys app makes Voice of the Customer online surveys available in Dynamics 365 Marketing"
 keywords: Voice of the Customer; Surveys; survey
-ms.date: 04/01/2018
+ms.date: 06/18/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -23,6 +23,11 @@ search.app:
 ---
 
 # Create and run online surveys
+
+> [!IMPORTANT]
+> As of **July 1, 2020**, Voice of the Customer surveys are no longer supported in Dynamics 365 Marketing. You can read more about the [discontinuation of Voice of the Customer surveys here](https://cloudblogs.microsoft.com/dynamics365/it/2020/06/16/voice-of-the-customer-surveys-are-not-supported-on-dynamics-365-marketing-starting-july-1-2020/).
+> 
+> If you want to create new surveys in Marketing, you should [use Forms Pro](forms-pro.md).
 
 Dynamics 365 Marketing includes a Surveys app, which you can use to design and publish online surveys that can be integrated with your events, marketing emails, and customer journeys.
 
@@ -46,5 +51,5 @@ The Surveys app provides the same settings and options as the Voice of the Custo
 
 ### See also
 
-[Get feedback by using Voice of the Customer surveys](../voice-of-customer/create-voice-of-customer-survey.md) 
+[Get feedback by using Voice of the Customer surveys](../voice-of-customer/create-voice-of-customer-survey.md)<br>
 [Find your way around](navigation.md)
