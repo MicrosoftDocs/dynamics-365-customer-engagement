@@ -61,11 +61,9 @@ Using the general properties and scheduling options of the forecast configuratio
 
     You edit these values, if you want to use your organization-specific attributes to define the relationship between the rollup and hierarchy entity.
 
-4.	In the **Top of hierarchy** list, choose the user or territory that's at the top of this forecast hierarchy. 
+4.	In the **Top of hierarchy** list, choose a value from the list that will be at the top of this forecast hierarchy. The list of values depends on the selected **Hierarchy entity**.
 
-    When the hierarchy route is **Opportunity > Owner**, the top of the hierarchy lists all active users in your organization. You can then select a user from the list to be displayed at the top of the hierarchy. 
-    
-    For example, Kenny Smith, a sales director, is looking at a forecast based on the **Org chart** template. He wants to see a forecast for his team, so he selects his name as the top name in the hierarchy. After Kenny makes his selection, he can see a preview of the full hierarchy in the rightmost pane. 
+    For example, if you select the hierarchy entity as **User**, the list displays all active users in your organization. You can then select a user from the list to be displayed at the top of the hierarchy. Say, Kenny Smith, a sales director, is looking at a forecast based on the **Org chart** template. He wants to see a forecast for his team, so he selects his name as the top name in the hierarchy. After Kenny makes his selection, he can see a preview of the full hierarchy in the rightmost pane. 
 
     > [!div class="mx-imgBorder"]
     > ![Configuration section](media/forecast-general-tab-configuration-section.png "Configuration section")
