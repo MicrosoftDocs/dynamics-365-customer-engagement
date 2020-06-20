@@ -1,7 +1,7 @@
 ---
 title: "Select a template to configure forecasting (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Select a template to define the hierarchy to be used in a forecast in Dynamics 365 Sales."
-ms.date: 02/03/2020
+ms.date: 06/21/2020
 ms.service: 
   - "dynamics-365-sales"
 ms.custom: 
@@ -22,8 +22,11 @@ To select a template, go to the **Forecast configurations** page and select one 
 
 -	**Territory forecast**: Roll-up columns and projections are based on the sales territory hierarchy.
 
+- **Create from scratch**: Allows you to create a forecast based on custom hierarchy entity on opportunity.   
+
+
 > [!div class="mx-imgBorder"]
-> ![Forecasting is enabled](media/forecast-enable-forecasting-enabled.png "Forecasting is enabled")
+> ![Forecasting is enabled](media/forecast-enable-forecasting-enabled-v1.png "Forecasting is enabled")
 
 
 <table>
