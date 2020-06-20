@@ -4,7 +4,7 @@ description: "Learn about the international availability of Omnichannel for Cust
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/15/2020
+ms.date: 06/17/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -21,7 +21,7 @@ The purpose of this document is to provide information about availability of Omn
 
 ## Geographic location availability
 
-Your Dynamics 365 tenant must be co-located in one of the following geographic locations where Omnichannel for Customer Service is available.
+Your Dynamics 365 tenant must be co-located in one of the following geographic locations where Omnichannel for Customer Service is available. These geographic locations refer to your Dynamics 365 tenant only and not the data center where your Dynamics 365 environment or org instance resides.
 
 ### April 2020 update
 

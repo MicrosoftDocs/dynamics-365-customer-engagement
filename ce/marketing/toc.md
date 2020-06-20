@@ -59,7 +59,7 @@
 #### [Manage sample data](additional-settings.md)
 #### [Quota limits](quota-management.md)
 #### [Feature switches](admin-feature-switches.md)
-#### [Preview: Configure AI features](admin-machine-learning.md)
+#### [Configure AI features](admin-machine-learning.md)
 #### [Control access to designer features](designer-feature-protection.md)
 
 ### Customize Marketing
@@ -129,7 +129,6 @@
 #### [Provide personalized page content](personalized-page-content.md)
 #### [Create marketing forms](marketing-forms.md)
 #### [Enable prefilling for forms](form-prefill.md)
-#### [Integrate Forms Pro with Dynamics 365 Marketing](forms-pro.md)
 #### [Integrate with landing pages on external websites](embed-forms.md)
 #### [Create input fields for forms](marketing-fields.md)
 #### [Set up a subscription center](set-up-subscription-center.md)
@@ -193,6 +192,7 @@
 
 ### Engage contacts with portals and surveys
 #### [Create interactive features with or without portals](portals.md)
+#### [Integrate Forms Pro with Dynamics 365 Marketing](forms-pro.md)
 #### [Create and run online surveys](surveys.md)
 
 ### Marketing on social media
