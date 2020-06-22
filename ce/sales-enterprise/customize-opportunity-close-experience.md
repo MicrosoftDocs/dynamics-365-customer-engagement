@@ -21,7 +21,7 @@ System administrators or customizers can use the **Opportunity Close** quick cre
 
 ## What customizations are possible?
 
--   Customization of Opportunity Close entity to add custom fields.   
+-   Customization of Opportunity Close entity to add custom fields, including of type Lookup.
 
     > [!IMPORTANT]
     > You can’t delete the out-of-the-box fields or customize the entity relationship.
