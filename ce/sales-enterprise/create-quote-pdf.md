@@ -12,13 +12,13 @@ manager: annbe
 
 # Create PDF files from sales records
 
-You can create and share professional-looking PDF files for sales records by using a standard template from your organization to generate the PDF file. The capability to create PDF files is available for the following entities: Account, Contact, Lead, Opportunity, Order, Quote, and Invoice.
+Use the PDF generation capability to create and share read-only, professional-looking PDF files for Dynamics 365 records with your customers. The PDF file is generated using a standard template from your organization.  The capability to create PDF files is available for the following entities: Account, Contact, Lead, Opportunity, Order, Quote, and Invoice.
 
-Your system administrator can choose the entities for which PDF generation is enabled. 
+Your system administrator can choose the entities for which PDF generation is enabled. If PDF generation isn't enabled, you won't see the option to create a PDF file. 
 
 > [!IMPORTANT]
 > - The PDF generation capability for additional entities (entities other than Quote) is released with Dynamics 365 Sales (Sales Hub) app version: 9.0.1911.1009, as part of the weekly release of the product to individual geographies.
-> - If you don't see the **Create PDF** and **Email as PDF** options on one of the supported entity records, it might be because your system administrator hasn't enabled the PDF-generation capability for that entity. Check with your system administrator.
+> - With the August 2020 early access release, the PDF generation capability is extended to support all the out-of-the-box entities and custom entities that support Document templates.
 
 **To create a PDF file from a sales record** 
 
