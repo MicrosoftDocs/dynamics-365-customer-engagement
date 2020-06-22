@@ -2,10 +2,8 @@
 title: "Sales transactions in Dynamics 365 Sales | MicrosoftDocs"
 description: "Understand how quotes and invoices are used in a sales transaction."
 ms.date: 06/22/2020
-ms.service: 
-  - dynamics-365-sales
-ms.custom: 
-  - dyn365-sales
+ms.service:
+  - "dynamics-365-sales"
 ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
@@ -45,3 +43,4 @@ The **Use Current Pricing** price comes directly from the product catalog. If yo
 [Create or edit quotes](create-edit-quote-sales.md)  
 [Create or edit orders](create-edit-order-sales.md)  
 [Create or edit invoices](create-edit-invoice-sales.md)  
+[Lock or unlock the price for an order or invoice](lock-unlock-price-order-invoice.md)

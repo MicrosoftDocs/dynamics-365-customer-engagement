@@ -119,6 +119,7 @@
 
 ### Quotes and order management
 #### [Sales transactions in Dynamics 365 Sales](../sales-enterprise/sales-transactions.md)
+#### [Lock or unlock prices for an order or invoice](lock-unlock-price-order-invoice.md)
 #### [Create or edit quotes](../sales-enterprise/create-edit-quote-sales.md)
 #### [Create or edit orders](../sales-enterprise/create-edit-order-sales.md)
 #### [Create or edit invoices](../sales-enterprise/create-edit-invoice-sales.md)

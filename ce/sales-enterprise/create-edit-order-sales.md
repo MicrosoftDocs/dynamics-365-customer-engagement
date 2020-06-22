@@ -64,12 +64,15 @@ Congratulations! Your hard work nurturing your customer has paid off and they're
   
 3. On the **Order** form, enter data in the following required fields:
 
-    -  **Name** 
-  
-    -  **Price List** and **Currency**: Select the price list and the currency that will be used to calculate the product prices. 
+   -  **Name**. You must enter a name with a length of 100 characters or fewer. The information should be
+meaningful and unique. By default, these records are sorted by Name in the records list.
+   
+   - **Price List** and **Currency**: Select the price list and the currency that will be used to calculate the product prices. 
 
         > [!NOTE]
         > By default, selecting a price list is required to be able to add products to an order. However, your administrator can change your organization settings to make the Price list field optional.
+
+   -  **Prices Locked**. This field is read-only. You set **Prices Locked** by selecting **Lock Pricing** on the command bar. More information: [Lock or unlock the price for an order or invoice](lock-unlock-price-order-invoice.md), [Sales transactions in Dynamics 365 Sales](sales-transactions.md) 
 
 4. In the **Sales Information** section, in **Potential Customer**, select the customer you're creating this order for.
 
