@@ -21,8 +21,8 @@ search.app:
 
 As an administrator, you can install and enable the LinkedIn Sales Navigator for your organization in the following ways depending on your requirements.
 
--	**Advance Settings**: Use the **Advanced Settings** option to install and enable LinkedIn Sales Navigator for that organization that you have already signed in. To learn more, see [Install through Advanced Settings](#install-through-advanced-settings).
--	**AppSource**: Use the **LinkedIn Sales Navigator for Dynamics 365** AppSource page to install and enable LinkedIn Sales Navigator, if you are managing multiple organizations and enable it of an organization. To learn more, see [Install through AppSource page](#install-through-appsource-page).
+-	**Advance Settings**: Use the **Advanced Settings** option to install and enable LinkedIn Sales Navigator for that organization that you've already signed in. To learn more, see [Install through Advanced Settings](#install-through-advanced-settings).
+-	**AppSource**: Use the **LinkedIn Sales Navigator for Dynamics 365** AppSource page to install and enable LinkedIn Sales Navigator, if you're managing multiple organizations and enable it of an organization. To learn more, see [Install through AppSource page](#install-through-appsource-page).
 
 The following diagram illustrates the steps to install and enable LinkedIn Sales Navigator:
 
@@ -49,7 +49,7 @@ Review the following prerequisites to install and enable LinkedIn Sales Navigato
 
 - You have a [Microsoft Relationship Sales subscription](https://dynamics.microsoft.com/sales/relationship-sales/) for Dynamics 365   
     --OR--   
-    You will need to sign your team up for [LinkedIn Sales Navigator Team](https://business.linkedin.com/sales-solutions) or [LinkedIn Sales Navigator Enterprise](https://business.linkedin.com/sales-solutions).    
+    You will need to sign up your team for [LinkedIn Sales Navigator Team](https://business.linkedin.com/sales-solutions) or [LinkedIn Sales Navigator Enterprise](https://business.linkedin.com/sales-solutions).    
 
     We recommend having a Sales Navigator Administrator seat. To learn more, see the **Dynamics 365 Sales** section from [Microsoft Dynamics 365 License Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
@@ -82,7 +82,7 @@ Review the following prerequisites to install and enable LinkedIn Sales Navigato
 1.	Go to the [LinkedIn Sales Navigator for Dynamics 365](https://appsource.microsoft.com/product/dynamics-365/mscrm.5ba43194-adc5-4c13-b40d-af04f549d5da) AppSource page and select **GET IT NOW**.
 
     > [!div class="mx-imgBorder"]  
-    > ![LinkedIn Sales Navigator appsource page](media/appsource-select-getitnow.png "LinkedIn Sales Navigator appsource page")
+    > ![LinkedIn Sales Navigator AppSource page](media/appsource-select-getitnow.png "LinkedIn Sales Navigator appsource page")
  
 2.	Read the terms and conditions and select **Continue**.
 
@@ -94,7 +94,7 @@ Review the following prerequisites to install and enable LinkedIn Sales Navigato
 3.	Choose the organization from **Organization to add the application to** list, and accept Microsoft and Dynamics 365 legal terms and privacy statements.
 
     > [!div class="mx-imgBorder"]  
-    > ![Chosse your organization](media/d365-marketplace-select-org.png "Chosse your organization")
+    > ![Choose your organization](media/d365-marketplace-select-org.png "Choose your organization")
  
 4.	Select **Agree**. The Manage your solutions page open and you can verify the status of the installation.
 
@@ -151,7 +151,7 @@ The following procedure guides administrators to enable default controls for Lin
 
 ## Existing orgs that got updated with April 19 features
 
-In the [April 19 release](https://docs.microsoft.com/power-platform/admin/preview-october-2019-updates#when-will-the-2019-release-wave-2-features-be-enabled) we introduced changes to how the Sales Navigator controls are enabled.   
+In the April 19 release,](https://docs.microsoft.com/power-platform/admin/preview-october-2019-updates#when-will-the-2019-release-wave-2-features-be-enabled) we introduced changes to how the Sales Navigator controls are enabled.   
    
 Here are a few things to consider if you don't plan to enable the integration. 
    

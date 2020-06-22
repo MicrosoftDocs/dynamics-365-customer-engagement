@@ -14,7 +14,7 @@ manager: shujoshi
 
 # Uninstall LinkedIn Sales Navigator
 
-you can uninstall the LinkedIn Sales Navigator, if you don’t want to use the in your organization. To uninstall, you must delete the following solutions:
+you can uninstall the LinkedIn Sales Navigator, if you don’t want to use it in your organization. To uninstall, you must delete the following solutions:
 
 -	LinkedInSalesNavigatorControlsForUnifiedClient
 -	LinkedIn
@@ -52,7 +52,7 @@ Follow these steps:
 
     d.	Repeat the steps a to c for other dependencies.
 
-5.	After you have removed the all the dependencies, select **Delete**.
+5.	After you've removed the all the dependencies, select **Delete**.
     
     A confirmation message is displayed. 
 
