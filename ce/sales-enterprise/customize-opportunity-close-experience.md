@@ -24,7 +24,8 @@ System administrators or customizers can use the **Opportunity Close** quick cre
 -   Customization of Opportunity Close entity to add custom fields, including of type Lookup.
 
     > [!IMPORTANT]
-    > You can’t delete the out-of-the-box fields or customize the entity relationship.
+    > - You can’t delete the out-of-the-box fields or customize or delete the out-of-the-box entity relationships.
+    > - Creating an Opportunity Close record (for example, from a related entity record or from the Quick create menu) closes the related opportunity.
 
 -   Customization of Opportunity Close Quick Create form to capture details such as Profit Margin, Winning Product and so on,  when closing an opportunity.
 
