@@ -1,7 +1,7 @@
 ---
 title: "msdyn_ForecastApi custom action (Developer Guide for Dynamics 365 Sales)| MicrosoftDocs"
-description: ""
-ms.date: 06/22/2020
+description: "Read how you can use msdyn_ForecastApi custom action to retrieve and update forecasting data"
+ms.date: 06/23/2020
 ms.service: 
   - dynamics-365-sales
 ms.custom: 
@@ -224,7 +224,10 @@ Given below is the sample JSON for `RequestJson` object.
 {
    "@odata.context": "[Organization URI]/api/data/v9.1/$metadata#Microsoft.Dynamics.CRM.msdyn_ForecastApiResponse",
    "response": {
-      "ForecastInstances": [...],
+      "ForecastInstances": [
+          "ForecastInstanceId": "95d2305a-a0be-4b34-84ac-b10e67b0771a",
+          "ForecastConfigurationId": "04323a04-da7f-ea11-a811-000d3a37bb2c",
+            ...],
       "HasMorePages": false,
       "Code": 200,
       "Message": "OK"
