@@ -14,14 +14,14 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-## Overview
+## Roles in Omnichannel for Customer Service
 
 The Dynamics 365 users can access and perform different functions based on the roles that are assigned to them. The following roles can be assigned individually or in combination based on the tasks that need to be performed:
 
 - **Common Data Service User:** Required by all users of Omnichannel for Customer Service.
-- **Omnichannel administrator:** The administrator user also requires the **System Administrator** role to configure Omnichannel for Customer Service.
-- **Omnichannel supervisor:** The supervisor user also requires the **Customer service app access** role.
-- **Omnichannel agent:** The agent user also requires the **Customer service app access** role.
+- **Omnichannel administrator:**  Required for performing administrator tasks; also requires the **System Administrator** role to manage user roles and privileges in Omnichannel for Customer Service.
+- **Omnichannel supervisor:** Required for performing supervisor tasks.
+- **Omnichannel agent:** Required for performing agent tasks.
 - **Productivity tools user:** Required by users of Dynamics 365 Productivity Tools.
 - **Productivity tools administrator:** Required by administrator users of Dynamics 365 Productivity Tools.
 
@@ -39,23 +39,15 @@ Perform the following steps to assign roles to users in the **Advanced Settings*
 
 3. Select the user or users from the list for whom you want to assign a security role.
 
-4. Select **Manage Roles** in the menu.
+4. Select **Manage Roles** in the menu. The security roles available for the business unit are displayed.
 
-   Only the security roles available for that user's business unit are displayed.
-
-5. In the **Manage User Roles** dialog box, select a security role or roles that you want to provide to the user, and then select **OK**.
-
-<!--
-    > [!div class=mx-imgBorder]
-    > ![user roles](../media/user-roles.png)
--->
+5. In the **Manage User Roles** dialog box, select the security roles that you want to assign to the user, and then select **OK**.
 
 To view and manage users in omnichannel for Customer Service, see [Manage users in Omnichannel for Customer Service](users-user-profiles.md).
 
 ## Understand roles and their privileges
 
 Each role in Omnichannel for Customer Service can perform a set of actions based on the privileges that are listed as follows.
-
 
 | Privileges | Omnichannel administrator | Omnichannel supervisor| Omnichannel agent|Productivity tools user| Productivity tools administrator|
 |---------|---------|-----------|---------|---------|---------|
