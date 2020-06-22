@@ -75,7 +75,7 @@ Review the following prerequisites to install and enable LinkedIn Sales Navigato
 
 4. Verify that the installation is complete. To learn more, see [Validate the installation](#validate-the-installation).
 
-    When the installation is completed, select **Go to Configuration** and follow the steps below to [Enable the default Sales Navigator controls](#enable-the-default-sales-navigator-controls).
+    When the installation is completed, select **Go to Configuration** and follow the steps below to [Enable LinkedIn Sales Navigator](#enable-linkedin-sales-navigator).
 
 ## Install through AppSource page
 
@@ -103,7 +103,7 @@ Review the following prerequisites to install and enable LinkedIn Sales Navigato
  
 5. Verify that the installation is complete. To learn more, see [Validate the installation](#validate-the-installation).
 
-    When the installation is completed, select **Go to Configuration** and follow the steps below to [Enable the default Sales Navigator controls](#enable-the-default-sales-navigator-controls).
+    When the installation is completed, select **Go to Configuration** and follow the steps to [Enable LinkedIn Sales Navigator](#enable-linkedin-sales-navigator).
 
 ## Validate the installation
 
@@ -155,7 +155,7 @@ In the April 19 release,](https://docs.microsoft.com/power-platform/admin/previe
    
 Here are a few things to consider if you don't plan to enable the integration. 
    
-1. Three solutions related to the LinkedIn integration appear in the **All Solutions** view in **Settings** > **Customizations** > **Solutions**. Although these solutions are pre-installed, the functionality and data transfer between the two systems will be disabled unless you [enable the Sales Navigator controls](#enable-the-default-sales-navigator-controls). Additionally, **CRM Sync** needs to be explicitly enabled on the LinkedIn Sales Navigator Admin Settings. 
+1. Three solutions related to the LinkedIn integration appear in the **All Solutions** view in **Settings** > **Customizations** > **Solutions**. Although these solutions are pre-installed, the functionality and data transfer between the two systems will be disabled unless you [Enable LinkedIn Sales Navigator](#enable-linkedin-sales-navigator). Additionally, **CRM Sync** needs to be explicitly enabled on the LinkedIn Sales Navigator Admin Settings. 
 
    > [!div class="mx-imgBorder"] 
    > ![List of LinkedIn related solutions](media/solution-list.png)
