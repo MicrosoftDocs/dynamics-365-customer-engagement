@@ -118,6 +118,7 @@
 #### [Manage sales literature](../sales-enterprise/create-sales-literature.md)
 
 ### Quotes and order management
+#### [Sales transactions in Dynamics 365 Sales](../sales-enterprise/sales-transactions.md)
 #### [Create or edit quotes](../sales-enterprise/create-edit-quote-sales.md)
 #### [Create or edit orders](../sales-enterprise/create-edit-order-sales.md)
 #### [Create or edit invoices](../sales-enterprise/create-edit-invoice-sales.md)
