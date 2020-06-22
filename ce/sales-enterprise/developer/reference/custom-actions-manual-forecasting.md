@@ -1,7 +1,7 @@
 ---
 title: "Custom actions for manual forecasting (Developer Guide for Dynamics 365 Sales)| MicrosoftDocs"
 description: "Reference documentation for the custom actions of manual forecasting"
-ms.date: 06/15/2020
+ms.date: 06/22/2020
 ms.service: 
   - dynamics-365-sales
 ms.custom: 
@@ -20,8 +20,8 @@ search.app:
 
 The following actions are used for forecasting:
 
-- **msdyn_ForecastInstanceActions**: Retrieve forecast and snapshot data. For internal use only.<br />
-- **msdyn_ForecastConfigurations**: Returns the list of all for forecast configurations having the name provided as part of request payload.<br />
+- **msdyn_ForecastInstanceActions**: Retrieve forecast and snapshot data. **For internal use only.**<br />
+- **msdyn_ForecastConfigurations**: Returns the list of all for forecast configurations having the name provided as part of request payload. **For internal use only.**<br />
 - **msdyn_ForecastApi**: Enables you to perform various actions to retrieve and update forecasting configurations.<br />
 <!--
 - **msdyn_ForecastConfigurationsByName**: Returns the list of all for forecast configurations having the name provided as part of request payload. <br />

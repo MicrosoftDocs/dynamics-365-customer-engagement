@@ -1,7 +1,7 @@
 ---
 title: "msdyn_ForecastApi custom action (Developer Guide for Dynamics 365 Sales)| MicrosoftDocs"
 description: ""
-ms.date: 06/19/2020
+ms.date: 06/22/2020
 ms.service: 
   - dynamics-365-sales
 ms.custom: 
