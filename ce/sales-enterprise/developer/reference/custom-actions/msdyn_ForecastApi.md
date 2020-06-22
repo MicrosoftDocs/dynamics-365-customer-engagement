@@ -49,7 +49,7 @@ Content-Type: application/json
 |Parameter|Type|Description|
 |----|----|----|
 |`WebApiName`|String|Name of the API|
-|`RequestJson`|String|Empty|
+|`RequestJson`|JSON object|Empty|
 
 #### Response
 
@@ -58,7 +58,9 @@ Content-Type: application/json
    "@odata.context": "[Organization URI]/api/data/v9.1/$metadata#Microsoft.Dynamics.CRM.msdyn_ForecastApiResponse",
    "response": [
       {
-         "Columns": [...],
+         "Columns": [
+                        "ForecastConfigurationColumnId": "0ad51075-912b-4e00-a7a1-91170e437d27",
+                 ...],
          "PermissionRoles": null,
          "AdditionalFilters": "<fetch version=\"1.0\" mapping=\"logical\"><entity name=\"opportunity\"><\/entity><\/fetch>",
          "IsSnapshotScheduled": false,
@@ -77,7 +79,7 @@ List of Forecast Configurations.
 
 ### GET_ForecastConfigurationsByName 
 
-Returns the list of all for forecast configurations having the name provided as part of request payload.
+Returns all forecast configurations having the name provided as part of request payload.
 
 #### Example
 
@@ -93,7 +95,7 @@ Content-Type: application/json
 |Parameter|Type|Description|
 |-----|-----|-----|
 |`WebApiName`|String|Name of the API|
-|`RequestJson`|JSON object|Name of the forecast configuration|
+|`RequestJson`|JSON object|Consists of `Name`: name of the forecast configuration|
 
 #### Response
 
@@ -184,7 +186,14 @@ Content-Type: application/json
 
 {
     "WebApiName": "GET_ForecastInstances",
-    "RequestJson": "{\"Name\":\"api_test1\"}"
+    "RequestJson": "{
+    	\"ForecastPeriodId\":\"8b8cadd8-ede3-4b21-97cf-93efc0337089\",
+    	\"ForecastConfigurationId\":\"04323a04-da7f-ea11-a811-000d3a37bb2c\", 
+    	\"SortingAttribute\":\"HierarchyEntityRecord.RecordId\",
+    	\"SortingOrder\":\"DSC\",
+    	\"PageSize\":1,
+    	\"PageNo\":1
+    }"
 }
 ```
 |Parameter|Type|Description|
@@ -230,6 +239,9 @@ List of Forecast Periods.
 ### Update_SimpleColumnByEntityId
 
 Updates the specific column values using the values of the passed parameters.
+
+> [!NOTE]
+> Large number of update requests in a single API call can hurt performance, so the updates per request are capped at 50.  
 
 #### Example
 
