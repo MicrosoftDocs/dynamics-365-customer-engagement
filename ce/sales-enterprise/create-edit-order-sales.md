@@ -104,3 +104,4 @@ Congratulations! Your hard work nurturing your customer has paid off and they're
   
 ### See also  
 [Print quote, invoice, or other records](print-records.md)  
+[Sales transactions in Dynamics 365 Sales](sales-transactions.md)
