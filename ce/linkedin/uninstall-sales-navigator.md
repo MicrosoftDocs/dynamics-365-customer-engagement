@@ -14,56 +14,51 @@ manager: shujoshi
 
 # Uninstall LinkedIn Sales Navigator
 
-you can uninstall the LinkedIn Sales Navigator, if you don’t want to use it in your organization. To uninstall, you must delete the following solutions:
+You can uninstall LinkedIn Sales Navigator if you don't want to use it in your organization. To uninstall, you must delete the following solutions in the following order:
 
--	LinkedInSalesNavigatorControlsForUnifiedClient
--	LinkedIn
--	msdyn_LinkedInSalesNavigatorAnchor
+1. LinkedInSalesNavigatorControlsForUnifiedClient
+2. LinkedIn
+3. msdyn_LinkedInSalesNavigatorAnchor
 
->[!IMPORTANT]
->Uninstall the solutions in the following specified order only: **LinkedInSalesNavigatorControlsForUnifiedClient**, **LinkedIn**, and **msdyn_LinkedInSalesNavigatorAnchor**. 
+> [!IMPORTANT]
+> You must uninstall the solutions in the specified order.<!--note from editor: Suggested. I had to read this important note a few times to realize it was just repeating the first paragraph.-->
 
-Follow these steps:
+**To uninstall LinkedIn Sales Navigator**
 
-1.	In your app, select the **Settings** icon, and then select **Advanced Settings**.
+1. In your app, select **Settings** ![Settings](../sales-enterprise/media/settings-icon.png)<!--Via Writing Style Guide-->, and then select **Advanced Settings**.
 
     > [!div class="mx-imgBorder"]  
     > ![Advanced Settings link in the site map](../sales-enterprise/media/advanced-settings-option.png "Advanced Settings link in the site map")
 
-2.	Go to **Settings** > **Customizations** > **Solutions**.
+2. Go to **Settings** > **Customizations** > **Solutions**.
 
-3.	Select the **LinkedInSalesNavigatorControlsForUnifiedClient** solution.
+3. Select the **LinkedInSalesNavigatorControlsForUnifiedClient** solution.
 
-4.	Select **Show Dependencies** to verify if there are any dependencies for the solution. If dependencies exist, remove the dependencies, and proceed to delete. The following image is an example of dependency details:
+4. Select **Show Dependencies** to check whether there are any dependencies for the solution. If dependencies exist, you must remove them before you delete the solution. The following image shows an example of dependency details:
 
-    > [!div class="mx-imgBorder"]  
-    > ![View dependency details](media/solution-dependencies.png  "View dependency details")
- 
-    These dependencies occur due to LinkedIn controls in Account, Contact, Lead, or Opportunity forms. To remove the dependencies, follow these steps:
+   > [!div class="mx-imgBorder"]  
+   > ![View dependency details](media/solution-dependencies.png  "View dependency details")
 
-    a.	Open the form in form editor.
-    
-    b.	Select the **LinkedIn Sales Navigator** section and then select **Remove**.
-        
-      > [!div class="mx-imgBorder"]  
-      > ![Select section to remove](media/remove-linkedin-controls-form.png "Select section to remove")
- 
-    c.	Save and publish the form.
+   These dependencies exist because LinkedIn controls are included in Account, Contact, Lead, or Opportunity forms. To remove the dependencies, follow these steps:<!--note from editor: You need to use 1, 2, 3 numbering for nested ordered lists, even though it looks wrong in the Markdown. Otherwise, the steps won't be formatted properly with hanging indents. (See the Docs Contributor Guide at https://review.docs.microsoft.com/en-us/help/contribute/markdown-reference?branch=master#lists-numbered-bulleted-checklist)-->
 
-    d.	Repeat the steps a to c for other dependencies.
+    1. Open the form in the form editor.
 
-5.	After you've removed the all the dependencies, select **Delete**.
-    
-    A confirmation message is displayed. 
+    2. Select the **LinkedIn Sales Navigator** section, and then select **Remove**.
 
-6.	Select **OK**.
+       > [!div class="mx-imgBorder"]  
+       > ![Select the section to remove](media/remove-linkedin-controls-form.png "Select the section to remove")
 
-7.	Repeat the steps 3 to 6 for **LinkedIn** and **msdyn_LinkedInSalesNavigatorAnchor** solutions.
+    3. Save and publish the form.
 
-    The LinkedIn Sales Navigator is removed from your organization.
+    4. Repeat steps a through c for any other dependencies.
+
+5. After you've removed the all the dependencies, select **Delete**.
+
+6. Select **OK** in the confirmation message that appears.
+
+7. Repeat steps 3 through 6 for the **LinkedIn** and **msdyn_LinkedInSalesNavigatorAnchor** solutions.
 
 ### See also
 
-[Install and enable LinkedIn Sales Navigator](install-sales-navigator.md)
-
+[Install and enable LinkedIn Sales Navigator](install-sales-navigator.md)  
 [Disable LinkedIn Sales Navigator](disable-sales-navigator.md)
