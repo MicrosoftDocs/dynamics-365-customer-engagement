@@ -72,9 +72,11 @@ If you choose the non-portals option, then the setup wizard won't attempt to cla
 You can use portal features in parallel with website/CMS features provided you have a portal. You could, for example, start by using a portal for all interactive features and then slowly transition to an external website until you're ready to remove the portal entirely.
 
 > [!NOTE]
-> If have integrated Dynamics 365 Portals with your Dynamics 365 Marketing instance and the Portals suddenly stop working or disappear, the Portals trial license may have expired. If the Portals stop working, navigate to the Portals configuration and check if the Portals license is in an expired state.
+> If have integrated Dynamics 365 Portals with your Dynamics 365 Marketing instance and the Portals suddenly stop working or disappear, the Portals trial license may have expired. To determine whether this is the case: 
+> 1. Navigate to the [Power Apps Portals admin center](https://docs.microsoft.com/powerapps/maker/portals/admin/admin-overview).
+> 2. Go to the [Portal Details](https://docs.microsoft.com/powerapps/maker/portals/admin/admin-overview#add-yourself-as-an-owner-of-the-azure-ad-application) section and check if the Portals license is in an expired state.
 >
-> If the Portals are expired, you will need to purchase a paid license. You will then need to reset the Portals on the Marketing instance and re-provision.
+> If the Portals integration is expired, you will need to [purchase a paid license](https://docs.microsoft.com/powerapps/maker/portals/admin/admin-overview#add-yourself-as-an-owner-of-the-azure-ad-application). You will then need to [reset the Portals integration](uninstall-marketing.md#reset-any-dynamics-365-portals-connected-to-the-uninstalled-marketing-app) on the Marketing instance and re-provision.
 
 ## Remove portal integration from an existing Marketing instance
 
