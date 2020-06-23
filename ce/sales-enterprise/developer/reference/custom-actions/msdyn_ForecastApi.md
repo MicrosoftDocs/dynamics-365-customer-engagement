@@ -32,7 +32,7 @@ Given below are the set of APIs you can invoke using the `msdyn_ForecastApi` cus
 
 ### GET_ForecastConfigurations
 
-Returns all forecast configurations having the name that is provided as part of request payload.
+Returns the list of all for forecast configurations configured. 
 
 #### Example
 
@@ -44,7 +44,6 @@ Content-Type: application/json
     "WebApiName": "GET_ForecastConfigurations",
     "RequestJson": "{}"
 }
-
 ```
 |Parameter|Type|Description|
 |----|----|----|
