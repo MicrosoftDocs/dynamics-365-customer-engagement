@@ -101,7 +101,7 @@ To check the functionality on your target environment:
 
 ## Artifacts related to export and import
 
-For entity routing, follow the instructions to [Export and import your flows across environments with packaging](https://go.microsoft.com/fwlink/?linkid=2132475).
+For entity routing, follow the instructions to [Export and import your flows across environments with packaging](https://go.microsoft.com/fwlink/p/?linkid=2132475).
 
 ### See also
 
