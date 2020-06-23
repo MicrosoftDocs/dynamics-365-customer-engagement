@@ -17,7 +17,13 @@ Presence status indicates an agent's availability.
 
 A presence status consists of two elements:
 
-- **Base status**: The base presence status which indicates an agent's status. Work distribution system distributes work items to agents according to base statuses. There are five base statuses – **Available**, **Busy**, **Busy-DND**, **Away**, and **Offline**. The base statuses are available to be selected as **Allowed Presences** while creating a [work stream](work-streams-introduction.md).
+- **Base status**: The base presence status that indicates an agent's status. The work distribution system distributes work items to agents according to the base statuses that you can select as allowed presences at the time of creating a work stream. The base statuses are as follows:
+  - Available
+  - Busy
+  - Busy-DND
+  - Away
+  - Offline
+
 - **Presence text**: The text that is associated with a specific base status. This is the text that is visible to agents. 
 
 ## Out-of-the-box presence statuses
@@ -31,15 +37,7 @@ Omnichannel for Customer Service provides the following presence statuses out of
 - Inactive
 - Offline
 
-The inactive presence is not available for manual selection by the agents; if missed notifications is enabled, when agents miss the incoming conversation request notification, the agent status will be changed to inactive.
-
-The presence statuses must be associated with one of the following base statuses:
-
-- Available
-- Away
-- Busy
-- Busy - DND
-- Offline
+The inactive presence is not available for manual selection by the agents; if missed notifications is enabled, the agent status will be changed to inactive when agents do not respond to the incoming conversation request notification.
 
 > [!div class=mx-imgBorder]
 > ![Presence view](../media/oc-presence-view.png)
