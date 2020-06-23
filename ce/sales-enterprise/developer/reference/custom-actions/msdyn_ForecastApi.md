@@ -58,8 +58,15 @@ Content-Type: application/json
    "response": [
       {
          "Columns": [
+             {
                         "ForecastConfigurationColumnId": "0ad51075-912b-4e00-a7a1-91170e437d27",
-                 ...],
+                 ...
+             },
+             {
+                        "ForecastConfigurationColumnId": "c3ef8024-6517-4168-adc7-bb5b520554a0",
+                 ...
+               
+             }],
          "PermissionRoles": null,
          "AdditionalFilters": "<fetch version=\"1.0\" mapping=\"logical\"><entity name=\"opportunity\"><\/entity><\/fetch>",
          "IsSnapshotScheduled": false,
@@ -67,7 +74,7 @@ Content-Type: application/json
          "SnapshotTimeZone": null,
          "PublishedDateTime": "0001-01-01T00:00:00",
          "DefaultViewIdForUnderlyingRecords": "bf649add-6c30-ea11-a813-000d3a5475f7"
-      }        
+      }
    ]
 }
 ```
@@ -175,7 +182,7 @@ List of Forecast Periods.
 Returns the list of forecast instances that are a single row entity record.
 
 > [!NOTE]
-> Forecast periods can have many forecast instances far more than you would want to pull down in a single request. The API endpoints default to providing a limited number of items per request.<br />Note: Large queries can hurt performance, so the number of results per page is capped at 4000 records. If you wish to retrieve more than 4000 records, for example to build a client-side list of all available forecast instances, you can make multiple API requests and combine the results within your application.
+> Forecast periods can have many forecast instances. Far more than you would want to pull down in a single request. The API endpoints default to providing a limited number of items per request.<br />Note: Large queries can hurt performance, so the number of results per page is capped at 4000 records. If you wish to retrieve more than 4000 records, for example to build a client-side list of all available forecast instances, you can make multiple API requests and combine the results within your application.
 
 #### Example
 
