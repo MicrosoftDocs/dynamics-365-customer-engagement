@@ -10,7 +10,7 @@ ms.service:
 ms.topic: article
 ---
 
-# Manage notifications
+# Manage notification settings and templates
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
