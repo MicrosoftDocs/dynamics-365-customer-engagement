@@ -4,7 +4,7 @@ description: "Export and import Omnichannel Administration app data from a sourc
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 06/11/2020
+ms.date: 06/22/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -16,8 +16,8 @@ Now that you have used Omnichannel for Customer Service in a test environment, y
 
 To export and import your Omnichannel Administration app configuration data, install the following apps of the same version in both the source and target environments:
 
-- Omnichannel for Customer Service Administration app.
-- Any third-party solutions you plan to integrate, such as ScreenMeet.
+- Omnichannel for Customer Service Administration app
+- Any third-party solutions you plan to integrate
   
 > [!NOTE]
 > The following processes don't help with the export and import of users, so you must add them to the target environment after you have imported the configuration data.
@@ -101,7 +101,7 @@ To check the functionality on your target environment:
 
 ## Artifacts related to export and import
 
-For entity routing, follow the instructions to [Export and import your flows across environments with packaging](https://go.microsoft.com/fwlink/?linkid=2132475).
+For entity routing, follow the instructions to [Export and import your flows across environments with packaging](https://go.microsoft.com/fwlink/p/?linkid=2132475).
 
 ### See also
 
