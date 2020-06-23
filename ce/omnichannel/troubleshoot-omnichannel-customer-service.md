@@ -446,7 +446,7 @@ The issue might happen due to the following reasons:
 
 - Azure Active Directory consent is not available for Omnichannel for Customer Service app.
 - Agent doesn't have the Omnichannel agent role privileges.
-- Capacity and Default presence is not set.
+- Capacity and Default presence are not set.
 
 ### Resolution
 
