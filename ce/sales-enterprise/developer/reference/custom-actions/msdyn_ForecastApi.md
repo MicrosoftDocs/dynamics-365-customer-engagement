@@ -32,7 +32,7 @@ Given below are the set of APIs you can invoke using the `msdyn_ForecastApi` cus
 
 ### GET_ForecastConfigurations
 
-Returns the list of all for forecast configurations configured. 
+Returns the list of all forecast configurations configured. 
 
 #### Example
 
