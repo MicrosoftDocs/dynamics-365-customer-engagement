@@ -1,8 +1,8 @@
 ---
-title: "Field Service Version History | MicrosoftDocs"
+title: "Field Service version history | MicrosoftDocs"
 ms.custom:
   - dyn365-fieldservice
-ms.date: 06/08/2020
+ms.date: 06/23/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -70,13 +70,13 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 (Includes Universal Resource Scheduling version [3.12.23.26](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#3122326))
 
-- Corrected a null reference error based on Work Order Product form customizations to better handle when certain fields are removed from the form.
-- Resolved an issue with the Incident Type Duration Suggestions feature which produced an error when a user clicked “Recalculate Suggestions” for large query results.
-- Fixed an issue with Agreement update which produced a "Nullable object must have a value" error on updating End Date of an Agreement whose End Date is null.
-- Removed the following BPFs from the Field Service Mobile app module: Case to Work Order, Lead to Opportunity Sales, Opportunity Sales, Phone to Case.
-- Improved logic to allow for customizations on Work Order creation from an Agreement if there are customizations in place to automatically create additional Resource Requirement records.
-- Improved Field Service’s Missing Form Libraries rule in Solution Health Hub to improve the rule description.
-- Enhanced logic to in the Opportunity Quick Create form to respect scenarios when an environment sets the “Account” field as Business Required to ensure that Field Service form logic does not set the field as optional.
+- Corrected a null reference error based on work order product form customizations to better handle when certain fields are removed from the form.
+- Resolved an issue with the incident type duration suggestions feature that produced an error when a user clicked “Recalculate Suggestions” for large query results.
+- Fixed an issue with agreement update which produced a "Nullable object must have a value" error on updating end date of an agreement whose end date is null.
+- Removed the following BPFs from the Field Service Mobile app module: case to work order, lead to opportunity sales, opportunity sales, phone to case.
+- Improved logic to allow for customizations on work order creation from an agreement if there are customizations in place to automatically create additional resource requirement records.
+- Improved Field Service’s missing form libraries rule in Solution Health Hub to improve the rule description.
+- Enhanced logic to in the opportunity quick create form to respect scenarios when an environment sets the “Account” field as business required to ensure that Field Service form logic does not set the field as optional.
 
 ## 8.8.23.85
 
