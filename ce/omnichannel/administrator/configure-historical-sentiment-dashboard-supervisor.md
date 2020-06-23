@@ -59,7 +59,7 @@ Review the following prerequisites before configuring the dashboard:
 
 1. Sign in to the [Power BI](https://app.powerbi.com/) app as an administrator.
 2. As a Power BI administrator, open the [Omnichannel Insights for Dynamics 365](https://aka.ms/d365-oc-insights) app page.
-3. If you've enabled the preview feature [Preview: Sentiment drivers reporting](enable-sentiment-analysis.md#preview-sentiment-drivers-reporting) in real-time sentiment analysis, go to the [download template app](https://go.microsoft.com/fwlink/?linkid=2124573) to install the template app.
+3. If you've enabled the preview feature [Preview: Sentiment drivers reporting](enable-sentiment-analysis.md#preview-sentiment-drivers-reporting) in real-time sentiment analysis, go to the [download template app](https://go.microsoft.com/fwlink/p/?linkid=2124573) to install the template app.
 
    > [!IMPORTANT]
    > The **Install template apps not listed in AppSource** in **Tenant settings** should be enabled by your administrator in the Power BI admin portal.
