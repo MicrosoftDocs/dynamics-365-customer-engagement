@@ -4,7 +4,7 @@ description: "Learn about notifications and their types. Agents will see notific
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/10/2020
+ms.date: 06/23/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -85,6 +85,21 @@ The identification of a customer happens based on the **Mobile Phone** field pre
  > ![Incoming SMS notification](../../media/oceh/sms-notification-request.png "Incoming SMS notification")
 
 The details you'll see for a SMS channel are as configured by your administrator.
+
+## Preview: Handling missed notification alerts
+
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
+> [!IMPORTANT]
+>
+> The alert is displayed only when the missed notifications feature is enabled by your administrator.
+
+When you do not respond to an incoming conversation notification, you will see an alert at the top of your dashboard, and your presence status will be set to inactive. You can respond to the alert or change your status. Your presence will be reset to the status that was last defined by the system. You will not be assigned new tasks till your presence is reset. Your supervisor also can reset your presence.
+
+ > [!div class=mx-imgBorder]
+ > ![Missed notification alert](../../media/agent-missed-notification.png "Missed notification alert")
 
 ## Notification time-out and rerouting of conversations
 

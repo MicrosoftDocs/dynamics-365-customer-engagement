@@ -4,7 +4,7 @@ description: "Learn about the intraday insights dashboard for supervisors"
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 05/22/2020
+ms.date: 06/23/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -100,9 +100,9 @@ This section of the dashboard consists of the following KPIs:
 | KPI | Description |
 |-------|-------|
 | Agent name | A list of the agent names for the queue. |
-| Presence | The presence of the agent(s), either available or offline. |
+| Presence | The presence of the agents, either available or offline. You can reset the presence of an agent through the dashboard. The new presence becomes effective after 30 seconds. |
 | Available capacity | The available capacity for the agent(s). | 
-| Total capacity | The total amount of capacity for the agent(s). | 
+| Total capacity | The total amount of capacity for the agents. | 
 | Ongoing Conversations | The number of conversations that are in progress. |
 | Avg handle time (min) | The average conversation handle time, in minutes. |
 

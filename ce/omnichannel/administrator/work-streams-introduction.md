@@ -69,7 +69,7 @@ Follow these steps to create a new work stream in Omnichannel for Customer Servi
 
          In **Pick** mode, a conversation is dispatched to agents when they explicitly pick a conversation from the **Open work items** in the agent dashboard.
 
-      2. Select **Allowed Presences** from the drop-down list. For more information, see [Configure and manage custom presence](presence-custom-presence.md).
+      2. Select **Allowed Presences** from the drop-down list. If you have enabled missed notifications, do not select away as an allowed presence. For information, see [Configure and manage custom presence](presence-custom-presence.md).
 
           > [!div class=mx-imgBorder] 
           > ![New work stream](../media/omni-channel-new-work-stream.png)

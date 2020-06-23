@@ -31,11 +31,21 @@ Omnichannel for Customer Service provides the following presence statuses out of
 - Inactive
 - Offline
 
+The inactive presence is not available for manual selection by the agents; if missed notifications is enabled, when agents miss the incoming conversation request notification, the agent status will be changed to inactive.
+
+The presence statuses must be associated with one of the following base statuses:
+
+- Available
+- Away
+- Busy
+- Busy - DND
+- Offline
+
 > [!div class=mx-imgBorder]
 > ![Presence view](../media/oc-presence-view.png)
 
 > [!NOTE]
-> You cannot edit or delete the out-of-the-box presence statuses.
+> You cannot edit or delete the out-of-the-box presence or base statuses.
 
 ## Create custom presence status
 
