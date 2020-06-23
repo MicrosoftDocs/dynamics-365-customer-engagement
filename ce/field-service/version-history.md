@@ -1,5 +1,5 @@
 ---
-title: "Field Service version hHistory | MicrosoftDocs"
+title: "Field Service version history | MicrosoftDocs"
 ms.custom:
   - dyn365-fieldservice
 ms.date: 06/23/2020
