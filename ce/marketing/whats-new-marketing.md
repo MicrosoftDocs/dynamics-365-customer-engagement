@@ -72,7 +72,7 @@ The Dynamics 365 Marketing June 2020 update includes several feature enhancement
     - Fixed an error that caused color picker colors to sometimes not apply correctly to text.
     - Resolved an issue where the cursor disappeared when adding an anchor name.
     - Improved rendering of email template dividers in Outlook.
-    - Fixed an error where that caused URL links on images to not save properly in the email designer.
+    - Fixed an error that caused URL links on images to not save properly in the email designer.
     - Added descriptive error notifications for dynamic content in marketing emails.
 - **Marketing forms**
     - Resolved an issue where custom registration fields were sometimes not propagated to event management client services.
