@@ -1,10 +1,10 @@
 ---
 title: "Agents using Omnichannel for Customer Service app | MicrosoftDocs"
 description: "Learn about the Omnichannel for Customer Service app"
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
+ms.date: 06/18/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -17,12 +17,12 @@ ms.topic: article
 ## Overview
 
 The Omnichannel for Customer Service application on a web browser provides a unified and consistent single-view experience for the agents to view conversation details, Customer information, and access Line-of-Business applications from within the Omnichannel for Customer Service app. 
-As an agent, you can use the app to manage the work items assigned, simultaneous customer sessions without losing the context of each session. You view the holistic data of the customer with the details of their previous interaction, which ensures you have all the available information to resolve the customer issue. 
+As an agent, you can use the app to manage the work items assigned, simultaneous customer sessions without losing the context of each session. You view the holistic data of the customer with the details of their previous interaction, which ensures you have all the available information to resolve the customer issue.
 
 > [!Note]
 > - The omnichannel provisioning provides the Omnichannel for Customer Service app and is available to the users working with Chat for Dynamics and SMS.
-> 
 > - As of now, administrators or system cutomizers can't integrate third-party channels with Omnichannel for Customer Service app.
+> - [!INCLUDE[cc-cookies-in-omnichannel](../../../includes/cc-cookies-in-omnichannel.md)]
 
 ## In this section
 
@@ -39,7 +39,6 @@ Use the resources in the following sections to learn how to use Omnichannel for 
 - [View customer summary](oc-customer-summary.md)
 - [Search for and share knowledge articles](oc-search-knowledge-articles.md)
 - [View conversation and session activity types in the model-driven apps](oc-view-activity-types.md)
-
 
 ## How-tos
 
