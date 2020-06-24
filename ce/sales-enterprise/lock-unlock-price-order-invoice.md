@@ -14,7 +14,7 @@ manager: annbe
 
 To determine whether your order or invoice is using Prices Locked, see the Prices Locked field on Order or Invoice form. If the Prices Locked field is set to **No**, **Use Current Pricing**
 is enabled.
-Note that this field is read-only. 
+This field is read-only. 
 
 To lock prices or to use current pricing:
 
