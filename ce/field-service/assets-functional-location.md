@@ -28,8 +28,14 @@ search.app:
 
 # Functional location of assets and work orders
 
+A funcitonal location is
+
+
 // https://msit.microsoftstream.com/video/9ec8a3ff-0400-a936-c3da-f1eaab7ee13c?channelId=0bf6f71a-b361-4d7b-9668-62ff5207b60d
 
+A functional location provides more clarity for locations within a service account, locations of assets, locations where work orders need to be performed and thus where technicians need to travel to.
+
+A functional location is hierarchichal meaning --- as an example room 1 is in building a which is in campus 2
 
 ## Prerequisites
 
@@ -37,8 +43,6 @@ search.app:
 - generally available October 1st 2020 
 - Field Service v8.8.x (will know exact number closer to Aug 1)
 
-> [!Note]
->
 
 
 
@@ -61,6 +65,10 @@ assets-functional-location-tree
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/.png)
 
+assets-functional-location-address
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
 
 
 ## Create or add assets to the functional location tree
@@ -73,7 +81,17 @@ assets-functional-location-tree-edit
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/.png)
 
+> [!Note]
+> You cannot drag a sub asset to a functional location different from the parent asset's functional location.
+
+
 ## Use functional location for work orders
+
+Add a functional location
+
+Add a customer asset
+
+Add multiple functional locations to a single work order
 
 ## Use functional location for cases
 
