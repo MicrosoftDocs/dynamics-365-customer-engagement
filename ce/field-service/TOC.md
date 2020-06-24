@@ -109,15 +109,18 @@
 
 
 # Agreements and preventive maintenance
-## [Customer agreements](set-up-customer-agreements.md)
+## [Agreements](set-up-customer-agreements.md)
 ## [Service level agreements](sla-work-orders.md)
 ## [Agreement sub-statuses](set-up-agreement-sub-statuses.md)
 ## [Entitlements](work-order-entitlements.md)
 
-# Assets, inventory, and purchasing
-## [Overview](inventory-purchasing-returns-overview.md)
+# Asset management
 ## [Customer assets](configure-set-up-customer-assets.md)
+## [Functional location](assets-functional-location.md)
 ## [3D asset models](3D-viewer.md)
+
+# Inventory and purchasing
+## [Overview](inventory-purchasing-returns-overview.md)
 ## [Warehouses](create-warehouse.md)
 ## [Create a purchase order](create-purchase-order.md)
 ## [Process a return](process-return.md)
