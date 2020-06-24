@@ -38,7 +38,7 @@ The process for adding a product to a quote record is the same as adding a produ
 
         - To create a product, select **Write-In**, and then enter the name of the product.
           > [!NOTE]
-          > If the **Prices Locked** field on the Invoice form is set to **Yes**, then you won't be able to add write-in products because prices of write-in products are considered as overridden. To be able to add write-in products, make sure that the **Price Locked** field is set to **No**. More information: [Lock or unlock prices of an invoice](create-invoices.md#lock-or-unlock-prices-of-an-invoice), [Sales transactions in Dynamics 365 Sales Professional](understanding-sales-transactions-sales-professional)  
+          > If the **Prices Locked** field on the Invoice form is set to **Yes**, then you won't be able to add write-in products because prices of write-in products are considered as overridden. To be able to add write-in products, make sure that the **Price Locked** field is set to **No**. More information: [Lock or unlock prices of an invoice](create-invoices.md#lock-or-unlock-prices-of-an-invoice), [Sales transactions in Dynamics 365 Sales Professional](understanding-sales-transactions-sales-professional.md)  
 
     2.	Fill in details in the **Pricing** section:
 
