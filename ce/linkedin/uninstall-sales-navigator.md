@@ -47,7 +47,7 @@ You can uninstall LinkedIn Sales Navigator if you don't want to use it in your o
 
     3. Save and publish the form.
 
-    4. Repeat steps 1 through 3 for any other dependencies.
+    4. Repeat steps a through c for any other dependencies.
 
 5. After you've removed the all the dependencies, select **Delete**.
 
