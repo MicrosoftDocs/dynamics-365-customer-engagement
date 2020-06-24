@@ -97,9 +97,7 @@ To configure other options in the work stream, see the following:
 
 ## Step 4: Create a custom messaging account
 
-
 After you create a work stream for a custom channel, you need to create a custom channel with the details of the **Microsoft app ID** and **Client secret** that you retrieved while registering your messaging channel in Azure Bot Service.
-
 
 To create a custom channel, follow these steps:
 
@@ -161,6 +159,9 @@ To create a custom channel, follow these steps:
     > [!div class=mx-imgBorder]
     > ![Create a custom channel](../media/custom-channel-4.png "Create a custom channel")
 
+## Test your channel 
+
+For more information, see the developer guide, [Bring your own custom messaging channel: Sample HTML](../developer/how-to/bring-your-own-channel-sample-html.md).
 
 ## Bring channels using Direct Line 
 
