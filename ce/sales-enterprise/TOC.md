@@ -39,7 +39,7 @@
 #### [Revise products](../sales-enterprise/revise-product.md)
 #### [Clone products](../sales-enterprise/clone-product.md)  
 #### [Retire products](../sales-enterprise/retire-product.md)
-#### [Delete a family, product or bundle](../sales-enterprise/delete-family-product-bundle.md)
+#### [Delete a family, product, or bundle](../sales-enterprise/delete-family-product-bundle.md)
 #### [See relationships in a hierarchical view](../basics/hierarchical-relationship.md)
 #### [Add editable products grid on forms](../sales-enterprise/editable-product-grid-forms.md) 
 
