@@ -73,7 +73,11 @@ assets-functional-location-tree-edit
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/.png)
 
+## Use functional location for work orders
 
+## Use functional location for cases
+
+## Use functional location for agreements
 
 ## Configuration considerations
 // use question &answer part of video
