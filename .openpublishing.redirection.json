@@ -17920,6 +17920,11 @@
       "source_path": "ce/customer-service/install-routing-rules-preview-solution.md",
       "redirect_url": "create-rules-automatically-route-cases",
       "redirect_document_id": false
+    },
+    {  
+      "source_path": "ce/sales-professional/create-orders.md",
+      "redirect_url": "create-invoices",
+      "redirect_document_id": false
     }
   ]
 }

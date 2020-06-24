@@ -2,7 +2,7 @@
 title: "Troubleshoot Microsoft Teams integration| MicrosoftDocs"
 ms.custom: 
 description: "Troubleshoot issues with Microsoft Teams integration."
-ms.date: 6/03/20
+ms.date: 6/22/20
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -195,6 +195,13 @@ You need to be a member of the connected team channel to view files. Contact the
    > ![Select document location](media/teams-select-document-location.png "Select document location")
 
 ## Known issues
+
+### Authentication issue in Teams when you have embedded apps within Dynamics 365
+
+You may get an authentication failure when you open a pinned Dynamics 365 tab in Teams desktop client that has apps, such as PowerBI, LinkedIn Navigation widget, or KnowledgeBase Control enabled. 
+
+To work around this issue, open Teams on the web and close the desktop version. 
+
 
 ### Error while creating a team or channel. The property is missing a required prefix/suffix per your organization's Group naming requirements. 
 

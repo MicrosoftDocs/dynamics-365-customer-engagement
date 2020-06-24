@@ -92,6 +92,7 @@ This list identifies all services to which Dynamics 365 for Phones and Tablets t
 | management.azure.com |https |Between version 13.19022.10 and 13.19081.22, used to fetch the list of apps to populate the app list. |
 | api.businessappdiscovery.microsoft.com |https |Starting with version 13.19091.0, used to fetch the list of apps to populate the app list. |
 
+
   
 ### Security privileges  
  Both Common Data Service and Dynamics 365 Customer Engagement (on-premises) use a security privilege, **Dynamics 365 apps for mobile**, to provides access to [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. This privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams. For more information on how to share apps in Common Data Service, see [Share a model-driven app using Power Apps](https://docs.microsoft.com/powerapps/maker/model-driven-apps/share-model-driven-app).
