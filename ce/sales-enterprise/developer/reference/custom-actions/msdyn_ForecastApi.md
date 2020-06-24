@@ -1,7 +1,7 @@
 ---
 title: "msdyn_ForecastApi custom action (Developer Guide for Dynamics 365 Sales)| MicrosoftDocs"
 description: "Read how you can use msdyn_ForecastApi custom action to retrieve and update forecasting data"
-ms.date: 06/23/2020
+ms.date: 06/24/2020
 ms.service: 
   - dynamics-365-sales
 ms.custom: 
@@ -32,7 +32,7 @@ Given below are the set of APIs you can invoke using the `msdyn_ForecastApi` cus
 
 ### GET_ForecastConfigurations
 
-Returns all forecast configurations having the name that is provided as part of request payload.
+Returns the list of all forecast configurations configured. 
 
 #### Example
 
@@ -44,7 +44,6 @@ Content-Type: application/json
     "WebApiName": "GET_ForecastConfigurations",
     "RequestJson": "{}"
 }
-
 ```
 |Parameter|Type|Description|
 |----|----|----|
@@ -59,8 +58,19 @@ Content-Type: application/json
    "response": [
       {
          "Columns": [
+             {
                         "ForecastConfigurationColumnId": "0ad51075-912b-4e00-a7a1-91170e437d27",
-                 ...],
+                        ...
+                        "ForecastConfigurationId": "27bd2c40-f868-ea11-a811-000d3a37bb2c",
+                        ...
+             },
+             {
+                        "ForecastConfigurationColumnId": "c3ef8024-6517-4168-adc7-bb5b520554a0",
+                        ...
+                        "ForecastConfigurationId": "27bd2c40-f868-ea11-a812-125d3a37bb2d",
+                        ...
+               
+             }],
          "PermissionRoles": null,
          "AdditionalFilters": "<fetch version=\"1.0\" mapping=\"logical\"><entity name=\"opportunity\"><\/entity><\/fetch>",
          "IsSnapshotScheduled": false,
@@ -68,7 +78,7 @@ Content-Type: application/json
          "SnapshotTimeZone": null,
          "PublishedDateTime": "0001-01-01T00:00:00",
          "DefaultViewIdForUnderlyingRecords": "bf649add-6c30-ea11-a813-000d3a5475f7"
-      }        
+      }
    ]
 }
 ```
@@ -104,7 +114,14 @@ Content-Type: application/json
    "@odata.context": "[Organization URI]/api/data/v9.1/$metadata#Microsoft.Dynamics.CRM.msdyn_ForecastApiResponse",
    "response": [
       {
-         "Columns": [...],
+         "Columns": [
+             {
+                 "Name": "api_test1",
+                 ...
+                 "ForecastConfigurationId": "bcf37937-487e-ea11-a811-000d3a37bb2c",
+                 ...
+             }
+         ],
          "PermissionRoles": null,
          "AdditionalFilters": "<fetch version=\"1.0\" mapping=\"logical\"><entity name=\"opportunity\"><\/entity><\/fetch>",
          "IsSnapshotScheduled": false,
@@ -133,7 +150,9 @@ Content-Type: application/json
 
 {
   "WebApiName": "GET_ForecastPeriodsByForecastConfigurationId",
-  "RequestJson": "{\"ForecastConfigurationId\":\"04323a04-da7f-ea11-a811-000d3a37bb2c\"}"
+  "RequestJson": "{
+      \"ForecastConfigurationId\":\"04323a04-da7f-ea11-a811-000d3a37bb2c\"
+      }"
 }
 ```
 
@@ -176,7 +195,7 @@ List of Forecast Periods.
 Returns the list of forecast instances that are a single row entity record.
 
 > [!NOTE]
-> Forecast periods can have many forecast instances far more than you would want to pull down in a single request. The API endpoints default to providing a limited number of items per request.<br />Note: Large queries can hurt performance, so the number of results per page is capped at 4000 records. If you wish to retrieve more than 4000 records, for example to build a client-side list of all available forecast instances, you can make multiple API requests and combine the results within your application.
+> Forecast periods can have many forecast instances. Far more than you would want to pull down in a single request. The API endpoints default to providing a limited number of items per request.<br />Note: Large queries can hurt performance, so the number of results per page is capped at 4000 records. If you wish to retrieve more than 4000 records, for example to build a client-side list of all available forecast instances, you can make multiple API requests and combine the results within your application.
 
 #### Example
 
@@ -255,7 +274,18 @@ content-type: application/json
 {
     "WebApiName": "Update_ SimpleColumnByEntityId",
     "RequestJson": "
-    {\"ForecastConfigurationId\":\"0461fb6b-8d85-ea11-a811-000d3a37bb2c\",\"ForecastRecurranceId\":\"f8b1122c-b913-4e88-9727-368b6134be3e\",\"SimpleColumnUpdateRequests\":[{\" HierarchyEntityRecordId\":\"d8680b00-fd31-46c2-8136-7c4df19cf2a8\",\"ForecastConfigurationColumnId\":\"65ec7bd1-2de6-49fa-b259-ba74bc721c78\",\"ForecastConfigurationColumnValue\":0.0,\"IsRolledUpColumnUpdate\":false},{\" HierarchyEntityRecordId\":\"11141300-131b-493a-9857-22bd8689b775\",\"ForecastConfigurationColumnId\":\"65ec7bd1-2de6-49fa-b259-ba74bc721c78\",\"ForecastConfigurationColumnValue\":0.0,\"IsRolledUpColumnUpdate\":false}]}"
+    {
+      \"ForecastConfigurationId\":\"0461fb6b-8d85-ea11-a811-000d3a37bb2c\",
+      \"ForecastRecurranceId\":\"f8b1122c-b913-4e88-9727-368b6134be3e\",
+      \"SimpleColumnUpdateRequests\":[{
+        \" HierarchyEntityRecordId\":\"d8680b00-fd31-46c2-8136-7c4df19cf2a8\",
+        \"ForecastConfigurationColumnId\":\"65ec7bd1-2de6-49fa-b259-ba74bc721c78\",
+        \"ForecastConfigurationColumnValue\":0.0,
+        \"IsRolledUpColumnUpdate\":false},{
+        \" HierarchyEntityRecordId\":\"11141300-131b-493a-9857-22bd8689b775\",
+        \"ForecastConfigurationColumnId\":\"65ec7bd1-2de6-49fa-b259-ba74bc721c78\",
+        \"ForecastConfigurationColumnValue\":0.0,
+        \"IsRolledUpColumnUpdate\":false}]}"
 }
 ```
 |Parameter|Name|Description|
@@ -310,7 +340,20 @@ content-type: application/json
 {
     "WebApiName": "Update_SimpleColumnByFIId",
     "RequestJson": "
-    {\"ForecastConfigurationId\":\"0461fb6b-8d85-ea11-a811-000d3a37bb2c\",\"ForecastRecurranceId\":\"f8b1122c-b913-4e88-9727-368b6134be3e\",\"SimpleColumnUpdateRequests\":[{\"ForecastInstanceId\":\"d8680b00-fd31-46c2-8136-7c4df19cf2a8\",\"ForecastConfigurationColumnId\":\"65ec7bd1-2de6-49fa-b259-ba74bc721c78\",\"ForecastConfigurationColumnValue\":0.0,\"IsRolledUpColumnUpdate\":false},{\"ForecastInstanceId\":\"11141300-131b-493a-9857-22bd8689b775\",\"ForecastConfigurationColumnId\":\"65ec7bd1-2de6-49fa-b259-ba74bc721c78\",\"ForecastConfigurationColumnValue\":0.0,\"IsRolledUpColumnUpdate\":false}]}"
+    {
+      \"ForecastConfigurationId\":\"0461fb6b-8d85-ea11-a811-000d3a37bb2c\",
+      \"ForecastRecurranceId\":\"f8b1122c-b913-4e88-9727-368b6134be3e\",
+      \"SimpleColumnUpdateRequests\":[
+      {
+        \"ForecastInstanceId\":\"d8680b00-fd31-46c2-8136-7c4df19cf2a8\",
+        \"ForecastConfigurationColumnId\":\"65ec7bd1-2de6-49fa-b259-ba74bc721c78\",
+        \"ForecastConfigurationColumnValue\":0.0,
+        \"IsRolledUpColumnUpdate\":false},
+        {
+          \"ForecastInstanceId\":\"11141300-131b-493a-9857-22bd8689b775\",
+          \"ForecastConfigurationColumnId\":\"65ec7bd1-2de6-49fa-b259-ba74bc721c78\",
+          \"ForecastConfigurationColumnValue\":0.0,
+          \"IsRolledUpColumnUpdate\":false}]}"
 }
 ```
 |Parameter|Type|Description|

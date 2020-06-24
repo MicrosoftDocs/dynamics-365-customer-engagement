@@ -39,7 +39,7 @@
 #### [Revise products](../sales-enterprise/revise-product.md)
 #### [Clone products](../sales-enterprise/clone-product.md)  
 #### [Retire products](../sales-enterprise/retire-product.md)
-#### [Delete a family, product or bundle](../sales-enterprise/delete-family-product-bundle.md)
+#### [Delete a family, product, or bundle](../sales-enterprise/delete-family-product-bundle.md)
 #### [See relationships in a hierarchical view](../basics/hierarchical-relationship.md)
 #### [Add editable products grid on forms](../sales-enterprise/editable-product-grid-forms.md) 
 
@@ -118,6 +118,8 @@
 #### [Manage sales literature](../sales-enterprise/create-sales-literature.md)
 
 ### Quotes and order management
+#### [Sales transactions in Dynamics 365 Sales](../sales-enterprise/sales-transactions.md)
+#### [Lock or unlock prices for an order or invoice](lock-unlock-price-order-invoice.md)
 #### [Create or edit quotes](../sales-enterprise/create-edit-quote-sales.md)
 #### [Create or edit orders](../sales-enterprise/create-edit-order-sales.md)
 #### [Create or edit invoices](../sales-enterprise/create-edit-invoice-sales.md)
