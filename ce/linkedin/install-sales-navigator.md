@@ -156,7 +156,7 @@ In the [April 19 release](https://docs.microsoft.com/power-platform/admin/previe
    > [!div class="mx-imgBorder"] 
    > ![Visibility settings in tab properties](media/visibility-settings.jpg)
 
-- While using **Advanced Find**, users see the new entities introduced by these solutions (InMails, Messages, and PointDrive Presentation Viewed) even if the integration wasn't enabled. This is the intended behavior; users can ignore these entities if they aren't actively using LinkedIn Sales Navigator.
+- While using **Advanced Find**, users see the new entities introduced by these solutions (InMails, Messages, and Smart Links) even if the integration wasn't enabled. This is the intended behavior; users can ignore these entities if they aren't actively using LinkedIn Sales Navigator.
 
 ### See also
 
