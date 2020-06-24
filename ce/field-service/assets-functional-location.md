@@ -40,14 +40,47 @@ search.app:
 > [!Note]
 >
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+
 
 ## Create a service account
 
+assets-functional-location-account
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+
+
+
 ## Create functional location tree
+
+assets-functional-location-new-location
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+assets-functional-location-tree
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+
 
 ## Create or add assets to the functional location tree
 
+assets-functional-location-tree-show-assets
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+assets-functional-location-tree-edit
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+
+
 ## Configuration considerations
+// use question &answer part of video
+
+### multiple accounts can be associated to a functional location tree
+
+### Mobile
+
 ## Additional Notes
+// use question &answer part of video
