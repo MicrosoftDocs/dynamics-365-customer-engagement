@@ -41,10 +41,10 @@ For more information, refer to [Dynamics 365 Channel Integration Framework versi
 ### Other messaging channels
 You can deeply integrate a messaging channel into Omnichannel such that it behaves as a first party integration and can leverage all native Omnichannel services. These services include routing, assignment, and integration with CDS data for linking customer records, cases, and so on. This functionality leverages the Azure Bot framework upon which all out of the box, third party messaging channels are integrated.
 
-For more information, refer to [Bring your own custom messaging channel](https://docs.microsoft.com/dynamics365/omnichannel/developer/how-to/bring-your-own-channel).
+For more information, refer to [Bring your own custom messaging channel: Direct Line bot](https://docs.microsoft.com/dynamics365/omnichannel/developer/how-to/bring-your-own-channel).
 
 
 ## See also 
 
-[Bring your own custom messaging channel](https://docs.microsoft.com/dynamics365/omnichannel/developer/how-to/bring-your-own-channel)
+[Bring your own custom messaging channel: Direct Line bot](https://docs.microsoft.com/dynamics365/omnichannel/developer/how-to/bring-your-own-channel)
 [Configure a custom messaging channel](https://docs.microsoft.com/dynamics365/omnichannel/administrator/configure-custom-channel)
