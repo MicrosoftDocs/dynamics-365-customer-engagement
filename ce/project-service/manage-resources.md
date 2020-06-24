@@ -244,7 +244,7 @@ The following statuses are included in PSA:
 
 ### Submit resource requests
 
-Resource requests are used to carry the demand (resource requirement) that must be fulfilled by a resource manager. For a generic resource thta is already on the team, you can submit a resource request directly. A resource request can be fulfilled in two ways:
+Resource requests are used to carry the demand (resource requirement) that must be fulfilled by a resource manager. For a generic resource that is already on the team, you can submit a resource request directly. A resource request can be fulfilled in two ways:
 
 - The resource manager directly fulfills the request. In this case, the generic resource is replaced by a hard booking that has a named resource.
 - The resource manager proposes a resource to the project manager, and the project manager approves or rejects the proposed resource.
