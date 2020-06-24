@@ -20,12 +20,9 @@ You can uninstall LinkedIn Sales Navigator if you don't want to use it in your o
 2. LinkedIn
 3. msdyn_LinkedInSalesNavigatorAnchor
 
-> [!IMPORTANT]
-> You must uninstall the solutions in the specified order.<!--note from editor: Suggested. I had to read this important note a few times to realize it was just repeating the first paragraph.-->
-
 **To uninstall LinkedIn Sales Navigator**
 
-1. In your app, select **Settings** ![Settings](../sales-enterprise/media/settings-icon.png)<!--Via Writing Style Guide-->, and then select **Advanced Settings**.
+1. In your app, select **Settings** ![Settings](../sales-enterprise/media/settings-icon.png), and then select **Advanced Settings**.
 
     > [!div class="mx-imgBorder"]  
     > ![Advanced Settings link in the site map](../sales-enterprise/media/advanced-settings-option.png "Advanced Settings link in the site map")
@@ -39,7 +36,7 @@ You can uninstall LinkedIn Sales Navigator if you don't want to use it in your o
    > [!div class="mx-imgBorder"]  
    > ![View dependency details](media/solution-dependencies.png  "View dependency details")
 
-   These dependencies exist because LinkedIn controls are included in Account, Contact, Lead, or Opportunity forms. To remove the dependencies, follow these steps:<!--note from editor: You need to use 1, 2, 3 numbering for nested ordered lists, even though it looks wrong in the Markdown. Otherwise, the steps won't be formatted properly with hanging indents. (See the Docs Contributor Guide at https://review.docs.microsoft.com/en-us/help/contribute/markdown-reference?branch=master#lists-numbered-bulleted-checklist)-->
+   These dependencies exist because LinkedIn controls are included in Account, Contact, Lead, or Opportunity forms. To remove the dependencies, follow these steps:
 
     1. Open the form in the form editor.
 
@@ -50,7 +47,7 @@ You can uninstall LinkedIn Sales Navigator if you don't want to use it in your o
 
     3. Save and publish the form.
 
-    4. Repeat steps a through c for any other dependencies.
+    4. Repeat steps 1 through 3 for any other dependencies.
 
 5. After you've removed the all the dependencies, select **Delete**.
 

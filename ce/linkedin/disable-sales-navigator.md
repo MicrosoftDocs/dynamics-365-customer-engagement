@@ -16,7 +16,7 @@ manager: shujoshi
 
 Disabling the integration will stop showing the Sales Navigator controls.
 
-1. In your app, select **Settings** ![Settings](../sales-enterprise/media/settings-icon.png)<!--Via Writing Style Guide-->, and then select **Advanced Settings**.
+1. In your app, select **Settings** ![Settings](../sales-enterprise/media/settings-icon.png), and then select **Advanced Settings**.
 
     > [!div class="mx-imgBorder"]  
     > ![Advanced Settings link in the site map](../sales-enterprise/media/advanced-settings-option.png "Advanced Settings link in the site map")
@@ -28,7 +28,7 @@ Disabling the integration will stop showing the Sales Navigator controls.
     > [!div class="mx-imgBorder"]  
     > ![Select LinkedIn Sales Navigator](media/select-linkedin-sales-navigator-option-setting.png "Select LinkedIn Sales Navigator")
 
-3. Turn off the **Enable Sales Navigator integration** toggle.<!--Suggested for clarity.-->
+3. Turn off the **Enable Sales Navigator integration** toggle.
 
     > [!div class="mx-imgBorder"]  
     > ![Disable LinkedIn Sales Navigator](media/disable-linkedin-sales-navigator.png "Disable LinkedIn Sales Navigator")
