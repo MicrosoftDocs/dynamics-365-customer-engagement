@@ -22,11 +22,7 @@ The following actions are used for forecasting:
 
 - **msdyn_ForecastInstanceActions**: Retrieve forecast and snapshot data. **For internal use only.**<br />
 - **msdyn_ForecastConfigurations**: Returns the list of all for forecast configurations having the name provided as part of request payload. **For internal use only.**<br />
-- **msdyn_ForecastApi**: Enables you to perform various actions to retrieve and update forecasting configurations.<br />
-<!--
-- **msdyn_ForecastConfigurationsByName**: Returns the list of all for forecast configurations having the name provided as part of request payload. <br />
-- **msdyn_ForecastPeriodsByForecastConfigurationId**: Returns all the forecast Periods for the active forecast configuration Id provided as part of the request payload.<br />
--->
+- **msdyn_ForecastApi**: Enables you to perform various actions to retrieve and update forecasting data.<br />
 
 ### See also
 
