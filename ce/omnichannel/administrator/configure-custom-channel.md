@@ -1,16 +1,16 @@
 ---
-title: "Configure a custom channel | MicrosoftDocs"
-description: "Learn what a custom channel is and how to configure the channel in Omnichannel for Customer Service."
+title: "Configure a custom channel, or bring your own channel | MicrosoftDocs"
+description: "Learn what a custom channel is and how to configure the channel, or bring your own channel, in Omnichannel for Customer Service."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 04/06/2020
+ms.date: 06/24/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
 ---
 
-# Preview: Configure a custom messaging channel
+# Preview: Configure a custom messaging channel, or bring your own channel
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -22,15 +22,15 @@ ms.topic: article
 > - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../../legal/dynamics-insider-agreement.md).
 
 
-## Overview of custom channel
+## Overview 
 
 Many organizations have line-of-business (in-house) messaging channels that they use to interact with their customers. Also, many customers use social messaging channels for their personal communication needs, and these customers prefer using the messaging channels to engage with businesses. Expectations of customer service via social channels are rising to the point that customers now expect the same level of service on social channels that they’re used to from call and live chat. 
 
 As an organization, you want the ability to integrate your line-of-business (in-house), social, or any other messaging channels with Omnichannel for Customer Service. The custom channel feature lets you do this so you can engage with customers. Here are some of the messaging channel integrations that are supported:
 
-- Kik
-- Telegram
 - [Direct Line](#bring-channels-using-direct-line)
+- Telegram
+- Kik
 
 ### Value proposition
 
@@ -38,17 +38,17 @@ As an organization, you want the ability to integrate your line-of-business (in-
 
 - Integrate social media messaging channels as per the requirement of your customers and organization.
 
-- Easy configuration experience in the Omnichannel Administrator app.
+- Easily configure the administrator experience in the Omnichannel Administrator app.
 
-- Single and unified agent experience in the Omnichannel for Customer Service app.
+- Create a single and unified agent experience in the Omnichannel for Customer Service app.
 
 ## Prerequisites
 
-- Make sure channels are provisioned in your environment. For information, see [Provision Omnichannel for Customer Service](omnichannel-provision-license.md).
+- To enable the custom messaging channel and bring your own channel, you must have channels provisioned in your environment. For information, see [Provision Omnichannel for Customer Service](omnichannel-provision-license.md).
 
   > [!NOTE]
   >
-  > To enable the custom channel in an existing environment, you must upgrade to the latest version of Omnichannel for Customer Service. For information, [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md).
+  > To enable the custom messaging channel in an existing environment, you must upgrade to the latest version of Omnichannel for Customer Service. For information, [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md).
 
 ## End-to-end walk-through
 
@@ -168,7 +168,7 @@ If you want to help your customers using your line-of-business (in-house) messag
 
 The Bot Framework **Direct Line** channel helps you to integrate your line-of-business (in-house) messaging channels into the Omnichannel for Customer Service app.
 
-For more information, see [Bring your own channel](../developer/how-to/bring-your-own-channel.md).
+For more information, see the developer guide, [Bring your own custom messaging channel](../developer/how-to/bring-your-own-channel.md).
 
 ## See also
 
