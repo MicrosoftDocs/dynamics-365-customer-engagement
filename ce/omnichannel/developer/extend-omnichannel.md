@@ -4,7 +4,7 @@ description: "Embed Omnichannel functionality into your website or app, or bring
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 06/18/2020
+ms.date: 06/24/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -17,9 +17,9 @@ ms.topic: article
 | Omnichannel integration scenario | CIFv2 | BYOC  | 
 |---------------------------------------------------------------------|------------|------------|
 | Integrate third-party telephony          | Yes           | - |
-| Add any channel to OC that has a native Bot Framework Bot | - | Yes |
-| Add any channel to OC that has API support or is offered via an aggregator (e.g. Twilio)  | - | Yes |
+| Add any channel that has API support or is offered via an aggregator | - | Yes |
 | Build a web canvas for highly customized experiences using a fully programmable API (e.g. click to view ticket, click to schedule an appointment) | - | Yes |
+| Add any channel that has a native Microsoft Bot Framework bot | - | Yes |
 
 <!--## Embedding Omnichannel functionality in your applications-->
 
@@ -41,9 +41,10 @@ For more information, refer to [Dynamics 365 Channel Integration Framework versi
 ### Other messaging channels
 You can deeply integrate a messaging channel into Omnichannel such that it behaves as a first party integration and can leverage all native Omnichannel services. These services include routing, assignment, and integration with CDS data for linking customer records, cases, and so on. This functionality leverages the Azure Bot framework upon which all out of the box, third party messaging channels are integrated.
 
-For more information, refer to [Bring your own channel](https://docs.microsoft.com/dynamics365/omnichannel/developer/how-to/bring-your-own-channel).
+For more information, refer to [Bring your own custom messaging channel](https://docs.microsoft.com/dynamics365/omnichannel/developer/how-to/bring-your-own-channel).
 
 
 ## See also 
 
-[Bring your own channel](https://docs.microsoft.com/dynamics365/omnichannel/developer/how-to/bring-your-own-channel)
+[Bring your own custom messaging channel](https://docs.microsoft.com/dynamics365/omnichannel/developer/how-to/bring-your-own-channel)
+[Configure a custom messaging channel](https://docs.microsoft.com/dynamics365/omnichannel/administrator/configure-custom-channel)
