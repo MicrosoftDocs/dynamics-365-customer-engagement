@@ -22,7 +22,7 @@ System administrators or customizers can add the Opportunity Close entity to the
 
     > [!IMPORTANT]
     > - You can’t delete the out-of-the-box fields or customize or delete the out-of-the-box entity relationships.
-    > - Creating an Opportunity Close record (for example, from a related entity record or from the Quick create menu) closes the related opportunity.
+    > - Creating an Opportunity Close record (for example, from a related entity record or the Quick create menu) closes the related opportunity.
     
 -   Customization of Opportunity Close Quick Create form to capture details such as Profit Margin, Winning Product and so on,  when closing an opportunity.
 
