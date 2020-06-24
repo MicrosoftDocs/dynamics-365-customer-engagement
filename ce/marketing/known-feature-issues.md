@@ -1,7 +1,10 @@
 ---
-title: "Dynamics 365 Marketing Readme (Known Issues) | Microsoft Docs"
-ms.date: 03/25/2020
+title: "Known feature issues and workarounds (Dynamics 365 Marketing) | Microsoft Docs"
+description: "This article documents known issues and late-breaking information for Dynamics 365 Marketing"
+ms.date: 06/24/2020
 ms.service: dynamics-365-marketing
+ms.custom: 
+  - dyn365-marketing
 ms.topic: article
 ms.assetid: 78dc5157-cf1d-4e32-ace7-9e71763e7510
 author: alfergus
@@ -16,9 +19,9 @@ search.app:
   - D365Mktg
 ---
 
-# Dynamics 365 Marketing readme
+# Known feature issues and workarounds
 
-This document provides important, late-breaking information about known issues and workarounds for Dynamics 365 Marketing.
+This document provides important, late-breaking information about known feature issues and workarounds for Dynamics 365 Marketing. For information about monthly bug fixes, visit the [What's new in Dynamics 365 Marketing](whats-new-marketing.md) article.
 
 ## Trials
 

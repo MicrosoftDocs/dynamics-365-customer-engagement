@@ -78,6 +78,7 @@
 ### [Best practices for email marketing](get-ready-email-marketing.md)
 ### [Email policies and suspension standards](email-policies.md)
 ### [Administration and setup FAQ](setup-troubleshooting.md)
+### [Known feature issues and workarounds](known-feature-issues.md)
 
 ## [User Guide](user-guide.md)
 
