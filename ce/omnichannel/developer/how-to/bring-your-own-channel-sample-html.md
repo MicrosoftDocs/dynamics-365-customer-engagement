@@ -1,5 +1,5 @@
 ---
-title: "Bring your own custom messaging channel: Sample HTML | Microsoft Docs"
+title: "Bring your own custom messaging channel (Sample HTML) | Microsoft Docs"
 description: "This topic provides information on how you can integrate custom messaging channels using Direct Line Bot."
 author: platkat
 ms.author: ktaylor
@@ -9,7 +9,7 @@ ms.service:
   - "dynamics-365-customerservice"
 ms.topic: reference
 ---
-# Preview: Bring your own custom messaging channel: Sample HTML
+# Preview: Bring your own custom messaging channel (Sample HTML)
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
