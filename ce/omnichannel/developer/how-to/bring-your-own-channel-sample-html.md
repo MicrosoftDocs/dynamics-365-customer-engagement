@@ -75,5 +75,5 @@ You can use the following sample code to test the custom messaging channel you w
 
 ### See also
 
-[Bring your own custom messaging channel: Direct Line Bot](bring-your-own-channel.md)
+[Bring your own custom messaging channel: Direct Line Bot](bring-your-own-channel.md)<br />
 [Configure custom messaging channel](../../administrator/configure-custom-channel.md)  
