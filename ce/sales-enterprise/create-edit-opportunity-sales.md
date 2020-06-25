@@ -1,7 +1,7 @@
 ---
 title: "Create or edit opportunities (Dynamics 365 Sales) | MicrosoftDocs"
 description: "An opportunity is a deal you're ready to win. Create an opportunity record for a lead who's ready to buy."
-ms.date: 02/03/2020
+ms.date: 06/25/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -12,13 +12,29 @@ manager: annbe
 
 # Create or edit opportunities (Sales and Sales Hub)
 
-An opportunity is a lead who is now almost ready to buy&mdash;in other words, a deal that you're ready to win.  
-  
-At this point in the sales process, you're most likely in either the **Develop** or **Propose** stage. [!include[proc-more-information](../includes/proc-more-information.md)] [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md) 
-  
-## Create an opportunity (Sales Hub)
+An opportunity is a lead who is now almost ready to buy&mdash;in other words, a deal that you're ready to win. 
 
-If you're following the sales process from start to finish, you *qualify* a lead to turn it into an *opportunity*. [!include[proc-more-information](../includes/proc-more-information.md)] [Qualify a lead and convert it to an opportunity](../sales-enterprise/qualify-lead-convert-opportunity-sales.md)
+With an opportunity, you can forecast sales revenue, set a potential close date, and factor in a probability for the sale to occur. 
+
+When you create an opportunity, you must specify an existing account or contact record. When you add a price list to an opportunity, it helps in automatically calculating pricing of the proposed products that the opportunity is interested in purchasing.
+
+At this point in the sales process, you're most likely in either the **Develop** or **Propose** stage. More information: [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md) 
+
+## Ways to create opportunities
+
+You can create a new opportunity that didn't originate from a lead, or you can convert qualified leads to opportunities without reentering the data, and then you can track opportunities through the sales cycle.
+When you convert a qualified lead to an account, contact, or opportunity, you can access the lead record, which
+includes activities and notes, from the corresponding opportunity form. You can also access the lead information if you create a new opportunity and link it to a lead record. You can't convert an opportunity to a lead; you can only close opportunities.
+
+Here are the different ways in which you can create an opportunity:
+
+- Qualify or convert a lead. More information: [Qualify a lead and convert it to an opportunity](../sales-enterprise/qualify-lead-convert-opportunity-sales.md)
+- Import opportunity records. More information: [Import data](/powerapps/user/import-data)
+- Create an opportunity by using the Quick create option on the command bar. More information: [Create a new record](/powerapps/user/create-a-record)
+- Create an opportunity from the Opportunities list. More information: [Create an opportunity](#create-sales-hub)
+
+
+## Create an opportunity from the Opportunities list (Sales Hub)<a name="create-sales-hub"></a>
 
 1. In the site map, select **Opportunities**.
 
@@ -83,8 +99,8 @@ If you're following the sales process from start to finish, you *qualify* a lead
 
 9. Add products to your opportunity. [!include[proc-more-information](../includes/proc-more-information.md)] [Add products to an opportunity](add-products-opportunity.md), [Add products to an opportunity using the enhanced experience](add-products-enhanced-experience.md)
 
-10.    Follow the process bar to move the opportunity to the next stage. In the **Develop** stage, enter data for the following fields:
-    
+10. Follow the process bar to move the opportunity to the next stage. In the **Develop** stage, enter data for the following fields:
+
     - **Customer Need**: Enter what interests the customer, such as specific product requirements.
     
     - **Proposed Solution**: Enter the plan for what your organization can offer the account, such as product details.
@@ -106,7 +122,7 @@ If you're following the sales process from start to finish, you *qualify* a lead
 The next step is to create a quote and send it to your customer. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a quote and send it to your customer](../sales-enterprise/create-edit-quote-sales.md)
 
 
-## Create an opportunity (Sales)
+## Create an opportunity from the Opportunities list (Sales)<a name="create-sales"></a>
 
 If you're following the sales process from start to finish, you qualify a lead to turn it into an opportunity. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)  
 
@@ -141,15 +157,11 @@ If you want to create an opportunity without first creating a lead, do the follo
 > The **Pipeline Phase** field of the Opportunity entity has been used in sales charts and dashboards to show the current phase in the sales pipeline for the opportunity. This field is populated by the stage change information on the business process flow for the Opportunity entity.
 > Because [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] supports multiple business process flows for the Opportunity entity, the **Pipeline Phase** field will be populated with the last stage change information done on any business process flow on the opportunity record. If you're using multiple business process flows on opportunity, exercise your discretion while using this field. [!include[proc-more-information](../includes/proc-more-information.md)] [Business process flows overview](../customize/business-process-flows-overview.md)
 
-For information on how to resolve the common errors that you may get while you close an opportunity, see the [troubleshooting guide](troubleshooting.md).
-  
-## Ways to create opportunities  
 
-Need a faster way to enter opportunities? Try one of these:  
-
--   [Quick create-Enter new records-fast!](../basics/quick-create-enter-data-fast.md)  
+> [!TIP]
+> - To analyze your data and convert it into actionable items that help you drive more sales, you can export it to Microsoft Excel. More information: [Export data to Excel](/powerapps/user/export-data-excel)
+> - For information on how to resolve the common errors that you might get while you close an opportunity, see [Troubleshooting the Opportunity entity](ts-opportunities.md).
   
--   [Import accounts, leads, or other data](../basics/import-accounts-leads-other-data.md)  
   
 ## Typical next steps  
 
@@ -164,7 +176,7 @@ Need a faster way to enter opportunities? Try one of these:
 [Recalculate an opportunity](recalculate-opportunity.md)  
 [Close an opportunity](close-opportunity-won-lost-sales.md)  
 [Work with opportunities in the Kanban view](opportunity-kanban-view.md)  
-[Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
+[Troubleshooting the Opportunity entity](ts-opportunities.md)  
 [Boost sales with Versium Predict](../versium-predict/versium-predict.md)   
 [Insights, powered by InsideView](../insights-insideview/insights-powered-by-insideview.md)   
 [Print quote, invoice, or other records](print-records.md)
