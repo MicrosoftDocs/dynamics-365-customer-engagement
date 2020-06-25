@@ -38,16 +38,16 @@ You can uninstall LinkedIn Sales Navigator if you don't want to use it in your o
 
    These dependencies exist because LinkedIn controls are included in Account, Contact, Lead, or Opportunity forms. To remove the dependencies, follow these steps:
 
-    1. Open the form in the form editor.
+    a. Open the form in the form editor.
 
-    2. Select the **LinkedIn Sales Navigator** section, and then select **Remove**.
+    b. Select the **LinkedIn Sales Navigator** section, and then select **Remove**.
 
        > [!div class="mx-imgBorder"]  
        > ![Select the section to remove](media/remove-linkedin-controls-form.png "Select the section to remove")
 
-    3. Save and publish the form.
+    c. Save and publish the form.
 
-    4. Repeat steps 1 through 3 for any other dependencies.
+    d. Repeat steps a through c for any other dependencies.
 
 5. After you've removed the all the dependencies, select **Delete**.
 
