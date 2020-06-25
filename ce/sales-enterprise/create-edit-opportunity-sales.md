@@ -160,7 +160,7 @@ If you want to create an opportunity without first creating a lead, do the follo
 
 > [!TIP]
 > - To analyze your data and convert it into actionable items that help you drive more sales, you can export it to Microsoft Excel. More information: [Export data to Excel](/powerapps/user/export-data-excel)
-> - For information on how to resolve the common errors that you might get while you close an opportunity, see the [Troubleshooting the Opportunity entity](ts-opportunities.md).
+> - For information on how to resolve the common errors that you might get while you close an opportunity, see [Troubleshooting the Opportunity entity](ts-opportunities.md).
   
   
 ## Typical next steps  
