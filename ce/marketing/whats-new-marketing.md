@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 06/23/2020
+ms.date: 07/01/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -29,6 +29,59 @@ We roll out updates on a region-by-region basis. Updates are available to all re
 
 > [!Note]
 > To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20Marketing).
+
+## July 2020 update
+
+The Dynamics 365 Marketing July 2020 update includes several feature enhancements including customer journey improvements, an improved first run experience, auto-complete form fields, performance upgrades, and bug fixes.
+
+### Version number
+
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        | 1.35.10062.1050 |
+
+> [!Tip]
+> To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](https://docs.microsoft.com/dynamics365/marketing/apply-updates#find-out-which-version-of-dynamics-365-marketing-you-are-running).
+
+### Monthly feature updates
+
+- **Customer journeys**
+    - Schedule outbound tiles.
+    - View tile statistics for inflated activities.
+- **First run experience**
+    - Default contact no longer required.
+    - MktVoc no longer included in the Marketing package.
+- **Marketing emails**
+    - Improved email editor performance.
+    - Email editor improvements.
+- **Marketing forms**
+    - Auto-complete for text field attributes based on existing data.
+- **Marketing insights**
+    - Flush cached HERE maps data.
+- **Segment management**
+    - Warning displayed when reaching the limit of active segments.
+    - Show next evaluation time.
+- **Social posting**
+    - You can now delete social posts directly from Marketing.
+- **Subscription center**
+    - The subscription center can now handle cookieless unsubscriptions.
+
+### Bug fixes
+
+- **Customer journeys**
+
+- **Data services**
+
+- **Event management**
+
+- **Marketing emails**
+
+- **Marketing forms**
+
+- **Marketing pages**
+
+- **Social posting**
+    - 
 
 ## June 2020 update
 
