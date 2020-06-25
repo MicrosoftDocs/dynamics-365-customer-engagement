@@ -18,7 +18,7 @@ ms.topic: article
 Using social messaging channels such as WeChat&mdash;which has a large user base in Asia&mdash;lets organizations enhance business efficiencies in certain geographical areas by integrating these services into Omnichannel for Customer Service.
 
   > [!NOTE]
-  > The WeChat channel is not available in the GCC region.
+  > The WeChat channel is not available in the Government Community Cloud (GCC) region.
 
 ## Prerequisites
 

@@ -4,7 +4,7 @@ description: "Instructions to configure a LINE channel in Omnichannel for Custom
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 06/24/2020
+ms.date: 06/25/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -19,7 +19,7 @@ Many customers use social messaging channels like LINE for their personal commun
 The LINE channel gives you an incredible opportunity to capitalize on the social media trend and engage with your customers in a seamless and personalized experience.
 
   > [!NOTE]
-  > The LINE channel is not available in the GCC region.
+  > The LINE channel is not available in the Government Community Cloud (GCC) region.
 
 **Prerequisites**: Following are the prerequisites before configuring the LINE channel in Omnichannel for Customer Service.
 > [!NOTE]
