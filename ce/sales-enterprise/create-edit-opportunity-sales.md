@@ -16,10 +16,9 @@ An opportunity is a lead who is now almost ready to buy&mdash;in other words, a 
 
 With an opportunity, you can forecast sales revenue, set a potential close date, and factor in a probability for the sale to occur. 
 
-When you create an opportunity, you must specify an existing account or contact record. When you add a price to an opportunity, it helps in automatically calculating pricing of the proposed products that
-the opportunity is interested in purchasing.
+When you create an opportunity, you must specify an existing account or contact record. When you add a price list to an opportunity, it helps in automatically calculating pricing of the proposed products that the opportunity is interested in purchasing.
 
-At this point in the sales process, you're most likely in either the **Develop** or **Propose** stage. [!include[proc-more-information](../includes/proc-more-information.md)] [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md) 
+At this point in the sales process, you're most likely in either the **Develop** or **Propose** stage. More information: [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md) 
 
 ## Ways to create opportunities
 
@@ -176,7 +175,7 @@ For information on how to resolve the common errors that you may get while you c
 [Recalculate an opportunity](recalculate-opportunity.md)  
 [Close an opportunity](close-opportunity-won-lost-sales.md)  
 [Work with opportunities in the Kanban view](opportunity-kanban-view.md)  
-[Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
+[Troubleshooting the Opportunity entity](ts-opportunities.md)  
 [Boost sales with Versium Predict](../versium-predict/versium-predict.md)   
 [Insights, powered by InsideView](../insights-insideview/insights-powered-by-insideview.md)   
 [Print quote, invoice, or other records](print-records.md)
