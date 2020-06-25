@@ -35,7 +35,7 @@ A funcitonal location is
 
 A functional location provides more clarity for locations within a service account, locations of assets, locations where work orders need to be performed and thus where technicians need to travel to.
 
-A functional location is hierarchichal meaning --- as an example room 1 is in building a which is in campus 2
+A functional location is hierarchichal meaning --- as an example room 1 is in building A which is in campus 2
 
 ## Prerequisites
 
@@ -48,14 +48,23 @@ A functional location is hierarchichal meaning --- as an example room 1 is in bu
 
 ## Create a service account
 
+First create a service account or choose one that is already created. Service accounts are required to create work orders and define the customer and service location of the work order.
+
+
+Ensure the service account has an address and is geocoded. You will know the service account record is geocoded if it appears on the map and the latitiude and longitude fields have values. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/assets-functional-location-account.png)
 
+> [!Note]
+> In Field Service Settings there is a setting called Auto Geo Code addresses. Set this field to Yes to have records auto geocoded as addresses are entered.
 
 
+## Create functional locations
 
-## Create functional location tree
+Use functional locations to define areas and locations within the service account. 
+
+From the service account record go to the **Assets and Locations** section. 
 
 
 > [!div class="mx-imgBorder"]
@@ -91,11 +100,9 @@ A functional location is hierarchichal meaning --- as an example room 1 is in bu
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/assets-functional-location-work-order.png)
 
-Add a functional location
+Add a functional location or add a customer asset within that functional location.
 
-Add a customer asset
-
-Add multiple functional locations to a single work order
+### Add multiple functional locations to a single work order
 
 
 > [!div class="mx-imgBorder"]
