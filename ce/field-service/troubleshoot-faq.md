@@ -31,6 +31,16 @@ search.app:
 > [!Note]
 > If you're looking for help with **errors**, **unexpected behavior**, **crashes**, and **bugs**, create a [Dynamics 365 support ticket](https://dynamics.microsoft.com/contact-us/). 
 
+## Why did I recieve an email or Message Center notification about a Field Service update?
+
+Roughly once a month, Field Service pushes a standard update to customers on Field Service version 8.8.6 and higher. A message is sent each month prior to this update highlighting that an update is planned. For more information on this update, please see our [documentation](https://docs.microsoft.com/dynamics365/field-service/upgrade-field-service#when-are-field-service-updates-released) on the different kinds of Field Service updates and [when Field Service updates are planned](https://docs.microsoft.com/dynamics365/field-service/version-history#latest-version-availability).
+
+The other kind of update messages that some customers may have recieved highlights that one or more of your environments are on a version of Field Service lower than 8.8.6. This message advises that you need to to upgrade your environment as soon as possible or Microsoft will conduct the update for you. Please take action as soon as possible. 
+
+As this message states, **it is our strong preference that customers will conduct this update on their own, as soon as possible. It is in your best interests to conduct this update on your own, allowing you to take appropriate testing and change management steps.** The only validation that we are able to conduct will confirm that the upgrade will succeed based on the environment configuration at the time of our test. This will not validate other potential functional disruptions following an unmanaged update.
+
+To get all of our customers to the latest version of Field Service, Microsoft will be conducting these updates between now and December. These Microsoft applied updates will happen in a phased manner and, when your environments are selected to receive this update, you will recieve a message highlighting a specific date that your environment will be updated with additional language highlighting some additional details about the process.
+
 ## Why is Field Service missing from the sitemap navigation?
 
 As of Field Service v8.x, you can find Field Service among the other Dynamics 365 apps by selecting Dynamics 365 in the top left and selecting **Field Service**.
