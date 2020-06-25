@@ -265,7 +265,9 @@
 #### Smart assist bot
 ##### [Build a smart assist bot](developer/how-to/smart-assist-bot.md)
 ##### [Implement custom scenario](developer/how-to/smart-assist-scenario.md)
-#### [Bring your own channel](developer/how-to/bring-your-own-channel.md)
+#### Bring your own channel
+##### [Overview](developer/how-to/bring-your-own-channel.md)
+##### [Sample HTML for custom messaging channel](developer/how-to/bring-your-own-channel-sample-html.md)
 #### [Customize chat widget](developer/how-to/customize-chat-widget.md)
 #### [Enable third-party co-browse](developer/how-to/third-party-co-browse.md)
 ### [Live chat widget telemetry](developer/live-chat-telemetry.md)
