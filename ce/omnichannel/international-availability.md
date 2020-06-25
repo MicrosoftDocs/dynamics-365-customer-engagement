@@ -40,8 +40,6 @@ Omnichannel for Customer Service April 2020 update is available in the following
 | Government Community Cloud (GCC)          |   June 24, 2020      |
 | United Arab Emirates (UAE)                |   To be announced    |
 
-  > [!NOTE]
-  > The WeChat and LINE channels aren't available in the Government Community Cloud (GCC) region.
   
 ### January 2020 update
 
