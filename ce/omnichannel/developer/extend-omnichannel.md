@@ -13,7 +13,7 @@ ms.topic: article
 # Extend Omnichannel for Customer Service
 
 <!--You can extend Omnichannel for Customer Service to either embed Omnichannel for Customer Service functionality into your own websites or bring functionality from other applications into Omnichannel for Customer Service.--> There are several scenarios supported to extend Omnichannel for Customer Service. The following table shows the supported scenarios and the recommended method for implementation.  
-<br /><br />
+
 
 | Omnichannel for Customer Service integration scenario | Channel Integration Framework V2 | Custom Messaging Channel  | 
 |---------------------------------------------------------------------|------------|------------|
