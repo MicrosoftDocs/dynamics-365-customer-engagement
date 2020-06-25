@@ -9,7 +9,7 @@ ms.service:
   - "dynamics-365-customerservice"
 ms.topic: reference
 ---
-# Preview: Bring your own custom messaging channel (Sample HTML)
+# Preview: Bring your own custom messaging channel: Test Client HTML
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
@@ -48,7 +48,7 @@ You can use the following sample code to test the custom messaging channel you w
     <script>
     (async function () {
         const res = await fetch('https://directline.botframework.com/v3/directline/conversations', 
-{ method: 'POST', headers: { Authorization: 'Bearer -thue5QxM8c.UViYMJYswp6urdRrNmK34juTTPE8AhXim8OWOi2d0m4' }});
+{ method: 'POST', headers: { Authorization: 'Bearer ***************Insert Direct Line Secret here *******************' }});
 
       const { token } = await res.json();
 
@@ -75,4 +75,5 @@ You can use the following sample code to test the custom messaging channel you w
 
 ### See also
 
+[Bring your own custom messaging channel: Direct Line Bot](bring-your-own-channel.md)
 [Configure custom messaging channel](../../administrator/configure-custom-channel.md)  
