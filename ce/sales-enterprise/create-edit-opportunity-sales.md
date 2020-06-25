@@ -159,7 +159,10 @@ If you want to create an opportunity without first creating a lead, do the follo
 > The **Pipeline Phase** field of the Opportunity entity has been used in sales charts and dashboards to show the current phase in the sales pipeline for the opportunity. This field is populated by the stage change information on the business process flow for the Opportunity entity.
 > Because [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] supports multiple business process flows for the Opportunity entity, the **Pipeline Phase** field will be populated with the last stage change information done on any business process flow on the opportunity record. If you're using multiple business process flows on opportunity, exercise your discretion while using this field. [!include[proc-more-information](../includes/proc-more-information.md)] [Business process flows overview](../customize/business-process-flows-overview.md)
 
-For information on how to resolve the common errors that you may get while you close an opportunity, see the [troubleshooting guide](troubleshooting.md).
+
+> [!TIP]
+> - To analyze your data and convert it into actionable items that help you drive more sales, you can export it to Microsoft Excel. More information: [Export data to Excel](/powerapps/user/export-data-excel)
+> - For information on how to resolve the common errors that you might get while you close an opportunity, see the [Troubleshooting the Opportunity entity](ts-opportunities.md).
   
   
 ## Typical next steps  
