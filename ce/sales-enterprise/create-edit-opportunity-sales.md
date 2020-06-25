@@ -28,15 +28,13 @@ includes activities and notes, from the corresponding opportunity form. You can 
 
 Here are the different ways in which you can create an opportunity:
 
-- Qualify or convert a lead. More information: [Qualify a lead](qualify-lead-convert-opportunity.md)
+- Qualify or convert a lead. More information: [Qualify a lead and convert it to an opportunity](../sales-enterprise/qualify-lead-convert-opportunity-sales.md)
 - Import opportunity records. More information: [Import data](/powerapps/user/import-data)
 - Create an opportunity by using the Quick create option on the command bar. More information: [Create a new record](/powerapps/user/create-a-record)
 - Create an opportunity from the Opportunities list. More information: [Create an opportunity](#create-sales-hub)
 
 
 ## Create an opportunity from the Opportunities list (Sales Hub)<a name="create-sales-hub"></a>
-
-If you're following the sales process from start to finish, you *qualify* a lead to turn it into an *opportunity*. [!include[proc-more-information](../includes/proc-more-information.md)] [Qualify a lead and convert it to an opportunity](../sales-enterprise/qualify-lead-convert-opportunity-sales.md)
 
 1. In the site map, select **Opportunities**.
 
