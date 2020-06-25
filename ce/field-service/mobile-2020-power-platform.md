@@ -308,6 +308,44 @@ For another example, the **Work Order Product** entity has a data download filte
 > [!Note]
 > By default, work orders related to downloaded bookable resource bookings are available offline. This creates a chain of entities and records that are offline: bookings > work orders > work order products. This means that bookings scheduled to you are downloaded, work orders related to those bookings are downloaded, and work order products related to those work orders are downloaded.
 
+### Offline JavaScript
+
+//add a breif description, use this video for help https://youtu.be/tUdL5YZA29A
+
+link to video: https://youtu.be/tUdL5YZA29A
+
+**Sample scenario:** A field service organization wants to validate the duration of a work order booking is at least 2 hours when a technician attempts to save the record in the Field Service (Dynamics 365) mobile PowerApp.
+
+Go to settings > Customizations
+
+Bookable resource booking
+
+forms
+
+Booking and work order form
+
+form properties
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-offline-javascript.png)
+
+
+**Code snippet:** 
+
+      function TestOnSave(executionContext) {
+
+      var formContext = executionContext.getFormContext(); // get formContext
+      var duration = formContext.getAttribute("duration").getValue();
+
+      formContext.ui.clearFormNotification("DurationErrorMessageId");
+
+      if (duration < 120) {
+      executionContext.getEventArgs().preventDefault(); // Stop the Save
+      formContext.ui.setFormNotification("Duration must be greater than 2 hours", "ERROR", "DurationErrorMessageId");
+      }
+
+      }
 
 ## FAQs
 
