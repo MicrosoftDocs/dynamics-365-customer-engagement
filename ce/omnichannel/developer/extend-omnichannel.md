@@ -34,9 +34,9 @@ You can customize the look and feel of your chat widget using the react native S
 
 ### Telephony 
 
-The Channel Integration Framework V2 (CIFv2) enables you to show notifications for requests from other tools within the Omnichannel for Customer Service app and enable agents to accept and facilitate the conversation from within the Omnichannel app. 
+The Channel Integration Framework V2 enables you to show notifications for requests from other tools within the Omnichannel for Customer Service app and enable agents to accept and facilitate the conversation from within the Omnichannel app. 
 
-The third-party app still manages agent authentication and presence, and the routing and assignment of customer requests. Once the request is assigned to the agent, the notification displays to the agent in Omnichannel. This is a UI-level integration only and does not integrate with CDS so you cannot take advantage of linking data from the customer conversation with all other records in CDS. CIFv2 is recommended for bringing telephony into Omnichannel. 
+The third-party app still manages agent authentication and presence, and the routing and assignment of customer requests. Once the request is assigned to the agent, the notification displays to the agent in Omnichannel. This is a UI-level integration only and does not integrate with CDS so you cannot take advantage of linking data from the customer conversation with all other records in CDS. This is recommended for bringing telephony into Omnichannel. 
 
 For more information, refer to [Dynamics 365 Channel Integration Framework version 2.0](https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/v2/overview-channel-integration-framework). 
 
