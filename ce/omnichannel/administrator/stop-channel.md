@@ -17,11 +17,13 @@ ms.topic: article
 
 3. Select the social media page or SMS number that should stop receiving messages.
 
-<img src="active-facebook-applications.png">
+    > [!div class=mx-imgBorder]
+    > ![Create a Facebook work stream](../media/active-facebook-applications.png "Active Facebook Applications list")
 
-4. In the page navigation bar, click **Delete** to remove the page. This is a permanent action and cannot be undone.
+4. In the page toolbar, click **Delete** to remove the page. This is a permanent action and cannot be undone.
 
-<img src="oc-toolbar.png">
+    > [!div class=mx-imgBorder]
+    > ![Create a Facebook work stream](../media/oc-toolbar.png "Omnichannel page toolbar")
 
 If you want to re-add your social media page or SMS number to Omnichannel for Customer Service, follow the instructions for that channel as if you were adding it for the first time. 
 
