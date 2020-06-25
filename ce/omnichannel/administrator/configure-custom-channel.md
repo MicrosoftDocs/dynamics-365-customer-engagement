@@ -173,8 +173,9 @@ For more information, see the developer guide, [Bring your own custom messaging 
 
 ## See also
 
-[Skill-based routing](overview-skill-work-distribution.md)<br>
+[Extend Omnichannel for Customer Service](../developer/how-to/extend-omnichannel.md)<br />
 [Bring your own custom messaging channel: Direct Line bot](../developer/how-to/bring-your-own-channel.md)<br />
+[Skill-based routing](overview-skill-work-distribution.md)<br>
 [Productivity tools](productivity-tools.md)<br>
 [Smart assist](smart-assist.md)<br>
 [Templates](templates-overview.md)
