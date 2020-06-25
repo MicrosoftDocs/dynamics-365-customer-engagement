@@ -48,38 +48,38 @@ A functional location is hierarchichal meaning --- as an example room 1 is in bu
 
 ## Create a service account
 
-assets-functional-location-account
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/assets-functional-location-account.png)
 
 
 
 
 ## Create functional location tree
 
-assets-functional-location-new-location
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
 
-assets-functional-location-tree
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/assets-functional-location-new-location.png)
 
-assets-functional-location-address
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/assets-functional-location-tree.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/assets-functional-location-address.png)
 
 
 
 ## Create or add assets to the functional location tree
 
-assets-functional-location-tree-show-assets
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
 
-assets-functional-location-tree-edit
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/assets-functional-location-tree-show-assets.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/assets-functional-location-tree-edit.png)
 
 > [!Note]
 > You cannot drag a sub asset to a functional location different from the parent asset's functional location.
@@ -87,15 +87,42 @@ assets-functional-location-tree-edit
 
 ## Use functional location for work orders
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/assets-functional-location-work-order.png)
+
 Add a functional location
 
 Add a customer asset
 
 Add multiple functional locations to a single work order
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/assets-functional-location-work-order-new-incident.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/assets-functional-location-work-order-new-incident1.png)
+
+
+> [!Note]
+> Address of work order only reflects the functional location on the work order and on the primary incident type not the location of the additional incident types.
+
 ## Use functional location for cases
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/assets-functional-location-case.png)
+
+
 ## Use functional location for agreements
+
+Go to **Agreements > select an agreement > Agreement Booking Setup > Agreement Booking Incident**
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/assets-functional-location-agreement-incident.png)
 
 ## Configuration considerations
 // use question &answer part of video
