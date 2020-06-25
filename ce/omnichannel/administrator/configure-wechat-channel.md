@@ -4,7 +4,7 @@ description: "Instructions for configuring a WeChat channel in Omnichannel for C
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/15/2020
+ms.date: 06/24/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -16,6 +16,9 @@ ms.topic: article
 ## WeChat channel
 
 Using social messaging channels such as WeChat&mdash;which has a large user base in Asia&mdash;lets organizations enhance business efficiencies in certain geographical areas by integrating these services into Omnichannel for Customer Service.
+
+  > [!NOTE]
+  > The WeChat channel is not available in the GCC region.
 
 ## Prerequisites
 

@@ -4,7 +4,7 @@ description: "Learn about the international availability of Omnichannel for Cust
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/17/2020
+ms.date: 06/24/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -40,6 +40,9 @@ Omnichannel for Customer Service April 2020 update is available in the following
 | Government Community Cloud (GCC)          |   To be announced    |
 | United Arab Emirates (UAE)                |   To be announced    |
 
+  > [!NOTE]
+  > The WeChat and LINE channels are not available in the GCC region.
+  
 ### January 2020 update
 
 Omnichannel for Customer Service January 2020 update is available in the following regions:
