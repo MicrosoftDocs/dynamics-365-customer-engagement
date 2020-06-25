@@ -12,10 +12,10 @@ ms.topic: article
 
 # Extend Omnichannel for Customer Service
 
-<!--You can extend Omnichannel for Customer Service to either embed Omnichannel for Customer Service functionality into your own websites or bring functionality from other applications into Omnichannel for Customer Service.--> There are several scenarios supported to extend Omnichannel for Customer Service. The following table shows the supported scenarios and the recommended method for implementation.
+<!--You can extend Omnichannel for Customer Service to either embed Omnichannel for Customer Service functionality into your own websites or bring functionality from other applications into Omnichannel for Customer Service.--> There are several scenarios supported to extend Omnichannel for Customer Service. The following table shows the supported scenarios and the recommended method for implementation.  
+<br /><br />
 
-
-| Omnichannel for Customer Service integration scenario | Channel Integration Framework V2 | BYOC  | 
+| Omnichannel for Customer Service integration scenario | Channel Integration Framework V2 | Custom Messaging Channel  | 
 |---------------------------------------------------------------------|------------|------------|
 | Integrate third-party telephony          | Yes           | - |
 | Add any channel that has API support or is offered via an aggregator | - | Yes |
@@ -34,15 +34,15 @@ You can customize the look and feel of your chat widget using the react native S
 
 ### Telephony 
 
-The Channel Integration Framework V2 enables you to show notifications for requests from other tools within the Omnichannel for Customer Service app and enable agents to accept and facilitate the conversation from within the Omnichannel app. 
+The Channel Integration Framework V2 (CIFv2) enables you to show notifications for requests from other tools within the Omnichannel for Customer Service app and enable agents to accept and facilitate the conversation from within the Omnichannel app. 
 
-The third-party app still manages agent authentication and presence, and the routing and assignment of customer requests. Once the request is assigned to the agent, the notification displays to the agent in Omnichannel. This is a UI level integration only and does not integrate with CDS so you cannot take advantage of linking data from the customer conversation with all other records in CDS. Recommended for bringing telephony into Omnichannel. 
+The third-party app still manages agent authentication and presence, and the routing and assignment of customer requests. Once the request is assigned to the agent, the notification displays to the agent in Omnichannel. This is a UI-level integration only and does not integrate with CDS so you cannot take advantage of linking data from the customer conversation with all other records in CDS. CIFv2 is recommended for bringing telephony into Omnichannel. 
 
 For more information, refer to [Dynamics 365 Channel Integration Framework version 2.0](https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/v2/overview-channel-integration-framework). 
 
 ### Other messaging channels
 
-You can deeply integrate a messaging channel into Omnichannel for Customer Service such that it behaves as a first party integration and can leverage all native Omnichannel services. These services include routing, assignment, and integration with CDS data for linking customer records, cases, and so on. This functionality leverages the Azure Bot framework upon which all out of the box, third party messaging channels are integrated.
+You can deeply integrate a custom messaging channel, or bring your own channel, into Omnichannel for Customer Service such that it behaves as a first-party integration and can leverage all native Omnichannel services. These services include routing, assignment, and integration with CDS data for linking customer records, cases, and so on. This functionality leverages the Azure Bot framework upon which all out-of-the-box, third-party messaging channels are integrated.
 
 For more information, refer to [Bring your own custom messaging channel: Direct Line bot](../developer/how-to/bring-your-own-channel.md).
 
