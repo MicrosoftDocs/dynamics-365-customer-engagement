@@ -22,7 +22,7 @@ ms.topic: reference
 
 Omnichannel for Customer Service allows you to implement a connector to integrate custom messaging channels. The complete [sample code](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/bring-your-own-channel) illustrates how you can create your own connector. 
 
-You can use the following sample code to test the custom messaging channel you want to bring in to Omnichannel.
+You can use the following sample code to test the custom messaging channel you want to bring in to Omnichannel for Customer Service.
 
 ```<!DOCTYPE html>
 <html lang="en-US">
