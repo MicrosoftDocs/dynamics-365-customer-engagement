@@ -47,7 +47,7 @@ The Dynamics 365 Marketing July 2020 update includes several feature enhancement
 
 - **Customer journeys**
     - Schedule permitted sending times for marketing email message tiles directly from the tile properties.
-    - View the number of contacts that are queued in an A/B test from the customer journey **Insights** pane.
+    - View the number of contacts that are queued in an A/B test in the customer journey **Insights** pane.
 - **Marketing emails**
     - Improved email editor responsiveness and performance.
     - Expanded options for multi-column layout in a single row.
@@ -79,27 +79,27 @@ The Dynamics 365 Marketing July 2020 update includes several feature enhancement
     - Fixed a rare error where the body of an email message disappeared when HTML was pasted into the HTML tab.
     - Resolved an error where a button in a 2:1 column layout did not align properly with the layout.
     - Added an optional meta attribute to prevent email post-processing, enabling emails to render with no changes to the HTML.
-    - Resolved an occasional issue where background images would disappear when removing a column from an email.
-    - Fixed an issue where image heights or widths set to "auto" would post-process as being set to 0.
+    - Resolved an occasional issue where background images disappeared when removing a column in the email editor.
+    - Fixed an issue where image heights or widths set to "auto" were set to 0 after post-processing.
     - Fixed an issue where the email designer would sometimes report as having no data, despite containing HTML.
     - Resolved an issue where an email hero image did not change after updating the HTML.
     - Improved the consistency of spam score calculations.
     - Resolved an issue where image height and width displayed incorrectly after adding an image inside a text field using CKEditor.
     - Fixed an issue where templates preview images didn't update after templates were updated.
-    - Fixed an issue where a content block could not be removed after inserting via a Marketing email template.
+    - Fixed an issue where a content block could not be removed after inserting the block via a Marketing email template.
 - **Marketing forms**
     - Fixed an error where form capture occasionally did not function properly when a form was stopped and then went live again.
 - **Marketing pages**
     - Fixed an error where text field labels sometimes did not align correctly with text fields in marketing forms.
-    - Added a form reload button to certain subscription center error messages, enabling users to preview a form regardless of errors.
-    - Resolved an error where contacts who clicked a link from a customer journey would show up as anonymous after restarting their browser.
+    - Added a form reload button to certain subscription center error messages, enabling users to preview forms regardless of errors.
+    - Resolved an error where contacts who clicked a link from a customer journey showed up as anonymous after restarting their browser.
     - Fixed an issue where HTML code was occasionally changed when going live with a Marketing form, resulting in formatting inconsistency.
 - **Marketing user tracking**
-    - Resolved a rare occurrence where a contact was duplicated when re-registering for an event.
+    - Resolved a rare issue where a contact was duplicated when re-registering for an event.
 - **Segment management**
     - Fixed a rare error where a user assigned to a team with a Marketing Manager role was not able to create a segment.
 - **Shared UX**
-    - Resolved an issue where the vertical scrollbar would occasionally not appear in **Advanced settings**.
+    - Resolved an issue where the vertical scrollbar occasionally didn't appear in **Advanced settings**.
 
 ## June 2020 update
 
