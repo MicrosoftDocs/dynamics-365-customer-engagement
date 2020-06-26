@@ -152,7 +152,7 @@ Finally, **Save**.
 > [!Note]
 > A single agreement can have various booking setups. For example, you may create a booking setup called "Weekly Visits" that creates work orders every week with specified incidents, products, services, and service tasks. Additionally, within the same agreement, you may have another booking setup called "Monthly Visits" that creates work orders every month with different incidents, products, services, and service tasks. 
 
-See details in Configuration considerations section at the end of this article for details on importing booking recurrences.
+See details in the configuration considerations section at the end of this article for details on importing booking recurrences.
 
 ### Step 3: Add agreement work details
 
@@ -341,15 +341,15 @@ Entitlements are applied to work order pricing based on multiple factors such as
 
 For more information, visit our [topic on entitlements](work-order-entitlements.md).
 
-### Import Booking Recurrences
+### Import booking recurrences
 
-It is possible to import a booking recurrence pattern for an Agreement Booking Setup (ABS) or Agreement Invoice Setup (AIS). 
+It's possible to import a booking recurrence pattern for an agreement booking setup (ABS) or agreement invoice setup (AIS). 
 
 - The recurrence dialog, when saved, populates a field on the ABS or AIS records.
 - The field is called **Recurrence Settings** and is not displayed on the form by default.
 - To import a recurrence with one or more ABS or AIS records through CSV, just get a representative string from an ABS or AIS that is set up similarly to how you would like the imported records to be configured.
-- With that string, you will see that there are some values driving how the record behaves that can be parsed out of that string, like start and end date, monthsevery, etc.
-- Use these sample strings to populate the Agreement Booking and Invoice Setup records into a spreadsheet and use this to import fully configured records.
+- With that string, you'll see that there are some values driving how the record behaves that can be parsed out of that string, like start and end date, months every, etc.
+- Use these sample strings to populate the agreement booking and invoice setup records into a spreadsheet and use this to import fully configured records.
 
 
 ## Additional notes
