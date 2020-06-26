@@ -32,7 +32,7 @@ We roll out updates on a region-by-region basis. Updates are available to all re
 
 ## July 2020 update
 
-The Dynamics 365 Marketing July 2020 update includes several feature enhancements including customer journey improvements, improved email editor responsiveness, the ability to directly delete social posts, a warning when nearing the limit of active segments, performance upgrades, and bug fixes.
+The Dynamics 365 Marketing July 2020 update includes several feature enhancements including customer journey improvements, improved email editor performance, the ability to delete social posts, a warning when nearing the limit of active segments, subscription center improvements, and bug fixes.
 
 ### Version number
 
