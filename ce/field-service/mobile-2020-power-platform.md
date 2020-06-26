@@ -300,10 +300,8 @@ For example, the **Bookable Resource Booking** (in other words, the booking) ent
 
 For another example, the **Work Order Product** entity has a data download filter set to **Download related data only**, which means that only work order products related to downloaded work orders are available offline. To accomplish this, the work order product mobile offline profile item was listed as an associated profile item of the work order offline profile, as seen in the following screenshot.
 
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Dynamics 365 Settings showing the mobile offline profile for a bookable resource booking, with attention to the "Define Filter Rules" option.](./media/mobile-2020-offline-profile-bookable-resource-booking.png)
-
 
 > [!Note]
 > By default, work orders related to downloaded bookable resource bookings are available offline. This creates a chain of entities and records that are offline: bookings > work orders > work order products. This means that bookings scheduled to you are downloaded, work orders related to those bookings are downloaded, and work order products related to those work orders are downloaded.
