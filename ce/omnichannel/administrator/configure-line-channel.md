@@ -19,7 +19,7 @@ Many customers use social messaging channels like LINE for their personal commun
 The LINE channel gives you an incredible opportunity to capitalize on the social media trend and engage with your customers in a seamless and personalized experience.
 
   > [!NOTE]
-  > The LINE channel is not available in the Government Community Cloud (GCC) region.
+  > The LINE channel isn't available in the Government Community Cloud (GCC) region.
 
 **Prerequisites**: Following are the prerequisites before configuring the LINE channel in Omnichannel for Customer Service.
 > [!NOTE]

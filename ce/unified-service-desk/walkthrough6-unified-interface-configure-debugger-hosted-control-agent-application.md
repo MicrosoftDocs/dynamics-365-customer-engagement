@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough 6  Configure the Debugger hosted control in your agent application | MicrosoftDocs"
 description: 
-ms.date: 12/27/2019
+ms.date: 06/25/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -140,7 +140,7 @@ search.app:
 
 5. Select the ellipsis (...) in the **Action Calls** section, and then select **Add Existing Action Call**. The **Lookup Records** pane is displayed.
 
-6. Type he name of the action call mentioned in the above table in the search box. The action calls are displayed in the search results. Select the record from the list, and then select **Add**.  
+6. Type the name of the action call mentioned in the above table in the search box. The action calls are displayed in the search results. Select the record from the list, and then select **Add**.  
 
 7. Select the ellipsis (...) in the **Hosted Controls** section, and then select **Add Existing Hosted Control**. The **Lookup Records** pane is displayed.  
 
