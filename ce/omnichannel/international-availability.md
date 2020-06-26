@@ -4,7 +4,7 @@ description: "Learn about the international availability of Omnichannel for Cust
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/25/2020
+ms.date: 06/26/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -38,7 +38,7 @@ Omnichannel for Customer Service April 2020 update is available in the following
 | United Kingdom                            |   April 16, 2020     |
 | North America                             |   April 19, 2020     |
 | Government Community Cloud (GCC)          |   June 24, 2020      |
-| United Arab Emirates (UAE)                |   To be announced    |
+| United Arab Emirates (UAE)                |   June 26, 2020      |
 
   
 ### January 2020 update
