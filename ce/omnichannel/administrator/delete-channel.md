@@ -9,7 +9,7 @@ ms.service:
   - "dynamics-365-customerservice"
 ms.topic: article
 ---
-# Delete configured channels
+# Delete a configured channel
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 

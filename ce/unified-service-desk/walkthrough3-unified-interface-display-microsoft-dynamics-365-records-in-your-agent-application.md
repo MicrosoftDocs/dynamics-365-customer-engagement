@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough 3  Display records in your agent application | MicrosoftDocs"
 description: "Demonstrates how to display Unified Interface apps records in Unified Service Desk."
-ms.date: 12/31/2019
+ms.date: 06/25/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -294,7 +294,7 @@ This walkthrough demonstrates how to display model-driven app records in your ag
 
 5. Select the ellipsis (...) in the **Action Calls** section, and then select **Add Existing Action Call**. The **Lookup Records** pane is displayed.
 
-6. Type he name of the action call mentioned in the above table in the search box. The action calls are displayed in the search results. Select the record from the list, and then select **Add**.  
+6. Type the name of the action call mentioned in the above table in the search box. The action calls are displayed in the search results. Select the record from the list, and then select **Add**.  
 
 7. Select the ellipsis (...) in the **Hosted Controls** section, and then select **Add Existing Hosted Control**. The **Lookup Records** pane is displayed.  
 
@@ -325,6 +325,7 @@ This walkthrough demonstrates how to display model-driven app records in your ag
  In this walkthrough, you learned how to display model-driven app records in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application. You also learned how to filter access to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] controls using configuration.
 
 ### See also
+
  [Support for Unified Interface Apps in Unified Service Desk](../unified-service-desk/admin/Support-unified-interfaces-apps-usd.md)
 
  [Unified Interface Page (Hosted Control)](../unified-service-desk/unified-interface-page-hosted-control.md)
