@@ -2,7 +2,7 @@
 title: "Dynamics 365 Field Service inspections | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 06/18/2020
+ms.date: 06/22/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -435,13 +435,11 @@ Storing and retrieving each inspection response in Common Data Model is not part
 
 - New inspections cannot be created or designed from small form factors like mobile devices.
 
-- Support for Field Service Mobile is not part of the April 2020 public preview and is **planned**.
-  
-- The ability to create **branching logic** where inspection questions hide and appear based on other inspections responses is not part of the April 2020 public preview and is **planned**.
-
 - The ability to add version numbering to inspections is not part of the April 2020 public preview and is **planned**.
 
 - Inspections cannot be exported and imported to other environments
+
+- Parsing of inspection responses out-of-the-box without the need for Power Automate is **planned**. 
 
 ### Known issues
 
