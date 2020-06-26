@@ -36,7 +36,7 @@ As an organization, you want the ability to integrate your line-of-business (in-
 
 - Integrate line-of-business (in-house) messaging channels that are specific to your organization.
 
-- Integrate social media messaging channels as per the requirement of your customers and organization.
+<!-- - Integrate social media messaging channels as per the requirement of your customers and organization. -->
 
 - Easily configure the administrator experience in the Omnichannel Administrator app.
 
@@ -139,11 +139,11 @@ To create a custom channel, follow these steps:
     |-------------|-------------------|---------------------------|--------------------------------------|  
     | Details | Name | Specify a name for the custom channel | Contoso channel |
     | Details | Custom Messaging Account | The **Custom messaging account** field is populated. However, you can change the value using the lookup. | Contoso custom channel |
-    | Details | Channel ID | Select a channel from the list. The list might contain line-of-business (in-house) messaging, social, or any other messaging channel. A few social channel options are: <br> - Kik <br> - Telegram <br> - Direct Line | Kik |
+    | Details | Channel ID | Select a channel from the list. The list might contain line-of-business (in-house) messaging, social, or any other messaging channel. | Telegram |
     | Work distribution | Work stream | Select a work stream from the lookup. | Contoso custom channel work stream |
 
     > [!Note]
-    > A **Custom messaging account** can have multiple unique channel IDs. Don't add two or more same Channel IDs to a **Custom messaging account** because the Azure Bot Framework supports only one messaging account per App ID. For example, for **Contoso custom account**, you can't add two or more **Kik** Channel IDs.
+    > A **Custom messaging account** can have multiple unique channel IDs. Don't add two or more same Channel IDs to a **Custom messaging account** because the Azure Bot Framework supports only one messaging account per App ID. For example, for **Contoso custom account**, you can't add two or more **Telegram** Channel IDs.
 
 
     > [!div class=mx-imgBorder]
