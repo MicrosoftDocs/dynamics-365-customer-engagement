@@ -2,7 +2,7 @@
 title: "Field Service (Dynamics 365) mobile app | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 06/10/2020
+ms.date: 06/26/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -310,28 +310,26 @@ For another example, the **Work Order Product** entity has a data download filte
 
 ### Offline JavaScript
 
-//add a breif description, use this video for help https://youtu.be/tUdL5YZA29A
+In some cases, an organization may want to run validation on certain field values after a technician updates an entity. For example, let's say you want to make sure the duration of a work order booking is at least two hours once a technician saves a record in the Field Service (Dynamics 365) mobile app.
 
-link to video: https://youtu.be/tUdL5YZA29A
+Validation can be done with the help of some JavaScript.
 
-**Sample scenario:** A field service organization wants to validate the duration of a work order booking is at least 2 hours when a technician attempts to save the record in the Field Service (Dynamics 365) mobile PowerApp.
+Go to **Settings** > **Customizations**.
 
-Go to settings > Customizations
+Go the the **Bookable Resource Booking**.
 
-Bookable resource booking
+Go to **Forms**.
 
-forms
+Go to the **Booking and Work Order Form**.
 
-Booking and work order form
-
-form properties
-
+Go to **Form Properties**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-offline-javascript.png)
+> ![Screenshot of the lookup record dialog in Power Apps.](./media/mobile-2020-offline-javascript.png)
 
+Enter in the following code snippet:
 
-**Code snippet:** 
+**Code snippet:**
 
       function TestOnSave(executionContext) {
 
