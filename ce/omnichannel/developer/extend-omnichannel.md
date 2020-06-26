@@ -18,9 +18,9 @@ ms.topic: article
 | Omnichannel for Customer Service integration scenario | Channel Integration Framework V2 | Custom Messaging Channel  | 
 |---------------------------------------------------------------------|------------|------------|
 | Integrate third-party telephony          | Yes           | - |
-| Add any channel that has API support or is offered via an aggregator | - | Yes |
+| Add Direct Line, Telegram, or Kik channels  | - | Yes |
+| Add any custom chat channel that has API support via Direct Line  | - | Yes |
 | Build a web canvas for highly customized experiences using a fully programmable API (e.g. click to view ticket, click to schedule an appointment) | - | Yes |
-| Add any channel that has a native Microsoft Bot Framework bot | - | Yes |
 
 <!--## Embedding Omnichannel functionality in your applications-->
 
@@ -44,10 +44,10 @@ For more information, refer to [Dynamics 365 Channel Integration Framework versi
 
 You can deeply integrate a custom messaging channel, or bring your own channel, into Omnichannel for Customer Service such that it behaves as a first-party integration and can leverage all native Omnichannel services. These services include routing, assignment, and integration with CDS data for linking customer records, cases, and so on. This functionality leverages the Azure Bot framework upon which all out-of-the-box, third-party messaging channels are integrated.
 
-For more information, refer to [Bring your own custom messaging channel: Direct Line bot](../developer/how-to/bring-your-own-channel.md).
+For more information, refer to [Configure a custom messaging channel](../administrator/configure-custom-channel.md).
 
 
 ## See also 
 
 [Bring your own custom messaging channel: Direct Line bot](../developer/how-to/bring-your-own-channel.md)<br />
-[Configure a custom messaging channel](https://docs.microsoft.com/dynamics365/omnichannel/administrator/configure-custom-channel)
+[Configure a custom messaging channel](../administrator/configure-custom-channel.md)
