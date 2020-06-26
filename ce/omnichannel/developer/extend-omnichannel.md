@@ -18,7 +18,7 @@ ms.topic: article
 | Omnichannel for Customer Service integration scenario | Channel Integration Framework V2 | Custom Messaging Channel  | 
 |---------------------------------------------------------------------|------------|------------|
 | Integrate third-party telephony          | Yes           | - |
-| Add Direct Line, Telegram, or Kik channels  | - | Yes |
+| Add Direct Line or Telegram channels  | - | Yes |
 | Add any custom chat channel that has API support via Direct Line  | - | Yes |
 | Build a web canvas for highly customized experiences using a fully programmable API (e.g. click to view ticket, click to schedule an appointment) | - | Yes |
 
