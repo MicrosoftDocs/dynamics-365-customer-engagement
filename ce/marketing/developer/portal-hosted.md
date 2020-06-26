@@ -4,7 +4,7 @@ description: "Provides information about how you can extend event management web
 ms.custom:
   - dyn365-developer
   - dyn365-marketing
-ms.date: 05/20/2019
+ms.date: 06/20/2020
 ms.service: dynamics-365-marketing
 ms.technology: 
   - "marketing"
@@ -89,7 +89,7 @@ If you want to deploy some specific files rather than all the files at once, you
 
 > [!NOTE]
 > - If you can't run the Powershell script because of your execution policy, then you need to [disable or bypass the execution policy](https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6).
-> - You should not upload the files manually, as this will result in a non-accessible website. Please use the `DeployToDynamics365Instance.ps1` script to bring your customizations in the instance.
+> - We recommend not to upload files manually becuase of the accessibility issues. Use the `DeployToDynamics365Instance.ps1` script to bring your customizations automatically in to your instance.
 
 ## Configuring cross-origin resource sharing (CORS)
 
