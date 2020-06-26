@@ -38,7 +38,7 @@ The Dynamics 365 Marketing July 2020 update includes several feature enhancement
 
 | App              | GA release      |
 |------------------|-----------------|
-| Marketing        | 1.35.10062.1050 |
+| Marketing        | 1.35.10063.1039 |
 
 > [!Tip]
 > To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](https://docs.microsoft.com/dynamics365/marketing/apply-updates#find-out-which-version-of-dynamics-365-marketing-you-are-running).
