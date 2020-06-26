@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough 7  Configure agent scripting in your agent application | MicrosoftDocs"
 description: 
-ms.date: 12/31/2019
+ms.date: 06/25/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -387,7 +387,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
 
 5. Select the ellipsis (...) in the **Action Calls** section, and then select **Add Existing Action Call**. The **Lookup Records** pane is displayed.
 
-6. Type he name of the action call mentioned in the above table in the search box. The action calls are displayed in the search results. Select the record from the list, and then select **Add**.
+6. Type the name of the action call mentioned in the above table in the search box. The action calls are displayed in the search results. Select the record from the list, and then select **Add**.
 
 7. Select the ellipsis (...) in the **Hosted Controls** section, and then select **Add Existing Hosted Control**. The **Lookup Records** pane is displayed.  
 
@@ -403,7 +403,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
 
 13. Select the ellipsis (...) in the **Agent Scripts** section, and then select **Add Existing Agent Script**. The **Lookup Records** pane is displayed.
 
-14. Type he name of the agent scrit mentioned in the above table in the search box. The agent scripts are displayed in the search results. Select the record from the list, and then select **Add**.  
+14. Type the name of the agent script mentioned in the above table in the search box. The agent scripts are displayed in the search results. Select the record from the list, and then select **Add**.  
   
 15. Select **Save**.
 
