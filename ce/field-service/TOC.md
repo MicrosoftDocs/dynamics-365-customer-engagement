@@ -109,7 +109,7 @@
 
 
 # Agreements and preventive maintenance
-## [Customer agreements](set-up-customer-agreements.md)
+## [Agreements](set-up-customer-agreements.md)
 ## [Service level agreements](sla-work-orders.md)
 ## [Agreement sub-statuses](set-up-agreement-sub-statuses.md)
 ## [Entitlements](work-order-entitlements.md)
