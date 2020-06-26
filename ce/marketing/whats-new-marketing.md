@@ -32,7 +32,7 @@ We roll out updates on a region-by-region basis. Updates are available to all re
 
 ## July 2020 update
 
-The Dynamics 365 Marketing July 2020 update includes several feature enhancements including customer journey improvements, an improved first run experience, auto-complete form fields, performance upgrades, and bug fixes.
+The Dynamics 365 Marketing July 2020 update includes several feature enhancements including customer journey improvements, improved email editor responsiveness, the ability to directly delete social posts, a warning when nearing the limit of active segments, performance upgrades, and bug fixes.
 
 ### Version number
 
@@ -46,42 +46,60 @@ The Dynamics 365 Marketing July 2020 update includes several feature enhancement
 ### Monthly feature updates
 
 - **Customer journeys**
-    - Schedule outbound tiles.
-    - View tile statistics for inflated activities.
-- **First run experience**
-    - Default contact no longer required.
-    - MktVoc no longer included in the Marketing package.
+    - Schedule permitted sending times for marketing email message tiles directly from the tile properties.
+    - View the number of contacts that are queued in an A/B test from the customer journey **Insights** pane.
 - **Marketing emails**
-    - Improved email editor performance.
-    - Email editor improvements.
-- **Marketing forms**
-    - Auto-complete for text field attributes based on existing data.
-- **Marketing insights**
-    - Flush cached HERE maps data.
+    - Improved email editor responsiveness and performance.
+    - Expanded options for multi-column layout in a single row.
 - **Segment management**
-    - Warning displayed when reaching the limit of active segments.
-    - Show next evaluation time.
+    - A warning is now displayed when you are nearing the limit of active segments.
+    - Dynamic segments now display when the segment was last evaluated and the next evaluation time.
+    - Searches auto-complete for text field attributes based on existing data.
 - **Social posting**
-    - You can now delete social posts directly from Marketing.
+    - You can now delete social posts directly from the Marketing app.
 - **Subscription center**
     - The subscription center can now handle cookieless unsubscriptions.
 
 ### Bug fixes
 
-- **Customer journeys**
-
-- **Data services**
-
+- **Content settings**
+    - Fixed an error where users were unable to update business unit default contact settings after enabling business unit scoping.
 - **Event management**
-
+    - Resolved an error that occurred when attempting to add an event webinar provider.
+- **First run experience**
+    - Marketing installation no longer fails if a default contact is not listed.
+- **Lead scoring**
+    - Fixed an issue where an "expression value is missing" error prevented new lead-scoring models from going live.
 - **Marketing emails**
-
+    - Resolved an issue where columns sometimes did not resize properly in two section layouts.
+    - Fixed an issue where the email designer layout and the preview layout occasionally did not match.
+    - Fixed an issue where text and images in emails were occasionally not responsive in Outlook.
+    - Resolved an issue where the default Marketing page did not load correctly when accessed from an email sent by a trial org.
+    - Fixed an issue where anchor flags in the email text box editor did not function as expected.
+    - Fixed a rare error where the body of an email message disappeared when HTML was pasted into the HTML tab.
+    - Resolved an error where a button in a 2:1 column layout did not align properly with the layout.
+    - Added an optional meta attribute to prevent email post-processing, enabling emails to render with no changes to the HTML.
+    - Resolved an occasional issue where background images would disappear when removing a column from an email.
+    - Fixed an issue where image heights or widths set to "auto" would post-process as being set to 0.
+    - Fixed an issue where the email designer would sometimes report as having no data, despite containing HTML.
+    - Resolved an issue where an email hero image did not change after updating the HTML.
+    - Improved the consistency of spam score calculations.
+    - Resolved an issue where image height and width displayed incorrectly after adding an image inside a text field using CKEditor.
+    - Fixed an issue where templates preview images didn't update after templates were updated.
+    - Fixed an issue where a content block could not be removed after inserting via a Marketing email template.
 - **Marketing forms**
-
+    - Fixed an error where form capture occasionally did not function properly when a form was stopped and then went live again.
 - **Marketing pages**
-
-- **Social posting**
-    - 
+    - Fixed an error where text field labels sometimes did not align correctly with text fields in marketing forms.
+    - Added a form reload button to certain subscription center error messages, enabling users to preview a form regardless of errors.
+    - Resolved an error where contacts who clicked a link from a customer journey would show up as anonymous after restarting their browser.
+    - Fixed an issue where HTML code was occasionally changed when going live with a Marketing form, resulting in formatting inconsistency.
+- **Marketing user tracking**
+    - Resolved a rare occurrence where a contact was duplicated when re-registering for an event.
+- **Segment management**
+    - Fixed a rare error where a user assigned to a team with a Marketing Manager role was not able to create a segment.
+- **Shared UX**
+    - Resolved an issue where the vertical scrollbar would occasionally not appear in **Advanced settings**.
 
 ## June 2020 update
 
