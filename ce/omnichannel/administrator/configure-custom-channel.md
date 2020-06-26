@@ -161,7 +161,7 @@ To create a custom channel, follow these steps:
 
 ## Test your channel 
 
-For more information, see the developer guide, [Bring your own custom messaging channel: Test client HTML](../developer/how-to/bring-your-own-channel-sample-html.md).
+For more information, see the developer guide, [Bring your own custom messaging channel: Test Client HTML](../developer/how-to/bring-your-own-channel-sample-html.md).
 
 ## Bring channels using Direct Line 
 
@@ -175,7 +175,7 @@ For more information, see the developer guide, [Bring your own custom messaging 
 
 [Extend Omnichannel for Customer Service](../developer/how-to/extend-omnichannel.md)<br />
 [Bring your own custom messaging channel: Direct Line bot](../developer/how-to/bring-your-own-channel.md)<br />
-[Bring your own custom messaging channel: Test client HTML](../developer/how-to/bring-your-own-channel-sample-html.md)<br />
+[Bring your own custom messaging channel: Test Client HTML](../developer/how-to/bring-your-own-channel-sample-html.md)<br />
 [Skill-based routing](overview-skill-work-distribution.md)<br>
 [Productivity tools](productivity-tools.md)<br>
 [Smart assist](smart-assist.md)<br>
