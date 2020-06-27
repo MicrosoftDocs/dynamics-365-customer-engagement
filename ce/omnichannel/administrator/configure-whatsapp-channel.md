@@ -4,7 +4,7 @@ description: "Learn about the WhatsApp channel through Twilio and how to configu
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/18/2020
+ms.date: 06/28/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -92,14 +92,14 @@ To create a WhatsApp channel, follow these steps:
     > [!div class=mx-imgBorder]
     > ![Paste the Twilio inbound URL](../media/whatsapp-channel-6.png "Paste the Twilio inbound URL") 
 
-6. In the **WhatsApp phone numbers** section, select **+ Add New WhatsApp Number**. The **New Custom Messaging Channel** page is displayed.
+6. In the **WhatsApp phone numbers** section, select **New WhatsApp Number**. The **New WhatsApp Number** page is displayed.
 
-7. In the **New WhatsApp Number** page, specify the values for the following fields:
+7. Specify the values for the following fields:
 
     | Section | Field | Description | Example  value |
     |-------------|-------------------|---------------------------|--------------------------------------|  
     | Phone number details | Name | Specify a name for the WhatsApp channel. | WhatsApp phone number |
-    | Phone number details | WhatsApp Account | The **WhatsApp Account** field is populated. However, you can change the value using the lookup. | WhatsApp channel |
+    | Phone number details | WhatsApp Account | The **WhatsApp Account** field is populated by default. However, you can change the value using the lookup. | WhatsApp channel |
     | Phone number details | WhatsApp Number | Specify the WhatsApp number. | 123456989 |
     | Work distribution | Work stream | Select the out-of-the-box work stream from the lookup. <br> To create a new work stream, see [Create work streams](work-streams-introduction.md). | WhatsApp channel work stream |
 
