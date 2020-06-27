@@ -58,7 +58,7 @@ The Dynamics 365 Marketing July 2020 update includes several feature enhancement
 - **Social posting**
     - You can now delete social posts directly from the Marketing app.
 - **Subscription center**
-    - The subscription center can now handle cookieless unsubscriptions.
+    - The subscription center can now manage cookieless unsubscriptions.
 
 ### Bug fixes
 
