@@ -15,7 +15,6 @@ ms.custom:
 
 # Frequently asked questions (FAQs) for Dynamics 365 Channel Integration Framework
 
-
 ## General FAQs
 
 ### What is Dynamics 365 Channel Integration Framework?
