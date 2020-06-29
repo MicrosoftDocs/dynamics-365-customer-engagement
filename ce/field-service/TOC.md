@@ -170,8 +170,8 @@
 
 # Integrations
 ## [Dynamics 365 Supply Chain Management](supply-chain-field-service-integration.md)
-## [Dynamics 365 Remote Assist and HoloLens](remote-assist-hololens.md)
-## [Dynamics 365 Guides on HoloLens](mixed-reality-guides-integration.md)
+## [Dynamics 365 Remote Assist](remote-assist-hololens.md)
+## [Dynamics 365 Guides](mixed-reality-guides-integration.md)
 ## [SAP integration](field-service-sap-integration.md)
 
 # Additional resources
