@@ -54,8 +54,9 @@ manager: shujoshi
     |**Customer waiting** | **Show position in queue** | Select whether to show customers their position in the queue when they're waiting to interact with an agent. <br> More information: [Show customers their position in a queue](show-queue.md) | Yes |
     | | **Show average wait time**| Select whether to show customers average wait time in the queue when they're waiting to interact with an agent. <br> More information: [Show customers their average wait time in a queue](average-wait-time.md) | Yes |
 
-5. Select **Save**. The code snippet that you need to embed in the HTML source of your website to display the chat widget is displayed in the **Code snippet** section.
-
+5. Select **Save**. The following sections are displayed:
+    - **Code snippet:** The code snippet that you need to embed in the HTML source of your website to display the chat widget is displayed in the **Widget snippet** box.
+    - **Chat Reconnect:** The toggle to configure options for providing a reconnect link to the chat user is displayed. More information: [Configure reconnection to a chat session](configure-reconnect-chat.md)
 
 
     > [!div class=mx-imgBorder]
