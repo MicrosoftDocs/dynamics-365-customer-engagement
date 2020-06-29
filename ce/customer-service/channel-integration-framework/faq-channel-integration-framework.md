@@ -4,7 +4,7 @@ description: "Frequently asked questions about the Dynamics 365 Channel Integrat
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 02/03/2020
+ms.date: 06/30/2020
 ms.topic: reference
 ms.service: 
   - dynamics-365-customerservice
@@ -73,6 +73,10 @@ When you select a particular security role for the channel provider from under t
 ### Can I load the Dynamics 365 Channel Integration Framework version 1.0 communication widget in Omnichannel for Customer Service?
 
 No, that is not supported.
+
+### Why is the widget not visible in the home session?
+
+The widget is not visible in the home session because the home session is not associated with any provider. If there is a session created which is associated to a provider, the panel can then be set to either **Minimized** or **Docked** mode. `Microsoft.CIFramework.setMode` API is not supported in the Home page.
 
 ## Dynamics 365 Channel Integration Framework version 2.0 FAQs
 
