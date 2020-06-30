@@ -1,3 +1,4 @@
+# [Voice of the Customer is deprecated](depracate.md)
 # [Voice of the Customer help and training](help-hub.md)
 ## [What's new](monthly-updates-voc.md)
 ## [Overview](get-feedback-surveys.md)
