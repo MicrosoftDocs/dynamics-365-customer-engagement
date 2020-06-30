@@ -16,23 +16,22 @@ ms.topic: article
 
 The following table shows the SKUs that correspond with each experience.
 <br>
- 
-| Experience | Customer Service Enterprise  | Chat for Dynamics 365 Add-on  | Digital Messaging Add-on  | <br>
-|------------------------------------|--------------------------|--------------------------|--------------------------|<br>
-| Telephony (via third-party) | Yes | Yes | Yes |<br>
-| Chat for Dynamics 365  | - | Yes | Yes |<br>
-| Custom chat and messaging channels via Direct Line | - | - | Yes | <br>
-
-
 
 <!--
+| Experience | Customer Service Enterprise  | Chat for Dynamics 365 Add-on  | Digital Messaging Add-on  | 
+|------------------------------------|--------------------------|--------------------------|--------------------------|
+| Telephony (via third-party) | Yes | Yes | Yes |
+| Chat for Dynamics 365  | - | Yes | Yes |
+| Custom chat and messaging channels via Direct Line | - | - | Yes |
+-->
+
 | Omnichannel for Customer Service integration scenario | Channel Integration Framework V2 | Custom Messaging Channel  | 
 |---------------------------------------------------------------------|------------|------------|
 | Integrate third-party telephony          | Yes           | - |
 | Add Direct Line or Telegram channels  | - | Yes |
 | Add any custom chat channel that has API support via Direct Line  | - | Yes |
 | Build a web canvas for highly customized experiences using a fully programmable API (e.g. click to view ticket, click to schedule an appointment) | - | Yes | 
--->
+
 
 <!--## Embedding Omnichannel functionality in your applications-->
 
