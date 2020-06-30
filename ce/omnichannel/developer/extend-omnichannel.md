@@ -17,7 +17,7 @@ ms.topic: article
 The following table shows the SKUs that correspond with each experience.
 <p>
  
-| Experience | Customer Service Enterprise  | Chat for Dynamics 365 <br />Add-on  | Digital Messaging <br />Add-on  | 
+| Experience | Customer Service Enterprise  | Chat for Dynamics 365 Add-on  | Digital Messaging Add-on  | 
 |------------------------------------|--------------------------|--------------------------|--------------------------|
 | Telephony (via third-party) | Yes | Yes | Yes |
 | Chat for Dynamics 365  | - | Yes | Yes |
