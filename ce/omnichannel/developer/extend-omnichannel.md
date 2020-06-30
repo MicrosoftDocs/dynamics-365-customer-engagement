@@ -19,9 +19,9 @@ The following table shows the SKUs that correspond with each experience.
   
 | Experience | Customer Service Enterprise  | Chat for Dynamics 365 <br />Add-on  | Digital Messaging <br />Add-on  | 
 |--------------------------------------------------------------|------------|------------|------------|
-| Telephony (via third-party)   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| Chat for Dynamics 365  | - | :heavy_check_mark: | :heavy_check_mark: |
-| Custom chat and messaging channels via Direct Line | - | - | :heavy_check_mark: | 
+| Telephony (via third-party)   | &#9745; | &#9745; | &#9745; |
+| Chat for Dynamics 365  | - | &#9745; | &#9745; |
+| Custom chat and messaging channels via Direct Line | - | - | &#9745; | 
 
 <!--
 | Omnichannel for Customer Service integration scenario | Channel Integration Framework V2 | Custom Messaging Channel  | 
