@@ -39,13 +39,13 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 |  | Region | Current version | Next version |  Scheduled date
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Station 2</strong> | |  |  | |
-| | <i>South America</i> |[3.10.31.37](whats-new-ur-20.md)|  [3.10.32.21](whats-new-ur-21.md)| June 26, 2020
-| | <i>Canada</i> |[3.10.31.37](whats-new-ur-20.md)| [3.10.32.21](whats-new-ur-21.md) | June 26, 2020 
-| | <i>India</i> |[3.10.31.37](whats-new-ur-20.md)| [3.10.32.21](whats-new-ur-21.md) | June 26, 2020
-| | <i>France</i> |[3.10.31.37](whats-new-ur-20.md)|  [3.10.32.21](whats-new-ur-21.md) | June 26, 2020
-| | <i>United Arab Emirates</i> |[3.10.31.37](whats-new-ur-20.md)|  [3.10.32.21](whats-new-ur-21.md) | June 26, 2020
-| | <i>South Africa</i> |[3.10.31.37](whats-new-ur-20.md)|  [3.10.32.21](whats-new-ur-21.md) | June 26, 2020
-| | <i>Germany</i> |[3.10.31.37](whats-new-ur-20.md)| [3.10.32.21](whats-new-ur-21.md) | June 26, 2020
+| | <i>South America</i> |[3.10.32.21](whats-new-ur-21.md)|  TBD| July 31, 2020
+| | <i>Canada</i> |[3.10.32.21](whats-new-ur-21.md)| TBD | July 31, 2020 
+| | <i>India</i> |[3.10.32.21](whats-new-ur-21.md)| TBD | July 31, 2020
+| | <i>France</i> |[3.10.32.21](whats-new-ur-21.md)|  TBD | July 31, 2020
+| | <i>United Arab Emirates</i> |[3.10.32.21](whats-new-ur-21.md)|  TBD | July 31, 2020
+| | <i>South Africa</i> |[3.10.32.21](whats-new-ur-21.md)|  TBD | July 31, 2020
+| | <i>Germany</i> |[3.10.32.21](whats-new-ur-21.md)| TBD | July 31, 2020
 |<strong>Station 3</strong> | |  |  | |
 | | <i>Japan</i> |[3.10.31.37](whats-new-ur-20.md)| [3.10.32.21](whats-new-ur-21.md) | July 3, 2020 
 | | <i>Asia Pacific</i> |[3.10.31.37](whats-new-ur-20.md)| [3.10.32.21](whats-new-ur-21.md) |  July 3, 2020
