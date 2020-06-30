@@ -125,9 +125,9 @@ If you used the mobile app on a phone or tablet temporarily and want to remove a
      > [!div class="mx-imgBorder"] 
      > ![Reconfigure](media/reconfigure.png "Reconfigure mobile app")
 
-Reconfiguring deletes all data and metadata from the cache, however do not rely on this as a security measure.
+Reconfiguring deletes data and metadata for the current organization from the cache, however do not rely on this as a security measure.
 
-Make sure you use the **Reconfigure** option before you sign out. If you sign in to another organization but you wanted to delete data for the previous organization that you were logged into, then you will need to sign back into that organization and use the **Reconfigure** option to delete all data and metadata from the cache. 
+Make sure you use the **Reconfigure** option before you sign out. If you sign in to another organization but you wanted to delete data for the previous organization that you were logged into, then you will need to sign back into that organization and use the **Reconfigure** option to delete data and metadata for that organization from the cache. 
 
 ## Mobile offline capabilities and limitations
 
