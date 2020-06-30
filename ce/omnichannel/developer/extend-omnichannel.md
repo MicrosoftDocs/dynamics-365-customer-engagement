@@ -25,12 +25,12 @@ The following table shows the SKUs that correspond with each experience.
 | Custom chat and messaging channels via Direct Line | - | - | Yes |
 -->
 
-| Omnichannel for Customer Service integration scenario | Channel Integration Framework V2 | Custom Messaging Channel  | 
-|---------------------------------------------------------------------|------------|------------|
-| Integrate third-party telephony          | Yes           | - |
-| Add Direct Line or Telegram channels  | - | Yes |
-| Add any custom chat channel that has API support via Direct Line  | - | Yes |
-| Build a web canvas for highly customized experiences using a fully programmable API (e.g. click to view ticket, click to schedule an appointment) | - | Yes | 
+| Omnichannel for Customer Service integration scenario | Channel Integration Framework V2 | Custom Messaging Channel  | new |
+|---------------------------------------------------------------------|------------|------------|------------|
+| Integrate third-party telephony          | Yes           | - | - |
+| Add Direct Line or Telegram channels  | - | Yes | - |
+| Add any custom chat channel that has API support via Direct Line  | - | Yes | - |
+| Build a web canvas for highly customized experiences using a fully programmable API (e.g. click to view ticket, click to schedule an appointment) | - | Yes |  - |
 
 
 <!--## Embedding Omnichannel functionality in your applications-->
