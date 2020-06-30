@@ -52,10 +52,6 @@ For more information, refer to [Dynamics 365 Channel Integration Framework versi
 
 You can integrate your line-of-business (in-house), social, and other messaging channels with Omnichannel for Customer Service. The custom messaging channel leverages the Azure Bot Framework to integrate the third-party channel with the Omnichannel for Customer Service app. With the fully supported API of the Azure Bot Framework, developers can build and leverage skills across Omnichannel bots, custom messaging bots, and other bot use cases.
 
-- Fully supported API (shoulder of Azure BF giant)
-- Engineering skills can be re-used across BYOC, OC bots, other
-- Intuitive way to build bot first scenarios e2e
-
 For your line-of-business (in-house) messaging channels, you can use the Direct Line channel (Azure Bot Framework method). The Direct Line API enables communication between your bot and your own client application.
 
 After integration, you can leverage the work distribution system to automatically assign work items (conversations) to the agents.
