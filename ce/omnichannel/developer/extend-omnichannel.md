@@ -16,7 +16,7 @@ ms.topic: article
 <p>
   
 | Capability | Customer Service Enterprise  | Chat for Dynamics 365 Add-on  | Digial Messaging Add-on  | 
-|---------------------------------------------------------------------|------------|------------|------------|
+|----------------------------------------------------------------|-----------------|-----------------|-----------------|
 | Telephony (via third-party)   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | Chat for Dynamics 365  | - | :heavy_check_mark: | :heavy_check_mark: |
 | Social channels  | - | - | :heavy_check_mark: |
