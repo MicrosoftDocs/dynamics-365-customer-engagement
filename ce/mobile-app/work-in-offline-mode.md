@@ -131,7 +131,7 @@ Make sure you use the **Reconfigure** option before you sign out. If you sign in
 
 ## Mobile offline capabilities and limitations
 
-For informatoin on capabilities and limitations of mobile offline, see [Mobile offline capabilities and limitations](mobile-offline-capabilities.md).
+For information on capabilities and limitations of mobile offline, see [Mobile offline capabilities and limitations](mobile-offline-capabilities.md).
 
 
 
