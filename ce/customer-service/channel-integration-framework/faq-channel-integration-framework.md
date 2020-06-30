@@ -75,7 +75,7 @@ No, that is not supported.
 
 ### Why is the widget not visible in the home session?
 
-The widget is not visible in the home session because the home session is not associated with any provider. If there is a session created which is associated to a provider, the panel can then be set to either **Minimized** or **Docked** mode. `Microsoft.CIFramework.setMode` API is not supported in the Home page.
+The widget is not visible in the home session because the home session is not associated with any provider. If there is a session created which is associated to a provider, the panel can then be set to either **Minimized**, **Docked** or **Hidden** mode for Channel Integration Framework Version 2.0, and **Minimized** or **Docked** mode for Version 1.0. `Microsoft.CIFramework.setMode` API is not supported in the Home page.
 
 ## Dynamics 365 Channel Integration Framework version 2.0 FAQs
 
