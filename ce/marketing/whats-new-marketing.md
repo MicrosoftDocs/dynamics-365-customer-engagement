@@ -25,7 +25,7 @@ search.app:
 
 We're excited to announce our newest updates! This article summarizes early access features, preview features, general availability enhancements, monthly feature updates, and bug fixes. To see the long-term feature plans, take a look at the [Dynamics 365 and Power Platform release plans](https://docs.microsoft.com/dynamics365/release-plans/).
 
-We roll out updates on a region-by-region basis. Updates are available to all regions by the end of the month. We recommend updating all Marketing instances as soon as an update is available.  To update your instances, follow the steps in [Keep Marketing up to date](apply-updates.md). To ensure your Marketing apps are up to date, you must manually update each Marketing instance.
+Marketing updates are [pushed to all customers automatically](https://cloudblogs.microsoft.com/dynamics365/it/2020/04/27/automatic-update-policy-for-dynamics-365-marketing/). Marketing follows a [phased deployment approach](https://dynamics.wiki/index.php/Dynamics_365_Marketing_Overall_Release_Calendar) aligned with the platform deployment schedule. Solutions are available for early validations. To manually update your instances, follow the steps in [Keep Marketing up to date](apply-updates.md).
 
 > [!Note]
 > To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20Marketing).
@@ -48,7 +48,7 @@ The Dynamics 365 Marketing July 2020 update includes several feature enhancement
 - **Customer journeys**
     - Schedule permitted sending times for marketing email message tiles directly from the tile properties.
         - [Docs](customer-journey-tiles-reference.md#email)
-    - View the number of contacts in the customer journey that have not yet reached the selected tile in the **Insights** pane.
+    - View the number of queued contacts in the customer journey that have not yet reached the selected tile in the **Insights** pane.
         - [Docs](insights.md#designer-insights)
 - **Marketing emails**
     - Improved email editor responsiveness and performance.
