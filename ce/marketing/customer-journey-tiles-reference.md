@@ -2,7 +2,7 @@
 title: "Customer-journey tiles (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Details for how to use each tile that is available for assembling a customer journey pipeline for Dynamics 365 Marketing"
 keywords: customer journey; tile; reference; pipeline
-ms.date: 06/09/2020
+ms.date: 07/01/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -35,7 +35,8 @@ Content-type tiles represent the various types of content that your customer jou
 The email tile sends a marketing email message to each contact that enters it. It has the following settings, which you can set by using the **Properties** pane while an email tile is selected:
 
 - **Tile name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
-- **Email**: Identify the marketing email message that the tile will send. Before you can publish your customer journey, all the marketing emails it references must also be finalized and published.
+- **Marketing email message**: Identify the marketing email message that the tile will send. Before you can publish your customer journey, all the marketing emails it references must also be finalized and published.
+- **Email expiration**: Set an expiration date and time for the email tile. All times use the time zone specified for the customer journey.
 - **Description**: Add a description or other notes here (optional).
 
 Your marketing email messages might contain special links to other Dynamics 365 Marketing features such as marketing pages, event websites, or voice-of-the-customer surveys, and you can set up customer-journey trigger tiles that react to customer interactions regarding each or any of these specifically. But even though you've selected a marketing email message that includes elements such as these, the customer journey won't know about them unless you also add a nested tile for each specific link that you want to trigger on. Add a nested marketing-page, marketing-form, event, or survey to an email tile to expose these elements and make them selectable in your trigger-tile configurations. (Triggers can also react to message opens and unspecified link clicks, but you don't need to do anything special to enable this.)
