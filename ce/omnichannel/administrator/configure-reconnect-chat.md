@@ -16,7 +16,11 @@ manager: shujoshi
 
 ## Overview
 
-Administrators can provide agents with the ability to reconnect with their customers on loss of connectivity for any reason, such as network failure or customers restarting their browser. At the beginning of the chat session, agents can share with the customer a preconfigured link that the customer can copy and use it to reconnect to the same chat and agent when the session is disconnected. By allowign customers to reconnect to the same agent helps save time and effort overall and helps improve customer satisfaction. The customer needs to connect back within the specified time and should not end the session by closing the chat window.
+When customers get disconnected in the middle of a conversation with agents on account of network disruption or any other reason, allowing them to reconnect to the same agent helps save time and effort and improve customer satisfaction. Administrators can provide agents with the ability to reconnect with their customers in such scenarios. When the reconnection feature is enabled, customers see the option to continue with the previous session or start a new conversation when they come back to the chat session. At the beginning of the chat session, agents can share with the customer a preconfigured link that the customer can copy and use it to reconnect to the same chat and agent when the session is disconnected. The unathenticated customers will be presented only with the reconnect link and not be prompted with options to start a new conversation. When customers come back after the timeout period, you can configure a redirect link to reset the context for the customers, who have to provide the details again so that the conversation is routed to an appropriate queue.
+
+> [!IMPORTANT]
+>
+> The customer needs to connect back within the specified time and should not end the session by closing the chat window.
 
 ## Enable reconnection to a previous chat session
 
@@ -30,6 +34,10 @@ You can enable the reconnection options in the chat widget either while setting 
    - **Reconnect time limit:** The value that is set for the **Auto-close after inactivity** field in the work stream associated with the chat widget is displayed.
    - **Reconnect to previous agent for:** Select a value to indicate the time within which the customer can connect back to the same agent and chat session. The agent's capacity is put on hold for the duration specified in this box.
    - **Portal URL:** Specify the link that will be shared by the agent with the customer to reconnect to the chat session.
-   - **Redirection URL:** Specify the link that the customer will be redirected to when the reconnect period times out. The redirection link resets the context for the customers who have to provide the details again so that the conversation is routed to an appropriate queue.
+   - **Redirection URL:** Specify the link that the customer will be redirected to when the reconnect period times out.
 
 4. Select **Save**.
+
+### See also
+
+[Add a chat widget](add-chat-widget.md)
