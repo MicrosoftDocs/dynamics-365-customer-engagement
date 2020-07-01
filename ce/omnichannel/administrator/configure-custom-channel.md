@@ -24,13 +24,12 @@ ms.topic: article
 
 ## Overview 
 
-Many organizations have line-of-business (in-house) messaging channels that they use to interact with their customers. Also, many customers use social messaging channels for their personal communication needs, and these customers prefer using the messaging channels to engage with businesses. Expectations of customer service via social channels are rising to the point that customers now expect the same level of service on social channels that they’re used to from call and live chat. 
+<!--Many organizations have line-of-business (in-house) messaging channels that they use to interact with their customers. Also, many customers use social messaging channels for their personal communication needs, and these customers prefer using the messaging channels to engage with businesses. Expectations of customer service via social channels are rising to the point that customers now expect the same level of service on social channels that they’re used to from call and live chat. -->
 
-As an organization, you want the ability to integrate your line-of-business (in-house), social, or any other messaging channels with Omnichannel for Customer Service. The custom channel feature lets you do this so you can engage with customers. Here are some of the messaging channel integrations that are supported:
+As an organization, you want the ability to integrate your line-of-business (in-house) messaging channels or other messaging channels with Omnichannel for Customer Service. The custom channel feature lets you do this so you can engage with customers. Here are some of the messaging channel integrations that are supported:
 
 - [Direct Line](#bring-channels-using-direct-line)
 - Telegram
-- Kik
 
 ### Value proposition
 
@@ -139,7 +138,7 @@ To create a custom channel, follow these steps:
     |-------------|-------------------|---------------------------|--------------------------------------|  
     | Details | Name | Specify a name for the custom channel | Contoso channel |
     | Details | Custom Messaging Account | The **Custom messaging account** field is populated. However, you can change the value using the lookup. | Contoso custom channel |
-    | Details | Channel ID | Select a channel from the list. The list might contain line-of-business (in-house) messaging, social, or any other messaging channel. | Telegram |
+    | Details | Channel ID | Select a channel from the list. The list might contain line-of-business (in-house) messaging or another messaging channel. | Telegram |
     | Work distribution | Work stream | Select a work stream from the lookup. | Contoso custom channel work stream |
 
     > [!Note]
