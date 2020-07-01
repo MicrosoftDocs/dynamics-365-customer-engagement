@@ -56,7 +56,7 @@ manager: shujoshi
 
 5. Select **Save**. The following sections are displayed:
     - **Code snippet:** The code snippet that you need to embed in the HTML source of your website to display the chat widget is displayed in the **Widget snippet** box.
-    - **Chat Reconnect:** The toggle to configure options for providing a reconnect link to the chat user is displayed. More information: [Configure reconnection to a chat session](configure-reconnect-chat.md)
+    - **Chat Reconnect:** The toggle to configure options for providing a reconnect link to the chat user is displayed. More information: [Configure reconnection to a previous chat session](configure-reconnect-chat.md)
 
 
     > [!div class=mx-imgBorder]
