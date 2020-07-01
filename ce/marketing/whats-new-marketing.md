@@ -47,17 +47,22 @@ The Dynamics 365 Marketing July 2020 update includes several feature enhancement
 
 - **Customer journeys**
     - Schedule permitted sending times for marketing email message tiles directly from the tile properties.
+        - [Docs](customer-journey-tiles-reference.md#email)
     - View the number of contacts that are queued in an A/B test in the customer journey **Insights** pane.
+        - [Docs](insights.md#designer-insights)
 - **Marketing emails**
     - Improved email editor responsiveness and performance.
 - **Segment management**
     - A warning is now displayed when you are nearing the limit of active segments.
     - Dynamic segments now display when the segment was last evaluated and the next evaluation time.
+        - [Docs](segmentation-lists-subscriptions.md#create-and-go-live-with-a-new-segment)
     - Searches auto-complete for text field attributes based on existing data.
 - **Social posting**
     - Social media post deletion now syncs with social channels, deleting posts in the app and on social media sites when you click delete in the Marketing app.
+        - [Docs](social-posting.md#schedule-and-post-a-message)
 - **Subscription center**
     - Users can now manage subscription preferences without downloading cookies. To unsubscribe, users can click the cookieless subscription center link in a marketing email and change their preferences.
+        - [Docs](cookies.md)
 
 ### Bug fixes
 
