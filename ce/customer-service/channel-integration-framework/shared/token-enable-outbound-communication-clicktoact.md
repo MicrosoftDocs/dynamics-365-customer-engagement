@@ -73,7 +73,8 @@ Make sure to add `initCTI`, which is an initialization method in the softphone s
 
 Click on the mobile phone icon to trigger the onclicktoact event, as shown below.
 
-![Click on the mobile phone icon to trigger the onclicktoact event](../media/phone-icon-onclicktoact.PNG "Click on the mobile phone icon to trigger the onclicktoact event") 
+|Phone icon for Version x and above|Phone icon for below Version x|
+|----|----|
 
 > [!Note]
 > Channel Integration Framework invokes the onclicktoact event only if you programmatically set the `setClickToAct` API to `true` or by configuring the **Enable Outbound Communication** to **Yes** in the channel provider configurations.
