@@ -62,7 +62,6 @@ The Dynamics 365 Marketing July 2020 update includes several feature enhancement
         - [Docs](social-posting.md#edit-reschedule-or-cancel-a-post)
 - **Subscription center**
     - Users can now manage subscription preferences without downloading cookies. To unsubscribe, users can click the cookieless subscription center link in a marketing email and change their preferences.
-        - [Docs](cookies.md)
 
 ### Bug fixes
 
