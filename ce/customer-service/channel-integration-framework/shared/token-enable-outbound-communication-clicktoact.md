@@ -1,3 +1,14 @@
+> [!IMPORTANT]
+> Minimum versions required to get this feature working without any customizations.
+> -	Platform version: 
+> -	CIF version:
+
+You can enable outbound communication by these two options.
+
+1. Using customizations on the phone control. Follow steps 1, 2, 3 and 4.
+2. Without any customizations. Follow steps 1, 3 and 4.
+
+
 To enable outbound communication for your channel, you must perform the following:
 
 - **Step 1:** In the channel provider configurations, set the **Enable Outbound Communication** field to **Yes**.
@@ -5,6 +16,8 @@ To enable outbound communication for your channel, you must perform the followin
 - **Step 2:** In the Unified Interface form, add the **Channel communication control** to the **Phone** field for which you want to enable outbound communication (ClickToAct), and publish the customizations.
 
 - **Step 3:** Register the addhandler in your JavaScript code using `Microsoft.CIFramework.addHandler("onclicktoact", <handlerFunction>)` 
+
+- **Step 4:** Click on the mobile phone icon to trigger the `onclicktoact` event.
 
 ## Step 1: Set the Enable Outbound Communication field value in the channel provider configuration
 
@@ -54,5 +67,13 @@ function initCTI() {
     log("Added clickToActhandler to the panel");
 }
 ```
+Make sure to add `initCTI`, which is an initialization method in the softphone sample code, in your own initialization code.
+
+## Step 4: Click on the mobile phone icon to trigger the onclicktoact event
+
+Click on the mobile phone icon to trigger the onclicktoact event, as shown below.
+
+![Click on the mobile phone icon to trigger the onclicktoact event](../media/phone-icon-onclicktoact.PNG "Click on the mobile phone icon to trigger the onclicktoact event") 
+
 > [!Note]
 > Channel Integration Framework invokes the onclicktoact event only if you programmatically set the `setClickToAct` API to `true` or by configuring the **Enable Outbound Communication** to **Yes** in the channel provider configurations.
