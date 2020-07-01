@@ -48,7 +48,7 @@ The Dynamics 365 Marketing July 2020 update includes several feature enhancement
 - **Customer journeys**
     - Schedule permitted sending times for marketing email message tiles directly from the tile properties.
         - [Docs](customer-journey-tiles-reference.md#email)
-    - View the number of contacts that are queued in an A/B test in the customer journey **Insights** pane.
+    - View the number of contacts in the customer journey that have not yet reached the selected tile in the **Insights** pane.
         - [Docs](insights.md#designer-insights)
 - **Marketing emails**
     - Improved email editor responsiveness and performance.
