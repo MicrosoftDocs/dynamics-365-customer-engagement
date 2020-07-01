@@ -50,15 +50,14 @@ The Dynamics 365 Marketing July 2020 update includes several feature enhancement
     - View the number of contacts that are queued in an A/B test in the customer journey **Insights** pane.
 - **Marketing emails**
     - Improved email editor responsiveness and performance.
-    - Expanded options for multi-column layout in a single row.
 - **Segment management**
     - A warning is now displayed when you are nearing the limit of active segments.
     - Dynamic segments now display when the segment was last evaluated and the next evaluation time.
     - Searches auto-complete for text field attributes based on existing data.
 - **Social posting**
-    - You can now delete social posts directly from the Marketing app.
+    - Social media post deletion now syncs with social channels, deleting posts in the app and on social media sites when you click delete in the Marketing app.
 - **Subscription center**
-    - The subscription center can now manage cookieless unsubscriptions.
+    - Users can now manage subscription preferences without downloading cookies. To unsubscribe, users can click the cookieless subscription center link in a marketing email and change their preferences.
 
 ### Bug fixes
 
