@@ -59,7 +59,7 @@ The Dynamics 365 Marketing July 2020 update includes several feature enhancement
     - Searches auto-complete for text field attributes based on existing data.
 - **Social posting**
     - Social media post deletion now syncs with social channels, deleting posts in the app and on social media sites when you click delete in the Marketing app.
-        - [Docs](social-posting.md#schedule-and-post-a-message)
+        - [Docs](social-posting.md#edit-reschedule-or-cancel-a-post)
 - **Subscription center**
     - Users can now manage subscription preferences without downloading cookies. To unsubscribe, users can click the cookieless subscription center link in a marketing email and change their preferences.
         - [Docs](cookies.md)
