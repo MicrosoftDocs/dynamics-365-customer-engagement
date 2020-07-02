@@ -294,8 +294,6 @@
           href: v2/reference/entities-attributes/msdyn_consoleapplicationtemplateparameter.md
         - name: "msdyn_sessionparticipantdata"
           href: v2/reference/entities-attributes/msdyn_sessionparticipantdata.md
-        - name: "msdyn_sessionparticipantdata"
-          href: v2/reference/entities-attributes/msdyn_sessionparticipantdata.md
 
   - name: "Known issues"
     href: known-issues.md
