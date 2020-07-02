@@ -34,9 +34,9 @@
 ## [Price list](create-price-list.md)
 ## [Products and services](create-product-or-service.md)
 ## [Service task types](set-up-service-task-types.md)
-## [Inspections](inspections.md)
+## [Inspections (public preview)](inspections.md)
 ## [Work order templates (incident types)](configure-incident-types.md)
-## [Work order summary reports (preview)](reports.md)
+## [Work order summary reports (public preview)](reports.md)
 
 # Bookable resources
 ## [Set up bookable resources](set-up-bookable-resources.md)
@@ -83,7 +83,7 @@
 ### [Edit booking templates](booking-template.md)
 ### [Booking alerts](booking-alert.md)
 ### [Schedule board tab settings](schedule-board-tab-settings.md)
-### [Preview the new schedule board](preview-schedule-board.md)
+### [Preview the new schedule board (public preview)](preview-schedule-board.md)
 
 
 # Field Service Mobile
