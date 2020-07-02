@@ -3,7 +3,7 @@ title: "Create a theme for your portal | MicrosoftDocs"
 description: "Instructions to create a theme for your portal quickly and easily brand these portals for your organization."
 ms.custom: 
   - dyn365-portal
-ms.date: 12/03/2018
+ms.date: 02/07/2020
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -23,6 +23,9 @@ search.app:
 ---
 # Create a theme for your portal
 When you build portals by using Dynamics 365 Portals, you'll be using the [[!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] front-end framework](https://getbootstrap.com/). By taking advantage of the [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] ecosystem, you can quickly and easily brand these portals for your organization.  
+
+> [!NOTE]
+> Power Apps portals are based on Bootstrap 3.3.x with the exception of [Event portal](https://docs.microsoft.com/dynamics365/marketing/developer/event-management-web-application). Portal developers should not replace Bootstrap 3 with other CSS libraries as some of the scenarios in Power Apps portals are dependent on Bootstrap 3.3.x.
 
 ## Implement portal templates by using [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)]
 
