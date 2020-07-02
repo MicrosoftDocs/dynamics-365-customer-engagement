@@ -291,7 +291,7 @@
         - name: "msdyn_consoleapplicationnotificationtemplate"
           href: v2/reference/entities-attributes/msdyn_consoleapplicationnotificationtemplate.md
         - name: "msdyn_consoleapplicatiotemplateparameter"
-          href: v2/reference/entities-attributes/msdyn_consoleapplicatiotemplateparameter.md
+          href: v2/reference/entities-attributes/msdyn_consoleapplicationtemplateparameter.md
         - name: "msdyn_sessionparticipantdata"
           href: v2/reference/entities-attributes/msdyn_sessionparticipantdata.md
         - name: "msdyn_sessionparticipantdata"
