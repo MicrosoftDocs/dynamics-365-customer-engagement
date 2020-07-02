@@ -37,7 +37,7 @@ You can add the Channel Communication Control based on your organization and bus
 
 2. Go to **Settings** > **Customizations**.
 
-3. Expand **Entites** > **Contact** and select **Forms**.<br>
+3. Expand **Entities** > **Contact** and select **Forms**.<br>
 ![Expand contact entity and select forms](../media/contact-entity-forms.PNG "Expand contact entity and select forms")
 
 4. Select the **Contact** form of the **Main** type from the list.<br>
