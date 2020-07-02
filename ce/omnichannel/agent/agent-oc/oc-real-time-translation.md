@@ -33,12 +33,12 @@ The chat content is displayed in customer language and translated language. The 
 A sample screenshot of the agent experience is as follows.
 
   > [!div class=mx-imgBorder]
-  > ![Real-time language translation for agent](../../../media/oc-agent-translated-messages.png "Real-time language translation for agent")
+  > ![Real-time language translation for agent](../../media/oc-agent-translated-messages.png "Real-time language translation for agent")
 
 A sample screenshot of the customer experience is as follows.
 
   > [!div class=mx-imgBorder]
-  > ![Real-time language translation for customer](../../../media/oc-customer-translated-messages.png "Real-time language translation for customer")
+  > ![Real-time language translation for customer](../../media/oc-customer-translated-messages.png "Real-time language translation for customer")
 
 ### See also
 
