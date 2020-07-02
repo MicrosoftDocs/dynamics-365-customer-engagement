@@ -27,8 +27,8 @@
 
 
 # Work orders
-## [Work order life cycle and statuses](work-order-status-booking-status.md)
 ## [Create a new work order](create-work-order.md)
+## [Work order life cycle and statuses](work-order-status-booking-status.md)
 ## [Add account details to a work order](work-order-customer-account.md)
 ## [Work order types](create-work-order-types.md)
 ## [Price list](create-price-list.md)
