@@ -73,7 +73,7 @@ Make sure to add `initCTI`, which is an initialization method in the softphone s
 
 Click on the mobile phone icon to trigger the `onclicktoact` event, as shown below.
 
-|Phone icon for Version x and above|Phone icon for below Version x|
+|Mobile phone with customizations|Mobile phone icon without customizations|
 |----|----|
 |![Click on the mobile phone icon to trigger the onclicktoact event](../media/custom-control-phone-icon.PNG "Click on the mobile phone icon to trigger the onclicktoact event") |![Click on the mobile phone icon to trigger the onclicktoact event](../media/oob-phone-icon.PNG "Click on the mobile phone icon to trigger the onclicktoact event")|
 
