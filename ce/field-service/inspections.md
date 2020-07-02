@@ -2,7 +2,7 @@
 title: "Dynamics 365 Field Service inspections | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 06/22/2020
+ms.date: 06/29/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -457,3 +457,6 @@ Storing and retrieving each inspection response in Common Data Model is not part
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing a work order service task in Field Service, with attention to the related section being empty.](./media/inspections-known-issue-cant-view-inspection.jpg)
 
+- Inactive inspections and work order service tasks are not available in offline mode. 
+- Inspections do not load in Internet Explorer. Edge or Chrome are recommended. 
+- The question type "Entity lookup" shows inactive records.
