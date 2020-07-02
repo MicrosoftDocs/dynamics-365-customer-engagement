@@ -284,12 +284,10 @@
           href: v2/reference/entities-attributes/msdyn_consoleapplicationnotificationfield.md
         - name: "msdyn_consoleapplicationnotificationtemplate"
           href: v2/reference/entities-attributes/msdyn_consoleapplicationnotificationtemplate.md
-        - name: "msdyn_consoleapplicationnotificationtemplate"
-          href: v2/reference/entities-attributes/msdyn_consoleapplicationnotificationtemplate.md
+        - name: "msdyn_consoleapplicationnsessiontemplate"
+          href: v2/reference/entities-attributes/msdyn_consoleapplicatiosessiontemplate.md
         - name: "msdyn_consoleapplicationtemplate"
           href: v2/reference/entities-attributes/msdyn_consoleapplicationtemplate.md
-        - name: "msdyn_consoleapplicationnotificationtemplate"
-          href: v2/reference/entities-attributes/msdyn_consoleapplicationnotificationtemplate.md
         - name: "msdyn_consoleapplicatiotemplateparameter"
           href: v2/reference/entities-attributes/msdyn_consoleapplicationtemplateparameter.md
         - name: "msdyn_sessionparticipantdata"
