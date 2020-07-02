@@ -345,9 +345,9 @@ Enter in the following code snippet:
 
       }
       
-  Ensure the web resource triggers On Save of the form.
+  Ensure the web resource triggers on save of the form.
   
-  Save and Publish customizations.
+  Save and publish customizations.
 
 ## FAQs
 
