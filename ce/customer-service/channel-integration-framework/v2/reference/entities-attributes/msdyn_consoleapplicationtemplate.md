@@ -773,18 +773,6 @@ Same as msdyn_consoleapplicationsessiontemplate entity [msdyn_msdyn_consoleappli
 |AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
 |CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
-<a name="manytoone"></a>
-
-## Many-To-One Relationships
-
-Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
-
-
-### <a name="BKMK_msdyn_msdyn_consoleapplicationtype_msdyn_consoleapplicationtemplate_PageType"></a> msdyn_msdyn_consoleapplicationtype_msdyn_consoleapplicationtemplate_PageType
-
-See msdyn_consoleapplicationtype Entity [msdyn_msdyn_consoleapplicationtype_msdyn_consoleapplicationtemplate_PageType](msdyn_consoleapplicationtype.md#BKMK_msdyn_msdyn_consoleapplicationtype_msdyn_consoleapplicationtemplate_PageType) One-To-Many relationship.
-<a name="manytomany"></a>
-
 ## Many-To-Many Relationships
 
 Relationship details provided where the msdyn_consoleapplicationtemplate entity is the first entity in the relationship. Listed by **SchemaName**.
