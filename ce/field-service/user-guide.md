@@ -2,7 +2,7 @@
 title: "User Guide (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom:
   - dyn365-fieldservice
-ms.date: 05/07/2020
+ms.date: 07/02/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite:
@@ -42,10 +42,11 @@ Before we begin, here are the top places for information about Field Service:
   - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 3: Set up bookable resources](https://youtu.be/g118F_LnxyE)
   - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 4: Work orders](https://youtu.be/lblmqd7qFwg)
   - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 5: Schedule board](https://youtu.be/-noHEU7wgiQ)
-  - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 6a: Automated scheduling scenarios with Field Service](https://youtu.be/fcQwIXgmnqk)
-  - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 6b: Set up automatic scheduling for work orders](https://youtu.be/oJ-3HTJWRMo)
-  - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 7: Set up Connected Field Service with Azure IoTCentral](https://youtu.be/Sp7_JoXjHDk)
-  - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 8: Set up and use Remote Assist with Field Service](https://youtu.be/ida7f0gtAYU)
+  - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 6: Schedule assistant](https://youtu.be/QOrePYZ9fds)
+  - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 7a: Automated scheduling scenarios with Field Service](https://youtu.be/fcQwIXgmnqk)
+  - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 7b: Set up automatic scheduling for work orders](https://youtu.be/oJ-3HTJWRMo)
+  - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 8: Set up Connected Field Service with Azure IoTCentral](https://youtu.be/Sp7_JoXjHDk)
+  - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Module 9: Set up and use Remote Assist with Field Service](https://youtu.be/ida7f0gtAYU)
 - [Ideas](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20for%20Field%20Service): This is the portal where you can contribute product feedback and ideas.
 
 - [Forum](https://community.dynamics.com/365/fieldservice): The place to ask questions, find answers, and see upcoming events.
