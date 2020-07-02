@@ -139,6 +139,7 @@
 ## [Schedule in sequence](rso-requirement-dependency.md)
 ## Running resource scheduling optimization
 ### [Publishing + monitoring](rso-schedule-optimization.md)
+### [Simulations](rso-simulation.md)
 ### [Overnight scheduling](rso-overnight-scheduling.md)
 ### [Single resource optimization](single-resource-optimization.md)
 ## [Analytics dashboard](scheduling-analytics-reports.md)
