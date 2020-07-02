@@ -110,6 +110,7 @@
 
 
 ### Settings
+#### [Enable language translation for conversations](administrator/enable-chat-translation.md)
 #### [Create and manage operating hours](administrator/create-operating-hours.md)
 #### [Set up location detection](administrator/geo-location-provider.md)
 #### [Create and manage data masking rules](administrator/data-masking-settings.md)
@@ -144,6 +145,7 @@
 #### [Search for transcripts](agent/agent-oc/oc-search-transcipts.md)
 #### [View conversation and session forms](agent/agent-oc/oc-view-activity-types.md)
 #### [View customer summary for an incoming conversation request](agent/agent-oc/oc-view-customer-summary-incoming-conversation-request.md)
+#### [Real-time language translation of conversations](agent/agent-oc/oc-real-time-translation.md)
 #### Channels
 ##### [Use SMS channel](agent/agent-oc/sms-telesign-twilio.md)
 ##### [Use Facebook channel](agent/agent-oc/facebook.md)
