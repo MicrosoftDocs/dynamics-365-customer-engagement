@@ -94,7 +94,7 @@ The details you'll see for a SMS channel are as configured by your administrator
 >
 > The alert is displayed only when the missed notifications feature is enabled by your administrator.
 
-When you do not respond to an incoming conversation notification, you will see an alert at the top of your dashboard, and your presence status will be set to inactive. You can respond to the alert or change your status. Your presence will be reset to the status that was last defined by the system. You will not be assigned new tasks till your presence is reset. Your supervisor also can reset your presence.
+When you do not respond to an incoming conversation notification, you will see an alert at the top of your dashboard, and your presence status will be set to inactive. You can respond to the alert or change your status. Your presence will be reset to the status that was last defined by the system. You will not be assigned new tasks till your presence is reset to a state in which you can be assigned tasks, which is based on the allowed presence set in the work stream. Your supervisor also can reset your presence.
 
  > [!div class=mx-imgBorder]
  > ![Missed notification alert](../../media/agent-missed-notification.png "Missed notification alert")
