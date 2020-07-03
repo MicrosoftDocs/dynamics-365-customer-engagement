@@ -2,7 +2,7 @@
 title: "Configure the schedule board (Dynamics 365 Field Service and Dynamics 365 Project Service Automation) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/30/2017
+ms.date: 06/26/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
@@ -36,8 +36,10 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
 > 4. On the **Connect to Maps** field, choose **Yes**.  
 > 5. Accept the terms and save the record. 
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ynSg]
+
 > [!Note]
-> Along with this article, see [this video on the schedule board](https://youtu.be/-noHEU7wgiQ).
+> For additional Field Service videos, see [this full playlist](https://aka.ms/fs-videos).
   
 ## View the schedule board  
   
