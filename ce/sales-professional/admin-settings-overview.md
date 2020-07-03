@@ -39,6 +39,9 @@ The **Standard settings** page provides an intuitive experience of setting up wh
 > [!div class="mx-imgBorder"]
 > ![Standard settings page](media/standard-settings-page.png "Standard settings page")
 
+> [!TIP]
+> To learn how to use the site map to go to different areas of the app, see [Site map on the side](learn-basics-sales-professional.md#site-map).
+
 ## Advanced settings
 
 When you want more advanced-level settings to configure the app, or
