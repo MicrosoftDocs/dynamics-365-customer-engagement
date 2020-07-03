@@ -97,6 +97,7 @@
 ##### [Manage session templates](administrator/session-templates.md)
 ##### [Manage application tab templates](administrator/application-tab-templates.md)
 ##### [Manage notification templates](administrator/notification-templates.md)
+##### [Enable missed notifications](administrator/manage-missed-notifications.md)
 ##### [Use automation dictionary to pass data parameters keys](administrator/automation-dictionary-keys.md)
 ##### [Associate templates with workstreams](administrator/associate-templates.md)
 
