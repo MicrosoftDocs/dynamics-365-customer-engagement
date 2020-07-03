@@ -91,6 +91,7 @@ This list identifies all services to which Dynamics 365 for Phones and Tablets t
 | --- | --- | --- |
 | management.azure.com |https |Between version 13.19022.10 and 13.19081.22, used to fetch the list of apps to populate the app list. |
 | api.businessappdiscovery.microsoft.com |https |Starting with version 13.19091.0, used to fetch the list of apps to populate the app list. |
+| api.powerapps.com |https |Starting with version 4.3.20071.0 (Android) and 13.20071.0 (iOS), used to fetch the list of apps to populate the app list. |
 
   
 ### Security privileges  

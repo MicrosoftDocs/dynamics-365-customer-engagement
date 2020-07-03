@@ -27,16 +27,16 @@
 
 
 # Work orders
-## [Work order life cycle and statuses](work-order-status-booking-status.md)
 ## [Create a new work order](create-work-order.md)
+## [Work order life cycle and statuses](work-order-status-booking-status.md)
 ## [Add account details to a work order](work-order-customer-account.md)
 ## [Work order types](create-work-order-types.md)
 ## [Price list](create-price-list.md)
 ## [Products and services](create-product-or-service.md)
 ## [Service task types](set-up-service-task-types.md)
-## [Inspections](inspections.md)
+## [Inspections (public preview)](inspections.md)
 ## [Work order templates (incident types)](configure-incident-types.md)
-## [Work order summary reports (preview)](reports.md)
+## [Work order summary reports (public preview)](reports.md)
 
 # Bookable resources
 ## [Set up bookable resources](set-up-bookable-resources.md)
@@ -83,7 +83,7 @@
 ### [Edit booking templates](booking-template.md)
 ### [Booking alerts](booking-alert.md)
 ### [Schedule board tab settings](schedule-board-tab-settings.md)
-### [Preview the new schedule board](preview-schedule-board.md)
+### [Preview the new schedule board (public preview)](preview-schedule-board.md)
 
 
 # Field Service Mobile
@@ -109,7 +109,7 @@
 
 
 # Agreements and preventive maintenance
-## [Customer agreements](set-up-customer-agreements.md)
+## [Agreements](set-up-customer-agreements.md)
 ## [Service level agreements](sla-work-orders.md)
 ## [Agreement sub-statuses](set-up-agreement-sub-statuses.md)
 ## [Entitlements](work-order-entitlements.md)
@@ -170,8 +170,8 @@
 
 # Integrations
 ## [Dynamics 365 Supply Chain Management](supply-chain-field-service-integration.md)
-## [Dynamics 365 Remote Assist and HoloLens](remote-assist-hololens.md)
-## [Dynamics 365 Guides on HoloLens](mixed-reality-guides-integration.md)
+## [Dynamics 365 Remote Assist](remote-assist-hololens.md)
+## [Dynamics 365 Guides](mixed-reality-guides-integration.md)
 ## [SAP integration](field-service-sap-integration.md)
 
 # Additional resources

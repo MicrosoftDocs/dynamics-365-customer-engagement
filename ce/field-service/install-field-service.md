@@ -30,10 +30,12 @@ To get fully up and running with Field Service, you'll need to:
 3. Install the Woodford mobile configurator
 4. Install and configure the mobile project template
 
-In this article, we'll walk through each of these steps. 
+In this article, we'll walk through each of these steps. See the following video for an additional walkthrough.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4yt5e]
 
 > [!Note]
-> Along with this article, see the video: ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Field Service installation and setup](https://youtu.be/hvcqAbe4g4E)
+> For additional Field Service videos, see [this full playlist](https://aka.ms/fs-videos).
 
 ## Prerequisites
 
