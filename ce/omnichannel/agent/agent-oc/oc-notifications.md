@@ -86,9 +86,7 @@ The identification of a customer happens based on the **Mobile Phone** field pre
 
 The details you'll see for a SMS channel are as configured by your administrator.
 
-## Preview: Handling missed notification alerts
-
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
+## Preview: Missed notification alerts
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 

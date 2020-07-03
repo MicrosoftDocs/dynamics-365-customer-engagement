@@ -231,24 +231,6 @@ As an administrator, you need to customize the notification template to show the
 
 #### Step 3: Save the changes
 
-## Preview: Manage missed notifications
-
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
-You can now choose for agent status to be set to inactive automatically when agents miss notifications for incoming chat conversations. When you enable the tracking of missed notifications, apart from the status change, a missed notifications message will appear on the agent dashboard. The agents can reset their status using the reset presence option that is displayed with the notification or manually changing their status.
-
-### Enable tracking of missed notifications
-
-1. In the Omnichannel Administration app, select **Notifications** under **Agent Experience** in the sitemap.
-2. On the **Omnichannel Configuration** page, select the **Missed Notifications** tab.
-3. Set the toggle to **Yes** for **Change agent status to inactive after a missed notification**. The **Status name** and **Status description** settings appear.
-4. Select **Save**.
-
-> [!div class=mx-imgBorder] 
-> ![Enable missed notifications](../media/enable-missed-notifications.png "Enable missed notifications")
-
 ### See also
 
 [Manage session templates](session-templates.md)  

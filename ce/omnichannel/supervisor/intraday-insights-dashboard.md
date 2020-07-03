@@ -100,9 +100,9 @@ This section of the dashboard consists of the following KPIs:
 | KPI | Description |
 |-------|-------|
 | Agent name | A list of the agent names for the queue. |
-| Presence | The presence of the agents, either available or offline. You can reset the presence of an agent through the dashboard. The new presence becomes effective after 30 seconds. |
-| Available capacity | The available capacity for the agent(s). | 
-| Total capacity | The total amount of capacity for the agents. | 
+| Presence | The presence of the agents. You can reset the presence of an agent through the dashboard. The new presence becomes effective within 30 seconds, and the change is reflected after the dashboard is refreshed. |
+| Available capacity | The available capacity for the agents. |
+| Total capacity | The total amount of capacity for the agents. |
 | Ongoing Conversations | The number of conversations that are in progress. |
 | Avg handle time (min) | The average conversation handle time, in minutes. |
 
