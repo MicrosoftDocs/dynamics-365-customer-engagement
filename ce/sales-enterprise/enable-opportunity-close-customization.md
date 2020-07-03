@@ -35,6 +35,29 @@ To enable customization:
 4.  Select **OK**.
 
 
+## Verify that Opportunity Close entity is added to the app
+
+Even after doing these steps, if the Opportunity Close quick create form isn't available while closing an opportunity, verify that the Opportunity Close entity is added to the app. By default, the Opportunity Close entity is added to the Sales Hub app. 
+
+To verify:
+
+1. In your app, select the **Settings** icon, and then select **Advanced Settings**.
+
+    > [!div class="mx-imgBorder"]  
+    > ![Advanced Settings link in the site map](media/advanced-settings-option.png "Advanced Settings link in the site map")
+
+    The **Business Management settings** page opens in a new browser tab.
+
+2. On the navigation bar, select **Settings** and then under **Application**, select **Apps**. 
+
+3. On the Apps page, in the Sales Hub tile, select the **More Options** icon ![More Options icon](media/apps-more-options-icon.png "More Options icon"), and then select **Open in App Designer**.
+
+4. In the app designer, on the right side, select the **Components** tab, and under **Artifacts**, select **Entities**.
+
+5. In the entity list, check whether  the Opportunity Close entity is selected. If it is selected, it means that the entity is added to the app. If not, add the entity to the app. To learn how to add an entity to an app, see [Add components to your app](/powerapps/maker/model-driven-apps/build-first-model-driven-app#add-components-to-your-app).
+
+
+
 > [!IMPORTANT]
 With the April 2020 release, this setting is also available in the **App Settings** area of the Sales Hub app itself. To go to this setting:
 > 1. At the bottom of the site map, select **Change area** ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**. 
