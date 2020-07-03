@@ -57,6 +57,7 @@ The default, an application command bar or ribbon is defined by [!INCLUDE[pn_dyn
 > 
 > - If you want to remove a button that is associated with a specific privilege, you should adjust the privileges for the entity in the security roles in your implementation. This will allow the default ribbon display and enables rules to hide or disable ribbon elements from users who do not have the necessary privileges to perform those actions.  
 >   -   If you want to replace an existing ribbon element with a custom ribbon element, you can overwrite that element by specifying a `CustomAction.Location` value identical to the existing element.  
+> - Since the `HideCustomAction` removes ribbon elements from the ribbon, it will not work for OOB buttons. If you want to hide an out of the box button, please use a displayrule or hideaction.
   
  The **HideActionId** element provides a unique ID for the action. For consistency and readability, you should follow the same naming convention described for `<CustomAction>` elements. The **Location** attribute must match the Id of the ribbon element you want to remove.  
   
