@@ -1,7 +1,7 @@
 ---
 title: "Configure reconnection to a chat session | MicrosoftDocs"
 description: "Administrator steps for configuring reconnect chat in Omnichannel for Customer Service."
-ms.date: 05/01/2020
+ms.date: 08/01/2020
 ms.service:
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -18,7 +18,23 @@ manager: shujoshi
 
 ## Overview
 
-When customers get disconnected in the middle of a conversation with agents on account of network disruption or any other reason, allowing them to reconnect to the same agent helps save time and effort and improve customer satisfaction. Administrators can provide agents with the ability to reconnect with their customers in such scenarios. When the reconnection feature is enabled, customers see the option to continue with the previous session or start a new conversation when they come back to the chat session. At the beginning of the chat session, agents can share with the customer a preconfigured link that the customer can copy and use it to reconnect to the same chat and agent when the session is disconnected. The unathenticated customers will be presented only with the reconnect link and not be prompted with options to start a new conversation. When customers come back after the timeout period, you can configure a redirect link to reset the context for the customers, who have to provide the details again so that the conversation is routed to an appropriate queue.
+When customers are disconnected in the middle of a conversation with agents on account of network disruption or any other reason, providing an  option to allow them to reconnect to the same agent helps save time and effort and improves customer satisfaction. Administrators can provide agents with the ability to reconnect with their customers in such scenarios.
+
+### How reconnection to a previous chat works
+
+When enabled, the reconnection to a chat session works as follows:
+
+#### Reconnect through prompt
+
+Authenticated customers are presented with options to continue with the previous session or start a new conversation when they come back to the chat session.
+
+#### Reconnect with link
+
+The agent shares the reconnection link with the customers during the conversation with information on the expiry time of the link within which the customer has to reconnect. Administrators can configure the link and expiry time information as quick responses for agents.
+
+#### Redirect link
+
+When customers come back after the timeout period, to make sure that the conversation is routed to an appropriate queue, you can optionally configure a redirect link that will reset the context for the customers, who have to provide the details again. If no redirect link is configured, the customer has to restart a fresh conversation.
 
 > [!IMPORTANT]
 >
@@ -35,8 +51,8 @@ You can enable the reconnection options in the chat widget either while setting 
 3. On the ***<widget_name>* Chat Widget** page, in the **Chat Reconnect** area, set the toggle to **Yes** to enable reconnection to previous chat. The following options are displayed:
    - **Reconnect time limit:** The value that is set for the **Auto-close after inactivity** field in the work stream associated with the chat widget is displayed.
    - **Reconnect to previous agent for:** Select a value to indicate the time within which the customer can connect back to the same agent and chat session. The agent's capacity is put on hold for the duration specified in this box.
-   - **Portal URL:** Specify the link that will be shared by the agent with the customer to reconnect to the chat session.
-   - **Redirection URL:** Specify the link that the customer will be redirected to when the reconnect period times out.
+   - **Portal URL:** Specify the link that will be shared by the agent with the customer to reconnect to the chat session. This must be the link to the page on which the chat widget is displayed.
+   - **Redirection URL:** Optionally, specify the link that the customer will be redirected to when the reconnect period times out. When left blank, the customer sees the option to start a new chat conversation.
 
     > [!div class=mx-imgBorder]
     > ![Configure reconnection to a previous chat session](../media/reconnect-chat.png "Configure reconnection to a previous chat session")
