@@ -12,7 +12,7 @@ In this article, we'll take a look at the schedule assistant's advanced filters:
 - Ignore proposed bookings
 
 > [!Note]
-> For more information, see the video ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Schedule Assistant: advanced filters](https://youtu.be/s6yvVv99Bnw).
+> For more information, see the video ![Video symbol](../../field-service/media/video-icon.png "Video symbol") [Schedule Assistant: advanced filters](https://youtu.be/s6yvVv99Bnw).
 
 ## Prerequisites
 
