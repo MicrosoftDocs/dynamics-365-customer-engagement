@@ -225,7 +225,7 @@ Here is the customer asset that results from the used work order product. Notice
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of closed by and closed on fields](./media/work-order-statuses-closed-on-closed-by.png)
+> ![Screenshot of record log](./media/work-orders-record-log.png)
 
 
 ### Booking status processes

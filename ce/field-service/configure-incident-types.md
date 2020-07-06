@@ -2,7 +2,7 @@
 title: "Configure incident types in Dynamics 365 Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 04/01/2020
+ms.date: 07/06/2020
 ms.service: dynamics-365-customerservice
 ms.reviewer: krbjoran
 ms.technology: 
@@ -230,9 +230,15 @@ Go to **Related** > **Incidents** > **+New Incident Type** and add another incid
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a work order incident information form](./media/work-order-incident-type-add-multiple.png)
 
-Though the primary incident estimated duration will not change, the duration of the related resource requirement will be increased by the new incident's duration. 
+Though the primary incident estimated duration will not change, the **Total Estimated Duration** field in the Record Log section of the work order will be udpated.  
 
-In the following screenshot, we can see the requirement duration was increased to 4.5 hours and another characteristic was added to the work order requirement.
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a estimated total duration](./media/work-order-incident-type-estimated-duration.png)
+
+> [!Note]
+> Total Estimated Duration is also increased when individual Work Order Service Tasks are added to Work Orders.
+
+The duration of the related resource requirement will also be increased by the new incident's duration. In the following screenshot, we can see the requirement duration was increased to 4.5 hours and another characteristic was added to the work order requirement.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a resource requirement with populated duration](./media/work-order-incident-type-add-multiple-requirement.png)
