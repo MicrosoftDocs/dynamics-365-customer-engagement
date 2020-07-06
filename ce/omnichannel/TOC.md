@@ -254,6 +254,7 @@
 
 ## Developer guide
 ### [Overview](developer/omnichannel-developer.md)
+### [Extend Omnichannel for Customer Service](developer/extend-omnichannel.md)
 ### How to
 #### [Manage custom context](developer/how-to/send-context-starting-chat.md)
 #### [Display custom context](developer/how-to/display-custom-context.md)
@@ -262,13 +263,12 @@
 #### [Start chat proactively](developer/how-to/start-proactive-chat.md)
 #### [Enable a bot to escalate and end conversation](developer/bot-escalate-end-conversation.md)
 #### [Auto-close a conversation](developer/auto-close-conversation.md)
-#### [Extend Omnichannel for Customer Service](developer/extend-omnichannel.md)
 #### Smart assist bot
 ##### [Build a smart assist bot](developer/how-to/smart-assist-bot.md)
 ##### [Implement custom scenario](developer/how-to/smart-assist-scenario.md)
-#### Bring your own channel
+#### Bring your own custom messaging channel
 ##### [Overview](developer/how-to/bring-your-own-channel.md)
-##### [Sample HTML for custom messaging channel](developer/how-to/bring-your-own-channel-sample-html.md)
+##### [Test the custom messaging channel](developer/how-to/bring-your-own-channel-sample-html.md)
 #### [Customize chat widget](developer/how-to/customize-chat-widget.md)
 #### [Enable third-party co-browse](developer/how-to/third-party-co-browse.md)
 ### [Live chat widget telemetry](developer/live-chat-telemetry.md)
