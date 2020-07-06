@@ -63,10 +63,12 @@ In this topic, we explore work order and booking statuses with the following sce
 ## Prerequisites
 
 - Any version of Field Service
+- Fields and processes related to First Arrvied On, Completed On, and Total Estimated Duration are available with Field Service 8.8+
 - You must be logged in as a user with **Field Service - Dispatcher**, **Field Service - Administrator**, or **System Administrator** security roles to edit work order substatuses and booking statuses
 
 > [!Note]
 > Work order system statuses should *never* be edited because system jobs and plug-ins rely on these statuses. Instead, administrators should create custom work order substatuses that relate to work order system statuses.
+
 
 ## Statuses and the work order life cycle
 
@@ -264,7 +266,7 @@ Here is the customer asset that results from the used work order product. Notice
 - **Total Billable Duration** is updated, calculated as the sum total of total duration in progress and total break duration.
 - **Booking Journals** created. Booking journals use booking timestamps to calculate the working duration, travel time, and break time for a specific booking. Booking journals also calculate internal resource costs for bookings based on resource's hourly rate as defined on the bookable resource record.
 - **Booking Timestamp** is created.
-- **Completed On (Work Order)** field on the related _work order_ is updated with the End time of the booking. If the booking End Time is edited, manually or otherwise, Completed On will be udpated. If there are multiple bookings, this field is udpated with the End Time of the last booking.  
+- **Completed On (Work Order)** field on the related _work order_ is updated with the End time of the booking. If the booking End Time is edited, manually or otherwise, Completed On will be udpated. If there are multiple bookings, this field is udpated with the End Time of the last booking, meaning the most recently completed booking related to the work order.  
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of end time updated](./media/work-order-statuses-end-time.png)
