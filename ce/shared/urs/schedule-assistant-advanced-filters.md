@@ -30,7 +30,7 @@ The schedule assistant will use the location of the technician's mobile device w
 
 The mobile device's location is collected from the time of the last sync to a defined threshold in the past. The time threshold for when the acceptable location of a previous sync is defined in the **Geo Location Expires After X Minutes** field found in **Resource Scheduling app** > **Settings** > **Administration** > **Scheduling parameters**.
 
-See the article on [geofencing](geofencing.md) to learn how to set up location auditing and sharing.
+See the article on [geofencing](../../field-service/geofencing.md) to learn how to set up location auditing and sharing.
 
 ## Ignore travel time
 
