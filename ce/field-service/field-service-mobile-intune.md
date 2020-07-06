@@ -2,7 +2,7 @@
 title: "Device and app management with Microsoft Intune | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 05/21/2020
+ms.date: 07/06/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -45,6 +45,7 @@ With an Intune-enabled Field Service Mobile app, IT administrators can:
 ## Prerequisites
 
 - Field Service Mobile v12.1+ for iOS and Android
+  - Intune for Field Service Mobile on **Windows 10 devices is not supported**
 - No Field Service Mobile Configurator (Woodford) requirements 
 
 
