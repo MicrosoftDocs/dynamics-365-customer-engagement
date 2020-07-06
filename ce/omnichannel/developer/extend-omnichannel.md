@@ -64,7 +64,7 @@ For more information, refer to [Dynamics 365 Channel Integration Framework versi
 
 You can integrate your line-of-business (in-house), social, and other messaging channels with Omnichannel for Customer Service. This is primarily done through configuring a custom messaging channel via Direct Line. After integration, you can leverage the work distribution system to automatically assign work items (conversations) to agents on these custom channels.
 
-Direct Line allows custom channels to be brought into Omnichannel for Customer Service, and is a function of the Microsoft Bot Framework. Organizations wanting a custom channel will setup a Direct Line connection through the Azure Bot Service (which will incur Azure charges), which is then brought into Omnichannel for Customer Service.
+Direct Line allows custom channels to be brought into Omnichannel for Customer Service by leveraging the Microsoft Bot Framework. To bring in a custom channel, you can set up a Direct Line connection through the Azure Bot Service (which will incur Azure charges), and then bring that Direct Line bot into Omnichannel for Customer Service.
 
 For more information, refer to [Configure a custom messaging channel](../administrator/configure-custom-channel.md).
 
