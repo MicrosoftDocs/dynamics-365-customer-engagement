@@ -12,7 +12,9 @@ In this article, we'll take a look at the schedule assistant's advanced filters:
 - Ignore proposed bookings
 
 > [!Note]
-> For more details see the video ![Video symbol](../../field-service/media/video-icon.png "Video symbol") [Schedule Assistant: advanced filters](https://youtu.be/s6yvVv99Bnw).
+> For more information, see the video ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Schedule Assistant: advanced filters](https://youtu.be/s6yvVv99Bnw).
+
+
 
 ## Prerequisites
 
@@ -23,6 +25,7 @@ The schedule assistant is a part Universal Resource Scheduling, which is include
 Filtering by real-time mode can be useful in emergency scenarios where a dispatcher needs to book the closest possible resource, so that they can arrive onsite more quickly.
 
 The schedule assistant will use the location of the technician's mobile device when calculating the estimated travel time to arrive at the work order location. The "real time" location is displayed on the schedule board map as a truck icon.
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the hourly view of the filter and map view, showing a truck icon on the map.](../../field-service/media/scheduling-schedule-assistant-real-time-mode.png)
@@ -46,7 +49,7 @@ The schedule assistant will ignore the requirement duration when determining if 
 
 ## Ignore proposed bookings
 
-Many organizations will mark their bookings with a booking status of **Proposed** until a customer or client commits to the schedule. In such cases, dispatchers may want to view those time slots as available for other work that is more important or ready to be coommmitted. 
+Many organizations will mark their bookings with a booking status of **Proposed** until a customer or client commits to the schedule. In such cases, dispatchers may want to view those time slots as available for other work that is more important or ready to be commmitted. 
 
 With the **Ignore proposed bookings** advanced filter, the schedule assistant will ignore bookings where the Booking status is **Proposed**, and will treat that time slot as available.
 
@@ -60,13 +63,13 @@ The schedule assistant will double book on top of bookings where the **Allow Ove
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a bookable resource booking, where "allow overlapping" is set to "yes."](../../field-service/media/scheduling-schedule-assistant-allow-overlapping.png).
 
-This filter is similar to the Ignore proposed bookings filter except it is unrelated to the booking status because any booking can be set to allow overlapping.
+This filter is similar to the **Ignore proposed bookings** filter, except it's unrelated to the booking status because any booking can be set to allow overlapping.
 
 ## Configuration considerations
 
 ### Default values and sorting
 
-When the schedule assistant is triggered, you'll see that some fields have default values. As an example, schedule assistant search results are listed in alphabetical order by default. These default values can be changed in the **Schedules Assistant Retrieve Constraints Query**.
+When the schedule assistant is triggered, you'll see that some fields have default values. For example, schedule assistant search results are listed in alphabetical order by default. These default values can be changed in the **Schedules Assistant Retrieve Constraints Query**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Schedules Assistant Retrieve Constraints Query. ](../../field-service/media/scheduling-schedule-assistant-retreive-resources-query.png)
