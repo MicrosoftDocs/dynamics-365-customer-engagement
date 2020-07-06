@@ -4,7 +4,7 @@ description: "Embed Omnichannel for Customer Service functionality into your web
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 06/30/2020
+ms.date: 07/06/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -12,7 +12,13 @@ ms.topic: article
 
 # Extend Omnichannel for Customer Service
 
-<!--You can extend Omnichannel for Customer Service to either embed Omnichannel for Customer Service functionality into your own websites or bring functionality from other applications into Omnichannel for Customer Service.--> Microsoft Dynamics 365 supports several scenarios to extend Omnichannel for Customer Service. To integrate your in-house telephony channel into Omnichannel for Customer Service, you can use Dynamics 365 Channel Integration Framework version 2.0. To add Direct Line or Telegram channels, add custom chat channels, or build a web canvas for highly customized experiences, you can bring your own custom messaging channel. 
+<!--You can extend Omnichannel for Customer Service to either embed Omnichannel for Customer Service functionality into your own websites or bring functionality from other applications into Omnichannel for Customer Service.--> Microsoft Dynamics 365 supports several scenarios to extend Omnichannel for Customer Service. <!--To integrate your in-house telephony channel into Omnichannel for Customer Service, you can use Dynamics 365 Channel Integration Framework version 2.0. To add Direct Line or Telegram channels, add custom chat channels, or build a web canvas for highly customized experiences, you can bring your own custom messaging channel. -->
+
+**Telephony:** You can integrate a third-party telephony system. For example, in a contact center, you can bring the softphone provider of your choice directly into the agent experience. This telephony integration ensures that incoming and outgoing voice calls are handled in a single agent experience, and that all necessary data is passed between the telephony system and Microsoft Dynamics 365. 
+
+**Additional Digital Channels:** Beyond the digital channels such as web chat and Facebook Messenger that are provided out of the box with the Digital Messaging Add-on, you may need additional custom channels. These may include channels that your organization has created for use internally.
+
+**Custom Experiences:** For some organizations, highly customized experiences from a user endpoint perspective are desired. For example, an organization that needs to create a highly customized app that embeds the Omnichannel for Customer Service messaging capabilities may need to go beyond the standard canvas approach.
 
 The following table shows the SKUs that correspond with each experience.
 <br>
@@ -28,9 +34,13 @@ The following table shows the SKUs that correspond with each experience.
 | Experience | Customer Service Enterprise | Chat for Dynamics 365 Add-on  | Digital Messaging Add-on |
 |---------------------------------------------------------------------|------------|------------|------------|
 | Telephony (via third-party)          | Yes | Yes | Yes |
-| Chat for Dynamics 365  | - | Yes | Yes |
+| Web chat  | - | Yes | Yes |
+| Social channels including Facebook Messenger, WeChat, Teams, SMS* and WhatsApp*  | - | - | Yes |
 | Custom chat and messaging channels via Direct Line  | - | - | Yes |
 
+
+> [!NOTE]
+> [SMS](../administrator/configure-SMS-channel.md) and [WhatsApp](../administrator/configure-whatsapp-channel.md) require additional third-party subscriptions. Refer to channel documentation for more information.
 
 <!--## Embedding Omnichannel functionality in your applications-->
 
