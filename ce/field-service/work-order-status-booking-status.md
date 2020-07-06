@@ -248,7 +248,7 @@ Here is the customer asset that results from the used work order product. Notice
 
 #### In Progress
 - **Actual Arrival Time** field is updated with the date and time the when booking status is changed from the mobile app or schedule board, but not from the form.
-- **First Arrived On (Work Order)** field on the related _work order_ is updated with the Actual Arrival Time of the booking. If Actual Arrival Time is edited, manually or otherwise, First Arrrvied On will be udpated. If there are multiple bookings, this field is udpated with the Actual Arrival Time of the first booking.
+- **First Arrived On (Work Order)** field on the related _work order_ is updated with the Actual Arrival Time of the booking. If Actual Arrival Time is edited, manually or otherwise, First Arrrvied On will be udpated. If there are multiple bookings, this field is udpated with the Actual Arrival Time of the first booking. The First Arrived On value will respect offline scenarios and calculate correctly once the technician syncs his or her mobile data.
 - **Actual Travel Duration** field is updated, calculated as the total time the booking status is **Traveling**.
 - **Booking Timestamp** is created.
 
@@ -266,7 +266,7 @@ Here is the customer asset that results from the used work order product. Notice
 - **Total Billable Duration** is updated, calculated as the sum total of total duration in progress and total break duration.
 - **Booking Journals** created. Booking journals use booking timestamps to calculate the working duration, travel time, and break time for a specific booking. Booking journals also calculate internal resource costs for bookings based on resource's hourly rate as defined on the bookable resource record.
 - **Booking Timestamp** is created.
-- **Completed On (Work Order)** field on the related _work order_ is updated with the End time of the booking. If the booking End Time is edited, manually or otherwise, Completed On will be udpated. If there are multiple bookings, this field is udpated with the End Time of the last booking, meaning the most recently completed booking related to the work order.  
+- **Completed On (Work Order)** field on the related _work order_ is updated with the End time of the booking. If the booking End Time is edited, manually or otherwise, Completed On will be udpated. If there are multiple bookings, this field is udpated with the End Time of the last booking, meaning the most recently completed booking related to the work order. The Completed On value will respect offline scenarios and calculate correctly once the technician syncs his or her mobile data.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of end time updated](./media/work-order-statuses-end-time.png)
@@ -279,7 +279,7 @@ By the end of the work order life cycle, you will have timestamps of all booking
 > ![Screenshot of booking timestamp](./media/work-order-statuses-booking-timestamps.png)
 
 
-## Estimate work order substatus
+## Example 1: Estimate work order substatus
 
 In our next scenario, a field service organization wants to utilize work orders for estimating potential products, services, and prices for their clients and want to mark such work orders with a custom "Estimate" work order substatus.
 
@@ -320,7 +320,7 @@ This will remove estimate work orders from the lower pane in the schedule board,
 > [!div class="mx-imgBorder"]
 > ![Screenshot of lower requirement view on schedule board](./media/work-order-status-edit-requirement-view-schedule-board.png)
 
-## Delayed Booking Status
+## Example 2: Delayed Booking Status
 
 Field technicians want to make dispatchers aware if they are running more than 15 minutes behind schedule by changing the status of their bookings to "Delayed". This will help dispatchers manage the remaining bookings for that resource for the rest of the day by running [Single Resource Optimization](single-resource-optimization.md) or triggering automated messages to the next customer.
 
