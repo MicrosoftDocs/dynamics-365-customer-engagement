@@ -2,10 +2,8 @@
 title: "Create or edit goals (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Keep track of your progress on achieving target revenue by using goals."
 ms.date: 10/01/2019
-ms.service: 
+ms.service:
   - "dynamics-365-sales"
-ms.custom: 
-  - "dyn365-sales"
 ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
@@ -32,13 +30,13 @@ Use goals to keep track of your progress on achieving target revenue.
     
    - Goal Metric. Choose how the goal will be tracked by selecting a metric for the goal.
 
-         > [!NOTE]
-         > If you select a parent goal for this goal, you can't select a goal metric. It is automatically populated from the parent goal.
+      > [!NOTE]
+      > If you select a parent goal for this goal, you can't select a goal metric. It is automatically populated from the parent goal.
     
    - Goal Owner. Select the user or team responsible for meeting the goal.
 
-          > [!div class="mx-imgBorder"]
-          > ![Goal form](media/goal-form.png "Goal form")
+      > [!div class="mx-imgBorder"]
+      > ![Goal form](media/goal-form.png "Goal form")
   
 5. Select **Save**.
 
