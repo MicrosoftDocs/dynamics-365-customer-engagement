@@ -1,8 +1,8 @@
 ---
-title: "Preview the new schedule board in Dynamics 365 Field Service | MicrosoftDocs"
+title: "Advanced filters for the schedule assistant in Universal Resource Scheduling | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 04/01/2020
+ms.date: 07/06/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -26,7 +26,6 @@ search.app:
   - D365FS
 ---
 
-# Preview the new and improved schedule board in Dynamics 365 Field Service (public preview)
+# Advanced filters for the schedule assistant in Universal Resource Scheduling
 
-[!INCLUDE[preview-schedule-board.md](../shared/urs/preview-schedule-board.md)]
-
+[!INCLUDE[schedule-assistant-advanced-filters.md](../shared/urs/schedule-assistant-advanced-filters.md)]
