@@ -4,7 +4,7 @@ description: "This topic provides information on how you can integrate custom me
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 06/26/2020
+ms.date: 07/06/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: reference
@@ -24,7 +24,8 @@ Omnichannel for Customer Service allows you to implement a connector to integrat
 
 You can use the following sample code to test the custom messaging channel you want to bring in to Omnichannel for Customer Service.
 
-```<!DOCTYPE html>
+```html
+<!DOCTYPE html>
 <html lang="en-US">
 <head>
     <title>Web Chat: Full-featured bundle</title>
@@ -71,7 +72,7 @@ You can use the following sample code to test the custom messaging channel you w
 ```
 
 > [!NOTE]
-> This is basic code to test your channel. You can modify it to suit the needs of your organization.
+> The sample code given above allows you to test your channel. You can modify it to suit the needs of your organization.
 
 ### See also
 
