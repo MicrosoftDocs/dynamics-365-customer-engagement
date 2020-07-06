@@ -262,6 +262,7 @@
 #### [Start chat proactively](developer/how-to/start-proactive-chat.md)
 #### [Enable a bot to escalate and end conversation](developer/bot-escalate-end-conversation.md)
 #### [Auto-close a conversation](developer/auto-close-conversation.md)
+#### [Extend Omnichannel for Customer Service](developer/extend-omnichannel.md)
 #### Smart assist bot
 ##### [Build a smart assist bot](developer/how-to/smart-assist-bot.md)
 ##### [Implement custom scenario](developer/how-to/smart-assist-scenario.md)
