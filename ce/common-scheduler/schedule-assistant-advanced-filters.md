@@ -1,5 +1,5 @@
 ---
-title: "Advanced filters for the schedule assistant in Dynamics 365 Field Service | MicrosoftDocs"
+title: "Advanced filters for the schedule assistant in Universal Resource Scheduling | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 07/06/2020
@@ -26,6 +26,6 @@ search.app:
   - D365FS
 ---
 
-# Advanced filters for the schedule assistant in Dynamics 365 Field Service
+# Advanced filters for the schedule assistant in Universal Resource Scheduling
 
 [!INCLUDE[schedule-assistant-advanced-filters.md](../shared/urs/schedule-assistant-advanced-filters.md)]
