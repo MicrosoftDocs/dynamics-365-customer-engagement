@@ -4,7 +4,7 @@ description: "Learn what a custom channel is and how to configure the channel, o
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 06/26/2020
+ms.date: 07/06/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -174,7 +174,7 @@ For more information, see the developer guide, [Bring your own custom messaging 
 
 [Extend Omnichannel for Customer Service](../developer/how-to/extend-omnichannel.md)<br />
 [Bring your own custom messaging channel: Direct Line bot](../developer/how-to/bring-your-own-channel.md)<br />
-[Bring your own custom messaging channel: Test Client HTML](../developer/how-to/bring-your-own-channel-sample-html.md)<br />
+[Test the custom messaging channel](../developer/how-to/bring-your-own-channel-sample-html.md)<br />
 [Skill-based routing](overview-skill-work-distribution.md)<br>
 [Productivity tools](productivity-tools.md)<br>
 [Smart assist](smart-assist.md)<br>
