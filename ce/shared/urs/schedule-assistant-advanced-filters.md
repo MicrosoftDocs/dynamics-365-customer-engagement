@@ -14,8 +14,6 @@ In this article, we'll take a look at the schedule assistant's advanced filters:
 > [!Note]
 > For more information, see the video ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Schedule Assistant: advanced filters](https://youtu.be/s6yvVv99Bnw).
 
-
-
 ## Prerequisites
 
 The schedule assistant is a part Universal Resource Scheduling, which is included and installed with Dynamics 365 Field Service, Project Service Automation, and Customer Service.
@@ -30,7 +28,7 @@ The schedule assistant will use the location of the technician's mobile device w
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the hourly view of the filter and map view, showing a truck icon on the map.](../../field-service/media/scheduling-schedule-assistant-real-time-mode.png)
 
-The mobile device's location is collected from the time of the last sync to a defined threshold in the past. The time threshold for when the acceptable location of a previous sync is defined in the **Geo Location Expires After X Minutes** field found in **Resource Scheduling app** > **Settings** > **Administration** > **Scheduling paramters**.
+The mobile device's location is collected from the time of the last sync to a defined threshold in the past. The time threshold for when the acceptable location of a previous sync is defined in the **Geo Location Expires After X Minutes** field found in **Resource Scheduling app** > **Settings** > **Administration** > **Scheduling parameters**.
 
 See the article on [geofencing](geofencing.md) to learn how to set up location auditing and sharing.
 
@@ -49,7 +47,7 @@ The schedule assistant will ignore the requirement duration when determining if 
 
 ## Ignore proposed bookings
 
-Many organizations will mark their bookings with a booking status of **Proposed** until a customer or client commits to the schedule. In such cases, dispatchers may want to view those time slots as available for other work that is more important or ready to be commmitted. 
+Many organizations will mark their bookings with a booking status of **Proposed** until a customer or client commits to the schedule. In such cases, dispatchers may want to view those time slots as available for other work that is more important or ready to be committed.
 
 With the **Ignore proposed bookings** advanced filter, the schedule assistant will ignore bookings where the Booking status is **Proposed**, and will treat that time slot as available.
 
@@ -72,7 +70,7 @@ This filter is similar to the **Ignore proposed bookings** filter, except it's u
 When the schedule assistant is triggered, you'll see that some fields have default values. For example, schedule assistant search results are listed in alphabetical order by default. These default values can be changed in the **Schedules Assistant Retrieve Constraints Query**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Schedules Assistant Retrieve Constraints Query. ](../../field-service/media/scheduling-schedule-assistant-retreive-resources-query.png)
+> ![Screenshot of the Schedule Assistant Retrieve Constraints Query. ](../../field-service/media/scheduling-schedule-assistant-retreive-resources-query.png)
 
 To get there, double-click on the schedule board tab. Open default settings in the top right. Under the schedule types section, select the gear icon next to **Default Retrieve Constraints Query**.
 
