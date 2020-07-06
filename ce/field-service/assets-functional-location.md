@@ -1,8 +1,8 @@
 ---
-title: "Functional location | MicrosoftDocs"
+title: "Functional location in Dynamics 365 Field Service| MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/30/2020
+ms.date: 07/06/2020
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -28,7 +28,13 @@ search.app:
 
 # Functional location of assets and work orders
 
-A funcitonal location is
+Field Service organizations often service customers that have large or complex worksites - like a farm or a multi-story office building, for instance. In such cases, it's important that a technician can find specifically where they need to go to perform their work.
+
+Functional location provides for more granularity on location information in a few Field Service scenario such as:
+
+- Within a service account
+- On an asset
+- On a specific work order
 
 
 // https://msit.microsoftstream.com/video/9ec8a3ff-0400-a936-c3da-f1eaab7ee13c?channelId=0bf6f71a-b361-4d7b-9668-62ff5207b60d
@@ -42,9 +48,6 @@ A functional location is hierarchichal meaning --- as an example room 1 is in bu
 - Early access August 1, 2020, 
 - generally available October 1st 2020 
 - Field Service v8.8.x (will know exact number closer to Aug 1)
-
-
-
 
 ## Create a service account
 
