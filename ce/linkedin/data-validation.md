@@ -21,13 +21,15 @@ search.app:
 
 # Data validation
 
-This article describes the data validation capabilities of the LinkedIn Sales Navigator solution for Dynamics 365 Sales that helps you keep the organizational structure of your matched leads up-to-date. It uses information from LinkedIn to validate the information on records in Dynamics 365 Sales and enables you to check back on pending opportunities or have a useful icebreaker when getting in touch with a lead.
+This article describes the data validation capabilities of the LinkedIn Sales Navigator solution for Dynamics 365 Sales that helps you keep the organizational structure of your matched leads up to date. It uses information from LinkedIn to validate the information on records in Dynamics 365 Sales and enables you to check back on pending opportunities or have a useful icebreaker when getting in touch with a lead.
 
 ## Prerequisites
 
 To ensure timely updates if a matched lead changes the role or the company, the following prerequisites must be met:
 
-- The CRM sync capability in LinkedIn Sales Navigator is activated by an administrator
+- The CRM sync capability in LinkedIn Sales Navigator is activated by an administrator.
+
+- You must have a Microsoft Relationship Sales solution Plus license. To learn more, see the **Dynamics 365 Sales** section from the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 - The data validation settings are turned on in **Settings** > **Business Management** > **Sales Navigator Integration Settings**. When the data validation feature is turned on for the first time, you'll get updates about the company change status for the past two years. Afterwards, the updates come are sent to the system on daily basis, every 24 hours.
 
@@ -37,7 +39,7 @@ There are several ways to find out if a person's organization or role has change
 
 - From the org chart on an Account record: A red dot next to a person's name in the org chart indicates their role or organization has changed since you built the org chart.
 
-- From the **Relationship Assistant** card in the on the **Sales Activity Social Dashboard**. To turn on the Relationship Assistant card, go to **Settings** > **Sales Insights** > **Insight cards**
+- From the **Relationship Assistant** card in the **Sales Activity Social Dashboard**. To turn on the Relationship Assistant card, go to **Settings** > **Sales Insights** > **Insight cards**
 
 - From the **Opportunities** > **All Opportunities at Risk - Contact left** view in Dynamics 365 Sales.
 

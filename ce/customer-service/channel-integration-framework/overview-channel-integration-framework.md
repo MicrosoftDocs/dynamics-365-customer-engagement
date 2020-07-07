@@ -4,7 +4,7 @@ description: "Learn what Dynamics 365 Channel Integration Framework version 1.0 
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 10/18/2019
+ms.date: 06/18/2020
 ms.topic: get-started-article
 ms.service: 
   - dynamics-365-customerservice
@@ -15,36 +15,28 @@ ms.custom:
 
 # What is Dynamics 365 Channel Integration Framework version 1.0
 
-Dynamics 365 Channel Integration Framework is a cloud-to-cloud extensible framework to integrate third-party channel providers with Dynamics 365 model-driven app using a browser-based JavaScript API library.
+Dynamics 365 Channel Integration Framework is a cloud-to-cloud extensible framework to integrate third-party channel providers with Dynamics 365 model-driven apps using a browser-based JavaScript API library.
 
-With this framework, you can integrate any third-party channel provider or channel aggregators into model-driven app, where the Dynamics 365 Channel Integration Framework acts as an interface between the providers or aggregators and model-driven app.
+With this framework, you can integrate any third-party telephony provider or telephony aggregators into a model-driven app, where the Dynamics 365 Channel Integration Framework acts as an interface between the providers or aggregators and a model-driven app.
 
-Technically, Dynamics 365 Channel Integration Framework is a set of APIs (methods, events, and protocols) that enable developers and partners to build immersive communication experiences such that third-party communication widgets running on a channel provider cloud can interact with Dynamics 365 model-driven app. 
+The Dynamics 365 Channel Integration Framework is a set of APIs (methods, events, and protocols) that enable developers and partners to build immersive communication experiences such that third-party communication widgets running on a channel provider cloud can interact with the Dynamics 365 model-driven app. 
 
 With the Dynamics 365 Channel Integration Framework application (solution), you can configure the channel in the model-driven app so that your agents can access and serve your customers.
 
 ## Challenges of channel provider integration systems
 
-Organizations expect their call centers to do more with fewer resources, and there is a constant drive to increase productivity in terms of call center agents handling more chats, phone calls, emails, and so on. Reducing the average time to handle customers can save companies millions of dollars. Channel providers (telephony, messaging, chat, and social channels) in call centers are one of the key indicators for success and customer satisfaction. In that context, some of the challenges the call center industry faces with the channel providers (telephony, messaging, chat, and social channels) are as follows:
+Organizations expect their call centers to do more with fewer resources, and there is a constant drive to increase productivity in terms of call center agents handling more chats, phone calls, emails, and so on. Reducing the average time to handle customers can save companies millions of dollars. Telephony providers in call centers are one of the key indicators for success and customer satisfaction. In that context, some of the challenges the call center industry faces with the telephony providers are as follows:
 
-  - Integrating third-party channel providers into the Customer Relationship Management (CRM) platforms.
-  - Accessing and performing operations on the model-driven app from the telephony, messaging (SMS), chat, and social channels.
-  - Developing and deploying telephony, messaging (SMS), chat, and social channel needs writing adapters and complex custom codes for solution integration.
+  - Integrating third-party telephony providers into the Customer Relationship Management (CRM) platforms.
+  - Accessing and performing operations on the model-driven app from the telephony.
+  - Developing and deploying telephony needs writing adapters and complex custom codes for solution integration.
   - Using APIs and out-of-box customization, which are not supported for the production environment.
-  - The dependency of channel providers (telephony, messaging, chat, and social channels) on the operating system and web browsers.
-  - Customizing the channel provider (telephony, messaging, chat, and social channels) based on the business and process workflows.
+  - The dependency of telephony providers on the operating system and web browsers.
+  - Customizing the telephony provider based on the business and process workflows.
 
-## Advantages and value propositions of Dynamics 365 Channel Integration Framework
+## Advantages and value propositions of the Dynamics 365 Channel Integration Framework
 
 Here are the capabilities offered by Dynamics 365 Channel Integration Framework version 1.0:
-
-- **Bring your own channel providers (integrate third-party channel providers)**
-
-  Dynamics 365 Channel Integration Framework provides an extensible framework to integrate third-party cloud-based channel providers or channel aggregators with Dynamics 365 model-driven app.
-
-- **Channel agnostic**
-
-  Dynamics 365 Channel Integration Framework is channel-agnostic. That is, you can build channels like voice, video, chat, co-browse, and social channel as long as they have a JavaScript-based widget.
 
 - **Two-way communication**
 

@@ -69,6 +69,7 @@ manager: annbe
 <li><a href="ts-views.md#records_missing_in_views" data-raw-source="[I can't see some records in the entity views](ts-views.md#records_missing_in_views)">I can't see some records in the entity views</a></li>
 <li><a href="ts-views.md#missing-records" data-raw-source="[I can't see some records in opportunity, quote, order, or invoice subgrids](ts-views.md#missing-records)">I can't see some records in opportunity, quote, order, or invoice subgrids</a></li>
 <li><a href="ts-views.md#cannot_update_nested_bundle_items" data-raw-source="[I can't update nested bundle items on the Product tab ](ts-views.md#cannot_update_nested_bundle_items)">I can't update nested bundle items on the Product tab</a></li>
+<li><a href="ts-views.md#default-view-not-set" data-raw-source="[I can't see opportunity records in the legacy web client while I can see them in Unified Interface](ts-views.md#default-view-not-set)">I can't see opportunity records in the legacy web client while I can see them in Unified Interface</a></li>
 
 </td></tr>
 
@@ -98,7 +99,7 @@ manager: annbe
 
 <li><a href="ts-sales-pipeline.md#different_sequence" data-raw-source="[I see multiple pipeline phases with different sequences, such as 6-Close and 7-Close](ts-sales-pipeline.md#different_sequence)">I see multiple pipeline phases with different sequences, such as 6-Close and 7-Close</a></li>
 <li><a href="ts-sales-pipeline.md#values_from_multiple_bpfs" data-raw-source="[I see pipeline phase values from multiple business process flow definitions](ts-sales-pipeline.md#values_from_multiple_bpfs)">I see pipeline phase values from multiple business process flow definitions</a></li>
-<li><a href="ts-sales-pipeline.md#different_ordering" data-raw-source="[The sales pipeline chart ordering is displayed differently in the Unified Interface vs. the legacy web client](ts-sales-pipeline.md#different_ordering)">The sales pipeline chart ordering is displayed differently in the Unified Interface vs. the legacy web client</a></li>
+<li><a href="ts-sales-pipeline.md#different_ordering" data-raw-source="[The sales pipeline chart ordering is displayed differently in Unified Interface vs. the legacy web client](ts-sales-pipeline.md#different_ordering)">The sales pipeline chart ordering is displayed differently in Unified Interface vs. the legacy web client</a></li>
 
 </td><td>
 

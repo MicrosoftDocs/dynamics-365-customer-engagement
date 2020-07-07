@@ -32,7 +32,7 @@ As an administrator or forecast manager, you can configure forecasts in your org
 By default, forecasting is available in your organization and the following page is displayed when you select **Forecast configuration**:
 
 > [!div class="mx-imgBorder"]
-> ![Forecasting is enabled](media/forecast-enable-forecasting-enabled.png "Forecasting is enabled") 
+> ![Forecasting configuration page](media/forecast-enable-forecasting-enabled-v1.png "Forecasting configuration page") 
 
 Also, the following changes appear in the **Sales Hub** app:
 

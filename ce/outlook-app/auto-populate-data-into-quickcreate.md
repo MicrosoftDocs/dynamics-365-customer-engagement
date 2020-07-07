@@ -1,7 +1,7 @@
 ---
 title: "Customize App for Outlook to auto populate data to the Quick Create form  (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/16/2019
+ms.date: 06/18/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,7 +23,9 @@ search.app:
 ---
 # Customize App for Outlook to auto populate data from an Outlook item to a Quick Create form for the Case entity 
 
-Use the quick create form in App for Outlook to auto populate information from an Outlook item  to the quick create form for the Case entity. 
+Use the quick create form in App for Outlook to auto populate information from an Outlook item to the quick create form for the Case entity. You can only enable the quick create option for the case entity. 
+
+
 
 These fields that will be populated automatically:
 
@@ -38,12 +40,34 @@ These fields that will be populated automatically:
 
 
 
+## Enable quick create for the case entity
 
-To turn this feature on, do the following: 
+1. From your app, go to **Settings** > **Advanced Settings**.
 
-1.	In your Dynamics 365 apps, go to **Settings** > **Customizations** > **Customize the System**.
-2.	Expand **Entities** and then select the **Case** entity.
-3.	Expand the entity and select **Forms**, then select **Form Order** and  **Quick Create Form Set**.
-4.	Ensure that **App for Outlook Case Quick Create form** is at the top of the list, for it to be used for quick create scenario.
-5.	On the solution page, select **Publish All Customizations** and then close the page.
+   > [!div class="mx-imgBorder"]
+   >![Setting Customizations](media/outlookapp_advancedsettings.png "Settings Customizations")
+  
+2. Select **Settings** > **Customizations** and then select **Customize the System**.  
+
+   > [!div class="mx-imgBorder"]
+   >![Select a Customize the System](media/outlookapp_customize.png "Customize the System")
+
+3.	Expand **Entities** and then select the **Case** entity.
+4.	Expand the entity and select **Forms**, then select **Form Order** and  **Quick Create Form Set**.
+5.	Ensure that **App for Outlook Case Quick Create** form is at the top of the list, for it to be used for quick create scenario and then select **OK**.
+
+    > [!div class="mx-imgBorder"] 
+    > ![App for Outlook Case Quick Create form](media/outlookapp_qcf.png "App for Outlook Case Quick Create form")
+   
+6.	On the solution page, select **Publish All Customizations** and then close the page.
+
+
+## Use quick create to create a case 
+
+1. Open an email item that you want to create a case entity for and then select the **Dynamics 365** button. 
+2. On the **Dynamics 365** pane, select ![Quick Create](media/outlookapp_quickcreate.png "Quick Create form") **Quick Create** > **Case**.
+
+    The information from the Outlook item will auto populate in the case form.
+
+3. When you're done, select **Save and Close**. 
 

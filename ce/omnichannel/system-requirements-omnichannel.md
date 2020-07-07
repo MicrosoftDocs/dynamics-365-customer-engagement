@@ -6,7 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 applies_to: 
   - ""
-ms.date: 06/05/2020
+ms.date: 06/25/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -36,7 +36,7 @@ To find out if Omnichannel for Customer Service is available in your region, see
 
 ### Licensing
 
-- You must have an active subscription to Microsoft Dynamics 365 Customer Service Enterprise in your tenant for each user of Digital Messaging or Chat Add-in for Microsoft Dynamics 365 Customer Service.
+- You must have an active subscription to Microsoft Dynamics 365 Customer Service Enterprise or Dynamics 365 Customer Engagement Plan in your tenant for each user of Digital Messaging or Chat for Dynamics 365 Customer Service.
 - You must have an active subscription to the Dynamics 365 Customer Service Digital Messaging add-on for each Digital Messaging user or Chat for Dynamics 365 Customer Service for each Chat user.
 - Use of historical Supervisor reporting through **Omnichannel Intraday Insights**, **Omnichannel Chat Insights**, and **Omnichannel Sentiment Insights Dashboards** also requires Power BI Pro license or higher for each individual in a Supervisor role.
 
@@ -45,7 +45,7 @@ To find out if Omnichannel for Customer Service is available in your region, see
 | Area | Requirements |
 |----------|----------|
 | Model-driven app | Dynamics 365 Customer Service app version 9.1.0000.3653 or higher  |
-| Web browsers | Supported browsers:<li> Microsoft Edge (Legacy version)<li> Microsoft Edge ([Chromium based](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium) is recommended); version 79.0.309.65 or later is required for the desktop notifications feature </li> <li> Google Chrome </li> |
+| Web browsers | Supported browsers:<li> Microsoft Edge (Legacy version)<li> Microsoft Edge ([Chromium based](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium) is recommended); version 79.0.309.65 or later is required for the desktop notifications feature </li> <li> Google Chrome </li><br>  **Important**<br> [!INCLUDE[cc-cookies-in-omnichannel](../includes/cc-cookies-in-omnichannel.md)] |
 
 For hardware and other requirements, see [Model-driven app requirements](../admin/online-requirements.md).
 

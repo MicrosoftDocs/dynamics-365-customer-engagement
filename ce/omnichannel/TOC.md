@@ -62,7 +62,7 @@
 ##### [Entity records routing](administrator/entity-channel.md)
 ##### [Route trigger for entity records](administrator/routing-trigger.md)
 ##### [Understand Omnichannel for Customer Service with Customer Service Hub](administrator/understand-omnichannel-customer-service-hub.md)
-
+#### [Delete a configured channel](administrator/delete-channel.md)
 ### Queues & Users
 #### [Work with queues](administrator/queues-omnichannel.md)
 #### [Manage users](administrator/users-user-profiles.md)
