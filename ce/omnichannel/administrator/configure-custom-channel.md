@@ -172,7 +172,7 @@ For more information, see the developer guide, [Bring your own custom messaging 
 
 ## See also
 
-[Extend Omnichannel for Customer Service](../developer/how-to/extend-omnichannel.md)<br />
+[Extend Omnichannel for Customer Service](../developer/extend-omnichannel.md)<br />
 [Bring your own custom messaging channel: Direct Line bot](../developer/how-to/bring-your-own-channel.md)<br />
 [Test the custom messaging channel](../developer/how-to/bring-your-own-channel-sample-html.md)<br />
 [Skill-based routing](overview-skill-work-distribution.md)<br>
