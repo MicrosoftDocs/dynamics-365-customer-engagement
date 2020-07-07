@@ -28,23 +28,6 @@ search.app:
 
 # Run RSO as a simulation
 
----
-
-title: Run as a simulation
-description: The admin can run a schedule on demand as a simulation, which results in resource bookings that are simulations without affecting actual bookings.
-author: krbjoran
-manager: shellyhaverkamp
-ms.date: 08/09/2018
-ms.topic: article
-ms.prod: 
-ms.service: business-applications
-ms.technology: 
-ms.author: krbjoran
-audience: admin
-
----
-#  Run as a simulation 
-
 Running an optimization as a simulation allows RSO admins to better adjust:  
 
 - Optimization scope (include/exclude more resources)
