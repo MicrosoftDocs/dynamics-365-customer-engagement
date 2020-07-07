@@ -22,7 +22,7 @@ The sample data is available as a downloadable demo package, which you can insta
 > - The Chat for Dynamics 365 Customer Service demo data is available only in English. 
 > - Install the demo data on a demonstration, evaluation, training, or test environment. We do not recommend installing the demo data in production environments.
 
-## Requirements
+## Prerequisites
 
 The following are required for installing sample data in your target environment:
 
@@ -135,11 +135,6 @@ Wondering what capabilities you can demo with the demo data? See the Fabrikam sc
 4. Specify the following in the connect screen and select **Login**. In this step, you need to connect to the Common Data Service environment where you want to deploy the demo data:
 
 
-<!--from editor: In the table, the entry "To connect to a Common Data Service environment" is off on its own. It's a two-column table, but that one is in a third column, so it isn't clear what means. -->
-
-
-
-
     | Field | Value | Description |
     |-------------------------|------------------------|------------------------|
     | Deployment Type | Office 365 | To connect to a Common Data Service environment. |
@@ -231,6 +226,6 @@ A high-level overview of the Chat for Dynamics 365 Customer Service demo data is
 - One Chat widget
 - One Omnichannel for Customer Service queue
 
-## See also
+### See also
 
 [Try channels in Omnichannel for Customer Service](https://docs.microsoft.com/dynamics365/omnichannel/try-channels)
