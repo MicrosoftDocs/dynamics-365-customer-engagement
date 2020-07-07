@@ -2,7 +2,7 @@
 title: "Configure the schedule board (Dynamics 365 Field Service and Dynamics 365 Project Service Automation) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 06/26/2020
+ms.date: 07/07/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
@@ -196,10 +196,10 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
 
 ## Keyboard shortcuts
 
-You can use keyboard shortcuts when viewing the schedule board in the list view, shown in the following table.
+You can use keyboard shortcuts when viewing the schedule board in the list view, shown in the following screenshot and table.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](../field-service/media/schedule-board-keyboard.png)
+> ![Screenshot of the schedule board, highlighting the keyboard icon.](../field-service/media/schedule-board-keyboard.png)
 
 | Command | Keys |
 |  --- | --- | 
