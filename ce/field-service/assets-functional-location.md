@@ -28,20 +28,23 @@ search.app:
 
 # Functional location of assets and work orders
 
-Field Service organizations often service customers that have large or complex worksites - like a farm or a multi-story office building, for instance. In such cases, it's important that a technician can find specifically where they need to go to perform their work.
+Field Service organizations often service customers that have large or complex worksites - like a warehouse or a multi-story office building, for instance. In such cases, it's important that a technician can find specifically where they need to go to perform their work.
 
-Functional location provides for more granularity on location information in a few Field Service scenario such as:
+Functional location in Field Service allows for more location granularity on a few relevant Field Service entities, such as:
 
 - Within a service account
 - On an asset
 - On a specific work order
 
-
 // https://msit.microsoftstream.com/video/9ec8a3ff-0400-a936-c3da-f1eaab7ee13c?channelId=0bf6f71a-b361-4d7b-9668-62ff5207b60d
 
-A functional location provides more clarity for locations within a service account, locations of assets, locations where work orders need to be performed and thus where technicians need to travel to.
+Additionally, functional locations can be represented by hierarchical relationships. For example, a printer might be located on the third floor, in building A on a customer's campus. This relationship would be represented as the following nested relationship:
 
-A functional location is hierarchichal meaning --- as an example room 1 is in building A which is in campus 2
+- Building A
+  - Floor 3
+    - Printer 1
+
+In this article, we'll look at how to define functional relationships within Field Service.
 
 ## Prerequisites
 
@@ -54,7 +57,7 @@ A functional location is hierarchichal meaning --- as an example room 1 is in bu
 First create a service account or choose one that is already created. Service accounts are required to create work orders and define the customer and service location of the work order.
 
 
-Ensure the service account has an address and is geocoded. You will know the service account record is geocoded if it appears on the map and the latitiude and longitude fields have values. 
+Ensure the service account has an address and is geocoded. You will know the service account record is geocoded if it appears on the map and the latitude and longitude fields have values.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/assets-functional-location-account.png)
@@ -65,9 +68,9 @@ Ensure the service account has an address and is geocoded. You will know the ser
 
 ## Create functional locations
 
-Use functional locations to define areas and locations within the service account. 
+Use functional locations to define areas and locations within the service account.
 
-From the service account record go to the **Assets and Locations** section. 
+From the service account record go to the **Assets and Locations** section.
 
 
 > [!div class="mx-imgBorder"]
