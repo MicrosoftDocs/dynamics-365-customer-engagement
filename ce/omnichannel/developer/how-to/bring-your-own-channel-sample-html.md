@@ -1,10 +1,10 @@
 ---
 title: "Test the custom messaging channel | Microsoft Docs"
-description: "This topic provides information on how you can integrate custom messaging channels using Direct Line Bot."
+description: "This topic provides sample code to test the integration of custom messaging channels."
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 07/06/2020
+ms.date: 07/07/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: reference
@@ -22,7 +22,7 @@ ms.topic: reference
 
 Omnichannel for Customer Service allows you to implement a connector to integrate custom messaging channels. The complete [sample code](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/bring-your-own-channel) illustrates how you can create your own connector. 
 
-You can use the following sample code to test the custom messaging channel you want to bring in to Omnichannel for Customer Service.
+You can use the following sample code to test the custom messaging channel you want to bring in to Omnichannel for Customer Service. You can modify the sample code to suit the needs of your organization.
 
 ```html
 <!DOCTYPE html>
@@ -71,10 +71,7 @@ You can use the following sample code to test the custom messaging channel you w
 </html>
 ```
 
-> [!NOTE]
-> The sample code given above allows you to test your channel. You can modify it to suit the needs of your organization.
-
 ### See also
 
-[Bring your own custom messaging channel: Direct Line Bot](bring-your-own-channel.md)<br />
+[Bring your own custom messaging channel: Direct Line Bot](bring-your-own-channel.md)  
 [Configure custom messaging channel](../../administrator/configure-custom-channel.md)  
