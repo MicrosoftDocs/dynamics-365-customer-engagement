@@ -14,7 +14,9 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-Microsoft Dynamics 365 supports several scenarios to extend Omnichannel for Customer Service. 
+## Introduction
+
+Microsoft Dynamics 365 supports several scenarios to extend Omnichannel for Customer Service.
 
 **Telephony:** You can integrate a third-party telephony system. For example, in a contact center, you can bring the softphone provider of your choice directly into the agent experience. This telephony integration ensures that incoming and outgoing voice calls are handled in a single agent experience, and that all necessary data is passed between the telephony system and Microsoft Dynamics 365.
 
