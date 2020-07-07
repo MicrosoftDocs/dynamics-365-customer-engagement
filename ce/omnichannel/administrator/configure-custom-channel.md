@@ -1,10 +1,10 @@
 ---
 title: "Configure a custom channel, or bring your own channel | MicrosoftDocs"
 description: "Learn what a custom channel is and how to configure the channel, or bring your own channel, in Omnichannel for Customer Service."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 07/06/2020
+ms.date: 07/07/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -24,8 +24,6 @@ ms.topic: article
 
 ## Overview 
 
-<!--Many organizations have line-of-business (in-house) messaging channels that they use to interact with their customers. Also, many customers use social messaging channels for their personal communication needs, and these customers prefer using the messaging channels to engage with businesses. Expectations of customer service via social channels are rising to the point that customers now expect the same level of service on social channels that they’re used to from call and live chat. -->
-
 As an organization, you want the ability to integrate your line-of-business (in-house) messaging channels or other messaging channels with Omnichannel for Customer Service. The custom channel feature lets you do this so you can engage with customers. Here are some of the messaging channel integrations that are supported:
 
 - [Direct Line](#bring-channels-using-direct-line)
@@ -34,8 +32,6 @@ As an organization, you want the ability to integrate your line-of-business (in-
 ### Value proposition
 
 - Integrate line-of-business (in-house) messaging channels that are specific to your organization.
-
-<!-- - Integrate social media messaging channels as per the requirement of your customers and organization. -->
 
 - Easily configure the administrator experience in the Omnichannel Administrator app.
 
@@ -148,7 +144,7 @@ To create a custom channel, follow these steps:
     > [!div class=mx-imgBorder]
     > ![Create a custom channel](../media/custom-channel-3.png "Create a custom channel") 
 
-10. Select **Save** to save the custom messaging channel.       
+10. Select **Save** to save the custom messaging channel.
 
 11. Select the back button on the browser to go to the custom messaging account page. You can see that the custom messaging channel is added in the **Channels** section. 
 
@@ -170,12 +166,12 @@ The Bot Framework **Direct Line** channel helps you to integrate your line-of-bu
 
 For more information, see the developer guide, [Bring your own custom messaging channel: Direct Line bot](../developer/how-to/bring-your-own-channel.md).
 
-## See also
+### See also
 
-[Extend Omnichannel for Customer Service](../developer/extend-omnichannel.md)<br />
-[Bring your own custom messaging channel: Direct Line bot](../developer/how-to/bring-your-own-channel.md)<br />
-[Test the custom messaging channel](../developer/how-to/bring-your-own-channel-sample-html.md)<br />
-[Skill-based routing](overview-skill-work-distribution.md)<br>
-[Productivity tools](productivity-tools.md)<br>
-[Smart assist](smart-assist.md)<br>
-[Templates](templates-overview.md)
+[Extend Omnichannel for Customer Service](../developer/extend-omnichannel.md)  
+[Bring your own custom messaging channel: Direct Line bot](../developer/how-to/bring-your-own-channel.md)  
+[Test the custom messaging channel](../developer/how-to/bring-your-own-channel-sample-html.md)  
+[Skill-based routing](overview-skill-work-distribution.md)  
+[Productivity tools](productivity-tools.md)  
+[Smart assist](smart-assist.md)  
+[Templates](templates-overview.md)  

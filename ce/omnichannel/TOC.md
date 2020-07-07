@@ -104,7 +104,7 @@
 #### [Configure to view Intraday insights](administrator/configure-intraday-dashboard-supervisor.md)
 #### [Customize KPIs for Intraday insights](administrator/customize-kpis-intraday-insights.md)
 #### [Provide access to Ongoing Conversations dashboard](administrator/configure-ongoing-conversations-dashbaord.md)
-<!--#### [Enable supervisors to monitor and assign conversations](administrator/configure-ongoing-conversations-settings.md)-->
+
 #### [Analyze real-time customer sentiment](administrator/enable-sentiment-analysis.md)
 #### [Configure Omnichannel Insights dashboards](administrator/configure-historical-sentiment-dashboard-supervisor.md)
 
@@ -172,7 +172,6 @@
 #### [View and understand Omnichannel intraday insights](supervisor/intraday-insights-dashboard.md)
 #### [View and understand Omnichannel Ongoing Conversations dashboard](supervisor/ongoing-conversations-dashboard.md)
 
-<!--#### [Assign conversations](supervisor/assign-conversations.md)-->
 ### Introduction to Omnichannel Insights
 #### [Introduction to Omnichannel Insights](supervisor/intro-dynamics-365-omnichannel-insights-dashboard.md)
 #### [View and understand Omnichannel Insights dashboards](supervisor/omnichannel-insights-dashboard.md)
