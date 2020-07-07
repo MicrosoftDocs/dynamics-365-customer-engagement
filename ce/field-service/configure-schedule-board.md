@@ -196,10 +196,10 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
 
 ## Keyboard shortcuts
 
-Utilize keyboard shortcuts when viewing the schedule board in the list view.
+You can use keyboard shortcuts when viewing the schedule board in the list view, shown in the following table.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/schedule-board-keyboard.png)
+> ![Screenshot of ](../field-service/media/schedule-board-keyboard.png)
 
 | Command | Keys |
 |  --- | --- | 
