@@ -193,6 +193,18 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
 1.  On the schedule board, double-click **Initial public view.**  
   
 2.  Scroll down to the **Requirement** section to add additional tabs.  
+
+## Keyboard shortcuts
+
+Utilize keyboard shortcuts when viewing the schedule board in the list view.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/schedule-board-keyboard.png)
+
+| Command | Keys |
+|  --- | --- | 
+| Expand collapsed row | SHIFT ALT + | 
+| Collapse expanded row | SHIFT ALT - | 
   
 ## Privacy  
 [!INCLUDE[cc_ disclaimer_crm_bing_maps_mapping_location](../includes/cc-disclaimer-crm-bing-maps-mapping-location.md)]   
