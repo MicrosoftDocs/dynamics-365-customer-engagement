@@ -39,6 +39,7 @@
 ##### [Configure agent display name](administrator/agent-display-name.md)
 ##### [Configure a custom chat message](administrator/chat-custom-messages.md)
 ##### [Configure a pre-chat survey](administrator/configure-pre-chat-survey.md)
+##### [Configure a post-conversation survey](administrator/configure-post-chat-survey.md)
 ##### [Automatically identify customers](administrator/record-identification-rule.md)
 ##### [Configure file attachment capability](administrator/configure-file-attachment.md)
 ##### [Embed chat widget in Power Apps portals](administrator/embed-chat-widget-portal.md)
