@@ -15,7 +15,7 @@ ms.topic: article
 
 ## Syntax
 
-`Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat(notificationUIConfig, showPrechat, inNewWindow);`
+`Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat(notificationUIConfig: notificationUIConfigObject, showPrechat: showPrechatValue, inNewWindow: inNewWindowValue);`
 
 ## Parameters
 
@@ -36,7 +36,11 @@ None
 
 ```JavaScript
 window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
-               Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat({message: "Hi! How are you doing today? Do you wish to start a chat?"}, false) },10000, {inNewWindow: true});
+               Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat({    
+                    notificationUIConfig: {message: "Hi! How are you doing today? Do you wish to start a chat?"},
+                    showPrechat: true,
+                    inNewWindow: true
+            });
 });
 ```
 ## See also
