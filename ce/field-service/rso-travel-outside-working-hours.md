@@ -33,13 +33,13 @@ search.app:
 // https://msit.microsoftstream.com/video/e34ba1ff-0400-a936-9bdd-f1eaab46c013?channelId=0bf6f71a-b361-4d7b-9668-62ff5207b60d
 
 
+With feature turned off and not configured
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-travel-outside-before.png)
 
-
+With feature turned on and configured
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-travel-outside-after.png)
-
 
 
 
@@ -69,13 +69,22 @@ Go to Resources
 
 ## Run RSO
 
+Run RSO to automatically schedule work orders. RSO is run either manually, based on a defiend schedule, or triggered via a workflow. 
+
+Travel time begins before the start of working hours as shown in the image below.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-travel-outside-after2.png)
 
+In this example the travel limit was set to 30 minutes so...
+
+the start time is never outside working hours, only travel
+
+if the travel time exceeds the travel limit (as in the example above the travel time is 46 minutes but the travel limit is only 30 minutes) then
+
 ## Improve utilization 
 
-
+by allowing travel time outside of working hours, more bookings can be scheduled and more working time can fit in to 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-travel-outside-utilization.png)
 
