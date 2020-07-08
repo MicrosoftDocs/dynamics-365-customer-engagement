@@ -28,12 +28,15 @@ search.app:
 A work order in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] has information on what work needs to be done. It is used to coordinate and schedule resources and activities. It can be used for different types of work, such as installations, repairs, or preventive maintenance.  
   
  A work order is usually created from a case or opportunity. It is then scheduled either manually or using the schedule assistant and then dispatched. Once the work is complete, it is reviewed and approved by a manager.  
+ 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ynSf]
+
+> [!Note]
+> For additional Field Service videos, see [this full playlist](https://aka.ms/fs-videos).
   
 > [!Note]
 >  Products, service tasks, and characteristics are added automatically when you create a work order from an incident. Otherwise you can add them manually when you create a work order.   
   
-> [!Note]
-> Along with this article, see [this video on work orders](https://youtu.be/lblmqd7qFwg).
 
 <a name="BKMK_workorderlifecycle"></a>   
 ## Work order lifecycle  

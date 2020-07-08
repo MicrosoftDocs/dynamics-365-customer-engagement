@@ -1,7 +1,7 @@
 ---
 title: "Install Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom:
-ms.date: 12/10/2016
+ms.date: 06/11/2020
 ms.reviewer:
 ms.service: crm-online
 ms.suite:
@@ -24,6 +24,8 @@ search.app:
 # Install Dynamics 365 for phones and tablets
 
 [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!INCLUDE [pn-dyn-365-tablets](../includes/pn-dyn-365-tablets.md)] are apps that you install on your mobile device. Once you install the app and sign-in, you’ll automatically have access to all the apps you need for your role.
+
+When there is an updated version of the app, you will receive a notification. 
 
 ### Is your mobile device supported?
  If you’re not sure if your device is supported, [check the list of supported devices](../mobile-app/support-phones-tablets.md)
@@ -59,6 +61,7 @@ This list identifies all resources used by Dynamics 365 for phones and tablets. 
 ## Install the app for Android in China
 If you're in China, use the links below to get [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] for Android through one of several stores in China.
 
-Lenovo: https://www.lenovomm.com/appdetail/com.microsoft.crm.crmphone/306242  
-Meizu: http://app.meizu.com/apps/public/detail?package_name=com.microsoft.crm.crmphone  
-Xiaomi: http://app.mi.com/details?id=com.microsoft.crm.crmphone
+- Baidu: https://shouji.baidu.com/software/26810476.html
+- Lenovo: https://www.lenovomm.com/appdetail/com.microsoft.crm.crmphone/306242  
+- Meizu: http://app.meizu.com/apps/public/detail?package_name=com.microsoft.crm.crmphone  
+- Xiaomi: http://app.mi.com/details?id=com.microsoft.crm.crmphone

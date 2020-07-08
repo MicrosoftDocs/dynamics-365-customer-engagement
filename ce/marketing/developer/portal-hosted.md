@@ -4,7 +4,7 @@ description: "Provides information about how you can extend event management web
 ms.custom:
   - dyn365-developer
   - dyn365-marketing
-ms.date: 05/20/2019
+ms.date: 06/20/2020
 ms.service: dynamics-365-marketing
 ms.technology: 
   - "marketing"
@@ -77,33 +77,19 @@ To serve the application locally, you need to follow the steps below:
 
 ## Deployment
 
-To make your customizations visible in the event website, update the web files in **Portals**. This can be done automatically by using the provided script `DeployToDynamics365Instance.ps1`, or manually updating the attachments of all web files.
+To make your customizations visible in the event website, update the web files in **Portals**. This can be done automatically by using the provided script `DeployToDynamics365Instance.ps1`.
 
-### Automatic Deployment (preferred)
+### Automatic Deployment
 
 To deploy the customized Angular application, run the **PowerShell** script `DeployToDynamics365Instance.ps1` located under the **Scripts** directory. The script builds the application, prepares the output files suitable for hosting under the Dynamics 365 Portal instance. It takes the localization files from the `Localization` folder and prepares them for hosting.
 
 After all the files are built, it asks you to sign in to your Dynamics 365 Marketing instance that you want to use to host your application. After you sign in, it pushes the files to the instance. If you don't see your changes, clear the browser cache and restart your **Portals**.
 
-> [!NOTE]
-> If you can't run the Powershell script because of your execution policy, then you need to [disable or bypass the execution policy](https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6).
-
-
-### Manual Deployment
-
-To manually replace the files in Dynamics 365 Marketing, follow the steps below (you need to repeat step 3 - 5 for each file that has changed in your `dist` folder):
-
-1. Open your Dynamics 365 Marketing instance.
-1. Go to **Dynamics 365&mdash;custom** > **Portals** > **Web Files**.
-1. Open the web file that you want to update (e.g., **styles.css**).
-1. Select the **Notes** tab and delete the existing attachment.
-1. Upload the corresponding file (e.g. **styles.css**) file located in the **dist/ClientApp** folder as an attachment.
-1. Restart the Portal website and reopen your browser.
-
-You can find a mapping between generated Angular files and Portal web files in the `DeployToDynamics365Instance.ps1` script if you find difficult to understand which file in `dist/ClientApp` folder belongs to which web file.
+If you want to deploy some specific files rather than all the files at once, you can specify the list of files as a parameter for the script: `.\DeployToDynamics365Instance.ps1 -inputFiles main.es`. You can find the list with all the supported files in the scripts content.
 
 > [!NOTE]
-> You don’t need to change all the files, usually main.js and styles.css files are enough, but it is always good to use a source control tool to track the changes.
+> - If you can't run the Powershell script because of your execution policy, then you need to [disable or bypass the execution policy](https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6).
+> - We recommend not to upload files manually becuase of the accessibility issues. Use the `DeployToDynamics365Instance.ps1` script to bring your customizations automatically in to your instance.
 
 ## Configuring cross-origin resource sharing (CORS)
 

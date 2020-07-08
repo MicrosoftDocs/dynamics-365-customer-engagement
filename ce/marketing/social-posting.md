@@ -2,7 +2,7 @@
 title: "Social-medial posting with Dynamics 365 Marketing | Microsoft Docs"
 description: "Create social media posts for immediate or scheduled publishing in Dynamics 365 Marketing"
 keywords: social media; social posting
-ms.date: 05/07/2019
+ms.date: 07/01/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -12,7 +12,7 @@ author: alfergus
 ms.author: alfergus
 manager: shellyha
 ms.reviewer:
-topic-status: Drafting
+topic-status: 
 search.audienceType: 
   - admin
   - customizer
@@ -37,7 +37,7 @@ To schedule and publish a message to one of your social-media channels:
 
 1. Go to **Marketing** > **Marketing execution** > **Social posts**.
 1. A calendar opens, showing all scheduled and previously published messages. Do one of the following:
-    - To schedule a message using the calendar, choose a calendar view (month, day or week), select a day or time slot to highlight it, and then select again (click or press enter) and choose **New item** from the context menu. More information: [Work with marketing calendars](marketing-calendar.md)
+    - To schedule a message using the calendar, choose a calendar view (month, day, or week), select a day or time slot to highlight it, and then select again (click or press enter) and choose **New item** from the context menu. More information: [Work with marketing calendars](marketing-calendar.md)
     - To schedule a message using date pickers, or to send it right away, select **New** on the command bar.
 
     ![The social-posts calendar](media/social-posting-calendar.png "The social-posts calendar")
@@ -48,7 +48,7 @@ To schedule and publish a message to one of your social-media channels:
     - **Posting from**: Select the specific account through which to post your message. This drop-down list shows each account that your admin has set up and authenticated in Dynamics 365 Marketing for the selected channel. If you don't see the account you are looking for, please contact your admin. More information: [Configure your social media accounts](mkt-settings-social-media.md)
     - **Post visibility**: This setting only appears when you are posting to LinkedIn. Use this setting to control who can see this post. Choose **Public** to allow all LinkedIn users to see the post. Choose **Connections** to limit post visibility to users that have connected with the LinkedIn account you are posting through.
     - **Add post**: Enter the text content of your post here.
-    - **Media**: If you'd like to include an image with yoru post, select the **Select file** button ![Select file button](media/select-file-button.png "Select file button") here to open the file gallery dialog and use it to select or upload an image to include with your post. To remove an image already selected here, select its thumbnail image and then select the **Remove file** button ![Remove file button](media/remove-file-button.png "Remove file button") in the corner of the thumbnail.
+    - **Media**: If you'd like to include an image with your post, select the **Select file** button ![Select file button](media/select-file-button.png "Select file button") here to open the file gallery dialog and use it to select or upload an image to include with your post. To remove an image already selected here, select its thumbnail image and then select the **Remove file** button ![Remove file button](media/remove-file-button.png "Remove file button") in the corner of the thumbnail.
         > [!TIP]
         > The **Pro tips** area provides tips about how best to design images and other content for your selected social channel. Be sure to review these when designing and selecting images.
     - **Schedule time**: Shows the date and time that your post is scheduled to be published on your selected channel and account. If you started creating your post by selecting a date and/or time from the calendar, then values are already shown here. If you instead created your post using the **New** button on the command bar, then select the **Schedule** button to choose a date and time.
@@ -64,6 +64,6 @@ To schedule and publish a message to one of your social-media channels:
 
 ### Edit, reschedule, or cancel a post
 
-You can edit, reschedule or cancel any post that hasn't been sent yet. Just find and select it on the calendar to open the record, and then edit the settings or select **Delete** on the command bar as needed.
+You can edit, reschedule, or cancel any post that hasn't been sent yet. Just find and select it on the calendar to open the record, and then edit the settings or select **Delete** on the command bar as needed.
 
-Posts that were already sent are read-only, so you can't change or reschedule them, but you can remove them from the calendar if you want.
+Posts that were already sent are read-only, so you can't change or reschedule them, but you can remove them from the calendar or delete if you want. When you delete a post that has already been sent, it will be removed from the calendar and from the social-media sites.

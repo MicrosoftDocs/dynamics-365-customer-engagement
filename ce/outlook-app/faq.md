@@ -108,7 +108,7 @@ In general, web resources on Forms will not be rendered in App for Outlook as th
 
 However, when scripts which do not rely on cookie authentication are used, those will be rendered on a Form in Dynamics 365 App for Outlook. An example of this is the use of XRM WebAPI.
 
-## I am able to use Dynamics 365 App for Outlook in Outlook Web Access in Edge browser, but it doesn’t work in Outlook Desktop. Why?
+## I am able to use Dynamics 365 App for Outlook in Outlook Web Access in the Microsoft Edge browser, but it doesn’t work in Outlook Desktop. Why?
 Dynamics 365 App for Outlook needs Internet Explorer 11 or higher to be installed on your machine. If you have Internet Explorer 11 already, please also make sure your organization URL <orgname.crm.dynamics.com> is not in the Compatibility View list.
 
 ## My app for Oulook launch takes time every time I load it for mail item.

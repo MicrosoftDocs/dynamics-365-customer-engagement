@@ -10,7 +10,7 @@ ms.service:
 ms.topic: article
 ---
 
-# Understand conversation states in Omnichannel
+# Understand conversation states in Omnichannel for Customer Service
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 

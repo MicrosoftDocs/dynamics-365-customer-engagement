@@ -1,7 +1,7 @@
 ---
 title: "Use marketing forms for event registration (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Add custom marketing forms to event registrations."
-ms.date: 03/23/2020
+ms.date: 06/18/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -21,21 +21,9 @@ search.app:
   - D365Mktg
 ---
 
-# Early access: Marketing forms for event registration
-
-> [!IMPORTANT]
-> This is an early access feature, which means that it's currently available only on opted-in instances. You can opt in for early access on any instance, but we recommend that you do so only on trial, test, or sandbox instances, which will give you a chance to learn the new functionality before it shows up on your production instances later this year.
->
-> For instructions on how to opt in and enable early access, see [Opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates). For more information about the 2020 release wave 1 schedule, and for answers to frequently asked questions about the early access program, see [2020 release wave 1 features available for early access](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/features-ready-early-access).
->
->We encourage all customers to provide feedback related to early access features on the [Dynamics 365 Marketing Forum](https://community.dynamics.com/365/marketing/f/dynamics-365-for-marketing-forum), your Microsoft contact or partner, and/or through [Microsoft Support](https://docs.microsoft.com/power-platform/admin/get-help-support).
+# Use marketing forms for event registration
 
 The event management application now allows you to use marketing forms for event registrations. You can create forms with a variety of fields, embed forms on your website, and use the forms for event registration.
-
-> [!NOTE]
->For the early access version of the marketing forms for event registration feature, forms are limited to free (non-recurrent) events and allow registration of one person at a time (instead of multiple people together). 
->
->Please note that the event website also needs to be **updated to the February release (1.20.0) or later** for this functionality to be used for events hosted on the website. Click [here for instructions on how to update the event website](./developer/manually-overwriting-sample-website.md).
 
 ## Create a marketing form for event registration
 

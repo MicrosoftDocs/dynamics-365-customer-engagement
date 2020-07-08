@@ -41,10 +41,13 @@ manager: shubhadaj
 <a name="amt-not-calculated"> </a>
 **Question**:<br> Why is the amount not calculated automatically in the **Amount** fields of opportunity, quote, order, or invoice records?
 
-**Answer**: <br> The amount is automatically calculated only when your organization is configured to use system pricing calculation.
+**Answer**: <br> The value in the **Est. Revenue** and **Total Amount** fields of an opportunity is updated only the following conditions are met:
 
-To verify whether system pricing calculation is enabled, make sure that the **Use system pricing calculation** setting in **System Settings** is set to **Yes**. More information: [System Settings dialog box - Sales tab](system-settings-sales-tab.md) 
+- Your organization is configured to use system pricing calculation. To verify whether system pricing calculation is enabled, make sure that the **Use system pricing calculation** setting in **System Settings** is set to **Yes**. More information: [System Settings dialog box - Sales tab](system-settings-sales-tab.md) 
 
+- The opportunity is refreshed (either when you select the **Refresh** button on the command bar or open the record) or when you select the **Recalculate Opportunity** button on the command bar.
+
+The value in the **Est. Revenue** or **Total Amount** field isn't updated without the opportunity being refreshed or recalculated.
 
 <a name="fields-locked"> </a>
 **Question:**<br>
