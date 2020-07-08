@@ -152,15 +152,15 @@ Add and rank the objectives of RSO scheduling by using the **Move Up** and **Mov
 > ![Screenshot of requirement group with two requirements](./media/scheduling-rso-3-0-order-objectives.png)
 
 ### Maximize total working hours: The combination of the engine results
-    (iteration) with the total highest aggregate work time will best meet this
-    objective.
+
+Iteration with the total highest aggregate work time will best meet this objective.
 
 ### Minimize total travel time: The version of the engine results
-    (iteration) with the total lowest aggregate travel time will best meet this
-    objective.
 
-    > [!NOTE]
-    > This cannot be the first objective in the list. RSO might not schedule anything with the travel time as 0 minutes in order to meet the first objective.
+Iteration with the total lowest aggregate travel time will best meet this objective.
+
+> [!NOTE]
+> This cannot be the first objective in the list. RSO might not schedule anything with the travel time as 0 minutes in order to meet the first objective.
 
 ### Locked bookings
 
@@ -231,6 +231,9 @@ For example, if a characteristic (skill) rating model ranges from 1 to 10, and t
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of requirement group with two requirements](./media/scheduling-rso-3-0-characteristic-proficiency-objective.png)
+
+> [!Note]
+> In the October 2020 update, the ‘Best matching skill level’ objective was enhanced to prioritize assigning jobs to resources with less common skills first. This is valuable for organizations with a workforce with varying skillsets where some resources have many skills with variable skill levels and other resources may only have one. By assigning jobs to resources with less common skills or lower levels first when there is more capacity than demand, this allows RSO to reserve capacity for resources with multiple and unique skills for higher priority emergency situations. This improvement to the Best Matching Skill level objective requires no additional configuration and is an updte to the algorithm in the background.
 
 ### Schedule as soon as possible
 
