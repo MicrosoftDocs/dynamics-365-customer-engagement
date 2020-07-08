@@ -4,10 +4,10 @@ description: "Instructions to configure a pre-chat survey in Omnichannel for Cus
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 03/04/2020
+ms.date: 08/03/2020
 ms.service: 
   - "dynamics-365-customerservice"
-ms.topic: article
+ms.topic: article 
 ---
 
 # Configure a pre-chat survey
@@ -18,8 +18,8 @@ You can configure your chat widget to show users a survey that they must respond
 
 1. Sign in to Omnichannel Administration.
 2. Go to **Channels** &gt; **Chat**.
-3. Open the chat widget in which you want to configure a pre-chat survey, and select **Pre-chat survey**.
-4. In the **Pre-chat survey** box, select **Yes**. The options to add questions and refresh the page are displayed.
+3. Open the chat widget in which you want to configure a pre-chat survey, and select **Surveys**.
+4. In the **Pre-conversation survey** area, set the **Turn on** toggle to  **Yes**. The options to add questions and refresh the page are displayed.
 5. Select **Add question**.
 
     > [!NOTE]
