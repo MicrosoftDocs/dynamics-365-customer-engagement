@@ -28,6 +28,8 @@ search.app:
 
 # Allow travel time outside of working hours with Resource Scheduling Optimization (RSO)
 
+
+
 // https://msit.microsoftstream.com/video/e34ba1ff-0400-a936-9bdd-f1eaab46c013?channelId=0bf6f71a-b361-4d7b-9668-62ff5207b60d
 
 
@@ -39,6 +41,8 @@ search.app:
 > ![Screenshot of ](./media/rso-travel-outside-after.png)
 
 
+
+
 ## Prerequisites
 Universal Resource Scheduling v3.x+ (Field Service v8.x+)
 > [!Note]
@@ -48,15 +52,20 @@ Universal Resource Scheduling v3.x+ (Field Service v8.x+)
 
 ## Edit RSO constraints
 
+Go to Resource Scheduling Optimization app > Optimization Goals > select or create an Optimization Goal
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-travel-outside-constraint.png)
 
 ## Enable Resource for scheduling outside working hours
-
+Go to Resources
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-travel-outside-resource.png)
+
+**Schedule outside working hours**: choose if RSO can schedule travel time before working hours, after working hours, or both. If you enter either or both values: _Allow Travel Time Before Work Hours_, _Allow Travel Time Before Work Hours_ you must enter a Travel limit. 
+
+**Travel limit (in minutes)**: dictates how many minutes before or after work a resource is permitted to travel. 
 
 ## Run RSO
 
@@ -73,4 +82,12 @@ Universal Resource Scheduling v3.x+ (Field Service v8.x+)
 ## Configuration considerations
 
 // use Q&A of video if necessary
+
+- you cannot have different travel limits before and after working hours. As an example, you cannot configure a 30 minute travel limit before work and a 60 minute travel limit after work.
+
+### Schedule within working hours constraint vs travel outside working hours
+
 ## Additional Notes
+
+
+end time will be within working hours
