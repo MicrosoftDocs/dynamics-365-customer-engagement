@@ -121,7 +121,7 @@ must comply with all domestic and international export laws and regulations that
 apply to the technology used or supported by the App. These laws include
 restrictions on destinations, end users and end use. For information on how
 these laws and regulations apply to Microsoft branded products, see
-[www.microsoft.com/exporting](http://www.microsoft.com/exporting).
+[www.microsoft.com/exporting](https://www.microsoft.com/exporting).
 
 **8. SUPPORT SERVICES.** The App is provided “as is.” Contact the App Provider
 to determine if any support services are available. If Microsoft is the App
