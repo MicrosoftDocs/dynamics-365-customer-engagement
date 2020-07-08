@@ -84,7 +84,8 @@ if the travel time exceeds the travel limit (as in the example above the travel 
 
 ## Improve utilization 
 
-by allowing travel time outside of working hours, more bookings can be scheduled and more working time can fit in to 
+by allowing travel time outside of working hours, more bookings can be scheduled and more working time can fit in to the day increasing utilization.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-travel-outside-utilization.png)
 
@@ -94,7 +95,9 @@ by allowing travel time outside of working hours, more bookings can be scheduled
 
 - you cannot have different travel limits before and after working hours. As an example, you cannot configure a 30 minute travel limit before work and a 60 minute travel limit after work.
 
-### Schedule within working hours constraint vs travel outside working hours
+### Comparing the end of day for 'Schedule within working hours' constraint vs 'travel outside working hours'
+
+When travel outside working hours is configured, the end time of the booking will be within working hours and travel time back to the resource's ending location will be outside working hours
 
 ## Additional Notes
 
