@@ -7,7 +7,7 @@ manager: shujoshi
 ms.date: 07/09/2020
 ms.topic: article
 ---
-# startChat
+# closeChat
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
