@@ -94,9 +94,9 @@ manager: annbe
 
 <tr>
 <td>
-<h2>Currecy and price list</h2>
+<h2>Currency and price list</h2>
 
-<li><a href="ts-currency-pricelist.md#update_currency_exisitng-oqoi" data-raw-source="[Update currency for an existing opportunity, quote, order, and invoice](ts-currency-pricelist.md#update_currency_exisitng-oqoi)">Update currency for an existing opportunity, quote, order, and invoice</a></li>
+<li><a href="ts-currency-pricelist.md#update_currency_existing-oqoi" data-raw-source="[I can't update the currency or price list for an opportunity, quote, order, or invoice](ts-currency-pricelist.md#update_currency_existing-oqoi)">I can't update the currency or price list for an opportunity, quote, order, or invoice</a></li>
 
 </td>
 <td>
