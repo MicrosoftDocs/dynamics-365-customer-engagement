@@ -2,7 +2,7 @@
 title: "Set up customer agreements (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 06/23/2020
+ms.date: 07/06/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
@@ -350,6 +350,16 @@ It's possible to import a booking recurrence pattern for an agreement booking se
 - To import a recurrence with one or more ABS or AIS records through CSV, just get a representative string from an ABS or AIS that is set up similarly to how you would like the imported records to be configured.
 - With that string, you'll see that there are some values driving how the record behaves that can be parsed out of that string, like start and end date, months every, etc.
 - Use these sample strings to populate the agreement booking and invoice setup records into a spreadsheet and use this to import fully configured records.
+
+As an example, a recurrence set up as in the image below...
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of booking recurrence](./media/agreement-recuurence-pattern.PNG)
+
+...would correspond with the XML below
+
+      <root><pattern><period>weekly</period><option>every</option><weeks every='1'><days>1</days><days>2</days><days>3</days></weeks></pattern><range><start>08/01/2020</start><option>endAfter</option><end>10</end></range><datas/></root>
 
 
 ## Additional notes
