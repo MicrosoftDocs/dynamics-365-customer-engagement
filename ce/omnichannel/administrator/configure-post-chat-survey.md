@@ -43,3 +43,8 @@ Perform the following steps to configure the survey:
 
     > [!div class=mx-imgBorder]
     > ![Post-conversation survey](../media/oc-post-conversation-survey.png "Post-conversation survey")
+
+### See also
+
+[Add a chat widget](add-chat-widget.md)  
+[Channels](channels.md)  
