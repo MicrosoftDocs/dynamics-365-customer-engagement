@@ -2,7 +2,7 @@
 title: "Field Service version history | MicrosoftDocs"
 ms.custom:
   - dyn365-fieldservice
-ms.date: 06/23/2020
+ms.date: 07/06/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -35,7 +35,7 @@ search.app:
 | Field Service     |  8.8.+  | [Upgrade](./upgrade-field-service.md) or [create a new trial](https://trials.dynamics.com)   |
 | Field Service Mobile                 | 12.1.+          | [Windows](https://aka.ms/fsmobile-windows),   [iOS](https://aka.ms/fsmobile-ios), and   [Android](https://aka.ms/fsmobile-android) |
 | Mobile Configuration Tool (Woodford) | 12.1.+          | [Direct download link (English only)](https://aka.ms/fsmobile-configurator)                                                       |
-| Mobile Project Template              | 1.0.4549       | [Direct download link (English only)](https://aka.ms/fsmobile-project)      |
+| Mobile Project Template              | 1.0.4847       | [Direct download link (English only)](https://aka.ms/fsmobile-project)      |
 
 For information about other updates to Field Service, visit the [Dynamics 365 release plans](https://docs.microsoft.com/dynamics365/release-plans/). 
 
