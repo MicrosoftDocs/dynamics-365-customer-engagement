@@ -235,7 +235,7 @@ For example, if a characteristic (skill) rating model ranges from 1 to 10, and t
 > ![Screenshot of requirement group with two requirements](./media/scheduling-rso-3-0-characteristic-proficiency-objective.png)
 
 > [!Note]
-> In the October 2020 update, the ‘Best matching skill level’ objective was enhanced to prioritize assigning jobs to resources with less common skills first. This is valuable for organizations with a workforce with varying skillsets where some resources have many skills with variable skill levels and other resources may only have one. By assigning jobs to resources with less common skills or lower levels first when there is more capacity than demand, this allows RSO to reserve capacity for resources with multiple and unique skills for higher priority emergency situations. This improvement to the Best Matching Skill level objective requires no additional configuration and is an updte to the algorithm in the background.
+> In the October 2020 update, the ‘Best matching skill level’ objective was enhanced to prioritize assigning jobs to resources with less common skills first. This is valuable for organizations with a workforce with varying skillsets where some resources have many skills with variable skill levels and other resources may only have one. By assigning jobs to resources with less common skills or lower levels first when there is more capacity than demand, this allows RSO to reserve capacity for resources with multiple and unique skills for higher priority emergency situations. This improvement to the Best Matching Skill level objective requires no additional configuration and is an update to the algorithm in the background.
 
 ### Schedule as soon as possible
 
