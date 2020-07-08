@@ -351,13 +351,12 @@ It's possible to import a booking recurrence pattern for an agreement booking se
 - With that string, you'll see that there are some values driving how the record behaves that can be parsed out of that string, like start and end date, months every, etc.
 - Use these sample strings to populate the agreement booking and invoice setup records into a spreadsheet and use this to import fully configured records.
 
-As an example, a recurrence set up as in the image below...
+As an example, see a recurrence and related XML below.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of booking recurrence](./media/agreement-recuurence-pattern.PNG)
 
-...would correspond with the XML below
 
       <root><pattern><period>weekly</period><option>every</option><weeks every='1'><days>1</days><days>2</days><days>3</days></weeks></pattern><range><start>08/01/2020</start><option>endAfter</option><end>10</end></range><datas/></root>
 
