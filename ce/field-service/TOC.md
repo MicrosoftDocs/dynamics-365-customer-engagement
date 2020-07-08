@@ -134,14 +134,15 @@
 ## [Goals](rso-optimization-goal.md)
 ## [Schedules](rso-optimization-schedule.md)
 ## [Publishing](rso-schedule-optimization.md)
-## [Lock options for bookings](booking-lock-options.md)
-## [Resolving conflicts for bookings](rso-handling-resolving-booking-conflicts.md)
 ## [Set up a proof of concept](rso-proof-concept.md)
 ## [Schedule in sequence](rso-requirement-dependency.md)
+## [Travel outside working hours](rso-travel-outside-working-hours.md)
 ## Running resource scheduling optimization
 ### [Publishing + monitoring](rso-schedule-optimization.md)
 ### [Overnight scheduling](rso-overnight-scheduling.md)
 ### [Single resource optimization](single-resource-optimization.md)
+## [Lock options for bookings](booking-lock-options.md)
+## [Resolving conflicts for bookings](rso-handling-resolving-booking-conflicts.md)
 ## [Analytics dashboard](scheduling-analytics-reports.md)
 ## [FAQs + troubleshooting](rso-faq.md)
 
