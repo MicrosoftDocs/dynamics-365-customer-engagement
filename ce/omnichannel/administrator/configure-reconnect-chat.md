@@ -34,7 +34,7 @@ Customers interacting through chat widgets that have authentication settings con
 
 #### Redirect link
 
-When customers come back after the timeout period, to make sure that the conversation is routed to an appropriate queue, you can optionally configure a redirect link that will reset the context for those customers who do not fill a pre-chat survey. If no redirect link is configured, a fresh conversation starts when the customer selects the reconnect link.
+When customers come back after a timeout period that is configured in the reconnection settings, to make sure that the conversation is routed to an appropriate queue, you can optionally configure a redirect link that will reset the context for those customers who do not fill a pre-chat survey. If no redirect link is configured, a fresh conversation starts when the customer selects the reconnect link.
 
 > [!IMPORTANT]
 >
