@@ -39,7 +39,7 @@ To ensure timely updates if a matched contact changes the company, the following
 
 There are several ways to find out if a contact's company has changed.
 
-- From the org chart on an Account record: A red dot next to a contacts's name in the org chart indicates that their company has changed since you built the org chart.
+- From the org chart on an Account record: A red dot next to a contact's name in the org chart indicates that their company has changed since you built the org chart.
 
 - From the **Relationship Assistant** card in the **Sales Activity Social Dashboard**. To turn on the Relationship Assistant card, go to **Settings** > **Sales Insights** > **Insight cards**
 
