@@ -161,10 +161,10 @@ You need to create mobile offline profiles for users to configure filters that d
  
 10. In the **Include [selected entity name] records related to these entities** area, select which related entity relationships to create. You need to have already added the entity you want to create the relationship with. For example, if you add want to create a relationship between the Account and Contact entities, you need to add both to this mobile offline profile. 
 
-For example, if you select **Contact | Field name: Primary contact** this means for every contact, the system will also download the account related to it. 
+    For example, if you select **Contact | Field name: Primary contact** this means for every contact, the system will also download the account related to it. 
      
-   > [!div class="mx-imgBorder"]
-   >![Add entity relationship](media/mol_add_relationship.png "Add entity relationship")
+    > [!div class="mx-imgBorder"]
+    >![Add entity relationship](media/mol_add_relationship.png "Add entity relationship")
   
 11. Select the relationships you want to include. 
 12. Select **Save** to add the entity to your profile so you can continue editing it.
