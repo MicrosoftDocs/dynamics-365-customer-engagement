@@ -17,7 +17,7 @@ This article helps you troubleshoot and resolve issues related to currency and p
 <a name="update_currency_existing-oqoi"> </a>
 ## Issue: I can't update the currency or price list for an opportunity, quote, order, or invoice
 
-**Problem**
+**Reason**
 
 When I change and try to save the currency or price list for an existing opportunity, quote, order, or invoice that's already associated with a product record or quote record, an error message is displayed.
 
