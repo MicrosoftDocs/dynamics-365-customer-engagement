@@ -21,15 +21,15 @@ This article helps you troubleshoot and resolve issues related to currency and p
 
 When I change and try to save the currency or price list for an existing opportunity, quote, order, or invoice that's already associated with a product record or quote record, an error message is displayed.
 
-**Resolution**
-
 The error occurs because the associated product record or quote record is already linked with a price list that was created by using a different transaction currency.
 
-The following error messages will be displayed, depending on the entity:
+The following are the few error messages will be displayed, depending on the entity:
 
 - For an opportunity, the error message is "The currency cannot be changed because the opportunity has opportunity products, quotes, orders, or invoices associated with it. Remove the associated records and then change the currency."
 
 - For a quote, the error message is "The currency cannot be changed because the quote has quote products associated with it. Remove the associated records and then change the currency."
+
+**Resolution**
 
 To resolve this issue, you must remove the product records or quote records, change the currency, and then add back the product records or quote records.
 
