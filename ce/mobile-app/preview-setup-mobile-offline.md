@@ -128,7 +128,7 @@ You need to create mobile offline profiles for users to configure filters that d
    >![Add entity](media/mol_add_entity_1.png "Add entity")
  
 
-10. Select a filter based on the ownership type for the entity. Entity ownership is decided when you create the entity. For more information, see [Types of entities and entity ownership](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-entities).
+9. Select a filter based on the ownership type for the entity. Entity ownership is decided when you create the entity. For more information, see [Types of entities and entity ownership](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-entities).
 
  
    |Entity ownership type|Available Data Download Filter options |  
@@ -138,7 +138,7 @@ You need to create mobile offline profiles for users to configure filters that d
   |**Business**|<ul><li>**Download related data only** -  Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available. </li> <li>**All records** - Make all records for this entity available offline.</li> <li>**Other records** - Make only the specified records for this entity available offline and choose from the following:</li> <ul><li> **Download my business unit’s records** - Make your business unit’s records available offline.</li>   |  
   |**None**|  <ul><li>**Download related data only**. Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.</li> |    
     
-Admins can define a custom filter based on the following rules. You can create filters up to three levels.  
+**Custom (Coming sson)** - Admins can define a custom filter based on the following rules. You can create filters up to three levels.  
 
 
 | |  | |
@@ -156,39 +156,33 @@ Admins can define a custom filter based on the following rules. You can create f
 
  
  
-11. Select **Save** to create the mobile offline profile item so you can continue editing it.  
-  
-12. In the **MOBILE OFFLINE PROFILE ITEM ASSOCIATIONS DETAILS** area, select **Add Mobile Offline Profile Item Association record** to create a new mobile offline profile item association. You need to create a mobile offline profile item association for each related record you want to make available offline. In addition, you need to include any related entities in this mobile offline profile.  
-  
-     For example, if you create a mobile offline profile item association from the Lead entity, you need to add the Lead entity to this mobile offline profile.  
+10. In the **Include [selected entity name] records related to these entities** area, select which related entity relationships to create. You need to have already added the entity you want to create the relationship with. For example, if you add want to create a relationship between the Account and Contact entities, you need to add both to this mobile offline profile. 
+
+For example, if you select **Contact | Field name: Primary contact** this means for every contact, the system will also download the account related to it. 
      
-    > [!div class="mx-imgBorder"]
-    >![Add Lead entity to offline profile](media/addleadentity1.png "Add Lead entity to offline profile")
+   > [!div class="mx-imgBorder"]
+   >![Add entity relationship](media/mol_add_relationship.png "Add entity relationship")
   
-13. Enter a name for the mobile offline profile item association, select a relationship, and then select **Save**.  
-  
-    When you’re done adding mobile offline profile item associations to the mobile offline profile item, select **Save & Close** on the **MOBILE OFFLINE PROFILE ITEM ASSOCIATION** screen.  
-  
-14. When you’re done adding mobile offline profile item details to the mobile offline profile item, select **Save** at the lower right corner of the **MOBILE OFFLINE PROFILE ITEM** window.  
- 
+11. Select the relationships you want to include. 
+12. Select **Save** to add the entity to your profile so you can continue editing it.
+
 ### Step 2.1: Add users to a mobile offline profile 
 
-Once you have created a mobile offline profile, you can start adding users to the profile.  
-  
+Once you have created a mobile offline profile, you can start adding users to the profile and then publish the profile. This will make the profile available to your users so they can get the mobile offline experience that you've set-up. 
+
 > [!NOTE]
-> You can add a user to only one mobile offline profile.
 > Each time user is added to the mobile offline profile, mobile offline profile needs to be published again. 
   
 1.  If it’s not already open, open the mobile offline profile you want to add users to.  
  
-2.  In the **USERS** area, select **Add User record** to add a new user.  
+2.  In the **People with offline access** area, select **Add people**,
 
     > [!div class="mx-imgBorder"]
-    >![Add a user](media/adduser1.png "Add a user")
+    >![Add a user](media/mol_add_people.png "Add a user")
   
-3.  Select the lookup field that appears and select a user to add to this mobile offline profile.  
+3.  Choose the people that you want to add to the mobile offline profile.  
   
-4.  When you’re done adding users, select **Save** icon in the lower right corner of the screen.  
+4.  When you’re done adding users, select **Save**.
 
 ### Step 2.2: Publish a mobile offline profile
 
