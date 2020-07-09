@@ -114,7 +114,7 @@ Once you select **Start**, the migration tool will begin taking you through the 
 - **Step 5:** Migration 
 - **Step 6:** Finish
 
-### Step 1: Category to migrate
+## Step 1: Category to migrate
 
 The **Step 1** screen provides:
 
@@ -129,7 +129,7 @@ The **Step 1** screen provides:
 
 > ![Migration Tool for first time user - Step 1](media\migration-tool-step-1-first-time-users-2.png "Migration Tool for first time user - Step 1")
 
-### Step 2: Pre-migration checkup
+## Step 2: Pre-migration checkup
 
 The **Step 2** screen is an enhancement to the migration process to mitigate potential migration failures before you begin.  The Pre-migration Checkup can be performed on the Automatic Record Creation or SLA rules separately or together.       
 
@@ -141,7 +141,7 @@ As a first time user, you will not have any insights until you complete the Pre-
 
 > ![Migration Tool for first time user - Step 2](media\migration-tool-step-2-first-time-users-1.png "Migration Tool for first time user - Step 2")
 
-### Step 3: Rules and items to migrate
+## Step 3: Rules and items to migrate
 
 In **Step 3** the rules which successfully passed are automatically selected to move forward for migration.  However, you can control which rules you want to migrate by selecting/de-selecting any rules you want to migrate.  
 
