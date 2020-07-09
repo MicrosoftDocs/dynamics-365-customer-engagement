@@ -39,4 +39,4 @@ For more information about the data validation capability of LinkedIn Sales Navi
 
 ### See also
 
-[Dynamics 365 Sales troubleshooting guide](troubleshooting.md)
+[Dynamics 365 Sales troubleshooting guide](../sales-enterprise/troubleshooting.md)
