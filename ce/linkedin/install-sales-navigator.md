@@ -144,7 +144,7 @@ Use this procedure to enable default controls for LinkedIn Sales Navigator conte
 
 ## Enable CRM sync and activity writeback
 
-By enabling the CRM sync and activity writeback, the Sales Navigator matches the Accounts, Leads, and Contacts in Dynamics 365 Sales. Also, saves information you create in Sales Navigator directly in your Dynamics 365 Sales, including InMails and Messages.
+By enabling the CRM sync and activity writeback, the Sales Navigator matches the Accounts, Leads, and Contacts in Dynamics 365 Sales. It also saves information you create in Sales Navigator directly in your Dynamics 365 Sales, including InMails and Messages.
 
 To enable the CRM sync and activity writeback, follow the process as defined in [CRM Sync & Activity Writeback for Dynamics 365](https://business.linkedin.com/sales-solutions/sales-navigator-customer-hub/resources/ms-dynamics-sync-activity-writeback).
 
