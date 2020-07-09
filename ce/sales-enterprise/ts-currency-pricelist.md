@@ -47,12 +47,12 @@ You can change the currency and price list for the entities in the following sta
 <tr><td>Close</td><td>No</td><td>No</td></tr>
 <tr><td valign="top" rowspan="5"><b>Order</b></td><td>Active</td><td>No </td><td>Yes, but this can cause an error with the Order record if the associated Order Product records<!--Edit okay?--> aren't part of the selected price list. </td></tr>
 <tr><td>Submitted</td><td>No</td><td>No</td></tr>
-<tr><td>Cancelled</td><td>No</td><td>No</td></tr>
+<tr><td>Canceled</td><td>No</td><td>No</td></tr>
 <tr><td>Fulfilled</td><td>No</td><td>No</td></tr>
 <tr><td>Invoiced</td><td>No</td><td>No</td></tr>
 <tr><td valign="top" rowspan="3"><b>Invoice</b></td><td>Active</td><td>Yes, but only if there are no associated Quote Product records. </td><td>Yes, but this can cause an error with the Invoice record if the associated Order Product records aren't part of the selected price list.</td></tr>
 <tr><td>Paid</td><td>No</td><td>No</td></tr>
-<tr><td>Cancelled</td><td>No</td><td>No</td></tr>
+<tr><td>Canceled</td><td>No</td><td>No</td></tr>
 </table>
 
 **To update the currency or price list**
