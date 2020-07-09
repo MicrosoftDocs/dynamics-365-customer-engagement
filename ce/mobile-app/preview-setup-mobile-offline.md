@@ -104,20 +104,24 @@ You need to create mobile offline profiles for users to configure filters that d
    > [!div class="mx-imgBorder"]
    >![Mobile configuration setting](media/offline_mobile_config_settings.png "Mobile configuration settings")
   
-5. On the next screen, select **Mobile Offline Profiles**.  
+5. Select **New Profiles** to create a new mobile offline profile. If you already have a profile that you want to edit, select it from the list.
 
    > [!div class="mx-imgBorder"]
-   >![Mobile Offline Profile screen](media/mobileofflineprofile.png "Mobile Offline Profile screen")
+   >![Mobile Offline Profile screen](media/mol_new_profile.png "Crearte new Mobile Offline Profile")
 
-6. Select **New** to create a new mobile offline profile. If you already have one that you want to edit, select it from the list.  
   
-7. Enter a name and description for your mobile offline profile. Select **Save** to create the mobile offline profile so you can continue to edit it.  
+6. Enter a name and description for your mobile offline profile. Select **Create** to create the mobile offline profile so you can continue to edit it.  
     
    > [!div class="mx-imgBorder"]
-   >![Name your mobile offline profile](media/namemobileofflineprofile.png "Name your mobile offline profile")
+   >![Name your mobile offline profile](media/mol_sample_profile.png "Name your mobile offline profile")
   
   
-8. In the **MOBILE OFFLINE PROFILE DETAILS** area, select **Add Mobile Offline Profile item record** to create a new mobile offline profile item. You need to create a mobile offline profile item for each entity you want to make available for this mobile offline profile.  
+  
+  
+  
+  
+  
+7. In the **MOBILE OFFLINE PROFILE DETAILS** area, select **Add Mobile Offline Profile item record** to create a new mobile offline profile item. You need to create a mobile offline profile item for each entity you want to make available for this mobile offline profile.  
 
    > [!div class="mx-imgBorder"]
    >![Enter Mobile Offline Profile Item details](media/namemobileofflineprofile2.png "Enter Mobile Offline Profile Item details")
