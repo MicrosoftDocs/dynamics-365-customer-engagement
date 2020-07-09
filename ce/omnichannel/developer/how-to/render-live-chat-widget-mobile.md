@@ -13,9 +13,9 @@ ms.topic: reference
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-Use the `WebView` component of your mobile operating system language to render web version of the live chat widget on mobile devices. `WebView` capability is offered by both Android and IOS. It enables mobile apps to display web content.
+Use the `WebView` component of your mobile operating system language to enable rendering of the web version of the live chat widget on mobile devices. `WebView` capability is offered by both Android and IOS. It enables mobile apps to display web content.
 
-The sample code given below shows how you can render the chat widget on the mobile app. 
+The sample code given below illustrates how you can render the chat widget on the mobile app. 
 
 ```kotlin
 var html: String = """
