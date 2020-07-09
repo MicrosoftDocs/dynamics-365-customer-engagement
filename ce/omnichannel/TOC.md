@@ -262,6 +262,7 @@
 #### [Start chat proactively](developer/how-to/start-proactive-chat.md)
 #### [Enable a bot to escalate and end conversation](developer/bot-escalate-end-conversation.md)
 #### [Auto-close a conversation](developer/auto-close-conversation.md)
+#### [Render live chat widget on mobile app](developer/how-to/render-live-chat-widget-mobile.md)
 #### Smart assist bot
 ##### [Build a smart assist bot](developer/how-to/smart-assist-bot.md)
 ##### [Implement custom scenario](developer/how-to/smart-assist-scenario.md)
@@ -329,9 +330,11 @@
 ##### [removeAuthTokenProvider](developer/reference/methods/removeAuthTokenProvider.md)
 ##### [startChat](developer/reference/methods/startChat.md)
 ##### [startProactiveChat](developer/reference/methods/startProactiveChat.md)
+##### [closeChat](developer/reference/methods/closeChat.md)
 #### [Events]()
 ##### [lcw:ready](developer/reference/events/lcw-ready.md)
 ##### [lcw:error](developer/reference/events/lcw-error.md)
+##### [lcw:threadUpdate](developer/reference/events/lcw-threadUpdate.md)
 #### [Error code reference](developer/reference/error-code-reference.md)
 ### [runMacro](developer/reference/methods/runMacro.md)
 ### Action Reference
