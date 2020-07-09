@@ -72,6 +72,7 @@
 ### [Crews](resource-crews.md)
 ### [Pools](resource-pools.md)
 ### [Facilities](facility-scheduling.md)
+### [Advanced filters](schedule-assistant-advanced-filters.md)
 
 
 
