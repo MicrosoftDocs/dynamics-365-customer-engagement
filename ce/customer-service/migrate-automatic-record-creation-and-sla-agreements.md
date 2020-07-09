@@ -92,7 +92,7 @@ Once you have successfully accessed the migration tool, choose from one of the t
 - **Option 1:** First time migration tool user. Follow the steps in this option if you are accessing and using the migration tool for the first time. 
 - **Option 2:** Experienced migration tool user. Follow the steps in this option if you have accessed and used the Migration Tool in the past.
 
-## First Time Migration Tool User Experience
+## Migration Tool for First time Users
 
 The migration landing page shown below is what will display for first time users and provides the following: 
 1.	View of both automatic record creation and service level agreements (SLAs).
@@ -158,7 +158,7 @@ Details covered in Step 3.1 are only related to Automatic Record Creation migrat
 
 1.	The tracker displays which set of rules you are working on for migration to ensure clarity.
 2.	Rules that pass are automatically selected for migration. You have control to uncheck these.
-3.	Rules that fail are not selected for migration, however you can select rules that failed for migration, but please note that data on failed rules will not migrate completely.  To understand why a rule failed, you can click on the rule and view the details around the failure.  You can use the information to fix the failure prior to migration or after migration. See Rule Failure Detail Views section below for more details. <insert jump link>
+3.	Rules that fail are not selected for migration, however you can select rules that failed for migration, but please note that data on failed rules will not migrate completely.  To understand why a rule failed, you can click on the rule and view the details around the failure.  You can use the information to fix the failure prior to migration or after migration. See [View Details for Rule Failure](#view-details-for-rule-failure) for more details. 
 4.	**Migrate all rules** provides you the ability to override any previously selected rules that have passed and failed and migrate everything.
 5.	Allows you to **download all logs** which failed for review and troubleshooting purposes.  
 6.	This alert notifies you that while you can migrate rules that failed the Pre-migration Checkup, the data on failed rules will not migrate completely and provides the option to **unselect rules** that failed.
@@ -166,7 +166,7 @@ Details covered in Step 3.1 are only related to Automatic Record Creation migrat
 
 > ![Migration Tool for first time user - Step 3.1](media\migration-tool-step-3-first-time-users-1.png "Migration Tool for first time user - Step 3.1")
 
-### Failure Detail Views
+## View Details for Rule Failure
 
 When you click on a rule that failed the Pre-migration Checkup you have a choice of **Basic** and **Advance** views to better understand why a rule failed. You can use this information to either troubleshoot and fix the ruled that failed, or choose to migrate the rule and fix it in the Customer Service Hub after migration is complete.
 
@@ -216,7 +216,7 @@ Once migration is complete the following screen will appear that includes:
 
 1.	**Selected** displays the total number of rules migrated
 2.	**Migrated** displays the total number of rules that successfully completed migration process.
-3.	**Incomplete** displays the total number of rules that encountered errors which did not complete the migration process successfully. See Incomplete Migration Details for more information. <create jump link here>
+3.	**Incomplete** displays the total number of rules that encountered errors which did not complete the migration process successfully. See [Incomplete Migration Details](#incomplete-migration-details) for more information.
 4.	**Migration Status** displays either green check mark ![green check mark](media\migration-tool-step-5-green-check-first-time-users-3.png "green check mark")  which represents rules successfully migrated or a red exclamation mark ![red exclamation mark](media\migration-tool-step-5-red-check-first-time-users-3.png "red exclamation mark")   which represents some or all rules did not successfully complete migration.
 5.	**Refresh** allows you to update results.
 6.	**Finish** completes the migration process when completed.
@@ -242,11 +242,11 @@ Now that you have completed your first run, and select **Finish**, a migration *
 2.	**Migrated** displays the number of rules that were successfully migrated.
 3.	**Pending** displays the number of rules that were not successfully migrated.
 4.	**Refresh** allows you to update your status view.
-5.	**Activate** you new rules and items allows you activate migrated rules. See Activate New Rules for more information. <create jump link>
+5.	**Activate** you new rules and items allows you activate migrated rules. See [Activate New Rules](#activate-new-rules) for more information. 
 
 > ![Migration Tool for first time user - Step 6](media\migration-tool-step-6-first-time-users-1.png "Migration Tool for first time user - Step 6")
 
-### Activate New Rules
+## Activate New Rules
 
 When you activate new rules for either Automatic Record Creation or Service Level Agreement you are taken to the following screen that includes:
 
