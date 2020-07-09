@@ -131,13 +131,13 @@ You need to create mobile offline profiles for users to configure filters that d
 9. Select a filter based on the ownership type for the entity. Entity ownership is decided when you create the entity. For more information, see [Types of entities and entity ownership](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-entities).
 
 
- 
+
    |Entity ownership type|Available Data Download Filter options |  
   |---------------|-----------------|  
   |**User or Team**| <ul><li>**Download related data only** - Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.</li> <li>**All records** - Make all records for this entity available offline.</li> <li>**Other data filter** - Make only the specified records for this entity available offline and then choose from the following: </li> <ul><li> **Download my records** - Make only your records available offline.</li>  <li> **Download my team’s records** - Make your team’s records available offline.</li> <li>**Download my business unit’s records** - Make your business unit’s records available offline.</lu>|  
   |**Organization**|<ul><li>**Download related data only** - Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.</li> <li>**All records** - Make all records for this entity available offline. </li>|  
   |**Business**|<ul><li>**Download related data only** -  Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available. </li> <li>**All records** - Make all records for this entity available offline.</li> <li>**Other records** - Make only the specified records for this entity available offline and choose from the following:</li> <ul><li> **Download my business unit’s records** - Make your business unit’s records available offline.</li>   |  
-  |**None**|  <ul><li>**Download related data only**. Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.</li> |     
+  |**None**|  <ul><li>**Download related data only**. Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.</li> |        
  
     
 **Custom (Coming soon)** Admins can define a custom filter based on the following rules. You can create filters up to three levels.  
