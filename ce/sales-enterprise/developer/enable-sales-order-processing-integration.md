@@ -1,7 +1,7 @@
 ---
 title: "Enable sales order processing integration (Dynamics 365 Sales) | MicrosoftDocs"
 description: 
-ms.date: 07/01/2020
+ms.date: 07/09/2020
 ms.service: 
   - dynamics-365-sales
 ms.custom: 
@@ -48,7 +48,7 @@ The following table lists the conditions to be satisfied before Dynamics 365 Sal
 
 ## Turn off the Sales Order Processing setting
 
-Follow the following steps to turn off the Sales Order Processing setting.
+Follow the steps given below to turn off the Sales Order Processing setting.
 
 1. Go to **Sales Hub** and then select **App Settings**.
 2. Select **General/Overview** and then select **Back Office Order Processing Integration**.
