@@ -110,26 +110,22 @@ You need to create mobile offline profiles for users to configure filters that d
    >![Mobile Offline Profile screen](media/mol_new_profile.png "Crearte new Mobile Offline Profile")
 
   
-6. Enter a name and description for your mobile offline profile. Select **Create** to create the mobile offline profile so you can continue to edit it.  
+6. Enter a name and description for your mobile offline profile. Select **Create** to create the mobile offline profile. Once the profile is created select it to open the profile so you can continue to editing it.  
     
    > [!div class="mx-imgBorder"]
    >![Name your mobile offline profile](media/mol_sample_profile.png "Name your mobile offline profile")
   
   
-  
-  
-  
-  
-  
-7. In the **MOBILE OFFLINE PROFILE DETAILS** area, select **Add Mobile Offline Profile item record** to create a new mobile offline profile item. You need to create a mobile offline profile item for each entity you want to make available for this mobile offline profile.  
+7. In the **Data available offline** area, select **Add entity** to add an entity to the profile. 
 
    > [!div class="mx-imgBorder"]
-   >![Enter Mobile Offline Profile Item details](media/namemobileofflineprofile2.png "Enter Mobile Offline Profile Item details")
+   >![Add entity](media/mol_add_entity.png "Add entity")
+   
   
-9. Enter a name and select an entity. Only entities that can be enabled for mobile offline appear in the **Entity** list.  
+9. Select an entity. Only entities that can be enabled for mobile offline appear in the **Entity** list.  
 
    > [!div class="mx-imgBorder"]
-   >![Setting Customizations](media/enable_entities_for_offline.png "Settings Customizations")
+   >![Add entity](media/mol_add_entity_1.png "Add entity")
  
 
 10. Select a **Data Download Filter** based on the ownership type for the entity. Entity ownership is decided when you create the entity. For more information, see [Types of entities and entity ownership](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-entities).
