@@ -17995,6 +17995,11 @@
       "source_path": "ce/voice-of-customer/voc-faq.md",
       "redirect_url": "deprecate",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales-enterprise/ts-linkedin-integration.md",
+      "redirect_url": "../linkedin/ts-linkedin-integration.md",
+      "redirect_document_id": false
     }
   ]
 }

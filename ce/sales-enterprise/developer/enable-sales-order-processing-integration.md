@@ -1,7 +1,7 @@
 ---
 title: "Enable sales order processing integration (Dynamics 365 Sales) | MicrosoftDocs"
 description: 
-ms.date: 05/03/2019
+ms.date: 07/09/2020
 ms.service: 
   - dynamics-365-sales
 ms.custom: 
@@ -25,7 +25,6 @@ By default, sales order processing is turned off. When sales order processing is
 
 You can enable sales order processing integration by setting the value of the [IsSOPIntegrationEnabled](../../customerengagement/on-premises/developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) attribute on the [Organization entity](../../customerengagement/on-premises/developer/entities/organization.md) to Yes (1).
 
-
 ## What happens when sales order processing is turned on?
 
 When sales order processing is turned on:  
@@ -46,6 +45,17 @@ The following table lists the conditions to be satisfied before Dynamics 365 Sal
 |Quote product|Calculate always|Calculate always|Calculate always|NA|
 |Sales order product|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../customerengagement/on-premises/developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and the signed-in user is an integration user or sales order is in submitted state|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../customerengagement/on-premises/developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and the signed-in user is an integration user or sales order is in submitted state|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../customerengagement/on-premises/developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and the signed-in user is an integration user|NA|
 |Invoice product|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../customerengagement/on-premises/developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and the signed-in user is an integration user|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../customerengagement/on-premises/developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and the signed-in user is an integration user|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../customerengagement/on-premises/developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and the signed-in user is an integration user|NA|
+
+## Turn off the Sales Order Processing setting
+
+Follow the steps given below to turn off the Sales Order Processing setting.
+
+1. Go to **Sales Hub** and then select **App Settings**.
+2. Select **General/Overview** and then select **Back Office Order Processing Integration**.
+3. Select **Manage** and change the toggle to **Off**.
+
+> [!NOTE]
+> The setting can only be turned off if it is already enabled. Once turned off, the setting will not be displayed in UI.
 
 ## See also
 

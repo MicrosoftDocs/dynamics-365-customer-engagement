@@ -92,7 +92,14 @@ manager: annbe
 
 </td></tr>
 
-<tr><td>
+<tr>
+<td>
+<h2>Currency and price list</h2>
+
+<li><a href="ts-currency-pricelist.md#update_currency_existing-oqoi" data-raw-source="[I can't update the currency or price list for an opportunity, quote, order, or invoice](ts-currency-pricelist.md#update_currency_existing-oqoi)">I can't update the currency or price list for an opportunity, quote, order, or invoice</a></li>
+
+</td>
+<td>
 
 <h2>Sales pipeline chart</h2>
 
@@ -101,17 +108,19 @@ manager: annbe
 <li><a href="ts-sales-pipeline.md#values_from_multiple_bpfs" data-raw-source="[I see pipeline phase values from multiple business process flow definitions](ts-sales-pipeline.md#values_from_multiple_bpfs)">I see pipeline phase values from multiple business process flow definitions</a></li>
 <li><a href="ts-sales-pipeline.md#different_ordering" data-raw-source="[The sales pipeline chart ordering is displayed differently in Unified Interface vs. the legacy web client](ts-sales-pipeline.md#different_ordering)">The sales pipeline chart ordering is displayed differently in Unified Interface vs. the legacy web client</a></li>
 
-</td><td>
+</td>
+</tr>
+
+<tr>
+<td>
 
 <h2>Developer</h2>
 <li><a href="developer/custom-plugin-handling-shared-variable.md" data-raw-source="[Custom plug-in handling using shared variable](developer/custom-plugin-handling-shared-variable.md)">Price calculation service gets triggered upon retrieving details from OQOI entities</a></li>
 
 </td>
-</tr>
-
-<tr><td>
+<td>
 <h2>Integrations</h2>
-<li><a href="ts-linkedin-integration.md#error-in-enabling-linkedin-updates" data-raw-source="[Error in enabling LinkedIn updates](ts-linkedin-integration.md#error-in-enabling-linkedin-updates)">Error in enabling LinkedIn updates</a></li>
+<li><a href="../linkedin/ts-linkedin-integration.md#error-in-enabling-linkedin-updates" data-raw-source="[Error in enabling LinkedIn updates](../linkedin/ts-linkedin-integration.md#error-in-enabling-linkedin-updates)">Error in enabling LinkedIn updates</a></li>
 </td></tr>
 
 </table>
