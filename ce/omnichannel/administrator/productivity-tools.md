@@ -34,7 +34,7 @@ Whilst there are challenges such as:
 - Process adherence and compliance that are specific to the contact center business organizations.
 - Lack of real-time insights to the customer, knowledge articles, and other relevant needs based on the context of the interaction.
 
-The Dynamics 365 Productivity Tools app contains the following that help address these challenges, aiding users to perform day-to-day operations in a fast, efficient, and process-compliant manner.
+The Dynamics 365 Productivity Tools app contains the following functionality to help address these challenges, aiding users to perform day-to-day operations in a fast, efficient, and process-compliant manner.
 
 - [Macros](#macros)
 - [Agent scripts](#agent-scripts)
