@@ -2,7 +2,7 @@
 title: "Enable LinkedIn Sales Navigator for Dynamics 365 | Microsoft Docs"
 description: "Enable the LinkedIn Sales Navigator for Dynamics 365 capabilities"
 keywords: "installation, setup, sales navigator"
-ms.date: 06/25/2020
+ms.date: 07/09/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -141,6 +141,12 @@ Use this procedure to enable default controls for LinkedIn Sales Navigator conte
     > ![Enable LinkedIn Sales Navigator](media/enable-sales-navigator.png "Enable LinkedIn Sales Navigator")
 
 4. Select **OK**.
+
+## Enable CRM sync and activity writeback
+
+By enabling the CRM sync and activity writeback, the Sales Navigator matches the Accounts, Leads, and Contacts in Dynamics 365 Sales that are associated with open Opportunities. Also, saves information you create in Sales Navigator directly in your Dynamics 365 Sales, including InMails, Messages, and Notes.
+
+To learn more, see [CRM Sync & Activity Writeback for Dynamics 365](https://business.linkedin.com/sales-solutions/sales-navigator-customer-hub/resources/ms-dynamics-sync-activity-writeback)
 
 ## Existing orgs that got updated with April 19 features
 
