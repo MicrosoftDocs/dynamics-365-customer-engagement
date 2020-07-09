@@ -122,13 +122,13 @@ You need to create mobile offline profiles for users to configure filters that d
    >![Add entity](media/mol_add_entity.png "Add entity")
    
   
-9. Select an entity. Only entities that can be enabled for mobile offline appear in the **Entity** list.  
+8. Select an entity. Only entities that can be enabled for mobile offline appear in the **Entity** list and then select **Next**.
 
    > [!div class="mx-imgBorder"]
    >![Add entity](media/mol_add_entity_1.png "Add entity")
  
 
-10. Select a **Data Download Filter** based on the ownership type for the entity. Entity ownership is decided when you create the entity. For more information, see [Types of entities and entity ownership](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-entities).
+10. Select a filter based on the ownership type for the entity. Entity ownership is decided when you create the entity. For more information, see [Types of entities and entity ownership](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-entities).
 
  
    |Entity ownership type|Available Data Download Filter options |  
