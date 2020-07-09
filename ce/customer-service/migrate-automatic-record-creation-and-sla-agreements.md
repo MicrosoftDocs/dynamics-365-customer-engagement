@@ -330,6 +330,11 @@ Once migration is complete you can uninstall the migration tool.  After General 
 
 [Important changes (deprecations) coming](https://docs.microsoft.com/en-us/power-platform/important-changes-coming) 
 
+[Help resources for Customer Service Hub](https://docs.microsoft.com/en-us/dynamics365/customer-service/help-hub)
+
+[Service scheduling FAQ](https://docs.microsoft.com/en-us/dynamics365/customer-service/service-scheduling-faq)
+
+
 
 
 
