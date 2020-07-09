@@ -129,7 +129,9 @@
 #### Migration tool
 ##### [Introduction](introduction-migration-entity-records.md)
 ##### [Plan your migration](plan-migration.md)
+##### [Migrate Automatic Record Creation and SLAs](migrate-automatic-record-creation-and-sla-agreements.md)
 ##### [Migrate entity records data using migration tool](migrate-entity-records.md)
+
 
 
 #### Service Scheduling Developer Guide
