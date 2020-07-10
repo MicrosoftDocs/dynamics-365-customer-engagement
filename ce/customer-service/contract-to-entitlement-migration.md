@@ -27,7 +27,7 @@ This document contains information about the settings that admins should manage 
 - Contract line items
 - Contract templates
 
-## Migration planning
+## Planning the migration
 
 The process of migrating contracts to entitlements is as follows:
 
@@ -113,7 +113,7 @@ An entitlement can be canceled only immediately; you can't set a date to cancel 
 
 #### Billing unit in contracts
 
-Billing unit isn't available in entitlements. To achieve this capability in entitlement, use custom logic.
+Billing unit isn't available in entitlements. To achieve this capability in entitlements, use custom logic.
 
 For simple rollups, use rollup fields. For more information, see [rollup fields](/dynamics365/customerengagement/on-premises/customize/define-rollup-fields).
 
