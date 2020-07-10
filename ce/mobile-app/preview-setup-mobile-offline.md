@@ -27,16 +27,16 @@ search.app:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Mobile offline allows your users to use the Dynamics 365 for phones app in offline mode to interact with their data, even when they are not connected to the internet. The Dynamics 365 for phones app provides a rich offline experience and helps you to stay productive. You can use basic commands such as create, read, update, and delete when you are offline. Once you are back online, your changes are automatically synchronized with your Dynamics 365 for phones app. 
+Mobile offline allows your users to use the Dynamics 365 for phones and tablets in offline mode to interact with their data, even when they are not connected to the internet. The Dynamics 365 mobile app provides a rich offline experience and helps you to stay productive. You can use basic commands such as create, read, update, and delete when you are offline. Once you are back online, the changes you made on the Dynamics 365 mobile app are automatically synchronized with Common Data Service.
 
 > [!Note]
-> - Mobile offline is only available for iOS and Android devices.
-> - To use the mobile offline feature, download the latest version of the Dynamics 365 for phones and tablet app from the app store. For iOS, version 13.19043.32 or later is supported; for Android, version 4.3.19043.33 or later supported.
+> - Mobile offline is currently available for iOS and Android devices.
+> - To use the mobile offline feature, download the latest version of the Dynamics 365 mobile app for your phone or tablet from the app store. For iOS, version 13.19043.32 or later is supported; for Android, version 4.3.19043.33 or later supported.
 
 For information on entities and corresponding commands that are available in offline mode, see [Mobile offline capabilities and limitations](mobile-offline-capabilities.md).
 
 
-To allows users to use this feature, a Dynamics 365 administrator will need to set up mobile offline for their organization. 
+To allows users to use this feature, a Dynamics 365 administrator will need to set up mobile offline for their organization as outlined below.
   
 This offline experience uses [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] services to periodically synchronize entities with the Dynamics 365 for phones and tablets apps so synchronized records are available when users’ mobile devices are disconnected. To enable mobile offline synchronization, follow the steps below.
  
@@ -68,27 +68,22 @@ One of the first things you need to do is enable entities that will be available
    > [!div class="mx-imgBorder"]
    >![Select a Customize the System](media/Settings_Custom3.png "Customize the System")
  
-6. Select **Organization data download filter** to filter the data and set the freshness of the data you want to make available offline. You can set up to three criteria when you define a filter. Select the field to filter by, select an operator, then set a value. 
   
-    The entities that are enabled for mobile offline by default have **Modified On** set for **Last X Days** = 10, so the data modified or created in the last 10 days will be available for downloading to mobile devices.  
+6. Select **Save**.  
   
-7. Select **Save**.  
-  
-8. When you’re done enabling entities for mobile offline, select **Publish** so your changes take effect.  
+7. When you’re done enabling entities for mobile offline, select **Publish** so your changes take effect.  
 
-> [!WARNING]
-> Keep in mind that the amount of data you make available to users while they’re offline can affect the data usage rates for devices on cellular networks. The amount of data depends on:  
+> [!NOTE]
+> Keep in mind that the amount of data you make available to users while they’re offline can affect data sync times, device performance, and can affect the data usage rates for devices on cellular network. The amount of data that gets downloaded to the device depends on: 
 >   
 > -   The number of entities you enable for mobile offline.  
-> -   The number of days you specify since records were last modified.  
 > -   The filters you set while creating mobile offline profiles.  
  
 ## Step 2: Create a mobile offline profile to determine what data will be available while offline
  
-You need to create mobile offline profiles for users to configure filters that determine how much of an entity's data (and related entities' data) will be available to the user while offline.  
+Create a mobile offline profile to enable users for offline and configure filters that will determine how much data will be available to the user when they work in offline mode. 
 
-> [!NOTE] 
-> -  A user must have a security role that has Read permissions on the mobile offline profile to be able to use their mobile device in offline mode.
+To create a profile follow the steps below.
   
 1. Go to Power Platform Admin center, [https://admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com) and sign-in as an admin.
 
@@ -125,7 +120,7 @@ You need to create mobile offline profiles for users to configure filters that d
    >![Add entity](media/mol_add_entity.png "Add entity")
    
   
-8. Select an entity. Only entities that can be enabled for mobile offline appear in the **Entity** list and then select **Next**.
+8. Select an entity from the list of entities shown. Only entities that can be enabled for mobile offline appear in the **Entity** list and then select **Next**.
 
    > [!div class="mx-imgBorder"]
    >![Add entity](media/mol_add_entity_1.png "Add entity")
@@ -177,7 +172,8 @@ You need to create mobile offline profiles for users to configure filters that d
 Once you have created a mobile offline profile, you can start adding users to the profile and then publish the profile. This will make the profile available to your users so they can get the mobile offline experience that you've set-up. 
 
 > [!NOTE]
-> Each time user is added to the mobile offline profile, mobile offline profile needs to be published again. 
+> A user must have a security role that has Read permissions on the mobile offline profile to be able to use their mobile device in offline mode. 
+
   
 1.  If it’s not already open, open the mobile offline profile you want to add users to.  
  
@@ -192,7 +188,10 @@ Once you have created a mobile offline profile, you can start adding users to th
 
 ### Step 2.2: Publish a mobile offline profile
 
-To make a mobile offline profile available to users so they can get the mobile offline experience you've defined for them, you need to publish the profile.  
+To make a mobile offline profile available to users so they can get the mobile offline experience you've defined for them, you need to publish the profile. 
+
+> [!NOTE]
+> Each time user is added to the mobile offline profile, mobile offline profile needs to be published again. 
   
 1. If it’s not already open, open the mobile offline profile you want to publish.  
   
