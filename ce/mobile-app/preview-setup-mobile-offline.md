@@ -157,19 +157,20 @@ To create a profile follow the steps below.
 
  
  
-10. In the **Include [selected entity name] records related to these entities** area, select which related entity relationships to create. You need to have already added the entity you want to create the relationship with. For example, if you add want to create a relationship between the Account and Contact entities, you need to add both to this mobile offline profile. 
+10. In the **Include [selected entity name] records related to these entities** area, select the related entity relationships. You need to have already added the entity you want to create the relationship with. For example, if you want to add a relationship between the Account and Contact entities, you need to add both to this mobile offline profile. 
 
     For example, if you select **Contact | Field name: Primary contact** this means for every contact, the system will also download the account related to it. 
      
     > [!div class="mx-imgBorder"]
     >![Add entity relationship](media/mol_add_relationship.png "Add entity relationship")
   
-11. Select the relationships you want to include. 
-12. Select **Save** to add the entity to your profile so you can continue editing it.
+11. Select **Save** to add the entity to your profile so you can continue editing it.
 
 ### Step 2.1: Add users to a mobile offline profile 
 
-Once you have created a mobile offline profile, you can start adding users to the profile and then publish the profile. This will make the profile available to your users so they can get the mobile offline experience that you've set-up. 
+Once you have created a mobile offline profile, you can start adding users to the profile. This will make the profile available to the users so they can get the mobile offline experience that you've set-up. 
+
+A user can only be added to one offline profile at a time. Each time a user is added to an offline profile the profile will need to be published again as described in **Step 2.2**.
 
 > [!NOTE]
 > A user must have a security role that has Read permissions on the mobile offline profile to be able to use their mobile device in offline mode. 
@@ -188,10 +189,14 @@ Once you have created a mobile offline profile, you can start adding users to th
 
 ### Step 2.2: Publish a mobile offline profile
 
-To make a mobile offline profile available to users so they can get the mobile offline experience you've defined for them, you need to publish the profile. 
+The profile that you set up in the step above is still in draft mode. In order to deploy your changes to the users device, you need to publish the profile. 
+
+When you pubish the profile, the mobile offline profile will be available to users and they will get the mobile offline experience you've defined in the profile.
 
 > [!NOTE]
-> Each time user is added to the mobile offline profile, mobile offline profile needs to be published again. 
+> Remember each time user is added to the mobile offline profile, mobile offline profile needs to be published again. 
+
+Following these steps to publish the profile:
   
 1. If it’s not already open, open the mobile offline profile you want to publish.  
   
