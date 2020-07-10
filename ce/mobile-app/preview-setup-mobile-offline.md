@@ -46,7 +46,7 @@ This offline experience uses [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-
 One of the first things you need to do is enable entities that will be available to mobile users when they're using the mobile app in offline mode. You can disable or enable any of the supported entities for offline mode.
 
   
-1. Sign in to, [make.powerapps.com](https://make.powerapps.com).
+1. Sign in to [Power Apps](https://make.powerapps.com).
 
   
 2. On the left nav select **Data** to expand it and then select **Entities**.  
