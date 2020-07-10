@@ -140,21 +140,21 @@ You need to create mobile offline profiles for users to configure filters that d
   |**None**|  <ul><li>**Download related data only**. Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.</li> |        
  
     
-**Custom (Coming soon)** Admins can define a custom filter based on the following rules. You can create filters up to three levels.  
+  **Custom (Coming soon)** Admins can define a custom filter based on the following rules. You can create filters up to three levels.  
 
 
 
-| |  | |
-|---------|---------|---------|
-|equal     |     not equal     |   gt – greater than      |
-|ge – greater than or equal to     |   le – less than or equal to      |   lt – less than      |
-|like     |   not-like      |     in   |
-|not-in     |    null     |    not-null     |
-|eq-userid     |   ne-userid      |    eq-userteams     |
-|eq-useroruserteams     |    eq-useroruserhierarchy     |    eq-useroruserhierarchyandteams     |
-|eq-businessid     |    ne-businessid     |   eq-userlanguage      |
-|begins-with     |     not-begin-with    |    ends-with     |
-|not-end-with    |       |         |
+  | |  | |
+  |---------|---------|---------|
+  |equal     |     not equal     |   gt – greater than      |
+  |ge – greater than or equal to     |   le – less than or equal to      |   lt – less than      |
+  |like     |   not-like      |     in   |
+  |not-in     |    null     |    not-null     |
+  |eq-userid     |   ne-userid      |    eq-userteams     |
+  |eq-useroruserteams     |    eq-useroruserhierarchy     |    eq-useroruserhierarchyandteams     |
+  |eq-businessid     |    ne-businessid     |   eq-userlanguage      |
+  |begins-with     |     not-begin-with    |    ends-with     |
+  |not-end-with    |       |         |
 
 
  
