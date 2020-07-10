@@ -178,14 +178,14 @@ Once you have created a mobile offline profile, you can start adding users to th
   
 1.  If it’s not already open, open the mobile offline profile you want to add users to.  
  
-2.  In the **People with offline access** area, select **Add people**,
+2.  In the **People with offline access** area, select **Add people**.  
 
     > [!div class="mx-imgBorder"]
     >![Add a user](media/mol_add_people.png "Add a user")
   
 3.  Choose the people that you want to add to the mobile offline profile.  
   
-4.  When you’re done adding users, select **Save**.
+4.  When you’re done adding people, select **Save**.
 
 ### Step 2.2: Publish a mobile offline profile
 
@@ -193,10 +193,10 @@ To make a mobile offline profile available to users so they can get the mobile o
   
 1. If it’s not already open, open the mobile offline profile you want to publish.  
   
-2. When you’re done adding users and making any other changes to the mobile offline profile, select **Publish** so the data you specified can start syncing with your users’ mobile devices.  
+2. When you’re done adding people and making any other changes to the mobile offline profile, select **Publish** so the data you specified can start syncing with your users’ mobile devices.  
 
    > [!div class="mx-imgBorder"]
-   >![Publish offline profile](media/publishprofile1.png "Publish offline profile")
+   >![Publish offline profile](media/mol_publish.png "Publish offline profile")
   
 > [!TIP]
 > **Solution export and import**  
