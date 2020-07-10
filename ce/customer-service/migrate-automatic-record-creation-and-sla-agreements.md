@@ -19,33 +19,37 @@ search.app:
 
 # Migrate Automatic Record Creation and Service Level Agreements (SLAs)
 
-[Public Preview]
+[Public Preview - banner to be provided by CPUB]
 
 The Customer Service Hub app has several features and functionality that replace the items in the legacy Customer Service app. The rules for automatic record creation and Service Level Agreements (SLAs) are now supported by Power Automate based flows to make the transition to the new platform easier to manage.
 
 The following topic provides an overview on the migration tool that allows legacy rules for automatic record creation and SLAs to be transferred to Customer Service Hub app for easier access.
 
-Based on feedback, we have made a number of improvements to the migration tool. The tool is designed to provide a seamless experience from workflows to Power Automate based flows that are created for the existing legacy rules for automatic record creation and SLAs that provide Admin with the ability to plan your migration and:
-- Choose which legacy rules need to be migrated with the ability to activate rules post migration.
-- Decide when to switch to the new rule (legacy rules are not modified).
-- Flexibility to decide when to activate new rules and deactivate the legacy rules so you are not forced to activate all or none. 
+Based on feedback, we have made a number of improvements to the migration tool. The tool is designed to provide a seamless experience to move from legacy rules to UCI and ensure the rule items and conditions are mapped appropriately.  Also, we take what exist as workflows in the legacy rules and create new Power Automate based flows for the migrated automatic record creation rules and SLAs. 
+
+Admin can plan their migration, as well as:
+- Flexiblity to choose which legacy rules are migrated. 
+- Decide when to activate/switch to new rules and deactivate legacy rules. (Legacy rules are not modified).
 - Ability to run the migration tool multiple times and see what your status looks like at any point in time.
-- Receive error insights with recommended resolution steps.
+- Receive error insights for failed/incomplete rules.
 
 > [!NOTE]
 > Legacy rules continue to run on existing cases until the rules are deactivated. 
 
 ## Prerequisites
-- Customer Service Licensing
+- Customer Service Licensing 
+- Power Automate Licensing (TBD)
 - Customer Service version 9.0.20034.20XX or higher environment
-- Admin permissions
+- Admin permissions 
+- Other roles (super users) (TBD)
 
-## Working with Tenets
+## Working with Rules 
 
-Before accessing the migration tool, it is important to understand how the tool works with the tenets/rules first. When performing your migration, you will only receive detailed results on tenet/rules which have: 
-- Failed (no create)
-- Failed the pre-migration checkup step (incomplete) 
-- Has not been previously migrated before 
+Before running the migration tool, it is important to understand and familiarize yourself with how rules work first in the Customer Service Hub app. 
+
+When performing your migration, you will only receive detailed results on rules which have failed the pre-migration checkup step (incomplete) or was not been previously migrated 
+
+To learn more about how to create rules in the Customer Service Hub app, see [Automatically create or update records in Customer Service Hub](https://docs.microsoft.com/en-us/dynamics365/customer-service/automatically-create-update-records) and [Define service-level agreements](https://docs.microsoft.com/en-us/dynamics365/customer-service/define-service-level-agreements) for more information.
 
 > [!NOTE]
 > You will not receive updates on rules that successfully completed migration, unless it is explicitly deleted in the Unified Customer Interface (UCI).
@@ -326,13 +330,17 @@ When you finish you will receive an updated **Summary** page that includes:
 Once migration is complete you can uninstall the migration tool.  After General Availability in October 2020 this feature will have auto-install functionality.
 
 ### See Also
+Migration Tool FAQs (to be provided by Deepika)
+
 [Plan your migration](https://docs.microsoft.com/en-us/dynamics365/customer-service/plan-migration)
 
 [Important changes (deprecations) coming](https://docs.microsoft.com/en-us/power-platform/important-changes-coming) 
 
 [Help resources for Customer Service Hub](https://docs.microsoft.com/en-us/dynamics365/customer-service/help-hub)
 
-[Service scheduling FAQ](https://docs.microsoft.com/en-us/dynamics365/customer-service/service-scheduling-faq)
+[Set up rules to automatically create or update records](https://docs.microsoft.com/en-us/dynamics365/customer-service/set-up-rules-to-automatically-create-or-update-records)
+
+[Define service-level agreements](https://docs.microsoft.com/en-us/dynamics365/customer-service/define-service-level-agreements)
 
 
 
