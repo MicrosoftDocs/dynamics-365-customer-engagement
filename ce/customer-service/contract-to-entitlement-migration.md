@@ -27,7 +27,7 @@ This document contains information about the settings that admins should manage 
 - Contract line items
 - Contract templates
 
-## Planning the migration
+## Plan the migration
 
 The process of migrating contracts to entitlements is as follows:
 
