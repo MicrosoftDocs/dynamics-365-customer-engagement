@@ -17,7 +17,7 @@ Enable sales managers to draw key insights based on the information the sales re
 System administrators or customizers can use the **Opportunity Close** quick create form to add custom fields, so that sales representatives can capture important details about why an opportunity was closed. Sales managers can use this data to know which products are doing well and develop a better strategy.
 
 > [!NOTE]
-> - The capability to customize the **Opportunity Close** form is supported only in the sales app built on the Unified Interface.
+> - The capability to customize the **Opportunity Close** form is supported only in the sales app built on Unified Interface.
 > - Before you customize the Opportunity Close form, you must enable the customization of Opportunity Close form. More information: [Enable customization of the Opportunity Close form](enable-opportunity-close-customization.md)
 
 ## What customizations are possible?
