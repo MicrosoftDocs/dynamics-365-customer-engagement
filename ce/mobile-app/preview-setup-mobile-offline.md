@@ -61,19 +61,21 @@ One of the first things you need to do is enable entities that will be available
    >![Select the Account Entity](media/select_account_entity.png "Select the Account Entity")
  
 
-4. On the command bar, select **Settings(( . 
+4. On the command bar, select **Settings**. 
 
    > [!div class="mx-imgBorder"]
-   >![Select settings](media/select_settings.png "Select setting)
+   >![Select settings](media/select_settings.png "Select setting")
  
   
-5. Select **Save**.  
-  
-6. When you’re done enabling entities for mobile offline, select **Publish** so your changes take effect.  
+5. On the **Edit entity** pane, expand **More settings** > **Offline** and then select the **Enable for mobile offline** check box and then select **Done**.
+
+   > [!div class="mx-imgBorder"]
+   >![Select enable mobile offline check box](media/enable_mobileoffline_checkbox.png "Select enable mobile offline check box")
+
 
 > [!NOTE]
 > Keep in mind that the amount of data you make available to users while they’re offline can affect data sync times, device performance, and can affect the data usage rates for devices on cellular network. The amount of data that gets downloaded to the device depends on: 
->   
+
 > -   The number of entities you enable for mobile offline.  
 > -   The filters you set while creating mobile offline profiles.  
  
