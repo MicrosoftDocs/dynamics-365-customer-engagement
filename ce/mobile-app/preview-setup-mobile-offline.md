@@ -45,7 +45,8 @@ This offline experience uses [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-
  
 One of the first things you need to do is enable entities that will be available to mobile users when they're using the mobile app in offline mode. You can disable or enable any of the supported entities for offline mode.
 
-  
+To enable an entity for mobile offline synchronization follow the steps below.
+
 1. Sign in to [Power Apps](https://make.powerapps.com).
 
   
