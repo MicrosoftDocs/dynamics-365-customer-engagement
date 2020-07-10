@@ -46,32 +46,30 @@ This offline experience uses [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-
 One of the first things you need to do is enable entities that will be available to mobile users when they're using the mobile app in offline mode. You can disable or enable any of the supported entities for offline mode.
 
   
-1. In the **Dynamics 365- custom** app, go to **Settings** > **Advanced Settings**.
+1. Sign in to, [make.powerapps.com](https://make.powerapps.com).
 
-   > [!div class="mx-imgBorder"]
-   >![Setting Customizations](media/Settings_Custom1.png "Settings Customizations")
   
-2. Select **Settings** > **Customizations** and then select **Customize the System**.  
+2. On the left nav select **Data** to expand it and then select **Entities**.  
 
    > [!div class="mx-imgBorder"]
-   >![Select a Customize the System](media/Settings_Custom.png "Customize the System")
+   >![Go to Entities](media/signin_make_site.png "Go to Entities")
    
- > [!IMPORTANT]
-> - Ignore the **Try New Experience** notification at the top. The new experience does not include all the options to set-up mobile offline.   
   
-3. Expand **Entities** in the left pane.  
-  
-4. Select the entity you want to enable for mobile offline (for example, **Account**).  
-  
-5. Under **Outlook & Mobile**, select **Enable for mobile offline**. 
+3. Select the entity you want to enable for mobile offline (for example, **Account**).  
 
    > [!div class="mx-imgBorder"]
-   >![Select a Customize the System](media/Settings_Custom3.png "Customize the System")
+   >![Select the Account Entity](media/select_account_entity.png "Select the Account Entity")
+ 
+
+4. On the command bar, select **Settings(( . 
+
+   > [!div class="mx-imgBorder"]
+   >![Select settings](media/select_settings.png "Select setting)
  
   
-6. Select **Save**.  
+5. Select **Save**.  
   
-7. When you’re done enabling entities for mobile offline, select **Publish** so your changes take effect.  
+6. When you’re done enabling entities for mobile offline, select **Publish** so your changes take effect.  
 
 > [!NOTE]
 > Keep in mind that the amount of data you make available to users while they’re offline can affect data sync times, device performance, and can affect the data usage rates for devices on cellular network. The amount of data that gets downloaded to the device depends on: 
