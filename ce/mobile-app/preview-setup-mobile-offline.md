@@ -76,7 +76,6 @@ To enable an entity for mobile offline synchronization follow the steps below.
 
 > [!NOTE]
 > Keep in mind that the amount of data you make available to users while they’re offline can affect data sync times, device performance, and can affect the data usage rates for devices on cellular network. The amount of data that gets downloaded to the device depends on: 
-
 > -   The number of entities you enable for mobile offline.  
 > -   The filters you set while creating mobile offline profiles.  
  
