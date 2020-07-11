@@ -205,12 +205,12 @@ Following these steps to publish the profile:
    > [!div class="mx-imgBorder"]
    >![Publish offline profile](media/mol_publish.png "Publish offline profile")
   
-> [!TIP]
-> **Solution export and import**  
->   
->  When exporting a solution that includes a mobile offline profile, always select the **Include entity metadata** check box for each entity you export.  
->   
->  After importing the solution into the target organization, publish all mobile offline profiles.  
+ > [!TIP]
+ > **Solution export and import**  
+ >   
+ >  When exporting a solution that includes a mobile offline profile, always select the **Include entity metadata** check box for each entity you export.  
+ >   
+ >  After importing the solution into the target organization, publish all mobile offline profiles.  
 
 ### Step 2.3: Set conflict detection for mobile offline  
 
