@@ -19,7 +19,7 @@ search.app:
   - D365Mktg
 ---
 
-# Known feature issues and workarounds
+# Known issues and workarounds
 
 This document provides important, late-breaking information about known issues and workarounds for Dynamics 365 Marketing. For information about monthly bug fixes, visit the [What's new in Dynamics 365 Marketing](whats-new-marketing.md) article.
 
