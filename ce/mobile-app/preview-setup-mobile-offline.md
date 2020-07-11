@@ -141,8 +141,6 @@ To create a profile follow the steps below.
     
    **Custom (Coming soon)** Admins can define a custom filter based on the following rules. You can create filters up to three levels.  
 
-
-
    | |  | |
    |---------|---------|---------|
    |equal     |     not equal     |   gt – greater than      |
@@ -155,8 +153,6 @@ To create a profile follow the steps below.
    |begins-with     |     not-begin-with    |    ends-with     |
    |not-end-with    |       |         |
 
-
- 
  
 10. In the **Include [selected entity name] records related to these entities** area, select the related entity relationships. You need to have already added the entity you want to create the relationship with. For example, if you want to add a relationship between the Account and Contact entities, you need to add both to this mobile offline profile. 
 
