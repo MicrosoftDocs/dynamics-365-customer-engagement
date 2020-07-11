@@ -215,12 +215,9 @@ Following these steps to publish the profile:
 
 ### Step 2.3: Set conflict detection for mobile offline  
 
-1. In the **Dynamics 365 - custom** app, go to **Settings** > **Administration** > **System Settings**.
+1. In the web app, go to **Settings**  > **Administration** and then select **System Settings**.
 
-   > [!div class="mx-imgBorder"]
-   >![Settings pages](media/settings-admin.png "Setting page")
-
-2. To configure conflict resolution behavior, select **Mobile Client**.
+2. To configure conflict resolution behavior, select the **Mobile Client** tab.
 
    > [!div class="mx-imgBorder"]
    >![Set conflict detection for mobile offline](media/detectconflict1.png "Set conflict detection for mobile offline")
@@ -244,7 +241,7 @@ Enable mobile offline for a specific app from MyApps page.
    > [!div class="mx-imgBorder"]
    >![Open App Designer](media/mol_edit_apps.png "Open App Designer")
 
-2. Select the **Properties** tab and scroll down and select the **Enable Mobile Offline** check box. Then select the drop-down menu and choose a mobile offline profile.
+3. Select the **Properties** tab and scroll down and select the **Enable Mobile Offline** check box. Then select the drop-down menu and choose a mobile offline profile.
 
    > [!div class="mx-imgBorder"]
    >![Enable mobile offline for the app](media/mol_edit_app_designer.png "Enable mobile offline for the app")
@@ -252,10 +249,10 @@ Enable mobile offline for a specific app from MyApps page.
    > [!NOTE] 
    > You can add more than one profile for an app module.
 
-3. When you're done, at the top choose **Save** and then **Publish**.
+4. When you're done, at the top choose **Save** and then **Publish**.
 
    > [!div class="mx-imgBorder"]
-   >![Publish the app](media/mol_publish_apps.png "Publish the app")
+   > ![Publish the app](media/mol_publish_app.png "Publish the app")
 
 ## Mobile offline capabilities and limitations
 
