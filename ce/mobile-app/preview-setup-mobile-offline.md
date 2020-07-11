@@ -220,7 +220,7 @@ Following these steps to publish the profile:
 2. To configure conflict resolution behavior, select the **Mobile Client** tab.
 
    > [!div class="mx-imgBorder"]
-   >![Set conflict detection for mobile offline](media/detectconflict1.png "Set conflict detection for mobile offline")
+   >![Set conflict detection for mobile offline](media/mol_system_settings.png "Set conflict detection for mobile offline")
 
 
 When there is a mismatch of data between client and server, conflict errors occur. To resolve those, you can choose one of the following settings:
