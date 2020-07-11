@@ -189,7 +189,7 @@ A user can only be added to one offline profile at a time. Each time a user is a
 
 ### Step 2.2: Publish a mobile offline profile
 
-The profile that was set up in the previous step is in draft mode, until it is published. In order to deploy your changes a the user's device, the draft profile needs to be published.
+The profile that was set up in the previous step is still in draft mode, until it is published. In order to deploy your changes to a the user's device, the draft profile needs to be published.
 
 When you pubish the profile, it will be available to your users and they will get the mobile offline experience that you have defined in the profile.
 
