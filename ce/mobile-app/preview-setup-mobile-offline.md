@@ -236,25 +236,23 @@ When there is a mismatch of data between client and server, conflict errors occu
 
 Enable mobile offline for a specific app from MyApps page.
 
-1. In the **Dynamics 365 - custom** app, go to **Settings** > **My Apps**.
+1. Sign in to [Power Apps](https://make.powerapps.com).
+
+
+2. On the left nav select **Apps** and then select the app that you want open and on the comomand bar select **Edit**. This will open the app in the **App Designer**.
 
    > [!div class="mx-imgBorder"]
-   >![My Apps in Settings](media/My_Apps.png "Go to My Apps in Settings")
+   >![Open App Designer](media/mol_edit_apps.png "Open App Designer")
 
-2. From the list of published apps, select **More Options** and then choose, **OPEN IN APP DESIGNER** to open the app designer to add or edit components.
-
-   > [!div class="mx-imgBorder"]
-   >![Open App Designer](media/OpenAppDesigner2.png "Open App Designer")
-
-3. Select the **Properties** tab and scroll down to select **Enable Mobile Offline** and then choose a mobile offline profile.
+2. Select the **Properties** tab and scroll down to select **Enable Mobile Offline** and then choose a mobile offline profile.
 
    > [!div class="mx-imgBorder"]
-   >![Enable mobile offline for the app](media/OpenAppDesigner1.png "Enable mobile offline for the app")
+   >![Enable mobile offline for the app](media/mol_edit_app_designer.png "Enable mobile offline for the app")
    
    > [!NOTE] 
    > You can add more than one profile for an app module.
 
-4. At the top choose **Save** and then **Publish**.
+3. At the top choose **Save** and then **Publish**.
 
 ## Mobile offline capabilities and limitations
 
