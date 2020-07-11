@@ -1,7 +1,7 @@
 ---
 title: "Preview: Configure mobile offline synchronization in Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: 
-ms.date: 07/13/2020
+ms.date: 07/10/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -78,10 +78,10 @@ To enable an entity for mobile offline synchronization follow the steps below.
    >![Select enable mobile offline check box](media/enable_mobileoffline_checkbox.png "Select enable mobile offline check box")
 
 
-> [!NOTE]
-> Keep in mind that the amount of data you make available to users while they’re offline can affect data sync times, device performance, and can affect the data usage rates for devices on cellular network. The amount of data that gets downloaded to the device depends on: 
-> -   The number of entities you enable for mobile offline.  
-> -   The filters you set while creating mobile offline profiles.  
+   > [!NOTE]
+   > Keep in mind that the amount of data you make available to users while they’re offline can affect data sync times, device performance, and can affect the data usage rates  for devices on cellular network. The amount of data that gets downloaded to the device depends on: 
+   > -   The number of entities you enable for mobile offline.  
+   > -   The filters you set while creating mobile offline profiles.  
  
 ## Step 2: Create a mobile offline profile to determine what data will be available while offline
  
@@ -205,12 +205,12 @@ Following these steps to publish the profile:
    > [!div class="mx-imgBorder"]
    >![Publish offline profile](media/mol_publish.png "Publish offline profile")
   
- > [!TIP]
- > **Solution export and import**  
- >   
- >  When exporting a solution that includes a mobile offline profile, always select the **Include entity metadata** check box for each entity you export.  
- >   
- >  After importing the solution into the target organization, publish all mobile offline profiles.  
+  > [!TIP]
+  > **Solution export and import**  
+  >   
+  >  When exporting a solution that includes a mobile offline profile, always select the **Include entity metadata** check box for each entity you export.  
+  >   
+  >  After importing the solution into the target organization, publish all mobile offline profiles.  
 
 ### Step 2.3: Set conflict detection for mobile offline  
 
