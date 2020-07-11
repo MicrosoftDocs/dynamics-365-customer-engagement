@@ -23,7 +23,11 @@ search.app:
 ---
 
 
-# Preview: Set up mobile offline synchronization to allow users to work in offline mode on their mobile device 
+# Preview: 
+
+
+
+mobile offline synchronization to allow users to work in offline mode on their mobile device 
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -185,9 +189,9 @@ A user can only be added to one offline profile at a time. Each time a user is a
 
 ### Step 2.2: Publish a mobile offline profile
 
-The profile that you set up in the step above is still in draft mode. In order to deploy your changes to the users device, you need to publish the profile. 
+The profile that was set up in the previous step is in draft mode, until it is published. In order to deploy your changes a the user's device, the draft profile needs to be published.
 
-When you pubish the profile, the mobile offline profile will be available to users and they will get the mobile offline experience you've defined in the profile.
+When you pubish the profile, it will be available to your users and they will get the mobile offline experience that you have defined in the profile.
 
 > [!NOTE]
 > Remember each time user is added to the mobile offline profile, mobile offline profile needs to be published again. 
