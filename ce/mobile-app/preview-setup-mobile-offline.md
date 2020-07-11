@@ -215,7 +215,7 @@ Following these steps to publish the profile:
 
 ### Step 2.3: Set conflict detection for mobile offline  
 
-1. In the web app, go to **Settings**  > **Administration** and then select **System Settings**.
+1. In the web app, go to **Settings**  > **Administration** and then select **System Settings**. For more information on system settings, see [System Settings dialog box](https://docs.microsoft.com/power-platform/admin/system-settings-dialog).
 
 2. To configure conflict resolution behavior, select the **Mobile Client** tab.
 
