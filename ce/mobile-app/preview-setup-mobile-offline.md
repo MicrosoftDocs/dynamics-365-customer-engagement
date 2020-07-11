@@ -239,12 +239,12 @@ Enable mobile offline for a specific app from MyApps page.
 1. Sign in to [Power Apps](https://make.powerapps.com).
 
 
-2. On the left nav select **Apps** and then select the app that you want open and on the comomand bar select **Edit**. This will open the app in the **App Designer**.
+2. On the left nav select **Apps** and then select the app that you want open. Then on the comomand bar select **Edit**. This will open the app in the **App Designer**.
 
    > [!div class="mx-imgBorder"]
    >![Open App Designer](media/mol_edit_apps.png "Open App Designer")
 
-2. Select the **Properties** tab and scroll down to select **Enable Mobile Offline** and then choose a mobile offline profile.
+2. Select the **Properties** tab and scroll down and select the **Enable Mobile Offline** check box. Then select the drop-down menu and choose a mobile offline profile.
 
    > [!div class="mx-imgBorder"]
    >![Enable mobile offline for the app](media/mol_edit_app_designer.png "Enable mobile offline for the app")
@@ -252,7 +252,10 @@ Enable mobile offline for a specific app from MyApps page.
    > [!NOTE] 
    > You can add more than one profile for an app module.
 
-3. At the top choose **Save** and then **Publish**.
+3. When you're done, at the top choose **Save** and then **Publish**.
+
+   > [!div class="mx-imgBorder"]
+   >![Publish the app](media/mol_publish_apps.png "Publish the app")
 
 ## Mobile offline capabilities and limitations
 
