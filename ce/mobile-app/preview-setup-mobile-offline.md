@@ -237,7 +237,7 @@ Enable mobile offline for a specific app from MyApps page.
    > [!div class="mx-imgBorder"]
    >![Open App Designer](media/mol_edit_apps.png "Open App Designer")
 
-3. Select the **Properties** tab and scroll down and select the **Enable Mobile Offline** check box. Then select the drop-down menu and choose a mobile offline profile.
+3. Select the **Properties** tab and scroll down to select the **Enable Mobile Offline** check box. Then select the drop-down menu and choose a mobile offline profile.
 
    > [!div class="mx-imgBorder"]
    >![Enable mobile offline for the app](media/mol_edit_app_designer.png "Enable mobile offline for the app")
