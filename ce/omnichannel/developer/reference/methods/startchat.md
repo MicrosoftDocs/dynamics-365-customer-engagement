@@ -4,7 +4,7 @@ description:
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 03/11/2020
+ms.date: 07/08/2020
 ms.topic: article
 ---
 # startChat
@@ -18,11 +18,13 @@ ms.topic: article
 
 ## Syntax
 
-`Microsoft.Omnichannel.LiveChatWidget.SDK.startChat();`
+`Microsoft.Omnichannel.LiveChatWidget.SDK.startChat(inNewWindow: inNewWindowValue);`
 
 ## Parameters
 
-None
+|Parameter|Type|Required|Description|
+|----|----|----|----|
+|`inNewWindow`|Boolean|No|Decides whether to open the chat in a new window.|
 
 ## Return Value
 
@@ -33,7 +35,7 @@ None
 ```JavaScript
 window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
                // Opens an existing chat, if any. Else initiates a new chat
-               Microsoft.Omnichannel.LiveChatWidget.SDK.startChat();
+               Microsoft.Omnichannel.LiveChatWidget.SDK.startChat({inNewWindow: true});
 });
 ```
 ## See also
