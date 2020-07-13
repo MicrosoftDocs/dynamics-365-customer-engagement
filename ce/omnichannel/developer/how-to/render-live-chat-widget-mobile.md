@@ -17,7 +17,7 @@ Use the `WebView` component of your mobile operating system language to enable r
 
 The sample code given below illustrates how you can render the chat widget on the mobile app. 
 
-```kotlin
+```Kotlin
 var html: String = """
     <html>
         <head>
