@@ -6,6 +6,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/marketing/segments-compound.md",
+      "redirect_url": "segmentation-lists-subscriptions",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customerengagement/on-premises/developer/create-packages-package-deployer.md",
       "redirect_url": "https://docs.microsoft.com/power-platform/alm/package-deployer-tool",
       "redirect_document_id": "false"
@@ -17929,6 +17934,76 @@
     {  
       "source_path": "ce/sales-professional/create-orders.md",
       "redirect_url": "create-invoices",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/voice-of-customer/analyze-survey-data.md",
+      "redirect_url": "deprecate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/voice-of-customer/design-advanced-survey.md",
+      "redirect_url": "deprecate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/voice-of-customer/design-basic-survey.md",
+      "redirect_url": "deprecate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/voice-of-customer/distribute-survey.md",
+      "redirect_url": "deprecate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/voice-of-customer/get-feedback-surveys.md",
+      "redirect_url": "deprecate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/voice-of-customer/help-hub.md",
+      "redirect_url": "deprecate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/voice-of-customer/implement-gdpr.md",
+      "redirect_url": "deprecate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/voice-of-customer/install-solution.md",
+      "redirect_url": "deprecate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/voice-of-customer/monthly-updates-voc.md",
+      "redirect_url": "deprecate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/voice-of-customer/plan-survey.md",
+      "redirect_url": "deprecate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/voice-of-customer/survey-analytics-powerbi.md",
+      "redirect_url": "deprecate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/voice-of-customer/troubleshoot.md",
+      "redirect_url": "deprecate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/voice-of-customer/voc-faq.md",
+      "redirect_url": "deprecate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales-enterprise/ts-linkedin-integration.md",
+      "redirect_url": "../linkedin/ts-linkedin-integration.md",
       "redirect_document_id": false
     }
   ]
