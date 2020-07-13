@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/marketing/readme.md",
+      "redirect_url": "known-issues",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customerengagement/on-premises/developer/create-packages-package-deployer.md",
       "redirect_url": "https://docs.microsoft.com/power-platform/alm/package-deployer-tool",
       "redirect_document_id": "false"
