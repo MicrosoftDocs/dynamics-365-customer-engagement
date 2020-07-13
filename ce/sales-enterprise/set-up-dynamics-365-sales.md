@@ -70,7 +70,7 @@ After getting a Dynamics 365 Sales subscription, follow these steps to install t
 The Sales Hub app will be installed in your environment.
 
 > [!TIP]
-> You can also download the Dynamics 365 Sales app from [Microsoft AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.d427d98b-6082-4358-bc85-731fe3337f27?src=Office&tab=Overview).<!--Suggested.-->
+> You can also download the Dynamics 365 Sales app from [Microsoft AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.d427d98b-6082-4358-bc85-731fe3337f27?src=Office&tab=Overview).
 
 ## Verify whether the installation is complete<a name="verify"></a>
 
@@ -83,6 +83,7 @@ Go to the **My Apps** page by going to https://&lt;orgurl&gt;/apps/. In the **Pu
 
 Every user in the organization must have the **Sales, Enterprise app access** role to be able to access the Sales Hub app. To assign a security role to a user, see [Assign security roles to users in an environment that has a Common Data Service database](/power-platform/admin/database-security#assign-security-roles-to-users-in-an-environment-that-has-a-common-data-service-database).
 
-<!--Commenting out until there's a good candidate for this section.
+
 ### See also
--->
+[Overview of Sales and Sales Hub](overview.md)  
+[Learn the basics of Dynamics 365 Sales](user-guide-learn-basics.md)
