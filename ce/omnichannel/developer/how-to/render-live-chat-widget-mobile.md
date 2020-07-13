@@ -45,8 +45,6 @@ var baseUrl: String = "Get baseUrl from data-org-url eg. https://oc-cdn-ocprod.a
 chatWebView.loadDataWithBaseURL(baseUrl,html, "text/html", null, baseUrl)
 ```
 
-The usage of `data-hide-chat-button` attribute hides the button required to launch a chat. To launch a chat, users have to create a start chat button in the mobile app and call the [startChat](../reference/methods/startchat.md) method on the click event.
-
 The rendering of live chat widget in webview can be optimized by using data attributes such as `data-hide-chat-button` and `data-render-mobile` along with some of the APIs and events provided by live chat widget client SDK.
 
 The usage of `data-hide-chat-button` attribute in above sample code hides the default launch chat button available in the live chat widget. So instead of default chat button, developers can add button that aligns with the mobile app. To launch a chat session, you can call the [startChat](../reference/methods/startchat.md) method when the new chat button is clicked.
