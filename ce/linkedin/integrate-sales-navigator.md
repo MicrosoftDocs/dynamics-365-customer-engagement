@@ -63,7 +63,7 @@ Two [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator widgets 
 > [!NOTE]
 >Before April 2019, there were two separate solutions on AppSource. Now there is a single solution included out of box, however there is still some required setup to configure LinkedIn's CRM sync.
 
-[Set up the LinkedIn Sales Navigator for Microsoft Dynamics integration](https://www.linkedin.com/help/sales-navigator/answer/82207)
+[Set up the LinkedIn Sales Navigator for Microsoft Dynamics integration](https://business.linkedin.com/sales-solutions/sales-navigator-customer-hub/resources/ms-dynamics-sync-activity-writeback)
 
 
 ### See also
