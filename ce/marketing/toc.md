@@ -150,7 +150,6 @@
 #### [Export dynamic-segment members to Excel](segments-export-members.md)
 #### [Design static segments](segments-static.md)
 #### [Manage segment memberships from a contact record](manage-segments-from-contacts.md)
-#### [Combine segments into a compound segment](segments-compound.md)
 #### [Work with segment templates](segments-templates.md)
 #### [Market to Dynamics 365 segments on LinkedIn ](linkedin-matched-audience.md)
 #### [Use Customer Insights segments in Marketing](customer-insights-segments.md)

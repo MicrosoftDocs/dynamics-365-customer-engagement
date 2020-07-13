@@ -2,7 +2,7 @@
 title: "Analyze marketing results and gain insights (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to find and interpret marketing results, KPIs, and analytics in Dynamics 365 Marketing"
 keywords: insights;results;KPIs;analytics
-ms.date: 04/15/2020
+ms.date: 07/01/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -12,7 +12,7 @@ author: alfergus
 ms.author: alfergus
 manager: shellyha
 ms.reviewer:
-topic-status: Drafting
+topic-status: 
 search.audienceType: 
   - admin
   - customizer
@@ -138,7 +138,8 @@ For even more information about what happened on a tile, select it from the pipe
 
 All types of tiles provide a **Volume** section on the **Data** panel with the following information:
 
-- **Volume** > **Inflow**: Counts how many contacts entered the tile. 
+- **Volume** > **Queued**: Shows the number of contacts in the customer journey that have not yet reached the selected tile. The queued contacts number is only displayed when there are contacts in a live customer journey that have not yet reached the tile.
+- **Volume** > **Inflow**: Counts how many contacts entered the tile.
 - **Volume** > **Processing**: Counts how many contacts are still waiting for that tile to finish processing them. For trigger tiles, for example, this value indicates the number of contacts that are waiting for the trigger condition to be met or for the timeout to arrive.
 - **Volume** > **Stopped** (only shown when stopped contacts exist): Counts the number of contacts that were stopped from continuing the journey at this tile. There are three main reasons that a contact might get stopped at a tile during a journey: they [unsubscribed](customer-journeys-create-automated-campaigns.md#target-subscription-list) from the mailing list targeted by the journey, they got added to the journey's [suppression segment](customer-journeys-create-automated-campaigns.md#general-options), or they lowered their [consent level](gdpr.md#view-and-set-the-consent-level-for-each-contact) below the [minimum threshold](gdpr.md#journey-consent-level) set for the journey. This value is also displayed as the second value shown above the tile in the pipeline. Some tile types provide a **Save as segment** button ![save-as-segment button](media/Save-as-segment-button.png "Save-as-segment button") here; select this button to [generate a segment](generate-segment-from-journey.md) that includes all contacts that were stopped at exactly this tile of this journey. You can see a detailed breakdown of which contacts stopped here and why by going to the [Incomplete journeys](#incomplete) view.
 - **Volume** > **Failed** (only shown when failed contacts exist): Counts the number of contacts that failed to be processed by the tile, typically because of an internal error. This value is also displayed as the third value shown above the tile in the pipeline. Some tile types provide a **Save as segment** button ![save-as-segment button](media/Save-as-segment-button.png "Save-as-segment button") here; select this button to [generate a segment](generate-segment-from-journey.md) that includes all contacts that failed at exactly this tile of this journey.
@@ -149,6 +150,12 @@ In addition to the **Volume** section, some tiles also show additional sections 
 - **KPIs**: For tile types that collect key performance indicators (KPIs), such as email tiles, you can read detailed results here. For more information about many of the terms that might be shown here, see the [Insights glossary](insights-glossary.md).
 - **Paths**: Trigger and splitter tiles include this section, which tells you how many contacts went down each available path.
 - **View details**: This link is provided on the **Data** panel for tile types that have even more information available. Select this link to open the associated record, where you can explore its full insights panels. For example, email and event tiles provide this link, which opens the insights panels for the specific message or event associated with the tile.
+
+The Insights tab for A/B test email tiles has a special section above the **Volume** section that shows the progress of any live A/B tests. The percentages show the percent of contacts in the segment each test email message will go to, as well as the percent of contacts that will receive the winning email message.
+
+In the screenshot below, 10% of contacts received message A, 10% received message B, and the remaining 80% received the inconclusive default, which was set to message A.
+
+![A/B test insights](media/insights-a-b-test.png "A/B test insights")
 
 ### Insights > Overview
 

@@ -2,7 +2,7 @@
 title: "Field Service (Dynamics 365) mobile app | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 06/10/2020
+ms.date: 06/26/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -300,14 +300,54 @@ For example, the **Bookable Resource Booking** (in other words, the booking) ent
 
 For another example, the **Work Order Product** entity has a data download filter set to **Download related data only**, which means that only work order products related to downloaded work orders are available offline. To accomplish this, the work order product mobile offline profile item was listed as an associated profile item of the work order offline profile, as seen in the following screenshot.
 
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Dynamics 365 Settings showing the mobile offline profile for a bookable resource booking, with attention to the "Define Filter Rules" option.](./media/mobile-2020-offline-profile-bookable-resource-booking.png)
-
 
 > [!Note]
 > By default, work orders related to downloaded bookable resource bookings are available offline. This creates a chain of entities and records that are offline: bookings > work orders > work order products. This means that bookings scheduled to you are downloaded, work orders related to those bookings are downloaded, and work order products related to those work orders are downloaded.
 
+### Offline JavaScript
+
+In some cases, an organization may want to run validation on certain field values after a technician updates an entity. For example, let's say you want to make sure the duration of a work order booking is at least two hours once a technician saves a record in the Field Service (Dynamics 365) mobile app.
+
+Validation can be done with the help of some JavaScript and doing so works online and offline.
+
+See the video on![Video symbol](../field-service/media/video-icon.png "Video symbol") [Field Service mobile PowerApp: Offline JavaScript](https://youtu.be/tUdL5YZA29A) for more details.
+
+Go to **Settings** > **Customizations**.
+
+Go the the **Bookable Resource Booking** entity.
+
+Go to **Forms**.
+
+Go to the **Booking and Work Order** form.
+
+Go to **Form Properties** in the top.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the lookup record dialog in Power Apps.](./media/mobile-2020-offline-javascript.png)
+
+Create and add a new JavaScript web resource to the form.
+
+Enter in the following code snippet:
+
+      function TestOnSave(executionContext) {
+
+      var formContext = executionContext.getFormContext(); // get formContext
+      var duration = formContext.getAttribute("duration").getValue();
+
+      formContext.ui.clearFormNotification("DurationErrorMessageId");
+
+      if (duration < 120) {
+      executionContext.getEventArgs().preventDefault(); // Stop the Save
+      formContext.ui.setFormNotification("Duration must be greater than 2 hours", "ERROR", "DurationErrorMessageId");
+      }
+
+      }
+      
+  Ensure the web resource triggers on save of the form.
+  
+  Save and publish customizations.
 
 ## FAQs
 

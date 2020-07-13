@@ -39,6 +39,10 @@ Azure IoT Central requires no extensive cloud development or coding skills to ge
 
 With Power Automate templates, users can connect their accounts, take advantage of our pre-built templates, and customize their own flows in an easy visual designer without the need for coding experience.
 
+For a guided walkthrough, see the following video.
+
+>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ynS4]
+
 ## Tutorial - Get integration scenarios ready in minutes
 Connect Azure IoT Central to Connected Field Service using Power Automate in just a matter of minutes with these tutorials. Be sure to [check out the prerequisites](cfs-iot-central-setup.md) before getting started. 
 1. [Receive Azure IoT alerts from Azure IoT Central](cfs-iot-central-alerts.md)
