@@ -335,6 +335,7 @@
 ##### [lcw:ready](developer/reference/events/lcw-ready.md)
 ##### [lcw:error](developer/reference/events/lcw-error.md)
 ##### [lcw:threadUpdate](developer/reference/events/lcw-threadUpdate.md)
+##### [lcw:closeChat](developer/reference/events/lcw-closeChat.md)
 #### [Error code reference](developer/reference/error-code-reference.md)
 ### [runMacro](developer/reference/methods/runMacro.md)
 ### Action Reference
