@@ -66,7 +66,7 @@ Field Service Mobile is recommended for more **complex** use cases where you may
 | Geocoding | Technician | Yes | Yes | |
 | [Microsoft Intune](field-service-mobile-intune.md)  | Integration | Yes | Yes | |
 | [Push notifications](mobile-push-notifications.md) | Technician | 2020 release wave 2 | Yes | User notifications, such as new booking appointment. |
-| [Geofencing](geofencing.md) | Technician | 2020 release wave 2 | Yes | Ability to autoset booking status as tech arrives or leaves location. |
+| [Geofencing](geofencing.md) | Technician | 2020 release wave 2 | Yes | Ability to autoset booking status as technician arrives or leaves location. |
 | IoT alerts | Technician | 2020 release wave 2 | Yes | |
 | Reporting | Technician | 2020 release wave 2 | Yes | Customer service reports with signature, option to email PDF. |
 | Scan to find asset | Technician | 2020 release wave 2 | Yes | |
@@ -78,7 +78,7 @@ Field Service Mobile is recommended for more **complex** use cases where you may
 | Bulk-add users  | Admin | 2020 release wave 2 | Yes | Quickly assign offline data sync profile to users. |
 | Time entry  | Technician | 2020 release wave 2 | 2020 release wave 2 | |
 | Check list for service tasks  | Technician | 2020 release wave 2| Yes | Check list for quickly mark task as complete. |
-| Inspections | Technician | 2020 release wave 2 | Yes | Field Service tech can find and capture inspections associated with a work order. |
+| Inspections | Technician | 2020 release wave 2 | Yes | Field Service technician can find and capture inspections associated with a work order. |
 | Windows support |  | | Yes |  |
 | Map bookings  | Technician |  | Yes | Ability to view bookings on a map. |
 | Tech chat | Technician |  | Yes | Ability for technicians to chat with each other.  |
