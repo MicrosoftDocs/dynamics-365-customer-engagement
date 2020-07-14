@@ -305,7 +305,7 @@ The next time a work order is created, this substatus will populate automaticall
 > [!div class="mx-imgBorder"]
 > ![Screenshot of estimate substatus automatically applied to a work order](./media/work-order-status-estimate-work-order.png)
 
-Next, it's important to note that dispatchers do not schedule estimate work orders, as they are not ready yet. One way to achieve this is to remove esitmate work orders from the **Unscheduled Work Orders** view on the schedule board.
+Next, it's important to note that dispatchers do not schedule estimate work orders, as they are not ready yet. One way to achieve this is to remove estimate work orders from the **Unscheduled Work Orders** view on the schedule board.
 
 To accomplish this, go to **Settings** > **Customizations** > **Customize the System** > **Entities** > **Resource Requirements** > **Views**.
 
