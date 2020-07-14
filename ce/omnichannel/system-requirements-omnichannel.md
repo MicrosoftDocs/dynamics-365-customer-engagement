@@ -6,7 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 applies_to: 
   - ""
-ms.date: 06/25/2020
+ms.date: 07/14/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -55,7 +55,7 @@ You will need the following to use Omnichannel for Customer Service with Unified
 
 | Area | Requirements |
 |------------|----------|
-| Desktop application | Unified Service Desk 4.1.1.1253 or higher <br>More information: [Download Unified Service Desk](administrator/omnichannel-customer-service-unified-service-desk.md#download-unified-service-desk-client-application)|
+| Desktop application | 64-bit version of Unified Service Desk 4.1.1.1253 or later <br>More information: [Download Unified Service Desk](administrator/omnichannel-customer-service-unified-service-desk.md#download-unified-service-desk-client-application)|
 | Model-driven app |Dynamics 365 Customer Service app version 9.1.0000.3653 or higher <br> **Note:** We recommend you use a new production Dynamics 365 Customer Service instance to use Omnichannel for Customer Service on Unified Service Desk. |
 | Hosting type |Chrome Process <br> To learn more about hosting types, see [Configure recommended settings for Unified Service Desk](administrator/configure-settings-unified-service-desk.md). |
 | Operating system | Windows 10, version released in October 2018 or later|
