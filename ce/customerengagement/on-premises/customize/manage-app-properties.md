@@ -20,8 +20,7 @@ caps.latest.revision: 14
 topic-status: Drafting
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 
 # Manage app properties in the app designer

@@ -16,8 +16,7 @@ ms.author: mkaur
 manager: kvivek
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 ---
 # Troubleshoot problems with data not displaying in a report
 

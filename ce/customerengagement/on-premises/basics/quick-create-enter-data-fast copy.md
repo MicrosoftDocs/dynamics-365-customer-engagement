@@ -16,8 +16,7 @@ ms.author: mkaur
 manager: brycho
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 ---
 # Quick create--Enter new records--fast!
 

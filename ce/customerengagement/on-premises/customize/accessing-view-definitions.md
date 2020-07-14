@@ -17,8 +17,7 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Access a view definition in Dynamics 365 Customer Engagement (on-premises)
 

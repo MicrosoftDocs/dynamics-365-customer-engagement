@@ -19,8 +19,7 @@ tags:
   - MigrationHO
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Report writing guide for Dynamics 365 Customer Engagement (on-premises), version 9
 

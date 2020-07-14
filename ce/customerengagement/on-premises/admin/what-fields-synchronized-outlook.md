@@ -20,9 +20,7 @@ caps.latest.revision: 17
 topic-status: Drafting
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 
 # What fields can be synchronized with Outlook?

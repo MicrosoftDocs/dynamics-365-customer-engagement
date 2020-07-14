@@ -21,8 +21,7 @@ caps.latest.revision: 11
 topic-status: Drafting
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 
 # Manage access to apps by using security roles

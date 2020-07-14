@@ -16,8 +16,7 @@ ms.author: mkaur
 manager: kvivke
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 ---
 # Import contacts
 

@@ -16,8 +16,7 @@ author: JimDaly
 ms.author: jdaly
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Dynamics 365 Customer Engagement Web API Versions
 

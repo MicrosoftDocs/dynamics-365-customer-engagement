@@ -15,8 +15,7 @@ ms.custom:
   - dyn365-a11y
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 ---
 # Use keyboard shortcuts in Dynamics 365 Customer Engagement (on-premises)
 
