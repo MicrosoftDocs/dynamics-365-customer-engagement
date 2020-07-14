@@ -230,13 +230,13 @@ Go to **Related** > **Incidents** > **+New Incident Type** and add another incid
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a work order incident information form](./media/work-order-incident-type-add-multiple.png)
 
-Though the primary incident estimated duration will not change, the **Total Estimated Duration** field in the Record Log section of the work order will be udpated.  
+Though the primary incident estimated duration will not change, the **Total Estimated Duration** field in the record log section of the work order will be udpated.  
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a estimated total duration](./media/work-order-incident-type-estimated-duration.png)
+> ![Screenshot of an estimated total duration](./media/work-order-incident-type-estimated-duration.png)
 
 > [!Note]
-> Total Estimated Duration is also increased when individual Work Order Service Tasks are added to Work Orders.
+> **Total Estimated Duration** is also increased when individual work order service tasks are added to work orders.
 
 The duration of the related resource requirement will also be increased by the new incident's duration. In the following screenshot, we can see the requirement duration was increased to 4.5 hours and another characteristic was added to the work order requirement.
 
