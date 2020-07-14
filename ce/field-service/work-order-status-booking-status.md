@@ -2,7 +2,7 @@
 title: "Work order and booking statuses | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 07/06/2020
+ms.date: 08/01/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -63,7 +63,7 @@ In this topic, we explore work order and booking statuses with the following sce
 ## Prerequisites
 
 - Any version of Field Service
-- Fields and processes related to First Arrvied On, Completed On, and Total Estimated Duration are available with Field Service 8.8+
+- Fields and processes related to **First Arrvied On**, **Completed On**, and **Total Estimated Duration** are available with Field Service 8.8+
 - You must be logged in as a user with **Field Service - Dispatcher**, **Field Service - Administrator**, or **System Administrator** security roles to edit work order substatuses and booking statuses
 
 > [!Note]
@@ -123,15 +123,14 @@ Changing the booking status to **Traveling** automatically changes the work orde
 > [!Note]
 > If there are multiple bookings for a single work order, if at least one booking is traveling or in progress, the related work order will have a status of **Open - In Progress**.
 
-When the field technician arrives on site and is ready to begin the work, he or she changes the booking status to **In Progress**. The Work order status remains as **Open - In Progress**.
+When the field technician arrives on site and is ready to begin the work, they change the booking status to **In Progress**. The work order status remains as **Open - In Progress**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of in progress booking status on mobile](./media/work-order-statuses-booking-status-inprogress-mobile.png)
 
 On the related work order, the **First Arrived On** field is updated with the 
 
-
-During work, the field technician may want to record times he or she is on break by changing the booking status to **On Break**. 
+During work, the field technician may want to record times they are on break by changing the booking status to **On Break**. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of on break status](./media/work-order-statuses-booking-status-onbreak-mobile-icon.png)
@@ -248,7 +247,7 @@ Here is the customer asset that results from the used work order product. Notice
 
 #### In Progress
 - **Actual Arrival Time** field is updated with the date and time the when booking status is changed from the mobile app or schedule board, but not from the form.
-- **First Arrived On (Work Order)** field on the related _work order_ is updated with the Actual Arrival Time of the booking. If Actual Arrival Time is edited, manually or otherwise, First Arrrvied On will be udpated. If there are multiple bookings, this field is udpated with the Actual Arrival Time of the first booking. The First Arrived On value will respect offline scenarios and calculate correctly once the technician syncs his or her mobile data.
+- **First Arrived On (Work Order)** field on the related _work order_ is updated with the **Actual Arrival Time** of the booking. If **Actual Arrival Time** is edited, manually or otherwise, **First Arrrvied On** will be udpated. If there are multiple bookings, this field is udpated with the actual arrival time of the first booking. The **First Arrived On** value will respect offline scenarios and calculate correctly once the technician syncs their mobile data.
 - **Actual Travel Duration** field is updated, calculated as the total time the booking status is **Traveling**.
 - **Booking Timestamp** is created.
 
@@ -266,7 +265,7 @@ Here is the customer asset that results from the used work order product. Notice
 - **Total Billable Duration** is updated, calculated as the sum total of total duration in progress and total break duration.
 - **Booking Journals** created. Booking journals use booking timestamps to calculate the working duration, travel time, and break time for a specific booking. Booking journals also calculate internal resource costs for bookings based on resource's hourly rate as defined on the bookable resource record.
 - **Booking Timestamp** is created.
-- **Completed On (Work Order)** field on the related _work order_ is updated with the End time of the booking. If the booking End Time is edited, manually or otherwise, Completed On will be udpated. If there are multiple bookings, this field is udpated with the End Time of the last booking, meaning the most recently completed booking related to the work order. The Completed On value will respect offline scenarios and calculate correctly once the technician syncs his or her mobile data.
+- **Completed On (Work Order)** field on the related _work order_ is updated with the end time of the booking. If the booking end time is edited, manually or otherwise, **Completed On** will be udpated. If there are multiple bookings, this field is udpated with the end time of the last booking, meaning the most recently completed booking related to the work order. The **Completed On** value will respect offline scenarios and calculate correctly once the technician syncs their mobile data.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of end time updated](./media/work-order-statuses-end-time.png)
