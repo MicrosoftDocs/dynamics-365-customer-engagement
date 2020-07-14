@@ -155,22 +155,22 @@
 
 ## Connect your IoT data
 ### [Azure IoT Central](cfs-iot-overview.md)
-### [Prerequisites](cfs-iot-central-setup.md)
+#### [Prerequisites](cfs-iot-central-setup.md)
 ### [Azure IoT Hub](developer/connected-field-service-developer-guide.md)
-### [Prerequisites for Azure subscription](cfs-azure-subscription.md)
-### [Installation and setup](installation-setup-iothub.md)
-### [Quickstart: Build your own IoT solution](connected-field-service-overview.md)
+#### [Prerequisites for Azure subscription](cfs-azure-subscription.md)
+#### [Installation and setup](installation-setup-iothub.md)
+#### [Quickstart: Build your own IoT solution](connected-field-service-overview.md)
 
 
 ## Analyze
-### [1 - Receive IoT alerts from Azure IoT Central](cfs-iot-central-alerts.md)
-### [2 - Associate devices with customer accounts](cfs-iot-central-associate-devices.md)
+### [Receive IoT alerts from Azure IoT Central](cfs-iot-central-alerts.md)
+### [Associate devices with customer accounts](cfs-iot-central-associate-devices.md)
 ### [Visualizing device readings](cfs-visualizations-iot-hub.md)
 ### [AI for IoT alerts](iot-alerts-ai-based-suggestions.md)
 
 ## Take action
-### [3 - Send work order updates to Azure IoT Central](cfs-iot-central-work-orders.md)
-### [4 - Send booking updates to Azure IoT Central](cfs-iot-central-bookings.md)
+### [Send work order updates to Azure IoT Central](cfs-iot-central-work-orders.md)
+### [Send booking updates to Azure IoT Central](cfs-iot-central-bookings.md)
 ### [Receive IoT alerts from real MXChip device](cfs-iotcentral-mxchip.md)
 ### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
 ### [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
