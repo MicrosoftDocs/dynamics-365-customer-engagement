@@ -2,7 +2,7 @@
 title: "Field Service (Dynamics 365) mobile app | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 06/26/2020
+ms.date: 07/14/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -64,17 +64,25 @@ Field Service Mobile is recommended for more **complex** use cases where you may
 | Driving directions | Technician | Yes | Yes |
 | Speech to text | Technician | Yes | Yes |
 | Geocoding | Technician | Yes | Yes |
-| [Push notifications](mobile-push-notifications.md) | Technician | | Yes |
-| [Geofencing](geofencing.md) | Technician | | Yes |
-| IoT alerts | Technician | | Yes |
-| Reporting | Technician | | Yes |
-| Scan to find asset | Technician | | Yes |
-| [Location sharing and auditing](https://docs.microsoft.com/dynamics365/field-service/geofencing#step-3-enable-location-auditing-for-the-field-service-mobile-app) | Admin | | Yes |
-| Enhanced mobile workflows | Admin | | Yes |
-| Enhanced offline sync filters | Admin | | Yes |
-| Allow technician to force data sync | | | Yes |
-| [Remote Assist](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/overview-hololens) | Integration | | Yes |
-| [Microsoft Intune](field-service-mobile-intune.md)  | Integration | | Yes |
+| [Push notifications](mobile-push-notifications.md) | Technician | Wave 2 2020 | Yes |
+| [Geofencing](geofencing.md) | Technician | Wave 2 2020 | Yes |
+| IoT alerts | Technician | Wave 2 2020 | Yes |
+| Reporting | Technician | Wave 2 2020 | Yes |
+| Scan to find asset | Technician | Wave 2 2020 | Yes |
+| [Location sharing and auditing](https://docs.microsoft.com/dynamics365/field-service/geofencing#step-3-enable-location-auditing-for-the-field-service-mobile-app) | Admin | Wave 2 2020 | Yes |
+| Enhanced offline sync filters | Admin | Wave 2 2020 | Yes |
+| Allow technician to force data sync | Technician | Wave 2 2020 | Yes |
+| [Remote Assist](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/overview-hololens) | Integration | Wave 2 2020 | Yes |
+| [Microsoft Intune](field-service-mobile-intune.md)  | Integration | Yes | Yes |
+| Bulk add users  | Integration | Yes | Yes |
+| Time Entry  | Integration | Yes | Yes |
+| Check list for service tasks  | Integration | Yes | Yes |
+| Inspections | Integration | Wave 2 2020 | Yes |
+| Windows support | Integration |  | Yes |
+| Mapping bookings  | Integration |  | Yes |
+| Tech chat | Integration |  | Yes |
+| Branding & theming | Integration |  | Yes |
+| Sharepoint integration  | Integration |  | Yes |
 
 Check [Release Plans](https://docs.microsoft.com/dynamics365/release-plans/) to stay up to date on upcoming features for Field Service including the Field Service (Dynamics 365) mobile app.
 
