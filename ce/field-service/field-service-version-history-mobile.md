@@ -2,7 +2,7 @@
 title: "Field Service Mobile version history | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 05/14/2020
+ms.date: 07/14/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -34,16 +34,16 @@ This article chronicles important updates related to Field Service Mobile and as
 
 ### Updates
 
-- Added Session Information to telemetry and error logs for supportability.
+- Added session information to telemetry and error logs for supportability.
 
 ### Bug fixes
 
 - iOS: App crash when uploading multiple files.
-- Windows: Search Term cannot be completely entered.
+- Windows: Search term cannot be completely entered.
 - Android: Crash fix.
 - All: Custom option set values displayed in unordered list.
 - All: BPF customizations require save before proceeding even with no change.
-- All: Handled exception on view search when search contains an Optionsets
+- All: Handled exception on view search when search contains optionsets.
 - All: Custom/auto-save forms not automatically saving changes.
 
 ## 12.1.220
