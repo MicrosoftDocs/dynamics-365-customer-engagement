@@ -22,8 +22,7 @@ caps.latest.revision: 20
 
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Visual Studio and the .NET Framework

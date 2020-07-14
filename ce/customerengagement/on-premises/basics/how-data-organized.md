@@ -15,8 +15,7 @@ author: mduelae
 ms.author: mkaur
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 ---
 # Understanding how data is organized
 

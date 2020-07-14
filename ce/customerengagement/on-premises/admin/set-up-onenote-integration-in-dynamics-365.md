@@ -20,9 +20,7 @@ caps.latest.revision: 27
 topic-status: Editing
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 
 # Set up OneNote integration

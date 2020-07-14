@@ -15,9 +15,7 @@ ms.author: shujoshi
 manager: shujoshi
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ms.custom: 
 ---
 # Define subjects to categorize cases, products, and articles

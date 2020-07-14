@@ -18,8 +18,7 @@ caps.latest.revision: 17
 topic-status: Drafting
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 
 # Design custom business apps by using the app designer

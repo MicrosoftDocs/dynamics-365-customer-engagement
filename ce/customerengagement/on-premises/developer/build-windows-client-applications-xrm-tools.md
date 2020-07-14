@@ -17,8 +17,7 @@ author: Nkrb
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Build Windows client applications using the XRM tools
 

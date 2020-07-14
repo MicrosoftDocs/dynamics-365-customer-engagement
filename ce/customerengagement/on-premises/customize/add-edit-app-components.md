@@ -18,8 +18,7 @@ caps.latest.revision: 17
 topic-status: Drafting
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 
 # Add or edit app components in the Dynamics 365 for Customer Engagement app designer
