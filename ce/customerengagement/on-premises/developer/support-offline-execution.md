@@ -16,8 +16,7 @@ ms.author: pehecke
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Support offline execution with Dynamics 365 for Microsoft Office
 

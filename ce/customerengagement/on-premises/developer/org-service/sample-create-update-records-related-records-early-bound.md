@@ -24,8 +24,7 @@ caps.latest.revision: 21
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Sample: Create and update records with related records (early bound)

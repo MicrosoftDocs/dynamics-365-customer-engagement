@@ -17,8 +17,7 @@ ms.author: susikka
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Run duplicate detection
 
