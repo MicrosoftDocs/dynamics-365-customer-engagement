@@ -128,7 +128,7 @@ When the field technician arrives on site and is ready to begin the work, they c
 > [!div class="mx-imgBorder"]
 > ![Screenshot of in progress booking status on mobile](./media/work-order-statuses-booking-status-inprogress-mobile.png)
 
-On the related work order, the **First Arrived On** field is updated with the 
+On the related work order, the **First Arrived On** field is updated with the **Actual Arrival Time** of the booking.
 
 During work, the field technician may want to record times they are on break by changing the booking status to **On Break**. 
 
