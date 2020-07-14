@@ -58,7 +58,7 @@ In this topic, we explore work order and booking statuses with the following sce
 
 3. **Delayed schedules**: Field technicians want to make dispatchers aware if they are running more than 15 minutes behind schedule due to traffic by changing the status of their bookings to "Delayed".
 
-4. **Follow up work orders**: Field service organizations often schedule a follow-up inspection after an initial installation or repair work order. If a follow-up is required, field technicians should note this with a custom "Follow Up Required" work order substatus to ensure back office workers create a follow-up before closing the work order.
+4. **Follow up work orders**: Field service organizations often schedule a follow-up inspection after an initial installation or repair work order. If a follow-up is required, field technicians should note this with a custom "Follow Up Required" work order substatus to ensure back-office workers create a follow-up before closing the work order.
 
 ## Prerequisites
 
@@ -111,7 +111,7 @@ Each booking status has a color and icon and appears on the schedule board.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of traveling on schedule board](./media/work-order-statuses-booking-status-traveling-schedule-board.png)
 
-The status and a color appears on the mobile app, too.
+The status and a color appear on the mobile app, too.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of traveling status on mobile](./media/work-order-statuses-booking-status-traveling-mobile-icon.png)
 
@@ -160,7 +160,7 @@ This will change the related work order system status to **Open-Completed**.
 > [!Note]
 > If there are multiple bookings for a single work order, once all related booking have statuses of **Completed** (including ones that are **Canceled**), the related work order will have a status of **Open - Completed**. 
 
-Finally, a back office worker will review the completed work order to make sure data was entered correctly, communicate with the customer, review survey results, and more depending on the organization's specific business needs. The last step is to change the work order system status to **Closed-Posted**. 
+Finally, a back-office worker will review the completed work order to make sure data was entered correctly, communicate with the customer, review survey results, and more depending on the organization's specific business needs. The last step is to change the work order system status to **Closed-Posted**. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of changing system status to closed posted](./media/work-order-statuses-closed-posted.png)
@@ -246,7 +246,7 @@ Here is the customer asset that results from the used work order product. Notice
 - **Booking Timestamp** is created.
 
 #### In Progress
-- **Actual Arrival Time** field is updated with the date and time the when booking status is changed from the mobile app or schedule board, but not from the form.
+- **Actual Arrival Time** field is updated with the date and time when booking status is changed from the mobile app or schedule board, but not from the form.
 - **First Arrived On (Work Order)** field on the related _work order_ is updated with the **Actual Arrival Time** of the booking. If **Actual Arrival Time** is edited, manually or otherwise, **First Arrived On** will be updated. If there are multiple bookings, this field is updated with the actual arrival time of the first booking. The **First Arrived On** value will respect offline scenarios and calculate correctly once the technician syncs their mobile data.
 - **Actual Travel Duration** field is updated, calculated as the total time the booking status is **Traveling**.
 - **Booking Timestamp** is created.
@@ -293,7 +293,7 @@ Enter for the following fields:
 
 - **System Status:** Open-Unscheduled. When the field service organization is building an estimated work order, this is before it should be scheduled to a resource; therefore, this substatus will relate to the **Open-Unscheduled** system status.
 
-- **Default Substatus:** choose if you want this substatus populated by default any time a work order has a system status of **Open-Unscheduled**. Because work orders are given a system status of **Open-Unscheduled** when created, this substatus would populate on all newly created work orders, but can be manually updated. If all or most work orders first originate as an estimate, then this field should be set to **Yes**, giving the work order creator one less field to manually populate. If a smaller proportion of work orders are estimates, then set to **No**. In this example, we will choose **Yes**.
+- **Default Substatus:** choose if you want this substatus populated by default any time a work order has a system status of **Open-Unscheduled**. Because work orders are given a system status of **Open-Unscheduled** when created, this substatus would populate on all newly created work orders, but can be manually updated. If all or most work orders first originate as an estimate, then this field should be set to **Yes**, giving the work order creator one less field to manually populate. If only a few work orders are estimates, then set to **No**. In this example, we will choose **Yes**.
 
 
 > [!div class="mx-imgBorder"]
@@ -366,7 +366,7 @@ This means the new **Delayed Booking Status** will appear as an option on the Fi
 
 ## Follow-up work order sub-status
 
-Field service organization often schedule a follow up inspection after an initial installation or repair work order. If a follow-up is required, field technicians should note this with a custom "Follow-Up Required" work order substatus to ensure back office workers create a follow-up before closing the work order.
+Field service organizations often schedule a follow-up inspection after an initial installation or repair work order. If a follow-up is required, field technicians should note this with a custom "Follow-Up Required" work order substatus to ensure back-office workers create a follow-up before closing the work order.
 
 Similar to the example before, go to **Field Service > Settings > Work Order Substatuses > then select +New**.
 
