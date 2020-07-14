@@ -54,35 +54,36 @@ Field Service (Dynamics 365) mobile app is recommended for **simpler** use cases
 Field Service Mobile is recommended for more **complex** use cases where you may need custom reporting, push notifications, geofencing, and business processes or validations that work offline.
 
 
-| Feature | Category | Field Service (Dynamics 365) | Field Service Mobile |
-| --- | --- | --- | --- |
-| Mobile Platform | Hardware & software | iOS, Android | iOS, Android, Windows |
-| Camera capture (photo & video) | Technician | Yes | Yes |
-| Barcode scanning | Technician | Yes | Yes |
-| Offline data | Technician | Yes | Yes |
-| Calendar view | Technician | Yes | Yes |
-| Driving directions | Technician | Yes | Yes |
-| Speech to text | Technician | Yes | Yes |
-| Geocoding | Technician | Yes | Yes |
-| [Push notifications](mobile-push-notifications.md) | Technician | Wave 2 2020 | Yes |
-| [Geofencing](geofencing.md) | Technician | Wave 2 2020 | Yes |
-| IoT alerts | Technician | Wave 2 2020 | Yes |
-| Reporting | Technician | Wave 2 2020 | Yes |
-| Scan to find asset | Technician | Wave 2 2020 | Yes |
-| [Location sharing and auditing](https://docs.microsoft.com/dynamics365/field-service/geofencing#step-3-enable-location-auditing-for-the-field-service-mobile-app) | Admin | Wave 2 2020 | Yes |
-| Enhanced offline sync filters | Admin | Wave 2 2020 | Yes |
-| Allow technician to force data sync | Technician | Wave 2 2020 | Yes |
-| [Remote Assist](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/overview-hololens) | Integration | Wave 2 2020 | Yes |
-| [Microsoft Intune](field-service-mobile-intune.md)  | Integration | Yes | Yes |
-| Bulk add users  | Integration | Yes | Yes |
-| Time Entry  | Integration | Yes | Yes |
-| Check list for service tasks  | Integration | Yes | Yes |
-| Inspections | Integration | Wave 2 2020 | Yes |
-| Windows support | Integration |  | Yes |
-| Mapping bookings  | Integration |  | Yes |
-| Tech chat | Integration |  | Yes |
-| Branding & theming | Integration |  | Yes |
-| Sharepoint integration  | Integration |  | Yes |
+| Feature | Category | Field Service (Dynamics 365) | Field Service Mobile | Details |
+| --- | --- | --- | --- | --- |
+| Mobile Platform |  | iOS, Android | iOS, Android, Windows | |
+| Camera capture (photo & video) | Technician | Yes | Yes | |
+| Barcode scanning | Technician | Yes | Yes | |
+| Offline data | Technician | Yes | Yes | |
+| Calendar view | Technician | Yes | Yes | |
+| Driving directions | Technician | Yes | Yes | |
+| Speech to text | Technician | Yes | Yes | |
+| Geocoding | Technician | Yes | Yes | |
+| [Microsoft Intune](field-service-mobile-intune.md)  | Integration | Yes | Yes | |
+| [Push notifications](mobile-push-notifications.md) | Technician | Wave 2 2020 | Yes | User notifications, such as new booking appointment. |
+| [Geofencing](geofencing.md) | Technician | Wave 2 2020 | Yes | Ability to auto set booking status as tech arrives or leaves location. |
+| IoT alerts | Technician | Wave 2 2020 | Yes | |
+| Reporting | Technician | Wave 2 2020 | Yes | Customer service reports with signature with option to email PDF |
+| Scan to find asset | Technician | Wave 2 2020 | Yes | |
+| [Location sharing and auditing](https://docs.microsoft.com/dynamics365/field-service/geofencing#step-3-enable-location-auditing-for-the-field-service-mobile-app) | Admin | Wave 2 2020 | Yes | Real time sharing tech location with back office. |
+| Enhanced offline sync filters | Admin | Wave 2 2020 | Yes | Customize the data available offline (e.g. by location, accounts for scheduled bookings) |
+| Offline by default | Technician | Wave 2 2020 | Yes | App is offline by default so tech is always ready. |
+| Allow technician to force data sync | Technician | Wave 2 2020 | Yes | Technician can manually force data sync. |
+| [Remote Assist](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/overview-hololens) | Integration | Wave 2 2020 | Yes | Expert help via integrated Remote Assist. |
+| Bulk add users  | Admin | Wave 2 2020 | Yes | Quickly assign offline data sync profile to users. |
+| Time Entry  | Technician | Wave 2 2020 | Wave 2 2020 | |
+| Check list for service tasks  | Technician | Wave 2 2020| Yes | Check list for quickly mark task as complete. |
+| Inspections | Technician | Wave 2 2020 | Yes | Field Service tech can find and capture inspections asscociated with a work order. |
+| Windows support |  | | Yes |  |
+| Map bookings  | Technician |  | Yes | Ability to view bookings on a map. |
+| Tech chat | Technician |  | Yes | Ability for technicians to chat with each other.  |
+| Branding & theming | Admin |  | Yes | |
+| Sharepoint integration  | Integration |  | Yes | Ability to include docs and files from sharepoint in bookings and work orders |
 
 Check [Release Plans](https://docs.microsoft.com/dynamics365/release-plans/) to stay up to date on upcoming features for Field Service including the Field Service (Dynamics 365) mobile app.
 
