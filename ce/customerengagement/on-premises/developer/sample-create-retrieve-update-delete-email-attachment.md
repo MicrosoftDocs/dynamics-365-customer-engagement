@@ -15,7 +15,7 @@ helpviewer_keywords:
   - activity entities samples, creating; retrieving; updating; and deleting email attachments
 ms.assetid: 918c0b7e-2850-40c5-8333-5dad6d83b850
 caps.latest.revision: 22
-author: JimDaly
+author: Nkrb
 ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
@@ -31,7 +31,7 @@ This sample shows how to create, retrieve, update, and delete email attachments 
 - [IOrganizationService.Update](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iorganizationservice.update?view=dynamics-general-ce-9)
 - [IOrganizationService.Delete](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iorganizationservice.delete?view=dynamics-general-ce-9)
 
-You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/CRUDEmailAttachements).
+You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/CRUDEmailAttachments).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - sample for uploading; retrieving; and downloading attachments, annotation (note) entity sample
 ms.assetid: a231c619-7130-43f0-b3da-fd1a87545672
 caps.latest.revision: 19
-author: JimDaly
+author: Nkrb
 ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
@@ -24,7 +24,7 @@ search.audienceType:
 ---
 # Sample: Upload, retrieve, and download an attachment
 
-This sample shows how to upload, retrieve, and download an attachment for an annotation using the [IOrganizationService.Create](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iorganizationservice.create?view=dynamics-general-ce-9) and [IOrganizationService.Retrieve](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iorganizationservice.retrieve?view=dynamics-general-ce-9) methods. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/URDAttachement).
+This sample shows how to upload, retrieve, and download an attachment for an annotation using the [IOrganizationService.Create](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iorganizationservice.create?view=dynamics-general-ce-9) and [IOrganizationService.Retrieve](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iorganizationservice.retrieve?view=dynamics-general-ce-9) methods. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/URDAttachment).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 
