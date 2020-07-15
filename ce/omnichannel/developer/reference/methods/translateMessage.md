@@ -12,7 +12,7 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 This method is called for every conversation message exchanged between the customer and the agent.
 
@@ -25,7 +25,7 @@ This method is called for every conversation message exchanged between the custo
 |Name|Type|Required|Description|
 |----|----|----|----|
 |`conversationId`|String|Yes| Unique identifier of the conversation.|
-|translationConfig|JSON object|Yes| |
+|`translationConfig`|JSON object|Yes| |
 
 ## Return Value
 
