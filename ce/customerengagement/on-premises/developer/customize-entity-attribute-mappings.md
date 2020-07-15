@@ -32,8 +32,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Customize entity and attribute mappings

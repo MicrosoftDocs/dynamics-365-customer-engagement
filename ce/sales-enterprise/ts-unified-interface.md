@@ -1,7 +1,7 @@
 ---
-title: "Troubleshooting issues with the Unified Interface (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Troubleshooting issues with Unified Interface (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how to troubleshoot issues with Unified Interface in Dynamics 365 Sales."
-ms.date: 03/24/2020
+ms.date: 06/25/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -10,18 +10,18 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Troubleshooting issues with the Unified Interface
+# Troubleshooting issues with Unified Interface
 
-This article helps you troubleshoot and resolve issues related to the Unified Interface.
+This article helps you troubleshoot and resolve issues related to Unified Interface.
 
 <a name="read_only"> </a>
-## Issue: Out-of-the-box or custom entities appear as read-only in the Unified Interface apps
+## Issue: Out-of-the-box or custom entities appear as read-only in Unified Interface apps
 
-Some out-of-the-box and custom entities are appearing as read-only in the Sales Hub app (Unified Interface). However, these entities are editable in the legacy web client. Some out-of-the-box buttons are also unavailable on the forms in the Unified Interface.
+Some out-of-the-box and custom entities are appearing as read-only in the Sales Hub app (Unified Interface). However, these entities are editable in the legacy web client. Some out-of-the-box buttons are also unavailable on the forms in Unified Interface.
 
 **Reason:**
 
-This could happen when an entity is set to be read-only in mobile. 
+This could happen when an entity is set to be read-only in Unified Client. 
 
 **Resolution:**
 
@@ -43,10 +43,10 @@ To resolve this:
 
 4. In the solution explorer, under **Components**, expand **Entities** and then select the specific entity that's appearing as read-only.
 
-5. On the **General** tab, under **Outlook & Mobile**, clear the **Read-only in mobile** check box.
+5. On the **General** tab, under **Outlook & Mobile**, clear the **Read-only in Unified Client** check box.
 
     > [!div class="mx-imgBorder"]  
-    > ![Setting to make an entity read-only in mobile](media/read-only-in-mobile-setting.png "Setting to make an entity read-only in mobile")
+    > ![Setting to make an entity read-only in the Unified Client](media/read-only-in-unified-client-setting.png "Setting to make an entity read-only in Unified Client")
  
 6. Save and publish the customizations.
 

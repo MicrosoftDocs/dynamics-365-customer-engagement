@@ -19,8 +19,7 @@ caps.latest.revision: 9
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Sample: Share a record using an access team

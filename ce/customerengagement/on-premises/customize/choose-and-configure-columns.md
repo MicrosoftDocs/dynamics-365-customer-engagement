@@ -19,8 +19,7 @@ caps.latest.revision: 25
 topic-status: Drafting
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 
 # Choose and configure columns in views

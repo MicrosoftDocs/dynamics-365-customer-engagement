@@ -6,7 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 applies_to: 
   - ""
-ms.date: 05/11/2020
+ms.date: 07/10/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -59,7 +59,7 @@ Review the following prerequisites before configuring the dashboard:
 
 1. Sign in to the [Power BI](https://app.powerbi.com/) app as an administrator.
 2. As a Power BI administrator, open the [Omnichannel Insights for Dynamics 365](https://aka.ms/d365-oc-insights) app page.
-3. If you've enabled the preview feature [Preview: Sentiment drivers reporting](enable-sentiment-analysis.md#preview-sentiment-drivers-reporting) in real-time sentiment analysis, go to the [download template app](https://go.microsoft.com/fwlink/?linkid=2124573) to install the template app.
+3. If you've enabled the preview feature [Preview: Sentiment drivers reporting](enable-sentiment-analysis.md#preview-sentiment-drivers-reporting) in real-time sentiment analysis, go to the [download template app](https://go.microsoft.com/fwlink/p/?linkid=2124573) to install the template app.
 
    > [!IMPORTANT]
    > The **Install template apps not listed in AppSource** in **Tenant settings** should be enabled by your administrator in the Power BI admin portal.
@@ -172,7 +172,7 @@ You must share the configured application with your entire organization for supe
 
 Each supervisor must configure their Dynamics 365 Customer Service environment to integrate the Omnichannel Insights and Omnichannel Sentiment Analysis dashboards.
 
-1. Sign in to the Omnichannel Administration app.
+1. Sign in to the Omnichannel for Customer Service app.
 
 2. Select **Overview Dashboard** under **Supervisor Experience**.
 

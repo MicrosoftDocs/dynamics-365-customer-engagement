@@ -14,8 +14,7 @@ applies_to:
 ms.assetid: 43bfface-4dc2-411d-99a1-83e934646989
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Use the main form and its components
 

@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Synchronize Dynamics 365 Customer Engagement (on-premises) data with external systems
 

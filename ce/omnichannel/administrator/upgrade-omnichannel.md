@@ -16,7 +16,7 @@ ms.topic: article
 
 Upgrade to the latest version of Omnichannel for Customer Service to unlock the benefits of new features. You can now upgrade to the latest release of Omnichannel for Customer Service from the **Omnichannel environments** page in **Dynamics 365 Admin Center**.
 
-See [What's new in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/?linkid=2083527) to learn about the new features in the latest release.
+See [What's new in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2083527) to learn about the new features in the latest release.
 
 Do the following steps to upgrade Omnichannel for Customer Service:
 

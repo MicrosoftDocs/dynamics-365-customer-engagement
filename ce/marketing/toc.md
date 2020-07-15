@@ -128,6 +128,7 @@
 #### [Create and deploy marketing pages](create-deploy-marketing-pages.md)
 #### [Provide personalized page content](personalized-page-content.md)
 #### [Create marketing forms](marketing-forms.md)
+#### [Use marketing forms for event registration](event-forms.md)
 #### [Enable prefilling for forms](form-prefill.md)
 #### [Integrate with landing pages on external websites](embed-forms.md)
 #### [Create input fields for forms](marketing-fields.md)
@@ -148,7 +149,6 @@
 #### [Export dynamic-segment members to Excel](segments-export-members.md)
 #### [Design static segments](segments-static.md)
 #### [Manage segment memberships from a contact record](manage-segments-from-contacts.md)
-#### [Combine segments into a compound segment](segments-compound.md)
 #### [Work with segment templates](segments-templates.md)
 #### [Market to Dynamics 365 segments on LinkedIn ](linkedin-matched-audience.md)
 #### [Use Customer Insights segments in Marketing](customer-insights-segments.md)
@@ -171,7 +171,6 @@
 
 ### Event planning and management
 #### [Event management overview](event-management.md)
-#### [Early access: Improved event management experience](event-forms.md)
 #### [Open the event management work area](open-events.md)
 #### [Set up an event](set-up-event.md)
 #### [Set up session-level registration and waitlisting](session-level-registration.md)

@@ -19,8 +19,7 @@ caps.latest.revision: 12
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Sample: Calculate Price plug-in

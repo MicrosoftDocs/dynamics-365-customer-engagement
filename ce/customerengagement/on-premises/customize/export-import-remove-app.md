@@ -20,8 +20,7 @@ caps.latest.revision: 9
 topic-status: Drafting
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 
 # Export, import, or remove an app

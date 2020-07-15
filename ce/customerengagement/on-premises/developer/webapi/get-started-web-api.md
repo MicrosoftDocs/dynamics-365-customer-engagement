@@ -17,8 +17,7 @@ ms.author: susikka
 manager: shujoshi
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Get started with the Dynamics 365 Customer Engagement Web API
 

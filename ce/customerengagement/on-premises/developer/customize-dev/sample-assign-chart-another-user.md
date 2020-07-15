@@ -19,8 +19,7 @@ caps.latest.revision: 24
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Sample: Assign a chart to another user

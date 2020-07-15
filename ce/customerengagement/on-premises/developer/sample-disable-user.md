@@ -17,8 +17,7 @@ ms.author: kvivek
 manager: KumarVivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Sample: Disable a user
 

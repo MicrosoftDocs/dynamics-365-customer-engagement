@@ -17,9 +17,7 @@ ms.author: matp
 manager: brycho
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Skype for Business and Skype integration
 

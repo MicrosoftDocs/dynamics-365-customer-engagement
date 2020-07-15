@@ -17,9 +17,7 @@ ms.author: jimholtz
 manager: brycho
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Deploy Office 365 Groups [!INCLUDE [pn-dynamics-crm-online](../includes/pn-dynamics-crm-online.md)]
 

@@ -63,11 +63,11 @@ Two [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator widgets 
 > [!NOTE]
 >Before April 2019, there were two separate solutions on AppSource. Now there is a single solution included out of box, however there is still some required setup to configure LinkedIn's CRM sync.
 
-[Set up the LinkedIn Sales Navigator for Microsoft Dynamics integration](https://www.linkedin.com/help/sales-navigator/answer/82207)
+[Set up the LinkedIn Sales Navigator for Microsoft Dynamics integration](https://business.linkedin.com/sales-solutions/sales-navigator-customer-hub/resources/ms-dynamics-sync-activity-writeback)
 
 
 ### See also
 
-[Enable default LinkedIn Sales Navigator controls](install-sales-navigator.md)     
+[Install and enable LinkedIn Sales Navigator](install-sales-navigator.md)     
 [Customize forms to show Sales Navigator controls](add-sales-navigator-controls-forms.md)    
 [Work with Sales Navigator controls on forms](view-sales-navigator-forms.md)
