@@ -20,8 +20,7 @@ caps.latest.revision:
 topic-status: Drafting
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 
 # Preview feature: Azure Cosmos DB SQL API Data Provider requirements

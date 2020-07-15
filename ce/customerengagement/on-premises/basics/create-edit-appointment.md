@@ -16,8 +16,7 @@ ms.author: shujoshi
 manager: sakudes
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 ---
 # Create or edit an appointment
 

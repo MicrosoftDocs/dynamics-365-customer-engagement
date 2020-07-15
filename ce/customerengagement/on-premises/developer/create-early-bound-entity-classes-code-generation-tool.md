@@ -18,8 +18,7 @@ ms.tgt_pltfrm:
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Create early bound entity classes with the code generation tool (CrmSvcUtil.exe)

@@ -19,8 +19,7 @@ ms.author: hazhou
 manager: annbe
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Define ribbon enable rules
 
