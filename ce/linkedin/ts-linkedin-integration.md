@@ -43,7 +43,7 @@ For more information about the data validation capability of LinkedIn Sales Navi
 
 **Reason** 
 
-I am unable to upgrade the **LinkedInSalesNavigatorForUnifiedClient** solution from 1.x to 3.x. The issue occurs due to the dependencies that exist for the solution. Hence, you can’t update the solution that has dependencies associated with it. 
+I'm unable to upgrade the **LinkedInSalesNavigatorForUnifiedClient** solution from 1.x to 3.x. The issue occurs due to the dependencies that exist for the solution. So, you can’t update the solution that has dependencies associated with it. 
 
 **Resolution** 
 
