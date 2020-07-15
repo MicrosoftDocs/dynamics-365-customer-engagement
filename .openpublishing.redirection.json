@@ -649,9 +649,8 @@
       "source_path": "ce/sales-enterprise/dynamics365-ai-sales.md",
       "redirect_url": "/dynamics365/ai/sales/overview",
       "redirect_document_id": "false"
-    },    
+    },
     {
-
       "source_path": "ce/project-service/new-upcoming.md",
       "redirect_url": "overview",
       "redirect_document_id": "false"
@@ -17871,59 +17870,79 @@
       "redirect_url": "enable-self-service-settings",
       "redirect_document_id": false
     },
-    {  
+    {
       "source_path": "ce/customer-service/migrate-service-activity-org-service.md",
       "redirect_url": "introduction-migration-entity-records.md",
       "redirect_document_id": false
     },
-    {  
+    {
       "source_path": "ce/customer-service/channel-integration-framework/v2/onboard-org-flight.md",
       "redirect_url": "get-channel-integration-framework",
       "redirect_document_id": false
     },
-    {  
+    {
       "source_path": "ce/sales-enterprise/troubleshooting-admin.md",
       "redirect_url": "troubleshooting",
       "redirect_document_id": false
     },
-    {  
+    {
       "source_path": "ce/sales-enterprise/create-forecast-definition.md",
       "redirect_url": "configure-forecast",
       "redirect_document_id": false
     },
-    {  
+    {
       "source_path": "ce/sales-enterprise/developer/reference/manual-forecasting-entity-reference.md",
       "redirect_url": "custom-actions-manual-forecasting",
       "redirect_document_id": false
     },
-    {  
+    {
       "source_path": "ce/sales-enterprise/developer/reference/entities/msdyn_forecastdefinition.md",
       "redirect_url": "export-forecast-data",
       "redirect_document_id": false
     },
-    {  
+    {
       "source_path": "ce/sales-enterprise/developer/reference/entities/msdyn_forecastinstance.md",
       "redirect_url": "export-forecast-data",
       "redirect_document_id": false
     },
-    {  
+    {
       "source_path": "ce/sales-enterprise/developer/reference/entities/msdyn_forecastrecurrence.md",
       "redirect_url": "export-forecast-data",
       "redirect_document_id": false
     },
-    {  
+    {
       "source_path": "ce/sales-professional/use-lookup-fields-forms.md",
       "redirect_url": "https://docs.microsoft.com/powerapps/user/lookup-field",
       "redirect_document_id": false
     },
-    {  
+    {
       "source_path": "ce/customer-service/install-routing-rules-preview-solution.md",
       "redirect_url": "create-rules-automatically-route-cases",
       "redirect_document_id": false
     },
-    {  
+    {
       "source_path": "ce/sales-professional/create-orders.md",
       "redirect_url": "create-invoices",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/admin/enable-use-comprehensive-auditing.md",
+      "redirect_url": "https://docs.microsoft.com/power-platform/admin/enable-use-comprehensive-auditing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/basics/add-edit-power-bi-visualizations-dashboard.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/user/add-powerbi-dashboards",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/data-export-service.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/data-export-service",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/teams-integration/teams-work-records-and-view.md",
+      "redirect_url": "teams-collaboration",
       "redirect_document_id": false
     }
   ]
