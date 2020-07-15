@@ -11,7 +11,7 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-This method ends the conversation between the agent and the customer. Any browser cache related to this conversation is also deleted.
+This method ends the conversation between the agent and the customer. Any browser cache related to the conversation is also deleted.
 
 > [!NOTE]
 > Listen to the **lcw:ready** event raised by a live chat before calling the live chat SDK methods. The live chat methods should be invoked after the **lcw:ready** event is raised. You can listen for this event by adding your own event listener on the window object.
