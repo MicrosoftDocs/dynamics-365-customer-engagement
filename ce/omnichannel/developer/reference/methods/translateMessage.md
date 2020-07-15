@@ -18,7 +18,7 @@ This method is called for every conversation message exchanged between the custo
 
 ## Syntax
 
-`Microsoft.Omnichannel.LiveChatWidget.SDK.translateMessage(conversationId, translationConfig)`
+`Microsoft.Omnichannel.TranslationFramework.translateMessage(conversationId, translationConfig)`
 
 ## Parameters
 
@@ -36,7 +36,7 @@ Returns the translated message, the source language and the destination language
 ```javascript
 window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
         // Initialize the translation provider for the incoming conversation
-        Microsoft.Omnichannel.LiveChatWidget.SDK.initializeNewConversation(convId, translationConfig);
+        Microsoft.Omnichannel.TranslationFramework.initializeNewConversation(convId, translationConfig);
 });
 ```
 

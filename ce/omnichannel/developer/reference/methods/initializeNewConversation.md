@@ -18,7 +18,7 @@ This method is called as soon as a new chat invite is receieved for every incomi
 
 ## Syntax
 
-`Microsoft.Omnichannel.LiveChatWidget.SDK.initializeNewConversation(conversationConfig)`
+`Microsoft.Omnichannel.TranslationFramework.initializeNewConversation(conversationConfig)`
 
 ## Parameters
 
@@ -35,7 +35,7 @@ Returns the `InitializedConversationResponse` object which contains the boolean 
 ```javascript
 window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
         // Initialize the translation provider for the incoming conversation
-        Microsoft.Omnichannel.LiveChatWidget.SDK.initializeNewConversation(convConfig);
+        Microsoft.Omnichannel.TranslationFramework.initializeNewConversation(convConfig);
 });
 ```
 
