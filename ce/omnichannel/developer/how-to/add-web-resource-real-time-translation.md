@@ -15,7 +15,7 @@ You can use a web resource to implement the logic for enabling real time transla
 
 For more information about web resources, see [Web resources in model-driven apps](/powerapps/developer/model-driven-apps/web-resources).
 
-Once you have created and uploaded the web resource, follow the steps given below to copy its URL in the Omnichannel Administration app.
+Once you have created and uploaded your JavaScript file as a web resource, follow the steps given below to copy its URL in the Omnichannel Administration app.
 
 1. Open the Omnichannel Administration app.
 2. Select **Real Time Translation** in the sitemap.
