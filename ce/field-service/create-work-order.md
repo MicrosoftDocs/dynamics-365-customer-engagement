@@ -2,7 +2,7 @@
 title: "Create a work order (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 05/16/2019
+ms.date: 07/15/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
@@ -109,7 +109,28 @@ A work order in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
   
   > [!NOTE]
   >  When you add a product, remember that if you want to reserve a product for the work order, set **Allocated** to **Yes**.  
-  
+
+### Alternate 
+
+Configure work order sub-entities to pop out as dialog boxes and edit them without having to leave the work order form. This makes the work order process less disjointed and helps dispatchers maintain context through navigation. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-mfd-wop.png)
+
+From the Field Service app go to **Settings > Field Service Settings > Other section** and set the **Work Order Subgrid Records Open as Popups** field to **Yes**.
+
+Doing so will enable the popup navigation when the following entities are seelcted from a Work order. 
+
+- Work order product
+- Work order service
+- Work order service task
+- Work order incident
+- Bookable resource booking
+- Time entry
+
+> [!Note]
+> This feature is available in the Unified Interface only.
+
 ### See also  
     
  [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
