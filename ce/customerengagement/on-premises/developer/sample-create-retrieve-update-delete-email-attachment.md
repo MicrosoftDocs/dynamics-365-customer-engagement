@@ -1,5 +1,5 @@
 ---
-title: "Sample: Create, retrieve, update, and delete an email attachment| MicrosoftDocs"
+title: "Sample: Create, retrieve, update, and delete an email attachment| Microsoft Docs"
 description: "This sample shows how to create, retrieve, update, and delete email attachments using methods such as IOrganizationService.Entity, IOrganizationService.ColumnSet, IOrganizationService.Entity, IOrganizationService.Guid"
 ms.custom: 
 ms.date: 10/31/2017
@@ -55,7 +55,7 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 ### Demonstrate
 
 1. The `ActivityMimeAttachment` method creates three email attachments. 
-1. The `Retrieve` method retrieves an attachment including its id, subject, filename and body.
+1. The `Retrieve` method retrieves an attachment including its ID, subject, filename, and body.
 1. The `Update` method updates the filename of the existing attachment.
 
 

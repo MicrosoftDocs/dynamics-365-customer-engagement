@@ -1,5 +1,5 @@
 ---
-title: "Sample: Upload, retrieve, and download an attachment | MicrosoftDocs"
+title: "Sample: Upload, retrieve, and download an attachment | Microsoft Docs"
 description: "The sample demonstrates how to upload, retrieve, and download an attachment for an annotation using the IOrganizationService.Entity) and IOrganizationService.ColumnSet) methods. "
 ms.custom: 
 ms.date: 11/24/2017
@@ -34,7 +34,7 @@ This sample shows how to upload, retrieve, and download an attachment for an ann
 
 ## What this sample does
 
-The `IOrganizationService` methods is intended to be used in a scenario where it provides programmatic access to the metadata and data for an organization.
+The `IOrganizationService` method is intended to be used in a scenario where it provides programmatic access to the metadata and data for an organization.
 
 ## How this sample works
 
@@ -46,8 +46,8 @@ Checks for the current version of the org.
 
 ### Demonstrate
 
-1. The `Annotation` method instantiate an annotation object.
-1. The `IOrganizationService` method creates and upload the annotation object
+1. The `Annotation` method instantiates an annotation object.
+1. The `IOrganizationService` method creates and uploads the annotation object
 
 ### Clean up
 
