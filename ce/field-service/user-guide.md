@@ -80,7 +80,7 @@ The purpose of this section is to understand what Dynamics 365 Field Service is,
 
 - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Nurse Maude](https://www.youtube.com/watch?v=q0aZsdokOv8)
 
-- [RASCO](https://customers.microsoft.com/en-us/story/828538-rasco-discrete-manufacturing-dynamics365-en-croatia?_lrsc=28be62af-daf6-4315-9dc7-845eb10f60a1)
+- [RASCO](https://customers.microsoft.com/story/828538-rasco-discrete-manufacturing-dynamics365-en-croatia?_lrsc=28be62af-daf6-4315-9dc7-845eb10f60a1)
 
 
 ## Learning Catalog
