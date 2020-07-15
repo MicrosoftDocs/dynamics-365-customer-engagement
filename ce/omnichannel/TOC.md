@@ -331,6 +331,8 @@
 ##### [removeAuthTokenProvider](developer/reference/methods/removeAuthTokenProvider.md)
 ##### [startChat](developer/reference/methods/startChat.md)
 ##### [startProactiveChat](developer/reference/methods/startProactiveChat.md)
+##### [initializeNewConversation](developer/reference/methods/initializeNewConversation.md)
+##### [translateMessage](developer/reference/methods/translateMessage.md)
 ##### [closeChat](developer/reference/methods/closeChat.md)
 #### [Events]()
 ##### [lcw:ready](developer/reference/events/lcw-ready.md)
