@@ -17925,6 +17925,11 @@
       "source_path": "ce/sales-professional/create-orders.md",
       "redirect_url": "create-invoices",
       "redirect_document_id": false
+    },
+    {  
+      "source_path": "ce/sales-enterprise/developer/reference/entities/export-forecast-data.md",
+      "redirect_url": "../custom-actions/msdyn_ForecastApi",
+      "redirect_document_id": false
     }
   ]
 }
