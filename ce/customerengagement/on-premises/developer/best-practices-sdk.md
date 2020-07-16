@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: annbe
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Best practices for developing with Dynamics 365 Customer Engagement
 

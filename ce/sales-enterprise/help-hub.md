@@ -18,10 +18,10 @@ manager: annbe
 
 <h2>Get started</h2>
 
+<li><a href="set-up-dynamics-365-sales.md" data-raw-source="[Set up Dynamics 365 Sales](set-up-dynamics-365-sales.md)">Set up Dynamics 365 Sales</a></li>
 <li><a href="overview.md" data-raw-source="[Dynamics 365 Sales Overview](overview.md)">Dynamics 365 Sales Overview</a></li>
 <li><a href="user-guide-learn-basics.md" data-raw-source="[Learn the basics](user-guide-learn-basics.md)">Learn the basics</a></li>
 <li><a href="use-sales-hub-on-dynamics-365-mobile.md" data-raw-source="[Use Sales Hub on Dynamics 365 for phones and tablets](use-sales-hub-on-dynamics-365-mobile.md)">Use Sales Hub on Dynamics 365 for phones and tablets</a></li>
-
 
 </td><td>
 

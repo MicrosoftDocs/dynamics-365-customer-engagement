@@ -16,8 +16,7 @@ ms.author: mduelae
 manager: kvivek
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 ---
 # Organize and lay out your report data
 

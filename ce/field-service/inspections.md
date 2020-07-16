@@ -1,8 +1,8 @@
 ---
-title: "Dynamics 365 Field Service inspections | MicrosoftDocs"
+title: "Dynamics 365 Field Service inspections (public preview) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 06/22/2020
+ms.date: 06/29/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -26,7 +26,7 @@ search.app:
   - D365FS
 ---
 
-# Add inspections to work orders in Dynamics 365 Field Service
+# Add inspections to work orders in Dynamics 365 Field Service (public preview)
 
 Field Service inspections are digital forms that technicians use to quickly and easily answer a list of questions as part of a work order. The list of questions can include safety protocols, pass and fail tests for a customer asset, an interview with a customer, or other audits and assessments performed before, during, or after a work order.
 
@@ -457,3 +457,6 @@ Storing and retrieving each inspection response in Common Data Model is not part
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing a work order service task in Field Service, with attention to the related section being empty.](./media/inspections-known-issue-cant-view-inspection.jpg)
 
+- Inactive inspections and work order service tasks are not available in offline mode. 
+- Inspections do not load in Internet Explorer. Edge or Chrome are recommended. 
+- The question type "Entity lookup" shows inactive records.

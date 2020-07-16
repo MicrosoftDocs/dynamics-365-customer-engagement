@@ -4,34 +4,32 @@ description: "Learn about managing notification templates in Omnichannel Adminis
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/12/2020
+ms.date: 06/23/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
 ---
 
-# Manage notification templates
+# Manage notification settings and templates
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 ## Overview
 
-When a notification is sent to an agent, it displays certain information, such as which customer the conversation request is coming from, the timeout period after which the notification will disappear, and some buttons such as accept and reject. Each organization has varied business requirements and wants the notifications to show relevant information to the agents.
+When a notification is sent to an agent, it displays certain information, such as the customer from who the conversation request is coming, the timeout period after which the notification will disappear, and accept and reject buttons. Each organization has varied business requirements and wants the notifications to show relevant information to the agents.
 
-A notification template is a combination of notification-related, reusable information. The template is used to configure what information needs to be displayed to the agents and supervisors for an incoming conversation, escalation, transfer, consult, and so on. As an administrator, system integrator, or partner, you can use the default templates or create templates to show information that matters most to your business.
+As an administrator, system integrator, or partner, you can use the out-of-the-box templates for notifications or create your own. A notification template is a combination of notification-related, reusable information. The template is used to configure what information needs to be displayed to the agents and supervisors for an incoming conversation, escalation, transfer, or consult.
 
 > [!Note]
 > You must associate the notification templates to a session template.
 
 ## Desktop notifications
 
-### Prerequisite
-
 For optimal functioning of desktop notifications, make sure that you are using the latest supported browsers as specified in the [system requirements](../system-requirements-omnichannel.md).
 
 > [!Note]
 >
-> The legacy version of Microsoft Edge is not supported.
+> The legacy version of Microsoft Edge is not supported for desktop notifications.
 
 ### Desktop notifications when the app is in the background
 
@@ -96,7 +94,9 @@ The application supports the following slugs.
 | `{customerRecordId}` | GUID of the entity (contact or account entity) if the customer is authenticated. |
 |`{<name of the pre-chat survey question>}` | All the pre-chat survey questions that are configured for a work stream can be used as the slug. The format is same as the question. |
 
-## Out-of-the-box notification templates
+## Manage templates
+
+### Out-of-the-box notification templates
 
  For the supported channels, Omnichannel for Customer Service provides you with out-of-the-box notification templates that you can use in your environment. However, if you customize these templates, make sure to rename and save them to avoid your customizations from being overwritten during an upgrade. When you attach the out-of-the-box notification template, the default settings are used in the notifications. For customers whose record exists in Dynamics 365, the settings in the authenticated template for notifications are used. If the customer details are not available in Dynamics 365, the settings in the unauthenticated template are used for displaying the notifications. For information on what the notifications display for agents, see [notifications for agents](../agent/agent-oc/oc-notifications.md).
 
@@ -116,7 +116,7 @@ The out-of-the-box templates are as follows.
 |Customized||||| Customized Notification Template |
 |Sentiment||||| Sentiment threshold alert - Supervisor |
 
-## Create a notification template
+### Create a notification template
 
 Perform the following steps to create a notification template:
 
@@ -133,7 +133,7 @@ Perform the following steps to create a notification template:
     | General | Name | Specify the name for the notification. This name wouldn't be visible for the agents at the run-time. | Authenticated chat notification |
     | General | Title | Provide a title to the notification that you want the agents to see at the run-time. | Incoming chat  conversation |
     | General | Icon | Select web resource path to add an icon. | /webresources/msdyn_chat_icon_zfp.svg <br><br> **Note:** <br>- This is the default value. You can change the icon as your requirement. <br> - If you enable the **Show desktop notifications** option, and if you use svg icon format, then the svg icon won't be shown in the desktop notifications.  |
-    | General |Show timeout| Yes |Set **Yes** to show the timer in the notification, or **No** to hide the timer in the notification for the agents. <br><br> **Note:** <br> - Irrespective of whether you set **Yes** or **No** to show or to hide the timeout value for the agent, the timer runs, and after the timeout duration, the notification disappears. <br> - **Yes** is the default value for the templates when you get the latest release  of Omnichannel for Customer Service freshly. <br> - When you upgrade from previous to the latest release of Omnichannel for Customer Service, then already existing notification templates will show no value for this field in the user interface. However, the notification templates considers the values as **Yes**, and displays the timer to the users at the runtime.<br> - If you enable the **Show desktop notifications** option, then the timer won't be shown in the desktop notifications. |
+    | General |Show timeout| Yes |Set **Yes** to show the timer in the notification, or **No** to hide the timer in the notification for the agents. <br><br> **Note:** <br> - Irrespective of whether you set **Yes** or **No** to show or to hide the timeout value for the agent, the timer runs, and after the timeout duration, the notification disappears. <br> - **Yes** is the default value for the templates when you get the latest release of Omnichannel for Customer Service. <br> - When you upgrade from previous to the latest release of Omnichannel for Customer Service, then existing notification templates will show no value for this field in the user interface. However, the notification templates consider the values as **Yes**, and display the timer to the users at the runtime.<br> - If you enable the **Show desktop notifications** option, then the timer won't be shown in the desktop notifications. |
    | General | Timeout (seconds) | Provide a duration in seconds; after this duration, the notification disappears. | 120. <br><br> **Note:** This is the default value. You can change the duration as per your requirement.
    | General | Accept Button | Specify a text for the accept button. This text appears for the agents to accept a conversation request. | Accept <br><br> **Note:** This is the default value. You can change the text as per your requirement. |
    | General | Reject Button | Set the toggle to yes if you want to show the reject button to agents. <br> After you set the toggle to Yes, the button text box appears. Specify a text for the accept button. This text appears for the agents to reject a conversation request. | Reject <br><br> **Note:** This is the default value. You can change the text as per your requirement. |
@@ -175,7 +175,7 @@ After saving the notification, sign in to the Omnichannel for Customer Service a
 
 To learn more, see [View notification](../agent/agent-oc/oc-notifications.md).
 
-## Edit a notification field
+### Edit a notification field
 
 As an administrator, you can edit the value of a notification field header in the grid.
 
@@ -189,7 +189,7 @@ As an administrator, you can edit the value of a notification field header in th
 
 5. Select the save icon in the grid.
 
-## Customize a notification
+### Customize a notification
 
 Let's see a scenario: In the Contoso Pvt Ltd customer service center, every case notification that is shown to an agent needs to have the following:
 
@@ -204,7 +204,7 @@ Let's see a scenario: In the Contoso Pvt Ltd customer service center, every case
 
 As an administrator, you need to customize the notification template to show the title and notification fields.
 
-### Step 1: Create a notification template with the following values
+#### Step 1: Create a notification template with the following values
 
 | Tab | Name | Value |
 |---------|--------------------|-----------------------------------------------|
@@ -217,7 +217,7 @@ As an administrator, you need to customize the notification template to show the
 | General | Reject Button | Reject <br><br> Set the toggle to yes to show the reject button to agents. <br> After you set the toggle to **Yes**, the button text box appears. <br><br> **Note:** This is the default value.|
 | General | Show desktop notifications | When app is in background |
 
-### Step 2: Create the notification fields with the following values
+#### Step 2: Create the notification fields with the following values
 
 | Name | Field header | Value |
 |---------|--------------------|-----------------------------------------------|--------------------|    
@@ -229,7 +229,7 @@ As an administrator, you need to customize the notification template to show the
 > [!div class=mx-imgBorder] 
 > ![Customize notification template](../media/customize-notification-template.png "Customize notification template")
 
-### Step 3: Save the changes
+#### Step 3: Save the changes
 
 ### See also
 

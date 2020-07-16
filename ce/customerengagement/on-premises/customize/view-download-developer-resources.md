@@ -20,8 +20,7 @@ caps.latest.revision: 25
 topic-status: Drafting
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 
 # View or download developer resources

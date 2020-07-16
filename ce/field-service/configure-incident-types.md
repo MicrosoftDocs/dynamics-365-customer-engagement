@@ -321,7 +321,7 @@ The system suggests adding a product to an incident type.
 
 The system suggests adding a service to an incident type.
 
-1. Incident Type
+3. Incident Type
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an incident type suggestion result showing the incident type in the suggestion type field.](./media/ai-incident-type-suggestions-list-merge.png)

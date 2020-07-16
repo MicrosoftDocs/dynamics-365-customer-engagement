@@ -31,6 +31,9 @@ By integrating Field Service and Remote Assist, you can:
 
 In this article, we'll explore how a field technician can use the Remote Assist mobile app to make a call to an expert for help to complete a work order. We'll also explore the requirements to set up and use Remote Assist and Field Service together on the HoloLens.
 
+For a guided walkthrough, see the following video.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4yt5l]
 
 ## Prerequisites
 

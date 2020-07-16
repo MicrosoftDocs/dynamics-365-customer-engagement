@@ -19,8 +19,7 @@ caps.latest.revision: 25
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Sample: Create, retrieve, update, and delete a dashboard

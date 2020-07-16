@@ -1,7 +1,7 @@
 ---
 title: "Create segments and lists to establish target markets (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Use segments and lists to target customer journeys and manage subscriptions in Dynamics 365 Marketing"
-ms.date: 03/23/2020
+ms.date: 07/01/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -105,6 +105,11 @@ Read this section to get a basic overview of how to create a segment and start i
 1. Use the tools provided by the designer to establish your segment membership criteria, as described elsewhere in this topic, for your selected segment type.
 
 1. When you're done designing the segment, select **Go live** on the toolbar to start running the segment, find all of its members (as needed), and make it available for use with your customer journeys. Once your segment is live, it will include a **Members** tab, where you can go to see exactly which contacts are part of the segment.
+
+> [!NOTE]
+> After you go live with a dynamic segment, you can check when it was last evaluated and the next evaluation time at top of the segment **Members** tab.
+>
+> ![Segment evaluation status](media/segment-lists-subscriptions-evaluated.png "Segment evaluation status")
 
 ## Tabs and settings for segments
 
