@@ -4,7 +4,7 @@ description: "How to configure Intraday insights for Unified Service Desk and Om
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/19/2020
+ms.date: 07/16/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -163,6 +163,8 @@ You must perform the following tasks to configure the Intraday insights for **Un
 4. [Add users to supervisor configuration](#add-users-to-supervisor-configuration)
 5. [Update client cache version](#update-client-cache-version)
 
+> [!NOTE]
+> Sentiment analysis and monitoring is not available for Omnichannel for Customer Service on Unified Service Desk.
 
 ### Configure dashboard in Power BI
 
