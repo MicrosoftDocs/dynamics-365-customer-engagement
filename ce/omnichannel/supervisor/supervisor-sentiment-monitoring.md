@@ -6,7 +6,7 @@ ms.author: laalexan
 manager: shujoshi
 applies_to: 
   - ""
-ms.date: 04/06/2020
+ms.date: 07/15/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -126,6 +126,9 @@ Expect the following system behavior:
 ## Requirements
 
 Your environment must have the latest version of Omnichannel for Customer Service. To learn more, see [Upgrade Omnichannel for Customer Service](../administrator/upgrade-omnichannel.md).
+
+> [!NOTE]
+> Both supervisor and agent sentiment notifications are not supported in Unified Service Desk.
 
 ## Install and configure
 
