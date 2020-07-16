@@ -178,6 +178,7 @@
 ### Custom actions
 #### [Overview](../sales-enterprise/developer/reference/custom-actions-manual-forecasting.md)
 #### [msdyn_ForecastApi](../sales-enterprise/developer/reference/custom-actions/msdyn_ForecastApi.md)
+#### [DeleteOQOILineWithSkipPricingCalculation](../sales-enterprise/developer/reference/custom-actions/deleteoqoilinewithskippricingcalculation.md)
 
 ### Playbooks
 #### [Entity reference](../sales-enterprise/developer/reference/playbook-entity-reference.md)

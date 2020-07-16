@@ -1,5 +1,5 @@
 ---
-title: "DeleteOQOILineWithSkipPricingCalculation API (Dynamics 365 Sales) | MicrosoftDocs"
+title: "DeleteOQOILineWithSkipPricingCalculation custom action (Dynamics 365 Sales) | MicrosoftDocs"
 description: 
 ms.date: 07/09/2020
 ms.service: 
@@ -12,7 +12,7 @@ ms.author: susikka
 manager: shujoshi
 ms.reviewer: susikka
 ---
-# DeleteOQOILineWithSkipPricingCalculation API
+# DeleteOQOILineWithSkipPricingCalculation custom action
 
 Enables you to delete OQOI line item without triggering price calculation.
 
@@ -25,7 +25,7 @@ Enables you to delete OQOI line item without triggering price calculation.
 
 ## Example
 
-This method can be used both client-side and server-side. Given below are examples on how you can make server-side and client-side calls to this method.
+This custom action can be used both client-side and server-side. Given below are examples on how you can make server-side and client-side calls to this custom action.
 
 **Server-side Web API call**
 
