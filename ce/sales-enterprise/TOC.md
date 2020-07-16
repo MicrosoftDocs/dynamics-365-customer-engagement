@@ -1,4 +1,5 @@
 # [Help resources for Dynamics 365 Sales](help-hub.md)
+## [Set up Dynamics 365 Sales](set-up-dynamics-365-sales.md)
 ## [Overview of Sales and Sales Hub](../sales-enterprise/overview.md)
 ## [What's new](../sales-enterprise/whats-new.md)
 ## [Connect and share feedback](../sales-enterprise/connect-share-feedback.md)
@@ -156,11 +157,11 @@
 ### [Troubleshooting orders](ts-orders.md)
 ### [Troubleshooting products](ts-products.md)
 ### [Troubleshooting common entities](ts-oqoi.md)
+### [Troubleshooting currency and price list](ts-currency-pricelist.md)
 ### [Troubleshooting views](ts-views.md)
 ### [Troubleshooting forecasts](ts-forecasts.md)
 ### [Troubleshooting the Unified Interface](ts-unified-interface.md)
 ### [Troubleshooting the sales pipeline chart](ts-sales-pipeline.md)
-### [Troubleshooting LinkedIn integration errors](ts-linkedin-integration.md)
 ### [FAQs](faqs-sales.md)
 
 ## Integrations

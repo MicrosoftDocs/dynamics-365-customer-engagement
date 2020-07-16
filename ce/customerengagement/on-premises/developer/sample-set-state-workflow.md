@@ -19,8 +19,7 @@ caps.latest.revision: 21
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Sample: Set the state of a workflow

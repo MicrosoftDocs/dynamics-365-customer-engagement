@@ -15,8 +15,7 @@ author: Nkrb
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Use connection strings in XRM tooling to connect to Dynamics 365 Customer Engagement (on-premises)
 

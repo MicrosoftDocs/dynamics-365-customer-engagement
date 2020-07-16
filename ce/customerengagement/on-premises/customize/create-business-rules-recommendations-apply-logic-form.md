@@ -16,8 +16,7 @@ ms.author: matp
 manager: brycho
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Create business rules and recommendations to apply logic in a form
 

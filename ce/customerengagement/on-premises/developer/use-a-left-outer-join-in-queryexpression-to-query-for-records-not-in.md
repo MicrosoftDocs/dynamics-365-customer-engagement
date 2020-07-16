@@ -16,8 +16,7 @@ ms.author: kvivek
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Use a left outer join in QueryExpression to query for records &quot;not in&quot;
 

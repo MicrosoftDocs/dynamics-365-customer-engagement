@@ -20,8 +20,7 @@ ms.author: nkrb
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Sample code for activity entities
 

@@ -16,8 +16,7 @@ ms.author: jimholtz
 manager: brycho
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 ---
 # Export data to Excel
 

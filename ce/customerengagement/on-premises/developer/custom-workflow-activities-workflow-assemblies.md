@@ -16,8 +16,7 @@ ms.author: kvivek
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Custom workflow activities (workflow assemblies)
 

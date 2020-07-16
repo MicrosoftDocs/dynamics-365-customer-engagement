@@ -19,8 +19,7 @@ caps.latest.revision: 28
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Sample: Retrieve all charts attached to an entity
