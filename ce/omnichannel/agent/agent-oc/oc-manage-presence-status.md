@@ -19,9 +19,6 @@ Presence is the indication of your availability or status.
   > [!div class=mx-imgBorder]
   > ![Agent presence status](../../media/oceh/oceh-presence-icon.png "Agent presence status")
 
-[!IMPORTANT]
-[!INCLUDE[cc-cookies-in-omnichannel](../includes/cc-cookies-in-omnichannel.md)]
-
 ## View your presence status
 
 As an agent, you can view your presence status that is shown in the nav bar. Select the icon to launch the presence dialog. Each presence status indicates an icon:
@@ -37,6 +34,8 @@ As an agent, you can view your presence status that is shown in the nav bar. Sel
   - ![Available presence status](../../media/oceh/oceh-available-icon.png "Available presence status") - Available
   
   - ![Inactive presence status](../../media/oceh/oceh-appear-away-icon.png "Appear away presence status") - Inactive
+  
+If you can't see your presence, make sure that cookies are not blocked in your browser in any mode so that certain services can work properly.
  
 ## Update your presence status
 
