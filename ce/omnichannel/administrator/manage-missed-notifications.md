@@ -31,3 +31,8 @@ With the missed notifications feature, you can now choose to automatically set a
 
 > [!div class=mx-imgBorder] 
 > ![Enable missed notifications](../media/enable-missed-notifications.png "Enable missed notifications")
+
+### See also
+
+[Manage notification settings and templates](notification-templates.md)
+[View notifications](../agent/agent-oc/oc-notifications.md)
