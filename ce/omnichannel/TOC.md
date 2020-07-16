@@ -335,6 +335,7 @@
 ##### [translateMessage](developer/reference/methods/translateMessage.md)
 ##### [closeChat](developer/reference/methods/closeChat.md)
 #### [Events]()
+##### [lcw:startChat](developer/reference/events/lcw-startchat.md)
 ##### [lcw:ready](developer/reference/events/lcw-ready.md)
 ##### [lcw:error](developer/reference/events/lcw-error.md)
 ##### [lcw:threadUpdate](developer/reference/events/lcw-threadUpdate.md)
