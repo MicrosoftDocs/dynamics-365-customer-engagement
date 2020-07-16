@@ -18,7 +18,7 @@ The PDF generation capability allows users to generate PDF files directly from D
 > [!IMPORTANT]
 > With the 2020 wave 2 early access release, the PDF generation capability is extended to support all the out-of-the-box entities and custom entities.
 
-## Enable or disable PDF generation (If you haven't opted in for 2020 wave 2 features)
+## Enable or disable PDF generation (If you have opted in for 2020 wave 2 features)
 
 1. At the bottom of the site map, select **Change area** ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**.
 
@@ -30,7 +30,8 @@ The PDF generation capability allows users to generate PDF files directly from D
 
 4. On the **Convert to PDF** page, select the entities for which you want to enable the PDF generation capability.
 
-    ![Convert to PDF settings](media/convert-to-pdf-setting-enhanced.png "Convert to PDF settings")
+    > [!div class="mx-imgBorder"]
+    > ![Convert to PDF settings](media/convert-to-pdf-setting-enhanced.png "Convert to PDF settings")
 
     1. To see only the entities on which PDF generation is currently enabled, set the **Show only enabled entities** option to **Yes**.  
     2. To filter the list of entities and find a specific entity on which you want to enable PDF generation, use the **Filter by entity name** field. For example, to enable PDF generation on the Opportunity entity, type 'opp' and you'll see the entity name list filtered to show the entity names starting with 'opp'.  

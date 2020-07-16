@@ -54,12 +54,15 @@ Your system administrator can choose the entities for which PDF generation is en
     ![Email form with PDF file attached](media/email-form-pdf-attachment.png "Email form with PDF file attached")
 
     > [!NOTE]
-    > The Regarding field isn't populated if the 'Sending email' flag in the primary entity isn't enabled. 
+    > The Regarding field isn't populated if the 'Sending email' flag in the primary entity isn't enabled in the Customization area. For more information about this flag, see **Sending email** in the **Entity options that can only be enabled** section of [Edit an entity](/powerapps/maker/common-data-service/edit-entities#change-the-name-of-an-entity). 
 
-7. To save the PDF file to a SharePoint site, select the **Save to SharePoint** button. This button is available when SharePoint integration and Document Management is enabled for your organization. 
+7. To save the PDF file to a SharePoint site, select the **Save to SharePoint** button. This button is available when SharePoint integration is enabled for your organization and the **Document Management** check box is selected on the entity page in the Customization area. For more information about the Document Management check box, see [Enable or disable entity options](/powerapps/maker/common-data-service/edit-entities#enable-or-disable-entity-options)
 
-8. To save the PDF file as a note to the primary record, select the **Save to Dynamics** button. This button is available if Notes is enabled for the primary entity. 
+8. To save the PDF file as a note to the primary record, select the **Save to Dynamics** button. This button is available if Notes is enabled for the primary entity. If you don't see the **Save to Dynamics** button, check whether the **Notes (includes Attachment)** check box is selected on the entity page in the Customization area. By default, notes is enabled on all out-of-the-box entities. For more information on the Notes check box, see **Notes** in the **Entity options that can only be enabled** section of [Edit an entity](/powerapps/maker/common-data-service/edit-entities#change-the-name-of-an-entity) 
  
+> [!NOTE]
+> The enhanced PDF capabilities available with the 2020 wave 2 release aren't supported on mobile devices. 
+
 
 ## Steps for creating a PDF file (if you haven't opted in for 2020 wave 2 features)
 
