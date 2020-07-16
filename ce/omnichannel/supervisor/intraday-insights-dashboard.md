@@ -4,7 +4,7 @@ description: "Learn about the intraday insights dashboard for supervisors"
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 06/23/2020
+ms.date: 07/16/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
