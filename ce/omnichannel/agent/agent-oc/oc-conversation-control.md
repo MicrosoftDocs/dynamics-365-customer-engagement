@@ -80,7 +80,7 @@ After you type **/q** in the communication panel messaging area, you can continu
 
 ### Preview: Share reconnect link with customers
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 If the reconnect link is configured by your administrator, you can share the link with customers during the session that they can use to connect back to the chat when they are disconnected for some reason, such as loss of connectivity or restart of their computer. The reconnect link is available as a quick reply.
 
