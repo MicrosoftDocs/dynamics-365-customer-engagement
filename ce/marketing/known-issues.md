@@ -1,7 +1,7 @@
 ---
 title: "Known issues and workarounds (Dynamics 365 Marketing) | Microsoft Docs"
 description: "This article documents known issues and workarounds for Dynamics 365 Marketing"
-ms.date: 07/10/2020
+ms.date: 07/15/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -33,8 +33,8 @@ This document provides important, late-breaking information about known issues a
 
 - The setup process can take up to two hours. The process might restart automatically during this time, which can result in multiple success (or failure) notifications being sent to you by email.
 - Although the licensing agreement doesn't require it, a known technical issue currently prevents you from running the setup wizard unless you have a Dynamics 365 license with the _System Administrator_ security role assigned on your target Dynamics 365 instance. <!--- 1183223 -->
-- Some in-app language strings in the email designer and customer journey designer are not available in all languages. <!--- 1912019 --> <!--- 1843911 -->
-- When an entitlement is changed, the updated working entitlement will sometimes display as "NotConfigured" and the broken entitlement will display as "Configured" in the Admin UI. <!--- 1884488 -->
+- Some language strings in the email designer and customer journey designer are not available in all languages. <!--- 1912019 --> <!--- 1843911 -->
+- When an entitlement is changed, the updated working entitlement will sometimes display as "NotConfigured" and the broken entitlement will display as "Configured" in the Admin UI. You may get this fixed by raising a support request. <!--- 1884488 -->
 
 ## Customer journeys
 
@@ -47,10 +47,7 @@ This document provides important, late-breaking information about known issues a
 - Metadata used for building conditions and drop-downs shown on the designer isn't localized for non-English organizations. <!-- 992449 -->
 - When trying to estimate the size of a segment where the query doesn't end in a contact, the system displays a server communication error. To correct this error, make sure your segment definition ends with a clause that links to the contact entity as described in [Design dynamic demographic or firmographic segments](segments-profile.md). <!-- 1226384 -->
 - Static segments are limited to a maximum of 1,000 members.
-- Segments that are created, activated, and exported from Customer Insights, then published in Marketing will not display the segment members in Marketing. This is an API issue related to Customer Insights. To avoid the API conflict, you can:
-    1. Create the segment with a POST api/data/v9.0/msdyncrm_segment and set the members on the same step, not on subsequent operations. If the segment already exists, you don't need to first set the members to empty and then actually set them, you can just set the members in one step because it's overriding them. This will solve the issue.
-    1. Introduce a delay between subsequent updates to a api/data/v9.0/msdyncrm_segment. These segments currently fail and the segment is moved to an Error state.
-    1. Check if the segment went to an Error state and try to set the members again. <!-- 1874598 -->
+- Segments that are created, activated, and exported from Customer Insights, then published in Marketing will not always display the segment members in Marketing. <!-- 1874598 -->
 
 ## Email marketing
 
@@ -65,9 +62,9 @@ This document provides important, late-breaking information about known issues a
 ## Marketing pages and forms
 
 - It's possible for contacts using browsers that don't respect HTML5 form validation (notably iOS devices) to submit marketing forms that don't include values for all required fields.
-- When using the form capture tool, changes in mapped fields do not reflect in the interface until you manually refresh the page after making the change. <!--- 1798860 -->
-- Marketing pages with a single column section larger than 1000 px include a horizontal scrollbar by default. <!--- 1923424 -->
-- The form capture tool is not able to capture all non-English characters correctly. Unrecognized characters are replaced by HTML codes. <!--- 1847623 -->
+- When using [form capture](embed-forms.md#use-form-capture-to-integrate-a-form-created-externally), data model changes to mapped fields do not reflect in Dynamics 365 Marketing until you manually refresh the Marketing form capture page after making the change. <!--- 1798860 -->
+- Previews for marketing pages with a single column section larger than 1000 px include a horizontal scrollbar by default. <!--- 1923424 -->
+- The form capture tool may not be able to capture all non-Latin script characters correctly. Unrecognized characters are replaced by HTML codes. <!--- 1847623 -->
 
 ## Reusable content blocks
 
