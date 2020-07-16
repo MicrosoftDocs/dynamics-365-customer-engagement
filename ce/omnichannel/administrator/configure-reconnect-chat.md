@@ -1,7 +1,7 @@
 ---
 title: "Configure reconnection to a chat session | MicrosoftDocs"
 description: "Administrator steps for configuring reconnect chat in Omnichannel for Customer Service."
-ms.date: 08/03/2020
+ms.date: 07/17/2020
 ms.service:
   - "dynamics-365-customerservice"
 ms.topic: article

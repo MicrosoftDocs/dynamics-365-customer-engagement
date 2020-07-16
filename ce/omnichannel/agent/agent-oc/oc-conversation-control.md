@@ -4,7 +4,7 @@ description: "Conversation control is a communication panel in Omnichannel where
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/12/2020
+ms.date: 07/17/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -77,6 +77,15 @@ After you type **/q** in the communication panel messaging area, you can continu
 
  > [!div class=mx-imgBorder] 
  > ![Type /q and the keyword to filter the replies](../../media/oceh-send-quick-replies-filter.png "Filter replies")  
+
+### Preview: Share reconnect link with customers
+
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
+If the reconnect link is configured by your administrator, you can share the link with customers during the session that they can use to connect back to the chat when they are disconnected for some reason, such as loss of connectivity or restart of their computer. The reconnect link is available as a quick reply.
+
+> [!IMPORTANT]
+> You can share the reconnect link only when you do not end the chat session using the **End** button.
 
 ## Consult with agent or supervisor
 
