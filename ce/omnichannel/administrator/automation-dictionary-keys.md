@@ -126,6 +126,13 @@ Macros and agent scripts support the following slugs:
 | `${customerEntityName}` | The name of the entity (contact or account), if the customer is authenticated. |
 | `${customerRecordId}` | The unique ID of the entity (contact or account), if the customer is authenticated. |
 | `${<name of the pre-chat survey questions>}` | All the pre-chat survey questions that are configured for a work stream will have the slug name as the name of the question. |
+
+#### Slug for reconnection link
+
+The following slug is used to generate the reconnect link that can be shared with customers to connect back to the same agent and conversation.
+
+| Slug | Description |
+|------------|-----------------------------------|
 |`${ReconnectUrl{ReconnectID}}`| Used in quick replies to generate a reconnect link. |
 
 #### Format for slugs for productivity tools
