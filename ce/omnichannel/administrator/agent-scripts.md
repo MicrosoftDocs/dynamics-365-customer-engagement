@@ -4,7 +4,7 @@ description: "Learn about agent scripts and how to configure them in the Omnicha
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 07/10/2020
+ms.date: 07/16/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -111,7 +111,7 @@ After you configure the agent script and add the field to a form, you need to as
 6. In the **Look for Records** box, select the search icon. Select the agent script from the list, and then select **Add**.
 
     > [!div class=mx-imgBorder] 
-    > ![Associate an agent script](../media/associate-agent-script.png "Associate an agent script")
+    > ![Associate an agent script](../media/associate-agent-script.PNG "Associate an agent script")
 
 7. Select **Save**.
 
