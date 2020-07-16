@@ -164,7 +164,7 @@ You must perform the following tasks to configure the Intraday insights for **Un
 5. [Update client cache version](#update-client-cache-version)
 
 > [!NOTE]
-> Sentiment analysis and monitoring is not available for Omnichannel for Customer Service on Unified Service Desk.
+> Supervisor and agent sentiment notifications are not available for Omnichannel for Customer Service on Unified Service Desk.
 
 ### Configure dashboard in Power BI
 
