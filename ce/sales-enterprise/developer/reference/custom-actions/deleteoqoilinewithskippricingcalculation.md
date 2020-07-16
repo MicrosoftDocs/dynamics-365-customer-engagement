@@ -47,15 +47,6 @@ var deleteOQOILineWithSkipPricingCalculationRequest= new ODataContract.DeleteOQO
 
 ```
 
-**Server-side Organization Service call**
-
-```csharp
-var deleteOQOILineWithSkipPricingCalculationRequest= new ODataContract.DeleteOQOILineWithSkipPricingCalculationRequest({guid: ClientUtility.Guid.create(Xrm.Page.data.entity.getId())}, Xrm.Page.data.entity.getEntityName());
-                Xrm.WebApi.online.execute(deleteOQOILineWithSkipPricingCalculationRequest).then(() => {
-                    Xrm.Page.data.refresh(false);
-                }, ClientUtility.ActionFailedHandler.actionFailedCallback);
-```
-
 ### See also
 
 [msdyn_ForecastApi](reference/custom-actions/msdyn_ForecastApi.md)
