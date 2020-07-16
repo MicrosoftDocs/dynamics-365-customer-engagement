@@ -11,8 +11,7 @@ ms.author: kvivek
 manager: annbe
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
  
 ---
 # Enable or disable Microsoft Teams Integration using code

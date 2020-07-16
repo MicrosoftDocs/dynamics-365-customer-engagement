@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/marketing/readme.md",
+      "redirect_url": "known-issues",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/marketing/segments-compound.md",
       "redirect_url": "segmentation-lists-subscriptions",
       "redirect_document_id": "false"

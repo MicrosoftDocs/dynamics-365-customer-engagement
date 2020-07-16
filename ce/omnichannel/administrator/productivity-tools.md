@@ -74,7 +74,7 @@ If you are using Omnichannel for Customer Service, and want Productivity Tools, 
 
 ### Prerequisites
 
-- Identify the Common Data Service environment to which you want to deploy Dynamics 35 Productivity Tools. To know the environment details, sign in to Common Data Service platform > **Settings** > **Customizations** and then select **Developer resources**. To learn more, see [Developer resources page](https://docs.microsoft.com/powerapps/developer/common-data-service/view-download-developer-resources).
+- Identify the Common Data Service environment to which you want to deploy Dynamics 365 Productivity Tools. To know the environment details, sign in to Common Data Service platform > **Settings** > **Customizations** and then select **Developer resources**. To learn more, see [Developer resources page](https://docs.microsoft.com/powerapps/developer/common-data-service/view-download-developer-resources).
 
 - Get the latest version of Omnichannel for Customer Service (Omnichannel Prime Chat package version 1.5.3.259). Get the trial version from [Dynamics 365 Trials](https://trials.dynamics.com/).
 

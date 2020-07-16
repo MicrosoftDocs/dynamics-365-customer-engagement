@@ -11,8 +11,7 @@ ms.topic: article
 ms.assetid: bb4e7609-3e32-46b3-8b19-ce700f99715c
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 ---
 # Find your way around Dynamics 365 Customer Engagement (on-premises)
 

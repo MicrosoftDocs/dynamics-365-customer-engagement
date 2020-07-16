@@ -18,8 +18,7 @@ tags:
   - Links to topic not migrated
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Create and design forms 
 

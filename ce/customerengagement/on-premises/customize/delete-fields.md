@@ -15,8 +15,7 @@ manager: kvivek
 tags: 
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Delete fields
 

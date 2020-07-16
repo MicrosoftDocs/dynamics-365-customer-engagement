@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: KumarVivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Use the Dynamics 365 Customer Engagement (on-premises) Organization service
 

@@ -1,7 +1,7 @@
 ---
 title: "Configure mobile offline synchronization in Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: 
-ms.date: 06/18/2020
+ms.date: 07/10/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 

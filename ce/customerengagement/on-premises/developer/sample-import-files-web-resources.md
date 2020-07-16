@@ -19,8 +19,7 @@ caps.latest.revision: 19
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Sample: Import files as web resources

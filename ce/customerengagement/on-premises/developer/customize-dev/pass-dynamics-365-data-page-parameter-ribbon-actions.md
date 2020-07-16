@@ -19,8 +19,7 @@ ms.author: hazhou
 manager: annbe
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Pass Customer Engagement data from a page as a parameter to ribbon actions
 

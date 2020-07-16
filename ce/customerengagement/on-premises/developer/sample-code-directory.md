@@ -21,8 +21,7 @@ caps.latest.revision: 61
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Sample code directory for Dynamics 365 Customer Engagement (on-premises)
