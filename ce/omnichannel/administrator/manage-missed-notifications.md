@@ -1,6 +1,6 @@
 ---
 title: "Enable missed notification in Omnichannel Administration app | MicrosoftDocs"
-description: "Learn about managing notification that are missed in Omnichannel Administration app"
+description: "Learn about managing notifications that are missed in Omnichannel Administration app"
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
