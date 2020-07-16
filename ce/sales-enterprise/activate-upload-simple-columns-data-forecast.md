@@ -58,6 +58,9 @@ Use the **Activate & add quotas** step to activate the forecast and make it avai
 
 You're directed to the **Forecast configuration** home page, where your organization's forecasts are listed.
 
+>[!NOTE]
+>You can also upload the data to the simple columns using the msdyn_ForecastApi action. To learn more, see [msdyn_ForecastApi](../sales-enterprise/developer/reference/custom-actions/msdyn_ForecastApi.md).
+
 <table>
 <tr><td>
 
