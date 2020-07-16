@@ -17937,7 +17937,8 @@
     },
     {  
       "source_path": "ce/sales-enterprise/developer/reference/entities/export-forecast-data.md",
-      "redirect_url": "../custom-actions/msdyn_ForecastApi",
+      "redirect_url": "../custom-actions/msdyn_ForecastApi"
+    },
     {
       "source_path": "ce/voice-of-customer/analyze-survey-data.md",
       "redirect_url": "deprecate",
