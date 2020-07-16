@@ -1,22 +1,22 @@
 ---
-title: "lcw closeChat | MicrosoftDocs"
+title: "lcw startChat | MicrosoftDocs"
 description: 
 author: susikka
 ms.author: susikka
 manager: shujoshi
 ms.topic: article
 ---
-# lcw:closeChat (Omnichannel for Customer Service JavaScript API reference)
+# lcw:startChat (Omnichannel for Customer Service JavaScript API reference)
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-This event is triggered when a chat is closed.
+This event is triggered when a chat is started.
 
 ## Example
 
 ```javascript
-window.addEventListener("lcw:closeChat", function handleLivechatClosedEvent(){
-// Handle livechat closed event
+window.addEventListener("lcw:startChat", function handleLivechatStartedEvent(){
+    // Handle live chat started event
 });
 ```
 ### See also

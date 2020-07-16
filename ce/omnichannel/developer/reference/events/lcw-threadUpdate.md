@@ -4,7 +4,7 @@ description:
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 07/09/2020
+ms.date: 07/16/2020
 ms.topic: article
 ---
 # lcw:threadUpdate (Omnichannel for Customer Service JavaScript API reference)
@@ -18,11 +18,11 @@ Listen to `lcw:threadUpdate` event and call [closeChat](../methods/closeChat.md)
 ## Example
 
 ```JavaScript
-window.addEventListener(\"lcw:threadUpdate\", function handleLivechatReadyEvent(){
-                // End the conversation using closeChat method
-               Microsoft.Omnichannel.LiveChatWidget.SDK.closeChat(); 
+window.addEventListener("lcw:threadUpdate", function handleLivechatThreadUpdateEvent(){
+        // Handle livechat threadUpdate event, e.g.:
+        // End the conversation using closeChat method
+        Microsoft.Omnichannel.LiveChatWidget.SDK.closeChat();
 });
-
 ```
 ### See also
 
