@@ -16,8 +16,7 @@ ms.author: jimholtz
 manager: kvivek
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
+
 ---
 # Security enhancements: User session and access management 
 

@@ -4,7 +4,7 @@ description: "Export and import Omnichannel Administration app data from a sourc
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 06/22/2020
+ms.date: 07/13/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -20,7 +20,9 @@ To export and import your Omnichannel Administration app configuration data, ins
 - Any third-party solutions you plan to integrate
   
 > [!NOTE]
-> The following processes don't help with the export and import of users, so you must add them to the target environment after you have imported the configuration data.
+>
+> - We recommend that you do not export the msdyn_analytics entity. The entity contains org-specific configuration data for intraday insights in Omnichannel for Customer Service; export of the entity might lead to an incorrect configuration of your intraday insights data.
+> - The processes outlined in this topic don't help with the export and import of users; you must add them to the target environment after you have imported the configuration data.
 
 ## Export configuration data using the Configuration Migration tool
 
@@ -43,7 +45,7 @@ You can export the configuration data from your source system by using the Omnic
     -  Operating hours
     -  Sentiment analysis
 
-4. In order to filter for only the Omnichannel for Customer Service queues, you can use the following commands:  
+4. To filter the Omnichannel for Customer Service queues only, you can use the following commands:  
     **Tools** > **Configure Import Settings** > **Use Fetch XML to filter records** > **Edit FetchXML**
 
     ```html
@@ -67,13 +69,13 @@ You can export the configuration data from your source system by using the Omnic
 
 10. Select **Exit** to close the tool.
 
-## Import configuration data using the Configuration Migration tool 
+## Import configuration data using the Configuration Migration tool
 
 1. Run the Configuration Migration tool, and select **Import data** on the main screen. For information about downloading the tool, see step 1 in the previous section.
 
 2. On the **Login** screen, provide authentication details to connect to your Common Data Service platform server from where you want to import data. If you have multiple organizations on the Common Data Service platform server, and want to select the organization from where you want to import the data, select the **Always display list of available orgs** check box. Select **Login**. 
 
-3. If you have multiple organizations, and you selected **Always display list of available orgs**, the next screen lets you choose the organization that you want to connect to. Select the Common Data Service platform organization to connect to. 
+3. If you have multiple organizations, and you selected **Always display list of available orgs**, the next screen lets you choose the organization that you want to connect to. Select the Common Data Service platform organization to connect to.
 
 4. The next screen prompts you to provide the data file (.zip) to be imported. Browse to the data file, select it, and then select **Import Data**.
 

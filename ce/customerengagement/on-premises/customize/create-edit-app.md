@@ -19,8 +19,7 @@ caps.latest.revision: 19
 topic-status: Drafting
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 
 # Create or edit an app by using the app designer
