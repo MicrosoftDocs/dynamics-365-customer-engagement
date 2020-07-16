@@ -1,10 +1,10 @@
 ---
 title: Configure and manage presence and custom presence | MicrosoftDocs
 description: See how you can configure and manage presence and custom presence in Omnichannel for Customer Service
-author: kabala
-ms.author: kabala123
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
+ms.date: 07/16/2019
 ms.topic: article
 ms.service: 
   - "dynamics-365-customerservice"
@@ -24,7 +24,9 @@ A presence status consists of two elements:
   - Away
   - Offline
 
-- **Presence text**: The text that is associated with a specific base status. This is the text that is visible to agents. 
+  Only the base statuses are available for selection in **Allowed Presences** while creating a [work stream](work-streams-introduction.md).
+
+- **Presence text**: The text that is associated with a specific base status. This is the text that is visible to agents.
 
 ## Out-of-the-box presence statuses
 
@@ -37,7 +39,7 @@ Omnichannel for Customer Service provides the following presence statuses out of
 - Inactive
 - Offline
 
-The inactive presence is not available for manual selection by the agents; if missed notifications is enabled, the agent status will be changed to inactive when agents do not respond to the incoming conversation request notification.
+The inactive presence is not available for manual selection by the agents; if the missed notifications feature (preview) is enabled, the agent status will be changed to inactive when agents do not respond to the incoming conversation request notification.
 
 > [!div class=mx-imgBorder]
 > ![Presence view](../media/oc-presence-view.png)
