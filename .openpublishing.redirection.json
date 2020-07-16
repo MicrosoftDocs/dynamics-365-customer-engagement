@@ -18024,26 +18024,6 @@
       "source_path": "ce/teams-integration/teams-work-records-and-view.md",
       "redirect_url": "teams-collaboration",
       "redirect_document_id": false
-    },
-    {
-      "source_path": "ce/customerengagement/on-premises/admin/enable-use-comprehensive-auditing.md",
-      "redirect_url": "https://docs.microsoft.com/power-platform/admin/enable-use-comprehensive-auditing",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "ce/customerengagement/on-premises/basics/add-edit-power-bi-visualizations-dashboard.md",
-      "redirect_url": "https://docs.microsoft.com/powerapps/user/add-powerbi-dashboards",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "ce/customerengagement/on-premises/developer/data-export-service.md",
-      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/data-export-service",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "ce/teams-integration/teams-work-records-and-view.md",
-      "redirect_url": "teams-collaboration",
-      "redirect_document_id": false
     }
   ]
 }
