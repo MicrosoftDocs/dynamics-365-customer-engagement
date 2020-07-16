@@ -6,7 +6,7 @@ ms.author: laalexan
 manager: shujoshi
 applies_to: 
   - ""
-ms.date: 07/15/2020
+ms.date: 07/16/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -17,6 +17,9 @@ ms.custom:
 # Sentiment monitoring
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+
+> [!NOTE]
+> Sentiment analysis and monitoring is not available for Omnichannel for Customer Service on Unified Service Desk.
 
 Sentiment analysis enables agents and supervisors to understand real-time and historical customer sentiment across channels to improve customer service. Omnichannel for Customer Service uses natural language processing (NLP) and machine learning (ML) algorithms to understand customer sentiments.
 
@@ -126,9 +129,6 @@ Expect the following system behavior:
 ## Requirements
 
 Your environment must have the latest version of Omnichannel for Customer Service. To learn more, see [Upgrade Omnichannel for Customer Service](../administrator/upgrade-omnichannel.md).
-
-> [!NOTE]
-> Both supervisor and agent sentiment notifications are not supported in Unified Service Desk.
 
 ## Install and configure
 
