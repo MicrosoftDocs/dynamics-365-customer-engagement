@@ -32,6 +32,10 @@ As an agent, you can view your presence status that is shown in the nav bar. Sel
   - ![Busy presence status](../../media/oceh/oceh-busy-icon.png "Busy presence status") - Busy
  
   - ![Available presence status](../../media/oceh/oceh-available-icon.png "Available presence status") - Available
+
+> [!IMPORTANT]
+>
+> [!INCLUDE[cc-cookies-in-omnichannel](../includes/cc-cookies-in-omnichannel.md)]
  
 ## Update your presence status
 
