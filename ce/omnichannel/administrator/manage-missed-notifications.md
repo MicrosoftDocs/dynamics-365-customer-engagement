@@ -20,6 +20,7 @@ With the missed notifications feature, you can now choose to automatically set a
 
 > [!IMPORTANT]
 > Missed notifications won't work if "Away" is included as an allowed presence for work streams. More information: [Understand and create work streams](work-streams-introduction.md)
+> - Missed notifications is not available in Omnichannel for Customer Service on Unified Service Desk.
 
 ## Enable automatic update of agent presence when a notification is missed
 

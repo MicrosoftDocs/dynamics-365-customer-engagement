@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Pass parameters to a URL using the SiteMap
 

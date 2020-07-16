@@ -17,8 +17,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Silverlight (XAP) web resources

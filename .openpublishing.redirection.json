@@ -1,6 +1,16 @@
 {
   "redirections": [
     {
+      "source_path": "ce/marketing/readme.md",
+      "redirect_url": "known-issues",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/segments-compound.md",
+      "redirect_url": "segmentation-lists-subscriptions",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customerengagement/on-premises/developer/create-packages-package-deployer.md",
       "redirect_url": "https://docs.microsoft.com/power-platform/alm/package-deployer-tool",
       "redirect_document_id": "false"
@@ -17989,6 +17999,11 @@
     {
       "source_path": "ce/voice-of-customer/voc-faq.md",
       "redirect_url": "deprecate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales-enterprise/ts-linkedin-integration.md",
+      "redirect_url": "../linkedin/ts-linkedin-integration.md",
       "redirect_document_id": false
     }
   ]

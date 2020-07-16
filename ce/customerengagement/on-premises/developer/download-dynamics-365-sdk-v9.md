@@ -16,8 +16,7 @@ ms.author: kvivek
 manager: annbe
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Download Dynamics 365 Customer Engagement (on-premises) version 9.x Software Development Kit (SDK)
 

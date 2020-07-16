@@ -21,8 +21,7 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Sample: Link custom attributes between series and instances
 

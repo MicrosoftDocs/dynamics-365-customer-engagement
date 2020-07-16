@@ -15,8 +15,7 @@ author: KumarVivek
 ms.author: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Apply SLAs to entities
 

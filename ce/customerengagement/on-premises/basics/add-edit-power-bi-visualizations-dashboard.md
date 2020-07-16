@@ -17,8 +17,7 @@ ms.author: matp
 manager: brycho
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 ---
 # Add or edit Power BI visualizations on your dashboard
 

@@ -151,7 +151,9 @@ In addition to the **Volume** section, some tiles also show additional sections 
 - **Paths**: Trigger and splitter tiles include this section, which tells you how many contacts went down each available path.
 - **View details**: This link is provided on the **Data** panel for tile types that have even more information available. Select this link to open the associated record, where you can explore its full insights panels. For example, email and event tiles provide this link, which opens the insights panels for the specific message or event associated with the tile.
 
-The Insights tab for A/B test email tiles has a special section above the **Volume** section that shows the progress of any live A/B tests. 
+The Insights tab for A/B test email tiles has a special section above the **Volume** section that shows the progress of any live A/B tests. The percentages show the percent of contacts in the segment each test email message will go to, as well as the percent of contacts that will receive the winning email message.
+
+In the screenshot below, 10% of contacts received message A, 10% received message B, and the remaining 80% received the inconclusive default, which was set to message A.
 
 ![A/B test insights](media/insights-a-b-test.png "A/B test insights")
 

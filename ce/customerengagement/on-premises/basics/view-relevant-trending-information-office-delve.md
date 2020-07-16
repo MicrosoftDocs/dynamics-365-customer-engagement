@@ -16,8 +16,7 @@ ms.author: mkaur
 manager: kvivek
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 ---
 # View relevant and trending information on a dashboard with Office Delve
 

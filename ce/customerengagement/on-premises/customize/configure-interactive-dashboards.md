@@ -10,8 +10,7 @@ ms.service:
   - crm-online
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 keywords: Interactive dashboards; Customer Service; Microsoft Dynamics 365 for Customer Engagement; Interactive service hub; Customer Service Hub
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)

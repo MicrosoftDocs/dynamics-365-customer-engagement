@@ -4,7 +4,7 @@ description: "Learn about the supported formats to pass parameter values in the 
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 03/24/2020
+ms.date: 07/06/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -118,7 +118,7 @@ Macros and agent scripts support the following slugs:
 | `${customerName}` | The name of the customer who initiated the conversation. |
 | `${caseId}` | The unique ID of a case. The system displays the case ID only if a case is linked to the conversation. |
 | `${caseTitle}` | The title of the case. The system displays the title of the case only if the case is linked to the conversation. |
-| `${queueId}` | The unique ID of a queue. |
+| `${queueId}` | The unique ID of a queue. This alphanumeric string is displayed in the queue page URL. |
 | `${visitorLanguage}` | The language of the customer who initiated the conversation. |
 | `${visitorDevice}` | The device of the customer who initiated the conversation. |
 | `${entityRoutingLogicalName}` | The name of the entity, if the notification is for an entity record. |
@@ -186,7 +186,7 @@ A *slug* is a replacement parameter that the system populates at runtime based o
 | `{customerName}` | The name of the customer who initiated the conversation. |
 | `{caseId}` | The unique ID of a case. The system displays the case ID only if the case is linked to the conversation. |
 | `{caseTitle}` | The title of the case. The system displays the title of the case only if the case is linked to the conversation. |
-| `{queueId}` | The unique ID of a queue. |
+| `{queueId}` | The unique ID of a queue. This alphanumeric string is displayed in the queue page URL. |
 | `{visitorLanguage}` | The language of the customer who initiated the conversation. |
 | `{visitorDevice}` | The device of the customer who initiated the conversation. |
 | `{entityRoutingLogicalName}` | The name of the entity, if the notification is for an entity record. |

@@ -12,8 +12,7 @@ ms.author: kvivek
 manager: annbe
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Client scripting in Customer Engagement using JavaScript
 

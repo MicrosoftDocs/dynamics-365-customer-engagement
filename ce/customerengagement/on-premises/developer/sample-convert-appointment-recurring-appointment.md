@@ -21,8 +21,7 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Sample: Convert an appointment to a recurring appointment

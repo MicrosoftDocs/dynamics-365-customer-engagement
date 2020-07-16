@@ -31,8 +31,7 @@ ms.reviewer: susikka
 manager: annbe
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Competitor entity
 

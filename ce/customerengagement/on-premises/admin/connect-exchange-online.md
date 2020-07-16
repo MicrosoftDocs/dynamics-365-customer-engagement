@@ -18,9 +18,7 @@ ms.author: jimholtz
 manager: kvivek
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Connect Dynamics 365 for Customer Engagement apps (online) to Exchange Online 
 

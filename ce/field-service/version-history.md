@@ -2,7 +2,7 @@
 title: "Field Service version history | MicrosoftDocs"
 ms.custom:
   - dyn365-fieldservice
-ms.date: 06/23/2020
+ms.date: 07/06/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -35,7 +35,7 @@ search.app:
 | Field Service     |  8.8.+  | [Upgrade](./upgrade-field-service.md) or [create a new trial](https://trials.dynamics.com)   |
 | Field Service Mobile                 | 12.1.+          | [Windows](https://aka.ms/fsmobile-windows),   [iOS](https://aka.ms/fsmobile-ios), and   [Android](https://aka.ms/fsmobile-android) |
 | Mobile Configuration Tool (Woodford) | 12.1.+          | [Direct download link (English only)](https://aka.ms/fsmobile-configurator)                                                       |
-| Mobile Project Template              | 1.0.4549       | [Direct download link (English only)](https://aka.ms/fsmobile-project)      |
+| Mobile Project Template              | 1.0.4847       | [Direct download link (English only)](https://aka.ms/fsmobile-project)      |
 
 For information about other updates to Field Service, visit the [Dynamics 365 release plans](https://docs.microsoft.com/dynamics365/release-plans/). 
 
@@ -50,12 +50,12 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 | | <i>South Africa</i> | [8.8.24.17](https://docs.microsoft.com/dynamics365/field-service/version-history#882417) | TBD | 07/31/2020
 | | <i>Germany</i> | [8.8.24.17](https://docs.microsoft.com/dynamics365/field-service/version-history#882417) | TBD | 07/31/2020
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> | [8.8.23.85](https://docs.microsoft.com/dynamics365/field-service/version-history#882385)|  [8.8.24.17](https://docs.microsoft.com/dynamics365/field-service/version-history#882417) | 07/03/2020
-| | <i>Asia Pacific</i>  | [8.8.23.85](https://docs.microsoft.com/dynamics365/field-service/version-history#882385)|  [8.8.24.17](https://docs.microsoft.com/dynamics365/field-service/version-history#882417) | 07/03/2020
-| | <i>Great Britain</i>  | [8.8.23.85](https://docs.microsoft.com/dynamics365/field-service/version-history#882385)|  [8.8.24.17](https://docs.microsoft.com/dynamics365/field-service/version-history#882417) | 07/03/2020
-| | <i>Oceana</i>  | [8.8.23.85](https://docs.microsoft.com/dynamics365/field-service/version-history#882385)|  [8.8.24.17](https://docs.microsoft.com/dynamics365/field-service/version-history#882417) | 07/03/2020
+| | <i>Japan</i> | [8.8.24.17](https://docs.microsoft.com/dynamics365/field-service/version-history#882417) | TBD | 08/07/2020
+| | <i>Asia Pacific</i>  |  [8.8.24.17](https://docs.microsoft.com/dynamics365/field-service/version-history#882417) | TBD | 08/07/2020
+| | <i>Great Britain</i>  |  [8.8.24.17](https://docs.microsoft.com/dynamics365/field-service/version-history#882417) | TBD | 08/07/2020
+| | <i>Oceana</i>  |  [8.8.24.17](https://docs.microsoft.com/dynamics365/field-service/version-history#882417) | TBD | 08/07/2020
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> | [8.8.23.85](https://docs.microsoft.com/dynamics365/field-service/version-history#882385)|[8.8.24.17](https://docs.microsoft.com/dynamics365/field-service/version-history#882417) | 07/10/2020
+| | <i>Europe</i> | [8.8.24.17](https://docs.microsoft.com/dynamics365/field-service/version-history#882417) | TBD | 08/14/2020
 |<strong>Station 5</strong> | |  |  | |
 | | <i>North America</i> |[8.8.23.85](https://docs.microsoft.com/dynamics365/field-service/version-history#882385)|[8.8.24.17](https://docs.microsoft.com/dynamics365/field-service/version-history#882417) | 07/17/2020
 |<strong>Station 6</strong> | |  |  | |

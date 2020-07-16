@@ -19,8 +19,7 @@ caps.latest.revision: 22
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Sample: Assign a user-owned dashboard to another user

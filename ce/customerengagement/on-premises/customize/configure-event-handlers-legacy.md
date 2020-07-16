@@ -13,8 +13,7 @@ ms.topic: article
 ms.assetid: dc0ebb3f-0c00-413a-968f-9cfd107055c0
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Configure event handlers
 
