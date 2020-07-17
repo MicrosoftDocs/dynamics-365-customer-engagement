@@ -21,7 +21,7 @@ This article helps you troubleshoot and resolve issues related to the Lead entit
 - [Issue: Account or contact-related fields aren't populating on the Lead form](#account-contact-fields-not-populating)
 
 <a name="lead_qualification"> </a>
-## Lead qualification issues and resolution (sales people)
+## Lead qualification issues and resolution (salespeople)
 
 <a name="qualify_lead"> </a>
 ### How do I convert or qualify my leads?
