@@ -35,7 +35,7 @@ As an agent, you can view your presence status that is shown in the nav bar. Sel
   
   - ![Inactive presence status](../../media/oceh/oceh-appear-away-icon.png "Appear away presence status") - Inactive
   
-If you can't see your presence, make sure that cookies are not blocked in your browser in any mode so that certain services can work properly.
+If you can't see your presence, make sure that cookies are not blocked in your browser in any mode.
  
 ## Update your presence status
 
