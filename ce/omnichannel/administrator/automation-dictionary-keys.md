@@ -129,7 +129,7 @@ Macros and agent scripts support the following slugs:
 
 #### Slug for reconnection link
 
-The following slug is used to generate the reconnect link that can be shared with customers to connect back to the same agent and conversation.
+The following slug is used to generate the reconnection link that can be shared with customers to connect back to the same agent and conversation. More information: [Configure a reconnection to a previous chat](configure-reconnect-chat.md)
 
 | Slug | Description |
 |------------|-----------------------------------|
