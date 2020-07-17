@@ -16,7 +16,7 @@ ms.topic: article
 
 ## Card support
 
-| Channel              | Adaptive Card | Hero Card | Receipt Card | Thumbnail Card | Signin Card | Audio Card | Video Card | Animation Card |
+| Channel              | Adaptive card | Hero card | Receipt card | Thumbnail card | Signin card | Audio card | Video card | Animation card |
 |----------------------|---------------|-----------|--------------|----------------|-------------|------------|------------|----------------|
 | Microsoft Teams      | ✔             | ✔         | ✔            | ✔              | ✔           | ❌          | ❌          | ❌              |
 | Facebook             | ⚠🔶           | ✔         | ✔            | ✔              | ✔           | ❌          | ❌          | ❌              |
@@ -38,6 +38,36 @@ ms.topic: article
 🌐: Card is Converted to Unformatted Text - Links may not be clickable, images may not display, and/or media may not be playable. Varies by channel.
 
 These categories are intentionally broad and do not fully explain how every card feature is supported in each channel due to the many possible combinations of cards, features, and channels. Please use this table as a base reference, but test each of your cards in the desired channel(s).
+
+## Suggested actions support
+
+Suggested action is supported fully with the exception that some channels may limit the number of actions allowed. The number of actions supported varies by channel.
+
+| Channel            | Suggested actions support       |
+|--------------------|---------------------------------|
+| Teams              | No                              |
+| Facebook           | Yes                             |
+| LINE               | Yes                             |
+| Custom messaging (Telegram) | Yes                    |
+| Custom messaging (Direct Line) | Yes                 |
+
+## Attachment support
+
+| Channel              | Inbound attachments                        | Outbound attachments                  |
+|----------------------|--------------------------------------------|---------------------------------------|
+| Microsoft Teams      | Image, Audio, Video, Documents, Gif, Emoji | Image, Audio, Video, Documents, Gif   |
+| Facebook             | Image, Audio, Video, Documents, Gif, Emoji | Image, Audio, Video, Document, Gif    |
+| Line                 | Image, Audio, Video, Gif                   | Image, Audio, Video, Documents, Gif   |
+| Custom (Telegram)    | Image, Audio, Video, Documents, Gif, Emoji | Image, Audio, Video, Documents, Gif   |
+| Custom (Direct Line) | All types except blocked types in org      | All types except blocked types in org |
+| Twitter              | Image, Video, Gif, Emoji                   | Image, Video, Gif                     |
+| WeChat               | Image, Audio, Video                        | Image, Audio, Video                   |
+| WhatsApp             | Image, Audio, Video, PDF                   | Image, Audio, Video, PDF              |
+
+> [!Note]
+> - For Microsoft Teams, sending Emoji from Teams client, OC side will receive .png. Sending Gif from Outbound, client side will get .png. 
+> - The Direct Line channel supports the above attachment types, but it is up to the client to implement them.
+> - For LINE inbound and outbound, when sending .gif, the other side will receive .jpg
 
 ## Emoji support 
 
