@@ -2,7 +2,7 @@
 title: "Time entries for Dynamics 365 Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 02/03/2020
+ms.date: 07/17/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
