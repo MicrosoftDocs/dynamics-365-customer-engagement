@@ -4,7 +4,7 @@ description: See how you can configure and manage presence and custom presence i
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/16/2019
+ms.date: 07/17/2019
 ms.topic: article
 ms.service: 
   - "dynamics-365-customerservice"
