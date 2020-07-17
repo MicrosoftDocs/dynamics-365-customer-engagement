@@ -4,7 +4,7 @@ description: "Learn how to set your presence status in Omnichannel for Customer 
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 12/27/2019
+ms.date: 07/16/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -32,8 +32,10 @@ As an agent, you can view your presence status that is shown in the nav bar. Sel
   - ![Busy presence status](../../media/oceh/oceh-busy-icon.png "Busy presence status") - Busy
 
   - ![Available presence status](../../media/oceh/oceh-available-icon.png "Available presence status") - Available
-
+  
   - ![Inactive presence status](../../media/oceh/oceh-appear-away-icon.png "Appear away presence status") - Inactive
+  
+If you can't see your presence, make sure that cookies are not blocked in your browser in any mode.
  
 ## Update your presence status
 
