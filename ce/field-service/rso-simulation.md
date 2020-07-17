@@ -1,8 +1,8 @@
 ---
-title: "Run RSO as a simulation | MicrosoftDocs"
+title: "Run resource scheduling optimization as a simulation in Dynamics 365 Field Service | Microsoft Docs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 07/07/2020
+ms.date: 07/17/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -26,9 +26,9 @@ search.app:
   - D365FS
 ---
 
-# Run RSO as a simulation
+# Run resource scheduling optimization as a simulation
 
-Running an optimization as a simulation allows RSO admins to better adjust:  
+Running an optimization as a simulation allows resource scheduling optimization (RSO) admins to better adjust:  
 
 - Optimization scope (include/exclude more resources)
 - Objectives (reorder objective rankings)
