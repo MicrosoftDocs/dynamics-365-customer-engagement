@@ -41,3 +41,32 @@ These categories are intentionally broad and do not fully explain how every card
 
 ## Emoji support 
 
+| Channel            | Emoji behavior                                                      |
+|--------------------|---------------------------------------------------------------------|
+| Facebook           | Yes. Emoji in text, like “😀”                                       |
+| Twitter            | Yes. Emoji in text, like “😀”                                       |
+| Teams              | Yes. Emoji in .PNG image                                            |
+| WeChat             | Yes. When an emoji is sent, the recipient sees characters, like :-) |
+| LINE               | Yes. When an emoji is sent, the recipient sees a sticker.           |
+| WhatsApp           | Not supported.                                                      |
+| Custom messaging (Telegram) | Yes. Emoji in text, like “😀”                              |
+| Custom messaging (Direct Line) | Yes. Emoji in text, like “😀”                           |
+
+> [!Note]
+> The Direct Line channel technically supports emojis, but it's up to the client to implement them.
+
+## Sticker support
+
+| Channel            | Sticker behavior                                                    |
+|--------------------|---------------------------------------------------------------------|
+| Facebook           | Yes, as .PNG image                                                  |
+| Twitter            | Not supported.                                                      |
+| Teams              | Yes, in .HTML format and attachment URL (private)                   |
+| WeChat             | Not supported. Recipient sees "Unsupported message" text.           |
+| LINE               | Not supported. Recipient sees "Sticker" text.                       |
+| WhatsApp           | Not supported.                                                      |
+| Custom messaging (Telegram) | Not supported.                                             |
+| Custom messaging (Direct Line) | Yes, as sticker image                                   |
+
+> [!Note]
+> The Direct Line channel technically supports stickers, but it's up to the client to implement them.
