@@ -23,7 +23,7 @@ search.app:
 ---
 
 
-# Preview: 
+# Preview: Configure mobile offline synchronization in Dynamics 365 for phones and tablets
 
 
 
