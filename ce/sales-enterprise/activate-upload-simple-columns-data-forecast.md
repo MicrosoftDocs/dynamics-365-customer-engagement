@@ -72,3 +72,5 @@ You're directed to the **Forecast configuration** home page, where your organiza
 ### See also
 
 [Configure forecasts in your organization](configure-forecast.md)
+
+[msdyn_ForecastApi](../sales-enterprise/developer/reference/custom-actions/msdyn_ForecastApi.md)
