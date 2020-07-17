@@ -36,6 +36,9 @@ Running an optimization as a simulation allows resource scheduling optimization 
 
 With simulation runs, admins can see what optimization results will look like for each run before locking down the recurring schedule. The simulation feature also empowers admins to review optimization results before pushing the assignments to all resources, or to discard the results and rerun by adjusting optimization parameters.
 
+## Prerequisites
+- Resource scheduling optimization version 2.6+
+
 ## How to trigger a simulation run
 
 There are two ways to run an optimization request in simulation mode:
