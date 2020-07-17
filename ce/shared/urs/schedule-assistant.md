@@ -162,6 +162,10 @@ You can view and edit the time zone the search results are displayed in by trigg
 
 The time zone value is derived from the time zone on the requirement that is being scheduled. Go to the requirement then **Modify Calendar** to view and edit the requirement time zone. 
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/schedule-assistant-timezone-requirement.png)
+
 The requirement time zone is dervied from the following values in the following order:
 
 1) The time zone of the work hours template noted on both the requirement and the related work order if applicable.
