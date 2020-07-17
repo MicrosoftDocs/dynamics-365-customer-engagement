@@ -28,6 +28,8 @@ The presence status indicates an agent's availability. A presence status consist
 
 - **Presence text**: The text that is associated with a specific base status. This is the text that is visible to agents.
 
+A default presence should be assigned to the agents that will be set when they sign in for work. If no default presence is assigned, the application will set "Available" as the default.
+
 ## Out-of-the-box presence statuses
 
 Omnichannel for Customer Service provides the following presence statuses out of the box:
@@ -49,7 +51,7 @@ The inactive presence is not available for manual selection by the agents; if th
 
 ## Create custom presence status
 
-In addition to the out-of-box presence statuses, admins can configure custom presence statuses for agents that must be mapped to a base presence. For example, if the agents on your team want to attend a training, you can create a custom **Away – In Training** presence status.
+In addition to the out-of-box presence statuses, admins can configure custom presence statuses for agents that must be mapped to a base presence. For example, if the agents on your team want to attend a training, you can create a custom **Away – In Training** presence status. When you map a custom presence to a base presence, make sure that the configurations are logically viable. For example, if you map an available custom presence to offline base status, the application will treat it as offline while the visual effect would be available.
 
 Perform the following steps to create a presence record:
 
@@ -70,5 +72,6 @@ Perform the following steps to create a presence record:
 
 ### See also
 
+[Manage a user in Omnichannel for Customer Service](users-user-profiles.md#manage-a-user-in-omnichannel-for-customer-service)  
 [Understand and create work streams](work-streams-introduction.md)  
 [Understand unified routing and work distribution](unified-routing-work-distribution.md)  
