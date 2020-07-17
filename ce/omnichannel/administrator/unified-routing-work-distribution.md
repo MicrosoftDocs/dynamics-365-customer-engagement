@@ -112,7 +112,8 @@ As **Bert** has the required capacity and presence, the system  assigns the conv
 
 ### Adjusting an agent's capacity based on conversation allocation
 
-An agent's capacity is adjusted when a conversation is allocated. Here are the actions that occur:
+Agent capacity is specified by the Administrator in the User settings. See [Manage users](users-user-profiles.md) to learn how to set agent capacity.
+An agent's capacity is adjusted by the system when a conversation is allocated. Here are the actions that occur:
 
 - The conversation is added to the agent's **My Items** list.
 - The agent's presence status changes to **Busy** or **Busy DND**.
@@ -121,7 +122,7 @@ An agent's capacity is adjusted when a conversation is allocated. Here are the a
 
 ### Adjusting an agent's capacity based on closure of allocated conversation
 
-When an agent has finished working on a conversation, the capacity should be added back to the agent's availability. Here are the actions that occur:
+When an agent has finished working on a conversation, the system adds the capacity back to the agent's availability. Here are the actions that occur:
 
 - The conversation is removed from the agent's **My Items** list.
 - The agent's presence status changes to **Available**.
