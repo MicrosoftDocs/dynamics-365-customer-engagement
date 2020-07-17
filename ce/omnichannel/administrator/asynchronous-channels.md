@@ -29,13 +29,13 @@ ms.topic: article
 
 ✔: Supported - Card is supported fully with the exception that some channels only support a subset of Card Actions and/or may limit the number of actions allowed on each card. Varies by channel.
 
-⚠: Partial Support - Card may not be displayed at all if it contains inputs and/or buttons. Varies by channel.
+⚠: Partial support - Card may not be displayed at all if it contains inputs and/or buttons. Varies by channel.
 
-❌: No Support
+❌: No support
 
-🔶: Card is Converted to Image
+🔶: Card is converted to image
 
-🌐: Card is Converted to Unformatted Text - Links may not be clickable, images may not display, and/or media may not be playable. Varies by channel.
+🌐: Card is converted to unformatted text - Links may not be clickable, images may not display, and/or media may not be playable. Varies by channel.
 
 These categories are intentionally broad and do not fully explain how every card feature is supported in each channel due to the many possible combinations of cards, features, and channels. Please use this table as a base reference, but test each of your cards in the desired channel(s).
 
@@ -100,3 +100,8 @@ Suggested action is supported fully with the exception that some channels may li
 
 > [!Note]
 > The Direct Line channel technically supports stickers, but it's up to the client to implement them.
+
+### See also
+
+[Bring your own custom messaging channel: Direct Line Bot](bring-your-own-channel.md)  
+[Configure custom messaging channel](../../administrator/configure-custom-channel.md)  
