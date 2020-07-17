@@ -14,7 +14,7 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-## Card support by channel
+## Card support
 
 | Channel              | Adaptive Card | Hero Card | Receipt Card | Thumbnail Card | Signin Card | Audio Card | Video Card | Animation Card |
 |----------------------|---------------|-----------|--------------|----------------|-------------|------------|------------|----------------|
