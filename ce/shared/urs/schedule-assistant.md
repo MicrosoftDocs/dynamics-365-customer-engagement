@@ -150,26 +150,20 @@ To learn more about the schedule assistant and the many ways it can be put to us
 
 ## Configuration considerations
 
-### Time zone of schedule assistant ssearch results
+### Time zone for schedule assistant search results
 
-The schedule assistant returns time slots to book potential resources, but what time zone are the time slots displayed in?
-
-You can view and edit the time zone the search results are displayed in by triggering the schedule assistant and selecting the gear icon in the top right corner.
-
+You can view and edit the time zone the schedule assistant's search results are displayed in by triggering the schedule assistant and selecting the gear icon in the top-right corner.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/schedule-assistant-timezone.png)
+> ![Screenshot of the time zone setting in the schedule assistant.](../../field-service/media/schedule-assistant-timezone.png)
 
-The time zone value is derived from the time zone on the requirement that is being scheduled. Go to the requirement then **Modify Calendar** to view and edit the requirement time zone. 
-
+The time zone value is derived from the time zone on the requirement being scheduled. Go to the requirement, then **Modify Calendar** to view and edit the requirement time zone.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/schedule-assistant-timezone-requirement.png)
+> ![Screenshot of the resource requirement work hours setting.](../../field-service/media/schedule-assistant-timezone-requirement.png)
 
-The requirement time zone is dervied from the following values in the following order:
+The requirement time zone is derived from the following values in the following order:
 
-1) The time zone of the work hours template noted on both the requirement and the related work order if applicable.
-2) The time zone of the user that created the requirement (the owner). If the owner is changed, the time zone is not changed. The User's time zone is defined in Personalization Settings.
-3) The time zone of the default schedule board tab of the system. 
-
-
+1. The time zone of the work hours template noted on both the requirement and the related work order, if applicable.
+2. The time zone of the user that created the requirement (the owner). If the owner is changed, the time zone is not changed. The user's time zone is defined in **Personalization Settings**.
+3. The time zone of the default schedule board tab of the system.
