@@ -80,4 +80,4 @@ From here, you can edit the XML to define how the schedule assistant searches fo
 
 Do not edit the schedule assistant **Retrieve Constraints Query** for the territory shown below. It can damage the schedule assistant logic.
 
-    ```<Territories ufx:select="lookup-to-list(Requirement/msdyn_territory)" />```
+```<Territories ufx:select="lookup-to-list(Requirement/msdyn_territory)" />```
