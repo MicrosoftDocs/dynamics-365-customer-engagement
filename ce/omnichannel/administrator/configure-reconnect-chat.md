@@ -26,7 +26,7 @@ When enabled, the reconnection to a chat session works as follows:
 
 #### Reconnect with link
 
-The agent shares the reconnection link with the customers during the conversation with information on the expiry time of the link within which the customer must reconnect. Administrators can configure the link and expiry time information as quick responses for agents.
+Administrators can configure the link and expiry time information as quick responses for agents. The agent shares the quick response with the customers during the conversation if they anticipate a reconnection scenario.
 
 #### Reconnect through prompt
 
