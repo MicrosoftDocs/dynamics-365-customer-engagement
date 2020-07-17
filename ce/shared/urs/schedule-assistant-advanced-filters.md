@@ -76,8 +76,8 @@ To get there, double-click on the schedule board tab. Open default settings in t
 
 From here, you can edit the XML to define how the schedule assistant searches for each entity that is available for scheduling.
 
-## Additional Notes
+## Additional notes
 
-You should not edit the Schedule Assistant Retrieve Constraints Query for territory shown below. This can result in damaging the schedule assistant logic.
+Do not edit the schedule assistant **Retrieve Constraints Query** for the territory shown below. It can damage the schedule assistant logic.
 
-    <Territories ufx:select="lookup-to-list(Requirement/msdyn_territory)" />
+    ```<Territories ufx:select="lookup-to-list(Requirement/msdyn_territory)" />```
