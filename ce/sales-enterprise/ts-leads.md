@@ -120,9 +120,9 @@ Make sure the lead that you're trying to qualify or disqualify is open and not a
 
 **Reason:**
 
-When you qualify a lead, some of the attributes in the mapping of 1:N (one-to-many) relationships between **Lead to Contact** or **Lead to Opportunity** get copied from the Lead to Contact or Lead to Opportunity entities.
+When you qualify a lead, some of the attributes in the mapping of 1:N (one-to-many) relationships between **Lead to Contact** or **Lead to Opportunity** are copied from the Lead to Contact or Lead to Opportunity entities.
 
-Status codes are defined as an option set. This issue occurs when a user adds a new option into the option set in the Lead entity, but doesn't add the option to the option set for the target entity.
+Status codes are defined as an option set. This issue occurs when a user adds a new option to the option set in the Lead entity, but not to the option set in the target entity.
 
 For entity mapping to work, option sets&mdash;such as status codes&mdash;should be the same between lead and contact or lead and opportunity, because the lead qualification process copies the status code value from lead to contact or from lead to opportunity. If the status codes don't match, the process fails.
 
