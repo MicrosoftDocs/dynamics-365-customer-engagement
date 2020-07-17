@@ -444,19 +444,19 @@ You must remove the Customer Service Hub app from the channel provider configura
 
 The issue might happen due to the following reasons:
 
+- Cookies are blocked in the browser.
 - Azure Active Directory consent is not available for Omnichannel for Customer Service app.
 - Agent doesn't have the Omnichannel agent role privileges.
-- Capacity and Default presence are not set.
-- Cookies are blocked in the browser.
+- Capacity and default presence are not set.
 
 ### Resolution
 
 Perform the following:
 
+- Ensure that cookies are not blocked in the browser in any mode so that agent and supervisor presence can work properly.
 - Contact your administrator to verify Azure Active Directory consent is given to the Omnichannel for Customer Service application on your tenant. Go to [Authorize access](https://go.microsoft.com/fwlink/p/?linkid=2070932) to get access. For more information, see [Provision for Omnichannel for Customer Service](administrator/omnichannel-provision-license.md). 
-- Ensure the agent account has **Omnichannel Agent**. For more information, see [Assign roles and enable users for Omnichannel](administrator/add-users-assign-roles.md).
+- Ensure the agent account has the **Omnichannel Agent** role assigned. For more information, see [Assign roles and enable users for Omnichannel](administrator/add-users-assign-roles.md).
 - Ensure the agent account has values set for **Capacity** and **Default presence** within the Omnichannel Administration app. To learn more, see [Create and manage users and user profiles](administrator/users-user-profiles.md).
-- Omnichannel for Customer Service uses cookies for authentication. Ensure that cookies are not blocked in the browser in any mode so that agent and supervisor presence can work properly.
 
 ## Agent dashboard isn’t loading or is giving an authorization error
 
