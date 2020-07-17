@@ -81,7 +81,7 @@
 #### [Move from Dynamics 365 Sales Enterprise to Professional](move-sales-enterprise-sales-professional.md)
 
 ## User Guide
-### [Help resources for sales people](../sales-enterprise/user-guide.md)
+### [Help resources for salespeople](../sales-enterprise/user-guide.md)
 ### [Learn the basics](user-guide-learn-basics.md)
 ### [Gain insights with dashboards](dashboards.md)
 ### [Understand the sales pipeline chart and its phases](sales-pipeline-chart.md)
