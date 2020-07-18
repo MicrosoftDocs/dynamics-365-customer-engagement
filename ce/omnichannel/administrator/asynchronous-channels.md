@@ -104,4 +104,4 @@ Suggested action is supported fully with the exception that some channels may li
 ### See also
 
 [Bring your own custom messaging channel: Direct Line Bot](bring-your-own-channel.md)  
-[Configure custom messaging channel](../../administrator/configure-custom-channel.md)  
+[Configure custom messaging channel](configure-custom-channel.md)  
