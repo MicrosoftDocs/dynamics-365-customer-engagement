@@ -272,7 +272,7 @@
 ##### [Test the custom messaging channel](developer/how-to/bring-your-own-channel-sample-html.md)
 #### [Customize chat widget](developer/how-to/customize-chat-widget.md)
 #### [Enable third-party co-browse](developer/how-to/third-party-co-browse.md)
-### [Cards and suggested actions supported by channels](developer/cards-actions=support-channel.md)
+### [Cards and suggested actions supported by channels](developer/cards-actions-support-channel.md)
 ### [Live chat widget telemetry](developer/live-chat-telemetry.md)
 ### Entity reference
 #### [Overview](developer/reference/entities/overview.md)
