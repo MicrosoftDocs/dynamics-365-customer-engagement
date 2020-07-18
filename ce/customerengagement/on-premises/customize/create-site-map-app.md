@@ -20,8 +20,7 @@ caps.latest.revision: 18
 topic-status: Drafting
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 
 # Create a site map for an app using the site map designer

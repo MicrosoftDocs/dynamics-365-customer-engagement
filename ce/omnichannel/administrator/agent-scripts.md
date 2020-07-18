@@ -4,7 +4,7 @@ description: "Learn about agent scripts and how to configure them in the Omnicha
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 04/06/2020
+ms.date: 07/16/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -100,7 +100,7 @@ After you configure the agent script and add the field to a form, you need to as
 
 1. Sign in to the Omnichannel Administration app.
 
-2. Under **Templates**, select **Sessions**.
+2. Under **Agent Experience**, select **Sessions**.
 
 3. Select a template from the list for which you want to associate the template. For example, select the **Chat - Default Session** template.
 

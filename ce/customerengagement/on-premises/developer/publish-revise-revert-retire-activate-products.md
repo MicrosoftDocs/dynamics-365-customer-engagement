@@ -15,8 +15,7 @@ ms.author: kvivek
 manager: annbe
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Publish, revise, revert, retire, and activate products (product lifecycle)
 

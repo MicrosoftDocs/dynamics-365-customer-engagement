@@ -16,8 +16,7 @@ ms.author: kvivek
 manager: AnnBe
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Publish your app on AppSource
 

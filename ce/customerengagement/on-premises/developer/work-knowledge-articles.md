@@ -29,8 +29,7 @@ ms.author: kvivek
 manager: annbe
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Work with knowledge articles in Dynamics 365 Customer Engagement (on-premises)
 

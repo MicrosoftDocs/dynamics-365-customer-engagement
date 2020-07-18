@@ -18,8 +18,7 @@ tags:
   - MigrationHO
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Create a new report using SQL Server Data Tools
 

@@ -18,8 +18,7 @@ ms.author: matp
 manager: brycho
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Properties dialog box
 

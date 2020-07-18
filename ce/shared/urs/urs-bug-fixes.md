@@ -1,3 +1,8 @@
+## 3.12.23.71
+
+- The issue with the filtering on the lookup type fields on the schedule board's requirement panel is fixed. 
+- When hovered on the bookings on the schedule board, the tooltip was shown instantly, which sometimes blocked the view or blocked using right-click on the bookings. This issue is now fixed by adding a hover delay. When hovered on the booking, tooltip will be displayed with a delay.
+
 ## 3.12.23.26
 
 - The rendering issue for tooltips on bookings of the schedule board is now fixed, by making the tooltip scrollable when the height of the tooltip is larger than the browser size. The hyperlinks on the tooltip can also be selected to open them in a new browser window.

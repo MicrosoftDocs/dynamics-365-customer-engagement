@@ -10,9 +10,7 @@ ms.author: "kvivek"
 manager: "annbe"
 search.audienceType: 
   - developer
-search.app: 
-  - PowerApps
-  - D365CE
+
 ---
 # msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3 Entity Reference
 

@@ -14,8 +14,7 @@ ms.topic: article
 ms.assetid: 68f68d5b-6c71-4b95-bb46-d48c59d9008e
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Quick view control properties
 

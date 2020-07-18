@@ -16,8 +16,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Create web resources and IFrame content for use with the Dynamics 365 Customer Engagement (on-premises) for mobile clients
 

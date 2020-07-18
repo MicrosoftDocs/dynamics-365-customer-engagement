@@ -17,9 +17,7 @@ ms.author: jimholtz
 manager: brycho
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Set up Dynamics 365 for Customer Engagement apps (online) to use Skype or Skype for Business
 

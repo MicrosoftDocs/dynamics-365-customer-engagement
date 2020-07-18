@@ -145,29 +145,35 @@
 ## [Analytics dashboard](scheduling-analytics-reports.md)
 ## [FAQs + troubleshooting](rso-faq.md)
 
-# Connected Field Service (IoT) add-in
+# Connected Field Service (IoT)
 ## [Overview](connected-field-service.md)
-## Connected Field Service for Azure IoT Central
-### [Overview](cfs-iot-overview.md)
-### Tutorials - Integration scenarios
-#### [Prerequisites](cfs-iot-central-setup.md)
-#### [1 - Receive IoT alerts from Azure IoT Central](cfs-iot-central-alerts.md)
-#### [2 - Associate devices with customer accounts](cfs-iot-central-associate-devices.md)
-#### [3 - Send work order updates to Azure IoT Central](cfs-iot-central-work-orders.md)
-#### [4 - Send booking updates to Azure IoT Central](cfs-iot-central-bookings.md)
-### [Receive IoT alerts from real MXChip device](cfs-iotcentral-mxchip.md)
-## Connected Field Service for Azure IoT Hub
-### [Overview](developer/connected-field-service-developer-guide.md)
+
+## Administration
 ### [Architecture](developer/connected-field-service-architecture.md)
-### [Quickstart: Build your own IoT solution](connected-field-service-overview.md)
-### [Prerequisites for Azure subscription](cfs-azure-subscription.md)
-### [Installation and setup](installation-setup-iothub.md)
+### [Security roles for Connected Field Service](cfs-security-roles.md)
 ### [Authorize API app connection](cfs-authorize-api-connection.md)
+
+## Connect your IoT data
+### [Azure IoT Central](cfs-iot-overview.md)
+#### [Prerequisites](cfs-iot-central-setup.md)
+### [Azure IoT Hub](developer/connected-field-service-developer-guide.md)
+#### [Prerequisites for Azure subscription](cfs-azure-subscription.md)
+#### [Installation and setup](installation-setup-iothub.md)
+#### [Quickstart: Build your own IoT solution](connected-field-service-overview.md)
+
+
+## Analyze
+### [Receive IoT alerts from Azure IoT Central](cfs-iot-central-alerts.md)
+### [Associate devices with customer accounts](cfs-iot-central-associate-devices.md)
 ### [Visualizing device readings](cfs-visualizations-iot-hub.md)
-### [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
+### [AI for IoT alerts](iot-alerts-ai-based-suggestions.md)
+
+## Take action
+### [Send work order updates to Azure IoT Central](cfs-iot-central-work-orders.md)
+### [Send booking updates to Azure IoT Central](cfs-iot-central-bookings.md)
+### [Receive IoT alerts from real MXChip device](cfs-iotcentral-mxchip.md)
 ### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
-## [Security roles for Connected Field Service](cfs-security-roles.md)
-## [AI for IoT alerts](iot-alerts-ai-based-suggestions.md)
+### [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
 
 # Integrations
 ## [Dynamics 365 Supply Chain Management](supply-chain-field-service-integration.md)

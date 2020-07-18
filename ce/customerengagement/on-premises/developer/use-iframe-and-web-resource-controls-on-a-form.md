@@ -13,8 +13,7 @@ ms.author: jdaly
 manager: faisalmo
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Use IFRAME and web resource controls on a form
 
