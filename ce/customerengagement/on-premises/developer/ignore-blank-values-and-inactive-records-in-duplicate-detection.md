@@ -16,8 +16,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Ignore blank values and inactive records in duplicate detection
 

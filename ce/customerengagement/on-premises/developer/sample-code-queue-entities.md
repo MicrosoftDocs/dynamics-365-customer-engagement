@@ -20,8 +20,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Sample code for queue entities
 

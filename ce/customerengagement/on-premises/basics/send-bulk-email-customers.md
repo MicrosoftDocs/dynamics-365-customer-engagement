@@ -16,8 +16,7 @@ ms.author: shujoshi
 manager: sakudes
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 ---
 # Send bulk email to customers
 

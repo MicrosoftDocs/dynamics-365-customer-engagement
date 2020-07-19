@@ -21,9 +21,7 @@ ms.author: jimholtz
 manager: brycho
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Create a team template to control access rights for automatically created teams
 

@@ -18,8 +18,7 @@ ms.tgt_pltfrm:
 caps.latest.revision: 57
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Change application navigation using the SiteMap

@@ -2,7 +2,7 @@
 title: "Add dynamic content to marketing emails (Dynamics 365 Marketing) | Microsoft Docs "
 description: "How to add field values, set up content settings information, conditional statements, and while loops to your email designs in Dynamics 365 Marketing"
 keywords: email; marketing email; dynamic content; content settings
-ms.date: 10/24/2019
+ms.date: 07/16/2020
 ms.service:
   - dynamics-365-marketing
 ms.custom: 
@@ -13,7 +13,7 @@ author: alfergus
 ms.author: alfergus
 manager: shellyha
 ms.reviewer: renwe
-topic-status: Drafting
+topic-status: 
 search.audienceType: 
   - admin
   - customizer
@@ -84,26 +84,24 @@ To use assist edit:
 
 1. Position your cursor in the field or text element where you want to insert the dynamic text, and then select the  **Assist edit**  button  ![The assist-edit button](media/button-assist-edit.png "The assist-edit button"). The assist-edit dialog opens.
 
-    ![Assist edit, page 1](media/assist-edit-p1.png "Assist edit, page 1")
+    ![Assist edit, page 1](media/assist-edit1.png "Assist edit, page 1")
 
 1. Do one of the following:
-    - Select **Contextual** to place a value that can change based on the context where you use the message, and then choose one of the following from the drop-down list here:
+    - Select **Dynamic content** to place a value that can change based on the context where you use the message, and then choose one of the following from the drop-down list here:
         - **Contact**: Places a field value, such as a first name, from the recipient's contact record. These values vary by recipient.
-        - **Content settings**: Places a field value from the content settings. Values such as a subscription center URL, forwarding URL, and the sender postal address are available here. These values can vary according to the customer journey where the message is used.
+        - **ContentSettings**: Places a field value from the content settings. Values such as a subscription center URL, forwarding URL, and the sender postal address are available here. These values can vary according to the customer journey where the message is used.
+        - **FormDoiSubmission**: Places a dynamic field for [form double opt-in](form-double-opt-in). This field does not require a relationship value, as discussed below.
         - **Message**: Places values that relate to the message itself; currently, this includes the open-as-webpage URL and the various dynamic values used in [double opt-in emails](double-opt-in.md).
-    - Select **Static** to place a fixed value from a specific record (such as the name of an upcoming event). This value is the same regardless of where you use the message or who receives it. Then make the following settings to identify the entity and record that contains the value you need:
+    - Select **Static content** to place a fixed value from a specific record (such as the name of an upcoming event). This value is the same regardless of where you use the message or who receives it. Then make the following settings to identify the entity and record that contains the value you need:
         - **Select an option** (top combo box): Select the entity (such as event or account). To search for an entity, place your cursor in this box and start to type its name until the entity you want is shown.
         - **Choose a record** (bottom drop-down list): Select the specific record by name. This list shows all records from your selected entity. As with the entity, you can also search here.
-1. At the bottom of the dialog, you now see the expression you have built so far. Select **Next** to continue.
-
-    ![Assist edit, page 2](media/assist-edit-p2.png "Assist edit, page 2")
-
 1. Now you must identify the specific field you want to place. Do one of the following:
     - Select **Related entity** to find a field from an entity that is related to the one you picked on the previous page. Then make the following settings to identify the relation and the field you want to show:
         - **Select relationship**: The relationship defines which second entity you want to hop to, and the path you will take to get there. To search for a relationship, place your cursor in this box and start to type its name until the relationship you want is shown, and then select it. For more information about how to understand the way relationships are represented here, see [the next section](#assist-edit-relations).
         - **Select field**: Choose the field name you want to show. As with the relationship, you can also search here. This drop-down list is only available if you've chosen an [N:1 relationship](#assist-edit-relations).
-    - Select **Property** to place a field directly from the entity you chose on the previous page. As with the relationship, you can also search here.
-1. At the bottom of the dialog, you now see the [final expression](#assist-edit-expressions). Select **OK** to place that expression.
+1. At the bottom of the dialog, you now see the [final expression](#assist-edit-expressions). Select **Insert** to place that expression.
+
+   ![Assist edit, page 2](media/assist-edit3.png "Assist edit, page 2")
 
 > [!IMPORTANT]
 > Field values from lookups and related tables aren't shown in the **Preview** tab of the designer, or in test sends. Likewise, [for-each loops](#for-each) aren't rendered in previews or test sends. To test your related-field expressions and/or loop functionality, set up a simple customer journey to deliver the message to yourself.

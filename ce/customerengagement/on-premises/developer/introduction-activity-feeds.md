@@ -30,8 +30,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Introduction to activity feeds
 

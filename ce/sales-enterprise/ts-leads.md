@@ -21,7 +21,7 @@ This article helps you troubleshoot and resolve issues related to the Lead entit
 - [Issue: Account or contact-related fields aren't populating on the Lead form](#account-contact-fields-not-populating)
 
 <a name="lead_qualification"> </a>
-## Lead qualification issues and resolution (sales people)
+## Lead qualification issues and resolution (salespeople)
 
 <a name="qualify_lead"> </a>
 ### How do I convert or qualify my leads?
@@ -120,9 +120,9 @@ Make sure the lead that you're trying to qualify or disqualify is open and not a
 
 **Reason:**
 
-When you qualify a lead, some of the attributes in the mapping of 1:N (one-to-many) relationships between **Lead to Contact** or **Lead to Opportunity** get copied from the Lead to Contact or Lead to Opportunity entities.
+When you qualify a lead, some of the attributes in the mapping of 1:N (one-to-many) relationships between **Lead to Contact** or **Lead to Opportunity** are copied from the Lead to Contact or Lead to Opportunity entities.
 
-Status codes are defined as an option set. This issue occurs when a user adds a new option into the option set in the Lead entity, but doesn't add the option to the option set for the target entity.
+Status codes are defined as an option set. This issue occurs when a user adds a new option to the option set in the Lead entity, but not to the option set in the target entity.
 
 For entity mapping to work, option sets&mdash;such as status codes&mdash;should be the same between lead and contact or lead and opportunity, because the lead qualification process copies the status code value from lead to contact or from lead to opportunity. If the status codes don't match, the process fails.
 
@@ -219,7 +219,7 @@ When you select an existing account or contact at the time of creating a new lea
 
 **Resolution:** 
 
-Verify that the On-load script in the Lead form has reference to 'LeadManagement/Lead/Lead_main_system_library.js' web resource. This web resource contains the script that automatically populates fields. If you've  customized the Lead form and used a web resource other than the out-of-the-box web resource, then this feature won't work. Please contact your system administrator.
+Verify that the On-load script in the Lead form has reference to 'LeadManagement/Lead/Lead_main_system_library.js' web resource. This web resource contains the script that automatically populates fields. If you've  customized the Lead form and used a web resource other than the out-of-the-box web resource, then this feature won't work. Contact your system administrator.
 
 Even if you have a custom lead form, the automatic generation of fields works if the Lead form has reference to 'LeadManagement/Lead/Lead_main_system_library.js' web resource.
 

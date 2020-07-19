@@ -76,7 +76,6 @@ This topic describes how to attach communication panel-related action calls to t
     | UpdatePresence | <ul> Omnichannel Update Presence </ul> |
     | UpdateSessionCount | <ul> Update Session Count in Dictionary </ul> |
 
-<!-- | CreateEntitySession | <ul> <li>Close Toast Notification</li> <li>Expand Right Pane</li> <li>Create Customer Session</li>  <li>Set Entity Session Property in Context</li> <li>Collapse Left Panel</li> <li>Load Case Session Agent Script</li> <li>Load Form for Entity</li> <li>Omnichannel Set Session Tab Id for Entity</li> <li>Session</li> </ul>| -->
 
 > [!div class="nextstepaction"]
 > [Next topic: Step 5: Configure window navigation rule for communication panel](communication-panel-step5-configure-window-navigation-rule.md) 

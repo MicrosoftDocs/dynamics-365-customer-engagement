@@ -14,8 +14,7 @@ ms.topic: article
 ms.assetid: 1b7e6a0c-18a9-47e2-aa7d-0cffb8c93b19
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # iFrame properties
 

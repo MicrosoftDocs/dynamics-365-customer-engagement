@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting views (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how to troubleshoot issues with entity views in Dynamics 365 Sales."
-ms.date: 04/30/2020
+ms.date: 06/30/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -204,6 +204,22 @@ To resolve this issue, follow these steps to show the header of the nested grid 
     > ![Select Show column header](media/troubleshooting-select-show-column-header.png "Select Show column header")
 
 10. Save and publish the configuration.
+
+## Issue: When I select Opportunities from the site map, I can't see opportunity records in the legacy web client while I can see them in Unified Interface <a name="default-view-not-set"></a>
+
+**Reason**
+
+Records are shown in the list based on entity views. The issue might occur when there's no public view marked as the default view for an entity.  
+
+**Resolution**
+
+Select one of the public views of the entity as default. This ensures the views are displayed as expected. To learn how to make a view as your default view, see [Specify a model-driven app default view](/powerapps/maker/model-driven-apps/specify-default-views)
+
+
+> [!NOTE]
+> If you still can't see the records, clear the browser cache and try again.
+
+
 
 ### See also
 

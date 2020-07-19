@@ -4,7 +4,7 @@ description: "Learn how to download or email chat transcripts"
 author: platkat
 ms.author: ktaylor
 manager: autumna
-ms.date: 04/06/2020
+ms.date: 07/07/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -70,9 +70,7 @@ Customers can choose to download and email a copy of their chat transcript conve
     2. Select **Send** to receive a copy of the chat transcript once the conversation ends.
     
     
-    
-    <!--from editor: Please ensure that the email address in the following image is approved for public use. -->
-    
+       
 
      > [!div class=mx-imgBorder]
      > ![Email chat transcript](../media/oc-chat-transcript-email.png "Email chat transcript")
@@ -83,7 +81,7 @@ Customers can choose to download and email a copy of their chat transcript conve
     > ![Chat transcript prompt](../media/oc-chat-transcript-prompt-screen.png "Chat transcript prompt")
 
 
-## See also
+### See also
 
 [Add a chat widget](add-chat-widget.md)<br>
 [Configure a pre-chat survey](configure-pre-chat-survey.md) <br>

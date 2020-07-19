@@ -19,8 +19,7 @@ caps.latest.revision: 19
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Sample: Retrieve absolute URL and site collection URL of a location record

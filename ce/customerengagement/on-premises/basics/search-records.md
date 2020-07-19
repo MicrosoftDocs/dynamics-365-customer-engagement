@@ -16,8 +16,7 @@ ms.author: t-mijosh
 manager: ryjones
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 ---
 # Search for records
 

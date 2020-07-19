@@ -18,8 +18,7 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Display custom icons in list views
 

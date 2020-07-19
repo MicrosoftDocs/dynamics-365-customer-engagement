@@ -1,4 +1,5 @@
 # [Help resources for Dynamics 365 Sales](help-hub.md)
+## [Set up Dynamics 365 Sales](set-up-dynamics-365-sales.md)
 ## [Overview of Sales and Sales Hub](../sales-enterprise/overview.md)
 ## [What's new](../sales-enterprise/whats-new.md)
 ## [Connect and share feedback](../sales-enterprise/connect-share-feedback.md)
@@ -78,12 +79,9 @@
 ### Upgrade or downgrade
 #### [Upgrade from Dynamics 365 Sales Professional](upgrade-sales-professional-sales-enterprise.md)
 #### [Move from Dynamics 365 Sales Enterprise to Professional](move-sales-enterprise-sales-professional.md)
-### Export forecast data
-#### [Retrieve forecast and snapshot data using msdyn_ForecastInstanceActions for GDPR](../sales-enterprise/developer/reference/entities/export-forecast-data.md)
-
 
 ## User Guide
-### [Help resources for sales people](../sales-enterprise/user-guide.md)
+### [Help resources for salespeople](../sales-enterprise/user-guide.md)
 ### [Learn the basics](user-guide-learn-basics.md)
 ### [Gain insights with dashboards](dashboards.md)
 ### [Understand the sales pipeline chart and its phases](sales-pipeline-chart.md)
@@ -156,11 +154,11 @@
 ### [Troubleshooting orders](ts-orders.md)
 ### [Troubleshooting products](ts-products.md)
 ### [Troubleshooting common entities](ts-oqoi.md)
+### [Troubleshooting currency and price list](ts-currency-pricelist.md)
 ### [Troubleshooting views](ts-views.md)
 ### [Troubleshooting forecasts](ts-forecasts.md)
 ### [Troubleshooting the Unified Interface](ts-unified-interface.md)
 ### [Troubleshooting the sales pipeline chart](ts-sales-pipeline.md)
-### [Troubleshooting LinkedIn integration errors](ts-linkedin-integration.md)
 ### [FAQs](faqs-sales.md)
 
 ## Integrations
@@ -173,11 +171,12 @@
 ### [Enable sales order processing integration](../sales-enterprise/developer/enable-sales-order-processing-integration.md)
 ### Forecasting
 #### [msdyn_ForecastInstanceActions](../sales-enterprise/developer/reference/entities/export-forecast-data.md)
+#### [msdyn_ForecastApi](../sales-enterprise/developer/reference/custom-actions/msdyn_ForecastApi.md)
 ### Troubleshooting
 #### [Custom plugin handling through shared variable](../sales-enterprise/developer/custom-plugin-handling-shared-variable.md)
 ### Custom actions
 #### [Overview](../sales-enterprise/developer/reference/custom-actions-manual-forecasting.md)
-#### [msdyn_ForecastApi](../sales-enterprise/developer/reference/custom-actions/msdyn_ForecastApi.md)
+#### [DeleteOQOILineWithSkipPricingCalculation](../sales-enterprise/developer/reference/custom-actions/deleteoqoilinewithskippricingcalculation.md)
 
 ### Playbooks
 #### [Entity reference](../sales-enterprise/developer/reference/playbook-entity-reference.md)

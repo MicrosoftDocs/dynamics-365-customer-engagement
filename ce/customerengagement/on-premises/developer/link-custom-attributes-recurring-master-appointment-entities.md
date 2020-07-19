@@ -23,8 +23,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Link custom attributes of the recurring appointment master and appointment entities
 

@@ -16,8 +16,7 @@ ms.author: mkaur
 manager: kvivek
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 ---
 # Stay up-to-date with customer news with the activity feed
 

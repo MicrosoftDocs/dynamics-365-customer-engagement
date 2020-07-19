@@ -1,10 +1,10 @@
 ---
-title: Contracts to entitlements migration strategy | Microsoft Docs
+title: Strategy for migrating from contracts to entitlements migration strategy | Microsoft Docs
 description: Learn more about contract to entitlement migration for Dynamics 365 Customer Service.
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/08/2020
+ms.date: 07/10/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -19,15 +19,15 @@ search.app:
   - D365CS
 ---
 
-# Contracts to entitlements migration strategy
+# Strategy for migrating from contracts to entitlements
 
-This document contains information about settings that admins should take care of when migrating contract records to entitlements. This migration support information will help customers prepare for the deprecation of the following:
+This document contains information about the settings that admins should manage when migrating contract records to entitlements. This migration support information will help customers prepare for the deprecation of the following:
 
 - Contracts
 - Contract line items
 - Contract templates
 
-## Migration planning
+## Plan the migration
 
 The process of migrating contracts to entitlements is as follows:
 
@@ -44,12 +44,14 @@ For feature parity, perform the tasks mentioned in the following sections to map
 The allotment type based on coverage dates in the contracts template, which allows to create any number of cases between the start date and end date of a contract, isn't available in the entitlements template. To enable the same functionality, in the entitlement template, set the value for **Restrict based on entitlements terms** to **No**.
 
 A screenshot of the allotment type in the contract template is as follows.
-  [!div class=mx-imgBorder]
-  ![Allotment Type](media/contract-and-entitlement-allocation-type-1.png "Allotment Type")
+
+
+> ![Allotment Type](media/contract-and-entitlement-allocation-type-1.png "Allotment Type")
 
 A screenshot of the entitlement template is as follows.
-  [!div class=mx-imgBorder]
-  ![Entitlement template based on "No restriction"](media/entitlement-template-sample.png  "Entitlement template based on No restriction")
+
+
+> ![Entitlement template based on "No restriction"](media/entitlement-template-sample.png  "Entitlement template based on No restriction")
 
 After an entitlement is created from the entitlement template, add custom code to copy the custom fields added on entitlement for parity with contract lines.
 
@@ -88,7 +90,7 @@ If you've a contract tied to a single product, follow these steps:
 1. Create an entitlement.
 2. Add only one product in the **PRODUCTS** grid.
 
-  ![Single product contract](media/single-product-contract.png "Single product contract")
+> ![Single product contract](media/single-product-contract.png "Single product contract")
 
 > [!Note]
 > The concept of grouping contract lines for a contract isn't available in entitlements. You need to create separate entitlements for every contract line.
@@ -111,7 +113,7 @@ An entitlement can be canceled only immediately; you can't set a date to cancel 
 
 #### Billing unit in contracts
 
-Billing unit isn't available in entitlements. To achieve this capability in entitlement, use custom logic.
+Billing unit isn't available in entitlements. To achieve this capability in entitlements, use custom logic.
 
 For simple rollups, use rollup fields. For more information, see [rollup fields](/dynamics365/customerengagement/on-premises/customize/define-rollup-fields).
 

@@ -19,8 +19,7 @@ caps.latest.revision: 20
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Sample: Install or remove sample data

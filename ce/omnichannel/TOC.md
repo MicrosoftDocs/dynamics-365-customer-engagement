@@ -92,6 +92,7 @@
 #### [Create quick replies](administrator/create-quick-replies.md)
 #### [Configure and manage custom presence](administrator/presence-custom-presence.md)
 #### [Share knowledge articles](administrator/knowledge-management-oc.md)
+#### [Enable missed notifications](administrator/manage-missed-notifications.md)
 #### Templates
 ##### [Overview](administrator/templates-overview.md)
 ##### [Manage session templates](administrator/session-templates.md)
@@ -104,7 +105,7 @@
 #### [Configure to view Intraday insights](administrator/configure-intraday-dashboard-supervisor.md)
 #### [Customize KPIs for Intraday insights](administrator/customize-kpis-intraday-insights.md)
 #### [Provide access to Ongoing Conversations dashboard](administrator/configure-ongoing-conversations-dashbaord.md)
-<!--#### [Enable supervisors to monitor and assign conversations](administrator/configure-ongoing-conversations-settings.md)-->
+
 #### [Analyze real-time customer sentiment](administrator/enable-sentiment-analysis.md)
 #### [Configure Omnichannel Insights dashboards](administrator/configure-historical-sentiment-dashboard-supervisor.md)
 
@@ -174,7 +175,6 @@
 #### [View and understand Omnichannel intraday insights](supervisor/intraday-insights-dashboard.md)
 #### [View and understand Omnichannel Ongoing Conversations dashboard](supervisor/ongoing-conversations-dashboard.md)
 
-<!--#### [Assign conversations](supervisor/assign-conversations.md)-->
 ### Introduction to Omnichannel Insights
 #### [Introduction to Omnichannel Insights](supervisor/intro-dynamics-365-omnichannel-insights-dashboard.md)
 #### [View and understand Omnichannel Insights dashboards](supervisor/omnichannel-insights-dashboard.md)
@@ -256,6 +256,7 @@
 
 ## Developer guide
 ### [Overview](developer/omnichannel-developer.md)
+### [Extend Omnichannel for Customer Service](developer/extend-omnichannel.md)
 ### How to
 #### [Manage custom context](developer/how-to/send-context-starting-chat.md)
 #### [Display custom context](developer/how-to/display-custom-context.md)
@@ -267,7 +268,9 @@
 #### Smart assist bot
 ##### [Build a smart assist bot](developer/how-to/smart-assist-bot.md)
 ##### [Implement custom scenario](developer/how-to/smart-assist-scenario.md)
-#### [Bring your own channel](developer/how-to/bring-your-own-channel.md)
+#### Bring your own custom messaging channel
+##### [Bring your own custom messaging channel: Direct Line Bot](developer/how-to/bring-your-own-channel.md)
+##### [Test the custom messaging channel](developer/how-to/bring-your-own-channel-sample-html.md)
 #### [Customize chat widget](developer/how-to/customize-chat-widget.md)
 #### [Enable third-party co-browse](developer/how-to/third-party-co-browse.md)
 ### [Live chat widget telemetry](developer/live-chat-telemetry.md)
