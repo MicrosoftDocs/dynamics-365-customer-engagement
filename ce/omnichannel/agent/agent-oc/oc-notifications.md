@@ -14,7 +14,7 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-A notification is a visual alert that appears each time you get a chat or SMS conversation request from a customer. When you get a notification, you see the details about the customer with whom you're going to interact. When you accept the request, a session is started, and you can view the contextual information of the customer and case on the customer summary page. If automatic assignment of conversations is enabled in the configuration settings for notifications, notifications will not display options to accept or reject and conversations will be assigned automatically.
+A notification is a visual alert that appears each time you get a chat or SMS conversation request from a customer. When you get a notification, you see the details about the customer with whom you're going to interact. When you accept the request, a session is started, and you can view the contextual information of the customer and case on the customer summary page.
 
 Some of the scenarios where you might receive notifications:
 
@@ -62,9 +62,9 @@ To get desktop notifications, you need to allow your browser (Microsoft Edge or 
 
 There are two types of notifications:
 
-- **Toast notifications:** A toast notification or floating notification is a notification message type where you receive information in a dialog, which disappears after a stipulated time. This type notifications appear for conversation (work item) assignments, conversation escalations, and conversation transfer scenarios and so on.
+- **Toast notifications:** A toast notification or floating notification is a notification message type where you receive information in a dialog, which disappears after a stipulated time. This type of notifications appear for conversation (work item) assignments, conversation escalations, and conversation transfer scenarios.
 
-- **Alert notifications:** An alert notification is a type of notification where a dialog appears with actionable buttons. When you select the **Accept** button, a screen pops up with Customer summary details. You need to take an action within the stipulated time and the notification disappears when the time is up.
+- **Alert notifications:** An alert notification is a type of notification where a dialog appears with actionable buttons. When you select the **Accept** button, a screen pops up with the customer summary details. You need to take an action within the stipulated time and the notification disappears when the time is up.
 
 ## Incoming chat notification
 
