@@ -28,6 +28,7 @@ This topic mentions the cards and suggested actions that are supported by variou
 ## Suggested actions supported by various channels
 
 |Channel|Suggested actions|
+|----|----|
 |Microsoft Teams|Not supported|
 |Facebook|Supported|
 |Line|Supported|
