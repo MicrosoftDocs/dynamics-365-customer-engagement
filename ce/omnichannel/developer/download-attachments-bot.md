@@ -4,7 +4,7 @@ description: "Read about the various cards and attachments supported by various 
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 07/18/2020
+ms.date: 07/21/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: reference
