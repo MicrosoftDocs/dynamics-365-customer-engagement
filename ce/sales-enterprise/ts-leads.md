@@ -177,7 +177,7 @@ This is by design. When you haven't qualified the record, there will be no oppor
 
 **Resolution:**
  
-To resolve this issue, you you must qualify the lead. Qualifying the lead automatically moves the lead to next stage (creating an opportunity). 
+To resolve this issue, you must qualify the lead. Qualifying the lead automatically moves the lead to next stage (creating an opportunity). 
 
 
 
