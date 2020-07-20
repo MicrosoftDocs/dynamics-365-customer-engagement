@@ -264,6 +264,7 @@
 #### [Auto-close a conversation](developer/auto-close-conversation.md)
 #### [Render live chat widget on mobile app](developer/how-to/render-live-chat-widget-mobile.md)
 #### [Add a web resource for real-time translation](developer/how-to/add-web-resource-real-time-translation.md)
+#### [Download attachments from your Azure bot](developer/download-attachments-bot.md)
 #### Smart assist bot
 ##### [Build a smart assist bot](developer/how-to/smart-assist-bot.md)
 ##### [Implement custom scenario](developer/how-to/smart-assist-scenario.md)
@@ -272,7 +273,6 @@
 ##### [Test the custom messaging channel](developer/how-to/bring-your-own-channel-sample-html.md)
 #### [Customize chat widget](developer/how-to/customize-chat-widget.md)
 #### [Enable third-party co-browse](developer/how-to/third-party-co-browse.md)
-### [Download attachments from your Azure bot](developer/download-attachments-bot.md)
 ### [Live chat widget telemetry](developer/live-chat-telemetry.md)
 ### Entity reference
 #### [Overview](developer/reference/entities/overview.md)
