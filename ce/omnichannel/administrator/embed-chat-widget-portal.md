@@ -61,6 +61,8 @@ After the chat widget is configured, it has the following capabilities:
     > [!div class=mx-imgBorder]
     > ![System events in the chat widget](../media/chat-widget-system-events.png "System events in the chat widget")
 
+- **Keyboard shortcut**: During the chat session, the customer can press **Ctrl+/** to return the cursor to the message send box from elsewhere on the page. 
+
 - **Pre-chat survey**: If a survey has been configured by an admin, it's shown to the user before the conversation is started. This survey also helps the user connect to an appropriate agent.
 
     > [!div class=mx-imgBorder]
