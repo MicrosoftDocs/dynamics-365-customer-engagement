@@ -43,7 +43,7 @@ Admin can plan their migration, as well as:
 - Admin permissions 
 - Other roles (super users) (TBD)
 
-## Working with Rules 
+### Working with Rules 
 
 Before running the migration tool, it is important to understand and familiarize yourself with how rules work first in the Customer Service Hub app. 
 
@@ -66,11 +66,10 @@ The following edits to a rule will not be considered if:
 
 ## Accessing the Migration Tool
 
-There are multiple ways an Admin can access the Migration Tool in the Customer Service Hub app. Starting from the left navigation pane, Admins can access the Migration Tool from the following locations: 
+There are multiple ways an Admin can access the Migration Tool in the Customer Service Hub app. Starting from the left navigation pane, Admins can access the Migration Tool from the following locations under **Data management**, select **Migration Tool**.
 
-- **Option 1:** Under Data management, select Migration Tool.
-- **Option 2:** Under Case Settings, select Automatic record creation. In yellow message bar, select migration tool.  
-- **Option 3:** Under Service Terms, select Service-level agreement. In yellow message bar, select migration tool. 
+<!-- **Option 2:** Under Case Settings, select Automatic record creation. In yellow message bar, select migration tool.  
+- **Option 3:** Under Service Terms, select Service-level agreement. In yellow message bar, select migration tool. -->
 
 > ![Access Migration Tool](media\migration-tool-access-location-1.png "Migration tool access locations")
 > ![Access Migration Tool](media\migration-tool-access-location-2.png "Migration tool access locations")
@@ -259,7 +258,7 @@ When you activate new rules for either Automatic Record Creation or Service Leve
 
 > ![Migration Tool for first time user - Step 6 Activate New Rules](media\migration-tool-step-6-first-time-users-2.png "Migration Tool for first time user - Step 6 Activate New Rules")
 
-If you have any rules listed as **Incomplete** in the **Migration** status, they will need to be reviewed. When you click on the *Rule** name go to **Advanced** section to the **Migration detail** section:
+If you have any rules listed as **Incomplete** in the **Migration** status, they will need to be reviewed. When you click on the **Rule** name go to **Advanced** section to the **Migration detail** section:
 
 1.	**Mark as complete** appears after migration in the **Migration details** section. Once you review the rule allows you to confirm the rule is good to go and run the rule through migration again in an attempt to complete the migration successfully. This serves as a confirmation that the Admin has reviewed this rule and it is ready to be migrated.    
 2.	After moving **Mark as complete** to **Yes**, your rule **Migration status** will display as **Migrated**.
