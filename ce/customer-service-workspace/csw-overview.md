@@ -1,5 +1,5 @@
 ---
-title: Understanding Knowledge Management in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
+title: Overview of the Customer Service Workspace application for Dynamics 365 Customer Service | Microsoft Docs
 description: Overview of the Customer Service Workspace application for Dynamics 365 Customer Service
 author: lalexms
 ms.author: lalexms
