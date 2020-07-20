@@ -4,7 +4,7 @@ description: "Instructions for enabling auto-assign of conversations in Omnichan
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/03/2020
+ms.date: 08/01/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -21,7 +21,7 @@ ms.topic: article
 Some customer conversation requests, such as those coming from a Facebook or an SMS channel, might not need an immediate response because of a longer service-level agreement (SLA). For such requests, you can enable the auto-assign option in notification templates. When an incoming notification appears, the conversation is assigned to the agent automatically, either instantly or after the timeout period elapses.
 
 > [!IMPORTANT]
-> The auto-assign feature is not available in Omnichannel for Customer Service on Unified Service Desk.
+> The auto-assign feature is not supported in Omnichannel for Customer Service on Unified Service Desk.
 
 ## Enable conversations to be assigned automatically
 
