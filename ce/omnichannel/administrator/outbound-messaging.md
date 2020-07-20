@@ -25,24 +25,28 @@ ms.topic: article
 
 Outbound messaging enables organizations to dynamically send messages to their customers based on certain events through supported channels. In this preview, Omnichannel for Customer Service supports the sending of outbound messages through the SMS channel only.
 
-For example, agents can notify customers about the status of their case. This feature includes the following capabilities:
+With outbound messaging, organizations can do the following:
 
 - Create message templates that can be adopted for outbound messages.
 - Configure outbound messages based on certain events on any entity and send the messages when those events are triggered.
+
+Organizations can send messages to customers automatically based on a system event, such as case creation. Organizations also can send notices to customers based on non-system events such as a shipping delays due to weather. 
 
 When the customer responds back to the outbound messages, the customer messages will be treated like any other incoming conversation that exists today in Omnichannel for Customer Service. The conversation will be routed and assigned to an agent, and the agent will be able to respond back to the customer.
 
 ## Prerequisites
 
-Make sure that the following prerequisites are met:
+Before you configure outbound messaging, make sure that the following prerequisites are met:
 
 - You must have the SMS channel provisioned in your environment. For information, see [Provision Omnichannel for Customer Service](omnichannel-provision-license.md).
 - You must configure the SMS channel using an account with an SMS provider, either Twilio or Telesign. 
+- You must have a Power Automate account.
 
 After completing the prerequisites, you can send outbound messages from your organization by following these steps:
 
-1. Set up message templates
-2. Set up outbound configuration
+1. Set up message templates.
+2. Set up outbound configuration.
+3. Set up a Power Automate flow.
 
 ## Step 1: Set up message templates
 
@@ -69,27 +73,21 @@ The **Configuration ID** will be generated when you click **Save**. You will use
 
 The **Conversation record** is set to automatically create a conversation in Omnichannel for Customer Service when a customer responds to the outbound message. This field cannot be modified.
 
-## Step 3: 
+Set **Show in timeline** to **Yes** for event-based messages that apply to the support journey of a specific set of customers. For bulk messages that will be sent to a high volume of customers, it is recommended to leave this setting at **No** in order to conserve resources in your Omnichannel environment and storage. 
 
-1. In Omnichannel Administration under **Channels**, select **Teams**. The **New Teams Channel** page appears.
+## Step 3: Set up a Power Automate flow
 
-2. In **Step 1: Account details**, enter the following details:
+Power Automate provides a low code platform for workflow and process automation. 
 
-   - **Name:** Specify a name for the channel.
-   - **Owner:** Accept the default value, or specify a different value.
+1. Go to https://us.flow.microsoft.com/en-us/ 
 
-3. In **Step 2: Work distribution**, select the out-of-the-box work stream for Teams. Alternatively, you can create a [work stream](work-streams-introduction.md) for Teams and associate it with the Teams channel.
+2. Set up an automated or instant flow.
 
-4. Select **Save**. The Teams channel is saved.
+    - **Automated:** Send an automatic message triggered by a system event, for example, case creation.
 
-5. In **Step 3: Callback information**, copy the value that's displayed in **Bot ID**.
-
-    > [!div class=mx-imgBorder]
-    > ![Img desc](../media/teams-channel.png "Img desc")
-
-
-
-
+    - **Instant:** Send a message manually about a non-system event, for example, a shipping delay or a sale on products.
+    
+When the customer responds back to the outbound messages, the customer messages will be treated like any other incoming conversation that exists today in Omnichannel for Customer Service. The conversation will be routed and assigned to an agent, and the agent will be able to respond back to the customer.
 
 ### See also
 
