@@ -44,9 +44,9 @@ Before you configure outbound messaging, make sure that the following prerequisi
 
 After completing the prerequisites, you can send outbound messages from your organization by following these steps:
 
-1. Set up message templates.
-2. Set up outbound configuration.
-3. Set up a Power Automate flow.
+1. [Set up message templates](#step-1-set-up-message-templates)
+2. [Set up outbound configuration](#step-2-set-up-outbound-configuration)
+3. [Set up a Power Automate flow](#step-3-set-up-a-power-automate-flow)
 
 ## Step 1: Set up message templates
 
@@ -69,11 +69,11 @@ After completing the prerequisites, you can send outbound messages from your org
     | Language            | English                              |
     | Message template    | (your previously created template)   |
 
-The **Configuration ID** will be generated when you click **Save**. You will use this later to identify this outbound message when you set up the Flow.
+    The **Configuration ID** will be generated when you click **Save**. You will use this later to identify this outbound message when you set up the flow in Power Automate.
 
-The **Conversation record** is set to automatically create a conversation in Omnichannel for Customer Service when a customer responds to the outbound message. This field cannot be modified.
+    The **Conversation record** is set to automatically create a conversation in Omnichannel for Customer Service when a customer responds to the outbound message. This field cannot be modified.
 
-Set **Show in timeline** to **Yes** for event-based messages that apply to the support journey of a specific set of customers. For bulk messages that will be sent to a high volume of customers, it is recommended to leave this setting at **No** in order to conserve resources in your Omnichannel environment and storage. 
+    Set **Show in timeline** to **Yes** for event-based messages that apply to the support journey of a specific set of customers. For bulk messages that will be sent to a high volume of customers, it is recommended to leave this setting at **No** in order to conserve resources in your Omnichannel environment and storage. 
 
 ## Step 3: Set up a Power Automate flow
 
