@@ -4,7 +4,7 @@ description: "Learn about managing notifications that are missed in Omnichannel 
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/16/2020
+ms.date: 07/20/2020
 ms.service:
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -20,7 +20,7 @@ With the missed notifications feature, you can now choose to automatically set a
 
 > [!IMPORTANT]
 > - Missed notifications won't work if "Away" is included as an allowed presence for work streams. More information: [Understand and create work streams](work-streams-introduction.md)
-> - Missed notifications is not available in Omnichannel for Customer Service on Unified Service Desk.
+> - Missed notifications is not supported in Omnichannel for Customer Service on Unified Service Desk.
 
 ## Enable automatic update of agent presence when a notification is missed
 
