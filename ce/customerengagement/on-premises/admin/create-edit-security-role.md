@@ -17,9 +17,7 @@ ms.author: matp
 manager: brycho
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Create or edit a security role to manage access
 

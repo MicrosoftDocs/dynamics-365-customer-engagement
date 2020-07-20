@@ -17,8 +17,7 @@ tags:
   - MigrationHO
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Work with reports
 

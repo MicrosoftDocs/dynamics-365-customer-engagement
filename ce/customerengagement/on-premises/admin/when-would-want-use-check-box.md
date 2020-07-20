@@ -17,9 +17,7 @@ ms.author: jimholtz
 manager: brycho
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # When would I want to use this check box?
 

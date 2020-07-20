@@ -19,8 +19,7 @@ caps.latest.revision: 5
 topic-status: Editing
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 ---
 
 # Use OneNote in Dynamics 365 Customer Engagement (on-premises)

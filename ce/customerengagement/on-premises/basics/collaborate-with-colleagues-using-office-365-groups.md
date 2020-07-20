@@ -16,8 +16,7 @@ ms.author: mkaur
 manager: kvivek
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 ---
 # Collaborate with your colleagues using Office 365 Groups
 

@@ -1,5 +1,5 @@
 ---
-title: "Sample: Create, retrieve, update, and delete an email attachment| MicrosoftDocs"
+title: "Sample: Create, retrieve, update, and delete an email attachment| Microsoft Docs"
 description: "This sample shows how to create, retrieve, update, and delete email attachments using methods such as IOrganizationService.Entity, IOrganizationService.ColumnSet, IOrganizationService.Entity, IOrganizationService.Guid"
 ms.custom: 
 ms.date: 10/31/2017
@@ -15,13 +15,12 @@ helpviewer_keywords:
   - activity entities samples, creating; retrieving; updating; and deleting email attachments
 ms.assetid: 918c0b7e-2850-40c5-8333-5dad6d83b850
 caps.latest.revision: 22
-author: JimDaly
+author: Nkrb
 ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Sample: Create, retrieve, update, and delete an email attachment
 
@@ -32,7 +31,7 @@ This sample shows how to create, retrieve, update, and delete email attachments 
 - [IOrganizationService.Update](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iorganizationservice.update?view=dynamics-general-ce-9)
 - [IOrganizationService.Delete](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iorganizationservice.delete?view=dynamics-general-ce-9)
 
-You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/CRUDEmailAttachements).
+You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/CRUDEmailAttachments).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 
@@ -56,7 +55,7 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 ### Demonstrate
 
 1. The `ActivityMimeAttachment` method creates three email attachments. 
-1. The `Retrieve` method retrieves an attachment including its id, subject, filename and body.
+1. The `Retrieve` method retrieves an attachment including its ID, subject, filename, and body.
 1. The `Update` method updates the filename of the existing attachment.
 
 

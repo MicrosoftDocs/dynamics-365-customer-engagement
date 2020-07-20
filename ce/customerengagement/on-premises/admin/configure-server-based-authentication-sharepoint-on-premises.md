@@ -17,9 +17,7 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Configure server-based authentication with Dynamics 365 for Customer Engagement apps (online) and SharePoint on-premises
 

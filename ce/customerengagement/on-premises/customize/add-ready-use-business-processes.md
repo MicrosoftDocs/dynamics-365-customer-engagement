@@ -16,8 +16,7 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Add ready-to-use business processes for common scenarios
 

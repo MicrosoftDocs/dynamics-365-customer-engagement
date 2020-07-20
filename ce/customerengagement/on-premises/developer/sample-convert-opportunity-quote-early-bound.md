@@ -22,8 +22,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Sample: Convert an opportunity to a quote (early bound)
 

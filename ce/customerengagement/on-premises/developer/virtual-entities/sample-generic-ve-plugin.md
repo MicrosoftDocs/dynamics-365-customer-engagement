@@ -16,8 +16,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Sample: Generic virtual entity data provider plug-in
