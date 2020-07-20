@@ -2,7 +2,7 @@
 title: "Resource scheduling optimization version history | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 04/20/2020
+ms.date: 07/20/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -27,6 +27,12 @@ search.app:
 ---
 
 # Resource scheduling optimization version history
+
+## 3.1.3.17
+
+- Fixed bug where 'Created On' field in optimization panel of RSO optimization schedule board does not respect date format of user setting. 
+- Fixed issue where Optimization request status was not set correctly when RSO is run as a simulation. 
+
 
 ## 3.0.19316.2
 
