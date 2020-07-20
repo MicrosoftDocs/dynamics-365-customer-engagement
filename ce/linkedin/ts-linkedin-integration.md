@@ -49,11 +49,11 @@ You're unable to upgrade the **LinkedInSalesNavigatorForUnifiedClient** solution
 
 To resolve this issue, you must remove the existing dependencies for the **LinkedInSalesNavigatorForUnifiedClient** solution. Follow these steps: 
 
-1. For the current **LinkedInSalesNavigatorForUnifiedClient** solution, remove the dependencies and uninstall the solution<!--Edit okay? If not, what do you uninstall here?-->. For more information, see step 4 in [Uninstall LinkedIn Sales Navigator](uninstall-sales-navigator.md).
+1. For the current **LinkedInSalesNavigatorForUnifiedClient** solution, remove the dependencies and uninstall the solution. For more information, see step 4 in [Uninstall LinkedIn Sales Navigator](uninstall-sales-navigator.md).
 
 2. Uninstall the **msdyn_LinkedInSalesNavigatorAnchor** solution. 
 
-3. After the solutions are successfully deleted, install them again<!--Is this what's happening here?-->. More information: [Install and enable LinkedIn Sales Navigator](install-sales-navigator.md)
+3. After the solutions are successfully deleted, install them again. More information: [Install and enable LinkedIn Sales Navigator](install-sales-navigator.md)
 
 ### See also
 

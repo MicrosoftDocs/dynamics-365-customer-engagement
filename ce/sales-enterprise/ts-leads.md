@@ -240,7 +240,7 @@ Even if you have a custom lead form, the automatic generation of fields works if
 <a name="website-address-fields-not-populating"> </a>
 ### Issue: Unable to autopopulate Website and Address fields on the Lead form.
 
-**Reoslution:**
+**Resolution:**
 
 This is by design. In the lead form, after selecting the existing account, only Company Name is autopopulated.
 

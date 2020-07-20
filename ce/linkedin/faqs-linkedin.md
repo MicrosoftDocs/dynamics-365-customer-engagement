@@ -22,7 +22,7 @@ Currently, we don't support syncing or loading contact profile pictures from Lin
 
 **Answer:** 
 
-Removing or adding fields from the **Contact Details** pane isn't supported. <!-- I don't think you need to supply this link when all it says is the same thing you just said; there really isn't any more information here. More information: [Embedded LinkedIn Sales Navigator control](https://docs.microsoft.com/dynamics365/sales-enterprise/live-org-chart#embedded--sales-navigator-control)-->
+Removing or adding fields from the **Contact Details** pane isn't supported.
 
 **Can I import leads or accounts into Dynamics 365 Sales through CRM Sync?**
 
