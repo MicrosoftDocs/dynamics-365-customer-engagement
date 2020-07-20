@@ -22,6 +22,9 @@ The real-time message translation feature allows agents to support customers in 
 
 All the languages that are supported in Omnichannel for Customer Service are supported in the conversations. For the list of supported languages, see [Language availability](../international-availability.md).
 
+> [!Important]
+> The language translation feature is not available in Omnichannel for Customer Service on Unified Service Desk.
+
 ## Prerequisites
 
 You must add a web resource and make sure that the required language translation services are configured. More information: [Add a web resource for real-time translation](../developer/how-to/add-web-resource-real-time-translation.md).
