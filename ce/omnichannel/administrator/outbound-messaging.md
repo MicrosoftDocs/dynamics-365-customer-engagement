@@ -67,7 +67,7 @@ After completing the prerequisites, you can send outbound messages from your org
 | Channel type        | SMS                                  |
 | Channel             | For SMS, the 10-digit SMS number     |
 | Language            | English                              |
-| Message template    | <your previously created template>   |
+| Message template    | (your previously created template)   |
 
 The **Configuration ID** will be generated when you click **Save**. You will use this later to identify this outbound message when you set up the Flow.
 
@@ -91,7 +91,7 @@ When the customer responds back to the outbound messages, the customer messages 
 
 ### See also
 
-[Channels in Omnichannel for Customer Service](channels.md)  
-[Configure an SMS channel for TeleSign](configure-sms-channel.md)
-[Configure an SMS channel for Twilio](configure-sms-channel-twilio.md)
+[Channels in Omnichannel for Customer Service](channels.md) <br> 
+[Configure an SMS channel for TeleSign](configure-sms-channel.md)<br>
+[Configure an SMS channel for Twilio](configure-sms-channel-twilio.md)<br>
 [SMS FAQ](../faqs.md#sms)
