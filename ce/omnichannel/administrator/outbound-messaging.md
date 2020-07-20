@@ -60,14 +60,14 @@ After completing the prerequisites, you can send outbound messages from your org
 
 2. Complete the following fields:
 
-| Field               | Sample value                         |
-|---------------------|--------------------------------------|
-| Name                | Case create message                  |
-| Show in timeline    | Yes                                  |
-| Channel type        | SMS                                  |
-| Channel             | For SMS, the 10-digit SMS number     |
-| Language            | English                              |
-| Message template    | (your previously created template)   |
+  | Field               | Sample value                         |
+  |---------------------|--------------------------------------|
+  | Name                | Case create message                  |
+  | Show in timeline    | Yes                                  |
+  | Channel type        | SMS                                  |
+  | Channel             | For SMS, the 10-digit SMS number     |
+  | Language            | English                              |
+  | Message template    | (your previously created template)   |
 
 The **Configuration ID** will be generated when you click **Save**. You will use this later to identify this outbound message when you set up the Flow.
 
