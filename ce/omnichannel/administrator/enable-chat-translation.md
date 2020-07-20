@@ -20,7 +20,7 @@ ms.topic: article
 
 The real-time message translation feature allows agents to support customers in a language they elect to be serviced in. When you enable language translation in the Omnichannel Administration app, messages between the customer and support agent and messages among the support agents, such as supervisors or SMEs, who consult and collaborate internally, are translated. The real-time translation feature is enabled as a plug-in that exposes APIs to bring in third-party translation services and also provides a native implementation.
 
-All the languages that are supported in Omnichannel for Customer Service are supported in the conversations. For the list of supported languages, see [Language availability](../international-availability.md).
+All the languages that are supported in Omnichannel for Customer Service are supported for the agent in the conversations. For the list of supported languages, see [Language availability](../international-availability.md).
 
 > [!Important]
 > The language translation feature is not available in Omnichannel for Customer Service on Unified Service Desk.
