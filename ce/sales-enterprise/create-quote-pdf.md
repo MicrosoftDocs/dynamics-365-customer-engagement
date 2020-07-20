@@ -19,8 +19,7 @@ If you opt in for the 2020 wave 2 release, apart from the entities listed earlie
 Your system administrator can choose the entities for which PDF generation is enabled. If PDF generation isn't enabled, you won't see the option to create a PDF file. 
 
 > [!IMPORTANT]
-> - The PDF generation capability for additional entities (entities other than Quote) is released with Dynamics 365 Sales (Sales Hub) app version: 9.0.1911.1009, as part of the weekly release of the product to individual geographies.
-> - With the August 2020 early access release, the PDF generation capability is extended to support all the out-of-the-box entities and custom entities that support Document templates.
+> With the August 2020 early access release, the PDF generation capability is extended to support all the out-of-the-box entities and custom entities that support Document templates. The PDF enhancements (custom entity support and usability enhancements) are limited to only Web experience and aren't available in the mobile app. If you haven't opted in or are using Sales Hub on a mobile app, you'll see the old experience.
 
 ## Steps for creating a PDF file (if you've opted in for 2020 wave 2 release)
 
@@ -56,14 +55,10 @@ Your system administrator can choose the entities for which PDF generation is en
     > [!NOTE]
     > The Regarding field isn't populated if the 'Sending email' flag in the primary entity isn't enabled in the Customization area. For more information about this flag, see **Sending email** in the **Entity options that can only be enabled** section of [Edit an entity](/powerapps/maker/common-data-service/edit-entities#change-the-name-of-an-entity). 
 
-7. To save the PDF file to a SharePoint site, select the **Save to SharePoint** button. This button is available when SharePoint integration is enabled for your organization and the **Document Management** check box is selected on the entity page in the Customization area. For more information about the Document Management check box, see [Enable or disable entity options](/powerapps/maker/common-data-service/edit-entities#enable-or-disable-entity-options)
+7. To save the PDF file to a SharePoint site, select the **Save to SharePoint** button. This button is available when SharePoint integration is enabled for your organization and the **Document Management** check box is selected on the entity page in the Customization area. If you don't see this button, contact your system administrator. 
 
-8. To save the PDF file as a note to the primary record, select the **Save to Dynamics** button. This button is available if Notes is enabled for the primary entity. If you don't see the **Save to Dynamics** button, check whether the **Notes (includes Attachment)** check box is selected on the entity page in the Customization area. By default, notes is enabled on all out-of-the-box entities. For more information on the Notes check box, see **Notes** in the **Entity options that can only be enabled** section of [Edit an entity](/powerapps/maker/common-data-service/edit-entities#change-the-name-of-an-entity) 
+8. To save the PDF file as a note to the primary record, select the **Save to Dynamics** button. This button is available if Notes is enabled for the primary entity. If you don't see this button, contact your system administrator.  
  
-> [!NOTE]
-> The enhanced PDF capabilities available with the 2020 wave 2 release aren't supported on mobile devices. 
-
-
 ## Steps for creating a PDF file (if you haven't opted in for 2020 wave 2 features)
 
 If you haven't opted in for the 2020 wave 2 features or if you're a using Sales Hub app on the mobile app, the capability for generating PDF is limited to the following entities: Account, Contact, Lead, Opportunity, Order, Quote, and Invoice. 
@@ -127,7 +122,7 @@ Here are some FAQs related to the PDF generation capability:
 **Answer:** With the 2020 wave 2 release, you can choose to save the PDF file to the Sales app as notes or to SharePoint. However, if you haven't opted in for the 2020 wave 2 features, you can't choose. If SharePoint is enabled for the entity for which you are generating a PDF, then the PDF file will be saved to the SharePoint location by default. <br>
 
 **Question:** Is the PDF generation capability available on all entities? <br>
-**Answer** With the 2020 wave 2 release, the PDF generation capability is available on all the out-of-the-box entities and custom entities. If you haven't opted in for the 2020 wave 2 features or if you are using Sales Hub on a mobile device, the PDF generation capability is available only on seven out-of-the-box entities: Account, Contact, Lead, Opportunity, Quote, Order, Invoice.<br>
+**Answer** With the 2020 wave 2 release, the PDF generation capability is available on all the out-of-the-box entities and custom entities. If you haven't opted in for the 2020 wave 2 features or if you are using Sales Hub on the mobile app, the PDF generation capability is available only on seven out-of-the-box entities: Account, Contact, Lead, Opportunity, Quote, Order, Invoice.<br>
 
 **Question:** Does the generated PDF file support custom fonts? <br>
 **Answer:** The fonts in the generated file are limited to the fonts installed on the server that generates the PDF documents. Here's a list of supported fonts:

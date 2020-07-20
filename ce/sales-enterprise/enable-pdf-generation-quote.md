@@ -13,7 +13,7 @@ manager: annbe
 
 # Enable or disable PDF generation from sales records
 
-The PDF generation capability allows users to generate PDF files directly from Dynamics 365 records. You can select the entities on which you want to enable PDF generation.
+The PDF generation capability allows users to generate PDF files directly from Dynamics 365 records. You can select the entities on which you want to enable PDF generation. 
 
 > [!IMPORTANT]
 > With the 2020 wave 2 early access release, the PDF generation capability is extended to support all the out-of-the-box entities and custom entities.
@@ -37,6 +37,13 @@ The PDF generation capability allows users to generate PDF files directly from D
     2. To filter the list of entities and find a specific entity on which you want to enable PDF generation, use the **Filter by entity name** field. For example, to enable PDF generation on the Opportunity entity, type 'opp' and you'll see the entity name list filtered to show the entity names starting with 'opp'.  
 
 5. Select **Save**.
+
+After you enable PDF generation, sellers will be able to generate a PDF, download it to their local computer, save it to Dynamics 365 as Notes or save it to SharePoint. 
+
+> [!IMPORTANT]
+> - The **Save to SharePoint** button is available to users when SharePoint integration is enabled for your organization and the **Document Management** check box is selected on the entity page in the Customization area. If they don't see the button, make sure that SharePoint integration and Document Management is enabled. For more information about the Document Management check box, see [Enable or disable entity options](/powerapps/maker/common-data-service/edit-entities#enable-or-disable-entity-options).
+> - the **Save to Dynamics** button is available to users when Notes is enabled for the primary entity. If they don't see the button, make sure the **Notes (includes Attachment)** check box is selected on the entity page in the Customization area. By default, notes is enabled on all out-of-the-box entities. For more information on the Notes check box, see **Notes** in the **Entity options that can only be enabled** section of [Edit an entity](/powerapps/maker/common-data-service/edit-entities#change-the-name-of-an-entity) 
+
 
 ## Enable or disable PDF generation (If you haven't opted in for 2020 wave 2 features)
 
