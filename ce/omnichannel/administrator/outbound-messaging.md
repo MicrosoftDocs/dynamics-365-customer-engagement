@@ -52,7 +52,7 @@ After completing the prerequisites, you can send outbound messages from your org
 
 1. Consider the scenarios that require your organization to send outbound messages.
 
-2. Set up message templates [link to Message templates topic].
+2. [Create a template](create-message-templates.md) for your outbound message.
 
 ## Step 2: Set up outbound configuration
 
