@@ -58,7 +58,7 @@ After completing the prerequisites, you can send outbound messages from your org
 
 ## Step 2: Set up outbound configuration
 
-1. Under Settings, click Outbound.
+1. Under **Settings**, click **Outbound**.
 
 2. Complete the following fields:
 
@@ -83,13 +83,13 @@ Power Automate provides a low code platform for workflow and process automation.
 
 1. Go to https://us.flow.microsoft.com/en-us/ and sign in to your account.
 
-2. Set up an automated or instant flow.
+2. Set up a flow that aligns with your outbound messaging scenario.
 
     - **Automated:** Send an automatic message triggered by a system event, for example, case creation.
 
     - **Instant:** Send a message manually about a non-system event, for example, a shipping delay or a sale on products.
     
-    - **Scheduled:** - Send a message at a point in time, one or more times, and/or after an amount of time that you specify.
+    - **Scheduled:** Send a message at a point in time, one or more times, and/or after an amount of time that you specify.
     
 When the customer responds back to the outbound messages, the customer messages will be treated like any other incoming conversation that exists today in Omnichannel for Customer Service. The conversation will be routed and assigned to an agent, and the agent will be able to respond back to the customer.
 
