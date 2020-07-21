@@ -45,7 +45,7 @@ Suggested action is supported fully with the exception that some channels may li
 
 | Channel            | Suggested actions support       |
 |--------------------|---------------------------------|
-| Teams              | No                              |
+| Microsoft Teams    | No                              |
 | Facebook           | Yes                             |
 | LINE               | Yes                             |
 | Custom messaging (Telegram) | Yes                    |
@@ -75,7 +75,7 @@ Suggested action is supported fully with the exception that some channels may li
 |--------------------|---------------------------------------------------------------------|
 | Facebook           | Yes. Emoji in text, like “😀”                                       |
 | Twitter            | Yes. Emoji in text, like “😀”                                       |
-| Teams              | Yes. Emoji in .PNG image                                            |
+| Microsoft Teams    | Yes. Emoji in .PNG image                                            |
 | WeChat             | Yes. When an emoji is sent, the recipient sees characters, like :-) |
 | LINE               | Yes. When an emoji is sent, the recipient sees a sticker.           |
 | WhatsApp           | Not supported.                                                      |
@@ -91,7 +91,7 @@ Suggested action is supported fully with the exception that some channels may li
 |--------------------|---------------------------------------------------------------------|
 | Facebook           | Yes, as .PNG image                                                  |
 | Twitter            | Not supported.                                                      |
-| Teams              | Yes, in .HTML format and attachment URL (private)                   |
+| Microsoft Teams    | Yes, in .HTML format and attachment URL (private)                   |
 | WeChat             | Not supported. Recipient sees "Unsupported message" text.           |
 | LINE               | Not supported. Recipient sees "Sticker" text.                       |
 | WhatsApp           | Not supported.                                                      |
@@ -103,5 +103,6 @@ Suggested action is supported fully with the exception that some channels may li
 
 ### See also
 
-[Bring your own custom messaging channel: Direct Line Bot](bring-your-own-channel.md)  
-[Configure custom messaging channel](configure-custom-channel.md)  
+[Overview of channels](channels.md) <br />
+[Bring your own custom messaging channel: Direct Line Bot](bring-your-own-channel.md) <br /> 
+[Configure custom messaging channel](configure-custom-channel.md)   
