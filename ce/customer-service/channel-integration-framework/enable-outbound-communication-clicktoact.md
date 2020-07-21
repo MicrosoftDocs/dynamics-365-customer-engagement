@@ -4,7 +4,7 @@ description: "Learn enable or configure outbound communication (ClickToAct) in C
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 12/31/2019
+ms.date: 07/16/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -14,6 +14,11 @@ ms.custom:
 ---
 
 # How to enable outbound communication (ClickToAct) in Channel Integration Framework?
+
+> [!IMPORTANT]
+> Minimum versions required to get this feature working without any customizations.
+> -	Platform version: 9.1.0000.15343
+> -	CIF Version 1.0: 9.1.0.412.
 
 [!INCLUDE[token-enable-outbound-communication-clicktoact](shared/token-enable-outbound-communication-clicktoact.md)]
 

@@ -18,10 +18,10 @@ manager: annbe
 
 <h2>Get started</h2>
 
+<li><a href="set-up-dynamics-365-sales.md" data-raw-source="[Set up Dynamics 365 Sales](set-up-dynamics-365-sales.md)">Set up Dynamics 365 Sales</a></li>
 <li><a href="overview.md" data-raw-source="[Dynamics 365 Sales Overview](overview.md)">Dynamics 365 Sales Overview</a></li>
 <li><a href="user-guide-learn-basics.md" data-raw-source="[Learn the basics](user-guide-learn-basics.md)">Learn the basics</a></li>
 <li><a href="use-sales-hub-on-dynamics-365-mobile.md" data-raw-source="[Use Sales Hub on Dynamics 365 for phones and tablets](use-sales-hub-on-dynamics-365-mobile.md)">Use Sales Hub on Dynamics 365 for phones and tablets</a></li>
-
 
 </td><td>
 
@@ -43,7 +43,7 @@ manager: annbe
 <li><a href="create-edit-lead-sales.md" data-raw-source="[Create or edit leads](create-edit-lead-sales.md)">Create or edit leads</a></li>
 <li><a href="qualify-lead-convert-opportunity-sales.md" data-raw-source="[Qualify or convert leads](qualify-lead-convert-opportunity-sales.md)">Qualify or convert leads</a></li>
 <li><a href="create-edit-opportunity-sales.md" data-raw-source="[Create or edit opportunities](create-edit-opportunity-sales.md)">Create or edit opportunities</a></li>
-<li><a href="user-guide.md" data-raw-source="[More help resources for sales people...](user guide.md)">More help resources for sales people...</a></li>
+<li><a href="user-guide.md" data-raw-source="[More help resources for salespeople...](user guide.md)">More help resources for salespeople...</a></li>
 
 </td><td>
 <h2>In-app marketing</h2>

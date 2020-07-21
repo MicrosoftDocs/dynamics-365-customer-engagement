@@ -19,8 +19,7 @@ ms.author: jdaly
 manager: annbe
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Customization solutions file schema
 

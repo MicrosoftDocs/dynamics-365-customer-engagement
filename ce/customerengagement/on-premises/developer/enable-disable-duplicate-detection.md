@@ -22,8 +22,7 @@ ms.author: susikka
 manager: shujoshi
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Enable and Disable duplicate detection

@@ -17,8 +17,7 @@ tags:
   - MigrationHO
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Developer Guide for Dynamics 365 Customer Engagement (on-premises), version 9
 

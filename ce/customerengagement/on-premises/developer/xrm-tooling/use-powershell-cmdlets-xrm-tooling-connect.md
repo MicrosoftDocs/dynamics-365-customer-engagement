@@ -16,8 +16,7 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Use PowerShell cmdlets for XRM tooling to connect to Dynamics 365 Customer Engagement (on-premises)

@@ -18,8 +18,7 @@ tags:
   - MigrationHO
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Test and troubleshoot reports
 

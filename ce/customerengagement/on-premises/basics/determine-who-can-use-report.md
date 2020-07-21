@@ -16,8 +16,7 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 ---
 # Determine who can use a report
 

@@ -11,8 +11,7 @@ ms.author: susikka
 manager: shujoshi
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Use the Web API with metadata
 
