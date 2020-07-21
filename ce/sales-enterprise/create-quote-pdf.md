@@ -14,25 +14,27 @@ manager: annbe
 
 Use the PDF generation capability to create and share read-only, professional-looking PDF files for Dynamics 365 records with your customers. The PDF file is generated using a standard Word template from your organization. The capability to create PDF files is available for the following entities: Account, Contact, Lead, Opportunity, Order, Quote, and Invoice.
 
-If you opt in for the 2020 wave 2 release, apart from the entities listed earlier, the capability to create PDF file is supported on custom entities as well. 
+> [!IMPORTANT]
+> With the August 2020 early access release, the PDF generation capability is enhanced to support all the custom entities. The PDF enhancements  are limited to only Web experience and aren't available in the mobile app. If you haven't opted in or are using Sales Hub on a mobile app, you'll see the old experience.
 
 Your system administrator can choose the entities for which PDF generation is enabled. If PDF generation isn't enabled, you won't see the option to create a PDF file. 
 
-> [!IMPORTANT]
-> With the August 2020 early access release, the PDF generation capability is extended to support all the out-of-the-box entities and custom entities that support Document templates. The PDF enhancements (custom entity support and usability enhancements) are limited to only Web experience and aren't available in the mobile app. If you haven't opted in or are using Sales Hub on a mobile app, you'll see the old experience.
 
 ## Steps for creating a PDF file (if you've opted in for 2020 wave 2 release)
 
 1. Open the entity record for which you want to create a PDF file—in this example, a record for a Opportunity entity.
 2. On the command bar, select **Export to PDF**.
+
     The **Export to PDF** dialog box appears.
 
     ![Export to PDF dialog box](media/export-to-pdf-dialog.png "Export to PDF dialog box")
 
+    A preview based on selected template is shown and the PDF document name is populated.
 
     > [!IMPORTANT]
     > - Templates are available out of the box for the Account, Opportunity, Order, Quote, and Invoice entities. For entities that don't have out-of-the-box templates, you can create new templates. You can't create a PDF file for an entity record if there's no template available for that entity. To learn more about using Word templates, see [Use Word templates to create standardized documents](../admin/using-word-templates-dynamics-365.md). 
-    > - If there are multiple Word templates available for the entity, by default, the first template in the list is automatically selected. A preview based on selected template is shown and the PDF document name is populated. 
+    > - If there are multiple Word templates available for the entity, by default, the first template in the list is automatically selected. 
+    > - If the setting to view or download a PDF document automatically is disabled in your browser settings, then the preview functionality won't work. 
 
 3. In the **Save as** field, change the PDF document name, if required. 
 4. If you'd like to use a different template than the one selected, in the **Select a template to generate PDF document** section, search for or select the template. 
@@ -55,9 +57,9 @@ Your system administrator can choose the entities for which PDF generation is en
     > [!NOTE]
     > The Regarding field isn't populated if the 'Sending email' flag in the primary entity isn't enabled in the Customization area. For more information about this flag, see **Sending email** in the **Entity options that can only be enabled** section of [Edit an entity](/powerapps/maker/common-data-service/edit-entities#change-the-name-of-an-entity). 
 
-7. To save the PDF file to a SharePoint site, select the **Save to SharePoint** button. This button is available when SharePoint integration is enabled for your organization and the **Document Management** check box is selected on the entity page in the Customization area. If you don't see this button, contact your system administrator. 
+7. To save the PDF file to a SharePoint site, select **Save to SharePoint**. This button is available when SharePoint integration is enabled for your organization and the **Document Management** check box is selected on the entity page in the Customization area. If you don't see this button, contact your system administrator. 
 
-8. To save the PDF file as a note to the primary record, select the **Save to Dynamics** button. This button is available if Notes is enabled for the primary entity. If you don't see this button, contact your system administrator.  
+    If SharePoint integration isn't enabled, you'll see the **Save to Dynamics** button instead of **Save to SharePoint**. The **Save to Dynamics** button saves the PDF file as a note to the primary record. The **Save to Dynamics** button is available if Notes is enabled for the primary entity. If you don't see this button, contact your system administrator.  
  
 ## Steps for creating a PDF file (if you haven't opted in for 2020 wave 2 features)
 
@@ -119,10 +121,10 @@ Here are some FAQs related to the PDF generation capability:
 **Answer:** IF you haven't opted in for the 2020 wave 2 features, then you can't specify a different file name.<br>
 
 **Question:** Can I choose to save the PDF file to the Sales app as notes or to SharePoint? <br>
-**Answer:** With the 2020 wave 2 release, you can choose to save the PDF file to the Sales app as notes or to SharePoint. However, if you haven't opted in for the 2020 wave 2 features, you can't choose. If SharePoint is enabled for the entity for which you are generating a PDF, then the PDF file will be saved to the SharePoint location by default. <br>
+**Answer:** No, if SharePoint is enabled for the entity for which you are generating a PDF, then the PDF file will be saved to the SharePoint location by default.  <br>
 
 **Question:** Is the PDF generation capability available on all entities? <br>
-**Answer** With the 2020 wave 2 release, the PDF generation capability is available on all the out-of-the-box entities and custom entities. If you haven't opted in for the 2020 wave 2 features or if you are using Sales Hub on the mobile app, the PDF generation capability is available only on seven out-of-the-box entities: Account, Contact, Lead, Opportunity, Quote, Order, Invoice.<br>
+**Answer** No. The PDF generation capability is available only on seven out-of-the-box entities: Account, Contact, Lead, Opportunity, Quote, Order, Invoice. With the 2020 wave 2 release, the PDF generation capability is enhanced to support custom entities.<br>
 
 **Question:** Does the generated PDF file support custom fonts? <br>
 **Answer:** The fonts in the generated file are limited to the fonts installed on the server that generates the PDF documents. Here's a list of supported fonts:
