@@ -57,9 +57,8 @@ The timeline **Filter** further streamlines your productivity by allowing you to
     ![Timeline filter functionality](media\timeline-filter-1.png "Timeline filter functionality")
 
 For more information on timeline filter functionality and configuration see:
-- [Enable filter pane]() 
+- [Enable filter pane](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#enable-filter-pane) 
 - [How to filter activity types on timeline]() 
-- [Expand filter pane]()
 
 ### Expand all records
 
@@ -90,7 +89,7 @@ For more information on using the more command functionality and configuration s
 - [Quick entry record type and sort order default]()
 - [Enable threaded email views in timeline]()
 
-#### Threaded email views in timeline
+### Threaded email views in timeline
 
 To save valuable space, emails with multiple replies are consolidated into email treads and collapsed.
 
@@ -103,7 +102,7 @@ To save valuable space, emails with multiple replies are consolidated into email
 
 ![Timeline threaded email view functionality](media\timeline-threaded-email-views-1.png "Timeline threaded email view functionality")
 
-#### Enable threaded email views in timeline 
+### Enable threaded email views in timeline 
 
 Enabling the threaded email view is done via the timeline configuration in Power Apps.  Threaded email views must be done in this setting for each specific timeline, for the specific form, for the specific entity. 
 
@@ -509,7 +508,7 @@ You can easily search for records in the timeline. When you search for a phrase 
 
 ![Display options - Advanced - Expand all records in timeline](media\timeline-expand-all-records-display-options-advanced-1.png "Display options - Advanced - Expand all records in timeline")
 
-#### Expand records with images in timeline
+### Expand records with images in timeline
 
 You can send and receive records with images, but they will not display when the record is collapsed. Records with images must be expanded to be viewed.
 
@@ -525,7 +524,7 @@ If you don’t see a message and the image is not displaying, see [Timeline FAQs
 
 ![Display options - Advanced - Expand records with images in timeline](media\timeline-expand-records-with-images-display-optiones-advanced-2.png "Display options - Advanced - Expand records with images in timeline")
 
-#### Enable “What you’ve missed” summary
+### Enable “What you’ve missed” summary
 
 **What you’ve missed** helps you stay on top of updates and changes made records by displaying updates at the top of the timeline when you access a record. 
 
@@ -535,7 +534,7 @@ If you don’t see a message and the image is not displaying, see [Timeline FAQs
 
 ![Display options - Advanced - Enable “What you’ve missed” summary](media\timeline-what-you-missed-display-options-advanced-1.png "Display options - Advanced - Enable “What you’ve missed” summary")
 
-#### Record Settings
+### Record Settings
 
 The **Record types to show** is tied to the **Record settings** which supports Activities, Notes, and Posts in the timeline.
 
@@ -677,8 +676,6 @@ The **Create activities** feature allows you to choose which type of form you wa
 
 > [!NOTE]: 
 > If a **quick create** form for an activity has not been created, then the main form will be used. If **quick create** form is not supported, such as with email, the **main form** will always be used. 
-
-<add quick create model and main form screen shot>
 
 ![Display options - Advanced - How to set create activities form type in timeline](media\timeline-how-to-set-create-activities-form-type-1.png "Display options - Advanced - How to set create activities form type in timeline")
 
