@@ -51,6 +51,20 @@ To create a message template:
     > [!div class=mx-imgBorder]
     > ![Create localized text of new message](../media/message-template3.png "Create localized text of new message")
     
+    Message templates support the following slugs.  
+
+    | Slug | Description | 
+    |-----------------|-----------------------------|
+    | {FullName{Customer}}  | The full name of the customer who initiated the conversation. |
+    | {LastName{Customer}}| The last name of the customer.|
+    | {NickName{Customer}}| The nickname for the customer.|
+    | {FullName{Agent}}| The full name of the agent who is assigned to the conversation.|
+    | {FirstName{Agent}}| The first name of the agent.|
+    | {LastName{Agent}}| The last name of the agent.|
+    | {Nickname{Agent}}| The nickname for the agent.|
+
+      For more information, see [Slugs](automation-dictionary-keys.md#slugs).
+    
 9. Click **Save & Close** to see your localized message appear in the list of message templates.
 
 ## See also
