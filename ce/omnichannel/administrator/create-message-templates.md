@@ -41,9 +41,17 @@ To create a message template:
     > [!div class=mx-imgBorder]
     > ![Create a new message template](../media/message-template.png "Create a new message template")
 
-7. Click **Save**. After saving the template, the Localization data panel appears. If you want to translate your message into other languages, click **New localization** and create a translation for each language.
+7. Click **Save**. After saving the template, the **Message template** panel appears. 
 
+    > [!div class=mx-imgBorder]
+    > ![Create a new message](../media/message-template2.png "Create a new message")
 
+8. Click **New message** and create a message using localized text in each language you want to support.
+
+    > [!div class=mx-imgBorder]
+    > ![Create localized text of new message](../media/message-template3.png "Create localized text of new message")
+    
+9. Click **Save & Close** to see your localized message appear in the list of message templates.
 
 ## See also
 
