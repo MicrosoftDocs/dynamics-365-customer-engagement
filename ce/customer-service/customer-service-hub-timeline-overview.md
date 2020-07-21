@@ -27,13 +27,13 @@ Before going into the timeline configuration, it is best to have an overview of 
 
 Timeline iconography is displayed in the top right nav in the timeline:
 
-- Create a timeline record
-- Filter
-- Expand all records
-- More commands
-- Search records
-- Add notes and posts
-- Add an attachment 
+- [Create a timeline record](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#create-a-timeline-record)
+- [Filter](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#filter)
+- [Expand all records](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#expand-all-records)
+- [More commands](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#more-commands)
+- [Search records](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#search-records-on-timeline)
+- [Add an attachment](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#add-an-attachment-to-a-note-in-timeline) 
+- [Add notes and posts](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#add-a-note-or-post-to-a-record-on-timeline)
 
 ### Create a timeline record
 The Create a timeline record allows you to quickly create appointments, send emails, even make notes and posts and associate them to other records. 
@@ -286,7 +286,7 @@ Timeline is a component and you will need to access **Components** to make timel
 
 ![Adding or removing a timeline from an entity form](media\timeline-add-or-remove-entity-from-form-3.png "Adding or removing a timeline from an entity form")
 
-> ![Note:] 
+> [!Note:] 
 > Since the timeline component relies exclusively on underlining related data, it will always say Almost there when added to the timeline section. Since we are in a create and/or edit state on the form, there’s no underlining data, therefore the area is blank.
 
 ## Understanding the timeline component on the form
@@ -308,15 +308,16 @@ The timeline component is rich in features and functionality that can be configu
 
 The following overview provides a detailed breakdown of each timeline feature, what it supports, how it is configured, and how it is displayed in the corresponding timeline section on the entity form:
 
-•	Display options 
--	Timeline component name
--	Records shown on page
--	Record types shown 
--	Advanced
-•	Record settings 
--	Activities
--	Notes
--	Posts
+- Display options 
+  - [Timeline component name](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#timeline-component-name)
+  - [Records shown on page](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#records-shown-on-page)
+  - [Record types shown](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#record-types-shown) 
+  - [Advanced](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#advanced)
+
+- Record settings 
+  - [Activities](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#advanced)
+  -	[Notes](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#)
+  -	[Posts](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#)
 
 ## Display options 
 
@@ -364,7 +365,7 @@ This section allows you to enable these record types to display in timeline.
 
 ![Display options - Record types shown](media\timeline-record-types-shown-display-options-1.png "Display options - Record types shown")
 
-> ![Note:] 
+> [!Note:] 
 > Activities, noted, and posts are standard entities. If your administrator or system customizer has configured other entities, then those will appear.
 
 #### Activity, note, post icons and date / timestamp display on timelines
@@ -558,7 +559,7 @@ When you expand the **Activities record settings** on the timeline component sec
 6.	When you enable an **Activity type**, it will appear in a drop down box when you click on the **Create a timeline record** icon (+) in the top right nav in the timeline section of the entity record. 
 7.	Also, the **Activity type** can be viewed in the body of the timeline section of the form. 
 
-> ![NOTE:]
+> [!NOTE:]
 > A check mark appears on the right next to enabled **Activity types**.  Additional settings for a record type are disabled until you enable the record type.  
 
 ![Display options - Advanced - How to configure activity record types](media\timeline-how-to-configure-activity-record-types-display-options-advanced-1.png "Display options - Advanced - How to configure activity record types")
@@ -588,7 +589,7 @@ Records are displayed using the defult setting for each activity type. However, 
 12.	You can change the default card settings to a different card form if one has been created.  
 13.	If you create a new card form, you must go to the parent entity and add the new form of card type there before it will appear in the timeline list for configeration.  If **Default** is displayed, you are not using the card form.  You can not use the **Email card form** in timeline unless you select and publish it first.	
 
-> ![NOTE:] 
+> [!NOTE:] 
 > Not all activity types allow you to create card types, so the default selection will be you’re only option for those records.
 
 ![Display options - Advanced - Create and use card forms in timeline](media\timeline-create-and-use-card-forms-display-options-advanced-1.png "Display options - Advanced - Create and use card forms in timeline")
@@ -656,10 +657,10 @@ There are some unique date fields, for example:<br>
 
 > 16b. **Sort date.**  You cannot create a custom date field.  If you create one, it will not display, so in answer to this, **Sort date** was created.  It does not have a value and therefore allows you to choose your own.  Is empty by default.
 
-> ![IMPORTANT]:
+> [!IMPORTANT]:
 > Sort date is intended for users to programatically program and map each activity with a date of choice to have more control.  It’s a cusomization option that allows you to sort activities any way you want by whatever date you want.  You will have to populate each field and it requires that you update all activities to populate the Sort date with a value.  However, once you complete configurability you have flexiblity to sort anyway you want.  
 
-> ![NOTE]:
+> [!NOTE]:
 > Sort dates have to be configured for each timeline instance and set up must be completed in all three main forms for the Account enity in order to work.
 
 ![Display options - Advanced - How to set date in the sort activities by feature in timeline](media\timeline-how-to-set-date-in-sort-activities-by-feature-1.png "Display options - Advanced - How to set date in the sort activities by feature in timeline")
@@ -674,7 +675,7 @@ The **Create activities** feature allows you to choose which type of form you wa
 
 17.	 Click on **Create activities** using feature to select either a **Quick create form** or **Main form**.
 
-> ![NOTE:] 
+> [!NOTE:] 
 > If a **quick create** form for an activity has not been created, then the main form will be used. If **quick create** form is not supported, such as with email, the **main form** will always be used. 
 
 <add quick create model and main form screen shot>
@@ -708,7 +709,7 @@ To add a mention or to reference a team member:
 3.	If you don’t find a record, you can either switch to different views. To do this, select Advanced.  It opens the **Lookup Records** pane.
 4.	In the **Lookup Records** pane, you can switch between the **Recent records** and **All records** view to find a record.  
 
-> ![NOTE]:
+> [!NOTE]:
 > You can mention only a system user in a post.
 
 ![Add a mention or reference to a team member in a post on timeline](media\timeline-add-a-mention-to-team-member-in-a-post-1.png "Add a mention or reference to a team member in a post on timeline")
@@ -751,7 +752,7 @@ Before you can view any configuration changes on the entity form, you must save 
 
 Timelines can be configured and put on a dashboard. However, dashboards are not supported by Power Apps and therefore can only be use in the [name of the legacy experience – ask Shubhada]. For more information see [Set up timeline section (control)](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/set-up-timeline-control).
 
-> ![NOTE:] 
+> [!NOTE:] 
 > Capabilities on a dashboard timeline are different than those in an embedded dashboard timeline.  For more information see [Create or edit model-driven app dashboards](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-edit-dashboards).
 
 #### See Also
