@@ -84,3 +84,34 @@ Continue to use the **current** schedule board for common functions like:
 - Schedule board configurations like number of days in a view or applying filter territories.
 - Map view and scheduling.
 - Days, weeks, and months view.
+
+### Add new schedule board to custom sitemap area
+
+If customer uses a custom sitemap or an app module, they will have to update the sitemap to consume the new Schedule Board preview 
+
+from
+
+    <SubArea Id="msdyn_ScheduleBoardSubArea" ResourceId="SitemapDesigner.NewSubArea" VectorIcon="$webresource:msdyn_/Icons/SVG/Calendar.svg" Url="$webresource:msdyn_/fps/ScheduleBoard/ScheduleBoard.html" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/schedule-board-new-sitemap-before.png)
+
+to 
+​
+<SubArea Id="msdyn_ScheduleBoardSubArea" ResourceId="SitemapDesigner.NewSubArea" VectorIcon="$webresource:msdyn_/Icons/SVG/Calendar.svg" Url="/main.aspx?pagetype=entitylist&amp;etn=msdyn_scheduleboardsetting" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/schedule-board-new-sitemap-after.png)
+
+**URL:**
+
+        /main.aspx?pagetype=entitylist&etn=msdyn_scheduleboardsetting
+
+**ID:** 
+
+        msdyn_scheduleboardtoggle
+
+
+## Additional notes
+
+The Schedule Board is only supported in Unified Client Interface web (Field Service v8.x+) and not in tablets or phones.
