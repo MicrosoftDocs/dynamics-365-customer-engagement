@@ -44,8 +44,8 @@ The Create a timeline record allows you to quickly create appointments, send ema
     ![Create a timeline record](media\timeline-create-a-timeline-record-1.png "Create a timeline record")
 
 For information on timeline record functionality and configuration, see:
-- How to configure activity record types
-- Enable the ability to create directly from timeline 
+- [How to configure activity record types]()
+- [Enable the ability to create directly from timeline]()
 
 ### Filter 
 
@@ -57,9 +57,9 @@ The timeline **Filter** further streamlines your productivity by allowing you to
     ![Timeline filter functionality](media\timeline-filter-1.png "Timeline filter functionality")
 
 For more information on timeline filter functionality and configuration see:
-- Enable filter pane 
-- How to filter activity types on timeline 
-- Expand filter pane
+- [Enable filter pane]() 
+- [How to filter activity types on timeline]() 
+- [Expand filter pane]()
 
 ### Expand all records
 
@@ -72,8 +72,8 @@ You can view at a glance timeline records in a collapsed format or expand a reco
     ![Expand all records functionality](media\timeline-expand-all-records-1.png "Expand all records functionality")
 
 For more information on how to expand record functionality and configuration see:
-- Expand all records in timeline
-- Expand records with images in timeline
+- [Expand all records in timeline]()
+- [Expand records with images in timeline]()
 
 ### More commands
 
@@ -84,11 +84,11 @@ The more commands icon houses refresh, sort, and email functionality.
 3.	**Sort newer to older** / **Sort older to newer** allows you sort records.
 4.	**Always show email as conversations / Always show email as individual messages** enables or disables treaded emails. 
 
-    ![More commands timeline functionality](timeline-more-commands.png "More commands timeline functionality")
+    ![More commands timeline functionality](media\timeline-more-commands.png "More commands timeline functionality")
 
 For more information on using the more command functionality and configuration see:
-- Quick entry record type and sort order default
-- Enable threaded email views in timeline
+- [Quick entry record type and sort order default]()
+- [Enable threaded email views in timeline]()
 
 #### Threaded email views in timeline
 
@@ -139,7 +139,7 @@ You can easily search for records in the timeline. When you search for a phrase 
 ![Enable threaded email timeline view - option 2](media\timeline-search-records-1.png "Enable threaded email timeline view - option 2")
 
 For more information on search functionality and configuration see:
-- Enable search bar
+- [Enable search bar]()
 
 ### Add an attachment to a note in timeline
 
@@ -178,16 +178,16 @@ The message box has a rich text editor that enables you to use rich text and cre
 
 ![Timeline notes rich text editor](media\timeline-take-a-note.png "Timeline notes rich text editor")
 
-> [!NOTE]
+> [!NOTE]:
 > - You can only format the message (body) of a note, not the title.
 > - Rich text editor is only available for Unified Interface, not the web client.
 > - If you create a rich text editor note in the Unified Interface, and then view the note in the Web Client, it will display in HTML syntax.
 
 For more information on Notes and Post functionality and configuration see:
-- Record types shown 
-- Quick entry record type 
-- Record Settings 
-- Notes on timeline 
+- [Record types shown]() 
+- [Quick entry record type]() 
+- [Record Settings]() 
+- [Notes on timeline]() 
 
 For more information on the rich text editor feature, here is a listing of it's functionality:
   
@@ -368,7 +368,7 @@ This section allows you to enable these record types to display in timeline.
 > [!Note:] 
 > Activities, noted, and posts are standard entities. If your administrator or system customizer has configured other entities, then those will appear.
 
-#### Activity, note, post icons and date / timestamp display on timelines
+### Activity, note, post icons and date / timestamp display on timelines
 
 The timeline shows a simple icon before the activity, post, note, and custom entity making it easy for you to identify the record type. Dates and timestamps will always appear on each record on the bottom right of the preview.
 
