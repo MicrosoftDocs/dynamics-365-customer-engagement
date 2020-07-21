@@ -21,13 +21,13 @@ Find answers to common questions regarding the timeline experience features and 
 
 ![This Email has been blocked due to potentially harmful content. View full Email content message](media\timeline-expand-records-with-images-display-optiones-advanced-1.png "This Email has been blocked due to potentially harmful content. View Full Email content message") -->
 
-## Why I can't assign or delete an activity from the timeline?
+### Why I can't assign or delete an activity from the timeline?
 If you use the **HideCustomActions** rule to hide buttons, such as **Assign** and **Delete** in the ribbon command bar definition, then those buttons that are present in the Timeline control will not work. The buttons in the command bar are same as the buttons in the Timeline control; therefore, when a user selects the **Assign** or **Delete** button in the Timeline control, an error message is displayed.
 
 **You do not have permission to perform this action. Please contact your system administrator.**
 
 To mitigate the issue, unhide the buttons in the command bar definitions.
 
-## Why my users see different activities and records in their My activities stream in the dashboard?
+### Why my users see different activities and records in their My activities stream in the dashboard?
 
 **My activities** stream in the dashboard shows the records and activities that are owned by a particular user. For example, user **A** see records and activities that are owned by **A**, and user **B** see records and activities that are owned by **B**.
