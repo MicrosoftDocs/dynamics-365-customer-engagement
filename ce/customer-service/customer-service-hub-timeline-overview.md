@@ -12,7 +12,7 @@ manager: shujoshi
 
 # Introduction to timeline 
 
-Timeline shows you all customer interactions arranged in a single stream. Managing activities in the timeline is faster and provides quick data viewability allowing you to see a combined view of customer's interactions across various channels, such as phone, email, even social activities. Create notes and posts, as well as view any related notes or system posts tied to a customer record. Timeline control makes collaboration with other users easy and efficient.
+Timeline shows you information such as accounts or cases, arranged in a single stream. Managing activities in the timeline is faster and provides quick data viewability allowing you to see a combined view of customer's interactions across various channels, such as phone, email, even social activities. Create and view notes and posts connected to an entity record. Timeline control makes displaying information easy and efficient.
 
 Timeline allows you to:
 - Identify key activities with simple icons.
@@ -28,12 +28,12 @@ Before going into the timeline configuration, it is best to have an overview of 
 Timeline iconography is displayed in the top right nav in the timeline:
 
 - [Create a timeline record](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#create-a-timeline-record)
-- [Filter](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#filter)
-- [Expand all records](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#expand-all-records)
+- [Working with the Filter](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#filter)
+- [Working with records](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#expand-all-records)
 - [More commands](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#more-commands)
-- [Search records](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#search-records-on-timeline)
-- [Add an attachment](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#add-an-attachment-to-a-note-in-timeline) 
-- [Add notes and posts](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#add-a-note-or-post-to-a-record-on-timeline)
+- [Search Records](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#search-records-on-timeline)
+- [Attachments](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#add-an-attachment-to-a-note-in-timeline) 
+- [Working with Posts and Notes](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#add-a-note-or-post-to-a-record-on-timeline)
 
 ### Create a timeline record
 The Create a timeline record allows you to quickly create appointments, send emails, even make notes and posts and associate them to other records. 
@@ -59,6 +59,9 @@ The timeline **Filter** further streamlines your productivity by allowing you to
 For more information on timeline filter functionality and configuration see:
 - [Enable filter pane](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#enable-filter-pane) 
 - [How to filter activity types on timeline]() 
+
+## Working with records
+When working with records you have key information at a glance and view more by expanding records, and when you hover over a record you have actions you can use.
 
 ### Expand all records
 
@@ -140,6 +143,8 @@ You can easily search for records in the timeline. When you search for a phrase 
 For more information on search functionality and configuration see:
 - [Enable search bar]()
 
+
+
 ### Add an attachment to a note in timeline
 
 You can add an attachment to a note in timeline to help users when you have file to share.
@@ -155,6 +160,40 @@ You can add an attachment to a note in timeline to help users when you have file
 > [!IMPORTANT]:
 > If you do not have Notes enabled, you can not do an attachment. Also, you can only add one (1) attachment per note.
 
+### Working with posts and notes
+
+You can easily add a mention to another user or a reference to a timeline record using Posts.  Notes allows you to record richly formatted information for refrence, summary, or investigation.
+
+### Add a mention or reference to a team member in a post on timeline
+
+To add a mention or to reference a team member in a **Post**, use the following steps:
+
+1.	In the box that appears, type @ sign. When you type @, a flyout opens with a list of users you’ve recently used.
+2.	You can select one of the user records, or start typing the keyword. When you start typing, the records in the flyout are refreshed to match the keyword. In the backend, the search happens using **Dynamics 365 Quick Find** search.
+3.	If you don’t find a record, you can either switch to different views. To do this, select Advanced.  It opens the **Lookup Records** pane.
+4.	In the **Lookup Records** pane, you can switch between the **Recent records** and **All records** view to find a record.  
+
+> [!NOTE]:
+> You can mention only a system user in a post.
+
+![Add a mention or reference to a team member in a post on timeline](media\timeline-add-a-mention-to-team-member-in-a-post-1.png "Add a mention or reference to a team member in a post on timeline")
+
+### Add references in a post to timeline records 
+To add a reference to a timeline record in a **Post**, use the following steps:
+
+1.	In the **timeline** section, select the **+** icon
+2.	Select **Post**.
+3.	To add a link, type **#** in the box that appears.  
+4.	When you type #, a flyout opens with a list of records that you have recently accessed. These records could be of any record type, such as accounts, contacts or leads.  
+5.	You can select one of the record or start typing the keyword. When you start typing, the records in the flyout are refreshed to match the keyword. In this case, too, the search happens using the **Dynamics 365 Quick Find** search. The icons beside the record names in the flyout indicate the record types, which help you determine which record to select.  
+6.	If you don’t find a record, you can either switch to different views or create a new record. To do this, select **Advanced**.  It opens the **Lookup Records** pane.
+7.	In the **Lookup Records** pane, switch between the **Recent records** and **All records view** to find a record.  
+8.	Select **Change View** to find to see records from a different view. For example, if you want to find one of your open opportunities, select **Change View** > **Opportunities** > **My Open Opportunities**. The records in the **Lookup Records** pane will be refreshed to show only the open opportunities you own.  
+9.	If you don’t find a record you are looking for, select **New Record** to create a record.
+
+![Add links to timeline records](media\timeline-add-links-to-records-1.png "Add links to timeline records")
+
+
 ### Add a note or post to a record on timeline
 
 You can either add a **Note** or a **Post** to a record on timeline if you enable the features. 
@@ -166,6 +205,7 @@ You can either add a **Note** or a **Post** to a record on timeline if you enabl
 
 The message box has a rich text editor that enables you to use rich text and create well formatted content.
 
+<!---why is this not displaying in letter formate?-->
 <ol type="a">
 <li>Enter Subject in Subject field</li>
 <li>Use the rich text editor to format and structure your messages.</li>
@@ -177,7 +217,10 @@ The message box has a rich text editor that enables you to use rich text and cre
 
 ![Timeline notes rich text editor](media\timeline-take-a-note.png "Timeline notes rich text editor")
 
+<!---why is note call out not displaying?-->
+
 >[!NOTE]:
+>- Only Notes have rich text capability. 
 >- You can only format the message (body) of a note, not the title.
 >- Rich text editor is only available for Unified Interface, not the web client.
 >- If you create a rich text editor note in the Unified Interface, and then view the note in the Web Client, it will display in HTML syntax.
@@ -690,32 +733,6 @@ You can enable sort fields on **Posts**.
 
 ![Posts on timeline](media\timeline-posts-1.png "Posts on timeline")
 
-### Add a mention or reference to a team member in a post on timeline
-
-To add a mention or to reference a team member: 
-1.	In the box that appears, type @ sign. When you type @, a flyout opens with a list of users you’ve recently used.
-2.	You can select one of the user records, or start typing the keyword. When you start typing, the records in the flyout are refreshed to match the keyword. In the backend, the search happens using **Dynamics 365 Quick Find** search.
-3.	If you don’t find a record, you can either switch to different views. To do this, select Advanced.  It opens the **Lookup Records** pane.
-4.	In the **Lookup Records** pane, you can switch between the **Recent records** and **All records** view to find a record.  
-
-> [!NOTE]:
-> You can mention only a system user in a post.
-
-![Add a mention or reference to a team member in a post on timeline](media\timeline-add-a-mention-to-team-member-in-a-post-1.png "Add a mention or reference to a team member in a post on timeline")
-
-### Add links to timeline records 
-
-1.	In the **timeline** section, select the **+** icon
-2.	Select **Post**.
-3.	To add a link, type **#** in the box that appears.  
-4.	When you type #, a flyout opens with a list of records that you have recently accessed. These records could be of any record type, such as accounts, contacts or leads.  
-5.	You can select one of the record or start typing the keyword. When you start typing, the records in the flyout are refreshed to match the keyword. In this case, too, the search happens using the **Dynamics 365 Quick Find** search. The icons beside the record names in the flyout indicate the record types, which help you determine which record to select.  
-6.	If you don’t find a record, you can either switch to different views or create a new record. To do this, select **Advanced**.  It opens the **Lookup Records** pane.
-7.	In the **Lookup Records** pane, switch between the **Recent records** and **All records view** to find a record.  
-8.	Select **Change View** to find to see records from a different view. For example, if you want to find one of your open opportunities, select **Change View** > **Opportunities** > **My Open Opportunities**. The records in the **Lookup Records** pane will be refreshed to show only the open opportunities you own.  
-9.	If you don’t find a record you are looking for, select **New Record** to create a record.
-
-![Add links to timeline records](media\timeline-add-links-to-records-1.png "Add links to timeline records")
 
 ### Notes on timeline
 
