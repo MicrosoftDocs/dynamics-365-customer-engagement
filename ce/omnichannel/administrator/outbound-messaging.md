@@ -93,6 +93,7 @@ When the customer responds back to the outbound messages, the customer messages 
 
 ### See also
 
+[Create message templates](create-message-templates.md)<br>
 [Channels in Omnichannel for Customer Service](channels.md) <br> 
 [Configure an SMS channel for TeleSign](configure-sms-channel.md)<br>
 [Configure an SMS channel for Twilio](configure-sms-channel-twilio.md)<br>
