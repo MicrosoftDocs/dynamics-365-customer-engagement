@@ -14,6 +14,14 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
+> [!IMPORTANT]
+>
+> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided "as-is," "with all faults," "as available," and without warranty.​
+> - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
+> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../../legal/dynamics-insider-agreement.md).
+
 Message templates enable the one-time creation of reusable messages that can be sent to multiple customers. With message templates, you can maintain high-quality content and avoid spam in the ecosystem. You can save time and personalize the messages by using placeholder values that can be replaced with dynamic content when the message is sent.
 
 To create a message template:
@@ -24,15 +32,13 @@ To create a message template:
 
 3. Click **New**.
 
+4. Enter a name.
 
+5. Select a channel (SMS only in this preview).
 
-## Message templates for WhatsApp
-A WhatsApp message template is a message format that can be reused over time. 
+6. Enter a description.
 
-Special requirements of sending a WhatsApp message template:
-
-- The customer has opted-in and given permission to the organization to send them messages.
-- WhatsApp has approved the message template.
+7. Click **Save**. After saving the template, the Localization data panel appears. If you want to translate your message into other languages, click **New localization** and create a translation for each language.
 
 
 
