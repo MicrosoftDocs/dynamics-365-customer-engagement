@@ -361,6 +361,8 @@ The following overview provides a detailed breakdown of each timeline feature, w
   -	[Notes](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#notes)
   -	[Posts](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#posts)
 
+- [How to create and add custom activities](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-custom-activity-in-timeline)
+
 ## Display options 
 
 ### Timeline component name
@@ -691,10 +693,10 @@ There are some unique date fields, for example:<br>
 16b. <b>Sort date.</b>  You cannot create a custom date field.  If you create one, it will not display, so in answer to this, **Sort date** was created.  It does not have a value and therefore allows you to choose your own.  Is empty by default.
 </ul>
 
-> [!IMPORTANT]:
+> [!IMPORTANT]
 > Sort date is intended for users to programatically program and map each activity with a date of choice to have more control.  It’s a cusomization option that allows you to sort activities any way you want by whatever date you want.  You will have to populate each field and it requires that you update all activities to populate the Sort date with a value.  However, once you complete configurability you have flexiblity to sort anyway you want.  
 
-> [!NOTE]:
+> [!NOTE]
 > Sort dates have to be configured for each timeline instance and set up must be completed in all three main forms for the Account enity in order to work.
 
 ![Display options - Advanced - How to set date in the sort activities by feature in timeline](media\timeline-how-to-set-date-in-sort-activities-by-feature-1.png "Display options - Advanced - How to set date in the sort activities by feature in timeline")
@@ -709,7 +711,7 @@ The **Create activities** feature allows you to choose which type of form you wa
 
 17.	 Click on **Create activities** using feature to select either a **Quick create form** or **Main form**.
 
-> [!NOTE]:
+> [!NOTE]
 > If a **quick create** form for an activity has not been created, then the main form will be used. If **quick create** form is not supported, such as with email, the **main form** will always be used. 
 
 ![Display options - Advanced - How to set create activities form type in timeline](media\timeline-how-to-set-create-activities-form-type-1.png "Display options - Advanced - How to set create activities form type in timeline")
@@ -745,7 +747,11 @@ You can enable sort fields on **Notes**.
 
 ![Notes on timeline](media\timeline-notes-1.png "Notes on timeline")
 
-### Save and publish timeline updates and changes
+## How to create and add custom activities to timeline
+
+You can create custom entities to display on the timeline by enabling specific options during the creation of the entity. See the [How to create and add custom activities](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-custom-activity-in-timeline) for a step by step guide.
+
+## Save and publish timeline updates and changes
 
 Before you can view any configuration changes on the entity form, you must save and publish your updates first on the timeline component. 
 
@@ -754,14 +760,14 @@ Before you can view any configuration changes on the entity form, you must save 
 
     ![Save and publish timeline updates and changes](media\timeline-save-and-publish-updates-and-changes-1.png "Save and publish timeline updates and changes")
 
-### Configuring dashboard timelines
+## How to configure dashboard timelines
 
 Timelines can be configured and put on a dashboard. However, dashboards are not supported by Power Apps and therefore can only be use in the [name of the legacy experience – ask Shubhada]. For more information see [Set up timeline section (control)](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/set-up-timeline-control).
 
-> [!NOTE]:
+> [!NOTE]
 > Capabilities on a dashboard timeline are different than those in an embedded dashboard timeline.  For more information see [Create or edit model-driven app dashboards](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-edit-dashboards).
 
-#### See Also
+### See Also
 
 [Timeline FAQs](timeline-faqs.md)
 
