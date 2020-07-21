@@ -81,9 +81,13 @@ After completing the prerequisites, you can send outbound messages from your org
 
 Power Automate provides a low code platform for workflow and process automation. For more information, refer to [Power Automate documentation](https://docs.microsoft.com/en-us/power-automate/).
 
-1. Go to https://us.flow.microsoft.com/en-us/ and sign in to your account.
+1. Go to https://us.flow.microsoft.com/, sign in to your account, and click **My flows**.
 
-2. Set up a flow that aligns with your outbound messaging scenario.
+    OR
+    
+    In the Omnichannel Administration app, **Message template view**, click the **Flow** button at the top of the screen, and click **Create a flow**.
+
+2. In Power Automate, set up a flow that aligns with your outbound messaging scenario.
 
     - **Automated:** Send an automatic message triggered by a system event, for example, case creation.
 
