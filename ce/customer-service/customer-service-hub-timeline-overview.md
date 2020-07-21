@@ -191,7 +191,7 @@ To add a reference to a timeline record in a **Post**, use the following steps:
 8.	Select **Change View** to find to see records from a different view. For example, if you want to find one of your open opportunities, select **Change View** > **Opportunities** > **My Open Opportunities**. The records in the **Lookup Records** pane will be refreshed to show only the open opportunities you own.  
 9.	If you don’t find a record you are looking for, select **New Record** to create a record.
 
-![Add links to timeline records](media\timeline-add-links-to-records-1.png "Add links to timeline records")
+![Add references to timeline records](media\timeline-add-links-to-records-1.png "Add references to timeline records")
 
 
 ### Add a note or post to a record on timeline
