@@ -28,14 +28,14 @@ Before going into the timeline configuration, it is best to have an overview of 
 Timeline iconography is displayed in the top right nav in the timeline:
 
 - [Create a timeline record](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#create-a-timeline-record)
-- [Working with the Filter](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#filter)
-- [Working with records](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#expand-all-records)
-- [More commands](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#more-commands)
+- [Working with Filters](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#filter)
+- [Working with Records](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#expand-all-records)
+- [More Commands](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#more-commands)
 - [Search Records](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#search-records-on-timeline)
 - [Attachments](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#add-an-attachment-to-a-note-in-timeline) 
 - [Working with Posts and Notes](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#add-a-note-or-post-to-a-record-on-timeline)
 
-### Create a timeline record
+## Create a Timeline Record
 The Create a timeline record allows you to quickly create appointments, send emails, even make notes and posts and associate them to other records. 
 
 1.	The **Create a timeline record** icon when expanded provides a shortcut for creating a variety of records.
@@ -47,7 +47,7 @@ For information on timeline record functionality and configuration, see:
 - [How to configure activity record types]()
 - [Enable the ability to create directly from timeline]()
 
-### Filter 
+## Working with Filters 
 
 The timeline **Filter** further streamlines your productivity by allowing you to customize your experience and view on the data that is relevant to your needs. 
 
@@ -60,7 +60,7 @@ For more information on timeline filter functionality and configuration see:
 - [Enable filter pane](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#enable-filter-pane) 
 - [How to filter activity types on timeline]() 
 
-## Working with records
+## Working with Records
 When working with records you have key information at a glance and view more by expanding records, and when you hover over a record you have actions you can use.
 
 ### Expand all records
@@ -77,7 +77,7 @@ For more information on how to expand record functionality and configuration see
 - [Expand all records in timeline]()
 - [Expand records with images in timeline]()
 
-### More commands
+## More Commands
 
 The more commands icon houses refresh, sort, and email functionality.
 
@@ -92,7 +92,7 @@ For more information on using the more command functionality and configuration s
 - [Quick entry record type and sort order default]()
 - [Enable threaded email views in timeline]()
 
-### Threaded email views in timeline
+### Threaded Email Views in Timeline
 
 To save valuable space, emails with multiple replies are consolidated into email treads and collapsed.
 
@@ -105,7 +105,7 @@ To save valuable space, emails with multiple replies are consolidated into email
 
 ![Timeline threaded email view functionality](media\timeline-threaded-email-views-1.png "Timeline threaded email view functionality")
 
-### Enable threaded email views in timeline 
+### Enable Threaded Email Views in Timeline 
 
 Enabling the threaded email view is done via the timeline configuration in Power Apps.  Threaded email views must be done in this setting for each specific timeline, for the specific form, for the specific entity. 
 
@@ -115,7 +115,8 @@ There are a couple of options for enabling threaded email views in timeline:
 <ol type="a">
 <li>Click on the <b>More commands</b> icon on the timeline which will display a pop-out.</li>
 <li>Select <b>Always show email as conversations</b>
-</li></ol>
+</li>
+</ol>
 
 ![Enable threaded email timeline view - option 1](media\timeline-threaded-email-views-2.png "Enable threaded email timeline view - option 1")
 
@@ -125,12 +126,13 @@ There are a couple of options for enabling threaded email views in timeline:
 <li>Select <b>Personalize Settings</b></li>
 <li>The Set Personal Options pop-up will appear.  Click on the <b>Email</b> tab</li>
 <li>Check the box next to <b>Show emails as conversation on Timeline</b></li>
-<li>Click <b>OK</b></li>
-</li></ol>
+<li>Click <b>OK</b>
+</li>
+</ol>
 
 ![Enable threaded email timeline view - option 2](media\timeline-threaded-email-views-3.png "Enable threaded email timeline view - option 2")
 
-### Search records on timeline
+## Search Records on Timeline
 
 You can easily search for records in the timeline. When you search for a phrase in the timeline, it searches in the title of the record or body and description fields of the record then displays the record for you. 
 
@@ -143,9 +145,7 @@ You can easily search for records in the timeline. When you search for a phrase 
 For more information on search functionality and configuration see:
 - [Enable search bar]()
 
-
-
-### Add an attachment to a note in timeline
+## Add an Attachment to a Note in Timeline
 
 You can add an attachment to a note in timeline to help users when you have file to share.
 
@@ -157,10 +157,10 @@ You can add an attachment to a note in timeline to help users when you have file
 
 ![Add an attachment to a note in timeline](media\timeline-add-an-attachment-to-a-note.png "Add an attachment to a note in timeline")
 
-> [!IMPORTANT]:
+> [!IMPORTANT]
 > If you do not have Notes enabled, you can not do an attachment. Also, you can only add one (1) attachment per note.
 
-### Working with posts and notes
+## Working with Posts and Notes
 
 You can easily add a mention to another user or a reference to a timeline record using Posts.  Notes allows you to record richly formatted information for refrence, summary, or investigation.
 
@@ -173,12 +173,12 @@ To add a mention or to reference a team member in a **Post**, use the following 
 3.	If you don’t find a record, you can either switch to different views. To do this, select Advanced.  It opens the **Lookup Records** pane.
 4.	In the **Lookup Records** pane, you can switch between the **Recent records** and **All records** view to find a record.  
 
-> [!NOTE]:
+> [!NOTE]
 > You can mention only a system user in a post.
 
 ![Add a mention or reference to a team member in a post on timeline](media\timeline-add-a-mention-to-team-member-in-a-post-1.png "Add a mention or reference to a team member in a post on timeline")
 
-### Add references in a post to timeline records 
+### Add References in a Post to Timeline Records 
 To add a reference to a timeline record in a **Post**, use the following steps:
 
 1.	In the **timeline** section, select the **+** icon
@@ -194,7 +194,7 @@ To add a reference to a timeline record in a **Post**, use the following steps:
 ![Add references to timeline records](media\timeline-add-links-to-records-1.png "Add references to timeline records")
 
 
-### Add a note or post to a record on timeline
+### Add a Note or Post to a Record on Timeline
 
 You can either add a **Note** or a **Post** to a record on timeline if you enable the features. 
 
@@ -207,7 +207,8 @@ The message box has a rich text editor that enables you to use rich text and cre
 
 <!---why is this not displaying in letter formate?-->
 <ol type="a">
-<li>Enter Subject in Subject field</li>
+
+<li>Enter a Subject in <b>Subject</b> field</li>
 <li>Use the rich text editor to format and structure your messages.</li>
 <li>Expand the rich text editing tool to access the full menu of formatting features.</li>
 <li>Use the paperclip to attach files to your note.</li>
@@ -219,11 +220,11 @@ The message box has a rich text editor that enables you to use rich text and cre
 
 <!---why is note call out not displaying?-->
 
->[!NOTE]:
->- Only Notes have rich text capability. 
->- You can only format the message (body) of a note, not the title.
->- Rich text editor is only available for Unified Interface, not the web client.
->- If you create a rich text editor note in the Unified Interface, and then view the note in the Web Client, it will display in HTML syntax.
+> [!NOTE]
+> - Only Notes have rich text capability. 
+> - You can only format the message (body) of a note, not the title.
+> - Rich text editor is only available for Unified Interface, not the web client.
+> - If you create a rich text editor note in the Unified Interface, and then view the note in the Web Client, it will display in HTML syntax.
 
 For more information on Notes and Post functionality and configuration see:
 - [Record types shown]() 
@@ -328,7 +329,7 @@ Timeline is a component and you will need to access **Components** to make timel
 
 ![Adding or removing a timeline from an entity form](media\timeline-add-or-remove-entity-from-form-3.png "Adding or removing a timeline from an entity form")
 
-> [!Note]: 
+> [!Note] 
 > Since the timeline component relies exclusively on underlining related data, it will always say Almost there when added to the timeline section. Since we are in a create and/or edit state on the form, there’s no underlining data, therefore the area is blank.
 
 ## Understanding the timeline component on the form
@@ -409,7 +410,7 @@ This section allows you to enable these record types to display in timeline.
 
 ![Display options - Record types shown](media\timeline-record-types-shown-display-options-1.png "Display options - Record types shown")
 
-> [!Note]: 
+> [!Note]
 > Activities, noted, and posts are standard entities. If your administrator or system customizer has configured other entities, then those will appear.
 
 ### Activity, note, post icons and date / timestamp display on timelines
@@ -603,8 +604,8 @@ When you expand the **Activities record settings** on the timeline component sec
 6.	When you enable an **Activity type**, it will appear in a drop down box when you click on the **Create a timeline record** icon (+) in the top right nav in the timeline section of the entity record. 
 7.	Also, the **Activity type** can be viewed in the body of the timeline section of the form. 
 
->[!NOTE]:
->A check mark appears on the right next to enabled **Activity types**.  Additional settings for a record type are disabled until you enable the record type.  
+> [!NOTE]
+> A check mark appears on the right next to enabled **Activity types**.  Additional settings for a record type are disabled until you enable the record type.  
 
 ![Display options - Advanced - How to configure activity record types](media\timeline-how-to-configure-activity-record-types-display-options-advanced-1.png "Display options - Advanced - How to configure activity record types")
 
@@ -633,7 +634,7 @@ Records are displayed using the defult setting for each activity type. However, 
 12.	You can change the default card settings to a different card form if one has been created.  
 13.	If you create a new card form, you must go to the parent entity and add the new form of card type there before it will appear in the timeline list for configeration.  If **Default** is displayed, you are not using the card form.  You can not use the **Email card form** in timeline unless you select and publish it first.	
 
-> [!NOTE]: 
+> [!NOTE]
 > Not all activity types allow you to create card types, so the default selection will be you’re only option for those records.
 
 ![Display options - Advanced - Create and use card forms in timeline](media\timeline-create-and-use-card-forms-display-options-advanced-1.png "Display options - Advanced - Create and use card forms in timeline")
