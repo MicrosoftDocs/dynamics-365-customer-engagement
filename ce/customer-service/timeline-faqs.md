@@ -10,7 +10,7 @@ ms.author: lerobbin
 manager: shujoshi
 ---
 
-## Timeline FAQs
+# Timeline FAQs
 
 Find answers to common questions regarding the timeline experience features and functionality, configurations, and other key concepts.
 
