@@ -2,7 +2,7 @@
 title: "Dynamics 365 Field Service inspections (public preview) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 06/29/2020
+ms.date: 07/20/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -92,6 +92,12 @@ Use the **Required** toggle to make the inspection question mandatory.
 
 By selecting the **Gear** icon, you can add more details for an inspection question.
 
+### Pages
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inspections-page.png)
+
 ### Branching and conditional logic
 
 The inspection can be configured to look and act differently based on inspection answers in real time as the technician fills it out.
@@ -125,6 +131,9 @@ Use the **Preview** section to see the inspection from a technician's perspectiv
 > ![Screenshot of the Field Service inspection, highlighting both the preview tab and the publish option.](./media/inspections-create-preview-publish.png)
 
 When finished creating the inspection, select **Publish** at the top.
+
+### Export as PDF
+
 
 ## Associate inspection to service task type
 
@@ -232,6 +241,10 @@ Associating a customer asset allows the technician to see which customer asset n
 
 > [!Note]
 > If you relate a work order incident type to a customer asset, the related work order service tasks will be related to the customer asset automatically.
+
+## Create new versions of the same inspection
+
+
 
 ## Inspections on Dynamics 365 Field Service Power App
 
