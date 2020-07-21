@@ -564,6 +564,8 @@ You can easily search for records in the timeline. When you search for a phrase 
 
 You can send and receive records with images, but they will not display when the record is collapsed. Records with images must be expanded to be viewed.
 
+<!-- unable go to get lower case alpha bullets to match screenshot, displays correctly in preview but not on Docs -->
+
 <ol type="a">
 <li> Records when collapsed provide a visual summary.</li>
 <li> To expand an individual record, click anywhere on the timeline record to expand and collapse.  In the bottom right corner of the record you will see a caret.  When the caret is facing downward (˅) it tells you the record is collapsed. When the caret is facing upward (^)it tells you the record it expanded.</li>
@@ -576,17 +578,17 @@ If you don’t see a message and the image is not displaying, see [Timeline FAQs
 
 ![Display options - Advanced - Expand records with images in timeline](media\timeline-expand-records-with-images-display-optiones-advanced-2.png "Display options - Advanced - Expand records with images in timeline")
 
-## Enable “What you’ve missed” summary
+### Enable “What you’ve missed” summary
 
 **What you’ve missed** helps you stay on top of updates and changes made records by displaying updates at the top of the timeline when you access a record. 
 
-16.	The **What you’ve missed** feature displays new records you have not seen and it is disabled by default.
-17.	To enable **What you’ve missed**, click the box next to the feature. Now when you view a customer’s account, a box will appear at the top of the timeline section notifying you updates. 
-18.	To disable **What you’ve missed**, uncheck the box next to the feature and you will notifications will not display when you access an account.
+18.	The **What you’ve missed** feature displays new records you have not seen and it is disabled by default.
+19.	To enable **What you’ve missed**, click the box next to the feature. Now when you view a customer’s account, a box will appear at the top of the timeline section notifying you updates. 
+20.	To disable **What you’ve missed**, uncheck the box next to the feature and you will notifications will not display when you access an account.
 
 ![Display options - Advanced - Enable “What you’ve missed” summary](media\timeline-what-you-missed-display-options-advanced-1.png "Display options - Advanced - Enable “What you’ve missed” summary")
 
-## Record Settings
+### Record Settings
 
 The **Record types to show** is tied to the **Record settings** which supports Activities, Notes, and Posts in the timeline.
 
@@ -648,6 +650,8 @@ Records are displayed using the defult setting for each activity type. However, 
 ### How to customize a card from in timeline
 
 All card forms are broken out into the following four (4) sections:
+
+<!-- unable go to get lower case alpha bullets to match screenshot, displays correctly in preview but not on Docs -->
 
 <ol type="a">
 <li><b>ColorStrip Section.</b> This section does not appear on the timeline record. The <b>ColorStrip</b> is located on the left of the card form.</li><br>
@@ -720,7 +724,7 @@ There are some unique date fields, for example:<br>
 
 ![Display options - Advanced - How to set date in the sort activities by feature in timeline](media\timeline-how-to-set-date-in-sort-activities-by-feature-1.png "Display options - Advanced - How to set date in the sort activities by feature in timeline")
 
-## How to set create activities form type in timeline
+### How to set create activities form type in timeline
 
 The **Create activities** feature allows you to choose which type of form you want to work in based on your business needs.  
 
@@ -735,7 +739,7 @@ The **Create activities** feature allows you to choose which type of form you wa
 
 ![Display options - Advanced - How to set create activities form type in timeline](media\timeline-how-to-set-create-activities-form-type-1.png "Display options - Advanced - How to set create activities form type in timeline")
 
-## Timeline performance impacts
+### Timeline performance impacts
 
 You only want to enable activites that you need on this form. When working with 10 or more **Activity types**, you will receive a warning notice letting you know the number of activity types you have selected impacts the performance speed on your timeline.  To improve timeline performance speed, consider limiting activity types to 10 or less. 
 
@@ -743,7 +747,7 @@ You only want to enable activites that you need on this form. When working with 
 
 ![Display options - Advanced - Timeline performance impacts](media\timeline-performance-impacts-1.png "Display options - Advanced - Timeline performance impacts")
 
-## Posts on timeline
+### Posts on timeline
 
 You can enable sort fields on **Posts**.
 
@@ -755,7 +759,7 @@ You can enable sort fields on **Posts**.
 ![Posts on timeline](media\timeline-posts-1.png "Posts on timeline")
 
 
-## Notes on timeline
+### Notes on timeline
 
 You can enable sort fields on **Notes**.
 
