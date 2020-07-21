@@ -522,10 +522,10 @@ When you use the filter based on an activity status then those activities, notes
 <!-- unable go to get lower case alpha bullets to match screenshot, displays correctly in preview but not on Docs -->
 
 <ol type="a">
-<li> Select an activity item. In this example we selected **Overdue**.</li>
-<li> Based on our selection, all activity items with an **overdue status** now appear.</li>
-<li> **Filter** icon is filled in telling you a filter item has been selected.</li>
-<li> To clear filter selections, click on the **Clear all filters** icon to clear all filters.</li>
+<li> Select an activity item. In this example we selected <b>Overdue</b>.</li>
+<li> Based on our selection, all activity items with an <b>overdue status</b> now appear.</li>
+<li> <b>Filter</b> icon is filled in telling you a filter item has been selected.</li>
+<li> To clear filter selections, click on the <b>Clear all filters</b> icon to clear all filters.</li>
 </ol>
 
 ![Display options - Advanced - How to filter activity types on timeline](media\timeline-how-to-filter-activity-types-display-options-advanced-2.png "Display options - Advanced - How to filter activity types on timeline")
@@ -550,7 +550,7 @@ You can easily search for records in the timeline. When you search for a phrase 
 
 ![Display options - Advanced - Enable search bar](media\timeline-enable-search-bar-display-options-advanced-1.png "Display options - Advanced - Enable search bar")
 
-## Expand all records in timeline
+### Expand all records in timeline
 
 **Expand all records by default** displays all activities in an expanded view in timeline. 
 
