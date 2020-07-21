@@ -194,10 +194,6 @@ You can add a picture to the account or contact record in the Common Data Servic
   
 For account records, the card shows contact details for the primary contact associated with the account. For contact records, the card appears if the contact is the customer value on the case form.  
 
-
-
-
-
 ## Work with Queues
 
 Use queues to organize, prioritize, and monitor the progress of your work. In Dynamics 365 Customer Service, queues are containers used to store anything that needs to be completed or requires an action, for example completing a task or closing a case. To know more about creating and managing queues, see [Create and manage queues](set-up-queues-manage-activities-cases.md).
@@ -233,3 +229,89 @@ To create a new site, you need to go to **Advanced find** ![Advanced find](media
 
 [Create and design forms for Customer Service Hub](create-design-forms-customer-service-hub.md)  
 [Track your cases efficiently and act on them quickly](customer-service-hub-user-guide-case-sla.md)
+
+### Related section
+
+In the **Related** section (also known as Reference panel), use the tabs to see related records for the current record. This section is enabled by default for account, contact, case, and knowledge article records. Your customizer can add this section for all entities (including custom entities) that are enabled for interactive experience. The reference panel is also available in model-driven apps, for information, see  [Reference Panel in model-driven apps ](https://docs.microsoft.com/powerapps/user/navigation#reference-panel).
+
+By default, the first tab in the Related section of a case record shows the **Recent Cases and Entitlements** for the current case record you're working on. 
+  
+![reference-panel](media/reference-panel.png "Reference panel")
+
+The second tab in the Related section of a case record is the **Knowledge Base search**. Knowledge Base search lets you search for the knowledge articles related to a specific record. It also lets you view automatic suggestions. You can filter the search results to display articles that are Published, Draft, or Approved. For more information, see [Search for Knowledge articles](search-knowledge-articles-csh.md). 
+  
+
+The third tab in the Related section of a case record displays **Similar Cases**. Select **...** on a record to follow or unfollow the case, and explore other options. 
+
+![similar-cases](media/similar-cases.png "Similar cases in Reference panel")
+
+Watch this video to learn more about the Reference Panel in the Customer Service Hub:
+
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/d8224c3f-6e20-4b8e-9d0d-b0f5602c7708" frameborder="0" allowfullscreen=""></iframe></div>
+
+> [!NOTE]
+> You can configure rules that help you view similar cases based on automatic suggestions. For more information, see [Use advanced similarity rules to view similar case suggestions](suggest-similar-cases-for-a-case.md).
+
+Similarly,
+
+- For **Accounts** records, you can view **Contacts**, **Recent Opportunities**, **Recent Cases**, and **Entitlements** in the Related section.
+- For **Contacts** records, the Related section displays **Recent Opportunities**, **Recent Cases**, and **Entitlements**. 
+- For **Knowledge articles** records, select an article and go to the **Summary** tab to view the **Related Information** panel. Here you can view **Related versions**, **Related translations**, **Related categories**, **Related articles**, and **Related products** for an article.
+
+> [!NOTE]
+> Your system administrator or customizer can choose if Related section should be included in a form. They can also decide on what related data should be displayed in the section for each form.
+
+
+#### Reference Panel reflow
+
+The Customer Service Hub is available to use on a desktop browser, and on a mobile device. Depending on the zoom level and the resolution of the system on which you are accessing the hub interface, the Reference panel adjusts the tabs and records for an optimum experience.
+
+For example, on a browser, if you zoom in to about 100% or more, the tabs get docked on the top of the panel.
+
+![reference-panel-zoomin](media/rp-zoomin.png "Reference panel reflow")
+
+Similarly, if you zoom out to about 60-70%, the records appear in grid form.
+
+![reference-panel-zoomout](media/rp-grid-zoomout.png "Reference panel reflow")
+
+## Understand Activities
+
+Activities are the tasks that you or your team perform while interacting with customers. An activity is any action which can be entered on a calendar and has time dimensions (start time, stop time, due date, and duration) that help determine when the action occurred or is planned to occur.
+
+For example, you can make a record to track a phone call with a customer, or list an appointment scheduled with a customer to discuss a certain issue. You can create activities for yourself, or assign them to other service reps.
+
+In Dynamics 365 Customer Service, the following activities are supported:
+- Email
+- Task
+- Appointment
+- Phone Call
+- Social Activity
+
+> [!NOTE]
+> You can create and edit emails in the Customer Service Hub app on a desktop browser. However, on a mobile device email is read-only in the Hub app.
+
+#### Open Activities view
+
+In the Customer Service Hub sitemap, select **Service** > **Activities**. The **My Activities** view is displayed. 
+
+![activities-email](media/activities-csh-email.png "Activities view")
+
+- Select ![quick-create-activity](media/quick-create-button.png) in the nav bar to go to **Activities** to quickly add a new activity.
+
+- Select the **My Activities** drop-down to switch between activity views.
+
+- Select the  **Due** drop-down to see the list of activities that are due in coming time or are already overdue.
+
+- Explore the command bar options to create a new activity like new **Task**, **Email**, **Appointment**, or **Phone call**.
+  
+  For example: To create a new email, select **Email** from the command bar.  The New Email activity form is displayed.
+  
+- Select **...** in the command bar and go to **Open Dashboards** to directly open activity dashboard.
+
+- To view the status of an activity, click the activity record and see bottom-left in the activity form. 
+
+### See Also
+
+[Create and design forms for Customer Service Hub](https://docs.microsoft.com/en-us/dynamics365/customer-service/create-design-forms-customer-service-hub)
+
+[Track your cases efficiently and act on them quickly](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-user-guide-case-sla)

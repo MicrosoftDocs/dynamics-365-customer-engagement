@@ -10,7 +10,7 @@ ms.author: lerobbin
 manager: shujoshi
 ---
 
-# Introduction to timeline 
+# Introduction to Timeline 
 
 Timeline shows you information such as accounts or cases, arranged in a single stream. Managing activities in the timeline is faster and provides quick data viewability allowing you to see a combined view of customer's interactions across various channels, such as phone, email, even social activities. Create and view notes and posts connected to an entity record. Timeline control makes displaying information easy and efficient.
 
@@ -640,11 +640,11 @@ Records are displayed using the defult setting for each activity type. However, 
 
 All card forms are broken out into the following four  sections:
 <ol type="a">
-<li>**ColorStrip Section.** This section is not visible to the user. This is located on the left of your timeline email form and is where your persona icon is located.</li>
-<li>**Header Section.** This section is displayed to the user, however only the first two (2) fields are seen by the user. For this example, only the Subject and Modified On fields are visible to the user when the email card is displayed.</li>
-<li>**Details Section.** This section is displayed to the user, however only the first three (3) fields are seen by the user. For this example, only the To, CC, and Description fields are visible to the user when the email card is displayed.</li>
-<li>**Footer Section.**	This section is not displayed to the user. </li>
-<li>**Card Form Fields.** You can select which field you want to add to your email timeline form from the field options listed on the right.  You can customize your email timeline form by dragging and dropping the field you want to use into the section you want that field to display.</li>
+<li><b>ColorStrip Section.</b> This section does not appear on the timeline record. The <b>ColorStrip</b> is located on the left of the card form.</li>
+<li><b>Header Section.</b> This section is displayed on the timeline recrod, however only the first two (2) fields are displayed on the timeline record. For this example, only the <b>Subject</b> and <b>Modified On</b> fields are visible.</li>
+<li><b>Details Section.</b> This section is displayed on timeline record, however only the first three (3) fields are displayed on the timeline record. For this example, only the <b>To</b>, <b>CC</b>, and <b>Description</b> fields are visible on the timeline record.</li>
+<li><b>Footer Section.</b>	This section is not displayed on the timeline record. </li>
+<li> <b>Entity Fields.</b> You can select which fields you want to add to your card form from the field options listed on the right.  You can customize your card form by dragging and dropping the fields you want to use into the sections you want that field to appear in on the timeline record.</li>
 </ol>
 
 ![Display options - Advanced - How to customize a card from in timeline](media\timeline-customize-card-form-display-option-advanced-1.png "Display options - Advanced - How to customize a card from in timeline")
@@ -652,27 +652,27 @@ All card forms are broken out into the following four  sections:
 Each indvidual card form has to be customized for each activity record such as email, tasks, posts, etc. 
 
 **Header Section**<br>
-The displays the title/subject in your timeline email form. You can have up to six (6) fields in the Header section, only the first two (2) fields will be seen by the user. Also empty fields will be ignored by the form in all sections. <br>
+The displays the title/subject in your timeline email form. You can have up to six (6) fields in the Header section, only the first two (2) fields will be seen on the timeline record. Also empty fields will be ignored by the form in all sections. <br>
 <ul>
-f.  <b>Header - Field 1.</b> Regardless of the field you choose, it will appear as a bold header at the top of your timeline record. For this example we selected Subject for this field.<br>
-g.	<b>Header - Field 2.</b> Again regardless of the field you choose, this field appears in the bottom right corner of the timeline display.  For this example we selected Modified On for this field.</ul>
+f.  <b>Header - Field 1.</b> Regardless of the field you choose, it will appear as a bold header at the top of your timeline record. For this example we selected <b>Subject</b> for this field.<br>
+g.	<b>Header - Field 2.</b> Again regardless of the field you choose, this field appears in the bottom right corner of the timeline record.  For this example we selected <b>Modified On</b> for this field.</ul>
 
 **Details Section** <br>
-This displays the body in your the timeline email form. You can have to four (4) fields in the Detail section, but only the first three (3) fields are seen by the user.
+This displays in the body of your the timeline email record. You can have up to four (4) fields in the <b>Detail</b> section, but only the first three (3) fields are seen on the timeline record.
 
 <ul>
-h.	<b>Details - Field 1.</b> As before, regardless of the field you choose, this field will always appear below Header - Field 1 as a sub-header on the timeline record. For this example we selected To for this field. Font in this section will display differently based on the default font setting is in your browser.<br>
-i.	<b>Details - Field 2.</b> This field will partially display in a summary view.  When you expand your timeline record,  content in this field is fully display. For this example we selected CC for this field.<br>
-j.	<b>Details - Field 3.</b> This field follows the content in Details -Field 2 is considered part of the main body of your form that is only viewable when you expand the record. For this example we selected Description for this field.
+h.	<b>Details - Field 1.</b> As before, regardless of the field you choose, this field will always appear below the Header - Field 1 as a sub-header on the timeline record. For this example we selected <b>To</b> for this field. <!--Depending on the font setting in your browser, the font for this section will display differently.--><br>
+i.	<b>Details - Field 2.</b> This field will display one line of text in a summary view on the timeline record.  When you expand your timeline record,  content in this field is fully displayed with format. For this example we selected <b>CC</b> for this field.<br>
+j.	<b>Details - Field 3.</b> This field follows the content in Details -Field 2 and is part of the main body of your timline record that is only viewable when you expand the record. For this example we selected <b>Description</b> for this field.
 </ul>
 
 **Footer Section**<br>
-This section is not visible to the user.  
+This section is not visible on the timeline record.  
 
 <ul>
-k.	<b>Footer – Field 1.</b> For this example we selected Owner for this field.<br>
-l.	<b>Footer – Field 2.</b> For this example we selected Regarding for this field.<br>
-m.	<b>Footer – Field 3.</b> For this example we selected Priortiy for this field.
+k.	<b>Footer – Field 1.</b> For this example we selected <b>Owner</b> for this field.<br>
+l.	<b>Footer – Field 2.</b> For this example we selected <b>Regarding</b> for this field.<br>
+m.	<b>Footer – Field 3.</b> For this example we selected <b>Priortiy</b> for this field.
 </ul>
 
 ![Display options - Advanced - How to customize a card from in timeline](media\timeline-how-to-configure-activity-record-types-display-options-advanced-2.png "Display options - Advanced - How to customize a card from in timeline")
