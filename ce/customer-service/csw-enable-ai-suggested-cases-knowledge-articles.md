@@ -23,7 +23,7 @@ search.app:
 
 ## Introduction
 
-With the use of AI, suggestions about similar cases help agents find the right solutions quickly, increase agent productivity, and provide better and faster service to customers.
+With the use of AI, suggestions about similar cases help agents find the right solutions quickly, increase agent productivity, and provide better and faster service to customers. The AI model has the capability to process up to one million most recent cases for listing them at run time. 
 
 ## How AI suggestions for similar cases and knowledge articles works
 
@@ -31,9 +31,14 @@ With the use of AI, suggestions about similar cases help agents find the right s
 
 ## Prerequisites
 
+- *We shouldn't list Customer Service Workspace as a prerequisite to the tasks that need to be performed in this section because these tasks are not dependent on the availability of CSW.*
+
+- *Any roles that are required?*
 
 
 ## Enable AI suggestions for similar cases
+
+Perform the following steps to enable the AI suggestions for similar cases:
 
 1. Sign in to the Customer Service Hub app.
 2. In the **Change area**, select **Service Management** > **Settings (Preview)**. The **Analytics and insights settings** page appears.
@@ -45,6 +50,8 @@ With the use of AI, suggestions about similar cases help agents find the right s
     ![Enable AI-suggested similar cases](media/csw-enable-ai-suggested-cases.png "Enable AI-suggested similar cases")
 
 ## Enable AI suggestions for knowledge articles
+
+Perform the following steps to enable the AI suggestions for related knowledge articles:
 
 1. Sign in to the Customer Service Hub app.
 2. In the **Change area**, select **Service Management** > **Settings (Preview)**. The **Analytics and insights settings** page appears.
@@ -59,7 +66,11 @@ With the use of AI, suggestions about similar cases help agents find the right s
 
 The **Model pre-processing status** area displays the following metadata pertaining to the AI processing. The run frequency is set out of the box.
 
-Last successful run: Displays the date and time the model was last run.
-Case records: Displays the number of new or updated case records that were processed.
-Knowledge articles: Displays the number of new or updated knowledge articles that were processed.
-Run frequency: Display the frequency that is set for the model to run.
+- **Last successful run:** Displays the date and time the model was last run.
+- **Case records:** Displays the number of new or updated case records that were processed.
+- **Knowledge articles:** Displays the number of new or updated knowledge articles that were processed.
+- **Run frequency:** Display the frequency that is set for the model to run.
+
+### See also
+
+[Create a new similarity rule to view similar cases](suggest-similar-cases-for-a-case.md#create-a-new-similarity-rule-to-view-similar-cases)  

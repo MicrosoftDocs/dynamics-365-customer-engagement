@@ -28,11 +28,16 @@ If your administrator has enabled the AI-suggested similar cases and knowledge a
 [!IMPORTANT]
 The **Smart assist** pane is displayed only when the case is opened in the session tab by using the Shift+mouse click action.
 
+## Prerequisites
+
+- *List the role information*
+- *List the availability of smart assist*
+
 ## How the AI model works for displaying similar cases and knowledge articles
 
 When you open a case to work on it, the top three knowledge articles and the top five similar cases chosen by the AI model that match the case context are displayed. The smart assist uses [Microsoft Adaptive Cards](https://docs.microsoft.com/adaptive-cards/) to display the information as annotated and explained in this section.
 
-![Smart assist card for knowledge article suggestions](media/csw-annotated-smart-assist-km.png "Smart assist card for knowledge article suggestions")
+![Smart assist card for knowledge article suggestions](media/csw-annotated-smart-assist-ka.png "Smart assist card for knowledge article suggestions")
 
 The following table lists the explanation of the smart assist card for AI-suggested knowledge articles.
 
@@ -42,9 +47,9 @@ The following table lists the explanation of the smart assist card for AI-sugges
 | 2 | Title of the related knowledge article. |
 | 3 | More commands|
 | 4 | Displays the actions that can be performed when you select more commands: <br> - **Copy Url:** Copies the knowledge article link to the clipboard. <br> - **Email URL:** Opens the email compose form with the link to the article pasted in the email body. <br> - **Email:** Opens the email compose form with the contents of the knowledge article pasted in the mail body.|
-| 5 | Select to link the article as related to the case. |
-| 6 | The first lines of the knowledge article. |
-| 7 | Select to display information on the keywords that were used to match the article. |
+| 5 | Select to link the article with the case as a related article. |
+| 6 | The first few lines of the knowledge article. |
+| 7 | Select to display information on the keywords that were used by the AI model to match the article. |
 | 8 | The match rate in percent value. |
 |  |  |
 
@@ -69,3 +74,13 @@ If no cases or knowledge articles match, then the card displays an appropriate m
    > ![Customer Service Workspace agent dashboard](media/csw-agent-dashboard.png "Customer Service Workspace agent dashboard")
 
 2. In the **My Active Cases** list, select shift+mouse click the case you want to work on. The case opens in a session tab, and the **Smart assist** pane appears on the right. The Smart assist pane lists the top three knowledge articles and five similar cases suggested by AI based on the case context.
+
+   > ![Customer Service Workspace AI-suggested cases and knowledge articles](media/csw-smart-assist-cases-ka.png "Customer Service Workspace AI-suggested cases and knowledge articles")
+
+3. Optionally, select a suggested knowledge article title to go through and get relevant information.
+4. Optionally, select a suggested similar case title to drill through the details.
+
+### See also
+
+[Knowledge base search control powered by Relevance search](search-knowledge-articles-csh.md)  
+[See similar case suggestions in the Customer Service Hub](suggest-similar-cases-for-a-case.md#see-similar-case-suggestions-in-the-customer-service-hub)  
