@@ -76,6 +76,10 @@ After completing the prerequisites, you can send outbound messages from your org
     The **Conversation record** is set to automatically create a conversation in Omnichannel for Customer Service when a customer responds to the outbound message. This field cannot be modified.
 
     Set **Show in timeline** to **Yes** for event-based messages that apply to the support journey of a specific set of customers. For bulk messages that will be sent to a high volume of customers, it is recommended to leave this setting at **No** in order to conserve resources in your Omnichannel environment and storage. 
+    
+    Choose a **Language** for the outbound message. 
+    
+    Choose a **Message template** for the outbound message. The list of message templates will contain only message templates that contain messages in the language you selected above. For instance, if you selected English for the outbound message, only message templates containing messages with the **Language** set to English will appear in the list. If you want to send the same message in other languages, you need to create a new outbound message configuration and select another language that is also contained in the message template. 
 
 ## Step 3: Set up a Power Automate flow
 
