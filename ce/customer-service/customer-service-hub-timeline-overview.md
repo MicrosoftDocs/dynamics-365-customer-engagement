@@ -152,7 +152,7 @@ You can add an attachment to a note in timeline to help users when you have file
 
 ![Add an attachment to a note in timeline](media\timeline-add-an-attachment-to-a-note.png "Add an attachment to a note in timeline")
 
-> [!IMPORTANT]
+> [!IMPORTANT]:
 > If you do not have Notes enabled, you can not do an attachment. Also, you can only add one (1) attachment per note.
 
 ### Add a note or post to a record on timeline
@@ -177,10 +177,10 @@ The message box has a rich text editor that enables you to use rich text and cre
 
 ![Timeline notes rich text editor](media\timeline-take-a-note.png "Timeline notes rich text editor")
 
-> [!NOTE]:
-> - You can only format the message (body) of a note, not the title.
-> - Rich text editor is only available for Unified Interface, not the web client.
-> - If you create a rich text editor note in the Unified Interface, and then view the note in the Web Client, it will display in HTML syntax.
+>[!NOTE]:
+>- You can only format the message (body) of a note, not the title.
+>- Rich text editor is only available for Unified Interface, not the web client.
+>- If you create a rich text editor note in the Unified Interface, and then view the note in the Web Client, it will display in HTML syntax.
 
 For more information on Notes and Post functionality and configuration see:
 - [Record types shown]() 
@@ -190,7 +190,7 @@ For more information on Notes and Post functionality and configuration see:
 
 For more information on the rich text editor feature, here is a listing of it's functionality:
   
-  |Icon | Name | Shortcut key | Description |
+|Icon | Name | Shortcut key | Description |
 |----------------------|-------------------------|-----------------------------|-----------------------------|
 |![Format Painter](../customer-service/media/format-painter.png "Format Painter")| Format Painter | Ctrl+Shift+C, Ctrl+Shift+V | Apply the look of a particular section to another section. |
 |![Font](../customer-service/media/format-font.png "Font") | Font | Ctrl+Shift+F | Select your desired font. The default font is Segoe UI.<br /><br /> **Note**: When you select any formatted content, the font name for that content displays. If your selection contains multiple fonts, the topmost font name of your selection is displayed. |
@@ -364,7 +364,7 @@ This section allows you to enable these record types to display in timeline.
 
 ![Display options - Record types shown](media\timeline-record-types-shown-display-options-1.png "Display options - Record types shown")
 
-> [!Note:] 
+> [!Note]: 
 > Activities, noted, and posts are standard entities. If your administrator or system customizer has configured other entities, then those will appear.
 
 ### Activity, note, post icons and date / timestamp display on timelines
@@ -608,38 +608,29 @@ All card forms are broken out into the following four  sections:
 
 Each indvidual card form has to be customized for each activity record such as email, tasks, posts, etc. 
 
-**Header Section**
-
-The displays the title/subject in your timeline email form. You can have up to six (6) fields in the Header section, only the first two (2) fields will be seen by the user. Also empty fields will be ignored by the form in all sections. 
-
-<ol type="a">
+**Header Section**<br>
+The displays the title/subject in your timeline email form. You can have up to six (6) fields in the Header section, only the first two (2) fields will be seen by the user. Also empty fields will be ignored by the form in all sections. <br>
+<ul>
 f.  <b>Header - Field 1.</b> Regardless of the field you choose, it will appear as a bold header at the top of your timeline record. For this example we selected Subject for this field.<br>
+g.	<b>Header - Field 2.</b> Again regardless of the field you choose, this field appears in the bottom right corner of the timeline display.  For this example we selected Modified On for this field.</ul>
 
-g.	**Header - Field 2.** Again regardless of the field you choose, this field appears in the bottom right corner of the timeline display.  For this example we selected Modified On for this field.
-</ol>
-
-**Details Section** 
-
+**Details Section** <br>
 This displays the body in your the timeline email form. You can have to four (4) fields in the Detail section, but only the first three (3) fields are seen by the user.
 
-<ol type="a">
+<ul>
 h.	<b>Details - Field 1.</b> As before, regardless of the field you choose, this field will always appear below Header - Field 1 as a sub-header on the timeline record. For this example we selected To for this field. Font in this section will display differently based on the default font setting is in your browser.<br>
-
-i.	**Details - Field 2.** This field will partially display in a summary view.  When you expand your timeline record,  content in this field is fully display. For this example we selected CC for this field.<Br>
-
-j.	**Details - Field 3.** This field follows the content in Details -Field 2 is considered part of the main body of your form that is only viewable when you expand the record. For this example we selected Description for this field.
-</ol>
+i.	<b>Details - Field 2.</b> This field will partially display in a summary view.  When you expand your timeline record,  content in this field is fully display. For this example we selected CC for this field.<br>
+j.	<b>Details - Field 3.</b> This field follows the content in Details -Field 2 is considered part of the main body of your form that is only viewable when you expand the record. For this example we selected Description for this field.
+</ul>
 
 **Footer Section**<br>
 This section is not visible to the user.  
 
-<ol type="a">
+<ul>
 k.	<b>Footer – Field 1.</b> For this example we selected Owner for this field.<br>
-
-l.	**Footer – Field 2.** For this example we selected Regarding for this field.<br>
-
-m.	**Footer – Field 3.** For this example we selected Priortiy for this field.
-</ol>
+l.	<b>Footer – Field 2.</b> For this example we selected Regarding for this field.<br>
+m.	<b>Footer – Field 3.</b> For this example we selected Priortiy for this field.
+</ul>
 
 ![Display options - Advanced - How to customize a card from in timeline](media\timeline-how-to-configure-activity-record-types-display-options-advanced-2.png "Display options - Advanced - How to customize a card from in timeline")
 
@@ -652,9 +643,10 @@ How you view data is important and setting a default display view of your data v
 
 There are some unique date fields, for example:<br> 
 
-> 16a. **Date sent.** This only occures in email. If you sort by Date sent, most activities will not contain a Date Sent and therefore will be grouped together without any ordering.<br>
-
-> 16b. **Sort date.**  You cannot create a custom date field.  If you create one, it will not display, so in answer to this, **Sort date** was created.  It does not have a value and therefore allows you to choose your own.  Is empty by default.
+<ul>
+16a. <b>Date sent.</b> This only occures in email. If you sort by Date sent, most activities will not contain a Date Sent and therefore will be grouped together without any ordering.<br>
+16b. <b>Sort date.</b>  You cannot create a custom date field.  If you create one, it will not display, so in answer to this, **Sort date** was created.  It does not have a value and therefore allows you to choose your own.  Is empty by default.
+</ul>
 
 > [!IMPORTANT]:
 > Sort date is intended for users to programatically program and map each activity with a date of choice to have more control.  It’s a cusomization option that allows you to sort activities any way you want by whatever date you want.  You will have to populate each field and it requires that you update all activities to populate the Sort date with a value.  However, once you complete configurability you have flexiblity to sort anyway you want.  
@@ -674,7 +666,7 @@ The **Create activities** feature allows you to choose which type of form you wa
 
 17.	 Click on **Create activities** using feature to select either a **Quick create form** or **Main form**.
 
-> [!NOTE]: 
+> [!NOTE]:
 > If a **quick create** form for an activity has not been created, then the main form will be used. If **quick create** form is not supported, such as with email, the **main form** will always be used. 
 
 ![Display options - Advanced - How to set create activities form type in timeline](media\timeline-how-to-set-create-activities-form-type-1.png "Display options - Advanced - How to set create activities form type in timeline")
@@ -749,7 +741,7 @@ Before you can view any configuration changes on the entity form, you must save 
 
 Timelines can be configured and put on a dashboard. However, dashboards are not supported by Power Apps and therefore can only be use in the [name of the legacy experience – ask Shubhada]. For more information see [Set up timeline section (control)](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/set-up-timeline-control).
 
-> [!NOTE]: 
+> [!NOTE]:
 > Capabilities on a dashboard timeline are different than those in an embedded dashboard timeline.  For more information see [Create or edit model-driven app dashboards](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-edit-dashboards).
 
 #### See Also
