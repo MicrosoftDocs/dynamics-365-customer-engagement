@@ -79,7 +79,12 @@ After completing the prerequisites, you can send outbound messages from your org
     
     Choose a **Language** for the outbound message. 
     
-    Choose a **Message template** for the outbound message. The list of message templates will contain only message templates that contain messages in the language you selected above. For instance, if you selected English for the outbound message, only message templates containing messages with the **Language** set to English will appear in the list. If you want to send the same message in other languages, you need to create a new outbound message configuration and select another language that is also contained in the message template. 
+    Choose a **Message template** for the outbound message. The list of message templates will contain only message templates that contain messages in the language you selected above. For instance, if you selected English for the outbound message, only message templates containing messages with the **Language** set to English will appear in the list. If you want to send the same message in other languages, you need to create a new outbound message configuration and select another language that is also contained in the message template.
+    
+    > [!div class=mx-imgBorder]
+    > ![Configure outbound messages](../media/outbound-configuration.png "Configure outbound messages")
+    
+   
 
 ## Step 3: Set up a Power Automate flow
 
