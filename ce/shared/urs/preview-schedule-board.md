@@ -87,10 +87,10 @@ Continue to use the **current** schedule board for common functions like:
 
 ### Uninstall schedule board preview
 
-To uninstall the new Schedule board preview solution (Resource Scheduling Controls), perform the following steps. 
+To uninstall the new schedule board preview solution ("Resource Scheduling Controls"), perform the following steps. 
 
-1. Go to the Schedule Board Settings entity customization form
-2. Remove the new Sschedule board preview control from the grid that you added in th above article.
-3. Save and publish the changes
-4. Go to the Resource Scheduling app, clear the cache of the browser and reload Schedule Board. The old schedule board is loaded without the preview toggle in the top right of the screen. 
-5. Once the solution is uninstalled, the new Schedule Board will not be available for the environment until you upgrade your Field Service app to the latest available version. 
+1. Go to the **Schedule Board Settings** entity customization form.
+2. Remove the new schedule board preview control from the grid.
+3. Save and publish the changes.
+4. Go to the resource scheduling app, clear the browser's cache, and reload schedule board. The old schedule board will load without the preview toggle in the top right of the screen. 
+5. Once the solution is uninstalled, the new schedule board will not be available for the environment until you upgrade your Field Service app to the latest available version. 
