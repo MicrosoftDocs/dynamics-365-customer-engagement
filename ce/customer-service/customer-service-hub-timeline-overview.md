@@ -10,7 +10,7 @@ ms.author: lerobbin
 manager: shujoshi
 ---
 
-## Introduction to timeline 
+# Introduction to timeline 
 
 Timeline shows you all customer interactions arranged in a single stream. Managing activities in the timeline is faster and provides quick data viewability allowing you to see a combined view of customer's interactions across various channels, such as phone, email, even social activities. Create notes and posts, as well as view any related notes or system posts tied to a customer record. Timeline control makes collaboration with other users easy and efficient.
 
