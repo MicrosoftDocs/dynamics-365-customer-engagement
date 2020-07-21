@@ -2,7 +2,7 @@
 title: "Set up input fields to be used in marketing forms (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to set up an form input field and map it to a database field in Dynamics 365 Marketing"
 keywords: marketing form, fields
-ms.date: 03/08/2019
+ms.date: 07/21/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -12,7 +12,7 @@ author: alfergus
 ms.author: alfergus
 manager: shellyha
 ms.reviewer:
-topic-status: Drafting
+topic-status: 
 search.audienceType: 
   - admin
   - customizer
@@ -77,6 +77,25 @@ The following table describes all configuration settings that are available for 
 | Date and time          | Date and Time | Date-Time Picker      | Creates a date and time picker, which lets visitors choose a date from a pop-up calendar and a time from a drop-down list.                                                                   |
 
 When you publish a marketing page, Dynamics 365 Marketing hosts it by using its portals feature at a public URL that you can share with prospects. When you first create the page, Dynamics 365 Marketing automatically creates a new website record for it, where you can go to analyze its traffic and performance. More information: [Register link clicks and website visits](register-engagement.md)
+
+## Cascading form fields
+
+Cascading fields allow you to create hierarchy relationships between two option fields in a marketing form. You can use cascading fields to create parent-child relationships for filtering option sets from a parent field. The filtering will show users fewer options from the child set once the user chooses an option from the parent level. The child option set stays hidden until a choice is made in the parent option set. Supported [data fields](marketing-fields.md#field-type-and-format-options) for creating cascading fields include option sets, two options, and multi-select option sets.
+
+To create a cascading field:
+
+1. Add two multi-select options or option set (radio button) fields to a form.
+1. Click on the child set that you want to nest into the parent field.
+1. On the **Properties** pane, go to **Field attributes** > **Filter by** and click **Set up relationships**.
+
+    ![Field attributes](media/cascading-fields.png "Field attributes")
+
+1. Set the parent and child options that will be connected.
+
+    ![Parent child options](media/marketing-fields-cascading.png "Parent child options")
+
+> [!NOTE]
+> If there are no fields that can be selected as a parent, the **Field attributes** section is not shown.
 
 ### See also
 
