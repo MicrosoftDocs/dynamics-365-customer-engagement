@@ -559,7 +559,7 @@ When you expand the **Activities record settings** on the timeline component sec
 6.	When you enable an **Activity type**, it will appear in a drop down box when you click on the **Create a timeline record** icon (+) in the top right nav in the timeline section of the entity record. 
 7.	Also, the **Activity type** can be viewed in the body of the timeline section of the form. 
 
-> [!NOTE:]
+> [!NOTE]:
 > A check mark appears on the right next to enabled **Activity types**.  Additional settings for a record type are disabled until you enable the record type.  
 
 ![Display options - Advanced - How to configure activity record types](media\timeline-how-to-configure-activity-record-types-display-options-advanced-1.png "Display options - Advanced - How to configure activity record types")
@@ -589,7 +589,7 @@ Records are displayed using the defult setting for each activity type. However, 
 12.	You can change the default card settings to a different card form if one has been created.  
 13.	If you create a new card form, you must go to the parent entity and add the new form of card type there before it will appear in the timeline list for configeration.  If **Default** is displayed, you are not using the card form.  You can not use the **Email card form** in timeline unless you select and publish it first.	
 
-> [!NOTE:] 
+> [!NOTE]: 
 > Not all activity types allow you to create card types, so the default selection will be you’re only option for those records.
 
 ![Display options - Advanced - Create and use card forms in timeline](media\timeline-create-and-use-card-forms-display-options-advanced-1.png "Display options - Advanced - Create and use card forms in timeline")
@@ -675,7 +675,7 @@ The **Create activities** feature allows you to choose which type of form you wa
 
 17.	 Click on **Create activities** using feature to select either a **Quick create form** or **Main form**.
 
-> [!NOTE:] 
+> [!NOTE]: 
 > If a **quick create** form for an activity has not been created, then the main form will be used. If **quick create** form is not supported, such as with email, the **main form** will always be used. 
 
 <add quick create model and main form screen shot>
@@ -752,7 +752,7 @@ Before you can view any configuration changes on the entity form, you must save 
 
 Timelines can be configured and put on a dashboard. However, dashboards are not supported by Power Apps and therefore can only be use in the [name of the legacy experience – ask Shubhada]. For more information see [Set up timeline section (control)](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/set-up-timeline-control).
 
-> [!NOTE:] 
+> [!NOTE]: 
 > Capabilities on a dashboard timeline are different than those in an embedded dashboard timeline.  For more information see [Create or edit model-driven app dashboards](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-edit-dashboards).
 
 #### See Also
