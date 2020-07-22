@@ -329,7 +329,8 @@ When you finish you will receive an updated **Summary** page that includes:
 Once migration is complete you can uninstall the migration tool.  After General Availability in October 2020 this feature will have auto-install functionality.
 
 ### See Also
-Migration Tool FAQs (to be provided by Deepika)
+
+[Migration Tool FAQs](migration-tool-FAQs.md)
 
 [Plan your migration](https://docs.microsoft.com/en-us/dynamics365/customer-service/plan-migration)
 

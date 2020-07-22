@@ -1,7 +1,7 @@
 ---
-title: "Email Overview | Microsoft Docs"
-description: "Email Overivew"
-ms.date: 07/23/2020
+title: "Email Overview for Users | Microsoft Docs"
+description: "Email Overivew for Users"
+ms.date: 08/03/2020
 ms.service:
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -9,7 +9,8 @@ author: lerobbin
 ms.author: lerobbin
 manager: shujoshi
 ---
-# Introduction to Email
+
+# Using Email
 
 Add intro to email here 
 
@@ -225,4 +226,4 @@ The following table outlines a list of accessibility shortcuts available when us
 
 ### See Also
 
-<li>
+[Email FAQs](email-faqs.md)
