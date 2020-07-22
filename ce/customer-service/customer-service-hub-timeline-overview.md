@@ -96,7 +96,14 @@ For more information on using the more command functionality and configuration s
 
 To save valuable space, emails with multiple replies are consolidated into email treads and collapsed.
 
-<!-- unable go to get lower case alpha bullets to match screenshot, displays correctly in preview but not on Docs -->
+<!-- unable go to get lower case alpha bullets to match screenshot, displays correctly in preview but not on Docs Neeraja: Try the following table format. Remove it from the comment tag to view the output in preview
+
+|Callout|Description|
+|-----------|--------|
+| a | Emails with multiple responses are grouped into treaded emails. |
+| b | To view the complete string of email responses, click on show more in the bottom left corner of the last visible email in the tread. |
+|||
+ -->
 
 <ol type="a">
 <li>Emails with multiple responses are grouped into treaded emails.</li>
