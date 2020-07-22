@@ -1,8 +1,8 @@
 ---
 title: "Set up input fields to be used in marketing forms (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to set up an form input field and map it to a database field in Dynamics 365 Marketing"
+description: "How to set up a form input field and map it to a database field in Dynamics 365 Marketing"
 keywords: marketing form, fields
-ms.date: 07/21/2020
+ms.date: 07/22/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -52,13 +52,13 @@ The following table describes all configuration settings that are available for 
 |  **Lead mapping**   |                                                                                                                                                                                    Choose the lead field to map to this marketing-form field. Leave this blank to disable lead mapping for this field. You must provide a value for **Contact field mapping**, **Lead field mapping**, or both; you won't be able to save your field mapping without a value in at least one of these fields.  |
 |  **Placeholder**  |                                                                                                          Defines the "ghost text" shown in the field until a value is entered, typically displayed in a gray color. Use this to indicate what kind of value should be entered. If the user doesn't replace the ghost text by entering a value, the field is submitted as blank.                                                                                                           |
 |     **Default value**     |                       The default label shown for the field when you add it to a form. You can override this default for any specific form by configuring the field element that creates the input field for that form; you might do this to translate the form to a different language. More information: [The form element for marketing pages](content-blocks-reference.md#the-form-element-for-marketing-pages)                       |
-|     **Required**     |                       Choose whether a field must contain a value before the form can be submitted. Required fields will have a red asterisk place next to the field label.                       |
+|     **Required**     |                       Choose whether a field must contain a value before the form can be submitted. Required fields have a red asterisk place next to the field label.                       |
 |     **Required error message**     |                       Create a custom error message that appears when a user has not entered information in a required field.                        |
 |        **Label position**         | Choose whether you want the field label positioned on top, or to the left or right of the field. |
 |        **Character width**         | Set a custom width for the characters entered in the field. |
 |        **Maximum characters**         | Define the maximum number of characters that can be entered in the field. |
-|        **Hide field**         | Toggle this switch to hide a field. Hidden fields are not displayed to form recipients. You may want to hide a field that is not currently applicable to a form, but may be useful at a later date. |
-|        **Prefill**         | Define the maximum number of characters that can be entered in the field. |
+|        **Hide field**         | Toggle this switch to hide a field. Hidden fields are not displayed to form recipients. |
+|        **Prefill**         | Provides returning contacts with a form that already shows their previously entered information, like their name and email address. More information: [Enable prefilling for forms](form-prefill.md) |
 
 ## Field type and format options
 
@@ -80,6 +80,7 @@ The following table describes all configuration settings that are available for 
 | Decimal number         | n/a           | Number Input          | Creates a simple input field that accepts a floating-point (decimal) number. Supports a level of precision up to 10 decimal places and can range from -100,000,000,000 to 100,000,000,000. |
 | Date and time          | Date Only     | Date Picker           | Creates a date picker, which lets visitors choose a date from a pop-up calendar display. Does not accept a time.                                                                           |
 | Date and time          | Date and Time | Date-Time Picker      | Creates a date and time picker, which lets visitors choose a date from a pop-up calendar and a time from a drop-down list.                                                                   |
+| Lookup field          | n/a | Lookup      | Creates a field that is linked to a particular entity type, enabling you to create a drop-down that lists a set of options that were created in advance. For example, you could use a lookup field to create a dropdown list of all Accounts. More information: [Adding lookup fields](marketing-fields.md#adding-lookup-fields-and-troubleshooting)                                                                   |
 
 When you publish a marketing page, Dynamics 365 Marketing hosts it by using its portals feature at a public URL that you can share with prospects. When you first create the page, Dynamics 365 Marketing automatically creates a new website record for it, where you can go to analyze its traffic and performance. More information: [Register link clicks and website visits](register-engagement.md)
 
@@ -90,8 +91,8 @@ Cascading fields allow you to create hierarchy relationships between two option 
 To create a cascading field:
 
 1. Add two multi-select options or option set (radio button) fields to a form.
-1. Click on the child set that you want to nest into the parent field.
-1. On the **Properties** pane, go to **Field attributes** > **Filter by** and click **Set up relationships**.
+1. Select the child set that you want to nest into the parent field.
+1. On the **Properties** pane, go to **Field attributes** > **Filter by** and select **Set up relationships**.
 
     ![Field attributes](media/cascading-fields.png "Field attributes")
 
@@ -101,6 +102,27 @@ To create a cascading field:
 
 > [!NOTE]
 > If there are no fields that can be selected as a parent, the **Field attributes** section is not shown.
+
+## Adding lookup fields and troubleshooting
+
+After creating a custom entity to use with a lookup field, or if your lookup field is not working, you should double check that you have the settings listed below enabled for the entity you're using with the lookup field.
+
+1. [Enable and configure relevance search](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization#enable-relevance-search) for the entity you want to use with the lookup field. The relevance search configuration is located in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
+
+    ![Enable relevance search](media/marketing-fields-relevance2.png "Enable relevance search")
+
+1. Within the relevance search configuration, locate and select the entity on the left side that you want to include in the lookup field. Next, add the entity to the right panel by clicking the **Add** button.
+
+      ![Entity select screen](media/marketing-fields-entity-select.png "Entity select screen")
+
+If the lookup field that you want to set up is a custom field you've created, ensure that Service User Roles are set up for the entity.
+
+For a new custom entity, you will need to enable the proper Security Role permission for your org. You will often need to set the Security Role manually.
+
+1. To set the Security Role manually, go to **Settings** > **Security** > **Security Roles** > **Marketing Service User** > **Custom Entities**.
+1. Under the **Custom Entities** tab, find the name of your custom entity and mark the **Read** column box (the second column) green.
+
+      ![Security roles for custom entity](media/marketing-fields-security-roles.png "Security roles for custom entity")
 
 ### See also
 
