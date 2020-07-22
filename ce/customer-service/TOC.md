@@ -15,12 +15,13 @@
 ### Customer Service Hub
 #### [Introduction to Customer Service Hub](user-guide-customer-service-hub.md)
 #### [Learn the basics](customer-service-hub-user-guide-basics.md)
+
 #### Work with Email
-##### [Using Email](customer-service-hub-email-overview.md)
-##### [Configuring Email](customer-service-hub-timeline-admin.md)
+##### [Using Email](customer-service-hub-user-guide-email-overview.md)
+##### [Configuring Email](customer-service-hub-user-guide-timeline-admin.md)
 #### Work with Timeline
-##### [Using Timeline](customer-service-hub-timeline-overview.md)
-##### [Configuring Timeline](customer-service-hub-timeline-admin.md)
+##### [Using Timeline](customer-service-hub-user-guide-timeline-overview.md)
+##### [Configuring Timeline](customer-service-hub-user-guide-timeline-admin.md)
 
 
 #### Work with cases

@@ -15,11 +15,9 @@ manager: shujoshi
 Timeline shows you information such as accounts or cases, arranged in a single stream. Managing activities in the timeline is faster and provides quick data viewability allowing you to see a combined view of customer's interactions across various channels, such as phone, email, even social activities. Create and view notes and posts connected to an entity record. Timeline control makes displaying information easy and efficient.
 
 Timeline allows you to:
-- Identify key activities with simple icons.
 - Quick access on the command bar to perform common actions with ease.
 - Filter and view activities important to you using multiple filter options.
 - View and manage email conversation threads with ease.
-- Expand and collapse activities effortlessly.
 
 ## How to use timeline functionality 
 
@@ -35,11 +33,11 @@ Timeline iconography is displayed in the top right nav in the timeline:
 - [Attachments](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#add-an-attachment-to-a-note-in-timeline) 
 - [Working with Posts and Notes](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#add-a-note-or-post-to-a-record-on-timeline)
 
-### Create a timeline record
+## Create a timeline record
 The Create a timeline record allows you to quickly create appointments, send emails, even make notes and posts and associate them to other records. 
 
-1.	The **Create a timeline record** icon when expanded provides a shortcut for creating a variety of records.
-2.	When you click on **Create a timeline record**, it displays a pop-up listing all the record types you enabled in the **Activities record settings**.
+1.	When you click on the **+** icon (**Create a timeline record**) displays a flyout with a listing of shortcut record types your Admin has enabled.
+2.	it displays a pop-up listing all the record types you enabled in the **Activities record settings**.
 
     ![Create a timeline record](media\timeline-create-a-timeline-record-1.png "Create a timeline record")
 
@@ -47,7 +45,7 @@ For information on timeline record functionality and configuration, see:
 - [How to configure activity record types]()
 - [Enable the ability to create directly from timeline]()
 
-### Working with filters 
+## Working with filters 
 
 The timeline **Filter** further streamlines your productivity by allowing you to customize your experience and view on the data that is relevant to your needs. 
 
@@ -60,10 +58,10 @@ For more information on timeline filter functionality and configuration see:
 - [Enable filter pane](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#enable-filter-pane) 
 - [How to filter activity types on timeline]() 
 
-### Working with records
+## Working with records
 When working with records you have key information at a glance and view more by expanding records, and when you hover over a record you have actions you can use.
 
-#### Expand all records
+### Expand all records
 
 You can view at a glance timeline records in a collapsed format or expand a record to see more details for ease of use.
 
@@ -77,7 +75,7 @@ For more information on how to expand record functionality and configuration see
 - [Expand all records in timeline]()
 - [Expand records with images in timeline]()
 
-### More Commands
+## More Commands
 
 The more commands icon houses refresh, sort, and email functionality.
 
@@ -145,7 +143,7 @@ There are a couple of options for enabling threaded email views in timeline:
 
 ![Enable threaded email timeline view - option 2](media\timeline-threaded-email-views-3.png "Enable threaded email timeline view - option 2")
 
-### Search records on timeline
+## Search records on timeline
 
 You can easily search for records in the timeline. When you search for a phrase in the timeline, it searches in the title of the record or body and description fields of the record then displays the record for you. 
 
@@ -158,7 +156,7 @@ You can easily search for records in the timeline. When you search for a phrase 
 For more information on search functionality and configuration see:
 - [Enable search bar]()
 
-### Add an attachment to a note in timeline
+## Add an attachment to a note in timeline
 
 You can add an attachment to a note in timeline to help users when you have file to share.
 
@@ -173,7 +171,7 @@ You can add an attachment to a note in timeline to help users when you have file
 > [!IMPORTANT]
 > If you do not have Notes enabled, you can not do an attachment. Also, you can only add one (1) attachment per note.
 
-### Working with posts and notes
+## Working with posts and notes
 
 You can easily add a mention to another user or a reference to a timeline record using Posts.  Notes allows you to record richly formatted information for refrence, summary, or investigation.
 
