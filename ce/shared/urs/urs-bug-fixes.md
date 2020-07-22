@@ -1,3 +1,12 @@
+## 3.12.24.4
+
+- When you enable any entity for scheduling for ex., Case, Lead, Account etc., enable **Quick Book** feature on the **Booking Setup Metadata** record of this Schedulable entity, and set **Disable Requirement Auto Creation for Bookings** to Yes, the Resource Requirement records will not be generated post the creation of the Booking record. 
+- The bug where there are multiple pages of available Resources suggested on the Schedule Assistant, only the Resources in the First page set were shown and Resources on higher pages were not shown, this bug is fixed, and paging through to next pages, Resources will be shown as expected.
+- When there are multiple workhours are entered on the same day for a Resource, for example 8 AM to 3:30 PM and 2 PM to 5 PM, there was a bug where the Resource workhours calendar  was only showing workhours as 2 PM to 5 PM. With this fix, the calendar for the Resource would show that the Resource is working 8 AM to 5 PM. Also, the same should be reflected on the Schedule Board, that the Resource is working 8 AM to 5 PM. 
+- When a Resource has working hours, lets say 9 AM to 5 PM on a day, and has a time-off 12 PM to 1 PM, there is a bug where Schedule Board shows that the Resource has no working hours on that day, though the time-off is for only 1 hour. This bug is fixed, and with this fix, the Resource should show as working from 9 AM to 12 PM and 1 PM to 5 PM on the Schedule Board. 
+- When creating a Resource Requirement record, using a Work hours template, performance improvements are made to reduce the time of creation for the Resource Requirement record. 
+- When the Resource workhours are entered by using non-recurrence patterns for a large number of days, and large number of Resources (lets say more than 2000 Resources in the org), when looking for available Resources, the Schedule Assistant is taking almost 40 seconds to load the Resources. Performance improvements are pushed as part of this fix, where in this case, the Schedule Assistant loads much faster (around 5 seconds to 10 seconds, largely based on the amount of data). 
+
 ## 3.12.23.71
 
 - The issue with the filtering on the lookup type fields on the schedule board's requirement panel is fixed. 
