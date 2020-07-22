@@ -53,6 +53,10 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 1. Checks for the current version of the org. 
 1. Creates required data that this sample requires.
 
+#### Privileges and Access Rights
+To run this sample, the caller must have the privileges on the specified entity and the access rights on the specified record, for example if the caller only has Write or Assign privileges on the entity and try to assign the record to another user, the request would fail.  The caller needs to have both the Write and Assign privileges on the entity in order to assign the record to another user.
+
+
 ### Demonstrate
 
 1. The `Retrieve` method retrieves the account records created in the setup(#setup).
