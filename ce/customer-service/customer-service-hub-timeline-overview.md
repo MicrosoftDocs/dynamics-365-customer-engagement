@@ -763,10 +763,13 @@ You can enable sort fields on **Posts**.
 
 You can enable sort fields on **Notes**.
 
-1.	Sort **Posts** by **Date created** fields. **Date created** on **Notes** is enabled by default.
-2.	**Enable Date** created by clicking the check box next to the **Notes** feature
-3.	Disable **Date created** by unclicking the check box next to the **Notes** feature
-4.	Enable **Notes** with **Date created** on timeline
+1. **Enable Date** created by clicking the check box next to the **Notes** feature
+2. Disable **Date created** by unclicking the check box next to the **Notes** feature
+3. Enable **Notes** with **Date created** on timeline
+4. Once enabled, you can now click on the + icon 
+5. Flyout will appear. 
+6. Select **Notes**
+7. Begin writing your **Note** using rich text and just click **Add Note** at the bottom to save.
 
 ![Notes on timeline](media\timeline-notes-1.png "Notes on timeline")
 
