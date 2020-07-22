@@ -9,21 +9,17 @@ author: lerobbin
 ms.author: lerobbin
 manager: shujoshi
 ---
-## Email Overview
+# Introduction to Email
 
+Add intro to email here 
 
 ## View and create email
 
 Dynamics 365 Customer Service lets agents interact with customers through email. Email functionality allows agents to:
-
 - View and respond to emails. 
-
 - Utilize common email toolbar functionality and rich text editor controls. 
-
 - View and insert images inline using drag-and-drop or copy-and-paste functionality. 
-
 - Create email in a pop-up window.  
-
 - Preview templates before applying them. 
 
 ### View your email
@@ -223,3 +219,7 @@ The following table outlines a list of accessibility shortcuts available when us
 | Base commands | Ctrl+U | Underline command. |
 | Base commands | Alt+0 | Accessibility help. |
 | Base commands | Esc | Cancel operation. |
+
+### See Also
+
+<li>
