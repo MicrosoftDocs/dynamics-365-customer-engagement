@@ -112,7 +112,7 @@ Then, you must refer to it in the variable. In the example below, "entityrelatio
 [!div class=mx-imgBorder]
 ![Outbound message flow initialize variable](../media/outbound-message-flow2.png "Outbound message flow initialize variable")
 
-If you added slugs to your outbound messages, you must define them here as well. For a list of supported slugs, refer to [Create message templates](create-message-templates.md).
+If you added slugs to your outbound messages, you must define them here as well. The example above shows the case ID and full name of the customer. For a list of supported slugs, refer to [Create message templates](create-message-templates.md).
     
 When the customer responds back to the outbound messages, the customer messages will be treated like any other incoming conversation that exists today in Omnichannel for Customer Service. The conversation will be routed and assigned to an agent, and the agent will be able to respond back to the customer.
 
