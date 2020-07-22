@@ -4,7 +4,7 @@ description: "Instructions to integrate a bot in Omnichannel for Customer Servic
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 04/23/2020
+ms.date: 07/22/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -94,6 +94,9 @@ Routing rules route the incoming customer queries to their respective queues. Ea
 Bots are developed to receive customer queries first, gain information of the query, and then pass the query to a human agent, if required. To achieve this behavior, you must add a bot user to the queue and configure routing rules in a way that the incoming customer queries are routed to the queue with bot user.
 
 Ensure to map the routing rules to the correct queues so that the queries are routed appropriately. For information about routing rules, see [Create and manage routing rules](routing-rules.md).
+
+> [!NOTE]
+> When you run a report on Power Virtual Agent activity, the number of bot sessions may differ from the number of Omnichannel sessions. 
 
 ## Known limitations
 
