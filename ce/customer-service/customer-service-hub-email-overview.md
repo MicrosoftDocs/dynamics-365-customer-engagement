@@ -77,7 +77,7 @@ An alternate way of creating email is to use the enhanced email experience, whic
 > - Your system administrator must enable the enhanced email experience before you can use it. Follow the steps in [Enable the enhanced email experience](#enable-the-enhanced-email-experience).
 > - The enhanced email experience is available only for email activities created from the **Timeline** section of any model-driven app. 
 
-#### Enable the enhanced email experience
+### Enable the enhanced email experience
 
 1. Sign in to your [https://\<YourOrgURL\>.dynamics.com/apps](https://<YourOrgURL>.dynamics.com/apps) environment.
 
@@ -102,7 +102,7 @@ An alternate way of creating email is to use the enhanced email experience, whic
 
 6. Select **OK**.
 
-#### Compose an email using the enhanced experience:
+### Compose an email using the enhanced experience:
 
    > [!Note]
    > This section assumes the administrator has already enabled this feature. For steps on how to enable it, see [Enable the enhanced email experience](#enable-the-enhanced-email-experience).
@@ -127,7 +127,7 @@ An alternate way of creating email is to use the enhanced email experience, whic
 
 5. When you're done, select **Send**. 
 
-### Insert an email template
+## Insert an email template
 
 You can use an email template—a preformatted email message—to quickly create and send email messages. You can insert the template while composing an email by selecting **Insert Template** on the command bar. The list of available templates is displayed in the **Email templates** window. In the **Recently used** section, the four most recently used templates by you are displayed. The **All templates** section displays a list of all out-of-the-box email templates (global and entity specific), in alphabetical order. Global templates are shown as the type User. If you've created a custom email template, it will also be available here. For information about creating a custom email template, see [Create templates for email](https://docs.microsoft.com/power-platform/admin/create-templates-email).
 
@@ -161,7 +161,7 @@ You can see templates of a particular language by selecting a language from the 
 > [!div class="mx-imgBorder"]
 > ![Search template](media/search-template.png "Search template") 
 
-### Editor functionality and accessibility shortcuts
+## Formatting options
 
 The following table outlines the different formatting options of the rich text editor.
 
@@ -199,6 +199,9 @@ The following table outlines the different formatting options of the rich text e
 |![Clear All Formatting](../customer-service/media/clear-formatting.png "Clear All Formatting")| Clear All Formatting |  | Remove all formatting from a selection of text, leaving only the normal, unformatted text. |
 |![Add a Table](../customer-service/media/add-table.png "Add a Table")| Add a Table |  | Add a table to your content. <br /><br />After adding a table, you can do any of the following:<br /><br /><ul><li>Resize table columns by clicking and dragging your mouse to resize to the columns to the desired width.</li><li>Select one or several cells within a table and apply specific formatting, add links to the selection, or cut, copy, or paste entire rows or columns.</li><li>Right-click to access the properties. This supports features such as cell type, width and height, word wrapping, alignment, merging and splitting cells horizontally and vertically, inserting or deleting rows and columns, row and column span, and cell and border color.</li></ul>|
 |![Expand Toolbar](../customer-service/media/show-more.png "Expand Toolbar")| Expand Toolbar |  | Displays when the toolbar is collapsed and not all options appear. Click to expand the toolbar and make all options visible. |
+
+
+## Accessiblity shortcuts
 
 The following table outlines a list of accessibility shortcuts available when using email. You can access this list while composing email by pressing **Alt+0**.
 
