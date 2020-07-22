@@ -148,7 +148,9 @@ MetadataDiagramConsole.exe new_bankaccount new_safedepositbox
 
 **[Entity Relation Diagram Creator](https://www.xrmtoolbox.com/plugins/JourneyIntoCRM.XrmToolbox.ERDPlugin/)** for XrmToolBox is a tool that generates visual Entity Relationship Diagrams from metadata in Microsoft Dynamics 365 and the Power Platform Common Data Service.
 
-See the [Developer tools](developer-tools.md) article for community developed tools and [jonasr.app/uml](https://jonasr.app/uml?utm_source=msdocs) for more information about UML Diagram Generator and [journeyintocrm.com](https://www.journeyintocrm.com/archives/1806.html) for more information about Entity Relation Diagram Creator.
+**[ERD Visio Builder](https://www.xrmtoolbox.com/plugins/LinkeD365.ERDVisioBuilder/)** for XrmToolBox is a tool that generates Visio diagrams from the metadata in Microsoft Dynamics 365 and the Power Platform Common Data Service.
+
+See the [Developer tools](developer-tools.md) article for community developed tools, [jonasr.app/uml](https://jonasr.app/uml?utm_source=msdocs) for more information about UML Diagram Generator, [journeyintocrm.com](https://www.journeyintocrm.com/archives/1806.html) for more information about Entity Relation Diagram Creator and [LinkeD365.blog](https://linked365.blog/2020/07/06/erd-visio-builder-xrmtoolbox-addon/) for more information on the ERD Visio Builder.
 
 > [!NOTE]
 > The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools. 
