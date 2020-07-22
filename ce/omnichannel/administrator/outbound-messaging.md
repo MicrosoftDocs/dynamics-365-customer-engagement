@@ -107,10 +107,10 @@ When you create a flow, you must add the action, incident_msdyn_ocoutboundmessag
 [!div class=mx-imgBorder]
 ![Outbound message flow initialize variable](../media/outbound-message-flow1.png "Outbound message flow initialize variable")
 
-Then, you must refer to it in the variable. In the example below, "entityrelationshipname" refers to the ActivityRelationship defined above.
+Then, you must refer to it in the append variable step. In the example below, "entityrelationshipname" refers to the ActivityRelationship defined above.
 
 [!div class=mx-imgBorder]
-![Outbound message flow initialize variable](../media/outbound-message-flow2.png "Outbound message flow initialize variable")
+![Outbound message flow append variable](../media/outbound-message-flow2.png "Outbound message flow append variable")
 
 If you added slugs to your outbound messages, you must define them here as well. The example above shows the case ID and full name of the customer. For a list of supported slugs, refer to [Create message templates](create-message-templates.md).
     
