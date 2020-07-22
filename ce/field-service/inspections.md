@@ -144,19 +144,26 @@ When finished creating the inspection, select **Publish** at the top.
 
 ### Export as PDF
 
+Export an inspection as a PDF to provide an alternative method to send and fill out inspections. This can be helpful for situations where you need to send the inspection questions via email ahead of time.
+
+From an inspection select **Export to PDF** in the top ribbon.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-export1.png)
+
+A PDF file with the blank inspection questions will be downloaded automatically.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-export2.png)
 
+The PDF will be interactive and you can enter answers and save the answers to the PDF, but the answers will not be saved to Dynamics 365 Field Service or the Common Data Model. In addition, some question types are limited. As an example, the entity lookup question type will not reference the Dynamics 365 database records.
+
 
 > [!Note]
 > The Export to PDF function only exports blank inspections without responses.
 
-If you are using pages then...
+
 
 
 ## Associate inspection to service task type
@@ -268,7 +275,20 @@ Associating a customer asset allows the technician to see which customer asset n
 
 ## Create new versions of the same inspection
 
+Select the **Revise** ribbon button to edit a published inspection to add new questions, remove obsolete questions, edit the question types, and update the logic.
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inspections-versions-revise.png)
+
+In the Versions section of the Inspection form you will see the current version of the inspection with a status of published, and a new version that can be edited with a status of Draft.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inspections-versions2.png)
+
+When the Draft (Revised) version is published, the existing published inpsection version will be deactivated. 
+
+Existing work orders will display and reference the previous version of the inspection whereas new work orders will diplay and reference the new revised version.
 
 ## Inspections on Dynamics 365 Field Service Power App
 
