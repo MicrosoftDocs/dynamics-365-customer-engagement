@@ -94,9 +94,17 @@ By selecting the **Gear** icon, you can add more details for an inspection quest
 
 ### Pages
 
+Sometimes it is valuable to add pages to your inspection to:
+
+1) group questions together to organize inspection questions in a logical way by type, phase, etc.
+2) make it easier to add logic to multiple questions at one time (see section on "branching and conditional logic" below).
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/inspections-page.png)
+
+Select the page dropdown in the top left of the designer to add one or more pages. Then add a Page title and a Page description (optional) if needed. 
+
 
 ### Branching and conditional logic
 
@@ -108,6 +116,8 @@ Go to the **Logic** section of the designer form to add branching and conditiona
 > ![Screenshot of the logic designer for Field Service inspections.](./media/inspections-logic1.png)
 
 Based on the response to an inspection question, options include:
+
+- **Make Page visible** - Make the entire page of questions visible when the condition is true. Otherwise keep it hidden.
 
 - **Show the question**: Make the question visible when the condition is true. Otherwise keep it hidden.
 
@@ -133,6 +143,20 @@ Use the **Preview** section to see the inspection from a technician's perspectiv
 When finished creating the inspection, select **Publish** at the top.
 
 ### Export as PDF
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inspections-export1.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/inspections-export2.png)
+
+
+> [!Note]
+> The Export to PDF function only exports blank inspections without responses.
+
+If you are using pages then...
 
 
 ## Associate inspection to service task type
