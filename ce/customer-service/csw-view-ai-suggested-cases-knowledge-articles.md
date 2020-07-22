@@ -41,7 +41,7 @@ When you open a case to work on it, the top three knowledge articles and the top
 
 The following table lists the explanation of the smart assist card for AI-suggested knowledge articles.
 
-| Label | Description |
+| Callout | Description |
 |--------|-------------|
 | 1 | Displays the information about the cards when selected.|
 | 2 | Title of the related knowledge article. |
@@ -57,7 +57,7 @@ The following table lists the explanation of the smart assist card for AI-sugges
 
 The following table lists the explanation of the smart assist card for AI-suggested similar cases.
 
-| Label | Description |
+| Callout | Description |
 |--------|-------------|
 | 1 | Displays the title of the similar case.|
 | 2 | Displays the actions that can be performed when you select more commands:<br> - **Copy resolution:** <br> - **Email Agent:** Opens the email compose form for you to mail your questions to the agent who handled the similar case. |
