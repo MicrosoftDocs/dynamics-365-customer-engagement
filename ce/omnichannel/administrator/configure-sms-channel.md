@@ -86,7 +86,7 @@ To sign up for TeleSign
     - **Number**: Phone number purchased from TeleSign.
     - **Type**: Select **Long code**.
     - **Description**: Optional description for the number.
-    - **Operating Hours**: Available only when **Allow automated messages** is **Yes** on the **Work Distribution** tab.Allows you to select an operating hour record that contains the schedule for the customer support team. More information: [Create operating hours](create-operating-hours.md)
+    - **Operating Hours**: Available only when **Allow automated messages** is **Yes** on the **Work Distribution** tab. Allows you to select an operating hour record that contains the schedule for the customer support team. More information: [Create operating hours](create-operating-hours.md)
 
     > [!NOTE]
     >
