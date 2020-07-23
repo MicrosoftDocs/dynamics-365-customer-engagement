@@ -1,7 +1,7 @@
 ---
 title: "Configuring Timeline | Microsoft Docs"
 description: "Timeline comfiguration overivew for administrators"
-ms.date: 07/23/2020
+ms.date: 07/24/2020
 ms.service:
   - "dynamics-365-customerservice"
 ms.topic: article
