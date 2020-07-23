@@ -41,8 +41,8 @@ The out-of-the-box session templates are as follows:
 - WeChat - Default session
 - WhatsApp - Default session
 
-  > [!Note]
-  > Session template customizations will be overwritten at solution upgrade. 
+[!Note]
+Session template customizations will be overwritten at solution upgrade. 
   
 ## Create a session template
 
