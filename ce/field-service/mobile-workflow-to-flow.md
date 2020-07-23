@@ -35,11 +35,7 @@ Power Automate has many benefits, including the ability to connect and run workf
 
 ## Enable Power Automate flows in Field Service settings
 
-
-
 To switch from Workflow to Power Automate navigate to Field Service Settings in CRM and switch “Use Enhanced Background Processing” to “Yes”. This will move background processing from Work Flow to Power Automate and any enabled Power Automate flows would execute.  Please note this change is at Field Service level, so by making this change all Field Service Workflows would be moved to Power automate.
-
-
 
 
 > [!div class="mx-imgBorder"]
@@ -75,7 +71,7 @@ Steps:
 1.	Navigate to https://make.powerapps.com/ and select your environment.
 2.	Navigate to “Solutions” then “Geofence Alerts”
 3.	To enable GeoFence Alerts and related Push Notifications to Field Service Mobile turn the following flows “ON”.
-a.	Flow – Remind To Change Status Upon Arrival <enabled by default>
+    a.	Flow – Remind To Change Status Upon Arrival <enabled by default>
 b.	Flow – Remind To Change Status Upon Leaving <enabled by default>
 c.	Flow – Update Resource Location from Resco Audit <need to turn on>-checks for update on audit log to check resource lat/long
 d.	Flow – When Geofence Status Changes Send Booking Status Notifications <need to turn on>-calls a or b depending on scenario.
@@ -94,7 +90,7 @@ a.	Notify user about booking
 
 ## Deactivate workflows
 
-After switching to Power Automate, it is recommended you disable active Workflows for performance reasons as the WorkFlows would continue to execute but not complete. 
+After switching to Power Automate, the previously used workflows in Dynamics 365 will continue to execute but not complete. It is recommended to deactivate the active Workflows for each flow you turned on for performance reasons. 
 
 
 ## Customizing managed Field Service Power Automaten flows
