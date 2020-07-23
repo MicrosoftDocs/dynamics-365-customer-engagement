@@ -85,7 +85,7 @@ After completing the prerequisites, you can send outbound messages from your org
     
 ## Step 3: Set up a Power Automate flow
 
-Power Automate provides a low code platform for workflow and process automation. For more information, refer to [Power Automate documentation](https://docs.microsoft.com/en-us/power-automate/).
+Power Automate provides a low code platform for workflow and process automation. For more information, refer to [Power Automate documentation](https://docs.microsoft.com/power-automate/).
 
 1. Go to https://us.flow.microsoft.com/, sign in to your account, and click **My flows**.
 
