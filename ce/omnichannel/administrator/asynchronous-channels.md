@@ -25,8 +25,8 @@ ms.topic: article
 | Custom (Direct Line) | ✔             | ✔         | ✔            | ✔              | ✔           | ✔          | 
 
 > [!Note]
-> The Direct Line channel supports all cards, but it's up to the client to implement them.
-> Audio card support can be added to the Facebook channel, but it's up to the client to implement them.
+> The Direct Line channel supports all cards, but it's up to the client to implement them.<br />
+> Audio card support can be added to the Facebook channel, but it's up to the client to implement them.<br />
 > Video card support can be achieved by adding the video URL in the adaptive card. 
 
 ✔: Supported - Card is supported fully with the exception that some channels only support a subset of Card Actions and/or may limit the number of actions allowed on each card. Varies by channel.
