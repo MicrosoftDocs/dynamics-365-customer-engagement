@@ -4,7 +4,7 @@ description: "Instructions to integrate a bot in Omnichannel for Customer Servic
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 04/23/2020
+ms.date: 07/22/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -14,7 +14,7 @@ ms.topic: article
 
 Microsoft Power Virtual Agents allows organizations to automate routine conversations, letting agents focus on high-value interactions. When a conversation is escalated from a bot to a human agent, agents can see the full transcript of bot conversations and have complete context while engaging with customers.
 
-Once you have created your bot and connected it to an Omnichannel for Customer Service environment, you can go to the Omnichannel Administration app in order to add your bot to queues and configure context variables to route chat sessions to queues. 
+After you have created your bot and connected it to an Omnichannel for Customer Service environment, you can go to the Omnichannel Administration app in order to add your bot to queues and configure context variables to route chat sessions to queues. 
 
 When you integrate a Power Virtual Agents bot with Omnichannel for Customer Service, you get the following capabilities for bot conversations:
 
@@ -27,11 +27,11 @@ When you integrate a Power Virtual Agents bot with Omnichannel for Customer Serv
 
 ## Prerequisites
 
-* Product licenses - You need a product license for Power Virtual Agents ([start a trial](https://go.microsoft.com/fwlink/p/?LinkId=2092080&clcid=0x409)) and Omnichannel for Customer service ([learn more](https://docs.microsoft.com/dynamics365/customer-engagement/omnichannel/try-chat-for-dynamics365)).
-* Role - In order to successfully complete these steps, the signed-in user must be an Omnichannel Administrator. [Learn more about managing and assigning user roles in Omnichannel](add-users-assign-roles.md).
-* Azure Application ID - You will need an application registered in Azure prior to connecting to Omnichannel for Customer Service. [Learn more](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#create-an-azure-active-directory-application)
-* Bot - You must have a preconfigured bot that can integrate with Omnichannel for Customer Service. For more information, see [Configure seamless and contextual hand-off to Omnichannel for Customer Service](https://docs.microsoft.com/dynamics365/ai/customer-service-virtual-agent/configuration-hand-off-omnichannel).
-* Chat widget - You must have a preconfigured chat widget to enable the bot to communicate with end users. For more information, see [Add a chat widget](add-chat-widget.md).
+- Product licenses - You need a product license for Power Virtual Agents ([start a trial](https://go.microsoft.com/fwlink/p/?LinkId=2092080&clcid=0x409)) and Omnichannel for Customer service ([learn more](https://docs.microsoft.com/dynamics365/customer-engagement/omnichannel/try-chat-for-dynamics365)).
+- Role - In order to successfully complete these steps, the signed-in user must be an Omnichannel Administrator. [Learn more about managing and assigning user roles in Omnichannel](add-users-assign-roles.md).
+- Azure Application ID - You will need an application registered in Azure prior to connecting to Omnichannel for Customer Service. [Learn more](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#create-an-azure-active-directory-application)
+- Bot - You must have a preconfigured bot that can integrate with Omnichannel for Customer Service. For more information, see [Configure seamless and contextual hand-off to Omnichannel for Customer Service](https://docs.microsoft.com/dynamics365/ai/customer-service-virtual-agent/configuration-hand-off-omnichannel).
+- Chat widget - You must have a preconfigured chat widget to enable the bot to communicate with end users. For more information, see [Add a chat widget](add-chat-widget.md).
 
 ## Configure your Power Virtual Agents bot
 
@@ -43,19 +43,19 @@ Once the Power Virtual Agents bot is created and configured to work with Omnicha
 
     ![Virtual Agent bot settings](../media/virtual-agent-bot-settings.png)
     
-    The bot will appear in Omnichannel for Customer Service, and you just need to finish setting it up.
+    The bot will appear in Omnichannel for Customer Service.
 
 2. Assign the bot to an existing queue.
     
     ![Virtual Agent bot select queue](../media/virtual-agent-bot-select-queues.png)
 
-3. Click **Done**. Now you're on the bot profile page and you can see that your bot is connected. 
+3. Click **Done**. Now you're on the bot profile page and you can see that your bot is connected.
     
     ![Virtual Agent bot profile page](../media/virtual-agent-bot-profile.png)
     
     Your bot is ready to accept and respond to customer-initiated conversations.
     
- 4. Set escalation rules so the bot can route the queries to the appropriate agent. You can set up escalation rules in one of two ways:
+ 4. Set escalation rules so the bot can route the queries to the appropriate agent. You can set up escalation rules in one of the following ways:
  
     - **Add the bot to an existing human agent queue:**	If you add the bot to an existing human agent queue, you don’t need to change your existing routing rule. Existing routing rules will send incoming messages to the Power Virtual Agents. When a handoff is triggered, customers will be transferred from the Power Virtual Agents to the human agent according to the escalation routing rules.
     
@@ -64,14 +64,14 @@ Once the Power Virtual Agents bot is created and configured to work with Omnicha
 For information about working with queues, see [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md).
 
 > [!NOTE]
-> If you have only one queue with a bot and agents, and you didn't create a routing rule, the customer query is redirected to the same queue in case of escalation and picked up by an agent.
+> If you have only one queue with a bot and agents, and you didn't create a routing rule, the customer query is redirected to the same queue in case of escalation and is picked up by an agent.
 
 ### Create a bot queue and a human agent queue
 
 1. Select or create a work stream. For more information about work streams, see [Understand and create work streams](work-streams-introduction.md).
 
 ![Virtual Agent work streams](../media/virtual-agent-work-streams.png)
-    
+
 2. Create context variables.
 
 You must use the context variables that were created during setup for the bot to handle the customer queries appropriately. The context variable is used in routing the incoming customer queries to the appropriate bots and agents. For information about context variables, see [Contextual variables available upon hand-off](https://docs.microsoft.com/dynamics365/ai/customer-service-virtual-agent/how-to-handoff#contextual-variables-available-upon-hand-off).
@@ -94,6 +94,9 @@ Routing rules route the incoming customer queries to their respective queues. Ea
 Bots are developed to receive customer queries first, gain information of the query, and then pass the query to a human agent, if required. To achieve this behavior, you must add a bot user to the queue and configure routing rules in a way that the incoming customer queries are routed to the queue with bot user.
 
 Ensure to map the routing rules to the correct queues so that the queries are routed appropriately. For information about routing rules, see [Create and manage routing rules](routing-rules.md).
+
+> [!NOTE]
+> When you run a report on Power Virtual Agent activity, the number of bot sessions may differ from the number of sessions in Omnichannel for Customer Service.
 
 ## Known limitations
 
