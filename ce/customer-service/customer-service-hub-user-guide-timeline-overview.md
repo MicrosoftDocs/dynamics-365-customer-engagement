@@ -12,7 +12,7 @@ manager: shujoshi
 
 # Using Timeline 
 
-Timeline shows you information such as accounts or cases, arranged in a single stream. Managing activities in the timeline is faster and provides quick data viewability allowing you to see a combined view of customer's interactions across various channels, such as phone, email, even social activities. Create and view notes and posts connected to an entity record. Timeline control makes displaying information easy and efficient.
+The timeline is a single control that allows you to view many different activity types that occur for cases over time in a single stream. Some activities that can be logged in the timeline are notes, phone calls, emails, appointments, and tasks.
 
 Timeline allows you to:
 - Quick access on the command bar to perform common actions with ease.
@@ -21,41 +21,42 @@ Timeline allows you to:
 
 ## How to use timeline functionality 
 
-Before going into the timeline configuration, it is best to have an overview of the timeline functionality.  The following is an overview of how the timeline functionality works in each section on the entity form.  The timeline section on the entity form is rich in features and functionality to help you navigate and streamline efforts. 
+ The following is an overview of how the timeline functionality works in each section on the entity form.  The timeline section on the entity form is rich in features and functionality to help you navigate and streamline efforts. 
 
-Timeline iconography is displayed in the top right nav in the timeline:
+Timeline iconography is displayed in the top right nave in the timeline.  The following records when enabled by your system administrator, allow you to:
 
-- [Create a timeline record](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#create-a-timeline-record)
-- [Working with Filters](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#filter)
-- [Working with Records](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#expand-all-records)
-- [More Commands](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#more-commands)
-- [Search Records](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#search-records-on-timeline)
-- [Attachments](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#add-an-attachment-to-a-note-in-timeline) 
-- [Working with Posts and Notes](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#add-a-note-or-post-to-a-record-on-timeline)
+- [Create a timeline record](customer-service-hub-user-guide-timeline-overview.md#create-a-timeline-record)
+- [Work with Filters](customer-service/customer-service-hub-user-guide-timeline-overview.md#working-with-filters)
+- [Work with Records](customer-service/customer-service-hub-user-guide-timeline-overview.md#working-with-records)
+- [Explore more commands](customer-service/customer-service-hub-user-guide-timeline-overview,md#more-commands)
+- [Search Records](customer-service-hub-user-guide-timeline-overview.md#search-records-on-timeline)
+- [Add attachments](customer-service-hub-user-guide-timeline-overview,md#add-an-attachment-to-a-note-in-timeline) 
+- [Work with Posts and Notes](customer-service-hub-user-guide-timeline-overview.md#working-with-posts-and-notes)
 
 ## Create a timeline record
-The Create a timeline record allows you to quickly create appointments, send emails, even make notes and posts and associate them to other records. 
 
-1.	When you click on the **+** icon (**Create a timeline record**) displays a flyout with a listing of shortcut record types your Admin has enabled.
-2.	it displays a pop-up listing all the record types you enabled in the **Activities record settings**.
+When enabled by your system administrator, **create a timeline record** allows you to quickly create appointments, send emails, even make notes and posts and associate them to other records. 
+
+1.	The ![](media\timeline-create-a-record-icon.png "Create a timeline record")  icon allows you to **Create a timeline record**
+2.	A flyout appears that displays a list of record types your Admin has enabled for use.
 
     ![Create a timeline record](media\timeline-create-a-timeline-record-1.png "Create a timeline record")
 
-For information on timeline record functionality and configuration, see:
-- [How to configure activity record types]()
-- [Enable the ability to create directly from timeline]()
+For information on timeline record configuration, see:
+- [How to configure activity record types](customer-service-hub-user-guide-timeline-admin.md#how-to-configure-activity-record-types)
+- [Enable the ability to create directly from timeline](customer-service-hub-user-guide-timeline-admin.md#enable-the-ability-to-create-directly-from-timeline)
 
 ## Working with filters 
 
-The timeline **Filter** further streamlines your productivity by allowing you to customize your experience and view on the data that is relevant to your needs. 
+When enabled by your system administrator, The timeline **Filter** further streamlines your productivity by allowing you to customize your experience and view data relevant to you. 
 
-1. The **Filter** icon, when enabled, allows you to data filtering options for viewing data in the timeline section on the entity form. 
-2. When expanded, the **Filter** allows you filter and view data in a variety of options.  
+1. Click on the ![](media\timeline-filter-icon.png "Filter") icon  
+2. A list of items that is enabled by your system administrator is displayed that you can filter.  
 
     ![Timeline filter functionality](media\timeline-filter-1.png "Timeline filter functionality")
 
-For more information on timeline filter functionality and configuration see:
-- [Enable filter pane](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#enable-filter-pane) 
+For more information on timeline filter functionality and configurations see:
+- [Enable filter pane](customer-service-hub-user-guide-timeline-overview.md#enable-filter-pane) 
 - [How to filter activity types on timeline]() 
 
 ## Working with records
@@ -63,104 +64,83 @@ When working with records you have key information at a glance and view more by 
 
 ### Expand all records
 
-You can view at a glance timeline records in a collapsed format or expand a record to see more details for ease of use.
+ When enabled by your system administrator, you can view timeline records at a glance in a collapsed format or expand a record to see more details for ease of use.
 
-1.	All records listed on the form are displayed with a transparent white background. However, when you hover over an activity that you want to view, the background for that specific item turns grey.  Once you leave that record, the background becomes transparent again.
-2.	When the caret in the bottom right corner of the record is in the upright position (^) it is in the expanded view. When an record is in the expanded view it will display a list of commands in the top right corner. 
+1. When you click on the ![](media\timeline-expand-icon.png "Expand all records") icon it **expands all records** listed on your timeline.
+2. When the caret is in the upright position (^) in the bottom right corner the record is displaying in the expanded view and a list of commands will appear in the top right corner. Also, when you hover over an activity you want to view, the background turns grey.  Once you leave that record, the background becomes transparent again.
 3.	When the caret is in the down position (˅) the record is collapsed.
 
     ![Expand all records functionality](media\timeline-expand-all-records-1.png "Expand all records functionality")
 
-For more information on how to expand record functionality and configuration see:
-- [Expand all records in timeline]()
-- [Expand records with images in timeline]()
+For more information on exanding record functionality and configuration see:
+- [Expand all records in timeline](customer-service-hub-user-guide-timeline-admin.md#expand-all-records-in-timeline)
+- [Expand records with images in timeline](customer-service-hub-user-guide-timeline-admin.md#expand-records-with-images-in-timeline)
 
 ## More Commands
 
-The more commands icon houses refresh, sort, and email functionality.
+When enabled by your system administrator, the **More commands** icon houses refresh, sort, and email functionalities.
 
-1. Click on the **More commands** icon ( ) on the timeline which will display a pop-out.
-2.	**Refresh timeline** allows you to update the details in the timeline.
-3.	**Sort newer to older** / **Sort older to newer** allows you sort records.
-4.	**Always show email as conversations / Always show email as individual messages** enables or disables treaded emails. 
+1. When you click on the ![](media\timeline-more-commands.icon.png "More commands") icon it displays a fly-out list of **More commands**.
+2.	The **Refresh timeline** command allows you to update the details in the timeline.
+3.	The **Sort newer to older** / **Sort older to newer** command allows you sort records.
+4.	The **Always show email as conversations / Always show email as individual messages** comand enables or disables treaded emails. 
 
     ![More commands timeline functionality](media\timeline-more-commands.png "More commands timeline functionality")
 
-For more information on using the more command functionality and configuration see:
-- [Quick entry record type and sort order default]()
-- [Enable threaded email views in timeline]()
+For more information on using the **more command** feature and configuration see:
+- [Quick entry record type and sort order default](customer-service-hub-user-guide-timeline-admin.md#quick-entry-record-type-and-sort-order-default)
+- [Enable threaded email views in timeline](customer-service-hub-user-guide-timeline-admin.md#threaded-email-views-in-timeline)
 
 ### Threaded email views in timeline
 
 To save valuable space, emails with multiple replies are consolidated into email treads and collapsed.
 
-<!-- unable go to get lower case alpha bullets to match screenshot, displays correctly in preview but not on Docs Neeraja: Try the following table format. Remove it from the comment tag to view the output in preview
-
-|Callout|Description|
-|-----------|--------|
-| a | Emails with multiple responses are grouped into treaded emails. |
-| b | To view the complete string of email responses, click on show more in the bottom left corner of the last visible email in the tread. |
-|||
- -->
-
-<ol type="a">
-<li>Emails with multiple responses are grouped into treaded emails.</li>
-<li>To view the complete string of email responses, click on show more in the bottom left corner of the last visible email in the tread.</li>
-<li>When expanded, that last 10 most recent email responses in the tread will display.  To display more, click show more to expand view again.</li>
-<li>Emails that are tied together in the same thread display a linking line to one another.</li>
-</ol>
+1. Emails with multiple responses are grouped into treaded emails.
+2. To view the complete string of email responses, click on **show more** in the bottom left corner of the last visible email in the tread.
+3. When expanded, the last 10 most recent email responses in the tread will display.  To display more, click **show more** to expand the view again.
+4. Emails that are tied together in the same thread display a linking line to one another.
 
 ![Timeline threaded email view functionality](media\timeline-threaded-email-views-1.png "Timeline threaded email view functionality")
 
-### Enable threaded tmail views in timeline 
+### Enable threaded email views in timeline 
 
 Enabling the threaded email view is done via the timeline configuration in Power Apps.  Threaded email views must be done in this setting for each specific timeline, for the specific form, for the specific entity. 
 
 There are a couple of options for enabling threaded email views in timeline:
 
-<!-- unable go to get lower case alpha bullets to match screenshot, displays correctly in preview but not on Docs --> 
-
 **Option 1:** 
-<ol type="a">
-<li>Click on the <b>More commands</b> icon on the timeline which will display a pop-out.</li>
-<li>Select <b>Always show email as conversations</b>
-</li>
-</ol>
+1. Click on the **More commands** icon on the timeline which will display a fly-out.
+2. Select **Always show email as conversations**. Now your emails will display in timeline threaded together.
 
 ![Enable threaded email timeline view - option 1](media\timeline-threaded-email-views-2.png "Enable threaded email timeline view - option 1")
 
-<!-- unable go to get lower case alpha bullets to match screenshot, displays correctly in preview but not on Docs -->
-
 **Option 2:**
-<ol type="a">
-<li>From Power Apps, go to <b>Setting</b></li>
-<li>Select <b>Personalize Settings</b></li>
-<li>The Set Personal Options pop-up will appear.  Click on the <b>Email</b> tab</li>
-<li>Check the box next to <b>Show emails as conversation on Timeline</b></li>
-<li>Click <b>OK</b>
-</li>
-</ol>
+1. From Power Apps, go to **Setting**
+2. Select **Personalize Settings**
+3. The Set Personal Options pop-up will appear.  Click on the **Email** tab
+4. Check the box next to **Show emails as conversation on Timeline**
+5. Click **OK**
 
 ![Enable threaded email timeline view - option 2](media\timeline-threaded-email-views-3.png "Enable threaded email timeline view - option 2")
 
 ## Search records on timeline
 
-You can easily search for records in the timeline. When you search for a phrase in the timeline, it searches in the title of the record or body and description fields of the record then displays the record for you. 
+When enabled by your system administrator, you can easily search for records in the timeline. When you search for a phrase in the timeline, it searches in the title of the record or body and description fields of the record then displays the record for you. 
 
-1.	When enabled, you can use the **Search** bar on timeline to quickly find records
+1.	Use the **Search** bar on timeline to quickly find records
 2.	When you enter keywords or phrases, the search feature will retrieve and display results below the search bar. 
 3.	Keywords you used to perform your search will be highlighted.
 
 ![Enable threaded email timeline view - option 2](media\timeline-search-records-1.png "Enable threaded email timeline view - option 2")
 
-For more information on search functionality and configuration see:
-- [Enable search bar]()
+For more information see:
+- [Enable search bar](customer-service-hub-user-guide-timeline-overview.md#enable-search-bar)
 
 ## Add an attachment to a note in timeline
 
 You can add an attachment to a note in timeline to help users when you have file to share.
 
-1.	Click on the paperclip icon to attach a file to a note. You can only add an attachment to a note which is attached to a record. 
+1.	Click on the ![](media\timelilne-paperclip-icon.png "paperclip icon") paperclip icon to attach a file to a note. You can only add an attachment to a note which is attached to a record. 
 2. 	Select file you want to attach. You can only add one file per note.
 3. 	Edit note screen will appear.
 4.	Your attachment will display at the bottom of the edit note screen.
@@ -192,7 +172,7 @@ To add a mention or to reference a team member in a **Post**, use the following 
 ### Add references in a post to timeline records 
 To add a reference to a timeline record in a **Post**, use the following steps:
 
-1.	In the **timeline** section, select the **+** icon
+1.	In the **timeline** section, select the ![](media\timeline-create-a-record-icon.png "Create a timeline record")  icon
 2.	Select **Post**.
 3.	To add a link, type **#** in the box that appears.  
 4.	When you type #, a flyout opens with a list of records that you have recently accessed. These records could be of any record type, such as accounts, contacts or leads.  
@@ -204,7 +184,6 @@ To add a reference to a timeline record in a **Post**, use the following steps:
 
 ![Add references to timeline records](media\timeline-add-links-to-records-1.png "Add references to timeline records")
 
-
 ### Add a note or post to a record on timeline
 
 You can either add a **Note** or a **Post** to a record on timeline if you enable the features. 
@@ -215,8 +194,6 @@ You can either add a **Note** or a **Post** to a record on timeline if you enabl
 ![Add a note or post to a record on timeline](media\timeline-add-a-note-or-post-to-a-record.png "Add a note or post to a record on timeline")
 
 The message box has a rich text editor that enables you to use rich text and create well formatted content.
-
-<!-- unable go to get lower case alpha bullets to match screenshot, displays correctly in preview but not on Docs -->
 
 <ol type="a">
 <li>Enter a Subject in <b>Subject</b> field</li>
