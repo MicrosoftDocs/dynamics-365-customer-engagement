@@ -26,7 +26,7 @@ search.app:
   - D365FS
 ---
 
-# Use Power Automate flow with Field Service Mobile
+# Use Power Automate flows with Field Service Mobile
 
 Administrators can begin using Power Automate flow in replacement of Dynamics 365 workflows for Field Service Mobile processes like Geofencing, Geofence alerts, and push notifications.
 
@@ -43,12 +43,13 @@ To switch from Workflow to Power Automate navigate to Field Service Settings in 
 
 ## Turn on each flow
 
-By default, Power Automate which are shipped out of box are se in a “Off” state.  These Flows include:
-•	Mobile Audit Logging
-•	Geofencing
-•	Push Notifications
+Power Automate flows for Field Service Mobile abe set to “Off” By default. These Flows include:
+- Mobile Audit Logging
+- Geofencing
+- Push Notifications
 
 Power Automate is accessed by navigating to https://make.powerapps.com/ and select your environment. From there you will select the appropriate solution and Flow you wish to enable.
+
 To enable a flow simply click into the Flow and then select “Turn On”.
 
 To enable Geofencing Flow via Power Automate:
