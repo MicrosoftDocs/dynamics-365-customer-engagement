@@ -4,7 +4,7 @@ description: "Learn about managing session templates in Omnichannel Administrati
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/11/2020
+ms.date: 07/22/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -20,7 +20,7 @@ A session template in the Omnichannel Administration app is a combination of att
 
 When an agent accepts an incoming conversation request from a customer, a session is started. The system opens the **Customer Summary** application that you (an administrator) defined as an **Anchor Tab** in the application tab panel. The **Anchor Tab** can't be closed. Simultaneously, the system expands the communication panel for you to exchange messages with the customer.  
 
-Session templates are used to define the aforementioned session experience such as,
+Session templates are used to define the aforementioned session experience such as:
 
 - which application must be opened as an anchor tab in the application tab panel;
 - what are the additional application tabs that must be opened when a session is started;
@@ -41,6 +41,9 @@ The out-of-the-box session templates are as follows:
 - WeChat - Default session
 - WhatsApp - Default session
 
+  > [!Note]
+  > Session template customizations will be overwritten at solution upgrade. 
+  
 ## Create a session template
 
 To create a session template, follow these steps:
