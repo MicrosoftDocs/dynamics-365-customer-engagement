@@ -23,16 +23,15 @@ ms.topic: article
 
 ## Overview
 
-Outbound messaging enables organizations to dynamically send messages to their customers based on certain events through supported channels. In this preview, Omnichannel for Customer Service supports the sending of outbound messages through the SMS channel only.
+Outbound messaging enables organizations to send messages to their customers based on system-triggered or user-defined events through supported channels. In this preview, Omnichannel for Customer Service supports the sending of outbound messages through the SMS channel only.
 
 With outbound messaging, organizations can do the following:
 
 - Create message templates that can be adopted for outbound messages.
 - Configure outbound messages based on certain events on any entity and send the messages when those events are triggered.
+- Configure outbound messages to send manually based on non-system events.
 
 Organizations can send messages to customers automatically based on a system event, such as case creation. Organizations also can send notices to customers based on non-system events such as a shipping delays due to weather. 
-
-When the customer responds back to the outbound messages, the customer messages will be treated like any other incoming conversation that exists today in Omnichannel for Customer Service. The conversation will be routed and assigned to an agent, and the agent will be able to respond back to the customer.
 
 ## Prerequisites
 
@@ -75,7 +74,7 @@ After completing the prerequisites, you can send outbound messages from your org
 
     The **Conversation record** is set to automatically create a conversation in Omnichannel for Customer Service when a customer responds to the outbound message. This field cannot be modified.
 
-    Set **Show in timeline** to **Yes** for event-based messages that apply to the support journey of a specific set of customers. For bulk messages that will be sent to a high volume of customers, it is recommended to leave this setting at **No** in order to conserve resources in your Omnichannel environment and storage. 
+     **Show in timeline** displays the outbound message in the customer timeline and activities. Set to **Yes** for event-based messages that apply to the support journey of a specific set of customers. For bulk messages that will be sent to a high volume of customers, it is recommended to leave this setting at **No** in order to conserve resources in your Omnichannel environment and storage. 
     
     Choose a **Language** for the outbound message. 
     
@@ -115,9 +114,13 @@ Power Automate provides a low code platform for workflow and process automation.
     > ![Outbound message flow append variable](../media/outbound-message-flow2.png "Outbound message flow append variable")
 
     If you added slugs to your outbound messages, you must define them here as well. The example above shows the case ID and full name of the customer. For a list of supported slugs, refer to [Create message templates](create-message-templates.md).
+   
+5. You must also refer to the outbound message configuration ID from Omnichannel Administration app. 
     
-    
-    
+    > [!div class=mx-imgBorder]
+    > ![Outbound message configuration ID](../media/outbound-message-flow-config.png "Outbound message configuration ID")
+        
+
 When the customer responds back to the outbound messages, the customer messages will be treated like any other incoming conversation that exists today in Omnichannel for Customer Service. The conversation will be routed and assigned to an agent, and the agent will be able to respond back to the customer.
 
 ### See also
