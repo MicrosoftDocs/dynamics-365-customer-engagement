@@ -31,8 +31,20 @@ search.app:
 > [!Note]
 >
 
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/flow-solution-goefence-field-service.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/flow-turn-on.png)
+
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/flow-enhanced_background_processing.png)
+
 
 ## Configuration considerations
 ## Additional Notes
