@@ -26,11 +26,19 @@ search.app:
 
 With the use of AI, suggestions about similar cases help agents find the right solutions quickly, increase agent productivity, and provide better and faster service to customers. The AI model has the capability to process up to one million most recent cases for listing them at run time. 
 
-<!-- Xiaoying's comment: we can leverage what's in the release note to cover more about the business value and problem to solve in the introduction section. For example: "Agents typically use several resources to efficiently resolve customer cases and provide consistent responses. These include knowledge articles, collaborating with other agents or experts, and reviewing active or successfully resolved similar cases. Without artificial intelligence, agents spend time searching for and scanning knowledge articles to determine if they are relevant to the active case they are working on. This delays customer service and resolution time. Using AI helps proactively surface the best knowledge articles and similar cases by parsing through thousands of published articles and resolved cases, taking case context and previous history into account. It helps to quickly increase agent productivity, and provide better and faster service to customers."-->
+<!-- Xiaoying's comment: we can leverage what's in the release note to cover more about the business value and problem to solve in the introduction section. For example: 
+"Agents typically use several resources to efficiently resolve customer cases and provide consistent responses. These include knowledge articles, collaborating with other agents or experts, and reviewing active or successfully resolved similar cases. Without artificial intelligence, agents spend time searching for and scanning knowledge articles to determine if they are relevant to the active case they are working on. This delays customer service and resolution time. Using AI helps proactively surface the best knowledge articles and similar cases by parsing through thousands of published articles and resolved cases, taking case context and previous history into account. It helps to quickly increase agent productivity, and provide better and faster service to customers."
+-->
 
 ## How AI suggestions for similar cases and knowledge articles works
 
 ***To be provided by Xiaoying***
+<!-- Xiaoying's comments: proposed content:
+AI suggestions are powered by a set of pre-trained natrual language understanding models that help agents to quickly find relevant knowledge artilces or similar cases based on the active case contenxt. These AI models enable the following capabilities:
+* Knowledge articles and similar cases can be suggested based the sementic meaning in case context and knowledge article content. The model pre-processes published knowledge articles and resolved cases every day to prepare suggestion candidates. Once a case is created or updated, the model quickly finds out matching knowledge articles and similar cases from suggestion candidates. 
+* A brief summary is auto-enerated for each pre-processed knowledge article based on its content. When a knowledge article is suggested, both article title and the auto-generated summary are surfaced to agents, which helps them to get a better idea about the article before clicking through. 
+* In addition to the suggestions, agents can also tell why an article or similar case is suggested through a list of key phrases that are auto-extracted from knowledge articles and cases. These key phrases highlights the relevance between a suggestion and an active case, in addition to the confidence score (which is a percentage number indicating how much an article or similar case matches to the active case).  
+--> 
 
 ## Prerequisites
 
@@ -40,6 +48,7 @@ With the use of AI, suggestions about similar cases help agents find the right s
 - *Any roles that are required?*
 <!-- Xiaoying's comment: it requires the admin role-->
 <!-- Xiaoying's comment: in addition, the feature is only available to organizations with base language as English. Maybe add a note here or seperately that the feature only supports English content in this release. -->
+<!-- Xiaoying's comment: also add a note about the geo availability, i.e. the feature is available to the organizations created in the following geolocations: NAM, SAM, CAN, GBR, EUR, JPN, IND, OCE, APJ -->
 
 ## Enable AI suggestions for similar cases
 
