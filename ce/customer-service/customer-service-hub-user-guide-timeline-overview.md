@@ -109,7 +109,7 @@ Enabling the threaded email view is done via the timeline configuration in Power
 There are a couple of options for enabling threaded email views in timeline:
 
 **Option 1:** 
-1. Click on the **More commands** icon on the timeline which will display a fly-out.
+1. Click on the ![](media\timeline-more-commands.icon.png "More commands") **More commands** icon on the timeline which will display a fly-out.
 2. Select **Always show email as conversations**. Now your emails will display in timeline threaded together.
 
 ![Enable threaded email timeline view - option 1](media\timeline-threaded-email-views-2.png "Enable threaded email timeline view - option 1")
