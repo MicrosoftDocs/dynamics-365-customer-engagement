@@ -10,6 +10,11 @@ ms.author: lerobbin
 manager: shujoshi
 ---
 
-# Migration FAQs
+# Migration Tool FAQs
 
 Find answers to common questions regarding migration.
+
+<List migration tool faqs here>
+
+### See Also
+<li></li>
