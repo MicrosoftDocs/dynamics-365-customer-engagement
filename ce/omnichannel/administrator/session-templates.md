@@ -28,6 +28,9 @@ Session templates are used to define the aforementioned session experience such 
 
 You can create session templates in the Omnichannel Administration app or use the out-of-the-box templates. In your environment, as an administrator, you can create multiple session templates.
 
+  > [!Note]
+  > Session template customizations will be overwritten at solution upgrade. 
+
 The out-of-the-box session templates are as follows:
 
 - Chat - Default session
@@ -40,9 +43,6 @@ The out-of-the-box session templates are as follows:
 - Twitter - Default session
 - WeChat - Default session
 - WhatsApp - Default session
-
-[!Note]
-Session template customizations will be overwritten at solution upgrade. 
   
 ## Create a session template
 
