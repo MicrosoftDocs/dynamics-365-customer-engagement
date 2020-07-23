@@ -16,16 +16,18 @@ ms.topic: article
 
 ## Card support
 
-| Channel              | Adaptive card | Hero card | Receipt card | Thumbnail card | Signin card | Audio card | Video card | Animation card |
-|----------------------|---------------|-----------|--------------|----------------|-------------|------------|------------|----------------|
-| Microsoft Teams      | ✔             | ✔         | ✔            | ✔              | ✔           | ❌          | ❌          | ❌              |
-| Facebook             | ⚠🔶           | ✔         | ✔            | ✔              | ✔           | ❌          | ❌          | ❌              |
-| Line                 | ⚠🔶           | ✔         | ✔            | ✔              | ✔           | 🌐         | ❌          | ❌              |
-| Custom (Telegram)    | ⚠🔶           | ✔         | ✔            | ✔              | ✔           | 🌐         | ❌          | ❌              |
-| Custom (Direct Line) | ✔             | ✔         | ✔            | ✔              | ✔           | ✔          | ❌          | ❌              |
+| Channel              | Adaptive card | Hero card | Receipt card | Thumbnail card | Signin card | Audio card |
+|----------------------|---------------|-----------|--------------|----------------|-------------|------------|
+| Microsoft Teams      | ✔             | ✔         | ✔            | ✔              | ✔           | ❌          | 
+| Facebook             | ⚠🔶           | ✔         | ✔            | ✔              | ✔           | ✔          | 
+| Line                 | ⚠🔶           | ✔         | ✔            | ✔              | ✔           | 🌐         | 
+| Custom (Telegram)    | ⚠🔶           | ✔         | ✔            | ✔              | ✔           | 🌐         | 
+| Custom (Direct Line) | ✔             | ✔         | ✔            | ✔              | ✔           | ✔          | 
 
 > [!Note]
-> The Direct Line channel technically supports all cards, but it's up to the client to implement them.
+> The Direct Line channel supports all cards, but it's up to the client to implement them.
+> Audio card support can be added to the Facebook channel, but it's up to the client to implement them.
+> Video card support can be achieved by adding the video URL in the adaptive card. 
 
 ✔: Supported - Card is supported fully with the exception that some channels only support a subset of Card Actions and/or may limit the number of actions allowed on each card. Varies by channel.
 
@@ -83,7 +85,7 @@ Suggested action is supported fully with the exception that some channels may li
 | Custom messaging (Direct Line) | Yes. Emoji in text, like “😀”                           |
 
 > [!Note]
-> The Direct Line channel technically supports emojis, but it's up to the client to implement them.
+> The Direct Line channel supports emojis, but it's up to the client to implement them.
 
 ## Sticker support
 
@@ -91,7 +93,7 @@ Suggested action is supported fully with the exception that some channels may li
 |--------------------|---------------------------------------------------------------------|
 | Facebook           | Yes, as .PNG image                                                  |
 | Twitter            | Not supported.                                                      |
-| Microsoft Teams    | Yes, in .HTML format and attachment URL (private)                   |
+| Microsoft Teams    | Not supported.                    |
 | WeChat             | Not supported. Recipient sees "Unsupported message" text.           |
 | LINE               | Not supported. Recipient sees "Sticker" text.                       |
 | WhatsApp           | Not supported.                                                      |
@@ -99,7 +101,7 @@ Suggested action is supported fully with the exception that some channels may li
 | Custom messaging (Direct Line) | Yes, as sticker image                                   |
 
 > [!Note]
-> The Direct Line channel technically supports stickers, but it's up to the client to implement them.
+> The Direct Line channel supports stickers, but it's up to the client to implement them.
 
 ### See also
 
