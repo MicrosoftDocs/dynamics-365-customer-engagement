@@ -91,7 +91,7 @@ For more information on using the **more command** feature and configuration see
 - [Quick entry record type and sort order default](customer-service-hub-user-guide-timeline-admin.md#quick-entry-record-type-and-sort-order-default)
 - [Enable threaded email views in timeline](customer-service-hub-user-guide-timeline-admin.md#threaded-email-views-in-timeline)
 
-### Threaded email views in timeline
+## Threaded email views in timeline
 
 To save valuable space, emails with multiple replies are consolidated into email treads and collapsed.
 
@@ -102,7 +102,7 @@ To save valuable space, emails with multiple replies are consolidated into email
 
 ![Timeline threaded email view functionality](media\timeline-threaded-email-views-1.png "Timeline threaded email view functionality")
 
-## Enable threaded email views in timeline 
+### Enable threaded email views in timeline 
 
 Enabling the threaded email view is done via the timeline configuration in Power Apps.  Threaded email views must be done in this setting for each specific timeline, for the specific form, for the specific entity. 
 
