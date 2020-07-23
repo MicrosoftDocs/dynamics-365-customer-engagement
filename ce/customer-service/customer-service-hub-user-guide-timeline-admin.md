@@ -89,24 +89,24 @@ In the body of the entity form located in the center there is an area titled TIM
 
 ![Understanding the timeline component on the form](media\timeline-component-2.png "Understanding the timeline component on the form")
 
-### How to configure timeline component
+## How to configure timeline component
 
 The timeline component is rich in features and functionality that can be configured and tailored to support specific business needs.  The Timeline form is comprised of features and functionality you configure in the timeline component which is then displayed in the entity form.
 
 The following overview provides a detailed breakdown of each timeline feature, what it supports, how it is configured, and how it is displayed in the corresponding timeline section on the entity form:
 
-- Display options 
+- **Display options** 
   - [Timeline component name](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#timeline-component-name)
   - [Records shown on page](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#records-shown-on-page)
   - [Record types shown](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#record-types-shown) 
   - [Advanced](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#advanced)
 
-- Record settings 
+- **Record settings** 
   - [Activities](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#advanced)
   -	[Notes](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#notes)
   -	[Posts](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#posts)
 
-- [How to create and add custom activities](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-custom-activity-in-timeline)
+- **[How to create and add custom activities](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-custom-activity-in-timeline)**
 
 ## Display options 
 
@@ -313,10 +313,10 @@ When you expand the **Activities record settings** on the timeline component sec
 
 1.	Click the upward facing caret (^) to expand and view **Activities** under **Record settings**.
 2.	Once expanded, a list of **Activity types** is displayed.
-3.	When you click on an **Activity type** a pop-up window appears. 
+3.	When you click on an **Activity type** a fly-out appears. 
 4.	To enable an **Activity type**, click the box next to Enable and select Done.
 5.	To disable an **Activity type**, uncheck the box next to **Enable** and select **Done**. This will grey out all other items in the box and disable the activity type from displaying on the timeline.  This also disables the activity type from being created or viewed in timeline.  
-6.	When you enable an **Activity type**, it will appear in a drop down box when you click on the **Create a timeline record** icon (+) in the top right nav in the timeline section of the entity record. 
+6.	When you enable an **Activity type**, it will appear in a drop down box when you click on the ![](media\timeline-create-a-record-icon.png "Create a timeline record") icon to **Create a timeline record**  in the top right nav in the timeline section of the entity record. 
 7.	Also, the **Activity type** can be viewed in the body of the timeline section of the form. 
 
 > [!NOTE]
@@ -338,7 +338,7 @@ Status tags match the status filter and displays in the timeline to help you to 
 Having the ability to quickly click and create an activity such as, an email, task, appointment, etc. streamlines productivity.  Admins have the ability to enable activity types so they can be created directly on the timeline.    
 
 10.	Check the box next to **Create directly from timeline** to enable.
-11.	When enabled, the activity type will appear in a drop down box when you click on the Create a timeline record icon (+) in the top right nav in the timeline section of the entity record.
+11.	When enabled, the activity type will appear in a drop down box when you click on the ![](media\timeline-create-a-record-icon.png "Create a timeline record") **Create a timeline record** icon in the top right nav in the timeline section of the entity record.
 
 ![Display options - Advanced - Enable the ability to create directly from timeline](media\timeline-enable-ability-to-create-directly-from-timeline-1.png "Display options - Advanced - Enable the ability to create directly from timeline")
 
