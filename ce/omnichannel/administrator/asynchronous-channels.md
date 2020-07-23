@@ -19,14 +19,13 @@ ms.topic: article
 | Channel              | Adaptive card | Hero card | Receipt card | Thumbnail card | Signin card | Audio card |
 |----------------------|---------------|-----------|--------------|----------------|-------------|------------|
 | Microsoft Teams      | ✔             | ✔         | ✔            | ✔              | ✔           | ❌          | 
-| Facebook             | ⚠🔶           | ✔         | ✔            | ✔              | ✔           | ✔          | 
+| Facebook             | ⚠🔶           | ✔         | ✔            | ✔              | ✔           | 🌐         | 
 | Line                 | ⚠🔶           | ✔         | ✔            | ✔              | ✔           | 🌐         | 
 | Custom (Telegram)    | ⚠🔶           | ✔         | ✔            | ✔              | ✔           | 🌐         | 
 | Custom (Direct Line) | ✔             | ✔         | ✔            | ✔              | ✔           | ✔          | 
 
 > [!Note]
-> The Direct Line channel supports all cards, but it's up to the client to implement them.<br />
-> Audio card support can be added to the Facebook channel, but it's up to the client to implement it.<br />
+> The Direct Line channel supports all the above mentioned cards, but it's up to the client to implement them.<br />
 > Video card support can be achieved by adding the video URL in the adaptive card. 
 
 ✔: Supported - Card is supported fully with the exception that some channels only support a subset of Card Actions and/or may limit the number of actions allowed on each card. Varies by channel.
