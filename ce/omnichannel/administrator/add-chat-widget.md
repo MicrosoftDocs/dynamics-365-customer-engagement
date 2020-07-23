@@ -53,6 +53,11 @@ manager: shujoshi
     | Online | Subtitle | Specify the name for the widget that's displayed for customers in the chat widget. | We're Online |
     | Online | Position | Specify the position of the widget. | Bottom right |
     | Online | Operating hours | Select an operating hour window for the chat widget from the list. <br> More information: [Create and manage operating hours](create-operating-hours.md) | Regular shift |
+    | Offline | Show widget during offline hours | Set to **Yes** to display the chat widget during the offline hours.| Yes. The default is No.|
+    | Offline | Theme color | Select a color from the list. | Grey |
+    |Offline | Title | Specify a title to be displayed. | We're offline. |
+    | Offline | Subtitle | Optinally, specify a subtitle. | No agents are available. |
+    |||||
 
     > [!div class=mx-imgBorder]
     > ![Configure the design of a chat widget](../media/oc-chat-widget-design-tab.png "Configure the design of a chat widget")
