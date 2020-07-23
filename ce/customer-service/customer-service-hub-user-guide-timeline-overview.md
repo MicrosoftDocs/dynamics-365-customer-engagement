@@ -195,14 +195,12 @@ You can either add a **Note** or a **Post** to a record on timeline if you enabl
 
 The message box has a rich text editor that enables you to use rich text and create well formatted content.
 
-<ol type="a">
-<li>Enter a Subject in <b>Subject</b> field</li>
-<li>Use the rich text editor to format and structure your messages.</li>
-<li>Expand the rich text editing tool to access the full menu of formatting features.</li>
-<li>Use the paperclip to attach files to your note.</li>
-<li>View and confirm file has been attached to your note.</li>
-<li>Click Add note to send.</li>
-</ol>
+1. Enter a Subject in **Subject** field
+2. Use the rich text editor to format and structure your messages.
+3. Expand the rich text editing tool to access the full menu of formatting features.
+4. Use the paperclip to attach files to your note.
+5. View and confirm file has been attached to your note.
+6. Click Add note to send.
 
 ![Timeline notes rich text editor](media\timeline-take-a-note.png "Timeline notes rich text editor")
 
@@ -213,12 +211,12 @@ The message box has a rich text editor that enables you to use rich text and cre
 > - If you create a rich text editor note in the Unified Interface, and then view the note in the Web Client, it will display in HTML syntax.
 
 For more information on Notes and Post functionality and configuration see:
-- [Record types shown]() 
-- [Quick entry record type]() 
-- [Record Settings]() 
-- [Notes on timeline]() 
+- [Record types shown](customer-service-hub-user-guide-timeline-overview.md#record-types-shown) 
+- [Quick entry record type](customer-service-hub-user-guide-timeline-overview.md#quick-entry-record-type-and-sort-order-default) 
+- [Record Settings](customer-service-hub-user-guide-timeline-overview.md#record-settings) 
+- [Notes on timeline](customer-service-hub-user-guide-timeline-overview.md#notes-on-timeline)
 
-For more information on the rich text editor feature, here is a listing of it's functionality:
+For more information on the rich text editor feature, here is a listing of functionality:
   
 |Icon | Name | Shortcut key | Description |
 |----------------------|-------------------------|-----------------------------|-----------------------------|
@@ -251,11 +249,9 @@ For more information on the rich text editor feature, here is a listing of it's 
 |![Add a Table](../customer-service/media/add-table.png "Add a Table")| Add a Table |  | Add a table to your content. <br /><br />After adding a table, you can do any of the following:<br /><br /><ul><li>Resize table columns by clicking and dragging your mouse to resize to the columns to the desired width.</li><li>Select one or several cells within a table and apply specific formatting, add links to the selection, or cut, copy, or paste entire rows or columns.</li><li>Right-click to access the properties. This supports features such as cell type, width and height, word wrapping, alignment, merging and splitting cells horizontally and vertically, inserting or deleting rows and columns, row and column span, and cell and border color.</li></ul>|
 |![Expand Toolbar](../customer-service/media/show-more.png "Expand Toolbar")| Expand Toolbar |  | Displays when the toolbar is collapsed and not all options appear. Click to expand the toolbar and make all options visible. |
 
-The rich text editor is enabled by default. Your   Administrator can enable or disable the editor for you. For more information, see [Enable rich-text editor for notes in timeline](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-or-disable-rich-text-editor-for-notes-in-timeline "Enable rich-text editor for notes in timeline").
+The rich text editor is enabled by default. Your system administrator can enable or disable the editor for you. For more information, see [Enable rich-text editor for notes in timeline](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-or-disable-rich-text-editor-for-notes-in-timeline "Enable rich-text editor for notes in timeline").
 
 
 ### See Also
 
 [Timeline FAQs](timeline-faqs.md)
-
-[Set up timeline section (control)](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/set-up-timeline-control)
