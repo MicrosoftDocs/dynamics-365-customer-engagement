@@ -101,6 +101,8 @@ Power Automate provides a low code platform for workflow and process automation.
     - **Instant:** Send a message manually about a non-system event, for example, a shipping delay or a sale on products.
     
     - **Scheduled:** Send a message at a point in time, one or more times, and/or after an amount of time that you specify.
+    
+    For more information about the current limits and configuration details for flows, refer to [Limits and configuration in Power Automate](https://docs.microsoft.com/power-automate/limits-and-config).
 
 3. When you create a flow, you must add the action, incident_msdyn_ocoutboundmessages.
 
@@ -113,6 +115,8 @@ Power Automate provides a low code platform for workflow and process automation.
     > ![Outbound message flow append variable](../media/outbound-message-flow2.png "Outbound message flow append variable")
 
     If you added slugs to your outbound messages, you must define them here as well. The example above shows the case ID and full name of the customer. For a list of supported slugs, refer to [Create message templates](create-message-templates.md).
+    
+    
     
 When the customer responds back to the outbound messages, the customer messages will be treated like any other incoming conversation that exists today in Omnichannel for Customer Service. The conversation will be routed and assigned to an agent, and the agent will be able to respond back to the customer.
 
