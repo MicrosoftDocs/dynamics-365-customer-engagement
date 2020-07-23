@@ -1,6 +1,6 @@
 ---
-title: "Migration FAQs | Microsoft Docs"
-description: "Migration FAQs"
+title: "Migration Tool FAQs | Microsoft Docs"
+description: "Migration Tool FAQs supporting ARC, SLA, and other legacy items"
 ms.date: 08/03/2020
 ms.service:
   - "dynamics-365-customerservice"

@@ -12,7 +12,7 @@ manager: shujoshi
 
 # Using Timeline 
 
-The timeline is a single control that allows you to view many different activity types that occur for cases over time in a single stream. Some activities that can be logged in the timeline are notes, phone calls, emails, appointments, and tasks.
+The timeline is a single control that allows you to view many different activity types that are connected to an entity record that occur over time in a single stream. Some activities that can be logged in the timeline are notes, phone calls, emails, appointments, and tasks.
 
 Timeline allows you to:
 - Quick access on the command bar to perform common actions with ease.
@@ -21,9 +21,9 @@ Timeline allows you to:
 
 ## How to use timeline functionality 
 
- The following is an overview of how the timeline functionality works in each section on the entity form.  The timeline section on the entity form is rich in features and functionality to help you navigate and streamline efforts. 
+The following is an overview of how the timeline functionality works in each section on the entity form.  The timeline section on the entity form is rich in features and functionality to help you navigate and streamline efforts. 
 
-Timeline iconography is displayed in the top right nave in the timeline.  The following records when enabled by your system administrator, allow you to:
+The iconography displayed in the top right nav in the Timeline gives quick access to the following capabilities, when enabled by your system administrator:
 
 - [Create a timeline record](customer-service-hub-user-guide-timeline-overview.md#create-a-timeline-record)
 - [Work with Filters](customer-service/customer-service-hub-user-guide-timeline-overview.md#working-with-filters)
@@ -48,9 +48,9 @@ For information on timeline record configuration, see:
 
 ## Working with filters 
 
-When enabled by your system administrator, The timeline **Filter** further streamlines your productivity by allowing you to customize your experience and view data relevant to you. 
+When enabled by your system administrator, the timeline **Filter** further streamlines your productivity by allowing you to customize your experience and view data relevant to you. 
 
-1. Click on the ![](media\timeline-filter-icon.png "Filter") icon  
+1. The ![](media\timeline-filter-icon.png "Filter") icon allows you to **Filter**  
 2. A list of items that is enabled by your system administrator is displayed that you can filter.  
 
     ![Timeline filter functionality](media\timeline-filter-1.png "Timeline filter functionality")
@@ -67,7 +67,7 @@ When working with records you have key information at a glance and view more by 
  When enabled by your system administrator, you can view timeline records at a glance in a collapsed format or expand a record to see more details for ease of use.
 
 1. When you click on the ![](media\timeline-expand-icon.png "Expand all records") icon it **expands all records** listed on your timeline.
-2. When the caret is in the upright position (^) in the bottom right corner the record is displaying in the expanded view and a list of commands will appear in the top right corner. Also, when you hover over an activity you want to view, the background turns grey.  Once you leave that record, the background becomes transparent again.
+2. When the caret is in the upright position (^) in the bottom right corner, the record is displaying in the expanded view and a list of commands will appear in the top right corner. Also, when you hover over an activity you want to view, the background turns grey.  Once you leave that record, the background becomes transparent again.
 3.	When the caret is in the down position (˅) the record is collapsed.
 
     ![Expand all records functionality](media\timeline-expand-all-records-1.png "Expand all records functionality")
@@ -102,7 +102,7 @@ To save valuable space, emails with multiple replies are consolidated into email
 
 ![Timeline threaded email view functionality](media\timeline-threaded-email-views-1.png "Timeline threaded email view functionality")
 
-### Enable threaded email views in timeline 
+## Enable threaded email views in timeline 
 
 Enabling the threaded email view is done via the timeline configuration in Power Apps.  Threaded email views must be done in this setting for each specific timeline, for the specific form, for the specific entity. 
 
@@ -117,7 +117,7 @@ There are a couple of options for enabling threaded email views in timeline:
 **Option 2:**
 1. From Power Apps, go to **Setting**
 2. Select **Personalize Settings**
-3. The Set Personal Options pop-up will appear.  Click on the **Email** tab
+3. The **Set Personal Options** fly-out will appear.  Click on the **Email** tab
 4. Check the box next to **Show emails as conversation on Timeline**
 5. Click **OK**
 
@@ -125,7 +125,7 @@ There are a couple of options for enabling threaded email views in timeline:
 
 ## Search records on timeline
 
-When enabled by your system administrator, you can easily search for records in the timeline. When you search for a phrase in the timeline, it searches in the title of the record or body and description fields of the record then displays the record for you. 
+When enabled by your system administrator, you can easily search for records in the timeline. When you search for a phrase in the timeline, it searches in the title/subject of the record or body/description fields of the record then displays the record for you. 
 
 1.	Use the **Search** bar on timeline to quickly find records
 2.	When you enter keywords or phrases, the search feature will retrieve and display results below the search bar. 
@@ -201,12 +201,12 @@ The message box has a rich text editor that enables you to use rich text and cre
 3. Expand the rich text editing tool to access the full menu of formatting features.
 4. Use the paperclip to attach files to your note.
 5. View and confirm file has been attached to your note.
-6. Click Add note to send.
+6. Click **Add note** to send.
 
 ![Timeline notes rich text editor](media\timeline-take-a-note.png "Timeline notes rich text editor")
 
 > [!NOTE]
-> - Only Notes have rich text capability. 
+> - Only **Notes** have rich text capability. 
 > - You can only format the message (body) of a note, not the title.
 > - Rich text editor is only available for Unified Interface, not the web client.
 > - If you create a rich text editor note in the Unified Interface, and then view the note in the Web Client, it will display in HTML syntax.
