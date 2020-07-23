@@ -18,7 +18,7 @@ ms.topic: article
 
 Omnichannel queues are used to collect and distribute workload among agents. Workload includes conversations, such as Chat or SMS. Agents are added as queue members to the queues and the workload is distributed among these agents.
 
-Omnichannel queues are proxies for skills or domains. For example, you can create separate queues for billing issues, investment issues, products, and so on. When a customer query comes for these issue types, it is routed to its designated queue. You can also set up customer support availability matrix by using a combination of queues and operating hour schedules. 
+Omnichannel queues are proxies for skills or domains. For example, you can create separate queues for billing issues, investment issues, products, and so on. When a customer query comes for these issue types, it is routed to its designated queue. You can also set up customer support availability matrix by using a combination of queues, operating hour schedules, and routing rules.
     
 > [!div class=mx-imgBorder]
 > ![Omnichannel queues](../media/oc-queues.png)
