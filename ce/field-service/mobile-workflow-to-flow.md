@@ -40,7 +40,7 @@ Power Automate has many benefits, including the ability to connect and run workf
 
 To switch from Workflow to Power Automate navigate to Field Service Settings in CRM and switch “Use Enhanced Background Processing” to “Yes”. This will move background processing from Work Flow to Power Automate and any enabled Power Automate flows would execute.  Please note this change is at Field Service level, so by making this change all Field Service Workflows would be moved to Power automate.
 
-After switching to Power Automate, it is recommended you disable active Workflows for performance reasons as the WorkFlows would continue to execute but not complete. 
+
 
 
 > [!div class="mx-imgBorder"]
@@ -93,28 +93,30 @@ a.	Notify user about booking
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/flow-turn-on.jpg)
 
+## Deactivate workflows
+
+After switching to Power Automate, it is recommended you disable active Workflows for performance reasons as the WorkFlows would continue to execute but not complete. 
+
+
+## Customize push notification flow
 
 Custom Workflows for Power Automate
 
-If you have custom Workflows and plan to migrate to Power Automate, you will need to re-create the functionality in Power Automate. Power Automate offers a variety of connectors to accomplish your customized capabilities.
-
+Modifying Out of Box Power Automate Flows
+Flows which are shipped out of box are Managed and cannot be changed. If you wish to make updates to the default flows, such as altering the text of a Push Notification, you will need to create a clone of the Power Automate flow. From this point it will be an un-managed flow which will no longer receive updates.
 
 Mobile Push Notification
 Any custom Push Notifications which were setup as a custom Workflow activity would need to be re-created in Power Automate Flow. There is a new custom action “msdyn_SendEntityNotification” which can be included in your flow to call Push Notifications for Field Service Mobile.
 
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/flow-custom-push-notification.png)
+
+If you have custom Workflows and plan to migrate to Power Automate, you will need to re-create the functionality in Power Automate. Power Automate offers a variety of connectors to accomplish your customized capabilities.
 
 
-
-
-## Configuration considerations
 ## Additional Notes
 
-Other considerations
-Modifying Out of Box Power Automate Flows
-•	Flows which are shipped out of box are Managed and cannot be changed. If you wish to make updates to the default flows, such as altering the text of a Push Notification, you will need to create a clone of the Power Automate flow. From this point it will be an un-managed flow which will no longer receive updates.
-Localization:
-•	<I’m not sure what to say about this>? Are thing slike the OOB “Message” in push notifications included with localization work item https://msazure.visualstudio.com/One/_workitems/edit/6973525
 Licensing
 •	Creating custom Power Automate flows will require appropriate licensing for Powe Automate. See Power Automate Pricing.
 
