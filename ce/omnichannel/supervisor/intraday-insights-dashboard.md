@@ -106,7 +106,7 @@ This section of the dashboard consists of the following KPIs:
 | Ongoing Conversations | The number of conversations that are in progress. |
 | Avg handle time (min) | The average conversation handle time, in minutes. |
 
-You can also view specific details about an agent by right-clicking the agent's name, and then selecting **Drill through** > **Agent insights**, as shown on the following screen.
+You can also view specific details about an agent by right-clicking the agent's name, and then selecting **Drill through** > **Agent details**, as shown on the following screen.
 
 > [!div class=mx-imgBorder]
 > ![Access agent's specific details](../media/intraday-agent-drill-through.png "Access specific details for an agent")
