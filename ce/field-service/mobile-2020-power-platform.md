@@ -76,7 +76,7 @@ Field Service Mobile is recommended for more **complex** use cases where you may
 | Allow technician to force data sync | Technician | 2020 release wave 2 | Yes | Technician can manually force data sync. |
 | [Remote Assist](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/overview-hololens) | Integration | 2020 release wave 2 | Yes | Access to help from remote collaborators with integrated Remote Assist. |
 | Bulk-add users  | Admin | 2020 release wave 2 | Yes | Quickly assign offline data sync profile to users. |
-| Time entry  | Technician | 2020 release wave 2 | 2020 release wave 2 | |
+| Time entry  | Technician | 2020 release wave 2 | Yes | |
 | Check list for service tasks  | Technician | 2020 release wave 2| Yes | Check list for quickly mark task as complete. |
 | [Inspections](inspections.md) | Technician | 2020 release wave 2 | No | Field Service technician can find and capture inspections associated with a work order. |
 

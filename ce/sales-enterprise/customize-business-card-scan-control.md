@@ -57,7 +57,7 @@ To edit the mappings:
 
 
 > [!NOTE]
-> Sales people must have the Common Data Service User role assigned to them to use the business card scan control.
+> Salespeople must have the Common Data Service User role assigned to them to use the business card scan control.
 
 
 ### See also

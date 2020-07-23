@@ -21,7 +21,7 @@ This article helps you troubleshoot and resolve issues related to the Lead entit
 - [Issue: Account or contact-related fields aren't populating on the Lead form](#account-contact-fields-not-populating)
 
 <a name="lead_qualification"> </a>
-## Lead qualification issues and resolution (sales people)
+## Lead qualification issues and resolution (salespeople)
 
 <a name="qualify_lead"> </a>
 ### How do I convert or qualify my leads?
@@ -45,6 +45,7 @@ There are multiple errors you can get while qualifying a lead.
 4.  [Access denied or Insufficient permissions](#AccessDenied)
 5.  [The lead is closed. You cannot convert or qualify a lead that is already closed.](#LeadClosed)
 6.  [Invalid status code error](#invalid-status-code) for a contact or an opportunity
+7.  [Can't proceed to the next stage when I select **Next stage** on the business process flow.](#cant-proceed-to-next-stage)
 
 The following sections describe each of these errors and how you can resolve them.
 
@@ -120,9 +121,9 @@ Make sure the lead that you're trying to qualify or disqualify is open and not a
 
 **Reason:**
 
-When you qualify a lead, some of the attributes in the mapping of 1:N (one-to-many) relationships between **Lead to Contact** or **Lead to Opportunity** get copied from the Lead to Contact or Lead to Opportunity entities.
+When you qualify a lead, some of the attributes in the mapping of 1:N (one-to-many) relationships between **Lead to Contact** or **Lead to Opportunity** are copied from the Lead to Contact or Lead to Opportunity entities.
 
-Status codes are defined as an option set. This issue occurs when a user adds a new option into the option set in the Lead entity, but doesn't add the option to the option set for the target entity.
+Status codes are defined as an option set. This issue occurs when a user adds a new option to the option set in the Lead entity, but not to the option set in the target entity.
 
 For entity mapping to work, option sets&mdash;such as status codes&mdash;should be the same between lead and contact or lead and opportunity, because the lead qualification process copies the status code value from lead to contact or from lead to opportunity. If the status codes don't match, the process fails.
 
@@ -166,6 +167,19 @@ Ensure that the status codes of Lead and Contact entities, or Lead and Opportuni
 > [!NOTE]
 > - If you're still getting the error, remove the mapping of the status code between the Lead entity and the target entity (Account, Contact, or Opportunity).
 > - To add new status codes that have the same values, import the new option set values through a managed solution for the Contact or Opportunity entity.
+
+<a name="cant-proceed-to-next-stage"> </a>
+#### 7. Can't proceed to the next stage when I select **Next stage** on the business process flow (lead to opportunity sales process).
+
+**Reason:**
+
+This is by design. When you haven't qualified the record, there will be no opportunity associated with it and you can't proceed to next stage.  
+
+**Resolution:**
+ 
+To resolve this issue, you must qualify the lead. Qualifying the lead automatically moves the lead to next stage (creating an opportunity). 
+
+
 
 <a name="lead_qualification_for_admins"> </a> 
 ## Lead qualification issues and resolution (for system administrators)
@@ -219,9 +233,16 @@ When you select an existing account or contact at the time of creating a new lea
 
 **Resolution:** 
 
-Verify that the On-load script in the Lead form has reference to 'LeadManagement/Lead/Lead_main_system_library.js' web resource. This web resource contains the script that automatically populates fields. If you've  customized the Lead form and used a web resource other than the out-of-the-box web resource, then this feature won't work. Please contact your system administrator.
+Verify that the On-load script in the Lead form has reference to 'LeadManagement/Lead/Lead_main_system_library.js' web resource. This web resource contains the script that automatically populates fields. If you've  customized the Lead form and used a web resource other than the out-of-the-box web resource, then this feature won't work. Contact your system administrator.
 
 Even if you have a custom lead form, the automatic generation of fields works if the Lead form has reference to 'LeadManagement/Lead/Lead_main_system_library.js' web resource.
+
+<a name="website-address-fields-not-populating"> </a>
+### Issue: Unable to autopopulate Website and Address fields on the Lead form.
+
+**Resolution:**
+
+This is by design. In the lead form, after selecting the existing account, only Company Name is autopopulated.
 
 
 ### See also
