@@ -149,7 +149,8 @@ You can add an attachment to a note in timeline to help users when you have file
 ![Add an attachment to a note in timeline](media\timeline-add-an-attachment-to-a-note.png "Add an attachment to a note in timeline")
 
 > [!IMPORTANT]
-> If you do not have Notes enabled, you can not do an attachment. Also, you can only add one (1) attachment per note.
+> <li>You can only add one (1) attachment per note.</li>
+> <li>If your system administrator does not have <b>Notes</b> enabled, you cannot do an attachment.</li> 
 
 ## Working with posts and notes
 
@@ -186,9 +187,9 @@ To add a reference to a timeline record in a **Post**, use the following steps:
 
 ### Add a note or post to a record on timeline
 
-You can either add a **Note** or a **Post** to a record on timeline if you enable the features. 
+You can either add a **Note** or a **Post** to a record on timeline only if your system administrator has enabled the features. 
 
-1.	You can enter a **Note** to add to a record. If you do not have **Notes** enabled, you cannot do an attachment. Also, you can only add one (1) attachment per note.
+1.	You can enter a **Note** to add to a record. If your system administrator does not have **Notes** enabled, you cannot do an attachment. Also, you can only add one (1) attachment per note.
 2.	You can enter a **Post** to add to a record.
 
 ![Add a note or post to a record on timeline](media\timeline-add-a-note-or-post-to-a-record.png "Add a note or post to a record on timeline")
