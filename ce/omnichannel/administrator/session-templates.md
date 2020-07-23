@@ -29,7 +29,8 @@ Session templates are used to define the aforementioned session experience such 
 You can create session templates in the Omnichannel Administration app or use the out-of-the-box templates. In your environment, as an administrator, you can create multiple session templates.
 
   > [!Note]
-  > Session template customizations will be overwritten at solution upgrade. 
+  > We recommend that you use copies of the out-of-the-box session templates for your customizations to avoid losing them during solution upgrades.
+
 
 The out-of-the-box session templates are as follows:
 
