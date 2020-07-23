@@ -4,7 +4,7 @@ description: "Adaptive card, emojis, and other support in asynchronous channels 
 author: platkat 
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 07/17/2020
+ms.date: 07/23/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -20,7 +20,7 @@ ms.topic: article
 |----------------------|---------------|-----------|--------------|----------------|-------------|------------|
 | Microsoft Teams      | ✔             | ✔         | ✔            | ✔              | ✔           | ❌          | 
 | Facebook             | ⚠🔶           | ✔         | ✔            | ✔              | ✔           | 🌐         | 
-| Line                 | ⚠🔶           | ✔         | ✔            | ✔              | ✔           | 🌐         | 
+| LINE                 | ⚠🔶           | ✔         | ✔            | ✔              | ✔           | 🌐         | 
 | Custom (Telegram)    | ⚠🔶           | ✔         | ✔            | ✔              | ✔           | 🌐         | 
 | Custom (Direct Line) | ✔             | ✔         | ✔            | ✔              | ✔           | ✔          | 
 
@@ -58,7 +58,7 @@ Suggested action is supported fully with the exception that some channels may li
 |----------------------|--------------------------------------------|---------------------------------------|
 | Microsoft Teams      | Image, Audio, Video, Documents, Gif, Emoji | Image, Audio, Video, Documents, Gif   |
 | Facebook             | Image, Audio, Video, Documents, Gif, Emoji | Image, Audio, Video, Document, Gif    |
-| Line                 | Image, Audio, Video, Gif                   | Image, Audio, Video, Documents, Gif   |
+| LINE                 | Image, Audio, Video, Gif                   | Image, Audio, Video, Documents, Gif   |
 | Custom (Telegram)    | Image, Audio, Video, Documents, Gif, Emoji | Image, Audio, Video, Documents, Gif   |
 | Custom (Direct Line) | All types except blocked types in org      | All types except blocked types in org |
 | Twitter              | Image, Video, Gif, Emoji                   | Image, Video, Gif                     |
@@ -105,5 +105,5 @@ Suggested action is supported fully with the exception that some channels may li
 ### See also
 
 [Overview of channels](channels.md) <br />
-[Bring your own custom messaging channel: Direct Line Bot](bring-your-own-channel.md) <br /> 
+[Bring your own custom messaging channel: Direct Line bot](../developer/how-to/bring-your-own-channel.md) <br />
 [Configure custom messaging channel](configure-custom-channel.md)   
