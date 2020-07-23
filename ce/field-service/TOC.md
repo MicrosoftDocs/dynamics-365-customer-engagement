@@ -98,7 +98,7 @@
 ## [Device and app management with Microsoft Intune](field-service-mobile-intune.md)
 ## [Geofencing](geofencing.md)
 ## [Deep linking](mobile-deeplink.md)
-## [Field Service (Dynamics 365) mobile app](mobile-2020-power-platform.md)
+## [Use Power Automate flow with Field Service Mobile](mobile-workflow-to-flow.md)
 ## FAQs + troubleshooting
 ### [Frequently asked questions](mobile-faq.md)
 ### Troubleshooting topics
@@ -107,7 +107,7 @@
 #### [Bookings don't appear when logged into the app?](mobile-faq-bookings-not-showing.md)
 #### [Bookings not scheduled to me show up when logged into the mobile app](mobile-faq-bookings-not-scheduled-to-me.md)
 ## [Get help](mobile-get-help.md) 
-
+## [Field Service (Dynamics 365) mobile app](mobile-2020-power-platform.md)
 
 # Agreements and preventive maintenance
 ## [Agreements](set-up-customer-agreements.md)
