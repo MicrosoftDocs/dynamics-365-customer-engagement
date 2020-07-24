@@ -58,3 +58,18 @@ You can’t customize the service calendar or change the default view with the a
 ## Calendar legend of colors and statuses
 
    ![View the calendar legend](media/uci-color-legend.png "View legend of calendar colors and statuses")
+   
+    
+### See also  
+
+[UCIfied service scheduling overview](uci-scheduling-overview.md)
+
+[Create or edit a service](uci-create-edit-service.md)
+
+[Add facilites and equipment](uci-add-facilities-equipment.md)
+
+[Schedule a service activity](uci-schedule-service-activity.md)
+
+[Create resource groups](uci-create-resource-groups.md)
+
+[Use sites to manage your service locations](uci-create-sites.md)
