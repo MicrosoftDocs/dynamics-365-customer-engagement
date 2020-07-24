@@ -87,32 +87,31 @@ Continue to use the **current** schedule board for common functions like:
 
 ### Add new schedule board to custom sitemap area
 
-If customer uses a custom sitemap or an app module, they will have to update the sitemap to consume the new Schedule Board preview 
+When using a custom sitemap or an app module, you'll need to update the sitemap to consume the new schedule board preview.
 
-from
+The following snippet is what it looks like before:
 
-    <SubArea Id="msdyn_ScheduleBoardSubArea" ResourceId="SitemapDesigner.NewSubArea" VectorIcon="$webresource:msdyn_/Icons/SVG/Calendar.svg" Url="$webresource:msdyn_/fps/ScheduleBoard/ScheduleBoard.html" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+```<SubArea Id="msdyn_ScheduleBoardSubArea" ResourceId="SitemapDesigner.NewSubArea" VectorIcon="$webresource:msdyn_/Icons/SVG/Calendar.svg" Url="$webresource:msdyn_/fps/ScheduleBoard/ScheduleBoard.html" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">```
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/schedule-board-new-sitemap-before.png)
+> ![Screenshot of the sitemap before.](../../field-service/media/schedule-board-new-sitemap-before.png)
 
-to 
+The next snippet is what it looks like after:
 
-    <SubArea Id="msdyn_ScheduleBoardSubArea" ResourceId="SitemapDesigner.NewSubArea" VectorIcon="$webresource:msdyn_/Icons/SVG/Calendar.svg" Url="/main.aspx?pagetype=entitylist&amp;etn=msdyn_scheduleboardsetting" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+```<SubArea Id="msdyn_ScheduleBoardSubArea" ResourceId="SitemapDesigner.NewSubArea" VectorIcon="$webresource:msdyn_/Icons/SVG/Calendar.svg" Url="/main.aspx?pagetype=entitylist&amp;etn=msdyn_scheduleboardsetting" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">```
 ​
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/schedule-board-new-sitemap-after.png)
+> ![Screenshot of the sitemap after](../../field-service/media/schedule-board-new-sitemap-after.png)
 
 **URL:**
 
-        /main.aspx?pagetype=entitylist&etn=msdyn_scheduleboardsetting
+```/main.aspx?pagetype=entitylist&etn=msdyn_scheduleboardsetting```
 
-**ID:** 
+**ID:**
 
-        msdyn_scheduleboardtoggle
-
+```msdyn_scheduleboardtoggle```
 
 ## Additional notes
 
-The Schedule Board is only supported in Unified Client Interface web (Field Service v8.x+) and not in tablets or phones.
+The schedule board is only supported in Unified Client Interface web (Field Service v8.x+) and not in tablets or phones.
