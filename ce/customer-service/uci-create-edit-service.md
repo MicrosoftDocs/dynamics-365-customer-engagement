@@ -60,6 +60,29 @@ A service requires at least one selection rule and one or more resources, resour
    ![Edit scheduling details](media/uci-new-service.png "Edit scheduling details such as start times and duration")
    
 6. On the **Required Resources** tab, define a selection rule.
+  
+   ![Define selection rule](media/uci-define-selection-rule "Define a selection rule on the Required Resources tab")
+   
+    |Option  |Description|
+    |---------|---------|
+    | Add a Selection Rule  | You can add complexity to a rule by adding a subrule to it. |
+    | Add Resources | Add users, facilities, equipment, or teams as resources to a selection rule. |
+    | Add Resource Groups | Resource groups are users, facilities, or equipment that can be scheduled interchangeably. |
+    
+    > [!Note]
+    > You can save a service without defining a selection rule, but you won’t be able to schedule that service.
+    
+7. When you're ready to save your data, select **Save**.
+
+## Activate or deactivate a service
+
+You can make a service available or unavailable for scheduling by activating or deactivating it.
+  
+   ![Activate or deactivate service](media/uci-activate-deactivate-service.png "Activate or deactivate a service")
+
+
+
+
 
 
     
