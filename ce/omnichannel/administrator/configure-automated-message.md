@@ -64,8 +64,8 @@ You can customize automated messages at the channel instance level. For instance
 
 To deactivate messages at the channel instance level, select one or more messages, and click the **Deactivate** button.
 
-    > [!div class=mx-imgBorder]
-    > ![Deactivate automated messages](../media/automated-messages-deactivate.png "Deactivate automated messages")
+> [!div class=mx-imgBorder]
+> ![Deactivate automated messages](../media/automated-messages-deactivate.png "Deactivate automated messages")
 
 ### See also
 
