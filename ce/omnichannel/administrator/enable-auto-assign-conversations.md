@@ -16,19 +16,17 @@ ms.topic: article
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-## Introduction
-
-Some customer conversation requests, such as those coming from a Facebook or an SMS channel, might not need an immediate response because of a longer service-level agreement (SLA). For such requests, you can enable the auto-assign option in notification templates. When an incoming notification appears, the conversation is assigned to the agent automatically, either instantly or after the timeout period elapses.
+Some customer conversation requests, such as those coming from a Facebook channel or an SMS channel, might not need an immediate response because of a longer service-level agreement. For such requests, you can enable the auto-assign option in notification templates. When an incoming notification appears, the conversation is assigned to the agent automatically, either instantly or after the timeout period elapses.
 
 > [!IMPORTANT]
-> The auto-assign feature is not supported in Omnichannel for Customer Service on Unified Service Desk.
+> The auto-assign feature isn't supported in Omnichannel for Customer Service on Unified Service Desk.
 
-## Enable conversations to be assigned automatically
-
-1. In the Omnichannel Administration app, select **Notifications** under **Agent Experience** in the site map.
-2. On the **Omnichannel Configuration** > **Omnichannel Configuration - Notifications** page, select the template for which you want to enable the incoming conversation to be assigned.
-3. On the ***<notification_name>* Notification Template** > **General** tab, set the toggle to **Yes** for **Auto-assign work items**. The label for **Accept Button** changes to **Open** and the toggle for **Reject Button** is disabled.
-4. Select **Save**.
+**To enable conversations to be assigned automatically**
+1. Sign in to Omnichannel Administration.
+2. In the site map under **Agent Experience**, select **Notifications**.
+3. On the **Omnichannel Configuration** > **Omnichannel Configuration - Notifications** page, select the template for which you want to enable the incoming conversation to be assigned.
+4. On the ***<notification_name>* Notification Template** > **General** tab, set the toggle to **Yes** for **Auto-assign work items**. The label for **Accept Button** changes to **Open**, and the toggle for **Reject Button** is disabled.
+5. Select **Save**.
 
    > ![Enable automatic assignment of conversations](../media/enable-auto-assign-chat.png " Enable automatic assignment of conversations ")
 
