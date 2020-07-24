@@ -16,7 +16,7 @@
 #### [Introduction to Customer Service Hub](user-guide-customer-service-hub.md)
 #### [Learn the basics](customer-service-hub-user-guide-basics.md)
 #### Work with timeline
-##### [Introduction to timeline](customer-service-hub-user-guide-timeline-overview.md)
+##### [Use timeline](customer-service-hub-user-guide-timeline-overview.md)
 ##### [Configure timeline](customer-service-hub-user-guide-timeline-admin.md)
 
 #### Work with cases

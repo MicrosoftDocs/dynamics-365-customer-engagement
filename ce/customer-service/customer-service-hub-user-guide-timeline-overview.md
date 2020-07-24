@@ -1,6 +1,6 @@
 ---
 title: "Timeline Overview for Users | MicrosoftDocs"
-description: "Timeline Overivew for Users"
+description: "Timeline Overview for Users"
 ms.date: 07/24/2020
 ms.service:
   - "dynamics-365-customerservice"
@@ -82,13 +82,13 @@ The **More commands** icon contains refresh, sort, and email functionalities.
 - **1:** When you select the **More commands** (![](media\timeline-more-commands.icon.png "More commands")) icon, the additional options are displayed.
 - **2:** The **Refresh timeline** command allows you to update the details in the timeline.
 - **3:** The **Sort newer to older** / **Sort older to newer** command allows you sort records.
-- **4:** The **Always show email as conversations / Always show email as individual messages** comand enables or disables treaded emails. 
+- **4:** The **Always show email as conversations / Always show email as individual messages** command enables or disables threaded emails.
 
     ![More commands timeline functionality](media\timeline-more-commands.png "More commands timeline functionality")
 
-For more information on using the **More command** feature and configuration see:
+For information on using the **More commands** feature and configuration see:
 - [Quick entry record type and sort order default](customer-service-hub-user-guide-timeline-admin.md#quick-entry-record-type-and-sort-order-default)
-- [Enable threaded email views in timeline](customer-service-hub-user-guide-timeline-admin.md#threaded-email-views-in-timeline)
+- Threaded email views in timeline
 
 ## Threaded email views in timeline
 
@@ -108,7 +108,7 @@ Enabling the threaded email view is done via the timeline configuration in Power
 You can use any of the following options for enabling threaded email views in timeline:
 
 **Option 1:** 
-1. Select the ![](media\timeline-more-commands.icon.png "More commands") **More commands** icon on the timeline which will display a flyout menu.
+1. Select the ![](media\timeline-more-commands.icon.png "More commands") **More commands** icon on the timeline, which will display a flyout menu.
 2. Select **Always show email as conversations**. Now your emails will display in timeline threaded together.
 
 ![Enable threaded email timeline view - option 1](media\timeline-threaded-email-views-2.png "Enable threaded email timeline view - option 1")
@@ -131,13 +131,13 @@ When enabled by your system administrator, you can easily search for records in 
 
 ![Enable threaded email timeline view - option 2](media\timeline-search-records-1.png "Enable threaded email timeline view - option 2")
 
-For more information see, [Enable search bar](customer-service-hub-user-guide-timeline-admin.md#enable-search-bar).
+For more information, see, [Enable search bar](customer-service-hub-user-guide-timeline-admin.md#enable-search-bar).
 
 ## Add an attachment to a note in timeline
 
 You can add an attachment, such as a file, to a note in timeline to share with users.
 
-1. Select the ![](media\timelilne-paperclip-icon.png "paperclip icon") paperclip icon to attach a file to a note. You can only add an attachment to a note which is attached to a record. 
+1. Select the ![](media\timelilne-paperclip-icon.png "paperclip icon") paperclip icon to attach a file to a note. You can only add an attachment to a note that is attached to a record. 
 2. Select the file you want to attach. You can only add one file per note.
 3. Edit note screen will appear.
 4. Your attachment will be displayed at the bottom of the edit note screen.
@@ -150,7 +150,7 @@ You can add an attachment, such as a file, to a note in timeline to share with u
 
 ## Work with notes and posts
 
-Notes allows you to record richly formatted information and images for refrence, summary, or investigation. You can easily add a mention to another user or a reference to a timeline record using Posts.  
+Notes allows you to record richly formatted information and images for reference, summary, or investigation. You can easily add a mention to another user or a reference to a timeline record using Posts.  
 
 ### Add a note or post to a record on timeline
 
@@ -221,10 +221,10 @@ For more information on the rich text editor feature, here is a listing of funct
 |![Align Right](../customer-service/media/align-right.png "Align Right")| Align Right | Ctrl+R | Align  content to the right on the page. (Commonly used for a formal appearance.) |
 |![Link](../customer-service/media/format-link.png "Link")| Link |  | Create a link in your document for quick access to web pages and files.<br /><br />Pasted or typed URL text is converted into a link. For example, "http://myexample.com" will become "<a href="http://myexample.com">http://myexample.com</a>".<br /><br /> In the **Link** dialog box, choose the type of link you'd like to insert.<br /><br />The **Link Info** tab allows you to choose the link type as well as set the link protocol and URL.<br /><br />The **Target** tab is only available for the URL link type. It specifies the location where the link will open after you select it. |
 |![Remove Link](../customer-service/media/remove-link.png "Unlink")| Unlink |  | Delete a link in your email or document.<br /><br />When you place the cursor on a link, the **Unlink** button on the toolbar becomes active. Select the button to remove the link and make it plain text. |
-|![Superscript](../customer-service/media/format-superscript.png "Superscript")| Superscript |  | Type very small letters just above the line of text. |
-|![Subscript](../customer-service/media/format-subscript.png "Subscript")| Subscript |  | Type very small letters just below the line of text. |
+|![Superscript](../customer-service/media/format-superscript.png "Superscript")| Superscript |  | Type small letters just above the line of text. |
+|![Subscript](../customer-service/media/format-subscript.png "Subscript")| Subscript |  | Type  small letters just below the line of text. |
 |![Strikethrough](../customer-service/media/format-strikethrough.png "Strikethrough")| Strikethrough |  | Cross out text by drawing a line through it. |
-|![Insert Image](media\insert-picture.png "Insert Image")| Insert Image|	|You can insert an image by directly copying and pasting it inline in the editor, dragging and dropping it from your desktop or local folder directly into the editor, or by typing a URL. The following formats are supported: .PNG, .JPG., or .GIF.<br /><br />To insert an image inline in your article: <br />1. Drag and drop the image or or copy and paste it directly into the article. <br />2. Drag any corner of the image to resize it.<br /><br />To insert an image using a URL or navigating to the local image:<br />1. Choose Insert Image.<br />2. In the **Image** property dialog, choose from the following options:<br /><ul><li>Select **Browse** to navigate to the image on your computer.</li><li>Or specify the web address of the image, and properties to define how the image will appear in the email or article.</li><br />**Note:**<ul><li>If the image is located on the external server, use the full absolute path. </li><li>If the image is located on a local server, you can use a relative path. </li><li>If you want the image to be linked to a target, add a URL for the image.</li><li>You can also specify if you want the targeted page to open in a new window, topmost window, same window, or parent window.</li></ul>
+|![Insert Image](media\insert-picture.png "Insert Image")| Insert Image|	|You can insert an image by directly copying and pasting it inline in the editor, dragging and dropping it from your desktop or local folder directly into the editor, or by typing a URL. The following formats are supported: .PNG, .JPG., or .GIF.<br /><br />To insert an image inline in your article: <br />1. Drag and drop the image or copy and paste it directly into the article. <br />2. Drag any corner of the image to resize it.<br /><br />To insert an image using a URL or navigating to the local image:<br />1. Choose Insert Image.<br />2. In the **Image** property dialog, choose from the following options:<br /><ul><li>Select **Browse** to navigate to the image on your computer.</li><li>Or specify the web address of the image, and properties to define how the image will appear in the email or article.</li><br />**Note:**<ul><li>If the image is located on the external server, use the full absolute path. </li><li>If the image is located on a local server, you can use a relative path. </li><li>If you want the image to be linked to a target, add a URL for the image.</li><li>You can also specify if you want the targeted page to open in a new window, topmost window, same window, or parent window.</li></ul>
 |![Left to Right](../customer-service/media/left-to-right.png "Left to Right")| Left to Right |  | Change the text to left-to-right for content such as a paragraph, header, table, or list. Commonly used for bi-directional language content. This is the default setting.|
 |![Right to Left](../customer-service/media/right-to-left.png "Right to Left")| Right to Left |  | Change the text to right-to-left for content such as a paragraph, header, table, or list. Commonly used for bi-directional language content. The default setting is left-to-right. |
 |![Undo Typing](../customer-service/media/undo-typing.png "Undo Typing")| Undo Typing |  | Undo changes you made to the content. |
