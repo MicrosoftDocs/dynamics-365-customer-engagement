@@ -214,7 +214,7 @@ As an administrator, you need to customize the notification template to show the
 | General | Icon |The default value is **/webresources/msdyn_chat_icon_zfp.svg**. |
 | General |Show timeout| No |
 | General | Timeout (seconds) | The default value is **120**. |
-|General| Auto-accept work items | The default setting is **No**. |
+|General| Auto-assign work items | The default setting is **No**. |
 | General | Accept Button | The default value is **Accept**.|
 | General | Reject Button | The default value is **No**. When you set the toggle to **Yes**, the **Reject** label appears.|
 | General | Show desktop notifications | The default setting is **Never**. Set to **When app is in background**. |

@@ -22,6 +22,7 @@ Some customer conversation requests, such as those coming from a Facebook channe
 > The auto-assign feature isn't supported in Omnichannel for Customer Service on Unified Service Desk.
 
 **To enable conversations to be assigned automatically**
+
 1. Sign in to Omnichannel Administration.
 2. In the site map under **Agent Experience**, select **Notifications**.
 3. On the **Omnichannel Configuration** > **Omnichannel Configuration - Notifications** page, select the template for which you want to enable the incoming conversation to be assigned.
