@@ -16,26 +16,26 @@ This experience gives administrators the ability to configure the information di
 
 The timeline control provides an easy and immersive experience to view a customer’s history across cases, accounts, or contacts which gives the customer service representatives a better understanding of the customer’s history and helps them deliver more personalized service in an efficient and effective manner.
 
-## How to navigate to timeline configurations
+## How to navigate to timeline configuration settings
 
-Timelines are located on forms within entities. To access timeline configurations, you must start with the entity list.  You can access the entity list a couple of ways depending on the model-driven app you are using.
+Timelines are located on forms within entities. To access timeline configuration settings, you must start with the entity list.  You can access the entity list a couple of ways depending on the model-driven app you are using.
 
 > [!Important]
 > When accessing the timeline, if you are not taken to the new form designer experience, refer to **Example 2** to ensure access to the latest experience.
 
 **Example 1:**  
 To access the entity list via the **Customer Service Hub**, go to:
-1.	Go to **Customer Service Hub** app
-2.	Click on **Settings**
-3.	Select **Advanced Settings**
+1.	Go to **Customer Service Hub** app.
+2.	Click on **Settings**.
+3.	Select **Advanced Settings**.
 
   ![How to navigate to timeline configurations - Option 1](media\timeline-access-option-1.png "How to navigate to timeline configurations - Option 1")
-
+4. 
 **Example 2:**  
 To access the entities list via **Power Apps**, go to:
-1.	Go to **Power Apps** URL: [make.powerapps.com](make.powerapps.com "make.powerapps.com")
-2.	Under Data section
-3.	Select Entities
+1.	Go to **Power Apps** URL: [make.powerapps.com](make.powerapps.com "make.powerapps.com").
+2.	Under Data section.
+3.	Select Entities.
 
   ![How to navigate to timeline configurations - Option 2](media\timeline-access-option-2.png "How to navigate to timeline configurations - Option 2")
 

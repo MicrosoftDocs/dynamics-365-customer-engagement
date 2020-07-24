@@ -58,6 +58,7 @@ For more information on timeline filter functionality and configurations see:
 - [How to filter activity types on timeline]() 
 
 ## Work with records
+
 When working with records you have key information at a glance and view more by expanding records, and when you hover over a record you have actions you can use.
 
 ### Expand all records
