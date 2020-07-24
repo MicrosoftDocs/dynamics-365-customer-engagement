@@ -29,6 +29,7 @@ After completing the prerequisites, you can add the Facebook channel for your or
 1. [Create a Facebook work stream](#step-1-create-a-facebook-work-stream)
 2. [Create a Facebook channel](#step-2-create-a-facebook-channel)
 3. [Create routing rules](#step-3-create-routing-rules)
+4. [Modify settings for a specific Facebook page](#step-4-modify-settings-for-a-specific-Facebook-page)
 
 ## Step 1: Create a Facebook work stream
 
@@ -108,7 +109,7 @@ After you add a Facebook page, values for **Callback Uri** and **Verify Token** 
     > [!div class=mx-imgBorder]
     > ![Facebook channel routing rule](../media/fb-routing-rule.png "Facebook channel routing rule")
 
-## Step 4: Enable settings for a specific Facebook page 
+## Step 4: Modify settings for a specific Facebook page 
 
 1. In the Omnichannel Administration app, go to your Facebook application and select the Facebook page you want to modify. 
 
