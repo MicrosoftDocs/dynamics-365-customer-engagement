@@ -60,6 +60,8 @@ Now, agents and customers can share file attachments during their conversation.
 
 ### See also
 
-[Configure automated messages](configure-automated-message.md)<br> 
-[Configure a pre-chat survey](configure-pre-chat-survey.md)<br>
-[Configure a post-chat survey](configure-post-chat-survey.md)
+[Configure a Facebook channel](configure-facebook-channel.md)
+[Configure a Twitter channel](configure-twitter-channel.md)
+[Configure a WhatsApp channel](configure-whatsapp-channel.md)
+[Configure a WeChat channel](configure-wechat-channel.md)
+[Configure a LINE channel](configure-line-channel.md)
