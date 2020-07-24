@@ -1,7 +1,7 @@
 ---
 title: "Unified Service Desk Release Notes | MicrosoftDocs"
 description: "Learn about the known issues and limitations in Unified Service Desk."
-ms.date: 02/17/2020
+ms.date: 07/24/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -567,6 +567,18 @@ For example, if you are navigating from a case grid to a case, and in the URL wh
 #### Work around
 
 As a work around for the issue, in the hosted control configuration of the URL, set `cmdbar=true`.
+
+### Features not available in Unified Service Desk
+
+The following features are not available in Unified Service Desk:
+
+	- Supervisor and agent sentiment notifications
+	- Auto-accept messages 
+	- RTT
+
+#### Work around
+
+Upgrade to the latest version of Omnichannel for Customer Serivce to get all the new features. 
 
 ## See also
 
