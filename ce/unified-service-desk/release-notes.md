@@ -215,8 +215,8 @@ As a work around for the issue, in the hosted control configuration of the URL, 
 The following features are not available in Unified Service Desk:
 
 - Supervisor and agent sentiment notifications
-- Auto-accept messages
-- Real-time translation
+- Auto-accept incoming messages
+- Real-time translation of conversation messages
 
 #### Work around
 
