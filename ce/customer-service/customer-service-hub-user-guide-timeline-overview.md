@@ -23,7 +23,7 @@ Timeline allows you to:
 
 The following is an overview of how the timeline functionality works in each section on the entity form. The timeline section on the entity form is rich in features and functionality to help you navigate and streamline efforts.
 
-The iconography displayed in the top right nav in the Timeline gives quick access to the following capabilities, when enabled by your system administrator:
+The icons displayed in the top right nav in the Timeline give quick access to the following capabilities, when enabled by your system administrator:
 
 - [Create a timeline record](customer-service-hub-user-guide-timeline-overview.md#create-a-timeline-record)
 - [Work with Filters](customer-service/customer-service-hub-user-guide-timeline-overview.md#work-with-filters)
