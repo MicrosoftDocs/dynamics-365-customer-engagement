@@ -10,18 +10,18 @@ ms.author: lerobbin
 manager: shujoshi
 ---
 
-# Configuring Timeline 
+# Configure Timeline 
 
-This experience gives Administrators the ability to configure the information displayed in each timeline to help users have the best understanding of the customer’s history so they can deliver more personalized service. 
+This experience gives administrators the ability to configure the information displayed in each timeline to help users have the best understanding of the customer’s history so they can deliver more personalized service.
 
-The timeline control provides an easy and immersive experience to view a customer’s history across cases, accounts, or contacts which gives users a better understanding of the customer’s history and helps them deliver more personalized service in an efficient and effective manner. 
+The timeline control provides an easy and immersive experience to view a customer’s history across cases, accounts, or contacts which gives the customer service representatives a better understanding of the customer’s history and helps them deliver more personalized service in an efficient and effective manner.
 
 ## How to navigate to timeline configurations
 
-Timelines are located on forms within entities.  To access timeline configurations, you must start with the entity list.  You can access the entity list a couple of ways depending on the model driven app you are using.
+Timelines are located on forms within entities. To access timeline configurations, you must start with the entity list.  You can access the entity list a couple of ways depending on the model-driven app you are using.
 
-> [!Important] 
-> When accessing timeline, if you are not taken to the new form designer experience, please refer to **Example 2** to ensure access to the latest experience.
+> [!Important]
+> When accessing the timeline, if you are not taken to the new form designer experience, refer to **Example 2** to ensure access to the latest experience.
 
 **Example 1:**  
 To access the entity list via the **Customer Service Hub**, go to:
@@ -44,11 +44,11 @@ To access the entities list via **Power Apps**, go to:
 Every instance of the timeline that’s applied on a form can be configured.  Example: An Account entity will have forms, and each form can have a timeline that can be configured.  However, there’s only one timeline per form.  
 
 To begin, select the entity and form where you want to add and configure your timeline. 
-1.	The following is a list of entities. You can add a timeline to any entity.
+1.	List of entities. You can add a timeline to any entity.
 2.	For this example, we selected the **Account** entity.
-3.	From the **Account** entity landing page there is list of tabs at the top, select **Forms**.
-4.	The **Forms** landing page displays a list of **Form types**. Timelines can only be used on **Main** form types.
-5.	For this example, we selected **Account for Interactive experiences**. 
+3.	On the **Account** entity page, you can select **Forms**.
+4.	The **Forms** page displays a list of **Form types**. Timelines can only be used on **Main** form types.
+5.	For this example, we selected **Account for Interactive experiences**.
 
 ![How to navigate to timeline configurations](media\timeline-configuration-1.png "How to navigate to timeline configurations")
 
@@ -58,40 +58,35 @@ To begin, select the entity and form where you want to add and configure your ti
 
 ![How to navigate to timeline configurations](media\timeline-configuration-4.png "How to navigate to timeline configurations")
 
-### Adding or removing a timeline from an entity form
+### Add or remove a timeline from an entity form
 
-Timeline is a component and you will need to access **Components** to make timeline configurations. Once you have selected a **Main** form type, the following landing page will appear:
+Timeline is a component and you will need to access **Components** to make timeline configurations. After you have selected a **Main** form type, the following page will appear:
 
-1.	From the left nav, select **Components**.  
-2.    In the left nav, scroll down to the **Timeline** component, then drag and drop in a section on the form. 
-3.	If **Timeline** component is greyed out, it means it already exists on the form. You can only have one timeline per form.
-4.	To remove the **Timeline** component from a form, highlight the inside **Timeline** component area and hit the **Delete** key.  This will remove the **Timeline** component from the form.
+1. From the left nav, select **Components**.  
+2. In the left nav, scroll down to the **Timeline** component, then drag and drop in a section on the form.
+3. If **Timeline** component is greyed out, it means it already exists on the form. You can only have one timeline per form.
+4. To remove the **Timeline** component from a form, highlight the inside **Timeline** component area and hit the **Delete** key.  This will remove the **Timeline** component from the form.
 
 ![Adding or removing a timeline from an entity form](media\timeline-add-or-remove-entity-from-form-1.png "Adding or removing a timeline from an entity form")
 
 ![Adding or removing a timeline from an entity form](media\timeline-add-or-remove-entity-from-form-2.png "Adding or removing a timeline from an entity form")
 
-![Adding or removing a timeline from an entity form](media\timeline-add-or-remove-entity-from-form-3.png "Adding or removing a timeline from an entity form")
-
-> [!Note] 
-> Since the timeline component relies exclusively on underlining related data, it will always say Almost there when added to the timeline section. Since we are in a create and/or edit state on the form, there’s no underlining data, therefore the area is blank.
-
 ## Understanding the timeline component on the form
 
-In the body of the entity form located in the center there is an area titled TIMELINE section and within that section is another area titled Timeline.  The following outlines and clarifies the different between these two:     
+In the body of the entity form located in the center there is an area titled TIMELINE section and within that section is another area titled Timeline.  The following outlines and clarifies the different between these two:
 
-1.	The outside section (titled **TIMELINE**) is what houses the **Timeline** component. 
-2.	When you click on the **TIMELINE** section, the **Display options** under the **Properties** tab in the right nav change to support the **TIMELINE** section.
-3.	Inside the **TIMELINE** section is where the **Timeline** component is located.
-4.	When you click on the **Timeline** component, the **Display options** under the **Properties** tab in the right nav change to support the **Timeline** component items.
+- **1:**	The section titled **TIMELINE** houses the **Timeline** component.
+- **2:**	When you select the **TIMELINE** section, the **Display options** under the **Properties** tab in the right nav change to support the **TIMELINE** section.
+- **3:**	Inside the **TIMELINE** section is where the **Timeline** component is located.
+- **4:**	When you click on the **Timeline** component, the **Display options** under the **Properties** tab in the right nav change to support the **Timeline** component items.
 
-![Understanding the timeline component on the form](media\timeline-component-1.png "Understanding the timeline component on the form")
+![Understand the timeline component on the form](media\timeline-component-1.png "Understand the timeline component on the form")
 
-![Understanding the timeline component on the form](media\timeline-component-2.png "Understanding the timeline component on the form")
+![Understanding the timeline component on the form](media\timeline-component-2.png "Understand the timeline component on the form")
 
 ## How to configure timeline component
 
-The timeline component is rich in features and functionality that can be configured and tailored to support specific business needs.  The Timeline form is comprised of features and functionality you configure in the timeline component which is then displayed in the entity form.
+The timeline component is rich in features and functionality that can be configured and tailored to support specific business needs. The Timeline form comprises features and functionality you configure in the timeline component, which is then displayed in the entity form.
 
 The following overview provides a detailed breakdown of each timeline feature, what it supports, how it is configured, and how it is displayed in the corresponding timeline section on the entity form:
 
@@ -106,18 +101,18 @@ The following overview provides a detailed breakdown of each timeline feature, w
   -	[Notes](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#notes)
   -	[Posts](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#posts)
 
-- **[How to create and add custom activities](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-custom-activity-in-timeline)**
+- **[How to create and add custom activities](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-custom-activity-in-timeline)**
 
-## Display options 
+## Display options
 
 ### Timeline component name
 
-The **Name** field under the **Properties** tab in the **Display options** section is only there as Admin’s reference. 
+The **Name** field under the **Properties** tab in the **Display options** section is only there as admin’s reference. 
 
 1.	In the **Name** field, you can change Timeline to another name.
 2.	For this example we changed the **Name** field to, **Bob**. 
-3.	The **Name** ‘Bob’ does not display on the rendered form.  The name change is for Admin reference only. 
-4.	If you use the Name feature, there are character limitations.  For example, you cannot have spaces, you must use underscores (_).
+3.	The **Name** ‘Bob’ does not display on the rendered form.  The name change is for admin reference only. 
+4.	If you use the Name feature, there are character limitations. For example, you cannot have spaces, you must use underscores (_).
 
 ![Display options - Timeline component name](media\timeline-component-name-display-options-1.png "Display options - Timeline component name")
 
@@ -125,25 +120,25 @@ The **Name** field under the **Properties** tab in the **Display options** secti
 
 ### Records shown on page
 
-This section allows you to control the number records that appear before displaying Load more at the bottom of the section.
+This section allows you to control the number of records that appear before displaying **Load more** at the bottom of the section.
 
 1.	The default setting on the Records shown on page is set to 10 records. You can update this to any number, there is no limit.
 2.	Pre the default setting shown in this example, the form shows a max. of 10 records, but you can display up to 50 records.
-3.	Once records exceed 10, Load more feature appears at the bottom of the form to display more records. 
+3.	After the records exceed 10, **Load more** appears at the bottom of the form to display more records.
 
 ![Display options - Records shown on page](media\timeline-records-shown-on-page-display-options-1.png "Display options - Records shown on page")
 
 ### Record types shown
 
-There are three (3) primary record types which include: activities, notes, and posts.  All record types are enabled by default.
+The following record types are enabled by default.
 
 - **Activities** can have a large number of customizable sub-activity record types to support business needs. Depending on what you have installed, Admin can create, add, and display a number of different customized sub-activity record types under the Activity section of the drop-down menu on the timeline.    
 - **Notes** allow you to capture notes related to the entity record. Use notes to grab thoughts, summary information, and provide feedback on a case for example and include edits whenever you want. 
-- **Posts.**  There are two types of posts, Auto Posts and User Posts. 
-    - **Auto Posts** are system generated and notify you of account activity that has occurred. 
+- **Posts.**  Two types of posts are available: Auto Posts and User Posts. 
+    - **Auto Posts** are system generated and notify you of account activity that has occurred.
     - **User Posts** allows you leave a message for another user on a record.
 
-This section allows you to enable these record types to display in timeline. 
+This section allows you to enable these record types to display in timeline.
 
 1.	To enable **Record types shown** for Activities, Notes, and Posts on a form simply check the box next to the record  type you want to show.
 2.	To confirm the record type is displaying on the form, click on the plus icon (+) in the top right nav in timeline. 
@@ -170,29 +165,29 @@ The timeline shows a simple icon before the activity, post, note, and custom ent
 
 ## Advanced
 
-The **Advanced** feature works across and is independent of all record types and is collapsed by default.  Also, when enabling and disabling **Advanced** features you will not be able to view updates (even though it may appear there is activity occurring on the timeline component) until you save and publish your configuration updates and refresh the entity form. 
+The **Advanced** feature works across and is independent of all record types and is collapsed by default.  Also, when enabling and disabling **Advanced** features you will not be able to view updates (even though it may appear there is activity occurring on the timeline component) until you save and publish your configuration updates and refresh the entity form.
 
-**Advanced** covers common settings that span across an activity, note, or post, which are the three (3) primary record types that appear in the timeline section. 
+**Advanced** covers common settings that span across an activity, note, or post, which are the three (3) primary record types that appear in the timeline section.
 
 ### Quick entry record type and sort order default
 
 The following is a detailed overview of the **Advanced** configuration options starting with selecting your **quick entry record type**:
 
-1.	Click on **Advanced** to expand this feature in the configuration view.
-2.	The **Quick entry record** type provides you with quick access to create either a **Note** or a **Post**.  The default setting for this feature is set to **Notes**.  
-3.	When you select **Notes** it will display under the search bar in timeline. Also, you will see a paperclip icon which allows you to attach files. You can only attach files to Notes.
-4.	When you select **Posts** it will display under the search bar in timeline. 
-5.	The **Sort order default** feature controls the order of how all data is sorted on the timeline.  The default setting for this feature is set to Descending. 
+- **1:**	Select **Advanced** to expand the feature in the configuration view.
+- **2:**	The **Quick entry record** type provides you with quick access to create either a **Note** or a **Post**.  The default setting for this feature is set to **Notes**.  
+- **3:**	When you select **Notes** it will display under the search bar in timeline. Also, you will see a paperclip icon which allows you to attach files. You can only attach files to Notes.
+- **4:**	When you select **Posts** it will display under the search bar in timeline. 
+- **5:**	The **Sort order default** feature controls the order of how all data is sorted on the timeline. The default setting for this feature is set to descending.
 
 ![Display options - Advanced - Quick entry record type and sort order default](media\timeline-quick-entry-record-type-and-sort-order-default-display-settings-advanced-1.png "Display options - Advanced - Quick entry record type and sort order default")
 
 ### Enable filter pane
 
-Using filters provides a quick option to sort and look for specific data quickly. 
+Using filters provides a quick option to sort and look for specific data quickly.
  
-6.	The **filter pane** feature allows you to enable or disable filter functionality on timeline. It is enabled by default.
-7.	Enable the **filter pane** by checking the box next to the feature.  This will enable the filter icon to display on the timeline.
-8.	To disable the **filter pane**, uncheck the box next to the feature and the filter icon will no longer appear on the timeline. 
+- **6:**	The **filter pane** feature allows you to enable or disable filter functionality on timeline. It is enabled by default.
+- **7:**	Enable the **filter pane** by checking the box next to the feature.  This will enable the filter icon to display on the timeline.
+- **8:**	To disable the **filter pane**, uncheck the box next to the feature and the filter icon will no longer appear on the timeline. 
 
 ![Display options - Advanced - Enable filter pane](media\timeline-enable-filter-pane-display-options-advanced-1.png "Display options - Advanced - Enable filter pane")
 
@@ -202,15 +197,15 @@ Filters are valuable for sorting data. You can quickly filter activities, posts,
 
 You can customize data using the data filters and either choose to keep filters in place or clear them when you are done.
 
-a. When the **Filter** icon is transparent on the entity form, it means there are no items that have been chosen to filter by and there the filter is unpopulated.<br>
+- **a:** When the **Filter** icon is transparent on the entity form, it means there are no items that have been chosen to filter by and there the filter is unpopulated.<br>
 
-b. When the **Filter** icon is filled in, it means filters has been selected and set. To view what filters have been selected you can just click on the Filter icon and the display will open showing which filters have been set.</li>
+- **b:** When the **Filter** icon is filled in, it means filters has been selected and set. To view what filters have been selected you can just click on the Filter icon and the display will open showing which filters have been set.</li>
 
-c. When you click on the **Filter** icon the following list appears.<br> 
+- **c:** When you click on the **Filter** icon the following list appears.<br> 
 
-d. You can select how you want to filter your data by checking the box next to the filter.<br>
+- **d:** You can select how you want to filter your data by checking the box next to the filter.<br>
 
-e. You can clear filters by clicking on the **Clear all filters** icon.
+- **e:** You can clear filters by selecting the **Clear all filters** icon.
 
 ![Display options - Advanced - How to filter activity types on timeline](media\timeline-how-to-filter-activity-types-display-options-advanced-1.png "Display options - Advanced - How to filter activity types on timeline")
 
@@ -227,14 +222,14 @@ When you select the filter icon, the Filter by menu is displayed and you can fil
 
 When you use the filter based on an activity status then those activities, notes, and posts are displayed:
 
-a. Select an activity item. In this example we selected <b>Overdue</b>.
+- **a:** aSelect an activity item. In this example we selected <b>Overdue</b>.
 <br>
 
-b. Based on our selection, all activity items with an <b>overdue status</b> now appear.<br>
+- **b:** Based on our selection, all activity items with an <b>overdue status</b> now appear.<br>
 
-c. <b>Filter</b> icon is filled in telling you a filter item has been selected.<br>
+- **c:** <b>Filter</b> icon is filled in telling you a filter item has been selected.<br>
 
-d. To clear filter selections, click on the <b>Clear all filters</b> icon to clear all filters.
+- **d:** To clear filter selections, click on the <b>Clear all filters</b> icon to clear all filters.
 
 ![Display options - Advanced - How to filter activity types on timeline](media\timeline-how-to-filter-activity-types-display-options-advanced-2.png "Display options - Advanced - How to filter activity types on timeline")
 
@@ -242,9 +237,9 @@ d. To clear filter selections, click on the <b>Clear all filters</b> icon to cle
 
 The **Expand filter pane** feature provides quick access to sorting options withing timeline.  It is enabled by default.
 
-9.	The **Expand filter pane by default** feature displays an expanded filter pane at the top of the form anytime it is opened and refreshed and is disabled by default.
-10.	Enable the **Expand filter pane** by checking the box next to the feature.  This will enable the filter pane to appear at the top of the form anytime the form is opened and refreshed.
-11.	To disable the **Expand filter pane**, uncheck the box next to the feature and the filter pane will not appear on the timeline.
+- **9:**	The **Expand filter pane by default** feature displays an expanded filter pane at the top of the form anytime it is opened and refreshed and is disabled by default.
+- **10:**	Enable the **Expand filter pane** by checking the box next to the feature.  This will enable the filter pane to appear at the top of the form anytime the form is opened and refreshed.
+- **11:**	To disable the **Expand filter pane**, uncheck the box next to the feature and the filter pane will not appear on the timeline.
 
 ![Display options - Advanced - Expand filter pane ](media\timeline-expand-filter-pane-display-options-advanced-1.png "Display options - Advanced - Expand filter pane")
 
@@ -252,9 +247,9 @@ The **Expand filter pane** feature provides quick access to sorting options with
 
 You can easily search for records in the timeline. When you search for a phrase in the timeline, it searches in the title of the record or body and description fields of the record then displays the record for you. 
 
-12.	The **search bar** feature enables the **Search timeline** bar functionality and is enabled by default.
-13.	Enable the **search bar** feature and it will display a **search bar** at the top of the timeline form.
-14.	To disable the search bar uncheck the box next to the feature and the search bar will no longer on the timeline. 
+- **12:**	Enable the **search bar** feature and it will display a **search bar** at the top of the timeline form.
+- **13:**	The **search bar** feature enables the **Search timeline** bar functionality and is enabled by default.
+- **14:**	To disable the search bar clear the box next to the feature and the search bar will no longer appear on the timeline
 
 ![Display options - Advanced - Enable search bar](media\timeline-enable-search-bar-display-options-advanced-1.png "Display options - Advanced - Enable search bar")
 
@@ -262,9 +257,9 @@ You can easily search for records in the timeline. When you search for a phrase 
 
 **Expand all records by default** displays all activities in an expanded view in timeline. 
 
-15.	**Expand all records** is disabled by default.
-16.	Enable the **Expand all records** by checking the box next to the feature, this will now allow records to expand and display in the form by default each time it is opened. 
-17.	To disable **Expand all records**, uncheck the box next to the feature it will no longer display activities in an expanded view.
+- **15:**	**Expand all records** is disabled by default.
+- **16:**	Enable the **Expand all records** by checking the box next to the feature, this will now allow records to expand and display in the form by default each time it is opened. 
+- **17:**	To disable **Expand all records**, uncheck the box next to the feature it will no longer display activities in an expanded view.
 
 ![Display options - Advanced - Expand all records in timeline](media\timeline-expand-all-records-display-options-advanced-1.png "Display options - Advanced - Expand all records in timeline")
 
@@ -272,16 +267,17 @@ You can easily search for records in the timeline. When you search for a phrase 
 
 You can send and receive records with images, but they will not display when the record is collapsed. Records with images must be expanded to be viewed.
 
-a. Records when collapsed provide a visual summary.<br>
+- **a:** Records when collapsed provide a visual summary.<br>
 
-b. To expand an individual record, click anywhere on the timeline record to expand and collapse.  In the bottom right corner of the record you will see a caret.  When the caret is facing downward (˅) it tells you the record is collapsed. When the caret is facing upward (^)it tells you the record it expanded.<br> 
+- **b:** To expand an individual record, click anywhere on the timeline record to expand and collapse.  In the bottom right corner of the record you will see a caret.  When the caret is facing downward (˅) it tells you the record is collapsed. When the caret is facing upward (^)it tells you the record it expanded.<br> 
 
-c. Records with images will often display the following notice. When you click on this message the warning will go away. 
+- **c:** Records with images will often display the following notice. When you click on this message the warning will go away. 
 
 ![Expand records with images in timeline](media\timeline-expand-records-with-images-display-optiones-advanced-1.png)
 
 If you don’t see a message and the image is not displaying, see [Timeline FAQs](timeline-faqs.md) for more information.
-<li> Once you click on the warning message, the image will display.</li>
+
+After you select the warning message, the image will be displayed.
 
 ![Display options - Advanced - Expand records with images in timeline](media\timeline-expand-records-with-images-display-optiones-advanced-2.png "Display options - Advanced - Expand records with images in timeline")
 
@@ -289,9 +285,9 @@ If you don’t see a message and the image is not displaying, see [Timeline FAQs
 
 **What you’ve missed** helps you stay on top of updates and changes made records by displaying updates at the top of the timeline when you access a record. 
 
-18.	The **What you’ve missed** feature displays new records you have not seen and it is disabled by default.
-19.	To enable **What you’ve missed**, click the box next to the feature. Now when you view a customer’s account, a box will appear at the top of the timeline section notifying you updates. 
-20.	To disable **What you’ve missed**, uncheck the box next to the feature and you will notifications will not display when you access an account.
+- **16:**	The **What you’ve missed** feature displays new records you have not seen and it is disabled by default.
+- **17:**	To enable **What you’ve missed**, click the box next to the feature. Now when you view a customer’s account, a box will appear at the top of the timeline section notifying you updates. 
+- **18:**	To disable **What you’ve missed**, clear the selection from the check box next to the feature and you will notifications will not display when you access an account.
 
 ![Display options - Advanced - Enable “What you’ve missed” summary](media\timeline-what-you-missed-display-options-advanced-1.png "Display options - Advanced - Enable “What you’ve missed” summary")
 

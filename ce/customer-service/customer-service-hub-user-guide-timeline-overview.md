@@ -10,7 +10,7 @@ ms.author: lerobbin
 manager: shujoshi
 ---
 
-# Use Timeline 
+# Use Timeline
 
 Timeline is a control that allows you to view different activity types that are connected to an entity record and occur over time in a single stream. Some activities that can be logged in the timeline are notes, phone calls, emails, appointments, and tasks.
 
@@ -48,8 +48,8 @@ For information on timeline record configuration, see:
 
 When enabled by your system administrator, the timeline **Filter** further streamlines your productivity by allowing you to customize your experience and view data relevant to you. 
 
-1. The ![](media\timeline-filter-icon.png "Filter") icon allows you to **Filter**  
-2. A list of items that is enabled by your system administrator is displayed that you can filter.  
+- **1:** The ![](media\timeline-filter-icon.png "Filter") icon allows you to **Filter**.
+- **2:** A list of items that is enabled by your system administrator is displayed that you can filter.  
 
     ![Timeline filter functionality](media\timeline-filter-1.png "Timeline filter functionality")
 
@@ -64,91 +64,88 @@ When working with records you have key information at a glance and view more by 
 
  When enabled by your system administrator, you can view timeline records at a glance in a collapsed format or expand a record to see more details for ease of use.
 
-1. When you click on the ![](media\timeline-expand-icon.png "Expand all records") icon it **expands all records** listed on your timeline.
-2. When the caret is in the upright position (^) in the bottom right corner, the record is displaying in the expanded view and a list of commands will appear in the top right corner. Also, when you hover over an activity you want to view, the background turns grey.  Once you leave that record, the background becomes transparent again.
-3.	When the caret is in the down position (˅) the record is collapsed.
+- **1:** When you select the ![](media\timeline-expand-icon.png "Expand all records") icon, it expands all records listed on your timeline.
+- **2:** When the caret is in the upright position (^) in the bottom right corner, the record is displayed in the expanded view and a list of commands appear in the top right corner. Also, when you hover over an activity you want to view, the background turns grey.  When you hover away from the record, the background becomes transparent again.
+- **3:** When the caret is in the down position (˅), the record is collapsed.
 
     ![Expand all records functionality](media\timeline-expand-all-records-1.png "Expand all records functionality")
 
-For more information on exanding record functionality and configuration see:
+For more information on expanding record functionality and configuration see:
 - [Expand all records in timeline](customer-service-hub-user-guide-timeline-admin.md#expand-all-records-in-timeline)
 - [Expand records with images in timeline](customer-service-hub-user-guide-timeline-admin.md#expand-records-with-images-in-timeline)
 
 ## More Commands
 
-When enabled by your system administrator, the **More commands** icon houses refresh, sort, and email functionalities.
+The **More commands** icon houses refresh, sort, and email functionalities.
 
-1. When you click on the ![](media\timeline-more-commands.icon.png "More commands") icon it displays a fly-out list of **More commands**.
-2.	The **Refresh timeline** command allows you to update the details in the timeline.
-3.	The **Sort newer to older** / **Sort older to newer** command allows you sort records.
-4.	The **Always show email as conversations / Always show email as individual messages** comand enables or disables treaded emails. 
+- **1:** When you select the **More commands** (![](media\timeline-more-commands.icon.png "More commands")) icon, the additional options are displayed.
+- **2:** The **Refresh timeline** command allows you to update the details in the timeline.
+- **3:** The **Sort newer to older** / **Sort older to newer** command allows you sort records.
+- **4:** The **Always show email as conversations / Always show email as individual messages** comand enables or disables treaded emails. 
 
     ![More commands timeline functionality](media\timeline-more-commands.png "More commands timeline functionality")
 
-For more information on using the **more command** feature and configuration see:
+For more information on using the **More command** feature and configuration see:
 - [Quick entry record type and sort order default](customer-service-hub-user-guide-timeline-admin.md#quick-entry-record-type-and-sort-order-default)
 - [Enable threaded email views in timeline](customer-service-hub-user-guide-timeline-admin.md#threaded-email-views-in-timeline)
 
 ## Threaded email views in timeline
 
-To save valuable space, emails with multiple replies are consolidated into email treads and collapsed.
+To save valuable space, emails with multiple replies are consolidated into email threads and collapsed.
 
-1. Emails with multiple responses are grouped into treaded emails.
-2. To view the complete string of email responses, click on **show more** in the bottom left corner of the last visible email in the tread.
-3. When expanded, the last 10 most recent email responses in the tread will display.  To display more, click **show more** to expand the view again.
-4. Emails that are tied together in the same thread display a linking line to one another.
+- **1:** Emails with multiple responses are grouped into threaded emails.
+- **2:** To view the complete string of email responses, you can select **Show more** in the bottom left corner of the last visible email in the thread.
+- **3:** When expanded, the most recent 10 email responses in the thread will display.  To display more, select **Show more** to expand the view again.
+- **4:** Emails in the same thread are displayed as linked together.
 
 ![Timeline threaded email view functionality](media\timeline-threaded-email-views-1.png "Timeline threaded email view functionality")
 
-### Enable threaded email views in timeline 
+### Enable threaded email views in timeline
 
-Enabling the threaded email view is done via the timeline configuration in Power Apps.  Threaded email views must be done in this setting for each specific timeline, for the specific form, for the specific entity. 
+Enabling the threaded email view is done via the timeline configuration in Power Apps.  Threaded email views must be done in this setting for each specific timeline, for the specific form, for the specific entity.
 
-There are a couple of options for enabling threaded email views in timeline:
+You can use any of the following options for enabling threaded email views in timeline:
 
 **Option 1:** 
-1. Click on the ![](media\timeline-more-commands.icon.png "More commands") **More commands** icon on the timeline which will display a fly-out.
+1. Select the ![](media\timeline-more-commands.icon.png "More commands") **More commands** icon on the timeline which will display a flyout menu.
 2. Select **Always show email as conversations**. Now your emails will display in timeline threaded together.
 
 ![Enable threaded email timeline view - option 1](media\timeline-threaded-email-views-2.png "Enable threaded email timeline view - option 1")
 
 **Option 2:**
-1. From Power Apps, go to **Setting**
-2. Select **Personalize Settings**
-3. The **Set Personal Options** fly-out will appear.  Click on the **Email** tab
-4. Check the box next to **Show emails as conversation on Timeline**
-5. Click **OK**
+1. On the command bar, select **Settings** > **Personalization Settings**. The **Set Personal Options** dialog box appears.
+4. Select the **Email** tab.
+5. Select the **Show emails as conversation on Timeline** check box.
+6. Select **OK**.
 
-![Enable threaded email timeline view - option 2](media\timeline-threaded-email-views-3.png "Enable threaded email timeline view - option 2")
+    > ![Enable threaded email timeline view - option 2](media\timeline-threaded-email-views-3.png "Enable threaded email timeline view - option 2")
 
 ## Search records on timeline
 
-When enabled by your system administrator, you can easily search for records in the timeline. When you search for a phrase in the timeline, it searches in the title/subject of the record or body/description fields of the record then displays the record for you. 
+When enabled by your system administrator, you can easily search for records in the timeline. When you search for a phrase in the timeline, it searches in the title or subject of the record or body or description fields of the record and displays the record for you.
 
-1.	Use the **Search** bar on timeline to quickly find records
-2.	When you enter keywords or phrases, the search feature will retrieve and display results below the search bar. 
-3.	Keywords you used to perform your search will be highlighted.
+- **1:** Use the **Search** bar on timeline to quickly find records.
+- **2:** When you enter keywords or phrases, the search feature will retrieve and display results below the search bar.
+- **3:** The keywords that you use to perform your search will be highlighted.
 
 ![Enable threaded email timeline view - option 2](media\timeline-search-records-1.png "Enable threaded email timeline view - option 2")
 
-For more information see:
-- [Enable search bar](customer-service-hub-user-guide-timeline-overview.md#enable-search-bar)
+For more information see, [Enable search bar](customer-service-hub-user-guide-timeline-admin.md#enable-search-bar).
 
 ## Add an attachment to a note in timeline
 
-You can add an attachment to a note in timeline to help users when you have file to share.
+You can add an attachment, such as a file, to a note in timeline to share with users.
 
-1.	Click on the ![](media\timelilne-paperclip-icon.png "paperclip icon") paperclip icon to attach a file to a note. You can only add an attachment to a note which is attached to a record. 
-2. 	Select file you want to attach. You can only add one file per note.
-3. 	Edit note screen will appear.
-4.	Your attachment will display at the bottom of the edit note screen.
-5. 	**Add note** to save and close the edit note screen.
+1. Select the ![](media\timelilne-paperclip-icon.png "paperclip icon") paperclip icon to attach a file to a note. You can only add an attachment to a note which is attached to a record. 
+2. Select the file you want to attach. You can only add one file per note.
+3. Edit note screen will appear.
+4. Your attachment will be displayed at the bottom of the edit note screen.
+5. **Add note** to save and close the edit note screen.
 
 ![Add an attachment to a note in timeline](media\timeline-add-an-attachment-to-a-note.png "Add an attachment to a note in timeline")
 
-> [!IMPORTANT]
-> <li>You can only add one (1) attachment per note.</li>
-> <li>If your system administrator does not have <b>Notes</b> enabled, you cannot do an attachment.</li> 
+> [!NOTE]
+> If your system administrator has not enabled notes, you cannot add an attachment.
 
 ## Work with notes and posts
 
@@ -156,9 +153,9 @@ Notes allows you to record richly formatted information and images for refrence,
 
 ### Add a note or post to a record on timeline
 
-You can either add a **Note** or a **Post** to a record on timeline only if your system administrator has enabled the features. 
+You can either add a **Note** or a **Post** to a record on timeline only if your system administrator has enabled the features.
 
-1.	You can enter a **Note** to add to a record. If your system administrator does not have **Notes** enabled, you cannot do an attachment. Also, you can only add one (1) attachment per note.
+1.	You can enter a **Note** to add to a record. If your system administrator does not have **Notes** enabled, you cannot add an attachment. Also, you can only add one attachment per note.
 2.	You can enter a **Post** to add to a record.
 
 ![Add a note or post to a record on timeline](media\timeline-add-a-note-or-post-to-a-record.png "Add a note or post to a record on timeline")
@@ -169,14 +166,14 @@ When you hover the cursor on or expand an activity, post, and note, the command 
 
 The following is an overview of the command bar icons and the actions they support: 
 
-1. **Assign**. Use this command to assign a task.
-2. **Close Activity**. Use this command to close activity record.
-3. **Add to Queue**. Use this command to add task to a queue.
-4. **Open Record**
-5. **Delete**
-6. **Reply**. Use this command to replay to an email. This command is only available on email.
-7. **Replay All**. Use this command to replay to all an email. This command is only available on email.
-8. **Forward**. Use this command to forward an email. This command is only available on email.
+1. **Assign**. Lets you assign a task.
+2. **Close Activity**. Lets you close the activity record.
+3. **Add to Queue**. Lets you add a task to a queue.
+4. **Open Record**. Lets you open a record.
+5. **Delete**. Lets you delete the record.
+6. **Reply**. Lets you reply to an email. This command is only available for email.
+7. **Reply All**. Lets you reply to all for an email. This command is only available on email.
+8. **Forward**. Lets you forward an email. This command is only available on email.
 9. **Like this post**. This command is only available on Posts.
 10. **Edit this note**. This command is only available on Notes.
 
@@ -184,29 +181,29 @@ The following is an overview of the command bar icons and the actions they suppo
 
 ## Work with notes
 
-The message box has a rich text editor that enables you to use rich text and create well formatted content.
+The message box has a rich text editor that enables you to use rich text and create well-formatted content.
 
-1. Enter a **Title**
+1. Enter a **Title**.
 2. Use the rich text editor to format and structure your messages.
 3. Expand the rich text editing tool to access the full menu of formatting features.
 4. Use the paperclip to attach files to your note.
 5. View and confirm file has been attached to your note.
-6. Click **Add note** to save.
+6. Select **Add note** to save.
 
 ![Timeline notes rich text editor](media\timeline-take-a-note.png "Timeline notes rich text editor")
 
 > [!NOTE]
 > - Only **Notes** have rich text capability. 
-> - You can only format the message (body) of a note, not the title.
-> - Rich text editor is only available for Unified Interface, not the web client.
-> - If you create a rich text editor note in the Unified Interface, and then view the note in the Web Client, it will display in HTML syntax.
+> - You can only format the message body of a note, not the title.
+> - Rich text editor is available only for Unified Interface.
+> - If you create a rich text editor note in Unified Interface, and then view the note in the Web Client, it will display in HTML syntax.
 
 For more information on the rich text editor feature, here is a listing of functionality:
   
 |Icon | Name | Shortcut key | Description |
 |----------------------|-------------------------|-----------------------------|-----------------------------|
 |![Format Painter](../customer-service/media/format-painter.png "Format Painter")| Format Painter | Ctrl+Shift+C, Ctrl+Shift+V | Apply the look of a particular section to another section. |
-|![Font](../customer-service/media/format-font.png "Font") | Font | Ctrl+Shift+F | Select your desired font. The default font is Segoe UI.<br /><br /> **Note**: When you select any formatted content, the font name for that content displays. If your selection contains multiple fonts, the topmost font name of your selection is displayed. |
+|![Font](../customer-service/media/format-font.png "Font") | Font | Ctrl+Shift+F | Select a font of your choice. The default font is Segoe UI.<br /><br /> **Note**: When you select any formatted content, the font name for that content displays. If your selection contains multiple fonts, the topmost font name of your selection is displayed. |
 |![Font Size](../customer-service/media/font-size.png "Font Size") | Font size | Ctrl+Shift+P | Change the size of your text. The default size is 12.<br /><br /> **Note**: When you select any formatted content, the font size for that content displays. If your selection contains multiple font sizes, the topmost font name of your selection is displayed.|
 |![Bold](../customer-service/media/format-bold.png "Bold")| Bold | Ctrl+B | Make your text bold. |
 |![Italic](../customer-service/media/format-italic.png "Italic")| Italic | Ctrl+I | Italicize your text. |
@@ -226,14 +223,14 @@ For more information on the rich text editor feature, here is a listing of funct
 |![Superscript](../customer-service/media/format-superscript.png "Superscript")| Superscript |  | Type very small letters just above the line of text. |
 |![Subscript](../customer-service/media/format-subscript.png "Subscript")| Subscript |  | Type very small letters just below the line of text. |
 |![Strikethrough](../customer-service/media/format-strikethrough.png "Strikethrough")| Strikethrough |  | Cross out text by drawing a line through it. |
-|![Insert Image](media\insert-picture.png "Insert Image")| Insert Image|	|You can insert an image by directly copying and pasting it inline in the editor, dragging and dropping it from your desktop or local folder directly into the editor, or by typing a URL. The following formats are supported: .PNG, .JPG., or .GIF.<br /><br />To insert an image inline in your article: <br />1. Drag and drop the image or or copy and paste it directly into the article. <br />2. Drag any corner of the image to resize it.<br /><br />To insert an image using a URL or navigating to the local image:<br />1. Choose Insert Image.<br />2. In the **Image** property dialog, choose from the following options:<br /><ul><li>Select **Browse** to navigate to the image on your computer.</li><li>Or specify the web address of the image, and properties to define how the image will appear in the email or article.</li><br />**Note:**<ul><li>If the image is located on the external server, use the full absolute path. </li><li>If the image is located on a local server, you can use a relative path. </li><li>If you want the image to be a selectable link, add a URL for the image.</li><li>You can also specify if you want the targeted page to open in a new window, topmost window, same window, or parent window.</li></ul>
+|![Insert Image](media\insert-picture.png "Insert Image")| Insert Image|	|You can insert an image by directly copying and pasting it inline in the editor, dragging and dropping it from your desktop or local folder directly into the editor, or by typing a URL. The following formats are supported: .PNG, .JPG., or .GIF.<br /><br />To insert an image inline in your article: <br />1. Drag and drop the image or or copy and paste it directly into the article. <br />2. Drag any corner of the image to resize it.<br /><br />To insert an image using a URL or navigating to the local image:<br />1. Choose Insert Image.<br />2. In the **Image** property dialog, choose from the following options:<br /><ul><li>Select **Browse** to navigate to the image on your computer.</li><li>Or specify the web address of the image, and properties to define how the image will appear in the email or article.</li><br />**Note:**<ul><li>If the image is located on the external server, use the full absolute path. </li><li>If the image is located on a local server, you can use a relative path. </li><li>If you want the image to be linked to a target, add a URL for the image.</li><li>You can also specify if you want the targeted page to open in a new window, topmost window, same window, or parent window.</li></ul>
 |![Left to Right](../customer-service/media/left-to-right.png "Left to Right")| Left to Right |  | Change the text to left-to-right for content such as a paragraph, header, table, or list. Commonly used for bi-directional language content. This is the default setting.|
 |![Right to Left](../customer-service/media/right-to-left.png "Right to Left")| Right to Left |  | Change the text to right-to-left for content such as a paragraph, header, table, or list. Commonly used for bi-directional language content. The default setting is left-to-right. |
 |![Undo Typing](../customer-service/media/undo-typing.png "Undo Typing")| Undo Typing |  | Undo changes you made to the content. |
 |![Redo Typing](../customer-service/media/redo-typing.png "Redo Typing")| Redo Typing |  | Redo changes you made to the content. |
 |![Clear All Formatting](../customer-service/media/clear-formatting.png "Clear All Formatting")| Clear All Formatting |  | Remove all formatting from a selection of text, leaving only the normal, unformatted text. |
 |![Add a Table](../customer-service/media/add-table.png "Add a Table")| Add a Table |  | Add a table to your content. <br /><br />After adding a table, you can do any of the following:<br /><ul><li>Resize table columns by clicking and dragging your mouse to resize to the columns to the desired width.</li><li>Select one or several cells within a table and apply specific formatting, add links to the selection, or cut, copy, or paste entire rows or columns.</li><li>Right-click to access the properties. This supports features such as cell type, width and height, word wrapping, alignment, merging and splitting cells horizontally and vertically, inserting or deleting rows and columns, row and column span, and cell and border color.</li></ul>|
-|![Expand Toolbar](../customer-service/media/show-more.png "Expand Toolbar")| Expand Toolbar |  | Displays when the toolbar is collapsed and not all options appear. Click to expand the toolbar and make all options visible. |
+|![Expand Toolbar](../customer-service/media/show-more.png "Expand Toolbar")| Expand Toolbar |  | Appears when the toolbar is collapsed. Click to expand the toolbar and make all options visible. |
 
 The rich text editor is enabled by default. Your system administrator can enable or disable the editor for you. For more information, see [Enable rich-text editor for notes in timeline](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-or-disable-rich-text-editor-for-notes-in-timeline "Enable rich-text editor for notes in timeline").
 
@@ -243,10 +240,10 @@ The rich text editor is enabled by default. Your system administrator can enable
 
 To add a mention or to reference a team member in a **Post**, use the following steps:
 
-1.	In the box that appears, type @ sign. When you type @, a flyout opens with a list of users you’ve recently used.
-2.	You can select one of the user records, or start typing the keyword. When you start typing, the records in the flyout are refreshed to match the keyword. In the backend, the search happens using **Dynamics 365 Quick Find** search.
-3.	If you don’t find a record, you can either switch to different views. To do this, select Advanced.  It opens the **Lookup Records** pane.
-4.	In the **Lookup Records** pane, you can switch between the **Recent records** and **All records** view to find a record.  
+1.	In the box that appears, type @ sign. When you type @, a flyout menu opens with a list of users you’ve recently used.
+2.	You can select one of the user records, or start typing the keyword. When you start typing, the records in the flyout menu are refreshed to match the keyword. In the background, the **Dynamics 365 Quick Find** search is in use.
+3.	If you don’t find a record, you can switch to different views. To do this, select Advanced.  It opens the **Lookup Records** pane.
+4.	In the **Lookup Records** pane, you can switch between the **Recent records** and **All records** view to find a record.
 
 > [!NOTE]
 > You can mention only a system user in a post.
@@ -260,8 +257,8 @@ To add a reference to a timeline record in a **Post**, use the following steps:
 1.	In the **timeline** section, select the ![](media\timeline-create-a-record-icon.png "Create a timeline record")  icon
 2.	Select **Post**.
 3.	To add a link, type **#** in the box that appears.  
-4.	When you type #, a flyout opens with a list of records that you have recently accessed. These records could be of any record type, such as accounts, contacts or leads.  
-5.	You can select one of the record or start typing the keyword. When you start typing, the records in the flyout are refreshed to match the keyword. In this case, too, the search happens using the **Dynamics 365 Quick Find** search. The icons beside the record names in the flyout indicate the record types, which help you determine which record to select.  
+4.	When you type #, a flyout menu opens with a list of records that you have recently accessed. These records could be of any record type, such as accounts, contacts or leads.
+5.	You can select one of the records or start typing the keyword. When you start typing, the records in the flyout menu are refreshed to match the keyword. In this case, too, the search happens using the **Dynamics 365 Quick Find** search. The icons beside the record names in the flyout menu indicate the record types, which help you determine the record to select.  
 6.	If you don’t find a record, you can either switch to different views or create a new record. To do this, select **Advanced**.  It opens the **Lookup Records** pane.
 7.	In the **Lookup Records** pane, switch between the **Recent records** and **All records view** to find a record.  
 8.	Select **Change View** to find to see records from a different view. For example, if you want to find one of your open opportunities, select **Change View** > **Opportunities** > **My Open Opportunities**. The records in the **Lookup Records** pane will be refreshed to show only the open opportunities you own.  
