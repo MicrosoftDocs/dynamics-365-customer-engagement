@@ -4,7 +4,7 @@ description: "Instructions on how to configure a Facebook channel in Omnichannel
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 04/06/2020
+ms.date: 07/24/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -95,24 +95,6 @@ After you add a Facebook page, values for **Callback Uri** and **Verify Token** 
 > [!div class=mx-imgBorder]
 > ![Facebook application created](../media/fb-app-created.png "Facebook application created")
 
-8. On the **General settings** tab, provide the following information:
-    
-    - **Language**: Select the preferred language for your Facebook page.
-
-    - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set **No**. To learn more about attachments, see [File attachments](#file-attachments). 
-
-    - **Enable file attachments for agents**: Set to **Yes** to allow agents to send file attachments to customers. Otherwise, set **No**. To learn more about attachments, see [File attachments](#file-attachments). 
-    
-    - **Turn on your Facebook human agent message tag**: Set to **Yes** to enable your agents to message customers after 24 hours have passed. When set to **No**, agents will be unable to respond to customers after 24 hours unless the customer sends another message. 
-
-9. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
-    
-10. On the **Surveys** tab, configure pre- and post-chat surveys. To learn more see the following links:
-    
-    - [Configure a pre-chat survey](configure-pre-chat-survey.md)
-    
-    - [Configure a post-chat survey](configure-post-chat-survey.md)
-
 ## Step 3: Create routing rules
 
 1.	Go to **Work Distribution Management** > **Work Streams**.
@@ -126,7 +108,29 @@ After you add a Facebook page, values for **Callback Uri** and **Verify Token** 
     > [!div class=mx-imgBorder]
     > ![Facebook channel routing rule](../media/fb-routing-rule.png "Facebook channel routing rule")
 
-## File attachments
+## Step 4: Enable settings for a specific Facebook page 
+
+1. In the Omnichannel Administration app, go to your Facebook application and select the Facebook page you want to modify. 
+
+2. On the **General settings** tab, provide the following information:
+    
+    - **Language**: Select the preferred language for your Facebook page.
+
+    - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set **No**. To learn more about attachments, see [File attachments](#file-attachments). 
+
+    - **Enable file attachments for agents**: Set to **Yes** to allow agents to send file attachments to customers. Otherwise, set **No**. To learn more about attachments, see [File attachments](#file-attachments). 
+    
+    - **Turn on your Facebook human agent message tag**: Set to **Yes** to enable your agents to message customers after 24 hours have passed. When set to **No**, agents will be unable to respond to customers after 24 hours unless the customer sends another message. 
+
+3. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
+    
+4. On the **Surveys** tab, configure pre- and post-chat surveys. To learn more see the following links:
+    
+    - [Configure a pre-chat survey](configure-pre-chat-survey.md)
+    
+    - [Configure a post-chat survey](configure-post-chat-survey.md)
+
+### File attachments
 
 You can enable or disable the capability for your agents and customers to send file attachments during a Facebook channel conversation. 
 
@@ -134,7 +138,7 @@ When you enable the option for customers in the Facebook page configuration, cus
 
 If an agent transfers the conversation to another agent, the agent who receives the chat can also access the files attached in the conversation.
 
-### File size limit and unsupported extensions (types) for attachments
+#### File size limit and unsupported extensions (types) for attachments
 
 By default, Omnichannel for Customer Service has a file size limit of 5 megabytes (MB) (5,120 kilobytes). However, you can configure the file as per your organization's requirements. 
 
@@ -202,7 +206,7 @@ Customers are solely responsible for using Dynamics 365, this feature, and any a
 ### See also
 
 [Understand and create work streams](work-streams-introduction.md)<br>
-[Create and manage routing rules](routing-rules.md)
-[Configure automated messages](configure-automated-message.md). 
-[Configure a pre-chat survey](configure-pre-chat-survey.md)
+[Create and manage routing rules](routing-rules.md)<br>
+[Configure automated messages](configure-automated-message.md)<br> 
+[Configure a pre-chat survey](configure-pre-chat-survey.md)<br>
 [Configure a post-chat survey](configure-post-chat-survey.md)
