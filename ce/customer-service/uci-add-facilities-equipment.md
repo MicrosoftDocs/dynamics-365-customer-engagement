@@ -62,3 +62,18 @@ Before you begin, make sure you have the **System Administrator** security role 
 5. Set up the workhour calendar.
 
    ![Calendar with working hours](media/uci-workhour-calendar.png "Set up the workhour calendar")
+   
+
+### See also  
+
+[UCIfied service scheduling overview](uci-scheduling-overview.md)
+
+[Create or edit a service](uci-create-edit-service.md)
+
+[Schedule a service activity](uci-schedule-service-activity.md)
+
+[Create resource groups](uci-create-resource-groups.md)
+
+[Use sites to manage your service locations](uci-create-sites.md)
+
+[Navigate the service calendar](uci-navigate-service-calendar.md)
