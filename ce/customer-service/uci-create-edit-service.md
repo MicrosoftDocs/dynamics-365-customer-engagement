@@ -81,7 +81,19 @@ You can make a service available or unavailable for scheduling by activating or 
    ![Activate or deactivate service](media/uci-activate-deactivate-service.png "Activate or deactivate a service")
 
 
+### See also  
 
+[UCIfied service scheduling overview](uci-scheduling-overview.md)
+
+[Add facilites and equipment](uci-add-facilities-equipment.md)
+
+[Schedule a service activity](uci-schedule-service-activity.md)
+
+[Create resource groups](uci-create-resource-groups.md)
+
+[Use sites to manage your service locations](uci-create-sites.md)
+
+[Navigate the service calendar](uci-navigate-service-calendar.md)
 
 
 
