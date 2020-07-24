@@ -74,3 +74,17 @@ Before you begin, make sure you have the Scheduler Manager role or equivalent pe
 4. Select **Save** or **Save and Close**. 
 
    ![Edit Resource Group](media/uci-change-resource.png "Edit the resources in your Resource Group")
+   
+### See also  
+
+[UCIfied service scheduling overview](uci-scheduling-overview.md)
+
+[Create or edit a service](uci-create-edit-service.md)
+
+[Add facilites and equipment](uci-add-facilities-equipment.md)
+
+[Schedule a service activity](uci-schedule-service-activity.md)
+
+[Use sites to manage your service locations](uci-create-sites.md)
+
+[Navigate the service calendar](uci-navigate-service-calendar.md)
