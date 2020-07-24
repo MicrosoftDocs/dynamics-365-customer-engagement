@@ -12,18 +12,21 @@ manager: shujoshi
 
 # Frequently asked questions
 
+<a name="sync-load-photos-linkedin"> </a>
 **Why am I unable to sync or load photos of my contacts from LinkedIn to the org chart?**  
 
 **Answer:** 
 
 Currently, we don't support syncing or loading contact profile pictures from LinkedIn to the org chart. The org chart displays only the pictures that are stored in Dynamics 365 for contact records. 
 
+<a name="add-remove-fields-contact-details"> </a>
 **Why am I unable to remove or add fields to a contact through the Contact Details side pane after selecting nodes in the org chart?**  
 
 **Answer:** 
 
 Removing or adding fields from the **Contact Details** pane isn't supported.
 
+<a name="import-leads-accounts-crm-sync"> </a>
 **Can I import leads or accounts into Dynamics 365 Sales through CRM Sync?**
 
 **Answer:**
