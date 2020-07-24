@@ -30,7 +30,7 @@ To access the entity list via the **Customer Service Hub**, go to:
 3.	Select **Advanced Settings**.
 
   ![How to navigate to timeline configurations - Option 1](media\timeline-access-option-1.png "How to navigate to timeline configurations - Option 1")
-4. 
+
 **Example 2:**  
 To access the entities list via **Power Apps**, go to:
 1.	Go to **Power Apps** URL: [make.powerapps.com](make.powerapps.com "make.powerapps.com").
@@ -91,15 +91,15 @@ The timeline component is rich in features and functionality that can be configu
 The following overview provides a detailed breakdown of each timeline feature, what it supports, how it is configured, and how it is displayed in the corresponding timeline section on the entity form:
 
 - **Display options** 
-  - [Timeline component name](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#timeline-component-name)
-  - [Records shown on page](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#records-shown-on-page)
-  - [Record types shown](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#record-types-shown) 
-  - [Advanced](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#advanced)
+  - [Timeline component name](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-timeline-overview#timeline-component-name)
+  - [Records shown on page](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-timeline-overview#records-shown-on-page)
+  - [Record types shown](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-timeline-overview#record-types-shown) 
+  - [Advanced](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-timeline-overview#advanced)
 
 - **Record settings** 
-  - [Activities](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#advanced)
-  -	[Notes](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#notes)
-  -	[Posts](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#posts)
+  - [Activities](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-timeline-overview#advanced)
+  -	[Notes](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-timeline-overview#notes)
+  -	[Posts](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-timeline-overview#posts)
 
 - **[How to create and add custom activities](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-custom-activity-in-timeline)**
 
@@ -432,9 +432,9 @@ There are some unique date fields, for example:<br>
 
 The **Create activities** feature allows you to choose which type of form you want to work in based on your business needs.  
 
-- **Quick create form** appears in a model on the right. There are some activities which do not support quick create that will always use email for example. For more information, see [Create or edit model-driven app quick create forms for a streamlined data entry experience](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-edit-quick-create-forms).
+- **Quick create form** appears in a model on the right. There are some activities which do not support quick create that will always use email for example. For more information, see [Create or edit model-driven app quick create forms for a streamlined data entry experience](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-edit-quick-create-forms).
 
-- **Main form** navigates you to the activity entity main form. For more information, see [Create or edit a model-driven app main form for an entity](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-edit-main-forms).
+- **Main form** navigates you to the activity entity main form. For more information, see [Create or edit a model-driven app main form for an entity](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-edit-main-forms).
 
 17.	 Click **Create activities using** feature to select either a **Quick create form** or **Main form**.
 
@@ -479,7 +479,7 @@ You can enable sort fields on **Notes**.
 
 ### How to create and add custom activities to timeline
 
-You can create custom entities to display on the timeline by enabling specific options during the creation of the entity. See the [How to create and add custom activities](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-custom-activity-in-timeline) for a step by step guide.
+You can create custom entities to display on the timeline by enabling specific options during the creation of the entity. See the [How to create and add custom activities](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-custom-activity-in-timeline) for a step by step guide.
 
 ### Save and publish timeline updates and changes
 
@@ -492,10 +492,10 @@ Before you can view any configuration changes on the entity form, you must save 
 
 ### How to configure dashboard timelines
 
-Timelines can be configured and put on a dashboard. However, dashboards are not supported by Power Apps. For more information see [Set up timeline section (control)](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/set-up-timeline-control).
+Timelines can be configured and put on a dashboard. However, dashboards are not supported by Power Apps. For more information see [Set up timeline section (control)](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control).
 
 > [!NOTE]
-> Capabilities on a dashboard timeline are different than those in an embedded dashboard timeline.  For more information see [Create or edit model-driven app dashboards](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-edit-dashboards).
+> Capabilities on a dashboard timeline are different than those in an embedded dashboard timeline.  For more information see [Create or edit model-driven app dashboards](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-edit-dashboards).
 
 ### See Also
 
