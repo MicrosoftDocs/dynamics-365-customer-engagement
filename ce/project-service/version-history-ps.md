@@ -36,7 +36,7 @@ search.app:
 
 For information about updates to Project Service, see the [Dynamics 365 release plans](https://docs.microsoft.com/dynamics365/release-plans/). 
 
-|  | Region | Current version | Next version |  Scheduled date
+| Station  | Region | Current version | Next version |  Scheduled date
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Station 2</strong> | |  |  | |
 | | <i>South America</i> |[3.10.32.40](whats-new-ur-21.md)|  TBD| July 31, 2020
