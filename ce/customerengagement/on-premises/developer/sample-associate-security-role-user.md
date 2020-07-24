@@ -19,8 +19,7 @@ caps.latest.revision: 17
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Sample: Associate a Security Role to a User

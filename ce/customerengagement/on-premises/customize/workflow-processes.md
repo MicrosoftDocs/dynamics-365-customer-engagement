@@ -17,8 +17,7 @@ manager: kvivek
 author: Mattp123
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Use Workflow processes to automate processes that don't require user interaction
 

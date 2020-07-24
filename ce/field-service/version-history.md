@@ -55,16 +55,20 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 | | <i>Great Britain</i>  |  [8.8.24.17](https://docs.microsoft.com/dynamics365/field-service/version-history#882417) | TBD | 08/07/2020
 | | <i>Oceana</i>  |  [8.8.24.17](https://docs.microsoft.com/dynamics365/field-service/version-history#882417) | TBD | 08/07/2020
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> | [8.8.23.85](https://docs.microsoft.com/dynamics365/field-service/version-history#882385)|[8.8.24.17](https://docs.microsoft.com/dynamics365/field-service/version-history#882417) | 07/10/2020
+| | <i>Europe</i> | [8.8.24.17](https://docs.microsoft.com/dynamics365/field-service/version-history#882417) | TBD | 08/14/2020
 |<strong>Station 5</strong> | |  |  | |
-| | <i>North America</i> |[8.8.23.85](https://docs.microsoft.com/dynamics365/field-service/version-history#882385)|[8.8.24.17](https://docs.microsoft.com/dynamics365/field-service/version-history#882417) | 07/17/2020
+| | <i>North America</i> |[8.8.24.54](https://docs.microsoft.com/dynamics365/field-service/version-history#882454)| TBD | 08/21/2020
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> |[8.8.23.85](https://docs.microsoft.com/dynamics365/field-service/version-history#882385)|[8.8.24.17](https://docs.microsoft.com/dynamics365/field-service/version-history#882417) | 07/17/2020
-| | <i>China</i> |[8.8.23.85](https://docs.microsoft.com/dynamics365/field-service/version-history#882385)|[8.8.24.17](https://docs.microsoft.com/dynamics365/field-service/version-history#882417) | 07/17/2020
+| | <i>Government Community Cloud</i> |[8.8.24.54](https://docs.microsoft.com/dynamics365/field-service/version-history#882454)| TBD | 08/21/2020
+| | <i>China</i> |[8.8.24.54](https://docs.microsoft.com/dynamics365/field-service/version-history#882454)| TBD | 08/21/2020
 
 >[!Note]
 > - Dates in all regions except Government Community Cloud (GCC) and China indicate the timing of the next automatic update. Dates in GCC and China indicate version availability; at this time, there is no automatic update for these regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 8.8.24.54
+(Includes Universal Resource Scheduling version [3.12.23.71](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#3122371)) 
+- Includes all content from Field Service version 8.8.24.17
 
 ## 8.8.24.17
 

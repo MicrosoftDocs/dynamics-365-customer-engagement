@@ -16,8 +16,7 @@ author: susikka
 ms.author: susikka
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Web API samples
 

@@ -19,8 +19,7 @@ caps.latest.revision: 19
 topic-status: Editing
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 ---
 
 # Use OneDrive for Business to manage your private documents

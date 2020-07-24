@@ -20,8 +20,7 @@ caps.latest.revision: 10
 topic-status: Drafting
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 
 # Validate and publish an app by using the app designer

@@ -12,8 +12,7 @@ applies_to:
 ms.assetid: 26c79c20-2987-476e-983a-406e0db13034
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 
 # Accessibility in Dynamics 365 Customer Engagement (on-premises) app designer, site map designer, and My Apps page
