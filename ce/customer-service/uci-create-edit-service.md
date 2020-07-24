@@ -61,7 +61,7 @@ A service requires at least one selection rule and one or more resources, resour
    
 6. On the **Required Resources** tab, define a selection rule.
   
-   ![Define selection rule](media/uci-define-selection-rule "Define a selection rule on the Required Resources tab")
+   ![Define selection rule](media/uci-define-selection-rule.png "Define a selection rule on the Required Resources tab")
    
     |Option  |Description|
     |---------|---------|
