@@ -40,4 +40,18 @@ Before you begin, make sure you have the System Administrator or System Customiz
 
    ![New site](media/uci-new-site.png "Enter a name and other details for the new site")
 
-4. Enter a name and any other details you want, and then click **Save**
+4. Enter a name and any other details you want, and then click **Save**.
+
+### See also  
+
+[UCIfied service scheduling overview](uci-scheduling-overview.md)
+
+[Create or edit a service](uci-create-edit-service.md)
+
+[Add facilites and equipment](uci-add-facilities-equipment.md)
+
+[Schedule a service activity](uci-schedule-service-activity.md)
+
+[Create resource groups](uci-create-resource-groups.md)
+
+[Navigate the service calendar](uci-navigate-service-calendar.md)
