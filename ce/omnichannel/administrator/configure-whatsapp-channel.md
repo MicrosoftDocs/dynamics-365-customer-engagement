@@ -4,7 +4,7 @@ description: "Learn about the WhatsApp channel through Twilio and how to configu
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/28/2020
+ms.date: 07/24/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -54,6 +54,8 @@ The WhatsApp channel feature lets you integrate WhatsApp through Twilio with Omn
 [Step 1: Fetch Twilio account details](#fetch-twilio-account-details)
 
 [Step 2: Create a WhatsApp channel](#create-a-whatsapp-channel)
+
+[Step 3: Modify settings for a specific WhatsApp phone number)(#modify-settings-for-a-specific-whatsapp-phone-number)
 
 ## Fetch Twilio account details
 
@@ -123,9 +125,34 @@ To create a WhatsApp channel, follow these steps:
 2. In the **WHEN A MESSAGE COMES IN** box, enter the Twilio inbound URL that you generated in Omnichannel for Customer Service, and save the changes.
 3. To test the WhatsApp channel with the Twilio sandbox, you can send a WhatsApp message to the number provided by Twilio with a unique code that is also provided by Twilio. You can also use the sandbox message template provided by Twilio to test sending messages outside of the 24-hour window.
 
+## Step 3: Modify settings for a specific WhatsApp phone number 
+
+1. In the Omnichannel Administration app, go to your WhatsApp application and select the WhatsApp phone number you want to modify. 
+
+2. On the **General settings** tab, provide the following information:
+    
+    - **Language**: Select the preferred language for your Facebook page.
+
+    - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set **No**. 
+
+    - **Enable file attachments for agents**: Set to **Yes** to allow agents to send file attachments to customers. Otherwise, set **No**. 
+    
+       To learn more about attachments, see [File attachments](enable-file-attachments.md). 
+    
+3. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
+    
+4. On the **Surveys** tab, configure pre- and post-chat surveys. To learn more see the following links:
+    
+    - [Configure a pre-chat survey](configure-pre-chat-survey.md)
+    
+    - [Configure a post-chat survey](configure-post-chat-survey.md)
+
 ### See also
 
+[Understand and create work streams](work-streams-introduction.md)<br>
+[Create and manage routing rules](routing-rules.md)<br>
+[Configure automated messages](configure-automated-message.md)<br> 
+[Configure a pre-chat survey](configure-pre-chat-survey.md)<br>
+[Configure a post-chat survey](configure-post-chat-survey.md)
 [Skill-based routing](overview-skill-work-distribution.md)  
-[Productivity tools](productivity-tools.md)  
-[Smart assist](smart-assist.md)  
 [Templates](templates-overview.md)
