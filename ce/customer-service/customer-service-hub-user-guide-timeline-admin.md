@@ -227,14 +227,14 @@ When you select the filter icon, the Filter by menu is displayed and you can fil
 
 When you use the filter based on an activity status then those activities, notes, and posts are displayed:
 
-a. Select an activity item. In this example we selected <b>Overdue</b>.
+**a.** Select an activity item. In this example we selected <b>Overdue</b>.
 <br>
 
-b. Based on our selection, all activity items with an <b>overdue status</b> now appear.<br>
+**b.** Based on our selection, all activity items with an <b>overdue status</b> now appear.<br>
 
-c. <b>Filter</b> icon is filled in telling you a filter item has been selected.<br>
+**c.** <b>Filter</b> icon is filled in telling you a filter item has been selected.<br>
 
-d. To clear filter selections, click on the <b>Clear all filters</b> icon to clear all filters.
+**d.** To clear filter selections, click on the <b>Clear all filters</b> icon to clear all filters.
 
 ![Display options - Advanced - How to filter activity types on timeline](media\timeline-how-to-filter-activity-types-display-options-advanced-2.png "Display options - Advanced - How to filter activity types on timeline")
 
@@ -272,11 +272,13 @@ You can easily search for records in the timeline. When you search for a phrase 
 
 You can send and receive records with images, but they will not display when the record is collapsed. Records with images must be expanded to be viewed.
 
-a. Records when collapsed provide a visual summary.<br>
+**a.** Records when collapsed provide a visual summary.<br>
 
-b. To expand an individual record, click anywhere on the timeline record to expand and collapse.  In the bottom right corner of the record you will see a caret.  When the caret is facing downward (˅) it tells you the record is collapsed. When the caret is facing upward (^)it tells you the record it expanded.<br> 
+**b.** To expand an individual record, click anywhere on the timeline record to expand and collapse.  In the bottom right corner of the record there is a caret:  
+<li>When the caret is facing downward (˅) the record is collapsed.</li> 
+<li>When the caret is facing upward (^) the record it expanded.</li> 
 
-c. Records with images will often display the following notice. When you click on this message the warning will go away. 
+**c.** Records with images will often display the following notice. When you click on this message the warning will go away. 
 
 ![Expand records with images in timeline](media\timeline-expand-records-with-images-display-optiones-advanced-1.png)
 
@@ -316,7 +318,7 @@ When you expand the **Activities record settings** on the timeline component sec
 3.	When you click on an **Activity type** a fly-out appears. 
 4.	To enable an **Activity type**, click the box next to Enable and select Done.
 5.	To disable an **Activity type**, uncheck the box next to **Enable** and select **Done**. This will grey out all other items in the box and disable the activity type from displaying on the timeline.  This also disables the activity type from being created or viewed in timeline.  
-6.	When you enable an **Activity type**, it will appear in a drop down box when you click on the ![](media\timeline-create-a-record-icon.png "Create a timeline record") icon to **Create a timeline record**  in the top right nav in the timeline section of the entity record. 
+6.	When you enable an **Activity type**, it will appear in a drop down box when you click on the ![](media\timeline-create-a-record-icon.png "Create a timeline record") icon to **Create a timeline record** in the top right nav in the timeline section of the entity record. 
 7.	Also, the **Activity type** can be viewed in the body of the timeline section of the form. 
 
 > [!NOTE]
@@ -384,7 +386,6 @@ The displays the title/subject in your timeline email form. You can have up to s
 **Details Section** <br>
 This displays in the body of your the timeline email record. You can have up to four (4) fields in the **Detail** section, but only the first three (3) fields are seen on the timeline record.
 
-
 <ol>
 <b>h.	Details - Field 1.</b> As before, regardless of the field you choose, this field will always appear below the Header - Field 1 as a sub-header on the timeline record. For this example we selected <b>To</b> for this field. <!--Depending on the font setting in your browser, the font for this section will display differently.--><br>
 
@@ -397,7 +398,7 @@ This displays in the body of your the timeline email record. You can have up to 
 This section is not visible on the timeline record.  
 
 <ol>
-**k.**	**Footer – Field 1.** For this example we selected **Owner** for this field.<br>
+<b>k.	Footer – Field 1.</b> For this example we selected **Owner** for this field.<br>
 
 **l.**	**Footer – Field 2.** For this example we selected **Regarding** for this field.<br>
 
@@ -416,7 +417,7 @@ How you view data is important and setting a default display view of your data v
 There are some unique date fields, for example:<br> 
 
 <ol>
-16a. **Date sent.** This only occures in email. If you sort by Date sent, most activities will not contain a Date Sent and therefore will be grouped together without any ordering.<br>
+16a. <b>Date sent.</b> This only occures in email. If you sort by Date sent, most activities will not contain a Date Sent and therefore will be grouped together without any ordering.<br>
 
 16b. **Sort date.**  You cannot create a custom date field.  If you create one, it will not display, so in answer to this, **Sort date** was created.  It does not have a value and therefore allows you to choose your own.  Is empty by default.
 </ol>

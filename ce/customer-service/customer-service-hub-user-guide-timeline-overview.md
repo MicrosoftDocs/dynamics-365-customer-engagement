@@ -37,7 +37,7 @@ The iconography displayed in the top right nav in the Timeline gives quick acces
 
 When enabled by your system administrator, **create a timeline record** allows you to quickly create appointments, send emails, even make notes and posts and associate them to other records. 
 
-1.	The ![](media\timeline-create-a-record-icon.png "Create a timeline record")  icon allows you to **Create a timeline record**
+1.	The ![](media\timeline-create-a-record-icon.png "Create a timeline record") icon allows you to **Create a timeline record**
 2.	A flyout appears that displays a list of record types your Admin has enabled for use.
 
     ![Create a timeline record](media\timeline-create-a-timeline-record.png "Create a timeline record")
