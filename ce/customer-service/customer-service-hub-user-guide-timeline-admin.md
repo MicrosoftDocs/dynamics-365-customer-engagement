@@ -12,9 +12,9 @@ manager: shujoshi
 
 # Configuring Timeline 
 
-This experience gives Administrators the ability to configure the information displayed in each timeline to help users have the best understanding of the customer’s history so they can deliver more personalized service. 
+The timeline control provides an easy and immersive experience to view information related to an entitiy, such as cases, accounts, or contacts which gives users a better understanding  and helps them deliver more personalized service in an efficient and effective manner. 
 
-The timeline control provides an easy and immersive experience to view a customer’s history across cases, accounts, or contacts which gives users a better understanding of the customer’s history and helps them deliver more personalized service in an efficient and effective manner. 
+This experience gives system administrators the ability to configure the information displayed in each timeline to help users access information and create new activity records, such as emails and tasks directly from the timeline quickly so they can deliver more personalized service. 
 
 ## How to navigate to timeline configurations
 
