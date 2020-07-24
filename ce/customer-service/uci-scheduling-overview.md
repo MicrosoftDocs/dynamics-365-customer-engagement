@@ -19,7 +19,7 @@ search.app:
   - D365CS
 ---
 
-# UCIfied Scheduling Service overview
+# UCIfied service scheduling overview
 
 > [!Note]
 > This topic is pre-release documentation and is subject to change.
