@@ -210,6 +210,18 @@ For example, if you are navigating from a case grid to a case, and in the URL wh
 
 As a work around for the issue, in the hosted control configuration of the URL, set `cmdbar=true`.
 
+### Features not available in Unified Service Desk
+
+The following features are not available in Unified Service Desk:
+
+- Supervisor and agent sentiment notifications
+- Auto-accept messages
+- Real-time translation
+
+#### Work around
+
+Upgrade to the latest version of Omnichannel for Customer Serivce to get all the new features. 
+
 ## See also
 
 [Use Edge Process to host web application](edge-process.md)
@@ -568,17 +580,6 @@ For example, if you are navigating from a case grid to a case, and in the URL wh
 
 As a work around for the issue, in the hosted control configuration of the URL, set `cmdbar=true`.
 
-### Features not available in Unified Service Desk
-
-The following features are not available in Unified Service Desk:
-
-- Supervisor and agent sentiment notifications
-- Auto-accept messages 
-- RTT
-
-#### Work around
-
-Upgrade to the latest version of Omnichannel for Customer Serivce to get all the new features. 
 
 ## See also
 
