@@ -214,9 +214,15 @@ As a work around for the issue, in the hosted control configuration of the URL, 
 
 The following features are not available in Unified Service Desk:
 
-- Supervisor and agent sentiment notifications
 - Auto-accept incoming messages
+- Desktop notifications originating from CIF
+- Missed notifications
+- Personal quick replies
 - Real-time translation of conversation messages
+- Session indicators, such as unread message count
+- Supervisor actions in the Agent insights report
+- Supervisor and agent sentiment notifications
+
 
 #### Work around
 
