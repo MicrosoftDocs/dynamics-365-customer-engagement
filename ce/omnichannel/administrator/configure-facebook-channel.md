@@ -73,7 +73,7 @@ After completing the prerequisites, you can add the Facebook channel for your or
 
 5. In the **Facebook Pages** section, select **Add New Facebook Page** to add a Facebook page.
 
-6. On the **New Facebook Page** page, provide the following information:
+6. On the **New Facebook Page** page, **Account setup** tab, provide the following information:
 
     - **Page Id**: ID of the Facebook page. To get the page ID, go to your Facebook page, select **About**, and copy the value in the **Page ID** field.
 
@@ -85,13 +85,6 @@ After completing the prerequisites, you can add the Facebook channel for your or
     
     - **Work Stream**: Browse and select the work stream you created for the Facebook channel.
 
-    - **Enable file attachments for customers**: Set **Yes** to allow customers to send file attachments to agents. Otherwise, set **No**. To learn more about attachments, see [File attachments](#file-attachments). 
-
-    - **Enable file attachments for agents**: Set **Yes** to allow agents to send file attachments to customers. Otherwise, set **No**. To learn more about attachments, see [File attachments](#file-attachments). 
-
-    > [!div class=mx-imgBorder]
-    > ![Register a Facebook page](../media/fb-new-page.png "Register a Facebook page")
-
 7. Select **Save** to create the record.
 
 After you add a Facebook page, values for **Callback Uri** and **Verify Token** are generated automatically. These values are used to configure webhooks in the Facebook application.
@@ -101,6 +94,24 @@ After you add a Facebook page, values for **Callback Uri** and **Verify Token** 
 
 > [!div class=mx-imgBorder]
 > ![Facebook application created](../media/fb-app-created.png "Facebook application created")
+
+8. On the **General settings** tab, provide the following information:
+    
+    - **Language**: Select the preferred language for your Facebook page.
+
+    - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set **No**. To learn more about attachments, see [File attachments](#file-attachments). 
+
+    - **Enable file attachments for agents**: Set to **Yes** to allow agents to send file attachments to customers. Otherwise, set **No**. To learn more about attachments, see [File attachments](#file-attachments). 
+    
+    - **Turn on your Facebook human agent message tag**: Set to **Yes** to enable your agents to message customers after 24 hours have passed. When set to **No**, agents will be unable to respond to customers after 24 hours unless the customer sends another message. 
+
+9. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
+    
+10. On the **Surveys** tab, configure pre- and post-chat surveys. To learn more see the following links:
+    
+    - [Configure a pre-chat survey](configure-pre-chat-survey.md)
+    
+    - [Configure a post-chat survey](configure-post-chat-survey.md)
 
 ## Step 3: Create routing rules
 
@@ -192,3 +203,6 @@ Customers are solely responsible for using Dynamics 365, this feature, and any a
 
 [Understand and create work streams](work-streams-introduction.md)<br>
 [Create and manage routing rules](routing-rules.md)
+[Configure automated messages](configure-automated-message.md). 
+[Configure a pre-chat survey](configure-pre-chat-survey.md)
+[Configure a post-chat survey](configure-post-chat-survey.md)
