@@ -17,7 +17,8 @@ Enable sales managers to draw key insights based on the information the sales re
 System administrators or customizers can use the **Opportunity Close** quick create form to add custom fields, so that sales representatives can capture important details about why an opportunity was closed. Sales managers can use this data to know which products are doing well and develop a better strategy.
 
 > [!NOTE]
-> The capability to customize the **Opportunity Close** form is supported only in the sales app built on the Unified Interface.
+> - The capability to customize the **Opportunity Close** form is supported only in the sales app built on Unified Interface.
+> - Before you customize the Opportunity Close form, you must enable the customization of Opportunity Close form. More information: [Enable customization of the Opportunity Close form](enable-opportunity-close-customization.md)
 
 ## What customizations are possible?
 
@@ -38,8 +39,8 @@ To capture any additional custom information during opportunity close, custom at
 
 
 > [!NOTE]
-> - You may see data consistency issues if the attribute value in Opportunity Close isn't synchronized with the main entity when an Opportunity is closed or if the attribute is updated in the main entity after the Opportunity was closed.
-> - To learn how to enable the opportunity customization experience, see [Enable customization of the Opportunity Close form](enable-opportunity-close-customization.md)
+> You may see data consistency issues if the attribute value in Opportunity Close isn't synchronized with the main entity when an Opportunity is closed or if the attribute is updated in the main entity after the Opportunity was closed.
+
 
 
 ## Create custom fields for the Opportunity Close entity
@@ -97,7 +98,7 @@ After you’ve created the fields that are required by your organization, add th
     The sales representatives or managers can view the **Opportunity Close** record after an opportunity is closed 
 either from the Opportunity timeline or from the **Related Activities** grid, which uses the **Information** form. For these newly-added or removed fields to reflect on the **Information** form, the changes must be made to the **Information** form, too.
 
-## Add Opportunity Close entity to the custom app module
+## Add Opportunity Close entity to the custom app module <a name="add-entity-to-app"> </a>
 
 To enable the capability of customizing the opportunity close experience on a custom app module, you must first add the Opportunity Close entity to the custom app module. 
 

@@ -1,33 +1,33 @@
 ---
-title: "Email Overview for Users | Microsoft Docs"
-description: "Email Overivew for Users"
-ms.date: 08/03/2020
+title: "Email Overview for Users | MicrosoftDocs"
+description: "Email Overview for Users of Customer Service Hub for Customer Service"
+ms.date: 07/24/2020
 ms.service:
   - "dynamics-365-customerservice"
 ms.topic: article
 author: lerobbin
 ms.author: lerobbin
-manager: shujoshi
+ms.reviewer: nenellim
 ---
 
-# Using Email
+# Using Email in Customer Service Hub
 
 Add intro to email here 
 
 ## View and create email
 
-Dynamics 365 Customer Service lets agents interact with customers through email. Email functionality allows agents to:
+Dynamics 365 Customer Service lets agents interact with customers through email. The email functionality allows agents to:
 - View and respond to emails. 
-- Utilize common email toolbar functionality and rich text editor controls. 
-- View and insert images inline using drag-and-drop or copy-and-paste functionality. 
-- Create email in a pop-up window.  
-- Preview templates before applying them. 
+- Use common email toolbar functionality and rich text editor controls.
+- View and insert images inline using drag-and-drop or copy-and-paste functionality.
+- Create email in a pop-up window.
+- Preview templates before applying them.
 
 ### View your email
 
 To view your email:
 
-1. In the Customer Service Hub sitemap, go to **Service** > **Activities**. 
+1. In the Customer Service Hub site map, go to **Service** > **Activities**.
 
 2. Select the **All Activities** drop-down list, and then select **My Received Emails**.
 
@@ -38,20 +38,22 @@ To view your email:
 
 ### Create email
 
-The following steps detail how to create an email.
+Do the following steps to create an email:
 
-1. In the Customer Service Hub sitemap, go to **Service** > **Activities**.
+1. In the Customer Service Hub site map, go to **Service** > **Activities**.
 
 2. On the command bar, select **Email**. A new email window opens.
 
    > [!div class=mx-imgBorder]
    > ![Create a new email](media/csh-create-email.png "Create a new email")
 
-   The **From** field is automatically populated based on the currently logged-in user.
+   The **From** field is automatically populated based on the currently signed-in user.
 
-3. Write your email directly in the composer or select **Insert Template** to search for and apply a template.
+3. Write your email directly in the composer.
 
-4. To compose your email in a full-screen window, select the expand icon.
+4. Optionally, select **Insert Template** to search for and apply a template. The **To** box must contain a recipient to select a template.
+
+5. Optionally, to compose your email in a full-screen window, select the expand icon.
 
    > [!div class=mx-imgBorder]
    > ![csh-email-expand-window](media/csh-email-expand-window.png "Expand the email window")
@@ -61,11 +63,11 @@ The following steps detail how to create an email.
   > [!div class=mx-imgBorder]
   > ![csh-email-toolbar](media/csh-new-email-toolbar.png "Use the rich text editor features")
 
-5. When you're done, select **Send**.
+6. When you're done, select **Send**.
 
 ### Create and send email using the enhanced email experience
 
-An alternate way of creating email is to use the enhanced email experience, which allows you to compose email without leaving the record you are working on. With the enhanced email experience, you can:
+An alternative way of creating email is to use the enhanced email experience, which allows you to compose email without leaving the record you are working on. With the enhanced email experience, you can:
 
 - Navigate to different pages without losing the email content.
 - Minimize the email window to get back to the records you were working on.
@@ -76,7 +78,7 @@ An alternate way of creating email is to use the enhanced email experience, whic
 
 > [!IMPORTANT]
 > - Your system administrator must enable the enhanced email experience before you can use it. Follow the steps in [Enable the enhanced email experience](#enable-the-enhanced-email-experience).
-> - The enhanced email experience is available only for email activities created from the **Timeline** section of any model-driven app. 
+> - The enhanced email experience is available only for email activities created from the **Timeline** section of any model-driven app.
 
 ### Enable the enhanced email experience
 
@@ -103,30 +105,30 @@ An alternate way of creating email is to use the enhanced email experience, whic
 
 6. Select **OK**.
 
-### Compose an email using the enhanced experience:
+### Compose an email using the enhanced experience
 
    > [!Note]
    > This section assumes the administrator has already enabled this feature. For steps on how to enable it, see [Enable the enhanced email experience](#enable-the-enhanced-email-experience).
 
 1. In the **Timeline** section of records such as account or contact, select **+** and then under **Activities**, select **Email**.
 
-   A new email pop-up window opens. 
+   A new email pop-up window opens.
 
    > [!IMPORTANT]
-   > The enhanced email pop-up window opens only when the height and width of your screen size is at least 400 x 650 pixels or greater. If lower, you will be taken to the standard form instead of the enhanced email experience. 
+   > The enhanced email pop-up window opens only when the height and width of your screen size is at least 400 x 650 pixels or greater. If lower, you will be taken to the standard form instead of the enhanced email experience.
 
    > [!div class="mx-imgBorder"]
    > ![Enhanced email pop-up window](media/csh-enhanced-email-new.png "Enhanced email pop-up window")
 
    The **From** and **To** fields are automatically populated based on the user and the account and contact of the original record.
 
-2. Write your email from scratch or select **Insert Template** to search for and apply a template. For more information on inserting an email template, see [Insert an email template](#insert-an-email-template).
+2. Compose your email from scratch or select **Insert Template** to search for and apply a template. For more information on inserting an email template, see [Insert an email template](#insert-an-email-template).
 
 3. Select **Attach file** if you want to add attachments.
 
 4. Select **Insert signature** to search for and add your signature.
 
-5. When you're done, select **Send**. 
+5. When you're done, select **Send**.
 
 ## Insert an email template
 
@@ -146,7 +148,7 @@ You can see templates of a particular language by selecting a language from the 
 
     The **Email templates** window opens.
 
-2. To see templates of a different locale, select a language from the **Language** list. The templates are loaded as per the selected language.    
+2. To see templates of a different locale, select a language from the **Language** list. The templates are loaded as per the selected language.
 
 3. Browse for the template you want. Select the template, and preview the content of the template.
 

@@ -17,8 +17,7 @@ author: mduelae
 ms.author: mkaur
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 ---
 # Where to find your business apps
 

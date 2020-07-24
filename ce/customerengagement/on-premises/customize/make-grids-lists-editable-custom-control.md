@@ -18,8 +18,7 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Make grids (lists) editable using the editable grid custom control
 

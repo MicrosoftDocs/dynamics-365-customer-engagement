@@ -18,8 +18,7 @@ ms.tgt_pltfrm:
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Sample: Initialize a record from an existing record
