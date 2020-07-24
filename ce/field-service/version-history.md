@@ -68,12 +68,12 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 ## Version 8.8.25.29
 (Includes Universal Resource Scheduling version [3.12.24.4](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#312244)) 
-- Corrected an issue on Bookable Resource Booking forms where the Estimated Arrival Time field can appear as if it has been edited immediately after save when it hasn’t been, making the form behave as if it had unsaved changes.
-- Improved logic to allow for customizations to the Work Order form where the Primary Incident Type is removed from the form to ensure that the out of the box form logic has a null check for the Primary Incident Type field.
-- Resolved an issue with missing localization strings on the IoT Alert and IoT Device entities which could cause a script error.
-- Fixed an issue on update of Agreement Booking Incident which produced an error if there was a related Agreement Booking Service Task with a null estimated duration.
-- Resolved a problem with the Agreement copy function which failed to copy Agreements if there were deactivated Agreement Booking Setup or Agreement Invoice Setup records related to the Agreement. The copy function will now successfully copy active records and ignore inactive records.
-- Added a new Field Service Health rule which will highlight Agreement Booking Setup and Agreement Invoice Setup records on which the latest workflow instance had failed which could keep expected Work Orders and Invoices from being generated. Once detected, the rule also provides a button to resolve failed workflow instances.
+- Corrected an issue on bookable resource booking forms where the **Estimated Arrival Time** field can appear as if it has been edited immediately after save (when it hasn’t been), making the form behave as if it had unsaved changes.
+- Improved logic to allow for customizations to the work order form where the primary incident type is removed from the form to ensure that the out-of-the-box form logic has a null check for the **Primary Incident Type** field.
+- Resolved an issue with missing localization strings on the IoT alert and IoT device entities which could cause a script error.
+- Fixed an issue on update of agreement booking incident, which produced an error if there was a related agreement booking service task with a null estimated duration.
+- Resolved a problem with the agreement copy function which failed to copy agreements if there were deactivated agreement booking setup or agreement invoice setup records related to the agreement. The copy function will now successfully copy active records and ignore inactive records.
+- Added a new Field Service health rule which will highlight agreement booking setup and agreement invoice setup records on which the latest workflow instance had failed which could keep expected work orders and invoices from being generated. Once detected, the rule also provides a button to resolve failed workflow instances.
 
 ## 8.8.24.54
 (Includes Universal Resource Scheduling version [3.12.23.71](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#3122371)) 
