@@ -117,9 +117,11 @@ After you add a Facebook page, values for **Callback Uri** and **Verify Token** 
     
     - **Language**: Select the preferred language for your Facebook page.
 
-    - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set **No**. To learn more about attachments, see [File attachments](#file-attachments). 
+    - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set **No**. 
 
-    - **Enable file attachments for agents**: Set to **Yes** to allow agents to send file attachments to customers. Otherwise, set **No**. To learn more about attachments, see [File attachments](#file-attachments). 
+    - **Enable file attachments for agents**: Set to **Yes** to allow agents to send file attachments to customers. Otherwise, set **No**. 
+    
+       To learn more about attachments, see [File attachments](enable-file-attachments.md). 
     
     - **Turn on your Facebook human agent message tag**: Set to **Yes** to enable your agents to message customers after 24 hours have passed. When set to **No**, agents will be unable to respond to customers after 24 hours unless the customer sends another message. 
 
@@ -131,7 +133,7 @@ After you add a Facebook page, values for **Callback Uri** and **Verify Token** 
     
     - [Configure a post-chat survey](configure-post-chat-survey.md)
 
-### File attachments
+<!--### File attachments
 
 You can enable or disable the capability for your agents and customers to send file attachments during a Facebook channel conversation. 
 
@@ -174,7 +176,7 @@ To configure the file size limit and file extensions, follow these steps:
 
 6. Select **OK**.
 
-Now, agents and customers can share file attachments during their conversation.
+Now, agents and customers can share file attachments during their conversation. -->
 
 ## Customer experience
 
