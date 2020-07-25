@@ -4,7 +4,7 @@ description: "Overview of Dynamics 365 Customer Service"
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 07/31/2019
+ms.date: 08/3/2020
 ms.topic: get-started-article
 ms.service: 
   - dynamics-365-customerservice
@@ -12,11 +12,11 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Overview of the Customer Service Hub and Customer Service app
+# Overview of Dynamics 365 Customer Service
 
-Welcome to Dynamics 365 Customer Service.
+Welcome to Dynamics 365 Customer Service! We are delighted to offer you a suite of capabilities to ensure your business can deliver the best customer service experience possible to your customers. We believe knowing your customer enables you to personalize each experience and optimize agent productivity to earn customer for life. 
 
-Build great customer relationships by focusing on optimum customer satisfaction with the Customer Service apps. Customer Service provides many features and tools that organizations can use to manage the services they provide to customers.   
+We offer several app experiences depending on your support organization’s needs and the data is all stored in CDS, which makes it seamless for users to switch between apps and still be able to work with the customer’s existing data across them. 
 
 [!INCLUDE[cc-app-definition-customer-service](../includes/cc-app-definition-customer-service.md)]
 
@@ -31,7 +31,23 @@ Use [!include[](../includes/pn-ms-dyn-365-for-customer-service.md)] to:
 - Manage performance and productivity through reports and dashboards.
 - Create and schedule services.
 
- 
+The following capabilities are available in the different app experiences depending on your needs: 
+
+|   | Customer Service Workspace | Customer Service Hub | Omnichannel for Customer Service  | Customer Service app (deprecating)  |
+|---------------------------------------------------------------------|------------|------------|------------|------------|
+| Multisession          | X |  | X |  |
+| Conversations (with Chat or Digital Messaging Offers)  | - | Yes | Yes | Yes |
+| Channels (with Digital Messaging Offer)  | - | Yes | Yes | Yes |
+| Conversations (with Chat or Digital Messaging Offers)  | - | Yes | Yes | Yes |
+| Conversations (with Chat or Digital Messaging Offers)  | - | Yes | Yes | Yes |
+| Conversations (with Chat or Digital Messaging Offers)  | - | Yes | Yes | Yes |
+| Conversations (with Chat or Digital Messaging Offers)  | - | Yes | Yes | Yes |
+| Conversations (with Chat or Digital Messaging Offers)  | - | Yes | Yes | Yes |
+| Conversations (with Chat or Digital Messaging Offers)  | - | Yes | Yes | Yes |
+| Channels  | - | - | Yes | Yes |
+| Custom chat and messaging channels via Direct Line  | - | - | Yes | Yes |
+
+
 ##   Available anywhere, on any device
 There are two flavors of [!include[](../includes/pn-ms-dyn-365-for-customer-service.md)]:
 
