@@ -52,12 +52,6 @@ The following capabilities are available in the different app experiences depend
 | LICENSING: Digital Messaging  | X  | X |  |  |  |
 
 ##   Available anywhere, on any device
-There are two flavors of [!include[](../includes/pn-ms-dyn-365-for-customer-service.md)]:
-
-
-- The **Customer Service Hub** app is a case and knowledge management app that’s built on the Unified Interface framework. The Unified Interface framework uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. The Customer Service Hub app is optimized to use on mobile devices as well as desktops. [!include[](../includes/proc-more-information.md)] [User guide for Customer Service Hub](user-guide-customer-service-hub.md)
-
-- The **Customer Service** app is designed for the legacy web client. [!include[](../includes/proc-more-information.md)] [User guide for Customer Service](user-guide-customer-service.md)
 
 > [!NOTE]
 > For mobile devices, you'll also need to [Install Dynamics 365 for phones and tablets](../mobile-app/Install-Dynamics-365-for-phones-and-tablets.md).
@@ -73,32 +67,20 @@ If you're using a mobile device with Dynamics 365 for phones and tablets install
 > [!NOTE]
 > Looking forward to upgrade to the Customer Service Hub app? See [Upgrade to Customer Service Hub](upgrade-ish-csh.md)
 
-
-## Set up Customer Service Hub or Customer Service app
-
-Easily set up the Customer Service Hub and the Customer Service app by using the [Service Manager Guide](service-manager-guide.md).  
-
-The Service Manager Guide helps you set up everything related to customer service, like defining parent-child case hierarchy, creating queues, routing rule sets, rules for automatic case creation, service level agreements (SLAs), entitlements, and customer service schedule.
-
 > [!NOTE]
 > If you have previously installed any portal solution, to create a case in the Customer Service Hub or to use the Merge cases command, you must turn off the **Read-only in mobile** option for the Case entity. More information: [Turn off Read-only in mobile option](../customerengagement/on-premises/customize/edit-entities.md#enable-or-disable-entity-options).
 
 ## Accessibility and GDPR in the Customer Service Hub 
 
-Customer Service Hub is committed towards inclusive design and accessible content. The app is designed around accessibility so that all users can be effortlessly productive.
+Customer Service Hub is committed to inclusive design and accessible content. The apps are designed around accessibility so that all users can be effortlessly productive.
 
-For more details about the app's accessibility and GDPR compliance, see [Accessibility and GDPR](user-guide-customer-service-hub.md#accessibility-and-gdpr).
+For more details about app accessibility and GDPR compliance, see [Accessibility and GDPR](user-guide-customer-service-hub.md#accessibility-and-gdpr).
 
-## What's more in the Customer Service Hub
+## Get Started with Customer Service
 
- - [What's new in Dynamics 365 Customer Service](whats-new-customer-service.md)
- - [Service Management Guide (Customer Service Hub and Customer Service app)](service-manager-guide.md)
- - [Service Scheduling Guide](basics-service-service-scheduling.md)
-
-
-### See also  
-
-[Dynamics 365 Customer Service](https://www.microsoft.com/en-in/dynamics365/customer-service)
+ - [Customer Service Workspace](xxxx.md)
+ - [Omnichannel for Customer Service](xxx.md)
+ - [Customer Service Hub](xxxx.md)
 
 
 
