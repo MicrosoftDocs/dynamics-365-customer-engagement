@@ -18,8 +18,6 @@ Welcome to Dynamics 365 Customer Service! We are delighted to offer you a suite 
 
 We offer several app experiences depending on your support organization’s needs and the data is all stored in CDS, which makes it seamless for users to switch between apps and still be able to work with the customer’s existing data across them. 
 
-[!INCLUDE[cc-app-definition-customer-service](../includes/cc-app-definition-customer-service.md)]
-
 Use [!include[](../includes/pn-ms-dyn-365-for-customer-service.md)] to:
 
 - Track customer issues through cases.
@@ -48,7 +46,10 @@ The following capabilities are available in the different app experiences depend
 | Basic Administration  | Customer Service Hub -> Service Manager | Omnichannel Administration |  |  |  |
 | Case Routing & Queue Configuration  | Customer Service Hub -> Service Manager | Omnichannel Administration |  |  |  |
 | Add & Configure Channels  | App Profile Manager  | Omnichannel Administration |  |  |  |
-| Conversation Routing & Queue Configuration  | App Profile Manager  | Omnichannel Administration |  |  |  |
+| LICENSING: Customer Service Pro  |   |  | X |  |  |
+| LICENSING: Customer Service Enterprise  | X  | X | X  | X | N/A |
+| LICENSING: Chat  | X  | X |  |  |  |
+| LICENSING: Digital Messaging  | X  | X |  |  |  |
 
 ##   Available anywhere, on any device
 There are two flavors of [!include[](../includes/pn-ms-dyn-365-for-customer-service.md)]:
