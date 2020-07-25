@@ -55,7 +55,7 @@ The WhatsApp channel feature lets you integrate WhatsApp through Twilio with Omn
 
 [Step 2: Create a WhatsApp channel](#create-a-whatsapp-channel)
 
-[Step 3: Modify settings for a specific WhatsApp phone number)(#modify-settings-for-a-specific-whatsapp-phone-number)
+[Step 3: Modify settings for a specific WhatsApp phone number](#modify-settings-for-a-specific-whatsapp-phone-number)
 
 ## Fetch Twilio account details
 
@@ -131,7 +131,9 @@ To create a WhatsApp channel, follow these steps:
 
 2. On the **General settings** tab, provide the following information:
     
-    - **Language**: Select the preferred language for your Facebook page.
+    - **Language**: Select the preferred language for your WhatsApp phone number.
+    
+    - **Work stream**: Select the work stream for routing WhatsApp messages.
 
     - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set **No**. 
 
@@ -140,8 +142,34 @@ To create a WhatsApp channel, follow these steps:
        To learn more about attachments, see [File attachments](enable-file-attachments.md). 
     
 3. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
+
+4. On the **Message templates** tab, you can configure agents' ability to send WhatsApp-approved messages. If 24 hours pass after a customer's last message, agents will only be able to send messages from WhatsApp approved templates until the customer responds.      
+
+    > [!NOTE]
+    >
+    > Make sure WhatsApp approves your messages before you add them in Omnichannel for Customer Service.
+
+    Click **New** to create a new template and complete the following fields:
+
+    - **Name**: Label the group of messages that will go in this template.
     
-4. On the **Surveys** tab, configure pre- and post-chat surveys. To learn more see the following links:
+    - **Message trigger**: Select the event that will trigger the message to be sent.
+    
+    - **Message description**: Give the message template a description.
+    
+    > [!div class=mx-imgBorder]
+    > ![Create WhatsApp message template](../media/whatsapp-message-template-new-message.png "Create WhatsApp message template")
+    
+    Click **Save** and the **Localization Data (Message template)** panel appears. Click **New localization** and complete the following fields:
+    
+    - **Language code**: Select the language for the message.
+    
+    - **Localized text**: Write the message in the language specified. You must create a new localization for each translation of the message.
+    
+    > [!div class=mx-imgBorder]
+    > ![Create WhatsApp message template localized message](../media/whatsapp-message-template-new-message-locale.png "Create WhatsApp message template localized message")
+    
+5. On the **Surveys** tab, configure pre- and post-chat surveys. To learn more see the following links:
     
     - [Configure a pre-chat survey](configure-pre-chat-survey.md)
     
@@ -154,5 +182,6 @@ To create a WhatsApp channel, follow these steps:
 [Configure automated messages](configure-automated-message.md)<br> 
 [Configure a pre-chat survey](configure-pre-chat-survey.md)<br>
 [Configure a post-chat survey](configure-post-chat-survey.md)
-[Skill-based routing](overview-skill-work-distribution.md)  
+[Skill-based routing](overview-skill-work-distribution.md)
+[Create message templates](create-message-templates.md)
 [Templates](templates-overview.md)
