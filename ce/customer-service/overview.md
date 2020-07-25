@@ -28,6 +28,8 @@ Use [!include[](../includes/pn-ms-dyn-365-for-customer-service.md)] to:
 - Define service terms through entitlements.
 - Manage performance and productivity through reports and dashboards.
 - Create and schedule services.
+- Take chats. 
+- Manage conversations across channels.
 
 The following capabilities are available in the different app experiences depending on your needs: 
 
