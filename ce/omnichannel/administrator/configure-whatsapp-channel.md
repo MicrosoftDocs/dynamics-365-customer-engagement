@@ -125,7 +125,7 @@ To create a WhatsApp channel, follow these steps:
 2. In the **WHEN A MESSAGE COMES IN** box, enter the Twilio inbound URL that you generated in Omnichannel for Customer Service, and save the changes.
 3. To test the WhatsApp channel with the Twilio sandbox, you can send a WhatsApp message to the number provided by Twilio with a unique code that is also provided by Twilio. You can also use the sandbox message template provided by Twilio to test sending messages outside of the 24-hour window.
 
-## Step 3: Modify settings for a specific WhatsApp phone number 
+## Modify settings for a specific WhatsApp phone number 
 
 1. In the Omnichannel Administration app, go to your WhatsApp application and select the WhatsApp phone number you want to modify. 
 
