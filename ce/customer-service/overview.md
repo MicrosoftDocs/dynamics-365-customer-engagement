@@ -33,20 +33,22 @@ Use [!include[](../includes/pn-ms-dyn-365-for-customer-service.md)] to:
 
 The following capabilities are available in the different app experiences depending on your needs: 
 
-|   | Customer Service Workspace | Customer Service Hub | Omnichannel for Customer Service  | Customer Service app (deprecating)  |
-|---------------------------------------------------------------------|------------|------------|------------|------------|
-| Multisession          | X |  | X |  |
-| Conversations (with Chat or Digital Messaging Offers)  | - | Yes | Yes | Yes |
-| Channels (with Digital Messaging Offer)  | - | Yes | Yes | Yes |
-| Conversations (with Chat or Digital Messaging Offers)  | - | Yes | Yes | Yes |
-| Conversations (with Chat or Digital Messaging Offers)  | - | Yes | Yes | Yes |
-| Conversations (with Chat or Digital Messaging Offers)  | - | Yes | Yes | Yes |
-| Conversations (with Chat or Digital Messaging Offers)  | - | Yes | Yes | Yes |
-| Conversations (with Chat or Digital Messaging Offers)  | - | Yes | Yes | Yes |
-| Conversations (with Chat or Digital Messaging Offers)  | - | Yes | Yes | Yes |
-| Channels  | - | - | Yes | Yes |
-| Custom chat and messaging channels via Direct Line  | - | - | Yes | Yes |
-
+|   | Customer Service Workspace | Omnichannel for Customer Service | Customer Service Hub | Customer Service Team Member | Customer Service app (deprecating) |
+|---------------------------------------------------------------------|------------|------------|------------|------------|------------|
+| Multisession          | X | X |  |  |  |
+| Conversations (with Chat or Digital Messaging Offers)  | X | X |  |  |  |
+| Channels (with Digital Messaging Offer)  | X | X |  |  |  |
+| Case Management  | X |  X  |  X  |  X  |  X  |
+| Knowledge Management  |  X  |  X  |  X  | Read Only |  |
+| Insights  | X | X | X |  |  |
+| Service Scheduling  |  | N/A | X |  |  |
+| Connected Service with IoT  |  |  |  |  |  |
+| Extensibility  | CIF v2,BYOC | CIF v2,BYOC, Mobile SDK | CIF v1 |  |  |
+| UCI Compliant  | Yes | Yes | Yes | Yes |  |
+| Basic Administration  | Customer Service Hub -> Service Manager | Omnichannel Administration |  |  |  |
+| Case Routing & Queue Configuration  | Customer Service Hub -> Service Manager | Omnichannel Administration |  |  |  |
+| Add & Configure Channels  | App Profile Manager  | Omnichannel Administration |  |  |  |
+| Conversation Routing & Queue Configuration  | App Profile Manager  | Omnichannel Administration |  |  |  |
 
 ##   Available anywhere, on any device
 There are two flavors of [!include[](../includes/pn-ms-dyn-365-for-customer-service.md)]:
