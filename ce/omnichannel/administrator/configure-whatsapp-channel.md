@@ -147,7 +147,7 @@ To create a WhatsApp channel, follow these steps:
 
     > [!NOTE]
     >
-    > Make sure WhatsApp approves your messages before you add them in Omnichannel for Customer Service.
+    > Create your message templates in your Twilio account and have them approved by WhatsApp before you add them in Omnichannel for Customer Service.
 
     Click **New** to create a new template and complete the following fields:
 
