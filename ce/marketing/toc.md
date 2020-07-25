@@ -68,6 +68,11 @@
 #### [Create and customize marketing calendars](customize-marketing-calendars.md)
 #### [Create and customize template labels](customize-template-labels.md)
 
+### Email administration
+#### [Best practices for email marketing](get-ready-email-marketing.md)
+#### [Glossary of email bounce categories](email-bounce-categories.md)
+#### [Email policies and suspension standards](email-policies.md)
+
 ### Privacy and compliance
 #### [Data protection and GDPR](gdpr.md)
 #### [Set up global double opt-in](double-opt-in.md)
@@ -75,8 +80,6 @@
 #### [How the app uses cookies](cookies.md)
 
 ### [Best practices for administration](admin-best-practices.md)
-### [Best practices for email marketing](get-ready-email-marketing.md)
-### [Email policies and suspension standards](email-policies.md)
 ### [Administration and setup FAQ](setup-troubleshooting.md)
 ### [Known issues and workarounds](known-issues.md)
 
