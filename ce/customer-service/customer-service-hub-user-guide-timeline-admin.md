@@ -1,6 +1,6 @@
 ---
 title: "Configuring Timeline | MicrosoftDocs"
-description: "Timeline comnfiguration overview for administrators"
+description: "Timeline configuration overview for administrators"
 ms.date: 07/27/2020
 ms.service:
   - "dynamics-365-customerservice"
