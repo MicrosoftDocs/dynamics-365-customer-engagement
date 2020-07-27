@@ -272,7 +272,7 @@ For more information on Notes and Post functionality and configuration, see:
 You can add an attachment, such as a file, to a note in timeline to share with users.
 
 > [!NOTE]
-> If system administrator must first enable notes for you to add an attachment.
+> Your system administrator must first enable notes for you to add an attachment.
 
 1. Select the ![](media\timelilne-paperclip-icon.png "paperclip icon") paperclip icon to attach a file to a note. You can only add an attachment to a note that is attached to a record. 
 2. Select the file you want to attach. You can only add one file per note.
