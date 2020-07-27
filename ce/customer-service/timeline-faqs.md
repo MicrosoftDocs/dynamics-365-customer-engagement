@@ -29,4 +29,4 @@ Find answers to common questions regarding the timeline experience features and 
 ### See also
 
 [Overview of timeline](customer-service-hub-user-guide-timeline-overview.md)  
-[Configure timeline](customer-service-hub-user-customer-service-hub-user-guide-timeline-admin.md)  
+[Configure timeline](customer-service-hub-user-guide-timeline-admin.md)  
