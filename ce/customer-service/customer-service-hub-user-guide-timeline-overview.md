@@ -54,7 +54,7 @@ When enabled by your system administrator, the timeline **Filter** further strea
     ![Timeline filter functionality](media\timeline-filter-1.png "Timeline filter functionality")
 
 For more information on timeline filter functionality and configurations see:
-- [Enable filter pane](customer-service-hub-user-guide-timeline-overview.md#enable-filter-pane) 
+- [Enable filter pane](customer-service-hub-user-guide-timeline-admin.md#enable-filter-pane) 
 - [How to filter activity types on timeline]() 
 
 ## Work with records
@@ -265,7 +265,7 @@ For more information on Notes and Post functionality and configuration, see:
 - [Record types shown](customer-service-hub-user-guide-timeline-admin.md#record-types-shown)
 - [Quick entry record type](customer-service-hub-user-guide-timeline-admin.md#quick-entry-record-type-and-sort-order-default) 
 - [Record Settings](customer-service-hub-user-guide-timeline-admin.md#record-settings) 
-- [Notes on timeline](customer-service-hub-user-guide-timeline-overview.md#notes-on-timeline)
+- [Notes on timeline](customer-service-hub-user-guide-timeline-admin.md#notes-on-timeline)
 
 ## Add an attachment to a note in timeline
 
