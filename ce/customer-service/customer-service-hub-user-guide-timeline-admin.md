@@ -1,6 +1,6 @@
 ---
-title: "Configuring Timeline | Microsoft Docs"
-description: "Timeline comfiguration overivew for administrators"
+title: "Configuring Timeline | MicrosoftDocs"
+description: "Timeline comnfiguration overview for administrators"
 ms.date: 07/27/2020
 ms.service:
   - "dynamics-365-customerservice"
@@ -12,7 +12,7 @@ manager: shujoshi
 
 # Configuring Timeline 
 
-The timeline control provides an easy and immersive experience to view information related to an entitiy, such as cases, accounts, or contacts which gives users a better understanding  and helps them deliver more personalized service in an efficient and effective manner. 
+The timeline control provides an easy and immersive experience to view information related to an entity, such as cases, accounts, or contacts which gives users a better understanding  and helps them deliver more personalized service in an efficient and effective manner. 
 
 This experience gives system administrators the ability to configure the information displayed in each timeline to help users access information and create new activity records, such as emails and tasks directly from the timeline quickly so they can deliver more personalized service. 
 
@@ -231,7 +231,7 @@ When you use the filter based on an activity status then those activities, notes
 
 ### Expand filter pane 
 
-The **Expand filter pane** feature provides quick access to sorting options withing timeline.  It is enabled by default.
+The **Expand filter pane** feature provides quick access to sorting options within timeline.  It is enabled by default.
 
 9.	The **Expand filter pane by default** feature displays an expanded filter pane at the top of the form anytime it is opened and refreshed and is disabled by default.
 10.	Enable the **Expand filter pane** by checking the box next to the feature.  This will enable the filter pane to appear at the top of the form anytime the form is opened and refreshed.
@@ -337,10 +337,10 @@ Having the ability to quickly click and create an activity such as, an email, ta
 
 ### Create and use card forms in timeline
 
-Records are displayed using the defult setting for each activity type. However, if you want to display record information for an appointment or email, for example, you can either edit the existing card form, use a different card form from record settings, or customize your own. 
+Records are displayed using the default setting for each activity type. However, if you want to display record information for an appointment or email, for example, you can either edit the existing card form, use a different card form from record settings, or customize your own. 
 
 12.	You can change the default card settings to a different card form if one has been created.  
-13.	If you create a new card form, you must go to the parent entity and add the new form of card type there before it will appear in the timeline list for configeration.  If **Default** is displayed, you are not using the card form.  You can not use the **Email card form** in timeline unless you select and publish it first.	
+13.	If you create a new card form, you must go to the parent entity and add the new form of card type there before it will appear in the timeline list for configuration.  If **Default** is displayed, you are not using the card form.  You can not use the **Email card form** in timeline unless you select and publish it first.	
 
 > [!NOTE]
 > Not all activity types allow you to create card types, so the default selection will be you’re only option for those records.
@@ -363,7 +363,7 @@ All card forms are broken out into the following four (4) sections:
 
 ![Display options - Advanced - How to customize a card from in timeline](media\timeline-customize-card-form-display-option-advanced-1.png "Display options - Advanced - How to customize a card from in timeline")
 
-Each indvidual card form has to be customized for each activity record such as email, tasks, posts, etc. 
+Each individual card form has to be customized for each activity record such as email, tasks, posts, etc. 
 
 **Header Section**<br>
 The displays the title/subject in your timeline email form. You can have up to six (6) fields in the Header section, only the first two (2) fields will be seen on the timeline record. Also empty fields will be ignored by the form in all sections.<br>
@@ -382,7 +382,7 @@ This displays in the body of your the timeline email record. You can have up to 
 
 **i.**	**Details - Field 2.** This field will display one line of text in a summary view on the timeline record.  When you expand your timeline record,  content in this field is fully displayed with format. For this example we selected **CC** for this field.<br>
 
-**j.**	**Details - Field 3.** This field follows the content in Details -Field 2 and is part of the main body of your timline record that is only viewable when you expand the record. For this example we selected **Description** for this field.
+**j.**	**Details - Field 3.** This field follows the content in Details -Field 2 and is part of the main body of your timeline record that is only viewable when you expand the record. For this example we selected **Description** for this field.
 </ol>
 
 **Footer Section**<br>
@@ -393,14 +393,14 @@ This section is not visible on the timeline record.
 
 **l.**	**Footer – Field 2.** For this example we selected **Regarding** for this field.<br>
 
-**m.**	**Footer – Field 3.** For this example we selected **Priortiy** for this field.
+**m.**	**Footer – Field 3.** For this example we selected **Priority** for this field.
 </ol>
 
 ![Display options - Advanced - How to customize a card from in timeline](media\timeline-how-to-configure-activity-record-types-display-options-advanced-2.png "Display options - Advanced - How to customize a card from in timeline")
 
 ### How to set date in the sort activities by feature in timeline
 
-How you view data is important and setting a default display view of your data varies based on the needs of your business. Admins can choose how data is sorted and create a default sort setting for **Activity types** in **Record settings**. **Last Updated** is on all activities which is why it is set as the default in accending order.    
+How you view data is important and setting a default display view of your data varies based on the needs of your business. Admins can choose how data is sorted and create a default sort setting for **Activity types** in **Record settings**. **Last Updated** is on all activities which is why it is set as the default in ascending order.    
 
 14.	The **Sort activity by** feature in the **Activities record settings** allows you to control how data is sorted in timeline.  
 15.	When you select the **Sort activities by** field, a list appears. You can select from this list how you want your data to be sorted and displayed on timeline in the form.
@@ -408,7 +408,7 @@ How you view data is important and setting a default display view of your data v
 There are some unique date fields, for example:<br> 
 
 <ol>
-16a. <b>Date sent.</b> This only occures in email. If you sort by Date sent, most activities will not contain a Date Sent and therefore will be grouped together without any ordering.<br>
+16a. <b>Date sent.</b> This only occurs in email. If you sort by Date sent, most activities will not contain a Date Sent and therefore will be grouped together without any ordering.<br>
 
 16b. **Sort date.**  You cannot create a custom date field.  If you create one, it will not display, so in answer to this, **Sort date** was created.  It does not have a value and therefore allows you to choose your own.  Is empty by default.
 </ol>
