@@ -222,7 +222,7 @@ The following features are not available in Unified Service Desk:
 - Session indicators, such as unread message count
 - Supervisor actions in the Agent insights report
 - Supervisor and agent sentiment notifications
-
+- Video calls in elevated chat
 
 #### Work around
 
