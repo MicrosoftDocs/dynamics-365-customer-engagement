@@ -67,17 +67,23 @@ After completing the prerequisites, you can add the LINE channel for your organi
    > [!div class=mx-imgBorder]
    > ![LINE callback information](../media/line-create-new-channel-2.png "LINE callback information")
 
-More information about the LINE app: [Setting up your LINE app](https://developers.line.biz/en/docs/messaging-api/getting-started/#creating-a-channel)
- 
-> [!div class=mx-imgBorder]
-> ![LINE account information](../media/line-create-new-channel-1.png "LINE account information")
+   > More information about the LINE app: [Setting up your LINE app](https://developers.line.biz/en/docs/messaging-api/getting-started/#creating-a-channel)
 
-> [!div class=mx-imgBorder]
-> ![LINE callback information](../media/line-create-new-channel-2.png "LINE callback information")
+8. Perform the following steps to set up a post-conversation survey:
+   1. On the **Surveys** tab, in the **Post-conversation survey** area, set the toggle for **Turn on** to **Yes**.
+   2. In the **Microsoft Forms Pro survey** box, search and select a survey.
+
+    > For more information, see [creating post-conversation surveys](configure-post-chat-survey.md).
 
 The LINE channel setup is complete.
 > [!NOTE]
 > You can only add one **LINE account** per **LINE Application** channel.
+
+## Configure surveys
+
+You can configure post-conversation survey for LINE on the **Surveys** tab.
+
+
 
 ## Create routing rules
 

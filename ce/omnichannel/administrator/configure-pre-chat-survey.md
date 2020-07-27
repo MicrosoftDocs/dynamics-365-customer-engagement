@@ -1,6 +1,6 @@
 ---
-title: "Configure a pre-chat survey | MicrosoftDocs"
-description: "Instructions to configure a pre-chat survey in Omnichannel for Customer Service."
+title: "Configure a pre-conversation survey | MicrosoftDocs"
+description: "Instructions to configure a pre-conversation survey in Omnichannel for Customer Service."
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
@@ -10,7 +10,7 @@ ms.service:
 ms.topic: article 
 ---
 
-# Configure a pre-chat survey
+# Configure a pre-conversation survey
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -55,7 +55,7 @@ You can configure your chat widget to show users a survey that they must respond
     > [!div class=mx-imgBorder]
     > ![Change the order of a question in a pre-chat survey](../media/oc-change-question-order.png "Change the order of a question in a pre-chat survey")
 
-A sample screenshot of the pre-chat survey that will be displayed for customers is as follows.
+A sample screenshot of the pre-conversation survey that will be displayed for customers is as follows.
 
 > [!div class=mx-imgBorder]
 > ![Sample pre-chat survey](../media/oc-pre-chat-survey.png "Sample pre-chat survey")

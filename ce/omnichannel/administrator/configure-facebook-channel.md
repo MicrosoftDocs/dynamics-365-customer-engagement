@@ -26,10 +26,14 @@ The Facebook channel gives you an incredible opportunity to capitalize on the so
 
 After completing the prerequisites, you can add the Facebook channel for your organization by following these steps:
 
-1. [Create a Facebook work stream](#step-1-create-a-facebook-work-stream)
-2. [Create a Facebook channel](#step-2-create-a-facebook-channel)
-3. [Create routing rules](#step-3-create-routing-rules)
-4. [Modify settings for a specific Facebook page](#step-4-modify-settings-for-a-specific-Facebook-page)
+- [Configure a Facebook channel](#configure-a-facebook-channel)
+  - [Step 1: Create a Facebook work stream](#step-1-create-a-facebook-work-stream)
+  - [Step 2: Create a Facebook channel](#step-2-create-a-facebook-channel)
+  - [Step 3: Create routing rules](#step-3-create-routing-rules)
+  - [Step 4: Modify settings for a specific Facebook page](#step-4-modify-settings-for-a-specific-facebook-page)
+  - [Customer experience](#customer-experience)
+  - [Privacy notice](#privacy-notice)
+    - [See also](#see-also)
 
 ## Step 1: Create a Facebook work stream
 
@@ -127,11 +131,7 @@ After you add a Facebook page, values for **Callback Uri** and **Verify Token** 
 
 3. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
     
-4. On the **Surveys** tab, configure pre- and post-chat surveys. To learn more see the following links:
-    
-    - [Configure a pre-chat survey](configure-pre-chat-survey.md)
-    
-    - [Configure a post-chat survey](configure-post-chat-survey.md)
+4. On the **Surveys** tab, configure the post-conversation survey. More information: [Configure a post-conversation survey](configure-post-chat-survey.md).
 
 <!--### File attachments
 
