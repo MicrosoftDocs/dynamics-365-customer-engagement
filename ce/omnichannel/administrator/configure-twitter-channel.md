@@ -75,12 +75,26 @@ After completing the prerequisites, you can add the Twitter channel for your org
     > [!NOTE]
     > If you receive a message that says pop-up windows are blocked, select to always allow them.
 
-9. **Work Stream**: Select the out-of-the-box work stream for the Twitter channel. To create a new work stream, see [Create work streams](work-streams-introduction.md).
- 
-> [!div class=mx-imgBorder]
-> ![Twitter work stream](../media/twitter-create-handle.png "Twitter work stream")
+9.  On the **General settings** tab, provide the following information:
+    
+    - **Language**: Select the preferred language for your Facebook page.
+    
+    - **Work Stream**: Select the out-of-the-box work stream for the Twitter channel. To create a new work stream, see [Create work streams](work-streams-introduction.md).
 
-10. Select **Save** to save the record. The Twitter channel setup is complete.
+    - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set **No**. 
+
+    - **Enable file attachments for agents**: Set to **Yes** to allow agents to send file attachments to customers. Otherwise, set **No**. 
+    
+       To learn more about attachments, see [File attachments](enable-file-attachments.md). 
+       
+       > [!div class=mx-imgBorder]
+       > ![Twitter work stream](../media/twitter-create-handle.png "Twitter work stream")
+
+10. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
+    
+11. On the **Surveys** tab, configure the post-conversation survey. More information: [Configure a post-conversation survey](configure-post-chat-survey.md).
+
+12. Select **Save** to save the record. The Twitter channel setup is complete.
  
 > [!div class=mx-imgBorder]
 > ![Twitter channel enabled](../media/twitter-account-complete.png "Twitter channel enabled")
