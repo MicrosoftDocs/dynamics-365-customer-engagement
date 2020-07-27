@@ -47,7 +47,6 @@ The following capabilities are available in the different app experiences depend
 | Unified Interface (UCI) Compliant  | Yes | Yes | Yes | Yes |  |
 | Basic Administration  | Customer Service Hub -> Service Manager | Omnichannel Administration |  |  |  |
 | Case Routing & Queue Configuration  | Customer Service Hub -> Service Manager | Omnichannel Administration |  |  |  |
-| Entity Routing  | N/A | Omnichannel Administration |  |  |  |
 | Add & Configure Channels  | Omnichannel Administration  | Omnichannel Administration |  |  |  |
 | Control User Experience for Agent & Supervisor | App Profile Manager (09/01/2020) | App Profile Manager (09/01/2020) |  |  |  |
 | LICENSING: Customer Service Pro  |   |  | X |  |  |
