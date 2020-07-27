@@ -36,8 +36,8 @@ The following capabilities are available in the different app experiences depend
 |   | Customer Service Workspace | Omnichannel for Customer Service | Customer Service Hub | Customer Service Team Member | Customer Service app (deprecating) |
 |---------------------------------------------------------------------|------------|------------|------------|------------|------------|
 | Multisession          | X | X |  |  |  |
-| Conversations (with Chat or Digital Messaging Offers)  | X | X |  |  |  |
-| Channels (with Digital Messaging Offer)  | X | X |  |  |  |
+| Conversations (with Chat or Digital Messaging Offers)  | (09/01/2020) | X |  |  |  |
+| Channels (with Digital Messaging Offer)  | (09/01/2020) | X |  |  |  |
 | Case Management  | X |  X  |  X  |  X  |  X  |
 | Knowledge Management  |  X  |  X  |  X  | Read Only |  |
 | Insights  | X | X | X |  |  |
@@ -49,7 +49,7 @@ The following capabilities are available in the different app experiences depend
 | Case Routing & Queue Configuration  | Customer Service Hub -> Service Manager | Omnichannel Administration |  |  |  |
 | Entity Routing  | N/A | Omnichannel Administration |  |  |  |
 | Add & Configure Channels  | Omnichannel Administration  | Omnichannel Administration |  |  |  |
-| Control Session Templates & Productivity Pane for Agent & Supervisor Experiences  | App Profile Manager (9/20) | App Profile Manager (9/20) |  |  |  |
+| Control Session Templates & Productivity Pane for Agent & Supervisor Experiences  | App Profile Manager (09/01/2020) | App Profile Manager (09/01/2020) |  |  |  |
 | LICENSING: Customer Service Pro  |   |  | X |  |  |
 | LICENSING: Customer Service Enterprise  | X  | X | X  | X | N/A |
 | LICENSING: Chat  | X  | X |  |  |  |
