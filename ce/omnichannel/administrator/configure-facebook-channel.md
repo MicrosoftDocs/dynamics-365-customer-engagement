@@ -127,11 +127,11 @@ After you add a Facebook page, values for **Callback Uri** and **Verify Token** 
     
        To learn more about attachments, see [File attachments](enable-file-attachments.md). 
     
-    - **Turn on your Facebook human agent message tag**: Set to **Yes** to enable your agents to message customers after 24 hours have passed. When set to **No**, agents will be unable to respond to customers after 24 hours unless the customer sends another message. 
+    - **Turn on your Facebook human agent message tag**: Set to **Yes** to enable your agents to message customers after 24 hours have passed. When set to **No**, agents will be unable to respond to customers after 24 hours unless the customer sends another message. To use the Facebook human agent message tag, you must also turn it on in the Facebook app. For more information, see [Facebook Developer Tools](https://www.facebook.com/help/contact/?id=2616212338594331).
 
 3. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
     
-4. On the **Surveys** tab, configure the post-conversation survey. More information: [Configure a post-conversation survey](configure-post-chat-survey.md).
+4. On the **Surveys** tab, configure the post-conversation survey. For more information, see [Configure a post-conversation survey](configure-post-chat-survey.md).
 
 <!--### File attachments
 
