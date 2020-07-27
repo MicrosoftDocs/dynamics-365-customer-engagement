@@ -124,8 +124,8 @@ When you validate the API key while setting up the SMS channel, a call is made t
 
 ### See also
 
-[Overview of channels](channels.md)  
-[Understand and create work streams](work-streams-introduction.md)  
-[Create and manage routing rules](routing-rules.md)
-[Configure automated messages](configure-automated-message.md)
+[Overview of channels](channels.md) <br />
+[Understand and create work streams](work-streams-introduction.md)  <br />
+[Create and manage routing rules](routing-rules.md) <br />
+[Configure automated messages](configure-automated-message.md) <br />
 [SMS FAQ](../faqs.md#sms)
