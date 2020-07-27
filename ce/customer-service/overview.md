@@ -18,7 +18,7 @@ Welcome to Dynamics 365 Customer Service! We are delighted to offer you a suite 
 
 We offer several app experiences depending on your support organization’s needs and the data is all stored in CDS, which makes it seamless for users to switch between apps and still be able to work with the customer’s existing data across them. 
 
-Use [!include[](../includes/pn-ms-dyn-365-for-customer-service.md)] to:
+Use [!INCLUDE[pn-ms-dyn-365-for-customer-service](../includes/pn-ms-dyn-365-for-customer-service.md)] to:
 
 - Track customer issues through cases.
 - Record all interactions related to a case.
