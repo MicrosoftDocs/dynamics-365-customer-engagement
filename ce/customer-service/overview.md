@@ -49,6 +49,7 @@ The following capabilities are available in the different app experiences depend
 | Case Routing & Queue Configuration  | Customer Service Hub -> Service Manager | Omnichannel Administration |  |  |  |
 | Enabling Chat or Channels for user profiles  | App Profile Manager  | Omnichannel Administration |  |  |  |
 | Add & Configure Channels  | Omnichannel Administration  | Omnichannel Administration |  |  |  |
+| Customized Agent Experience  | App Profile Manager  | App Profile Manager |  |  |  |
 | LICENSING: Customer Service Pro  |   |  | X |  |  |
 | LICENSING: Customer Service Enterprise  | X  | X | X  | X | N/A |
 | LICENSING: Chat  | X  | X |  |  |  |
