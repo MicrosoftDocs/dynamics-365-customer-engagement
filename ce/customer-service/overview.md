@@ -31,7 +31,7 @@ Use [!INCLUDE[pn-ms-dyn-365-for-customer-service](../includes/pn-ms-dyn-365-for-
 - Take chats. 
 - Manage conversations across channels.
 
-The following capabilities are available in the different app experiences depending on your needs: 
+The following capabilities are available in the different app experiences depending on your needs. Select the app of your choice to read more about the details of the user experience in each app: 
 
 |   | Customer Service Workspace | Omnichannel for Customer Service | Customer Service Hub | Customer Service Team Member | Customer Service app (deprecating) |
 |---------------------------------------------------------------------|------------|------------|------------|------------|------------|
