@@ -1,7 +1,7 @@
 ---
 title: "Add a chat widget | MicrosoftDocs"
 description: "Instructions to add a chat widget in Omnichannel for Customer Service."
-ms.date: 04/06/2020
+ms.date: 07/27/2020
 ms.service:
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -39,6 +39,8 @@ manager: shujoshi
     | Customer waiting | Show position in queue | Select whether to show customers their position in the queue when they're waiting to interact with an agent. <br> More information: [Show customers their position in a queue](show-queue.md) | Yes |
     | Customer waiting | Show average wait time| Select whether to show customers average wait time in the queue when they're waiting to interact with an agent. <br> More information: [Show customers their average wait time in a queue](average-wait-time.md) | Yes |    
     | Code snippet | Widget snippet | Copy the snippet and embed it in the HTML source of your website where you need to display the chat widget. |  |
+    
+    You can also embed your chat widget in mobile experiences using WebView. For more information, see [Embed chat widget in mobile experiences](../developer/how-to/render-live-chat-widget-mobile.md).
 
     > [!div class=mx-imgBorder]
     > ![Configure the basic details of a chat widget](../media/oc-chat-widget-basic-details-tab.png "Configure the basic details of a chat widget")
@@ -81,7 +83,7 @@ manager: shujoshi
 
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|
-    |Voice and video calls | Call options | Select a call option from the list: <ul>**No calling**: <br>Agents can't make voice or video calls. </ul><br> <ul>**Video and voice calling**:<br> Agents can make both voice and video calls. </ul><br><ul>**Voice only**:<br> Agents can make only voice calls.  </ul>| Video and voice calling |
+    |Voice and video calls | Call options | Select a call option from the list: <ul>**No calling**: <br>Agents can't make voice or video calls. </ul><br> <ul>**Video and voice calling**:<br> Agents can make both voice and video calls. **Note:** Video calling is not available in Unified Service Desk. </ul><br><ul>**Voice only**:<br> Agents can make only voice calls.  </ul>| Video and voice calling |
     | Visual engagement | Screen sharing | Select whether to enable third-party screen sharing. You must install a third-party provider from AppSource to use the feature. | Enabled |
     | Visual engagement | Screen sharing provider | Select the provider from the list.| *Screen sharing provider* |
     | Visual engagement | Co-browse | Select whether to enable third-party co-browse. You must install a third-party provider from AppSource to use the feature. | Enabled |
@@ -116,4 +118,5 @@ After you configure, agents can get the capabilities while they are in a convers
 [Create quick replies](create-quick-replies.md) <br>
 [Create and manage operating hours](create-operating-hours.md) <br>
 [Create chat authentication settings](create-chat-auth-settings.md) <br> 
-[Embed chat widget in Power Apps portals](embed-chat-widget-portal.md) 
+[Embed chat widget in Power Apps portals](embed-chat-widget-portal.md) <br>
+[Embed chat widget in mobile experiences](../developer/how-to/render-live-chat-widget-mobile.md)
