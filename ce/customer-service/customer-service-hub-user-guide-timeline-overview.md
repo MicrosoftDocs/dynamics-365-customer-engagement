@@ -30,8 +30,8 @@ The icons displayed in the top right nav in the Timeline give quick access to th
 - [Work with Records](customer-service/customer-service-hub-user-guide-timeline-overview.md#work-with-records)
 - [Explore more commands](customer-service/customer-service-hub-user-guide-timeline-overview,md#more-commands)
 - [Search Records](customer-service-hub-user-guide-timeline-overview.md#search-records-on-timeline)
-- [Add attachments](customer-service-hub-user-guide-timeline-overview,md#add-an-attachment-to-a-note-in-timeline) 
 - [Work with Notes and Posts](customer-service-hub-user-guide-timeline-overview.md#work-with-notes-and-posts)
+- [Add attachments](customer-service-hub-user-guide-timeline-overview,md#add-an-attachment-to-a-note-in-timeline) 
 
 ## Create a timeline record
 
@@ -121,6 +121,9 @@ You can use any of the following options for enabling threaded email views in ti
 
     > ![Enable threaded email timeline view - option 2](media\timeline-threaded-email-views-3.png "Enable threaded email timeline view - option 2")
 
+>[!Note]
+> The **emails as conversation view** is based on the user's preference. Personal setting are tied to the user and not the form, which means once you enable the threaded email view, the setting is applied to all your timeline views. 
+
 ## Search records on timeline
 
 When enabled by your system administrator, you can easily search for records in the timeline. When you search for a phrase in the timeline, it searches in the title or subject of the record or body or description fields of the record and displays the record for you.
@@ -132,21 +135,6 @@ When enabled by your system administrator, you can easily search for records in 
 ![Enable threaded email timeline view - option 2](media\timeline-search-records-1.png "Enable threaded email timeline view - option 2")
 
 For more information, see, [Enable search bar](customer-service-hub-user-guide-timeline-admin.md#enable-search-bar).
-
-## Add an attachment to a note in timeline
-
-You can add an attachment, such as a file, to a note in timeline to share with users.
-
-1. Select the ![](media\timelilne-paperclip-icon.png "paperclip icon") paperclip icon to attach a file to a note. You can only add an attachment to a note that is attached to a record. 
-2. Select the file you want to attach. You can only add one file per note.
-3. Edit note screen will appear.
-4. Your attachment will be displayed at the bottom of the edit note screen.
-5. **Add note** to save and close the edit note screen.
-
-![Add an attachment to a note in timeline](media\timeline-add-an-attachment-to-a-note.png "Add an attachment to a note in timeline")
-
-> [!NOTE]
-> If your system administrator has not enabled notes, you cannot add an attachment.
 
 ## Work with notes and posts
 
@@ -167,18 +155,20 @@ When you hover the cursor on or expand an activity, post, and note, the command 
 
 The following is an overview of the command bar icons and the actions they support: 
 
-1. **Assign**. Lets you assign a task.
-2. **Close Activity**. Lets you close the activity record.
-3. **Add to Queue**. Lets you add a task to a queue.
-4. **Open Record**. Lets you open a record.
-5. **Delete**. Lets you delete the record.
-6. **Reply**. Lets you reply to an email. This command is only available for email.
-7. **Reply All**. Lets you reply to all for an email. This command is only available on email.
-8. **Forward**. Lets you forward an email. This command is only available on email.
-9. **Like this post**. This command is only available on Posts.
-10. **Edit this note**. This command is only available on Notes.
+|Icon | Name | Description |
+|-----|------|-------------|
+| ![](media\email-assign-icon.png "Assign icon") |Assign | Lets you assign a task|
+| ![](media\email-close-activity-icon.png "Close activity icon")|Close Activity| Lets you close the activity record|
+| ![](media\email-add-to-queue-icon.png "Add to queue icon") |Add to Queue| Lets you add a task to a queue|
+| ![](media\email-email-open-record-icon.png "Open record icon")|Open Record| Lets you open a record|
+| ![](media\email-delete-icon.png "Delete icon")|Delete| Lets you delete the record|
+| ![](media\email-reply-icon.png "Reply icon")|Reply| Lets you reply to an email. Note: This command is only available for email|
+| ![](media\email-replay-all-icon.png "Replay all icon ")|Reply All| Lets you reply to all for an email. This command is only available on email|
+| ![](media\email-forward-icon.png "Forward icon ")|Forward|Lets you forward an email. Note: This command is only available on email|
+| ![](media\email-like-a-post-icon.png "Like a post icon")|Like this post| Let's you like a post. Note: This command is only available on Posts|
+| ![](media\email-edit-icon.png "Edit icon")|Edit this note|Lets you edit a note. Note: This command is only available on Notes|
 
-![Access command bar actions](media\timeline-access-command-bar-actions-1.PNG "Access command bar actions")
+![Access command bar actions](media\timeline-access-command-bar-actions-1.png "Access command bar actions")
 
 ## Work with notes
 
@@ -272,6 +262,21 @@ For more information on Notes and Post functionality and configuration see:
 - [Quick entry record type](customer-service-hub-user-guide-timeline-overview.md#quick-entry-record-type-and-sort-order-default) 
 - [Record Settings](customer-service-hub-user-guide-timeline-overview.md#record-settings) 
 - [Notes on timeline](customer-service-hub-user-guide-timeline-overview.md#notes-on-timeline)
+
+## Add an attachment to a note in timeline
+
+You can add an attachment, such as a file, to a note in timeline to share with users.
+
+1. Select the ![](media\timelilne-paperclip-icon.png "paperclip icon") paperclip icon to attach a file to a note. You can only add an attachment to a note that is attached to a record. 
+2. Select the file you want to attach. You can only add one file per note.
+3. Edit note screen will appear.
+4. Your attachment will be displayed at the bottom of the edit note screen.
+5. **Add note** to save and close the edit note screen.
+
+![Add an attachment to a note in timeline](media\timeline-add-an-attachment-to-a-note.png "Add an attachment to a note in timeline")
+
+> [!NOTE]
+> If your system administrator has not enabled notes, you cannot add an attachment.
 
 ### See Also
 
