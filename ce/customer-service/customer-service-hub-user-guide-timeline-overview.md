@@ -15,6 +15,7 @@ manager: shujoshi
 Timeline is a control that allows you to view different activity types that are connected to an entity record and occur over time in a single stream. Some activities that can be logged in the timeline are notes, phone calls, emails, appointments, and tasks.
 
 Timeline allows you to:
+
 - Quickly access on the command bar to perform common actions with ease.
 - Filter and view your important activities using multiple filter options.
 - View and manage email conversation threads with ease.
@@ -25,13 +26,12 @@ The following is an overview of how the timeline functionality works in each sec
 
 The icons displayed in the top right nav in the Timeline give quick access to the following capabilities, when enabled by your system administrator:
 
-- [Create a timeline record](customer-service-hub-user-guide-timeline-overview.md#create-a-timeline-record)
-- [Work with Filters](customer-service/customer-service-hub-user-guide-timeline-overview.md#work-with-filters)
-- [Work with Records](customer-service/customer-service-hub-user-guide-timeline-overview.md#work-with-records)
-- [Explore more commands](customer-service/customer-service-hub-user-guide-timeline-overview,md#more-commands)
-- [Search Records](customer-service-hub-user-guide-timeline-overview.md#search-records-on-timeline)
-- [Work with Notes and Posts](customer-service-hub-user-guide-timeline-overview.md#work-with-notes-and-posts)
-- [Add attachments](customer-service-hub-user-guide-timeline-overview,md#add-an-attachment-to-a-note-in-timeline) 
+- [Create a timeline record](#create-a-timeline-record)
+- [Work with Filters](#work-with-filters)
+- [Work with Records](#work-with-records)
+- [Explore more commands](#more-commands)
+- [Search Records](#search-records-on-timeline)
+- [Add attachments](#add-an-attachment-to-a-note-in-timeline) 
 
 ## Create a timeline record
 
@@ -262,9 +262,9 @@ To add a reference to a timeline record in a **Post**, use the following steps:
 ![Add references to timeline records](media\timeline-add-links-to-records-1.png "Add references to timeline records")
 
 For more information on Notes and Post functionality and configuration, see:
-- [Record types shown](customer-service-hub-user-guide-timeline-overview.md#record-types-shown) 
-- [Quick entry record type](customer-service-hub-user-guide-timeline-overview.md#quick-entry-record-type-and-sort-order-default) 
-- [Record Settings](customer-service-hub-user-guide-timeline-overview.md#record-settings) 
+- [Record types shown](customer-service-hub-user-guide-timeline-admin.md#record-types-shown)
+- [Quick entry record type](customer-service-hub-user-guide-timeline-admin.md#quick-entry-record-type-and-sort-order-default) 
+- [Record Settings](customer-service-hub-user-guide-timeline-admin.md#record-settings) 
 - [Notes on timeline](customer-service-hub-user-guide-timeline-overview.md#notes-on-timeline)
 
 ## Add an attachment to a note in timeline
