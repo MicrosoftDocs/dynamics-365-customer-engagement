@@ -1,5 +1,5 @@
 ---
-title: "Set up Dynamics 365 for phones and Dynamics 365 for tablets | MicrosoftDocs"
+title: "Set up Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom:
 ms.date: 06/5/2020
 ms.reviewer:
