@@ -47,7 +47,8 @@ The following capabilities are available in the different app experiences depend
 | UCI Compliant  | Yes | Yes | Yes | Yes |  |
 | Basic Administration  | Customer Service Hub -> Service Manager | Omnichannel Administration |  |  |  |
 | Case Routing & Queue Configuration  | Customer Service Hub -> Service Manager | Omnichannel Administration |  |  |  |
-| Add & Configure Channels  | App Profile Manager  | Omnichannel Administration |  |  |  |
+| Enabling Chat or Channels for user profiles  | App Profile Manager  | Omnichannel Administration |  |  |  |
+| Add & Configure Channels  | Omnichannel Administration  | Omnichannel Administration |  |  |  |
 | LICENSING: Customer Service Pro  |   |  | X |  |  |
 | LICENSING: Customer Service Enterprise  | X  | X | X  | X | N/A |
 | LICENSING: Chat  | X  | X |  |  |  |
