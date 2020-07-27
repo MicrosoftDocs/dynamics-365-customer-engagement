@@ -34,7 +34,7 @@ Use [!INCLUDE[pn-ms-dyn-365-for-customer-service](../includes/pn-ms-dyn-365-for-
 The following capabilities are available in the different app experiences depending on your needs. Select the app of your choice to read more about the details of the user experience in each app: 
 
 
-|   | Customer Service Workspace | Omnichannel for Customer Service | Customer Service Hub | Customer Service Team Member | Customer Service app (deprecating) |
+|   | [Customer Service Workspace](xxxx.md) | [Omnichannel for Customer Service](../omnichannel/introduction-omnichannel.md) | [Customer Service Hub](user-guide-customer-service-hub.md) | [Customer Service Team Member](customer-service-team-member.md) | [Customer Service app (deprecating)](user-guide-customer-service.md) |
 |---------------------------------------------------------------------|------------|------------|------------|------------|------------|
 | Multisession          | X | X |  |  |  |
 | Conversations (with Chat or Digital Messaging Offers)  | (09/01/2020) | X |  |  |  |
