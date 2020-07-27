@@ -35,6 +35,7 @@ The following capabilities are available in the different app experiences depend
 
 |   | Customer Service Workspace | Omnichannel for Customer Service | Customer Service Hub | Customer Service Team Member | Customer Service app (deprecating) |
 |---------------------------------------------------------------------|------------|------------|------------|------------|------------|
+| CAPABILITY            |
 | Multisession          | X | X |  |  |  |
 | Conversations (with Chat or Digital Messaging Offers)  | (09/01/2020) | X |  |  |  |
 | Channels (with Digital Messaging Offer)  | (09/01/2020) | X |  |  |  |
