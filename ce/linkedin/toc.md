@@ -13,3 +13,4 @@
 ## [View Sales Navigator controls on forms](view-sales-navigator-forms.md)
 ## Troubleshooting and FAQs
 ### [Troubleshooting LinkedIn integration errors](ts-linkedin-integration.md)
+### [FAQs](faqs-linkedin.md)
