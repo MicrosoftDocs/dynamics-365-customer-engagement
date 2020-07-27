@@ -58,23 +58,23 @@ The following capabilities are available in the different app experiences depend
 > [!NOTE]
 > For mobile devices, you'll also need to [Install Dynamics 365 for phones and tablets](../mobile-app/Install-Dynamics-365-for-phones-and-tablets.md).
 
-If you're using a desktop browser, you'll see the **Customer Service Hub** app and the **Customer Service** app in the app switcher as shown here:
+If you're using a desktop browser, you'll see the various Customer Service apps in the app switcher as shown here:
 
 ![open-sitemap](media/open-csh-sitemap-overview.png "Customer Service Hub sitemap")
 
-If you're using a mobile device with Dynamics 365 for phones and tablets installed, you'll see the **Customer Service Hub** app in the app switcher as shown here:
+If you're using a mobile device with Dynamics 365 for phones and tablets installed, you'll see the app tiles in the app switcher as shown here:
 
 ![csh-mobile](media/ChooseAnApp_1.png "Customer Service Hub on mobile")
 
 > [!NOTE]
-> Looking forward to upgrade to the Customer Service Hub app? See [Upgrade to Customer Service Hub](upgrade-ish-csh.md)
+> Looking forward to upgrade to the Customer Service Workspace or Customer Service Hub app? See [Upgrade to Customer Service Hub](upgrade-ish-csh.md)
 
 > [!NOTE]
 > If you have previously installed any portal solution, to create a case in the Customer Service Hub or to use the Merge cases command, you must turn off the **Read-only in mobile** option for the Case entity. More information: [Turn off Read-only in mobile option](../customerengagement/on-premises/customize/edit-entities.md#enable-or-disable-entity-options).
 
-## Accessibility and GDPR in the Customer Service Hub 
+## Accessibility and GDPR in the Customer Service Apps 
 
-Customer Service Hub is committed to inclusive design and accessible content. The apps are designed around accessibility so that all users can be effortlessly productive.
+Customer Service is committed to inclusive design and accessible content. The apps are designed around accessibility so that all users can be effortlessly productive.
 
 For more details about app accessibility and GDPR compliance, see [Accessibility and GDPR](user-guide-customer-service-hub.md#accessibility-and-gdpr).
 
