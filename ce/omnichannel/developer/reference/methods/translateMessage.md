@@ -24,8 +24,59 @@ This method is called for every conversation message exchanged between the custo
 
 |Name|Type|Required|Description|
 |----|----|----|----|
-|`conversationId`|String|Yes| Unique identifier of the conversation.|
-|`translationConfig`|JSON object|Yes| |
+|`translationConfig`|JSON object|Yes| Consists of `conversationId`, `messagePayload` and `translateToC1orC2` key-value pairs.|
+
+Here is the structure of `translationConfig` parameter.
+
+```json
+interface translationConfig { 
+        conversationId: string;   //Unique Id for live work item in Omnichannel for Customer Service
+        messagePayload: MessagePayload;  //Payload for the message to be translated
+        translateToC1orC2: TranslateTo;   //represents to whom the message has to be translated 
+ } 
+
+interface MessagePayload { 
+        content: string;                 //Contains the content to be translated
+        contentType: MessageContentType;  //Contains the type of content
+        sender: Sender; // Represents the sender of the message
+} 
+     
+interface Sender { 
+        userType: UserType;  //Represents the type of user who is sending this message
+} 
+
+export class UserType { 
+        public static readonly C1 = "Agent"; 
+        public static readonly C2 = "Customer"; 
+        public static readonly CONSULT = "CONSULT"; 
+} 
+ 
+export class TranslateTo { 
+        public static readonly C1 = "Agent"; 
+        public static readonly C2 = "Customer"; 
+} 
+ 
+export class MessageContentType { 
+        public static readonly Text = "Text"; 
+} 
+
+```
+Given below is a sample of the `conversationConfig` parameter.
+
+```json
+translationConfig = {
+  "conversationId": "2b330c52-6844-4d36-8e05-03c78c9681dc",
+  "uiSessionId": null,
+  "messagePayload": {
+    "content": "Hello",
+    "contentType": "Text",
+    "sender": {
+      "userType": "Agent"
+    }
+  },
+  "translateToC1orC2": "Customer"
+}
+```
 
 ## Return Value
 

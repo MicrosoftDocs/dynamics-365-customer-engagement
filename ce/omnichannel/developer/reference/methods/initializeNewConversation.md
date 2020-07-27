@@ -24,7 +24,34 @@ This method is called as soon as a new chat invite is receieved for every incomi
 
 |Name|Required|Description|
 |----|----|----|
-|`initializeNewConversation`|Yes| |
+|`conversationConfig`|Yes| Provide details about which translation provider to use based on factors such as `C1Language` and `InviteLocale`. Because some translation providers give better translations for certain set of langauges, you can choose the appropriate translation provider at run time. <br />Based on these parameters, you can also decide to turn on or turn off the translation feature at the start of the new conversation.|
+
+Here is the structure of `conversationConfig` parameter.
+
+```json
+interface conversationConfig { 
+        conversationId: string,  //Unique Id for live work item in Omnichannel for Customer Service
+        c1Language: string;      // Language of the agent
+        inviteParams: InviteParams;  //Parameters received on chat invite 
+        interface InviteParams
+                { 
+                        inviteLocale: string;  //Language locale of the channel received during chat invite 
+                        channelType: string;   //Refers to type of the channel 
+                } 
+}
+```
+Given below is a sample of the `conversationConfig` parameter.
+
+```json
+conversationConfig = {
+  "conversationId": "2f67af9e-c05a-4784-aaea-916d6938fcea",
+  "c1Language": 1033,
+  "inviteParams": {
+    "inviteLocale": "3082",
+    "channelType": "lcw"
+  }
+}
+```
 
 ## Return Value
 
