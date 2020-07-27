@@ -15,7 +15,9 @@ You can use a web resource to implement the logic for enabling real time transla
 
 For more information about web resources, see [Web resources in model-driven apps](/powerapps/developer/model-driven-apps/web-resources).
 
-You will need to define the translation provider, language of the agent, and when to turn translation on and when to turn it off. More information: [initializeNewConversation](../reference/methods/initializeNewConversation.md) method and [translateMessage](../reference/methods/translateMessage.md) method. Once you have created and uploaded your JavaScript file as a web resource, follow the steps given below to copy its URL in the Omnichannel Administration app.
+You will need to define the translation provider, language of the agent, and when to turn translation on and when to turn it off. More information: [initializeNewConversation](../reference/methods/initializeNewConversation.md) method and [translateMessage](../reference/methods/translateMessage.md) method.
+
+Once you have created and uploaded your JavaScript file as a web resource, follow the steps given below to copy its URL in the Omnichannel Administration app.
 
 1. Open the Omnichannel Administration app.
 2. Select **Real Time Translation** in the sitemap.
