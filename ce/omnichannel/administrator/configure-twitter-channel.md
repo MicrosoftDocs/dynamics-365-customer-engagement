@@ -4,7 +4,7 @@ description: "Instructions to configure a Twitter Direct Message channel in Omni
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 05/13/2020
+ms.date: 07/27/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -92,7 +92,7 @@ After completing the prerequisites, you can add the Twitter channel for your org
 
 10. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
     
-11. On the **Surveys** tab, configure the post-conversation survey. More information: [Configure a post-conversation survey](configure-post-chat-survey.md).
+11. On the **Surveys** tab, configure the post-conversation survey. For more information, see [Configure a post-conversation survey](configure-post-chat-survey.md).
 
 12. Select **Save** to save the record. The Twitter channel setup is complete.
  
