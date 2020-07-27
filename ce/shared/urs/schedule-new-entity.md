@@ -156,28 +156,26 @@ Select **Hide default requirement panels** if you don’t want to display the ot
 
 Appointments are enabled for scheduling by default when Universal Resource Scheduling is installed.
 
-You can configure the system to automatically create a booking when an appointment is created. 
+You can configure the system to automatically create a booking when an appointment is created.
 
-
-First go to **Settings > Administration > System Settings > Calendar** and set Scheduling Engine to Unviersal Resource Scheduling. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/scheduling-appointments-scheduling-engine.png)
-
-Create an appointment and add relevant details. 
-
-In the Required field, enter a User record. If the User record has an associated bookable resource, a booking will be created for that resource with the same start and end time as the appointment.
+Go to **Settings** > **Administration** > **System Settings** > **Calendar** and set **Scheduling Engine** to **Universal Resource Scheduling**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/scheduling-appointments-create.png)
+> ![Screenshot of the system settings scheduling engine option.](../../field-service/media/scheduling-appointments-scheduling-engine.png)
 
-Upon save you can see the related booking on the appointment form by going to Related > Bookable resource bookings. Like all bookings, it is visible on the schedule board for the right time slot and resource.
+Create an appointment and add relevant details.
+
+In the **Required** field, enter a user record. If the user record has an associated bookable resource, a booking will be created for that resource with the same start and end time as the appointment.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/scheduling-appointments-board.png)
+> ![Screenshot of an appointment record.](../../field-service/media/scheduling-appointments-create.png)
 
-Unlike other entities enabled for scheduling, the appointment form will not have a Book button in the top ribbon nor will there be an associated resource requirement. This is because creating an appointment is inherently like creating a booking. 
+Once saved, you can see the related booking on the appointment form by going to **Related** > **Bookable Resource Bookings**. Like all bookings, it's visible on the schedule board for the right time slot and resource.
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the schedule board showing an appointment.](../../field-service/media/scheduling-appointments-board.png)
+
+Unlike other entities enabled for scheduling, the appointment form will not have a **Book** button in the top ribbon nor will there be an associated resource requirement. Creating an appointment is inherently like creating a booking.
 
 ## Configuration considerations
 
