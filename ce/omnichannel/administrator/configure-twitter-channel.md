@@ -92,7 +92,7 @@ After completing the prerequisites, you can add the Twitter channel for your org
 
 10. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
     
-11. On the **Surveys** tab, configure the post-conversation survey. For more information, see [Configure a post-conversation survey](configure-post-chat-survey.md).
+11. On the **Surveys** tab, [configure a post-conversation survey](configure-post-chat-survey.md).
 
 12. Select **Save** to save the record. The Twitter channel setup is complete.
  
@@ -140,5 +140,5 @@ Customers are solely responsible for using Dynamics 365, this feature, and any a
 
 [Understand and create work streams](work-streams-introduction.md)<br>
 [Configure automated messages](configure-automated-message.md)<br> 
-[Configure a post-chat survey](configure-post-chat-survey.md)<br>
+[Configure a post-conversation survey](configure-post-chat-survey.md)<br>
 [Create and manage routing rules](routing-rules.md)
