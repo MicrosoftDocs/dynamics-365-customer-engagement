@@ -49,7 +49,7 @@ The following capabilities are available in the different app experiences depend
 | Case Routing & Queue Configuration  | Customer Service Hub -> Service Manager | Omnichannel Administration |  |  |  |
 | Entity Routing  | N/A | Omnichannel Administration |  |  |  |
 | Add & Configure Channels  | Omnichannel Administration  | Omnichannel Administration |  |  |  |
-| Control Session Templates & Productivity Pane for Agent & Supervisor Experiences  | App Profile Manager (09/01/2020) | App Profile Manager (09/01/2020) |  |  |  |
+| Control User Experience Components for Agent & Supervisor | App Profile Manager (09/01/2020) | App Profile Manager (09/01/2020) |  |  |  |
 | LICENSING: Customer Service Pro  |   |  | X |  |  |
 | LICENSING: Customer Service Enterprise  | X  | X | X  | X | N/A |
 | LICENSING: Chat  | X  | X |  |  |  |
