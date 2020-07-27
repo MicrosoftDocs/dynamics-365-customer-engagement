@@ -42,7 +42,7 @@ The following capabilities are available in the different app experiences depend
 | Knowledge Management  |  X  |  X  |  X  | Read Only |  |
 | Insights  | X | X | X |  |  |
 | Service Scheduling  |  | N/A | X |  |  |
-| Connected Service with IoT  |  |  |  |  |  |
+| Connected Service with IoT  |  |  | X  |  |  |
 | Extensibility  | CIF v2, BYOC | CIF v2, BYOC, Mobile SDK | CIF v1 |  |  |
 | UCI Compliant  | Yes | Yes | Yes | Yes |  |
 | Basic Administration  | Customer Service Hub -> Service Manager | Omnichannel Administration |  |  |  |
