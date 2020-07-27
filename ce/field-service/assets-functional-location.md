@@ -2,8 +2,8 @@
 title: "Functional location in Dynamics 365 Field Service| MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 07/06/2020
-ms.reviewer: ""
+ms.date: 08/01/2020
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
@@ -13,10 +13,10 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
 caps.latest.revision: 42
-ms.author: FieldServiceDave
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin
@@ -48,68 +48,76 @@ In this article, we'll look at how to define functional relationships within Fie
 
 ## Prerequisites
 
-- Early access August 1, 2020, 
-- generally available October 1st 2020 
-- Field Service v8.8.x (will know exact number closer to Aug 1)
+- Functional location is in early access as of August 1, 2020,
+- This feature will be generally available October 1, 2020
+- Field Service v8.8.x
 
 ## Create a service account
 
-First create a service account or choose one that is already created. Service accounts are required to create work orders and define the customer and service location of the work order.
+First, create a service account or choose an existing one. Service accounts are required to create work orders and define the customer and service location of the work order.
 
-
-Ensure the service account has an address and is geocoded. You will know the service account record is geocoded if it appears on the map and the latitude and longitude fields have values.
+Make sure the service account has an address and is geocoded. You can see that the service account record is geocoded if it appears on the map and the latitude and longitude fields have values.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/assets-functional-location-account.png)
+> ![Screenshot of an account entity with a map populated.](./media/assets-functional-location-account.png)
 
 > [!Note]
-> In Field Service Settings there is a setting called Auto Geo Code addresses. Set this field to Yes to have records auto geocoded as addresses are entered.
-
+> In Field Service settings, there is a setting called **Auto Geo Code Addresses**. Set this field to **Yes** to have records autogeocoded as addresses are entered.
 
 ## Create functional locations
 
-Use functional locations to define areas and locations within the service account.
+Next, we'll create a functional location on a service account.
 
-From the service account record go to the **Assets and Locations** section.
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/assets-functional-location-new-location.png)
-
+From the service account, go to the **Assets and Locations** tab. Select **New location**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/assets-functional-location-tree.png)
+> ![Screenshot of the assets and locations tab on an account record.](./media/assets-functional-location-new-location.png)
 
+Give the location a name and then save. The new location will appear in this list, and can be dragged around and even nested as necessary. 
+
+In our example, we've created "Building A Roof" as a location under "Building A," which is located on the Bellows College Campus. The following screenshot shows this relationship in the list of functional locations on the service account.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/assets-functional-location-address.png)
+> ![Screenshot of the assets and locations on a service account.](./media/assets-functional-location-tree.png)
 
+Select any location in the list for additional details, such as latitude and longitude.
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a functional location details form.](./media/assets-functional-location-address.png)
 
 ## Create or add assets to the functional location tree
 
+Often, technicians must perform their work on a customer asset, which exists at a specific location at a work site.
+
+Assets can also be associated directly to a functional location, making it easy for technicians to find and perform their work.
+
+From the service account's **Assets and Locations** section, select the **Show Assets** option to see a list of associated assets. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/assets-functional-location-tree-show-assets.png)
+> ![Screenshot of the show assets option on the functional location list of a service account.](./media/assets-functional-location-tree-show-assets.png)
 
+To add a new asset, select the ellipses icon, and either add a new asset, or relate an existing asset to this particular location.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/assets-functional-location-tree-edit.png)
+> ![Screenshot of the option to add a new asset or add an existing asset.](./media/assets-functional-location-tree-edit.png)
 
 > [!Note]
-> You cannot drag a sub asset to a functional location different from the parent asset's functional location.
-
+> You can't drag a sub asset to a functional location different from the parent asset's functional location.
 
 ## Use functional location for work orders
 
+Once defined, functional locations help flesh out work order details, once again making it easier for technicians to see where they must perform their work.
+
+As seen in the following screenshot, functional locations can be associated directly to the work order.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/assets-functional-location-work-order.png)
+> ![Screenshot of the functional location field on a work order.](./media/assets-functional-location-work-order.png)
 
 Add a functional location or add a customer asset within that functional location.
 
-### Add multiple functional locations to a single work order
+Once the functional location is selected, you'll see that more detailed information will appear in the **Location** tab of the work order. If the functional location has a specific address, this information will populate on the **Locations** tab. If the functional location has no address, but has a latitude and longitude, no address will populate, but the latitude and longitude will.
 
+### Add multiple functional locations to a single work order
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/assets-functional-location-work-order-new-incident.png)
@@ -120,29 +128,25 @@ Add a functional location or add a customer asset within that functional locatio
 
 
 > [!Note]
-> Address of work order only reflects the functional location on the work order and on the primary incident type not the location of the additional incident types.
+> Work order address only reflects the functional location on the work order and on the primary incident type, not the location of the additional incident types.
 
 ## Use functional location for cases
 
+In cases where organizations start with a **Case** in their workflow, functional locations can be associated there as well.
+
+On a case record, go to the Field Service section, and associate a functional location there.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/assets-functional-location-case.png)
-
+> ![Screenshot of the Field Service tab on a case.](./media/assets-functional-location-case.png)
 
 ## Use functional location for agreements
 
-Go to **Agreements > select an agreement > Agreement Booking Setup > Agreement Booking Incident**
-
+To use functional locations on an agreement, select an agreement. Go to **Agreement Booking Setup**, and then **Agreement Booking Incident**, where you can associate a functional location.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/assets-functional-location-agreement-incident.png)
+> ![Screenshot of an agreement booking incident.](./media/assets-functional-location-agreement-incident.png)
 
 ## Configuration considerations
-// use question &answer part of video
 
-### multiple accounts can be associated to a functional location tree
-
-### Mobile
-
-## Additional Notes
-// use question &answer part of video
+- Multiple accounts can be associated to a functional location tree.
+- Field Service technicians can see functional locations from their Field Service mobile apps, but cannot see or manage the larger location and asset hierarchies.
