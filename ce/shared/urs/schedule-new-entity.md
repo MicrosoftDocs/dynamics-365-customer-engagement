@@ -4,7 +4,7 @@ Enabling an entity for scheduling allows dispatchers to schedule that entity thr
 
 In this article, we'll look at how to enable an entity for scheduling and show how it works on the schedule board. 
 
-For the purposes of this topic, let's consider an example. A solar energy company must perform consultations over the phone and on site at their customers' homes before a solar panel installation can take place because details regarding the home's structure, location, and local laws need to be discussed as part of the qualification process. The solar panel company would like to use the schedule board and other scheduling tools to assign leads to appropriate sales resources in order to perform the consultation and qualification process with potential customers. 
+For the purposes of this article, let's consider an example. A solar energy company must perform consultations over the phone and on site at their customers' homes before a solar panel installation can take place because details regarding the home's structure, location, and local laws need to be discussed as part of the qualification process. The solar panel company would like to use the schedule board and other scheduling tools to assign leads to appropriate sales resources in order to perform the consultation and qualification process with potential customers. 
 
 To configure this scenario, we will enable the **Lead** entity for scheduling and add a new requirement view to the schedule board that specifically relates to lead resource requirements. 
 
@@ -67,7 +67,7 @@ Select **New** to create the new resource requirement.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the lead entity with the New button highlighted in the resource requirements section](../../field-service/media/addresourcereq.png)
  
-Enter the information that will provide details on what requirements are needed for a recourse to be scheduled to this lead. Details might include dates, duration, priority, and territory. 
+Enter the information that will provide details on what requirements are needed for a resource to be scheduled to this lead. Details might include dates, duration, priority, and territory. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an example resource requirement with details filled out](../../field-service/media/newreq.png)
@@ -107,7 +107,7 @@ Go to **Settings** > **Customizations** > **Entities** > **Resource Requirement*
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the resource requirements views settings](../../field-service/media/customizations-resource-requirements.png)
 
-Create a new view and add fields to the view that provide details for what you are scheduling. Use the drop down to capture fields from the entity (in this case, **Lead**). 
+Create a new view and add fields to the view that provide details for what you are scheduling. Use the drop-down to capture fields from the entity (in this case, **Lead**). 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a list of possible entities, with "lead" selected](../../field-service/media/addleadentity.png)
@@ -181,7 +181,7 @@ Unlike other entities enabled for scheduling, the appointment form will not have
 
 ### Onsite leads
 
-If resources must perform work on site at the customer's location, travel time and distances should be considered when scheduling. In these cases, we recommend using the work order entity, as it is designed for on site service. However, if you would like to schedule leads to be performed on site:
+If resources must perform work on site at the customer's location, travel time and distances should be considered when scheduling. In these cases, we recommend using the work order entity, as it is designed for on-site service. However, if you would like to schedule leads to be performed on site:
 
 1. Create a lead.
 2. Create a related resource requirement.
@@ -198,7 +198,7 @@ If resources must perform work on site at the customer's location, travel time a
 
 
 ## Additional notes
-- If the entity you want to enable for scheduling is not displayed in the **Add Entity** list, go to the managed properties of the entity (**Settings** > **Customizations**) and set the **Can be customized** setting to **True**. For more information, see our [topic on managed properties](https://docs.microsoft.com/dynamics365/customer-engagement/customize/set-managed-properties).
+- If the entity you want to enable for scheduling is not displayed in the **Add Entity** list, go to the managed properties of the entity (**Settings** > **Customizations**) and set the **Can be customized** setting to **True**. For more information, see our [article on managed properties](https://docs.microsoft.com/dynamics365/customer-engagement/customize/set-managed-properties).
 
 
 - To turn off scheduling for a previously enabled entity, select **Deactivate** in the ribbon on the **Booking Setup Metadata** record.
