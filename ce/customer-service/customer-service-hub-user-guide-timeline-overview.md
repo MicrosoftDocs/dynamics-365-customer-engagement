@@ -15,7 +15,7 @@ manager: shujoshi
 Timeline is a control that allows you to view different activity types that are connected to an entity record and occur over time in a single stream. Some activities that can be logged in the timeline are notes, phone calls, emails, appointments, and tasks.
 
 Timeline allows you to:
-- Quick access on the command bar to perform common actions with ease.
+- Quickly access on the command bar to perform common actions with ease.
 - Filter and view your important activities using multiple filter options.
 - View and manage email conversation threads with ease.
 
@@ -35,7 +35,7 @@ The icons displayed in the top right nav in the Timeline give quick access to th
 
 ## Create a timeline record
 
-When enabled by your system administrator, the **create a timeline record** ![](media\timeline-create-a-record-icon.png "Create a timeline record") icon allows you to quickly create appointments, send emails, and make notes and posts and associate them with other records. You can select the plus icon to view the options that are available for use.
+When enabled by your system administrator, the **Create a timeline record** ![](media\timeline-create-a-record-icon.png "Create a timeline record") icon allows you to quickly create appointments, send emails, and make notes and posts and associate them with other records. You can select the plus icon to view the options that are available for use.
 
  > [!div class="mx-imgBorder"]
  > ![Create a timeline record](media\timeline-create-a-timeline-record.png "Create a timeline record")
@@ -59,11 +59,11 @@ For more information on timeline filter functionality and configurations see:
 
 ## Work with records
 
-When working with records you have key information at a glance and view more by expanding records, and when you hover over a record you have actions you can use.
+When working with records, you have key information at-a-glance, can view more by expanding records, and when you hover over a record, you have actions you can use.
 
 ### Expand all records
 
- When enabled by your system administrator, you can view timeline records at a glance in a collapsed format or expand a record to see more details for ease of use.
+ When enabled by your system administrator, you can view timeline records at-a-glance in a collapsed format or expand a record to see more details for ease of use.
 
 - **1:** When you select the ![](media\timeline-expand-icon.png "Expand all records") icon, it expands all records listed on your timeline.
 - **2:** When the caret is in the upright position (^) in the bottom right corner, the record is displayed in the expanded view and a list of commands appear in the top right corner. Also, when you hover over an activity you want to view, the background turns grey.  When you hover away from the record, the background becomes transparent again.
@@ -71,7 +71,7 @@ When working with records you have key information at a glance and view more by 
 
     ![Expand all records functionality](media\timeline-expand-all-records-1.png "Expand all records functionality")
 
-For more information on expanding record functionality and configuration see:
+For more information on expanding record functionality and configuration, see:
 - [Expand all records in timeline](customer-service-hub-user-guide-timeline-admin.md#expand-all-records-in-timeline)
 - [Expand records with images in timeline](customer-service-hub-user-guide-timeline-admin.md#expand-records-with-images-in-timeline)
 
@@ -86,7 +86,7 @@ The **More commands** icon contains refresh, sort, and email functionalities.
 
     ![More commands timeline functionality](media\timeline-more-commands.png "More commands timeline functionality")
 
-For information on using the **More commands** feature and configuration see:
+For information on using the **More commands** feature and configuration, see:
 - [Quick entry record type and sort order default](customer-service-hub-user-guide-timeline-admin.md#quick-entry-record-type-and-sort-order-default)
 - Threaded email views in timeline
 
@@ -103,7 +103,7 @@ To save valuable space, emails with multiple replies are consolidated into email
 
 ### Enable threaded email views in timeline
 
-Enabling the threaded email view is done via the timeline configuration in Power Apps.  Threaded email views must be done in this setting for each specific timeline, for the specific form, for the specific entity.
+Enabling the threaded email view is done via the timeline configuration in Power Apps. Threaded email views must be done in this setting for each specific timeline, for the specific form, for the specific entity.
 
 You can use any of the following options for enabling threaded email views in timeline:
 
@@ -157,16 +157,16 @@ The following is an overview of the command bar icons and the actions they suppo
 
 |Icon | Name | Description |
 |-----|------|-------------|
-| ![](media\email-assign-icon.png "Assign icon") |Assign | Lets you assign a task|
-| ![](media\email-close-activity-icon.png "Close activity icon")|Close Activity| Lets you close the activity record|
-| ![](media\email-add-to-queue-icon.png "Add to queue icon") |Add to Queue| Lets you add a task to a queue|
-| ![](media\email-open-record-icon.png "Open record icon")|Open Record| Lets you open a record|
-| ![](media\email-delete-icon.png "Delete icon")|Delete| Lets you delete the record|
-| ![](media\email-reply-icon.png "Reply icon")|Reply| Lets you reply to an email. Note: This command is only available for Email|
-| ![](media\email-reply-all-icon.png "Replay all icon")|Reply All| Lets you reply to all for an email. This command is only available on Email|
-| ![](media\email-forward-icon.png "Forward icon ")|Forward|Lets you forward an email. Note: This command is only available on Email|
-| ![](media\email-like-a-post-icon.png "Like a post icon")|Like this post| Let's you like a post. Note: This command is only available on Posts|
-| ![](media\email-edit-icon.png "Edit icon")|Edit this note|Lets you edit a note. Note: This command is only available on Notes|
+| ![](media\email-assign-icon.png "Assign icon") |Assign | Lets you assign a task.|
+| ![](media\email-close-activity-icon.png "Close activity icon")|Close Activity| Lets you close the activity record.|
+| ![](media\email-add-to-queue-icon.png "Add to queue icon") |Add to Queue| Lets you add a task to a queue.|
+| ![](media\email-open-record-icon.png "Open record icon")|Open Record| Lets you open a record.|
+| ![](media\email-delete-icon.png "Delete icon")|Delete| Lets you delete the record.|
+| ![](media\email-reply-icon.png "Reply icon")|Reply| Lets you reply to an email. **Note**: This command is only available for Email.|
+| ![](media\email-reply-all-icon.png "Replay all icon")|Reply All| Lets you reply to all for an email. **Note**: This command is only available on Email.|
+| ![](media\email-forward-icon.png "Forward icon ")|Forward|Lets you forward an email. **Note**: This command is only available on Email.|
+| ![](media\email-like-a-post-icon.png "Like a post icon")|Like this post| Lets you like a post. **Note**: This command is only available on Posts.|
+| ![](media\email-edit-icon.png "Edit icon")|Edit this note|Lets you edit a note. **Note**: This command is only available on Notes.|
 
 Not all records can perform the same actions:
 1. Each record has a different set of actions associated with it. 
@@ -188,12 +188,12 @@ The message box has a rich text editor that enables you to use rich text and cre
 ![Timeline notes rich text editor](media\timeline-take-a-note.png "Timeline notes rich text editor")
 
 > [!NOTE]
-> - Only **Notes** have rich text capability, and it is  only available in the timeline. 
+> - Only **Notes** have rich text capability, and it is only available in the timeline. 
 > - You can only format the message body of a note, not the title.
-> - Rich text editor is available only for Unified Interface.
-> - If you create a rich text editor note in Unified Interface, and then view the note in the Web Client, it will display in HTML syntax.
+> - The rich text editor is available only for Unified Interface.
+> - If you create a rich text editor note in Unified Interface and then view the note in the Web Client, it will display in HTML syntax.
 
-For more information on the rich text editor feature, here is a listing of functionality:
+For more information on the rich text editor feature, the following is a list of functionality:
   
 |Icon | Name | Shortcut key | Description |
 |----------------------|-------------------------|-----------------------------|-----------------------------|
@@ -237,7 +237,7 @@ To add a mention or to reference a team member in a **Post**, use the following 
 
 1.	In the box that appears, type @ sign. When you type @, a flyout menu opens with a list of users you’ve recently used.
 2.	You can select one of the user records, or start typing the keyword. When you start typing, the records in the flyout menu are refreshed to match the keyword. In the background, the **Dynamics 365 Quick Find** search is in use.
-3.	If you don’t find a record, you can switch to different views. To do this, select Advanced.  It opens the **Lookup Records** pane.
+3.	If you don’t find a record, you can switch to different views. To do this, select **Advanced**. The **Lookup Records** pane opens.
 4.	In the **Lookup Records** pane, you can switch between the **Recent records** and **All records** view to find a record.
 
 > [!NOTE]
@@ -254,14 +254,14 @@ To add a reference to a timeline record in a **Post**, use the following steps:
 3.	To add a link, type **#** in the box that appears.  
 4.	When you type #, a flyout menu opens with a list of records that you have recently accessed. These records could be of any record type, such as accounts, contacts or leads.
 5.	You can select one of the records or start typing the keyword. When you start typing, the records in the flyout menu are refreshed to match the keyword. In this case, too, the search happens using the **Dynamics 365 Quick Find** search. The icons beside the record names in the flyout menu indicate the record types, which help you determine the record to select.  
-6.	If you don’t find a record, you can either switch to different views or create a new record. To do this, select **Advanced**.  It opens the **Lookup Records** pane.
+6.	If you don’t find a record, you can either switch to different views or create a new record. To do this, select **Advanced**. The **Lookup Records** pane opens.
 7.	In the **Lookup Records** pane, switch between the **Recent records** and **All records view** to find a record.  
 8.	Select **Change View** to find to see records from a different view. For example, if you want to find one of your open opportunities, select **Change View** > **Opportunities** > **My Open Opportunities**. The records in the **Lookup Records** pane will be refreshed to show only the open opportunities you own.  
 9.	If you don’t find a record you are looking for, select **New Record** to create a record.
 
 ![Add references to timeline records](media\timeline-add-links-to-records-1.png "Add references to timeline records")
 
-For more information on Notes and Post functionality and configuration see:
+For more information on Notes and Post functionality and configuration, see:
 - [Record types shown](customer-service-hub-user-guide-timeline-overview.md#record-types-shown) 
 - [Quick entry record type](customer-service-hub-user-guide-timeline-overview.md#quick-entry-record-type-and-sort-order-default) 
 - [Record Settings](customer-service-hub-user-guide-timeline-overview.md#record-settings) 
@@ -271,16 +271,18 @@ For more information on Notes and Post functionality and configuration see:
 
 You can add an attachment, such as a file, to a note in timeline to share with users.
 
+> [!NOTE]
+> If system administrator must first enable notes for you to add an attachment.
+
 1. Select the ![](media\timelilne-paperclip-icon.png "paperclip icon") paperclip icon to attach a file to a note. You can only add an attachment to a note that is attached to a record. 
 2. Select the file you want to attach. You can only add one file per note.
-3. Edit note screen will appear.
-4. Your attachment will be displayed at the bottom of the edit note screen.
-5. **Add note** to save and close the edit note screen.
+
+   The Edit note screen will appear, and your attachment will be displayed at the bottom of the Edit note screen.
+   
+3. Select **Add note** to save and close the Edit note screen.
 
 ![Add an attachment to a note in timeline](media\timeline-add-an-attachment-to-a-note.png "Add an attachment to a note in timeline")
 
-> [!NOTE]
-> If your system administrator has not enabled notes, you cannot add an attachment.
 
 ### See Also
 
