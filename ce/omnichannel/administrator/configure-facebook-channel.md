@@ -131,7 +131,7 @@ After you add a Facebook page, values for **Callback Uri** and **Verify Token** 
 
 3. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
     
-4. On the **Surveys** tab, configure the post-conversation survey. For more information, see [Configure a post-conversation survey](configure-post-chat-survey.md).
+4. On the **Surveys** tab, [configure a post-conversation survey](configure-post-chat-survey.md).
 
 <!--### File attachments
 
