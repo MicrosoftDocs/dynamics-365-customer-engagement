@@ -23,10 +23,10 @@ search.app:
 
 ## Introduction
 
-If your administrator has enabled the AI-suggested similar cases and knowledge articles, you can view the similarly resolved cases and knowledge articles that are displayed on the Smart assist pane when you open an assigned case.
+If your administrator has enabled the AI-suggested similar cases and knowledge articles, you can view the similarly resolved cases and knowledge articles that are displayed on the Smart assist pane when you open an active case.
 
 [!IMPORTANT]
-The **Smart assist** pane is displayed only when the case is opened in the session tab by using the Shift+mouse click action.
+The **Smart assist** pane is displayed only when you open the case in a new session tab by using the Shift+mouse click action.
 
 ## Prerequisites
 
