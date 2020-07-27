@@ -161,6 +161,8 @@
 ### [Issue converting an email to a case](troubleshoot-case-email-issue.md)
 ### [SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday](troubleshoot-sla-timer-issue.md)
 ### [Unable to delete a managed solution consisting an SLA enabled entity](troubleshoot-delete-managed-solution.md)
+### FAQs
+#### [Timeline FAQs](timeline-faqs.md) 
 
 ## Developer guide
 ### [Work with knowledge articles](work-knowledge-articles.md)
