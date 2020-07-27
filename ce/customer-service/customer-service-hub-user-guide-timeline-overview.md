@@ -160,15 +160,19 @@ The following is an overview of the command bar icons and the actions they suppo
 | ![](media\email-assign-icon.png "Assign icon") |Assign | Lets you assign a task|
 | ![](media\email-close-activity-icon.png "Close activity icon")|Close Activity| Lets you close the activity record|
 | ![](media\email-add-to-queue-icon.png "Add to queue icon") |Add to Queue| Lets you add a task to a queue|
-| ![](media\email-email-open-record-icon.png "Open record icon")|Open Record| Lets you open a record|
+| ![](media\email-open-record-icon.png "Open record icon")|Open Record| Lets you open a record|
 | ![](media\email-delete-icon.png "Delete icon")|Delete| Lets you delete the record|
-| ![](media\email-reply-icon.png "Reply icon")|Reply| Lets you reply to an email. Note: This command is only available for email|
-| ![](media\email-replay-all-icon.png "Replay all icon ")|Reply All| Lets you reply to all for an email. This command is only available on email|
-| ![](media\email-forward-icon.png "Forward icon ")|Forward|Lets you forward an email. Note: This command is only available on email|
+| ![](media\email-reply-icon.png "Reply icon")|Reply| Lets you reply to an email. Note: This command is only available for Email|
+| ![](media\email-reply-all-icon.png "Replay all icon")|Reply All| Lets you reply to all for an email. This command is only available on Email|
+| ![](media\email-forward-icon.png "Forward icon ")|Forward|Lets you forward an email. Note: This command is only available on Email|
 | ![](media\email-like-a-post-icon.png "Like a post icon")|Like this post| Let's you like a post. Note: This command is only available on Posts|
 | ![](media\email-edit-icon.png "Edit icon")|Edit this note|Lets you edit a note. Note: This command is only available on Notes|
 
-![Access command bar actions](media\timeline-access-command-bar-actions-1.png "Access command bar actions")
+Not all records can perform the same actions:
+1. Each record has a different set of actions associated with it. 
+2. Only the actions associated with that record are displayed in the command bar.  
+
+![Command bar actions in timeline](media\timeline-access-command-bar-actions-1.png "Command bar actions")
 
 ## Work with notes
 
@@ -184,7 +188,7 @@ The message box has a rich text editor that enables you to use rich text and cre
 ![Timeline notes rich text editor](media\timeline-take-a-note.png "Timeline notes rich text editor")
 
 > [!NOTE]
-> - Only **Notes** have rich text capability. 
+> - Only **Notes** have rich text capability, and it is  only available in the timeline. 
 > - You can only format the message body of a note, not the title.
 > - Rich text editor is available only for Unified Interface.
 > - If you create a rich text editor note in Unified Interface, and then view the note in the Web Client, it will display in HTML syntax.
