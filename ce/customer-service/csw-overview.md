@@ -36,7 +36,7 @@ As an agent with the Customer Service Representative security role, when you ope
 
 Let's explore the elements of the Customer Service workspace and how to navigate between them: 
 1. The session pane lists all of the sessions you are actively working on. Click on the tabs to navigate between sessions. 
-2. The Home tab returns you to the Customer Service Agent Dashboard view. 
+2. The Home session returns you to the Customer Service Agent Dashboard view. 
 3. Each session has a tab in the session panel. Select a tab to navigate to the session you want to work on. 
 4. Hold shift + click to open a new session for a case. A single click on a case replaces your view with the case form. Click the back arrow in the upper left corner of the form to get back to your previous view.
 5. Choose the dropdown selector to filter cases in queues you can choose to work on. 
