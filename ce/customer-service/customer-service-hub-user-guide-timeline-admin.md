@@ -449,7 +449,7 @@ You only want to enable activities that you need on this form. When working with
 Use the following steps for **Notes**:
 
 1. Select **Notes**
-2. The section will expanded you will see **Coming soon** which indicates you have **Notes** enabled. 
+2. The section will expand to see **Coming soon** which indicates you have **Notes** enabled. 
 3. Once enabled, you can now click on the ![](media\timeline-create-a-record-icon.png "Create a timeline record") (Create a timeline record) icon 
 4. Flyout will appear. Select **Notes**
 5. Begin writing your **Note** using rich text and just click **Add Note** at the bottom to save.
@@ -461,7 +461,7 @@ Use the following steps for **Notes**:
 Use the following steps for **Posts**:
 
 1. Select **Post**
-2. The section will expanded you will see **Coming soon** which indicates you have **Post** enabled. 
+2. The section will expand to see **Coming soon** which indicates you have **Post** enabled. 
 3. Once enabled, you can now click on the ![](media\timeline-create-a-record-icon.png "Create a timeline record") (Create a timeline record) icon 
 4. Flyout will appear. Select **Posts**
 5. Begin writing your **Post**.
