@@ -34,7 +34,7 @@ Use [!INCLUDE[pn-ms-dyn-365-for-customer-service](../includes/pn-ms-dyn-365-for-
 The following capabilities are available in the different app experiences depending on your needs. Select the app of your choice to read more about the details of the user experience in each app: 
 
 
-|   | [Customer Service workspace](csw-overview.md) | [Omnichannel for Customer Service](../omnichannel/introduction-omnichannel.md) | [Customer Service Hub](user-guide-customer-service-hub.md) | [Customer Service Team Member](customer-service-team-member.md) | [Customer Service app (deprecating)](user-guide-customer-service.md) |
+|   | [Customer Service workspace](csw-overview.md) | [Omnichannel for Customer Service](../omnichannel/introduction-omnichannel.md) | [Customer Service Hub](user-guide-customer-service-hub.md) | [Customer Service Team Member](customer-service-team-member.md) | [Customer Service app (Deprecated)](user-guide-customer-service.md) |
 |---------------------------------------------------------------------|------------|------------|------------|------------|------------|
 | Multisession          | X | X |  |  |  |
 | Conversations (with Chat or Digital Messaging Offers)  | (Preview: 09/01/2020) | X |  |  |  |
@@ -42,12 +42,12 @@ The following capabilities are available in the different app experiences depend
 | Case Management  | X |  X  |  X  |  X  |  X  |
 | Knowledge Management  |  X  |  X  |  X  | Read Only |  |
 | Insights  | (Preview: 10/01/2020) | X | X |  |  |
-| Service Scheduling  |  | N/A | X |  |  |
+| Service Scheduling  |  | N/A | X |  | X |
 | Connected Service with IoT  |  |  | X  |  |  |
 | Extensibility  | CIF v2, BYOC | CIF v2, BYOC, Mobile SDK | CIF v1 |  |  |
 | Unified Interface (UCI) Compliant  | Yes | Yes | Yes | Yes |  |
 | Basic Administration  | Customer Service Hub -> Service Manager | Omnichannel Administration |  |  |  |
-| Case Routing & Queue Configuration  | Customer Service Hub -> Service Manager | Omnichannel Administration |  |  |  |
+| Case Routing & Queue Configuration  | Customer Service Hub -> Service Manager | Omnichannel Administration |  |  | Settings -> Service Manager |
 | Add & Configure Channels  | Omnichannel Administration  | Omnichannel Administration |  |  |  |
 | Control User Experience for Agent & Supervisor | App profile manager (Preview: 09/01/2020) | App profile manager (Preview: 09/01/2020) |  |  |  |
 | LICENSING: Customer Service Pro  |   |  | X |  |  |
