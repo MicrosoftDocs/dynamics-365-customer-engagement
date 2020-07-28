@@ -27,7 +27,7 @@ If you have used Customer Service Hub before, must of the Customer Service works
 
 Before we dive in, a quick note about administration of Customer Service workspace. There is not currently a dedicated Administrator experience for Customer Service workspace. As such, configuring and managing core customer service capabilities, such as queues and routing rules,is done in the Service Manager experience in Customer Service Hub. Chat and channel configuration is done in Omnichannel Administration. Because all of these apps are on the Common Data Service (CDS), the data created through these experiences is accessible. 
 
-# Introduction to Customer Service workspace
+## Introduction to Customer Service workspace
 You can access Customer Service workspace through the app selector where you find all of your other Dynamics 365 apps by choosing the Customer Service workspace app tile. You can also access the app in the Dynamics 365 dropdown navigation in the upper left corner of Dynamics 365.
 
 :::image type="content" source="media/appSelectorAndNavigation.png" alt-text="Open Customer Service workspace" border="false":::
@@ -46,21 +46,23 @@ Let's explore the elements of the Customer Service workspace and how to navigate
 
 :::image type="content" source="media/csw-overview.png" alt-text="Customer Service workspace overview" border="false":::
 
-# Working with cases and activities
+### Working with cases and activities
 
 - Hold shift + click to open a new session tab for the case or activity you want to edit. 
 - Clicking on the case or activity replaces your view with the form for the case or activity you opened. 
 - Click the back arrow in the upper left corner of the form to get back to your previous view. 
 
-# Bulk editing cases and activities
+### Bulk editing cases and activities
 To bulk-edit cases or activities:
 1. Click the check mark in the upper left corner of the list of cases or activities or select individual cases or activities to create a custom selection.
 2. Click the vertical ... icon in the right corner of the list of cases or activities to expand the menu of actions you can take on cases or activities.
 
-Cases:
+#### Cases:
+
 :::image type="content" source="media/bulkEditCases.png" alt-text="Customer Service workspace overview" border="false":::
 
-Activities:
+#### Activities:
+
 :::image type="content" source="media/bulkEditActivities.png" alt-text="Customer Service workspace overview" border="false":::
 
 
