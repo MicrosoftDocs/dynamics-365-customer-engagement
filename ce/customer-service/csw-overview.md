@@ -46,13 +46,14 @@ Let's explore the elements of the Customer Service workspace and how to navigate
 
 :::image type="content" source="media/csw-overview.png" alt-text="Customer Service workspace overview" border="false":::
 
-### Opening cases and activities
+### Viewing and editing records
 
-There are new navigation behaviors to be aware of in Customer Service workspace. All other basic case and activity functionality behaves the same way as in the Customer Service Hub and Omnichannel for Customer Service apps.
+There are new navigation behaviors to be aware of in Customer Service workspace. All other basic model driven app functionality behaves the same way as in the Customer Service Hub and Omnichannel for Customer Service apps.
 
-- Hold shift + click to open a new session tab for the case or activity you want to edit. 
-- Clicking on the case or activity replaces your view with the form for the case or activity you opened. 
+- Hold shift + click to open a new session tab for the record you want to edit. 
+- Clicking on the record replaces your view with the form for the record you opened. 
 - Click the back arrow in the upper left corner of the form to get back to your previous view. 
+- Hold CTRL + click to open items in a new tab. 
 
 ### Work with cases
 
