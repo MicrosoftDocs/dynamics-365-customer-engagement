@@ -41,7 +41,7 @@ The following capabilities are available in the different app experiences depend
 | Channels (with Digital Messaging Offer)  | (09/01/2020) | X |  |  |  |
 | Case Management  | X |  X  |  X  |  X  |  X  |
 | Knowledge Management  |  X  |  X  |  X  | Read Only |  |
-| Insights  | X | X | X |  |  |
+| Insights  | (10/01/2020) | X | X |  |  |
 | Service Scheduling  |  | N/A | X |  |  |
 | Connected Service with IoT  |  |  | X  |  |  |
 | Extensibility  | CIF v2, BYOC | CIF v2, BYOC, Mobile SDK | CIF v1 |  |  |
