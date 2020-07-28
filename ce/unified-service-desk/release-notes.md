@@ -1,7 +1,7 @@
 ---
 title: "Unified Service Desk Release Notes | MicrosoftDocs"
 description: "Learn about the known issues and limitations in Unified Service Desk."
-ms.date: 07/24/2020
+ms.date: 07/28/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -226,7 +226,7 @@ The following features are not available in Unified Service Desk:
 
 #### Work around
 
-Upgrade to the latest version of Omnichannel for Customer Serivce to get all the new features. 
+Upgrade to the latest version of Omnichannel for Customer Serivce to get all the new features. Agents should avoid transferring conversations from the Omnichannel for Customer Service app (web client) to a USD client.
 
 ## See also
 
