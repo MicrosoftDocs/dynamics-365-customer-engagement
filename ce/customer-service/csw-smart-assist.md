@@ -1,6 +1,6 @@
 ---
-title: Overview of smart assist | Microsoft Docs
-description: Overview of the smart assist feature in Dynamics 365 Customer Service workspace.
+title: Overview of Smart assist | Microsoft Docs
+description: Overview of the Smart assist feature in Dynamics 365 Customer Service workspace.
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
@@ -19,7 +19,7 @@ search.app:
   - D365CS
 ---
 
-# Overview of smart assist
+# Overview of Smart assist
 
 > [!Note]
 > This topic is pre-release documentation and is subject to change.
@@ -28,7 +28,8 @@ Smart assist is an intelligent assistant that is designed to help agents be more
 
 In the Customer Service workspace, **Smart assist** appears on the productivity pane on the right-hand side of the session.
 
-[!IMPORTANT] For preview, the **productivity pane** will be automatically enabled and will expand, showing the **Smart assist** tab whenever an active case is opened as a new session using the Shift+click action.
+> [!Important]
+> For preview, the **productivity pane** will be automatically enabled and will expand, showing the **Smart assist** tab whenever an active case is opened as a new session using the Shift+click action.
 
 ![Smart assist tab](media/csw-smart-assist-tab.png "View of the Smart assist tab on the productivity pane")
 
@@ -40,9 +41,11 @@ The productivity pane in the Customer Service workspace is an auxiliary work are
 
 The productivity pane displays the **Smart assist** control, where agents can quickly view and interact with relevant AI-generated knowledge articles and similar cases suggestions for the case they are working on.
 
-[!IMPORTANT]For preview, the **productivity pane** will be automatically enabled and will expand, showing the **smart assist tab** , whenever an active case is opened as a new session using the Shift+mouse click action.
+> [!Important]
+> For preview, the **productivity pane** will be automatically enabled and will expand, showing the **smart assist tab** , whenever an active case is opened as a new session using the Shift+mouse click action.
 
-[!IMPORTANT] The productivity pane only displays information (for example, knowledge article and similar case suggestions) for the first tab (referred to as the anchor tab) of an active case session.
+> [!Important]
+> The productivity pane only displays information (for example, knowledge article and similar case suggestions) for the first tab (referred to as the anchor tab) of an active case session.
 
 The productivity pane has two modes: expanded and collapsed. These modes are preserved in different sessions. For example, say in session A you expanded the pane, but while in session B, you collapsed it. When you switch from session A to session B, the pane mode changes from expanded to collapsed. Then if you switch back to session A, the pane is still in its expanded mode.
 
