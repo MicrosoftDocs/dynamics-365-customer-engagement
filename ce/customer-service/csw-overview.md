@@ -48,13 +48,20 @@ Let's explore the elements of the Customer Service workspace and how to navigate
 
 # Working with cases and activities
 
-Hold shift + click to open a new session tab for the case or activity you want to edit. Clicking on the case or activity replaces your view with the form for the case or activity you opened. Click the back arrow in the upper left corner of the form to get back to your previous view. 
+- Hold shift + click to open a new session tab for the case or activity you want to edit. 
+- Clicking on the case or activity replaces your view with the form for the case or activity you opened. 
+- Click the back arrow in the upper left corner of the form to get back to your previous view. 
 
 # Bulk editing cases and activities
-To bulk-edit cases or activities, click the check mark in the upper left corner of the list of cases or activities or select individual cases or activities to create a custom selection.
+To bulk-edit cases or activities:
+1. Click the check mark in the upper left corner of the list of cases or activities or select individual cases or activities to create a custom selection.
+2. Click the vertical ... icon in the right corner of the list of cases or activities to expand the menu of actions you can take on cases or activities.
 
+Cases:
+:::image type="content" source="media/bulkEditCases.png" alt-text="Customer Service workspace overview" border="false":::
 
-
+Activities:
+:::image type="content" source="media/bulkEditActivities.png" alt-text="Customer Service workspace overview" border="false":::
 
 
 
