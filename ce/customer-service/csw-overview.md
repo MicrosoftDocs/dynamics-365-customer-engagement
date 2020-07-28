@@ -50,7 +50,7 @@ Let's explore the elements of the Customer Service workspace and how to navigate
 
 There are new navigation behaviors to be aware of in Customer Service workspace. All other basic model driven app functionality behaves the same way as in the Customer Service Hub and Omnichannel for Customer Service apps.
 
-- Hold shift + click to open a new session tab for the record you want to edit. 
+- Hold shift + click to open a new session tab for the record you want to open. 
 - Clicking on the record replaces your view with the form for the record you opened. 
 - Click the back arrow in the upper left corner of the form to get back to your previous view. 
 - Hold CTRL + click to open items in a new tab. 
@@ -65,7 +65,7 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 4. Edit selected cases. 
 5. Delete selected cases. 
 6. Apply a routing rule to route cases to a queue. 
-7. Open the menu for additional actions including Assign, Add to Queue, Run Report, Email a Link, Shre, Follow, or Unfollow cases. 
+7. Open the menu for additional actions including Assign, Add to Queue, Run Report, Email a Link, Share, Follow, or Unfollow cases. 
 
 :::image type="content" source="media/bulkEditCases.png" alt-text="Customer Service workspace overview" border="false":::
 
