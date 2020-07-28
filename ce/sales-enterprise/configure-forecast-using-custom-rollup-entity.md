@@ -32,7 +32,7 @@ For example, let’s consider two data models – [opportunity product](#opportu
 
 Use this model to create a product-based revenue forecast.
 
-For product-based foresting, the product level revenue comes from **Opportunity Product** entity. Therefore, **Opportunity Product** must be selected as rollup entity and **Product** as hierarchy entity which has a direct relationship with **Opportunity Product** (rollup entity). 
+For product-based foresting, the product level revenue comes from **Opportunity Product** entity. Therefore, **Opportunity Product** must be selected as rollup entity and **Product** as hierarchy entity that has a direct relationship with **Opportunity Product** (rollup entity). 
 
 The other key attributes for the forecast are **Forecast category** and **Est.Close Date**. These attributes are available in **Opportunity** entity that is related to **Opportunity Product** (rollup entity). 
 
@@ -80,7 +80,7 @@ Let’s configure this forecast.
 
     In the **Opportunity (Opportunity)** entity, the **Forecast category** option set is selected and auto configured.
     
-    To configure each column, select the corresponding gear icon ![](media/gear-icon.png "Gear icon") and the column configuration section opens. 
+    To configure each column, select the corresponding gear icon ![Gear icon](media/gear-icon.png "Gear icon") and the column configuration section opens. 
     
     In the **Amount field**, the **Extended Amount** attribute is selected from **Opportunity Product** (rollup entity). 
     
@@ -103,7 +103,7 @@ Let’s configure this forecast.
 
 Use this model to create an opportunity split forecast.
 
-For opportunity split-based foresting, the user level revenue comes from the **Opportunity Split** entity. Therefore, **Opportunity Split** must be selected as rollup entity and **User** as hierarchy entity which has a direct relationship with rollup entity through the **Owner** attribute. 
+For opportunity split-based foresting, the user level revenue comes from the **Opportunity Split** entity. Therefore, **Opportunity Split** must be selected as rollup entity and **User** as hierarchy entity that has a direct relationship with rollup entity through the **Owner** attribute. 
 
 The other key attributes for the forecast are **Forecast category** and **Est.Close Date**. These attributes are available in **Opportunity** entity that is related to **Opportunity Split** (rollup entity). 
 
@@ -146,11 +146,11 @@ Let’s configure this forecast.
 
     In the **Parent Opportunity (Opportunity)** entity, the **Forecast category** option set is selected. The columns for the **Forecast category** option set will not be auto configured as there will be custom attributes that you might want to use. You must manually configure each column.
 
-    To configuring each column, select the corresponding gear icon ![](media/gear-icon.png "Gear icon") and the column configuration section opens.
+    To configuring each column, select the corresponding gear icon ![Gear icon](media/gear-icon.png "Gear icon") and the column configuration section opens.
 
     Select **Amount field** and it lists the out-of-the-box and custom revenue attributes that are related to **Opportunity Split**, such as **Parent Opportunity Amount** and **Revenue Total**. Select the appropriate amount field. Here, you’ve selected **Amount field** as **Parent Opportunity Amount**.
 
-    For **Date Field Entity**, though, the **Opportunity Split** entity consists of date attributes, we select **Parent Opportunity (Opportunity)** entity from the related entities section which consists of the required estimated close date attribute. In **Date field**, select the **Est.Close Date** attribute. 
+    For **Date Field Entity**, though, the **Opportunity Split** entity consists of date attributes, we select **Parent Opportunity (Opportunity)** entity from the related entities section that consists of the required estimated close date attribute. In **Date field**, select the **Est.Close Date** attribute. 
 
     > [!div class="mx-imgBorder"]
     > ![Configure column](media/forecast-ce-os-configure-column.png "Configure column")
