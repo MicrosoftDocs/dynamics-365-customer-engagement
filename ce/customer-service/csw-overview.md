@@ -32,21 +32,22 @@ You can access Customer Service workspace through the app selector where you fin
 
 :::image type="content" source="media/appSelectorAndNavigation.png" alt-text="Open Customer Service workspace" border="false":::
 
-As an agent, when you open Customer Service workspace you start on the Customer Service Agent Dashboard. This dashboard shows you your active cases, Cases available to be worked on in queues you are assigned to, and your open activities. You can select existing cases, activities or begin working new cases from the queues you are assigned to. 
+As an agent, when you open Customer Service workspace you start on the Customer Service Agent Dashboard. This dashboard shows you your active cases, cases you can work in queues you are assigned to, and your open activities. You can open existing cases and activities or begin working new cases from the queues you are assigned to and create new activities. 
 
-Let's explore the elements of the Customer Service workspace and how to navigate: 
-1. The session panel lists all of the sessions you are actively working on. Click on the tabs to navigate between sessions. 
+Let's explore the elements of the Customer Service workspace and how to navigate between them: 
+1. The session pane lists all of the sessions you are actively working on. Click on the tabs to navigate between sessions. 
 2. The Home tab returns you to the Customer Service Agent Dashboard view. 
 3. Each session has a tab in the session panel. Select a tab to navigate to the session you want to work on. 
-4. Hold shift + click to open a new session for a case. A single click replaces your view with the case form. Click the back arrow in the upper left corner of the form to get back to your previous view.
+4. Hold shift + click to open a new session for a case. A single click on a case replaces your view with the case form. Click the back arrow in the upper left corner of the form to get back to your previous view.
 5. Choose the dropdown selector to filter cases in queues you can choose to work on. 
 6. Click on the tabs to navigate to your open activities, cases, forms and views. 
-7. Click the + icon to view a list of forms, views, and activities, select the one you want to open in a new tab. 
+7. Click the + icon to expand the menu to view a list of forms, views, and activities. Select the one you want to open in a new tab. 
 8. Hold shift + click to open a new session for an activity. A single click replaces your view with the activity form. Click the back arrow in the upper left corner of the form to get back to your previous view.
 
 :::image type="content" source="media/csw-overview.png" alt-text="Customer Service workspace overview" border="false":::
 
 # Working with cases
+
 
 # Working with activities
 
