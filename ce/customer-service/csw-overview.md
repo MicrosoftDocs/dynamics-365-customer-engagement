@@ -64,8 +64,8 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 1. Select multiple cases to work with. 
 2. Associate child cases with selected cases. 
 3. Merge cases together. 
-4. Edit cases. 
-5. Delete cases. 
+4. Edit selected cases. 
+5. Delete selected cases. 
 6. Apply a routing rule to route cases to a queue. 
 7. Open the menu for additional actions including Assign, Add to Queue, Run Report, Email a Link, Shre, Follow, or Unfollow cases. 
 
@@ -76,7 +76,10 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 From the Customer Service Agent Dashboard in Customer Service workspace, you can:
 
 1. Select multiple activities to work with.
-2. 
+2. Edit selected activities. 
+3. Delete selected cases. 
+4. Open the menu for aditional actions including Mark Complete, Cancel, Set Regarding, Assign, Email a Link, Add to Queue, Run Report. 
+
 :::image type="content" source="media/bulkEditActivities.png" alt-text="Customer Service workspace overview" border="false":::
 
 
