@@ -4,7 +4,7 @@ description: "Learn about how to configure outbound messaging in Omnichannel for
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 07/20/2020
+ms.date: 07/28/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -113,7 +113,9 @@ Power Automate provides a low code platform for workflow and process automation.
     > [!div class=mx-imgBorder]
     > ![Outbound message flow append variable](../media/outbound-message-flow2.png "Outbound message flow append variable")
 
-    If you added slugs to your outbound messages, you must define them here as well. The example above shows the case ID and full name of the customer. For a list of supported slugs, refer to [Create message templates](create-message-templates.md).
+    <!--If you added slugs to your outbound messages, you must define them here as well. The example above shows the case ID and full name of the customer. For a list of supported slugs, refer to [Create message templates](create-message-templates.md). -->
+    
+    You must define any slugs used in your outbound message here. You can define any CDS entity to be used as a slug. Once defined they can be added to the message. Slugs not defined here will not resolve.
    
 5. You must also refer to the outbound message configuration ID from Omnichannel Administration app. 
     
