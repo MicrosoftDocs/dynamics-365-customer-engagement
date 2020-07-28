@@ -103,7 +103,7 @@ ms.custom:
 <ul>
 <li><a href="email-faqs.md" data-raw-source="[Email FAQs](email-faqs.md)">Email FAQs</a></li>
 <li><a href="migration-tool-faqs.md" data-raw-source="[Migration Tool FAQs](migration-tool-faqs.md)">Migration Tool FAQs</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/omnichannel/faqs" data-raw-source="[Omnichannel for Customer Service FAQs](https://docs.microsoft.com/en-us/dynamics365/omnichannel/faqs)">Omnichannel for Customer Service FAQs</a></li>
+<li><a href="https://docs.microsoft.com/dynamics365/omnichannel/faqs" data-raw-source="[Omnichannel for Customer Service FAQs](https://docs.microsoft.com/dynamics365/omnichannel/faqs)">Omnichannel for Customer Service FAQs</a></li>
 <li><a href="service-scheduling-faq.md" data-raw-source="[Service Scheduling FAQs](service-scheduling-faq.md)">Service Scheduling FAQ</a></li>
 <li><a href="timeline-faqs.md" data-raw-source="[Timeline FAQs](timeline-faqs.md)">Timeline FAQs</a></li>
 </ul>
