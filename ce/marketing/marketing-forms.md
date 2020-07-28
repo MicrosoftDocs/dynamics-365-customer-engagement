@@ -2,7 +2,7 @@
 title: "Set up and manage marketing forms for use in marketing pages (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about various types of marketing forms and how to create them in Dynamics 365 Marketing"
 keywords: marketing form, fields
-ms.date: 05/27/2020
+ms.date: 07/21/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -181,23 +181,6 @@ When you're done designing your form, select **Check for errors** and to make su
 
 > [!IMPORTANT]
 > Forms are nearly always intended to create or update one or more database records&mdash;especially contact or lead records. However, record creation will fail if any fields required by the database are missing when the form is submitted. When you're designing a form, always be sure to identify all of the fields required by your database, and add a form element with its **Required** check box selected for each of them. That will ensure that contacts who submit the form will get an error message if any required values are missing. If you don't do this, then form submissions may simply be ignored without informing contacts of the problem. Your database could be customized to require fields that you don't expect, so be sure to talk to your system customizer or administrator if you're not sure which fields are required. The **Check for errors** function for forms doesn't identify all of the fields required by your database, especially custom fields, so you can't depend on it to inform you of this issue. Always be sure to test your form to confirm that it creates the types of records you expect it to.
-
-## Cascading form fields
-
-Cascading fields allow you to create hierarchy relationships between two option fields in a marketing form. You can use cascading fields to create parent-child relationships for filtering option sets from a parent field. The filtering will show users fewer options from the child set once the user chooses an option from the parent level. The child option set stays hidden until a choice is made in the parent option set. Supported [data fields](marketing-fields.md#field-type-and-format-options) for creating cascading fields include option sets, two options, and multi-select option sets.
-
-To create a cascading field:
-
-1. Add two multi-select options or option set (radio button) fields to a form.
-1. Click on the child set that you want to nest into the parent field.
-1. On the **Properties** pane, go to **Field attributes** > **Filter by** and click **Set up relationships**.
-
-    ![Field attributes](media/cascading-fields.png "Field attributes")
-
-1. Set the parent and child options that will be connected.
-
-> [!NOTE]
-> If there are no fields that can be selected as a parent, the **Field attributes** section is not shown.
 
 <a name="form-go-live"></a>
 

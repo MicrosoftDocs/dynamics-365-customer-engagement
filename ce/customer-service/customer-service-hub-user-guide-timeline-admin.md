@@ -1,7 +1,7 @@
 ---
-title: "Configuring Timeline | Microsoft Docs"
-description: "Timeline comfiguration overivew for administrators"
-ms.date: 07/24/2020
+title: "Configuring Timeline | MicrosoftDocs"
+description: "Timeline configuration overview for administrators"
+ms.date: 07/27/2020
 ms.service:
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -12,32 +12,23 @@ manager: shujoshi
 
 # Configuring Timeline 
 
-The timeline control provides an easy and immersive experience to view information related to an entitiy, such as cases, accounts, or contacts which gives users a better understanding  and helps them deliver more personalized service in an efficient and effective manner. 
+The timeline control provides an easy and immersive experience to view information related to an entity, such as cases, accounts, or contacts which gives users a better understanding  and helps them deliver more personalized service in an efficient and effective manner. 
 
 This experience gives system administrators the ability to configure the information displayed in each timeline to help users access information and create new activity records, such as emails and tasks directly from the timeline quickly so they can deliver more personalized service. 
 
 ## How to navigate to timeline configurations
 
-Timelines are located on forms within entities.  To access timeline configurations, you must start with the entity list.  You can access the entity list a couple of ways depending on the model driven app you are using.
+Timelines are located on forms within entities. To access timeline configurations, you must start with the entity list.  You can access the entity list a couple of ways depending on the model-driven app you are using.
 
-> [!Important] 
-> When accessing timeline, if you are not taken to the new form designer experience, please refer to **Example 2** to ensure access to the latest experience.
-
-**Example 1:**  
-To access the entity list via the **Customer Service Hub**, go to:
-1.	Go to **Customer Service Hub** app
-2.	Click on **Settings**
-3.	Select **Advanced Settings**
-
-  ![How to navigate to timeline configurations - Option 1](media\timeline-access-option-1.png "How to navigate to timeline configurations - Option 1")
-
-**Example 2:**  
 To access the entities list via **Power Apps**, go to:
-1.	Go to **Power Apps** URL: [make.powerapps.com](make.powerapps.com "make.powerapps.com")
-2.	Under Data section
-3.	Select Entities
+1.	Go to **Power Apps** URL: [make.powerapps.com](https://make.powerapps.com "make.powerapps.com")
+2.	Under **Data** section.
+3.	Select **Entities**.
 
   ![How to navigate to timeline configurations - Option 2](media\timeline-access-option-2.png "How to navigate to timeline configurations - Option 2")
+
+> [!Important] 
+> When accessing timeline, if you are not taken to the new form designer experience in Power Apps, you are not using the latest experience.
 
 ### Select an entity form for timeline configuration
 
@@ -62,10 +53,10 @@ To begin, select the entity and form where you want to add and configure your ti
 
 Timeline is a component and you will need to access **Components** to make timeline configurations. Once you have selected a **Main** form type, the following landing page will appear:
 
-1.	From the left nav, select **Components**.  
-2.    In the left nav, scroll down to the **Timeline** component, then drag and drop in a section on the form. 
-3.	If **Timeline** component is greyed out, it means it already exists on the form. You can only have one timeline per form.
-4.	To remove the **Timeline** component from a form, highlight the inside **Timeline** component area and hit the **Delete** key.  This will remove the **Timeline** component from the form.
+1. From the left nav, select **Components**.  
+2. In the left nav, scroll down to the **Timeline** component, then drag and drop in a section on the form. 
+3. If **Timeline** component is greyed out, it means it already exists on the form. You can only have one timeline per form.
+4. To remove the **Timeline** component from a form, highlight the inside **Timeline** component area and hit the **Delete** key.  This will remove the **Timeline** component from the form.
 
 ![Adding or removing a timeline from an entity form](media\timeline-add-or-remove-entity-from-form-1.png "Adding or removing a timeline from an entity form")
 
@@ -74,16 +65,16 @@ Timeline is a component and you will need to access **Components** to make timel
 ![Adding or removing a timeline from an entity form](media\timeline-add-or-remove-entity-from-form-3.png "Adding or removing a timeline from an entity form")
 
 > [!Note] 
-> Since the timeline component relies exclusively on underlining related data, it will always say Almost there when added to the timeline section. Since we are in a create and/or edit state on the form, there’s no underlining data, therefore the area is blank.
+> Since the timeline component relies exclusively on underlying related data, it will always say Almost there when added to the timeline section. Since we are in a create and/or edit state on the form, there’s no underlying data, therefore the area is blank.
 
 ## Understanding the timeline component on the form
 
 In the body of the entity form located in the center there is an area titled TIMELINE section and within that section is another area titled Timeline.  The following outlines and clarifies the different between these two:     
 
 1.	The outside section (titled **TIMELINE**) is what houses the **Timeline** component. 
-2.	When you click on the **TIMELINE** section, the **Display options** under the **Properties** tab in the right nav change to support the **TIMELINE** section.
+2.	When you select **TIMELINE**, the **Display options** under the **Properties** tab in the right nav change to support the **TIMELINE** section.
 3.	Inside the **TIMELINE** section is where the **Timeline** component is located.
-4.	When you click on the **Timeline** component, the **Display options** under the **Properties** tab in the right nav change to support the **Timeline** component items.
+4.	When you select the **Timeline** component, the **Display options** under the **Properties** tab in the right nav change to support the **Timeline** component items.
 
 ![Understanding the timeline component on the form](media\timeline-component-1.png "Understanding the timeline component on the form")
 
@@ -96,17 +87,17 @@ The timeline component is rich in features and functionality that can be configu
 The following overview provides a detailed breakdown of each timeline feature, what it supports, how it is configured, and how it is displayed in the corresponding timeline section on the entity form:
 
 - **Display options** 
-  - [Timeline component name](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#timeline-component-name)
-  - [Records shown on page](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#records-shown-on-page)
-  - [Record types shown](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#record-types-shown) 
-  - [Advanced](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#advanced)
+  - [Timeline component name](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-timeline-overview#timeline-component-name)
+  - [Records shown on page](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-timeline-overview#records-shown-on-page)
+  - [Record types shown](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-timeline-overview#record-types-shown) 
+  - [Advanced](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-timeline-overview#advanced)
 
 - **Record settings** 
-  - [Activities](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#advanced)
-  -	[Notes](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#notes)
-  -	[Posts](https://docs.microsoft.com/en-us/dynamics365/customer-service/customer-service-hub-timeline-overview#posts)
+  - [Activities](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-timeline-overview#advanced)
+  -	[Notes](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-timeline-overview#notes)
+  -	[Posts](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-timeline-overview#posts)
 
-- **[How to create and add custom activities](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-custom-activity-in-timeline)**
+- **[How to create and add custom activities](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-custom-activity-in-timeline)**
 
 ## Display options 
 
@@ -146,7 +137,7 @@ There are three (3) primary record types which include: activities, notes, and p
 This section allows you to enable these record types to display in timeline. 
 
 1.	To enable **Record types shown** for Activities, Notes, and Posts on a form simply check the box next to the record  type you want to show.
-2.	To confirm the record type is displaying on the form, click on the plus icon (+) in the top right nav in timeline. 
+2.	To confirm the record type is displaying on the form, click on the ![](media\timeline-create-a-record-icon.png "Create a timeline record icon") (Create a timeline record icon) in the top right nav in timeline. 
 3.	A drop down will appear and display the list of enabled record types.
 4.	When you enable **Activities**, you see **Activity** record types: Applications, email, phone calls, tasks on the form.
 5.	When you enable **Notes**, you see Note record types on the form.
@@ -170,7 +161,7 @@ The timeline shows a simple icon before the activity, post, note, and custom ent
 
 ## Advanced
 
-The **Advanced** feature works across and is independent of all record types and is collapsed by default.  Also, when enabling and disabling **Advanced** features you will not be able to view updates (even though it may appear there is activity occurring on the timeline component) until you save and publish your configuration updates and refresh the entity form. 
+The **Advanced** feature works across and is independent of all record types and is collapsed by default. Also, when enabling and disabling **Advanced** features you will not be able to view updates (even though it may appear there is activity occurring on the timeline component) until you save and publish your configuration updates and refresh the entity form. 
 
 **Advanced** covers common settings that span across an activity, note, or post, which are the three (3) primary record types that appear in the timeline section. 
 
@@ -178,7 +169,7 @@ The **Advanced** feature works across and is independent of all record types and
 
 The following is a detailed overview of the **Advanced** configuration options starting with selecting your **quick entry record type**:
 
-1.	Click on **Advanced** to expand this feature in the configuration view.
+1.	Select **Advanced** to expand this feature in the configuration view.
 2.	The **Quick entry record** type provides you with quick access to create either a **Note** or a **Post**.  The default setting for this feature is set to **Notes**.  
 3.	When you select **Notes** it will display under the search bar in timeline. Also, you will see a paperclip icon which allows you to attach files. You can only attach files to Notes.
 4.	When you select **Posts** it will display under the search bar in timeline. 
@@ -204,13 +195,13 @@ You can customize data using the data filters and either choose to keep filters 
 
 a. When the **Filter** icon is transparent on the entity form, it means there are no items that have been chosen to filter by and there the filter is unpopulated.<br>
 
-b. When the **Filter** icon is filled in, it means filters has been selected and set. To view what filters have been selected you can just click on the Filter icon and the display will open showing which filters have been set.</li>
+b. When the **Filter** icon is filled in, it means filters has been selected and set. To view what filters have been selected you can just click on the ![](media\timeline-filter-icon.png "Filter icon") **Filter** icon and the display will open showing which filters have been set.</li>
 
-c. When you click on the **Filter** icon the following list appears.<br> 
+c. When you select the ![](media\timeline-filter-icon.png "Filter icon") **Filter** icon the following list appears.<br> 
 
 d. You can select how you want to filter your data by checking the box next to the filter.<br>
 
-e. You can clear filters by clicking on the **Clear all filters** icon.
+e. You can clear filters by clicking on the ![](media\timeline-clear-all-filters-icon.png "Clear all filters icon") **Clear all filters** icon.
 
 ![Display options - Advanced - How to filter activity types on timeline](media\timeline-how-to-filter-activity-types-display-options-advanced-1.png "Display options - Advanced - How to filter activity types on timeline")
 
@@ -234,13 +225,13 @@ When you use the filter based on an activity status then those activities, notes
 
 **c.** <b>Filter</b> icon is filled in telling you a filter item has been selected.<br>
 
-**d.** To clear filter selections, click on the <b>Clear all filters</b> icon to clear all filters.
+**d.** To clear filter selections, click on the ![](media\timeline-clear-all-filters-icon.png "Clear all filters icon") <b>Clear all filters</b> icon to clear all filters.
 
 ![Display options - Advanced - How to filter activity types on timeline](media\timeline-how-to-filter-activity-types-display-options-advanced-2.png "Display options - Advanced - How to filter activity types on timeline")
 
 ### Expand filter pane 
 
-The **Expand filter pane** feature provides quick access to sorting options withing timeline.  It is enabled by default.
+The **Expand filter pane** feature provides quick access to sorting options within timeline.  It is enabled by default.
 
 9.	The **Expand filter pane by default** feature displays an expanded filter pane at the top of the form anytime it is opened and refreshed and is disabled by default.
 10.	Enable the **Expand filter pane** by checking the box next to the feature.  This will enable the filter pane to appear at the top of the form anytime the form is opened and refreshed.
@@ -264,7 +255,7 @@ You can easily search for records in the timeline. When you search for a phrase 
 
 15.	**Expand all records** is disabled by default.
 16.	Enable the **Expand all records** by checking the box next to the feature, this will now allow records to expand and display in the form by default each time it is opened. 
-17.	To disable **Expand all records**, uncheck the box next to the feature it will no longer display activities in an expanded view.
+17.	To disable **Expand all records**, clear the box next to the feature it will no longer display activities in an expanded view.
 
 ![Display options - Advanced - Expand all records in timeline](media\timeline-expand-all-records-display-options-advanced-1.png "Display options - Advanced - Expand all records in timeline")
 
@@ -292,7 +283,7 @@ If you don’t see a message and the image is not displaying, see [Timeline FAQs
 **What you’ve missed** helps you stay on top of updates and changes made records by displaying updates at the top of the timeline when you access a record. 
 
 18.	The **What you’ve missed** feature displays new records you have not seen and it is disabled by default.
-19.	To enable **What you’ve missed**, click the box next to the feature. Now when you view a customer’s account, a box will appear at the top of the timeline section notifying you updates. 
+19.	To enable **What you’ve missed**, select the box next to the feature. Now when you view a customer’s account, a box will appear at the top of the timeline section notifying you updates. 
 20.	To disable **What you’ve missed**, uncheck the box next to the feature and you will notifications will not display when you access an account.
 
 ![Display options - Advanced - Enable “What you’ve missed” summary](media\timeline-what-you-missed-display-options-advanced-1.png "Display options - Advanced - Enable “What you’ve missed” summary")
@@ -315,8 +306,8 @@ When you expand the **Activities record settings** on the timeline component sec
 
 1.	Click the upward facing caret (^) to expand and view **Activities** under **Record settings**.
 2.	Once expanded, a list of **Activity types** is displayed.
-3.	When you click on an **Activity type** a fly-out appears. 
-4.	To enable an **Activity type**, click the box next to Enable and select Done.
+3.	When you select **Activity type**, a fly-out appears. 
+4.	To enable an **Activity type**, click the box next to **Enable** and select **Done**.
 5.	To disable an **Activity type**, uncheck the box next to **Enable** and select **Done**. This will grey out all other items in the box and disable the activity type from displaying on the timeline.  This also disables the activity type from being created or viewed in timeline.  
 6.	When you enable an **Activity type**, it will appear in a drop down box when you click on the ![](media\timeline-create-a-record-icon.png "Create a timeline record") icon to **Create a timeline record** in the top right nav in the timeline section of the entity record. 
 7.	Also, the **Activity type** can be viewed in the body of the timeline section of the form. 
@@ -346,10 +337,10 @@ Having the ability to quickly click and create an activity such as, an email, ta
 
 ### Create and use card forms in timeline
 
-Records are displayed using the defult setting for each activity type. However, if you want to display record information for an appointment or email, for example, you can either edit the existing card form, use a different card form from record settings, or customize your own. 
+Records are displayed using the default setting for each activity type. However, if you want to display record information for an appointment or email, for example, you can either edit the existing card form, use a different card form from record settings, or customize your own. 
 
 12.	You can change the default card settings to a different card form if one has been created.  
-13.	If you create a new card form, you must go to the parent entity and add the new form of card type there before it will appear in the timeline list for configeration.  If **Default** is displayed, you are not using the card form.  You can not use the **Email card form** in timeline unless you select and publish it first.	
+13.	If you create a new card form, you must go to the parent entity and add the new form of card type there before it will appear in the timeline list for configuration.  If **Default** is displayed, you are not using the card form.  You can not use the **Email card form** in timeline unless you select and publish it first.	
 
 > [!NOTE]
 > Not all activity types allow you to create card types, so the default selection will be you’re only option for those records.
@@ -362,9 +353,9 @@ All card forms are broken out into the following four (4) sections:
 
 **a.** **ColorStrip Section.** This section does not appear on the timeline record. The **ColorStrip** is located on the left of the card form.<br>
 
-**b.** **Header Section.** This section is displayed on the timeline recrod, however only the first two (2) fields are displayed on the timeline record. For this example, only the **Subject** and **Modified On** fields are visible.<br>
+**b.** **Header Section.** This section is displayed on the timeline record, however only the first two fields are displayed on the timeline record. For this example, only the **Subject** and **Modified On** fields are visible.<br>
 
-**c.** **Details Section.** This section is displayed on timeline record, however only the first three (3) fields are displayed on the timeline record. For this example, only the **To**, **CC**, and **Description** fields are visible on the timeline record.<br>
+**c.** **Details Section.** This section is displayed on timeline record, however only the first three fields are displayed on the timeline record. For this example, only the **To**, **CC**, and **Description** fields are visible on the timeline record.<br>
 
 **d.** **Footer Section.**	This section is not displayed on the timeline record.<br>
 
@@ -372,7 +363,7 @@ All card forms are broken out into the following four (4) sections:
 
 ![Display options - Advanced - How to customize a card from in timeline](media\timeline-customize-card-form-display-option-advanced-1.png "Display options - Advanced - How to customize a card from in timeline")
 
-Each indvidual card form has to be customized for each activity record such as email, tasks, posts, etc. 
+Each individual card form has to be customized for each activity record such as email, tasks, posts, etc. 
 
 **Header Section**<br>
 The displays the title/subject in your timeline email form. You can have up to six (6) fields in the Header section, only the first two (2) fields will be seen on the timeline record. Also empty fields will be ignored by the form in all sections.<br>
@@ -387,11 +378,11 @@ The displays the title/subject in your timeline email form. You can have up to s
 This displays in the body of your the timeline email record. You can have up to four (4) fields in the **Detail** section, but only the first three (3) fields are seen on the timeline record.
 
 <ol>
-<b>h.	Details - Field 1.</b> As before, regardless of the field you choose, this field will always appear below the Header - Field 1 as a sub-header on the timeline record. For this example we selected <b>To</b> for this field. <!--Depending on the font setting in your browser, the font for this section will display differently.--><br>
+<b>h.	Details - Field 1.</b> As before, regardless of the field you choose, this field will always appear below the Header - Field 1 as a sub-header on the timeline record. For this example we selected <b>To</b> for this field.<br>
 
 **i.**	**Details - Field 2.** This field will display one line of text in a summary view on the timeline record.  When you expand your timeline record,  content in this field is fully displayed with format. For this example we selected **CC** for this field.<br>
 
-**j.**	**Details - Field 3.** This field follows the content in Details -Field 2 and is part of the main body of your timline record that is only viewable when you expand the record. For this example we selected **Description** for this field.
+**j.**	**Details - Field 3.** This field follows the content in Details -Field 2 and is part of the main body of your timeline record that is only viewable when you expand the record. For this example we selected **Description** for this field.
 </ol>
 
 **Footer Section**<br>
@@ -402,22 +393,22 @@ This section is not visible on the timeline record.
 
 **l.**	**Footer – Field 2.** For this example we selected **Regarding** for this field.<br>
 
-**m.**	**Footer – Field 3.** For this example we selected **Priortiy** for this field.
+**m.**	**Footer – Field 3.** For this example we selected **Priority** for this field.
 </ol>
 
 ![Display options - Advanced - How to customize a card from in timeline](media\timeline-how-to-configure-activity-record-types-display-options-advanced-2.png "Display options - Advanced - How to customize a card from in timeline")
 
 ### How to set date in the sort activities by feature in timeline
 
-How you view data is important and setting a default display view of your data varies based on the needs of your business. Admins can choose how data is sorted and create a default sort setting for **Activity types** in **Record settings**. **Last Updated** is on all activities which is why it is set as the default in accending order.    
+How you view data is important and setting a default display view of your data varies based on the needs of your business. Admins can choose how data is sorted and create a default sort setting for **Activity types** in **Record settings**. **Last Updated** is on all activities which is why it is set as the default in ascending order.    
 
 14.	The **Sort activity by** feature in the **Activities record settings** allows you to control how data is sorted in timeline.  
-15.	When you click on the **Sort activities by** field, a list appears. You can select from this list how you want your data to be sorted and displayed on timeline in the form.
+15.	When you select the **Sort activities by** field, a list appears. You can select from this list how you want your data to be sorted and displayed on timeline in the form.
 
 There are some unique date fields, for example:<br> 
 
 <ol>
-16a. <b>Date sent.</b> This only occures in email. If you sort by Date sent, most activities will not contain a Date Sent and therefore will be grouped together without any ordering.<br>
+16a. <b>Date sent.</b> This only occurs in email. If you sort by Date sent, most activities will not contain a Date Sent and therefore will be grouped together without any ordering.<br>
 
 16b. **Sort date.**  You cannot create a custom date field.  If you create one, it will not display, so in answer to this, **Sort date** was created.  It does not have a value and therefore allows you to choose your own.  Is empty by default.
 </ol>
@@ -434,11 +425,11 @@ There are some unique date fields, for example:<br>
 
 The **Create activities** feature allows you to choose which type of form you want to work in based on your business needs.  
 
-- **Quick create form** appears in a model on the right. There are some activities which do not support quick create that will always use email for example. For more information, see [Create or edit model-driven app quick create forms for a streamlined data entry experience](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-edit-quick-create-forms).
+- **Quick create form** appears in a model on the right. There are some activities which do not support quick create that will always use email for example. For more information, see [Create or edit model-driven app quick create forms for a streamlined data entry experience](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-edit-quick-create-forms).
 
-- **Main form** navigates you to the activity entity main form. For more information, see [Create or edit a model-driven app main form for an entity](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-edit-main-forms).
+- **Main form** navigates you to the activity entity main form. For more information, see [Create or edit a model-driven app main form for an entity](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-edit-main-forms).
 
-17.	 Click on **Create activities** using feature to select either a **Quick create form** or **Main form**.
+17.	 Select **Create activities** using feature to select either a **Quick create form** or **Main form**.
 
 > [!NOTE]
 > If a **quick create** form for an activity has not been created, then the main form will be used. If **quick create** form is not supported, such as with email, the **main form** will always be used. 
@@ -447,41 +438,39 @@ The **Create activities** feature allows you to choose which type of form you wa
 
 ### Timeline performance impacts
 
-You only want to enable activites that you need on this form. When working with 10 or more **Activity types**, you will receive a warning notice letting you know the number of activity types you have selected impacts the performance speed on your timeline.  To improve timeline performance speed, consider limiting activity types to 10 or less. 
+You only want to enable activities that you need on this form. When working with 10 or more **Activity types**, you will receive a warning notice letting you know the number of activity types you have selected impacts the performance speed on your timeline.  To improve timeline performance speed, consider limiting activity types to 10 or less. 
 
 18.	Warning notice will display when you select more than 10 activity types
 
 ![Display options - Advanced - Timeline performance impacts](media\timeline-performance-impacts-1.png "Display options - Advanced - Timeline performance impacts")
 
-## Posts on timeline
-
-You can enable sort fields on **Posts**.
-
-1.	Sort **Posts** by **Date created** fields. **Date created** on **Post** is enabled by default.
-2.	Enable **Date created** by clicking the check box next to the **Posts** feature
-3.	Disable **Date created** by unclicking the check box next to the **Posts** feature
-4.	Enable **Posts** with **Date created** on timeline
-
-![Posts on timeline](media\timeline-posts-1.png "Posts on timeline")
-
-
 ## Notes on timeline
 
-You can enable sort fields on **Notes**.
+Additional functionality will be provided. You can enable sort fields on **Notes**.
 
-1. **Enable Date** created by clicking the check box next to the **Notes** feature
-2. Disable **Date created** by unclicking the check box next to the **Notes** feature
-3. Enable **Notes** with **Date created** on timeline
-4. Once enabled, you can now click on the + icon 
-5. Flyout will appear. 
-6. Select **Notes**
-7. Begin writing your **Note** using rich text and just click **Add Note** at the bottom to save.
+1. Select **Notes**
+2. The section will expanded you will see **Coming soon** which indicates you have **Notes** enabled. 
+3. Once enabled, you can now click on the ![](media\timeline-create-a-record-icon.png "Create a timeline record") (Create a timeline record) icon 
+4. Flyout will appear. Select **Notes**
+5. Begin writing your **Note** using rich text and just click **Add Note** at the bottom to save.
 
 ![Notes on timeline](media\timeline-notes-1.png "Notes on timeline")
 
 ### How to create and add custom activities to timeline
 
-You can create custom entities to display on the timeline by enabling specific options during the creation of the entity. See the [How to create and add custom activities](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-custom-activity-in-timeline) for a step by step guide.
+You can create custom entities to display on the timeline by enabling specific options during the creation of the entity. See the [How to create and add custom activities](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-custom-activity-in-timeline) for a step by step guide.
+
+## Posts on timeline
+
+You can enable sort fields on **Posts**.
+
+1. Select **Post**
+2. The section will expanded you will see **Coming soon** which indicates you have **Post** enabled. 
+3. Once enabled, you can now click on the ![](media\timeline-create-a-record-icon.png "Create a timeline record") (Create a timeline record) icon 
+4. Flyout will appear. Select **Posts**
+5. Begin writing your **Post**.
+
+![Posts on timeline](media\timeline-posts-1.png "Posts on timeline")
 
 ### Save and publish timeline updates and changes
 
@@ -494,10 +483,10 @@ Before you can view any configuration changes on the entity form, you must save 
 
 ### How to configure dashboard timelines
 
-Timelines can be configured and put on a dashboard. However, dashboards are not supported by Power Apps and therefore can only be use in the [name of the legacy experience – ask Shubhada]. For more information see [Set up timeline section (control)](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/set-up-timeline-control).
+Timelines can be configured and put on a dashboard. However, dashboards are not supported by Power Apps and therefore can only be use in the [name of the legacy experience – ask Shubhada]. For more information see [Set up timeline section (control)](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control).
 
 > [!NOTE]
-> Capabilities on a dashboard timeline are different than those in an embedded dashboard timeline.  For more information see [Create or edit model-driven app dashboards](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-edit-dashboards).
+> Capabilities on a dashboard timeline are different than those in an embedded dashboard timeline.  For more information see [Create or edit model-driven app dashboards](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-edit-dashboards).
 
 ### See Also
 
