@@ -25,4 +25,9 @@ Welcome to the Customer Service workspace app module where we're increasing agen
 
 If you have used Customer Service Hub before, must of the Customer Service workspace app module functionaliy works in exactly the same way with some exceptions to accomodate the multisession and conversation capabilities. In this article we will walk through the Customer Service workspace experience and explain how to navigate. 
 
-Before we dive in, a quick note about administration. There is not a dedicated Administrator experience for Customer Service workspace. As such, core customer service capabilities such as managing queues and routing rules is done in the Service Manager experience in Customer Service Hub. Chat and channel configuration is done in Omnichannel Administration. Because all of these apps are on the Common Data Service (CDS), the data created through these experiences is accessible. 
+Before we dive in, a quick note about administration of Customer Service workspace. There is not a dedicated Administrator experience for Customer Service workspace. As such, core customer service capabilities such as managing queues and routing rules is done in the Service Manager experience in Customer Service Hub. Chat and channel configuration is done in Omnichannel Administration. Because all of these apps are on the Common Data Service (CDS), the data created through these experiences is accessible. 
+
+Let's take a look at the Customer Service workspace experience: 
+As an agent, when you open Customer Service workspace you start on the Customer Service Agent Dashboard. This dashboard shows you your active cases
+1. The Home link always brings you back to the Customer Service Agent Dashboard. 
+
