@@ -34,7 +34,7 @@ search.app:
 
 ## Prerequisites
 
-- Connect to Maps set to Yes in Resource Scheduling App > Settings > Administration > Scheduling Parameters.
+- Connect to Maps set to Yes in **Resource Scheduling App > Settings > Administration > Scheduling Parameters**.
 - Predictive travel times that use historical data is only available for scheduling with Resource Scheduling Optimization (RSO) and not the schedule assistant or manual scheduling.
 - Deploy RSO
 - Configure RSO
@@ -45,8 +45,6 @@ search.app:
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-predictive-travel-flag.png)
-
-
 
 
 ## Set Range duration to 1 day or less on Optimization Scope
@@ -82,12 +80,13 @@ With predicitve travel times - the estimated travel times are recalculated and t
 - Predictive travel time can only be applied to Optimization Scopes with less than 500 requirements _and_ 500 resources during Early Access. If your Optimization Scope exceeds this threshold RSO will still run but without predictive travel times. If you have more resources or requirements it is recommended to split the scope into smaller scopes and apply predictive travel time to each related Optimization Goal.
 
 - It is not recommended to use predictive travel with [Single Resource Optimization (SRO)](link) but it is not prohibited. This is accomplished by adding the Travel Time Calculation to the default goal for SRO. However, due to increased run times when using predictive travel, you will have to evaulate if this meets your business needs. 
-- RSO only. not available with schedule assistant or manual scheduling
-- Custom Map provider
+
+- Predictive travel times is only available for Bing Maps. If your organization has set up [custom map providers](https://docs.microsoft.com/en-us/dynamics365/common-scheduler/developer/use-preferred-geospatial-data-provider) and wants travel times calculated via the custom provider, it is recommended to set the Travel Time Calculation to **Bing Maps without historical traffic**. Otherwise the **Bing Maps with historical traffic** will always use Bing Maps.
 
 ## Additional Notes
-- this feature can result in different travel times and different squences of schedules
-- performance cost
-- not realtime 
+
+- Running RSO with predictive travel times can result in different travel times and different squences of schedules.
+
+- **Predictive travel time is not realtime traffic**. This means the travel times will not reflect one-time events like traffic accidents or road closures. Instead this feature will take into account general traffic patterns like high volumes of cars in the morning when many people are commuting to work.
 
 
