@@ -54,7 +54,6 @@ If you want to help your customers using social channels, you can use the social
 
 If you want to help your customers using social channels that are not supported as standard channels, you can use the custom channels.
 
-- Kik
 - Telegram
 
 To learn more, see [Configure custom messaging applications](configure-custom-channel.md).
