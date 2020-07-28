@@ -57,7 +57,7 @@ If you want to help your customers using social channels that are not supported 
 - Kik
 - Telegram
 
-To learn more, see [Configure custom messaging application](configure-custom-channel.md).
+To learn more, see [Configure custom messaging applications](configure-custom-channel.md).
 
 If you want to help your customers using your Line of Business (in-house) messaging channels, you can use the Direct Line Bot Framework method.
 
