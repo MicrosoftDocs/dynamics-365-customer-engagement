@@ -48,7 +48,7 @@ Before running the migration tool, it is important to understand and familiarize
 
 When performing your migration, you will only receive detailed results on rules which have failed the pre-migration checkup, creation or was partially migrated (incomplete).  
 
-To learn more about how to create rules in the Customer Service Hub app, see [Automatically create or update records in Customer Service Hub](https://docs.microsoft.com/en-us/dynamics365/customer-service/automatically-create-update-records) and [Define service-level agreements](https://docs.microsoft.com/en-us/dynamics365/customer-service/define-service-level-agreements) for more information.
+To learn more about how to create rules in the Customer Service Hub app, see [Automatically create or update records in Customer Service Hub](automatically-create-update-records.md) and [Define service-level agreements](define-service-level-agreements.md) for more information.
 
 > ![Note]
 > Once you have successfully migrated a rule, any edits made to that rule on the web client will not be visible in UCI. It must be explicitly deleted in UCI and migrated again for those edits to be visable in UCI.
@@ -343,11 +343,11 @@ Once migration is complete you can uninstall the migration tool.  After General 
 
 [Migration Tool FAQs](migrate-tool-faqs.md)
 
-[Set up rules to automatically create or update records](https://docs.microsoft.com/en-us/dynamics365/customer-service/set-up-rules-to-automatically-create-or-update-records)
+[Set up rules to automatically create or update records](set-up-rules-to-automatically-create-or-update-records.md)
 
-[Define service-level agreements](https://docs.microsoft.com/en-us/dynamics365/customer-service/define-service-level-agreements)
+[Define service-level agreements](define-service-level-agreements.md)
 
-[Important changes (deprecations) coming](https://docs.microsoft.com/en-us/power-platform/important-changes-coming) 
+[Important changes (deprecations) coming](https://docs.microsoft.com/power-platform/important-changes-coming) 
 
 
 
