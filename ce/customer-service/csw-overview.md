@@ -34,6 +34,9 @@ Let's explore how to navigate in Customer Service workspace:
 - Using shift + click on any item (case or activity) creates a new session for that item in the session panel. 
 - Single clicking on any item causes the item to take over the tab you are currently in. You can always click the back arrow by the tab name to go back.
 
+# Overview of the Customer Service workspace Home experience
+:::image type="content" source="media/csw-overview.png" alt-text="Customer Service workspace overview" border="false":::
+
 Working with Cases
 
 Working with Activities
