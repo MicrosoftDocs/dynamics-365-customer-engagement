@@ -99,14 +99,13 @@ ms.custom:
 </tr>
 
 <tr>
-<td><h2>FAQ</h2>
+<td><h2>FAQs</h2>
 <ul>
 <li><a href="email-faqs.md" data-raw-source="[Email FAQs](email-faqs.md)">Email FAQs</a></li>
 <li><a href="migration-tool-faqs.md" data-raw-source="[Migration Tool FAQs](migration-tool-faqs.md)">Migration Tool FAQs</a></li>
-<li><a href="migrate-tool-faqs.md" data-raw-source="[Omnichannel for Customer Service FAQs](migrate-tool-faqs.md)">Omnichannel for Customer Service FAQs</a></li>
-<li><a href="service-scheduling-faq.md" data-raw-source="[Service Scheduling FAQs](service-scheduling-faq.md)">Service Scheduling FAQs</a></li>
-
-<li><a href="timeline-faqs.md"data-raw-source="[Timeline FAQs](timeline-faqs.md)">Timeline FAQs</a></li>
+<li><a href="https://docs.microsoft.com/dynamics365/omnichannel/faqs" data-raw-source="[Omnichannel for Customer Service FAQs](https://docs.microsoft.com/dynamics365/omnichannel/faqs)">Omnichannel for Customer Service FAQs</a></li>
+<li><a href="service-scheduling-faq.md" data-raw-source="[Service Scheduling FAQs](service-scheduling-faq.md)">Service Scheduling FAQ</a></li>
+<li><a href="timeline-faqs.md" data-raw-source="[Timeline FAQs](timeline-faqs.md)">Timeline FAQs</a></li>
 </ul>
 </td>
 
