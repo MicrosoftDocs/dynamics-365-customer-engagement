@@ -21,11 +21,11 @@ search.app:
 
 [Public Preview]
 
-The Customer Service Hub app has several features and functionalities that replace the items in the legacy Customer Service app. The rules for Automatic Record Creation (ARC) and Service Level Agreements (SLAs) are now supported by Power Automate based flows to make the transition to the new platform easier to manage.
+The Customer Service Hub app has several features and functionalities that replace the rules in the legacy Customer Service app. The rules for Automatic Record Creation (ARC) and Service Level Agreements (SLAs) are now supported by Power Automate based flows to make the transition to the new platform easier to manage.
 
 The following topic provides an overview on the migration tool that allows legacy rules for ARC and SLAs to be transferred to the Customer Service Hub app for easier access.
 
-Based on feedback, we have made a number of improvements to the migration tool. The migration tool is designed to migrate the existing legacy rules to Unified Customer Interface (UCI) ensuring all the rules, respective items, and actions get converted accordingly to suit the UCI format. This includes conversion of workflow to Power Automate based flow as well.
+Based on feedback, we have made a number of improvements to the migration tool. The migration tool is designed to migrate the existing legacy rules to Unified Customer Interface (UCI) ensuring all the rules, items, and actions get converted accordingly to suit the UCI format. This includes conversion of workflow to Power Automate based flow as well.
 
 The migration tool provides the following:
 - Ability to run the migration tool multiple times and see what your status looks like at any point in time.
@@ -82,7 +82,7 @@ Admins can access the migration tool using the following steps:
 
 The migration process is broken out into the following six steps:
 
-**Step 1: Category to migrate.**  Allows you to pick and choose which items you wish to migrate.
+**Step 1: Category to migrate.**  Allows you to pick and choose which rules you wish to migrate.
 
 **Step 2: Pre-migration checkup.** This enhancement to the migration process which provides insights into any potential migration failures you may incur prior to beginning your migration.    
 
@@ -107,7 +107,7 @@ The migration landing page shown below is what will display for first time users
 1.	An overview of both ARC and SLAs rules
 2.	**Total** displays the number of legacy rules available overall
 3.	**Migrated** displays the number of rules you have completely migrated
-4.	**Pending** displays the number of items you have pending migration (includes failed rules, partially/incomplete migrated rules, and rules which have not been attempted)
+4.	**Pending** displays the number of rules you have pending migration (includes failed rules, partially/incomplete migrated rules, and rules which have not been attempted)
 5.	**Migration status** displays whether migration has started or not
 6.	**Refresh** allows you update migration status
 7.	**Start migration** allows you to being migration process
@@ -128,7 +128,7 @@ Once you select **Start migration**, the migration tool will begin taking you th
 **Step 1** screen provides:
 
 1.	A tracker will be displayed on the left, showing you where you are in the migration process at all times.
-2.	Category options that allows you to select which items you want to migrate by clicking a box.  You can elect to migrate ARC and SLAs separately, or migrate both at the same time. 
+2.	Category options that allows you to select which rules you want to migrate by clicking a box.  You can elect to migrate ARC and SLAs separately, or migrate both at the same time. 
 3.	You must select a category for migration before you can proceed.   
 
 > ![Migration Tool for first time user - Step 1](media\migration-tool-step-1-first-time-users-1.png "Migration Tool for first time user - Step 1")
@@ -209,29 +209,29 @@ Once you have selected the rules you want to migrate for ARC and/or SLAs a list 
 Once you begin your migration, the following screen will appear that displays:
 
 1. The message that your migration is in progress.
-2. The **Back** button is disabled when the migration is in process.	
+2. The **Next** button is disabled during the migration process.	Once migration is completed you will be taking to the next step automatically.
 
-> ![Migration Tool for first time user - Step 5](media\migration-tool-step-5-first-time-users-1.png "Migration Tool for first time user - Step 5")
+> ![Migration Tool for first time user - Step 5](media\migration-tool-step-5-first-time-users-1.png
+ "Migration Tool for first time user - Step 5")
 
 Once migration is complete the following screen will appear that includes:
 
-1.	**Selected** displays the total number of rules migrated
-2.	**Migrated** displays the total number of rules that successfully completed migration process.
+1.	**Selected** displays the total number of rules that were selected for the current migration run.
+2.	**Migrated** displays the total number of rules that successfully completed migration.
 3.	**Incomplete** displays the total number of rules that encountered errors which did not complete the migration process successfully. See [Incomplete Migration Details](#incomplete-migration-details) for more information.
 4.	**Migration Status** displays either green check mark ![green check mark](media\migration-tool-step-5-green-check-first-time-users-3.png "green check mark")  which represents rules successfully migrated or a red exclamation mark ![red exclamation mark](media\migration-tool-step-5-red-check-first-time-users-3.png "red exclamation mark")   which represents some or all rules did not successfully complete migration.
-5.	**Refresh** allows you to update results.
-6.	**Finish** completes the migration process when completed.
+5.	**Finish** completes the migration process when completed.
 
 > ![Migration Tool for first time user - Step 5](media\migration-tool-step-5-first-time-users-2.png "Migration Tool for first time user - Step 5")
 
-### Incomplete Migration Details
+### Incomplete migration details
 
 To view ARC and/or SLAs rules that did not successfully complete migration, you can click on **Incomplete** in the **Migration status** section and a list will be displayed of all the rules that did not pass, including:  
 
 1.	**Name** displays each individual rule that failed.
 2.	**Migration Status** displays whether rule successfully Migrated or was unsuccessful and therefore Incomplete.
-3.	**Problem Details** displays why rule failed migration and provides a UCI and legacy rule ID. 
-4.	**Download log** allows you to download and save a detailed copy of each rule that failed for review and troubleshooting.  
+3.	**Problem Details** displays why the rule failed and has a **Download log** option which provides more details.
+4.	**Download all logs** allows you to download a list of all the rules that failed migration for review and troubleshooting.  
 
 > ![Migration Tool for first time user - Step 5 Incomplete migration details](media\migration-tool-step-5-first-time-users-3.png "Migration Tool for first time user - Step 5 Incomplete migration details")
 
@@ -239,53 +239,66 @@ To view ARC and/or SLAs rules that did not successfully complete migration, you 
 
 Now that you have completed your first run, and select **Finish**, a migration **Summary** page will appear:
 
-1.	**Total** displays the number or rules.
-2.	**Migrated** displays the number of rules that were successfully migrated.
-3.	**Pending** displays the number of rules that were not successfully migrated.
-4.	**Refresh** allows you to update your status view.
-5.	**Activate** you new rules and items allows you activate migrated rules. See [Activate New Rules](#activate-new-rules) for more information. 
+1.	**Total** displays the number of legacy rules present overall.
+2.	**Migrated** displays the number of rules you have completely migrated to date.
+3.	**Pending** displays the number of rules you have pending migration (includes failed rules, partially/incomplete migrated rules, and rules which have not been attempted)
+4.	**Refresh** allows you view your update migration status.
+5.	**Next Step** section provides you with links to all the ARC and SLA rules where you can review the migrated rules and choose to activate them. See [Activate New Rules](#activate-new-rules) for more information. 
 
 > ![Migration Tool for first time user - Step 6](media\migration-tool-step-6-first-time-users-1.png "Migration Tool for first time user - Step 6")
 
-## Activate New Rules
+## Review and activate migrated rules
 
-When you activate new rules for either ARC or SLA you are taken to the following screen that includes:
+Once you activate new rules for either ARC or SLA you are taken to the following screen:
 
-1.	**Rule name** displays listing of all your rules.
-2.	**Migration status** displays whether the rule has not started migration, completed migration as identified as **Migrated**, or did not complete migration as indicated by **Incomplete**.
+1.	**Rule name** displays migrated rules with an underscore (_), for example: **_migrated** for easy identification of migrated rules.
 
 > ![Migration Tool for first time user - Step 6 Activate New Rules](media\migration-tool-step-6-first-time-users-2.png "Migration Tool for first time user - Step 6 Activate New Rules")
 
-If you have any rules listed as **Incomplete** in the **Migration** status, they will need to be reviewed. When you click on the **Rule** name go to **Advanced** section to the **Migration detail** section:
+### Migration detail section
 
-1.	**Mark as complete** appears after migration in the **Migration details** section. Once you review the rule allows you to confirm the rule is good to go and run the rule through migration again in an attempt to complete the migration successfully. This serves as a confirmation that the Admin has reviewed this rule and it is ready to be migrated.    
-2.	After moving **Mark as complete** to **Yes**, your rule **Migration status** will display as **Migrated**.
+#### Working with partially migrated rules
+
+When you click on a **Rule name** ending in **_migrated** a screen will appear:
+
+1.  Go to the **Migration details** tab 
+2.	**Mark as complete**. This field contains a toggle feature.  The toggle is used to identify whether a rule has either completed migration (**Yes**), or has not completed and/or has only paritally completed migration (**No**).  <BR><BR> The Admin can review the incomplete rule and choose to resolve the issue and move the toggle to **Yes**, which then updates the migration status to **Migrated**. 
+
+    > [!Note]
+    > - When an Admin moves the toggle to **Yes** this serves as a confirmation that the rule has been successfully migrated and therefore will not be picked up in subsequent migration runs.
+    > - If the Admin does not take any action on an incomplete rule, the rule will continue to be picked up in subsequent migration runs. Also, the rule will be replaced when chosen to migrate again. 
+3. **Migration status**. This displays the status of the rule as either **Migrated** or **Incomplete**.
+4. **Problem details**. This provides a high level detail on the error(s) encountered on the rule during migration. 
 
 > ![Migration Tool for first time user - Step 6 Migration Status](media\migration-tool-step-6-first-time-users-3.png "Migration Tool for first time user - Step 6 Migration Status")
 
-> [!NOTE]
-> The same functionality is provided for SLA, only the Migration details are displayed under the Basic section since SLA does not have an Advanced section.  
+#### Working with successfully migrated rules
+
+1. **Mark as complete**. The toggle is set to **Yes** by default.
+2. **Migration status**. This displays the status of the rule as either **Migrated** or **Incomplete**.
+
+> ![Migration Tool for first time user - Step 6 Migration Status](media\migration-tool-step-6-first-time-users-3a.png "Migration Tool for first time user - Step 6 Migration Status")
 
 ## Migration Tool for Experienced Users
 
 If you have already been through the migration process, your experience will be very similar to that of the first time user, with a few exceptions.   
 
-1.	**Migration tool.** Access the migration tool as before under the Data management section.
-2.	**Previous migration data.**  Since you have been through the migration process before, your Summary page will already have data displayed. 
-3.	**Start.** To begin the migration process select Start to continue. 
+1.	**ARC and SLA Migration tool.** Access the migration tool as before under the Data management section.
+2.	**Previous migration data.**  Since you have been through the migration process before, your **Summary page** will have updated data based on previous migration. 
+3.	**Start migration.** To begin the migration process select Start to continue. 
 
 > ![Migration Tool for experienced users](media\migration-tool-step-1-experienced-users-1.png "Migration Tool for experienced users")
 
 ## Step 1: Category to migrate.  (Experienced User)
 
-This step allows you to pick and choose which items you wish to migrate.
+This step allows you to pick and choose which rules you wish to migrate.
 
 ## Step 2: Pre-migration checkup. (Experienced User)
 
 When preparing to rerun the **Pre-migration checkup** process step it will only review the rules that did not pass before. You can download the details provided to troubleshoot errors and make updates in the Unified Interface or legacy system before you rerun your migration.
 
 1.	**Yellow notification message** reminds you that rules that were successfully migrated previously will automatically be skipped in a rerun of the pre-migration checkup process.  This includes rules that were confirmed by the Admin as well.
-2.	**Failed.** The pre-migration checkup process will only focus on running rules that have not been migrated, were not selected previously, or did not complete the migration process due to errors.
+2.	**Total** shows the number of rules that are available for migration. The pre-migration checkup process will only focus on running rules that have not been migrated completely, not attempted previously, or failed to create which is reflected in the total count.
 
 > ![Migration Tool for experienced users - step 2](media\migration-tool-step-2-experienced-users-1.png "Migration Tool for experienced users - step 2")
 
@@ -294,8 +307,8 @@ When preparing to rerun the **Pre-migration checkup** process step it will only 
 This step allows you to select which rules you want to migrate on the following screen, which includes:
  
 1.	**Migrate all rules** allows you to override all previous selections.
-2.	**Checkup Results** displays if your rule passed or failed migration.
-3.	**Failed** rules can be reviewed by selecting the rule which failed to troubleshoot the issue.
+2.	**Checkup Results** displays if your rule passed or failed the pre-migration.
+3.	**Failed** rules can be reviewed by selecting the rules which failed.
 4.	**Download all logs** to see each individual problem detail.
 
 > ![Migration Tool for experienced users - step 3](media\migration-tool-step-3-experienced-users-1.png "Migration Tool for experienced users - step 3")
