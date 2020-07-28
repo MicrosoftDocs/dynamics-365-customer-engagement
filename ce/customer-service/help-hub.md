@@ -99,9 +99,10 @@ ms.custom:
 </tr>
 
 <tr>
-<td><h2>FAQ</h2>
+<td><h2>FAQs</h2>
 <ul>
 <li><a href="service-scheduling-faq.md" data-raw-source="[Service Scheduling FAQ](service-scheduling-faq.md)">Service Scheduling FAQ</a></li>
+<li><a href="timeline-faqs.md" data-raw-source="[Timeline FAQs](timeline-faqs.md)">Timeline FAQs</a></li>
 </ul>
 </td>
 

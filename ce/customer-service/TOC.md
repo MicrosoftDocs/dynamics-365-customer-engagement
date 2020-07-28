@@ -15,6 +15,9 @@
 ### Customer Service Hub
 #### [Introduction to Customer Service Hub](user-guide-customer-service-hub.md)
 #### [Learn the basics](customer-service-hub-user-guide-basics.md)
+#### Work with timeline
+##### [Use timeline](customer-service-hub-user-guide-timeline-overview.md)
+##### [Configure timeline](customer-service-hub-user-guide-timeline-admin.md)
 
 #### Work with cases
 ##### [Create a case](customer-service-hub-user-guide-create-a-case.md)
@@ -158,6 +161,8 @@
 ### [Issue converting an email to a case](troubleshoot-case-email-issue.md)
 ### [SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday](troubleshoot-sla-timer-issue.md)
 ### [Unable to delete a managed solution consisting an SLA enabled entity](troubleshoot-delete-managed-solution.md)
+### FAQs
+#### [Timeline FAQs](timeline-faqs.md) 
 
 ## Developer guide
 ### [Work with knowledge articles](work-knowledge-articles.md)
