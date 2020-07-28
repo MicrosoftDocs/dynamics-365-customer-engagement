@@ -17,39 +17,39 @@ search.app:
   - D365CS
 ---
 
-# Enable AI suggestions for similar cases and knowledge articles
+# Preview: Enable AI suggestions for similar cases and knowledge articles
 
 [!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-## Introduction
+With the use of AI, suggestions about similar cases that were previously resolved successfully help agents find the right solutions quickly, increase agent productivity, and provide better and faster service to customers.
 
-With the use of AI, suggestions about similar cases help agents find the right solutions quickly, increase agent productivity, and provide better and faster service to customers. The AI model has the capability to process up to one million most recent cases for listing them at run time.
+The key highlights of the feature are as follows:
 
-<!-- Xiaoying's comment: we can leverage what's in the release note to cover more about the business value and problem to solve in the introduction section. For example: 
-"Agents typically use several resources to efficiently resolve customer cases and provide consistent responses. These include knowledge articles, collaborating with other agents or experts, and reviewing active or successfully resolved similar cases. Without artificial intelligence, agents spend time searching for and scanning knowledge articles to determine if they are relevant to the active case they are working on. This delays customer service and resolution time. Using AI helps proactively surface the best knowledge articles and similar cases by parsing through thousands of published articles and resolved cases, taking case context and previous history into account. It helps to quickly increase agent productivity, and provide better and faster service to customers."
--->
+- AI-driven case and knowledge articles suggestions based on case context and historical success rate.
+- Secondary actions that agents can take, such as collaborate with an expert, after a similar case has been found.
+- Capability of the AI model to process up to one million most recent cases for listing them at run time.
+- Continuous improvement of the recommendation model through comprehensive feedback mechanism.
 
 > [!NOTE]
-> The feature is available only in organizations that have the base language as English and supports only English content.
+> The AI suggestions feature supports only English content and is available only in organizations that have the base language set as English.
 
 ## How AI suggestions for similar cases and knowledge articles works
 
-<!-- Xiaoying's comments: proposed content:
-AI suggestions are powered by a set of pre-trained natural language understanding models that help agents to quickly find relevant knowledge articles or similar cases based on the active case context. The AI models enable the following capabilities:
-- Knowledge articles and similar cases can be suggested based on the sementic meaning in case context and knowledge article content. The model pre-processes published knowledge articles and resolved cases every day to prepare suggestion candidates. After a case is created or updated, the model quickly finds out matching knowledge articles and similar cases from suggestion candidates. 
-- A brief summary is auto-generated for each pre-processed knowledge article based on its content. When a knowledge article is suggested, both article title and the auto-generated summary are surfaced to agents, which helps them to get a better idea about the article before agent clicks through it. 
-- In addition to the suggestions, agents can also tell why an article or similar case is suggested through a list of key phrases that are auto-extracted from knowledge articles and cases. These key phrases highlights the relevance between a suggestion and an active case, in addition to the confidence score (which is a percentage number that indicates the degree to which an article or similar case matches with the active case).  
--->
+AI suggestions are powered by a set of pre-trained natural language understanding models that help agents find relevant knowledge articles or similar cases quickly, based on the active case context. After you enable the settings, it might take up to 24 hours for the models to process data and complete the first time setup. The AI models enable the following capabilities:
+
+- Knowledge articles and similar cases can be suggested based on the semantic meaning in case context and knowledge article content. The model pre-processes published knowledge articles and resolved cases every day to prepare suggestion candidates. After a case is created or updated, the model quickly finds out matching knowledge articles and similar cases from suggestion candidates.
+- A brief summary is auto-generated for each pre-processed knowledge article based on its content. When a knowledge article is suggested, both article title and the auto-generated summary are surfaced to agents, which helps them to get a better idea about the article before agent clicks through it.
+- In addition to the suggestions, agents can also tell why an article or similar case is suggested through a list of key phrases that are auto-extracted from knowledge articles and cases. These key phrases highlights the relevance between a suggestion and an active case, in addition to the confidence score (which is a percentage number that indicates the degree to which an article or similar case matches with the active case).
+
+> [!NOTE]
+> After you enable or disable the settings, they will be in place only after agents refresh or reopen their browser and not in the currently active sessions nor on session switch.
 
 ## Prerequisites
 
-- *We shouldn't list Customer Service Workspace as a prerequisite to the tasks that need to be performed in this section because these tasks are not dependent on the availability of CSW.*
-<!-- Xiaoying's comment: it is a prerequisite that we should list here. otherwise, the entry to the settings page will be disabled and admins can't configure it. With listing Customer Service Workspace as a prereqiste here, it's also good to provide a link to the relevant doc how admins can install the app. -->
+Make sure that the following requirements are met:
 
-- *Any roles that are required?*
-<!-- Xiaoying's comment: it requires the admin role-->
-<!-- Xiaoying's comment: in addition, the feature is only available to organizations with base language as English. Maybe add a note here or seperately that the feature only supports English content in this release. -->
-<!-- Xiaoying's comment: also add a note about the geo availability, i.e. the feature is available to the organizations created in the following geolocations: NAM, SAM, CAN, GBR, EUR, JPN, IND, OCE, APJ -->
+- Customer Service Workspace is installed and accessible. More information: [Install Customer Service Workspace](*Ask Laura for the article name.*)
+- Administrator permissions
 
 ## Enable AI suggestions for similar cases
 
@@ -59,12 +59,10 @@ Perform the following steps to enable the AI suggestions for similar cases:
 2. In the **Change area**, select **Service Management** > **Settings (Preview)**. The **Analytics and insights settings** page appears.
 3. Select **Manage** under **Suggestions**. The **Suggestions (preview)** page appears.
 4. In the **Settings** > **Summary** area, set the toggle to **Yes** for **Enable similar case suggestions**.
-5. In the **Data mapping** > **Case entity data fields** area, select values for the **Case summary** and **Case details** boxes respectively. The AI model uses the data corresponding to the selected boxes to understand the case context to provide similar case suggestions. By default, **Case Title** and **Description** are selected.
+5. In the **Data mapping** > **Case entity data fields** area, select values for the **Case summary** and **Case details** boxes respectively if you do not want to use **Case Title** and **Description** that are set by default. The AI model uses the data corresponding to the selected boxes to understand the case context to provide similar case suggestions. By default,  are selected.
 6. Select **Save**.
-<!-- Xiaoying's comment: please add a note that it may take up to 24 hours for the model to process data and complete the first time setup. Once completed, the status will show in "Model pre-processing status". -->
-<!-- Xiaoying's comment: please add another note that enabling or disabling this feature will take effect to agents only after they refresh/reopen the browser and not in their current active sessions nor on session switch. -->
 
-    ![Enable AI-suggested similar cases](media/csw-enable-ai-suggested-cases.png "Enable AI-suggested similar cases")
+   > ![Enable AI-suggested similar cases](media/csw-enable-ai-suggested-cases.png "Enable AI-suggested similar cases")
 
 ## Enable AI suggestions for knowledge articles
 
@@ -74,11 +72,9 @@ Perform the following steps to enable the AI suggestions for related knowledge a
 2. In the **Change area**, select **Service Management** > **Settings (Preview)**. The **Analytics and insights settings** page appears.
 3. Select **Manage** under **Suggestions**. The **Suggestions (preview)** page appears.
 4. In the **Settings** > **Summary** area, set the toggle to **Yes** for **Enable knowledge article suggestions**.
-5. In the **Data mapping** > **Knowledge article data fields** area, make sure that **Title** and **Content** are selected in **Article title** and **Article content** boxes respectively.
-<!-- Xiaoying's comment: similar to the previous section, step 5 is optional. By default, Title and Content fields from Knowldge Article entity are selected. Admins can change these two fields to any other text fields in the Knowldge Article entity. In addition, when KB suggestion is enabled, admins are also asked to map text fields from Case entity (by default is Case Title and Description). The selected fields in Case entity will be used for the model to understand the context of an active case when finding KB suggestions. The selected fields in Knowledge Article entity are used for the AI model to understand the articles when finding a good match for a case. The article content field is also used for the AI model to generate a brief article summary, which will be surfaced to agents with suggestions. -->
+5. In the **Data mapping** > **Knowledge article data fields** area, make sure that **Title** and **Content** are selected in **Article title** and **Article content** boxes, respectively. The selected options are used by the AI model to understand and find a good match for a case. Article content is used by the AI model to generate a brief article summary that is displayed to the agent at runtime.
+
 6. Select **Save**.
-<!-- Xiaoying's comment: please add a note that it may take up to 24 hours for the model to process data and complete the first time setup. Once completed, the status will show in "Model pre-processing status". -->
-<!-- Xiaoying's comment: please add another note that enabling or disabling this feature will take effect to agents only after they refresh/reopen the browser and not in their current active sessions nor on session switch. -->
 
     ![Enable AI-suggested knowledge articles](media/csw-enable-ai-suggested-km.png "Enable AI-suggested knowledge articles")
 
