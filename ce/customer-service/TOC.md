@@ -134,19 +134,6 @@
 ##### [Create and manage organizational units](create-org-units-cs-scheduling.md)
 ##### [Schedule business closure](set-when-business-closed-csh.md)
 
-### Migration tools
-#### Automatic Record Creation (ARC) and Service Level Agreement (SLA) migration
-##### [Migrate ARC and SLAs](migrate-automatic-record-creation-and-sla-agreements.md)
-
-#### Contracts to Entitlements Migration
-##### [Strategy for migrating from contracts to entitlements](contract-to-entitlement-migration.md)
-
-#### Service Scheduling Migration
-##### [Introduction to service scheduling migration](introduction-migration-entity-records.md)
-##### [Plan service scheduling migration](plan-migration.md)
-##### [Migrate service scheduling](migrate-entity-records.md)
-
-
 #### Service Scheduling Developer Guide
 ##### [Search Resource Availability and Create Bookings](universal-resource-scheduling.md)
 
@@ -168,6 +155,19 @@
 ### [Add a timer in forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md)
 ### [Configure interactive dashboards](configure-interactive-dashboards-customer-service-hub.md)
 ### [Modify case resolution dialog box](../customer-service/customer-service-hub-user-guide-modify-case-resolution-dialog.md)
+
+## Migration tools
+
+### [Automatic Record Creation (ARC) and Service Level Agreement (SLA) migration](migrate-automatic-record-creation-and-sla-agreements.md)
+
+### [Contracts to entitlements migration](contract-to-entitlement-migration.md)
+
+### Service Scheduling Migration
+#### [Introduction to service scheduling migration](introduction-migration-entity-records.md)
+#### [Plan service scheduling migration](plan-migration.md)
+#### [Migrate service scheduling](migrate-entity-records.md)
+
+### [Migration tool FAQs](migrate-tool-faqs.md)
 
 ## Troubleshoot
 ### [Issue converting an email to a case](troubleshoot-case-email-issue.md)

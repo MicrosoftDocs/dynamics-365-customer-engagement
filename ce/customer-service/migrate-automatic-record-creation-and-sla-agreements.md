@@ -313,7 +313,7 @@ This step allows you to select which rules you want to migrate on the following 
 
 > ![Migration Tool for experienced users - step 3](media\migration-tool-step-3-experienced-users-1.png "Migration Tool for experienced users - step 3")
 
-If you have a migrated rule that has failed you are unable to fix or do not want to repair, it can be deleted.  Also, if a rule has successfully passed the pre-migration checkup, but you want to run it again, you can delete in the Unified Interface them and run it again so it displays in the screen above so the rule can be rerun for validation.   
+Only rules that were either not attempted, did not completely migrate, or failed to migrate will appear in **Step 3**. If you want to attempt migration of a successfully migrated rule again, delete the corresponding one from UCI and re-run the migration tool for it to appear in the list again. 
 
 ## Step 4: Review. (Experienced User)
 
@@ -321,19 +321,19 @@ This step provides you with the opportunity to go through any rules that have be
 
 ## Step 5: Migration.  (Experienced User)
 
-This step confirms when migration is complete and provides a summary of the number of rules that successfully completed migrations and number of rules that failed migration.
+This step confirms when migration is complete and provides a summary of the number of rules that successfully completed migration and number of rules that failed migration.
 
-1.	Provides that migration results for the current migration run.
-2.	Migration status allows you to view the details on the Incomplete rules that could not be migrated.
+1.	**Selected**, **Migrated**, and **Incomplete** sections provides the migration results for the current migration run.
+2.	**Migration status** shows you the status of your current migration run and allows you to view the details on the **Incomplete** rules that could not be migrated.
 
 > ![Migration Tool for experienced users - step 5](media\migration-tool-step-5-experienced-users-1.png "Migration Tool for experienced users - step 5")
 
 ## Step 6: Finish (Experienced User)
 
-When you finish you will receive an updated **Summary** page that includes:
+When you finish your migration, an updated **Summary** page will be displayed that includes:
 
-1.	**Summary** provides the overall summary of all migration results to date.
-2.	**Start** to rerun the migration process again.
+1.	**Summary**. Provides the overall summary of all the migration details to date. 
+2.	**Start**. Select to rerun the migration process again.
 
 > ![Migration Tool for experienced users - step 6](media\migration-tool-step-6-experienced-users-1.png "Migration Tool for experienced users - step 6")
 
@@ -341,17 +341,13 @@ Once migration is complete you can uninstall the migration tool.  After General 
 
 ### See Also
 
-[Migration Tool FAQs](migration-tool-FAQs.md)
-
-[Plan your migration](https://docs.microsoft.com/en-us/dynamics365/customer-service/plan-migration)
-
-[Important changes (deprecations) coming](https://docs.microsoft.com/en-us/power-platform/important-changes-coming) 
-
-[Help resources for Customer Service Hub](https://docs.microsoft.com/en-us/dynamics365/customer-service/help-hub)
+[Migration Tool FAQs](migrate-tool-faqs.md)
 
 [Set up rules to automatically create or update records](https://docs.microsoft.com/en-us/dynamics365/customer-service/set-up-rules-to-automatically-create-or-update-records)
 
 [Define service-level agreements](https://docs.microsoft.com/en-us/dynamics365/customer-service/define-service-level-agreements)
+
+[Important changes (deprecations) coming](https://docs.microsoft.com/en-us/power-platform/important-changes-coming) 
 
 
 
