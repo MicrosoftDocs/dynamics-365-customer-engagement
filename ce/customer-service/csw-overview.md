@@ -57,11 +57,12 @@ To bulk-edit cases or activities:
 1. Click the check mark in the upper left corner of the list of cases or activities or select individual cases or activities to create a custom selection.
 2. Click the vertical ... icon in the right corner of the list of cases or activities to expand the menu of actions you can take on cases or activities.
 
-#### Cases:
+#### Work with Cases:
 
+From the Customer Service Agent Dashboard in Customer Service workspace, you can 
 :::image type="content" source="media/bulkEditCases.png" alt-text="Customer Service workspace overview" border="false":::
 
-#### Activities:
+#### Work with Activities:
 
 :::image type="content" source="media/bulkEditActivities.png" alt-text="Customer Service workspace overview" border="false":::
 
