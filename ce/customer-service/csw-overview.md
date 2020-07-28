@@ -54,7 +54,7 @@ There are new navigation behaviors to be aware of in Customer Service workspace.
 - Clicking on the case or activity replaces your view with the form for the case or activity you opened. 
 - Click the back arrow in the upper left corner of the form to get back to your previous view. 
 
-#### Work with cases
+### Work with cases
 
 From the Customer Service Agent Dashboard in Customer Service workspace, you can:
 
@@ -68,7 +68,7 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 
 :::image type="content" source="media/bulkEditCases.png" alt-text="Customer Service workspace overview" border="false":::
 
-#### Work with activities
+### Work with activities
 
 From the Customer Service Agent Dashboard in Customer Service workspace, you can:
 
