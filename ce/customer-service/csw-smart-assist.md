@@ -42,7 +42,7 @@ The productivity pane in the Customer Service workspace is an auxiliary work are
 The productivity pane displays the **Smart assist** control, where agents can quickly view and interact with relevant AI-generated knowledge articles and similar cases suggestions for the case they are working on.
 
 > [!Important]
-> For preview, the **productivity pane** will be automatically enabled and will expand, showing the **smart assist tab** , whenever an active case is opened as a new session using the Shift+mouse click action.
+> For preview, the **productivity pane** will be automatically enabled and will expand, showing the **Smart assist tab**, whenever an active case is opened as a new session using the Shift+click action.
 
 > [!Important]
 > The productivity pane only displays information (for example, knowledge article and similar case suggestions) for the first tab (referred to as the anchor tab) of an active case session.
