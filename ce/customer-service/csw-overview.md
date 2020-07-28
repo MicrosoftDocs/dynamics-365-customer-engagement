@@ -46,22 +46,19 @@ Let's explore the elements of the Customer Service workspace and how to navigate
 
 :::image type="content" source="media/csw-overview.png" alt-text="Customer Service workspace overview" border="false":::
 
-### Working with cases and activities
+### Opening cases and activities
+
+There are new navigation behaviors to be aware of in Customer Service workspace. All other basic case and activity functionality behaves the same way as in the Customer Service Hub and Omnichannel for Customer Service apps.
 
 - Hold shift + click to open a new session tab for the case or activity you want to edit. 
 - Clicking on the case or activity replaces your view with the form for the case or activity you opened. 
 - Click the back arrow in the upper left corner of the form to get back to your previous view. 
 
-### Bulk editing cases and activities
-To bulk-edit cases or activities:
-1. Click the check mark in the upper left corner of the list of cases or activities or select individual cases or activities to create a custom selection.
-2. Click the vertical ... icon in the right corner of the list of cases or activities to expand the menu of actions you can take on cases or activities.
-
-#### Work with Cases:
+#### Work with cases
 
 From the Customer Service Agent Dashboard in Customer Service workspace, you can:
 
-1. Select multiple cases to work with. 
+1. Select multiple cases to work with. Click the top check mark to select all or individual check boxes next to each case to select a specific group of cases.
 2. Associate child cases with selected cases. 
 3. Merge cases together. 
 4. Edit selected cases. 
@@ -71,11 +68,11 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 
 :::image type="content" source="media/bulkEditCases.png" alt-text="Customer Service workspace overview" border="false":::
 
-#### Work with Activities:
+#### Work with activities
 
 From the Customer Service Agent Dashboard in Customer Service workspace, you can:
 
-1. Select multiple activities to work with.
+1. Select multiple activities to work with. Click the top check mark to select all or individual check boxes next to each activity to select a specific group of activities.
 2. Edit selected activities. 
 3. Delete selected cases. 
 4. Open the menu for aditional actions including Mark Complete, Cancel, Set Regarding, Assign, Email a Link, Add to Queue, Run Report. 
@@ -83,6 +80,8 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 :::image type="content" source="media/bulkEditActivities.png" alt-text="Customer Service workspace overview" border="false":::
 
 
-
+### See also  
+[Work with cases](customer-service-hub-user-guide-create-a-case.md)    </br>
+[Work with activities](customer-service-hub-user-guide-manage-timeline-activities.md)
 
 
