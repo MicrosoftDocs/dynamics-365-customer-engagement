@@ -37,11 +37,11 @@ The following capabilities are available in the different app experiences depend
 |   | [Customer Service workspace](csw-overview.md) | [Omnichannel for Customer Service](../omnichannel/introduction-omnichannel.md) | [Customer Service Hub](user-guide-customer-service-hub.md) | [Customer Service Team Member](customer-service-team-member.md) | [Customer Service app (deprecating)](user-guide-customer-service.md) |
 |---------------------------------------------------------------------|------------|------------|------------|------------|------------|
 | Multisession          | X | X |  |  |  |
-| Conversations (with Chat or Digital Messaging Offers)  | (09/01/2020) | X |  |  |  |
-| Channels (with Digital Messaging Offer)  | (09/01/2020) | X |  |  |  |
+| Conversations (with Chat or Digital Messaging Offers)  | (Preview: 09/01/2020) | X |  |  |  |
+| Channels (with Digital Messaging Offer)  | (Preview: 09/01/2020) | X |  |  |  |
 | Case Management  | X |  X  |  X  |  X  |  X  |
 | Knowledge Management  |  X  |  X  |  X  | Read Only |  |
-| Insights  | (10/01/2020) | X | X |  |  |
+| Insights  | (Preview: 10/01/2020) | X | X |  |  |
 | Service Scheduling  |  | N/A | X |  |  |
 | Connected Service with IoT  |  |  | X  |  |  |
 | Extensibility  | CIF v2, BYOC | CIF v2, BYOC, Mobile SDK | CIF v1 |  |  |
@@ -49,7 +49,7 @@ The following capabilities are available in the different app experiences depend
 | Basic Administration  | Customer Service Hub -> Service Manager | Omnichannel Administration |  |  |  |
 | Case Routing & Queue Configuration  | Customer Service Hub -> Service Manager | Omnichannel Administration |  |  |  |
 | Add & Configure Channels  | Omnichannel Administration  | Omnichannel Administration |  |  |  |
-| Control User Experience for Agent & Supervisor | App Profile Manager (09/01/2020) | App Profile Manager (09/01/2020) |  |  |  |
+| Control User Experience for Agent & Supervisor | App profile manager (Preview: 09/01/2020) | App profile manager (Preview: 09/01/2020) |  |  |  |
 | LICENSING: Customer Service Pro  |   |  | X |  |  |
 | LICENSING: Customer Service Enterprise  | X  | X | X  | X | N/A |
 | LICENSING: Chat  | X  | X |  |  |  |
