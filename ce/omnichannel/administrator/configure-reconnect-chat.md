@@ -10,7 +10,7 @@ ms.author: nenellim
 manager: shujoshi
 ---
 
-# Configure reconnection to a previous chat session
+# Preview: Configure reconnection to a previous chat session
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
