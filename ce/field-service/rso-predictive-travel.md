@@ -30,11 +30,16 @@ search.app:
 
 // https://msit.microsoftstream.com/video/e705a1ff-0400-a521-da10-f1eacde0b7de?channelId=0bf6f71a-b361-4d7b-9668-62ff5207b60d
 
+- mention historical travel times
+
 ## Prerequisites
 
-- Connect to Maps set to Yes in 
+- Connect to Maps set to Yes in Resource Scheduling App > Settings > Administration > Scheduling Parameters.
+- Predictive travel times that use historical data is only available for scheduling with Resource Scheduling Optimization (RSO) and not the schedule assistant or manual scheduling.
 - Deploy RSO
 - Configure RSO
+
+
 
 ## Set Travel Time Calculation on Optimization Goal
 
@@ -59,22 +64,24 @@ Without predicitve travel times
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-predictive-travel-schedule-without.png)
 
-With predicitve travel times - the eastimated travel times are recalculated and the order of the bookings may change to optimze the objectives and constraints of the related RSO Optimization Goal typically to minimize travel times.
+With predicitve travel times - the estimated travel times are recalculated and the order of the bookings may change to optimze the objectives and constraints of the related RSO Optimization Goal, typically to minimize travel times.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-predictive-travel-schedule-with.png)
 
 
 > [!Note]
-> Running RSO with predictive 
+> Running RSO with predictive travel time may increase the run time for RSO to optimize the requirements and bookings.
 
 ## Configuration considerations
 
+- Predictive travel times that use historical data is only available for scheduling with Resource Scheduling Optimization (RSO) and not the schedule assistant or manual scheduling.
+
 - It is recommended to use predictive travel times for automated [overnight scheduling](link) where RSO is run during non working horus for the following working day.
 
-- Predictive travel time can be applied to Optimization Scopes with less than 500 requirements _and_ 500 resources during Early Access. If your Optimization Scope exceeds this threshold RSO will still run but without predictive travel times. If you have more resources or requirements it is recommended to split the scope into smaller scopes and apply predictive travel time to each related Optimization Goal.
+- Predictive travel time can only be applied to Optimization Scopes with less than 500 requirements _and_ 500 resources during Early Access. If your Optimization Scope exceeds this threshold RSO will still run but without predictive travel times. If you have more resources or requirements it is recommended to split the scope into smaller scopes and apply predictive travel time to each related Optimization Goal.
 
-- Predit
+- It is not recommended to use predictive travel with [Single Resource Optimization (SRO)](link) but it is not prohibited. This is accomplished by adding the Travel Time Calculation to the default goal for SRO. However, due to increased run times when using predictive travel, you will have to evaulate if this meets your business needs. 
 - RSO only. not available with schedule assistant or manual scheduling
 - Custom Map provider
 
