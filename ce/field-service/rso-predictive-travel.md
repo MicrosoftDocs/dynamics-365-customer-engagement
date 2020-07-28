@@ -40,7 +40,6 @@ search.app:
 - Configure RSO
 
 
-
 ## Set Travel Time Calculation on Optimization Goal
 
 > [!div class="mx-imgBorder"]

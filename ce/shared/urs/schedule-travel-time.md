@@ -184,6 +184,15 @@ Bing Maps and other mapping providers can provide real-time and historical trave
 
 If a field technician begins travel to their next work order and sees that the travel time is much longer than estimated by the system, they should indicate this with a custom booking status of "running late," so dispatchers can plan accordingly. 
 
+## Predictive travel times with historical 
+
+- rso only
+- breif description
+
+link to doc
+
+[Predictive travel times with RSO](./field-service/rso-predictive-travel.md)
+
 ## Configuration considerations
 
 - By adding a travel charge to the service account of the work order, you can charge the customer a fee for travel time and distance as work orders are completed. See the topic on [adding account-related details to work orders](../../field-service/work-order-customer-account.md) for more details.
