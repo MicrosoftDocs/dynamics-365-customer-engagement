@@ -59,11 +59,24 @@ To bulk-edit cases or activities:
 
 #### Work with Cases:
 
-From the Customer Service Agent Dashboard in Customer Service workspace, you can 
+From the Customer Service Agent Dashboard in Customer Service workspace, you can:
+
+1. Select multiple cases to work with. 
+2. Associate child cases with selected cases. 
+3. Merge cases together. 
+4. Edit cases. 
+5. Delete cases. 
+6. Apply a routing rule to route cases to a queue. 
+7. Open the menu for additional actions including Assign, Add to Queue, Run Report, Email a Link, Shre, Follow, or Unfollow cases. 
+
 :::image type="content" source="media/bulkEditCases.png" alt-text="Customer Service workspace overview" border="false":::
 
 #### Work with Activities:
 
+From the Customer Service Agent Dashboard in Customer Service workspace, you can:
+
+1. Select multiple activities to work with.
+2. 
 :::image type="content" source="media/bulkEditActivities.png" alt-text="Customer Service workspace overview" border="false":::
 
 
