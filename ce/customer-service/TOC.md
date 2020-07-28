@@ -134,12 +134,17 @@
 ##### [Create and manage organizational units](create-org-units-cs-scheduling.md)
 ##### [Schedule business closure](set-when-business-closed-csh.md)
 
-#### Migration tool
-##### [Introduction](introduction-migration-entity-records.md)
-##### [Plan your migration](plan-migration.md)
-##### [Migrate Automatic Record Creation and SLAs](migrate-automatic-record-creation-and-sla-agreements.md)
-##### [Migrate entity records data using migration tool](migrate-entity-records.md)
+### Migration tools
+#### Automatic Record Creation (ARC) and Service Level Agreement (SLA) migration
+##### [Migrate ARC and SLAs](migrate-automatic-record-creation-and-sla-agreements.md)
 
+#### Contracts to Entitlements Migration
+##### [Strategy for migrating from contracts to entitlements](contract-to-entitlement-migration.md)
+
+#### Service Scheduling Migration
+##### [Introduction to service scheduling migration](introduction-migration-entity-records.md)
+##### [Plan service scheduling migration](plan-migration.md)
+##### [Migrate service scheduling](migrate-entity-records.md)
 
 
 #### Service Scheduling Developer Guide
