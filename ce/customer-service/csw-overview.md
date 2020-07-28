@@ -19,5 +19,5 @@ search.app:
   - D365CS
 ---
 
-# Customer Service Workspace - Overview
+# Customer Service workspace - Overview
 
