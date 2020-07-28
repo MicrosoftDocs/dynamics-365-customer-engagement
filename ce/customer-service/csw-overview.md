@@ -34,7 +34,7 @@ You can access Customer Service workspace through the app selector where you fin
 
 As an agent, when you open Customer Service workspace you start on the Customer Service Agent Dashboard. This dashboard shows you your active cases, Cases available to be worked on in queues you are assigned to, and your open activities. You can select existing cases, activities or begin working new cases from the queues you are assigned to. 
 
-Let's explore the elements of the Customer Service workspace: 
+Let's explore the elements of the Customer Service workspace and how to navigate: 
 1. The session panel lists all of the sessions you are actively working on. Click on the tabs to navigate between sessions. 
 2. The Home tab returns you to the Customer Service Agent Dashboard view. 
 3. Each session has a tab in the session panel. Select a tab to navigate to the session you want to work on. 
@@ -44,10 +44,12 @@ Let's explore the elements of the Customer Service workspace:
 7. Click the + icon to view a list of forms, views, and activities, select the one you want to open in a new tab. 
 8. Hold shift + click to open a new session for an activity. A single click replaces your view with the activity form. Click the back arrow in the upper left corner of the form to get back to your previous view.
 
-
 :::image type="content" source="media/csw-overview.png" alt-text="Customer Service workspace overview" border="false":::
 
-# Working with Cases and Activities
+# Working with cases
+
+# Working with activities
+
 
 
 
