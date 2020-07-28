@@ -26,7 +26,7 @@ search.app:
 
 Smart assist is an intelligent assistant that is designed to help agents be more productive as they resolve customer issues by providing real-time suggestions of the best course of actions to take while working on an assigned case. It shows relevant, AI-generated suggestions, such as knowledge articles and similar cases that match the context of the active case.
 
-In the Customer Service workspace, **Smart assist** appears on the productivity pane on the right-hand side of the session.
+In the Customer Service workspace application, **Smart assist** appears on the productivity pane on the right-hand side of the session.
 
 > [!Important]
 > For preview, the **productivity pane** will be automatically enabled and will expand, showing the **Smart assist** tab whenever an active case is opened as a new session using the Shift+click action.
