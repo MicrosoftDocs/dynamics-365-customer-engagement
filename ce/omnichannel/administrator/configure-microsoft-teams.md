@@ -72,4 +72,5 @@ Make sure that the following prerequisites are met:
 
 [Channels in Omnichannel for Customer Service](channels.md)<br />
 [Configure automated messages](configure-automated-message.md)<br />
-[Use a Microsoft Teams channel](../agent/agent-oc/teams-channel.md)
+[Use a Microsoft Teams channel](../agent/agent-oc/teams-channel.md)<br>
+[Delete a configured channel](delete-channel.md)
