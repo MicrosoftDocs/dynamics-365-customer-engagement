@@ -62,7 +62,7 @@ You can’t customize the service calendar or change the default view with the a
     
 ### See also  
 
-[UCIfied service scheduling overview](uci-scheduling-overview.md)
+[UCI-based service scheduling overview](uci-scheduling-overview.md)
 
 [Create or edit a service](uci-create-edit-service.md)
 
