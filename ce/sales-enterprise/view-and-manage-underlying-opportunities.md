@@ -68,24 +68,31 @@ You can view and edit underlying opportunities in two ways:
     > [!NOTE]
     > You can open an opportunity by double-clicking in the non-editable space of the row. The opportunity opens in a new page, where you can edit and save the opportunity.
 
-### View related entity records
+### View and edit related entity underlying records
 
 <!--Early access note -->
 
-Earlier, in the grid, you viewed only the opportunities of the rollup entity. With the enhanced grid view, you can group the list of opportunities displayed in the grid according to the related entity of rollup entity.
+Earlier, in the grid, you view and edit only the records of rollup entity. With the enhanced grid, you can view and edit related entity records also.
 
-The following screen is an example of the enhanced grid view of underlying opportunities:
+The following screen is an example of the enhanced grid view of underlying records:
 
 > [!div class="mx-imgBorder"]
 > ![View underlying opportunity grid](media/forecast-view-grid-group-option.png "View underlying opportunity grid")
 
-1. **General information**: You can identify whom the underlying opportunities belongs to, and by their team or individual. Also, you can see the type of opportunities, such as won, committed, and pipeline along with its total value.
+1. **General information**: You can identify whom the underlying records belongs to, and by their team or individual. Also, you can see the category of underlying records, such as won, committed, and pipeline along with its total value.
 
-2. **View selector**: You can change the view of these opportunities. By default, the view that was selected when the forecast was configured is displayed.
+2. **View selector**: You can change the view of these records. By default, the view that was selected when the forecast was configured is displayed.
 
-3. **Group by**: You can group the opportunities displayed in the grid according to the related entity. Select the **Group by** option and choose an entity from the list according to your requirement. The records displayed in the grid are grouped according to the selected entity.
+3. **Group by**: You can view and edit the records of related entity. Select the **Group by** option and choose a valid related attribute to view appropriate related entity records. 
 
-    For example, in opportunity split forecast, an opportunity is split between users. Say, Kenny is the owner of the Opportunity1 that has a value of $20,000. Here, Opportunity1 is split between Kenny and Dustin as Opportunit1.1 and Opportunity1.2 respectively, with each split opportunity  valued at $10,000. When Dustin opens the forecast and views the underlying opportunities, he can view only the opportunities that are associated to him. Dustin wants to update the total value of his split Opportunity1 to $30,000.  But in the normal view, Dustin can't update because it will not add up to Opportunity1. By grouping the list of opportunities using the **Owner (User)** related entity, Dustin could see Opportunity1 in list and update it as required.
+    For example, opportunity split forecast is created based on the data model as illustrated below, where, opportunity split is the rollup entity and opportunity is the related entity.
+
+    By default, when users open the underlying records grid the opportunities in the opportunity split (rollup entity) are listed. As the records of opportunity split are derived from opportunity (related entity), users might want to edit the records directly in opportunity (related entity). Therefore, users must select attributes of opportunity, which is the related entity in this data model.
+
+    To support this type of scenario, the **Group by** drop-down lists the related entity attributes of opportunity split (rollup entity), so that users can select relevant opportunity attribute, and then view and edit related opportunity records.    
+
+    > [!div class="mx-imgBorder"]
+    > ![Opportunity split data model](media/forecast-opportunity-split-data-model.png "Opportunity split data model")
 
 ## View and edit in a kanban view
 
