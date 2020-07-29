@@ -44,7 +44,7 @@ Before you begin, make sure you have the System Administrator or System Customiz
 
 ### See also  
 
-[UCIfied service scheduling overview](uci-scheduling-overview.md)
+[UCI-based service scheduling overview](uci-scheduling-overview.md)
 
 [Create or edit a service](uci-create-edit-service.md)
 
