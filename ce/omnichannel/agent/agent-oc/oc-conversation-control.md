@@ -78,14 +78,14 @@ After you type **/q** in the communication panel messaging area, you can continu
  > [!div class=mx-imgBorder] 
  > ![Type /q and the keyword to filter the replies](../../media/oceh-send-quick-replies-filter.png "Filter replies")  
 
-### Preview: Share reconnect link with customers
+### Preview: Share reconnection link with customers
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-If the reconnect link is configured by your administrator, you can share the link with customers during the session that they can use to connect back to the chat when they are disconnected for some reason, such as loss of connectivity or restart of their computer. The reconnect link is available as a quick reply.
+If the reconnection link is configured by your administrator, you can share the link with customers during the session that they can use to connect back to the chat when they are disconnected for some reason, such as loss of connectivity or restart of their computer. The reconnection link information is available as a quick response.
 
 > [!IMPORTANT]
-> You can share the reconnect link only when you do not end the chat session using the **End** button.
+> You can share the reconnection link only when you don't end the chat session using the **End** button.
 
 ## Consult with agent or supervisor
 
