@@ -54,3 +54,9 @@ In the Customer Service workspace application, **Smart assist** appears in the p
 ![Smart assist tab](media/csw-smart-assist-tab.png "View of the Smart assist tab on the productivity pane")
 
 Smart assist displays the relevant suggestions as individual cards that are grouped as either **Knowledge article suggestions** or **Similar cases suggestions**. For more information, see [View AI-suggested cases in knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md).
+
+
+### See also
+
+[Customer Service workspace - overview](csw-overview.md)   </br>
+[View AI-suggested cases in knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)
