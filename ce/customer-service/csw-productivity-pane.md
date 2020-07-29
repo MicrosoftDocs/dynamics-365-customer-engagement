@@ -25,7 +25,7 @@ search.app:
 
 The productivity pane in the Customer Service workspace is an auxiliary work area that contains productivity tools that support or expedite an agent's tasks when resolving customer issues.
 
-For the Wave 2 2020 Early Access release, the productivity pane includes the Smart Assist **Smart assist** control, where agents can quickly view and interact with relevant AI-generated knowledge articles and similar cases suggestions for the case they are working on. Other productivity pane controls will be added in upcoming releases.
+For the Wave 2 2020 Early Access release, the productivity pane includes the **Smart assist** control, where agents can quickly view and interact with relevant AI-generated knowledge articles and similar cases suggestions for the case they are working on. Other productivity pane controls will be added in upcoming releases.
 
 > [!Important]
 > The productivity pane only displays information (for example, knowledge article and similar case suggestions) for the first tab (referred to as the anchor tab) of an active case session.
