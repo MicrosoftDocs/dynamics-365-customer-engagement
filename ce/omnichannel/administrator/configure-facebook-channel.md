@@ -4,7 +4,7 @@ description: "Instructions on how to configure a Facebook channel in Omnichannel
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 07/24/2020
+ms.date: 07/29/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -212,4 +212,5 @@ Customers are solely responsible for using Dynamics 365, this feature, and any a
 [Create and manage routing rules](routing-rules.md)<br>
 [Configure automated messages](configure-automated-message.md)<br> 
 [Configure a pre-chat survey](configure-pre-chat-survey.md)<br>
-[Configure a post-chat survey](configure-post-chat-survey.md)
+[Configure a post-chat survey](configure-post-chat-survey.md)<br>
+[Delete a configured channel](delete-channel.md)
