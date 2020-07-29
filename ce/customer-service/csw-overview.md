@@ -80,6 +80,15 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 
 :::image type="content" source="media/bulkEditActivities.png" alt-text="Customer Service workspace overview" border="false":::
 
+### Create and search knowledge articles
+
+From the Customer Service Agent Dashboard in Customer Service workspace, you can access knowledge search and knowledge article :
+
+- Click the + icon to expand the tab menu to find the ability to create knowledge articles and perform knowledge search.
+- Intelligent knowledge suggestions display in the productivity pane while working on a case. 
+
+:::image type="content" source="media/bulkEditActivities.png" alt-text="Customer Service workspace overview" border="false":::
+
 ### Productivity pane with Smart Assist
 
 While working a case, the productivity pane on the right side of the Customer Service workspace displays intelligence to help agents better help customers. For Wave 2 2020 Early Release on 08/01/2020, the productivity pane hosts Smart Assist which suggests related cases and knowledge articles that could be relevant to the current case. The productivity pane will continue to evolve to contain additional supporting tools such as agent scripts to guide agents through a consistent series of steps with potentially automated actions through macros in future releases. Learn more about the [Productivity pane](csw-productivity-pane.md). 
