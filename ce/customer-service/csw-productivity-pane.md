@@ -25,7 +25,7 @@ search.app:
 
 The productivity pane in the Customer Service workspace is an auxiliary work area that contains productivity tools that support or expedite an agent's task when resolving customer issues.
 
-There following components make up the productivity pane.
+The productivity pane includes the following features.
 
 ## Smart assist
 
