@@ -35,6 +35,9 @@ You can view and edit underlying opportunities in two ways:
 
 ## View and edit in a table view
 
+>[!NOTE]
+>If you have opted in for early access, the grid view has changed to incluide enhanced features, such as group the opportunities based on related entity. To learn more, see [View related entity records](#view-related-entity-records).
+
 1.	Open a forecast. In this example, we're opening **Kenny's Org FY 2020 Forecast** for current quarter **FY2020 Q1**.
 
     > [!div class="mx-imgBorder"]
@@ -65,6 +68,24 @@ You can view and edit underlying opportunities in two ways:
     > [!NOTE]
     > You can open an opportunity by double-clicking in the non-editable space of the row. The opportunity opens in a new page, where you can edit and save the opportunity.
 
+### View related entity records
+
+<!--Early access note -->
+
+Earlier, in the grid, you viewed only the opportunities of the rollup entity. With the enhanced grid view, you can group the list of opportunities displayed in the grid according to the related entity of rollup entity.
+
+The following screen is an example of the enhanced grid view of underlying opportunities:
+
+> [!div class="mx-imgBorder"]
+> ![View underlying opportunity grid](media/forecast-view-grid-group-option.png "View underlying opportunity grid")
+
+1. **General information**: You can identify whom the underlying opportunities belongs to, and by their team or individual. Also, you can see the type of opportunities, such as won, committed, and pipeline along with its total value.
+
+2. **View selector**: You can change the view of these opportunities. By default, the view that was selected when the forecast was configured is displayed.
+
+3. **Group by**: You can group the opportunities displayed in the grid according to the related entity. Select the **Group by** option and choose an entity from the list according to your requirement. The records displayed in the grid are grouped according to the selected entity.
+
+    For example, in opportunity split forecast, an opportunity is split between users. Say, Kenny is the owner of the Opportunity1 that has a value of $20,000. Here, Opportunity1 is split between Kenny and Dustin as Opportunit1.1 and Opportunity1.2 respectively, with each split opportunity  valued at $10,000. When Dustin opens the forecast and views the underlying opportunities, he can view only the opportunities that are associated to him. Dustin wants to update the total value of his split Opportunity1 to $30,000.  But in the normal view, Dustin can't update because it will not add up to Opportunity1. By grouping the list of opportunities using the **Owner (User)** related entity, Dustin could see Opportunity1 in list and update it as required.
 
 ## View and edit in a kanban view
 
