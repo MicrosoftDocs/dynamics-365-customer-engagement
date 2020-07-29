@@ -4,7 +4,7 @@ description: "Learn about the supported formats to pass parameter values in the 
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 07/17/2020
+ms.date: 07/29/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -129,11 +129,11 @@ Macros and agent scripts support the following slugs:
 
 #### Slug for reconnection link
 
-The following slug is used to generate the reconnection link that can be shared with customers to connect back to the same agent and conversation. More information: [Configure a reconnection to a previous chat](configure-reconnect-chat.md)
+The following slug is used to generate a reconnection link that can be shared with customers to connect back to the same agent and conversation. More information: [Configure a reconnection to a previous chat](configure-reconnect-chat.md)
 
 | Slug | Description |
 |------------|-----------------------------------|
-|`${ReconnectUrl{ReconnectID}}`| Used in quick replies to generate a reconnect link. |
+|`${ReconnectUrl{ReconnectID}}`| Used in quick replies to generate the reconnect link. |
 
 #### Format for slugs for productivity tools
 

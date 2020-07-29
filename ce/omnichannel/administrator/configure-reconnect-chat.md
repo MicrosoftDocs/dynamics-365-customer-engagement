@@ -1,7 +1,7 @@
 ---
 title: "Configure reconnection to a chat session | MicrosoftDocs"
 description: "Administrator steps for configuring reconnect chat in Omnichannel for Customer Service."
-ms.date: 07/23/2020
+ms.date: 07/29/2020
 ms.service:
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -22,7 +22,7 @@ When customers are disconnected in the middle of a conversation&mdash;for reason
 
 ## How reconnection to a previous chat works
 
-When enabled, reconnection to a chat session works as follows:
+When enabled, reconnection to the disconnected chat session can be initiated by using one of the following options:
 
 - **Reconnect with a link**<br>
 You can configure link information as a quick response for agents. If the agent anticipates that there will likely be a need to reconnect during a conversation, the agent shares the reconnection link with the customer. This option is available for both authenticated and unauthenticated chat widget settings.
@@ -30,8 +30,10 @@ You can configure link information as a quick response for agents. If the agent 
 - **Reconnect through a prompt**<br>
 Customers interacting through chat widgets that have authentication settings configured are presented with the option to continue with the previous session or start a new conversation when they come back to the chat session.
 
+Additionally, you can cater to the timeout scenario by setting the following option:
+
 - **Redirection link**<br>
-You can optionally configure a redirection link for the customer to navigate to when they come back after a timeout period that is configured in the reconnection settings. If no redirection link is configured, a fresh conversation starts when the customer selects the reconnect link.
+You can optionally configure a redirection link for the customer to navigate to when they come back after a timeout period that is configured in the reconnection settings. If no redirection link is configured, a fresh conversation will start when the customer selects the reconnect link.
 
 > [!IMPORTANT]
 >
