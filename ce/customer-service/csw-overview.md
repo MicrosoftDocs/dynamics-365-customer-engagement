@@ -84,8 +84,10 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 
 From the Customer Service Agent Dashboard in Customer Service workspace, you can access knowledge search and knowledge article :
 
-- Click the + icon to expand the tab menu to find the ability to create knowledge articles and perform knowledge search.
-- Intelligent knowledge suggestions display in the productivity pane while working on a case. 
+1. Click the + icon to expand the tab menu.
+2. Select Knowledge Article or Knowledge Search. 
+
+Intelligent knowledge suggestions display in the productivity pane while working on a case. 
 
 :::image type="content" source="media/knowledge-csw.png" alt-text="Customer Service workspace knowledge" border="false":::
 
@@ -93,7 +95,8 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 
 From the Customer Service Agent Dashboard in Customer Service workspace, you can access email templates and signatures:
 
-- Click the + icon to expand the tab menu to find the ability to create email templates and signatures.
+1. Click the + icon to expand the tab menu 
+2. Select Email Templates and Email Signatures.
 
 :::image type="content" source="media/email-csw.png" alt-text="Customer Service workspace email" border="false":::
 
