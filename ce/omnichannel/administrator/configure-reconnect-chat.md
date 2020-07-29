@@ -31,7 +31,7 @@ You can configure link information as a quick response for agents. If the agent 
 Customers interacting through chat widgets that have authentication settings configured are presented with the option to continue with the previous session or start a new conversation when they come back to the chat session.
 
 - **Redirection link**<br>
-When customers come back after the timeout period configured in the reconnection settings, to make sure that the conversation is routed to an appropriate queue, you can optionally configure a redirect link that will reset the context for those customers who didn't<!--I know we usually try to stay in the present tense, but this feature describes a clear break in time, before and after a disconnection, and I think we have to use some past and future tense in here (especially in the Important note, below).--> fill out a pre-chat survey. If no redirect link is configured, a fresh conversation starts when the customer selects the reconnect link.
+When customers come back after the timeout period configured in the reconnection settings, to make sure that the conversation is routed to an appropriate queue you can optionally configure a redirect link that will reset the context for those customers who didn't<!--I know we usually try to stay in the present tense, but this feature describes a clear break in time, before and after a disconnection, and I think we have to use some past and future tense in here (especially in the Important note, below).--> fill out a pre-chat survey. If no redirect link is configured, a fresh conversation starts when the customer selects the reconnect link.
 
 > [!IMPORTANT]
 >
