@@ -119,11 +119,12 @@ the property you added will now show in the lsit of eligible properties
 ## Configuration considerations
 ## Additional Notes
 
+When a specific asset record is added to a property template, the template will show as a related record from the asset.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/assets-properties-templates-specific-assets.png)
 
-//if its in asset subgrid itllshow in templates from asset from 
-asset tempalte assciattions show sif you pick specific asset in tempalte
+From the asset go to Related > Asset template associations
 
 
 > [!div class="mx-imgBorder"]
