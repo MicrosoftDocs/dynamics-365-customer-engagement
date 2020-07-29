@@ -35,6 +35,7 @@
 
 ### Customer Service workspace
 #### [Introduction to Customer Service workspace](csw-overview.md)
+#### [Overview of the productivity pane](csw-productivity-pane.md)
 
 ### [Customer Service Team Member](customer-service-team-member.md)
 ### Customer Service app
