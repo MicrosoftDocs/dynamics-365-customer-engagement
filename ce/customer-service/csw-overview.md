@@ -83,6 +83,6 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 
 ### See also  
 [Work with cases](customer-service-hub-user-guide-create-a-case.md)    </br>
-[Work with activities](customer-service-hub-user-guide-manage-timeline-activities.md)
-
+[Work with activities](customer-service-hub-user-guide-manage-timeline-activities.md) </br>
+[Productivity pane](csw-productivity-pane.md)
 
