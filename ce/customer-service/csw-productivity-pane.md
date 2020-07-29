@@ -32,13 +32,21 @@ For the Wave 2 2020 Early Access release, the productivity pane includes the **S
 
 The productivity pane has two modes: expanded and collapsed. You can use the arrow to set the mode of the productivity pane, and the mode you choose is preserved in different sessions. For example, say in session A you expanded the pane, but while in session B, you collapsed it. When you switch from session A to session B, the pane mode changes from expanded to collapsed. Then if you switch back to session A, the pane is still in its expanded mode.
 
-![Productivity pane modes](media/csw-smart-assist-mode.png "View of the productivity pane mode where you can expand or collapse the pane")
+![Productivity pane](media/csw-productivity-pane-view.png "View of the productivity pane")
+
+Expanded mode:
+
+![Productivity pane expanded view](media/csw-productivity-pane-expanded-mode.png "View of the productivity pane in expanded mode")
+
+Collapsed mode:
+
+![Productivity pane collapsed view](media/csw-productivity-pane-collapsed-mode.png "View of the productivity pane mode in collapsed mode")
 
 ## Smart assist
 
-Smart assist is an intelligent assistant that is designed to help agents be more productive as they resolve customer issues by providing real-time suggestions of the best course of actions to take while working on an assigned case. It shows relevant, AI-generated suggestions, such as knowledge articles and similar cases that match the context of the active case.
+Smart assist is an intelligent assistant that is designed to help agents resolve customer issues quickly by providing real-time suggestions of the best course of actions to take while working on an assigned case. It shows relevant, AI-generated suggestions, such as knowledge articles and similar cases that match the context of the active case.
 
-In the Customer Service workspace application, **Smart assist** appears on the productivity pane on the right-hand side of the session.
+In the Customer Service workspace application, **Smart assist** appears in the productivity pane on the right-hand side of the session.
 
 > [!Important]
 > For the preview release, the **productivity pane** is automatically enabled and will expand, showing the **Smart assist** tab whenever an active case is opened as a new session using the Shift+click action.
