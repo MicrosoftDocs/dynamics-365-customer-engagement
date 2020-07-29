@@ -119,13 +119,22 @@ the property you added will now show in the lsit of eligible properties
 ## Configuration considerations
 ## Additional Notes
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/assets-properties-templates-specific-assets.png)
+
 //if its in asset subgrid itllshow in templates from asset from 
 asset tempalte assciattions show sif you pick specific asset in tempalte
 
 
 > [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/assets-properties-asset-template-associations.png)
+
+
+
+The "Value" field in the property log shows the value of the asset property whether a string, number, boolean, or Date and Time. This value is not localized and is hidden by default on the property log form.  
+
+> [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/assets-properties-maintain-new-values-callout.png)
 
-UI value attribute - value field is hidden
-value field is not localized, but other fields are localized
+
 
