@@ -36,7 +36,10 @@ Make sure that the following prerequisites are met:
 
 - An app is created and configured in **Teams** > **App Studio**.
 
-## Configure a Microsoft Teams channel in Omnichannel for Customer Service
+<a name="configureteams"></a>
+
+## Configure a Microsoft Teams channel in Omnichannel for Customer Service 
+
 
 ### Create a Teams channel
 
