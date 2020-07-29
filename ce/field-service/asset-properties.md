@@ -32,39 +32,60 @@ search.app:
 // keep in mind Dan talks about things in the video above that are not part of this feature but fetures later on that will be built on this capability. we dont want to cause confusion between what exists today and what is coming. 
 
 ## Prerequisites
-> [!Note]
->
+
 Have a list of assets created in the system
 
 ## Create and assign asset categories
 
-assets-categories
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
 
-assets-categories-assign
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/assets-categories.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/assets-categories-assign.png)
 
 ## Create property definitions
 
-assets-properties-nav
 
-assets-properties-form
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/assets-properties-nav.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/assets-properties-form.png)
 
 ## Create templates for properties
 
-assets-properties-templates-properties-only
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/assets-properties-templates-properties-only.png)
 
 
 ## Relate templates to assets and asset categories
 
-assets-properties-templates
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/assets-properties-templates.png)
 
 
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/assets-properties-templates-specific-assets.png)
 
 ## Add property logs
 
-assets-properties-log-create
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/assets-properties-log-create.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/assets-properties-log-lookup.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/assets-properties-log-lookup2.png)
 
 
 ### Manually add properties
@@ -72,8 +93,25 @@ assets-properties-log-create
 
 **Asset record > Related > Property Asset Associations**
 
+add property asset association
+
+then go back to Properties tab and add a new property log 
+
+the property you added will now show in the lsit of eligible properties
+
 
 ## Maintain property logs
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/assets-properties-log-lookup2.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/assets-properties-maintain-new-values.png)
+
+> [!Note]
+> You may have to refresh list
 
 
 ## Configuration considerations
