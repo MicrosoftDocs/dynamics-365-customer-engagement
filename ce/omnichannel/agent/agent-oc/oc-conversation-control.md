@@ -4,7 +4,7 @@ description: "Conversation control is a communication panel in Omnichannel where
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/17/2020
+ms.date: 07/29/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
