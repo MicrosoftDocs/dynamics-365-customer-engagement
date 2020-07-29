@@ -34,9 +34,7 @@ search.app:
 ## Prerequisites
 > [!Note]
 >
-
-
-
+Have a list of assets created in the system
 
 ## Create and assign asset categories
 
@@ -46,25 +44,57 @@ assets-categories
 
 assets-categories-assign
 
-## Create property definitiions
+## Create property definitions
 
 assets-properties-nav
 
 assets-properties-form
 
-## Create property templates
+## Create templates for properties
+
+assets-properties-templates-properties-only
+
+
+## Relate templates to assets and asset categories
 
 assets-properties-templates
 
 
-## Add properties to assets
 
-Manually add properties without a template
+
+## Add property logs
+
+assets-properties-log-create
+
+
+### Manually add properties
+
 
 **Asset record > Related > Property Asset Associations**
+
 
 ## Maintain property logs
 
 
 ## Configuration considerations
 ## Additional Notes
+
+//if its in asset subgrid itllshow in templates from asset from 
+asset tempalte assciattions show sif you pick specific asset in tempalte
+
+UI value attribute - value field is hidden
+value field is not localized, but other fields are localized
+
+
+## Relate property definitions to assets
+
+This can be done 3 ways:
+1. via templates and asset categories
+2. via templates and choosing specific assets
+3. manually
+
+### via templates and asset categories
+
+
+
+### via templates and choosing specific assets
