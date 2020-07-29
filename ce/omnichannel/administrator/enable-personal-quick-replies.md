@@ -39,5 +39,5 @@ As an administrator, you can use a Power Automate utility to delete unused tags.
 ### See also
 
 [Create quick replies](create-quick-replies.md)  
-[Create personal quick replies](create-personal-quick-replies.md)  
+[Create personal quick replies](agent/../../agent/agent-oc/create-personal-quick-replies.md)  
 
