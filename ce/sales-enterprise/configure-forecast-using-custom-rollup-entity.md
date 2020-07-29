@@ -93,9 +93,9 @@ Let’s configure this forecast.
 
     Repeat the step to configure other columns as required and select **Next**. To learn more, see [Choose layout and columns](choose-layout-and-columns-forecast.md).
 
-5.	Perform the steps in [Apply data filters](choose-layout-and-columns-forecast.md#apply-additional-filters).
+5.	Perform the steps in [Apply additional filter](add-additional-filters.md).
 
-6.	Optionally, you can [configure to take snapshot daily](https://docs.microsoft.com/dynamics365/ai/sales/take-snapshots-daily). 
+6.	Optionally, you can [take snapshots automatically](https://docs.microsoft.com/dynamics365/ai/sales/take-snapshots-daily). 
 
 7.	Perform the steps in [Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md).
 
@@ -162,9 +162,9 @@ Let’s configure this forecast.
     >[!NOTE]
     >You can’t proceed to next step until you complete the configuration of all columns. 
 
-5.	Perform the steps in [Apply data filters](choose-layout-and-columns-forecast.md#apply-additional-filters).
+5.	Perform the steps in [Apply additional filter](add-additional-filters.md).
 
-6.	Optionally, you can [configure to take snapshot daily](https://docs.microsoft.com/dynamics365/ai/sales/take-snapshots-daily). 
+6.	Optionally, you can [take snapshots automatically](https://docs.microsoft.com/dynamics365/ai/sales/take-snapshots-daily). 
 
 7.	Perform the steps in [Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md).
 

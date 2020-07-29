@@ -22,8 +22,6 @@ Perform the following steps to add columns and configure the forecast grid:
 
 2.	[Configure columns](#configure-columns).
 
-3.	[(Optional) Apply additional filters](#apply-additional-filters).
-
 ## Add columns from an option set
 
 Every forecast needs an option set to define roll-up columns. 
@@ -134,35 +132,6 @@ When you select column **Type** as **Hierarchy related**, the column helps you p
 | Description | Enter a description for the column. This description appears as a tooltip on the column header of the forecast grid, to help your users understand what the column contains. |
 | Unique name | The unique name is used to identify the column to use when you're writing a formula for a **Calculated** column. |
 
-## Apply additional filters
-
-Using additional filters, you can filter the opportunities that participate in calculating the forecast values. To filter the opportunities, you create filters based on conditions by using the attributes that belong to the Opportunity entity, including related entity attributes.
-
-For example, you know that opportunities related to **Adatum Corporation** and revenue more than or equal to **$10,000** can't be closed for the current quarter. To filter such opportunities in the forecast, follow these steps to create a query for this condition.
-
-1.	In the **Additional filters** section, select **+ Add filters**.
- 
-2.	Select **+ Add** > **Add row**. 
-
-    > [!div class="mx-imgBorder"]
-    > ![Select add row](media/forecast-add-filter-add-row.png "Select Add row")
- 
-3.	In the selection boxes, select the attribute as **Potential Customer**, the condition as **Does Not Equals**, and the company to be considered as **Adatum Corporation**.
- 
-    > [!div class="mx-imgBorder"]
-    > ![Enter a condition to ignore a company](media/forecast-add-filter-configure-condition-1.png "Enter a condition to ignore a company")
-
-    With this condition, the opportunities related to **Adatum Corporation** will be removed from the forecast. In the next step, you'll add a condition to filter revenue that's more than or equal to **$10,000**.
-
-4.	Select **+ Add** > **Add row**.
-
-5.	In the selection boxes, select the attribute as **Est. Revenue**, the condition as **Is greater than**, and revenue to be considered as **10000**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Enter the second condition](media/forecast-add-filter-configure-condition-2.png "Enter the second condition")
- 
-    Now the conditions are created for the query. When the forecast is activated, the query will be executed to filter the forecast for the added conditions.
-
 <table>
 <tr><td>
 
@@ -171,7 +140,7 @@ For example, you know that opportunities related to **Adatum Corporation** and r
 </td><td>
 
 > [!div class="nextstepaction"] 
-> [Next step: Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md)
+> [Next step: Apply additional filter](add-additional-filters.md)
 </td></tr>
 </table>
 

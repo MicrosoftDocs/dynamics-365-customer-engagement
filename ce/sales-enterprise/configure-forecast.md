@@ -70,6 +70,9 @@ Perform the following prerequisite task:
 
 ## How do I configure a forecast?
 
+>[!NOTE]
+> If you have opted in for early access, you can configure a forecast using custom rollup and hierarchy entities. To learn more, see [Configure forecast using custom rollup entity](configure-forecast-using-custom-rollup-entity.md).
+
 To configure a forecast in your organization, follow these steps:
 
 1.	[Review the prerequisite tasks](#prerequisite-tasks)
@@ -82,7 +85,9 @@ To configure a forecast in your organization, follow these steps:
 
 5.	[Choose layout and columns](choose-layout-and-columns-forecast.md)
 
-6.	[Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md)
+6.	[Apply additional filter](add-additional-filters.md)
+
+7.	[Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md)
 
 >[!IMPORTANT]
 >This feature is intended to help sales managers or supervisors enhance their team’s performance. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with sales persons may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their sales persons that their communications with end users may be monitored, recorded, or stored.

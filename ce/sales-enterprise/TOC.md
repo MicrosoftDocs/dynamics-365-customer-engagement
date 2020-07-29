@@ -57,6 +57,7 @@
 #### [Define general properties and scheduling](define-general-properties-scheduling-forecast.md)
 #### [Provide viewing permissions](provide-permissions-forecast.md)
 #### [Choose layout and columns](choose-layout-and-columns-forecast.md)
+#### [Apply additional filter](add-additional-filters.md)
 #### [Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md)
 #### [Configure forecast using custom rollup entity](configure-forecast-using-custom-rollup-entity.md)
 #### [Capture forecast category for opportunity](capture-forecast-category-opportunity.md)

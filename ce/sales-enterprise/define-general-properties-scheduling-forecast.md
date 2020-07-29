@@ -18,7 +18,7 @@ Using the general properties and scheduling options of the forecast configuratio
 
 **To enter configuration and scheduling information**
 
-1.	In the **General** step, enter a descriptive name for the forecast. For example, **Kenny's Org FY 2019 Forecast**.
+1.	In the **General** step, enter a descriptive name for the forecast. For example, **Kenny's Org FY 2020 Forecast**.
 
     > [!div class="mx-imgBorder"]
     > ![Enter a name for the forecast](media/forecast-general-properties-forecast-name.png "Enter a name for the forecast")
