@@ -33,7 +33,7 @@ search.app:
 
 ## Prerequisites
 
-Have a list of assets created in the system
+Have one or more assets created in Field Service. For more informations see the topic on [Customer Assets](link)
 
 ## Create and assign asset categories
 
@@ -62,7 +62,7 @@ Have a list of assets created in the system
 > ![Screenshot of ](./media/assets-properties-templates-properties-only.png)
 
 
-## Relate templates to assets and asset categories
+## Relate templates to asset categories, assets or both 
 
 
 > [!div class="mx-imgBorder"]
@@ -102,9 +102,11 @@ the property you added will now show in the lsit of eligible properties
 
 ## Maintain property logs
 
++New Property Log
+
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/assets-properties-log-lookup2.png)
+> ![Screenshot of ](./media/assets-properties-maintain.png)
 
 
 > [!div class="mx-imgBorder"]
@@ -120,19 +122,10 @@ the property you added will now show in the lsit of eligible properties
 //if its in asset subgrid itllshow in templates from asset from 
 asset tempalte assciattions show sif you pick specific asset in tempalte
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/assets-properties-maintain-new-values-callout.png)
+
 UI value attribute - value field is hidden
 value field is not localized, but other fields are localized
 
-
-## Relate property definitions to assets
-
-This can be done 3 ways:
-1. via templates and asset categories
-2. via templates and choosing specific assets
-3. manually
-
-### via templates and asset categories
-
-
-
-### via templates and choosing specific assets
