@@ -54,7 +54,7 @@ To view the default preconfigured Power BI workspace or change to it:
 
 3.  Select **+ New**. 
 
-    The **Power BI Configuration** form opens, where you can see that **Enable preconfigured Power BI workspace** is enabled or set it to enabled.
+    The **Power BI Configuration** form opens, where you can verify that **Use preconfigured Power BI workspace** is enabled or select it to enable it.
 
     > [!div class=mx-imgBorder]
     > ![Preconfigured Power BI workspace configuration settings page](../media/supervisor-admin-preconfigured-powerbi-configuration-settings.png "Preconfigured Power BI workspace configuration settings page")
@@ -130,10 +130,10 @@ You must configure the Power BI workspace using the **Omnichannel Administration
     > [!div class=mx-imgBorder]
     > ![Power BI workspace configuration settings page](../media/supervisor-admin-powerbi-configuration-settings.png "Power BI workspace configuration settings page")
 
-4. Enable the **Enable Intraday Insights for multi session web** option to make Intraday insights as an app tab on the home session for supervisors. 
+4. Set the **Enable Intraday Insights for multi session web** option to **Yes** to make Intraday insights an app tab on the home session for supervisors. 
 
     > [!div class=mx-imgBorder]
-    > ![Enable display of Intraday insights on Omnichannel for Customer Service app](../media/supervisor-admin-intraday-insights-dashboard-oc-on-web.png "Enable display of Intraday insights on Omnichannel for Customer Service app")
+    > ![Enable display of intraday insights on Omnichannel for Customer Service app](../media/supervisor-admin-intraday-insights-dashboard-oc-on-web.png "Enable display of intraday insights on Omnichannel for Customer Service app")
   
 5.  In the **Power BI workspace** section, select **Create new workspace** and enter a name for the workspace in **Power BI workspace** (this name must be unique).
 
