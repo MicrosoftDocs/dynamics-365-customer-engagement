@@ -1,6 +1,6 @@
 ---
 title: Overview of the UCIfied Scheduling Service | Microsoft Docs
-description: Overview of the UCIfied Scheduling Service in Dynamics 365 Customer Service.
+description: Overview of the UCI-based Scheduling Service in Dynamics 365 Customer Service.
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
@@ -19,16 +19,16 @@ search.app:
   - D365CS
 ---
 
-# UCIfied service scheduling overview
+# UCI-based service scheduling overview
 
 > [!Note]
 > This topic is pre-release documentation and is subject to change.
 
-UCified Service Scheduling will replace the Legacy Service Scheduling experience by 12/01/2020.   
+Unified Client Service (UCI)-based Service Scheduling will replace the Legacy Service Scheduling experience by 12/01/2020.   
 
 The following topics contain information about legacy Service Scheduling features: 
 
-- Create or change a service 
+- Create or change a service
 
 - Schedule a service activity 
 
