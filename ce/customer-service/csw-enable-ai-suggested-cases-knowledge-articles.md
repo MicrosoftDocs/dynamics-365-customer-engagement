@@ -48,7 +48,7 @@ AI suggestions are powered by a set of pre-trained natural language understandin
 
 Make sure that the following requirements are met:
 
-- Customer Service Workspace is installed and accessible. More information: [Install Customer Service Workspace](*Ask Laura for the article name.*)
+- Customer Service workspace is installed and accessible. More information: [Customer Service workspace](csw-workspace.md)
 - Administrator permissions
 
 ## Enable AI suggestions for similar cases
