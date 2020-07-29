@@ -38,32 +38,32 @@ This topic lists the features and fixes that are new or changed for Project Serv
 The following issues have been fixed:
 
 - **Time entries** are not automatically added in the Time entries schedule after import.
-- The **Time Entry** grid date picker does not respect a user's regional settings.
+- The **Time Entry** grid date picker does not recognize a user's regional settings.
 
 **Resource Management**
 
 The following issues have been fixed:
 
-- In manual mode, changes to **Resource Assignment** contours are not respected when generating **Resource Requirements**
-- **Resource Requests** do not support custom request statuses
+- In manual mode, changes to **Resource Assignment** contours are not recognized when generating **Resource Requirements**.
+- **Resource Requests** do not support custom request statuses.
 
 **Project Management**
 
 The following issues have been fixed:
 
-- Double-click in the EstimateGridControl will mis-parse Dutch format numbers.
-- Assigned hours do not update correctly when assignments are changed via the Microsoft Project desktop client add-in.
+- Using double-click on EstimateGridControl will not correctly parse Dutch format numbers.
+- Assigned hours do not update correctly when assignments are changed using the Microsoft Project desktop client add-in.
 - Project Tracking and Estimates grids display incorrect sales currency code when contract currency is different than customer currency and organization is configured to display currency codes instead of currency symbols.
-- A Team member's finish date will add one day if the work hour schedule is 24 hours per day.
-- On the Project Schedule, adding a Transaction Category to a Task does not trigger auto save.
-- The following error is thrown while adding Team member to the Project Template: "Resource requirements cannot be associated with project templates" 
-- Ribbon rule script "msdyn.Approval.CanApproveOrReject" throws a timeout error.
+- A Team member's finish date will add one day if the work hour schedule is 24-hours per day.
+- On the Project Schedule, adding a Transaction Category to a task does not trigger auto save.
+- The following error is displayed when adding a team member to the Project Template: "Resource requirements cannot be associated with project templates". 
+- Ribbon rule script "msdyn.Approval.CanApproveOrReject" displays a timeout error.
 
 **Sales**
 
 The following issues have been fixed:
 
 - Validation error message not displayed when a Cost Price List is selected in Price List lookup on 'New Quote Project Price List' form/entity.
-- Closing the quote as won does not navigate to the created contract, if a BPF attached to the quote is in the final stage.
-- Reversing **Unbilled Sales** is linked to original Cost when a Time Entry is recalled.
-- After clicking on "Confirm" button, the invoice status doesn't change to "Confirmed" unless the invoice is refreshed.
+- Closing the quote as won does not navigate to the created contract if a BPF attached to the quote is in the final stage.
+- Reversing **Unbilled Sales** is linked to original cost when a time entry is recalled.
+- After selecting the **Confirm** button, the invoice status doesn't change to **Confirmed** unless the invoice is refreshed.
