@@ -83,7 +83,7 @@ You can make a service available or unavailable for scheduling by activating or 
 
 ### See also  
 
-[UCIfied service scheduling overview](uci-scheduling-overview.md)
+[UCI-based service scheduling overview](uci-scheduling-overview.md)
 
 [Add facilites and equipment](uci-add-facilities-equipment.md)
 
