@@ -14,11 +14,14 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
+> [!Important]
+> This feature is intended to help customer service managers or supervisors enhance their team’s performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
+
 Supervisors have a dual responsibility with respect to agents and customers. They monitor and manage agents and make sure they remain highly productive. At the same time, they help provide a superior experience for customers. To help supervisors carry out this dual responsibility, the insights consist of intraday health tracking of agent productivity and performance.
 
 You can use intraday insights in the following ways: 
 
-- As a preconfigured Power BI workspace (preview) that doesn't require a Power BI license; intraday insights can’t be customized. Note: The PaaS version of intraday insights is only available for organizations that are provisioned in a public cloud and is not available in Unified Service Desk (USD). 
+- (Preview feature) As a preconfigured Power BI workspace that doesn't require a Power BI license; intraday insights can’t be customized. **Note**: The preconfigured Power BI workspace version of intraday insights is only available for organizations that are provisioned in a public cloud and isn't available in Unified Service Desk (USD). 
 
 - Using a Power BI Pro or Power BI Premium license for supervisors and administrators; intraday insights can be customized. 
 
@@ -28,13 +31,37 @@ To configure intraday insights for your organization, follow the scenario that i
 
 - If you have previously provisioned an organization with customized intraday insights, you don’t need to do anything further. However, if you want to opt out of your current customized reports and use Microsoft’s Power BI analytics instead, you can enable a non-customizable version of intraday insights. For more information, see [Intraday insights in a preconfigured Power BI workspace](#intraday-insights-in-a-preconfigured-power-bi-workspace). 
 
-- If you have an existing organization and create customized reports, follow the procedures in [Configure customized intraday insights in an existing organization](#configure-customized-intraday-insights-in-an-existing-organization)Configure customized intraday insights in an existing organization. 
+- If you have an existing or new organization and want to create customized reports for it, follow the procedures in [Configure customized intraday insights reports](#configure-customized-intraday-insights-reports). 
 
 
 ## Intraday insights in a preconfigured Power BI workspace
 
+As an administrator for a new organization, intraday insights is configured by default, so you don’t need to take extra steps to configure it, but if you want to switch from using customized reports to using the preconfigured Power BI workspace, follow the steps in this section. The preconfigured Power BI workspace feature allows you to access intraday insights without customizing the reports.
 
-## Configure customized intraday insights in an existing organization
+To view the default preconfigured Power BI workspace or change to it: 
+
+1.  Sign in to **Dynamics 365 Customer Service** and open the **Omnichannel Administration** app. 
+
+    > [!div class=mx-imgBorder]
+    > ![Select Omnichannel Administration](../media/supervisor-admin-select-omnichannel-administration.png "Select Omnichannel Administration")
+
+2.  From the **Site Map** ![Site map icon](../media/oc-usd-supervisor-dashboard-site-map.png "Site map icon"), select **Supervisor Experience** > **Intraday Insights**.  
+
+    > [!div class=mx-imgBorder]
+    > ![Select Overview option](../media/supervisor-admin-select-overview-dashboard.png "Select Overview option")
+
+    The Power BI configuration view opens.
+
+3.  Select **+ New**. 
+
+    The **Power BI Configuration** form opens, where you can see that **Enable preconfigured Power BI workspace** is enabled or set it to enabled.
+
+    > [!div class=mx-imgBorder]
+    > ![Power BI workspace configuration settings page](../media/supervisor-admin-powerbi-configuration-settings.png "Power BI workspace configuration settings page")
+
+
+
+## Configure customized intraday insights reports
 
 As an administrator, you must configure the Intraday insights in your organization before supervisors can use it. You can configure the insights for the **Omnichannel for Customer Service** app on the web and for **Unified Service Desk**.
 
