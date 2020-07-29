@@ -123,5 +123,6 @@ When you validate the SMS settings while setting up the SMS channel, a call is m
 
 ### See also
 
-[SMS FAQ](../faqs.md#sms)  
-[Channels in Omnichannel for Customer Service](channels.md)
+[Channels in Omnichannel for Customer Service](channels.md)<br>
+[Delete a configured channel](delete-channel.md)<br>
+[SMS FAQ](../faqs.md#sms)
