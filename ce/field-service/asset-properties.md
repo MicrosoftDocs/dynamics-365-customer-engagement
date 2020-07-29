@@ -75,56 +75,74 @@ Have one or more assets created in Field Service. For more informations see the 
 
 ## Add property logs
 
+For a particular asset, define the properties of that asset.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/assets-properties-log-create.png)
+
+Only the properties from your template will display as options
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/assets-properties-log-lookup.png)
 
+Choose a property then enter a value for that property. In the example below we entered a number value for the laptop's RAM.
+
+**Reading time** represents the date and time the property equals its current value. By default reading time equals the current date and time but if you are logging a property value from earlier you can set the time. After creating the log the Reading Time cannot be edited. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/assets-properties-log-lookup2.png)
 
-
-### Manually add properties
-
-
-**Asset record > Related > Property Asset Associations**
-
-add property asset association
-
-then go back to Properties tab and add a new property log 
-
-the property you added will now show in the lsit of eligible properties
+Repeat this process for all the asset properties you want to define.
 
 
 ## Maintain property logs
 
+You may want to update the properties that were previously defined.
+
 +New Property Log
 
+Choose an existing property and add a new value.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/assets-properties-maintain.png)
 
 
+The most current properties will show in the Current Property Values list.
+
+All previous property values thoughtout the life span of the asset will appear below in the Property Log History.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/assets-properties-maintain-new-values.png)
 
 > [!Note]
-> You may have to refresh list
+> You may have to refresh the list to see updated delta calculations and log history.
 
 
 ## Configuration considerations
+
+### Manually add properties
+
+In some cases you will need to manually add asset properties for assets that do not belong to a template or in situations where you need to add properties "al la cart" in addition to template properties.  
+
+**Asset record > Related > Property Asset Associations**
+
++property asset association
+
+then go back to the Properties tab and add a new property log 
+
+the property you added will now show in the lsit of eligible properties
+
 ## Additional Notes
 
-When a specific asset record is added to a property template, the template will show as a related record from the asset.
+- Both Current Property Values and Property Log History refer to the same entity but with a differently filtered view.
+
+- When a specific asset record is added to a property template, the template will show as a related record from the asset.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/assets-properties-templates-specific-assets.png)
 
-From the asset go to Related > Asset template associations
+From the asset go to **Related > Asset template associations**
 
 
 > [!div class="mx-imgBorder"]
@@ -132,7 +150,7 @@ From the asset go to Related > Asset template associations
 
 
 
-The "Value" field in the property log shows the value of the asset property whether a string, number, boolean, or Date and Time. This value is not localized and is hidden by default on the property log form.  
+- The "Value" field in the property log shows the value of the asset property whether a string, number, boolean, or Date and Time. This value is not localized and is hidden by default on the property log form.  
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/assets-properties-maintain-new-values-callout.png)
