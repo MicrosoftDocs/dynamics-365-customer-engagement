@@ -78,7 +78,7 @@ Field Service Mobile is recommended for more **complex** use cases where you may
 | Bulk-add users  | Admin | 2020 release wave 2 | Yes | Quickly assign offline data sync profile to users. |
 | Time entry  | Technician | 2020 release wave 2 | Yes | |
 | Check list for service tasks  | Technician | 2020 release wave 2| Yes | Check list for quickly mark task as complete. |
-| [Inspections](inspections.md) | Technician | 2020 release wave 2 | No | Field Service technician can find and capture inspections associated with a work order. |
+| [Inspections](inspections.md) | Technician | 2020 release wave 2 | Yes | Field Service technician can find and capture inspections associated with a work order. |
 
 
 Check [Release Plans](https://docs.microsoft.com/dynamics365/release-plans/) to stay up to date on upcoming features for Field Service including the Field Service (Dynamics 365) mobile app.
