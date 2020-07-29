@@ -1,6 +1,6 @@
 ---
-title: Overview of Smart assist | Microsoft Docs
-description: Overview of the Smart assist feature in Dynamics 365 Customer Service workspace.
+title: Overview of the productivity pane | Microsoft Docs
+description: Overview of the Productivity pane in the Dynamics 365 Customer Service workspace application.
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
@@ -19,10 +19,11 @@ search.app:
   - D365CS
 ---
 
-# Overview of Smart assist
-
+# Overview of the productivity pane
 > [!Note]
 > This topic is pre-release documentation and is subject to change.
+
+## Smart assist
 
 Smart assist is an intelligent assistant that is designed to help agents be more productive as they resolve customer issues by providing real-time suggestions of the best course of actions to take while working on an assigned case. It shows relevant, AI-generated suggestions, such as knowledge articles and similar cases that match the context of the active case.
 
