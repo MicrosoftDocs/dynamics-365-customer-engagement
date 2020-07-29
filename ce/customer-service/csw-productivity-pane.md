@@ -1,6 +1,6 @@
 ---
 title: Overview of the productivity pane | Microsoft Docs
-description: Overview of the Productivity pane in the Dynamics 365 Customer Service workspace application.
+description: Overview of the productivity pane in Dynamics 365 Customer Service workspace.
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
@@ -19,9 +19,13 @@ search.app:
   - D365CS
 ---
 
-# Overview of the productivity pane
+# Use the productivity pane to guide agents
 > [!Note]
 > This topic is pre-release documentation and is subject to change.
+
+The productivity pane in the Customer Service workspace is an auxiliary work area that contains productivity tools that support or expedite an agent's task when resolving customer issues.
+
+There following components make up the productivity pane.
 
 ## Smart assist
 
@@ -36,9 +40,6 @@ In the Customer Service workspace application, **Smart assist** appears on the p
 
 Smart assist displays the relevant suggestions as individual cards that are grouped as either Knowledge articles or Similar cases suggestions. For more information, see [View AI-suggested cases in knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md).
 
-## Use the productivity pane to guide agents
-
-The productivity pane in the Customer Service workspace is an auxiliary work area that contains productivity tools that support or expedite an agent&#39;s task, when resolving customer issues.
 
 The productivity pane displays the **Smart assist** control, where agents can quickly view and interact with relevant AI-generated knowledge articles and similar cases suggestions for the case they are working on.
 
