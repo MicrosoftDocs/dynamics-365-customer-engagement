@@ -57,7 +57,7 @@ To view the default preconfigured Power BI workspace or change to it:
     The **Power BI Configuration** form opens, where you can see that **Enable preconfigured Power BI workspace** is enabled or set it to enabled.
 
     > [!div class=mx-imgBorder]
-    > ![Power BI workspace configuration settings page](../media/supervisor-admin-powerbi-configuration-settings.png "Power BI workspace configuration settings page")
+    > ![Preconfigured Power BI workspace configuration settings page](../media/supervisor-admin-preconfigured-powerbi-configuration-settings.png "Preconfigured Power BI workspace configuration settings page")
 
 
 
