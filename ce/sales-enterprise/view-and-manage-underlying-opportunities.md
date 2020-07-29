@@ -89,7 +89,7 @@ The following screen is an example of the enhanced grid view of underlying recor
 
     By default, when users open the underlying records grid the opportunities in the opportunity split (rollup entity) are listed. As the records of opportunity split are derived from opportunity (related entity), users might want to edit the records directly in opportunity (related entity). Therefore, users must select attributes of opportunity, which is the related entity in this data model.
 
-    To support this type of scenario, the **Group by** drop-down lists the related entity attributes of opportunity split (rollup entity), so that users can select relevant opportunity attribute, and then view and edit related opportunity records.    
+    To support such scenarios, the **Group by** drop-down lists the related entity attributes of opportunity split (rollup entity), so that users can select relevant opportunity attribute, and then view and edit related opportunity records.    
 
     > [!div class="mx-imgBorder"]
     > ![Opportunity split data model](media/forecast-opportunity-split-data-model.png "Opportunity split data model")
