@@ -88,6 +88,7 @@
 ##### [Macros](administrator/macros.md)
 ##### [Use automation dictionary to pass data parameters keys](administrator/automation-dictionary-keys.md)
 ##### [Agent scripts](administrator/agent-scripts.md)
+##### [Enable personal quick replies](administrator/enable-personal-quick-replies.md)
 ##### [Smart assist](administrator/smart-assist.md)
 ##### [Productivity pane](administrator/productivity-pane.md)
 #### [Create quick replies](administrator/create-quick-replies.md)
@@ -117,8 +118,8 @@
 #### [Create and manage data masking rules](administrator/data-masking-settings.md)
 #### [Create chat authentication settings](administrator/create-chat-auth-settings.md)
 #### [Enable self service settings in conversation summary](administrator/enable-self-service-settings.md)
-## Agent guide
 
+## Agent guide
 ### [Overview](agent/omnichannel-agent-overview.md)
 ### Agents using Omnichannel for Customer Service app
 #### [Overview of Omnichannel for Customer Service app](agent/agent-oc/omnichannel-customer-service-app-agent.md)
@@ -132,6 +133,7 @@
 #### [Monitor real-time customer sentiment](agent/agent-oc/oc-monitor-real-time-customer-sentiment-sessions.md)
 #### [Manage sessions](agent/agent-oc/oc-manage-sessions.md)
 #### [Manage applications](agent/agent-oc/oc-manage-applications.md)
+#### [Create personal quick replies](agent/agent-oc/create-personal-quick-replies.md)
 #### Productivity tools
 ##### [Use agent scripts](agent/agent-oc/oc-agent-scripts.md)
 ##### [View smart assist cards](agent/agent-oc/oc-smart-assist.md)

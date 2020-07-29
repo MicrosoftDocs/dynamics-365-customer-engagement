@@ -37,7 +37,7 @@ In the communication panel, you can see the following options:
 |------|------------------|-----------------------------------------------|----------|
 |  1   | Public           | Send messages to public | `/p` |
 |  2   | Internal         | Send messages to internal users | `/i` |
-|  3   | Quick replies    | Send templatized messages  | `/q` |
+|  3   | Quick replies    | Send templatized messages created by you as personal quick replies or quick replies created by your administrator | `/q` |
 |  4   | Consult          | View list to consult with other users | `/c` |
 |  5   | Transfer         | View list to transfer the request | `/t` and `/tq` |
 |  6   | Notes            | Take notes specific to conversation | |

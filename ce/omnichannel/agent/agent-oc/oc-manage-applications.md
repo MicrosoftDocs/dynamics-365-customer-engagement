@@ -1,10 +1,10 @@
 ---
 title: "Manage applications in Omnichannel for Customer Service app | MicrosoftDocs"
 description: "Learn how to manage applications using the application tab panel in Omnichannel for Customer Service app"
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim 
 manager: shujoshi
-ms.date: 12/27/2019
+ms.date: 08/03/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -57,10 +57,11 @@ The title of the application tab is the name of the entity. For example, dashboa
 
 > [!div class=mx-imgBorder]
 > ![App tab title](../../media/oceh/oceh-app-tab-title.png "App tab title")
- 
-## See also
 
-- [View agent dashboard and conversations (work items)](oc-agent-dashboard.md)
-- [Manage sessions](oc-manage-sessions.md)
-- [Understand conversation states](oc-conversation-state.md)
-- [View communication panel](oc-conversation-control.md)
+### See also
+
+[Create personal quick replies](create-personal-quick-replies.md)  
+[View agent dashboard and conversations (work items)](oc-agent-dashboard.md)  
+[Manage sessions](oc-manage-sessions.md)  
+[Understand conversation states](oc-conversation-state.md)  
+[View communication panel](oc-conversation-control.md)  

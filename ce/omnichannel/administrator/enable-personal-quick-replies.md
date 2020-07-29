@@ -26,6 +26,8 @@ search.app:
 
 You can allow agents to create their own personal quick replies that are stored in the agent's context and can be invoked with the associated tags during a session with the customers. The personal quick replies allow agents to respond to customer queries efficiently with minimal turnaround time.
 
+As an administrator, you can use a Power Automate utility to delete unused tags.
+
 ## Enable personal quick replies
 
 1. In the Omnichannel Administration app, go to **Agent Experience**, and select **Personal quick replies**. The **Omnichannel Configuration - Personal quick replies** page is displayed.
