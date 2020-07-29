@@ -70,7 +70,7 @@
 
 ### Email administration
 #### [Best practices for email marketing](get-ready-email-marketing.md)
-#### [Glossary of email bounce categories](email-bounce-categories.md)
+#### [Email bounce categories](email-bounce-categories.md)
 #### [Email policies and suspension standards](email-policies.md)
 
 ### Privacy and compliance
