@@ -181,7 +181,7 @@ To create a WhatsApp channel, follow these steps:
 [Create and manage routing rules](routing-rules.md)<br>
 [Configure automated messages](configure-automated-message.md)<br> 
 [Configure a pre-chat survey](configure-pre-chat-survey.md)<br>
-[Configure a post-chat survey](configure-post-chat-survey.md)
-[Skill-based routing](overview-skill-work-distribution.md)
-[Create message templates](create-message-templates.md)
+[Configure a post-chat survey](configure-post-chat-survey.md)<br>
+[Skill-based routing](overview-skill-work-distribution.md)<br>
+[Create message templates](create-message-templates.md)<br>
 [Templates](templates-overview.md)
