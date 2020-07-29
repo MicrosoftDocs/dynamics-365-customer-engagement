@@ -19,7 +19,7 @@ search.app:
   - D365CS
 ---
 
-# Use the productivity pane to guide agents
+# Use the productivity pane to help resolve customer issues
 > [!Note]
 > This topic is pre-release documentation and is subject to change.
 
