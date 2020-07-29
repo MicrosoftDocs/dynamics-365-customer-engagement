@@ -110,6 +110,8 @@ Choose an existing property and add a new value.
 
 The most current properties will show in the Current Property Values list.
 
+The **Delta** value represents the difference between the new, updated value and the most recent, previous property value (New value - previous value).  
+
 All previous property values thoughtout the life span of the asset will appear below in the Property Log History.
 
 > [!div class="mx-imgBorder"]
@@ -118,8 +120,6 @@ All previous property values thoughtout the life span of the asset will appear b
 > [!Note]
 > You may have to refresh the list to see updated delta calculations and log history.
 
-
-## Configuration considerations
 
 ### Manually add properties
 
