@@ -1,5 +1,5 @@
 ---
-title: "Support for Dynamics 365 for phones and Dynamics 365 for tablets | MicrosoftDocs"
+title: "Support for Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom:
 ms.date: 01/22/2018
 ms.reviewer:
