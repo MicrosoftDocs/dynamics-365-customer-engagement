@@ -2,7 +2,7 @@
 title: "Dynamics 365 Field Service inspections (public preview) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 07/20/2020
+ms.date: 08/01/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -33,7 +33,7 @@ Field Service inspections are digital forms that technicians use to quickly and 
 Compared to work order incident types and service tasks, using inspections has additional benefits:
 
 - **Easier to create**: administrators can quickly create an inspection with a drag-and-drop interface without needing to create new entities and fields.
-- **Easier to fill out**: technicians can quickly enter responses for each inspection question and save all of them with one click, rather than having to open and close multiple records.
+- **Easier to fill out**: technicians can quickly enter responses for each inspection question and save all of them at once, rather than having to open and close multiple records.
 - **More flexible and robust**: Field Service inspections have many question format and validation options, such as multi-option select, mandatory fields, images, attachments, and more. 
 
 Inspections are easy to create and use, involving the following steps: 
@@ -94,17 +94,15 @@ By selecting the **Gear** icon, you can add more details for an inspection quest
 
 ### Pages
 
-Sometimes it is valuable to add pages to your inspection to:
+Add pages to your inspection in order to:
 
-1) group questions together to organize inspection questions in a logical way by type, phase, etc.
-2) make it easier to add logic to multiple questions at one time (see section on "branching and conditional logic" below).
-
+1. Group questions together to organize them in a logical way by type, phase, and so on.
+2. Make it easier to add logic to multiple questions at one time. For more information, see the section on branching and conditional logic further into this article.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/inspections-page.png)
+> ![Screenshot of pages on an inspection.](./media/inspections-page.png)
 
-Select the page dropdown in the top left of the designer to add one or more pages. Then add a Page title and a Page description (optional) if needed. 
-
+Select the page dropdown in the top left of the designer to add one or more pages. Then add a page title and a page description, if needed.
 
 ### Branching and conditional logic
 
@@ -117,11 +115,11 @@ Go to the **Logic** section of the designer form to add branching and conditiona
 
 Based on the response to an inspection question, options include:
 
-- **Make Page visible** - Make the entire page of questions visible when the condition is true. Otherwise keep it hidden.
+- **Make page visible**: Make the entire page of questions visible when the condition is true. Otherwise keep it hidden.
 
 - **Show the question**: Make the question visible when the condition is true. Otherwise keep it hidden.
 
-- **Change to Required**: Question becomes required when the condition is true.
+- **Change to required**: Question becomes required when the condition is true.
 
 - **Skip to question**: When the condition is true, then the focus shifts to the selected question.
 
@@ -144,27 +142,22 @@ When finished creating the inspection, select **Publish** at the top.
 
 ### Export as PDF
 
-Export an inspection as a PDF to provide an alternative method to send and fill out inspections. This can be helpful for situations where you need to send the inspection questions via email ahead of time.
+Export an inspection as a PDF to provide an alternative method to send and fill out inspections. Exporting as PDF is helpful for situations where you need to send the inspection questions via email ahead of time.
 
-From an inspection select **Export to PDF** in the top ribbon.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/inspections-export1.png)
-
-A PDF file with the blank inspection questions will be downloaded automatically.
-
+From an inspection, select **Export to PDF** in the top ribbon.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/inspections-export2.png)
+> ![Screenshot of the export as PDF option.](./media/inspections-export1.png)
 
-The PDF will be interactive and you can enter answers and save the answers to the PDF, but the answers will not be saved to Dynamics 365 Field Service or the Common Data Model. In addition, some question types are limited. As an example, the entity lookup question type will not reference the Dynamics 365 database records.
+A PDF with the blank inspection questions will be downloaded automatically.
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the generated inspection PDF.](./media/inspections-export2.png)
+
+The PDF will be interactive, where you can enter answers and saved to the PDF; the answers will *not* be saved to Dynamics 365 Field Service or Common Data Model. In addition, some question types are limited. For example, the entity lookup question type will not reference the Dynamics 365 database records.
 
 > [!Note]
-> The Export to PDF function only exports blank inspections without responses.
-
-
-
+> The export to PDF function only exports blank inspections without responses.
 
 ## Associate inspection to service task type
 
@@ -278,17 +271,16 @@ Associating a customer asset allows the technician to see which customer asset n
 Select the **Revise** ribbon button to edit a published inspection to add new questions, remove obsolete questions, edit the question types, and update the logic.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/inspections-versions-revise.png)
+> ![Screenshot of the revise option on an inspection.](./media/inspections-versions-revise.png)
 
-In the Versions section of the Inspection form you will see the current version of the inspection with a status of published, and a new version that can be edited with a status of Draft.
-
+In the **Versions** section of the inspection form, you'll see the current version of the inspection with a status of **Published**, and a new version that can be edited with a status of **Draft**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/inspections-versions2.png)
+> ![Screenshot of a published and a draft inspection in the versions section.](./media/inspections-versions2.png)
 
-When the Draft (Revised) version is published, the existing published inpsection version will be deactivated. 
+When the draft version is published, the existing published inspection version will be deactivated.
 
-Existing work orders will display and reference the previous version of the inspection whereas new work orders will diplay and reference the new revised version.
+Existing work orders will display and reference the previous version of the inspection, whereas new work orders will display and reference the new revised version.
 
 ## Inspections on Dynamics 365 Field Service Power App
 
@@ -515,5 +507,5 @@ Storing and retrieving each inspection response in Common Data Model is not part
 > ![Screenshot showing a work order service task in Field Service, with attention to the related section being empty.](./media/inspections-known-issue-cant-view-inspection.jpg)
 
 - Inactive inspections and work order service tasks are not available in offline mode. 
-- Inspections do not load in Internet Explorer. Edge or Chrome are recommended. 
+- Inspections do not load in Internet Explorer. Edge or Chrome is recommended. 
 - The question type "Entity lookup" shows inactive records.
