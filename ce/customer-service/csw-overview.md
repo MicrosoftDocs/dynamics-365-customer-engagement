@@ -37,17 +37,21 @@ You can access Customer Service workspace through the app selector where you fin
 
 As an agent with the Customer Service Representative security role, when you open Customer Service workspace, you start on the Customer Service Agent Dashboard unless your administrator has changed the default view. This dashboard shows you your active cases, cases you can work in queues you are assigned to, and your open activities. You can open existing cases and activities or begin working new cases from the queues you are assigned to and create new activities. 
 
-Let's explore the elements of the Customer Service workspace and how to navigate between them: 
-1. The session pane lists all of the sessions you are actively working on. Select the tabs to navigate between sessions. 
-2. The Home session returns you to the Customer Service Agent Dashboard view. 
-3. Each session has a tab in the session panel. Select a tab to navigate to the session you want to work on. 
-4. Hold Shift + click to open a new session for a case. A single click on a case replaces your view with the case form. Select the back arrow in the upper-left corner of the form to get back to your previous view.
-5. Select the drop-down selector to filter cases in queues you can choose to work on. 
-6. Select the tabs to navigate to your open activities, cases, forms and views. 
-7. Select the + icon to expand the menu to view a list of forms, views, and activities. Select the one you want to open in a new tab. 
-8. Hold Shift + click to open a new session for an activity. A single click replaces your view with the activity form. Select the back arrow in the upper-left corner of the form to go back to your previous view.
+Let's explore the elements of the Customer Service workspace and how to navigate between them:
 
 :::image type="content" source="media/csw-overview.png" alt-text="Customer Service workspace overview" border="false":::
+
+Label | Description
+------------ | -------------
+1 | The session pane lists all of the sessions you are actively working on. Select the tabs to navigate between sessions. 
+2 | The Home session returns you to the Customer Service Agent Dashboard view.
+3 | Each session has a tab in the session panel. Select a tab to navigate to the session you want to work on. 
+4 | Hold Shift + click to open a new session for a case. A single click on a case replaces your view with the case form. Select the back arrow in the upper-left corner of the form to get back to your previous view.
+5 | Select the drop-down selector to filter cases in queues you can choose to work on. 
+6 | Select the tabs to navigate to your open activities, cases, forms and views. 
+7 | Select the + icon to expand the menu to view a list of forms, views, and activities. Select the one you want to open in a new tab. 
+8 | Hold Shift + click to open a new session for an activity. A single click replaces your view with the activity form. Select the back arrow in the upper-left corner of the form to go back to your previous view.
+
 
 ### Viewing and editing records
 
@@ -62,46 +66,59 @@ There are new navigation behaviors to be aware of in Customer Service workspace.
 
 From the Customer Service Agent Dashboard in Customer Service workspace, you can:
 
-1. Select multiple cases to work with. Select the top check mark to select all cases, or select individual check boxes next to each case to select a specific group of cases.
-2. Associate child cases with selected cases. 
-3. Merge cases together. 
-4. Edit selected cases. 
-5. Delete selected cases. 
-6. Apply a routing rule to route cases to a queue. 
-7. Open the menu for additional actions including Assign, Add to Queue, Run Report, Email a Link, Share, Follow, or Unfollow cases. 
-
 :::image type="content" source="media/bulkEditCases.png" alt-text="Customer Service workspace overview" border="false":::
+
+Label | Description
+------------ | -------------
+1 | Select multiple cases to work with. Select the top check mark to select all cases, or select individual check boxes next to each case to select a specific group of cases.
+2 | Associate child cases with selected cases. 
+3 | Merge cases together. 
+4 | Edit selected cases. 
+5 | Delete selected cases. 
+6 | Apply a routing rule to route cases to a queue. 
+7 | Open the menu for additional actions including Assign, Add to Queue, Run Report, Email a Link, Share, Follow, or Unfollow cases. 
+
 
 ### Work with activities
 
 From the Customer Service Agent Dashboard in Customer Service workspace, you can:
 
-1. Select multiple activities to work with. Click the top check mark to select all or individual check boxes next to each activity to select a specific group of activities.
-2. Edit selected activities. 
-3. Delete selected cases. 
-4. Open the menu for aditional actions including Mark Complete, Cancel, Set Regarding, Assign, Email a Link, Add to Queue, Run Report. 
-
 :::image type="content" source="media/bulkEditActivities.png" alt-text="Customer Service workspace overview" border="false":::
+
+Label | Description
+------------ | -------------
+1 | Select multiple activities to work with. Click the top check mark to select all or individual check boxes next to each activity to select a specific group of activities.
+2 | Edit selected activities. 
+3 | Delete selected cases. 
+4 | Open the menu for aditional actions including Mark Complete, Cancel, Set Regarding, Assign, Email a Link, Add to Queue, Run Report. 
+
 
 ### Create and search knowledge articles
 
 From the Customer Service Agent Dashboard in Customer Service workspace, you can access knowledge search and knowledge articles:
 
-1. Select the + icon to expand the tab menu.
-2. Select Knowledge Article or Knowledge Search. 
+:::image type="content" source="media/knowledge-csw.png" alt-text="Customer Service workspace knowledge" border="false":::
+
+Label | Description
+------------ | -------------
+1 | Select the + icon to expand the tab menu.
+2 | Select Knowledge Article or Knowledge Search. 
 
 Intelligent knowledge suggestions display in the productivity pane while working on a case. 
 
-:::image type="content" source="media/knowledge-csw.png" alt-text="Customer Service workspace knowledge" border="false":::
 
 ### Create email templates and signatures
 
 From the Customer Service Agent Dashboard in Customer Service workspace, you can access email templates and signatures:
 
-1. Select the + icon to expand the tab menu 
-2. Select Email Templates and Email Signatures.
-
 :::image type="content" source="media/email-csw.png" alt-text="Customer Service workspace email" border="false":::
+
+Label | Description
+------------ | -------------
+1 | Select the + icon to expand the tab menu 
+2 | Select Email Templates and Email Signatures.
+
+
 
 ### Productivity pane with Smart Assist
 
