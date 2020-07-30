@@ -26,14 +26,10 @@ The Facebook channel gives you an incredible opportunity to capitalize on the so
 
 After completing the prerequisites, you can add the Facebook channel for your organization by following these steps:
 
-- [Configure a Facebook channel](#configure-a-facebook-channel)
   - [Step 1: Create a Facebook work stream](#step-1-create-a-facebook-work-stream)
   - [Step 2: Create a Facebook channel](#step-2-create-a-facebook-channel)
   - [Step 3: Create routing rules](#step-3-create-routing-rules)
   - [Step 4: Modify settings for a specific Facebook page](#step-4-modify-settings-for-a-specific-facebook-page)
-  - [Customer experience](#customer-experience)
-  - [Privacy notice](#privacy-notice)
-    - [See also](#see-also)
 
 ## Step 1: Create a Facebook work stream
 
@@ -133,51 +129,6 @@ After you add a Facebook page, values for **Callback Uri** and **Verify Token** 
     
 4. On the **Surveys** tab, [configure a post-conversation survey](configure-post-chat-survey.md).
 
-<!--### File attachments
-
-You can enable or disable the capability for your agents and customers to send file attachments during a Facebook channel conversation. 
-
-When you enable the option for customers in the Facebook page configuration, customers can send attachments from their messenger. Similarly, when you enable the option for agents in the Facebook page configuration, agents can send the attachments from the communication panel to the customers. To learn how to enable the option, see step 6 in [Create a Facebook channel](#step-2-create-a-facebook-channel).
-
-If an agent transfers the conversation to another agent, the agent who receives the chat can also access the files attached in the conversation.
-
-#### File size limit and unsupported extensions (types) for attachments
-
-By default, Omnichannel for Customer Service has a file size limit of 5 megabytes (MB) (5,120 kilobytes). However, you can configure the file as per your organization's requirements. 
-
-> [!Tip]
-> We recommend that you configure a maximum limit of 25 MB (25,600 kilobytes) because the Facebook messenger file size limit is 25 MB.
-
-You can set the file extension types that customers and agents can share. 
-
-#### Configure file size limit and file extensions
-
-To configure the file size limit and file extensions, follow these steps:
-
-1. Sign in to Omnichannel Administrator.
-
-2. Select the settings icon in the nav bar, and then select **Advanced Settings**.
-
-3. Go to **Settings** > **Administration** > **System Settings**.
-
-2. In the **System Settings** window, go to the **Email** tab.
-
-3. Go to the **Set file size limit for attachments** section, and in the **Maximum file size (in kilobytes)** field, enter the value in kilobytes.
-
-    > [!div class=mx-imgBorder]
-    > ![Set file size limit for attachment](../media/file-size-limit.png "Set file size limit for attachment")
-
-4. To specify unsupported file types, go to the **General** tab.
-
-5. In the **Set blocked file extensions for attachments** field, add or edit the file types.
-
-    > [!div class=mx-imgBorder]
-    > ![Specify unsupported file types](../media/unsupported-file-types.png "Specify unsupported file types")
-
-6. Select **OK**.
-
-Now, agents and customers can share file attachments during their conversation. -->
-
 ## Customer experience
 
 A customer can initiate a conversation in any of the following ways:
@@ -195,7 +146,7 @@ If the customer is identified based on name, the conversation is automatically l
 
 If the customer is not identified based on name, a new contact record can be created.
 
-Customer can send attachments only if you enable.  If you don't enable the option for the customers, they can send the file. However, agents won't receive the file and will see an error. To learn more, see [File attachments](#file-attachments).
+Customer can send attachments only if you enable.  If you don't enable the option for the customers, they can send the file. However, agents won't receive the file and will see an error.
 
 > [!div class=mx-imgBorder]
 > ![Customer sending file](../media/fb-customer1.png "Customer sending file")
