@@ -30,7 +30,8 @@ Perform the following steps to add columns and configure the forecast grid:
 Every forecast needs an option set to define rollup columns. 
 
 > [!IMPORTANT]
-> The **Prediction** column is available only when predictive forecasting is enabled for your organization. To learn more, see [About premium forecasting](https://docs.microsoft.com/dynamics365/ai/sales/configure-premium-forecasting).
+> - The **Prediction** column is available only when predictive forecasting is enabled for your organization. To learn more, see [About premium forecasting](https://docs.microsoft.com/dynamics365/ai/sales/configure-premium-forecasting).
+> - To view the status of the prediction, select the icon displayed corresponding to the **Prediction** column. To learn more, see [View prediction model status](https://review.docs.microsoft.com/dynamics365/ai/sales/view-prediction-model-status). 
 
 To define the layout, select an option set and then add the rollup columns accordingly, as described in the following steps.
 
