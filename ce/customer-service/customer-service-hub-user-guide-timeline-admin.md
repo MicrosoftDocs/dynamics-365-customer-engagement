@@ -446,33 +446,29 @@ You only want to enable activities that you need on this form. When working with
 
 ## Notes on timeline
 
-Additional functionality will be provided. You can enable sort fields on **Notes**.
+Use the following steps for **Notes**:
 
 1. Select **Notes**
-2. The section will expanded you will see **Coming soon** which indicates you have **Notes** enabled. 
+2. The section will expand to see **Coming soon** which indicates you have **Notes** enabled. 
 3. Once enabled, you can now click on the ![](media\timeline-create-a-record-icon.png "Create a timeline record") (Create a timeline record) icon 
 4. Flyout will appear. Select **Notes**
 5. Begin writing your **Note** using rich text and just click **Add Note** at the bottom to save.
 
 ![Notes on timeline](media\timeline-notes-1.png "Notes on timeline")
 
-### How to create and add custom activities to timeline
-
-You can create custom entities to display on the timeline by enabling specific options during the creation of the entity. See the [How to create and add custom activities](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-custom-activity-in-timeline) for a step by step guide.
-
 ## Posts on timeline
 
-You can enable sort fields on **Posts**.
+Use the following steps for **Posts**:
 
 1. Select **Post**
-2. The section will expanded you will see **Coming soon** which indicates you have **Post** enabled. 
+2. The section will expand to see **Coming soon** which indicates you have **Post** enabled. 
 3. Once enabled, you can now click on the ![](media\timeline-create-a-record-icon.png "Create a timeline record") (Create a timeline record) icon 
 4. Flyout will appear. Select **Posts**
 5. Begin writing your **Post**.
 
 ![Posts on timeline](media\timeline-posts-1.png "Posts on timeline")
 
-### Save and publish timeline updates and changes
+## Save and publish timeline updates and changes
 
 Before you can view any configuration changes on the entity form, you must save and publish your updates first on the timeline component. 
 
@@ -481,12 +477,16 @@ Before you can view any configuration changes on the entity form, you must save 
 
     ![Save and publish timeline updates and changes](media\timeline-save-and-publish-updates-and-changes-1.png "Save and publish timeline updates and changes")
 
-### How to configure dashboard timelines
+## How to configure dashboard timelines
 
-Timelines can be configured and put on a dashboard. However, dashboards are not supported by Power Apps and therefore can only be use in the [name of the legacy experience – ask Shubhada]. For more information see [Set up timeline section (control)](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control).
+Timelines can be configured and put on a dashboard. However, dashboards are not supported by Power Apps. For more information see [Set up timeline section (control)](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control).
 
 > [!NOTE]
 > Capabilities on a dashboard timeline are different than those in an embedded dashboard timeline.  For more information see [Create or edit model-driven app dashboards](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-edit-dashboards).
+
+## How to create and add custom activities to timeline
+
+You can create custom entities to display on the timeline by enabling specific options during the creation of the entity. See the [How to create and add custom activities](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-custom-activity-in-timeline) for a step by step guide.
 
 ### See Also
 
