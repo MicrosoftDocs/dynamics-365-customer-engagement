@@ -121,19 +121,23 @@ You can use any of the following options for enabling threaded email views in ti
 
 **Option 1:** 
 1. Select the ![](media\timeline-more-commands.icon.png "More commands") **More commands** icon on the timeline, which will display a flyout menu.
+
 2. Select **Always show email as conversations**. Now your emails will display in timeline threaded together.
 
-![Enable threaded email timeline view - option 1](media\timeline-threaded-email-views-2.png "Enable threaded email timeline view - option 1")
+    ![Enable threaded email timeline view - option 1](media\timeline-threaded-email-views-2.png "Enable threaded email timeline view - option 1")
 
 **Option 2:**
 1. On the command bar, select **Settings** > **Personalization Settings**. The **Set Personal Options** dialog box appears.
-4. Select the **Email** tab.
-5. Select the **Show emails as conversation on Timeline** check box.
-6. Select **OK**.
 
-    > ![Enable threaded email timeline view - option 2](media\timeline-threaded-email-views-3.png "Enable threaded email timeline view - option 2")
+2. Select the **Email** tab.
 
->[!Note]
+3. Select the **Show emails as conversation on Timeline** check box.
+
+4. Select **OK**.
+
+    ![Enable threaded email timeline view - option 2](media\timeline-threaded-email-views-3.png "Enable threaded email timeline view - option 2")
+
+> [!Note]
 > The **emails as conversation view** is based on the user's preference. Personal setting are tied to the user and not the form, which means once you enable the threaded email view, the setting is applied to all your timeline views. 
 
 ## Search records on timeline
