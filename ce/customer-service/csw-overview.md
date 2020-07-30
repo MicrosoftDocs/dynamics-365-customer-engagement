@@ -66,7 +66,7 @@ There are new navigation behaviors to be aware of in Customer Service workspace.
 
 From the Customer Service Agent Dashboard in Customer Service workspace, you can:
 
-:::image type="content" source="media/bulkEditCases.png" alt-text="Customer Service workspace overview" border="false":::
+:::image type="content" source="media/bulkEditCases.png" alt-text="Customer Service workspace bulk edit case" border="false":::
 
 Label | Description
 ------------ | -------------
@@ -78,12 +78,36 @@ Label | Description
 6 | Apply a routing rule to route cases to a queue. 
 7 | Open the menu for additional actions including Assign, Add to Queue, Run Report, Email a Link, Share, Follow, or Unfollow cases. 
 
+#### Editing case data
+
+Let's explore the fields you can edit on the **Case Summary** tab:
+
+:::image type="content" source="media/CaseSummary.png" alt-text="Customer Service workspace Case Summary" border="false":::
+
+Label | Description
+------------ | -------------
+1 | In the Case Details you can update the Case Title, Customer, Subject, Priority, Case Status, Product, and Description
+2 | These are attributes that are set when the case is created by the system including Case Number, Origin, and Created On Date that won't change. You can change the case owner here.
+3 | Click the + on the Timeline to expand the menu of Timeline actions. 
+
+Let's explore the fields you can edit on the **Case Additional Details** tab:
+
+:::image type="content" source="media/CaseAddtlDetails.png" alt-text="Customer Service workspace Case Additional Details" border="false":::
+
+Label | Description
+------------ | -------------
+1 | You can set Service Level Agreement (SLA) attributes on the case so that customer support managers can measure the overall success of the support organization against its goals of meeting customer Service Level Agreements.
+2 | You can associated a Parent Case, classify the Type of case, and apply a support Entitlement. 
+3 | You can view, sort, and export the list of Associated Knowledge Articles.
+4 | You can view and export the list of Similar Cases.
+5 | You can view, add associations, and export Child Cases. 
+6 | You can view and export the list of Merged Cases.
 
 ### Work with activities
 
 From the Customer Service Agent Dashboard in Customer Service workspace, you can:
 
-:::image type="content" source="media/bulkEditActivities.png" alt-text="Customer Service workspace overview" border="false":::
+:::image type="content" source="media/bulkEditActivities.png" alt-text="Customer Service workspace bulk edit activities" border="false":::
 
 Label | Description
 ------------ | -------------
