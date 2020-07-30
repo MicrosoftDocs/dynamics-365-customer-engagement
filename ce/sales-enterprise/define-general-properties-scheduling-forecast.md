@@ -1,7 +1,7 @@
 ---
 title: "Define general properties and scheduling for a forecast (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Define general properties and scheduling for a forecast in Dynamics 365 Sales."
-ms.date: 06/21/2020
+ms.date: 08/01/2020
 ms.service: 
   - "dynamics-365-sales"
 ms.custom: 
@@ -101,7 +101,7 @@ Using the general properties and scheduling options of the forecast configuratio
     > [!div class="mx-imgBorder"]
     > ![Enter a name for the forecast](media/forecast-general-properties-forecast-name.png "Enter a name for the forecast")
 
-2.	Select a **Rollup entity**. The forecast is based on the gross rollup of the selected entity. By default, **Opportunity** is selected in **Rollup entity**. You can choose a custom entity, to support your organizationl requirements.   
+2.	Select a **Rollup entity**. The forecast is based on the gross rollup of the selected entity. By default, **Opportunity** is selected in **Rollup entity**. You can choose a custom entity, to support your organizational requirements.   
 
     > [!div class="mx-imgBorder"]
     > ![Select a rollup entity](media/forecast-general-properties-rollup-entity.png "Select a rollup entity")
@@ -109,6 +109,7 @@ Using the general properties and scheduling options of the forecast configuratio
 3.	Choose the **Hierarchy entity**. The entities that are displayed in the list are hierarchy-enabled entities that are available in your organization. 
 
     By default, the following values are selected for templates:
+
     | Template | Value |
     |----------|-------|
     | Org chart forecast | User |
@@ -142,7 +143,7 @@ Using the general properties and scheduling options of the forecast configuratio
     |----------|----------------------------------|-------------|
     | Org chart forecast | Opportunity > Owner (User) > User | The forecast hierarchy is defined based on the organizational hierarchy. |
     | Territory forecast | Opportunity > Account (Account) > Territory (Territory) > Territory | The forecast hierarchy is defined based on the territory hierarchy. |
-    | Product forecast | pportunity Product > Existing Product (Product) > Product | The forecast hierarchy is defined based on the product hierarchy. |
+    | Product forecast | Opportunity Product > Existing Product (Product) > Product | The forecast hierarchy is defined based on the product hierarchy. |
 
     You can edit these values if you want to use your organization-specific attributes to define the relationship between the rollup entity and hierarchy entity.
 
