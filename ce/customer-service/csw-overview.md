@@ -151,7 +151,7 @@ While working a case, the productivity pane on the right side of the Customer Se
 :::image type="content" source="media/productivity-pane-overview.png" alt-text="Productivity pane with Smart Assist" border="false":::
 
 ### See also  
-[Work with cases](customer-service-hub-user-guide-create-a-case.md)    </br>
-[Work with activities](customer-service-hub-user-guide-manage-timeline-activities.md) </br>
+[Work with cases in Customer Service Hub](customer-service-hub-user-guide-create-a-case.md)    </br>
+[Work with activities in Custommer Service Hub](customer-service-hub-user-guide-manage-timeline-activities.md) </br>
 [Productivity pane](csw-productivity-pane.md)
 
