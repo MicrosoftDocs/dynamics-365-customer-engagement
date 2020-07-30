@@ -60,9 +60,11 @@ From the survey go to **Send** in the top right then choose **Email** and edit t
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-survey-new-form-email-template.png)
 
-## Flow template
+## Step 3: Edit the Power Automate flow template
 
-https://us.flow.microsoft.com/en-us/galleries/public/templates/7135fe34812745d5af513437a7657002/send-a-survey-when-a-work-order-is-completed-or-closed-in-dynamics-365/
+Go to [https://flow.microsoft.com](https://flow.microsoft.com) and search for the template titled "[Send a survey when a work order is completed or closed in Dynamics 365](https://us.flow.microsoft.com/en-us/galleries/public/templates/7135fe34812745d5af513437a7657002/send-a-survey-when-a-work-order-is-completed-or-closed-in-dynamics-365/)".
+
+
 
 Environment
 
