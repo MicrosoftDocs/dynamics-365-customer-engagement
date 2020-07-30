@@ -35,7 +35,7 @@ The icons displayed in the top right nav in the Timeline give quick access to th
 
 ## Create a timeline record
 
-When enabled by your system administrator, the **Create a timeline record** ![](media\timeline-create-a-record-icon.png "Create a timeline record") icon allows you to quickly create appointments, send emails, and make notes and posts and associate them with other records. You can select the plus icon to view the options that are available for use.
+When enabled by your system administrator, the **Create a timeline record** ![Create a timeline record](media\timeline-create-a-record-icon.png "Create a timeline record") icon allows you to quickly create appointments, send emails, and make notes and posts and associate them with other records. You can select the plus icon to view the options that are available for use.
 
  > [!div class="mx-imgBorder"]
  > ![Create a timeline record](media\timeline-create-a-timeline-record.png "Create a timeline record")
@@ -48,7 +48,7 @@ For information on timeline record configuration, see:
 
 When enabled by your system administrator, the timeline **Filter** further streamlines your productivity by allowing you to customize your experience and view data relevant to you. 
 
-- **1:** The ![](media\timeline-filter-icon.png "Filter") icon allows you to **Filter**.
+- **1:** The ![Filter](media\timeline-filter-icon.png "Filter") icon allows you to **Filter**.
 - **2:** A list of items that is enabled by your system administrator is displayed that you can filter.  
 
     ![Timeline filter functionality](media\timeline-filter-1.png "Timeline filter functionality")
@@ -65,7 +65,7 @@ When working with records, you have key information at-a-glance, can view more b
 
  When enabled by your system administrator, you can view timeline records at-a-glance in a collapsed format or expand a record to see more details for ease of use.
 
-- **1:** When you select the ![](media\timeline-expand-icon.png "Expand all records") icon, it expands all records listed on your timeline.
+- **1:** When you select the ![Expand all records](media\timeline-expand-icon.png "Expand all records") icon, it expands all records listed on your timeline.
 - **2:** When the caret is in the upright position (^) in the bottom right corner, the record is displayed in the expanded view and a list of commands appear in the top right corner. Also, when you hover over an activity you want to view, the background turns grey.  When you hover away from the record, the background becomes transparent again.
 - **3:** When the caret is in the down position (˅), the record is collapsed.
 
@@ -79,7 +79,7 @@ For more information on expanding record functionality and configuration, see:
 
 The **More commands** icon contains refresh, sort, and email functionalities.
 
-- **1:** When you select the **More commands** (![](media\timeline-more-commands.icon.png "More commands")) icon, the additional options are displayed.
+- **1:** When you select the **More commands** (![More commands](media\timeline-more-commands.icon.png "More commands")) icon, the additional options are displayed.
 - **2:** The **Refresh timeline** command allows you to update the details in the timeline.
 - **3:** The **Sort newer to older** / **Sort older to newer** command allows you sort records.
 - **4:** The **Always show email as conversations / Always show email as individual messages** command enables or disables threaded emails.
@@ -108,7 +108,7 @@ Enabling the threaded email view is done via the timeline configuration in Power
 You can use any of the following options for enabling threaded email views in timeline:
 
 **Option 1:** 
-1. Select the ![](media\timeline-more-commands.icon.png "More commands") **More commands** icon on the timeline, which will display a flyout menu.
+1. Select the ![More commands](media\timeline-more-commands.icon.png "More commands") **More commands** icon on the timeline, which will display a flyout menu.
 2. Select **Always show email as conversations**. Now your emails will display in timeline threaded together.
 
 ![Enable threaded email timeline view - option 1](media\timeline-threaded-email-views-2.png "Enable threaded email timeline view - option 1")
@@ -157,16 +157,16 @@ The following is an overview of the command bar icons and the actions they suppo
 
 |Icon | Name | Description |
 |-----|------|-------------|
-| ![](media\email-assign-icon.png "Assign icon") |Assign | Lets you assign a task.|
-| ![](media\email-close-activity-icon.png "Close activity icon")|Close Activity| Lets you close the activity record.|
-| ![](media\email-add-to-queue-icon.png "Add to queue icon") |Add to Queue| Lets you add a task to a queue.|
-| ![](media\email-open-record-icon.png "Open record icon")|Open Record| Lets you open a record.|
-| ![](media\email-delete-icon.png "Delete icon")|Delete| Lets you delete the record.|
-| ![](media\email-reply-icon.png "Reply icon")|Reply| Lets you reply to an email. **Note**: This command is only available for Email.|
-| ![](media\email-reply-all-icon.png "Replay all icon")|Reply All| Lets you reply to all for an email. **Note**: This command is only available on Email.|
-| ![](media\email-forward-icon.png "Forward icon ")|Forward|Lets you forward an email. **Note**: This command is only available on Email.|
-| ![](media\email-like-a-post-icon.png "Like a post icon")|Like this post| Lets you like a post. **Note**: This command is only available on Posts.|
-| ![](media\email-edit-icon.png "Edit icon")|Edit this note|Lets you edit a note. **Note**: This command is only available on Notes.|
+| ![Assign icon](media\email-assign-icon.png "Assign icon") |Assign | Lets you assign a task.|
+| ![Close activity icon](media\email-close-activity-icon.png "Close activity icon")|Close Activity| Lets you close the activity record.|
+| ![Add to queue icon](media\email-add-to-queue-icon.png "Add to queue icon") |Add to Queue| Lets you add a task to a queue.|
+| ![Open record icon](media\email-open-record-icon.png "Open record icon")|Open Record| Lets you open a record.|
+| ![Delete icon](media\email-delete-icon.png "Delete icon")|Delete| Lets you delete the record.|
+| ![Reply icon](media\email-reply-icon.png "Reply icon")|Reply| Lets you reply to an email. **Note**: This command is only available for Email.|
+| ![Replay all icon](media\email-reply-all-icon.png "Replay all icon")|Reply All| Lets you reply to all for an email. **Note**: This command is only available on Email.|
+| ![Forward icon ](media\email-forward-icon.png "Forward icon ")|Forward|Lets you forward an email. **Note**: This command is only available on Email.|
+| ![Like a post icon](media\email-like-a-post-icon.png "Like a post icon")|Like this post| Lets you like a post. **Note**: This command is only available on Posts.|
+| ![Edit icon](media\email-edit-icon.png "Edit icon")|Edit this note|Lets you edit a note. **Note**: This command is only available on Notes.|
 
 Not all records can perform the same actions:
 1. Each record has a different set of actions associated with it. 
@@ -249,7 +249,7 @@ To add a mention or to reference a team member in a **Post**, use the following 
 
 To add a reference to a timeline record in a **Post**, use the following steps:
 
-1.	In the **timeline** section, select the ![](media\timeline-create-a-record-icon.png "Create a timeline record")  icon
+1.	In the **timeline** section, select the ![Create a timeline record](media\timeline-create-a-record-icon.png "Create a timeline record")  icon
 2.	Select **Post**.
 3.	To add a link, type **#** in the box that appears.  
 4.	When you type #, a flyout menu opens with a list of records that you have recently accessed. These records could be of any record type, such as accounts, contacts or leads.
@@ -274,7 +274,7 @@ You can add an attachment, such as a file, to a note in timeline to share with u
 > [!NOTE]
 > Your system administrator must first enable notes for you to add an attachment.
 
-1. Select the ![](media\timelilne-paperclip-icon.png "paperclip icon") paperclip icon to attach a file to a note. You can only add an attachment to a note that is attached to a record. 
+1. Select the ![paperclip icon](media\timelilne-paperclip-icon.png "paperclip icon") paperclip icon to attach a file to a note. You can only add an attachment to a note that is attached to a record. 
 2. Select the file you want to attach. You can only add one file per note.
 
    The Edit note screen will appear, and your attachment will be displayed at the bottom of the Edit note screen.
