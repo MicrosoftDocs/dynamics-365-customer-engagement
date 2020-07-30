@@ -4,7 +4,7 @@ description: "Learn about managing session templates in Omnichannel Administrati
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/22/2020
+ms.date: 07/31/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -29,7 +29,7 @@ Session templates are used to define the aforementioned session experience such 
 You can create session templates in the Omnichannel Administration app or use the out-of-the-box templates. In your environment, as an administrator, you can create multiple session templates.
 
   > [!Note]
-  > We recommend that you use copies of the out-of-the-box session templates for your customizations to avoid losing them during solution upgrades.
+  > We recommend that you do not modify the out-of-the-box session templates for your customizations, and instead, create your own custom templates to avoid losing them during solution upgrades.
 
 
 The out-of-the-box session templates are as follows:
