@@ -16,7 +16,7 @@ The timeline control provides an easy and immersive experience to view informati
 
 This experience gives system administrators the ability to configure the information displayed in each timeline to help users access information and create new activity records, such as emails and tasks directly from the timeline quickly so they can deliver more personalized service. 
 
-## How to navigate to timeline configurations
+## Navigate to timeline configurations
 
 Timelines are located on forms within entities. To access timeline configurations, you must start with the entity list.  You can access the entity list a couple of ways depending on the model-driven app you are using.
 
@@ -25,7 +25,7 @@ To access the entities list via **Power Apps**, go to:
 2.	Under **Data** section.
 3.	Select **Entities**.
 
-  ![How to navigate to timeline configurations - Option 2](media\timeline-access-option-2.png "How to navigate to timeline configurations - Option 2")
+  ![Select Entities in Power Apps navigation pane](media\timeline-access-option-2.png "Select Entities in Power Apps navigation pane")
 
 > [!Important] 
 > When accessing timeline, if you are not taken to the new form designer experience in Power Apps, you are not using the latest experience.
@@ -35,23 +35,28 @@ To access the entities list via **Power Apps**, go to:
 Every instance of the timeline that’s applied on a form can be configured.  Example: An Account entity will have forms, and each form can have a timeline that can be configured.  However, there’s only one timeline per form.  
 
 To begin, select the entity and form where you want to add and configure your timeline. 
-1.	The following is a list of entities. You can add a timeline to any entity.
+
+1. The following is a list of entities. You can add a timeline to any entity.
+
+    ![List of entities in Power Apps](media\timeline-list-of-entities-power-apps.png "List of entities in Power Apps")
+
 2.	For this example, we selected the **Account** entity.
-3.	From the **Account** entity landing page there is list of tabs at the top, select **Forms**.
+
+    ![Select Account in the entity list](media\timeline-select-account-entity-list.png "Select Account in the entity list")
+
+3.	On the **Account** entity page, select **Forms**.
+
+    ![Select Form tab](media\timeline-select-form-tab.png "Select Form tab")
+
 4.	The **Forms** landing page displays a list of **Form types**. Timelines can only be used on **Main** form types.
-5.	For this example, we selected **Account for Interactive experiences**. 
 
-![How to navigate to timeline configurations](media\timeline-configuration-1.png "How to navigate to timeline configurations")
+    ![Forms of type Main](media\timeline-form-type-main.png "Forms of type Main")
 
-![How to navigate to timeline configurations](media\timeline-configuration-2.png "How to navigate to timeline configurations")
+5.	For this example, we select **Account for Interactive experiences**. 
 
-![How to navigate to timeline configurations](media\timeline-configuration-3.png "How to navigate to timeline configurations")
+### Add or remove a timeline from an entity form
 
-![How to navigate to timeline configurations](media\timeline-configuration-4.png "How to navigate to timeline configurations")
-
-### Adding or removing a timeline from an entity form
-
-Timeline is a component and you will need to access **Components** to make timeline configurations. Once you have selected a **Main** form type, the following landing page will appear:
+Timeline is a component and you'll need to access **Components** to make timeline configurations. After you've selected a **Main** form type, the following page appears:
 
 1. From the left nav, select **Components**.  
 2. In the left nav, scroll down to the **Timeline** component, then drag and drop in a section on the form. 
