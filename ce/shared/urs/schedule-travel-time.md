@@ -184,14 +184,11 @@ Bing Maps and other mapping providers can provide real-time and historical trave
 
 If a field technician begins travel to their next work order and sees that the travel time is much longer than estimated by the system, they should indicate this with a custom booking status of "running late," so dispatchers can plan accordingly. 
 
-## Predictive travel times with historical 
+## Predictive travel times with historical traffic information
 
-- rso only
-- breif description
+When using resource scheduling optimization, you can take historical traffic information into account to better plan for travel times.
 
-link to doc
-
-[Predictive travel times with RSO](./field-service/rso-predictive-travel.md)
+For more information, see our article on [predictive travel with resource scheduling optimization](rso-predictive-travel.md).
 
 ## Configuration considerations
 
