@@ -98,7 +98,7 @@
 ## [Device and app management with Microsoft Intune](field-service-mobile-intune.md)
 ## [Geofencing](geofencing.md)
 ## [Deep linking](mobile-deeplink.md)
-## [Use Power Automate flow with Field Service Mobile](mobile-workflow-to-flow.md)
+## [Use Power Automate flows with Field Service Mobile](mobile-workflow-to-flow.md)
 ## FAQs + troubleshooting
 ### [Frequently asked questions](mobile-faq.md)
 ### Troubleshooting topics
