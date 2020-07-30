@@ -1,8 +1,8 @@
 ---
-title: "Use Power Automate flow with Field Service Mobile | MicrosoftDocs"
+title: "Use Power Automate flows with Field Service Mobile | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 07/23/2020
+ms.date: 08/01/2020
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -28,91 +28,86 @@ search.app:
 
 # Use Power Automate flows with Field Service Mobile
 
-Administrators can begin using Power Automate flow in replacement of Dynamics 365 workflows for Field Service Mobile processes like Geofencing, Geofence alerts, and push notifications.
+Administrators can replace Dynamics 365 workflows with Power Automate flows for Field Service Mobile processes like geofencing, geofence alerts, and push notifications.
 
-Power Automate has many benefits, including the ability to connect and run workflows within Dynamics 365 and between other outside applications, the ability to delete records and schedule jobs, and robust approvals, among others. For a comparison of Workflow vs Power Automate features please see [https://docs.microsoft.com/en-us/power-automate/replace-workflows-with-flows](https://docs.microsoft.com/en-us/power-automate/replace-workflows-with-flows).
+By using Power Automate for Field Service Mobile processes, you can:
 
+- Connect and run workflows within Dynamics 365 and between other outside applications.
+- Delete records and schedule jobs. 
+- Perform robust approvals. 
+
+For a comparison of features between Dynamics 365 workflows versus Power Automate flows, see [this feature comparison table.](https://docs.microsoft.com/power-automate/replace-workflows-with-flows).
 
 ## Enable Power Automate flows in Field Service settings
 
-To switch from Workflow to Power Automate navigate to Field Service Settings in CRM and switch “Use Enhanced Background Processing” to “Yes”. This will move background processing from Work Flow to Power Automate and any enabled Power Automate flows would execute.  Please note this change is at Field Service level, so by making this change all Field Service Workflows would be moved to Power automate.
+To switch from workflow to Power Automate, go to **Field Service Settings** and toggle **Use Enhanced Background Processing** to **Yes**. This action will move background processing from workflow to Power Automate; any enabled Power Automate flows will execute.
 
+>![Note]
+> Making this change in **Field Service Settings** means that all Field Service workflows will move to Power Automate.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/flow-enhanced_background_processing.jpg)
+> ![Screenshot of Field Service settings showing the enhanced background processing field.](./media/flow-enhanced_background_processing.jpg)
 
 ## Turn on each flow
 
-Power Automate flows for Field Service Mobile abe set to “Off” By default. These Flows include:
-- Mobile Audit Logging
+Power Automate flows for Field Service Mobile are set to **Off** by default. These flows include:
+
+- Mobile audit logging
 - Geofencing
-- Push Notifications
+- Push notifications
 
-Power Automate is accessed by navigating to https://make.powerapps.com/ and select your environment. From there you will select the appropriate solution and Flow you wish to enable.
+To access Power Automate, go to https://make.powerapps.com/ and select your environment. From there, select the appropriate solution and the flow you want to enable.
 
-To enable a flow simply click into the Flow and then select “Turn On”.
+Select the flow, and then **Turn On**.
 
-To enable Geofencing Flow via Power Automate:
+Use the following steps to turn on the geofencing flow via Power Automate:
 
-Steps:
-1.	Navigate to https://make.powerapps.com/ and select your environment.
-2.	Navigate to “Solutions” then “Geofencing for Field Service”
-3.	Enable Geofencing events for CRM enable the following Flows:
-a.	Flow – DeleteGeofenceWhenBookingIsCompletedOrClosed
-b.	Flow – GenerateGeofenceWhenBookingIsCreated
-c.	Flow – UpdateGeofenceInstanceCoordinates
-
+1. Go to https://make.powerapps.com/ and select your environment.
+2. Go to **Solutions** > **Geofencing for Field Service**.
+3. Enable the following flows:
+   - **Flow – DeleteGeofenceWhenBookingIsCompletedOrClosed**
+   - **Flow – GenerateGeofenceWhenBookingIsCreated**
+   - **Flow – UpdateGeofenceInstanceCoordinates**
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/flow-solution-goefence-field-service.jpg)
+> ![Screenshot of the geofencing for Field Service in Power Apps.](./media/flow-solution-goefence-field-service.jpg)
 
-To enable Geofence Alerts via Power Automate Flow:
+Use the following steps to turn on geofence alerts via Power Automate:
 
-Steps:
-1.	Navigate to https://make.powerapps.com/ and select your environment.
-2.	Navigate to “Solutions” then “Geofence Alerts”
-3.	To enable GeoFence Alerts and related Push Notifications to Field Service Mobile turn the following flows “ON”.
-    a.	Flow – Remind To Change Status Upon Arrival <enabled by default>
-b.	Flow – Remind To Change Status Upon Leaving <enabled by default>
-c.	Flow – Update Resource Location from Resco Audit <need to turn on>-checks for update on audit log to check resource lat/long
-d.	Flow – When Geofence Status Changes Send Booking Status Notifications <need to turn on>-calls a or b depending on scenario.
+1. Go to https://make.powerapps.com/ and select your environment.
+2. Go to **Solutions** > **Geofence Alerts**.
+3. To enable geofence alerts and related push notifications to Field Service Mobile, turn on the following flows:
+   - **Flow – Remind To Change Status Upon Arrival** (*enabled by default*)
+   - **Flow – Remind To Change Status Upon Leaving** (*enabled by default*)
+   - **Flow – Update Resource Location from Resco Audit** (*need to turn on*)
+   - **Flow – When Geofence Status Changes Send Booking Status Notifications** (*need to turn on*)
 
-To enable Push Notifications via Power Automate Flow:
+Use the following steps to turn on push notifications via Power Automate:
 
-Steps:
-1.	Navigate to https://make.powerapps.com/ and select your environment.
-2.	Navigate to “Solutions” then “Field Service Mobile Push Notifications”
-3.	To enable Push Notifications to remind user of a new booking, turn the following flow “ON”.
-a.	Notify user about booking
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/flow-turn-on.jpg)
+1. Go to https://make.powerapps.com/ and select your environment.
+2. Go to **Solutions** > **Field Service Mobile Push Notifications**.
+3. To enable push notifications to remind technicians of a new booking, turn on the following flow:
+   - **Notify user about booking**
 
 ## Deactivate workflows
 
-After switching to Power Automate, the previously used workflows in Dynamics 365 will continue to execute but not complete. It is recommended to deactivate the active Workflows for each flow you turned on for performance reasons. 
+After switching to Power Automate, the previously used workflows in Dynamics 365 will continue to execute, but not complete. For better performance, deactivate the active workflows no longer in use.
 
+## Customizing managed Field Service Power Automate flows
 
-## Customizing managed Field Service Power Automaten flows
+Flows that are shipped out-of-the-box are managed and cannot be changed. If you wish edit the default flows (for instance, to change the text of a push notification message), create a copy of the Power Automate flow. The copied flow can be edited.
 
-Flows which are shipped "out of the box" are Managed and cannot be changed. If you wish to make updates to the default flows, such as altering the text of a Push Notification message, you will need to create a clone of the Power Automate flow. From this point it will be an un-managed flow which will no longer receive updates.
+>[!Note]
+> Once you've copied a flow, it will no longer receive updates, as it is un-managed.
 
-Mobile Push Notification
-Any custom Push Notifications which were setup as a custom Workflow activity would need to be re-created in Power Automate Flow. There is a new custom action “msdyn_SendEntityNotification” which can be included in your flow to call Push Notifications for Field Service Mobile.
+## Configuration considerations
 
+- Any custom push notifications that were set up as a custom workflow activity must be recreated in Power Automate. There is a new custom action ```msdyn_SendEntityNotification``` that you can include in your flow to call push notifications for Field Service Mobile.
+- If you have custom workflows and plan to migrate to Power Automate, you'll need to recreate the functionality in Power Automate. Power Automate offers a variety of connectors to accomplish your customized capabilities.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/flow-custom-push-notification.png)
+> ![Screenshot of a Power Automate flow that shows the send entity notification.](./media/flow-custom-push-notification.png)
 
-> [!Note]
-> If you have custom Workflows and plan to migrate to Power Automate, you will need to re-create the functionality in Power Automate. Power Automate offers a variety of connectors to accomplish your customized capabilities.
+## Additional notes
 
-
-## Additional Notes
-
-Creating custom Power Automate flows will require appropriate licensing for Power Automate. See [Power Automate Pricing](https://preview.flow.microsoft.com/en-us/pricing/).
-
-
-
-
+- Creating custom Power Automate flows will require appropriate licensing for Power Automate. For more information, see [Power Automate pricing](https://preview.flow.microsoft.com/en-us/pricing/).
