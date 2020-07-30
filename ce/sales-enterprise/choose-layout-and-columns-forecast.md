@@ -15,7 +15,7 @@ manager: shujoshi
 # Choose layout and columns
 
 >[!NOTE]
-> If you have opted in for early access, see [Choose layout and columns in early access](#choose-layout-and-columns-in-early-access).
+> If you have opted in for early access, follow the process as specified in  [Choose layout and columns in early access](#choose-layout-and-columns-in-early-access).
 
 In the **Layout** step of the forecast configuration, you can configure columns to define the forecast grid that appears for users. You can configure rollup columns from option sets that are defined for opportunities in your organization.
 
@@ -225,7 +225,8 @@ Select the column **Type** as **Rollup**. The following options are available to
 | Selector | Select the option set value that defines how this column is grouped. For example, if **Best Case** is selected, only opportunities with the forecast category set to **Best Case** will be aggregated. |
 | Data type | Select the data type of the column that you want to display on the forecast grid. By default, the value is selected as **Currency** and can't be changed for **Rollup** type columns. |
 | Amount field | Select the amount field on which the aggregation is calculated. The available fields are based on the selected **Rollup entity**, such as **Opportunity**. For example, if the **Forecast category** option set is selected, the amount field is automatically configured as **Est.Revenue**. <br> If you're using a custom field to track the estimated revenue for your organization, select that custom field. |
-| Date field | Select the date field that defines the record's forecast period. The available fields are based on the selected **Rollup entity**, such as **Opportunity**. For example, if the **Forecast category** option set is selected, the date field is configured as **Est.Close Date**. <br>If you're using a custom field to track the estimated close date for your organization, select that custom field.|
+| Date entity | Select the entity from which you want to choose the date field. <br>If the required date field is not available in the rollup entity, you can choose from the related entities. For example, in a product based forecast, the rollup entity is **Opportunity Product** and the required estimated close date attribute will not be available in this entity. Therefore, select the **Opportunity** entity from **Related entities** that has the estimated close date attribute. |
+| Date field | Select the date field that defines the record's forecast period. The available fields are based on the selected **Date entity**, such as **Opportunity**. For example, if the **Opportunity** entity is selected, the date field is configured as **Est.Close Date**. <br>If you're using a custom field to track the estimated close date for your organization, select that custom field.|
 | Description | Enter a description for the column. This description appears as a tooltip on the column header of the forecast grid, to help your users understand what the column contains. |
 | Allow adjustments | Enable this setting to let users manually edit a system-calculated value directly in the forecast grid. When this setting is enabled, you'll see a pencil icon next to the forecasted value in that column. To learn more, see [Adjust values in a forecast](adjust-values-in-forecast.md). |
 | Show progress compared to quota | Enable this option to compare the column's value against the quota column. When this is enabled, a progress bar indicating the attainment percentage is shown below the column's value.|

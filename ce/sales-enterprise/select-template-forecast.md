@@ -15,7 +15,7 @@ manager: shujoshi
 # Select a template
 
 >[!NOTE]
-> If you have opted in for early access, see [Select a template in early access](#select-a-template-in-early-access).
+> If you have opted in for early access, see [Select a template in early access](#select-a-template-in-early-access) for information.
 
 You must select a template to create a forecast. The selected templates populate the **Hierarchy route** field that defines the entity type in your hierarchy.
 

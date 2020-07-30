@@ -15,7 +15,7 @@ manager: shujoshi
 # Define general properties and scheduling
 
 >[!NOTE]
-> If you have opted in for early access, see [Define general properties and scheduling in early access](#define-general-properties-and-scheduling-in-early-access).
+> If you have opted in for early access, follow the process as specified in [Define general properties and scheduling in early access](#define-general-properties-and-scheduling-in-early-access).
 
 Using the general properties and scheduling options of the forecast configuration page, you can define a forecast model by specifying a hierarchy and timeframe. 
 
@@ -30,7 +30,7 @@ Using the general properties and scheduling options of the forecast configuratio
     >By default, **Rollup entity** is configured as **Opportunity**. This value can't be changed.<br>
     >![Forecast rollup entity](media/forecast-rollup-entity-opportunity.png "Forecast rollup entity")
 
-2.	If you've selected the **Create from scratch** template to create a forecast, choose the **Hierarchy entity**. The entities that are displayed in the list are hierarchy-enabled entities that are available in your organization.
+2.	If you've selected the **Create from scratch** template to create a forecast, choose the **Hierarchy entity**. The entities that are displayed in the list are hierarchy-enabled entities that are available in your organization. 
 
     By default, for the **Org chart forecast** template, the hierarchy entity is selected as **User** and for the **Territory forecast** template, the hierarchy entity is selected as **Territory**. 
 
@@ -92,7 +92,7 @@ Using the general properties and scheduling options of the forecast configuratio
 
 ## Define general properties and scheduling in early access
 
-Using the general properties and scheduling options of the forecast configuration page, you can define a forecast model by specifying a hierarchy and timeframe. 
+Using the general properties and scheduling options of the forecast configuration page, you can define a forecast model by specifying a hierarchy and timeframe.
 
 **To enter configuration and scheduling information**
 
@@ -101,7 +101,7 @@ Using the general properties and scheduling options of the forecast configuratio
     > [!div class="mx-imgBorder"]
     > ![Enter a name for the forecast](media/forecast-general-properties-forecast-name.png "Enter a name for the forecast")
 
-2.	Select a **Rollup entity**. The forecast is based on the gross rollup of the selected entity. By default, **Opportunity** is selected in **Rollup entity**. You can choose a custom entity, to support your organizational requirements.   
+2.	Select a **Rollup entity**. The forecast is based on the gross rollup of the selected entity. By default, **Opportunity** is selected in **Rollup entity**. You can choose a custom or other out-of-the-box entity, to support your organizational requirements.   
 
     > [!div class="mx-imgBorder"]
     > ![Select a rollup entity](media/forecast-general-properties-rollup-entity.png "Select a rollup entity")
