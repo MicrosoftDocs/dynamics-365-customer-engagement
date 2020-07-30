@@ -90,6 +90,7 @@ The **ProcessRunCaller** and **ProcessRunner** workflows create invoices. **Proc
 After **ProcessRunner** has finished running, it calls **ProcessRunCaller**, provides the end time, and is closed. **ProcessRunCaller** then starts a timer that runs for 24 hours from the specified end time. At the end of the timer, **ProcessRunCaller** is closed.
 
 The batch process job for creating invoices is a recurrent job. If this batch process is run many times, multiple instances of the job are created and cause errors. Therefore, you should start the batch process only one time, and you should restart it only if it stops running.
+Please Note: Batch invoicing in PSA only runs for those Project Contract lines that Invoice Schedules configured. A PSA Project contract line with a Fixed Price Billing Method will need to have Milestones configured and a PSA Project contract line with a Time and Material Billing Method will need a date based invoice schedule setup.   
  
 ### Edit a draft PSA invoice
 
