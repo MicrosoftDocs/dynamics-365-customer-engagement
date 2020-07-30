@@ -204,14 +204,17 @@ Not all records can perform the same actions.
 
 The message box has a rich text editor that enables you to use rich text and create well-formatted content.
 
-1. Enter a **Title**.
-2. Use the rich text editor to format and structure your messages.
-3. Expand the rich text editing tool to access the full menu of formatting features.
-4. Use the paperclip to attach files to your note.
-5. View and confirm file has been attached to your note.
-6. Select **Add note** to save.
-
 ![Timeline notes rich text editor](media\timeline-take-a-note.png "Timeline notes rich text editor")
+
+|Annotation|Description|
+|----------|-----------|
+|1|Enter a title.|
+|2|Use the rich text editor to format and structure your messages.|
+|3|Expand the rich text editing tool to access the full menu of formatting features.|
+|4|Use the paperclip to attach files to your note.|
+|5|View and confirm file has been attached to your note.|
+|6|Select **Add note** to save.|
+|||
 
 > [!NOTE]
 > - Only **Notes** have rich text capability, and it is only available in the timeline. 
