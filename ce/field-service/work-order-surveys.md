@@ -39,7 +39,7 @@ Access and licenses to use Dynamics 365 Field Service, Customer Voice (formerly 
 
 ## Step 1: Create a survey with Customer Voice
 
-First create a survey that you would like to send upon completion of a work order.
+Create a survey that you would like to send upon completion of a work order.
 
 If you are an existing Customer Voice user, use [https://forms.office.com](https://forms.office.com) to sign in to Forms Pro. To purchase Forms Pro licenses, see [Purchase Microsoft Forms Pro](https://docs.microsoft.com/en-us/forms-pro/purchase).
 
@@ -47,12 +47,14 @@ If you are an existing Customer Voice user, use [https://forms.office.com](https
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-survey-new-form.png)
 
+Use the drag and drop interface to create your survey.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-survey-new-form-q1.png)
 
-## Email
+## Step 2: Prepare the email template to send the survey
 
-Send > Email > template
+From the survey go to **Send** in the top right then choose **Email** and edit the template as needed. Note the name of the template. In the example below we are using the **Default Template** that is included with Customer Voice.
 
 
 > [!div class="mx-imgBorder"]
