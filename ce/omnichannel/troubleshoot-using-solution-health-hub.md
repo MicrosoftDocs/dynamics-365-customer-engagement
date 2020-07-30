@@ -28,7 +28,7 @@ The Solution Health Hub helps detect the following issues:
 
 ## Prerequisites
 
-Omnichannel for Customer Service `*please provide the version and any other prerequisites that are applicable*`
+Omnichannel for Customer Service base package 1.5.0.383 or later.
 
 ## Run a health check
 
@@ -51,9 +51,9 @@ The following information is available:
 - **End Time:** Indicates the date and time when the job completed its run.
 - **Failed Rules:** Indicates the number of rules that failed.
 - **Warnings:** Indicates the number of rules that resulted in warnings.
-- **Passed Rules:** `Please provide the information; it is a little confusing when I look at the results.`
-- **Total Rules** `Please provide the information; it is a little confusing when I look at the results.`
-- **Rule Run Count:** `Please provide the information; it is a little confusing when I look at the results.`
+- **Passed Rules:** Indicates the number of rules that have passed successfully.
+- **Total Rules** Indicates the number of available rules.
+- **Rule Run Count:** Indicates the count of rules that have been run.
 
 The result details of the rules are displayed in a table as follows:
 
