@@ -190,7 +190,7 @@ Sign in to Dynamics 365 as a system administrator.
 
 To see your list of apps, go to: 
 
-      https://[YOUR-ENVIRONMENT-NAME].crm.dynamics.com/main.aspx?forceUCI=1&pagetype=apps
+```https://[YOUR-ENVIRONMENT-NAME].crm.dynamics.com/main.aspx?forceUCI=1&pagetype=apps```
 
 Find the Field Service Mobile app and go to the **App Designer**.
 
@@ -336,20 +336,22 @@ Create and add a new JavaScript web resource to the form.
 
 Enter in the following code snippet:
 
-      function TestOnSave(executionContext) {
+```
+function TestOnSave(executionContext) {
 
-      var formContext = executionContext.getFormContext(); // get formContext
-      var duration = formContext.getAttribute("duration").getValue();
+var formContext = executionContext.getFormContext(); // get formContext
+var duration = formContext.getAttribute("duration").getValue();
 
-      formContext.ui.clearFormNotification("DurationErrorMessageId");
+formContext.ui.clearFormNotification("DurationErrorMessageId");
 
-      if (duration < 120) {
-      executionContext.getEventArgs().preventDefault(); // Stop the Save
-      formContext.ui.setFormNotification("Duration must be greater than 2 hours", "ERROR", "DurationErrorMessageId");
-      }
+if (duration < 120) {
+executionContext.getEventArgs().preventDefault(); // Stop the Save
+formContext.ui.setFormNotification("Duration must be greater than 2 hours", "ERROR", "DurationErrorMessageId");
+}
+}
 
-      }
-      
+  ```
+  
   Ensure the web resource triggers on save of the form.
   
   Save and publish customizations.
