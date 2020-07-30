@@ -32,7 +32,7 @@ For the Wave 2 2020 Early Access release, the productivity pane includes the **S
 
 The productivity pane has two modes: expanded and collapsed. You can use the arrow to set the mode of the productivity pane, and the mode you choose is preserved in different sessions. For example, say in session A you expanded the pane, but while in session B, you collapsed it. When you switch from session A to session B, the pane mode changes from expanded to collapsed. Then if you switch back to session A, the pane is still in its expanded mode.
 
-![Productivity pane](media/csw-productivity-pane-view.png "View of the productivity pane")
+![Productivity pane mode](media/csw-productivity-pane-mode.png "View of the productivity pane")
 
 Expanded mode:
 
