@@ -97,11 +97,11 @@ Let's explore the fields you can edit on the **Case Additional Details** tab:
 Label | Description
 ------------ | -------------
 1 | You can set Service Level Agreement (SLA) attributes on the case so that customer support managers can measure the overall success of the support organization against its goals of meeting customer Service Level Agreements.
-2 | You can associated a Parent Case, classify the Type of case, and apply a support Entitlement. 
-3 | You can view, sort, and export the list of Associated Knowledge Articles.
-4 | You can view and export the list of Similar Cases.
-5 | You can view, add associations, and export Child Cases. 
-6 | You can view and export the list of Merged Cases.
+2 | Associate a Parent Case, classify the Type of case, and apply a support Entitlement. 
+3 | Sort, and export the list of Associated Knowledge Articles.
+4 | View and export the list of Similar Cases.
+5 | View, add associations, and export Child Cases. 
+6 | View and export the list of Merged Cases.
 
 ### Work with activities
 
