@@ -28,22 +28,20 @@ search.app:
 
 # Work order completion surveys with Customer Voice (Forms Pro)
 
-Send surveys and questionnaires to customers when a work order is completed to learn about customer satisfaction, how to improve onsite service, and more! With Customer Voice (formerly Forms Pro) you can create custom surveys based on your business needs and with Power Automate flow templates you can automatically send those surveys to the primary contact on the Field Service Work Order. 
-
-https://us.flow.microsoft.com/en-us/galleries/public/templates/7135fe34812745d5af513437a7657002/send-a-survey-when-a-work-order-is-completed-or-closed-in-dynamics-365/
+Send surveys and questionnaires to customers when a work order is completed to learn about customer satisfaction, how to improve onsite service, and more! With Customer Voice (formerly Forms Pro) you can create custom surveys based on your business needs and with Power Automate flow templates you can automatically send those surveys to the primary contact of the Field Service Work Order. 
 
 
 ## Prerequisites
+
+Access and licenses to use Dynamics 365 Field Service, Customer Voice (formerly Forms Pro), and Power Automate flow.
 > [!Note]
 >
 
 ## Step 1: Create a survey with Customer Voice
 
+First create a survey that you would like to send upon completion of a work order.
 
-
-
-
-If you are an existing Forms Pro user, use https://forms.office.com to sign in to Forms Pro. To purchase Forms Pro licenses, see Purchase Microsoft Forms Pro.
+If you are an existing Customer Voice user, use [https://forms.office.com](https://forms.office.com) to sign in to Forms Pro. To purchase Forms Pro licenses, see [Purchase Microsoft Forms Pro](https://docs.microsoft.com/en-us/forms-pro/purchase).
 
 
 > [!div class="mx-imgBorder"]
@@ -61,6 +59,8 @@ Send > Email > template
 > ![Screenshot of ](./media/work-order-survey-new-form-email-template.png)
 
 ## Flow template
+
+https://us.flow.microsoft.com/en-us/galleries/public/templates/7135fe34812745d5af513437a7657002/send-a-survey-when-a-work-order-is-completed-or-closed-in-dynamics-365/
 
 Environment
 
