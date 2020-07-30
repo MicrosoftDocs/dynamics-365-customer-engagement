@@ -4,7 +4,7 @@ description: Enable AI suggestions for cases and knowledge articles in Dynamics 
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/01/2020
+ms.date: 08/03/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -31,18 +31,32 @@ The key highlights of the feature are as follows:
 - Continuous improvement of the recommendation model through comprehensive feedback mechanism.
 
 > [!NOTE]
-> The AI suggestions feature supports only English content and is available only in organizations that have the base language set as English.
+>
+> - The AI suggestions feature is currently available only in the following geographical locations:
+>   - North America
+>   - South America
+>   - Canada
+>   - United Kingdom
+>   - Europe
+>   - Japan
+>   - India
+>   - Asia Pacific
+> - The AI suggestions feature supports only English content and is available only in organizations that have the base language set as English.
 
 ## How AI suggestions for similar cases and knowledge articles works
 
-AI suggestions are powered by a set of pre-trained natural language understanding models that help agents find relevant knowledge articles or similar cases quickly, based on the active case context. After you enable the settings, it might take up to 24 hours for the models to process data and complete the first time setup. The AI models enable the following capabilities:
+AI suggestions are powered by a set of pre-trained natural language understanding models that help agents find relevant knowledge articles or similar cases quickly, based on the active case context. The AI models work as follows:
 
-- Knowledge articles and similar cases can be suggested based on the semantic meaning in case context and knowledge article content. The model pre-processes published knowledge articles and resolved cases every day to prepare suggestion candidates. After a case is created or updated, the model quickly finds out matching knowledge articles and similar cases from suggestion candidates.
+- Knowledge articles and similar cases can be suggested based on the semantic meaning in case context and knowledge article content.
+- The model pre-processes published knowledge articles and resolved cases every day to prepare suggestion candidates. For the first time pre-processing, up to 3000 published articles and 50,000 recently resolved cases will be processes. Subsequently, newly published articles and resolved cases will be processed. Up to 1 million of latest resolved cases will be processed to serve suggestions.
+- After a case is created or updated, the model finds out matching knowledge articles and similar cases from suggestion candidates.
 - A brief summary is auto-generated for each pre-processed knowledge article based on its content. When a knowledge article is suggested, both article title and the auto-generated summary are surfaced to agents, which helps them to get a better idea about the article before agent clicks through it.
 - In addition to the suggestions, agents can also tell why an article or similar case is suggested through a list of key phrases that are auto-extracted from knowledge articles and cases. These key phrases highlights the relevance between a suggestion and an active case, in addition to the confidence score (which is a percentage number that indicates the degree to which an article or similar case matches with the active case).
 
+
 > [!NOTE]
-> After you enable or disable the settings, they will be in place only after agents refresh or reopen their browser and not in the currently active sessions nor on session switch.
+> - After you enable the settings, it might take up to 24 hours for the models to process data and complete the first time setup.
+> - After you enable or disable the settings, they will be in place only after agents refresh or reopen their browser and not in the currently active sessions nor on session switch.
 
 ## Prerequisites
 
@@ -80,7 +94,7 @@ Perform the following steps to enable the AI suggestions for related knowledge a
 
 ## Model pre-processing status
 
-The **Model pre-processing status** area displays the following metadata pertaining to the AI processing. The run frequency is set out of the box. Every 24 hours, the model pre-processes newly published or updated knowledge articles and resolved or updated cases to prepare the candidates data for suggestions.
+The **Model pre-processing status** area displays the following metadata pertaining to the AI processing. The run frequency is set out of the box. Every day, the model pre-processes newly published or updated knowledge articles and resolved or updated cases to prepare the candidates data for suggestions.
 
 - **Last successful run:** Displays the date and time the model was last run.
 - **Case records:** Displays the number of new or updated resolved case records that were processed.
