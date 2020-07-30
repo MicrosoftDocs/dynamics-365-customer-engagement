@@ -36,7 +36,7 @@
 ## [Service task types](set-up-service-task-types.md)
 ## [Inspections (public preview)](inspections.md)
 ## [Work order templates (incident types)](configure-incident-types.md)
-## [Work order summary reports (public preview)](reports.md)
+## [Work order summary reports (early access)](reports.md)
 
 # Bookable resources
 ## [Set up bookable resources](set-up-bookable-resources.md)
