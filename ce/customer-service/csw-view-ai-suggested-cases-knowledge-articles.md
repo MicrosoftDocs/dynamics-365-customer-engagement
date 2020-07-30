@@ -31,7 +31,7 @@ If your administrator has enabled the AI-suggested similar cases and knowledge a
 ## Prerequisites
 
 - AI-suggestions for similar cases and knowledge articles should be enabled by your administrator.
-- Smart assist feature must be enabled by your administrator. More information: [Smart assist in Customer Service Workspace](csw-smart-assist.md)
+- Smart assist feature must be enabled by your administrator. More information: [Smart assist in Customer Service Workspace](csw-productivity-pane.md#smart-assist)
 
 ## Understand the knowledge article components in Smart assist
 
