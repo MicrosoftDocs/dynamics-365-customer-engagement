@@ -1,7 +1,7 @@
 ---
 title: "Timeline Overview for Users | MicrosoftDocs"
 description: "Timeline Overview for Users"
-ms.date: 07/27/2020
+ms.date: 07/30/2020
 ms.service:
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -48,10 +48,13 @@ For information on timeline record configuration, see:
 
 When enabled by your system administrator, the timeline **Filter** further streamlines your productivity by allowing you to customize your experience and view data relevant to you. 
 
-- **1:** The ![](media\timeline-filter-icon.png "Filter") icon allows you to **Filter**.
-- **2:** A list of items that is enabled by your system administrator is displayed that you can filter.  
+![Timeline filter functionality](media\timeline-filter-1.png "Timeline filter functionality")
 
-    ![Timeline filter functionality](media\timeline-filter-1.png "Timeline filter functionality")
+|Annotation|Description|
+|----------|-----------|
+|1|The ![](media\timeline-filter-icon.png "Filter") icon allows you to **Filter**.|
+|2|A list of items that is enabled by your system administrator is displayed that you can filter.|
+|||
 
 For more information on timeline filter functionality and configurations see:
 - [Enable filter pane](customer-service-hub-user-guide-timeline-admin.md#enable-filter-pane) 
@@ -65,11 +68,14 @@ When working with records, you have key information at-a-glance, can view more b
 
  When enabled by your system administrator, you can view timeline records at-a-glance in a collapsed format or expand a record to see more details for ease of use.
 
-- **1:** When you select the ![](media\timeline-expand-icon.png "Expand all records") icon, it expands all records listed on your timeline.
-- **2:** When the caret is in the upright position (^) in the bottom right corner, the record is displayed in the expanded view and a list of commands appear in the top right corner. Also, when you hover over an activity you want to view, the background turns grey.  When you hover away from the record, the background becomes transparent again.
-- **3:** When the caret is in the down position (˅), the record is collapsed.
+![Expand all records functionality](media\timeline-expand-all-records-1.png "Expand all records functionality")
 
-    ![Expand all records functionality](media\timeline-expand-all-records-1.png "Expand all records functionality")
+|Annotation|Description|
+|----------|-----------|
+|1|When you select the ![](media\timeline-expand-icon.png "Expand all records") icon, it expands all records listed on your timeline.|
+|2|When the caret is in the upright position (^) in the bottom right corner, the record is displayed in the expanded view and a list of commands appear in the top right corner. Also, when you hover over an activity you want to view, the background turns grey.  When you hover away from the record, the background becomes transparent again.|
+|3|When the caret is in the down position (˅), the record is collapsed.|
+|||
 
 For more information on expanding record functionality and configuration, see:
 - [Expand all records in timeline](customer-service-hub-user-guide-timeline-admin.md#expand-all-records-in-timeline)
@@ -79,12 +85,15 @@ For more information on expanding record functionality and configuration, see:
 
 The **More commands** icon contains refresh, sort, and email functionalities.
 
-- **1:** When you select the **More commands** (![](media\timeline-more-commands.icon.png "More commands")) icon, the additional options are displayed.
-- **2:** The **Refresh timeline** command allows you to update the details in the timeline.
-- **3:** The **Sort newer to older** / **Sort older to newer** command allows you sort records.
-- **4:** The **Always show email as conversations / Always show email as individual messages** command enables or disables threaded emails.
+![More commands timeline functionality](media\timeline-more-commands.png "More commands timeline functionality")
 
-    ![More commands timeline functionality](media\timeline-more-commands.png "More commands timeline functionality")
+|Annotation|Description|
+|----------|-----------|
+|1|When you select the **More commands** (![](media\timeline-more-commands.icon.png "More commands")) icon, the additional options are displayed.|
+|2|The **Refresh timeline** command allows you to update the details in the timeline.|
+|3|The **Sort newer to older** / **Sort older to newer** command allows you sort records.|
+|4|The **Always show email as conversations / Always show email as individual messages** command enables or disables threaded emails.|
+|||
 
 For information on using the **More commands** feature and configuration, see:
 - [Quick entry record type and sort order default](customer-service-hub-user-guide-timeline-admin.md#quick-entry-record-type-and-sort-order-default)
@@ -94,12 +103,15 @@ For information on using the **More commands** feature and configuration, see:
 
 To save valuable space, emails with multiple replies are consolidated into email threads and collapsed.
 
-- **1:** Emails with multiple responses are grouped into threaded emails.
-- **2:** To view the complete string of email responses, you can select **Show more** in the bottom left corner of the last visible email in the thread.
-- **3:** When expanded, the most recent 10 email responses in the thread will display.  To display more, select **Show more** to expand the view again.
-- **4:** Emails in the same thread are displayed as linked together.
-
 ![Timeline threaded email view functionality](media\timeline-threaded-email-views-1.png "Timeline threaded email view functionality")
+
+|Annotation|Description|
+|----------|-----------|
+|1|Emails with multiple responses are grouped into threaded emails.|
+|2|To view the complete string of email responses, you can select **Show more** in the bottom left corner of the last visible email in the thread.|
+|3|When expanded, the most recent 10 email responses in the thread will display.  To display more, select **Show more** to expand the view again.|
+|4|Emails in the same thread are displayed as linked together.|
+|||
 
 ### Enable threaded email views in timeline
 
@@ -128,11 +140,14 @@ You can use any of the following options for enabling threaded email views in ti
 
 When enabled by your system administrator, you can easily search for records in the timeline. When you search for a phrase in the timeline, it searches in the title or subject of the record or body or description fields of the record and displays the record for you.
 
-- **1:** Use the **Search** bar on timeline to quickly find records.
-- **2:** When you enter keywords or phrases, the search feature will retrieve and display results below the search bar.
-- **3:** The keywords that you use to perform your search will be highlighted.
-
 ![Enable threaded email timeline view - option 2](media\timeline-search-records-1.png "Enable threaded email timeline view - option 2")
+
+|Annotation|Description|
+|----------|-----------|
+|1|Use the **Search** bar on timeline to quickly find records.|
+|2|When you enter keywords or phrases, the search feature will retrieve and display results below the search bar.|
+|3|The keywords that you use to perform your search will be highlighted.|
+|||
 
 For more information, see, [Enable search bar](customer-service-hub-user-guide-timeline-admin.md#enable-search-bar).
 
@@ -144,10 +159,13 @@ Notes allows you to record richly formatted information and images for reference
 
 You can either add a **Note** or a **Post** to a record on timeline only if your system administrator has enabled the features.
 
-1.	You can enter a **Note** to add to a record. If your system administrator does not have **Notes** enabled, you cannot add an attachment. Also, you can only add one attachment per note.
-2.	You can enter a **Post** to add to a record.
+- You can enter a **Note** to add to a record. If your system administrator does not have **Notes** enabled, you cannot add an attachment. Also, you can only add one attachment per note.
 
-![Add a note or post to a record on timeline](media\timeline-add-a-note-or-post-to-a-record.png "Add a note or post to a record on timeline")
+![Add a note to a record on timeline](media\timeline-add-a-note-to-a-record.png "Add a note to a record on timeline")
+
+- You can enter a **Post** to add to a record.
+
+![Add a post to a record on timeline](media\timeline-add-a-post-to-a-record.png "Add a post to a record on timeline")
 
 ### Access command bar to perform actions
 
@@ -168,11 +186,15 @@ The following is an overview of the command bar icons and the actions they suppo
 | ![](media\email-like-a-post-icon.png "Like a post icon")|Like this post| Lets you like a post. **Note**: This command is only available on Posts.|
 | ![](media\email-edit-icon.png "Edit icon")|Edit this note|Lets you edit a note. **Note**: This command is only available on Notes.|
 
-Not all records can perform the same actions:
-1. Each record has a different set of actions associated with it. 
-2. Only the actions associated with that record are displayed in the command bar.  
+Not all records can perform the same actions.
 
 ![Command bar actions in timeline](media\timeline-access-command-bar-actions-1.png "Command bar actions")
+
+|Annotation|Description|
+|----------|-----------|
+|1|Each record has a different set of actions associated with it.|
+|2|Only the actions associated with that record are displayed in the command bar.  |
+|||
 
 ## Work with notes
 
@@ -236,30 +258,51 @@ The rich text editor is enabled by default. Your system administrator can enable
 To add a mention or to reference a team member in a **Post**, use the following steps:
 
 1.	In the box that appears, type @ sign. When you type @, a flyout menu opens with a list of users you’ve recently used.
+
+    ![Add a mention or reference to a team member in a post on timeline](media\timeline-add-a-mention.png "Add a mention or reference to a team member in a post on timeline")
+
 2.	You can select one of the user records, or start typing the keyword. When you start typing, the records in the flyout menu are refreshed to match the keyword. In the background, the **Dynamics 365 Quick Find** search is in use.
+
 3.	If you don’t find a record, you can switch to different views. To do this, select **Advanced**. The **Lookup Records** pane opens.
+
+    ![Select a user or use advanced find](media\timeline-select-user-advanced-find.png "Select a user or use advanced find")
+
 4.	In the **Lookup Records** pane, you can switch between the **Recent records** and **All records** view to find a record.
+
+    ![Lookup Records pane](media\timeline-lookup-team-member.png "Lookup Records pane")
 
 > [!NOTE]
 > You can mention only a system user in a post.
-
-![Add a mention or reference to a team member in a post on timeline](media\timeline-add-a-mention-to-team-member-in-a-post-1.png "Add a mention or reference to a team member in a post on timeline")
 
 ### Add references in a post to timeline records
 
 To add a reference to a timeline record in a **Post**, use the following steps:
 
-1.	In the **timeline** section, select the ![](media\timeline-create-a-record-icon.png "Create a timeline record")  icon
+1.	In the **Timeline** section, select the ![](media\timeline-create-a-record-icon.png "Create a timeline record") icon.
+
 2.	Select **Post**.
-3.	To add a link, type **#** in the box that appears.  
+
+    ![Select the Post option](media\timeline-select-post-option.png "Select the Post option")
+
+3.	To add a link, type **#** in the box that appears.
+
 4.	When you type #, a flyout menu opens with a list of records that you have recently accessed. These records could be of any record type, such as accounts, contacts or leads.
+
+    ![Add a link](media\timeline-add-link.png "Add a link")
+
 5.	You can select one of the records or start typing the keyword. When you start typing, the records in the flyout menu are refreshed to match the keyword. In this case, too, the search happens using the **Dynamics 365 Quick Find** search. The icons beside the record names in the flyout menu indicate the record types, which help you determine the record to select.  
-6.	If you don’t find a record, you can either switch to different views or create a new record. To do this, select **Advanced**. The **Lookup Records** pane opens.
+
+6.	If you don’t find a record, you can either switch to different views or create a new record. To do this, select **Advanced**.
+
+    ![Select a record or use advanced find](media\timeline-select-record-advanced-find.png "Select a record or use advanced find")
+
 7.	In the **Lookup Records** pane, switch between the **Recent records** and **All records view** to find a record.  
+
 8.	Select **Change View** to find to see records from a different view. For example, if you want to find one of your open opportunities, select **Change View** > **Opportunities** > **My Open Opportunities**. The records in the **Lookup Records** pane will be refreshed to show only the open opportunities you own.  
+
 9.	If you don’t find a record you are looking for, select **New Record** to create a record.
 
-![Add references to timeline records](media\timeline-add-links-to-records-1.png "Add references to timeline records")
+    ![Lookup Records pane](media\timeline-add-links-to-records-1.png "Lookup Records pane")
 
 For more information on Notes and Post functionality and configuration, see:
 - [Record types shown](customer-service-hub-user-guide-timeline-admin.md#record-types-shown)
@@ -275,13 +318,16 @@ You can add an attachment, such as a file, to a note in timeline to share with u
 > Your system administrator must first enable notes for you to add an attachment.
 
 1. Select the ![](media\timelilne-paperclip-icon.png "paperclip icon") paperclip icon to attach a file to a note. You can only add an attachment to a note that is attached to a record. 
+
+    ![Attachment icon](media\timeline-attachment-icon.png "Attachment icon")
+
 2. Select the file you want to attach. You can only add one file per note.
 
    The Edit note screen will appear, and your attachment will be displayed at the bottom of the Edit note screen.
    
 3. Select **Add note** to save and close the Edit note screen.
 
-![Add an attachment to a note in timeline](media\timeline-add-an-attachment-to-a-note.png "Add an attachment to a note in timeline")
+    ![Add an attachment to a note in timeline](media\timeline-add-an-attachment-to-a-note.png "Add an attachment to a note in timeline")
 
 
 ### See Also
