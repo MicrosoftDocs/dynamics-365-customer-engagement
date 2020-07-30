@@ -1,10 +1,10 @@
 ---
-title: Resource Scheduling Optimization (RSO) Goals
+title: Resource Scheduling Optimization (RSO) goals
 author: FieldServiceDave
 ms.author: daclar
 ms.reviewer: krbjoran
 manager: shellyha
-ms.date: 01/02/2020
+ms.date: 08/01/2020
 ms.topic: article
 ms.custom: 
   - dyn365-fieldservice
@@ -18,7 +18,7 @@ search.app:
   - D365FS
 ---
 
-# Optimization goals 
+# Optimization goals
 
 A goal is what the resource scheduling optimization (RSO) solution aims to optimize. An example of a goal is to maximize working hours or minimize travel time. You define how bookings should be optimized (constraints and objectives). The RSO engine processes a list of resources and a list of resource requirements, along with existing bookings, to create the optimal route or list of bookings for the resources. Bookings are considered optimally scheduled if they:
 
@@ -50,7 +50,7 @@ This creates the booking if it can be completed within the resource’s working 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a booked resource](media/c56516997db07c1f0ef64bdcc507350f.png)
 
-[What happens if I remove the 'Schedule within working hours' constraint](https://docs.microsoft.com/en-us/dynamics365/field-service/rso-faq#what-happens-if-i-remove-the-schedule-within-working-hours-constraint)
+[What happens if I remove the **Schedule within working hours** constraint?](https://docs.microsoft.com/dynamics365/field-service/rso-faq#what-happens-if-i-remove-the-schedule-within-working-hours-constraint)
 
 ### Meets Required Characteristics
 This verifies the resource has all the required characteristics and should have minimum required skill level.
@@ -235,7 +235,7 @@ For example, if a characteristic (skill) rating model ranges from 1 to 10, and t
 > ![Screenshot of requirement group with two requirements](./media/scheduling-rso-3-0-characteristic-proficiency-objective.png)
 
 > [!Note]
-> In the October 2020 update, the ‘Best matching skill level’ objective was enhanced to prioritize assigning jobs to resources with less common skills first. This is valuable for organizations with a workforce with varying skillsets. By assigning jobs to resources with less common skills or lower levels first when there is more capacity than demand, this allows RSO to reserve capacity for resources with multiple and unique skills for higher priority emergency situations later on. As an example, imagine one resource has installation skills and another resource has installation _and_ repair skills. RSO will initially schedule installation jobs to the first resource who only has installation skills. This is advantageous because if a repair job needs to be scheduled later on, the second resource will have capacity whereas if all the installation jobs were schedule to the second resource, then no one would be available for the repair job since the first resource does not have the skills for repairs. This improvement to the Best Matching Skill level objective requires no additional configuration and is an update to the algorithm in the background.
+> In the 2020 release wave 2 update, the **Best matching skill level** objective was enhanced to prioritize assigning jobs to resources with less common skills first. This is valuable for organizations with a workforce with varying skillsets. Assigning jobs to resources with less common skills or lower levels first when there is more capacity than demand allows RSO to reserve capacity for resources with multiple and unique skills for higher priority emergency situations. For example, imagine one resource has installation skills and another resource has installation _and_ repair skills. RSO will initially schedule installation jobs to the first resource who only has installation skills. This is advantageous because if a repair job needs to be scheduled later, the second resource will have capacity whereas if all the installation jobs were schedule to the second resource, then no one would be available for the repair job since the first resource does not have the skills for repairs. This improvement to the **Best Matching Skill** level objective requires no additional configuration and is an update to the algorithm in the background.
 
 ### Schedule as soon as possible
 
