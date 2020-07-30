@@ -65,14 +65,18 @@ From the survey go to **Send** in the top right then choose **Email** and edit t
 Go to [https://flow.microsoft.com](https://flow.microsoft.com) and search for the template titled "[Send a survey when a work order is completed or closed in Dynamics 365](https://us.flow.microsoft.com/en-us/galleries/public/templates/7135fe34812745d5af513437a7657002/send-a-survey-when-a-work-order-is-completed-or-closed-in-dynamics-365/)".
 
 
+Sign in to Common Data Service with your Dynamics 365 or Field Service administrator credentials and sign in to your Microsoft Forms Pro account. These accounts can be different.
 
-Environment
 
+Select **Continue** to begin edit the flow template.
 
+Enter your Dynamics 365 Field Service environment name in the parts of the template that require it.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-survey-flow-template.png)
+
+This flow template will execute if the Work Order System Status equals Open - Completed or Closed - Posted. The number values in the image below represent the unique identifer of the system status option set.
 
 
 > [!div class="mx-imgBorder"]
