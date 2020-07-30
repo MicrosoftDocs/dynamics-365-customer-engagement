@@ -4,7 +4,7 @@ description: "Instructions for configuring an SMS channel for Twilio in Omnichan
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/06/2020
+ms.date: 07/30/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -106,6 +106,24 @@ Perform the following steps to configure the URL in Twilio for the SMS messages 
 2. Go to your Twilio account > **Phone Numbers** > **Active Numbers**, and then select the SMS phone number.
 
 3. In the **Messaging** section, paste the Twilio inbound URL.
+
+### Modify settings for a specific SMS number 
+
+1. In the Omnichannel Administration app, go to your SMS application and select the SMS number you want to modify. 
+
+2. On the **General settings** tab, enter or modify the following details:
+
+    - **Number**: Specify the support phone number that you purchased from Twilio in the *<country_code><phone_number>* format, such as 14252306549. Make sure that you don't enter blank spaces or special characters.
+    - **Type**: Select **Long code**.
+    - **Description**: Specify a description for the number (optional).
+    - **Operating Hours**: Specify the business hours when the customer support team is active and available to serve customers. You can specify this value only when the **Allow automated messages** option is set to **Yes** on the **Work Distribution** tab.
+
+    > [!NOTE]
+    > You can configure only one phone number per work stream.
+    
+3. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
+
+4. On the **Surveys** tab, [configure a post-conversation survey](configure-post-chat-survey.md).
 
 ## Flow of data between Omnichannel for Customer Service - SMS channel and Twilio
 
