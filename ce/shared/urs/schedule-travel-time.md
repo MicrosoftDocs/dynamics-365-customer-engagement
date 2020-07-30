@@ -188,7 +188,7 @@ If a field technician begins travel to their next work order and sees that the t
 
 When using resource scheduling optimization, you can take historical traffic information into account to better plan for travel times.
 
-For more information, see our article on [predictive travel with resource scheduling optimization](rso-predictive-travel.md).
+For more information, see our article on [predictive travel with resource scheduling optimization](../../field-service/rso-predictive-travel.md).
 
 ## Configuration considerations
 
