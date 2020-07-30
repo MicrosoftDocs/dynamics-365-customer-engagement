@@ -1,5 +1,5 @@
 ---
-title: "Predictive travel times | MicrosoftDocs"
+title: "Predictive travel times for resource scheduling optimization| MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 08/01/2020
@@ -26,7 +26,7 @@ search.app:
   - D365FS
 ---
 
-# Enable predictive travel times
+# Predictive travel times for resource scheduling optimization
 
 In order to predict accurate travel times for technicians, it's important to remember that travel times can vary because of traffic conditions.
 
