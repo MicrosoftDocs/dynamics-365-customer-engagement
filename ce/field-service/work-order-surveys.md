@@ -82,9 +82,7 @@ This flow template will execute if the Work Order System Status equals Open - Co
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-survey-flow-template1.png)
 
-Survey
-
-Email template
+In other parts of the Flow template, enter your Survey and Email template used in Customer Voice.
 
 
 > [!div class="mx-imgBorder"]
@@ -92,11 +90,20 @@ Email template
 
 ## Create work order
 
+You are now ready to test your work order completion survey.
+
+Create a Work Order in Dynamics 365 Field Service. 
+
+Ensure the Primary Contact field is filled out with a contact that has an email address.
+
+The primary contact is populated from the primary contact of the related Service Account.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/work-order-survey-email-receive.png)
+> ![Screenshot of ](./media/work-order-survey-work-order-before.png)
 
 ## Complete work order
+
+Schedule and complete the work order. If the related booking has a status of Completed, the work order status will be changed to Open - Completed by default.
 
 
 > [!div class="mx-imgBorder"]
@@ -104,9 +111,7 @@ Email template
 
 ## Receive survey
 
+After a few minutes of the work order system status being Open - Completed or Closed - Posted, the survey with the chosen template will be emailed to the primary contact.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-survey-email-receive.png)
-
-## Configuration considerations
-## Additional Notes
