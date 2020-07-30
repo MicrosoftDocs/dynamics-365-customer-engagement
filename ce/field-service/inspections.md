@@ -384,7 +384,7 @@ Now we need to convert the response's JSON into a usable format.
 
 Add an **Initialize Variable** action to url decode and base 64 decode the response JSON:
 
-      decodeUriComponent(decodeBase64(variables('responseJson')))
+```decodeUriComponent(decodeBase64(variables('responseJson')))```
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing the Decode the json part of the Power Automate flow.](./media/inspections-workflow-decode-JSON.png)
@@ -395,14 +395,16 @@ Provide the schema with the name of the question you want to run a workflow on.
 
 In our example, the schema is:
 
-    {
-        "type": "object",
-        "properties": {
-            "Followup": {
-                "type": "string"
-            }
-        }
-    }
+```
+{
+    "type": "object",
+    "properties": {
+        "Followup": {
+            "type": "string"
+        }
+    }
+}
+```
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Parse JSON section of the Power Automate flow, showing the schema field populated with the previous snippet.](./media/inspections-workflow-update-schema.png)
@@ -411,7 +413,7 @@ If you're having trouble generating the schema, you can select the **Generate fr
 
 In our example, we can enter:
 
-    {"Followup":"Yes"}
+```{"Followup":"Yes"}```
 
 "Followup" comes from the inspection question's name value, as seen in the following screenshot:
 
