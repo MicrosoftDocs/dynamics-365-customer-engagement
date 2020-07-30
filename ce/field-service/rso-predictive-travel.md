@@ -36,6 +36,7 @@ search.app:
 
 - Connect to Maps set to Yes in **Resource Scheduling App > Settings > Administration > Scheduling Parameters**.
 - Predictive travel times that use historical data is only available for scheduling with Resource Scheduling Optimization (RSO) and not the schedule assistant or manual scheduling.
+- RSO v3.2.0.4+
 - Deploy RSO
 - Configure RSO
 
