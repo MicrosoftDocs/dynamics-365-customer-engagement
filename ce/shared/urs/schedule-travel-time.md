@@ -172,7 +172,7 @@ However, to better understand how RSO minimizes overall travel time, each RSO ru
 Many organizations want to allow technicians to begin traveling before their working hours up to a limit. Configure resource scheduling optimization to allow travel time before or after working hours as seen in the following screenshot. For more information, see the article on [allowing travel time outside of working hours with resource scheduling optimization](../../field-service/rso-travel-outside-working-hours.md).
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a schedule that shows resources booked outside of their working hours.](./media/rso-travel-outside-after.png)
+> ![Screenshot of a schedule that shows resources booked outside of their working hours.](../../field-service/media/rso-travel-outside-after.png)
 
 ## Consider traffic when scheduling
 
