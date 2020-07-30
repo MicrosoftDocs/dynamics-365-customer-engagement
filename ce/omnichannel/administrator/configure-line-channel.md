@@ -81,10 +81,23 @@ The LINE channel setup is complete.
 > [!NOTE]
 > You can only add one **LINE account** per **LINE Application** channel.
 
-## Configure surveys
+## Modify settings for a specific LINE account 
 
-You can configure post-conversation survey for LINE on the **Surveys** tab.
+1. In the Omnichannel Administration app, go to your LINE application and select the LINE account you want to modify. 
 
+2. On the **General settings** tab, provide the following information:
+    
+    - **Language**: Select the preferred language for your LINE account.
+
+    - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set **No**. 
+
+    - **Enable file attachments for agents**: Set to **Yes** to allow agents to send file attachments to customers. Otherwise, set **No**. 
+    
+       To learn more about attachments, see [File attachments](enable-file-attachments.md). 
+
+3. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
+    
+4. On the **Surveys** tab, [configure a post-conversation survey](configure-post-chat-survey.md).
 
 
 ## Create routing rules
