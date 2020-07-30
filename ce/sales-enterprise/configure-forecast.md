@@ -70,9 +70,6 @@ Perform the following prerequisite task:
 
 ## How do I configure a forecast?
 
->[!NOTE]
-> If you have opted in for early access, you can configure a forecast using custom rollup and hierarchy entities. To learn more, see [Configure forecast using custom rollup entity](configure-forecast-using-custom-rollup-entity.md).
-
 To configure a forecast in your organization, follow these steps:
 
 1.	[Review the prerequisite tasks](#prerequisite-tasks)
