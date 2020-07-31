@@ -36,7 +36,7 @@ You can view and edit underlying opportunities in two ways:
 ## View and edit in a table view
 
 >[!NOTE]
->If you have opted in for early access, the grid view has changed to include enhanced features, such as group the opportunities based on related entity. To learn more, see [View and edit related entity underlying records](#view-and-edit-related-entity-underlying-records).
+>If you have opted in for early access, the grid view has changed to include enhanced features, such as group the opportunities based on related entity. To learn more, see [View and edit related entity underlying records in early access](#view-and-edit-related-entity-underlying-records-in-early-access).
 
 1.	Open a forecast. In this example, we're opening **Kenny's Org FY 2020 Forecast** for current quarter **FY2020 Q1**.
 
