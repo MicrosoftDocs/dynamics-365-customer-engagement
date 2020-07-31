@@ -77,8 +77,8 @@ Using the general properties and scheduling options of the forecast configuratio
 
     | Parameter | Description |
     |-----------|-------------|
-    | Forecast period | Select whether the forecast is to be generated monthly or quarterly. By default, **Quarterly** is selected. You can schedule the forecast up to one year. When you choose forecast period as **Monthly**, an option to name the start the forecast on fiscal start date month is displayed. Enable or disable the option to name the forecast period based on the the fiscal start date defined in your organizational level fiscal year settings. For example, in an organization the start date of 2020 fiscal year is defined as 28 December 2019. Based on this fiscal start date, the first month starts on 28 December 2019 and ends on 27 January 2020.  When you enable the option **Start this forecast on fiscal start date month**, the monthly forecast period is named as *fiscal year* December. Similarly, if you disable the option, the monthly forecast period is named as *fiscal year* January. |
-    | Fiscal year | Select the fiscal year for the forecast. This is populated based on the organization's fiscal year settings. For example, in your organizational settings, you defined fiscal year **Start Date** as **28 December 2019** and **Name Based On** as **End Date**. So, for an annual fiscal year, the end date is 27 December 2020 and the fiscal year name is displayed as **FY2020**. Similarly, if you select **Name Based On** as **Start Date**, the fiscal year name is selected as **FY2019**. To learn more, see [Work with fiscal year settings](https://docs.microsoft.com/power-platform/admin/work-fiscal-year-settings). |
+    | Forecast period | Select whether the forecast is to be generated monthly or quarterly. By default, **Quarterly** is selected. You can schedule the forecast up to one year. |
+    | Fiscal year | Select the fiscal year for the forecast. This is populated based on the organization's fiscal year settings. To learn more, see [Work with fiscal year settings](https://docs.microsoft.com/power-platform/admin/work-fiscal-year-settings). |
     | Forecast starts at | Select the time period to start forecasting. If you select the forecast period as **Monthly**, select the month you want to start forecasting. If you select the forecast period as **Quarterly**, select the quarter you want to start forecasting. |
     | Number of periods | Enter the number of forecast periods to be generated. You can only create forecasts that span up to one year. <br> **Note**: If you set the **Forecast period** to **Monthly**, **Fiscal year** to **FY19**, **Forecast starts at** as **January**, and **Number of periods** as **4**, the generated forecasts will be grouped by four months: January, February, March, and April. In such a case, the forecast start and end dates will automatically be set to January 1, 2019 and April 30, 2019, respectively. |
     | Valid from | This field is read-only. It identifies the date the forecast starts. |
@@ -86,6 +86,39 @@ Using the general properties and scheduling options of the forecast configuratio
  
     > [!div class="mx-imgBorder"]
     > ![Scheduling section](media/forecast-general-tab-scheduling-section.png "Scheduling section")
+
+    Scheduling supports fiscal year spanning across calendar years and fiscal months spanning across calendar months. For example, your organization's fiscal year spans across two different calendar years&mdash;from 28 December to 27 December of next year. Let's see how we can schedule a forecast monthly for the fiscal year FY2020.
+
+    a. In your organization's fiscal year setting, verify **Start Date** and **Name Based On** settings.
+    
+    The start date determines when the fiscal year must start and the name base defines which date has to be considered to name the fiscal year.
+    
+    > [!div class="mx-imgBorder"]
+    > ![Verify organizational fisical settings](media/forecast-schedule-org-fy-settings.png "Verify organizational fisical settings")    
+    
+    In the above image, you can see that:
+    
+    **Start Date** is selected as **12/28/2019** (format is dd/mm/yyy) specifying that the fiscal year starts on 28 December 2019 and ends on 27 December 2020. 
+
+    **Name Based On** is selected as **End Date** specifying that the name of fiscal year is **FY2020**. If the option is selected as **Start Date**, the name will be **FY2019**.
+    
+
+
+    To learn more, see [Work with fiscal year settings](https://docs.microsoft.com/power-platform/admin/work-fiscal-year-settings).
+        
+    b. In the **Scheduling** section, select the following values:<br>
+    **Forecast period** as **Monthly**<br>
+    **Fiscal year** as **FY2020**<br>
+    **Start this forecast** as **December**<br>
+    **Number of periods** as **12**<br>
+
+    The dates in the **Valid from** and **Valid to** are selected according to your organizational fiscal year settings. 
+    
+    When you select the forecast period as monthly, the **Start this forecast on fiscal start date month** option is displayed at the bottom of the section.<br>
+    Enable this option to name the forecast with start date month (**December**). If disabled, the name the forecast will be the end date month (**January**).<br>
+
+    > [!div class="mx-imgBorder"]
+    > ![Schedule a forecast with start month name](media/forecast-schedule-org-select-name.png "Schedule a forecast with start month name")
 
 7.	Select **Next**.
 
@@ -105,7 +138,7 @@ Using the general properties and scheduling options of the forecast configuratio
 
 2.	Select a **Rollup entity**. The forecast is based on the gross rollup of the selected entity. 
 
-    By default, **Opportunity** is selected as the rollup entity. You can choose a custom or other out-of-the-box entity, to support your organizational requirements. Only the entities that have change track enabled will be listed here. To learn more, see [Enable change tracking to control data synchronization](https://docs.microsoft.com/en-us/power-platform/admin/enable-change-tracking-control-data-synchronization).
+    By default, **Opportunity** is selected as the rollup entity. You can choose a custom or other out-of-the-box entity, to support your organizational requirements. Only the entities that have **Change Track** enabled will be listed here. To learn more, see [Enable change tracking to control data synchronization](https://docs.microsoft.com/en-us/power-platform/admin/enable-change-tracking-control-data-synchronization).
 
     > [!div class="mx-imgBorder"]
     > ![Select a rollup entity](media/forecast-general-properties-rollup-entity.png "Select a rollup entity")
@@ -184,6 +217,37 @@ Using the general properties and scheduling options of the forecast configuratio
  
     > [!div class="mx-imgBorder"]
     > ![Scheduling section](media/forecast-general-tab-scheduling-section.png "Scheduling section")
+
+    Scheduling supports fiscal year spanning across calendar years and fiscal months spanning across calendar months. For example, your organization's fiscal year spans across two different calendar years&mdash;from 28 December to 27 December of next year. Let's see how we can schedule a forecast monthly for the fiscal year FY2020.
+
+    a. In your organization's fiscal year setting, verify **Start Date** and **Name Based On** settings.
+    
+    The start date determines when the fiscal year must start and the name base defines which date has to be considered to name the fiscal year.
+
+    > [!div class="mx-imgBorder"]
+    > ![Verify organizational fisical settings](media/forecast-schedule-org-fy-settings.png "Verify organizational fisical settings")
+
+    In the above image, you can see that:
+
+    **Start Date** is selected as **12/28/2019** (format is dd/mm/yyy) specifying that the fiscal year starts on 28 December 2019 and ends on 27 December 2020. 
+
+    **Name Based On** is selected as **End Date** specifying that the name of fiscal year is **FY2020**. If the option is selected as **Start Date**, the name will be **FY2019**.
+    
+    To learn more, see [Work with fiscal year settings](https://docs.microsoft.com/power-platform/admin/work-fiscal-year-settings).
+        
+    b. In the **Scheduling** section, select the following values:<br>
+    **Forecast period** as **Monthly**<br>
+    **Fiscal year** as **FY2020**<br>
+    **Start this forecast** as **December**<br>
+    **Number of periods** as **12**<br>
+
+    The dates in the **Valid from** and **Valid to** are selected according to your organizational fiscal year settings. 
+    
+    When you select the forecast period as monthly, the **Start this forecast on fiscal start date month** option is displayed at the bottom of the section.<br>
+    Enable this option to name the forecast with start date month (**December**). If disabled, the name the forecast will be the end date month (**January**).<br>
+
+    > [!div class="mx-imgBorder"]
+    > ![Schedule a forecast with start month name](media/forecast-schedule-org-select-name.png "Schedule a forecast with start month name")
 
 8.	Select **Next**.
 
