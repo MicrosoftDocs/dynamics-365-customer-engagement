@@ -43,6 +43,9 @@ With the latest version of Field Service and the Field Service (Dynamics 365) mo
 
 ## Prerequisites
 
+> [!Note]
+> As of August 2020, this feature is available as early access. For more information, see the article on [how to opt-in to early access features](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates#how-to-enable-early-access-updates).
+
 - Connected Field Service is included with Field Service.
 - Make sure that Connected Field Service is set up.
 - The Field Service (Dynamics 365) mobile app. Make sure you have the latest mobile app and latest Field Service version.
