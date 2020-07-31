@@ -39,7 +39,7 @@ Create and send an email using the Dynamics 365 for phones and tablets app.
   
 2. Select the **Timeline** tab.
 
-3. Select the **plus sign** [Add activities](media/add_icon.png "Add activities button") and then select **Email**. 
+3. Select the **plus sign** [Add button](media/add_icon.png "add button") and then select **Email**. 
 
 
 > [!div class="mx-imgBorder"]
