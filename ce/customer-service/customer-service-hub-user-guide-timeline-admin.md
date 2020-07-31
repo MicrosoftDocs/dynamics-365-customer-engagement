@@ -9,7 +9,7 @@ author: lerobbin
 ms.author: lerobbin
 manager: shujoshi
 ---
-
+ 
 # Configuring Timeline 
 
 The timeline control provides an easy and immersive experience to view information related to an entity, such as cases, accounts, or contacts which gives users a better understanding  and helps them deliver more personalized service in an efficient and effective manner. 
@@ -122,7 +122,7 @@ The following image shows the timeline at runtime when the Record shown in page 
 
 ## Advanced section
 
-The Advanced section covers settings that span across an activity, note, or post, which are the three (3) primary record types that appear in the timeline section. This section is collapsed by default. When you enable or  disable settings in the Advanced section, you won't be able to see the changes at the runtime (even though it may appear there is activity occurring on the timeline component) until you save and publish your changes and refresh the entity form.
+The Advanced section covers settings that span across an activity, note, or post, which are the three primary record types that appear in the timeline section. This section is collapsed by default. When you enable or  disable settings in the Advanced section, you won't be able to see the changes at the runtime (even though it may appear there is activity occurring on the timeline component) until you save and publish your changes and refresh the entity form.
 
 ![Advanced settings in Timeline properties](media\timeline-properties-advanced-section-config.png "Advanced settings in Timeline properties")
 

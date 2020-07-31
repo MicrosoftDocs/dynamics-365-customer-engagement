@@ -18,7 +18,7 @@ Timeline allows you to:
 
 - Quickly access on the command bar to perform common actions with ease.
 - Filter and view your important activities using multiple filter options.
-- View and manage email conversation threads with ease.
+- View and manage email conversation threads with ease. 
 
 ## How to use timeline functionality
 
@@ -40,9 +40,7 @@ When enabled by your system administrator, the **Create a timeline record** ![](
  > [!div class="mx-imgBorder"]
  > ![Create a timeline record](media\timeline-create-a-timeline-record.png "Create a timeline record")
 
-For information on timeline record configuration, see:
-- [How to configure activity record types](customer-service-hub-user-guide-timeline-admin.md#how-to-configure-activity-record-types)
-- [Enable the ability to create directly from timeline](customer-service-hub-user-guide-timeline-admin.md#enable-the-ability-to-create-directly-from-timeline)
+For information on timeline record configuration, see [Configure activity record types](customer-service-hub-user-guide-timeline-admin.md#configure-activity-record-types)
 
 ## Work with filters
 
@@ -55,9 +53,6 @@ When enabled by your system administrator, the timeline **Filter** further strea
 |1|The ![](media\timeline-filter-icon.png "Filter") icon allows you to **Filter**.|
 |2|A list of items that is enabled by your system administrator is displayed that you can filter.|
 |||
-
-For more information on enabling filter on timeline, see:
-- [Enable filter pane](customer-service-hub-user-guide-timeline-admin.md#enable-filter-pane) 
 
 
 ### How to filter records on timeline <a name="filter-records"></a>
@@ -106,10 +101,6 @@ When working with records, you have key information at-a-glance, can view more b
 |3|When the caret is in the down position (˅), the record is collapsed.|
 |||
 
-For more information on expanding record functionality and configuration, see:
-- [Expand all records in timeline](customer-service-hub-user-guide-timeline-admin.md#expand-all-records-in-timeline)
-- [Expand records with images in timeline](customer-service-hub-user-guide-timeline-admin.md#expand-records-with-images-in-timeline)
-
 ## More Commands
 
 The **More commands** icon contains refresh, sort, and email functionalities.
@@ -123,10 +114,6 @@ The **More commands** icon contains refresh, sort, and email functionalities.
 |3|The **Sort newer to older** / **Sort older to newer** command allows you sort records.|
 |4|The **Always show email as conversations / Always show email as individual messages** command enables or disables threaded emails.|
 |||
-
-For information on using the **More commands** feature and configuration, see:
-- [Quick entry record type and sort order default](customer-service-hub-user-guide-timeline-admin.md#quick-entry-record-type-and-sort-order-default)
-- Threaded email views in timeline
 
 ## Threaded email views in timeline
 
@@ -181,8 +168,6 @@ When enabled by your system administrator, you can easily search for records in 
 |2|When you enter keywords or phrases, the search feature will retrieve and display results below the search bar.|
 |3|The keywords that you use to perform your search will be highlighted.|
 |||
-
-For more information, see, [Enable search bar](customer-service-hub-user-guide-timeline-admin.md#enable-search-bar).
 
 ## Work with notes and posts
 
@@ -341,9 +326,8 @@ To add a reference to a timeline record in a **Post**, use the following steps:
     ![Lookup Records pane](media\timeline-add-links-to-records-1.png "Lookup Records pane")
 
 For more information on Notes and Post functionality and configuration, see:
-- [Record types shown](customer-service-hub-user-guide-timeline-admin.md#record-types-shown)
-- [Quick entry record type](customer-service-hub-user-guide-timeline-admin.md#quick-entry-record-type-and-sort-order-default) 
-- [Record Settings](customer-service-hub-user-guide-timeline-admin.md#record-settings) 
+- [Display options](customer-service-hub-user-guide-timeline-admin.md#display-options).
+- [Record Settings](customer-service-hub-user-guide-timeline-admin.md#record-settings-section) 
 - [Notes on timeline](customer-service-hub-user-guide-timeline-admin.md#notes-on-timeline)
 
 ## Add an attachment to a note in timeline
