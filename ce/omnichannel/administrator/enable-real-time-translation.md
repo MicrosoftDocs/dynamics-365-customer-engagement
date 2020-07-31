@@ -10,13 +10,13 @@ ms.service:
 ms.topic: article
 ---
 
-# Enable language translation for conversations
+# Preview: Enable real-time translation of conversations
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-## Overview
+## Introduction
 
 The real-time message translation feature allows agents to support customers in a language they elect to be serviced in. When you enable language translation in the Omnichannel Administration app, messages between the customer and support agent and messages among the support agents, such as supervisors or SMEs, who consult and collaborate internally, are translated. The real-time translation feature is enabled as a plug-in that exposes APIs to bring in third-party translation services and also provides a native implementation.
 
