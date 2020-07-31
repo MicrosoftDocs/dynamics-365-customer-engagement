@@ -64,6 +64,7 @@
 ##### [Route trigger for entity records](administrator/routing-trigger.md)
 ##### [Understand Omnichannel for Customer Service with Customer Service Hub](administrator/understand-omnichannel-customer-service-hub.md)
 #### [Delete a configured channel](administrator/delete-channel.md)
+#### [Asynchronous channel support](administrator/asynchronous-channels.md)
 ### Queues & Users
 #### [Work with queues](administrator/queues-omnichannel.md)
 #### [Manage users](administrator/users-user-profiles.md)
@@ -112,11 +113,16 @@
 
 
 ### Settings
-#### [Create and manage operating hours](administrator/create-operating-hours.md)
-#### [Set up location detection](administrator/geo-location-provider.md)
+#### [Create message templates](administrator/create-message-templates.md)
 #### [Create and manage data masking rules](administrator/data-masking-settings.md)
+#### [Set up location detection](administrator/geo-location-provider.md)
 #### [Create chat authentication settings](administrator/create-chat-auth-settings.md)
 #### [Enable self service settings in conversation summary](administrator/enable-self-service-settings.md)
+#### [Configure automated messages](administrator/configure-automated-message.md)
+#### [Create and manage operating hours](administrator/create-operating-hours.md)
+#### [Configure outbound messaging](administrator/outbound-messaging.md)
+
+
 ## Agent guide
 
 ### [Overview](agent/omnichannel-agent-overview.md)
