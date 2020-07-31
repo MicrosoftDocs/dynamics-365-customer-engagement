@@ -29,9 +29,9 @@ To configure intraday insights for your organization, follow the scenario that i
 
 - All organizations that are provisioned from the August 2020 Preview release and later are preconfigured with the Power BI workspace by default. If you are provisioning a new organization and don’t need to customize your reports, you don't need to take any further action. For more information, see [Intraday insights in a preconfigured Power BI workspace](#intraday-insights-in-a-preconfigured-power-bi-workspace).
 
-- If you have previously provisioned an organization with customized intraday insights, you don’t need to do anything further. However, if you want to opt out of your current customized reports and use Microsoft’s Power BI analytics instead, you can enable a non-customizable version of intraday insights. For more information, see [Intraday insights in a preconfigured Power BI workspace](#intraday-insights-in-a-preconfigured-power-bi-workspace). 
+- If you have previously provisioned an organization with customized intraday insights and want to keep your reports customized, you don’t need to do anything further. However, if you want to opt out of your current customized reports and use Microsoft’s Power BI analytics instead, you can enable a non-customizable version of intraday insights. For more information, see [Intraday insights in a preconfigured Power BI workspace](#intraday-insights-in-a-preconfigured-power-bi-workspace). 
 
-- If you have an existing or new organization and want to create customized reports for it, follow the procedures in [Configure customized intraday insights reports](#configure-customized-intraday-insights-reports). 
+- If you have an existing or new organization and want to set up customized reports for it, follow the procedures in [Configure customized intraday insights reports](#configure-customized-intraday-insights-reports). 
 
 
 ## Intraday insights in a preconfigured Power BI workspace
