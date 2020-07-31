@@ -2,7 +2,7 @@
 title: "Field Service (Dynamics 365) mobile app | Microsoft Docs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 07/14/2020
+ms.date: 08/01/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -65,20 +65,21 @@ Field Service Mobile is recommended for more **complex** use cases where you may
 | Speech to text | Technician | Yes | Yes | |
 | Geocoding | Technician | Yes | Yes | |
 | [Microsoft Intune](field-service-mobile-intune.md)  | Integration | Yes | Yes | |
+| Time entry  | Technician | Yes | Yes | |
+| Connected Field Service & IoT alerts | Technician | Yes | Yes | |
+| [Inspections](inspections.md) | Technician | Yes | Yes | Field Service technician can find and capture inspections associated with a work order. |
+| [Remote Assist](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/overview-hololens) | Integration | Yes | Yes | Access to help from remote collaborators with integrated Remote Assist. |
 | [Push notifications](mobile-push-notifications.md) | Technician | 2020 release wave 2 | Yes | User notifications, such as new booking appointment. |
 | [Geofencing](geofencing.md) | Technician | 2020 release wave 2 | Yes | Ability to autoset booking status as technician arrives or leaves location. |
-| IoT alerts | Technician | 2020 release wave 2 | Yes | |
 | Reporting | Technician | 2020 release wave 2 | Yes | Customer service reports with signature, option to email PDF. |
 | Scan to find asset | Technician | 2020 release wave 2 | Yes | |
 | [Location sharing and auditing](https://docs.microsoft.com/dynamics365/field-service/geofencing#step-3-enable-location-auditing-for-the-field-service-mobile-app) | Admin | 2020 release wave 2 | Yes | Real time sharing tech location with back office. |
 | Enhanced offline sync filters | Admin | 2020 release wave 2 | Yes | Customize the data available offline (for example, by location, accounts for scheduled bookings). |
 | Offline by default | Technician | 2020 release wave 2 | Yes | App is offline by default so tech is always ready. |
 | Allow technician to force data sync | Technician | 2020 release wave 2 | Yes | Technician can manually force data sync. |
-| [Remote Assist](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/overview-hololens) | Integration | 2020 release wave 2 | Yes | Access to help from remote collaborators with integrated Remote Assist. |
 | Bulk-add users  | Admin | 2020 release wave 2 | Yes | Quickly assign offline data sync profile to users. |
-| Time entry  | Technician | 2020 release wave 2 | Yes | |
 | Check list for service tasks  | Technician | 2020 release wave 2| Yes | Check list for quickly mark task as complete. |
-| [Inspections](inspections.md) | Technician | 2020 release wave 2 | Yes | Field Service technician can find and capture inspections associated with a work order. |
+
 
 
 Check [Release Plans](https://docs.microsoft.com/dynamics365/release-plans/) to stay up to date on upcoming features for Field Service including the Field Service (Dynamics 365) mobile app.
