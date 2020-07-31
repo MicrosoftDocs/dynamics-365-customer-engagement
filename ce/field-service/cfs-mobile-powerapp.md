@@ -27,12 +27,27 @@ search.app:
 ---
 
 # Connected Field Service on Field Service (Dynamics 365) mobile app
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-fsm-powerapp-site-map.png)
+
 ## Prerequisites
+
+Internet connection, not offline
 > [!Note]
 >
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+## View sumary tiles and device readings
+
+## Register new IoT Devices
+
+cfs-fsm-powerapp-commands
+
+## Troubleshoot by sending commands
+
+
+cfs-fsm-powerapp-commands
 
 ## Configuration considerations
 ## Additional Notes
