@@ -34,6 +34,9 @@ Resource scheduling optimization can use historic traffic information in order t
 
 ## Prerequisites
 
+> [!Note]
+> As of August 2020, predictive travel time is available as an early access feature. For more information, see the article on [how to opt-in to early access features](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates#how-to-enable-early-access-updates).
+
 - **Connect to Maps** must be set to **Yes**. Go to **Resource Scheduling App** > **Settings** > **Administration** > **Scheduling Parameters** to make sure.
 - Predictive travel times that use historical data is only available for scheduling with resource scheduling optimization (RSO); the feature is not currently supported for the schedule assistant or manual scheduling.
 - Resource scheduling optimization v3.2.0.4+.
