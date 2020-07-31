@@ -25,7 +25,7 @@ You can use intraday insights in the following ways:
 
 - Using a Power BI Pro or Power BI Premium license for supervisors and administrators; intraday insights can be customized. 
 
-To configure intraday insights for your organization, follow the scenario that is applicable for your environment: 
+As an administrator, you must configure intraday insights before supervisors can use it. To configure intraday insights for your organization, follow the scenario that is applicable for your environment: 
 
 - All organizations that are provisioned from the August 2020 Preview release and later are preconfigured with the Power BI workspace by default. If you are provisioning a new organization and don’t need to customize your reports, you don't need to take any further action. For more information, see [Intraday insights in a preconfigured Power BI workspace](#intraday-insights-in-a-preconfigured-power-bi-workspace).
 
@@ -63,7 +63,7 @@ To enable the preconfigured Power BI workspace:
 
 ## Configure customized intraday insights reports
 
-As an administrator, you must configure the Intraday insights in your organization before supervisors can use it. You can configure the insights for the **Omnichannel for Customer Service** app on the web and for **Unified Service Desk**.
+As an administrator, if you want to customize the intraday insights reports for your organization, you can configure the insights for the **Omnichannel for Customer Service** app on the web and for **Unified Service Desk**.
 
 ### Prerequisites
 
