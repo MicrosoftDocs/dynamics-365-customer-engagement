@@ -4,7 +4,7 @@ description: "Learn about managing notification templates in Omnichannel Adminis
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/23/2020
+ms.date: 07/31/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -115,6 +115,10 @@ The out-of-the-box templates are as follows.
 |CDS entity|||||CDS entity - Default assigned |
 |Customized||||| Customized Notification Template |
 |Sentiment||||| Sentiment threshold alert - Supervisor |
+|||||||
+
+  > [!Note]
+  > We recommend that you do not modify the out-of-the-box templates for your customizations; instead, create your own custom templates to avoid losing them during solution upgrades.
 
 ### Create a notification template
 
