@@ -4,7 +4,7 @@ description: "Instructions on how to configure a Facebook channel in Omnichannel
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 04/06/2020
+ms.date: 07/29/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -26,9 +26,10 @@ The Facebook channel gives you an incredible opportunity to capitalize on the so
 
 After completing the prerequisites, you can add the Facebook channel for your organization by following these steps:
 
-1. [Create a Facebook work stream](#step-1-create-a-facebook-work-stream)
-2. [Create a Facebook channel](#step-2-create-a-facebook-channel)
-3. [Create routing rules](#step-3-create-routing-rules)
+  - [Step 1: Create a Facebook work stream](#step-1-create-a-facebook-work-stream)
+  - [Step 2: Create a Facebook channel](#step-2-create-a-facebook-channel)
+  - [Step 3: Create routing rules](#step-3-create-routing-rules)
+  - [Step 4: Modify settings for a specific Facebook page](#step-4-modify-settings-for-a-specific-facebook-page)
 
 ## Step 1: Create a Facebook work stream
 
@@ -73,7 +74,7 @@ After completing the prerequisites, you can add the Facebook channel for your or
 
 5. In the **Facebook Pages** section, select **Add New Facebook Page** to add a Facebook page.
 
-6. On the **New Facebook Page** page, provide the following information:
+6. On the **New Facebook Page** page, **Account setup** tab, provide the following information:
 
     - **Page Id**: ID of the Facebook page. To get the page ID, go to your Facebook page, select **About**, and copy the value in the **Page ID** field.
 
@@ -84,13 +85,6 @@ After completing the prerequisites, you can add the Facebook channel for your or
     - **Facebook Application**: The Facebook application record is auto filled from which you added a Facebook page.
     
     - **Work Stream**: Browse and select the work stream you created for the Facebook channel.
-
-    - **Enable file attachments for customers**: Set **Yes** to allow customers to send file attachments to agents. Otherwise, set **No**. To learn more about attachments, see [File attachments](#file-attachments). 
-
-    - **Enable file attachments for agents**: Set **Yes** to allow agents to send file attachments to customers. Otherwise, set **No**. To learn more about attachments, see [File attachments](#file-attachments). 
-
-    > [!div class=mx-imgBorder]
-    > ![Register a Facebook page](../media/fb-new-page.png "Register a Facebook page")
 
 7. Select **Save** to create the record.
 
@@ -115,50 +109,25 @@ After you add a Facebook page, values for **Callback Uri** and **Verify Token** 
     > [!div class=mx-imgBorder]
     > ![Facebook channel routing rule](../media/fb-routing-rule.png "Facebook channel routing rule")
 
-## File attachments
+## Step 4: Modify settings for a specific Facebook page 
 
-You can enable or disable the capability for your agents and customers to send file attachments during a Facebook channel conversation. 
+1. In the Omnichannel Administration app, go to your Facebook application and select the Facebook page you want to modify. 
 
-When you enable the option for customers in the Facebook page configuration, customers can send attachments from their messenger. Similarly, when you enable the option for agents in the Facebook page configuration, agents can send the attachments from the communication panel to the customers. To learn how to enable the option, see step 6 in [Create a Facebook channel](#step-2-create-a-facebook-channel).
+2. On the **General settings** tab, provide the following information:
+    
+    - **Language**: Select the preferred language for your Facebook page.
 
-If an agent transfers the conversation to another agent, the agent who receives the chat can also access the files attached in the conversation.
+    - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set **No**. 
 
-### File size limit and unsupported extensions (types) for attachments
+    - **Enable file attachments for agents**: Set to **Yes** to allow agents to send file attachments to customers. Otherwise, set **No**. 
+    
+       To learn more about attachments, see [File attachments](enable-file-attachments.md). 
+    
+    - **Turn on your Facebook human agent message tag**: Set to **Yes** to enable your agents to message customers after 24 hours have passed. When set to **No**, agents will be unable to respond to customers after 24 hours unless the customer sends another message. To use the Facebook human agent message tag, you must also turn it on in the Facebook app. For more information, see [Facebook Developer Tools](https://www.facebook.com/help/contact/?id=2616212338594331).
 
-By default, Omnichannel for Customer Service has a file size limit of 5 megabytes (MB) (5,120 kilobytes). However, you can configure the file as per your organization's requirements. 
-
-> [!Tip]
-> We recommend that you configure a maximum limit of 25 MB (25,600 kilobytes) because the Facebook messenger file size limit is 25 MB.
-
-You can set the file extension types that customers and agents can share. 
-
-#### Configure file size limit and file extensions
-
-To configure the file size limit and file extensions, follow these steps:
-
-1. Sign in to Omnichannel Administrator.
-
-2. Select the settings icon in the nav bar, and then select **Advanced Settings**.
-
-3. Go to **Settings** > **Administration** > **System Settings**.
-
-2. In the **System Settings** window, go to the **Email** tab.
-
-3. Go to the **Set file size limit for attachments** section, and in the **Maximum file size (in kilobytes)** field, enter the value in kilobytes.
-
-    > [!div class=mx-imgBorder]
-    > ![Set file size limit for attachment](../media/file-size-limit.png "Set file size limit for attachment")
-
-4. To specify unsupported file types, go to the **General** tab.
-
-5. In the **Set blocked file extensions for attachments** field, add or edit the file types.
-
-    > [!div class=mx-imgBorder]
-    > ![Specify unsupported file types](../media/unsupported-file-types.png "Specify unsupported file types")
-
-6. Select **OK**.
-
-Now, agents and customers can share file attachments during their conversation.
+3. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
+    
+4. On the **Surveys** tab, [configure a post-conversation survey](configure-post-chat-survey.md).
 
 ## Customer experience
 
@@ -177,7 +146,7 @@ If the customer is identified based on name, the conversation is automatically l
 
 If the customer is not identified based on name, a new contact record can be created.
 
-Customer can send attachments only if you enable.  If you don't enable the option for the customers, they can send the file. However, agents won't receive the file and will see an error. To learn more, see [File attachments](#file-attachments).
+Customer can send attachments only if you enable.  If you don't enable the option for the customers, they can send the file. However, agents won't receive the file and will see an error.
 
 > [!div class=mx-imgBorder]
 > ![Customer sending file](../media/fb-customer1.png "Customer sending file")
@@ -191,4 +160,8 @@ Customers are solely responsible for using Dynamics 365, this feature, and any a
 ### See also
 
 [Understand and create work streams](work-streams-introduction.md)<br>
-[Create and manage routing rules](routing-rules.md)
+[Create and manage routing rules](routing-rules.md)<br>
+[Configure automated messages](configure-automated-message.md)<br> 
+[Configure a pre-chat survey](configure-pre-chat-survey.md)<br>
+[Configure a post-chat survey](configure-post-chat-survey.md)<br>
+[Delete a configured channel](delete-channel.md)

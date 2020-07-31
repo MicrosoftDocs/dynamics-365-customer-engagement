@@ -20,7 +20,7 @@ manager: shujoshi
 
 3. Select **New**. The **New Chat Widget** page is displayed.
 
-4. On the **Basic details** tab, specify the information in the fields of the different sections as outlined in the following table.
+4. On the **General settings** tab, specify the information for the following fields.
 
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|
@@ -77,27 +77,24 @@ manager: shujoshi
     > [!div class=mx-imgBorder]
     > ![Configure the design of a chat widget](../media/oc-chat-widget-design-tab.png "Configure the design of a chat widget")
 
-7. On the **Pre-chat survey** tab, specify the information for the following fields.
+6. On the **Surveys** tab, specify the information for the following fields.
 
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|
-    | Pre-chat survey | Pre-chat survey | Select whether to set up a pre-chat survey in the chat widget. The survey will be shown to users before a conversation is initiated. | Yes |
-    | Pre-chat unauthenticated questions | Pre-chat unauthenticated questions | If you selected **Yes** for the **Pre-chat survey** field, the **Pre-chat unauthenticated questions** section is displayed. <br> Add the pre-chat questionnaires <br> More information: [Configure a pre-chat survey](configure-pre-chat-survey.md) | Product |
+    | Pre-conversation survey | Pre-conversation survey | Select whether to set up a pre-chat survey in the chat widget. The survey will be shown to users before a conversation is initiated. | Yes |
+    | Pre-chat unauthenticated questions | Pre-chat unauthenticated questions | If you set **Yes** for the **Pre-conversation survey** field, the **Pre-chat unauthenticated questions** section is displayed. <br> Add the pre-chat questionnaires <br> More information: [Configure a pre-chat survey](configure-pre-chat-survey.md) | Product |
 
     > [!div class=mx-imgBorder]
-    > ![Configure a pre-chat survey in a chat widget](../media/oc-chat-widget-survey-tab.png "Configure a pre-chat survey in a chat widget")
+    > ![Configure a pre-conversation survey in a chat widget](../media/oc-chat-widget-survey-tab.png "Configure a pre-conversation survey in a chat widget")
 
-8. On the **Location** tab, in the **Widget location** section, select **Add** to specify the website domain where the chat widget must be shown. The domain format should not include the protocol (for example, **http** or **https**).
-
-9.  In the **Visitor location** section, specify whether you need to detect the visitor's location, and then select a **Geo Location Provider**. More information: [Set up location detection](geo-location-provider.md)
+7. On the **Location** tab, do the following:
+   1. In the **Widget location** section, select **Add** to specify the website domain where the chat widget must be shown. The domain format should not include the protocol (for example, **http** or **https**).
+   2. In the **Visitor location** section, specify whether you need to detect the visitor's location, and then select a **Geo Location Provider**. More information: [Set up location detection](geo-location-provider.md)
 
     > [!NOTE]
     > If no domains are specified, the chat widget can be embedded on any website without restrictions. If you specify a domain, the chat widget can be hosted only on the specified domain.
 
-    > [!div class=mx-imgBorder]
-    > ![Configure widget and visitor location in a chat widget](../media/chat-widget-location-tab.png "Configure widget and visitor location in a chat widget")
-
-10. On the **Conversation options** tab, specify the information for the following fields. 
+8. On the **Conversation options** tab, specify the information for the following fields.
 
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|
@@ -113,23 +110,23 @@ manager: shujoshi
    > [!NOTE]
    > You can select one co-browse provider and/or one screen sharing provider for each chat widget. Only co-browse and screen sharing providers that have published a solution on AppSource will appear in the drop-down lists. 
 
-12. On the **Custom messages** tab, view and add custom system messages that will appear in the chat widget. To learn more, see [Set up custom messages](chat-custom-messages.md).
+9. On the **Custom messages** tab, view and add custom system messages that will appear in the chat widget. To learn more, see [Set up custom messages](chat-custom-messages.md).
 
    > [!div class=mx-imgBorder]
    > ![Custom messages in a chat widget](../media/oc-chat-widget-custom-messages-tab.png "View and add custom messages in a chat widget")
 
-11. On the **Related** tab, view activity associated with your chat widget, such as survey responses, chat widget locations, and system messages. 
+10. On the **Related** tab, view activity associated with your chat widget, such as survey responses, chat widget locations, and system messages. 
 
    > [!div class=mx-imgBorder]
    > ![Related chat widget activity](../media/oc-chat-widget-related-tab.png "Related chat widget activity")
 
-12. Select **Save** to save the configurations.
+11. Select **Save** to save the configurations.
 
 After you configure, agents can get the capabilities while they are in a conversation. To learn more, see [Call options and visual engagement in live chat](../agent/agent-oc/call-options-visual-engagement.md).
 
 ### See also
 
-[Configure a pre-chat survey](configure-pre-chat-survey.md) <br>
+[Configure a pre-conversation survey](configure-pre-chat-survey.md) <br>
 [Configure agent display name](agent-display-name.md)<br>
 [Configure proactive chat](proactive-chat.md)<br>
 [Configure file attachment capability](configure-file-attachment.md)<br>

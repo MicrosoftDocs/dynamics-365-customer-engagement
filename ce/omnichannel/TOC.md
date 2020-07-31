@@ -39,6 +39,7 @@
 ##### [Configure agent display name](administrator/agent-display-name.md)
 ##### [Configure a custom chat message](administrator/chat-custom-messages.md)
 ##### [Configure a pre-chat survey](administrator/configure-pre-chat-survey.md)
+##### [Configure a post-conversation survey](administrator/configure-post-chat-survey.md)
 ##### [Automatically identify customers](administrator/record-identification-rule.md)
 ##### [Configure file attachment capability](administrator/configure-file-attachment.md)
 ##### [Embed chat widget in Power Apps portals](administrator/embed-chat-widget-portal.md)
@@ -63,6 +64,9 @@
 ##### [Entity records routing](administrator/entity-channel.md)
 ##### [Route trigger for entity records](administrator/routing-trigger.md)
 ##### [Understand Omnichannel for Customer Service with Customer Service Hub](administrator/understand-omnichannel-customer-service-hub.md)
+#### [Enable file attachments](administrator/enable-file-attachments.md)
+#### [Configure automated messages](administrator/configure-automated-message.md)
+#### [Configure a post-conversation survey](administrator/configure-post-chat-survey.md)
 #### [Delete a configured channel](administrator/delete-channel.md)
 #### [Asynchronous channel support](administrator/asynchronous-channels.md)
 ### Queues & Users

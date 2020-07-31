@@ -4,7 +4,7 @@ description: "Learn about the Microsoft Teams channel and how to configure the c
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/06/2020
+ms.date: 07/27/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -73,5 +73,7 @@ Make sure that the following prerequisites are met:
 
 ### See also
 
-[Channels in Omnichannel for Customer Service](channels.md)  
-[Use a Microsoft Teams channel](../agent/agent-oc/teams-channel.md)
+[Channels in Omnichannel for Customer Service](channels.md)<br />
+[Configure automated messages](configure-automated-message.md)<br />
+[Use a Microsoft Teams channel](../agent/agent-oc/teams-channel.md)<br>
+[Delete a configured channel](delete-channel.md)
