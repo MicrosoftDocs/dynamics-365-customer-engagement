@@ -33,7 +33,7 @@ Field Service (Dynamics 365) is a mobile app designed and optimized for technici
 
 Both the Field Service (Dynamics 365) mobile app _and_ the Field Service Mobile app are included with Field Service.
 
-Available natively for Apple iOS and Google Android phones, Field Service (Dynamics 365) offers technicians many capabilities they need to perform onsite customer service, such as:  
+Available natively for Apple iOS and Google Android phones and tablets, Field Service (Dynamics 365) offers technicians many capabilities they need to perform onsite customer service, such as:  
 
 - A calendar view of assigned jobs 
 - Support for picture, video, and asset barcode scanning
@@ -52,6 +52,8 @@ While the new Field Service (Dynamics 365) app continues to evolve, we'll contin
 Field Service (Dynamics 365) mobile app is recommended for **simpler** use cases and for organizations that want to get up and running quickly with a mobile solution for technicians because it is built on the Power Platform and uses the same admin console as Field Service web and the same PCF controls. 
 
 Field Service Mobile is recommended for more **complex** use cases where you may need custom reporting, push notifications, geofencing, and business processes or validations that work offline.
+
+Use the feature comparison table below to understand which mobile app is right for your business.
 
 
 | Feature | Category | Field Service (Dynamics 365) | Field Service Mobile | Details |
