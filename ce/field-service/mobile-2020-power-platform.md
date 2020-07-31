@@ -149,13 +149,7 @@ On the **Notes tab**, you'll see a way to add note text, pictures, and videos, a
 
 ### Find more information
 
-To get to the sitemap, select the menu icon from the calendar view.
-
-
-> [!div class="mx-imgBorder"]
-> ![Simulated image of a mobile device showing Field Service (Dynamics 365), with emphasis on the menu icon in the top left.](./media/mobile-2020-booking-view-calendar-only.jpg)
-
-From here, you can find other important information like accounts, contacts, customer assets, or to record time off.
+To get to the sitemap, select the menu icon from the calendar view. From here, you can find other important information like accounts, contacts, customer assets, or to record time off.
 
 > [!div class="mx-imgBorder"]
 > ![Simulated image showing two mobile devices with screenshots of Field Service (Dynamics 365). The device on the left shows the full menu for Field Service (Dynamics 365). The device on the right shows an account detail page.](./media/mobile-2020-sitemap-account.jpg)
