@@ -32,7 +32,7 @@ Organizations that are using Connected Field Service to create work orders from 
 
 Most often technicians will use Connected Field Service to
 
-1) **view IoT data** related to assets to better understadn the context of a repair
+1) **view IoT data** related to assets to better understand the context of a repair
 2) **register new IoT devices** when installing and asset to connect it to Azure IoT or a custom IoT provider
 3) **send commands** to troubleshoot issues
 
@@ -72,13 +72,17 @@ Summary tiles and device readings are only visible after an asset is related to 
 
 ## Register new IoT Devices
 
+During asset installations technicians may want to connect new IoT devices to Azure IoT. From the mobile app with an internet connection, go to the IoT device record or create a new one and select **More ... > Register**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-fsm-powerapp-commands.png)
 
+This will create the IoT device in Azure IoT.
+
 ## Troubleshoot by sending commands
 
+After an adminsitrator has configured commands in Azure IoT, technicians can run the commands from the Field Service mobile powerapp.
 
+Common commands include restart and shutdown among other custom commands that are device specific.
 
-## Configuration considerations
-## Additional Notes
+From the IoT device record go to **More ... > Send command** then choose a specific command. 
