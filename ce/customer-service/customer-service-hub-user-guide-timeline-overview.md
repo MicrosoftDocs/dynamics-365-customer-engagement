@@ -35,7 +35,7 @@ The icons displayed in the top right nav in the Timeline give quick access to th
 
 ## Create a timeline record
 
-When enabled by your system administrator, the **Create a timeline record** ![Create a timeline record](media\timeline-create-a-record-icon.png "Create a timeline record") icon allows you to quickly create appointments, send emails, and make notes and posts and associate them with other records. You can select the plus icon to view the options that are available for use.
+When enabled by your system administrator, the **Create a timeline record** ![](media\timeline-create-a-record-icon.png "Create a timeline record") icon allows you to quickly create appointments, send emails, and make notes and posts and associate them with other records. You can select the plus icon to view the options that are available for use.
 
  > [!div class="mx-imgBorder"]
  > ![Create a timeline record](media\timeline-create-a-timeline-record.png "Create a timeline record")
@@ -208,16 +208,16 @@ The following is an overview of the command bar icons and the actions they suppo
 
 |Icon | Name | Description |
 |-----|------|-------------|
-| ![Assign icon](media\email-assign-icon.png "Assign icon") |Assign | Lets you assign a task.|
-| ![Close activity icon](media\email-close-activity-icon.png "Close activity icon")|Close Activity| Lets you close the activity record.|
-| ![Add to queue icon](media\email-add-to-queue-icon.png "Add to queue icon") |Add to Queue| Lets you add a task to a queue.|
-| ![Open record icon](media\email-open-record-icon.png "Open record icon")|Open Record| Lets you open a record.|
-| ![Delete icon](media\email-delete-icon.png "Delete icon")|Delete| Lets you delete the record.|
-| ![Reply icon](media\email-reply-icon.png "Reply icon")|Reply| Lets you reply to an email. **Note**: This command is only available for Email.|
-| ![Replay all icon](media\email-reply-all-icon.png "Replay all icon")|Reply All| Lets you reply to all for an email. **Note**: This command is only available on Email.|
-| ![Forward icon ](media\email-forward-icon.png "Forward icon ")|Forward|Lets you forward an email. **Note**: This command is only available on Email.|
-| ![Like a post icon](media\email-like-a-post-icon.png "Like a post icon")|Like this post| Lets you like a post. **Note**: This command is only available on Posts.|
-| ![Edit icon](media\email-edit-icon.png "Edit icon")|Edit this note|Lets you edit a note. **Note**: This command is only available on Notes.|
+| ![](media\email-assign-icon.png "Assign icon") |Assign | Lets you assign a task.|
+| ![](media\email-close-activity-icon.png "Close activity icon")|Close Activity| Lets you close the activity record.|
+| ![](media\email-add-to-queue-icon.png "Add to queue icon") |Add to Queue| Lets you add a task to a queue.|
+| ![](media\email-open-record-icon.png "Open record icon")|Open Record| Lets you open a record.|
+| ![](media\email-delete-icon.png "Delete icon")|Delete| Lets you delete the record.|
+| ![](media\email-reply-icon.png "Reply icon")|Reply| Lets you reply to an email. **Note**: This command is only available for Email.|
+| ![](media\email-reply-all-icon.png "Replay all icon")|Reply All| Lets you reply to all for an email. **Note**: This command is only available on Email.|
+| ![](media\email-forward-icon.png "Forward icon ")|Forward|Lets you forward an email. **Note**: This command is only available on Email.|
+| ![](media\email-like-a-post-icon.png "Like a post icon")|Like this post| Lets you like a post. **Note**: This command is only available on Posts.|
+| ![](media\email-edit-icon.png "Edit icon")|Edit this note|Lets you edit a note. **Note**: This command is only available on Notes.|
 
 Not all records can perform the same actions.
 
