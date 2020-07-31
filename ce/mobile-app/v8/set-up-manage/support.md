@@ -1,5 +1,5 @@
 ---
-title: "Support for Dynamics 365 for phones and Dynamics 365 for tablets | MicrosoftDocs"
+title: "Support for Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom:
 ms.date: 01/22/2018
 ms.reviewer:
@@ -38,9 +38,9 @@ CRM Online 2015 Update 1 introduced a new version of Dynamics 365 for phones tha
 
 ### Version support
 
-Dynamics 365 for phones requires and can only connect to Microsoft Dynamics CRM Online 2015 Update 1 (online) or later (Windows Phone*, iPhone, and Android) or Microsoft Dynamics CRM 2016 (on-premises) or later (Windows PHone, iPhone, Android).
+Dynamics 365 for phones requires and can only connect to Microsoft Dynamics CRM Online 2015 Update 1 (online) or later (Windows Phone*, iPhone, and Android) or Microsoft Dynamics CRM 2016 (on-premises) or later (Windows Phone, iPhone, Android).
 
-Dynamics CRM for phones express is deprecated and will not connect to releases **after** Microsoft Dynamics CRM 2016.
+Dynamics CRM for phones express is deprecated and will not connect to releases **after** Microsoft Dynamics CRM 2016. Dynamics CRM for phones express is not available in the iOS and Android stores anymore.
 
 *Windows Phone requires the [new Dynamics 365 apps for Windows app](https://go.microsoft.com/fwlink/p/?LinkID=799909) and Microsoft Dynamics CRM 2016 (on-premises) or later .
   

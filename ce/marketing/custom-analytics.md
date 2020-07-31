@@ -1,7 +1,7 @@
 ---
 title: "Prepare for analytic reporting with Power BI (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Describes how to set up data sources in Dynamics 365 Marketing to make them available to Power BI, and how to download and connect a Power BI template to them"
-ms.date: 11/22/2019
+ms.date: 07/24/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -10,7 +10,7 @@ author: alfergus
 ms.author: alfergus
 manager: shellyha
 ms.reviewer:
-topic-status: Drafting
+topic-status: 
 search.audienceType: 
   - admin
   - customizer
@@ -35,7 +35,7 @@ Dynamics 365 Marketing provides a wide selection of built-in analytics throughou
 To create custom analytics, you can connect two different data sources, each of which provides a different type of data:
 
 - **Profile data** is stored in the organizational database and includes the entities and records that you see, edit, and create when working directly in Dynamics 365 Marketing. These include common entities like contacts, accounts, leads, events, customer journeys, and more. You'll use the Power BI data connector called "Common Data Services for Apps" for this type of data.
-- **Interaction data** is stored in the marketing-insights service database and includes information about how your contacts interacted with your marketing initiatives, including email opens, email clicks, event registrations, page submissions, and more. You can see this type of information when you look at the insights built into Dynamics 365 Marketing, but you can't create these records nor view them directly. In the current release, you'll use the Power BI "Azure Blob Storage" connector for this type of data. In future releases you'll also be able use the dataflow connector.
+- **Interaction data** is stored in the marketing-insights service database and includes information about how your contacts interacted with your marketing initiatives, including email opens, email clicks, event registrations, page submissions, and more. You can see this type of information when you look at the insights built into Dynamics 365 Marketing, but you can't create these records nor view them directly. In the current release, you'll use the Power BI "Azure Blob Storage" connector for this type of data. In future releases, you'll also be able use the dataflow connector.
 
 You'll be able to connect directly to your Dynamics 365 Marketing  database from Power BI to fetch your profile data, but to access interaction data you'll need to set up Azure Blob Storage, configure Dynamics 365 Marketing to save interaction data there, and then connect Power BI to your blob storage.
 
@@ -71,7 +71,7 @@ for a quick overview of all the data that is available for your marketing analyt
 
     Make the following settings:
 
-    - Choose a **Start time** and **Expiry time** to establish the period during which your signature will remain valid. Please note that the signature must remain valid for as long as you intend to run the export&mdash;the export will stop immediately when the signature expires.
+    - Choose a **Start time** and **Expiry time** to establish the period during which your signature will remain valid. Note that the signature must remain valid for as long as you intend to run the export&mdash;the export will stop immediately when the signature expires.
     - Enable all four **Permissions** by selecting their check boxes.
 
 1. Select **Create** to create the signature. The dialog refreshes to show a **URL** and **Query string**. Select the **Copy** button to copy the **URL** shown here and paste in a temporary text file so you can use it later in this procedure.
@@ -82,12 +82,12 @@ for a quick overview of all the data that is available for your marketing analyt
 
 1. The **Marketing analytics configuration** page opens.
 
-    ![Marketing analytics configuration](media/custom-analytics-cds-a-config.png "Marketing analytics configuration")
+    ![Marketing analytics configuration](media/custom-analytics-configuration.png "Marketing analytics configuration")
 
     Make the following settings:
 
-    - **Name** : Enter a name to identify this configuration record.
-    - **Export to blob storage URL** : Paste the URL you copied earlier in this procedure.
+    - **Name**: Enter a name to identify this configuration record.
+    - **Export to blob storage URL**: Paste the URL you copied earlier in this procedure.
 
     > [!NOTE]
     > The URL you pasted here includes a connection string to connect to your blob storage. Dynamics 365 Marketing will use this to set up a connection to the blob storage but will then discard it to prevent other people from being able to find it. For this same reason, the connection string will be hidden on the form after submit. This  URL _won't_ be stored in the Dynamics 365 database. That means that if you later copy your instance to a sandbox or restore from a backup, then you'll need to re-enter this URL to reestablish the connection to your blob storage in Azure.
