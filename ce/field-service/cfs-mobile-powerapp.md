@@ -36,8 +36,6 @@ Most often technicians will use Connected Field Service to
 2) **register new IoT devices** when installing and asset to connect it to Azure IoT or a custom IoT provider
 3) **send commands** to troubleshoot issues
 
-// use for more details https://msit.microsoftstream.com/video/45cca3ff-0400-a521-d802-f1ead10982ec?list=studio
-
 With the latest version of Field Service and the Field Service (Dynamics 365) mobile app technicians will find Connected Field Service entities in the sitemap. 
 
 > [!div class="mx-imgBorder"]
