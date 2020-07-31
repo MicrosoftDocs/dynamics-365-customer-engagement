@@ -4,24 +4,28 @@ description: "Instructions for enabling auto-assign of conversations in Omnichan
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/01/2020
+ms.date: 08/03/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
 ---
 
-# Enable conversations to be assigned automatically
+# Preview: Enable conversations to be assigned automatically
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-Some customer conversation requests, such as those coming from a Facebook channel or an SMS channel, might not need an immediate response because of a longer service-level agreement. For such requests, you can enable the auto-assign option in notification templates. When an incoming notification appears, the conversation is assigned to the agent automatically, either instantly or after the timeout period elapses.
+## Introduction
+
+Some customer conversation requests, such as those coming from a Facebook channel or an SMS channel, might not need an immediate response because of a longer service-level agreement. For such requests, you can enable the auto-assign option in the notification templates. When an incoming notification appears, the conversation is assigned to the agent automatically, either instantly or after the timeout period elapses.
 
 > [!IMPORTANT]
 > The auto-assign feature isn't supported in Omnichannel for Customer Service on Unified Service Desk.
 
-**To enable conversations to be assigned automatically**
+## To enable conversations to be assigned automatically
+
+Perform the following steps:
 
 1. Sign in to Omnichannel Administration.
 2. In the site map under **Agent Experience**, select **Notifications**.
@@ -33,4 +37,5 @@ Some customer conversation requests, such as those coming from a Facebook channe
 
 ### See also
 
-[Manage notification templates](notification-templates.md)
+[Manage notification templates](notification-templates.md)  
+[View notifications](../agent/agent-oc/oc-notifications.md)

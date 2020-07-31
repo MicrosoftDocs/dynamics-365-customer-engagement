@@ -94,7 +94,7 @@
 #### [Configure and manage custom presence](administrator/presence-custom-presence.md)
 #### [Share knowledge articles](administrator/knowledge-management-oc.md)
 #### [Enable missed notifications](administrator/manage-missed-notifications.md)
-#### [Enable auto-assignment of conversations](administrator/enable-auto-assignment-conversations.md)
+#### [Enable auto-assignment of conversations](administrator/enable-auto-assign-conversations.md)
 #### Templates
 ##### [Overview](administrator/templates-overview.md)
 ##### [Manage session templates](administrator/session-templates.md)
