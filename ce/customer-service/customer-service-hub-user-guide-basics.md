@@ -605,7 +605,7 @@ You can see templates of a particular language by selecting a language from the 
 > Note:
 > This feature is in preview and is subject to change. 
 
-While working on an email, you can quickly help customers by searching and selecting a relevant knowledge article to include in your email. You can insert the article and/or share a link to it in the body of your message.
+While working on an email, you can quickly help customers by searching and selecting a relevant knowledge article to include in your email. You can insert the article and/or share a link to it in the body of your message. For more information about searching for knowledge articles, see [Search for knowledge articles in the Customer Service Hub](service/search-knowledge-articles-csh.md)
 
 1. From an email form where you are drafting, place your cursor where you want to place the knowledge article or its link, and then select **Insert Knowledge Article**.
 
