@@ -87,7 +87,7 @@ Using the general properties and scheduling options of the forecast configuratio
     > [!div class="mx-imgBorder"]
     > ![Scheduling section](media/forecast-general-tab-scheduling-section.png "Scheduling section")
 
-    Scheduling supports fiscal year spanning across calendar years and fiscal months spanning across calendar months. For example, your organization's fiscal year spans across two different calendar years&mdash;from 28 December to 27 December of next year. Let's see how we can schedule a forecast monthly for the fiscal year FY2020.
+    Scheduling supports fiscal year that spans across calendar years and fiscal months that spans across calendar months. For example, your organization's fiscal year spans across two different calendar years&mdash;from 28 December to 27 December of next year. Let's see how we can schedule a forecast monthly for the fiscal year FY2020.
 
     a. In your organization's fiscal year setting, verify **Start Date** and **Name Based On** settings.
     
@@ -102,8 +102,6 @@ Using the general properties and scheduling options of the forecast configuratio
 
     **Name Based On** is selected as **End Date** specifying that the name of fiscal year is **FY2020**. If the option is selected as **Start Date**, the name will be **FY2019**.
     
-
-
     To learn more, see [Work with fiscal year settings](https://docs.microsoft.com/power-platform/admin/work-fiscal-year-settings).
         
     b. In the **Scheduling** section, select the following values:<br>
@@ -209,7 +207,7 @@ Using the general properties and scheduling options of the forecast configuratio
     | Parameter | Description |
     |-----------|-------------|
     | Forecast period | Select whether the forecast is to be generated monthly or quarterly. By default, **Quarterly** is selected. You can schedule the forecast up to one year. |
-    | Fiscal year | Select the fiscal year for the forecast. This is populated based on the organization's fiscal year settings. |
+    | Fiscal year | Select the fiscal year for the forecast. This is populated based on the organization's fiscal year settings. To learn more, see [Work with fiscal year settings](https://docs.microsoft.com/power-platform/admin/work-fiscal-year-settings).|
     | Forecast starts at | Select the time period to start forecasting. If you select the forecast period as **Monthly**, select the month you want to start forecasting. If you select the forecast period as **Quarterly**, select the quarter you want to start forecasting. |
     | Number of periods | Enter the number of forecast periods to be generated. You can only create forecasts that span up to one year. <br> **Note**: If you set the **Forecast period** to **Monthly**, **Fiscal year** to **FY19**, **Forecast starts at** as **January**, and **Number of periods** as **4**, the generated forecasts will be grouped by four months: January, February, March, and April. In such a case, the forecast start and end dates will automatically be set to January 1, 2019 and April 30, 2019, respectively. |
     | Valid from | This field is read-only. It identifies the date the forecast starts. |
@@ -218,7 +216,7 @@ Using the general properties and scheduling options of the forecast configuratio
     > [!div class="mx-imgBorder"]
     > ![Scheduling section](media/forecast-general-tab-scheduling-section.png "Scheduling section")
 
-    Scheduling supports fiscal year spanning across calendar years and fiscal months spanning across calendar months. For example, your organization's fiscal year spans across two different calendar years&mdash;from 28 December to 27 December of next year. Let's see how we can schedule a forecast monthly for the fiscal year FY2020.
+    Scheduling supports fiscal year that spans across calendar years and fiscal months that spans across calendar months. For example, your organization's fiscal year spans across two different calendar years&mdash;from 28 December to 27 December of next year. Let's see how we can schedule a monthly forecast for the fiscal year FY2020.
 
     a. In your organization's fiscal year setting, verify **Start Date** and **Name Based On** settings.
     
