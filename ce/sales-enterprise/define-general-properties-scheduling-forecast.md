@@ -77,8 +77,8 @@ Using the general properties and scheduling options of the forecast configuratio
 
     | Parameter | Description |
     |-----------|-------------|
-    | Forecast period | Select whether the forecast is to be generated monthly or quarterly. By default, **Quarterly** is selected. You can schedule the forecast up to one year. |
-    | Fiscal year | Select the fiscal year for the forecast. This is populated based on the organization's fiscal year settings. |
+    | Forecast period | Select whether the forecast is to be generated monthly or quarterly. By default, **Quarterly** is selected. You can schedule the forecast up to one year. When you choose forecast period as **Monthly**, an option to name the start the forecast on fiscal start date month is displayed. Enable or disable the option to name the forecast period based on the the fiscal start date defined in your organizational level fiscal year settings. For example, in an organization the start date of 2020 fiscal year is defined as 28 December 2020. Based on this fiscal start date, the first month starts on 28 December 2020 and ends on 27 January 2020.  When you enable the option **Start this forecast on fiscal start date month**, the monthly forecast period is named as FY2020 December. Similarly, if you disable the option, the monthly forecast period is named as FY2020 January. |
+    | Fiscal year | Select the fiscal year for the forecast. This is populated based on the organization's fiscal year settings. For example, in your organizational settings, you defined fiscal year Start Date as 28 December 2019 and Name Based On as End Date. So, for an annual fiscal year, the end date is 27 December 2020 and the fiscal year name is displayed as FY2020. Similarly, if you select Name Based On as Start Date, the fiscal year name is selected as FY2019. To learn more, see [Work with fiscal year settings](https://docs.microsoft.com/power-platform/admin/work-fiscal-year-settings). |
     | Forecast starts at | Select the time period to start forecasting. If you select the forecast period as **Monthly**, select the month you want to start forecasting. If you select the forecast period as **Quarterly**, select the quarter you want to start forecasting. |
     | Number of periods | Enter the number of forecast periods to be generated. You can only create forecasts that span up to one year. <br> **Note**: If you set the **Forecast period** to **Monthly**, **Fiscal year** to **FY19**, **Forecast starts at** as **January**, and **Number of periods** as **4**, the generated forecasts will be grouped by four months: January, February, March, and April. In such a case, the forecast start and end dates will automatically be set to January 1, 2019 and April 30, 2019, respectively. |
     | Valid from | This field is read-only. It identifies the date the forecast starts. |
@@ -103,12 +103,14 @@ Using the general properties and scheduling options of the forecast configuratio
     > [!div class="mx-imgBorder"]
     > ![Enter a name for the forecast](media/forecast-general-properties-forecast-name.png "Enter a name for the forecast")
 
-2.	Select a **Rollup entity**. The forecast is based on the gross rollup of the selected entity. By default, **Opportunity** is selected in **Rollup entity**. You can choose a custom or other out-of-the-box entity, to support your organizational requirements.   
+2.	Select a **Rollup entity**. The forecast is based on the gross rollup of the selected entity. 
+
+    By default, **Opportunity** is selected as the rollup entity. You can choose a custom or other out-of-the-box entity, to support your organizational requirements. Only the entities that have change track enabled will be listed here. To learn more, see [Enable change tracking to control data synchronization](https://docs.microsoft.com/en-us/power-platform/admin/enable-change-tracking-control-data-synchronization).
 
     > [!div class="mx-imgBorder"]
     > ![Select a rollup entity](media/forecast-general-properties-rollup-entity.png "Select a rollup entity")
 
-    By default, the following entities are selected for templates:
+    The following rollup entities are selected for templates:
 
     | Template | Default rollup entity |
     |----------|-----------------------|
@@ -138,7 +140,10 @@ Using the general properties and scheduling options of the forecast configuratio
     > [!div class="mx-imgBorder"]
     > ![Selected owner attribute](media/forecast-relationship-entity-attribute-created-by.png "Selected owner attribute")
 
-    Similarly, if there is no direct entity relationship between the rollup entity and the hierarchy entity, you can choose a related attribute to define the relationship. Select the **Related** tab, and then choose a related attribute from the list. The list displays attributes of the hierarchy-defined entities only. 
+    Similarly, if there is no direct entity relationship between the rollup entity and the hierarchy entity, you can choose a related attribute to define the relationship. Select the **Related** tab, and then choose a related attribute from the list. The list displays attributes of the hierarchy-defined entities only.
+
+    >[!NOTE]
+    >The entities that contains related atributes must be hierarchial type only. For example, If **Opportunity Product** is rollup entity and **User** is heirarchy entity, the relationship between them can't be established through the **Opportunity** entity(*Opportunity Procduct > Opportunity(Opportunity) > Owner(User) > User*), becasue **Opportunity** entity is not a hierarchial type entity.
     
     Here, we're selecting the hierarchy entity as **Territory**. Because there's no direct relationship between the rollup entity (**Opportunity**) and the hierarchy entity (**Territory**), the  relationship attributes are displayed on the **Related** tab. These attributes have an indirect relationship with the rollup entity through the **Account** entity. The **Account** entity is considered to be an intermediate entity for establishing a relationship with the hierarchical entity **Territory**. 
     

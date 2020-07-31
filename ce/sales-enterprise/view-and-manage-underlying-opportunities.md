@@ -94,6 +94,12 @@ The following screen is an example of the enhanced grid view of underlying recor
     > [!div class="mx-imgBorder"]
     > ![Opportunity split data model](media/forecast-opportunity-split-data-model.png "Opportunity split data model")
 
+    The following image is an example when you choose to group the records based on opportunity attribute from the related opportunity entity of an opportunity split forecast.
+
+    > [!div class="mx-imgBorder"]
+    > ![Opportunity split group by example](media/forecast-opportunity-split-groupby-example.png "Opportunity split group by example")
+
+
 ## View and edit in a kanban view
 
 1.	Open a forecast. In this example, we're opening **Kenny's Org FY 2020 Forecast** for current quarter **FY2020 Q1**.

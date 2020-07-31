@@ -44,7 +44,7 @@ By default, forecasting is available in your organization and the following page
 
     The forecast configuration page opens. 
 
-Also, the following changes appear in the **Sales Hub** app:
+Also, you can observe the following changes in the **Sales Hub** app:
 
 -	**Forecasts** appears under **Performance** in the **Sales** site map.
 

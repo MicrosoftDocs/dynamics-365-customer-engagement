@@ -70,7 +70,7 @@ Let's configure this forecast.
 
 3.	Perform the steps in [Provide viewing permissions](provide-permissions-forecast.md).
 
-4.	In the **Layout** section, choose the option set entity from the rollup entity or from its related entities. For this data model, the forecast categories exist in the Opportunity entity. Select the **Opportunity (Opportunity)** option set entity from **Related Entities**.<!--This step needs to be structured; the sentences just kind of float.-->
+4.	In the **Layout** section, choose the option set entity from the rollup entity or from its related entities. For this data model, the forecast categories exist in the Opportunity entity. Select the **Opportunity (Opportunity)** option set entity from **Related Entities**.
 
     > [!div class="mx-imgBorder"]
     > ![Select the Opportunity entity from related entities](media/forecast-ce-select-opportunity-entity.png "Select the Opportunity entity from related entities")
