@@ -27,7 +27,7 @@ For example, you can create the **Customer summary** application type and associ
 As an administrator, you can create multiple application tab templates.
 
   > [!Note]
-  > We recommend that you do not modify the out-of-the-box templates for your customizations, and instead, create your own custom templates to avoid losing them during solution upgrades.
+  > We recommend that you do not modify the out-of-the-box templates for your customizations; instead, create your own custom templates to avoid losing them during solution upgrades.
 
 ## Create an application tab template
 
