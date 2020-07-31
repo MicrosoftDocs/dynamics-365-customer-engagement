@@ -68,11 +68,11 @@ You can view and edit underlying opportunities in two ways:
     > [!NOTE]
     > You can open an opportunity by double-clicking in the non-editable space of the row. The opportunity opens in a new page, where you can edit and save the opportunity.
 
-### View and edit related entity underlying records
+### View and edit related entity underlying records in early access
 
-<!--Early access note -->
+[!INCLUDE [cc-early-access](../includes/cc-early-access.md)]
 
-Earlier, in the grid, you view and edit only the records of rollup entity. With the enhanced grid, you can view and edit related entity records also.
+With the enhanced grid, you can view and edit related entity records also.
 
 The following screen is an example of the enhanced grid view of underlying records:
 

@@ -92,6 +92,8 @@ Using the general properties and scheduling options of the forecast configuratio
 
 ## Define general properties and scheduling in early access
 
+[!INCLUDE [cc-early-access](../includes/cc-early-access.md)]
+
 Using the general properties and scheduling options of the forecast configuration page, you can define a forecast model by specifying a hierarchy and timeframe.
 
 **To enter configuration and scheduling information**
@@ -106,12 +108,20 @@ Using the general properties and scheduling options of the forecast configuratio
     > [!div class="mx-imgBorder"]
     > ![Select a rollup entity](media/forecast-general-properties-rollup-entity.png "Select a rollup entity")
 
+    By default, the following entities are selected for templates:
+
+    | Template | Default rollup entity |
+    |----------|-----------------------|
+    | Org chart forecast | Opportunity |
+    | Territory forecast | Opportunity |
+    | Product forecast | Opportunity Product |
+
 3.	Choose the **Hierarchy entity**. The entities that are displayed in the list are hierarchy-enabled entities that are available in your organization. 
 
-    By default, the following values are selected for templates:
+    By default, the following entities are selected for templates:
 
-    | Template | Value |
-    |----------|-------|
+    | Template | Default hierarchy entity |
+    |----------|--------------------------|
     | Org chart forecast | User |
     | Territory forecast | Territory |
     | Product forecast | Product |

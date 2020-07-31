@@ -31,9 +31,11 @@ To select a template, go to the **Forecast configurations** page and select one 
 > [!div class="mx-imgBorder"]
 > ![Forecasting is enabled](media/forecast-enable-forecasting-enabled-v1.png "Forecasting is enabled")
 
-## Select a template in early access 
+## Select a template in early access
 
-You can select a template to create a forecast. The selected templates populate the **Hierarchy route** field that defines the entity type in your hierarchy.
+[!INCLUDE [cc-early-access](../includes/cc-early-access.md)]
+
+You can select a template to create a forecast. The selected templates populate the **Hierarchy route** field that defines the entity type in your hierarchy. However, to create a forecast based on your custom rollup and hierarchy entities, select **Create from scratch**.   
 
 To select a template, go to the **Forecast configurations** page and select one of the following templates:
 
@@ -42,8 +44,6 @@ To select a template, go to the **Forecast configurations** page and select one 
 -	**Territory forecast**: Rollup columns and projections are based on the sales territory hierarchy.
 
 - **Product forecast**: Rollup columns and projections are based on the product hierarchy. 
-
-- **Create from scratch**: Allows you to create a forecast based on custom rollup and hierarchy entities.   
 
 > [!div class="mx-imgBorder"]
 > ![Select template](media/forecast-ce-template-selection.png "Select template")

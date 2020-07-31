@@ -138,6 +138,8 @@ When you select column **Type** as **Hierarchy related**, the column helps you p
 
 ## Choose layout and columns in early access
 
+[!INCLUDE [cc-early-access](../includes/cc-early-access.md)]
+
 In the **Layout** step of the forecast configuration, you can configure columns to define the forecast grid that appears for users. You can configure rollup columns from option sets that are defined for opportunities in your organization.
 
 Perform the following steps to add columns and configure the forecast grid:
@@ -272,8 +274,6 @@ When you select column **Type** as **Hierarchy related**, the column helps you p
 | Attribute field | Select an attribute to display in the column. For example, you can select **Email**, which will be unique to each user in your organization and can help you identify to whom the record belongs. |
 | Description | Enter a description for the column. This description appears as a tooltip on the column header of the forecast grid, to help your users understand what the column contains. |
 | Unique name | The unique name is used to identify the column to use when you're writing a formula for a **Calculated** column. |
-
-
 
 
 <table>
