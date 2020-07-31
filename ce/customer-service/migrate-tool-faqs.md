@@ -89,8 +89,8 @@ For lookup data types only the **equal / not equal, null /not null** operators a
 15.	**Can I remigrate a rule after it’s been activated?**
 <ol>- <b>Yes for ARC rules.</b> You can re-migrate activated rules, but you must deactivate and delete it from the Unified Client Interface (UCI) first before you can re-migrate the rule.<br />
 - <b>No for SLA rules.</b> Once a migrated SLA rule is activated, it is linked to another entity (such as a case or is in use). To attempt remigration of an activated rule (which is a successfully migrated rule by default) you need to delete that specific rule, however there is a limitation with UCI SLA rules, that once a rule is associated with a case or entity (that if it has been activated even once), you cannot delete the rule, even if it is deactivated. Therefore, the rule cannot be re-migrated if it has been previously activated and/or applied.</ol>
- 
-16.	**Can I migrate deprecated standard SLA rules?** <br />
+
+16.	<b>Can I migrate deprecated standard SLA rules?</b><br />
 No. Only migration of enhanced SLA rules are supported by the migration tool. Standard SLA rules have been deprecated and are no longer supported in the Unified Client Interface (UCI) and therefore not supported in the migration tool. See [Standard SLAs in Dynamics 365 Customer Service](https://docs.microsoft.com/power-platform/important-changes-coming#standard-slas-in-dynamics-365-customer-service-are-deprecated) are deprecated for more information. 
 
 ### Known Flow issues
