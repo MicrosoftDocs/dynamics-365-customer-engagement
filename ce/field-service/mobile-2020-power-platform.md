@@ -78,7 +78,7 @@ Field Service Mobile is recommended for more **complex** use cases where you may
 | Bulk-add users  | Admin | 2020 release wave 2 | Yes | Quickly assign offline data sync profile to users. |
 | Time entry  | Technician | 2020 release wave 2 | Yes | |
 | Check list for service tasks  | Technician | 2020 release wave 2| Yes | Check list for quickly mark task as complete. |
-| [Inspections](inspections.md) | Technician | 2020 release wave 2 | No | Field Service technician can find and capture inspections associated with a work order. |
+| [Inspections](inspections.md) | Technician | 2020 release wave 2 | Yes | Field Service technician can find and capture inspections associated with a work order. |
 
 
 Check [Release Plans](https://docs.microsoft.com/dynamics365/release-plans/) to stay up to date on upcoming features for Field Service including the Field Service (Dynamics 365) mobile app.
@@ -190,7 +190,7 @@ Sign in to Dynamics 365 as a system administrator.
 
 To see your list of apps, go to: 
 
-      https://[YOUR-ENVIRONMENT-NAME].crm.dynamics.com/main.aspx?forceUCI=1&pagetype=apps
+```https://[YOUR-ENVIRONMENT-NAME].crm.dynamics.com/main.aspx?forceUCI=1&pagetype=apps```
 
 Find the Field Service Mobile app and go to the **App Designer**.
 
@@ -336,20 +336,22 @@ Create and add a new JavaScript web resource to the form.
 
 Enter in the following code snippet:
 
-      function TestOnSave(executionContext) {
+```
+function TestOnSave(executionContext) {
 
-      var formContext = executionContext.getFormContext(); // get formContext
-      var duration = formContext.getAttribute("duration").getValue();
+var formContext = executionContext.getFormContext(); // get formContext
+var duration = formContext.getAttribute("duration").getValue();
 
-      formContext.ui.clearFormNotification("DurationErrorMessageId");
+formContext.ui.clearFormNotification("DurationErrorMessageId");
 
-      if (duration < 120) {
-      executionContext.getEventArgs().preventDefault(); // Stop the Save
-      formContext.ui.setFormNotification("Duration must be greater than 2 hours", "ERROR", "DurationErrorMessageId");
-      }
+if (duration < 120) {
+executionContext.getEventArgs().preventDefault(); // Stop the Save
+formContext.ui.setFormNotification("Duration must be greater than 2 hours", "ERROR", "DurationErrorMessageId");
+}
+}
 
-      }
-      
+  ```
+  
   Ensure the web resource triggers on save of the form.
   
   Save and publish customizations.
