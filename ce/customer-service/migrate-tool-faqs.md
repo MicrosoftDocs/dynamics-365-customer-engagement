@@ -23,18 +23,16 @@ No, the user will need to activate the migrated rules manually once migration is
 3.	**Can I activate a rule with an incomplete migration status?**<br /> 
 No, a migrated rule can only be activated when **Mark as complete** is toggled to **Yes** (that's when the rule is considered successfully migrated). 
 
-  >[!Note] 
-  > Review the incomplete rule to resolve any issues before you toggle the **Mark as complete** to **Yes**, then activate the rule.
+>[!Note] 
+> Review the incomplete rule to resolve any issues before you toggle the **Mark as complete** to **Yes**, then activate the rule.
 
 4.	**Will the legacy rule will be de-activated?**<br />
-<ul>
-<li><b>For ARC, yes</b> - when you activate a migrated ARC rule in the Unified Client Interface (UCI), the corresponding legacy rule will be de-activated.</li>
-<li><b>For SLA, no</b> – when you activate a migrated SLA rule in the UCI, the corresponding legacy rule will remain active as they can co-exist.</li>  
-</ul>
+<ol>- <b>For ARC, yes</b> - when you activate a migrated ARC rule in the Unified Client Interface (UCI), the corresponding legacy rule will be de-activated.</ol>
+<ol>- <b>For SLA, no</b> – when you activate a migrated SLA rule in the UCI, the corresponding legacy rule will remain active as they can co-exist.</ol>  
 
-5.	**What does an ‘incomplete status’ mean?**<br />
--	If located in the **Summary** section, it means the overall migration process could not successfully complete the migration of all selected rules. <br />
-- If listed next to a rule, it means the rule has either failed or could not be fully migrated (meaning one or more items/conditions failed to migrate).
+5.	**What does an ‘incomplete status’ mean?**
+<ol>- If located in the **Summary** section, it means the overall migration process could not successfully complete the migration of all selected rules.</ol>
+<ol>- If listed next to a rule, it means the rule has either failed or could not be fully migrated (meaning one or more items/conditions failed to migrate).</ol>
 
 6.	**Where is there a count listing partially migrated rules that are tracked in the migration tool?**<br />
 Rules that are partially or identified as ‘incompletely migrated’ are counted and tracked under **Pending** in the **Summary** section since they are not considered fully migrated. Only rules that completed migration successfully are counted under **Migrated**.
@@ -48,15 +46,13 @@ No, you do not need a separate Power Automate license. See [What are Microsoft P
 9.	**Some of my rules are incomplete and/or partially migrated, what should I do?**<br />
 You can either fix the rule in the web client based on the problem details and run your migration again or fix the migrated rule directly in the Unified Client Interface (UCI).
 
-10.	**Can I rerun the migration tool for a specific migrated rule?**<br />
+10.	**Can I rerun the migration tool for a specific migrated rule?**
 Yes, you can rerun the migration tool for a specific migrated rule based on the following for:
- - incomplete/failed migration rules: re-select the same rule again when you rerun the migration tool. It will automatically replace the existing failed/incomplete rule with the newly migrated one.
- - successfully migrated rules: delete the migrated rule in the Unified Client Interface (UCI) version before rerunning migration tool.
+<ol>- incomplete/failed migration rules: re-select the same rule again when you rerun the migration tool. It will automatically replace the existing failed/incomplete rule with the newly migrated one.</ol>
+<ol>- successfully migrated rules: delete the migrated rule in the Unified Client Interface (UCI) version before rerunning migration tool.</ol>
 
 ### Known condition conversions issues<br />
 The following are some key scenarios where rules/items will not successfully complete migration:
-
-### How do I retry migration for a specific rule? 
 
 11.	**If my rule items/conditions have related entities inside nested group clause (and/or), will they be migrated to the Unified Client Interface (UCI)?**<br />
 No. We currently only support one level of the related entity hierarchy. For such rule items/conditions to successfully migrate, the user would have to remove any related entity in group clause pre-migration. If the user chooses not to take any action, the rule will fail during the **Pre-migration checkup** step and if the user chooses to continue with the migration, the rule will just have an empty condition for the respective item.
@@ -74,10 +70,9 @@ There is not a separate time field in the Unified Client Interface (UCI), so the
 ![UCI view](media\faq-arc-sla-uci-view-13.png)
 
 14.	**Why are some of my operator fields blank in Unified Client Interface (UCI) after migration?**<br />
-For lookup data types only the **equal / not equal, null /not null** operators are supported in UCI and are supported in the migration tool. **Under** and **not-under** operators are not supported in UCI and therefore are not supported in the migration tool. Any condition which have **under** or **not-under** operators are translated as **related entities** after migration and are shown as blank in the UCI after migration and the user cannot edit them. 
-
-a.	Pre-migration Web Client View 
-b.	Post migration UCI View
+For lookup data types only the **equal / not equal, null /not null** operators are supported in UCI and are supported in the migration tool. **Under** and **not-under** operators are not supported in UCI and therefore are not supported in the migration tool. Any condition which have **under** or **not-under** operators are translated as **related entities** after migration and are shown as blank in the UCI after migration and the user cannot edit them. <br />
+**a.**	Pre-migration Web Client View <br />
+**b.**	Post migration UCI View
 
 ![Web view](media\faq-arc-sla-web-client-14.png)
 
@@ -91,12 +86,11 @@ b.	Post migration UCI View
 > - "not-on" operator for the Date data type are not supported.
 > - For the lookups data type, only the "equal", "not equal", "null", and "not null" operators are supported.
 
-
 ### Known SLA issues
  
-15.	**Can I remigrate a rule after it’s been activated?**<br />
-- **Yes for ARC rules.** You can re-migrate activated rules, but you must deactivate and delete it from the Unified Client Interface (UCI) first before you can re-migrate the rule.
-- **No for SLA rules.** Once a migrated SLA rule is activated, it is linked to another entity (such as a case or is in use). To attempt remigration of an activated rule (which is a successfully migrated rule by default) you need to delete that specific rule, however there is a limitation with UCI SLA rules, that once a rule is associated with a case or entity (that if it has been activated even once), you cannot delete the rule, even if it is deactivated. Therefore, the rule cannot be re-migrated if it has been previously activated and/or applied.
+15.	**Can I remigrate a rule after it’s been activated?**
+<ol>- <b>Yes for ARC rules.</b> You can re-migrate activated rules, but you must deactivate and delete it from the Unified Client Interface (UCI) first before you can re-migrate the rule.</ol>
+<ol>- <b>No for SLA rules.</b> Once a migrated SLA rule is activated, it is linked to another entity (such as a case or is in use). To attempt remigration of an activated rule (which is a successfully migrated rule by default) you need to delete that specific rule, however there is a limitation with UCI SLA rules, that once a rule is associated with a case or entity (that if it has been activated even once), you cannot delete the rule, even if it is deactivated. Therefore, the rule cannot be re-migrated if it has been previously activated and/or applied.</ol>
  
 16.	**Can I migrate deprecated standard SLA rules?**<br />
 No. Only migration of enhanced SLA rules are supported by the migration tool. Standard SLA rules have been deprecated and are no longer supported in the Unified Client Interface (UCI) and therefore not supported in the migration tool. See [Standard SLAs in Dynamics 365 Customer Service](https://docs.microsoft.com/en-us/power-platform/important-changes-coming#standard-slas-in-dynamics-365-customer-service-are-deprecated) are deprecated for more information. 
