@@ -136,7 +136,7 @@ Using the general properties and scheduling options of the forecast configuratio
 
 2.	Select a **Rollup entity**. The forecast is based on the gross rollup of the selected entity. 
 
-    By default, **Opportunity** is selected as the rollup entity. You can choose a custom or other out-of-the-box entity, to support your organizational requirements. Only the entities that have **Change Track** enabled will be listed here. To learn more, see [Enable change tracking to control data synchronization](https://docs.microsoft.com/en-us/power-platform/admin/enable-change-tracking-control-data-synchronization).
+    By default, **Opportunity** is selected as the rollup entity. You can choose a custom or other out-of-the-box entity, to support your organizational requirements. Only the entities that have **Change Track** enabled will be listed here. To learn more, see [Enable change tracking to control data synchronization](https://docs.microsoft.com/power-platform/admin/enable-change-tracking-control-data-synchronization).
 
     > [!div class="mx-imgBorder"]
     > ![Select a rollup entity](media/forecast-general-properties-rollup-entity.png "Select a rollup entity")
