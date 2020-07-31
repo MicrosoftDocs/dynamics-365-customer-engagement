@@ -30,7 +30,7 @@ No, a migrated rule can only be activated when **Mark as complete** is toggled t
 <ol>- <b>For ARC, yes</b> - when you activate a migrated ARC rule in the Unified Client Interface (UCI), the corresponding legacy rule will be de-activated.<br />- <b>For SLA, no</b> – when you activate a migrated SLA rule in the UCI, the corresponding legacy rule will remain active as they can co-exist.</ol>  
 
 5.	**What does an ‘incomplete status’ mean?**
-<ol>- If located in the **Summary** section, it means the overall migration process could not successfully complete the migration of all selected rules.<br />
+<ol>- If located in the <b>Summary</b> section, it means the overall migration process could not successfully complete the migration of all selected rules.<br />
 - If listed next to a rule, it means the rule has either failed or could not be fully migrated (meaning one or more items/conditions failed to migrate).</ol>
 
 6.	**Where is there a count listing partially migrated rules that are tracked in the migration tool?**<br />
@@ -49,7 +49,7 @@ You can either fix the rule in the web client based on the problem details and r
 Yes, you can rerun the migration tool for a specific migrated rule based on the following for:
 <ol>- incomplete/failed migration rules: re-select the same rule again when you rerun the migration tool. It will automatically replace the existing failed/incomplete rule with the newly migrated one.<br />- successfully migrated rules: delete the migrated rule in the Unified Client Interface (UCI) version before rerunning migration tool.</ol>
 
-### Known condition conversions issues
+#### Known condition conversions issues
 The following are some key scenarios where rules/items will not successfully complete migration:
 
 11.	**If my rule items/conditions have related entities inside nested group clause (and/or), will they be migrated to the Unified Client Interface (UCI)?**<br />
@@ -84,7 +84,7 @@ For lookup data types only the **equal / not equal, null /not null** operators a
 > - "not-on" operator for the Date data type are not supported.
 > - For the lookups data type, only the "equal", "not equal", "null", and "not null" operators are supported.
 
-### Known SLA issues
+#### Known SLA issues
  
 15.	**Can I remigrate a rule after it’s been activated?**
 <ol>- <b>Yes for ARC rules.</b> You can re-migrate activated rules, but you must deactivate and delete it from the Unified Client Interface (UCI) first before you can re-migrate the rule.<br />
@@ -93,7 +93,7 @@ For lookup data types only the **equal / not equal, null /not null** operators a
 16.	<b>Can I migrate deprecated standard SLA rules?</b><br />
 No. Only migration of enhanced SLA rules are supported by the migration tool. Standard SLA rules have been deprecated and are no longer supported in the Unified Client Interface (UCI) and therefore not supported in the migration tool. See [Standard SLAs in Dynamics 365 Customer Service](https://docs.microsoft.com/power-platform/important-changes-coming#standard-slas-in-dynamics-365-customer-service-are-deprecated) are deprecated for more information. 
 
-### Known Flow issues
+#### Known Flow issues
 
 17.	**Activity party type attribute issues during workflow to Flow conversion.**<br />
 Any activity party type attribute assigned to another activity party type field (the most commonly impacted fields are: to, from, cc, and bcc, in emails) will not migrate during the workflow to Flow conversion, as Flow currently does not support this scenario.  Although the migration of the rule will not fail, the data value for such activity party type fields that relies on another activity party type attribute will be empty post migration. <br /><br />
@@ -103,10 +103,10 @@ Any activity party type attribute assigned to another activity party type field 
 
 ![Web view](media\faq-arc-sla-web-client-17.png)
 
-18.	**"First not null" checks in expressions within legacy workflow during workflow to flow conversion is not supported.**<br />
-In legacy workflows, a lookup field can be mapped with multiple expressions where you check and assign the **“First Not Null”** expression as shown in the Web Client example below. Currently, this is not supported as part of workflow to Flow conversion, as this is a known limitation from the legacy workflow designer. Therefore, the workflow converter assigns the first expression (without performing the null check) and removes the rest of the expressions irrespective of whether they have **"non-null"** values or not. In the sample snapshot shown below, the flow will only have **Regarding(Email)** in **Customer** field within this step.<br /><br />
+18.	**First not null checks in expressions within legacy workflow during workflow to flow conversion is not supported.**<br />
+In legacy workflows, a lookup field can be mapped with multiple expressions where you check and assign the **First Not Null** expression as shown in the Web Client example below. Currently, this is not supported as part of workflow to Flow conversion, as this is a known limitation from the legacy workflow designer. Therefore, the workflow converter assigns the first expression (without performing the null check) and removes the rest of the expressions irrespective of whether they have **non-null** values or not. In the sample snapshot shown below, the flow will only have **Regarding(Email)** in **Customer** field within this step.<br /><br />
 **Example:** <br />
-**a. Web Client View:** In the workflow, Customer field has: **{Regarding(Email);Contact(Create (Case));Customer(Create (Case))}**<br />
+**a. Web Client View:** In the workflow, Customer field has: **{Regarding(Email); Contact(Create (Case)); Customer(Create (Case))}**<br />
 **b. UCI View:** In Flow, the Customer field will only have: **Regarding(Email)** regardless of whether it is null or not. 
 
 ![Web view](media\faq-arc-sla-web-client-18.png)
