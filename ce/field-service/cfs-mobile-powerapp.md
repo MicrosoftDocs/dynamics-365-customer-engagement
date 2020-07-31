@@ -34,20 +34,27 @@ search.app:
 
 ## Prerequisites
 
+Set up Connected Field Service
+
 Internet connection, not offline
 > [!Note]
 >
 
 ## View sumary tiles and device readings
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-fsm-powerapp-summary-tiles.png)
+
 ## Register new IoT Devices
 
-cfs-fsm-powerapp-commands
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-fsm-powerapp-commands.png)
 
 ## Troubleshoot by sending commands
 
 
-cfs-fsm-powerapp-commands
 
 ## Configuration considerations
 ## Additional Notes
