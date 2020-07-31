@@ -84,3 +84,44 @@ Continue to use the **current** schedule board for common functions like:
 - Schedule board configurations like number of days in a view or applying filter territories.
 - Map view and scheduling.
 - Days, weeks, and months view.
+
+### Add new schedule board to custom sitemap area
+
+When using a custom sitemap or an app module, you'll need to update the sitemap to consume the new schedule board preview.
+
+The following snippet is what it looks like before:
+
+```<SubArea Id="msdyn_ScheduleBoardSubArea" ResourceId="SitemapDesigner.NewSubArea" VectorIcon="$webresource:msdyn_/Icons/SVG/Calendar.svg" Url="$webresource:msdyn_/fps/ScheduleBoard/ScheduleBoard.html" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">```
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the sitemap before.](../../field-service/media/schedule-board-new-sitemap-before.png)
+
+The next snippet is what it looks like after:
+
+```<SubArea Id="msdyn_ScheduleBoardSubArea" ResourceId="SitemapDesigner.NewSubArea" VectorIcon="$webresource:msdyn_/Icons/SVG/Calendar.svg" Url="/main.aspx?pagetype=entitylist&amp;etn=msdyn_scheduleboardsetting" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">```
+​
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the sitemap after](../../field-service/media/schedule-board-new-sitemap-after.png)
+
+**URL:**
+
+```/main.aspx?pagetype=entitylist&etn=msdyn_scheduleboardsetting```
+
+**ID:**
+
+```msdyn_scheduleboardtoggle```
+
+## Additional notes
+
+The schedule board is only supported in Unified Client Interface web (Field Service v8.x+) and not in tablets or phones.
+
+### Uninstall schedule board preview
+
+To uninstall the new schedule board preview solution ("Resource Scheduling Controls"), perform the following steps.
+
+1. Go to the **Schedule Board Settings** entity customization form.
+2. Remove the new schedule board preview control from the grid.
+3. Save and publish the changes.
+4. Go to the resource scheduling app, clear the browser's cache, and reload schedule board. The old schedule board will load without the preview toggle in the top right of the screen.
+5. Once the solution is uninstalled, the new schedule board will not be available for the environment until you upgrade your Field Service app to the latest available version.
