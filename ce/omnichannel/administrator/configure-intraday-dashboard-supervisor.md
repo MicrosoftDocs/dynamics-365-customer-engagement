@@ -59,7 +59,7 @@ To view the default preconfigured Power BI workspace or change to it:
     > [!div class=mx-imgBorder]
     > ![Preconfigured Power BI workspace configuration settings page](../media/supervisor-admin-preconfigured-powerbi-configuration-settings.png "Preconfigured Power BI workspace configuration settings page")
 
-
+4.  Select **Save** or **Save and Close**.
 
 ## Configure customized intraday insights reports
 
