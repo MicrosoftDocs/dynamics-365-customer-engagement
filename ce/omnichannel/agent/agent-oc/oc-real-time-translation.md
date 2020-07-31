@@ -10,7 +10,7 @@ ms.service:
 ms.topic: article
 ---
 
-# Real-time language translation of conversations for agents and customers
+# Preview: Real-time translation of conversations for agents and customers
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
