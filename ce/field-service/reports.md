@@ -2,7 +2,7 @@
 title: Reports in Dynamics 365 Field Service (early access) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 04/28/2020
+ms.date: 08/01/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -40,7 +40,7 @@ Reports in Dynamics 365 Field Service can help you get a birds-eye understanding
 - Insights around specific territories, from work order volume to travel time and more
 
 > [!Note]
-> As of August 2020, work order summary reports are available as an early access feature.
+> As of August 2020, work order summary reports are available as an early access feature.Find more details on [how to opt in to early access features](https://docs.microsoft.com/en-us/power-platform/admin/opt-in-early-access-updates#how-to-enable-early-access-updates)
 
 ## Reports overview
 
