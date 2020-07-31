@@ -16,11 +16,12 @@ This event is triggered when a chat is started.
 
 ```javascript
 window.addEventListener("lcw:startChat", function handleLivechatStartedEvent(){
-    // Handle live chat started event
+    // Handle the live chat started event
 });
 ```
+
 ### See also
 
 [lcw:ready](lcw-ready.md)<br />
 [lcw:error](lcw-error.md)<br />
-[JavaScript API reference for Live chat SDK](../../omnichannel-reference.md)
+[Live chat SDK JavaScript API reference](../../omnichannel-reference.md)

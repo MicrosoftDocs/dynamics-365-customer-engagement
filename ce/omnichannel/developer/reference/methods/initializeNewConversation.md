@@ -14,7 +14,7 @@ ms.topic: article
 
 [!include[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-This method is called as soon as a new chat invite is receieved for every incoming conversation. It will help you define which translation provider you wan to use for a particular conversation. You can even choose to switch off or on the translation of the conversation messages. For example, you can decide whether you want to translate the conversation messages based on the channel of incoming conversation or based on the pre-chat response.
+This method is called as soon as a new chat invitation is received for every incoming conversation. It helps you define which translation provider you want to use for a particular conversation. You can even choose to switch off or on the translation of conversation messages; for example, you can decide whether you want to translate conversation messages based on the channel of the incoming conversation or based on the pre-chat response.
 
 ## Syntax
 
@@ -24,7 +24,7 @@ This method is called as soon as a new chat invite is receieved for every incomi
 
 |Name|Required|Description|
 |----|----|----|
-|`conversationConfig`|Yes| Provide details about which translation provider to use based on factors such as `C1Language` and `InviteLocale`. Because some translation providers give better translations for certain set of langauges, you can choose the appropriate translation provider at run time. <br />Based on these parameters, you can also decide to turn on or turn off the translation feature at the start of the new conversation.|
+|`conversationConfig`|Yes| Provide details about which translation provider to use based on factors such as `C1Language` and `InviteLocale`. Because some translation providers give better translations for certain languages, you can choose the appropriate translation provider at runtime. <br />Based on these parameters, you can also decide to turn on or off the translation feature at the start of a new conversation.|
 
 Here is the structure of `conversationConfig` parameter.
 
@@ -32,11 +32,11 @@ Here is the structure of `conversationConfig` parameter.
 interface conversationConfig { 
         conversationId: string,  //Unique Id for live work item in Omnichannel for Customer Service
         c1Language: string;      // Language of the agent
-        inviteParams: InviteParams;  //Parameters received on chat invite 
+        inviteParams: InviteParams;  //Parameters received on invitation to the chat 
         interface InviteParams
                 { 
-                        inviteLocale: string;  //Language locale of the channel received during chat invite 
-                        channelType: string;   //Refers to type of the channel 
+                        inviteLocale: string;  //Language locale of the channel received during the chat invitation 
+                        channelType: string;   //The type of the channel 
                 } 
 }
 ```
@@ -55,7 +55,7 @@ conversationConfig = {
 
 ## Return Value
 
-Returns the `InitializedConversationResponse` object which contains the boolean value for `keepTranslationOn` parameter.
+Returns the `InitializedConversationResponse` object, which contains the Boolean value for the `keepTranslationOn` parameter.
 
 ## Example
 
@@ -68,4 +68,4 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 
 ### See also
 
-[Add a web resource for real time translation](../../how-to/add-web-resource-real-time-translation.md)
+[Add a web resource for real-time translation](../../how-to/add-web-resource-real-time-translation.md)

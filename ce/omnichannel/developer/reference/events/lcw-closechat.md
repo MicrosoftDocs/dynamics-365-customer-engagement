@@ -13,14 +13,15 @@ ms.topic: article
 This event is triggered when a chat is closed.
 
 ## Example
-
+<!--I assume it's okay for me to edit lines that begin with "//"? If not, please excuse!-->
 ```javascript
 window.addEventListener("lcw:closeChat", function handleLivechatClosedEvent(){
-// Handle livechat closed event
+// Handle the live chat closed event
 });
 ```
+
 ### See also
 
 [lcw:ready](lcw-ready.md)<br />
 [lcw:error](lcw-error.md)<br />
-[JavaScript API reference for Live chat SDK](../../omnichannel-reference.md)
+[Live chat SDK JavaScript API reference](../../omnichannel-reference.md)
