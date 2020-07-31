@@ -28,11 +28,23 @@ search.app:
 
 # Connected Field Service on Field Service (Dynamics 365) mobile app
 
+Organizations that are using Connected Field Service to create work orders from IoT data can provide technicians with IoT data and Connected Field Service actions to improve onsite service delivery.
+
+Most often technicians will use Connected Field Service to
+
+1) **view IoT data** related to assets to better understadn the context of a repair
+2) **register new IoT devices** when installing and asset to connect it to Azure IoT or a custom IoT provider
+3) **send commands** to troubleshoot issues
+
+// https://msit.microsoftstream.com/video/45cca3ff-0400-a521-d802-f1ead10982ec?list=studio
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-fsm-powerapp-site-map.png)
 
 ## Prerequisites
+
+Connected Field Service is included with Field Service
 
 Set up Connected Field Service
 
