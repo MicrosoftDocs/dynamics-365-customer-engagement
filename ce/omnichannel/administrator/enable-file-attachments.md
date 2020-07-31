@@ -60,8 +60,8 @@ Now, agents and customers can share file attachments during their conversation.
 
 ### See also
 
-[Configure a Facebook channel](configure-facebook-channel.md)
-[Configure a Twitter channel](configure-twitter-channel.md)
-[Configure a WhatsApp channel](configure-whatsapp-channel.md)
-[Configure a WeChat channel](configure-wechat-channel.md)
+[Configure a Facebook channel](configure-facebook-channel.md)<br>
+[Configure a Twitter channel](configure-twitter-channel.md)<br>
+[Configure a WhatsApp channel](configure-whatsapp-channel.md)<br>
+[Configure a WeChat channel](configure-wechat-channel.md)<br>
 [Configure a LINE channel](configure-line-channel.md)
