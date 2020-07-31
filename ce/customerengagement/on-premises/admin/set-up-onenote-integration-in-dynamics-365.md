@@ -24,4 +24,4 @@ search.audienceType:
 
 # Set up OneNote integration
 
-Microsoft OneNote integration is only supported with Dynamics 365 apps such as Dynamics 365 Sales and Customer Service. See [Set up OneNote integration](https://docs.microsoft.com/en-us/power-platform/admin/set-up-onenote-integration-in-dynamics-365).
+Microsoft OneNote integration is only supported with Dynamics 365 apps such as Dynamics 365 Sales and Customer Service. See [Set up OneNote integration](https://docs.microsoft.com/power-platform/admin/set-up-onenote-integration-in-dynamics-365).
