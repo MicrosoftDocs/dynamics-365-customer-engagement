@@ -29,8 +29,6 @@ search.app:
 
 Create and send an email using the Dynamics 365 for phones and tablets app.
 
-## Create a new email using the + option on the command bar
-
 1. On the commbar, select **plus sign** ![Add button](media/add_icon.png "add button") > **Activites** > **Email**. 
 
 2. Fill in the subject of the email and use the space provided to write the email and then select **Save**.
