@@ -40,7 +40,7 @@ Rules that are partially or identified as ‘incompletely migrated’ are counte
 No. Custom entities, fields, attributes, and configurations are not supported by the migration tool. Only out-of-box (OOB) entities, fields, and attributes are supported by the migration tool.
 
 8.	**Do I need a separate license for Power Automate before running migration?** <br />
-No, you do not need a separate Power Automate license. See [What are Microsoft Power Apps and Power Automate use rights for Dynamics 365 applications](https://docs.microsoft.com/en-us/power-platform/admin/powerapps-flow-licensing-faq#what-are-microsoft-power-apps-and-power-automate-use-rights-for-dynamics-365-applications) for more information on licensing guidelines.
+No, you do not need a separate Power Automate license. See [What are Microsoft Power Apps and Power Automate use rights for Dynamics 365 applications](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq#what-are-microsoft-power-apps-and-power-automate-use-rights-for-dynamics-365-applications) for more information on licensing guidelines.
 
 9.	**Some of my rules are incomplete and/or partially migrated, what should I do?**<br />
 You can either fix the rule in the web client based on the problem details and run your migration again or fix the migrated rule directly in the Unified Client Interface (UCI).
@@ -90,8 +90,8 @@ For lookup data types only the **equal / not equal, null /not null** operators a
 <ol>- <b>Yes for ARC rules.</b> You can re-migrate activated rules, but you must deactivate and delete it from the Unified Client Interface (UCI) first before you can re-migrate the rule.<br />
 - <b>No for SLA rules.</b> Once a migrated SLA rule is activated, it is linked to another entity (such as a case or is in use). To attempt remigration of an activated rule (which is a successfully migrated rule by default) you need to delete that specific rule, however there is a limitation with UCI SLA rules, that once a rule is associated with a case or entity (that if it has been activated even once), you cannot delete the rule, even if it is deactivated. Therefore, the rule cannot be re-migrated if it has been previously activated and/or applied.</ol>
  
-16.	**Can I migrate deprecated standard SLA rules?**<br />
-No. Only migration of enhanced SLA rules are supported by the migration tool. Standard SLA rules have been deprecated and are no longer supported in the Unified Client Interface (UCI) and therefore not supported in the migration tool. See [Standard SLAs in Dynamics 365 Customer Service](https://docs.microsoft.com/en-us/power-platform/important-changes-coming#standard-slas-in-dynamics-365-customer-service-are-deprecated) are deprecated for more information. 
+16.	**Can I migrate deprecated standard SLA rules?** <br />
+No. Only migration of enhanced SLA rules are supported by the migration tool. Standard SLA rules have been deprecated and are no longer supported in the Unified Client Interface (UCI) and therefore not supported in the migration tool. See [Standard SLAs in Dynamics 365 Customer Service](https://docs.microsoft.com/power-platform/important-changes-coming#standard-slas-in-dynamics-365-customer-service-are-deprecated) are deprecated for more information. 
 
 ### Known Flow issues
 
