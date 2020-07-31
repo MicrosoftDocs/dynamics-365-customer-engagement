@@ -36,8 +36,6 @@ Functional location in Field Service allows for more location granularity on a f
 - On an asset
 - On a specific work order
 
-// https://msit.microsoftstream.com/video/9ec8a3ff-0400-a936-c3da-f1eaab7ee13c?channelId=0bf6f71a-b361-4d7b-9668-62ff5207b60d
-
 Additionally, functional locations can be represented by hierarchical relationships. For example, a printer might be located on the third floor, in building A on a customer's campus. This relationship would be represented as the following nested relationship:
 
 - Building A
@@ -48,9 +46,12 @@ In this article, we'll look at how to define functional relationships within Fie
 
 ## Prerequisites
 
-- Functional location is in early access as of August 1, 2020,
-- This feature will be generally available October 1, 2020
-- Field Service v8.8.x
+> [!Note]
+> As of August 2020, functional location is available as an early access feature. For more information, see the article on [how to opt-in to early access features](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates#how-to-enable-early-access-updates).
+
+- Functional location is in early access as of August 1, 2020.
+- This feature will be generally available October 1, 2020.
+- Field Service v8.8.x.
 
 ## Create a service account
 
