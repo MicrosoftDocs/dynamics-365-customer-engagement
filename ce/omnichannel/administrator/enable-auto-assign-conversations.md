@@ -18,12 +18,12 @@ ms.topic: article
 
 ## Introduction
 
-Some customer conversation requests, such as those coming from a Facebook channel or an SMS channel, might not need an immediate response because of a longer service-level agreement. For such requests, you can enable the auto-assign option in the notification templates. When an incoming notification appears, the conversation is assigned to the agent automatically, either instantly or after the timeout period elapses. We recommend that you don't enable the auto-assign setting in consult notification templates.
+Some customer conversation requests, such as those coming from a Facebook channel or an SMS channel, might not need an immediate response because of a longer service-level agreement. For such requests, you can enable the auto-assign option in the notification templates. When an incoming notification appears, the conversation is assigned to the agent automatically, either instantly or after the timeout period elapses.
 
 > [!IMPORTANT]
 > Auto-assign isn't supported in Omnichannel for Customer Service on Unified Service Desk.
 
-## To enable conversations to be assigned automatically
+## Enable conversations to be assigned automatically
 
 Perform the following steps:
 
@@ -35,6 +35,8 @@ Perform the following steps:
 
    > ![Enable automatic assignment of conversations](../media/enable-auto-assign-chat.png " Enable automatic assignment of conversations ")
 
+> [!NOTE]
+> We recommend that you don't enable the auto-assign setting in consult notification templates.
 ### See also
 
 [Manage notification templates](notification-templates.md)  
