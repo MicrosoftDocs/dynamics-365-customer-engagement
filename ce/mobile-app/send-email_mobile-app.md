@@ -1,14 +1,14 @@
 ---
-title: "Preview: Configure mobile offline synchronization in Dynamics 365 for phones and tablets | MicrosoftDocs"
+title: "Preview: Send email using the Dynamics 365 for phones and tablets app | MicrosoftDocs"
 ms.custom: 
-ms.date: 07/10/2020
+ms.date: 08/3/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: Dynamics 365 apps
-ms.assetid: 7f992860-8c7b-48ba-806a-63a3634d209d
+ms.assetid: 7f997860-8c7b-48ba-809a-63a3637d209d
 caps.latest.revision: 1
 ms.author: mkaur
 author: mduelae
@@ -23,10 +23,36 @@ search.app:
 ---
 
 
-# Preview: Configure mobile offline synchronization in Dynamics 365 for phones and tablets
-
+# Preview: Send email using the Dynamics 365 for phones and tablets app
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
+Create and send an email using the Dynamics 365 for phones and tablets app.
 
-Set up mobile offline synchronization to allow users to work in offline mode on their mobile device. Mobile offline allows your users to use the Dynamics 365 for phones and tablets in offline mode to interact with their data, even when they are not connected to the internet. The Dynamics 365 mobile app provides a rich offline experience and helps you to stay productive. You can use basic commands such as create, read, update, and delete when you are offline. Once you are back online, the changes you made on the Dynamics 365 mobile app are automatically synchronized with Common Data Service.
+
+## Create a new email using the + option on the command bar
+
+
+## Open a record and create a new email  
+
+1. Open the record that you want to add the activity to. 
+  
+2. Select the **Timeline** tab.
+
+3. Select the **plus sign** [Add activities](media/add_icon.png "Add activities button") and then select **Email**. 
+
+
+> [!div class="mx-imgBorder"]
+> ![Create new email](media/create_new_email.png "Create new email")
+
+
+3. Fill in the subject of the email and use the space provided to write the email.
+  
+4. To add an attachment to the email, save the email. Then, on the command bar select **Attach File** > **Choose File** and then select the file that you want to attach to the email.
+
+   > [!NOTE]
+   > An email with an attached image will be shown inline with the body of the email.
+  
+5. To use a template for the email body, on the command bar, select **Insert Template**, and then select the template. For more information on inserting an email template, see [Insert an email template](insert-email-template.md). 
+  
+6. When you're done composing in the email, on the command bar select **Send**. 
