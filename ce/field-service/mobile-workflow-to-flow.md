@@ -38,11 +38,14 @@ By using Power Automate for Field Service Mobile processes, you can:
 
 For a comparison of features between Dynamics 365 workflows versus Power Automate flows, see [this feature comparison table.](https://docs.microsoft.com/power-automate/replace-workflows-with-flows).
 
+> [!Note]
+> As of August 2020, this feature is available as early access. For more information, see the article on [how to opt-in to early access features](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates#how-to-enable-early-access-updates).
+
 ## Enable Power Automate flows in Field Service settings
 
 To switch from workflow to Power Automate, go to **Field Service Settings** and toggle **Use Enhanced Background Processing** to **Yes**. This action will move background processing from workflow to Power Automate; any enabled Power Automate flows will execute.
 
->![Note]
+> [!Note]
 > Making this change in **Field Service Settings** means that all Field Service workflows will move to Power Automate.
 
 > [!div class="mx-imgBorder"]
