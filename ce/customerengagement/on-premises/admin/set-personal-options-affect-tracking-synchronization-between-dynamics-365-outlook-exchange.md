@@ -17,9 +17,7 @@ ms.author: jimholtz
 manager: brycho
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Set personal options that affect tracking and synchronization between Customer Engagement (on-premises) and Outlook or Exchange
 

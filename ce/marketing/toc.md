@@ -68,6 +68,11 @@
 #### [Create and customize marketing calendars](customize-marketing-calendars.md)
 #### [Create and customize template labels](customize-template-labels.md)
 
+### Email administration
+#### [Best practices for email marketing](get-ready-email-marketing.md)
+#### [Email bounce categories](email-bounce-categories.md)
+#### [Email policies and suspension standards](email-policies.md)
+
 ### Privacy and compliance
 #### [Data protection and GDPR](gdpr.md)
 #### [Set up global double opt-in](double-opt-in.md)
@@ -75,9 +80,8 @@
 #### [How the app uses cookies](cookies.md)
 
 ### [Best practices for administration](admin-best-practices.md)
-### [Best practices for email marketing](get-ready-email-marketing.md)
-### [Email policies and suspension standards](email-policies.md)
 ### [Administration and setup FAQ](setup-troubleshooting.md)
+### [Known issues and workarounds](known-issues.md)
 
 ## [User Guide](user-guide.md)
 
@@ -128,6 +132,7 @@
 #### [Create and deploy marketing pages](create-deploy-marketing-pages.md)
 #### [Provide personalized page content](personalized-page-content.md)
 #### [Create marketing forms](marketing-forms.md)
+#### [Use marketing forms for event registration](event-forms.md)
 #### [Enable prefilling for forms](form-prefill.md)
 #### [Integrate with landing pages on external websites](embed-forms.md)
 #### [Create input fields for forms](marketing-fields.md)
@@ -148,7 +153,6 @@
 #### [Export dynamic-segment members to Excel](segments-export-members.md)
 #### [Design static segments](segments-static.md)
 #### [Manage segment memberships from a contact record](manage-segments-from-contacts.md)
-#### [Combine segments into a compound segment](segments-compound.md)
 #### [Work with segment templates](segments-templates.md)
 #### [Market to Dynamics 365 segments on LinkedIn ](linkedin-matched-audience.md)
 #### [Use Customer Insights segments in Marketing](customer-insights-segments.md)
@@ -171,7 +175,6 @@
 
 ### Event planning and management
 #### [Event management overview](event-management.md)
-#### [Early access: Improved event management experience](event-forms.md)
 #### [Open the event management work area](open-events.md)
 #### [Set up an event](set-up-event.md)
 #### [Set up session-level registration and waitlisting](session-level-registration.md)

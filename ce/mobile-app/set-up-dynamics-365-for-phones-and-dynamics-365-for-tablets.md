@@ -1,5 +1,5 @@
 ---
-title: "Set up Dynamics 365 for phones and Dynamics 365 for tablets | MicrosoftDocs"
+title: "Set up Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom:
 ms.date: 06/5/2020
 ms.reviewer:
@@ -89,10 +89,17 @@ This list identifies all services to which Dynamics 365 for Phones and Tablets t
 
 | Domain(s) | Protocols | Uses |
 | --- | --- | --- |
-| management.azure.com |https |Between version 13.19022.10 and 13.19081.22, used to fetch the list of apps to populate the app list. |
-| api.businessappdiscovery.microsoft.com |https |Starting with version 13.19091.0, used to fetch the list of apps to populate the app list. |
-
+| management.azure.com |https |Between versions 4.3.19022.10 and 4.3.19081.22 (Android) or 13.19022.10 and 13.19081.22 (iOS), used to fetch the list of apps to populate the app list. |
+| api.businessappdiscovery.microsoft.com |https |Between versions 4.3.19091.0 and 4.3.20081.1 (Android) or 13.19091.0 and 13.20081.1 (iOS), used to fetch the list of apps to populate the app list. |
+| api.powerapps.com |https |Starting with version 4.3.20081.2 (Android) and 13.20081.2 (iOS), used to fetch the list of apps to populate the app list. |
+|<br>login.microsoft.com</br> <br>login.windows.net</br> <br>login.microsoftonline.com</br> <br>secure.aadcdn.microsoftonline-p.com</br>|https |Azure Active Directory - used for authentication (in all versions).
   
+This list identifies all resources used by Dynamics 365 for phones and tablets. Your configuration (for example, Azure Active Directory or Intune) must not block these resources.
+
+| Resources(s) | Uses |
+| --- | --- |
+| service.powerapps.com |Starting with version 13.19091.20, used for email sign-in and the app list. |
+
 ### Security privileges  
  Both Common Data Service and Dynamics 365 Customer Engagement (on-premises) use a security privilege, **Dynamics 365 apps for mobile**, to provides access to [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. This privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams. For more information on how to share apps in Common Data Service, see [Share a model-driven app using Power Apps](https://docs.microsoft.com/powerapps/maker/model-driven-apps/share-model-driven-app).
   

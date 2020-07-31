@@ -16,8 +16,7 @@ ms.author: anbichse
 manager: brycho
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 ---
 # Assign a record to a user or team
 

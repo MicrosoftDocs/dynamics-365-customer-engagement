@@ -19,8 +19,7 @@ manager: kvivek
 tags: 
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Publish changes 
 

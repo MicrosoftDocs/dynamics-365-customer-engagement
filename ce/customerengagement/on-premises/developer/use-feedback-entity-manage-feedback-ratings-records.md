@@ -15,8 +15,7 @@ author: KumarVivek
 ms.author: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Use the Feedback entity to manage feedback and ratings for Customer Engagement (on-premises) records
 

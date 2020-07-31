@@ -51,7 +51,7 @@ access to tools that help you manage your deals, such as a guided task flow that
 ![Command bar item 6](media/number-6.png "Command bar item 6") Get **help**.  
 
 
-### Site map on the side
+### Site map on the side<a name="site-map"></a>
 
 Select the Site map icon to see a list of all your options in one place, including access to communication tools like email and customer records, your
 calendar, and settings. You’ll also find quick access to any favorite customers you’ve pinned and to your recent work, so you don’t have to waste time backtracking.

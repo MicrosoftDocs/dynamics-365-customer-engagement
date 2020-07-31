@@ -17,9 +17,7 @@ ms.author: jimholtz
 manager: brycho
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Add Office 365 Online services
 Integrating [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] with [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps is a great way to enhance your customer relationship management with the power of cloud services: easier maintenance, broader availability, and better coordination across multiple devices.  

@@ -43,6 +43,7 @@
 ##### [Configure file attachment capability](administrator/configure-file-attachment.md)
 ##### [Embed chat widget in Power Apps portals](administrator/embed-chat-widget-portal.md)
 ##### [Configure proactive chat](administrator/proactive-chat.md)
+##### [Configure reconnection to a previous chat session](administrator/configure-reconnect-chat.md)
 #### SMS channels
 ##### [Configure an SMS channel for TeleSign](administrator/configure-sms-channel.md)
 ##### [Configure an SMS channel for Twilio](administrator/Configure-sms-channel-twilio.md)
@@ -55,14 +56,14 @@
 #### Microsoft Teams
 ##### [Configure a Microsoft Teams channel](administrator/configure-microsoft-teams.md)
 ##### [Prerequisites](administrator/configure-microsoft-teams.md#prerequisites)
-##### [Configuration steps](administrator/configure-microsoft-teams.md#configure-a-teams-channel-in-omnichannel)
+##### [Configuration steps](administrator/configure-microsoft-teams.md#configureteams)
 #### Custom messaging channel
 ##### [Configure a Custom messaging channel](administrator/configure-custom-channel.md)
 #### Entity records channel
 ##### [Entity records routing](administrator/entity-channel.md)
 ##### [Route trigger for entity records](administrator/routing-trigger.md)
 ##### [Understand Omnichannel for Customer Service with Customer Service Hub](administrator/understand-omnichannel-customer-service-hub.md)
-
+#### [Delete a configured channel](administrator/delete-channel.md)
 ### Queues & Users
 #### [Work with queues](administrator/queues-omnichannel.md)
 #### [Manage users](administrator/users-user-profiles.md)
@@ -92,6 +93,7 @@
 #### [Create quick replies](administrator/create-quick-replies.md)
 #### [Configure and manage custom presence](administrator/presence-custom-presence.md)
 #### [Share knowledge articles](administrator/knowledge-management-oc.md)
+#### [Enable missed notifications](administrator/manage-missed-notifications.md)
 #### Templates
 ##### [Overview](administrator/templates-overview.md)
 ##### [Manage session templates](administrator/session-templates.md)
@@ -104,7 +106,7 @@
 #### [Configure to view Intraday insights](administrator/configure-intraday-dashboard-supervisor.md)
 #### [Customize KPIs for Intraday insights](administrator/customize-kpis-intraday-insights.md)
 #### [Provide access to Ongoing Conversations dashboard](administrator/configure-ongoing-conversations-dashbaord.md)
-<!--#### [Enable supervisors to monitor and assign conversations](administrator/configure-ongoing-conversations-settings.md)-->
+
 #### [Analyze real-time customer sentiment](administrator/enable-sentiment-analysis.md)
 #### [Configure Omnichannel Insights dashboards](administrator/configure-historical-sentiment-dashboard-supervisor.md)
 
@@ -115,7 +117,6 @@
 #### [Create and manage data masking rules](administrator/data-masking-settings.md)
 #### [Create chat authentication settings](administrator/create-chat-auth-settings.md)
 #### [Enable self service settings in conversation summary](administrator/enable-self-service-settings.md)
-
 ## Agent guide
 
 ### [Overview](agent/omnichannel-agent-overview.md)
@@ -172,7 +173,6 @@
 #### [View and understand Omnichannel intraday insights](supervisor/intraday-insights-dashboard.md)
 #### [View and understand Omnichannel Ongoing Conversations dashboard](supervisor/ongoing-conversations-dashboard.md)
 
-<!--#### [Assign conversations](supervisor/assign-conversations.md)-->
 ### Introduction to Omnichannel Insights
 #### [Introduction to Omnichannel Insights](supervisor/intro-dynamics-365-omnichannel-insights-dashboard.md)
 #### [View and understand Omnichannel Insights dashboards](supervisor/omnichannel-insights-dashboard.md)
@@ -254,6 +254,7 @@
 
 ## Developer guide
 ### [Overview](developer/omnichannel-developer.md)
+### [Extend Omnichannel for Customer Service](developer/extend-omnichannel.md)
 ### How to
 #### [Manage custom context](developer/how-to/send-context-starting-chat.md)
 #### [Display custom context](developer/how-to/display-custom-context.md)
@@ -265,7 +266,9 @@
 #### Smart assist bot
 ##### [Build a smart assist bot](developer/how-to/smart-assist-bot.md)
 ##### [Implement custom scenario](developer/how-to/smart-assist-scenario.md)
-#### [Bring your own channel](developer/how-to/bring-your-own-channel.md)
+#### Bring your own custom messaging channel
+##### [Bring your own custom messaging channel: Direct Line Bot](developer/how-to/bring-your-own-channel.md)
+##### [Test the custom messaging channel](developer/how-to/bring-your-own-channel-sample-html.md)
 #### [Customize chat widget](developer/how-to/customize-chat-widget.md)
 #### [Enable third-party co-browse](developer/how-to/third-party-co-browse.md)
 ### [Live chat widget telemetry](developer/live-chat-telemetry.md)

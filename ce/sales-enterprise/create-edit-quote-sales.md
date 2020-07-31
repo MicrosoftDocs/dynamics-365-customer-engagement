@@ -1,13 +1,23 @@
 ---
 title: "Create or edit quotes (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Quotes include the pricing details of the products your potential customer is interested in."
-ms.date: 10/01/2019
+ms.date: 06/22/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: get-started-article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdynce_saleshub
+  - D365-Entity-quote
+  - D365-Entity-opportunity
+  - D365-Entity-order
+  - D365-Entity-invoice
+  - D365-UI-*
+  - Customer Engagement
+  - Dynamics 365
+  - Sales
 ---
 
 # Create or edit quotes (Sales and Sales Hub)
@@ -124,8 +134,7 @@ One way that can help you increase your sales is to add all products that your c
  ![Home button](../sales-enterprise/media/home-button.png "Home button") [Learn about the sales process, nurturing sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)  
   
 ### See also  
- [Create a quote PDF](create-quote-pdf.md)  
- [Run a report](../basics/run-report.md)   
- [Assign a record to a user or team](../basics/assign-record-user-team.md)   
+ [Sales transactions in Dynamics 365 Sales](sales-transactions.md)  
+ [Create a PDF file](create-quote-pdf.md)  
  [Track and manage activities](manage-activities.md)   
- [Print quote, invoice, or other records](print-records.md)
+ [Print quote, invoice, or other records](print-records.md)  

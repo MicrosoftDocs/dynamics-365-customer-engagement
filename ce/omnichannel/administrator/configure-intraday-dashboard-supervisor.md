@@ -4,7 +4,7 @@ description: "How to configure Intraday insights for Unified Service Desk and Om
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/22/2020
+ms.date: 07/16/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -15,9 +15,6 @@ ms.topic: article
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 Supervisors have a dual responsibility with respect to agents and customers. They monitor and manage agents and make sure they remain highly productive. At the same time, they help guarantee a superior experience for customers. To help supervisors carry out this dual responsibility, the insights consist of intraday health tracking of agent productivity and performance.
-
-> [!IMPORTANT]
-> The supervisor insights, such as Conversation insights and Agent insights, that are based on Power BI, are not available on Government Community Cloud (GCC). 
 
 As an administrator, you must configure the Intraday insights in your organization before supervisors can use it. You can configure the insights for the **Omnichannel for Customer Service** app on the web and for **Unified Service Desk**.
 
@@ -166,6 +163,8 @@ You must perform the following tasks to configure the Intraday insights for **Un
 4. [Add users to supervisor configuration](#add-users-to-supervisor-configuration)
 5. [Update client cache version](#update-client-cache-version)
 
+> [!NOTE]
+> Supervisor and agent sentiment notifications are not available in Omnichannel for Customer Service on Unified Service Desk.
 
 ### Configure dashboard in Power BI
 

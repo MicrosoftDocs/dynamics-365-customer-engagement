@@ -22,8 +22,7 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Sample: Add a security principal (user or team) to a queue (early bound)
