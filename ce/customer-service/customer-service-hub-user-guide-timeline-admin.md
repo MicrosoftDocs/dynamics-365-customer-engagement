@@ -142,7 +142,7 @@ There are three (3) primary record types which include: activities, notes, and p
 This section allows you to enable these record types to display in timeline. 
 
 1.	To enable **Record types shown** for Activities, Notes, and Posts on a form simply check the box next to the record  type you want to show.
-2.	To confirm the record type is displaying on the form, click on the ![](media\timeline-create-a-record-icon.png "Create a timeline record icon") (Create a timeline record icon) in the top right nav in timeline. 
+2.	To confirm the record type is displaying on the form, click on the ![Create a timeline record icon](media\timeline-create-a-record-icon.png "Create a timeline record icon") (Create a timeline record icon) in the top right nav in timeline. 
 3.	A drop down will appear and display the list of enabled record types.
 4.	When you enable **Activities**, you see **Activity** record types: Applications, email, phone calls, tasks on the form.
 5.	When you enable **Notes**, you see Note record types on the form.
@@ -200,13 +200,13 @@ You can customize data using the data filters and either choose to keep filters 
 
 a. When the **Filter** icon is transparent on the entity form, it means there are no items that have been chosen to filter by and there the filter is unpopulated.<br>
 
-b. When the **Filter** icon is filled in, it means filters has been selected and set. To view what filters have been selected you can just click on the ![](media\timeline-filter-icon.png "Filter icon") **Filter** icon and the display will open showing which filters have been set.</li>
+b. When the **Filter** icon is filled in, it means filters has been selected and set. To view what filters have been selected you can just click on the ![Filter icon](media\timeline-filter-icon.png "Filter icon") **Filter** icon and the display will open showing which filters have been set.</li>
 
-c. When you select the ![](media\timeline-filter-icon.png "Filter icon") **Filter** icon the following list appears.<br> 
+c. When you select the ![Filter icon](media\timeline-filter-icon.png "Filter icon") **Filter** icon the following list appears.<br> 
 
 d. You can select how you want to filter your data by checking the box next to the filter.<br>
 
-e. You can clear filters by clicking on the ![](media\timeline-clear-all-filters-icon.png "Clear all filters icon") **Clear all filters** icon.
+e. You can clear filters by clicking on the ![Clear all filters icon](media\timeline-clear-all-filters-icon.png "Clear all filters icon") **Clear all filters** icon.
 
 ![Display options - Advanced - How to filter activity types on timeline](media\timeline-how-to-filter-activity-types-display-options-advanced-1.png "Display options - Advanced - How to filter activity types on timeline")
 
@@ -230,7 +230,7 @@ When you use the filter based on an activity status then those activities, notes
 
 **c.** <b>Filter</b> icon is filled in telling you a filter item has been selected.<br>
 
-**d.** To clear filter selections, click on the ![](media\timeline-clear-all-filters-icon.png "Clear all filters icon") <b>Clear all filters</b> icon to clear all filters.
+**d.** To clear filter selections, click on the ![Clear all filters icon](media\timeline-clear-all-filters-icon.png "Clear all filters icon") <b>Clear all filters</b> icon to clear all filters.
 
 ![Display options - Advanced - How to filter activity types on timeline](media\timeline-how-to-filter-activity-types-display-options-advanced-2.png "Display options - Advanced - How to filter activity types on timeline")
 
@@ -314,7 +314,7 @@ When you expand the **Activities record settings** on the timeline component sec
 3.	When you select **Activity type**, a fly-out appears. 
 4.	To enable an **Activity type**, click the box next to **Enable** and select **Done**.
 5.	To disable an **Activity type**, uncheck the box next to **Enable** and select **Done**. This will grey out all other items in the box and disable the activity type from displaying on the timeline.  This also disables the activity type from being created or viewed in timeline.  
-6.	When you enable an **Activity type**, it will appear in a drop down box when you click on the ![](media\timeline-create-a-record-icon.png "Create a timeline record") icon to **Create a timeline record** in the top right nav in the timeline section of the entity record. 
+6.	When you enable an **Activity type**, it will appear in a drop down box when you click on the ![Create a timeline record](media\timeline-create-a-record-icon.png "Create a timeline record") icon to **Create a timeline record** in the top right nav in the timeline section of the entity record. 
 7.	Also, the **Activity type** can be viewed in the body of the timeline section of the form. 
 
 > [!NOTE]
@@ -336,7 +336,7 @@ Status tags match the status filter and displays in the timeline to help you to 
 Having the ability to quickly click and create an activity such as, an email, task, appointment, etc. streamlines productivity.  Admins have the ability to enable activity types so they can be created directly on the timeline.    
 
 10.	Check the box next to **Create directly from timeline** to enable.
-11.	When enabled, the activity type will appear in a drop down box when you click on the ![](media\timeline-create-a-record-icon.png "Create a timeline record") **Create a timeline record** icon in the top right nav in the timeline section of the entity record.
+11.	When enabled, the activity type will appear in a drop down box when you click on the ![Create a timeline record](media\timeline-create-a-record-icon.png "Create a timeline record") **Create a timeline record** icon in the top right nav in the timeline section of the entity record.
 
 ![Display options - Advanced - Enable the ability to create directly from timeline](media\timeline-enable-ability-to-create-directly-from-timeline-1.png "Display options - Advanced - Enable the ability to create directly from timeline")
 
@@ -455,7 +455,7 @@ Use the following steps for **Notes**:
 
 1. Select **Notes**
 2. The section will expand to see **Coming soon** which indicates you have **Notes** enabled. 
-3. Once enabled, you can now click on the ![](media\timeline-create-a-record-icon.png "Create a timeline record") (Create a timeline record) icon 
+3. Once enabled, you can now click on the ![Create a timeline record](media\timeline-create-a-record-icon.png "Create a timeline record") (Create a timeline record) icon 
 4. Flyout will appear. Select **Notes**
 5. Begin writing your **Note** using rich text and just click **Add Note** at the bottom to save.
 
@@ -467,7 +467,7 @@ Use the following steps for **Posts**:
 
 1. Select **Post**
 2. The section will expand to see **Coming soon** which indicates you have **Post** enabled. 
-3. Once enabled, you can now click on the ![](media\timeline-create-a-record-icon.png "Create a timeline record") (Create a timeline record) icon 
+3. Once enabled, you can now click on the ![Create a timeline record](media\timeline-create-a-record-icon.png "Create a timeline record") (Create a timeline record) icon 
 4. Flyout will appear. Select **Posts**
 5. Begin writing your **Post**.
 
