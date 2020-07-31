@@ -118,7 +118,7 @@ The out-of-the-box templates are as follows.
 |||||||
 
   > [!Note]
-  > We recommend that you do not modify the out-of-the-box templates for your customizations and instead, create your own custom templates to avoid losing them during solution upgrades.
+  > We recommend that you do not modify the out-of-the-box templates for your customizations; instead, create your own custom templates to avoid losing them during solution upgrades.
 
 ### Create a notification template
 
