@@ -1,7 +1,7 @@
 ---
 title: "Learn the basics of the Customer Service Hub app | Microsoft Docs"
 description: "Learn the basics of the Customer Service Hub for Customer Service"
-ms.date: 05/26/2020
+ms.date: 08/03/2020
 ms.service:
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -599,6 +599,39 @@ You can see templates of a particular language by selecting a language from the 
 
 > [!div class="mx-imgBorder"]
 > ![Search template](media/search-template.png "Search template") 
+
+### Insert a knowledge article into an email
+
+> Note:
+> This feature is in preview and is subject to change. 
+
+While working on an email, you can quickly help customers by searching and selecting a relevant knowledge article to include in your email. You can insert the article and/or share a link to it in the body of your message.
+
+1. From an email form where you are drafting, place your cursor where you want to place the knowledge article or its link, and then select **Insert Knowledge Article**.
+
+   The **Select knowledge article to insert** screen is displayed. 
+   
+  > [!div class="mx-imgBorder"]
+  > ![Select knowledge article to insert](media/email-insert-knowledge-article.png "Select knowledge article to insert page") 
+
+2. Search for the article you want to include. 
+
+   A list of available articles will be displayed. You can select an article in the search results to view it in the preview pane.
+  
+3. When you have found the article you want to include, do one of the following : 
+
+   - To include an article as an attachment in the email, select the **Insert content** icon for the article in the search results or in the article preview pane, select **Insert article content** at the top of the pane. This will insert the content into the body of your email and close the **Select knowledge article to insert** page.
+   
+   > [!div class="mx-imgBorder"]
+  > ![Insert content into email](media/email-knowledge-article-insert-content.png "Insert an article into email by selecting either the Insert content icon from the search results or Insert article content from the preview pane") 
+   
+   -OR-
+
+  - To include an article as a link in the email, select the **URL** icon for the article in the search results or in the article preview pane, select **Insert URL** at the top of the pane. This will insert a link to the article into the body of your email and close the **Select knowledge article to insert** page. 
+  
+  > [!div class="mx-imgBorder"]
+  > ![Insert a link to the content into email](media/email-knowledge-article-insert-url.png "Insert a link to an article into an emaill by selecting either the Insert URL icon from the search results or Insert URL at the top of the preview pane") 
+
 
 ### Editor functionality and accessibility shortcuts
 
