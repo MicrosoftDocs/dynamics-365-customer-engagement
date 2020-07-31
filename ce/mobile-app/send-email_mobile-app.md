@@ -47,4 +47,4 @@ Create and send an email using the Dynamics 365 for phones and tablets app.
    
 5.  When you're done composing in the email, select the **More** button **...** > **Send**.    
 
-6. When you're done composing in the email, on the command bar select **Send**. 
+
