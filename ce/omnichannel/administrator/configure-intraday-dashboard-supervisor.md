@@ -38,7 +38,7 @@ To configure intraday insights for your organization, follow the scenario that i
 
 As an administrator for a new organization, intraday insights is configured by default, so you don’t need to take extra steps to configure it, but if you want to switch from using customized reports to using the preconfigured Power BI workspace, follow the steps in this section. The preconfigured Power BI workspace feature allows you to access intraday insights without customizing the reports.
 
-To view the default preconfigured Power BI workspace or change to it: 
+To enable the preconfigured Power BI workspace: 
 
 1.  Sign in to **Dynamics 365 Customer Service** and open the **Omnichannel Administration** app. 
 
@@ -59,7 +59,7 @@ To view the default preconfigured Power BI workspace or change to it:
     > [!div class=mx-imgBorder]
     > ![Preconfigured Power BI workspace configuration settings page](../media/supervisor-admin-preconfigured-powerbi-configuration-settings.png "Preconfigured Power BI workspace configuration settings page")
 
-4.  Select **Save** or **Save and Close**.
+4.  Save and close the page.
 
 ## Configure customized intraday insights reports
 
@@ -98,7 +98,7 @@ Review the following prerequisites before configuring the supervisor insights: 
       d. Select **Apply**.
 
 
-### Configure Intraday insights for Omnichannel for Customer Service app on web
+### Configure Intraday insights for the Omnichannel for Customer Service app on the web
 
 Follow these steps to configure Intraday insights for the Omnichannel for Customer Service app on the web:
 
@@ -107,7 +107,7 @@ Follow these steps to configure Intraday insights for the Omnichannel for Custom
 2. [Share workspace and reports with supervisors](#share-workspace-and-reports-with-supervisors)
 
 
-#### Configure Power BI workspace in Omnichannel Administration app
+#### Configure the Power BI workspace in the Omnichannel Administration app
 
 You must configure the Power BI workspace using the **Omnichannel Administration** app to create datasets and reports in Power BI. When configured, the supervisor users in your organization can see the Intraday insights reports as an app tab. Follow these steps to configure the Power BI workspace to display Intraday insights reports as an app tab in the **Omnichannel for Customer Service** app on the web.
 
@@ -130,7 +130,7 @@ You must configure the Power BI workspace using the **Omnichannel Administration
     > [!div class=mx-imgBorder]
     > ![Power BI workspace configuration settings page](../media/supervisor-admin-powerbi-configuration-settings.png "Power BI workspace configuration settings page")
 
-4. Set the **Enable Intraday Insights for multi session web** option to **Yes** to make Intraday insights an app tab on the home session for supervisors. 
+4. Set the **Show intraday insights** option to **Yes** to make intraday insights an app tab on the home session for supervisors. 
 
     > [!div class=mx-imgBorder]
     > ![Enable display of intraday insights on Omnichannel for Customer Service app](../media/supervisor-admin-intraday-insights-dashboard-oc-on-web.png "Enable display of intraday insights on Omnichannel for Customer Service app")
@@ -138,7 +138,7 @@ You must configure the Power BI workspace using the **Omnichannel Administration
 5.  In the **Power BI workspace** section, select **Create new workspace** and enter a name for the workspace in **Power BI workspace** (this name must be unique).
 
     > [!div class=mx-imgBorder]
-    > ![Power BI workspace settings](../media/supervisor-admin-power-bi-workspace-settings.png "Power BI workspace settings")  
+    > ![Create new Power BI workspace](../media/supervisor-admin-create-new-workspace.png "Create a new Power BI workspace")   
     
     -OR-
 
