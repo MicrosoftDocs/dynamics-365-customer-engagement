@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 07/01/2020
+ms.date: 08/03/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -29,6 +29,86 @@ Marketing updates are [pushed to all customers automatically](https://cloudblogs
 
 > [!Note]
 > To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20Marketing).
+
+## August 2020 update
+
+The Dynamics 365 Marketing August 2020 update includes several early access features including built in Teams functionality for events, improved social posting, email designer improvements, and bug fixes.
+
+### Version number
+
+| App              | GA release      | Early access    |
+|------------------|-----------------|-----------------|
+| Marketing        | 1.35.10064.1061 | 1.35.10064.2061 |
+
+> [!Tip]
+> To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](https://docs.microsoft.com/dynamics365/marketing/apply-updates#find-out-which-version-of-dynamics-365-marketing-you-are-running).
+
+### Early access features
+
+> [!IMPORTANT]
+> Early access features are currently available only on opted-in instances. You can opt in for early access on any instance, but we recommend that you do so only on trial, test, or sandbox instances, which will give you a chance to learn the new functionality before it shows up on your production instances later this year.
+>
+> For instructions on how to opt in and enable early access, see [Opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates). For more information about the 2020 release wave 2 schedule, and for answers to frequently asked questions about the early access program, see [2020 release wave 2 features available for early access](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/features-ready-early-access).
+>
+> We encourage all customers to provide feedback related to early access features on the [Dynamics 365 Marketing Forum](https://community.dynamics.com/365/marketing/f/dynamics-365-for-marketing-forum), your Microsoft contact or partner, and/or through [Microsoft Support](https://docs.microsoft.com/power-platform/admin/get-help-support).
+
+- **Run webinars and meetings using direct integration with Microsoft Teams**
+    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/teams-integration-webinar)
+    - [Docs](https://docs.microsoft.com/dynamics365/marketing/export-journey)
+- **Create and manage content-rich social media posts and easily monitor performance**
+    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/improved-social-posting)
+    - [Docs](https://docs.microsoft.com/dynamics365/marketing/email-design-update)
+- **Create engaging, customized emails faster**
+    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/create-customized-emails-faster)
+    - [Docs](https://docs.microsoft.com/dynamics365/marketing/event-forms)
+
+### Monthly enhancements
+
+- **Marketing emails**
+    - Adding buttons to emails is easier with improved drag and drop functionality, enhanced appearance, and easily editable text.
+    - Placeholders for images, videos, and content blocks now have a more consistent appearance and uniform icons.
+    - Add up to ten columns with improved custom column configuration controls.
+
+### Bug fixes
+
+- **Content settings**
+    - Fixed an error where users were unable to update business unit default contact settings after enabling business unit scoping.
+- **Event management**
+    - Resolved an error that occurred when attempting to add an event webinar provider.
+- **First run experience**
+    - Marketing installation no longer fails if a default contact is not listed.
+- **Lead scoring**
+    - Fixed an issue where an "expression value is missing" error prevented new lead-scoring models from going live.
+- **Marketing emails**
+    - Resolved an issue where columns sometimes did not resize properly in two section layouts.
+    - Fixed an issue where the email designer layout and the preview layout occasionally did not match.
+    - Fixed an issue where text and images in emails were occasionally not responsive in Outlook.
+    - Resolved an issue where the default Marketing page did not load correctly when accessed from an email sent by a trial org.
+    - Fixed an issue where anchor flags in the email text box editor did not function as expected.
+    - Fixed a rare error where the body of an email message disappeared when HTML was pasted into the HTML tab.
+    - Resolved an error where a button in a 2:1 column layout did not align properly with the layout.
+    - Added an optional meta attribute to prevent email post-processing, enabling emails to render with no changes to the HTML.
+    - Resolved an occasional issue where background images disappeared when removing a column in the email editor.
+    - Fixed an issue where image heights or widths set to "auto" were set to 0 after post-processing.
+    - Fixed an issue where the email designer would sometimes report as having no data, despite containing HTML.
+    - Resolved an issue where an email hero image did not change after updating the HTML.
+    - Improved the consistency of spam score calculations.
+    - Resolved an issue where image height and width displayed incorrectly after adding an image inside a text field using CKEditor.
+    - Fixed an issue where templates preview images didn't update after templates were updated.
+    - Fixed an issue where a content block could not be removed after inserting the block via a Marketing email template.
+- **Marketing forms**
+    - Fixed an error where form capture occasionally did not function properly when a form was stopped and then went live again.
+- **Marketing pages**
+    - Fixed an error where text field labels sometimes did not align correctly with text fields in marketing forms.
+    - Added a form reload button to certain subscription center error messages, enabling users to preview forms regardless of errors.
+    - Resolved an error where contacts who clicked a link from a customer journey showed up as anonymous after restarting their browser.
+    - Fixed an issue where HTML code was occasionally changed when going live with a Marketing form, resulting in formatting inconsistency.
+- **Marketing user tracking**
+    - Resolved a rare issue where a contact was duplicated when re-registering for an event.
+- **Segment management**
+    - Fixed a rare error where a user assigned to a team with a Marketing Manager role was not able to create a segment.
+- **Shared UX**
+    - Resolved an issue where the vertical scrollbar occasionally didn't appear in **Advanced settings**.
 
 ## July 2020 update
 
