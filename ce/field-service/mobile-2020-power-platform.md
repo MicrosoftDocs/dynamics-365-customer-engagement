@@ -170,6 +170,15 @@ When **Status** is set to **Available**, you'll have all the data you need to wo
 
 Then toggle the **Work in offline mode** to on. If you lose internet connection unexpectedly, the app will automatically work in offline mode if you previously downloaded data.
 
+### Connected Field Service on Field Service (Dynamics 365) mobile app
+
+For organizations using Connected Field Service, technicians can view and interact with IoT data and actions in the Field Service (Dynamics 365) mobile app.
+ 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-cfs.png)
+
+For more details see the topic on [Connected Field Service for the Field Service (Dynamics 365) mobile app](cfs-mobile-powerapp.md). 
+
 ## Configure the Field Service (Dynamics 365) mobile app
 
 Administrators can edit how Field Service (Dynamics 365) looks and functions for technicians.
