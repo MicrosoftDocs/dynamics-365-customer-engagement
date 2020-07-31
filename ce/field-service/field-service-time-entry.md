@@ -2,7 +2,7 @@
 title: "Time entries for Dynamics 365 Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 07/17/2020
+ms.date: 08/01/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -86,6 +86,7 @@ Time entries can also be created manually from Field Service Mobile.
 
 Import [the latest mobile project template](https://aka.ms/fsmobile-project) into the mobile configuration tool (Woodford) to display time entries in Field Service Mobile. 
 
+Viewing and creating time entries is also supported on the [Field Service (Dynamics 365) mobile app](mobile-2020-power-platform.md) as an early access update. Find more details on [how to opt in to early access features](https://docs.microsoft.com/en-us/power-platform/admin/opt-in-early-access-updates#how-to-enable-early-access-updates)
 
 ## Time off
 

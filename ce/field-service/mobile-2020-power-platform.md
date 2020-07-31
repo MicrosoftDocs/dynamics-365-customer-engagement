@@ -179,6 +179,16 @@ For organizations using Connected Field Service, technicians can view and intera
 
 For more details see the topic on [Connected Field Service for the Field Service (Dynamics 365) mobile app](cfs-mobile-powerapp.md). 
 
+### Trigger Remote Assist
+
+Organizations that are using Dynamics 365 Remote Assist will see that technicians can trigger a deeplink from the work order to open the Remote Assist mobile app.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-remote-assist.png)
+
+For more information see the topic on [Using Field Service with Remote Assist](remote-assist-hololens.md).
+
 ## Configure the Field Service (Dynamics 365) mobile app
 
 Administrators can edit how Field Service (Dynamics 365) looks and functions for technicians.
