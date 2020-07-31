@@ -36,8 +36,9 @@ Most often technicians will use Connected Field Service to
 2) **register new IoT devices** when installing and asset to connect it to Azure IoT or a custom IoT provider
 3) **send commands** to troubleshoot issues
 
-// https://msit.microsoftstream.com/video/45cca3ff-0400-a521-d802-f1ead10982ec?list=studio
+// use for more details https://msit.microsoftstream.com/video/45cca3ff-0400-a521-d802-f1ead10982ec?list=studio
 
+With the latest version of Field Service and the Field Service (Dynamics 365) mobile app technicians will find Connected Field Service entities in the sitemap. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-fsm-powerapp-site-map.png)
@@ -48,15 +49,26 @@ Connected Field Service is included with Field Service
 
 Set up Connected Field Service
 
+Set up Field Service (Dynamics 365) mobile app - latest mobile app and latest Field Service version
+
 Internet connection, not offline
 > [!Note]
 >
 
-## View sumary tiles and device readings
+## View summary tiles and device readings
 
+While performing a work order for an asset, technicians may want to view recent IoT data for devices related to that asset. 
+
+Go to the customer asset record and on the summary tab you will find summary tiles.
+
+Summary tiles give an overview of recent IoT activity related to the asset.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-fsm-powerapp-summary-tiles.png)
+
+Furthermore, go to the Device Readings section to view the most recent IoT measurements plotted on a graph.
+
+Summary tiles and device readings are only visible after an asset is related to a connected device. Otherwise this information is displayed on the IoT device.
 
 ## Register new IoT Devices
 
