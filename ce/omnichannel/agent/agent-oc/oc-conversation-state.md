@@ -1,8 +1,8 @@
 ---
 title: "Understand conversation states in Omnichannel | MicrosoftDocs"
 description: "Learn what the conversation states are in Omnichannel."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 07/31/2020
 ms.service: 
@@ -72,7 +72,7 @@ The conversation (work item) transitions from **Wrap-up** to **Closed** state un
 
 ## Waiting
 
-A conversation in waiting state doesn't block your capacity. The conversation gets transitioned to waiting state when you (agent) close the session without ending the conversation (without selecting **End** button on communication panel) or the customer closes the browser window without closing the chat widget. For example, you're waiting for some information from customer and don't want to end the conversation or the customer has to restart the computer in a troubleshooting scenario.
+A conversation in waiting state doesn't block your capacity. The conversation gets transitioned to waiting state when you (agent) close the session without ending the conversation (without selecting **End** button on communication panel) or the customer closes the browser window without closing the chat widget. For example, you're waiting for some information from customer and don't want to end the conversation or the customer's browser closes unexpectedly.
 
 The conversation (work item) transitions from **Waiting** to **Closed**, **Active**, or **Open** state under the following scenarios.
 
@@ -145,7 +145,7 @@ Programmatically, you can change the default time and set it as per your organiz
 > [!div class="nextstepaction"]
 > 
 
-## See also
+### See also
 
-- [View communication panel](oc-conversation-control.md)
-- [Automatic closure of a conversation](../../developer/auto-close-conversation.md)
+[View communication panel](oc-conversation-control.md)  
+[Automatic closure of a conversation](../../developer/auto-close-conversation.md)  
