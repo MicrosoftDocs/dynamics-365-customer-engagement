@@ -36,15 +36,15 @@ Create and send an email using the Dynamics 365 for phones and tablets app.
 2. Fill in the subject of the email and use the space provided to write the email and then select **Save**.
 
    > [!div class="mx-imgBorder"]
-   > ![Compose new email](media/compose_email_mobile.png "Compose new email")
+   > ![Compose new email](media/compose_email_mobile_1.png "Compose new email")
    
-3. To add an attachment to the email, select the **More** ![More button](media/email_more_commands.png "more commands button") > **Attach File** and then select the file that you want to attach to the email.
+3. To add an attachment to the email, select the **More** button ![More button](media/email_more_commands.png "more commands button") > **Attach File** and then select the file that you want to attach to the email.
 
    > [!div class="mx-imgBorder"]
    > ![Send email](media/more_commond_email_mobile.png "Send email")
    
-4. To use a template for the email body, select the **More** ![More button](media/email_more_commands.png "more commands button") > **Insert Template**, and then select the template. 
+4. To use a template for the email body, select the **More** button ![More button](media/email_more_commands.png "more commands button") > **Insert Template**, and then select the template. 
    
-5.  When you're ready to send the email, select the **More** ![More button](media/email_more_commands.png "more commands button") > **Send**.    
+5.  When you're ready to send the email, select the **More** button ![More button](media/email_more_commands.png "more commands button") and then select **Send**.    
 
 
