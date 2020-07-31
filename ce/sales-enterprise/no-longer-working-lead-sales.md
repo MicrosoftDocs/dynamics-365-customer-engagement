@@ -8,6 +8,13 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdynce_saleshub
+  - D365-Entity-lead
+  - D365-UI-*
+  - Customer Engagement
+  - Dynamics 365
+  - Sales
 ---
 
 # What if you're no longer working a lead? (Sales and Sales Hub)
