@@ -56,9 +56,38 @@ When enabled by your system administrator, the timeline **Filter** further strea
 |2|A list of items that is enabled by your system administrator is displayed that you can filter.|
 |||
 
-For more information on timeline filter functionality and configurations see:
+For more information on enabling filter on timeline, see:
 - [Enable filter pane](customer-service-hub-user-guide-timeline-admin.md#enable-filter-pane) 
-- [How to filter activity types on timeline]() 
+
+
+### How to filter records on timeline <a name="filter-records"></a>
+
+Filters are valuable for sorting data. You can quickly filter activities, posts, and notes with multiple options to see what matters to you. The filter is available for the activities, posts, notes, and custom entities that are present in timeline. Timeline filters and displays the records and the count that are present in the timeline.
+
+You can limit the records you're seeing by using the data filters. 
+
+- When the **Filter** icon is transparent in the Timeline, it means there's no filter applied. When you select the icon, filter options are shown. <br>
+
+    When you select the filter icon, the Filter by menu is displayed and you can filter items based on the following categories:
+
+    |Category                   |Sub-category                            |
+    |---------------------------|----------------------------------------|
+    |Record type                |<li>Notes</li>                     <li>Posts</li><li>Activities</li>                     |
+    |Activity type              |<li>Appointment</li><li>Campaign Activity</li> <li>Campaign Response</li><li>Email</li><li>Fax</li><li>Case Resolution</li><li>Letter</li><li>Opportunity Case</li>   <li>Order Case</li><li>Phone Call</li><li>Quote Close</li>           <li>Recurring Appointment</li><li>Social Activity</li><li>Task</li>   <li>Project Service Approval</li><li>Booking Alert</li><li>Conversation</li><li>Session</li><li>Customer Voice survey invite</li><li>Customer Voice survey response</li><li>Custom activities (as configured by your administrator)</li>|
+    |Activity status            |<li>Active</li><li>Overdue</li>       <li>Closed</li>                         |
+    |Activity due date (active) |<li>Next 30 days</li><li>Next 7 days</li><li>Next 24 hours</li><li>Last 24 hours</li><li>Last 7 days</li>   <li>Last 30 days</li>                   |
+    |Posts by                   |<li>Auto post</li><li>Users</li>                          |
+    |Modified date              |<li>Last 24 hours</li><li>Last 7 days</li><li>Last 30 days</li>                   |
+
+    For example, when you select the **Activities** check box under **Record type** and **Overview** check box under **Activity status**, only the activities with status as Overdue are displayed. 
+
+    ![Filter options](media\timeline-filter-options.png "Filter options")
+
+- When the **Filter** icon is dark, it means filters are applied. To view what filters are selected, select the Filter applied icon ![Filter applied icon](media\timeline-filter-applied.png "Filter icon") **Filter**. The screen expands to show the filters selected/applied.</li>
+
+- Select or clear the check boxes to apply or clear a specific filter.<br>
+
+- To clear all the applied filters, select the **Clear all filters** icon ![Clear all fiters icon](media\timeline-clear-all-filters-icon.png "Clear all filters icon") icon.
 
 ## Work with records
 
