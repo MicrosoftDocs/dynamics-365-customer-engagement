@@ -94,11 +94,11 @@ Using the general properties and scheduling options of the forecast configuratio
     The start date determines when the fiscal year must start and the name base defines which date has to be considered to name the fiscal year.
     
     > [!div class="mx-imgBorder"]
-    > ![Verify organizational fisical settings](media/forecast-schedule-org-fy-settings.png "Verify organizational fisical settings")    
+    > ![Verify organizational fiscal settings](media/forecast-schedule-org-fy-settings.png "Verify organizational fiscal settings")    
     
     In the above image, you can see that:
     
-    **Start Date** is selected as **12/28/2019** (format is dd/mm/yyy) specifying that the fiscal year starts on 28 December 2019 and ends on 27 December 2020. 
+    **Start Date** is selected as **12/28/2019** (format is DD/MM/YYYY) specifying that the fiscal year starts on 28 December 2019 and ends on 27 December 2020. 
 
     **Name Based On** is selected as **End Date** specifying that the name of fiscal year is **FY2020**. If the option is selected as **Start Date**, the name will be **FY2019**.
     
@@ -227,7 +227,7 @@ Using the general properties and scheduling options of the forecast configuratio
 
     In the above image, you can see that:
 
-    **Start Date** is selected as **12/28/2019** (format is dd/mm/yyy) specifying that the fiscal year starts on 28 December 2019 and ends on 27 December 2020. 
+    **Start Date** is selected as **12/28/2019** (format is DD/MM/YYYY) specifying that the fiscal year starts on 28 December 2019 and ends on 27 December 2020. 
 
     **Name Based On** is selected as **End Date** specifying that the name of fiscal year is **FY2020**. If the option is selected as **Start Date**, the name will be **FY2019**.
     
