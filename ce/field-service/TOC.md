@@ -118,6 +118,7 @@
 # Asset management
 ## [Customer assets](configure-set-up-customer-assets.md)
 ## [Functional location](assets-functional-location.md)
+## [Asset properties](asset-properties.md)
 ## [3D asset models](3D-viewer.md)
 
 # Inventory and purchasing
