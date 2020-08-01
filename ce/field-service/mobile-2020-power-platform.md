@@ -35,7 +35,7 @@ Both the Field Service (Dynamics 365) mobile app _and_ the Field Service Mobile 
 
 Available natively for Apple iOS and Google Android phones and tablets, Field Service (Dynamics 365) offers technicians many capabilities they need to perform onsite customer service, such as:  
 
-- A calendar view of assigned jobs 
+- A calendar view of assigned jobs
 - Support for picture, video, and asset barcode scanning
 - Customer signature capture
 - Offline capabilities so technicians can continue viewing and recording work in areas without internet
@@ -53,7 +53,7 @@ Field Service (Dynamics 365) mobile app is recommended for **simpler** use cases
 
 Field Service Mobile is recommended for more **complex** use cases where you may need custom reporting, push notifications, geofencing, and business processes or validations that work offline.
 
-Use the feature comparison table below to understand which mobile app is right for your business.
+Use the following feature comparison table to understand which mobile app is right for your business.
 
 
 | Feature | Category | Field Service (Dynamics 365) | Field Service Mobile | Details |
@@ -158,10 +158,9 @@ To get to the sitemap, select the menu icon from the calendar view. From here, y
 
 If you expect to be in areas without wifi or cellular internet access, you can download important information to your device to keep working. 
 
-From the home screen, select the cloud icon in the bottom left. 
+From the home screen, select the cloud icon in the bottom left.
 
-Then select **Download offline updates**. 
-
+Then select **Download offline updates**.
 
 > [!div class="mx-imgBorder"]
 > ![Simulated image showing three mobile devices with Field Service (Dynamics 365). The device on the left shows the menu, with attention to the cloud icon at the bottom. The middle device shows the offline status screen. The device on the right shows the offline status as available, showing the list of available entities. ](./media/mobile-2020-offline.jpg)
@@ -175,19 +174,18 @@ Then toggle the **Work in offline mode** to on. If you lose internet connection 
 For organizations using Connected Field Service, technicians can view and interact with IoT data and actions in the Field Service (Dynamics 365) mobile app.
  
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-cfs.png)
+> ![Simulated image showing three phones with Field Service mobile app and IoT device readings.](./media/mobile-2020-cfs.png)
 
-For more details see the topic on [Connected Field Service for the Field Service (Dynamics 365) mobile app](cfs-mobile-powerapp.md). 
+For more information, see the article on [Connected Field Service for the Field Service (Dynamics 365) mobile app](cfs-mobile-powerapp.md).
 
-### Trigger Remote Assist
+### Trigger Dynamics 365 Remote Assist
 
-Organizations that are using Dynamics 365 Remote Assist will see that technicians can trigger a deeplink from the work order to open the Remote Assist mobile app.
-
+Organizations using Dynamics 365 Remote Assist will see that technicians can trigger a deeplink from the work order to open the Dynamics 365 Remote Assist mobile app.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-remote-assist.png)
+> ![Simulated image showing a phone with Field Service mobile and a menu option to launch Dynamics 365 Remote Assist.](./media/mobile-2020-remote-assist.png)
 
-For more information see the topic on [Using Field Service with Remote Assist](remote-assist-hololens.md).
+For more information, see the article: [Using Field Service with Remote Assist](remote-assist-hololens.md).
 
 ## Configure the Field Service (Dynamics 365) mobile app
 
@@ -272,8 +270,6 @@ Find the **Booking and Work Order** form, as seen in the following screenshot.
 > ![Screenshot of a Bookable Resource Booking in Power Apps, showing the Booking and Work Order form.](./media/mobile-2020-admin-booking-form-combined.png)
 
 Add and delete booking fields as needed.
-
-
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Power Apps showing the form editor for the Bookable Resource Booking.](./media/mobile-2020-admin-booking-form-combined-add-fields.png)

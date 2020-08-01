@@ -25,11 +25,11 @@ If your organization uses Dynamics 365 Field Service to manage field service wor
 
 By integrating Field Service and Remote Assist, you can: 
 
-- Launch Remote Assist mobile directly from a Field Service Mobile booking via deeplinks.
+- Launch Remote Assist mobile directly from a Field Service Mobile booking via deep links.
 - See relevant work order information.
 - Post the Remote Assist call information to the associated work order's timeline.
 
-In this article, we'll explore how a field technician can use the Remote Assist mobile app to make a call to an expert for help to complete a work order. We'll also explore the requirements to set up and use Remote Assist and Field Service together on the HoloLens.
+In this article, we'll explore how a field technician can use the Remote Assist mobile app to make a call to an expert for help completing a work order. We'll also explore the requirements to set up and use Remote Assist and Field Service together on the HoloLens.
 
 For a guided walkthrough, see the following video.
 
@@ -47,7 +47,7 @@ Before you begin, make sure you have the following set-up:
 - You must have admin access to add or update the Dynamics 365 tenant instance.
 
 - The Dynamics 365 instance must have the Dynamics 365 Field Service app installed, and it must include the **My Bookings for Today** view. To make sure this view is installed, we recommend Field Service version 8.2 or later. This article describes how to make sure you have the correct version and view.
-    -  Please note the **My In Progress Bookings** view has been renamed to **My Bookings for Today.** This doc has been updated to reflect the name change. Depending on your version of Field Service, you may see either name. The functionality remains the same regardless of the view name.
+    -  Note the **My In Progress Bookings** view has been renamed to **My Bookings for Today.** This doc has been updated to reflect the name change. Depending on your version of Field Service, you may see either name. The functionality remains the same regardless of the view name.
 - The tenant must have at least two user accounts - one for the technician (front-line worker) and another for the remote collaborator.
   - The remote collaborator only needs a Microsoft Teams license.
   - The technician user will need a Dynamics 365 Field Service license, a Microsoft Teams license, _and_ a Dynamics 365 Remote Assist license. **Note:** A Remote Assist license includes Teams. 
@@ -119,8 +119,7 @@ Like any typical day, the technician logs in to Field Service Mobile and sees th
 > ![Screenshot of four mobile devices showing Field Service Mobile, and the workflow that brings up the Remote Assist launching option.](./media/remote-assist-field-service-mobile.png)
 
 > [!Note]
-> The deep link from Field Service Mobile to the Remote Assist mobile app is available on iOS and Android devices. For Field Service Mobile on iOS your system administrator must import the [mobile project v1.0.4847 or later](https://docs.microsoft.com/en-us/dynamics365/field-service/field-service-version-history-mobile#104847) . On Android devices you must import the [mobile project v1.0.1322 or later](https://docs.microsoft.com/en-us/dynamics365/field-service/field-service-version-history-mobile#103482). 
-
+> The deep link from Field Service Mobile to the Dynamics 365 Remote Assist mobile app is available on iOS and Android devices. For Field Service Mobile on iOS, your system administrator must import the [mobile project v1.0.4847 or later](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-mobile#104847). For Android devices, you must import the [mobile project v1.0.1322 or later](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-mobile#103482).
 
 ## Make a Remote Assist call
 
@@ -151,7 +150,8 @@ Technicians can choose from a list of bookings they are scheduled for on the day
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Remote Assist on a mobile device, showing the option to select a booking to post to.](./media/remote-assist-field-service-call-post-to-work-order-choose-BOTH.png)
 
-Back on the work order, the dispatcher can see a Remote Assist call took place in the work order timeline with 1) a call log and 2) links to files shared during the call.
+Back on the work order, the dispatcher can see a Remote Assist call took place in the work order timeline; there will be a call log and links to files shared during the call.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service on desktop, showing a work order with attention to the timeline, which now has a Remote Assist call listed.](./media/remote-assist-field-service-call-metadata-timeline.png)
 
@@ -207,4 +207,4 @@ Technicians can:
 
 ### Use the Field Service (Dynamics 365) mobile app
 
-As part of the August 2020 early access update, technicians can deeplink from the [Field Service (Dynamics 365) mobile app](mobile-2020-power-platform.md) to the Remote Assist mobile app. Find more details on [how to opt in to early access features](https://docs.microsoft.com/en-us/power-platform/admin/opt-in-early-access-updates#how-to-enable-early-access-updates). 
+As part of the August 2020 early access update, technicians can deep link from the [Field Service (Dynamics 365) mobile app](mobile-2020-power-platform.md) to the Remote Assist mobile app. Find more details on [how to opt in to early access features](https://docs.microsoft.com/en-us/power-platform/admin/opt-in-early-access-updates#how-to-enable-early-access-updates). 

@@ -84,9 +84,9 @@ Time entries can also be created manually from Field Service Mobile.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of time entry on Field Service Mobile.](./media/work-order-time-entry-mobile.png)
 
-Import [the latest mobile project template](https://aka.ms/fsmobile-project) into the mobile configuration tool (Woodford) to display time entries in Field Service Mobile. 
+Import [the latest mobile project template](https://aka.ms/fsmobile-project) into the mobile configuration tool (Woodford) to display time entries in Field Service Mobile.
 
-Viewing and creating time entries is also supported on the [Field Service (Dynamics 365) mobile app](mobile-2020-power-platform.md) as an early access update. Find more details on [how to opt in to early access features](https://docs.microsoft.com/en-us/power-platform/admin/opt-in-early-access-updates#how-to-enable-early-access-updates)
+Viewing and creating time entries is also supported on the [Field Service (Dynamics 365) mobile app](mobile-2020-power-platform.md) as an early access update. For more information, visit the article: [how to opt in to early access features](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates#how-to-enable-early-access-updates).
 
 ## Time off
 

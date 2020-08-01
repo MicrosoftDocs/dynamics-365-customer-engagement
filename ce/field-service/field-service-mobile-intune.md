@@ -233,7 +233,7 @@ For Windows:
 
 3. Install the app.
 
-
 ## Additional notes
+
 - Standard MAM capabilities for Field Service Mobile will work with or without MDM device enrollment in Intune.
-- Standard app configuration policies with Intune are supported for the [Field Service (Dynamics 365) mobile app](mobile-2020-power-platform.md), however specific configurations like prefill of URL or username is not available.
+- Standard app configuration policies with Intune are supported for the [Field Service (Dynamics 365) mobile app](mobile-2020-power-platform.md); however, specific configurations like prefill of URL or username are not available.
