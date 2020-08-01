@@ -1,7 +1,7 @@
 ---
 title: "Collaborate in mixed reality with Field Service, Dynamics 365 Remote Assist, and HoloLens | MicrosoftDocs"
 ms.custom: dyn365-fieldservice
-ms.date: 04/10/2019
+ms.date: 08/01/2020
 ms.reviewer: krbjoran
 ms.suite: 
 ms.technology: 
@@ -51,6 +51,8 @@ Before you begin, make sure you have the following set-up:
 - The tenant must have at least two user accounts - one for the technician (front-line worker) and another for the remote collaborator.
   - The remote collaborator only needs a Microsoft Teams license.
   - The technician user will need a Dynamics 365 Field Service license, a Microsoft Teams license, _and_ a Dynamics 365 Remote Assist license. **Note:** A Remote Assist license includes Teams. 
+
+- Field Service Mobile or Field Service (Dynamics 365) mobile app (only applicable if technicians and front line workers are not using HoloLens headsets). Deeplink capabilities for Field Service (Dynamics 365) mobile app are available as early access. Find more details on [how to opt in to early access features](https://docs.microsoft.com/en-us/power-platform/admin/opt-in-early-access-updates#how-to-enable-early-access-updates). 
 
 ## Set up technician user
 
