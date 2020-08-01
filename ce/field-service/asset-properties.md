@@ -37,9 +37,9 @@ Properties are flexible, and can be defined in multiple ways, as we'll look at i
 ## Prerequisites
 
 > [!Note]
-> As of August 2020, asset properties are available as an early access feature. For more information, see the article on [how to opt-in to early access features](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates#how-to-enable-early-access-updates)
+> As of August 2020, asset properties are available as an early access feature. For more information, see the article on [how to opt-in to early access features](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates#how-to-enable-early-access-updates).
 
-- You'll need one or more existing assets in Field Service. For more information, see the article on [customer assets](configure-set-up-customer-assets.md)
+- You'll need one or more existing assets in Field Service. For more information, see the article on [customer assets](configure-set-up-customer-assets.md).
 
 ## Create and assign asset categories
 
