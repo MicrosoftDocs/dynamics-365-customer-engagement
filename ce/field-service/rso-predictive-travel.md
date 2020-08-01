@@ -54,11 +54,10 @@ Save and publish.
 
 ## Set range duration to one day or less on optimization scope
 
-On a scheduling optimization scope, go to the section **Optimization Range Settings**. Configure the following fields:
+On a scheduling optimization scope, go to the section **Optimization Range Settings**. 
 
-- **Range Reference**: set to **Beginning of the Job's Current Day - 12:00 AM UTC**
-- **Range Offset**: set to **3 days**.
-- **Range Duration**: set to **1 day**.
+Set **Range Duration** to **1 day** or less.
+Set **Range Reference** and **Range Offset** based on your business needs. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a scheduling optimization scope.](./media/rso-predictive-travel-range.png)
@@ -67,18 +66,18 @@ On a scheduling optimization scope, go to the section **Optimization Range Setti
 
 After adding predictive travel to the optimization goal and adjusting the optimization scope to be less than or equal to 1 day, the next step is to run the optimization  manually, through a schedule, or via a workflow.
 
-Without predictive travel times, resource scheduling optimization will use the same travel calculations, no matter the time of day the work is scheduled.
+Without predictive travel times, resource scheduling optimization will calculate the travel time between two locations as the same, no matter the time of day the work is scheduled.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a schedule with no predictive travel.](./media/rso-predictive-travel-schedule-without.png)
 
-With predictive travel enabled, the estimated travel times are recalculated and the order of the bookings may change to optimize the objectives and constraints of the related optimization goal.
+With predictive travel enabled, the estimated travel times are recalculated based on the time of day, season, and other historical factors. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a schedule with predictive travel times.](./media/rso-predictive-travel-schedule-with.png)
 
 > [!Note]
-> Running an optimization with predictive travel time may increase the runtime for the engine to optimize the requirements and bookings.
+> Running an optimization with predictive travel time may change the order of the bookings to optimize objectives and constraints. In addition it may increase the runtime for the engine to optimize the requirements and bookings.
 
 ## Configuration considerations
 
