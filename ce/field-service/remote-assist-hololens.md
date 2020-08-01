@@ -52,7 +52,8 @@ Before you begin, make sure you have the following set-up:
   - The remote collaborator only needs a Microsoft Teams license.
   - The technician user will need a Dynamics 365 Field Service license, a Microsoft Teams license, _and_ a Dynamics 365 Remote Assist license. **Note:** A Remote Assist license includes Teams. 
 
-- Field Service Mobile or Field Service (Dynamics 365) mobile app (only applicable if technicians and front line workers are not using HoloLens headsets). Deeplink capabilities for Field Service (Dynamics 365) mobile app are available as early access. Find more details on [how to opt in to early access features](https://docs.microsoft.com/en-us/power-platform/admin/opt-in-early-access-updates#how-to-enable-early-access-updates). 
+- Field Service Mobile (only applicable if technicians and front line workers are not using HoloLens headsets). 
+
 
 ## Set up technician user
 
@@ -118,7 +119,7 @@ Like any typical day, the technician logs in to Field Service Mobile and sees th
 > ![Screenshot of four mobile devices showing Field Service Mobile, and the workflow that brings up the Remote Assist launching option.](./media/remote-assist-field-service-mobile.png)
 
 > [!Note]
-> The deep link from Field Service Mobile to the Remote Assist mobile app is currently available on Android only. Technicians using iOS devices must maually open Remote Assist mobile.
+> The deep link from Field Service Mobile to the Remote Assist mobile app is available on iOS and Android devices. For Field Service Mobile on iOS your system administrator must import the [mobile project v1.0.4847 or later](https://docs.microsoft.com/en-us/dynamics365/field-service/field-service-version-history-mobile#104847) . On Android devices you must import the [mobile project v1.0.1322 or later](https://docs.microsoft.com/en-us/dynamics365/field-service/field-service-version-history-mobile#103482). 
 
 
 ## Make a Remote Assist call
@@ -201,3 +202,9 @@ Technicians can:
 3. Create and schedule a work order.
 
      - The booking will not appear in the Dynamics 365 pane in Remote Assist unless the booking status is **In progress** and the related bookable resource has a user record that matches the HoloLens user.
+
+## Configuration considerations
+
+### Use the Field Service (Dynamics 365) mobile app
+
+As part of the August 2020 early access update, technicians can deeplink from the [Field Service (Dynamics 365) mobile app](mobile-2020-power-platform.md) to the Remote Assist mobile app. Find more details on [how to opt in to early access features](https://docs.microsoft.com/en-us/power-platform/admin/opt-in-early-access-updates#how-to-enable-early-access-updates). 
