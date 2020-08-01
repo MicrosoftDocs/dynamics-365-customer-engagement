@@ -123,13 +123,14 @@ Once the functional location is selected, you'll see that more detailed informat
 Use additional work order incident types to define more work that needs to be done in addition to the primary incident type.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/assets-functional-location-work-order-new-incident.png)
+> ![Screenshot of a work order incident.](./media/assets-functional-location-work-order-new-incident.png)
 
-For each work order incident type you can define a functional location in scenarios where they must be completed at a different location than the one defined on the work order.
-As an example, imagine as part of one work order a technician needs to go to 3 different buildings to perform a different task at each. In this scenario add three work order incident types with each one having the respective functional location. Use the primary incident duration as either the most important work order incident or the location that the technician should travel to first. 
+For each work order incident type, you can define a functional location in scenarios where they must be completed at a different location than the one defined on the work order.
+
+For example, imagine as part of one work order, a technician needs to go to three different buildings to perform a different task at each. In this scenario, add three work order incident types with each one having the respective functional location. Use the primary incident duration as either the most important work order incident or the location that the technician should travel to first.
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/assets-functional-location-work-order-new-incident1.png)
-
+> ![Screenshot of a work order with related incidents.](./media/assets-functional-location-work-order-new-incident1.png)
 
 > [!Note]
 > Work order address only reflects the functional location on the work order and on the primary incident type, not the location of the additional incident types.
