@@ -170,6 +170,7 @@
 ### [Visualizing device readings](cfs-visualizations-iot-hub.md)
 ### [AI for IoT alerts](iot-alerts-ai-based-suggestions.md)
 ## Take action
+### [Connected Field Service on mobile](cfs-mobile-powerapp.md)
 ### [Send work order updates to Azure IoT Central](cfs-iot-central-work-orders.md)
 ### [Send booking updates to Azure IoT Central](cfs-iot-central-bookings.md)
 ### [Receive IoT alerts from real MXChip device](cfs-iotcentral-mxchip.md)
