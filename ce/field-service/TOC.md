@@ -139,6 +139,7 @@
 ## [Publishing](rso-schedule-optimization.md)
 ## [Set up a proof of concept](rso-proof-concept.md)
 ## [Schedule in sequence](rso-requirement-dependency.md)
+## [Predictive travel times](rso-predictive-travel.md)
 ## [Travel outside working hours](rso-travel-outside-working-hours.md)
 ## Running resource scheduling optimization
 ### [Publishing + monitoring](rso-schedule-optimization.md)
@@ -151,12 +152,10 @@
 
 # Connected Field Service (IoT)
 ## [Overview](connected-field-service.md)
-
 ## Administration
 ### [Architecture](developer/connected-field-service-architecture.md)
 ### [Security roles for Connected Field Service](cfs-security-roles.md)
 ### [Authorize API app connection](cfs-authorize-api-connection.md)
-
 ## Connect your IoT data
 ### [Azure IoT Central](cfs-iot-overview.md)
 #### [Prerequisites](cfs-iot-central-setup.md)
@@ -164,14 +163,11 @@
 #### [Prerequisites for Azure subscription](cfs-azure-subscription.md)
 #### [Installation and setup](installation-setup-iothub.md)
 #### [Quickstart: Build your own IoT solution](connected-field-service-overview.md)
-
-
 ## Analyze
 ### [Receive IoT alerts from Azure IoT Central](cfs-iot-central-alerts.md)
 ### [Associate devices with customer accounts](cfs-iot-central-associate-devices.md)
 ### [Visualizing device readings](cfs-visualizations-iot-hub.md)
 ### [AI for IoT alerts](iot-alerts-ai-based-suggestions.md)
-
 ## Take action
 ### [Send work order updates to Azure IoT Central](cfs-iot-central-work-orders.md)
 ### [Send booking updates to Azure IoT Central](cfs-iot-central-bookings.md)
