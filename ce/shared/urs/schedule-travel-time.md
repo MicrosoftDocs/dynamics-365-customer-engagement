@@ -167,6 +167,13 @@ However, to better understand how RSO minimizes overall travel time, each RSO ru
 > [!div class="mx-imgBorder"]
 > ![Screenshot of space for travel time home](../../field-service/media/rso-optimized-schedule-board-time-at-end-of-day.png)
 
+### Travel outside working hours
+
+Many organizations want to allow technicians to begin traveling before their working hours up to a limit. Configure resource scheduling optimization to allow travel time before or after working hours as seen in the following screenshot. For more information, see the article on [allowing travel time outside of working hours with resource scheduling optimization](../../field-service/rso-travel-outside-working-hours.md).
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a schedule that shows resources booked outside of their working hours.](../../field-service/media/rso-travel-outside-after.png)
+
 ## Consider traffic when scheduling
 
 To help with scheduling decisions, current traffic patterns and accidents can be displayed on the schedule-board map alongside technician routes. To do this, select the traffic light icon at the top of the schedule board map. See the following screenshot for reference.
