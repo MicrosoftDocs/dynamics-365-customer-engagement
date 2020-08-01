@@ -151,7 +151,7 @@ Technicians can choose from a list of bookings they are scheduled for on the day
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Remote Assist on a mobile device, showing the option to select a booking to post to.](./media/remote-assist-field-service-call-post-to-work-order-choose-BOTH.png)
 
-Back on the work order, the dispatcher can see a Remote Assist call took place.
+Back on the work order, the dispatcher can see a Remote Assist call took place in the work order timeline with 1) a call log and 2) links to files shared during the call.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service on desktop, showing a work order with attention to the timeline, which now has a Remote Assist call listed.](./media/remote-assist-field-service-call-metadata-timeline.png)
 
