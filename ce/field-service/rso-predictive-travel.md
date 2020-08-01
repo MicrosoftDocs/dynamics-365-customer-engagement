@@ -77,7 +77,7 @@ With predictive travel enabled, the estimated travel times are recalculated base
 > ![Screenshot of a schedule with predictive travel times.](./media/rso-predictive-travel-schedule-with.png)
 
 > [!Note]
-> Running an optimization with predictive travel time may change the order of the bookings to optimize objectives and constraints. In addition it may increase the runtime for the engine to optimize the requirements and bookings.
+> Running an optimization with predictive travel time may change the order of the bookings to optimize objectives and constraints. Additionally, it may increase the runtime for the engine to optimize the requirements and bookings.
 
 ## Configuration considerations
 
