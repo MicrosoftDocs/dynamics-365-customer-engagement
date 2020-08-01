@@ -30,11 +30,9 @@ search.app:
 
 By default, resource scheduling optimization will act as though travel is a part of a technician's defined workday. But because different field service organizations have different policies around technician travel, this default isn't always ideal.
 
-By enabling **Allow travel time outside of working hours** on a resource scheduling optimization goal, the optimization will consider resources who may have otherwise seemed unavailable because of working hours constraints.
+For example, a technician may have a work day defined as 8 AM to 5 PM. Without this configuration, the optimziation will schedule the technician to begin traveling at 8 AM which means the technician would not arrive or begin work until some time after 8 AM.
 
-For example, a technician may have a work day defined as 8 AM to 5 PM. If a work order start time is set for 8 AM, that technician would not be considered by default if any travel time is needed, because the travel time would fall outside of their working hours.
-
-With the **Allow travel time outside of working hours** setting, our technician will be considered, even if travel time means they start their day a little earlier.
+By enabling **Allow travel time outside of working hours** on an Optimization goal, it gives the optimization permission to have the technician begin their day a little earlier assuming it is spent traveling and not working. The optimization will schedule the technician to begin traveling before working hours and arrive at the work order location when their day begins (within defined limits).
 
 In the following screenshot, you'll see a daily schedule *without* **Allow travel time outside of working hours** enabled.
 
