@@ -41,6 +41,7 @@ The key highlights of the feature are as follows:
 >   - Japan
 >   - India
 >   - Asia Pacific
+>   - Australia
 > - The AI suggestions feature supports only English content and is available only in organizations that have the base language set as English.
 
 ## How AI suggestions for similar cases and knowledge articles works
@@ -89,8 +90,6 @@ Perform the following steps to enable the AI suggestions for related knowledge a
 5. In the **Data mapping** > **Knowledge article data fields** area, make sure that **Title** and **Content** are selected in **Article title** and **Article content** boxes, respectively. The selected options are used by the AI model to understand and find a good match for a case. Article content is used by the AI model to generate a brief article summary that is displayed to the agent at runtime.
 
 6. Select **Save**.
-
-    ![Enable AI-suggested knowledge articles](media/csw-enable-ai-suggested-km.png "Enable AI-suggested knowledge articles")
 
 ## Model pre-processing status
 
