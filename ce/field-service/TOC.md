@@ -98,7 +98,7 @@
 ## [Device and app management with Microsoft Intune](field-service-mobile-intune.md)
 ## [Geofencing](geofencing.md)
 ## [Deep linking](mobile-deeplink.md)
-## [Field Service (Dynamics 365) mobile app](mobile-2020-power-platform.md)
+## [Use Power Automate flows with Field Service Mobile](mobile-workflow-to-flow.md)
 ## FAQs + troubleshooting
 ### [Frequently asked questions](mobile-faq.md)
 ### Troubleshooting topics
@@ -107,7 +107,7 @@
 #### [Bookings don't appear when logged into the app?](mobile-faq-bookings-not-showing.md)
 #### [Bookings not scheduled to me show up when logged into the mobile app](mobile-faq-bookings-not-scheduled-to-me.md)
 ## [Get help](mobile-get-help.md) 
-
+## [Field Service (Dynamics 365) mobile app](mobile-2020-power-platform.md)
 
 # Agreements and preventive maintenance
 ## [Agreements](set-up-customer-agreements.md)
@@ -115,10 +115,13 @@
 ## [Agreement sub-statuses](set-up-agreement-sub-statuses.md)
 ## [Entitlements](work-order-entitlements.md)
 
-# Assets, inventory, and purchasing
-## [Overview](inventory-purchasing-returns-overview.md)
+# Asset management
 ## [Customer assets](configure-set-up-customer-assets.md)
+## [Functional location](assets-functional-location.md)
 ## [3D asset models](3D-viewer.md)
+
+# Inventory and purchasing
+## [Overview](inventory-purchasing-returns-overview.md)
 ## [Warehouses](create-warehouse.md)
 ## [Create a purchase order](create-purchase-order.md)
 ## [Process a return](process-return.md)
@@ -134,15 +137,16 @@
 ## [Goals](rso-optimization-goal.md)
 ## [Schedules](rso-optimization-schedule.md)
 ## [Publishing](rso-schedule-optimization.md)
-## [Lock options for bookings](booking-lock-options.md)
-## [Resolving conflicts for bookings](rso-handling-resolving-booking-conflicts.md)
 ## [Set up a proof of concept](rso-proof-concept.md)
 ## [Schedule in sequence](rso-requirement-dependency.md)
 ## [Predictive travel times](rso-predictive-travel.md)
+## [Travel outside working hours](rso-travel-outside-working-hours.md)
 ## Running resource scheduling optimization
 ### [Publishing + monitoring](rso-schedule-optimization.md)
 ### [Overnight scheduling](rso-overnight-scheduling.md)
 ### [Single resource optimization](single-resource-optimization.md)
+## [Lock options for bookings](booking-lock-options.md)
+## [Resolving conflicts for bookings](rso-handling-resolving-booking-conflicts.md)
 ## [Analytics dashboard](scheduling-analytics-reports.md)
 ## [FAQs + troubleshooting](rso-faq.md)
 
