@@ -147,3 +147,26 @@ To learn more about the schedule assistant and the many ways it can be put to us
 - [Resource pool scheduling](https://docs.microsoft.com/dynamics365/field-service/resource-pools): Resource pool scheduling allows you to assemble groups of similar resources to manage capacity and give schedulers the option to assign specific resources at a later time. This article walks through two common scenarios.
 
 - [Facility scheduling](https://docs.microsoft.com/dynamics365/field-service/facility-scheduling): For scenarios where a customer is expected to travel to the company's location, the facility scheduling feature can coordinate physical spaces and related resources.
+
+## Configuration considerations
+
+### Time zone for schedule assistant search results
+
+> [!Note]
+> As of August 2020, this feature is available as early access. For more information, see the article on [how to opt-in to early access features](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates#how-to-enable-early-access-updates).
+
+You can view and edit the time zone the schedule assistant's search results are displayed in by triggering the schedule assistant and selecting the gear icon in the top-right corner.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the time zone setting in the schedule assistant.](../../field-service/media/schedule-assistant-timezone.png)
+
+The time zone value is derived from the time zone on the requirement being scheduled. Go to the requirement, then **Modify Calendar** to view and edit the requirement time zone.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the resource requirement work hours setting.](../../field-service/media/schedule-assistant-timezone-requirement.png)
+
+The requirement time zone is derived from the following values in the following order:
+
+1. The time zone of the work hours template noted on both the requirement and the related work order, if applicable.
+2. The time zone of the user that created the requirement (the owner). If the owner is changed, the time zone is not changed. The user's time zone is defined in **Personalization Settings**.
+3. The time zone of the default schedule board tab of the system.
