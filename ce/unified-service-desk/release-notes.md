@@ -1,7 +1,7 @@
 ---
 title: "Unified Service Desk Release Notes | MicrosoftDocs"
 description: "Learn about the known issues and limitations in Unified Service Desk."
-ms.date: 07/28/2020
+ms.date: 08/03/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -214,8 +214,8 @@ As a work around for the issue, in the hosted control configuration of the URL, 
 
 The following features are not available in Unified Service Desk:
 
-- Auto-accept incoming messages
-- Desktop notifications originating from CIF
+- Auto-assign incoming messages
+- Desktop notifications originating from Channel Integration Framework
 - Missed notifications
 - Personal quick replies
 - Real-time translation of conversation messages
