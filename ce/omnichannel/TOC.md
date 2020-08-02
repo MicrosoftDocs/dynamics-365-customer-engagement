@@ -39,6 +39,7 @@
 ##### [Configure agent display name](administrator/agent-display-name.md)
 ##### [Configure a custom chat message](administrator/chat-custom-messages.md)
 ##### [Configure a pre-chat survey](administrator/configure-pre-chat-survey.md)
+##### [Configure a post-conversation survey](administrator/configure-post-chat-survey.md)
 ##### [Automatically identify customers](administrator/record-identification-rule.md)
 ##### [Configure file attachment capability](administrator/configure-file-attachment.md)
 ##### [Embed chat widget in Power Apps portals](administrator/embed-chat-widget-portal.md)
@@ -63,7 +64,11 @@
 ##### [Entity records routing](administrator/entity-channel.md)
 ##### [Route trigger for entity records](administrator/routing-trigger.md)
 ##### [Understand Omnichannel for Customer Service with Customer Service Hub](administrator/understand-omnichannel-customer-service-hub.md)
+#### [Enable file attachments](administrator/enable-file-attachments.md)
+#### [Configure automated messages](administrator/configure-automated-message.md)
+#### [Configure a post-conversation survey](administrator/configure-post-chat-survey.md)
 #### [Delete a configured channel](administrator/delete-channel.md)
+#### [Asynchronous channel support](administrator/asynchronous-channels.md)
 ### Queues & Users
 #### [Work with queues](administrator/queues-omnichannel.md)
 #### [Manage users](administrator/users-user-profiles.md)
@@ -115,9 +120,16 @@
 #### [Enable language translation for conversations](administrator/enable-real-time-translation.md)
 #### [Create and manage operating hours](administrator/create-operating-hours.md)
 #### [Set up location detection](administrator/geo-location-provider.md)
+#### [Create message templates](administrator/create-message-templates.md)
 #### [Create and manage data masking rules](administrator/data-masking-settings.md)
+#### [Set up location detection](administrator/geo-location-provider.md)
 #### [Create chat authentication settings](administrator/create-chat-auth-settings.md)
 #### [Enable self service settings in conversation summary](administrator/enable-self-service-settings.md)
+#### [Configure automated messages](administrator/configure-automated-message.md)
+#### [Create and manage operating hours](administrator/create-operating-hours.md)
+#### [Configure outbound messaging](administrator/outbound-messaging.md)
+
+
 ## Agent guide
 
 ### [Overview](agent/omnichannel-agent-overview.md)
