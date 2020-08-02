@@ -112,7 +112,7 @@
 
 
 ### Settings
-#### [Enable language translation for conversations](administrator/enable-chat-translation.md)
+#### [Enable language translation for conversations](administrator/enable-real-time-translation.md)
 #### [Create and manage operating hours](administrator/create-operating-hours.md)
 #### [Set up location detection](administrator/geo-location-provider.md)
 #### [Create and manage data masking rules](administrator/data-masking-settings.md)
