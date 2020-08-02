@@ -163,6 +163,7 @@
 ### [Unable to delete a managed solution consisting an SLA enabled entity](troubleshoot-delete-managed-solution.md)
 ### FAQs
 #### [Timeline FAQs](timeline-faqs.md) 
+#### [FAQs on AI-suggested cases and knowledge articles](csw-faqs-ai-suggestions.md)
 
 ## Developer guide
 ### [Work with knowledge articles](work-knowledge-articles.md)
