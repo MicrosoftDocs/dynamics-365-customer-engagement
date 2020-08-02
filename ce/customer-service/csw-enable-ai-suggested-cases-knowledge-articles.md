@@ -64,7 +64,7 @@ AI suggestions are powered by a set of pre-trained natural language understandin
 Make sure that the following requirements are met:
 
 - Customer Service workspace is installed and accessible. More information: [Customer Service workspace](csw-workspace.md)
-- Administrator permissions
+- The System Administrator and System Customizer roles are granted.
 
 ## Enable AI suggestions for similar cases
 
@@ -102,4 +102,5 @@ The **Model pre-processing status** area displays the following metadata pertain
 
 ### See also
 
+[View AI-suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)  
 [Create a new similarity rule to view similar cases](suggest-similar-cases-for-a-case.md#create-a-new-similarity-rule-to-view-similar-cases)  
