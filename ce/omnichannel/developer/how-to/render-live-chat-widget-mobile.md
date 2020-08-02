@@ -1,5 +1,5 @@
 ---
-title: "Render live chat widget on mobile app| Microsoft Docs"
+title: "Render a live chat widget on the mobile app| Microsoft Docs"
 description: "Read how you can render a live chat widget on your mobile app"
 author: susikka
 ms.author: susikka
@@ -9,13 +9,13 @@ ms.service:
   - "dynamics-365-customerservice"
 ms.topic: reference
 ---
-# Render live chat widget on mobile app
+# Render a live chat widget on the mobile app
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-Use the `WebView` component of your mobile operating system language to enable rendering of the web version of the live chat widget on mobile devices. `WebView` capability is offered by both Android and IOS. It enables mobile apps to display web content.
+Use the `WebView` component of your mobile operating system language to enable rendering of the web version of the live chat widget on mobile devices. The `WebView` capability, which enables mobile apps to display web content, is offered on both Android and iOS.
 
-The sample code given below illustrates how you can render the chat widget on the mobile app. 
+The following sample code illustrates how you can render the chat widget on the mobile app. 
 
 ```Kotlin
 var html: String = """
@@ -45,9 +45,9 @@ var baseUrl: String = "Get baseUrl from data-org-url eg. https://oc-cdn-ocprod.a
 chatWebView.loadDataWithBaseURL(baseUrl,html, "text/html", null, baseUrl)
 ```
 
-The rendering of live chat widget in webview can be optimized by using data attributes such as `data-hide-chat-button` and `data-render-mobile` along with some of the APIs and events provided by live chat widget client SDK.
+The rendering of the live chat widget in the mobile web experience<!--Edit okay?--> can be optimized by using data attributes such as `data-hide-chat-button` and `data-render-mobile`, along with some of the APIs and events provided by the live chat widget client SDK.
 
-The usage of `data-hide-chat-button` attribute in above sample code hides the default launch chat button available in the live chat widget. So instead of default chat button, developers can add button that aligns with the mobile app. To launch a chat session, you can call the [startChat](../reference/methods/startchat.md) method when the new chat button is clicked.
+The usage of the `data-hide-chat-button` attribute in the preceding sample code hides the default open chat button available in the live chat widget. So instead of using the default chat button, you can add a button that aligns with the mobile app. To open a chat session, you can call the [startChat](../reference/methods/startchat.md) method when the new chat button is clicked.
 
 ```javascript
 chatWebView.evaluateJavascript("window.addEventListener(\"lcw:ready\", function handleLivechatReadyEvent(){
@@ -56,7 +56,7 @@ chatWebView.evaluateJavascript("window.addEventListener(\"lcw:ready\", function 
     });", null)
 ```
 
-The usage of `data-render-mobile` attribute enables mobile rendering related optimization of the live chat widget. For example, it hides the header of the chat widget to improve mobile experience. The “X” button to close chat also goes away with header. To close the chat, you have to create an end chat button in the mobile app and call the [closeChat](../reference/methods/closeChat.md) method on the click event. 
+You use the `data-render-mobile` attribute to optimize the rendering of the live chat widget on mobile. For example, it hides the header of the chat widget. Along with the header, the **Close** (X) button also goes away. To close the chat, you have to create an "end chat" button in the mobile app and call the [closeChat](../reference/methods/closeChat.md) method on the click event. 
 
 ```javascript
 chatWebView.evaluateJavascript(
@@ -65,7 +65,7 @@ chatWebView.evaluateJavascript(
 )
 ```
 
-The above code covers the scenario where user of the mobile app ends the chat. There is another scenario where agent can end the conversation, developers can listen to [lcw:threadUpdate](../reference/events/lcw-threadUpdate.md) event and call the [closeChat](../reference/methods/closeChat.md) method to end conversation from client side.
+The preceding code covers the scenario where the user of the mobile app ends the chat. In another scenario, where an agent ends the conversation, you can listen for<!--Suggested, to emphasize that you're waiting to hear this event. I'm thinking of the difference between listening *to* music (something you do continuously), but listening *for* the doorbell (something you'll respond to).--> the [lcw:threadUpdate](../reference/events/lcw-threadUpdate.md) event and call the [closeChat](../reference/methods/closeChat.md) method to end the conversation from the client side.
 
 ```javascript
 chatWebView.evaluateJavascript(
@@ -74,10 +74,10 @@ chatWebView.evaluateJavascript(
     })",null)
 ```
 
-After the chat is closed, the live chat widget triggers the [lcw:closeChat](../reference/events/lcw-closeChat.md) event. You can listen to this event and run the post chat steps.
+After the chat is closed, the live chat widget triggers the [lcw:closeChat](../reference/events/lcw-closeChat.md) event. You can listen for<!--Suggested.--> this event, and run the post-chat steps.
 
 > [!NOTE]
-> Live chat widget features such as escalating to voice and video, and downloading chat transcript are not supported on the mobile app.
+> Live chat widget features&mdash;such as escalating to voice and video, and downloading the chat transcript&mdash;aren't supported on the mobile app.
 
 ### See also
 

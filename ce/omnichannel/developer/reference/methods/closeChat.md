@@ -14,7 +14,7 @@ ms.topic: article
 This method ends the conversation between the agent and the customer. Any browser cache related to the conversation is also deleted.
 
 > [!NOTE]
-> Listen to the **lcw:ready** event raised by a live chat before calling the live chat SDK methods. The live chat methods should be invoked after the **lcw:ready** event is raised. You can listen for this event by adding your own event listener on the window object.
+> Listen for the **lcw:ready** event raised by a live chat before calling the live chat SDK methods. The live chat methods should be invoked after the **lcw:ready** event is raised. You can listen for this event by adding your own event listener on the window object.
 
 ## Syntax
 
@@ -36,8 +36,9 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
                Microsoft.Omnichannel.LiveChatWidget.SDK.closeChat();
 });
 ```
-## See also
+
+### See also
 
 [startChat](startChat.md)<br />
 [setContextProvider](setContextProvider.md)<br />
-[JavaScript API reference for live chat SDK](../../omnichannel-reference.md)
+[Live chat SDK JavaScript API reference](../../omnichannel-reference.md)

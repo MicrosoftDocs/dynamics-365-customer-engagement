@@ -32,7 +32,7 @@ Here is the structure of `translationConfig` parameter.
 interface translationConfig { 
         conversationId: string;   //Unique Id for live work item in Omnichannel for Customer Service
         messagePayload: MessagePayload;  //Payload for the message to be translated
-        translateToC1orC2: TranslateTo;   //represents to whom the message has to be translated 
+        translateToC1orC2: TranslateTo;   //Represents for whom the message has to be translated 
  } 
 
 interface MessagePayload { 
@@ -80,7 +80,7 @@ translationConfig = {
 
 ## Return Value
 
-Returns the translated message, the source language and the destination language.
+Returns the translated message, the source language, and the destination language.
 
 ## Example
 
@@ -93,4 +93,4 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 
 ### See also
 
-[Add a web resource for real time translation](../../how-to/add-web-resource-real-time-translation.md)
+[Add a web resource for real-time translation](../../how-to/add-web-resource-real-time-translation.md)
