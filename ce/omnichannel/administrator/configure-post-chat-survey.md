@@ -22,10 +22,9 @@ You can configure your chat widget to show users a survey that they can respond 
 
 ## Prerequisite
 
-The post-conversation survey uses Forms Pro<!--Going to change soon, yes?--> to create surveys. Make sure you have access to create surveys in Forms Pro in the same org as Omnichannel for Customer Service,<!--Suggest a comma and making this two clauses.--> and you've created the required survey. The survey that you create will be listed as an option to choose for linking to the conversation. More information: [Create surveys with Forms Pro](https://go.microsoft.com/fwlink/p/?linkid=2135108)
+The post-conversation survey uses Forms Pro to create surveys. Make sure you have access to create surveys in Forms Pro in the same org as Omnichannel for Customer Service, and you've created the required survey. The survey that you create will be listed as an option to choose for linking to the conversation. More information: [Create surveys with Forms Pro](https://go.microsoft.com/fwlink/p/?linkid=2135108)
 
 ## How post-conversation surveys work
-<!--Or "How a post conversation survey works"-->
 When you enable a post-conversation survey for a channel, the survey will appear for the customer after the agent or customer ends the conversation. You can configure the survey link or survey questions to be displayed in the chat window.
 
 ## Configure a post-conversation survey for a chat widget
