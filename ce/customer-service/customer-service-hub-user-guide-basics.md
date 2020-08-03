@@ -340,17 +340,17 @@ When you select the filter icon, you can see the **Filter by** menu where you ca
 
   ![Timeline activity filter](../customer-service/media/timeline-filter6.png "Timeline activity filter")
 
-#### **Search for records**
+#### Search for records
 
 You can easily search for records in the timeline. When you search for a phrase, the timeline searches the title or subject and description or body of the content, and then displays the record to you.
 
   ![Timeline keyword search](../customer-service/media/timeline-keyword-search.png "Timeline keyword search")
 
-#### **View and manage email conversations**
+#### View and manage email conversations
 
 You can easily set email messages to show as conversation threads on the timeline, significantly reducing usability (scroll and clicks) when managing email activities.
 
-#### **Expand and collapse timeline activities**
+#### Expand and collapse timeline activities
 
 Select an activity from the timeline to expand and view. 
 
