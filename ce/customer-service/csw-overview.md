@@ -27,7 +27,7 @@ Welcome to the Customer Service workspace app module where we're increasing agen
 
 If you have used Customer Service Hub or Omnichannel for Customer Service before, much of the behavior for managing cases and activities in the Customer Service workspace app module works the same way with some exceptions to accomodate the multisession and conversation capabilities. In this article, we'll walk through the Customer Service workspace experience and explain how to navigate in it. 
 
-Before we dive in, a quick note about administration of Customer Service workspace: Currently, there isn't a dedicated administrator experience for Customer Service workspace. As such, configuring and managing core customer service capabilities, such as queues and routing rules, is done in the Customer Service Hub -> [Service Management](service-manager-guide.md) experience. Chat and channel configuration is done in [Omnichannel Administration](omnichannel-administrator.md). Because all of these apps are on the [Common Data Service (CDS)](data-platform-intro.md), the data created through these experiences is accessible. 
+Before we dive in, a quick note about administration of Customer Service workspace: Currently, there isn't a dedicated administrator experience for Customer Service workspace. As such, configuring and managing core customer service capabilities, such as queues and routing rules, is done in the Customer Service Hub -> [Service Management](https://docs.microsoft.com/dynamics365/customer-service/service-manager-guide) experience. Chat and channel configuration is done in [Omnichannel Administration](https://docs.microsoft.com/dynamics365/omnichannel/administrator/omnichannel-administrator). Because all of these apps are on the [Common Data Service (CDS)](data-platform-intro.md), the data created through these experiences is accessible. 
 
 ## Introduction to Customer Service workspace
 You can access Customer Service workspace through the app selector where you find all of your other Dynamics 365 apps by choosing the Customer Service workspace app tile. You can also access the app in the Dynamics 365 drop-down navigation in the upper-left corner of Dynamics 365.
@@ -40,8 +40,8 @@ Let's explore the elements of the Customer Service workspace and how to navigate
 
 :::image type="content" source="media/csw-overview.png" alt-text="Customer Service workspace overview" border="false":::
 
-Label | Description
------------- | -------------
+| Label | Description
+| ------------ | ------------- |
 1 | The session pane lists all of the sessions you are actively working on. Select the tabs to navigate between sessions. 
 2 | The Home session returns you to the Customer Service Agent Dashboard view.
 3 | Each session has a tab in the session panel. Select a tab to navigate to the session you want to work on. 
