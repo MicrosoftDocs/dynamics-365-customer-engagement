@@ -4,7 +4,7 @@ description: "Instructions for configuring a WeChat channel in Omnichannel for C
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/24/2020
+ms.date: 08/03/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -85,6 +85,8 @@ If you are using the service account of WeChat, perform the following steps:
 2. On the **General settings** tab, provide the following information:
     
     - **Language**: Select the preferred language for your WeChat account.
+    
+    - **Work stream**: Select an existing work stream or create a new one.
 
     - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set **No**. 
 
