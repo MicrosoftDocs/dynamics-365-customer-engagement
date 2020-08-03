@@ -646,8 +646,6 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: Active Solution Solution
 
-See msdyn_ocliveworkitem Entity [msdyn_msdyn_ocliveworkitem_msdyn_transcript](msdyn_ocliveworkitem.md#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_transcript) One-To-Many relationship.
-
 ### See also
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
