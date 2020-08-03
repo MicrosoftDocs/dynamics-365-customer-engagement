@@ -1,3 +1,33 @@
+## Version 3.12.29.5 (2020 Wave 2 Early Access)
+
+The release is only applied when an environment is opted into early access and introduces the [Resource Scheduling 2020 Wave 2](https://docs.microsoft.com/en-us/dynamics365-release-plan/2020wave2/service/dynamics365-field-service/planned-features#scheduling) new and updated features. 
+In addition, this release includes the following changes which have the potential to change the existing system behavior or interface:
+
+- Fixed a bug where a Booking Rule is used and throws a custom notification on the Schedule Assistant’s **Create Resource Booking** pane, the **Booking created successfully** was not being displayed. Now with the fix, even when Booking Rules are defined, the Booking creation success notification will be displayed. 
+- When a custom date format (ex., dd/mm/yyyy) is used, the Booking tooltip is displayed Start Time and End Time are displayed incorrectly, this bug is now fixed. 
+- Use openWebResource API to open Schedule Assistant in the client-side tools like Unified Service Desk, so that no custom actions need to be called to open the Schedule Assistant. 
+- For organizations using Japanese language, in the Schedule Board’s date picker control now shows the right string in Japanese for the Months displayed. 
+- For organizations using Right to Left languages like Arabic as base language, the short weekday names are now displayed on the date picker of the Schedule Board. Also fixed tooltip positioning issue for different components of the Schedule Board. 
+- Fixed navigation using keyboard tab key on the Move Bookings to a Different Day dialog of the Schedule Board, to move the focus from the Booking Statuses picker to the ok button, after a Booking status is selected. 
+- When a Requirement Status record is used as a default Requirement Status in the Booking Setup Metadata record of a schedulable entity, the deletion of the Requirement Status record will not be restricted. 
+- On the Schedule Board, the fields on the Booking tooltip with long strings were truncated. But with this fix, the long strings will be word wrapped into a new line. 
+- When an open area is selected on the Schedule Board, a pane opens with a look up for the Resource requirement record. Fixed a bug where the default view on this lookup was not changeable. With this fix, the Resource Requirement view can be changed to any other active view of the Resource Requirement entity. 
+- On the Client extension entity form, the lookup field for the Web Resource is fixed to show all the WebResource Lookup views for CSS, JavaScript, and RESX views. 
+- Fixed a bug, when Requirement Groups are used with the Workorders, on the Schedule Assistant, the Booking Status drop down on the Create Resource Booking pane shows not just the Booking Statuses of the workorder but also related to other entities. With this fix, the Booking Status drop down now only shows the Booking Statuses of the Workorder. 
+- When a Resource Requirement record and a Bookable Resource are selected on the Schedule Board, and click on Book button, the Create Resource Booking pane opens up with the Start and End Dates populated based on the Requirement selected. When the Resource selection is changed, the selected Start Date and End Date are being reset. This bug is now fixed. 
+- Improved the tooltip description of the field **Actual Travel Duration** field on the Scheduling tab of the Bookable Resource Booking to **Shows the total travel duration. Calculated based on the difference between the Bookable Resource Booking's Start Time and Actual Arrival Time.**
+- The Edit button on the Business Closure ribbon is hidden, as this a button with no action on the Business closure records in the view. 
+- Removed unnecessary debug console messages for the Business closure entity views. 
+- When a new Business Closure record is created, the Duration field is calculated incorrectly by adding an additional day. This bug is now fixed, and the Duration field is calculated based on the Start Time and End Time selected. 
+- When a Requirement Status record is created and saved, the Requirement Status lookup field is read-only, so that this value cannot be changed once the record is saved.
+- When a Requirement with multiple Booking records associated, and one of the Booking’s resource is not active, the de-activated Resource is filtered, and the uncaught exception is handled. 
+- Fixed a bug with the timeslot selection on the Create Resource Booking pane. With this fix, when **Book Based on** setting is set to **Estimated Arrival**, and user clicks on a suggested time in the Schedule Assistant, the time at which user clicks is populated as the Estimated Arrival time in the Booking panel. When **Book based on** setting is set to **Start Time**, and user clicks on the suggested time in the Schedule Assistant, the time at which user clicks is populated as the Start Time in the Booing Panel. 
+- Added additional checks on the Schedule Board default settings to prevent the crashes of the Schedule Board with the **Object reference not set to an instance of an object** error. 
+- Fixed a bug where the focus on the Resource Search control on the Weekly view of the List view type of the Schedule Assistant is lost when typing the Resource name.
+- The custom date format is now supported on the Quick Book pane. 
+- When a Booking is created on the Schedule Board with Duration of 0 minutes, **Duration must be greater than 0 minutes** is displayed in English on non-English orgs. This bug is fixed, and the string is now localized.
+
+
 ## 3.12.24.4
 
 - When you enable any entity for scheduling (for example, case, lead, account), enable **Quick Book** feature on the **Booking Setup Metadata** record of this schedulable entity, and set **Disable Requirement Auto Creation for Bookings** to yes. The resource requirement records will not be generated post the creation of the booking record. 
