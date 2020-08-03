@@ -45,7 +45,7 @@ var baseUrl: String = "Get baseUrl from data-org-url eg. https://oc-cdn-ocprod.a
 chatWebView.loadDataWithBaseURL(baseUrl,html, "text/html", null, baseUrl)
 ```
 
-The rendering of the live chat widget in the mobile web experience<!--Edit okay?--> can be optimized by using data attributes such as `data-hide-chat-button` and `data-render-mobile`, along with some of the APIs and events provided by the live chat widget client SDK.
+The rendering of the live chat widget in the mobile web experience can be optimized by using data attributes such as `data-hide-chat-button` and `data-render-mobile`, along with some of the APIs and events provided by the live chat widget client SDK.
 
 The usage of the `data-hide-chat-button` attribute in the preceding sample code hides the default open chat button available in the live chat widget. So instead of using the default chat button, you can add a button that aligns with the mobile app. To open a chat session, you can call the [startChat](../reference/methods/startchat.md) method when the new chat button is clicked.
 
@@ -65,7 +65,7 @@ chatWebView.evaluateJavascript(
 )
 ```
 
-The preceding code covers the scenario where the user of the mobile app ends the chat. In another scenario, where an agent ends the conversation, you can listen for<!--Suggested, to emphasize that you're waiting to hear this event. I'm thinking of the difference between listening *to* music (something you do continuously), but listening *for* the doorbell (something you'll respond to).--> the [lcw:threadUpdate](../reference/events/lcw-threadUpdate.md) event and call the [closeChat](../reference/methods/closeChat.md) method to end the conversation from the client side.
+The preceding code covers the scenario where the user of the mobile app ends the chat. In another scenario, where an agent ends the conversation, you can listen for the [lcw:threadUpdate](../reference/events/lcw-threadUpdate.md) event and call the [closeChat](../reference/methods/closeChat.md) method to end the conversation from the client side.
 
 ```javascript
 chatWebView.evaluateJavascript(
@@ -74,7 +74,7 @@ chatWebView.evaluateJavascript(
     })",null)
 ```
 
-After the chat is closed, the live chat widget triggers the [lcw:closeChat](../reference/events/lcw-closeChat.md) event. You can listen for<!--Suggested.--> this event, and run the post-chat steps.
+After the chat is closed, the live chat widget triggers the [lcw:closeChat](../reference/events/lcw-closeChat.md) event. You can listen for this event, and run the post-chat steps.
 
 > [!NOTE]
 > Live chat widget features&mdash;such as escalating to voice and video, and downloading the chat transcript&mdash;aren't supported on the mobile app.
