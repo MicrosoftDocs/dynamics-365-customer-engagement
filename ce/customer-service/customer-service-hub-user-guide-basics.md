@@ -602,8 +602,7 @@ You can see templates of a particular language by selecting a language from the 
 
 ### Preview: Insert a knowledge article into an email
 
-> Note:
-> This feature is in preview and is subject to change. 
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 While working on an email, you can quickly help customers by searching and selecting a relevant knowledge article to include in your email. You can insert the article and/or share a link to it in the body of your message. **Note:** Inserting a link requires that your administrator first sets up an external portal that supports a URL format. For more information, see [Set up knowledge management (Customer Service Hub)](set-up-knowledge-management-embedded-knowledge-search.md).
 
@@ -627,7 +626,7 @@ While working on an email, you can quickly help customers by searching and selec
    
    -OR-
 
-  - If your administrator has set up an external portal that supports a URL format, you can include a link. For more information, see [Set up knowledge management (Customer Service Hub)](set-up-knowledge-management-embedded-knowledge-search.md). To include an article as a link in the email, select the **URL** icon for the article in the search results or in the article preview pane, select **Insert URL** at the top of the pane. This will insert a link to the article into the body of your email and close the **Select knowledge article to insert** page. 
+  - If your administrator has set up an external portal that supports a URL format, you can include a link. For more information, see [Set up knowledge management (Customer Service Hub)](set-up-knowledge-management-embedded-knowledge-search.md). To insert an article as a link in the email, select the **URL** icon for the article in the search results or in the article preview pane, select **Insert URL** at the top of the pane. This will insert a link to the article into the body of your email and close the **Select knowledge article to insert** page. 
    
   > [!div class="mx-imgBorder"]
   > ![Insert a link to the content into email](media/email-knowledge-article-insert-url.png "Insert a link to an article into an emaill by selecting either the Insert URL icon from the search results or Insert URL at the top of the preview pane") 
