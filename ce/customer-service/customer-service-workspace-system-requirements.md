@@ -33,7 +33,7 @@ This section lists the prerequisites for using Customer Service workspace.
 
 | Area | Requirements |
 |----------|----------|
-| Model-driven app | Dynamics 365 Customer Service workspace app version 9.1.0000. or later  |
+| Model-driven app | Dynamics 365 Customer Service workspace app version 9.1.0000.20164 or later  |
 | Web browsers | Supported browsers:<li>Microsoft Edge (Legacy version)</li> <li> Microsoft Edge ([Chromium based](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium) is recommended); version 79.0.309.65 or later is required for the desktop notifications feature </li> <li> Google Chrome </li> |
 
 For hardware and other requirements, see [Model-driven app requirements](../admin/online-requirements.md).
