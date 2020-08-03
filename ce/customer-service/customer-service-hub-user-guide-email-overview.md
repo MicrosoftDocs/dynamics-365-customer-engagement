@@ -20,14 +20,14 @@ The following is an overview of email features and functionality that shows you:
 - [How to use rich text editor toolbar in email](customer-service-hub-user-guide-email-overview.md#how-to-use-the-rich-text-editor-toolbar-in-email)
 - [How to use email templates](customer-service-hub-user-guide-email-overview.md#how-to-use-email-templates)
 - [How to attach a file in email](customer-service-hub-user-guide-email-overview.md#how-to-attach-a-file-to-email)
-- [How to view and insert images in email]() 
+- [How to view and insert images in email](customer-service-hub-user-guide-email-overview.md#how-to-view-and-insert-images-in-email) 
 - [How to create a signature for emails and queues](customer-service-hub-user-guide-email-overviewmd#how-to-create-a-signature-for-emails-and-queues)
 
 ## Navigate to vs. contextual email experience
 You can work in either the navigate to email or the contextual email experience. The difference between the navigate to vs. contextual email experience is where the email displays on your screen.
 
-- [Navigate to email experience](): will always take you to a new screen. 
-- [Contextual email experience](): 
+- **Navigate to email experience**: will always take you to a new screen. 
+- **Contextual email experience**: will always display in a pop-up screen.
 
 The following provides an over of how to access the **navigate to** and **contextual** email experiences:
 1.	Click on **Create a timeline** record
@@ -166,7 +166,7 @@ The following table provides a detailed overview of the different formatting fea
 |![Superscript](../customer-service/media/format-superscript.png "Superscript")| Superscript |  | Type very small letters just above the line of text. |
 |![Subscript](../customer-service/media/format-subscript.png "Subscript")| Subscript |  | Type very small letters just below the line of text. |
 |![Strikethrough](../customer-service/media/format-strikethrough.png "Strikethrough")| Strikethrough |  | Cross out text by drawing a line through it. |
-|![Image](../customer-service/media/insert-picture.png "Image") | Image | | Insert an image.<br /><br /> You can insert an image by directly copying and pasting it inline in the editor, dragging and dropping it from your desktop or local folder directly into the editor, or by typing a URL. The following formats are supported: .PNG, .JPG., or .GIF.<br /><br />To insert an image inline in your article:<ol><li>Drag and drop the image or or copy and paste it directly into the article.</li><li>Drag any corner of the image to resize it.</li></ol><br /><br />To insert an image using a URL or navigating to the local image:<ol><li>Choose Insert Image.</li><li>In the **Image** property dialog, choose from the following options:</li></ol><ul><li>Specify the web address of the image, and also specify properties to define how the image will appear in the email or article. **Note:**      If the image is located on the external server, use the full absolute path. If the image is located on a local server, you can use a relative path. If you want the image to be a selectable link, add a URL for the image. You can also specify if you want the targeted page to open in a new window, topmost window, same window, or parent window.</li><li>Select **Browse** to navigate to the image on your computer.</li></ul>|
+|![Insert Image](media\insert-picture.png "Insert Image")| Insert Image|	|You can insert an image by directly copying and pasting it inline in the editor, dragging and dropping it from your desktop or local folder directly into the editor, or by typing a URL. The following formats are supported: .PNG, .JPG., or .GIF.<br /><br />To insert an image inline in your article: <br />1. Drag and drop the image or copy and paste it directly into the article. <br />2. Drag any corner of the image to resize it.<br /><br />To insert an image using a URL or navigating to the local image:<br />1. Choose Insert Image.<br />2. In the **Image** property dialog, choose from the following options:<br /><ul><li>Select **Browse** to navigate to the image on your computer.</li><li>Or specify the web address of the image, and properties to define how the image will appear in the email or article.</li><br />**Note:**<ul><li>If the image is located on the external server, use the full absolute path. </li><li>If the image is located on a local server, you can use a relative path. </li><li>If you want the image to be linked to a target, add a URL for the image.</li><li>You can also specify if you want the targeted page to open in a new window, topmost window, same window, or parent window.</li></ul>
 |![Left to Right](../customer-service/media/left-to-right.png "Left to Right")| Left to Right |  | Change the text to left-to-right for content such as a paragraph, header, table, or list. Commonly used for bi-directional language content. This is the default setting.|
 |![Right to Left](../customer-service/media/right-to-left.png "Right to Left")| Right to Left |  | Change the text to right-to-left for content such as a paragraph, header, table, or list. Commonly used for bi-directional language content. The default setting is left-to-right. |
 |![Undo Typing](../customer-service/media/undo-typing.png "Undo Typing")| Undo Typing |  | Undo changes you made to the content. |
@@ -355,7 +355,7 @@ File attachments display differently depending on the email form you are working
 ### Working with the attachment command bar
 Once you’ve attached a file(s) to a message, you can manage them using the file attachment commands.  
 
-#### **Select Commands**
+### Select Commands
 The Select Command allows you select individual files or streamline efforts by allowing you select multiple files at once.
 1.	**Select All command** is located on the right above your attached files.
 2.	When you use Select All it highlights all the selected files.
