@@ -39,9 +39,6 @@ The icons displayed in the upper right nav in the timeline give quick access to 
 
 ## Create a timeline record
 
-<!-- editor note: Is the plus icon actually called the "Create a timeline record" icon? Or should it be referred to as the plus icon? "When enabled ..., the plus icon -->
-
-
 When enabled by your system administrator, the **Create a timeline record** (![Create a timeline record](media\timeline-create-a-record-icon.png "Create a timeline record")) icon allows you to quickly create appointments, send emails, and make notes and posts and associate them with other records. You can select ![Create a timeline record](media\timeline-create-a-record-icon.png "Create a timeline record") to view the options that are available for use.
 
  > [!div class="mx-imgBorder"]
@@ -51,14 +48,14 @@ For information on timeline record configuration, go to [Configure activity reco
 
 ## Work with filters
 
-When enabled by your system administrator, the timeline **Filter** further streamlines your productivity by allowing you to customize your experience and view data relevant to you. 
+When enabled by your system administrator, the timeline **filter** further streamlines your productivity by allowing you to customize your experience and view data relevant to you. 
 
 ![Timeline filter functionality](media\timeline-filter-1.png "Timeline filter functionality")
 
 |Annotation|Description|
 |----------|-----------|
-|1|The ![](media\timeline-filter-icon.png "Filter") icon allows you to **Filter**.|
-|2|A list of items that is enabled by your system administrator is displayed that you can filter.|
+|1|The ![Filter](media\timeline-filter-icon.png "Filter") icon allows you to filter.|
+|2|A list of items enabled by your system administrator that you can filter.|
 |||
 
 
@@ -68,11 +65,11 @@ Filters are valuable for sorting data. You can quickly filter activities, posts,
 
 You can limit the records you're seeing by using the data filters. 
 
-- When the **Filter** icon is transparent in the Timeline, it means there's no filter applied. When you select the icon, filter options are shown. <br>
+- When the **Filter** icon is transparent in the timeline, it means there's no filter applied. When you select the icon, filter options are shown. <br>
 
-    When you select the filter icon, the Filter by menu is displayed and you can filter items based on the following categories:
+    When you select the filter icon, the filter by menu is displayed and you can filter items based on the following categories:
 
-    |Category                   |Sub-category                            |
+    |Category                   |Subcategory                            |
     |---------------------------|----------------------------------------|
     |Record type                |<li>Notes</li>                     <li>Posts</li><li>Activities</li>                     |
     |Activity type              |<li>Appointment</li><li>Campaign Activity</li> <li>Campaign Response</li><li>Email</li><li>Fax</li><li>Case Resolution</li><li>Letter</li><li>Opportunity Case</li>   <li>Order Case</li><li>Phone Call</li><li>Quote Close</li>           <li>Recurring Appointment</li><li>Social Activity</li><li>Task</li>   <li>Project Service Approval</li><li>Booking Alert</li><li>Conversation</li><li>Session</li><li>Customer Voice survey invite</li><li>Customer Voice survey response</li><li>Custom activities (as configured by your administrator)</li>|
@@ -81,15 +78,18 @@ You can limit the records you're seeing by using the data filters.
     |Posts by                   |<li>Auto post</li><li>Users</li>                          |
     |Modified date              |<li>Last 24 hours</li><li>Last 7 days</li><li>Last 30 days</li>                   |
 
-    For example, when you select the **Activities** check box under **Record type** and **Overview** check box under **Activity status**, only the activities with status as Overdue are displayed. 
+    For example, when you select the **Activities** check box under **Record type** and **Overdue** check box under **Activity status**, only the activities with status as Overdue are displayed. 
 
     ![Filter options](media\timeline-filter-options.png "Filter options")
 
-- When the **Filter** icon is dark, it means filters are applied. To view what filters are selected, select the Filter applied icon ![Filter applied icon](media\timeline-filter-applied.png "Filter icon") **Filter**. The screen expands to show the filters selected/applied.</li>
+- When the **Filter** icon is dark, it means filters are applied. To view what filters are selected, select the **Filter applied** (![Filter applied icon](media\timeline-filter-applied.png "Filter icon")) icon. The screen expands to show the filters selected/applied.</li>
 
 - Select or clear the check boxes to apply or clear a specific filter.<br>
 
-- To clear all the applied filters, select the **Clear all filters** icon ![Clear all filters icon](media\timeline-clear-all-filters-icon.png "Clear all filters icon") icon.
+- To clear all the applied filters, select the **Clear all filters** (![Clear all filters icon](media\timeline-clear-all-filters-icon.png "Clear all filters icon")) icon.
+
+
+
 
 ## Work with records
 
