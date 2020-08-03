@@ -19,9 +19,9 @@ search.app:
   - D365CS
 ---
 
-# Use the productivity pane to help resolve customer issues
-> [!Note]
-> This topic is pre-release documentation and is subject to change.
+# Preview: Use the productivity pane to help resolve customer issues
+
+[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 The productivity pane in the Customer Service workspace is an auxiliary work area that contains productivity tools that support or expedite an agent's tasks when resolving customer issues.
 
@@ -53,10 +53,10 @@ In the Customer Service workspace application, **Smart assist** appears in the p
 
 ![Smart assist tab](media/csw-smart-assist-tab.png "View of the Smart assist tab on the productivity pane")
 
-Smart assist displays the relevant suggestions as individual cards that are grouped as either **Knowledge article suggestions** or **Similar cases suggestions**. For more information, see [View AI-suggested cases in knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md).
+Smart assist displays the relevant suggestions as individual cards that are grouped as either **Knowledge article suggestions** or **Similar cases suggestions**. For more information, see [View AI-suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md).
 
 
 ### See also
 
 [Customer Service workspace - overview](csw-overview.md)   </br>
-[View AI-suggested cases in knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)
+[View AI-suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)
