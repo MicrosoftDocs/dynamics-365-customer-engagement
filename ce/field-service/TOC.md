@@ -116,7 +116,7 @@
 ## [Agreement sub-statuses](set-up-agreement-sub-statuses.md)
 ## [Entitlements](work-order-entitlements.md)
 
-# Asset management
+# Asset servicing 
 ## [Customer assets](configure-set-up-customer-assets.md)
 ## [Functional location](assets-functional-location.md)
 ## [Asset properties](asset-properties.md)
