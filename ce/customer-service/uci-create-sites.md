@@ -48,7 +48,7 @@ Before you begin, make sure you have the System Administrator or System Customiz
 
 [Create or edit a service](uci-create-edit-service.md)
 
-[Add facilites and equipment](uci-add-facilities-equipment.md)
+[Add facilities and equipment](uci-add-facilities-equipment.md)
 
 [Schedule a service activity](uci-schedule-service-activity.md)
 

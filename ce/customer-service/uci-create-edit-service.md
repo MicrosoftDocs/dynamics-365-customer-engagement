@@ -85,7 +85,7 @@ You can make a service available or unavailable for scheduling by activating or 
 
 [UCI-based service scheduling overview](uci-scheduling-overview.md)
 
-[Add facilites and equipment](uci-add-facilities-equipment.md)
+[Add facilities and equipment](uci-add-facilities-equipment.md)
 
 [Schedule a service activity](uci-schedule-service-activity.md)
 

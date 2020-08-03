@@ -73,7 +73,7 @@ Before beginning to create a service activity, make sure you have the Scheduler 
 
 [Create or edit a service](uci-create-edit-service.md)
 
-[Add facilites and equipment](uci-add-facilities-equipment.md)
+[Add facilities and equipment](uci-add-facilities-equipment.md)
 
 [Create resource groups](uci-create-resource-groups.md)
 
