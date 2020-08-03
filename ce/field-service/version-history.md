@@ -70,7 +70,7 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 (Includes Universal Resource Scheduling version [3.12.29.5](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#312295).)
 
 The release is only applied when an environment is opted in to early access and introduces the [Field Service 2020 Wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/service/dynamics365-field-service/planned-features) new and updated features as outlined for availability in early access:
-- Embedded PowerBI Dashboard for key Field Service metrics
+- Embedded Power BI Dashboard for key Field Service metrics
 - Improved work order metrics
 - Asset hierarchy and functional location
 - Usability improvements for key Field Service subgrids as dialogs
