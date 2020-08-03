@@ -12,7 +12,7 @@ ms.author: udag
 manager: shujoshi
 ---
 
-## Apply additional filters
+# Apply additional filters
 
 Using additional filters, you can filter the opportunities that participate in calculating the forecast values. To filter the opportunities, you create filters based on conditions by using the attributes that belong to the Opportunity entity, including related entity attributes.
 
