@@ -1,6 +1,6 @@
 ---
-title: "Timeline Overview for Users | MicrosoftDocs"
-description: "Timeline Overview for Users"
+title: "Timeline overview for users | MicrosoftDocs"
+description: "Timeline overview for users"
 ms.date: 08/01/2020
 ms.service:
   - "dynamics-365-customerservice"
@@ -10,11 +10,15 @@ ms.author: lerobbin
 manager: shujoshi
 ---
 
-# Use Timeline
+# Use timeline
 
 Timeline is a control that allows you to view different activity types that are connected to an entity record and occur over time in a single stream. Some activities that can be logged in the timeline are notes, phone calls, emails, appointments, and tasks.
 
 Timeline allows you to:
+
+
+<!-- editor note: Unclear in first item below what you can quickly access. -->
+
 
 - Quickly access on the command bar to perform common actions with ease.
 - Filter and view your important activities using multiple filter options.
@@ -24,23 +28,26 @@ Timeline allows you to:
 
 The following is an overview of how the timeline functionality works in each section on the entity form. The timeline section on the entity form is rich in features and functionality to help you navigate and streamline efforts.
 
-The icons displayed in the top right nav in the Timeline give quick access to the following capabilities, when enabled by your system administrator:
+The icons displayed in the upper right nav in the timeline give quick access to the following capabilities, when enabled by your system administrator:
 
 - [Create a timeline record](#create-a-timeline-record)
-- [Work with Filters](#work-with-filters)
-- [Work with Records](#work-with-records)
+- [Work with filters](#work-with-filters)
+- [Work with records](#work-with-records)
 - [Explore more commands](#more-commands)
-- [Search Records](#search-records-on-timeline)
+- [Search records](#search-records-on-timeline)
 - [Add attachments](#add-an-attachment-to-a-note-in-timeline) 
 
 ## Create a timeline record
 
-When enabled by your system administrator, the **Create a timeline record** ![](media\timeline-create-a-record-icon.png "Create a timeline record") icon allows you to quickly create appointments, send emails, and make notes and posts and associate them with other records. You can select the plus icon to view the options that are available for use.
+<!-- editor note: Is the plus icon actually called the "Create a timeline record" icon? Or should it be referred to as the plus icon? "When enabled ..., the plus icon -->
+
+
+When enabled by your system administrator, the **Create a timeline record** (![Create a timeline record](media\timeline-create-a-record-icon.png "Create a timeline record")) icon allows you to quickly create appointments, send emails, and make notes and posts and associate them with other records. You can select ![Create a timeline record](media\timeline-create-a-record-icon.png "Create a timeline record") to view the options that are available for use.
 
  > [!div class="mx-imgBorder"]
  > ![Create a timeline record](media\timeline-create-a-timeline-record.png "Create a timeline record")
 
-For information on timeline record configuration, see [Configure activity record types](customer-service-hub-user-guide-timeline-admin.md#configure-activity-record-types)
+For information on timeline record configuration, go to [Configure activity record types](customer-service-hub-user-guide-timeline-admin.md#configure-activity-record-types).
 
 ## Work with filters
 
@@ -82,7 +89,7 @@ You can limit the records you're seeing by using the data filters.
 
 - Select or clear the check boxes to apply or clear a specific filter.<br>
 
-- To clear all the applied filters, select the **Clear all filters** icon ![Clear all fiters icon](media\timeline-clear-all-filters-icon.png "Clear all filters icon") icon.
+- To clear all the applied filters, select the **Clear all filters** icon ![Clear all filters icon](media\timeline-clear-all-filters-icon.png "Clear all filters icon") icon.
 
 ## Work with records
 
