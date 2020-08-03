@@ -60,7 +60,7 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 | | <i>North America</i> |[8.8.24.54](https://docs.microsoft.com/dynamics365/field-service/version-history#882454)| [8.8.25.30](https://docs.microsoft.com/dynamics365/field-service/version-history#882530) | 08/21/2020
 |<strong>Station 6</strong> | |  |  | |
 | | <i>Government Community Cloud</i> |[8.8.24.54](https://docs.microsoft.com/dynamics365/field-service/version-history#882454)| [8.8.25.30](https://docs.microsoft.com/dynamics365/field-service/version-history#882530) | 08/21/2020
-| | <i>China</i> |[8.8.24.54](https://docs.microsoft.com/dynamics365/field-service/version-history#882454)| [[8.8.25.30](https://docs.microsoft.com/dynamics365/field-service/version-history#882530) | 08/21/2020
+| | <i>China</i> |[8.8.24.54](https://docs.microsoft.com/dynamics365/field-service/version-history#882454)| [8.8.25.30](https://docs.microsoft.com/dynamics365/field-service/version-history#882530) | 08/21/2020
 
 >[!Note]
 > - Dates in all regions except Government Community Cloud (GCC) and China indicate the timing of the next automatic update. Dates in GCC and China indicate version availability; at this time, there is no automatic update for these regions.
