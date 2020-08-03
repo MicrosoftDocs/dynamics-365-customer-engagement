@@ -143,12 +143,15 @@ To create a custom channel, follow these steps:
     > [!div class=mx-imgBorder]
     > ![Create a custom channel](../media/custom-channel-3.png "Create a custom channel") 
 
-10. Optionally, on the **Surveys** tab, configure a post-conversation survey. More information: [Configure a post-conversation survey](configure-post-conversation-survey.md).
-11. Select **Save** to save the custom messaging channel.
+10. Optionally, on the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
 
-12. Select the back button on the browser to go to the custom messaging account page. You can see that the custom messaging channel is added in the **Channels** section.
+11. Optionally, on the **Surveys** tab, configure a post-conversation survey. More information: [Configure a post-conversation survey](configure-post-conversation-survey.md).
 
-13. Select **Save** to save the configurations.
+12. Select **Save** to save the custom messaging channel.
+
+13. Select the back button on the browser to go to the custom messaging account page. You can see that the custom messaging channel is added in the **Channels** section.
+
+14. Select **Save** to save the configurations.
 
 
     > [!div class=mx-imgBorder]
