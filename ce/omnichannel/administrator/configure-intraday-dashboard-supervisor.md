@@ -27,14 +27,15 @@ You can use intraday insights in the following ways:
 
 As an administrator, you must configure intraday insights before supervisors can use it. To configure intraday insights for your organization, follow the scenario that is applicable for your environment: 
 
-- All organizations that are provisioned from the August 2020 Preview release and later are preconfigured with the Power BI workspace by default. If you are provisioning a new organization and don’t need to customize your reports, you don't need to take any further action. For more information, see [Intraday insights in a preconfigured Power BI workspace](#intraday-insights-in-a-preconfigured-power-bi-workspace).
+| Provisioning scenario | Need to customize intraday insights? | Details |
+|----------------------|-------------------------|-----------------------------|
+| New organization created in August 2020 or later | No | Intraday insights is preconfigured and non-customizable by default. For more information, see [Preview: Intraday insights in a preconfigured Power BI workspace](#preview-intraday-insights-in-a-preconfigured-power-bi-workspace). |
+| Existing organization with customized intraday insights | Yes | No further action needed. |
+| Existing organization with customized reports wanting to switch to preconfigured Power BI workspace version | No | Convert your reports to non-customized version of intraday insights by following these instructions: [Preview: Intraday insights in a preconfigured Power BI workspace](#preview-intraday-insights-in-a-preconfigured-power-bi-workspace) |
+| Existing or new organization with need for customized intraday insights | Yes | Follow the steps in [Configure customized intraday insights reports](#configure-customized-intraday-insights-reports). | 
 
-- If you have previously provisioned an organization with customized intraday insights and want to keep your reports customized, you don’t need to do anything further. However, if you want to opt out of your current customized reports and use Microsoft’s Power BI analytics instead, you can enable a non-customizable version of intraday insights. For more information, see [Intraday insights in a preconfigured Power BI workspace](#intraday-insights-in-a-preconfigured-power-bi-workspace). 
 
-- If you have an existing or new organization and want to set up customized reports for it, follow the procedures in [Configure customized intraday insights reports](#configure-customized-intraday-insights-reports). 
-
-
-## Intraday insights in a preconfigured Power BI workspace
+## Preview: Intraday insights in a preconfigured Power BI workspace
 
 As an administrator for a new organization, intraday insights is configured by default, so you don’t need to take extra steps to configure it, but if you want to switch from using customized reports to using the preconfigured Power BI workspace, follow the steps in this section. The preconfigured Power BI workspace feature allows you to access intraday insights without customizing the reports.
 
