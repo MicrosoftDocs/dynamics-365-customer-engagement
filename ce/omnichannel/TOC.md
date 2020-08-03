@@ -306,6 +306,7 @@
 #### [msdyn_ocsystemmessage](developer/reference/entities/msdyn_ocsystemmessage.md)
 #### [msdyn_omnichannelpersonalization](developer/reference/entities/msdyn_omnichannelpersonalization.md)
 #### [msdyn_operatinghour](developer/reference/entities/msdyn_operatinghour.md)
+#### [msdyn_personalsoundsetting](developer/reference/entities/msdyn_personalsoundsetting.md)
 #### [msdyn_provider](developer/reference/entities/msdyn_provider.md)
 #### [msdyn_presence](developer/reference/entities/msdyn_presence.md)
 #### [msdyn_questionsequence](developer/reference/entities/msdyn_questionsequence.md)
