@@ -796,10 +796,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
 
 
-### <a name="BKMK_msdyn_Personalsoundsetting_msdyn_linksoun"></a> msdyn_Personalsoundsetting_msdyn_linksoun
-
-See msdyn_soundfile Entity [msdyn_Personalsoundsetting_msdyn_linksoun](msdyn_soundfile.md#BKMK_msdyn_Personalsoundsetting_msdyn_linksoun) One-To-Many relationship.
-
 ### See also
 
 [About the Entity Reference](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/about-entity-reference)<br />
