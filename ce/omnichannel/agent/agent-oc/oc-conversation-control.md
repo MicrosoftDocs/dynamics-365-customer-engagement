@@ -71,7 +71,7 @@ The communication panel allows you to send predefined messages to a customer wit
 
 You can use a keyboard command to see the list of quick replies. Type the forward slash (/) key and the letter q (**/q**). When you type **/q**, the **Quick replies** panel is displayed.
 
-The predefined messages or quick replies can be created either by the administrator or by you, if the administrator has enabled the option for you to create them. For more information about personal quick replies, see [Create personal quick replies](create-personal-quick-replies.md).
+The predefined messages or quick replies can be created either by the administrator or by you. You can create personal quick replies if the administrator has enabled the option. The predefined messages created by are available on the **Personal** tab of the **Quick replies** panel. For more information about personal quick replies, see [Create personal quick replies](create-personal-quick-replies.md).
 
 ### Search for messages
 
