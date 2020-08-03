@@ -32,7 +32,7 @@ Marketing updates are [pushed to all customers automatically](https://cloudblogs
 
 ## August 2020 update
 
-The Dynamics 365 Marketing August 2020 update includes several early access features including built in Teams functionality for events, improved social posting, email designer improvements, and bug fixes.
+The August update includes email designer enhancements and 33 bug fixes, improving reliability and stability. The early access release includes [2020 release wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/planned-features) features, including built in Teams functionality for events, improved social posting, and email designer improvements.
 
 ### Version number
 
@@ -52,20 +52,20 @@ The Dynamics 365 Marketing August 2020 update includes several early access feat
 >
 > We encourage all customers to provide feedback related to early access features on the [Dynamics 365 Marketing Forum](https://community.dynamics.com/365/marketing/f/dynamics-365-for-marketing-forum), your Microsoft contact or partner, and/or through [Microsoft Support](https://docs.microsoft.com/power-platform/admin/get-help-support).
 
-- **Run webinars and meetings using direct integration with Microsoft Teams**
+- **Run webinars and meetings using built in Microsoft Teams functionality**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/teams-integration-webinar)
-    - [Docs](https://docs.microsoft.com/dynamics365/marketing/export-journey)
+    - [Docs](teams-webinar.md)
 - **Create and manage content-rich social media posts and easily monitor performance**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/improved-social-posting)
     - [Docs](https://docs.microsoft.com/dynamics365/marketing/email-design-update)
 - **Create engaging, customized emails faster**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/create-customized-emails-faster)
-    - [Docs](https://docs.microsoft.com/dynamics365/marketing/event-forms)
+    - [Docs](email-design.md)
 
 ### Monthly enhancements
 
 - **Marketing emails**
-    - Adding buttons to emails is easier with improved drag and drop functionality, enhanced appearance, and easily editable text.
+    - Adding event, survey, marketing page, and Teams buttons to emails is easier with improved drag and drop functionality, enhanced appearance, and easily editable text.
     - Placeholders for images, videos, and content blocks now have a more consistent appearance and uniform icons.
     - Add up to ten columns with improved custom column configuration controls.
 
