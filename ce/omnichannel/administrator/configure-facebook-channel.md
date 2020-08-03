@@ -4,7 +4,7 @@ description: "Instructions on how to configure a Facebook channel in Omnichannel
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 07/29/2020
+ms.date: 08/03/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -116,6 +116,8 @@ After you add a Facebook page, values for **Callback Uri** and **Verify Token** 
 2. On the **General settings** tab, provide the following information:
     
     - **Language**: Select the preferred language for your Facebook page.
+    
+    - **Work stream**: Select an existing work stream or create a new one.
 
     - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set **No**. 
 

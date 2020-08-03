@@ -4,7 +4,7 @@ description: "Instructions to configure a LINE channel in Omnichannel for Custom
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 07/27/2020
+ms.date: 08/03/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -69,13 +69,9 @@ After completing the prerequisites, you can add the LINE channel for your organi
 
    > More information about the LINE app: [Setting up your LINE app](https://developers.line.biz/en/docs/messaging-api/getting-started/#creating-a-channel)
 
-8. Click the **Automated messages** tab to send automated messages. For more information, see [Configure automated messages](configure-automated-message.md).
-
-9. Perform the following steps to set up a post-conversation survey:
-   1. On the **Surveys** tab, in the **Post-conversation survey** area, set the toggle for **Turn on** to **Yes**.
-   2. In the **Microsoft Forms Pro survey** box, search and select a survey.
-
-    > For more information, see [creating post-conversation surveys](configure-post-conversation-survey.md).
+8. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
+    
+9. On the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
 
 The LINE channel setup is complete.
 > [!NOTE]
@@ -88,6 +84,8 @@ The LINE channel setup is complete.
 2. On the **General settings** tab, provide the following information:
     
     - **Language**: Select the preferred language for your LINE account.
+    
+    - **Work stream**: Select an existing work stream or create a new one.
 
     - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set **No**. 
 
