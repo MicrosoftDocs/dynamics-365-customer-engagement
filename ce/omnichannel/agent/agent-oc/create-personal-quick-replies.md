@@ -59,5 +59,5 @@ Use the personal quick responses when you are in a conversation with a customer 
 
 ### See also
 
-[View communication panel](oc-conversation-control.md)  
+[Send template-based messages in chats](oc-conversation-control.md#send-template-based-messages-in-chat)  
 [Manage applications](oc-manage-applications.md)  

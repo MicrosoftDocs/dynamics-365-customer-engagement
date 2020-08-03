@@ -75,7 +75,7 @@ The predefined messages or quick replies can be created either by the administra
 
 ### Search for messages
 
-After you type **/q** in the communication panel messaging area, you can continue typing any keywords and if the **Quick replies** library has at least one message associated with the word, it is filtered and displayed to you.
+After you type **/q** in the communication panel messaging area, you can continue typing any keywords and if the **Quick replies** library has at least one message associated with the word, it is filtered and displayed to you. You can also use the number (#) sign to search for the predefined messages.
 
  > [!div class=mx-imgBorder] 
  > ![Type /q and the keyword to filter the replies](../../media/oceh-send-quick-replies-filter.png "Filter replies")  
