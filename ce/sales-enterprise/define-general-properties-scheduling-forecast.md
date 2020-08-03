@@ -113,7 +113,7 @@ Using the general properties and scheduling options of the forecast configuratio
     The dates in the **Valid from** and **Valid to** are selected according to your organizational fiscal year settings. 
     
     When you select the forecast period as monthly, the **Start this forecast on fiscal start date month** option is displayed at the bottom of the section.<br>
-    Enable this option to name the forecast with start date month (**December**). If disabled, the name the forecast will be the end date month (**January**).<br>
+    When this option is enabled, the forecast’s first month will be taken from the **Valid from** month (**December** when valid from is **12/28/2019**). When disabled, the forecast’s first month will be the following month (**January**).
 
     > [!div class="mx-imgBorder"]
     > ![Schedule a forecast with start month name](media/forecast-schedule-org-select-name.png "Schedule a forecast with start month name")
@@ -242,7 +242,7 @@ Using the general properties and scheduling options of the forecast configuratio
     The dates in the **Valid from** and **Valid to** are selected according to your organizational fiscal year settings. 
     
     When you select the forecast period as monthly, the **Start this forecast on fiscal start date month** option is displayed at the bottom of the section.<br>
-    Enable this option to name the forecast with start date month (**December**). If disabled, the name the forecast will be the end date month (**January**).<br>
+    When this option is enabled, the forecast’s first month will be taken from the **Valid from** month (**December** when valid from is **12/28/2019**). When disabled, the forecast’s first month will be the following month (**January**). 
 
     > [!div class="mx-imgBorder"]
     > ![Schedule a forecast with start month name](media/forecast-schedule-org-select-name.png "Schedule a forecast with start month name")
