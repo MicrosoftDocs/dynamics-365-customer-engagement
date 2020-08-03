@@ -59,11 +59,11 @@ AI suggestions are powered by a set of pre-trained natural language understandin
 > - After you enable the settings, it might take up to 24 hours for the models to process data and complete the first time setup.
 > - After you enable or disable the settings, they will be in place only after agents refresh or reopen their browser and not in the currently active sessions nor on session switch.
 
-## Prerequisites
+## Prerequisites 
 
 Make sure that the following requirements are met:
 
-- Customer Service workspace is installed and accessible. More information: [Customer Service workspace](csw-workspace.md)
+- Customer Service workspace is installed and accessible. More information: [Customer Service workspace](csw-overview.md)
 - The System Administrator role is granted.
 
 ## Enable AI suggestions for similar cases
