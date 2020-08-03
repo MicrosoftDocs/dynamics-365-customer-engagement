@@ -6,7 +6,7 @@ manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-projectservice
-ms.date: 03/06/2019
+ms.date: 08/03/2020
 ms.topic: article
 ms.prod: 
 ms.technology: 
@@ -45,13 +45,17 @@ Logic for entering default prices for expenses is based on the expense category 
 
 In the current version of PSA, category-based entry of per-unit default prices on expense entries isn't available.
 
-## Using journals to record costs
+## Using Entry journals to record costs
 
-In PSA, journals let you record cost or revenue in the material, fee, time, expense, or tax transaction classes. A journal has a header, lines, and a **Confirm** action. Here are some scenarios where you might use a journal:
+In PSA, Entry journals let you record the cost or revenue in the material, fee, time, expense, or tax transaction classes. A journal has a header, lines, and a **Confirm** action. Here are some scenarios where you might use a journal:
 
 - You must record material actual costs and sales on a project.
 - You must move transaction actuals from another system to PSA.
 - You must record costs that occurred in another system, such as procurement or subcontracting costs.
+
+> [!IMPORTANT]
+> Using Entry journals to create actuals should be done only by a user who is fully aware of the accounting impact the Actuals have on the project. This is because the application does not validate the journal line type, or the related pricing that is entered on the journal line. Because of the impact of this journal type, exercise adequate caution in who is given access to create Entry journals.     
+
 
 ## Recording actuals based on project events
 

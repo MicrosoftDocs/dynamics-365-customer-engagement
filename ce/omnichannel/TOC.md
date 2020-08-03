@@ -43,7 +43,6 @@
 ##### [Configure file attachment capability](administrator/configure-file-attachment.md)
 ##### [Embed chat widget in Power Apps portals](administrator/embed-chat-widget-portal.md)
 ##### [Configure proactive chat](administrator/proactive-chat.md)
-##### [Configure reconnection to a previous chat session](administrator/configure-reconnect-chat.md)
 #### SMS channels
 ##### [Configure an SMS channel for TeleSign](administrator/configure-sms-channel.md)
 ##### [Configure an SMS channel for Twilio](administrator/Configure-sms-channel-twilio.md)
@@ -56,7 +55,7 @@
 #### Microsoft Teams
 ##### [Configure a Microsoft Teams channel](administrator/configure-microsoft-teams.md)
 ##### [Prerequisites](administrator/configure-microsoft-teams.md#prerequisites)
-##### [Configuration steps](administrator/configure-microsoft-teams.md#configureteams)
+##### [Configuration steps](administrator/configure-microsoft-teams.md#configure-a-teams-channel-in-omnichannel)
 #### Custom messaging channel
 ##### [Configure a Custom messaging channel](administrator/configure-custom-channel.md)
 #### Entity records channel
@@ -117,6 +116,7 @@
 #### [Create and manage data masking rules](administrator/data-masking-settings.md)
 #### [Create chat authentication settings](administrator/create-chat-auth-settings.md)
 #### [Enable self service settings in conversation summary](administrator/enable-self-service-settings.md)
+
 ## Agent guide
 
 ### [Overview](agent/omnichannel-agent-overview.md)
