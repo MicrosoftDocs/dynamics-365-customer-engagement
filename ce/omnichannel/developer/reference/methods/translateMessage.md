@@ -66,7 +66,6 @@ Given below is a sample of the `conversationConfig` parameter.
 ```json
 translationConfig = {
   "conversationId": "2b330c52-6844-4d36-8e05-03c78c9681dc",
-  "uiSessionId": null,
   "messagePayload": {
     "content": "Hello",
     "contentType": "Text",

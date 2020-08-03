@@ -332,9 +332,10 @@
 ##### [removeAuthTokenProvider](developer/reference/methods/removeAuthTokenProvider.md)
 ##### [startChat](developer/reference/methods/startChat.md)
 ##### [startProactiveChat](developer/reference/methods/startProactiveChat.md)
-##### [initializeNewConversation](developer/reference/methods/initializeNewConversation.md)
-##### [translateMessage](developer/reference/methods/translateMessage.md)
 ##### [closeChat](developer/reference/methods/closeChat.md)
+### Real time translation JavaScript API Reference
+#### [initializeNewConversation](developer/reference/methods/initializeNewConversation.md)
+#### [translateMessage](developer/reference/methods/translateMessage.md)
 #### [Events]()
 ##### [lcw:startChat](developer/reference/events/lcw-startchat.md)
 ##### [lcw:ready](developer/reference/events/lcw-ready.md)
