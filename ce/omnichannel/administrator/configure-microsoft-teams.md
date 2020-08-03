@@ -4,7 +4,7 @@ description: "Learn about the Microsoft Teams channel and how to configure the c
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/06/2020
+ms.date: 07/27/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -38,8 +38,7 @@ Make sure that the following prerequisites are met:
 
 <a name="configureteams"></a>
 
-## Configure a Microsoft Teams channel in Omnichannel for Customer Service 
-
+## Configure a Microsoft Teams channel in Omnichannel for Customer Service
 
 ### Create a Teams channel
 
@@ -59,6 +58,9 @@ Make sure that the following prerequisites are met:
     > [!div class=mx-imgBorder]
     > ![Create a Teams channel](../media/teams-channel.png "Create a Teams channel")
 
+6. Optionally, on the **Automated messages** tab, configure automated messages. More information:[Configure automated messages](configure-automated-message.md).
+7. Optionally, on the **Surveys** tab, configure a post-conversation survey. More information: [Configure a post-conversation survey](configure-post-conversation-survey.md).
+
 ### Configure Teams details
 
 1. In the Teams app, go to **App Studio** > **Manifest editor**, and then select the app that you configured for Omnichannel for Customer Service.
@@ -73,5 +75,7 @@ Make sure that the following prerequisites are met:
 
 ### See also
 
-[Channels in Omnichannel for Customer Service](channels.md)  
-[Use a Microsoft Teams channel](../agent/agent-oc/teams-channel.md)
+[Channels in Omnichannel for Customer Service](channels.md)<br />
+[Configure automated messages](configure-automated-message.md)<br />
+[Use a Microsoft Teams channel](../agent/agent-oc/teams-channel.md)<br>
+[Delete a configured channel](delete-channel.md)

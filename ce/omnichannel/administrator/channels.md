@@ -4,7 +4,7 @@ description: "Learn about channels in Omnichannel for Customer Service."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 04/06/2020
+ms.date: 08/03/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -43,16 +43,9 @@ If you want to help your customers using social channels, you can use the social
 
 ## Preview: Custom messaging channel
 
-If you want to help your customers using social channels that are not supported as standard channels, you can use the custom channels.
+If you want to help your customers using social channels that are not supported as standard channels, such as Telegram, you can use the custom channels. To learn more, see [Configure custom messaging application](configure-custom-channel.md).
 
-- Kik
-- Telegram
-
-To learn more, see [Configure custom messaging application](configure-custom-channel.md).
-
-If you want to help your customers using your Line of Business (in-house) messaging channels, you can use the Direct Line Bot Framework method.
-
-- [Direct Line](configure-custom-channel.md#bring-channels-using-direct-line)
+If you want to help your customers using your Line of Business (in-house) messaging channels, you can use the [Direct Line](configure-custom-channel.md#bring-channels-using-direct-line) Bot Framework method.
 
 ## Preview: Microsoft Teams
 
