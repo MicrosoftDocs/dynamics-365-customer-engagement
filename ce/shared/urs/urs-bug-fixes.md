@@ -27,6 +27,9 @@ In addition, this release includes the following changes which have the potentia
 - The custom date format is now supported on the Quick Book pane. 
 - When a Booking is created on the Schedule Board with Duration of 0 minutes, **Duration must be greater than 0 minutes** is displayed in English on non-English orgs. This bug is fixed, and the string is now localized.
 
+## 3.12.24.5
+
+- Fixed a bug where the search time window of the Resource Requirement is greater than the time range displayed on the Schedule Board/Schedule Assistant, the Resource Booked hours, capacity on the Resource cell were not displayed. The expand/collapse button next to the Resource in Daily, Weekly and Monthly views were also not displayed.
 
 ## 3.12.24.4
 
