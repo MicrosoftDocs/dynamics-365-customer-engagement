@@ -30,13 +30,14 @@ Perform the following steps:
 1. Sign in to Omnichannel Administration.
 2. In the site map under **Agent Experience**, select **Notifications**.
 3. On the **Omnichannel Configuration** > **Omnichannel Configuration - Notifications** page, select the template for which you want to enable the incoming conversation to be assigned.
-4. On the ***<notification_name>* Notification Template** > **General** tab, set the toggle to **Yes** for **Auto-assign work items**. The label for **Accept Button** changes to **Open**, and the toggle for **Reject Button** is disabled.
+4. On the **General** tab of the ***<notification_name>* Notification Template**, set the toggle to **Yes** for **Auto-assign work items**. The label for **Accept Button** changes to **Open**, and the toggle for **Reject Button** is disabled.
 5. Select **Save**.
 
    > ![Enable automatic assignment of conversations](../media/enable-auto-assign-chat.png " Enable automatic assignment of conversations ")
 
 > [!NOTE]
 > We recommend that you don't enable the auto-assign setting in consult notification templates.
+
 ### See also
 
 [Manage notification templates](notification-templates.md)  
