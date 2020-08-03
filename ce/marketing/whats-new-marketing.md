@@ -69,47 +69,6 @@ The August update includes email designer enhancements and 33 bug fixes, improvi
     - Placeholders for images, videos, and content blocks now have a more consistent appearance and uniform icons.
     - Add up to ten columns with improved custom column configuration controls.
 
-### Bug fixes
-
-- **Content settings**
-    - Fixed an error where users were unable to update business unit default contact settings after enabling business unit scoping.
-- **Event management**
-    - Resolved an error that occurred when attempting to add an event webinar provider.
-- **First run experience**
-    - Marketing installation no longer fails if a default contact is not listed.
-- **Lead scoring**
-    - Fixed an issue where an "expression value is missing" error prevented new lead-scoring models from going live.
-- **Marketing emails**
-    - Resolved an issue where columns sometimes did not resize properly in two section layouts.
-    - Fixed an issue where the email designer layout and the preview layout occasionally did not match.
-    - Fixed an issue where text and images in emails were occasionally not responsive in Outlook.
-    - Resolved an issue where the default Marketing page did not load correctly when accessed from an email sent by a trial org.
-    - Fixed an issue where anchor flags in the email text box editor did not function as expected.
-    - Fixed a rare error where the body of an email message disappeared when HTML was pasted into the HTML tab.
-    - Resolved an error where a button in a 2:1 column layout did not align properly with the layout.
-    - Added an optional meta attribute to prevent email post-processing, enabling emails to render with no changes to the HTML.
-    - Resolved an occasional issue where background images disappeared when removing a column in the email editor.
-    - Fixed an issue where image heights or widths set to "auto" were set to 0 after post-processing.
-    - Fixed an issue where the email designer would sometimes report as having no data, despite containing HTML.
-    - Resolved an issue where an email hero image did not change after updating the HTML.
-    - Improved the consistency of spam score calculations.
-    - Resolved an issue where image height and width displayed incorrectly after adding an image inside a text field using CKEditor.
-    - Fixed an issue where templates preview images didn't update after templates were updated.
-    - Fixed an issue where a content block could not be removed after inserting the block via a Marketing email template.
-- **Marketing forms**
-    - Fixed an error where form capture occasionally did not function properly when a form was stopped and then went live again.
-- **Marketing pages**
-    - Fixed an error where text field labels sometimes did not align correctly with text fields in marketing forms.
-    - Added a form reload button to certain subscription center error messages, enabling users to preview forms regardless of errors.
-    - Resolved an error where contacts who clicked a link from a customer journey showed up as anonymous after restarting their browser.
-    - Fixed an issue where HTML code was occasionally changed when going live with a Marketing form, resulting in formatting inconsistency.
-- **Marketing user tracking**
-    - Resolved a rare issue where a contact was duplicated when re-registering for an event.
-- **Segment management**
-    - Fixed a rare error where a user assigned to a team with a Marketing Manager role was not able to create a segment.
-- **Shared UX**
-    - Resolved an issue where the vertical scrollbar occasionally didn't appear in **Advanced settings**.
-
 ## July 2020 update
 
 The Dynamics 365 Marketing July 2020 update includes several enhancements including customer journey improvements, improved email editor performance, the ability to delete social posts, a warning when nearing the limit of active segments, subscription center improvements, and bug fixes.
