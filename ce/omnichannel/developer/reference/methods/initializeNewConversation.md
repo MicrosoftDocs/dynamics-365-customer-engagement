@@ -22,9 +22,9 @@ This method is called as soon as a new chat invitation is received for every inc
 
 ## Parameters
 
-|Name|Required|Description|
-|----|----|----|
-|`conversationConfig`|Yes| Provide details about which translation provider to use based on factors such as `C1Language` and `InviteLocale`. Because some translation providers give better translations for certain languages, you can choose the appropriate translation provider at runtime. <br />Based on these parameters, you can also decide to turn on or off the translation feature at the start of a new conversation.|
+|Name|Required|Type|Description|
+|----|----|----|----|
+|`conversationConfig`|Yes| JSON object| Provide details about which translation provider to use based on factors such as `C1Language` and `InviteLocale`. Because some translation providers give better translations for certain languages, you can choose the appropriate translation provider at runtime. <br />Based on these parameters, you can also decide to turn on or off the translation feature at the start of a new conversation.|
 
 Here is the structure of `conversationConfig` parameter.
 
@@ -56,6 +56,23 @@ conversationConfig = {
 ## Return Value
 
 Returns the `InitializedConversationResponse` object, which contains the Boolean value for the `keepTranslationOn` parameter.
+
+**Interface object**
+
+```
+InitializedConversationResponse  {
+        keepTranslationOn: Boolean;
+}
+```
+
+**Sample expected response**
+
+```json
+InitializedConversationResponse = 
+{
+  "keepTranslationOn": true
+}
+```
 
 ## Example
 
