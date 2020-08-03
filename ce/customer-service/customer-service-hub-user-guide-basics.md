@@ -94,6 +94,7 @@ Here is what each entity record type is used for:
   - **Knowledge Articles** capture your customer's questions, issues, feedback, and resolutions, so that other service reps can benefit from them.
 
 2. Select **...** to go to **Training** and access the documentation site to view the **Help Center**. 
+
 3. You can also access **Service Management** from the sitemap. Service Management lets you define all the customer service admin settings from the Customer Service Hub sitemap.  Select **...** to go to **Service Management**.
 
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Service Manager Guide (Customer Service Hub and Customer Service app)](service-manager-guide.md).
@@ -302,7 +303,7 @@ You can also add an attachment to your notes, and the attachment is displayed be
   > - The notes rich-text editor is available only for Unified Interface and not for web client.
   > - If you create a note with the rich-text editor formatting in Unified Interface, and when you see the note in Web Client, the note is displayed to you with HTML syntax.
 
-#### **Identify the activities, notes, and posts with icons along with time stamp**
+#### Identify the activities, notes, and posts with icons along with time stamp
 
 The timeline shows a simple icon before the activity, post, note, and custom entity making it easy for you to identify the type.
 
@@ -310,7 +311,7 @@ Also, you can view the timestamp at all times. Activities, posts, and notes that
 
   ![Timeline activity icons](../customer-service/media/activity-icons.png "Timeline activity icons")
 
-#### **Access command bar to perform actions**
+#### Access command bar to perform actions
 
 When you hover the cursor on or expand an activity, post, and note, the command bar appears with the options specific to the activity, such as marking an activity complete, assigning it to others, adding it to a queue, converting it to a case, liking a post, replying to a post, editing a note, or deleting the activity.
 
@@ -319,7 +320,7 @@ When you hover the cursor on or expand an activity, post, and note, the command 
   ![Timeline command bar options](../customer-service/media/timeline-options3.png "Timeline command bar options")
   ![Timeline command bar options](../customer-service/media/timeline-options4.png "Timeline command bar options")
 
-#### **Filter activities, posts, and notes on the timeline**
+#### Filter activities, posts, and notes on the timeline
 
 Quickly filter the activities, posts, and notes with multiple filter options to see what matters to you. The filter is available for the activities, posts, notes, and custom entities that are present in timeline. The timeline filters and displays the records and the count of those records that are present in the timeline. 
 
@@ -340,17 +341,17 @@ When you select the filter icon, you can see the **Filter by** menu where you ca
 
   ![Timeline activity filter](../customer-service/media/timeline-filter6.png "Timeline activity filter")
 
-#### **Search for records**
+#### Search for records
 
 You can easily search for records in the timeline. When you search for a phrase, the timeline searches the title or subject and description or body of the content, and then displays the record to you.
 
   ![Timeline keyword search](../customer-service/media/timeline-keyword-search.png "Timeline keyword search")
 
-#### **View and manage email conversations**
+#### View and manage email conversations
 
 You can easily set email messages to show as conversation threads on the timeline, significantly reducing usability (scroll and clicks) when managing email activities.
 
-#### **Expand and collapse timeline activities**
+#### Expand and collapse timeline activities
 
 Select an activity from the timeline to expand and view. 
 
