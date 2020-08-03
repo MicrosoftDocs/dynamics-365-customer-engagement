@@ -57,7 +57,7 @@ The August update includes email designer enhancements and 33 bug fixes, improvi
     - [Docs](teams-webinar.md)
 - **Create and manage content-rich social media posts and easily monitor performance**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/improved-social-posting)
-    - [Docs](https://docs.microsoft.com/dynamics365/marketing/email-design-update)
+    - [Docs](social-posting.md)
 - **Create engaging, customized emails faster**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/create-customized-emails-faster)
     - [Docs](email-design.md)
