@@ -4,7 +4,7 @@ description: "Learn what are the conversation states in Omnichannel for Customer
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.date: 07/31/2020
+ms.date: 02/14/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -72,7 +72,7 @@ The conversation (work item) transitions from **Wrap-up** to **Closed** state un
 
 ## Waiting
 
-A conversation in waiting state doesn't block your capacity. The conversation gets transitioned to waiting state when you (agent) close the session without ending the conversation (without selecting **End** button on communication panel) or the customer closes the browser window without closing the chat widget. For example, you're waiting for some information from customer and don't want to end the conversation or the customer has to restart the computer in a troubleshooting scenario.
+Conversation in waiting state doesn't block your capacity. The conversation gets transitioned to waiting state when you (agent) close the session without ending the conversation (without selecting **End** button on communication panel). For example, you're waiting for some information from customer and don't want to end the conversation. 
 
 The conversation (work item) transitions from **Waiting** to **Closed**, **Active**, or **Open** state under the following scenarios.
 
