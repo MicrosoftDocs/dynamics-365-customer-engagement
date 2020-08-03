@@ -26,7 +26,7 @@ The post-conversation survey uses Forms Pro to create surveys. Make sure you hav
 
 ## How post-conversation surveys work
 
-When you enable a post-conversation survey for a channel, the survey will appear for the customer after the agent or customer ends the conversation. You can configure the survey link or survey questions to be displayed in the chat window.
+When you enable a post-conversation survey for a channel, the survey will appear for the customer after the agent or customer ends the conversation.
 
 You can enable post-conversation surveys for the following channels:
 
@@ -39,6 +39,8 @@ You can enable post-conversation surveys for the following channels:
 - WhatsApp
 - Custom channel
 - Microsoft Teams
+
+For a chat channel only, you can configure the survey link or survey questions to be displayed in the chat window.
 
 ## Configure a post-conversation survey
 
