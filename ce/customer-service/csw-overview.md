@@ -152,5 +152,5 @@ While working a case, the productivity pane on the right side of the Customer Se
 ### See also  
 [Work with cases in Customer Service Hub](customer-service-hub-user-guide-create-a-case.md)    </br>
 [Work with activities in Customer Service Hub](customer-service-hub-user-guide-manage-timeline-activities.md) </br>
-[Productivity pane](csw-productivity-pane.md)
+[Overview of the productivity pane](csw-productivity-pane.md)
 
