@@ -23,7 +23,7 @@ The application tab has a **+** icon. If you select the icon, a menu  appears th
 
 ## Open an application
 
-You can open an application in the application tab panel in the following ways: 
+You can open an application in the application tab panel in the following ways:
 
 - Use the application tab menu.
 - Use the **Ctrl + click** gesture.

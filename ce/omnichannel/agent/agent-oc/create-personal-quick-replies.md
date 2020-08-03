@@ -23,13 +23,13 @@ search.app:
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-## Overview
+## Introduction
 
-The personalization menu that is accessible through the application tab allows you to add personal quick replies. You can create quick replies to cater to the common questions and scenarios that you need to address in your role. You can tag the replies with keywords that help you invoke the quick replies when interacting with customers.
-
-You can edit and delete the personal quick replies that you create.
+The personalization menu that is accessible through the application tab allows you to add personal quick replies, also known as predefined messages. You can create quick replies to cater to the common questions and scenarios that you need to address in your role. You can tag the replies with keywords that help you invoke the quick replies when interacting with customers.
 
 ## Create personal quick replies
+
+You can create, edit, and delete the personal quick replies owned by you. The predefined messages that you create are available on the **Personal** tab in the **Quick replies** panel of the conversation window.
 
 1. Sign in to Omnichannel for Customer Service, and on the home page, select the plus (**+**) icon on the application tab.
    > ![personalization menu](../../media/oceh/personalization-menu.png "personalization menu")
@@ -44,12 +44,16 @@ You can edit and delete the personal quick replies that you create.
         > Omnichannel for Customer Service does not localize quick responses. To provide quick responses in multiple languages, create a separate quick response record for each language and select its corresponding locale.
    
    > ![create personal quick reply](../../media/oceh/create-personal-quick-reply.png "create personal quick reply")
-4. In the **Tags** area, enter the keyword you want to associate with the quick reply, and select the plus (**+**) icon. If you want to use the number sign (**#**), do not use it anywhere else in the keyword except at the beginning.
+4. In the **Tags** area, enter the keyword you want to associate with the quick reply, and select the plus (**+**) icon. If you want to use the number sign (#), do not use it anywhere else in the keyword except at the beginning.
 5. Select **Save**.
 
 ## Use personal quick replies
 
-Use the personal quick responses when you are in a conversation with a customer. You can invoke them by selecting the quick responses icon and by typing in the compose box the tags that are associated with the personal quick responses.
+Use the personal quick responses when you are in a conversation with a customer by doing the following:
+
+1. Select the quick responses icon at the bottom of your conversation window. The **Quick replies** panel displays the available predefined messages in the **All** and **Personal** tabs.
+2. Select the **Personal**tab that contains the predefined, and type the number sign (#) in the compose box to list the tags and search through for the quick replies available for your use.
+3. Use the **more** option to search for additional quick replies.
 
 > ![use personal quick reply](../../media/oceh/use-personal-quick-replies.png)
 
@@ -57,4 +61,3 @@ Use the personal quick responses when you are in a conversation with a customer.
 
 [View communication panel](oc-conversation-control.md)  
 [Manage applications](oc-manage-applications.md)  
-

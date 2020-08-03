@@ -4,7 +4,7 @@ description: "Conversation control is a communication panel in Omnichannel where
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/29/2020
+ms.date: 08/03/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -67,9 +67,11 @@ You can use the keyboard commands to send internal and public messages:
 The communication panel allows you to send predefined messages to a customer with whom you're interacting. These predefined  message templates are stored as quick replies. Select the **Quick replies** button to retrieve the messages and send them to the customers and/or internal participants.
 
  > [!div class=mx-imgBorder] 
- > ![Use quick replies option to send faster replies to customers](../../media/oceh-send-quick-replies-chat.png "Use quick replies option to send faster replies to customers")  
+ > ![Use quick replies option to optimize your replies to customers](../../media/oceh-send-quick-replies-chat.png "Use quick replies option to optimize your replies to customers")  
 
 You can use a keyboard command to see the list of quick replies. Type the forward slash (/) key and the letter q (**/q**). When you type **/q**, the **Quick replies** panel is displayed.
+
+The predefined messages or quick replies can be created either by the administrator or by you, if the administrator has enabled the option for you to create them. For more information about personal quick replies, see [Create personal quick replies](create-personal-quick-replies.md).
 
 ### Search for messages
 
