@@ -125,7 +125,7 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 Label | Description
 ------------ | -------------
 1 | Select the + icon to expand the tab menu.
-2 | Select Knowledge Article or Knowledge Search. You can also create and manage knowledge articles in other ways. For more information, see [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
+2 | Select Knowledge Article or Knowledge Search. You can also create and manage knowledge articles in other ways. For more information, see [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md).
 
 Intelligent knowledge suggestions display in the productivity pane while working on a case. 
 
