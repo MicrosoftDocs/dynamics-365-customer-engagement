@@ -39,7 +39,7 @@ The icons displayed in the upper right nav in the timeline give quick access to 
 
 ## Create a timeline record
 
-When enabled by your system administrator, the **Create a timeline record** (![Create a timeline record](media\timeline-create-a-record-icon.png "Create a timeline record")) icon allows you to quickly create appointments, send emails, and make notes and posts and associate them with other records. You can select ![Create a timeline record](media\timeline-create-a-record-icon.png "Create a timeline record") to view the options that are available for use.
+When enabled by your system administrator, **Create a timeline record** ![Create a timeline record](media\timeline-create-a-record-icon.png "Create a timeline record") allows you to quickly create appointments, send emails, and make notes and posts and associate them with other records. You can select ![Create a timeline record](media\timeline-create-a-record-icon.png "Create a timeline record") to view the options that are available for use.
 
  > [!div class="mx-imgBorder"]
  > ![Create a timeline record](media\timeline-create-a-timeline-record.png "Create a timeline record")
@@ -82,33 +82,34 @@ You can limit the records you're seeing by using the data filters.
 
     ![Filter options](media\timeline-filter-options.png "Filter options")
 
-- When the **Filter** icon is dark, it means filters are applied. To view what filters are selected, select the **Filter applied** (![Filter applied icon](media\timeline-filter-applied.png "Filter icon")) icon. The screen expands to show the filters selected/applied.</li>
+- When the **Filter** icon is dark, it means filters are applied. To view what filters are selected, select **Filter applied** ![Filter applied icon](media\timeline-filter-applied.png "Filter icon"). The screen expands to show the filters selected and applied.</li>
 
 - Select or clear the check boxes to apply or clear a specific filter.<br>
 
-- To clear all the applied filters, select the **Clear all filters** (![Clear all filters icon](media\timeline-clear-all-filters-icon.png "Clear all filters icon")) icon.
-
-
-
+- To clear all the applied filters, select **Clear all filters** ![Clear all filters icon](media\timeline-clear-all-filters-icon.png "Clear all filters icon").
 
 ## Work with records
 
-When working with records, you have key information at-a-glance, can view more by expanding records, and when you hover over a record, you have actions you can use.
+When working with records, you have key information at a glance, can view more by expanding records, and when you hover over a record, you have actions you can use.
 
 ### Expand all records
 
- When enabled by your system administrator, you can view timeline records at-a-glance in a collapsed format or expand a record to see more details for ease of use.
+When enabled by your system administrator, you can view timeline records at a glance in a collapsed format or expand a record to see more details for ease of use.
 
-![Expand all records functionality](media\timeline-expand-all-records-1.png "Expand all records functionality")
+
+<!-- editor note: In the gray part of the following image, a couple of words are misspelled and Surface isn't capitalized. Is that a concern? -->
+
+
+![Expand all record's functionality](media\timeline-expand-all-records-1.png "Expand all record's functionality")
 
 |Annotation|Description|
 |----------|-----------|
-|1|When you select the ![](media\timeline-expand-icon.png "Expand all records") icon, it expands all records listed on your timeline.|
-|2|When the caret is in the upright position (^) in the bottom right corner, the record is displayed in the expanded view and a list of commands appear in the top right corner. Also, when you hover over an activity you want to view, the background turns grey.  When you hover away from the record, the background becomes transparent again.|
+|1|When you select ![Expand all records](media\timeline-expand-icon.png "Expand all records"), it expands all records listed on your timeline.|
+|2|When the caret is in the upright position (^) in the lower-right corner, the record is displayed in the expanded view and a list of commands appears in the upper-right corner. Also, when you hover over an activity you want to view, the background turns gray. When you hover away from the record, the background becomes transparent again.|
 |3|When the caret is in the down position (˅), the record is collapsed.|
 |||
 
-## More Commands
+## More commands
 
 The **More commands** icon contains refresh, sort, and email functionalities.
 
@@ -116,11 +117,18 @@ The **More commands** icon contains refresh, sort, and email functionalities.
 
 |Annotation|Description|
 |----------|-----------|
-|1|When you select the **More commands** (![](media\timeline-more-commands.icon.png "More commands")) icon, the additional options are displayed.|
+|1|When you select **More commands** (![More commands](media\timeline-more-commands.icon.png "More commands")), the additional options are displayed.|
 |2|The **Refresh timeline** command allows you to update the details in the timeline.|
 |3|The **Sort newer to older** / **Sort older to newer** command allows you sort records.|
 |4|The **Always show email as conversations / Always show email as individual messages** command enables or disables threaded emails.|
 |||
+
+
+
+
+
+
+
 
 ## Threaded email views in timeline
 
