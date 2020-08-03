@@ -14,7 +14,7 @@ manager: shujoshi
 
 Find answers to common questions regarding the email experience features and functionality, configurations, and other key concepts.
 
-1. **What do you do if you’ve enabled email and it does not display?** <br />
+### What do you do if you’ve enabled email and it does not display?
 If you encounter a situation where you have enabled an email form, but it is not displaying you will need to enable it in the **App Designer**. 
 Use the following steps to enable email in the App Designer:
 1.	Go to **Settings**
