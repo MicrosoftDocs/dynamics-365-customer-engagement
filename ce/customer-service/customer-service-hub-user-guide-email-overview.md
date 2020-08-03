@@ -15,13 +15,13 @@ ms.reviewer: nenellim
 Having the ability to communicate effectively with customers can lead to increased sales and customer satisfaction. Dynamics 365 Customer Service empowers agents with the ability to respond and provide timely customer interaction effortlessly through quick email access with enhanced features and functionality.  Agents can compose, reply, and review emails, even quickly attach and send images that add value and support to customer communication using streamlined functionality.  You can also ensure interactions between agents and customers are consistent and professional by using email templates with rich text editors. 
 
 The following is an overview of email features and functionality that shows you: 
-- [Understand the navigate to vs. contextual email experience]()
-- [How to view, compose, and respond to emails]()
-- [How to use email templates]()
-- [How to use rich text editor toolbar in email]()
-- [How to attach a file in email]()
+- [Navigate to vs. contextual email experience](customer-service-hub-user-guide-email-overview.md.#navigate-to-vs-contextual-email-experience)
+- [How to view, compose, and respond to emails](customer-service-hub-user-guide-email-overview.md#how-to-view-compose-and-respond-to-emails)
+- [How to use rich text editor toolbar in email](customer-service-hub-user-guide-email-overview.md#how-to-use-the-rich-text-editor-toolbar-in-email)
+- [How to use email templates](customer-service-hub-user-guide-email-overview.md#how-to-use-email-templates)
+- [How to attach a file in email](customer-service-hub-user-guide-email-overview.md#how-to-attach-a-file-to-email)
 - [How to view and insert images in email]() 
-- [How to create a signature for emails and queues]()
+- [How to create a signature for emails and queues](customer-service-hub-user-guide-email-overviewmd#how-to-create-a-signature-for-emails-and-queues)
 
 ## Navigate to vs. contextual email experience
 You can work in either the navigate to email or the contextual email experience. The difference between the navigate to vs. contextual email experience is where the email displays on your screen.
@@ -402,7 +402,7 @@ The following is a lit of file image types that are supported:
 |SVG.svg     | Yes               | Yes                        |
 |PDF.pdf     | Yes (preview not supported on IE) | No         |
 
-### How to view and insert images in email
+## How to view and insert images in email
 The use of visual aids helps users convey a tremendous amount of information with just a glance.  Having the ability to view and insert inline images in email using the drag-and-drop or copy-and-paste functionality is a very powerful tool for users.  
 
 Once you drag-and-drop or copy and paste the image into the email:
