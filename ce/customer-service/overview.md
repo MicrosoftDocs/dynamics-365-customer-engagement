@@ -82,9 +82,9 @@ For more details about app accessibility and GDPR compliance, see [Accessibility
 
 ## Get Started with Customer Service
 
- - [Customer Service Workspace](xxxx.md)
- - [Omnichannel for Customer Service](xxx.md)
- - [Customer Service Hub](xxxx.md)
+ - [Customer Service Workspace](customer-service-workspace-system-requirements.md)
+ - [Omnichannel for Customer Service](../omnichannel/introduction-omnichannel.md)
+ - [Customer Service Hub](user-guide-customer-service-hub.md.md)
 
 
 
