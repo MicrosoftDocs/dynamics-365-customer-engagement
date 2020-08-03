@@ -143,16 +143,13 @@ To create a custom channel, follow these steps:
     > [!div class=mx-imgBorder]
     > ![Create a custom channel](../media/custom-channel-3.png "Create a custom channel") 
 
-10. Optionally, on the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
+10. Optionally, on the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
 
-11. Optionally, on the **Surveys** tab, configure a post-conversation survey. More information: [Configure a post-conversation survey](configure-post-conversation-survey.md).
+11. Select **Save** to save the custom messaging channel.
 
-12. Select **Save** to save the custom messaging channel.
+12. Select the back button on the browser to go to the custom messaging account page. You can see that the custom messaging channel is added in the **Channels** section.
 
-13. Select the back button on the browser to go to the custom messaging account page. You can see that the custom messaging channel is added in the **Channels** section.
-
-14. Select **Save** to save the configurations.
-
+13. Select **Save** to save the configurations.
 
     > [!div class=mx-imgBorder]
     > ![Create a custom channel](../media/custom-channel-4.png "Create a custom channel")
@@ -168,6 +165,26 @@ If you want to help your customers using your line-of-business (in-house) messag
 The Bot Framework **Direct Line** channel helps you to integrate your line-of-business (in-house) messaging channels into the Omnichannel for Customer Service app.
 
 For more information, see the developer guide, [Bring your own custom messaging channel: Direct Line bot](../developer/how-to/bring-your-own-channel.md).
+
+## Modify settings for a specific custom channel
+
+1. In the Omnichannel Administration app, go to **Custom** and select the custom channel you want to modify. 
+
+2. On the **General settings** tab, provide the following information:
+    
+    - **Language**: Select the preferred language for your custom channel.
+    
+    - **Work stream**: Select an existing work stream or create a new one.
+
+    - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set **No**. 
+
+    - **Enable file attachments for agents**: Set to **Yes** to allow agents to send file attachments to customers. Otherwise, set **No**. 
+    
+       To learn more about attachments, see [File attachments](enable-file-attachments.md). 
+
+3. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
+    
+4. On the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
 
 ### See also
 
