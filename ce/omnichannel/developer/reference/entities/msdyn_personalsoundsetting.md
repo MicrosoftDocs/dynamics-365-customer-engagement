@@ -1,7 +1,7 @@
 ---
-title: "msdyn_livechatengagementctx Entity Reference | MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_livechatengagementctx entity."
-ms.date: 03/23/2020
+title: "msdyn_Personalsoundsetting Entity Reference | MicrosoftDocs"
+description: "Includes schema information and supported messages for the msdyn_Personalsoundsetting entity."
+ms.date: 07/15/2020
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
@@ -9,50 +9,48 @@ applies_to:
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "susikka"
 ms.author: "susikka"
-manager: "shujoshi"
+manager: "susikka"
 ---
-# msdyn_livechatengagementctx Entity Reference
+# msdyn_Personalsoundsetting Entity Reference
 
-[!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
+Entity to store personalized sound records for the users.
 
-Stores context values for a live chat widget.
-
-**Added by**: Omnichannel – Chat Solution
+**Added by**: Final sound solution Solution
 
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.1/msdyn_livechatengagementctxes(*msdyn_livechatengagementctxid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.1/msdyn_livechatengagementctxes<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.1/msdyn_livechatengagementctxes(*msdyn_livechatengagementctxid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.1/msdyn_ocliveworkitems(*activityid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.1/msdyn_ocliveworkitems<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.1/msdyn_ocliveworkitems(*activityid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.1/msdyn_livechatengagementctxes(*msdyn_livechatengagementctxid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.1/msdyn_livechatengagementctxes<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.1/msdyn_ocliveworkitems(*activityid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.1/msdyn_ocliveworkitems<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.1/msdyn_livechatengagementctxes(*msdyn_livechatengagementctxid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.1/msdyn_livechatengagementctxes(*msdyn_livechatengagementctxid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.1/msdyn_ocliveworkitems(*activityid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.1/msdyn_ocliveworkitems(*activityid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
 |Property|Value|
 |--------|-----|
-|CollectionSchemaName|msdyn_livechatengagementctxes|
-|DisplayCollectionName|Live Chat Contexts|
-|DisplayName|Live Chat Context|
-|EntitySetName|msdyn_livechatengagementctxes|
+|CollectionSchemaName|msdyn_Personalsoundsettings|
+|DisplayCollectionName|Personal sound settings|
+|DisplayName|Personal sound setting|
+|EntitySetName|msdyn_personalsoundsettings|
 |IsBPFEntity|False|
-|LogicalCollectionName|msdyn_livechatengagementctxes|
-|LogicalName|msdyn_livechatengagementctx|
+|LogicalCollectionName|msdyn_personalsoundsettings|
+|LogicalName|msdyn_personalsoundsetting|
 |OwnershipType|UserOwned|
-|PrimaryIdAttribute|msdyn_livechatengagementctxid|
+|PrimaryIdAttribute|msdyn_personalsoundsettingid|
 |PrimaryNameAttribute|msdyn_name|
-|SchemaName|msdyn_livechatengagementctx|
+|SchemaName|msdyn_Personalsoundsetting|
 
 <a name="writable-attributes"></a>
 
@@ -61,28 +59,15 @@ Stores context values for a live chat widget.
 These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
-- [msdyn_browser](#BKMK_msdyn_browser)
-- [msdyn_City](#BKMK_msdyn_City)
-- [msdyn_country](#BKMK_msdyn_country)
-- [msdyn_device](#BKMK_msdyn_device)
-- [msdyn_isauthenticated](#BKMK_msdyn_isauthenticated)
-- [msdyn_isproactivechat](#BKMK_msdyn_isproactivechat)
-- [msdyn_latitude](#BKMK_msdyn_latitude)
-- [msdyn_livechatengagementctxId](#BKMK_msdyn_livechatengagementctxId)
-- [msdyn_livechatengagementid](#BKMK_msdyn_livechatengagementid)
-- [msdyn_liveworkitemid](#BKMK_msdyn_liveworkitemid)
-- [msdyn_locale](#BKMK_msdyn_locale)
-- [msdyn_longitude](#BKMK_msdyn_longitude)
-- [msdyn_name](#BKMK_msdyn_name)
-- [msdyn_originurl](#BKMK_msdyn_originurl)
-- [msdyn_os](#BKMK_msdyn_os)
-- [msdyn_portalcontactid](#BKMK_msdyn_portalcontactid)
-- [msdyn_PostalCode](#BKMK_msdyn_PostalCode)
-- [msdyn_State](#BKMK_msdyn_State)
-- [msdyn_Street1](#BKMK_msdyn_Street1)
-- [msdyn_Street2](#BKMK_msdyn_Street2)
-- [msdyn_Street3](#BKMK_msdyn_Street3)
-- [msdyn_widgetappid](#BKMK_msdyn_widgetappid)
+- [msdyn_Channel](#BKMK_msdyn_Channel)
+- [msdyn_Enablesound](#BKMK_msdyn_Enablesound)
+- [msdyn_isdefaultrecord](#BKMK_msdyn_isdefaultrecord)
+- [msdyn_linksoundfile](#BKMK_msdyn_linksoundfile)
+- [msdyn_loopsound](#BKMK_msdyn_loopsound)
+- [msdyn_Name](#BKMK_msdyn_Name)
+- [msdyn_PersonalsoundsettingId](#BKMK_msdyn_PersonalsoundsettingId)
+- [msdyn_scenario](#BKMK_msdyn_scenario)
+- [msdyn_volume](#BKMK_msdyn_volume)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -109,215 +94,108 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 
-### <a name="BKMK_msdyn_browser"></a> msdyn_browser
+### <a name="BKMK_msdyn_Channel"></a> msdyn_Channel
 
 |Property|Value|
 |--------|-----|
-|Description||
-|DisplayName|Browser|
-|FormatName|Text|
-|IsLocalizable|False|
+|Description|Link channels|
+|DisplayName|Channel|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_browser|
-|MaxLength|100|
+|LogicalName|msdyn_channel|
 |RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_City"></a> msdyn_City
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|City|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_city|
-|MaxLength|300|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_country"></a> msdyn_country
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Country/Region|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_country|
-|MaxLength|200|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_device"></a> msdyn_device
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Device|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_device|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_isauthenticated"></a> msdyn_isauthenticated
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Is Authenticated Engagement|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_isauthenticated|
-|RequiredLevel|None|
-|Type|Boolean|
-
-#### msdyn_isauthenticated Options
-
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
-
-**DefaultValue**: False
-
-
-
-### <a name="BKMK_msdyn_isproactivechat"></a> msdyn_isproactivechat
-
-**Added by**: Omnichannel - Chat Patch Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Is Proactivechat|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_isproactivechat|
-|RequiredLevel|None|
-|Type|Boolean|
-
-#### msdyn_isproactivechat Options
-
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
-
-**DefaultValue**: False
-
-
-
-### <a name="BKMK_msdyn_latitude"></a> msdyn_latitude
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Latitude|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_latitude|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_livechatengagementctxId"></a> msdyn_livechatengagementctxId
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier for entity instances|
-|DisplayName|Live Chat Context|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|IsValidForUpdate|False|
-|LogicalName|msdyn_livechatengagementctxid|
-|RequiredLevel|SystemRequired|
-|Type|Uniqueidentifier|
-
-
-### <a name="BKMK_msdyn_livechatengagementid"></a> msdyn_livechatengagementid
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Live Chat Engagement Id|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_livechatengagementid|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_liveworkitemid"></a> msdyn_liveworkitemid
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Conversation|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_liveworkitemid|
-|RequiredLevel|None|
-|Targets|msdyn_ocliveworkitem|
+|Targets|msdyn_channel|
 |Type|Lookup|
 
 
-### <a name="BKMK_msdyn_locale"></a> msdyn_locale
+### <a name="BKMK_msdyn_Enablesound"></a> msdyn_Enablesound
 
 |Property|Value|
 |--------|-----|
-|Description||
-|DisplayName|Locale|
-|FormatName|Text|
-|IsLocalizable|False|
+|Description|Enable sound for this scenario|
+|DisplayName|Enable sound|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_locale|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
+|LogicalName|msdyn_enablesound|
+|RequiredLevel|ApplicationRequired|
+|Type|Boolean|
+
+#### msdyn_Enablesound Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
 
 
-### <a name="BKMK_msdyn_longitude"></a> msdyn_longitude
+
+### <a name="BKMK_msdyn_isdefaultrecord"></a> msdyn_isdefaultrecord
 
 |Property|Value|
 |--------|-----|
-|Description||
-|DisplayName|Longitude|
-|FormatName|Text|
-|IsLocalizable|False|
+|Description|Is this the default record? To be used for OOB settings.|
+|DisplayName|Is default record|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_longitude|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
+|LogicalName|msdyn_isdefaultrecord|
+|RequiredLevel|ApplicationRequired|
+|Type|Boolean|
+
+#### msdyn_isdefaultrecord Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
 
 
-### <a name="BKMK_msdyn_name"></a> msdyn_name
+
+### <a name="BKMK_msdyn_linksoundfile"></a> msdyn_linksoundfile
 
 |Property|Value|
 |--------|-----|
-|Description|The name of the custom entity.|
+|Description|Use this field to link the sound file with the sound setting record|
+|DisplayName|Link sound file|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_linksoundfile|
+|RequiredLevel|None|
+|Targets|msdyn_soundfile|
+|Type|Lookup|
+
+
+### <a name="BKMK_msdyn_loopsound"></a> msdyn_loopsound
+
+|Property|Value|
+|--------|-----|
+|Description|Use this field to play the sound till notification timeout. For incoming message, set it to No.|
+|DisplayName|Loop Sound|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_loopsound|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_loopsound Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
+
+
+### <a name="BKMK_msdyn_Name"></a> msdyn_Name
+
+|Property|Value|
+|--------|-----|
+|Description|Required name field|
 |DisplayName|Name|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -329,148 +207,48 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
-### <a name="BKMK_msdyn_originurl"></a> msdyn_originurl
+### <a name="BKMK_msdyn_PersonalsoundsettingId"></a> msdyn_PersonalsoundsettingId
 
 |Property|Value|
 |--------|-----|
-|Description||
-|DisplayName|Origin Url|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
+|Description|Unique identifier for entity instances|
+|DisplayName|Personal sound setting|
+|IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|msdyn_originurl|
-|MaxLength|2048|
-|RequiredLevel|None|
-|Type|String|
+|IsValidForUpdate|False|
+|LogicalName|msdyn_personalsoundsettingid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
-### <a name="BKMK_msdyn_os"></a> msdyn_os
+### <a name="BKMK_msdyn_scenario"></a> msdyn_scenario
 
 |Property|Value|
 |--------|-----|
-|Description||
-|DisplayName|Operating System|
-|FormatName|Text|
-|IsLocalizable|False|
+|Description|Link channels|
+|DisplayName|Scenario|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_os|
-|MaxLength|100|
+|LogicalName|msdyn_scenario|
 |RequiredLevel|None|
-|Type|String|
+|Targets|msdyn_channel|
+|Type|Lookup|
 
 
-### <a name="BKMK_msdyn_portalcontactid"></a> msdyn_portalcontactid
+### <a name="BKMK_msdyn_volume"></a> msdyn_volume
 
 |Property|Value|
 |--------|-----|
-|Description||
-|DisplayName|Portal Contact Id|
-|FormatName|Text|
-|IsLocalizable|False|
+|Description|Volume for the scenario|
+|DisplayName|Volume|
+|Format|None|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_portalcontactid|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_PostalCode"></a> msdyn_PostalCode
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Zip/Postal Code|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_postalcode|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_State"></a> msdyn_State
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|State/Province|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_state|
-|MaxLength|300|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_Street1"></a> msdyn_Street1
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Street 1|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_street1|
-|MaxLength|200|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_Street2"></a> msdyn_Street2
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Street 2|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_street2|
-|MaxLength|200|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_Street3"></a> msdyn_Street3
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Street 3|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_street3|
-|MaxLength|200|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_widgetappid"></a> msdyn_widgetappid
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Chat Widget App Id|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_widgetappid|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
+|LogicalName|msdyn_volume|
+|MaxValue|100|
+|MinValue|0|
+|RequiredLevel|ApplicationRequired|
+|Type|Integer|
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
@@ -524,7 +302,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Status of the Live chat context|
+|Description|Status of the Personal sound setting|
 |DisplayName|Status|
 |IsValidForCreate|False|
 |IsValidForForm|True|
@@ -546,7 +324,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for the status of the Live chat context|
+|Description|Reason for the status of the Personal sound setting|
 |DisplayName|Status Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -614,7 +392,9 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
-- [msdyn_liveworkitemidName](#BKMK_msdyn_liveworkitemidName)
+- [msdyn_ChannelName](#BKMK_msdyn_ChannelName)
+- [msdyn_linksoundfileName](#BKMK_msdyn_linksoundfileName)
+- [msdyn_scenarioName](#BKMK_msdyn_scenarioName)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
 - [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
@@ -861,7 +641,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
-### <a name="BKMK_msdyn_liveworkitemidName"></a> msdyn_liveworkitemidName
+### <a name="BKMK_msdyn_ChannelName"></a> msdyn_ChannelName
 
 |Property|Value|
 |--------|-----|
@@ -871,8 +651,40 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |IsLocalizable|False|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|msdyn_liveworkitemidname|
-|MaxLength|200|
+|LogicalName|msdyn_channelname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_linksoundfileName"></a> msdyn_linksoundfileName
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_linksoundfilename|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_scenarioName"></a> msdyn_scenarioName
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_scenarioname|
+|MaxLength|100|
 |RequiredLevel|None|
 |Type|String|
 
@@ -984,12 +796,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
 
 
-### <a name="BKMK_msdyn_msdyn_ocliveworkitem_msdyn_livechatengagementctx_liveworkitemid"></a> msdyn_msdyn_ocliveworkitem_msdyn_livechatengagementctx_liveworkitemid
-
-**Added by**: Active Solution Solution
-
-
 ### See also
 
-[Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
-[Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+[About the Entity Reference](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/about-entity-reference)<br />
+[Programming reference for Dynamics 365 Customer Engagement (on-premises)](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/programming-reference)<br />
+[Web API reference](https://docs.microsoft.com/dynamics365/customer-engagement/web-api/about)<br />
