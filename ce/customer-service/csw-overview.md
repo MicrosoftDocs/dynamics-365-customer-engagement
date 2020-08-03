@@ -19,10 +19,9 @@ search.app:
   - D365CS
 ---
 
-# Customer Service workspace - Overview
+# Preview: Customer Service workspace - Overview
 
-> [!Note]
-> This topic is pre-release documentation and is subject to change.
+[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Welcome to the Customer Service workspace app module where we're increasing agent productivity for core customer service with the ability to work on multiple sessions at a time in a single workspace experience. And in the future, should your business chose to expand your customer service offering to provide chat and channels, the Customer Service workspace seamlessly adjusts to support managing conversations as well (Early Release 09/01/2020). 
 
