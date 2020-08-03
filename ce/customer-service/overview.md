@@ -84,7 +84,7 @@ For more details about app accessibility and GDPR compliance, see [Accessibility
 
  - [Customer Service Workspace](customer-service-workspace-system-requirements.md)
  - [Omnichannel for Customer Service](../omnichannel/introduction-omnichannel.md)
- - [Customer Service Hub](user-guide-customer-service-hub.md.md)
+ - [Customer Service Hub](user-guide-customer-service-hub.md)
 
 
 
