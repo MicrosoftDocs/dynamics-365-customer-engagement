@@ -27,7 +27,7 @@ Welcome to the Customer Service workspace app module where we're increasing agen
 
 If you have used Customer Service Hub or Omnichannel for Customer Service before, much of the behavior for managing cases and activities in the Customer Service workspace app module works the same way with some exceptions to accomodate the multisession and conversation capabilities. In this article, we'll walk through the Customer Service workspace experience and explain how to navigate in it. 
 
-Before we dive in, a quick note about administration of Customer Service workspace: Currently, there isn't a dedicated administrator experience for Customer Service workspace. As such, configuring and managing core customer service capabilities, such as queues and routing rules, is done in the Customer Service Hub -> [Service Management](https://docs.microsoft.com/dynamics365/customer-service/service-manager-guide) experience. Chat and channel configuration is done in [Omnichannel Administration](https://docs.microsoft.com/dynamics365/omnichannel/administrator/omnichannel-administrator). Because all of these apps are on the [Common Data Service (CDS)](data-platform-intro.md), the data created through these experiences is accessible. 
+Before we dive in, a quick note about administration of Customer Service workspace: Currently, there isn't a dedicated administrator experience for Customer Service workspace. As such, configuring and managing core customer service capabilities, such as queues and routing rules, is done in the Customer Service Hub -> [Service Management](https://docs.microsoft.com/dynamics365/customer-service/service-manager-guide) experience. Chat and channel configuration is done in [Omnichannel Administration](https://docs.microsoft.com/dynamics365/omnichannel/administrator/omnichannel-administrator). Because all of these apps are on the [Common Data Service (CDS)](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro), the data created through these experiences is accessible. 
 
 ## Introduction to Customer Service workspace
 You can access Customer Service workspace through the app selector where you find all of your other Dynamics 365 apps by choosing the Customer Service workspace app tile. You can also access the app in the Dynamics 365 drop-down navigation in the upper-left corner of Dynamics 365.
@@ -83,8 +83,8 @@ Let's explore the fields you can edit on the **Case Summary** tab:
 
 :::image type="content" source="media/CaseSummary.png" alt-text="Customer Service workspace Case Summary" border="false":::
 
-Label | Description
------------- | -------------
+| Label | Description |
+| ------------ | ------------- |
 1 | In the Case Details you can update the Case Title, Customer, Subject, Priority, Case Status, Product, and Description
 2 | These are attributes that are set when the case is created by the system including Case Number, Origin, and Created On Date that won't change. You can change the case owner here.
 3 | Click the + on the Timeline to expand the menu of Timeline actions. 
@@ -93,8 +93,8 @@ Let's explore the fields you can edit on the **Case Additional Details** tab:
 
 :::image type="content" source="media/CaseAddtlDetails.png" alt-text="Customer Service workspace Case Additional Details" border="false":::
 
-Label | Description
------------- | -------------
+| Label | Description |
+| ------------ | ------------- |
 1 | You can set Service Level Agreement (SLA) attributes on the case so that customer support managers can measure the overall success of the support organization against its goals of meeting customer Service Level Agreements.
 2 | Associate a Parent Case, classify the Type of case, and apply a support Entitlement. 
 3 | Sort, and export the list of Associated Knowledge Articles.
