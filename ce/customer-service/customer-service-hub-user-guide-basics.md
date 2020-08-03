@@ -1,7 +1,7 @@
 ---
 title: "Learn the basics of the Customer Service Hub app | Microsoft Docs"
 description: "Learn the basics of the Customer Service Hub for Customer Service"
-ms.date: 07/22/2020
+ms.date: 08/03/2020
 ms.service:
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -94,6 +94,7 @@ Here is what each entity record type is used for:
   - **Knowledge Articles** capture your customer's questions, issues, feedback, and resolutions, so that other service reps can benefit from them.
 
 2. Select **...** to go to **Training** and access the documentation site to view the **Help Center**. 
+
 3. You can also access **Service Management** from the sitemap. Service Management lets you define all the customer service admin settings from the Customer Service Hub sitemap.  Select **...** to go to **Service Management**.
 
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Service Manager Guide (Customer Service Hub and Customer Service app)](service-manager-guide.md).
@@ -250,7 +251,7 @@ You can create, edit, and delete an activity, note, post, and other interactions
 
   ![timeline-ellipsis](media/timeline-ellipsis.png "Timeline ellipsis to filter activities")
 
-#### **Take a note**
+#### Take a note
 
 You can select the **Enter a note** box in the timeline and specify a title and message. The message box has a rich text editor that enables you to create rich and well-formatted content for the notes with emphasis.  
 
@@ -302,7 +303,7 @@ You can also add an attachment to your notes, and the attachment is displayed be
   > - The notes rich-text editor is available only for Unified Interface and not for web client.
   > - If you create a note with the rich-text editor formatting in Unified Interface, and when you see the note in Web Client, the note is displayed to you with HTML syntax.
 
-#### **Identify the activities, notes, and posts with icons along with time stamp**
+#### Identify the activities, notes, and posts with icons along with time stamp
 
 The timeline shows a simple icon before the activity, post, note, and custom entity making it easy for you to identify the type.
 
@@ -310,7 +311,7 @@ Also, you can view the timestamp at all times. Activities, posts, and notes that
 
   ![Timeline activity icons](../customer-service/media/activity-icons.png "Timeline activity icons")
 
-#### **Access command bar to perform actions**
+#### Access command bar to perform actions
 
 When you hover the cursor on or expand an activity, post, and note, the command bar appears with the options specific to the activity, such as marking an activity complete, assigning it to others, adding it to a queue, converting it to a case, liking a post, replying to a post, editing a note, or deleting the activity.
 
@@ -319,7 +320,7 @@ When you hover the cursor on or expand an activity, post, and note, the command 
   ![Timeline command bar options](../customer-service/media/timeline-options3.png "Timeline command bar options")
   ![Timeline command bar options](../customer-service/media/timeline-options4.png "Timeline command bar options")
 
-#### **Filter activities, posts, and notes on the timeline**
+#### Filter activities, posts, and notes on the timeline
 
 Quickly filter the activities, posts, and notes with multiple filter options to see what matters to you. The filter is available for the activities, posts, notes, and custom entities that are present in timeline. The timeline filters and displays the records and the count of those records that are present in the timeline. 
 
@@ -340,17 +341,17 @@ When you select the filter icon, you can see the **Filter by** menu where you ca
 
   ![Timeline activity filter](../customer-service/media/timeline-filter6.png "Timeline activity filter")
 
-#### **Search for records**
+#### Search for records
 
 You can easily search for records in the timeline. When you search for a phrase, the timeline searches the title or subject and description or body of the content, and then displays the record to you.
 
   ![Timeline keyword search](../customer-service/media/timeline-keyword-search.png "Timeline keyword search")
 
-#### **View and manage email conversations**
+#### View and manage email conversations
 
 You can easily set email messages to show as conversation threads on the timeline, significantly reducing usability (scroll and clicks) when managing email activities.
 
-#### **Expand and collapse timeline activities**
+#### Expand and collapse timeline activities
 
 Select an activity from the timeline to expand and view. 
 
@@ -599,6 +600,38 @@ You can see templates of a particular language by selecting a language from the 
 
 > [!div class="mx-imgBorder"]
 > ![Search template](media/search-template.png "Search template") 
+
+### Preview: Insert a knowledge article into an email
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+While working on an email, you can quickly help customers by searching and selecting a relevant knowledge article to include in your email. You can insert the article and/or share a link to it in the body of your message.
+
+1. From an email form where you are drafting, place your cursor where you want to place the knowledge article or its link, and then select **Insert Knowledge Article**.
+
+   The **Select knowledge article to insert** screen is displayed. 
+   
+  > [!div class="mx-imgBorder"]
+  > ![Select knowledge article to insert](media/email-insert-knowledge-article.png "Select knowledge article to insert page") 
+
+2. Search for the article you want to include. For more information about searching for knowledge articles, see [Search for knowledge articles in the Customer Service Hub](search-knowledge-articles-csh.md).
+
+   A list of available articles will be displayed. You can select an article in the search results to view it in the preview pane.
+  
+3. When you have found the article you want to include, do one of the following : 
+
+   - To insert an article into the email, select the **Insert content** icon for the article in the search results or in the article preview pane, select **Insert article content** at the top of the pane. This will insert the content into the body of your email and close the **Select knowledge article to insert** page.
+   
+   > [!div class="mx-imgBorder"]
+  > ![Insert content into email](media/email-knowledge-article-insert-content.png "Insert an article into email by selecting either the Insert content icon from the search results or Insert article content from the preview pane") 
+   
+   -OR-
+
+  - If your administrator has set up an external portal that supports a URL format, you can include a link. For more information, see [Set up knowledge management (Customer Service Hub)](set-up-knowledge-management-embedded-knowledge-search.md). To insert an article as a link in the email, select the **URL** icon for the article in the search results or in the article preview pane, select **Insert URL** at the top of the pane. This will insert a link to the article into the body of your email and close the **Select knowledge article to insert** page. 
+   
+  > [!div class="mx-imgBorder"]
+  > ![Insert a link to the content into email](media/email-knowledge-article-insert-url.png "Insert a link to an article into an emaill by selecting either the Insert URL icon from the search results or Insert URL at the top of the preview pane") 
+
 
 ### Editor functionality and accessibility shortcuts
 
