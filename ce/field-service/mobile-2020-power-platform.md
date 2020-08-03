@@ -2,7 +2,7 @@
 title: "Field Service (Dynamics 365) mobile app | Microsoft Docs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 07/14/2020
+ms.date: 08/01/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -33,9 +33,9 @@ Field Service (Dynamics 365) is a mobile app designed and optimized for technici
 
 Both the Field Service (Dynamics 365) mobile app _and_ the Field Service Mobile app are included with Field Service.
 
-Available natively for Apple iOS and Google Android phones, Field Service (Dynamics 365) offers technicians many capabilities they need to perform onsite customer service, such as:  
+Available natively for Apple iOS and Google Android phones and tablets, Field Service (Dynamics 365) offers technicians many capabilities they need to perform onsite customer service, such as:  
 
-- A calendar view of assigned jobs 
+- A calendar view of assigned jobs
 - Support for picture, video, and asset barcode scanning
 - Customer signature capture
 - Offline capabilities so technicians can continue viewing and recording work in areas without internet
@@ -43,7 +43,7 @@ Available natively for Apple iOS and Google Android phones, Field Service (Dynam
 
 ## Implementation and migration guidance
 
-We recommended to continue using the existing "[Field Service Mobile](./field-service-mobile-app-user-guide.md)" app for current and new deployments of Dynamics 365 Field Service. As development in the Field Service (Dynamics 365) mobile app continues through 2021, capabilities will become comparable to Field Service Mobile and system administrators should use the feature comparison information below to decide which mobile app is right for their organization or department.
+We recommend to continue using the existing "[Field Service Mobile](./field-service-mobile-app-user-guide.md)" app for current and new deployments of Dynamics 365 Field Service. As development in the Field Service (Dynamics 365) mobile app continues through 2021, capabilities will become comparable to Field Service Mobile and system administrators should use the feature comparison information below to decide which mobile app is right for their organization or department.
 
 While the new Field Service (Dynamics 365) app continues to evolve, we'll continue to make available and support the current Field Service Mobile app. By June 2021, new deployments must use Field Service (Dynamics 365) mobile app; support for the current Field Service Mobile app will end June 2022. 
 
@@ -52,6 +52,8 @@ While the new Field Service (Dynamics 365) app continues to evolve, we'll contin
 Field Service (Dynamics 365) mobile app is recommended for **simpler** use cases and for organizations that want to get up and running quickly with a mobile solution for technicians because it is built on the Power Platform and uses the same admin console as Field Service web and the same PCF controls. 
 
 Field Service Mobile is recommended for more **complex** use cases where you may need custom reporting, push notifications, geofencing, and business processes or validations that work offline.
+
+Use the following feature comparison table to understand which mobile app is right for your business.
 
 
 | Feature | Category | Field Service (Dynamics 365) | Field Service Mobile | Details |
@@ -65,25 +67,22 @@ Field Service Mobile is recommended for more **complex** use cases where you may
 | Speech to text | Technician | Yes | Yes | |
 | Geocoding | Technician | Yes | Yes | |
 | [Microsoft Intune](field-service-mobile-intune.md)  | Integration | Yes | Yes | |
+| Time entry  | Technician | Yes | Yes | |
+| Connected Field Service & IoT alerts | Technician | Yes | Yes | |
+| [Inspections](inspections.md) | Technician | Yes | Yes | Field Service technician can find and capture inspections associated with a work order. |
+| [Remote Assist](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/overview-hololens) | Integration | Yes | Yes | Access to help from remote collaborators with integrated Remote Assist. |
 | [Push notifications](mobile-push-notifications.md) | Technician | 2020 release wave 2 | Yes | User notifications, such as new booking appointment. |
 | [Geofencing](geofencing.md) | Technician | 2020 release wave 2 | Yes | Ability to autoset booking status as technician arrives or leaves location. |
-| IoT alerts | Technician | 2020 release wave 2 | Yes | |
 | Reporting | Technician | 2020 release wave 2 | Yes | Customer service reports with signature, option to email PDF. |
 | Scan to find asset | Technician | 2020 release wave 2 | Yes | |
 | [Location sharing and auditing](https://docs.microsoft.com/dynamics365/field-service/geofencing#step-3-enable-location-auditing-for-the-field-service-mobile-app) | Admin | 2020 release wave 2 | Yes | Real time sharing tech location with back office. |
 | Enhanced offline sync filters | Admin | 2020 release wave 2 | Yes | Customize the data available offline (for example, by location, accounts for scheduled bookings). |
 | Offline by default | Technician | 2020 release wave 2 | Yes | App is offline by default so tech is always ready. |
 | Allow technician to force data sync | Technician | 2020 release wave 2 | Yes | Technician can manually force data sync. |
-| [Remote Assist](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/overview-hololens) | Integration | 2020 release wave 2 | Yes | Access to help from remote collaborators with integrated Remote Assist. |
 | Bulk-add users  | Admin | 2020 release wave 2 | Yes | Quickly assign offline data sync profile to users. |
-| Time entry  | Technician | 2020 release wave 2 | 2020 release wave 2 | |
 | Check list for service tasks  | Technician | 2020 release wave 2| Yes | Check list for quickly mark task as complete. |
-| Inspections | Technician | 2020 release wave 2 | Yes | Field Service technician can find and capture inspections associated with a work order. |
-| Windows support |  | | Yes |  |
-| Map bookings  | Technician |  | Yes | Ability to view bookings on a map. |
-| Tech chat | Technician |  | Yes | Ability for technicians to chat with each other.  |
-| Branding + theming | Admin |  | Yes | |
-| Sharepoint integration  | Integration |  | Yes | Ability to include docs and files from SharePoint in bookings and work orders. |
+
+
 
 Check [Release Plans](https://docs.microsoft.com/dynamics365/release-plans/) to stay up to date on upcoming features for Field Service including the Field Service (Dynamics 365) mobile app.
 
@@ -150,13 +149,7 @@ On the **Notes tab**, you'll see a way to add note text, pictures, and videos, a
 
 ### Find more information
 
-To get to the sitemap, select the menu icon from the calendar view.
-
-
-> [!div class="mx-imgBorder"]
-> ![Simulated image of a mobile device showing Field Service (Dynamics 365), with emphasis on the menu icon in the top left.](./media/mobile-2020-booking-view-calendar-only.jpg)
-
-From here, you can find other important information like accounts, contacts, customer assets, or to record time off.
+To get to the sitemap, select the menu icon from the calendar view. From here, you can find other important information like accounts, contacts, customer assets, or to record time off.
 
 > [!div class="mx-imgBorder"]
 > ![Simulated image showing two mobile devices with screenshots of Field Service (Dynamics 365). The device on the left shows the full menu for Field Service (Dynamics 365). The device on the right shows an account detail page.](./media/mobile-2020-sitemap-account.jpg)
@@ -165,10 +158,9 @@ From here, you can find other important information like accounts, contacts, cus
 
 If you expect to be in areas without wifi or cellular internet access, you can download important information to your device to keep working. 
 
-From the home screen, select the cloud icon in the bottom left. 
+From the home screen, select the cloud icon in the bottom left.
 
-Then select **Download offline updates**. 
-
+Then select **Download offline updates**.
 
 > [!div class="mx-imgBorder"]
 > ![Simulated image showing three mobile devices with Field Service (Dynamics 365). The device on the left shows the menu, with attention to the cloud icon at the bottom. The middle device shows the offline status screen. The device on the right shows the offline status as available, showing the list of available entities. ](./media/mobile-2020-offline.jpg)
@@ -176,6 +168,24 @@ Then select **Download offline updates**.
 When **Status** is set to **Available**, you'll have all the data you need to work offline.
 
 Then toggle the **Work in offline mode** to on. If you lose internet connection unexpectedly, the app will automatically work in offline mode if you previously downloaded data.
+
+### Connected Field Service on Field Service (Dynamics 365) mobile app
+
+For organizations using Connected Field Service, technicians can view and interact with IoT data and actions in the Field Service (Dynamics 365) mobile app.
+ 
+> [!div class="mx-imgBorder"]
+> ![Simulated image showing three phones with Field Service mobile app and IoT device readings.](./media/mobile-2020-cfs.png)
+
+For more information, see the article on [Connected Field Service for the Field Service (Dynamics 365) mobile app](cfs-mobile-powerapp.md).
+
+### Trigger Dynamics 365 Remote Assist
+
+Organizations using Dynamics 365 Remote Assist will see that technicians can trigger a deeplink from the work order to open the Dynamics 365 Remote Assist mobile app.
+
+> [!div class="mx-imgBorder"]
+> ![Simulated image showing a phone with Field Service mobile and a menu option to launch Dynamics 365 Remote Assist.](./media/mobile-2020-remote-assist.png)
+
+For more information, see the article: [Using Field Service with Remote Assist](remote-assist-hololens.md).
 
 ## Configure the Field Service (Dynamics 365) mobile app
 
@@ -194,7 +204,7 @@ Sign in to Dynamics 365 as a system administrator.
 
 To see your list of apps, go to: 
 
-      https://[YOUR-ENVIRONMENT-NAME].crm.dynamics.com/main.aspx?forceUCI=1&pagetype=apps
+```https://[YOUR-ENVIRONMENT-NAME].crm.dynamics.com/main.aspx?forceUCI=1&pagetype=apps```
 
 Find the Field Service Mobile app and go to the **App Designer**.
 
@@ -260,8 +270,6 @@ Find the **Booking and Work Order** form, as seen in the following screenshot.
 > ![Screenshot of a Bookable Resource Booking in Power Apps, showing the Booking and Work Order form.](./media/mobile-2020-admin-booking-form-combined.png)
 
 Add and delete booking fields as needed.
-
-
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Power Apps showing the form editor for the Bookable Resource Booking.](./media/mobile-2020-admin-booking-form-combined-add-fields.png)
@@ -340,20 +348,22 @@ Create and add a new JavaScript web resource to the form.
 
 Enter in the following code snippet:
 
-      function TestOnSave(executionContext) {
+```
+function TestOnSave(executionContext) {
 
-      var formContext = executionContext.getFormContext(); // get formContext
-      var duration = formContext.getAttribute("duration").getValue();
+var formContext = executionContext.getFormContext(); // get formContext
+var duration = formContext.getAttribute("duration").getValue();
 
-      formContext.ui.clearFormNotification("DurationErrorMessageId");
+formContext.ui.clearFormNotification("DurationErrorMessageId");
 
-      if (duration < 120) {
-      executionContext.getEventArgs().preventDefault(); // Stop the Save
-      formContext.ui.setFormNotification("Duration must be greater than 2 hours", "ERROR", "DurationErrorMessageId");
-      }
+if (duration < 120) {
+executionContext.getEventArgs().preventDefault(); // Stop the Save
+formContext.ui.setFormNotification("Duration must be greater than 2 hours", "ERROR", "DurationErrorMessageId");
+}
+}
 
-      }
-      
+  ```
+  
   Ensure the web resource triggers on save of the form.
   
   Save and publish customizations.

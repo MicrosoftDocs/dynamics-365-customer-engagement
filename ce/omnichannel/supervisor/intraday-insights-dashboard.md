@@ -4,7 +4,7 @@ description: "Learn about the intraday insights dashboard for supervisors"
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 05/22/2020
+ms.date: 07/23/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -72,7 +72,7 @@ This section of the dashboard consists of the following KPIs.
 
 ### Agent Performance
 
-You  can view specific insights about the performance of individual or groups of agents, such as their availability, average length of time in conversations, and average response time per session.
+You can view specific insights about the performance of individual or groups of agents, such as their availability, average length of time in conversations, and average response time per session.
 
 The following screen shows an example of the specific queue for a group of agents.
  
@@ -100,13 +100,18 @@ This section of the dashboard consists of the following KPIs:
 | KPI | Description |
 |-------|-------|
 | Agent name | A list of the agent names for the queue. |
-| Presence | The presence of the agent(s), either available or offline. |
-| Available capacity | The available capacity for the agent(s). | 
-| Total capacity | The total amount of capacity for the agent(s). | 
+| Presence | The presence of the agents. You can reset the presence of an agent through the dashboard. The new presence becomes effective within 30 seconds, and the change is reflected after the dashboard is refreshed. |
+| Available capacity | The available capacity for the agents. |
+| Total capacity | The total amount of capacity for the agents. |
 | Ongoing Conversations | The number of conversations that are in progress. |
 | Avg handle time (min) | The average conversation handle time, in minutes. |
 
-You can also view specific details about an agent, as shown in the following screen.
+You can also view specific details about an agent by right-clicking the agent's name, and then selecting **Drill through** > **Agent details**, as shown on the following screen.
+
+> [!div class=mx-imgBorder]
+> ![Access agent's specific details](../media/intraday-agent-drill-through.png "Access specific details for an agent")
+
+The agent's details are displayed, as shown on the following screen.
 
 > [!div class=mx-imgBorder]
 > ![View agent's specific details](../media/view-agent-details.png "View agent's specific details")
