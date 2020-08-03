@@ -32,6 +32,7 @@ If your administrator has enabled the AI-suggested similar cases and knowledge a
 
 - AI-suggestions for similar cases and knowledge articles should be enabled by your administrator.
 - Smart assist feature must be enabled by your administrator. More information: [Smart assist in Customer Service Workspace](csw-productivity-pane.md#smart-assist)
+- The Productivity tools user role must be assigned to you.
 
 ## Understand the knowledge article components in Smart assist
 
