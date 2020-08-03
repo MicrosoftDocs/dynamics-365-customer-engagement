@@ -38,8 +38,7 @@ Make sure that the following prerequisites are met:
 
 <a name="configureteams"></a>
 
-## Configure a Microsoft Teams channel in Omnichannel for Customer Service 
-
+## Configure a Microsoft Teams channel in Omnichannel for Customer Service
 
 ### Create a Teams channel
 
@@ -58,6 +57,9 @@ Make sure that the following prerequisites are met:
 
     > [!div class=mx-imgBorder]
     > ![Create a Teams channel](../media/teams-channel.png "Create a Teams channel")
+
+6. Optionally, on the **Automated messages** tab, configure automated messages. More information:[Configure automated messages](configure-automated-message.md).
+7. Optionally, on the **Surveys** tab, configure a post-conversation survey. More information: [Configure a post-conversation survey](configure-post-conversation-survey.md).
 
 ### Configure Teams details
 

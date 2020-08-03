@@ -24,10 +24,11 @@ manager: shujoshi
 
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|
-    | **General information** | Name | Specify the name of the widget. | Contoso chat |
+    | **General information** | **Name** | Specify the name of the widget. | Contoso chat |
     |  | **Language**| Select the language of the chat widget from the list. | English - United States |
     |  | **Agent display name** | Select an agent display name type from the list: **Full name**, **First name**, **Last name**, and **Nick name**. <br> More information: [Configure agent display name](agent-display-name.md) | Full name |
     |  | **Authentication settings** |Select an authentication setting from the list. This is an optional field. More information: [Create chat authentication settings](create-chat-auth-settings.md) | Chat authentication |
+    |||
 
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|
@@ -36,11 +37,13 @@ manager: shujoshi
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|    
     | **Proactive chat** | **Enable Proactive Chat** | Select whether to enable proactive chat. <br>More information: [Configure proactive chat](proactive-chat.md) | Yes |
+    |||
 
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|    
     |**File attachments** | **Enable file attachments for customers** |Select whether to allow customers to attach and send files as attachments. <br> More information: [Configure file attachment capability](configure-file-attachment.md) | Yes |
     | | **Enable file attachments for agents** | Select whether to allow agents to attach and send files as attachments. <br> More information: [Configure file attachment capability](configure-file-attachment.md) | Yes |
+    |||
     
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|        
@@ -48,11 +51,14 @@ manager: shujoshi
     | | **Allow email of transcript** |Select whether to allow chat transcripts to be emailed. <br> More information: [Configure download and email of chat transcripts](download-email-chat-transcripts.md) | Yes |
     | | **Email Template** |If you selected **Yes** for the **Allow email of transcript** field, the **Email Template** field is displayed. Select the email template you want to use to send the chat transcript as an email to the customer. | Conversation transcript email template |
     | | **From mailbox ** | If you selected **Yes** for the **Allow email of transcript** field, the **"From" mailbox** field is displayed. Select the mailbox from which you want to send the chat transcript email to the customer. | Contoso |
+    |||
+
 
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|            
     |**Customer waiting** | **Show position in queue** | Select whether to show customers their position in the queue when they're waiting to interact with an agent. <br> More information: [Show customers their position in a queue](show-queue.md) | Yes |
     | | **Show average wait time**| Select whether to show customers average wait time in the queue when they're waiting to interact with an agent. <br> More information: [Show customers their average wait time in a queue](average-wait-time.md) | Yes |
+    |||
 
 5. Select **Save**. The following sections are displayed:
     - **Code snippet:** The code snippet that you need to embed in the HTML source of your website to display the chat widget is displayed in the **Widget snippet** box.
@@ -82,7 +88,8 @@ manager: shujoshi
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|
     | Pre-conversation survey | Pre-conversation survey | Select whether to set up a pre-chat survey in the chat widget. The survey will be shown to users before a conversation is initiated. | Yes |
-    | Pre-chat unauthenticated questions | Pre-chat unauthenticated questions | If you set **Yes** for the **Pre-conversation survey** field, the **Pre-chat unauthenticated questions** section is displayed. <br> Add the pre-chat questionnaires <br> More information: [Configure a pre-chat survey](configure-pre-chat-survey.md) | Product |
+    | Pre-chat unauthenticated questions | Pre-chat unauthenticated questions | If you set **Yes** for the **Pre-conversation survey** field, the **Pre-chat unauthenticated questions** section is displayed. <br> Add the pre-chat questionnaires <br> More information: [Configure a pre-conversation survey](configure-pre-chat-survey.md) | Product |
+    |Post-conversation survey| Turn on | If you set to **Yes**, you can configure a post-conversation survey to be presented to customers. More information: [Configure a post-conversation survey](configure-post-conversation-survey.md) |
 
     > [!div class=mx-imgBorder]
     > ![Configure a pre-conversation survey in a chat widget](../media/oc-chat-widget-survey-tab.png "Configure a pre-conversation survey in a chat widget")

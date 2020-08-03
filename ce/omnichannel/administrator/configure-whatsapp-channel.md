@@ -169,14 +169,14 @@ To create a WhatsApp channel, follow these steps:
     > [!div class=mx-imgBorder]
     > ![Create WhatsApp message template localized message](../media/whatsapp-message-template-new-message-locale.png "Create WhatsApp message template localized message")
     
-5. On the **Surveys** tab, [configure a post-conversation survey](configure-post-chat-survey.md).
+5. On the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
 
 ### See also
 
 [Understand and create work streams](work-streams-introduction.md)<br>
 [Create and manage routing rules](routing-rules.md)<br>
 [Configure automated messages](configure-automated-message.md)<br> 
-[Configure a post-conversation survey](configure-post-chat-survey.md)<br>
+[Configure a post-conversation survey](configure-post-conversation-survey.md)<br>
 [Skill-based routing](overview-skill-work-distribution.md)<br>
 [Create message templates](create-message-templates.md)<br>
 [Templates](templates-overview.md)<br>

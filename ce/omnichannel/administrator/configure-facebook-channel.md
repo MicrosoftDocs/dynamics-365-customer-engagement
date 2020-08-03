@@ -127,7 +127,7 @@ After you add a Facebook page, values for **Callback Uri** and **Verify Token** 
 
 3. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
     
-4. On the **Surveys** tab, [configure a post-conversation survey](configure-post-chat-survey.md).
+4. On the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
 
 ## Customer experience
 
@@ -163,5 +163,5 @@ Customers are solely responsible for using Dynamics 365, this feature, and any a
 [Create and manage routing rules](routing-rules.md)<br>
 [Configure automated messages](configure-automated-message.md)<br> 
 [Configure a pre-chat survey](configure-pre-chat-survey.md)<br>
-[Configure a post-chat survey](configure-post-chat-survey.md)<br>
+[Configure a post-conversation survey](configure-post-conversation-survey.md)<br>
 [Delete a configured channel](delete-channel.md)

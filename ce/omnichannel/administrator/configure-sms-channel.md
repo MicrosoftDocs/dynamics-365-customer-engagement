@@ -99,9 +99,9 @@ To sign up for TeleSign
 
 9. Select **Save**.
 
-10. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). (Optional) 
+10. Optionally, on the **Automated messages** tab, [configure automated messages](configure-automated-message.md).
 
-11. On the **Surveys** tab, [configure a post-conversation survey](configure-post-chat-survey.md). (Optional) 
+11. Optionally, on the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
 
 12. Select **Validate API Key** from the toolbar at the top of the page to validate the customer ID and API key.
 

@@ -100,9 +100,9 @@ To create a custom channel, follow these steps:
 
 2. Select **Custom (preview)** under **Channels**.
 
-3. Select **+ New** in the **Active Custom messaging account** view.
+3. Select **New** in the **Active Custom messaging account** view.
 
-4. In the new **Custom messaging account** page, specify the values for the following fields:
+4. In the **New Custom messaging account** page, specify the values for the following fields:
 
     | Section | Field | Description | Example  value |
     |-------------|-------------------|---------------------------|--------------------------------------|
@@ -123,12 +123,11 @@ To create a custom channel, follow these steps:
 
 7. Go to the **Azure Portal** > **Bot Channel Registration** page, paste the URL into the **Message endpoint** field, and save the changes.
 
-8. In the **Channels** section, select **+ Add Custom messaging channel**. The **New Custom messaging channel** page is displayed.
+8. In the **Channels** section, select **New Custom messaging channel**. The **New Custom messaging channel** page is displayed.
 
    After you create a **Custom messaging account**, you need to create a custom messaging channel, which is the actual channel from which Omnichannel for Customer Service agents will receive messages from the customer.
 
-
-9. In the **New Custom messaging account** page, specify the values for the following fields:
+9. On the **New Custom messaging account** page, specify the values for the following fields:
 
     | Section | Field | Description | Example  value |
     |-------------|-------------------|---------------------------|--------------------------------------|  
@@ -144,17 +143,18 @@ To create a custom channel, follow these steps:
     > [!div class=mx-imgBorder]
     > ![Create a custom channel](../media/custom-channel-3.png "Create a custom channel") 
 
-10. Select **Save** to save the custom messaging channel.
+10. Optionally, on the **Surveys** tab, configure a post-conversation survey. More information: [Configure a post-conversation survey](configure-post-conversation-survey.md).
+11. Select **Save** to save the custom messaging channel.
 
-11. Select the back button on the browser to go to the custom messaging account page. You can see that the custom messaging channel is added in the **Channels** section. 
+12. Select the back button on the browser to go to the custom messaging account page. You can see that the custom messaging channel is added in the **Channels** section.
 
-12. Select **Save** to save the configurations.
+13. Select **Save** to save the configurations.
 
 
     > [!div class=mx-imgBorder]
     > ![Create a custom channel](../media/custom-channel-4.png "Create a custom channel")
 
-## Test your channel 
+## Test your channel
 
 For more information, see the developer guide, [Bring your own custom messaging channel: Test Client HTML](../developer/how-to/bring-your-own-channel-sample-html.md).
 

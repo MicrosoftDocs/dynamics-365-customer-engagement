@@ -75,7 +75,7 @@ After completing the prerequisites, you can add the LINE channel for your organi
    1. On the **Surveys** tab, in the **Post-conversation survey** area, set the toggle for **Turn on** to **Yes**.
    2. In the **Microsoft Forms Pro survey** box, search and select a survey.
 
-    > For more information, see [creating post-conversation surveys](configure-post-chat-survey.md).
+    > For more information, see [creating post-conversation surveys](configure-post-conversation-survey.md).
 
 The LINE channel setup is complete.
 > [!NOTE]
@@ -97,7 +97,7 @@ The LINE channel setup is complete.
 
 3. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
     
-4. On the **Surveys** tab, [configure a post-conversation survey](configure-post-chat-survey.md).
+4. On the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
 
 
 ## Create routing rules
@@ -140,6 +140,6 @@ Customers are solely responsible for using Dynamics 365, this feature, and any a
 
 [Understand and create work streams](work-streams-introduction.md)<br>
 [Configure automated messages](configure-automated-message.md)<br> 
-[Configure a post-chat survey](configure-post-chat-survey.md)<br>
+[Configure a post-conversation survey](configure-post-conversation-survey.md)<br>
 [Create and manage routing rules](routing-rules.md)<br>
 [Delete a configured channel](delete-channel.md)

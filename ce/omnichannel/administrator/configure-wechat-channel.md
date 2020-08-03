@@ -78,9 +78,9 @@ If you are using the service account of WeChat, perform the following steps:
 
 3. Select **Submit**.
 
-## Modify settings for a specific WeChat account 
+## Modify settings for a specific WeChat account
 
-1. In the Omnichannel Administration app, go to your WeChat application and select the WeChat account you want to modify. 
+1. In the Omnichannel Administration app, go to your WeChat application and select the WeChat account you want to modify.
 
 2. On the **General settings** tab, provide the following information:
     
@@ -92,9 +92,9 @@ If you are using the service account of WeChat, perform the following steps:
     
        To learn more about attachments, see [File attachments](enable-file-attachments.md). 
 
-3. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
+3. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md).
     
-4. On the **Surveys** tab, [configure a post-conversation survey](configure-post-chat-survey.md).
+4. On the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
 
 ## Privacy notice
 

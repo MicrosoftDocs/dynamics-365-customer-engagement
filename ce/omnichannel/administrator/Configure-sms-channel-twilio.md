@@ -87,9 +87,9 @@ Perform the following steps to create a work stream for the SMS channel for Twil
 
 9. Select **Save**.
 
-10. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). (Optional) 
+10. Optionally, on the **Automated messages** tab, [configure automated messages](configure-automated-message.md).
 
-11. On the **Surveys** tab, [configure a post-conversation survey](configure-post-chat-survey.md). (Optional) 
+11. Optionally, on the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
 
 12. On the command bar, select **Validate API Key**. The Twilio account and phone number are validated.
 
