@@ -4,7 +4,7 @@ description: "Learn about the WhatsApp channel through Twilio and how to configu
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/27/2020
+ms.date: 08/03/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -133,7 +133,7 @@ To create a WhatsApp channel, follow these steps:
     
     - **Language**: Select the preferred language for your WhatsApp phone number.
     
-    - **Work stream**: Select the work stream for routing WhatsApp messages.
+    - **Work stream**: Select an existing work stream or create a new one.
 
     - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set **No**. 
 
