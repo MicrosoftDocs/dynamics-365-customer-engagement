@@ -89,7 +89,7 @@ Perform the following steps to view the similar cases and related articles for t
 
    > ![Customer Service Workspace AI-suggested cases and knowledge articles](media/csw-smart-assist-cases-ka.png "Customer Service Workspace AI-suggested cases and knowledge articles")
 
-3. In the **Knowldge article suggestion** area, do any of the following:
+3. In the **Knowledge article suggestion** area, do any of the following:
    - Select an article title to go through and get relevant information. The selected knowledge article opens in a new application tab.
    - Select more commands to do the following:
        - **Copy Url:** Select to copy the knowledge article link to the clipboard. 
