@@ -43,6 +43,7 @@
 ##### [Configure file attachment capability](administrator/configure-file-attachment.md)
 ##### [Embed chat widget in Power Apps portals](administrator/embed-chat-widget-portal.md)
 ##### [Configure proactive chat](administrator/proactive-chat.md)
+##### [Configure reconnection to a previous chat session](administrator/configure-reconnect-chat.md)
 #### SMS channels
 ##### [Configure an SMS channel for TeleSign](administrator/configure-sms-channel.md)
 ##### [Configure an SMS channel for Twilio](administrator/Configure-sms-channel-twilio.md)
@@ -55,14 +56,18 @@
 #### Microsoft Teams
 ##### [Configure a Microsoft Teams channel](administrator/configure-microsoft-teams.md)
 ##### [Prerequisites](administrator/configure-microsoft-teams.md#prerequisites)
-##### [Configuration steps](administrator/configure-microsoft-teams.md#configure-a-teams-channel-in-omnichannel)
+##### [Configuration steps](administrator/configure-microsoft-teams.md#configureteams)
 #### Custom messaging channel
 ##### [Configure a Custom messaging channel](administrator/configure-custom-channel.md)
 #### Entity records channel
 ##### [Entity records routing](administrator/entity-channel.md)
 ##### [Route trigger for entity records](administrator/routing-trigger.md)
 ##### [Understand Omnichannel for Customer Service with Customer Service Hub](administrator/understand-omnichannel-customer-service-hub.md)
+#### [Enable file attachments](administrator/enable-file-attachments.md)
+#### [Configure automated messages](administrator/configure-automated-message.md)
+#### [Configure a post-conversation survey](administrator/configure-post-conversation-survey.md)
 #### [Delete a configured channel](administrator/delete-channel.md)
+#### [Asynchronous channel support](administrator/asynchronous-channels.md)
 ### Queues & Users
 #### [Work with queues](administrator/queues-omnichannel.md)
 #### [Manage users](administrator/users-user-profiles.md)
@@ -111,11 +116,18 @@
 
 
 ### Settings
+#### [Enable language translation for conversations](administrator/enable-real-time-translation.md)
 #### [Create and manage operating hours](administrator/create-operating-hours.md)
 #### [Set up location detection](administrator/geo-location-provider.md)
+#### [Create message templates](administrator/create-message-templates.md)
 #### [Create and manage data masking rules](administrator/data-masking-settings.md)
+#### [Set up location detection](administrator/geo-location-provider.md)
 #### [Create chat authentication settings](administrator/create-chat-auth-settings.md)
 #### [Enable self service settings in conversation summary](administrator/enable-self-service-settings.md)
+#### [Configure automated messages](administrator/configure-automated-message.md)
+#### [Create and manage operating hours](administrator/create-operating-hours.md)
+#### [Configure outbound messaging](administrator/outbound-messaging.md)
+
 
 ## Agent guide
 
@@ -145,6 +157,7 @@
 #### [Search for transcripts](agent/agent-oc/oc-search-transcipts.md)
 #### [View conversation and session forms](agent/agent-oc/oc-view-activity-types.md)
 #### [View customer summary for an incoming conversation request](agent/agent-oc/oc-view-customer-summary-incoming-conversation-request.md)
+#### [Real-time language translation of conversations](agent/agent-oc/oc-real-time-translation.md)
 #### Channels
 ##### [Use SMS channel](agent/agent-oc/sms-telesign-twilio.md)
 ##### [Use Facebook channel](agent/agent-oc/facebook.md)

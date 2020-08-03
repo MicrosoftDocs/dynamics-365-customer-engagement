@@ -2,7 +2,7 @@
 title: "Integrate Forms Pro with Dynamics 365 Marketing| Microsoft Docs  "
 description: "Learn how to create surveys in Dynamics 365 Marketing using Microsoft Forms Pro."
 keywords: Forms Pro; survey
-ms.date: 04/03/2020
+ms.date: 07/23/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -67,17 +67,18 @@ After you choose a survey, you can customize the email styling just as you would
 
 Marketing gives you the option to automate customer journey actions based on Forms Pro survey data.
 
-To add a Forms Pro survey to customer journey, go to the [customer journey designer](customer-journeys-create-automated-campaigns.md#design-your-journey). Then go to **Toolbox** > **Content** > **Forms Pro survey**. Drag and drop the **Forms Pro survey** tile onto your marketing email tile.
+To add a Forms Pro survey to customer journey:
+1. Go to the [customer journey designer](customer-journeys-create-automated-campaigns.md#design-your-journey). Then go to **Toolbox** > **Content** > **Forms Pro survey**. Drag and drop the **Forms Pro survey** tile onto your marketing email tile.
 
 ![Drag and drop Forms Pro into a customer journey](media/forms-pro-customer-journey-survey.png "Drag and drop Forms Pro into a customer journey")
 
-In the **Properties** tab, choose the survey you would like to use.
+2. In the **Properties** tab, choose the survey you would like to use.
 
 ![Choose a customer journey survey](media/forms-pro-customer-journey-pick-survey.png "Choose a customer journey survey")
 
-In the **Properties** tab, check the **is anonymous** box if you do not want to distribute a named survey.
+3. In the **Properties** tab, check the **is anonymous** box if you do not want to distribute a named survey.
 
-You can add a trigger to further understand how contacts engage with the survey.
+4. You can add a trigger to further understand how contacts engage with the survey.
 
 ![Choose a customer journey survey](media/forms-pro-trigger.png "Choose a customer journey survey")
 
@@ -85,6 +86,23 @@ You can use following trigger options:
 - Trigger based on source (email or survey)
 - Trigger based on a specific question
 - Trigger based on an answer
+
+> [!IMPORTANT]
+> Entity names related to Forms Pro have changed to "Customer Voice." For example, if you are using [Advanced Find](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/save-advanced-find-search) to search entities related to your surveys, you will need to search for Customer Voice, not Forms Pro. 
+> 
+> The entities associated with Forms Pro surveys are listed below:
+>
+> - Customer Voice localized survey email templates
+> - Customer Voice projects
+> - Customer Voice satisfaction metrics
+> - Customer Voice survey questions
+> - Customer Voice survey activities
+> - Customer Voice email templates
+> - Customer Voice survey invites
+> - Customer Voice survey question responses
+> - Customer Voice survey responses
+> - Customer Voice surveys
+> - Customer Voice unsubscribed recipients
 
 ### See also
 
