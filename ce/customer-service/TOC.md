@@ -12,6 +12,12 @@
 ### [Partner Sales and Marketing](learning-sales.md)
 
 ## User Guides
+
+### Customer Service workspace
+#### [Introduction to Customer Service workspace](csw-overview.md)
+#### [Overview of the productivity pane](csw-productivity-pane.md)
+#### [View AI suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)
+
 ### Customer Service Hub
 #### [Introduction to Customer Service Hub](user-guide-customer-service-hub.md)
 #### [Learn the basics](customer-service-hub-user-guide-basics.md)
@@ -35,10 +41,6 @@
 #### [Use Customer Service Hub on mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)
 #### [Upgrade to Customer Service Hub](upgrade-ish-csh.md)
 #### [Keyboard navigation support](keyboard-navigation-support-customer-service-hub.md)
-
-### Customer Service workspace
-#### [Introduction to Customer Service workspace](csw-overview.md)
-#### [Overview of the productivity pane](csw-productivity-pane.md)
 
 ### [Customer Service Team Member](customer-service-team-member.md)
 ### Customer Service app
