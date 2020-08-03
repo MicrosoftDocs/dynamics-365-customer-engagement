@@ -125,7 +125,7 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 Label | Description
 ------------ | -------------
 1 | Select the + icon to expand the tab menu.
-2 | Select Knowledge Article or Knowledge Search. 
+2 | Select Knowledge Article or Knowledge Search. You can also create and manage knowledge articles in other ways. For more information, see [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
 
 Intelligent knowledge suggestions display in the productivity pane while working on a case. 
 
@@ -151,6 +151,6 @@ While working a case, the productivity pane on the right side of the Customer Se
 
 ### See also  
 [Work with cases in Customer Service Hub](customer-service-hub-user-guide-create-a-case.md)    </br>
-[Work with activities in Custommer Service Hub](customer-service-hub-user-guide-manage-timeline-activities.md) </br>
+[Work with activities in Customer Service Hub](customer-service-hub-user-guide-manage-timeline-activities.md) </br>
 [Productivity pane](csw-productivity-pane.md)
 
