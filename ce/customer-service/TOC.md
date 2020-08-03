@@ -85,6 +85,7 @@
 #### [View and understand Customer Service Analytics](customer-service-analytics.md)
 #### [Configure Customer Service Analytics and Insights in Customer Service Hub](configure-customer-service-analytics-insights-csh.md)
 #### [Configure Customer Service Analytics in Power BI](configure-customer-service-analytics-dashboard.md)
+#### [Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)
 
 ## Connected Customer Service (IoT) add-in
 ### [Overview](cs-iot-overview.md)
@@ -163,6 +164,7 @@
 ### [Unable to delete a managed solution consisting an SLA enabled entity](troubleshoot-delete-managed-solution.md)
 ### FAQs
 #### [Timeline FAQs](timeline-faqs.md) 
+#### [FAQs on AI-suggested cases and knowledge articles](csw-faqs-ai-suggestions.md)
 
 ## Developer guide
 ### [Work with knowledge articles](work-knowledge-articles.md)
