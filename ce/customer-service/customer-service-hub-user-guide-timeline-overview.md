@@ -109,7 +109,7 @@ The **More commands** icon contains refresh, sort, and email functionalities.
 
 |Annotation|Description|
 |----------|-----------|
-|1|When you select the **More commands** (![More commands](media\timeline-more-commands.icon.png "More commands")) icon, the additional options are displayed.|
+|1|When you select the **More commands** icon, the additional options are displayed.|
 |2|The **Refresh timeline** command allows you to update the details in the timeline.|
 |3|The **Sort newer to older** / **Sort older to newer** command allows you sort records.|
 |4|The **Always show email as conversations / Always show email as individual messages** command enables or disables threaded emails.|
@@ -136,7 +136,7 @@ Enabling the threaded email view is done via the timeline configuration in Power
 You can use any of the following options for enabling threaded email views in timeline:
 
 **Option 1:** 
-1. Select the ![More commands](media\timeline-more-commands.icon.png "More commands") **More commands** icon on the timeline, which will display a flyout menu.
+1. Select the **More commands** icon on the timeline, which will display a flyout menu.
 
 2. Select **Always show email as conversations**. Now your emails will display in timeline threaded together.
 
