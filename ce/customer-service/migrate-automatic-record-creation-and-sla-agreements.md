@@ -261,7 +261,7 @@ When you've completed your first run and selected **Finish**, a migration **Summ
 2.	**Migrated** - Displays the number of rules you have completely migrated to date.
 3.	**Pending** - Displays the number of rules you have pending migration (includes failed rules, partially/incomplete migrated rules, and rules which have not been attempted)
 4.	**Refresh** - Allows you view your update migration status.
-5.	**Next Step** - Provides links to all of the ARC and SLA rules where you can review the migrated rules and choose to activate them. See [Review and activate new rules](#review-and-activate-new-rules) for more information. 
+5.	**Next Step** - Provides links to all of the ARC and SLA rules where you can review the migrated rules and choose to activate them. See [Review and activate new rules](migrate-automatic-record-creation-and-sla-agreements.md#review-and-activate-new-rules) for more information. 
 
 > ![Migration Tool for first-time user - Step 6](media\migration-tool-step-6-first-time-users-1.png "Migration Tool for first-time user - Step 6")
 
