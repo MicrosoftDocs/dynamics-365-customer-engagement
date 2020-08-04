@@ -67,7 +67,7 @@ After you create an operating hour record, you must add it to the **Design** tab
 4. Select **Save** on the navigation bar.
 
  > [!NOTE]
- > If you set up a recurring schedule, you can't specify a different schedule that overlaps the recurring schedule.
+ > If you set up a recurring schedule, and then try to set up another schedule that overlaps the recurring schedule, the recurring schedule will be overwritten with the new one.
 
 ## Edit or delete the work hour settings
 
