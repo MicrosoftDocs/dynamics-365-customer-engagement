@@ -15,7 +15,7 @@
 
 ### Customer Service workspace
 #### [Introduction to Customer Service workspace](csw-overview.md)
-#### [Customer Service workspace](customer-service-workspace-system-requirements.md)
+#### [Customer Service workspace system requirements](customer-service-workspace-system-requirements.md)
 #### [Overview of the productivity pane](csw-productivity-pane.md)
 #### [View AI suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)
 
