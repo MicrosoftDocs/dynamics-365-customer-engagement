@@ -12,6 +12,8 @@ manager: shujoshi
 
 # Configure email 
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 Email is a critical communication tool that allows users to interact with customers in a timely and effect manner. The email experience in customer engagement apps provides an easy and immersive rich text email experience for users that helps them deliver a more professional and consistent personalized service in an efficient and effective manner using templates and enhanced features and functionality.  
 
 This experience gives system administrators the ability to configure email templates and enable quick access to email to help users create emails quickly directly from the timeline so they can deliver a more personalized service.
@@ -75,7 +77,7 @@ To manage email attachment size limitations, use the following steps:
 2.	Under the **Set file size limit for attachments** section, set file size on attachments. 
 
 > [!Note] 
-> The default file size limit for attachments is 5MB.  The size limit for attachments can be increased to a maximum of 132MB per file. 
+> The default file size limit for attachments is 5 MB. The size limit for attachments can be increased to a maximum of 132 MB per file. 
 
 ![How to configure email attachment size limitations](media\email-how-to-configure-email-attachment-size-limitations-1.png "How to configure email attachment size limitations")
 
