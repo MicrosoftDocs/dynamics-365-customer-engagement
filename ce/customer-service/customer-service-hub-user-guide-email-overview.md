@@ -38,7 +38,7 @@ You can work in either the **navigate-to** email or the **contextual** email exp
 <li>Minimize the email window to return to the records you were working on.</li>
 <li>Simultaneously view, compose, and reply to five (5) emails in pop-up windows when enabled. </li></ul></ul>
 
-The following highlights the difference between the **navigate-to** and **contextual** email experience in the Timeline based on how you system administrator has configured your email:
+The following highlights the difference between the **navigate-to** and **contextual** email experience in the Timeline based on how your system administrator has configured your email:
 1.	Click on **Create a timeline** record.
 
 2.	Select **Email**.
@@ -129,8 +129,9 @@ For more information on enhanced email and configurations, see [Enable the enhan
 ### How to respond to an email
 Depending where you are in your app, how you reply to an email will function differently. An example from the Customer Service hub is provide below.
 
-- **Compsing an email in activities and cases**
-When your system administrator has email enabled, the email option will appear on the global navigation and in the activities command bar. When composing an email in entities from **Activities**, you must set the reply field.  
+- **Composing an email in activities and cases**
+
+If your system adminsistrator has enabled email, the email option displays on the global navigation and in the activities command bar. When composing an email in entities from **Activities**, you must set the reply field.  
 
 Use the following to access email in entities:
 
