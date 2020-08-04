@@ -11,9 +11,12 @@ ms.reviewer: nenellim
 ---
 
 # Use Email 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-early-access](../includes/cc-early-access.md)]
 
-Having the ability to communicate effectively with customers can lead to increased sales and customer satisfaction. Dynamics 365 email empowers users with the ability to respond and provide timely customer interaction effortlessly through quick email access with enhanced features and functionality. Users can compose, reply, and review emails, as well as quickly attach and send images that add value and support to customer communication using streamlined functionality. You can also ensure interactions between users and customers are consistent and professional by using email templates with rich text and images. 
+> [!Note] 
+> The existing enhanced email form will be deactivated with the general availability of the 2020 release wave 2 features. In the latest version of the Sales app (build 9.0.2006.5005), you'll notice that the name of the existing enhanced email form is changed to Enhanced Email (deprecated). A new form named Enhanced Email has been introduced with the new enhanced capabilities like quick preview or multiple email attachments. If you don't opt in for early access of the 2020 release wave 2 features, this form will be presented in a Read-only mode.
+
+Having the ability to communicate effectively with customers can lead to increased sales and customer satisfaction. The email capability in customer engagement apps empowers users with the ability to respond and provide timely customer interaction effortlessly through quick email access with enhanced features and functionality. Users can compose, reply, and review emails, as well as quickly attach and send images that add value and support to customer communication using streamlined functionality. You can also ensure interactions between users and customers are consistent and professional by using email templates with rich text and images. 
 
 The following is an overview of email features and functionality that shows you: 
 - [Understand the email experience](customer-service-hub-user-guide-email-overview.md.#understand-the-email-experience)
@@ -28,7 +31,7 @@ The following is an overview of email features and functionality that shows you:
 You can work in either the **navigate-to** email or the **contextual** email experience. The difference between the navigate-to vs. contextual email experience is where the email displays on your screen. Both experiences use the same **Enhanced Email** form, which is enabled by default out-of-the-box (OOTB).
 
 > [!Important]
-> **Contextual** email is also referred to as **Enhanced** email. Please be aware there is no special functionality associated with the **Contextural / Enhanced** email experience, other than it is a pop-up experience. 
+> **Contextual** email is also referred to as **Enhanced** email. Please be aware there is no special functionality associated with the **Contextual / Enhanced** email experience, other than it is a pop-up experience. 
 
 <ul>
 <li><b>Navigate-to email experience</b>: always displays in a new screen. </li>
@@ -92,7 +95,7 @@ For example, users can create emails by going to **Service**, and then using the
 
 Use the following features and functionality to tailor emails:
 
-1.	The name displayed in the **Form** field is automatically populated based on the user who is currently signed in.
+1.	The name displayed in the **From** field is automatically populated based on the user who is currently signed in.
 
 2.	Use the ![](media\email-expand-icon.png "expand email") expand icon to maximize the screen to compose your email in a full-screen view and minimize.
 
