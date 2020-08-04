@@ -25,7 +25,7 @@ search.app:
 
 # Fair use policy
 
-Dynamics 365 Marketing relies on shared cloud resources for data and processing. This policy defines the limits for resource usage per org. These limits ensure that the performance of other tenants is not affected and resources are evenly distributed.
+Dynamics 365 Marketing relies on shared cloud resources for data and processing. This policy defines the limits for resource usage per org. These limits ensure that other tenants' performance is not affected and resources are evenly distributed.
 
 The table below shows the current usage limits for Marketing features.
 
