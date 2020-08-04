@@ -1,10 +1,10 @@
 ---
 title: "Create and manage operating hours | MicrosoftDocs"
 description: "Instructions to create and manage operating hours in Omnichannel for Customer Service."
-author: lalexms
-ms.author: laalexan
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 08/01/2020
+ms.date: 08/04/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -23,10 +23,12 @@ Operating hours define the hours when your organization's customer support team 
 The operating hours schedules cater to the following scenarios:
 
 - Display the non-availability of customer support on public holidays that are otherwise operating hours.
-- Accommodate change of calendar timings for daylight saving time twice an year.
+- Accommodate change of calendar timings for daylight saving time twice an year for timezones that have implemented the daylight saving time.
 - Set up separate schedules for agents, bots, and queues to cater to different business scenarios and product lines seamlessly for any channel.
 - Define schedules to transition customer queues from bots to agents.
 - Customize the display and other settings of the chat widget during non-business hours.
+
+After you define the business hours for your organization and set up messaging options to be displayed to customers, when customers interact through a channel during non-business hours, they will see the message that you have set. For example, customers can be shown an offline message on the chat widget as "Our agents are not available. Our business hours are between 8:00 am to 5:00 pm." Similarly, you can configure the queues for social channel to send responses to customers about the business hours when they contact your agents through any of the social channels.
 
 After you create an operating hour record, you must add it to the **Design** tab of the appropriate chat widget to control the display of the widget. For social channels and queues, the operating hour will be available for selection on the **General** and **Summary** tabs respectively.
 
@@ -53,7 +55,7 @@ After you create an operating hour record, you must add it to the **Design** tab
    - **Calendar:** Set the period for the schedule. The option to choose dates is available only when **All Day** is Yes.
    - **Time:** Select the start and end timings for the schedule. This option is available only when **All Day** is No.
    - **Repeat:** Select a recurrence option and the days of the week for the schedule to be applicable. The repeat option is available only when the calendar is set to one day.
-   -  **Time zone:** Select an applicable time zone.
+   -  **Time zone:** Select an applicable time zone. The daylight saving settings are taken into account, if applicable to the selected time zone.
     
         > ![Create a working hour schedule](../media/oc-working-hours-schedule.png "Create a working hour schedule")
 
