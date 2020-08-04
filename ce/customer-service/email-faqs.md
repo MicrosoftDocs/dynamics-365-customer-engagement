@@ -24,7 +24,7 @@ If you've enabled an email form but it is doesn't display, you'll need to enable
 
 3.	In **Application** settings, select **App**.
 
-4.	Select ![](media\timeline-more-commands-icon.png "more commands") **More Options** on **Customer Service Hub**.
+4.	Select ![More commands icon](media\timeline-more-commands-icon.png "more commands") **More Options** on **Customer Service Hub**.
 
 5.	On the **App Designer** drop-down menu, select **Open**. 
 
