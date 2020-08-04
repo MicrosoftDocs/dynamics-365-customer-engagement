@@ -10,7 +10,7 @@
 
 # [Install the mobile app](install-dynamics-365-for-phones-and-tablets.md)
 
-# [User Guide]
+# User Guide
 ## [Use the mobile app](dynamics-365-phones-tablets-users-guide.md)
 ## [Send email from the mobile app (Preview)](send-email.md)
 # [Work offline on your mobile device](work-in-offline-mode.md)
