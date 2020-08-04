@@ -1,6 +1,6 @@
 ---
 title: "Email Overview for Users | MicrosoftDocs"
-description: "Email Overview for Users of Customer Service Hub for Customer Service"
+description: "Email Overview for Users"
 ms.date: 08/03/2020
 ms.service:
   - "dynamics-365-customerservice"
@@ -10,12 +10,12 @@ ms.author: lerobbin
 ms.reviewer: nenellim
 ---
 
-# Using Email 
+# Use Email 
 
-Having the ability to communicate effectively with customers can lead to increased sales and customer satisfaction. Dynamics 365 Customer Service empowers agents with the ability to respond and provide timely customer interaction effortlessly through quick email access with enhanced features and functionality.  Agents can compose, reply, and review emails, even quickly attach and send images that add value and support to customer communication using streamlined functionality.  You can also ensure interactions between agents and customers are consistent and professional by using email templates with rich text editors. 
+Having the ability to communicate effectively with customers can lead to increased sales and customer satisfaction. Dynamics 365 email empowers users with the ability to respond and provide timely customer interaction effortlessly through quick email access with enhanced features and functionality.  Users can compose, reply, and review emails, even quickly attach and send images that add value and support to customer communication using streamlined functionality.  You can also ensure interactions between users and customers are consistent and professional by using email templates with rich text and images. 
 
 The following is an overview of email features and functionality that shows you: 
-- [Navigate to vs. contextual email experience](customer-service-hub-user-guide-email-overview.md.#navigate-to-vs-contextual-email-experience)
+- [Understand the email experience](customer-service-hub-user-guide-email-overview.md.#understand-the-email-experience)
 - [How to view, compose, and respond to emails](customer-service-hub-user-guide-email-overview.md#how-to-view-compose-and-respond-to-emails)
 - [How to use rich text editor toolbar in email](customer-service-hub-user-guide-email-overview.md#how-to-use-the-rich-text-editor-toolbar-in-email)
 - [How to use email templates](customer-service-hub-user-guide-email-overview.md#how-to-use-email-templates)
@@ -23,46 +23,46 @@ The following is an overview of email features and functionality that shows you:
 - [How to view and insert images in email](customer-service-hub-user-guide-email-overview.md#how-to-view-and-insert-images-in-email) 
 - [How to create a signature for emails and queues](customer-service-hub-user-guide-email-overviewmd#how-to-create-a-signature-for-emails-and-queues)
 
-## Navigate to vs. contextual email experience
-You can work in either the navigate to email or the contextual email experience. The difference between the navigate to vs. contextual email experience is where the email displays on your screen.
+## Understand the email experience
+You can work in either the **navigate-to** email or the **contextual** email experience. The difference between the navigate-to vs. contextual email experience is where the email displays on your screen. Both experiences use the same **Enhanced Email** form, which is enabled by default out-of-the-box (OOTB).
 
-- **Navigate to email experience**: will always take you to a new screen. 
-- **Contextual email experience**: will always display in a pop-up screen.
+> [!Important]
+> **Contextual** email is also referred to as **Enhanced** email. Please be aware there is no special functionality associated with the **Contextural / Enhanced** email experience, other than it is a pop-up experience. 
 
-The following provides an over of how to access the **navigate to** and **contextual** email experiences:
+<ul>
+<li><b>Navigate-to email experience</b>: always displays in a new screen. </li>
+<li><b>Contextual email experience</b>: can only be intiated from the Timeline and displays email in a pop-up screen.
+<ul>
+<li>Allows you to move to different pages without losing email content.</li>
+<li>Minimize the email window to return to the records you were working on.</li>
+<li>Simultaneously view, compose, and reply to five (5) emails in pop-up windows when enabled. </li></ul></ul>
+
+The following highlights the difference between the **navigate-to** and **contextual** email experience in the Timeline based on how you system administrator has configured your email:
 1.	Click on **Create a timeline** record
 2.	Select **Email**
-3.	The **navigate to email experience** will display your email in a new screen
-4.	If your system administrator has enabled the **composed email experience**, your email will display in a pop-up window on your current screen.
+3.	**Navigate-to** email will display in a new screen 
+4.	**Contextual** email will display in a pop-up window on your current screen
 
 ![Navigate to email vs contextual email experience](media\email-navigate-vs-contextual-email-1.png "Navigate to email vs contextual email experience")
 ![Navigate to email vs contextual email experience](media\email-navigate-vs-contextual-email-2.png "Navigate to email vs contextual email experience")
 
-## Enhanced email experience
-The Enhanced Email experience is the default email form that is enabled out-of-the-box (OOTB) on both the **navigate to** and **contextual email** experiences and allows you to:
-- Navigate to different pages without losing email content.
-- Minimize the email window to return to the records you were working on.
-- Expand the email editor pop-up window to see more email options.
-- Simultaneously view, compose, and reply to five (5) emails in pop-up windows when enabled. 
-- Search for and apply a predefined template to an email you're composing.
-- Insert attachments to email.
-
 > [!Important]
-> - The enhanced email experience is available only for email activities created from the Timeline section.
-> - Before you can use it, the enhanced email experience must enable by your system administrator. 
+> - The pop-up window only opens when the height and width of your screen size is at least 400 x 650 pixels or greater. If lower, **navigate-to** email will be the default experience.
+> - The **Contextual** email experience is available only for in Timeline.
 
 >[!Note]
-> - If you use customized forms in email, you will still be able to see your forms. 
+> - If you use customized forms in email, you will still be able to see and use them. The **Enhanced Email** form showcases various email capabilities and functionality and just a standard form. 
 
-For more information on enhanced email and configurations see: 
+For more information see: 
 - [Enable the enhanced email experience](customer-service-hub-user-guide-email-overview.md#enable-the-enhanced-email-experience)
 
 ## How to view, compose and respond to emails
 Users can view, create, and send emails faster with streamlined access that helps users compose, reply, and send emails using rich text editing and drag-and-drop attachment features and functionalities.
 
 ### How to view an email
+You can view and respond to emails across your Dynamics 365 app.
 
-Users can view and access emails in the Customer Service Hub by going to **Service**, then using the following steps:
+For example, users can view and access emails the Customer Service hub by going to **Service**, then using the following steps:
 1.	Select **Activities**
 2.	When select **All Activities** a drop-down list appears 
 3.	Select an email list you want to view.
@@ -75,7 +75,7 @@ Users can view and access emails in the Customer Service Hub by going to **Servi
 ### How to compose an email
 Feature and functionality updates have streamlined user’s ability to quickly create email with rich text editing capability, and drag-and-drop or copy-and-paste images to enrich customer interactions.
 
-Users can create emails in the Customer Service Hub by going to **Service**, then using the following steps:
+For example, users can create emails by going to **Service**, then use the following steps:
 1.	Select **Activities**
 2.	On the command bar, when you select **Email**, it opens an email in a new window. 
 
@@ -105,29 +105,28 @@ For more information, see [Editor functionality and accessibility shortcuts](cus
 ![How to compose and email](media\email-compose-email-1.png "How to compose and email")
 
 >[!Important]
-> - The enhanced email pop-up window opens only when the height and width of your screen size is at least 400 x 650 pixels or greater. If lower, you will be taken to the standard form instead of the enhanced email experience.
 > - The From and To fields are automatically populated based on the user and the account and contact of the original record.
  
 For more information on enhanced email and configurations see: 
 - [Enable the enhanced email experience](customer-service-hub-user-guide-email-overview.md#enable-the-enhanced-email-experience)
 
 ### How to respond to an email
-Depending on where you are in the Customer Service hub, email reply functionality is different.  
+Depending where you are in your app, how you reply to an email will function differently. An example from the Customer Service hub is provide below.
 
-- **Responding to emails in activities and cases**
-When your system administrator has email enabled, the email option will appear on the global navigation. When replying to emails in entities from **Activities** and **Cases** you must set the reply field.  
+- **Compsing an email in activities and cases**
+When your system administrator has email enabled, the email option will appear on the global navigation and in the activities command bar. When composing an email in entities from **Activities** you must set the reply field.  
 
 Use the following to access email in entities:
 1.	On the **Global Navigation** bar, select the [](media\email-plus-icon.png "email icon") plus icon
-2.	From the dropdown list, select **email**  
-3.	You can also select **Email** from the top nav, when enabled by your system administrator.
+2.	From the dropdown list, select **Activities** then **email**  
+3.	You can also select **Email** from the top nav.
 
 >[!Note]
 > Email option will only appear in the dropdown and top nav when enabled by your system administrator.
 
 ![How to respond to an email](media\email-how-to-respond-to-an-email-1.png "How to respond to an email")
 
-- **Responding to emails in timeline**
+### Responding to emails in timeline
 When replying to emails in Timeline, the command bar in the top right corner provides you with reply options. Once you select an option, your email automatically is set and opens in that state ready for you to begin your message.  
 
 Use the following command options when working with emails in Timeline:
@@ -229,7 +228,7 @@ When you have the message composed as you want it then:
 4.	Enter the **Template name** you want to save your new template as
 5.	Enter a **Permission level** to share with the **Organization** or just use as an **Individual**
 6.	Select a **Category** type.  Default is set to User.
-7.	Select which **Language** you want the template to appear in
+7.	**Language** displays your installed language packs. **Language** helps to categorize your templates. 
 8.	Select **Connect** when done
 
 ![How to convert an email to a template](media\email-how-to-convert-an-email-to-a-template-1.png "How to convert an email to a template")
@@ -243,7 +242,7 @@ When creating a template, you have the option to work with a blank or existing t
 
 ![How to create an email template](media\email-how-to-create-an-email-template-1.png "How to create an email to a template")
 
-- **Start with existing templates**<br />
+### Start with existing templates
 If you select to **Start with existing templates** it will automatically be populated with the pre-established meta-data from the existing template that you can customize. 
 
 When the **Create a new email template** screen appears:
@@ -263,14 +262,15 @@ Once you have selected an existing template it will display:
 
 ![Creating email template copies](media\email-template-copy-1.png "Creating email template copies")
 
-- **Start with a blank template option**<br />
+### Start with a blank template option
+
 If you select to **Start with a blank template** you will need to build and add all the data to the template.
 
 When the **Create an email template** screen appears:
 1.	Enter the **Template name** you want to save your new template as
 2.	Enter a **Permission level** to share with the **Organization** or just use as an **Individual** 
 3.	Select a Category type.  Default is set to User.
-4.	You can see templates of a particular language by selecting a language from the Language list. To see templates of a different locale, select a language from the **Language** list. The templates are loaded as per the selected language.
+4.	**Language** displays your installed language packs. **Language** helps to categorize your templates. 
 5.	Select **Create** when done
 
 ![Start with a blank template option](media\email-create-an-email-template-1.png "Start with a blank template option")

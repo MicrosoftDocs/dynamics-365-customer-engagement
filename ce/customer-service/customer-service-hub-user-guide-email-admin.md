@@ -17,12 +17,12 @@ Email is a critical communication tool that allows users to interact with custom
 This experience gives system administrators the ability to configure email templates and enable quick access to email to help users create emails fast directly from the timeline so they can deliver a more personalized service.
 
 How to navigate email configurations
-- [How to enable email](customer-service-hub-user-guide-email-admin.md#how-to-enable-email)
+- [How to configure the email form order](customer-service-hub-user-guide-email-admin.md#how-to-configure-the-email-form-order)
 - [How to enable the enhanced email experience](customer-service-hub-user-guide-email-admin.md#how-to-enable-the-enhanced-email-experience)
 - [How to configure email attachments size limitations](customer-service-hub-user-guide-email-admin.md#how-to-configure-email-attachment-size-limitations)
 
 
-## How to enable email
+## How to configure the email form order
 Email must be enabled for users to view and access it. Unless email is enabled it will not display in the command bars.
 
 To enable email:
