@@ -86,17 +86,17 @@ You can access the migration tool using the following steps:
 
 The migration process consists of the following steps:
 
-**Step 1: Category to migrate.**  Allows you to pick and choose which rules you wish to migrate.
+**Step 1: Category to migrate**  Allows you to pick and choose which rules you wish to migrate.
 
-**Step 2: Pre-migration checkup.** Provides insights into any potential migration failures you may incur prior to beginning your migration.    
+**Step 2: Pre-migration checkup** Provides insights into any potential migration failures you may incur prior to beginning your migration.    
 
-**Step 3: Rules and items to migrate.** Allows you to select which rules you want to migrate. 
+**Step 3: Rules and items to migrate** Allows you to select which rules you want to migrate. 
 
-**Step 4: Review.** Provides you with the opportunity to go through any rules that have been identified as having errors or issues and fix these prior to migration.
+**Step 4: Review** Provides you with the opportunity to go through any rules that have been identified as having errors or issues and fix these prior to migration.
 
-**Step 5: Migration.** Post-migration, allows you to review which rules successfully completed the migration process and which ones failed. 
+**Step 5: Migration** Post-migration, allows you to review which rules successfully completed the migration process and which ones failed. 
 
-**Step 6: Finish.** Provides you with a summary and status page of rules which have successfully migrated, those that are pending, and failed migration.
+**Step 6: Finish** Provides you with a summary and status page of rules which have successfully migrated, those that are pending, and failed migration.
 
 ## Use the migration tool 
 
