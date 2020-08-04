@@ -38,8 +38,8 @@ The migration tool provides the following functionality:
 ## Prerequisites
 
 - Customer Service licensing 
-- ARC must have a Customer Service version of 9.0.20034.20XX or higher environment to opt-in for migration
-- SLA must have a Customer Service version of 9.0.20053.1030 or higher enironment to opt-in for migration
+- ARC must have a Customer Service version of 9.0.20034.20XX or higher environment to opt in for migration
+- SLA must have a Customer Service version of 9.0.20053.1030 or higher enironment to opt in for migration
 - Administrator permissions 
 
 ### Working with rules 
@@ -108,16 +108,16 @@ When you have successfully accessed the migration tool, choose from one of the f
 
 ## Migration tool for first-time users
 
-The migration landing page shown below is what will display for first time users and provides the following: 
+The migration landing page shown below is what will display for first-time users and provides the following: 
 1.	An overview of both ARC and SLAs rules.
 2.	**Total** - Displays the number of legacy rules available overall.
-3.	**Migrated** - Displays the number of rules you have completely migrated.
+3.	**Migrated** - Displays the number of rules you have migrated.
 4.	**Pending** - Displays the number of rules you have pending migration (includes failed rules, partially or incomplete migrated rules, and rules that have not been attempted).
 5.	**Migration status** - Displays whether migration has started.
 6.	**Refresh** - Allows you to update migration status.
 7.	**Start migration** - Allows you to begin the migration process.
 
-> ![Migration tool first-time user overview](media\migration-tool-first-time-users-1.png  "Migration Tool First Time User Overview")
+> ![Migration tool first-time user overview](media\migration-tool-first-time-users-1.png  "Migration tool first-time user overview")
 
 When you select **Start migration**, the migration tool takes you through the migration process, which consists of the following steps: 
 
@@ -133,7 +133,7 @@ When you select **Start migration**, the migration tool takes you through the mi
 The **Step 1** screen provides:
 
 1.	A tracker that is displayed on the left, showing you where you are in the migration process at all times.
-2.	Category options that allows you to select which rules you want to migrate by selecting a box. You can elect to migrate ARC and SLAs separately, or migrate both at the same time. 
+2.	Category options that allow you to select which rules you want to migrate by selecting a box. You can elect to migrate ARC and SLAs separately, or migrate both at the same time. 
 3.	You must select a category for migration before you can proceed.   
 
 > ![Migration tool for first-time user - Step 1](media\migration-tool-step-1-first-time-users-1.png "Migration tool for first-time user - Step 1")
@@ -158,7 +158,7 @@ As a first-time user, you won't have any insights until you complete the Pre-mig
 
 3.	To view which rules passed and which rules failed, select **Next** to continue to **Step 3**.
 
-> ![Migration Tool for first time user - Step 2](media\migration-tool-step-2-first-time-users-1.png "Migration Tool for first time user - Step 2")
+> ![Migration Tool for first-time user - Step 2](media\migration-tool-step-2-first-time-users-1.png "Migration Tool for first-time user - Step 2")
 
 ## Step 3: Rules and items to migrate
 
@@ -198,7 +198,7 @@ The **Basic** view provides the following overview for each individual rule that
 
 2.	**Pre-migration checkup** shows results along with details why a rule failed.
 
-> ![Migration Tool for first time user - Basic detail screen for failed rules](media\migration-tool-step-3-basic-screen-first-time-users-1.png "Migration Tool for first time user - Basic detail screen for failed rules")
+> ![Migration Tool for first-time user - Basic detail screen for failed rules](media\migration-tool-step-3-basic-screen-first-time-users-1.png "Migration Tool for first-time user - Basic detail screen for failed rules")
 
 ### Advanced view
 
@@ -208,7 +208,7 @@ The **Advanced** view provides the following overview on rules that failed, incl
 
 2.	The **Download log** provides a list of failed rules to review and troubleshoot.  
 
-> ![Migration Tool for first time user - Advanced detail screen for failed rules](media\migration-tool-step-3-advanced-screen-first-time-users-1.png "Migration Tool for first time user - Advanced detail screen for failed rules")
+> ![Migration Tool for first-time user - Advanced detail screen for failed rules](media\migration-tool-step-3-advanced-screen-first-time-users-1.png "Migration Tool for first-time user - Advanced detail screen for failed rules")
 
 ## Step 4: Review
 
@@ -220,7 +220,7 @@ When you have selected the rules you want to migrate for ARC and/or SLAs, a list
 
 3.	Select **Start migration** to begin the migration.
 
-> ![Migration Tool for first time user - Step 4](media\migration-tool-step-4-first-time-users-1.png "Migration Tool for first time user - Step 4")
+> ![Migration Tool for first-time user - Step 4](media\migration-tool-step-4-first-time-users-1.png "Migration Tool for first-time user - Step 4")
 
 ## Step 5: Migration
 
@@ -229,8 +229,8 @@ After you begin your migration, the following screen displays with the details:
 1. A message that your migration is in progress.
 2. The **Next** button is disabled during the migration process. When the migration is completed you will be taking to the next step automatically.
 
-> ![Migration Tool for first time user - Step 5](media\migration-tool-step-5-first-time-users-1.png
- "Migration Tool for first time user - Step 5")
+> ![Migration Tool for first-time user - Step 5](media\migration-tool-step-5-first-time-users-1.png
+ "Migration Tool for first-time user - Step 5")
 
 When migration is complete the following screen displays with the following details:
 
@@ -240,7 +240,7 @@ When migration is complete the following screen displays with the following deta
 4.	**Migration Status** - Displays either green check mark ![green check mark](media\migration-tool-step-5-green-check-first-time-users-3.png "green check mark")  which represents rules successfully migrated or a red exclamation mark ![red exclamation mark](media\migration-tool-step-5-red-check-first-time-users-3.png "red exclamation mark")   which represents some or all rules did not successfully complete migration.
 5.	**Finish** - Completes the migration process when finished.
 
-> ![Migration Tool for first time user - Step 5](media\migration-tool-step-5-first-time-users-2.png "Migration Tool for first time user - Step 5")
+> ![Migration Tool for first-time user - Step 5](media\migration-tool-step-5-first-time-users-2.png "Migration Tool for first-time user - Step 5")
 
 ### Incomplete migration details
 
@@ -251,7 +251,7 @@ To view ARC and/or SLAs rules that did not successfully complete migration, you 
 3.	**Problem Details** - Displays why the rule failed and has a **Download log** option that provides more details.
 4.	**Download all logs** - Allows you to download a list of the rules that failed migration that you can use for review and troubleshooting.  
 
-> ![Migration Tool for first time user - Step 5 Incomplete migration details](media\migration-tool-step-5-first-time-users-3.png "Migration Tool for first time user - Step 5 Incomplete migration details")
+> ![Migration Tool for first-time user - Step 5 Incomplete migration details](media\migration-tool-step-5-first-time-users-3.png "Migration Tool for first-time user - Step 5 Incomplete migration details")
 
 ## Step 6: Finish
 
@@ -263,7 +263,7 @@ When you've completed your first run and selected **Finish**, a migration **Summ
 4.	**Refresh** - Allows you view your update migration status.
 5.	**Next Step** - Provides links to all of the ARC and SLA rules where you can review the migrated rules and choose to activate them. See [Activate New Rules](#activate-new-rules) for more information. 
 
-> ![Migration Tool for first time user - Step 6](media\migration-tool-step-6-first-time-users-1.png "Migration Tool for first time user - Step 6")
+> ![Migration Tool for first-time user - Step 6](media\migration-tool-step-6-first-time-users-1.png "Migration Tool for first-time user - Step 6")
 
 ## Review and activate migrated rules
 
@@ -271,7 +271,7 @@ When you activate new rules for either ARC or SLA, the following screen displays
 
 1.	**Rule name** - Displays migrated rules with an underscore (\_) to make it easier to identify the migrated rules. For example: **\_migrated**.
 
-> ![Migration Tool for first time user - Step 6 Activate New Rules](media\migration-tool-step-6-first-time-users-2.png "Migration Tool for first time user - Step 6 Activate New Rules")
+> ![Migration Tool for first-time user - Step 6 Activate New Rules](media\migration-tool-step-6-first-time-users-2.png "Migration Tool for first-time user - Step 6 Activate New Rules")
 
 ### Migration detail section
 
@@ -288,14 +288,14 @@ When you select a **Rule name** ending in **\_migrated**, the following displays
 3. **Migration status** - Displays the status of the rule as either **Migrated** or **Incomplete**.
 4. **Problem details** - Provides high-level detail on the error(s) encountered for the rule during migration. 
 
-> ![Migration Tool for first time user - Step 6 Migration Status](media\migration-tool-step-6-first-time-users-3.png "Migration Tool for first time user - Step 6 Migration Status")
+> ![Migration Tool for first-time user - Step 6 Migration Status](media\migration-tool-step-6-first-time-users-3.png "Migration Tool for first-time user - Step 6 Migration Status")
 
 #### Working with successfully migrated rules
 
 1. **Mark as complete** - Toggled to **Yes** by default.
 2. **Migration status** - Displays the status of the rule as either **Migrated** or **Incomplete**.
 
-> ![Migration Tool for first time user - Step 6 Migration Status](media\migration-tool-step-6-first-time-users-3a.png "Migration Tool for first time user - Step 6 Migration Status")
+> ![Migration Tool for first-time user - Step 6 Migration Status](media\migration-tool-step-6-first-time-users-3a.png "Migration Tool for first-time user - Step 6 Migration Status")
 
 ## Migration tool for experienced users
 
@@ -365,36 +365,4 @@ When you finish your migration, an updated **Summary** page will be displayed th
 [Define service-level agreements](define-service-level-agreements.md)
 
 [Important changes (deprecations) coming](https://docs.microsoft.com/power-platform/important-changes-coming) 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
