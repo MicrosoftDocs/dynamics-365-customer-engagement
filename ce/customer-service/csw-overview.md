@@ -86,6 +86,7 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 6 | Apply a routing rule to route cases to a queue. 
 7 | Open the menu for additional actions including Assign, Add to Queue, Run Report, Email a Link, Share, Follow, or Unfollow cases. 
 |
+
 #### Editing case data
 
 Let's explore the fields you can edit on the **Case Summary** tab:
@@ -136,6 +137,7 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 1 | Select the + icon to expand the tab menu.
 2 | Select Knowledge Article or Knowledge Search. You can also create and manage knowledge articles in other ways. For more information, see [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md).
 |
+
 Intelligent knowledge suggestions are displayed in the productivity pane while working on a case. 
 
 
