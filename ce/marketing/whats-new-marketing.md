@@ -32,7 +32,7 @@ Marketing updates are [pushed to all customers automatically](https://cloudblogs
 
 ## August 2020 update
 
-The August update includes email designer enhancements and 33 bug fixes, improving reliability and stability. The early access release includes [2020 release wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/planned-features) features, including built in Teams functionality for events, improved social posting, and email designer improvements.
+The August update includes a preview of built in Teams functionality for events, email designer enhancements, and 33 bug fixes, improving reliability and stability. The early access release includes [2020 release wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/planned-features) features, including improved social posting and email designer improvements.
 
 ### Version number
 
@@ -52,15 +52,23 @@ The August update includes email designer enhancements and 33 bug fixes, improvi
 >
 > We encourage all customers to provide feedback related to early access features on the [Dynamics 365 Marketing Forum](https://community.dynamics.com/365/marketing/f/dynamics-365-for-marketing-forum), your Microsoft contact or partner, and/or through [Microsoft Support](https://docs.microsoft.com/power-platform/admin/get-help-support).
 
-- **Run webinars and meetings using built in Microsoft Teams functionality**
-    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/teams-integration-webinar)
-    - [Docs](teams-webinar.md)
 - **Create and manage content-rich social media posts and easily monitor performance**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/improved-social-posting)
     - [Docs](social-posting.md)
 - **Create engaging, customized emails faster**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/create-customized-emails-faster)
     - [Docs](email-design.md)
+
+### Preview feature
+
+> [!IMPORTANT]
+> This is a preview feature. A preview feature is a feature that is not complete, but is made available before it's officially in a release so customers can get early access and provide feedback. Preview features aren't meant for production use and may have limited or restricted functionality.
+>
+> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate supplemental terms of use.
+
+- **Run webinars and meetings using built in Microsoft Teams functionality**
+    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/teams-integration-webinar)
+    - [Docs](teams-webinar.md)
 
 ### Monthly enhancements
 

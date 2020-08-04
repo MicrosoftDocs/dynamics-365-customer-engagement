@@ -182,7 +182,7 @@
 #### [Create and manage recurring events](event-recurring.md)
 #### [Create and use event templates](event-templates.md)
 #### [Event management dashboard](event-management-dashboard.md)
-#### [Early access: Set up a Microsoft Teams webinar](teams-webinar.md)
+#### [Preview: Set up a Microsoft Teams webinar](teams-webinar.md)
 #### [Set up a webinar](set-up-webinar.md)
 #### [Manage event sponsorships](manage-event-sponsorships.md)
 #### [Manage attendee logistics and accommodation](manage-event-logistic.md)
