@@ -172,7 +172,7 @@ The mobile project template contains all customizations for the Field Service Mo
 10. Double-click the mobile project template *parent* (not your new derivative), and then select **Publish All**.
 
 > [!Note]
-> You need to publish the project to match the version of Field Service Mobile your technicians are using. As an example, if your technicians are using Field Service Mobile v12.1, publish the mobile project template to 12.1. If your technciians are using different versions of the mobile project it is recommended to publish the project to the lowest common version.
+> Make sure to publish the project to match the version of Field Service Mobile your technicians are using. For example, if your technicians are using Field Service Mobile v12.1, publish the mobile project template to 12.1. If your technicians are using different versions of the mobile project, publish the project to the lowest common version.
 
 11.  Verify the mobile configurations are published by checking for an arrow next to the projects.
 > [!div class="mx-imgBorder"]
