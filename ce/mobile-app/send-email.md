@@ -29,8 +29,8 @@ search.app:
 
 Until now, you could only read emails using the Dynamics 365 for phones and tablets app. With the early access release of the enhanced email experience in the Dynamics 365 for phones and tablets app, you can compose an email within the app with the following capabilities:
 - Full email editor formatting supported as available in the Unified Interface apps.
-- Search for and apply a predefined template to an email.
-- Add attachments to an email
+- Add attachments to an email.
+- Search for and apply a predefined template to an email. 
 
 > [!NOTE]
 > This feature isn't available for mobile offline.
@@ -55,7 +55,7 @@ Your administrator has to opt in to early access updates for your environment an
    > [!div class="mx-imgBorder"]
    > ![Compose new email](media/compose_email_mobile_1.png "Compose new email")
    
-3. To add an attachment to the email, select the **More** button ![More button](media/email_more_commands.png "more commands button") and select **Attach File** and then select the file that you want to attach to the email.
+3. To add an attachment to the email, select the **More** button ![More button](media/email_more_commands.png "more commands button"), select **Attach File**, and then select the file that you want to attach to the email.
 
    > [!div class="mx-imgBorder"]
    > ![Send email](media/more_command_email_mobile.png "Send email")
