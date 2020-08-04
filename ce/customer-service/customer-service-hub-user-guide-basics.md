@@ -1,7 +1,7 @@
 ---
 title: "Learn the basics of the Customer Service Hub app | MicrosoftDocs"
 description: "Learn the basics of the Customer Service Hub for Customer Service"
-ms.date: 07/24/2020
+ms.date: 08/03/2020
 ms.service:
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -93,7 +93,9 @@ Here is what each entity record type is used for:
   - **Queues** keep a track of cases waiting for you to work on.
   - **Knowledge Articles** capture your customer's questions, issues, feedback, and resolutions, so that other service reps can benefit from them.
 
+
 2. Select **...** to go to **Training**, and access the documentation site to view the **Help Center**. 
+
 3. You can also access **Service Management** from the site map. Service Management lets you define all the customer service admin settings from the Customer Service Hub site map.  Select **...** to go to **Service Management**.
 
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Service Manager Guide (Customer Service Hub and Customer Service app)](service-manager-guide.md).
@@ -198,18 +200,8 @@ For account records, the card shows contact details for the primary contact asso
 
 Use queues to organize, prioritize, and monitor the progress of your work. In Dynamics 365 Customer Service, queues are containers used to store anything that needs to be completed or requires an action, for example completing a task or closing a case. To know more about creating and managing queues, see [Create and manage queues](set-up-queues-manage-activities-cases.md).
 
-**Open Queues view**
-
-In the Customer Service Hub sitemap, select **Service** > **Queues**. The queues view is displayed.
-
 ![queues-view](media/queues-view.png "Queues view")
 
-- Use the drop-down lists to switch between the views and the various queues.
-- Select a record in the queues view to:
-    - **Edit** the record
-    - **Route** the record
-    - **Pick** the record. It will be assigned to you and will be moved to your queue.
-    - **Release** the record. It will be assigned back to the queue owner for other's to pick up.
 
 To know how to add a case to a queue, see [Add a case to a queue](customer-service-hub-user-guide-case-queues-and-routing.md).
 
@@ -305,7 +297,74 @@ In the Customer Service Hub sitemap, select **Service** > **Activities**. The **
 
 - To view the status of an activity, click the activity record and see bottom-left in the activity form. 
 
-### See Also
+
+### Preview: Insert a knowledge article into an email
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+While working on an email, you can quickly help customers by searching and selecting a relevant knowledge article to include in your email. You can insert the article and/or share a link to it in the body of your message.
+
+1. From an email form where you are drafting, place your cursor where you want to place the knowledge article or its link, and then select **Insert Knowledge Article**.
+
+   The **Select knowledge article to insert** screen is displayed. 
+   
+  > [!div class="mx-imgBorder"]
+  > ![Select knowledge article to insert](media/email-insert-knowledge-article.png "Select knowledge article to insert page") 
+
+2. Search for the article you want to include. For more information about searching for knowledge articles, see [Search for knowledge articles in the Customer Service Hub](search-knowledge-articles-csh.md).
+
+   A list of available articles will be displayed. You can select an article in the search results to view it in the preview pane.
+  
+3. When you have found the article you want to include, do one of the following : 
+
+   - To insert an article into the email, select the **Insert content** icon for the article in the search results or in the article preview pane, select **Insert article content** at the top of the pane. This will insert the content into the body of your email and close the **Select knowledge article to insert** page.
+   
+   > [!div class="mx-imgBorder"]
+  > ![Insert content into email](media/email-knowledge-article-insert-content.png "Insert an article into email by selecting either the Insert content icon from the search results or Insert article content from the preview pane") 
+   
+   -OR-
+
+  - If your administrator has set up an external portal that supports a URL format, you can include a link. For more information, see [Set up knowledge management (Customer Service Hub)](set-up-knowledge-management-embedded-knowledge-search.md). To insert an article as a link in the email, select the **URL** icon for the article in the search results or in the article preview pane, select **Insert URL** at the top of the pane. This will insert a link to the article into the body of your email and close the **Select knowledge article to insert** page. 
+   
+  > [!div class="mx-imgBorder"]
+  > ![Insert a link to the content into email](media/email-knowledge-article-insert-url.png "Insert a link to an article into an emaill by selecting either the Insert URL icon from the search results or Insert URL at the top of the preview pane") 
+
+
+
+
+## Work with Queues
+
+Use queues to organize, prioritize, and monitor the progress of your work. In Dynamics 365 Customer Service, queues are containers used to store anything that needs to be completed or requires an action, for example completing a task or closing a case. To know more about creating and managing queues, see [Create and manage queues](set-up-queues-manage-activities-cases.md).
+
+**Open Queues view**
+
+In the Customer Service Hub sitemap, select **Service** > **Queues**. The queues view is displayed.
+
+![queues-view](media/queues-view.png "Queues view")
+
+- Use the drop-down lists to switch between the views and the various queues.
+- Select a record in the queues view to:
+    - **Edit** the record
+    - **Route** the record
+    - **Pick** the record. It will be assigned to you and will be moved to your queue.
+    - **Release** the record. It will be assigned back to the queue owner for other's to pick up.
+
+To know how to add a case to a queues, see [Add a case to a queue](customer-service-hub-user-guide-case-queues-and-routing.md).
+
+## Understand Site
+
+To create a new site, you need to go to **Advanced find** ![Advanced find](media/advanced-find-icon.png "Advanced find").  Then you can customize other entity forms (e.g. Account) by adding this site field.
+
+  ![Create New Site](media/add-site-to-any-entity-1a.png "Create New Site")
+ 
+## Understand Facility/Equipment
+
+ To create a new Facility/Equipment item, you need to go to **Advanced find** ![Advanced find](media/advanced-find-icon.png "Advanced find"), where you can create Facility/Equipment.
+
+  ![Create New Facility/Equipment](media/add-site-to-any-entity-1b.png "Create New Facility/Equipment")
+
+### See also
+
 
 [Create and design forms for Customer Service Hub](create-design-forms-customer-service-hub.md)  
 [Track your cases efficiently and act on them quickly](customer-service-hub-user-guide-case-sla.md)  
