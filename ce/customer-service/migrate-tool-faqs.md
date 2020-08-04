@@ -78,20 +78,21 @@ There is not a separate time field in the Unified Client Interface (UCI), so the
 ![UCI view](media\faq-arc-sla-uci-view-13.png)
 
 14.	**Why are some of my operator fields blank in Unified Client Interface (UCI) after migration?**<br />
-For lookup data types only the **equal / not equal, null /not null** operators are supported in UCI and are supported in the migration tool. **Under** and **not-under** operators are not supported in UCI and therefore are not supported in the migration tool. Any condition which have **under** or **not-under** operators are translated as **related entities** after migration and are shown as blank in the UCI after migration and the user cannot edit them. <br />
-**a.**	Pre-migration Web Client View <br />
-**b.**	Post migration UCI View<br /><br />
+For lookup data types only the **equal / not equal, null /not null** operators are supported in UCI and are supported in the migration tool. **Under** and **not-under** operators are not supported in UCI and therefore are not supported in the migration tool. Any condition which have **under** or **not-under** operators are translated as **related entities** after migration and are shown as blank in the UCI after migration and the user cannot edit them. <br /><br />
+**Example**
 ![Web view](media\faq-arc-sla-web-client-14.png)
 <br />
+**a.**	Pre-migration Web Client View <br />
+**b.**	Post migration UCI View<br /><br />
 ![UCI view](media\faq-arc-sla-uci-14.png)
 
 > [!Note]
 > The following limitations are applicable when defining a condition in Customer Service Hub:
-> - The Date & Time picker control is no longer available, however it is still editable through textbox. 
+> - The Date & Time picker control is no longer available in the conditions, however the date & time are still editable through textbox.
 > - Only one level of the related entity hierarchy is supported though the application lets you select nested related entities.
 > - The related entity inside a group of the and/or clause is not supported.
-> - "not-on" operator for the Date data type are not supported.
-> - For the lookups data type, only the "equal", "not equal", "null", and "not null" operators are supported. Under/Not-Under operators are not supported.
+> - The "not-on" operator for the Date data type are not supported.
+> - For the lookups data type, only the "equal", "not equal", "null", and "not null" operators are supported. The "under" and "not-under" operators are not supported.
 
 #### Known SLA issues
  
@@ -107,19 +108,19 @@ No. Only migration of enhanced SLA rules are supported by the migration tool. St
 17.	**Activity party type attribute issues during workflow to Flow conversion.**<br />
 Any activity party type attribute assigned to another activity party type field (the most commonly impacted fields are: to, from, cc, and bcc, in emails) will not migrate during the workflow to Flow conversion, as Flow currently does not support this scenario.  Although the migration of the rule will not fail, the data value for such activity party type fields that relies on another activity party type attribute will be empty post migration. <br /><br />
 **Example:**<br /> 
+![Web view](media\faq-arc-sla-web-client-17.png)<br />
 **a.** The **From** field, which is activity party type field that is assigned another activity party type attribute **{Bcc(Email)}** will be empty post migration.<br />
-**b.**	Whereas the **To** field will successfully migrate.
-
-![Web view](media\faq-arc-sla-web-client-17.png)
+**b.**	Whereas the **To** field will successfully migrate.<br /><br />
+![UCI Flow view](media\migration-tool-17-b.PNG)<br />
+<b>b.</b>	Whereas the **To** field will successfully migrate.
 
 18.	**First not null checks in expressions within legacy workflow during workflow to flow conversion is not supported.**<br />
 In legacy workflows, a lookup field can be mapped with multiple expressions where you check and assign the **First Not Null** expression as shown in the Web Client example below. Currently, this is not supported as part of workflow to Flow conversion, as this is a known limitation from the legacy workflow designer. Therefore, the workflow converter assigns the first expression (without performing the null check) and removes the rest of the expressions irrespective of whether they have **non-null** values or not. In the sample snapshot shown below, the flow will only have **Regarding(Email)** in **Customer** field within this step.<br /><br />
 **Example:** <br />
+![Web view](media\faq-arc-sla-web-client-18.png)
 **a. Web Client View:** In the workflow, Customer field has: **{Regarding(Email); Contact(Create (Case)); Customer(Create (Case))}**<br />
 **b. UCI View:** In Flow, the Customer field will only have: **Regarding(Email)** regardless of whether it is null or not. 
 <br />
-![Web view](media\faq-arc-sla-web-client-18.png)
-
 > [!Important] 
 > If you are still experiencing issues pertaining to the migration tool, please contact your Admin or Microsoft Support.
 

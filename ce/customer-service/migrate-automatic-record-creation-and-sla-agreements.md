@@ -17,9 +17,9 @@ search.app:
   - D365CS
 ---
 
-# Migrate Automatic Record Creation (ARC) and Service Level Agreements (SLAs)
+# Preview: Migrate Automatic Record Creation (ARC) and Service Level Agreements (SLAs)
 
-[Public Preview]
+[This topic is pre-release documentation and is subject to change.]
 
 The Customer Service Hub app has several features and functionalities that replace the rules in the legacy Customer Service app. The rules for Automatic Record Creation (ARC) and Service Level Agreements (SLAs) are now supported by Power Automate based flows to make the transition to the new platform easier to manage.
 
@@ -33,9 +33,7 @@ The migration tool provides the following:
 - Flexibility to decide when to activate new rules and deactivate the legacy rules so you are not forced to activate all or none.
 - Existing legacy rules are not modified or deactivated automatically. 
 - Messages on potential issues on why a ruled failed the migration process.
-
-> [!NOTE]
-> Legacy rules continue to run on existing cases until the rules are deactivated. 
+- Legacy rules continue to run on existing cases until the rules are deactivated. 
 
 ## Prerequisites
 - Customer Service Licensing 
@@ -44,7 +42,6 @@ The migration tool provides the following:
 - Admin permissions 
 
 ### Working with Rules 
-
 Before running the migration tool, it is important to understand and familiarize yourself with how the modern ARC and SLA rules work in the Customer Service Hub app before you start migration.
 
 When performing your migration, you will only receive detailed results on rules which have failed the pre-migration checkup, creation or was partially migrated (incomplete).  
