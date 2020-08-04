@@ -20,10 +20,10 @@ If you've enabled an email form but it is doesn't display, you'll need to enable
 
 1.	Go to **Settings** > **Advanced Settings**.
 2.	Select **Settings**.
-3.	Under **Application** settings, select **App**.
+3.	In **Application** settings, select **App**.
 4.	Select ![](media\timeline-more-commands-icon.png "more commands") **More Options** on **Customer Service Hub** 
 5.	On the **App Designer** drop-down menu, select **Open**. 
-6.	Select the edit feature on Site Map 
+6.	On the site map, select the edit feature. 
 7.	Under the **Email** form selector, select the drop-down menu to display the **Email** forms you have enabled. If the form isn't displayed in the list, it hasn't been enabled.
 8.	To enable a form, go to **Main Forms** and select the form. 
 
