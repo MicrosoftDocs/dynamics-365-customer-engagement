@@ -4,7 +4,7 @@ description: "Learn how to troubleshoot issues in Omnichannel for Customer Servi
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/20/2020
+ms.date: 08/04/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -28,7 +28,7 @@ The Solution Health Hub helps detect the following issues:
 
 ## Prerequisites
 
-Omnichannel for Customer Service base package 1.5.0.383 or later.
+Omnichannel for Customer Service.
 
 ## Run a health check
 
@@ -37,11 +37,10 @@ Perform the following steps to run an analysis job to check for issues in Omnich
 1. Open the Solution Health Hub app.
 2. Select **Analysis Jobs** > **New**.
 3. On the **Create Analysis Job** dialog box, select **Omnichannel** in **Rule Set**, and select **OK**. The analysis job starts.
- 
+
 ## Analyze the health check results
 
  After the analysis job completes its run, the results are displayed on the **Job Details** tab.
-   > ![Analysis job results](./media/oc-solution-health-results.png "Analysis job results")
 
 The following information is available:
 
@@ -65,7 +64,11 @@ The result details of the rules are displayed in a table as follows:
 You can do the following:
 
 1. Select a rule whose status appears as failed. The analysis results of the objects that failed are displayed in the **Failing Records** area.
+      > ![Analysis job results for a rule](./media/oc-solution-health-results.png "Analysis job results for a rule")
 2. Optionally, select the **Summary** tab to view the overview of the results.
+
+> [!NOTE]
+> If you see any discrepancy in the health check results, rerun the job.
 
 ## Out-of-the-box rule sets
 
@@ -73,16 +76,16 @@ When you run the analysis job, the following out-of-the-box rules that cannot be
 
 | Rule | Description |
 |----|--------|
-| Agents should have capacity | Verifies that capacity is defined for agents. |
-| Omnichannel service endpoint should be configured | Verifies that Omnichannel for Customer Service endpoint is configured. `*not sure what this means*`|
-| Queues should have agents | Verifies that the queues that are assigned to the work streams have agents assigned. |
-| SDK message/plugins should be active | Verifies that the SDK messages or plugins are active. |
-| Work stream capacity should be less than agents | Verifies that the capacity defined for agents is more than what is defined for the work streams. |
-| Work stream should have notification templates set | Verifies that notification templates have been set for work streams. |
-| Work stream should have session template set | Verifies that session template have been set for work streams. |
-| Work stream should not have duplicate context variables | Verifies that duplicate context variables haven't been defined for work streams. |
-| Work stream should not have empty routing rules above rules with condition | Verifies that empty routing rules haven't been defined for a work stream that prevent routing rules with a lower priority from running. |
-| Work stream with push mode should not allow offline mode | Verifies that offline is not an allowed presence for work streams that have push mode enabled. |
+| Agents should have capacity | Verifies that capacity is defined for agents. More information: [Manage users](administrator/users-user-profiles.md) |
+| Omnichannel service endpoint should be configured | Verifies that the underlying services needed for the functioning of Omnichannel for Customer Service are configured correctly. More information: [Provisioning Omnichannel for Customer Service](administrator/omnichannel-provision-license.md) |
+| Queues should have agents | Verifies that the queues that are assigned to the work streams have agents assigned. More information: [Manage queues](administrator/queues-omnichannel.md) |
+| SDK message/plugins should be active | Verifies that the SDK messages or plugins are active. More information: [Workaround for repeated messages](omnichannel-readme.md#messages-repeated-in-the-quick-replies-menu) |
+| Work stream capacity should be less than agents | Verifies that the capacity defined for agents is more than what is defined for the work streams. More information: [Understand work streams](administrator/work-streams-introduction.md) |
+| Work stream should have notification templates set | Verifies that notification templates have been set for work streams. More information: [Associate templates with work streams](administrator/associate-templates.md) |
+| Work stream should have session template set | Verifies that session template have been set for work streams. More information: [Associate templates with work streams](administrator/associate-templates.md) |
+| Work stream should not have duplicate context variables | Verifies that duplicate context variables haven't been defined for work streams. More information: [Create a work stream](administrator/work-streams-introduction.md#create-a-work-stream)  |
+| Work stream should not have empty routing rules above rules with condition | Verifies that empty routing rules haven't been defined for a work stream that prevent routing rules with a lower priority from running. More information: [Create and manage routing rules](administrator/routing-rules.md) |
+| Work stream with push mode should not allow offline mode | Verifies that offline is not an allowed presence for work streams that have push mode enabled. More information: [Create a work stream](administrator/work-streams-introduction.md#create-a-work-stream) |
 
 ### See also
 
