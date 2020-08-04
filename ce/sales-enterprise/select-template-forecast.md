@@ -14,19 +14,39 @@ manager: shujoshi
 
 # Select a template
 
+>[!NOTE]
+> If you have opted in for early access, see [Select a template in early access](#select-a-template-in-early-access) for information.
+
 You must select a template to create a forecast. The selected templates populate the **Hierarchy route** field that defines the entity type in your hierarchy.
 
 To select a template, go to the **Forecast configurations** page and select one of the following templates:
 
--	**Org chart forecast**: Roll-up columns and projections are based on your organization's reporting structure. This template uses the **Manager** field on the **User** entity for the hierarchy.
+-	**Org chart forecast**: Rollup columns and projections are based on your organization's reporting structure. This template uses the **Manager** field on the **User** entity for the hierarchy.
 
--	**Territory forecast**: Roll-up columns and projections are based on the sales territory hierarchy.
+-	**Territory forecast**: Rollup columns and projections are based on the sales territory hierarchy.
 
 - **Create from scratch**: Allows you to create a forecast based on custom hierarchy entity on opportunity.   
 
 
 > [!div class="mx-imgBorder"]
 > ![Forecasting is enabled](media/forecast-enable-forecasting-enabled-v1.png "Forecasting is enabled")
+
+## Select a template in early access
+
+[!INCLUDE [cc-early-access](../includes/cc-early-access.md)]
+
+You can select a template to create a forecast. The selected templates populate the **Hierarchy route** field that defines the entity type in your hierarchy. However, to create a forecast based on your custom rollup and hierarchy entities, select **Create from scratch**.   
+
+To select a template, go to the **Forecast configurations** page and select one of the following templates:
+
+-	**Org chart forecast**: Rollup columns and projections are based on your organization's reporting structure. This template uses the **Manager** field on the **User** entity for the hierarchy.
+
+-	**Territory forecast**: Rollup columns and projections are based on the sales territory hierarchy.
+
+- **Product forecast**: Rollup columns and projections are based on the product hierarchy. 
+
+> [!div class="mx-imgBorder"]
+> ![Select template](media/forecast-ce-template-selection.png "Select template")
 
 
 <table>
@@ -44,3 +64,5 @@ To select a template, go to the **Forecast configurations** page and select one 
 ### See also
 
 [Configure forecasts in your organization](configure-forecast.md)
+
+[Configure forecast using custom rollup entity](configure-forecast-using-custom-rollup-entity.md)

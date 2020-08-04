@@ -68,6 +68,11 @@
 #### [Create and customize marketing calendars](customize-marketing-calendars.md)
 #### [Create and customize template labels](customize-template-labels.md)
 
+### Email administration
+#### [Best practices for email marketing](get-ready-email-marketing.md)
+#### [Email bounce categories](email-bounce-categories.md)
+#### [Email policies and suspension standards](email-policies.md)
+
 ### Privacy and compliance
 #### [Data protection and GDPR](gdpr.md)
 #### [Set up global double opt-in](double-opt-in.md)
@@ -75,8 +80,6 @@
 #### [How the app uses cookies](cookies.md)
 
 ### [Best practices for administration](admin-best-practices.md)
-### [Best practices for email marketing](get-ready-email-marketing.md)
-### [Email policies and suspension standards](email-policies.md)
 ### [Administration and setup FAQ](setup-troubleshooting.md)
 ### [Known issues and workarounds](known-issues.md)
 
@@ -179,6 +182,7 @@
 #### [Create and manage recurring events](event-recurring.md)
 #### [Create and use event templates](event-templates.md)
 #### [Event management dashboard](event-management-dashboard.md)
+#### [Early access: Set up a Microsoft Teams webinar](teams-webinar.md)
 #### [Set up a webinar](set-up-webinar.md)
 #### [Manage event sponsorships](manage-event-sponsorships.md)
 #### [Manage attendee logistics and accommodation](manage-event-logistic.md)
@@ -196,9 +200,9 @@
 #### [Create and run online surveys](surveys.md)
 
 ### Marketing on social media
+#### [Early access: Schedule and post messages on social media](social-posting.md)
 #### [Marketing on LinkedIn with Dynamics 365](linkedin-overview.md)
 #### [LinkedIn Lead Gen integration](LinkedIn-Lead-Gen-integration.md)
-#### [Schedule and post messages on social media](social-posting.md)
 
 ### [Register link clicks and website visits](register-engagement.md)
 ### [Work with marketing calendars](marketing-calendar.md)
