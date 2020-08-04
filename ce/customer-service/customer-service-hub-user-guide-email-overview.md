@@ -1,6 +1,6 @@
 ---
-title: "Email Overview for Users | MicrosoftDocs"
-description: "Email Overview for Users"
+title: "Use email in customer engagement apps | MicrosoftDocs"
+description: "Learn how to use email in customer engagement apps. "
 ms.date: 08/03/2020
 ms.service:
   - "dynamics-365-customerservice"
@@ -12,9 +12,6 @@ ms.reviewer: nenellim
 
 # Use Email 
 [!include[cc-early-access](../includes/cc-early-access.md)]
-
-> [!Note] 
-> The existing enhanced email form will be deactivated with the general availability of the 2020 release wave 2 features. In the latest version of the Sales app (build 9.0.2006.5005), you'll notice that the name of the existing enhanced email form is changed to Enhanced Email (deprecated). A new form named Enhanced Email has been introduced with the new enhanced capabilities like quick preview or multiple email attachments. If you don't opt in for early access of the 2020 release wave 2 features, this form will be presented in a Read-only mode.
 
 Having the ability to communicate effectively with customers can lead to increased sales and customer satisfaction. The email capability in customer engagement apps empowers users with the ability to respond and provide timely customer interaction effortlessly through quick email access with enhanced features and functionality. Users can compose, reply, and review emails, as well as quickly attach and send images that add value and support to customer communication using streamlined functionality. You can also ensure interactions between users and customers are consistent and professional by using email templates with rich text and images. 
 
@@ -39,10 +36,13 @@ You can work in either the **navigate-to** email or the **contextual** email exp
 <ul>
 <li>Allows you to move to different pages without losing email content.</li>
 <li>Minimize the email window to return to the records you were working on.</li>
-<li>Simultaneously view, compose, and reply to five (5) emails in pop-up windows when enabled. </li></ul></ul>
+<li>Simultaneously view, compose, and reply to five emails in pop-up windows when enabled. </li></ul></ul>
+
+> [!Note] 
+> The existing enhanced email form will be deactivated with the general availability of the 2020 release wave 2 features. In the latest version of the Sales app (build 9.0.2006.5005), you'll notice that the name of the existing enhanced email form is changed to Enhanced Email (deprecated). A new form named Enhanced Email has been introduced with the new enhanced capabilities like quick preview or multiple email attachments. If you don't opt in for early access of the 2020 release wave 2 features, this form will be presented in a Read-only mode.
 
 The following highlights the difference between the **navigate-to** and **contextual** email experience in the Timeline based on how your system administrator has configured your email:
-1.	Click on **Create a timeline** record.
+1.	Select the **Create a timeline record** icon.
 
 2.	Select **Email**.
 
@@ -55,13 +55,13 @@ The following highlights the difference between the **navigate-to** and **contex
 
 > [!Important]
 > - The pop-up window only opens when the height and width of your screen size is at least 400 x 650 pixels or greater. If lower, **navigate-to** email will be the default experience.
-> - The **Contextual** email experience is available only for in Timeline.
+> - The **Contextual** email experience is available only for Timeline.
 
 >[!Note]
 > - If you use customized forms in email, you will still be able to see and use them. The **Enhanced Email** form showcases various email capabilities and functionality and just a standard form. 
 
-For more information see: 
-- [Enable the enhanced email experience](customer-service-hub-user-guide-email-overview.md#enable-the-enhanced-email-experience)
+For more information, see: 
+- [Enable the enhanced email experience](customer-service-hub-user-guide-email-admin.md#how-to-enable-the-enhanced-email-experience)
 
 ## How to view, compose and respond to emails
 Users can view, create, and send emails faster with streamlined access that helps users compose, reply, and send emails using rich text editing and drag-and-drop attachment features and functionalities.
@@ -83,17 +83,17 @@ For example, users can view and access emails the Customer Service hub by going 
 ![How to view an email](media\email-how-to-view-an-email-2.png "How to view an email")
 
 ### How to compose an email
-Feature and functionality updates have streamlined the user’s ability to quickly create email with rich text editing capability, and drag-and-drop or copy-and-paste images to enrich customer interactions.
+Email capabilities like rich text editing and drag-and-drop or copy-and-paste images enriches customer interactions.
 
-For example, users can create emails by going to **Service**, and then using the following steps:
+For example, you can create emails by going to **Service**, and then using the following steps:
 
 1.	Select **Activities**
 
-2.	On the command bar, when you select **Email**, it opens an email in a new window. 
+2.	On the command bar, select **Email**. It opens an email in a new window. 
 
 ![How to compose an email](media\email-how-to-compose-an-email-1.png "How to compose an email")
 
-Use the following features and functionality to tailor emails:
+On the email form: 
 
 1.	The name displayed in the **From** field is automatically populated based on the user who is currently signed in.
 
@@ -103,20 +103,20 @@ Use the following features and functionality to tailor emails:
 
 4.	You can select **Insert Template** to apply an email template. <br /> 
 
-For more information, see [Insert an email template](customer-service-hub-user-guide-email-overview.md#insert-an-email-template).
+For more information, see [Insert an email template](customer-service-hub-user-guide-email-overview.md#how-to-insert-an-email-template).
 
 > [!Note]
 > The **To** box must contain a recipient to select a template.
 
 5.	Use the rich text editor to format emails. The editor is displayed as a single line that can be expanded to view the full list of editing features by default. <br />
-  For more information, see [Editor functionality and accessibility shortcuts](customer-service-hub-user-guide-email-overview.md#editor-functionality-and-accessibility-shortcuts). 
+  For more information, see [Editor functionality](customer-service-hub-user-guide-email-overview.md#formatting-options) and [Accessibility shortcuts](customer-service-hub-user-guide-email-overview.md#accessibility-shortcuts). 
   
 6.	Add ![](media\email-new-attachment-icon.png "email attachment icon") **New Attachments** using the drag-and-drop or copy-and-paste functionality. 
 
 7.	Use **Attach file** to add a file to your email.<br />
 
 > [!Note] 
-> Once you save your email, you can use Attach file and New Attachments interchangeably.
+> After you save your email, you can use Attach file and New Attachments interchangeably.
 
 8.	Use **Insert Signature** to personalize your message.  
 
@@ -127,34 +127,34 @@ For more information, see [Insert an email template](customer-service-hub-user-g
 >[!Important]
 > - The **From** and **To** fields are automatically populated based on the user and the account and contact of the original record.
  
-For more information on enhanced email and configurations, see [Enable the enhanced email experience](customer-service-hub-user-guide-email-overview.md#enable-the-enhanced-email-experience).
+For more information on enhanced email and configurations, see [Enable the enhanced email experience](customer-service-hub-user-guide-email-admin.md#how-to-enable-the-enhanced-email-experience).
 
 ### How to respond to an email
-Depending where you are in your app, how you reply to an email will function differently. An example from the Customer Service hub is provide below.
+Depending on where you are in your app, how you reply to an email will function differently. An example from the Customer Service hub is provided below.
 
 - **Composing an email in activities and cases**
 
-If your system adminsistrator has enabled email, the email option displays on the global navigation and in the activities command bar. When composing an email in entities from **Activities**, you must set the reply field.  
+If your system adminsistrator has enabled email, the email option displays on the navigation bar and in the activities command bar. When composing an email in entity records from **Activities**, you must set the reply field.  
 
 Use the following to access email in entities:
 
-1.	On the **Global Navigation** bar, select the [](media\email-plus-icon.png "email icon") plus icon.
+1.	On the navigation bar, select the [](media\email-plus-icon.png "email icon") plus icon.
 
-2.	From the drop-down list, select **Activities** then **email**. 
+2.	From the drop-down list, select **Activities**, and then **email**. 
 
-3.	You can also select **Email** from the top nav.
+3.	You can also select **Email** on the command bar.
 
 >[!Note]
-> Email option will only appear in the drop-down and top nav when enabled by your system administrator.
+> Email option will only appear in the drop-down list and the command bar when enabled by your system administrator.
 
 ![How to respond to an email](media\email-how-to-respond-to-an-email-1.png "How to respond to an email")
 
 ### Responding to emails in timeline
 When replying to emails in Timeline, the command bar in the top-right corner provides you with reply options. When you select an option, your email automatically is set and opens in that state ready for you to begin your message.  
 
-Use the following command options when working with emails in Timeline:
+You can Use the following command options when working with emails in Timeline:
 
- - Reply
+ -  Reply
 
  -	Reply All
  
@@ -200,7 +200,7 @@ The following table provides a detailed overview of the different formatting fea
 |![Add a Table](../customer-service/media/add-table.png "Add a Table")| Add a Table |  | Add a table to your content. <br /><br />After adding a table, you can do any of the following:<br /><br /><ul><li>Resize table columns by clicking and dragging your mouse to resize to the columns to the desired width.</li><li>Select one or several cells within a table and apply specific formatting, add links to the selection, or cut, copy, or paste entire rows or columns.</li><li>Right-click to access the properties. This supports features such as cell type, width and height, word wrapping, alignment, merging and splitting cells horizontally and vertically, inserting or deleting rows and columns, row and column span, and cell and border color.</li></ul>|
 |![Expand Toolbar](../customer-service/media/show-more.png "Expand Toolbar")| Expand Toolbar |  | Displays when the toolbar is collapsed and not all options appear. Click to expand the toolbar and make all options visible. |
 
->[!Note]
+> [!Note]
 > You can access your browser's context menu by pressing **Ctrl** + right-click. This is useful if you need to use your browser's built-in spell checker. Otherwise, you can use the right-click to provide contextual formatting for any element you might be using.
 
 ## Accessiblity shortcuts
@@ -226,18 +226,17 @@ The following table outlines a list of accessibility shortcuts available when us
 | Base commands | Esc | Cancel operation. |
 
 ## How to use email templates
-Email templates provide multiple benefits. Using email templates save users time and allows you to create consistent professional preformatted email messages agents can quickly use when communicating to customers. 
+Email templates provide multiple benefits. Using email templates saves users time and allows you to create consistent, professional, preformatted email messages you can use when communicating to customers. 
 
 ### How to insert an email template
-Use the normal insert template when you have an email template created that you want to use. 
 
-You can insert the normal insert template while composing an email by:
+If you already have a template create, to insert a template:
 
-1.	Selecting **Insert Template** on the command bar.
+1.	On the command bar, select **Insert Template**.
 
    A list of available **Email templates** will display in a window displaying existing templates. 
    
-2.	You can see templates of a particular language by selecting a language from the **Language** list. To see templates of a different locale, select a language from the **Language** list. The templates are loaded as per the selected language.
+2.	To see templates of a particular language, select a language from the **Language** list. The templates are loaded as per the selected language.
 
 3.	You can either **search** for a template or browse through the list and select it. The search does not support regular expressions and it works on the template name only.  
 
@@ -253,11 +252,11 @@ You can insert the normal insert template while composing an email by:
 ### How to convert an email to a template
 When you have composed an email that you would like to reuse with other customers, you can convert it to an email template to use in the future.
 
-When you have the message composed as you want it, then:
+To convert an email into a template: 
 
-1.	Select the downward-facing caret (V) next to **Insert Template**.
+1.	When you have the message composed as you want it, select the downward-facing caret (V) next to **Insert Template**.
 
-2.	A drop-down list will appear, select **Convert to an email template**.
+2.	In the drop-down list, select **Convert to an email template**.
 
     A window will display with a list you can customize.
 
@@ -304,9 +303,9 @@ When the **Create a new email template** screen appears:
 
 When you have selected an existing template, it will display as follows:
 
--The new template you created from the existing template will display with a **– Copy** at the end of the template name to identify it is a copy of an existing template.
+- The new template you created from the existing template will display with a **– Copy** at the end of the template name to identify it is a copy of an existing template.
 
-- All of the data has been carried over, which you can edit and modify.
+- All of the data is carried over, which you can edit and modify.
 
 ![Creating email template copies](media\email-template-copy-1.png "Creating email template copies")
 
