@@ -35,7 +35,7 @@
 ## [Products and services](create-product-or-service.md)
 ## [Service task types](set-up-service-task-types.md)
 ## [Work order summary reports](reports.md)
-## [Inspections (public preview)](inspections.md)
+## [Inspections](inspections.md)
 ## [Work order templates (incident types)](configure-incident-types.md)
 ## [Work order completion surveys](work-order-surveys.md)
 
