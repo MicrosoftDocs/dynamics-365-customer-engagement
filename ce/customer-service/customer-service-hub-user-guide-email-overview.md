@@ -10,7 +10,6 @@ ms.author: lerobbin
 ms.reviewer: nenellim
 ---
 
-# Use Email 
 [!include[cc-early-access](../includes/cc-early-access.md)]
 
 Having the ability to communicate effectively with customers can lead to increased sales and customer satisfaction. The email capability in customer engagement apps empowers users with the ability to respond and provide timely customer interaction effortlessly through quick email access with enhanced features and functionality. Users can compose, reply, and review emails, as well as quickly attach and send images that add value and support to customer communication using streamlined functionality. You can also ensure interactions between users and customers are consistent and professional by using email templates with rich text and images. 
@@ -32,7 +31,7 @@ You can work in either the **navigate-to** email or the **contextual** email exp
 
 <ul>
 <li><b>Navigate-to email experience</b>: always displays in a new screen. </li>
-<li><b>Contextual email experience</b>: can only be intiated from the Timeline and displays email in a pop-up screen.
+<li><b>Contextual email experience</b>: can only be initiated from the Timeline and displays email in a pop-up screen.
 <ul>
 <li>Allows you to move to different pages without losing email content.</li>
 <li>Minimize the email window to return to the records you were working on.</li>
@@ -134,7 +133,7 @@ Depending on where you are in your app, how you reply to an email will function 
 
 - **Composing an email in activities and cases**
 
-If your system adminsistrator has enabled email, the email option displays on the navigation bar and in the activities command bar. When composing an email in entity records from **Activities**, you must set the reply field.  
+If your system administrator has enabled email, the email option displays on the navigation bar and in the activities command bar. When composing an email in entity records from **Activities**, you must set the reply field.  
 
 Use the following to access email in entities:
 
@@ -166,7 +165,7 @@ You can Use the following command options when working with emails in Timeline:
 The rich text editor toolbar provides features and functionality that allows you to work with rich text formats in emails to better communicate with your customers.    
 
 ### Formatting options
-The following table provides a detailed overview of the different formatting features and functionality options available in the rich text editor that you can when using email:
+The following table describes the different formatting features and functionality options available in the rich text editor that you can use in the email form:
 
 |Icon | Name | Shortcut key | Description |
 |----------------------|-------------------------|-----------------------------|-----------------------------|
@@ -203,7 +202,7 @@ The following table provides a detailed overview of the different formatting fea
 > [!Note]
 > You can access your browser's context menu by pressing **Ctrl** + right-click. This is useful if you need to use your browser's built-in spell checker. Otherwise, you can use the right-click to provide contextual formatting for any element you might be using.
 
-## Accessiblity shortcuts
+## Accessibility shortcuts
 
 The following table outlines a list of accessibility shortcuts available when using email. You can access this list while composing email by pressing **Alt+0**.
 
@@ -339,7 +338,7 @@ When you create a **New Customer Template**, it displays in a page that allows y
 
 ## Working with email templates
 
-### View an email templates
+### View an email template
 You can see a complete list of all the email templates you created.  
 
 To view your email signatures:
@@ -362,7 +361,7 @@ To view your email signatures:
 
 5.	The **More Commands** ![](media\timeline-more-commands-icon.png "more commands icon") icon allows you to edit the order of the record types.
 
-6.	Use the **Move Up** or **Move down** to align reocords in a cutomize order.
+6.	Use the **Move Up** or **Move down** to align records in a customized order.
 
 7.	Select **Insert** to save the form.
 
@@ -429,7 +428,7 @@ When you’ve attached one or more files to a message, you can manage them using
 
 ### Select commands
 
-The **Select** command allows you select individual files or streamline efforts by allowing you select multiple files at once.
+The **Select** command allows you to select individual files or multiple files at once.
 
 -	**Select All command** is located on the right, above your attached files.
 
@@ -471,7 +470,7 @@ Use the following commands to preview attached images:
 ![How to preview images attachments](media\email-how-to-preview-images-attachments-1.png "How to preview images attachments")
 
 ### Supported email file attachments
-The following is a lit of file image types that are supported:
+The following is a list of file image types that are supported:
 
 |image type	 |supports preview	|supported inline (in editor)|
 |------------|-------------------|----------------------------|
