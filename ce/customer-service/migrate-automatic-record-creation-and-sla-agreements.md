@@ -25,7 +25,7 @@ The Dynamics 365 Customer Service Hub app has several features and functionaliti
 
 The following topic provides an overview on the migration tool that allows legacy rules for ARC and SLAs to be transferred to the Customer Service Hub app for easier access.
 
-The migration tool is designed to migrate the existing legacy rules to Unified Customer Interface (UCI), ensuring all the rules, items, and actions are converted accordingly into the UCI format. This also includes the conversion of the workflow to a Power Automate-based flow.
+The migration tool is designed to migrate the existing legacy rules to Unified Interface, ensuring all the rules, items, and actions are converted accordingly into the Unified Interface format. This also includes the conversion of the workflow to a Power Automate-based flow.
 
 The migration tool provides the following functionality:
 - Ability to run the migration tool multiple times and see what your status looks like at any point in time.
@@ -50,7 +50,7 @@ When you perform your migration, you will only receive detailed results on rules
 To learn more about how to create rules in the Customer Service Hub app, see [Automatically create or update records in Customer Service Hub](automatically-create-update-records.md) and [Define service-level agreements](define-service-level-agreements.md).
 
 > [!Note]
-> When you have successfully migrated a rule, any edits made to that rule on the web client will not be visible in UCI. For the edits to be visible in the UCI, you must delete the rule in UIC and migrate it again from the web client.
+> When you have successfully migrated a rule, any edits made to that rule on the web client will not be visible in Unified Interface. For the edits to be visible in the Unified Interface, you must delete the rule in UIC and migrate it again from the web client.
 
 ### Editing rules
 
@@ -61,8 +61,8 @@ If you rerun the migration tool, it will pick up any updates or edits in the web
 
 The following updates or edits to a rule will not be considered if:
 
--  The rule is edited on the web client after it was successfully migrated to UCI
--  Any edits were made to migrated rules in the UCI client after running the migration tool
+-  The rule is edited on the web client after it was successfully migrated to Unified Interface.
+-  Any edits were made to migrated rules in the Unified Interface client after running the migration tool.
 
 ## Accessing the migration tool
 
@@ -331,7 +331,7 @@ This step allows you to select the rules you want to migrate, including:
 
 > ![Migration Tool for experienced users - step 3](media\migration-tool-step-3-experienced-users-1.png "Migration Tool for experienced users - step 3")
 
-Only rules that were not attempted, did not completely migrate, or failed to migrate will appear in **Step 3**. If you want to attempt migration of a successfully migrated rule again, delete the corresponding rule from UCI and rerun the migration tool for it to appear in the list again. 
+Only rules that were not attempted, did not completely migrate, or failed to migrate will appear in **Step 3**. If you want to attempt migration of a successfully migrated rule again, delete the corresponding rule from Unified Interface and rerun the migration tool for it to appear in the list again. 
 
 ## Step 4: Review. (Experienced User)
 
