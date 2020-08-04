@@ -53,10 +53,20 @@ Yes, you can rerun the migration tool for a specific migrated rule based on the 
 The following are some key scenarios where rules/items will not successfully complete migration:
 
 11.	**If my rule items/conditions have related entities inside nested group clause (and/or), will they be migrated to the Unified Client Interface (UCI)?**<br />
-No. We currently only support one level of the related entity hierarchy. For such rule items/conditions to successfully migrate, the user would have to remove any related entity in group clause pre-migration. If the user chooses not to take any action, the rule will fail during the **Pre-migration checkup** step and if the user chooses to continue with the migration, the rule will just have an empty condition for the respective item.
+No. We currently only support one level of the related entity hierarchy. For such rule items/conditions to successfully migrate, the user would have to remove any related entity in group clause pre-migration. If the user chooses not to take any action, the rule will fail during the **Pre-migration checkup** step and if the user chooses to continue with the migration, the rule will just have an empty condition for the respective item.<br /><br />
+![Web View](media\migration-tool-11-a.png)
+**a.**	Pre-migration Web Client View <br /><br />
+![UCI View](media\migration-tool-11-b.png)
+Post migration UCI View: <br />
+**2a.** The migrated item title changes to **_FailedMigration** appended. <br />**2b.** The same standard placeholder **Created On equals 2200-01-01** is added to the condition.
 
 12.	**Why does my rule items/conditions with a DateType field that uses a "not on" operator fail during the pre-migration checkup and actual migration?**<br />
-The **Not on** operator for the **Date** data type, is not supported in the Unified Client Interface (UCI), and thereby is not supported as part of migration. To fix this issue, the user can change the legacy items/conditions from **{not-on selecteddate}** to **{selecteddate less than and selecteddate greater than}** in the web client before rerunning the migration tool for the respective rule.
+The **Not on** operator for the **Date** data type, is not supported in the Unified Client Interface (UCI), and thereby is not supported as part of migration. To fix this issue, the user can change the legacy items/conditions from **{not-on selecteddate}** to **{selecteddate less than and selecteddate greater than}** in the web client before rerunning the migration tool for the respective rule.<br /><br />
+![Web View](media\migration-tool-12-a.png)
+**a.**	Pre-migration Web Client View <br /><br />
+![UCI View](media\migration-tool-12-b.png)
+Post migration UCI View: <br />
+**2a.** The migrated item title changes to **_FailedMigration** appended. <br />**2b.** The condition has a placeholder **Created On equals 2200-01-01** is added to the condition.
 
 13.	**Why does the data in my DateTime field change during migration?**<br />
 There is not a separate time field in the Unified Client Interface (UCI), so the DateTime field will change from a calendar control to text field.  Input should be in a specific format as shown in the text box below:<br />
@@ -70,19 +80,18 @@ There is not a separate time field in the Unified Client Interface (UCI), so the
 14.	**Why are some of my operator fields blank in Unified Client Interface (UCI) after migration?**<br />
 For lookup data types only the **equal / not equal, null /not null** operators are supported in UCI and are supported in the migration tool. **Under** and **not-under** operators are not supported in UCI and therefore are not supported in the migration tool. Any condition which have **under** or **not-under** operators are translated as **related entities** after migration and are shown as blank in the UCI after migration and the user cannot edit them. <br />
 **a.**	Pre-migration Web Client View <br />
-**b.**	Post migration UCI View
-
+**b.**	Post migration UCI View<br /><br />
 ![Web view](media\faq-arc-sla-web-client-14.png)
-
+<br />
 ![UCI view](media\faq-arc-sla-uci-14.png)
 
 > [!Note]
 > The following limitations are applicable when defining a condition in Customer Service Hub:
-> - You can’t select a time value for the Date and Time data type. 
+> - The Date & Time picker control is no longer available, however it is still editable through textbox. 
 > - Only one level of the related entity hierarchy is supported though the application lets you select nested related entities.
 > - The related entity inside a group of the and/or clause is not supported.
 > - "not-on" operator for the Date data type are not supported.
-> - For the lookups data type, only the "equal", "not equal", "null", and "not null" operators are supported.
+> - For the lookups data type, only the "equal", "not equal", "null", and "not null" operators are supported. Under/Not-Under operators are not supported.
 
 #### Known SLA issues
  
@@ -108,11 +117,9 @@ In legacy workflows, a lookup field can be mapped with multiple expressions wher
 **Example:** <br />
 **a. Web Client View:** In the workflow, Customer field has: **{Regarding(Email); Contact(Create (Case)); Customer(Create (Case))}**<br />
 **b. UCI View:** In Flow, the Customer field will only have: **Regarding(Email)** regardless of whether it is null or not. 
-
+<br />
 ![Web view](media\faq-arc-sla-web-client-18.png)
 
 > [!Important] 
 > If you are still experiencing issues pertaining to the migration tool, please contact your Admin or Microsoft Support.
 
-### See Also
-- 

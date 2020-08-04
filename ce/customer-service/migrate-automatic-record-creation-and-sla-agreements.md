@@ -39,7 +39,8 @@ The migration tool provides the following:
 
 ## Prerequisites
 - Customer Service Licensing 
-- Customer Service version 9.0.20034.20XX or higher environment
+- ARC must have a Customer Service version of 9.0.20034.20XX or higher environment to opt-in for migration
+> SLA must have a Customer Service version of 9.0.20053.1030 or higher enironment to opt-in for migration
 - Admin permissions 
 
 ### Working with Rules 
@@ -337,7 +338,7 @@ When you finish your migration, an updated **Summary** page will be displayed th
 
 > ![Migration Tool for experienced users - step 6](media\migration-tool-step-6-experienced-users-1.png "Migration Tool for experienced users - step 6")
 
-Once migration is complete you can uninstall the migration tool.  After General Availability in October 2020 this feature will have auto-install functionality.
+This feature will available for public preview as part of August Early access. So if you opt-in for early access, this the migration tool will be available to you as well. This will be automatically available post GA for everyone.
 
 ### See Also
 
