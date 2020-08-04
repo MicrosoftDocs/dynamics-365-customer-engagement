@@ -182,6 +182,7 @@
 #### [Create and manage recurring events](event-recurring.md)
 #### [Create and use event templates](event-templates.md)
 #### [Event management dashboard](event-management-dashboard.md)
+#### [Early access: Set up a Microsoft Teams webinar](teams-webinar.md)
 #### [Set up a webinar](set-up-webinar.md)
 #### [Manage event sponsorships](manage-event-sponsorships.md)
 #### [Manage attendee logistics and accommodation](manage-event-logistic.md)
@@ -199,9 +200,9 @@
 #### [Create and run online surveys](surveys.md)
 
 ### Marketing on social media
+#### [Early access: Schedule and post messages on social media](social-posting.md)
 #### [Marketing on LinkedIn with Dynamics 365](linkedin-overview.md)
 #### [LinkedIn Lead Gen integration](LinkedIn-Lead-Gen-integration.md)
-#### [Schedule and post messages on social media](social-posting.md)
 
 ### [Register link clicks and website visits](register-engagement.md)
 ### [Work with marketing calendars](marketing-calendar.md)
