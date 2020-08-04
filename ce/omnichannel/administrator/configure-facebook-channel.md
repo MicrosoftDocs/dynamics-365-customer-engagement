@@ -109,6 +109,13 @@ After you add a Facebook page, values for **Callback Uri** and **Verify Token** 
     > [!div class=mx-imgBorder]
     > ![Facebook channel routing rule](../media/fb-routing-rule.png "Facebook channel routing rule")
 
+The **Facebook Engagement Context (Conversation)** entity enables you to set the following:
+
+  - **Customer name**: The customer name is shown in the format "first name, last name".
+  - **Locale**: For a list of locales, see [Facebook developer documentation](https://developers.facebook.com/docs/messenger-platform/messenger-profile/supported-locales).
+  - **Timezone**: Timezone is shown as a number relative to GMT, for example, “5.5”
+  - **User Page Scoped Id**: This is shown as a number string. 
+
 ## Step 4: Modify settings for a specific Facebook page 
 
 1. In the Omnichannel Administration app, go to your Facebook application and select the Facebook page you want to modify. 
