@@ -54,10 +54,10 @@ To learn more about how to create rules in the Customer Service Hub app, see [Au
 
 ### Editing Rules
 
-If you rerun the migration tool, it will pick up any updates or edits in the web client if the rule:
+If you rerun the migration tool, it will pick up any updates or edits in the web client if the rule has been: 
 
--  Has been edited prior to the actual migration in the web client
--  Has been edited to resolve errors in the web client that failed during a previous migration attempt
+-  Edited prior to the actual migration in the web client
+-  Edited to resolve errors in the web client that failed during a previous migration attempt
 
 The following updates or edits to a rule will not be considered if:
 
