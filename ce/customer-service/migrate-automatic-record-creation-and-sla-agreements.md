@@ -40,7 +40,7 @@ The migration tool provides the following functionality:
 - Customer Service licensing 
 - ARC must have a Customer Service version of 9.0.20034.20XX or higher environment to opt-in for migration
 - SLA must have a Customer Service version of 9.0.20053.1030 or higher enironment to opt-in for migration
-- Admin permissions 
+- Administrator permissions 
 
 ### Working with Rules 
 Before you run the migration tool, it is important to understand how the modern ARC and SLA rules work in the Customer Service Hub app.
@@ -109,12 +109,12 @@ When you have successfully accessed the migration tool, choose from one of the f
 
 The migration landing page shown below is what will display for first time users and provides the following: 
 1.	An overview of both ARC and SLAs rules
-2.	**Total** - Displays the number of legacy rules available overall
-3.	**Migrated** - Displays the number of rules you have completely migrated
-4.	**Pending** - Displays the number of rules you have pending migration (includes failed rules, partially or incomplete migrated rules, and rules that have not been attempted)
-5.	**Migration status** - Displays whether migration has started
-6.	**Refresh** - Allows you to update migration status
-7.	**Start migration** - Allows you to begin the migration process
+2.	**Total** - Displays the number of legacy rules available overall.
+3.	**Migrated** - Displays the number of rules you have completely migrated.
+4.	**Pending** - Displays the number of rules you have pending migration (includes failed rules, partially or incomplete migrated rules, and rules that have not been attempted).
+5.	**Migration status** - Displays whether migration has started.
+6.	**Refresh** - Allows you to update migration status.
+7.	**Start migration** - Allows you to begin the migration process.
 
 > ![Migration Tool First Time User Overview](media\migration-tool-first-time-users-1.png  "Migration Tool First Time User Overview")
 
