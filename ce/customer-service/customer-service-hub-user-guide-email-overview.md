@@ -151,11 +151,11 @@ When replying to emails in Timeline, the command bar in the top-right corner pro
 
 Use the following command options when working with emails in Timeline:
 
- - **Reply**
+ - Reply
 
- -	**Reply All**
+ -	Reply All
  
- -	**Forward** 
+ -	Forward 
 
 ![Respond to emails in timeline](media\email-respond-in-timeline-1.png "Responding to emails in timeline") 
 
