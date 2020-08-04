@@ -16,6 +16,8 @@ This article helps you troubleshoot and resolve issues related to LinkedIn integ
 
 ## Error in enabling LinkedIn updates
 
+**Reason**
+
 When enabling the data validation option (**Enable LinkedIn updates**) in the **Sales Navigator Integration Settings** dialog box, you might see the status that data validation has failed. The possible errors are:  
 
 - Data validation has failed because CRM sync is disabled in LinkedIn Sales Navigator.
@@ -36,6 +38,22 @@ For more information about the data validation capability of LinkedIn Sales Navi
   - If you've turned on both the settings, ensure that you've turned on the **Enable LinkedIn updates** setting at least once.
 
 - If the error is due to something other than CRM sync, you can try restarting data validation by first disabling it from the **Sales Navigator Integration Settings** dialog box, and then enabling it again.
+
+## Unable to upgrade the LinkedInSalesNavigatorForUnifiedClient solution 
+
+**Reason** 
+
+You're unable to upgrade the **LinkedInSalesNavigatorForUnifiedClient** solution from 1.*x* to 3.*x*. This issue occurs because of the dependencies that exist for the solution: you can’t update the solution that has dependencies associated with it. 
+
+**Resolution** 
+
+To resolve this issue, you must remove the existing dependencies for the **LinkedInSalesNavigatorForUnifiedClient** solution. Follow these steps: 
+
+1. For the current **LinkedInSalesNavigatorForUnifiedClient** solution, remove the dependencies and uninstall the solution. For more information, see step 4 in [Uninstall LinkedIn Sales Navigator](uninstall-sales-navigator.md).
+
+2. Uninstall the **msdyn_LinkedInSalesNavigatorAnchor** solution. 
+
+3. After the solutions are successfully deleted, install them again. More information: [Install and enable LinkedIn Sales Navigator](install-sales-navigator.md)
 
 ### See also
 

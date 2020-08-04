@@ -12,9 +12,19 @@
 ### [Partner Sales and Marketing](learning-sales.md)
 
 ## User Guides
+
+### Customer Service workspace
+#### [Introduction to Customer Service workspace](csw-overview.md)
+#### [Customer Service workspace system requirements](customer-service-workspace-system-requirements.md)
+#### [Overview of the productivity pane](csw-productivity-pane.md)
+#### [View AI suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)
+
 ### Customer Service Hub
 #### [Introduction to Customer Service Hub](user-guide-customer-service-hub.md)
 #### [Learn the basics](customer-service-hub-user-guide-basics.md)
+#### Work with timeline
+##### [Use timeline](customer-service-hub-user-guide-timeline-overview.md)
+##### [Configure timeline](customer-service-hub-user-guide-timeline-admin.md)
 
 #### Work with cases
 ##### [Create a case](customer-service-hub-user-guide-create-a-case.md)
@@ -32,6 +42,7 @@
 #### [Use Customer Service Hub on mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)
 #### [Upgrade to Customer Service Hub](upgrade-ish-csh.md)
 #### [Keyboard navigation support](keyboard-navigation-support-customer-service-hub.md)
+
 ### [Customer Service Team Member](customer-service-team-member.md)
 ### Customer Service app
 #### [Introduction to Customer Service app](user-guide-customer-service.md)
@@ -82,6 +93,7 @@
 #### [View and understand Customer Service Analytics](customer-service-analytics.md)
 #### [Configure Customer Service Analytics and Insights in Customer Service Hub](configure-customer-service-analytics-insights-csh.md)
 #### [Configure Customer Service Analytics in Power BI](configure-customer-service-analytics-dashboard.md)
+#### [Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)
 
 ## Connected Customer Service (IoT) add-in
 ### [Overview](cs-iot-overview.md)
@@ -135,6 +147,14 @@
 #### Service Scheduling Developer Guide
 ##### [Search Resource Availability and Create Bookings](universal-resource-scheduling.md)
 
+### [UCI Service Scheduling](uci-scheduling-overview.md)
+#### [Create or edit a service](uci-create-edit-service.md)
+#### [Add facilities and equipment](uci-add-facilities-equipment.md)
+#### [Schedule a service activity](uci-schedule-service-activity.md)
+#### [Create resource groups](uci-create-resource-groups.md)
+#### [Use sites to manage your service locations](uci-create-sites.md)
+#### [Navigate the service calendar](uci-navigate-service-calendar.md)
+
 ### [Legacy Service Scheduling](../customer-service/legacy-scheduling.md)
 #### [Set up business closure](set-when-business-closed-cs-app.md)
 #### [Set work hours to define availability](set-work-hours-resource.md)
@@ -158,6 +178,9 @@
 ### [Issue converting an email to a case](troubleshoot-case-email-issue.md)
 ### [SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday](troubleshoot-sla-timer-issue.md)
 ### [Unable to delete a managed solution consisting an SLA enabled entity](troubleshoot-delete-managed-solution.md)
+### FAQs
+#### [Timeline FAQs](timeline-faqs.md) 
+#### [FAQs on AI-suggested cases and knowledge articles](csw-faqs-ai-suggestions.md)
 
 ## Developer guide
 ### [Work with knowledge articles](work-knowledge-articles.md)

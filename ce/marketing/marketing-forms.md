@@ -2,7 +2,7 @@
 title: "Set up and manage marketing forms for use in marketing pages (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about various types of marketing forms and how to create them in Dynamics 365 Marketing"
 keywords: marketing form, fields
-ms.date: 05/27/2020
+ms.date: 07/21/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -79,7 +79,7 @@ The following settings and information are provided on the **Summary** tab:
 - **Contact and Lead matching strategies**: These settings control which incoming form-field values are matched against existing contact and lead records. If an existing record has matching values in all the specified fields, then that record will be updated with the incoming values (for the other fields); if no match is found, then a new contact and/or lead record will be created. Default strategies are provided for new forms. More information:  [Set matching strategies](mkt-settings-matching.md)
 - **Generate leads without matching**: This setting controls whether or not the form will attempt to match an existing lead (using the specified **Lead matching strategy**), or if instead it will always create a new lead for each submission. Set to **No** to apply the matching strategy, or to **Yes** to create a new lead every time.
 - **Purpose** and **Visual style**: These fields provide more information about the form. For form templates, these values affect how the form can be found on the **Purpose** and **Visual style** tabs of the template gallery. These settings don't affect the actual layout or functionality of the form in any way.
-- **Prefill fields**: Set to **Yes** to enable prefilling for the form; set to **No** to disable it. You can only change this option for landing-page forms&mdash; subscription-center forms always use prefilling, while forward-to-a-friend forms never use it. More information: [Enable prefilling for forms](form-prefill.md)
+- **Prefill fields**: Set to **Yes** to enable prefilling for the form; set to **No** to disable it. You can only change this option for landing-page forms&mdash;subscription-center forms always use prefilling, while forward-to-a-friend forms never use it. More information: [Enable prefilling for forms](form-prefill.md)
 - **Submission behavior**: These settings establish how the form interacts with people who submit it. They establish the default settings for when you place the form in a marketing page using a [form element](content-blocks-reference.md#form-element), though you can override these by editing the form element properties. They also establish the behavior for when the form is embedded on an external website. The following settings are provided here:
     - **Success notification**: Enter a message to show to visitors right after they submit the form. Use this to thank the submitter and confirm their submission.
     - **Success image URL**: The success-notification message is rendered as an overlay dialog that includes a small graphic. By default, it shows a green circle with a check mark. If you prefer a custom graphic (such as your organization's logo), then upload the graphic somewhere and enter the full URL here.
@@ -87,7 +87,7 @@ The following settings and information are provided on the **Summary** tab:
     - **Error image URL**: The error-notification message includes a small graphic. By default, it shows a red circle with an X mark. If you prefer a custom graphic, then upload the graphic somewhere and enter the full URL here.
     - **Limit exceeded notification**: Enter a short message announcing that the system has stopped processing new submissions temporarily, and inviting the user to try again later. This situation can occur if the server detects a submission pattern consistent with abuse of the system and has therefore entered a defensive stance.
     - **Redirect URL**: Enter a URL to send the submitter to immediately after they submit the form. This typically would be a page on your own website that thanks the submitter and confirms their submission, or some other message related to the purpose of your marketing page.
-    - **Store all form submissions**. Marketing-form records  provide a tab called **Form submissions**, where you can see all incoming submissions for the current form that haven't been processed yet. Failed submissions will remain listed here so you can inspect,  possibly fix, and resubmit them. Set this option to **Yes** if you'd also like to keep a record of all successfully processed submission here, which you'll also be able to inspect, update, and resubmit if needed. Set this to **No** to keep only pending and failed submission in the list. Either way, all successfully processed submissions will be applied to your database, and you'll always be able to see these submissions on the **Insights** > **Submissions** tab (but you can't edit or resubmit from there). More information: [Edit and resubmit form submissions](failed-submissions.md)
+    - **Store all form submissions**: Marketing-form records  provide a tab called **Form submissions**, where you can see all incoming submissions for the current form that haven't been processed yet. Failed submissions will remain listed here so you can inspect,  possibly fix, and resubmit them. Set this option to **Yes** if you'd also like to keep a record of all successfully processed submissions here, which you'll also be able to inspect, update, and resubmit if needed. Set this to **No** to keep only pending and failed submissions in the list. Either way, all successfully processed submissions will be applied to your database, and you'll always be able to see these submissions on the **Insights** > **Submissions** tab (but you can't edit or resubmit from there). More information: [Edit and resubmit form submissions](failed-submissions.md)
 
 - **Timeline**: Shows a history of notes and other activities related to the current form. Most types of entities in Dynamics 365 Marketing include this type of display.
 - **Related marketing pages**: Here you can see a list of marketing pages where this form is used. Select any listed page to open it.
@@ -99,7 +99,7 @@ The following settings and information are provided on the **Summary** tab:
 
 ### How form settings affect lead scoring and interaction records
 
-Typically, you'll use marketing forms as part of your lead generation and scoring strategy. If so, then it's important to understand how some of the settings in the header and on the **Summary** tab can affect contact generation, lead generation, record updates, lead scoring, and interaction records. The most important setting in this regard is the **Update contact/leads** setting in the header, which  affects what happens when a contact submits a form, as described in the following subsections. For more information about these issues, see also [Design lead-scoring models](score-manage-leads.md).
+Typically, you'll use marketing forms as part of your lead generation and scoring strategy. If so, then it's important to understand how some of the settings in the header and on the **Summary** tab can affect contact generation, lead generation, record updates, lead scoring, and interaction records. The most important setting in this regard is the **Update contact/leads** setting in the header, which  affects what happens when a contact submits a form, as described in the following subsections. For more information about these issues, see [Design lead-scoring models](score-manage-leads.md).
 
 #### Create/update both contacts and leads
 
@@ -177,33 +177,16 @@ Design element availability and requirements vary by form type, as outlined in t
 
 You can also view and edit the raw HTML code for the form by going to the **Designer** > **HTML** tab. There, you can paste code you've copied from other applications and add features that aren't available in the graphical designer (such as custom scripts for validating form input).
 
-When you're done designing your form, select **Check for errors** and to make sure you've included all the required content and settings. Dynamics 365 Marketing checks your form and displays the results. If it reports any errors, read the error text, try to correct the issue, and then check for errors again until the form passes validation.
+When you're done designing your form, select **Check for errors** to make sure you've included all the required content and settings. Dynamics 365 Marketing checks your form and displays the results. If it reports any errors, read the error text, try to correct the issue, and then check for errors again until the form passes validation.
 
 > [!IMPORTANT]
-> Forms are nearly always intended to create or update one or more database records&mdash;especially contact or lead records. However, record creation will fail if any fields required by the database are missing when the form is submitted. When you're designing a form, always be sure to identify all of the fields required by your database, and add a form element with its **Required** check box selected for each of them. That will ensure that contacts who submit the form will get an error message if any required values are missing. If you don't do this, then form submissions may simply be ignored without informing contacts of the problem. Your database could be customized to require fields that you don't expect, so be sure to talk to your system customizer or administrator if you're not sure which fields are required. The **Check for errors** function for forms doesn't identify all of the fields required by your database, especially custom fields, so you can't depend on it to inform you of this issue. Always be sure to test your form to confirm that it creates the types of records you expect it to.
-
-## Cascading form fields
-
-Cascading fields allow you to create hierarchy relationships between two option fields in a marketing form. You can use cascading fields to create parent-child relationships for filtering option sets from a parent field. The filtering will show users fewer options from the child set once the user chooses an option from the parent level. The child option set stays hidden until a choice is made in the parent option set. Supported [data fields](marketing-fields.md#field-type-and-format-options) for creating cascading fields include option sets, two options, and multi-select option sets.
-
-To create a cascading field:
-
-1. Add two multi-select options or option set (radio button) fields to a form.
-1. Click on the child set that you want to nest into the parent field.
-1. On the **Properties** pane, go to **Field attributes** > **Filter by** and click **Set up relationships**.
-
-    ![Field attributes](media/cascading-fields.png "Field attributes")
-
-1. Set the parent and child options that will be connected.
-
-> [!NOTE]
-> If there are no fields that can be selected as a parent, the **Field attributes** section is not shown.
+> Forms are nearly always intended to create or update one or more database records&mdash;especially contact or lead records. However, record creation will fail if any fields required by the database are missing when the form is submitted. When you're designing a form, always be sure to identify all of the fields required by your database, and add a form element with its **Required** check box selected for each of them. That will ensure that contacts who submit the form will get an error message if any required values are missing. If you don't do this, then form submissions might simply be ignored without informing contacts of the problem. Your database could be customized to require fields that you don't expect, so be sure to talk to your system customizer or administrator if you're not sure which fields are required. The **Check for errors** function for forms doesn't identify all of the fields required by your database, especially custom fields, so you can't depend on it to inform you of this issue. Always be sure to test your form to confirm that it creates the types of records you expect it to.
 
 <a name="form-go-live"></a>
 
 ## Go live to make your marketing form available for use
 
-While you are building a marketing form it remains in draft status, and is therefore editable in Dynamics 365 Marketing but is unavailable for use on marketing pages. When your form is ready for use, you must publish it by selecting **Go Live**. Your design will be checked for errors and then, provided it passes, be moved to the live state, thereby making it available for use on a marketing page or to be [embedded on an external site](embed-forms.md). If a problem is found, read the error message, address the issue, and try again.
+Your marketing form remains in draft status while you are building it, and it is therefore editable in Dynamics 365 Marketing but is unavailable for use on marketing pages. When your form is ready for use, you must publish it by selecting **Go Live**. Your design will be checked for errors and then, provided it passes, be moved to the live state, thereby making it available for use on a marketing page or to be [embedded on an external site](embed-forms.md). If a problem is found, read the error message, address the issue, and try again.
 
 You can edit a live form by selecting **Edit** in the command bar. While you are editing it, it remains functional on all live pages where it is already being used, and available for use on new pages. After editing, select **Save** to go live with your changes. Your design will be checked for errors and then, provided it passes, your updates will be published.
 
