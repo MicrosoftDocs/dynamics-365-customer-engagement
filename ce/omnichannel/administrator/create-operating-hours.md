@@ -22,9 +22,9 @@ Operating hours define the hours when your organization's customer support team 
 
 The operating hours schedules cater to the following scenarios:
 
-- Display non availability of customer support on public holidays that are otherwise operating hours.
+- Display the non-availability of customer support on public holidays that are otherwise operating hours.
 - Accommodate change of calendar timings for daylight saving time twice an year.
-- Set up separate schedules for agents, bots, and queues to cater to different business scenarios and product lines seamlessly.
+- Set up separate schedules for agents, bots, and queues to cater to different business scenarios and product lines seamlessly for any channel.
 - Define schedules to transition customer queues from bots to agents.
 - Customize the display and other settings of the chat widget during non-business hours.
 
@@ -42,16 +42,16 @@ After you create an operating hour record, you must add it to the **Design** tab
 
     - **Name**: Enter a name for the operating hour record.
     - **Owner:** Accept the default value or search to specify a different owner.
-    - **Description**: Enter an optional description of the operating hour record.
+    - **Description:** Enter an optional description of the operating hour record.
 5. Select **Save**. The **Working Hours** tab is displayed.
    
     > ![Create an operating hour record](../media/oc-create-operating-hour.png "Create an operating hour record")
 
 6. On the **Working Hours**, select **New** > **Working hours** in the calendar.
 7. In the **Working hours** pane, set the following options to define the working hours schedule.
-   - **All Day:** Set to **Yes**, if the chat widget should be available 24/7.
-   - **Calendar:** Set the period for the schedule. The option to choose dates is available only when **All Day** is **Yes**.
-   - **Time:** Select the start and end timings for the schedule. This option is available only when **All Day** is **No**.
+   - **All Day:** Set to Yes, if the chat widget should be available 24/7.
+   - **Calendar:** Set the period for the schedule. The option to choose dates is available only when **All Day** is Yes.
+   - **Time:** Select the start and end timings for the schedule. This option is available only when **All Day** is No.
    - **Repeat:** Select a recurrence option and the days of the week for the schedule to be applicable. The repeat option is available only when the calendar is set to one day.
    -  **Time zone:** Select an applicable time zone.
     
