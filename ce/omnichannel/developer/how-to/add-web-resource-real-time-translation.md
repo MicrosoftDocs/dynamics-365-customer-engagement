@@ -4,7 +4,7 @@ description: "Read how you can add a web resource for real-time translation"
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 07/15/2020
+ms.date: 08/05/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: reference

@@ -120,15 +120,6 @@ errorCode: ErrorCodes;   //represents the type of error based on errorCode
 }
 ```
 
-## Example
-
-```javascript
-window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
-        // Initialize the translation provider for the incoming conversation
-        Microsoft.Omnichannel.TranslationFramework.initializeNewConversation(convId, translationConfig);
-});
-```
-
 ### See also
 
 [Add a web resource for real-time translation](../../how-to/add-web-resource-real-time-translation.md)
