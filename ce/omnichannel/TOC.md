@@ -367,6 +367,7 @@
 ### [Troubleshoot Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md)
 ### [Report issues in Omnichannel for Customer Service](report-issues.md)
 ### [FAQs](faqs.md)
+## [Troubleshoot with Solution Health Hub](troubleshoot-using-solution-health-hub.md)
 
 
 # [Dynamics 365 Customer Service](https://docs.microsoft.com/dynamics365/customer-service/help-hub)
