@@ -2,7 +2,7 @@
 
 The release is only applied when an environment is opted into early access and introduces the [resource scheduling 2020 wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/service/dynamics365-field-service/planned-features#scheduling) new and updated features.
 
-In addition, this release includes the following changes which have the potential to change the existing system behavior or interface:
+In addition, this release includes the following changes that have the potential to change the existing system behavior or interface:
 
 - Fixed a bug where a booking rule is used and throws a custom notification on the schedule assistant’s **Create Resource Booking** pane, the **Booking created successfully** was not being displayed. Now with the fix, even when booking rules are defined, the booking creation success notification will be displayed. 
 - When a custom date format (for example, dd/mm/yyyy) is used, the booking tooltip's displayed start time and end time are displayed incorrectly. This bug is now fixed. 
