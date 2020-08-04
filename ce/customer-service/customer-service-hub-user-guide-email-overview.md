@@ -10,7 +10,10 @@ ms.author: lerobbin
 ms.reviewer: nenellim
 ---
 
+# Use email
+
 [!include[cc-early-access](../includes/cc-early-access.md)]
+
 
 Having the ability to communicate effectively with customers can lead to increased sales and customer satisfaction. The email capability in customer engagement apps empowers users with the ability to respond and provide timely customer interaction effortlessly through quick email access with enhanced features and functionality. Users can compose, reply, and review emails, as well as quickly attach and send images that add value and support to customer communication using streamlined functionality. You can also ensure interactions between users and customers are consistent and professional by using email templates with rich text and images. 
 
@@ -21,7 +24,7 @@ The following is an overview of email features and functionality that shows you:
 - [How to use email templates](customer-service-hub-user-guide-email-overview.md#how-to-use-email-templates)
 - [How to attach a file in email](customer-service-hub-user-guide-email-overview.md#how-to-attach-a-file-to-email)
 - [How to view and insert images in email](customer-service-hub-user-guide-email-overview.md#how-to-view-and-insert-images-in-email) 
-- [How to create a signature for emails and queues](customer-service-hub-user-guide-email-overviewmd#how-to-create-a-signature-for-emails-and-queues)
+- [How to create a signature for emails and queues](customer-service-hub-user-guide-email-overview.md#how-to-create-a-signature-for-emails-and-queues)
 
 ## Understand the email experience
 You can work in either the **navigate-to** email or the **contextual** email experience. The difference between the navigate-to vs. contextual email experience is where the email displays on your screen. Both experiences use the same **Enhanced Email** form, which is enabled by default out-of-the-box (OOTB).
@@ -96,7 +99,7 @@ On the email form:
 
 1.	The name displayed in the **From** field is automatically populated based on the user who is currently signed in.
 
-2.	Use the ![](media\email-expand-icon.png "expand email") expand icon to maximize the screen to compose your email in a full-screen view and minimize.
+2.	Use the Expand icon ![Expand icon](media\email-expand-icon.png "expand email") to maximize the screen to compose your email in a full-screen view and minimize.
 
 3.	Use the body of the email to compose and/or reply to emails. 
 
@@ -110,7 +113,7 @@ For more information, see [Insert an email template](customer-service-hub-user-g
 5.	Use the rich text editor to format emails. The editor is displayed as a single line that can be expanded to view the full list of editing features by default. <br />
   For more information, see [Editor functionality](customer-service-hub-user-guide-email-overview.md#formatting-options) and [Accessibility shortcuts](customer-service-hub-user-guide-email-overview.md#accessibility-shortcuts). 
   
-6.	Add ![](media\email-new-attachment-icon.png "email attachment icon") **New Attachments** using the drag-and-drop or copy-and-paste functionality. 
+6.	Add ![Email attachment icon](media\email-new-attachment-icon.png "email attachment icon") **New Attachments** using the drag-and-drop or copy-and-paste functionality. 
 
 7.	Use **Attach file** to add a file to your email.<br />
 
@@ -119,7 +122,7 @@ For more information, see [Insert an email template](customer-service-hub-user-g
 
 8.	Use **Insert Signature** to personalize your message.  
 
-9.	Select ![](media\email-send-icon.png "Send email icon")  **Send** when you are done.
+9.	Select ![Send email icon](media\email-send-icon.png "Send email icon")  **Send** when you are done.
 
 ![How to compose and email](media\email-compose-email-1.png "How to compose and email")
 
@@ -359,7 +362,7 @@ To view your email signatures:
 
 4.	**Set Default** text for the subject and body. If no text is selected, it will display using the default text.
 
-5.	The **More Commands** ![](media\timeline-more-commands-icon.png "more commands icon") icon allows you to edit the order of the record types.
+5.	The **More Commands** ![More commands icon](media\timeline-more-commands-icon.png "more commands icon") icon allows you to edit the order of the record types.
 
 6.	Use the **Move Up** or **Move down** to align records in a customized order.
 
@@ -379,7 +382,7 @@ You can attach a file using one of the two options:
 
 -	Use **Attach file** to add a file to your email.
 
--	Add ![](media\email-new-attachment-icon.png "new attachment") **New Attachments** using the drag-and-drop or copy-and-paste functionality. 
+-	Add ![Attachment icon](media\email-new-attachment-icon.png "new attachment") **New Attachments** using the drag-and-drop or copy-and-paste functionality. 
 
 > [!Note] 
 > When you save your email, you can use **Attach file** and **New Attachments** interchangeably.
