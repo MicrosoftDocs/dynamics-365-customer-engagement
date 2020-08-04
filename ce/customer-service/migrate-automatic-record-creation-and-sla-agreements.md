@@ -51,7 +51,7 @@ When performing your migration, you will only receive detailed results on rules 
 
 To learn more about how to create rules in the Customer Service Hub app, see [Automatically create or update records in Customer Service Hub](automatically-create-update-records.md) and [Define service-level agreements](define-service-level-agreements.md) for more information.
 
-> ![Note]
+> [!Note]
 > Once you have successfully migrated a rule, any edits made to that rule on the web client will not be visible in UCI. It must be explicitly deleted in UCI and migrated again for those edits to be visable in UCI.
 
 ### Editing Rules
