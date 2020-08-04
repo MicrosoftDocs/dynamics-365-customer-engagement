@@ -40,7 +40,7 @@ The migration tool provides the following:
 ## Prerequisites
 - Customer Service Licensing 
 - ARC must have a Customer Service version of 9.0.20034.20XX or higher environment to opt-in for migration
-> SLA must have a Customer Service version of 9.0.20053.1030 or higher enironment to opt-in for migration
+- SLA must have a Customer Service version of 9.0.20053.1030 or higher enironment to opt-in for migration
 - Admin permissions 
 
 ### Working with Rules 
