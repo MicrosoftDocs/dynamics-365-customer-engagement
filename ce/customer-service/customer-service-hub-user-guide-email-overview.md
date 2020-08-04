@@ -98,7 +98,7 @@ Use the following features and functionality to tailor emails:
 
 3.	Use the body of the email to compose and/or reply to emails. 
 
-4.	You have the option to select **Insert Template** to apply an email template. <br /> 
+4.	You can select **Insert Template** to apply an email template. <br /> 
 
 For more information, see [Insert an email template](customer-service-hub-user-guide-email-overview.md#insert-an-email-template).
 
