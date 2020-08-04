@@ -32,18 +32,15 @@ Email must be enabled for users so they can view and access it. Unless email is 
 
 To enable email:
 
-1.	Go to **Settings**.
-2.	Go to **Advanced Settings**.
-3.	Go to **Settings**.
-4.	Go to **Customizations**.
-5.	Go to **Customize the System**.
-6.	Expand **Entities**, select and expand **Email**, and select **Forms**.
-7.	On he command bar, select **Form Order**. A drop-down list appears.
-8.	Select **Main Form Set**.
-9.	The **Form Order** display window appears, which shows all email forms that are enabled to be available. Both the 'Navigate-to' to and 'Contextual' (pop-up) email experience work off of the same form order. 
-10.	If **Enhanced email** is not displaying at the top of the list, use the arrows to move it up so that it displays first on the list.
-11.	Select **OK**
-12.	You must **Publish All Customizations** for changes to appear otherwise they will not display.
+1.	Go to **Settings** > **Advanced Settings**.
+2.	Select **Settings** > **Customizations** > **Customize the System**.
+3.	Expand **Entities**, select and expand **Email**, and then select **Forms**.
+4.	On the command bar, select **Form Order**. A drop-down list appears.
+5.	Select **Main Form Set**.
+    The **Form Order** display window appears, which shows all email forms that are enabled to be available. Both the 'Navigate-to' to and 'Contextual' (pop-up) email experience work off of the same form order. 
+6.	If **Enhanced email** doesn't display at the top of the list, use the arrows to move it up so that it displays first on the list.
+7.	Select **OK**
+8.	You must **Publish All Customizations** for changes to appear; otherwise they will not display.
 
 ![How to enable email](media\email-how-to-enable-email-1.png "How to enable email")
 ![How to enable email](media\email-how-to-enable-email-2.png "How to enable email")
@@ -56,13 +53,11 @@ Enhanced email is the default setting, but you must enable email for users to ac
 
 Sign in to https://<YourOrgURL>.dynamics.com/apps and open a customer engagement app. In the app:
 1.	Go to **Settings**.
-2.	Select **Advanced Settings**.
-3.	Select **Settings**.
-4.	Select **Administration**. 
-5.	Select **System Settings**.
-6.	Select the **Email** tab.
-7.	To enable pop-up email windows, click the box in **Enhanced email for Timeline** section. 
-8.	Select **OK** to save your global organizational setting and close.
+2.	Select **Advanced Settings** > **Settings**.
+3.	Select **Administration** > **System Settings**.
+4.	Select the **Email** tab.
+5.	To enable pop-up email windows, click the box in the **Enhanced email for Timeline** section. 
+6.	Select **OK** to save your global organizational setting and close.
 
 ![How to enable the enhanced email experience](media\email-how-to-enable-email-1.png "How to enable the enhanced email experience")
 
