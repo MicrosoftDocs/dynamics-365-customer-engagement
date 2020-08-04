@@ -16,7 +16,7 @@ ms.topic: article
 
 ## Introduction
 
-Solution Health Hub allows you to get a better picture of the state of your environment and detect issues with your Dynamics 365 environment. The Solution Health Hub runs rules within an instance to validate the environment's configuration, which might change over time through natural system operations. Some of the rules are specific to Omnichannel for Customer Service;  you can run the rules on demand when you run into an issue. Some rules automatically trigger when Omnichannel for Customer Service is installed or updated. You can regularly run the Omnichannel for Customer Service ruleset to monitor the health of your environment.
+Solution Health Hub allows you to get a better picture of the state of your environment and detect issues with your Dynamics 365 environment. The Solution Health Hub runs rules within an instance to validate the environment's configuration, which might change over time through natural system operations. Some of the rules are specific to Omnichannel for Customer Service; you can run the rules on demand when you run into an issue. Some rules automatically trigger when Omnichannel for Customer Service is installed or updated. You can regularly run the Omnichannel for Customer Service ruleset to monitor the health of your environment.
 
 The Solution Health Hub helps detect the following issues:
 
@@ -82,7 +82,7 @@ When you run the analysis job, the following out-of-the-box rules that cannot be
 | SDK message/plugins should be active | Verifies that the SDK messages or plugins are active. More information: [Workaround for repeated messages](omnichannel-readme.md#messages-repeated-in-the-quick-replies-menu) |
 | Work stream capacity should be less than agents | Verifies that the capacity defined for agents is more than what is defined for the work streams. More information: [Understand work streams](administrator/work-streams-introduction.md) |
 | Work stream should have notification templates set | Verifies that notification templates have been set for work streams. More information: [Associate templates with work streams](administrator/associate-templates.md) |
-| Work stream should have session template set | Verifies that session template have been set for work streams. More information: [Associate templates with work streams](administrator/associate-templates.md) |
+| Work stream should have session template set | Verifies that session templates have been set for work streams. More information: [Associate templates with work streams](administrator/associate-templates.md) |
 | Work stream should not have duplicate context variables | Verifies that duplicate context variables haven't been defined for work streams. More information: [Create a work stream](administrator/work-streams-introduction.md#create-a-work-stream)  |
 | Work stream should not have empty routing rules above rules with condition | Verifies that empty routing rules haven't been defined for a work stream that prevent routing rules with a lower priority from running. More information: [Create and manage routing rules](administrator/routing-rules.md) |
 | Work stream with push mode should not allow offline mode | Verifies that offline is not an allowed presence for work streams that have push mode enabled. More information: [Create a work stream](administrator/work-streams-introduction.md#create-a-work-stream) |
