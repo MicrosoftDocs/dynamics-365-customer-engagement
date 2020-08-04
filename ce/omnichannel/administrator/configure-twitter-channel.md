@@ -4,7 +4,7 @@ description: "Instructions to configure a Twitter Direct Message channel in Omni
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 07/27/2020
+ms.date: 08/03/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -110,6 +110,14 @@ After completing the prerequisites, you can add the Twitter channel for your org
  
 > [!div class=mx-imgBorder]
 > ![Twitter routing rule creation](../media/twitter-create-routing-rule.png "Create Twitter routing rule")
+
+When you create conditions for routing rules, the **Twitter Engagement Context (Conversation)** entity enables you to set the following attributes:
+
+  - Customer name 
+  - Customer screen name
+  - Followers count
+  - Friends count
+
 
 ## Customer and agent experiences
 
