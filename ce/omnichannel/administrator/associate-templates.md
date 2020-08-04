@@ -1,16 +1,16 @@
 ---
 title: "Associate templates with workstreams in the Omnichannel Administration app | MicrosoftDocs"
 description: "Learn how to associate templates with workstreams in the Omnichannel Administration app"
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 01/31/2020
+ms.date: 08/04/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
 ---
 
-# Associate templates with workstreams
+# Associate templates with work streams
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -18,7 +18,7 @@ After creating the session, notification, and application tab templates, you mus
 
 After an agent accepts the conversation request, a session starts for which the session template is used. In the session, certain application tabs are required such as dashboard, knowledge article search, case pages, and so on. These application tabs are configured using the application tab templates and are associated with a session.
 
-## Attach templates in workstreams
+## Attach templates in work streams
 
 1. Sign in to the Omnichannel Administration app.
 
@@ -43,8 +43,8 @@ After an agent accepts the conversation request, a session starts for which the 
 
 9. Select **Save** to save the changes to the workstream.
 
-## See also
+### See also
 
-- [Manage session templates](session-templates.md)
-- [Manage application tab templates](application-tab-templates.md)
-- [Manage notification templates](notification-templates.md)
+[Manage session templates](session-templates.md)  
+[Manage application tab templates](application-tab-templates.md)  
+[Manage notification templates](notification-templates.md)  
