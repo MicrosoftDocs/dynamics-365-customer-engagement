@@ -12,7 +12,10 @@ manager: shujoshi
 
 # Configure email 
 
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-early-access](../includes/cc-early-access.md)]
+
+> [!Note] 
+> The existing enhanced email form will be deactivated with the general availability of the 2020 release wave 2 features. In the latest version of the Sales app (build 9.0.2006.5005), you'll notice that the name of the existing enhanced email form is changed to Enhanced Email (deprecated). A new form named Enhanced Email has been introduced with the new enhanced capabilities like quick preview or multiple email attachments. If you don't opt in for early access of the 2020 release wave 2 features, this form will be presented in a Read-only mode.
 
 Email is a critical communication tool that allows users to interact with customers in a timely and effect manner. The email experience in customer engagement apps provides an easy and immersive rich text email experience for users that helps them deliver a more professional and consistent personalized service in an efficient and effective manner using templates and enhanced features and functionality.  
 
