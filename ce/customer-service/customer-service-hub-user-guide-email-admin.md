@@ -12,7 +12,7 @@ manager: shujoshi
 
 # Configure email 
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Email is a critical communication tool that allows users to interact with customers in a timely and effect manner. The email experience in customer engagement apps provides an easy and immersive rich text email experience for users that helps them deliver a more professional and consistent personalized service in an efficient and effective manner using templates and enhanced features and functionality.  
 
