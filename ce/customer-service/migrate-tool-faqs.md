@@ -54,37 +54,45 @@ The following are some key scenarios where rules/items will not successfully com
 
 11.	**If my rule items/conditions have related entities inside nested group clause (and/or), will they be migrated to the Unified Client Interface (UCI)?**<br />
 No. We currently only support one level of the related entity hierarchy. For such rule items/conditions to successfully migrate, the user would have to remove any related entity in group clause pre-migration. If the user chooses not to take any action, the rule will fail during the **Pre-migration checkup** step and if the user chooses to continue with the migration, the rule will just have an empty condition for the respective item.<br /><br />
-![Web View](media\migration-tool-11-a.png)
+**Example**<br />
+**Pre-migration view:**<br />
+![Web View](media\migration-tool-11-a.png)<br />
 **a.**	Pre-migration Web Client View <br /><br />
+**Post migration UCI View:** <br />
 ![UCI View](media\migration-tool-11-b.png)
-Post migration UCI View: <br />
 **2a.** The migrated item title changes to **_FailedMigration** appended. <br />**2b.** The same standard placeholder **Created On equals 2200-01-01** is added to the condition.
 
 12.	**Why does my rule items/conditions with a DateType field that uses a "not on" operator fail during the pre-migration checkup and actual migration?**<br />
 The **Not on** operator for the **Date** data type, is not supported in the Unified Client Interface (UCI), and thereby is not supported as part of migration. To fix this issue, the user can change the legacy items/conditions from **{not-on selecteddate}** to **{selecteddate less than and selecteddate greater than}** in the web client before rerunning the migration tool for the respective rule.<br /><br />
+**Example**<br />
+**Pre-migration view:**<br />
 ![Web View](media\migration-tool-12-a.png)
 **a.**	Pre-migration Web Client View <br /><br />
+**Post migration UCI View:** <br />
 ![UCI View](media\migration-tool-12-b.png)
-Post migration UCI View: <br />
 **2a.** The migrated item title changes to **_FailedMigration** appended. <br />**2b.** The condition has a placeholder **Created On equals 2200-01-01** is added to the condition.
 
 13.	**Why does the data in my DateTime field change during migration?**<br />
-There is not a separate time field in the Unified Client Interface (UCI), so the DateTime field will change from a calendar control to text field.  Input should be in a specific format as shown in the text box below:<br />
-**a.**	Date and time<br />
-**b.**	Date only
-
+There is not a separate time field in the Unified Client Interface (UCI), so the DateTime field will change from a calendar control to text field.  Input should be in a specific format as shown in the text box below:<br /><br />
+**Example**<br />
+**Pre-migration view:**<br />
 ![Web view](media\faq-arc-sla-web-view-13.png)
-
+**a.**	Pre-migration **Date and time** location<br />
+**b.**	Pre-migration **Date only** location<br /><br />
+**Post migration UCI View:** <br />
 ![UCI view](media\faq-arc-sla-uci-view-13.png)
+**a.**	Post-migration **Date and time** location<br />
+**b.**	Post-migration **Date only** location<br />
 
 14.	**Why are some of my operator fields blank in Unified Client Interface (UCI) after migration?**<br />
 For lookup data types only the **equal / not equal, null /not null** operators are supported in UCI and are supported in the migration tool. **Under** and **not-under** operators are not supported in UCI and therefore are not supported in the migration tool. Any condition which have **under** or **not-under** operators are translated as **related entities** after migration and are shown as blank in the UCI after migration and the user cannot edit them. <br /><br />
-**Example**
+**Example**<br />
+**Pre-migration view:**<br />
 ![Web view](media\faq-arc-sla-web-client-14.png)
-<br />
-**a.**	Pre-migration Web Client View <br />
+<br />**a.**	Pre-migration Web Client View <br /><br />
+**Post migration UCI View:** <br />
+![UCI view](media\faq-arc-sla-uci-14.png)<br />
 **b.**	Post migration UCI View<br /><br />
-![UCI view](media\faq-arc-sla-uci-14.png)
 
 > [!Note]
 > The following limitations are applicable when defining a condition in Customer Service Hub:
@@ -107,16 +115,19 @@ No. Only migration of enhanced SLA rules are supported by the migration tool. St
 
 17.	**Activity party type attribute issues during workflow to Flow conversion.**<br />
 Any activity party type attribute assigned to another activity party type field (the most commonly impacted fields are: to, from, cc, and bcc, in emails) will not migrate during the workflow to Flow conversion, as Flow currently does not support this scenario.  Although the migration of the rule will not fail, the data value for such activity party type fields that relies on another activity party type attribute will be empty post migration. <br /><br />
-**Example:**<br /> 
+**Example**<br />
+**Pre-migration view:**<br />
 ![Web view](media\faq-arc-sla-web-client-17.png)<br />
 **a.** The **From** field, which is activity party type field that is assigned another activity party type attribute **{Bcc(Email)}** will be empty post migration.<br />
-**b.**	Whereas the **To** field will successfully migrate.<br /><br />
+**b.**	The **To** field will migrate.<br /><br />
+**Post migration UCI View:** <br />
 ![UCI Flow view](media\migration-tool-17-b.PNG)<br />
-<b>b.</b>	Whereas the **To** field will successfully migrate.
+<b>b.</b>	The **To** field post-migration.
 
 18.	**First not null checks in expressions within legacy workflow during workflow to flow conversion is not supported.**<br />
 In legacy workflows, a lookup field can be mapped with multiple expressions where you check and assign the **First Not Null** expression as shown in the Web Client example below. Currently, this is not supported as part of workflow to Flow conversion, as this is a known limitation from the legacy workflow designer. Therefore, the workflow converter assigns the first expression (without performing the null check) and removes the rest of the expressions irrespective of whether they have **non-null** values or not. In the sample snapshot shown below, the flow will only have **Regarding(Email)** in **Customer** field within this step.<br /><br />
 **Example:** <br />
+**Pre-migration view:**<br />
 ![Web view](media\faq-arc-sla-web-client-18.png)
 **a. Web Client View:** In the workflow, Customer field has: **{Regarding(Email); Contact(Create (Case)); Customer(Create (Case))}**<br />
 **b. UCI View:** In Flow, the Customer field will only have: **Regarding(Email)** regardless of whether it is null or not. 
