@@ -109,7 +109,7 @@ After you add a Facebook page, values for **Callback Uri** and **Verify Token** 
     > [!div class=mx-imgBorder]
     > ![Facebook channel routing rule](../media/fb-routing-rule.png "Facebook channel routing rule")
 
-The **Facebook Engagement Context (Conversation)** entity enables you to set the following:
+When you create conditions for routing rules, the **Facebook Engagement Context (Conversation)** entity enables you to set the following attributes:
 
   - **Customer name**: The customer name is shown in the format "first name, last name".
   - **Locale**: For a list of locales, see [Facebook developer documentation](https://developers.facebook.com/docs/messenger-platform/messenger-profile/supported-locales).
