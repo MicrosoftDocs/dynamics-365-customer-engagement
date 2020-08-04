@@ -29,7 +29,7 @@ search.app:
 # Field Service (Dynamics 365) mobile app
 
 
-Field Service (Dynamics 365) is a mobile app designed and optimized for technicians to view Dynamics 365 Field Service work orders, customer assets, accounts, and contacts. Different than Field Service Mobile (see feature comparison below), this alternative mobile app is built on Microsoft's Power Platform as a [model-driven app](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/model-driven-app-overview) and is customizable to your business needs with the same admin console as all Dynamics 365 business apps.
+Field Service (Dynamics 365) is a mobile app designed and optimized for technicians to view Dynamics 365 Field Service work orders, customer assets, accounts, and contacts. Different than Field Service Mobile (see the following feature comparison), this alternative mobile app is built on Microsoft's Power Platform as a [model-driven app](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview) and is customizable to your business needs with the same admin console as all Dynamics 365 business apps.
 
 Both the Field Service (Dynamics 365) mobile app _and_ the Field Service Mobile app are included with Field Service.
 
@@ -387,4 +387,4 @@ If you are getting the error "You're almost there" after signing in to the mobil
 
 ### See also
 
-- [What are model-driven apps in Power Apps?](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/model-driven-app-overview)
+- [What are model-driven apps in Power Apps?](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)
