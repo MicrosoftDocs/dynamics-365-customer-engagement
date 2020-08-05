@@ -244,7 +244,7 @@ This displays the title/subject in your timeline email form. You can have up to 
 </ol>
 
 **Details Section** <br>
-This displays in the body of your the timeline email record. You can have up to four fields in the **Detail** section, but only the first three fields are seen on the timeline record.
+This displays in the body of the timeline email record. You can have up to four fields in the **Detail** section, but only the first three fields are seen on the timeline record.
 
 <ol>
 <b>c.	Details - Field 1.</b> As before, regardless of the field you choose, this field will always appear below the Header - Field 1 as a subheader on the timeline record. For this example we selected <b>To</b> for this field.<br>
