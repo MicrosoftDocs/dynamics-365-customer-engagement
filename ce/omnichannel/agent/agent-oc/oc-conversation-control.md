@@ -62,22 +62,22 @@ You can use the keyboard commands to send internal and public messages:
 
 - **/p** – Type the forward slash (/) key and the letter **p** to send a public message to all the participants in the interaction.
 
-## Send template-based messages in chats
+## Send predefined messages in chats
 
-The communication panel allows you to send predefined messages to a customer with whom you're interacting. These predefined  message templates are stored as quick replies. Select the **Quick replies** button to retrieve the messages and send them to the customers and/or internal participants.
+The communication panel allows you to send predefined messages to a customer with whom you're interacting. These predefined  messages are stored as quick replies. Select the **Quick replies** button to retrieve the messages and send them to the customers and or internal participants.
 
  > [!div class=mx-imgBorder] 
  > ![Use quick replies option to optimize your replies to customers](../../media/oceh-send-quick-replies-chat.png "Use quick replies option to optimize your replies to customers")  
 
 You can use a keyboard command to see the list of quick replies. Type the forward slash (/) key and the letter q (**/q**). When you type **/q**, the **Quick replies** panel is displayed.
 
-The predefined messages or quick replies can be created either by the administrator or by you. You can create personal quick replies if the administrator has enabled the option. The predefined messages created by are available on the **Personal** tab of the **Quick replies** panel. For more information about personal quick replies, see [Create personal quick replies](create-personal-quick-replies.md).
+The quick replies can be created either by the administrator or by you. You can create personal quick replies if the administrator has enabled the option. The quick replies created by you are available on the **Personal** tab of the **Quick replies** panel. For more information about personal quick replies, see [Create personal quick replies](create-personal-quick-replies.md).
 
 ### Search for messages
 
 After you type **/q** in the communication panel messaging area, you can continue typing any keywords and if the **Quick replies** library has at least one message associated with the word, it is filtered and displayed to you. You can also use the number (#) sign to search for the predefined messages.
 
- > [!div class=mx-imgBorder] 
+ > [!div class=mx-imgBorder]
  > ![Type /q and the keyword to filter the replies](../../media/oceh-send-quick-replies-filter.png "Filter replies")  
 
 ### Preview: Share reconnection link with customers

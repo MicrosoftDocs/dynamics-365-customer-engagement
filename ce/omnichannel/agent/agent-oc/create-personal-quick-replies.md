@@ -49,15 +49,15 @@ You can create, edit, and delete the personal quick replies owned by you. The pr
 
 ## Use personal quick replies
 
-Use the personal quick responses when you are in a conversation with a customer by doing the following:
+The quick replies created by you are available on the **Personal** tab, and those created by the administrator are available on the **All** tab. Use the personal quick replies when you are in a conversation with a customer by doing the following:
 
 1. Select the quick responses icon at the bottom of your conversation window. The **Quick replies** panel displays the available predefined messages in the **All** and **Personal** tabs.
-2. Select the **Personal**tab that contains the predefined, and type the number sign (#) in the compose box to list the tags and search through for the quick replies available for your use.
-3. Use the **more** option to search for additional quick replies.
+2. Select the **Personal** tab, and type the number sign (#) in the compose box to list the tags and search through for the personal quick replies available for your use.
+3. Use the **more** option to view the complete text in the quick reply.
 
 > ![use personal quick reply](../../media/oceh/use-personal-quick-replies.png)
 
 ### See also
 
-[Send template-based messages in chats](oc-conversation-control.md#send-template-based-messages-in-chat)  
+[Send predefined messages in chats](oc-conversation-control.md#send-predefined-messages-in-chat)  
 [Manage applications](oc-manage-applications.md)  
