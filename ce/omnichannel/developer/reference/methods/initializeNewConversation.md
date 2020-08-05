@@ -74,6 +74,9 @@ InitializedConversationResponse =
 }
 ```
 
+> [!NOTE]
+> On exception in this method, invalid return values; OC will keep translation off for the conversation. You will need to do minimal processing in this function, as it make the UI wait before rendering.
+
 ### See also
 
 [Add a web resource for real-time translation](../../how-to/add-web-resource-real-time-translation.md)
