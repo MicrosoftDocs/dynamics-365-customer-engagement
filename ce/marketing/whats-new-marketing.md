@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 07/01/2020
+ms.date: 08/03/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -29,6 +29,53 @@ Marketing updates are [pushed to all customers automatically](https://cloudblogs
 
 > [!Note]
 > To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20Marketing).
+
+## August 2020 update
+
+The August update includes a preview of built in Teams functionality for events, email designer enhancements, and 33 bug fixes, improving reliability and stability. The early access release includes [2020 release wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/planned-features) features, including improved social posting and email designer improvements.
+
+### Version number
+
+| App              | GA release      | Early access    |
+|------------------|-----------------|-----------------|
+| Marketing        | 1.35.10064.1061 | 1.35.10064.2061 |
+
+> [!Tip]
+> To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](https://docs.microsoft.com/dynamics365/marketing/apply-updates#find-out-which-version-of-dynamics-365-marketing-you-are-running).
+
+### Early access features
+
+> [!IMPORTANT]
+> Early access features are currently available only on opted-in instances. You can opt in for early access on any instance, but we recommend that you do so only on trial, test, or sandbox instances, which will give you a chance to learn the new functionality before it shows up on your production instances later this year.
+>
+> For instructions on how to opt in and enable early access, see [Opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates). For more information about the 2020 release wave 2 schedule, and for answers to frequently asked questions about the early access program, see [2020 release wave 2 features available for early access](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/features-ready-early-access).
+>
+> We encourage all customers to provide feedback related to early access features on the [Dynamics 365 Marketing Forum](https://community.dynamics.com/365/marketing/f/dynamics-365-for-marketing-forum), your Microsoft contact or partner, and/or through [Microsoft Support](https://docs.microsoft.com/power-platform/admin/get-help-support).
+
+- **Create and manage content-rich social media posts and easily monitor performance**
+    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/improved-social-posting)
+    - [Docs](social-posting.md)
+- **Create engaging, customized emails faster**
+    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/create-customized-emails-faster)
+    - [Docs](email-design.md)
+
+### Preview feature
+
+> [!IMPORTANT]
+> This is a preview feature. A preview feature is a feature that is not complete, but is made available before it's officially in a release so customers can get early access and provide feedback. Preview features aren't meant for production use and may have limited or restricted functionality.
+>
+> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate supplemental terms of use.
+
+- **Run webinars and meetings using built in Microsoft Teams functionality**
+    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/teams-integration-webinar)
+    - [Docs](teams-webinar.md)
+
+### Monthly enhancements
+
+- **Marketing emails**
+    - Adding event, survey, marketing page, and Teams buttons to emails is easier with improved drag and drop functionality, enhanced appearance, and easily editable text.
+    - Placeholders for images, videos, and content blocks now have a more consistent appearance and uniform icons.
+    - Add up to ten columns with improved custom column configuration controls.
 
 ## July 2020 update
 
@@ -264,7 +311,7 @@ The Dynamics 365 Marketing April 2020 update includes several feature enhancemen
     - New modern and accessible email templates.
     - Accessibility checker for emails, forms, and pages with guidance on suggested fixes.
 - **Marketing forms**
-    - [Cascading form fields (parent/child fields)](marketing-forms.md#cascading-form-fields) are now available in marketing forms, expanding customization options.
+    - [Cascading form fields (parent/child fields)](marketing-fields.md#cascading-form-fields) are now available in marketing forms, expanding customization options.
 - **Segment management**
     - Improved template design gallery interface.
     - Improved date picker operation by adding a "Within x" operator.

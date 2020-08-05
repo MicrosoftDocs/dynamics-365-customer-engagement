@@ -10,7 +10,7 @@ ms.service:
 ms.topic: article
 ---
 
-# Configure automated messages
+# Preview: Configure automated messages
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 

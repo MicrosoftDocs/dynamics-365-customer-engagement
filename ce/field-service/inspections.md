@@ -26,7 +26,7 @@ search.app:
   - D365FS
 ---
 
-# Add inspections to work orders in Dynamics 365 Field Service (public preview)
+# Add inspections to work orders in Dynamics 365 Field Service
 
 Field Service inspections are digital forms that technicians use to quickly and easily answer a list of questions as part of a work order. The list of questions can include safety protocols, pass and fail tests for a customer asset, an interview with a customer, or other audits and assessments performed before, during, or after a work order.
 
@@ -49,7 +49,7 @@ In this article, we'll walk through an example of setting up an inspection using
 ## Prerequisites
 
 > [!Note]
-> Inspection capabilities are released in April 2020 as part of a public preview. Follow the process in the article on [installing or upgrading preview features](field-service-preview.md). In Step 6, look for the preview flight with the display name **FieldService_April2020_PreviewFlight**. You only need to install the public preview once and upgrades to the preview will show in admin center.
+> As of August 2020, inspections are available as an early access feature. For more information, see the article on [how to opt-in to early access features](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates#how-to-enable-early-access-updates).
 
 - Dynamics 365 version 9.1.0000.15015+.
 

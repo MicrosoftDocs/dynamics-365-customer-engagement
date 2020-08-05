@@ -70,6 +70,6 @@ To create a message template:
 ## See also
 
 [Configure outbound messaging](outbound-messaging.md) <br />
-[Configure an SMS channel for Telesign](configure-sms-channel.md) <br />
+[Configure an SMS channel for TeleSign](configure-sms-channel.md) <br />
 [Configure an SMS channel for Twilio](configure-sms-channel-twilio.md) <br />
 [Configure a WhatsApp a channel through Twilio](configure-whatsapp-channel.md) 

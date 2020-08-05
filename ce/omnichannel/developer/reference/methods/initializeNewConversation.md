@@ -74,15 +74,6 @@ InitializedConversationResponse =
 }
 ```
 
-## Example
-
-```javascript
-window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
-        // Initialize the translation provider for the incoming conversation
-        Microsoft.Omnichannel.TranslationFramework.initializeNewConversation(convConfig);
-});
-```
-
 ### See also
 
 [Add a web resource for real-time translation](../../how-to/add-web-resource-real-time-translation.md)

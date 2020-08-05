@@ -94,6 +94,7 @@
 ##### [Agent scripts](administrator/agent-scripts.md)
 ##### [Smart assist](administrator/smart-assist.md)
 ##### [Productivity pane](administrator/productivity-pane.md)
+#### [Enable personal quick replies](administrator/enable-personal-quick-replies.md)
 #### [Create quick replies](administrator/create-quick-replies.md)
 #### [Configure and manage custom presence](administrator/presence-custom-presence.md)
 #### [Share knowledge articles](administrator/knowledge-management-oc.md)
@@ -129,9 +130,7 @@
 #### [Create and manage operating hours](administrator/create-operating-hours.md)
 #### [Configure outbound messaging](administrator/outbound-messaging.md)
 
-
 ## Agent guide
-
 ### [Overview](agent/omnichannel-agent-overview.md)
 ### Agents using Omnichannel for Customer Service app
 #### [Overview of Omnichannel for Customer Service app](agent/agent-oc/omnichannel-customer-service-app-agent.md)
@@ -145,6 +144,7 @@
 #### [Monitor real-time customer sentiment](agent/agent-oc/oc-monitor-real-time-customer-sentiment-sessions.md)
 #### [Manage sessions](agent/agent-oc/oc-manage-sessions.md)
 #### [Manage applications](agent/agent-oc/oc-manage-applications.md)
+#### [Create personal quick replies](agent/agent-oc/create-personal-quick-replies.md)
 #### Productivity tools
 ##### [Use agent scripts](agent/agent-oc/oc-agent-scripts.md)
 ##### [View smart assist cards](agent/agent-oc/oc-smart-assist.md)
@@ -367,6 +367,7 @@
 ### [Troubleshoot Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md)
 ### [Report issues in Omnichannel for Customer Service](report-issues.md)
 ### [FAQs](faqs.md)
+## [Troubleshoot with Solution Health Hub](troubleshoot-using-solution-health-hub.md)
 
 
 # [Dynamics 365 Customer Service](https://docs.microsoft.com/dynamics365/customer-service/help-hub)
