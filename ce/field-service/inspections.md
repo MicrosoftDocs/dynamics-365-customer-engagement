@@ -142,7 +142,7 @@ When finished creating the inspection, select **Publish** at the top.
 
 ### Export as PDF
 
-Export an inspection as a PDF to provide an alternative method to send and fill out inspections. Exporting as PDF is helpful for situations where you need to send the inspection questions via email ahead of time.
+Export an inspection as a PDF. Exporting as a PDF is helpful for situations where you need to send the inspection questions via email ahead of time.
 
 From an inspection, select **Export to PDF** in the top ribbon.
 
@@ -154,7 +154,7 @@ A PDF with the blank inspection questions will be downloaded automatically.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the generated inspection PDF.](./media/inspections-export2.png)
 
-The PDF will be interactive, where you can enter answers and saved to the PDF; the answers will *not* be saved to Dynamics 365 Field Service or Common Data Model. In addition, some question types are limited. For example, the entity lookup question type will not reference the Dynamics 365 database records.
+The PDF will be interactive, where you can enter answers and save them to the PDF; the answers will *not* be saved to Dynamics 365 Field Service or Common Data Model. In addition, some question types are limited. For example, the entity lookup question type will not reference the Dynamics 365 database records.
 
 > [!Note]
 > The export to PDF function only exports blank inspections without responses.
