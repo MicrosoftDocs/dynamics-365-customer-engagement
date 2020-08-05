@@ -15,14 +15,19 @@
 
 ### Customer Service workspace
 #### [Introduction to Customer Service workspace](csw-overview.md)
-#### [Customer Service workspace](customer-service-workspace-system-requirements.md)
+#### [Customer Service workspace system requirements](customer-service-workspace-system-requirements.md)
 #### [Overview of the productivity pane](csw-productivity-pane.md)
 #### [View AI suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)
 
 ### Customer Service Hub
 #### [Introduction to Customer Service Hub](user-guide-customer-service-hub.md)
 #### [Learn the basics](customer-service-hub-user-guide-basics.md)
+
+#### Work with email
+##### [Using Email](customer-service-hub-user-guide-email-overview.md)
+##### [Configure Email](customer-service-hub-user-guide-email-admin.md)
 #### Work with timeline
+
 ##### [Use timeline](customer-service-hub-user-guide-timeline-overview.md)
 ##### [Configure timeline](customer-service-hub-user-guide-timeline-admin.md)
 
@@ -138,12 +143,6 @@
 ##### [Create and manage organizational units](create-org-units-cs-scheduling.md)
 ##### [Schedule business closure](set-when-business-closed-csh.md)
 
-#### Migration tool
-##### [Introduction](introduction-migration-entity-records.md)
-##### [Plan your migration](plan-migration.md)
-##### [Migrate entity records data using migration tool](migrate-entity-records.md)
-
-
 #### Service Scheduling Developer Guide
 ##### [Search Resource Availability and Create Bookings](universal-resource-scheduling.md)
 
@@ -174,11 +173,26 @@
 ### [Configure interactive dashboards](configure-interactive-dashboards-customer-service-hub.md)
 ### [Modify case resolution dialog box](../customer-service/customer-service-hub-user-guide-modify-case-resolution-dialog.md)
 
+## Migration tools
+
+### [Automatic Record Creation (ARC) and Service Level Agreement (SLA) migration](migrate-automatic-record-creation-and-sla-agreements.md)
+
+### [Contracts to entitlements migration](contract-to-entitlement-migration.md)
+
+### Service Scheduling Migration
+#### [Introduction to service scheduling migration](introduction-migration-entity-records.md)
+#### [Plan service scheduling migration](plan-migration.md)
+#### [Migrate service scheduling](migrate-entity-records.md)
+
+### [Migration tool FAQs](migrate-tool-faqs.md)
+
 ## Troubleshoot
 ### [Issue converting an email to a case](troubleshoot-case-email-issue.md)
 ### [SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday](troubleshoot-sla-timer-issue.md)
 ### [Unable to delete a managed solution consisting an SLA enabled entity](troubleshoot-delete-managed-solution.md)
 ### FAQs
+#### [Email FAQs](email-faqs.md)
+#### [Migration tool FAQs](migrate-tool-faqs.md)
 #### [Timeline FAQs](timeline-faqs.md) 
 #### [FAQs on AI-suggested cases and knowledge articles](csw-faqs-ai-suggestions.md)
 
