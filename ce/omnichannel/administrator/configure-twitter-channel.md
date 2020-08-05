@@ -4,7 +4,7 @@ description: "Instructions to configure a Twitter Direct Message channel in Omni
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 05/13/2020
+ms.date: 08/03/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -75,12 +75,26 @@ After completing the prerequisites, you can add the Twitter channel for your org
     > [!NOTE]
     > If you receive a message that says pop-up windows are blocked, select to always allow them.
 
-9. **Work Stream**: Select the out-of-the-box work stream for the Twitter channel. To create a new work stream, see [Create work streams](work-streams-introduction.md).
- 
-> [!div class=mx-imgBorder]
-> ![Twitter work stream](../media/twitter-create-handle.png "Twitter work stream")
+9.  On the **General settings** tab, provide the following information:
+    
+    - **Language**: Select the preferred language for your Facebook page.
+    
+    - **Work Stream**: Select the out-of-the-box work stream for the Twitter channel. To create a new work stream, see [Create work streams](work-streams-introduction.md).
 
-10. Select **Save** to save the record. The Twitter channel setup is complete.
+    - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set **No**. 
+
+    - **Enable file attachments for agents**: Set to **Yes** to allow agents to send file attachments to customers. Otherwise, set **No**. 
+    
+       To learn more about attachments, see [File attachments](enable-file-attachments.md). 
+       
+       > [!div class=mx-imgBorder]
+       > ![Twitter work stream](../media/twitter-create-handle.png "Twitter work stream")
+
+10. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
+    
+11. On the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
+
+12. Select **Save** to save the record. The Twitter channel setup is complete.
  
 > [!div class=mx-imgBorder]
 > ![Twitter channel enabled](../media/twitter-account-complete.png "Twitter channel enabled")
@@ -96,6 +110,14 @@ After completing the prerequisites, you can add the Twitter channel for your org
  
 > [!div class=mx-imgBorder]
 > ![Twitter routing rule creation](../media/twitter-create-routing-rule.png "Create Twitter routing rule")
+
+When you create conditions for routing rules, the **Twitter Engagement Context (Conversation)** entity enables you to set the following attributes:
+
+  - Customer name 
+  - Customer screen name
+  - Followers count
+  - Friends count
+
 
 ## Customer and agent experiences
 
@@ -125,4 +147,7 @@ Customers are solely responsible for using Dynamics 365, this feature, and any a
 ### See also
 
 [Understand and create work streams](work-streams-introduction.md)<br>
-[Create and manage routing rules](routing-rules.md)
+[Configure automated messages](configure-automated-message.md)<br> 
+[Configure a post-conversation survey](configure-post-conversation-survey.md)<br>
+[Create and manage routing rules](routing-rules.md)<br>
+[Delete a configured channel](delete-channel.md)
