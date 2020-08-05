@@ -103,7 +103,7 @@ Review the following prerequisites before configuring the supervisor insights: 
 
 Follow these steps to configure Intraday insights for the Omnichannel for Customer Service app on the web:
 
-1. [Configure Power BI workspace in Omnichannel Administration app](#configure-power-bi-workspace-in-omnichannel-administration-app)
+1. [Configure Power BI workspace in Omnichannel Administration app](#configure-the-power-bi-workspace-in-the-omnichannel-administration-app)
 
 2. [Share workspace and reports with supervisors](#share-workspace-and-reports-with-supervisors)
 
