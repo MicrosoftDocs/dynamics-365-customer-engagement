@@ -90,18 +90,15 @@ The timeline component can be configured and tailored to support specific busine
 
 The following sections describe how to configure display options, records to show, and activity types to include. 
 
-
-
-
-
 ## Display options 
 
-- **Name**: Use this field to change the name of the Timeline component. This field is only for your (system administrator’s) reference and doesn’t impact how it is rendered at the runtime. 
+- **Name**: Use this field to change the name of the timeline component. This field is only for your (system administrator’s) reference and doesn’t impact how it is rendered at runtime. 
 
-    There are character limitations for this field. For example, you can’t have spaces and you must use underscores (_).
+    This field has character limitations. For example, you can’t have spaces and you must use underscores (_).
 
-- **Records shown in page**: This field allows you to define the number of records to show in the Timeline section at the runtime. If there are more records than the number you define here, users will see an option to load more records. By default, this field is set to 10. 
-The following image shows the timeline at runtime when the Record shown in page field is set to 10.
+- **Records shown in page**: This field allows you to define the number of records to show in the timeline section at runtime. If there are more records than the number you define here, users will see an option to load more records. By default, this field is set to 10. 
+
+  The following image shows the timeline at runtime when the **Records shown on page** field is set to 10.
 
   | Configuration | Runtime | 
   | ------------------ | ------------ | 
@@ -109,17 +106,17 @@ The following image shows the timeline at runtime when the Record shown in page 
 
 - **Record types shown**: Select which record types you want to show in the timeline. Users will also be able to create new records of the record types you select here. You can select from: Activities, Notes, and Posts. All these are selected by default.
 
-    - **Activities**. There are multiple customizable sub-activity record types to support business needs. You can create, add, and display a number of different customized sub-activity record types under the Activity section of timeline properties.    
-    - **Notes**. Notes allow users to capture notes related to the entity record. Notes are typically used to grab thoughts, summary information, and provide feedback on a record, for example, a case. 
-    - **Posts.**  There are two types of posts, Auto Posts and User Posts. 
-        - **Auto Posts**. These are system generated and notify you of account activity that has occurred. 
-        - **User Posts**. User posts are used to communicate with other users in your organization.
+    - **Activities**. There are multiple customizable subactivity record types to support business needs. You can create, add, and display a number of different customized subactivity record types under the Activity section of timeline properties.    
+    - **Notes**. This allows users to capture notes related to the entity record. Notes are typically used to grab thoughts, summary information, and provide feedback on a record—for example, a case. 
+    - **Posts.**  There are two types of posts, Auto and User. 
+        - **Auto Posts**. These are system-generated and notify you of account activity that has occurred. 
+        - **User Posts**. These are used to communicate with other users in your organization.
 
-    The following image shows that because you  selected Activities, Notes, and Posts in the **Record types to show** section of timeline properties, users will see an option to create these record types at the runtime. The records of these record types will also be shown in the Timeline section at the runtime.  
+    The following image shows that because you selected Activities, Notes, and Posts in the **Record types to show** section of timeline properties, users will see an option to create these record types at runtime. The records of these record types will also be shown in the Timeline section at runtime.  
 
     | Configuration | Runtime | 
     | ------------------ | ------------ | 
-    | ![Select the records types to show in Timeline](media\timeline-record-types-to-show-config.png "Select the records types to show in Timeline")  | ![Option to create the record types that are selected in timeline properties](media\timeline-record-type-to-show-runtime.png "Record types shown based on the record types selected in timeline properties")  |   
+    | ![Select the record types to show in timeline](media\timeline-record-types-to-show-config.png "Select the record types to show in timeline")  | ![Option to create the record types that are selected in timeline properties](media\timeline-record-type-to-show-runtime.png "Record types shown based on the record types selected in timeline properties")  |   
     
     The timeline shows an icon before the activity, post, note, and custom entity making it easy for you to identify the record type. Dates and timestamps are shown for each activity, note, or post in the timeline. 
     
@@ -127,34 +124,39 @@ The following image shows the timeline at runtime when the Record shown in page 
 
 ## Advanced section
 
-The Advanced section covers settings that span across an activity, note, or post, which are the three primary record types that appear in the timeline section. This section is collapsed by default. When you enable or  disable settings in the Advanced section, you won't be able to see the changes at the runtime (even though it may appear there is activity occurring on the timeline component) until you save and publish your changes and refresh the entity form.
+The Advanced section covers settings that span an activity, note, or post, which are the three primary record types that appear in the timeline section. This section is collapsed by default. When you enable or disable settings in the Advanced section, you won't be able to see the changes at runtime (even though it might appear there is activity occurring on the timeline component) until you save and publish your changes and refresh the entity form.
 
 ![Advanced settings in Timeline properties](media\timeline-properties-advanced-section-config.png "Advanced settings in Timeline properties")
 
 
-- **Quick entry record type**: Select the record type that you want to enable for quick create. For example, if Notes is selected in the drop-down list, users will see an option to quicly create a note from the timeline. When you select this option, 
+
+<!-- editor note: The following paragraph ends with an sentence that isn't complete. -->
+
+
+
+- **Quick entry record type**: Select the record type that you want to enable for quick create. For example, if Notes is selected in the drop-down list, users will see an option to quickly create a note from the timeline. When you select this option, 
 
   | Configuration | Runtime | 
   | ------------------ | ------------ | 
   | ![Select which record type to enable for quick entry](media\timeline-quick-entry-note-config.png "Select which record type to enable for quick entry")  | ![Notes enabled for quick entry in Timeline at runtime](media\timeline-quick-entry-note-runtime.png "Notes enabled for quick entry in Timeline at runtime")  |   
 
-- **Sort default**: This setting controls the order of how the data must be sorted on the timeline. The default setting for this feature is set to **Descending**.
+- **Sort default**: This setting controls the order of how the data must be sorted on the timeline. The default setting for this feature is **Descending**.
     
 - **Enable filter pane**: Define whether you want to enable filter options on timeline. This setting is enabled by default.
 
-    When the **Enable filter pane** check box is selected, a filter icon is shown on the Timeline. More information: [How to filter records in Timeline](customer-service-hub-user-guide-timeline-overview.md#filter-records)
+    When the **Enable filter pane** check box is selected, a filter icon is shown on the timeline. More information: [How to filter records on timeline](customer-service-hub-user-guide-timeline-overview.md#filter-records)
     
     ![Select which record type to enable for quick entry](media\timeline-filter-runtime.png "Select which record type to enable for quick entry").  
 
-- **Expand filter pane**: The **Expand filter pane** setting is used to display an expanded filter pane at the top of timeline anytime a record is opened. This setting is disabled by default. The Expand filter pane feature provides quick access to filtering options for timeline records. 
+- **Expand filter pane**: This setting is used to display an expanded filter pane at the top of the timeline anytime a record is opened. This setting is disabled by default. The Expand filter pane feature provides quick access to filtering options for timeline records. 
 
   | Runtime when Expand filter pane is disabled | Runtime when Expand filter pane is enabled | 
   | ------------------ | ------------ | 
   | ![Timeline with Expand filter pane option disabled](media\timeline-expand-filter-pane-disabled-runtime.png "Timeline with Expand filter pane option disabled")  | ![Timeline with Expand filter pane option enabled](media\timeline-expand-filter-pane-enabled-runtime.png "Timeline with Expand filter pane option enabled")  |   
    
-- **Enable search bar**: Define whether you want to enable or disable search bar on timeline. When you select this check box, a **Search timeline** box appears in the Timeline section allowing users to easily search for records in the timeline. When you search for a phrase in the timeline, it searches in the title of the record or body and description fields of the record, and then displays the search results. This setting is enabled by default. More information: [Search records on timeline](customer-service-hub-user-guide-timeline-overview.md#search-records-on-timeline)
+- **Enable search bar**: Define whether you want to enable or disable the search bar on timeline. When you select this check box, a **Search timeline** box appears in the Timeline section allowing users to easily search for records in the timeline. When you search for a phrase in the timeline, it searches in the title of the record or body and description fields of the record, and then displays the search results. This setting is enabled by default. More information: [Search records on timeline](customer-service-hub-user-guide-timeline-overview.md#search-records-on-timeline)
 
-- **Expand all records by default**: When this check box is selected, all records in the timeline are shown in an expanded view. This option is disabled by default. Select or clear the check box to enable or disable this option.  timeline-expand-all-records-enabled-runtime  timeline-expand-all-records-disabled-runtime
+- **Expand all records by default**: When this check box is selected, all records in the timeline are shown in an expanded view. This option is disabled by default. Select or clear the check box to enable or disable this option.  
 
   | Runtime when Expand all records by default is disabled | Runtime when Expand all records by default is enabled | 
   | ------------------ | ------------ | 
@@ -163,37 +165,38 @@ The Advanced section covers settings that span across an activity, note, or post
   > [!NOTE]
   > The records in timeline might contain images, but they won't display when the record is collapsed. Records with images must be expanded to be viewed. Use the caret icons (˅ or ^) to expand or collapse a record. Records with images will often display the message "The email has been blocked due to potentially harmful content. View full Email content." When you select this message, the warning goes away. If you don't see a message and still don't see the image displaying, refer to [Timeline FAQs](timeline-faqs.md).
 
-- **Enable "What you've missed" summary**: This setting shows users when there are new records that they haven't seen. This setting is disabled by default. To enable, select this check box. When enabled, you'll see a notification like this:
+- **Enable "What you've missed" summary**: This setting lets users know there are new records they haven't seen. The setting is disabled by default. To enable, select the check box. When enabled, you'll see a notification like this:
 
   ![What you've missed notification in timeline](media\timeline-what-you-have-missed-runtime.png "What you've missed notification in timeline")
 
 ## Record settings section
-The **Record settings** section allow you to define detailed settings for the record types that you selected in the **Record types to show** setting. For example, if you selected check boxes for **Activities** and **Notes** in the **Record types to show** section, the **Record settings** section will provide you more settings related to these two record types.
+The **Record settings** section allows you to define detailed settings for the record types that you selected in the **Record types to show** setting. For example, if you selected check boxes for **Activities** and **Notes** in the **Record types to show** section, the **Record settings** section will provide you with more settings related to these two record types.
 
 ### Configure activity record types
 
-After you select **Activities** in the **Records types to show** section, you can also select which type of activities you want to enable to be shown on the timeline. 
-When you expand the **Activities** under **Record settings**, a list of all the activity types that can be either enabled or disabled on the entity form is shown. 
+After you select **Activities** in the **Records types to show** section, you can also select which type of activities you want to enable to be shown on the timeline.
 
-1. Expand **Activities** under **Record settings**. A list of all the activity types that can be either enabled or disabled on the entity form is shown.
-2.	Select the activity type that you want to enable, for example, select **Email**.  A fly-out appears. 
+1.  Expand **Activities** under **Record settings**. A list of all the activity types that can be either enabled or disabled on the entity form is shown.
 
-  ![Configure activity type to display in timeline](media\timeline-enable-activity-type-config.png "Configure activity type to display in timeline")
+2.	Select the activity type that you want to enable—for example, select **Email**.  A fly-out menu appears. 
 
+    ![Configure activity type to display in timeline](media\timeline-enable-activity-type-config.png "Configure activity type to display in timeline")
 
-
-3. Configure the following options:
+3.  Configure the following options:
     
-    1. **Enable**: To show the activity type in the the fly-out menu that appears when you select the **Create a timeline record** icon ![](media\timeline-create-a-record-icon.png "Create a timeline record") in the timeline section, select **Enable**.  The activity type will appear as shown in the following image:
+    - **Enable**: To show the activity type in the fly-out menu that appears when you select **Create a timeline record** ![Create a timeline record](media\timeline-create-a-record-icon.png "Create a timeline record") in the timeline section, select **Enable**. The activity type will appear as shown in the following image:
 
-        ![Email activity in the flyout](media\timeline-email-option-in-create-timeline-flyout-runtime.png "Email activity in the flyout")
+      ![Email activity in the flyout menu](media\timeline-email-option-in-create-timeline-flyout-runtime.png "Email activity in the flyout menu")
     
-        The records for this activity type will also be shown in the timeline.
+      The records for this activity type will also be shown in the timeline.
 
-        To prevent an activity type from appearing in the fly-ot, clear the **Enable** check box. 
+      To prevent an activity type from appearing in the fly-out menu, clear the **Enable** check box. 
 
-       > [!NOTE]
-       > Additional settings for a record type are disabled until you enable the record type.  
+      > [!NOTE]
+      > Additional settings for a record type are disabled until you enable the record type.  
+      
+      
+      
     
     2. **Enable status tags**: Status tags display in the timeline to help users to see at a glance whether an activity, for example, an email is in the Active, Overdue, or Closed state. Status tags are enabled by default. The following image shows where users will see the status tag is in the timeline at the runtime:
 
