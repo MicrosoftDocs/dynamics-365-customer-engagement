@@ -4,7 +4,7 @@ description: "Learn about the intraday insights dashboard for supervisors"
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 07/23/2020
+ms.date: 08/03/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -46,6 +46,7 @@ This section of the dashboard consists of the following KPIs.
 | Conversations exceeding 5 min handle time | The number of active conversations that are exceeding the handle time threshold of five minutes. |
 | Conversation state | The distribution of conversations across open, active, waiting, wrap up, and closed state. |
 | Open conversations | The distribution of open conversations in pick mode and push mode respectively. |
+|||
 
 ## Agent insights
 
@@ -69,6 +70,7 @@ This section of the dashboard consists of the following KPIs.
 | Total sessions transferred | The number of sessions that are transferred to agents and supervisors, along with the break up between the two. | 
 | Average consult time | The average time spent by agents on consultation for other agents or supervisor, across sessions. |
 | Conversations per online agent | The average number of conversations that are in active state and being handled by agents. | 
+|||
 
 ### Agent Performance
 
@@ -84,7 +86,7 @@ This section of the dashboard consists of the following KPIs.
 | KPI | Description |
 |-------|-------|
 | Agent status | The availability status of the agent. |
-| Conversation state | The status of the latest conversation between the agent and a customer. | 
+| Conversation status reason | The status of the latest conversation between the agent and a customer. | 
 | Avg handle time per session | The agent’s average amount of time per session. |
 | Avg response time per session | The agent’s average amount of response time. | 
 

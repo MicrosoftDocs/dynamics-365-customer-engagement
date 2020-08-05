@@ -1,0 +1,43 @@
+---
+title: Enable personal quick replies in Omnichannel for Customer Service | MicrosoftDocs
+description: Enable personal quick replies in agent experience for Omnichannel for Customer Service
+author: neeranelli
+ms.author: nenellim
+manager: shujoshi
+ms.date: 08/03/2020
+ms.topic: article
+ms.service: 
+  - dynamics-365-customerservice
+search.audienceType: 
+  - admin
+  - customizer
+search.app: 
+  - D365CE
+  - D365CS
+---
+ 
+# Preview: Enable personal quick replies for agents
+
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
+## Overview
+
+You can allow agents to create their own personal quick replies that are stored in the agent's context and can be invoked with the associated tags during a session with the customers. The personal quick replies allow agents to respond to customer queries efficiently with minimal turnaround time.
+
+As an administrator, you can use a Power Automate utility to delete unused tags.
+
+## Enable personal quick replies
+
+1. In the Omnichannel Administration app, go to **Agent Experience**, and select **Personal quick replies**. The **Omnichannel Configuration - Personal quick replies** page is displayed.
+2. On the **Personal quick replies** tab, set the toggle to Yes for **Allow agents to create personal quick replies**. The setting for agents is enabled.
+
+> [!NOTE]
+> It might take 15 minutes for the setting to take effect.
+
+### See also
+
+[Create quick replies](create-quick-replies.md)  
+[Create personal quick replies](agent/../../agent/agent-oc/create-personal-quick-replies.md)  
+
