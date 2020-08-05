@@ -38,14 +38,18 @@ Organizations can send messages to customers automatically based on a system eve
 Before you configure outbound messaging, make sure that the following prerequisites are met:
 
 - You must have the SMS channel provisioned in your environment. For information, see [Provision Omnichannel for Customer Service](omnichannel-provision-license.md).
-- You must configure the SMS channel using an account with an SMS provider, either Twilio or Telesign. 
+- You must configure the SMS channel using an account with an SMS provider, either Twilio or TeleSign. 
 - You must have a Power Automate account.
 
 After completing the prerequisites, you can send outbound messages from your organization by following these steps:
 
-1. [Set up message templates](#step-1-set-up-message-templates)
-2. [Set up outbound configuration](#step-2-set-up-outbound-configuration)
-3. [Set up a Power Automate flow](#step-3-set-up-a-power-automate-flow)
+- [Preview: Configure outbound messaging](#preview-configure-outbound-messaging)
+  - [Overview](#overview)
+  - [Prerequisites](#prerequisites)
+  - [Step 1: Set up message templates](#step-1-set-up-message-templates)
+  - [Step 2: Set up outbound configuration](#step-2-set-up-outbound-configuration)
+  - [Step 3: Set up a Power Automate flow](#step-3-set-up-a-power-automate-flow)
+    - [See also](#see-also)
 
 ## Step 1: Set up message templates
 

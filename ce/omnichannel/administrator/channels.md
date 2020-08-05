@@ -18,10 +18,10 @@ As new social networks and communication channels rapidly evolve, so do customer
 
 Adding support channels to your businesses support offering is a powerful way to provide personalized service to customers on the channels of their choice. It is helpful to recognize a common pattern across all channels that are enabled through Omnichannel for Customer Service before diving into the implementation of a single channel. The implementation pattern for out of the box channels is as follows: 
 
-- Establish your account and respective requirements (such as a page, app, etc…) with the Channel provider. This ensures you have an entry point with the channel provider through which customers will engage.
+- Establish your account and respective requirements (such as a page, and app) with the Channel provider. This ensures you have an entry point with the channel provider through which customers will engage.
 - Configure the work stream in Omnichannel Administration.
 - Configure the Channel in Administration and attach it to the workstream.
-- Populate the exchange of handshake data (token, secrets etc…) required between Omnichannel and the channel provider.  This is usually done in both place, the Omnichannel Administration app and the channel provider experience. 
+- Populate the exchange of handshake data (token and secrets) required between Omnichannel and the channel provider.  This is usually done in both place, the Omnichannel Administration app and the channel provider experience. 
 
 The following channels are currently available in Omnichannel for Customer Service: 
 
@@ -37,7 +37,7 @@ If you want to help your customers using SMS, you can use the SMS channel.
 
 There are two options:
 
-- [SMS through Telesign](configure-sms-channel.md)
+- [SMS through TeleSign](configure-sms-channel.md)
 - [SMS through Twilio](configure-sms-channel-twilio.md)
 
 ## Social channels
