@@ -4,7 +4,7 @@ description: "Learn about the WhatsApp channel through Twilio and how to configu
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/03/2020
+ms.date: 08/05/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -55,7 +55,9 @@ The WhatsApp channel feature lets you integrate WhatsApp through Twilio with Omn
 
 [Step 2: Create a WhatsApp channel](#create-a-whatsapp-channel)
 
-[Step 3: Modify settings for a specific WhatsApp phone number](#modify-settings-for-a-specific-whatsapp-phone-number)
+[Step 3: Create routing rules](#create-routing-rules)
+
+[Step 4: Modify settings for a specific WhatsApp phone number](#modify-settings-for-a-specific-whatsapp-phone-number)
 
 ## Fetch Twilio account details
 
@@ -125,6 +127,14 @@ To create a WhatsApp channel, follow these steps:
 2. In the **WHEN A MESSAGE COMES IN** box, enter the Twilio inbound URL that you generated in Omnichannel for Customer Service, and save the changes.
 3. To test the WhatsApp channel with the Twilio sandbox, you can send a WhatsApp message to the number provided by Twilio with a unique code that is also provided by Twilio. You can also use the sandbox message template provided by Twilio to test sending messages outside of the 24-hour window.
 
+## Create routing rules
+
+1.	Go to **Work Distribution Management** > **Work Streams**.
+2.	Open the out-of-the-box work stream or the one you created.
+3.	On the **Routing rules items** tab, you can create a routing rule to transfer the message to an appropriate agent. Select the entity as **WhatsApp Engagement Context**. For example, you can create a rule to transfer WhatsApp chat from a customer to the default queue.
+
+When you create conditions for routing rules, the **WhatsApp Engagement Context (Conversation)** entity enables you to set the **Customer First Message** attribute. This attribute lets you create a pre-filled message that will automatically appear in the text field of a customer chat, which can be used for routing.
+
 ## Modify settings for a specific WhatsApp phone number 
 
 1. In the Omnichannel Administration app, go to your WhatsApp application and select the WhatsApp phone number you want to modify. 
@@ -137,9 +147,11 @@ To create a WhatsApp channel, follow these steps:
 
     - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set **No**. 
 
-    - **Enable file attachments for agents**: Set to **Yes** to allow agents to send file attachments to customers. Otherwise, set **No**. 
+    - **Enable file attachments for agents**: Set to **Yes** to allow agents to send file attachments to customers. When the agent sends an attachment, the app sends the blob storage URL to the channel. Otherwise, set **No**. 
     
        To learn more about attachments, see [File attachments](enable-file-attachments.md). 
+       
+       To learn more about uploading media in WhatsApp, see [Twilio support documentation](https://support.twilio.com/hc/en-us/articles/360017961894-Sending-and-Receiving-Media-with-WhatsApp-Messaging-on-Twilio-Beta-).
     
 3. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
 

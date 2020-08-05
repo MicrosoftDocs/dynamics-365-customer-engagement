@@ -4,7 +4,7 @@ description: "Instructions to configure a LINE channel in Omnichannel for Custom
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 08/03/2020
+ms.date: 08/05/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -89,7 +89,7 @@ The LINE channel setup is complete.
 
     - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set **No**. 
 
-    - **Enable file attachments for agents**: Set to **Yes** to allow agents to send file attachments to customers. Otherwise, set **No**. 
+    - **Enable file attachments for agents**: Set to **Yes** to allow agents to send file attachments to customers. When the agent sends an attachment, the app sends the blob storage URL to the channel. Otherwise, set **No**. 
     
        To learn more about attachments, see [File attachments](enable-file-attachments.md). 
 

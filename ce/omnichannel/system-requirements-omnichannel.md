@@ -47,10 +47,6 @@ To find out if Omnichannel for Customer Service is available in your region, see
 | Model-driven app | Dynamics 365 Customer Service app version 9.1.0000.3653 or later  |
 | Web browsers | Supported browsers:<li> Microsoft Edge ([Chromium based](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium) is recommended); version 79.0.309.65 or later is required for the desktop notifications feature </li> <li> Google Chrome </li><li>Microsoft Edge (Legacy version)<br>  **Important**<br> [!INCLUDE[cc-cookies-in-omnichannel](../includes/cc-cookies-in-omnichannel.md)] |
 
-> [!IMPORTANT]
->
-> Support for Microsoft Edge (Legacy version) in the Omnichannel for Customer Service app will be deprecated January 1, 2021. [Download the new Microsoft Edge based on Chromium.](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium)
-
 For hardware and other requirements, see [Model-driven app requirements](../admin/online-requirements.md).
 
 ## System and hardware requirements of Omnichannel for Customer Service with Unified Service Desk
