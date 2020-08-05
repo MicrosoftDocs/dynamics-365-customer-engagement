@@ -112,7 +112,7 @@ The following sections describe how to configure display options, records to sho
         - **Auto Posts**. These are system-generated and notify you of account activity that has occurred. 
         - **User Posts**. These are used to communicate with other users in your organization.
 
-    The following image shows that because you selected Activities, Notes, and Posts in the **Record types to show** section of timeline properties, users will see an option to create these record types at runtime. The records of these record types will also be shown in the Timeline section at runtime.  
+    The following image shows that because you selected **Activities**, **Notes**, and **Posts** in the **Record types to show** section of timeline properties, users will see an option to create these record types at runtime. The records of these record types will also be shown in the Timeline section at runtime.  
 
     | Configuration | Runtime | 
     | ------------------ | ------------ | 
@@ -313,34 +313,24 @@ You only want to enable activities that you need on this form. When working with
 
 Use the following steps for notes:
 
-
-<!-- editor note: Seems like step 3 should describe Coming soon - notes disabled. What do you do then? -->
-
-
 1. Select **Notes**.
 2. The section will expand to show **Coming soon**, which indicates you have notes enabled. 
-3. 
-4. Once enabled, select the **Create a timeline record** ![Create a timeline record](media\timeline-create-a-record-icon.png "Create a timeline record") icon. 
-5. A flyout menu will appear. 
-6. Select **Notes**. 
-7. Begin writing your note using rich text and select **Add Note** to save.
+3. Once enabled, select the **Create a timeline record** ![Create a timeline record](media\timeline-create-a-record-icon.png "Create a timeline record") icon. 
+4. A flyout menu will appear. Select **Notes**. 
+5. Begin writing your note using rich text and select **Add Note** to save.
 
-![Notes on timeline](media\timeline-notes-1.png "Notes on timeline")
+![Notes on timeline](media/timeline-notes-1.png "Notes on timeline")
 
 ## Posts on timeline
 
 Use the following steps for posts:
 
-
-<!-- editor note: Same concern as above. Based on the numbers in the image, seems like step 3 should describe Coming soon - notes disabled. What do you do then? -->
-
-
 1. Select **Post**.
 2. The section will expand to show **Coming soon**, which indicates you have posts enabled. 
-3. 
-4. Once enabled, select the **Create a timeline record** ![Create a timeline record](media\timeline-create-a-record-icon.png "Create a timeline record") icon. A flyout menu will appear. Select **Posts** and begin writing your post.
+3. Once enabled, select the **Create a timeline record** ![Create a timeline record](media\timeline-create-a-record-icon.png "Create a timeline record") icon. A flyout menu will appear. Select **Posts**.
+4. Begin writing your post.
 
-![Posts on timeline](media\timeline-posts-1.png "Posts on timeline")
+![Posts on timeline](media/timeline-posts-1.png "Posts on timeline")
 
 ## Save and publish timeline updates and changes
 
