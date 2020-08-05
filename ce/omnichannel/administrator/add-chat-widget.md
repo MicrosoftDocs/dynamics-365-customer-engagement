@@ -81,7 +81,7 @@ manager: shujoshi
     | Offline | Show widget during offline hours | Set to **Yes** to display the chat widget during the offline hours.| Yes. The default is No; the chat widget will be hidden .|
     | Offline | Theme color | Select a color from the list. | Grey |
     |Offline | Title | Specify a title to be displayed. | We're offline. |
-    | Offline | Subtitle | Optinally, specify a subtitle. | No agents are available. |
+    | Offline | Subtitle | Optionally, specify a subtitle. | No agents are available. |
     |||||
 
     > [!div class=mx-imgBorder]
