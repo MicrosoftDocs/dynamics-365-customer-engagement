@@ -24,7 +24,15 @@ This method is called for every conversation message exchanged between the custo
 
 |Name|Type|Required|Description|
 |----|----|----|----|
-|`translationConfig`|JSON object|Yes| Consists of `conversationId`, `messagePayload` and `translateToC1orC2` key-value pairs.<br />|Name|Type|Description|<br />|----|----|----|<br />|`ConversationId`|String|Unique ID for live work item in Omnichannel for Customer Service|<br />|`messagePayload`|JSON object|Payload for the message to be translated|<br />|`translateToC1orC2`|JSON object|Represents for whom the message has to be translated||
+|`translationConfig`|JSON object|Yes| Consists of `conversationId`, `messagePayload` and `translateToC1orC2` key-value pairs.|
+
+Given below are the key-value pairs that we need to provide in the `translationConfig` object.
+
+|Name|Type|Description|
+|----|----|----|
+|`ConversationId`|String|Unique ID for live work item in Omnichannel for Customer Service|
+|`messagePayload`|JSON object|Payload for the message to be translated|
+|`translateToC1orC2`|JSON object|Represents for whom the message has to be translated|
 
 Here is the structure of `translationConfig` parameter.
 
