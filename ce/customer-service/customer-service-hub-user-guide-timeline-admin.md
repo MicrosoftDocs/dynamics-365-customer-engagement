@@ -24,7 +24,7 @@ To access the entities list via **Power Apps**:
 1.	Go to **Power Apps**: [make.powerapps.com](https://make.powerapps.com "make.powerapps.com")
 2.	Select **Data** and then select **Entities**.
 
-    ![Select Entities in the Power Apps navigation pane](media\timeline-access-option-2.png "Select Entities in the Power Apps navigation pane")
+    ![Select Entities in the Power Apps navigation pane](media/timeline-access-option-2.png "Select Entities in the Power Apps navigation pane")
 
 > [!Important] 
 > When accessing timeline, if you are not taken to the new form designer experience in Power Apps, you are not using the latest experience.
@@ -37,19 +37,19 @@ Every instance of the timeline that’s applied on a form can be configured. Exa
 
     The following is a list of entities. You can add a timeline to any entity.
 
-    ![List of entities in Power Apps](media\timeline-list-of-entities-power-apps.png "List of entities in Power Apps")
+    ![List of entities in Power Apps](media/timeline-list-of-entities-power-apps.png "List of entities in Power Apps")
 
 2.	For this example, we selected the **Account** entity.
 
-    ![Select Account in the entity list](media\timeline-select-account-entity-list.png "Select Account in the entity list")
+    ![Select Account in the entity list](media/timeline-select-account-entity-list.png "Select Account in the entity list")
 
 3.	On the **Account** entity page, select **Forms**.
 
-    ![Select Form tab](media\timeline-select-form-tab.png "Select Form tab")
+    ![Select Form tab](media/timeline-select-form-tab.png "Select Form tab")
 
 4.	The **Forms** landing page displays a list of **Form types**. Timelines can only be used on **Main** form types.
 
-    ![Forms of type Main](media\timeline-form-type-main.png "Forms of type Main")
+    ![Forms of type Main](media/timeline-form-type-main.png "Forms of type Main")
 
 5.	For this example, we selected **Account for Interactive experiences**. 
 
@@ -59,17 +59,17 @@ Timeline is a component and you'll need to access **Components** to make timelin
 
 1. After you've selected a **Main** form type, the following page appears:
 
-    ![Adding or removing a timeline from an entity form](media\timeline-select-component.png "Adding or removing a timeline from an entity form")
+    ![Adding or removing a timeline from an entity form](media/timeline-select-component.png "Adding or removing a timeline from an entity form")
     
     In the **Account for Interactive experiences** form, from the left nav, select **Components**. 
  
 2. In the left nav, scroll down to the **Timeline** component, then drag and drop it in the Timeline section of the form. 
 
-    ![Adding the timeline control to the form](media\timeline-add-timeline-control-to-form.png "Adding the timeline control to the form")
+    ![Adding the timeline control to the form](media/timeline-add-timeline-control-to-form.png "Adding the timeline control to the form")
 
 3. If the **Timeline** option is dimmed, it means it already exists on the form. You can only have one timeline per form.
 
-    ![Timeline grayed out](media\timeline-option-greyed-out.png "Timeline grayed out")
+    ![Timeline grayed out](media/timeline-option-greyed-out.png "Timeline grayed out")
 
 
     To remove the timeline component from a form, highlight the inside **Timeline** component area and select the **Delete** key. This will remove the timeline component from the form.
@@ -82,7 +82,7 @@ Timeline is a component and you'll need to access **Components** to make timelin
 
 In the form body, the timeline component is added to the **TIMELINE** section. To configure the properties of the timeline component, select the timeline component inside the timeline section and you'll see the properties in the right pane. 
 
-![Understanding the timeline component on the form](media\timeline-component-2.png "Understanding the timeline component on the form")
+![Understanding the timeline component on the form](media/timeline-component-2.png "Understanding the timeline component on the form")
 
 ## Configure properties of timeline component
 
@@ -102,7 +102,7 @@ The following sections describe how to configure display options, records to sho
 
   | Configuration | Runtime | 
   | ------------------ | ------------ | 
-  | ![Display options - Records shown on page](media\timeline-record-shown-on-page.png "Display options - Records shown on page")  | ![Display options - Records shown on page](media\timeline-records-shown-on-page-runtime.png "Display options - Records shown on page")  |   
+  | ![Display options - Records shown on page](media/timeline-record-shown-on-page.png "Display options - Records shown on page")  | ![Display options - Records shown on page](media/timeline-records-shown-on-page-runtime.png "Display options - Records shown on page")  |   
 
 - **Record types shown**: Select which record types you want to show in the timeline. Users will also be able to create new records of the record types you select here. You can select from: Activities, Notes, and Posts. All these are selected by default.
 
@@ -116,17 +116,17 @@ The following sections describe how to configure display options, records to sho
 
     | Configuration | Runtime | 
     | ------------------ | ------------ | 
-    | ![Select the record types to show in timeline](media\timeline-record-types-to-show-config.png "Select the record types to show in timeline")  | ![Option to create the record types that are selected in timeline properties](media\timeline-record-type-to-show-runtime.png "Record types shown based on the record types selected in timeline properties")  |   
+    | ![Select the record types to show in timeline](media/timeline-record-types-to-show-config.png "Select the record types to show in timeline")  | ![Option to create the record types that are selected in timeline properties](media/timeline-record-type-to-show-runtime.png "Record types shown based on the record types selected in timeline properties")  |   
     
     The timeline shows an icon before the activity, post, note, and custom entity making it easy for you to identify the record type. Dates and timestamps are shown for each activity, note, or post in the timeline. 
     
-    ![Option to create the record types that are selected in timeline properties](media\timeline-icons-activity-post-notes.png "Record types shown based on the record types selected in timeline properties")
+    ![Option to create the record types that are selected in timeline properties](media/timeline-icons-activity-post-notes.png "Record types shown based on the record types selected in timeline properties")
 
 ## Advanced section
 
 The Advanced section covers settings that span an activity, note, or post, which are the three primary record types that appear in the timeline section. This section is collapsed by default. When you enable or disable settings in the Advanced section, you won't be able to see the changes at runtime (even though it might appear there is activity occurring on the timeline component) until you save and publish your changes and refresh the entity form.
 
-![Advanced settings in Timeline properties](media\timeline-properties-advanced-section-config.png "Advanced settings in Timeline properties")
+![Advanced settings in Timeline properties](media/timeline-properties-advanced-section-config.png "Advanced settings in Timeline properties")
 
 
 
@@ -138,7 +138,7 @@ The Advanced section covers settings that span an activity, note, or post, which
 
   | Configuration | Runtime | 
   | ------------------ | ------------ | 
-  | ![Select which record type to enable for quick entry](media\timeline-quick-entry-note-config.png "Select which record type to enable for quick entry")  | ![Notes enabled for quick entry in Timeline at runtime](media\timeline-quick-entry-note-runtime.png "Notes enabled for quick entry in Timeline at runtime")  |   
+  | ![Select which record type to enable for quick entry](media/timeline-quick-entry-note-config.png "Select which record type to enable for quick entry")  | ![Notes enabled for quick entry in Timeline at runtime](media\timeline-quick-entry-note-runtime.png "Notes enabled for quick entry in Timeline at runtime")  |   
 
 - **Sort default**: This setting controls the order of how the data must be sorted on the timeline. The default setting for this feature is **Descending**.
     
