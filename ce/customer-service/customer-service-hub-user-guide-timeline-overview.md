@@ -97,7 +97,7 @@ When working with records, you have key information at a glance, can view more b
 When enabled by your system administrator, you can view timeline records at a glance in a collapsed format or expand a record to see more details for ease of use.
 
 
-<!-- editor note: In the gray part of the following image, a couple of words are misspelled and Surface isn't capitalized. Is that a concern? -->
+<!-- editor note: In the gray part of the following image, a couple of words are incorrect (should be "is" instead of "it," and "delay" instead of "daily") and Surface isn't capitalized. Is that a concern? -->
 
 
 ![Expand all record's functionality](media\timeline-expand-all-records-1.png "Expand all record's functionality")
@@ -123,13 +123,6 @@ The **More commands** icon contains refresh, sort, and email functionalities.
 |4|The **Always show email as conversations / Always show email as individual messages** command enables or disables threaded emails.|
 |||
 
-
-
-
-
-
-
-
 ## Threaded email views in timeline
 
 To save valuable space, emails with multiple replies are consolidated into email threads and collapsed.
@@ -139,7 +132,7 @@ To save valuable space, emails with multiple replies are consolidated into email
 |Annotation|Description|
 |----------|-----------|
 |1|Emails with multiple responses are grouped into threaded emails.|
-|2|To view the complete string of email responses, you can select **Show more** in the bottom left corner of the last visible email in the thread.|
+|2|To view the complete string of email responses, you can select **Show more** in the lower left corner of the last visible email in the thread.|
 |3|When expanded, the most recent 10 email responses in the thread will display.  To display more, select **Show more** to expand the view again.|
 |4|Emails in the same thread are displayed as linked together.|
 |||
@@ -150,14 +143,24 @@ Enabling the threaded email view is done via the timeline configuration in Power
 
 You can use any of the following options for enabling threaded email views in timeline:
 
+
+
+<!-- editor note: I don't see the file for the icon in step 1. -->
+
+
 **Option 1:** 
-1. Select the ![](media\timeline-more-commands.icon.png "More commands") **More commands** icon on the timeline, which will display a flyout menu.
+1. Select the **More commands** ![More commands](media\timeline-more-commands.icon.png "More commands") icon on the timeline, which will display a flyout menu.
 
 2. Select **Always show email as conversations**. Now your emails will display in timeline threaded together.
 
     ![Enable threaded email timeline view - option 1](media\timeline-threaded-email-views-2.png "Enable threaded email timeline view - option 1")
 
 **Option 2:**
+
+
+<!-- editor note: The numbers in the step don't align with the numbers in the image, which could be confusing. I recommend rewriting the steps to make them fit those in the image. -->
+
+
 1. On the command bar, select **Settings** > **Personalization Settings**. The **Set Personal Options** dialog box appears.
 
 2. Select the **Email** tab.
@@ -169,11 +172,15 @@ You can use any of the following options for enabling threaded email views in ti
     ![Enable threaded email timeline view - option 2](media\timeline-threaded-email-views-3.png "Enable threaded email timeline view - option 2")
 
 > [!Note]
-> The **emails as conversation view** is based on the user's preference. Personal setting are tied to the user and not the form, which means once you enable the threaded email view, the setting is applied to all your timeline views. 
+> The **emails as conversation view** is based on the user's preference. Personal settings are tied to the user and not the form, which means once you enable the threaded email view, the setting is applied to all your timeline views. 
 
 ## Search records on timeline
 
 When enabled by your system administrator, you can easily search for records in the timeline. When you search for a phrase in the timeline, it searches in the title or subject of the record or body or description fields of the record and displays the record for you.
+
+
+<!-- editor note: The alt text in the image below is the same as in the previous image. Maybe a copy/paste error? -->
+
 
 ![Enable threaded email timeline view - option 2](media\timeline-search-records-1.png "Enable threaded email timeline view - option 2")
 
@@ -186,40 +193,45 @@ When enabled by your system administrator, you can easily search for records in 
 
 ## Work with notes and posts
 
-Notes allows you to record richly formatted information and images for reference, summary, or investigation. You can easily add a mention to another user or a reference to a timeline record using Posts.  
+Notes allows you to record richly formatted information and images for reference, summary, or investigation. You can easily add a mention to another user or a reference to a timeline record using posts.  
 
 ### Add a note or post to a record on timeline
 
-You can either add a **Note** or a **Post** to a record on timeline only if your system administrator has enabled the features.
+You can add a **note** or a **post** to a record on timeline only if your system administrator has enabled the features.
 
-- You can enter a **Note** to add to a record. If your system administrator does not have **Notes** enabled, you cannot add an attachment. Also, you can only add one attachment per note.
+- You can enter a **note** to add to a record. If your system administrator does not have **notes** enabled, you cannot add an attachment. Also, you can only add one attachment per note.
 
-![Add a note to a record on timeline](media\timeline-add-a-note-to-a-record.png "Add a note to a record on timeline")
+  ![Add a note to a record on timeline](media\timeline-add-a-note-to-a-record.png "Add a note to a record on timeline")
 
-- You can enter a **Post** to add to a record.
+- You can enter a **post** to add to a record.
 
-![Add a post to a record on timeline](media\timeline-add-a-post-to-a-record.png "Add a post to a record on timeline")
+  ![Add a post to a record on timeline](media\timeline-add-a-post-to-a-record.png "Add a post to a record on timeline")
 
 ### Access command bar to perform actions
 
-When you hover the cursor on or expand an activity, post, and note, the command bar appears with the options specific to the activity, such as marking an activity complete, assigning it to others, adding it to a queue, converting it to a case, liking a post, replying to a post, editing a note, or deleting the activity.
+When you hover the cursor on or expand an activity, post, or note, the command bar appears with the options specific to the activity, such as marking an activity complete, assigning it to others, adding it to a queue, converting it to a case, liking a post, replying to a post, editing a note, or deleting the activity.
 
 The following is an overview of the command bar icons and the actions they support: 
 
 |Icon | Name | Description |
 |-----|------|-------------|
-| ![](media\email-assign-icon.png "Assign icon") |Assign | Lets you assign a task.|
-| ![](media\email-close-activity-icon.png "Close activity icon")|Close Activity| Lets you close the activity record.|
-| ![](media\email-add-to-queue-icon.png "Add to queue icon") |Add to Queue| Lets you add a task to a queue.|
-| ![](media\email-open-record-icon.png "Open record icon")|Open Record| Lets you open a record.|
-| ![](media\email-delete-icon.png "Delete icon")|Delete| Lets you delete the record.|
-| ![](media\email-reply-icon.png "Reply icon")|Reply| Lets you reply to an email. **Note**: This command is only available for Email.|
-| ![](media\email-reply-all-icon.png "Replay all icon")|Reply All| Lets you reply to all for an email. **Note**: This command is only available on Email.|
-| ![](media\email-forward-icon.png "Forward icon ")|Forward|Lets you forward an email. **Note**: This command is only available on Email.|
-| ![](media\email-like-a-post-icon.png "Like a post icon")|Like this post| Lets you like a post. **Note**: This command is only available on Posts.|
-| ![](media\email-edit-icon.png "Edit icon")|Edit this note|Lets you edit a note. **Note**: This command is only available on Notes.|
+| ![Assign](media\email-assign-icon.png "Assign") |Assign | Lets you assign a task.|
+| ![Close activity](media\email-close-activity-icon.png "Close activity")|Close Activity| Lets you close the activity record.|
+| ![Add to queue](media\email-add-to-queue-icon.png "Add to queue") |Add to Queue| Lets you add a task to a queue.|
+| ![Open record](media\email-open-record-icon.png "Open record")|Open Record| Lets you open a record.|
+| ![Delete](media\email-delete-icon.png "Delete")|Delete| Lets you delete the record.|
+| ![Reply](media\email-reply-icon.png "Reply")|Reply| Lets you reply to an email. **Note**: This command is only available on email.|
+| ![Reply all](media\email-reply-all-icon.png "Reply all")|Reply all| Lets you reply to all for an email. **Note**: This command is only available on email.|
+| ![Forward](media\email-forward-icon.png "Forward")|Forward|Lets you forward an email. **Note**: This command is only available on email.|
+| ![Like a post](media\email-like-a-post-icon.png "Like a post")|Like this post| Lets you like a post. **Note**: This command is only available on posts.|
+| ![Edit](media\email-edit-icon.png "Edit")|Edit this note|Lets you edit a note. **Note**: This command is only available on notes.|
 
 Not all records can perform the same actions.
+
+
+<!-- It would be helpful to add numbers to the list above so that the reader can easily associate the icon with the illustration below. -->
+
+
 
 ![Command bar actions in timeline](media\timeline-access-command-bar-actions-1.png "Command bar actions")
 
@@ -246,10 +258,10 @@ The message box has a rich text editor that enables you to use rich text and cre
 |||
 
 > [!NOTE]
-> - Only **Notes** have rich text capability, and it is only available in the timeline. 
+> - Only **notes** has rich text capability, and it is only available in the timeline. 
 > - You can only format the message body of a note, not the title.
 > - The rich text editor is available only for Unified Interface.
-> - If you create a rich text editor note in Unified Interface and then view the note in the Web Client, it will display in HTML syntax.
+> - If you create a rich text editor note in Unified Interface and then view the note in the legacy web client, it will display in HTML syntax.
 
 For more information on the rich text editor feature, the following is a list of functionality:
   
@@ -272,17 +284,17 @@ For more information on the rich text editor feature, the following is a list of
 |![Align Center](../customer-service/media/align-center.png "Align Center")| Align Center | Ctrl+E | Center your content on the page. (Commonly used for a formal appearance.) |
 |![Align Right](../customer-service/media/align-right.png "Align Right")| Align Right | Ctrl+R | Align  content to the right on the page. (Commonly used for a formal appearance.) |
 |![Link](../customer-service/media/format-link.png "Link")| Link |  | Create a link in your document for quick access to web pages and files.<br /><br />Pasted or typed URL text is converted into a link. For example, "http://myexample.com" will become "<a href="http://myexample.com">http://myexample.com</a>".<br /><br /> In the **Link** dialog box, choose the type of link you'd like to insert.<br /><br />The **Link Info** tab allows you to choose the link type as well as set the link protocol and URL.<br /><br />The **Target** tab is only available for the URL link type. It specifies the location where the link will open after you select it. |
-|![Remove Link](../customer-service/media/remove-link.png "Unlink")| Unlink |  | Delete a link in your email or document.<br /><br />When you place the cursor on a link, the **Unlink** button on the toolbar becomes active. Select the button to remove the link and make it plain text. |
+|![Remove Link](../customer-service/media/remove-link.png "Remove Link")| Unlink |  | Delete a link in your email or document.<br /><br />When you place the cursor on a link, the **Unlink** button on the toolbar becomes active. Select the button to remove the link and make it plain text. |
 |![Superscript](../customer-service/media/format-superscript.png "Superscript")| Superscript |  | Type small letters just above the line of text. |
 |![Subscript](../customer-service/media/format-subscript.png "Subscript")| Subscript |  | Type  small letters just below the line of text. |
 |![Strikethrough](../customer-service/media/format-strikethrough.png "Strikethrough")| Strikethrough |  | Cross out text by drawing a line through it. |
-|![Insert Image](media\insert-picture.png "Insert Image")| Insert Image|	|You can insert an image by directly copying and pasting it inline in the editor, dragging and dropping it from your desktop or local folder directly into the editor, or by typing a URL. The following formats are supported: .PNG, .JPG., or .GIF.<br /><br />To insert an image inline in your article: <br />1. Drag and drop the image or copy and paste it directly into the article. <br />2. Drag any corner of the image to resize it.<br /><br />To insert an image using a URL or navigating to the local image:<br />1. Choose Insert Image.<br />2. In the **Image** property dialog, choose from the following options:<br /><ul><li>Select **Browse** to navigate to the image on your computer.</li><li>Or specify the web address of the image, and properties to define how the image will appear in the email or article.</li><br />**Note:**<ul><li>If the image is located on the external server, use the full absolute path. </li><li>If the image is located on a local server, you can use a relative path. </li><li>If you want the image to be linked to a target, add a URL for the image.</li><li>You can also specify if you want the targeted page to open in a new window, topmost window, same window, or parent window.</li></ul>
-|![Left to Right](../customer-service/media/left-to-right.png "Left to Right")| Left to Right |  | Change the text to left-to-right for content such as a paragraph, header, table, or list. Commonly used for bi-directional language content. This is the default setting.|
-|![Right to Left](../customer-service/media/right-to-left.png "Right to Left")| Right to Left |  | Change the text to right-to-left for content such as a paragraph, header, table, or list. Commonly used for bi-directional language content. The default setting is left-to-right. |
+|![Insert Image](media\insert-picture.png "Insert Image")| Insert Image|	|You can insert an image by directly copying and pasting it inline in the editor, dragging and dropping it from your desktop or local folder directly into the editor, or by typing a URL. The following formats are supported: PNG, JPG., or GIF.<br /><br />To insert an image inline in your article: <br />1. Drag and drop the image or copy and paste it directly into the article. <br />2. Drag any corner of the image to resize it.<br /><br />To insert an image using a URL or navigating to the local image:<br />1. Choose **Insert Image**.<br />2. In the **Image** property dialog, choose from the following options:<br /><ul><li>Select **Browse** to navigate to the image on your computer.</li><li>Or specify the web address of the image, and properties to define how the image will appear in the email or article.</li><br />**Note:**<ul><li>If the image is located on the external server, use the full absolute path. </li><li>If the image is located on a local server, you can use a relative path. </li><li>If you want the image to be linked to a target, add a URL for the image.</li><li>You can also specify if you want the targeted page to open in a new window, topmost window, same window, or parent window.</li></ul>
+|![Left to Right](../customer-service/media/left-to-right.png "Left to Right")| Left to Right |  | Change the text to left to right for content such as a paragraph, header, table, or list. Commonly used for bidirectional language content. This is the default setting.|
+|![Right to Left](../customer-service/media/right-to-left.png "Right to Left")| Right to Left |  | Change the text to right to left for content such as a paragraph, header, table, or list. Commonly used for bidirectional language content. The default setting is left to right. |
 |![Undo Typing](../customer-service/media/undo-typing.png "Undo Typing")| Undo Typing |  | Undo changes you made to the content. |
 |![Redo Typing](../customer-service/media/redo-typing.png "Redo Typing")| Redo Typing |  | Redo changes you made to the content. |
 |![Clear All Formatting](../customer-service/media/clear-formatting.png "Clear All Formatting")| Clear All Formatting |  | Remove all formatting from a selection of text, leaving only the normal, unformatted text. |
-|![Add a Table](../customer-service/media/add-table.png "Add a Table")| Add a Table |  | Add a table to your content. <br /><br />After adding a table, you can do any of the following:<br /><ul><li>Resize table columns by clicking and dragging your mouse to resize to the columns to the desired width.</li><li>Select one or several cells within a table and apply specific formatting, add links to the selection, or cut, copy, or paste entire rows or columns.</li><li>Right-click to access the properties. This supports features such as cell type, width and height, word wrapping, alignment, merging and splitting cells horizontally and vertically, inserting or deleting rows and columns, row and column span, and cell and border color.</li></ul>|
+|![Add a Table](../customer-service/media/add-table.png "Add a Table")| Add a Table |  | Add a table to your content. <br /><br />After adding a table, you can do any of the following:<br /><ul><li>Resize table columns by clicking and dragging your mouse to resize the columns to the desired width.</li><li>Select one or several cells within a table and apply specific formatting, add links to the selection, or cut, copy, or paste entire rows or columns.</li><li>Right-click to access the properties. This supports features such as cell type, width and height, word wrapping, alignment, merging and splitting cells horizontally and vertically, inserting or deleting rows and columns, row and column span, and cell and border color.</li></ul>|
 |![Expand Toolbar](../customer-service/media/show-more.png "Expand Toolbar")| Expand Toolbar |  | Appears when the toolbar is collapsed. Click to expand the toolbar and make all options visible. |
 
 The rich text editor is enabled by default. Your system administrator can enable or disable the editor for you. For more information, see [Enable rich-text editor for notes in timeline](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-or-disable-rich-text-editor-for-notes-in-timeline "Enable rich-text editor for notes in timeline").
@@ -291,9 +303,9 @@ The rich text editor is enabled by default. Your system administrator can enable
 
 ### Add a mention or reference to a team member in a post on timeline
 
-To add a mention or to reference a team member in a **Post**, use the following steps:
+To add a mention or to reference a team member in a **post**, use the following steps:
 
-1.	In the box that appears, type @ sign. When you type @, a flyout menu opens with a list of users you’ve recently used.
+1.	In the box that appears, type the @ sign. When you type @, a flyout menu opens with a list of users you’ve recently used.
 
     ![Add a mention or reference to a team member in a post on timeline](media\timeline-add-a-mention.png "Add a mention or reference to a team member in a post on timeline")
 
@@ -312,9 +324,9 @@ To add a mention or to reference a team member in a **Post**, use the following 
 
 ### Add references in a post to timeline records
 
-To add a reference to a timeline record in a **Post**, use the following steps:
+To add a reference to a timeline record in a **post**, use the following steps:
 
-1.	In the **Timeline** section, select the ![](media\timeline-create-a-record-icon.png "Create a timeline record") icon.
+1.	In the **Timeline** section, select the ![Create a timeline record](media\timeline-create-a-record-icon.png "Create a timeline record") icon.
 
 2.	Select **Post**.
 
@@ -334,15 +346,15 @@ To add a reference to a timeline record in a **Post**, use the following steps:
 
 7.	In the **Lookup Records** pane, switch between the **Recent records** and **All records view** to find a record.  
 
-8.	Select **Change View** to find to see records from a different view. For example, if you want to find one of your open opportunities, select **Change View** > **Opportunities** > **My Open Opportunities**. The records in the **Lookup Records** pane will be refreshed to show only the open opportunities you own.  
+8.	Select **Change View** to see records from a different view. For example, if you want to find one of your open opportunities, select **Change View** > **Opportunities** > **My Open Opportunities**. The records in the **Lookup Records** pane will be refreshed to show only the open opportunities you own.  
 
 9.	If you don’t find a record you are looking for, select **New Record** to create a record.
 
     ![Lookup Records pane](media\timeline-add-links-to-records-1.png "Lookup Records pane")
 
-For more information on Notes and Post functionality and configuration, see:
+For more information on notes and post functionality and configuration, see:
 - [Display options](customer-service-hub-user-guide-timeline-admin.md#display-options).
-- [Record Settings](customer-service-hub-user-guide-timeline-admin.md#record-settings-section) 
+- [Record settings](customer-service-hub-user-guide-timeline-admin.md#record-settings-section) 
 - [Notes on timeline](customer-service-hub-user-guide-timeline-admin.md#notes-on-timeline)
 
 ## Add an attachment to a note in timeline
@@ -352,7 +364,7 @@ You can add an attachment, such as a file, to a note in timeline to share with u
 > [!NOTE]
 > Your system administrator must first enable notes for you to add an attachment.
 
-1. Select the ![](media\timelilne-paperclip-icon.png "paperclip icon") paperclip icon to attach a file to a note. You can only add an attachment to a note that is attached to a record. 
+1. Select the paperclip ![Paperclip](media\timelilne-paperclip-icon.png "Paperclip") icon to attach a file to a note. You can only add an attachment to a note that is attached to a record. 
 
     ![Attachment icon](media\timeline-attachment-icon.png "Attachment icon")
 
