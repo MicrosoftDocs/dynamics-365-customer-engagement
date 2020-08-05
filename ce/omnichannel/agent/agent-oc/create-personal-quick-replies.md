@@ -59,5 +59,5 @@ The quick replies created by you are available on the **Personal** tab, and thos
 
 ### See also
 
-[Send predefined messages in chats](oc-conversation-control.md#send-predefined-messages-in-chat)  
+[Send predefined messages in chats](oc-conversation-control.md#send-predefined-messages-in-chats)  
 [Manage applications](oc-manage-applications.md)  
