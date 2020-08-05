@@ -45,8 +45,6 @@ You can enable post-conversation surveys for the following channels:
 
 For a chat channel only, you can configure the survey link or survey questions to be displayed in the chat window.
 
-> [!NOTE]
-> Survey links sent through the Twitter channel might be truncated because of the character limit but the functionality is not impaired.
 
 ## Configure a post-conversation survey
 
