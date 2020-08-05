@@ -28,7 +28,7 @@ The operating hours schedules cater to the following scenarios:
 - Define schedules to transition customer queues from bots to agents.
 - Customize the display and other settings of the chat widget during non-business hours.
 
-After you define the business hours for your organization and set up messaging options to be displayed to customers, when customers interact through a channel during non-business hours, they will see the message that you have set. For example, customers can be shown an offline message on the chat widget as "Our agents are not available. Our business hours are between 8:00 am to 5:00 pm." Similarly, for social channels, you can configure the operating hours at the queue level. When customers contact your agents through any of the social channels outside the business hours, they will receive responses that you have set.
+After you define the business hours for your organization and set up Automated messages to be displayed to customers, when customers interact through a channel during non-business hours, they will see the message that you have set. For example, customers can be shown an offline message on the chat widget as "Our agents are not available. Our business hours are between 8:00 am to 5:00 pm." Similarly, for social channels, you can configure the operating hours at the queue level. When customers contact your agents through any of the social channels outside the business hours, they will receive responses that you have set.
 
 After you create an operating hour record, you must add it to the **Design** tab of the appropriate chat widget to control the display of the widget. For social channels and queues, the operating hour will be available for selection on the **General** and **Summary** tabs respectively.
 
@@ -53,7 +53,7 @@ After you create an operating hour record, you must add it to the **Design** tab
    - **Time:** Select the start and end time for the schedule.
    - **Repeat:** Select a recurrence option.
    - **choose an end date:** Optionally, specify an end date.
-   -  **Time zone:** Select an applicable time zone. The daylight saving timings are taken into account, if applicable to the selected time zone.
+   -  **Time zone:** Select an applicable time zone. The daylight saving timings are taken into account, if applicable for the selected time zone.
     
         > ![Create an operating hour schedule](../media/oc-create-operating-hour.png "Create a operating hour schedule")
 
@@ -107,6 +107,7 @@ Do the following to specify operating hours for a queue:
 
 ### See also
 
+[Automated messages](configure-automated-message.md)  
 [Add a chat widget](add-chat-widget.md) <br>
 [Configure a pre-chat survey](configure-pre-chat-survey.md) <br>
 [Create quick replies](create-quick-replies.md) <br>
