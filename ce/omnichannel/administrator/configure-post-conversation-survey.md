@@ -20,6 +20,9 @@ ms.topic: article
 
 You can configure your chat widget to show users a survey that they can respond to after they finish a conversation.
 
+> [!NOTE]
+> Post-conversation survey is not supported in Government Community Cloud.
+
 ## Prerequisite
 
 The post-conversation survey uses Forms Pro to create surveys. Make sure you have access to create surveys in Forms Pro in the same org as Omnichannel for Customer Service, and you've created the required survey. The survey that you create will be listed as an option to choose for linking to the conversation. More information: [Create surveys with Forms Pro](https://go.microsoft.com/fwlink/p/?linkid=2135108)
@@ -41,6 +44,9 @@ You can enable post-conversation surveys for the following channels:
 - Microsoft Teams
 
 For a chat channel only, you can configure the survey link or survey questions to be displayed in the chat window.
+
+> [!NOTE]
+> Survey links sent through the Twitter channel might be truncated because of the character limit but the functionality is not impaired.
 
 ## Configure a post-conversation survey
 
