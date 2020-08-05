@@ -1,5 +1,5 @@
 ---
-title: "Configuring timeline | MicrosoftDocs"
+title: "Configure timeline | MicrosoftDocs"
 description: "Timeline configuration overview for administrators"
 ms.date: 08/01/2020
 ms.service:
@@ -10,7 +10,7 @@ ms.author: lerobbin
 manager: shujoshi
 ---
  
-# Configuring timeline 
+# Configure timeline 
 
 The timeline control provides an easy and immersive experience to view information related to an entity, such as cases, accounts, or contacts, which gives users a better understanding and helps them deliver more personalized service in an efficient and effective manner. 
 
