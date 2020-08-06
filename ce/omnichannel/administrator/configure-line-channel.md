@@ -91,7 +91,7 @@ The LINE channel setup is complete.
 
     - **Enable file attachments for agents**: Set to **Yes** to allow agents to send file attachments to customers. When the agent sends an attachment, the app sends the blob storage URL to the channel. Otherwise, set **No**. 
     
-       To learn more about attachments, see [File attachments](enable-file-attachments.md). 
+       To learn more about attachments, see [Enable file attachments](enable-file-attachments.md). 
        
        To learn more about uploading media in LINE, see [LINE support documentation](https://developers.line.biz/en/docs/messaging-api/message-types/).
 
