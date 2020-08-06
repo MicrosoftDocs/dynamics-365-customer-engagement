@@ -70,7 +70,7 @@ PSA uses the following formulas to calculate the tracking metrics:
 
 - Percentage of cost consumed = Actual cost spent to date ÷ Planned cost for the task
 - Cost to complete (CTC) = Planned cost – Actual cost spent to date
-- EAC = CTC + Actual cost spent to date
+- EAC = Remaining cost + Actual cost spent to date
 - Projected cost variance = Planned cost – EAC
 
 A projection of the cost variance is shown on the task. If the EAC is more than the planned cost, the task is projected to cost more than was originally planned. Therefore, it's trending over budget. If the EAC is less than the planned cost, the task is projected to cost less than was originally planned. Therefore, it's trending under budget.
