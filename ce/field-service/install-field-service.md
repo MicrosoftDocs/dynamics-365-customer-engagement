@@ -150,12 +150,12 @@ The mobile project template contains all customizations for the Field Service Mo
 7. Double-click on your newly imported mobile project file. You'll be taken to the project detail page. Select **Publish**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the publish option](media/mobile-install-project-publish.png)
+> ![Screenshot of the publish option](media/mobile-install-project-publish.PNG)
 
 8. Head back to the main Woodford page by selecting the back button in the navigation, as seen in the following screenshot. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Woodford back button](media/mobile-install-project-back-woodford.png)
+> ![Screenshot of the Woodford back button](media/mobile-install-project-back-woodford.PNG)
 
 9.  Select to highlight the mobile project template and select **Derive**.
 
