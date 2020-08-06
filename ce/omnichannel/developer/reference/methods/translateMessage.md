@@ -14,7 +14,7 @@ ms.topic: article
 
 [!include[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-This method is called for every conversation message exchanged between the customer and the agent.
+This method is called for every conversation message exchanged between the customer and the agent, if translation is on and if the message has not been translated earlier.
 
 > [!IMPORTANT]
 > See this [sample web resource](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/real-time-translation) for more information on how to implement the `translateMessage` API.
