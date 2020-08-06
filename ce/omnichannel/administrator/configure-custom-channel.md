@@ -4,7 +4,7 @@ description: "Learn what a custom channel is and how to configure the channel, o
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/05/2020
+ms.date: 08/06/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
