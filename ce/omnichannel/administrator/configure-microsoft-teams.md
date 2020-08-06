@@ -89,7 +89,7 @@ Make sure that the following prerequisites are met:
     
        To learn more about attachments, see [Enable file attachments](enable-file-attachments.md). 
        
-       To learn more about uploading media in Microsoft Teams, see [Microsoft Teams documentation](https://docs.microsoft.com/microsoftteams/platform/resources/bot-v3/bot-conversations/bots-conversations).
+       To learn more about uploading media in Microsoft Teams, see [Microsoft Teams documentation](https://docs.microsoft.com/microsoftteams/platform/resources/bot-v3/bots-files).
 
 3. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
     
