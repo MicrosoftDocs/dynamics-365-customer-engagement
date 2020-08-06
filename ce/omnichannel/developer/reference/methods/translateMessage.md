@@ -16,6 +16,9 @@ ms.topic: article
 
 This method is called for every conversation message exchanged between the customer and the agent.
 
+> [!IMPORTANT]
+> See this [sample web resource](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/real-time-translation) for more information on how to implement the `translateMessage` API.
+
 ## Syntax
 
 `Microsoft.Omnichannel.TranslationFramework.translateMessage(conversationId, translationConfig)`
