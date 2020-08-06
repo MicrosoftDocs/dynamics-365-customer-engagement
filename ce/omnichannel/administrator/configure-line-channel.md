@@ -93,7 +93,7 @@ The LINE channel setup is complete.
     
        To learn more about attachments, see [Enable file attachments](enable-file-attachments.md). 
        
-       To learn more about uploading media in LINE, see [LINE support documentation](https://developers.line.biz/en/docs/messaging-api/message-types/).
+       To learn more about uploading media in LINE, see [LINE developer documentation](https://developers.line.biz/en/docs/messaging-api/message-types/).
 
 3. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
     
