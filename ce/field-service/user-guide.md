@@ -2,7 +2,7 @@
 title: "User Guide (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom:
   - dyn365-fieldservice
-ms.date: 07/02/2020
+ms.date: 08/03/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite:
@@ -69,16 +69,6 @@ The purpose of this section is to understand what Dynamics 365 Field Service is,
 
 - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Using Field Service work orders, scheduling, mobile app, reporting, and more](https://youtu.be/h5X1z0pTtSA)
 
-### Customer Stories
-- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Sodexo – Facilities Management](https://youtu.be/awSwCtgZvXE)
-
-- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [DMS Health Technologies – Health Services](https://www.youtube.com/watch?v=-H4wwuOfdOg&feature=youtu.be)
-
-- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Yougenio Italy – Facilities Management](https://www.youtube.com/watch?v=URZueU-eFvo)
-
-- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Sandvik Coromant](https://www.youtube.com/watch?v=Oq6z3UALoYI)
-
-- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Nurse Maude](https://www.youtube.com/watch?v=q0aZsdokOv8)
 
 ## Learning Catalog
 

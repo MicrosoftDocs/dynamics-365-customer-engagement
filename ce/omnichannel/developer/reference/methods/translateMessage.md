@@ -16,6 +16,9 @@ ms.topic: article
 
 This method is called for every conversation message exchanged between the customer and the agent.
 
+> [!IMPORTANT]
+> See this [sample web resource](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/real-time-translation) for more information on how to implement the `translateMessage` API.
+
 ## Syntax
 
 `Microsoft.Omnichannel.TranslationFramework.translateMessage(conversationId, translationConfig)`
@@ -25,6 +28,14 @@ This method is called for every conversation message exchanged between the custo
 |Name|Type|Required|Description|
 |----|----|----|----|
 |`translationConfig`|JSON object|Yes| Consists of `conversationId`, `messagePayload` and `translateToC1orC2` key-value pairs.|
+
+Given below are the key-value pairs that we need to provide in the `translationConfig` object.
+
+|Name|Type|Description|
+|----|----|----|
+|`ConversationId`|String|Unique ID for live work item in Omnichannel for Customer Service|
+|`messagePayload`|JSON object|Payload for the message to be translated|
+|`translateToC1orC2`|JSON object|Represents for whom the message has to be translated|
 
 Here is the structure of `translationConfig` parameter.
 
@@ -118,15 +129,6 @@ errorCode: ErrorCodes;   //represents the type of error based on errorCode
   },
   "sourceLanguage": "3082"
 }
-```
-
-## Example
-
-```javascript
-window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
-        // Initialize the translation provider for the incoming conversation
-        Microsoft.Omnichannel.TranslationFramework.initializeNewConversation(convId, translationConfig);
-});
 ```
 
 ### See also

@@ -16,8 +16,7 @@ ms.author: kvivek
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Create and manage product families, products, bundles, and product properties
 

@@ -17,8 +17,7 @@ ms.author: kvivek
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Upload and manage document templates in Dynamics 365 Customer Engagement (on-premises)
 

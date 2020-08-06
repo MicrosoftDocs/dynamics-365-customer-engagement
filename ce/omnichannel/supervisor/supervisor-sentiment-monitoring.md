@@ -6,7 +6,7 @@ ms.author: laalexan
 manager: shujoshi
 applies_to: 
   - ""
-ms.date: 04/06/2020
+ms.date: 08/03/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -17,6 +17,9 @@ ms.custom:
 # Sentiment monitoring
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+
+> [!NOTE]
+> Supervisor and agent sentiment notifications are not available in Omnichannel for Customer Service on Unified Service Desk.
 
 Sentiment analysis enables agents and supervisors to understand real-time and historical customer sentiment across channels to improve customer service. Omnichannel for Customer Service uses natural language processing (NLP) and machine learning (ML) algorithms to understand customer sentiments.
 
@@ -129,9 +132,9 @@ Your environment must have the latest version of Omnichannel for Customer Servic
 
 ## Install and configure
 
-After you've signed up, see step 4 of [Enable sentiment analysis](../administrator/enable-sentiment-analysis.md) to configure sentiment analysis. 
+After you've signed up, see step 4 of [Enable sentiment analysis](../administrator/enable-sentiment-analysis.md) to configure sentiment analysis.
 
-## Policy notice 
+## Policy notice
 
 This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 

@@ -19,8 +19,7 @@ caps.latest.revision: 40
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Browse the metadata for your organization

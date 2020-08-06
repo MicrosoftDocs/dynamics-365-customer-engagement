@@ -16,8 +16,7 @@ ms.author: jdaly
 manager: annbe
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Developer tools
 

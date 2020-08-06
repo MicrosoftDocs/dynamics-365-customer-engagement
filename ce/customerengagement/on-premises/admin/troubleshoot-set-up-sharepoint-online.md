@@ -16,9 +16,7 @@ ms.author: jimholtz
 manager: kvivek
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Troubleshoot SharePoint integration
 
@@ -69,7 +67,7 @@ The most common cause for the Documents associated grid not loading is the corru
 11. Search LayoutXml of Document associated grid (search for *Document Associated*).
     
     > [!div class="mx-imgBorder"] 
-    > ![](media/sharepoint-document-associated-grid.png "Search for Document Associated")
+    > ![Search for Document Associated](media/sharepoint-document-associated-grid.png "Search for Document Associated")
 
 12. Make the changes as below for the LayoutXML section:
 
@@ -173,7 +171,7 @@ This error message can occur when the SharePoint site that is configured with do
 2. Open the **SharePoint Site** record that has been renamed and enter the **Absolute URL** with new URL.
 
     > [!div class="mx-imgBorder"] 
-    > ![](media/fix-renamed-sp-site.png "Enter SharePoint relative URL")
+    > ![Enter SharePoint relative URL](media/fix-renamed-sp-site.png "Enter SharePoint relative URL")
 
 3. Select **Save & Close**.
 

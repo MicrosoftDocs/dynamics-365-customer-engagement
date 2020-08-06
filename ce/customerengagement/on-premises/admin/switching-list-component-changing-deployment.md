@@ -17,9 +17,7 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Switching from the list component or changing the SharePoint deployment
 

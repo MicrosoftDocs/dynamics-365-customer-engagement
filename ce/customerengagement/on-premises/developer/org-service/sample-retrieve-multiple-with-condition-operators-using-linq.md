@@ -21,8 +21,7 @@ ms.author: kvivek
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Sample: Retrieve multiple with condition operators using LINQ
 
