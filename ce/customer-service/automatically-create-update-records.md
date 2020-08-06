@@ -4,7 +4,7 @@ description: Know how to automatically create or update records by setting up ru
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/03/2020
+ms.date: 08/07/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -54,7 +54,7 @@ Make sure that the following prerequisites are met:
 
 You can configure a rule that when active will be run for incoming emails. Using the feature to create rules, you can define the conditions when a rule can be run.
 
-1. In Customer Service Hub site map, select **Service Management** > **Automatic record creation and update rules**. The **Record creation and update rules** page appears.
+1. In Customer Service Hub site map, go to **Service Management**, and select **Automatic record creation and update rules**. The **Record creation and update rules** page appears.
 
 2. Select **New**. The **New Record Creation and Update Rule** page is displayed.
 
@@ -74,7 +74,8 @@ You can configure a rule that when active will be run for incoming emails. Using
 
    a. In **Condition** > **Condition name**, enter an intuitive name.
 
-   b. In **Condition that must pass to continue (pass if blank)**,  use the following options that appear when you select **Add** to define the criteria for the rule to be evaluated:
+   b. In **Condition that must pass to continue (pass if blank)**, select **Add**.
+   c. Use the following options To define the criteria for the rule to be evaluated:
 
       i. Add row
 
@@ -84,7 +85,7 @@ You can configure a rule that when active will be run for incoming emails. Using
 
 7. In **Actions to take** > **Record to create**, make sure the value is **Case**. A case will be created if the conditions specified are met for the email activity.
 
-8. In **Configure in Microsoft Power Automate**, select **Save and open in Power Automate**. The Power Automate application opens in a new tab where you can configure additional criteria that must be evaluated for the email activity. To learn more about using Power Automate, see the [documentation for Power Automate](/power-automate/getting-started).
+8. In **Configure in Microsoft Power Automate**, select **Save and open in Power Automate**. The Power Automate application opens in a new tab where you can configure criteria that must be evaluated for the email activity. To learn more about using Power Automate, see the [documentation for Power Automate](/power-automate/getting-started).
 
 9. Select **Save & Close**. The condition builder is closed.
 
@@ -105,13 +106,18 @@ On the **Advanced** tab of the **Record creation and update rule** page for a ru
 1. On the **Automatic record creation and update rules** page, select the rule in the list that you want to update. The *<rule_name>* page appears.
 2. Select the **Advanced** tab, and do the following in **Before evaluating conditions**:
 
-   - **Create records for email from unknown senders:** Set it to yes if you want records to be created when email messages arrive from senders whose email addresses aren't present in any records. A contact record is also created.
+   - **Allow emails from unknown senders:** Set it to yes if you want records to be created when email messages arrive from senders whose email addresses aren't present in any records. A contact record is also created.
 
         This option, in conjunction with the Automatically create records in Dynamics 365 for Customer Engagement option in the rule owner's Personal Options, determines whether a case and contact record is created. To learn more, see [Set personal options](../customerengagement/on-premises/basics/set-personal-options.md).
 
+   - **Manage unknown senders by:** Select one of the following options:
+     - **Creating a new contact automatically:** Specify if you want a contact to be created automatically.
+     - **Mapping in Power Automate manually:** Specify if you want to evaluate and set up the resolution for the contact in Power Automate.
+        > [!IMPORTANT]
+        > If you select to map the contact manually, make sure that you create a mapping in Power Automate for the customer field.
    - **Require a valid entitlement on the connected case:** If you select **Yes**, the Common Data Service platform creates a case only if an active entitlement exists for the customer.
 
-        If the sender of the email is a contact with a parent account, the Common Data Service platform creates a record if the contact’s parent account has a valid entitlement, and the contact is listed in the **Contacts** section of the entitlement or if the **Contacts** section is empty (which means the entitlement is applicable to all contacts for the customer). 
+        If the sender of the email is a contact with a parent account, the Common Data Service platform creates a record if the contact’s parent account has a valid entitlement, and the contact is listed in the **Contacts** section of the entitlement or if the **Contacts** section is empty (which means the entitlement is applicable to all contacts for the customer).
 
    - **Wait for a specific amount of time after the connected case has been resolved:** If you select **Yes**, select a time value in the **Select the amount of time** box that appears.
 
@@ -128,7 +134,31 @@ On the **Advanced** tab of the **Record creation and update rule** page for a ru
 
 The rules are run in the order they are listed in the rule items list. If the incoming activity matches the condition specified in the rule item one, the case is created and the rest of the rule items are not evaluated. If more than one rule item exists for a rule, you can reorder the rule items.
 
-## How do record creation and update rules work with queues?
+## Use activity monitor to review and track the rules
+
+You can review and track the health of the automatic record creation rules and resolve issues around them. By default, the activity monitor captures failed events. You can customize what to monitor using the monitor options in the application.
+
+> [!IMPORTANT]
+> The activity monitor tracks the rules only till they are evaluated in Customer Service Hub before the rule is run in Power Automate.
+
+The following details are available for the rules:
+- **Current state:** Displays the state, such as failed, skipped, or success.
+- **Rule name:** Name of the record creation rule.
+- **Monitored activity type:** Activity type, such as email, task, or appointment.
+- **Monitored activity item:** Displays the subject of the activity type.
+- **Condition name:** The name of the condition in which the issue occurred.
+- **Reason:** Displays information on the issue that caused the rule to fail.
+- **Evaluated on:** Displays the date and time of the issue.
+
+1. On the **Record creation and update rules** page, select **View activity monitor** on the command bar. The **Activity monitor for record creation and update rules** page displays the list of rules with their statuses.
+2. Use the filter option to narrow the view to list rules, such as rules that have failed.
+3. Double-click a rule or activity to view the activity monitoring summary that is displayed on the **Activity monitor** *<rule_name>* page.
+  
+    > [!NOTE]
+    > Use the browser navigation option to go back to the previous page.
+4. If you navigate to an active rule, a message 
+
+## How do record creation and update rules work with queues
 
  In a record creation and update rule, when you specify a queue for a source type, any incoming activity from that source is added as a queue item for that specified queue. That is, if a rule for a particular source activity and queue combination is active, the rule processes the incoming activity on that queue to create or update records.  
 
@@ -143,6 +173,5 @@ The rules are run in the order they are listed in the rule items list. If the in
 
 ### See also
 
- [Create and manage queues](set-up-queues-manage-activities-cases.md)
-
-[Create rules to automatically route cases](create-rules-automatically-route-cases.md)
+ [Create and manage queues](set-up-queues-manage-activities-cases.md)  
+[Create rules to automatically route cases](create-rules-automatically-route-cases.md)  
