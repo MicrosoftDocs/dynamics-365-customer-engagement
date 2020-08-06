@@ -4,7 +4,7 @@ description:
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 07/15/2019
+ms.date: 08/05/2020
 ms.topic: article
 ---
 
@@ -25,9 +25,9 @@ This method is called for every conversation message exchanged between the custo
 
 ## Parameters
 
-|Name|Type|Required|Description|
-|----|----|----|----|
-|`translationConfig`|JSON object|Yes| Consists of `conversationId`, `messagePayload` and `translateToC1orC2` key-value pairs.|
+|Name|Type|Description|
+|----|----|----|
+|`translationConfig`|JSON object| Consists of `conversationId`, `messagePayload` and `translateToC1orC2` key-value pairs.|
 
 Given below are the key-value pairs that we need to provide in the `translationConfig` object.
 
