@@ -1,7 +1,7 @@
 ---
 title: "Delete an instance  | MicrosoftDocs"
 ms.custom: 
-ms.date: 10/01/2019
+ms.date: 08/05/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -12,7 +12,6 @@ ms.assetid: 5903eb35-2625-4c53-8330-a05267055c01
 caps.latest.revision: 4
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
 search.app: 
@@ -37,7 +36,7 @@ You can delete Sandbox instances to recover the licenses and storage space or to
   
 3. Choose the **Instances** tab.  
   
-4. Select the instance that you want, and then click **Delete**.  
+4. Select the Sandbox instance that you want to delete, and then click **Delete**.  
   
    > [!WARNING]
    >  Your data will be lost! Be sure you’ve selected the correct instance.  
