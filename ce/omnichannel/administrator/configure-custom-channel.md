@@ -180,7 +180,11 @@ For more information, see the developer guide, [Bring your own custom messaging 
 
     - **Enable file attachments for agents**: Set to **Yes** to allow agents to send file attachments to customers. When the agent sends an attachment, the app sends the blob storage URL to the channel. Otherwise, set **No**. 
     
-       To learn more about attachments, see [File attachments](enable-file-attachments.md). 
+       To learn more about attachments, see [Enable file attachments](enable-file-attachments.md). 
+       
+       To learn more about uploading media in Direct Line, see [Azure Bot Service documentation](https://docs.microsoft.com/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-send-activity?view=azure-bot-service-4.0). 
+       
+       To learn more about uploading media in Telegram, see the [Telegram Bot API](https://core.telegram.org/bots/api#available-types).
 
 3. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
     
