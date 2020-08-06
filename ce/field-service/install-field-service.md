@@ -129,7 +129,7 @@ The mobile project template contains all customizations for the Field Service Mo
 
   The mobile project is updated periodically; [bookmark this website](https://aka.ms/fsmobile-project) for regular access the latest mobile project.
 
-**For previous mobile apps** for D365 for Field Service, see the topic on [Field Service Mobile project template version history](https://docs.microsoft.com/en-us/dynamics365/field-service/field-service-version-history-mobile#mobile-project-template-version-history). 
+**For previous mobile apps** for D365 for Field Service, see the topic on [Field Service Mobile project template version history](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-mobile#mobile-project-template-version-history). 
 
 5. Import the mobile project file.
 > [!div class="mx-imgBorder"]
@@ -150,12 +150,12 @@ The mobile project template contains all customizations for the Field Service Mo
 7. Double-click on your newly imported mobile project file. You'll be taken to the project detail page. Select **Publish**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the publish option](media/mobile-install-project-publish.png)
+> ![Screenshot of the publish option](media/mobile-install-project-publish.PNG)
 
 8. Head back to the main Woodford page by selecting the back button in the navigation, as seen in the following screenshot. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Woodford back button](media/mobile-install-project-back-woodford.png)
+> ![Screenshot of the Woodford back button](media/mobile-install-project-back-woodford.PNG)
 
 9.  Select to highlight the mobile project template and select **Derive**.
 
@@ -169,10 +169,15 @@ The mobile project template contains all customizations for the Field Service Mo
 > [!div class="mx-imgBorder"]
 > ![Screenshot of setting details for mobile project](media/mobile-install-project-derive-details.png)
 
-10. Double-click the mobile project template *parent* (not your new derivative), and then select **Publish All**.
 
 > [!Note]
 > Make sure to publish the project to match the version of Field Service Mobile your technicians are using. For example, if your technicians are using Field Service Mobile v12.1, publish the mobile project template to 12.1. If your technicians are using different versions of the mobile project, publish the project to the lowest common version.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of setting details for mobile project](media/mobile-woodford-publish-version.png)
+
+10. Double-click the mobile project template *parent* (not your new derivative), and then select **Publish All**.
 
 11.  Verify the mobile configurations are published by checking for an arrow next to the projects.
 > [!div class="mx-imgBorder"]

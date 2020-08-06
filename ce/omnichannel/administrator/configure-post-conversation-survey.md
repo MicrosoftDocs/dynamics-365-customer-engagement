@@ -29,7 +29,7 @@ The post-conversation survey uses Forms Pro to create surveys. Make sure you hav
 
 ## How post-conversation surveys work
 
-When you enable a post-conversation survey for a channel, the survey will appear for the customer after the agent or customer ends the conversation.
+When you enable a post-conversation survey for a channel, the survey will appear for the customer after the agent or customer ends the conversation. While configuring the survey, you can use the settings for the response options available in Forms Pro. More information: [Work with survey settings](https://docs.microsoft.com/forms-pro/invite-settings)
 
 You can enable post-conversation surveys for the following channels:
 
