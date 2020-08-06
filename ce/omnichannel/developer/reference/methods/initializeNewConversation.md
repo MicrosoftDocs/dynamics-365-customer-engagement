@@ -4,7 +4,7 @@ description:
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 07/15/2019
+ms.date: 08/06/2020
 ms.topic: article
 ---
 
@@ -14,7 +14,10 @@ ms.topic: article
 
 [!include[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-This method is called as soon as a new chat invitation is received for every incoming conversation. It helps you define which translation provider you want to use for a particular conversation. You can even choose to switch off or on the translation of conversation messages; for example, you can decide whether you want to translate conversation messages based on the channel of the incoming conversation or based on the pre-chat response.
+This method is required to be implemented as soon as a new chat invitation is received for any and every incoming conversation. It helps you define which translation provider you want to use for a particular conversation. You can even choose to switch off or on the translation of conversation messages; for example, you can decide whether you want to translate conversation messages based on the channel of the incoming conversation or based on the pre-chat response.
+
+> [!IMPORTANT]
+> See this [sample web resource](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/real-time-translation) for more information on how to implement the `initializeNewConversation` API.
 
 ## Syntax
 
@@ -73,6 +76,9 @@ InitializedConversationResponse =
   "keepTranslationOn": true
 }
 ```
+
+> [!NOTE]
+> On exception in this method, invalid return values; OC will keep translation off for the conversation. You will need to do minimal processing in this function, as it make the UI wait before rendering.
 
 ### See also
 

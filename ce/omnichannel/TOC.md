@@ -118,7 +118,7 @@
 
 
 ### Settings
-#### [Enable language translation for conversations](administrator/enable-real-time-translation.md)
+#### [Enable real-time translation of conversations](administrator/enable-real-time-translation.md) 
 #### [Create and manage operating hours](administrator/create-operating-hours.md)
 #### [Set up location detection](administrator/geo-location-provider.md)
 #### [Create message templates](administrator/create-message-templates.md)
