@@ -1,7 +1,7 @@
 ---
 title: "Preview: Send email using the Dynamics 365 for phones and tablets app | MicrosoftDocs"
 ms.custom: 
-ms.date: 08/05/2020
+ms.date: 08/06/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.topic: article
@@ -31,7 +31,8 @@ Until now, you could only read emails using the Dynamics 365 for phones and tabl
 - Search for and apply a predefined template to an email. 
 
 > [!NOTE]
-> This feature isn't available for mobile offline.
+> - This is an early access feature.
+> - This feature isn't available for mobile offline.
 
 ## How to enable this feature?
 
