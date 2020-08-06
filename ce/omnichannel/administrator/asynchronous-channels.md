@@ -4,7 +4,7 @@ description: "Adaptive card, emojis, and other support in asynchronous channels 
 author: platkat 
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 07/29/2020
+ms.date: 08/06/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -56,7 +56,8 @@ Suggested action is supported fully with the exception that some channels may li
 | Custom messaging (Telegram) | Yes                    |
 | Custom messaging (Direct Line) | Yes                 |
 
-## Attachment support
+## File attachment support
+You can enable customer and agents to send file attachments in the **General settings** configuration of a channel. Inbound attachments refer to attachments that customers send to agents, and outbound attachments refer to attachments that agents send to customers. For more information about file attachments, see [Enable file attachments](enable-file-attachments.md).
 
 | Channel              | Inbound attachments                        | Outbound attachments                  |
 |----------------------|--------------------------------------------|---------------------------------------|
@@ -70,9 +71,9 @@ Suggested action is supported fully with the exception that some channels may li
 | WhatsApp             | Image, Audio, Video, PDF                   | Image, Audio, Video, PDF              |
 
 > [!Note]
-> - For Microsoft Teams, sending Emoji from Teams client, OC side will receive .png. Sending Gif from Outbound, client side will get .png. 
+> - For Microsoft Teams, when a customer sends an emoji from Teams client, the agent will receive a .png image. When an agent sents a .gif image outbound, the customer will receive a .png image. 
 > - The Direct Line channel supports the above attachment types, but it is up to the client to implement them.
-> - For LINE inbound and outbound, when sending .gif, the other side will receive .jpg
+> - For LINE inbound and outbound, when sending a .gif image, the recipient will receive a .jpg image.
 
 ## Emoji support 
 
@@ -94,7 +95,7 @@ Suggested action is supported fully with the exception that some channels may li
 
 | Channel            | Sticker behavior                                                    |
 |--------------------|---------------------------------------------------------------------|
-| Facebook           | Yes, as .PNG image                                                  |
+| Facebook           | Yes, as .png image                                                  |
 | Twitter            | Not supported.                                                      |
 | Microsoft Teams    | Not supported.                    |
 | WeChat             | Not supported. Recipient sees "Unsupported message" text.           |
@@ -110,4 +111,5 @@ Suggested action is supported fully with the exception that some channels may li
 
 [Overview of channels](channels.md) <br />
 [Bring your own custom messaging channel: Direct Line bot](../developer/how-to/bring-your-own-channel.md) <br />
-[Configure custom messaging channel](configure-custom-channel.md)   
+[Configure custom messaging channel](configure-custom-channel.md) 
+[Enable file attachments](enable-file-attachments.md)
