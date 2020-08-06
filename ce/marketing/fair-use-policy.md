@@ -2,7 +2,7 @@
 title: "Fair use policy (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about usage limits and quotas in Dynamics 365 Marketing"
 keywords:
-ms.date: 08/04/2020
+ms.date: 08/06/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -36,7 +36,7 @@ The table below shows the current usage limits for Marketing features.
 | Email sending         | Emails sent per day                                        | 1,000,000                                                   |
 | Email sending         | Emails sent  per month                                      | 10,000,000                                                  |
 | Email personalization | Number of dynamic attributes                           | 1,000                                                       |
-| Email personalization | Hop number                                             | 1 hop (e.g., contact.account, contact.events)               |
+| Email personalization | Number of [entity relationships connected](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-entity-relationships) in personalization                                         | 1 entity relationship (e.g., contact.account, contact.events)               |
 | Custom channel        | Interactions per second                                | 50 interactions per second                                  |
 | Event registrations   | Number of event registrations processed simultaneously | 60 event registrations per second<br>40 concurrent requests |
 
