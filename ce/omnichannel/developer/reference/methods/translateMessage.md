@@ -105,16 +105,6 @@ errorObject?: ErrorObject;  //represents the error object for any error scenario
 isError: boolean;               // represents yes for error and no otherwise.
 errorCode: ErrorCodes;   //represents the type of error based on errorCode
 } 
- 
-                                enum ErrorCodes { 
-        MESSAGE_TOO_LONG = 100,   //Error code for very long message which the translation service cannot translate
-        LANGUAGE_NOT_SUPPORTED = 101,  //Error Code for language not supported by the translation service
-        MESSAGE_NOT_TRANSLATED = 102,   // Error Code for message not translated by the translation service
-        TRANSLATION_SERVICE_LIMIT_EXCEEDED = 103,  //Error code if the quota limit exceeded for the translation service
-        TRANSLATION_FAILED = 104,             //Error Code if the translation service failed to translate a message
-        UNRECOGNIZED_TEXT = 105,             //Error Code if the text is not recognized by the translation service
-        UNRECOGNIZED_ERROR = 200,         // Error Code if there is any error other than the listed one.
-    }
 ```
 
 **Sample response**
@@ -130,6 +120,18 @@ errorCode: ErrorCodes;   //represents the type of error based on errorCode
   "sourceLanguage": "3082"
 }
 ```
+
+## Error codes
+
+|Error message|Error code|Description|
+|-----|-----|-----|
+|MESSAGE_TOO_LONG|100|Error code for very long message which the translation service cannot translate|
+|LANGUAGE_NOT_SUPPORTED|101|Error Code for language not supported by the translation service|
+|MESSAGE_NOT_TRANSLATED|102|Error Code for message not translated by the translation service|
+|TRANSLATION_SERVICE_LIMIT_EXCEEDED|103|Error code if the quota limit exceeded for the translation service|
+|TRANSLATION_FAILED|104|Error Code if the translation service failed to translate a message|
+|UNRECOGNIZED_TEXT|105|Error Code if the text is not recognized by the translation service|
+|UNRECOGNIZED_ERROR|200|Error Code if there is any error other than the listed one.|
 
 ### See also
 
