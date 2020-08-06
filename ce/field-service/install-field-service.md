@@ -169,10 +169,15 @@ The mobile project template contains all customizations for the Field Service Mo
 > [!div class="mx-imgBorder"]
 > ![Screenshot of setting details for mobile project](media/mobile-install-project-derive-details.png)
 
-10. Double-click the mobile project template *parent* (not your new derivative), and then select **Publish All**.
 
 > [!Note]
 > Make sure to publish the project to match the version of Field Service Mobile your technicians are using. For example, if your technicians are using Field Service Mobile v12.1, publish the mobile project template to 12.1. If your technicians are using different versions of the mobile project, publish the project to the lowest common version.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of setting details for mobile project](media/mobile-woodford-publish-version.png)
+
+10. Double-click the mobile project template *parent* (not your new derivative), and then select **Publish All**.
 
 11.  Verify the mobile configurations are published by checking for an arrow next to the projects.
 > [!div class="mx-imgBorder"]
