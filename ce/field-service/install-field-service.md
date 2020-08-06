@@ -129,7 +129,7 @@ The mobile project template contains all customizations for the Field Service Mo
 
   The mobile project is updated periodically; [bookmark this website](https://aka.ms/fsmobile-project) for regular access the latest mobile project.
 
-**For previous mobile apps** for D365 for Field Service, see the topic on [Field Service Mobile project template version history](https://docs.microsoft.com/en-us/dynamics365/field-service/field-service-version-history-mobile#mobile-project-template-version-history). 
+**For previous mobile apps** for D365 for Field Service, see the topic on [Field Service Mobile project template version history](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-mobile#mobile-project-template-version-history). 
 
 5. Import the mobile project file.
 > [!div class="mx-imgBorder"]
