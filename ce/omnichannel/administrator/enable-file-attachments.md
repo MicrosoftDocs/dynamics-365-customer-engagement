@@ -4,7 +4,7 @@ description: "Enable file attachments in messaging channels in Omnichannel for C
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 07/24/2020
+ms.date: 08/06/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -19,6 +19,8 @@ You can enable or disable the capability for your agents and customers to send f
 When you enable the option for customers in the **General settings** configuration of your channel, customers can include attachments with their messages. Similarly, when you enable the option for agents, agents can send attachments from the communication panel to the customers. 
 
 If an agent transfers the conversation to another agent, the agent who receives the chat can also access the files attached in the conversation.
+
+For more information about which file types are supported in each channel, see [Asynchronous channel support](asynchronous-channels.md).
 
 ## File size limit and unsupported extensions (types) for attachments
 
@@ -60,6 +62,7 @@ Now, agents and customers can share file attachments during their conversation.
 
 ### See also
 
+[Asynchronous channel support](asynchronous-channels.md)<br>
 [Configure a Facebook channel](configure-facebook-channel.md)<br>
 [Configure a Twitter channel](configure-twitter-channel.md)<br>
 [Configure a WhatsApp channel](configure-whatsapp-channel.md)<br>
