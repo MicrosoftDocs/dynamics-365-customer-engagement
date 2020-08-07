@@ -78,10 +78,10 @@ InitializedConversationResponse =
 }
 ```
 
-On exception in this method, invalid return values; OC will keep translation off for the conversation. You will need to do minimal processing in this function, as it make the UI wait before rendering.
+On exception in this method, invalid return values. Omnichannel for Customer Service will keep translation off for the conversation. You will need to do minimal processing in this function, as it make the UI wait before rendering.
 
 
-![initializeNewConversation error message](../../media/initializenewconversation-api-error.png "initializeNewConversation error message")
+![initializeNewConversation error message](../../../media/initializenewconversation-api-error.png "initializeNewConversation error message")
 
 ### See also
 
