@@ -57,7 +57,7 @@ Suggested action is supported fully with the exception that some channels may li
 | Custom messaging (Direct Line) | Yes                 |
 
 ## File attachment support
-You can enable customer and agents to send file attachments in the **General settings** configuration of a channel. Inbound attachments refer to attachments that customers send to agents, and outbound attachments refer to attachments that agents send to customers. For more information about file attachments, see [Enable file attachments](enable-file-attachments.md).
+You can file attachments on the **General settings** tab of a channel so that customers and agents can send files as attachments. Attachments that customers send to agents are referred to as inbound attachments, and attachments that agents send to customers are referred to as outbound attachments. For more information about file attachments, see [Enable file attachments](enable-file-attachments.md).
 
 | Channel              | Inbound attachments                        | Outbound attachments                  |
 |----------------------|--------------------------------------------|---------------------------------------|
