@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 08/03/2020
+ms.date: 08/06/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -76,6 +76,20 @@ The August update includes a preview of built in Teams functionality for events,
     - Adding event, survey, marketing page, and Teams buttons to emails is easier with improved drag and drop functionality, enhanced appearance, and easily editable text.
     - Placeholders for images, videos, and content blocks now have a more consistent appearance and uniform icons.
     - Add up to ten columns with improved custom column configuration controls.
+
+### Bug fixes
+
+- **Event management**
+    - Fixed a stability error related to an event handler malfunction.
+- **Marketing emails**
+    - Resolved an issue in Outlook where two or three column email layouts sometimes did not display content or background images correctly.
+    - Resolved an issue in Outlook where a double border appeared when a solid border was selected in the email designer.
+    - Fixed an error where column widths sometimes rendered inconsistently in Outlook.
+    - Resolved an issue where QR code and custom tile setting were sometimes removed after refreshing the email designer.
+- **Marketing pages**
+    - Fixed an issue where a CSS error displayed a two column layout as a single column.
+- **Social posting**
+    - Improved the UI on the calendar to create separation between adjacent items.
 
 ## July 2020 update
 
