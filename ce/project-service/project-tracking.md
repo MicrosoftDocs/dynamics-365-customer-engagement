@@ -6,7 +6,7 @@ manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-projectservice
-ms.date: 03/01/2019
+ms.date: 08/07/2020
 ms.topic: article
 ms.prod: 
 ms.technology: 
@@ -29,7 +29,7 @@ The need to track progress against a schedule varies by industry. Some industrie
 
 ## Effort tracking view
 
-The **Effort tracking** view tracks the progress of tasks in the schedule. It compares the actual effort hours that have been spent on a task to the planned effort hours for that task. PSA uses the following formulas to calculate the tracking metrics:
+The **Effort tracking** view tracks the progress of tasks in the schedule. It compares the actual effort hours spent on a task to the task's planned effort hours. PSA uses the following formulas to calculate the tracking metrics:
 
 - Progress percentage = Actual effort spent to date ÷ Planned effort for the task 
 - Estimate to complete (ETC) = Planned effort – Actual effort spent to date 
@@ -38,24 +38,24 @@ The **Effort tracking** view tracks the progress of tasks in the schedule. It co
 
 PSA shows a projection of the effort variance on the task. If the EAC is more than the planned effort, the task is projected to take more time than was originally planned. Therefore, it's behind schedule. If the EAC is less than the planned effort, the task is projected to take less time than was originally planned. Therefore, it's ahead of schedule.
 
-## Re-projecting effort
+## Reprojecting effort
 
-It's common for a project manager to revise the original estimates on a task. Project re-projections are a project manager's perception of estimates, given the current state of a project. However, we don't recommend that project managers change the baseline numbers, because the project baseline represents the established source of truth for the project's schedule and cost estimate, and all project stakeholders have agreed to it.
+It's common for a project manager to revise the original estimates on a task. Project reprojections are a project manager's perception of estimates, given the current state of a project. However, we don't recommend that project managers change the baseline numbers, because the project baseline represents the established source of truth for the project's schedule and cost estimate, and all project stakeholders have agreed to it.
 
-There are two ways that a project manager can re-project effort on tasks:
+There are two ways that a project manager can reproject effort on tasks:
 
 - Override the default ETC with a new estimate of the actual remaining effort on the task. 
 - Override the default progress percentage with a new estimate of the true progress on the task.
 
 Each of these approaches cause a recalculation of the task's ETC, EAC, and progress percentage, and the projected effort variance on a task. The EAC, ETC, and progress percentage on the summary tasks are also recalculated, and produce a new projection of effort variance.
 
-## Re-projection of effort on summary tasks
+## Reprojection of effort on summary tasks
 
-Effort on summary tasks or container tasks can be re-projected. Regardless of whether the user re-projects by using the remaining effort or the progress percentage on the summary tasks, the following set of calculations begins:
+Effort on summary tasks or container tasks can be reprojected. Regardless of whether the user reprojects by using the remaining effort or the progress percentage on the summary tasks, the following set of calculations begins:
 
 - The EAC, ETC, and progress percentage on the task are calculated.
 - The new EAC is distributed down to the child tasks in the same proportion as the original EAC was on the task.
-- The new EAC on each of the individualt tasks down to the leaf node tasks is calculated. 
+- The new EAC on each of the individual tasks down to the leaf node tasks is calculated. 
 - The affected child tasks down to the leaf nodes have their ETC and progress percentage recalculated based on the EAC value. This results in a new projection for the effort variance of the task. 
 - The EACs of the summary tasks all the way to the root node are recalculated.
 
@@ -75,9 +75,9 @@ PSA uses the following formulas to calculate the tracking metrics:
 
 A projection of the cost variance is shown on the task. If the EAC is more than the planned cost, the task is projected to cost more than was originally planned. Therefore, it's trending over budget. If the EAC is less than the planned cost, the task is projected to cost less than was originally planned. Therefore, it's trending under budget.
 
-## Project manager’s re-projection of cost
+## Project manager’s reprojection of cost
 
-When effort is re-projected, the CTC, EAC, percentage of cost consumed, and projected cost variance are all recalculated in the **Cost tracking** view.
+When effort is reprojected, the CTC, EAC, percentage of cost consumed, and projected cost variance are all recalculated in the **Cost tracking** view.
 
 ## Project status summary
 
