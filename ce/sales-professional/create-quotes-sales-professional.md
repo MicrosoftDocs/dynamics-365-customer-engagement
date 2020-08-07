@@ -1,7 +1,7 @@
 ---
 title: "Create and manage quotes in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Use quotes in Dynamics 365 Sales Professional to make formal offers for products with proposed prices to customers."
-ms.date: 06/23/2020
+ms.date: 07/21/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -18,7 +18,7 @@ If you've created your quote from an opportunity, you might have already added p
 
 You'll probably edit a quote multiple times as a sale progresses. Initially, you create a draft, and then you need to activate it when it's ready to go to a customer.
 
-When the customer accepts the quote, and you are ready to ship the products, you create an invoice. Otherwise, you close the quote as revised, canceled, or lost.
+When the customer accepts the quote, and you are ready to ship the products, you create an order or an invoice. Otherwise, you close the quote as revised, canceled, or lost.
 
 ## Create a quote from an opportunity
 
@@ -46,9 +46,6 @@ When the customer accepts the quote, and you are ready to ship the products, you
 9.  When your quote is ready to send to your customer, select **Activate Quote** at the top of the screen.
 
 After you activate the quote, you can create an invoice from it. More information: [Create and manage invoices in Dynamics 365 Sales Professional](create-invoices.md)
-
-> [!NOTE]
-> In Sales Professional, the Quote-Order-Invoice functionality is simplified to generate an invoice directly from a quote. Therefore, the **Create Order** button isn't available on the Quote form. 
 
 
 ## Create a new quote

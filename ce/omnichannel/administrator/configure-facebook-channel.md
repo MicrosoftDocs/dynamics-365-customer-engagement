@@ -4,7 +4,7 @@ description: "Instructions on how to configure a Facebook channel in Omnichannel
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 08/06/2020
+ms.date: 08/07/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -134,7 +134,11 @@ When you create conditions for routing rules, the **Facebook Engagement Context 
        
        To learn more about uploading media in Facebook, see [Facebook developer documentation](https://developers.facebook.com/docs/messenger-platform/send-messages/#sending_attachments).
     
-    - **Turn on your Facebook human agent message tag**: Set to **Yes** to enable your agents to message customers after 24 hours have passed. When set to **No**, agents will be unable to respond to customers after 24 hours unless the customer sends another message. To use the Facebook human agent message tag, you must also turn it on in the Facebook app. For more information, see [Facebook Developer Tools](https://www.facebook.com/help/contact/?id=2616212338594331).
+    - **Turn on your Facebook human agent message tag**: Set to **Yes** to enable your agents to message customers after 24 hours have passed. When set to **No**, agents will be unable to respond to customers after 24 hours unless the customer sends another message. 
+    
+      If you enable the Facebook human agent message tag during an active conversation between the agent and customer, the agent must close the conversation and reopen it in order to communicate with customers after 24 hours of inactivity. Agents can initiate conversations with customers for up to 7 days.
+    
+      To use the Facebook human agent message tag, you must also turn it on in the Facebook app. For more information, see [Facebook Developer Tools](https://www.facebook.com/help/contact/?id=2616212338594331).
 
 3. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
     
