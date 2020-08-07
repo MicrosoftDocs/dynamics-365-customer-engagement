@@ -133,6 +133,14 @@ errorCode: ErrorCodes;   //represents the type of error based on errorCode
 |UNRECOGNIZED_TEXT|105|Error Code if the text is not recognized by the translation service|
 |UNRECOGNIZED_ERROR|200|Error Code if there is any error other than the listed one.|
 
+In case of an exception while calling this method, Omnichannel for Customer Service will not retry and instead will display a translation failed error message in a dialog box.
+
+In case the return value is invalid, an error message on the translation banner will appear in the conversation control.
+
+If this method is not implemented, then the message will not be translated and the following error will be displayed to the agent.
+
+![translateMessage error message](../../media/initializeconversation-api-error.png "translateMessage error message")
+
 ### See also
 
 [Add a web resource for real-time translation](../../how-to/add-web-resource-real-time-translation.md)
