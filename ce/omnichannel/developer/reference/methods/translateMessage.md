@@ -139,7 +139,7 @@ In case the return value is invalid, an error message on the translation banner 
 
 If this method is not implemented, then the message will not be translated and the following error will be displayed to the agent.
 
-![translateMessage error message](../../media/initializeconversation-api-error.png "translateMessage error message")
+![translateMessage error message](../../media/translatemessage-api-error.png "translateMessage error message")
 
 ### See also
 
