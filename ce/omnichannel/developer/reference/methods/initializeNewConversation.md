@@ -55,7 +55,6 @@ conversationConfig = {
   }
 }
 ```
-In the above JSON example, the `inviteLocale` parameter is Locale ID. More information: [Locale ID](https://docs.microsoft.com/en-us/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a).
 In the above JSON example, the `inviteLocale` parameter is Locale ID. More information: [Locale ID](https://docs.microsoft.com/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a).
 
 ## Return Value
