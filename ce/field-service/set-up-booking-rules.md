@@ -78,7 +78,8 @@ c.	Enter the Method Name that you defined in your JavaScript.
 
 4.	Save your booking rule.  Once you save the booking rule it will be used by the Schedule Board and Schedule Assistant.  You can deactivate your booking rule record to keep the Schedule Board and Schedule Assistant from executing the rule.
 
-
+> [!Note]
+> The Booking Rules are currently only supported on the Hourly view mode of the Schedule Board.
 
 ## Create a CRM action
 
