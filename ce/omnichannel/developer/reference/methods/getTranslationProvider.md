@@ -13,7 +13,7 @@ ms.topic: article
 
 [!include[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-Use this method to register your own functions corresponding to the methods [initializeNewConversation](initializeNewConversation.md) and [translateMessage](translateMessage.md).
+Use this method to register your own functions corresponding to [initializeNewConversation](initializeNewConversation.md) and [translateMessage](translateMessage.md) methods.
 
 ## Example
 
