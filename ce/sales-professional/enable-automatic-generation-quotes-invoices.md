@@ -1,11 +1,9 @@
 ---
 title: "Enable automatic generation of quotes and invoices in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Generate quotes and invoices with consistent format and branding by using templates in Dynamics 365 Sales Professional."
-ms.date: 10/01/2019
-ms.service: 
-  - dynamics-365-sales
-ms.custom: 
-  - dyn365-sales
+ms.date: 07/21/2020
+ms.service:
+  - "dynamics-365-sales"
 ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
@@ -23,9 +21,9 @@ Make sure that all the quotes and invoices that your sales team sends out to cus
 
 2.  In the site map, select **Sales Settings**.
 
-3.  Under **Advanced Settings**, select **Quote to invoice**.
+3.  Under **Advanced Settings**, select **Quote Settings**.
 
-4.  To enable automatic generation of quote documents, select the **Auto-generate quote as a Word document** check box, and then select the quote Word template from the drop-down list.
+4.  To enable automatic generation of quote documents, in the **Quote to invoice** section, select the **Auto-generate quote as a Word document** check box, and then select the quote Word template from the drop-down list.
 
 5.  To enable automatic generation of invoice documents, select the **Auto-generate invoice as a Word document** check box, and then select the invoice Word template from the drop-down list. All the out-of-the-box templates and the custom templates that you’ve created are available in the drop-down list.
 
