@@ -8,6 +8,15 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdynce_saleshub
+  - D365-Entity-quote
+  - D365-Entity-order
+  - D365-Entity-invoice
+  - D365-UI-*
+  - Customer Engagement
+  - Dynamics 365
+  - Sales
 ---
 
 # Sales transactions in Dynamics 365 Sales

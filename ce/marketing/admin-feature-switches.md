@@ -2,7 +2,7 @@
 title: "Enable or disable optional and preview features with feature switches (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use the Feature switches page to enable or disable optional and preview features in Dynamics 365 Marketing."
 keywords: administration; sample data
-ms.date: 04/08/2020
+ms.date: 08/04/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -35,7 +35,8 @@ The following table lists each available feature together with its preview statu
 | Accessibility checker | Production | [Email accessibility checker](email-accessibility.md)|
 | Business unit scoping | Production | [Use business units to control access to Marketing records](business-units.md)|
 | Event registration forms | Preview | [Marketing forms for event registration](event-forms.md)|
-| Forms Pro marketing integration | Production | [Forms Pro integration with Dynamics 365 Marketing](forms-pro.md) |
+| Online events on Teams | Preview | [Enables Microsoft Teams as a streaming provider for events](teams-webinar.md)|
+| Customer Voice marketing integration | Production | [Customer Voice integration with Dynamics 365 Marketing](forms-pro.md) |
 
 > [!IMPORTANT]
 > [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
