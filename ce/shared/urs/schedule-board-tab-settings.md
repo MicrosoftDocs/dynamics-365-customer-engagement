@@ -342,4 +342,4 @@ Some of the extensible Schedule Board settings are only available on the Hourly 
 1. Non-Working Hours color.
 2. Booking Details view.
 3. Booking Tooltips view.
-4/ Booking Template.
+4. Booking Template.
