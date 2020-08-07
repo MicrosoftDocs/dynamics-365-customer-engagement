@@ -4,7 +4,7 @@ description: "Learn about the WhatsApp channel through Twilio and how to configu
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/05/2020
+ms.date: 08/06/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -133,7 +133,7 @@ To create a WhatsApp channel, follow these steps:
 2.	Open the out-of-the-box work stream or the one you created.
 3.	On the **Routing rules items** tab, you can create a routing rule to transfer the message to an appropriate agent. Select the entity as **WhatsApp Engagement Context**. For example, you can create a rule to transfer WhatsApp chat from a customer to the default queue.
 
-When you create conditions for routing rules, the **WhatsApp Engagement Context (Conversation)** entity enables you to set the **Customer First Message** attribute. This attribute lets you create a pre-filled message that will automatically appear in the text field of a customer chat, which can be used for routing.
+When you create conditions for routing rules, the **WhatsApp Engagement Context (Conversation)** entity enables you to set the **Customer Phone Number** and **Customer First Message** attributes. The **Customer First Message** attribute lets you create a pre-filled message that will automatically appear in the text field of a customer chat, which can be used for routing.
 
 ## Modify settings for a specific WhatsApp phone number 
 
