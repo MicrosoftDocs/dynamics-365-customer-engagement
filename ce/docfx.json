@@ -213,8 +213,7 @@
       "search.app":{
         "omnichannel/**.*": ["D365CE", "D365CS"],
         "sales-enterprise/**.*": ["D365CE", "D365Sales"],
-        "sales-professional/**.*": ["D365CE", "D365Sales"],
-        "project-service/**.*":["ProjectOperations"]
+        "sales-professional/**.*": ["D365CE", "D365Sales"]
       },
       "search.audienceType":{
         "omnichannel/**.*": ["admin", "customizer", "enduser"],
