@@ -4,7 +4,7 @@ description: "Instructions to configure a post-conversation survey in Omnichanne
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/03/2020
+ms.date: 08/10/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -15,6 +15,12 @@ ms.topic: article
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
+> [!IMPORTANT]
+>
+> - This feature is a preview, which means that it is made available to you before general availability so you can test and evaluate the preview and provide feedback to Microsoft.
+> - This preview may employ reduced or different privacy, security, or compliance commitments than a commercial version. As such, this preview is not meant to be used with any "live" or production Customer Data, Personal Data, or other data that is subject to heightened compliance requirements. Any use of "live" data is at your sole risk and it is your sole responsibility to notify your end users that they should not include sensitive information with their use of the Preview.
+> - This preview, and any support Microsoft may elect to provide, is provided "as-is," "with all faults," "as available," and without warranty. This preview is subject to the [Preview Terms](../../legal/supp-dynamics365-preview.md).
 
 ## Introduction
 
@@ -60,11 +66,11 @@ You can set up surveys when configuring a channel or update an existing channel 
 
 5. In **Microsoft Forms Pro survey**, search for a survey and select it.
 
-6. In the **How should we send the survey?** box, the following options are available depending on the channel you select: 
+6. In the **How should we send the survey?** box, the following options are available depending on the channel you select:
    - **Send survey link to conversation:** When selected, sends the survey link to customers.
 
        - In the **Message** box that appears, select the default message text or type a custom message. The personalized survey link will be appended to the message and displayed to the customer.
-   - **Insert survey in conversation:** This option is available only for the Chat channel. When you configure this option, agent can insert a survey link in an active session. The survey questions are displayed on the customer chat window.
+   - **Insert survey in conversation:** This option is available only for the Chat channel. When you configure this option, the agent can insert a survey link in an active session. The survey questions are displayed on the customer chat window.
 
 7. Select **Save**.
 
