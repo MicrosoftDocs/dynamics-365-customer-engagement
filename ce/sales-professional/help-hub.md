@@ -1,7 +1,7 @@
 ---
 title: "Help resources for Dynamics 365 Sales Professional| Microsoft Docs"
 description: "A starting point for browsing help content for Dynamics 365 Sales Professional."
-ms.date: 10/14/2019
+ms.date: 08/03/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -31,10 +31,11 @@ manager: annbe
 <li><a href="manage-leads-sales-professional.md" data-raw-source="[Create and manage leads](manage-leads-sales-professional.md)">Create and manage leads</a></li>
 <li><a href="manage-opportunities-sales-professional.md" data-raw-source="[Create or edit opportunities](manage-opportunities-sales-professional.md)">Create or edit opportunities</a></li>
 <li><a href="create-quotes-sales-professional.md" data-raw-source="[Create and manage quotes](create-quotes-sales-professional.md)">Create and manage quotes</a></li>
+<li><a href="create-orders.md" data-raw-source="[Create and manage orders](create-orders.md)">Create and manage orders</a></li>
 <li><a href="create-invoices.md" data-raw-source="[Create and manage invoices](create-invoices.md)">Create and manage invoices</a></li>
 <li><a href="create-products.md" data-raw-source="[Create products](create-products.md)">Create products</a></li>
 <li><a href="create-price-list.md" data-raw-source="[Create price lists](create-price-list.md)">Create price lists</a></li>
-<li><a href="user-guide.md" data-raw-source="[More resources for sales people](user-guide.md)">More help resources for sales people...</a></li>
+<li><a href="user-guide.md" data-raw-source="[More resources for salespeople](user-guide.md)">More help resources for salespeople...</a></li>
 </ul>
 </td></tr>
 

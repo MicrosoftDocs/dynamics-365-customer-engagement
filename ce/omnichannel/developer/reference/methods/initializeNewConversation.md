@@ -48,13 +48,14 @@ Given below is a sample of the `conversationConfig` parameter.
 ```json
 conversationConfig = {
   "conversationId": "2f67af9e-c05a-4784-aaea-916d6938fcea",
-  "c1Language": 1033,
+  "c1Language": "1033",
   "inviteParams": {
     "inviteLocale": "3082",
     "channelType": "lcw"
   }
 }
 ```
+In the above JSON example, the `inviteLocale` parameter is Locale ID. More information: [Locale ID](https://docs.microsoft.com/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a).
 
 ## Return Value
 
@@ -77,8 +78,10 @@ InitializedConversationResponse =
 }
 ```
 
-> [!NOTE]
-> On exception in this method, invalid return values; OC will keep translation off for the conversation. You will need to do minimal processing in this function, as it make the UI wait before rendering.
+On exception in this method, invalid return values. Omnichannel for Customer Service will keep translation off for the conversation. You will need to do minimal processing in this function, as it make the UI wait before rendering.
+
+
+![initializeNewConversation error message](../../../media/initializeconversation-api-error.png "initializeNewConversation error message")
 
 ### See also
 

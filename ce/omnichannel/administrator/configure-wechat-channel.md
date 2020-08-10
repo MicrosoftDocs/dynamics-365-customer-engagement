@@ -4,7 +4,7 @@ description: "Instructions for configuring a WeChat channel in Omnichannel for C
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/05/2020
+ms.date: 08/06/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -92,7 +92,9 @@ If you are using the service account of WeChat, perform the following steps:
 
     - **Enable file attachments for agents**: Set to **Yes** to allow agents to send file attachments to customers. When the agent sends an attachment, the app uploads the attachment to WeChat and captures the media ID. Otherwise, set **No**. 
     
-       To learn more about attachments, see [File attachments](enable-file-attachments.md). 
+       To learn more about attachments, see [Enable file attachments](enable-file-attachments.md). 
+       
+       To learn more about uploading media in WeChat, see [WeChat developer documentation](https://developers.weixin.qq.com/doc/offiaccount/en/Asset_Management/New_temporary_materials.html).
 
 3. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md).
     
