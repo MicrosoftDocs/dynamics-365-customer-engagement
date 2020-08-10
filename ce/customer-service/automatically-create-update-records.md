@@ -136,13 +136,16 @@ The rules are run in the order they are listed in the rule items list. If the in
 
 ## Use activity monitor to review and track the rules
 
-You can review and track the health of the automatic record creation rules and resolve issues around them. By default, the activity monitor captures failed events. You can customize what to monitor using the monitor options in the application.
+[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+You can review and track the health of the automatic record creation rules and resolve issues around them. By default, the activity monitor captures failed events. You can customize the events that you want to monitor by using the monitor options in the application.
 
 > [!IMPORTANT]
 > The activity monitor tracks the rules only till they are evaluated in Customer Service Hub before the rule is run in Power Automate.
 
 The following details are available for the rules:
-- **Current state:** Displays the state, such as failed, skipped, or success.
+
+- **Current state:** Displays the state, such as failed, skipped, or ready for Power Automate.
 - **Rule name:** Name of the record creation rule.
 - **Monitored activity type:** Activity type, such as email, task, or appointment.
 - **Monitored activity item:** Displays the subject of the activity type.
@@ -155,8 +158,9 @@ The following details are available for the rules:
 3. Double-click a rule or activity to view the activity monitoring summary that is displayed on the **Activity monitor** *<rule_name>* page.
   
     > [!NOTE]
-    > Use the browser navigation option to go back to the previous page.
-4. If you navigate to an active rule, a message 
+
+    > - Use the browser navigation option to go back to the previous page.
+    > - If you navigate to an active rule from the activity monitor page, a message appears stating that the rule is active and therefore is read-only.
 
 ## How do record creation and update rules work with queues
 
@@ -173,5 +177,5 @@ The following details are available for the rules:
 
 ### See also
 
- [Create and manage queues](set-up-queues-manage-activities-cases.md)  
+[Create and manage queues](set-up-queues-manage-activities-cases.md)  
 [Create rules to automatically route cases](create-rules-automatically-route-cases.md)  
