@@ -19,8 +19,7 @@ caps.latest.revision: 13
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Sample: Detect multiple duplicate records

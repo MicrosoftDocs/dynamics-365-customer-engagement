@@ -2,7 +2,7 @@
 title: "Set up customer agreements (Dynamics 365 Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 08/15/2019
+ms.date: 07/06/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
@@ -150,7 +150,9 @@ You an also define custom dates work orders should be performed if a pattern doe
 Finally, **Save**. 
 
 > [!Note]
-> A single agreement can have various booking setups. For example, you may create a booking setup called "Weekly Visits" that creates work orders every week with specified incidents, products, services, and service tasks. Additionally, within the same agreement, you may have another booking setup called "Monthly Visits" that creates work orders every month with different incidents, products, services, and service tasks.  
+> A single agreement can have various booking setups. For example, you may create a booking setup called "Weekly Visits" that creates work orders every week with specified incidents, products, services, and service tasks. Additionally, within the same agreement, you may have another booking setup called "Monthly Visits" that creates work orders every month with different incidents, products, services, and service tasks. 
+
+See details in the configuration considerations section at the end of this article for details on importing booking recurrences.
 
 ### Step 3: Add agreement work details
 
@@ -338,6 +340,25 @@ Even if you have an agreement generating invoices, agreement work orders will st
 Entitlements are applied to work order pricing based on multiple factors such as service account, incident type, and customer asset categories. It's common practice to create specific incident types for specific customers outlining custom work; one option is to apply an entitlement when the custom agreement incident type is added to a work order that makes the products and services $0 by discounting them 100%. 
 
 For more information, visit our [topic on entitlements](work-order-entitlements.md).
+
+### Import booking recurrences
+
+It's possible to import a booking recurrence pattern for an agreement booking setup (ABS) or agreement invoice setup (AIS). 
+
+- The recurrence dialog, when saved, populates a field on the ABS or AIS records.
+- The field is called **Recurrence Settings** and is not displayed on the form by default.
+- To import a recurrence with one or more ABS or AIS records through CSV, just get a representative string from an ABS or AIS that is set up similarly to how you would like the imported records to be configured.
+- With that string, you'll see that there are some values driving how the record behaves that can be parsed out of that string, like start and end date, months every, etc.
+- Use these sample strings to populate the agreement booking and invoice setup records into a spreadsheet and use this to import fully configured records.
+
+For example, see a recurrence in the following screenshot, and related XML below.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of booking recurrence](./media/agreement-recuurence-pattern.png)
+
+
+      <root><pattern><period>weekly</period><option>every</option><weeks every='1'><days>1</days><days>2</days><days>3</days></weeks></pattern><range><start>08/01/2020</start><option>endAfter</option><end>10</end></range><datas/></root>
 
 
 ## Additional notes

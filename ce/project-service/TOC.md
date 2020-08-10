@@ -2,6 +2,8 @@
 
 # What's new
 ## [Update Release schedule for Project Service 3.x](version-history-ps.md)
+## [What's new or changed in Update Release 22, V3](whats-new-ur-22.md)
+## [What's new or changed in Update Release 21, V3](whats-new-ur-21.md)
 ## [What's new or changed in Update Release 20, V3](whats-new-ur-20.md)
 ## [What's new or changed in Update Release 19, V3](whats-new-ur-19.md)
 ## [What's new or changed in Update Release 18, V3](whats-new-ur-18.md)

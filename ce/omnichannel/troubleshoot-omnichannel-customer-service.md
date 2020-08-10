@@ -4,7 +4,7 @@ description: "Learn how to troubleshoot the issues you may face while working on
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/14/2020
+ms.date: 07/16/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -49,7 +49,7 @@ To resolve the issue, perform steps 1 through 9 in the [Update entity records wo
 
 **Entity Records Distribution Flow** is not updated automatically. Due to this issue, you can't create an entity records channel and the system shows a business process error.
 
-**The operation failed due to an incorrect configuration in Entity Records Distribution Flow. Ensure the Entity Records Distribution Flow isn't deleted or renamed.**.
+**The operation failed due to an incorrect configuration in Entity Records Distribution Flow. Ensure the Entity Records Distribution Flow isn't deleted or renamed.**
 
    > [!div class=mx-imgBorder]
    > ![Business Process Error](media/business-process-error2.PNG "Business Process Error")
@@ -383,9 +383,7 @@ When you enter different credentials, this issue occurs.
 
 ### Resolution
 
-If you use **IE process** to host applications, open Internet Explorer browser, and go to https://login.microsoftonline.com/logout.srf. The URL signs you from office.com. Now, sign in to Unified Service Des client application and try again.
-
-If you use **Chrome process** to host applications, go to `C:\Users\<USER_NAME>\AppData\Roaming\Microsoft\USD` and delete the **CEF** folder. Now, sign in to Unified Service Des client application and try again. 
+If you use **Chrome process** to host applications, go to `C:\Users\<USER_NAME>\AppData\Roaming\Microsoft\USD` and delete the **CEF** folder. Now, sign in to Unified Service Desk client application and try again.
 
 ## Communication panel doesn't load in Omnichannel for Customer Service app
 
@@ -413,7 +411,7 @@ Communication panel doesn't load in Omnichannel for Customer Service app:
 
    To learn how to create a record, see [Configure a channel provider for your Dynamics 365 organization](/dynamics365/customer-engagement/developer/channel-integration-framework/configure-channel-provider-channel-integration-framework).
 
-- To sync the configurations, remove the channel and roles, add it again and save the record.
+- To sync the configurations, remove the channel and roles, add them again and save the record.
 
    1. Sign in to the Dynamics 365 apps.
    2. Select the drop-down button on Dynamics 365 and select **Channel Integration Framework**.
@@ -446,16 +444,18 @@ You must remove the Customer Service Hub app from the channel provider configura
 
 The issue might happen due to the following reasons:
 
+- Cookies are blocked in the browser.
 - Azure Active Directory consent is not available for Omnichannel for Customer Service app.
-- Agent doesn't the Omnichannel agent role privileges.
-- Capacity and Default presence is not.
+- Agent doesn't have the Omnichannel agent role privileges.
+- Capacity and default presence are not set.
 
 ### Resolution
 
 Perform the following:
 
-- Contact your administrator to verify Azure Active Directory consent is given to the Omnichannel for Customer Service application on your tenant. Go to [Authorize access](https://go.microsoft.com/fwlink/?linkid=2070932) to get access. For more information, see [Provision for Omnichannel for Customer Service](administrator/omnichannel-provision-license.md). 
-- Ensure the agent account has **Omnichannel Agent**. For more information, see [Assign roles and enable users for Omnichannel](administrator/add-users-assign-roles.md).
+- Ensure that cookies are not blocked in the browser in any mode so that agent and supervisor presence can work properly.
+- Contact your administrator to verify Azure Active Directory consent is given to the Omnichannel for Customer Service application on your tenant. Go to [Authorize access](https://go.microsoft.com/fwlink/p/?linkid=2070932) to get access. For more information, see [Provision for Omnichannel for Customer Service](administrator/omnichannel-provision-license.md). 
+- Ensure the agent account has the **Omnichannel Agent** role assigned. For more information, see [Assign roles and enable users for Omnichannel](administrator/add-users-assign-roles.md).
 - Ensure the agent account has values set for **Capacity** and **Default presence** within the Omnichannel Administration app. To learn more, see [Create and manage users and user profiles](administrator/users-user-profiles.md).
 
 ## Agent dashboard isn’t loading or is giving an authorization error
@@ -472,7 +472,7 @@ The issue might happen due to the following reasons:
 
 Perform the following:
 
-- Contact your administrator to verify Azure Active Directory consent is given to the Omnichannel for Customer Service application on your tenant. Go to [Authorize access](https://go.microsoft.com/fwlink/?linkid=2070932) to get access. To learn more, see [Provide data access consent](administrator/omnichannel-provision-license.md#provide-data-access-consent).
+- Contact your administrator to verify Azure Active Directory consent is given to the Omnichannel for Customer Service application on your tenant. Go to [Authorize access](https://go.microsoft.com/fwlink/p/?linkid=2070932) to get access. To learn more, see [Provide data access consent](administrator/omnichannel-provision-license.md#provide-data-access-consent).
 - Ensure the agent account has the role **Omnichannel Agent**. For more information about the relevant roles, see [Understand roles and their privileges](administrator/add-users-assign-roles.md#understand-roles-and-their-privileges). 
 - Ensure the agent account is assigned to at least one queue in the Omnichannel Administration app. To learn more, see [Manage users in Omnichannel for Customer Service](administrator/users-user-profiles.md).
 

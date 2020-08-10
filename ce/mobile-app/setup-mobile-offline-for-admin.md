@@ -1,7 +1,7 @@
 ---
 title: "Configure mobile offline synchronization in Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: 
-ms.date: 05/20/2020
+ms.date: 07/10/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -27,8 +27,11 @@ search.app:
 Mobile offline allows your users to use the Dynamics 365 for phones app in offline mode to interact with their data, even when they are not connected to the internet. The Dynamics 365 for phones app provides a rich offline experience and helps you to stay productive. You can use basic commands such as create, read, update, and delete when you are offline. Once you are back online, your changes are automatically synchronized with your Dynamics 365 for phones app. 
 
 > [!Note]
-> - The mobile offline feature is only available for iOS and Android devices.
+> - Mobile offline is only available for iOS and Android devices.
 > - To use the mobile offline feature, download the latest version of the Dynamics 365 for phones and tablet app from the app store. For iOS, version 13.19043.32 or later is supported; for Android, version 4.3.19043.33 or later supported.
+
+For information on entities and corresponding commands that are available in offline mode, see [Mobile offline capabilities and limitations](mobile-offline-capabilities.md).
+
 
 To allows users to use this feature, a Dynamics 365 administrator will need to set up mobile offline for their organization. 
   
@@ -37,16 +40,8 @@ This offline experience uses [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-
  
 ## Step 1: Enable entities for mobile offline synchronization 
  
-One of the first things you need to do is enable entities that will be available to mobile users when they're using the mobile app in offline mode. 
-  
-Entities that you can enable for offline mode appear in the **MOBILE OFFLINE PROFILE ITEM**.
+One of the first things you need to do is enable entities that will be available to mobile users when they're using the mobile app in offline mode. You can disable or enable any of the supported entities for offline mode.
 
-   > [!div class="mx-imgBorder"]
-   >![Setting Customizations](media/enable_entities_for_offline.png "Settings Customizations")
-  
-You can disable or enable any of the supported entities for offline mode. The next section shows you how to enable or disable an entity. 
-
-### To enable more entities for offline:
   
 1. In the **Dynamics 365- custom** app, go to **Settings** > **Advanced Settings**.
 
@@ -57,6 +52,9 @@ You can disable or enable any of the supported entities for offline mode. The ne
 
    > [!div class="mx-imgBorder"]
    >![Select a Customize the System](media/Settings_Custom.png "Customize the System")
+   
+ > [!IMPORTANT]
+> - Ignore the **Try New Experience** notification at the top. The new experience does not include all the options to set-up mobile offline.   
   
 3. Expand **Entities** in the left pane.  
   
@@ -124,93 +122,50 @@ You need to create mobile offline profiles for users to configure filters that d
    > [!div class="mx-imgBorder"]
    >![Enter Mobile Offline Profile Item details](media/namemobileofflineprofile2.png "Enter Mobile Offline Profile Item details")
   
-9. Enter a name and select an entity. Only entities that can be enabled for mobile offline appear in this list.  
+9. Enter a name and select an entity. Only entities that can be enabled for mobile offline appear in the **Entity** list.  
 
    > [!div class="mx-imgBorder"]
-   >![Enter Mobile Offline Profile Item name](media/profileitemname1.png "Enter Profile Item name")
+   >![Setting Customizations](media/enable_entities_for_offline.png "Settings Customizations")
  
 
-   Select a **Data Download Filter** based on the ownership type for the entity.
+10. Select a **Data Download Filter** based on the ownership type for the entity. Entity ownership is decided when you create the entity. For more information, see [Types of entities and entity ownership](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-entities).
+
  
-**User or Team**
-  
-   - **Download related data only**. Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.  
-  
-   - **All records**. Make all records for this entity available offline.  
-  
-   - **Other data filter**. Make only the specified records for this entity available offline.  
-  
-   If you select **Other records**, you can choose from the following:  
-  
-   - **Download my records**. Make only your records available offline.  
-  
-   - **Download my team’s records**. Make your team’s records available offline.  
-  
-   - **Download my business unit’s records**. Make your business unit’s records available offline.  
-  
- **Organization**  
-  
-   - **Download related data only**. Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.  
-  
-   - **All records**. Make all records for this entity available offline.  
-  
- **Business**  
-  
-   - **Download related data only**. Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.  
-  
-   - **All records**. Make all records for this entity available offline.  
-  
-   - **Other records**. Make only the specified records for this entity available offline.  
-  
-   If you select **Other records**, you can choose from the following:  
-  
-   - **Download my business unit’s records**. Make your business unit’s records available offline.  
-  
- **None**  
-  
-   - **Download related data only**. Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.  
+   |Entity ownership type|Available Data Download Filter options |  
+  |---------------|-----------------|  
+  |**User or Team**| <ul><li>**Download related data only** - Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.</li> <li>**All records** - Make all records for this entity available offline.</li> <li>**Other data filter** - Make only the specified records for this entity available offline and then choose from the following: </li> <ul><li> **Download my records** - Make only your records available offline.</li>  <li> **Download my team’s records** - Make your team’s records available offline.</li> <li>**Download my business unit’s records** - Make your business unit’s records available offline.</lu>|  
+  |**Organization**|<ul><li>**Download related data only** - Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.</li> <li>**All records** - Make all records for this entity available offline. </li>|  
+  |**Business**|<ul><li>**Download related data only** -  Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available. </li> <li>**All records** - Make all records for this entity available offline.</li> <li>**Other records** - Make only the specified records for this entity available offline and choose from the following:</li> <ul><li> **Download my business unit’s records** - Make your business unit’s records available offline.</li>   |  
+  |**None**|  <ul><li>**Download related data only**. Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.</li> |    
     
 Admins can define a custom filter based on the following rules. You can create filters up to three levels.  
-    
 
- |  |
- |---------|
- |equal     |
- |not equal     |
- |gt – greater than|  
- |ge – greater than or equal to|  
- |le – less than or equal to|  
- |lt – less than|  
- |like|  
- |not-like|  
- |in|  
- |not-in|  
- |null|  
- |not-null|  
- |eq-userid|  
- |ne-userid|  
- |eq-userteams|  
- |eq-useroruserteams|  
- |eq-useroruserhierarchy|  
- |eq-useroruserhierarchyandteams|  
- |eq-businessid|  
- |ne-businessid|  
- |eq-userlanguage|  
- |begins-with|  
- |not-begin-with|  
- |ends-with|  
- |not-end-with|
+
+| |  | |
+|---------|---------|---------|
+|equal     |     not equal     |   gt – greater than      |
+|ge – greater than or equal to     |   le – less than or equal to      |   lt – less than      |
+|like     |   not-like      |     in   |
+|not-in     |    null     |    not-null     |
+|eq-userid     |   ne-userid      |    eq-userteams     |
+|eq-useroruserteams     |    eq-useroruserhierarchy     |    eq-useroruserhierarchyandteams     |
+|eq-businessid     |    ne-businessid     |   eq-userlanguage      |
+|begins-with     |     not-begin-with    |    ends-with     |
+|not-end-with    |       |         |
+
+
+ 
+ 
+11. Select **Save** to create the mobile offline profile item so you can continue editing it.  
   
-10. Select **Save** to create the mobile offline profile item so you can continue editing it.  
-  
-11. In the **MOBILE OFFLINE PROFILE ITEM ASSOCIATIONS DETAILS** area, select **Add Mobile Offline Profile Item Association record** to create a new mobile offline profile item association. You need to create a mobile offline profile item association for each related record you want to make available offline. In addition, you need to include any related entities in this mobile offline profile.  
+12. In the **MOBILE OFFLINE PROFILE ITEM ASSOCIATIONS DETAILS** area, select **Add Mobile Offline Profile Item Association record** to create a new mobile offline profile item association. You need to create a mobile offline profile item association for each related record you want to make available offline. In addition, you need to include any related entities in this mobile offline profile.  
   
      For example, if you create a mobile offline profile item association from the Lead entity, you need to add the Lead entity to this mobile offline profile.  
      
-   > [!div class="mx-imgBorder"]
-   >![Add Lead entity to offline profile](media/addleadentity1.png "Add Lead entity to offline profile")
+    > [!div class="mx-imgBorder"]
+    >![Add Lead entity to offline profile](media/addleadentity1.png "Add Lead entity to offline profile")
   
-12. Enter a name for the mobile offline profile item association, select a relationship, and then select **Save**.  
+13. Enter a name for the mobile offline profile item association, select a relationship, and then select **Save**.  
   
     When you’re done adding mobile offline profile item associations to the mobile offline profile item, select **Save & Close** on the **MOBILE OFFLINE PROFILE ITEM ASSOCIATION** screen.  
   
@@ -228,8 +183,8 @@ Once you have created a mobile offline profile, you can start adding users to th
  
 2.  In the **USERS** area, select **Add User record** to add a new user.  
 
-   > [!div class="mx-imgBorder"]
-   >![Add a user](media/adduser1.png "Add a user")
+    > [!div class="mx-imgBorder"]
+    >![Add a user](media/adduser1.png "Add a user")
   
 3.  Select the lookup field that appears and select a user to add to this mobile offline profile.  
   
@@ -296,82 +251,11 @@ Enable mobile offline for a specific app from MyApps page.
 
 4. At the top choose **Save** and then **Publish**.
 
-## Tips
+## Mobile offline capabilities and limitations
 
-Here are a few things to keep in mind about mobile offline synchronization:  
-  
-- Mobile offline synchronization with mobile devices occurs periodically. A synchronization cycle could last for several minutes, depending on Azure network latency, the volume of data that’s set for synchronization, and mobile network speed. Users can still use the mobile apps during synchronization.  
-  
-- The time for initial metadata download is determined by the number of total entities in offline-enabled app modules. Make sure to enable only those entities and app modules for offline that are necessary to optimize the experience for end users. 
-  
-- Ensure that any view that you want to work in offline doesn’t reference the entities that are not offline enabled. For example, assuming Account is in the offline profile, then an Account view that references the primary contact when Contact is not in the profile will not be available.
-
-- Changes to a user’s security privileges are updated during the next synchronization cycle. Until that time, users can continue to access data according to their previous security privileges, but any changes they make will be validated during the synchronization to the Dynamics 365 server. If they no longer have privileges to make changes for a record, they will receive an error and the record won’t be created, updated, or deleted.
-
-- Any changes to a user’s privilege to view a record won’t take effect on the mobile device until the next synchronization cycle.
-  
-  
-## Limitations and recommendations 
-
-### Organization data filter 
-It is recommended that you have at least one rule defined for all mobile offline enabled entity for org filters, if you are using the entities across profiles. By default, this value is set to last 10 days for most of the offline-enabled entities.
-
- > [!div class="mx-imgBorder"]
- >![Edit org data filter](media/datafilter_1.png "Edit org data filter")
+For information on capabilities and limitations of mobile offline, see [Mobile offline capabilities and limitations](mobile-offline-capabilities.md).
 
 
-### Profile filters 
-
-**Profile limitations**
-
-|Profile details |Limitation|  
-|-------------|---------|  
-|User in profile|	2,000|
-|Relationship defined for each entity|Maximum of 10 relationships. And maximum of one many to many (M:M) or one to many (1:M) relationships within those 10 relationships. If any custom entities demand this scenario, then revisit the data model. No circular references or self-references are supported.|
-
-
-### Profile filter rules recommendation 
-
-Ensure that you have configured at least one of the Profile rules for each entity to download its data. 
-  
-|Customization |Recommendation|  
-|-------------|---------|  
-|All Records|	If you are selecting this filter, you cannot define any other filter rule.|
-|Download Related Data only|If you are selecting this filter, you cannot define any other filter rule. Ensure that the entity has been defined as a Profile Item Association entity also.|
-|Other Data Filter - if selected, then select at least one of these options: **Download my Records**, **Download my team records**, or **Download my business unit**  |	If you want to define this filter you have to pick at least one of the given options. It is highly recommended to not have Business Unit level filter for an entity unless there is a strong justification. It is recommended for a master data scenario with a small data set like Country codes. |
-|Custom Data Filter |<=3 filters can be defined in the custom data filter. |
-
-
-### Data volume recommendation 
-
-
-The recommended data volume should be <=  10,000 records per user subscription.
-
-## Known issues
-
-**Business Process Flows**: Business process flows are not supported for mobile offline. When you are offline, business process flows grids and views will not be available and business process flows will not be rendered on records that are opened in offline mode. If a record containing a business process flow was loaded prior to going offline, business process flow functions, such as move next or move previous will not work. Business process flows support the ability to branch to a different set of stages, based on conditions defined on fields of the record. In offline mode, these conditions to determine the next set of stages in the business process flows will not be evaluated.
-
-**Qualify a lead**: When a lead created in mobile offline is qualified and when the user goes online, the business process stage will still show the  qualify stage. The user will have to manually click **Next stage** to move to the next stage.
-
-**Views** are not supported for the following entities in offline mode: 
-
-- Email
-
-- Task
-
-- Fax
-
-- Letter
-
-- Serviceappointment
-
-- Campaignresponse
-
-- Campaignactivity
-
-- Recurringappointmentmaster
-
-- Socialactivity
 
 
 

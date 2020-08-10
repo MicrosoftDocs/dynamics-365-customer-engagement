@@ -17,8 +17,7 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Use a solution to customize  
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Use the Common Data Services Default Solution](/powerapps/maker/common-data-service/use-solutions-for-your-customizations)

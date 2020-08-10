@@ -17,8 +17,7 @@ tags:
   - MigrationHO
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Developer Guide for Dynamics 365 Customer Engagement (on-premises), version 9
 
@@ -96,7 +95,7 @@ Welcome to the Dynamics 365 Customer Engagement (on-premises) Developer Guide.
 <td>
 <h2> Package extensions and customizations </h2>
 <li><a href="package-distribute-extensions-use-solutions.md" data-raw-source="[Use solutions](package-distribute-extensions-use-solutions.md)">Use solutions</a></li>
-<li><a href="create-packages-package-deployer.md" data-raw-source="[Use Package Deployer](create-packages-package-deployer.md)">Use Package Deployer</a></li>
+<li><a href="/power-platform/alm/package-deployer-tool" data-raw-source="[Use Package Deployer](/power-platform/alm/package-deployer-tool)">Use Package Deployer</a></li>
 <li><a href="compress-extract-solution-file-solutionpackager.md" data-raw-source="[Use SolutionPackager](compress-extract-solution-file-solutionpackager.md)">Use SolutionPackager</a></li>
 <li><a href="publish-app-appsource.md" data-raw-source="[Publish your app on AppSource](publish-app-appsource.md)">Publish your app on AppSource</a></li>
 </td>

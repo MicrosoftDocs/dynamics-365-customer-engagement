@@ -4,7 +4,7 @@ description: "Learn about the international availability of Omnichannel for Cust
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/20/2020
+ms.date: 06/26/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -13,13 +13,15 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-The purpose of this document is to provide information about availability of **Omnichannel for Customer Service** with respect to the following:
+The purpose of this document is to provide information about availability of Omnichannel for Customer Service with respect to the following:
 
 - [Geographic location availability](#geographic-location-availability)
 
 - [Language availability](#language-availability)
 
 ## Geographic location availability
+
+Your Dynamics 365 tenant must be co-located in one of the following geographic locations where Omnichannel for Customer Service is available. These geographic locations refer to your Dynamics 365 tenant only and not the data center where your Dynamics 365 environment or org instance resides.
 
 ### April 2020 update
 
@@ -32,12 +34,13 @@ Omnichannel for Customer Service April 2020 update is available in the following
 | Asia Pacific                              |   April 14, 2020     |
 | Australia                                 |   April 14, 2020     |
 | Japan                                     |   April 14, 2020     |
-| Europe, the Middle East, and Africa       |   April 16, 2020     |
+| Europe                                    |   April 16, 2020     |
 | United Kingdom                            |   April 16, 2020     |
 | North America                             |   April 19, 2020     |
-| Government Community Cloud (GCC)          |   To be announced    |
-| United Arab Emirates (UAE)                |   To be announced    |
+| Government Community Cloud (GCC)          |   June 24, 2020      |
+| United Arab Emirates (UAE)                |   June 26, 2020      |
 
+  
 ### January 2020 update
 
 Omnichannel for Customer Service January 2020 update is available in the following regions:
@@ -46,7 +49,7 @@ Omnichannel for Customer Service January 2020 update is available in the followi
 |-------------------------------------------|----------------------|
 | Canada                                    |   January 31, 2020   |  
 | South America                             |   January 31, 2020   |
-| Europe, the Middle East, and Africa       |   February 10, 2020  |
+| Europe                                    |   February 10, 2020  |
 | United Kingdom                            |   February 10, 2020  |
 | Asia Pacific                              |   February 10, 2020  |
 | Australia                                 |   February 10, 2020  |
@@ -54,13 +57,12 @@ Omnichannel for Customer Service January 2020 update is available in the followi
 | North America                             |   February 17, 2020  |
 
 > [!Note]
-> - For the service to work, your tenant and organization have to be co-located in one of the geographic locations.
 >
-> - In Europe, Omnichannel for Customer Service for the following geographic locations is currently not available and is planned to be introduced in the future:
->   - Norway
->   - Switzerland
->   - Germany
->   - France
+> In Europe, even if your Dynamics 365 tenant is located in one of the following geographic locations, Omnichannel for Customer Service is currently not available in these locations and is planned to be introduced in the future:
+> - Norway
+> - Switzerland
+> - Germany
+> - France
 
 ## Language availability
 

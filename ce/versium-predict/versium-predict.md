@@ -31,7 +31,7 @@ ms.reviewer:
   Predict Versium is a preferred provider solution that your administrator can add from the Dynamics 365 admin center. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install or remove a preferred solution](/power-platform/admin/install-remove-preferred-solution).
 
 ## Get started
- [Versium Predict home page](https://versium.com/predict-by-versium/)
+ [Versium Predict home page](https://versium.com/predict)
 
  [![Reader button](../versium-predict/media/reader-button.png "Reader button")](https://go.microsoft.com/fwlink/p/?LinkId=328957) [Versium Predict Setup Guide](https://predict-help.versium.com/wp-content/uploads/Versium-Predict-Setup-Guide-Microsoft-Dynamics-365.pdf)
 

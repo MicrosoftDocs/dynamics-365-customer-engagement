@@ -17,9 +17,7 @@ ms.author: jimholtz
 manager: kvivek
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Remove a large amount of specific, targeted data with bulk deletion 
 

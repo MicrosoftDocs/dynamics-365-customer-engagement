@@ -59,7 +59,7 @@
 #### [Manage sample data](additional-settings.md)
 #### [Quota limits](quota-management.md)
 #### [Feature switches](admin-feature-switches.md)
-#### [Preview: Configure AI features](admin-machine-learning.md)
+#### [Configure AI features](admin-machine-learning.md)
 #### [Control access to designer features](designer-feature-protection.md)
 
 ### Customize Marketing
@@ -68,6 +68,11 @@
 #### [Create and customize marketing calendars](customize-marketing-calendars.md)
 #### [Create and customize template labels](customize-template-labels.md)
 
+### Email administration
+#### [Best practices for email marketing](get-ready-email-marketing.md)
+#### [Email bounce categories](email-bounce-categories.md)
+#### [Email policies and suspension standards](email-policies.md)
+
 ### Privacy and compliance
 #### [Data protection and GDPR](gdpr.md)
 #### [Set up global double opt-in](double-opt-in.md)
@@ -75,9 +80,8 @@
 #### [How the app uses cookies](cookies.md)
 
 ### [Best practices for administration](admin-best-practices.md)
-### [Best practices for email marketing](get-ready-email-marketing.md)
-### [Email policies and suspension standards](email-policies.md)
 ### [Administration and setup FAQ](setup-troubleshooting.md)
+### [Known issues and workarounds](known-issues.md)
 
 ## [User Guide](user-guide.md)
 
@@ -128,8 +132,8 @@
 #### [Create and deploy marketing pages](create-deploy-marketing-pages.md)
 #### [Provide personalized page content](personalized-page-content.md)
 #### [Create marketing forms](marketing-forms.md)
+#### [Use marketing forms for event registration](event-forms.md)
 #### [Enable prefilling for forms](form-prefill.md)
-#### [Integrate Forms Pro with Dynamics 365 Marketing](forms-pro.md)
 #### [Integrate with landing pages on external websites](embed-forms.md)
 #### [Create input fields for forms](marketing-fields.md)
 #### [Set up a subscription center](set-up-subscription-center.md)
@@ -149,7 +153,6 @@
 #### [Export dynamic-segment members to Excel](segments-export-members.md)
 #### [Design static segments](segments-static.md)
 #### [Manage segment memberships from a contact record](manage-segments-from-contacts.md)
-#### [Combine segments into a compound segment](segments-compound.md)
 #### [Work with segment templates](segments-templates.md)
 #### [Market to Dynamics 365 segments on LinkedIn ](linkedin-matched-audience.md)
 #### [Use Customer Insights segments in Marketing](customer-insights-segments.md)
@@ -172,7 +175,6 @@
 
 ### Event planning and management
 #### [Event management overview](event-management.md)
-#### [Early access: Improved event management experience](event-forms.md)
 #### [Open the event management work area](open-events.md)
 #### [Set up an event](set-up-event.md)
 #### [Set up session-level registration and waitlisting](session-level-registration.md)
@@ -180,6 +182,7 @@
 #### [Create and manage recurring events](event-recurring.md)
 #### [Create and use event templates](event-templates.md)
 #### [Event management dashboard](event-management-dashboard.md)
+#### [Preview: Set up a Microsoft Teams webinar](teams-webinar.md)
 #### [Set up a webinar](set-up-webinar.md)
 #### [Manage event sponsorships](manage-event-sponsorships.md)
 #### [Manage attendee logistics and accommodation](manage-event-logistic.md)
@@ -193,12 +196,13 @@
 
 ### Engage contacts with portals and surveys
 #### [Create interactive features with or without portals](portals.md)
+#### [Integrate Forms Pro with Dynamics 365 Marketing](forms-pro.md)
 #### [Create and run online surveys](surveys.md)
 
 ### Marketing on social media
+#### [Early access: Schedule and post messages on social media](social-posting.md)
 #### [Marketing on LinkedIn with Dynamics 365](linkedin-overview.md)
 #### [LinkedIn Lead Gen integration](LinkedIn-Lead-Gen-integration.md)
-#### [Schedule and post messages on social media](social-posting.md)
 
 ### [Register link clicks and website visits](register-engagement.md)
 ### [Work with marketing calendars](marketing-calendar.md)

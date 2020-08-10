@@ -1,11 +1,9 @@
 ---
 title: "Add products to quotes, orders, or invoices (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Include details about the products that your customer is interested in purchasing in your quote, order, or invoice in Dynamics 365 Sales."
-ms.date: 10/01/2019
-ms.service: 
+ms.date: 06/15/2020
+ms.service:
   - "dynamics-365-sales"
-ms.custom: 
-  - "dyn365-sales"
 ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
@@ -36,7 +34,10 @@ The process for adding a product to a quote record is the same as adding a produ
           > - By default, the product lookup will show the most recently used products. The most recently used products are not filtered based on the selected price list. 
           > - If a price list is selected, and you select a product that isn’t associated with the price list, you'll see an error. Select a product that's associated with the selected price list.
 
-        - To create a product, select **Write-In**, and then enter the name of the product.
+        - To create a product, select **Write-In**, and then enter the name of the product. 
+          > [!NOTE]
+          > If the **Prices Locked** field is set to **Yes**, then you won't be able to add write-in products because prices of write-in products are considered as overridden. To be able to add write-in products, make sure that the **Price Locked** field is set to **No**. More information: [Lock or unlock the price for an order or invoice](lock-unlock-price-order-invoice.md), [Sales transactions in Dynamics 365 Sales](sales-transactions.md)  
+          
 
     2.	Fill in details in the **Pricing** section:
 
@@ -69,4 +70,4 @@ Here are the actions you can take on the products in the Products grid:
  [Create or edit a quote](../sales-enterprise/create-edit-quote-sales.md)  
  [Create or edit an order](../sales-enterprise/create-edit-order-sales.md)  
  [Create or edit an invoice](../sales-enterprise/create-edit-invoice-sales.md)  
-
+ [Price calculation for opportunity, quote, order, and invoice records](price-calculation-opportunity-quote-order-invoice-records.md)

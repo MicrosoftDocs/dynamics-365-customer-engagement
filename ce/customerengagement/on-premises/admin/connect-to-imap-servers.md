@@ -16,9 +16,7 @@ ms.author: jimholtz
 manager: kvivek
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Connect Customer Engagement (on-premises) to IMAP servers or SMTP servers
 

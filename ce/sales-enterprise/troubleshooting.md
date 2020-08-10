@@ -47,8 +47,10 @@ manager: annbe
 
 <h2>Products </h2>
 
-<li><a href="ts-products.md#reparenting_not_working" data-raw-source="[Re-parenting isn't working, or the Parent field isn't visible](ts-products.md#reparenting_not_working)">Re-parenting isn't working, or the Parent field isn't visible</a></li>
-
+<li><a href="ts-products.md#reparenting_not_working" data-raw-source="[Reparenting isn't working, or the Parent field isn't visible](ts-products.md#reparenting_not_working)">Re-parenting isn't working, or the Parent field isn't visible</a></li>
+<li><a href="ts-products.md#decimal-supported-not-honored" data-raw-source="[List Price, Standard Cost, or Current Cost fields don't honor Decimal Supported field precision value.](ts-products.md#decimal-supported-not-honored)">List Price, Standard Cost, or Current Cost fields don't honor Decimal Supported field precision value.</a></li>
+<li><a href="ts-products.md#decimal-value-not-accepted" data-raw-source="[I get an error when setting the Quantity field to a decimal value in the Order Product, Quote Product, Invoice Product records.](ts-products.md#decimal-value-not-accepted)">I get an error when setting the Quantity field to a decimal value in the Order Product, Quote Product, Invoice Product records.</a></li>
+<li><a href="ts-products.md#decimal-supported-value-error" data-raw-source="[I get an error while opening or saving a Product record when the Decimal Supported field has value > 2.](ts-products.md#decimal-supported-value-error)">I get an error while opening or saving a Product record when the Decimal Supported field has value > 2.</a></li>
 </td></tr>
 
 <tr><td>
@@ -67,6 +69,7 @@ manager: annbe
 <li><a href="ts-views.md#records_missing_in_views" data-raw-source="[I can't see some records in the entity views](ts-views.md#records_missing_in_views)">I can't see some records in the entity views</a></li>
 <li><a href="ts-views.md#missing-records" data-raw-source="[I can't see some records in opportunity, quote, order, or invoice subgrids](ts-views.md#missing-records)">I can't see some records in opportunity, quote, order, or invoice subgrids</a></li>
 <li><a href="ts-views.md#cannot_update_nested_bundle_items" data-raw-source="[I can't update nested bundle items on the Product tab ](ts-views.md#cannot_update_nested_bundle_items)">I can't update nested bundle items on the Product tab</a></li>
+<li><a href="ts-views.md#default-view-not-set" data-raw-source="[I can't see opportunity records in the legacy web client while I can see them in Unified Interface](ts-views.md#default-view-not-set)">I can't see opportunity records in the legacy web client while I can see them in Unified Interface</a></li>
 
 </td></tr>
 
@@ -89,26 +92,38 @@ manager: annbe
 
 </td></tr>
 
-<tr><td>
+<tr>
+<td>
+<h2>Currency and price list</h2>
+
+<li><a href="ts-currency-pricelist.md#update_currency_existing-oqoi" data-raw-source="[I can't update the currency or price list for an opportunity, quote, order, or invoice](ts-currency-pricelist.md#update_currency_existing-oqoi)">I can't update the currency or price list for an opportunity, quote, order, or invoice</a></li>
+
+</td>
+<td>
 
 <h2>Sales pipeline chart</h2>
 
 
 <li><a href="ts-sales-pipeline.md#different_sequence" data-raw-source="[I see multiple pipeline phases with different sequences, such as 6-Close and 7-Close](ts-sales-pipeline.md#different_sequence)">I see multiple pipeline phases with different sequences, such as 6-Close and 7-Close</a></li>
 <li><a href="ts-sales-pipeline.md#values_from_multiple_bpfs" data-raw-source="[I see pipeline phase values from multiple business process flow definitions](ts-sales-pipeline.md#values_from_multiple_bpfs)">I see pipeline phase values from multiple business process flow definitions</a></li>
-<li><a href="ts-sales-pipeline.md#different_ordering" data-raw-source="[The sales pipeline chart ordering is displayed differently in the Unified Interface vs. the legacy web client](ts-sales-pipeline.md#different_ordering)">The sales pipeline chart ordering is displayed differently in the Unified Interface vs. the legacy web client</a></li>
+<li><a href="ts-sales-pipeline.md#different_ordering" data-raw-source="[The sales pipeline chart ordering is displayed differently in Unified Interface vs. the legacy web client](ts-sales-pipeline.md#different_ordering)">The sales pipeline chart ordering is displayed differently in Unified Interface vs. the legacy web client</a></li>
 
-</td><td>
+</td>
+</tr>
+
+<tr>
+<td>
 
 <h2>Developer</h2>
 <li><a href="developer/custom-plugin-handling-shared-variable.md" data-raw-source="[Custom plug-in handling using shared variable](developer/custom-plugin-handling-shared-variable.md)">Price calculation service gets triggered upon retrieving details from OQOI entities</a></li>
 
 </td>
-</tr>
+<td>
+<h2>LinkedIn Integrations</h2>
+<li><a href="../linkedin/ts-linkedin-integration.md#error-in-enabling-linkedin-updates" data-raw-source="[Error in enabling LinkedIn updates](../linkedin/ts-linkedin-integration.md#error-in-enabling-linkedin-updates)">Error in enabling LinkedIn updates</a></li>
+<li><a href="../linkedin/ts-linkedin-integration.md#unable-to-upgrade-the-linkedinsalesnavigatorforunifiedclient-solution" data-raw-source="[Unable to upgrade the LinkedInSalesNavigatorForUnifiedClient solution](../linkedin/ts-linkedin-integration.md#unable-to-upgrade-the-linkedinsalesnavigatorforunifiedclient-solution)">Unable to upgrade the LinkedInSalesNavigatorForUnifiedClient solution</a></li>
 
-<tr><td>
-<h2>Integrations</h2>
-<li><a href="ts-linkedin-integration.md#error-in-enabling-linkedin-updates" data-raw-source="[Error in enabling LinkedIn updates](ts-linkedin-integration.md#error-in-enabling-linkedin-updates)">Error in enabling LinkedIn updates</a></li>
+Unable to upgrade the LinkedInSalesNavigatorForUnifiedClient solution
 </td></tr>
 
 </table>

@@ -1,7 +1,7 @@
 ---
 title: "Maximize email deliverability (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to design and send marketing email messages that avoid spam filters and get opened by customers in Dynamics 365 Marketing"
-ms.date: 04/07/2020
+ms.date: 06/18/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -45,9 +45,9 @@ Both spam filters and sender-reputation systems analyze the content of the messa
 
 ### Be mindful of the size of your HTML content
 
-You should limit the HTML content of email messages to a maximum size of 100KB. This size limit includes all HTML text, styles, comments, and embedded graphics (but not anchored external graphics). If the HTML content exceeds 128KB, you'll receive a size warning, but you can still go live with the email and any customer journey that includes the email.
+You should limit the HTML content of email messages to a maximum size of 100 KB. This size limit includes all HTML text, styles, comments, and embedded graphics (but not anchored external graphics). If the HTML content exceeds 128 KB, you'll receive a size warning, but you can still go live with the email and any customer journey that includes the email.
 
-The HTML size limit is important because email providers (such as Gmail) "clip" email messages that are above a certain size (102KB, in Gmail's case). Instead of including the full message in a recipient's inbox, the email provider will truncate the message and include a link to view the entire message. Additionally, some spam filters scrutinize more intensely when they see large emails.
+The HTML size limit is important because email providers (such as Gmail) "clip" email messages that are above a certain size (102 KB, in Gmail's case). Instead of including the full message in a recipient's inbox, the email provider will truncate the message and include a link to view the entire message. Additionally, some spam filters scrutinize more intensely when they see large emails.
 
 When you go live with a message, Marketing processes the HTML content to create inline styles, compress spaces, and more, so it can be hard to know the exact final size of the message. If you have a message that you suspect violates the HTML size limit, do the following:
 
@@ -150,6 +150,34 @@ Though there can be a few advantages to arranging for a dedicated sender IP, the
     The DKIM sender-authentication standard is essential for optimizing your marketing email deliverability. It's just as important when you're using a dedicated IP as when using a shared IP, and you set it up in exactly the same way. For complete details on why this is important and how to do it, see [Set up DKIM for your sending domain](#dkim).
 - **You concentrate risk on yourself and can pay a high price for any mistakes**  
     When you are the only one using your sending IP, any mistakes you make will affect your sender reputation directly, without being diluted by the large volume of compliant messages being sent by a large pool of other users.
+
+## Public IP addresses used for sending e-mails
+
+Dynamics 365 Marketing uses a set of dedicated IPv4 public network subnets for sending e-mails. All e-mails sent by Marketing are expected to depart from an IP address belonging to one of the subnets. The subnets are statically assigned to the Marketing platform, but they can potentially change at a future date as new subnets are introduced.
+
+> [!NOTE]
+> In rare cases (depending on your spam-filter provider) you may need to pre-approve our public IPs in your spam-filter.
+
+To ensure that you always have the correct IP addresses, you should refer to the [Azure IP Ranges and Service Tags](https://www.microsoft.com/download/details.aspx?id=56519) document. The document is in JSON format and lists all Azure tagged IP Ranges. The Service Tag under which the Marketing e-mail public IPs are listed is "Dynamics365ForMarketingEmail". The list of IP Ranges is under "addressPrefixes".
+
+The follow code snippet is an example section from the IP ranges document. The subnets are listed in this section of the JSON file:
+
+      "name": "Dynamics365ForMarketingEmail",
+      "id": "Dynamics365ForMarketingEmail",
+      "properties": {
+        "changeNumber": 1,
+        "region": "",
+        "platform": "Azure",
+        "systemService": "Dynamics365ForMarketingEmail",
+        "addressPrefixes": [
+          "x.x.x.x/25",
+          "x.x.x.x/25",
+          ...
+          "x.x.x.x/24",
+          "x.x.x.x/24"
+        ]
+      }
+    }
 
 ### See also
 

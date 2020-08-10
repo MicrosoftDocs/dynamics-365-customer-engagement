@@ -18,8 +18,7 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Display custom icons in list views
 
@@ -30,7 +29,7 @@ search.app:
  Administrators and customizers can add graphics to a view and establish the logic used to select a graphic based on the column value using JavaScript. The capability lets you customize list views that display icons alongside text or numerical values, such as in this **Rating** column in the **All Opportunities** view. 
 
 > [!div class="mx-imgBorder"] 
-> ![](media/icon-in-opportunity-view.png "All Opportunities view with Rating column displaying icons and text value")
+> ![All Opportunities view with Rating column displaying icons and text value](media/icon-in-opportunity-view.png "All Opportunities view with Rating column displaying icons and text value")
 
 Custom icons in list views can display in Unified Interface, classic web client, mobile app, and App for Outlook.
   

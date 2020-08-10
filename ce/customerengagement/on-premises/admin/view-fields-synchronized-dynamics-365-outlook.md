@@ -17,9 +17,7 @@ ms.author: jimholtz
 manager: brycho
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # View the fields that are synchronized between Customer Engagement (on-premises) and Outlook
 
@@ -50,10 +48,9 @@ In [!INCLUDE[pn_crm_2015_outlook](../includes/pn-crm-2015-outlook.md)] or later,
    [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] fields are displayed on the left and the corresponding Customer Engagement (on-premises) fields are displayed on the right. The blue arrows show the sync direction:  
 
 
-   |                                                                                                                                |                                                                                                                                                      |
-   |--------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-   |                                                       **This indicator**                                                       |                                                              **Shows that the fields**                                                               |
-   | ![One-way sync arrow (right) in Dynamics 365 for Customer Engagement](media/one-way-sync-arrow-right.png "One-way sync arrow (right) in Dynamics 365 for Customer Engagement") | Are synced one way from [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] to Customer Engagement (on-premises) |
+   | This indicator        | Shows that the fields      |
+   |------------|---------------|
+      | ![One-way sync arrow (right) in Dynamics 365 for Customer Engagement](media/one-way-sync-arrow-right.png "One-way sync arrow (right) in Dynamics 365 for Customer Engagement") | Are synced one way from [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] to Customer Engagement (on-premises) |
    |  ![One-way sync arrow (left) in Dynamics 365 for Customer Engagement](media/one-way-sync-arrow-left.png "One-way sync arrow (left) in Dynamics 365 for Customer Engagement")   | Are synced one way from Customer Engagement (on-premises) to [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] |
    |            ![Two-way sync arrow in Dynamics 365 for Customer Engagement](media/two-way-sync-arrow.png "Two-way sync arrow in Dynamics 365 for Customer Engagement")            |                                                                  Are synced two way                                                                  |
    |       ![No synchronization arrow for Dynamics 365 for Customer Engagement](media/no-sync-arrow.png "No synchronization arrow for Dynamics 365 for Customer Engagement")        |                                                                    Aren’t synced                                                                     |

@@ -2,7 +2,7 @@
 title: "Sample: Assign a record to a new owner (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to assign an account to another user by using the AssignRequest message"
 keywords: 
-ms.date: 01/08/2020
+ms.date: 07/22/2020
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
@@ -23,8 +23,7 @@ helpviewer_keywords:
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Sample: Assign a record to a new owner
@@ -53,6 +52,9 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 
 1. Checks for the current version of the org. 
 1. Creates required data that this sample requires.
+
+#### Privileges and access rights
+To run this sample, the caller must have the privileges on the specified entity and the access rights on the specified record. For example, if the caller only has Write or Assign privileges on the entity and tries to assign the record to another user, the request would fail.  The caller needs to have both the Write and Assign privileges on the entity in order to assign the record to another user.
 
 ### Demonstrate
 

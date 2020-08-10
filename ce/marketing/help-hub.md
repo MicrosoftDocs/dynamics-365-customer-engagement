@@ -2,7 +2,7 @@
 title: "Help resources for Dynamics 365 Marketing | Microsoft Docs"
 description: "A starting point for browsing help content for Dynamics 365 Marketing."
 keywords: marketing;help
-ms.date: 04/01/2018
+ms.date: 07/09/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -28,7 +28,6 @@ search.app:
 <tr><td>
 
 <h2>Administer the system</h2>
-<li><a href="readme.md" data-raw-source="[Readme)](readme.md)">Readme</a></li>
 <li><a href="trial-signup.md" data-raw-source="[Sign up for a free trial](trial-signup.md)">Sign up for a free trial</a></li>
 <li><a href="purchase-setup.md" data-raw-source="[Purchase and set up Dynamics 365 Marketing](purchase-setup.md)">Purchase and set up Dynamics 365 Marketing</a></li>
 <li><a href="manage-marketing-instances.md" data-raw-source="[Manage Marketing instances](manage-marketing-instances.md)">Manage Marketing instances</a></li>
@@ -43,6 +42,7 @@ search.app:
 <li><a href="customize.md" data-raw-source="[Customize Dynamics 365 Marketing](customize.md)">Customize Dynamics 365 Marketing</a></li>
 <li><a href="gdpr.md" data-raw-source="[Data protection and GDPR](gdpr.md)">Data protection and GDPR</a></li>
 <li><a href="setup-troubleshooting.md" data-raw-source="[Administration and setup FAQ](setup-troubleshooting.md)">Administration and setup FAQ</a></li>
+<li><a href="known-issues.md" data-raw-source="[Known issues and workarounds](known-issues.md)">Known issues and workarounds</a></li>
 
 </td><td>
 
