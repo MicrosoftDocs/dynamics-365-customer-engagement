@@ -20,9 +20,6 @@ Quickly configure and add a chat widget to your portal to chat with your website
 2. [Configure a chat widget](#step-2-configure-a-chat-widget)
 3. [Embed chat widget in portal](#step-3-embed-chat-widget-in-portal)
 
-> [!NOTE]
-> The chat widget requires cookies to function properly. Make sure to notify your customers to enable cookies in their browsers so that certain services, such as sessions and local storage, can work properly.
-
 ## Step 1: Create a live chat work stream
 
 1. In the Omnichannel site map, go to **Work Streams** and select **New** from the command bar.
@@ -46,6 +43,9 @@ Quickly configure and add a chat widget to your portal to chat with your website
     > ![Configure the basic details of a chat widget and copy code snippet of a chat widget](../media/chat-widget-snippet.png "Configure the basic details of a chat widget and copy code snippet of a chat widget")
 
 ## Step 3: Embed chat widget in portal
+
+> [!NOTE]
+> The chat widget requires cookies to function properly. Make sure to notify your customers to enable cookies in their browsers so that certain services, such as sessions and local storage, can work properly.
 
 1.	[Open the Portal Management app](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-portal).
 2.	Go to **Portal** > **Content Snippets**.
