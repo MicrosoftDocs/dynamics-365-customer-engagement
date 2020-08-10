@@ -4,7 +4,7 @@ description: "Instructions to configure a chat widget in Omnichannel for Custome
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 12/13/2019
+ms.date: 08/10/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -19,6 +19,9 @@ Quickly configure and add a chat widget to your portal to chat with your website
 1. [Create a live chat work stream](#step-1-create-a-live-chat-work-stream)
 2. [Configure a chat widget](#step-2-configure-a-chat-widget)
 3. [Embed chat widget in portal](#step-3-embed-chat-widget-in-portal)
+
+> [!NOTE]
+> The chat widget requires cookies to function properly. Make sure to notify your customers to enable cookies in their browsers so that certain services, such as sessions and local storage, can work properly.
 
 ## Step 1: Create a live chat work stream
 
