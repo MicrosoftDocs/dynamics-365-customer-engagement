@@ -4,7 +4,7 @@ description: "Learn about macros and how to configure in the Omnichannel Adminis
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/08/2020
+ms.date: 08/12/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -76,6 +76,7 @@ This action is used to open a new form to create a record. The action contains t
    | Entity form ID | Specify the form ID.<br> This is an optional field. |
    | Attribute Name | Specify the attribute logical name. You need to provide the attribute name to prepopulate the field with a value.| |
    | Attribute Value | Specify the attribute value. You need to provide the attribute value to prepopulate the attribute field. | |
+   |||
 
 #### Open an existing record
 
@@ -86,6 +87,7 @@ This action is used to open an existing record form. The action contains the fol
    | Entity logical name |  Specify the logical name of the entity that you want to open. <br> This is a mandatory field. | incident |
    | Entity record ID| Specify the entity record ID. <br>This is a mandatory field.| |
    | Entity form ID | Specify the form ID. <br>This is an optional field. | |
+   |||
 
 #### Open a record grid
 
@@ -96,6 +98,7 @@ This action is used to open a record grid. The action contains the following fie
    | Entity logical name |  Specify the logical name of the entity for which you want to open the grid. <br> This is a mandatory field. | incident |
    | View ID| Specify the ID of the view that you want to open.<br> This is a mandatory field. | |
    | View type | Specify the view type. <br>This is a mandatory field. | |
+   |||
 
 #### Search the knowledge base for the populated phrase
 
@@ -104,6 +107,7 @@ This action is used for searching knowledge articles based on the populated phra
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
    | Search string |  Provide the phrase based on which you want to search for knowledge articles. You can provide the context data. For example, the context data parameter can be a case title. |  |
+   ||
 
 #### Do a relevance search based on the phrase
 
@@ -112,6 +116,7 @@ This action is used for searching knowledge articles based on the populated phra
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
    | Search string |  Provide the phrase based on which you want to do a relevance search. You can provide the context data. For example, the context data parameter can be a case title. <br> This is a mandatory field.  |  |
+   ||
 
 #### Update an existing record
 
@@ -123,6 +128,7 @@ This action is used to update an existing record. The action contains the follow
    | Entity record ID| Specify the entity record ID. <br>This is a mandatory field.| |
    | Attribute Name | Specify the attribute logical name you want to update.| |
    | Attribute Value | Specify the attribute value that will be updated for the above-mentioned attribute. | |
+   |||
 
 #### Open an email form with predefined template
 
@@ -134,6 +140,7 @@ This action is used to open an email with a predefined template. The action cont
    | Entity record ID| Specify the entity record ID. <br>This is a mandatory field.| |
    | Email recipients | Specify the recipients to whom you want the mail to be sent. <br> This is a mandatory field. | |
    | Template ID | Specify the ID of the template that must displayed in the email. <br> This is a mandatory field. | |
+   |||
 
 #### Resolve a case
 
@@ -144,6 +151,7 @@ This action is used to resolve a case. The action contains the following fields.
    | Billable time |  Specify the time that is billable. <br> This is a mandatory field. | incident |
    | Incident ID| Specify the ID of the case that you want to close. <br>This is a mandatory field.| |
    | Resolution | Specify the reason to resolve the case. <br> This is a mandatory field. | |
+   |||
 
 #### Autofill form fields
 
@@ -152,6 +160,7 @@ This action is used for updating the form attribute (field). The action updates 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
    | Entity logical name | Specify the logical name of the entity that you want to update. <br> This is a mandatory field. | incident |
+   |||
 
 #### Clone current record
 
@@ -160,6 +169,7 @@ This action is used for cloning an existing record that is open in the current t
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
    | Record title | Specify the title of the record that you want to clone. <br> This is a mandatory field. | |
+   |||
 
 #### Open knowledge base article
 
@@ -168,6 +178,7 @@ This action is used to open the knowledge base article. The action contains the 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
    | Entity record ID  | Specify the entity ID of the knowledge base article that you want to open. <br> This is a mandatory field.|  |
+   |||
 
 #### Save the record
 
@@ -182,6 +193,7 @@ This action is used for cloning an existing record. The action only copies the f
    | Entity logical name | Specify the logical name of the entity that you want to clone. <br> This is a mandatory field. |
    | Entity record ID | Specify the ID of the entity record. <br> This is a mandatory field.|
    |Record title| Specify the record title.
+   |||
 
 ### Session connector
 
@@ -200,6 +212,7 @@ This action is used to open the specified application in a new tab with the attr
    | Application Template ID  | Specify the ID of the application template. <br> This is a mandatory field. |
    | Attribute Name | Specify the attribute logical name you want to update.| |
    | Attribute Value | Specify the attribute value that will be updated for the above-mentioned attribute. | |
+   |||
 
 #### Refresh the tab
 
@@ -208,6 +221,7 @@ This action is used to refresh a tab in the Omnichannel for Customer Service ses
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
    | Tab ID | Specify the ID of the tab that you want to refresh. <br> This is a mandatory field.| 
+   |||
 
 #### Focus on the tab
 
@@ -216,6 +230,7 @@ This action is used to focus on a tab in the Omnichannel for Customer Service se
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
    | Tab ID | Specify the ID of the tab that you want to give focus to. <br> This is a mandatory field.|
+   |||
 
 #### Get the current tab
 
@@ -235,6 +250,7 @@ This action is used to paste a knowledge base article in the conversation chat w
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
    | Entity record ID  | Specify the ID of the entity record. <br> This is a mandatory field. |
+   |||
 
 #### Link record to the conversation
 
@@ -245,6 +261,7 @@ This action is used to link a record to the conversation when the customer is co
    | Entity Logical Name |  Specify the logical name of the entity that you want to link. <br> This is a mandatory field. | incident |
    | Entity record id| Specify the entity record ID of the entity that you want to link. <br>This is a mandatory field.| |
    | Entity primary Name | Specify the primary name of the entity that you want to link. <br>This is a mandatory field.| |
+   |||
 
 #### Unlink record from the conversation
 
@@ -255,6 +272,7 @@ This action is used to unlink a record from the conversation when the customer i
    | Entity Logical Name |  Specify the logical name of the entity that you want to unlink. <br> This is a mandatory field. | incident |
    | Entity record id| Specify the entity record ID of the entity that you want to unlink. <br>This is a mandatory field.| |
    | Entity primary Name | Specify the primary name of the entity that you want to unlink. <br>This is a mandatory field.| |
+   |||
 
 ## Built-in
 
@@ -294,6 +312,7 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
     |-------------|-----------------------------------|------------------------------------|
     | Name | Provide a name to the macro. The name is displayed to the agent at runtime. | Create case |
     | Description | Describe the purpose of the macro. The description is displayed to the agent at runtime. | This macro action is used to create a case. |
+    |||
 
 5. Select **Start macro execution**, and then select **New step**.
 
@@ -320,6 +339,7 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
     | Update an existing record | Update record |
     | Open an email form with predefined template | Open email |
     | Resolve a case | Resolve case |
+    |||
 
    > [!div class=mx-imgBorder] 
    > ![Macro actions](../media/macro-actions.png "Macro actions")    
@@ -333,6 +353,7 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
     | Refresh the application tab | Refresh tab |
     | Focus on a particular application tab from another application tab| Focus tab |
     | Get the details of the current application tab | Get current tab |
+    |||
 
    > [!div class=mx-imgBorder] 
    > ![Macro actions](../media/macro-session-connector.png "Macro actions")    
@@ -345,6 +366,7 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
     |-----------------------------|---------------------------------------------|
     | Link a record to the conversation while interacting with the customer | Link record to the conversation |
     | Unlink a record from the conversation while interacting with the customer | Unlink record from the conversation |
+    |||
 
    > [!div class=mx-imgBorder] 
    > ![Macro actions](../media/macro-omnichannel-connector.png "Macro actions") 
@@ -407,4 +429,4 @@ As an administrator, you can view the macro run history, which shows how many ti
 
 [Use automation dictionary to pass data parameters keys](automation-dictionary-keys.md)  
 [Agent scripts](agent-scripts.md)  
-[Smart Assist](smart-assist.md)
+[Smart Assist](smart-assist.md)  
