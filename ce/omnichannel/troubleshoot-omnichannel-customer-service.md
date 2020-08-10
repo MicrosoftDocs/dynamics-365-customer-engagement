@@ -4,7 +4,7 @@ description: "Learn how to troubleshoot the issues you may face while working on
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/16/2020
+ms.date: 08/10/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -224,6 +224,9 @@ Open Chat Settings, navigate to Design tab and change **Logo** field and use an 
 4. Select the **Design** tab.
 5. Specify the URL of the icon you want to use in the **Logo** field.
 6. Select **Save** to save the record.
+
+[!Note]
+The chat widget requires cookies to function properly. Make sure to notify your customers to enable cookies in their browsers so that certain services, such as sessions and local storage, can work properly.
 
 ## Chat not getting initiated on starting a new chat from portal
 
