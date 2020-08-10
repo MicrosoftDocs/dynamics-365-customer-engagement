@@ -225,9 +225,6 @@ Open Chat Settings, navigate to Design tab and change **Logo** field and use an 
 5. Specify the URL of the icon you want to use in the **Logo** field.
 6. Select **Save** to save the record.
 
-[!Note]
-The chat widget requires cookies to function properly. Make sure to notify your customers to enable cookies in their browsers so that certain services, such as sessions and local storage, can work properly.
-
 ## Chat not getting initiated on starting a new chat from portal
 
 ### Issue
@@ -286,6 +283,9 @@ To delete and add **Widget location** for the chat widget, follow these steps:
    | Value | The website domain where the chat widget must be displayed. The domain format should not include the protocol (http or https). For example, the website is  `https://contoso.microsoftcrmportals.com`. Now, the value is  `contoso.microsoftcrmportals.com`. | 
 10. Select **Save** to save the record.
 11. Go to the website and check if the chat widget loads.
+
+[!Note]
+The chat widget requires cookies to function properly. Make sure you have cookies enabled in your browser so that certain services, such as sessions and local storage, can work properly.
 
 ## Dashboards do not appear in Omnichannel for Customer Service active dashboards view
 
