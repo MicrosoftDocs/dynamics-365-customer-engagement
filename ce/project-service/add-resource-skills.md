@@ -1,5 +1,5 @@
 ---
-title: Add resource skills 
+title: Add resource skills
 description: How to associate skills with resources in Project Service
 author: JohnPBurrows
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 # Add resource skills (Project Service)
 

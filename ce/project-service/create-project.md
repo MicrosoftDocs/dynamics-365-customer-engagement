@@ -1,5 +1,5 @@
 ---
-title: Create a project 
+title: Create a project
 description: How to create a project in Project Service
 author: ruhercul
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 # Create a project (Project Service)
 

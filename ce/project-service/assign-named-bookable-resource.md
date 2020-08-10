@@ -1,5 +1,5 @@
 ---
-title: Book named bookable resources to a project team and assign tasks 
+title: Book named bookable resources to a project team and assign tasks
 description: This topic provides information about booking named resources to project teams and assigning them to tasks.
 author: JohnPBurrows
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 # Book named bookable resources to a project team and assign tasks 
 
