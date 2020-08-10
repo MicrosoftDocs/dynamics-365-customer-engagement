@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 08/03/2020
+ms.date: 08/07/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -32,7 +32,7 @@ Marketing updates are [pushed to all customers automatically](https://cloudblogs
 
 ## August 2020 update
 
-The August update includes a preview of built in Teams functionality for events, email designer enhancements, and 33 bug fixes, improving reliability and stability. The early access release includes [2020 release wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/planned-features) features, including improved social posting and email designer improvements.
+The August update includes a preview of built-in Teams functionality for events, email designer enhancements, and 33 bug fixes, improving reliability and stability. The early access release includes [2020 release wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/planned-features) features, including improved social posting and email designer improvements.
 
 ### Version number
 
@@ -75,7 +75,50 @@ The August update includes a preview of built in Teams functionality for events,
 - **Marketing emails**
     - Adding event, survey, marketing page, and Teams buttons to emails is easier with improved drag and drop functionality, enhanced appearance, and easily editable text.
     - Placeholders for images, videos, and content blocks now have a more consistent appearance and uniform icons.
-    - Add up to ten columns with improved custom column configuration controls.
+    - Add up to 10 columns with improved custom column configuration controls.
+
+### Bug fixes
+
+- **Customer journeys**
+    - Fixed an error where the customer journeys scheduler occasionally did not parse live updates properly.
+- **Event management**
+    - Fixed a stability error related to an event handler malfunction.
+    - Resolved an issue where check-ins occasionally did not record properly for session registration.
+    - You can no longer select the same building for simultaneous events.
+- **Marketing emails**
+    - Resolved an issue in Outlook where two or three-column email layouts sometimes did not display content or background images correctly.
+    - Resolved an issue in Outlook where a double border appeared when a solid border was selected in the email designer.
+    - Fixed an error where column widths sometimes rendered inconsistently in Outlook.
+    - Resolved an issue where QR code and custom tile setting were sometimes removed after refreshing the email designer.
+    - Fixed an error in the email designer that resulted from putting "0" as the min-height for columns.
+    - Resolved an issue where padding at the top of an image did not render correctly in Outlook 2016.
+    - Fixed an error where two-column layouts did not render properly in Outlook when background images were used.
+    - Resolved an error where background images did not scale properly in Outlook 2019 when using a 120 DPI setting.
+    - Resolved a rare issue where custom code added to marketing emails sometimes vanished.
+    - Fixed an error where video thumbnails in emails were not scaled properly on some mobile devices.
+    - Fixed an error where defined image sizes rendered inconsistently in Outlook.
+    - Resolved an issue where padding after a content block sometimes rendered incorrectly in Outlook.
+    - Improved column min. height rendering in Outlook.
+- **Marketing pages**
+    - Fixed an issue where a CSS error displayed a two-column layout as a single column.
+    - Updated forms and tracked content do not allow IP lists.
+    - Improved marketing form responsiveness.
+    - Resolved an issue where a privacy banner would occasionally block a text content block in the preview view.
+    - Resolved an issue where a privacy banner would occasionally block a text content block in the live view.
+    - Resolved an error where the background color of a column disappeared after deleting one column from a three-column layout.
+    - Fixed an error that occasionally resulted in inconsistent rendering of the shipping address form and subscription form when used in page template "Product Page 2."
+    - Enabled the use of metadata size limits on marketing pages to override the hardcoded marketing page side validation limit of 64 K.
+    - Updated incorrect error messages when prefill is enabled.
+    - Resolved an error where users with only system admin roles could not go live on forms with custom registration fields.
+    - Updated form capture components.
+    - Improved the reliability of subscription tracking for marketing lists.
+- **Segmentation**
+    - Resolved an issue where a segment did not recover to a healthy state after a subsegment failure, even after the subsegment was repaired.
+- **Shared UX**
+    - Improved Element List compatibility with the NVDA tool.
+    - Fixed a loading error that sometimes occurred when switching the Template Gallery to the grid layout then selecting a record.
+- **Social posting**
+    - Improved the UI on the calendar to create separation between adjacent items.
 
 ## July 2020 update
 
