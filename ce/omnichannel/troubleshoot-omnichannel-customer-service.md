@@ -284,8 +284,8 @@ To delete and add **Widget location** for the chat widget, follow these steps:
 10. Select **Save** to save the record.
 11. Go to the website and check if the chat widget loads.
 
-[!Note]
-The chat widget requires cookies to function properly. Make sure you have cookies enabled in your browser so that certain services, such as sessions and local storage, can work properly.
+> [!Note]
+> The chat widget requires cookies to function properly. Make sure you have cookies enabled in your browser so that certain services, such as sessions and local storage, can work properly.
 
 ## Dashboards do not appear in Omnichannel for Customer Service active dashboards view
 
