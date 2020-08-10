@@ -1,5 +1,5 @@
 ---
-title: Add resources 
+title: Add resources
 description: How to add resources in Project Service
 author: JohnPBurrows
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 # Add resources (Project Service)
 

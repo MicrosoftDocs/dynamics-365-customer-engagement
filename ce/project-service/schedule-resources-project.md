@@ -1,5 +1,5 @@
 ---
-title: Schedule resources for a project 
+title: Schedule resources for a project
 description: How to schedule resources for a project in Project Service
 author: JohnPBurrows
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 # Schedule resources for a project (Project Service)
 

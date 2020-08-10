@@ -1,5 +1,5 @@
 ---
-title: Collaborate with your project team members with Office 365 Groups 
+title: Collaborate with your project team members with Office 365 Groups
 description: How to collaborate with your Project Service team members through Office 365 Groups
 author: JohnPBurrows
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 # Collaborate with your project team members with Office 365 Groups (Project Service)
 

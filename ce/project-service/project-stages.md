@@ -1,5 +1,5 @@
 ---
-title: Project stages 
+title: Project stages
 description: This topic provides information about project stages.
 author: ruhercul
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 
 # Project stages 
