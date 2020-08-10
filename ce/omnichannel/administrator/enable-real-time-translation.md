@@ -4,7 +4,7 @@ description: "Steps for enabling language translation for customer chats in the 
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/03/2020
+ms.date: 08/10/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
