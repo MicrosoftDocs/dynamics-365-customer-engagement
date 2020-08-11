@@ -337,9 +337,9 @@ Field Service and Universal Resource Scheduling come with default requirement vi
 
 ## Additional notes
 
-Some of the extensible Schedule Board settings are only available on the Hourly view mode, but not on the Daily, Weekly and Monthly view modes of the schedule board. Here are the configuration settings that are only available in the Hourly view mode. 
+Some of the extensible schedule board settings are only available on the hourly view, and not on the daily, weekly, and monthly views. The following configuration settings are only available in the hourly view: 
 
-1. Non-Working Hours color.
-2. Booking Details view.
-3. Booking Tooltips view.
-4. Booking Template.
+- Non-working hours color.
+- Booking details view.
+- Booking tooltips view.
+- Booking template.
