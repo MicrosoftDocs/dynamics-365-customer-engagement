@@ -4,7 +4,7 @@ description: "Instructions to configure a chat channel in Omnichannel for Custom
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 08/10/2020
+ms.date: 08/11/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -25,7 +25,7 @@ In this section, you will learn how to:
 - [Embed chat widget in Power Apps portals](embed-chat-widget-portal.md)
 
 > [!NOTE]
-> The chat widget requires cookies to function properly. Make sure to notify your customers to enable cookies in their browsers so that certain services, such as sessions and local storage, can work properly.
+> The chat widget requires session storage and local storage to be functional in your customers’ browsers. Make sure to notify your customers to enable cookies in their browsers so these services can work properly.
 
 ## Disclaimer
 
