@@ -15,7 +15,7 @@ manager: shujoshi
 ## FAQs on migration tool for automatic record creation rules and service level agreements
 
 1. **Who can access or run the migration tool?** <br />
-    Currently, only admininistrators can run the migration tool. 
+    Currently, only administrators can run the migration tool. 
 
 2. **Are migrated rules automatically activated post-migration?**<br />
     No. You must manually activate the migrated rules when migration is complete.
@@ -52,6 +52,7 @@ manager: shujoshi
 <ol>- For incomplete/failed migration rules: Reselect the same rule when you rerun the migration tool. It automatically replaces the existing failed/incomplete rule with the newly migrated one.<br /> - For successfully migrated rules: Delete the migrated rule in the Unified Client Interface (UCI) version before rerunning migration tool.</ol>
 
 #### Known condition conversions issues
+
 The following are key scenarios where rules/items will not successfully complete migration:
 
 11.	**If my rule items/conditions have related entities inside nested group clause (and/or), will they be migrated to the Unified Client Interface (UCI)?**<br />
@@ -136,5 +137,5 @@ The following are key scenarios where rules/items will not successfully complete
 **b. UCI View:** In Flow, the Customer field will only have: **Regarding(Email)** regardless of whether it is null or not. 
 <br />
 > [!Important] 
-> If you are still experiencing issues pertaining to the migration tool, please contact your admininstrator or Microsoft support.
+> If you are still experiencing issues pertaining to the migration tool, contact your administrator or Microsoft support.
 

@@ -129,7 +129,7 @@ The Advanced section covers settings that span across an activity, note, or post
 ![Advanced settings in Timeline properties](media\timeline-properties-advanced-section-config.png "Advanced settings in Timeline properties")
 
 
-- **Quick entry record type**: Select the record type that you want to enable for quick create. For example, if Notes is selected in the drop-down list, users will see an option to quicly create a note from the timeline. When you select this option, 
+- **Quick entry record type**: Select the record type that you want to enable for quick create. For example, if Notes is selected in the drop-down list, users will see an option to quickly create a note from the timeline. When you select this option, 
 
   | Configuration | Runtime | 
   | ------------------ | ------------ | 
