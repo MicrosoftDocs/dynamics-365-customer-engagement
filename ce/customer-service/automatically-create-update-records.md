@@ -114,7 +114,7 @@ On the **Advanced** tab of the **Record creation and update rule** page for a ru
      - **Creating a new contact automatically:** Specify if you want a contact to be created automatically.
      - **Mapping in Power Automate manually:** Specify if you want to evaluate and set up the resolution for the contact in Power Automate.
         > [!IMPORTANT]
-        > If you select to map the contact manually, make sure that you create a mapping in Power Automate for the customer field. More information: [Configure in Power Automate to manually map a contact](#configure-in-power-automate)
+        > If you select to map the contact manually, make sure that you create a mapping in Power Automate for the customer field. More information: [Manually map a contact in Power Automate](#configure-in-power-automate)
    - **Require a valid entitlement on the connected case:** If you select **Yes**, the Common Data Service platform creates a case only if an active entitlement exists for the customer.
 
         If the sender of the email is a contact with a parent account, the Common Data Service platform creates a record if the contact’s parent account has a valid entitlement, and the contact is listed in the **Contacts** section of the entitlement or if the **Contacts** section is empty (which means the entitlement is applicable to all contacts for the customer).
@@ -183,7 +183,7 @@ The following details are available for the rules:
 
  You can create or manage an automatic record creation and update rule from a queue form. To learn more, see [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a queue](set-up-queues-manage-activities-cases.md)
 
-## Configure in Power Automate to manually map contact<a name="configure-in-power-automate"></a>
+## Manually map a contact in Power Automate<a name="configure-in-power-automate"></a>
 
 Perform the following steps in Power Automate to manually map unknown email senders:
 
