@@ -4,7 +4,7 @@ description: Know how to automatically create or update records by setting up ru
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/07/2020
+ms.date: 08/11/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -114,7 +114,7 @@ On the **Advanced** tab of the **Record creation and update rule** page for a ru
      - **Creating a new contact automatically:** Specify if you want a contact to be created automatically.
      - **Mapping in Power Automate manually:** Specify if you want to evaluate and set up the resolution for the contact in Power Automate.
         > [!IMPORTANT]
-        > If you select to map the contact manually, make sure that you create a mapping in Power Automate for the customer field.
+        > If you select to map the contact manually, make sure that you create a mapping in Power Automate for the customer field. More information: [Configure in Power Automate to manually map a contact](#configure-in-power-automate)
    - **Require a valid entitlement on the connected case:** If you select **Yes**, the Common Data Service platform creates a case only if an active entitlement exists for the customer.
 
         If the sender of the email is a contact with a parent account, the Common Data Service platform creates a record if the contact’s parent account has a valid entitlement, and the contact is listed in the **Contacts** section of the entitlement or if the **Contacts** section is empty (which means the entitlement is applicable to all contacts for the customer).
@@ -134,7 +134,7 @@ On the **Advanced** tab of the **Record creation and update rule** page for a ru
 
 The rules are run in the order they are listed in the rule items list. If the incoming activity matches the condition specified in the rule item one, the case is created and the rest of the rule items are not evaluated. If more than one rule item exists for a rule, you can reorder the rule items.
 
-## Use activity monitor to review and track the rules
+## Use activity monitor to review and track rules
 
 [!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -145,22 +145,30 @@ You can review and track the health of the automatic record creation rules and r
 
 The following details are available for the rules:
 
-- **Current state:** Displays the state, such as failed, skipped, or ready for Power Automate.
+- **Current state:** Displays the state, such as, Failed, Skipped, or Ready for Power Automate.
 - **Rule name:** Name of the record creation rule.
 - **Monitored activity type:** Activity type, such as email, task, or appointment.
 - **Monitored activity item:** Displays the subject of the activity type.
 - **Condition name:** The name of the condition in which the issue occurred.
-- **Reason:** Displays information on the issue that caused the rule to fail.
+- **Reason:** Displays information on how the rule was handled. For example, if the value in Current state for a rule is Skipped, no action would have been taken because the rule condition, such as **Allow email from unknown senders** was set to No. Therefore, no further action was required for the rule.
 - **Evaluated on:** Displays the date and time of the issue.
 
 1. On the **Record creation and update rules** page, select **View activity monitor** on the command bar. The **Activity monitor for record creation and update rules** page displays the list of rules with their statuses.
-2. Use the filter option to narrow the view to list rules, such as rules that have failed.
+2. Use the Advanced filters option to narrow down the view to list rules, such as list only those rules that match a specified condition.
 3. Double-click a rule or activity to view the activity monitoring summary that is displayed on the **Activity monitor** *<rule_name>* page.
   
     > [!NOTE]
-
+    >
     > - Use the browser navigation option to go back to the previous page.
     > - If you navigate to an active rule from the activity monitor page, a message appears stating that the rule is active and therefore is read-only.
+    > - The legacy rules will also be monitored and listed on the activity monitor view.
+
+4. Perform the following steps to select the states you want to monitor:
+   1. Select the **Monitor options** on the command bar.
+   2. Select any or all the following states:
+      - Ready for Power Automate / workflow
+      - Failed
+      - Skipped
 
 ## How do record creation and update rules work with queues
 
@@ -174,6 +182,18 @@ The following details are available for the rules:
 ## Manage automatic record creation and update from a queue form
 
  You can create or manage an automatic record creation and update rule from a queue form. To learn more, see [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a queue](set-up-queues-manage-activities-cases.md)
+
+## Configure in Power Automate to manually map contact<a name="configure-in-power-automate"></a>
+
+Perform the following steps in Power Automate to manually map unknown email senders:
+
+1. Edit the rule in which you want to configure the manual mapping of contact.
+2. On the **Condition builder** tab, select **Save and open Power Automate**. The Power Automate workflow opens on a new tab.
+3. In the **Create a record (don't rename this step)** step of the workflow, specify the required value in the **Customer (Contacts)** box.
+4. Save and close.
+   
+   > [!div class=mx-imgBorder]
+   > ![Configure manual mapping for creating contact](media/arc-manual-power-automate.png " Configure manual mapping for creating contact")
 
 ### See also
 
