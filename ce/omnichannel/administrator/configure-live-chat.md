@@ -4,7 +4,7 @@ description: "Instructions to configure a chat widget in Omnichannel for Custome
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 08/04/2020
+ms.date: 08/11/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -43,6 +43,11 @@ Quickly configure and add a chat widget to your portal to chat with your website
     > ![Configure the basic details of a chat widget and copy code snippet of a chat widget](../media/chat-widget-snippet.png "Configure the basic details of a chat widget and copy code snippet of a chat widget")
 
 ## Step 3: Embed chat widget in portal
+
+
+> [!NOTE]
+> The chat widget requires session storage and local storage to be functional in your customers’ browsers. Make sure to notify your customers to enable cookies in their browsers so these services can work properly.
+
 
 Follow these steps to embed your chat widget into a Power Apps portal. For steps to embed your chat widget into your website, see [Embed chat widget in your website or Power Apps portal](embed-chat-widget-portal.md). For steps to embed your chat widget into mobile experiences, see [Render a live chat widget on the mobile app](../developer/how-to/render-live-chat-widget-mobile.md).
 
