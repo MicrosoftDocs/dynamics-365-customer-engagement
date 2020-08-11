@@ -136,7 +136,7 @@ The rules are run in the order they are listed in the rule items list. If the in
 
 ## Use activity monitor to review and track rules
 
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-early-access](../includes/cc-early-access.md)]
 
 You can review and track the health of the automatic record creation rules and resolve issues around them. By default, the activity monitor captures failed events. You can customize the events that you want to monitor by using the monitor options in the application.
 
@@ -164,7 +164,7 @@ The following details are available for the rules:
     > - The legacy rules will also be monitored and listed on the activity monitor view.
 
 4. Perform the following steps to select the states you want to monitor:
-   1. Select the **Monitor options** on the command bar.
+   1. Select **Monitor options** on the command bar. The **Monitor options** dialog box appears.
    2. Select any or all the following states:
       - Ready for Power Automate / workflow
       - Failed

@@ -1,5 +1,5 @@
 ---
-title: Migrate Automatic Record Creation (ARC) and Service Level Agreements (SLAs) rules.
+title: Migrate automatic record creation rules and service-level agreements | MicrosoftDocs
 author: lerobbin
 ms.author: lerobbin
 manager: shujoshi
@@ -17,11 +17,11 @@ search.app:
   - D365CS
 ---
 
-# Preview: Migrate Automatic Record Creation (ARC) and Service Level Agreements (SLAs)
+# Preview: Migrate automatic record creation rules and service-level agreements
 
 [!include[cc-early-access](../includes/cc-early-access.md)]
 
-The Dynamics 365 Customer Service Hub app has several features and functionalities that replace the rules in the legacy Customer Service app. The rules for Automatic Record Creation (ARC) and Service Level Agreements (SLAs) are now supported by Power Automate-based flows to make the transition to the new platform easier to manage.
+The Dynamics 365 Customer Service Hub app has several features and functionalities that replace the rules in the legacy Customer Service app. The automatic record creation rules and service-level agreements (SLAs) are now supported by Power Automate-based flows to make the transition to the new platform easier to manage.
 
 The following topic provides an overview on the migration tool that allows legacy rules for ARC and SLAs to be transferred to the Customer Service Hub app for easier access.
 
@@ -37,12 +37,13 @@ The migration tool provides the following functionality:
 
 ## Prerequisites
 
-- Customer Service licensing 
-- ARC must have a Customer Service version of 9.0.20034.20XX or higher environment to opt in for migration
-- SLA must have a Customer Service version of 9.0.20053.1030 or higher enironment to opt in for migration
-- Administrator permissions 
+- Customer Service license.
+- For migrating automatic record creation rules, your environment must have Customer Service version 9.0.20034.20XX or later to opt in for migration.
+- For migrating SLAs, your environment must have Customer Service version 9.0.20053.1030 or later to opt in for migration.
+- Administrator permissions.
 
-### Working with rules 
+### Working with rules
+
 Before you run the migration tool, it is important to understand how the modern ARC and SLA rules work in the Customer Service Hub app.
 
 When you perform your migration, you will only receive detailed results on rules that have failed the pre-migration checkup or creation, or those that were partially migrated (incomplete).  
@@ -108,8 +109,8 @@ When you have successfully accessed the migration tool, choose from one of the f
 
 ## Migration tool for first-time users
 
-The migration landing page shown below is what will display for first-time users and provides the following: 
-1.	An overview of both ARC and SLAs rules.
+The migration landing page shown is what will be displayed for first-time users and provides the following: 
+1.	An overview of the automatic record creation rules and SLAs.
 2.	**Total** - Displays the number of legacy rules available overall.
 3.	**Migrated** - Displays the number of rules you have migrated.
 4.	**Pending** - Displays the number of rules you have pending migration (includes failed rules, partially or incomplete migrated rules, and rules that have not been attempted).
@@ -119,7 +120,7 @@ The migration landing page shown below is what will display for first-time users
 
 > ![Migration tool first-time user overview](media\migration-tool-first-time-users-1.png  "Migration tool first-time user overview")
 
-When you select **Start migration**, the migration tool takes you through the migration process, which consists of the following steps: 
+When you select **Start migration**, the migration tool takes you through the migration process, which consists of the following steps:
 
 **Step 1:** [Category to migrate](migrate-automatic-record-creation-and-sla-agreements.md#step-2-pre-migration-checkup)  <br>
 **Step 2:** [Pre-migration checkup](migrate-automatic-record-creation-and-sla-agreements.md#step-1-category-to-migrate) <br>
@@ -148,7 +149,7 @@ The **Step 1** screen provides:
 
 The **Step 2** screen provides a pre-migration check that displays what the actual migration results will look like so you can mitigate potential migration failures before you begin.  
 
-The **Pre-migration checkup** can be performed on ARC or SLA or both depending on your selection from the previous screen.       
+The **Pre-migration checkup** can be performed on ARC or SLA or both depending on your selection from the previous screen.
 
 As a first-time user, you won't have any insights until you complete the Pre-migration Checkup. When the Pre-migration Checkup is complete, the following overview is displayed and shows:
 
