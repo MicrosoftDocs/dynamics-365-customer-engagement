@@ -15,7 +15,7 @@ ms.topic: article
 
 ## Syntax
 
-`Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat(notificationUIConfig: notificationUIConfigObject, showPrechat, inNewWindow: inNewWindowValue);`
+`Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat(notificationUIConfig: notificationUIConfigObject, showPrechat, { inNewWindow: inNewWindowValue });`
 
 ## Parameters
 
@@ -23,7 +23,7 @@ ms.topic: article
 | ---- | ---- | ---- | ---- |
 |`notificationUIConfig`| Object | Yes | Allows you to pass UI configurations for proactive chat notification. This object lets you customize the notification, including the message to be displayed. |
 |`showPrechat`| Boolean | No | Boolean flag to indicate whether prechat is shown if configured for the widget. The default value is `true`. |
-|`inNewWindow`|Boolean|No|Decides whether to open the chat in a new window.|
+|`inNewWindow`|Object|No|Decides whether to open the chat in a new window.|
 
 > [!IMPORTANT]
 > If no message is provided in `notificationUIConfig` object, then the default message, that is, `Hi! Have any questions? I'm here to help` gets displayed.
@@ -36,11 +36,13 @@ None
 
 ```JavaScript
 window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
-               Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat({    
+               Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat(    
                     notificationUIConfig: {message: "Hi! How are you doing today? Do you wish to start a chat?"},
                     true,
-                    inNewWindow: true
-            });
+                    {
+                            inNewWindow: true
+                    }
+            );
 });
 ```
 ## See also
