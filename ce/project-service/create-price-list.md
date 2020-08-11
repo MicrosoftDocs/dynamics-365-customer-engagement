@@ -1,5 +1,5 @@
 ---
-title: Create a price list 
+title: Create a price list
 description: How to create a price list in Project Service
 author: rumant
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 # Create a price list (Project Service)
 

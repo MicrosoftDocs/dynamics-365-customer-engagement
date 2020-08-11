@@ -1,16 +1,14 @@
 ---
-
-title: How do I assign a bookable resource to a task in the web app 
+title: How do I assign a bookable resource to a task in the web app
 description: An overview of the ways you can assign bookable resources.
-author: JohnPBurrows 
+author: JohnPBurrows
 manager: kfend
 ms.service: dynamics-365-customerservice
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
 ms.date: 8/21/2018
 ms.topic: article
 ms.prod: 
-ms.service: business-applications
 ms.technology: Dynamics 365 Project Service Automation 2.x on platform version 9.x
 ms.author: john.burrows
 audience: Admin
@@ -21,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 
 

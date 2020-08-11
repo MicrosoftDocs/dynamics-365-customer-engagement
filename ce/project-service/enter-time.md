@@ -1,5 +1,5 @@
 ---
-title: Enter time 
+title: Enter time
 description: How to enter time in Project Service
 author: revathimuthiah
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 # Enter time (Project Service)
 

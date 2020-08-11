@@ -1,5 +1,5 @@
 ---
-title:  Project templates 
+title: Project templates
 description: This topic provides information about how to use project templates for quick project setup.
 author: ruhercul
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 
 # Project templates 

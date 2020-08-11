@@ -1,5 +1,5 @@
 ---
-title: Add documents to a project 
+title: Add documents to a project
 description: Steps to add a document to a project in Project Service
 author: ruhercul
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 
 # Add documents to a project (Project Service)

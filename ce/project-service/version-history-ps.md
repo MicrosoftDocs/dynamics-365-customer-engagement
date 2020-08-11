@@ -5,24 +5,25 @@ ms.date: 08/10/2020
 ms.reviewer: kfend
 ms.service: dynamics-365-projectservice
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "project-service"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-applies_to:
+applies_to: 
   - "Dynamics 365 Project Service"
 author: kfend
 ms.assetid: 
 caps.latest.revision: 42
 ms.author: rumant
 manager: annbe
-search.audienceType:
+search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app:
+search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 
 # Update release schedule for Project Service 3.x
