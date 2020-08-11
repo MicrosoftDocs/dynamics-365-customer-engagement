@@ -1,6 +1,5 @@
 ---
-
-title: Project pricing 
+title: Project pricing
 description: This topic provides information about how pricing works in Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
@@ -20,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 
 # Project pricing 

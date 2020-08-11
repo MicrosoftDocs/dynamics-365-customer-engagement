@@ -1,5 +1,5 @@
 ---
-title: View and edit project estimates 
+title: View and edit project estimates
 description: How to view and edit project estimates in Project Service
 author: rumant
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 # View and edit project estimates (Project Service)
 

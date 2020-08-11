@@ -1,5 +1,5 @@
 ---
-title: Create a project quote 
+title: Create a project quote
 description: How to create a project quote in Project Service
 author: ruhercul
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 # Create a project quote (Project Service)
 

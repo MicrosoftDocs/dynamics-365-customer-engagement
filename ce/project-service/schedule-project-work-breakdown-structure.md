@@ -1,5 +1,5 @@
 ---
-title: Schedule a project with a work breakdown structure 
+title: Schedule a project with a work breakdown structure
 description: How to schedule a project with a work breakdown structure in Project Service
 author: ruhercul
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 # Schedule a project with a work breakdown structure (Project Service)
 
