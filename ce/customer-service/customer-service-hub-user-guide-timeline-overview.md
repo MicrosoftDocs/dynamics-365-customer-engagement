@@ -12,6 +12,8 @@ manager: shujoshi
 
 # Use Timeline
 
+[!include[cc-early-access](../includes/cc-early-access.md)]
+
 Timeline is a control that allows you to view different activity types that are connected to an entity record and occur over time in a single stream. Some activities that can be logged in the timeline are notes, phone calls, emails, appointments, and tasks.
 
 Timeline allows you to:
