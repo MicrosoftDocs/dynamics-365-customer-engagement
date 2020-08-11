@@ -54,8 +54,9 @@ The following capabilities are available in the different app experiences depend
 | LICENSING: Customer Service Enterprise  | X  | X | X  | X | N/A |
 | LICENSING: Chat  | X  | X |  |  |  |
 | LICENSING: Digital Messaging  | X  | X |  |  |  |
+|||||||
 
-##   Available anywhere, on any device
+## Available anywhere, on any device
 
 > [!NOTE]
 > For mobile devices, you'll also need to [Install Dynamics 365 for phones and tablets](../mobile-app/Install-Dynamics-365-for-phones-and-tablets.md).
