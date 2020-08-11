@@ -81,6 +81,8 @@ Field service capabilities include:
 
 - [NAVCO](https://customers.microsoft.com/en-us/story/790284-navco-professional-services-dynamics-365)
 
+- [Rockwell Automation](https://customers.microsoft.com/story/786160-rockwell-automation-manufacturing-dynamics-365)
+
 ## Field Service roles
 
 The Field Service application provides tools for these key roles on your service team:
