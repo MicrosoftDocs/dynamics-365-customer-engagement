@@ -15,8 +15,8 @@ manager: annbe
 Kanban views help salespeople to manage their opportunities and activities effectively. Add the Kanban control to the Opportunity and Activity entity so salespeople can use the Kanban views. Similar to other custom controls, Kanban control is supported on all views.
 
 > [!IMPORTANT]
-> The Kanban control works only on the Opportunity and Activity entity.
-
+> - The Kanban control works only on the Opportunity and Activity entity.
+> - The Kanban control is supported only on the main grid. It isn't currently supported on subgrids.
 
 To add the control:
 1. In your app, select the **Settings** icon, and then select **Advanced Settings**.
