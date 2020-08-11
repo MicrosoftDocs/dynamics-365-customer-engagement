@@ -4,7 +4,7 @@ description: "Learn about notifications and their types. Agents will see notific
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/16/2020
+ms.date: 07/20/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -62,9 +62,9 @@ To get desktop notifications, you need to allow your browser (Microsoft Edge or 
 
 There are two types of notifications:
 
-- **Toast notifications:** A toast notification or floating notification is a notification message type where you receive information in a dialog, which disappears after a stipulated time. This type notifications appear for conversation (work item) assignments, conversation escalations, and conversation transfer scenarios and so on.
+- **Toast notifications:** A toast notification or floating notification is a notification message type where you receive information in a dialog, which disappears after a stipulated time. This type of notifications appear for conversation (work item) assignments, conversation escalations, and conversation transfer scenarios.
 
-- **Alert notifications:** An alert notification is a type of notification where a dialog appears with actionable buttons. When you select the **Accept** button, a screen pops up with Customer summary details. You need to take an action within the stipulated time and the notification disappears when the time is up.
+- **Alert notifications:** An alert notification is a type of notification where a dialog appears with actionable buttons. When you select the **Accept** button, a screen pops up with the customer summary details. You need to take an action within the stipulated time and the notification disappears when the time is up.
 
 ## Incoming chat notification
 
@@ -92,7 +92,7 @@ The details you'll see for a SMS channel are as configured by your administrator
 
 > [!IMPORTANT]
 > - The alert is displayed only when the missed notifications feature is enabled by your administrator.
-> - Missed notifications is not available in Omnichannel for Customer Service on Unified Service Desk.
+> - Missed notifications is not supported in Omnichannel for Customer Service on Unified Service Desk.
 
 When you don't respond to an incoming conversation notification, you'll see an alert at the top of your dashboard and your presence status will be set to inactive. You can respond to the alert or change your status. Your presence will be reset to the status that was last defined by the system. You won't be assigned new tasks until your presence is reset to a state in which you can be assigned tasks, which is based on the allowed presence set in the work stream. Your supervisor also can reset your presence.
 
@@ -101,7 +101,7 @@ When you don't respond to an incoming conversation notification, you'll see an a
 
 ## Notification time-out and rerouting of conversations
 
-When you do not respond to an incoming conversation notification, it will time out based on the time-out settings configured by your administrator and be rerouted.
+When you don't respond to an incoming conversation notification, it will time out based on the time-out settings configured by your administrator and be rerouted.
 
 Sometimes, you might see that conversations have been assigned to you without notifications showing up. This can happen because though the notifications are sent by the system, they are not seen because you had either closed the browser, navigated away from the app page, or had lost network connectivity before the notifications could be displayed. In such a case, while the system might take a few seconds to mark you as unavailable, it ends up assigning conversations to you. The conversation is then rerouted after eight minutes.
 

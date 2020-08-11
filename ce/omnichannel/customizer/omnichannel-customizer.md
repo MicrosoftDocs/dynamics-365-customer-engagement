@@ -1,5 +1,5 @@
 ---
-title: "Omni channel engagement hub for system customizers | MicrosoftDocs"
+title: "Omnichannel engagement hub for system customizers | MicrosoftDocs"
 description: 
 author: kabala123
 ms.author: kabala

@@ -134,6 +134,6 @@ You can view the similar case suggestions in the Related section of the Customer
 
 ### See also  
 
-[Related section in the Customer Service Hub](customer-service-hub-user-guide-basics.md#related-section)
-
+[Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)  
+[Related section in the Customer Service Hub](customer-service-hub-user-guide-basics.md#related-section)  
 [Service Management Guide (Customer Service Hub and Customer Service app)](service-manager-guide.md)

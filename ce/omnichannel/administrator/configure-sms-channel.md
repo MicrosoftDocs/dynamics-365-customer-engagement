@@ -1,5 +1,5 @@
 ---
-title: "Configure an SMS channel for Telesign | MicrosoftDocs"
+title: "Configure an SMS channel for TeleSign | MicrosoftDocs"
 description: "Instructions for configuring an SMS channel in Omnichannel for Customer Service."
 author: lalexms
 ms.author: laalexan
@@ -10,7 +10,7 @@ ms.service:
 ms.topic: article
 ---
 
-# Configure an SMS channel for Telesign
+# Configure an SMS channel for TeleSign
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -80,33 +80,37 @@ To sign up for TeleSign
     > [!div class=mx-imgBorder]
     > ![SMS Settings tab](../media/sms-settings.png "SMS Settings tab")
 
-8. On the **SMS Numbers** tab, select **New SMS number**.
+8. On the **SMS Numbers** tab, select **New SMS Number**, and then enter the following details:
 
-9. On the **New SMS Number** page, enter the following information:
-    - **Number**: Phone number purchased from TeleSign.
+    - **Number**: Specify the support phone number that you purchased from Twilio in the *<country_code><phone_number>* format, such as 14252306549. Make sure that you don't enter blank spaces or special characters.
+    - **SMS number language**: This is the preferred language that will be used when you configure automated messages on the **Automated messages** tab. 
     - **Type**: Select **Long code**.
-    - **Description**: Optional description for the number.
-    - **Operating Hours**: Allows you to specify the business hours when the customer support team is active and available to serve customers. You can specify this value only when the **Allow automated messages** option is set to **Yes** on the **Work Distribution** tab.
+    - **Description**: Specify a description for the number. (Optional) 
+    - **Operating Hours**: Specify the business hours when the customer support team is active and available to serve customers.
 
     > [!NOTE]
     >
-    > - For this release, only one phone number is supported per work stream.
+    > - You can configure only one phone number per work stream.
     > - Ensure that the phone number is entered in the following format without spaces and special characters: &lt;country code&gt;&lt;phone number&gt;. For information on availability of international numbers, see [TeleSign coverage map](https://www.telesign.com/coverage-map/).
     > - Short code is supported for enterprise accounts.
 
     > [!div class=mx-imgBorder]
     > ![SMS Numbers tab](../media/sms-number.png "SMS Numbers tab")
 
-10. Select **Save**.
+9. Select **Save**.
 
-11. Select **Validate API Key** from the toolbar at the top of the page to validate the customer ID and API key.
+10. Optionally, on the **Automated messages** tab, [configure automated messages](configure-automated-message.md).
+
+11. Optionally, on the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
+
+12. Select **Validate API Key** from the toolbar at the top of the page to validate the customer ID and API key.
 
     > [!div class=mx-imgBorder]
     > ![Validate API Key](../media/validate-key.png "Validate API Key")
 
-12. Open the work stream you created for SMS.
+13. Open the work stream you created for SMS.
 
-13. On the **Routing rules items** tab, create a routing rule to transfer the SMS to an appropriate agent. Routing rule for SMS works on the **Mobile Phone** field of the Contact entity. The customer is identified based on the **Mobile Phone** field and the conversation is automatically linked to the contact record.
+14. On the **Routing rules items** tab, create a routing rule to transfer the SMS to an appropriate agent. Routing rule for SMS works on the **Mobile Phone** field of the Contact entity. The customer is identified based on the **Mobile Phone** field and the conversation is automatically linked to the contact record.
 
 ## Flow of data between Omnichannel for Customer Service - SMS channel and TeleSign
 
@@ -124,7 +128,9 @@ When you validate the API key while setting up the SMS channel, a call is made t
 
 ### See also
 
-[Overview of channels](channels.md)  
-[Understand and create work streams](work-streams-introduction.md)  
-[Create and manage routing rules](routing-rules.md)  
+[Overview of channels](channels.md) <br />
+[Understand and create work streams](work-streams-introduction.md)  <br />
+[Create and manage routing rules](routing-rules.md) <br />
+[Configure automated messages](configure-automated-message.md) <br />
+[Delete a configured channel](delete-channel.md)<br />
 [SMS FAQ](../faqs.md#sms)

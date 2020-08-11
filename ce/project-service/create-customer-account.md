@@ -1,5 +1,5 @@
 ---
-title: Create a customer account 
+title: Create a customer account
 description: How to create a customer account in Project Service
 author: ruhercul
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 # Create a customer account (Project Service)
 

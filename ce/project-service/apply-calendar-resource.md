@@ -1,5 +1,5 @@
 ---
-title: Apply a calendar to a resource 
+title: Apply a calendar to a resource
 description: How to apply a calendar to a resource in Project Service
 author: rumant
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 # Apply a calendar to a resource (Project Service)
 
