@@ -46,7 +46,7 @@ You can customize messages across instances within a channel. For example, you c
 
 ## Customize automated messages at the channel instance level
 
-You can customize automated messages at the channel instance level. For example, you can apply a change to one specific Facebook account, one specific SMS number, and so on. If you don't create customized automated messages at the channel instance level, each instance will inherit the channel-level settings. If you create customized automated messages at the channel instance level, it overwrites the channel-level settings.
+You can customize automated messages at the channel instance level. For example, you can apply a change to one specific Facebook account, one specific SMS number, and so on. If you don't create customized automated messages at the channel instance level, each instance will inherit the channel-level settings. If you create customized automated messages at the channel instance level, the channel-level settings are overwritten.
 
 1. Go to **Channels**, and select the channel you will use to send automated messages. This example uses WeChat.
 2. In the list of accounts, open the channel instance for which you want to configure an automated message.
