@@ -4,7 +4,7 @@ description: "Learn how to troubleshoot the issues you may face while working on
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/10/2020
+ms.date: 08/11/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -285,7 +285,7 @@ To delete and add **Widget location** for the chat widget, follow these steps:
 11. Go to the website and check if the chat widget loads.
 
 > [!Note]
-> The chat widget requires cookies to function properly. Make sure you have cookies enabled in your browser so that certain services, such as sessions and local storage, can work properly.
+> The chat widget requires session storage and local storage to be functional in your browser. Make sure you have cookies enabled in your browser so these services can work properly.
 
 ## Dashboards do not appear in Omnichannel for Customer Service active dashboards view
 
