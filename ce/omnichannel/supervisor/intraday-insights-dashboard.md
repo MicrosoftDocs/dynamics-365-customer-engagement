@@ -99,7 +99,7 @@ This section of the dashboard consists of the following KPIs:
 
 | KPI | Description |
 |-------|-------|
-| Participation mode | The split of sessions which are of three types: Primary indicates the agent who's assigned to the session, Consult indicates agents who are engaged in a consulting session, and Supervisors who are monitoring are treated as Monitor sessions. |
+| Participation mode | The split of sessions which are of three types: Primary indicates the agent who's assigned to the session, Consult indicates agents who are engaged in a consulting session, and supervisors who are monitoring are treated as Monitor sessions. |
 | Agent name | A list of the agent names for the queue. |
 | Status | The current presence of the agent: available, offline, do not disturb, or busy. |
 | Available capacity | The current free capacity with the agent. |
