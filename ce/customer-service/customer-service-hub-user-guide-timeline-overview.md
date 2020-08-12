@@ -157,17 +157,14 @@ You can use any of the following options for enabling threaded email views in ti
 
 **Option 2:**
 
+1. On the command bar, select **Settings** > **Personalization Settings**.
+2. The **Set Personal Options** dialog box appears.
 
-<!-- editor note: The numbers in the step don't align with the numbers in the image, which could be confusing. I recommend rewriting the steps to make them fit those in the image. -->
+3. Select the **Email** tab.
 
+4. Select the **Show emails as conversation on Timeline** check box.
 
-1. On the command bar, select **Settings** > **Personalization Settings**. The **Set Personal Options** dialog box appears.
-
-2. Select the **Email** tab.
-
-3. Select the **Show emails as conversation on Timeline** check box.
-
-4. Select **OK**.
+5. Select **OK**.
 
     ![Enable threaded email timeline view - option 2](media\timeline-threaded-email-views-3.png "Enable threaded email timeline view - option 2")
 
@@ -178,11 +175,7 @@ You can use any of the following options for enabling threaded email views in ti
 
 When enabled by your system administrator, you can easily search for records in the timeline. When you search for a phrase in the timeline, it searches in the title or subject of the record or body or description fields of the record and displays the record for you.
 
-
-<!-- editor note: The alt text in the image below is the same as in the previous image. Maybe a copy/paste error? -->
-
-
-![Enable threaded email timeline view - option 2](media\timeline-search-records-1.png "Enable threaded email timeline view - option 2")
+![Search for records on timeline](media\timeline-search-records-1.png "Search for records on timeline")
 
 |Annotation|Description|
 |----------|-----------|
