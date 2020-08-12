@@ -34,9 +34,11 @@ By default, CFS uses this IoT providers feature to integrate with Azure IoT Hub 
 
 ## When to use custom IoT providers
 
-1. If you're using an IoT system from a vendor that doesn’t use Azure IoT.
-2. When you use multiple Azure IoT Hub instances or Azure IoT Central applications, connected to a common CFS organization.
-3. If you have multiple IoT vendors that you need to manage in a single CFS organization. For example, your organization’s HVAC alerts and devices may be handled by Azure IoT, while your organization’s security alerts may be handled by a different IoT system. While the alerts from both systems come into the same instance, CFS can route the actions to the appropriate system based on the configured providers.
+You should consider using a custom IoT provider:
+
+- If you're using an IoT system from a vendor that doesn’t use Azure IoT.
+- When you use multiple Azure IoT Hub instances or Azure IoT Central applications, connected to a common CFS organization.
+- If you have multiple IoT vendors that you need to manage in a single CFS organization. For example, your organization’s HVAC alerts and devices may be handled by Azure IoT, while your organization’s security alerts may be handled by a different IoT system. While the alerts from both systems come into the same instance, CFS can route the actions to the appropriate system based on the configured providers.
 
 ## Prerequisites
 
@@ -118,7 +120,7 @@ This action supports multiple devices, so the input needs to be sent as an **Ent
 | Parameters for entity collection  | Type   | Details |
 |-------------------|--------|-------------------------------------------------------------|
 | msdyn_iotdeviceid | string | Identifier of the device (msdyn_iotdevice) within CFS. Note that this will be a Guid that needs to be converted to string. For example: “6a5457d1-9373-ea11-a811-000d3af70aa4” |
-| msdyn_name        | string | Name of the device                                                                                                                                         |
+| msdyn_name        | string | Name of the device.                                                                                                                                        |
 | @odata.type    | string | OData type of the entity. For example: "Microsoft.Dynamics.CRM." + entityLogicalName"       |
 
 Here is a sample input:
@@ -151,7 +153,7 @@ Here are the output parameters for this action. The following parameters are ret
 |----------------------------|----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ID                         | string   | Identifier of the device (msdyn_iotdevice) within CFS. Note that this will be a Guid that needs to be converted to string. For example: “6a5457d1-9373-ea11-a811-000d3af70aa4”                                                                                                                              |
 | ConnectionState            | string   | Indicates whether the device is "Disconnected" or "Connected."                                                                                               |
-| ConnectionStateUpdatedTime | datetime | Updated time of the connection state from the IoT provider                                                                                                     |
+| ConnectionStateUpdatedTime | datetime | Updated time of the connection state from the IoT. provider                                                                                                     |
 | DeviceReportedProperties   | string   | Various reported properties of the devices formatted in a JSON string. For example: </br> {"temperature":35.6366305680316, </br> "humidity":18.3333366666} |
 | LastActivityTime           | datetime | Last time of reported activity of the device.                                                                                                                  |
 
@@ -204,7 +206,7 @@ Here are the input parameters for this action. Since this action supports multip
 | Input Parameters | 	Type  | Details | 
 | -- | -- | -- | 
 | msdyn_iotdeviceid	| string	| Identifier of the device (msdyn_iotdevice) within CFS. Note that this will be a Guid that needs to be converted to string. For example: “6a5457d1-9373-ea11-a811-000d3af70aa4”
-| msdyn_name	| string	| Name of the device| 
+| msdyn_name	| string	| Name of the device.| 
 | @odata.type	| 	string	| OData type of the entity </br>Example: "Microsoft.Dynamics.CRM." + entityLogicalName | 
 
 Input sample:
@@ -236,7 +238,7 @@ Here are the output parameters for this action. The below parameters are returne
 | JSON Details  | Type      | Details                                                                                                                                                                                                                                                                                                                                                                                                    |
 |----------------------|-----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ID           | string    | Identifier of the device in CFS.                                                                                                                                                                                                                                                                                                                                                                           |
-| RegistrationStatus   | OptionSet | This identifies the status of the registration from the IoT provider back   to CFS. The values and their labels for this option set are: </br> - 192350000: Unknown </br> - 192350001: Unregistered </br> - 192350002: In progress </br> - 192350003: Registered </br> - 192350004: Error </br> Note: OptionSet is a list of defined options with label-value mapping like a dropdown box control.  |
+| RegistrationStatus   | OptionSet | This identifies the status of the registration from the IoT provider back to CFS. The values and their labels for this option set are: </br> - 192350000: Unknown </br> - 192350001: Unregistered </br> - 192350002: In progress </br> - 192350003: Registered </br> - 192350004: Error </br> Note: OptionSet is a list of defined options with label-value mapping like a dropdown box control.  |
 | DeviceId    | string    | Identifier of the device within the IoT provider system. This may be different from the ID output parameter.                                                                                                                                                                                                                                                                                             |
 | Message  | string    | Any detailed message regarding the registration to the CFS user. |
 
@@ -264,14 +266,14 @@ Here is some sample output:
 Once you've successfully registered a device, you can see it in the registration history, as seen in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of an IoT device in Field Service, showing readings.](./media/custom-iot-registration-history.png)
+> ![Screenshot of an IoT device in Field Service, showing registration history.](./media/custom-iot-registration-history.png)
 
 ### Aggregated device readings action
 
 This action retrieves the aggregated readings (such as average, min, max, etc.) for devices from the IoT provider, so users can get a quick snapshot of the condition of the device within CFS through summary tiles. See the following screenshot for an example.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of an IoT device in Field Service, showing readings.](./media/custom-iot-aggregate-readings.png)
+> ![Screenshot of an IoT device in Field Service, showing aggregate readings.](./media/custom-iot-aggregate-readings.png)
 
 Here are the input parameters for this action.
 
