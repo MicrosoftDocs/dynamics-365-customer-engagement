@@ -2,7 +2,7 @@
 title: "Universal Resource Scheduling for Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 01/09/2020
+ms.date: 08/12/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
@@ -175,6 +175,10 @@ This is where administrators decide which entities can be scheduled to resources
 Double-click work orders to define default behavior when scheduling work order requirements.
 
 ### Connect to maps
+
+> [!Important]
+> By connecting to a mapping service, you are allowing the system to share your data, including but not limited to addresses and coordinates, with external systems outside of your Microsoft Dynamics 365 environment. (mapping service refers to Bing Maps or other third party mapping service designated by you or your operating system).  This also applies to Government Cloud environments.  Your use of the mapping service will also be subject to their separate terms of use.  Data imported from such external systems into Microsoft Dynamics 365 are subject to the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
+
 Connecting to a mapping service is critical if you want to geographically display work orders and route field technicians.
 
 1. To connect a mapping service, navigate to **Resource Scheduling > Administration > Scheduling Parameters**.
