@@ -4,7 +4,7 @@ description:
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 07/08/2020
+ms.date: 08/12/2020
 ms.topic: article
 ---
 # startProactiveChat
