@@ -23,7 +23,7 @@ ms.topic: article
 | ---- | ---- | ---- | ---- |
 |`notificationUIConfig`| Object | Yes | Allows you to pass UI configurations for proactive chat notification. This object lets you customize the notification, including the message to be displayed. |
 |`showPrechat`| Boolean | No | Boolean flag to indicate whether prechat is shown if configured for the widget. The default value is `true`. |
-|`inNewWindow`|Object|No|Decides whether to open the chat in a new window.|
+|`inNewWindow`|Boolean|No|Decides whether to open the chat in a new window. This parameter resides within an options object.|
 
 > [!IMPORTANT]
 > If no message is provided in `notificationUIConfig` object, then the default message, that is, `Hi! Have any questions? I'm here to help` gets displayed.
