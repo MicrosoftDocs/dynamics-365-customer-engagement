@@ -20,7 +20,5 @@ search.app:
 ---
 # Delete an instance
 
-[!INCLUDE[applies-to](../includes/cc_applies_to_ce.md)]
-
 Deleting Sandbox instances (environments) has transitioned to the [Power Platform Admin center](https://admin.powerplatform.microsoft.com). For more information, see [Delete environment](https://docs.microsoft.com/power-platform/admin/delete-environment).
 
