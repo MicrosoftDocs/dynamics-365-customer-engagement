@@ -46,7 +46,6 @@ This section of the dashboard consists of the following KPIs.
 | Exceeding 5 mins handle time | The number of active conversations that are exceeding the handle time threshold of five minutes. |
 | Conversation by status | The distribution of conversations across open, active, waiting, wrap up, and closed state. |
 | Open conversations | The distribution of open conversations in pick mode and push mode respectively. |
-|||
 
 ## Agent insights
 
