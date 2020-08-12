@@ -177,7 +177,7 @@ Double-click work orders to define default behavior when scheduling work order r
 ### Connect to maps
 
 > [!Important]
-> By connecting to a mapping service, you are allowing the system to share your data, including but not limited to addresses and coordinates, with external systems outside of your Microsoft Dynamics 365 environment. (mapping service refers to Bing Maps or other third party mapping service designated by you or your operating system).  This also applies to Government Cloud environments.  Your use of the mapping service will also be subject to their separate terms of use.  Data imported from such external systems into Microsoft Dynamics 365 are subject to the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
+> By connecting to a mapping service, you are allowing the system to share your data, including but not limited to addresses and coordinates, with external systems outside of your Microsoft Dynamics 365 environment. (Mapping service refers to Bing Maps or other third-party mapping service designated by you or your operating system). This also applies to Government Cloud environments. Your use of the mapping service will also be subject to their separate terms of use. Data imported from such external systems into Microsoft Dynamics 365 are subject to the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
 
 Connecting to a mapping service is critical if you want to geographically display work orders and route field technicians.
 
