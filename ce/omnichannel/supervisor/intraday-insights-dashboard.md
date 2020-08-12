@@ -69,7 +69,6 @@ This section of the dashboard consists of the following KPIs.
 | Total sessions transferred | The number of sessions that are transferred to agents and supervisors, along with the break up between the two. | 
 | Average consult time | The average time spent by agents on consultation for other agents or supervisor, across sessions. |
 | Conversations per online agent | The average number of active conversations and being handled by agents whose status is currently available, busy or busy-do not disturb. | 
-|||
 
 ### Agent Performance
 
@@ -128,7 +127,16 @@ This section of the dashboard consists of the following KPIs:
 | Available capacity | The agent's current free capacity. | 
 | Total capacity | The total capacity configured for an agent. |
 | Queues | The queues that the agent is mapped to. |
-| Skills | The skills that are assigned to the agent.
+| Skills | The skills that are assigned to the agent.|
+| Subject | The authenticated customer subject is the customer's name. For an unauthenticated customer, static text is displayed with a "Visitor" label. |
+| Participation mode | Primary indicates that this is assigned the session. Consult means the agent is engaged in a consulting session with another agent. Monitor means this agent is monitoring the session. |
+| Workstream | The wworkstream that the conversation is assigned to. |
+| Channel | The channel that the conversation was created from. |
+| Queue | The queue that the conversation is currently part of. |
+| State | The current conversation state. |
+| Customer sentiment | The current sentiment. |
+| Created on | The time of the converstation creation. |
+| Capacity and status timeline | Every change in capacity or status is plotted on the timeline. Negative capacity is displayed if a supervisor assigns a conversation to an agent that is beyond the agent's available capacity. |
 
 ## View and filter report
 
