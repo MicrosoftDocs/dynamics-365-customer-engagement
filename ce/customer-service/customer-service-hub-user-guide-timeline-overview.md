@@ -1,7 +1,7 @@
 ---
-title: "Timeline overview for users | MicrosoftDocs"
-description: "Timeline overview for users"
-ms.date: 08/01/2020
+title: "Timeline Overview for Users | MicrosoftDocs"
+description: "Timeline Overview for Users"
+ms.date: 08/3/2020
 ms.service:
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -11,6 +11,8 @@ manager: shujoshi
 ---
 
 # Use timeline
+
+[!include[cc-early-access](../includes/cc-early-access.md)]
 
 Timeline is a control that allows you to view different activity types that are connected to an entity record and occur over time in a single stream. Some activities that can be logged in the timeline are notes, phone calls, emails, appointments, and tasks.
 
@@ -40,6 +42,7 @@ The icons displayed in the upper right nav in the timeline give quick access to 
 ## Create a timeline record
 
 When enabled by your system administrator, **Create a timeline record** ![Create a timeline record](media\timeline-create-a-record-icon.png "Create a timeline record") allows you to quickly create appointments, send emails, and make notes and posts and associate them with other records. You can select ![Create a timeline record](media\timeline-create-a-record-icon.png "Create a timeline record") to view the options that are available for use.
+
 
  > [!div class="mx-imgBorder"]
  > ![Create a timeline record](media\timeline-create-a-timeline-record.png "Create a timeline record")
@@ -149,7 +152,8 @@ You can use any of the following options for enabling threaded email views in ti
 
 
 **Option 1:** 
-1. Select the **More commands** ![More commands](media\timeline-more-commands.icon.png "More commands") icon on the timeline, which will display a flyout menu.
+
+1. Select the **More commands** icon on the timeline, which will display a flyout menu.
 
 2. Select **Always show email as conversations**. Now your emails will display in timeline threaded together.
 

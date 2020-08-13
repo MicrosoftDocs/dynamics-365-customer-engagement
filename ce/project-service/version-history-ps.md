@@ -1,28 +1,29 @@
 ---
 title: Update release schedule for Project Service 3.x
 ms.custom: dyn365-projectservice
-ms.date: 06/15/2020
+ms.date: 08/10/2020
 ms.reviewer: kfend
 ms.service: dynamics-365-projectservice
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "project-service"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-applies_to:
+applies_to: 
   - "Dynamics 365 Project Service"
 author: kfend
 ms.assetid: 
 caps.latest.revision: 42
 ms.author: rumant
 manager: annbe
-search.audienceType:
+search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app:
+search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 
 # Update release schedule for Project Service 3.x
@@ -47,10 +48,10 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 | | <i>South Africa</i> |[3.10.33.41](whats-new-ur-22.md)|  TBD | August 28, 2020
 | | <i>Germany</i> |[3.10.33.41](whats-new-ur-22.md)| TBD | August 28, 2020
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> |[3.10.32.40](whats-new-ur-21.md)| [3.10.33.48](whats-new-ur-22.md) | August 7, 2020 
-| | <i>Asia Pacific</i> |[3.10.32.40](whats-new-ur-21.md)| [3.10.33.48](whats-new-ur-22.md) |  August 7, 2020
-| | <i>Great Britain</i> |[3.10.32.40](whats-new-ur-21.md)| [3.10.33.48](whats-new-ur-22.md) |  August 7, 2020
-| | <i>Oceana</i> |[3.10.32.40](whats-new-ur-21.md)| [3.10.33.48](whats-new-ur-22.md) |  August 7, 2020
+| | <i>Japan</i> |[3.10.33.48](whats-new-ur-22.md) | TBD | September 4, 2020 
+| | <i>Asia Pacific</i> |[3.10.33.48](whats-new-ur-22.md)| TBD |  September 4, 2020
+| | <i>Great Britain</i> |[3.10.33.48](whats-new-ur-22.md)| TBD |  September 4, 2020
+| | <i>Oceana</i> |[3.10.33.48](whats-new-ur-22.md)| TBD |  September 4, 2020
 |<strong>Station 4</strong> | |  |  | |
 | | <i>Europe</i> | [3.10.32.40](whats-new-ur-21.md)| [3.10.33.48](whats-new-ur-22.md) | August 14, 2020
 |<strong>Station 5</strong> | |  |  | |

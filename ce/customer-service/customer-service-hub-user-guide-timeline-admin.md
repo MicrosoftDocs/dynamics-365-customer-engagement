@@ -9,8 +9,10 @@ author: lerobbin
 ms.author: lerobbin
 manager: shujoshi
 ---
- 
-# Configure timeline 
+
+# Configure Timeline
+
+[!include[cc-early-access](../includes/cc-early-access.md)]
 
 The timeline control provides an easy and immersive experience to view information related to an entity, such as cases, accounts, or contacts, which gives users a better understanding and helps them deliver more personalized service in an efficient and effective manner. 
 
@@ -132,7 +134,7 @@ The Advanced section covers settings that span an activity, note, or post, which
 
 <!-- editor note: The following paragraph ends with an sentence that isn't complete. -->
 
-
+=======
 
 - **Quick entry record type**: Select the record type that you want to enable for quick create. For example, if Notes is selected in the drop-down list, users will see an option to quickly create a note from the timeline. When you select this option, 
 

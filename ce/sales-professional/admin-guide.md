@@ -2,7 +2,7 @@
 title: "Help resources for administrator & sales managers (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "A starting point for browsing admin and sales manager content for Dynamics 365 Sales."
 ms.date: 10/01/2019
-ms.service: 
+ms.service:
   - "dynamics-365-sales"
 ms.topic: get-started-article
 author: shubhadaj
@@ -49,6 +49,7 @@ manager: annbe
 <li><a href="manage-excel-templates.md" data-raw-source=" [Manage Excel templates](manage-excel-templates.md)">Manage Excel templates</a></li>
 <li><a href="manage-word-templates.md" data-raw-source=" [Manage Word templates](manage-word-templates.md)">Manage Word templates</a></li>
 <li><a href="enable-automatic-generation-quotes-invoices.md" data-raw-source=" [Automatic generation of quotes or invoice](enable-automatic-generation-quotes-invoices.md)">Automatic generation of quotes or invoices</a></li>
+<li><a href="enable-creation-of-orders-from-quotes.md" data-raw-source=" [Enable creation of orders from quotes](enable-creation-of-orders-from-quotes.md)">Enable creation of orders from quotes</a></li>
 <li><a href="export-data.md" data-raw-source=" Export data (export-data.md)">Export data</a></li>
 </ul>
 

@@ -1,5 +1,5 @@
 ---
-title: Create a work hours template 
+title: Create a work hours template
 description: How to create a work hours template in Project Service
 author: ruhercul
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 # Create a work hours template (Project Service)
 
