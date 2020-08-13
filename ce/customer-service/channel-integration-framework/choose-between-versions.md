@@ -48,7 +48,7 @@ To learn more about multi-session app, see [Omnichannel for Customer Service](..
 
 The following matrix explains the various aspects of versions 1.0 and 2.0.
 
-|| Version 1.0 | Version 2.0 |
+|Feature| Version 1.0 | Version 2.0 |
 |--------------------------------|---------------------------|-------------------------------|
 |Session| Single-session  | Multi-session|
 |Channel | Telephony, messaging (SMS), chat or custom channels | Telephony or custom messaging channels|
