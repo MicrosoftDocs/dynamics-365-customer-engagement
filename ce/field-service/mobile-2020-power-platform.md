@@ -385,6 +385,18 @@ If you are getting the error "You're almost there" after signing in to the mobil
 2. Sign in again, pull down the screen to refresh and wait for at least a few minutes
 3. If completing both steps 1 and 2 above do not resolve the issue, [submit a support ticket](https://dynamics.microsoft.com/contact-us/).
 
+### The bookable resource booking form does not show work order details like "Customer", "Service", and "Notes"
+
+Sometimes you may not see the correct booking form. You may see the following: 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the wrong from issue.](./media/mobile-2020-faq-wrong-booking-form.png)
+
+This means you are viewing the booking form and not the combined booking and work order form.
+
+To solve this ensure the user you are logged in to the mobile app with has the "Field Service - Resource" security role. 
+
 ### See also
 
 - [What are model-driven apps in Power Apps?](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)
+- [https://docs.microsoft.com/en-us/dynamics365/mobile-app/setup-mobile-offline-for-admin#step-1-enable-entities-for-mobile-offline-synchronization](https://docs.microsoft.com/en-us/dynamics365/mobile-app/setup-mobile-offline-for-admin#step-1-enable-entities-for-mobile-offline-synchronization)
