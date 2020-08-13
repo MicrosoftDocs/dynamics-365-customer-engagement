@@ -160,7 +160,7 @@ If you expect to be in areas without wifi or cellular internet access, you can d
 
 From the home screen, select the cloud icon in the bottom left.
 
-Then select **Download offline updates**.
+Then select **Download offline updates**. If you are prohibited from downloading offline profiles because it is greyed out, you must set up an offline profile, add your user to an offline profile, and ensure your user has the Field Service - Resource security role. See the section on **Configure the Field Service (Dynamics 365) mobile app**.
 
 > [!div class="mx-imgBorder"]
 > ![Simulated image showing three mobile devices with Field Service (Dynamics 365). The device on the left shows the menu, with attention to the cloud icon at the bottom. The middle device shows the offline status screen. The device on the right shows the offline status as available, showing the list of available entities. ](./media/mobile-2020-offline.jpg)
@@ -326,6 +326,8 @@ For another example, the **Work Order Product** entity has a data download filte
 > By default, work orders related to downloaded bookable resource bookings are available offline. This creates a chain of entities and records that are offline: bookings > work orders > work order products. This means that bookings scheduled to you are downloaded, work orders related to those bookings are downloaded, and work order products related to those work orders are downloaded.
 
 To learn more see the topic on [Dynamics 365 offline profiles](https://docs.microsoft.com/en-us/dynamics365/mobile-app/setup-mobile-offline-for-admin#step-1-enable-entities-for-mobile-offline-synchronization).
+
+#### Create new offline profiles
 
 If you create a new offline profile, you will need to add it to the Field Service Mobile app in the app designer.
 
