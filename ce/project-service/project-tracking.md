@@ -6,7 +6,7 @@ manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-projectservice
-ms.date: 08/07/2020
+ms.date: 08/13/2020
 ms.topic: article
 ms.prod: 
 ms.technology: 
@@ -32,9 +32,9 @@ The need to track progress against a schedule varies by industry. Some industrie
 
 The **Effort tracking** view tracks the progress of tasks in the schedule. It compares the actual effort hours spent on a task to the task's planned effort hours. PSA uses the following formulas to calculate the tracking metrics:
 
-- Progress percentage = Actual effort spent to date ÷ EAC 
+- Progress percentage = Actual effort spent to date ÷ Estimate at complete (EAC) 
 - Estimate to complete (ETC) = Planned effort – Actual effort spent to date 
-- Estimate at complete (EAC) = Remaining effort + Actual effort spent to date 
+- EAC = Remaining effort + Actual effort spent to date 
 - Projected effort variance = Planned effort – EAC
 
 PSA shows a projection of the effort variance on the task. If the EAC is more than the planned effort, the task is projected to take more time than was originally planned. Therefore, it's behind schedule. If the EAC is less than the planned effort, the task is projected to take less time than was originally planned. Therefore, it's ahead of schedule.
