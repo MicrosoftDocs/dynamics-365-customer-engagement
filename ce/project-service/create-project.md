@@ -36,6 +36,8 @@ Create a project using the [!INCLUDE[pn_project_service_auto](../includes/pn-pro
 4.  Click **Save** to create your project so you can continue editing it.  
   
 Next, you’ll create a work breakdown structure for your project to define the tasks, timing, and resource roles needed for the project.  
+
+**Note** When scheduling, Project Service Automation respects the time zone of the applied Work Hour Template.   However, when viewing the schedule tasks, the start and end dates of a task will be displayed relative the user's time zone, this also applies to other time phased views in the project form.   If the user's time zone does not match the time zone of the work hour template applied to the project, a wanring will be displayed to user, warning the user about the difference. 
   
 ### See Also  
  [Project Manager Guide](../project-service/project-manager-guide.md)
