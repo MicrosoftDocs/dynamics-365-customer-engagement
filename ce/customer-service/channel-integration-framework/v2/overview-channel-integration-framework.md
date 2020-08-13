@@ -4,7 +4,7 @@ description: "Learn what Dynamics 365 Channel Integration Framework version 2.0 
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 04/03/2020
+ms.date: 08/13/2020
 ms.topic: get-started-article
 ms.service: 
   - dynamics-365-customerservice
