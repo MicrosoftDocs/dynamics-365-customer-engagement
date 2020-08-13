@@ -302,6 +302,8 @@ The profile dictates which entities and how many records of each entity will be 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Dynamics 365 Settings, showing the Field Service Mobile offline profile.](./media/mobile-2020-offline-profile-entities.png)
 
+Add the users who need to work offline in the right **USERS** panel. Users must be added there in order to download data offline. 
+
 For each entity, you can choose a data download filter:
 
 1. Download related data only
@@ -322,6 +324,19 @@ For another example, the **Work Order Product** entity has a data download filte
 
 > [!Note]
 > By default, work orders related to downloaded bookable resource bookings are available offline. This creates a chain of entities and records that are offline: bookings > work orders > work order products. This means that bookings scheduled to you are downloaded, work orders related to those bookings are downloaded, and work order products related to those work orders are downloaded.
+
+To learn more see the topic on [Dynamics 365 offline profiles](https://docs.microsoft.com/en-us/dynamics365/mobile-app/setup-mobile-offline-for-admin#step-1-enable-entities-for-mobile-offline-synchronization).
+
+If you create a new offline profile, you will need to add it to the Field Service Mobile app in the app designer.
+
+Go to the app designer.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of app designer](./media/mobile-2020-open-app-designer.png)
+
+Go to properties and add the offline profile.
+> [!div class="mx-imgBorder"]
+> ![Screenshot of app designer](./media/mobile-2020-add-offline-profiles.png)
 
 ### Offline JavaScript
 
