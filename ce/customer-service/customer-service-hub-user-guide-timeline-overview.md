@@ -138,11 +138,6 @@ Enabling the threaded email view is done via the timeline configuration in Power
 
 You can use any of the following options for enabling threaded email views in timeline:
 
-
-
-<!-- editor note: I don't see the file for the icon in step 1. -->
-
-
 **Option 1:** 
 
 1. Select the **More commands** icon on the timeline, which will display a flyout menu.
