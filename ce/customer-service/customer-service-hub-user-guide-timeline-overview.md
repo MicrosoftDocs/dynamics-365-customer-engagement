@@ -1,7 +1,7 @@
 ---
 title: "Timeline Overview for Users | MicrosoftDocs"
 description: "Timeline Overview for Users"
-ms.date: 08/3/2020
+ms.date: 08/13/2020
 ms.service:
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -18,13 +18,9 @@ Timeline is a control that allows you to view different activity types that are 
 
 Timeline allows you to:
 
-
-<!-- editor note: Unclear in first item below what you can quickly access. -->
-
-
-- Quickly access on the command bar to perform common actions with ease.
+- Quickly access menu items on the command bar to perform common actions with ease.
 - Filter and view your important activities using multiple filter options.
-- View and manage email conversation threads with ease. 
+- View and manage email conversation threads with ease.
 
 ## How to use timeline functionality
 
@@ -66,7 +62,7 @@ When enabled by your system administrator, the timeline **filter** further strea
 
 Filters are valuable for sorting data. You can quickly filter activities, posts, and notes with multiple options to see what matters to you. The filter is available for the activities, posts, notes, and custom entities that are present in timeline. Timeline filters and displays the records and the count that are present in the timeline.
 
-You can limit the records you're seeing by using the data filters. 
+You can limit the records you're seeing by using the data filters.
 
 - When the **Filter** icon is transparent in the timeline, it means there's no filter applied. When you select the icon, filter options are shown. <br>
 
@@ -99,10 +95,6 @@ When working with records, you have key information at a glance, can view more b
 
 When enabled by your system administrator, you can view timeline records at a glance in a collapsed format or expand a record to see more details for ease of use.
 
-
-<!-- editor note: In the gray part of the following image, a couple of words are incorrect (should be "is" instead of "it," and "delay" instead of "daily") and Surface isn't capitalized. Is that a concern? -->
-
-
 ![Expand all record's functionality](media\timeline-expand-all-records-1.png "Expand all record's functionality")
 
 |Annotation|Description|
@@ -120,7 +112,7 @@ The **More commands** icon contains refresh, sort, and email functionalities.
 
 |Annotation|Description|
 |----------|-----------|
-|1|When you select **More commands** (![More commands](media\timeline-more-commands.icon.png "More commands")), the additional options are displayed.|
+|1|When you select **More commands**, the additional options are displayed.|
 |2|The **Refresh timeline** command allows you to update the details in the timeline.|
 |3|The **Sort newer to older** / **Sort older to newer** command allows you sort records.|
 |4|The **Always show email as conversations / Always show email as individual messages** command enables or disables threaded emails.|
@@ -208,29 +200,24 @@ You can add a **note** or a **post** to a record on timeline only if your system
 
 When you hover the cursor on or expand an activity, post, or note, the command bar appears with the options specific to the activity, such as marking an activity complete, assigning it to others, adding it to a queue, converting it to a case, liking a post, replying to a post, editing a note, or deleting the activity.
 
-The following is an overview of the command bar icons and the actions they support: 
-
-|Icon | Name | Description |
-|-----|------|-------------|
-| ![Assign](media\email-assign-icon.png "Assign") |Assign | Lets you assign a task.|
-| ![Close activity](media\email-close-activity-icon.png "Close activity")|Close Activity| Lets you close the activity record.|
-| ![Add to queue](media\email-add-to-queue-icon.png "Add to queue") |Add to Queue| Lets you add a task to a queue.|
-| ![Open record](media\email-open-record-icon.png "Open record")|Open Record| Lets you open a record.|
-| ![Delete](media\email-delete-icon.png "Delete")|Delete| Lets you delete the record.|
-| ![Reply](media\email-reply-icon.png "Reply")|Reply| Lets you reply to an email. **Note**: This command is only available on email.|
-| ![Reply all](media\email-reply-all-icon.png "Reply all")|Reply all| Lets you reply to all for an email. **Note**: This command is only available on email.|
-| ![Forward](media\email-forward-icon.png "Forward")|Forward|Lets you forward an email. **Note**: This command is only available on email.|
-| ![Like a post](media\email-like-a-post-icon.png "Like a post")|Like this post| Lets you like a post. **Note**: This command is only available on posts.|
-| ![Edit](media\email-edit-icon.png "Edit")|Edit this note|Lets you edit a note. **Note**: This command is only available on notes.|
-
-Not all records can perform the same actions.
-
-
-<!-- It would be helpful to add numbers to the list above so that the reader can easily associate the icon with the illustration below. -->
-
-
-
 ![Command bar actions in timeline](media\timeline-access-command-bar-actions-1.png "Command bar actions")
+
+The following is an overview of the command bar icons and the actions they support.
+
+|Annotation|Icon | Name | Description |
+|-----|-----|------|-------------|
+|1| ![Assign](media\email-assign-icon.png "Assign") |Assign | Lets you assign a task.|
+|2| ![Close activity](media\email-close-activity-icon.png "Close activity")|Close Activity| Lets you close the activity record.|
+|3| ![Add to queue](media\email-add-to-queue-icon.png "Add to queue") |Add to Queue| Lets you add a task to a queue.|
+|4| ![Open record](media\email-open-record-icon.png "Open record")|Open Record| Lets you open a record.|
+|5| ![Delete](media\email-delete-icon.png "Delete")|Delete| Lets you delete the record.|
+|6| ![Reply](media\email-reply-icon.png "Reply")|Reply| Lets you reply to an email. **Note**: This command is only available on email.|
+|7| ![Reply all](media\email-reply-all-icon.png "Reply all")|Reply all| Lets you reply to all for an email. **Note**: This command is only available on email.|
+|8| ![Forward](media\email-forward-icon.png "Forward")|Forward|Lets you forward an email. **Note**: This command is only available on email.|
+|9| ![Like a post](media\email-like-a-post-icon.png "Like a post")|Like this post| Lets you like a post. **Note**: This command is only available on posts.|
+|10| ![Edit](media\email-edit-icon.png "Edit")|Edit this note|Lets you edit a note. **Note**: This command is only available on notes.|
+||||
+Not all records can perform the same actions.
 
 |Annotation|Description|
 |----------|-----------|
@@ -372,7 +359,6 @@ You can add an attachment, such as a file, to a note in timeline to share with u
 3. Select **Add note** to save and close the Edit note screen.
 
     ![Add an attachment to a note in timeline](media\timeline-add-an-attachment-to-a-note.png "Add an attachment to a note in timeline")
-
 
 ### See Also
 
