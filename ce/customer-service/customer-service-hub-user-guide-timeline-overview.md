@@ -199,7 +199,7 @@ When you hover the cursor on or expand an activity, post, or note, the command b
 
 The following is an overview of the command bar icons and the actions they support.
 
-|Annotation|Icon | Name | Description |
+|Annotation|Icon | Name | Description | 
 |-----|-----|------|-------------|
 |1| ![Assign](media\email-assign-icon.png "Assign") |Assign | Lets you assign a task.|
 |2| ![Close activity](media\email-close-activity-icon.png "Close activity")|Close Activity| Lets you close the activity record.|
@@ -212,6 +212,7 @@ The following is an overview of the command bar icons and the actions they suppo
 |9| ![Like a post](media\email-like-a-post-icon.png "Like a post")|Like this post| Lets you like a post. **Note**: This command is only available on posts.|
 |10| ![Edit](media\email-edit-icon.png "Edit")|Edit this note|Lets you edit a note. **Note**: This command is only available on notes.|
 ||||
+
 Not all records can perform the same actions.
 
 |Annotation|Description|
