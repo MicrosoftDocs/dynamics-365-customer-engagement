@@ -34,10 +34,10 @@ You can create, edit, and delete the personal quick replies you own. The quick r
 1. Sign in to Omnichannel for Customer Service, and on the home page, select the plus sign ![plus sign](../../media/oceh/plus-sign.png) on the application tab.
    > ![Personalization menu](../../media/oceh/personalization-menu.png "Personalization menu")
 
-2. Select **Personalization**. The **Personalization User settings** page appears.<!--You don't need to describe what appears.-->
+2. Select **Personalization**.
 
 3. On the **Personal quick replies** tab, select **New Personal quick reply**, and do the following:
-    - **Message:** Enter the text you want to use for your reply.<!--Suggested.-->
+    - **Message:** Enter the text you want to use for your reply.
     - **Locale:** Select the language in which you want to create the quick reply.
 
         > [!NOTE]
@@ -51,7 +51,7 @@ You can create, edit, and delete the personal quick replies you own. The quick r
 
 The quick replies you created are available on the **Personal** tab, and those created by the administrator are available on the **All** tab. Use the personal quick replies when you're in a conversation with a customer by doing the following:
 
-1. Select the quick responses icon ![quick responses icon](../../media/oceh/personal-quick-reply-icon.png)<!--What do you think?--> at the bottom of your conversation window. The **Quick replies** panel displays the available predefined messages on the **All** and **Personal** tabs.
+1. Select the quick responses icon ![quick responses icon](../../media/oceh/personal-quick-reply-icon.png) at the bottom of your conversation window. The **Quick replies** panel displays the available predefined messages on the **All** and **Personal** tabs.
 2. Select the **Personal** tab, and type the number sign (**#**) in the compose box to list the tags and search for the personal quick replies that are available for your use.
 3. Use the **more** option to view the complete text of the quick reply.
 
