@@ -4,7 +4,7 @@ description: Understand how to set up a holiday schedule in Dynamics 365 Custome
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/01/2018
+ms.date: 08/06/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -76,8 +76,9 @@ To resolve any issues with the SLA during holidays, see [SLA timer does not paus
     - You can edit the **Name** or **Description**, or add new holidays for the holiday schedule. 
     - By default, all the holidays of the current year are displayed. To switch to a different year, select and type the year in the **Holidays** grid:
     
-- To print a holiday schedule, select **Print Preview** in the **Holidays** section of the holiday schedule. You can also export or import a holiday schedule in excel format. 
+- To print a holiday schedule, select **Print Preview** in the **Holidays** section of the holiday schedule.
 
-### See also  
- [Create a customer service schedule and define the work hours](../customer-service/create-customer-service-schedule-define-work-hours.md)   
+### See also
+
+ [Create a customer service schedule and define the work hours](../customer-service/create-customer-service-schedule-define-work-hours.md)  
 

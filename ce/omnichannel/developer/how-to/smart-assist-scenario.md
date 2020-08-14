@@ -92,71 +92,12 @@ Replace the `incident id` in the Web API request above with the unique identifie
 }
 ```
 
-<!--The custom actions required for implementing similar case suggestions include the following:
-
-1. Open any entity form using the [openForm](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-navigation/openform) client API.
-2. Copy to Conversation Control.
-3. Open th URL in App tab.
--->
 #### Calling custom actions using adaptive cards
 
-<!--### Macros
-
-Macros are a compilations of sequential actions that are reusable for different sessions. These can be used to automate repetitive and monotonous actions that in turn reduce human errors and improve agent productivity. For information on how to build a macro, see [Create macro](../../administrator/macros.md#create-macro).
-
-You can use the `actions` key in adaptive cards JSON and mention the macro or custom action that you want to call, as shown in the example below.
-
-The type is always `Action.Submit` and title can be anything the user wants to name the action.
-
-```json
-"actions": [
-		{
-			"type": "Action.Submit",
-			"title": "Accepted",
-			"data": {
-				"MacroName": "SendEmail",
-				"MacroParameters": {
-					"subject": "Upgrade offer"
-				}
-			},
-			"iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAANCAYAAACZ3F9/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAE8SURBVHgBnVLBUQJBEOxd1z8BALWgAWAEagSQAfLw5CdEIBkIP+UeEoIZyGUAAchtnVT55cXDu5txDrkqQKHUeexu7Uz3dO8OrBc18I/QWul6xYtC682bfwGq6nV0xazqSqkFg63sE9LxwD1U3MGOdJSOoVCY+cUWx6YFpqmm45fqTfRk26Hd2zFbqt48pI/4zI0qizyxUqJVU1NWxYPXYfl5q+MaPoYxtc3EzC+PwsfSZWrQY/7+Dipnl+M9xOc+aWAuZJYYmDCha7766nMibrhhMditt52woJemI6RNqekjSQaZJbNmqyFOppuA0/bbhTDf0lJyjD7F229gbPvdcpogv1wBGHdpKnxAz/nl4Cfl6kQmhxXqIDUROR35jjFBjZxfCnAgDMvkQPwRw2FHzkEgiAKK0+5vAXl8ArWLn19rFeLfAAAAAElFTkSuQmCC"
-		}
-	]
-```
-
-See also: [Automate tasks with macros](../../administrator/macros.md).
--->
 You will have to create a web resource if you want to use embed a custom action within a suggestion. See the Power Apps topic on [Create your own actions](/powerapps/developer/common-data-service/custom-actions) for information on how to build a custom action. See the topic [Web resources in model-driven apps](/powerapps/maker/model-driven-apps/create-edit-web-resources) for information on how to create web resources. These web resources will have to be uploaded under the **Customer Summary Form**, as shown in the screenshot below.
 
-<!--Macros are a compilations of sequential actions that are reusable for different sessions. These can be used to automate repetitive and monotonous actions that in turn reduce human errors and improve agent productivity. For information on how to build a macro, see [Create macro](../../administrator/macros.md#create-a-macro).
--->
 ![Customer summary form](../../media/conversation-entity-customer-summary.png "Customer summary form")
 
-<!--To use a custom action, replace `MacroName` and `MacroParameters` with `CustomAction` and `CustomParameters` respectively in the adaptive card JSON. The value provided for `CustomAction` key should be the same as the name of the method that is to be called.
-
-```json
-"actions": [
-		{
-			"type": "Action.Submit",
-			"title": "Accepted",
-			"data": {
-				"CustomAction": "SendEmail",
-				"CustomParameters": {
-					"subject": "Upgrade offer"
-				}
-			},
-			"iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAANCAYAAACZ3F9/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAE8SURBVHgBnVLBUQJBEOxd1z8BALWgAWAEagSQAfLw5CdEIBkIP+UeEoIZyGUAAchtnVT55cXDu5txDrkqQKHUeexu7Uz3dO8OrBc18I/QWul6xYtC682bfwGq6nV0xazqSqkFg63sE9LxwD1U3MGOdJSOoVCY+cUWx6YFpqmm45fqTfRk26Hd2zFbqt48pI/4zI0qizyxUqJVU1NWxYPXYfl5q+MaPoYxtc3EzC+PwsfSZWrQY/7+Dipnl+M9xOc+aWAuZJYYmDCha7766nMibrhhMditt52woJemI6RNqekjSQaZJbNmqyFOppuA0/bbhTDf0lJyjD7F229gbPvdcpogv1wBGHdpKnxAz/nl4Cfl6kQmhxXqIDUROR35jjFBjZxfCnAgDMvkQPwRw2FHzkEgiAKK0+5vAXl8ArWLn19rFeLfAAAAAElFTkSuQmCC"
-		}
-	]
-```
--->
-<!--
-Consider the scenario wherein you want the smart assist bot to be able to search and recommend knowledge base articles. The actions required are given below.
-
-**Open knowledge base article**
-
-This action opens knowledge base article in an app tab in edit mode or opens up a knowledge base form.
--->
 
 Given below are the supported custom actions.
 
@@ -181,14 +122,7 @@ This custom action enables you to open any entity record.
 
 **SendKB custom action**
 
-This custom action enables you to send a knowledge base article. <!--It copies the knowledge base article URL to Conversation Control, which is then sent to the customer when the agent clicks on send button.-->
-<!--
-The custom actions required for implementing knowledge base search in the smart assist bot include the following:
-
-1. Open any entity form using the [openForm](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-navigation/openform) client API.
-2. Copy to Conversation Control.
-3. Open th URL in App tab.
--->
+This custom action enables you to send a knowledge base article. 
 
 > [!NOTE]
 > The `CustomAction` key should contain `SendKB` and `kbLink` key should contain the link of the KB article. You cannot have another custom action with the same name as `SendKB`.
@@ -209,10 +143,6 @@ The custom actions required for implementing knowledge base search in the smart 
 
 You can use the client-side APIs to open knowledge base articles. See [Client API reference for model driven apps](/powerapps/developer/model-driven-apps/clientapi/reference) for more information.
 
-<!--## Samples for adaptive cards
-
-Based on the intent extracted from an ongoing conversation, you can provide appropriate recommendations to the agent using adaptive cards. This section covers some examples for adaptive cards that can be used for various scenarios. You can use the [Adaptive Cards Designer](https://adaptivecards.io/designer/) to create your own adaptive card template.
--->
 
 ## See also
 

@@ -1,5 +1,5 @@
 ---
-title: Create a project opportunity 
+title: Create a project opportunity
 description: How to create a project opportunity in Project Service
 author: ruhercul
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 # Create a project opportunity (Project Service)
 

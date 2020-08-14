@@ -34,7 +34,8 @@
 ## [Price list](create-price-list.md)
 ## [Products and services](create-product-or-service.md)
 ## [Service task types](set-up-service-task-types.md)
-## [Inspections (public preview)](inspections.md)
+## [Work order summary reports](reports.md)
+## [Inspections](inspections.md)
 ## [Work order templates (incident types)](configure-incident-types.md)
 ## [Work order completion surveys](work-order-surveys.md)
 
@@ -115,7 +116,7 @@
 ## [Agreement sub-statuses](set-up-agreement-sub-statuses.md)
 ## [Entitlements](work-order-entitlements.md)
 
-# Asset management
+# Asset servicing 
 ## [Customer assets](configure-set-up-customer-assets.md)
 ## [Functional location](assets-functional-location.md)
 ## [Asset properties](asset-properties.md)

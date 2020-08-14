@@ -1,5 +1,5 @@
 ---
-title: Associate skills with resource roles 
+title: Associate skills with resource roles
 description: How to associate skills with resource roles in Project Service
 author: JohnPBurrows
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 
 # Associate skills with resource roles (Project Service)

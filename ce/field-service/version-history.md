@@ -42,29 +42,83 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 |  | Region | Current version | Next version |  Scheduled date
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Station 2</strong> | |  |  | |
-| | <i>South America</i> | [8.8.24.17](https://docs.microsoft.com/dynamics365/field-service/version-history#882417) | [8.8.25.29](https://docs.microsoft.com/dynamics365/field-service/version-history#882529) | 07/31/2020
-| | <i>Canada</i> | [8.8.24.17](https://docs.microsoft.com/dynamics365/field-service/version-history#882417) | [8.8.25.29](https://docs.microsoft.com/dynamics365/field-service/version-history#882529) | 07/31/2020
-| | <i>India</i> | [8.8.24.17](https://docs.microsoft.com/dynamics365/field-service/version-history#882417) | [8.8.25.29](https://docs.microsoft.com/dynamics365/field-service/version-history#882529) | 07/31/2020
-| | <i>France</i> | [8.8.24.17](https://docs.microsoft.com/dynamics365/field-service/version-history#882417) | [8.8.25.29](https://docs.microsoft.com/dynamics365/field-service/version-history#882529) | 07/31/2020
-| | <i>United Arab Emirates</i> | [8.8.24.17](https://docs.microsoft.com/dynamics365/field-service/version-history#882417) | [8.8.25.29](https://docs.microsoft.com/dynamics365/field-service/version-history#882529) | 07/31/2020
-| | <i>South Africa</i> | [8.8.24.17](https://docs.microsoft.com/dynamics365/field-service/version-history#882417) | [8.8.25.29](https://docs.microsoft.com/dynamics365/field-service/version-history#882529) | 07/31/2020
-| | <i>Germany</i> | [8.8.24.17](https://docs.microsoft.com/dynamics365/field-service/version-history#882417) | [8.8.25.29](https://docs.microsoft.com/dynamics365/field-service/version-history#882529) | 07/31/2020
+| | <i>South America</i> | [8.8.25.29](https://docs.microsoft.com/dynamics365/field-service/version-history#882529) | TBD | 08/28/2020
+| | <i>Canada</i> | [8.8.25.29](https://docs.microsoft.com/dynamics365/field-service/version-history#882529) | TBD | 08/28/2020
+| | <i>India</i> | [8.8.25.29](https://docs.microsoft.com/dynamics365/field-service/version-history#882529) | TBD | 08/28/2020
+| | <i>France</i> | [8.8.25.29](https://docs.microsoft.com/dynamics365/field-service/version-history#882529) | TBD | 08/28/2020
+| | <i>United Arab Emirates</i> | [8.8.25.29](https://docs.microsoft.com/dynamics365/field-service/version-history#882529) | TBD | 08/28/2020
+| | <i>South Africa</i> | [8.8.25.29](https://docs.microsoft.com/dynamics365/field-service/version-history#882529) | TBD | 08/28/2020
+| | <i>Germany</i> |[8.8.25.29](https://docs.microsoft.com/dynamics365/field-service/version-history#882529) | TBD | 08/28/2020
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> | [8.8.24.17](https://docs.microsoft.com/dynamics365/field-service/version-history#882417) | [8.8.25.29](https://docs.microsoft.com/dynamics365/field-service/version-history#882529) | 08/07/2020
-| | <i>Asia Pacific</i>  |  [8.8.24.17](https://docs.microsoft.com/dynamics365/field-service/version-history#882417) | [8.8.25.29](https://docs.microsoft.com/dynamics365/field-service/version-history#882529) | 08/07/2020
-| | <i>Great Britain</i>  |  [8.8.24.17](https://docs.microsoft.com/dynamics365/field-service/version-history#882417) | [8.8.25.29](https://docs.microsoft.com/dynamics365/field-service/version-history#882529) | 08/07/2020
-| | <i>Oceana</i>  |  [8.8.24.17](https://docs.microsoft.com/dynamics365/field-service/version-history#882417) | [8.8.25.29](https://docs.microsoft.com/dynamics365/field-service/version-history#882529) | 08/07/2020
+| | <i>Japan</i> |  [8.8.25.30](https://docs.microsoft.com/dynamics365/field-service/version-history#882530)| TBD | 09/04/2020
+| | <i>Asia Pacific</i>  |  [8.8.25.30](https://docs.microsoft.com/dynamics365/field-service/version-history#882530)| TBD | 09/04/2020
+| | <i>Great Britain</i>  |  [8.8.25.30](https://docs.microsoft.com/dynamics365/field-service/version-history#882530)| TBD |09/04/2020
+| | <i>Oceana</i>  | [8.8.25.30](https://docs.microsoft.com/dynamics365/field-service/version-history#882530)| TBD | 09/04/2020
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> | [8.8.24.17](https://docs.microsoft.com/dynamics365/field-service/version-history#882417) | [8.8.25.29](https://docs.microsoft.com/dynamics365/field-service/version-history#882529) | 08/14/2020
+| | <i>Europe</i> | [8.8.24.17](https://docs.microsoft.com/dynamics365/field-service/version-history#882417) | [8.8.25.30](https://docs.microsoft.com/dynamics365/field-service/version-history#882530) | 08/14/2020
 |<strong>Station 5</strong> | |  |  | |
-| | <i>North America</i> |[8.8.24.54](https://docs.microsoft.com/dynamics365/field-service/version-history#882454)| [8.8.25.29](https://docs.microsoft.com/dynamics365/field-service/version-history#882529) | 08/21/2020
+| | <i>North America</i> |[8.8.24.54](https://docs.microsoft.com/dynamics365/field-service/version-history#882454)| [8.8.25.30](https://docs.microsoft.com/dynamics365/field-service/version-history#882530) | 08/21/2020
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> |[8.8.24.54](https://docs.microsoft.com/dynamics365/field-service/version-history#882454)| [8.8.25.29](https://docs.microsoft.com/dynamics365/field-service/version-history#882529) | 08/21/2020
-| | <i>China</i> |[8.8.24.54](https://docs.microsoft.com/dynamics365/field-service/version-history#882454)| [8.8.25.29](https://docs.microsoft.com/dynamics365/field-service/version-history#882529) | 08/21/2020
+| | <i>Government Community Cloud</i> |[8.8.24.54](https://docs.microsoft.com/dynamics365/field-service/version-history#882454)| [8.8.25.30](https://docs.microsoft.com/dynamics365/field-service/version-history#882530) | 08/21/2020
+| | <i>China</i> |[8.8.24.54](https://docs.microsoft.com/dynamics365/field-service/version-history#882454)| [8.8.25.30](https://docs.microsoft.com/dynamics365/field-service/version-history#882530) | 08/21/2020
 
 >[!Note]
 > - Dates in all regions except Government Community Cloud (GCC) and China indicate the timing of the next automatic update. Dates in GCC and China indicate version availability; at this time, there is no automatic update for these regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 8.8.29.165 (2020 Wave 2 early access)
+(Includes Universal Resource Scheduling version [3.12.29.5](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#312295).)
+
+The release is only applied when an environment is opted in to early access and introduces the [Field Service 2020 Wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/service/dynamics365-field-service/planned-features) new and updated features as outlined for availability in early access:
+- Embedded Power BI Dashboard for key Field Service metrics
+- Improved work order metrics
+- Asset hierarchy and functional location
+- Usability improvements for key Field Service subgrids as dialogs
+- Enhanced skills-based matching in resource scheduling optimization
+- Predictive technician travel time
+- Travel outside of working hours
+- Enhanced work hours calendar for requirements
+- Connected Field Service on the Dynamics 365 Field Service mobile app
+- Field Service inspections
+- Technician time tracking on Dynamics 365 Field Service mobile app
+- Usability improvements for the field technician booking form
+- Calendar view for booking work orders
+
+In addition, this release includes the following changes that have the potential to change the existing system behavior or interface:
+
+- Improved logic around agreement booking dates, which have a button to manually “Generate Work Order.” Previously, this button was available when a work order had already been generated. In this release, we improved the logic associated with this button to ensure this button was not available if the work order had already been generated.
+- Corrected the display position of the map control in the “Location” tab for the work orders in the Field Service Mobile app’s default work order form. Previously, the map control appeared between the latitude and longitude fields. It now appears above these fields.
+- When an incident type is applied to a work order, it results in the automatic creation of a work order incident which can automatically create work order products, work order services, and work order service tasks. These records are associated to the work order and work order incident. If the primary incident customer asset field referenced a customer asset, all resulting records would also be related to the same customer asset. The release improves the logic for customer asset association on these records when a work order incident’s customer asset is updated. Previously, if the customer asset on a work order incident was updated, it would not update the related work order products, work order services, or work order service tasks. It will now update these records appropriately, assuming the customer asset value of the child records matched the pre-change value of the work order incident.
+- Corrected a poor system behavior where, when updating a work order service record’s line status from “Estimated” to “Used,” the estimated discount percent value was not autopopulated into the discount percent field. This value will now autopopulate per the estimated value when the line is set to “Used.”
+- Improved the error message on a purchase order receipt product when a user tries to change the quantity or unit after a related purchase order bill has been created.
+- Improved display handling of the agreement and invoice subgrids on the account forms where a user may not have permissions to these related records. Previously, these subgrids would display with an error about the user’s permissions; however, now, these subgrids will not show on the form in such cases of insufficient permissions.
+- Resolved an issue with the Field Service resource role’s permissions. Previously, this role was missing the “Append To” privilege on customer asset, which caused issues when trying to create customer assets.
+- Improved the subgrid name for work order products on the default work order form for the Field Service Mobile app.
+- Fixed an issue where the value for customer asset was not being copied into work order products, work order services, and work order service tasks which were created from agreement booking products, agreement booking services, and agreement booking service tasks which were not related to an agreement booking incident. This association will now flow down, as expected.
+- Added the "Field Service - Resource" role to the new app module for Field Service Mobile.
+- Corrected some consistency issues with the labeling for “Work Hours Templates.”
+- Adding a notification on agreement booking setups and agreement invoice setups to highlight that related work orders, invoices, and dates will not generate when users create or updates the agreement sub-records when the parent agreement’s System Status is not active.
+- Improved work order validation of the latitude and longitude fields to ensure that, if either value is populated, both values are populated, and that the values are valid.
+- Improved warning messages on the booking form. It is not advised to use a work order’s booking through more than one booking lifecycle. It should only go through the lifecycle once (scheduled -> traveling -> in-progress -> complete). Some organizations which reuse a single booking through more than one lifecycle began receiving a form notification that, while allowed, such practices are not advised. This warning previously mentioned time entry generation any time it was displayed; it will now only mention time entry generation when the environment is configured to auto-generate time entries to avoid confusion.
+- Enhanced logic for work order service task naming if the work order service task was created from a work order incident as a result of the incident type’s incident service task. In such cases, if the incident service task has a name, the work order service task’s name will come from the incident service task; previously, the work order service task’s name was always the name of the related service task type. If the incident service task’s name is blank, the work order service task’s name will default to the service task type’s name.
+- Removed unnecessary code that enforced that the booking and journal type fields on a booking journal would be editable under certain circumstances. These fields will now behave the way the rest of the fields on the booking journal behave.
+- On the case entity, when Field Service is installed, there is a ribbon button to “Convert to WO.” Previously, this button was in an undiscoverable location. This button has been moved to be more discoverable.
+- Improved Field Service Mobile’s user experience for tablet users to ensure proper column width, improved quick create experience, and improved subgrid usability on the booking’s Service tab.
+- Changed behavior on the agreement booking service tasks. Previously, when changing the value of the related task type, the description field would always be cleared. Now it will only be cleared if the new value for task type has an overriding value; otherwise, the value will not be cleared by default.
+- Updated the name for the “My Open Resource Bookings (Field Service Information)” view to simply “Bookings” for optimal use and display in Field Service Mobile.
+- Removed some fields from the default configuration of the booking entity’s default form for the Service tab to improve usability of Field Service Mobile.
+- Replaced the address control used in the Field Service Mobile forms for the account and work order entities with a new control optimized for mobile use.
+- Enhanced the automatic copy logic for related resource preference records onto work orders created for the same account. Previously, when these records were copies, resource preferences of type “Must Choose From” on the account were not being copied to the work order. They will now be copied, as well.
+- Improved usability of the booking’s service tab in Field Service Mobile to show five records in the subgrids, by default, instead of just two, as was the previous behavior.
+- Minor improvement to tax calculation on the work order record to ensure that rounding rules resulted in a consistent value between the work order’s tax calculation and the invoice’s tax calculation. Under certain circumstances, previously, these values could be inconsistent by at the second decimal due to rounding differences.
+- Updated the taxable field in Field Service Mobile forms for work order, work order service, and work order product to use a new toggle control for simplified mobile usability.
+- Improved all default views for work order product, work order service, and work order service task to swap the Product, Service, and Task Type fields respectively with the Name field to improve default view usability.
+- Enhanced validation on the agreement entity when setting the price list to ensure that the currency set on the price list is the same currency set on the related billing account. Previously, this validation was not present which led to the potential for downstream errors on work order generation since the work order expects currency consistency between these two fields. Now, this validation is present at the agreement, ensuring agreement creation and update will protect downstream operations of the work order.
+- Removed incorrect defaulting logic on creation of work order service, work order product, or work order service task records that were not related to a work order incident. Previously, these records would be associated to the primary incident’s customer asset; however, they will now be left blank by default as they are not necessarily related to the primary incident’s customer asset.
+
+## 8.8.25.30
+(Includes Universal Resource Scheduling version [3.12.24.5](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#312245)) 
+- Includes all content from Field Service version 8.8.25.29
 
 ## 8.8.25.29
 (Includes Universal Resource Scheduling version [3.12.24.4](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#312244)) 

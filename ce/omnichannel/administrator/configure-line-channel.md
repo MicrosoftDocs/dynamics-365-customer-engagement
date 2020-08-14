@@ -4,7 +4,7 @@ description: "Instructions to configure a LINE channel in Omnichannel for Custom
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 06/25/2020
+ms.date: 08/06/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -67,17 +67,38 @@ After completing the prerequisites, you can add the LINE channel for your organi
    > [!div class=mx-imgBorder]
    > ![LINE callback information](../media/line-create-new-channel-2.png "LINE callback information")
 
-More information about the LINE app: [Setting up your LINE app](https://developers.line.biz/en/docs/messaging-api/getting-started/#creating-a-channel)
- 
-> [!div class=mx-imgBorder]
-> ![LINE account information](../media/line-create-new-channel-1.png "LINE account information")
+   > More information about the LINE app: [Setting up your LINE app](https://developers.line.biz/en/docs/messaging-api/getting-started/#creating-a-channel)
 
-> [!div class=mx-imgBorder]
-> ![LINE callback information](../media/line-create-new-channel-2.png "LINE callback information")
+8. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
+    
+9. On the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
 
 The LINE channel setup is complete.
 > [!NOTE]
 > You can only add one **LINE account** per **LINE Application** channel.
+
+## Modify settings for a specific LINE account 
+
+1. In the Omnichannel Administration app, go to your LINE application and select the LINE account you want to modify. 
+
+2. On the **General settings** tab, provide the following information:
+    
+    - **Language**: Select the preferred language for your LINE account.
+    
+    - **Work stream**: Select an existing work stream or create a new one.
+
+    - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set **No**. 
+
+    - **Enable file attachments for agents**: Set to **Yes** to allow agents to send file attachments to customers. When the agent sends an attachment, the app sends the blob storage URL to the channel. Otherwise, set **No**. 
+    
+       To learn more about attachments, see [Enable file attachments](enable-file-attachments.md). 
+       
+       To learn more about uploading media in LINE, see [LINE developer documentation](https://developers.line.biz/en/docs/messaging-api/message-types/).
+
+3. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
+    
+4. On the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
+
 
 ## Create routing rules
 
@@ -118,4 +139,7 @@ Customers are solely responsible for using Dynamics 365, this feature, and any a
 ### See also
 
 [Understand and create work streams](work-streams-introduction.md)<br>
-[Create and manage routing rules](routing-rules.md)
+[Configure automated messages](configure-automated-message.md)<br> 
+[Configure a post-conversation survey](configure-post-conversation-survey.md)<br>
+[Create and manage routing rules](routing-rules.md)<br>
+[Delete a configured channel](delete-channel.md)
