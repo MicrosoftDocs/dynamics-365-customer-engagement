@@ -2,7 +2,7 @@
 title: "Install preview features for Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 04/28/2020
+ms.date: 08/14/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -67,8 +67,13 @@ Here's an example of all the PowerShell commands we'll run; you can follow with 
     Get-CrmFlights -ApiUrl $url -Credential $cred  
     Add-CrmFlightAudience -ApiUrl $url -FlightId "092718c6-8031-43f7-b957-2b2e662ebf46" -InstanceId "d9bee8b4-995f-4d78-83c0-8b55e471245d" -Credential $cred 
 
+## Step 2: Run command for secuirty protocol
 
-## Step 2: Run command to install API
+Run the following command:
+
+        [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12”
+
+## Step 3: Run command to install API
 
 Run the following command:
 
@@ -78,7 +83,7 @@ Run the following command:
 > ![Screenshot of the PowerShell window, running as administrator.](./media/preview-powershell-run-first-command.png)
 
 
-## Step 3: Run commands for username and password
+## Step 4: Run commands for username and password
 
 Run the following command; be sure to substitute your own username. This username reflects a user with system administrator security role:
 
@@ -92,7 +97,7 @@ Run the following command:
 
         $cred = New-Object System.Management.Automation.PSCredential ($user, (ConvertTo-SecureString $password –ASPlainText –Force)) 
 
-## Step 4: Run command for your URL
+## Step 5: Run command for your URL
 
 Next, check the article on [Service URLs](https://docs.microsoft.com/powerapps/developer/common-data-service/online-management-api/get-started-online-management-api#service-url).
 
@@ -100,7 +105,7 @@ Run the following command, substituting the service URL based on your environmen
 
         $url = “https://admin.services.crm.dynamics.com” 
 
-## Step 5: Run command to get preview flights
+## Step 6: Run command to get preview flights
 
 Run the following command:
 
@@ -116,7 +121,7 @@ You will see a list of preview features.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Windows PowerShell, showing a list of features in preview.](./media/preview-powershell-previewlist.png)
 
-## Step 6: Find ID of preview flight
+## Step 7: Find ID of preview flight
 
 Find the preview feature you would like to add to your environment and note the ID. In our example, it's the ID for **FieldService_April2020_PreviewFlight**.
 
@@ -129,7 +134,7 @@ Run the following command by substituting the ID of the preview feature found in
 
 It will say **Added to Flight**.
 
-## Step 7: Install or upgrade preview version of Field Service 
+## Step 8: Install or upgrade preview version of Field Service 
 
 The following applies to both installing Field Service in an environment without the app and upgrading existing versions to the preview version.
 
@@ -150,7 +155,7 @@ Back in the list of apps, you'll see it has a status of "Installing..."
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Power Platform admin center, showing Field Service in the list of Dynamics 365 apps, installing.](./media/preview-admin5.jpg)
 
-## Step 8: Verify preview flight is installed
+## Step 9: Verify preview flight is installed
 
 Here is an example of the apps that may be in your Dynamics 365 environment *before* installing the preview flight.
 
