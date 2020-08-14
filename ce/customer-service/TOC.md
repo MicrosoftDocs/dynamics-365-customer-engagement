@@ -72,13 +72,12 @@
 #### [Define subjects to categorize cases](../admin/define-subjects-categorize-cases-products-articles.md)
 
 ### Service Terms
-#### [Define service level agreements (SLAs)](define-service-level-agreements.md)
+#### [Define service-level agreements](define-service-level-agreements.md)
 #### [Enable entities for service level agreements](enable-entities-service-level-agreements.md)
 #### [Create entitlements to define support terms](create-entitlement-define-support-terms-customer.md)
 #### [Create and manage holiday schedule](set-up-holiday-schedule.md)
 #### [Create customer service schedule](create-customer-service-schedule-define-work-hours.md)
 #### [Manage service configuration settings](../admin/system-settings-dialog-box-service-tab.md)
-#### [Contract to entitlements migration strategy](contract-to-entitlement-migration.md)
 ### Templates
 #### [Set up entitlements using entitlement templates](set-up-entitlements-templates.md)
 #### [Create email templates](../admin/create-templates-email.md)
@@ -173,11 +172,11 @@
 ### [Configure interactive dashboards](configure-interactive-dashboards-customer-service-hub.md)
 ### [Modify case resolution dialog box](../customer-service/customer-service-hub-user-guide-modify-case-resolution-dialog.md)
 
-## Migration tools
+## Migration solutions
 
-### [Automatic Record Creation (ARC) and Service Level Agreement (SLA) migration](migrate-automatic-record-creation-and-sla-agreements.md)
+### [Migration tool for automatic record creation rules and service-level agreements](migrate-automatic-record-creation-and-sla-agreements.md)
+### [Contract to entitlements migration strategy](contract-to-entitlement-migration.md)
 
-### [Contracts to entitlements migration](contract-to-entitlement-migration.md)
 
 ### Service Scheduling Migration
 #### [Introduction to service scheduling migration](introduction-migration-entity-records.md)

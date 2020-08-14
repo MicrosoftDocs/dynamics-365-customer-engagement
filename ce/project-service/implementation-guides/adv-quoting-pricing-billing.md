@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 
 # Advanced quoting, pricing, and billing guide

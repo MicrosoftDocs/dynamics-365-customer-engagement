@@ -1,6 +1,6 @@
 ---
-title: Sales processes 
-description: This topic provides information about the basic sales processes.  
+title: Sales processes
+description: This topic provides information about the basic sales processes.
 author: rumant
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 
 # Sales processes

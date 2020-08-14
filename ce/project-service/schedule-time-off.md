@@ -1,5 +1,5 @@
 ---
-title: Schedule time off 
+title: Schedule time off
 description: How to schedule time off in Project Service
 author: revathimuthiah
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 # Schedule time off (Project Service)
 

@@ -1,5 +1,5 @@
 ---
-title: Quotes and quote lines 
+title: Quotes and quote lines
 description: This topic provides information about quotes and quote lines.
 author: rumant
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 
 # Quotes and quote lines

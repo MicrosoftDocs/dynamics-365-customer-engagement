@@ -118,8 +118,7 @@
 
 
 ### Settings
-#### [Enable language translation for conversations](administrator/enable-real-time-translation.md)
-#### [Create and manage operating hours](administrator/create-operating-hours.md)
+#### [Enable real-time translation of conversations](administrator/enable-real-time-translation.md) 
 #### [Set up location detection](administrator/geo-location-provider.md)
 #### [Create message templates](administrator/create-message-templates.md)
 #### [Create and manage data masking rules](administrator/data-masking-settings.md)
@@ -330,6 +329,8 @@
 #### [msdyn_sentimentanalysis](developer/reference/entities/msdyn_sentimentanalysis.md)
 #### [msdyn_sessionevent](developer/reference/entities/msdyn_sessionevent.md)
 #### [msdyn_sessionparticipant](developer/reference/entities/msdyn_sessionparticipant.md)
+#### [msdyn_soundfile](developer/reference/entities/msdyn_soundfile.md)
+#### [msdyn_soundnotificationsetting](developer/reference/entities/msdyn_soundnotificationsetting.md)
 #### [msdyn_smsengagementctx](developer/reference/entities/msdyn_smsengagementctx.md)
 #### [msdyn_smsnumber](developer/reference/entities/msdyn_smsnumber.md)
 #### [msdyn_surveyquestion](developer/reference/entities/msdyn_surveyquestion.md)

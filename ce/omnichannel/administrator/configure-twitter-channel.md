@@ -4,7 +4,7 @@ description: "Instructions to configure a Twitter Direct Message channel in Omni
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 08/03/2020
+ms.date: 08/05/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -83,9 +83,11 @@ After completing the prerequisites, you can add the Twitter channel for your org
 
     - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set **No**. 
 
-    - **Enable file attachments for agents**: Set to **Yes** to allow agents to send file attachments to customers. Otherwise, set **No**. 
+    - **Enable file attachments for agents**: Set to **Yes** to allow agents to send file attachments to customers. When the agent sends an attachment, the app uploads the attachment to Twitter and captures the media ID. Otherwise, set **No**. 
     
-       To learn more about attachments, see [File attachments](enable-file-attachments.md). 
+       To learn more about attachments, see [File attachments](enable-file-attachments.md).
+       
+       To learn more about uploading media in Twitter, see [Twitter developer documentation](https://developer.twitter.com/en/docs/media/upload-media/uploading-media/media-best-practices).
        
        > [!div class=mx-imgBorder]
        > ![Twitter work stream](../media/twitter-create-handle.png "Twitter work stream")

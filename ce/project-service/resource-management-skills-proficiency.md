@@ -1,5 +1,5 @@
 ---
-title: Skills and proficiency models 
+title: Skills and proficiency models
 description: This topic provides information about how to use the skills and proficiency models.
 author: ruhercul
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 
 # Skills and proficiency models

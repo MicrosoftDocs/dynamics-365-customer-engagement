@@ -6,7 +6,7 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: krbjoran
 ms.custom:
   - dyn365-fieldservice
-ms.date: 08/03/2020
+ms.date: 08/10/2020
 ms.topic: article
 ms.prod:
 ms.technology:
@@ -76,6 +76,12 @@ Field service capabilities include:
 - [RASCO](https://customers.microsoft.com/story/828538-rasco-discrete-manufacturing-dynamics365-en-croatia?_lrsc=28be62af-daf6-4315-9dc7-845eb10f60a1)
 
 - [Toyota](https://customers.microsoft.com/en-us/story/toyota-industries-corporation)
+
+- [Real Estate & Facilities (within Microsoft)](https://www.microsoft.com/itshowcase/blog/microsoft-field-technicians-get-their-mobility-back-with-dynamics-365-app/?elevate-lv&_lrsc=80ec2291-74e8-4a9f-ab2b-4edf95f2ab48)
+
+- [NAVCO](https://customers.microsoft.com/story/790284-navco-professional-services-dynamics-365)
+
+- [Rockwell Automation](https://customers.microsoft.com/story/786160-rockwell-automation-manufacturing-dynamics-365)
 
 ## Field Service roles
 

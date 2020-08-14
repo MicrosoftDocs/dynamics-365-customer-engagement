@@ -4,7 +4,7 @@ description: "Learn about the Microsoft Teams channel and how to configure the c
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/03/2020
+ms.date: 08/06/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -85,9 +85,11 @@ Make sure that the following prerequisites are met:
 
     - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set **No**. 
 
-    - **Enable file attachments for agents**: Set to **Yes** to allow agents to send file attachments to customers. Otherwise, set **No**. 
+    - **Enable file attachments for agents**: Set to **Yes** to allow agents to send file attachments to customers. When the agent attempts to send an attachment, the app requests the customer's consent. The attachment is stored in the customer's OneDrive. Otherwise, set **No**.  
     
-       To learn more about attachments, see [File attachments](enable-file-attachments.md). 
+       To learn more about attachments, see [Enable file attachments](enable-file-attachments.md). 
+       
+       To learn more about uploading media in Microsoft Teams, see [Microsoft Teams documentation](https://docs.microsoft.com/microsoftteams/platform/resources/bot-v3/bots-files).
 
 3. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
     

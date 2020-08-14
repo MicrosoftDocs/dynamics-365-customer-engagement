@@ -1,5 +1,5 @@
 ---
-title: Migrate Automatic Record Creation (ARC) and Service Level Agreements (SLAs) rules.
+title: Migrate automatic record creation rules and service-level agreements | MicrosoftDocs
 author: lerobbin
 ms.author: lerobbin
 manager: shujoshi
@@ -17,11 +17,11 @@ search.app:
   - D365CS
 ---
 
-# Preview: Migrate Automatic Record Creation (ARC) and Service Level Agreements (SLAs)
+# Preview: Migrate automatic record creation rules and service-level agreements
 
 [!include[cc-early-access](../includes/cc-early-access.md)]
 
-The Dynamics 365 Customer Service Hub app has several features and functionalities that replace the rules in the legacy Customer Service app. The rules for Automatic Record Creation (ARC) and Service Level Agreements (SLAs) are now supported by Power Automate-based flows to make the transition to the new platform easier to manage.
+The Dynamics 365 Customer Service Hub app has several features and functionalities that replace the rules in the legacy Customer Service app. The automatic record creation rules and service-level agreements (SLAs) are now supported by Power Automate-based flows to make the transition to the new platform easier to manage.
 
 The following topic provides an overview on the migration tool that allows legacy rules for ARC and SLAs to be transferred to the Customer Service Hub app for easier access.
 
@@ -37,12 +37,13 @@ The migration tool provides the following functionality:
 
 ## Prerequisites
 
-- Customer Service licensing 
-- ARC must have a Customer Service version of 9.0.20034.20XX or higher environment to opt in for migration
-- SLA must have a Customer Service version of 9.0.20053.1030 or higher enironment to opt in for migration
-- Administrator permissions 
+- Customer Service license.
+- For migrating automatic record creation rules, your environment must have Customer Service version 9.0.20034.20XX or later to opt in for migration.
+- For migrating SLAs, your environment must have Customer Service version 9.0.20053.1030 or later to opt in for migration.
+- Administrator permissions.
 
-### Working with rules 
+### Working with rules
+
 Before you run the migration tool, it is important to understand how the modern ARC and SLA rules work in the Customer Service Hub app.
 
 When you perform your migration, you will only receive detailed results on rules that have failed the pre-migration checkup or creation, or those that were partially migrated (incomplete).  
@@ -108,8 +109,8 @@ When you have successfully accessed the migration tool, choose from one of the f
 
 ## Migration tool for first-time users
 
-The migration landing page shown below is what will display for first-time users and provides the following: 
-1.	An overview of both ARC and SLAs rules.
+The migration landing page shown is what will be displayed for first-time users and provides the following: 
+1.	An overview of the automatic record creation rules and SLAs.
 2.	**Total** - Displays the number of legacy rules available overall.
 3.	**Migrated** - Displays the number of rules you have migrated.
 4.	**Pending** - Displays the number of rules you have pending migration (includes failed rules, partially or incomplete migrated rules, and rules that have not been attempted).
@@ -119,7 +120,7 @@ The migration landing page shown below is what will display for first-time users
 
 > ![Migration tool first-time user overview](media\migration-tool-first-time-users-1.png  "Migration tool first-time user overview")
 
-When you select **Start migration**, the migration tool takes you through the migration process, which consists of the following steps: 
+When you select **Start migration**, the migration tool takes you through the migration process, which consists of the following steps:
 
 **Step 1:** [Category to migrate](migrate-automatic-record-creation-and-sla-agreements.md#step-2-pre-migration-checkup)  <br>
 **Step 2:** [Pre-migration checkup](migrate-automatic-record-creation-and-sla-agreements.md#step-1-category-to-migrate) <br>
@@ -148,7 +149,7 @@ The **Step 1** screen provides:
 
 The **Step 2** screen provides a pre-migration check that displays what the actual migration results will look like so you can mitigate potential migration failures before you begin.  
 
-The **Pre-migration checkup** can be performed on ARC or SLA or both depending on your selection from the previous screen.       
+The **Pre-migration checkup** can be performed on ARC or SLA or both depending on your selection from the previous screen.
 
 As a first-time user, you won't have any insights until you complete the Pre-migration Checkup. When the Pre-migration Checkup is complete, the following overview is displayed and shows:
 
@@ -236,7 +237,7 @@ When migration is complete the following screen displays with the following deta
 
 1.	**Selected** - Displays the total number of rules that were selected for the current migration run.
 2.	**Migrated** - Displays the total number of rules that successfully completed migration.
-3.	**Incomplete** - Displays the total number of rules that encountered errors and didn't succesfully complete migration. See [Incomplete Migration Details](#incomplete-migration-details) for more information.
+3.	**Incomplete** - Displays the total number of rules that encountered errors and didn't successfully complete migration. See [Incomplete Migration Details](#incomplete-migration-details) for more information.
 4.	**Migration Status** - Displays either green check mark ![green check mark](media\migration-tool-step-5-green-check-first-time-users-3.png "green check mark")  which represents rules successfully migrated or a red exclamation mark ![red exclamation mark](media\migration-tool-step-5-red-check-first-time-users-3.png "red exclamation mark")   which represents some or all rules did not successfully complete migration.
 5.	**Finish** - Completes the migration process when finished.
 
@@ -280,7 +281,7 @@ When you activate new rules for either ARC or SLA, the following screen displays
 When you select a **Rule name** ending in **\_migrated**, the following displays:
 
 1.  Go to the **Migration details** tab 
-2.	**Mark as complete** - Contains a toggle feature that identifies whether a rule has completed migration (**Yes**), or has not completed and/or has only paritally completed migration (**No**).  <BR><BR> The administrator can review the incomplete rule and choose to resolve the issue and move the toggle to **Yes**, which then updates the migration status to **Migrated**. 
+2.	**Mark as complete** - Contains a toggle feature that identifies whether a rule has completed migration (**Yes**), or has not completed and/or has only partially completed migration (**No**).  <BR><BR> The administrator can review the incomplete rule and choose to resolve the issue and move the toggle to **Yes**, which then updates the migration status to **Migrated**. 
 
     > [!Note]
     > - When an administrator moves the toggle to **Yes**, this confirms that the rule has been successfully migrated and therefore won't be picked up in subsequent migrations.
@@ -315,7 +316,7 @@ This step allows you to select the rules you want to migrate.
 
 When preparing to rerun the **Pre-migration checkup** process step, it only reviews the rules that previously did not pass. You can download the details provided to troubleshoot errors and make updates in the Unified Client Interface or legacy system before you rerun your migration.
 
-1.	**Yellow notification message** - Reminds you that rules that were previously migrated successfully will automatically be skipped in a rerun of the pre-migration checkup process. This also includes rules that the adminstrator has confirmed.
+1.	**Yellow notification message** - Reminds you that rules that were previously migrated successfully will automatically be skipped in a rerun of the pre-migration checkup process. This also includes rules that the administrator has confirmed.
 2.	**Total** - Shows the number of rules that are available for migration. The pre-migration checkup process only focuses on running rules that have not been migrated completely, not attempted previously, or failed to create, which is reflected in the total count.
 
 > ![Migration Tool for experienced users - step 2](media\migration-tool-step-2-experienced-users-1.png "Migration Tool for experienced users - step 2")
