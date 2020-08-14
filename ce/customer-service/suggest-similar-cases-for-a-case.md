@@ -109,15 +109,18 @@ See the below table to understand how search results are impacted when Relevance
 2. Select the **Settings** > **Customizations**.
 
 3. On the **Customizations** page, select **Customize the System**.
+  
   The **Information** page is displayed.
 
 4. In the left pane, expand **Entities**, go to the entity you want to customize, expand it, and then select **Views**.
-  A view page with a list of items is displayed.
   
-  ![Views page](media/quick-find-view.png "Select Views")
+  A view page with a list of items is displayed.
 
 5. Double-click **Quick Find </entity name>** for the entity. (Note: You might need to scroll down to find this option.)
+  
   A view page is displayed.
+  
+  ![Views page](media/quick-find-view.png "Select Views") 
   
 6. On the right-hand side, select **Add Find Columns**.
    
@@ -128,7 +131,6 @@ See the below table to understand how search results are impacted when Relevance
 7. Select the checkbox for the entity you want to be an exact match field.
 
   ![Exact match options](media/select-entities-view.png "Select the checkbox for the entity you want to be an exact match")
-
 
 8. Select **Save and Close**.
 
