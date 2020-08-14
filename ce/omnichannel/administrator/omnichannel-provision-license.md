@@ -4,7 +4,7 @@ description: "Provision Omnichannel for Customer Service to add or remove channe
 author: lalexms 
 ms.author: laalexan
 manager: shujoshi
-ms.date: 05/20/2020
+ms.date: 08/14/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
