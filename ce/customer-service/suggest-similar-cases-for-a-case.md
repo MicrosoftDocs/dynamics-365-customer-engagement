@@ -120,7 +120,7 @@ See the below table to understand how search results are impacted when Relevance
   
    A view page is displayed.
   
-  ![Views page](media/quick-find-view.png "Select Views") 
+   ![Views page](media/quick-find-view.png "Select Views") 
   
 6. On the right-hand side, select **Add Find Columns**.
    
