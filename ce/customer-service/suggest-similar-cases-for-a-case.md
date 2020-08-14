@@ -4,7 +4,7 @@ description:
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/03/2020
+ms.date: 08/14/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -104,17 +104,38 @@ See the below table to understand how search results are impacted when Relevance
 
  Follow the below steps to enable a field for exact match of similar cases.
 
-1. Go to **Settings** > **Customizations** > **Customize the System**.  
+1. In Customer Service Hub, go to **Settings** > **Advanced Settings**. 
+  
+2. Select the **Settings** > **Customizations**.
 
-2. Expand **Entities**, go to **Case** entity and then select **Fields**.  
+3. On the **Customizations** page, select **Customize the System**.
+  The **Information** page is displayed.
 
-3. Select a field and select **Edit** to edit the properties. 
+4. In the left pane, expand **Entities**, go to the entity you want to customize, expand it, and then select **Views**.
+  A view page with a list of items is displayed.
+  
+  ![Views page](media/quick-find-view.png "Select Views")
 
-4. In the **Schema** section of the **General** tab, select **Yes** for **Searchable**  in the drop-down list.
+5. Double-click **Quick Find </entity name>** for the entity. (Note: You might need to scroll down to find this option.)
+  A view page is displayed.
+  
+6. On the right-hand side, select **Add Find Columns**.
+   
+  ![Add Find Columns](media/add-find-columns.png "Select Add Find Columns")
+  
+   The Add Find Columns screen is displayed.
+   
+7. Select the checkbox for the entity you want to be an exact match field.
 
-5. Select **Save**, and then select **Save and Close** to save the setting. Publish this customization to enable exact matching for the field.
+  ![Exact match options](media/select-entities-view.png "Select the checkbox for the entity you want to be an exact match")
 
-    ![Setting for exact match](media/exact-match.png)
+
+8. Select **Save and Close**.
+
+   You are returned to the **Settings** page.
+   
+9. Select **Publish All Customizations** to finish enabling exact matching for the field.
+
 
 ## See similar case suggestions in the Customer Service Hub
 
