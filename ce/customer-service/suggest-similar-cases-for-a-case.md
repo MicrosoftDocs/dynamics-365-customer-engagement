@@ -132,7 +132,11 @@ See the below table to understand how search results are impacted when Relevance
 
    ![Exact match options](media/select-entities-view.png "Select the checkbox for the entity you want to be an exact match")
 
-8. Select **Save and Close**.
+8. Select **OK**
+
+   You are returned to the **Quick Find </entity name?** page.
+
+9. Select **Save and Close**.
 
    You are returned to the **Settings** page.
    
