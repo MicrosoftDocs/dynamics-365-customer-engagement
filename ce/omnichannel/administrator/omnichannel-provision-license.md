@@ -48,10 +48,10 @@ To allow Omnichannel for Customer Service to read and write data on behalf of us
 > [!NOTE]
 > Ensure that you have provided data access consent before you proceed with the setup. For more information, see [Provide data access consent](#provide-data-access-consent).
 
-1. In **Dynamics 365 Administration Center**, go to the **Applications** tab, select **Omnichannel for Customer Service**, and then select **Manage**.
+1. In **Power Platform Admin Center**, go to the **Resources** item in the left navigation and click the arrow to expand. Select **Dynamics 365 Apps**, find **Omnichannel for Customer Service** in the list, click the **...** and then select **Manage**.
       
     > [!div class=mx-imgBorder]
-    > ![Manage omnichannel](../media/manage-oc.png)
+    > ![Manage omnichannel](../media/OC-provisioning-ppadmin.png)
 
     The **Manage Omnichannel environments** page is displayed.
 
