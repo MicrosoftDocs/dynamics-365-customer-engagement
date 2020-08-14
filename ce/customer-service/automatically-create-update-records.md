@@ -4,7 +4,7 @@ description: Know how to automatically create or update records by setting up ru
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/11/2020
+ms.date: 08/14/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -190,6 +190,10 @@ Perform the following steps in Power Automate to manually map unknown email send
 1. Edit the rule in which you want to configure the manual mapping of contact.
 2. On the **Condition builder** tab, select **Save and open Power Automate**. The Power Automate workflow opens on a new tab.
 3. In the **Create a record (don't rename this step)** step of the workflow, specify the required value in the **Customer (Contacts)** box.
+   
+> [!IMPORTANT]
+> Make sure you map a contact in the **Customer (Contacts)** box and an account in the **Customer (Account)** box for the workflow to run without errors.
+ 
 4. Save and close.
    
    > [!div class=mx-imgBorder]
