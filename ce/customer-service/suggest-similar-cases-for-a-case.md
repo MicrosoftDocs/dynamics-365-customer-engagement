@@ -118,15 +118,15 @@ See the below table to understand how search results are impacted when Relevance
 
 5. Double-click **Quick Find </entity name>** for the entity. (Note: You might need to scroll down to find this option.)
   
-   A view page is displayed.
-  
    ![Views page](media/quick-find-view.png "Select Views") 
+   
+   A view page is displayed.
   
 6. On the right-hand side, select **Add Find Columns**.
    
    ![Add Find Columns](media/add-find-columns.png "Select Add Find Columns")
   
-   The Add Find Columns screen is displayed.
+   The **Add Find Columns** page is displayed.
    
 7. Select the checkbox for the entity you want to be an exact match field.
 
@@ -134,7 +134,7 @@ See the below table to understand how search results are impacted when Relevance
 
 8. Select **OK**
 
-   You're returned to the **Quick Find </entity name?** page.
+   You're returned to the **Quick Find </entity name>** page.
 
 9. Select **Save and Close**.
 
