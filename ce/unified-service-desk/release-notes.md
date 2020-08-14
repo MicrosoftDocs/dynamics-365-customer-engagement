@@ -226,7 +226,7 @@ The following features are not available in Unified Service Desk:
 
 #### Work around
 
-Upgrade to the latest version of Omnichannel for Customer Serivce to get all the new features. Agents should avoid transferring conversations from the Omnichannel for Customer Service app (web client) to a USD client.
+Upgrade to the latest version of Omnichannel for Customer Serivce to get all the new features. Agents should avoid transferring conversations from the Omnichannel for Customer Service app (web client) to a Unified Service Desk client.
 
 ## See also
 
