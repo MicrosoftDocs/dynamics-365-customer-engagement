@@ -145,9 +145,9 @@ See the below table to understand how search results are impacted when Relevance
 > [!NOTE]
  >
  > For a field to be eligible for exact matching, it must meet the following criteria:
-  - It can't be a Primary Key.
-  - It can't be these types: String, Memo, Picklist, Boolean, Whole Number, Two Options, Date and Time, or Floating Point Number.
-  - It can be these types: Lookup, OptionSet, Customer, Owner, Status, State, Status Reason.
+ > - It can't be a Primary Key.
+ > - It can't be these types: String, Memo, Picklist, Boolean, Whole Number, Two Options, Date and Time, or Floating Point Number.
+ > - It can be these types: Lookup, OptionSet, Customer, Owner, Status, State, Status Reason.
 
 ## See similar case suggestions in the Customer Service Hub
 
