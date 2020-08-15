@@ -69,16 +69,17 @@ The **Cost tracking** view compares the actual cost that was spent on a task to 
 
 PSA uses the following formulas to calculate the tracking metrics:
 
-- Percentage of cost consumed = Actual cost spent to date ÷ Estimated cost at completion
-- Cost to complete (CTC) = Planned cost – Actual cost spent to date
-- EAC = Remaining cost + Actual cost spent to date
-- Projected cost variance = Planned cost – EAC
+Initially on the task: Planned cost will be set to the Estimated cost at complete. Once Actuals are recorded on the task, the following will be calculation on the Tracking view for Cost
+Percentage of cost consumed = Actual cost spent to date ÷ Estimated cost at complete for the task
+Cost to complete (CTC) = Estimated cost at complete – Actual cost spent to date
+Estimated cost at complete = CTC + Actual cost spent to date
+Projected cost variance = Planned cost – Estimated cost at complete
 
-A projection of the cost variance is shown on the task. If the EAC is more than the planned cost, the task is projected to cost more than was originally planned. Therefore, it's trending over budget. If the EAC is less than the planned cost, the task is projected to cost less than was originally planned. Therefore, it's trending under budget.
+A projection of the cost variance is shown on the task. If the Estimated cost at complete is more than the planned cost, the task is projected to cost more than was originally planned. Therefore, it's trending over budget. If the Estimated cost at complete is less than the planned cost, the task is projected to cost less than was originally planned. Therefore, it's trending under budget.
 
 ## Project manager’s reprojection of cost
 
-When effort is reprojected, the CTC, EAC, percentage of cost consumed, and projected cost variance are all recalculated in the **Cost tracking** view.
+When effort is reprojected, the CTC, Estimated cost at complete, percentage of cost consumed, and projected cost variance are all recalculated in the **Cost tracking** view.
 
 ## Project status summary
 
