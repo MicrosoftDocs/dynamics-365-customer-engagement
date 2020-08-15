@@ -63,7 +63,11 @@
 ##### [Entity records routing](administrator/entity-channel.md)
 ##### [Route trigger for entity records](administrator/routing-trigger.md)
 ##### [Understand Omnichannel for Customer Service with Customer Service Hub](administrator/understand-omnichannel-customer-service-hub.md)
+#### [Enable file attachments](administrator/enable-file-attachments.md)
+#### [Configure automated messages](administrator/configure-automated-message.md)
+#### [Configure a post-conversation survey](administrator/configure-post-conversation-survey.md)
 #### [Delete a configured channel](administrator/delete-channel.md)
+#### [Asynchronous channel support](administrator/asynchronous-channels.md)
 ### Queues & Users
 #### [Work with queues](administrator/queues-omnichannel.md)
 #### [Manage users](administrator/users-user-profiles.md)
@@ -90,10 +94,12 @@
 ##### [Agent scripts](administrator/agent-scripts.md)
 ##### [Smart assist](administrator/smart-assist.md)
 ##### [Productivity pane](administrator/productivity-pane.md)
+#### [Enable personal quick replies](administrator/enable-personal-quick-replies.md)
 #### [Create quick replies](administrator/create-quick-replies.md)
 #### [Configure and manage custom presence](administrator/presence-custom-presence.md)
 #### [Share knowledge articles](administrator/knowledge-management-oc.md)
 #### [Enable missed notifications](administrator/manage-missed-notifications.md)
+#### [Enable auto-assignment of conversations](administrator/enable-auto-assign-conversations.md)
 #### Templates
 ##### [Overview](administrator/templates-overview.md)
 ##### [Manage session templates](administrator/session-templates.md)
@@ -112,13 +118,18 @@
 
 
 ### Settings
-#### [Create and manage operating hours](administrator/create-operating-hours.md)
+#### [Enable real-time translation of conversations](administrator/enable-real-time-translation.md) 
 #### [Set up location detection](administrator/geo-location-provider.md)
+#### [Create message templates](administrator/create-message-templates.md)
 #### [Create and manage data masking rules](administrator/data-masking-settings.md)
+#### [Set up location detection](administrator/geo-location-provider.md)
 #### [Create chat authentication settings](administrator/create-chat-auth-settings.md)
 #### [Enable self service settings in conversation summary](administrator/enable-self-service-settings.md)
-## Agent guide
+#### [Configure automated messages](administrator/configure-automated-message.md)
+#### [Create and manage operating hours](administrator/create-operating-hours.md)
+#### [Configure outbound messaging](administrator/outbound-messaging.md)
 
+## Agent guide
 ### [Overview](agent/omnichannel-agent-overview.md)
 ### Agents using Omnichannel for Customer Service app
 #### [Overview of Omnichannel for Customer Service app](agent/agent-oc/omnichannel-customer-service-app-agent.md)
@@ -132,6 +143,7 @@
 #### [Monitor real-time customer sentiment](agent/agent-oc/oc-monitor-real-time-customer-sentiment-sessions.md)
 #### [Manage sessions](agent/agent-oc/oc-manage-sessions.md)
 #### [Manage applications](agent/agent-oc/oc-manage-applications.md)
+#### [Create personal quick replies](agent/agent-oc/create-personal-quick-replies.md)
 #### Productivity tools
 ##### [Use agent scripts](agent/agent-oc/oc-agent-scripts.md)
 ##### [View smart assist cards](agent/agent-oc/oc-smart-assist.md)
@@ -145,6 +157,7 @@
 #### [Search for transcripts](agent/agent-oc/oc-search-transcipts.md)
 #### [View conversation and session forms](agent/agent-oc/oc-view-activity-types.md)
 #### [View customer summary for an incoming conversation request](agent/agent-oc/oc-view-customer-summary-incoming-conversation-request.md)
+#### [Real-time language translation of conversations](agent/agent-oc/oc-real-time-translation.md)
 #### Channels
 ##### [Use SMS channel](agent/agent-oc/sms-telesign-twilio.md)
 ##### [Use Facebook channel](agent/agent-oc/facebook.md)
@@ -263,6 +276,9 @@
 #### [Start chat proactively](developer/how-to/start-proactive-chat.md)
 #### [Enable a bot to escalate and end conversation](developer/bot-escalate-end-conversation.md)
 #### [Auto-close a conversation](developer/auto-close-conversation.md)
+#### [Render live chat widget on mobile app](developer/how-to/render-live-chat-widget-mobile.md)
+#### [Download attachments from your Azure bot](developer/download-attachments-bot.md)
+#### [Add a web resource for real-time translation](developer/how-to/add-web-resource-real-time-translation.md)
 #### Smart assist bot
 ##### [Build a smart assist bot](developer/how-to/smart-assist-bot.md)
 ##### [Implement custom scenario](developer/how-to/smart-assist-scenario.md)
@@ -304,6 +320,7 @@
 #### [msdyn_ocsystemmessage](developer/reference/entities/msdyn_ocsystemmessage.md)
 #### [msdyn_omnichannelpersonalization](developer/reference/entities/msdyn_omnichannelpersonalization.md)
 #### [msdyn_operatinghour](developer/reference/entities/msdyn_operatinghour.md)
+#### [msdyn_personalsoundsetting](developer/reference/entities/msdyn_personalsoundsetting.md)
 #### [msdyn_provider](developer/reference/entities/msdyn_provider.md)
 #### [msdyn_presence](developer/reference/entities/msdyn_presence.md)
 #### [msdyn_questionsequence](developer/reference/entities/msdyn_questionsequence.md)
@@ -312,6 +329,8 @@
 #### [msdyn_sentimentanalysis](developer/reference/entities/msdyn_sentimentanalysis.md)
 #### [msdyn_sessionevent](developer/reference/entities/msdyn_sessionevent.md)
 #### [msdyn_sessionparticipant](developer/reference/entities/msdyn_sessionparticipant.md)
+#### [msdyn_soundfile](developer/reference/entities/msdyn_soundfile.md)
+#### [msdyn_soundnotificationsetting](developer/reference/entities/msdyn_soundnotificationsetting.md)
 #### [msdyn_smsengagementctx](developer/reference/entities/msdyn_smsengagementctx.md)
 #### [msdyn_smsnumber](developer/reference/entities/msdyn_smsnumber.md)
 #### [msdyn_surveyquestion](developer/reference/entities/msdyn_surveyquestion.md)
@@ -330,9 +349,16 @@
 ##### [removeAuthTokenProvider](developer/reference/methods/removeAuthTokenProvider.md)
 ##### [startChat](developer/reference/methods/startChat.md)
 ##### [startProactiveChat](developer/reference/methods/startProactiveChat.md)
+##### [closeChat](developer/reference/methods/closeChat.md)
+### Real time translation JavaScript API Reference
+#### [initializeNewConversation](developer/reference/methods/initializeNewConversation.md)
+#### [translateMessage](developer/reference/methods/translateMessage.md)
 #### [Events]()
+##### [lcw:startChat](developer/reference/events/lcw-startchat.md)
 ##### [lcw:ready](developer/reference/events/lcw-ready.md)
 ##### [lcw:error](developer/reference/events/lcw-error.md)
+##### [lcw:threadUpdate](developer/reference/events/lcw-threadUpdate.md)
+##### [lcw:closeChat](developer/reference/events/lcw-closeChat.md)
 #### [Error code reference](developer/reference/error-code-reference.md)
 ### [runMacro](developer/reference/methods/runMacro.md)
 ### Action Reference

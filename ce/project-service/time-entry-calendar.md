@@ -1,5 +1,4 @@
 ---
-
 title: Time entry calendar
 description: This topic provides information about how to use the time entry calendar.
 author: rumant
@@ -20,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 
 # Time entry calendar

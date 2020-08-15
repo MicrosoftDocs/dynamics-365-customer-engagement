@@ -1,5 +1,5 @@
 ---
-title: View project team members and manage bookings 
+title: View project team members and manage bookings
 description: How to view project team members and manage bookings in Project Service
 author: JohnPBurrows
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 # View project team members and manage bookings (Project Service)
 

@@ -4,7 +4,7 @@ description: "A starting point for help of Customer Service Hub for Dynamics 365
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 11/04/2019
+ms.date: 08/03/2020
 ms.topic: get-started-article
 ms.service: 
   - "dynamics-365-customerservice"
@@ -101,7 +101,10 @@ ms.custom:
 <tr>
 <td><h2>FAQs</h2>
 <ul>
-<li><a href="service-scheduling-faq.md" data-raw-source="[Service Scheduling FAQ](service-scheduling-faq.md)">Service Scheduling FAQ</a></li>
+<li><a href="email-faqs.md" data-raw-source="[Email FAQs](email-faqs.md)">Email FAQs</a></li>
+<li><a href="migrate-tool-faqs.md" data-raw-source="[Migration Tool FAQs](migrate-tool-faqs.md)">Migration Tool FAQs</a></li>
+<li><a href="https://docs.microsoft.com/dynamics365/omnichannel/faqs" data-raw-source="[Omnichannel for Customer Service FAQs](https://docs.microsoft.com/dynamics365/omnichannel/faqs)">Omnichannel for Customer Service FAQs</a></li>
+<li><a href="service-scheduling-faq.md" data-raw-source="[Service Scheduling FAQs](service-scheduling-faq.md)">Service Scheduling FAQ</a></li>
 <li><a href="timeline-faqs.md" data-raw-source="[Timeline FAQs](timeline-faqs.md)">Timeline FAQs</a></li>
 </ul>
 </td>
@@ -132,3 +135,4 @@ ms.custom:
 </td>
 
 </tr>
+</table>

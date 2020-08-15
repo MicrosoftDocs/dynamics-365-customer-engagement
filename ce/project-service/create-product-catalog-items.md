@@ -1,5 +1,5 @@
 ---
-title: Create product catalog items 
+title: Create product catalog items
 description: How to create product catalog items in Project Service
 author: ruhercul
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 # Create product catalog items (Project Service)
 

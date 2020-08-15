@@ -4,7 +4,7 @@ description: "Instructions to set up quick responses in Omnichannel for Customer
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 05/29/2020
+ms.date: 08/05/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -14,7 +14,7 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-Quick responses are pre-defined messages that can be created for agents to quickly reply to common questions by customers. For information about the agent's quick response experience, see [Send quick responses in the chat](../agent/agent-usd/left-control-panel.md#send-quick-replies-in-the-chat).  
+Quick responses are pre-defined messages that can be created for agents to quickly reply to common questions by customers. For information about the agent's quick response experience, see [Send quick responses in the chat](../agent/agent-oc/oc-conversation-control.md#send-predefined-messages-in-chats).  
 
 1. Sign in to Omnichannel Administration.
 2. Go to **Agent Experience** > **Quick responses**.
@@ -72,7 +72,7 @@ Quick replies can be classified and tagged into categories. The categorization c
 
 ## Associate quick responses to a work stream
 
-For organizations with diverse lines of businesses, agents will send a variety of messages depending on their area of expertise. Administrators can determine which quick replies are necessary for different groups of agents to use. Administrators can associate quick replies with work streams in order show agents only the quick replies that apply to them. If no work stream is associated, the quick reply is available for all agents. 
+For organizations with diverse lines of businesses, agents will send a variety of messages depending on their area of expertise. Administrators can determine which quick replies are necessary for different groups of agents to use. Administrators can associate quick replies with work streams in order show agents only the quick replies that apply to them. If no work stream is associated, the quick reply is available for all agents.
 
 1. Sign in to Omnichannel Administration.
 
@@ -88,9 +88,9 @@ For organizations with diverse lines of businesses, agents will send a variety o
 
    The work stream appears in the list.
 
-7. Click **Save** to save your quick reply.
+7. Select **Save** to save your quick reply.
 
-   If you click the work stream in the list, you can view the work stream record and click the **Quick Replies** tab to view all the quick replies associated with that work stream.
+   If you select the work stream in the list, you can view the work stream record, and select the **Quick Replies** tab to view all the quick replies associated with that work stream.
 
 ### See also
 

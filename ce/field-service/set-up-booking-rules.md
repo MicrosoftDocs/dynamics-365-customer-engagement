@@ -66,7 +66,7 @@ The following screen shot shows a new solution that has been created.  It is rec
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-booking-rules-navigation.png)
 
-2.	Click +NEW to create a new Booking Rule.
+2.	Select +NEW to create a new Booking Rule.
 3.	From the Booking Rule form enter the following information
 a.	Name
 b.	Web Resource -> Select the web resource that you created above.
@@ -74,11 +74,12 @@ c.	Enter the Method Name that you defined in your JavaScript.
  
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/scheduling-booking-rules-new.png)
+> ![Screenshot of the booking rules.](./media/scheduling-booking-rules-new.png)
 
-4.	Save your booking rule.  Once you save the booking rule it will be used by the Schedule Board and Schedule Assistant.  You can deactivate your booking rule record to keep the Schedule Board and Schedule Assistant from executing the rule.
+4.	Save your booking rule. Once you save the booking rule it will be used by the schedule board and schedule assistant.  You can deactivate your booking rule record to keep the Schedule Board and Schedule Assistant from executing the rule.
 
-
+> [!Note]
+> The booking rules are currently only supported on the hourly view of the schedule board.
 
 ## Create a CRM action
 

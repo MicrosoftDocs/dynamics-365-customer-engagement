@@ -3,7 +3,7 @@ title: Resource management changes (Project Service Automation 3.x)
 description: This topic provides information about the changes to the Resource management area.
 author: makk
 manager: kfend
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
 ms.date: 03/18/2019
 ms.topic: article
@@ -15,7 +15,8 @@ search.audienceType:
   - admin
   - customizer
 search.app: 
-    - D365PS
+  - D365PS
+  - ProjectOperations
 ---
 
 # Resource management changes (Project Service Automation 3.x)

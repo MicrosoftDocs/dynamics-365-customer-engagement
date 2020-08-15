@@ -1,5 +1,5 @@
 ---
-title: Allow someone else to enter your time entry or expense 
+title: Allow someone else to enter your time entry or expense
 description: How to allow others to enter your time entry or expense in Project Service
 author: revathiMuthiah
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 # Allow someone else to enter your time entry or expense (Project Service)
 

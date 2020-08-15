@@ -1,5 +1,5 @@
 ---
-title: View your schedule 
+title: View your schedule
 description: How to view your schedule in Project Service
 author: ruhercul
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 # View your schedule (Project Service)
 
