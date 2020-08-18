@@ -2,7 +2,7 @@
 title: "Install preview features for Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 08/14/2020
+ms.date: 08/18/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -113,7 +113,7 @@ If prompted, run software from an untrusted publisher by entering "R."
 > [!Note]
 > If you get the error *"\Microsoft.Xrm.OnlineManagementAPI.psm1 cannot be loaded because running scripts is disabled on this system"*, run the following PowerShell command: “Set-ExecutionPolicy -ExecutionPolicy AllSigned -Scope LocalMachine".
 
-You;ll see a list of preview features.
+You'll see a list of preview features.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Windows PowerShell, showing a list of features in preview.](./media/preview-powershell-previewlist.png)
