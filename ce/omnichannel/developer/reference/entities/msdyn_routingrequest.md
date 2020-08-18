@@ -1,18 +1,20 @@
 ---
-title: "msdyn_sentimentanalysis Entity Reference | MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_sentimentanalysis entity."
-ms.date: 03/23/2020
+title: "msdyn_routingrequest Entity Reference | MicrosoftDocs"
+description: "Includes schema information and supported messages for the msdyn_routingrequest entity."
+ms.date: 08/18/2020
 ms.service: "crm-online"
 ms.topic: "reference"
+applies_to: 
+  - "Dynamics 365 (online)"
 author: "susikka"
 ms.author: "susikka"
-manager: "shujoshi"
+manager: "susikka"
 ---
-# msdyn_sentimentanalysis Entity Reference
+# msdyn_routingrequest Entity Reference
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-Sentiment analysis configuration
+Routing request definition entity
 
 **Added by**: Omnichannel – Base Solution
 
@@ -21,27 +23,35 @@ Sentiment analysis configuration
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Create|POST [*org URI*]/api/data/v9.1/msdyn_sentimentanalysises<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.1/msdyn_sentimentanalysises(*msdyn_sentimentanalysisid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_routingrequests(*msdyn_routingrequestid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_routingrequests<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_routingrequests(*msdyn_routingrequestid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.1/msdyn_sentimentanalysises(*msdyn_sentimentanalysisid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.1/msdyn_sentimentanalysises<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|SetState|PATCH [*org URI*]/api/data/v9.1/msdyn_sentimentanalysises(*msdyn_sentimentanalysisid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.1/msdyn_sentimentanalysises(*msdyn_sentimentanalysisid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_routingrequests(*msdyn_routingrequestid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_routingrequests<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
+|RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
+|RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_routingrequests(*msdyn_routingrequestid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_routingrequests(*msdyn_routingrequestid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+
+## Entity Properties
 
 |Property|Value|
 |--------|-----|
-|CollectionSchemaName|msdyn_sentimentanalysises|
-|DisplayCollectionName|Sentiment analysis|
-|DisplayName|Sentiment analysis|
-|EntitySetName|msdyn_sentimentanalysises|
+|CollectionSchemaName|msdyn_routingrequests|
+|DisplayCollectionName|RoutingRequests|
+|DisplayName|RoutingRequest|
+|EntitySetName|msdyn_routingrequests|
 |IsBPFEntity|False|
-|LogicalCollectionName|msdyn_sentimentanalysises|
-|LogicalName|msdyn_sentimentanalysis|
-|OwnershipType|OrganizationOwned|
-|PrimaryIdAttribute|msdyn_sentimentanalysisid|
-|PrimaryNameAttribute|msdyn_name|
-|SchemaName|msdyn_sentimentanalysis|
+|LogicalCollectionName|msdyn_routingrequests|
+|LogicalName|msdyn_routingrequest|
+|OwnershipType|UserOwned|
+|PrimaryIdAttribute|msdyn_routingrequestid|
+|PrimaryNameAttribute|msdyn_entitylogicalname|
+|SchemaName|msdyn_routingrequest|
 
 <a name="writable-attributes"></a>
 
@@ -50,16 +60,17 @@ Sentiment analysis configuration
 These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
-- [msdyn_additionallanguagesenabled](#BKMK_msdyn_additionallanguagesenabled)
-- [msdyn_agentthreshold](#BKMK_msdyn_agentthreshold)
-- [msdyn_driversenabled](#BKMK_msdyn_driversenabled)
-- [msdyn_enabled](#BKMK_msdyn_enabled)
-- [msdyn_name](#BKMK_msdyn_name)
-- [msdyn_sentimentanalysisId](#BKMK_msdyn_sentimentanalysisId)
-- [msdyn_supervisorthreshold](#BKMK_msdyn_supervisorthreshold)
-- [msdyn_supervisorthresholdalerttimeoutseconds](#BKMK_msdyn_supervisorthresholdalerttimeoutseconds)
-- [msdyn_thresholdalertsenabled](#BKMK_msdyn_thresholdalertsenabled)
+- [msdyn_entitylogicalname](#BKMK_msdyn_entitylogicalname)
+- [msdyn_entityrecordid](#BKMK_msdyn_entityrecordid)
+- [msdyn_entitysetname](#BKMK_msdyn_entitysetname)
+- [msdyn_queueid](#BKMK_msdyn_queueid)
+- [msdyn_queueitemid](#BKMK_msdyn_queueitemid)
+- [msdyn_relationshipnamewithliveworkitem](#BKMK_msdyn_relationshipnamewithliveworkitem)
+- [msdyn_routingrequestId](#BKMK_msdyn_routingrequestId)
+- [msdyn_routingrequesttitle](#BKMK_msdyn_routingrequesttitle)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
+- [OwnerId](#BKMK_OwnerId)
+- [OwnerIdType](#BKMK_OwnerIdType)
 - [statecode](#BKMK_statecode)
 - [statuscode](#BKMK_statuscode)
 - [TimeZoneRuleVersionNumber](#BKMK_TimeZoneRuleVersionNumber)
@@ -83,200 +94,136 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 
-### <a name="BKMK_msdyn_additionallanguagesenabled"></a> msdyn_additionallanguagesenabled
-
-**Added by**: Omnichannel - Base Patch Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Whether multi-language support is enabled|
-|DisplayName|Multi-language support enabled|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_additionallanguagesenabled|
-|RequiredLevel|None|
-|Type|Boolean|
-
-#### msdyn_additionallanguagesenabled Options
-
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
-
-**DefaultValue**: True
-
-
-
-### <a name="BKMK_msdyn_agentthreshold"></a> msdyn_agentthreshold
-
-**Added by**: Omnichannel - Base Patch Solution
-
-|Property|Value|
-|--------|-----|
-|Description|The agent threshold for sentiment threshold alerts|
-|DisplayName|Agent alert threshold|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_agentthreshold|
-|RequiredLevel|None|
-|Type|Picklist|
-
-#### msdyn_agentthreshold Options
-
-|Value|Label|
-|-----|-----|
-|0|Don't show alerts|
-|7|Very negative|
-|8|Negative|
-|9|Slightly negative|
-
-
-
-### <a name="BKMK_msdyn_driversenabled"></a> msdyn_driversenabled
-
-**Added by**: Omnichannel - Base Patch Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Specifies whether sentiment drivers are reported in Omnichannel Insights|
-|DisplayName|Report sentiment drivers in Omnichannel Insights|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_driversenabled|
-|RequiredLevel|None|
-|Type|Boolean|
-
-#### msdyn_driversenabled Options
-
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
-
-**DefaultValue**: False
-
-
-
-### <a name="BKMK_msdyn_enabled"></a> msdyn_enabled
-
-|Property|Value|
-|--------|-----|
-|Description|Whether real-time customer sentiment monitoring is enabled|
-|DisplayName|Monitor real-time customer sentiment|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_enabled|
-|RequiredLevel|ApplicationRequired|
-|Type|Boolean|
-
-#### msdyn_enabled Options
-
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
-
-**DefaultValue**: True
-
-
-
-### <a name="BKMK_msdyn_name"></a> msdyn_name
+### <a name="BKMK_msdyn_entitylogicalname"></a> msdyn_entitylogicalname
 
 |Property|Value|
 |--------|-----|
 |Description|The name of the custom entity.|
-|DisplayName|Name|
+|DisplayName|entitylogicalname|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_name|
+|LogicalName|msdyn_entitylogicalname|
+|MaxLength|100|
+|RequiredLevel|Recommended|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_entityrecordid"></a> msdyn_entityrecordid
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the record to be routed to Omnichannel.|
+|DisplayName|entityrecordid|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_entityrecordid|
 |MaxLength|100|
 |RequiredLevel|None|
 |Type|String|
 
 
-### <a name="BKMK_msdyn_sentimentanalysisId"></a> msdyn_sentimentanalysisId
+### <a name="BKMK_msdyn_entitysetname"></a> msdyn_entitysetname
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|entitysetname of the entity being routed.|
+|DisplayName|entitysetname|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_entitysetname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_queueid"></a> msdyn_queueid
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the queue.|
+|DisplayName|queueid|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_queueid|
+|MaxLength|100|
+|RequiredLevel|Recommended|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_queueitemid"></a> msdyn_queueitemid
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the queue item.|
+|DisplayName|queueitemid|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_queueitemid|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_relationshipnamewithliveworkitem"></a> msdyn_relationshipnamewithliveworkitem
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Name that tells the relationship of the Entity with Live Work Item|
+|DisplayName|RelationshipNameWithLiveWorkItem|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_relationshipnamewithliveworkitem|
+|MaxLength|400|
+|RequiredLevel|Recommended|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_routingrequestId"></a> msdyn_routingrequestId
 
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for entity instances|
-|DisplayName|Sentiment analysis|
+|DisplayName|RoutingRequest|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |IsValidForUpdate|False|
-|LogicalName|msdyn_sentimentanalysisid|
+|LogicalName|msdyn_routingrequestid|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
 
 
-### <a name="BKMK_msdyn_supervisorthreshold"></a> msdyn_supervisorthreshold
+### <a name="BKMK_msdyn_routingrequesttitle"></a> msdyn_routingrequesttitle
 
 **Added by**: Omnichannel - Base Patch Solution
 
 |Property|Value|
 |--------|-----|
-|Description|The supervisor threshold for sentiment threshold alerts|
-|DisplayName|Supervisor alert threshold|
+|Description|Primary display name value of the record.|
+|DisplayName|Title|
+|FormatName|Text|
+|IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_supervisorthreshold|
-|RequiredLevel|None|
-|Type|Picklist|
-
-#### msdyn_supervisorthreshold Options
-
-|Value|Label|
-|-----|-----|
-|0|Don't send notifications|
-|7|Very negative|
-|8|Negative|
-|9|Slightly negative|
-
-
-
-### <a name="BKMK_msdyn_supervisorthresholdalerttimeoutseconds"></a> msdyn_supervisorthresholdalerttimeoutseconds
-
-**Added by**: Omnichannel - Base Patch Solution
-
-|Property|Value|
-|--------|-----|
-|Description|This field is deprecated|
-|DisplayName|(Deprecated) Supervisor alert timeout in seconds|
-|Format|None|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_supervisorthresholdalerttimeoutseconds|
-|MaxValue|500|
-|MinValue|1|
-|RequiredLevel|None|
-|Type|Integer|
-
-
-### <a name="BKMK_msdyn_thresholdalertsenabled"></a> msdyn_thresholdalertsenabled
-
-**Added by**: Omnichannel - Base Patch Solution
-
-|Property|Value|
-|--------|-----|
-|Description|This field is deprecated|
-|DisplayName|(Deprecated) Threshold alerts enabled|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_thresholdalertsenabled|
-|RequiredLevel|None|
-|Type|Boolean|
-
-#### msdyn_thresholdalertsenabled Options
-
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
-
-**DefaultValue**: False
-
+|LogicalName|msdyn_routingrequesttitle|
+|MaxLength|200|
+|RequiredLevel|Recommended|
+|Type|String|
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
@@ -295,11 +242,42 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|DateTime|
 
 
+### <a name="BKMK_OwnerId"></a> OwnerId
+
+**Added by**: Active Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Owner Id|
+|DisplayName|Owner|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|ownerid|
+|RequiredLevel|SystemRequired|
+|Targets|systemuser,team|
+|Type|Owner|
+
+
+### <a name="BKMK_OwnerIdType"></a> OwnerIdType
+
+**Added by**: Active Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Owner Id Type|
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridtype|
+|RequiredLevel|SystemRequired|
+|Type|EntityName|
+
+
 ### <a name="BKMK_statecode"></a> statecode
 
 |Property|Value|
 |--------|-----|
-|Description|Status of the sentiment analysis|
+|Description|Status of the RoutingRequest|
 |DisplayName|Status|
 |IsValidForCreate|False|
 |IsValidForForm|True|
@@ -321,7 +299,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for the status of the Sentiment Analysis|
+|Description|Reason for the status of the RoutingRequest|
 |DisplayName|Status Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -389,8 +367,11 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
-- [OrganizationId](#BKMK_OrganizationId)
-- [OrganizationIdName](#BKMK_OrganizationIdName)
+- [OwnerIdName](#BKMK_OwnerIdName)
+- [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
+- [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
+- [OwningTeam](#BKMK_OwningTeam)
+- [OwningUser](#BKMK_OwningUser)
 - [VersionNumber](#BKMK_VersionNumber)
 
 
@@ -632,38 +613,88 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
-### <a name="BKMK_OrganizationId"></a> OrganizationId
+### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
 **Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier for the organization|
-|DisplayName|Organization Id|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|organizationid|
-|RequiredLevel|None|
-|Targets|organization|
-|Type|Lookup|
-
-
-### <a name="BKMK_OrganizationIdName"></a> OrganizationIdName
-
-**Added by**: Active Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
+|Description|Name of the owner|
 |DisplayName||
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|organizationidname|
+|LogicalName|owneridname|
 |MaxLength|100|
 |RequiredLevel|SystemRequired|
 |Type|String|
+
+
+### <a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName
+
+**Added by**: Active Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Yomi name of the owner|
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
+
+
+### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
+
+**Added by**: Active Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for the business unit that owns the record|
+|DisplayName|Owning Business Unit|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owningbusinessunit|
+|RequiredLevel|None|
+|Targets|businessunit|
+|Type|Lookup|
+
+
+### <a name="BKMK_OwningTeam"></a> OwningTeam
+
+**Added by**: Active Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for the team that owns the record.|
+|DisplayName|Owning Team|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owningteam|
+|RequiredLevel|None|
+|Targets|team|
+|Type|Lookup|
+
+
+### <a name="BKMK_OwningUser"></a> OwningUser
+
+**Added by**: Active Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for the user that owns the record.|
+|DisplayName|Owning User|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owninguser|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber

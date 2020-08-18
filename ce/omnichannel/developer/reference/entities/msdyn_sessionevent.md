@@ -148,10 +148,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |192350018|TimedOut|
 |192350019|Accepted|
 |192350020|AutoAccepted|
-|192350021|Item|
-|192350022|Disconnect|
-|192350023|Timeout|
-|192350024|End|
+|192350021|Disconnect|
+|192350022|Timeout|
+|192350023|End|
+|192350024|BotTransferSession |
+|192350025|BotEndConversation |
+|192350026|AssignToAgentBySupervisor  |
+|192350027|AssignToQueueBySupervisor  |
 
 
 
