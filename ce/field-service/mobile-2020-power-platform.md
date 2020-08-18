@@ -129,7 +129,7 @@ Once you sign in, the app will prompt you to download offline data (your schedul
 
 The first screen you'll see is a calendar view of your scheduled work orders.
 
-Select **More** > **Show as** > **read-only Grid** to see the bookings as a list as shown on the right side of the following screenshot.
+Select **More** > **Show as** > **Read-only Grid** to see the bookings as a list as shown on the right side of the following screenshot.
 
 > [!div class="mx-imgBorder"]
 > ![Simulated image showing two mobile devices with Field Service (Dynamics 365). The screen on the left has a list of My Open Resource Bookings by date. The screen on the right has a list of My Open Resource Bookings in a flat list.](./media/mobile-2020-booking-view.jpg)
