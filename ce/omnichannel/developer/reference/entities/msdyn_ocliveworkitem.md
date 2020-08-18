@@ -1180,7 +1180,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|regardingobjectid|
 |RequiredLevel|None|
-|Targets|account,adx_ad,adx_adplacement,adx_casedeflection,adx_communityforumaccesspermission,adx_communityforumalert,adx_contentaccesslevel,adx_invitation,adx_poll,adx_polloption,adx_pollplacement,adx_pollsubmission,adx_publishingstatetransitionrule,adx_redirect,adx_shortcut,adx_webpage,adx_website,bookableresourcebooking,bookableresourcebookingheader,bulkoperation,campaign,campaignactivity,contact,contract,entitlement,entitlementtemplate,incident,interactionforemail,invoice,knowledgearticle,knowledgebaserecord,lead,msdyn_bookingalertstatus,msdyn_bookingrule,msdyn_customerasset,msdyn_playbookinstance,msdyn_postalbum,msdyn_resourceterritory,msdyn_systemuserschedulersetting,msdyn_timegroup,msdyn_timegroupdetail,opportunity,quote,salesorder,site,uii_action,uii_hostedapplication,uii_nonhostedapplication,uii_option,uii_savedsession,uii_workflow,uii_workflowstep,uii_workflow_workflowstep_mapping|
+|Targets|account,bookableresourcebooking,bookableresourcebookingheader,bulkoperation,campaign,campaignactivity,contact,contract,entitlement,entitlementtemplate,incident,interactionforemail,invoice,knowledgearticle,knowledgebaserecord,lead,msdyn_customerasset,msdyn_playbookinstance,msdyn_postalbum,opportunity,quote,salesorder,site,uii_action,uii_hostedapplication,uii_nonhostedapplication,uii_option,uii_savedsession,uii_workflow,uii_workflowstep,uii_workflow_workflowstep_mapping|
 |Type|Lookup|
 
 
@@ -2372,6 +2372,85 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|BigInt|
 
+<a name="onetomany"></a>
+
+## One-To-Many Relationships
+
+Listed by **SchemaName**.
+
+- [msdyn_msdyn_ocliveworkitem_msdyn_cdsentityengagementctx_liveworkitemid](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_cdsentityengagementctx_liveworkitemid)
+- [msdyn_msdyn_ocliveworkitem_msdyn_ocliveworkitemcontextitem_ocliveworkitemid](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_ocliveworkitemcontextitem_ocliveworkitemid)
+- [msdyn_msdyn_ocliveworkitem_msdyn_ocsession_liveworkstreamid](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_ocsession_liveworkstreamid)
+
+
+### <a name="BKMK_msdyn_msdyn_ocliveworkitem_msdyn_cdsentityengagementctx_liveworkitemid"></a> msdyn_msdyn_ocliveworkitem_msdyn_cdsentityengagementctx_liveworkitemid
+
+Same as msdyn_cdsentityengagementctx entity [msdyn_msdyn_ocliveworkitem_msdyn_cdsentityengagementctx_liveworkitemid](msdyn_cdsentityengagementctx.md#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_cdsentityengagementctx_liveworkitemid) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_cdsentityengagementctx|
+|ReferencingAttribute|msdyn_liveworkitemid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_ocliveworkitem_msdyn_cdsentityengagementctx_liveworkitemid|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_msdyn_msdyn_ocliveworkitem_msdyn_ocliveworkitemcontextitem_ocliveworkitemid"></a> msdyn_msdyn_ocliveworkitem_msdyn_ocliveworkitemcontextitem_ocliveworkitemid
+
+Same as msdyn_ocliveworkitemcontextitem entity [msdyn_msdyn_ocliveworkitem_msdyn_ocliveworkitemcontextitem_ocliveworkitemid](msdyn_ocliveworkitemcontextitem.md#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_ocliveworkitemcontextitem_ocliveworkitemid) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_ocliveworkitemcontextitem|
+|ReferencingAttribute|msdyn_ocliveworkitemid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_ocliveworkitem_msdyn_ocliveworkitemcontextitem_ocliveworkitemid|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_msdyn_msdyn_ocliveworkitem_msdyn_ocsession_liveworkstreamid"></a> msdyn_msdyn_ocliveworkitem_msdyn_ocsession_liveworkstreamid
+
+Same as msdyn_ocsession entity [msdyn_msdyn_ocliveworkitem_msdyn_ocsession_liveworkstreamid](msdyn_ocsession.md#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_ocsession_liveworkstreamid) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_ocsession|
+|ReferencingAttribute|msdyn_liveworkitemid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_ocliveworkitem_msdyn_ocsession_liveworkstreamid|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+<a name="manytoone"></a>
+
+## Many-To-One Relationships
+
+Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
+
+- [msdyn_msdyn_liveworkstream_msdyn_ocliveworkitem_liveworkstreamid](#BKMK_msdyn_msdyn_liveworkstream_msdyn_ocliveworkitem_liveworkstreamid)
+- [msdyn_msdyn_ocsession_msdyn_ocliveworkitem_lastsessionid](#BKMK_msdyn_msdyn_ocsession_msdyn_ocliveworkitem_lastsessionid)
+- [msdyn_msdyn_omnichannelqueue_msdyn_ocliveworkitem_queueid](#BKMK_msdyn_msdyn_omnichannelqueue_msdyn_ocliveworkitem_queueid)
+
+
+### <a name="BKMK_msdyn_msdyn_liveworkstream_msdyn_ocliveworkitem_liveworkstreamid"></a> msdyn_msdyn_liveworkstream_msdyn_ocliveworkitem_liveworkstreamid
+
+See msdyn_liveworkstream Entity [msdyn_msdyn_liveworkstream_msdyn_ocliveworkitem_liveworkstreamid](msdyn_liveworkstream.md#BKMK_msdyn_msdyn_liveworkstream_msdyn_ocliveworkitem_liveworkstreamid) One-To-Many relationship.
+
+### <a name="BKMK_msdyn_msdyn_ocsession_msdyn_ocliveworkitem_lastsessionid"></a> msdyn_msdyn_ocsession_msdyn_ocliveworkitem_lastsessionid
+
+**Added by**: Active Solution Solution
+
+See msdyn_ocsession Entity [msdyn_msdyn_ocsession_msdyn_ocliveworkitem_lastsessionid](msdyn_ocsession.md#BKMK_msdyn_msdyn_ocsession_msdyn_ocliveworkitem_lastsessionid) One-To-Many relationship.
+
+### <a name="BKMK_msdyn_msdyn_omnichannelqueue_msdyn_ocliveworkitem_queueid"></a> msdyn_msdyn_omnichannelqueue_msdyn_ocliveworkitem_queueid
+
+See msdyn_omnichannelqueue Entity [msdyn_msdyn_omnichannelqueue_msdyn_ocliveworkitem_queueid](msdyn_omnichannelqueue.md#BKMK_msdyn_msdyn_omnichannelqueue_msdyn_ocliveworkitem_queueid) One-To-Many relationship.
 
 ### See also
 

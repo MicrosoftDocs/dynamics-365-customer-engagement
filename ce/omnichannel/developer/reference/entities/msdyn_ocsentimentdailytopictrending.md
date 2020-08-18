@@ -1,56 +1,58 @@
 ---
-title: "msdyn_oc_geolocationprovider Entity Reference | MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_oc_geolocationprovider entity."
+title: "msdyn_ocsentimentdailytopictrending Entity Reference | MicrosoftDocs"
+description: "Includes schema information and supported messages for the msdyn_ocsentimentdailytopictrending entity."
+ms.date: 08/18/2020
+ms.service: "crm-online"
+ms.topic: "reference"
+applies_to: 
+  - "Dynamics 365 (online)"
 author: "susikka"
 ms.author: "susikka"
-manager: "shujoshi"
-ms.date: 08/29/2019
-ms.service: 
-  - crm-online
-ms.topic: "reference"
+manager: "susikka"
 ---
-# msdyn_oc_geolocationprovider Entity Reference
+# msdyn_ocsentimentdailytopictrending Entity Reference
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
+1. Store the day to day topic mapping information
+2. Used for dashboard visualization
 
-
-**Added by**: Omnichannel – Base Solution
+**Added by**: Omnichannel - Base Patch Solution
 
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.1/msdyn_oc_geolocationproviders(*msdyn_oc_geolocationproviderid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.1/msdyn_oc_geolocationproviders<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.1/msdyn_oc_geolocationproviders(*msdyn_oc_geolocationproviderid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.1/msdyn_ocsentimentdailytopictrendings(*msdyn_ocsentimentdailytopictrendingid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.1/msdyn_ocsentimentdailytopictrendings<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.1/msdyn_ocsentimentdailytopictrendings(*msdyn_ocsentimentdailytopictrendingid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.1/msdyn_oc_geolocationproviders(*msdyn_oc_geolocationproviderid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.1/msdyn_oc_geolocationproviders<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.1/msdyn_ocsentimentdailytopictrendings(*msdyn_ocsentimentdailytopictrendingid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.1/msdyn_ocsentimentdailytopictrendings<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.1/msdyn_oc_geolocationproviders(*msdyn_oc_geolocationproviderid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.1/msdyn_oc_geolocationproviders(*msdyn_oc_geolocationproviderid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.1/msdyn_ocsentimentdailytopictrendings(*msdyn_ocsentimentdailytopictrendingid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.1/msdyn_ocsentimentdailytopictrendings(*msdyn_ocsentimentdailytopictrendingid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
 |Property|Value|
 |--------|-----|
-|CollectionSchemaName|msdyn_oc_geolocationproviders|
-|DisplayCollectionName|Geo Location Providers|
-|DisplayName|Geo Location Provider|
-|EntitySetName|msdyn_oc_geolocationproviders|
+|CollectionSchemaName|msdyn_ocsentimentdailytopictrendings|
+|DisplayCollectionName|Sentiment daily topic trending|
+|DisplayName|Sentiment daily topic trending|
+|EntitySetName|msdyn_ocsentimentdailytopictrendings|
 |IsBPFEntity|False|
-|LogicalCollectionName|msdyn_oc_geolocationproviders|
-|LogicalName|msdyn_oc_geolocationprovider|
+|LogicalCollectionName|msdyn_ocsentimentdailytopictrendings|
+|LogicalName|msdyn_ocsentimentdailytopictrending|
 |OwnershipType|UserOwned|
-|PrimaryIdAttribute|msdyn_oc_geolocationproviderid|
+|PrimaryIdAttribute|msdyn_ocsentimentdailytopictrendingid|
 |PrimaryNameAttribute|msdyn_name|
-|SchemaName|msdyn_oc_geolocationprovider|
+|SchemaName|msdyn_ocsentimentdailytopictrending|
 
 <a name="writable-attributes"></a>
 
@@ -59,11 +61,11 @@ ms.topic: "reference"
 These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
+- [msdyn_basetopicid](#BKMK_msdyn_basetopicid)
+- [msdyn_dailytopicid](#BKMK_msdyn_dailytopicid)
 - [msdyn_name](#BKMK_msdyn_name)
-- [msdyn_oc_geolocationproviderId](#BKMK_msdyn_oc_geolocationproviderId)
-- [msdyn_providerapikey](#BKMK_msdyn_providerapikey)
-- [msdyn_providerapikeyversion](#BKMK_msdyn_providerapikeyversion)
-- [msdyn_providername](#BKMK_msdyn_providername)
+- [msdyn_ocsentimentdailytopictrendingId](#BKMK_msdyn_ocsentimentdailytopictrendingId)
+- [msdyn_similarityscore](#BKMK_msdyn_similarityscore)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -90,6 +92,34 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 
+### <a name="BKMK_msdyn_basetopicid"></a> msdyn_basetopicid
+
+|Property|Value|
+|--------|-----|
+|Description|Look up to the daily topic entity|
+|DisplayName|Base topic id|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_basetopicid|
+|RequiredLevel|ApplicationRequired|
+|Targets|msdyn_ocsentimentdailytopic|
+|Type|Lookup|
+
+
+### <a name="BKMK_msdyn_dailytopicid"></a> msdyn_dailytopicid
+
+|Property|Value|
+|--------|-----|
+|Description|Foreign key to sentiment_topic table column: sentiment_dailytopicid|
+|DisplayName|Daily topic id|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_dailytopicid|
+|RequiredLevel|ApplicationRequired|
+|Targets|msdyn_ocsentimentdailytopic|
+|Type|Lookup|
+
+
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 
 |Property|Value|
@@ -106,72 +136,34 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
-### <a name="BKMK_msdyn_oc_geolocationproviderId"></a> msdyn_oc_geolocationproviderId
+### <a name="BKMK_msdyn_ocsentimentdailytopictrendingId"></a> msdyn_ocsentimentdailytopictrendingId
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier for entity instances|
-|DisplayName|Geo Location Provider|
+|Description|Topic mapping id for sentiment trend|
+|DisplayName|Topic mapping id|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |IsValidForUpdate|False|
-|LogicalName|msdyn_oc_geolocationproviderid|
+|LogicalName|msdyn_ocsentimentdailytopictrendingid|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
 
 
-### <a name="BKMK_msdyn_providerapikey"></a> msdyn_providerapikey
+### <a name="BKMK_msdyn_similarityscore"></a> msdyn_similarityscore
 
 |Property|Value|
 |--------|-----|
-|Description|Geo Location Provider API key|
-|DisplayName|Bing Maps API key|
-|FormatName|Text|
-|IsLocalizable|False|
+|Description|The cosine similarity score between the base topic and daily topic|
+|DisplayName|Similarity score|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_providerapikey|
-|MaxLength|300|
+|LogicalName|msdyn_similarityscore|
+|MaxValue|100|
+|MinValue|-100|
+|Precision|3|
 |RequiredLevel|ApplicationRequired|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_providerapikeyversion"></a> msdyn_providerapikeyversion
-
-|Property|Value|
-|--------|-----|
-|Description|Provider API Key Version|
-|DisplayName|Provider API Key Version|
-|Format|None|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_providerapikeyversion|
-|MaxValue|2147483647|
-|MinValue|0|
-|RequiredLevel|ApplicationRequired|
-|Type|Integer|
-
-
-### <a name="BKMK_msdyn_providername"></a> msdyn_providername
-
-|Property|Value|
-|--------|-----|
-|Description|Geo Location Provider Name|
-|DisplayName|Provider name|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_providername|
-|RequiredLevel|ApplicationRequired|
-|Type|Picklist|
-
-#### msdyn_providername Options
-
-|Value|Label|
-|-----|-----|
-|192350000|Bing|
-|192350001|Google|
-|192350002|HERE|
-
+|Type|Double|
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
@@ -225,7 +217,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Status of the Geo Location Provider|
+|Description|Status of the Sentiment daily topic trending|
 |DisplayName|Status|
 |IsValidForCreate|False|
 |IsValidForForm|True|
@@ -247,7 +239,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for the status of the Geo Location Provider|
+|Description|Reason for the status of the Sentiment daily topic trending|
 |DisplayName|Status Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -315,6 +307,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
+- [msdyn_basetopicidName](#BKMK_msdyn_basetopicidName)
+- [msdyn_dailytopicidName](#BKMK_msdyn_dailytopicidName)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
 - [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
@@ -558,6 +552,38 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |LogicalName|modifiedonbehalfbyyominame|
 |MaxLength|100|
 |RequiredLevel|SystemRequired|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_basetopicidName"></a> msdyn_basetopicidName
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_basetopicidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_dailytopicidName"></a> msdyn_dailytopicidName
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_dailytopicidname|
+|MaxLength|100|
+|RequiredLevel|None|
 |Type|String|
 
 

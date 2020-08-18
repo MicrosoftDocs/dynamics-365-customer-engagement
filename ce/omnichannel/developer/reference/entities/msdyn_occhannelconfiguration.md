@@ -1,19 +1,20 @@
 ---
-title: "msdyn_oc_geolocationprovider Entity Reference | MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_oc_geolocationprovider entity."
+title: "msdyn_occhannelconfiguration Entity Reference | MicrosoftDocs"
+description: "Includes schema information and supported messages for the msdyn_occhannelconfiguration entity."
+ms.date: 08/18/2020
+ms.service: "crm-online"
+ms.topic: "reference"
+applies_to: 
+  - "Dynamics 365 (online)"
 author: "susikka"
 ms.author: "susikka"
-manager: "shujoshi"
-ms.date: 08/29/2019
-ms.service: 
-  - crm-online
-ms.topic: "reference"
+manager: "susikka"
 ---
-# msdyn_oc_geolocationprovider Entity Reference
+# msdyn_occhannelconfiguration Entity Reference
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-
+Channel Configuration
 
 **Added by**: Omnichannel – Base Solution
 
@@ -22,35 +23,29 @@ ms.topic: "reference"
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.1/msdyn_oc_geolocationproviders(*msdyn_oc_geolocationproviderid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.1/msdyn_oc_geolocationproviders<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.1/msdyn_oc_geolocationproviders(*msdyn_oc_geolocationproviderid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
+|Create|POST [*org URI*]/api/data/v9.1/msdyn_occhannelconfigurations<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.1/msdyn_occhannelconfigurations(*msdyn_occhannelconfigurationid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
-|ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.1/msdyn_oc_geolocationproviders(*msdyn_oc_geolocationproviderid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.1/msdyn_oc_geolocationproviders<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-|RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.1/msdyn_oc_geolocationproviders(*msdyn_oc_geolocationproviderid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.1/msdyn_oc_geolocationproviders(*msdyn_oc_geolocationproviderid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Retrieve|GET [*org URI*]/api/data/v9.1/msdyn_occhannelconfigurations(*msdyn_occhannelconfigurationid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.1/msdyn_occhannelconfigurations<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|SetState|PATCH [*org URI*]/api/data/v9.1/msdyn_occhannelconfigurations(*msdyn_occhannelconfigurationid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.1/msdyn_occhannelconfigurations(*msdyn_occhannelconfigurationid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
 |Property|Value|
 |--------|-----|
-|CollectionSchemaName|msdyn_oc_geolocationproviders|
-|DisplayCollectionName|Geo Location Providers|
-|DisplayName|Geo Location Provider|
-|EntitySetName|msdyn_oc_geolocationproviders|
+|CollectionSchemaName|msdyn_occhannelconfigurations|
+|DisplayCollectionName|Channel Configurations|
+|DisplayName|Channel Configuration|
+|EntitySetName|msdyn_occhannelconfigurations|
 |IsBPFEntity|False|
-|LogicalCollectionName|msdyn_oc_geolocationproviders|
-|LogicalName|msdyn_oc_geolocationprovider|
-|OwnershipType|UserOwned|
-|PrimaryIdAttribute|msdyn_oc_geolocationproviderid|
+|LogicalCollectionName|msdyn_occhannelconfigurations|
+|LogicalName|msdyn_occhannelconfiguration|
+|OwnershipType|OrganizationOwned|
+|PrimaryIdAttribute|msdyn_occhannelconfigurationid|
 |PrimaryNameAttribute|msdyn_name|
-|SchemaName|msdyn_oc_geolocationprovider|
+|SchemaName|msdyn_occhannelconfiguration|
 
 <a name="writable-attributes"></a>
 
@@ -59,14 +54,15 @@ ms.topic: "reference"
 These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
+- [msdyn_closeconversationifoooh](#BKMK_msdyn_closeconversationifoooh)
+- [msdyn_enabletransfertoooohqueue](#BKMK_msdyn_enabletransfertoooohqueue)
+- [msdyn_engagementcontext](#BKMK_msdyn_engagementcontext)
 - [msdyn_name](#BKMK_msdyn_name)
-- [msdyn_oc_geolocationproviderId](#BKMK_msdyn_oc_geolocationproviderId)
-- [msdyn_providerapikey](#BKMK_msdyn_providerapikey)
-- [msdyn_providerapikeyversion](#BKMK_msdyn_providerapikeyversion)
-- [msdyn_providername](#BKMK_msdyn_providername)
+- [msdyn_occhannelconfigurationId](#BKMK_msdyn_occhannelconfigurationId)
+- [msdyn_privacytermsaccepted](#BKMK_msdyn_privacytermsaccepted)
+- [msdyn_privacytermsversion](#BKMK_msdyn_privacytermsversion)
+- [msdyn_streamsource](#BKMK_msdyn_streamsource)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
-- [OwnerId](#BKMK_OwnerId)
-- [OwnerIdType](#BKMK_OwnerIdType)
 - [statecode](#BKMK_statecode)
 - [statuscode](#BKMK_statuscode)
 - [TimeZoneRuleVersionNumber](#BKMK_TimeZoneRuleVersionNumber)
@@ -90,6 +86,74 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 
+### <a name="BKMK_msdyn_closeconversationifoooh"></a> msdyn_closeconversationifoooh
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Specifies whether the conversation should be closed when it is created out of operating hours|
+|DisplayName|Close Conversation If Outside Of OperatingHours|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_closeconversationifoooh|
+|RequiredLevel|ApplicationRequired|
+|Type|Boolean|
+
+#### msdyn_closeconversationifoooh Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
+
+
+### <a name="BKMK_msdyn_enabletransfertoooohqueue"></a> msdyn_enabletransfertoooohqueue
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Specifies whether the conversation can be transferred to an out of operating hour queue|
+|DisplayName|Enable Transfer to Outside Of OperatingHours Queue|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_enabletransfertoooohqueue|
+|RequiredLevel|ApplicationRequired|
+|Type|Boolean|
+
+#### msdyn_enabletransfertoooohqueue Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
+
+
+### <a name="BKMK_msdyn_engagementcontext"></a> msdyn_engagementcontext
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Entity carrying the engagement context details of the channel.|
+|DisplayName|Engagement Context|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_engagementcontext|
+|MaxLength|128|
+|RequiredLevel|None|
+|Type|String|
+
+
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 
 |Property|Value|
@@ -106,71 +170,93 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
-### <a name="BKMK_msdyn_oc_geolocationproviderId"></a> msdyn_oc_geolocationproviderId
+### <a name="BKMK_msdyn_occhannelconfigurationId"></a> msdyn_occhannelconfigurationId
 
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for entity instances|
-|DisplayName|Geo Location Provider|
+|DisplayName|Channel Configuration|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |IsValidForUpdate|False|
-|LogicalName|msdyn_oc_geolocationproviderid|
+|LogicalName|msdyn_occhannelconfigurationid|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
 
 
-### <a name="BKMK_msdyn_providerapikey"></a> msdyn_providerapikey
+### <a name="BKMK_msdyn_privacytermsaccepted"></a> msdyn_privacytermsaccepted
+
+**Added by**: Omnichannel - Base Patch Solution
 
 |Property|Value|
 |--------|-----|
-|Description|Geo Location Provider API key|
-|DisplayName|Bing Maps API key|
+|Description|Indicates whether the Privacy Terms has been accepted by the user or not.|
+|DisplayName|Privacy terms accepted|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_privacytermsaccepted|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_privacytermsaccepted Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
+
+
+### <a name="BKMK_msdyn_privacytermsversion"></a> msdyn_privacytermsversion
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|The version of the privacy terms.|
+|DisplayName|Privacy terms version|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_providerapikey|
-|MaxLength|300|
-|RequiredLevel|ApplicationRequired|
+|LogicalName|msdyn_privacytermsversion|
+|MaxLength|20|
+|RequiredLevel|None|
 |Type|String|
 
 
-### <a name="BKMK_msdyn_providerapikeyversion"></a> msdyn_providerapikeyversion
+### <a name="BKMK_msdyn_streamsource"></a> msdyn_streamsource
 
 |Property|Value|
 |--------|-----|
-|Description|Provider API Key Version|
-|DisplayName|Provider API Key Version|
-|Format|None|
+|Description|Stream source of the channel e.g. LiveChat, SMS, Facebook etc|
+|DisplayName|Stream Source|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_providerapikeyversion|
-|MaxValue|2147483647|
-|MinValue|0|
-|RequiredLevel|ApplicationRequired|
-|Type|Integer|
-
-
-### <a name="BKMK_msdyn_providername"></a> msdyn_providername
-
-|Property|Value|
-|--------|-----|
-|Description|Geo Location Provider Name|
-|DisplayName|Provider name|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_providername|
+|LogicalName|msdyn_streamsource|
 |RequiredLevel|ApplicationRequired|
 |Type|Picklist|
 
-#### msdyn_providername Options
+#### msdyn_streamsource Options
 
 |Value|Label|
 |-----|-----|
-|192350000|Bing|
-|192350001|Google|
-|192350002|HERE|
+|19241000|Microsoft Teams|
+|192300000|WhatsApp|
+|192310000|LINE|
+|192320000|WeChat|
+|192330000|Facebook|
+|192340000|SMS|
+|192350000|Entity Records|
+|192350001|Twitter|
+|192350002|Custom|
+|192360000|Live chat|
+|192370000|Voice|
+|192380000|Video|
+|192390000|Co-browse|
+|192400000|Screen sharing|
 
 
 
@@ -190,42 +276,11 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|DateTime|
 
 
-### <a name="BKMK_OwnerId"></a> OwnerId
-
-**Added by**: Active Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Owner Id|
-|DisplayName|Owner|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|ownerid|
-|RequiredLevel|SystemRequired|
-|Targets|systemuser,team|
-|Type|Owner|
-
-
-### <a name="BKMK_OwnerIdType"></a> OwnerIdType
-
-**Added by**: Active Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Owner Id Type|
-|DisplayName||
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|owneridtype|
-|RequiredLevel|SystemRequired|
-|Type|EntityName|
-
-
 ### <a name="BKMK_statecode"></a> statecode
 
 |Property|Value|
 |--------|-----|
-|Description|Status of the Geo Location Provider|
+|Description|Status of the Channel Configuration|
 |DisplayName|Status|
 |IsValidForCreate|False|
 |IsValidForForm|True|
@@ -247,7 +302,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for the status of the Geo Location Provider|
+|Description|Reason for the status of the Channel Configuration|
 |DisplayName|Status Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -315,11 +370,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
-- [OwnerIdName](#BKMK_OwnerIdName)
-- [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
-- [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
-- [OwningTeam](#BKMK_OwningTeam)
-- [OwningUser](#BKMK_OwningUser)
+- [OrganizationId](#BKMK_OrganizationId)
+- [OrganizationIdName](#BKMK_OrganizationIdName)
 - [VersionNumber](#BKMK_VersionNumber)
 
 
@@ -561,88 +613,38 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
-### <a name="BKMK_OwnerIdName"></a> OwnerIdName
+### <a name="BKMK_OrganizationId"></a> OrganizationId
 
 **Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
-|Description|Name of the owner|
+|Description|Unique identifier for the organization|
+|DisplayName|Organization Id|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|organizationid|
+|RequiredLevel|None|
+|Targets|organization|
+|Type|Lookup|
+
+
+### <a name="BKMK_OrganizationIdName"></a> OrganizationIdName
+
+**Added by**: Active Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
 |DisplayName||
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|owneridname|
+|LogicalName|organizationidname|
 |MaxLength|100|
 |RequiredLevel|SystemRequired|
 |Type|String|
-
-
-### <a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName
-
-**Added by**: Active Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Yomi name of the owner|
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|owneridyominame|
-|MaxLength|100|
-|RequiredLevel|SystemRequired|
-|Type|String|
-
-
-### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
-
-**Added by**: Active Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier for the business unit that owns the record|
-|DisplayName|Owning Business Unit|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|owningbusinessunit|
-|RequiredLevel|None|
-|Targets|businessunit|
-|Type|Lookup|
-
-
-### <a name="BKMK_OwningTeam"></a> OwningTeam
-
-**Added by**: Active Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier for the team that owns the record.|
-|DisplayName|Owning Team|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|owningteam|
-|RequiredLevel|None|
-|Targets|team|
-|Type|Lookup|
-
-
-### <a name="BKMK_OwningUser"></a> OwningUser
-
-**Added by**: Active Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier for the user that owns the record.|
-|DisplayName|Owning User|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|owninguser|
-|RequiredLevel|None|
-|Targets|systemuser|
-|Type|Lookup|
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
@@ -661,6 +663,26 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|BigInt|
 
+<a name="onetomany"></a>
+
+## One-To-Many Relationships
+
+Listed by **SchemaName**.
+
+
+### <a name="BKMK_msdyn_msdyn_occhannelconfiguration_msdyn_occhannelstateconfiguration_occhannelconfigurationid"></a> msdyn_msdyn_occhannelconfiguration_msdyn_occhannelstateconfiguration_occhannelconfigurationid
+
+Same as msdyn_occhannelstateconfiguration entity [msdyn_msdyn_occhannelconfiguration_msdyn_occhannelstateconfiguration_occhannelconfigurationid](msdyn_occhannelstateconfiguration.md#BKMK_msdyn_msdyn_occhannelconfiguration_msdyn_occhannelstateconfiguration_occhannelconfigurationid) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_occhannelstateconfiguration|
+|ReferencingAttribute|msdyn_occhannelconfigurationid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_occhannelconfiguration_msdyn_occhannelstateconfiguration_occhannelconfigurationid|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### See also

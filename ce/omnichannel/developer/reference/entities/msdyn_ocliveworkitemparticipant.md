@@ -1,15 +1,16 @@
 ---
-title: "msdyn_oc_geolocationprovider Entity Reference | MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_oc_geolocationprovider entity."
+title: "msdyn_ocliveworkitemparticipant Entity Reference | MicrosoftDocs"
+description: "Includes schema information and supported messages for the msdyn_ocliveworkitemparticipant entity."
+ms.date: 08/18/2020
+ms.service: "crm-online"
+ms.topic: "reference"
+applies_to: 
+  - "Dynamics 365 (online)"
 author: "susikka"
 ms.author: "susikka"
-manager: "shujoshi"
-ms.date: 08/29/2019
-ms.service: 
-  - crm-online
-ms.topic: "reference"
+manager: "susikka"
 ---
-# msdyn_oc_geolocationprovider Entity Reference
+# msdyn_ocliveworkitemparticipant Entity Reference
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
@@ -22,35 +23,35 @@ ms.topic: "reference"
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.1/msdyn_oc_geolocationproviders(*msdyn_oc_geolocationproviderid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.1/msdyn_oc_geolocationproviders<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.1/msdyn_oc_geolocationproviders(*msdyn_oc_geolocationproviderid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_ocliveworkitemparticipants(*msdyn_ocliveworkitemparticipantid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_ocliveworkitemparticipants<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_ocliveworkitemparticipants(*msdyn_ocliveworkitemparticipantid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.1/msdyn_oc_geolocationproviders(*msdyn_oc_geolocationproviderid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.1/msdyn_oc_geolocationproviders<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_ocliveworkitemparticipants(*msdyn_ocliveworkitemparticipantid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_ocliveworkitemparticipants<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.1/msdyn_oc_geolocationproviders(*msdyn_oc_geolocationproviderid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.1/msdyn_oc_geolocationproviders(*msdyn_oc_geolocationproviderid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_ocliveworkitemparticipants(*msdyn_ocliveworkitemparticipantid*)<br />[Update](../webapi/update-delete-entities-using-web-api.md#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_ocliveworkitemparticipants(*msdyn_ocliveworkitemparticipantid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
 |Property|Value|
 |--------|-----|
-|CollectionSchemaName|msdyn_oc_geolocationproviders|
-|DisplayCollectionName|Geo Location Providers|
-|DisplayName|Geo Location Provider|
-|EntitySetName|msdyn_oc_geolocationproviders|
+|CollectionSchemaName|msdyn_ocliveworkitemparticipants|
+|DisplayCollectionName|Live Work Item Participants (Deprecated)|
+|DisplayName|Live Work Item Participant (Deprecated)|
+|EntitySetName|msdyn_ocliveworkitemparticipants|
 |IsBPFEntity|False|
-|LogicalCollectionName|msdyn_oc_geolocationproviders|
-|LogicalName|msdyn_oc_geolocationprovider|
+|LogicalCollectionName|msdyn_ocliveworkitemparticipants|
+|LogicalName|msdyn_ocliveworkitemparticipant|
 |OwnershipType|UserOwned|
-|PrimaryIdAttribute|msdyn_oc_geolocationproviderid|
+|PrimaryIdAttribute|msdyn_ocliveworkitemparticipantid|
 |PrimaryNameAttribute|msdyn_name|
-|SchemaName|msdyn_oc_geolocationprovider|
+|SchemaName|msdyn_ocliveworkitemparticipant|
 
 <a name="writable-attributes"></a>
 
@@ -59,11 +60,14 @@ ms.topic: "reference"
 These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
+- [msdyn_addedon](#BKMK_msdyn_addedon)
+- [msdyn_agentid](#BKMK_msdyn_agentid)
+- [msdyn_joinedon](#BKMK_msdyn_joinedon)
+- [msdyn_leavingreason](#BKMK_msdyn_leavingreason)
+- [msdyn_lefton](#BKMK_msdyn_lefton)
 - [msdyn_name](#BKMK_msdyn_name)
-- [msdyn_oc_geolocationproviderId](#BKMK_msdyn_oc_geolocationproviderId)
-- [msdyn_providerapikey](#BKMK_msdyn_providerapikey)
-- [msdyn_providerapikeyversion](#BKMK_msdyn_providerapikeyversion)
-- [msdyn_providername](#BKMK_msdyn_providername)
+- [msdyn_ocliveworkitemparticipantId](#BKMK_msdyn_ocliveworkitemparticipantId)
+- [msdyn_type](#BKMK_msdyn_type)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -90,6 +94,88 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 
+### <a name="BKMK_msdyn_addedon"></a> msdyn_addedon
+
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description||
+|DisplayName|Added On|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_addedon|
+|RequiredLevel|None|
+|Type|DateTime|
+
+
+### <a name="BKMK_msdyn_agentid"></a> msdyn_agentid
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Agent|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_agentid|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
+
+
+### <a name="BKMK_msdyn_joinedon"></a> msdyn_joinedon
+
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description||
+|DisplayName|Joined On|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_joinedon|
+|RequiredLevel|None|
+|Type|DateTime|
+
+
+### <a name="BKMK_msdyn_leavingreason"></a> msdyn_leavingreason
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Leaving Reason|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_leavingreason|
+|RequiredLevel|None|
+|Type|Picklist|
+
+#### msdyn_leavingreason Options
+
+|Value|Label|
+|-----|-----|
+|192350000|Rejected|
+|192350001|Disconnected|
+|192350002|TimedOut|
+|192350003|Item|
+
+
+
+### <a name="BKMK_msdyn_lefton"></a> msdyn_lefton
+
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description||
+|DisplayName|Left On|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_lefton|
+|RequiredLevel|None|
+|Type|DateTime|
+
+
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 
 |Property|Value|
@@ -106,71 +192,38 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
-### <a name="BKMK_msdyn_oc_geolocationproviderId"></a> msdyn_oc_geolocationproviderId
+### <a name="BKMK_msdyn_ocliveworkitemparticipantId"></a> msdyn_ocliveworkitemparticipantId
 
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for entity instances|
-|DisplayName|Geo Location Provider|
+|DisplayName|Live Work Item Participant (Deprecated)|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |IsValidForUpdate|False|
-|LogicalName|msdyn_oc_geolocationproviderid|
+|LogicalName|msdyn_ocliveworkitemparticipantid|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
 
 
-### <a name="BKMK_msdyn_providerapikey"></a> msdyn_providerapikey
+### <a name="BKMK_msdyn_type"></a> msdyn_type
 
 |Property|Value|
 |--------|-----|
-|Description|Geo Location Provider API key|
-|DisplayName|Bing Maps API key|
-|FormatName|Text|
-|IsLocalizable|False|
+|Description||
+|DisplayName|Type|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_providerapikey|
-|MaxLength|300|
-|RequiredLevel|ApplicationRequired|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_providerapikeyversion"></a> msdyn_providerapikeyversion
-
-|Property|Value|
-|--------|-----|
-|Description|Provider API Key Version|
-|DisplayName|Provider API Key Version|
-|Format|None|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_providerapikeyversion|
-|MaxValue|2147483647|
-|MinValue|0|
-|RequiredLevel|ApplicationRequired|
-|Type|Integer|
-
-
-### <a name="BKMK_msdyn_providername"></a> msdyn_providername
-
-|Property|Value|
-|--------|-----|
-|Description|Geo Location Provider Name|
-|DisplayName|Provider name|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_providername|
-|RequiredLevel|ApplicationRequired|
+|LogicalName|msdyn_type|
+|RequiredLevel|None|
 |Type|Picklist|
 
-#### msdyn_providername Options
+#### msdyn_type Options
 
 |Value|Label|
 |-----|-----|
-|192350000|Bing|
-|192350001|Google|
-|192350002|HERE|
+|192350000|Primary|
+|192350001|Consultant|
 
 
 
@@ -225,7 +278,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Status of the Geo Location Provider|
+|Description|Status of the Live Work Item Participant|
 |DisplayName|Status|
 |IsValidForCreate|False|
 |IsValidForForm|True|
@@ -247,7 +300,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for the status of the Geo Location Provider|
+|Description|Reason for the status of the Live Work Item Participant|
 |DisplayName|Status Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -315,6 +368,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
+- [msdyn_agentidName](#BKMK_msdyn_agentidName)
+- [msdyn_agentidYomiName](#BKMK_msdyn_agentidYomiName)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
 - [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
@@ -558,6 +613,38 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |LogicalName|modifiedonbehalfbyyominame|
 |MaxLength|100|
 |RequiredLevel|SystemRequired|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_agentidName"></a> msdyn_agentidName
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_agentidname|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_agentidYomiName"></a> msdyn_agentidYomiName
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_agentidyominame|
+|MaxLength|200|
+|RequiredLevel|None|
 |Type|String|
 
 

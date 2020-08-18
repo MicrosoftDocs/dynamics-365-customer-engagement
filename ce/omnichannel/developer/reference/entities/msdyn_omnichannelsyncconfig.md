@@ -1,56 +1,57 @@
 ---
-title: "msdyn_oc_geolocationprovider Entity Reference | MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_oc_geolocationprovider entity."
+title: "msdyn_omnichannelsyncconfig Entity Reference | MicrosoftDocs"
+description: "Includes schema information and supported messages for the msdyn_omnichannelsyncconfig entity."
+ms.date: 08/18/2020
+ms.service: "crm-online"
+ms.topic: "reference"
+applies_to: 
+  - "Dynamics 365 (online)"
 author: "susikka"
 ms.author: "susikka"
-manager: "shujoshi"
-ms.date: 08/29/2019
-ms.service: 
-  - crm-online
-ms.topic: "reference"
+manager: "susikka"
 ---
-# msdyn_oc_geolocationprovider Entity Reference
+# msdyn_omnichannelsyncconfig Entity Reference
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
+Config for entities to be synced to Omnichannel
 
-
-**Added by**: Omnichannel – Base Solution
+**Added by**: Omnichannel - Base Patch Solution
 
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.1/msdyn_oc_geolocationproviders(*msdyn_oc_geolocationproviderid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.1/msdyn_oc_geolocationproviders<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.1/msdyn_oc_geolocationproviders(*msdyn_oc_geolocationproviderid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_omnichannelsyncconfigs(*msdyn_omnichannelsyncconfigid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_omnichannelsyncconfigs<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_omnichannelsyncconfigs(*msdyn_omnichannelsyncconfigid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.1/msdyn_oc_geolocationproviders(*msdyn_oc_geolocationproviderid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.1/msdyn_oc_geolocationproviders<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_omnichannelsyncconfigs(*msdyn_omnichannelsyncconfigid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_omnichannelsyncconfigs<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.1/msdyn_oc_geolocationproviders(*msdyn_oc_geolocationproviderid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.1/msdyn_oc_geolocationproviders(*msdyn_oc_geolocationproviderid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_omnichannelsyncconfigs(*msdyn_omnichannelsyncconfigid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_omnichannelsyncconfigs(*msdyn_omnichannelsyncconfigid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
 |Property|Value|
 |--------|-----|
-|CollectionSchemaName|msdyn_oc_geolocationproviders|
-|DisplayCollectionName|Geo Location Providers|
-|DisplayName|Geo Location Provider|
-|EntitySetName|msdyn_oc_geolocationproviders|
+|CollectionSchemaName|msdyn_omnichannelsyncconfigs|
+|DisplayCollectionName|Omnichannel Sync Configs|
+|DisplayName|Omnichannel Sync Config|
+|EntitySetName|msdyn_omnichannelsyncconfigs|
 |IsBPFEntity|False|
-|LogicalCollectionName|msdyn_oc_geolocationproviders|
-|LogicalName|msdyn_oc_geolocationprovider|
+|LogicalCollectionName|msdyn_omnichannelsyncconfigs|
+|LogicalName|msdyn_omnichannelsyncconfig|
 |OwnershipType|UserOwned|
-|PrimaryIdAttribute|msdyn_oc_geolocationproviderid|
+|PrimaryIdAttribute|msdyn_omnichannelsyncconfigid|
 |PrimaryNameAttribute|msdyn_name|
-|SchemaName|msdyn_oc_geolocationprovider|
+|SchemaName|msdyn_omnichannelsyncconfig|
 
 <a name="writable-attributes"></a>
 
@@ -59,11 +60,9 @@ ms.topic: "reference"
 These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
+- [msdyn_configJson](#BKMK_msdyn_configJson)
 - [msdyn_name](#BKMK_msdyn_name)
-- [msdyn_oc_geolocationproviderId](#BKMK_msdyn_oc_geolocationproviderId)
-- [msdyn_providerapikey](#BKMK_msdyn_providerapikey)
-- [msdyn_providerapikeyversion](#BKMK_msdyn_providerapikeyversion)
-- [msdyn_providername](#BKMK_msdyn_providername)
+- [msdyn_omnichannelsyncconfigId](#BKMK_msdyn_omnichannelsyncconfigId)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -90,6 +89,22 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 
+### <a name="BKMK_msdyn_configJson"></a> msdyn_configJson
+
+|Property|Value|
+|--------|-----|
+|Description|Config for defining entities to be synced to Omnichannel|
+|DisplayName|Config Json|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_configjson|
+|MaxLength|4000|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
+
+
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 
 |Property|Value|
@@ -106,72 +121,18 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
-### <a name="BKMK_msdyn_oc_geolocationproviderId"></a> msdyn_oc_geolocationproviderId
+### <a name="BKMK_msdyn_omnichannelsyncconfigId"></a> msdyn_omnichannelsyncconfigId
 
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for entity instances|
-|DisplayName|Geo Location Provider|
+|DisplayName|Omnichannel Sync Config|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |IsValidForUpdate|False|
-|LogicalName|msdyn_oc_geolocationproviderid|
+|LogicalName|msdyn_omnichannelsyncconfigid|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
-
-
-### <a name="BKMK_msdyn_providerapikey"></a> msdyn_providerapikey
-
-|Property|Value|
-|--------|-----|
-|Description|Geo Location Provider API key|
-|DisplayName|Bing Maps API key|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_providerapikey|
-|MaxLength|300|
-|RequiredLevel|ApplicationRequired|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_providerapikeyversion"></a> msdyn_providerapikeyversion
-
-|Property|Value|
-|--------|-----|
-|Description|Provider API Key Version|
-|DisplayName|Provider API Key Version|
-|Format|None|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_providerapikeyversion|
-|MaxValue|2147483647|
-|MinValue|0|
-|RequiredLevel|ApplicationRequired|
-|Type|Integer|
-
-
-### <a name="BKMK_msdyn_providername"></a> msdyn_providername
-
-|Property|Value|
-|--------|-----|
-|Description|Geo Location Provider Name|
-|DisplayName|Provider name|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_providername|
-|RequiredLevel|ApplicationRequired|
-|Type|Picklist|
-
-#### msdyn_providername Options
-
-|Value|Label|
-|-----|-----|
-|192350000|Bing|
-|192350001|Google|
-|192350002|HERE|
-
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
@@ -225,7 +186,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Status of the Geo Location Provider|
+|Description|Status of the Omnichannel Sync Config|
 |DisplayName|Status|
 |IsValidForCreate|False|
 |IsValidForForm|True|
@@ -247,7 +208,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for the status of the Geo Location Provider|
+|Description|Reason for the status of the Omnichannel Sync Config|
 |DisplayName|Status Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
