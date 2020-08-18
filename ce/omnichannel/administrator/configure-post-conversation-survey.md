@@ -77,7 +77,7 @@ You can set up surveys when configuring a channel or update an existing channel 
 > ![Post-conversation survey](../media/oc-post-conversation-survey.png "Post-conversation survey")
 
 > [!NOTE]
-> The surveys that you create and survey data that is processed is not hosted or stored in Omnichannel for Customer Service.
+> The surveys that you create and survey data that is processed are not hosted or stored in Omnichannel for Customer Service.
 
 ### See also
 
