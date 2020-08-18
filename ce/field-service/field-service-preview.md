@@ -39,7 +39,7 @@ Installing a preview solution will install Field Service and preview features.
 
 Find and note the **Org ID** of your Dynamics 365 environment you wish to add preview features to.
 
-You can find this in **Settings** > **Customizations** > **Developer Resources**.
+You can find the org ID in **Settings** > **Customizations** > **Developer Resources**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of developer resources in Field Service](./media/preview-orgid.png)
@@ -53,7 +53,7 @@ Open PowerShell and **Run as Administrator**.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the run as administrator option for PowerShell in the Windows start search.](./media/preview-powershell.png)
 
-Here's an example of all the PowerShell commands we'll run; you can follow with the steps below. We recommend copying and pasting the following in a note that you can edit with your specific information for username, password, org ID and more.
+Here's an example of all the PowerShell commands we'll run; you can follow with the steps below. We recommend copying and pasting the following commands in a note that you can edit with your specific information for username, password, org ID and more.
 
 ```
     install-module Microsoft.Xrm.OnlineManagementAPI -Scope CurrentUser -force
@@ -135,7 +135,7 @@ It will say **Added to Flight**.
 
 ## Step 8: Install or upgrade preview version of Field Service 
 
-The following applies to both installing Field Service in an environment without the app and upgrading existing versions to the preview version.
+The following step applies to both installing Field Service in an environment without the app and upgrading existing versions to the preview version.
 
 As a system administrator, go to [https://admin.powerplatform.microsoft.com/environments/](https://admin.powerplatform.microsoft.com/environments/).
 
