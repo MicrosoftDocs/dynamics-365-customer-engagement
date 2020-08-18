@@ -507,7 +507,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Notification association with scenarios|
 |DisplayName|notification scenario placeholder|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -602,7 +602,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|Session association with scenarios|
 |DisplayName|session scenario placeholder|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -1311,48 +1311,15 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 Listed by **SchemaName**.
 
-- [msdyn_liveworkstream_ocruleitem](#BKMK_msdyn_liveworkstream_ocruleitem)
-- [msdyn_msdyn_liveworkstream_msdyn_entityconfig](#BKMK_msdyn_msdyn_liveworkstream_msdyn_entityconfig)
 - [msdyn_msdyn_liveworkstream_msdyn_ocliveworkitem_liveworkstreamid](#BKMK_msdyn_msdyn_liveworkstream_msdyn_ocliveworkitem_liveworkstreamid)
 - [msdyn_msdyn_liveworkstream_msdyn_liveconversation](#BKMK_msdyn_msdyn_liveworkstream_msdyn_liveconversation)
 - [msdyn_msdyn_liveworkstream_msdyn_ocliveworkstreamcontextvariable_liveworkstreamid](#BKMK_msdyn_msdyn_liveworkstream_msdyn_ocliveworkstreamcontextvariable_liveworkstreamid)
-- [msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid](#BKMK_msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid)
-- [msdyn_msdyn_liveworkstream_msdyn_surveyquestion](#BKMK_msdyn_msdyn_liveworkstream_msdyn_surveyquestion)
-- [msdyn_msdyn_liveworkstream_msdyn_smsnumber](#BKMK_msdyn_msdyn_liveworkstream_msdyn_smsnumber)
-
-
-### <a name="BKMK_msdyn_liveworkstream_ocruleitem"></a> msdyn_liveworkstream_ocruleitem
-
-Same as msdyn_ocruleitem entity [msdyn_liveworkstream_ocruleitem](msdyn_ocruleitem.md#BKMK_msdyn_liveworkstream_ocruleitem) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_ocruleitem|
-|ReferencingAttribute|msdyn_liveworkstream|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_liveworkstream_ocruleitem|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_msdyn_liveworkstream_msdyn_entityconfig"></a> msdyn_msdyn_liveworkstream_msdyn_entityconfig
-
-Same as msdyn_entityconfig entity [msdyn_msdyn_liveworkstream_msdyn_entityconfig](msdyn_entityconfig.md#BKMK_msdyn_msdyn_liveworkstream_msdyn_entityconfig) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_entityconfig|
-|ReferencingAttribute|msdyn_liveworkstreamid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_msdyn_liveworkstream_msdyn_entityconfig|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+- [msdyn_msdyn_liveworkstream_msdyn_entityconfig](#BKMK_msdyn_msdyn_liveworkstream_msdyn_entityconfig)
 
 
 ### <a name="BKMK_msdyn_msdyn_liveworkstream_msdyn_ocliveworkitem_liveworkstreamid"></a> msdyn_msdyn_liveworkstream_msdyn_ocliveworkitem_liveworkstreamid
 
+Same as msdyn_ocliveworkitem entity [msdyn_msdyn_liveworkstream_msdyn_ocliveworkitem_liveworkstreamid](msdyn_ocliveworkitem.md#BKMK_msdyn_msdyn_liveworkstream_msdyn_ocliveworkitem_liveworkstreamid) Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
@@ -1367,6 +1334,7 @@ Same as msdyn_entityconfig entity [msdyn_msdyn_liveworkstream_msdyn_entityconfig
 
 ### <a name="BKMK_msdyn_msdyn_liveworkstream_msdyn_liveconversation"></a> msdyn_msdyn_liveworkstream_msdyn_liveconversation
 
+Same as msdyn_liveconversation entity [msdyn_msdyn_liveworkstream_msdyn_liveconversation](msdyn_liveconversation.md#BKMK_msdyn_msdyn_liveworkstream_msdyn_liveconversation) Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
@@ -1394,56 +1362,32 @@ Same as msdyn_ocliveworkstreamcontextvariable entity [msdyn_msdyn_liveworkstream
 |CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### <a name="BKMK_msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid"></a> msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid
+### <a name="BKMK_msdyn_msdyn_liveworkstream_msdyn_entityconfig"></a> msdyn_msdyn_liveworkstream_msdyn_entityconfig
 
-**Added by**: Omnichannel – Chat Solution
-
-Same as msdyn_livechatconfig entity [msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid](msdyn_livechatconfig.md#BKMK_msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid) Many-To-One relationship.
+Same as msdyn_entityconfig entity [msdyn_msdyn_liveworkstream_msdyn_entityconfig](msdyn_entityconfig.md#BKMK_msdyn_msdyn_liveworkstream_msdyn_entityconfig) Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
-|ReferencingEntity|msdyn_livechatconfig|
+|ReferencingEntity|msdyn_entityconfig|
 |ReferencingAttribute|msdyn_liveworkstreamid|
 |IsHierarchical|False|
 |IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_liveworkstream_msdyn_entityconfig|
 |AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
+<a name="manytoone"></a>
 
-### <a name="BKMK_msdyn_msdyn_liveworkstream_msdyn_surveyquestion"></a> msdyn_msdyn_liveworkstream_msdyn_surveyquestion
+## Many-To-One Relationships
 
-**Added by**: Omnichannel – Chat Solution
-
-Same as msdyn_surveyquestion entity [msdyn_msdyn_liveworkstream_msdyn_surveyquestion](msdyn_surveyquestion.md#BKMK_msdyn_msdyn_liveworkstream_msdyn_surveyquestion) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_surveyquestion|
-|ReferencingAttribute|msdyn_liveworkstreamtochatquestion|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_msdyn_liveworkstream_msdyn_surveyquestion|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
+Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
 
 
-### <a name="BKMK_msdyn_msdyn_liveworkstream_msdyn_smsnumber"></a> msdyn_msdyn_liveworkstream_msdyn_smsnumber
+### <a name="BKMK_msdyn_entityroutingconfiguration_msdyn_liveworkstream"></a> msdyn_entityroutingconfiguration_msdyn_liveworkstream
 
-**Added by**: Omnichannel – SMS Solution
+**Added by**: Omnichannel - Base Patch Solution
 
-Same as msdyn_smsnumber entity [msdyn_msdyn_liveworkstream_msdyn_smsnumber](msdyn_smsnumber.md#BKMK_msdyn_msdyn_liveworkstream_msdyn_smsnumber) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_smsnumber|
-|ReferencingAttribute|msdyn_liveworkstreamid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_msdyn_liveworkstream_msdyn_smsnumber|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
+See msdyn_entityroutingconfiguration Entity [msdyn_entityroutingconfiguration_msdyn_liveworkstream](msdyn_entityroutingconfiguration.md#BKMK_msdyn_entityroutingconfiguration_msdyn_liveworkstream) One-To-Many relationship.
 <a name="manytomany"></a>
 
 ## Many-To-Many Relationships

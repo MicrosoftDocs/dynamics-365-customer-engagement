@@ -1,55 +1,57 @@
 ---
-title: "msdyn_cdsentityengagementctx Entity Reference | MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_cdsentityengagementctx entity."
-ms.date: 03/23/2020
+title: "msdyn_entityroutingconfiguration Entity Reference | MicrosoftDocs"
+description: "Includes schema information and supported messages for the msdyn_entityroutingconfiguration entity."
+ms.date: 08/18/2020
 ms.service: "crm-online"
 ms.topic: "reference"
+applies_to: 
+  - "Dynamics 365 (online)"
 author: "susikka"
 ms.author: "susikka"
-manager: "shujoshi"
+manager: "susikka"
 ---
-# msdyn_cdsentityengagementctx Entity Reference
+# msdyn_entityroutingconfiguration Entity Reference
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-Entity Routing Contexts
+Entity Routing Configuration
 
-**Added by**: Omnichannel – Base Solution
+**Added by**: Omnichannel - Base Patch Solution
 
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.1/msdyn_cdsentityengagementctxes(*msdyn_cdsentityengagementctxid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.1/msdyn_cdsentityengagementctxes<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.1/msdyn_cdsentityengagementctxes(*msdyn_cdsentityengagementctxid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_entityroutingconfigurations(*msdyn_entityroutingconfigurationid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_entityroutingconfigurations<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_entityroutingconfigurations(*msdyn_entityroutingconfigurationid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.1/msdyn_cdsentityengagementctxes(*msdyn_cdsentityengagementctxid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.1/msdyn_cdsentityengagementctxes<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_entityroutingconfigurations(*msdyn_entityroutingconfigurationid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_entityroutingconfigurations<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.1/msdyn_cdsentityengagementctxes(*msdyn_cdsentityengagementctxid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.1/msdyn_cdsentityengagementctxes(*msdyn_cdsentityengagementctxid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_entityroutingconfigurations(*msdyn_entityroutingconfigurationid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_entityroutingconfigurations(*msdyn_entityroutingconfigurationid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
 |Property|Value|
 |--------|-----|
-|CollectionSchemaName|msdyn_cdsentityengagementctxes|
-|DisplayCollectionName|Entity Routing Contexts|
-|DisplayName|Entity Routing Context|
-|EntitySetName|msdyn_cdsentityengagementctxes|
+|CollectionSchemaName|msdyn_entityroutingconfigurations|
+|DisplayCollectionName|Entities|
+|DisplayName|Entity|
+|EntitySetName|msdyn_entityroutingconfigurations|
 |IsBPFEntity|False|
-|LogicalCollectionName|msdyn_cdsentityengagementctxes|
-|LogicalName|msdyn_cdsentityengagementctx|
+|LogicalCollectionName|msdyn_entityroutingconfigurations|
+|LogicalName|msdyn_entityroutingconfiguration|
 |OwnershipType|UserOwned|
-|PrimaryIdAttribute|msdyn_cdsentityengagementctxid|
+|PrimaryIdAttribute|msdyn_entityroutingconfigurationid|
 |PrimaryNameAttribute|msdyn_name|
-|SchemaName|msdyn_cdsentityengagementctx|
+|SchemaName|msdyn_entityroutingconfiguration|
 
 <a name="writable-attributes"></a>
 
@@ -58,12 +60,14 @@ Entity Routing Contexts
 These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
-- [msdyn_cdsentityengagementctxId](#BKMK_msdyn_cdsentityengagementctxId)
-- [msdyn_engagedentitysetname](#BKMK_msdyn_engagedentitysetname)
-- [msdyn_liveworkitemid](#BKMK_msdyn_liveworkitemid)
+- [msdyn_DeroutingProcess](#BKMK_msdyn_DeroutingProcess)
+- [msdyn_entity](#BKMK_msdyn_entity)
+- [msdyn_entityroutingconfigurationId](#BKMK_msdyn_entityroutingconfigurationId)
+- [msdyn_entitysetname](#BKMK_msdyn_entitysetname)
 - [msdyn_name](#BKMK_msdyn_name)
-- [msdyn_recordid](#BKMK_msdyn_recordid)
-- [msdyn_workitemrelation](#BKMK_msdyn_workitemrelation)
+- [msdyn_relationshipname](#BKMK_msdyn_relationshipname)
+- [msdyn_RoutingProcess](#BKMK_msdyn_RoutingProcess)
+- [msdyn_routingrulesubgrid](#BKMK_msdyn_routingrulesubgrid)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -90,55 +94,71 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 
-### <a name="BKMK_msdyn_cdsentityengagementctxId"></a> msdyn_cdsentityengagementctxId
+### <a name="BKMK_msdyn_DeroutingProcess"></a> msdyn_DeroutingProcess
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier for entity instances|
-|DisplayName|Entity Routing Context|
-|IsValidForForm|False|
+|Description|Process used for configuring the derouting criteria|
+|DisplayName|Derouting Process|
+|IsValidForForm|True|
 |IsValidForRead|True|
-|IsValidForUpdate|False|
-|LogicalName|msdyn_cdsentityengagementctxid|
-|RequiredLevel|SystemRequired|
-|Type|Uniqueidentifier|
+|LogicalName|msdyn_deroutingprocess|
+|RequiredLevel|ApplicationRequired|
+|Targets|workflow|
+|Type|Lookup|
 
 
-### <a name="BKMK_msdyn_engagedentitysetname"></a> msdyn_engagedentitysetname
+### <a name="BKMK_msdyn_entity"></a> msdyn_entity
 
 |Property|Value|
 |--------|-----|
-|Description|Name of the entity|
-|DisplayName|Engaged Entity Set Name|
+|Description|Custom entity.|
+|DisplayName|Entity|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_engagedentitysetname|
+|LogicalName|msdyn_entity|
 |MaxLength|100|
-|RequiredLevel|None|
+|RequiredLevel|ApplicationRequired|
 |Type|String|
 
 
-### <a name="BKMK_msdyn_liveworkitemid"></a> msdyn_liveworkitemid
+### <a name="BKMK_msdyn_entityroutingconfigurationId"></a> msdyn_entityroutingconfigurationId
 
 |Property|Value|
 |--------|-----|
-|Description|Unique Identifier of Conversation|
-|DisplayName|Conversation Id|
+|Description|Unique identifier for entity instances|
+|DisplayName|Entity Routing Configuration|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|msdyn_entityroutingconfigurationid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
+
+
+### <a name="BKMK_msdyn_entitysetname"></a> msdyn_entitysetname
+
+|Property|Value|
+|--------|-----|
+|Description|Entity set name of the entity being routed|
+|DisplayName|Entity Set Name|
+|FormatName|Text|
+|IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_liveworkitemid|
+|LogicalName|msdyn_entitysetname|
+|MaxLength|100|
 |RequiredLevel|None|
-|Targets|msdyn_ocliveworkitem|
-|Type|Lookup|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 
 |Property|Value|
 |--------|-----|
-|Description|The name of the custom entity.|
+|Description|Name of Entity Routing Configuration|
 |DisplayName|Name|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -150,34 +170,48 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
-### <a name="BKMK_msdyn_recordid"></a> msdyn_recordid
+### <a name="BKMK_msdyn_relationshipname"></a> msdyn_relationshipname
 
 |Property|Value|
 |--------|-----|
-|Description|Unique Identifier of the record being routed|
-|DisplayName|Record Id|
+|Description|Relationship name of the entity with LiveWorkItem entity|
+|DisplayName|Relationship Name|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_recordid|
+|LogicalName|msdyn_relationshipname|
 |MaxLength|100|
 |RequiredLevel|None|
 |Type|String|
 
 
-### <a name="BKMK_msdyn_workitemrelation"></a> msdyn_workitemrelation
+### <a name="BKMK_msdyn_RoutingProcess"></a> msdyn_RoutingProcess
 
 |Property|Value|
 |--------|-----|
-|Description|Relationship name of the entity with LiveWorkItem entity|
-|DisplayName|Work Item Relation|
+|Description|Routing Process|
+|DisplayName|Routing Process|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_routingprocess|
+|RequiredLevel|ApplicationRequired|
+|Targets|workflow|
+|Type|Lookup|
+
+
+### <a name="BKMK_msdyn_routingrulesubgrid"></a> msdyn_routingrulesubgrid
+
+|Property|Value|
+|--------|-----|
+|Description|Field to bind Routing Rule Subgrid wrapper control|
+|DisplayName|Routing Rules control field|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_workitemrelation|
-|MaxLength|100|
+|LogicalName|msdyn_routingrulesubgrid|
+|MaxLength|4000|
 |RequiredLevel|None|
 |Type|String|
 
@@ -233,7 +267,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Status of the Entity routing context|
+|Description|Status of the Entity Routing Configuration|
 |DisplayName|Status|
 |IsValidForCreate|False|
 |IsValidForForm|True|
@@ -255,7 +289,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for the status of the Entity routing context|
+|Description|Reason for the status of the Entity Routing Configuration|
 |DisplayName|Status Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -323,7 +357,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
-- [msdyn_liveworkitemidName](#BKMK_msdyn_liveworkitemidName)
+- [msdyn_DeroutingProcessName](#BKMK_msdyn_DeroutingProcessName)
+- [msdyn_RoutingProcessName](#BKMK_msdyn_RoutingProcessName)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
 - [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
@@ -570,7 +605,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
-### <a name="BKMK_msdyn_liveworkitemidName"></a> msdyn_liveworkitemidName
+### <a name="BKMK_msdyn_DeroutingProcessName"></a> msdyn_DeroutingProcessName
 
 |Property|Value|
 |--------|-----|
@@ -580,8 +615,24 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |IsLocalizable|False|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|msdyn_liveworkitemidname|
-|MaxLength|200|
+|LogicalName|msdyn_deroutingprocessname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_RoutingProcessName"></a> msdyn_RoutingProcessName
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_routingprocessname|
+|MaxLength|100|
 |RequiredLevel|None|
 |Type|String|
 
@@ -686,18 +737,27 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|BigInt|
 
-<a name="manytoone"></a>
+<a name="onetomany"></a>
 
-## Many-To-One Relationships
+## One-To-Many Relationships
 
-Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
+Listed by **SchemaName**.
 
 
-### <a name="BKMK_msdyn_msdyn_ocliveworkitem_msdyn_cdsentityengagementctx_liveworkitemid"></a> msdyn_msdyn_ocliveworkitem_msdyn_cdsentityengagementctx_liveworkitemid
+### <a name="BKMK_msdyn_entityroutingconfiguration_msdyn_liveworkstream"></a> msdyn_entityroutingconfiguration_msdyn_liveworkstream
 
-**Added by**: Active Solution Solution
+Same as msdyn_liveworkstream entity [msdyn_entityroutingconfiguration_msdyn_liveworkstream](msdyn_liveworkstream.md#BKMK_msdyn_entityroutingconfiguration_msdyn_liveworkstream) Many-To-One relationship.
 
-See msdyn_ocliveworkitem Entity [msdyn_msdyn_ocliveworkitem_msdyn_cdsentityengagementctx_liveworkitemid](msdyn_ocliveworkitem.md#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_cdsentityengagementctx_liveworkitemid) One-To-Many relationship.
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_liveworkstream|
+|ReferencingAttribute|msdyn_entityroutingconfigurationid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_entityroutingconfiguration_msdyn_liveworkstream|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
 
 ### See also
 
