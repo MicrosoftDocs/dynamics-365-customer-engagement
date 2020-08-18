@@ -4,7 +4,7 @@ description: "Instructions to configure a post-conversation survey in Omnichanne
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/10/2020
+ms.date: 08/18/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -51,7 +51,6 @@ You can enable post-conversation surveys for the following channels:
 
 For a chat channel only, you can configure the survey link or survey questions to be displayed in the chat window.
 
-
 ## Configure a post-conversation survey
 
 You can set up surveys when configuring a channel or update an existing channel instance that is already configured.
@@ -76,6 +75,9 @@ You can set up surveys when configuring a channel or update an existing channel 
 
 > [!div class=mx-imgBorder]
 > ![Post-conversation survey](../media/oc-post-conversation-survey.png "Post-conversation survey")
+
+> [!NOTE]
+> The surveys that you create and survey data that is processed is not hosted or stored in Omnichannel for Customer Service.
 
 ### See also
 
