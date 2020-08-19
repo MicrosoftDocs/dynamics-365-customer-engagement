@@ -52,6 +52,7 @@
 ### [Use an existing field in Project Service as a pricing dimension](use-existing-field.md)
 #### [Use bookable resource as a pricing dimension](bookable-resource-pricing-dimension.md)
 #### [Use transaction category as a pricing dimension](transaction-category-pricing-dimension.md)
+### [Bookable resource playing multiple roles on a project](bookable-resource-multiple-roles.md)
 ### [Turn off a pricing dimension](turn-off-pricing-dimension.md)
 ## [Quoting, pricing, and billing](quote-bill-price.md)
 ### [Sales processes](basic-sales-process.md)
