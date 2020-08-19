@@ -32,8 +32,10 @@ The need to track progress against a schedule varies by industry. Some industrie
 
 The **Effort tracking** view tracks the progress of tasks in the schedule. It compares the actual effort hours spent on a task to the task's planned effort hours. PSA uses the following formulas to calculate the tracking metrics:
 
+Initially on the task creation: Planned cost will be set to the Estimated cost at complete. Once Actuals are recorded on the task, the following will be calculation on the Tracking view for Effort
+
 - Progress percentage = Actual effort spent to date ÷ Estimate at complete (EAC) 
-- Estimate to complete (ETC) = Planned effort – Actual effort spent to date 
+- Estimate to complete (ETC) = Estimate at complete (EAC)  – Actual effort spent to date 
 - EAC = Remaining effort + Actual effort spent to date 
 - Projected effort variance = Planned effort – EAC
 
@@ -69,11 +71,12 @@ The **Cost tracking** view compares the actual cost that was spent on a task to 
 
 PSA uses the following formulas to calculate the tracking metrics:
 
-Initially on the task: Planned cost will be set to the Estimated cost at complete. Once Actuals are recorded on the task, the following will be calculation on the Tracking view for Cost
-Percentage of cost consumed = Actual cost spent to date ÷ Estimated cost at complete for the task
-Cost to complete (CTC) = Estimated cost at complete – Actual cost spent to date
-Estimated cost at complete = CTC + Actual cost spent to date
-Projected cost variance = Planned cost – Estimated cost at complete
+Initially on the task creation: Planned cost will be set to the Estimated cost at complete. Once Actuals are recorded on the task, the following will be calculation on the Tracking view for Cost
+
+ - Percentage of cost consumed = Actual cost spent to date ÷ Estimated cost at complete for the task
+ - Cost to complete (CTC) = Estimated cost at complete – Actual cost spent to date
+ - Estimated cost at complete = CTC + Actual cost spent to date
+ - Projected cost variance = Planned cost – Estimated cost at complete
 
 A projection of the cost variance is shown on the task. If the Estimated cost at complete is more than the planned cost, the task is projected to cost more than was originally planned. Therefore, it's trending over budget. If the Estimated cost at complete is less than the planned cost, the task is projected to cost less than was originally planned. Therefore, it's trending under budget.
 
