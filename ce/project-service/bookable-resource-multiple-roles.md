@@ -33,6 +33,6 @@ search.app:
 
 
 ## Behavior of Team Member and Estimates when the same Bookable Resource is staffed for both the generic team member-based requirements
-### Team Member grid Expereince
+### Team Member grid Experience
 ### Estimates grid Experience
 
