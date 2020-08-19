@@ -4,7 +4,7 @@ description: "Instructions for configuring an SMS channel for Twilio in Omnichan
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/30/2020
+ms.date: 08/19/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -40,7 +40,7 @@ An SMS channel is enabled within Omnichannel for Customer Service by integrating
 2. Purchase support phone numbers through your Twilio account.
 
 > [!NOTE]
-> In this release, only long-code&ndash;type US phone numbers are supported.
+> Only US phone numbers are supported.
 
 ### Create a work stream
 
@@ -128,6 +128,6 @@ When you validate the SMS settings while setting up the SMS channel, a call is m
 
 ### See also
 
-[Channels in Omnichannel for Customer Service](channels.md)<br>
-[Delete a configured channel](delete-channel.md)<br>
-[SMS FAQ](../faqs.md#sms)
+[Channels in Omnichannel for Customer Service](channels.md)  
+[Delete a configured channel](delete-channel.md)  
+[SMS FAQ](../faqs.md#sms)  
