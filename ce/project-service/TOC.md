@@ -44,6 +44,7 @@
 ### [Project stages](project-stages.md)
 ### [Project settings](project-settings.md)
 ## [Pricing and costing dimensions](pricing-costing-dimensions.md)
+### [Create a solution for custom pricing dimensions](createcustompricingdimensionsolution.md)
 ### [Create custom fields and entities](create-custom-fields-entities.md)
 ### [Add custom fields to price setup and transactional entities ](field-references.md)
 ### [Set up custom fields as pricing dimensions ](set-up-pricing-dimensions.md)
