@@ -22,15 +22,15 @@ search.app:
 
 # Pricing and costing dimensions home page
 
-The dimensions that are used in human resources to set up pricing and costs fall into two categories:
+The dimensions used for setting labor pricing and costing in project-based organizations are influenced by the attributes of:
 
-- People
-- Planned work
+- People doing the work like thier experience, role, geography etc
+- Work to be performed like its complexity, time of day, etc.
 
-Because of this, there are two types of pricing dimension values available in Project Service Automation (PSA): 
+Given the typical nature of these attrubutes of the work and the people required to perform the work, there are two types of pricing dimension values available in Project Service Automation (PSA): 
 
-- **Option sets** - Dimensions that are fixed enumerations for a set of values.
-- **Entity-based values** - Dimensions that can be a varied set of values.
+- **Option sets** - Attributes that are fixed enumerations for a set of values.
+- **Entity-based values** - Attributes that can have a varied set of values that are finite but can change over time.
 
 ## Pricing dimensions
 
@@ -54,7 +54,7 @@ How an organization prices human resource time is often an important strategic c
 
 Other considerations for pricing include whether to re-use fields or entities that are not currently pricing dimensions but apply as a pricing dimension for your organization. Fields like **Transaction Category** (**msdyn_transactioncategory**) and **Bookable Resource** (**bookableresource**) are examples of candidate dimensions. 
 
-You should also consider whether your pricing dimension should be a table or an option set. If you foresee changes to the values of a dimension which will exceed 10 or 12 and you need additional attributes on these values, you could create an entity rather than an option set. Maintaining an option set, such as adding or removing values, requires an admin or developer whereas adding new rows to a table can be done by most users.
+You should also consider whether your pricing dimension should be a table or an option set. If you foresee changes to the values of a dimension which will exceed 10 or 12 and you need additional attributes on these values, you could create an entity rather than an option set. Maintaining an option set, such as adding or removing values, requires an admin or developer whereas adding new rows to a table can be done by most business users.
 
 The following example shows bill rates that are set up based on the role and the resourcing org unit to which the resource belongs. Cost rates are typically based on the salary band of the employee and the org unit that they belong to. In this example, the bill rate and cost rate tables will look like the following.
 
