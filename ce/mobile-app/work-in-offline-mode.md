@@ -1,7 +1,7 @@
 ---
 title: "Work offline on your mobile device (Dynamics 365 apps)| MicrosoftDocs"
 ms.custom: 
-ms.date: 6/18/2020
+ms.date: 8/5/2020
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
@@ -32,7 +32,7 @@ If you're working on a record and lose network connection, any updates made to t
 > [!NOTE]
 > - The mobile offline feature is only available for iOS and Android devices.
 > - To use the mobile offline feature, download the latest version of the Dynamics 365 for phones and tablet app from the app store. For iOS, version 13.19043.32 or later is supported; for Android, version 4.3.19043.33 or later supported.
-> - The offline feature is not supported If you are a [Dynamics 365 US Government](https://docs.microsoft.com/power-platform/admin/microsoft-dynamics-365-government) (GCC and GCC High) user or Dynamics 365 Customer Engagement (on-premises). 
+> - The offline feature isn't supported for Dynamics 365 Customer Engagement (on-premises). 
 
 ## Download updates to work in offline mode
 
@@ -125,13 +125,13 @@ If you used the mobile app on a phone or tablet temporarily and want to remove a
      > [!div class="mx-imgBorder"] 
      > ![Reconfigure](media/reconfigure.png "Reconfigure mobile app")
 
-Reconfiguring deletes all data and metadata from the cache, however do not rely on this as a security measure.
+Reconfiguring deletes data and metadata for the current organization from the cache, however do not rely on this as a security measure.
 
-Make sure you use the **Reconfigure** option before you sign out. If you sign in to another organization but you wanted to delete data for the previous organization that you were logged into, then you will need to sign back into that organization and use the **Reconfigure** option to delete all data and metadata from the cache. 
+Make sure you use the **Reconfigure** option before you sign out. If you sign in to another organization but you wanted to delete data for the previous organization that you were logged into, then you will need to sign back into that organization and use the **Reconfigure** option to delete data and metadata for that organization from the cache. 
 
 ## Mobile offline capabilities and limitations
 
-For informatoin on capabilities and limitations of mobile offline, see [Mobile offline capabilities and limitations](mobile-offline-capabilities.md).
+For information on capabilities and limitations of mobile offline, see [Mobile offline capabilities and limitations](mobile-offline-capabilities.md).
 
 
 

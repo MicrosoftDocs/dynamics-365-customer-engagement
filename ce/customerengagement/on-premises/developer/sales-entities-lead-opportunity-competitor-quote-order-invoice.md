@@ -24,8 +24,7 @@ ms.reviewer: susikka
 manager: annbe
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Sales entities (lead, opportunity, competitor, quote, order, invoice)
 

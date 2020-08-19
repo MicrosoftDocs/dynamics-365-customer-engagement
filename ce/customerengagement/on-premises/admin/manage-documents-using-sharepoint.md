@@ -17,16 +17,14 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Manage your documents using SharePoint
 
 Dynamics 365 Customer Engagement (on-premises) document management with SharePoint lets users manage common document types, such as Word, Excel, PowerPoint, OneNote, and create folders to save and manage those documents in Customer Engagement (on-premises) that are seamlessly stored in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. 
 
 > [!div class="mx-imgBorder"] 
-> ![](media/sp-ce-doc-management.png "Document management in customer engagement and SharePoint")
+> ![Document management in customer engagement and SharePoint](media/sp-ce-doc-management.png "Document management in customer engagement and SharePoint")
 
 Depending on your environment, there are several Customer Engagement (on-premises) and SharePoint configurations possible. 
 

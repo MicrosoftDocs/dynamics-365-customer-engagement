@@ -1,14 +1,13 @@
 ---
 title: Update plug-in attributes to include new pricing dimensions
-description: This topic provides information about updating plug-in attributes for pricing dimensions. 
+description: This topic provides information about updating plug-in attributes for pricing dimensions.
 author: Rumant
 manager: kfend
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
 ms.date: 11/19/2018
 ms.topic: article
 ms.prod: Project Service
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType: 
@@ -16,7 +15,8 @@ search.audienceType:
   - customizer
   - enduser
 search.app: 
-    - D365PS
+  - D365PS
+  - ProjectOperations
 ---
 
 

@@ -10,9 +10,7 @@ ms.author: "kvivek"
 manager: "annbe"
 search.audienceType: 
   - developer
-search.app: 
-  - PowerApps
-  - D365CE
+
 ---
 # AppModule Entity Reference
 
@@ -74,7 +72,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [PublishedOn](#BKMK_PublishedOn)
 - [PublisherId](#BKMK_PublisherId)
-- [UniqueName](#BKMK_UniqueName)
 - [URL](#BKMK_URL)
 - [WebResourceId](#BKMK_WebResourceId)
 - [WelcomePageId](#BKMK_WelcomePageId)
@@ -379,23 +376,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|ApplicationRequired|
 |Targets|publisher|
 |Type|Lookup|
-
-
-### <a name="BKMK_UniqueName"></a> UniqueName
-
-|Property|Value|
-|--------|-----|
-|Description|Unique Name of App Module|
-|DisplayName|Unique Name|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|uniquename|
-|MaxLength|100|
-|RequiredLevel|SystemRequired|
-|Type|String|
-
 
 ### <a name="BKMK_URL"></a> URL
 

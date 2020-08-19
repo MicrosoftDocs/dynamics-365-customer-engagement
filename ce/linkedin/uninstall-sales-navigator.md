@@ -42,8 +42,8 @@ You can uninstall LinkedIn Sales Navigator if you don't want to use it in your o
 
     b. Select the **LinkedIn Sales Navigator** section, and then select **Remove**.
 
-       > [!div class="mx-imgBorder"]  
-       > ![Select the section to remove](media/remove-linkedin-controls-form.png "Select the section to remove")
+      > [!div class="mx-imgBorder"]  
+      > ![Select the section to remove](media/remove-linkedin-controls-form.png "Select the section to remove")
 
     c. Save and publish the form.
 

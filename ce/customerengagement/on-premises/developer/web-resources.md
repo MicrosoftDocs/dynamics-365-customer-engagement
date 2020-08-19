@@ -19,8 +19,7 @@ caps.latest.revision: 46
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Web resources for Customer Engagement

@@ -19,8 +19,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Register a plug-in to be deployed on-premise

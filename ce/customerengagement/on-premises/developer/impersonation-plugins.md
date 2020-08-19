@@ -17,8 +17,7 @@ ms.author: pehecke
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Impersonation for on-premise deployed plug-ins
 

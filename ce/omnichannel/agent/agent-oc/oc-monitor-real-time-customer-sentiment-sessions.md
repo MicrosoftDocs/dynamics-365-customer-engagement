@@ -6,7 +6,7 @@ ms.author: laalexan
 manager: shujoshi
 applies_to: 
   - ""
-ms.date: 12/13/2019
+ms.date: 07/01/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -53,25 +53,28 @@ If profanity is detected in English, the sentiment is displayed as Negative or V
 > [!div class="nextstepaction"]
 > [Next topic: Manage presence status](oc-manage-presence-status.md)
 
-##  Preview: Multi-language sentiment
+## Multi-language sentiment
 
 Multi-language sentiment displays sentiment scores on some non-English conversations.
 
 > [!Note]
-> Multi-language sentiment is only available if the administrator enables it for you.
+>
+> Multi-language sentiment is available only if the administrator enables it for you.
 
 To learn more, see [multi-language sentiment](../../administrator/enable-sentiment-analysis.md).
+
 ## Videos
-[Real-time sentiment analysis in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114615)
 
+[Real-time sentiment analysis in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114615)  
 To view more videos on Omnichannel for Customer Service, see [Videos](../../videos.md).
-## See also
 
-- [Introduction to the agent interface](oc-introduction-agent-interface.md)
-- [Enable sentiment analysis](../../administrator/enable-sentiment-analysis.md)
-- [Manage sessions](oc-manage-sessions.md)
-- [Manage applications](oc-manage-applications.md)
-- [View the customer summary](oc-customer-summary.md)
-- [Search for and share knowledge articles](oc-search-knowledge-articles.md)
-- [Take notes specific to a conversation](oc-take-notes.md)
-- [View the customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
+### See also
+
+[Introduction to the agent interface](oc-introduction-agent-interface.md)  
+[Enable sentiment analysis](../../administrator/enable-sentiment-analysis.md)  
+[Manage sessions](oc-manage-sessions.md)  
+[Manage applications](oc-manage-applications.md)  
+[View the customer summary](oc-customer-summary.md)  
+[Search for and share knowledge articles](oc-search-knowledge-articles.md)  
+[Take notes specific to a conversation](oc-take-notes.md)  
+[View the customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)  

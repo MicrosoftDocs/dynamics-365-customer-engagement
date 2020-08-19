@@ -17,8 +17,7 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Create a theme
 
@@ -78,19 +77,19 @@ You can create a custom look and feel (a theme), for your app by making changes 
 The following screenshot shows the default theme setup.  
   
  > [!div class="mx-imgBorder"] 
- > ![](media/cust1-themes-default-theme.png  "Default theme colors")
+ > ![Default theme colors](media/cust1-themes-default-theme.png  "Default theme colors")
    
  We cloned the default theme and changed the colors. The following screenshots show the new colors for navigation and highlighting. You can also choose a new logo for product.  
   
  The following screenshot shows the new navigation color.  
  
 > [!div class="mx-imgBorder"] 
-> ![](../customize/media/theme-gentle-green.png  "Gentle green theme colors") 
+> ![Gentle green theme colors](../customize/media/theme-gentle-green.png  "Gentle green theme colors") 
   
  The following screenshot shows the account entity grid with the new highlight color.  
  
 > [!div class="mx-imgBorder"] 
-> ![](../customize/media/themes-gentle-green-account-grid.png  "Gentle green theme account grid")
+> ![Gentle green theme account grid](../customize/media/themes-gentle-green-account-grid.png  "Gentle green theme account grid")
    
 <a name="Publish"></a>   
 ## Preview and publish a theme  
@@ -105,7 +104,7 @@ The following screenshot shows the default theme setup.
   The following screenshot shows the buttons on the command bar for preview and publishing.  
   
   > [!div class="mx-imgBorder"] 
-  > ![](../customize/media/themes-preview-buttons.PNG  "Use preview buttons to enter/exit the preview mode")
+  > ![Use preview buttons to enter/exit the preview mode](../customize/media/themes-preview-buttons.PNG  "Use preview buttons to enter/exit the preview mode")
 
   <a name="BestPracticies"></a>   
 ## Best practices  

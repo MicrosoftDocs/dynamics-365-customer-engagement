@@ -4,7 +4,7 @@ description: "Provision Omnichannel for Customer Service to add or remove channe
 author: lalexms 
 ms.author: laalexan
 manager: shujoshi
-ms.date: 05/20/2020
+ms.date: 08/14/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -48,10 +48,11 @@ To allow Omnichannel for Customer Service to read and write data on behalf of us
 > [!NOTE]
 > Ensure that you have provided data access consent before you proceed with the setup. For more information, see [Provide data access consent](#provide-data-access-consent).
 
-1. In **Dynamics 365 Administration Center**, go to the **Applications** tab, select **Omnichannel for Customer Service**, and then select **Manage**.
+1. In **Power Platform Admin Center**, in the left pane, expand **Resources**, and select **Dynamics 365 Apps**.
+2. On the **Dynamics 365 apps** page, select **Omnichannel for Customer Service** in the list, select **More commands**, and then select **Manage**.
       
     > [!div class=mx-imgBorder]
-    > ![Manage omnichannel](../media/manage-oc.png)
+    > ![Manage omnichannel](../media/OC-provisioning-ppadmin.png)
 
     The **Manage Omnichannel environments** page is displayed.
 

@@ -16,8 +16,7 @@ ms.author: susikka
 manager: shujoshi
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Streamline JavaScript web resource development using Fiddler AutoResponder
 
