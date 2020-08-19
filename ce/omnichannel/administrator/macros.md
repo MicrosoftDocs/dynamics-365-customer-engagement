@@ -4,7 +4,7 @@ description: "Learn about macros and how to configure in the Omnichannel Adminis
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/12/2020
+ms.date: 08/19/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -16,7 +16,7 @@ ms.topic: article
 
 ## Overview of macros
 
-In the customer service industry, agents have to click often to perform simple tasks, such as open a form, fill, and save it, and perform many repetitive and monotonous actions, such as greet a customer, verify a customer, send acknowledgment mail, and take notes. These clicks and repetitive tasks can lead to human errors while agents copy and paste the data across different operations.
+In the customer service industry, agents have to click often to perform simple tasks, such as open a form, fill, and save it, and many repetitive and monotonous actions, such as greet a customer, verify a customer, send acknowledgment mail, and take notes. These clicks and repetitive tasks can lead to human errors while agents copy and paste the data across different operations.
 
 Macros help address these challenges by helping users perform daily operations in a faster, more efficient, and process-compliant manner. Macros are a set of sequential actions that are performed by a user. You can reuse macros with different sessions based on the context parameters that are specific to the session.
 
@@ -34,7 +34,7 @@ The value propositions of the macros are as follows:
 
 - Create contextual and reusable macros.
 
-The Macros in Omnichannel for Customer Service have the following:
+The macros in Omnichannel for Customer Service have the following:
 
 - [Predefined automation actions](#predefined-automation-actions)
 - [Built-in](#built-in)
@@ -61,7 +61,7 @@ In Omnichannel for Customer Service, macros provide three connectors:
 
 As an administrator, you can use the actions any number of times across different macros to automate and perform model-driven app operations.
 
-The following illustration shows the actions.
+The following screenshot shows the actions that are explained in the subsequent sections.
 
    > [!div class=mx-imgBorder] 
    > ![Macro actions](../media/macro-actions.png "Macro actions")
@@ -415,7 +415,7 @@ As an administrator, you can view the macro run history, which shows how many ti
    > [!div class=mx-imgBorder] 
    > ![Review the macro action steps](../media/macro-run-history-fail.png "Review the macro action steps")
 
-   For example, when you select on the **Open a new form to create a record** step, select **Show more**, and you can view that the mandatory fields don't have values, which are mandatory to save the record. Due to this reason, the macro execution failed at the **Save the record** step.
+   For example, when you select on the **Open a new form to create a record** step, select **Show more**, and you can view that the mandatory fields don't have values, which are mandatory to save the record. Due to this reason, the macro run failed at the **Save the record** step.
 
    > [!div class=mx-imgBorder] 
    > ![Review the macro action steps](../media/macro-run-history-fail-reason.png "Review the macro action steps")
