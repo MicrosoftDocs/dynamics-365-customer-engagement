@@ -1,10 +1,10 @@
 ---
 title: "Macros in the Omnichannel Administration app | MicrosoftDocs"
 description: "Learn about macros and how to configure in the Omnichannel Administration app."
-author: kabala123
-ms.author: kabala
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 04/06/2020
+ms.date: 08/19/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -16,13 +16,11 @@ ms.topic: article
 
 ## Overview of macros
 
-In the customer service industry, agents have to click too often to do simple tasks (open a form, fill out the form, save the form, and so on) and perform many repetitive and monotonous actions (greet a customer, verify a customer, send acknowledgment mail, take notes, and so on). These clicks and repetitive tasks can lead to human errors while agents copy and paste the data across different operations.
+In the customer service industry, agents have to click often to perform simple tasks, such as open a form, fill, and save it, and many repetitive and monotonous actions, such as greet a customer, verify a customer, send acknowledgment mail, and take notes. These clicks and repetitive tasks can lead to human errors while agents copy and paste the data across different operations.
 
-Macros help address these challenges by helping users perform day-to-day operations in a faster, more efficient, and process-compliant manner. Macros are a set of sequential actions that are executed by a user. You can use macros to automate repetitive and monotonous actions, which in turn reduces human errors (copying and pasting data) and improves agent productivity. Ultimately, improved agent productivity leads to lower average handling time and, hence, improved customer satisfaction.
+Macros help address these challenges by helping users perform daily operations in a faster, more efficient, and process-compliant manner. Macros are a set of sequential actions that are performed by a user. You can reuse macros with different sessions based on the context parameters that are specific to the session.
 
-Macros are like reusable components where you can use the same macro with different sessions based on your organizational requirements. These sessions are executed based on the context parameters that are specific to a session.
-
-## Value propositions
+The value propositions of the macros are as follows:
 
 - Automate repetitive and monotonous tasks with a single click.
 
@@ -36,6 +34,11 @@ Macros are like reusable components where you can use the same macro with differ
 
 - Create contextual and reusable macros.
 
+The macros in Omnichannel for Customer Service have the following:
+
+- [Predefined automation actions](#predefined-automation-actions)
+- [Built-in](#built-in)
+
 ## Prerequisites
 
 - Install Dynamics 365 Productivity Tools solution.
@@ -44,14 +47,7 @@ Macros are like reusable components where you can use the same macro with differ
 
 - Ensure that agents and supervisors are assigned the **Productivity tools user** security role. To learn more, see [Assign roles and enable users](add-users-assign-roles.md).
 
-## Predefined automation actions and built-in
-
-The Macros in Omnichannel for Customer Service have the following:
-
-- [Predefined automation actions](#predefined-automation-actions)
-- [Built-in](#built-in)
-
-### Predefined automation actions
+## Predefined automation actions
 
 In Omnichannel for Customer Service, macros provide three connectors:
 
@@ -61,141 +57,202 @@ In Omnichannel for Customer Service, macros provide three connectors:
 
 - [Omnichannel connector](#omnichannel-connector): Provides actions to perform Omnichannel for Customer Service&ndash;related operations.
 
-#### Productivity automation
+### Productivity automation
 
 As an administrator, you can use the actions any number of times across different macros to automate and perform model-driven app operations.
 
-The following illustration shows the actions.
+The following screenshot shows the actions that are explained in the subsequent sections.
 
    > [!div class=mx-imgBorder] 
    > ![Macro actions](../media/macro-actions.png "Macro actions")
 
-##### Open a new form to create a record
+#### Open a new form to create a record
 
-This action is used to open a new form to create a record. This action contains the following fields.
+This action is used to open a new form to create a record. The action contains the following fields.
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
-   | Entity Logical Name |  Specify the logical name of the entity that you want to open.<br> This is a mandatory field. | incident |
-   | Entity Form Id | Specify the form ID.<br> This is an optional field. |
+   | Entity logical name |  Specify the logical name of the entity that you want to open.<br> This is a mandatory field. | incident |
+   | Entity form ID | Specify the form ID.<br> This is an optional field. |
    | Attribute Name | Specify the attribute logical name. You need to provide the attribute name to prepopulate the field with a value.| |
    | Attribute Value | Specify the attribute value. You need to provide the attribute value to prepopulate the attribute field. | |
-   
-##### Open an existing form
+   |||
 
-This action is used to open an existing record form. This action contains the following fields.
+#### Open an existing record
 
-   | Field | Description | Parameter |
-   |-----------------|-----------------------------|--------------------------|
-   | Entity Logical Name |  Specify the logical name of the entity that you want to open. <br> This is a mandatory field. | incident |
-   | Entity record id| Specify the entity record ID. <br>This is a mandatory field.| |
-   | Entity Form Id | Specify the form ID. <br>This is an optional field. | |
-
-##### Open a record grid
-
-This action is used to open a record grid. This action contains the following fields.
+This action is used to open an existing record form. The action contains the following fields.
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
-   | Entity Logical Name |  Specify the logical name of the entity for which you want to open the grid. <br> This is a mandatory field. | incident |
-   | View Id| Specify the ID of the view that you want to open.<br> This is a mandatory field. | |
-   | View Type | Specify the view type. <br>This is a mandatory field. | |
+   | Entity logical name |  Specify the logical name of the entity that you want to open. <br> This is a mandatory field. | incident |
+   | Entity record ID| Specify the entity record ID. <br>This is a mandatory field.| |
+   | Entity form ID | Specify the form ID. <br>This is an optional field. | |
+   |||
 
-##### Search knowledge base for the populated phrase
+#### Open a record grid
 
-This action is used for searching knowledge articles based on the populated phrase. This action contains the following field.
+This action is used to open a record grid. The action contains the following fields.
+
+   | Field | Description | Parameter |
+   |-----------------|-----------------------------|--------------------------|
+   | Entity logical name |  Specify the logical name of the entity for which you want to open the grid. <br> This is a mandatory field. | incident |
+   | View ID| Specify the ID of the view that you want to open.<br> This is a mandatory field. | |
+   | View type | Specify the view type. <br>This is a mandatory field. | |
+   |||
+
+#### Search the knowledge base for the populated phrase
+
+This action is used for searching knowledge articles based on the populated phrase. The action contains the following field.
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
    | Search string |  Provide the phrase based on which you want to search for knowledge articles. You can provide the context data. For example, the context data parameter can be a case title. |  |
+   ||
 
-##### Search for a phrase
+#### Do a relevance search based on the phrase
 
-This action is used for searching knowledge articles based on the populated phrase. This action contains the following field.
+This action is used for searching knowledge articles based on the populated phrase. The action contains the following field.
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
    | Search string |  Provide the phrase based on which you want to do a relevance search. You can provide the context data. For example, the context data parameter can be a case title. <br> This is a mandatory field.  |  |
+   ||
 
-##### Update form attribute
+#### Update an existing record
 
-This action is used for updating the form attribute (field). The action updates the attribute of a form if that form is currently in focus and has the same entity type as mentioned in action. If the action is executed for any other entity, then the action will fail. Also, the action only updates the field and doesn't save the record. The action contains the following field:
+This action is used to update an existing record. The action contains the following fields.
+
+   | Field | Description | Parameter |
+   |-----------------|-----------------------------|--------------------------|
+   | Entity logical name |  Specify the logical name of the entity that you want to update. <br> This is a mandatory field. | incident |
+   | Entity record ID| Specify the entity record ID. <br>This is a mandatory field.| |
+   | Attribute Name | Specify the attribute logical name you want to update.| |
+   | Attribute Value | Specify the attribute value that will be updated for the above-mentioned attribute. | |
+   |||
+
+#### Open an email form with predefined template
+
+This action is used to open an email with a predefined template. The action contains the following fields.
+
+   | Field | Description | Parameter |
+   |-----------------|-----------------------------|--------------------------|
+   | Entity logical name |  Specify the logical name of the entity. <br> This is a mandatory field. | incident |
+   | Entity record ID| Specify the entity record ID. <br>This is a mandatory field.| |
+   | Email recipients | Specify the recipients to whom you want the mail to be sent. <br> This is a mandatory field. | |
+   | Template ID | Specify the ID of the template that must displayed in the email. <br> This is a mandatory field. | |
+   |||
+
+#### Resolve a case
+
+This action is used to resolve a case. The action contains the following fields.
+
+   | Field | Description | Parameter |
+   |-----------------|-----------------------------|--------------------------|
+   | Billable time |  Specify the time that is billable. <br> This is a mandatory field. | incident |
+   | Incident ID| Specify the ID of the case that you want to close. <br>This is a mandatory field.| |
+   | Resolution | Specify the reason to resolve the case. <br> This is a mandatory field. | |
+   |||
+
+#### Autofill form fields
+
+This action is used for updating the form attribute (field). The action updates the attribute of a form if that form is currently in focus and has the same entity type as mentioned in action. If the action is run for any other entity, then the action will fail. Also, the action only updates the field and doesn't save the record. The action contains the following field.
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
    | Entity logical name | Specify the logical name of the entity that you want to update. <br> This is a mandatory field. | incident |
+   |||
 
-##### Save the record
+#### Clone current record
 
-This action is used for saving the record after you've entered data in all the mandatory fields. The action fails if the mandatory fields aren't entered or left blank.
-
-##### Update an existing record
-
-This action is used to update an existing record. This action contains the following fields.
+This action is used for cloning an existing record that is open in the current tab. The action only copies the fields and does not save the record. The action contains the following field.
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
-   | Entity Logical Name |  Specify the logical name of the entity that you want to update. <br> This is a mandatory field. | incident |
-   | Entity record id| Specify the entity record ID. <br>This is a mandatory field.| |
-   | Attribute Name | Specify the attribute logical name you want to update.| |
-   | Attribute Value | Specify the attribute value that will be updated for the above-mentioned attribute. | |
+   | Record title | Specify the title of the record that you want to clone. <br> This is a mandatory field. | |
+   |||
 
-##### Open an email form with predefined template
+#### Open knowledge base article
 
-This action is used to open an email with a predefined template. This action contains the following fields.
+This action is used to open the knowledge base article. The action contains the following field.
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
-   | Entity Logical Name |  Specify the logical name of the entity. <br> This is a mandatory field. | incident |
-   | Entity record id| Specify the entity record ID. <br>This is a mandatory field.| |
-   | Email Recipients | Specify the recipients to whom you want the mail to be sent. <br> This is a mandatory field. | |
-   | Template Id | Specify the ID of the template that must displayed in the email. <br> This is a mandatory field. | |
+   | Entity record ID  | Specify the entity ID of the knowledge base article that you want to open. <br> This is a mandatory field.|  |
+   |||
 
-##### Resolve a case
+#### Save the record
 
-This action is used to resolve a case. This action contains the following fields.
+This action is used for saving the record after you've entered data in all the mandatory fields. The action fails if the mandatory fields aren't entered or are left blank.
+
+#### Clone input record
+
+This action is used for cloning an existing record. The action only copies the fields and does not save the record. The action contains the following fields.
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
-   | Billable Time |  Specify the time that is billable. <br> This is a mandatory field. | incident |
-   | Incidentid| Specify the ID of the case that you want to close. <br>This is a mandatory field.| |
-   | Resolution | Specify the reason to resolve the case. <br> This is a mandatory field. | |
+   | Entity logical name | Specify the logical name of the entity that you want to clone. <br> This is a mandatory field. |
+   | Entity record ID | Specify the ID of the entity record. <br> This is a mandatory field.|
+   |Record title| Specify the record title.
+   |||
 
-#### Session connector
+### Session connector
 
 As an administrator, you can use the actions any number of times across different macros to automate and perform operations related to a session in Omnichannel for Customer Service.
 
    > [!div class=mx-imgBorder] 
-   > ![Macro actions](../media/macro-session-connector.png "Macro actions") 
+   > ![Macro actions](../media/macro-session-connector.png "Macro actions")
 
-##### Refresh tab
+#### Open application tab
+
+This action is used to open the specified application in a new tab with the attributes that you define. The action contains the following fields.
+
+   | Field | Description | Parameter |
+   |-----------------|-----------------------------|--------------------------|
+   | Page type | Specify  the application type to be opened. More information: [Application types](application-tab-templates.md#application-types) <br> This is a mandatory field.  |
+   | Application Template ID  | Specify the ID of the application template. <br> This is a mandatory field. |
+   | Attribute Name | Specify the attribute logical name you want to update.| |
+   | Attribute Value | Specify the attribute value that will be updated for the above-mentioned attribute. | |
+   |||
+
+#### Refresh the tab
 
 This action is used to refresh a tab in the Omnichannel for Customer Service session. This action contains the following field.
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
-   | Tab Id | Specify the ID of the tab that you want to refresh. <br> This is a mandatory field.| 
+   | Tab ID | Specify the ID of the tab that you want to refresh. <br> This is a mandatory field.| 
+   |||
 
-##### Focus tab
+#### Focus on the tab
 
 This action is used to focus on a tab in the Omnichannel for Customer Service session. This action contains the following field.
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
-   | Tab Id | Specify the ID of the tab that you want to give focus to. <br> This is a mandatory field.| 
+   | Tab ID | Specify the ID of the tab that you want to give focus to. <br> This is a mandatory field.|
+   |||
 
-##### Get current tab
+#### Get the current tab
 
-This action is used to get the details of the current tab in Omnichannel for Customer Service. The get current tab action retrieves the Tab Id that could be used in the **Refresh tab** and **Focus tab** actions.
+This action is used to get the details of the current tab in Omnichannel for Customer Service. The get current tab action retrieves the Tab ID that could be used in the **Refresh tab** and **Focus tab** actions.
 
-#### Omnichannel connector
+### Omnichannel connector
 
 As an administrator, you can use the actions any number of times across different macros to automate and perform operations related to Omnichannel for Customer Service.
 
    > [!div class=mx-imgBorder] 
-   > ![Macro actions](../media/macro-omnichannel-connector.png "Macro actions") 
+   > ![Macro actions](../media/macro-omnichannel-connector.png "Macro actions")
 
-##### Link a record to the conversation
+#### Send KB article in chat
+
+This action is used to paste a knowledge base article in the conversation chat window. It must be used with the **Search knowledge base for the populated phrase** action. The action contains the following field.
+
+   | Field | Description | Parameter |
+   |-----------------|-----------------------------|--------------------------|
+   | Entity record ID  | Specify the ID of the entity record. <br> This is a mandatory field. |
+   |||
+
+#### Link record to the conversation
 
 This action is used to link a record to the conversation when the customer is communicating with the agent in the Omnichannel for Customer Service session. This action contains the following fields.
 
@@ -204,8 +261,9 @@ This action is used to link a record to the conversation when the customer is co
    | Entity Logical Name |  Specify the logical name of the entity that you want to link. <br> This is a mandatory field. | incident |
    | Entity record id| Specify the entity record ID of the entity that you want to link. <br>This is a mandatory field.| |
    | Entity primary Name | Specify the primary name of the entity that you want to link. <br>This is a mandatory field.| |
+   |||
 
-##### Unlink a record from the conversation
+#### Unlink record from the conversation
 
 This action is used to unlink a record from the conversation when the customer is communicating with the agent in the Omnichannel for Customer Service session. This action contains the following fields.
 
@@ -214,10 +272,11 @@ This action is used to unlink a record from the conversation when the customer i
    | Entity Logical Name |  Specify the logical name of the entity that you want to unlink. <br> This is a mandatory field. | incident |
    | Entity record id| Specify the entity record ID of the entity that you want to unlink. <br>This is a mandatory field.| |
    | Entity primary Name | Specify the primary name of the entity that you want to unlink. <br>This is a mandatory field.| |
+   |||
 
-### Built-in
+## Built-in
 
-The Built-in control allows you to execute a macro action step based on the conditions. The **Built-in** category connector has a **Condition** action. 
+The Built-in control allows you to execute a macro action step based on the conditions. The **Built-in** category connector has a **Condition** action.
 
    > [!div class=mx-imgBorder] 
    > ![Condition connector](../media/built-in.png "Condition connector")
@@ -245,7 +304,7 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
 
 2. Under **Agent Experience**, select **Macros**.
 
-3. Select **+ New**.
+3. Select **New**.
 
 4. On the **Create macros** page, specify the following.
 
@@ -253,8 +312,9 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
     |-------------|-----------------------------------|------------------------------------|
     | Name | Provide a name to the macro. The name is displayed to the agent at runtime. | Create case |
     | Description | Describe the purpose of the macro. The description is displayed to the agent at runtime. | This macro action is used to create a case. |
+    |||
 
-5. Select **Start macro execution**, and then select **+ New step**.
+5. Select **Start macro execution**, and then select **New step**.
 
    > [!div class=mx-imgBorder] 
    > ![Create macro](../media/create-macro1.png "Create a macro")
@@ -279,6 +339,7 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
     | Update an existing record | Update record |
     | Open an email form with predefined template | Open email |
     | Resolve a case | Resolve case |
+    |||
 
    > [!div class=mx-imgBorder] 
    > ![Macro actions](../media/macro-actions.png "Macro actions")    
@@ -292,6 +353,7 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
     | Refresh the application tab | Refresh tab |
     | Focus on a particular application tab from another application tab| Focus tab |
     | Get the details of the current application tab | Get current tab |
+    |||
 
    > [!div class=mx-imgBorder] 
    > ![Macro actions](../media/macro-session-connector.png "Macro actions")    
@@ -304,6 +366,7 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
     |-----------------------------|---------------------------------------------|
     | Link a record to the conversation while interacting with the customer | Link record to the conversation |
     | Unlink a record from the conversation while interacting with the customer | Unlink record from the conversation |
+    |||
 
    > [!div class=mx-imgBorder] 
    > ![Macro actions](../media/macro-omnichannel-connector.png "Macro actions") 
@@ -352,7 +415,7 @@ As an administrator, you can view the macro run history, which shows how many ti
    > [!div class=mx-imgBorder] 
    > ![Review the macro action steps](../media/macro-run-history-fail.png "Review the macro action steps")
 
-   For example, when you select on the **Open a new form to create a record** step, select **Show more**, and you can view that the mandatory fields don't have values, which are mandatory to save the record. Due to this reason, the macro execution failed at the **Save the record** step.
+   For example, when you select on the **Open a new form to create a record** step, select **Show more**, and you can view that the mandatory fields don't have values, which are mandatory to save the record. Due to this reason, the macro run failed at the **Save the record** step.
 
    > [!div class=mx-imgBorder] 
    > ![Review the macro action steps](../media/macro-run-history-fail-reason.png "Review the macro action steps")
@@ -364,6 +427,6 @@ As an administrator, you can view the macro run history, which shows how many ti
 
 ### See also
 
-[Use automation dictionary to pass data parameters keys](automation-dictionary-keys.md)<br>
-[Agent scripts](agent-scripts.md)<br>
-[Smart Assist](smart-assist.md) 
+[Use automation dictionary to pass data parameters keys](automation-dictionary-keys.md)  
+[Agent scripts](agent-scripts.md)  
+[Smart Assist](smart-assist.md)  
