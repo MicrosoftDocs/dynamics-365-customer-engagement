@@ -95,7 +95,7 @@ Check [Release Plans](https://docs.microsoft.com/dynamics365/release-plans/) to 
 
 - Select the ellipses icon on the **Field Service Mobile** application, then choose **Manage Roles** and assign the app to the Field Service-Resource, Field Service-Administrator, and other relevant roles that will need access to the mobile app.
 
-- Set up a Dynamics 35 Field Service user with the **Field Service-Resource** security role. This user will sign in to the Field Service (Dynamics 365) mobile app as a technician.
+- Set up a Dynamics 365 Field Service user with the **Field Service-Resource** security role. This user will sign in to the Field Service (Dynamics 365) mobile app as a technician.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Manage Roles dialogue in Dynamics 365.](./media/mobile-2020-resource-security-role.png)
@@ -129,7 +129,7 @@ Once you sign in, the app will prompt you to download offline data (your schedul
 
 The first screen you'll see is a calendar view of your scheduled work orders.
 
-Select **More** > **Show as** > **Read Only Grid** to see the bookings as a list as shown on the right side of the following screenshot.
+Select **More** > **Show as** > **Read-only Grid** to see the bookings as a list as shown on the right side of the following screenshot.
 
 > [!div class="mx-imgBorder"]
 > ![Simulated image showing two mobile devices with Field Service (Dynamics 365). The screen on the left has a list of My Open Resource Bookings by date. The screen on the right has a list of My Open Resource Bookings in a flat list.](./media/mobile-2020-booking-view.jpg)
@@ -156,14 +156,18 @@ To get to the sitemap, select the menu icon from the calendar view. From here, y
 
 ### Work offline
 
-If you expect to be in areas without wifi or cellular internet access, you can download important information to your device to keep working. 
+If you expect to be in areas without wifi or cellular internet access, you can download important information to your device to keep working.
 
 From the home screen, select the cloud icon in the bottom left.
 
-Then select **Download offline updates**.
+Then select **Download offline updates**. If you are prohibited from downloading offline profiles and the option is greyed out, you must:
+
+1. Set up an offline profile.
+2. Add your user to an offline profile.
+3. Ensure your user has the **Field Service - Resource** security role. See the section: **Configure the Field Service (Dynamics 365) mobile app**.
 
 > [!div class="mx-imgBorder"]
-> ![Simulated image showing three mobile devices with Field Service (Dynamics 365). The device on the left shows the menu, with attention to the cloud icon at the bottom. The middle device shows the offline status screen. The device on the right shows the offline status as available, showing the list of available entities. ](./media/mobile-2020-offline.jpg)
+> ![Simulated image showing three mobile devices with Field Service (Dynamics 365). The device on the left shows the menu, with attention to the cloud icon at the bottom. The middle device shows the offline status screen. The device on the right shows the offline status as available, showing the list of available entities.](./media/mobile-2020-offline.jpg)
 
 When **Status** is set to **Available**, you'll have all the data you need to work offline.
 
@@ -180,7 +184,7 @@ For more information, see the article on [Connected Field Service for the Field 
 
 ### Trigger Dynamics 365 Remote Assist
 
-Organizations using Dynamics 365 Remote Assist will see that technicians can trigger a deeplink from the work order to open the Dynamics 365 Remote Assist mobile app.
+Organizations using Dynamics 365 Remote Assist will see that technicians can trigger a deep link from the work order to open the Dynamics 365 Remote Assist mobile app.
 
 > [!div class="mx-imgBorder"]
 > ![Simulated image showing a phone with Field Service mobile and a menu option to launch Dynamics 365 Remote Assist.](./media/mobile-2020-remote-assist.png)
@@ -302,6 +306,8 @@ The profile dictates which entities and how many records of each entity will be 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Dynamics 365 Settings, showing the Field Service Mobile offline profile.](./media/mobile-2020-offline-profile-entities.png)
 
+Add the users who need to work offline in the right **USERS** panel. Users must be added here in order to download data offline.
+
 For each entity, you can choose a data download filter:
 
 1. Download related data only
@@ -322,6 +328,22 @@ For another example, the **Work Order Product** entity has a data download filte
 
 > [!Note]
 > By default, work orders related to downloaded bookable resource bookings are available offline. This creates a chain of entities and records that are offline: bookings > work orders > work order products. This means that bookings scheduled to you are downloaded, work orders related to those bookings are downloaded, and work order products related to those work orders are downloaded.
+
+For more information, see the article: [Dynamics 365 offline profiles](https://docs.microsoft.com/dynamics365/mobile-app/setup-mobile-offline-for-admin#step-1-enable-entities-for-mobile-offline-synchronization).
+
+#### Create new offline profiles
+
+If you create a new offline profile, you'll need to add it to the Field Service Mobile app in the app designer.
+
+Go to the app designer.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the app designer.](./media/mobile-2020-open-app-designer.png)
+
+Go to **Properties** and add the offline profile.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the app designer, on the Field Service Mobile properties tab.](./media/mobile-2020-add-offline-profiles.png)
 
 ### Offline JavaScript
 
@@ -385,6 +407,18 @@ If you are getting the error "You're almost there" after signing in to the mobil
 2. Sign in again, pull down the screen to refresh and wait for at least a few minutes
 3. If completing both steps 1 and 2 above do not resolve the issue, [submit a support ticket](https://dynamics.microsoft.com/contact-us/).
 
+### Why doesn't the bookable resource booking form show work order details like **Customer**, **Service**, and **Notes**?
+
+Sometimes you may not see the correct booking form. You may see the following:
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the wrong from issue.](./media/mobile-2020-faq-wrong-booking-form.png)
+
+If you see something like the previous screenshot, you're viewing the booking form, and *not* the combined booking and work order form.
+
+To solve this issue, make sure the user you're logged in to the mobile app as has the **Field Service - Resource** security role.
+
 ### See also
 
 - [What are model-driven apps in Power Apps?](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)
+- [Enable entities for mobile offline synchronization](https://docs.microsoft.com//dynamics365/mobile-app/setup-mobile-offline-for-admin#step-1-enable-entities-for-mobile-offline-synchronization)
