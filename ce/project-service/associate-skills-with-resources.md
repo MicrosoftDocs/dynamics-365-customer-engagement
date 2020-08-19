@@ -1,5 +1,5 @@
 ---
-title: Associate skills with resources 
+title: Associate skills with resources
 description: How to associate skills with specific resources in Project Service
 author: JohnPBurrows
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 
 # Associate skills with resources (Project Service)

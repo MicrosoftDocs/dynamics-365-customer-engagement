@@ -1,5 +1,5 @@
 ---
-title: Set up resources 
+title: Set up resources
 description: How to set up resources in Project Service
 author: JohnPBurrows
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 # Set up resources (Project Service)
 

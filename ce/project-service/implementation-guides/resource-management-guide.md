@@ -1,6 +1,6 @@
 ---
 title: Resource management guide
-description: This topic provides links to information about resource management in Project Service Automation 
+description: This topic provides links to information about resource management in Project Service Automation
 author: kfend
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 # Resource management guide
 

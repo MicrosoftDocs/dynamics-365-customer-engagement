@@ -1,7 +1,7 @@
 ---
 title: "Unified Service Desk Release Notes | MicrosoftDocs"
 description: "Learn about the known issues and limitations in Unified Service Desk."
-ms.date: 02/17/2020
+ms.date: 08/03/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -209,6 +209,24 @@ For example, if you are navigating from a case grid to a case, and in the URL wh
 #### Work around
 
 As a work around for the issue, in the hosted control configuration of the URL, set `cmdbar=true`.
+
+### Features not available in Unified Service Desk
+
+The following features are not available in Unified Service Desk:
+
+- Auto-assign incoming messages
+- Desktop notifications originating from Channel Integration Framework
+- Missed notifications
+- Personal quick replies
+- Real-time translation of conversation messages
+- Session indicators, such as unread message count
+- Supervisor actions in the Agent insights report
+- Supervisor and agent sentiment notifications
+- Video calls in elevated chat
+
+#### Work around
+
+Upgrade to the latest version of Omnichannel for Customer Service to get all the new features. Agents should avoid transferring conversations from the Omnichannel for Customer Service app (web client) to a Unified Service Desk client.
 
 ## See also
 
@@ -567,6 +585,7 @@ For example, if you are navigating from a case grid to a case, and in the URL wh
 #### Work around
 
 As a work around for the issue, in the hosted control configuration of the URL, set `cmdbar=true`.
+
 
 ## See also
 

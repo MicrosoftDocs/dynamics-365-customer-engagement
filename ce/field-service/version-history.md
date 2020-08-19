@@ -50,12 +50,12 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 | | <i>South Africa</i> | [8.8.25.29](https://docs.microsoft.com/dynamics365/field-service/version-history#882529) | TBD | 08/28/2020
 | | <i>Germany</i> |[8.8.25.29](https://docs.microsoft.com/dynamics365/field-service/version-history#882529) | TBD | 08/28/2020
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> | [8.8.24.17](https://docs.microsoft.com/dynamics365/field-service/version-history#882417) | [8.8.25.30](https://docs.microsoft.com/dynamics365/field-service/version-history#882530) | 08/07/2020
-| | <i>Asia Pacific</i>  |  [8.8.24.17](https://docs.microsoft.com/dynamics365/field-service/version-history#882417) | [8.8.25.30](https://docs.microsoft.com/dynamics365/field-service/version-history#882530) | 08/07/2020
-| | <i>Great Britain</i>  |  [8.8.24.17](https://docs.microsoft.com/dynamics365/field-service/version-history#882417) | [8.8.25.30](https://docs.microsoft.com/dynamics365/field-service/version-history#882530) | 08/07/2020
-| | <i>Oceana</i>  |  [8.8.24.17](https://docs.microsoft.com/dynamics365/field-service/version-history#882417) | [8.8.25.30](https://docs.microsoft.com/dynamics365/field-service/version-history#882530) | 08/07/2020
+| | <i>Japan</i> |  [8.8.25.30](https://docs.microsoft.com/dynamics365/field-service/version-history#882530)| TBD | 09/04/2020
+| | <i>Asia Pacific</i>  |  [8.8.25.30](https://docs.microsoft.com/dynamics365/field-service/version-history#882530)| TBD | 09/04/2020
+| | <i>Great Britain</i>  |  [8.8.25.30](https://docs.microsoft.com/dynamics365/field-service/version-history#882530)| TBD |09/04/2020
+| | <i>Oceana</i>  | [8.8.25.30](https://docs.microsoft.com/dynamics365/field-service/version-history#882530)| TBD | 09/04/2020
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> | [8.8.24.17](https://docs.microsoft.com/dynamics365/field-service/version-history#882417) | [8.8.25.30](https://docs.microsoft.com/dynamics365/field-service/version-history#882530) | 08/14/2020
+| | <i>Europe</i> | [8.8.25.30](https://docs.microsoft.com/dynamics365/field-service/version-history#882530)| TBD | 09/11/2020
 |<strong>Station 5</strong> | |  |  | |
 | | <i>North America</i> |[8.8.24.54](https://docs.microsoft.com/dynamics365/field-service/version-history#882454)| [8.8.25.30](https://docs.microsoft.com/dynamics365/field-service/version-history#882530) | 08/21/2020
 |<strong>Station 6</strong> | |  |  | |

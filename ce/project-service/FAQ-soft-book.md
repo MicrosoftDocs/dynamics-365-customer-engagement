@@ -1,20 +1,19 @@
 ---
-
 title: Soft book a resource
 description: This topic provides information about how to tentatively schedule or soft book project team members.
-author: ruhercul        
+author: ruhercul
 manager: kfend
 ms.service: dynamics-365-customerservice
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
 ms.date: 9/25/2019
 ms.topic: article
 ms.prod: Applies to Project Service version 3.x
-ms.service: business-applications
 ms.technology: 
 ms.author: ruhercul
 audience: Admin
-
+search.app: 
+  - ProjectOperations
 ---
 
 # Soft book a resource

@@ -1,5 +1,5 @@
 ---
-title: Configure expense categories 
+title: Configure expense categories
 description: How to configure expense categories in Project Service
 author: revathiMuthiah
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 # Configure expense categories (Project Service)
 

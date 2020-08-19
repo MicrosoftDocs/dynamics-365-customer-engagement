@@ -1,17 +1,17 @@
 ---
-title: Sample data installation 
+title: Sample data installation
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.reviewer: 
+ms.reviewer: kfend
 ms.suite: 
 ms.technology: 
 applies_to: Dynamics 365 Project Service Automation
 author: ruhercul
 ms.author: ruhercul
-ms.reviewer: kfend
 search.audienceType: IT Pro, Developer
 search.app: 
---- 
+  - ProjectOperations
+---
 
 
 

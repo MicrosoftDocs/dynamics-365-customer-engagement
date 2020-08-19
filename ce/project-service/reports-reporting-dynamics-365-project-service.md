@@ -1,5 +1,5 @@
 ---
-title: Reporting home page 
+title: Reporting home page
 description: This topic provides information about reporting in Dynamics 365 Project Service Automation.
 author: ruhercul
 manager: kfend
@@ -19,6 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  - ProjectOperations
 ---
 
 # Reporting home page
