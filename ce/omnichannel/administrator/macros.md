@@ -182,7 +182,7 @@ This action is used to open the knowledge base article. The action contains the 
 
 #### Save the record
 
-This action is used for saving the record after you've entered data in all the mandatory fields. The action fails if the mandatory fields aren't entered or left blank.
+This action is used for saving the record after you've entered data in all the mandatory fields. The action fails if the mandatory fields aren't entered or are left blank.
 
 #### Clone input record
 
