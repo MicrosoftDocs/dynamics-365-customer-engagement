@@ -212,21 +212,20 @@ Here are the input parameters for this action. Since this action supports multip
 Input sample:
 
 ```
+{
+  "EntityCollection": [
     {
-	"EntityCollection":[
-	    {
-		"msdyn_iotdeviceid":"5754578D-1F9A-4720-BC21-3C3042C05B2F",
-		"msdyn_name":"Coffee maker 1",
-		"@odata.type":"Microsoft.Dynamics.CRM.msdyn_iotdevice"
-	    },
-	    {
-	    "msdyn_iotdeviceid":"5754578D-1F9A-4720-BC21-3C3042C06C5F",
-		"msdyn_name":"Coffee maker 2",
-		"@odata.type":"Microsoft.Dynamics.CRM.msdyn_iotdevice"
-	    }
-        ]
+      "msdyn_iotdeviceid": "5754578D-1F9A-4720-BC21-3C3042C05B2F",
+      "msdyn_name": "Coffee maker 1",
+      "@odata.type": "Microsoft.Dynamics.CRM.msdyn_iotdevice"
+    },
+    {
+      "msdyn_iotdeviceid": "5754578D-1F9A-4720-BC21-3C3042C06C5F",
+      "msdyn_name": "Coffee maker 2",
+      "@odata.type": "Microsoft.Dynamics.CRM.msdyn_iotdevice"
     }
-
+  ]
+}
 ```
 
 Here are the output parameters for this action. The below parameters are returned in serialized JSON format as part of the action results.
