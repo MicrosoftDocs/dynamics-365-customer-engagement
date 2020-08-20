@@ -1608,17 +1608,6 @@ See msdyn_authenticationsettings Entity [msdyn_msdyn_authsettings_msdyn_livechat
 
 See msdyn_chatwidgetlanguage Entity [msdyn_msdyn_chatwidgetlanguage_msdyn_livechatconfig_WidgetLocale](msdyn_chatwidgetlanguage.md#BKMK_msdyn_msdyn_chatwidgetlanguage_msdyn_livechatconfig_WidgetLocale) One-To-Many relationship.
 
-### <a name="BKMK_msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid"></a> msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid
-
-**Added by**: Omnichannel – Base Solution
-
-See msdyn_liveworkstream Entity [msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid](msdyn_liveworkstream.md#BKMK_msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_msdyn_operatinghour_msdyn_livechatconfig"></a> msdyn_msdyn_operatinghour_msdyn_livechatconfig
-
-**Added by**: Omnichannel – Base Solution
-
-See msdyn_operatinghour Entity [msdyn_msdyn_operatinghour_msdyn_livechatconfig](msdyn_operatinghour.md#BKMK_msdyn_msdyn_operatinghour_msdyn_livechatconfig) One-To-Many relationship.
 
 ### See also
 
