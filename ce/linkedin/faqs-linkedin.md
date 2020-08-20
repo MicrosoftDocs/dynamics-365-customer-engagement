@@ -33,6 +33,13 @@ Removing or adding fields from the **Contact Details** pane isn't supported.
 
 No, you can't import leads or accounts from Sales Navigator to Dynamics 365 Sales through CRM Sync. However, writeback of InMails, Messages, and Smart Links from Sales Navigator to Dynamics 365 Sales is supported. More information: [Enable Sales Navigator CRM Sync & Activity Writeback for Microsoft Dynamics 365 Sales](https://business.linkedin.com/sales-solutions/sales-navigator-customer-hub/resources/ms-dynamics-sync-activity-writeback)
 
+<a name="upgrade-solution-2-to-3-version"> </a>
+**Why hasn't my LinkedIn Sales Navigator solution been upgraded from version 2.x to 3.x?**
+
+**Answer:**
+
+Because there's no change to functionality in version 3.x, we aren't upgrading. This will have no effect on your current solution (version 2.x).<!--Suggested.-->
+
 ### See also
 
 [Troubleshooting LinkedIn integration errors](ts-linkedin-integration.md)
