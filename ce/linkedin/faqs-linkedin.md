@@ -34,11 +34,11 @@ Removing or adding fields from the **Contact Details** pane isn't supported.
 No, you can't import leads or accounts from Sales Navigator to Dynamics 365 Sales through CRM Sync. However, writeback of InMails, Messages, and Smart Links from Sales Navigator to Dynamics 365 Sales is supported. More information: [Enable Sales Navigator CRM Sync & Activity Writeback for Microsoft Dynamics 365 Sales](https://business.linkedin.com/sales-solutions/sales-navigator-customer-hub/resources/ms-dynamics-sync-activity-writeback)
 
 <a name="upgrade-solution-2-to-3-version"> </a>
-**Why is my LinkedIn Solution not upgraded from 2.x to 3.x version?**
-
+**Why hasn't my LinkedIn Sales Navigator solution<!--Edit okay? to match other occurrences in this docset.--> been upgraded from version 2.x to 3.x?**
+<!--The present tense is a bit confusing here. This question seems to presume that the reader has heard about the upgrade, so it seems the logical question would be "Why wasn't my solution upgraded..." or "Why hasn't my solution been upgraded..."-->
 **Answer:**
 
-Because there is no functionality upgrade to the LinkedIn Solution 3.x version, we are not upgrading and there would be no impact on your current solution (2.x version). 
+Because there's no change to functionality in version 3.x, we aren't upgrading. This will have no effect on your current solution (version 2.x).<!--Suggested.-->
 
 ### See also
 
