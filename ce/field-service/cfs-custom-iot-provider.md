@@ -360,43 +360,43 @@ Here are the output parameters for this action. The below parameters are returne
 Here is some sample output:
 
 ```
-
-  {
-        "HVAC Unit 123": {
-            "Temperature": {
-                "2017-04-01T06:00:00Z": {
-                    "min": -29,
-                    "max": 62.59,
-                    "avg": 16.89,
-                    "sum": 4054.14,
-                    "count": 240
-                },
-                "2017-04-01T08:00:00Z": {
-                    "min": -29,
-                    "max": 62.59,
-                    "avg": 16.89,
-                    "sum": 4054.14,
-                    "count": 480
-                }
-            },
-            "Humidity": {
-                "2017-04-01T06:00:00Z": {
-                    "min": 10,
-                    "max": 48.30,
-                    "avg": 29.25,
-                    "sum": 7020.62,
-                    "count": 240
-                },
-                "2017-04-01T08:00:00Z": {
-                    "min": 10,
-                    "max": 48.30,
-                    "avg": 29.25,
-                    "sum": 7020.62,
-                    "count": 480
-                }
-            }
-        }
+   
+{
+  "HVAC Unit 123": {
+    "Temperature": {
+      "2017-04-01T06:00:00Z": {
+        "min": -29,
+        "max": 62.59,
+        "avg": 16.89,
+        "sum": 4054.14,
+        "count": 240
+      },
+      "2017-04-01T08:00:00Z": {
+        "min": -29,
+        "max": 62.59,
+        "avg": 16.89,
+        "sum": 4054.14,
+        "count": 480
+      }
+    },
+    "Humidity": {
+      "2017-04-01T06:00:00Z": {
+        "min": 10,
+        "max": 48.3,
+        "avg": 29.25,
+        "sum": 7020.62,
+        "count": 240
+      },
+      "2017-04-01T08:00:00Z": {
+        "min": 10,
+        "max": 48.3,
+        "avg": 29.25,
+        "sum": 7020.62,
+        "count": 480
+      }
     }
+  }
+}    
 ```
 > [!Note]
 > Individual aggregates are of type double.
