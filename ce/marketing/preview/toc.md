@@ -2,7 +2,7 @@
 
 # [Onboarding overview](onboarding-overview.md)
 
-# [Quickstart for private preview](quickstart-product-insights.md)
+# [Quickstart for private preview](quickstart-cxp.md)
 
 # [Known issues](known-issues.md)
 
