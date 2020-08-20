@@ -263,7 +263,7 @@ Here is some sample output:
 }
 ```
 
-Once you've successfully registered a device, you can see it in the registration history, as seen in the following screenshot.
+Once you've successfully registered a device, you can see it in the registration history, as seen in the following screenshot as well as on the device record itself.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an IoT device in Field Service, showing registration history.](./media/custom-iot-registration-history.png)
