@@ -1,7 +1,7 @@
 ---
 title: "msdyn_surveyquestion Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_surveyquestion entity."
-ms.date: 03/23/2020
+ms.date: 08/20/2020
 ms.service: "crm-online"
 ms.topic: "reference"
 author: "susikka"
@@ -772,12 +772,6 @@ Same as msdyn_chatansweroption entity [msdyn_surveyquestion_msdyn_chatansweropti
 
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
 
-
-### <a name="BKMK_msdyn_msdyn_liveworkstream_msdyn_surveyquestion"></a> msdyn_msdyn_liveworkstream_msdyn_surveyquestion
-
-**Added by**: Omnichannel – Base Solution
-
-See msdyn_liveworkstream Entity [msdyn_msdyn_liveworkstream_msdyn_surveyquestion](msdyn_liveworkstream.md#BKMK_msdyn_msdyn_liveworkstream_msdyn_surveyquestion) One-To-Many relationship.
 
 ### See also
 

@@ -1,7 +1,7 @@
 ---
 title: "msdyn_provider Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_provider entity."
-ms.date: 03/23/2020
+ms.date: 08/20/2020
 ms.service: "crm-online"
 ms.topic: "reference"
 author: "susikka"
@@ -518,9 +518,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 Listed by **SchemaName**.
 
 
-### <a name="BKMK_msdyn_msdyn_provider_msdyn_channelcapability_Provider"></a> msdyn_msdyn_provider_msdyn_channelcapability_Provider
-
-Same as msdyn_channelcapability entity [msdyn_msdyn_provider_msdyn_channelcapability_Provider](msdyn_channelcapability.md#BKMK_msdyn_msdyn_provider_msdyn_channelcapability_Provider) Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|

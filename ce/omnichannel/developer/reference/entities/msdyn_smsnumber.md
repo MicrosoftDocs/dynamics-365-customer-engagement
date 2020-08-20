@@ -1,7 +1,7 @@
 ---
 title: "msdyn_smsnumber Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_smsnumber entity."
-ms.date: 03/23/2020
+ms.date: 08/20/2020
 ms.service: "crm-online"
 ms.topic: "reference"
 author: "susikka"
@@ -758,18 +758,6 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [msdyn_msdyn_liveworkstream_msdyn_smsnumber](#BKMK_msdyn_msdyn_liveworkstream_msdyn_smsnumber)
 - [msdyn_msdyn_operatinghour_msdyn_smsnumber_operatinghours](#BKMK_msdyn_msdyn_operatinghour_msdyn_smsnumber_operatinghours)
 
-
-### <a name="BKMK_msdyn_msdyn_liveworkstream_msdyn_smsnumber"></a> msdyn_msdyn_liveworkstream_msdyn_smsnumber
-
-**Added by**: Omnichannel – Base Solution
-
-See msdyn_liveworkstream Entity [msdyn_msdyn_liveworkstream_msdyn_smsnumber](msdyn_liveworkstream.md#BKMK_msdyn_msdyn_liveworkstream_msdyn_smsnumber) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_msdyn_operatinghour_msdyn_smsnumber_operatinghours"></a> msdyn_msdyn_operatinghour_msdyn_smsnumber_operatinghours
-
-**Added by**: Omnichannel – Base Solution
-
-See msdyn_operatinghour Entity [msdyn_msdyn_operatinghour_msdyn_smsnumber_operatinghours](msdyn_operatinghour.md#BKMK_msdyn_msdyn_operatinghour_msdyn_smsnumber_operatinghours) One-To-Many relationship.
 
 ### See also
 
