@@ -749,15 +749,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|BigInt|
 
-<a name="manytoone"></a>
-
-## Many-To-One Relationships
-
-Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
-
-- [msdyn_msdyn_liveworkstream_msdyn_smsnumber](#BKMK_msdyn_msdyn_liveworkstream_msdyn_smsnumber)
-- [msdyn_msdyn_operatinghour_msdyn_smsnumber_operatinghours](#BKMK_msdyn_msdyn_operatinghour_msdyn_smsnumber_operatinghours)
-
 
 ### See also
 
