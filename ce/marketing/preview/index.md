@@ -4,7 +4,7 @@ description: "Preview documentation detailing how to use Dynamics 365 CXP featur
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.date: 07/31/2020
+ms.date: 08/20/2020
 ms.service: marketing
 ms.topic: conceptual
 robots: noindex,nofollow
@@ -12,7 +12,7 @@ robots: noindex,nofollow
 
 # Private preview documentation
 
-Welcome to the Dynamics 365 Product Insights private preview documentation.
+Welcome to the Dynamics 365 CXP private preview documentation.
 
 > [!IMPORTANT]
 > This topic is pre-release documentation and is subject to change.
