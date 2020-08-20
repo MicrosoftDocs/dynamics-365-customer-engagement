@@ -14,7 +14,8 @@ robots: noindex,nofollow
 
 Welcome to the Dynamics 365 Product Insights private preview documentation.
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../../cc-beta-prerelease-disclaimer.md)]
+> [!IMPORTANT]
+> This topic is pre-release documentation and is subject to change.
 
 ## Get started with the private preview
 
