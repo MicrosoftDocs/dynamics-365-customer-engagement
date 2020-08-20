@@ -67,7 +67,7 @@ There are new navigation behaviors to be aware of in Customer Service workspace.
 
 - Select Shift + mouse click to open a new session tab for the record you want to open. 
 - Selecting the record replaces your view with the form for the record you opened. 
-- Select the back arrow in the upper left corner of the form to get back to your previous view. 
+- Select the back arrow in the upper-left corner of the form to get back to your previous view. 
 - Select Ctrl + mouse click to open items in a new tab. 
 
 ### Work with cases
