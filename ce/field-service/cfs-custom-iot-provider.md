@@ -440,41 +440,41 @@ And here is some sample code:
 
 ```
 {
-    {
-                "Service History": {
-                    "2019-08-07T19:14:53Z": {
-                        "color": "#FF6300",
-                        "description": "Work Order Created",
-                        "id": "00001",
-                        "entity": "msdyn_workorder",
-                        "url": "",
-                        "guid": "952a7592-8818-ea11-a811-000d3a5466d7"
-                    },
-                    "2019-08-08T19:14:53Z": {
-                        "color": "#ECC5AC";
-                        "description": "Work Order Created",
-                        "id": "00002",
-                        "entity": "msdyn_workorder",
-                        "url": "",
-                        "guid": "952a7592-8818-ea11-a811-000d3a5466d9"
-                    },
-                    "2019-09-21T09:34:53Z": {
-                        "color": "#ECC5AC";
-                        "description": "Case Created",
-                        "id": "000121",
-                        "entity": "msdyn_incident",
-                        "url": "",
-                        "guid": "952a7592-8818-ea11-a811-000d3a5466d0"
-                    }
-                            "Asset History": {
-                                "2019-08-07T19:14:53Z": {
-                        "color": "#FF6400",
-                        "description": "Asset Model Upgraded",
-                        "id": "001223",
-                        "entity": "new_assetupgraded",
-                        "url": "",
-                        "guid": "952a7592-8818-ea11-a811-000d3a5466d7"
-                    },
-                }
-            }
+  "Service History": {
+    "2019-08-07T19:14:53Z": {
+      "color": "#FF6300",
+      "description": "Work Order Created",
+      "id": "00001",
+      "entity": "msdyn_workorder",
+      "url": "",
+      "guid": "952a7592-8818-ea11-a811-000d3a5466d7"
+    },
+    "2019-08-08T19:14:53Z": {
+      "color": "#ECC5AC",
+      "description": "Work Order Created",
+      "id": "00002",
+      "entity": "msdyn_workorder",
+      "url": "",
+      "guid": "952a7592-8818-ea11-a811-000d3a5466d9"
+    },
+    "2019-09-21T09:34:53Z": {
+      "color": "#ECC5AC",
+      "description": "Case Created",
+      "id": "000121",
+      "entity": "msdyn_incident",
+      "url": "",
+      "guid": "952a7592-8818-ea11-a811-000d3a5466d0"
+    }
+  },
+  "Asset History": {
+    "2019-08-07T19:14:53Z": {
+      "color": "#FF6400",
+      "description": "Asset Model Upgraded",
+      "id": "001223",
+      "entity": "new_assetupgraded",
+      "url": "",
+      "guid": "952a7592-8818-ea11-a811-000d3a5466d7"
+    }
+  }
+}
 ```
