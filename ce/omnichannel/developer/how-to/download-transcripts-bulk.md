@@ -4,7 +4,7 @@ description: "Read how you can send display custom context on the UI"
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 08/13/2020
+ms.date: 08/20/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: reference
@@ -19,13 +19,19 @@ Use the following Web API requests to retrieve all the transcripts and attachmen
 
 The Web API request given below will retrieve all the textual transcripts. 
 
-```
+```http
 GET [Organization URI]/api/data/v9.1/annotations?$filter=objecttypecode eq 'msdyn_transcript'
+Accept: application/json  
+OData-MaxVersion: 4.0  
+OData-Version: 4.0  
 ```
 The Web API request given below will retrieve all the file attachment annotations.
 
-```
+```http
 GET [Organization URI]/api/data/v9.1/annotations?$filter=objecttypecode eq 'msdyn_ocliveworkitem'
+Accept: application/json  
+OData-MaxVersion: 4.0  
+OData-Version: 4.0  
 ```
 
 The response obtained from each of the above Web API requests contains an attribute called `documentBody` which contains the base64 encoded transcript or attachment.
@@ -44,8 +50,26 @@ On each of these times of messages you can see a `createdDateTime` field which d
 
 A control message is of no visual value and indicates an event like Agent joined or left conversation. It usually has a flag called `isControlMessage` set to `true`.
 
+A System message is a special kind of message that is shown to the customer regarding events during the conversations. For example, when an agent joins, when an agent disconnects and when a new agent joins.
 
+Text messages exchanged during the chat between agent and customer appear as shown below.
 
+As seen from above, messages sent by the customer have a display name of either ‘customer’ in case of an unidentified customer or their actual name if they are known to Omnichannel for Customer Service.
+
+For the message that is sent by an agent to a customer, there are tags denoting that it is a “public” message sent by the agent. If the tags contain “private”, then its an internal message exchanged between 2 agents and are not exposed to the customer.
+
+A `FileAttachment` message looks like this in the JSON.
+
+It usually has metadata related to the attachment(s) exchanged during the Chat. The highlighted `annotationid` is the key to the base64 encoded record in Annotations table for that file attachment. You can retrieve that record using this Web API request.
+
+```http
+GET [Organization URI]/api/data/v9.1/annotations(<annotationid>)
+Accept: application/json  
+OData-MaxVersion: 4.0  
+OData-Version: 4.0  
+```
+
+The above Web API request will give you the base64 encoded Attachment which you can decode and use the way you want.
 
 ### See also
 

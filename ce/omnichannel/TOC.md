@@ -278,6 +278,7 @@
 #### [Auto-close a conversation](developer/auto-close-conversation.md)
 #### [Render live chat widget on mobile app](developer/how-to/render-live-chat-widget-mobile.md)
 #### [Download attachments from your Azure bot](developer/download-attachments-bot.md)
+#### [Download transcripts in bulk](developer/how-to/download-transcripts-bulk.md)
 #### [Add a web resource for real-time translation](developer/how-to/add-web-resource-real-time-translation.md)
 #### Smart assist bot
 ##### [Build a smart assist bot](developer/how-to/smart-assist-bot.md)
