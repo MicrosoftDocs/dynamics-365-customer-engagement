@@ -153,7 +153,7 @@ Here are the output parameters for this action. The following parameters are ret
 |----------------------------|----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ID                         | string   | Identifier of the device (msdyn_iotdevice) within CFS. Note that this will be a Guid that needs to be converted to string. For example: “6a5457d1-9373-ea11-a811-000d3af70aa4”                                                                                                                              |
 | ConnectionState            | string   | Indicates whether the device is "Disconnected" or "Connected."                                                                                               |
-| ConnectionStateUpdatedTime | datetime | Updated time of the connection state from the IoT. provider                                                                                                     |
+| ConnectionStateUpdatedTime | datetime | Updated time of the connection state from the IoT provider                                                                                                     |
 | DeviceReportedProperties   | string   | Various reported properties of the devices formatted in a JSON string. For example: </br> {"temperature":35.6366305680316, </br> "humidity":18.3333366666} |
 | LastActivityTime           | datetime | Last time of reported activity of the device.                                                                                                                  |
 
