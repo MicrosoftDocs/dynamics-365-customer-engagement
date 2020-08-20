@@ -92,7 +92,7 @@ The IoT settings entity now has an option to choose a default IoT provider insta
 
 When you create a custom IoT provider, you'll specify a set of actions associated with that providers. Actions in Dynamics 365 are custom code that will run when you invoke them. For more information, see [this article on custom actions in Dynamics 365](https://docs.microsoft.com/powerapps/developer/common-data-service/custom-actions).
 
-For example, if you specify ```msdyn_MockProviderPullDeviceDataAction``` as the action for "Pull device data" in your provider, CFS will look for an action with the name ```msdyn_MockProviderPullDeviceDataAction``` and run that action's code when a user selects the **Pull device data** button in Connected Field Service.
+For example, if you specify ```msdyn_MockProviderPullDeviceDataAction``` as the action for "Pull device data" in your provider, CFS will look for an action with the name ```msdyn_MockProviderPullDeviceDataAction``` and run that action's code when a user clicks the **Pull device data** button on the asset or device form or views in Connected Field Service.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the IoT settings in Field Service.](./media/custom-iot-provider-fields.png)
