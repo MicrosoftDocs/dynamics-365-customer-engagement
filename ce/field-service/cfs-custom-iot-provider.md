@@ -186,7 +186,7 @@ Here is a sample output:
 }
 ```
 
-The result of pulling device data will appear in the device data history tab.
+The result of pulling device data will appear in the device data history tab and will update the properties on the device.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the device data history.](./media/custom-iot-device-data-history.png)
