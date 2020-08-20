@@ -203,7 +203,7 @@ Here are the input parameters for this action. Since this action supports multip
 
 Here are the input parameters for this action. Since this action supports multiple devices, the parameters need to be sent as EntityCollection.
 
-| Input Parameters | 	Type  | Details | 
+| Entity collection properties | 	Type  | Details | 
 | -- | -- | -- | 
 | msdyn_iotdeviceid	| string	| Identifier of the device (msdyn_iotdevice) within CFS. Note that this will be a Guid that needs to be converted to string. For example: “6a5457d1-9373-ea11-a811-000d3af70aa4”
 | msdyn_name	| string	| Name of the device.| 
@@ -235,7 +235,7 @@ Here are the output parameters for this action. The below parameters are returne
 |---------------------|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |RegistrationResultsJSON         | String | 
 
-| JSON Details  | Type      | Details                                                                                                                                                                                                                                                                                                                                                                                                    |
+| JSON properties  | Type      | Details                                                                                                                                                                                                                                                                                                                                                                                                    |
 |----------------------|-----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ID           | string    | Identifier of the device in CFS.                                                                                                                                                                                                                                                                                                                                                                           |
 | RegistrationStatus   | OptionSet | This identifies the status of the registration from the IoT provider back to CFS. The values and their labels for this option set are: </br> - 192350000: Unknown </br> - 192350001: Unregistered </br> - 192350002: In progress </br> - 192350003: Registered </br> - 192350004: Error </br> Note: OptionSet is a list of defined options with label-value mapping like a dropdown box control.  |
