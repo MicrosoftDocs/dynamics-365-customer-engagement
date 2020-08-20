@@ -251,13 +251,13 @@ Here is some sample output:
          "Id":"5754578D-1F9A-4720-BC21-3C3042C05B2F",
          "RegistrationStatus":"Registered",
          "DeviceId":"DeviceIdFromThirdPartyOrUserDefined",
-         "Message":"Registration info/waring/error message"   
+         "Message":"Registration info/warning/error message"   
       },
       {
          "Id":"5754578D-1F9A-4720-BC21-3C3042C06C5F",
          "RegistrationStatus":"Registered",
          "DeviceId":"DeviceIdFromThirdPartyOrUserDefined",
-         "Message":"Registration info/waring/error message"   
+         "Message":"Registration info/warning/error message"   
       }   
   ]
 }
