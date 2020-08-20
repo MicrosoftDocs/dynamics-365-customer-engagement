@@ -1,10 +1,10 @@
 ---
 title: "Customer Service Overview (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Overview of Dynamics 365 Customer Service"
-author: kabala123
-ms.author: kabala
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
-ms.date: 08/3/2020
+ms.date: 08/20/2020
 ms.topic: get-started-article
 ms.service: 
   - dynamics-365-customerservice
@@ -14,24 +14,24 @@ ms.custom:
 
 # Overview of Dynamics 365 Customer Service
 
-Welcome to Dynamics 365 Customer Service! We are delighted to offer you a suite of capabilities to ensure your business can deliver the best customer service experience possible to your customers. We believe knowing your customer enables you to personalize each experience and optimize agent productivity to earn customer for life. 
+Welcome to Dynamics 365 Customer Service! We are delighted to offer you a suite of capabilities to ensure your business can deliver the best customer service experience possible to your customers. We believe that knowing your customers enables you to personalize each experience and optimizes your agents' productivity so you can earn customers for life. 
 
-We offer several app experiences depending on your support organization’s needs and the data is all stored in CDS, which makes it seamless for users to switch between apps and still be able to work with the customer’s existing data across them. 
+We offer several app experiences depending on your support organization’s needs, and the data is all stored in CDS, which makes it seamless for users to switch between apps and still be able to work with a customer's existing data across them. 
 
 Use [!INCLUDE[pn-ms-dyn-365-for-customer-service](../includes/pn-ms-dyn-365-for-customer-service.md)] to:
 
-- Track customer issues through cases.
-- Record all interactions related to a case.
-- Share information in the knowledge base.
-- Create queues, and route cases to the right channels.
-- Create and track service levels through service level agreements (SLAs). 
-- Define service terms through entitlements.
-- Manage performance and productivity through reports and dashboards.
-- Create and schedule services.
-- Take chats. 
-- Manage conversations across channels.
+- Track customer issues through cases
+- Record all interactions related to a case
+- Share information in the knowledge base
+- Create queues and route cases to the right channels
+- Create and track service levels through service level agreements (SLAs) 
+- Define service terms through entitlements
+- Manage performance and productivity through reports and dashboards
+- Create and schedule services
+- Participate in chats
+- Manage conversations across channels
 
-The following capabilities are available in the different app experiences depending on your needs. Select the app of your choice to read more about the details of the user experience in each app: 
+The following capabilities are available in the different app experiences, depending on your needs. Select the app of your choice to read more about the details of the user experience in each app: 
 
 
 |   | [Customer Service workspace](csw-overview.md) | [Omnichannel for Customer Service](../omnichannel/introduction-omnichannel.md) | [Customer Service Hub](user-guide-customer-service-hub.md) | [Customer Service Team Member](customer-service-team-member.md) | [Customer Service app (Deprecated)](user-guide-customer-service.md) |
@@ -44,7 +44,7 @@ The following capabilities are available in the different app experiences depend
 | Insights  | (Preview: 10/01/2020) | X | X |  |  |
 | Service Scheduling  |  | N/A | X |  | X |
 | Connected Service with IoT  |  |  | X  |  |  |
-| Extensibility  | CIF v2, BYOC | CIF v2, BYOC, Mobile SDK | CIF v1 |  |  |
+| Extensibility  | Channel Integration Framework version 2.0, BYOC | CIF v2, BYOC, Mobile SDK | Channel Integration Framework version 1.0 |  |  |
 | Unified Interface (UCI) Compliant  | X | X | X | X |  |
 | Basic Administration  | Customer Service Hub -> Service Management | Omnichannel Administration |  |  | Settings -> Service Management |
 | Case Routing & Queue Configuration  | Customer Service Hub -> Service Management | Omnichannel Administration |  |  | Settings -> Service Management |
