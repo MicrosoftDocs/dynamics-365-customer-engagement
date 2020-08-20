@@ -1,6 +1,6 @@
 ---
-title: "Best practices for administration (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn about best practices for Dynamics 365 Marketing administration and management."
+title: "CXP private preview documentation (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Preview documentation detailing how to use Dynamics 365 CXP features."
 author: alfergus
 ms.author: alfergus
 manager: shellyha
@@ -14,13 +14,10 @@ robots: noindex,nofollow
 
 Welcome to the Dynamics 365 Product Insights private preview documentation.
 
-[!INCLUDE [cc-beta-prerelease-disclaimer]( ../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE [cc-beta-prerelease-disclaimer](../../cc-beta-prerelease-disclaimer.md)]
 
 ## Get started with the private preview
 
-[Onboarding overview](onboarding-overview.md)
-
-[Quickstart for private preview](quickstart-cxp.md)
 
 ## How-tos
 
