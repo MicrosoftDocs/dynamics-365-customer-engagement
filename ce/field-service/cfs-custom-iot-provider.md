@@ -220,7 +220,7 @@ Input sample:
 		"@odata.type":"Microsoft.Dynamics.CRM.msdyn_iotdevice"
 	    },
 	    {
-	        "msdyn_iotdeviceid":"5754578D-1F9A-4720-BC21-3C3042C06C5F",
+	    "msdyn_iotdeviceid":"5754578D-1F9A-4720-BC21-3C3042C06C5F",
 		"msdyn_name":"Coffee maker 2",
 		"@odata.type":"Microsoft.Dynamics.CRM.msdyn_iotdevice"
 	    }
