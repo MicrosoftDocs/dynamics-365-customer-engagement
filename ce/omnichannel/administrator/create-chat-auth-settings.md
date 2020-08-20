@@ -77,7 +77,7 @@ If you're adding authentication for a chat widget on a portal that is not create
     ```
 
 2. Expose the public key endpoint as a URL that contains the public key as a string.
-3. Create a client-side JavaScript function that returns the signed JWT and the public key.
+3. Create a client-side JavaScript function that returns the signed JWT token.
 
     Here is sample code for defining the JavaScript client function.
 
@@ -122,7 +122,7 @@ If you're adding authentication for a chat widget on a portal that is not create
 
     Here is a sample definition of custom context variables.
 
-    ```JavaScript
+    ```Python
     def create_token(user_json):
         with open('private_key.pem', 'r') as myfile:
             data = myfile.read()
@@ -143,7 +143,7 @@ If you're adding authentication for a chat widget on a portal that is not create
 
     Here is sample code for encrypting the payload. (This code is included in the previous sample code for defining custom context variables.)
 
-    ```JavaScript
+    ```Python
     encoded_jwt = jwt.encode(json_token, data, algorithm='RS256')
     return encoded_jwt
     ```
