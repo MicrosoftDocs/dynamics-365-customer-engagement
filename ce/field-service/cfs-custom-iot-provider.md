@@ -355,7 +355,7 @@ Here are the output parameters for this action. The below parameters are returne
 |AggregatedDeviceReadings         | String | 
 
 
-| JSON Details  | Type   | Details                                                                                                                                                                                                                                                      |
+| JSON properties  | Type   | Details                                                                                                                                                                                                                                                      |
 |----------------------|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | DeviceName           | string | Name of the device to be displayed in the chart                                                                                                                                                                                                            |
 | Measurements         | string | JSON representation of the various aggregate measurements as shown in the below example. Individual aggregates are of type double.   </br>Each measurement is displayed as a separate line chart in the device readings control (previous screenshot). |
@@ -429,7 +429,7 @@ Here are the output parameters for this action. The below parameters are returne
 
 Here are the output parameters for this event.
 
-| JSON Details  | Type   | Details                                                                                                                                                                                |
+| JSON properties  | Type   | Details                                                                                                                                                                                |
 |----------------------|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | EventsName        | string | Short description for the category of events. This description will be displayed in the device readings control allowing users to enable and disable events under that event name. For example, you can categorize events into Asset Events and Service events. Users will see two rows of pins on the device readings chart and can enable and disable either row.             |
 | Timestamp            | string | Discrete timestamp of the event formatted as a string in ISO format. This will be the x-axis timestamp for the event pin. For example: "2019-08-07T19:14:53Z"                      |
