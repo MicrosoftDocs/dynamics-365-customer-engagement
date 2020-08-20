@@ -1596,8 +1596,6 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 - [msdyn_msdyn_authsettings_msdyn_livechatconfig](#BKMK_msdyn_msdyn_authsettings_msdyn_livechatconfig)
 - [msdyn_msdyn_chatwidgetlanguage_msdyn_livechatconfig_WidgetLocale](#BKMK_msdyn_msdyn_chatwidgetlanguage_msdyn_livechatconfig_WidgetLocale)
-- [msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid](#BKMK_msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid)
-- [msdyn_msdyn_operatinghour_msdyn_livechatconfig](#BKMK_msdyn_msdyn_operatinghour_msdyn_livechatconfig)
 
 
 ### <a name="BKMK_msdyn_msdyn_authsettings_msdyn_livechatconfig"></a> msdyn_msdyn_authsettings_msdyn_livechatconfig
