@@ -355,17 +355,13 @@ Here are the output parameters for this action. The below parameters are returne
 |AggregatedDeviceReadings         | String | 
 
 
-| JSON properties  | Type   | Details                                                                                                                                                                                                                                                      |
-|----------------------|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| DeviceName           | string | Name of the device to be displayed in the chart                                                                                                                                                                                                            |
-| Measurements         | string | JSON representation of the various aggregate measurements as shown in the below example. Individual aggregates are of type double.   </br>Each measurement is displayed as a separate line chart in the device readings control (previous screenshot). |
+
 
 Here is some sample output:
 
 ```
 
-[
-    {
+  {
         "HVAC Unit 123": {
             "Temperature": {
                 "2017-04-01T06:00:00Z": {
@@ -401,8 +397,9 @@ Here is some sample output:
             }
         }
     }
-]
 ```
+> [!Note]
+> Individual aggregates are of type double.
 
 ### Device Readings – Events
 
