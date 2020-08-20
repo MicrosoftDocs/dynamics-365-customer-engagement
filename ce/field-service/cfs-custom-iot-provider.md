@@ -402,7 +402,7 @@ Here is some sample output:
 
 ### Device Readings – Events
 
-The device readings control in Connected Field Service also allows IoT Providers to plot discrete events from service history, such as the creation and closure of work orders, scheduled start and end of bookings, and much more. For example, the following screenshot shows the out-of-the-box work order events as "pins" at the bottom of the chart. You do not need to create a **new** action. Rather, you can register a custom plugin on the ```msdyn_IoTGetDeviceEvents``` action, similar to how you can create plugins for create events. 
+The device readings control in Connected Field Service also allows IoT Providers to plot discrete events from service history, such as the creation and closure of work orders, scheduled start and end of bookings, and much more. For example, the following screenshot shows the out-of-the-box work order events as "pins" at the bottom of the chart. You can include any custom entities such as the last time you performed an asset upgrade. You do not need to create a **new** action. Rather, you can register a custom plugin on the ```msdyn_IoTGetDeviceEvents``` action, similar to how you can create plugins for create events. 
 
 For more information, see the [article on events in CDS](https://docs.microsoft.com/powerapps/developer/common-data-service/event-framework).
 
