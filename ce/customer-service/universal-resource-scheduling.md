@@ -234,6 +234,8 @@ In this next scenario, we show how to pass values for a specific requirement gro
 >   - Organizational unit (which can be retrieved by using the [Web API](/powerapps/developer/common-data-service/webapi/query-metadata-web-api))
 > - If the API is called from a client (browser or canvas app) based on JavaScript, you need to have the extended SOAP SDK. The extended SOAP SDK is not an official Microsoft release, but you can is provided in the downloadable sample files for guidance. 
 > - We recommend that you test this search in your development or test environments to validate your scenarios and results before running it in your production environment.
+> - Please note that this API uses complex object type in the input and output of the API, so it only support SOAP endpoint, but does not support the OData endpoint. 
+
 
 To execute this search against your organization, you need to download the [sample files](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/service-scheduling/search-resource-availability-create-bookings), and then follow the steps below:   
 
