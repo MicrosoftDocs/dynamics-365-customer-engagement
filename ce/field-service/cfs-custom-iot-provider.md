@@ -117,7 +117,7 @@ This action supports multiple devices, so the input needs to be sent as an **Ent
 |---------------------|--------|-----------------------|
 | EntityCollection          | EntityCollection |                                                          |
 
-| Entity Collection Properties  | Type   | Details |
+| Entity collection properties  | Type   | Details |
 |-------------------|--------|-------------------------------------------------------------|
 | msdyn_iotdeviceid | string | Identifier of the device (msdyn_iotdevice) within CFS. Note that this will be a Guid that needs to be converted to string. For example: “6a5457d1-9373-ea11-a811-000d3af70aa4” |
 | msdyn_name        | string | Name of the device.                                                                                                                                        |
@@ -149,7 +149,7 @@ Here is a sample input:
 
 Here are the output parameters for this action. The following parameters are returned in serialized JSON format as part of the action results.
 
-| JSON Properties        | Type     | Details                                                                                                                                                        |
+| JSON properties        | Type     | Details                                                                                                                                                        |
 |----------------------------|----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ID                         | string   | Identifier of the device (msdyn_iotdevice) within CFS. Note that this will be a Guid that needs to be converted to string. For example: “6a5457d1-9373-ea11-a811-000d3af70aa4”                                                                                                                              |
 | ConnectionState            | string   | Indicates whether the device is "Disconnected" or "Connected."                                                                                               |
