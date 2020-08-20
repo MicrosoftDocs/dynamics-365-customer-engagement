@@ -44,7 +44,7 @@ The following capabilities are available in the different app experiences, depen
 | Insights  | (Preview: 10/01/2020) | X | X |  |  |
 | Service Scheduling  |  | N/A | X |  | X |
 | Connected Service with IoT  |  |  | X  |  |  |
-| Extensibility  | Channel Integration Framework version 2.0, BYOC | CIF v2, BYOC, Mobile SDK | Channel Integration Framework version 1.0 |  |  |
+| Extensibility  | Channel Integration Framework version 2.0, BYOC | Channel Integration Framework version 2.0, BYOC, Mobile SDK | Channel Integration Framework version 1.0 |  |  |
 | Unified Interface (UCI) Compliant  | X | X | X | X |  |
 | Basic Administration  | Customer Service Hub -> Service Management | Omnichannel Administration |  |  | Settings -> Service Management |
 | Case Routing & Queue Configuration  | Customer Service Hub -> Service Management | Omnichannel Administration |  |  | Settings -> Service Management |
@@ -59,7 +59,7 @@ The following capabilities are available in the different app experiences, depen
 ## Available anywhere, on any device
 
 > [!NOTE]
-> For mobile devices, you'll also need to [Install Dynamics 365 for phones and tablets](../mobile-app/Install-Dynamics-365-for-phones-and-tablets.md).
+> For mobile devices, you can install the applicable app for your device. For more inforamtion, see [Install Dynamics 365 for phones and tablets](../mobile-app/Install-Dynamics-365-for-phones-and-tablets.md).
 
 If you're using a desktop browser, you'll see the various Customer Service apps in the app switcher as shown here:
 
@@ -77,7 +77,7 @@ If you're using a mobile device with Dynamics 365 for phones and tablets install
 
 ## Accessibility and GDPR in the Customer Service Apps 
 
-Customer Service is committed to inclusive design and accessible content. The apps are designed around accessibility so that all users can be effortlessly productive.
+Customer Service is committed to inclusive design and accessible content. The apps are designed around accessibility to help all users be effortlessly productive.
 
 For more details about app accessibility and GDPR compliance, see [Accessibility and GDPR](user-guide-customer-service-hub.md#accessibility-and-gdpr).
 
