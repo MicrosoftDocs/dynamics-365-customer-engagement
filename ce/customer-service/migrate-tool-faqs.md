@@ -74,21 +74,21 @@ The following are key scenarios where rules/items will not successfully complete
 
     No. We currently only support one level of the related entity hierarchy. For such rule items or conditions to successfully migrate, you need to remove any related entity in group clause premigration. If you don't take any action, the rule will fail during the **Premigration checkup** step, and if you then choose to continue with the migration, the rule will have an empty condition for the respective item.
     
-  **Example: Premigration view**
+    **Example: Premigration view**
   
-  **a.**	Premigration web client view 
+    **a.**	Premigration web client view 
 
-  ![Web view](media/migration-tool-11-a.png "Web view")
+    ![Web view](media/migration-tool-11-a.png "Web view")
     
-  **Post migration Unified Interface view** 
+    **Post migration Unified Interface view** 
   
-  **2a.** The migrated item title changes to **\_FailedMigration** appended. 
-  **2b.** The same standard placeholder **Created On equals 2200-01-01** is added to the condition.
+    **2a.** The migrated item title changes to **\_FailedMigration** appended. 
+    **2b.** The same standard placeholder **Created On equals 2200-01-01** is added to the condition.
 
 
-<!-- editor comment: The text in the image should be Unified Interface, not UCI. We don't use UCI any more. -->
+    <!-- editor comment: The text in the image should be Unified Interface, not UCI. We don't use UCI any more. -->
 
-  ![Unified Interface view](media/migration-tool-11-b.png "Unified Interface view")
+    ![Unified Interface view](media/migration-tool-11-b.png "Unified Interface view")
 
 12.	**Why do my rule items/conditions with a DateType field that uses a "not on" operator fail during the pre-migration checkup and actual migration?**<br />
     The **Not on** operator for the **Date** data type is not supported in the Unified Client Interface (UCI), and therefore is not supported as part of migration. To fix this issue, you can change the legacy items/conditions from **{not-on selecteddate}** to **{selecteddate less than and selecteddate greater than}** in the web client before rerunning the migration tool for the respective rule.<br /><br />
