@@ -40,8 +40,8 @@ search.app:
 
 For information about other updates to Field Service, visit the [Dynamics 365 release plans](https://docs.microsoft.com/dynamics365/release-plans/). 
 
-|  | Region | Current version | Next version |  Scheduled date
-| :---   | :---   | :---   | :---   |:---   |         
+|Station | Region | Current version | Next version |  Scheduled date
+|------| -------|-------|-----|------|         
 |<strong>Station 2</strong> | |  |  | |
 | | <i>South America</i> | [8.8.25.29](https://docs.microsoft.com/dynamics365/field-service/version-history#882529) | TBD | 08/28/2020
 | | <i>Canada</i> | [8.8.25.29](https://docs.microsoft.com/dynamics365/field-service/version-history#882529) | TBD | 08/28/2020
