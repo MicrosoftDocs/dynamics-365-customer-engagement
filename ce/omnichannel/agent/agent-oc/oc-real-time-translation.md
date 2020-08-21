@@ -4,7 +4,7 @@ description: "Overview of language translation for agent and customer chats in t
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/18/2020
+ms.date: 08/21/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -28,7 +28,7 @@ When language translation is enabled for conversations that are exchanged betwee
 
 ## How language translation of conversations works
 
-When a customer initiates a chat conversation on the portal, irrespective of the language used by the customer, the assigned agent receives the chat text in the language that's set as the default for them. The language translation happens in real time. For example, if a customer initiates a chat in Spanish, the message text appears to an English-speaking agent in Spanish along with the translated English version. The agent has the option to view and respond to the chat in the customer's language or the agent's default language.
+When a customer initiates a chat conversation on the portal, irrespective of the language used by the customer, the assigned agent receives the chat text in the language that's set as the default. The language translation happens in real time. For example, if a customer initiates a chat in Spanish, the message text appears to an English-speaking agent in Spanish along with the translated English version. The agent has the option to view and respond to the chat in the customer's language or the agent's default language.
 
 If the agent has to consult a peer or supervisor, it can be done in the language preferred between the agent and peer or agent and supervisor, which can be different from the language used between the agent and customer. The chat transcripts are saved in the languages used in the conversation.
 
@@ -38,10 +38,13 @@ The agent can see the following details pertaining to the feature:
 
 - The chat content is displayed in the customer's language and translated language.
 
+The agents can turn on or off the translation for each conversation by using the **More commands** button on the chat window.
+
 The following image shows a sample screenshot of the agent experience.
 
   > [!div class=mx-imgBorder]
   > ![Real-time language translation for the agent](../../media/oc-agent-translated-messages.png "Real-time language translation for agent")
+
 
 The following image shows a sample screenshot of the customer experience.
 
