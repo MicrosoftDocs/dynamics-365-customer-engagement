@@ -70,7 +70,7 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 ## 8.8.29.165 (2020 Wave 2 early access)
 (Includes Universal Resource Scheduling version [3.12.29.5](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#312295).)
 
-The release is only applied when an environment is opted in to early access and introduces the [Field Service 2020 Wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/service/dynamics365-field-service/planned-features) new and updated features as outlined for availability in early access:
+The release is only applied when an environment is opted into early access and introduces the [Field Service 2020 Wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/service/dynamics365-field-service/planned-features) new and updated features as outlined for availability in early access:
 - Embedded Power BI Dashboard for key Field Service metrics
 - Improved work order metrics
 - Asset hierarchy and functional location
@@ -89,18 +89,18 @@ In addition, this release includes the following changes that have the potential
 
 - Improved logic around agreement booking dates, which have a button to manually “Generate Work Order.” Previously, this button was available when a work order had already been generated. In this release, we improved the logic associated with this button to ensure this button was not available if the work order had already been generated.
 - Corrected the display position of the map control in the “Location” tab for the work orders in the Field Service Mobile app’s default work order form. Previously, the map control appeared between the latitude and longitude fields. It now appears above these fields.
-- When an incident type is applied to a work order, it results in the automatic creation of a work order incident which can automatically create work order products, work order services, and work order service tasks. These records are associated to the work order and work order incident. If the primary incident customer asset field referenced a customer asset, all resulting records would also be related to the same customer asset. The release improves the logic for customer asset association on these records when a work order incident’s customer asset is updated. Previously, if the customer asset on a work order incident was updated, it would not update the related work order products, work order services, or work order service tasks. It will now update these records appropriately, assuming the customer asset value of the child records matched the pre-change value of the work order incident.
-- Corrected a poor system behavior where, when updating a work order service record’s line status from “Estimated” to “Used,” the estimated discount percent value was not autopopulated into the discount percent field. This value will now autopopulate per the estimated value when the line is set to “Used.”
+- When an incident type is applied to a work order, it results in the automatic creation of a work order incident, which can automatically create work order products, work order services, and work order service tasks. These records are associated to the work order and work order incident. If the primary incident customer asset field referenced a customer asset, all resulting records would also be related to the same customer asset. The release improves the logic for customer asset association on these records when a work order incident’s customer asset is updated. Previously, if the customer asset on a work order incident was updated, it would not update the related work order products, work order services, or work order service tasks. It will now update these records appropriately, assuming the customer asset value of the child records matched the pre-change value of the work order incident.
+- Corrected a poor system behavior: when updating a work order service record’s line status from “Estimated” to “Used,” the estimated discount percent value was not autopopulated into the discount percent field. This value will now autopopulate per the estimated value when the line is set to “Used.”
 - Improved the error message on a purchase order receipt product when a user tries to change the quantity or unit after a related purchase order bill has been created.
 - Improved display handling of the agreement and invoice subgrids on the account forms where a user may not have permissions to these related records. Previously, these subgrids would display with an error about the user’s permissions; however, now, these subgrids will not show on the form in such cases of insufficient permissions.
 - Resolved an issue with the Field Service resource role’s permissions. Previously, this role was missing the “Append To” privilege on customer asset, which caused issues when trying to create customer assets.
 - Improved the subgrid name for work order products on the default work order form for the Field Service Mobile app.
-- Fixed an issue where the value for customer asset was not being copied into work order products, work order services, and work order service tasks which were created from agreement booking products, agreement booking services, and agreement booking service tasks which were not related to an agreement booking incident. This association will now flow down, as expected.
+- Fixed an issue where the value for customer asset was not being copied into work order products, work order services, and work order service tasks that were created from agreement booking products, agreement booking services, and agreement booking service tasks that were not related to an agreement booking incident. This association will now flow down, as expected.
 - Added the "Field Service - Resource" role to the new app module for Field Service Mobile.
 - Corrected some consistency issues with the labeling for “Work Hours Templates.”
-- Adding a notification on agreement booking setups and agreement invoice setups to highlight that related work orders, invoices, and dates will not generate when users create or updates the agreement sub-records when the parent agreement’s System Status is not active.
+- Adding a notification on agreement booking setups and agreement invoice setups to highlight that related work orders, invoices, and dates will not generate when users create or updates the agreement subrecords when the parent agreement’s System Status is not active.
 - Improved work order validation of the latitude and longitude fields to ensure that, if either value is populated, both values are populated, and that the values are valid.
-- Improved warning messages on the booking form. It is not advised to use a work order’s booking through more than one booking lifecycle. It should only go through the lifecycle once (scheduled -> traveling -> in-progress -> complete). Some organizations which reuse a single booking through more than one lifecycle began receiving a form notification that, while allowed, such practices are not advised. This warning previously mentioned time entry generation any time it was displayed; it will now only mention time entry generation when the environment is configured to auto-generate time entries to avoid confusion.
+- Improved warning messages on the booking form. It is not advised to use a work order’s booking through more than one booking lifecycle. It should only go through the lifecycle once (scheduled -> traveling -> in-progress -> complete). Some organizations that reuse a single booking through more than one lifecycle began receiving a form notification that, while allowed, such practices are not advised. This warning previously mentioned time entry generation anytime it was displayed; it will now only mention time entry generation when the environment is configured to autogenerate time entries to avoid confusion.
 - Enhanced logic for work order service task naming if the work order service task was created from a work order incident as a result of the incident type’s incident service task. In such cases, if the incident service task has a name, the work order service task’s name will come from the incident service task; previously, the work order service task’s name was always the name of the related service task type. If the incident service task’s name is blank, the work order service task’s name will default to the service task type’s name.
 - Removed unnecessary code that enforced that the booking and journal type fields on a booking journal would be editable under certain circumstances. These fields will now behave the way the rest of the fields on the booking journal behave.
 - On the case entity, when Field Service is installed, there is a ribbon button to “Convert to WO.” Previously, this button was in an undiscoverable location. This button has been moved to be more discoverable.
@@ -114,7 +114,7 @@ In addition, this release includes the following changes that have the potential
 - Minor improvement to tax calculation on the work order record to ensure that rounding rules resulted in a consistent value between the work order’s tax calculation and the invoice’s tax calculation. Under certain circumstances, previously, these values could be inconsistent by at the second decimal due to rounding differences.
 - Updated the taxable field in Field Service Mobile forms for work order, work order service, and work order product to use a new toggle control for simplified mobile usability.
 - Improved all default views for work order product, work order service, and work order service task to swap the Product, Service, and Task Type fields respectively with the Name field to improve default view usability.
-- Enhanced validation on the agreement entity when setting the price list to ensure that the currency set on the price list is the same currency set on the related billing account. Previously, this validation was not present which led to the potential for downstream errors on work order generation since the work order expects currency consistency between these two fields. Now, this validation is present at the agreement, ensuring agreement creation and update will protect downstream operations of the work order.
+- Enhanced validation on the agreement entity when setting the price list to ensure that the currency set on the price list is the same currency set on the related billing account. Previously, this validation was not present, which led to the potential for downstream errors on work order generation since the work order expects currency consistency between these two fields. Now, this validation is present at the agreement, ensuring agreement creation and update will protect downstream operations of the work order.
 - Removed incorrect defaulting logic on creation of work order service, work order product, or work order service task records that were not related to a work order incident. Previously, these records would be associated to the primary incident’s customer asset; however, they will now be left blank by default as they are not necessarily related to the primary incident’s customer asset.
 
 ## 8.8.25.30
@@ -125,10 +125,10 @@ In addition, this release includes the following changes that have the potential
 (Includes Universal Resource Scheduling version [3.12.24.4](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#312244)) 
 - Corrected an issue on bookable resource booking forms where the **Estimated Arrival Time** field can appear as if it has been edited immediately after save (when it hasn’t been), making the form behave as if it had unsaved changes.
 - Improved logic to allow for customizations to the work order form where the primary incident type is removed from the form to ensure that the out-of-the-box form logic has a null check for the **Primary Incident Type** field.
-- Resolved an issue with missing localization strings on the IoT alert and IoT device entities which could cause a script error.
+- Resolved an issue with missing localization strings on the IoT alert and IoT device entities, which could cause a script error.
 - Fixed an issue on update of agreement booking incident, which produced an error if there was a related agreement booking service task with a null estimated duration.
-- Resolved a problem with the agreement copy function which failed to copy agreements if there were deactivated agreement booking setup or agreement invoice setup records related to the agreement. The copy function will now successfully copy active records and ignore inactive records.
-- Added a new Field Service health rule which will highlight agreement booking setup and agreement invoice setup records on which the latest workflow instance had failed which could keep expected work orders and invoices from being generated. Once detected, the rule also provides a button to resolve failed workflow instances.
+- Resolved a problem with the agreement copy function that failed to copy agreements if there were deactivated agreement booking setup or agreement invoice setup records related to the agreement. The copy function will now successfully copy active records and ignore inactive records.
+- Added a new Field Service health rule that will highlight agreement booking setup and agreement invoice setup records on which the latest workflow instance had failed which could keep expected work orders and invoices from being generated. Once detected, the rule also provides a button to resolve failed workflow instances.
 
 ## 8.8.24.54
 (Includes Universal Resource Scheduling version [3.12.23.71](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#3122371)) 
@@ -140,7 +140,7 @@ In addition, this release includes the following changes that have the potential
 
 - Corrected a null reference error based on work order product form customizations to better handle when certain fields are removed from the form.
 - Resolved an issue with the incident type duration suggestions feature that produced an error when a user clicked “Recalculate Suggestions” for large query results.
-- Fixed an issue with agreement update which produced a "Nullable object must have a value" error on updating end date of an agreement whose end date is null.
+- Fixed an issue with agreement update, which produced a "Nullable object must have a value" error on updating end date of an agreement whose end date is null.
 - Removed the following BPFs from the Field Service Mobile app module: case to work order, lead to opportunity sales, opportunity sales, phone to case.
 - Improved logic to allow for customizations on work order creation from an agreement if there are customizations in place to automatically create additional resource requirement records.
 - Improved Field Service’s missing form libraries rule in Solution Health Hub to improve the rule description.
@@ -177,19 +177,19 @@ In addition, this release includes the following changes that have the potential
   - Technician time-capture precision
 - This release also includes all fixes included in the [8.8.14.328 EA package](https://docs.microsoft.com/dynamics365/field-service/version-history#8814328-2020-wave-1-early-access).
 - Corrected some scenarios where the geo code function was being called when "Auto Geo Code Addresses" was set to no.
-- Corrected scenario where msdyn_payment was null on payment details, which was improperly throwing the following error "The payment amount can't be less than total amount applied to invoices."
+- Corrected scenario where msdyn_payment was null on payment details; this scenario was improperly throwing the following error "The payment amount can't be less than total amount applied to invoices."
 - Fixed an issue where price list not changing based on changes to work order's billing account. For organizations experiencing this issue, a fix is made available through the "Advanced Settings" field in the Field Service settings entity, in an effort to not introduce a potentially disruptive change at this time. Copy the following string into the hidden field:  
 
 > *workorder.pricelist.usefrombillingaccount*
 
-- Resolved an issue where the time-only control misinterpreted daylight savings time for certain timezones.
+- Resolved an issue: the time-only control misinterpreted daylight savings time for certain timezones.
 - Fixed an issue where form logic was not respecting environment configurations on the Lead entity. Customers can now set fields, like "Company," to be business required and the Field Service form logic will respect the setting.
-- Corrected an issue on work order service where the "Total Amount" was not respecting the "Discount" when used in an editable grid.
+- Corrected an issue on work order service: the "Total Amount" was not respecting the "Discount" when used in an editable grid.
 - Removed the validation on bookable resource that required each bookable resource's name to be unique.
-- Fixed an error on the quote booking product where, under certain circumstances, the system would inaccurately throw the following error: "Enter an amount between $0.00 and $922,337,203,685,477.00."
+- Fixed an error on the quote booking product: under certain circumstances, the system would inaccurately throw the following error: "Enter an amount between $0.00 and $922,337,203,685,477.00."
 - Fixed an issue on the work order quick create from account where the billing account did not populate correctly.
-- Improved customer asset look-up experience from work order incident to ensure the form respects when organizations define their own default lookup view.
-- Resolved an issue where, in certain timezones, agreement booking setup's preferred start time was not appropriately setting on agreement booking dates' booking date and the subsequently autocreated bookable resource booking based on the defined "Preferred Start Time."
+- Improved customer asset look up experience from work order incident to ensure the form respects when organizations define their own default lookup view.
+- Resolved issue: in certain timezones, agreement booking setup's preferred start time was not appropriately setting on agreement booking dates' booking date and the subsequently autocreated bookable resource booking based on the defined "Preferred Start Time."
 - Fixed a scenario where, if an environment sets the default value of msdyn_linestatus to "Used," work order service creation would fail.
 - Added a null reference check to correct an issue if work order service's "Duration to Bill" was not set.
 
@@ -202,7 +202,7 @@ In addition, this release includes the following changes that have the potential
 
 - Resolved a bug on work order service records that have been deactivated throwing an error when being reactivated, "Object Reference Not Set to Instance of an Object."
 - Corrected an unhandled error in geocoding that failed if the address contained an extra comma.
-- For organizations that would prefer that work orders generated from cases open in the same window, this can now be controlled through "Advanced Settings" field in the Field Service settings entity. Copy the following string into the hidden field if you would prefer work orders to open in the same tab in the same window:  
+- For organizations that would prefer that work orders generated from cases open in the same window, this action can now be controlled through "Advanced Settings" field in the Field Service settings entity. Copy the following string into the hidden field if you would prefer work orders to open in the same tab in the same window:  
 
 > *casetoworkorderwindowbehavior=0*
 
@@ -249,11 +249,11 @@ For more information about early access features, visit the [opt-in instructions
 - Prevent agreement booking service task from being saved when task type lookup field is null.
   - If an organization customized the agreement booking service task entity to make the task type optional, this would result in downstream errors when trying to generate work order service tasks.
   - As such, a synchronous plugin was registered that will prevent the creation of an agreement booking service task if task type is null.
-- Fixed typo in error message when incident type requirement groups is related to an empty requirement group template.
+- Fixed typo in error message when an incident type requirement group is related to an empty requirement group template.
 - Prevent work order service from being saved when the service lookup field is null.
   - If an organization customized the work order service entity to make the service optional, this could result in downstream errors.
   - As such, a synchronous plugin was registered that will prevent the creation of a work order service if service is null.
-- Improved the warning notification message on the "Geo Code Address" button when Bing maps is disabled.
+- Improved the warning notification message on the "Geo Code Address" button when Bing Maps is disabled.
 
 ## 8.8.10.44
 
