@@ -30,7 +30,7 @@ The need to track progress against a schedule varies by industry. Some industrie
 
 ## Effort tracking view
 
-The **Effort tracking** view tracks the progress of tasks in the schedule. It compares the actual effort hours spent on a task to the task's planned effort hours. PSA uses the following formulas to calculate the tracking metrics:
+The **Effort tracking** view tracks the progress of tasks in the schedule. It compares the actual effort hours spent on a task to the task's planned effort hours. Project Service Automation uses the following formulas to calculate the tracking metrics:
 
 Initially on the task creation: Planned cost will be set to the Estimated cost at complete. Once Actuals are recorded on the task, the following will be calculation on the Tracking view for Effort
 
@@ -39,7 +39,7 @@ Initially on the task creation: Planned cost will be set to the Estimated cost a
 - EAC = Remaining effort + Actual effort spent to date 
 - Projected effort variance = Planned effort – EAC
 
-PSA shows a projection of the effort variance on the task. If the EAC is more than the planned effort, the task is projected to take more time than was originally planned. Therefore, it's behind schedule. If the EAC is less than the planned effort, the task is projected to take less time than was originally planned. Therefore, it's ahead of schedule.
+Project Service Automation shows a projection of the effort variance on the task. If the EAC is more than the planned effort, the task is projected to take more time than was originally planned. Therefore, it's behind schedule. If the EAC is less than the planned effort, the task is projected to take less time than was originally planned. Therefore, it's ahead of schedule.
 
 ## Reprojecting effort
 
