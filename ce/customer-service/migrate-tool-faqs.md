@@ -16,41 +16,51 @@ manager: shujoshi
 
 1. **Who can access or run the migration tool?** 
 
-    Currently, only administrators can run the migration tool. 
+   Currently, only administrators can run the migration tool. 
 
-2. **Are migrated rules automatically activated post-migration?**<br />
-    No. You must manually activate the migrated rules when migration is complete.
+2. **Are migrated rules automatically activated post-migration?**
 
-3.	**Can I activate a rule with an incomplete migration status?**<br />
+   No. You must manually activate the migrated rules when migration is complete.
+
+3.	**Can I activate a rule with an incomplete migration status?**
+
     No. A migrated rule can only be activated when **Mark as complete** is toggled to **Yes** (that's when the rule is considered successfully migrated). 
 
-    >[!Note] 
-    > Review the incomplete rule to resolve any issues before you toggle the **Mark as complete** to **Yes**, then activate the rule.
+    > [!Note] 
+    > Review the incomplete rule to resolve any issues before you toggle the **Mark as complete** to **Yes**, and then activate the rule.
 
-4.	**Will the legacy rule will be deactivated?**
+4.	**Will the legacy rule be deactivated?**
 
-    <ol>- <b>For ARC, yes</b> - when you activate a migrated ARC rule in the Unified Client Interface (UCI), the corresponding legacy rule will be de-activated.<br />- <b>For SLA, no</b> – when you activate a migrated SLA rule in the UCI, the corresponding legacy rule remains active as they can co-exist.</ol>  
+    - **For ARC, yes.** When you activate a migrated ARC rule in Unified Interface, the corresponding legacy rule will be deactivated.
+    - **For SLA, no.** When you activate a migrated SLA rule in Unified Interface, the corresponding legacy rule remains active because they can coexist.  
 
 5.	**What does an "incomplete" status mean?**
 
-    <ol>- If located in the **Summary** section, it means the overall migration process couldn't successfully complete the migration of all selected rules.<br />
-- If listed next to a rule, it means the rule has either failed or could not be fully migrated (meaning one or more items/conditions failed to migrate).</ol>
+    - If located in the **Summary** section, it means the overall migration process couldn't successfully complete the migration of all selected rules.
+    - If listed next to a rule, it means the rule has either failed or could not be fully migrated (meaning one or more items or conditions failed to migrate).
 
-6.	**Where can I find a list of partially migrated rules that are tracked in the migration tool?**<br />
+6.	**Where can I find a list of partially migrated rules that are tracked in the migration tool?**
+
     Rules that are partially identified or identified as ‘incompletely migrated’ are tracked under **Pending** in the **Summary** section since they are not considered fully migrated. Only rules that completed migration successfully are counted under **Migrated**.
 
-7.	**Are custom forms and/or fields supported by the migration tool?** <br />
-    No. Custom entities, fields, attributes, and configurations are not supported by the migration tool. Only out-of-box (OOB) entities, fields, and attributes are supported by the migration tool.
+7.	**Are custom forms or fields supported by the migration tool?** 
 
-8.	**Do I need a separate license for Power Automate before running migration?** <br />
-    No. For more information on licensing guidelines, see [What are Microsoft Power Apps and Power Automate use rights for Dynamics 365 applications](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq#what-are-microsoft-power-apps-and-power-automate-use-rights-for-dynamics-365-applications).
+    No. Custom entities, fields, attributes, and configurations are not supported by the migration tool. Only out-of-the-box entities, fields, and attributes are supported by the migration tool.
 
-9.	**Some of my rules are incomplete and/or partially migrated. What should I do?**<br />
-    You can either fix the rule in the web client based on the problem details and rerun your migration, or fix the migrated rule directly in the Unified Client Interface (UCI).
+8.	**Do I need a separate license for Power Automate before running migration?** 
 
-10.	**Can I rerun the migration tool for a specific migrated rule?**<br />
+    No. For more information on licensing guidelines, go to [What are Microsoft Power Apps and Power Automate use rights for Dynamics 365 applications?](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq#what-are-microsoft-power-apps-and-power-automate-use-rights-for-dynamics-365-applications).
+
+9.	**Some of my rules are incomplete or partially migrated. What should I do?**
+
+    You can either fix the rule in the web client based on the problem details and rerun your migration, or fix the migrated rule directly in Unified Interface.
+
+10.	**Can I rerun the migration tool for a specific migrated rule?**
+
     Yes, you can rerun the migration tool for a specific migrated rule based on the following:
-<ol>- For incomplete/failed migration rules: Reselect the same rule when you rerun the migration tool. It automatically replaces the existing failed/incomplete rule with the newly migrated one.<br /> - For successfully migrated rules: Delete the migrated rule in the Unified Client Interface (UCI) version before rerunning migration tool.</ol>
+    
+    - For incomplete or failed migration rules: Reselect the same rule when you rerun the migration tool. It automatically replaces the existing failed or incomplete rule with the newly migrated one.
+    - For successfully migrated rules: Delete the migrated rule in the Unified Interface version before rerunning the migration tool.
 
 #### Known condition conversions issues
 
