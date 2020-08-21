@@ -34,11 +34,11 @@ By default, CFS uses this IoT providers feature to integrate with Azure IoT Hub 
 
 ## When to use custom IoT providers
 
-Consider using a custom IoT provider if:
+Consider using a custom IoT provider:
 
-- You're using an IoT system from a vendor that doesn’t use Azure IoT.
+- If you're using an IoT system from a vendor that doesn’t use Azure IoT.
 - When you use multiple Azure IoT Hub instances or Azure IoT Central applications, connected to a common CFS organization.
-- You have multiple IoT vendors that you need to manage in a single CFS organization. For example, your organization’s HVAC alerts and devices may be handled by Azure IoT, while your organization’s security alerts may be handled by a different IoT system. While the alerts from both systems come into the same instance, CFS can route the actions to the appropriate system based on the configured providers.
+- If you have multiple IoT vendors that you need to manage in a single CFS organization. For example, your organization’s HVAC alerts and devices may be handled by Azure IoT, while your organization’s security alerts may be handled by a different IoT system. While the alerts from both systems come into the same instance, CFS can route the actions to the appropriate system based on the configured providers.
 
 ## Prerequisites
 
