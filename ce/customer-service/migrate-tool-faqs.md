@@ -1,6 +1,6 @@
 ---
-title: "Migration Tool FAQs | MicrosoftDocs"
-description: "Migration Tool FAQs for: Automatic record creation rules and service level agreements"
+title: "Migration tool FAQs | MicrosoftDocs"
+description: "Migration tool FAQs for: Automatic record creation rules and service-level agreements"
 ms.date: 08/03/2020
 ms.service:
   - "dynamics-365-customerservice"
@@ -12,9 +12,10 @@ manager: shujoshi
 
 # Migration tool FAQs
 
-## FAQs on migration tool for automatic record creation rules and service level agreements
+## FAQs on migration tool for automatic record creation (ARC) rules and service level agreements (SLAs)
 
-1. **Who can access or run the migration tool?** <br />
+1. **Who can access or run the migration tool?** 
+
     Currently, only administrators can run the migration tool. 
 
 2. **Are migrated rules automatically activated post-migration?**<br />
