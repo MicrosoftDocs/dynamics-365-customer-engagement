@@ -51,14 +51,14 @@ The following matrix explains the various aspects of versions 1.0 and 2.0.
 |Feature| Version 1.0 | Version 2.0 |
 |--------------------------------|---------------------------|-------------------------------|
 |Session| Single-session  | Multi-session|
-|Channel | Telephony, messaging (SMS), chat or custom channels | Telephony or custom messaging channels|
+|Channel | Telephony, messaging (SMS), chat or custom channels | Telephony channels|
 |Model-driven app | Dynamics 365 Customer Service <br> Dynamics 365 Sales <br> Dynamics 365 Project Service <br> Dynamics 365 Field Service | Omnichannel for Customer Service |
 |Communication panel | Right side | Left side |
 |Communication panel modes | Minimized <br> Expanded | Docked <br> Minimized <br> Hidden |
 |Features| Support for one channel provider at any time <br> Communication panel management |Support for multiple telephony channel providers <br> Communication panel management <br> Channel analytics <br> Notification management templates<br> Application tab management templates<br> Session management templates |
 
 > [!NOTE]
-> For information about how to integrate custom messaging channel providers, see [Bring your own channel](../../omnichannel/developer/how-to/bring-your-own-channel.md).
+> For information about how to integrate custom messaging channel providers with Omnichannel for Customer Service, see [Bring your own channel](../../omnichannel/developer/how-to/bring-your-own-channel.md).
 
 > [!div class="mx-imgBorder"]
 > ![Differences between versions 1.0 and 2.0](media/choose-between-version.png "Differences between versions 1.0 and 2.0")
