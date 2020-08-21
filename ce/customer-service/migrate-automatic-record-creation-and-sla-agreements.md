@@ -21,10 +21,7 @@ search.app:
 
 [!include[cc-early-access](../includes/cc-early-access.md)]
 
-The Dynamics 365 Customer Service Hub app has several features and functionalities that replace the rules in the legacy Customer Service app. The automatic record creation rules and service-level agreements (SLAs) are now supported by Power Automate-based flows to make the transition to the new platform easier to manage.
-
-
-<!-- editor question: What is the spelled-out name of ARC? -->
+The Dynamics 365 Customer Service Hub app has several features and functionalities that replace the rules in the legacy Customer Service app. The automatic record creation (ARC) rules and service-level agreements (SLAs) are now supported by Power Automate-based flows to make the transition to the new platform easier to manage.
 
 This topic provides an overview of the migration tool that allows legacy rules for ARC and SLAs to be transferred to the Customer Service Hub app for easier access.
 
