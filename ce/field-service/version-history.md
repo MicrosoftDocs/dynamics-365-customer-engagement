@@ -1,5 +1,6 @@
 ---
-title: "Field Service version history | MicrosoftDocs"
+title: "Dynamics 365 Field Service version history | MicrosoftDocs"
+description: Version history for Dynamics 365 Field Service
 ms.custom:
   - dyn365-fieldservice
 ms.date: 08/21/2020
