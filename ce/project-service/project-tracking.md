@@ -6,7 +6,7 @@ manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-projectservice
-ms.date: 08/13/2020
+ms.date: 08/21/2020
 ms.topic: article
 ms.prod: 
 ms.technology: 
@@ -64,21 +64,21 @@ Effort on summary tasks or container tasks can be reprojected. Regardless of whe
 
 ### Cost tracking view 
 
-The **Cost tracking** view compares the actual cost that was spent on a task to the planned cost on a task. 
+The **Cost tracking** view compares the actual cost that was spent on a task to the planned cost. 
 
 > [!NOTE]
 > This view shows only labor costs and doesn’t include costs from the expense estimates. 
 
-PSA uses the following formulas to calculate the tracking metrics:
+Project Service Automation uses the following formulas to calculate the tracking metrics:
 
-Initially on the task creation: Planned cost will be set to the Estimated cost at complete. Once Actuals are recorded on the task, the following will be calculation on the Tracking view for Cost
+When a task is created, the planned cost is equal to the estimated cost at complete. After actuals are recorded on the task, the following is calculated on the **Tracking** view for cost:
 
  - Percentage of cost consumed = Actual cost spent to date ÷ Estimated cost at complete for the task
  - Cost to complete (CTC) = Estimated cost at complete – Actual cost spent to date
  - Estimated cost at complete = CTC + Actual cost spent to date
  - Projected cost variance = Planned cost – Estimated cost at complete
 
-A projection of the cost variance is shown on the task. If the Estimated cost at complete is more than the planned cost, the task is projected to cost more than was originally planned. Therefore, it's trending over budget. If the Estimated cost at complete is less than the planned cost, the task is projected to cost less than was originally planned. Therefore, it's trending under budget.
+A projection of the cost variance is shown on the task. If the estimated cost at complete is more than the planned cost, the task is projected to cost more than was originally planned. Therefore, it's trending over budget. If the Estimated cost at complete is less than the planned cost, the task is projected to cost less than was originally planned and is trending under budget.
 
 ## Project manager’s reprojection of cost
 
