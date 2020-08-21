@@ -38,7 +38,7 @@ No, you can't import leads or accounts from Sales Navigator to Dynamics 365 Sale
 
 **Answer:**
 
-Because there's no change to functionality in version 3.x, we aren't upgrading. This will have no effect on your current solution (version 2.x).<!--Suggested.-->
+Because there's no change to functionality in version 3.x, we aren't upgrading. This will have no effect on your current solution (version 2.x).
 
 ### See also
 
