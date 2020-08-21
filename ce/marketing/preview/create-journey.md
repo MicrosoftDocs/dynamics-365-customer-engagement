@@ -12,7 +12,7 @@ robots: noindex,nofollow
 
 # Create a Dynamics 365 CXP journey
 
-Creating a journey in Dynamics 365 CXP is different experience than creating a journey in Dynamics 365 Marketing.
+Creating an event-based journey in Dynamics 365 CXP is different experience than creating a journey in Dynamics 365 Marketing.
 
 > [!IMPORTANT]
 > This article is pre-release documentation and is subject to change.

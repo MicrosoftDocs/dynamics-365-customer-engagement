@@ -24,9 +24,10 @@ Welcome to the Dynamics 365 CXP private preview documentation.
 
 ## How-tos
 
-- [Create a segment](create-segment.md)
+- [Import a segment](import-segment.md)
 - [Create a journey](create-journey.md)
 - [Experiment and refine the journey](experimentation.md)
+- [Gain insights through journey analytics](journey-analytics.md)
 
 ## Developer resources
 
@@ -35,6 +36,8 @@ Welcome to the Dynamics 365 CXP private preview documentation.
 
 ## GDPR requests and compliance
 
+- [Manage cookies and user consent](user-consent-storage.md)
+- [Delete and export user data](delete-export-data.md)
 
 ## Terms of service
 

@@ -12,7 +12,7 @@ robots: noindex,nofollow
 
 # Onboard to the Dynamics 365 CXP private preview
 
-This onboarding article describes Dynamics 365 CXP private preview product features, documentation, scenarios to validate, and known issues. This article also explains how to engage with Microsoft throughout the private preview. Nothing in this documentation is meant to—or should be construed to—modify the terms of your agreements with Microsoft, including your preview terms.
+This onboarding article describes Dynamics 365 CXP private preview product features, documentation, scenarios to validate, and known issues. This article also explains how to engage with Microsoft throughout the private preview. Nothing in this documentation is meant to—or should be construed to modify the terms of your agreements with Microsoft, including your preview terms.
 
 > [!IMPORTANT]
 > This article is pre-release documentation and is subject to change.

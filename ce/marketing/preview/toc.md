@@ -7,17 +7,18 @@
 # [Known issues](known-issues.md)
 
 # How-tos
-## [How to 1]
-## [How to 2]
-## [How to 3]
+## [Import a segment](import-segment.md)
+## [Create a journey](create-journey.md)
+## [Experiment and refine the journey](experimentation.md)
+## [Gain insights through journey analytics](journey-analytics.md)
 
 # Developer resources
-## [Resource 1]
-## [Resource 2]
+## [Web SDK tutorial](get-started-websdk.md)
+## [Web SDK sample](websdk-sample.md)
 
 # GDPR requests and compliance
-## [GDPR 1]
-## [GDPR 2]
+## [Manage cookies and user consent](user-consent-storage.md)
+## [Delete and export user data](delete-export-data.md)
 
 # [Preview terms of service](preview-terms-of-service.md)
 
