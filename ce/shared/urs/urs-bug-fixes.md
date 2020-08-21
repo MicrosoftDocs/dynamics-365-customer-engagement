@@ -1,3 +1,18 @@
+## Version 3.12.25.5
+
+- On the Daily view mode of the Schedule Assistant, when **Ignore Duration** advanced setting is selected, all eligible Resources were not returned regardless of their availability. This bug is now fixed in this update. 
+- Fixed a bug where Quick Book is used on a Requirement Group, and Resources work in a different Timezone than the Timezone of the Calendar of the Requirements in the group, only a part of the available timeslots were returned. With the fix, all available timeslots are returned in this scenario. 
+- When searching for Resources in the Daily View of the Schedule Board, Once the searched Resources are returned, Bookings of the Resources are not returned on the center area, until the board is refreshed. This bug is now fixed in this update. 
+- When a Default search radius unit of Kilometers (KM) is used and no available resources are returned, the Schedule Assistant crashes. This bug is now fixed, and the Users would be able to expand the filter panel, even when no Resources were returned to change the filters on the Filter pane. 
+- When Quick Book is used on a Workorder with an associated Requirement Group, and a Resource is booked, **Booking Status selected is invalid for Work Order** error is thrown. This issue is now fixed. 
+- When looking for available resources on a Service Activity record and **Least Busy** sort is selected, no available Resources were returned, this bug is now fixed on the Schedule Assistant. 
+- Quick Book will honor the Default Resource Search Radius defined on the Booking setup metadata record of the Schedulable entity (Ex., Workorder, Case, Resource Requirement, etc.).
+- When any changes are made to a Booking (like moving the booking, re-assigning the Booking), the custom Booking Rules defined by the user would get triggered. But extending an existing Booking does not trigger the Booking rule. This bug is now fixed. 
+- When Fulfilment Preferences (Intervals) are used with a requirement Group, the Start Date of the Schedule Assistant filter pane is populated incorrectly, which is now fixed in the update. 
+- Schedule Board center area grid is misaligned when browser zoom is changed to 80 % or 110% on Edge and Chrome browsers. With this fix, the misalignment of the grid is fixed. 
+- Fixed a bug where a Custom entity cannot be enabled for Scheduling, when the name of the entity has more than 100 characters. With this fix, any entity with entity name more than 100 characters can also be enabled for scheduling. 
+
+
 ## Version 3.12.29.5 (2020 wave 2 early access)
 
 The release is only applied when an environment is opted into early access and introduces the [resource scheduling 2020 wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/service/dynamics365-field-service/planned-features#scheduling) new and updated features.
