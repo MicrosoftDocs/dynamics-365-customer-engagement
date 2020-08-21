@@ -62,19 +62,33 @@ manager: shujoshi
     - For incomplete or failed migration rules: Reselect the same rule when you rerun the migration tool. It automatically replaces the existing failed or incomplete rule with the newly migrated one.
     - For successfully migrated rules: Delete the migrated rule in the Unified Interface version before rerunning the migration tool.
 
-#### Known condition conversions issues
+
+<!-- editor comment: I changed the following heading level to a 2 so that it shows up in the side navigation. I also restarted the numbering because this is a new section. -->
+
+
+## Known condition conversions issues
 
 The following are key scenarios where rules/items will not successfully complete migration:
 
-11.	**If my rule items/conditions have related entities inside nested group clause (and/or), will they be migrated to the Unified Client Interface (UCI)?**<br />
-    No. We currently only support one level of the related entity hierarchy. For such rule items/conditions to successfully migrate, you need to remove any related entity in group clause pre-migration. If you don't take any action, the rule will fail during the **Pre-migration checkup** step, and if you then choose to continue with the migration, the rule will have an empty condition for the respective item.<br /><br />
-**Example**<br />
-**Pre-migration view:**<br />
-![Web View](media\migration-tool-11-a.png)<br />
-**a.**	Pre-migration Web Client View <br /><br />
-**Post migration UCI View:** <br />
-![UCI View](media\migration-tool-11-b.png)
-**2a.** The migrated item title changes to **_FailedMigration** appended. <br />**2b.** The same standard placeholder **Created On equals 2200-01-01** is added to the condition.
+1.	**If my rule items or conditions have related entities inside a nested group clause (and/or), will they be migrated to Unified Interface?**
+
+    No. We currently only support one level of the related entity hierarchy. For such rule items or conditions to successfully migrate, you need to remove any related entity in group clause premigration. If you don't take any action, the rule will fail during the **Premigration checkup** step, and if you then choose to continue with the migration, the rule will have an empty condition for the respective item.
+    
+  **Example: Premigration view**
+  
+  **a.**	Premigration web client view 
+
+  ![Web view](media/migration-tool-11-a.png "Web view")
+    
+  **Post migration Unified Interface view** 
+  
+  **2a.** The migrated item title changes to **\_FailedMigration** appended. 
+  **2b.** The same standard placeholder **Created On equals 2200-01-01** is added to the condition.
+
+
+<!-- editor comment: The text in the image should be Unified Interface, not UCI. We don't use UCI any more. -->
+
+  ![Unified Interface view](media/migration-tool-11-b.png "Unified Interface view")
 
 12.	**Why do my rule items/conditions with a DateType field that uses a "not on" operator fail during the pre-migration checkup and actual migration?**<br />
     The **Not on** operator for the **Date** data type is not supported in the Unified Client Interface (UCI), and therefore is not supported as part of migration. To fix this issue, you can change the legacy items/conditions from **{not-on selecteddate}** to **{selecteddate less than and selecteddate greater than}** in the web client before rerunning the migration tool for the respective rule.<br /><br />
