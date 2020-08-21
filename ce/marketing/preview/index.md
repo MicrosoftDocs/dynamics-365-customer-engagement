@@ -4,7 +4,7 @@ description: "Preview documentation detailing how to use Dynamics 365 CXP featur
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.date: 08/20/2020
+ms.date: 08/21/2020
 ms.service: marketing
 ms.topic: conceptual
 robots: noindex,nofollow
@@ -24,11 +24,14 @@ Welcome to the Dynamics 365 CXP private preview documentation.
 
 ## How-tos
 
-
+- [Create a segment](create-segment.md)
+- [Create a journey](create-journey.md)
+- [Experiment and refine the journey](experimentation.md)
 
 ## Developer resources
 
-
+- [Web SDK tutorial](get-started-websdk.md)
+- [Web SDK sample](websdk-sample.md)
 
 ## GDPR requests and compliance
 
