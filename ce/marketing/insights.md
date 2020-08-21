@@ -2,7 +2,7 @@
 title: "Analyze marketing results and gain insights (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to find and interpret marketing results, KPIs, and analytics in Dynamics 365 Marketing"
 keywords: insights;results;KPIs;analytics
-ms.date: 07/01/2020
+ms.date: 08/19/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -122,15 +122,22 @@ Customer journeys provide three [categories of insights](#categories): **Designe
 
 ### Designer insights
 
-For live journeys, the **Designer** tab is a read-only version of your journey pipeline. It looks the same here as when you were designing the journey, but now it presents results and doesn't include a toolbox or editing controls. Above each tile, you can see an overview of how contacts flowed through that tile, as shown in the following illustration. By inspecting these values, you can get a quick overview of how your various contacts flowed through the structure, which path they chose, and which problems they may have had. (Each of these KPIs is also shown in the **Data** panel when a tile is selected.)
+For live journeys, the **Designer** tab is a read-only version of your journey pipeline. It looks the same here as when you were designing the journey, but now it presents results and doesn't include a toolbox or editing controls. Above each tile, you can see an overview of how contacts flowed through that tile, as shown in the following illustration. By inspecting these values, you can get a quick overview of how your various contacts flowed through the structure, which path they chose, and which problems they may have had. (Each of these KPIs is also shown in the **Data** panel when a tile is selected.) 
 
-![Contact flow KPIs in the insights view of the customer journey pipeline](media/insights-tile-kpis.png "Contact flow KPIs in the insights view of the customer journey pipeline")
+Below email tiles, you'll see the dependencies for the email.
+
+![Contact flow KPIs in the insights view of the customer journey pipeline](media/insights-tile-kpis1.png "Contact flow KPIs in the insights view of the customer journey pipeline")
 
 Legend:
 
-1. **Inflow** ![Inflow KPI icon](media/tile-kpi-inflow-icon.png "Inflow KPI icon"): Shows the number of contacts who entered this tile.
-1. **Processing** ![Failed KPI icon](media/tile-kpi-processing-icon.png "Failed KPI icon"): Shows the number of contacts that are still being processed by this tile. For example, they may be waiting on a trigger tile until the trigger condition (or timeout period) is met.
-1. **Stopped** ![Stopped KPI icon](media/tile-kpi-blocked-icon.png "Stopped KPI icon"): Shows the number of contacts that were stopped from continuing the journey at this tile. There are two main reasons that a contact might get stopped: they got added to the journey's suppression segment, or they lowered their consent level below the minimum threshold set for the journey.
+1. **Inflow**: Shows the number of contacts who entered this tile.
+1. **Processing**: Shows the number of contacts that are still being processed by this tile. For example, they may be waiting on a trigger tile until the trigger condition (or timeout period) is met.
+1. **Stopped**: Shows the number of contacts that were stopped from continuing the journey at this tile. There are two main reasons that a contact might get stopped: they got added to the journey's suppression segment, or they lowered their consent level below the minimum threshold set for the journey.
+1. **Marketing page**: Shows a marketing page dependency.
+1. **Event**: Shows an event dependency.
+1. **Voice of the Customer survey**: Shows a Voice of the Customer survey dependency.
+1. **Customer Voice survey**: Shows a Customer Voice survey dependency.
+1. **Marketing form**: Shows a marketing form dependency.
 
 For even more information about what happened on a tile, select it from the pipeline and look at the **Data** panel. The information shown here depends on the tile type.
 

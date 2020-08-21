@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 applies_to: 
-ms.date: 06/22/2020
+ms.date: 08/18/2020
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ---
@@ -37,7 +37,7 @@ Perform the following steps to assign roles to users in the **Advanced Settings*
 
 2. Select **Settings** > **Security** > **Users**.
 
-3. Select the user or users from the list for whom you want to assign a security role.
+3. Select the users from the list for whom you want to assign a security role.
 
 4. Select **Manage Roles** in the menu. The security roles available for the business unit are displayed.
 
@@ -62,6 +62,7 @@ Each role in Omnichannel for Customer Service can perform a set of actions based
 | Can add/edit/delete channel settings, context settings, routing rules | Yes |||||
 | Can add/edit/delete queues | Yes |||||
 | Can add/remove agents from queue | Yes | Yes ||||
+| Can add/edit/delete bots | Yes |||||
 | Can view/add/edit/delete quick replies | Yes | Yes ||||
 | Can add/edit/delete PBI config | Yes |||||
 | Can view/add/edit/delete operating hours | Yes |||||
@@ -92,4 +93,4 @@ Each role in Omnichannel for Customer Service can perform a set of actions based
 [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)  
 [Manage users in Omnichannel for Customer Service](users-user-profiles.md)  
 [Guide agents with scripts](agent-scripts.md)  
-[Automate tasks with macros](macros.md)
+[Automate tasks with macros](macros.md)  

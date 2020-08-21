@@ -4,7 +4,7 @@ description: Overview of the Customer Service Workspace application for Dynamics
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
-ms.date: 08/03/2020
+ms.date: 08/20/2020
 ms.topic: article 
 ms.service: 
   - dynamics-365-customerservice
@@ -29,7 +29,7 @@ search.app:
 > - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
 > - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../legal/supp-dynamics365-preview.md).
 
-Welcome to the Customer Service workspace app module where we're increasing agent productivity for core customer service with the ability to work on multiple sessions at a time in a single workspace experience. And in the future, should your business choose to expand your customer service offering to provide chat and channels, the Customer Service workspace seamlessly adjusts to support managing conversations as well (Public Preview 09/01/2020).
+Welcome to the Customer Service workspace app module, where we're increasing agent productivity for core customer service with the ability to work on multiple sessions at a time in a single workspace experience. And in the future, should your business choose to expand your customer service offering to provide chat and channels, the Customer Service workspace seamlessly adjusts to support managing conversations as well (Public Preview 09/01/2020).
 
 If you have used Customer Service Hub or Omnichannel for Customer Service before, much of the behavior for managing cases and activities in the Customer Service workspace app module works the same way with some exceptions to accommodate the multisession and conversation capabilities. In this article, we'll walk you through the Customer Service workspace experience and explain how to navigate.
 
@@ -37,7 +37,7 @@ Before we dive in, a quick note about administration of Customer Service workspa
 
 ## Introduction to Customer Service workspace
 
-You can access Customer Service workspace through the app selector where you find all of your other Dynamics 365 apps by choosing the Customer Service workspace app tile. You can also access the app in the Dynamics 365 drop-down navigation in the upper-left corner of Dynamics 365.
+You can access Customer Service workspace through the app selector (where you find all of your other Dynamics 365 apps) by choosing the Customer Service workspace app tile. You can also access the app in the Dynamics 365 drop-down navigation in the upper-left corner of Dynamics 365.
 
 :::image type="content" source="media/appSelectorAndNavigation.png" alt-text="Open Customer Service workspace" border="false":::
 
@@ -63,11 +63,11 @@ Let's explore the elements of the Customer Service workspace and how to navigate
 
 ### Viewing and editing records
 
-There are new navigation behaviors to be aware of in Customer Service workspace. All other basic model driven app functionality behaves the same way as in the Customer Service Hub and Omnichannel for Customer Service apps.
+There are new navigation behaviors to be aware of in Customer Service workspace. All other basic model-driven app functionality behaves the same way as it does in the Customer Service Hub and Omnichannel for Customer Service apps.
 
 - Select Shift + mouse click to open a new session tab for the record you want to open. 
 - Selecting the record replaces your view with the form for the record you opened. 
-- Select the back arrow in the upper left corner of the form to get back to your previous view. 
+- Select the back arrow in the upper-left corner of the form to get back to your previous view. 
 - Select Ctrl + mouse click to open items in a new tab. 
 
 ### Work with cases
@@ -78,13 +78,13 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 
 |Label | Description|
 |------------ | -------------|
-1 | Select multiple cases to work with. Select the top check mark to select all cases, or select individual check boxes next to each case to select a specific group of cases.
-2 | Associate child cases with selected cases. 
-3 | Merge cases together. 
-4 | Edit selected cases. 
-5 | Delete selected cases. 
-6 | Apply a routing rule to route cases to a queue. 
-7 | Open the menu for additional actions including Assign, Add to Queue, Run Report, Email a Link, Share, Follow, or Unfollow cases. 
+| 1 | Select multiple cases to work with. Select the top check mark to select all cases, or select individual check boxes next to each case to select a specific group of cases.
+| 2 | Associate child cases with selected cases. 
+| 3 | Merge cases together. 
+| 4 | Edit selected cases. 
+| 5 | Delete selected cases. 
+| 6 | Apply a routing rule to route cases to a queue. 
+| 7 | Open the menu for additional actions including Assign, Add to Queue, Run Report, Email a Link, Share, Follow, or Unfollow cases. 
 |
 
 #### Editing case data
@@ -95,9 +95,9 @@ Let's explore the fields you can edit on the **Case Summary** tab:
 
 | Label | Description |
 | ------------ | ------------- |
-| 1 | In the Case Details you can update the Case Title, Customer, Subject, Priority, Case Status, Product, and Description
+| 1 | In the Case Details, you can update the Case Title, Customer, Subject, Priority, Case Status, Product, and Description.
 | 2 | These are attributes that are set when the case is created by the system including Case Number, Origin, and Created On Date that won't change. You can change the case owner here.
-| 3 | Click the + on the Timeline to expand the menu of Timeline actions. 
+| 3 | Select the plus sign (+) on the timeline to expand the menu of timeline actions. 
 |
 Let's explore the fields you can edit on the **Case Additional Details** tab:
 
@@ -105,12 +105,12 @@ Let's explore the fields you can edit on the **Case Additional Details** tab:
 
 | Label | Description |
 | ------------ | ------------- |
-1 | You can set Service Level Agreement (SLA) attributes on the case so that customer support managers can measure the overall success of the support organization against its goals of meeting customer Service Level Agreements.
-2 | Associate a Parent Case, classify the Type of case, and apply a support Entitlement. 
-3 | Sort, and export the list of Associated Knowledge Articles.
-4 | View and export the list of Similar Cases.
-5 | View, add associations, and export Child Cases. 
-6 | View and export the list of Merged Cases.
+| 1 | You can set Service Level Agreement (SLA) attributes on the case so that customer support managers can measure the overall success of the support organization against its goals of meeting customer Service Level Agreements.
+| 2 | Associate a Parent Case, classify the Type of case, and apply a support Entitlement. 
+| 3 | Sort and export the list of Associated Knowledge Articles.
+| 4 | View and export the list of Similar Cases.
+| 5 | View, add associations, and export Child Cases. 
+| 6 | View and export the list of Merged Cases.
 |
 
 ### Work with activities
@@ -121,10 +121,10 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 
 | Label | Description|
 ------------ | -------------
-1 | Select multiple activities to work with. Click the top check mark to select all or individual check boxes next to each activity to select a specific group of activities.
-2 | Edit selected activities. 
-3 | Delete selected cases. 
-4 | Open the menu for additional actions including Mark Complete, Cancel, Set Regarding, Assign, Email a Link, Add to Queue, Run Report. 
+| 1 | Select multiple activities to work with. Select the top check mark to choose all, or select individual check boxes next to each activity to select a specific group of activities.
+| 2 | Edit selected activities. 
+| 3 | Delete selected cases. 
+| 4 | Open the menu for additional actions including Mark Complete, Cancel, Set Regarding, Assign, Email a Link, Add to Queue, Run Report. 
 |
 
 ### Create and search knowledge articles
@@ -136,7 +136,7 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 
 |Label | Description|
 |------------ | -------------|
-| 1 | Select the + icon to expand the tab menu.|
+| 1 | Select the plus sign (+) to expand the tab menu.|
 | 2 | Select Knowledge Article or Knowledge Search. You can also create and manage knowledge articles in other ways. For more information, see [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md).|
 |
 
@@ -148,10 +148,10 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 
 :::image type="content" source="media/email-csw.png" alt-text="Customer Service workspace email" border="false":::
 
-Label | Description
------------- | -------------
-1 | Select the + icon to expand the tab menu 
-2 | Select Email Templates and Email Signatures.
+| Label | Description
+| ------------ | -------------
+| 1 | Select the plus sign (+) to expand the tab menu. 
+| 2 | Select Email Templates and Email Signatures.
 |
 
 ### Productivity pane with Smart Assist
