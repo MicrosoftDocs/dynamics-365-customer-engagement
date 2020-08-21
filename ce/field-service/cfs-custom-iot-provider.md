@@ -92,7 +92,7 @@ The IoT settings entity now has an option to choose a default IoT provider insta
 
 When you create a custom IoT provider, you'll specify a set of actions associated with that providers. Actions in Dynamics 365 are custom code that will run when you invoke them. For more information, see [this article on custom actions in Dynamics 365](https://docs.microsoft.com/powerapps/developer/common-data-service/custom-actions).
 
-For example, if you specify ```msdyn_MockProviderPullDeviceDataAction``` as the action for "Pull device data" in your provider, CFS will look for an action with the name ```msdyn_MockProviderPullDeviceDataAction``` and run that action's code when a user selects the **Pull device data** button in Connected Field Service.
+For example, if you specify ```msdyn_MockProviderPullDeviceDataAction``` as the action for "Pull device data" in your provider, CFS will look for an action with the name ```msdyn_MockProviderPullDeviceDataAction``` and run that action's code when a user clicks the **Pull device data** button on the asset or device form or views in Connected Field Service.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the IoT settings in Field Service.](./media/custom-iot-provider-fields.png)
@@ -117,7 +117,7 @@ This action supports multiple devices, so the input needs to be sent as an **Ent
 |---------------------|--------|-----------------------|
 | EntityCollection          | EntityCollection |                                                          |
 
-| Parameters for entity collection  | Type   | Details |
+| Entity collection properties  | Type   | Details |
 |-------------------|--------|-------------------------------------------------------------|
 | msdyn_iotdeviceid | string | Identifier of the device (msdyn_iotdevice) within CFS. Note that this will be a Guid that needs to be converted to string. For example: “6a5457d1-9373-ea11-a811-000d3af70aa4” |
 | msdyn_name        | string | Name of the device.                                                                                                                                        |
@@ -149,11 +149,11 @@ Here is a sample input:
 
 Here are the output parameters for this action. The following parameters are returned in serialized JSON format as part of the action results.
 
-| JSON Details        | Type     | Details                                                                                                                                                        |
+| JSON properties        | Type     | Details                                                                                                                                                        |
 |----------------------------|----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ID                         | string   | Identifier of the device (msdyn_iotdevice) within CFS. Note that this will be a Guid that needs to be converted to string. For example: “6a5457d1-9373-ea11-a811-000d3af70aa4”                                                                                                                              |
-| ConnectionState            | string   | Indicates whether the device is "Disconnected" or "Connected."                                                                                               |
-| ConnectionStateUpdatedTime | datetime | Updated time of the connection state from the IoT. provider                                                                                                     |
+| ConnectionState            | bool   | Indicates whether the device is Disconnected (false) or Connected (true).                                                                                               |
+| ConnectionStateUpdatedTime | datetime | Updated time of the connection state from the IoT provider                                                                                                     |
 | DeviceReportedProperties   | string   | Various reported properties of the devices formatted in a JSON string. For example: </br> {"temperature":35.6366305680316, </br> "humidity":18.3333366666} |
 | LastActivityTime           | datetime | Last time of reported activity of the device.                                                                                                                  |
 
@@ -186,7 +186,7 @@ Here is a sample output:
 }
 ```
 
-The result of pulling device data will appear in the device data history tab.
+The result of pulling device data will appear in the device data history tab and will update the properties on the device.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the device data history.](./media/custom-iot-device-data-history.png)
@@ -203,7 +203,7 @@ Here are the input parameters for this action. Since this action supports multip
 
 Here are the input parameters for this action. Since this action supports multiple devices, the parameters need to be sent as EntityCollection.
 
-| Input Parameters | 	Type  | Details | 
+| Entity collection properties | 	Type  | Details | 
 | -- | -- | -- | 
 | msdyn_iotdeviceid	| string	| Identifier of the device (msdyn_iotdevice) within CFS. Note that this will be a Guid that needs to be converted to string. For example: “6a5457d1-9373-ea11-a811-000d3af70aa4”
 | msdyn_name	| string	| Name of the device.| 
@@ -212,21 +212,20 @@ Here are the input parameters for this action. Since this action supports multip
 Input sample:
 
 ```
+{
+  "EntityCollection": [
     {
-	"EntityCollection":[
-	    {
-		"msdyn_iotdeviceid":"5754578D-1F9A-4720-BC21-3C3042C05B2F",
-		"msdyn_name":"Coffee maker 1",
-		"@odata.type":"Microsoft.Dynamics.CRM.msdyn_iotdevice"
-	    },
-	    {
-	    "msdyn_iotdeviceid":"5754578D-1F9A-4720-BC21-3C3042C06C5F",
-		"msdyn_name":"Coffee maker 2",
-		"@odata.type":"Microsoft.Dynamics.CRM.msdyn_iotdevice"
-	    }
-        ]
+      "msdyn_iotdeviceid": "5754578D-1F9A-4720-BC21-3C3042C05B2F",
+      "msdyn_name": "Coffee maker 1",
+      "@odata.type": "Microsoft.Dynamics.CRM.msdyn_iotdevice"
+    },
+    {
+      "msdyn_iotdeviceid": "5754578D-1F9A-4720-BC21-3C3042C06C5F",
+      "msdyn_name": "Coffee maker 2",
+      "@odata.type": "Microsoft.Dynamics.CRM.msdyn_iotdevice"
     }
-
+  ]
+}
 ```
 
 Here are the output parameters for this action. The below parameters are returned in serialized JSON format as part of the action results.
@@ -235,10 +234,10 @@ Here are the output parameters for this action. The below parameters are returne
 |---------------------|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |RegistrationResultsJSON         | String | 
 
-| JSON Details  | Type      | Details                                                                                                                                                                                                                                                                                                                                                                                                    |
+| JSON properties  | Type      | Details                                                                                                                                                                                                                                                                                                                                                                                                    |
 |----------------------|-----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ID           | string    | Identifier of the device in CFS.                                                                                                                                                                                                                                                                                                                                                                           |
-| RegistrationStatus   | OptionSet | This identifies the status of the registration from the IoT provider back to CFS. The values and their labels for this option set are: </br> - 192350000: Unknown </br> - 192350001: Unregistered </br> - 192350002: In progress </br> - 192350003: Registered </br> - 192350004: Error </br> Note: OptionSet is a list of defined options with label-value mapping like a dropdown box control.  |
+| RegistrationStatus   | OptionSetValue | This identifies the status of the registration from the IoT provider back to CFS. The values and their labels for this option set are: </br> - 192350000: Unknown </br> - 192350001: Unregistered </br> - 192350002: In progress </br> - 192350003: Registered </br> - 192350004: Error </br> Note: OptionSet is a list of defined options with label-value mapping like a dropdown box control.  |
 | DeviceId    | string    | Identifier of the device within the IoT provider system. This may be different from the ID output parameter.                                                                                                                                                                                                                                                                                             |
 | Message  | string    | Any detailed message regarding the registration to the CFS user. |
 
@@ -249,21 +248,21 @@ Here is some sample output:
    "RegistrationResultsJSON":[
       {
          "Id":"5754578D-1F9A-4720-BC21-3C3042C05B2F",
-         "RegistrationStatus":"Registered",
+         "RegistrationStatus":{"Value":192350003},
          "DeviceId":"DeviceIdFromThirdPartyOrUserDefined",
-         "Message":"Registration info/waring/error message"   
+         "Message":"Registration info/warning/error message"   
       },
       {
          "Id":"5754578D-1F9A-4720-BC21-3C3042C06C5F",
-         "RegistrationStatus":"Registered",
+         "RegistrationStatus":{"Value":192350003},
          "DeviceId":"DeviceIdFromThirdPartyOrUserDefined",
-         "Message":"Registration info/waring/error message"   
+         "Message":"Registration info/warning/error message"   
       }   
   ]
 }
 ```
 
-Once you've successfully registered a device, you can see it in the registration history, as seen in the following screenshot.
+Once you've successfully registered a device, you can see it in the registration history, as seen in the following screenshot as well as on the device record itself.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an IoT device in Field Service, showing registration history.](./media/custom-iot-registration-history.png)
@@ -355,58 +354,55 @@ Here are the output parameters for this action. The below parameters are returne
 |AggregatedDeviceReadings         | String | 
 
 
-| JSON Details  | Type   | Details                                                                                                                                                                                                                                                      |
-|----------------------|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| DeviceName           | string | Name of the device to be displayed in the chart                                                                                                                                                                                                            |
-| Measurements         | string | JSON representation of the various aggregate measurements as shown in the below example. Individual aggregates are of type double.   </br>Each measurement is displayed as a separate line chart in the device readings control (previous screenshot). |
+
 
 Here is some sample output:
 
 ```
-
-[
-    {
-        "HVAC Unit 123": {
-            "Temperature": {
-                "2017-04-01T06:00:00Z": {
-                    "min": -29,
-                    "max": 62.59,
-                    "avg": 16.89,
-                    "sum": 4054.14,
-                    "count": 240
-                },
-                "2017-04-01T08:00:00Z": {
-                    "min": -29,
-                    "max": 62.59,
-                    "avg": 16.89,
-                    "sum": 4054.14,
-                    "count": 480
-                }
-            },
-            "Humidity": {
-                "2017-04-01T06:00:00Z": {
-                    "min": 10,
-                    "max": 48.30,
-                    "avg": 29.25,
-                    "sum": 7020.62,
-                    "count": 240
-                },
-                "2017-04-01T08:00:00Z": {
-                    "min": 10,
-                    "max": 48.30,
-                    "avg": 29.25,
-                    "sum": 7020.62,
-                    "count": 480
-                }
-            }
-        }
+   
+{
+  "HVAC Unit 123": {
+    "Temperature": {
+      "2017-04-01T06:00:00Z": {
+        "min": -29,
+        "max": 62.59,
+        "avg": 16.89,
+        "sum": 4054.14,
+        "count": 240
+      },
+      "2017-04-01T08:00:00Z": {
+        "min": -29,
+        "max": 62.59,
+        "avg": 16.89,
+        "sum": 4054.14,
+        "count": 480
+      }
+    },
+    "Humidity": {
+      "2017-04-01T06:00:00Z": {
+        "min": 10,
+        "max": 48.3,
+        "avg": 29.25,
+        "sum": 7020.62,
+        "count": 240
+      },
+      "2017-04-01T08:00:00Z": {
+        "min": 10,
+        "max": 48.3,
+        "avg": 29.25,
+        "sum": 7020.62,
+        "count": 480
+      }
     }
-]
+  }
+}    
 ```
+> [!Note]
+> Individual aggregates are of type double.
 
 ### Device Readings – Events
 
-The device readings control in Connected Field Service also allows IoT Providers to plot discrete events from service history, such as the creation and closure of work orders, scheduled start and end of bookings, and much more. For example, the following screenshot shows the out-of-the-box work order events as "pins" at the bottom of the chart. You do not need to create a **new** action. Rather, you can register a custom plugin on the ```msdyn_IoTGetDeviceEvents``` action, similar to how you can create plugins for create events. 
+The device readings control in Connected Field Service also allows IoT Providers to plot discrete events from service history, such as the creation and closure of work orders, scheduled start and end of bookings, and much more. For example, the following screenshot shows the out-of-the-box work order events as "pins" at the bottom of the chart. You can include any custom entities such as the last time you performed an asset upgrade. You do not need to create a **new** action. Rather, you can register a custom plugin on the ```msdyn_IoTGetDeviceEvents``` action, similar to how you can create plugins for create events. 
 
 For more information, see the [article on events in CDS](https://docs.microsoft.com/powerapps/developer/common-data-service/event-framework).
 
@@ -429,7 +425,7 @@ Here are the output parameters for this action. The below parameters are returne
 
 Here are the output parameters for this event.
 
-| JSON Details  | Type   | Details                                                                                                                                                                                |
+| JSON properties  | Type   | Details                                                                                                                                                                                |
 |----------------------|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | EventsName        | string | Short description for the category of events. This description will be displayed in the device readings control allowing users to enable and disable events under that event name. For example, you can categorize events into Asset Events and Service events. Users will see two rows of pins on the device readings chart and can enable and disable either row.             |
 | Timestamp            | string | Discrete timestamp of the event formatted as a string in ISO format. This will be the x-axis timestamp for the event pin. For example: "2019-08-07T19:14:53Z"                      |
@@ -444,41 +440,41 @@ And here is some sample code:
 
 ```
 {
-    {
-                "Service History": {
-                    "2019-08-07T19:14:53Z": {
-                        "color": "#FF6300",
-                        "description": "Work Order Created",
-                        "id": "00001",
-                        "entity": "msdyn_workorder",
-                        "url": "",
-                        "guid": "952a7592-8818-ea11-a811-000d3a5466d7"
-                    },
-                    "2019-08-08T19:14:53Z": {
-                        "color": "#ECC5AC";
-                        "description": "Work Order Created",
-                        "id": "00002",
-                        "entity": "msdyn_workorder",
-                        "url": "",
-                        "guid": "952a7592-8818-ea11-a811-000d3a5466d9"
-                    },
-                    "2019-09-21T09:34:53Z": {
-                        "color": "#ECC5AC";
-                        "description": "Case Created",
-                        "id": "000121",
-                        "entity": "msdyn_incident",
-                        "url": "",
-                        "guid": "952a7592-8818-ea11-a811-000d3a5466d0"
-                    }
-                            "Asset History": {
-                                "2019-08-07T19:14:53Z": {
-                        "color": "#FF6400",
-                        "description": "Asset Model Upgraded",
-                        "id": "001223",
-                        "entity": "new_assetupgraded",
-                        "url": "",
-                        "guid": "952a7592-8818-ea11-a811-000d3a5466d7"
-                    },
-                }
-            }
+  "Service History": {
+    "2019-08-07T19:14:53Z": {
+      "color": "#FF6300",
+      "description": "Work Order Created",
+      "id": "00001",
+      "entity": "msdyn_workorder",
+      "url": "",
+      "guid": "952a7592-8818-ea11-a811-000d3a5466d7"
+    },
+    "2019-08-08T19:14:53Z": {
+      "color": "#ECC5AC",
+      "description": "Work Order Created",
+      "id": "00002",
+      "entity": "msdyn_workorder",
+      "url": "",
+      "guid": "952a7592-8818-ea11-a811-000d3a5466d9"
+    },
+    "2019-09-21T09:34:53Z": {
+      "color": "#ECC5AC",
+      "description": "Case Created",
+      "id": "000121",
+      "entity": "msdyn_incident",
+      "url": "",
+      "guid": "952a7592-8818-ea11-a811-000d3a5466d0"
+    }
+  },
+  "Asset History": {
+    "2019-08-07T19:14:53Z": {
+      "color": "#FF6400",
+      "description": "Asset Model Upgraded",
+      "id": "001223",
+      "entity": "new_assetupgraded",
+      "url": "",
+      "guid": "952a7592-8818-ea11-a811-000d3a5466d7"
+    }
+  }
+}
 ```
