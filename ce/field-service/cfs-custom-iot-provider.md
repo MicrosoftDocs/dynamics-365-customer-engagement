@@ -237,7 +237,7 @@ Here are the output parameters for this action. The below parameters are returne
 | JSON properties  | Type      | Details                                                                                                                                                                                                                                                                                                                                                                                                    |
 |----------------------|-----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ID           | string    | Identifier of the device in CFS.                                                                                                                                                                                                                                                                                                                                                                           |
-| RegistrationStatus   | OptionSet | This identifies the status of the registration from the IoT provider back to CFS. The values and their labels for this option set are: </br> - 192350000: Unknown </br> - 192350001: Unregistered </br> - 192350002: In progress </br> - 192350003: Registered </br> - 192350004: Error </br> Note: OptionSet is a list of defined options with label-value mapping like a dropdown box control.  |
+| RegistrationStatus   | OptionSetValue | This identifies the status of the registration from the IoT provider back to CFS. The values and their labels for this option set are: </br> - 192350000: Unknown </br> - 192350001: Unregistered </br> - 192350002: In progress </br> - 192350003: Registered </br> - 192350004: Error </br> Note: OptionSet is a list of defined options with label-value mapping like a dropdown box control.  |
 | DeviceId    | string    | Identifier of the device within the IoT provider system. This may be different from the ID output parameter.                                                                                                                                                                                                                                                                                             |
 | Message  | string    | Any detailed message regarding the registration to the CFS user. |
 
@@ -248,13 +248,13 @@ Here is some sample output:
    "RegistrationResultsJSON":[
       {
          "Id":"5754578D-1F9A-4720-BC21-3C3042C05B2F",
-         "RegistrationStatus":"Registered",
+         "RegistrationStatus":"192350003",
          "DeviceId":"DeviceIdFromThirdPartyOrUserDefined",
          "Message":"Registration info/warning/error message"   
       },
       {
          "Id":"5754578D-1F9A-4720-BC21-3C3042C06C5F",
-         "RegistrationStatus":"Registered",
+         "RegistrationStatus":"192350003",
          "DeviceId":"DeviceIdFromThirdPartyOrUserDefined",
          "Message":"Registration info/warning/error message"   
       }   
