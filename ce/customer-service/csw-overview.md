@@ -95,9 +95,9 @@ Let's explore the fields you can edit on the **Case Summary** tab:
 
 | Label | Description |
 | ------------ | ------------- |
-1 | In the Case Details you can update the Case Title, Customer, Subject, Priority, Case Status, Product, and Description
-2 | These are attributes that are set when the case is created by the system including Case Number, Origin, and Created On Date that won't change. You can change the case owner here.
-3 | Click the + on the Timeline to expand the menu of Timeline actions. 
+| 1 | In the Case Details you can update the Case Title, Customer, Subject, Priority, Case Status, Product, and Description
+| 2 | These are attributes that are set when the case is created by the system including Case Number, Origin, and Created On Date that won't change. You can change the case owner here.
+| 3 | Click the + on the Timeline to expand the menu of Timeline actions. 
 |
 Let's explore the fields you can edit on the **Case Additional Details** tab:
 
