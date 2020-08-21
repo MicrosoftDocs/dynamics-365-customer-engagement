@@ -248,13 +248,13 @@ Here is some sample output:
    "RegistrationResultsJSON":[
       {
          "Id":"5754578D-1F9A-4720-BC21-3C3042C05B2F",
-         "RegistrationStatus":"192350003",
+         "RegistrationStatus":{"Value":192350003},
          "DeviceId":"DeviceIdFromThirdPartyOrUserDefined",
          "Message":"Registration info/warning/error message"   
       },
       {
          "Id":"5754578D-1F9A-4720-BC21-3C3042C06C5F",
-         "RegistrationStatus":"192350003",
+         "RegistrationStatus":{"Value":192350003},
          "DeviceId":"DeviceIdFromThirdPartyOrUserDefined",
          "Message":"Registration info/warning/error message"   
       }   
