@@ -4,7 +4,7 @@ description: Know how to automatically create or update records by setting up ru
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/14/2020
+ms.date: 08/21/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -179,25 +179,25 @@ The following details are available for the rules:
 > [!NOTE]
 > When an automatic record creation (ARC) rule is applied to an Email queue item, it gets deactivated.
 
-## Manage automatic record creation and update from a queue form
+## Manage automatic record creation and update rule from a queue form
 
  You can create or manage an automatic record creation and update rule from a queue form. To learn more, see [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a queue](set-up-queues-manage-activities-cases.md)
 
 ## Manually map a contact in Power Automate<a name="configure-in-power-automate"></a>
 
-Perform the following steps in Power Automate to manually map unknown email senders:
+Perform the following steps in Power Automate to manually map a contact:
 
-1. Edit the rule in which you want to configure the manual mapping of contact.
+1. Edit the rule in which you want to configure the manual mapping.
 2. On the **Condition builder** tab, select **Save and open Power Automate**. The Power Automate workflow opens on a new tab.
 3. In the **Create a record (don't rename this step)** step of the workflow, specify the required value in the **Customer (Contacts)** box.
-   
-> [!IMPORTANT]
-> Make sure you map a contact in the **Customer (Contacts)** box and an account in the **Customer (Account)** box for the workflow to run without errors.
- 
-4. Save and close.
-   
+4. Make sure that you remove the default mappings from **Contact (Contacts)** and **Customer (Accounts)**.
    > [!div class=mx-imgBorder]
    > ![Configure manual mapping for creating contact](media/arc-manual-power-automate.png " Configure manual mapping for creating contact")
+
+   > [!IMPORTANT]
+   > If you want to map an account, make sure that you remove the default mappings from the **Contact (Contacts)** and **Customer (Contacts)** boxes and specify only an account in the **Customer (Accounts)** box for the workflow to run without errors.
+
+5. Save and close.
 
 ### See also
 

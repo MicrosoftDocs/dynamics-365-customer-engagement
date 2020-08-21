@@ -147,6 +147,7 @@
 ### [Publishing + monitoring](rso-schedule-optimization.md)
 ### [Overnight scheduling](rso-overnight-scheduling.md)
 ### [Single resource optimization](single-resource-optimization.md)
+### [Simulations](rso-simulation.md)
 ## [Lock options for bookings](booking-lock-options.md)
 ## [Resolving conflicts for bookings](rso-handling-resolving-booking-conflicts.md)
 ## [Analytics dashboard](scheduling-analytics-reports.md)
