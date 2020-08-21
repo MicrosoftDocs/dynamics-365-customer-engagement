@@ -336,64 +336,68 @@ When you select a **Rule name** ending in **\_migrated**, the following displays
 
 If you have already been through the migration process, your experience will be very similar to that of the first-time user, with a few exceptions.   
 
-1.	**ARC and SLA Migration tool**: Access the migration tool under **Data management**.
+1.	**ARC & SLA Migration tool**: Access the migration tool under **Data management**.
 2.	**Previous migration data**: The **Summary page** will have updated data based on your previous migration. 
-3.	**Start migration**: Begins the migration process. Select **Start** to continue. 
+3.	**Start migration**: Begins the migration process. Select to continue. 
 
     ![Migration tool for experienced users](media\migration-tool-step-1-experienced-users-1.png "Migration tool for experienced users")
 
-## Step 1: Category to migrate.  (Experienced User)
+## Step 1: Category to migrate (Experienced user)
 
 This step allows you to select the rules you want to migrate.
 
-## Step 2: Pre-migration checkup. (Experienced User)
+## Step 2: Premigration checkup (Experienced user)
 
-When preparing to rerun the **Pre-migration checkup** process step, it only reviews the rules that previously did not pass. You can download the details provided to troubleshoot errors and make updates in the Unified Client Interface or legacy system before you rerun your migration.
+When preparing to rerun the **Premigration checkup** process step, it only reviews the rules that previously did not pass. You can download the details provided to troubleshoot errors and make updates in the Unified Interface or legacy system before you rerun your migration.
 
-1.	**Yellow notification message** - Reminds you that rules that were previously migrated successfully will automatically be skipped in a rerun of the pre-migration checkup process. This also includes rules that the administrator has confirmed.
-2.	**Total** - Shows the number of rules that are available for migration. The pre-migration checkup process only focuses on running rules that have not been migrated completely, not attempted previously, or failed to create, which is reflected in the total count.
+1.	**Yellow notification message**: Reminds you that rules that were previously migrated successfully will automatically be skipped in a rerun of the premigration checkup process. This also includes rules that the administrator has confirmed.
+2.	**Total**: Shows the number of rules that are available for migration. The premigration checkup process only focuses on running rules that have not been migrated completely, not attempted previously, or failed to create, which is reflected in the total count.
 
-> ![Migration Tool for experienced users - step 2](media\migration-tool-step-2-experienced-users-1.png "Migration Tool for experienced users - step 2")
+    ![Migration tool for experienced users - step 2](media\migration-tool-step-2-experienced-users-1.png "Migration tool for experienced users - step 2")
 
-## Step 3: Rules and items to migrate. (Experienced User)
+## Step 3: Rules and items to migrate (Experienced user)
 
 This step allows you to select the rules you want to migrate, including:
  
-1.	**Migrate all rules** - Allows you to override all previous selections.
-2.	**Checkup Results** - Displays whether your rule passed or failed the pre-migration.
-3.	**Failed** - Allows you to review the rules that failed by selecting them.
-4.	**Download all logs** - Allows you to view individual problem details.
+1.	**Migrate all rules**: Allows you to override all previous selections.
+2.	**Checkup Results**: Displays whether your rule passed or failed the premigration.
+3.	**Failed**: Allows you to review the rules that failed by selecting them.
+4.	**Download all logs**: Allows you to view individual problem details.
 
-> ![Migration Tool for experienced users - step 3](media\migration-tool-step-3-experienced-users-1.png "Migration Tool for experienced users - step 3")
+    ![Migration tool for experienced users - step 3](media\migration-tool-step-3-experienced-users-1.png "Migration tool for experienced users - step 3")
 
 Only rules that were not attempted, did not completely migrate, or failed to migrate will appear in **Step 3**. If you want to attempt migration of a successfully migrated rule again, delete the corresponding rule from Unified Interface and rerun the migration tool for it to appear in the list again. 
 
-## Step 4: Review. (Experienced User)
+## Step 4: Review (Experienced user)
 
 This step gives you the opportunity to review and fix any rules that have errors or issues prior to migration.
 
-## Step 5: Migration.  (Experienced User)
+## Step 5: Migration (Experienced user)
 
 This step confirms when migration is complete and provides a summary of the number of rules that successfully completed migration, as well as the number of rules that failed.
 
-1.	**Selected**, **Migrated**, and **Incomplete**  - Provide the migration results for the current migration run.
-2.	**Migration status** - Displays you the status of your current migration run and allows you to view the details on the **Incomplete** rules that could not be migrated.
+1.	**Selected**, **Migrated**, and **Incomplete**: Provide the migration results for the current migration run.
+2.	**Migration status**: Displays the status of your current migration run and allows you to view the details on the **Incomplete** rules that could not be migrated.
 
-> ![Migration Tool for experienced users - step 5](media\migration-tool-step-5-experienced-users-1.png "Migration Tool for experienced users - step 5")
 
-## Step 6: Finish (Experienced User)
+<!-- editor comment: There's a typo in the image ("imcomplete"). Actually, it might be better to remove that text in the top of the image - it adds clutter to the image. -->
+
+
+    ![Migration tool for experienced users - step 5](media\migration-tool-step-5-experienced-users-1.png "Migration tool for experienced users - step 5")
+
+## Step 6: Finish (Experienced user)
 
 When you finish your migration, an updated **Summary** page will be displayed that includes:
 
-1.	**Summary** - Provides the overall summary of all the migration details to date. 
-2.	**Start** - Select to rerun the migration process again.
+1.	**Summary**: Provides the overall summary of all the migration details to date. 
+2.	**Start**: Select to rerun the migration process.
 
-> ![Migration Tool for experienced users - step 6](media\migration-tool-step-6-experienced-users-1.png "Migration Tool for experienced users - step 6")
+    ![Migration tool for experienced users - step 6](media\migration-tool-step-6-experienced-users-1.png "Migration tool for experienced users - step 6")
 
 
-### See Also
+### See also
 
-[Migration Tool FAQs](migrate-tool-faqs.md)
+[Migration tool FAQs](migrate-tool-faqs.md)
 
 [Set up rules to automatically create or update records](set-up-rules-to-automatically-create-or-update-records.md)
 
