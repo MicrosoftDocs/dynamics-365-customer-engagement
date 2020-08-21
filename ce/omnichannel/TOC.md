@@ -353,13 +353,13 @@
 ### Real time translation JavaScript API Reference
 #### [initializeNewConversation](developer/reference/methods/initializeNewConversation.md)
 #### [translateMessage](developer/reference/methods/translateMessage.md)
-#### [Events]()
-##### [lcw:startChat](developer/reference/events/lcw-startchat.md)
-##### [lcw:ready](developer/reference/events/lcw-ready.md)
-##### [lcw:error](developer/reference/events/lcw-error.md)
-##### [lcw:threadUpdate](developer/reference/events/lcw-threadUpdate.md)
-##### [lcw:closeChat](developer/reference/events/lcw-closeChat.md)
-#### [Error code reference](developer/reference/error-code-reference.md)
+### Events
+#### [lcw:startChat](developer/reference/events/lcw-startchat.md)
+#### [lcw:ready](developer/reference/events/lcw-ready.md)
+#### [lcw:error](developer/reference/events/lcw-error.md)
+#### [lcw:threadUpdate](developer/reference/events/lcw-threadUpdate.md)
+#### [lcw:closeChat](developer/reference/events/lcw-closeChat.md)
+### [Error code reference](developer/reference/error-code-reference.md)
 ### [runMacro](developer/reference/methods/runMacro.md)
 ### Action Reference
 #### [msdyn_ApplyRoutingRuleEntityRecord](developer/reference/actions/msdyn_ApplyRoutingRuleEntityRecord.md)
