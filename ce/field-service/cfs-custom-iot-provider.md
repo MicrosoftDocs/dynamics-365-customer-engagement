@@ -34,11 +34,11 @@ By default, CFS uses this IoT providers feature to integrate with Azure IoT Hub 
 
 ## When to use custom IoT providers
 
-You should consider using a custom IoT provider:
+Consider using a custom IoT provider if:
 
-- If you're using an IoT system from a vendor that doesn’t use Azure IoT.
+- You're using an IoT system from a vendor that doesn’t use Azure IoT.
 - When you use multiple Azure IoT Hub instances or Azure IoT Central applications, connected to a common CFS organization.
-- If you have multiple IoT vendors that you need to manage in a single CFS organization. For example, your organization’s HVAC alerts and devices may be handled by Azure IoT, while your organization’s security alerts may be handled by a different IoT system. While the alerts from both systems come into the same instance, CFS can route the actions to the appropriate system based on the configured providers.
+- You have multiple IoT vendors that you need to manage in a single CFS organization. For example, your organization’s HVAC alerts and devices may be handled by Azure IoT, while your organization’s security alerts may be handled by a different IoT system. While the alerts from both systems come into the same instance, CFS can route the actions to the appropriate system based on the configured providers.
 
 ## Prerequisites
 
@@ -68,7 +68,7 @@ As shown in the diagram, the IoT provider instance is the organization's instanc
 
 You'll find the following fields on the entity:
 
-- **Provider Instance ID**: Indicates the identifier within your source IoT system. For example, this could be your application's ID in Azure IoT Central.
+- **Provider Instance ID**: Indicates the identifier within your source IoT system. For example, this ID could be your application's ID in Azure IoT Central.
 - **URL**: A URL that could be used in your provider code or the user experience. For example, it could be an API endpoint or a link to Azure resource group of the deployment.
 
 > [!div class="mx-imgBorder"]
@@ -90,9 +90,9 @@ The IoT settings entity now has an option to choose a default IoT provider insta
 
 ## Supported actions
 
-When you create a custom IoT provider, you'll specify a set of actions associated with that providers. Actions in Dynamics 365 are custom code that will run when you invoke them. For more information, see [this article on custom actions in Dynamics 365](https://docs.microsoft.com/powerapps/developer/common-data-service/custom-actions).
+When you create a custom IoT provider, you'll specify a set of actions associated with that provider. Actions in Dynamics 365 are custom code that will run when you invoke them. For more information, see [this article on custom actions in Dynamics 365](https://docs.microsoft.com/powerapps/developer/common-data-service/custom-actions).
 
-For example, if you specify ```msdyn_MockProviderPullDeviceDataAction``` as the action for "Pull device data" in your provider, CFS will look for an action with the name ```msdyn_MockProviderPullDeviceDataAction``` and run that action's code when a user clicks the **Pull device data** button on the asset or device form or views in Connected Field Service.
+For example, if you specify ```msdyn_MockProviderPullDeviceDataAction``` as the action for "Pull device data" in your provider, CFS will look for an action with the name ```msdyn_MockProviderPullDeviceDataAction``` and run that action's code when a user selects the **Pull device data** button on the asset or device form or views in Connected Field Service.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the IoT settings in Field Service.](./media/custom-iot-provider-fields.png)
@@ -119,7 +119,7 @@ This action supports multiple devices, so the input needs to be sent as an **Ent
 
 | Entity collection properties  | Type   | Details |
 |-------------------|--------|-------------------------------------------------------------|
-| msdyn_iotdeviceid | string | Identifier of the device (msdyn_iotdevice) within CFS. Note that this will be a Guid that needs to be converted to string. For example: “6a5457d1-9373-ea11-a811-000d3af70aa4” |
+| msdyn_iotdeviceid | string | Identifier of the device (msdyn_iotdevice) within CFS. This will be a Guid that needs to be converted to string. For example: “6a5457d1-9373-ea11-a811-000d3af70aa4” |
 | msdyn_name        | string | Name of the device.                                                                                                                                        |
 | @odata.type    | string | OData type of the entity. For example: "Microsoft.Dynamics.CRM." + entityLogicalName"       |
 
@@ -151,7 +151,7 @@ Here are the output parameters for this action. The following parameters are ret
 
 | JSON properties        | Type     | Details                                                                                                                                                        |
 |----------------------------|----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ID                         | string   | Identifier of the device (msdyn_iotdevice) within CFS. Note that this will be a Guid that needs to be converted to string. For example: “6a5457d1-9373-ea11-a811-000d3af70aa4”                                                                                                                              |
+| ID                         | string   | Identifier of the device (msdyn_iotdevice) within CFS. This will be a Guid that needs to be converted to string. For example: “6a5457d1-9373-ea11-a811-000d3af70aa4”                                                                                                                              |
 | ConnectionState            | bool   | Indicates whether the device is Disconnected (false) or Connected (true).                                                                                               |
 | ConnectionStateUpdatedTime | datetime | Updated time of the connection state from the IoT provider                                                                                                     |
 | DeviceReportedProperties   | string   | Various reported properties of the devices formatted in a JSON string. For example: </br> {"temperature":35.6366305680316, </br> "humidity":18.3333366666} |
@@ -205,7 +205,7 @@ Here are the input parameters for this action. Since this action supports multip
 
 | Entity collection properties | 	Type  | Details | 
 | -- | -- | -- | 
-| msdyn_iotdeviceid	| string	| Identifier of the device (msdyn_iotdevice) within CFS. Note that this will be a Guid that needs to be converted to string. For example: “6a5457d1-9373-ea11-a811-000d3af70aa4”
+| msdyn_iotdeviceid	| string	| Identifier of the device (msdyn_iotdevice) within CFS. This will be a Guid that needs to be converted to string. For example: “6a5457d1-9373-ea11-a811-000d3af70aa4”
 | msdyn_name	| string	| Name of the device.| 
 | @odata.type	| 	string	| OData type of the entity </br>Example: "Microsoft.Dynamics.CRM." + entityLogicalName | 
 
@@ -278,7 +278,7 @@ Here are the input parameters for this action.
 
 | Input parameters  | Type   | Details                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |---------------------|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| deviceId            | string | Identifier of the device (msdyn_iotdevice) within CFS. Note that this will be a Guid that needs to be converted to string. Example:   “6a5457d1-9373-ea11-a811-000d3af70aa4”                                                                                                                                                                                                                                                                                                                         |
+| deviceId            | string | Identifier of the device (msdyn_iotdevice) within CFS. This will be a Guid that needs to be converted to string. Example:   “6a5457d1-9373-ea11-a811-000d3af70aa4”                                                                                                                                                                                                                                                                                                                         |
 | measures            | string | JSON formatted measures config list. See the following code block for an example. |
 
 ```
@@ -344,7 +344,7 @@ Here are the input parameters for this action.
 |---------------------|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | From         | DateTime | Starting time of the reading (measurement) point within the chart in ISO format. For example: “2020-04-10T13:51:55.781Z”                                                                                                                                                          |
 | To         | DateTime | Ending time of the reading (measurement) point within the chart in ISO format. For example: “2020-04-10T14:51:55.781Z”                                                                                                                                                            |
-| IoTDeviceId         | string | Identifier of the device (msdyn_iotdevice) within CFS. Note that this will be a Guid that needs to be converted to string. For example:   “6a5457d1-9373-ea11-a811-000d3af70aa4”                                                                                                  |
+| IoTDeviceId         | string | Identifier of the device (msdyn_iotdevice) within CFS. This will be a Guid that needs to be converted to string. For example:   “6a5457d1-9373-ea11-a811-000d3af70aa4”                                                                                                  |
 | Interval            | string | Interval size of the plotting   point specified in ISO-8601 duration format. For example: 1 minute is "PT1M", 1 millisecond is "PT0.001S".  </br>**Note**: All intervals are the same size. One month is always converted to 30 days, and one year is always 365 days. |
 
 Here are the output parameters for this action. The below parameters are returned in serialized JSON format as part of the action results.
@@ -415,7 +415,7 @@ Here are the input parameters for the msdyn_IoTGetDeviceEvents action
 |---------------------|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | From                | DateTime | Starting time of the reading (measurement) point within the chart in ISO format. For example: “2020-04-10T13:51:55.781Z”                                                          |
 | To                  | DateTime | Ending time of the reading (measurement) point within the chart in ISO format. For example: “2020-04-10T14:51:55.781Z”                                                       |
-| IoTDeviceId         | string | Identifier of the device (msdyn_iotdevice) within CFS. Note that this will be a Guid that needs to be converted to string. For example: “6a5457d1-9373-ea11-a811-000d3af70aa4” |
+| IoTDeviceId         | string | Identifier of the device (msdyn_iotdevice) within CFS. This will be a Guid that needs to be converted to string. For example: “6a5457d1-9373-ea11-a811-000d3af70aa4” |
 
 Here are the output parameters for this action. The below parameters are returned in serialized JSON format as part of the action results.
 
