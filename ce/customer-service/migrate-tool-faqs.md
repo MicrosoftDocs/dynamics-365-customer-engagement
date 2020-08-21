@@ -80,9 +80,10 @@ The following are key scenarios where rules/items will not successfully complete
 
     ![Web view](media/migration-tool-11-a.png "Web view")
     
-    **Post migration Unified Interface view** 
+    **Example: Post-migration Unified Interface view** 
   
-    **2a.** The migrated item title changes to **\_FailedMigration** appended. 
+    **2a.** The migrated item title changes to **\_FailedMigration** appended.
+    
     **2b.** The same standard placeholder **Created On equals 2200-01-01** is added to the condition.
 
 
