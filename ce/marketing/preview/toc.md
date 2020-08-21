@@ -13,8 +13,8 @@
 ## [Gain insights through journey analytics](journey-analytics.md)
 
 # Developer resources
-## [Web SDK tutorial](get-started-websdk.md)
-## [Web SDK sample](websdk-sample.md)
+<!-- ## [Web SDK tutorial](get-started-websdk.md) -->
+<!-- ## [Web SDK sample](websdk-sample.md) -->
 
 # GDPR requests and compliance
 ## [Manage cookies and user consent](user-consent-storage.md)

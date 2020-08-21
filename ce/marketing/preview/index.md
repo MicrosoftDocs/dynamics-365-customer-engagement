@@ -31,8 +31,8 @@ Welcome to the Dynamics 365 CXP private preview documentation.
 
 ## Developer resources
 
-- [Web SDK tutorial](get-started-websdk.md)
-- [Web SDK sample](websdk-sample.md)
+<!--- [Web SDK tutorial](get-started-websdk.md) -->
+<!--- [Web SDK sample](websdk-sample.md) -->
 
 ## GDPR requests and compliance
 
