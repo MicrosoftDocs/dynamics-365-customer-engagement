@@ -91,15 +91,24 @@ The following are key scenarios where rules/items will not successfully complete
 
     ![Unified Interface view](media/migration-tool-11-b.png "Unified Interface view")
 
-12.	**Why do my rule items/conditions with a DateType field that uses a "not on" operator fail during the pre-migration checkup and actual migration?**<br />
-    The **Not on** operator for the **Date** data type is not supported in the Unified Client Interface (UCI), and therefore is not supported as part of migration. To fix this issue, you can change the legacy items/conditions from **{not-on selecteddate}** to **{selecteddate less than and selecteddate greater than}** in the web client before rerunning the migration tool for the respective rule.<br /><br />
-**Example**<br />
-**Pre-migration view:**<br />
-![Web View](media\migration-tool-12-a.png)
-**a.**	Pre-migration Web Client View <br /><br />
-**Post migration UCI View:** <br />
-![UCI View](media\migration-tool-12-b.png)
-**2a.** The migrated item title changes to **_FailedMigration** appended. <br />**2b.** The condition has a placeholder **Created On equals 2200-01-01** is added to the condition.
+2.	**Why do my rule items or conditions with a DateType field that uses a "not on" operator fail during the premigration checkup and actual migration?**
+
+    The **Not on** operator for the **Date** data type is not supported in Unified Interface and therefore is not supported as part of migration. To fix this issue, you can change the legacy items or conditions from **{not-on selecteddate}** to **{selecteddate less than and selecteddate greater than}** in the web client before rerunning the migration tool for the respective rule.
+
+    **Example: Premigration view**
+    
+    **a.**	Premigration web client view
+        
+    ![Web view](media/migration-tool-12-a.png "Web view")
+
+    **Post-migration Unified Interface view**
+    
+    **2a.** The migrated item title changes to **\_FailedMigration** appended. 
+    
+    **2b.** The condition has a placeholder **Created On equals 2200-01-01** is added to the condition.
+
+    ![Unified Interface view](media/migration-tool-12-b.png "Unified Interface view")
+
 
 13.	**Why does the data in my DateTime field change during migration?**<br />
   A separate time field doesn't exist in the Unified Client Interface (UCI), so the DateTime field will change from a calendar control to text field. Input should be in a specific format as shown in the text box below:<br /><br />
