@@ -4,7 +4,7 @@ description: Know how to automatically create or update records by setting up ru
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/14/2020
+ms.date: 08/21/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice

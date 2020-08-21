@@ -99,6 +99,7 @@ Let's explore the fields you can edit on the **Case Summary** tab:
 | 2 | These are attributes that are set when the case is created by the system including Case Number, Origin, and Created On Date that won't change. You can change the case owner here.
 | 3 | Select the plus sign (+) on the timeline to expand the menu of timeline actions. 
 |
+
 Let's explore the fields you can edit on the **Case Additional Details** tab:
 
 :::image type="content" source="media/CaseAddtlDetails.png" alt-text="Customer Service workspace Case Additional Details" border="false":::
