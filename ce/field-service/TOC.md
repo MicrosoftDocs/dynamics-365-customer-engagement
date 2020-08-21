@@ -166,6 +166,7 @@
 #### [Prerequisites for Azure subscription](cfs-azure-subscription.md)
 #### [Installation and setup](installation-setup-iothub.md)
 #### [Quickstart: Build your own IoT solution](connected-field-service-overview.md)
+### [Use custom IoT providers](cfs-custom-iot-provider.md)
 ## Analyze
 ### [Receive IoT alerts from Azure IoT Central](cfs-iot-central-alerts.md)
 ### [Associate devices with customer accounts](cfs-iot-central-associate-devices.md)
