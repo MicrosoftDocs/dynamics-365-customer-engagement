@@ -30,6 +30,7 @@
 
 ### User administration and access permissions
 #### [Manage user accounts, licenses, and roles](admin-users-licenses-roles.md)
+#### [Fair use policy](fair-use-policy.md)
 #### [Use business units with Marketing](business-units.md)
 
 ### Administration settings
