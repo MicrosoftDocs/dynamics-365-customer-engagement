@@ -63,12 +63,12 @@ manager: shujoshi
     - For successfully migrated rules: Delete the migrated rule in the Unified Interface version before rerunning the migration tool.
 
 
-<!-- editor comment: I changed the following heading level to a 2 so that it shows up in the side navigation. I also restarted the numbering because this is a new section. -->
+<!-- editor comment: I changed the following heading level to a 2 so that it shows up in the side navigation. I also restarted the numbering because this is a new section. The heading itself seems confusing. Maybe it should be "Known conditions: conversion issues" ? -->
 
 
 ## Known condition conversions issues
 
-The following are key scenarios where rules/items will not successfully complete migration:
+The following are key scenarios where rules or items will not successfully complete migration:
 
 1.	**If my rule items or conditions have related entities inside a nested group clause (and/or), will they be migrated to Unified Interface?**
 
@@ -76,7 +76,7 @@ The following are key scenarios where rules/items will not successfully complete
     
     **Example: Premigration view**
   
-    **a.**	Premigration web client view 
+    **a.**	Premigration web client view. 
 
     ![Web view](media/migration-tool-11-a.png "Web view")
     
@@ -97,80 +97,122 @@ The following are key scenarios where rules/items will not successfully complete
 
     **Example: Premigration view**
     
-    **a.**	Premigration web client view
+    **a.**	Premigration web client view.
         
     ![Web view](media/migration-tool-12-a.png "Web view")
 
-    **Post-migration Unified Interface view**
+    **Example: Post-migration Unified Interface view**
     
     **2a.** The migrated item title changes to **\_FailedMigration** appended. 
-    
+
+
+    <!-- editor comment: Please check the wording in the following sentence. Not sure how to fix it correctly. -->
+
+
     **2b.** The condition has a placeholder **Created On equals 2200-01-01** is added to the condition.
+
+
+    <!-- editor comment: The image needs to say Unified Interface instead of UCI. -->
+
 
     ![Unified Interface view](media/migration-tool-12-b.png "Unified Interface view")
 
 
-13.	**Why does the data in my DateTime field change during migration?**<br />
-  A separate time field doesn't exist in the Unified Client Interface (UCI), so the DateTime field will change from a calendar control to text field. Input should be in a specific format as shown in the text box below:<br /><br />
-**Example**<br />
-**Pre-migration view:**<br />
-![Web view](media\faq-arc-sla-web-view-13.png)
-**a.**	Pre-migration **Date and time** location<br />
-**b.**	Pre-migration **Date only** location<br /><br />
-**Post migration UCI View:** <br />
-![UCI view](media\faq-arc-sla-uci-view-13.png)
-**a.**	Post-migration **Date and time** location<br />
-**b.**	Post-migration **Date only** location<br />
+3.	**Why does the data in my DateTime field change during migration?**
 
-14.	**Why are some of my operator fields blank in Unified Client Interface (UCI) after migration?**<br />
-    For lookup data types, only the **equal / not equal, null /not null** operators are supported in UCI and are supported in the migration tool. **Under** and **not-under** operators are not supported in UCI, and therefore are not supported in the migration tool. Any conditions which have **under** or **not-under** operators are translated as **related entities** after migration and are shown as blank in the UCI after migration, and cannot be edited. <br /><br />
-**Example**<br />
-**Pre-migration view:**<br />
-![Web view](media\faq-arc-sla-web-client-14.png)
-<br />**a.**	Pre-migration Web Client View <br /><br />
-**Post migration UCI View:** <br />
-![UCI view](media\faq-arc-sla-uci-14.png)<br />
-**b.**	Post migration UCI View<br /><br />
+    A separate time field doesn't exist in the Unified Client Interface (UCI), so the DateTime field will change from a calendar control to text field. Input should be in a specific format as shown in the text box below:
+    
+    **Example: Premigration view**
+    
+    **a.**	Premigration **Date and time** location.
+    
+    **b.**	Premigration **Date only** location.
+    
+    ![Web view](media/faq-arc-sla-web-view-13.png "Web view")
 
-> [!Note]
-> The following limitations are applicable when defining a condition in Customer Service Hub:
-> - The Date & Time picker control is no longer available in the conditions; however, you can still edit the date and time in the text field.
-> - Only one level of the related entity hierarchy is supported, though the application lets you select nested, related entities.
-> - The related entity inside a group of the and/or clause is not supported.
-> - The "not-on" operator for the Date data type are not supported.
-> - For the lookups data type, only the "equal", "not equal", "null", and "not null" operators are supported. The "under" and "not-under" operators are not supported.
+    **Example: Post-migration Unified Interface view** 
 
-#### Known SLA issues
+    **a.**	Post-migration **Date and time** location
+
+    **b.**	Post-migration **Date only** location
+
+    ![Unified Interface view](media\faq-arc-sla-uci-view-13.png "Unified Interface view")
+
+4.	**Why are some of my operator fields blank in Unified Interface after migration?**
+
+    For lookup data types, only the **equal / not equal, null /not null** operators are supported in Unified Interface and are supported in the migration tool. **Under** and **not-under** operators are not supported in Unified Interface, and therefore are not supported in the migration tool. Any conditions that have **under** or **not-under** operators are translated as **related entities** after migration and are shown as blank in Unified Interface after migration, and cannot be edited. 
+
+    **Example: Premigration view**
+    
+    **a.**	Premigration web client view.
+    
+    ![Web view](media/faq-arc-sla-web-client-14.png "Web view")
+
+    **Example: Post-migration Unified Interface view**
+
+    **b.**	Post-migration Unified Interface view.
+    
+    ![Unified Interface view](media\faq-arc-sla-uci-14.png "Unified Interface view")
+
+    > [!Note]
+    > The following limitations are applicable when defining a condition in Customer Service Hub:
+    > - The Date & Time picker control is no longer available in the conditions; however, you can still edit the date and time in the text field.
+    > - Only one level of the related entity hierarchy is supported, though the application lets you select nested, related entities.
+    > - The related entity inside a group of the and/or clause is not supported.
+    > - The "not-on" operator for the Date data type is not supported.
+    > - For the lookups data type, only the "equal," "not equal," "null," and "not null" operators are supported. The "under" and "not-under" operators are not supported.
+
+## Known SLA issues
  
-15.	**Can I migrate a rule again after it’s been activated?**
-    <ol>- <b>Yes, for ARC rules.</b> You can migrate an activated rule again, but you must first deactivate and delete it from the Unified Client Interface (UCI) first before you can migrate it again.<br />
-    - <b>No for SLA rules.</b> Once a migrated SLA rule is activated, it is linked to another entity (such as a case or is in use). To attempt to migration an activated rule (which is a successfully migrated rule by default) again, you'd need to delete that specific rule; however, there is a limitation with UCI SLA rules, and once a rule is associated with a case or entity (that if it has been activated even once), you cannot delete the rule even if it is deactivated. Therefore, the rule cannot be migrated again if it has been previously activated and/or applied.</ol>
+1.	**Can I migrate a rule again after it’s been activated?**
 
-16.	<b>Can I migrate deprecated standard SLA rules?</b><br />
-    No. Only the migration tool only supports enhanced SLA rules. Standard SLA rules have been deprecated and are no longer supported in the Unified Client Interface (UCI), and therefore aren't supported in the migration tool. For more information, see [Standard SLAs in Dynamics 365 Customer Service](https://docs.microsoft.com/power-platform/important-changes-coming#standard-slas-in-dynamics-365-customer-service-are-deprecated). 
+    - **Yes, for ARC rules.** You can migrate an activated rule again, but you must first deactivate and delete it from Unified Interface before you can migrate it again.
+    - **No for SLA rules.** Once a migrated SLA rule is activated, it is linked to another entity (such as a case or is in use). To attempt to migrate an activated rule (which is a successfully migrated rule by default) again, you'd need to delete that specific rule. 
+    
+      However, there is a limitation with Unified Interface SLA rules, and once a rule is associated with a case or entity (that is, if it has been activated even once), you cannot delete the rule even if it is deactivated. Therefore, the rule cannot be migrated again if it has been previously activated or applied.
 
-#### Known Flow issues
+2.	**Can I migrate deprecated standard SLA rules?**
 
-17.	**Activity party type attribute issues during workflow to Flow conversion.**<br />
+    No. The migration tool only supports enhanced SLA rules. Standard SLA rules have been deprecated and are no longer supported in Unified Interface and therefore aren't supported in the migration tool. For more information, go to [Standard SLAs in Dynamics 365 Customer Service are deprecated](https://docs.microsoft.com/power-platform/important-changes-coming#standard-slas-in-dynamics-365-customer-service-are-deprecated). 
 
-    Any activity party-type attribute assigned to another activity party-type field (the most commonly impacted fields are: to, from, cc, and bcc, in emails) will not migrate during the workflow to Flow conversion, as Flow currently doesn't currently support this scenario. Although the migration of the rule will not fail, the data value for such activity party-type fields that relies on another activity party-type attribute will be empty post migration. <br /><br />
-**Example**<br />
-**Pre-migration view:**<br />
-![Web view](media\faq-arc-sla-web-client-17.png)<br />
-**a.** The **From** field, which is activity party type field that is assigned another activity party type attribute **{Bcc(Email)}** will be empty post migration.<br />
-**b.**	The **To** field will migrate.<br /><br />
-**Post migration UCI View:** <br />
-![UCI Flow view](media\migration-tool-17-b.PNG)<br />
-<b>b.</b>	The **To** field post-migration.
+## Known flow issues
 
-18.	**First not null checks in expressions within legacy workflow during workflow to flow conversion is not supported.**<br />
-    In legacy workflows, a lookup field can be mapped with multiple expressions where you check and assign the **First Not Null** expression, as shown in the Web Client example below. Currently, this is not supported as part of workflow to Flow conversion, as this is a known limitation from the legacy workflow designer. Therefore, the workflow converter assigns the first expression (without performing the null check) and removes the rest of the expressions, irrespective of whether they have **non-null** values. In the sample snapshot that follows, the flow will only have **Regarding(Email)** in **Customer** field within this step.<br /><br />
-**Example:** <br />
-**Pre-migration view:**<br />
-![Web view](media\faq-arc-sla-web-client-18.png)
-**a. Web Client View:** In the workflow, Customer field has: **{Regarding(Email); Contact(Create (Case)); Customer(Create (Case))}**<br />
-**b. UCI View:** In Flow, the Customer field will only have: **Regarding(Email)** regardless of whether it is null or not. 
-<br />
+1.	**Activity party-type attribute issues during workflow-to-flow conversion.**
+
+
+    <!-- editor question: Should "Flow" here change to Power Automate? -->
+
+    Any activity party-type attribute assigned to another activity party-type field (the most commonly impacted fields are: to, from, cc, and bcc, in emails) will not migrate during the workflow-to-flow conversion, as Flow currently doesn't support this scenario. Although the migration of the rule will not fail, the data value for such activity party-type fields that relies on another activity party-type attribute will be empty post-migration. 
+        
+    **Example: Premigration view**
+    
+    **a.** The **From** field, which is an activity party-type field that is assigned another activity party-type attribute **{Bcc(Email)}** will be empty post-migration.
+
+    **b.**	The **To** field will migrate.
+    
+    ![Web view](media/faq-arc-sla-web-client-17.png "Web view")
+
+    **Example: Post-migration Unified Interface view**
+
+    **b.**	The **To** field post-migration.
+
+    ![Unified Interface flow view](media\migration-tool-17-b.PNG "Unified Interface flow view")
+
+2.	**First not null checks in expressions within legacy workflow during workflow-to-flow conversion is not supported.**
+
+    In legacy workflows, a lookup field can be mapped with multiple expressions where you check and assign the **First Not Null** expression, as shown in the web client example below. Currently, this is not supported as part of workflow-to-flow conversion, as this is a known limitation from the legacy workflow designer. Therefore, the workflow converter assigns the first expression (without performing the null check) and removes the rest of the expressions, irrespective of whether they have **non-null** values. In the sample snapshot that follows, the flow will only have **Regarding(Email)** in the **Customer** field within this step.
+
+    **Example: Premigration view**
+    
+    **a. Web client view:** In the workflow, the Customer field has: **{Regarding(Email); Contact(Create (Case)); Customer(Create (Case))}**
+
+    **b. Unified Interface view:** In Flow, the Customer field will only have: **Regarding(Email)** regardless of whether it is null. 
+
+
+    <!-- editor comment: I don't see a "b" in this image, only "a." Is that correct? -->
+
+    ![Web view](media/faq-arc-sla-web-client-18.png "Web view")
+
 > [!Important] 
-> If you are still experiencing issues pertaining to the migration tool, contact your administrator or Microsoft support.
+> If you are still experiencing issues with the migration tool, contact your administrator or Microsoft support.
 
