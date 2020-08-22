@@ -134,7 +134,7 @@ When you select **Start migration**, the migration tool takes you through the mi
 
 
 **Step 1:** [Category to migrate](migrate-automatic-record-creation-and-sla-agreements.md#step-1-category-to-migrate)  <br>
-**Step 2:** [Premigration checkup](migrate-automatic-record-creation-and-sla-agreements.md#step-2-pre-migration-checkup) <br>
+**Step 2:** [Premigration checkup](migrate-automatic-record-creation-and-sla-agreements.md#step-2-premigration-checkup) <br>
 **Step 3:** [Rules and items to migrate](migrate-automatic-record-creation-and-sla-agreements.md#step-3-rules-and-items-to-migrate)<br> 
 **Step 4:** [Review](migrate-automatic-record-creation-and-sla-agreements.md#step-4-review)<br>
 **Step 5:** [Migration](migrate-automatic-record-creation-and-sla-agreements.md#step-5-migration)<br> 
@@ -377,7 +377,7 @@ This step confirms when migration is complete and provides a summary of the numb
 2.	**Migration status**: Displays the status of your current migration run and allows you to view the details on the **Incomplete** rules that could not be migrated.
 
 
-<!-- editor comment: There's a typo in the image ("imcomplete"). Actually, it might be better to remove that text in the top of the image - it adds clutter to the image. -->
+    <!-- editor comment: There's a typo in the image ("imcomplete"). Actually, it might be better to remove that text in the top of the image - it adds clutter to the image. -->
 
 
     ![Migration tool for experienced users - step 5](media/migration-tool-step-5-experienced-users-1.png "Migration tool for experienced users - step 5")
