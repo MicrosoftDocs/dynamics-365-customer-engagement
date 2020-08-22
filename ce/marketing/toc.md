@@ -48,7 +48,7 @@
 ##### [Authenticate your domains](mkt-settings-authenticate-domains.md)
 ##### [Marketing analytics configuration](mkt-settings-analytics.md)
 ##### [Configure landing pages](mkt-settings-landing-pages.md)
-##### [Sync with the marketing-insights service](mkt-settings-sync.md)
+##### [Sync entities and track insights](mkt-settings-sync.md)
 ##### [Set matching strategies](mkt-settings-matching.md)
 ##### [Default marketing settings](mkt-settings-default-marketing.md)
 ##### [Configure your social media accounts](mkt-settings-social-media.md)
