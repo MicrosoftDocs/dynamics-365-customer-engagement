@@ -49,7 +49,7 @@ manager: shujoshi
 
 8.	**Do I need a separate license for Power Automate before running migration?** 
 
-    No. For more information on licensing guidelines, go to [What are Microsoft Power Apps and Power Automate use rights for Dynamics 365 applications?](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq#what-are-microsoft-power-apps-and-power-automate-use-rights-for-dynamics-365-applications).
+    No. For more information on licensing guidelines, go to [What are Microsoft Power Apps and Power Automate use rights for Dynamics 365 applications?](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq#what-are-microsoft-power-apps-and-power-automate-use-rights-for-dynamics-365-applications)
 
 9.	**Some of my rules are incomplete or partially migrated. What should I do?**
 
@@ -63,10 +63,10 @@ manager: shujoshi
     - For successfully migrated rules: Delete the migrated rule in the Unified Interface version before rerunning the migration tool.
 
 
-<!-- editor comment: I changed the following heading level to a 2 so that it shows up in the side navigation. I also restarted the numbering because this is a new section. The heading itself seems confusing. Maybe it should be "Known conditions: conversion issues" ? -->
+<!-- editor comment: I changed the following heading level to a 2 so that it shows up in the side navigation. I also restarted the numbering because this is a new section.  -->
 
 
-## Known condition conversions issues
+## Known condition conversion issues
 
 The following are key scenarios where rules or items will not successfully complete migration:
 
@@ -205,6 +205,9 @@ The following are key scenarios where rules or items will not successfully compl
     **Example: Premigration view**
     
     **a. Web client view:** In the workflow, the Customer field has: **{Regarding(Email); Contact(Create (Case)); Customer(Create (Case))}**
+
+    <!-- Editor question: Should "Flow" in the next sentence change to Power Automate, or does it mean a "flow" (lowercase)? -->
+
 
     **b. Unified Interface view:** In Flow, the Customer field will only have: **Regarding(Email)** regardless of whether it is null. 
 
