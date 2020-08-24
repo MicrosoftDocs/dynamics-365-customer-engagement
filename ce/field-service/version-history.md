@@ -69,14 +69,14 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 ## 8.8.26.24
 (Includes Universal Resource Scheduling version [3.12.25.5](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#312244)) 
--	Corrected an issue where, under certain circumstances, the **Discount %** in Work Order Product form is auto cleared on Save.
--	Resolved an issue with Agreement Booking Dates where, when the Booking Dates are manually altered, the Work Orders were not getting auto generated as expected relative to the Generate Work Order Days in Advance value of the related Agreement Booking Setup.
--	Improved handling for the Sharing/Unsharing behavior of the Booking Resource Booking when the target user is disabled.
--	When exchange rate on a currency is changed, any subsequent changes to a Work Order Service record would result in the exchange rate for that record being updated. This should only be recalculated if a currency related field is updated. 
--	Improved handling of the Account’s merge functionality when one of the target accounts has a related Agreement where Taxable is set to ‘No.’
--	Improved handling of the Account’s merge functionality when one of the target accounts has a related RMA where Taxable is set to ‘No.’
+-	Corrected an issue where, under certain circumstances, the **Discount %** in work order product form is automatically cleared on save.
+-	Resolved an issue with agreement booking dates where, when the booking dates are manually altered, the work orders were not getting auto generated as expected relative to the **Generate Work Order Days in Advance** value of the related agreement booking setup.
+-	Improved handling for the sharing and unsharing behavior of the booking resource booking when the target user is disabled.
+-	When exchange rate on a currency is changed, any subsequent changes to a work order service record would result in the exchange rate for that record being updated. This should only be recalculated if a currency related field is updated.
+-	Improved handling of the account’s merge functionality when one of the target accounts has a related Agreement where taxable is set to "No."
+-	Improved handling of the account’s merge functionality when one of the target accounts has a related RMA where taxable is set to "No."
 -	When using tab to navigate away from the **Estimate Total Amount** field on a work order service record after making an update, the system was inappropriately throwing the error "Enter an amount between $0.00 and $1,000,000,000.00."
--	Corrected a bug where, when the Work Order Service’s **Line Status** was changed from "Estimated" to "Used," the Estimated Discount % field was not getting copied to the **Discount %**.
+-	Corrected a bug where, when the work order service’s **Line Status** was changed from "Estimated" to "Used," the **Estimated Discount %** field was not getting copied to the **Discount %**.
 
 ## 8.8.29.165 (2020 Wave 2 early access)
 (Includes Universal Resource Scheduling version [3.12.29.5](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#312295).)
