@@ -1,6 +1,16 @@
 {
   "redirections": [
     {
+      "source_path": "ce/customerengagement/on-premises/developer/use-change-tracking-synchronize-data-external-systems.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/use-change-tracking-synchronize-data-external-systems",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/use-upsert-insert-update-record.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/use-upsert-insert-update-record",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/teams-integration/teams-bot-search.md",
       "redirect_url": "https://docs.microsoft.com/power-platform/important-changes-coming#dynamic-365-sales-bot-is-deprecated",
       "redirect_document_id": "false"
