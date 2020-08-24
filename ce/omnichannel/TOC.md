@@ -358,7 +358,7 @@
 ##### [lcw:closeChat](developer/reference/events/lcw-closeChat.md)
 #### [Error code reference](developer/reference/error-code-reference.md)
 
-##### [runMacro](developer/reference/methods/runMacro.md)
+### [runMacro](developer/reference/methods/runMacro.md)
 
 ### Real time translation JavaScript API Reference
 #### [initializeNewConversation](developer/reference/methods/initializeNewConversation.md)
