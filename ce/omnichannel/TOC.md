@@ -350,6 +350,10 @@
 ##### [startChat](developer/reference/methods/startChat.md)
 ##### [startProactiveChat](developer/reference/methods/startProactiveChat.md)
 ##### [closeChat](developer/reference/methods/closeChat.md)
+### Real time translation JavaScript API Reference
+#### [initializeNewConversation](developer/reference/methods/initializeNewConversation.md)
+#### [translateMessage](developer/reference/methods/translateMessage.md)
+#### [getTranslationProvider](developer/reference/methods/gettranslationprovider.md)
 #### [Events]()
 ##### [lcw:startChat](developer/reference/events/lcw-startchat.md)
 ##### [lcw:ready](developer/reference/events/lcw-ready.md)
