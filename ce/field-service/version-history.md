@@ -78,8 +78,22 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 -	When using tab to navigate away from the **Estimate Total Amount** field on a work order service record after making an update, the system was inappropriately throwing the error "Enter an amount between $0.00 and $1,000,000,000.00."
 -	Corrected a bug where, when the work order service’s **Line Status** was changed from "Estimated" to "Used," the **Estimated Discount %** field was not getting copied to the **Discount %**.
 
+## Version 8.8.29.226 (2020 Wave 2 early access, update 1)
+(Includes Universal Resource Scheduling version [3.12.30.11](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#3123011))
+
+The release is only applied when an environment is opted into early access and introduces the resource scheduling 2020 wave 2 new and updated features.
+
+In addition, this release includes the following changes that have the potential to change the existing system behavior or interface:
+
+-	Added quick create forms for all new asset properties related entities to the Field Service model-driven app.
+-	Corrected an issue with a missing space in the **Field Service Activities** tab header for the account entity for the Field Service Mobile model-driven app.
+-	Improved the customer asset form to ensure that the IoT related tabs are displayed after the other form tabs.
+-	Removed the property logs option from the related menu from the customer asset form.
+-	Updated the property log display values to respect user settings for date and time.
+-	Corrected travel calculation logic for the Field Service Mobile model-driven app to ensure that, when the booking is set to in progress, if there was no **Estimated Travel Duration** the system will update the **Actual Arrival Time** and will not immediately increase total duration.
+
 ## 8.8.29.165 (2020 Wave 2 early access)
-(Includes Universal Resource Scheduling version [3.12.29.5](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#312295).)
+(Includes Universal Resource Scheduling version [3.12.29.5](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#312295))
 
 The release is only applied when an environment is opted into early access and introduces the [Field Service 2020 Wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/service/dynamics365-field-service/planned-features) new and updated features as outlined for availability in early access:
 - Embedded Power BI Dashboard for key Field Service metrics
