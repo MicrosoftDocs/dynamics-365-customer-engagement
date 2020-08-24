@@ -365,9 +365,6 @@
 
 ### [runMacro](developer/reference/methods/runMacro.md)
 
-### Real time translation JavaScript API Reference
-#### [initializeNewConversation](developer/reference/methods/initializeNewConversation.md)
-#### [translateMessage](developer/reference/methods/translateMessage.md)
 ### Action Reference
 #### [msdyn_ApplyRoutingRuleEntityRecord](developer/reference/actions/msdyn_ApplyRoutingRuleEntityRecord.md)
 ## Troubleshooting, readme, and FAQs
