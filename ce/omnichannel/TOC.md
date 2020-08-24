@@ -350,17 +350,18 @@
 ##### [startChat](developer/reference/methods/startChat.md)
 ##### [startProactiveChat](developer/reference/methods/startProactiveChat.md)
 ##### [closeChat](developer/reference/methods/closeChat.md)
-### Real time translation JavaScript API Reference
-#### [initializeNewConversation](developer/reference/methods/initializeNewConversation.md)
-#### [translateMessage](developer/reference/methods/translateMessage.md)
 #### [Events]()
 ##### [lcw:startChat](developer/reference/events/lcw-startchat.md)
 ##### [lcw:ready](developer/reference/events/lcw-ready.md)
 ##### [lcw:error](developer/reference/events/lcw-error.md)
 ##### [lcw:threadUpdate](developer/reference/events/lcw-threadUpdate.md)
 ##### [lcw:closeChat](developer/reference/events/lcw-closeChat.md)
+#### [runMacro](developer/reference/methods/runMacro.md)
 #### [Error code reference](developer/reference/error-code-reference.md)
-### [runMacro](developer/reference/methods/runMacro.md)
+
+### Real time translation JavaScript API Reference
+#### [initializeNewConversation](developer/reference/methods/initializeNewConversation.md)
+#### [translateMessage](developer/reference/methods/translateMessage.md)
 ### Action Reference
 #### [msdyn_ApplyRoutingRuleEntityRecord](developer/reference/actions/msdyn_ApplyRoutingRuleEntityRecord.md)
 ## Troubleshooting, readme, and FAQs
