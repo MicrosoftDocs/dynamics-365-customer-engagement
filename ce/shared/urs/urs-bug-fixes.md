@@ -18,11 +18,11 @@ The release is only applied when an environment is opted into early access and i
 
 In addition, this release includes the following changes that have the potential to change the existing system behavior or interface:
 
-- When searching for Resources in the Daily View of the Schedule Board, Once the searched Resources are returned, Bookings of the Resources are not returned on the center area, until the board is refreshed. This bug is now fixed in this update.
-- When different capacities are used for a Resource before and after a break, for example (11 AM to 12 PM, working with capacity is 1. 12 PM to 1 PM is a break, and 1 PM to 2 PM, working with capacity 2) then the Break time is shown as working time on the Schedule Board. This bug is fixed in this update. 
-- Fixed a bug where Quick Book is used on a Requirement Group, and Resources work in a different Timezone than the Timezone of the Calendar of the Requirements in the group, only a part of the available timeslots were returned. With the fix, all available timeslots are returned in this scenario.
+- When searching for resources in the daily view of the schedule board: Once the searched resources are returned, bookings of the resources are not returned on the center area, until the board is refreshed. This bug is now fixed in this update.
+- When different capacities are used for a resource before and after a break, (for example 11 AM to 12 PM, working with capacity is 1; 12 PM to 1 PM is a break, and 1 PM to 2 PM, working with capacity 2) then the break time is shown as working time on the schedule board. This bug is fixed in this update. 
+- Fixed a bug where quick book is used on a requirement group, and resources work in a different time zone than the time zone of the calendar of the requirements in the group, only a part of the available time slots were returned. With the fix, all available time slots are returned in this scenario.
 - Fixed a bug where the search time window of the resource requirement is greater than the time range displayed on the schedule board and schedule assistant, the resource booked hours capacity on the resource cell were not displayed. The expand and collapse button next to the resource in daily, weekly, and monthly views were also not displayed.
-- When you enable any entity for scheduling (for example, case, lead, account), enable Quick Book feature on the Booking Setup Metadata record of this schedulable entity, and set **Disable Requirement Auto Creation for Bookings** to yes. The resource requirement records will not be generated post the creation of the booking record.
+- When you enable any entity for scheduling (for example, case, lead, account), enable quick book feature on the booking setup metadata record of this schedulable entity, and set **Disable Requirement Auto Creation for Bookings** to yes. The resource requirement records will not be generated post the creation of the booking record.
 
 ## Version 3.12.29.5 (2020 wave 2 early access)
 
