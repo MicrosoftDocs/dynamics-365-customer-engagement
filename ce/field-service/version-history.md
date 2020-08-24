@@ -80,6 +80,11 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 ## Version 8.8.29.226 (2020 Wave 2 early access, update 1)
 (Includes Universal Resource Scheduling version [3.12.30.11](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#3123011))
+
+The release is only applied when an environment is opted into early access and introduces the resource scheduling 2020 wave 2 new and updated features.
+
+In addition, this release includes the following changes that have the potential to change the existing system behavior or interface:
+
 -	Added quick create forms for all new asset properties related entities to the Field Service model-driven app.
 -	Corrected an issue with a missing space in the “Field Service Activities” tab header for the Account entity for the Field Service Mobile model-driven app.
 -	Improved the Customer Asset form to ensure that the IoT related tabs are displayed after the other form tabs.
