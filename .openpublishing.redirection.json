@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/teams-integration/teams-bot-search.md",
+      "redirect_url": "https://docs.microsoft.com/power-platform/important-changes-coming#dynamic-365-sales-bot-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/marketing/readme.md",
       "redirect_url": "known-issues",
       "redirect_document_id": "false"
