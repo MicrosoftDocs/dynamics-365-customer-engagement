@@ -86,10 +86,10 @@ The release is only applied when an environment is opted into early access and i
 In addition, this release includes the following changes that have the potential to change the existing system behavior or interface:
 
 -	Added quick create forms for all new asset properties related entities to the Field Service model-driven app.
--	Corrected an issue with a missing space in the “Field Service Activities” tab header for the Account entity for the Field Service Mobile model-driven app.
--	Improved the Customer Asset form to ensure that the IoT related tabs are displayed after the other form tabs.
--	Removed the “Property Logs” option from the related menu from the Customer Asset form.
--	Updated the Property Log display values to respect user settings for date and time.
+-	Corrected an issue with a missing space in the **Field Service Activities** tab header for the account entity for the Field Service Mobile model-driven app.
+-	Improved the customer asset form to ensure that the IoT related tabs are displayed after the other form tabs.
+-	Removed the property logs option from the related menu from the customer asset form.
+-	Updated the property log display values to respect user settings for date and time.
 -	Corrected travel calculation logic for the Field Service Mobile model-driven app to ensure that, when the booking is set to in progress, if there was no **Estimated Travel Duration** the system will update the **Actual Arrival Time** and will not immediately increase total duration.
 
 ## 8.8.29.165 (2020 Wave 2 early access)
