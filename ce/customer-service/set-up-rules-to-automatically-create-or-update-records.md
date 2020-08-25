@@ -80,7 +80,7 @@ These activities can be converted to any default (system) entity records or cust
 > When an automatic record creation (ARC) rule is applied to an Email queue item, it gets deactivated.
   
 ## Rules in solutions  
- The record creation and update rules can be packaged as a part of the Common Data Service platform solution. Customizers and developers distribute solutions so organizations can use the Common Data Service platformto install and uninstall the business functionality defined by the solution.  
+ The record creation and update rules can be packaged as a part of the Common Data Service platform solution. Customizers and developers distribute solutions so organizations can use the Common Data Service platform to install and uninstall the business functionality defined by the solution.
 
  Keep the following things in mind about using rules in solutions:  
 
