@@ -31,36 +31,34 @@ This topic lists the features and fixes that are new or changed for Project Serv
 
 ### Bug fixes
 
-
-
 **Time and Expense**
 
 The following issues have been fixed:
-- Handle edge case in Project Team Member Delete to throw a meaningful exception
-- Assignment import results in a blank remove screen
+- Handle edge case in **Project Team Member Delete** to provide a meaningful exception.
+- Assignment import results in a blank remove screen.
 
 **Resource Management**
 
 The following issues have been fixed:
 
-- Resource utilization grid resource card displays incorrect data when the time scale is larger than 5 days
-- Customer created a bookable resource, and the plugin intermittently fails to add the resource to an O365 group automatically.
-- Reconciliation View displays manual contours incorrectly at Week or Month View
+- The **Resource utilization grid resource card** shows incorrect data when the time scale is larger than five days.
+- When customers create a bookable resource, and the plug-in intermittently fails to automatically add the resource to a Microsoft Office 365 group.
+- **Reconciliation** view displays manual contours incorrectly in the **Week** or **Month** view.
 
 **Project Management**
 
 The following issues have been fixed:
 
-- Excessive number of RetrieveMultiple for usersettings entity causing degraded performance for Project approvals and other operations
-- The task Planning grid resource lookup is limited to only show up to 5 team members from the project team. 
-- The task Planning grid resource lookup does not filter inactive resources.
-- Manual mode is not working as expected in project planning work breakdown structure.
-- The task Planning grid displayes Inactive Transaction Categories.
-- The Resource Assignment grids round effort incorrectly when a task has multiple assignments.
+- The excessive number of **RetrieveMultiple for usersettings** entities are causing a degraded performance for project approvals and other operations.
+- The **Task Planning** grid resource lookup is limited to only show up to five team members from the project team. 
+- The **Task Planning** grid resource lookup does not filter inactive resources.
+- Manual mode is not working as expected in the project planning work breakdown structure.
+- The **Task Planning** grid shows **Inactive Transaction Categories**.
+- The **Resource Assignment** grids round effort incorrectly when a task has multiple assignments.
 - Rounding values are different between planned cost and actual cost for a single task.
 
 **Sales**
 
 The following issues have been fixed:
 
-- Fetch All Transaction Categories double click creates multiple lines
+- **Fetch All Transaction Categories** double-click creates multiple lines.
