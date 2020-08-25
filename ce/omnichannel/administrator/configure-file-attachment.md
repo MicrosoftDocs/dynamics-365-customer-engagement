@@ -4,7 +4,7 @@ description: "Instructions to configure file attachment capability for a chat wi
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 04/06/2020
+ms.date: 08/25/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -13,6 +13,8 @@ ms.topic: article
 # Configure file attachment capability 
 
 As an administrator, you can enable or disable the capability for your agents and customers to attach files during a conversation. When enabled, your customers and agents can send files and share more information about their issues. For example, if a customer receives an error while trying to complete a process, they can send the screenshots of the steps and error message to the agent. 
+
+Agents using the Chromium Edge or Legacy Edge browsers must use the **Attach** icon to send files. Drag-and-drop is not supported in Chromium Edge or Legacy Edge browsers. For more information about file attachment limitations, see [Enable file attachments](enable-file-attachments.md)
 
 If an agent transfers the chat to another agent, the agent who receives the chat can also access the files attached in the conversation.
 
@@ -37,7 +39,7 @@ If an agent transfers the chat to another agent, the agent who receives the chat
 
 ## Customer experience of attaching a file
 
-When the file attachment capability is enabled for customers, the attachment icon is displayed in the chat widget. A customer can then use the **Attach** icon to send files.
+When the file attachment capability is enabled for customers, the attachment icon is displayed in the chat widget. A customer can then use the **Attach** icon to send files. Drag-and-drop is not supported. 
 
 > [!div class=mx-imgBorder]
 > ![File attachment icon](../media/file-attach-icon.png "File attachment icon")
@@ -72,6 +74,7 @@ The file size limit for attachments and unsupported file types are defined in th
 
 ### See also
 
+[Enable file attachments](enable-file-attachments.md) </br>
 [Add a chat widget](add-chat-widget.md) <br>
 [Configure a pre-chat survey](configure-pre-chat-survey.md) <br>
 [Configure agent display name](agent-display-name.md)<br>
