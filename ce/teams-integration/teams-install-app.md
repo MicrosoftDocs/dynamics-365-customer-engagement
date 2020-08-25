@@ -35,7 +35,7 @@ By default, the Basic and Enhanced Microsoft Teams Integration is disabled in Co
 
 ## Prerequisites
 
-Microsoft Teams integration uses SharePoint integration at the backend, so makie sure these prerequisites are met.
+Microsoft Teams integration uses SharePoint integration at the backend. Make sure these prerequisites are met:
 
 - SharePoint Integration is configured and OneDrive Integration is enabled. Also, make sure OneDrive is disabled.
 
