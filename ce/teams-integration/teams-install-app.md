@@ -45,7 +45,7 @@ Microsoft Teams integration uses SharePoint integration at the backend. Make sur
 
 - If SharePoint Online admin has enabled control access from unmanaged devices (conditional access policy) to allow/block SharePoint sites from unmanaged devices, then the same restrictions will be applied for Microsoft Teams integration because Microsoft Teams uses SharePoint sites for document management. This might block a user when they try to access a connected team channel file library on a model-driven app page. For more information, see [Control access from unmanaged devices](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices). 
 
-If you get an error while configuring Microsoft Teams Integration from Dynamics 365, it might be because of the above pre-requisites are not met. For more infomation, see [Troubleshoot Microsoft Teams integration](https://docs.microsoft.com/dynamics365/teams-integration/teams-troubleshoot#troubleshoot-configuration-issues-with-microsoft-teams-integration).
+If you get an error while configuring Microsoft Teams Integration from Dynamics 365, it might be because of the above prerequisites are not met. For more infomation, see [Troubleshoot Microsoft Teams integration](https://docs.microsoft.com/dynamics365/teams-integration/teams-troubleshoot#troubleshoot-configuration-issues-with-microsoft-teams-integration).
 
 ## For Common Data Service admins: enable Microsoft Teams integration feature 
 
