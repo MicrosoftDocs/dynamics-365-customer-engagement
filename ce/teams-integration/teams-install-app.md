@@ -35,20 +35,17 @@ By default, the Basic and Enhanced Microsoft Teams Integration is disabled in Co
 
 ## Prerequisites
 
-Microsoft Teams integration uses SharePoint integration at the backend, so if there is a failure with SharePoint integration or OneDrive configuration, it will also fail when you enable Microsoft Teams integration.
+Microsoft Teams integration uses SharePoint integration at the backend, so makie sure these prerequisites are met.
 
-If you get an error while configuring Microsoft Teams Integration from Dynamics 365, it might be because of the following pre-requisites are not met.
+- SharePoint Integration is configured and OneDrive Integration is enabled. Also, make sure OneDrive is disabled.
 
-- SharePoint Integration is not configured, and OneDrive Integration is enabled. To Fix the issue, disable OneDrive.
+- Set up document management for model-driven apps in Dynamics 365 to use SharePoint Online. For more information, see [Set up model-driven apps in Dynamics 365 to use SharePoint Online](https://docs.microsoft.com/power-platform/admin/set-up-dynamics-365-online-to-use-sharepoint-online). Make sure, you are not using SharePoint on-premises for document management.
 
-- SharePoint Integration is not configured, but there is an active SharePoint site in your organization. To fix the issue, deactivate the SharePoint site.
-
-- SharePoint Integration is not configured, but there is SharePoint document locations created with an absolute URL in your organization. To fix the issue, delete locations with an absolute URL.
+- Make sure you don't have other active SharePoint sites in your organization or SharePoint document locations created with an absolute URL in your organization. 
 
 - If SharePoint Online admin has enabled control access from unmanaged devices (conditional access policy) to allow/block SharePoint sites from unmanaged devices, then the same restrictions will be applied for Microsoft Teams integration because Microsoft Teams uses SharePoint sites for document management. This might block a user when they try to access a connected team channel file library on a model-driven app page. For more information, see [Control access from unmanaged devices](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices). 
 
-- If you get this error: **You cannot enable Microsoft Teams integration since the environment is integrated with SharePoint on-premises**, this means that you are currently configured to use SharePoint on-premises for document management. You need to set up document management for model-driven apps in Dynamics 365 to use SharePoint Online. For more information, see [Set up model-driven apps in Dynamics 365 to use SharePoint Online](https://docs.microsoft.com/power-platform/admin/set-up-dynamics-365-online-to-use-sharepoint-online).
-
+If you get an error while configuring Microsoft Teams Integration from Dynamics 365, it might be because of the aboce pre-requisites are not met. For troubleshoot, see [Troubleshoot Microsoft Teams integration](https://docs.microsoft.com/dynamics365/teams-integration/teams-troubleshoot#troubleshoot-configuration-issues-with-microsoft-teams-integration).
 
 ## For Common Data Service admins: enable Microsoft Teams integration feature 
 
