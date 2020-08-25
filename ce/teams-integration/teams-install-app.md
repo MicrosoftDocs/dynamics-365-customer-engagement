@@ -39,7 +39,7 @@ Microsoft Teams integration uses SharePoint integration at the backend. Make sur
 
 - SharePoint Integration is configured and OneDrive Integration is enabled. Also, make sure OneDrive is disabled.
 
-- Set up document management for model-driven apps in Dynamics 365 to use SharePoint Online. For more information, see [Set up model-driven apps in Dynamics 365 to use SharePoint Online](https://docs.microsoft.com/power-platform/admin/set-up-dynamics-365-online-to-use-sharepoint-online). Make sure, you are not using SharePoint on-premises for document management.
+- Set up document management for model-driven apps in Dynamics 365 to use SharePoint Online. For more information, see [Set up model-driven apps in Dynamics 365 to use SharePoint Online](https://docs.microsoft.com/power-platform/admin/set-up-dynamics-365-online-to-use-sharepoint-online). 
 
 - Make sure you don't have other active SharePoint sites in your organization or SharePoint document locations created with an absolute URL in your organization. 
 
