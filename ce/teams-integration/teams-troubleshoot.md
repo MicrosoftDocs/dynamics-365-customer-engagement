@@ -2,7 +2,7 @@
 title: "Troubleshoot Microsoft Teams integration| MicrosoftDocs"
 ms.custom: 
 description: "Troubleshoot issues with Microsoft Teams integration."
-ms.date: 6/22/20
+ms.date: 8/24/20
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -219,7 +219,8 @@ A user may get this error when they try to connect a record or a view to a team 
 To work around this issue, your tenant admin will need to remove this policy from Azure Portal.
 
 
+### Error: Blocked a frame with origin from accessing a cross-origin frame
 
+###  Documents are no longer visible in the pinned tab record when a team member leaves a team
 
-
-
+When a team member leaves a team the documents for the record are not visible in the tab created for the record in Teams. However, you can still view all documents associated with that record for the team in your model-driven app.
