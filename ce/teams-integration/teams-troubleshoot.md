@@ -2,7 +2,7 @@
 title: "Troubleshoot Microsoft Teams integration with customer engagement apps in Dynamics 365| MicrosoftDocs"
 ms.custom: 
 description: "Troubleshoot issues with Microsoft Teams integration."
-ms.date: 6/22/20
+ms.date: 8/25/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
