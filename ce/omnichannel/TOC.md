@@ -87,6 +87,7 @@
 #### [Create and manage routing rules](administrator/routing-rules.md)
 
 ### Agent Experience
+### [App profile manager](../app-profile-manager/overview.md)
 #### Productivity tools
 ##### [Overview](administrator/productivity-tools.md)
 ##### [Macros](administrator/macros.md)

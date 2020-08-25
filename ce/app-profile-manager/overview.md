@@ -1,5 +1,5 @@
 ---
-title: "App profile manager | MicrosoftDocs"
+title: "Overview of app profile manager | MicrosoftDocs"
 description: "Overview of the app profile manager."
 author: neeranelli
 ms.author: nenellim
@@ -28,7 +28,7 @@ The profiles are app agnostic and are available for agents and supervisors who u
 
 ## How the targeted app experience works
 
-The targeted app experience can be achieved by the following process:
+As a system administrator, the targeted app experience  process is as follows:
 
 1. Create users in Microsoft Dynamics 365 admin center.
 2. Assign security roles, such as Customer Service Representative or Omnichannel agent.
@@ -37,3 +37,47 @@ The targeted app experience can be achieved by the following process:
 5. Assign app profiles to users.
 
 For existing orgs, only steps 4 and 5 are required.
+
+Thereafter, users with the required agent or supervisor role will be able to see and use the settings that are available through the assigned app profile. If you do not assign an app profile, by default, the out-of-the-box app profile will be assigned.
+
+## Experience for accessing templates and productivity tools 
+
+The Power Apps home page for app profiles is an easy-to-use interface that helps you get started with what you can do on the page.
+
+  > [!div class=mx-imgBorder]
+  > ![App profiles home page](media/app-profile-home.png "App profiles home page")
+
+> [!IMPORTANT]
+> Omnichannel for Customer Service is available only when you have the Chat for Dynamics 365 license.
+
+The options to access and manage the following entities are available on the app profile left pane:
+
+- Settings
+- Templates
+  - Session templates
+  - Application tabs
+  - Notifications
+- Productivity
+  - Smart assist
+  - Agent scripts
+- Macros
+
+> ![Navigation menu](media/app-profile-navigation-items.png "App profiles home page")
+
+Irrespective of the path from where you navigate to any of the elements, such as session templates or application tab templates, you will see templates that you have defined for both Customer Service workspace and Omnichannel for Customer Service. This is because the templates are stored in a common library.
+
+### Settings
+
+The **Settings** option under Customer Service workspace takes you to the **Queues** page of Service Management in Customer Service Hub that opens in a new tab and displays the list of queues in Customer Service.
+
+For information on queue management in Customer Service Hub, see 
+
+The **Settings** option under Omnichannel Administration takes you to the **Entity Records** page in Omnichannel Administration and displays the list of entity records that are configured.
+
+### Templates
+
+
+
+### Productivity
+
+

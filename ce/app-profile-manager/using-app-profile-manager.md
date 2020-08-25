@@ -49,7 +49,7 @@ To create app profiles for Omnichannel for Customer Service, you must have the D
 1. On the **App profiles** page, select the app profile to which you want to assign templates.
 2. On the **Session templates**, select **Add entity session template**.
 3. Search for the template you want to add and select it.
-      > [!div class=mx-imgBorder]
+   > [!div class=mx-imgBorder]
    > ![App profile session template](media/app-profile-session-template.png "App profile session template")
 4. Do the following on the Productivity pane:
    1. Set the toggle to On for **Turn on productivity pane**.
