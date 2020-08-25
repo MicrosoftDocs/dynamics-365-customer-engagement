@@ -14,7 +14,7 @@ ms.topic: article
 
 As an administrator, you can enable or disable the capability for your agents and customers to attach files during a conversation. When enabled, your customers and agents can send files and share more information about their issues. For example, if a customer receives an error while trying to complete a process, they can send the screenshots of the steps and error message to the agent. 
 
-Customers using chat widget with the Chromium Edge or Legacy Edge browsers must use the **Attach** icon to send files. Drag-and-drop is not supported in Chromium Edge or Legacy Edge browsers. For information about file attachment limitations, see [Enable file attachments](enable-file-attachments.md).
+Customers must use the **Attach** icon to send files. Drag-and-drop is not supported in the live chat widget. For information about file attachment limitations, see [Enable file attachments](enable-file-attachments.md).
 
 If an agent transfers the chat to another agent, the agent who receives the chat can also access the files attached in the conversation.
 
