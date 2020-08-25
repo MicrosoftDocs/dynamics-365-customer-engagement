@@ -4,7 +4,7 @@ description: "Enable file attachments in messaging channels in Omnichannel for C
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 08/06/2020
+ms.date: 08/25/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
