@@ -20,6 +20,8 @@ When you enable the option for customers in the **General settings** configurati
 
 If an agent transfers the conversation to another agent, the agent who receives the chat can also access the files attached in the conversation.
 
+For more information about the agent and customer experience of using file attachments in chat, see [Configure file attachment](configure-file-attachment.md).
+
 For more information about which file types are supported in each channel, see [Asynchronous channel support](asynchronous-channels.md).
 
 ## File size limit and unsupported extensions (types) for attachments
@@ -63,6 +65,7 @@ Now, agents and customers can share file attachments during their conversation.
 ### See also
 
 [Asynchronous channel support](asynchronous-channels.md)<br>
+[Configure file attachment](configure-file-attachment.md)<br>
 [Configure a Facebook channel](configure-facebook-channel.md)<br>
 [Configure a Twitter channel](configure-twitter-channel.md)<br>
 [Configure a WhatsApp channel](configure-whatsapp-channel.md)<br>
