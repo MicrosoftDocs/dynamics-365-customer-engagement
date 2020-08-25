@@ -2,7 +2,7 @@
 title: "Install and set up the Dynamics 365 app for Microsoft Teams| MicrosoftDocs"
 ms.custom: 
 description: "Install and set up the Dynamics 365 app for Microsoft Teams."
-ms.date: 06/01/2020
+ms.date: 08/24/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -131,40 +131,7 @@ By default, the Basic and Enhanced Microsoft Teams Integration is disabled in Co
 See [Collaborate with Microsoft Teams](teams-collaboration.md#have-a-conversation) for information on how you can use the tab feature to collaborate with Dynamics 365 apps.
 
 <a name="bkmk_setup_dynamics365_bot"></a>
-## In Microsoft Teams: Set up the Dynamics 365 bot
 
-> [!IMPORTANT]
-> Effective June 2, 2020, Dynamics 365 Sales bot is deprecated. Until July 31, 2020, Microsoft will continue to provide support for the feature, but won't release any additional functionality beyond what is already present. After July 31, 2020, the Dynamics 365 Sales bot won't be available.
->
-> For further information, see [Important changes (deprecations) coming in Power Apps, Power Automate, and model-driven apps in Dynamics 365](https://docs.microsoft.com/power-platform/important-changes-coming).
-
-Set up the bot feature to interact with Dynamics 365 apps.
-
-1. Find and open the Dynamics 365 bot. Open **Chat** on the left side of the Microsoft Teams app, and then select **Dynamics 365 apps**.
-
-2. The **Conversation** tab opens with the welcome message sent by the bot that provides an overview of the bot’s abilities. Select **Sign in**.
-
-   > [!div class="mx-imgBorder"] 
-   > ![Sign in to the bot](media/teams-bot-welcome.png "Sign in to the bot")
-
-3. Select an environment, and then select **Next**.
-
-   If the environment has multiple app modules (Sales, Marketing, Service, and so on), then you'll also select an app module.
-
-   > [!div class="mx-imgBorder"] 
-   > ![Select an environment](media/teams-bot-select-org.png "Select an environment")
-
-   > [!NOTE]
-   > Only Common Data Service environments appear in the list. Also, only active environments (those that are not disabled or provisioning) are displayed.
-
-4. Enter credentials and sign in.
-
-   The Dynamics 365 bot setup is complete and some preloaded options are available for getting started.
-
-   > [!div class="mx-imgBorder"] 
-   > ![Bot is set up](media/teams-bot-confirmation.png "Bot is set up")
-
-See [Use the bot](teams-bot-search.md) for information on how you can use the bot feature to interact with model-driven apps in Dynamics 365.
 
 ## In Microsoft Teams: Set up the personal dashboard
 Set up the personal dashboard (My Dashboard) to interact with model-driven apps in Dynamics 365 without involving other team members.

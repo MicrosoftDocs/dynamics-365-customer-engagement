@@ -17,7 +17,7 @@ Implementers and administrators for Dynamics 365 Customer Engagement (on-premise
 > [!NOTE]
 > This content is for Dynamics 365 Customer Engagement (on-premises), version 9.
 > - For documentation for earlier versions, see [Administering Dynamics 365](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn531101(v=crm.8))
-> - For Dynamics 365 admin center docs, see [Administer model-driven apps in Dynamics 365](/dynamics365/admin/admin-guide)
+> - For Dynamics 365 admin center docs, see [Administer customer engagement apps](/dynamics365/admin/admin-guide)
 > - If you are an online customer, see [Administer Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)
 
 
