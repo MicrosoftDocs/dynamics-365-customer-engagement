@@ -16,7 +16,7 @@ ms.topic: article
 
 You can enable or disable the capability for your agents and customers to send file attachments during a conversation. 
 
-When you enable the option for customers in the **General settings** configuration of your channel, customers can include attachments with their messages. Similarly, when you enable the option for agents, agents can send attachments from the communication panel to the customers. 
+When you enable the option for customers in the **General settings** configuration of your channel, customers can include attachments with their messages. Similarly, when you enable the option for agents, agents can send attachments from the communication panel to the customers. Agents can upload files by dragging and dropping the file from the file explorer into the conversation canvas. Customers must use the **Attach** icon to upload files.
 
 If an agent transfers the conversation to another agent, the agent who receives the chat can also access the files attached in the conversation.
 
