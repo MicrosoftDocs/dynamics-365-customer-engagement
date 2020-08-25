@@ -150,7 +150,7 @@ To view a consolidated file list across all document locations including all con
 
 In a customer engagement app in Dynamics 365 (such as Dynamics 365 Sales and Dynamics 365 Customer Service), you can see the connected Microsoft Teams channel and files from the Microsoft Teams channel.
 
-For more information on which entities support the collaborate option, see [Record types that support Microsoft Teams integration](teams-collaboration.md#record-types-that-support-microsoft-teams-integration-in-model-driven-apps).
+For more information on which entities support the collaborate option, see [Record types that support Microsoft Teams integration](teams-collaboration.md#record-types-that-support-microsoft-teams-integration).
 
 In a an app record page, select **Collaborate** to display a list of all the connected team channels. Then, select a team channel to go to the relevant channel conversation in Microsoft Teams.
 
