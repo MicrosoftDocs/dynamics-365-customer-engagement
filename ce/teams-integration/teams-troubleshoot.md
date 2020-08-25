@@ -1,5 +1,5 @@
 ---
-title: "Troubleshoot Microsoft Teams integration| MicrosoftDocs"
+title: "Troubleshoot Microsoft Teams integration with customer engagement apps in Dynamics 365| MicrosoftDocs"
 ms.custom: 
 description: "Troubleshoot issues with Microsoft Teams integration."
 ms.date: 6/22/20
@@ -21,7 +21,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Troubleshoot Microsoft Teams integration 
+# Troubleshoot Microsoft Teams integration with customer engagement apps in Dynamics 365
 
 The following are error messages with possible resolutions.
 
@@ -38,11 +38,11 @@ If you get an error while configuring Microsoft Teams Integration from Dynamics 
 
 - SharePoint Integration is not configured, but there is SharePoint document locations created with an absolute URL in your organization. To fix the issue, delete locations with an absolute URL.
 
-- If SharePoint Online admin has enabled control access from unmanaged devices (conditional access policy) to allow/block SharePoint sites from unmanaged devices, then the same restrictions will be applied for Microsoft Teams integration because Microsoft Teams uses SharePoint sites for document management. This might block a user when they try to access a connected team channel file library on a model-driven app page. For more information, see [Control access from unmanaged devices](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices). 
+- If SharePoint Online admin has enabled control access from unmanaged devices (conditional access policy) to allow/block SharePoint sites from unmanaged devices, then the same restrictions will be applied for Microsoft Teams integration because Microsoft Teams uses SharePoint sites for document management. This might block a user when they try to access a connected team channel file library on an app page. For more information, see [Control access from unmanaged devices](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices). 
 
-- If you get this error: **You cannot enable Microsoft Teams integration since the environment is integrated with SharePoint on-premises**, this means that you are currently configured to use SharePoint on-premises for document management. You need to set up document management for model-driven apps in Dynamics 365 to use SharePoint Online. For more information, see [Set up model-driven apps in Dynamics 365 to use SharePoint Online](https://docs.microsoft.com/power-platform/admin/set-up-dynamics-365-online-to-use-sharepoint-online).
+- If you get this error: **You cannot enable Microsoft Teams integration since the environment is integrated with SharePoint on-premises**, this means that you are currently configured to use SharePoint on-premises for document management. You need to set up document management for model-driven apps to use SharePoint Online. For more information, see [Set up model-driven apps to use SharePoint Online](https://docs.microsoft.com/power-platform/admin/set-up-dynamics-365-online-to-use-sharepoint-online).
 
-### Error when you pin a record or view of any model-driven app to a team channel if the enhanced experience is not configured correctly by your Common Data Service admin.
+### Error when you pin a record or view of any app to a team channel if the enhanced experience is not configured correctly by your Common Data Service admin.
 
 Error: **The admin has not consented to use user sync feature, you can add them manually**.
 
@@ -63,11 +63,11 @@ To fix the issue, disable the Enhanced Microsoft Teams integration feature.
     > ![Teams error](media/error3.png "Teams error")
 5. Wait for about five minutes and then enable the [Enhanced Microsoft Teams Integration](teams-install-app.md) feature again. This time make sure that you to check the **Consent on behalf of organization** checkbox.
 
-### Error when you pin a record or view of any model-driven app to a team channel if your user role permission is not configured correctly by your Common Data Service system admin.
+### Error when you pin a record or view of any app to a team channel if your user role permission is not configured correctly by your Common Data Service system admin.
 
 Error: **User does not have permissions to create SharePoint Site or Document Location. This record is not connected to Dynamics 365**.
 
-This means the user that is getting this error does not have sufficient permissions such as Create, Read, Write, Append, AppendTo and Delete for the user role to pin an entity to a Microsoft Teams channel; however, changes made to the record in Microsoft Teams will update in model-driven apps in Dynamics 365.
+This means the user that is getting this error does not have sufficient permissions such as Create, Read, Write, Append, AppendTo and Delete for the user role to pin an entity to a Microsoft Teams channel; however, changes made to the record in Microsoft Teams will update in customer engagement apps in Dynamics 365.
 
 When the user tries to pin an entity to a Microsoft Teams channel, this error will display in the notification bar:
 
@@ -138,7 +138,7 @@ The Common Data Service environment that you are trying to connect does not supp
 
 ### Error: This record is not connected to Dynamics 365. Repin the tab and try again.
 
-A failed connection means file synchronization is not set up between Microsoft Teams and Dynamics 365 apps; however, changes made to the record in Microsoft Teams will update in the model-driven apps in Dynamics 365.
+A failed connection means file synchronization is not set up between Microsoft Teams and Dynamics 365 apps; however, changes made to the record in Microsoft Teams will update in the customer engagement apps in Dynamics 365.
 
 This is how the error will display on the notification bar:
 
@@ -165,7 +165,7 @@ Try repinning the Dynamics 365 tab. To repin, remove the tab, and then re-add, a
 5. Continue through the steps as in [Collaborate with Microsoft Teams](teams-collaboration.md).
 
 
-## Error messages in model-driven apps in Dynamics 365 
+## Error messages in customer engagement apps in Dynamics 365 
 
 
 ### Error: File sharing is not set up. Go to [URL] to connect a Microsoft Teams channel to this record.
@@ -205,7 +205,7 @@ To work around this issue, open Teams on the web and close the desktop version.
 
 ### Error while creating a team or channel. The property is missing a required prefix/suffix per your organization's Group naming requirements. 
 
-A user may get this error when they try to connect a record or a view to a team channel using the **Collaborate** button in model-driven apps in Dynamics 365. This happens if your tenant admin has configured group level naming policy from Azure Portal with a prefix and suffix condition 
+A user may get this error when they try to connect a record or a view to a team channel using the **Collaborate** button in customer engagement apps in Dynamics 365. This happens if your tenant admin has configured group level naming policy from Azure Portal with a prefix and suffix condition 
 
    > [!div class="mx-imgBorder"] 
    > ![Prefix error](media/azure_portal_error.png "Prefix error")
@@ -214,7 +214,7 @@ To work around this issue, your tenant admin will need to remove this policy fro
 
 ### Error while creating a team or channel. The displayName cannot contain the blocked word 'blocked' as per company policy.
 
-A user may get this error when they try to connect a record or a view to a team channel using the **Collaborate** button in model-driven apps in Dynamics 365. This happens when your tenant admin creates a custom blocked word list on Azure Portal.
+A user may get this error when they try to connect a record or a view to a team channel using the **Collaborate** button in customer engagement apps in Dynamics 365. This happens when your tenant admin creates a custom blocked word list on Azure Portal.
 
 To work around this issue, your tenant admin will need to remove this policy from Azure Portal.
 
