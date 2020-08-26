@@ -221,9 +221,11 @@ To work around this issue, your tenant admin will need to remove this policy fro
 
 ### Error: Blocked a frame with origin from accessing a cross-origin frame
 
-There are some pages in model-driven apps that can only be opened in a brower window. If one of these pages is opened within an iframe of any container application such as Teams, then you will get this error message, **Blocked a frame with origin from accessing a cross-origin frame**.
+A few pages in customer engagment apps in Dynamics 365 can only be opened in a browser window as they make use of JavaScript functions trying to access DOM elements and properties through `top` are not supported to load within Microsoft Teams. When this page is opened without any iframe then it works fine as top most window’s context is customer engagment apps page and required attributes and properties are available. Whereas when this same page is opened within Microsoft Teams, it's actually loaded inside an iframe where `top` represent top most window context which is Microsoft Teams window and not the customer engagement app page. Hence it's not able to find relevant attributes and properties which leads to showing of error message **Blocked a frame with origin from accessing a cross-origin frame** in the browser console. For example, if you open the schedule board page for Dynamics 365 Project Service Automation within Microsoft Teams, you will get this error.
 
-To work around this, open the page in the model-driven app and not in Teams.
+To work around this, opep the page in your customer engagement app and not in Microsoft Teams.
+
+If the page which is showing the error message, contains a custom resource (javascript, custom control etc.), please ensure `window` is not used in the JavaScript as it may cause the page to not load at all or not load properly. For more information, see [Avoid using window top](https://docs.microsoft.com/powerapps/developer/model-driven-apps/best-practices/business-logic/avoid-window-top).
 
 ###  Documents are no longer visible in the pinned tab record when a team member leaves a team
 
