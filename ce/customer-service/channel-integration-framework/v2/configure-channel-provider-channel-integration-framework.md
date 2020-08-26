@@ -58,13 +58,21 @@ To configure channel providers:
 
 ## Configure channel provider using App profile manager
 
-The App profile manager is an out-of-the-box solution that lets you create targeted app experiences for agents and supervisors. More information: []().
+The App profile manager is an out-of-the-box solution that lets you create targeted app experiences for agents and supervisors. More information: [App profile manager](../../../../app-profile-manager/overview.md).
 
 Channel Integration Framework version 2.0, which is for multi-session applications, is solution-aware. Given below are the steps to configure channel provider entity in the new unified client interface experience.
 
-1. Select **App profile**.
+1. Select **App profiles**.
+
+![Select app profiles](../media/channel-app-profile-manager.PNG "Select app profiles")
+
 2. Then, select **Channel provider** tab.
+
+![Create new channel provider](../media/create-new-channel-provider-app-profile-manager.PNG "Create new channel provider")
+
 3. From the lookup control, open the channel provider entity in the unified client interface.
+
+![Configure channel provider](../media/channel-provider-maker-app.PNG "Configure channel provider")
 
 ## See also
 
