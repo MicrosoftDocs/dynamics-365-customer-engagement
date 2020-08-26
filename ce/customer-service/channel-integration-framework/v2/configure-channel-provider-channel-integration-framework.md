@@ -76,6 +76,8 @@ Channel Integration Framework version 2.0, which is for multi-session applicatio
 
 ![Configure channel provider](../media/channel-provider-maker-app.PNG "Configure channel provider")
 
+5. Fill in all the required details to configure a new channel provider.
+
 ## See also
 
 [Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)
