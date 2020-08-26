@@ -1,8 +1,8 @@
 ---
 title: "Integrate customer engagement apps in Dynamics 365 with Microsoft Teams| MicrosoftDocs"
 ms.custom: 
-description: "Integrate model-driven apps in Dynamics 365 with Microsoft Teams."
-ms.date: 08/24/2020
+description: "Integrate customer engagement apps in Dynamics 365 with Microsoft Teams."
+ms.date: 08/26/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -37,7 +37,7 @@ Dynamics 365 for Microsoft Teams integration enables users to easily work with c
 
 - **Collaboration hub**: Access a shared workspace for Office apps that most of us already use to work sales opportunities.  
 - **Cross-functional collaboration**: Work together with customers and any colleague across functions, even if they aren’t a Dynamics 365 apps user.
-- **File integration**: Co-author documents using Office 365 and automatically sync to Common Data Service. 
+- **File integration**: Co-author documents using Office 365 and automatically sync with customer engagement apps in Dynamics 365. 
 - **Microsoft Teams mobile app**: Search from Microsoft Teams mobile app using the Dynamics 365 bot while on the go. 
 - **Dynamics 365 assistant application for Microsoft Teams**: The Dynamics 365 assistant app is available on Microsoft Teams as part of the existing Dynamics 365 app. The app provides sellers with a simple-to-use experience by combining data from multiple sources such as Office 365 and Dynamics 365. For more information, see [Dynamics 365 assistant application for Microsoft Teams](https://docs.microsoft.com/dynamics365/ai/sales/overview-dynamics-365-assistant-app-teams).
 
@@ -45,10 +45,10 @@ Dynamics 365 for Microsoft Teams integration enables users to easily work with c
 > [!div class="mx-imgBorder"] 
 > ![Features of Microsoft Teams app](media/teams-intro.png "Features of Microsoft Teams app")
 
-With the Dynamics 365 for Microsoft Teams integration, add app features that you rely on, to the Microsoft Teams app you collaborate with. This lets you easily work with Common Data Service customer information and share files directly from Microsoft Teams.
+With the Dynamics 365 for Microsoft Teams integration, add app features that you rely on, to the Microsoft Teams app you collaborate with. This lets you easily work with your customer information and share files directly from Microsoft Teams.
 
-- Access Common Data Service records by adding a Dynamics 365 tab into the Microsoft Teams channel. Collaborate at a large scale not only on a single app record (like a sales opportunity) but also on multiple records.
-- Use Microsoft Teams integration to seamlessly collaborate on documents between Common Data Service and Microsoft Teams. 
+- Access customer engagement apps records by adding a Dynamics 365 tab into the Microsoft Teams channel. Collaborate at a large scale not only on a single app record (like a sales opportunity) but also on multiple records.
+- Use Microsoft Teams integration to seamlessly collaborate on documents between customer engagement apps and Microsoft Teams. 
 - Collaborate on a set of records, such as *active opportunity* using Microsoft Teams conversation and easily access records on the go using the Dynamics 365 bot for Microsoft Teams mobile app. 
 
 > [!VIDEO https://www.youtube.com/embed/u0DaRzZDAPc]
