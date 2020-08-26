@@ -28,7 +28,7 @@ For more information, see [Knowledge Base Search control](#knowledge-base-search
 
 ## Knowledge base search control powered by Relevance search 
 
-Knowledge base search in the Customer Service Hub now comes with an improved search functionality. The knowledge base search is now enabled to use Relevance search mechanism in the knowledge base search control area, in addition to the global search area where the Relevance search mechanism was already enabled.
+Knowledge base search in the Customer Service Hub comes with improved search functionality. The knowledge base search is enabled to use Relevance search mechanism in the knowledge base search control area, in addition to the global search area where the Relevance search mechanism was already enabled.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How Relevance Search works](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization)
 
@@ -72,7 +72,7 @@ The Customer Service Hub comes with an enhanced Knowledge Base Search that shows
 When you select the **Knowledge Base Search** option in the **RELATED** section, the **Knowledge Base Search** control loads, and you can view the following:
 
   > [!div class=mx-imgBorder]
-  > ![Knowledge-article-search](media/knowledge-base-search-details.png "Knowledge article search")
+  > ![Knowledge-article-search](media/knowledge-base-search-details.png "View the features in knowledge base search")
 
   1. Knowledge Base Search
   2. Open filter pane
@@ -112,7 +112,7 @@ In the knowledge base search control, you perform the following:
 Type a keyword in the search box to search for knowledge articles.
 
   > [!div class=mx-imgBorder]
-  > ![Knowledge-article-search](media/search-kb-article.PNG "Search for knowledge articles using keywords")
+  > ![Search for knowledge articles](media/search-kb-article.PNG "Search for knowledge articles using keywords")
 
 - If Relevance search is not enabled, the keywords that you enter will initiate  a search (using Full-text search mechanism) in the following fields of a knowledge article: **Title**, **Content**, **Keywords**, **Description**, and **Article Public Number**.
 
@@ -133,7 +133,7 @@ Agents can do the following:
 To configure, see [Configure knowledge base article URLs](#configure-knowledge-base-article-url).
 
   > [!div class=mx-imgBorder]
-  > ![Independent KB search](media/kb-independent-search.png)
+  > ![Independent KB search](media/kb-independent-search.png "Search knowledge articles outside of cases)
 
   1. In the sitemap, select **Knowledge Search**.
   2. In search box, type keywords of an article.  
@@ -151,7 +151,7 @@ Knowledge articles can be configured to their own URLs, which agents can copy an
 2. Select the URL format.
 
    > [!div class=mx-imgBorder]
-   > ![Independent KB search](media/kb-independent-search-url-1.png)
+   > ![Select URL format](media/kb-independent-search-url-1.png "Select the URL format to use")
 
 3. Under **Support Portal Connection**, select **Yes**
 
@@ -160,7 +160,7 @@ Knowledge articles can be configured to their own URLs, which agents can copy an
 5. Select **Save**.
 
     > [!div class=mx-imgBorder]
-    > ![Independent KB search](media/kb-independent-search-url-2.png)
+    > ![Add URL name and save](media/kb-independent-search-url-2.png "Add the URL and then save)
 
 Knowledge based (KB) article URL is now active and can be copied and shared.
 
