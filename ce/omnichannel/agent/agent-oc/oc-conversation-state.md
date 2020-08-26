@@ -38,7 +38,7 @@ The conversation (work items) that is in the queue and not assigned to you (agen
 
 The conversation (work item) transitions from **Open** to **Active** or **Closed** state under the following scenarios.
 
-| From state | To state | Scenario  | Type (Channel and Entity Record) |
+| From state | To state | Scenario  | Type |
 |---------------|------------------|---------------------------------------------------------|------------|
 | Open          | Active           | When you pick the conversation from the **Open work items** stream.<br><br> When the routing and work distribution feature pushes (assigns) the conversation to you. | Channel and Entity Record |
 | Open          | Closed           | When the customer disconnects or ends the chat before the conversation is assigned to you.| Chat |
@@ -51,7 +51,7 @@ The conversation that you pick or that is assigned to you is classified under **
 
 The conversation (work item) transitions from **Active** to **Closed**, **Open**, **Waiting**, or **Wrap-up** state under the following scenarios.
 
-| From state | To state | Scenario  | Type (Channel and Entity Record) |
+| From state | To state | Scenario  | Type  |
 |---------------|------------------|---------------------------------------------------------|------------|
 | Active        | Wrap-up          | When you select the **End** button on communication panel during the conversation with the customer. <br><br> When customer ends the conversation by selecting the **End** button on the portal chat widget (only for a chat channel). | Channel |
 | Active        | Open             | When you disconnect the conversation and don't reconnect within a specified timeout period. <br><br> When you release the conversation to the queue. <br><br> When you transfer the conversation to another queue. <br><br> | Channel  |
@@ -66,7 +66,7 @@ This is an intermediate state after you end the conversation, where you can do a
 
 The conversation (work item) transitions from **Wrap-up** to **Closed** state under the following scenario. 
 
-| From state | To state | Scenario  | Type (Channel and Entity Record) |
+| From state | To state | Scenario  | Type  |
 |---------------|------------------|---------------------------------------------------------|------------|
 | Wrap-up       | Closed           | When you select the **End** button in communication panel and close the session. | Channel |
 
@@ -78,7 +78,7 @@ A conversation in waiting state doesn't block your capacity. The conversation ge
 
 The conversation (work item) transitions from **Waiting** to **Closed**, **Active**, or **Open** state under the following scenarios.
 
-| From state | To state | Scenario  | Type (Channel and Entity Record) |
+| From state | To state | Scenario  | Type |
 |---------------|------------------|---------------------------------------------------------|------------|
 | Waiting       | Closed           | When there's no activity on this conversation from either customer or agent, within inactivity timeout period. <br><br> When the customer selects the **End** button to end the conversation and close the session (only for a chat channel).| Channel  |
 | Waiting       | Active           | When you revive the session from your **My work items** stream on **Omnichannel Agent Dashboard**. | Channel |
