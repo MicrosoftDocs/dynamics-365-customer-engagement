@@ -62,15 +62,17 @@ The App profile manager is an out-of-the-box solution that lets you create targe
 
 Channel Integration Framework version 2.0, which is for multi-session applications, is solution-aware. Given below are the steps to configure channel provider entity in the new unified client interface experience.
 
-1. Select **App profiles**.
+1. Select **App profiles** from the site map and then, select your app profile.
+
+2. Select the **Channels** tab.
 
 ![Select app profiles](../media/channel-app-profile-manager.PNG "Select app profiles")
 
-2. Then, select **Channel provider** tab.
+3. Select **Add channel providers** and then, select **Create a new channel provider in Unified Interface**.
 
 ![Create new channel provider](../media/create-new-channel-provider-app-profile-manager.PNG "Create new channel provider")
 
-3. From the lookup control, open the channel provider entity in the unified client interface.
+4. The **New Channel Provider** page opens in a new tab.
 
 ![Configure channel provider](../media/channel-provider-maker-app.PNG "Configure channel provider")
 
