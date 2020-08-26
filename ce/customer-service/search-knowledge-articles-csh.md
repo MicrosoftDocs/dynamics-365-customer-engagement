@@ -83,9 +83,9 @@ When you select the **Knowledge Base Search** option in the **RELATED** section,
   7. Displays Popout and Email link this article to a record and send via Email 
   8. Link this article to a record and send via Email
   9. Rating
-  10. Link to case
-  11. Views
-  12. Confirmation that record is linked to case
+  10. Unlink an article that is currently linked to a case
+  11. Number of views the article has received
+  12. Confirmation that the record is linked to a case
   13. Article date
 
 
@@ -99,20 +99,20 @@ In the knowledge base search control, you perform the following:
 
 ### Display knowledge article pop outs 
 
-1. In the top right corner, select the ellipsis (...) 
-2. A display window will appear with the Pop out option
-3. Select on **Pop out** option
-4. This will opened and the article will be expanded into a new window.
+1. In the top right corner, select the ellipsis (...).
+2. A pop-out option is displayed.
+3. Select **Pop out**.
+4. The article opens in an expanded form in a new window.
 
   > [!div class=mx-imgBorder]
-  > ![Pop out](media/Knowledge-base-search-3.PNG)
+  > ![Pop out](media/knowledge-base-search-popout.png "Pop out the article in a new window")
 
 ### Search for knowledge articles
 
 Type a keyword in the search box to search for knowledge articles.
 
   > [!div class=mx-imgBorder]
-  > ![Knowledge-article-search](media/search-kb-article.PNG "Knowledge article search")
+  > ![Knowledge-article-search](media/search-kb-article.PNG "Search for knowledge articles using keywords")
 
 - If Relevance search is not enabled, the keywords that you enter will initiate  a search (using Full-text search mechanism) in the following fields of a knowledge article: **Title**, **Content**, **Keywords**, **Description**, and **Article Public Number**.
 
@@ -124,11 +124,11 @@ Type a keyword in the search box to search for knowledge articles.
 
 Agents can do knowledge base searches outside of cases using the **Knowledge Search** option in the sitemap under **Knowledge**.  This functionality performs like a knowledge search hub. 
 
-Agents can perform the following:
+Agents can do the following:
 
 - View a article 
 - Send an article pop out 
-- Copy and send article URLs when configured. 
+- Copy and send article URLs (when preconfigured)
 
 To configure, see [Configure knowledge base article URLs](#configure-knowledge-base-article-url).
 
