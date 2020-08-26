@@ -50,7 +50,7 @@ The Power Apps home page for app profiles is an easy-to-use interface that helps
 > [!IMPORTANT]
 > Omnichannel for Customer Service is available only when you have the Chat for Dynamics 365 license.
 
-The options to access and manage the following entities are available on the app profile left pane:
+The options to access and manage the following entities are available on the left pane of the app profile page:
 
 - Settings
 - Templates
@@ -84,5 +84,9 @@ Session templates: You can navigate to the custom templates created by you and t
 
 
 ### Productivity
+
+## Upgrade experience for existing Omnichannel for Customer Service
+
+When you upgrade your existing environments, the settings for templates, productivity tools, and channels configuration in the out-of-the-box app profile will reflect the existing state of your environment. For example, if productivity pane is enabled and smart assist is configured, the settings will be retained in the out-of-the-box app profile.
 
 

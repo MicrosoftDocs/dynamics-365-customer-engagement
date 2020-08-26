@@ -24,12 +24,14 @@ ms.topic: article
 
 This topic discusses how to use the app profile manager to create app profiles and assign them to users.
 
-By default, one app profile each will be available out of the box for Customer Service workspace and Omnichannel for Customer Service. These profiles can't be deleted or modified. When no app profile is assigned to an agent, the default profile is assigned.
+By default, the following app profiles are available out of the box for Customer Service workspace and Omnichannel for Customer Service. These profiles can't be deleted or modified. When no app profile is assigned to an agent, the default profile is assigned.
+
+- Omnichannel for Customer Service - default profile
+- Customer Service workspace default configuration
 
 ## Prerequisites
 
 To create app profiles for Omnichannel for Customer Service, you must have Chat for Dynamics 365 license.
-
 
 ## Create an app profile
 
@@ -67,3 +69,4 @@ To create app profiles for Omnichannel for Customer Service, you must have Chat 
 3. On the **General** tab, select **Add Existing User**.
 4. On the **Lookup Records** pane, search and select the user.
 5. Select **Add**.
+
