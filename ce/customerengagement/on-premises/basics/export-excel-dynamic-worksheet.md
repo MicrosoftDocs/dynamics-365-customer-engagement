@@ -59,11 +59,9 @@ You can't export data to a dynamic worksheet in [!INCLUDE[pn_Excel_short](../inc
     If an error message displays specifying that the web query returend no data, select **OK**. The excel file appears blank. To resolve the error, follow the steps as described in [Data disappears after I refresh the exported dynamic Excel file](https://docs.microsoft.com/en-us/powerapps/user/ts-export-to-excel#data-disappears-after-i-refresh-the-exported-dynamic-excel-file). 
   
    > [!NOTE]
-   > To view and refresh dynamic data, [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)] must be installed. If it is already installed and configured, select **Refresh from CRM** to sign in to Dynamics 365 Customer Engagement (on-premises). If you do not want to be prompted again to sign in, select **Save my email address and password** in the Sign-In page.  
-   >   
-   > [!NOTE]
-   >  If you have a phone numbers that starts with **+** or **–**, for example +1-123-456-7890, when you refresh the dynamic worksheet the phone number field will not display the number correctly.   
-   > To avoid the issue, use a space or parentheses **()**, like this: +1 123-456-7890 or +1 (123)-456-7890  
+   > - To view and refresh dynamic data, [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)] must be installed. If it is already installed and configured, select **Refresh from CRM** to sign in to Dynamics 365 Customer Engagement (on-premises). If you do not want to be prompted again to sign in, select **Save my email address and password** in the Sign-In page.  
+   > - If you have a phone numbers that starts with **+** or **–**, for example +1-123-456-7890, when you refresh the dynamic worksheet the phone number field will not display the number correctly.   
+   > - To avoid the issue, use a space or parentheses **()**, like this: +1 123-456-7890 or +1 (123)-456-7890  
   
 ## Tips  
   
