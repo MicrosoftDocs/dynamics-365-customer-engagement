@@ -4,7 +4,7 @@ description: See how you can effectively search knowledge articles in the Custom
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 08/01/2019
+ms.date: 08/26/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -72,7 +72,7 @@ The Customer Service Hub comes with an enhanced Knowledge Base Search that shows
 When you select the **Knowledge Base Search** option in the **RELATED** section, the **Knowledge Base Search** control loads, and you can view the following:
 
   > [!div class=mx-imgBorder]
-  > ![Knowledge-article-search](media/Knowledge-base-search-1.png "Knowledge article search")
+  > ![Knowledge-article-search](media/knowledge-base-search-details.png "Knowledge article search")
 
   1. Knowledge Base Search
   2. Open filter pane
