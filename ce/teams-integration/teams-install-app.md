@@ -37,11 +37,13 @@ By default, the Basic and Enhanced Microsoft Teams Integration is disabled in Co
 
 Microsoft Teams integration uses SharePoint integration at the backend. Make sure these prerequisites are met:
 
-- SharePoint Integration is configured and OneDrive Integration is enabled. Also, make sure that OneDrive is disabled.
+- If SharePoint integration is not configured, OneDrive integration must be disabled too. If this is not met, you will get error code 800503ca when you try to enable Teams Integration with customer engagement apps in Dynamics 365.
 
-- Set up document management for model-driven apps in Dynamics 365 to use SharePoint Online. For more information, see [Set up model-driven apps in Dynamics 365 to use SharePoint Online](https://docs.microsoft.com/power-platform/admin/set-up-dynamics-365-online-to-use-sharepoint-online). 
+- If SharePoint Integration is not configured, there should not be any active SharePoint site in your organization. Deactivated SharePoint sites should not cause a problem. If this is not met, you will get error code 800503ca when you try to enable Teams Integration  with customer engagement apps in Dynamics 365. 
 
-- Make sure you don't have other active SharePoint sites in your organization or SharePoint document locations created with an absolute URL in your organization. 
+- If SharePoint Integration is not configured, there should not be any SharePoint document locations created with an absolute URL in your organization. The locations with absolute URL must be deleted. If this is not met, you will get error code 800503ca whne you try to enable Teams Integration with customer engagement apps in Dynamics 365
+
+- If you are currently configured to use SharePoint on-premises for document management, you need to set up document management for model-driven apps to use SharePoint Online. For more information, see [Set up model-driven apps in Dynamics 365 to use SharePoint Online](https://docs.microsoft.com/power-platform/admin/set-up-dynamics-365-online-to-use-sharepoint-online).
 
 - If SharePoint Online admin has enabled control access from unmanaged devices (conditional access policy) to allow/block SharePoint sites from unmanaged devices, then the same restrictions will be applied for Microsoft Teams integration because Microsoft Teams uses SharePoint sites for document management. This might block a user when they try to access a connected team channel file library on a model-driven app page. For more information, see [Control access from unmanaged devices](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices). 
 
