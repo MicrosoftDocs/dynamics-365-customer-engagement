@@ -2,7 +2,7 @@
 title: "Set up input fields to be used in marketing forms (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to set up a form input field and map it to a database field in Dynamics 365 Marketing"
 keywords: marketing form, fields
-ms.date: 07/22/2020
+ms.date: 08/25/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -106,6 +106,9 @@ To create a cascading field:
 ## Adding lookup fields and troubleshooting
 
 After creating a custom entity to use with a lookup field, or if your lookup field is not working, you should double check that you have the settings listed below enabled for the entity you're using with the lookup field.
+
+> [!NOTE]
+> We currently do not support filtering entities by state code. Entities will appear in lookups regardless of their state code.
 
 1. [Enable and configure relevance search](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization#enable-relevance-search) for the entity you want to use with the lookup field. The relevance search configuration is located in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
 
