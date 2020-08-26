@@ -28,7 +28,7 @@ By default, one app profile each will be available out of the box for Customer S
 
 ## Prerequisites
 
-To create app profiles for Omnichannel for Customer Service, you must have the Dynamics 365 Chat license.
+To create app profiles for Omnichannel for Customer Service, you must have Chat for Dynamics 365 license.
 
 
 ## Create an app profile
@@ -44,19 +44,26 @@ To create app profiles for Omnichannel for Customer Service, you must have the D
      > - An underscore must be there between the prefix and the name.
    - **Description:** A description for the profile.
 
-### Assign templates and enable productivity pane and channels
+### Add templates and enable productivity pane and channels
 
 1. On the **App profiles** page, select the app profile to which you want to assign templates.
 2. On the **Session templates**, select **Add entity session template**.
-3. Search for the template you want to add and select it.
+3. Search for the template you want to add and select it. Make sure that the selected template is based on "Entity" type. More information: [Manage session templates](session-templates.md)
    > [!div class=mx-imgBorder]
    > ![App profile session template](media/app-profile-session-template.png "App profile session template")
-4. Do the following on the Productivity pane:
-   1. Set the toggle to On for **Turn on productivity pane**.
+4. Do the following on the **Productivity pane** tab:
+   1. If you want to enable productivity tools, set the toggle to on for **Turn on productivity pane**.
    2. Select the default mode as collapsed or expanded.
-   3. In the Productivity tools section, set the toggle to on for **Smart assist tool configuration** and **Call script tool configuration**.
-5. On the **Channels** tab, set the toggle to on for **All active channels**. The channels configured in Omnichannel are available for the user to whom the profile is assigned.
-6. In the **Voice channels** section, select **Add channel providers** to configure a third-party channel provider. The channel configuration page opens on a new tab.
+   3. In the **Productivity tools** section, set the toggle to on for **Smart assist tool configuration** and **Agent scripts**.
+5. On the **Channels** tab, set the toggle to on for **All active channels**. The channels configured in Omnichannel for Customer Service will be available for the user to whom the profile is assigned.
+6. If you need to  configure a third-party channel provider, in the **Voice channels** section, select **Add channel providers**. The channel configuration page opens on a new tab.
   
+### Assign profiles to users
 
-
+1. On the **App profiles** page, select the profile that you want to assign to a user.
+2. On the ***<profile_name>*** page, select **Assign users** on the command bar, and select **OK** on the message dialog box. The profile opens on a new tab.
+   > [!div class=mx-imgBorder]
+   > ![Assign users](media/assign-users.png "Assign users")
+3. On the **General** tab, select **Add Existing User**.
+4. On the **Lookup Records** pane, search and select the user.
+5. Select **Add**.

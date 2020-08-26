@@ -20,7 +20,7 @@ A session template in the Omnichannel Administration app is a combination of att
 
 When an agent accepts an incoming conversation request from a customer, a session is started. The system opens the **Customer Summary** application that you (an administrator) defined as an **Anchor Tab** in the application tab panel. The **Anchor Tab** can't be closed. Simultaneously, the system expands the communication panel for you to exchange messages with the customer.  
 
-Session templates are used to define the aforementioned session experience such as:
+Session templates are used to define the aforementioned session experience, such as:
 
 - which application must be opened as an anchor tab in the application tab panel;
 - what are the additional application tabs that must be opened when a session is started;
@@ -60,10 +60,14 @@ To create a session template, follow these steps:
     | Tab | Name | Value description | Example |
     |-----------|-------------------|-----------------------------------|-------------------------------------|
     | General | Name | Specify the name of the session. This name won't be visible to the agents at the runtime. | Chat session |
+    | General | Unique Name | Specify a unique name with a prefix. The prefix and suffix should be separated by an underscore. | msdyn_chat_custom |
+    | General | Type | Select one of the following:<br> <ul><li> **Entity:** If you select entity, the **Entity** field is displayed.</li><li>**Generic:** Select when the template is not required to be assigned to an entity. </li>| Entity|
+    | General | Entity | Select an entity from the list.<br> **Note:** The option is displayed only when **Type** is entity. | Case |
     | General | Title | Provide the title of the session that you want agents to see at the runtime. | {customerName} |
     | General | Communication panel mode | Select the default mode of the panel when a session is started. Choose one of the following: <br> <ul><li> **Docked**: The panel will be in expanded mode. </li> <li> **Minimized**: The panel will be in minimized mode. <li> **Hidden**: The panel will be hidden. </ul> <br> **Note**: For an entity routing session—that is, for a case session—the communication panel mode is hidden. | Docked |
     | General | Description | Provide a description for your reference. | The session template is used for a conversation request from Chat channel. |
-    | General | Anchor tab | Select an application from the list. The application is opened by default when the session starts; this application is not closable. | Customer summary |
+    | General | Owner | Search and select an owner. By default, the user who is creating the template is set as the owner | Alan Steiner |
+    | General | Anchor tab | Select an application from the list. The application is opened by default when the session starts and can't be closed. <br> **Note:** The anchor tab option is displayed only when **Type** is generic. | Customer summary |
 
 5. Select **Save**. After you save, the **Additional tabs** option appears on the page.
 
@@ -81,7 +85,7 @@ To create a session template, follow these steps:
 10. Select **Save** to save the changes.
 
    > [!div class=mx-imgBorder]
-   > ![Session template](../media/session-template1.png "Session template")
+   > ![Session template](media/session-template1.png "Session template")
 
 The session template is configured. Now, you must associate the session template with a work stream. To learn more, see [Associate templates with work streams](associate-templates.md).
 

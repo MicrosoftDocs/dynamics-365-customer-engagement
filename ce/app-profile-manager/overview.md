@@ -68,13 +68,18 @@ Irrespective of the path from where you navigate to any of the elements, such as
 
 ### Settings
 
-The **Settings** option under Customer Service workspace takes you to the **Queues** page of Service Management in Customer Service Hub that opens in a new tab and displays the list of queues in Customer Service.
+The **Settings** option in **Customer Service workspace** takes you to the **Queues** page of Service Management in Customer Service Hub that opens in a new tab and displays the list of queues in Customer Service.
 
 For information on queue management in Customer Service Hub, see 
 
-The **Settings** option under Omnichannel Administration takes you to the **Entity Records** page in Omnichannel Administration and displays the list of entity records that are configured.
+The **Settings** option in **Omnichannel Administration** takes you to the **Entity Records** page in Omnichannel Administration and displays the list of entity records that are configured.
 
 ### Templates
+
+The following template types can be accessed:
+
+Session templates: You can navigate to the custom templates created by you and the out-of-the-box templates.
+
 
 
 
