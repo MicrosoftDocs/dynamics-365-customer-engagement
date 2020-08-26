@@ -29,7 +29,7 @@ By default, the Basic and Enhanced Microsoft Teams Integration is disabled in cu
    > ![Settings page](media/teams-system-settings.png "Settings page")
 
    > [!NOTE]
-   > - If Microsoft Teams integration is not enabled on the **System Settings** page, then Microsoft Teams users can still connect to model-driven apps record or view to Microsoft Teams collaboration channel, but the connected Microsoft Teams channel and the file library do not appear in model-driven apps in Dynamics 365.
+   > - If Microsoft Teams integration is not enabled on the **System Settings** page, then Microsoft Teams users can still connect to customer engagement app record or view to Microsoft Teams collaboration channel, but the connected Microsoft Teams channel and the file library do not appear in customer engagement apps in Dynamics 365.
    > - When the feature is enabled, the collaboration feature is [enabled only for a selected set of system entities](https://docs.microsoft.com/dynamics365/teams-integration/teams-collaboration#record-types-that-support-microsoft-teams-integration-in-model-driven-apps). If you want to enable Microsoft Teams integration for additional entities or custom entities, you can only do it programmatically using the **msdyn_SetTeamsDocumentStatus** Web API action. More information: [Enable or disable Microsoft Teams Integration using code](../developer/integration-dev/teams-integration-using-code.md).
    > - If you run into any issues during configuration, see [Troubleshoot configuration issues with Teams Integration](https://docs.microsoft.com/dynamics365/teams-integration/teams-troubleshoot#troubleshoot-configuration-issues-with-microsoft-teams-integration).
 
@@ -43,9 +43,9 @@ Microsoft Teams integration uses SharePoint integration at the backend. Make sur
 
 - If SharePoint Integration is not configured, there should not be any SharePoint document locations created with an absolute URL in your organization. The locations with absolute URL must be deleted. If this is not met, you will get error code 800503ca whne you try to enable Teams Integration with customer engagement apps in Dynamics 365
 
-- If you are currently configured to use SharePoint on-premises for document management, you need to set up document management for model-driven apps to use SharePoint Online. For more information, see [Set up model-driven apps in Dynamics 365 to use SharePoint Online](https://docs.microsoft.com/power-platform/admin/set-up-dynamics-365-online-to-use-sharepoint-online).
+- If you are currently configured to use SharePoint on-premises for document management, you need to set up document management for customer engagement apps to use SharePoint Online. For more information, see [Set up apps in Dynamics 365 to use SharePoint Online](https://docs.microsoft.com/power-platform/admin/set-up-dynamics-365-online-to-use-sharepoint-online).
 
-- If SharePoint Online admin has enabled control access from unmanaged devices (conditional access policy) to allow/block SharePoint sites from unmanaged devices, then the same restrictions will be applied for Microsoft Teams integration because Microsoft Teams uses SharePoint sites for document management. This might block a user when they try to access a connected team channel file library on a model-driven app page. For more information, see [Control access from unmanaged devices](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices). 
+- If SharePoint Online admin has enabled control access from unmanaged devices (conditional access policy) to allow/block SharePoint sites from unmanaged devices, then the same restrictions will be applied for Microsoft Teams integration because Microsoft Teams uses SharePoint sites for document management. This might block a user when they try to access a connected team channel file library on a customer engagement apps page. For more information, see [Control access from unmanaged devices](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices). 
 
 If you get an error while configuring Microsoft Teams Integration from Dynamics 365, it might be because of the above prerequisites are not met. For more infomation, see [Troubleshoot Microsoft Teams integration](https://docs.microsoft.com/dynamics365/teams-integration/teams-troubleshoot#troubleshoot-configuration-issues-with-microsoft-teams-integration).
 
@@ -53,7 +53,7 @@ If you get an error while configuring Microsoft Teams Integration from Dynamics 
 
 1. Sign in as a System administrator to your customer engagement app in Dynamics 365 
 2. Go to **Settings** > **Administration** > **System Settings** > **General** tab.
-3. To enable [basic collaboration experience](teams-collaboration.md), select **Yes** for **Enable Basic Microsoft Teams Integration**. When Basic Microsoft Teams Integration is enabled, the **Collaborate** button appears on records in model-driven apps in Dynamics 365 so you can see the connected team channel or set up a new connection in Microsoft Teams. In addition, in the **Documents** tab on model-driven app record page, the connected team channel file library will appear. 
+3. To enable [basic collaboration experience](teams-collaboration.md), select **Yes** for **Enable Basic Microsoft Teams Integration**. When Basic Microsoft Teams Integration is enabled, the **Collaborate** button appears on records in customer engagement apps in Dynamics 365 so you can see the connected team channel or set up a new connection in Microsoft Teams. In addition, in the **Documents** tab on customer engagement app record page, the connected team channel file library will appear. 
    > [!NOTE]
    >  You can only set **Enable Enhanced Microsoft Teams Integration** to, **Yes** if **Enable Basic Microsoft Teams Integration** is set to, **Yes**. If you don't enable Basic Microsoft Teams Integration then the option **Enable Enhanced Microsoft Teams Integration** is grayed out.  
    >  > [!div class="mx-imgBorder"] 
@@ -61,7 +61,7 @@ If you get an error while configuring Microsoft Teams Integration from Dynamics 
 
 <a name="enhanced"></a>   
 
-4. To enable [enhanced collaboration experience](teams-collaboration-enhanced-experience.md), select **Yes** for **Enable Enhanced Microsoft Teams Integration**. To turn this option on, you need Office 365 tenant admin permissions. When Enhanced Microsoft Teams Integration is enabled, the **Collaborate** button appears on the record and view page in model-driven apps for Dynamics 365. You can set up a connection with any Microsoft Teams collaboration channel within a model-driven app.
+4. To enable [enhanced collaboration experience](teams-collaboration-enhanced-experience.md), select **Yes** for **Enable Enhanced Microsoft Teams Integration**. To turn this option on, you need Office 365 tenant admin permissions. When Enhanced Microsoft Teams Integration is enabled, the **Collaborate** button appears on the record and view page in customer engagement apps. You can set up a connection with any Microsoft Teams collaboration channel within an app.
 
     1. When you select **Yes** to **Enable Enhanced Microsoft Teams Integration**, there is two consent permission popup boxes that will display. If you have a pop-up blocker and you don't see the second consent dialog, then you need to disable the pop-up blocker in your browser.
   
@@ -108,7 +108,7 @@ If you get an error while configuring Microsoft Teams Integration from Dynamics 
    > [!div class="mx-imgBorder"] 
    > ![Add to team](media/teams-store-install-add-team75.png "Add to team")
 
-5. Pick a channel in Microsoft Teams to connect to a model-drvice app record and then select **Set up**.
+5. Pick a channel in Microsoft Teams to connect to an app record and then select **Set up**.
 
    > [!div class="mx-imgBorder"] 
    > ![Pick a channel and select Set up](media/teams-install-app-step2.png "Pick a channel and select Set up")
@@ -149,7 +149,7 @@ See [Collaborate with Microsoft Teams](teams-collaboration.md#have-a-conversatio
 
 
 ## In Microsoft Teams: Set up the personal dashboard
-Set up the personal dashboard (My Dashboard) to interact with model-driven apps in Dynamics 365 without involving other team members.
+Set up the personal dashboard (My Dashboard) to interact with customer engagement apps in Dynamics 365 without involving other team members.
 
 1. Open the Dynamics 365 app.
 
