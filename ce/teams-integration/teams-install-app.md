@@ -23,13 +23,13 @@ search.app:
 ---
 # Install and setup Microsoft Teams integration 
 
-By default, the Basic and Enhanced Microsoft Teams Integration is disabled in Common Data Service. To turn these features on, follow the steps below. To learn more about what the difference, see [Difference between the Basic and Enhanced Collaboration Experience with Microsoft Teams](teams-basic-vs-enhanced-collaboration.md).
+By default, the Basic and Enhanced Microsoft Teams Integration is disabled in customer engagement apps in Dynamics 365. To turn these features on, follow the steps below. To learn more about what the difference, see [Difference between the Basic and Enhanced Collaboration Experience with Microsoft Teams](teams-basic-vs-enhanced-collaboration.md).
 
    > [!div class="mx-imgBorder"] 
    > ![Settings page](media/teams-system-settings.png "Settings page")
 
    > [!NOTE]
-   > - If Microsoft Teams integration is not enabled on the **System Settings** page in Common Data Service, then Microsoft Teams users can still connect to model-driven apps record or view to Microsoft Teams collaboration channel, but the connected Microsoft Teams channel and the file library do not appear in model-driven apps in Dynamics 365.
+   > - If Microsoft Teams integration is not enabled on the **System Settings** page, then Microsoft Teams users can still connect to model-driven apps record or view to Microsoft Teams collaboration channel, but the connected Microsoft Teams channel and the file library do not appear in model-driven apps in Dynamics 365.
    > - When the feature is enabled, the collaboration feature is [enabled only for a selected set of system entities](https://docs.microsoft.com/dynamics365/teams-integration/teams-collaboration#record-types-that-support-microsoft-teams-integration-in-model-driven-apps). If you want to enable Microsoft Teams integration for additional entities or custom entities, you can only do it programmatically using the **msdyn_SetTeamsDocumentStatus** Web API action. More information: [Enable or disable Microsoft Teams Integration using code](../developer/integration-dev/teams-integration-using-code.md).
    > - If you run into any issues during configuration, see [Troubleshoot configuration issues with Teams Integration](https://docs.microsoft.com/dynamics365/teams-integration/teams-troubleshoot#troubleshoot-configuration-issues-with-microsoft-teams-integration).
 
@@ -49,9 +49,9 @@ Microsoft Teams integration uses SharePoint integration at the backend. Make sur
 
 If you get an error while configuring Microsoft Teams Integration from Dynamics 365, it might be because of the above prerequisites are not met. For more infomation, see [Troubleshoot Microsoft Teams integration](https://docs.microsoft.com/dynamics365/teams-integration/teams-troubleshoot#troubleshoot-configuration-issues-with-microsoft-teams-integration).
 
-## For Common Data Service admins: enable Microsoft Teams integration feature 
+## For admins: enable Microsoft Teams integration feature 
 
-1. Sign in as a System administrator to Common Data Service.
+1. Sign in as a System administrator to your customer engagement app in Dynamics 365 
 2. Go to **Settings** > **Administration** > **System Settings** > **General** tab.
 3. To enable [basic collaboration experience](teams-collaboration.md), select **Yes** for **Enable Basic Microsoft Teams Integration**. When Basic Microsoft Teams Integration is enabled, the **Collaborate** button appears on records in model-driven apps in Dynamics 365 so you can see the connected team channel or set up a new connection in Microsoft Teams. In addition, in the **Documents** tab on model-driven app record page, the connected team channel file library will appear. 
    > [!NOTE]
@@ -120,7 +120,7 @@ If you get an error while configuring Microsoft Teams Integration from Dynamics 
    > ![Select environment and app module](media/teams-fre-org-app.png "Select environment and app module")
 
    > [!NOTE]
-   > - Only Common Data Services environments that contain model-driven apps appear in the list. Also, only active environments (those that are not disabled or provisioning) are displayed. 
+   > - Only environments that contain customer engagement apps appear in the list. Also, only active environments (those that are not disabled or provisioning) are displayed. 
    > - Only Unified Interface apps are listed.
    > - Only app modules licensed for the selected environment are listed. 
 
@@ -137,7 +137,7 @@ If you get an error while configuring Microsoft Teams Integration from Dynamics 
    > ![Select a view](media/teams-select-view.png "Select an view")
    
       > [!NOTE]
-   > If you select a personal view (**My Views**) instead of **System Views**, it’s recommended that you share the view with other users in Common Data Service before you add the view to the Microsoft Teams channel. Otherwise, other team members will not have access to the view tab content.
+   > If you select a personal view (**My Views**) instead of **System Views**, it’s recommended that you share the view with other users before you add the view to the Microsoft Teams channel. Otherwise, other team members will not have access to the view tab content.
 
 
 8. After completing the above steps, you will see a new Dynamics 365 tab in the selected team channel. 
@@ -156,13 +156,13 @@ Set up the personal dashboard (My Dashboard) to interact with model-driven apps 
    > [!div class="mx-imgBorder"] 
    > ![Open the Dynamics 365 app](media/teams-pick-app.png "Open the Dynamics 365 app")
 
-2. Select a Common Data Service environment and a Unified Interface app to connect with model-driven apps in Dynamics 365, and then choose **Save Changes**.
+2. Select an environment and a Unified Interface app to connect with customer engagement apps in Dynamics 365, and then choose **Save Changes**.
 
    > [!div class="mx-imgBorder"] 
    > ![Select environment and app module](media/teams-mydashboard-org-app.png "Select environment and app module")
 
    > [!NOTE]
-   > - Only Common Data Service environments appear in the list. Also, only active environments (those that are not disabled or provisioning) are displayed. 
+   > - Only environments that have customer engagement apps in Dynamics 365 appear in the list. Also, only active environments (those that are not disabled or provisioning) are displayed. 
    > - Only Unified Interface apps are listed.
    > - Only app modules licensed for the selected environments are listed. 
 
