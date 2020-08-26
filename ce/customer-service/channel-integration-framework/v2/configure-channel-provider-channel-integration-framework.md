@@ -60,7 +60,7 @@ To configure channel providers:
 
 The App profile manager is an out-of-the-box solution that lets you create targeted app experiences for agents and supervisors. More information: [App profile manager](../../../../app-profile-manager/overview.md).
 
-Channel Integration Framework version 2.0, which is for multi-session applications, is solution-aware. Given below are the steps to configure channel provider entity in the new unified client interface experience.
+Channel Integration Framework version 2.0 is solution-aware and for multi-session applications. Given below are the steps to configure a new channel provider using the App profile manager.
 
 1. Select **App profiles** from the site map and then, select your app profile.
 
