@@ -167,6 +167,11 @@ Knowledge based (KB) article URL is now active and can be copied and shared.
 ### Filter knowledge articles
 
 With the help of text and visual filters, you can filter the knowledge articles. To see knowledge articles in specific states, use the **Status** filter. You can filter search results to see all draft, published, or approved articles. See articles that are categorized as internal and external. You can also filter the articles based on date and language.
+
+  > [!div class=mx-imgBorder]
+  > ![Knowledge article filter](media/km-filter1.png "Knowledge article filter")  
+  
+  
 When you select the filter icon, you can see the **Filter by** menu where you can filter the items based on the following categories.
 
   | Category | Sub-category |
@@ -176,8 +181,7 @@ When you select the filter icon, you can see the **Filter by** menu where you ca
   | Date | <ul> <li> Last 7 days </li> <li> Last 30 days </li> <li> Last 6 months </li> <li> Last year </li> <li> All </li> </ul> |
   | Language | <ul> <li> List of languages </li> </ul> **Note:** The language list is based on the articles that are present in the those languages. For example, there are a total of 50 articles in five different languages such as French, English, Japanese, Spanish, and Danish. The language filter will show only these five languages. |
 
-  > [!div class=mx-imgBorder]
-  > ![Knowledge article filter](media/km-filter1.png "Knowledge article filter")  
+  
 
 ### Sort knowledge articles
 
@@ -196,7 +200,7 @@ The knowledge base search control provides sort the knowledge articles interacti
 When configured, you can link an article to case. You can associate and dissociate the knowledge article with a record.
 
   > [!div class=mx-imgBorder]
-  > ![Link to case](media/Knowledge-base-search-2.PNG)
+  > ![Link to case](media/knowledge-base-search-2.PNG)
 
   
 1. From the navigation in the top right of the article there is a link icon. 
