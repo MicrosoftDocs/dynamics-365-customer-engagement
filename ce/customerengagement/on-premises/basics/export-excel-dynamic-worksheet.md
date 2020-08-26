@@ -29,7 +29,7 @@ Export data to a [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] w
 >  Your operating system region settings (in [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)], **Control Panel** > **Region**) and Dynamics 365 Customer Engagement (on-premises) organization language and locale (**Settings** > **Administration** > **System Settings** > **Formats tab** > **Current Format**) should be the same. If not, refreshing dynamic data with **Refresh from CRM** might cause data changes.  
   
 ## Export data to an Excel dynamic worksheet  
- You can't export data to a dynamic worksheet in [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] for all Dynamics 365 Customer Engagement (on-premises) record types. If you don't see the option, it's not available for that record.  
+You can't export data to a dynamic worksheet in [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] for all Dynamics 365 Customer Engagement (on-premises) record types. If you don't see the option, it's not available for that record.  
   
 1. Open a list of records.
 
@@ -54,14 +54,14 @@ Export data to a [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] w
   
 6. If you see the security warning **External Data Connections have been disabled**, select **Enable Content**.  
   
-7. To refresh data in the file, on the **Data** tab, select **Refresh from CRM**.  
+7. To refresh data in the file, on the **Data** tab, select **Refresh All** > **Refresh All**. 
+
+    If a warning message displays specifying that the web query returned no data, select **OK**. The excel file appears blank. To resolve the warning, follow the steps as described in [Data disappears after I refresh the exported dynamic Excel file](https://docs.microsoft.com/powerapps/user/ts-export-to-excel#data-disappears-after-i-refresh-the-exported-dynamic-excel-file). 
   
    > [!NOTE]
-   >  To view and refresh dynamic data, [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)] must be installed. If it is already installed and configured, select **Refresh from CRM** to sign in to Dynamics 365 Customer Engagement (on-premises).  If you do not want to be prompted again to sign in, select **Save my email address and password** in the Sign-In page.  
-   > 
-   > [!NOTE]
-   >  If you have a phone numbers that starts with **+** or **–**, for example +1-123-456-7890, when you refresh the dynamic worksheet the phone number field will not display the number correctly.   
-   > To avoid the issue, use a space or parentheses **()**, like this: +1 123-456-7890 or +1 (123)-456-7890  
+   > - To view and refresh dynamic data, [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)] must be installed. If it is already installed and configured, select **Refresh from CRM** to sign in to Dynamics 365 Customer Engagement (on-premises). If you do not want to be prompted again to sign in, select **Save my email address and password** in the Sign-In page.  
+   > - If you have a phone numbers that starts with **+** or **–**, for example +1-123-456-7890, when you refresh the dynamic worksheet the phone number field will not display the number correctly.   
+   > - To avoid the issue, use a space or parentheses **()**, like this: +1 123-456-7890 or +1 (123)-456-7890  
   
 ## Tips  
   
