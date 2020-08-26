@@ -56,7 +56,9 @@ To configure channel providers:
 **The communication widget in the expanded mode**<br><br>
 ![communication widget in the expanded mode](../media/widget-expanded-mode-v2.PNG "communication widget in the expanded mode")
 
-## Configure channel provider using Experience Designer
+## Configure channel provider using App profile manager
+
+The App profile manager is an out-of-the-box solution that lets you create targeted app experiences for agents and supervisors. More information: []().
 
 Channel Integration Framework version 2.0, which is for multi-session applications, is solution-aware. Given below are the steps to configure channel provider entity in the new unified client interface experience.
 
