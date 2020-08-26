@@ -3,7 +3,8 @@ title: "Enable file attachments | MicrosoftDocs"
 description: "Enable file attachments in messaging channels in Omnichannel for Customer Service."
 author: platkat
 ms.author: ktaylor
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
+manager: shujoshi
 ms.date: 08/25/2020
 ms.service: 
   - "dynamics-365-customerservice"

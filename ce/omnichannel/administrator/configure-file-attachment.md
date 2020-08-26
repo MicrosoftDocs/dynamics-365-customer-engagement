@@ -4,6 +4,7 @@ description: "Instructions to configure file attachment capability for a chat wi
 author: platkat
 ms.author: ktaylor
 ms.reviewer: nenellim
+manager: shujoshi
 ms.date: 08/25/2020
 ms.service: 
   - "dynamics-365-customerservice"
