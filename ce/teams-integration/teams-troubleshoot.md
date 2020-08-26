@@ -221,12 +221,15 @@ To work around this issue, your tenant admin will need to remove this policy fro
 
 ### Error: Blocked a frame with origin from accessing a cross-origin frame
 
-A few pages in customer engagment apps in Dynamics 365 can only be opened in a browser window as they make use of JavaScript functions trying to access DOM elements and properties through `top` are not supported to load within Microsoft Teams. When this page is opened without any iframe then it works fine as top most window’s context is customer engagment apps page and required attributes and properties are available. Whereas when this same page is opened within Microsoft Teams, it's actually loaded inside an iframe where `top` represent top most window context which is Microsoft Teams window and not the customer engagement app page. Hence it's not able to find relevant attributes and properties which leads to showing of error message **Blocked a frame with origin from accessing a cross-origin frame** in the browser console. For example, if you open the schedule board page for Dynamics 365 Project Service Automation within Microsoft Teams, you will get this error.
+A few pages in customer engagement apps in Dynamics 365 can only be opened in a browser window as they make use of JavaScript functions trying to access DOM elements and properties through `window.top` are not supported to load within Microsoft Teams. When this page is opened without any iframe then it works fine as top most window’s context is customer engagement apps page and required attributes and properties are available. Whereas when this same page is opened within Microsoft Teams, it's actually loaded inside an iframe where `window.top` represent top most window context which is Microsoft Teams window and not the customer engagement app page. Hence it's not able to find relevant attributes and properties which leads to showing of error message **Blocked a frame with origin from accessing a cross-origin frame** in the browser console. For example, if you open the schedule board page for Dynamics 365 Project Service Automation within Microsoft Teams, you will get this error.
 
-To work around this, opep the page in your customer engagement app and not in Microsoft Teams.
+To work around this, open the page in your customer engagement app and not in Microsoft Teams.
 
 If the page which is showing the error message, contains a custom resource (javascript, custom control etc.), please ensure `window` is not used in the JavaScript as it may cause the page to not load at all or not load properly. For more information, see [Avoid using window top](https://docs.microsoft.com/powerapps/developer/model-driven-apps/best-practices/business-logic/avoid-window-top).
 
-###  Documents are no longer visible in the pinned tab record when a team member leaves a team
+### Documents can be accessed in your customer engagement app using the Documents tab in an entity record even after user has left the team.
 
-When a team member leaves a team the documents for the record are not visible in the tab created for the record in Teams. However, you can still view all documents associated with that record for the team in your model-driven app.
+Whenever a member leaves the team where a app record was pinned, the **Files** tab in Microsoft Teams which shows the documents shared in the team won’t be visible anymore as the user would lose access to the team. However, the user can still go to the customer engagement app in Dynamics 365 and access the record in the that was pinned in the team and can access files in the **Documents** tab in the **Related** section.
+
+To disable the user from accessing to the documents in the record from by going to the customer engagement app in Dynamics 365, an admin can remove the access of the record to the user or control the permission using the SharePoint site permissions.
+
