@@ -43,9 +43,6 @@ Before you configure outbound messaging, make sure that the following prerequisi
 
 After completing the prerequisites, you can send outbound messages from your organization by following these steps:
 
-- [Preview: Configure outbound messaging](#preview-configure-outbound-messaging)
-  - [Overview](#overview)
-  - [Prerequisites](#prerequisites)
   - [Step 1: Set up message templates](#step-1-set-up-message-templates)
   - [Step 2: Set up outbound configuration](#step-2-set-up-outbound-configuration)
   - [Step 3: Set up a Power Automate flow](#step-3-set-up-a-power-automate-flow)
