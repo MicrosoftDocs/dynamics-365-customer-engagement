@@ -23,7 +23,7 @@ With the Dynamics 365 Channel Integration Framework app, you can configure the c
 
 ## Challenges of channel provider integration systems
 
-Organizations expect their call centers to do more while using fewer resources. There's a constant drive to increase productivity by having call center agents handle more phone calls. Reducing the average time to handle customer calls can save companies millions of dollars. A telephony channel in a call center<!--note from editor: I don't quite know what this is saying. What is a "key indicator for success" here? A reliable telephony channel, or the ability to have several of them, or just having one at all? It seems to me you couldn't even have a call center without a telephony channel, but I must be missing something.--> is one of the key indicators for success and customer satisfaction. Some of the challenges the call center industry faces with telephony channels include:
+Organizations expect their call centers to do more while using fewer resources. There's a constant drive to increase productivity by having call center agents handle more phone calls. Reducing the average time to handle customer calls can save companies millions of dollars. A telephony channel in a call center is one of the key indicators for success and customer satisfaction. Some of the challenges the call center industry faces with telephony channels include:
 
 -  Integrating third-party telephony and custom messaging channels into their customer relationship management (CRM) platform.
 -  Accessing and performing operations on the CRM platform from the telephony widget area.

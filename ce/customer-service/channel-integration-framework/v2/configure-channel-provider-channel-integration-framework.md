@@ -4,7 +4,7 @@ description: "Learn how to configure a channel provider install and setup Channe
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.date: 02/14/2020
+ms.date: 08/26/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -55,6 +55,14 @@ To configure channel providers:
 
 **The communication widget in the expanded mode**<br><br>
 ![communication widget in the expanded mode](../media/widget-expanded-mode-v2.PNG "communication widget in the expanded mode")
+
+## Configure channel provider using Experience Designer
+
+Channel Integration Framework version 2.0, which is for multi-session applications, is solution-aware. Given below are the steps to configure channel provider entity in the new unified client interface experience.
+
+1. Select **App profile**.
+2. Then, select **Channel provider** tab.
+3. From the lookup control, open the channel provider entity in the unified client interface.
 
 ## See also
 
