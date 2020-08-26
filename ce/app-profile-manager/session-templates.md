@@ -61,7 +61,7 @@ To create a session template, follow these steps:
     |-----------|-------------------|-----------------------------------|-------------------------------------|
     | General | Name | Specify the name of the session. This name won't be visible to the agents at the runtime. | Chat session |
     | General | Unique Name | Specify a unique name with a prefix. The prefix and suffix should be separated by an underscore. | msdyn_chat_custom |
-    | General | Type | Select one of the following:<br> <ul><li> **Entity:** If you select entity, the **Entity** field is displayed.</li><li>**Generic:** Select when the template is not required to be assigned to an entity. </li>| Entity|
+    | General | Type | Select one of the following:<br> <ul><li> **Entity:** If you select entity, the **Entity** field is displayed.</li><li>**Generic:** Select when the template is  required to be assigned to any channel. </li>| Entity|
     | General | Entity | Select an entity from the list.<br> **Note:** The option is displayed only when **Type** is entity. | Case |
     | General | Title | Provide the title of the session that you want agents to see at the runtime. | {customerName} |
     | General | Communication panel mode | Select the default mode of the panel when a session is started. Choose one of the following: <br> <ul><li> **Docked**: The panel will be in expanded mode. </li> <li> **Minimized**: The panel will be in minimized mode. <li> **Hidden**: The panel will be hidden. </ul> <br> **Note**: For an entity routing session—that is, for a case session—the communication panel mode is hidden. | Docked |

@@ -78,12 +78,17 @@ The **Settings** option in **Omnichannel Administration** takes you to the **Ent
 
 The following template types can be accessed:
 
-Session templates: You can navigate to the custom templates created by you and the out-of-the-box templates.
-
-
-
+- **Session templates:** You can navigate to the custom templates created by you and the out-of-the-box templates.
+- **Application tabs:** 
+- **Notifications:**
 
 ### Productivity
+
+You can access the following options in the **Productivity** area:
+
+- **Smart assist:** 
+- **Agent scripts:** 
+- **Macros:** 
 
 ## Upgrade experience for existing Omnichannel for Customer Service
 

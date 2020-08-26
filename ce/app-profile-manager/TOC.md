@@ -11,4 +11,5 @@
 ### [Manage macros]
 
 # [Customer Service workspace](customer-service/../../customer-service/csw-overview.md)
-# [Omnichannel for Customer Service]
+# [Omnichannel for Customer Service](omnichannel/(omnichannel-customer-service-guide.md)
+# [Dynamics 365 Channel Integration Framework Guide](customer-service/channel-integration-framework/channel-integration-framework)
