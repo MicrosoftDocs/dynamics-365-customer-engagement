@@ -1,5 +1,5 @@
 ---
-title: "Integrate model-driven apps in Dynamics 365 with Microsoft Teams| MicrosoftDocs"
+title: "Integrate customer engagement apps in Dynamics 365 with Microsoft Teams| MicrosoftDocs"
 ms.custom: 
 description: "Integrate model-driven apps in Dynamics 365 with Microsoft Teams."
 ms.date: 08/24/2020
@@ -21,10 +21,9 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Microsoft Teams integration with model-driven apps in Dynamics 365 
+# Microsoft Teams integration with customer engagement apps in Dynamics 365 
 
-## Overview 
-If you're familiar with [Microsoft Teams](https://products.office.com/microsoft-teams/group-chat-software), you know it's the place to manage all your conversations, files, and tools in one team workspace. Create and edit documents right in the app and enjoy instant access to SharePoint, OneNote, Power BI, and now, model-driven apps in Dynamics 365.
+If you're familiar with [Microsoft Teams](https://products.office.com/microsoft-teams/group-chat-software), you know it's the place to manage all your conversations, files, and tools in one team workspace. Create and edit documents right in the app and enjoy instant access to SharePoint, OneNote, Power BI, and now, customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation).
 
 
    > [!NOTE]
@@ -33,7 +32,8 @@ If you're familiar with [Microsoft Teams](https://products.office.com/microsoft-
    >  - Common Data Service environment
    >  - Legacy web client or legacy apps
 
-Dynamics 365 for Microsoft Teams integration enables users to easily work with model-driven apps customer information and share files directly from Microsoft Teams. This helps them to be more productive and get work done more effectively. 
+
+Dynamics 365 for Microsoft Teams integration enables users to easily work with customer information in customer engagement apps (such as Dynamics 365 Sales and Dynamics 365 Customer Service) and share files directly from Microsoft Teams. This helps them to be more productive and get work done more effectively. 
 
 - **Collaboration hub**: Access a shared workspace for Office apps that most of us already use to work sales opportunities.  
 - **Cross-functional collaboration**: Work together with customers and any colleague across functions, even if they aren’t a Dynamics 365 apps user.
@@ -45,7 +45,7 @@ Dynamics 365 for Microsoft Teams integration enables users to easily work with m
 > [!div class="mx-imgBorder"] 
 > ![Features of Microsoft Teams app](media/teams-intro.png "Features of Microsoft Teams app")
 
-With the Dynamics 365 for Microsoft Teams integration, add model-driven app features that you rely on, to the Microsoft Teams app you collaborate with. This lets you easily work with Common Data Service customer information and share files directly from Microsoft Teams.
+With the Dynamics 365 for Microsoft Teams integration, add app features that you rely on, to the Microsoft Teams app you collaborate with. This lets you easily work with Common Data Service customer information and share files directly from Microsoft Teams.
 
 - Access Common Data Service records by adding a Dynamics 365 tab into the Microsoft Teams channel. Collaborate at a large scale not only on a single app record (like a sales opportunity) but also on multiple records.
 - Use Microsoft Teams integration to seamlessly collaborate on documents between Common Data Service and Microsoft Teams. 
@@ -59,7 +59,7 @@ With the Dynamics 365 for Microsoft Teams integration, add model-driven app feat
 
 ## Privacy notice
 
-While using the model-driven apps in Dynamics 365 bot in Microsoft Teams, the user’s text inputs are analyzed for understanding the underlying query/intent. The user’s input such as “Search account Contoso” is routed to one of Microsoft’s Cognitive Service called Language Understanding Intelligent Service (LUIS). Read more about LUIS [here](https://www.luis.ai/). The LUIS service disambiguates or understands the intent of user input (in this case, the intent is to find information) and the target entity (in this case, the intended entity is an account named Contoso). This information is then passed on to Microsoft’s [Azure bot framework](https://azure.microsoft.com/services/bot-service/) which interacts with Dynamics 365 data and retrieves the desired information for the user query.
+While using the customer engagement apps in Dynamics 365 bot in Microsoft Teams, the user’s text inputs are analyzed for understanding the underlying query/intent. The user’s input such as “Search account Contoso” is routed to one of Microsoft’s Cognitive Service called Language Understanding Intelligent Service (LUIS). Read more about LUIS [here](https://www.luis.ai/). The LUIS service disambiguates or understands the intent of user input (in this case, the intent is to find information) and the target entity (in this case, the intended entity is an account named Contoso). This information is then passed on to Microsoft’s [Azure bot framework](https://azure.microsoft.com/services/bot-service/) which interacts with Dynamics 365 data and retrieves the desired information for the user query.
 
 By installing and allowing access to use of the bot, you agree to allow the LUIS service and Azure bot framework to process the intent behind the input – which results in an enhanced conversational user experience. The LUIS service and Azure bot framework may have varying levels of compliance compared to Dynamics 365 Sales apps. While the LUIS service has access to only the user queries and is not designed to be connected to the user’s Dynamics data or account, a user of the Dynamics 365 Sales bot could voluntarily enter a query containing Customer Data, Personal Data or other data and such query content could get sent to the LUIS service and the Azure bot framework. 
 

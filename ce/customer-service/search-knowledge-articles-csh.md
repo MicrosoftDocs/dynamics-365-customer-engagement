@@ -4,7 +4,7 @@ description: See how you can effectively search knowledge articles in the Custom
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 08/01/2019
+ms.date: 08/26/2020
 ms.topic: article
 ms.service: 
   - dynamics-365-customerservice
@@ -28,7 +28,7 @@ For more information, see [Knowledge Base Search control](#knowledge-base-search
 
 ## Knowledge base search control powered by Relevance search 
 
-Knowledge base search in the Customer Service Hub now comes with an improved search functionality. The knowledge base search is now enabled to use Relevance search mechanism in the knowledge base search control area, in addition to the global search area where the Relevance search mechanism was already enabled.
+Knowledge base search in the Customer Service Hub comes with improved search functionality. The knowledge base search is enabled to use Relevance search mechanism in the knowledge base search control area, in addition to the global search area where the Relevance search mechanism was already enabled.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How Relevance Search works](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization)
 
@@ -72,7 +72,7 @@ The Customer Service Hub comes with an enhanced Knowledge Base Search that shows
 When you select the **Knowledge Base Search** option in the **RELATED** section, the **Knowledge Base Search** control loads, and you can view the following:
 
   > [!div class=mx-imgBorder]
-  > ![Knowledge-article-search](media/Knowledge-base-search-1.png "Knowledge article search")
+  > ![Knowledge-article-search](media/knowledge-base-search-details.png "View the features in knowledge base search")
 
   1. Knowledge Base Search
   2. Open filter pane
@@ -83,9 +83,9 @@ When you select the **Knowledge Base Search** option in the **RELATED** section,
   7. Displays Popout and Email link this article to a record and send via Email 
   8. Link this article to a record and send via Email
   9. Rating
-  10. Link to case
-  11. Views
-  12. Confirmation that record is linked to case
+  10. Unlink an article that is currently linked to a case
+  11. Number of views the article has received
+  12. Confirmation that the record is linked to a case
   13. Article date
 
 
@@ -99,20 +99,20 @@ In the knowledge base search control, you perform the following:
 
 ### Display knowledge article pop outs 
 
-1. In the top right corner, select the ellipsis (...) 
-2. A display window will appear with the Pop out option
-3. Select on **Pop out** option
-4. This will opened and the article will be expanded into a new window.
+1. In the top right corner, select the ellipsis (...).
+2. A pop-out option is displayed.
+3. Select **Pop out**.
+4. The article opens in an expanded form in a new window.
 
   > [!div class=mx-imgBorder]
-  > ![Pop out](media/Knowledge-base-search-3.PNG)
+  > ![Pop out](media/knowledge-base-search-popout.png "Pop out the article in a new window")
 
 ### Search for knowledge articles
 
 Type a keyword in the search box to search for knowledge articles.
 
   > [!div class=mx-imgBorder]
-  > ![Knowledge-article-search](media/search-kb-article.PNG "Knowledge article search")
+  > ![Search for knowledge articles](media/search-kb-article.PNG "Search for knowledge articles using keywords")
 
 - If Relevance search is not enabled, the keywords that you enter will initiate  a search (using Full-text search mechanism) in the following fields of a knowledge article: **Title**, **Content**, **Keywords**, **Description**, and **Article Public Number**.
 
@@ -124,16 +124,16 @@ Type a keyword in the search box to search for knowledge articles.
 
 Agents can do knowledge base searches outside of cases using the **Knowledge Search** option in the sitemap under **Knowledge**.  This functionality performs like a knowledge search hub. 
 
-Agents can perform the following:
+Agents can do the following:
 
 - View a article 
 - Send an article pop out 
-- Copy and send article URLs when configured. 
+- Copy and send article URLs (when preconfigured)
 
 To configure, see [Configure knowledge base article URLs](#configure-knowledge-base-article-url).
 
   > [!div class=mx-imgBorder]
-  > ![Independent KB search](media/kb-independent-search.png)
+  > ![Independent KB search](media/kb-independent-search.png "Search knowledge articles outside of cases)
 
   1. In the sitemap, select **Knowledge Search**.
   2. In search box, type keywords of an article.  
@@ -151,7 +151,7 @@ Knowledge articles can be configured to their own URLs, which agents can copy an
 2. Select the URL format.
 
    > [!div class=mx-imgBorder]
-   > ![Independent KB search](media/kb-independent-search-url-1.png)
+   > ![Select URL format](media/kb-independent-search-url-1.png "Select the URL format to use")
 
 3. Under **Support Portal Connection**, select **Yes**
 
@@ -160,13 +160,18 @@ Knowledge articles can be configured to their own URLs, which agents can copy an
 5. Select **Save**.
 
     > [!div class=mx-imgBorder]
-    > ![Independent KB search](media/kb-independent-search-url-2.png)
+    > ![Add URL name and save](media/kb-independent-search-url-2.png "Add the URL and then save)
 
 Knowledge based (KB) article URL is now active and can be copied and shared.
 
 ### Filter knowledge articles
 
 With the help of text and visual filters, you can filter the knowledge articles. To see knowledge articles in specific states, use the **Status** filter. You can filter search results to see all draft, published, or approved articles. See articles that are categorized as internal and external. You can also filter the articles based on date and language.
+
+  > [!div class=mx-imgBorder]
+  > ![Knowledge article filter](media/km-filter1.png "Knowledge article filter")  
+  
+  
 When you select the filter icon, you can see the **Filter by** menu where you can filter the items based on the following categories.
 
   | Category | Sub-category |
@@ -176,8 +181,7 @@ When you select the filter icon, you can see the **Filter by** menu where you ca
   | Date | <ul> <li> Last 7 days </li> <li> Last 30 days </li> <li> Last 6 months </li> <li> Last year </li> <li> All </li> </ul> |
   | Language | <ul> <li> List of languages </li> </ul> **Note:** The language list is based on the articles that are present in the those languages. For example, there are a total of 50 articles in five different languages such as French, English, Japanese, Spanish, and Danish. The language filter will show only these five languages. |
 
-  > [!div class=mx-imgBorder]
-  > ![Knowledge article filter](media/km-filter1.png "Knowledge article filter")  
+  
 
 ### Sort knowledge articles
 
@@ -196,12 +200,12 @@ The knowledge base search control provides sort the knowledge articles interacti
 When configured, you can link an article to case. You can associate and dissociate the knowledge article with a record.
 
   > [!div class=mx-imgBorder]
-  > ![Link to case](media/Knowledge-base-search-2.PNG)
+  > ![Link to case](media/knowledge-base-search-2.png "Link or unlink a knowledge article with a record")
 
   
-1. From the navigation in the top right of the article there is a link icon. 
-2. When configured, you can select the link icon and this will link the article to a case.
-3. Articles that are linked to a case will display  **Linked to Case** in blue in the bottom left and the link icon will update and display as: ![Linked to case](media/km-linked-icon.png)
+1. In the top right of the article, there's a link icon. 
+2. If linking is preconfigured, you can select the link icon and it will link the article to your case.
+3. Articles that are linked to a case will display  **Linked to Case** in blue in the bottom left and the link icon will update to show the link.
 
 ### Email the knowledge article
 
