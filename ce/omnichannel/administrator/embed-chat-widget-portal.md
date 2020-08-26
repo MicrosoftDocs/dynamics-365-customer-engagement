@@ -45,6 +45,17 @@ To embed a chat widget in Power Apps portals:
     > ![Paste code snippet of a chat widget](../media/paste-snippet.png "Paste code snippet of a chat widget")
 10.	Save the changes. The chat widget is now embedded into the portal.
 
+## Embed chat widget in mobile experiences
+
+To embed a chat widget in a mobile app:
+
+1. Create the code snippet. Refer to [Render a live chat widget on the mobile app](../developer/how-to/render-live-chat-widget-mobile.md) for samples showing how to enable rendering of the web version of the live chat widget on mobile devices.
+2.	Sign in to Omnichannel Administration.
+3.	Go to **Channels** &gt; **Chat**.
+4.	Open the chat widget you want to embed in your website or create a new one.
+5.	On the **Basic details** tab, copy the widget snippet code you created or modified into the **Code snippet** section.
+6.  Copy the widget snippet code from the **Code snippet** section and paste it in the source code of your mobile operating system. 
+
 ## Customer experience of chat widget
 
 After the chat widget is configured, it has the following capabilities:
@@ -71,7 +82,7 @@ After the chat widget is configured, it has the following capabilities:
 - **End chat**: A customer can end the chat by selecting the **Close chat** button. A confirmation message is displayed before ending the chat.
 
 > [!NOTE]
-> For advanced configuration like embedding chat widget on specific web pages, see [Manage portal content](../../portals/manage-portal-content.md). For steps to embed your chat widget into mobile experiences, see [Render a live chat widget on the mobile app](../developer/how-to/render-live-chat-widget-mobile.md).
+> For advanced configuration like embedding chat widget on specific web pages, see [Manage portal content](../../portals/manage-portal-content.md). 
 
 ### See also
 
@@ -82,5 +93,5 @@ After the chat widget is configured, it has the following capabilities:
 [Create quick replies](create-quick-replies.md) <br>
 [Create and manage operating hours](create-operating-hours.md) <br>
 [Create chat authentication settings](create-chat-auth-settings.md) <br>
-[Embed chat widget in your website or Power Apps portal](embed-chat-widget-portal.md)
+[Embed chat widget in your website or Power Apps portal](embed-chat-widget-portal.md)<br>
 [Render a live chat widget on the mobile app](../developer/how-to/render-live-chat-widget-mobile.md) 
