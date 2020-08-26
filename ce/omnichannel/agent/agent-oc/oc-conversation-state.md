@@ -4,7 +4,7 @@ description: "Learn what the conversation states are in Omnichannel."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/31/2020
+ms.date: 08/26/2020
 ms.service: 
   - "dynamics-365-customerservice"
 ms.topic: article
@@ -28,7 +28,7 @@ Types of conversation states:
 
  - [Closed](#closed) 
 
- ![Omnichannel conversation states](../../media/oc-conversation-state.png "Conversation states")
+ ![Omnichannel conversation states](../../media/oc-conversation-state1.png "Conversation states")
 
 ## Open
 
