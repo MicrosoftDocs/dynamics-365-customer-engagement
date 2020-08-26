@@ -39,7 +39,7 @@ If an agent transfers the chat to another agent, the agent who receives the chat
 
 ## Customer experience of attaching a file
 
-When the file attachment capability is enabled for customers, the attachment icon is displayed in the chat widget. A customer can then use the **Attach** icon to send files. Drag-and-drop is not supported. 
+When the file attachment capability is enabled for customers, the attachment icon is displayed in the chat widget. A customer can then use the **Attach** icon to send files. The drag-and-drop operation is not supported. 
 
 > [!div class=mx-imgBorder]
 > ![File attachment icon](../media/file-attach-icon.png "File attachment icon")
