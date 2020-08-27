@@ -3,7 +3,7 @@ title: "Web API Helper code: Authentication class (Developer Guide for Dynamics 
 description: "Authentication class assists in establishing a validated connection to a Dynamics 365 Customer Engagement Web service"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: susikka
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

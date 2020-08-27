@@ -219,7 +219,12 @@ A user may get this error when they try to connect a record or a view to a team 
 To work around this issue, your tenant admin will need to remove this policy from Azure Portal.
 
 
+### Error: Blocked a frame with origin from accessing a cross-origin frame
 
+There are some pages in model-driven apps that can only be opened in a brower window. If one of these pages is opened within an iframe of any container application such as Teams, then you will get this error message, **Blocked a frame with origin from accessing a cross-origin frame**.
 
+To work around this, open the page in the model-driven app and not in Teams.
 
+###  Documents are no longer visible in the pinned tab record when a team member leaves a team
 
+When a team member leaves a team the documents for the record are not visible in the tab created for the record in Teams. However, you can still view all documents associated with that record for the team in your model-driven app.
