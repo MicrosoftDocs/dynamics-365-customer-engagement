@@ -3,7 +3,7 @@ title: "Upload and manage document templates in Dynamics 365 Customer Engagement
 description: "Learn about manging document templates and exporting data as excel or word files using upload and manage document templates."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

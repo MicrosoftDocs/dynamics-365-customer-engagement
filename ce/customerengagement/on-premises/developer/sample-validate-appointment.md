@@ -3,7 +3,7 @@ title: "Sample: Validate an appointment (Developer Guide for Dynamics 365 Custom
 description: "Sample demonstrates how to validate an appointment using the ValidateRequest message."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

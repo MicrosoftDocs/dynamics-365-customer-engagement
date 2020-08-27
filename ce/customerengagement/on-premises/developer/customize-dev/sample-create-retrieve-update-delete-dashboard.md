@@ -12,7 +12,7 @@ ms.assetid: eac23f38-e682-40b8-aa6a-b8145ebf7764
 author: JimDaly
 ms.author: nabuthuk
 manager: kvivek
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 25

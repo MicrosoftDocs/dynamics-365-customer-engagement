@@ -3,7 +3,7 @@ title: "Sample: Use rollup queries to track goals (Developer Guide for Dynamics 
 description: "This sample demonstrates how to use rollup queries to track goals"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
