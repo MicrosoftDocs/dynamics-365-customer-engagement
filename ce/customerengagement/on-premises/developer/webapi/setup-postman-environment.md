@@ -3,7 +3,7 @@ title: "Set up a Postman environment (Developer Guide for Dynamics 365 Customer 
 description: "Learn how to set up and configure a Postman environment that connects with Dynamics 365 Customer Engagement online and on-premises environments."
 ms.custom: 
 ms.date: 04/15/2019
-ms.reviewer: susikka
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
