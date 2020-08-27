@@ -71,8 +71,8 @@ The following are steps for option 2:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the mobile projects with attention to the export button](./media/mobile-upgrade-project-export.png)
 
-3. Download Github Desktop. 
-4. Open Github Desktop and initialize a repo in a folder of your choosing. 
+3. Download GitHub Desktop. 
+4. Open GitHub Desktop and initialize a repo in a folder of your choosing. 
 5. Rename the .Woodford files of your customized project and Microsoft's template to .zip. Extract it and drag the Microsoft project files from the extraction into the folder where you initialized the Git repo. 
 
 
@@ -80,10 +80,10 @@ The following are steps for option 2:
 > ![Screenshot of the file explorer with attention to the Woodford and Zip files](./media/mobile-upgrade-extract.png)
 
 
-6. Commit this to the master branch in Github desktop. 
-7. Create a new branch in Github Desktop and call it "customizations." 
+6. Commit this to the master branch in GitHub desktop. 
+7. Create a new branch in GitHub Desktop and call it "customizations." 
 8. Drag the extracted files from *your* customized project files into the same folder where you initialized the Git repo and placed the files before. 
-9. Open Github desktop, select refresh, and ensure you are on the "customizations" branch. You should then see the diff of your project compared to the Microsoft project. 
+9. Open GitHub desktop, select refresh, and ensure you are on the "customizations" branch. You should then see the diff of your project compared to the Microsoft project. 
 10. [Download](https://aka.ms/fsmobile-project) and import the latest Field Service Mobile project and then go to the Mobile Configuration Tool (Woodford). Create a child project off of the Microsoft project by selecting **Derive**. Export the derived child project, rename the downloaded project extension from .Woodford to .zip, and extract it as above. 
 11. For any files that are called out as being a diff from our original, you will need to copy those files or folders into the *new* derived child project.
 
@@ -99,7 +99,7 @@ The following are steps for option 2:
 
 ### Upgrading Offline HTML files
 
-If you created or updated offline HTML files, typically for offline JavaScript workflows, you must copy over Microsoft's offline HTML files in addition to yours into the child mobile project. Woodford treats any change to offline HTML as an entire override of the offline HTML of the parent project. It doesn’t merge files. Thereforce, if you are going to include any offline HTML in the child project, you must copy all the offline files from the parent, too.
+If you created or updated offline HTML files, typically for offline JavaScript workflows, you must copy over Microsoft's offline HTML files in addition to yours into the child mobile project. Woodford treats any change to offline HTML as an entire override of the offline HTML of the parent project. It doesn’t merge files. If you are going to include any offline HTML in the child project, you must copy all the offline files from the parent, too.
 
 If you make changes to a mobile entity, it will show as **Overridden**. 
 
