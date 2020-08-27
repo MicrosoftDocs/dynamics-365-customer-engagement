@@ -137,7 +137,7 @@ In previous releases of Dynamics 365 Customer Engagement (on-premises), users co
 The following data types aren't editable in editable grids: Customer and Partylist Lookup fields; Composite (address) fields; State/Status fields; Lookup entity-related fields (for example, the Account entity includes a contact lookup, where the Contact field is editable but the EmailAdress(Contact) field is not editable).  
 
 ## Group by views work on client side only
-Grouping behavior works only on the client side and does not span pages. Group by is a client only function and works only on one page of data. Group by does not show you all options based on your complete data set on the server. Group by shows grouping only on the current page. You can disable the grouping by using the property on custom control configuration. More information: [Make main grids editable](#make-main-grids-editable)
+Grouping behavior works only on the client side and does not span pages. Group by is a client only function and works only on one page of data. Group by does not show you all options based on your complete data set on the platform. Group by shows grouping only on the current page. You can disable the grouping by using the property on custom control configuration. More information: [Make main grids editable](#make-main-grids-editable)
 
 ## Keyboard support and shortcuts for editable grids
 
