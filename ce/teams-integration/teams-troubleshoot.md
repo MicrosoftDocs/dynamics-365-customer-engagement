@@ -231,5 +231,5 @@ If the page which is showing the error message, contains a custom resource (java
 
 Whenever a member leaves the team where a app record was pinned, the **Files** tab in Microsoft Teams which shows the documents shared in the team won’t be visible anymore as the user would lose access to the team. However, the user can still go to the customer engagement app in Dynamics 365 and access the record in the that was pinned in the team and can access files in the **Documents** tab in the **Related** section.
 
-To disable the user from accessing to the documents in the record from by going to the customer engagement app in Dynamics 365, an admin can remove the access of the record to the user or control the permission using the SharePoint site permissions.
+To disable the user from accessing to the documents in the record from the customer engagement app, an admin can remove the access of the record to the user or control the permission using the SharePoint site permissions.
 
