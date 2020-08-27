@@ -23,13 +23,13 @@ search.app:
 ---
 # Enhanced Collaboration Experience with Microsoft Teams
 
-Easily connect a customer engagement app in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, or Dynamics 365 Project Service Automation) record or view to a Microsoft Teams channel using the **Collaborate** button on the record or view page. The step-by-step process will help you connect the selected record or view to a Microsoft Teams channel.
+Easily connect customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, or Dynamics 365 Project Service Automation) records or views to a Microsoft Teams channel using the **Collaborate** button on the record or view page. The step-by-step process will help you connect the selected record or view to a Microsoft Teams channel.
 
-The [basic collaboration experience](teams-collaboration.md) only lets you pin a record or a view to a team channel from within Microsoft Teams. The enhanced collaboration experience includes everything in the [basic collaboration experience](teams-collaboration.md) and also lets you pin connect a record or a view to a team channel while you are working in customer engagement apps in Dynamics 365. 
+The [basic collaboration experience](teams-collaboration.md) only lets you pin a record or a view to a team channel from within Microsoft Teams. The enhanced collaboration experience includes everything in the [basic collaboration experience](teams-collaboration.md) and also lets you pin connect a record or a view to a team channel while you are working in customer engagement apps in Dynamics 365 (such as Dynamics 365 Sales and Dynamics 365 Customer Service). 
 
 ## Connect a record or a view to a team channel from customer engagement apps in Dynamics 365
 
-1. In your customer engagement app (such as Dynamics 365 Sales and Dynamics 365 Customer Service), open a record or view.
+1. In customer engagement apps (such as Dynamics 365 Sales and Dynamics 365 Customer Service), open a record or view.
 2. When the record or view is open, on the command bar, select **Collaborate**.
 
    > [!div class="mx-imgBorder"]
