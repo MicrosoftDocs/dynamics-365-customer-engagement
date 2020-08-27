@@ -3,7 +3,7 @@ title: "Create, export, or import an unmanaged solution (Developer Guide for Dyn
 description: "An unmanaged solution is useful as a way to group a set of unmanaged customizations into a set that can be transported between organizations"
 ms.custom: 
 ms.date: 04/02/2020
-ms.reviewer: "pehecke"
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

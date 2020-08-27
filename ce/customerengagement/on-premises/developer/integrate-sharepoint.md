@@ -3,7 +3,7 @@ title: "Integrate Dynamics 365 Customer Engagement with SharePoint (Developer Gu
 description: "The SharePoint integration feature enables you to store and manage documents on SharePoint in the context of a Dynamics 365 Customer Engagement (on-premises) record, and use the SharePoint document management abilities in Dynamics 365 Customer Engagement (on-premises), such as checking the document in and out, viewing version history, and changing document properties."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

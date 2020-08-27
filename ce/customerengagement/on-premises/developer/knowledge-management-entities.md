@@ -3,7 +3,7 @@ title: "Knowledge management entities (Developer Guide for Dynamics 365 Customer
 description: ""
 ms.custom: 
 ms.date: 10/01/2019
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

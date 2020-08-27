@@ -3,7 +3,7 @@ title: "Extend Dynamics 365 Customer Engagement (on-premises) on the client (Dev
 description: "Learn how developers can extend and customize Dynamics 365 Customer Engagement (on-premises) in clients such as web applications, Dynamics 365 for phones, and Dynamics 365 for tablets by using JavaScript and web resources"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

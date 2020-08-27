@@ -3,7 +3,7 @@ title: "Sample: Retrieve field sharing records (Developer Guide for Dynamics 365
 description: "The sample shows how to retrieve the PrincipalObjectAttributeAccess (field sharing) records for an entity. "
 ms.custom: 
 ms.date: 01/08/2020
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

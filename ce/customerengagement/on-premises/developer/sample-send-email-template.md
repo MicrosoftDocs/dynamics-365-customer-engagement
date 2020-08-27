@@ -3,7 +3,7 @@ title: "Sample: Send an email using a template (Developer Guide for Dynamics 365
 description: "This sample shows how to send an email message by using a template using the SendEmailFromTemplateRequest message"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
