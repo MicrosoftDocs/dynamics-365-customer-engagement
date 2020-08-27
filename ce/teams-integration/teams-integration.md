@@ -53,7 +53,7 @@ With the Dynamics 365 for Microsoft Teams integration, add app features that you
 
 > [!VIDEO https://www.youtube.com/embed/u0DaRzZDAPc]
 
-## Feedback
+## Questions and feedback
 
  If you have additional feedback or questions regarding this feature, contact [D365forTeams@microsoft.com](mailto:D365forTeams@microsoft.com).
 
