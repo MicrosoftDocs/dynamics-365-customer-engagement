@@ -12,7 +12,7 @@ ms.topic: article
 
 # Guide agents with scripts
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Overview of agent scripts
 
