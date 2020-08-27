@@ -47,7 +47,7 @@ Dynamics 365 for Microsoft Teams integration enables users to easily work with c
 
 With the Dynamics 365 for Microsoft Teams integration, add app features that you rely on, to the Microsoft Teams app you collaborate with. This lets you easily work with your customer information and share files directly from Microsoft Teams.
 
-- Access customer engagement apps records by adding a Dynamics 365 tab into the Microsoft Teams channel. Collaborate at a large scale not only on a single app record (like a sales opportunity) but also on multiple records.
+- Access customer engagement app records by adding a Dynamics 365 tab into the Microsoft Teams channel. Collaborate at a large scale not only on a single app record (like a sales opportunity) but also on multiple records.
 - Use Microsoft Teams integration to seamlessly collaborate on documents between customer engagement apps and Microsoft Teams. 
 - Collaborate on a set of records, such as *active opportunity* using Microsoft Teams conversation and easily access records on the go using the Dynamics 365 bot for Microsoft Teams mobile app. 
 
