@@ -98,7 +98,7 @@ The following are steps for option 2:
 
 ### Upgrading Offline HTML files
 
-If you created or updated offline HTML files, typically for offline JavaScript workflows, you must copy over Microsoft's Offline HTML files in addition to yours into the child mobile project. Woodford treats any change to offline HTML as an entire override of the offline HTML of the parent project. It doesn’t merge files. Thereforce, if you are going to include any offline HTML in the child project, you must copy all the offline files from the parent, too.
+If you created or updated offline HTML files, typically for offline JavaScript workflows, you must copy over Microsoft's offline HTML files in addition to yours into the child mobile project. Woodford treats any change to offline HTML as an entire override of the offline HTML of the parent project. It doesn’t merge files. Thereforce, if you are going to include any offline HTML in the child project, you must copy all the offline files from the parent, too.
 
 If you make changes to a mobile entity, it will show as **Overridden**. 
 
