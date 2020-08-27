@@ -2,7 +2,7 @@
 title: "Use the personal dashboard| MicrosoftDocs"
 ms.custom: ""
 description: "Use the personal dashboard."
-ms.date: 10/16/2019
+ms.date: 8/26/2020
 ms.reviewer: ""
 ms.service: crm-online
 ms.suite: ""
@@ -41,20 +41,20 @@ You can use the Dynamics 365 app for Microsoft Teams for your own use. If you wa
 
 ## My Dashboard tab
 
-Select the **My Dashboard** tab to view your model-driven app dashboard in Microsoft Teams. The dashboard displayed is based on who is signed in and their user role.
+Select the **My Dashboard** tab to view your  app dashboard in Microsoft Teams. The dashboard displayed is based on who is signed in and their user role.
 
 > [!div class="mx-imgBorder"]
 ![Dynamics 365 apps dashboard](media/teams-bot-dashboard.png "Dynamics 365 apps dashboard")
 
 ## Settings tab
 
-If you have more than one environment or model-driven app, you can use the **Settings** tab to select a different environment or app to appear as a dashboard.
+If you have more than one environment or app, you can use the **Settings** tab to select a different environment or app to appear as a dashboard.
 
 > [!div class="mx-imgBorder"]
 ![Dashboard settings](media/teams-settings-page.png "Dashboard settings")
 
 > [!NOTE]
-> - Only Common Data Service environments (version 9.x or later) that are active, appear in the list (those that are not disabled).
+> - Only environments (version 9.x or later) with customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation) that are active, appear in the list (those that are not disabled).
 > - Only Unified Interface apps are listed.
 > - Only app modules licensed for the selected environment are listed. 
 

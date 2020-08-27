@@ -3,7 +3,7 @@ title: "Sample: Clean up history for a queue (early bound)| MicrosoftDocs"
 decription: The sample code demonstrates how to clean up the history for the queue using RemoveFromQueueRequest with inactive items.
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

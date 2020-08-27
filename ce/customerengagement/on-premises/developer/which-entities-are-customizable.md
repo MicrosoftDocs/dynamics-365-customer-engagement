@@ -3,7 +3,7 @@ title: "Which entities are customizable? (Developer Guide for Dynamics 365 Custo
 description: "Learn about the entities properties that are customizable."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

@@ -3,7 +3,7 @@ title: "Manage duplicate detection for create and update operations (Developer G
 description: "Read how to detect duplicates during create and update operations using the Dynamics 365 Customer Engagement Web API and Organization service."
 ms.custom: 
 ms.date: 11/15/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

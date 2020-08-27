@@ -3,7 +3,7 @@ title: "Configure activity feeds (Developer Guide for Dynamics 365 Customer Enga
 description: "The following sections contain information about how to configure your system for activity feeds."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
